@@ -41,14 +41,14 @@ ms.lasthandoff: 03/31/2017
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  ในการ**ธุรกรรม**หน้า:
+2.  ในการ**ธุรกรรม**หน้า:
 
 -   โปรแกรมแนะนำแนะนำสินค้าตามรายการทั้งหมดของสินค้าในตะกร้า
 -   ถ้าร้านค้าที่เชื่อมโยง เพิ่มลูกค้าลงในธุรกรรม โปรแกรมแนะนำให้คำแนะนำส่วนบุคคลโดยใช้ประวัติธุรกรรมของลูกค้าและรายการสินค้าในตะกร้า
 
 **หมายเหตุ**เพื่อแสดงคำแนะนำในการ**ธุรกรรม**หน้า ผู้ค้าปลีกที่ต้องปรับปรุงโครงร่างหน้าจอใน 365 Dynamics สำหรับการดำเนินงาน การ**คำแนะนำ**ควบคุมที่ต้องทิ้งบนไป**ธุรกรรม**หน้า [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  ในการ**รายละเอียดลูกค้า**หน้า:
+3.  ในการ**รายละเอียดลูกค้า**หน้า:
     -   โปรแกรมแนะนำแนะนำรายการโดยยึดตาม ID ผู้ใช้และรายการในชุดรายการพรของลูกค้า
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
