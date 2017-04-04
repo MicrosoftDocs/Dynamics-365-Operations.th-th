@@ -1,0 +1,63 @@
+---
+title: "การวางแผนสำหรับความครอบคลุมไซต์ ไม่ระบุคลังสินค้าหลัก"
+description: "หัวข้อนี้อธิบายวิธีการวางแผนสินค้าที่มีไซต์เป็นชุดมิติความครอบคลุม"
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 2474
+ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 28607f0fc8db99c9fc8e96b4514763b8cf589dd8
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>การวางแผนสำหรับความครอบคลุมไซต์ ไม่ระบุคลังสินค้าหลัก
+
+หัวข้อนี้อธิบายวิธีการวางแผนสินค้าที่มีไซต์เป็นชุดมิติความครอบคลุม
+
+สถานการณ์จำลองการวางแผนหลักนี้มีเงื่อนไขดังต่อไปนี้
+
+-   มิติไซต์มีการตั้งค่าเป็นข้อมูลบังคับ และต้องป้อนบนธุรกรรมความต้องการ
+-   ไม่ได้ตั้งค่ามิติคลังสินค้าเป็นข้อมูลบังคับ คุณอาจจะทราบคลังสินค้า แต่มันไม่ได้ใช้ในการคำนวณการวางแผนหลัก
+-   มิติไซต์ตั้งค่าสำหรับการวางแผนความครอบคลุม
+-   มิติคลังสินค้าไม่ได้ตั้งค่าสำหรับการวางแผนความครอบคลุม ดังนั้น การจัดหาวัสดุและความต้องการถูกรวมโดยไซต์ และอาจรวมถึงมิติความครอบคลุมที่วางแผนอื่นด้วย
+
+รูปภาพต่อไปนี้แสดงวิธีการประมวลผลการวางแผนหลัก พารามิเตอร์ที่มีการอ้างอิงในรูปภาพ และตำแหน่งของพารามิเตอร์เหล่านั้นมีดังต่อไปนี้
+-   มีการกำหนดความครอบคลุมสินค้าสำหรับสินค้า คลิ**การจัดการข้อมูลผลิตภัณฑ์&gt;ผลิตภัณฑ์&gt;ผลิตภัณฑ์ที่นำออกใช้** เลือกสินค้า และจากนั้น คลิก**วางแผน&gt;ความครอบคลุมสินค้า**
+-   มีการกำหนดความสัมพันธ์ในการเติมสินค้าสำหรับคลังสินค้า  คลิ**บริหารสินค้าคงคลัง&gt;ตั้งค่า&gt;แบ่งสินค้าคงคลัง&gt;คลังสินค้า** บนแท็บ **การวางแผนหลัก** ดูกลุ่มฟิลด์ **คลังสินค้าหลัก**
+-   ใบสั่งประเภทใบสั่งเริ่มต้นที่ถูกตั้งค่าเป็นการผลิต ใบสั่งซื้อหรือคัมบัง คลิ**การจัดการข้อมูลผลิตภัณฑ์&gt;ผลิตภัณฑ์&gt;ผลิตภัณฑ์ที่นำออกใช้** เลือกสินค้า และจากนั้น คลิก**วางแผน&gt;ตั้งค่าใบสั่งเริ่มต้น** ในฟอร์ม **การตั้งค่าใบสั่งเริ่มต้น** ดูฟิลด์ **ประเภทใบสั่งเริ่มต้น**
+
+![ความต้องการความครอบคลุมไซต์ที่ไม่จำเป็นต้องมีคลังสินค้า](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+
+
+
+<a name="see-also"></a>ดูเพิ่มเติมที่
+--------
+
+[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+
+[การวางแผนหลัก - ความครอบคลุมไซต์ ข้อมูลบังคับคลังสินค้า](master-plan-site-coverage-warehouse-mandatory.md)
+
+[การวางแผนหลัก - ความครอบคลุมไซต์และคลังสินค้า คลังสินค้าไม่ใช่ข้อมูลบังคับ](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+
+[การวางแผนหลัก- ความครอบคลุมไซต์และคลังสินค้า ข้อมูลบังคับคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+
+[การวางแผนหลัก - วิธีกำหนด BOM เวอร์ชัน](master-plan-bom-version-determined.md)
+
+

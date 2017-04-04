@@ -1,0 +1,60 @@
+---
+title: "แบบสอบถาม"
+description: "หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และเชื่อมโยงไปยังข้อมูลรายละเอียดเพิ่มเติม แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์"
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 17271
+ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
+ms.search.region: Global
+ms.author: twheeloc
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
+ms.openlocfilehash: b1a7ebd221357540384c77b78834d12f81773ff1
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="questionnaires"></a>แบบสอบถาม
+
+หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และเชื่อมโยงไปยังข้อมูลรายละเอียดเพิ่มเติม แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์ 
+
+คุณสามารถกำหนดแบบสอบถามให้เหมาะสมกับความต้องการเฉพาะของคุณ โดยใช้คุณลักษณะต่าง ๆ ที่มีอยู่ใน 365 Dynamics Microsoft สำหรับการดำเนินงาน นี่คือบางตัวอย่างของวิธีการใช้แบบสอบถาม:
+
+-   เพื่อทดสอบทักษะด้านอาชีพของพนักงานและผู้สมัคร
+-   ประเมินว่าผู้เข้าร่วมหลักสูตรได้เรียนรู้เอกสารประกอบหลักสูตรหรือไม่
+-   ประเมินผลหลักสูตร (ตัวอย่างเช่น สิ่งอำนวยความสะดวก เนื้อหา และผู้สอน)
+-   สำรวจความพึงพอใจของพนักงานและลูกค้า
+-   ประเมินประสิทธิภาพงานของพนักงาน
+
+ตารางต่อไปนี้มีลิงค์ไปยังข้อมูลเกี่ยวกับงานสำคัญของแบบสอบถาม คลิกลิงค์สำหรับข้อมูลเพิ่มเติม
+
+| หัวข้อ| คำอธิบาย|
+|------|------------|
+| [Design a questionnaire](design-questionnaires.md)  | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบแบบสอบ กระบวนการออกแบบเกี่ยวข้องกับการตั้งค่าข้อกำหนดเบื้องต้น คำตอบ และคำถาม จากนั้นจึงรวมทั้งหมดลงในแบบสอบถาม |
+| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามสำหรับผู้ตอบและวิธีการกรอกแบบสอบถาม                                                                       |
+| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการดูและประเมินผลลัพธ์จากแบบสอบถามที่กรอกข้อมูลแล้ว                                                                                        |
+
+
+
+<a name="see-also"></a>ดูเพิ่มเติมที่
+--------
+
+[การออกแบบแบบสอบถาม](design-questionnaires.md)
+
+[การแจกจ่ายและการตอบแบบสอบถาม](distribute-questionnaires.md)
+
+[การดู และประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)
+
+
