@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# การวางแผนหลัก
+## สร้างการคาดการณ์ความต้องการ
+### [ภาพรวมการคาดการณ์ความต้องการ](master-planning/introduction-demand-forecasting.md)
+### [ตั้งค่าการคาดการณ์ความต้องการ](master-planning/demand-forecasting-setup.md)
+### [สร้างการคาดการณ์ข้อมูลขั้นต้นทางสถิติ](master-planning/generate-statistical-baseline-forecast.md)
+### [ทำการปรับปรุงด้วยตนเองในบรรทัดหลักการคาดการณ์](master-planning/manual-adjustments-baseline-forecast.md)
+### [อนุญาตให้มีการคาดการณ์ที่ปรับปรุงแล้ว](master-planning/authorize-adjusted-forecast.md)
+### [ตรวจสอบความถูกต้องที่คาดการณ์](master-planning/monitor-forecast-accuracy.md)
+### [เอา outliers จากข้อมูลธุรกรรมในอดีต](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## แผนหลัก
+### [ข้อความการดำเนินการ](master-planning/action-messages.md)
+### [การตั้งค่าความครอบคลุม](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [แผนหลักและฟังก์ชันหลายไซต์](master-planning/master-plan-multisite-functionality.md)
+#### [วางแผนความครอบคลุมไซต์ คลังสินค้าบังคับ](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [วางแผนความครอบคลุมไซต์ คลังสินค้าไม่บังคับ](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [วางแผนสำหรับไซต์และคลังสินค้าครอบคลุม คลังสินค้าบังคับ](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [วางแผนสำหรับไซต์และคลังสินค้าครอบคลุม คลังสินค้าไม่บังคับ](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [กำหนดเวอร์ชัน BOM](master-planning/master-plan-bom-version-determined.md)
+### [การขยายของ BOM เวอร์ชัน](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [สืบค้นกลับการกระจาย](master-planning/trace-explosion.md)
+# การจัดซื้อและการจัดหา
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [ลำดับงานการจัดซื้อและการจัดหา](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [คำขอใบเสนอราคา (Rfq)](procurement/request-quotations.md)
+## ใบสั่งซื้อ
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [อนุมัติ และยืนยันใบสั่งซื้อ](procurement/purchase-order-approval-confirmation.md)
+## การจัดการและการทำงานร่วมกันกับผู้จัดจำหน่าย
+### [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](procurement/set-up-maintain-vendor-collaboration.md)
+### [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](procurement/manage-vendor-collaboration-users.md)
+### [ตั้งค่าบัญชีผู้จัดจำหน่าย](procurement/set-up-vendor-accounts.md)
+### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก](procurement/vendor-collaboration-work-external-vendors.md)
+### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [ทำงานร่วมกับผู้จัดจำหน่าย โดยใช้พอร์ทัลของผู้จัดจำหน่าย](procurement/collaborate-vendors-vendor-portal.md)
+### [ผู้จัดจำหน่ายร่วมกันพื้นที่ทำงานโทรศัพท์มือถือ](procurement/vendor-collaboration-mobile-workspace.md)
+### [ความปลอดภัยของผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](procurement/configure-security-vendor-portal-users.md)
+## ราคาและส่วนลด
+### [Purchase agreements](procurement/purchase-agreements.md)
+## ใบรับสินค้าและการออกใบแจ้งหนี้
+### [ใบรับสินค้า - ใบสั่งซื้อ](procurement/product-receipt-against-purchase-orders.md)
+### [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# การจัดการข้อมูลผลิตภัณฑ์
+## ข้อมูลผลิตภัณฑ์
+### [BOM และสูตร](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Nomenclature หมายเลขผลิตภัณฑ์](pim/product-variant-identification-nomenclature.md)
+### [ผลิตภัณฑ์ที่เกี่ยวข้องกับการแปล FAQ](pim/translations-product-related-information.md)
+### [ลงทะเบียนหมายเลขประจำสินค้าในกระบวนการขาย](sales-marketing/register-serial-numbers-sales-process.md)
+### [ค้นหาผลิตภัณฑ์ในระหว่างการป้อนข้อมูลใบสั่ง](pim/search-products-product-variants.md)
+## สร้างการจัดโครงแบบผลิตภัณฑ์
+### [สร้างแบบจำลองการจัดโครงแบบผลิตภัณฑ์](pim/build-product-configuration-model.md)
+### [การคำนวณสำหรับ FAQ แบบจำลองการจัดโครงแบบผลิตภัณฑ์](pim/calculate-product-configuration-models.md)
+### [กฎโครงแบบ](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [ข้อจำกัดนิพจน์และข้อจำกัดตาราง](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [นำการจัดโครงแบบผลิตภัณฑ์](pim/reuse-product-configurations.md)
+### [ตั้งค่าแบบจำลองการจัดโครงแบบ](pim/set-up-maintain-product-configuration-model.md)
+### [ข้อจำกัดตารางที่ระบบกำหนดไว้ และผู้ใช้กำหนดเอง](pim/system-defined-user-defined-table-constraints.md)
+# การควบคุมการผลิต
+## กระบวนการผลิต    
+### [ใช้กิจกรรมที่รับเหมารายย่อย](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [จัดการงานที่รับเหมารายย่อยในการผลิต](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [กระบวนการผลิต](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [กระบวนการผลิตและการดำเนินงาน](production-control/routes-operations.md)
+## ใบสั่งผลิต
+### [Create production orders](production-control/create-production-orders.md)
+### [ตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย](production-control/default-order-settings.md)
+### [ใบสั่งผลิตที่นำออกใช้](production-control/release-production-orders.md)
+### [กลับรายการสถานะของใบสั่งผลิต](production-control/reverse-production-order-status.md)
+### [รายงาน Bom เมื่อเสร็จสมบูรณ์](production-control/report-boms-as-finished.md)
+### [รายงานการเสร็จงานของใบสั่งผลิต](production-control/report-production-orders-as-finished.md)
+## การผลิตแบบ lean 
+### [บอร์ดการโอนย้ายคัมบังที่สนับสนุนสำหรับบาร์โค้ดสแกนเนอร์](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [งานคัมบังที่วางแผนสำหรับการผลิตแบบ lean](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [ภาพรวมของการผลิตแบบ lean](production-control/lean-manufacturing-overview.md)
+### [รูปแบบองค์กรแบบ lean](production-control/lean-manufacturing-modeling-lean-organization.md)
+## การดำเนินงานและการจัดกำหนดการ
+### [การปันส่วนเวลาให้กับงานในกลุ่มงาน](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## ทรัพยากร
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## การดำเนินการผลิต
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [คำนวณปริมาณการใช้วัสดุ](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [ค่าเริ่มต้นของใบสั่งผลิตในการดำเนินการผลิต](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# การขายและการตลาด
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## ใบสั่งขาย
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [หมายเลขประจำสินค้าในกระบวนการขาย](sales-marketing/register-serial-numbers-sales-process.md)
+### [จองจากชุดเดียวกัน](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## ใบเสนอราคาขาย
+### [Price simulation](sales-marketing/price-simulation.md)
+## การส่งคืนสินค้า
+### [Sales returns](warehousing/sales-returns.md)
+# การจัดการการขนส่ง
+## [เครื่องมือการขนส่งใหม่](transportation/create-new-transportation-management-engine.md)
+## [สร้างใบตราส่ง](transportation/create-bill-of-lading.md)
+## [ค่าระวางขนส่งกระบวนการผลิตการวางแผน](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [วางแผนจำนวนงานโดยใช้การรวมบัญชีฮับ](transportation/plan-loads-hub-consolidation.md)
+## [กระทบยอดค่าขนส่ง](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [กลไกจัดการการขนส่ง](transportation/transportation-management-engines.md)
+# การจัดการคลังสินค้า
+## การตั้งค่า 
+### [ตัวควบคุมการทำงาน โดยใช้แม่แบบการทำงานและไดเรกทีฟของสถานที่เก็บ](warehousing/control-warehouse-location-directives.md)
+### [จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า](warehousing/manage-warehouse-workers.md)
+### [ตั้งค่าโครงร่าง](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [หน่วยวัดและนโยบายการเก็บสต็อก](warehousing/unit-measure-stocking-policies.md)
+## การเบิกสินค้าและการบรรจุสินค้า
+### [บรรจุภัณฑ์และค่าธรรมเนียม](warehousing/pack-materials-packing-material-fees.md)
+## การนับสินค้าคงคลัง
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [การตรวจนับป้ายสินค้าคงคลัง](inventory/inventory-tag-counting.md)
+## การบรรจุลงตู้บรรจุสินค้า 
+## การเติมสินค้า
+### [Replenishment](warehousing/replenishment.md)
+## อุปกรณ์โมบาย
+### [การตั้งค่าคอนฟิกชื่อเขตข้อมูลในโปรแกรมประยุกต์ที่คลังสินค้า](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานของคลังสินค้า](warehousing/configure-mobile-devices-warehouse.md)
+### [เว็บไซต์คลังสินค้าอุปกรณ์เคลื่อนที่ (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [การตั้งค่าการแสดงผลสำหรับอุปกรณ์เคลื่อนที่ของคลังสินค้า](warehousing/change-warehouse-mobile-device-displays.md)
