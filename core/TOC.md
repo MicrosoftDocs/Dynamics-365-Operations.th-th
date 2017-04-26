@@ -75,3 +75,4 @@
 # ทรัพยากรอื่นๆ
 ## [Dynamics 365 สำหรับอภิธานศัพท์ของการดำเนินงาน](get-started/glossary.md)
 ## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+

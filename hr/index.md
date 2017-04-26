@@ -98,3 +98,5 @@ Microsoft Dynamics AX สามารถช่วยให้คุณรัก�
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+

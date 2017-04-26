@@ -55,3 +55,5 @@ ms.lasthandoff: 04/12/2017
 ## <a name="elearning-courses"></a>หลักสูตร eLearning
 สำหรับข้อมูลเกี่ยวกับ 365 Dynamics Microsoft สำหรับการดำเนินการฝึกอบรม ดู<a href="https://mbspartner.microsoft.com/AX/LearningPlans/">เว็บไซต์เรียนรู้ Dynamics Microsoft</a> (ต้องมีบัญชี CustomerSource) 
 
+
+

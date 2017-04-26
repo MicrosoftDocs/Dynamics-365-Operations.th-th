@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>โฮมเพจการจัดการเงินสดและธนาคาร
 
+[!include[banner](../includes/banner.md)]
+
+
 คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น  
 
 เครื่องมือเหล่านี้รวมถึงใบนำฝาก เช็ค ตั๋วแลกเงิน และตั๋วสัญญาใช้เงิน  คุณสามารถกระทบยอดบัญชีธนาคาร และพิมพ์ข้อมูลธนาคารบนรายงานมาตรฐาน
@@ -69,4 +72,6 @@ ms.lasthandoff: 04/12/2017
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [สถานการณ์สมมติ: การชำระเงินของลูกค้าหนึ่งที่ใช้เพื่อชำระใบแจ้งหนี้หลายที่ครอบคลุมรอบระยะเวลาส่วนลดหลาย](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
