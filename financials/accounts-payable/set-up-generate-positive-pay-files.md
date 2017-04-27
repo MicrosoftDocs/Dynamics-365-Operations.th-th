@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>ตั้งค่าและสร้างไฟล์ Positve Pay
 
+[!include[banner](../includes/banner.md)]
+
+
 บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay 
 
 ตั้งค่า Positive Pay เพื่อสร้างรายการอิเล็กทรอนิกส์ของเช็คที่ได้รับไปยังธนาคาร  จากนั้น เมื่อเช็คถูกนำเสนอให้แก่ธนาคารแล้ว ธนาคารจะเปรียบเทียบเช็คกับรายการของเช็ค  ถ้าเช็คตรงกับเช็คในรายการ ธนาคารจะเคลียร์เช็ค  ถ้าเช็คไม่ตรงกัน ธนาคารจะระงับเช็คไว้เพื่อตรวจสอบ
 
 ## <a name="security-for-positive-pay-files"></a>ความปลอดภัยสำหรับไฟล์ positive pay
-ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ positive pay ถูกดาวน์โหลดไปยังตำแหน่งที่ระบุโดยเว็บเบราเซอร์ของคุณ  เนื่องจากแฟ้มบวกค่าจ้างสามารถประกอบด้วยข้อมูลที่สำคัญ สิ่งสำคัญคือว่า เฉพาะผู้ใช้ที่ได้รับอนุญาตสามารถเข้าถึงสร้าง และดูข้อมูลนี้ใน 365 Dynamics Microsoft สำหรับการดำเนินงาน ใช้ตารางต่อไปนี้เพื่อช่วยให้คุณกำหนดสิทธิ์ที่จำเป็นได้
+ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ positive pay ถูกดาวน์โหลดไปยังตำแหน่งที่ระบุโดยเว็บเบราเซอร์ของคุณ  เนื่องจากไฟล์ positive pay อาจประกอบด้วยข้อมูลที่อ่อนไหว เป็นเรื่องสำคัญว่าเฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่มีการเข้าถึง เพือสร้างและดูข้อมูลนี้ใน Microsoft Dynamics 365 for Operations ใช้ตารางต่อไปนี้เพื่อช่วยให้คุณกำหนดสิทธิ์ที่จำเป็นได้
 
 <table>
 <colgroup>
@@ -75,7 +78,7 @@ ms.lasthandoff: 03/31/2017
 </table>
 
 ## <a name="set-up-a-positive-pay-format"></a>ตั้งค่ารูปแบบของ Positive Pay
-มีสร้างไฟล์ positive pay โดยการใช้เอนทิตีข้อมูล  ก่อนที่คุณสามารถสร้างไฟล์ positive pay คุณต้องตั้งค่ารูปแบบสำหรับการป้อนค่าการแปลง ที่จะใช้ในการแปลข้อมูลเช็คเป็นรูปแบบที่สามารถสื่อสารกับธนาคารได้  On the **Positive pay format** page, you can create a file format identifier and a description. รูปแบบการป้อนข้อมูลการแปลงต้องเป็นชนิด XML  รูปแบบเฉพาะขึ้นอยู่กับไฟล์การแปลงที่คุณกำลังใช้  แฟ้ม Extensible สไตล์ชีภาษาแปลง (XSLT) ตัวอย่างที่มีให้ใช้งานตัวอย่างเช่น การ**องค์ประกอบ XML**รูปแบบ Use the **Upload file used for transformation** action to specify the location of the transform file for the format that your bank requires.
+มีสร้างไฟล์ positive pay โดยการใช้เอนทิตีข้อมูล  ก่อนที่คุณสามารถสร้างไฟล์ positive pay คุณต้องตั้งค่ารูปแบบสำหรับการป้อนค่าการแปลง ที่จะใช้ในการแปลข้อมูลเช็คเป็นรูปแบบที่สามารถสื่อสารกับธนาคารได้  ในหน้า **รูปแบบ Positive pay** คุณสามารถสร้างตัวบ่งชี้รูปแบบไฟล์และคำอธิบายได้  รูปแบบการป้อนข้อมูลการแปลงต้องเป็นชนิด XML  รูปแบบเฉพาะขึ้นอยู่กับไฟล์การแปลงที่คุณกำลังใช้  ตัวอย่างเช่น ไฟล์ Extensible Stylesheet Language transformation (XSLT) ที่ได้รับ ใช้รูปแบบ **องค์ประกอบ XML** ใช้การดำเนินการ **อัพโหลดไฟล์ที่ใช้สำหรับการแปลง** เพื่อระบุที่ตั้งของไฟล์การแปลง สำหรับรูปแบบที่ธนาคารของคุณต้องการ
 
 ## <a name="example-xslt-file-for-positive-pay-file"></a>ตัวอย่าง: ไฟล์ XSLT สำหรับไฟล์ Positve Pay
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl xslthelper" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xslthelper="http://schemas.microsoft.com/BizTalk/2003/xslthelper">
@@ -137,24 +140,26 @@ ms.lasthandoff: 03/31/2017
     </xsl:stylesheet>
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>กำหนดรูปแบบ Positve Pay ให้กับบัญชีธนาคาร
-สำหรับแต่ละบัญชีธนาคารที่คุณต้องการสร้างข้อมูล positive pay ให้ คุณต้องกำหนดรูปแบบ positive pay ที่คุณระบุไว้ในส่วนก่อนหน้านี้  On the **Bank accounts** page, select the positive pay format that corresponds to the bank account. In the **Positive pay start date** field, enter the first date to generate positive pay files. เป็นสิ่งสำคัญที่คุณป้อนวันที่ในฟิลด์นี้  มิฉะนั้น ไฟล์ positive pay แรกที่คุณสร้างขึ้นจะรวมเช็คทั้งหมดที่เคยสร้างไว้สำหรับบัญชีธนาคารนี้
+สำหรับแต่ละบัญชีธนาคารที่คุณต้องการสร้างข้อมูล positive pay ให้ คุณต้องกำหนดรูปแบบ positive pay ที่คุณระบุไว้ในส่วนก่อนหน้านี้  ในหน้า **บัญชีธนาคาร** เลือกรูปแบบ positive pay ที่สอดคล้องกับบัญชีธนาคาร ในฟิลด์ **วันที่เริ่มต้น Positive pay** ป้อนวันที่แรกในการสร้างไฟล์ Positive pay เป็นสิ่งสำคัญที่คุณป้อนวันที่ในฟิลด์นี้  มิฉะนั้น ไฟล์ positive pay แรกที่คุณสร้างขึ้นจะรวมเช็คทั้งหมดที่เคยสร้างไว้สำหรับบัญชีธนาคารนี้
 
 ## <a name="assign-a-number-sequence-for-positive-pay-files"></a>มอบหมายลำดับหมายเลขสำหรับไฟล์ Positve Pay
-แต่ละไฟล์ positive pay ต้องมีหมายเลขเฉพาะ  Use the **Number sequences** tab on the **Cash and bank management parameters** page to create a number sequence for positive pay files.
+แต่ละไฟล์ positive pay ต้องมีหมายเลขเฉพาะ  ใช้แท็บ **ลำดับหมายเลข** บนหน้า  **พารามิเตอร์การจัดการเงินสดและธนาคาร** เพื่อสร้างลำดับหมายเลขสำหรับไฟล์ Positive pay
 
 ## <a name="generate-a-positive-pay-file-for-a-single-bank-account"></a>สร้างไฟล์ positive pay สำหรับบัญชีธนาคารเดี่ยว
-คุณสามารถสร้างไฟล์ positive pay สำหรับนิติบุคคลเดียวและบัญชีธนาคารหนึ่งๆ  สำหรับข้อมูลเกี่ยวกับวิธีการสร้างไฟล์ positive pay สำหรับนิติบุคคลและบัญชีธนาคารหลายรายการพร้อมกัน ให้ดูส่วนถัดไป  To generate a positive pay file for a single legal entity and a single bank account, open the **Generate a positive pay file** dialog box from the **Bank accounts** page. In the **Cut-off date** field, enter the last check date to include in the positive pay file. เช็คทั้งหมดที่ยังไม่ได้ถูกรวมอยู่ในไฟล์ positive pay ภายในวันที่สิ้นสุดของเช็คนี้จะถุกรวมอยู่ในไฟล์
+คุณสามารถสร้างไฟล์ positive pay สำหรับนิติบุคคลเดียวและบัญชีธนาคารหนึ่งๆ  สำหรับข้อมูลเกี่ยวกับวิธีการสร้างไฟล์ positive pay สำหรับนิติบุคคลและบัญชีธนาคารหลายรายการพร้อมกัน ให้ดูส่วนถัดไป  เพื่อสร้างไฟล์ Positive pay สำหรับนิติบุคคลเดียวและบัญชีธนาคารเดียว ให้เปิดกล่องโต้ตอบ **สร้างไฟล์ Positive pay** จากหน้า **บัญชีธนาคาร** ในฟิลด์ **วันที่ตัดยอด** ป้อนวันที่ของเช็คล่าสุดเพื่อรวมไว้ในไฟล์ Positive pay เช็คทั้งหมดที่ยังไม่ได้ถูกรวมอยู่ในไฟล์ positive pay ภายในวันที่สิ้นสุดของเช็คนี้จะถุกรวมอยู่ในไฟล์
 
 ## <a name="generate-a-positive-pay-file-for-multiple-bank-accounts"></a>สร้างไฟล์ positive pay สำหรับบัญชีธนาคารหลายรายการ
-To generate a positive pay file for multiple bank accounts, use the **Generate a positive pay file** periodic task. เลือกรูปแบบ positive pay สำหรับไฟล์ และระบุว่าจะสร้างไฟล์สำหรับนิติบุคคลทั้งหมด หรือสำหรับนิติบุคคลที่เลือก  คุณสามารถสร้างไฟล์ positive pay สำหรับบัญชีธนาคารทั้งหมดที่ใช้รูปแบบ positive pay หรือสำหรับบัญชีธนาคารที่เลือก  In the **Cut-off date** field, enter the last check date to include in the positive pay file. เช็คทั้งหมดที่ยังไม่ได้ถูกรวมอยู่ในไฟล์ positive pay ภายในวันที่สิ้นสุดของเช็คนี้จะถุกรวมอยู่ในไฟล์
+เพื่อสร้างไฟล์ Positive pay สำหรับบัญชีธนาคารหลายรายการ ใช้งานประจำงวด **สร้างไฟล์ Positive pay** เลือกรูปแบบ positive pay สำหรับไฟล์ และระบุว่าจะสร้างไฟล์สำหรับนิติบุคคลทั้งหมด หรือสำหรับนิติบุคคลที่เลือก  คุณสามารถสร้างไฟล์ positive pay สำหรับบัญชีธนาคารทั้งหมดที่ใช้รูปแบบ positive pay หรือสำหรับบัญชีธนาคารที่เลือก  ในฟิลด์ **วันที่ตัดยอด** ป้อนวันที่ของเช็คล่าสุดเพื่อรวมไว้ในไฟล์ Positive pay เช็คทั้งหมดที่ยังไม่ได้ถูกรวมอยู่ในไฟล์ positive pay ภายในวันที่สิ้นสุดของเช็คนี้จะถุกรวมอยู่ในไฟล์
 
 ## <a name="view-the-results-of-positive-pay-file-generation"></a>ดูผลลัพธ์ของการสร้างไฟล์ positive pay
-After the positive pay file is generated, you can view the results on the **Positive pay file summary** page. To view the details of the individual checks, use the **Positive pay file** details page.
+หลังจากที่มีสร้างไฟล์ Positive pay คุณสามารถดูผลลัพธ์ในหน้า  **สรุปไฟล์ Positive pay** ได้  เมื่อต้องการดูรายละเอียดของเช็คแต่ละรายการ ใช้หน้ารายละเอียด **ไฟล์ Positive pay**
 
 ## <a name="confirm-a-positive-pay-file"></a>ยืนยันไฟล์ Positive Pay
-หลังจากที่เช็คที่ถูกรายการในไฟล์ positive pay ได้ถูกชำระ คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ  จากนั้น คุณสามารถยืนยันไฟล์ positive pay ได้  On the **Positive pay file summary** page, select a positive pay file that has a status of **Created**, and then select the **Enter confirmation** action. เมื่อคุณยืนยันไฟล์ positive pay จะมีการบันทึกหมายเลขใบยืนยันที่คุณได้รับจากธนาคาร
+หลังจากที่เช็คที่ถูกรายการในไฟล์ positive pay ได้ถูกชำระ คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ  จากนั้น คุณสามารถยืนยันไฟล์ positive pay ได้  บนหน้า **สรุปไฟล์ Positive pay** ให้เลือกไฟล์ Positive pay ที่มีสถานะเป็น **สร้างแล้ว** และจากนั้นเลือกการดำเนินการ **ป้อนการยืนยัน** เมื่อคุณยืนยันไฟล์ positive pay จะมีการบันทึกหมายเลขใบยืนยันที่คุณได้รับจากธนาคาร
 
 ## <a name="recall-a-positive-pay-file"></a>เรียกคืนไฟล์ Positive Pay
-ถ้าคุณต้องเปลี่ยนไฟล์ positive pay คุณสามารถเรียกคืนได้  On the **Positive pay file summary** page, select a positive pay file that has a status of **Created**, and then select the **Recall** action. สำหรับเช็คแต่ละรายการในไฟล์ positive pay ฟิลด์จะบ่งชี้ว่า เช็คที่ได้ถูกรวมในไฟล์ positive pay จะถูกรีเซ็ตหรือไม่  จากนั้นคุณสามารถสร้างไฟล์ positive pay ใหม่ที่รวมเช็คที่ถูกเรียกคืน
+ถ้าคุณต้องเปลี่ยนไฟล์ positive pay คุณสามารถเรียกคืนได้  ในหน้า **สรุปไฟล์ Positive pay** เลือกไฟล์ Positive pay ที่มีสถานะเป็น **สร้างแล้ว** และจากนั้นเลือกการดำเนินการ **เรียกคืน** สำหรับเช็คแต่ละรายการในไฟล์ positive pay ฟิลด์จะบ่งชี้ว่า เช็คที่ได้ถูกรวมในไฟล์ positive pay จะถูกรีเซ็ตหรือไม่  จากนั้นคุณสามารถสร้างไฟล์ positive pay ใหม่ที่รวมเช็คที่ถูกเรียกคืน
+
+
 
 

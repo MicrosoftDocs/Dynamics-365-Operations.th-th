@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย
 
+[!include[banner](../includes/banner.md)]
+
+
 โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่ายควบคุมการลงรายการบัญชีของธุรกรรมผู้จัดจำหน่ายที่บัญชีแยกประเภททั่วไป
 
 <a name="vendor-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย
@@ -90,7 +93,7 @@ ms.lasthandoff: 03/31/2017
 <table>
 <thead>
 <tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Note</strong></th>
+<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note" alt="Note" id="alert_note" class="cl_IC101471" /><strong>หมายเหตุ</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -112,7 +115,7 @@ ms.lasthandoff: 03/31/2017
 <table>
 <thead>
 <tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Note</strong></th>
+<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note" alt="Note" id="alert_note" class="cl_IC101471" /><strong>หมายเหตุ</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -146,6 +149,8 @@ ms.lasthandoff: 03/31/2017
 | **การชำระเงิน** | เลือกตัวเลือกนี้เพื่อเปิดใช้งานการชำระเงินของธุรกรรมที่มีโพรไฟล์การลงรายการบัญชีนี้โดยอัตโนมัติ ถ้าไม่ได้เลือกตัวเลือกนี้ คุณต้องชำระธุรกรรมด้วยตนเองโดยใช้หน้าชำระธุรกรรมที่ค้างอยู่ |
 | **ยกเลิก**     | เลือกตัวเลือกนี้ ถ้าคุณต้องการที่จะสามารถยกเลิกธุรกรรมที่มีโพรไฟล์การลงรายการบัญชีนี้ได้                                                                                                               |
 | **ปิดบัญชี**      | เลือกโพรไฟล์การลงรายการบัญชีที่จะเปลี่ยนเมื่อธุรกรรมที่มีโพรไฟล์การลงรายการบัญชีนี้ปิดบัญชีแล้ว ธุรกรรมถือว่าปิดบัญชีแล้วเมื่อมีการชำระเต็มจำนวน                                       |
+
+
 
 
 

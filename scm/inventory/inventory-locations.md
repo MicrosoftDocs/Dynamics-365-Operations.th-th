@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>สถานที่เก็บสินค้าคงคลัง
 
+[!include[banner](../includes/banner.md)]
+
+
 สถานที่เก็บสินค้าคงคลังจะใช้กับคลังสินค้าพื้นฐาน (WMS I) เพื่อกำหนดที่จัดเก็บสินค้าและเบิกสินค้าในคลังสินค้า WMS
 
 หัวข้อนี้ใช้กับลักษณะการทำงานในโมดูลการบริหารสินค้าคงคลัง ไม่นำไปใช้กับลักษณะการทำงานในโมดูลการบริหารคลังสินค้า
@@ -64,6 +67,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[สร้างเค้าโครงคลังสินค้าใหม่ (แนะนำงาน)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[สร้างการจัดวางพื้นที่คลังสินค้าใหม่ (คู่มืองาน)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 สำหรับอภิธานศัพท์ของการดำเนินงาน"
+title: "อภิธานศัพท์ Dynamics 365 for Operations"
 description: "อภิธานศัพท์ Microsoft Dynamics 365 for Operations กำหนดเงื่อนไขคีย์และแนวคิดในผลิตภัณฑ์ Dynamics 365 for Operations"
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 สำหรับอภิธานศัพท์ของการดำเนินงาน
+# <a name="dynamics-365-for-operations-glossary"></a>อภิธานศัพท์ Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 อภิธานศัพท์ Microsoft Dynamics 365 for Operations กำหนดเงื่อนไขคีย์และแนวคิดในผลิตภัณฑ์ Dynamics 365 for Operations 
 
@@ -249,7 +252,7 @@ ms.lasthandoff: 03/31/2017
 
 เครื่องมือ Visual Studio ที่คุณใช้ในการสร้าง อัพเดต และตรวจสอบองค์ประกอบแบบจำลองของคุณ
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. การตั้งค่าคอนฟิก \financial-dimensions\dimension-based**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\มิติทางการเงิน\การจัดโครงแบบตามมิติ**
 
 เทคโนโลยีการตั้งค่าคอนฟิกที่ใช้ในการสร้างผลิตภัณฑ์ย่อย โดยการเลือกค่าสำหรับมิติของผลิตภัณฑ์
 
@@ -499,7 +502,7 @@ ms.lasthandoff: 03/31/2017
 
 ###### <a name="product-dimension"></a>**มิติของผลิตภัณฑ์**
 
-ขนาด สี หรือการกำหนดค่าคุณลักษณะของผลิตภัณฑ์ที่ใช้สำหรับ... การตั้งค่าคอนฟิก \financial-dimensions\dimension-based
+ขนาด สี หรือการตั้งค่าคอนฟิกคุณลักษณะของผลิตภัณฑ์ที่ใช้สำหรับ ..\มิติทางการเงิน\การจัดโครงแบบตามมิติ
 
 ###### <a name="product-family"></a>**ตระกูลผลิตภัณฑ์**
 
@@ -697,7 +700,7 @@ ms.lasthandoff: 03/31/2017
 
 วิธีการในการสร้างแบบจำลองผลิตภัณฑ์หลัก และค้นหาการตั้งค่าคอนฟิกผลิตภัณฑ์ย่อย
 
-###### <a name="vat-value-added-tax"></a>**VAT (ภาษีมูลค่าเพิ่ม)**
+###### <a name="vat-value-added-tax"></a>**VAT(ภาษีมูลค่าเพิ่ม)**
 
 ภาษีสำหรับผลิตภัณฑ์ในแต่ละขั้นตอนของการผลิตโดยยึดตามมูลค่าเพิ่มในระหว่างระยะนั้น
 
@@ -722,5 +725,7 @@ ms.lasthandoff: 03/31/2017
 ###### <a name="workspace"></a>**พื้นที่ทำงาน**
 
 หน้าซึ่งแสดงภาพรวมของกิจกรรมหนึ่งที่ผู้ใช้ดำเนินงาน หน้าใช้ไทล์ รายการ และแผนภูมิเพื่อแสดงงานที่ค้างอยู่และข้อมูลที่เกี่ยวข้องจากหลายแหล่งข้อมูล และหน้าจัดการการดำเนินงานที่เกิดขึ่นบ่อยครั้งที่เกี่ยวข้องกับข้อมูลนี้ ยังมีการแสดงไทล์ที่แสดงในส่วนสรุปของพื้นที่ทำงานในส่วนที่เกี่ยวข้องในแดชบอร์ดอีกด้วย
+
+
 
 

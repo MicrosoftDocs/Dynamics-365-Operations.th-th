@@ -85,6 +85,6 @@ ms.lasthandoff: 03/30/2017
 
 #<a name="see-also"></a>ดูเพิ่มเติมที่
 
-[สร้างรายงานทางการเงิน] ((dynamics365\operations\financials\general-ledger\generate-ทางการเงินรายงาน)
+[สร้างรายงานทางการเงิน]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

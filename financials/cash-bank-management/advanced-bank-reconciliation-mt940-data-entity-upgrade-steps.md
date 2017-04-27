@@ -1,5 +1,5 @@
 ---
-title: "การกระทบยอดธนาคารนำเข้า MT940 – ขั้นสูงการปรับรุ่นเอนทิตีข้อมูลคอมโพสิต"
+title: "การนำเข้า MT940 การกระทบยอดบัญชีธนาคารขั้นสูง – การอัพเกรดเอนทิตี้ข้อมูลแบบรวม"
 description: "ต้องมีหมายเลขลำดับที่จะเพิ่มลงในเอนทิตี้การนำเข้าใบแจ้งยอดจากธนาคารเพื่อสนับสนุนรูปแบบ MT940"
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>การกระทบยอดธนาคารนำเข้า MT940 – ขั้นสูงการปรับรุ่นเอนทิตีข้อมูลคอมโพสิต
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>การนำเข้า MT940 การกระทบยอดบัญชีธนาคารขั้นสูง – การอัพเกรดเอนทิตี้ข้อมูลแบบรวม
+
+[!include[banner](../includes/banner.md)]
+
 
 ต้องมีหมายเลขลำดับที่จะเพิ่มลงในเอนทิตี้การนำเข้าใบแจ้งยอดจากธนาคารเพื่อสนับสนุนรูปแบบ MT940 
 
 ใช้ขั้นตอนต่อไปนี้เพื่อเพิ่มเอนทิตี้การนำเข้าใบแจ้งยอดจากธนาคารเพื่อสนับสนุนรูปแบบ MT940
 
 1.  คอมไพล์และซิงโครไนส์รายการต่อไปนี้:
-    -   เอนทิตีคอมโพสิต\\BankStatementImportEntity
-    -   เอนทิตี\\BankStatementBalanceEntity
-    -   เอนทิตี\\BankStatementDocumentEntity
-    -   เอนทิตี\\BankStatementEntity
-    -   เอนทิตี\\BankStatementLineEntity
+    -   เอนทิตี้แบบรวม\\BankStatementImportEntity
+    -   เอนทิตี้\\BankStatementBalanceEntity
+    -   เอนทิตี้\\BankStatementDocumentEntity
+    -   เอนทิตี้\\BankStatementEntity
+    -   เอนทิตี้\\BankStatementLineEntity
     -   ตาราง\\BankStatementStaging
 
-2.  จัดการข้อมูล\\ข้อมูลโครงการ
+2.  การจัดการข้อมูล\\โครงการข้อมูล
     1.  โครงการการนำเข้า MT940 ของจำนวนงานในศูนย์การผลิต
         1.  เปลี่ยน XSLT
             -   คลิก **ดูแผนที่**
@@ -58,6 +61,8 @@ ms.lasthandoff: 03/31/2017
                 -   ตรวจสอบว่ามีการแม็ป **SequenceNumber** จากต้นทางไปยังการแบ่งระยะหรือไม่
 
 3.  นำเข้าใบแจ้งยอดใหม่
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 บัญชีตรงข้ามเริ่มต้นถูกใช้ในหน้าสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายต่อไปนี้
@@ -92,6 +95,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "ปรับปรุงธนาคารสมุดคอมโพสิตเอนทิตี"
+title: "อัพเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร"
 description: "จำเป็นต้องดำเนินตามขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติมไปยัง BankJournalEntity โดยรวม"
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>ปรับปรุงธนาคารสมุดคอมโพสิตเอนทิตี
+# <a name="update-the-bank-journal-composite-entity"></a>อัพเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
+
+[!include[banner](../includes/banner.md)]
+
 
 จำเป็นต้องดำเนินตามขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติมไปยัง BankJournalEntity โดยรวม
 
 ใช้ขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติมไปยัง BankJournalEntity โดยรวม
 
 1.  คอมไพล์และซิงโครไนส์เอนทิตี้โดยรวมของสมุดรายวันธนาคาร เอนทิตี้ และตารางการจัดเตรียมต่อไปนี้:
-    -   เอนทิตีคอมโพสิต\\BankJournalEntity
-    -   เอนทิตี\\BankJournalHeaderEntity
-    -   เอนทิตี\\BankJournalLineEntity
+    -   เอนทิตี้แบบรวม\\BankJournalEntity
+    -   เอนทิตี้\\BankJournalHeaderEntity
+    -   เอนทิตี้\\BankJournalLineEntity
     -   ตาราง\\BankJournalHeaderStaging
     -   ตาราง\\BankJournalLineStaging
 
-2.  จัดการข้อมูล\\ข้อมูลโครงการ
+2.  การจัดการข้อมูล\\โครงการข้อมูล
     -   แสดงข้อมูลชนิด **ธุรกรรมธนาคาร **บนโครงร่าง **ข้อมูลต้นทาง **
         -   รูปแบบข้อมูลต้นทาง = XML-Element
         -   ชื่อเอนทิตี้ = สมุดรายวันธนาคาร
@@ -49,6 +52,8 @@ ms.lasthandoff: 03/31/2017
             -   ตรวจสอบว่ามีการแม็ปชนิดธุรกรรมธนาคารจากต้นทางไปยังการแบ่งระยะหรือไม่
 
 3.  นำเข้าใบแจ้งยอดใหม่
+
+
 
 
 

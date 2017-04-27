@@ -1,6 +1,6 @@
 ---
 title: "รายงานงทางการเงินใบแจ้งยอดรายได้"
-description: "บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบกำไรขาดทุน นอกจากนี้ยังอธิบายถึงแบบเอกสารสำเร็จรูปที่สัมพันธ์กับรายงานนี้"
+description: "บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>รายงานงทางการเงินใบแจ้งยอดรายได้
 
-บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบกำไรขาดทุน นอกจากนี้ยังอธิบายถึงแบบเอกสารสำเร็จรูปที่สัมพันธ์กับรายงานนี้ 
+[!include[banner](../includes/banner.md)]
+
+
+บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้ 
 
 <a name="default-income-statement-report"></a>รายงานใบแจ้งยอดรายได้เริ่มต้น
 -------------------------------
@@ -61,10 +64,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[การรายงานทางการเงิน](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[ดูรายงานทางการเงิน](view-financial-reports.md)
 
-[Dynamics บล็อกการรายงานทางการเงิน](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[บล็อกการรายงานทางการเงิน Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

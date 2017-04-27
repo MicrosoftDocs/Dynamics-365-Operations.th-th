@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>วิธีการคิดค่าเสื่อมราคาและแบบแผนการคิดค่าเสื่อมราคา
 
+[!include[banner](../includes/banner.md)]
+
+
 บทความนี้แสดงภาพรวมของแบบแผนการคิดค่าเสื่อมราคาและวิธีการคิดค่าเสื่อมราคาที่ได้รับการสนับสนุนโดย Microsoft Dynamics AX
 
 คุณสามารถเลือกวิธีการและแบบแผนการคิดค่าเสื่อมราคาต่างๆ ได้  วัตถุประสงค์ของวิธีคือเพื่อ ปันส่วนค่าเสื่อมราคาของสินทรัพย์ถาวรในรอบระยะเวลาทางบัญชี ค่าเสื่อมราคาของสินทรัพย์ถาวรคือ ราคาการซื้อสินทรัพย์ ลบด้วยมูลค่าซาก ถ้ามี 
@@ -66,26 +69,27 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[ค่าเสื่อมราคาของสินทรัพย์ถาวร](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[การคิดค่าเสื่อมราคาด้วยตนเอง](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[การคิดค่าเสื่อมราคาตามอัตรา](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[การคิดค่าเสื่อมราคาตามปริมาณการใช้](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[การคิดค่าเสื่อมราคาตามอายุการใช้งานคงเหลือแบบเส้นตรง](straight-line-life-remaining-depreciation.md)
 
-[คิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125 เปอร์เซ็นต์](125-percent-reducing-balance-depreciation.md)
+[การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125%](125-percent-reducing-balance-depreciation.md)
 
-[คิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 150 เปอร์เซ็นต์](150-percent-reducing-balance-depreciation.md)
+[ค่าเสื่อมราคายอดดุลที่ลดลง 150%](150-percent-reducing-balance-depreciation.md)
 
-[คิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 175 เปอร์เซ็นต์](175-percent-reducing-balance-depreciation.md)
+[การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 175%](175-percent-reducing-balance-depreciation.md)
 
-[คิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 200 เปอร์เซ็นต์](200-percent-reducing-balance-depreciation.md)
+[การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 200%](200-percent-reducing-balance-depreciation.md)
+
 
 

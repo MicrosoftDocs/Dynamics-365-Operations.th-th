@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="pos-hardware-peripherals"></a>อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS
+
+[!include[banner](includes/banner.md)]
+
 
 การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก 
 
@@ -63,6 +66,8 @@ ms.lasthandoff: 03/31/2017
 
 -   บาร์โค้ด – Honeywell 1900, HP LS2208
 -   MSR – Magtek PN - 21073075
+
+
 
 
 

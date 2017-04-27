@@ -1,5 +1,5 @@
 ---
-title: "จัดการโปรแกรมรายงาน - ผู้ออกแบบและเว็บไคลเอนต์"
+title: "Management Reporter - ตัวออกแบบและเว็บไคลเอนต์"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>จัดการโปรแกรมรายงาน - ผู้ออกแบบและเว็บไคลเอนต์
+# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - ตัวออกแบบและเว็บไคลเอนต์
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

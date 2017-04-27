@@ -41,23 +41,23 @@ ms.lasthandoff: 03/31/2017
 <thead>
 <tr class="header">
 <th><strong>การปล่อยงานลงในสายการผลิต</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>สร้างตัวเลข</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>เมื่อต้องการเรียนรู้เพิ่มเติม</strong></strong></th>
+<th><strong><strong>เวอร์ชัน</strong></strong></th>
+<th><strong><strong>หมายเลขรุ่น</strong></strong></th>
+<th><strong><strong>ความพร้อมใช้งาน</strong></strong></th>
+<th><strong><strong>หากต้องการเรียนรู้เพิ่มเติม</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>แพลตฟอร์ม Microsoft Dynamics 365 for Operations</td>
-<td>การปรับปรุงแพลตฟอร์ม 4</td>
+<td>การอัพเดตแพลตฟอร์ม 4</td>
 <td>7.0.4425.16160</td>
 <td>2017 กุมภาพันธ์</td>
 <td><ol>
-<li>ไป<a href="https://roadmap.dynamics.com/">สรรหา Dynamics 365</a></li>
-<li>เลือก<strong>มีอะไรใหม่</strong>แท็บ</li>
-<li>ในการ<strong>แอพลิเคชัน</strong>ส่วน เลือก<strong>365 Dynamics สำหรับการดำเนินงาน</strong></li>
-<li>ในการ<strong>พื้นที่</strong>ส่วน เลือก<strong>แพลตฟอร์มเมฆ</strong></li>
+<li>ไปที่ <a href="https://roadmap.dynamics.com/">แผนการทำงานDynamics 365</a></li>
+<li>เลือกแท็บ <strong>มีอะไรใหม่</strong></li>
+<li>ในส่วน <strong>แอพลิเคชัน</strong> เลือก <strong>Dynamics 365 for Operations</strong></li>
+<li>ในส่วน <strong>พื้นที่</strong> เลือก <strong>แพลตฟอร์มระบบคลาวด์</strong></li>
 </ol></td>
 </tr>
 <tr class="even">

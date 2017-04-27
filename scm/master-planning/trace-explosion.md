@@ -1,5 +1,5 @@
 ---
-title: "ใช้การสืบค้นกลับสำหรับการกระจาย"
+title: "ใช้การติดตามสำหรับการกระจาย"
 description: "บทความนี้อธิบายวิธีที่คุณสามารถใช้สืบค้นการสำรวจสาเหตุของผลลัพธ์ของการกระจายใบสั่ง"
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>ใช้การสืบค้นกลับสำหรับการกระจาย
+# <a name="use-tracing-for-explosion"></a>ใช้การติดตามสำหรับการกระจาย
+
+[!include[banner](../includes/banner.md)]
+
 
 บทความนี้อธิบายวิธีที่คุณสามารถใช้สืบค้นการสำรวจสาเหตุของผลลัพธ์ของการกระจายใบสั่ง
 
@@ -43,6 +46,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[Master plans](master-plans.md)
+[แผนหลัก](master-plans.md)
+
+
 
 

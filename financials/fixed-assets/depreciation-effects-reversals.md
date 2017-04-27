@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>ผลกระทบของค่าเสื่อมราคากับการกลับรายการ
 
+[!include[banner](../includes/banner.md)]
+
+
 บทความนี้กล่าวถึงผลกระทบที่เป็นไปได้ของการกลับรายการธุรกรรมสินทรัพย์ถาวร 
 
 คุณสามารถกลับรายการธุรกรรมสินทรัพย์ถาวร และธุรกรรมที่เกี่ยวข้องกับสินทรัพย์ถาวร นอกจากนี้คุณยังสามารถยกเลิกธุรกรรมที่กลับรายการได้ 
@@ -90,6 +93,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[ค่าเสื่อมราคาของสินทรัพย์ถาวร](fixed-asset-depreciation.md)
+
+
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>ออบเจ็กต์ต้นทุน
 
+[!include[banner](../includes/banner.md)]
+
+
 บทความนี้แสดงข้อมูลเกี่ยวกับต้นทุนวัตถุ และอธิบายถึงวิธีสะสมต้นทุนและปริมาณ วัตถุต้นทุนเป็นเอนทิตี้ที่สะสมต้นทุนและปริมาณ เอนทิตีออบเจ็กต์ต้นทุนอาจเป็นผลิตภัณฑ์หรือผลิตภัณฑ์ย่อย เช่นผลต่างสำหรับลักษณะและสี  
 
 <a name="cost-objects"></a>ออบเจ็กต์ต้นทุน
@@ -65,19 +68,21 @@ ms.lasthandoff: 03/31/2017
     -   ปริมาณที่ลงรายการบัญชี
 -   ฟิลด์ **ต้นทุนเฉลี่ยต่อหน่วย** เป็นฟิลด์ที่คำนวณแล้ว ค่าที่คำนวณ โดยการหาร **ค่า** ค่าโดยค่า **ปริมาณ**
 
-**หมายเหตุ:** ** รวมค่าทางกายภาพ ** พารามิเตอร์จะไม่มีผลในการคำนวณก่อนหน้านี้
+**หมายเหตุ:** พารามิเตอร์ **รวมมูลค่าจริง** จะไม่มีผลต่อการคำนวณก่อนหน้านี้
 
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[กลุ่มมิติของผลิตภัณฑ์](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[กลุ่มมิติการจัดเก็บ](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[กลุ่มมิติการติดตาม](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[มีอะไรใหม่ หรือที่เปลี่ยนแปลงใน Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[รายการต้นทุน](cost-entries.md)
+
+
 
 

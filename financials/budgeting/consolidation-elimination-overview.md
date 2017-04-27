@@ -86,5 +86,5 @@ ms.lasthandoff: 03/31/2017
 โดยการใช้ตัวเลือก **ส่งออกยอดดุลของบริษัท** เพื่อส่งออกจากอินสแตนซ์หนึ่ง และจากนั้นใช้ตัวเลือก **รวมกับการนำเข้า** ในอินสแตนซ์อื่น คุณสามารถรวมข้อมูลได้
 
 
-สำหรับข้อมูลเพิ่มเติม[revalution สกุลเงินในบริษัทรวมบัญชี](\finanicials\general-ledger\currency-revaluation-consolidation-company)
+สำหรับข้อมูลเพิ่มเติม ดู [การประเมินค่าใหม่ตามสกุลเงินในบริษัทที่รวมบัญชี](\finanicials\general-ledger\currency-revaluation-consolidation-company)
 

@@ -1,6 +1,6 @@
 ---
 title: "โฮมเพจการจัดการองค์กร"
-description: "จุดนี้หัวข้อไปยังทรัพยากรซึ่งจะช่วยให้คุณสามารถใช้ Microsoft Dynamics 365 สำหรับการดำเนินงานในองค์กรของคุณ"
+description: "หัวข้อนี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ Microsoft Dynamics 365 for Operations ในองค์กรของคุณ"
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>โฮมเพจการจัดการองค์กร
 
-จุดนี้หัวข้อไปยังทรัพยากรซึ่งจะช่วยให้คุณสามารถใช้ Microsoft Dynamics 365 สำหรับการดำเนินงานในองค์กรของคุณ
+[!include[banner](../includes/banner.md)]
+
+
+หัวข้อนี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ Microsoft Dynamics 365 for Operations ในองค์กรของคุณ
 
 <a name="number-sequences"></a>ลำดับหมายเลข
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [ตั้งค่าลำดับหมายเลข โดยใช้ตัวช่วยสร้าง](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/)(แนะนำงาน)
--   [ตั้งค่าลำดับหมายเลขบนตัว](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/)(แนะนำงาน)
+-   [ภาพรวมของลำดับหมายเลข](number-sequence-overview.md)
+-   [ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (คู่มืองาน)
+-   [ตั้งค่าลำดับหมายเลขแต่ละตัว](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (คู่มืองาน)
 
 ## <a name="address-books"></a>สมุดที่อยู่
--   [Address books](qa-address-books.md)
+-   [สมุดที่อยู่](qa-address-books.md)
 -   [ภาพรวม: สมุดที่อยู่สากล](overview-global-address-book.md)
--   [การตั้งค่าคอนฟิกของสมุดที่อยู่สากลและสมุดรายชื่อเพิ่มเติมของการวางแผน](plan-configuration-global-address-book-additional-address-books.md)
+-   [การวางแผนการตั้งค่าคอนฟิกของสมุดที่อยู่สากลและสมุดที่อยู่เพิ่มเติม](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>ลำดับงาน
--   [Overview of the workflow system](overview-workflow-system.md)
--   [สถาปัตยกรรมของระบบลำดับงาน](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [ภาพรวมของระบบ Workflow](overview-workflow-system.md)
+-   [สถาปัตยกรรมระบบลำดับงาน](workflow-system-architecture.md)
+-   [องค์ประกอบลำดับงาน](workflow-elements.md)
+-   [การดำเนินการลำดับงาน](workflow-actions.md)
 -   [สร้างลำดับงาน](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน](configure-workflow-properties.md)
 -   [ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเอง](configure-manual-task-workflow.md)
 -   [ตั้งค่าคอนฟิกงานอัตโนมัติ](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [ตั้งค่าคอนฟิกกระบวนการอนุมัติ](configure-approval-process-workflow.md)
 -   [การตั้งค่าคอนฟิกขั้นตอนการอนุมัติ](configure-approval-step-workflow.md)
 -   [ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง](configure-manual-decision-workflow.md)
 -   [ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข](configure-conditional-decision-workflow.md)
 -   [ตั้งค่าคอนฟิกกิจกรรมคู่ขนาน](configure-parallel-activity-workflow.md)
 -   [ตั้งค่าคอนฟิกสาขาคู่ขนาน](configure-parallel-branch-workflow.md)
--   [การตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ](configure-line-item-workflow.md)
+-   [ตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>การจัดการกรณี
 -   [การวางแผน: การตั้งค่ากรณี](plan-case-management.md)
 -   [ตัวอย่างการจัดการกรณี](cases.md)
 
 ## <a name="electronic-signatures"></a>ลายเซ็นอิเล็กทรอนิกส์
--   [Electronic signature overview](electronic-signature-overview.md)
--   [ตั้งค่าลายเซ็นอิเล็กทรอนิกส์](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/)(แนะนำงาน)
+-   [ภาพรวมของลายเซ็นอิเล็กทรอนิกส์](electronic-signature-overview.md)
+-   [ตั้งค่าลายเซ็นอิเล็กทรอนิกส์](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (คู่มืองาน)
 
 ## <a name="organizations"></a>องค์กร
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [สร้างหน่วยปฏิบัติ](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/)(แนะนำงาน)
--   [สร้างลำดับชั้นขององค์กร](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/)(แนะนำงาน)
--   [สร้างนิติบุคคล](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/)(แนะนำงาน)
+-   [องค์กรและลำดับชั้นขององค์กร](organizations-organizational-hierarchies.md)
+-   [วางแผนลำดับชั้นขององค์กร](plan-organizational-hierarchy.md)
+-   [สร้างหน่วยปฏิบัติงาน](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (คู่มืองาน)
+-   [สร้างลำดับชั้นองค์กร](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (คู่มืองาน)
+-   [สร้างนิติบุคคล](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (คู่มืองาน)
 
 ## <a name="general-administration"></a>การจัดการทั่วไป
--   [เปลี่ยนแบนเนอร์หรือโลโก้](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)(แนะนำงาน)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+-   [เปลี่ยนป้ายประกาศหรือรูปภาพสัญลักษณ์](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (คู่มืองาน)
+-   [เกี่ยวกับข้อมูลวันที่/เวลาและโซนเวลา](date-time-zones.md)
+-   [เท็มเพลตสำหรับเรกคอร์ด](record-templates.md)
+
+
 
 
 

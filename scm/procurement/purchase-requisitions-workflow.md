@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>เวิร์กโฟลว์การขอเสนอซื้อ
 
+[!include[banner](../includes/banner.md)]
+
+
 กระบวนการลำดับงานย้ายใบขอซื้อโดยผ่านกระบวนการตรวจทาน จากสถานะการเริ่มต้นของ ร่าง ไปเป็นสถานะขั้นสุดท้าย อนุมัติแล้ว  เมื่อมีส่งใบขอซื้อเพื่อตรวจทาน กระบวนการลำดับงานได้เริ่มต้นแล้ว หลังจากที่อนุมัติใบสั่งซื้อ ใบสั่งซื้ออาจถูกสร้างขึ้นสำหรับรายการใบขอซื้อ และถูกส่งไปยังผู้จัดจำหน่ายสำหรับการเติมสินค้าของใบสั่ง
 
 ก่อนใบขอซื้อจะสามารถส่งเพื่อตรวจทานได้ คุณต้องตั้งค่าคอนฟิกลำดับงาน  กระบวนการลำดับงานสามารถรวมหนึ่งขั้นตอนการตรวจทาน ในลำดับใดก็ได้ กระบวนการลำดับงานยังสามารมีการจัดโครงแบบเพื่อข้ามงานที่ตรวจทาน และอนุมัติใบขอซื้อโดยอัตโนมัติ คุณสามารถตั้งค่าคอนฟิกลำดับงานเพื่อกำหนดเส้นทางใบขอซื้อเป็นเอกสารฉบับเดียว หรือกำหนดเส้นทางแต่ละรายการใบขอซื้อให้ผู้ตรวจทานที่เหมาะสม คุณยังสามารถสร้างสถานการณ์จำลองที่มีการกำหนดเส้นทางใบสั่งซื้อเป็นเอกสารเดียวกันให้ผู้ตรวจทาน และรายการใบขอซื้อที่เลือกจะเวียนส่งไปยังผู้ตรวจทานอื่นๆ  
@@ -106,12 +109,14 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[สร้างการจัดหาวัตถุดิบสำหรับปริมาณการใช้วัสดุ (แนะนำงาน)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[สร้างใบขอซื้อเพื่อปริมาณการใช้ (คู่มืองาน)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[ลำดับงานการจัดซื้อและการจัดหา](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[ภาพรวมใบขอซื้อ](purchase-requisitions-overview.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "BI&amp;รายงานโฮมเพจ"
-description: "หัวข้อนี้แสดงรายการ BI&amp;รายงานทรัพยากรที่พร้อมใช้งานใน 365 Dynamics Microsoft สำหรับการดำเนินงาน"
+title: "โฮมเพจ BI &amp; การรายงาน"
+description: "หัวข้อนี้แสดงรายการ BI &amp; การรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations"
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI&amp;รายงานโฮมเพจ
+# <a name="bi-amp-reporting-home-page"></a>โฮมเพจ BI &amp; การรายงาน
 
-หัวข้อนี้แสดงรายการ BI&amp;รายงานทรัพยากรที่พร้อมใช้งานใน 365 Dynamics Microsoft สำหรับการดำเนินงาน
+[!include[banner](../includes/banner.md)]
+
+
+หัวข้อนี้แสดงรายการ BI &amp; การรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations 
 
 <a name="working-with-aggregate-data"></a>การทำงานกับข้อมูลรวม
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [การวิเคราะห์](analytics.md)
 -   [ในหน่วยความจำแบบเรียลไทม์รวมต้นแบบแทนที่ SSAS คิวบ์](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [การสร้างแบบจำลอง และการใช้รวมข้อมูล](model-aggregate-data.md)
--   [โยกย้าย cube ขาย R3 2012 ของ AX Dynamics อัพเกรดไปยังที่เก็บเอนทิตี](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [การสร้างโมเดลและการใช้ข้อมูลรวม](model-aggregate-data.md)
+-   [ย้ายคิวบ์การขาย Dynamics AX 2012 R3 ที่อัพเกรดแล้วไปยังที่จัดเก็บเอนทิตี้](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>รายงานบริการตนเอง
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>การรายงานการบริการตนเอง
+-   [การรวม Power BI](power-bi-integration.md)
 -   [การตั้งค่าคอนฟิกการรวม Power BI สำหรับพื้นที่ทำงาน](configure-power-bi-integration.md)
 -   [สร้างรายงาน Power BI โดยใช้ข้อมูล Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [สร้างรายงานการใช้พลังงาน BI และแดชบอร์ด](create-powerbi-report-dashboard.md)
--   [เนื้อหา BI พลังงานประสิทธิภาพของช่องทางการขายปลีก](retail-channel-performance-dashboard-power-bi-data.md)
--   [เนื้อหา BI พลังงานประสิทธิภาพทางการเงิน](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [สร้างรายงาน Power BI และแดชบอร์ด](create-powerbi-report-dashboard.md)
+-   [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md)
+-   [เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI](financial-performance-power-bi-content-pack.md)
+-   [การขายและกำไรจากประสิทธิภาพเนื้อหาพลังงาน BI](sales-profitability-performance-content-pack.md)
 -   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>สร้างการฝังประสบการณ์การวิเคราะห์ในไคลเอนต์ Dynamics 365 for Operations
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 5: แก้ไขและรันรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (คู่มืองาน)
 -   [สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบของ ER](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (คู่มืองาน)
 -   [อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นของ ER](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (คู่มืองาน)
+
+
 
 
 

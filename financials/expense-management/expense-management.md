@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>การจัดการค่าใช้จ่าย
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [การวางแผนการจัดการค่าใช้จ่าย](plan-expense-management.md) จะมีเพิ่มข้อมูลเพิ่มเติม ตรวจสอบในภายหลัง
+
+
 
 
