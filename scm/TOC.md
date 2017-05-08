@@ -56,6 +56,7 @@
 ### [BOM และสูตร](production-control/bill-of-material-bom.md)
 ### [ฟังก์ชันผู้ออกแบบ BOM](production-control/bom-designer-functionality.md)
 ### [มิติของผลิตภัณฑ์](pim/product-dimensions.md)
+### [การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย](production-control/default-order-settings.md)
 ### [ระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์](pim/product-variant-identification-nomenclature.md)
 ### [FAQ เกี่ยวกับการแปลที่เกี่ยวข้องกับผลิตภัณฑ์](pim/translations-product-related-information.md)
 ### [ลงทะเบียนหมายเลขลำดับประจำสินค้าในกระบวนการขาย](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,50 +71,78 @@
 ### [ตั้งค่าแบบจำลองการจัดโครงแบบ](pim/set-up-maintain-product-configuration-model.md)
 ### [ข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้](pim/system-defined-user-defined-table-constraints.md)
 # การควบคุมการผลิต
-## กระบวนการผลิต    
-### [การรับเหมารายย่อยตามกิจกรรม](production-control/activity-based-subcontracting.md)
-### [แอททริบิวต์ของชุดงาน](production-control/batch-attributes.md)
-### [BOM และสูตร](production-control/bill-of-material-bom.md)
-### [ฟังก์ชันผู้ออกแบบ BOM](production-control/bom-designer-functionality.md)
-### [ใบสั่งชุดงานแบบรวม](production-control/consolidated-batch-orders.md)
-### [จัดการงานที่รับเหมารายย่อยในการผลิต](production-control/manage-subcontract-work-production.md)
-### [การวางแผนโหมดผสม: รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean](production-control/mixed-mode-plan.md)
-### [กระบวนการผลิต](production-control/production-process-overview.md)
-### [ข้อกำหนดของการตั้งค่าการผลิต](production-control/production-set-up-requirements.md)
-### [กระบวนการผลิตและการดำเนินงาน](production-control/routes-operations.md)
-## ใบสั่งผลิต
-### [สร้างใบสั่งผลิต](production-control/create-production-orders.md)
-### [การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย](production-control/default-order-settings.md)
-### [นำใบสั่งผลิตออกใช้](production-control/release-production-orders.md)
-### [กลับสถานะใบสั่งผลิต](production-control/reverse-production-order-status.md)
-### [รายงานการเสร็จงานของ BOM](production-control/report-boms-as-finished.md)
-### [รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์](production-control/report-production-orders-as-finished.md)
-## การผลิตแบบ Lean 
-### [การสนับสนุนบอร์ดการโอนย้ายคัมบังสำหรับเครื่องสแกนบาร์โค้ด](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [การกำหนดการงานคัมบังสำหรับ Lean Manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+## [ภาพรวมของกระบวนการผลิต](production-control/production-process-overview.md)
+## [การวางแผนโหมดผสม: รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean](production-control/mixed-mode-plan.md)
+## [จัดการงานที่รับเหมารายย่อยในการผลิต](production-control/manage-subcontract-work-production.md)
+## การผลิตแบบไม่ต่อเนื่อง
+### รักษาข้อมูลหลักของการผลิต
+#### [ข้อกำหนดของการตั้งค่าการผลิต](production-control/production-set-up-requirements.md)
+#### [สูตรและสูตรการผลิต](production-control/bill-of-material-bom.md)
+#### [ฟังก์ชันผู้ออกแบบ BOM](production-control/bom-designer-functionality.md)
+#### [การคำนวณ Bom](cost-management/bom-calculations.md)
+#### [ทรัพยากรการดำเนินงาน](production-control/operations-resources.md)
+#### [ความสามารถของทรัพยากร](production-control/resource-capabilities.md)
+#### [กระบวนการผลิตและการดำเนินงาน](production-control/routes-operations.md)
+#### [ค่าเริ่มต้นของใบสั่งผลิตในส่วนการดำเนินการผลิต](production-control/production-order-defaults-manufacturing-execution.md)
+#### [นโยบายงานของคลังสินค้า](warehousing/warehouse-work-policies.md)
+### การดำเนินการผลิตตามกำหนดการ
+#### [การจัดตารางการผลิตระดับการดำเนินงาน](production-control/operations-scheduling.md)
+#### [การจัดตารางการผลิตระดับงาน](production-control/job-scheduling.md)
+#### [ตัวเลือกการจัดตารางการผลิตระดับการดำเนินงาน](production-control/operation-scheduling-options.md)
+### ดำเนินงานการผลิต
+#### [สร้างใบสั่งผลิต](production-control/create-production-orders.md)
+#### [นำใบสั่งผลิตออกใช้](production-control/release-production-orders.md)
+#### [กลับสถานะใบสั่งผลิต](production-control/reverse-production-order-status.md)
+#### [รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์](production-control/report-production-orders-as-finished.md)
+#### [รายงานการเสร็จงานของ BOM](production-control/report-boms-as-finished.md)
+#### [การทดแทนวัตถุดิบในการผลิต](production-control/substitute-items-bom-lines.md)
+#### [การลงทะเบียนสำหรับการดำเนินการผลิต](production-control/registration-manufacturing-execution.md)
+#### [ผลป้อนกลับของการผลิต](production-control/production-feedback.md)
+#### [การลงทะเบียนเวลาและการเข้างาน](production-control/time-attendance-registrations.md)
+### จัดการข้อมูลทางการเงินในด้านการผลิต
+#### [ปันส่วนเวลาสำหรับงานในแต่ละกลุ่มงาน](production-control/allocate-time-jobs-job-bundle.md)
+#### [คำนวณปริมาณการใช้วัสดุ](production-control/consumption.md)
+#### [การลงรายการบัญชีการผลิต](cost-management/production-posting.md)
+## Lean manufacturing 
 ### [ภาพรวม Lean manufacturing](production-control/lean-manufacturing-overview.md)
-### [สร้างแบบจำลององค์กรแบบ Lean](production-control/lean-manufacturing-modeling-lean-organization.md)
-## กำหนดเวลาการดำเนินงานและงาน
-### [ปันส่วนเวลาสำหรับงานในแต่ละกลุ่มงาน](production-control/allocate-time-jobs-job-bundle.md)
-### [การจัดตารางการผลิตระดับงาน](production-control/job-scheduling.md)
-### [ตัวเลือกการจัดตารางการผลิตระดับการดำเนินงาน](production-control/operation-scheduling-options.md)
-### [การจัดตารางการผลิตระดับการดำเนินงาน](production-control/operations-scheduling.md)
-## ทรัพยากร
-### [ทรัพยากรการดำเนินงาน](production-control/operations-resources.md)
-### [ความสามารถของทรัพยากร](production-control/resource-capabilities.md)
-### [การลงทะเบียนเวลาและการเข้างาน](production-control/time-attendance-registrations.md)
-## การดำเนินการผลิต
-### [การทดแทนวัตถุดิบในการผลิต](production-control/substitute-items-bom-lines.md)
-### [คำนวณปริมาณการใช้วัสดุ](production-control/consumption.md)
-### [ผลป้อนกลับของการผลิต](production-control/production-feedback.md)
-### [ค่าเริ่มต้นของใบสั่งผลิตในส่วนการดำเนินการผลิต](production-control/production-order-defaults-manufacturing-execution.md)
-### [การลงรายการบัญชีการผลิต](cost-management/production-posting.md)
-### [การลงทะเบียนสำหรับการดำเนินการผลิต](production-control/registration-manufacturing-execution.md)
+### [การรับเหมารายย่อยตามกิจกรรม](production-control/activity-based-subcontracting.md)
+### รักษาข้อมูลหลักของการผลิต
+#### [สร้างแบบจำลององค์กรแบบ Lean](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [ทรัพยากรการดำเนินงาน](production-control/operations-resources.md)
+### งานคัมบังตามกำหนดการ
+#### [การกำหนดการงานคัมบังสำหรับ Lean Manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [การจัดตารางการผลิตระดับงาน](production-control/job-scheduling.md)
+### ดำเนินงานคัมบัง
+#### [การสนับสนุนบอร์ดการโอนย้ายคัมบังสำหรับเครื่องสแกนบาร์โค้ด](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [ผลป้อนกลับของการผลิต](production-control/production-feedback.md)
+## ประมวลผลการผลิต
+### รักษาข้อมูลหลักของการผลิต
+#### [สูตรและสูตรการผลิต](production-control/bill-of-material-bom.md)
+#### [ทรัพยากรการดำเนินงาน](production-control/operations-resources.md)
+#### [ความสามารถของทรัพยากร](production-control/resource-capabilities.md)
+#### [แอททริบิวต์ของชุดงาน](production-control/batch-attributes.md)
+#### [ค่าเริ่มต้นของใบสั่งผลิตในส่วนการดำเนินการผลิต](production-control/production-order-defaults-manufacturing-execution.md)
+#### [ข้อกำหนดของการตั้งค่าการผลิต](production-control/production-set-up-requirements.md)
+### การดำเนินการผลิตตามกำหนดการ
+#### [การจัดตารางการผลิตระดับการดำเนินงาน](production-control/operations-scheduling.md)
+#### [ตัวเลือกการจัดตารางการผลิตระดับการดำเนินงาน](production-control/operation-scheduling-options.md)
+#### [การจัดตารางการผลิตระดับงาน](production-control/job-scheduling.md)
+### ดำเนินงานการผลิต
+#### [ใบสั่งชุดงานแบบรวม](production-control/consolidated-batch-orders.md)
+#### [การทดแทนวัตถุดิบในการผลิต](production-control/substitute-items-bom-lines.md)
+#### [การลงทะเบียนสำหรับการดำเนินการผลิต](production-control/registration-manufacturing-execution.md)
+#### [ผลป้อนกลับของการผลิต](production-control/production-feedback.md)
+#### [การลงทะเบียนเวลาและการเข้างาน](production-control/time-attendance-registrations.md) 
+### จัดการข้อมูลทางการเงินในด้านการผลิต
+#### [ปันส่วนเวลาสำหรับงานในแต่ละกลุ่มงาน](production-control/allocate-time-jobs-job-bundle.md)
+#### [คำนวณปริมาณการใช้วัสดุ](production-control/consumption.md)
+#### [การลงรายการบัญชีการผลิต](cost-management/production-posting.md)
 # การขายและการตลาด
 ## [การตลาด](sales-marketing/overview-sales-marketing.md)
 ## ใบสั่งขาย
 ### [สัญญาใบสั่ง](sales-marketing/delivery-dates-available-promise-calculations.md)
-### [กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง](sales-marketing/order-entry-deadlines.md)
+### [ทางเลือกในการจัดส่ง](sales-marketing/delivery-alternatives.md)
+### [กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง](sales-marketing/order-entry-deadlines.md)
 ### [การจัดส่งสินค้าโดยตรง](sales-marketing/direct-deliveries.md)
 ### [กำหนดการจัดส่ง](sales-marketing/delivery-schedules.md)
 ### [หมายเลขลำดับประจำสินค้าในกระบวนการขาย](sales-marketing/register-serial-numbers-sales-process.md)
@@ -138,6 +167,7 @@
 ### [ตั้งค่าโครงร่าง](warehousing/warehouse-configuration.md)
 ### [นโยบายงานของคลังสินค้า](warehousing/warehouse-work-policies.md)
 ### [หน่วยวัดและนโยบายการเก็บสต็อก](warehousing/unit-measure-stocking-policies.md)
+### [เนื้อหา Warehouse Power BI](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## การเบิกสินค้าและการบรรจุสินค้า
 ### [วัสดุและค่าธรรมเนียมบรรจุภัณฑ์](warehousing/pack-materials-packing-material-fees.md)
 ## การนับสินค้าคงคลัง
@@ -151,7 +181,21 @@
 ## การเติมสินค้า
 ### [การเติมสินค้า](warehousing/replenishment.md)
 ## อุปกรณ์เคลื่อนที่
+### [ติดตั้งและตั้งค่าคอนฟิกในแอพลิเคชัน Warehousing ](warehousing/install-configure-warehousing-app.md)
 ### [ตั้งค่าคอนฟิกชื่อฟิลด์ในแอพลิเคชัน Warehousing](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](warehousing/configure-mobile-devices-warehouse.md)
 ### [พอร์ทัลบนอุปกรณ์เคลื่อนที่ของคลังสินค้า (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [การตั้งค่าการแสดงผลสำหรับอุปกรณ์เคลื่อนที่ของคลังสินค้า](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [ข้อมูลทางการเงิน](/dynamics365/operations/financials/index)
+
+# [ทรัพยากรบุคคล](/dynamics365/operations/human-resources/index)
+
+# [การขายปลีก](/dynamics365/operations/retail/index)
+
+# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/operations/dev-itpro/index)
+
+# ทรัพยากรอื่นๆ
+## [อภิธานศัพท์ Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

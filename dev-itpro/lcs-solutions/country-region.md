@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: th-th
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>คุณลักษณะการทำงานเฉพาะและบังคับ
 
-Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชันการทำงานสำหรับข้อบังคับและกระบวนการเฉพาะประเทศ/ภูมิภาคบางอย่าง ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>นักพัฒนาและข้อมูล ISV
-ทรัพยากรต่อไปนี้ให้ข้อมูลที่สามารถช่วยให้นักพัฒนาและ ISV ที่กำลังสร้างการกำหนดเองเฉพาะประเทศ/ภูมิภาค
+
+Microsoft Dynamics 365 for Operations ประกอบด้วยฟังก์ชันการทำงานสำหรับประเทศ/ภูมิภาคที่ระบุไว้ใน [คู่มือความพร้อมใช้งานของผลิตภัณฑ์](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ 
+
+หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค 
+
+## <a name="developing-localized-solutions"></a>การพัฒนาโซลูชันสำหรับใช้ในท้องถิ่น
+ทรัพยากรต่อไปนี้ให้คำแนะนำและข้อมูลที่สามารถช่วยเหลือนักพัฒนาและ ISV ที่กำลังสร้างการกำหนดเองเฉพาะประเทศ/ภูมิภาค หรือสร้างโซลูชันสำหรับประเทศที่ Microsoft ไม่ได้ให้การสนับสนุน
 -   [แบบจำลองเฉพาะที่แยกต่างหาก](separate-localization-models.md)
 -   [ใช้บริบทประเทศ/ภูมิภาค](apply-country-context.md)
 -   [ใบรับรองที่เป็นข้อบังคับ](regulatory-certifications.md)
 -   [จัดประเภทคุณลักษณะการทำงานเฉพาะ](classify-localization-features.md)
 -   [รหัสประเทศ - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>การอัพเดตเฉพาะ
+## <a name="localization-updates-and-communication"></a>การอัพเดตและการสื่อสารเฉพาะ
 ทรัพยากรต่อไปนี้ให้ข้อมูลเกี่ยวกับคุณลักษณะที่วางแผนไว้และคุณลักษณะการทำงานเฉพาะใหม่ 
--   [พอร์ทัลเฉพาะ](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>การอัพเดตเฉพาะ
+-   [พอร์ทัลเฉพาะ](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (อัพเดตรายสัปดาห์)
+-   [การค้นหาปัญหา LCS](../lifecycle-services/issue-search-lcs.md) (อัพเดตรายวัน)
+
+### <a name="communication-and-alerts"></a>การสื่อสารและการแจ้งเตือน
 -   [การดูข้อบังคับและการสื่อสารการอัพเดตตามข้อบังคับ](regulatory-watch-communication.md)
 -   [แจ้งให้ Microsoft ทราบเกี่ยวกับการแจ้งเตือนข้อบังคับของประเทศ/ภูมิภาค และติดตามสถานะของคุณลักษณะตามข้อบังคับ](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [ปลายทางการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-destinations.md)
 -   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [ติดตั้งการรายงานทางอิเล็กทรอนิกส์ด้วย Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>คู่มืองาน
+คุณสามารถอ่านคู่มืองานจากบานหน้าต่างวิธีใช้ผลิตภัณฑ์ ซึ่งจะมีหัวข้อที่แนะนำกระบวนการทางธุรกิจที่สำคัญต่างๆ คุณสามารถเปิดคู่มืองานเพื่ออ่านขั้นตอนของกระบวนการทางธุรกิจ หรือคุณสามารถเลือกเล่นคู่มืองานเพื่อทราบรายละเอียดเกี่ยวกับกระบวนการทางธุรกิจและการป้อนข้อมูลได้
+
+หากต้องการค้นหาคู่มืองาน ให้ไปที่หน้าใน Microsoft Dynamics 365 for Operations แล้วคลิกวิธีใช้ คู่มืองานที่ใช้หน้าจะแสดงรายการอยู่ในบานหน้าต่างวิธีใช้ คุณยังสามารถใช้บานหน้าต่างวิธีใช้เพื่อค้นหาคู่มืองานตามชื่อได้
+
+เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [คู่มืองาน](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides)
+
 
 ## <a name="countryregion-specific-help-topics"></a>หัวข้อวิธีใช้เฉพาะประเทศ/ภูมิภาค
 ส่วนต่อไปนี้แสดงรายการทรัพยากรตามประเทศ/ภูมิภาค
@@ -62,17 +81,17 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [แบบรายงานกิจกรรมทางธุรกิจ ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [ค่าเสื่อมราคากลุ่มสินทรัพย์มูลค่าต่ำ](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>ออสเตรีย
 
+-   [ค่าเสื่อมราคาครึ่งปี](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [ค่าธรรมเนียมบรรจุภัณฑ์](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [คำสั่ง VAT](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>เบลเยียม
 
 -   [ใบแจ้งยอดจากธนาคาร CODA](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [การรายงานภาษี INTERVAT](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [การตั้งค่ารายงาน PRODCOM](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>บราซิล
 
@@ -93,7 +112,6 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [การชำระภาษี](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [ภาษี](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>จีน
 -   [การเปรียบเทียบสูตรการผลิต](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [ใบสำคัญภาษาจีน](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [แสดงยอดเดบิตและเครดิตสำหรับบัญชีแยกประเภท](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>สาธารณรัฐเช็ก
+
+-   [ส่วนลดเงินสดในหมายเลขใบลดหนี้](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [การปัดเศษค่าเสื่อมราคา](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [การระงับค่าเสื่อมราคา (วันหยุด)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [วิธีการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [การระงับค่าเสื่อมราคา (วันหยุด)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [วิธีการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [ใบแจ้งยอด VAT สำหรับสาธารณรัฐเช็ก](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [แก้ไขหมายเลขใบแจ้งหนี้ในใบสั่งขาย](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [ใบรับรองของรายการสำหรับ EU](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [การรายงานรายการขายใน EU](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [การปรับปรุงอัตราแลกเปลี่ยน](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [อินทราสแทต](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [อัตราแลกเปลี่ยน VAT](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [การรายงาน VAT สำหรับยุโรป](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [ดูธุรกรรมในการจ่ายเงิน](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>ฝรั่งเศส
 -   [หมายเลขใบสำคัญและใบแจ้งหนี้ตามลำดับเวลา](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>เยอรมนี
 -   [ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [ไฟล์การตรวจสอบภาษาเยอรมัน (GDPdU/GoBD](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [รายงานรายการสมุดรายวันภาษาเยอรมัน](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย (คู่มืองาน)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>ฮังการี
 
+-   [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [สินทรัพย์ถาวรต้นทุนต่ำ](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>อิตาลี
@@ -184,6 +204,7 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้สำหรับอิตาลี](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [สมุดบัญชีภาษีขายภาษาอิตาลี](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [ภาษีหัก ณ ที่จ่าย](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>ญี่ปุ่น
 
@@ -240,6 +261,9 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [ทำสำเนาการกำหนดหมายเลขใบแจ้งหนี้การขาย](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [ค่าเสื่อมราคาของสินทรัพย์ถาวร](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [การตัดจำหน่ายสินทรัพย์ถาวร](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [บรรจุภัณฑ์ที่สามารถส่งคืนได้](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [รายงานภาษีขาย](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [ไฟล์การตรวจสอบมาตรฐาน (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [รายงานยอดขายและยอดดุล](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>ซาอุดีอาระเบีย
@@ -252,15 +276,16 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 
 ### <a name="spain"></a>สเปน
 
-
--   [ตัวเลือกตั๋วแลกเงินของสเปน](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [ตัวเลือกตั๋วแลกเงินของสเปน](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [มีการใช้ส่วนลดเงินสดในพารามิเตอร์ใบแจ้งหนี้](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [ใช้ข้อมูลบัญชีจากบัญชีใบแจ้งหนี้](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [ภาษีขายแบบมีเงื่อนไข](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [กลุ่มการประเมินค่าสินทรัพย์ถาวร](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [VAT ภายในประชาคม](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [ลูกค้าขาจร](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [ตัวเลือกตั๋วสัญญาใช้เงินภาษาสเปน](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [วงจรการขายและการซื้อ](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [รายการพิเศษและแผ่นงานการเปิด](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [ใช้ข้อมูลบัญชีจากบัญชีใบแจ้งหนี้](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>สวีเดน
 
@@ -286,4 +311,7 @@ Microsoft Dynamics 365 for Operations รวมถึงฟังก์ชัน
 -   [การรายงาน 1099 สิ้นปี](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [ระบบค่าจ้าง](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [ภาครัฐ](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

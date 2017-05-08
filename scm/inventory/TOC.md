@@ -1,5 +1,6 @@
 # สร้างเค้าโครงคลังสินค้า
 # กระบวนการขาเข้า
+## [ภาพรวมการมาถึง](arrival-overview.md)
 # กระบวนการขาออก
 # ตั้งค่าการติดตามสินค้าคงคลัง
 ## [สมุดรายวันสินค้าคงคลัง](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [การส่งมอบ](consignment.md)
 ## [ตั้งค่าปริมาณการใช้วัสดุ](set-up-consignment.md)
 # การจัดการคุณภาพ
+## [พื้นที่ทำงานแบบเคลื่อนที่ของปริมาณคงคลังคงเหลือ](inventory-on-hand-mobile-workspace.md)
 ## [เปิดใช้งานการจัดการคุณภาพ](enable-quality-management.md)
 ## [การบล็อคสินค้าคงคลัง](inventory-blocking.md)
 ## [การจัดการความไม่สอดคล้อง](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # ติดตามสินค้าและชุดงาน
 ## [ผสานชุดงานสินค้าคงคลัง](merge-inventory-batches.md)
 ## [ติดตามสินค้าและวัตถุดิบ](trace-items-raw-materials-inventory-production-sales.md)
+

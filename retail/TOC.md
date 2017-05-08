@@ -68,3 +68,16 @@
 ## [ภาพรวมสิ่งจำเป็นสำหรับการค้า](commerce-essentials.md)
 ## [องค์กรและลำดับชั้นขององค์กร (สิ่งจำเป็นสำหรับการค้า)](organizational-hierarchies-commerce-essentials.md)
 # [เนื้อหาเกี่ยวกับผู้เชี่ยวชาญด้าน IT และนักพัฒนา](dev-itpro/TOC.md)
+
+# [ข้อมูลทางการเงิน](/dynamics365/operations/financials/index)
+
+# [ทรัพยากรบุคคล](/dynamics365/operations/human-resources/index)
+
+# [การบริหารห่วงโซ่อุปทาน](/dynamics365/operations/supply-chain/index)
+
+# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/operations/dev-itpro/index)
+
+# ทรัพยากรอื่นๆ
+## [อภิธานศัพท์ Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

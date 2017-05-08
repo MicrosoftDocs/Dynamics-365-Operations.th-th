@@ -42,6 +42,7 @@
 ## [แก้ไขหมายเลขใบแจ้งหนี้ในใบสั่งขาย](emea-edit-invoice-id-sales-orders.md)
 ## [ใบรับรองของรายการสำหรับ EU](emea-entry-certificates.md)
 ## [การรายงานรายการขายใน EU](emea-eu-sales-list.md)
+## [การปรับปรุงอัตราแลกเปลี่ยน](emea-exchange-rate-adjustments.md)
 ## [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](emea-select-file-formats-for-the-method-of-payments.md)
 ## [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [อินทราสแทต](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [ภาพรวมของการโอนย้ายเครดิต SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](emea-set-up-signers-for-printing-forms.md)
-## [แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด](emea-create-post-periodic-journals.md)
-## [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](emea-amount-printing-forms.md)
-## [การรายงาน VAT](emea-vat-reporting.md)
+## [อัตราแลกเปลี่ยน VAT](emea-vat-exchange-rate.md)
 ## [ดูธุรกรรมในการจ่ายเงิน](emea-transactions-settlement-form.md)
 ## ออสเตรีย
+### [ค่าเสื่อมราคาครึ่งปี](emea-aut-half-year-depreciation.md)
 ### [ค่าธรรมเนียมบรรจุภัณฑ์](emea-aut-packing-material-fee-calculation.md)
 ### [คำสั่ง VAT](emea-aut-vat-statement-details.md)
 ## เบลเยียม
 ### [ใบแจ้งยอดจากธนาคาร CODA](emea-bel-coda-bank-statement-import.md)
+### [การรายงานภาษี INTERVAT](emea-bel-intervat-tax-declaration.md)
 ### [การตั้งค่ารายงาน PRODCOM](emea-bel-prodcom-report.md)
 
 ## สาธารณรัฐเช็ก
+### [ส่วนลดเงินสดในหมายเลขใบลดหนี้](emea-cze-credit-note-cash-discount.md)
 ### [การปัดเศษค่าเสื่อมราคา](emea-cze-depreciation-rounding.md)
 ### [การระงับค่าเสื่อมราคา](emea-cze-depreciation-suspension-holidays.md)
 ### [ค่าเสื่อมราคาของสินทรัพย์ถาวร](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [รายงานรายการสมุดรายวัน](emea-deu-journal-list-report.md)
 ### [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## ฮังการี
+### [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [สินทรัพย์ถาวรต้นทุนต่ำ](emea-hun-low-cost-fixed-assets.md)
+### [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](emea-hun-fixed-asset-to-inventory.md)
 ## อิตาลี
 ### [รายละเอียดใบแจ้งยอด VAT](emea-ita-vat-statements-details.md)
 ### [รายงานรายชื่อบัญชีดำ](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [สมุดบัญชีภาษีขาย](emea-ita-fiscal-books.md)
 ### [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [ภาษีหัก ณ ที่จ่าย](emea-ita-withholding tax.md)
 ## ลัตเวีย
 ### [การบัญชีสินทรัพย์ถาวร](emea-lva-fixed-assets-accounting.md)
 ### [การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [ทำสำเนาการกำหนดหมายเลขใบแจ้งหนี้การขาย](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [ค่าเสื่อมราคาของสินทรัพย์ถาวร](emea-pol-fixed-assets-depreciation.md)
 ### [ส่วนขยายฟังก์ชันการทำงานการตัดจำหน่ายสินทรัพย์ถาวร](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [บรรจุภัณฑ์ที่สามารถส่งคืนได้](emea-pol-returnable-packages.md)
+### [รายงานภาษีขาย](emea-pol-sales-tax-reports.md)
+### [ไฟล์การตรวจสอบมาตรฐาน (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [รายงานยอดขายและยอดดุล](emea-pol-turnover-balances-statement.md)
 ## สเปน
-### [ตัวเลือกตั๋วแลกเงิน](emea-esp-bill-of-exchange-options.md)
 ### [ใช้ส่วนลดเงินสดในใบแจ้งหนี้](emea-esp-cash-discount-applied-invoice.md)
+### [ตัวเลือกตั๋วแลกเงิน](emea-esp-bill-of-exchange-options.md)
+### [ภาษีขายแบบมีเงื่อนไข](emea-esp-conditional-sales-tax.md)
 ### [บัญชีใบแจ้งหนี้ข้อมูลบัญชี](emea-esp-fiscal-data-invoice-account.md)
 ### [การประเมินค่าใหม่กลุ่มสินทรัพย์ถาวร](emea-esp-fixed-asset-group-revaluation.md)
+### [VAT ภายในประชาคม](emea-esp-intra-community-vat.md)
 ### [ลูกค้าขาจร](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [ตัวเลือกตั๋วสัญญาใช้เงิน](emea-esp-promissory-note-options.md)
 ### [วงจรการขายและการซื้อ](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # อเมริกาเหนือ
 ## [การรายงาน 1099 สิ้นปีสำหรับสหรัฐอเมริกา](noam-usa-year-end-1099-reporting.md)
+

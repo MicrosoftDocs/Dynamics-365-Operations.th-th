@@ -60,3 +60,15 @@
 #### [FAQ เกี่ยวกับการอัพเดตข้อมูลบัญชีเงินเดือน](localizations/noam-usa-payroll-data-updates.md)
 #### [สร้างรายงานบัญชีเงินเดือน](localizations/noam-usa-generate-payroll-reports.md)
 
+# [ข้อมูลทางการเงิน](/dynamics365/operations/financials/index)
+
+# [การขายปลีก](/dynamics365/operations/retail/index)
+
+# [การบริหารห่วงโซ่อุปทาน](/dynamics365/operations/supply-chain/index)
+
+# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/operations/dev-itpro/index)
+
+# ทรัพยากรอื่นๆ
+## [อภิธานศัพท์ Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

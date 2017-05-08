@@ -170,6 +170,7 @@
 ## [มิติองค์ประกอบต้นทุน](cost-accounting/cost-elements.md)
 ## [มิติออบเจ็กต์ต้นทุน](cost-accounting/cost-objects.md)
 ## [แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ](cost-accounting/map-cost-elements-dimension-members.md)
+## [การคำนวณค่าโสหุ้ย](cost-accounting/overhead-calculation.md)
 ## [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [เนื้อหาการบัญชีต้นทุนใน Power BI](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI เกี่ยวกับการบัญชีต้นทุน](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [ใบเสนอราคาโครงการ](project-management/project-quotations.md)
 ## [การจัดหาทรัพยากรของโครงการ](project-management/project-resourcing.md)
 ## [โครงสร้างการแบ่งงาน](project-management/work-breakdown-structures.md)
+## [พื้นที่ทำงานแบบเคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ](project-management/project-time-entry-mobile-workspace.md)
 # [การแปลเป็นภาษาท้องถิ่น](localizations/TOC.md)
+
+# [ทรัพยากรบุคคล](/dynamics365/operations/human-resources/index)
+
+# [การขายปลีก](/dynamics365/operations/retail/index)
+
+# [การบริหารห่วงโซ่อุปทาน](/dynamics365/operations/supply-chain/index)
+
+# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/operations/dev-itpro/index)
+
+# ทรัพยากรอื่นๆ
+## [อภิธานศัพท์ Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

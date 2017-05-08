@@ -22,10 +22,14 @@
 ## [วันที่ถัวเฉลี่ยถ่วงน้ำหนัก](weighted-average-date.md)
 ## [ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย](weighted-average-physical-value-marking.md)
 # การคิดต้นทุนการผลิต
+## [การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต](amortize-constant-costs-manufactured-item.md)
+## [การคิดต้นทุนแบบย้อนกลับ](backflush-costing.md)
+## [การคำนวณ BOM](bom-calculations.md)
 ## [กลุ่มการคำนวณ BOM](bom-calculation-groups.md)
 ## [แหล่งทั่วไปของผลต่างการผลิต](common-sources-of-production-variances.md)
 ## [ประเภทต้นทุนที่ใช้ในกระบวนการผลิต](cost-categories-used-production-routings.md)
 ## [ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ](cost-categories-used-production-control-project-management-accounting.md)
+## [แสดงค่าธรรมเนียมสำหรับสินค้าที่ผลิต](charges-manufactured-item.md)
 ## [การวิเคราะห์ต้นทุนใบสั่งผลิต](production-order-cost-analysis.md)
 ## [การประเมินต้นทุนใบสั่งผลิต](production-order-cost-estimation.md)
 ## [การลงรายการบัญชีการผลิต](production-posting.md)
@@ -39,5 +43,6 @@
 ## [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมในการผลิต](update-standard-costs-manufacturing-environment.md)
 ## [อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่](update-standard-costs-new-manufactured-item.md)
 ## [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่ใช่การผลิต](update-standard-costs-non-manufacturing-environment.md)
+
 
 

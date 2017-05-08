@@ -1,6 +1,6 @@
 ---
-title: "โฮมเพจ BI &amp; การรายงาน"
-description: "หัวข้อนี้แสดงรายการ BI &amp; การรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations"
+title: "โฮมเพจ BI และการรายงาน"
+description: "หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations"
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,20 +16,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: fad93826b0798e2028f75457d5bbdbd1f9639a5b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 7163951249cbea6d528440aef9bf38bcf4c4f7e5
+ms.contentlocale: th-th
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>โฮมเพจ BI &amp; การรายงาน
+# <a name="bi-amp-reporting-home-page"></a>โฮมเพจ BI และการรายงาน
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้แสดงรายการ BI &amp; การรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations 
+หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations 
 
 <a name="working-with-aggregate-data"></a>การทำงานกับข้อมูลรวม
 ---------------------------
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/31/2017
 -   [สร้างรายงาน Power BI และแดชบอร์ด](create-powerbi-report-dashboard.md)
 -   [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md)
 -   [เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI](financial-performance-power-bi-content-pack.md)
--   [การขายและกำไรจากประสิทธิภาพเนื้อหาพลังงาน BI](sales-profitability-performance-content-pack.md)
+-   [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
 -   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>สร้างการฝังประสบการณ์การวิเคราะห์ในไคลเอนต์ Dynamics 365 for Operations
@@ -67,7 +68,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 -   [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 -   [จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-manage-configuration-lifecycle.md)
--   [ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formulas-list-extension.md)
+-   [การขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formulas-list-extension.md)
 -   [ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
 -   [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
 -   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
@@ -86,7 +87,7 @@ ms.lasthandoff: 03/31/2017
 -   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 3: ออกแบบรายงาน)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (คู่มืองาน)
 -   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 4: รันรายงาน)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (คู่มืองาน)
 -   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 1: สร้างรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 2: ตั้งค่าคอนฟิกการคำนวณ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (คู่มืองาน)
+-   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 2: ตั้งค่าการคำนวณ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (คู่มืองาน)
 -   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 3: ใช้การคำนวณเพื่อสร้างผลลัพธ์)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (คู่มืองาน)
 -   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 4: รันรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (คู่มืองาน)
 -   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 1: ออกแบบรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (คู่มืองาน)
