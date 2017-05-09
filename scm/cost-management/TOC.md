@@ -1,0 +1,48 @@
+# ชุดเนื้อหา Power BI
+## [ชุดเนื้อหาการจัดการต้นทุน](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# ต้นทุนที่กำหนดไว้ล่วงหน้า
+## [แผ่นงานการคิดต้นทุน](costing-sheets.md)
+## [เวอร์ชันการคิดต้นทุน](costing-versions.md)
+## [การจำลองการเปลี่ยนแปลงของต้นทุนโดยการใช้เวอร์ชันการคำนวณต้นทุนสำหรับต้นทุนที่วางแผนไว้](simulate-cost-changes-costing-version-planned-costs.md)
+# การคิดต้นทุนสินค้าคงคลัง
+## [การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ](adjust-hand-inventory-cost-values.md)
+## [ออบเจ็กต์ต้นทุน](cost-object.md)
+## [รายการของต้นทุน](cost-entries.md)
+## [กลุ่มต้นทุน](cost-groups.md)
+## [FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](fifo-physical-value-marking.md)
+## [รวมมูลค่าจริง](include-physical-value.md)
+## [มูลค่าออบเจ็กต์สินค้าคงคลัง](physical-quantity.md)
+## [การปิดบัญชีสินค้าคงคลัง](inventory-close.md)
+## [วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](lifo-date-physical-value-marking.md)
+## [LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](lifo-physical-value-marking.md)
+## [ค่าเฉลี่ยเคลื่อนที่](moving-average.md)
+## [การอัพเดตทางกายภาพและทางการเงิน](physical-financial-updates.md)
+## [ราคาต้นทุนถัวเฉลี่ย](running-average-cost-price.md)
+## [การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง](track-running-average-cost-per-inventory-dimension.md)
+## [วันที่ถัวเฉลี่ยถ่วงน้ำหนัก](weighted-average-date.md)
+## [ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย](weighted-average-physical-value-marking.md)
+# การคิดต้นทุนการผลิต
+## [การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต](amortize-constant-costs-manufactured-item.md)
+## [การคิดต้นทุนแบบย้อนกลับ](backflush-costing.md)
+## [การคำนวณ BOM](bom-calculations.md)
+## [กลุ่มการคำนวณ BOM](bom-calculation-groups.md)
+## [แหล่งทั่วไปของผลต่างการผลิต](common-sources-of-production-variances.md)
+## [ประเภทต้นทุนที่ใช้ในกระบวนการผลิต](cost-categories-used-production-routings.md)
+## [ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ](cost-categories-used-production-control-project-management-accounting.md)
+## [แสดงค่าธรรมเนียมสำหรับสินค้าที่ผลิต](charges-manufactured-item.md)
+## [การวิเคราะห์ต้นทุนใบสั่งผลิต](production-order-cost-analysis.md)
+## [การประเมินต้นทุนใบสั่งผลิต](production-order-cost-estimation.md)
+## [การลงรายการบัญชีการผลิต](production-posting.md)
+## [ติดตั้งผลิตภัณฑ์ที่สามารถผลิตหรือจัดหาได้](manufactured-items-treated-as-purchased-items.md)
+## [วิธีการปันส่วนต้นทุนรวม](methodology-total-cost-allocation.md)
+# ต้นทุนมาตรฐาน
+## [การคำนวณ BOM ด้วยต้นทุนมาตรฐาน](information-used-bom-calculations-standard-costs.md)
+## [จัดการการอัพเดตต้นทุนมาตรฐาน](manage-standard-cost-updates.md)
+## [ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน](prerequisites-standard-cost-conversion.md)
+## [ภาพรวมของการแปลงต้นทุนมาตรฐาน](standard-cost-conversion-overview.md)
+## [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมในการผลิต](update-standard-costs-manufacturing-environment.md)
+## [อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่](update-standard-costs-new-manufactured-item.md)
+## [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่ใช่การผลิต](update-standard-costs-non-manufacturing-environment.md)
+
+
+
