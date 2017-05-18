@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกกระบวนการอน
 description: "ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ"
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน
+
+[!include[banner](../includes/banner.md)]
+
 
 ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ
 
@@ -161,7 +165,9 @@ ms.lasthandoff: 03/31/2017
 กระบวนการอนุมัติประกอบด้วยขั้นตอนการอนุมัติ ทำตามขั้นตอนต่อไปนี้เพื่อเพิ่มขั้นตอนกระบวนการอนุมัติและขั้นตอนการตั้งค่าคอนฟิก
 1.  ในโปรแกรมแก้ไขลำดับงาน ดับเบิลคลิกที่กระบวนการอนุมัติ โปรแกรมแก้ไขลำดับงานแสดงขั้นตอนกระบวนการอนุมัติ
 2.  เมื่อต้องการเพิ่มขั้นตอนการอนุมัติ ลากขั้นตอนจากพื้นที่ **องค์ประกอบลำดับงาน** ไปที่ผืนผ้าใบ
-3.  เมื่อต้องการตั้งค่าคอนฟิกขั้นตอนการอนุมัติ ให้ดูที่ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/)
+3.  เมื่อต้องการตั้งค่าคอนฟิกขั้นตอนการอนุมัติ ให้ดูที่ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ](configure-approval-step-workflow.md)
+
+
 
 
 

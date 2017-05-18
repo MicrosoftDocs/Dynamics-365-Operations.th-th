@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ใน Dynamics 365 for Operations - ชุดเนื้อหาประสิทธิภาพการขายและการทำกำไรสำหรับ Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
 
@@ -44,6 +48,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="accessing-the-content-pack"></a>การเข้าถึงชุดเนื้อหา
 ชุดเนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BIได้รับการเผยแพร่โดยเป็นสินทรัพย์การใช้งานใน Lifecycle Services (LCS) และสามารถเข้าถึงได้จาก Dynamics 365 for Operations สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเข้าถึงและเปิดใช้รายงาน Power BI ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md)
+**หมายเหตุ:** KB 4011327 เป็นข้อกำหนดเบื้องต้นสำหรับเนื้อหา Power BI นี้ หลังจากที่คุณลงชื่อเข้าใช้ไปยัง Lifecycle Services คุณสามารถเข้าถึง KB ได้ที่นี่: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>
 
 ## <a name="metrics-included-in-the-content-pack"></a>เมตริกที่รวมอยู่ในชุดเนื้อหา
 ชุดเนื้อหารวมรายงานที่ประกอบด้วยชุดของเมตริกที่ถูกแสดงภาพข้อมูลโดยเป็นแผนภูมิ ไทล์ และตาราง ตารางต่อไปนี้จะแสดงภาพรวมของการแสดงภาพข้อมูลในชุดเนื้อหา
@@ -51,12 +56,12 @@ ms.lasthandoff: 03/31/2017
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
 | **หน้ารายงาน**        | **แผนภูมิ**                                 | **ไทล์**                                               |
-| รายได้โดยเรียงตามลูกค้า    | ลูกค้า 100 อันดับแรกโดยเรียงตามรายได้                | รายได้รวม                                           |
+| รายได้โดยเรียงตามลูกค้า    | ลูกค้า 10 อันดับแรกโดยเรียงตามรายได้                | รายได้รวม                                           |
 |                        | รายได้รวมโดยเรียงตามกลุ่มลูกค้า            | การเติบโตรายได้ YOY                                      |
 |                        | รายได้เฉลี่ยของลูกค้าโดยเรียงตามกลุ่มลูกค้า | กำไรขั้นต้น                                            |
 |                        | รายได้และกำไรขั้นต้นโดยเรียงตามกลุ่มลูกค้า   |                                                         |
 | รายได้โดยเรียงตามผลิตภัณฑ์     | รายได้และกำไรขั้นต้นโดยเรียงตามประเภทการขาย   | \# ผลิตภัณฑ์รวม                                    |
-|                        | ผลิตภัณฑ์ 100 อันดับแรกโดยเรียงตามรายได้                 | จำนวนรวมของผลิตภัณฑ์ที่ใช้งานอยู่และเปอร์เซ็นต์ของจำนวนรวม |
+|                        | ผลิตภัณฑ์ 10 อันดับแรกโดยเรียงตามรายได้                 | จำนวนรวมของผลิตภัณฑ์ที่ใช้งานอยู่และเปอร์เซ็นต์ของจำนวนรวม |
 |                        | รายได้รวมโดยเรียงตามประเภทการขาย            | จำนวนของผลิตภัณฑ์ที่ลงบัญชีสำหรับรายได้ 80%           |
 | รายได้โดยเรียงตามรอบระยะเวลา\*    | รายได้โดยเรียงตามเดือน                           | การเติบโตรายได้ YOY                                      |
 |                        | ผลต่างงบประมาณปิดท้าย YOY             | % การเติบโตรายได้ YOY                                    |
@@ -110,6 +115,8 @@ ms.lasthandoff: 03/31/2017
 -   [การสร้างชุดเนื้อหาขององค์กร](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [การสร้างแบบจำลองข้อมูลโดยใช้พลังงาน BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [การเพิ่มไทล์ Power BI ไปยังพื้นที่ทำงาน](configure-power-bi-integration.md)
+
+
 
 
 

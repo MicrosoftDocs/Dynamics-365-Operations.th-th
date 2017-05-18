@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 7fa432ebfc433b6396589df053b2b485b2ec6dbd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ccf73e1c87a7a3e14205eee7e5510688fbf56eee
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/31/2017
     -   ค่าเสื่อมราคาต่อหน่วย
     -   ปริมาณการใช้วัสดุที่ประเมิน
 
-    ฟิลด์** ปริมาณการใช้วัสดุที่ลงรายการบัญชี** จะแสดงการคิดค่าเสื่อมราคาตามปริมาณการใช้ ในหน่วย ซึ่งมีการลงรายการบัญชีแล้วสำหรับชุดของสินทรัพย์ถาวรและรูปแบบมูลค่าหรือสมุดบัญชีค่าเสื่อมราคาสินทรัพย์ถาวร คุณไม่สามารถปรับปรุงค่าในฟิลด์นั้นด้วยตนเอง
+    ฟิลด์**ปริมาณการใช้วัสดุที่ลงรายการบัญชี** จะแสดงการคิดค่าเสื่อมราคาตามปริมาณการใช้ ในหน่วย ซึ่งมีการลงรายการบัญชีแล้วสำหรับชุดของสินทรัพย์ถาวรและรูปแบบมูลค่าหรือสมุดบัญชีค่าเสื่อมราคาสินทรัพย์ถาวร คุณไม่สามารถปรับปรุงค่าในฟิลด์นั้นด้วยตนเอง
 
 ## <a name="examples"></a>ตัวอย่างเช่น
 ### <a name="example-1"></a>ตัวอย่างที่ 1

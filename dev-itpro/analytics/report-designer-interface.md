@@ -1,16 +1,16 @@
 ---
 title: "อินเทอร์เฟสของโปรแกรมออกแบบรายงาน"
 description: "บทความนี้อธิบายถึงวิธีการนำทางไปยังผู้ออกแบบรายงานและวิธีการใช้ตัวเลือกต่าง ๆ เพื่อให้ตรงกับความต้องการเฉพาะของคุณ"
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 18 - 50 - 10
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 58c56aca6f339a5ec13703605334dd45b208ab2c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3a82d877b2fb87eef6f2b16d528ed42debbb2874
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="report-designer-interface"></a>อินเทอร์เฟสของโปรแกรมออกแบบรายงาน
+
+[!include[banner](../includes/banner.md)]
+
 
 บทความนี้อธิบายถึงวิธีการนำทางไปยังผู้ออกแบบรายงานและวิธีการใช้ตัวเลือกต่าง ๆ เพื่อให้ตรงกับความต้องการเฉพาะของคุณ 
 
@@ -159,7 +163,7 @@ ms.lasthandoff: 03/29/2017
 
 | คำสั่ง | คำอธิบาย                                                  |
 |---------|--------------------------------------------------------------|
-| วิธีใช้    | เปิดเพจ wiki วิธีใช้ Dynamics 365 for Operations สำหรับการรายงานทางการเงิน |
+| วิธีใช้    | เปิดเพจหัวข้อวิธีใช้ Dynamics 365 for Operations สำหรับการรายงานทางการเงิน |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>ปุ่มแถบเครื่องมือของโปรแกรมออกแบบรายงาน
@@ -225,8 +229,10 @@ ms.lasthandoff: 03/29/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[การรายงานทางการเงินของ Microsoft Dynamics ERP](financial-reporting-intro.md)
+[การรายงานทางการเงิน](financial-reporting-intro.md)
 
-[สร้างรายงานทางการเงิน](\financials\general-ledger\generate-financial-report.md)
+[สร้างรายงานทางการเงิน](generate-financial-report.md)
+
+
 
 

@@ -1,0 +1,133 @@
+---
+title: "พื้นที่ทำงานแบบเคลื่อนที่ของการป้อนข้อมูลเวลาของโครงการสำหรับแอพ Dynamics 365 for Operations"
+description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการป้อนข้อมูลเวลาของโครงการ พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถป้อนและประหยัดเวลาในแง่ของโครงการโดยใช้อุปกรณ์เคลื่อนที่ของตน"
+author: annbe
+manager: AnnBe
+ms.date: 04/21/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User, IT Pro
+ms.reviewer: annbe
+ms.search.scope: Operations, Core
+ms.custom: 272101
+ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: annbe
+ms.dyn365.ops.intro: Version 1611
+ms.search.validFrom: 2016-11-30
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
+
+
+---
+
+# <a name="project-time-entry-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การป้อนข้อมูลเวลาของโครงการ
+
+[!include[banner](../includes/banner.md)]
+
+"[!include[banner](../includes/banner.md)]"
+
+
+หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการป้อนข้อมูลเวลาของโครงการสำหรับแอพบนมือถือ Dynamics 365 for Operations พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถป้อนและประหยัดเวลาในแง่ของโครงการโดยใช้อุปกรณ์เคลื่อนที่ของตน
+
+<a name="overview-of-the-project-time-entry-mobile-workspace"></a>ภาพรวมของพื้นที่ทำงานแบบเคลื่อนที่ของการป้อนข้อมูลเวลาของโครงการ
+---------------------------------------------------
+
+ในส่วนหนึ่งของการทำงานประจำวัน ทรัพยากรโครงการมักอยู่ที่ไซต์หรืออยู่ในระหว่างทาง พื้นที่ทำงานแบบเคลื่อนที่ของ **การป้อนข้อมูลเวลาของโครงการ** ช่วยให้ผู้ใช้สามารถป้อนเวลาที่เรียกเก็บเงินได้หรือที่เรียกเก็บเงินไม่ได้สำหรับโครงการของตนบนอุปกรณ์เคลื่อนที่ที่ผู้ใช้เลือก ดังนั้น ทรัพยากรโครงการสามารถบันทึกรายการเวลาเมื่อใดก็ได้ และที่ใดก็ได้ และยังสามารถดูรายการเวลาที่มีการบันทึกแล้ว 
+
+โดยเฉพาะอย่างยิ่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **การป้อนข้อมูลเวลาของโครงการ** จะมีคุณลักษณะเหล่านี้:
+
+-   สำหรับวันใด ๆ ที่เลือก ให้ป้อนจำนวนชั่วโมงที่คุณใช้ในงานนั้น ๆ
+-   ค้นหาตามชื่อของโครงการหรือลูกค้าเพื่อค้นหาโครงการที่จะป้อนเวลา
+-   ระบุประเภทและกิจกรรมสำหรับเวลาที่คุณใช้
+-   บันทึกเวลาเป็นที่เรียกเก็บเงินได้หรือที่เรียกเก็บเงินไม่ได้สำหรับโครงการ
+-   เลือกที่จะป้อนข้อคิดเห็นภายในหรือภายนอก
+
+เมื่อต้องการใช้พื้นที่ทำงานแบบเคลื่อนที่ของ **การป้อนข้อมูลเวลาของโครงการ** ดูส่วนต่อไปนี้ในหัวข้อนี้
+
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+ก่อนที่คุณจะสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ของ **การป้อนข้อมูลเวลาของโครงการ** ตรวจสอบให้แน่ใจว่าผู้ดูแลระบบของคุณได้ทำตามข้อกำหนดเบื้องต้นต่อไปนี้
+
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ข้อกำหนดเบื้องต้น</th>
+<th>บทบาท</th>
+<th>คำอธิบาย</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ต้องมีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า</td>
+<td>ผู้ดูแลระบบ</td>
+<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ผู้ดูแลระบบของคุณควรเห็น <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
+</tr>
+<tr class="even">
+<td>ต้องปรับใช้ KB 4018050</td>
+<td>ผู้ดูแลระบบ</td>
+<td>KB 4018050 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การป้อนข้อมูลเวลาของโครงการ</strong> เมื่อต้องการใช้ KB 4018050 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
+<ol>
+<li>ดาวน์โหลด KB 4018050 จาก Microsoft Dynamics Lifecycle Services (LCS)</li>
+<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ProjectMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้</a> ไปยังระบบ Dynamics 365 for Operations ของคุณ</li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การป้อนข้อมูลเวลาของโครงการ</strong> ต้องถูกเผยแพร่ไปยังแอพบนมือถือ Dynamics 365 for Operations</td>
+<td>ผู้ดูแลระบบ</td>
+<td><ol>
+<li>เริ่มต้นการทำงาน Dynamics 365 for Operations ในเบราว์เซอร์ของคุณ</li>
+<li>ในหน้า <strong>พารามิเตอร์ระบบ</strong> บนแท็บ <strong>จัดการพื้นที่ทำงานแบบเคลื่อนที่</strong> เลือกพื้นที่ทำงานของ <strong>การป้อนข้อมูลเวลาของโครงการ</strong></li>
+<li>คลิก <strong>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</strong></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations
+ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations จากร้านค้าแอพบนมือถือของคุณ
+
+-   สำหรับ Android: [Dynamics 365 for Operations บน Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
+-   สำหรับ iPhone: [Dynamics 365 for Operations บนร้านค้าแอพ iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+
+## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>ลงชื่อเข้าใช้ไปยังแอพบนมือถือ Dynamics 365 for Operations
+1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
+2.  ป้อน URL ของ Dynamics 365 for Operations ของคุณ
+3.  ป้อนบริษัทเพื่อลงชื่อเข้าใช้ ตัวอย่างเช่น ป้อน **USMF**
+4.  ในครั้งแรกที่คุณเข้าสู่ระบบ คุณจะได้รับพร้อมท์สำหรับชื่อผู้ใช้และรหัสผ่านสำหรับบัญชี Dynamics 365 for Operations ของคุณ ป้อนข้อมูลประจำตัวของคุณ
+5.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว คุณจะสามารถดูพื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณ หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณสามารถดึงเพื่อรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่ได้
+
+[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+
+## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>ป้อนเวลาโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการป้อนข้อมูลเวลาของโครงการ
+1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **การป้อนข้อมูลเวลาของโครงการ**
+2.  เลือก **การป้อนข้อมูลเวลา** คุณจะเห็นวันที่ในปฏิทินสำหรับสัปดาห์ปัจจุบัน
+3.  สำหรับวันที่เลือก ให้เลือก **การดำเนินการ** &gt; **รายการใหม่**
+4.  ป้อนจำนวนชั่วโมงเพื่อบันทึก
+5.  เลือกโครงการที่จะป้อนข้อมูลเวลา คุณเห็นรายการของโครงการที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)
+6.  ถ้าโครงการของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามชื่อหรือสลับไปยังการค้นหาตามชื่อของโครงการหรือลูกค้า
+7.  เลือกประเภท  คุณเห็นรายการของประเภทที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)
+8.  ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามประเภทหรือสลับไปยังการค้นหาตามชื่อประเภท
+9.  เลือกกิจกรรม คุณเห็นรายการของกิจกรรมที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)
+10. ถ้ากิจกรรมของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามหมายเลขกิจกรรม หรือสลับไปยังการค้นหาตามวัตถุประสงค์
+11. เลือกลักษณะของรายการ
+12. เลือกระบุได้: ป้อนข้อคิดเห็นภายในและภายนอก
+13. เลือก **เสร็จสิ้น**
+
+
+
+
+
+

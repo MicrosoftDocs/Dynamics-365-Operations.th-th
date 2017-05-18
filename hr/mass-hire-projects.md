@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>โครงการจ้างงานโดยรวม
+
+[!include[banner](includes/banner.md)]
+
 
 โครงการจ้างงานโดยรวมช่วยทรัพยากรบุคคลผู้เชี่ยวชาญในการสร้างหลายตำแหน่ง และจ้างผู้ปฏิบัติงานลงในตำแหน่งดังกล่าวได้อย่างมีประสิทธิภาพ
 
@@ -46,7 +50,7 @@ ms.lasthandoff: 03/31/2017
 
 หลังจากเลือกนักศึกษาสำหรับการจ้างงานแต่ละตำแหน่งแล้ว คุณจะต้องป้อนข้อมูลของนักศึกษาแต่ละคนใน **รายละเอียดของตำแหน่ง** สำหรับตำแหน่งงานที่คุณกำลังจะว่าจ้าง เมื่อคุณป้อนรายละเอียดของตำแหน่งทั้งหมด เลือกตำแหน่งในหน้าโครงการจ้างงานโดยรวม และคลิก **จ้างงาน** เรกคอร์ดของตำแหน่งจะถูกสร้างสำหรับแต่ละตำแหน่ง และเรกคอร์ดของผู้ปฏิบัติงานแต่ละคนจะถูกสร้าง และกำหนดให้ตรงกับตำแหน่งที่ถูกต้องสำหรับแต่ละบุคคลที่คุณทำการจ้างงาน
 
-## <a name="masshire-project-statuses"></a>สถานะของโครงการจ้างงานโดยรวม
+## <a name="mass-hire-project-statuses"></a>สถานะของโครงการจ้างงานโดยรวม
 โครงการสรรหาบุคลากรอาจมีสถานะใดสถานะหนึ่งดังต่อไปนี้
 -   ที่สร้าง
 -   เปิด
@@ -92,6 +96,8 @@ ms.lasthandoff: 03/31/2017
 </table>
 
  
+
+
 
 
 

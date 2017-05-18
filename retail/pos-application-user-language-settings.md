@@ -1,6 +1,6 @@
 ---
 title: "แอพลิเคชัน POS และการตั้งค่าภาษาผู้ใช้"
-description: "หัวข้อนี้อธิบายวิธีการเปลี่ยนแปลงการตั้งค่าภาษาใน Retail Modern POS (MPOS) และ Cloud POS"
+description: "หัวข้อนี้อธิบายวิธีการเปลี่ยนแปลงการตั้งค่าภาษาใน Modern POS ของการขายปลีก (MPOS) และ Cloud POS"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -18,10 +18,11 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: bf5b75572529bb497d3079752de187f30aa59294
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: e979eaddb04c96fabb6e5e2693b300674fad8ee2
+ms.contentlocale: th-th
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -31,12 +32,12 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการเปลี่ยนแปลงการตั้งค่าภาษาใน Retail Modern POS (MPOS) และ Cloud POS
+หัวข้อนี้อธิบายวิธีการเปลี่ยนแปลงการตั้งค่าภาษาใน Modern POS ของการขายปลีก (MPOS) และ Cloud POS
 
 <a name="overview"></a>ภาพรวม
 ========
 
-Retail Modern POS (MPOS) and Cloud POS สนับสนุนสภาพแวดล้อมที่การตั้งค่าภาษาและการแปลอาจแตกต่างกันระหว่างการตั้งค่าร้านค้าและผู้ใช้ ตัวอย่างเช่น ร้านค้าสามารถอยู่ในภูมิภาคที่ภาษาอังกฤษเป็นภาษาสามัญสำหรับลูกค้าของพวกเขา แต่ผู้ปฏิบัติงานบางคนต้องการใช้แอพลิเคชันที่มีการแปลภาษาฝรั่งเศส
+Modern POS ของการขายปลีก (MPOS) and Cloud POS สนับสนุนสภาพแวดล้อมที่การตั้งค่าภาษาและการแปลอาจแตกต่างกันระหว่างการตั้งค่าร้านค้าและผู้ใช้ ตัวอย่างเช่น ร้านค้าสามารถอยู่ในภูมิภาคที่ภาษาอังกฤษเป็นภาษาสามัญสำหรับลูกค้าของพวกเขา แต่ผู้ปฏิบัติงานบางคนต้องการใช้แอพลิเคชันที่มีการแปลภาษาฝรั่งเศส
 
 ## <a name="data-language"></a>ข้อมูลภาษา
 โดยไม่คำนึงถึงการตั้งค่าของผู้ใช้ MPOS และ Cloud POS จะใช้การตั้งค่าภาษาของร้านค้าเพื่อกำหนดการแปลที่จะถูกใช้กับข้อมูลเสมอ ซึ่งจะทำให้แน่ใจว่าผู้ใช้และลูกค้าทั้งหมดจะมีประสบการณ์ที่ตรงกัน  ตัวอย่างของข้อมูล ได้แก่

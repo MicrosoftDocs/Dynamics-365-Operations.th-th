@@ -3,7 +3,7 @@ title: "ความต้องการของระบบ"
 description: "หัวข้อนี้แสดงความต้องการของระบบสำหรับรุ่นล่าสุดของ Microsoft Dynamics 365 for Operations"
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>ความต้องการของระบบ
+
+[!include[banner](../includes/banner.md)]
+
 
 หัวข้อนี้แสดงความต้องการของระบบสำหรับรุ่นล่าสุดของ Microsoft Dynamics 365 for Operations
 
@@ -43,6 +47,8 @@ ms.lasthandoff: 03/31/2017
 -   เมื่อต้องการจับภาพรูปที่สร้างขึ้นจากตัวบันทึกงาน และรวมค่าเหล่านั้นไว้ในเอกสาร Microsoft Word คุณต้องติดตั้งส่วนขยาย Chrome ไว้ <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   ตัวแก้ไขเวิร์กโฟลว์จะเริ่มต้นการใช้งานเป็นแอพลิเคชัน ClickOnce เฉพาะ Microsoft Edge และ Internet Explorer (ในรุ่นที่สนับสนุนของ Microsoft Windows) สนับสนุนแอพลิเคชัน ClickOnce แอพลิเคชัน ClickOnce โปรแกรมแก้ไขลำดับงานต้องมีระบบปฏิบัติการที่เข้ากันกับงาน 64 บิต
 -   โปรแกรมออกแบบรายงานสำหรับการรายงานทางการเงินจะถูกเริ่มต้นโดยเป็นแอพลิเคชัน ClickOnce ต้องมีระบบปฏิบัติการที่เข้ากันกับงาน 64 บิต ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังใช้ Chrome พร้อมกับโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว
+-   เมื่อต้องการแสดงตัวอย่างไฟล์ PDF เราขอแนะนำให้คุณใช้เบราว์เซอร์ที่ทันสมัย เช่น Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10 หรือ Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บนแท็บเล็ต Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus 10
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>เบราเซอร์ที่สนับสนุนสำหรับ Retail Cloud POS
 
@@ -65,16 +71,16 @@ Dynamics 365 for Operations ต้องมี .NET Framework รุ่น 4.6.2
 -   เมื่อต้องการเรียกใช้ Add-in ของ Microsoft Excel และ Word คุณจะต้องตั้งค่า Microsoft Office 2016 สำหรับ Windows หรือ Mac ไว้ สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดเวอร์ชัน ให้ดูที่ [การแก้ไขปัญหาการรวม Office](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting)
 -   เมื่อต้องการดูเอกสารที่สร้างขึ้นโดยฟังก์ชันส่งออกไปที่ Excel หรือส่งออกไปที่ Word คุณต้องติดตั้ง Microsoft Office 2007 หรือรุ่นที่ใหม่กว่าไว้
 
-## <a name="retail-modern-pos-requirements"></a>ข้อกำหนดของ Retail Modern POS
+## <a name="retail-modern-pos-requirements"></a>ข้อกำหนดของ Modern POS ของการขายปลีก
 ### <a name="supported-operating-systems"></a>ระบบปฏิบัติการที่ได้รับการสนับสนุน
 
--   Retail Modern POS คือแอพลิเคชันแบบ 32 บิต แต่จะทำงานทั้งบนโครงสร้าง x86 และ x64
--   Retail Modern POS ได้รับการสนับสนุนเฉพาะในรุ่น Windows 10 Pro, Enterprise และ Enterprise Long Term Servicing Branch (LTSB)
+-   Modern POS ของการขายปลีก คือแอพลิเคชันแบบ 32 บิต แต่จะทำงานทั้งบนโครงสร้าง x86 และ x64
+-   Modern POS ของการขายปลีก ได้รับการสนับสนุนเฉพาะในรุ่น Windows 10 Pro, Enterprise และ Enterprise Long Term Servicing Branch (LTSB)
 
 ### <a name="minimum-system-requirements"></a>ข้อกำหนดของระบบขั้นต่ำ
 
 -   ความละเอียดต่ำสุดที่สนับสนุนคือ 1280 × 1024
--   คอมพิวเตอร์ที่มีการเรียกใช้ Retail Modern POS ต้องเป็นไปตามข้อกำหนดเหล่านี้:
+-   คอมพิวเตอร์ที่มีการเรียกใช้ Modern POS ของการขายปลีก ต้องเป็นไปตามข้อกำหนดเหล่านี้:
     -   อย่างน้อยที่สุด ต้องมีตัวประมวลผลสองหลักที่รันที่ไม่น้อยกว่า 2 กิกะเฮิร์ตซ์ (GHz)
     -   ต้องมี RAM อย่างน้อยที่สุด 3 กิกะไบต์ (GB)
     -   ต้องมีการเข้าถึงอินเทอร์เน็ต
@@ -117,11 +123,13 @@ Dynamics 365 for Operations ต้องมี .NET Framework รุ่น 4.6.2
 -   เนื้อที่ว่างอย่างน้อย 10 กิกะไบต์ (ฐานข้อมูลช่องทางอาจต้องการเนื้อที่ว่างจำนวนมาก)
 
 ## <a name="requirements-for-development-on-local-vms"></a>ข้อกำหนดสำหรับการพัฒนาบน VM เฉพาะที่
-สำหรับข้อมูลเกี่ยวกับข้อกำหนดสำหรับการพัฒนาเครื่องเสมือนจริงเฉพาะที่ (VM) ให้ดูที่ [VM ที่เรียกใช้แบบ On-premises](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises)
+สำหรับข้อมูลเกี่ยวกับข้อกำหนดสำหรับการพัฒนาเครื่องเสมือนจริงเฉพาะที่ (VM) ให้ดูที่ [VM ที่เรียกใช้แบบ On-premises](../dev-tools/access-instances.md)
 
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
 [รับสำเนาการประเมินของ Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

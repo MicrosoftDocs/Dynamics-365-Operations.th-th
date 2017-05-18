@@ -3,7 +3,7 @@ title: "เนื้อหาการวิเคราะห์การซื
 description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหา Power BI เกี่ยวกับการวิเคราะห์การซื้อและการใช้จ่ายสำหรับ Microsoft และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: th-th
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>เนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหา Power BI เกี่ยวกับการวิเคราะห์การซื้อและการใช้จ่ายสำหรับ Microsoft และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
 
@@ -38,6 +42,7 @@ ms.lasthandoff: 03/29/2017
 
 ## <a name="accessing-the-content-pack"></a>การเข้าถึงชุดเนื้อหา
 ชุดเนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายได้รับการเผยแพร่โดยเป็นสินทรัพย์การใช้งานใน Microsoft Dynamics Lifecycle Services (LCS) และสามารถเข้าถึงได้จาก Microsoft Dynamics 365 for Operations สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเข้าถึงและรายงาน Power BI ที่เปิดอยู่ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md)
+หมายเหตุ: KB 4011327 เป็นข้อกำหนดเบื้องต้นสำหรับเนื้อหา Power BI นี้ หลังจากที่คุณลงชื่อเข้าใช้ไปยัง Lifecycle Services คุณสามารถเข้าถึง KB ได้ที่นี่: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>เมตริกที่รวมอยู่ในชุดเนื้อหา
 ชุดเนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายรวมรายงานที่ประกอบด้วยชุดของเมตริก เมตริกเหล่านี้จะถูกแสดงภาพข้อมูลโดยเป็นแผนภูมิ ไทล์ และตาราง ตารางต่อไปนี้จะแสดงภาพรวมของการแสดงภาพข้อมูลในชุดเนื้อหา
@@ -129,7 +134,7 @@ ms.lasthandoff: 03/29/2017
 \* การซื้อปีนี้และปีที่แล้ว และการเติบโตโดยเรียงตามประเภทการจัดซื้อ
 
 ## <a name="data-model-and-entities"></a>แบบจำลองข้อมูลและเอนทิตี
-ใช้ข้อมูล Dynamics 365 for Operations สำหรับรายงานในชุดเนื้อหาการวิเคราะห์การซื้อและการใช้จ่าย ข้อมูลนี้จะถูกแสดงเป็นการวัดแบบรวมที่มีการแบ่งระยะในร้านค้าเอนทิตี ซึ่งเป็นฐานข้อมูล Microsoft SQL ที่ปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับร้านค้าเอนทิตี ให้ดูที่ประกาศบล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) การวัดแบบรวมในชุดเนื้อหานี้คือชุดย่อยของการวัดแบบรวมที่พร้อมใช้งานใน Cube ใน Microsoft Dynamics AX 2012 และ Microsoft Dynamics 365 for Operations 2012 R3 เมื่อต้องการแบ่งระยะของการวัดแบบรวมของ Cube ในร้านค้าเอนทิตี คุณจะต้องทำให้สามารถปรับใช้ได้ สำหรับข้อมูลเพิ่มเติม ดูกระบวนการสำหรับการแบ่งระยะการวัดแบบรวมในร้านค้าเอนทิตีใน ประกาศบล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) การวัดแบบรวมหลักต่อไปนี้จะพร้อมใช้งานได้โดยตรงจากเอนทิตีในบรรทัดใบแจ้งหนี้และจะถูกใช้เป็นข้อมูลพื้นฐานของชุดเนื้อหา
+ใช้ข้อมูล Dynamics 365 for Operations สำหรับรายงานในชุดเนื้อหาการวิเคราะห์การซื้อและการใช้จ่าย ข้อมูลนี้จะถูกแสดงเป็นการวัดแบบรวมที่มีการแบ่งระยะในร้านค้าเอนทิตี ซึ่งเป็นฐานข้อมูล Microsoft SQL ที่ปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับร้านค้าเอนทิตี ให้ดูที่ประกาศบล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) การวัดแบบรวมในชุดเนื้อหานี้คือชุดย่อยของการวัดแบบรวมที่พร้อมใช้งานในคิวบ์การซื้อใน Microsoft Dynamics AX 2012 และ Microsoft Dynamics AX 2012 R3 เมื่อต้องการแบ่งระยะของการวัดแบบรวมของ Cube ในร้านค้าเอนทิตี คุณจะต้องทำให้สามารถปรับใช้ได้ สำหรับข้อมูลเพิ่มเติม ดูกระบวนการสำหรับการแบ่งระยะการวัดแบบรวมในร้านค้าเอนทิตีใน ประกาศบล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) การวัดแบบรวมหลักต่อไปนี้จะพร้อมใช้งานได้โดยตรงจากเอนทิตีในบรรทัดใบแจ้งหนี้และจะถูกใช้เป็นข้อมูลพื้นฐานของชุดเนื้อหา
 
 | เอนทิตี้        | การวัดแบบรวมหลัก | แหล่งข้อมูลสำหรับ Dynamics 365 for Operations | ฟิลด์              | คำอธิบาย                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ ms.lasthandoff: 03/29/2017
 -   [การสร้างชุดเนื้อหาขององค์กร](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [การสร้างแบบจำลองข้อมูลโดยใช้พลังงาน BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [การเพิ่มไทล์ Power BI ไปยังพื้นที่ทำงาน](configure-power-bi-integration.md)
+
+
 
 
 

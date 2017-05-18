@@ -3,7 +3,7 @@ title: "จะเริ่มต้นที่ใด"
 description: "เริ่มการทำงานที่นี่เมื่อต้องการเตรียมความพร้อมอย่างรวดเร็ว และเรียนรู้ Microsoft Dynamics 365 for Operations UI"
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>จะเริ่มต้นที่ใด
+
+[!include[banner](../includes/banner.md)]
+
 
 เริ่มการทำงานที่นี่เมื่อต้องการเตรียมความพร้อมอย่างรวดเร็ว และเรียนรู้ Microsoft Dynamics 365 for Operations UI
 
@@ -36,7 +40,7 @@ ms.lasthandoff: 03/30/2017
 - [ภาพรวม Microsoft FastTrack สำหรับ Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [ลงทะเบียนเพื่อสมัครใช้งาน](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) สำหรับลูกค้า Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
-- [วิธีที่ลูกค้าที่ซื้อ Microsoft Dynamics 365 for Operations ผ่านทางผู้ให้บริการระบบคลาวด์สามารถได้รับเวอร์ชัน On-premises ของ Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
+- [วิธีที่ลูกค้าที่ซื้อ Microsoft Dynamics 365 for Operations ผ่านทางผู้ให้บริการระบบคลาวด์สามารถได้รับเวอร์ชัน On-premises ของ Dynamics AX 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>อินเทอร์เฟสผู้ใช้
 ทรัพยากรต่อไปนี้แสดงข้อมูลเกี่ยวกับประสบการณ์ผู้ใช้ Dynamics 365 for Operations 
@@ -71,12 +75,12 @@ ms.lasthandoff: 03/30/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[สร้างไลบรารีการฝึกอบรมใหม่สำหรับ Dynamics 365 for Operations ภายใน Lifecycle Services ใช้ตัวบันทึกงาน (ลิงค์ภายนอก)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [คู่มืองานใหม่ (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)](new-task-guides-november-2016.md)
+
+
 
 

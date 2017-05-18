@@ -3,33 +3,37 @@ title: "มีอะไรใหม่หรือมีการเปลี่
 description: "หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Operations เวอร์ชันล่าสุดของคุณ"
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Core
+ms.search.scope: Operations, Core
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0d954043c461975a70f9e0ab867f30cadd9800b5
-ms.openlocfilehash: 2896a11f79d5cbb00137a439e0a2c8caaee705a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลง
 
+[!include[banner](../includes/banner.md)]
+
+
 หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Operations เวอร์ชันล่าสุดของคุณ
 
-หากต้องการอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุดของ Dynamics 365 for Operations](/migration-upgrade/upgrade-latest-update.md)
+หากต้องการอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุดของ Dynamics 365 for Operations](../migration-upgrade/upgrade-latest-update.md)
 <table>
 <colgroup>
 <col width="20%" />
@@ -50,15 +54,24 @@ ms.lasthandoff: 03/31/2017
 <tbody>
 <tr class="odd">
 <td>แพลตฟอร์ม Microsoft Dynamics 365 for Operations</td>
+<td>การอัพเดตแพลตฟอร์ม 6</td>
+<td> 7.0.4509.16180</td>
+<td>2017 เมษายน</td>
+<td><a href="whats-new-platform-update-6.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operations เวอร์ชัน 6 (เมษายน 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>แพลตฟอร์ม Microsoft Dynamics 365 for Operations</td>
+<td>การอัพเดตแพลตฟอร์ม 5</td>
+<td> 7.0.4475.16165</td>
+<td>2017 มีนาคม</td>
+<td><a href="whats-new-platform-update-5.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operations เวอร์ชัน 5 (มีนาคม 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>แพลตฟอร์ม Microsoft Dynamics 365 for Operations</td>
 <td>การอัพเดตแพลตฟอร์ม 4</td>
-<td>7.0.4425.16160</td>
+<td> 7.0.4425.16161</td>
 <td>2017 กุมภาพันธ์</td>
-<td><ol>
-<li>ไปที่ <a href="https://roadmap.dynamics.com/">แผนการทำงานDynamics 365</a></li>
-<li>เลือกแท็บ <strong>มีอะไรใหม่</strong></li>
-<li>ในส่วน <strong>แอพลิเคชัน</strong> เลือก <strong>Dynamics 365 for Operations</strong></li>
-<li>ในส่วน <strong>พื้นที่</strong> เลือก <strong>แพลตฟอร์มระบบคลาวด์</strong></li>
-</ol></td>
+<td><a href="whats-new-platform-update-4.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operations เวอร์ชัน 4 (กุมภาพันธ์ 2017)</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -111,6 +124,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 </tbody>
 </table>
+
+
 
 
 

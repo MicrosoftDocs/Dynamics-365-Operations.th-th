@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 หัวข้อนี้อธิบายวิธีการดาวน์โหลดการรายงานทางอิเล็กทรอนิกส์ (ER) จาก Microsoft Dynamics Lifecycle Services (LCS)
 
@@ -43,9 +47,10 @@ ms.lasthandoff: 03/31/2017
     1.  คลิก **เพิ่ม** เพื่อเพิ่มที่เก็บใหม่
     2.  เลือก **LCS** เป็นชนิดที่เก็บ
     3.  คลิก **สร้างที่เก็บ**
-    4.  ป้อนชื่อและคำอธิบายสำหรับที่เก็บ
-    5.  คลิก **ตกลง** เพื่อยืนยันรายการที่เก็บใหม่
-    6.  ในกริด เลือกที่เก็บใหม่ของชนิด **LCS**
+    4. หากได้รับการแจ้ง ให้ทำตามคำแนะนำการตรวจสอบ
+    5.  ป้อนชื่อและคำอธิบายสำหรับที่เก็บ
+    6.  คลิก **ตกลง** เพื่อยืนยันรายการที่เก็บใหม่
+    7.  ในกริด เลือกที่เก็บใหม่ของชนิด **LCS**
 
 6.  คลิก **เปิด** เพื่อดูรายการของการตั้งค่าคอนฟิก ER สำหรับที่เก็บที่เลือก [![อัพเดต ER จาก LCS สำหรับ MS - สร้างที่เก็บ LCS](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  ในแผนภูมิการตั้งค่าคอนฟิกในบานหน้าต่างด้านซ้าย ให้เลือกการตั้งค่าคอนฟิก ER ที่คุณต้องการ
@@ -58,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
+
+
 
 
