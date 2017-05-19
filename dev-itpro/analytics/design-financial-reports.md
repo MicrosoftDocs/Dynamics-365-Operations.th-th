@@ -1,7 +1,7 @@
 ---
 title: "ดูและออกแบบรายงานทางการเงิน"
-description: "บทความนี้มีแบบฝึกหัดที่จะนำคุณผ่านขั้นตอนการดูและการสร้างรายงานทางการเงินสำหรับ Microsoft Dynamics 365 for Operations การรายงานทางการเงินประกอบด้วยประสบการณ์การดูภายใน Dynamics 365 for Operations และตัวออกแบบรายงานหนึ่งครั้งที่จะช่วยคุณในการสร้างและแก้ไขรายงานทางการเงิน"
-author: twheeloc
+description: "บทความนี้มีแบบฝึกหัดที่จะนำคุณผ่านขั้นตอนการดูและการสร้างรายงานทางการเงินสำหรับ Microsoft Dynamics 365 for Operations"
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: th-th
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ ms.lasthandoff: 03/31/2017
 22. จาก **งบทดลองโดยละเอียดด้วยแอททริบิวต์** ข้อกำหนดของรายงาน เลือกงบทดลองโดยละเอียดด้วยแอททริบิวต์ เพื่อทั้ง คำนิยามแถวและคำนิยามคอลัมน์
 23. เปลี่ยนปีพื้นฐานเป็น **2012**
 24. **บันทึก** ข้อกำหนดของรายงาน และ **สร้าง** เมื่อรายงานสร้างเสร็จสมบูรณ์และเปิดออก คุณสามารถสำรวจรายงานตามที่คุณได้ตั้งค่าในแบบฝึกหัดแรก ดูรายละเอียดบัญชีต่าง ๆที่แตกต่างกัน เพื่อดูวิธีการแสดงแอตทริบิวต์เพิ่มเติม
-25. ปิดรายงาน **งบทดลองโดยละเอียดด้วยแอททริบิวต์ **
+25. ปิดรายงาน **งบทดลองโดยละเอียดด้วยแอททริบิวต์**
 26. เปิด **ออกแบบรายงาน**
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>แบบฝึกหัดที่ 3: สร้างรายงานหลายมิติโดยใช้แผนภูมิที่มีการรายงาน
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/31/2017
 6.  ดับเบิลคลิกใน **ฟิลด์ตัวกรองมิติ**
 7.  ในหน้าต่าง **มิติ** คลิกสองครั้งที่ **คอลัมน์แผนก**
 8.  ในแต่ละส่วนหรือช่วงของกล่องโต้ตอบ คลิกที่ **จุดไข่ปลา** สำหรับฟิลด์ **จาก** เพื่อแสดงรายการแผนก
-9.  เลือกแผนก **022**, **การขาย & การตลาด** แล้ว คลิก** ตกลง**
+9.  เลือกแผนก **022**, **การขาย & การตลาด** แล้ว คลิก**ตกลง**
 10. ทำซ้ำขั้นตอนที่ 5 ถึง 8 สำหรับแผนก 23 25
 11. บน **แถวส่วนหัว 2** สำหรับแต่ละคอลัมน์ FD พิมพ์คำอธิบายเกี่ยวกับแผนกต่อไปนี้:
     -   คอลัมน์ B - การขายและการตลาด
@@ -182,8 +183,8 @@ ms.lasthandoff: 03/31/2017
 18. **บันทึก** การเปลี่ยนแปลงของคุณ และ **สร้าง** เมื่อรายงานการสร้างเสร็จสมบูรณ์และเปิดออก คุณสามารถสำรวจรายงานนั้น
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-[การรายงานทางการเงิน](\financials\general-ledger\financial-reporting-getting-started.md) 
-[ดูรายงานทางการเงิน](\financials\general-ledger\view-financial-reports.md) 
+[การรายงานทางการเงิน](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[ดูรายงานทางการเงิน](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [บล็อกรายงานทางการเงิน Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

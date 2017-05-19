@@ -1,9 +1,9 @@
 ---
-title: "แม็ปสมาชิกมิติองค์ประกอบต้นทุนต่างๆ ไปยังชุดทั่วไปของมิติ"
+title: "แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ"
 description: "การแม็ปสมาชิกมิติองค์ประกอบต้นทุกที่แตกต่างกันกับชุดทั่วไปของสมาชิกมิติองค์ประกอบต้นทุน จะเป็นการผสานข้อมูลลงในรูปแบบทั่วไปสำหรับวัตถุประสงค์ในการวิเคราะห์"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-11-01 13 - 45 - 07
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a1e9817b6ee596ad516531d7597a2a39e115749c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 24794f371e1914f8466cd9a7407fd263e94b00aa
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>แม็ปสมาชิกมิติองค์ประกอบต้นทุนต่างๆ ไปยังชุดทั่วไปของมิติ
+# <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
+
+[!include[banner](../includes/banner.md)]
+
 
 การแม็ปสมาชิกมิติองค์ประกอบต้นทุกที่แตกต่างกันกับชุดทั่วไปของสมาชิกมิติองค์ประกอบต้นทุน จะเป็นการผสานข้อมูลลงในรูปแบบทั่วไปสำหรับวัตถุประสงค์ในการวิเคราะห์
 
@@ -48,5 +52,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="update-mappings-at-any-time"></a>อัพเดตการแม็ปได้ตลอดเวลา
 คุณสามารถอัพเดตคำนิยามการแม็ปสำหรับมิติองค์ประกอบต้นทุนได้ตลอดเวลา เนื่องจากการแม็ปไม่มีวันที่มีผลบังคับ การเปลี่ยนแปลงจะถูกนำมาใช้ในครั้งถัดไปที่คุณประมวลผลธุรกรรมต้นทุน หรือรันการคำนวณต้นทุน
+
+
 
 

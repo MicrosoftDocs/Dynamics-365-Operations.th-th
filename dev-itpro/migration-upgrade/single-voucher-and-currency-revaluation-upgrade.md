@@ -1,9 +1,9 @@
 ---
-title: "การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงินสำหรับ Microsoft Dynamics 365 for Operations เวอร์ชัน 1611"
+title: "การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน"
 description: "บางองค์กรป้อนสมุดรายวันที่ประกอบด้วยใบสำคัญเดียวที่มีลูกค้าหรือผู้จัดจำหน่ายมากกว่าหนึ่งราย และยังเรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้หรือบัญชีเจ้าหนี้ หัวข้อนี้อธิบายถึงขั้นตอนที่องค์กรเหล่านี้ควรปฏิบัติตามเมื่อจะปรับรุ่นเป็น Microsoft Dynamics 365 for Operations เวอร์ชัน 1611"
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-12-28 16 - 04 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: d42c753d0dc8b8efc2a0d2a26da32a4951d85503
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ae8a6cc1b96f49c9714799fc1c3c1b9a98add413
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงินสำหรับ Microsoft Dynamics 365 for Operations เวอร์ชัน 1611
+# <a name="single-voucher-and-currency-revaluation-upgrade"></a>การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน
+
+[!include[banner](../includes/banner.md)]
+
 
 บางองค์กรป้อนสมุดรายวันที่ประกอบด้วยใบสำคัญเดียวที่มีลูกค้าหรือผู้จัดจำหน่ายมากกว่าหนึ่งราย และยังเรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้หรือบัญชีเจ้าหนี้ หัวข้อนี้อธิบายถึงขั้นตอนที่องค์กรเหล่านี้ควรปฏิบัติตามเมื่อจะปรับรุ่นเป็น Microsoft Dynamics 365 for Operations เวอร์ชัน 1611
 
@@ -33,6 +37,8 @@ ms.lasthandoff: 03/31/2017
 1.  ก่อนที่คุณจะปรับรุ่นเป็น Dynamics 365 for Operations ให้เรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้และบัญชีเจ้าหนี้ ตั้งค่าฟิลด์ **วิธีการ** เป็น **วันที่ในใบแจ้งหนี้** ธุรกรรมการประเมินค่าใหม่ถูกสร้างขึ้นโดยย้อนกลับการประเมินค่าใหม่ตามสกุลเงินต่างประเทศล่าสุด ดังนั้น ธุรกรรมที่เปิดอยู่จะมีการประเมินค่าสกุลเงินทางบัญชีของต้นฉบับ
 2.  อัพเกรดเป็น Dynamics 365 for Operations เวอร์ชัน 1611
 3.  เรียกใช้กระบวนการประเมินค่าตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้อีกครั้ง จากนั้น ตั้งค่าฟิลด์ **วิธีการ** เป็น **มาตรฐาน** ธุรกรรมการประเมินค่าใหม่ถูกสร้างขึ้นโดยขึ้นอยู่กับอัตราแลกเปลี่ยนปัจจุบัน ธุรกรรมนี้จะบันทึกกำไร/ขาดทุนที่เกิดขึ้นจริงและบัญชีแยกประเภทสรุปที่ถูกต้อง
+
+
 
 
 

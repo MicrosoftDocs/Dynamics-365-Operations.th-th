@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1a4f07ce983271f36a58adaded1aec50d24d9e25
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e98b5f3629c0b5b554b85b8a08a35624d50b8824
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,7 +44,7 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="calendar"></a>ปฏิทิน
 
-คุณสามารถเลือกที่จะคงค่าเริ่มต้นในฟิลด์ **ปีที่คิดค่าเสื่อมราคา****ปฏิทิน** 
+คุณสามารถเลือกที่จะคงค่าเริ่มต้นในฟิลด์ **ปีที่คิดค่าเสื่อมราคา** **ปฏิทิน** 
 
 ตัวเลือก **ปฏิทิน** อัพเดทค่าเสื่อมราคาโดยยึดวันที่ 1 มกราคมของทุกปีเป็นหลัก โดยทั่วไป ฐานค่าเสื่อมราคาคือ มูลค่าตามบัญชีสุทธิลบด้วยมูลค่าซาก ในตัวอย่างถัดไปของหัวข้อนี้ ฐานการคิดค่าเสื่อมราคาคือตัวเศษในนิพจน์แรกบนคอลัมน์การคำนวณ 
 

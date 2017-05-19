@@ -16,10 +16,11 @@ ms.search.region: Thailand
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 29ccbd75ebb7ac997484ef2bd3e89df7ecebc2e7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11c3908119967e2448ffce2419f6aebb680ec75f
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---

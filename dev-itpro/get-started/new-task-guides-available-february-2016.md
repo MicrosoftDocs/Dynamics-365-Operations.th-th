@@ -1,6 +1,6 @@
 ---
 title: "คู่มืองานใหม่ (กุมภาพันธ์ 2016)"
-description: "Wiki นี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน"
+description: "หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,17 +16,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>คู่มืองานใหม่ (กุมภาพันธ์ 2016)
 
-Wiki นี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน
+[!include[banner](../includes/banner.md)]
+
+
+หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>คู่มืองานใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
@@ -723,5 +727,7 @@ Wiki นี้แสดงรายการคู่มืองานที่
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)](new-updated-task-guides-available-august-2016.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)](new-task-guides-november-2016.md)
+
+
 
 

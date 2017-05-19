@@ -3,7 +3,7 @@ title: "ตั้งค่าอุปกรณ์เคลื่อนที่
 description: "บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกรายการเมนู ที่พนักงานคลังสินค้าใช้ในการดำเนินงานบนอุปกรณ์เคลื่อนที่"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
+
+[!include[banner](../includes/banner.md)]
+
 
 บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกรายการเมนู ที่พนักงานคลังสินค้าใช้ในการดำเนินงานบนอุปกรณ์เคลื่อนที่
 
@@ -315,7 +319,7 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="even">
 <td>แสดงสถานะสินค้าคงคลัง</td>
-<td>เลือกตัวเลือกนี้เพื่อแสดงสถานะของสินค้าในสินค้าคงคลัง สำหรับข้อมูลเพิ่มเติม ดู <a href="/inventory/inventory-statuses.md">ประโยชน์ของการใช้สถานะสินค้าคงคลัง</a> ตัวเลือกนี้พร้อมใช้งานสำหรับรายการเมนูทั้งหมดที่ใช้งานที่มีอยู่ ยกเว้นการตรวจนับตามรอบ</td>
+<td>เลือกตัวเลือกนี้เพื่อแสดงสถานะของสินค้าในสินค้าคงคลัง ตัวเลือกนี้พร้อมใช้งานสำหรับรายการเมนูทั้งหมดที่ใช้งานที่มีอยู่ ยกเว้นการตรวจนับตามรอบ</td>
 </tr>
 <tr class="odd">
 <td>แสดงข้อมูลสรุปของหน้าจอการเบิกสินค้า</td>
@@ -412,5 +416,7 @@ ms.lasthandoff: 03/31/2017
 [ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของชนิดใบสั่งซื้อ (คู่มืองาน)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ (คู่มืองาน)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[ประโยชน์ของการใช้สถานะสินค้าคงคลัง](../inventory/inventory-statuses.md)
+
 
 

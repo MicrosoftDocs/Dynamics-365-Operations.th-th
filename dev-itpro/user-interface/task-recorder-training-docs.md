@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 38bce4a843f0db575c8d1ba08b7dc2ece8366663
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d2e1ff40f5735f69a3fcdf3a85335f157e1a1a6f
+ms.contentlocale: th-th
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -74,7 +75,7 @@ ms.lasthandoff: 03/31/2017
 
 -   **หมายเหตุ:** คำอธิบายหมายเหตุจะปรากฏขึ้นหลังจากที่สร้างข้อความขั้นตอนที่ตัวบันทึกงานโดยอัตโนมัติ ในคำแนะนำงาน จะถูกมองเห็นได้ถ้าผู้ใช้คลิกแบบ **แสดงเพิ่มเติม** ลิงก์ในกรอบคู่มืองาน ใช้คำอธิบายชนิดนี้เพื่ออธิบายถึงสิ่งที่ผู้ใช้จำเป็นต้องทราบเพื่อทำขั้นตอนให้เสร็จสมบูรณ์
 
-นี่คือบานหน้าต่างแก้ไขที่คุณเห็นเมื่อคุณเพิ่มคำอธิบายเมื่อคุณสร้างบันทึกของคุณ ป้อนคำอธิบายหมายเหตุในกล่อง **หมายเหตุ ** 
+นี่คือบานหน้าต่างแก้ไขที่คุณเห็นเมื่อคุณเพิ่มคำอธิบายเมื่อคุณสร้างบันทึกของคุณ ป้อนคำอธิบายหมายเหตุในกล่อง **หมายเหตุ** 
 
 [![หน้าจอ3](./media/screen3.png)](./media/screen3.png) 
 
