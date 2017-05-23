@@ -1,23 +1,23 @@
-- name: "Dynamics 365"
+- name: Dynamics 365
   tocHref: /dynamics365/
   topicHref: /dynamics365
   items:
-  - name: "Operations"
+  - name: Operations
     tocHref: /dynamics365/operations/
     topicHref: /dynamics365/operations/index
     items:
-    - name: "นักพัฒนาและผู้ดูแลระบบ"
+    - name: นักพัฒนาและผู้ดูแลระบบ
       tocHref: /dynamics365/operations/dev-itpro/
       topicHref: /dynamics365/operations/dev-itpro/index
-    - name: "ข้อมูลทางการเงิน"
+    - name: ข้อมูลทางการเงิน
       tocHref: /dynamics365/operations/financials/
       topicHref: /dynamics365/operations/financials/index
-    - name: "ทรัพยากรบุคคล"
+    - name: ทรัพยากรบุคคล
       tocHref: /dynamics365/operations/human-resources/
       topicHref: /dynamics365/operations/human-resources/index
-    - name: "การขายปลีก"
+    - name: การขายปลีก
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: "ห่วงโซ่อุปทาน"
+    - name: ห่วงโซ่อุปทาน 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index
