@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -34,6 +34,9 @@ ms.lasthandoff: 04/25/2017
 หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Operations เวอร์ชันล่าสุดของคุณ
 
 หากต้องการอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุดของ Dynamics 365 for Operations](../migration-upgrade/upgrade-latest-update.md)
+
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่และเนื้อหา Power BI ที่นำออกใช้เมื่อเร็ว ๆ นี้ ให้ดูที่ [พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้สำหรับแอพบนมือถือ Dynamics 365 for Operations](../mobile-apps/mobile-workspaces-released.md) และ [เนื้อหา Power BI ที่นำออกใช้เมื่อเร็วๆ นี้สำหรับ Dynamics 365 for Operations](../analytics/power-bi-content-released.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -44,8 +47,8 @@ ms.lasthandoff: 04/25/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>การปล่อยงานลงในสายการผลิต</strong></th>
-<th><strong><strong>เวอร์ชัน</strong></strong></th>
+<th><strong>การนำออกใช้</strong></th>
+<th><strong><strong>รุ่น</strong></strong></th>
 <th><strong><strong>หมายเลขรุ่น</strong></strong></th>
 <th><strong><strong>ความพร้อมใช้งาน</strong></strong></th>
 <th><strong><strong>หากต้องการเรียนรู้เพิ่มเติม</strong></strong></th>
@@ -53,6 +56,12 @@ ms.lasthandoff: 04/25/2017
 </thead>
 <tbody>
 <tr class="odd">
+<td>แพลตฟอร์ม Microsoft Dynamics 365 for Operations</td>
+<td>การอัพเดตแพลตฟอร์ม 7</td>
+<td> 7.0.4542.16189</td>
+<td>2017 พฤษภาคม</td>
+<td><a href="whats-new-platform-update-7.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operations เวอร์ชัน 7 (พฤษภาคม 2017)</a></td>
+</tr><tr class="odd">
 <td>แพลตฟอร์ม Microsoft Dynamics 365 for Operations</td>
 <td>การอัพเดตแพลตฟอร์ม 6</td>
 <td> 7.0.4509.16180</td>

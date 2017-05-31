@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ ms.lasthandoff: 04/25/2017
 -   Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus แท็บเล็ต 10
 -   Apple Safari (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) หรือ 10.12 (Sierra) หรือ Apple iPad
 
-เมื่อต้องการค้นหารุ่นล่าสุดของแต่ละเว็บเบราเซอร์ ไปที่เว็บไซต์ของผู้ผลิตซอฟต์แวร์ **หมายเหตุ:**
+เมื่อต้องการค้นหารุ่นล่าสุดของแต่ละเว็บเบราเซอร์ ไปที่เว็บไซต์ของผู้ผลิตซอฟต์แวร์ 
+
+**หมายเหตุ:**
 
 -   เมื่อต้องการจับภาพรูปที่สร้างขึ้นจากตัวบันทึกงาน และรวมค่าเหล่านั้นไว้ในเอกสาร Microsoft Word คุณต้องติดตั้งส่วนขยาย Chrome ไว้ <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   ตัวแก้ไขเวิร์กโฟลว์จะเริ่มต้นการใช้งานเป็นแอพลิเคชัน ClickOnce เฉพาะ Microsoft Edge และ Internet Explorer (ในรุ่นที่สนับสนุนของ Microsoft Windows) สนับสนุนแอพลิเคชัน ClickOnce แอพลิเคชัน ClickOnce โปรแกรมแก้ไขลำดับงานต้องมีระบบปฏิบัติการที่เข้ากันกับงาน 64 บิต
@@ -59,10 +61,12 @@ ms.lasthandoff: 04/25/2017
 -   Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10, Windows 8.1 หรือ Windows 7
 
 ## <a name="network-requirements"></a>ข้อกำหนดของเครือข่าย
--   Dynamics 365 for Operations ได้รับการออกแบบมาสำหรับเครือข่ายที่มีเวลาแฝงน้อยกว่า 150 มิลลิวินาที (ms) นี่คือเวลาแฝงจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูล Microsoft Azure ที่โฮสต์ Dynamics 365 for Operations เราขอแนะนำให้คุณทดสอบเวลาแฝงบนเครือข่ายที่ <http://www.azurespeed.com>
+-   Dynamics 365 for Operations ได้รับการออกแบบมาสำหรับเครือข่ายที่มีเวลาแฝง 250-300 มิลลิวินาที (ms) หรือน้อยกว่า นี่คือเวลาแฝงจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูล Microsoft Azure ที่โฮสต์ Dynamics 365 for Operations เราขอแนะนำให้คุณทดสอบเวลาแฝงบนเครือข่ายที่ <http://www.azurespeed.com>
 -   ข้อกำหนดของแบนด์วิธสำหรับ Dynamics 365 for Operations ขึ้นอยู่กับสถานการณ์ของคุณ สถานการณ์ทั่วไปส่วนใหญ่จำเป็นต้องมีแบนด์วิดท์ที่มากกว่า 50 กิโลไบต์ต่อวินาที (KBps) อย่างไรก็ตาม สำหรับสถานการณ์ที่มีข้อกำหนดของน้ำหนักบรรทุกที่สร้างรายได้ที่สูง เช่น พื้นที่ทำงานหรือสถานการณ์ที่เกี่ยวข้องกับการกำหนดเองที่ครอบคลุม ระบบแนะนำให้ใช้แบนด์วิดท์ที่มากขึ้น
 
-โดยทั่วไป Dynamics 365 for Operations จะเหมาะสำหรับอินเทอร์เน็ต จำนวนของการเดินทางไปกลับจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูล Azure มีขนาดเล็กมาก และน้ำหนักบรรทุกที่สร้างรายได้ทั้งหมดจะถูกบีบอัด **คำเตือน:** อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก สำหรับลูกค้าที่มีความกังวลเกี่ยวกับข้อกำหนดของแบนด์วิดท์ ให้ใช้ Dynamics 365 for Operations เวอร์ชันตัวอย่าง
+โดยทั่วไป Dynamics 365 for Operations จะเหมาะสำหรับอินเทอร์เน็ต จำนวนของการเดินทางไปกลับจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูล Azure มีขนาดเล็กมาก และน้ำหนักบรรทุกที่สร้างรายได้ทั้งหมดจะถูกบีบอัด 
+
+**คำเตือน:** อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก สำหรับลูกค้าที่มีความกังวลเกี่ยวกับข้อกำหนดของแบนด์วิดท์ ให้ใช้ Dynamics 365 for Operations เวอร์ชันตัวอย่าง
 
 ## <a name="net-framework-requirements"></a>ข้อกำหนดของ .NET Framework
 Dynamics 365 for Operations ต้องมี .NET Framework รุ่น 4.6.2 สำหรับแอพลิเคชันแบบคลิกครั้งเดียวทั้งหมด เช่น ตัวแทนเส้นทางของเอกสาร สำหรับคำแนะนำในการติดตั้ง ให้ดูที่ [การติดตั้ง .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx)

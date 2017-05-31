@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Phyllis ดับเบิลคลิกเซลล์ส่วนหัวข
     <tbody>
     <tr class="odd">
     <td>ดีมอนตัวกรอง</td>
-    <td>แสดงข้อมูลทางการเงิน หรือข้อมูลจากแผ่นงาน Excel เมื่อคุณใช้คอลัมน์ <strong>ลิงค์ไปยังมิติทางการเงิน</strong> หรือคอลัมน์ <strong>ลิงค์ไปยัแผ่นงาน</strong> ในคำนิยามแถว เมื่อคุณเลือกชนิดคอลัมน์ <strong>ดีมอนตัวกรอง</strong> การตั้งค่าเริ่มต้นจะระบุโดยอัตโนมัติสำหรับแถวต่อไปนี้:
-    <ul>
+    <td>แสดงข้อมูลทางการเงิน หรือข้อมูลจากแผ่นงาน Excel เมื่อคุณใช้คอลัมน์ <strong>ลิงค์ไปยังมิติทางการเงิน</strong> หรือคอลัมน์ <strong>ลิงค์ไปยัแผ่นงาน</strong> ในคำนิยามแถว เมื่อคุณเลือกชนิดคอลัมน์ <strong>ดีมอนตัวกรอง</strong> การตั้งค่าเริ่มต้นจะระบุโดยอัตโนมัติสำหรับแถวต่อไปนี้: <ul>
     <li><strong>รหัสสมุดบัญชี/ประเภทแอททริบิวต์:</strong> เกิดขึ้นจริง</li>
     <li><strong>รหัสสมุดบัญชี/ประเภทแอททริบิวต์:</strong> เกิดขึ้นจริง</li>
     <li><strong>ปีบัญชี:</strong> ฐาน</li>
@@ -359,7 +358,7 @@ Phyllis ดับเบิลคลิกเซลล์ส่วนหัวข
     <li><strong>รอบระยะเวลาที่ครอบคลุม:</strong> ประจำงวด</li>
     <li><strong>ความกว้างของคอลัมน์:</strong> 14</li>
     </ul>
-    คุณสามารถเปลี่ยนการตั้งค่าเริ่มต้นนี้</td>
+คุณสามารถเปลี่ยนการตั้งค่าเริ่มต้นนี้</td>
     </tr>
     <tr class="even">
     <td>การคำนวน</td>
@@ -387,12 +386,11 @@ Phyllis ดับเบิลคลิกเซลล์ส่วนหัวข
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>แสดงข้อมูลที่ถูกดึงมาจากแผ่นงาน Excel เมื่อคุณเลือกชนิดคอลัมน์ <strong>WKS</strong> การตั้งค่าเริ่มต้นจะระบุโดยอัตโนมัติสำหรับแถวต่อไปนี้:
-    <ul>
+    <td>แสดงข้อมูลที่ถูกดึงมาจากแผ่นงาน Excel เมื่อคุณเลือกชนิดคอลัมน์ <strong>WKS</strong> การตั้งค่าเริ่มต้นจะระบุโดยอัตโนมัติสำหรับแถวต่อไปนี้: <ul>
     <li><strong>ปีบัญชี:</strong> ประจำงวด</li>
     <li><strong>รอบระยะเวลา:</strong> ฐาน</li>
     </ul>
-    คุณสามารถเปลี่ยนการตั้งค่าเริ่มต้นนี้</td>
+คุณสามารถเปลี่ยนการตั้งค่าเริ่มต้นนี้</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

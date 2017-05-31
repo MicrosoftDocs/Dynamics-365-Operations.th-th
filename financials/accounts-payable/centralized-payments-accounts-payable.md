@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 6bf6194b2e198cdbb8e0acf9efda7d7279b072f6
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -110,7 +110,7 @@ Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้
 | เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) | 580.00       |               |
 | บัญชีเจ้าหนี้ (Fabrikam)       |              | 580.00        |
 
-**การลงรายการบัญชีของ Fabrikam**
+**การลงรายการบัญชีของ Fabrikam East**
 
 | บัญชี                          | ยอดเดบิต | ยอดเครดิต |
 |----------------------------------|--------------|---------------|
@@ -150,7 +150,7 @@ Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้
 | การขาดทุนที่เกิดขึ้นจริง (Fabrikam)          | 0.00 EUR / 12.90 USD    |                         |
 | เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) |                         | 0.00 EUR / 12.90 USD    |
 
-**การลงรายการบัญชีของ Fabrikam**
+**การลงรายการบัญชีของ Fabrikam East**
 
 | บัญชี                          | ยอดเดบิต            | ยอดเครดิต           |
 |----------------------------------|-------------------------|-------------------------|

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -474,7 +474,7 @@ ms.lasthandoff: 04/25/2017
 </tr>
 <tr class="even">
 <td>FORMAT (สตริง 1, สตริง 2[, สตริง 3, ...])</td>
-<td>ส่งคืนสตริงที่ระบุซึ่งถูกจัดรูปแบบโดยการแทนที่เหตุการณ์ใดๆ ของ <strong>%N</strong> ด้วยอาร์กิวเมนต์ <em>n</em>th อาร์กิวเมนต์เป็นสตริง ถ้าอาร์กิวเมนต์ไม่ได้มีให้สำหรับพารามิเตอร์ พารามิเตอร์จะถูกส่งกลับเป็น <strong>&quot;%N&quot;</strong> ในสตริง สำหรับค่าชนิด <strong>จริง</strong> การแปลงสตริงจะถูกจำกัดเป็นทศนิยมสองตำแหน่ง</td>
+<td>ส่งคืนสตริงที่ระบุซึ่งถูกจัดรูปแบบโดยการแทนที่เหตุการณ์ใดๆ ของ <strong>%N</strong> ด้วยอาร์กิวเมนต์ที่ <em>n</em> อาร์กิวเมนต์เป็นสตริง ถ้าอาร์กิวเมนต์ไม่ได้มีให้สำหรับพารามิเตอร์ พารามิเตอร์จะถูกส่งกลับเป็น <strong>&quot;%N&quot;</strong> ในสตริง สำหรับค่าชนิด <strong>จริง</strong> การแปลงสตริงจะถูกจำกัดเป็นทศนิยมสองตำแหน่ง</td>
 <td>ในตัวอย่างนี้ แหล่งข้อมูล <strong>PaymentModel</strong> จะส่งกลับรายการเรกคอร์ดลูกค้าผ่านส่วนประกอบ <strong>ลูกค้า</strong> และประมวลผลค่าวันผ่านทางฟิลด์ <strong>ProcessingDate</strong> <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> ในรูปแบบ ER ที่ถูกออกแบบเพื่อสร้างไฟล์อิเล็กทรอนิกส์สำหรับลูกค้าที่เลือกไว้ <strong>PaymentModel</strong> จะถูกเลือกเป็นแหล่งข้อมูล และควบคุมขั้นตอนการประมวลผล ข้อยกเว้นสำหรับผู้ใช้เมื่อลูกค้าที่เลือกถูกหยุดดำเนินการสำหรับวันเมื่อมีการประมวลผลรายงาน สูตรที่ออกแบบมาสำหรับการประมวลผลตัวควบคุมชนิดนี้สามารถใช้ทรัพยากรต่อไปนี้:
 <ul>
 <li>Dynamics 365 for Operations ป้ายชื่อ SYS70894 ซึ่งมีข้อความต่อไปนี้:

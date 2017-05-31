@@ -4,6 +4,7 @@
 ## สร้างการคาดการณ์ความต้องการ
 ### [ภาพรวมการคาดการณ์ความต้องการ](master-planning/introduction-demand-forecasting.md)
 ### [ตั้งค่าการคาดการณ์ความต้องการ](master-planning/demand-forecasting-setup.md)
+### [นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ](master-planning/import-historical-data.md)
 ### [สร้างการคาดการณ์พื้นฐานทางสถิติ](master-planning/generate-statistical-baseline-forecast.md)
 ### [ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](master-planning/manual-adjustments-baseline-forecast.md)
 ### [อนุมัติการคาดการณ์ที่ปรับปรุง](master-planning/authorize-adjusted-forecast.md)

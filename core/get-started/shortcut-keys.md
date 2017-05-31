@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ ms.lasthandoff: 04/25/2017
 | เปิดบานหน้าต่างกล่องแสดงข้อมูลย่อ (หรือย้ายโฟกัสไปยังบานหน้าต่างกล่องแสดงข้อมูลย่อถ้ามีการเปิดอยู่แล้ว) | Ctrl+F2                                   |
 | ปิดบานหน้าต่างกล่องแสดงข้อมูลย่อ (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)                         | Esc                                       |
 | ย้ายไปยังกล่องแสดงข้อมูลย่อถัดไป/ก่อนหน้านี้ (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)              | Alt + Shift + ลูกศรลง / Alt + Shift + ลูกศรขึ้น |
-| ย้ายไปยังกล่องแสดงข้อมูลย่อ &lt;n&gt;th (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| ย้ายไปยังกล่องแสดงข้อมูลย่อที่ &lt;n&gt; (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | ขยายกล่องแสดงช้อมูลย่อ (ที่มีโฟกัสในส่วนหัวของกล่องแสดงข้อมูลย่อ)                             | เว้นวรรคหรือป้อน                            |
 | ยุบกล่องแสดงข้อมูลย่อปัจจุบัน                                                    | Alt + 0                                     |
 
@@ -115,8 +115,8 @@ ms.lasthandoff: 04/25/2017
 | ย้ายไปที่ฟิลด์ถัดไป/ก่อนหน้า                     | แท็บ / Shift + แท็บ                              |
 | ย้ายไปที่แท็บถัดไป/ก่อนหน้า                       | Alt + Shift + ลูกศรไปทางขวา / Alt + Shift + ลูกศรไปทางซ้าย |
 | ย้ายไปที่แท็บด่วนถัดไป/ก่อนหน้า                   | Alt + Shift + ลูกศรลง / Alt + Shift + ลูกศรขึ้น    |
-| ย้ายไปที่แท็บด่วน &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| ย้ายไปที่แท็บ &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| ย้ายไปที่แท็บด่วนที่ &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| ย้ายไปที่แท็บที่ &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | ขยายแท็บด่วน (ที่มีโฟกัสในส่วนหัวของแท็บด่วน) | เว้นวรรคหรือป้อน                               |
 | ยุบแท็บด่วนปัจจุบัน                        | Alt + 0                                        |
 | สลับไปยังมุมมองกริด                                 | Ctrl + Shift + G                                 |

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>โฮมเพจสำหรับแอพบนมือถือ Dynamics 365 for Operations
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ ms.lasthandoff: 04/25/2017
 ## <a name="implementation-process"></a>กระบวนการใช้งาน
 ภาพประกอบต่อไปนี้แสดงกระบวนการสำหรับการนำแอพบนมือถือ Dynamics 365 for Operations ไปใช้ในองค์กรของคุณ 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![กระบวนการใช้งานแอพบนมือถือ](./media/mobile-implementation-process_4.png)
 
 ตารางต่อไปนี้มีลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณนำแอพบนมือถือ Dynamics 365 for Operations ไปใช้ในองค์กรของคุณ ตัวเลขในคอลัมน์แรกตรงกับขั้นตอนที่ระบุหมายเลขในภาพประกอบก่อนหน้านี้
 
@@ -85,7 +83,7 @@ ms.lasthandoff: 04/25/2017
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
 <td>นำ Dynamics 365 for Operations ไปใช้สำหรับองค์กร</td>
-<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ให้ดูที่ <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
+<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ ms.lasthandoff: 04/25/2017
 <td>ดาวน์โหลด และติดตั้ง KB ที่เปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้บน Microsoft</td>
 <td>ดูส่วน &quot;ข้อกำหนดเบื้องต้น&quot; ในหัวข้อเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ที่องค์กรของคุณต้องการใช้:
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การป้อนข้อมูลเวลาของโครงการ</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การจัดการค่าใช้จ่าย</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>ผู้ดูแลระบบ</td>
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้บน Microsoft</td>
-<td>ดูส่วน &quot;ข้อกำหนดเบื้องต้น&quot; ในหัวข้อเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ที่องค์กรของคุณต้องการใช้:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การป้อนข้อมูลเวลาของโครงการ</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a>
+</td>
 </tr>
 <tr class="even">
 <td>4 ชั่วโมง</td>
 <td>นักพัฒนาหรือผู้ขายซอฟต์แวร์อิสระ (ISV)</td>
 <td>ใช้กรอบงานแบบเคลื่อนที่ 3Dynamics 365 for Operations เพื่อสร้างพื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเอง</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">กรอบงานแบบเคลื่อนที่ของ Microsoft Dynamics 365 for Operations</a></li>
+<li><a href="mobile-platform.md">กรอบงานแบบเคลื่อนที่ของ Microsoft Dynamics 365 for Operations</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">API ของพื้นที่ทำงาน Dynamics 365 for Operations X++</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ ms.lasthandoff: 04/25/2017
 <td>5</td>
 <td>ISV</td>
 <td>สร้างแพคเกจที่สามารถปรับใช้ได้ที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเอง และอัพโหลดแพคเกจไปยัง Microsoft Dynamics Lifecycle Services (LCS)</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a></td>
 </tr>
 <tr class="even">
 <td>6 ชั่วโมง</td>
 <td>ผู้ดูแลระบบ</td>
 <td>ใช้แพคเกจที่สามารถปรับใช้ได้ที่ประกอบด้วยพื้นที่ทำงานที่กำหนดเองที่สามารถใช้ได้บน ISV</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้ไปยังระบบ Microsoft Dynamics 365 for Operations ของคุณ</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้ไปยังระบบ Microsoft Dynamics 365 for Operations ของคุณ</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>ผู้ดูแลระบบ</td>
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเองที่สามารถใช้ได้บน ISV</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td><a href="publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ ms.lasthandoff: 04/25/2017
 <td>9</td>
 <td>ผู้ใช้</td>
 <td>ลงชื่อเข้าใช้และใช้แอพบนมือถือ Dynamics 365 for Operations แอพมีพื้นที่ทำงานแบบเคลื่อนที่ที่เผยแพร่แล้ว</td>
-<td>Microsoft ได้จัดเตรียมพื้นที่ทำงานแบบเคลื่อนที่ต่อไปนี้:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่การป้อนข้อมูลเวลาของโครงการ</a></li>
-</ul></td>
+<td>เมื่อต้องการดูรายการของพื้นที่ทำงานแบบเคลื่อนที่ที่ Microsoft จัดเตรียมไว้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็วๆ นี้สำหรับแอพบนมือถือ Dynamics 365 for Operations</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>ดูเพิ่มเติมที่
---------
-
-[พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็วๆ นี้สำหรับแอพบนมือถือ Dynamics 365 for Operations](mobile-workspaces-released.md)
 
 
 
