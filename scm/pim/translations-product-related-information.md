@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 809b853634aa4a44b8aa3aebea317f6bc47da697
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: d232473a1df0b821c6f39553ad826c61ff9ecff8
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -118,7 +118,7 @@ ms.lasthandoff: 04/25/2017
 1.  คลิก **การจัดการข้อมูลผลิตภัณฑ์** &gt; **การตั้งค่า** &gt; **กลุ่มตัวแปร**
 2.  เลือก **ขนาด** **กลุ่ม** **กลุ่มสี**หรือ **กลุ่มลักษณะ**
 3.  คลิก **สร้าง** แล้วป้อนชื่อสำหรับกลุ่มในฟิลด์ **ขนาด** **กลุ่ม** **กลุ่ม**หรือ **กลุ่มลักษณะ** คลิก **ขนาด** **สี**หรือ **ลักษณะ** เพื่อสร้างบรรทัดสำหรับกลุ่มนั้น
-4.  ในบรรทัด **ขนาด** **กลุ่ม** บรรทัด **สี** **กลุ่ม** ****หรือ **บรรทัดกลุ่มลักษณะ**  คลิก **สร้าง** แล้วสร้างขนาด สี และลักษณะสำหรับกลุ่มนั้น
+4.  ในหน้า **ขนาด** **กลุ่ม** บรรทัด **ส** **กลุ่ม** **บรรทัด** หรือ **บรรทัดกลุ่มลักษณะ** คลิก **สร้าง** แล้วสร้างขนาด สี และลักษณะสำหรับกลุ่มนั้น
 
 เมื่อต้องการจัดการการแปลสำหรับค่าในกลุ่มค่ามิติ ให้ทำตามขั้นตอนเหล่านี้:
 1.  ทำตามขั้นตอนในกระบวนงานก่อนหน้านี้ในการสร้างกลุ่มค่ามิติเพื่อเปิดหน้า **รายการกลุ่มขนาด** **รายการกลุ่มสี**หรือ **รายการกลุ่มลักษณะ**

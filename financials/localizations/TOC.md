@@ -14,7 +14,7 @@
 ### [นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden](apac-chn-import-golden-tax-data-entity.md)
 ### [แบบจำลองต้นทุนเฉลี่ยรายเดือน](apac-chn-monthly-average-cost-model.md)
 ### [ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์](apac-chn-post-inventory-main-accounts-by-site.md)
-### [ตั้งค่าเครดิตเดบิตค่าลบ](apac-chn-negative-debits-credits.md)
+### [ตั้งค่าเครดิตเดบิตค่าลบ ](apac-chn-negative-debits-credits.md)
 ## ญี่ปุ่น
 ### [ค่าธรรมเนียมการชำระเงินของธนาคารชำระโดยผู้จัดจำหน่าย](apac-jpn-bank-payment-fees-vendors.md)
 ### [ใบแจ้งหนี้ที่รวมบัญชี](apac-jpn-consolidate-invoices.md)
@@ -67,6 +67,7 @@
 ### [ใบแจ้งยอดจากธนาคาร CODA](emea-bel-coda-bank-statement-import.md)
 ### [การรายงานภาษี INTERVAT](emea-bel-intervat-tax-declaration.md)
 ### [การตั้งค่ารายงาน PRODCOM](emea-bel-prodcom-report.md)
+### [รายงานการกระทบยอด](emea-bel-reconciliation-reports.md)
 
 ## สาธารณรัฐเช็ก
 ### [ส่วนลดเงินสดในหมายเลขใบลดหนี้](emea-cze-credit-note-cash-discount.md)
@@ -74,9 +75,10 @@
 ### [การระงับค่าเสื่อมราคา](emea-cze-depreciation-suspension-holidays.md)
 ### [ค่าเสื่อมราคาของสินทรัพย์ถาวร](emea-cze-fixed-assets-depreciation.md)
 ### [ค่าเสื่อมราคาครึ่งปี](emea-cze-half-depreciation-fixed-asset-disposal.md)
-### [คำสั่ง VAT](emea-cze-vat-statement-details.md)
+### [การทำรายงานภาษีขาย ](emea-cze-intra-community-vat-transactions.md)
+### [ใบแจ้งยอด VAT](emea-cze-vat-statement-details.md)
 ## เอสโตเนีย
-### [คำสั่ง VAT](emea-est-vat-statement-details.md)
+### [ใบแจ้งยอด VAT](emea-est-vat-statement-details.md)
 ## ฝรั่งเศส
 ### ภาครัฐ
 #### [การบัญชีภาครัฐ](emea-fra-public-sector-accounting.md)

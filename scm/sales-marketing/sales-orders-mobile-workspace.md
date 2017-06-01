@@ -3,10 +3,10 @@ title: "พื้นที่ทำงานแบบเคลื่อนที
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย ซึ่งพร้อมใช้งานสำหรับแอพบนมือถือ Microsoft Dynamics 365 for Operations พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>ภาพรวมของพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย
 ---------------------------------------------
 
-พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** เข้าถึง Microsoft Dynamics 365 for Operations และช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับใบสั่งขายแต่ละรายการได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก
+พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** เข้าถึง Microsoft Dynamics 365 for Operations และช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับใบสั่งขายแต่ละรายการได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ 
+
+พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก
 
 ### <a name="view-all-sales-orders"></a>ดูใบสั่งขายทั้งหมด
 
@@ -50,6 +52,7 @@ ms.lasthandoff: 04/25/2017
     -   ค้นหาตามสถานะ
     -   ค้นหาตามสถานะนำออกใช้
     -   ค้นหาตามวันที่และเวลาที่สร้าง
+    
 -   หลังจากที่คุณเลือกใบสั่งขาย คุณสามารถดูรายละเอียดของใบสั่งเฉพาะได้ กล่าวคือ คุณสามารถดูข้อมูลต่อไปนี้:
     -   ข้อมูลชื่อและที่อยู่ของลูกค้า
     -   วันที่ต่างๆ สำหรับใบสั่งขาย เช่น วันที่จัดส่งที่ร้องขอ และวันที่จัดส่งที่ยืนยัน
@@ -65,6 +68,7 @@ ms.lasthandoff: 04/25/2017
 -   ใช้ตัวกรองใดตัวกรองหนึ่งต่อไปนี้เพื่อดูใบสั่งสำหรับลูกค้า:
     -   ค้นหาตามชื่อ
     -   ค้นหาตามบัญชี
+
 -   หลังจากที่คุณเลือกลูกค้า คุณสามารถดูข้อมูลต่อไปนี้:
     -   ชื่อและกลุ่มลูกค้า
     -   ข้อมูลติดต่อของลูกค้า
@@ -96,7 +100,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>ต้องมีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า</td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ผู้ดูแลระบบควรเห็น <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
+<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ผู้ดูแลระบบควรเห็น <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="even">
 <td>ต้องปรับใช้ KB 4013633</td>
@@ -104,9 +108,9 @@ ms.lasthandoff: 04/25/2017
 <td>KB 4013633 (การอัพเดต X++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา) ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนสี่สำหรับการบริหารห่วงโซ่อุปทาน เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้:
 <ol>
 <li>ดาวน์โหลด KB 4013633 จาก Microsoft Dynamics Lifecycle Services (LCS)</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้</a> ไปยังระบบ Dynamics 365 for Operations ของคุณ</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้</a> ไปยังระบบ Dynamics 365 for Operations ของคุณ</li>
 </ol></td>
 </tr>
 <tr class="odd">

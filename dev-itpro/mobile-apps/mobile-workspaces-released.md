@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็วๆ นี้สำหรับแอพบนมือถือ Microsoft Dynamics 365 for Operations
@@ -51,9 +50,9 @@ ms.lasthandoff: 04/25/2017
 | พื้นที่ทำงานแบบเคลื่อนที่     | คำอธิบาย                                                                                                                                                                         | เรียนรู้เพิ่มเติม                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | การควบคุมต้นทุน     | ผู้จัดการศูนย์ต้นทุนสามารถดูประสิทธิภาพของศูนย์ต้นทุนได้ตลอดเวลา และที่ใดก็ได้                                                                                               | [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| ปริมาณสินค้าคงคลังคงเหลือ    | รับข้อมูลเชิงลึกเคลื่อนที่ในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้ตลอดเวลา และที่ใดก็ได้                                                                                                    | [พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| ใบสั่งขาย         | คอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้                                                                                                                          | [พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| การทำงานร่วมกันกับผู้จัดจำหน่าย | ผู้จัดจำหน่ายของคุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งซื้อที่ถูกส่งไปเพื่อรอการอนุมัติและสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว | [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| ปริมาณสินค้าคงคลังคงเหลือ    | รับข้อมูลเชิงลึกเคลื่อนที่ในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้ตลอดเวลา และที่ใดก็ได้                                                                                                    | [พื้นที่ทำงานแบบเคลื่อนที่ของปริมาณคงคลังคงเหลือ](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| ใบสั่งขาย         | คอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้                                                                                                                          | [พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| การทำงานร่วมกันกับผู้จัดจำหน่าย | ผู้จัดจำหน่ายของคุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งซื้อที่ถูกส่งไปเพื่อรอการอนุมัติและสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว | [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>ฟังก์ชันพื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้ในเดือนธันวาคม 2016
 | พื้นที่ทำงานแบบเคลื่อนที่        | คำอธิบาย                                                                    | เรียนรู้เพิ่มเติม                                                                                                            |

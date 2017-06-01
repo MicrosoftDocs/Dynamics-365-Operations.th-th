@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: end user, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 8bc47c5b170fd7dd8f6288682aad6eae1d2dc09a
-ms.openlocfilehash: 9d3b7a4d5184c3c4958f4298f1d3dd4de0cd06d6
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 04/26/2017
 # <a name="expense-management-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การจัดการค่าใช้จ่าย
 
 [!include[banner](../includes/banner.md)]
-
-"[!include[banner](../includes/banner.md)]"
 
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย ซึ่งพร้อมใช้งานสำหรับแอพบนมือถือ Microsoft Dynamics 365 for Operations พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้สามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ พื้นที่ทำงานแบบเคลื่อนที่ยังช่วยให้ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยใช้ใบเสร็จรับเงินที่แนบ
@@ -66,7 +64,7 @@ ms.lasthandoff: 04/26/2017
 <tr class="odd">
 <td>ต้องมีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า</td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ผู้ดูแลระบบของคุณควรเห็น <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
+<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ผู้ดูแลระบบของคุณควรเห็น <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="even">
 <td>ต้องปรับใช้ KB 4019015</td>
@@ -74,9 +72,9 @@ ms.lasthandoff: 04/26/2017
 <td>KB 4019015 (การอัพเดต X++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา) ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนสี่สำหรับการบริหารห่วงโซ่อุปทาน เมื่อต้องการใช้ KB 4019015 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้:
 <ol>
 <li>ดาวน์โหลด KB 4019015 จาก Microsoft Dynamics Lifecycle Services (LCS)</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ExpenseMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้</a> ไปยังระบบ Dynamics 365 for Operations ของคุณ</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ExpenseMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้</a> ไปยังระบบ Dynamics 365 for Operations ของคุณ</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -97,14 +95,15 @@ ms.lasthandoff: 04/26/2017
 
 -   สำหรับ Android: [Dynamics 365 for Operations บน Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
 -   สำหรับ iPhone: [Dynamics 365 for Operations บนร้านค้าแอพ iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
--   สำหรับ Windows phone (แพลตฟอร์ม Universal Windows \[UWP\]): เร็ว ๆ นี้
 
 ## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>ลงชื่อเข้าใช้ไปยังแอพบนมือถือ Dynamics 365 for Operations
 1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
 2.  ป้อน URL ของ Dynamics 365 for Operations ของคุณ
 3.  ป้อนบริษัทเพื่อลงชื่อเข้าใช้ ตัวอย่างเช่น ป้อน **USMF**
 4.  ในครั้งแรกที่คุณเข้าสู่ระบบ คุณจะได้รับพร้อมท์สำหรับชื่อผู้ใช้และรหัสผ่านสำหรับบัญชี Dynamics 365 for Operations ของคุณ ป้อนข้อมูลประจำตัวของคุณ
-5.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว คุณจะสามารถดูพื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณ หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณสามารถดึงเพื่อรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่ได้ [![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+5.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว คุณจะสามารถดูพื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณ หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณสามารถดึงเพื่อรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่ได้ 
+
+[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>เก็บบันทึกใบเสร็จรับเงินโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย
 1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**
@@ -114,7 +113,7 @@ ms.lasthandoff: 04/26/2017
     1.  คุณกำลังถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน เมื่อคุณถ่ายรูปเสร็จแล้ว ให้คลิก **ตกลง** เพื่อยอมรับรูปถ่าย
     2.  เลือกระบุได้: ป้อนชื่อของรูปถ่าย และป้อนหมายเหตุใด ๆ
 
-     หรือถ้าคุณเลือก **เลือกรูปภาพ** ให้ทำตามขั้นตอนต่อไปนี้:
+     **หรือ:**  ถ้าคุณเลือก **เลือกรูปภาพ** ให้ทำตามขั้นตอนต่อไปนี้:
     1.  เลือกรูปภาพในรายการ
     2.  เลือกระบุได้: ป้อนชื่อของรูปภาพ และป้อนหมายเหตุใด ๆ
 
@@ -123,11 +122,11 @@ ms.lasthandoff: 04/26/2017
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>การป้อนข้อมูลค่าใช้จ่ายด่วนโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย
 1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**
 2.  เลือก **การป้อนข้อมูลค่าใช้จ่ายด่วน**
-3.  เลือกประเภทสำหรับค่าใช้จ่าย คุณเห็นรายการประเภทค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้สูงสุด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/) ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามประเภทค่าใช้จ่ายหรือสลับไปยังการค้นหาตามชนิดค่าใช้จ่าย
+3.  เลือกประเภทสำหรับค่าใช้จ่าย คุณเห็นรายการประเภทค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้สูงสุด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามประเภทค่าใช้จ่ายหรือสลับไปยังการค้นหาตามชนิดค่าใช้จ่าย
 4.  ป้อนวันที่ของธุรกรรมของค่าใช้จ่าย
 5.  เลือกระบุได้: ป้อนผู้ขายสำหรับค่าใช้จ่าย
 6.  ป้อนยอดเงินของค่าใช้จ่าย
-7.  เลือกสกุลเงินของค่าใช้จ่าย คุณเห็นรายการของรหัสสกุลเงินที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดสกุลเงินไว้สูงสุด 400 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/) ถ้าสกุลเงินของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามสกุลเงินหรือสลับไปยังการค้นหาตามชื่อประเภท
+7.  เลือกสกุลเงินของค่าใช้จ่าย คุณเห็นรายการของรหัสสกุลเงินที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดสกุลเงินไว้สูงสุด 400 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มแบบเคลื่อนที่ Dynamics 365 for Operation](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) ถ้าสกุลเงินของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ใน Dynamics 365 for Operations ค้นหาตามสกุลเงินหรือสลับไปยังการค้นหาตามชื่อประเภท
 8.  เลือกที่จะ **ถ่ายรูป** หรือ **เลือกรูปภาพ**
 9.  ถ้าคุณเลือก **ถ่ายรูป** คุณจะถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน เมื่อคุณถ่ายรูปเสร็จแล้ว ให้คลิก **ตกลง** เพื่อยอมรับรูปถ่าย  หรือถ้าคุณเลือก **เลือกรูปภาพ** ให้เลือกรูปภาพในรายการ
 10. เลือก **เสร็จสิ้น**
