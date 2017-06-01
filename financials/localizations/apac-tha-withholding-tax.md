@@ -9,9 +9,9 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 265904
-ms.assetid: d530961f-98af-475a-9556-88169e20fb71
 ms.search.region: Thailand
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
