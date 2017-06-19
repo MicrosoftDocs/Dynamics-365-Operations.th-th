@@ -15,8 +15,9 @@
 ## [ตั้งค่าคอนฟิกและติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)
 ## [เวลาและการเข้างานการขายปลีก](retail-time-attendance.md)
 # ขายหน้าร้านที่ทันสมัย (MPOS) และ POS ระบบคลาวด์
-## อุปกรณ์ต่อพ่วงฮาร์ดแวร์
+## ฮาร์ดแวร์และอุปกรณ์ต่อพ่วง
 ### [ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก](retail-peripherals-overview.md)
+### [โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก](retail-peripheral-simulator.md)
 ### [Microsoft ทดสอบอุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS](microsoft-tested-pos-hardware-peripherals.md)
 ### [กำหนดและรักษาไคลเอนต์ช่องทาง และเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](define-maintain-channel-clients-registers-hw-stations.md)
 ## โครงร่างหน้าจอ
@@ -42,6 +43,7 @@
 ## ใบเสร็จ
 ### [ตั้งค่าเท็มเพลตใบเสร็จ](receipt-templates-printing.md) 
 ### [ส่งใบเสร็จทางอีเมลจาก MPOS](email-receipts.md)
+## [ตัวบันทึกงานและวิธีใช้สำหรับ POS](task-recorder-retail-pos.md)
 # การตรวจสอบและการวิเคราะห์
 ## [ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น](monitor-sales-margin-performance.md)
 ## [วิเคราะห์แนวโน้มและรูปแบบการขาย](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [การปรับปรุงราคาและส่วนลด](price-adjustments-discounts.md)
 ## [กำหนดชุดของส่วนลดที่ซ้อนทับกันที่ดีที่สุด](optimal-combination-overlapping-discounts.md)
 ## [กำหนดส่วนลดเฉพาะช่องทาง](define-channel-specific-discounts.md)
+## [สร้างคูปองสำหรับการขายปลีก](retail-coupons.md)
 # ผลิตภัณฑ์และการจัดซื้อสินค้า
 ## [ลำดับชั้นการขายปลีก](retail-hierarchies.md)
 ## [สร้างและจัดการแอททริบิวต์](create-manage-attributes.md)
@@ -60,7 +63,8 @@
 ## [ตั้งค่าบาร์โค้ด](set-up-bar-codes.md)
 ## [ตั้งค่าบาร์โค้ดมาสก์](set-up-bar-code-masks.md)
 ## [ตั้งค่าการจัดประเภท](set-up-assortments.md)
-# ความภักดี
+## [ขายและส่งคืนผลิตภัณฑ์นอกการจัดประเภท](sell-return-outside-assortments.md)
+# สมาชิก
 ## [ตั้งค่าโปรแกรมตอบแทนลูกค้าสมาชิก](set-up-customer-loyalty-program.md)
 # สินค้าคงคลัง
 ## [จัดการสินค้าคงคลังของร้านค้า](work-with-store-inventory.md)
@@ -69,15 +73,15 @@
 ## [องค์กรและลำดับชั้นขององค์กร (สิ่งจำเป็นสำหรับการค้า)](organizational-hierarchies-commerce-essentials.md)
 # [เนื้อหาเกี่ยวกับผู้เชี่ยวชาญด้าน IT และนักพัฒนา](dev-itpro/TOC.md)
 
-# [ข้อมูลทางการเงิน](/dynamics365/operations/financials/index)
+# [ข้อมูลทางการเงิน](/dynamics365/unified-operations/financials/index)
 
-# [ทรัพยากรบุคคล](/dynamics365/operations/human-resources/index)
+# [ทรัพยากรบุคคล](/dynamics365/unified-operations/talent/index)
 
-# [การบริหารห่วงโซ่อุปทาน](/dynamics365/operations/supply-chain/index)
+# [การบริหารห่วงโซ่อุปทาน](/dynamics365/unified-operations/supply-chain/index)
 
-# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/operations/dev-itpro/index)
+# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/unified-operations/dev-itpro/index)
 
 # ทรัพยากรอื่นๆ
-## [อภิธานศัพท์ Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [อภิธานศัพท์ Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

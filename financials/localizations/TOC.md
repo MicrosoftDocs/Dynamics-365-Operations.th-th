@@ -1,4 +1,4 @@
-# [ภาพรวมการแปลเป็นภาษาท้องถิ่น](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [ภาพรวมการแปลเป็นภาษาท้องถิ่น](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # เอเชียแปซิฟิก
 ## ออสเตรเลีย
 ### [รูปแบบไฟล์ธนาคาร](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [รหัสไปรษณีย์](emea-import-create-postal-codes-manually.md)
 ## [รหัสการลงทะเบียน](emea-registration-ids.md)
+## [VAT ย้อนกลับ](emea-reverse-charge.md)
 ## [ภาพรวมของการโอนย้ายเครดิต SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [รายงานรายการสมุดรายวัน](emea-deu-journal-list-report.md)
 ### [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## ฮังการี
-### [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](emea-hun-fixed-assets-depreciation-methods.md)    
+### [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [สินทรัพย์ถาวรต้นทุนต่ำ](emea-hun-low-cost-fixed-assets.md)
 ### [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](emea-hun-fixed-asset-to-inventory.md)
 ## อิตาลี
@@ -138,6 +139,7 @@
 ### [การประเมินค่าใหม่กลุ่มสินทรัพย์ถาวร](emea-esp-fixed-asset-group-revaluation.md)
 ### [VAT ภายในประชาคม](emea-esp-intra-community-vat.md)
 ### [ลูกค้าขาจร](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [พิมพ์เช็คเป็นภาษาสเปน](emea-esp-print-checks-with-spanish-layout.md)
 ### [ตัวเลือกตั๋วสัญญาใช้เงิน](emea-esp-promissory-note-options.md)
 ### [วงจรการขายและการซื้อ](emea-esp-sales-purchase-cycle.md)
 ### [รายการพิเศษและแผ่นงานการเปิด](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [สมุดการเงิน](latam-bra-fiscal-books.md)
 #### [เอกสารทางการเงินภาษี ICMS](latam-bra-icms-tax-fiscal-documents.md)
 #### [นำเข้าเอกสารทางการเงิน](latam-bra-import-fiscal-documents.md)
+#### [ส่งออกและนำเข้าธุรกรรมของนิติบุคคลจากการรวมบัญชีแยกประเภททั่วไป](latam-bra-general-ledger-consolidation-transactions.md)
 #### [นำเข้าและตรวจสอบเอกสาร NF-e XML และไฟล์ DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์](latam-bra-process-electronic-payment-remittances.md)
 #### [เอกสารทางการเงิน](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [ตัวยึดข้อความของเอกสารทางการเงิน](latam-bra-fiscal-document-text-placeholders.md)
 #### [เอกสารทางการเงินเพิ่มเติมการซื้อ](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [กระบวนการ NF-e](latam-bra-nf-e-process.md)
 ### [พารามิเตอร์สำหรับนิติบุคคล](latam-bra-legal-entity-parameters.md)
+### [ซื้อสินทรัพย์ถาวร CIAP](latam-bra-ciap-fixed-asset.md)
+### [ตัดจำหน่ายสินทรัพย์ถาวร CIAP](latam-bra-ciap-fixed-asset.md)
 ### [ภาษี](latam-bra-calculate-taxes.md)
 #### [แอททริบิวต์ภาษี](latam-bra-tax-attributes.md)
 #### [การชำระภาษี](latam-bra-tax-payments.md)

@@ -1,5 +1,5 @@
 # ชุดเนื้อหา Power BI
-## [ชุดเนื้อหาการจัดการต้นทุน](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [ชุดเนื้อหาการจัดการต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # ต้นทุนที่กำหนดไว้ล่วงหน้า
 ## [แผ่นงานการคิดต้นทุน](costing-sheets.md)
 ## [เวอร์ชันการคิดต้นทุน](costing-versions.md)

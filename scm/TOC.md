@@ -43,6 +43,8 @@
 ### [ตั้งค่าบัญชีผู้จัดจำหน่าย](procurement/set-up-vendor-accounts.md)
 ### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก](procurement/vendor-collaboration-work-external-vendors.md)
 ### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](procurement/use-external-catalogs-for-punchout.md)
+### [ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](procurement/set-up-external-catalog-for-punchout.md)
 ### [ทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](procurement/collaborate-vendors-vendor-portal.md)
 ### [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](procurement/vendor-collaboration-mobile-workspace.md)
 ### [ความปลอดภัยของผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](procurement/configure-security-vendor-portal-users.md)
@@ -50,19 +52,37 @@
 ### [ข้อตกลงการซื้อ](procurement/purchase-agreements.md)
 ## ใบรับสินค้าและการออกใบแจ้งหนี้
 ### [ใบรับสินค้า - ใบสั่งซื้อ](procurement/product-receipt-against-purchase-orders.md)
-### [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+### [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # การจัดการข้อมูลผลิตภัณฑ์
-## ข้อมูลผลิตภัณฑ์
-### [BOM และสูตร](production-control/bill-of-material-bom.md)
-### [ฟังก์ชันผู้ออกแบบ BOM](production-control/bom-designer-functionality.md)
-### [มิติของผลิตภัณฑ์](pim/product-dimensions.md)
-### [การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย](production-control/default-order-settings.md)
-### [ระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์](pim/product-variant-identification-nomenclature.md)
-### [FAQ เกี่ยวกับการแปลที่เกี่ยวข้องกับผลิตภัณฑ์](pim/translations-product-related-information.md)
-### [ลงทะเบียนหมายเลขลำดับประจำสินค้าในกระบวนการขาย](sales-marketing/register-serial-numbers-sales-process.md)
-### [ค้นหาผลิตภัณฑ์ในระหว่างการป้อนข้อมูลใบสั่ง](pim/search-products-product-variants.md)
-## สร้างการตั้งค่าคอนฟิกผลิตภัณฑ์
+## [ภาพรวมข้อมูลผลิตภัณฑ์](pim/product-information.md)
+## รักษาประเภทผลิตภัณฑ์
+## รักษาข้อมูลผลิตภัณฑ์
+### รักษาคำนิยามผลิตภัณฑ์
+#### [ระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์](pim/product-variant-identification-nomenclature.md)
+#### เท็มเพลตผลิตภัณฑ์
+#### [มิติของผลิตภัณฑ์](pim/product-dimensions.md)
+#### คุณลักษณะของผลิตภัณฑ์
+#### รูปภาพและสิ่งที่แนบสำหรับผลิตภัณฑ์
+#### ตัวระบุผลิตภัณฑ์
+#### [การแปล FAQ ข้อมูลผลิตภัณฑ์](pim/translations-product-related-information.md)
+### นำผลิตภัณฑ์ออกใช้ที่นิติบุคคล
+### ค้นหาผลิตภัณฑ์
+#### [ค้นหาผลิตภัณฑ์ในระหว่างการป้อนข้อมูลใบสั่ง](pim/search-products-product-variants.md)
+### เตรียมผลิตภัณฑ์สำหรับการวางแผน
+#### [การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย](production-control/default-order-settings.md)
+#### แบบจำลองการคาดการณ์และคีย์การปันส่วนสินค้า
+### เตรียมผลิตภัณฑ์สำหรับการผลิต
+#### BOM และสูตร
+##### [สูตรและสูตรการผลิต](production-control/bill-of-material-bom.md)
+##### [ใช้ตัวออกแบบ BOM](production-control/bom-designer-functionality.md)
+##### [ใช้ตัวออกแบบสูตร](production-control/formula-designer.md)
+#### กระบวนการผลิต
+#### Lean Manufacturing
+### เตรียมผลิตภัณฑ์สำหรับคลังสินค้าและลอจิสติกส์
+### ประเมินต้นทุนสำหรับผลิตภัณฑ์
+#### [การคำนวณ BOM](cost-management/bom-calculations.md)
+## รักษาแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 ### [สร้างแบบจำลองการจัดโครงแบบผลิตภัณฑ์](pim/build-product-configuration-model.md)
 ### [FAQ เกี่ยวกับการคำนวณแบบจำลองการจัดโครงแบบผลิตภัณฑ์](pim/calculate-product-configuration-models.md)
 ### [กฎโครงแบบ](pim/configuration-rules.md)
@@ -71,6 +91,8 @@
 ### [นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่](pim/reuse-product-configurations.md)
 ### [ตั้งค่าแบบจำลองการจัดโครงแบบ](pim/set-up-maintain-product-configuration-model.md)
 ### [ข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้](pim/system-defined-user-defined-table-constraints.md)
+## นำเข้าข้อมูลผลิตภัณฑ์
+## ส่งออกข้อมูลผลิตภัณฑ์
 # การควบคุมการผลิต
 ## [ภาพรวมของกระบวนการผลิต](production-control/production-process-overview.md)
 ## [การวางแผนโหมดผสม: รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean](production-control/mixed-mode-plan.md)
@@ -80,7 +102,7 @@
 #### [ข้อกำหนดของการตั้งค่าการผลิต](production-control/production-set-up-requirements.md)
 #### [สูตรและสูตรการผลิต](production-control/bill-of-material-bom.md)
 #### [ฟังก์ชันผู้ออกแบบ BOM](production-control/bom-designer-functionality.md)
-#### [การคำนวณ Bom](cost-management/bom-calculations.md)
+#### [การคำนวณ BOM](cost-management/bom-calculations.md)
 #### [ทรัพยากรการดำเนินงาน](production-control/operations-resources.md)
 #### [ความสามารถของทรัพยากร](production-control/resource-capabilities.md)
 #### [กระบวนการผลิตและการดำเนินงาน](production-control/routes-operations.md)
@@ -96,6 +118,8 @@
 #### [กลับสถานะใบสั่งผลิต](production-control/reverse-production-order-status.md)
 #### [รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์](production-control/report-production-orders-as-finished.md)
 #### [รายงานการเสร็จงานของ BOM](production-control/report-boms-as-finished.md)
+#### [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ](production-control/cross-docking-opportunities.md)
+#### [ลงทะเบียนปริมาณการใช้วัสดุโดยใช้อุปกรณ์เคลื่อนที่](production-control/register-material-consumption-hand-held-device.md)
 #### [การทดแทนวัตถุดิบในการผลิต](production-control/substitute-items-bom-lines.md)
 #### [การลงทะเบียนสำหรับการดำเนินการผลิต](production-control/registration-manufacturing-execution.md)
 #### [ผลป้อนกลับของการผลิต](production-control/production-feedback.md)
@@ -111,6 +135,7 @@
 #### [สร้างแบบจำลององค์กรแบบ Lean](production-control/lean-manufacturing-modeling-lean-organization.md)
 #### [ทรัพยากรการดำเนินงาน](production-control/operations-resources.md)
 ### งานคัมบังตามกำหนดการ
+#### [การกำหนดการแบบภาพสำหรับ Lean Manufacturing](production-control/visual-scheduling-lean-manufacturing.md)
 #### [การกำหนดการงานคัมบังสำหรับ Lean Manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
 #### [การจัดตารางการผลิตระดับงาน](production-control/job-scheduling.md)
 ### ดำเนินงานคัมบัง
@@ -128,6 +153,7 @@
 #### [การจัดตารางการผลิตระดับการดำเนินงาน](production-control/operations-scheduling.md)
 #### [ตัวเลือกการจัดตารางการผลิตระดับการดำเนินงาน](production-control/operation-scheduling-options.md)
 #### [การจัดตารางการผลิตระดับงาน](production-control/job-scheduling.md)
+#### [การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน](production-control/visual-scheduling-production.md)
 ### ดำเนินงานการผลิต
 #### [ใบสั่งชุดงานแบบรวม](production-control/consolidated-batch-orders.md)
 #### [การทดแทนวัตถุดิบในการผลิต](production-control/substitute-items-bom-lines.md)
@@ -162,18 +188,26 @@
 ## [การจัดการการขนส่ง](transportation/transportation-management-overview.md)
 ## [กลไกจัดการขนส่ง](transportation/transportation-management-engines.md)
 # การบริหารคลังสินค้า
+## การจัดการคลังสินค้าขั้นสูง
+### [ย้ายจาก AX 2012 ไปยัง Finance and Operations](warehousing/upgrade-migration-warehouse-management-processes.md)
 ## การตั้งค่า 
 ### [ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่](warehousing/control-warehouse-location-directives.md)
 ### [จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า](warehousing/manage-warehouse-workers.md)
 ### [ตั้งค่าโครงร่าง](warehousing/warehouse-configuration.md)
 ### [นโยบายงานของคลังสินค้า](warehousing/warehouse-work-policies.md)
 ### [หน่วยวัดและนโยบายการเก็บสต็อก](warehousing/unit-measure-stocking-policies.md)
-### [เนื้อหา Warehouse Power BI](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [เนื้อหา Warehouse Power BI](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [การยืนยันชุดงานและป้ายทะเบียน](warehousing/batch-and-license-plate-confirmation.md)
+### [การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยง](warehousing/move-inventory-associated-work.md)
+### [การจัดกลุ่มระบบในรายการงานที่เปิด](warehousing/system-group-on-open-work-list.md)
+### [การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์](warehousing/cluster-picking-item-confirmation.md)
 ## การเบิกสินค้าและการบรรจุสินค้า
 ### [วัสดุและค่าธรรมเนียมบรรจุภัณฑ์](warehousing/pack-materials-packing-material-fees.md)
+### [การยืนยันการเบิกสินค้าเป็นรายชิ้น](warehousing/piece-picking-confirmation.md)
 ## การนับสินค้าคงคลัง
 ### [บล็อคสินค้าคงคลัง](inventory/inventory-blocking.md)
 ### [การตรวจนับตามรอบ](warehousing/cycle-counting.md)
+### [การตรวจนับตามรอบของสถานที่บางส่วน](warehousing/partial-location-cycle-counting.md)
 ### [สมุดรายวันสินค้าคงคลัง](inventory/inventory-journals.md)
 ### [สถานที่เก็บสินค้าคงคลัง](inventory/inventory-locations.md)
 ### [สถานะของสินค้าคงคลัง](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## การบรรจุลงตู้บรรจุสินค้า 
 ## การเติมสินค้า
 ### [การเติมสินค้า](warehousing/replenishment.md)
+### [การเติมสินค้าที่มีคัมบังการเบิกถอน](warehousing/material-replenishment-withdrawal-kanban.md)
 ## อุปกรณ์เคลื่อนที่
 ### [ติดตั้งและตั้งค่าคอนฟิกในแอพลิเคชัน Warehousing ](warehousing/install-configure-warehousing-app.md)
 ### [ตั้งค่าคอนฟิกชื่อฟิลด์ในแอพลิเคชัน Warehousing](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [พอร์ทัลบนอุปกรณ์เคลื่อนที่ของคลังสินค้า (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [การตั้งค่าการแสดงผลสำหรับอุปกรณ์เคลื่อนที่ของคลังสินค้า](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [ข้อมูลทางการเงิน](/dynamics365/operations/financials/index)
+# [ข้อมูลทางการเงิน](/dynamics365/unified-operations/financials/index)
 
-# [ทรัพยากรบุคคล](/dynamics365/operations/human-resources/index)
+# [ทรัพยากรบุคคล](/dynamics365/unified-operations/talent/index)
 
-# [การขายปลีก](/dynamics365/operations/retail/index)
+# [การขายปลีก](/dynamics365/unified-operations/retail/index)
 
-# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/operations/dev-itpro/index)
+# [นักพัฒนาและผู้ดูแลระบบ](/dynamics365/unified-operations/dev-itpro/index)
 
 # ทรัพยากรอื่นๆ
-## [อภิธานศัพท์ Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [อภิธานศัพท์ Finance and Operations](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 

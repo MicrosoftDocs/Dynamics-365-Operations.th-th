@@ -21,4 +21,5 @@
 # ติดตามสินค้าและชุดงาน
 ## [ผสานชุดงานสินค้าคงคลัง](merge-inventory-batches.md)
 ## [ติดตามสินค้าและวัตถุดิบ](trace-items-raw-materials-inventory-production-sales.md)
+## [ลงทะเบียนหมายเลขลำดับประจำสินค้าในกระบวนการขาย](../sales-marketing/register-serial-numbers-sales-process.md)
 
