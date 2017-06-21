@@ -3,7 +3,7 @@ title: "รายงานใบสั่งผลิตเมื่อเสร
 description: "รายงานเมื่อเสร็จสมบุรณ์เป็นขั้นการผลิต ในขั้นนี้ ผลิตภัณฑ์สำเร็จรูปจะได้รับการรายงานและย้ายออกจากใบสั่งผลิตไปยังสินค้าคงคลัง"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

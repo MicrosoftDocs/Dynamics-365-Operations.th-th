@@ -3,7 +3,7 @@ title: "กฎการปันส่วนบัญชีแยกประเ
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับกฎการปันส่วนบัญชีแยกประเภท โดยจะอธิบายส่วนประกอบต่างๆ ของกฎการปันส่วนและวิธีการปันส่วนที่สามารถใช้สำหรับอุปกรณ์เหล่านี้"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การตั้งค่าการแสดงผลสำหรั
 description: "บทความนี้อธิบายวิธีการตั้งค่าลักษณะที่ปรากฏของจอแสดงผลของอุปกรณ์เคลื่อนที่ และแม็ปแป้นพิมพ์ลัดเพื่อควบคุม เช่น ปุ่ม"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

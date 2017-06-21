@@ -3,7 +3,7 @@ title: "กำหนดการจัดส่ง"
 description: "กำหนดการจัดส่งช่วยให้คุณสามารถติดตามปริมาณในบรรทัดใบสั่งเมื่อคุณใช้การจัดส่งหลายครั้ง สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อเดียว"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

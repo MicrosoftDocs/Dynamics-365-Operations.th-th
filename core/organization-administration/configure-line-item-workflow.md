@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกลำดับงานของ
 description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

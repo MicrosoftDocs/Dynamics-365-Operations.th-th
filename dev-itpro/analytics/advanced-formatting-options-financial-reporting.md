@@ -3,7 +3,7 @@ title: "ตัวเลือกการจัดรูปแบบขั้น
 description: "เมื่อคุณสร้างรายงานในรายงานทางการเงิน ฟังก์ชันการจัดรูปแบบเพิ่มเติมจะพร้อมใช้งาน รวมถึงตัวกรองสำหรับขนาด ข้อจำกัดสำหรับคอลัมน์ และหน่วยการรายงาน แถวที่ไม่มีการพิมพ์ และคำสั่ง IF/THEN/ELSE ในการคำนวณ"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: "คำนวณใหม่ของต้นทุนในการเ
 description: "บทความนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

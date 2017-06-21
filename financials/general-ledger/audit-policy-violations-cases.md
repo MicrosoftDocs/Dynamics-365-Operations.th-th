@@ -3,7 +3,7 @@ title: "กรณีและการละเมิดนโยบายกา
 description: "บทความอธิบายถึงวิธีสร้างกรณีการตรวจสอบจากการละเมิดกฎนโยบายการตรวจสอบ นอกจากนี้ยังมีข้อมูลเกี่ยวกับวิธีการต่างๆ ที่นโยบายการตรวจสอบใช้ช่วงวันของการเลือกเอกสารการ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

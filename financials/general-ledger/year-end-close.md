@@ -3,7 +3,7 @@ title: "การปิดบัญชีสิ้นปี"
 description: "หัวข้อนี้อธิบายถึงการตั้งค่าที่จำเป็นและขั้นตอนสำหรับการรันกระบวนการปิดเมื่อสิ้นสุดปีของบัญชีแยกประเภททั่วไป"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

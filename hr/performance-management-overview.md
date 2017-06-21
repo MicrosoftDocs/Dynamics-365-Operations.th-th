@@ -3,10 +3,10 @@ title: "ภาพรวมของการบริหารประสิท
 description: "กระบวนการบริหารประสิทธิภาพช่วยให้พนักงานจัดทำเอกสารและอภิปรายกี่ยวกับประสิทธิภาพการทำงานกับผู้จัดการของตนองได้ ในทางกลับกัน ผู้จัดการสามารถให้คำติชมและคำแนะนำแก่พนักงานของตนองได้"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

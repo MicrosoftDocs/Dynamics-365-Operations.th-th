@@ -3,7 +3,7 @@ title: "ข้อกำหนดการลงรายการบัญชี
 description: "บทความนี้แสดงตัวอย่างที่แสดงให้เห็นถึงวิธีใช้ข้อกำหนดการลงรายการบัญชีสำหรับภาระผูกพันของใบสั่งซื้อและการจัดสรรงบประมาณ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

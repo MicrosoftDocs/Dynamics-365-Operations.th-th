@@ -3,7 +3,7 @@ title: "กฎโครงแบบ"
 description: "บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกฎโครงแบบ กฎโครงแบบกำหนดความสัมพันธ์ระหว่างสินค้าในรายการวัสดุและส่วนประกอบ (BOM) สำหรับผลิตภัณฑ์ที่ใช้เทคโนโลยีการจัดโครงแบบตามมิติ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

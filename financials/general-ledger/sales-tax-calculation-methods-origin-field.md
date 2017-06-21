@@ -3,7 +3,7 @@ title: "วิธีการคำนวณภาษีขายในฟิล
 description: "บทความนี้อธิบายถึงตัวเลือกในฟิลด์จุดเริ่มต้นในหน้ารหัสภาษีขาย และวิธีคำนวณภาษีขายตามตัวเลือกที่เลือกสำหรับรหัสภาษีขาย"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

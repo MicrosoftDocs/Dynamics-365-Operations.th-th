@@ -3,7 +3,7 @@ title: "รวมมูลค่าจริง"
 description: "คุณใช้กล่องกาเครื่องหมายรวมมูลค่าจริงในแบบจำลองสินค้าคงคลังของหน้ากลุ่มแบบจำลองสินค้าจะใช้ในการระบุว่ามีการพิจารณาธุรกรรมอัพเดตจริงในการพิจารณาราคาต้นทุนเฉลี่ยสืบเนื่องสำหรับสินค้า"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ชำระการชำระเงินของผู้จัด
 description: "บทความนี้แนะนำคุณผ่านสถานการณ์สมมติที่การชำระเงินหลายส่วนชำระสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และมีส่วนลดเงินสดหลายรายการ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

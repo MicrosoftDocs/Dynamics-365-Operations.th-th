@@ -3,7 +3,7 @@ title: "ล่าช้า"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับวันที่ล่าช้าในการวางแผนหลัก วันที่ที่ล่าช้าเป็นวันครบกำหนดชำระจริงที่ได้รับธุรกรรมการ ถ้าวันเติมสินค้าแรกสุดที่การวางแผนหลักคำนวณ เป็นวันหลังจากวันที่ร้องขอ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

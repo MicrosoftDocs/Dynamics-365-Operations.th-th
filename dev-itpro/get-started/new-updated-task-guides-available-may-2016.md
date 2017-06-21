@@ -3,7 +3,7 @@ title: "คู่มืองานใหม่หรือที่ปรับ
 description: "บทความนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

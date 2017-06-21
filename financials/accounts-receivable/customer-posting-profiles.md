@@ -3,7 +3,7 @@ title: "โพรไฟล์การลงรายการบัญชีล
 description: "โพรไฟล์การลงบัญชีของลูกค้าควบคุมการลงรายการบัญชีของธุรกรรมลูกค้าให้บัญชีแยกประเภททั่วไป"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

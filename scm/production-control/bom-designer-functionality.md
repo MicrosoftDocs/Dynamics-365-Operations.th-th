@@ -3,7 +3,7 @@ title: "เกี่ยวกับฟังก์ชันผู้ออกแ
 description: "บทความนี้อธิบายวิธีที่คุณสามารถใช้หน้าการออกแบบ BOM เพื่อออกแบบและทำงานกับโครงสร้างแผนภูมิสำหรับรายการวัสดุและส่วนประกอบ (BOMs) คุณสามารถคลิก ตั้งค่า เพื่อเลือกข้อมูลเฉพาะที่ต้องการแสดงในบรรทัดของแผนภูมิ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

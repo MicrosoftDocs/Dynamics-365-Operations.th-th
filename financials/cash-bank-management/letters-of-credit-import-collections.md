@@ -3,7 +3,7 @@ title: "เลตเตอร์ออฟเครดิตและการเ
 description: "บทความนี้มีข้อมูลทั่วไปเกี่ยวกับเลตเตอร์ออฟเครดิตและคอลเลกชันของการนำเข้า เอกสารธนาคารทั้งสองชนิดมักใช้สำหรับการซื้อและการขายสินค้าข้ามพรมแดนประเทศ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

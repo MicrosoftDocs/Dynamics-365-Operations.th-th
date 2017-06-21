@@ -3,7 +3,7 @@ title: "กลับรายการชำระเงินให้แก่
 description: "บทความนี้อธิบายถึงความแตกต่างระหว่างการกลับ ลบ โมฆะ และการปฏิเสธการชำระเงิน นอกจากนี้ ยังอธิบายวิธีการกลับรายการการตรวจสอบผู้จัดจำหน่ายสองวิธี"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "จำนวนที่ปัดเศษสำหรับการค
 description: "บทความนี้อธิบายฟิลด์การปัดเศษค่าเสื่อมราคาที่พบในหน้าการตั้งค่าสมุดบัญชี"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การชำระเงินคืนลูกค้า"
 description: "บทความนี้อธิบายวิธีการสร้างธุรกรรมการชำระเงินคืนสำหรับกลุ่มลูกค้า  ถ้าลูกค้ามียอดดุลเครดิต คุณสามารถชำระเงินคืนลูกค้าเป็นจำนวนยอดดุล"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การปิดบัญชีสินค้าคงคลัง"
 description: "โดยเป็นส่วนหนึ่งของกระบวนการที่จะชำระธุรกรรมการออกด้วยธุรกรรมการรับสินทรัพย์ คุณสามารถเลือกให้บัญชีแยกประเภททั่วไปถูกอัพเดตเพื่อสะท้อนถึงการปรับปรุงที่ได้ถูกกระทำไปด้วย"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

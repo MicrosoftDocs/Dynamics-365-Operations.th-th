@@ -3,7 +3,7 @@ title: "ชำระการชำระเงินบางส่วนขอ
 description: "บทความนี้อธิบายสถานการณ์ที่แสดงวิธีการบันทึกการชำระเงินบางส่วนสำหรับลูกค้า และใช้ส่วนลดเงินสดภายในรอบระยะเวลาส่วนลดเงินสด"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การปรับปรุงมูลค่าต้นทุนป
 description: "ใช้หน้าการปรับปรุงปริมาณสินค้าคงคลังคงเหลือเพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

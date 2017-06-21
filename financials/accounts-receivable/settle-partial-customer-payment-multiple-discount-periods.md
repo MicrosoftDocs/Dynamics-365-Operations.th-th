@@ -3,7 +3,7 @@ title: "ชำระการชำระเงินของลูกค้า
 description: "บทความนี้แสดงวิธีการชำระเงินบางส่วนของผู้ซิ้อเมื่อมีหลายรอบระยะเวลาส่วนลด"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

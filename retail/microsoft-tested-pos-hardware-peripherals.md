@@ -3,12 +3,13 @@ title: "อุปกรณ์ต่อพ่วงฮาร์ดแวร์ PO
 description: "การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36

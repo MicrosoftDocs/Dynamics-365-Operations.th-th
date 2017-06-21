@@ -3,7 +3,7 @@ title: "การจัดการที่ไม่สอดคล้องก
 description: "บทความนี้อธิบายการตั้งค่าพื้นฐานที่จำเป็นเพื่อใช้ความไม่สอดคล้องกัน จำเป็นต้องมีการตั้งค่าเพิ่มเติม ถ้าคุณต้องการใช้ใบสั่งตรวจสอบคุณภาพ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

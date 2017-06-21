@@ -3,10 +3,10 @@ title: "การตั้งค่าส่วนประกอบของง
 description: "หัวข้อนี้อธิบายถึงองค์ประกอบแนวคิดสามารถรวมงาน และแสดงตัวอย่างของวิธีการที่คุณสามารถใช้องค์ประกอบเหล่านั้นในองค์กรของคุณ"
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User

@@ -3,7 +3,7 @@ title: "รายการต้นทุน"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับรายการต้นทุนและเวลาที่สร้าง รายการต้นทุนเป็นเรกคอร์ดที่ลงทะเบียนปริมาณและต้นทุนของกิจกรรมที่กำหนด"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

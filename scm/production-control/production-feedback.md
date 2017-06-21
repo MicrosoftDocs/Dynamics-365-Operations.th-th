@@ -3,7 +3,7 @@ title: "ผลป้อนกลับของการผลิต"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับผลป้อนกลับการผลิต ซึ่งให้ผลป้อนกลับเกี่ยวกับงานการผลิตของผู้ปฏิบัติงาน บทรวมรายละเอียดเกี่ยวกับวิธีการต่างๆ ที่สามารถปรับปรุงผลป้อนกลับของการผลิต"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "โฮมเพจการจัดการเงินสดและ
 description: "คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

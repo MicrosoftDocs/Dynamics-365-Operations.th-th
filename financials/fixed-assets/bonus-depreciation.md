@@ -3,7 +3,7 @@ title: "ค่าเสื่อมราคาพิเศษ"
 description: "บทความนี้แสดงภาพรวมของฟังก์ชันการคิดค่าเสื่อมราคาพิเศษ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

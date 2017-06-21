@@ -3,7 +3,7 @@ title: "หน่วยการวัดและนโยบายการเ
 description: "บทความนี้อธิบายวิธีใช้หน่วยเริ่มต้น ลำดับหน่วย และการแปลงหน่วยในกระบวนการคลังสินค้า"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

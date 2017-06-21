@@ -3,7 +3,7 @@ title: "มีอะไรใหม่หรือการเปลี่ยน
 description: "บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงในการนำออกใช้ Microsoft Dynamics AX 7.0 รุ่นนี้ประกอบด้วยคุณลักษณะทั้งแพลตฟอร์มและแอพพลิเคชัน และถูกนำออกใช้ในเดือนกุมภาพันธ์ 2016"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

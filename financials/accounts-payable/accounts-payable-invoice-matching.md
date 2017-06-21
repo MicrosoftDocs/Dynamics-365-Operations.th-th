@@ -3,7 +3,7 @@ title: "การจับคู่ใบแจ้งหนี้บัญชี
 description: "การจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้เป็นกระบวนการจับคู่ใบแจ้งหนี้ของผู้จัดจำหน่าย ใบสั่งซื้อ และข้อมูลการรับสินค้า "
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

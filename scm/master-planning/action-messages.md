@@ -3,7 +3,7 @@ title: "ไม่เกี่ยวกับเอกสาร"
 description: "ข้อความเกี่ยวกับการดำเนินการเป็นคำแนะนำที่ระบบสร้างขึ้นเพื่อเปลี่ยนแปลงใบสั่งเติมสินค้าที่วางแผนไว้หรือมีการยืนยันแล้ว"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

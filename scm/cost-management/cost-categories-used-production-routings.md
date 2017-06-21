@@ -3,7 +3,7 @@ title: "ประเภทต้นทุนที่ใช้ในกระบ
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่ใช้กับสภาพแวดล้อมการผลิตที่ใช้กระบวนการผลิต"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

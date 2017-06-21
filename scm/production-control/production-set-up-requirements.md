@@ -3,7 +3,7 @@ title: "ข้อกำหนดของการตั้งค่าการ
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการตั้งค่าก่อนที่คุณจะสามารถดำเนินการควบคุมการผลิต"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

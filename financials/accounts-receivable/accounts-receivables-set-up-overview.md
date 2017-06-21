@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกบัญชีลูกหนี
 description: "ตั้งค่าคอนฟิกบัญชีลูกหนี้ และสินเชื่อ และการเรียกเก็บเงินเพื่อติดตามใบแจ้งหนี้และการชำระเงินที่มาจากลูกค้า"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

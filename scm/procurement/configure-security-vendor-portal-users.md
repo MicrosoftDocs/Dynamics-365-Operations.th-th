@@ -3,7 +3,7 @@ title: "ความปลอดภัยของผู้ใช้พอร์
 description: "บทความนี้อธิบายวิธีการตั้งค่าความปลอดภัยสำหรับผู้จัดจำหน่ายภายนอกที่ใช้เว็บไซต์ของผู้จัดจำหน่าย ข้อมูลนี้ใช้กับ Dynamics AX เวอร์ชันกุมภาพันธ์ 2016 &amp; พฤษภาคม 2016 เท่านั้น"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

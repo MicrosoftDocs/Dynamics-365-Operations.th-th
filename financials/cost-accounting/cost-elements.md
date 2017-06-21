@@ -3,7 +3,7 @@ title: "มิติองค์ประกอบต้นทุน"
 description: "หนึ่งในหลักของการลงบัญชีต้นทุนคือมิติองค์ประกอบต้นทุนจะถูกใช้ในการจัดประเภทและติดตามขั้นตอนของต้นทุน"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

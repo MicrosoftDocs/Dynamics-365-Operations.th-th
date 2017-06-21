@@ -3,7 +3,7 @@ title: "ใช้ นำเข้า/ส่งออกด่วน"
 description: "วัตถุประสงค์ของการนำเข้าส่งออกด่วนคือเพื่อช่วยให้คุณสามารถนำเข้าและส่งออกโดยมีขั้นตอนที่น้อยลง"
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
 ms.service: 

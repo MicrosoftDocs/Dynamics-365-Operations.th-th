@@ -3,7 +3,7 @@ title: "การคิดค่าเสื่อมราคาด้วยย
 description: "บทความนี้แสดงภาพรวมยอดดุลที่ลดลง 125% ของค่าเสื่อมราคา"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

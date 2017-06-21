@@ -3,7 +3,7 @@ title: "ใช้ส่วนลดเงินสดนอกเหนือจ
 description: "บทความนี้อธิบายสองสถานการณ์ที่แสดงวิธีการใช้ส่วนลดเงินสด แม้ว่าจะชำระนอกรอบระยะเวลาส่วนลด"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

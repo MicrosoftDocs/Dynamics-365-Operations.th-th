@@ -3,7 +3,7 @@ title: "ปิดบัญชีแยกประเภททั่วไปร
 description: "หัวข้อนี้อธิบายถึงงานที่โดยทั่วไปจะเสร็จสมบูรณ์เมื่อทำการปิดรอบระยะเวลาสำหรับบัญชีแยกประเภททั่วไป"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

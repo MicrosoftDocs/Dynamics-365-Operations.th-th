@@ -3,7 +3,7 @@ title: "โฮมเพจสินทรัพย์ถาวร"
 description: "สินทรัพย์ถาวรคือสินค้าที่มีมูลค่า เช่น อาคาร พาหนะ ที่ดิน และเครื่องมือ ที่เป็นของบุคคลหรือองค์กร"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

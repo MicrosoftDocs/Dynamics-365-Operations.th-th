@@ -3,7 +3,7 @@ title: "การชำระเงินบางส่วนของผู้
 description: "บทความนี้แนะนำคุณผ่านสถานการณ์ที่มีการชำระเงินบางส่วนหลายรายการ บางรายการภายในรอบระยะเวลาส่วนลดเงินสดและอื่นๆ นอกรอบระยะเวลาส่วนลดเงินสด"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "แก้ไขใบแจ้งหนี้ข้อความอิ
 description: "บทความนี้อธิบายวิธีการแก้ไขข้อความอิสระในใบแจ้งหนี้ที่ได้ลงรายการบัญชี และออกใบแจ้งหนี้ที่แก้ไขใหม่"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
