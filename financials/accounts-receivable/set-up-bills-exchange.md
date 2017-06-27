@@ -3,7 +3,7 @@ title: "ตั้งค่าตั๋วแลกเงิน"
 description: "หัวข้อนี้อธิบายขั้นตอนสำหรับการตั้งค่าตั๋วแลกเงิน"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

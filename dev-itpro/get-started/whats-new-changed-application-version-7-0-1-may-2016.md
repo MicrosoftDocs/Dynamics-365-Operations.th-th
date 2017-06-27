@@ -3,7 +3,7 @@ title: "มีอะไรใหม่หรือการเปลี่ยน
 description: "บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงในการนำออกใช้แอพพลิเคชัน Microsoft Dynamics AX รุ่น 7.0.1 รุ่นนี้ถูกนำออกใช้ในเดือนพฤษภาคม 2016 และมีหมายเลขรุ่นคือ 7.0.1265.23014"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

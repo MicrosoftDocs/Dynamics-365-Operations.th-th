@@ -3,7 +3,7 @@ title: "ทรัพยากรของ Operations"
 description: "ทรัพยากรการดำเนินงานดำเนินกิจกรรมของโครงการหรือกระบวนการผลิต  พวกเขาสามารถมีชนิดแตกต่างกัน และมีความสามารถที่แตกต่างกัน"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

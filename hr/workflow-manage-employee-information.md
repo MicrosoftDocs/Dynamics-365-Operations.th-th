@@ -3,12 +3,13 @@ title: "ใช้ลำดับงานเพื่อจัดการข้
 description: "หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถใช้ความสามารถของลำดับงานสำหรับฝ่ายทรัพยากรบุคคลเพื่อจัดการข้อมูลพนักงาน ตัวอย่างเช่น คุณสามารถเชื่อมโยงลำดับงานกับตำแหน่งงาน และตั้งค่าคอนฟิกลำดับงานการอนุมัติที่เริ่มต้นเมื่อพนักงานเปลี่ยนบันทึกของพวกเขา"
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: Operations, Core
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d

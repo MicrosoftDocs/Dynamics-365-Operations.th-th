@@ -3,7 +3,7 @@ title: "การจัดตารางการผลิตระดับก
 description: "หัวข้อนี้มีข้อมูลเกี่ยวกับการจัดตารางการผลิตระดับการดำเนินงาน คุณสามารถใช้การจัดตารางการผลิตระดับการดำเนินงานเพื่อให้การประเมินโดยทั่วไปของกระบวนการผลิตตามช่วงเวลา"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

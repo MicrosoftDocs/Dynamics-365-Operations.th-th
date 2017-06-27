@@ -3,7 +3,7 @@ title: "ภาพรวมของการจัดซื้อและกา
 description: "บทความนี้ให้ภาพรวมของฟังก์ชันที่พร้อมใช้งานในโมดูลการจัดหาและการจัดซื้อ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "จำลองการเปลี่ยนแปลงของต้
 description: "บทความนี้อธิบายวิธีที่คุณสามารถจำลองผลกระทบของการเปลี่ยนแปลงต้นทุน ในต้นทุนที่คำนวณแล้วของสินค้าที่ผลิต โดยการใช้เวอร์ชันการคำนวณต้นทุนที่แยกต่างหากสำหรับต้นทุนที่วางแผนไว้"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "แม็ปสมาชิกมิติองค์ประกอบ
 description: "การแม็ปสมาชิกมิติองค์ประกอบต้นทุกที่แตกต่างกันกับชุดทั่วไปของสมาชิกมิติองค์ประกอบต้นทุน จะเป็นการผสานข้อมูลลงในรูปแบบทั่วไปสำหรับวัตถุประสงค์ในการวิเคราะห์"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การชำระเงินบางส่วนของผู้
 description: "บทความนี้แนะนำคุณผ่านสถานการณ์ที่ส่วนลดเงินสดจะใช้ใบลดหนี้เมื่อใบแจ้งหนี้เดิมยังมีส่วนลดเงินสด"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

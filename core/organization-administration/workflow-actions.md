@@ -3,7 +3,7 @@ title: "การดำเนินการลำดับงาน"
 description: "บทความนี้อธิบายการดำเนินการที่ผู้เข้าร่วมในกระบวนการอนุมัติลำดับงานสามารถทำได้"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

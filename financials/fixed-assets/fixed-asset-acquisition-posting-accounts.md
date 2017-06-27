@@ -3,7 +3,7 @@ title: "บัญชีการลงรายการการซื้อส
 description: "บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไปที่ลงรายการบัญชีสำหรับสินทรัพย์ที่ซื้อสินทรัพย์"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

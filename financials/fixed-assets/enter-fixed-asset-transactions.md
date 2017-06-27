@@ -3,7 +3,7 @@ title: "ตัวเลือกธุรกรรมสินทรัพย์
 description: "บทความนี้อธิบายวิธีการต่างๆ ที่พร้อมใช้งานเพื่อสร้างธุรกรรมสินทรัพย์ถาวร"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ข้อกำหนดเบื้องต้นสำหรับก
 description: "หัวข้อนี้อธิบายงานการเพื่อดำเนินการก่อนที่คุณจะดำเนินการแปลงต้นทุนมาตรฐาน"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

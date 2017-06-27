@@ -3,7 +3,7 @@ title: "ภาพรวมของหลักการลงบัญชีพ
 description: "บทความนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

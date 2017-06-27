@@ -3,7 +3,7 @@ title: "การติดตามสินค้าและวัตถุด
 description: "หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การติดตามสินค้าเพื่อระบุตำแหน่งที่สินค้าหรือวัตถุดิบได้ถูกใช้ กำลังถูกใช้ หรือจะใช้ในการผลิตและกระบวนการขาย "
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

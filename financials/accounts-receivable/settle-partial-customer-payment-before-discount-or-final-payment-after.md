@@ -3,7 +3,7 @@ title: "การชำระเงินบางส่วนของผู้
 description: "บทความนี้กล่าวถึงผลกระทบของการชำระเงินใบแจ้งหนี้สำหรับลูกค้า สถานการณ์จำลองที่มุ่งเน้นผลที่เกิดขึ้นในบัญชีแยกประเภทย่อย ไม่ใช่บัญชีแยกประเภททั่วไป"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

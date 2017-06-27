@@ -3,7 +3,7 @@ title: "อัพเดตต้นทุนมาตรฐานในสภา
 description: "บทความนี้ให้คำแนะนำเกี่ยวกับวิธีการอัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมการผลิต"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การลงทะเบียนสำหรับการดำเ
 description: "หัวข้อนี้อธิบายแนวคิดหลักและเงื่อนไขที่คุณต้องการทำความเข้าใจเกี่ยวกับการตั้งค่าคอนฟิก และใช้การดำเนินการผลิต"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การตั้งค่าความครอบคลุม"
 description: "การวางแผนหลักใช้การตั้งค่าความครอบคลุมเพื่อคำนวณความต้องการสินค้า"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "การจัดส่งสินค้าโดยตรง"
 description: "บทความนี้มีข้อมูลเกี่ยวกับการจัดส่งสินค้าโดยตรง การจัดส่งสินค้าโดยตรงคือการจัดส่งที่ส่งโดยตรงจากผู้จัดจำหน่ายให้ลูกค้าของคุณ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

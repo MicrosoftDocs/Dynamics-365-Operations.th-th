@@ -3,7 +3,7 @@ title: "บัญชีการลงรายการการตัดจำ
 description: "บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไปที่ลงรายการบัญชีสำหรับการตัดจำหน่ายสินทรัพย์"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

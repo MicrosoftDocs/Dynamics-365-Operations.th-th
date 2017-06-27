@@ -3,7 +3,7 @@ title: "จองปริมาณสินค้าคงคลัง"
 description: "หัวข้อนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

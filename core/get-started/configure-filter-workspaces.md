@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกและกรองข้อม
 description: "บทความนี้แสดงภาพรวมเกี่ยวกับวิธีการตั้งค่าคอนฟิก และการกรองข้อมูลพื้นที่ทำงาน"
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,14 +3,14 @@ title: "ข้อกำหนดการลงรายการบัญชี
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการลงรายการบัญชี และวิธีการกำหนดการเชื่อมโยง สำหรับการสนับสนุนชนิดการลงรายการบัญชี และเอกสาร คุณสามารถใช้ข้อกำหนดการลงรายการบัญชีแทนโพรไฟล์การลงรายการบัญชีเพื่อจัดประเภทบัญชีหลัก และมิติทางการเงินบนรายการการบัญชี"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb

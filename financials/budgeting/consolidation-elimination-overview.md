@@ -3,7 +3,7 @@ title: "ภาพรวมของการรวมบัญชีและก
 description: "บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกระบวนการรวมบัญชีและการตัดออก โดยจะมีคำตอบสำหรับคำถามที่ถามบ่อย"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

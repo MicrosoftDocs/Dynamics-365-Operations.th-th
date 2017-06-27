@@ -3,7 +3,7 @@ title: "ตั้งค่าผลิตภัณฑ์ที่สามาร
 description: "ผลิตภัณฑ์สามารถเป็นต้นทางในหลายๆ วิธี - สามารถผลิต (ที่ผลิต) หรือการจัดซื้อ (ซื้อ) บทความนี้อธิบายคะแนนทั่วไปที่ควรพิจารณาเมื่อคุณตั้งค่าคอนฟิกผลิตภัณฑ์เพื่อสนับสนุนการจัดหาหลายรายการ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

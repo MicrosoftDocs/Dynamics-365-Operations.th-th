@@ -3,7 +3,7 @@ title: "การนับป้ายสินค้าคงคลัง"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับการตรวจนับแท็ก ซึ่งใช้ในการเปรียบเทียบเนื้อหาจริงของคลังสินค้าที่มีปริมาณคงคลังคงเหลือ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

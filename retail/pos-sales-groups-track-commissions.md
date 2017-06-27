@@ -3,20 +3,21 @@ title: "ติดตามค่าคอมมิชชันใน POS โด�
 description: "ถือเป็นวิธีปฏิบัติการขายปลีกทั่วไปในการติดตามการขายโดยสมาคมที่ทำงานกับลูกค้า ซึ่งให้ความช่วยเหลือ การขายสินค้าต่อเนื่อง การขายสินค้าชนิดอื่น และการดำเนินการธุรกรรม"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 31f57519aa55a06256d2b31cc64d4a964d889555

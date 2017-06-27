@@ -3,14 +3,14 @@ title: "กฎนโยบายการตรวจสอบ"
 description: "คุณสามารถใช้นโยบายการตรวจสอบเพื่อประเมินรายงานค่าใช้จ่าย ใบแจ้งหนี้ของผู้จัดจำหน่าย และใบสั่งซื้อ เพื่อตรวจสอบให้แน่ใจว่าจะสอดคล้องกับกฎนโยบายที่คุณสร้าง  กฎทั้งหมดที่เชื่อมโยงกับนโยบายการตรวจสอบกำลังถูกรันในโหมดชุดงาน ตามกำหนดการที่คุณระบุ   กฎนโยบายแต่ละกฎเป็นอินสแตนซ์ของชนิดกฎนโยบาย  สำหรับแต่ละชนิดกฎนโยบาย กฎนโยบายเดียวเท่านั้นสามารถทำงานได้ในแต่ละครั้ง"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978

@@ -3,14 +3,14 @@ title: "การจับคู่ใบแจ้งหนี้และใบ
 description: "อาจมีการจัดตั้งนิติบุคคลจัดซื้อที่เกี่ยวข้องในธุรกรรมการค้าระหว่างบริษัทเพื่อใช้บัญชีการจับคู่ใบแจ้งหนี้ของเจ้าหนี้ ในกรณีนี้ จะต้องทำตามเงื่อนไขในการลงรายการบัญชีใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทและการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้ก่อนที่จะสามารถลงรายการใบแจ้งหนี้ของผู้จัดจำหน่ายระหว่างบริษัทได้"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf

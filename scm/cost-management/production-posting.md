@@ -3,7 +3,7 @@ title: "การผลิตที่ลงรายการบัญชีแ
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับชนิดของการลงรายการบัญชีในกระบวนการผลิต"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

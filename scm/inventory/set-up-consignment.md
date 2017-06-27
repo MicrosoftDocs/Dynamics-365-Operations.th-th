@@ -3,7 +3,7 @@ title: "ตั้งค่าการส่งมอบ"
 description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกการดำเนินการสินค้าคงคลังที่มีการส่งมอบขาเข้า"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

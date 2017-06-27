@@ -3,7 +3,7 @@ title: "การตั้งค่าสินเชื่อและการ
 description: "บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการเรียกเก็บเงิน"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
