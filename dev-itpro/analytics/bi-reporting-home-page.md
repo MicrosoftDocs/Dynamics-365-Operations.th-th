@@ -1,15 +1,15 @@
 ---
 title: "โฮมเพจ BI และการรายงาน"
-description: "หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations"
+description: "หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Operations 
+หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations 
 
 <a name="working-with-aggregate-data"></a>การทำงานกับข้อมูลรวม
 ---------------------------
@@ -43,14 +43,14 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>การรายงานการบริการตนเอง
 -   [การรวม Power BI](power-bi-integration.md)
 -   [การตั้งค่าคอนฟิกการรวม Power BI สำหรับพื้นที่ทำงาน](configure-power-bi-integration.md)
--   [สร้างรายงาน Power BI โดยใช้ข้อมูล Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
+-   [สร้างรายงาน Power BI โดยใช้ข้อมูล Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
 -   [สร้างรายงาน Power BI และแดชบอร์ด](create-powerbi-report-dashboard.md)
 -   [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md)
 -   [เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI](financial-performance-power-bi-content-pack.md)
 -   [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
--   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>สร้างการฝังประสบการณ์การวิเคราะห์ในไคลเอนต์ Dynamics 365 for Operations
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>สร้างการฝังประสบการณ์การวิเคราะห์ในไคลเอนต์ Finance and Operations
 -   [ข่าวกรองธุรกิจที่ฝังอยู่](analytics.md#embedded-business-intelligence)
 -   [การสร้างโมเดล KPI และการกำหนดเอง](analytics.md#kpi-modeling-and-customization)
 -   [การเพิ่ม BI ไปยังพื้นที่ทำงาน](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="document-reporting-and-printing"></a>การรายงานและการพิมพ์เอกสาร
 -   [ภาพรวมของบริการรายงานเอกสาร](document-reporting-services.md)
--   [การพิมพ์ในแอพลิเคชัน Dynamics 365 for Operations](print-documents.md)
+-   [การพิมพ์ในแอพลิเคชัน Finance and Operations](print-documents.md)
 -   [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย](install-document-routing-agent.md)
 -   [รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows](run-document-routing-agent-as-windows-service.md)
 -   [สร้างโซลูชันรายงานรุ่นต่อไป](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 -   [ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
 -   [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
 -   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (คู่มืองาน)
 -   [ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (คู่มืองาน)
 -   [กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูลของ ER](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (คู่มืองาน)

@@ -1,9 +1,9 @@
 ---
-title: "บทนำสู่ Dynamics 365 for Operations"
-description: "Microsoft Dynamics 365 for Operations คือแอพลิเคชันทางธุรกิจของ Microsoft สำหรับองค์กร เพจนี้จะช่วยคุณในการเรียนรู้และเริ่มต้นการใช้งานผลิตภัณฑ์"
+title: "บทนำสู่ Dynamics 365 for Finance and Operations"
+description: "Microsoft Dynamics 365 for Finance and Operations คือแอพลิเคชันทางธุรกิจของ Microsoft สำหรับองค์กร เพจนี้จะช่วยคุณในการเรียนรู้และเริ่มต้นการใช้งานผลิตภัณฑ์"
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,77 +17,107 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86f8625019c25257d8d07701b17707c8ca48c9df
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
-# <a name="introduction-to-dynamics-365-for-operations"></a>บทนำสู่ Dynamics 365 for Operations
+# <a name="introduction-to-dynamics-365-finance-and-operations"></a>บทนำสู่ Dynamics 365 Finance and Operations
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Operations คือแอพลิเคชันทางธุรกิจของ Microsoft สำหรับองค์กร แอพลิเคชันนี้จะช่วยให้บุคคลสามารถทำการตัดสินใจอย่างชาญฉลาดมากยิ่งขึ้นได้อย่างรวดเร็วผ่านอินเทอร์เฟซผู้ใช้อัจฉริยะที่ให้การเข้าถึงข้อมูลและความเข้าใจแบบเรียลไทม์ แอพลิเคชันนี้จะช่วยให้ธุรกิจต่างๆ สามารถแปลงและพัฒนานวัตกรรมโดยการตรรกะทางธุรกิจที่ได้รับการพิสูจน์แล้วที่ทำให้ธุรกิจเหล่านั้นสามารถออกแบบกระบวนการทางธุรกิจของตนใหม่ได้เร็วขึ้น แอพลิเคชันนี้จะช่วยให้ธุรกิจต่างๆ มีความยืดหยุ่นในการเติบโตตามความเร็วของตนเอง และทำธุรกิจได้เกือบทุกที่ เมื่อใดก็ได้ ซึ่งทำให้สามารถปรับมาตราส่วนของการดำเนินงานของตนได้ทั่วโลกเพื่อให้ตรงกับความต้องการทางธุรกิจ 
+Microsoft Dynamics 365 for Finance and Operations คือแอพลิเคชันทางธุรกิจของ Microsoft สำหรับองค์กร แอพลิเคชันนี้จะช่วยให้บุคคลสามารถทำการตัดสินใจอย่างชาญฉลาดมากยิ่งขึ้นได้อย่างรวดเร็วผ่านอินเทอร์เฟซผู้ใช้อัจฉริยะที่ให้การเข้าถึงข้อมูลและความเข้าใจแบบเรียลไทม์ แอพลิเคชันนี้จะช่วยให้ธุรกิจต่างๆ สามารถแปลงและพัฒนานวัตกรรมโดยการตรรกะทางธุรกิจที่ได้รับการพิสูจน์แล้วที่ทำให้ธุรกิจเหล่านั้นสามารถออกแบบกระบวนการทางธุรกิจของตนใหม่ได้เร็วขึ้น แอพลิเคชันนี้จะช่วยให้ธุรกิจต่างๆ มีความยืดหยุ่นในการเติบโตตามความเร็วของตนเอง และทำธุรกิจได้เกือบทุกที่ เมื่อใดก็ได้ ซึ่งทำให้สามารถปรับมาตราส่วนของการดำเนินงานของตนได้ทั่วโลกเพื่อให้ตรงกับความต้องการทางธุรกิจ 
 
-คู่มือผู้ใช้นี้สามารถช่วยให้คุณเรียนรู้วิธีการทำให้ Dynamics 365 for Operations ทำงานให้กับธุรกิจของคุณ    
+เอกสารนี้จะช่วยให้คุณเรียนรู้วิธีการใช้ Dynamics 365 for Finance and Operations เพื่อทำงานให้กับธุรกิจของคุณ เอกสารนี้เชื่อมโยงกับเอกสารสำหรับผลิตภัณฑ์ที่เกี่ยวข้องใน Unified Operations suite, Dynamics 365 for Retail และ Dynamics 365 for Talent 
 
 <table>
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started/onboarding-home.md">การเตรียมความพร้อมองค์กรของคุณ</a></p>
-<p>ข้อมูลทางการเงิน</p>
-<ul><li><a href="financials/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></li>
-<li><a href="financials/accounts-receivable/accounts-receivable.md">บัญชีลูกหนี้</a></li>
-<li><a href="financials/budgeting/budgeting-overview.md">การจัดงบประมาณ</a></li>
-<li><a href="financials/cash-bank-management/cash-bank-management.md">การจัดการเงินสดและธนาคาร</a></li>
-<li><a href="financials/cost-accounting/cost-accounting-home-page.md">การบัญชีต้นทุน</a></li>
-<li><a href="financials/fixed-assets/fixed-assets.md">สินทรัพย์ถาวร</a></li>
-<li><a href="financials/general-ledger/general-ledger.md">บัญชีแยกประเภททั่วไป</a></li>
-<li><a href="financials/project-management/overview-project-management-accounting.md">การจัดการโครงการ</a></li>
-<li><a href="financials/public-sector/public-sector-functionality.md">ภาครัฐ</a></li></ul>
-<p><a href="dev-itpro/lcs-solutions/country-region.md">คุณลักษณะภูมิภาค</a></p>
-<p>ทรัพยากรบุคคล</p>
-   <ul>
-  <li><a href="human-resources/departments-jobs-positions.md">กลยุทธ์ HR</a></li>
-  <li><a href="human-resources/manage-recruiting-process.md">สรรหา ว่าจ้าง & จูงใจ</a></li>
-  <li><a href="human-resources/performance-management-overview.md">การฝึกอบรมของพนักงาน</a></li>
-  <li><a href="human-resources/manage-benefit-program.md">ผลประโยชน์</a></li>
-  <li><a href="human-resources/questionnaires.md">แบบสอบถาม</a></li>
-  <li><a href="human-resources/localizations/noam-usa-payroll.md">คุณลักษณะ US</a></li>
-</ul></td>
-  <td>
-  <p>การขายปลีก</p>
+<td><h3>ข้อมูลทางการเงิน</h3>
+<p>การปฏิบัติตาม</p>
+<p>การจัดการทางการเงิน</p>
+<ul><li><a href="../financials/accounts-payable/accounts-payable">บัญชีเจ้าหนี้</a></li>
+<li><a href="../financials/accounts-receivable/accounts-receivable">บัญชีลูกหนี้</a></li>
+<li><a href="../financials/budgeting/budgeting-overview">การจัดงบประมาณ</a></li>
+<li><a href="../financials/cash-bank-management/cash-bank-management">การจัดการเงินสดและธนาคาร</a></li>
+<li><a href="../financials/cost-accounting/cost-accounting-home-page">การบัญชีต้นทุน</a></li>
+<li><a href="../financials/fixed-assets/fixed-assets">สินทรัพย์ถาวร</a></li>
+<li><a href="../financials/general-ledger/general-ledger">บัญชีแยกประเภททั่วไป</a></li>
+
+<li><a href="../financials/public-sector/public-sector-functionality">ภาครัฐ</a></li>
+<li><a href="../dev-itpro/lcs-solutions/country-region">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></li></ul>
+<p><a href="../financials/project-management/overview-project-management-accounting">การจัดการโครงการ</a></p>
+<H3>ทรัพยากรบุคคล</h3>
   <ul>
-<li><a href="retail/call-center-functionality.md">ศูนย์บริการ</a></li>
-  <li><a href="retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</a></li>
-  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">MPOS และ Cloud POS</a></li>
-  <li><a href="retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการการขายปลีก</a></li></ul>
-  <p>การบริหารห่วงโซ่อุปทาน</p>
+<li><a href="hr/manage-recruiting-process">การสรรหา</a></li>
+<li><a href="hr/localizations/noam-usa-payroll">ค่าจ้างของสหรัฐอเมริกา</a></li>
+</ul>
+<h3>การบริหารห่วงโซ่อุปทาน</h3>
+<p><a href="../supply-chain/cost-management/costing-sheets">การจัดการต้นทุน</a></p>
+<p><a href="../supply-chain/inventory/inventory-locations">การบริหารสินค้าคงคลัง</a></p>
+<p>ลอจิสติกส์</p>
+<ul><li><a href="../supply-chain/transportation/transportation-management-overview">การจัดการการขนส่ง</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">การบริหารคลังสินค้า</a></li></ul></li>
+<p><a href="../supply-chain/master-planning/master-plans">การวางแผน</a></p>
+  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">การจัดการข้อมูลผลิตภัณฑ์</a></p>
+  <p><a href="../supply-chain/production-control/create-production-orders">การควบคุมการผลิต</a></p>
+<p>การจัดการใบสั่ง</p>
+  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">การจัดซื้อและการจัดหา</a></li>
+  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">การขายและการตลาด</a></li></ul>
+</td>
+<td>
+<h3>แพลตฟอร์ม Unified Operation</h3>
+<p>ข่าวกรอง</p>
+<ul><li><a href="../dev-itpro/analytics/analytics">การวิเคราะห์</a></li>
+ <li><a href="../dev-itpro/analytics/document-reporting-services">เอกสารทางธุรกิจ</a></li>
+<li><a href="../dev-itpro/analytics/financial-reporting-intro">การรายงานทางการเงิน</a></li>
+<li><a href="../dev-itpro/analytics/general-electronic-reporting">การรายงานที่เป็นข้อบังคับ</a></li></ul>
+
+<p><a href="../dev-itpro/mobile-apps/mobile-platform">แพลตฟอร์มเคลื่อนที่</a></p>
+
+ <p>ฟังก์ชันนักพัฒนา</p>
 <ul>
-<li><a href="supply-chain/cost-management/costing-sheets.md">การจัดการต้นทุน</a></li>
-  <li><a href="supply-chain/inventory/inventory-locations.md">การบริหารสินค้าคงคลัง</a></li>
-  <li><a href="supply-chain/master-planning/master-plans.md">การวางแผนหลัก</a></li>
-  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">การจัดซื้อและการจัดหา</a></li>
-  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">การจัดการข้อมูลผลิตภัณฑ์</a></li>
-  <li><a href="supply-chain/production-control/create-production-orders">การควบคุมการผลิต</a></li>
-  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">การขายและการตลาด</a></li>
-  <li><a href="supply-chain/transportation/transportation-management-overview.md">การจัดการการขนส่ง</a></li>
-  <li><a href="supply-chain/warehousing/warehouse-configuration.md">การบริหารคลังสินค้า</a></li></ul>
-  <p>ฟังก์ชันนักพัฒนาและผู้ดูแลระบบ</p>
-  <ul><li><a href="dev-itpro/analytics/analytics.md">การวิเคราะห์</a></li>
-  <li><a href="dev-itpro/data-entities/data-entities.md">เอนทิตี้ข้อมูล</a></li>
-  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">แอพบนมือถือ</a></li>
-  <li><a href="dev-itpro/office-integration/office-integration.md">การรวม Office</a></li>
-  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</a></li>
-  <li><a href="dev-itpro/dev-tools/developer-home-page.md">เครื่องมือสำหรับนักพัฒนา</a></li></ul></td>
+<li><a href="../dev-itpro/continuous-delivery-home-page">การจัดส่งแบบต่อเนื่อง</a></li>
+<li><a href="../dev-itpro/get-started/demo-data">ข้อมูลสาธิต</a></li>
+<li><a href="../dev-itpro/dev-tools/developer-home-page">เครื่องมือสำหรับนักพัฒนา</a></li>
+<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">เพิ่มความสามารถ</a></li>
+<li><p>การรวม</p>
+<ul><li><a href="../dev-itpro/data-entities/data-entities">เอนทิตี้ข้อมูล</a></li>
+<li><a href="../dev-itpro/office-integration/office-integration">การรวม Office</a></li></ul></li></ul>
+
+<p>ฟังก์ชันสำหรับผู้ดูแลระบบ<p>
+<ul>
+<li><a href="../get-started/onboarding-home">การเตรียมความพร้อมองค์กรของคุณ</a></li>
+<li><a href="../dev-itpro/deploy-demo-environment">การปรับใช้และการให้บริการ</a></li>
+<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">อัพเกรด</a></li>
+<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">การจัดการข้อมูล</a></li>
+<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
+<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">การจัดการองค์กร</a></li>
+<li><a href="../dev-itpro/sysadmin/system-administration-home-page">การจัดการระบบ</a></li>
+<ul>
+</td>
+<td>
+<h3>Dynamics 365 for Talent</h3>
+<p><a href="../talent/manage-benefit-program">ผลประโยชน์</a></p>
+<p><a href="../talent/performance-management-overview">การพัฒนาและฝึกอบรมพนักงาน</a></p>
+<p><a href="../talent/questionnaires">แบบสอบถาม</a></p>
+
+<h3>Dynamics 365 for Retail</h3>
+<p><a href="../retail/call-center-functionality">ศูนย์บริการ</p>
+<p><a href="../retail/define-maintain-retail-channels">การตั้งค่าและการจัดการช่องทาง</p>
+<p><a href="../retail/retail-peripherals-overview">MPOS และ Cloud POS</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">นักพัฒนาและการจัดการการขายปลีก</p>
+
+</td>
 </tr>
+
 </tbody>
 </table>
-
-
 

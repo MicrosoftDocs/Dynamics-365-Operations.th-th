@@ -1,3 +1,2 @@
 > [!IMPORTANT]
-> ยินดีต้อนรับสู่เอกสารประกอบ Microsoft Dynamics 365 for Operations ใน docs.microsoft.com เรากำลังจะย้ายเนื้อหาของเราจาก Wiki วิธีใช้ของ Dynamics 365 for Operations มาที่นี่ 
-
+> หัวข้อนี้จะใช้กับ Dynamics 365 for Talent (เวอร์ชันก่อนวางจำหน่าย), Dynamics 365 for Finance and Operations, Enterprise edition และ Dynamics 365 for Operations 
