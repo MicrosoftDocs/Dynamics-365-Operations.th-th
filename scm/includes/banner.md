@@ -1,3 +1,3 @@
 > [!IMPORTANT]
-> ยินดีต้อนรับสู่เอกสารประกอบ Microsoft Dynamics 365 for Operations ใน docs.microsoft.com เรากำลังจะย้ายเนื้อหาของเราจาก Wiki วิธีใช้ของ Dynamics 365 for Operations มาที่นี่ 
+> ยินดีต้อนรับสู่เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations ใน docs.microsoft.com เรากำลังจะย้ายเนื้อหาของเราจาก Wiki วิธีใช้ของ Finance and Operations มาที่นี่ 
 
