@@ -3,23 +3,38 @@
 ## [เริ่มต้นใช้งาน](/dynamics365/unified-operations/fin-and-ops/get-started/onboarding-home?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [ลงทะเบียนเพื่อสมัครใช้งาน](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/retail/toc.json)
-### [วิธีการรับ Dynamics AX 2012 เวอร์ชัน On-premises](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
+### [วิธีการรับรุ่น Finance and Operations สำหรับใช้ในองค์กร](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+### [ข้อมูลสำหรับลูกค้าที่ซื้อ Finance and Operations ผ่านทางผู้ให้บริการระบบคลาวด์](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [ปรับใช้สภาพแวดล้อมสาธิต](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [คุณสมบัติ AX 2012 ยังไม่มีการนำมาใช้](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 8 (มิถุนายน 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 7 (พฤษภาคม 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 6 (เมษายน 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 5 (มีนาคม 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 4 (กุมภาพันธ์ 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [รุ่นการดำเนินงาน 1611 (พฤศจิกายน 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 3 (พฤศจิกายน 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 2 (สิงหาคม 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### [Dynamics AX รุ่น 7.0.1 (พฤษภาคม 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตแพลตฟอร์ม 1 (พฤษภาคม 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Dynamics AX 7.0 (กุมภาพันธ์ 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+### [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
+### [คุณสมบัติ AX 2012 ยังไม่มีการนำมาใช้](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/retail/toc.json)
+### [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/retail/toc.json)
+### [นโยบายเกี่ยวกับรอบการใช้งาน](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### สำรวจอินเทอร์เฟซผู้ใช้
+#### [FAQ เกี่ยวกับ UI ของไคลเอนต์](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การดำเนินการค้นหา](/dynamics365/unified-operations/fin-and-ops/get-started/action-search?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม](/dynamics365/unified-operations/fin-and-ops/get-started/advanced-filtering-query-options?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [FAQ เกี่ยวกับไคลเอนต์ Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](/dynamics365/unified-operations/fin-and-ops/get-started/configure-filter-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [แสดงหน้าแบบเคียงข้างกันโดยใช้ไอคอนเปิดในหน้าต่างใหม่](/dynamics365/unified-operations/fin-and-ops/get-started/display-pages-side-by-side?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การค้นหานำทาง](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ตั้งค่าประสบการณ์ผู้ใช้](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [แป้นพิมพ์ลัด](/dynamics365/unified-operations/fin-and-ops/get-started/shortcut-keys?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [จัดการวิธีแสดงหน้า](/dynamics365/unified-operations/fin-and-ops/get-started/window-management?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การค้นหานำทาง](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตั้งค่าประสบการณ์ผู้ใช้](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ใช้การค้นหาเพื่อค้นหาข้อมูล](/dynamics365/unified-operations/fin-and-ops//get-started/use-lookups-to-find-information?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เข้าใจเกี่ยวกับ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### รับความช่วยเหลือและการสนับสนุน
@@ -28,8 +43,12 @@
 #### [ดูและส่งออกคำอธิบายฟิลด์](/dynamics365/unified-operations/fin-and-ops/get-started/view-export-field-descriptions?toc=/dynamics365/unified-operations/retail/toc.json)
 #### คู่มืองานและตัวบันทึกงาน
 ##### [ตัวบันทึกงาน](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [สร้างเอกสารหรือการฝึกอบรม](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [เนื้อหาวิธีใช้เฉพาะประเทศ/ภูมิภาค](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [สร้างเอกสารหรือการฝึกอบรม](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [คู่มืองานเดือนพฤศจิกายน 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [คู่มืองานเดือนสิงหาคม 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [คู่มืองานเดือนพฤษภาคม 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [คู่มืองานเดือนกุมภาพันธ์ 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [คุณลักษณะการทำงานเฉพาะและบังคับ](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [อภิธานศัพท์](/dynamics365/unified-operations/fin-and-ops/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## การปฏิบัติตาม
@@ -38,52 +57,52 @@
 
 ## การจัดการต้นทุน
 ### ชุดเนื้อหา Power BI
-#### [ชุดเนื้อหาการจัดการต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [ชุดเนื้อหาการจัดการต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 ### ต้นทุนที่กำหนดไว้ล่วงหน้า
-#### [แผ่นงานการคิดต้นทุน](/dynamics365/unified-operations/supply-chain/costing-sheets?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [เวอร์ชันการคิดต้นทุน](/dynamics365/unified-operations/supply-chain/costing-versions?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การจำลองการเปลี่ยนแปลงของต้นทุนโดยการใช้เวอร์ชันการคำนวณต้นทุนสำหรับต้นทุนที่วางแผนไว้](/dynamics365/unified-operations/supply-chain/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [แผ่นงานการคิดต้นทุน](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [เวอร์ชันการคิดต้นทุน](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การจำลองการเปลี่ยนแปลงของต้นทุนโดยการใช้เวอร์ชันการคำนวณต้นทุนสำหรับต้นทุนที่วางแผนไว้](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/retail/toc.json)
 ### การคิดต้นทุนสินค้าคงคลัง
-#### [การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ](/dynamics365/unified-operations/supply-chain/inventory/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ออบเจ็กต์ต้นทุน](/dynamics365/unified-operations/supply-chain/inventory/cost-object?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [รายการของต้นทุน](/dynamics365/unified-operations/supply-chain/inventory/cost-entries?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [กลุ่มต้นทุน](/dynamics365/unified-operations/supply-chain/inventory/cost-groups?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/inventory/fifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [รวมมูลค่าจริง](/dynamics365/unified-operations/supply-chain/inventory/include-physical-value?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [มูลค่าออบเจ็กต์สินค้าคงคลัง](/dynamics365/unified-operations/supply-chain/inventory/physical-quantity?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การปิดบัญชีสินค้าคงคลัง](/dynamics365/unified-operations/supply-chain/inventory/inventory-close?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/inventory/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/inventory/lifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ค่าเฉลี่ยเคลื่อนที่](/dynamics365/unified-operations/supply-chain/inventory/moving-average?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การอัพเดตทางกายภาพและทางการเงิน](/dynamics365/unified-operations/supply-chain/inventory/physical-financial-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ราคาต้นทุนถัวเฉลี่ย](/dynamics365/unified-operations/supply-chain/inventory/running-average-cost-price?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง](/dynamics365/unified-operations/supply-chain/inventory/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [วันที่ถัวเฉลี่ยถ่วงน้ำหนัก](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-date?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ออบเจ็กต์ต้นทุน](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [รายการของต้นทุน](/dynamics365/unified-operations/supply-chain/cost-management/cost-entries?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [กลุ่มต้นทุน](/dynamics365/unified-operations/supply-chain/cost-management/cost-groups?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/cost-management/fifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [รวมมูลค่าจริง](/dynamics365/unified-operations/supply-chain/cost-management/include-physical-value?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [มูลค่าออบเจ็กต์สินค้าคงคลัง](/dynamics365/unified-operations/supply-chain/cost-management/physical-quantity?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การปิดบัญชีสินค้าคงคลัง](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/cost-management/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/cost-management/lifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ค่าเฉลี่ยเคลื่อนที่](/dynamics365/unified-operations/supply-chain/cost-management/moving-average?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การอัพเดตทางกายภาพและทางการเงิน](/dynamics365/unified-operations/supply-chain/cost-management/physical-financial-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ราคาต้นทุนถัวเฉลี่ย](/dynamics365/unified-operations/supply-chain/cost-management/running-average-cost-price?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง](/dynamics365/unified-operations/supply-chain/cost-management/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [วันที่ถัวเฉลี่ยถ่วงน้ำหนัก](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-date?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
 ### การคิดต้นทุนการผลิต
-#### [การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต](/dynamics365/unified-operations/supply-chain/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การคิดต้นทุนแบบย้อนกลับ](/dynamics365/unified-operations/supply-chain/backflush-costing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การคำนวณ BOM](/dynamics365/unified-operations/supply-chain/bom-calculations?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [กลุ่มการคำนวณ BOM](/dynamics365/unified-operations/supply-chain/bom-calculation-groups?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [แหล่งทั่วไปของผลต่างการผลิต](/dynamics365/unified-operations/supply-chain/common-sources-of-production-variances?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ประเภทต้นทุนที่ใช้ในกระบวนการผลิต](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [แสดงค่าธรรมเนียมสำหรับสินค้าที่ผลิต](/dynamics365/unified-operations/supply-chain/charges-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การวิเคราะห์ต้นทุนใบสั่งผลิต](/dynamics365/unified-operations/supply-chain/production-order-cost-analysis?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การประเมินต้นทุนใบสั่งผลิต](/dynamics365/unified-operations/supply-chain/production-order-cost-estimation?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การลงรายการบัญชีการผลิต](/dynamics365/unified-operations/supply-chain/production-posting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ติดตั้งผลิตภัณฑ์ที่สามารถผลิตหรือจัดหาได้](/dynamics365/unified-operations/supply-chain/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [วิธีการปันส่วนต้นทุนรวม](/dynamics365/unified-operations/supply-chain/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต](/dynamics365/unified-operations/supply-chain/cost-management/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การคิดต้นทุนแบบย้อนกลับ](/dynamics365/unified-operations/supply-chain/cost-management/backflush-costing?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การคำนวณ BOM](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculations?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [กลุ่มการคำนวณ BOM](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculation-groups?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [แหล่งทั่วไปของผลต่างการผลิต](/dynamics365/unified-operations/supply-chain/cost-management/common-sources-of-production-variances?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ประเภทต้นทุนที่ใช้ในกระบวนการผลิต](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [แสดงค่าธรรมเนียมสำหรับสินค้าที่ผลิต](/dynamics365/unified-operations/supply-chain/cost-management/charges-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การวิเคราะห์ต้นทุนใบสั่งผลิต](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-analysis?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การประเมินต้นทุนใบสั่งผลิต](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-estimation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การลงรายการบัญชีการผลิต](/dynamics365/unified-operations/supply-chain/cost-management/production-posting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ติดตั้งผลิตภัณฑ์ที่สามารถผลิตหรือจัดหาได้](/dynamics365/unified-operations/supply-chain/cost-management/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [วิธีการปันส่วนต้นทุนรวม](/dynamics365/unified-operations/supply-chain/cost-management/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/retail/toc.json)
 ### ต้นทุนมาตรฐาน
-#### [การคำนวณ BOM ด้วยต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [จัดการการอัพเดตต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/manage-standard-cost-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ภาพรวมของการแปลงต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมในการผลิต](/dynamics365/unified-operations/supply-chain/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่](/dynamics365/unified-operations/supply-chain/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่ใช่การผลิต](/dynamics365/unified-operations/supply-chain/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การคำนวณ BOM ด้วยต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/cost-management/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [จัดการการอัพเดตต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/cost-management/manage-standard-cost-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/cost-management/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ภาพรวมของการแปลงต้นทุนมาตรฐาน](/dynamics365/unified-operations/supply-chain/cost-management/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมในการผลิต](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่ใช่การผลิต](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
 
-## [การจัดการทางการเงิน](/dynamics365/unified-operations/financials/TOC)
+## การจัดการทางการเงิน
 
 ### [บัญชีแยกประเภททั่วไป](/dynamics365/unified-operations/financials/general-ledger/general-ledger?toc=/dynamics365/unified-operations/retail/toc.json)
 #### บัญชี
@@ -124,6 +143,10 @@
 ##### [การชำระภาษีขายและกฎการปัดเศษ](/dynamics365/unified-operations/financials/general-ledger/round-sales-tax-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น](/dynamics365/unified-operations/financials/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย](/dynamics365/unified-operations/financials/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/unified-operations/retail/toc.json)
+#### การจัดการค่าใช้จ่าย
+##### [การจัดการวางแผนค่าใช้จ่าย](/dynamics365/unified-operations/financials/expense-management/plan-expense-management?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [พารามิเตอร์การจัดการค่าใช้จ่าย](/dynamics365/unified-operations/financials/expense-management/Expense-Management-Parameters?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [บัญชีเจ้าหนี้](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -140,14 +163,14 @@
 #### [การประเมินค่าตามสกุลเงินต่างประเทศใหม่สำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้](/dynamics365/unified-operations/financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/vendor-invoice-automation?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### [ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoice-automation?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### การชำระเงินและการตัดจ่าย
 ##### [การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้](/dynamics365/unified-operations/financials/accounts-payable/centralized-payments-accounts-payable?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตั้งค่าคอนฟิกการชำระเงิน](/dynamics365/unified-operations/financials/cash-bank-management/configure-settlement?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน](/dynamics365/unified-operations/financials/accounts-payable/create-vendor-payments-payment-proposal?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/reverse-vendor-payment?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า](/dynamics365/unified-operations/financials/accounts-payable/prepayments-invoices-vs-prepayments?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลด](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -166,6 +189,7 @@
 #### [การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ](/dynamics365/unified-operations/financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [โพรไฟล์การลงรายการบัญชีลูกค้า](/dynamics365/unified-operations/financials/accounts-receivable/customer-posting-profiles?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-mandate?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การตั้งค่าบัตรเครดิต ตรวจสอบ และรวบรวมข้อมูล](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [แก้ไขใบแจ้งหนี้ข้อความอิสระ](/dynamics365/unified-operations/financials/accounts-receivable/correct-free-text-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย](/dynamics365/unified-operations/financials/accounts-receivable/set-up-interest-rates-interest-code?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -177,7 +201,7 @@
 #### การชำระเงินและการตัดจ่าย
 ##### [ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ](/dynamics365/unified-operations/financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้](/dynamics365/unified-operations/financials/accounts-receivable/centralized-payments-accounts-receivable?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ชำระเงินบางส่วนของลูกค้าหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json) 
+##### [ชำระเงินบางส่วนของลูกค้าหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount?toc=/dynamics365/unified-operations/retail/toc.json) 
 ##### [การชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -186,8 +210,9 @@
 
 ### [การจัดการเงินสดและธนาคาร](/dynamics365/unified-operations/financials/cash-bank-management/cash-bank-management?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การคาดการณ์กระแสเงินสด](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [พื้นที่ทำงานการจัดการธนาคาร](/dynamics365/unified-operations/financials/cash-bank-management/bank-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ส่วนลดเงินสด](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [พื้นที่ทำงานการจัดการธนาคาร](/dynamics365/unified-operations/financials/cash-bank-management/Bank-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ส่วนลดเงินสด](/dynamics365/unified-operations/financials/cash-bank-management/cash-discounts?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ส่วนลดเงินสดสำหรับการชำระมากเกิน](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมของการชำระเงิน](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมของการชำระเงินสำหรับการชำระเงินแบบรวมเข้าสู่ศูนย์กลาง](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เลตเตอร์ออฟเครดิต](/dynamics365/unified-operations/financials/cash-bank-management/letters-of-credit?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -210,7 +235,7 @@
 ##### [อัพเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร](/dynamics365/unified-operations/financials/cash-bank-management/upgrade-bank-journal-composite-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [สินทรัพย์ถาวร](/dynamics365/unified-operations/financials/fixed-assets/fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [พื้นที่ทำงานสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [พื้นที่ทำงานสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมการอัพเกรดของสมุดบัญชีค่าเสื่อมราคา](/dynamics365/unified-operations/financials/fixed-assets/depreciation-book-upgrade-considerations?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สมุดบัญชีที่ได้รับ](/dynamics365/unified-operations/financials/fixed-assets/derived-books?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การรวมรูปแบบมูลค่าสินทรัพย์ถาวรและสมุดบัญชีค่าเสื่อมราคา](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-value-model-depreciation-book-merge?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -256,15 +281,15 @@
 #### [การรวมแผนงบประมาณกับโมดูลอื่นๆ](/dynamics365/unified-operations/financials/budgeting/budget-planning-integration-other-modules?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [การรายงาน](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รายงานทางการเงินของงบดุล](/dynamics365/unified-operations/financials/general-ledger/balance-sheet-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [สร้างรายงานทางการเงิน](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [สร้างรายงานทางการเงิน](/dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
 #### [รายงานงทางการเงินใบแจ้งยอดรายได้](/dynamics365/unified-operations/financials/general-ledger/income-statement-financial-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รายงานทางการเงินของงบทดลอง](/dynamics365/unified-operations/financials/general-ledger/trial-balance-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ดูรายงานทางการเงิน](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [โปรแกรมออกแบบรายงาน](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [โปรแกรมออกแบบรายงาน](/dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [การบัญชีต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เงื่อนไข](/dynamics365/unified-operations/financials/cost-accounting/terms-cost-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ห้องปฏิบัติการในเชิงปฏิบัติ (/dynamics365/unified-operations/financials/White paper)](/dynamics365/unified-operations/financials/https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
+#### [ห้องปฏิบัติการในเชิงปฏิบัติ (เอกสาร)](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
 #### [มิติองค์ประกอบต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-elements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [มิติออบเจ็กต์ต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-objects?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ](/dynamics365/unified-operations/financials/cost-accounting/map-cost-elements-dimension-members?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -276,8 +301,8 @@
 #### [สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/access-rights-cost-object-controller?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [พื้นที่ทำงานการควบคุมต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-control-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [เนื้อหาการบัญชีต้นทุนใน Power BI](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
-#### [ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI เกี่ยวกับการบัญชีต้นทุน](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [เนื้อหาการบัญชีต้นทุนใน Power BI](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI เกี่ยวกับการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [ภาครัฐ](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [แผนสำหรับฟังก์ชันการทำงานของภาครัฐ](/dynamics365/unified-operations/financials/public-sector/plan-public-sector-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -316,7 +341,7 @@
 ### [แก้ไขเซลล์ข้อกำหนดของแถว](/dynamics365/unified-operations/dev-itpro/analytics/modify-row-definition-cells-financial-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [รีเซ็ต Data Mart การรายงานทางการเงินหลังจากการคืนค่าฐานข้อมูล](/dynamics365/unified-operations/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore?toc=/dynamics365/unified-operations/retail/toc.json)
 
-### [ภาพรวมการแปลเป็นภาษาท้องถิ่น](/dynamics365/unified-operations/financials/localizations//dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/localizations/toc.json)
+## [คุณลักษณะการทำงานเฉพาะและบังคับ](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
 ### เอเชียแปซิฟิก
 #### ออสเตรเลีย
 ##### [รูปแบบไฟล์ธนาคาร](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -327,27 +352,27 @@
 ##### [การเปรียบเทียบสูตรการผลิต](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ใบสำคัญภาษาจีน](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตั้งค่าคอนฟิกการรวมภาษี](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [แบบจำลองต้นทุนเฉลี่ยรายเดือน](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตั้งค่าเครดิตเดบิตค่าลบ ](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ญี่ปุ่น
+##### [กฎการปันส่วน](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ค่าธรรมเนียมการชำระเงินของธนาคารชำระโดยผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ใบแจ้งหนี้ที่รวมบัญชี](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
-##### สินทรัพย์ถาวร
-###### [กฎการปันส่วน](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [FAQ ค่าเสื่อมราคา](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [วิธีแบ่งค่าเสื่อมราคาเท่า ๆ กัน](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [การบัญชีที่มีความบกพร่อง](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [การบัญชีที่มีความบกพร่องบน CGU](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตั้งค่า ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตั้งค่ารายการที่มีการลด](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [FAQ ค่าเสื่อมราคา](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [วิธีแบ่งค่าเสื่อมราคาเท่า ๆ กัน](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [การบัญชีที่มีความบกพร่อง](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [การบัญชีที่มีความบกพร่องบน CGU](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [นำเข้ารหัสไปรษณีย์](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes?toc=/dynamics365/unified-operations/retail/toc.json) 
 ##### [ชำระให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การคำนวณภาษีหัก ณ ที่จ่ายแบบก้าวหน้า](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตั้งค่า ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตั้งค่ารายการที่มีการลด](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 #### มาเลเซีย
-##### [ภาษีสินค้าและบริการ ](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ภาษีสินค้าและบริการ](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/retail/toc.json)
 #### สิงคโปร์
 ##### [สร้างรายงาน GST-05](/dynamics365/unified-operations/financials/localizations/apac-sgp-generate-gst-05-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ไทย
@@ -357,13 +382,20 @@
 
 ### ยุโรป
 #### [ผู้ถือครองเงินทดรองจ่าย](/dynamics365/unified-operations/financials/localizations/emea-advance-holders?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การออกใบแจ้งหนี้ขั้นสูง](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การกระทบยอดบัญชีธนาคาร](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การออกใบแจ้งหนี้ที่มีการแก้ไข](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [สร้างและลงรายการบัญชีสมุดรายวันประจำงวด](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [แก้ไขหมายเลขใบแจ้งหนี้ในใบสั่งขาย](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ใบรับรองของรายการสำหรับ EU](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การรายงานรายการขายใน EU](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การปรับปรุงอัตราแลกเปลี่ยน](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [นำเข้าไฟล์ ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [อินทราสแทต](/dynamics365/unified-operations/financials/localizations/emea-intrastat?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [รายงานสมุดรายวันสินค้าคงคลัง](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การกำหนดหมายเลขใบแจ้งหนี้และบันทึกการจัดส่งสำหรับลัตเวียและลิทัวเนีย](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [มาตรฐาน OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -372,14 +404,22 @@
 #### [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รหัสไปรษณีย์](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รหัสการลงทะเบียน](/dynamics365/unified-operations/financials/localizations/emea-registration-ids?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ค่าธรรมเนียมการส่งกลับ](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมของการโอนย้ายเครดิต SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การตั้งค่าค่าตอบแทนลูกค้าและผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การกลับรายการบัญชี](/dynamics365/unified-operations/financials/localizations/emea-storno?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [คำสั่งภาษี](/dynamics365/unified-operations/financials/localizations/emea-tax-directives?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [อัตราแลกเปลี่ยน VAT](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ธุรกรรมการลงทะเบียน VAT สำหรับยุโรปตะวันออก](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การรายงาน VAT](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ดูธุรกรรมในการจ่ายเงิน](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ออสเตรีย
 ##### [ค่าเสื่อมราคาครึ่งปี](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ค่าธรรมเนียมบรรจุภัณฑ์](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ภาษีซื้อ](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [คำสั่ง VAT](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details?toc=/dynamics365/unified-operations/retail/toc.json)
 #### เบลเยียม
 ##### [ใบแจ้งยอดจากธนาคาร CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -388,7 +428,7 @@
 ##### [รายงานการกระทบยอด](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### สาธารณรัฐเช็ก
-##### [ส่วนลดเงินสดในหมายเลขใบลดหนี้](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ใบลดหนี้ในส่วนลดเงินสด](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การปัดเศษค่าเสื่อมราคา](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การระงับค่าเสื่อมราคา](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ค่าเสื่อมราคาของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -402,6 +442,7 @@
 ###### [การบัญชีภาครัฐ](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [ข้อผูกมัด](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Mandats de paiement](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การจัดซื้อและการจัดหา](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ใบสำคัญใบแจ้งหนี้ตามลำดับเวลา](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -427,7 +468,7 @@
 ##### [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [สมุดบัญชีภาษีขาย](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ภาษีหัก ณ ที่จ่าย](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ภาษีหัก ณ ที่จ่าย](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ลัตเวีย
 ##### [การบัญชีสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -438,6 +479,7 @@
 ##### [รายละเอียดใบแจ้งยอด VAT](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=/dynamics365/unified-operations/retail/toc.json)
 #### นอร์เวย์
 ##### [รูปแบบนำเข้า Nets](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [คำสั่ง VAT](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### โปแลนด์
 ##### [คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [หมายเหตุการแก้ไข](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -474,6 +516,7 @@
 ###### [นำเข้าเอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [ส่งออกและนำเข้าธุรกรรมของนิติบุคคลจากการรวมบัญชีแยกประเภททั่วไป](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [นำเข้าและตรวจสอบเอกสาร NF-e XML และไฟล์ DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การตั้งค่าไฟล์ NF-e และ DANFE](/dynamics365/unified-operations/financials/localizations/Set-up-import-nf-e-documents?toc=/dynamics365/unified-operations/retail/toc.json) 
 ###### [ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [เอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [ตัวยึดข้อความของเอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -481,7 +524,7 @@
 ###### [เอกสารทางการเงินที่อ้างอิง](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [เอกสารทางการเงินเพิ่มเติมการขาย](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [เอกสารทางการเงินแบบอิเล็กทรอนิกส์บริการ](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [กระบวนการ NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [พารามิเตอร์สำหรับนิติบุคคล](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ซื้อสินทรัพย์ถาวร CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -495,11 +538,13 @@
 ##### [ใบแจ้งหนี้อิเล็กทรอนิกส์ ](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ใบแจ้งยอดบัญชีแยกประเภทอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [รายงานการรายงานภาษี ISR](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes?toc=/dynamics365/unified-operations/retail/toc.json)
-
+### ตะวันออกกลาง
+#### [การรายงาน Zakat สำหรับซาอุดีอาระเบีย](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 ### อเมริกาเหนือ
 #### [การรายงาน 1099 สิ้นปีสำหรับสหรัฐอเมริกา](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
-## ทรัพยากรบุคคล
+#### [แบบฟอร์ม 1099 สำหรับภาครัฐ](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 
+## ทรัพยากรบุคคล
 ### การสรรหา
 #### [จัดการกระบวนการสรรหาบุคลากร](/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [โครงการจ้างงานโดยรวม](/dynamics365/unified-operations/fin-and-ops/hr/mass-hire-projects?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -538,7 +583,8 @@
 ### [เข้าใช้เนื้อหา Power BI](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [นำเนื้อหา Power BI ออกใช้แล้ว](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ผลประโยชน์](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ที่เกิดขึ้นจริงเทียบกับงบประมาณ](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [สวัสดิการ](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ภาพรวมของเงินสด](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 #### [ภาพรวมของ CFO](/dynamics365/unified-operations/dev-itpro/analytics/CFO-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ค่าตอบแทน](/dynamics365/unified-operations/dev-itpro/analytics/compensation-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -550,7 +596,7 @@
 #### [ความสามารถของพนักงานและการพัฒนา](/dynamics365/unified-operations/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การพัฒนาพนักงาน](/dynamics365/unified-operations/dev-itpro/analytics/employee-development-PBI?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [ประสิทธิภาพทางการเงิน](/dynamics365/unified-operations/dev-itpro/analytics/financial-performance-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การจัดการสินทรัพย์ถาวร](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
+#### [การจัดการสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การเรียนรู้](/dynamics365/unified-operations/dev-itpro/analytics/learning-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การฝึกอบรมขององค์กร](/dynamics365/unified-operations/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ผู้จัดการแนวทางปฏิบัติ](/dynamics365/unified-operations/dev-itpro/analytics/practice-manager-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -559,14 +605,15 @@
 #### [การสรรหา](/dynamics365/unified-operations/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ประสิทธิภาพของช่องทางการขายปลีก ](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ประสิทธิภาพการขายและความสามารถในการทำกำไร](/dynamics365/unified-operations/dev-itpro/analytics/sales-profitability-performance-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การชำระเงินให้แก่ผู้จัดจำหน่าย](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
+#### [การชำระเงินให้แก่ผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ประสิทธิภาพคลังสินค้า](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เมตริกบุคลากร](/dynamics365/unified-operations/dev-itpro/analytics/workforce-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### การรายงานและการพิมพ์เอกสาร
 #### [ภาพรวมของบริการรายงานเอกสาร](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การพิมพ์](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [กำลังพิมพ์](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [เปิดใช้งานอุปกรณ์เครื่องพิมพ์บนเครือข่าย](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows](/dynamics365/unified-operations/dev-itpro/analytics/run-document-routing-agent-as-windows-service?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ช่วยป้องกันไม่ให้รายงานที่รันเป็นเวลานานหมดเวลา](/dynamics365/unified-operations/dev-itpro/analytics/prevent-long-running-reports-timing-out?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รายการของรายงานบริการการรายงาน SQL Server](/dynamics365/unified-operations/dev-itpro/analytics/SSRS-report?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -591,8 +638,9 @@
 #### [สร้างเอกสารทางอิเล็กทรอนิกส์และอัพเดตข้อมูลใบสมัครโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](/dynamics365/unified-operations/dev-itpro/analytics/generate-electronic-documents-update-application-data?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### เครื่องมือในการวิเคราะห์และการแสดงภาพ
-#### [การวิเคราะห์ การวัดแบบรวม และการสร้างโมเดล KPI](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การสร้างโมเดลและข้อมูลรวม](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การวิเคราะห์ การวัดแบบรวม และแบบจำลอง KPI](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [แบบจำลองและข้อมูลรวม](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [เพิ่มมิติทางการเงินไปยังการวัดแบบรวม](/dynamics365/unified-operations/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เพิ่มบริบท BI ไปยังแบบฟอร์ม](/dynamics365/unified-operations/dev-itpro/analytics/add-contextual-bi-forms?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รวมรายงานการวัด](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-measurements-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รวมรายงานเอนทิตี้ข้อมูล](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -600,10 +648,13 @@
 #### [การรวม Power BI](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การรวม Power BI ที่ฝัง](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Power BI ที่ฝังไปยังพื้นที่ทำงาน](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI ที่ฝัง](/dynamics365/unified-operations/dev-itpro/analytics/secure-analytical-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI ที่ฝัง](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เพิ่ม Power BI ไปยังพื้นที่ทำงาน](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตรึงรายงาน Power BI ไปยังพื้นที่ทำงาน](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การรวม Power BI ด้วยที่จัดเก็บเอนทิตี้](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สร้างและแจกจ่ายรายงาน Power BI ด้วยที่จัดเก็บเอนทิตี้](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ส่งออกเอนทิตี้ไปยัง Azure SQL Database](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 ## การบริหารสินค้าคงคลัง
@@ -657,6 +708,7 @@
 ##### [การจัดกลุ่มระบบในรายการงานที่เปิด](/dynamics365/unified-operations/supply-chain/warehousing/system-group-on-open-work-list?toc=/dynamics365/unified-operations/retail/toc.json)
 #### การเบิกสินค้าและการบรรจุสินค้า
 ##### [เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่](/dynamics365/unified-operations/supply-chain/warehousing/pick-oldest-batch?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่](/dynamics365/unified-operations/supply-chain/warehousing/display-older-batches-within-warehouses?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การยืนยันการเบิกสินค้าเป็นรายชิ้น](/dynamics365/unified-operations/supply-chain/warehousing/piece-picking-confirmation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [วัสดุและค่าธรรมเนียมบรรจุภัณฑ์](/dynamics365/unified-operations/supply-chain/warehousing/pack-materials-packing-material-fees?toc=/dynamics365/unified-operations/retail/toc.json)
 #### การนับสินค้าคงคลัง
@@ -677,6 +729,8 @@
 ##### [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](/dynamics365/unified-operations/supply-chain/warehousing/configure-mobile-devices-warehouse?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [พอร์ทัลบนอุปกรณ์เคลื่อนที่ของคลังสินค้า (WMDP)](/dynamics365/unified-operations/supply-chain/warehousing/warehouse-mobile-devices-portal?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การตั้งค่าการแสดงผลสำหรับอุปกรณ์เคลื่อนที่ของคลังสินค้า](/dynamics365/unified-operations/supply-chain/warehousing/change-warehouse-mobile-device-displays?toc=/dynamics365/unified-operations/retail/toc.json)
+#### การอัพเกรดและการย้าย
+##### [ย้ายจาก AX 2012 ไปยัง Finance and Operations](/dynamics365/unified-operations/supply-chain/warehousing/upgrade-migration-warehouse-management-processes?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 ## การวางแผนหลัก
@@ -719,12 +773,13 @@
 ##### [ภาพรวมใบสั่งซื้อ](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [สร้างใบสั่งซื้อ](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-creation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [อนุมัติและยืนยันใบสั่งซื้อ](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-approval-confirmation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ราคาและส่วนลด
 ##### [ข้อตกลงการซื้อ](/dynamics365/unified-operations/supply-chain/procurement/purchase-agreements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ใบรับสินค้าและการออกใบแจ้งหนี้
 ##### [ใบรับสินค้า - ใบสั่งซื้อ](/dynamics365/unified-operations/supply-chain/procurement/product-receipt-against-purchase-orders?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/retail/toc.json)
 #### การจัดการและการทำงานร่วมกันกับผู้จัดจำหน่าย
 ##### [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-users?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -762,6 +817,7 @@
 ### [ภาพรวมของลายเซ็นอิเล็กทรอนิกส์](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [ภาพรวมการจัดการกรณี](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตั้งค่าคอนฟิกความปลอดภัยของกรณี กระบวนการ และประเภท](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/retail/toc.json)
+### [ตั้งค่าคอนฟิกการจัดการเอกสาร](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [สร้างเท็มเพลตเรกคอร์ด](/dynamics365/unified-operations/fin-and-ops/organization-administration/record-templates?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [ตั้งค่าคอนฟิกและส่งอีเมล](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-email?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [ข้อมูลวันที่/เวลาและโซนเวลา](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -822,6 +878,9 @@
 #### จัดการวัตถุดิบ
 ##### [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ](/dynamics365/unified-operations/supply-chain/production-control/cross-docking-opportunities?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ลงทะเบียนปริมาณการใช้วัสดุโดยใช้อุปกรณ์เคลื่อนที่](/dynamics365/unified-operations/supply-chain/production-control/register-material-consumption-hand-held-device?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [การควบคุมการใช้วัตถุดิบโดยการใช้หลักการตัดจ่าย](/dynamics365/unified-operations/supply-chain/production-control/flushing-principles?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### จัดการสินค้าสำเร็จรูป
+##### [กำหนดที่ตั้งเอาท์พุทการผลิตสำหรับสินค้าสำเร็จรูป](/dynamics365/unified-operations/supply-chain/production-control/production-output-location?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Lean Manufacturing 
 #### [ภาพรวม Lean manufacturing](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การรับเหมารายย่อยตามกิจกรรม](/dynamics365/unified-operations/supply-chain/production-control/activity-based-subcontracting?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -912,35 +971,17 @@
 
 ## [การพัฒนาและการดูแลระบบโดยใช้แพลตฟอร์ม Unified Operations](/dynamics365/unified-operations/dev-itpro/index)
 
-### [ภาพรวมของการพัฒนาและการจัดการ](/dynamics365/unified-operations/dev-itpro/get-started/getting-started-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ความต้องการของระบบ](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ภาพรวมของข้อมูลการสาธิต](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/retail/toc.json)
-#### ระบบวิธีใช้
-##### [ภาพรวมระบบวิธีใช้](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [เชื่อมต่อระบบวิธีใช้](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์มการดำเนินงาน 7 (พฤษภาคม 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์มการดำเนินงาน 6 (เมษายน 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์มการดำเนินงาน 5 (มีนาคม 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์มการดำเนินงาน 4 (กุมภาพันธ์ 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [เวอร์ชันการดำเนินงาน 1611 (พฤศจิกายน 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์มการดำเนินงาน 3 (พฤศจิกายน 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์ม Dynamics AX 2 (สิงหาคม 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/retail/toc.json) 
-##### [แอพลิเคชัน Dynamics AX เวอร์ชัน 7.0.1 (พฤษภาคม 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [การอัพเดตแพลตฟอร์ม Dynamics AX 1 (พฤษภาคม 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX 7.0 (กุมภาพันธ์ 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### คู่มืองานที่อัพเดต
-###### [คู่มืองานเดือนพฤศจิกายน 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คู่งานเดือนสิงหาคม 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คู่มืองานเดือนพฤษภาคม 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คู่มืองานเดือนกุมภาพันธ์ 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+### [ความต้องการของระบบ](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
+### [ข้อมูลสาธิต](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/retail/toc.json)
+### [การตรวจสอบความถูกต้องของข้อมูล](/dynamics365/unified-operations/dev-itpro/user-interface/data-validation-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+
 
 
 ### [พัฒนาและเลือกกำหนดโดยใช้ Visual Studio](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สแต็คแอพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์](/dynamics365/unified-operations/dev-itpro/dev-tools/application-stack-server-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รับสำเนาการประเมิน](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ลงทะเบียนเพื่อสมัครใช้งาน](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [เข้าถึงอินสแตนซ์ Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/dev-tools/dev-tools/access-instances?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [เข้าถึงอินสแตนซ์](/dynamics365/unified-operations/dev-itpro/dev-tools/access-instances?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ความต้องการของระบบการพัฒนา](/dynamics365/unified-operations/dev-itpro/dev-tools/development-system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### แอพลิเคชันตัวอย่างการจัดการยานพาหนะ
 ##### [แอพลิเคชันตัวอย่างการจัดการยานพาหนะ](/dynamics365/unified-operations/dev-itpro/dev-tools/fleet-management-sample?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -955,7 +996,6 @@
 ##### [สร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล](/dynamics365/unified-operations/dev-itpro/dev-tools/create-data-model-elements?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [สร้างผู้ใช้ใหม่ในเครื่องการพัฒนา](/dynamics365/unified-operations/dev-itpro/dev-tools/enable-development-machine?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [รายการการวิเคราะห์การกำหนดเอง](/dynamics365/unified-operations/dev-itpro/dev-tools/customization-analysis-report?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [เครื่องมือการพัฒนา](/dynamics365/unified-operations/dev-itpro/dev-tools/development-tools?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตัวออกแบบองค์ประกอบ](/dynamics365/unified-operations/dev-itpro/dev-tools/element-designers?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การใช้องค์ประกอบ](/dynamics365/unified-operations/dev-itpro/dev-tools/element-usage?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ส่งออกและนำเข้าแบบจำลอง](/dynamics365/unified-operations/dev-itpro/dev-tools/models-export-import?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -970,9 +1010,9 @@
 ##### [ดีบัก X++ กับสำเนาของฐานข้อมูลการผลิต](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-x-issue-against-copy-of-production?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ดีบักรหัส X++](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-xpp?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [คลาส EventHandlerResult ในคำขอหรือสถานการณ์การตอบกลับ](/dynamics365/unified-operations/dev-itpro/dev-tools/event-handler-result-class?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [เขียนตรรกะทางธุรกิจโดยใช้รหัสต้นทาง C#### และ X++](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [เขียนตรรกะทางธุรกิจโดยใช้รหัสต้นทาง C\# และ X++](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การสนับสนุนภาษาการสร้างโปรแกรม](/dynamics365/unified-operations/dev-itpro/dev-tools/programming-language-support?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ผู้ให้บริการ LINQ สำหรับ C#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ผู้ให้บริการ LINQ สำหรับ C\#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การเขียนแนวทางปฏิบัติ](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [คุณสมบัติของ Application Explorer](/dynamics365/unified-operations/dev-itpro/dev-ref/application-explorer-aot-properties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### การอ้างอิงภาษาของ X++
@@ -985,7 +1025,7 @@
 ###### [การเลือกและการจัดการข้อมูล X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-data-query?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [แมโคร X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-macros?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [คลาสแอททริบิวต์ X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-attribute-classes?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [การเปรียบเทียบ X++ และ C####](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การเปรียบเทียบ X++ และ C\#](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [ไวยากรณ์ของ X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-syntax?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ฟังก์ชันเวลาคอมไพล์
 ##### [ฟังก์ชันเวลาคอมไพล์ของ X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-compile-time-functions?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1039,7 +1079,7 @@
 ##### [คลาส W](/dynamics365/unified-operations/dev-itpro/dev-ref/w-classes?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [คลาส X](/dynamics365/unified-operations/dev-itpro/dev-ref/x-classes?toc=/dynamics365/unified-operations/retail/toc.json)
 #### เลือกกำหนดด้วยส่วนขยายและการโอเวอร์เลย์
-##### เพิ่มความสามารถ
+##### [เพิ่มความสามารถ](/dynamics365/unified-operations/dev-itpro/extensibility/extensibility-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [เลือกกำหนดองค์ประกอบแบบจำลองโดยใช้ส่วนขยาย](/dynamics365/unified-operations/dev-itpro/extensibility/customize-model-elements-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [เลือกกำหนดด้วยส่วนขยายและการโอเวอร์เลย์](/dynamics365/unified-operations/dev-itpro/extensibility/customization-overlayering-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ส่วนขยายของคลาส](/dynamics365/unified-operations/dev-itpro/extensibility/class-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1048,8 +1088,11 @@
 ##### การซิงโครไนส์ฐานข้อมูล
 #### ย้ายแพคเกจระหว่างสภาพแวดล้อมต่างๆ
 ##### สร้างและใช้แพคเกจที่สามารถปรับใช้ได้
-##### [การจัดส่งแบบต่อเนื่อง](/dynamics365/unified-operations/dev-itpro/continuous-delivery-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-
+#### [โฮมเพจการจัดส่งแบบต่อเนื่อง](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [FAQ การพัฒนาและการจัดส่งแบบต่อเนื่อง](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-faq?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์](/dynamics365/unified-operations/dev-itpro/dev-tools/exclude-test-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [จัดการแบบจำลองของบุคคลที่สามและแพคเกจรันไทม์โดยใช้การควบคุมต้นทาง](/dynamics365/unified-operations/dev-itpro/dev-tools/manage-runtime-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [แบบจำลองรุ่นในบิลด์แบบอัตโนมัติ](/dynamics365/unified-operations/dev-itpro/dev-tools/version-models-build?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### โฮมเพจประสิทธิภาพ
 ##### [ติดตามโดยใช้ Trace Parser](/dynamics365/unified-operations/dev-itpro/perf-test/trace-trace-tutorial?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1086,8 +1129,8 @@
 ##### [ตัวกรองข้อมูล](/dynamics365/unified-operations/dev-itpro/user-interface/filtering?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตัวควบคุมโฮสต์ PowerApps](/dynamics365/unified-operations/dev-itpro/user-interface/powerapps-host-control?toc=/dynamics365/unified-operations/retail/toc.json)
 #### การจัดการหน้าต่าง
-##### [ย้ายรหัสเมนูบริบท](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [รหัสการดับเบิลคลิกเมาส์สำหรับการย้าย](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ย้ายรหัสเมนูบริบท](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [รหัสการดับเบิลคลิกเมาส์สำหรับการย้าย](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การป้อนข้อมูลบริบทสำหรับการค้นหา](/dynamics365/unified-operations/dev-itpro/user-interface/contextual-data-entry-lookups?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตัวควบคุม HierarchyViewer](/dynamics365/unified-operations/dev-itpro/user-interface/hierarchy-viewer-control?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตัวควบคุมการค้นหา](/dynamics365/unified-operations/dev-itpro/user-interface/lookups-controls?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1128,8 +1171,8 @@
 ##### [รูปแบบของแบบฟอร์มกล่องแสดงข้อมูลย่อ](/dynamics365/unified-operations/dev-itpro/user-interface/factbox-form-patterns?toc=/dynamics365/unified-operations/retail/toc.json)
 #### รูปแบบย่อย
 ##### [รูปแบบย่อยของกลุ่มตัวกรองที่กำหนดเอง](/dynamics365/unified-operations/dev-itpro/user-interface/custom-filter-group-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [รูปแบบย่อยของตัวควบคุมการป้อนมิติ](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [รูปแบบย่อยของตัวสร้างนิพจน์มิติ](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [รูปแบบย่อยของตัวควบคุมการป้อนมิติ](/dynamics365/unified-operations/dev-itpro/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [รูปแบบย่อยของตัวสร้างนิพจน์มิติ](/dynamics365/unified-operations/dev-itpro/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [รูปแบบย่อยของฟิลด์และกลุ่มฟิลด์](/dynamics365/unified-operations/dev-itpro/user-interface/fields-field-groups-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [รูปแบบย่อยของตัวกรองและแถบเครื่องมือ](/dynamics365/unified-operations/dev-itpro/user-interface/filters-toolbar-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [รูปแบบย่อยของข้อความเติม](/dynamics365/unified-operations/dev-itpro/user-interface/fill-text-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1158,9 +1201,9 @@
 #### สร้างพื้นที่ทำงาน
 ##### [สร้างพื้นที่ทำงานในการดำเนินงาน](/dynamics365/unified-operations/dev-itpro/user-interface/build-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การแคชไทล์และรายการสำหรับพื้นที่ทำงาน](/dynamics365/unified-operations/dev-itpro/user-interface/tile-list-caching-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
-#### ตัวบันทึกงาน
-##### [ตัวบันทึกงานใน Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตัวบันทึกงาน](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การอ้างอิงด่วนของตัวบันทึกงาน](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [สร้างเอกสารหรือการฝึกอบรมโดยใช้ตัวบันทึกงาน](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### นำโซลูชันออกใช้โดยใช้ Lifecycle Services
 #### [พัฒนาและนำออกใช้](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source)
@@ -1181,7 +1224,7 @@
 ##### [ส่งการแจ้งเตือนที่เป็นระเบียบข้อบังคับ](/dynamics365/unified-operations/dev-itpro/lcs-solutions/submit-localization-alerts)
 
 
-### [เอนทิตี้ข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities?toc=/dynamics365/unified-operations/retail/toc.json)
+### [เอนทิตี้ข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities?toc=/dynamics365/unified-operations/retail/toc.json)
 #### เอนทิตี้ข้อมูลเริ่มต้น
 ##### [รายงานเอนทิตี้ข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-report?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [เอนทิตี้ข้อมูล: บัญชีเจ้าหนี้และภาษี](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-accounts-payable-taxes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1211,7 +1254,9 @@
 
 #### การย้ายเอนทิตี้
 ##### [โครงการข้อมูลการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตั้งค่าคอนฟิกเท็มเพลตข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [แพคเกจข้อมูลการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/retail/toc.json)
+
 ###### [คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทต่างๆ](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1248,7 +1293,7 @@
 ### การรวม Office
 #### [การรวม Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [บทสอนการรวม Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ใช้ Add-in ของ Excel](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ใช้ Add-in ของ Excel](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สร้างประสบการณ์เปิดใน Excel](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-edit-excel?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เพิ่มเท็มเพลตไปยังเมนูเปิดรายการใน Excel](/dynamics365/unified-operations/dev-itpro/user-interface/add-templates-open-lines-excel-menu?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เลือกกำหนดเมนูเปิดใน Microsoft Office](/dynamics365/unified-operations/dev-itpro/office-integration/customize-open-office-menu?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1278,19 +1323,30 @@
 #### [คู่มือการพัฒนาแบบ Gantt](/dynamics365/unified-operations/dev-itpro/user-interface/gantt-development-guide?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สร้างกลไกจัดการการจัดการขนส่งใหม่](/dynamics365/unified-operations/supply-chain/transportation/create-new-transportation-management-engine?toc=/dynamics365/unified-operations/retail/toc.json)
 
-### [ไลบรารีการพัฒนาการขายปลีก](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### การปรับใช้
-#### [ปรับใช้สภาพแวดล้อมการสาธิต Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](/dynamics365/unified-operations/dev-itpro/arm-onboarding?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/expressroute?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ปรับใช้สภาพแวดล้อมการสาธิต Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](/dynamics365/unified-operations/dev-itpro/deployment/arm-onboarding?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/retail/toc.json)
+
+#### [ปรับใช้ Microsoft Dynamics 365 for Finance and Operations ในองค์กร](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [ภาพรวมของ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ความต้องการของระบบ](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [บริการออนไลน์และนโยบายเกี่ยวกับวงจรการใช้งานซอฟต์แวร์ในองค์กร](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ซื้อ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](/dynamics365/unified-operations/dev-itpro/https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [สร้างโครงการสำหรับใช้งานในองค์กรใน Lifecycle Services](/dynamics365/unified-operations/dev-itpro/deployment/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร](/dynamics365/unified-operations/dev-itpro/deployment/develop-deploy-custom-models-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+
 
 #### ปรับใช้รหัสที่กำหนดเอง
-##### [สร้างแพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/create-apply-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ใช้แพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ติดตั้งแพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/install-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [สร้างแพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ใช้แพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ติดตั้งแพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
 
-#### [การดาวน์โหลด Cloud Service Provider และ Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การดาวน์โหลด Cloud Service Provider และ Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [การอัพเกรดและการย้าย](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [อัพเกรดจาก AX 2012 เป็น Dynamics 365 for Finance and Operations](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-overview-2012?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1301,7 +1357,7 @@
 ##### [อัพเกรด - งานการอัพเกรดข้อมูล AX 2012](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [อัพเกรด - การอัพเกรดข้อมูลในสภาพแวดล้อม Sandbox](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตรวจสอบความถูกต้อง - การทดสอบการโยกย้าย](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ตรวจสอบความถูกต้อง - กระบวนการตรวจสอบความถูกต้องของแอพ](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตรวจสอบความถูกต้อง - งานที่จะดำเนินการหลังการอัพเกรด](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตรวจสอบความถูกต้อง - การทดสอบการทำงาน](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตรวจสอบความถูกต้อง - เตรียมพร้อมสำหรับการเริ่มใช้งานจริง](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-go-live-prep?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1321,7 +1377,7 @@
 
 #### อัพเกรดเป็นการอัพเดตล่าสุด
 ##### [เตรียมการเพื่อย้ายเป็นการอัพเดตล่าสุด](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-update?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [เวอร์ชันและนโยบายการอัพเดต](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [นโยบายเกี่ยวกับรอบการใช้งาน](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [อัพเกรดเป็นการอัพเดตแพลตฟอร์มล่าสุด](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-platform-update?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [อัพเกรดแพลตฟอร์ม Dynamics เป็นการนำออกใช้เดือนสิงหาคม 2016](/dynamics365/unified-operations/dev-itpro/migration-upgrade/update-platform-each-release?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [อัพเกรดสภาพแวดล้อม Sandbox](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-sandbox-environment?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1341,116 +1397,118 @@
 
 
 ### การจัดการระบบ
-#### [FAQ เกี่ยวกับการอัพเดตรายเดือนของแพลตฟอร์ม](/dynamics365/unified-operations/dev-itpro/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](/dynamics365/unified-operations/dev-itpro/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การใช้ข้อมูลร่วมกันข้ามบริษัท](/dynamics365/unified-operations/dev-itpro/cross-company-data-sharing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [โหมดการบำรุงรักษา](/dynamics365/unified-operations/dev-itpro/maintenance-mode?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [FAQ เกี่ยวกับการอัพเดตรายเดือนของแพลตฟอร์ม](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](/dynamics365/unified-operations/dev-itpro/sysadmin/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/sysadmin/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การใช้ข้อมูลร่วมกันข้ามบริษัท](/dynamics365/unified-operations/dev-itpro/sysadmin/cross-company-data-sharing?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [โหมดการบำรุงรักษา](/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ความปลอดภัย
-##### [ความปลอดภัยตามบทบาท](/dynamics365/unified-operations/dev-itpro/role-based-security?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [สถาปัตยกรรมความปลอดภัย](/dynamics365/unified-operations/dev-itpro/security-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ความปลอดภัยตามบทบาท](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [สถาปัตยกรรมความปลอดภัย](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [รายงานความปลอดภัย](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### การประมวลผลชุดงาน
-##### [ภาพรวมการประมวลผลชุดงาน](/dynamics365/unified-operations/dev-itpro/batch-processing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ภาพรวมของเซิร์ฟเวอร์ชุดงาน](/dynamics365/unified-operations/dev-itpro/batch-server-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ภาพรวมการประมวลผลชุดงาน](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ภาพรวมของเซิร์ฟเวอร์ชุดงาน](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Lifecycle Services
-#### [ภาพรวมของ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [LCS สำหรับลูกค้า](/dynamics365/unified-operations/dev-itpro/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [LCS สำหรับคู่ค้า](/dynamics365/unified-operations/dev-itpro/getting-started-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [มีอะไรใหม่](/dynamics365/unified-operations/dev-itpro/whats-new-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ปัญหาที่ทราบ](/dynamics365/unified-operations/dev-itpro/known-issues?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [คู่มือผู้ใช้ Dynamics Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lcs-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ตั้งค่าคอนฟิกความปลอดภัย](/dynamics365/unified-operations/dev-itpro/configure-lcs-security?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การค้นหาปัญหา](/dynamics365/unified-operations/dev-itpro/issue-search-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ตัวจัดการการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [ตั้งค่าตัวจัดการการตั้งค่าคอนฟิก ](/dynamics365/unified-operations/dev-itpro/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ตั้งค่าคอนฟิกบริการอัพเกรดรหัส](/dynamics365/unified-operations/dev-itpro/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [สร้างระเบียบวิธี ](/dynamics365/unified-operations/dev-itpro/create-methodology?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ตัวทำแบบจำลองกระบวนการทางธุรกิจ](/dynamics365/unified-operations/dev-itpro/business-process-modeler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ไลบรารีกระบวนการทางธุรกิจในตัวทำแบบจำลองกระบวนการทางธุรกิจ](/dynamics365/unified-operations/dev-itpro/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [แผนผังของตัวทำแบบจำลองกระบวนการทางธุรกิจ](/dynamics365/unified-operations/dev-itpro/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเอง](/dynamics365/unified-operations/dev-itpro/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การตรวจสอบและการวินิจฉัย ](/dynamics365/unified-operations/dev-itpro/monitoring-diagnostics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ภาพรวมของ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [LCS สำหรับลูกค้า](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [LCS สำหรับคู่ค้า](/dynamics365/unified-operations/dev-itpro/lifecycle-services/getting-started-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [มีอะไรใหม่](/dynamics365/unified-operations/dev-itpro/lifecycle-services/whats-new-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ปัญหาที่ทราบ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/known-issues?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [คู่มือผู้ใช้ Dynamics Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตั้งค่าคอนฟิกความปลอดภัย](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-lcs-security?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การค้นหาปัญหา](/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตัวจัดการการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ตั้งค่าตัวจัดการการตั้งค่าคอนฟิก ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตั้งค่าคอนฟิกบริการอัพเกรดรหัส](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [สร้างระเบียบวิธี ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/create-methodology?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตัวทำแบบจำลองกระบวนการทางธุรกิจ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-modeler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ไลบรารีกระบวนการทางธุรกิจในตัวทำแบบจำลองกระบวนการทางธุรกิจ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [แผนผังของตัวทำแบบจำลองกระบวนการทางธุรกิจ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเอง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การตรวจสอบและการวินิจฉัย ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/monitoring-diagnostics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ไลบรารีแอสเซท](/dynamics365/unified-operations/dev-itpro/lifecycle-services/asset-library?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### คุณลักษณะของ Dynamics AX 2012 Lifecycle Services
 ##### การปรับใช้
-###### [สภาพแวดล้อมที่ใช้ Cloud](/dynamics365/unified-operations/dev-itpro/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คัดลอกการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/copy-configuration-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [วางแผนการปรับใช้ Dynamics AX 2012 R3 ใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้ Dynamics AX 2012 R3 ใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการสาธิต Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการปรับใช้ใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมที่มีความพร้อมใช้งานสูงใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการทดสอบใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [จัดการการปรับใช้ Dynamics AX 2012 R3 ของคุณใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [รวมเซิร์ฟเวอร์เว็บไซต์องค์กรในฟาร์มเซิร์ฟเวอร์เดียว](/dynamics365/unified-operations/dev-itpro/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [บันทึกจุดเข้าใช้งานในเว็บไซต์องค์กรของ Dynamics AX](/dynamics365/unified-operations/dev-itpro/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการพัฒนา/ทดสอบอีคอมเมิร์ซการขายปลีกใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการสาธิตที่จำเป็นของการขายปลีกใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการพัฒนา/ทดสอบที่จำเป็นของการขายปลีกใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ปรับใช้สภาพแวดล้อมการพัฒนา/ทดสอบ Retail Mobility ใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [แก้ไขปัญหาการปรับใช้ Dynamics AX 2012 R3 ของคุณใน Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [การอัพเดตสำหรับ Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [คู่มือผู้ใช้กรอบงานการนำเข้า/ส่งออกข้อมูล](/dynamics365/unified-operations/dev-itpro/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ติดตั้ง](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [การติดตั้งสำหรับ AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [ติดตั้งเวอร์ชัน Dynamics AX 2012 R2 CU7 สำหรับ SQL Server 2014](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ย้ายข้อมูล](/dynamics365/unified-operations/dev-itpro/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตั้งค่าคอนฟิกเวอร์ชันของ SSIS](/dynamics365/unified-operations/dev-itpro/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คัดลอกและเปรียบเทียบข้อมูลเอนทิตี้ระหว่างบริษัท](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คัดลอกข้อมูลระหว่างบริษัทต่างๆ ของ Dynamics AX](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คัดลอกข้อมูลระหว่างอินสแตนซ์ต่างๆ ของ Dynamics AX](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [สร้างเอนทิตี้เป้าหมายที่กำหนดเอง](/dynamics365/unified-operations/dev-itpro/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [เอนทิตี้กรอบงานการนำเข้า/ส่งออกข้อมูล](/dynamics365/unified-operations/dev-itpro/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [นำเข้าข้อมูลจากแหล่งข้อมูล CSV](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [นำเข้าข้อมูลจากแหล่งข้อมูล ODBC](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ไฟล์การสาธิต](/dynamics365/unified-operations/dev-itpro/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [นำเข้า-ส่งออกด่วน](/dynamics365/unified-operations/dev-itpro/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [สภาพแวดล้อมที่ใช้ Cloud](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คัดลอกการตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/lifecycle-services/copy-configuration-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [วางแผนการปรับใช้ Dynamics AX 2012 R3 ใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้ Dynamics AX 2012 R3 ใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการสาธิต Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการปรับใช้ใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมที่มีความพร้อมใช้งานสูงใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการทดสอบใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [จัดการการปรับใช้ Dynamics AX 2012 R3 ของคุณใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [รวมเซิร์ฟเวอร์เว็บไซต์องค์กรในฟาร์มเซิร์ฟเวอร์เดียว](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [บันทึกจุดเข้าใช้งานในเว็บไซต์องค์กรของ Dynamics AX](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการพัฒนา/ทดสอบอีคอมเมิร์ซการขายปลีกใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการสาธิตที่จำเป็นของการขายปลีกใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการพัฒนา/ทดสอบที่จำเป็นของการขายปลีกใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ปรับใช้สภาพแวดล้อมการพัฒนา/ทดสอบ Retail Mobility ใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [แก้ไขปัญหาการปรับใช้ Dynamics AX 2012 R3 ของคุณใน Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การอัพเดตสำหรับ Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [คู่มือผู้ใช้กรอบงานการนำเข้า/ส่งออกข้อมูล](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ติดตั้ง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [การติดตั้งสำหรับ AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [ติดตั้งเวอร์ชัน Dynamics AX 2012 R2 CU7 สำหรับ SQL Server 2014](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ย้ายข้อมูล](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ตั้งค่าคอนฟิกเวอร์ชันของ SSIS](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คัดลอกและเปรียบเทียบข้อมูลเอนทิตี้ระหว่างบริษัท](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คัดลอกข้อมูลระหว่างบริษัทต่างๆ ของ Dynamics AX](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คัดลอกข้อมูลระหว่างอินสแตนซ์ต่างๆ ของ Dynamics AX](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [สร้างเอนทิตี้เป้าหมายที่กำหนดเอง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [เอนทิตี้กรอบงานการนำเข้า/ส่งออกข้อมูล](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [นำเข้าข้อมูลจากแหล่งข้อมูล CSV](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [นำเข้าข้อมูลจากแหล่งข้อมูล ODBC](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ไฟล์การสาธิต](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [นำเข้า-ส่งออกด่วน](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### ตาราง 
-###### [สร้างตาราง](/dynamics365/unified-operations/dev-itpro/ax-2012/create-tables?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คุณสมบัติตาราง](/dynamics365/unified-operations/dev-itpro/ax-2012/table-properties?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [สร้างตาราง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-tables?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คุณสมบัติตาราง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/table-properties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### เครื่องมือ Dynamics AX 2012 LCS
-###### [โครงการ](/dynamics365/unified-operations/dev-itpro/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ระเบียบวิธี](/dynamics365/unified-operations/dev-itpro/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [การวิเคราะห์การเลือกกำหนด ](/dynamics365/unified-operations/dev-itpro/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตัวประมาณการโครงสร้างพื้นฐาน](/dynamics365/unified-operations/dev-itpro/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตัวประมาณการจำนวนสิทธิ์การใช้งาน](/dynamics365/unified-operations/dev-itpro/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [คำขอการตอบกลับข้อเสนอ (/dynamics365/unified-operations/dev-itpro/RFP)](/dynamics365/unified-operations/dev-itpro/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [การวิเคราะห์ระบบ](/dynamics365/unified-operations/dev-itpro/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ติดตั้งและรันการวินิจฉัยระบบ](/dynamics365/unified-operations/dev-itpro/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [การวิเคราะห์การอัพเกรด](/dynamics365/unified-operations/dev-itpro/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ตัวสร้างโพรไฟล์การใช้](/dynamics365/unified-operations/dev-itpro/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [โครงการ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ระเบียบวิธี](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การวิเคราะห์การเลือกกำหนด ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ตัวประมาณการโครงสร้างพื้นฐาน](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ตัวประมาณการจำนวนสิทธิ์การใช้งาน](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คำขอการตอบกลับข้อเสนอ (/dynamics365/unified-operations/dev-itpro/lifecycle-services/RFP)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การวิเคราะห์ระบบ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ติดตั้งและรันการวินิจฉัยระบบ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [การวิเคราะห์การอัพเกรด](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ตัวสร้างโพรไฟล์การใช้](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### เครื่องมือที่ดาวน์โหลดได้ของ Dynamics AX 2012
-###### [คู่มือผู้ใช้เครื่องมือการอัพเกรดรหัส (เลิกใช้)](/dynamics365/unified-operations/dev-itpro/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [เครื่องมือที่ดาวน์โหลดได้ของ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [เครื่องมือทดสอบการโอนย้ายข้อมูล (เบต้า)](/dynamics365/unified-operations/dev-itpro/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [ติดตั้ง](/dynamics365/unified-operations/dev-itpro/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [รัน](/dynamics365/unified-operations/dev-itpro/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [นำเข้าข้อมูลการสาธิตสำหรับ AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [เครื่องมือการพัฒนาความปลอดภัย](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [ติดตั้ง](/dynamics365/unified-operations/dev-itpro/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [คู่มือผู้ใช้](/dynamics365/unified-operations/dev-itpro/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [กำหนดหรือแก้ไขสิทธิ์ของจุดเข้าใช้งาน](/dynamics365/unified-operations/dev-itpro/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ชุดเครื่องมือการพัฒนาซอฟต์แวร์ Performance Benchmark](/dynamics365/unified-operations/dev-itpro/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Security Upgrade Advisor Tool](/dynamics365/unified-operations/dev-itpro/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Intelligent Data Management Framework (IDMF)](/dynamics365/unified-operations/dev-itpro/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [ภาพรวม](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [คู่มือการติดตั้ง](/dynamics365/unified-operations/dev-itpro/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [การตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [การวิเคราะห์](/dynamics365/unified-operations/dev-itpro/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [ล้างข้อมูลและเก็บถาวรออบเจ็กต์](/dynamics365/unified-operations/dev-itpro/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [สร้างออบเจ็กต์ที่เก็บถาวร](/dynamics365/unified-operations/dev-itpro/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [การสร้างวัตถุที่ล้างข้อมูล](/dynamics365/unified-operations/dev-itpro/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [จัดกำหนดการงานการล้างข้อมูลและการวิเคราะห์](/dynamics365/unified-operations/dev-itpro/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [ดูงานการล้างข้อมูลและการเก็บถาวร](/dynamics365/unified-operations/dev-itpro/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [รักษา](/dynamics365/unified-operations/dev-itpro/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [แก้ไขปัญหา](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [คู่มือผู้ใช้เครื่องมือการอัพเกรดรหัส (เลิกใช้)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [เครื่องมือที่ดาวน์โหลดได้ของ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [เครื่องมือทดสอบการโอนย้ายข้อมูล (เบต้า)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [ติดตั้ง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [รัน](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [นำเข้าข้อมูลการสาธิตสำหรับ AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [เครื่องมือการพัฒนาความปลอดภัย](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [ติดตั้ง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [คู่มือผู้ใช้](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [กำหนดหรือแก้ไขสิทธิ์ของจุดเข้าใช้งาน](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ชุดเครื่องมือการพัฒนาซอฟต์แวร์ Performance Benchmark](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Security Upgrade Advisor Tool](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Intelligent Data Management Framework (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [ภาพรวม](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [คู่มือการติดตั้ง](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [การตั้งค่าคอนฟิก](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [การวิเคราะห์](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [ล้างข้อมูลและเก็บถาวรออบเจ็กต์](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [สร้างออบเจ็กต์ที่เก็บถาวร](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [การสร้างวัตถุที่ล้างข้อมูล](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [จัดกำหนดการงานการล้างข้อมูลและการวิเคราะห์](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [ดูงานการล้างข้อมูลและการเก็บถาวร](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [รักษา](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [แก้ไขปัญหา](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### การจัดการฐานข้อมูล
-#### [คัดลอกฐานข้อมูลจาก Azure SQL Database ไปยังสภาพแวดล้อม SQL Server](/dynamics365/unified-operations/dev-itpro/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [คัดลอกฐานข้อมูลจาก SQL Server ไปยังสภาพแวดล้อม Azure SQL Database ที่ใช้งานจริง](/dynamics365/unified-operations/dev-itpro/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [คืนค่าฐานข้อมูลในสภาพแวดล้อมที่ไม่ใช้งานจริง](/dynamics365/unified-operations/dev-itpro/request-point-in-time-restore?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [ส่งออกสำเนาฐานข้อมูลเพื่อคืนค่าในภายหลัง](/dynamics365/unified-operations/dev-itpro/copy-operations-database?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [คัดลอกฐานข้อมูลจาก Azure SQL Database ไปยังสภาพแวดล้อม SQL Server](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [คัดลอกฐานข้อมูลจาก SQL Server ไปยังสภาพแวดล้อม Azure SQL Database ที่ใช้งานจริง](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [คืนค่าฐานข้อมูลในสภาพแวดล้อมที่ไม่ใช้งานจริง](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ส่งออกสำเนาฐานข้อมูลเพื่อคืนค่าในภายหลัง](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### การสนับสนุน
 #### [รับการสนับสนุนสำหรับr Dynamics 365 for Finance and Operations, Enterprise edition และ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support)
@@ -1459,13 +1517,14 @@
 #### [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับr Dynamics 365 for Finance and Operations, Enterprise edition และ Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/support-experience) 
 #### [FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน](/dynamics365/unified-operations/dev-itpro/lifecycle-services/planned-maintenance-window-faq) 
 #### [การดำเนินงานและการให้บริการระบบคลาวด์](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-operations-servicing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [จัดการประการณ์การสนับสนุนของ Finance and Operations](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-powered-support-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [จัดการประสบการณ์การสนับสนุนของ Finance and Operations](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-powered-support-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 <!-- Retail section -->
 # [Dynamics 365 for Retail](/dynamics365/unified-operations/retail/index?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## การชำระเงิน
 ### [วิธีการชำระเงิน](/dynamics365/unified-operations/retail/payment-methods?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [FAQ การชำระเงิน](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## ศูนย์บริการ
 ### [ภาพรวมศูนย์บริการ](/dynamics365/unified-operations/retail/call-center-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1488,6 +1547,7 @@
 ### อุปกรณ์ต่อพ่วงฮาร์ดแวร์
 #### [ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก](/dynamics365/unified-operations/retail/retail-peripherals-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Microsoft ทดสอบอุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก](/dynamics365/unified-operations/retail/dev-itpro/retail-peripheral-simulator?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [กำหนดและรักษาไคลเอนต์ช่องทาง และเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](/dynamics365/unified-operations/retail/define-maintain-channel-clients-registers-hw-stations?toc=/dynamics365/unified-operations/retail/toc.json)
 ### โครงร่างหน้าจอ
 #### [ตั้งค่าคอนฟิกโครงร่างหน้าจอสำหรับ POS](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1539,9 +1599,6 @@
 
 ## สินค้าคงคลัง
 ### [จัดการสินค้าคงคลังของร้านค้า](/dynamics365/unified-operations/retail/work-with-store-inventory?toc=/dynamics365/unified-operations/retail/toc.json)
-## สิ่งจำเป็นสำหรับการค้า
-### [ภาพรวมสิ่งจำเป็นสำหรับการค้า](/dynamics365/unified-operations/retail/commerce-essentials?toc=/dynamics365/unified-operations/retail/toc.json)
-### [องค์กรและลำดับชั้นขององค์กรในสิ่งจำเป็นสำหรับการค้า](/dynamics365/unified-operations/retail/organizational-hierarchies-commerce-essentials?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## [การพัฒนาและการจัดการการขายปลีก](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1551,16 +1608,16 @@
 #### [การสื่อสารช่องทางการขายปลีก](/dynamics365/unified-operations/retail/dev-itpro/define-retail-channel-communications-cdx?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สถาปัตยกรรม MPOS](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของการขายปลีก](/dynamics365/unified-operations/retail/dev-itpro/retail-online-store-publishing-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](/dynamics365/unified-operations/retail/dev-itpro//dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
+#### [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
 
 ### การปรับใช้และโปรแกรมแก้ไขด่วน
 #### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Store Scale Unit](/dynamics365/unified-operations/retail/dev-itpro/retail-store-scale-unit-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ระบบร้านค้าปลีก ก่อนที่คุณจะเริ่มต้น](/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](/dynamics365/unified-operations/retail//retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [จัดการบัญชีการขายปลีกและอุปกรณ์จากสำนักงานใหญ่](/dynamics365/unified-operations/retail//set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [จัดการบัญชีการขายปลีกและอุปกรณ์จากสำนักงานใหญ่](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [การเรียกใช้อุปกรณ์ Retail POS](/dynamics365/unified-operations/retail/dev-itpro/retail-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Retail Cloud POS ที่ปลอดภัย](/dynamics365/unified-operations/retail/dev-itpro/secure-retail-cloud-pos?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station](/dynamics365/unified-operations/retail//retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station](/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [เหตุการณ์ของส่วนประกอบการขายปลีกสำหรับการวินิจฉัยและการแก้ไขปัญหา](/dynamics365/unified-operations/retail/dev-itpro/retail-component-events-diagnostics-troubleshooting?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ใช้แพคเกจที่สามารถปรับใช้ได้](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1570,8 +1627,8 @@
 
 ### เพิ่มความสามารถ
 #### การขายหน้าร้าน
-##### [โครงร่างหน้าจอ Retail POS](/dynamics365/unified-operations/retail//pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ติดตั้งตัวออกแบบโครงร่าง POS](/dynamics365/unified-operations/retail//install-pos-layout-designer?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [โครงร่างหน้าจอ Retail POS](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [ติดตั้งตัวออกแบบโครงร่าง POS](/dynamics365/unified-operations/retail/install-pos-layout-designer?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ตั้งค่าคอนฟิก MPOS สำหรับโหมดออฟไลน์](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-offline?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ความสามารถในการขยายทริกเกอร์ของ MPOS และ Cloud POS](/dynamics365/unified-operations/retail/dev-itpro/modern-pos-trigger-extensibility?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [สร้างแอพ Retail Experience](/dynamics365/unified-operations/retail/dev-itpro/create-retail-experience-app?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1596,7 +1653,7 @@
 ##### [แพลตฟอร์มอีคอมเมิร์ซ](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [SDK แพลตฟอร์มอีคอมเมิร์ซ](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk?toc=/dynamics365/unified-operations/retail/toc.json)
 #### ตัวเชื่อมต่อการชำระเงิน
-##### [การใช้งานตัวเชื่อมต่อการชำระเงินและสนุนอุปกรณ์การชำระเงิน (เอกสาร)](/dynamics365/unified-operations/retail/dev-itpro/http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+##### [การใช้งานตัวเชื่อมต่อการชำระเงินและสนุนอุปกรณ์การชำระเงิน (เอกสาร)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ##### [ปรับใช้ตัวเชื่อมต่อการชำระเงิน](/dynamics365/unified-operations/retail/dev-itpro/deploy-payment-connector?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน](/dynamics365/unified-operations/retail/dev-itpro/create-windows-installer-payment-connector?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1604,13 +1661,14 @@
 #### [ภาพรวมของ Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [รวม Retail SDK กับระบบบิลด์แบบต่อเนื่อง](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตัวอย่างความสามารถในการขยายของ Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ตัวอย่างสำหรับการรวมระบบ Retail POS กับหน่วยการควบคุมสำหรับสวีเดน](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [การบรรจุสินค้าของ Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [ตัวอย่าง Retail SDK ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Commerce Runtime
 #### [ส่วนขยายของสมาชิก](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/loyalty-extension-sample?toc=/dynamics365/unified-operations/retail/toc.json)
 
-# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index)
+# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## พัฒนากลยุทธ์ด้านทรัพยากรบุคคล
 ### [จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=/dynamics365/unified-operations/retail/toc.json)
