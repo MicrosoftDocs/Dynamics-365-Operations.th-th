@@ -40,7 +40,7 @@ Microsoft Dynamics 365 for Finance and Operations คือแอพลิเค
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>ข้อมูลทางการเงิน</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">การปฏิบัติตาม</a></p>
 <p>การจัดการทางการเงิน</p>
 <ul style="list-style-type:none">
