@@ -1,27 +1,28 @@
 ---
 title: "ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย"
-description: "บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผนก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics AX คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง และนโยบายต่างๆ ในพื้นที่การจัดการค่าใช้จ่าย"
-author: kfend
+description: "บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผนก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง และนโยบายต่างๆ ในพื้นที่การจัดการค่าใช้จ่าย"
+author: KimANelson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 62bef78c143f7ad83e78982dbecb1c9e4542187d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผนก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics AX คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง และนโยบายต่างๆ ในพื้นที่การจัดการค่าใช้จ่าย 
+บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผนก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง และนโยบายต่างๆ ในพื้นที่การจัดการค่าใช้จ่าย 
 
 เนื่องจากหลายการตัดสินใจที่คุณเลือกเมื่อคุณวางแผนการตั้งค่าคอนฟิกของคุณสำหรับการจัดการค่าใช้จ่าย ตามลำดับชั้นขององค์กรของคุณและโครงสร้างทางการเงิน คุณต้องอ้างอิงเอกสารการวางแผนสำหรับพื้นที่เหล่านั้น
 

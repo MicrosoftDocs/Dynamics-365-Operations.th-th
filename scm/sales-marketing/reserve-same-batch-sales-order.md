@@ -3,7 +3,7 @@ title: "จองชุดงานเดียวกันสำหรับใ
 description: "บทความนี้อธิบายวิธีการตั้งค่าผลิตภัณฑ์เพื่ออนุญาตการจองสินค้าคงคลังโดยเทียบกับชุดงานหนึ่งของสินค้าคงคลัง"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1b63173d1efe45bf048b9c2eed4dc6250c9ee9f1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a24e5c2972ae1581de43ebcb448ed34bafdc0ad5
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 -   **กลุ่มมิติการติดตาม** – กลุ่มมิติการติดตามต้องมีฟิลด์ **แผนความครอบคลุมตามมิติ** ที่เลือกไว้สำหรับหมายเลขชุดงาน
 -   **กลุ่มมิติการจัดเก็บ** – กลุ่มมิติการจัดเก็บต้องมีฟิลด์ **แผนความครอบคลุมตามมิติ** ที่ถูกเลือกสำหรับ **ไซต์** และ **คลังสินค้า**
 
-เมื่อคุณจองสินค้าคงคลังสำหรับผลิตภัณฑ์ในบรรทัดใบสั่งขายที่ตั้งค่าไว้สำหรับการเลือกชุดงานเดียวกัน Microsoft Dynamics 365 for Operations พยายามจองปริมาณที่สั่งจากชุดงานสินค้าคงคลังเดียว มีข้อกำหนดแอททริบิวต์ของชุดงานเฉพาะใดๆ ถูกพิจารณาด้วย ถ้าไม่สามารถป้อนปริมาณจากชุดงานเดียว หน้า **ความขัดแย้งของการจองสินค้าของชุดงานเดียวกัน** จะปรากฏ หน้านี้อธิบายถึงปัญหา และการดำเนินการที่คุณมาสามารถดำเนินการจองต่อไป เงื่อนไขต่อไปนี้อาจป้องกันชุดงานจากการถูกจอง:
+เมื่อคุณจองสินค้าคงคลังสำหรับผลิตภัณฑ์ในบรรทัดใบสั่งขายที่ตั้งค่าไว้สำหรับการเลือกชุดงานเดียวกัน Microsoft Dynamics 365 for Finance and Operations พยายามจองปริมาณที่สั่งจากชุดงานสินค้าคงคลังเดียว มีข้อกำหนดแอททริบิวต์ของชุดงานเฉพาะใดๆ ถูกพิจารณาด้วย ถ้าไม่สามารถป้อนปริมาณจากชุดงานเดียว หน้า **ความขัดแย้งของการจองสินค้าของชุดงานเดียวกัน** จะปรากฏ หน้านี้อธิบายถึงปัญหา และการดำเนินการที่คุณมาสามารถดำเนินการจองต่อไป เงื่อนไขต่อไปนี้อาจป้องกันชุดงานจากการถูกจอง:
 
 -   รหัสการโอนการครอบครองชุดงานที่ **บล็อคการจองสินค้า** สำหรับการขายที่ติดแฟล็กเป็น **ถูกบล็อค**
 -   ชุดงานที่หมดอายุ ขึ้นอยู่กับวันหมดอายุ และวันที่ขายได้ของลูกค้าที่เกี่ยวข้องใดๆ สินค้ายังคงถูกพิจารณาถ้ากลุ่มแบบจำลองสินค้าสำหรับสินค้าถูกควบคุมด้วยที่หมดอายุแรกออกก่อน (FEFO) และถ้าวันที่ควรใช้ก่อนถูกเลือกตามเกณฑ์การเบิกสินค้า

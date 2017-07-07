@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ ms.lasthandoff: 05/25/2017
 -   [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](manage-vendor-collaboration-users.md)
 -   [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](set-up-maintain-vendor-collaboration.md)
--   [สคริปต์สาธิตสินค้าคงคลังที่มีการส่งมอบขาเข้าสำหรับ Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(เอกสารทางเทคนิค)
+-   [สคริปต์สาธิตสินค้าคงคลังที่มีการส่งมอบขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(เอกสารทางเทคนิค)
 -   [ตรวจสอบสินค้าคงคลังที่มีการส่งมอบโดยใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [การทำงานร่วมกันกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)  (Dynamics 365 for Operations เวอร์ชัน ก.พ. 2016 และ พ.ค. 2016 เท่านั้น)
--   [การตั้งค่าคอนฟิกความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Dynamics 365 for Operations เวอร์ชัน ก.พ. 2016 และ พ.ค. 2016 เท่านั้น)
--   [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่ายสำหรับแอพ Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [การทำงานร่วมกันกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)  (Dynamics AX เวอร์ชัน กุมภาพันธ์ 2016 และ พฤษภาคม 2016 เท่านั้น)
+-   [การตั้งค่าคอนฟิกความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Finance and Operations เวอร์ชัน 2016 และ พ.ค. 2016 เท่านั้น)
+-   [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่ายสำหรับแอพ Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>การจัดการผลิตภัณฑ์สำหรับการจัดซื้อ
 -   [แค็ตตาล็อกการจัดซื้อ](procurement-catalogs.md)
@@ -92,8 +92,8 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="product-receipt-and-invoicing"></a>ใบรับสินค้าและการออกใบแจ้งหนี้
 -   [ใบรับสินค้า - ใบสั่งซื้อ](product-receipt-against-purchase-orders.md)
--   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>ลำดับงานการจัดซื้อและการจัดหา
 -   [ภาพรวมของการจัดซื้อและการจัดหา](procurement-sourcing-overview.md)

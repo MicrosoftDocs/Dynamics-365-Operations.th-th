@@ -1,17 +1,17 @@
 ---
 title: "ดำเนินการกับการปันส่วน"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลใน Microsoft Dynamics 365 for Operations และวิธีที่ใช้ในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยรับประกันได้ว่าค่าใช้จ่ายหรือรายได้จะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี"
+description: "บทความนี้แสดงข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition และวิธีที่ใช้ในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยรับประกันได้ว่าค่าใช้จ่ายหรือรายได้จะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1cfaeab1562716aa4c91806b228f17625e25dfff
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e6d88503972850f6163aba6b45547a111f44abab
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลใน Microsoft Dynamics 365 for Operations และวิธีที่ใช้ในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยรับประกันได้ว่าค่าใช้จ่ายหรือรายได้จะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี
+บทความนี้แสดงข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition และวิธีที่ใช้ในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยรับประกันได้ว่าค่าใช้จ่ายหรือรายได้จะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี
 
-Microsoft Dynamics 365 for Operations มอบความสามารถดังต่อไปนี้ เพื่อสนับสนุนกระบวนการนี้:
+Microsoft Dynamics 365 for Finance and Operations มอบความสามารถดังต่อไปนี้ เพื่อสนับสนุนกระบวนการนี้:
 
 -   ปันส่วนยอดเงินธุรกรรมด้วยตนเอง โดยใช้การดำเนินการแบ่งในการกระจายการลงบัญชี หรือ โดยใช้เท็มเพลตเริ่มต้นของมิติทางการเงินกับเอกสาร สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การกระจายการลงบัญชี](../accounts-payable/accounting-distributions.md)
 -   จำนวนธุรกรรมการปันส่วนอัตโนมัติขึ้นอยู่กับเงื่อนไขการปันส่วนที่กำหนดไว้ในบัญชีหลักแต่ละรายการ รายการบัญชีปันส่วนจะถูกสร้างขึ้นสำหรับแต่ละสมุดรายวันขึ้นอยู่กับเปอร์เซ็นต์และบัญชีแยกประเภทปลายทางเมื่อใดก็ตามที่รายการบัญชีเป็นไปตามเงื่อนไขซึ่งกำหนดไว้เป็นบัญชีแยกประเภทต้นทาง

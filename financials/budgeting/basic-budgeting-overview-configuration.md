@@ -1,15 +1,15 @@
 ---
 title: "ภาพรวมของงบประมาณ"
-description: "เกือบทุกบริษัทที่ใช้ฟังก์ชันการทำงานของข้อมูลทางการเงินใน Microsoft Dynamics 365 for Operations จะต้องสามารถสร้างรายงานของงบประมาณเทียบกับจำนวนจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Dynamics 365 for Operations หรือโหลดจากโปรแกรมของบริษัทอื่น"
+description: "เกือบทุกบริษัทที่ใช้ฟังก์ชันการทำงานของข้อมูลทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition จะต้องสามารถสร้างรายงานของงบประมาณเทียบกับจำนวนจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations, Enterprise edition หรือโหลดจากโปรแกรมของบริษัทอื่น"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>ภาพรวมของงบประมาณ
+# <a name="budgeting-overview"></a>ภาพรวมของงบประมาณ 
 
 [!include[banner](../includes/banner.md)]
 
 
-เกือบทุกบริษัทที่ใช้ฟังก์ชันการทำงานของข้อมูลทางการเงินใน Microsoft Dynamics 365 for Operations จะต้องสามารถสร้างรายงานของงบประมาณเทียบกับจำนวนจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Dynamics 365 for Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
+เกือบทุกบริษัทที่ใช้ฟังก์ชันการทำงานของข้อมูลทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition จะต้องสามารถสร้างรายงานของงบประมาณเทียบกับจำนวนจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
 
 <a name="overview"></a>ภาพรวม
 --------
 
 งบประมาณที่ถูกอนุมัติสำหรับนิติบุคคลจะจัดเก็บอยู่ในเอกสารที่เรียกว่า *รายการทะเบียนงบประมาณ* บรรทัดในเอกสารรายการทะเบียนงบประมาณจะถูกเรียกว่ารายการ *บัญชีงบประมาณ* และประกอบด้วยข้อมูลมิติทางการเงิน วันที่ และยอดเงินงบประมาณที่อนุมัติแล้ว เอกสารรายการทะเบียนงบประมาณถูกรวมเข้ากับรายงานทางการเงินพื้นฐานและหน้าการสอบถามที่ยอดเงินจริงของบัญชีแยกประเภทถูกเปรียบเทียบกับจำนวนเงินงบประมาณ 
 
-มีหลายวิธีการสำหรับการสร้างรายการทะเบียนงบประมาณใน Dynamics 365 for Operations:
+มีหลายวิธีการสำหรับการสร้างรายการทะเบียนงบประมาณใน Finance and Operations:
 
 -   ป้อนข้อมูลเอกสารด้วยตนเองในหน้า **รายการทะเบียนงบประมาณ**
 -   ใช้เท็มเพลต Microsoft Excel ที่คุณสามารถเปิดโดยคลิกปุ่ม **เปิดใน Excel** บนหน้า **รายการทะเบียนงบประมาณ**

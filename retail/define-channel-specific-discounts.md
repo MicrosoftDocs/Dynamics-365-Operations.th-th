@@ -3,27 +3,28 @@ title: "กำหนดส่วนลดเฉพาะช่องทาง"
 description: "ผู้ค้าปลีกมักจะกำหนดส่วนลดที่แตกต่างกันในช่องทางต่างๆ หัวข้อนี้ทบทวนแนวคิดที่คุณจำเป็นต้องทราบเพื่อสร้างส่วนลดสำหรับช่องทางเฉพาะ"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 750f61198550a248d70fd531c3cb2ff86ca37f50
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: d40c37628f03a7605e04b95339072a67806f2fa1
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -40,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 
 ผู้ค้าปลีกมักจะเสนอส่วนลดที่แตกต่างกันในช่องทางต่างกัน นี่อาจสามารถทำได้เพื่อกำหนดเงื่อนไขของตลาดท้องถิ่น หรือ เพื่อจัดการกับผู้ค้าปลีกคู่แข่ง
 
-การขายปลีกและการค้าใน Microsoft Dynamics 365 for Operations ใช้กลุ่มราคาเพื่อกำหนดส่วนลดเฉพาะช่องทาง กลุ่มราคาสามารถถูกกำหนดให้กับอย่างน้อยหนึ่งเอนทิตีต่อไปนี้: ช่องทาง แค็ตตาล็อก สังกัด และโปรแกรมตอบแทนลูกค้าสมาชิก บทความนี้กล่าวถึงช่องทาง แต่แนวคิดเดียวกันกับการนำไปใช้ในส่วนลดในแค็ตตาล็อก ส่วนลดสังกัด และส่วนลดสมาชิก
+Microsoft Dynamics 365 for Retail ใช้กลุ่มราคาเพื่อกำหนดส่วนลดเฉพาะช่องทาง กลุ่มราคาสามารถถูกกำหนดให้กับอย่างน้อยหนึ่งเอนทิตีต่อไปนี้: ช่องทาง แค็ตตาล็อก สังกัด และโปรแกรมตอบแทนลูกค้าสมาชิก บทความนี้กล่าวถึงช่องทาง แต่แนวคิดเดียวกันกับการนำไปใช้ในส่วนลดในแค็ตตาล็อก ส่วนลดสังกัด และส่วนลดสมาชิก
 
 ## <a name="price-groups"></a>กลุ่มราคา
 

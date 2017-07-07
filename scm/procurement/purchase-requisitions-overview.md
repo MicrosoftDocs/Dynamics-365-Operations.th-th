@@ -3,14 +3,14 @@ title: "ภาพรวมใบขอซื้อ"
 description: "บทความนี้อธิบายลำดับงานใบขอซื้อและสถานะต่างๆ ที่ใบขอซื้อมี"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="creating-purchase-requisitions"></a>การสร้างใบขอซื้อ
 คุณสามารถสร้างใบขอซื้อบนหน้า **ใบขอซื้อของฉัน** และเลือกสินค้าและบริการที่คุณต้องการได้ คุณสามารถเลือกรายการจากแค็ตตาล็อกการจัดซื้อที่องค์กรของคุณสร้างไว้ หรือคุณสามารถร้องขอสินค้าที่ไม่พบในแค็ตตาล็อก โดยการเลือกประเภทการจัดซื้อ และป้อนรายละเอียดผลิตภัณฑ์  
 
-ก่อนที่คุณจะสามารถส่งใบขอซื้อเพื่อตรวจทาน ลำดับงานต้องถูกกำหนดค่าใน Microsoft Dynamics 365 for Operations คุณใช้ลำดับงานเพื่อย้ายใบขอซื้อโดยผ่านกระบวนการตรวจทาน จากสถานะการเริ่มต้นที่ **ร่าง** ไปเป็นสถานะขั้นสุดท้าย **อนุมัติ**
+ก่อนที่คุณจะสามารถส่งใบขอซื้อเพื่อตรวจทาน ลำดับงานต้องถูกกำหนดค่าใน Microsoft Dynamics 365 for Finance and Operations คุณใช้ลำดับงานเพื่อย้ายใบขอซื้อโดยผ่านกระบวนการตรวจทาน จากสถานะการเริ่มต้นที่ **ร่าง** ไปเป็นสถานะขั้นสุดท้าย **อนุมัติ**
 
 ### <a name="purchase-requisition-statuses"></a>สถานะของใบขอซื้อ
 
@@ -143,7 +143,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>การจัดซื้อที่มีวัตถุประสงค์ในปริมาณการใช้
 
-ใบขอซื้อที่มีวัตถุประสงค์ในการใช้วัสดุแสดงถึงความต้องการสำหรับสินค้าหรือบริการ ที่จะใช้เป็นการภายในองค์กรของคุณ ความต้องการที่สร้างขึ้นโดยใบขอซื้อชนิดนี้ จะถูกตอบสนองโดยใบสั่งซื้อเสมอ ถ้า Microsoft Dynamics 365 for Operations ถูกตั้งค่าให้สร้างใบสั่งซื้อโดยอัตโนมัติ ใบสั่งซื้อจะถูกสร้างหลังจากที่ใบขอซื้อได้รับการอนุมัติ
+ใบขอซื้อที่มีวัตถุประสงค์ในการใช้วัสดุแสดงถึงความต้องการสำหรับสินค้าหรือบริการ ที่จะใช้เป็นการภายในองค์กรของคุณ ความต้องการที่สร้างขึ้นโดยใบขอซื้อชนิดนี้ จะถูกตอบสนองโดยใบสั่งซื้อเสมอ ถ้า Microsoft Dynamics 365 for Finance and Operations ถูกตั้งค่าให้สร้างใบสั่งซื้อโดยอัตโนมัติ ใบสั่งซื้อจะถูกสร้างหลังจากที่ใบขอซื้อได้รับการอนุมัติ
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>การจัดซื้อที่มีวัตถุประสงค์ในการเติมสินค้า
 

@@ -1,16 +1,16 @@
 ---
 title: "จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า"
-description: "บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้ Microsoft Dynamics AX เพื่อช่วยควบคุมและตรวจสอบงานที่มีการดำเนินการโดยพนักงานในคลังสินค้าของคุณ"
+description: "บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้ Dynamics 365 for Finance and Operations เพื่อช่วยควบคุมและตรวจสอบงานที่มีการดำเนินการโดยพนักงานในคลังสินค้าของคุณ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้ Microsoft Dynamics AX เพื่อช่วยควบคุมและตรวจสอบงานที่มีการดำเนินการโดยพนักงานในคลังสินค้าของคุณ
+บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เพื่อช่วยควบคุมและตรวจสอบงานที่มีการดำเนินการโดยพนักงานในคลังสินค้าของคุณ
 
 ถ้าคุณกำลังใช้ฟังก์ชันในการจัดการคลังสินค้า การดำเนินงานของผู้ปฏิบัติงานคลังสินค้าทั้งหมดจะถูกอ้างอิงเป็น *งาน* งานเช่น การเบิกสินค้า การย้าย และการตรวจนับปริมาณคงคลังคงเหลือจะถูกบันทึกโดยใช้อุปกรณ์เคลื่อนที่ ก่อนที่ผู้ปฏิบัติงานคลังสินค้าจะสามารถทำงานได้ เขาหรือเธอต้องมีการเชื่อมโยงกับผู้ปฏิบัติงานในฝ่ายทรัพยากรบุคคล บัญชี **ผู้ปฏิบัติงาน** แต่ละรายการสามารถมีผู้ใช้งานคลังสินค้าหลายรายที่เกี่ยวข้องได้ ผู้ใช้งานเหล่านั้นสามารถทำงานในคลังสินค้าที่แตกต่างกัน และสามารถมีการเข้าถึงเมนูอุปกรณ์เคลื่อนต่างๆในระดับที่แตกต่างกัน คุณสามารถพิจารณาผู้ใช้งานที่คลังสินค้าให้เป็นการล็อกออนหลายเครื่องสำหรับผู้ปฏิบัติงานที่เลือก ผู้ใช้งานแต่ละรายมีคลังสินค้าเริ่มต้น และลำดับงานเฉพาะถูกแสดงโดยรายการเมนูที่มีอยู่ให้กับผู้ใช้งานนั้น 
 

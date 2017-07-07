@@ -3,13 +3,13 @@ title: "ตั้งค่าและสร้างไฟล์ Positve Pay"
 description: "บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc4269fc8bf8319a2a2f4e3769f0ffb31d5ef79d
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 ตั้งค่า Positive Pay เพื่อสร้างรายการอิเล็กทรอนิกส์ของเช็คที่ได้รับไปยังธนาคาร  จากนั้น เมื่อเช็คถูกนำเสนอให้แก่ธนาคารแล้ว ธนาคารจะเปรียบเทียบเช็คกับรายการของเช็ค  ถ้าเช็คตรงกับเช็คในรายการ ธนาคารจะเคลียร์เช็ค  ถ้าเช็คไม่ตรงกัน ธนาคารจะระงับเช็คไว้เพื่อตรวจสอบ
 
 ## <a name="security-for-positive-pay-files"></a>ความปลอดภัยสำหรับไฟล์ positive pay
-ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ positive pay ถูกดาวน์โหลดไปยังตำแหน่งที่ระบุโดยเว็บเบราเซอร์ของคุณ  เนื่องจากไฟล์ positive pay อาจประกอบด้วยข้อมูลที่อ่อนไหว เป็นเรื่องสำคัญว่าเฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่มีการเข้าถึง เพือสร้างและดูข้อมูลนี้ใน Microsoft Dynamics 365 for Operations ใช้ตารางต่อไปนี้เพื่อช่วยให้คุณกำหนดสิทธิ์ที่จำเป็นได้
+ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ positive pay ถูกดาวน์โหลดไปยังตำแหน่งที่ระบุโดยเว็บเบราเซอร์ของคุณ  เนื่องจากไฟล์ positive pay อาจประกอบด้วยข้อมูลที่อ่อนไหว เป็นเรื่องสำคัญว่าเฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่มีการเข้าถึง เพือสร้างและดูข้อมูลนี้ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ใช้ตารางต่อไปนี้เพื่อช่วยให้คุณกำหนดสิทธิ์ที่จำเป็นได้
 
 <table>
 <colgroup>

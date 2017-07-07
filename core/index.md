@@ -114,7 +114,7 @@ Microsoft Dynamics 365 for Finance and Operations คือแอพลิเค
 <p><a href="../retail/call-center-functionality">ศูนย์บริการ</p>
 <p><a href="../retail/define-maintain-retail-channels">การตั้งค่าและการจัดการช่องทาง</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS และ Cloud POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">นักพัฒนาและการจัดการการขายปลีก</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">นักพัฒนาและการจัดการ Retail</p>
 
 </td>
 </tr>

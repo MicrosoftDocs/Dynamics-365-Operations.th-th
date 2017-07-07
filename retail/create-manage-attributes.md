@@ -1,28 +1,29 @@
 ---
 title: "สร้างและจัดการแอททริบิวต์"
-description: "บทความนี้อธิบายถึงแอททริบิวต์ใน Microsoft Dynamics 365 for Operations แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด"
+description: "บทความนี้อธิบายถึงแอททริบิวต์ใน Microsoft Dynamics 365 for Retail แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-บทความนี้อธิบายถึงแอททริบิวต์ใน Microsoft Dynamics 365 for Operations แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด
+บทความนี้อธิบายถึงแอททริบิวต์ใน Microsoft Dynamics 365 for Retail แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด
 
 แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด ตัวอย่างเช่น คุณสามารถระบุขนาดของหน่วยความจำและกำลังการผลิตฮาร์ดดิสก์ของผลิตภัณฑ์ และบ่งชี้ว่าผลิตภัณฑ์เป็น Energy star – สอดคล้องกัน แอททริบิวต์สามารถเชื่อมโยงกับการขายปลีกตีต่าง ๆ เช่นประเภทผลิตภัณฑ์ ช่องทางการขายปลีกและสามารถตั้งค่าเริ่มต้นสำหรับอุปกรณ์เหล่านี้ ผลิตภัณฑ์ที่สืบทอดแอททริบิวต์ของพวกเขาและค่าเริ่มต้นสำหรับแอททริบิวต์ดังกล่าวเมื่อได้ถูกเชื่อมโยงกับประเภทผลิตภัณฑ์และช่องทางการขายปลีก ค่าเริ่มต้นสามารถถูกแทนที่ได้ในระดับแต่ละผลิตภัณฑ์ ที่ระดับช่องทางการขายปลีก หรือในแค็ตตาล็อกการขายปลีก
 
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="attribute-type"></a>ชนิดแอททริบิวต์
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-แอททริบิวต์จะขึ้นอยู่กับชนิดแอททริบิวต์ ชนิดแอททริบิวต์ระบุชนิดของข้อมูลที่สามารถป้อนเพื่อแอททริบิวต์เฉพาะ ในปัจจุบัน Microsoft Dynamics 365 for Operations สนับสนุนชนิดแอททริบิวต์ต่อไปนี้:
+แอททริบิวต์จะขึ้นอยู่กับชนิดแอททริบิวต์ ชนิดแอททริบิวต์ระบุชนิดของข้อมูลที่สามารถป้อนเพื่อแอททริบิวต์เฉพาะ ในปัจจุบัน Microsoft Dynamics 365 for Retail สนับสนุนชนิดแอททริบิวต์ต่อไปนี้:
 
 -   **สกุลเงิน**– ชนิดแอททริบิวต์นี้สนับสนุนค่าสกุลเงิน สามารถกำหนดขอบเขต (นั่นคือสามารถสนับสนุนช่วงค่า) หรือสามารถปล่อยให้เปิดไว้ได้
 -   **วันที่และเวลา**– ชนิดแอททริบิวต์นี้สนับสนุนค่าวันและเวลา สามารถกำหนดขอบเขต (นั่นคือสามารถสนับสนุนช่วงค่า) หรือสามารถปล่อยให้เปิดไว้ได้

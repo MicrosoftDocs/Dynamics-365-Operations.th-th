@@ -1,6 +1,6 @@
 ---
 title: "ภาพรวมของระบบลำดับงาน"
-description: "หัวข้อนี้อธิบายถึงระบบลำดับงานใน Microsoft Dynamics 365 for Operations"
+description: "หัวข้อนี้อธิบายถึงระบบลำดับงานใน Microsoft Dynamics 365 for Finance and Operations"
 author: sericks007
 manager: AnnBe
 ms.date: 04/25/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 142f6f122172f717733db6f39b964c3f6f2e2f77
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายถึงระบบลำดับงานใน Microsoft Dynamics 365 for Operations
+หัวข้อนี้อธิบายถึงระบบลำดับงานใน Microsoft Dynamics 365 for Finance and Operations
 
 <a name="what-is-workflow"></a>ลำดับงานคืออะไร?
 -----------------
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 คำว่า *ลำดับงาน* สามารถกำหนดได้ในสองวิธี: เป็นระบบ และเป็นกระบวนการทางธุรกิจ
 ### <a name="workflow-is-a-system"></a>ลำดับงานคือระบบ
 
-Workflow คือ ระบบที่ถูกติดตั้งด้วย Dynamics 365 for Operations และที่ทำงานบน Application Object Server (AOS) ระบบลำดับงานมีฟังก์ชันที่คุณสามารถใช้สร้างลำดับงานหรือกระบวนการทางธุรกิจแต่ละรายการ
+Workflow คือ ระบบที่ถูกติดตั้งด้วย Finance and Operations และที่ทำงานบน Application Object Server (AOS) ระบบลำดับงานมีฟังก์ชันที่คุณสามารถใช้สร้างลำดับงานหรือกระบวนการทางธุรกิจแต่ละรายการ
 
 ### <a name="workflow-is-a-business-process"></a>Workflow คือ กระบวนการทางธุรกิจ
 
