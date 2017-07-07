@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 54682
 ms.assetid: dc0e2855-83a0-41a7-a398-3c7852597d1a
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 เข้าก่อนออกก่อน (FIFO) เป็นแบบจำลองสินค้าคงคลังที่สินค้าที่ได้รับเข้ามาแรกสุดจะถูกนำออกใช้ก่อน  ในทางการเงิน ปัญหาที่อัพเดตจากสินค้าคงคลังจะถูกจับคู่กับการรับสินค้าเข้าในคลังสินค้ารายการแรกที่ได้รับการอัพเดต ตามวันที่ทางการเงินของรายการความเคลื่อนไหวของสินค้าคงคลัง 
