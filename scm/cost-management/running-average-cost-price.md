@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 79003
 ms.assetid: adc3f245-dc9d-4327-88fb-6a579194a5fe
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="running-average-cost-price"></a>ราคาต้นทุนถัวเฉลี่ย
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 กระบวนการปิดสินค้าคงคลังใน จับคู่ธุรกรรมการตัดสินค้าจากคลังกับธุรกรรมการรับสินค้า โดยยึดตามวิธีการประเมินค่าสินค้าคงคลังที่เลือกไว้ในกลุ่มแบบจำลองสินค้าของสินค้า อย่างไรก็ตาม ภายในเวลาก่อนการรันการปิดสินค้าคงคลัง ระบบจะคำนวณราคาต้นทุนถัวเฉลี่ย ซึ่งโดยทั่วไปจะถูกใช้เมื่อมีการลงรายการบัญชีธุรกรรมการตัดสินค้าจากคลัง

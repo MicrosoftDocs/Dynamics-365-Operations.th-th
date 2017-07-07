@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 วันที่แบบเข้าหลัง ออกก่อน (วันที่ LIFO) เป็นแบบจำลองสินค้าคงคลังที่ใช้หลักการ LIFO  จะมีการจับคู่การตัดสินค้าจากคลังกับการรับสินค้ารายการสุดท้ายไปยังคลังสินค้า ตามวันที่ของธุรกรรมสินค้าคงคลัง ด้วยวันที่ LIFO โดยการใช้วันที่ LIFO หากไม่มีการรับสินค้าก่อนการนำสินค้าออกใช้ การนำสินค้าออกใช้จะถูกจับคู่กับการรับสินค้าใดๆ ที่เกิดขึ้นหลังจากวันที่นำสินค้าออกใช้  การนำสินค้าออกใช้หลายครั้งในวันเดียวกันอาจถูกจับคู่ในลำดับของการนำสินค้าออกใช้ครั้งล่าสุด การรับสินค้าครั้งล่าสุด 
