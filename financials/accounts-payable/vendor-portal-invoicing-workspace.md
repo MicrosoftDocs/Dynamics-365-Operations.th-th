@@ -3,13 +3,14 @@ title: "พื้นที่ทำงานการออกใบแจ้ง
 description: "หัวข้อนี้อธิบายวิธีการดูใบแจ้งหนี้ของผู้จัดจำหน่ายและส่งใบแจ้งหนี้จากพื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 หัวข้อนี้อธิบายวิธีการดูใบแจ้งหนี้ของผู้จัดจำหน่ายและส่งใบแจ้งหนี้จากพื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย
 
-คุณสามารถใช้พื้นที่ทำงาน **การออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย** เพื่อดูข้อมูลใบแจ้งหนี้ของผู้จัดจำหน่าย และส่งใบแจ้งหนี้ไปยัง Microsoft Dynamics 365 for Operations โดยใช้ความสามารถของลำดับงานได้
+คุณสามารถใช้พื้นที่ทำงาน **การออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย** เพื่อดูข้อมูลใบแจ้งหนี้ของผู้จัดจำหน่าย และส่งใบแจ้งหนี้ไปยัง Microsoft Dynamics 365 for Finance and Operations, Enterprise edition โดยใช้ความสามารถของลำดับงานได้
 พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย
 ----------------------------------------
 
@@ -40,9 +41,9 @@ ms.lasthandoff: 05/25/2017
 
 ไทล์ **สรุป** แสดงภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่ายที่เลือก คุณสามารถดูใบแจ้งหนี้โดยเรียงตามสถานะได้
 -   ยังไม่ได้ส่งใบแจ้งหนี้ฉบับร่างไปยังลำดับงาน
--   ใบแจ้งหนี้ที่ส่งแล้วแต่ยังไม่ได้รับการอนุมัติคือใบแจ้งหนี้ที่ผู้จัดจำหน่ายส่งแล้วแต่ยังไม่ได้ลงรายการบัญชีใน Dynamics 365 for Operations
--   ใบแจ้งหนี้ที่ส่งแล้วแต่ยังไม่ได้ชำระเงินคือใบแจ้งหนี้ที่ลงรายการบัญชีใน Dynamics 365 for Operations แล้ว แต่ยังชำระเงินไม่ครบ
--   ใบแจ้งหนี้ที่ชำระเงินแล้วคือใบแจ้งหนี้ที่ชำระเงินครบแล้วใน Dynamics 365 for Operations
+-   ใบแจ้งหนี้ที่ส่งแล้วแต่ยังไม่ได้รับการอนุมัติคือใบแจ้งหนี้ที่ผู้จัดจำหน่ายส่งแล้วแต่ยังไม่ได้ลงรายการบัญชีใน Finance and Operations
+-   ใบแจ้งหนี้ที่ส่งแล้วแต่ยังไม่ได้ชำระเงินคือใบแจ้งหนี้ที่ลงรายการบัญชีใน Finance and Operations แล้ว แต่ยังชำระเงินไม่ครบ
+-   ใบแจ้งหนี้ที่ชำระเงินแล้วคือใบแจ้งหนี้ที่ชำระเงินครบแล้วใน Finance and Operations
 
 เมื่อคลิกที่ไทล์ ระบบจะเปิดมุมมองที่กรองข้อมูลของหน้า **รายการใบแจ้งหนี้**
 ### <a name="tabular-lists"></a>รายการตาราง
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 
 
 
-สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

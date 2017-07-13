@@ -1,28 +1,29 @@
 ---
 title: "ลำดับชั้นการขายปลีก"
-description: "บทความนี้อธิบายถึงลำดับชั้นการขายปลีกใน Microsoft Dynamics AX"
+description: "บทความนี้อธิบายถึงลำดับชั้นการขายปลีกใน Microsoft Dynamics 365 for Retail"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-บทความนี้อธิบายถึงลำดับชั้นการขายปลีกใน Microsoft Dynamics AX
+บทความนี้อธิบายถึงลำดับชั้นการขายปลีกใน Microsoft Dynamics 365 for Retail
 
 คุณสามารถสร้างลำดับชั้นประเภทการขายปลีกเพื่อจัดการผลิตภัณฑ์ที่คุณขายโดยผ่านช่องทางการขายปลีก คุณสามารถใช้ลำดับชั้นของผลิตภัณฑ์ขายปลีกเพื่อจัดประเภทหรือกลุ่มผลิตภัณฑ์ จากนั้นคุณสามารถใช้ผลิตภัณฑ์เหล่านี้เพื่อสร้างการจัดประเภทผลิตภัณฑ์และโปรแกรมตอบแทนลูกค้าสมาชิก คุณสามารถมอบหมายคุณลักษณะของผลิตภัณฑ์และคุณสมบัติ มอบหมายโครงสร้างการกำหนดราคา รวมถึงผลิตภัณฑ์ในโปรโมชันผลิตภัณฑ์ และใช้ผลิตภัณฑ์สำหรับการรายงาน คุณสามารถสร้างลำดับชั้นประเภทขายปลีกหนึ่งเพื่อแสดงถึงผลิตภัณฑ์และประเภทในองค์กรของคุณทั้งหมด และจากนั้นใช้การจัดประเภทตามลำดับชั้นสำหรับวัตถุประสงค์ต่างๆ อีกทางหนึ่งคือ คุณสามารถสร้างลำดับชั้นประเภทการขายปลีกหลายรายการสำหรับวัตถุประสงค์พิเศษ เช่น การส่งเสริมการขายผลิตภัณฑ์ เมื่อคุณสร้างเป็นลำดับชั้นของผลิตภัณฑ์ขายปลีก คุณต้องมอบหมายชนิดของการจัดประเภทตามลำดับชั้นเพื่อระบุวัตถุประสงค์ของการจัดประเภทตามลำดับชั้น ตัวอย่างเช่น เฉพาะลำดับชั้นผลิตภัณฑ์ที่ถูกมอบหมายให้เป็นชนิด **ลำดับชั้นการนำทางการขายปลีก** จะถูกอ้างอิงเมื่อคุณเรียกดูผลิตภัณฑ์ตามประเภทแบบออนไลน์ หรือ ในการขายหน้าร้าน (POS)
 

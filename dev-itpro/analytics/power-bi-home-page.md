@@ -1,9 +1,9 @@
 ---
-title: "โฮมเพจ Power BI"
-description: "หัวข้อนี้แสดงรายการทรัพยากรที่ช่วยให้คุณสามารถใช้ Power BI กับ Dynamics 365 for Operations"
+title: "เนื้อหา Power BI พร้อมใช้งาน"
+description: "หัวข้อนี้แสดงรายการเนื้อหา Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,66 +17,86 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 711a2e18a692d7f4d048109fdd97497483ce05e8
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="power-bi-home-page"></a>โฮมเพจ Power BI
-
+# <a name="power-bi-content-available"></a>เนื้อหา Power BI พร้อมใช้งาน
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้แสดงรายการทรัพยากรที่ช่วยให้คุณสามารถใช้ Power BI กับ Dynamics 365 for Operations
+หัวข้อนี้แสดงรายการเนื้อหา Microsoft Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>เนื้อหา Power BI สำหรับ Dynamics 365 for Operations
-------------------------------------------------
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI content for Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017
+ถ้าคุณกำลังใช้ Microsoft Dynamics 365 สำหรับทางการเงินและการดำเนินงาน ปรับปรุงองค์กรรุ่น 2017 กรกฎาคม เนื้อหาPower BI ต่อไปนี้จะพร้อมใช้งาน
 
-| **พื้นที่คุณลักษณะ**                  | **เนื้อหา Power BI**                          | **ตำแหน่งที่จะค้นหาเนื้อหา Power BI**                                                                                                                                                                                         | **เรียนรู้เพิ่มเติม**                                                                                                                                                               |
-|-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| การจัดการทางการเงิน              | ประสิทธิภาพทางการเงิน                         | Microsoft Dynamics Lifecycle Services (LCS) (ชุดเนื้อหารุ่นนี้สนับสนุน Dynamics 365 for Operations รุ่น 1611) PowerBI.com (ชุดเนื้อหารุ่นนี้สนับสนุน Microsoft Dynamics 365 for Operations 7.0 และ 7.0.1) | [เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | การจัดการสินเชื่อและการเรียกเก็บเงิน             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| การจัดการทุนมนุษย์          | รายงานการสรรหาบุคลากร                            | LCS                                                                                                                                                                                                                            | [เนื้อหาการสรรหาบุคลากรใน Power BI](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | รายงานความสามารถของพนักงานและการพัฒนา | LCS                                                                                                                                                                                                                            | [เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | รายงานการฝึกอบรมขององค์กร               | LCS                                                                                                                                                                                                                            | [เนื้อหาการฝึกอบรมขององค์กรใน Power BI](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | เมตริกบุคลากร                             | LCS                                                                                                                                                                                                                            | [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | รายงานค่าตอบแทนและสวัสดิการ             | LCS                                                                                                                                                                                                                            | [เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| การจัดการและการบัญชีโครงการ | ผู้จัดการแนวทางปฏิบัติ                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| การขายปลีกและการค้า               | ประสิทธิภาพของช่องทางการขายปลีก                    | PowerBI.com                                                                                                                                                                                                                    | [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| การบริหารห่วงโซ่อุปทาน           | การจัดการต้นทุน                               | PowerBI.com                                                                                                                                                                                                                    |  [เนื้อหาการจัดการต้นทุนใน Power BI](cost-management-content-pack.md)                                                          |
-|                                   | ประสิทธิภาพการทำงานการขายและกำไร           | LCS                                                                                                                                                                                                                            | [การขายและกำไรจากประสิทธิภาพเนื้อหาพลังงาน BI](sales-profitability-performance-content-pack.md)          |
-|                                   | การวิเคราะห์การซื้อและการใช้จ่าย                       | LCS                                                                                                                                                                                                                            | [เนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | การวิเคราะห์การบัญชีต้นทุน                      | LCS                                                                                                                                                                                                                            | [เนื้อหาการบัญชีต้นทุนใน Power BI](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | ประสิทธิภาพการทำงานของคลังสินค้า                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | ประสิทธิภาพการทำงานของการผลิต                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+- [เนื้อหาค่าตอบแทนใน Power BI](benefits-power-bi.md)
+- [เนื้อหาภาพรวมของเงินสดใน Power BI](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [เนื้อหาภาพรวมของ CFO ใน Power BI](CFO-power-bi.md)
+- [เนื้อหาค่าตอบแทนของ Power BI](compensation-power-bi.md)
+- [เนื้อหาการบัญชีต้นทุนใน Power BI*](cost-accounting-analysis-content-pack.md) 
+- [เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [เนื้อหาการพัฒนาพนักงานใน Power BI](employee-development-PBI.md) 
+- [เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI](financial-performance-power-bi-content-pack.md)
+- [เนื้อหาการจัดการสินทรัพย์ถาวรใน Power BI](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [เนื้อหาการเรียนรู้ Power BI](learning-power-bi.md)
+- [เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI](practice-manager-power-bi.md)
+- [เนื้อหา Power BI ของประสิทธิภาพการผลิต](production-performance-power-bi.md)
+- [เนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI](purchase-content-pack-for-power-bi.md) 
+- [เนื้อหาการสรรหาบุคลากรใน Power BI](recruiting-analysis-power-bi-content-pack.md) 
+- [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
+- [เนื้อหาชำระเงินให้แก่ผู้จัดจำหน่ายใน Power BI](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI](warehouse-power-bi-content.md)
+- [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)  
 
-## <a name="access-power-bi-content-from-lcs"></a>เข้าถึงเนื้อหา Power BI จาก LCS
-สำหรับข้อมูลเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และเชื่อมต่อกับข้อมูลขององค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md)
+### <a name="accessing-the-content"></a>การเข้าถึงเนื้อหา
 
-## <a name="access-power-bi-content-from-powerbicom"></a>เข้าถึงเนื้อหา Power BI จาก PowerBI.com
-1.  ลงชื่อเข้าใช้ไปยัง [PowerBI.com](https://www.powerbi.com/)
-2.  คลิก **รับข้อมูล**
-3.  ในกล่อง **บริการ** คลิก **รับ**
-4.  เลือกชุดเนื้อหาที่คุณต้องการ แล้วคลิก **รับ**
-5.  ป้อน URL ของสภาพแวดล้อม Dynamics 365 for Operations ของคุณ URL ต้องอยู่ในรูปแบบ **https://&lt;YourAOSTenant&gt;cloudax.dynamics.com** คลิก **ถัดไป**
-6.  เลือก **oAuth2** เป็นวิธีการรับรองความถูกต้อง และคลิก **เข้าสู่ระบบ**
-7.  เมื่อคุณได้รับพร้อมท์ ให้ป้อนบัญชี Microsoft Office 365 ที่มีสิทธิ์เข้าถึงสภาพแวดล้อม Dynamics 365 for Operations ของคุณ
-8.  หลังจากที่คุณได้เข้าสู่ระบบ กระบวนการนำเข้าจะเริ่มต้นโดยอัตโนมัติ เมื่อการนำเข้าเสร็จสมบูรณ์แล้ว รายงานที่รวมอยู่ในชุดเนื้อหาจะปรากฏในบานหน้าต่างนำทาง เลือกรายงานเพื่อดูข้อมูลที่นำเข้าของคุณ
+#### <a name="embedded-content"></a>เนื้อหาแบบฝัง
+ยกเว้นสำหรับเนื้อหาที่มีการทำเครื่องหมายด้วยเครื่องหมายดอกจัน (\*) เนื้อหาทั้งหมดในรายการข้างต้นถูกฝังอยู่ในแอพลิเคชัน หากต้องการเรียนรู้ข้อมูลเพิ่มเติมเกี่ยวกับที่สำหรับให้คุณสามารถดูเนื้อหา Power BI ได้ ให้คลิกลิงค์
 
-## <a name="learn-more-about-the-power-bi-integration"></a>เรียนรู้เพิ่มเติมเกี่ยวกับการรวม Power BI
--   [การรวม Power BI](power-bi-integration.md)
--   [ภาพรวมของการรวม Power BI ด้วยที่จัดเก็บเอนทิตี](power-bi-integration-entity-store.md)
--   [สร้างและแจกจ่ายรายงาน Power BI ด้วยที่จัดเก็บเอนทิตี](author-distribute-power-bi-reports.md)
--   [ตรึงรายงาน Power BI ไปยังพื้นที่ทำงาน](pin-power-bi-reports.md)
--   [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md)
--   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+#### <a name="files-available-in-lifecycle-services"></a>ไฟล์พร้อมใช้งานใน Lifecycle Services
+เนื้อหา Power BI พร้อมใช้งานในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหาและเชื่อมต่อกับข้อมูลของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
 
+## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>เนื้อหา Power BI สำหรับ Dynamics 365 for Operations เวอร์ชัน 1611
+ถ้าคุณกำลังใช้ Microsoft Dynamics 365 สำหรับเวอร์ชันการดำเนินงาน 1611 เนื้อหา Power BI ต่อไปนี้พร้อมใช้งานแล้ว:
 
+- [เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [เนื้อหาการบัญชีต้นทุนใน Power BI](cost-accounting-analysis-content-pack.md) 
+- [เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [เนื้อหาประสิทธิภาพทางการเงินใน Power BI](financial-performance-power-bi-content-pack.md)
+- [เนื้อหาการฝึกอบรมขององค์กรใน Power BI](organizational-training-analysis-power-bi-content-pack.md) 
+- [เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI](practice-manager-power-bi.md)
+- [เนื้อหา Power BI ของประสิทธิภาพการผลิต](production-performance-power-bi.md)
+- [เนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI](purchase-content-pack-for-power-bi.md) 
+- [เนื้อหาการสรรหาบุคลากรใน Power BI](recruiting-analysis-power-bi-content-pack.md) 
+- [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
+- [เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI](warehouse-power-bi-content.md)
+- [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)  
 
+### <a name="accessing-the-content"></a>การเข้าถึงเนื้อหา
+เนื้อหา Power BI พร้อมใช้งานในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหาและเชื่อมต่อกับข้อมูลของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
 
+## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>เนื้อหา Power BI สำหรับ Microsoft Dynamics AX
+ถ้าคุณกำลังใช้ Microsoft Dynamics AX 7.0 หรือ Microsoft Dynamics AX 7.0.1 เนื้อหา Power BI ต่อไปนี้พร้อมใช้งานแล้ว:
 
+- [เนื้อหาการจัดการต้นทุนใน Power BI](cost-management-content-pack.md)    
+- [เนื้อหาประสิทธิภาพทางการเงินใน Power BI](financial-performance-power-bi-content-pack.md)
+- [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md) 
 
+### <a name="accessing-the-content"></a>การเข้าถึงเนื้อหา
+เนื้อหา Power BI นี้อยู่บน PowerBI.com
+
+1. ลงชื่อเข้าใช้ไปยัง [PowerBI.com](https://www.powerbi.com/)
+2. คลิก **รับข้อมูล**
+3. ในกล่อง **บริการ** คลิก **รับ**
+4. เลือกชุดเนื้อหาที่คุณต้องการ แล้วคลิก **รับ**
+5. ป้อน URL ของสภาพแวดล้อม Dynamics AX ของคุณ URL ต้องอยู่ในรูปแบบ **https://&lt;YourAOSTenant&gt;cloudax.dynamics.com** คลิก **ถัดไป**
+6. เลือก **oAuth2** เป็นวิธีการรับรองความถูกต้อง และคลิก **เข้าสู่ระบบ**
+7. เมื่อคุณได้รับพร้อมท์ ให้ป้อนบัญชี Microsoft Office 365 ที่มีสิทธิ์เข้าถึงสภาพแวดล้อม Microsoft Dynamics AX ของคุณ
+8. หลังจากที่คุณได้เข้าสู่ระบบ กระบวนการนำเข้าจะเริ่มต้นโดยอัตโนมัติ เมื่อการนำเข้าเสร็จสมบูรณ์แล้ว รายงานที่รวมอยู่ในชุดเนื้อหาจะปรากฏในบานหน้าต่างนำทาง เลือกรายงานเพื่อดูข้อมูลที่นำเข้าของคุณ
 

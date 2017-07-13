@@ -3,14 +3,14 @@ title: "ดูและส่งออกคำอธิบายฟิลด์
 description: "บทความนี้อธิบายวิธีการดูคำอธิบายฟิลด์และวิธีการใช้หน้าคำอธิบายฟิลด์เพื่อส่งออกคำอธิบาย"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 บทความนี้อธิบายวิธีการดูคำอธิบายฟิลด์และวิธีการใช้หน้าคำอธิบายฟิลด์เพื่อส่งออกคำอธิบาย
 
-มีการระบุคำอธิบายสำหรับฟิลด์บางฟิลด์ที่ซับซ้อนมากขึ้นใน Microsoft Dynamics 365 for Operations คำอธิบายเหล่านี้ปรากฏเมื่อคุณวางเมาส์เหนือฟิลด์ นอกจากนี้คุณสามารถดู และส่งออกคำอธิบายบนหน้า **ฟิลด์คำอธิบาย** 
+มีการระบุคำอธิบายสำหรับฟิลด์บางฟิลด์ที่ซับซ้อนมากขึ้นใน Microsoft Dynamics 365 for Finance and Operations คำอธิบายเหล่านี้ปรากฏเมื่อคุณวางเมาส์เหนือฟิลด์ นอกจากนี้คุณสามารถดู และส่งออกคำอธิบายบนหน้า **ฟิลด์คำอธิบาย** 
 
 ไม่ใช่ทุกหน้าที่มีคำอธิบายฟิลด์ เราเพียงต้องการแสดงคำอธิบายสำหรับฟิลด์ที่ซับซ้อนมากขึ้น ไม่ใช้ตำแหน่งที่มีการใช้ฟิลด์ที่ชัดเจน ดังนั้นบางหน้าจะไม่มีคำอธิบายใดๆ บางหน้ามีคำอธิบายสองสามรายการ และบางหน้าที่ซับซ้อนมากขึ้น เช่น หน้าพารามิเตอร์ส่วนใหญ่ มีคำอธิบายหลายรายการ 
 
-ถ้าคุณมีสิทธิเข้าถึงสภาพแวดล้อมการพัฒนาใน Dynamics 365 for Operations คุณสามารถเพิ่มคำอธิบายฟิลด์ใหม่และเลือกกำหนดคำอธิบายที่มีอยู่ได้ ตัวอย่างเช่น คุณสามารถเพิ่มข้อมูลเฉพาะบริษัทไปยังคำอธิบายฟิลด์ได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [เลือกกำหนดวิธีใช้ฟิลด์](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+ถ้าคุณมีสิทธิเข้าถึงสภาพแวดล้อมการพัฒนาใน Finance and Operations คุณสามารถเพิ่มคำอธิบายฟิลด์ใหม่และเลือกกำหนดคำอธิบายที่มีอยู่ได้ ตัวอย่างเช่น คุณสามารถเพิ่มข้อมูลเฉพาะบริษัทไปยังคำอธิบายฟิลด์ได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [เลือกกำหนดวิธีใช้ฟิลด์](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>ดูคำอธิบายฟิลด์ในอินเทอร์เฟสผู้ใช้
-คุณสามารถดูคำอธิบายฟิลด์ได้โดยวางเมาส์เหนือฟิลด์ ถ้าไม่มีคำอธิบาย คุณจะเห็นชื่อฟิลด์เมื่อคุณวางเมาส์เหนือฟิลด์ (หมายเหตุ: ในเวอร์ชัน 7.0.0 คุณสามารถดูคำอธิบายฟิลด์ได้เฉพาะในหน้า **คำอธิบายฟิลด์** ) ภาพประกอบต่อไปนี้แสดงคำอธิบายฟิลด์ที่ปรากฏขึ้นเมื่อคุณวางเมาส์เหนือฟิลด์ **ล็อคสินค้าในระหว่างตรวจนับ** 
+คุณสามารถดูคำอธิบายฟิลด์ได้โดยวางเมาส์เหนือฟิลด์ ถ้าไม่มีคำอธิบาย คุณจะเห็นชื่อฟิลด์เมื่อคุณวางเมาส์เหนือฟิลด์ (หมายเหตุ: ใน Dynamics AX 7.0 (กุมภาพันธ์ 2016) คุณสามารถดูคำอธิบายฟิลด์ได้เฉพาะในหน้า **คำอธิบายฟิลด์** ) ภาพประกอบต่อไปนี้แสดงคำอธิบายฟิลด์ที่ปรากฏขึ้นเมื่อคุณวางเมาส์เหนือฟิลด์ **ล็อคสินค้าในระหว่างตรวจนับ** 
 
 [![ตัวอย่างของคำอธิบายฟิลด์](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[เลือกกำหนดวิธีใช้ฟิลด์](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[เลือกกำหนดวิธีใช้ฟิลด์](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

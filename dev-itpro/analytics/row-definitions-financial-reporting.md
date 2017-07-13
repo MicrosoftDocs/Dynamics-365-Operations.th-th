@@ -3,7 +3,7 @@ title: "คำนิยามแถวในผู้ออกแบบราย
 description: "คำนิยามแถวคือองค์ประกอบของรายงานหรือบล็อคส่วนประกอบที่ระบุเนื้อหาของแต่ละแถวในรายงานทางการเงิน คำนิยามแถวสามารถรวมกับคำนิยามคอลัมน์ คำนิยามแผนภูมิการรายงาน และข้อกำหนดของรายงาน เพื่อสร้างกลุ่มการสร้างบล็อคที่สามารถใช้โดยบริษัทหลายบริษัท"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/25/2017
 คำนิยามแถวสามารถประกอบด้วยแถวมิติทางการเงินกว่า 20000 แถว และอาจรวมถึงข้อมูลต่อไปนี้:
 
 -   ข้อความอธิบายที่เพิ่มความหมายให้กับรายงาน โดยการสร้างหัวข้อส่วนหัว บรรทัด และเว้นวรรค เช่น **เงินสด** หรือ **รายได้รวม**
--   การเชื่อมโยงไปยังข้อมูลทางการเงิน ซึ่งอาจรวมถึงค่ามิติในระบบ Microsoft Dynamics 365 for Operations **หมายเหตุ:** คุณสามารถตั้งค่าคำนิยามแถวเพื่อดึงข้อมูลจากระบบมิติทางการเงินทุกครั้งที่มีสร้างรายงานขึ้นมาได้
+-   การเชื่อมโยงไปยังข้อมูลทางการเงิน ซึ่งอาจรวมถึงค่ามิติในระบบ Microsoft Dynamics 365 for Finance and Operations **หมายเหตุ:** คุณสามารถตั้งค่าคำนิยามแถวเพื่อดึงข้อมูลจากระบบมิติทางการเงินทุกครั้งที่มีสร้างรายงานขึ้นมาได้
 -   ผลรวมและสูตรของแถวที่ขึ้นอยู่กับข้อมูลทางการเงินที่เชื่อมโยง
 
 โดยปกติ แต่ละแถวในคำนิยามแถวจะประกอบด้วยชนิดของข้อมูลหนึ่งชนิดดังต่อไปนี้:

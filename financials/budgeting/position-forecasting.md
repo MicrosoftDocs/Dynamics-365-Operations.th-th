@@ -1,16 +1,16 @@
 ---
 title: "การคาดการณ์ตำแหน่ง"
-description: 
+description: "ค่าใช้จ่ายที่เกี่ยวข้องกับผู้ปฏิบัติงานมักก่อให้เกิดสัดส่วนใหญ่ของค่าใช้จ่ายขององค์กร การคาดการณ์ตำแหน่งช่วยให้คุณวางแผนค่าใช้จ่ายเหล่านั้นและรวมสิ่งเหล่านั้นในการวางแผนงบประมาณ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>การคาดการณ์ตำแหน่ง
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ Jodi ไม่ต้องการให้ผู้จัดการเปล
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>การสร้างตำแหน่งตามการคาดการณ์สำหรับตำแหน่งที่มีอยู่
 
-สำหรับการวางแผนงบประมาณที่แม่นยำที่สุด คุณสามารถสร้างตำแหน่งตามการคาดการณ์โดยใช้รายละเอียดจากตำแหน่งที่มีอยู่ใน Microsoft Dynamics 365 for Operations ไม่ว่าตำแหน่งที่มีอยู่ในขณะนี้จะถูกระบุหรือไม่ถูกระบุ 
+สำหรับการวางแผนงบประมาณที่แม่นยำที่สุด คุณสามารถสร้างตำแหน่งตามการคาดการณ์โดยใช้รายละเอียดจากตำแหน่งที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ไม่ว่าตำแหน่งที่มีอยู่ในขณะนี้จะถูกระบุหรือไม่ถูกระบุ 
 
 ฟังก์ชั่น **เพิ่มตำแหน่งที่มีอยู่** แสดงตำแหน่งทั้งหมดสำหรับองค์กร โดยการตั้งค่า**ณ** วันที่ คุณสามารถเปลี่ยนรายการตำแหน่งเพื่อจะให้ประกอบด้วยตำแหน่งที่มีอยู่แล้วในวันที่ในอดีตอย่างหรือ ที่ปกติมากขึ้น ในอนาคต(ตัวอย่างเช่น การเริ่มต้นของวงจรงบประมาณถัดไป)ได้ ให้เลือกกระบวนการวางแผนงบประมาณและสถานการณ์จำลองแผนงบประมาณ ให้เลือกตำแหน่งในรายการ และจากนั้นให้คลิก **ตกลง** เพื่อสร้างตำแหน่งตามการคาดการณ์สำหรับตำแหน่งที่เลือก โปรดทราบว่าคุณสามารถสร้างตำแหน่งตามการคาดการณ์เพียงตำแหน่งเดียวเท่านั้นสำหรับแต่ละตำแหน่งที่มีอยู่ในกระบวนการวางแผนงบประมาณและสถานการณ์จำลองการวางแผนงบประมาณ อย่างไรก็ตาม คุณสามารถสร้างเวอร์ชั่นเพิ่มเติมโดยการมอบหมายสถานการณ์จำลองแผนงบประมาณที่ต่างกัน 
 

@@ -3,14 +3,14 @@ title: "ทำงานร่วมกับผู้จัดจำหน่า
 description: "หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถใช้พอร์ทัลผู้จัดจำหน่ายเพื่อร่วมมือกับผู้จัดจำหน่ายภายนอกในระหว่างกระบวนการยืนยันใบสั่งซื้อ ข้อมูลนี้ใช้กับ Dynamics AX เวอร์ชันกุมภาพันธ์ 2016 &amp; พฤษภาคม 2016 เท่านั้น"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef47cd32d78ea28496c014ed4537008159a05691
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: a8284e5a79e00def964b41f5c20bbb7377bf36be
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -100,7 +100,7 @@ ms.lasthandoff: 05/25/2017
 
 [การตั้งค่าคอนฟิกระบบความปลอดภัยของผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](configure-security-vendor-portal-users.md)
 
-[พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+[พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
 
 
 

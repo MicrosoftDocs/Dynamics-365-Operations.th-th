@@ -3,26 +3,27 @@ title: "รหัสข้อมูล"
 description: "บทความนี้แสดงภาพรวมเกี่ยวกับรหัส กลุ่มรหัสข้อมูล และข้อมูลวิธีใช้"
 author: mugunthanm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b7417a8fece55963dcde53e7016e4d41793a6102
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -41,8 +42,8 @@ ms.lasthandoff: 05/25/2017
 -   ขายผลิตภัณฑ์ตามการขายปกติ การขายที่มีส่วนลด หรือผลิตภัณฑ์ฟรี
 -   พร้อมต์พนักงานเก็บเงินให้ป้อนค่า หรือเลือกจากรายการของรหัสย่อยเมื่อพวกเขาเปิดลิ้นชักเครื่องบันทึกเงินสดโดยไม่ได้ดำเนินการขายได้
 
-## <a name="info-codes-group-in-retail-and-commerce"></a>กลุ่มรหัสข้อมูลในการขายปลีกและการค้า
-ใน Dynamics 365 for Operations - การขายปลีก คุณสามารถสร้างกลุ่มของรหัสข้อมูล กลุ่มรหัสข้อมูลเพิ่มความยืดหยุ่นโดยทำให้คุณสามารถกำหนดรหัสข้อมูลให้น้อยลง และใช้ให้เกิดประโยชน์หลากหลายมากขึ้น คุณสามารถใช้กลุ่มรหัสข้อมูลในลักษณะต่อไปนี้
+## <a name="info-codes-group"></a>กลุ่มรหัสข้อมูล
+ใน Dynamics 365 for Retail คุณสามารถสร้างกลุ่มของรหัสข้อมูล กลุ่มรหัสข้อมูลเพิ่มความยืดหยุ่นโดยทำให้คุณสามารถกำหนดรหัสข้อมูลให้น้อยลง และใช้ให้เกิดประโยชน์หลากหลายมากขึ้น คุณสามารถใช้กลุ่มรหัสข้อมูลในลักษณะต่อไปนี้
 -   กำหนดรหัสข้อมูลให้น้อยลง และง่ายใช้งานอีกครั้งโดยง่าย รหัสข้อมูลที่รวมอยู่ในกลุ่มรหัสข้อมูลได้ไม่ขึ้นต่อกันกับรหัสข้อมูลอื่นๆโดยกำหนดไว้ล่วงหน้า คุณสามารถรวมรหัสข้อมูลเดียวกันในหลายกลุ่มรหัสข้อมูล และจัดลำดับความสำคัญเพื่อแสดงรหัสข้อมูลเดียวกันในลำดับที่เหมาะสมในสถานการณ์พิเศษใด ๆ
 -   เชื่อมโยงรหัสข้อมูลไปยังรหัสข้อมูลหรือกลุ่มรหัสข้อมูลอืนๆ เพื่อรวบรวมข้อมูลเกี่ยวกับผลิตภัณฑ์หรือธุรกรรม โดยไม่ต้องกำหนดรหัสข้อมูลแยกต่างหากหรือรหัสข้อมูลที่เชื่อมโยงสำหรับแต่ละสถานการณ์จำลอง
 

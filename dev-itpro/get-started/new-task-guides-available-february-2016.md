@@ -3,13 +3,13 @@ title: "คู่มืองานใหม่ (กุมภาพันธ์ 
 description: "หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c99753f22e537fdc026342dce12389fb9acc83a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,10 +32,10 @@ ms.lasthandoff: 05/25/2017
 
 หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>คู่มืองานใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>คู่มืองานใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX
 ---------------------------------------------------------------------------------
 
-(กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีไว้เพื่อใช้เป็นวิธีใช้พร้อมกับการนำออกใช้ใน Dynamics 365 for Operations 7.0.0 ถ้าคุณต้องการคู่มืองานเวอร์ชันที่แปลเป็นภาษาท้องถิ่น สามารถดูได้ใน (พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
+(กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีไว้เพื่อใช้เป็นวิธีใช้พร้อมกับการนำออกใช้ใน Dynamics AX 7.0.0 ถ้าคุณต้องการคู่มืองานเวอร์ชันที่แปลเป็นภาษาท้องถิ่น สามารถดูได้ใน (พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
 
 ### <a name="accounts-payable"></a>บัญชีเจ้าหนี้
 

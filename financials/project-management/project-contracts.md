@@ -1,27 +1,27 @@
 ---
 title: "สัญญาโครงการ"
-description: "บทความนี้อธิบายและแสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Operations"
+description: "บทความนี้อธิบายและแสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายและแสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Operations
+บทความนี้อธิบายและแสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 
 ชนิดของโครงการที่คุณสร้างขึ้นสำหรับสัญญาโครงการ จะเป็นตัวกำหนดวิธีการที่ใช้ในการออกใบแจ้งหนี้แก่ลูกค้าโครงการ คุณสามารถแก้ไขสัญญาโครงการและโครงการที่เกี่ยวข้อง แต่คุณไม่สามารถเปลี่ยนชนิดของโครงการได้ 
 
@@ -49,8 +49,7 @@ ms.lasthandoff: 05/25/2017
 -   โครงการถนนได้รับเงินทุนร่วมจากสองอำเภอ
 -   โครงการสะพานได้รับเงินทุนโครงการโดยรัฐบาลเงินมอบช่วยเหลือและจากบริษัทเอกชน
 
-ใน Microsoft Dynamics 365 for Operations คุณสามารถแบ่งการเรียกเก็บเงินสำหรับธุรกรรมเดียวหรือทั้งโครงการระหว่างลูกค้าหลายราย 
- เงินช่วยเหลือ หรือองค์กร 
+ใน Finance and Operations คุณสามารถแบ่งการเรียกเก็บเงินสำหรับธุรกรรมเดียวหรือทั้งโครงการระหว่างลูกค้าหลายราย เงินช่วยเหลือ หรือองค์กร 
 
 ในโครงการที่มีผู้ให้ทุนหลายราย ทุกฝ่ายที่เกี่ยวข้องกับการจัดหาเงินทุนของโครงการจัดหาเงินทุนขั้นสูง จะเรียกว่าแหล่งเงินทุน หลังจากลูกค้า องค์กร หรือเงินช่วยเหลือถูกกำหนดเป็นแหล่งเงินทุน จึงจะสามารถกำหนดไปยังอย่างน้อยหนึ่งกฎการจัดหาเงินทุน กฎการจัดหาเงินทุนประกอบด้วยเกณฑ์ที่กำหนดวิธีการปันส่วนค่าธรรมเนียมกับแหล่งเงินทุนหลายแหล่งสำหรับโครงการ 
 

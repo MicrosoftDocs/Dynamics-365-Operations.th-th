@@ -1,16 +1,16 @@
 ---
 title: "นโยบายงานของคลังสินค้า"
-description: "มีการแนะนำนโยบายงานของคลังสินค้าใหม่ใน Microsoft Dynamics AX 7.0.1 (การอัพเดต พฤษภาคม 2016) นโยบายงานนี้ควบคุมว่ามีการสร้างงานของคลังสินค้าสำหรับกระบวนการคลังสินค้าในการผลิตหรือไม่"
+description: "นโยบายงานคลังสินค้าควบคุมวิธีการสร้างงานคลังสินค้าโดยกระบวนการคลังสินค้าในการผลิต โดยยึดตามชนิดของใบสั่งงาน สถานที่เก็บสินค้าคงคลัง และผลิตภัณฑ์"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-มีการแนะนำนโยบายงานของคลังสินค้าใหม่ใน Microsoft Dynamics AX 7.0.1 (การอัพเดต พฤษภาคม 2016) นโยบายงานนี้ควบคุมว่ามีการสร้างงานของคลังสินค้าสำหรับกระบวนการคลังสินค้าในการผลิตหรือไม่
+นโยบายงานคลังสินค้าใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ควบคุมวิธีการสร้างงานคลังสินค้าโดยกระบวนการคลังสินค้าในการผลิต โดยยึดตามชนิดของใบสั่งงาน สถานที่เก็บสินค้าคงคลัง และผลิตภัณฑ์
 
 นโยบายงานนี้ควบคุมว่ามีการสร้างงานของคลังสินค้าสำหรับกระบวนการคลังสินค้าในการผลิตหรือไม่ คุณสามารถตั้งค่านโยบายงานได้โดยใช้ชุดข้อมูลของ **ชนิดใบสั่งงาน** **สถานที่เก็บสินค้าคงคลัง**และ **ผลิตภัณฑ์** ตัวอย่างเช่น ผลิตภัณฑ์ L0101 ถูกรายงานเมื่อเสร็จสมบูรณ์ไปยังที่ตั้งเอาท์พุท 001 สินค้าที่สำเร็จแล้วจะถูกใช้ในใบสั่งผลิตอื่นในที่ตั้งเอาท์พุท 001 ในภายหลัง ในกรณีนี้ คุณสามารถตั้งค่านโยบายงานเพื่อป้องกันไม่ให้มีการสร้างการสำรองสินค้าที่สำเร็จแล้วเมื่อคุณรายงานผลิตภัณฑ์ L0101 เมื่อเสร็จสมบูรณ์ไปยังที่ตั้งเอาท์พุท 001 นโยบายงานคือเอนทิตี้แต่ละรายการที่สามารถอธิบายได้โดยใช้ข้อมูลต่อไปนี้:
 

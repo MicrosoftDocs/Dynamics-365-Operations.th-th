@@ -1,6 +1,6 @@
 ---
 title: "การค้นหานำทาง"
-description: "หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าใน Microsoft Dynamics 365 for Operations"
+description: "หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าใน Microsoft Dynamics 365 for Finance and Operations"
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าใน Microsoft Dynamics 365 for Operations
+หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าใน Microsoft Dynamics 365 for Finance and Operations
 
-Dynamics 365 for Operations ให้ฟังก์ชันสำหรับลำดับแถวในแนวนอนและแนวตั้งของอุตสาหกรรม แอพลิเคชันประกอบด้วยจำนวนของพื้นที่และหน้าเพื่อช่วยให้คุณทำงานต่าง ๆ เมื่อต้องการค้นหาหน้าที่คุณต้องทำงานให้เสร็จสมบูรณ์ ใช้คุณลักษณะค้นหาการนำทาง 
+Finance and Operations ให้ฟังก์ชันสำหรับลำดับแถวในแนวนอนและแนวตั้งของอุตสาหกรรม แอพลิเคชันประกอบด้วยจำนวนของพื้นที่และหน้าเพื่อช่วยให้คุณทำงานต่าง ๆ เมื่อต้องการค้นหาหน้าที่คุณต้องทำงานให้เสร็จสมบูรณ์ ใช้คุณลักษณะค้นหาการนำทาง 
 
 เมื่อต้องการใช้คุณลักษณะนี้ คลิก **ค้นหา** ไอคอนเพื่อแสดงกล่อง **ค้นหา** จากนั้นคุณยังสามารถพิมพ์หนึ่งคำหรือมากกว่าหนึ่งคำในกล่อง ระบบจะค้นหาหน้าที่เกี่ยวข้องในแอพลิเคชันที่ตรงกับคำที่คุณป้อนทันที ตัวอย่างเช่น คุณสามารถพิมพ์ "ใบแจ้งหนี้ของผู้จัดจำหน่าย" เป็นข้อมูลนำเข้า จากนั้นระบบจะแสดงผลลัพธ์ที่ตรงกับการป้อนข้อมูล 
 

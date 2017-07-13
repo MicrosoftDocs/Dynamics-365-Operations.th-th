@@ -3,14 +3,14 @@ title: "เผยแพร่รายการสมุดรายวันแ
 description: "หัวข้อนี้อธิบายวิธีการป้อนและการเผยแพร่รายการสำหรับสมุดรายวันทั่วไปจาก Microsoft Excel ซึ่งจะรวมถึงข้อมูลเกี่ยวกับเท็มเพลตต่าง ๆ ที่คุณสามารถใช้ โดยขึ้นอยู่กับชนิดของธุรกรรมที่คุณกำลังป้อน"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62213
 ms.assetid: 211874a7-4bf0-4a0c-96c2-fa05042777d3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a43bf66de7602aa9fb47925996ec5b979e1f8dac
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -48,9 +48,9 @@ ms.lasthandoff: 05/25/2017
 | สมุดรายวันการชำระเงินของลูกค้า | บัญชี: ลูกค้า บัญชีตรงข้าม: บัญชีแยกประเภท ธนาคาร ระบบระหว่างบริษัทได้รับการสนับสนุน                                               | สมุดรายวันการชำระเงินของลูกค้า                                                                |
 | สมุดรายวันค่าใช้จ่ายโครงการ  | บัญชี: โครงการ บัญชีแยกประเภท ลูกค้า ผู้จัดจำหน่าย บัญชีตรงข้าม: โครงการ บัญชีแยกประเภท ลูกค้า ผู้จัดจำหน่าย ระบบระหว่างบริษัทได้รับการสนับสนุน | ค่าใช้จ่ายสมุดรายวันทั่วไป (ภายใต้การจัดการและการบัญชีโครงการ)                       |
 
-เมื่อมีการเผยแพร่รายการเหล่านั้น รายการเหล่านั้นจะถูกตรวจสอบเพื่อให้แน่ใจว่าเป็นไปตามกฎที่ตั้งค่าไว้ในสมุดรายวันทางการเงิน หลังจากมีการเผยแพร่รายการดังกล่าว ผู้ใช้สามารถแก้ไข หรือลงรายการบัญชีใบสำคัญจาก Microsoft Dynamics 365 for Operations ได้ 
+เมื่อมีการเผยแพร่รายการเหล่านั้น รายการเหล่านั้นจะถูกตรวจสอบเพื่อให้แน่ใจว่าเป็นไปตามกฎที่ตั้งค่าไว้ในสมุดรายวันทางการเงิน หลังจากมีการเผยแพร่รายการดังกล่าว ผู้ใช้สามารถแก้ไข หรือลงรายการบัญชีใบสำคัญจาก Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้ 
 
-เมื่อต้องการเพิ่มมิติทางการเงินให้กับเท็มเพลต จำเป็นต้องมีการเปลี่ยนแปลงเพิ่มเติม สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เพิ่มมิติไปยังเท็มเพลต Microsoft Excel](/dynamics365/operations/dev-itpro/financial/add-dimensions-excel-templates) หลังจากที่มีการเพิ่มมิติไปยังเอนทิตีเหล่านั้น เอนทิตีเหล่านั้นจะพร้อมใช้งานในตัวออกแบบแบบ Excel และคุณสามารถเพิ่มลงในเท็มเพลตได้
+เมื่อต้องการเพิ่มมิติทางการเงินให้กับเท็มเพลต จำเป็นต้องมีการเปลี่ยนแปลงเพิ่มเติม สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เพิ่มมิติไปยังเท็มเพลต Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates) หลังจากที่มีการเพิ่มมิติไปยังเอนทิตีเหล่านั้น เอนทิตีเหล่านั้นจะพร้อมใช้งานในตัวออกแบบแบบ Excel และคุณสามารถเพิ่มลงในเท็มเพลตได้
 
 
 

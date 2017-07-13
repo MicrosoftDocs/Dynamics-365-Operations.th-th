@@ -3,7 +3,7 @@ title: "ภาพรวมการกระทบยอดบัญชีธน
 description: "บทความนี้อธิบายขั้นตอนสำหรับกระบวนการกระทบยอดธนาคารขั้นสูง คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงช่วยคุณนำเข้าใบแจ้งยอดจากธนาคารที่สามารถกระทบยอดจากภายในธุรกรรมธนาคารโดยอัตโนมัติ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,12 +42,12 @@ ms.lasthandoff: 05/25/2017
     -   ฟังก์ชันสามารถถูกขยายให้เป็นรูปแบบใดก็ได้
 
 2.  ตั้งค่าลำดับหมายเลขที่จะใช้สำหรับการกระทบยอดบัญชีธนาคารขั้นสูง และกำหนดกฎหารจับคู่การกระทบยอดบัญชีธนาคาร
-    -   กฎการจับคู่การกระทบยอดคือ ชุดของเงื่อนไขที่ใช้ในการกรองรายการใบแจ้งยอดจากธนาคารและรายการธุรกรรมธนาคารของ Microsoft Dynamics 365 for Operations ในระหว่างกระบวนการกระทบยอด ขึ้นอยู่กับแนวทางปฏิบัติทางธุรกิจของคุณ คุณสามารถตั้งค่ากฎการจับคู่มากกว่าหนึ่งกฎ เพื่อทำให้เป็นอัตโนมัติและเพิ่มประสิทธิภาพกระบวนการกระทบยอดของคุณ
+    -   กฎการจับคู่การกระทบยอดคือ ชุดของเงื่อนไขที่ใช้ในการกรองรายการใบแจ้งยอดจากธนาคารและรายการธุรกรรมธนาคารของ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ในระหว่างกระบวนการกระทบยอด ขึ้นอยู่กับแนวทางปฏิบัติทางธุรกิจของคุณ คุณสามารถตั้งค่ากฎการจับคู่มากกว่าหนึ่งกฎ เพื่อทำให้เป็นอัตโนมัติและเพิ่มประสิทธิภาพกระบวนการกระทบยอดของคุณ
 
-3.  กระทบยอดใบแจ้งยอดจากธนาคารกับธุรกรรมธนาคาร Dynamics 365 for Operations
+3.  กระทบยอดใบแจ้งยอดจากธนาคารกับธุรกรรมธนาคาร Finance and Operations
     -   ดำเนินการจับคู่และการสร้างสมุดรายวันการกระทบยอดอัตโนมัติ
-    -   ดูใบแจ้งยอดจากธนาคารและธุรกรรมธนาคาร Dynamics 365 for Operations โดยละเอียด
-    -   ลงรายการบัญชีธุรกรรมธนาคารของ Dynamics 365 for Operations โดยอัตโนมัติ ถ้าปรากฏบนใบแจ้งยอดจากธนาคาร แต่ไม่ปรากฏใน Dynamics 365 for Operations
+    -   ดูใบแจ้งยอดจากธนาคารและธุรกรรมธนาคาร Finance and Operations โดยละเอียด
+    -   ลงรายการบัญชีธุรกรรมธนาคารของ Finance and Operations โดยอัตโนมัติ ถ้าปรากฏบนใบแจ้งยอดจากธนาคาร แต่ไม่ปรากฏใน Finance and Operations
     -   สร้างใบแจ้งยอดของการกระทบยอด
 
 

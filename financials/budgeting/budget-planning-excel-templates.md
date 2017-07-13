@@ -3,7 +3,7 @@ title: "เท็มเพลตการวางแผนงบประมา
 description: "หัวข้อนี้อธิบายวิธีการสร้างเท็มเพลต Microsoft Excel ที่สามารถใช้ได้กับแผนงบประมาณ"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/25/2017
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> เมื่อต้องการหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นในการดูและแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรเข้าสู่ระบบไปยังทั้ง Dynamics 365 for Operations และ Add-in ของ Office สำหรับ Microsoft Dynamics
+> เมื่อต้องการหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นในการดูและแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรเข้าสู่ระบบไปยังทั้ง Microsoft Dynamics 365 for Finance and Operations, Enterprise edition และ Add-in ของ Office สำหรับ Microsoft Dynamics
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>เพิ่มหัวข้อลงในเท็มเพลตเอกสารแผนงบประมาณ
 เมื่อต้องการเพิ่มข้อมูลหัวข้อ เลือกแถวบนสุดในไฟล์ Excel และแทรกแถวที่ว่าง คลิก **ออกแบบ** ใน **ตัวเชื่อมต่อข้อมูล** เพื่อเพิ่มฟิลด์หัวข้อไปยังไฟล์ Excel
@@ -79,11 +79,11 @@ ms.lasthandoff: 05/25/2017
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> เมื่อต้องการกำหนดสูตร ให้สร้างสูตรในแผ่นตารางทำการ และจากนั้นคัดลอกไปยังหน้าต่าง **ออกแบบ** โดยทั่วไป ตารางขอบเขต Dynamics 365 for Operations จะถูกตั้งชื่อเป็น "AXTable1" ตัวอย่างเช่น เมื่อต้องการสรุปคอลัมน์คำขอ Q1 : คำขอ Q4 ในแผ่นตารางทำการ สูตร = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]
+> เมื่อต้องการกำหนดสูตร ให้สร้างสูตรในแผ่นตารางทำการ และจากนั้นคัดลอกไปยังหน้าต่าง **ออกแบบ** โดยทั่วไป ตารางขอบเขต Finance and Operations จะถูกตั้งชื่อเป็น "AXTable1" ตัวอย่างเช่น เมื่อต้องการสรุปคอลัมน์คำขอ Q1 : คำขอ Q4 ในแผ่นตารางทำการ สูตร = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]
 
 ทำซ้ำขั้นตอนเหล่านี้เพื่อแทรกคอลัมน์ **การปรับปรุง** ใช้สูตร = AxTable1\[Total request\]\*$I$1 สำหรับคอลัมน์นี้ ซึ่งจะใช้ค่าในเซลล์ I1 และคูณค่าในคอลัมน์ **คำขอรวม** เพื่อคำนวณยอดการปรับปรุง
 
-บันทึกแล้วปืดไฟล์ Excel กลับไปยัง Dynamics 365 for Operations และใน **โครงร่าง** คลิก **เท็มเพลต&gt; อัปโหลด** เพื่ออัปโหลดเท็มเพลต Excel ที่บันทึกที่จะใช้สำหรับแผนงบประมาณ 
+บันทึกแล้วปืดไฟล์ Excel กลับไปยัง Finance and Operations และใน **โครงร่าง** คลิก **เท็มเพลต &gt; อัปโหลด** เพื่ออัปโหลดเท็มเพลต Excel ที่บันทึกที่จะใช้สำหรับแผนงบประมาณ 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

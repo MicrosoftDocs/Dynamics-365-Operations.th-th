@@ -1,16 +1,16 @@
 ---
 title: "พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย ซึ่งพร้อมใช้งานสำหรับแอพบนมือถือ Microsoft Dynamics 365 for Operations พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้"
-author: YuyuScheller
+description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้"
+author: Mirzaab
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
+ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
+ms.openlocfilehash: 1a05c6c12d4b6d98886e418aadcc0bdb2c2fc8ef
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,21 +31,20 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้ 
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย ซึ่งพร้อมใช้งานสำหรับแอพบนมือถือ Microsoft Dynamics 365 for Operations พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้ 
+พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
 
-<a name="overview-of-the-sales-orders-mobile-workspace"></a>ภาพรวมของพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย
----------------------------------------------
-
-พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** เข้าถึง Microsoft Dynamics 365 for Operations และช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับใบสั่งขายแต่ละรายการได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ 
+## <a name="overview"></a>ภาพรวม
+พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ 
 
 พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก
 
 ### <a name="view-all-sales-orders"></a>ดูใบสั่งขายทั้งหมด
-
 มุมมองนี้แสดงรายการใบสั่งขายทั้งหมด
 
 -   ใช้ตัวกรองใดตัวกรองหนึ่งเพื่อเลือกใบสั่งขายที่ต้องการดู:
+
     -   ค้นหาตามใบสั่งขาย
     -   ค้นหาตามบัญชีของลูกค้า
     -   ค้นหาตามชื่อของลูกค้า
@@ -54,6 +53,7 @@ ms.lasthandoff: 05/25/2017
     -   ค้นหาตามวันที่และเวลาที่สร้าง
     
 -   หลังจากที่คุณเลือกใบสั่งขาย คุณสามารถดูรายละเอียดของใบสั่งเฉพาะได้ กล่าวคือ คุณสามารถดูข้อมูลต่อไปนี้:
+
     -   ข้อมูลชื่อและที่อยู่ของลูกค้า
     -   วันที่ต่างๆ สำหรับใบสั่งขาย เช่น วันที่จัดส่งที่ร้องขอ และวันที่จัดส่งที่ยืนยัน
     -   ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
@@ -62,17 +62,19 @@ ms.lasthandoff: 05/25/2017
     -   การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย
 
 ### <a name="view-orders-for-a-customer"></a>ดูใบสั่งสำหรับลูกค้า
-
 มุมมองนี้แสดงรายการใบสั่งขายโดยเรียงตามลูกค้า
 
 -   ใช้ตัวกรองใดตัวกรองหนึ่งต่อไปนี้เพื่อดูใบสั่งสำหรับลูกค้า:
+
     -   ค้นหาตามชื่อ
     -   ค้นหาตามบัญชี
 
 -   หลังจากที่คุณเลือกลูกค้า คุณสามารถดูข้อมูลต่อไปนี้:
+
     -   ชื่อและกลุ่มลูกค้า
     -   ข้อมูลติดต่อของลูกค้า
     -   ใบสั่งขายของลูกค้าและรายละเอียดเกี่ยวกับใบสั่งขายเหล่านั้น:
+    
         -   ข้อมูลชื่อและที่อยู่ของลูกค้า
         -   วันที่ในใบสั่งขายต่างๆ
         -   ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
@@ -81,14 +83,15 @@ ms.lasthandoff: 05/25/2017
         -   การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ก่อนที่คุณจะสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ตรวจสอบให้แน่ใจว่าผู้ดูแลระบบของคุณมีข้อกำหนดเบื้องต้นต่อไปนี้
+ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>ข้อกำหนดเบื้องต้นหากคุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017 
+ถ้า Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดพเดือนกรกฎาคม 2017 ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)
+
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
+ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>ข้อกำหนดเบื้องต้น</th>
@@ -98,58 +101,47 @@ ms.lasthandoff: 05/25/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>ต้องมีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า</td>
+<td>การใช้ KB 4013633</td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณยังไม่ได้ปรับใช้ Dynamics 365 for Operations ในองค์กรของคุณ ผู้ดูแลระบบควรเห็น <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">ปรับใช้สภาพแวดล้อมสาธิต Microsoft Dynamics 365 for Operations</a></td>
+
+<td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+
+</ol></td>
 </tr>
 <tr class="even">
-<td>ต้องปรับใช้ KB 4013633</td>
+<td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>KB 4013633 (การอัพเดต X++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา) ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนสี่สำหรับการบริหารห่วงโซ่อุปทาน เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้:
-<ol>
-<li>ดาวน์โหลด KB 4013633 จาก Microsoft Dynamics Lifecycle Services (LCS)</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">นำแพคเกจที่สามารถปรับใช้ได้ไปใช้</a> ไปยังระบบ Dynamics 365 for Operations ของคุณ</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong> ต้องถูกเผยแพร่ไปยังแอพบนมือถือ Dynamics 365 for Operations</td>
-<td>ผู้ดูแลระบบ</td>
-<td><ol>
-<li>เริ่มต้นการทำงาน Dynamics 365 for Operations ในเบราว์เซอร์ของคุณ</li>
-<li>ในหน้า <strong>พารามิเตอร์ระบบ</strong> เลือก <strong>จัดการพื้นที่ทำงานแบบเคลื่อนที่</strong></li>
-<li>เลือกพื้นที่ทำงาน <strong>ใบสั่งขาย</strong></li>
-<li>คลิก <strong>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</strong></li>
-</ol></td>
+<td>ดู <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations จากร้านค้าแอพบนมือถือของคุณ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
+ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
 
--   สำหรับ Android: [Dynamics 365 for Operations บน Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   สำหรับ iPhone: [Dynamics 365 for Operations บนร้านค้าแอพ iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+-   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>ลงชื่อเข้าใช้ไปยังแอพบนมือถือ Dynamics 365 for Operations
+## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
+
 1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2.  ป้อน URL ของ Dynamics 365 for Operations ของคุณ
-3.  ป้อนบริษัทเพื่อลงชื่อเข้าใช้ ตัวอย่างเช่น ป้อน **USMF**
-4.  ในครั้งแรกที่คุณเข้าสู่ระบบ คุณจะได้รับพร้อมท์สำหรับชื่อผู้ใช้และรหัสผ่านสำหรับบัญชี Dynamics 365 for Operations ของคุณ ป้อนข้อมูลประจำตัวของคุณ
-5.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว คุณจะสามารถดูพื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณ หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณสามารถดึงเพื่อรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่ได้ 
+2.  ป้อน URL ของ Dynamics 365
+3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
+4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
 
-    [![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-mobile-workspace"></a>ดูข้อมูลเกี่ยวกับใบสั่งขายสำหรับลูกค้าโดยใช้พื้นที่ทำงานแบบเคลื่อนที่
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>ดูข้อมูลเกี่ยวกับใบสั่งขายสำหรับลูกค้าโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย
+
 1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ใบสั่งขาย**
 2.  เลือก **ดูใบสั่งสำหรับลูกค้า**
 3.  ใช้ข้อมูลบัญชีหรือชื่อลูกค้าเพื่อค้นหาลูกค้าที่ต้องการ
 4.  เลือกลูกค้า
 5.  เลือก **ข้อมูลติดต่อ** หรือ **ใบสั่งขาย** ถ้าคุณเลือก **ใบสั่งขาย** รายการใบสั่งขายสำหรับลูกค้าจะปรากฏขึ้น
 6.  เลือก **ใบสั่งขาย** ในขณะนี้คุณสามารถดูข้อมูลเกี่ยวกับบรรทัดใบสั่งขาย ข้อมูลเกี่ยวกับการจัดส่ง ข้อมูลติดต่อของลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
-
-
-
-
 

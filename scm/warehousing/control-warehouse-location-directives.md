@@ -3,14 +3,14 @@ title: "ควบคุมงานคลังสินค้าโดยเท
 description: "บทความนี้อธิบายวิธีการใช้เท็มเพลตงานและคำสั่งสถานที่ในการกำหนดวิธีและตำแหน่งที่งานจะถูกดำเนินการในคลังสินค้า"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 บทความนี้อธิบายวิธีการใช้เท็มเพลตงานและคำสั่งสถานที่ในการกำหนดวิธีและตำแหน่งที่งานจะถูกดำเนินการในคลังสินค้า
 
-คำสั่งที่พนักงานคลังสินค้าได้รับบนอุปกรณ์เคลื่อนที่จะถูกกำหนดโดยเท็มเพลตงานที่คุณตั้งค่าใน Microsoft Dynamics 365 for Operations เพื่อกำหนดกระบวนการคลังสินค้าและหน้าที่ต่างๆ เท็มเพลตงานกำหนดวิธีดำเนินงานสำหรับกระบวนการคลังสินค้าแต่ละรายการ ด้วยการเชื่อมโยงคำสั่งสถานที่กับเท็มเพลตงาน คุณสามารถช่วยรับประกันว่างานเกิดขึ้นเฉพาะในพื้นที่จริงของคลังสินค้า
+คำสั่งที่พนักงานคลังสินค้าได้รับบนอุปกรณ์เคลื่อนที่จะถูกกำหนดโดยเท็มเพลตงานที่คุณตั้งค่าใน Microsoft Dynamics 365 for Finance and Operations เพื่อกำหนดกระบวนการคลังสินค้าและหน้าที่ต่างๆ เท็มเพลตงานกำหนดวิธีดำเนินงานสำหรับกระบวนการคลังสินค้าแต่ละรายการ ด้วยการเชื่อมโยงคำสั่งสถานที่กับเท็มเพลตงาน คุณสามารถช่วยรับประกันว่างานเกิดขึ้นเฉพาะในพื้นที่จริงของคลังสินค้า
 
 ## <a name="work-templates"></a>เท็มเพลตงาน
 หน้า **เท็มเพลตงาน** ช่วยให้คุณสามารถกำหนดการดำเนินงานที่ต้องดำเนินการในคลังสินค้า โดยปกติ การดำเนินงานคลังสินค้าประกอบด้วยสองการดำเนินการ: ผู้ปฏิบัติงานคลังสินค้าเลือกสินค้าคงคลังคงเหลือในสถานที่หนึ่งและหลังจากนั้นก็ใสนำสินค้าคงคลังที่เลือกมาไปลงไว้อีกสถานที่หนึ่ง 

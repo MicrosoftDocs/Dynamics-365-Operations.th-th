@@ -3,14 +3,14 @@ title: "ข้อตกลงการซื้อ"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับข้อตกลงการซื้อ  ข้อตกลงการซื้อคือสัญญาที่กำหนดให้องค์กรซื้อในปริมาณหรือยอดเงินที่ระบุโดยใช้ใบสั่งซื้อตามช่วงเวลา ในการแลกเปลี่ยนข้อผูกมัดนี้ ผู้ซื้อจะได้รับราคาและส่วนลดพิเศษ"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ ms.lasthandoff: 05/25/2017
 เมื่อคุณสร้าง PO คุณสามารถใช้ข้อตกลงการซื้อกับ PO นั้นได้ ข้อมูลจากเงื่อนไขสำหรับข้อตกลง เช่นเงื่อนไขการชำระเงิน เงื่อนไขการจัดส่ง และที่อยู่จัดส่ง มีการคัดลอกไปยังส่วนหัวของ PO ถ้า PO ประกอบด้วยอย่างน้อยรายการหนึ่งรายการขึ้นไปสำหรับผลิตภัณฑ์หรือประเภทที่ครอบคลุมโดยข้อตกลง ราคาและส่วนลดจากข้อตกลงการซื้อจะถูกใช้สำหรับรายการเหล่านั้น ยอดเงินหรือปริมาณในรายการใบสั่ง จัดสรรไปการเติมสินค้าของข้อผูกมัดที่ในข้อตกลงการซื้อ POใบเดียวกันสามารถรวมทั้งรายการที่ไม่เกี่ยวข้องกับข้อตกลงการซื้อและรายการที่มีข้อผูกมัดสำหรับข้อตกลงการซื้อได้  
 
 คุณสามารถเลือกข้อตกลงการซื้อเมื่อคุณกำลังสร้าง PO ได้เท่านั้น คุณไม่สามารถเลือกข้อตกลงการซื้อหลังจากที่ PO ถูกสร้างขึ้นแล้ว  
-ในบางสถานการณ์ที่ POs ถูกสร้างโดยอ้อม คุณสามารถควบคุมว่า Microsoft Dynamics 365 for Operations ค้นหาโดยอัตโนมัติสำหรับข้อตกลงการซื้อที่เกี่ยวข้องอยู่หรือไม่ ตัวอย่างเช่น คุณอาจดำเนินการนี้เมื่อคุณกำลังยืนยันแผนการ POs โดยอัตโนมัติ หรือกำลังสร้าง POs ที่ขึ้นอยู่กับใบสั่งขาย
+ในบางสถานการณ์ที่ POs ถูกสร้างโดยทางอ้อม คุณสามารถควบคุมว่า Finance and Operations จะค้นหาข้อตกลงการซื้อที่เกี่ยวข้องโดยอัตโนมัติหรือไม่ ตัวอย่างเช่น คุณอาจดำเนินการนี้เมื่อคุณกำลังยืนยันแผนการ POs โดยอัตโนมัติ หรือกำลังสร้าง POs ที่ขึ้นอยู่กับใบสั่งขาย
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>ข้อตกลงการซื้อและการค้าระหว่างบริษัท
 สามารถสร้างความสัมพันธ์ทางการค้าระหว่างบริษัท ระหว่างบัญชีผู้จัดจำหน่ายและบัญชีลูกค้าที่อยู่ในนิติบุคคลอื่น เมื่อใบสั่งขายหรือPOถูกสร้างขึ้นสำหรับฝ่ายใดฝ่ายหนึ่ง ห่วงโซ่ใบสั่งระหว่างบริษัทจะถูกสร้างขึ้น ในห่วงโซ่ใบสั่ง ใบสั่งขายและPOถูกสร้างในนิติบุคคลที่เหมาะสม  
