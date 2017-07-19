@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: th-th
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ ms.lasthandoff: 06/20/2017
 การตรวจสอบงบประมาณ จากหน้านี้ ผู้ใช้สามารถเข้าถึงหน้า **สถิติการควบคุมงบประมาณตามรอบระยะเวลา** เพื่อดูรายละเอียดความพร้อมใช้งานของงบประมาณและการจองสินค้าสำหรับชุดมิติการควบคุมงบประมาณที่เลือก ผู้ใช้สามารถเพิ่มเข้าไปที่หน้า **สถิติการควบคุมงบประมาณ**เพื่อดูความพร้อมใช้งานของงบประมาณสำหรับชุดมิติทางการเงินทั้งหมดที่ใช้ในการควบคุมงบประมาณ 
 
 สถิติการควบคุมงบประมาณตามรอบระยะเวลา ผู้จัดการงบประมาณสามารถใช้พื้นที่ทำงาน **งบประมาณบัญชีแยกประเภทและการคาดการณ์** เพื่อตรวจสอบคิวของของใบสั่งซื้อที่ยังไม่ได้ยืนยันทั้งหมดที่มีข้อผิดพลาดและการเตือนการตรวจสอบงบประมาณ ถ้าผู้จัดการงบประมาณได้ตั้งค่าคอนฟิกสิทธิ์ในการเกินงบประมาณ เขาหรือเธอสามารถยืนยันใบสั่งซื้อโดยตรงในพื้นที่ทำงานได้    
+
