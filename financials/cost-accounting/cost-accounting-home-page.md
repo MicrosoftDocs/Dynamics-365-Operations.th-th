@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# โฮมเพจการบัญชีต้นทุน
+# <a name="cost-accounting-home-page"></a>โฮมเพจการบัญชีต้นทุน
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ ms.lasthandoff: 06/13/2017
 -   สร้างใบแจ้งยอดที่สามารถดูได้ในพื้นที่ทำงาน
 -   สร้างรายงานโดยใช้ Excel
 
-<a id="get-started" class="xliff"></a>
-
-## เริ่มต้น
+## <a name="get-started"></a>เริ่มต้น
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ ms.lasthandoff: 06/13/2017
 -   [มิติออบเจ็กต์ต้นทุน](cost-objects.md)
 -   [สร้างองค์ประกอบต้นทุน](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (คู่มืองาน)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
+## <a name="cost-control-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 ด้วยพื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน ผู้จัดการศูนย์ต้นทุนสามารถดูประสิทธิภาพของศูนย์ต้นทุนได้ตลอดเวลา และที่ใดก็ได้
 
 -   [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## เนื้อหาการบัญชีต้นทุนใน Power BI
+## <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหาการบัญชีต้นทุนใน Power BI
 เนื้อหา Power BI ของ Microsoft เกี่ยวกับการวิเคราะห์การบัญชีต้นทุนมีไว้สำหรับผู้ควบคุมต้นทุนหรือบุคคลที่รับผิดชอบในการดำเนินการควบคุมต้นทุนขององค์กร ซึ่งรวมเมตริกคีย์ เช่น ต้นทุน ขนาด และอัตราต้นทุนตามต้นทุนจริง ต้นทุนงบประมาณ และต้นทุนงบประมาณแบบยืดหยุ่น ซึ่งใช้ข้อมูลธุรกรรมจากการบัญชีต้นทุนใน Finance and Operations และแสดงมุมมองรวมของต้นทุนสำหรับองค์กรทั้งหมดในสกุลเงินการรายงานหนึ่ง ผู้จัดการสามารถกรองข้อมูลตามออบเจ็กต์ต้นทุนเพื่อทำการควบคุมต้นทุนของหน่วยขององค์กร แม้ว่าองค์กรจะสามารถมีหลายนิติบุคคล
 
 -   [เนื้อหา Power BI เกี่ยวกับการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
