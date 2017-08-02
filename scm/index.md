@@ -1,28 +1,28 @@
 ---
 title: "โฮมเพจการบริหารห่วงโซ่อุปทาน"
 description: "หน้านี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations - การบริหารห่วงโซ่อุปทานได้อย่างมีประสิทธิภาพมากขึ้น"
-author: yuyus
+author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 4044c66833e914b1f0f2d552d827013bd48dc2db
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
 ms.contentlocale: th-th
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,22 +36,49 @@ ms.lasthandoff: 06/29/2017
 ไปที่ <a href="https://roadmap.dynamics.com/">แผนการทำงาน Dynamics 365</a> เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา 
 
 ## <a name="core-concepts-and-tasks"></a>แนวคิดหลักและงาน
-*  ในบานหน้าต่างด้านซ้าย ให้เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">ประมวลผล ASN ขาเข้าในการจัดการคลังสินค้า</a> (วิดีโอ) 
 
+เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม
+
+- [การบัญชีต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/financials/toc.json)
+- [การจัดการต้นทุน](cost-management\costing-sheets.md)  
+- [การบริหารสินค้าคงคลัง](inventory\consignment.md)
+- [การวางแผนหลัก](master-planning\introduction-demand-forecasting.md)
+- [การจัดซื้อและการจัดหา](procurement\procurement-sourcing-overview.md)
+- [การจัดการข้อมูลผลิตภัณฑ์](pim\product-information.md)
+- [การควบคุมการผลิต](production-control\production-process-overview.md)
+- [การขายและการตลาด](sales-marketing\overview-sales-marketing.md)
+- [การจัดการการขนส่ง](transportation\transportation-management-overview.md)
+- [การบริหารคลังสินค้า](warehousing\warehouse-configuration.md)
+
+## <a name="videos"></a>วิดีโอ
+
+### <a name="get-started"></a>เริ่มต้นใช้งาน  
+
+วิดีโอสั้นเหล่านี้จะช่วยคุณเริ่มต้นใช้งานคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017
+
+-  [เริ่มต้นใช้งานการบัญชีต้นทุน](https://youtu.be/1pUDtJQZ8FU)
+-  [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)
+-  [ใช้ Excel สำหรับการวิเคราะห์ต้นทุน](https://youtu.be/-HKHYdClvx8)
+
+### <a name="tech-talk"></a>การพูดคุยเกี่ยวกับเทคโนโลยี 
+-  <a href="https://youtu.be/zotrj3SbCl4">ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX</a>
+-  <a href="https://youtu.be/7v8BPmEs9Dg">การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา</a>
+-  <a href="https://youtu.be/RLXybx20B5o">ช่วยด้วย MRP ทำงานช้า</a>
+-  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">ประมวลผล ASN ขาเข้าในการจัดการคลังสินค้า</a> 
+-  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด</a>
+-  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">การจัดการคลังสินค้าขั้นสูง R3 - การดำเนินการขาเข้าและการเติมสินค้าต่ำสุด/สูงสุด</a>
+-  <a href="https://youtu.be/Og0gLlVp7jA">การจัดการคลังสินค้าขั้นสูง R3 - หนึ่งวันในอายุการใช้งาน การดำเนินการขาออกและการเติมสินค้าตามความต้องการ</a>
+-  <a href="https://youtu.be/5w1MngVchBA">ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่</a>
+-  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในอายุการใช้งานของประมวลผลการผลิต</a>
+-  <a href="https://youtu.be/y1jrd3A_k70">การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต</a>
 
 ## <a name="blogs"></a>บล็อก
-มีหัวข้อต่าง ๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX </a> รายการเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และขั้นตอนจะเหมือนกันในรุ่นปัจจุบัน 
-
-ตัวอย่างเช่น คุณสามารถอ่านโพสต์ต่าง ๆ ล่าสุดเกี่ยวกับ: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">การประกาศ Finance and Operations – คลังสินค้า</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">ฟังก์ชันการบรรจุสินค้าที่ได้รับการพัฒนาแล้ว (Dynamics 365 for Operations 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังใบสั่งโอนย้าย</a>
+มีหัวข้อต่าง ๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX </a> รายการเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
 
 ## <a name="white-papers"></a>เอกสาร
-* เอกสาร <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Finance and Operations - การเริ่มต้นใช้งานกับการบัญชีต้นทุน</a> จะแสดงขั้นตอนพื้นฐานเพื่อตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations – การบัญชีต้นทุน เพื่อสร้างการวิเคราะห์ต้นทุนจริง และยังมีชุดของขั้นตอนที่คุณสามารถดำเนินการตามลำดับที่ปรากฏ
-* เอกสาร <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Finance and Operations - Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการวางแผนงานคัมบัง</a> จะอธิบายรายละเอียดของการวางแผนงานคัมบังและแนะนำแนวคิดของการดำเนินการใบสั่งขายที่ใช้วิธีการของปริมาณที่สามารถสัญญาได้ (CTP) สำหรับการควบคุมวันที่จัดส่ง และยังอธิบายถึงวิธีรวม CTP ด้วยคัมบังเหตุการณ์เพื่อจำลองสถานการณ์การผลิตเพื่อรอคำสั่งซื้อหรือการผลิตตามสั่งซื้อ
-* เอกสาร <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Finance and Operations - การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน</a> จะอธิบายถึงวิธีการตั้งค่าแผ่นงานคำนวณต้นทุนที่มีวัสดุและการผลิต และวิธีที่การตั้งค่ามีผลกับผลลัพธ์การคำนวณ BOM คุณสามารถทำแบบฝึกหัดในภาคผนวกสำหรับวัตถุประสงค์การเรียนรู้ และใช้ความรู้ที่คุณได้รับจากการอ่านเอกสารนี้ในการทำการวิเคราะห์การคำนวณ BOM
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">ห้องปฏิบัติการในเชิงปฏิบัติเกี่ยวกับการบัญชีต้นทุน</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">การคำนวณ BOM โดยการใช้แผ่นงานการคิดต้นทุน</a>
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 สำหรับข้อมูลเกี่ยวกับการฝึกอบรม Microsoft Dynamics 365 for Finance and Operations ให้ดูที่ <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> เว็บไซต์เรียนรู้ Microsoft Dynamics</a> (ต้องมีบัญชี CustomerSource) 

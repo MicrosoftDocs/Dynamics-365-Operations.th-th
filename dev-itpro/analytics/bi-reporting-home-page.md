@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: th-th
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ ms.lasthandoff: 06/29/2017
 -   [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
 -   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 -   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (คู่มืองาน)
--   [ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (คู่มืองาน)
--   [กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูลของ ER](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (คู่มืองาน)
--   [แม็ปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือกของ ER](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (คู่มืองาน)
--   [ออกแบบโดเมนของรูปแบบที่เฉพาะเจาะจงของ ER](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (คู่มืองาน)
--   [อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services ของ ER](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (คู่มืองาน)
--   [นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services ของ ER](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (คู่มืองาน)
--   [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกปลายทางของ ER](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 1: ออกแบบแบบจำลองข้อมูล)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 2: การแม็ปแบบจำลอง)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 3: ออกแบบรายงาน)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 4: รันรายงาน)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 1: สร้างรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 2: ตั้งค่าการคำนวณ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 3: ใช้การคำนวณเพื่อสร้างผลลัพธ์)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 4: รันรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (คู่มืองาน)
--   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 1: ออกแบบรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (คู่มืองาน)
--   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 2: รันรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 1: จัดเตรียมแบบจำลองข้อมูล)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 2: ขยายแบบจำลองข้อมูล)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 3: สร้างรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 4: รันรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 5: แก้ไขและรันรูปแบบ)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (คู่มืองาน)
--   [สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบของ ER](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (คู่มืองาน)
--   [อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นของ ER](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (คู่มืองาน)
+-   [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (คู่มืองาน)
+-   [ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (คู่มืองาน)
+-   [กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูลของ ER](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (คู่มืองาน)
+-   [แม็ปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือกของ ER](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (คู่มืองาน)
+-   [ออกแบบโดเมนของรูปแบบที่เฉพาะเจาะจงของ ER](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (คู่มืองาน)
+-   [อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (คู่มืองาน)
+-   [นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (คู่มืองาน)
+-   [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (คู่มืองาน)
+-   [ตั้งค่าคอนฟิกปลายทางของ ER](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (คู่มืองาน)
+-   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 1: ออกแบบแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (คู่มืองาน)
+-   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 2: การแม็ปแบบจำลอง)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (คู่มืองาน)
+-   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 3: ออกแบบรายงาน)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (คู่มืองาน)
+-   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 4: รันรายงาน)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (คู่มืองาน)
+-   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 1: สร้างรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (คู่มืองาน)
+-   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 2: ตั้งค่าการคำนวณ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (คู่มืองาน)
+-   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 3: ใช้การคำนวณเพื่อสร้างผลลัพธ์)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (คู่มืองาน)
+-   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 4: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (คู่มืองาน)
+-   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 1: ออกแบบรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (คู่มืองาน)
+-   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 2: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (คู่มืองาน)
+-   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 1: จัดเตรียมแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (คู่มืองาน)
+-   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 2: ขยายแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (คู่มืองาน)
+-   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 3: สร้างรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (คู่มืองาน)
+-   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 4: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (คู่มืองาน)
+-   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 5: แก้ไขและรันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (คู่มืองาน)
+-   [สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (คู่มืองาน)
+-   [อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นของ ER](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (คู่มืองาน)
 
 
 
