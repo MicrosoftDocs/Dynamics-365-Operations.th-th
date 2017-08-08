@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 425e87f8b667b53fcc950730dc4ece6330503d66
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: acb832c422ccb5ddb98d6ddd6b69d2e2c3e11057
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 06/20/2017
 
 ## <a name="connecting-the-help-system"></a>การเชื่อมต่อระบบวิธีใช้
 > [!NOTE]
-> ในขณะนี้แท็บ **คู่มืองาน** ไม่พร้อมใช้งานใน Microsoft Dynamics 365 for Talent และ Microsoft Dynamics 365 for Retail เรากำลังดำเนินกรเพื่อเปิดใช้งานฟังก์ชันนี้ในรุ่นต่อไป คู่มืองานในประสบการณ์การเริ่มต้นใช้งานใน Talent ยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน นอกจากนี้วิธีใช้ตามขั้นตอนยังพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) สำหรับทั้ง Retail และ Talent
+> ในขณะนี้แท็บ **คู่มืองาน** ไม่พร้อมใช้งานใน Microsoft Dynamics 365 for Talent และ Microsoft Dynamics 365 for Retail เรากำลังดำเนินกรเพื่อเปิดใช้งานฟังก์ชันนี้ในรุ่นต่อไป คู่มืองานในประสบการณ์การเริ่มต้นใช้งานใน Talent ยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน นอกจากนี้วิธีใช้ตามขั้นตอนยังพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) สำหรับทั้ง Retail และ Talent
  
 
 การใช้หน้า **พารามิเตอร์ระบบ** ผู้ดูแลระบบจะเชื่อมต่อชิ้นส่วนของระบบวิธีใช้สำหรับการนำไปใช้ [![แบบฟอร์มพารามิเตอร์ระบบพร้อมการตั้งค่าวิธีใช้](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) บนหน้า **พารามิเตอร์ระบบ** ให้ปฏิบัติตามขั้นตอนต่อไปนี้:

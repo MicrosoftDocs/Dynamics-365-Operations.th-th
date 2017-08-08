@@ -1,28 +1,28 @@
 ---
 title: "ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม"
-description: "บทความนี้อธิบายถึงการกรองข้อมูลและตัวเลือกการสอบถามที่พร้อมใช้งานเมื่อคุณใช้ตัวดำเนินการ &quot;รายการตรงกัน&quot; ในกล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง"
+description: "บทความนี้อธิบายถึงการกรองข้อมูลและตัวเลือกการสอบถามที่พร้อมใช้งานเมื่อคุณใช้ตัวดำเนินการ \"รายการตรงกัน\" ในกล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง"
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 05/25/2017
 <td><em>จากค่า</em>..<em>ถึงค่า</em> (เครื่องหมายมหัพภาคสองเครื่องหมาย)</td>
 <td>ระหว่างสองค่าที่ป้อนถูกแยกด้วยเครื่องหมายมหัพภาคสองเครื่องหมาย</td>
 <td>พิมพ์ค่าเริ่มต้น ตามด้วยเครื่องหมายมหัพภาคสองเครื่องหมาย แล้วตามด้วยค่าสิ้นสุด</td>
-<td><strong>1..10</strong> จะค้นหาค่าทั้งหมดตั้งแต่ 1 จนถึง 10 อย่างไรก็ตาม ในฟิลด์สตริง <strong>A..C</strong> จะค้นหาค่าทั้งหมดที่ขึ้นต้นด้วย &quot;A&quot; และ &quot;B&quot; และค่าเท่ากับ &quot;C&quot; ตัวอย่างเช่น การสอบถามนี้จะไม่ค้นหา &quot;Ca&quot; เมื่อต้องการค่าทั้งหมดตั้งแต่ &quot;A*&quot; จนถึง &quot;C*&quot; พิมพ์ <strong>A..D</strong></td>
+<td><strong>1..10</strong> จะค้นหาค่าทั้งหมดตั้งแต่ 1 จนถึง 10 อย่างไรก็ตาม ในฟิลด์สตริง <strong>A..C</strong>จะค้นหาค่าทั้งหมดที่ขึ้นต้นด้วย &quot;A&quot; และ &quot;B&quot; และค่าเท่ากับ &quot;C&quot; ตัวอย่างเช่น การสอบถามนี้จะไม่ค้นหา &quot;Ca&quot; เมื่อต้องการค่าทั้งหมดตั้งแต่ &quot;A*&quot; จนถึง &quot;C*&quot; พิมพ์ <strong>A..D</strong></td>
 </tr>
 <tr class="even">
 <td>..<em>ค่า</em> (เครื่องหมายมหัพภาคสองเครื่องหมาย)</td>
@@ -122,7 +122,7 @@ ms.lasthandoff: 05/25/2017
 <td><em>ค่า</em>,<em>ค่า</em> (เครื่องหมายจุลภาค)</td>
 <td>จับคู่ค่าที่ถูกแยกด้วยเครื่องหมายจุลภาค</td>
 <td>พิมพ์เงื่อนไขทั้งหมดของคุณ และแยกโดยการใช้เครื่องหมายจุลภาค</td>
-<td><strong>A, D, F, G</strong> จะค้นหาค่าที่ตรงกับ &quot;A&quot;, &quot;D&quot;, &quot;F&quot;และ &quot;G&quot;. <strong>10, 20, 30, 100</strong> จะค้นหาค่าที่ตรงกับ &quot;10, 20, 30, 100&quot;</td>
+<td><strong>A, D, F, G</strong> จะค้นหาค่าที่ตรงกับ &quot;A&quot;, &quot;D&quot;, &quot;F&quot; และ &quot;G&quot; พอดี <strong>10, 20, 30, 100</strong> จะค้นหาค่าที่ตรงกับ &quot;10, 20, 30, 100&quot; พอดี</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">คำสั่ง SQL</span>) (คำสั่ง SQL ในวงเล็บ)</td>

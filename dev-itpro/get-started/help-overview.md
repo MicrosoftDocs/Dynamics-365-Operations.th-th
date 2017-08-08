@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 บทความนี้แสดงภาพรวมส่วนประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายวิธีระบุเอกสารแบบกำหนดเองและการฝึกอบรมองค์กรของคุณ 
 
-> [!IMPORTANT] 
-> ผลิตภัณฑ์ต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับ Talent หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent และหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับผลิตภัณฑ์หนึ่งนั้นอาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้
+> [!NOTE] 
+> ผลิตภัณฑ์ต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับ Talent หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent และหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้
+
+ระบบวิธีใช้จะแบ่งตามผลิตภัณฑ์ Unified Operations ทั้งหมด:
+- Dynamics 365 for Finance and Operations, รุ่น Enterprise
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations ประกอบด้วยระบบวิธีใช้ที่ขึ้นอยู่กับประกอบหลักสองส่วน:
 
 -   ไซต์เอกสารประกอบ
 -   คู่มืองาน
 
-ผลิตภัณฑ์ต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับ Talent หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent และหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้ 
-
-ระบบวิธีใช้จะแบ่งตามผลิตภัณฑ์ Unified Operations ทั้งหมด:
-- Dynamics 365 for Finance and Operations, Enterprise Edition
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 คุณสามารถเข้าถึงหัวข้อวิธีใช้และการแนะนำงานจากบานหน้าต่างวิธีใช้ในผลิตภัณฑ์ใดก็ตามที่คุณใช้อยู่ ภาพหน้าจอต่อไปนี้จะแสดง Dynamics 365 for Finance and Operations
 
-![บานหน้าต่างวิธีใช้](./media/help-pane-ops-task-guides-1024x741.png)
+![บานหน้าต่างวิธีใช้](./media/help-pane-ops-task-guides.png)
 
 หัวนี้จะอธิบายระบบวิธีใช้ และอธิบายวิธีที่คุณสามารถสร้างเอกสารที่กำหนดเองและทรัพยากรการฝึกอบรมสำหรับองค์กรของคุณ
 
 > [!IMPORTANT]
-> ในขณะนี้แท็บ **คู่มืองาน** ไม่พร้อมใช้งานใน Microsoft Dynamics 365 for Talent และ Microsoft Dynamics 365 for Retail เรากำลังดำเนินกรเพื่อเปิดใช้งานฟังก์ชันนี้ในรุ่นต่อไป คู่มืองานในประสบการณ์การเริ่มต้นใช้งานใน Talent ยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน นอกจากนี้วิธีใช้ตามขั้นตอนยังพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) สำหรับทั้ง Retail และ Talent
+> ในขณะนี้แท็บ **คู่มืองาน** ไม่พร้อมใช้งานใน Microsoft Dynamics 365 for Talent และ Microsoft Dynamics 365 for Retail เรากำลังดำเนินกรเพื่อเปิดใช้งานฟังก์ชันนี้ในรุ่นต่อไป คู่มืองานในประสบการณ์การเริ่มต้นใช้งานใน Talent ยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน นอกจากนี้วิธีใช้ตามขั้นตอนยังพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index) สำหรับทั้ง Retail และ Talent
 
 ## <a name="help-on-docsmicrosoftcom"></a>วิธีใช้เกี่ยวกับ docs.microsoft.com
 
-ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) เป็นแหล่งข้อมูลหลักของเอกสารประกอบผลิตภัณฑ์สำหรับ Finance and Operations ไซต์มีลักษณะการทำงานดังต่อไปนี้:
+ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) เป็นแหล่งข้อมูลหลักของเอกสารประกอบผลิตภัณฑ์สำหรับ Finance and Operations ไซต์มีลักษณะการทำงานดังต่อไปนี้:
 
 -   **เข้าถึงเนื้อหาล่าสุด** – ไซต์ทำให้เราสร้าง จัดส่ง และอัพเดตเอกสารผลิตภัณฑ์รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น จึงจะช่วยให้แน่ใจว่าคุณมีสิทธิ์เข้าถึงข้อมูลทางเทคนิคล่าสุด
 -   **เนื้อหาที่เขียนโดยผู้เชี่ยวชาญ** – ไซต์แสดงชุดของเอกสารผลิตภัณฑ์ที่สมบูรณ์กว่า ซึ่งสามารถเพิ่มเติมโดยสมาชิกของชุมชนทั้งภายใน และภาย นอก Microsoft
@@ -68,12 +65,13 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 ### <a name="searching-on-docsmicrosoftcom"></a>การค้นหาบน docs.microsoft.com
 เราได้รับคำถามจำนวนมากเกี่ยวกับวิธีการค้นหาเนื้อหาของเรา บนไซต์ของเรา ถ้าคุณเริ่มต้นจากหน้าเกี่ยวกับ Finance and Operations เรากำหนดขอบเขตการค้นหาของคุณเป็นเฉพาะสำหรับเนื้อหาของ Finance and Operations คุณสามารถลบการกำหนดขอบเขตได้โดยการคลิก X ที่อยู่ถัดจากการดำเนินงานในกล่องค้นหา 
 
-![ค้นหาใบสั่ง](./media/search-scope.png)
+![ค้นหาใบสั่ง](./media/search-scope-2.png)
 
 คุณยังสามารถค้นหาเนื้อหาของเราโดยใช้กลไกจัดการค้นหาใด ๆ เราขอแนะนำว่า เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดคุณควรใช้การค้นหาไซต์ เช่น site:docs.microsoft.com dynamics 365 "คำค้นหา"  
-![การค้นหาไซต์](./media/site-search.png)
 
-![ผลการการค้นหาไซต์](./media/site-search-results.png)
+![การค้นหาไซต์](./media/site-search-1.png)
+
+![ผลการการค้นหาไซต์](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>แท็บ docs.microsoft.com ของเนื้อหาสำหรับ Unified Operations
 ผลิตภัณฑ์ทั้งหมดใช้ร่วมกันกับเนื้อหาตารางเดี่ยวบนไซต์เอกสาร ซึ่งช่วยให้ลูกค้าสามารถดูบริบทของหัวข้อที่ใช้งานอยู่ นอกจากนี้ช่วยให้คุณสามารถใช้ตัวควบคุมตัวกรองข้อมูลเพื่อค้นหาหัวข้อที่คุณกำลังค้นหา
@@ -105,7 +103,7 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 
 เราจะให้ชุดคู่มืองานที่แตกต่างกันสำหรับผลิตภัณฑ์ Unified Operations แต่ละผลิตภัณฑ์ คู่มืองานการเข้าถึงส่วนจากบานหน้าต่างวิธีใช้ จะอธิบายวิธีการค้นหาคู่มืองานที่ถูกต้องสำหรับผลิตภัณฑ์ของคุณ 
 
-![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops-1024x742.png)
+![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops.png)
 
 เพื่อเริ่มการแนะนำ ประสบการณ์โต้ตอบ คลิก **เริ่มต้นคู่มืองาน** ที่ด้านล่างของบานหน้าต่างวิธีใช้ ตัวชี้สีดำเปิดขึ้น และบ่งชี้ถึงการดำเนินการที่คุณจำเป็นต้องทำ ทำตามคำแนะนำที่ปรากฏใน UI และป้อนข้อมูลตามที่กำหนด 
 ![คำแนะนำตามขั้นตอนของคู่มืองาน](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 ## <a name="in-product-help"></a>วิธีใช้ภายในผลิตภัณฑ์
 ในการเข้าถึงเนื้อหาวิธีการใช้ภายใน Finance and Operations คลิกไอคอน **วิธีใช้** (**?**) และจากนั้นเลือก วิธีใช้ หรือกด Ctrl+Shift+? อย่างใดอย่างหนึ่งก็ได้ ในทั้งสองกรณี บานหน้าต่าง วิธีใช้ จะเปิดขึ้น จากบานหน้าต่าง วิธีใช้ คุณสามารถเข้าถึงบทความหรือคู่มืองานได้ 
 
-![บานหน้าต่างวิธีใช้](./media/help-pane-wiki-1024x684.png)
+![บานหน้าต่างวิธีใช้](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>เข้าถึงหัวข้อวิธีการใช้จากบานหน้าต่างวิธีใช้
 
@@ -162,7 +160,7 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 
 หลังจากผู้ดูแลระบบเสร็จสิ้นขั้นตอนเหล่านี้ คุณสามารถเปิดบานหน้าต่าง วิธีใช้ และคลิกแท็บ **คู่มืองาน** ขณะนี้คุณจะเห็นคู่มืองานที่นำไปใช้กับเพจที่คุณกำลังอยู่ใน Finance and Operations ในปัจจุบัน ถ้าไม่พบคู่มืองาน คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา หลังจากที่คุณคลิกคู่มืองานในบานหน้าต่าง วิธีใช้ บานหน้าต่าง วิธีใช้ จะแสดงคำแนะนำทีละขั้นตอน และคุณสามารถเล่นคู่มืองานได้ 
 
-![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops-1024x742.png)
+![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>คู่มืองานที่แปลแล้วอยู่ที่ใด
 
