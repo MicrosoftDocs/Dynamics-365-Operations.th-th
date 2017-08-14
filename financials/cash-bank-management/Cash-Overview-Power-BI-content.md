@@ -3,21 +3,23 @@ title: "เนื้อหาภาพรวมของเงินสดใน
 description: "หัวข้อนี้อธิบายถึงเนื้อหาภาพรวมของเงินสดใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้"
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ ms.lasthandoff: 06/20/2017
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 
 ถ้าคุณกำลังใช้ Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017 รายงานจากเนื้อหา **ภาพรวมของเงินสด** ใน Power BI เนื้อหาจะแสดงในพื้นที่ทำงาน **ภาพรวมของเงินสด** และ **การจัดการธนาคาร**
+
+เมื่อต้องการดูรายงานการคาดการณ์กระแสเงินสดพร้อมข้อมูล ก่อนอื่นคุณต้องเรียกใช้กระบวนการคำนวณการคาดการณ์โดยใช้ฟังก์ชัน **คำนวณการคาดการณ์กระแสเงินสด** จากพื้นที่การจัดการเงินสดและธนาคาร  ซึ่งจำเป็นต้องทำให้เสร็จสมบูรณ์สำหรับแต่ละบริษัทที่รวมอยู่ในการคาดการณ์  จากนั้นคุณจำเป็นต้องรีเฟรชการวัดแบบรวม LedgerCovLiquidityMeasurement ในหน้า **ที่จัดเก็บเอนทิตี้**  
+
+สำหรับวัตถุประสงค์ในการสาธิต คุณสามารถเพิ่มข้อมูลสาธิตการคาดการณ์กระแสเงินสดโดยใช้หน้า **สร้างข้อมูล** จากโมดูข้อมูลสาธิตได้  สคริปต์นี้จะแทรกข้อมูลลงในตารางการคาดการณ์กระแสเงินสดเพื่อรวบรวมข้อมูลที่จำเป็นสำหรับการรายงานได้อย่างรวดเร็ว  โมดูลนี้จะพร้อมใช้งานเมื่อคุณมีแบบจำลองชุดข้อมูลสาธิตที่จัดวางในสภาพแวดล้อมเท่านั้น 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 ตารางต่อไปนี้ให้รายละเอียดเกี่ยวกับเมตริกที่พบในแต่ละหน้าของรายงานในเนื้อหาเกี่ยวกับ **ภาพรวมของเงินสด** ใน Power BI

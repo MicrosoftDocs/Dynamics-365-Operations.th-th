@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
@@ -57,7 +57,7 @@ ms.lasthandoff: 06/20/2017
 
 การแนบเอกสารใบแจ้งหนี้ของผู้จัดจำหน่ายเป็นเอนทิตี้ข้อมูลใหม่ที่จะถูกนำมาใช้เป็นส่วนหนึ่งของคุณลักษณะนี้ มีการปรับเปลี่ยนเอนทิตีส่วนหัวของใบแจ้งหนี้ของผู้จัดจำหน่ายเพื่อให้สนับสนุนเอกสารแนบ เอนทิตี้รายการใบแจ้งหนี้ของผู้จัดจำหน่ายยังไม่ได้ถูกแก้ไขสำหรับลักษณะนี้
 
-หัวข้อนี้ไม่ให้ข้อกำหนดโดยละเอียดของแพคเกจข้อมูล ไม่ได้อธิบายวิธีการสร้างแพคเกจข้อมูลอีกด้วย สำหรับข้อมูลนี้ ดู [กรอบงานของเอนทิตีและแพคเกจข้อมูล](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages)
+หัวข้อนี้ไม่ให้ข้อกำหนดโดยละเอียดของแพคเกจข้อมูล ไม่ได้อธิบายวิธีการสร้างแพคเกจข้อมูลอีกด้วย สำหรับข้อมูลนี้ ดู [กรอบงานของเอนทิตีและแพคเกจข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages)
 
 ในการสร้างข้อมูลการทดสอบที่มีใบแจ้งหนี้และเอกสารแนบอย่างรวดเร็ว ให้ปฏิบัติดังนี้
 

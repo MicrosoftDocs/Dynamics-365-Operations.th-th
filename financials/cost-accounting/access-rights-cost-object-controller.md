@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 4d26d690e63898bfb463177da6654f1175ff35af
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c520e14233fb03646aa4a273362e596bd1990a8c
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -69,14 +69,14 @@ ms.lasthandoff: 06/20/2017
 |                                   | ผู้ใช้            | ช่วงสมาชิกมิติ   |                         |
 |-----------------------------------|------------------|---------------------------|-------------------------|
 | **โหนด**                         | **รหัสผู้ใช้**      | **สมาชิกมิติเริ่มต้น** | **สมาชิกมิติสิ้นสุด** |
-| องค์กร                      | Benjamin, Claire |                           |                         |
+| องค์กร                      | เบนจามิน แคลร์ |                           |                         |
 | &nbsp;&nbsp;ผู้ดูแลระบบ                 | เมษายน            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;การเงิน   | Alicia           | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;การเงิน   | อลิเซีย           | CC002                     | CC003                   |
 |                                   |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;ทรัพยากรบุคคล        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;การผลิต            | Arnie            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;บรรจุภัณฑ์ | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;ชิ้นส่วนประกอบ  | Chris            | CC006                     | CC006                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;ทรัพยากรบุคคล        | อาร์นี            | CC001                     | CC001                   |
+| &nbsp;&nbsp;การผลิต            | เดวิด            |                           |                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;บรรจุภัณฑ์ | เอลเลน            | CC005                     | CC005                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;ชิ้นส่วนประกอบ  | คริส            | CC006                     | CC006                   |
 
 > [!NOTE]
 > ควรกำหนดให้ผู้จัดทำบัญชีต้นทุนอยู่ระดับบนสุดของลำดับชั้น เพื่อให้สามารถดูรายการทั้งหมดในการบัญชีต้นทุน
@@ -99,12 +99,12 @@ ms.lasthandoff: 06/20/2017
     - การแสดงภาพข้อมูล Power BI ที่ฝังอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, client
 
 > [!IMPORTANT]
-> - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+> - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 > - หัวข้อนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีอยู่ในตำแหน่งก่อนที่คุณสามารถใช้การพื้นที่ทำงาน **ควบคุมต้นทุน**
 
 ดูเพิ่มเติมที่
 
 - [พื้นที่ทำงานการควบคุมต้นทุน](cost-control-workspace.md)
 - [ลำดับชั้นของมิติ](dimension-hierarchy.md)
-- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

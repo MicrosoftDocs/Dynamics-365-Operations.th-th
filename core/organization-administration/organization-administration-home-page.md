@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ ms.lasthandoff: 06/13/2017
 ----------------
 
 -   [ภาพรวมของลำดับหมายเลข](number-sequence-overview.md)
--   [ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (คู่มืองาน)
--   [ตั้งค่าลำดับหมายเลขแต่ละตัว](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (คู่มืองาน)
+-   [ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (คู่มืองาน)
+-   [ตั้งค่าลำดับหมายเลขแต่ละตัว](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (คู่มืองาน)
 
 ## <a name="address-books"></a>สมุดที่อยู่
 -   [สมุดที่อยู่](qa-address-books.md)
@@ -67,17 +67,17 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="electronic-signatures"></a>ลายเซ็นอิเล็กทรอนิกส์
 -   [ภาพรวมของลายเซ็นอิเล็กทรอนิกส์](electronic-signature-overview.md)
--   [ตั้งค่าลายเซ็นอิเล็กทรอนิกส์](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (คู่มืองาน)
+-   [ตั้งค่าลายเซ็นอิเล็กทรอนิกส์](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (คู่มืองาน)
 
 ## <a name="organizations"></a>องค์กร
 -   [องค์กรและลำดับชั้นขององค์กร](organizations-organizational-hierarchies.md)
 -   [วางแผนลำดับชั้นขององค์กร](plan-organizational-hierarchy.md)
--   [สร้างหน่วยปฏิบัติงาน](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (คู่มืองาน)
--   [สร้างลำดับชั้นองค์กร](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (คู่มืองาน)
--   [สร้างนิติบุคคล](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (คู่มืองาน)
+-   [สร้างหน่วยปฏิบัติงาน](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (คู่มืองาน)
+-   [สร้างลำดับชั้นองค์กร](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (คู่มืองาน)
+-   [สร้างนิติบุคคล](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (คู่มืองาน)
 
 ## <a name="general-administration"></a>การจัดการทั่วไป
--   [เปลี่ยนป้ายประกาศหรือรูปภาพสัญลักษณ์](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (คู่มืองาน)
+-   [เปลี่ยนป้ายประกาศหรือรูปภาพสัญลักษณ์](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (คู่มืองาน)
 -   [เกี่ยวกับข้อมูลวันที่/เวลาและโซนเวลา](date-time-zones.md)
 -   [เท็มเพลตสำหรับเรกคอร์ด](record-templates.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าสินค้าขาออก | Microsoft Docs"
+title: "การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ"
 description: "หัวข้อนี้อธิบายวิธีการจัดการกระบวนการขนย้ายวัสดุผ่านศูนย์เปลี่ยนถ่ายสินค้าที่มีการรายงานเป็นเสร็จสมบูรณ์ จากสายการผลิตไปยังจะมีท่าขนส่งสินค้าขาออก"
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ ms.lasthandoff: 06/20/2017
 ### <a name="additional-information"></a>ข้อมูลเพิ่มเติม
 
 -   สถานการณ์จำลองการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า ได้รับการสนับสนุนสำหรับชุดงานและสินค้าที่ควบคุมโดยหมายเลขลำดับ ทั้งชุดงานและมิติหมายเลขลำดับประจำสินค้าที่กำหนดไว้ที่ตำแหน่งด้านบนและด้านล่างในลำดับชั้นการจอง
--   ปริมาณที่จะรายงานเป็นเสร็จสมบูรณ์ไม่สามารถถูกแบ่งไปยังความต้องการใบสั่งโอนย้ายที่อยู่ด้านล่างได้ ตัวอย่างเช่น ถ้าสินค้า 20 ชิ้นถูกรายงานเป็นเสร็จสมบูรณ์ และใบสั่งโอนย้ายมีอยู่สำหรับสินค้า 5 ชิ้น จากนั้นจะไม่พบใบสั่งโอนย้ายที่เกี่ยวข้องกับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
 
 
 

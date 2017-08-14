@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 06/20/2017
 
 ### <a name="data-formatting"></a>การจัดรูปแบบข้อมูล
 
-ผู้ออกแบบสูตร ER สามารถใช้เพื่อกำหนดนิพจน์ที่แปลงรูปแบบข้อมูลที่ได้รับจากแหล่งข้อมูล เพื่อให้สามารถส่งข้อมูลเป็นเอกสารอิเล็กทรอนิกส์ ถ้าคุณมี การจัดรูปแบบที่ต้องใช้ตามกฎทั่วไปที่ควรนำมาใช้ใหม่สำหรับรูปแบบ คุณสามารถสร้างรูปแบบนั้นครั้งเดียวในการตั้งค่าคอนฟิกการจัดรูปแบบเป็นการแปลงที่มีชื่อที่มีนิพจน์การจัดรูปแบบ การแปลงข้อมูลที่มีการตั้งชื่อนี้สามารถเชื่อมโยงกับองค์ประกอบรูปแบบหลายองค์ประกอบซึ่งผลลัพธ์ต้องถูกจัดรูปแบบตามนิพจน์ที่สร้างไว้ ภาพต่อไปนี้แสดงการออกแบบการแปลงชนิดนี้ ในตัวอย่างนี้ การแปลง **TrimmedString** นำข้อมูลขาเข้าของชนิดข้อมูล **String** และตัดทอนช่องว่างนำหน้าและต่อท้ายเมื่อจะส่งคืนค่าสตริง [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) ภาพต่อไปนี้แสดงการใช้การแปลงชนิดนี้ ในตัวอย่างนี้ หลายส่วนประกอบรูปแบบที่ส่งข้อความเป็นผลลัพธ์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขณะรันไทม์ อ้างอิงถึงการแปลง **TrimmedString** ด้วยชื่อ [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) เมื่อส่วนประกอบของรูปแบบอ้างอิงถึงการแปลง **TrimmedString **(ตัวอย่างเช่น ส่วนประกอบ **partyName** ในตัวอย่างก่อนหน้านี้) ระบบจะส่งข้อความเป็นเอาท์พุตไปยังเอกสารที่มีการสร้าง ข้อความไม่มีช่องว่างนำหน้าและต่อท้าย ถ้าคุณมีการจัดรูปแบบที่จำเป็นต้องใช้แต่ละรายการ คุณสามารถนำรูปแบบไปใช้เพื่อเป็นนิพจน์ของการผูกข้อมูลของส่วนประกอบรูปเฉพาะแบบแต่ละรายการได้ ภาพต่อไปนี้แสดงนิพจน์ชนิดนี้ ในตัวอย่างนี้ ส่วนประกอบรูปแบบ **partyType** ถูกผูกไว้กับแหล่งข้อมูลผ่านนิพจน์ที่ใช้สำหรับแปลงข้อมูลขาเข้าจากฟิลด์ **Model.Company.RegistrationType** ในแหล่งข้อมูลเป็นข้อความตัวพิมพ์ใหญ่และส่งเป็นการแสดงผลข้อความเป็นเอกสารอิเล็กทรอนิกส์ [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+ผู้ออกแบบสูตร ER สามารถใช้เพื่อกำหนดนิพจน์ที่แปลงรูปแบบข้อมูลที่ได้รับจากแหล่งข้อมูล เพื่อให้สามารถส่งข้อมูลเป็นเอกสารอิเล็กทรอนิกส์ ถ้าคุณมี การจัดรูปแบบที่ต้องใช้ตามกฎทั่วไปที่ควรนำมาใช้ใหม่สำหรับรูปแบบ คุณสามารถสร้างรูปแบบนั้นครั้งเดียวในการตั้งค่าคอนฟิกการจัดรูปแบบเป็นการแปลงที่มีชื่อที่มีนิพจน์การจัดรูปแบบ การแปลงข้อมูลที่มีการตั้งชื่อนี้สามารถเชื่อมโยงกับองค์ประกอบรูปแบบหลายองค์ประกอบซึ่งผลลัพธ์ต้องถูกจัดรูปแบบตามนิพจน์ที่สร้างไว้ ภาพต่อไปนี้แสดงการออกแบบการแปลงชนิดนี้ ในตัวอย่างนี้ การแปลง **TrimmedString** นำข้อมูลขาเข้าของชนิดข้อมูล **String** และตัดทอนช่องว่างนำหน้าและต่อท้ายเมื่อจะส่งคืนค่าสตริง [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) ภาพต่อไปนี้แสดงการใช้การแปลงชนิดนี้ ในตัวอย่างนี้ หลายส่วนประกอบรูปแบบที่ส่งข้อความเป็นผลลัพธ์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขณะรันไทม์ อ้างอิงถึงการแปลง **TrimmedString** ด้วยชื่อ [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) เมื่อส่วนประกอบของรูปแบบอ้างอิงถึงการแปลง **TrimmedString** (ตัวอย่างเช่น ส่วนประกอบ **partyName** ในตัวอย่างก่อนหน้านี้) ระบบจะส่งข้อความเป็นเอาท์พุตไปยังเอกสารที่มีการสร้าง ข้อความไม่มีช่องว่างนำหน้าและต่อท้าย ถ้าคุณมีการจัดรูปแบบที่จำเป็นต้องใช้แต่ละรายการ คุณสามารถนำรูปแบบไปใช้เพื่อเป็นนิพจน์ของการผูกข้อมูลของส่วนประกอบรูปเฉพาะแบบแต่ละรายการได้ ภาพต่อไปนี้แสดงนิพจน์ชนิดนี้ ในตัวอย่างนี้ ส่วนประกอบรูปแบบ **partyType** ถูกผูกไว้กับแหล่งข้อมูลผ่านนิพจน์ที่ใช้สำหรับแปลงข้อมูลขาเข้าจากฟิลด์ **Model.Company.RegistrationType** ในแหล่งข้อมูลเป็นข้อความตัวพิมพ์ใหญ่และส่งเป็นการแสดงผลข้อความเป็นเอกสารอิเล็กทรอนิกส์ [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>กระบวนการควบคุมขั้นตอน
 
@@ -196,8 +196,8 @@ ms.lasthandoff: 06/20/2017
 | SESSIONNOW ()                              | ส่งคืนวันที่ของเซิร์ฟเวอร์แอพลิเคชันการเงินและการดำเนินการปัจจุบัน เป็นค่าวันที่และเวลา                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (วันที่ รูปแบบ)                  | ส่งคืนการแสดงสตริงของวันที่โดยใช้รูปแบบที่ระบุ                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** ส่งคืนวันที่ของเซิร์ฟเวอร์รอบระยะเวลาการเงินและการดำเนินการปัจจุบัน 24/12/2558 เป็น "**24/12/2558**" ตามรูปแบบกำหนดเองที่ระบุ                                                                                                                      |
 | DATEFORMAT (วันที่ รูปแบบ วัฒนธรรม)         | แปลงค่าวันที่ที่ระบุเป็นสตริงในรูปแบบที่ระบุและ [วัฒนธรรม](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) (สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) และ [กำหนดเอง](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx))     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** ส่งคืนวันที่ของเซิร์ฟเวอร์รอบระยะเวลาการเงินและการดำเนินการปัจจุบัน 24/12/2558 เป็น **"24/12/2558"** ตามรูปแบบภาษาเยอรมันที่เลือก                                                                                                                       |
-| DAYOFYEAR (วันที่)              | ส่งคืนการแสดงจำนวนเต็มของจำนวนวันระหว่างวันที่ 1 มกราคมและวันที่ระบุ       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** ส่งกลับค่า **61**
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** ส่งกลับค่า **1**                                                                                                                       |
+| DAYOFYEAR (วันที่)              | ส่งคืนการแสดงจำนวนเต็มของจำนวนวันระหว่างวันที่ 1 มกราคมและวันที่ระบุ       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** ส่งกลับค่า **61** **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** ส่งกลับค่า **1** 
+                                                                                                                      |
 
 **ฟังก์ชันการแปลงข้อมูล**
 
@@ -236,7 +236,14 @@ ms.lasthandoff: 06/20/2017
 <li>ชุดงานเป็นรายการปกติ (คอมโพเนนต์ <strong>ค่า</strong>)</li>
 <li>หมายเลขชุดงานปัจจุบัน (คอมโพเนนต์ <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>ในตัวอย่างต่อไปนี้แหล่งข้อมูล <strong>Lines</strong> สร้างเป็นเรกคอร์ดรายการ 3 เรกคอร์ด ซึ่งจะแบ่งออกเป็นชุดงาน ซึ่งประกอบด้วยสองเรกคอร์ด <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> รายการนี้แสดงรูปแบบการออกแบบโครงร่าง ที่ผูกกับแหล่งข้อมูล <strong>รายการ</strong> ซึ่งถูกสร้างในการสร้างเอาท์พุทในรูปแบบ XML ที่นำเสนอแต่ละโหนดสำหรับแต่ละชุดและเรกคอร์ดในตาราง <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> ต่อไปนี้คือผลลัพธ์ของการเรียกใช้รูปแบบการออกแบบ <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>ในตัวอย่างต่อไปนี้แหล่งข้อมูล <strong>Lines</strong> สร้างเป็นเรกคอร์ดรายการ 3 เรกคอร์ด ซึ่งจะแบ่งออกเป็นชุดงาน ซึ่งประกอบด้วยสองเรกคอร์ด 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+รายการนี้แสดงรูปแบบการออกแบบโครงร่าง ที่ผูกกับแหล่งข้อมูล <strong>รายการ</strong> ซึ่งถูกสร้างในการสร้างเอาท์พุทในรูปแบบ XML ที่นำเสนอแต่ละโหนดสำหรับแต่ละชุดและเรกคอร์ดในตาราง 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+ต่อไปนี้คือผลลัพธ์ของการเรียกใช้รูปแบบการออกแบบ 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>รายการ (เรกคอร์ด 1 [เรกคอร์ด 2,...])</td>
@@ -300,7 +307,14 @@ ms.lasthandoff: 06/20/2017
 <li>รายการเรกคอร์ดที่ระบุเป็นรายการปกติ (คอมโพเนนต์ <strong>ค่า</strong>)</li>
 <li>ดัชนีเรกคอร์ดปัจจุบัน (คอมโพเนนต์ <strong>หมายเลข</strong>)</li>
 </ul></td>
-<td>ในตัวอย่างต่อไปนี้ แหล่งข้อมูล <strong>ที่ระบุ</strong> สร้างเป็นรายการที่ระบุของเรกคอร์ดผู้จัดจำหน่ายจากแหล่งข้อมูล <strong>ผู้จัดจำหน่าย</strong> ที่อ้างอิงถึงตาราง <strong>VendTable</strong> <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>ต่อไปนี้คือรูปแบบ ซึ่งการรวมข้อมูลจะสร้างข้อมูลในการสร้างเอาท์พุทในรูปแบบ XML ที่นำเสนอผู้จัดจำหน่ายแต่ละโหนดตามที่ระบุ <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> นี่คือผลลัพธ์ของการเรียกใช้รูปแบบการออกแบบ <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>ในตัวอย่างต่อไปนี้ แหล่งข้อมูล <strong>ที่ระบุ</strong> สร้างเป็นรายการที่ระบุของเรกคอร์ดผู้จัดจำหน่ายจากแหล่งข้อมูล <strong>ผู้จัดจำหน่าย</strong> ที่อ้างอิงถึงตาราง <strong>VendTable</strong> 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+ต่อไปนี้คือรูปแบบ ซึ่งการรวมข้อมูลจะสร้างข้อมูลในการสร้างเอาท์พุทในรูปแบบ XML ที่นำเสนอผู้จัดจำหน่ายแต่ละโหนดตามที่ระบุ 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+นี่คือผลลัพธ์ของการเรียกใช้รูปแบบการออกแบบ 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (รายการ)</td>
@@ -322,13 +336,24 @@ ms.lasthandoff: 06/20/2017
 <li>คำอธิบาย</li>
 </ul>
 ฟิลด์ป้ายชื่อและคำอธิบายจะส่งคืนเป็นค่ารันไทม์ตามการตั้งค่าภาษาของรูปแบบ</td>
-<td>ตัวอย่างต่อไปนี้แสดงการแจงนับที่นำมาใช้ในแบบจำลองข้อมูล <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>ตัวอย่างต่อไปนี้แสดง:
+<td>ตัวอย่างต่อไปนี้แสดงการแจงนับที่นำมาใช้ในแบบจำลองข้อมูล 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+ตัวอย่างต่อไปนี้แสดง:
 <ul>
 <li>การแจงนับแบบจำลองที่ใส่ลงในรายงานเป็นแหล่งข้อมูล</li>
 <li>นิพจน์ ER ที่ออกแบบมาเพื่อใช้การแจงนับแบบจำลองเป็นพารามิเตอร์ของฟังก์ชันนี้</li>
 <li>แหล่งข้อมูลของชนิดรายการเรกคอร์ดที่ถูกแทรกลงในรายงานโดยใช้นิพจน์ ER ที่สร้างขึ้น</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> ตัวอย่างต่อไปนี้แสดงองค์ประกอบรูปแบบ ER ที่ถูกผูกกับแหล่งข้อมูลของชนิดรายการเรกคอร์ดที่สร้างขึ้นโดยใช้ฟังก์ชัน LISTOFFIELDS<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>นี่คือผลลัพธ์ของการดำเนินการสำหรับรูปแบบการออกแบบ<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>หมายเหตุ:</strong> ระบบจะเติมข้อความที่แปลแล้วสำหรับป้ายชื่อและคำอธิบายไปยังผลลัพธ์รูปแบบ ER ตามการตั้งค่าภาษาที่ตั้งค่าคอนฟิกสำหรับองค์ประกอบรูปแบบ FILE และ FOLDER หลัก</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+ตัวอย่างต่อไปนี้แสดงองค์ประกอบรูปแบบ ER ที่ผูกอยู่กับแหล่งข้อมูลของชนิดรายการเรกคอร์ดที่สร้างโดยใช้ฟังก์ชัน LISTOFFIELDS
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+นี่คือผลลัพธ์ของการดำเนินการสำหรับรูปแบบการออกแบบ
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+หมายเหตุ:</strong> ข้อความที่แปลสำหรับป้ายชื่อและคำอธิบายจะถูกเพิ่มลงในผลลัพธ์รูปแบบ ER โดยสอดคล้องกับการตั้งค่าภาษาที่ตั้งค่าคอนฟิกสำหรับองค์ประกอบรูปแบบไฟล์และโฟลเดอร์หลัก</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (รายการ ชื่อฟิลด์ ตัวกำหนดเขต)</td>
@@ -338,7 +363,18 @@ ms.lasthandoff: 06/20/2017
 <tr class="even">
 <td>SPLITLISTBYLIMIT (รายการ ค่าขีดจำกัด แหล่งที่มาของขีดจำกัด)</td>
 <td>แยกรายการที่กำหนดออกเป็นรายการใหม่ของรายการย่อย และส่งคืนผลลัพธ์เป็นเนื้อหาของรายการเรกคอร์ด พารามิเตอร์ค่าขีดจำกัดระบุค่าของขีดจำกัดเพื่อแบ่งรายการต้นทาง พารามิเตอร์แหล่งที่มาของขีดจำกัดระบุขั้นตอนของการเพิ่มผลรวม ขีดจำกัดจะไม่ใช้กับสินค้าเดี่ยวของรายการที่กำหนดเมื่อแหล่งที่มาของขีดจำกัดเกินขีดจำกัดที่กำหนดไว้</td>
-<td>ตัวอย่างต่อไปนี้แสดงตัวอย่างรูปแบบโดยใช้แหล่งข้อมูล <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>นี่คือการดำเนินการสำหรับรูปแบบผลลัพธ์ที่แสดงรายการแนวราบของรายการโภคภัณฑ์ที่ซื้อขายกัน<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>ตัวอย่างต่อไปนี้แสดงรูปแบบเดียวกันที่มีการปรับปรุงเพื่อแสดงรายการโภคภัณฑ์ที่ซื้อขายกันเป็นชุดงานเมื่อชุดงานเดี่ยวต้องมีโภคภัณฑ์ที่ซื้อขายกันโดยน้ำหนักรวมไม่ควรเกินขีดจำกัดที่ 9<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>นี่คือผลลัพธ์ของการดำเนินการสำหรับรูปแบบที่มีการปรับปรุง <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>หมายเหตุ:</strong> ขีดจำกัดจะไม่ใช้กับรายการสุดท้ายของรายการต้นทางเนื่องจากค่า (11) ของแหล่งที่มาของขีดจำกัด (น้ำหนัก) เกินขีดจำกัดที่กำหนดไว้ (9) ใช้ฟังก์ชัน <strong>WHERE</strong> หรือนิพจน์ <strong>เปิดใช้งานแล้ว</strong> ขององค์ประกอบรูปแบบที่สอดคล้องกันเพื่อละเว้น (ข้าม) รายการย่อยระหว่างการสร้างรายงาน (ถ้าจำเป็น)</td>
+<td>ตัวอย่างต่อไปนี้แสดงตัวอย่างรูปแบบโดยใช้แหล่งข้อมูล 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+นี่เป็นการดำเนินการสำหรับรูปแบบผลลัพธ์ที่แสดงรายการแบบธรรมดาของสินค้าโภคภัณฑ์
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+ตัวอย่างต่อไปนี้แสดงรูปแบบเดียวกันที่มีการปรับปรุงเพื่อแสดงรายการสินค้าโภคภัณฑ์ในชุดงานต่าง ๆ เมื่อชุดงานเดียวต้องรวมโภคภัณฑ์ที่มีน้ำหนักรวมที่ไม่ควรเกินขีดจำกัดที่ 9
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+นี่คือผลลัพธ์ของการดำเนินการสำหรับรูปแบบที่มีการปรับปรุง <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>หมายเหตุ</strong> ขีดจำกัดจะไม่ถูกใช้กับรายการสุดท้ายของรายการต้นทางเนื่องจากค่า (11) ของแหล่งที่มาของขีดจำกัด (น้ำหนัก) เกินขีดจำกัดที่กำหนดไว้ (9) ใช้ฟังก์ชัน <strong>WHERE</strong> หรือนิพจน์ <strong>เปิดใช้งานแล้ว</strong> ขององค์ประกอบรูปแบบที่สอดคล้องกันเพื่อละเว้น (ข้าม) รายการย่อยระหว่างการสร้างรายงาน (ถ้าจำเป็น)</td>
 </tr>
 <tr class="odd">
 <td>FILTER (รายการ เงื่อนไข)</td>
@@ -511,7 +547,10 @@ ms.lasthandoff: 06/20/2017
 <tr class="even">
 <td>FORMAT (สตริง 1, สตริง 2[, สตริง 3, ...])</td>
 <td>ส่งคืนสตริงที่ระบุซึ่งถูกจัดรูปแบบโดยการแทนที่เหตุการณ์ใดๆ ของ <strong>%N</strong> ด้วยอาร์กิวเมนต์ที่ <em>n</em> อาร์กิวเมนต์เป็นสตริง ถ้าอาร์กิวเมนต์ไม่ได้มีให้สำหรับพารามิเตอร์ พารามิเตอร์จะถูกส่งกลับเป็น <strong>&quot;%N&quot;</strong> ในสตริง สำหรับค่าชนิด <strong>จริง</strong> การแปลงสตริงจะถูกจำกัดเป็นทศนิยมสองตำแหน่ง</td>
-<td>ในตัวอย่างนี้ แหล่งข้อมูล <strong>PaymentModel</strong> จะส่งกลับรายการเรกคอร์ดลูกค้าผ่านส่วนประกอบ <strong>ลูกค้า</strong> และประมวลผลค่าวันผ่านทางฟิลด์ <strong>ProcessingDate</strong> <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> ในรูปแบบ ER ที่ถูกออกแบบเพื่อสร้างไฟล์อิเล็กทรอนิกส์สำหรับลูกค้าที่เลือกไว้ <strong>PaymentModel</strong> จะถูกเลือกเป็นแหล่งข้อมูล และควบคุมขั้นตอนการประมวลผล ข้อยกเว้นสำหรับผู้ใช้เมื่อลูกค้าที่เลือกถูกหยุดดำเนินการสำหรับวันเมื่อมีการประมวลผลรายงาน สูตรที่ออกแบบมาสำหรับการประมวลผลตัวควบคุมชนิดนี้สามารถใช้ทรัพยากรต่อไปนี้:
+<td>ในตัวอย่างนี้ แหล่งข้อมูล <strong>PaymentModel</strong> จะส่งกลับรายการเรกคอร์ดลูกค้าผ่านส่วนประกอบ <strong>ลูกค้า</strong> และประมวลผลค่าวันผ่านทางฟิลด์ <strong>ProcessingDate</strong> 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+ในรูปแบบ ER ที่ถูกออกแบบเพื่อสร้างไฟล์อิเล็กทรอนิกส์สำหรับลูกค้าที่เลือกไว้ <strong>PaymentModel</strong> จะถูกเลือกเป็นแหล่งข้อมูล และควบคุมขั้นตอนการประมวลผล ข้อยกเว้นสำหรับผู้ใช้เมื่อลูกค้าที่เลือกถูกหยุดดำเนินการสำหรับวันเมื่อมีการประมวลผลรายงาน สูตรที่ออกแบบมาสำหรับการประมวลผลตัวควบคุมชนิดนี้สามารถใช้ทรัพยากรต่อไปนี้:
 <ul>
 <li>ป้ายชื่อการเงินและการดำเนินการ SYS70894 ซึ่งมีข้อความต่อไปนี้:
 <ul>
@@ -549,7 +588,8 @@ ms.lasthandoff: 06/20/2017
 <td>TRIM (สตริง)</td>
 <td>ส่งกลับค่าข้อความที่กำหนดหลังจากการตัดช่องว่างนำหน้าและตามหลัง และกำจัดช่องว่างหลายแห่งระหว่างคำ </td>
 <td><strong>ตัดแต่ง ("     ข้อความ     ตัวอย่าง     ")</strong> ส่งกลับค่า <strong>"ข้อความตัวอย่าง"</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (พาธแหล่งข้อมูลการแจงนับ ข้อความป้ายชื่อค่าแจงนับ)</td>
 <td>ส่งคืนค่าของแหล่งข้อมูลการแจงนับที่ระบุ โดยข้อความที่ระบุของป้ายชื่อการแจงนับนี้</td>
 <td>ตัวอย่างต่อไปนี้แสดง ReportDirection ของการแจงนับในแบบจำลองข้อมูล โปรดทราบว่า ป้ายชื่อถูกกำหนดไว้สำหรับค่าแจงนับ
