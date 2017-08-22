@@ -1,9 +1,9 @@
 ---
 title: "การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้"
 description: "องค์กรที่มีนิติบุคคลหลายรายสามารถสร้างและจัดการการชำระเงินโดยใช้นิติบุคคลเดียวซึ่งจัดการการชำระเงินทั้งหมด ดังนั้น ธุรกรรมเดียวกันไม่จำเป็นต้องป้อนในนิติบุคคลหลายราย บทความนี้แสดงตัวอย่างที่แสดงวิธีการลงรายการบัญชีสำหรับการชำระเงินส่วนกลางในสถานการณ์ต่างๆ"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
 ms.contentlocale: th-th
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
