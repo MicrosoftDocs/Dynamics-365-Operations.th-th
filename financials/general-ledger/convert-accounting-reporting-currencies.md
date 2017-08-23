@@ -1,35 +1,33 @@
 ---
 title: "แปลงบัญชีหรือการรายงานสกุลเงิน"
 description: 
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 78223
 ms.assetid: 31c56f9a-9c64-40a2-90e3-1969a760614b
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 728af2fff6317c17e47d48ea07dbeb57068fbf3f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: c738207f3088da151ec2317ce2b445f83278ec79
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a>แปลงบัญชีหรือการรายงานสกุลเงิน
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 บริษัทที่ต้องเปลี่ยนแปลงสกุลเงินทางบัญชีหรือการรายงานสกุลเงินจะมีสองตัวเลือก ตัวเลือกแรก เพื่อสร้างบริษัทใหม่และเริ่มต้นใหม่ ตัวเลือกที่สอง คือการรันการลงบัญชีและกระบวนการรายงานการแปลงสกุลเงิน นี่เป็นกระบวนการที่รันเป็นเวลานานมากซึ่งจะเปลี่ยนธุรกรรมทั้งหมดในระบบ การตั้งค่าบางรายการจำเป็นต้องทำก่อนที่กระบวนการจะถูกรัน
@@ -77,6 +75,6 @@ ms.lasthandoff: 05/25/2017
 
 เมื่อลบสมุดรายวันธุรกรรมบัญชีแยกประเภททั้งหมดแล้ว คุณสามารถลงรายการบัญชีธุรกรรมบัญชีแยกประเภทที่สมุดรายวัน คลิก **บัญชีแยกประเภททั่วไป** &gt; **งานประจำงวด** &gt; **สมุดรายวัน** &gt; **การลงรายการในสมุดรายวัน** คุณสามารถประเมินค่ายอดเงินสกุลเงินต่างประเทศหลังจากการแปลงสกุลเงิน ถ้าจำเป็นต้องมีการประเมินค่าใหม่ คุณประเมินค่ายอดเงินสกุลเงินต่างประเทศ ด้วยการเลือก **มาตรฐาน** ในฟิลด์ **วิธีการ** สำหรับการประเมินค่าใหม่
 
-
+สำหรับข้อมูลเพิ่มเติม โปรดดู [บันทึกบัญชีในสมุดรายวันเกี่ยวกับรายการสมุดรายวันที่ลงรายการบัญชี](tasks/journalize-posted-journal-entries.md)
 
 

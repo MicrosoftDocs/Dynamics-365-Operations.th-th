@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations สนับสนุนวง
 </tr>
 <tr class="even">
 <td>ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าที่สำหรับผู้จัดจำหน่าย</td>
-<td>ลงทะเบียนรายละเอียดเกี่ยวกับเช็คลงวันที่ล่วงหน้าที่คุณออกให้กับผู้จัดจำหน่าย  เมื่อมีการลงรายการบัญชีการชำระเงิน หนี้สินของผู้จัดจำหน่ายมีการรับรู้ แต่บัญชีธนาคารยังไม่ได้ลงเครดิต  บัญชีระหว่างโอนจึงใช้สำหรับวัตถุประสงค์นี้ลงวันที่ล่วงหน้า</td>
+<td>ลงทะเบียนรายละเอียดเกี่ยวกับเช็คลงวันที่ล่วงหน้าที่คุณออกให้กับผู้จัดจำหน่าย  เมื่อมีการลงรายการบัญชีการชำระเงิน หนี้สินของผู้จัดจำหน่ายมีการรับรู้ แต่บัญชีธนาคารยังไม่ได้ลงเครดิต  บัญชีระหว่างโอนจึงใช้สำหรับวัตถุประสงค์นี้ลงวันที่ล่วงหน้า </td>
 </tr>
 <tr class="odd">
 <td>ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับลูกค้า</td>
@@ -87,6 +86,17 @@ Microsoft Dynamics 365 for Finance and Operations สนับสนุนวง
 
 
 
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่หัวข้อต่อไปนี้
+
+[ตั้งค่าเช็คลงวันที่ล่วงหน้า](tasks/set-up-postdated-checks.md)
+
+[ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับลูกค้า](tasks/register-post-postdated-check-customer.md)
+
+[ชำระเช็คลงวันที่ล่วงหน้าจากลูกค้า](tasks/settle-postdated-check-customer.md)
+
+[ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย](tasks/register-post-postdated-check-vendor.md) 
+
+[ชำระเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย](tasks/settle-postdated-check-vendor.md)
 
 
 

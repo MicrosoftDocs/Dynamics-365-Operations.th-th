@@ -1,9 +1,9 @@
 ---
 title: "การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินเป็นบางส่วน"
 description: "บางครั้ง คุณอาจทำการชำระเงินให้ผู้จัดจำหน่ายน้อยกว่ายอดเงินของใบแจ้งหนี้ บทความนี้อธิบายถึงตัวเลือกต่างๆ สำหรับการจัดการสถานการณ์นี้ ตัวเลือกที่พร้อมใช้งานสำหรับคุณขึ้นอยู่กับความต้องการทางธุรกิจของคุณและตั้งค่าคอนฟิก"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48812d33be6b84bbe0eac15adc4bd41a3ea8706b
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 191d1ee0b47da4930e10146ba164d601d038e81b
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -56,5 +55,5 @@ ms.lasthandoff: 05/25/2017
 คุณอาจทำการชำระเงินบางส่วน โดยที่ยอดเงินคงเหลือที่ต้องชำระมีจำนวนน้อยมาก ตัวอย่างเช่น ใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับ 1,000.00 และคุณจ่าย 999.90 หากยอดคงเหลือน้อยกว่ายอดเงินที่ระบุไว้สำหรับการชำระมากเกินหรือน้อยเกินในหน้า **พารามิเตอร์บัญชีเจ้าหนี้** ผลต่างจะลงรายการบัญชีไปยังบัญชีแยกประเภทการชำระมากเกิน/น้อยเกินโดยอัตโนมัติ
 
 
-
+สำหรับข้อมูลเพิ่มเติม โปรดดู [ภาพรวมการชำระเงินของผู้จัดจำหน่าย](../cash-bank-management/tasks/vendor-payment-overview.md)
 

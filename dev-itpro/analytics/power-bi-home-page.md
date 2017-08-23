@@ -1,9 +1,9 @@
 ---
-title: "เนื้อหา Power BI พร้อมใช้งาน"
+title: "เนื้อหา Power BI"
 description: "หัวข้อนี้แสดงรายการเนื้อหา Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้"
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: th-th
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>เนื้อหา Power BI พร้อมใช้งาน
+# <a name="power-bi-content"></a>เนื้อหา Power BI
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ ms.lasthandoff: 07/25/2017
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI content for Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017
 ถ้าคุณกำลังใช้ Microsoft Dynamics 365 สำหรับทางการเงินและการดำเนินงาน ปรับปรุงองค์กรรุ่น 2017 กรกฎาคม เนื้อหาPower BI ต่อไปนี้จะพร้อมใช้งาน
 
+- [เนื้อหา Power BI ของงบประมาณและที่เกิดขึ้นจริง](ledger-budgets-power-bi.md)
 - [เนื้อหาค่าตอบแทนใน Power BI](benefits-power-bi.md)
 - [เนื้อหาภาพรวมของเงินสดใน Power BI](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [เนื้อหาภาพรวมของ CFO ใน Power BI](CFO-power-bi.md)

@@ -3,7 +3,7 @@ title: "การชำระภาษีขายและกฎการปั
 description: "บทความนี้อธิบายวิธีการตั้งค่ากฎการปัดเศษการในการทำงานของหน่วยงานจัดเก็บภาษีขายและการปัดเศษภาษีขายยอดดุลในระหว่างงานและลงรายการบัญชีการชำระภาษีขาย"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ ms.lasthandoff: 05/25/2017
 > [!NOTE]                                                                                  
 > ถ้าคุณเลือกมีข้อได้เปรียบ การปัดเศษจะเป็นข้อได้เปรียบของนิติบุคคลเสมอ 
 
-สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ภาพรวมภาษีขาย](indirect-taxes-overview.md). 
-
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่หัวข้อต่อไปนี้
+- [ภาพรวมของภาษีขาย](indirect-taxes-overview.md)
+- [การสร้างการชำระเงินภาษีขาย](tasks/create-sales-tax-payment.md)
+- [สร้างเอกสารเกี่ยวกับธุรกรรมการขาย](tasks/create-sales-tax-transactions-documents.md)
+- [ดูธุรกรรมภาษีขายที่ลงรายการบัญชี](tasks/view-posted-sales-tax-transactions.md)
 
 
 

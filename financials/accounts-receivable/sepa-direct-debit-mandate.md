@@ -1,9 +1,9 @@
 ---
 title: "ตั้งค่าข้อบังคับการหักบัญชีเงินฝาก SEPA โดยอัตโนมัติ"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ebf80efa32b21184a8effdde4d46c4d0d2179efd
+ms.translationtype: HT
+ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
+ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -51,7 +51,10 @@ ms.lasthandoff: 05/25/2017
 -   ไม่จำเป็นต้องระบุ: ถ้าคุณคาดว่าลูกค้าของคุณแต่ละคนมีข้อบังคับหลายรายการ ในฟิลด์ **รอบระยะเวลา** เลือก **ใบแจ้งหนี้** การชำระเงินจะถูกสร้างแยกต่างหากสำหรับแต่ละใบแจ้งหนี้และการชำระเงินแต่ละรายการจะใช้ข้อตกลงที่ระบุไว้สำหรับใบแจ้งหนี้
 -   เลือกตัวเลือก **ต้องใช้ข้อตกลง** เพื่อสร้างการชำระเงินโดยการใช้ข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ ตัวเลือก **ต้องใช้ข้อตกลง** จะพร้อมใช้งานได้เมื่อคุณเลือกเท่านั้น **ชำระเงินทางอิเล็กทรอนิกส์** ในฟิลด์ **ชนิดการชำระเงิน**
 
-ให้ดูเพิ่มเติมที่ [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ](sepa-direct-debit-overview.md) 
+ดูเพิ่มเติม
 
+[ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ](sepa-direct-debit-overview.md) 
+
+[สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า](tasks/create-direct-debit-mandate-customer.md) 
 
 
