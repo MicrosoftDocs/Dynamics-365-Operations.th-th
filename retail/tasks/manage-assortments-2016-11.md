@@ -1,0 +1,56 @@
+--- 
+title: " จัดการการจัดประเภท "
+description: "กระบวนงานนี้อธิบายวิธีการสร้างและเผยแพร่การจัดประเภทผลิตภัณฑ์ใหม่และการใช้ข้อมูลบริษัทสาธิต USRT "
+author: jashanno
+manager: AnnBe
+ms.date: 10/31/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Operations
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: jashanno
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
+ms.openlocfilehash: 19acb9a93a5f58303b6d90d207dfb72bdaafa6d2
+ms.contentlocale: th-th
+ms.lasthandoff: 07/28/2017
+
+---
+# <a name="manage-assortments"></a> จัดการการจัดประเภท  
+
+[!include[task guide banner](../includes/task-guide-banner.md)]
+
+กระบวนงานนี้อธิบายวิธีการสร้างและเผยแพร่การจัดประเภทผลิตภัณฑ์ใหม่และการใช้ข้อมูลบริษัทสาธิต USRT  กระบวนงานนี้จำเป็นต้องใช้แอพลิเคชัน Dynamics AX 7.0.1 หรือใหม่กว่า และแพลตฟอร์ม Dynamics AX 7.1  
+
+1. คลิกการจัดการประเภทและผลิตภัณฑ์
+
+## <a name="create-an-assortment"></a>สร้างการจัดประเภท
+1. คลิกแท็บการจัดประเภท
+2. คลิก สร้าง
+3. คลิก การจัดประเภท
+    * จำเป็นต้องมีรหัสการจัดประเภทและจะต้องเป็นค่าเฉพาะ  
+4. ในฟิลด์ชื่อการจัดประเภท ให้พิมพ์ค่า
+5. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่
+6. ในฟิลด์วันที่สิ้นสุด ป้อนวันที่
+7. ขยายส่วนช่องทางการขายปลีก
+8. คลิกเพิ่มรายการ
+9. ในแผนภูมิ ให้เลือก 'Contoso Retail\Electronics\Boston'
+10. คลิก เพิ่ม
+11. คลิก ตกลง
+12. ขยายส่วนผลิตภัณฑ์
+13. คลิก เพิ่มรายการ
+14. ในฟิลด์ประเภท ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
+15. คลิก บันทึก
+
+## <a name="publish-an-assortment"></a>เผยแพร่การจัดประเภท
+1. คลิกที่เผยแพร่ข้อมูล
+2. คลิก ใช่
+
+

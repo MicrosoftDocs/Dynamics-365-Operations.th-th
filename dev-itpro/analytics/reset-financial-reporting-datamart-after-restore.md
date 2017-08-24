@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการรีเซ็ต Data Mart การรายงานทางการเงินหลังจากการคืนค่าฐานข้อมูล Microsoft Dynamics 365 for Finance and Operations 
+หัวข้อนี้อธิบายวิธีการรีเซ็ต Data Mart การรายงานทางการเงินหลังจากการคืนค่าฐานข้อมูล Microsoft Dynamics 365 for Finance and Operations
 
-มีหลายสถานการณ์จำลองที่คุณอาจจำเป็นต้องคืนค่าฐานข้อมูล Finance and Operations ของคุณจากสำเนาสำรองหรือคัดลอกฐานข้อมูลจากสภาพแวดล้อมอื่น เมื่อเกิดเหตุการณ์เช่นนี้ขึ้น คุณต้องทำตามขั้นตอนต่าง ๆ ที่เหมาะสมเพื่อให้แน่ใจว่า Data Mart การรายงานทางการเงินกำลังใช้ฐานข้อมูล Finance and Operations ที่คืนค่ามาได้อย่างถูกต้อง ถ้าคุณมีคำถามเกี่ยวกับการรีเซ็ต Data Mart การรายงานทางการเงินสำหรับเหตุผลนอกเหนือจากการคืนค่าฐานข้อมูล Finance and Operations ให้ดูที่ [การรีเซ็ต Data Mart โปรแกรมรายงานการจัดการ](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) สำหรับข้อมูลเพิ่มเติม หมายเหตุว่าขั้นตอนในกระบวนการนี้ได้รับการสนับสนุนสำหรับ Dynamics 365 for Operation การนำออกใช้ในเดือนพฤษภาคม 2016 (การสร้างแอพ 7.0.1265.23014 และการสร้างการรายงานทางการเงิน 7.0.10000.4) และการนำออกใช้ที่ใหม่กว่า ถ้าคุณมี Finance and Operations การนำออกใช้ก่อนหน้า โปรดติดต่อทีมสนับสนุนของเราสำหรับความช่วยเหลือ
+ถ้าคุณเคยคืนค่าฐานข้อมูล Finance and Operations ของคุณจากการสำรองข้อมูล หรือคัดลอกฐานข้อมูลจากสภาพแวดล้อมอื่น คุณต้องทำตามขั้นตอนในหัวข้อนี้เพื่อให้แน่ใจว่า Data Mart การรายงานทางการเงินใช้ฐานข้อมูล Finance and Operations ที่คืนค่าได้อย่างถูกต้อง 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> ขั้นตอนในกระบวนการนี้ได้รับการสนับสนุนสำหรับ Dynamics 365 for Operation การนำออกใช้ในเดือนพฤษภาคม 2016 (การสร้างแอพ 7.0.1265.23014 และการสร้างการรายงานทางการเงิน 7.0.10000.4) และการนำออกใช้ที่ใหม่กว่า ถ้าคุณมี Finance and Operations การนำออกใช้ก่อนหน้า ให้ติดต่อทีมสนับสนุนของเราสำหรับความช่วยเหลือ
 
 ## <a name="export-report-definitions"></a>ส่งออกข้อกำหนดของรายงาน
 ก่อนอื่น ให้ส่งออกรูปแบบรายงานที่อยู่ในโปรแกรมออกแบบรายงาน โดยทำตามขั้นตอนต่อไปนี้:
 
 1.  ในโปรแกรมออกแบบรายงาน ไปที่ **บริษัท** &gt; **กลุ่มบล็อคส่วนประกอบ**
-2.  เลือกกลุ่มบล็อคส่วนประกอบที่จะส่งออก และคลิก **ส่งออก** **หมายเหตุ:** สำหรับ Finance and Operations สนับสนุนกลุ่มบล็อคส่วนประกอบเพียงหนึ่งรายการเท่านั้น **ค่าเริ่มต้น**
+2.  เลือกกลุ่มบล็อคส่วนประกอบที่จะส่งออก และคลิก **ส่งออก** 
+    > [!Note] 
+    > สำหรับ Finance and Operations สนับสนุนกลุ่มบล็อคส่วนประกอบเพียงหนึ่งรายการเท่านั้น **ค่าเริ่มต้น**
 3.  เลือกข้อกำหนดของรายงานที่จะส่งออก:
     -   เมื่อต้องการส่งออกข้อกำหนดของรายงานและบล็อคส่วนประกอบที่เกี่ยวข้องทั้งหมดของคุณ คลิก **เลือกทั้งหมด**
     -   เมื่อต้องการส่งออกรายงาน แถว คอลัมน์ แผนภูมิ หรือเซ็ตมิติที่เฉพาะ คลิกแท็บที่เหมาะสม และจากนั้นเลือกรายการที่จะส่งออก กดค้างปุ่ม Ctrl เพื่อเลือกหลายรายการในแท็บ เมื่อคุณเลือกรายงานที่จะส่งออก แถว คอลัมน์ แผนภูมิ และเซ็ตมิติที่เกี่ยวข้องจะถูกเลือกไว้
@@ -63,9 +68,9 @@ ms.lasthandoff: 06/13/2017
 บริการเหล่านี้จะมีการเชื่อมต่อที่เปิดอยู่กับฐานข้อมูล Finance and Operations
 
 ## <a name="reset"></a>รีเซ็ต
-#### <a name="locate-the-latest-dataupgradezip-package"></a>ค้นหาแพคเกจ DataUpgrade.zip ล่าสุด
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>ค้นหาและดาวน์โหลดแพคเกจ MinorVersionDataUpgrade.zip ล่าสุด
 
-ค้นหาแพคเกจ DataUpgrade.zip ล่าสุดโดยใช้คำแนะนำที่พบใน [ดาวน์โหลดสคริปต์ DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md) คำแนะนำอธิบายถึงวิธีการค้นหารุ่นที่ถูกต้องของแพคเกจการอัพเกรดข้อมูลสำหรับสภาพแวดล้อมของคุณ
+ค้นหาแพคเกจ MinorVersionDataUpgrade.zip ล่าสุดโดยใช้คำแนะนำที่พบใน [ดาวน์โหลดล่าสุดข้อมูลการอัพเกรดสามารถปรับใช้ได้แพคเกจ](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package) คำแนะนำอธิบายถึงวิธีการค้นหาและดาวน์โหลดรุ่นที่ถูกต้องของแพคเกจการอัพเกรดข้อมูล ไม่จำเป็นต้องอัพเกรดเพื่อดาวน์โหลดแพคเกจ MinorVersionDataUpgrade.zip คุณเพียงต้องทำตามขั้นตอนในส่วน "ดาวน์โหลดแพคเกจที่สามารถปรับใช้ได้ในการอัพเกรดข้อมูลล่าสุด" โดยไม่ต้องดำเนินขั้นตอนอื่น ๆ ในบทความเพื่อดึงข้อมูลสำเนาของแพคเกจ MinorVersionDataUpgrade.zip
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>เรียกใช้สคริปต์กับฐานข้อมูล Finance and Operations
 
@@ -105,8 +110,10 @@ ms.lasthandoff: 06/13/2017
 
 1.  ในโปรแกรมออกแบบรายงาน ไปที่ **บริษัท** &gt; **กลุ่มบล็อคส่วนประกอบ**
 2.  เลือกกลุ่มบล็อคส่วนประกอบที่จะส่งออก และคลิก **ส่งออก** 
+
     > [!NOTE]
     > สำหรับ Finance and Operations สนับสนุนกลุ่มบล็อคส่วนประกอบเพียงหนึ่งรายการเท่านั้น **ค่าเริ่มต้น**
+    
 3.  เลือกบล็อคส่วนประกอบ **เริ่มต้น** และคลิก **นำเข้า**
 4.  เลือกไฟล์ที่ประกอบด้วยข้อกำหนดของรายงานที่ส่งออก แล้วคลิก **เปิด**
 5.  ในกล่องโต้ตอบ นำเข้า เลือกข้อกำหนดของรายงานที่จะนำเข้า:

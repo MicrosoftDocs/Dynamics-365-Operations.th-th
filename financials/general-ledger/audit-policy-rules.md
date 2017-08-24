@@ -3,7 +3,7 @@ title: "กฎนโยบายการตรวจสอบ"
 description: "คุณสามารถใช้นโยบายการตรวจสอบเพื่อประเมินรายงานค่าใช้จ่าย ใบแจ้งหนี้ของผู้จัดจำหน่าย และใบสั่งซื้อ เพื่อตรวจสอบให้แน่ใจว่าจะสอดคล้องกับกฎนโยบายที่คุณสร้าง  กฎทั้งหมดที่เชื่อมโยงกับนโยบายการตรวจสอบกำลังถูกรันในโหมดชุดงาน ตามกำหนดการที่คุณระบุ   กฎนโยบายแต่ละกฎเป็นอินสแตนซ์ของชนิดกฎนโยบาย  สำหรับแต่ละชนิดกฎนโยบาย กฎนโยบายเดียวเท่านั้นสามารถทำงานได้ในแต่ละครั้ง"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 43d2595a4a80e68ed1c0e5639e5413d732fe6a32
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68f31f00a30513b7d2f3f36a39eaf1cfe7a219a1
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -100,8 +99,8 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[กรณีและการละเมิดนโยบายการตรวจสอบ](audit-policy-violations-cases.md)
-
+[ตรวจสอบการละเมิดนโยบายและกรณี](audit-policy-violations-cases.md)
+[กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง](tasks/define-audit-policies-source-documents.md)
 
 
 

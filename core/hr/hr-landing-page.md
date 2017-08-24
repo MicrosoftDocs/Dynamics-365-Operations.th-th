@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5ba2965c4a19e9d4cd1337175d81851a513d9062
-ms.openlocfilehash: 4cea2dec159c0ca72a599d35a98075cb295e5b9c
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 49f7a8f69729002812e78de757ae889266327ff4
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -86,6 +86,7 @@ Microsoft Dynamics AX สามารถช่วยให้คุณรัก�
 
 -   [การตรวจสอบความถูกต้องของการทำงานตามแบบฟอร์ม I-9](localizations/noam-usa-form-i-9-verification.md)
 -   [ปฏิบัติตามกฎหมายผู้พิการแห่งสหรัฐอเมริกา](localizations/noam-usa-comply-ada.md)
+-   [เวลาในการติดตามสำหรับ FMLA](localizations/noam-usa-track-time-for-fmla.md)
 
 ## <a name="gather-information-using-questionnaires"></a>รวบรวมข้อมูลโดยใช้แบบสอบถาม
 

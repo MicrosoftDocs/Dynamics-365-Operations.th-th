@@ -3,7 +3,7 @@ title: "การปิดบัญชีสิ้นปี"
 description: "หัวข้อนี้อธิบายถึงการตั้งค่าที่จำเป็นและขั้นตอนสำหรับการรันกระบวนการปิดเมื่อสิ้นสุดปีของบัญชีแยกประเภททั่วไป"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 50a6a23febc725eb05d30d5db4f97ca699607461
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 05/25/2017
 
 กระบวนการปิดบัญชีสิ้นปีมีค่าเริ่มต้นเป็นการรันในโหมดชุดงาน จึงควรรันกระบวนการในโหมดชุดงาน เพื่ออนุญาตให้ผู้ใช้สามารถกลับไปยังกิจกรรมอื่นได้ หลังจากที่กระบวนการปิดบัญชีสิ้นปีเสร็จสิ้นแล้ว **วันที่ของการปิดบัญชีสิ้นปีที่แล้ว** จะถูกอัพเดตเป็นวันที่รอบเวลา
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด](close-general-ledger-at-period-end.md)
+สำหรับข้อมูลเพิ่มเติม โปรดดู [ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด](close-general-ledger-at-period-end.md) และ [ปิดปีบัญชี](tasks/close-fiscal-year.md)
 
 
 

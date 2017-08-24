@@ -1,9 +1,9 @@
 ---
 title: "การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่"
 description: "หัวข้อนี้มีไว้เพื่อแสดงวิธีการที่ใช้ได้จริงในการออกแบบสถานการณ์สมมติแบบเคลื่อนที่ใน Dynamics 365 for Finance and Operations โดยใช้การอนุมัติใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับมือถือเป็นกรณีการใช้"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/20/2017
 
 | ข้อกำหนดเบื้องต้น                                                                                            | คำอธิบาย                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| การอ่านคู่มือมือถือล่วงหน้า                                                                                |[แพลตฟอร์มแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| การอ่านคู่มือมือถือล่วงหน้า                                                                                |[แพลตฟอร์มแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | สภาพแวดล้อมที่มี Microsoft Dynamics 365 for Operations เวอร์ชัน 1611 และการอัพเดตแพลตฟอร์ม Microsoft Dynamics for Operations 3 (พฤศจิกายน 2016)                   |
 | ติดตั้ง KB โปรแกรมแก้ไขด่วน 3204341                                                                              | ตัวบันทึกงานสามารถบันทึกคำสั่งปิดสองรายการโดยไม่ได้ตั้งใจสำหรับกล่องโต้ตอบรายการแบบหล่นลง ซึ่งจะรวมอยู่ในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operation 3 (การอัพเดตเดือนพฤศจิกายน 2016) |
 | ติดตั้ง KB โปรแกรมแก้ไขด่วน 3207800                                                                              | โปรแกรมแก้ไขด่วนนี้ทำให้สามารถดูเอกสารแนบบนไคลเอ็นต์แบบเคลื่อนที่ได้ ซึ่งรวมอยู่ในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operation 3 (การอัพเดตเดือนพฤศจิกายน 2016)           |

@@ -1,0 +1,47 @@
+--- 
+title: "แม็ปมิติองค์ประกอบต้นทุน"
+description: "ผู้ควบคุมต้นทุนสามารถใช้กระบวนงานนี้ในการแม็ปมิติองค์ประกอบต้นทุนไปยังมิติองค์ประกอบต้นทุนในนิติบุคคล MXMF"
+author: YuyuScheller
+manager: AnnBe
+ms.date: 06/28/2017
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: yuyus
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 6b99e1b5fc86bd1972766c8154141e9dd26bb7b0
+ms.contentlocale: th-th
+ms.lasthandoff: 07/27/2017
+
+---
+# <a name="map-a-cost-element-dimension"></a>แม็ปมิติองค์ประกอบต้นทุน
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+ผู้ควบคุมต้นทุนสามารถใช้กระบวนงานนี้ในการแม็ปมิติองค์ประกอบต้นทุนไปยังมิติองค์ประกอบต้นทุนในนิติบุคคล MXMF การบันทึกข้อมูลนี้ใช้บริษัทข้อมูลสาธิต USP2
+
+1. ไปที่ การลงบัญชีต้นทุนสินค้า > มิติ > มิติองค์ประกอบต้นทุน
+2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
+    * สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน  
+3. คลิก การแม็ปมิติ
+4. คลิก ตั้งค่าคอนฟิกการแม็ปจากมิตินี้
+5. คลิก สร้าง
+6. ในฟิลด์ ไปที่มิติ ให้ป้อนหรือเลือกค่า 
+    * สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน MXMF  
+7. คลิก สร้าง
+8. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
+9. ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า
+    * ตัวอย่างนี้ เลือกสมาชิกมิติ 606400 ค่าโทรศัพท์ & โทรสาร  
+10. ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า
+    * ตัวอย่างนี้ เลือกสมาชิกมิติ 6001004 Telefono  
+11. คลิก บันทึก
+
+

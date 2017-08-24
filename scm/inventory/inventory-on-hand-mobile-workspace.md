@@ -18,12 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: d14f3510df45169e3b77ee9c4f3d0d9d389e6036
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 6e062ffa459b7d008fc5d24f27538f8df04d7e82
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -116,7 +115,7 @@ ms.lasthandoff: 06/13/2017
 
 1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ปริมาณคงคลังคงเหลือ**
 
-2.  เลือก **ตรวจสอบปริมาณคงคลังคงเหลือสำหรับสินค้า** คุณเห็นรายการของผลิตภัณฑ์ที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)
+2.  เลือก **ตรวจสอบปริมาณคงคลังคงเหลือสำหรับสินค้า** คุณเห็นรายการของผลิตภัณฑ์ที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)
 3.  ถ้าสินค้าของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหาข้อมูลเพิ่มเติม** ค้นหาโดยใช้หมายเลขผลิตภัณฑ์ หรือสลับไปยังการค้นหาตามชื่อผลิตภัณฑ์
 
 4.  เลือกผลิตภัณฑ์ >  ถ้าสินค้ามีรูปภาพ รูปภาพจะแสดงขึ้น
