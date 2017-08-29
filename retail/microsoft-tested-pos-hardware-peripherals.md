@@ -1,7 +1,7 @@
 ---
 title: "อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS"
 description: "การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก"
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f5f090eb406488ecfcd502c2cc6e3a63ca16111a
 ms.contentlocale: th-th
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

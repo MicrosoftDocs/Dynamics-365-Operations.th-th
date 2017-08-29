@@ -1,7 +1,7 @@
 ---
 title: "พื้นที่ทำงานการจัดการธนาคาร"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการจัดการธนาคาร พื้นที่ทำงานนี้แสดงข้อมูลที่เกี่ยวข้องกับบัญชีธนาคารของบริษัท และรวมทั้งมุมมองสรุปและหน้าการวิเคราะห์ มุมมองสรุปแสดงไทล์สรุป ข้อมูลบัญชีธนาคาร แผนภูมิยอดดุลและข้อมูลที่เกี่ยวข้อง หน้าการวิเคราะห์ใช้ความสามารถของ Microsoft Power BI เพื่อแสดงสิ่งที่มองเห็นได้ที่เกี่ยวข้องกับยอดดุลบัญชีธนาคาร"
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 05/25/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

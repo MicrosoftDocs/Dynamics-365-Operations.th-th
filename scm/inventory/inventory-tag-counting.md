@@ -1,7 +1,7 @@
 ---
 title: "การนับป้ายสินค้าคงคลัง"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับการตรวจนับแท็ก ซึ่งใช้ในการเปรียบเทียบเนื้อหาจริงของคลังสินค้าที่มีปริมาณคงคลังคงเหลือ"
-author: YuyuScheller
+author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 61a48a61963f643c8969e9090c2e84b5499b716a
 ms.contentlocale: th-th
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

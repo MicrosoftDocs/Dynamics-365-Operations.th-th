@@ -1,7 +1,7 @@
 ---
 title: "การบริหารจัดการกะและลิ้นชักเงินสด"
 description: "บทความนี้อธิบายวิธีการตั้งค่าและการใช้กะการขายหน้าร้านแบบขายปลีก (POS) สองชนิด ซึ่งได้แก่ แบบสแตนด์อโลน และที่ใช้ร่วมกัน กะที่ใช้ร่วมกันสามารถใช้ได้โดยผู้ใช้หลายคนในสถานที่หลายแห่ง ในขณะที่กะแบบสแตนด์อโลนสามารถใช้ได้โดยผู้ปฏิบัติงานเดียวเท่านั้นในแต่ละครั้ง"
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: th-th
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

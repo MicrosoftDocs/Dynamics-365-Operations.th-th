@@ -1,7 +1,7 @@
 ---
 title: "เท็มเพลตใบเสร็จและการพิมพ์"
 description: "บทความนี้อธิบายวิธีการแก้ไขโครงร่างแบบฟอร์มเพื่อควบคุมวิธีพิมพ์ใบเสร็จ ใบแจ้งหนี้ และเอกสารอื่นๆ ได้ รวมถึงการออกแบบโครงร่างแบบฟอร์มที่คุณสามารถใช้เพื่อสร้าง  Microsoft Dynamics 365 for Retail รวมถึงตัวออกแบบโครงร่างแบบฟอร์ม ที่คุณสามารถใช้สร้างและปรับปรุงชนิดที่หลากหลายของโครงร่างแบบฟอร์มอย่างง่ายดาย"
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 6f1ec982522c6fe677b1921b69d5d04c4e783725
 ms.contentlocale: th-th
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

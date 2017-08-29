@@ -1,7 +1,7 @@
 ---
 title: "นำเข้าอัตราแลกเปลี่ยนสกุลเงิน"
 description: "ถ้านิติบุคคลได้รับใบแจ้งหนี้ในสกุลเงินต่างประเทศ จำเป็นต้องแปลงสกุลเงินต่างประเทศเป็นสกุลเงินท้องถิ่น ซึ่งหมายความว่าจำเป็นต้องใช้อัตราแลกเปลี่ยนปัจจุบันสำหรับสกุลเงินอื่น หัวข้อนี้แสดงภาพรวมของการตั้งค่าที่จำเป็นและการประมวลผลสำหรับการนำเข้าอัตราอ้างอิงแลกเปลี่ยนเงินตราต่างประเทศที่เผยแพร่บนอินเทอร์เน็ตโดยผู้ให้บริการอัตราแลกเปลี่ยน เช่น ธนาคารกลางยุโรป และธนาคารกลางของรัสเซีย"
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

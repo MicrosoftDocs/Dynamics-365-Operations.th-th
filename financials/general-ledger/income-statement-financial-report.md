@@ -1,7 +1,7 @@
 ---
 title: "รายงานงทางการเงินใบแจ้งยอดรายได้"
 description: "บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้"
-author: twheeloc
+author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: f07aea0b87bc3e09982f9ba248d3c28540fd2dc5
 ms.contentlocale: th-th
 ms.lasthandoff: 06/13/2017
-
 
 ---
 
