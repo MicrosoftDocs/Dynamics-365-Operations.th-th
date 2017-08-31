@@ -1,7 +1,7 @@
 ---
 title: "จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน"
 description: "สินค้าที่กู้ยืมมีเรกคอร์ดซึ่งช่วยให้ผู้จัดการติดตามสินค้าทางกายภาพที่บริษัทของคุณให้ผู้ปฏิบัติงานยืม"
-author: rschloma
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 69fea8edf3d69647a934273a3877b31643db6f13
 ms.contentlocale: th-th
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

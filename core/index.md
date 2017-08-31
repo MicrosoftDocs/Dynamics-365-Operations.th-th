@@ -13,13 +13,13 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 Microsoft Dynamics 365 for Finance and Operations คือแอพลิเคชันทางธุรกิจของ Microsoft สำหรับองค์กร แอพลิเคชันนี้จะช่วยให้บุคคลสามารถทำการตัดสินใจอย่างชาญฉลาดมากยิ่งขึ้นได้อย่างรวดเร็วผ่านอินเทอร์เฟซผู้ใช้อัจฉริยะที่ให้การเข้าถึงข้อมูลและความเข้าใจแบบเรียลไทม์ แอพลิเคชันนี้จะช่วยให้ธุรกิจต่างๆ สามารถแปลงและพัฒนานวัตกรรมโดยการตรรกะทางธุรกิจที่ได้รับการพิสูจน์แล้วที่ทำให้ธุรกิจเหล่านั้นสามารถออกแบบกระบวนการทางธุรกิจของตนใหม่ได้เร็วขึ้น แอพลิเคชันนี้จะช่วยให้ธุรกิจต่างๆ มีความยืดหยุ่นในการเติบโตตามความเร็วของตนเอง และทำธุรกิจได้เกือบทุกที่ เมื่อใดก็ได้ ซึ่งทำให้สามารถปรับมาตราส่วนของการดำเนินงานของตนได้ทั่วโลกเพื่อให้ตรงกับความต้องการทางธุรกิจ 
 
-เอกสารนี้จะช่วยให้คุณเรียนรู้วิธีการใช้ Dynamics 365 for Finance and Operations เพื่อทำงานให้กับธุรกิจของคุณ เอกสารนี้เชื่อมโยงกับเอกสารสำหรับผลิตภัณฑ์ที่เกี่ยวข้องใน Unified Operations suite, Dynamics 365 for Retail และ Dynamics 365 for Talent 
+เอกสารนี้จะช่วยให้คุณเรียนรู้วิธีการใช้ Dynamics 365 for Finance and Operations เพื่อทำงานให้กับธุรกิจของคุณ เอกสารนี้เชื่อมโยงกับเอกสารสำหรับผลิตภัณฑ์ที่เกี่ยวข้อง: Dynamics 365 for Retail และ Dynamics 365 for Talent 
 
 <table>
 <colgroup>
@@ -86,11 +86,11 @@ Microsoft Dynamics 365 for Finance and Operations คือแอพลิเค
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">การรายงานทางการเงิน</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">การรายงานที่เป็นข้อบังคับ</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">แพลตฟอร์มเคลื่อนที่</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">แพลตฟอร์มเคลื่อนที่</a></h3>
 
 <h3>ฟังก์ชันนักพัฒนา</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">โฮมเพจนักพัฒนา</a></p>
-<p><a href="../dev-itpro/extensibility/extensibility-home-page">เพิ่มความสามารถ</a></p>
+<p><a href="../dev-itpro/extensibility/extensibility-home-page">การเพิ่มความสามารถ</a></p>
 <p>การรวม</p>
 <ul style="list-style-type:none"><p><a href="../dev-itpro/data-entities/data-entities">เอนทิตี้ข้อมูล</a></p>
 <p><a href="../dev-itpro/office-integration/office-integration">การรวม Office</a></p></ul></p>

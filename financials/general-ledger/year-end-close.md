@@ -1,7 +1,7 @@
 ---
 title: "การปิดบัญชีสิ้นปี"
 description: "หัวข้อนี้อธิบายถึงการตั้งค่าที่จำเป็นและขั้นตอนสำหรับการรันกระบวนการปิดเมื่อสิ้นสุดปีของบัญชีแยกประเภททั่วไป"
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

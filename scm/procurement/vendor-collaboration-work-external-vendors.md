@@ -1,7 +1,7 @@
 ---
 title: "การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก"
 description: "หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถทำงานร่วมกันกับผู้จัดจำหน่ายภายนอกเพื่อแลกเปลี่ยนข้อมูลเกี่ยวกับใบสั่งซื้อและสินค้าคงคลังที่มีการส่งมอบ"
-author: BibiSp
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,13 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786

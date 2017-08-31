@@ -1,7 +1,7 @@
 ---
 title: "ภาพรวมของหลักการลงบัญชีพึงรับพึงจ่าย"
 description: "บทความนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม"
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "เนื้อหาการบัญชีต้นทุนใน Power BI"
 description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การบัญชีต้นทุนใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
 ms.author: aevengir
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,9 +29,9 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations ประกอบด้วยฟังก์ชันการทำงานสำหรับประเทศ/ภูมิภาคที่ระบุไว้ใน [คู่มือความพร้อมใช้งานของผลิตภัณฑ์](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ 
+Microsoft Dynamics 365 for Finance and Operations ประกอบด้วยฟังก์ชันการทำงานสำหรับประเทศ/ภูมิภาคที่ระบุไว้ใน [คู่มือความพร้อมใช้งานของผลิตภัณฑ์สำหรับต่างประเทศ](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ 
 
-หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค 
+หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับโซลูชัน การอัพเดต การแจ้งเตือนเฉพาะประเทศ/ภูมิภาคและฟังก์ชันการทำงาน 
 
 ## <a name="developing-localized-solutions"></a>การพัฒนาโซลูชันสำหรับใช้ในท้องถิ่น
 ทรัพยากรต่อไปนี้ให้คำแนะนำและข้อมูลที่สามารถช่วยเหลือนักพัฒนาและ ISV ที่กำลังสร้างการกำหนดเองเฉพาะประเทศ/ภูมิภาค หรือสร้างโซลูชันสำหรับประเทศที่ Microsoft ไม่ได้ให้การสนับสนุน
@@ -94,11 +94,15 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 ### <a name="belgium"></a>เบลเยียม
 
 -   [ใบแจ้งยอดจากธนาคาร CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
--   [การรายงานภาษี INTERVAT](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
+-   [การรายงานภาษี Intervat](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [การตั้งค่ารายงาน PRODCOM](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [รายงานการกระทบยอด](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>บราซิล
 
+-   [สินทรัพย์ถาวร CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [ตั้งค่าคอนฟิกสมุดการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [ส่งออกและนำเข้าธุรกรรมสำหรับการรวมบัญชีแยกประเภททั่วไปสำหรับบราซิล](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [สมุดการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [ตัวยึดข้อความของเอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [เอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,10 +112,12 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [กระบวนการ NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [พารามิเตอร์สำหรับนิติบุคคล](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์สำหรับบราซิล](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [เอกสารทางการเงินเพิ่มเติมการซื้อ](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [เอกสารทางการเงินที่อ้างอิง](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [เอกสารทางการเงินเพิ่มเติมการขาย](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [เอกสารทางการเงินแบบอิเล็กทรอนิกส์บริการ](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [ตั้งค่า นำเข้า และตรวจสอบเอกสาร NF-e XML และ DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [แอททริบิวต์ภาษี](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [การชำระภาษี](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [ภาษี](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -159,6 +165,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 - [การปรับปรุงอัตราแลกเปลี่ยน](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [นำเข้าไฟล์ ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [อินทราสแทต](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [รายงานสมุดรายวันสินค้าคงคลัง](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [การกำหนดหมายเลขใบแจ้งหนี้และบันทึกการจัดส่งสำหรับลัตเวียและลิทัวเนีย](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 - [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [การตั้งค่าค่าตอบแทนลูกค้าและผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [การกลับรายการบัญชี](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [คำสั่งภาษี](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [อัตราแลกเปลี่ยน VAT](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -199,7 +207,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 
 ### <a name="germany"></a>เยอรมนี
 -   [ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
--   [ไฟล์การตรวจสอบภาษาเยอรมัน (GDPdU/GoBD](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
+-   [ไฟล์การตรวจสอบภาษาเยอรมัน (GDPdU/GoBD)](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [รายงานรายการสมุดรายวันภาษาเยอรมัน](/dynamics365/unified-operations/financials/localizations/emea-deu-journal-list-report)
 -   [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย](/dynamics365/unified-operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
@@ -246,6 +254,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 
 -   [รายงานซ่อมแซมสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [รายละเอียดใบแจ้งยอด VAT](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>เม็กซิโก
 
@@ -296,6 +305,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [กลุ่มการประเมินค่าสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [VAT ภายในประชาคม](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [ลูกค้าขาจร](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [พิมพ์เช็คโดยใช้ภาษาสเปน](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [ตัวเลือกตั๋วสัญญาใช้เงินภาษาสเปน](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [วงจรการขายและการซื้อ](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [รายการพิเศษและแผ่นงานการเปิด](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 ### <a name="thailand"></a>ไทย
 
 -   [รายงานบัตรสินค้าคงคลัง](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [VAT ที่ยังไม่รับรู้](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [ภาษีหัก ณ ที่จ่าย](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -320,8 +331,9 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 
 -   [แผนงานอุตสาหกรรมก่อสร้างสำหรับสหราชอาณาจักร](/dynamics365/unified-operations/financials/localizations/emea-gbr-cis-construction-industry-scheme)
 
-### <a name="united-states"></a>สหรัฐ
+### <a name="united-states"></a>สหรัฐอเมริกา
 
+-   [แบบฟอร์ม 1099 ของภาครัฐ](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [การตรวจสอบแบบฟอร์ม I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [การรายงาน 1099 สิ้นปี](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [ระบบค่าจ้าง](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)

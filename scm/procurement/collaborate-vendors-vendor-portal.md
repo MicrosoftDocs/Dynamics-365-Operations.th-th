@@ -1,7 +1,7 @@
 ---
 title: "ทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย"
 description: "หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถใช้พอร์ทัลผู้จัดจำหน่ายเพื่อร่วมมือกับผู้จัดจำหน่ายภายนอกในระหว่างกระบวนการยืนยันใบสั่งซื้อ ข้อมูลนี้ใช้กับ Dynamics AX เวอร์ชันกุมภาพันธ์ 2016 &amp; พฤษภาคม 2016 เท่านั้น"
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40

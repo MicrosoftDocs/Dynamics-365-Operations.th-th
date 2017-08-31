@@ -14,8 +14,8 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Thailand
 ms.author: epopov
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
-ms.dyn365.ops.version: Enterprise edition, July 2017 update
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
 ms.openlocfilehash: 34799eb99844477bdfc7ac88e3482d9463bf456d

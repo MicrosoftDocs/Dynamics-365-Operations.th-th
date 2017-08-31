@@ -1,7 +1,7 @@
 ---
 title: "กลุ่มบัญชีหลักในการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับกลุ่มบัญชีหลักในการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม และอธิบายถึงวิธีการใช้ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

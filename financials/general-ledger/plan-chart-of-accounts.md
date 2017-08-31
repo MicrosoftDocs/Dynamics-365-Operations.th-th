@@ -1,7 +1,7 @@
 ---
 title: "วางแผนชื่อผังบัญชีของคุณ"
 description: "บทความนี้ให้ข้อมูลที่จะช่วยให้คุณวางแผนผังบัญชีสำหรับองค์กรของคุณ"
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

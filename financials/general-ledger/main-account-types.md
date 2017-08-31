@@ -1,7 +1,7 @@
 ---
 title: "ประเถทชนิดบัญชีหลัก"
 description: "ชนิดของบัญชีหลักกำหนดวิธีใช้บัญชีหลักในผังบัญชี"
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

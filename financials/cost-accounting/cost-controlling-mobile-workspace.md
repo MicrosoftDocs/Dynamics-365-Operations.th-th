@@ -1,7 +1,7 @@
 ---
 title: "พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการควบคุมต้นทุน พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: th-th
 ms.lasthandoff: 06/13/2017
-
 
 ---
 
