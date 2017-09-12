@@ -25,18 +25,18 @@ ms.lasthandoff: 08/09/2017
 
 ---
 
-# <a name="purchase-orders-for-a-project"></a>ใบสั่งซื้อสำหรับโครงการ
+# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="f4a1b-104">ใบสั่งซื้อสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-104">Purchase orders for a project</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ
+<span data-ttu-id="f4a1b-105">บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้ </span><span class="sxs-lookup"><span data-stu-id="f4a1b-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="f4a1b-106">วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 
-ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณสามารถใช้วิธีการต่างๆเพื่อสร้างใบสั่งซื้อสำหรับโครงการ วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ
+<span data-ttu-id="f4a1b-107">ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณสามารถใช้วิธีการต่างๆเพื่อสร้างใบสั่งซื้อสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-107">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, you can use multiple methods to create purchase orders for a project.</span></span> <span data-ttu-id="f4a1b-108">วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-108">The method that you use depends on the purpose of the purchase order, when the purchased items are consumed, and when the purchased items are charged to a project.</span></span>
 
-### <a name="methods-for-creating-a-purchase-order"></a>วิธีการสร้างใบสั่งซื้อ
+### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="f4a1b-109">วิธีการสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-109">Methods for creating a purchase order</span></span>
 
-คุณสามารถใช้หนึ่งในวิธีต่อไปนี้ เพื่อสร้างใบสั่งซื้อในการจัดการโครงการและการบัญชีได้ วัตถุประสงค์ของใบสั่งซื้อจะเป็นตัวกำหนดว่าจะมีการใช้ใบสั่งซื้อเมื่อใดและคิดค่าใช้จ่ายสำหรับสินค้าในโครงการเมื่อใด
+<span data-ttu-id="f4a1b-110">คุณสามารถใช้หนึ่งในวิธีต่อไปนี้ เพื่อสร้างใบสั่งซื้อในการจัดการโครงการและการบัญชีได้</span><span class="sxs-lookup"><span data-stu-id="f4a1b-110">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="f4a1b-111">วัตถุประสงค์ของใบสั่งซื้อจะเป็นตัวกำหนดว่าจะมีการใช้ใบสั่งซื้อเมื่อใดและคิดค่าใช้จ่ายสำหรับสินค้าในโครงการเมื่อใด</span><span class="sxs-lookup"><span data-stu-id="f4a1b-111">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
 
 <table>
 <colgroup>
@@ -46,37 +46,37 @@ ms.lasthandoff: 08/09/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>วิธีการ</th>
-<th>วัตถุประสงค์</th>
-<th>ปริมาณการใช้ของสินค้า</th>
+<th><span data-ttu-id="f4a1b-112">วิธีการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-112">Method</span></span></th>
+<th><span data-ttu-id="f4a1b-113">วัตถุประสงค์</span><span class="sxs-lookup"><span data-stu-id="f4a1b-113">Purpose</span></span></th>
+<th><span data-ttu-id="f4a1b-114">ปริมาณการใช้ของสินค้า</span><span class="sxs-lookup"><span data-stu-id="f4a1b-114">Consumption of items</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>สร้างใบสั่งซื้อโดยตรงจากโครงการ</td>
-<td>ใช้วิธีการนี้เพื่อซื้อสินค้าจากผู้จัดจำหน่ายภายนอก สำหรับการใช้วัสดุในโครงการ คุณสามารถสร้างใบสั่งซื้อได้ในสองลักษณะ:
+<td><span data-ttu-id="f4a1b-115">สร้างใบสั่งซื้อโดยตรงจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-115">Create a purchase order directly from a project.</span></span></td>
+<td><span data-ttu-id="f4a1b-116">ใช้วิธีการนี้เพื่อซื้อสินค้าจากผู้จัดจำหน่ายภายนอก สำหรับการใช้วัสดุในโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-116">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="f4a1b-117">คุณสามารถสร้างใบสั่งซื้อได้ในสองลักษณะ:</span><span class="sxs-lookup"><span data-stu-id="f4a1b-117">You can create the purchase order in two ways:</span></span>
 <ul>
-<li>จากตัวโครงการเอง ในกรณีนี้ จะมีการกำหนดโครงการไว้แล้วสำหรับใบสั่งซื้อ</li>
-<li>โดยการนำทางไปยังโครงการใบสั่งซื้อ คุณต้องเลือกทั้งผู้จัดจำหน่ายและโครงการที่จะสร้างใบสั่งซื้อ</li>
+<li><span data-ttu-id="f4a1b-118">จากตัวโครงการเอง</span><span class="sxs-lookup"><span data-stu-id="f4a1b-118">From the project itself.</span></span> <span data-ttu-id="f4a1b-119">ในกรณีนี้ จะมีการกำหนดโครงการไว้แล้วสำหรับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-119">In this case, the project is already defined for the purchase order.</span></span></li>
+<li><span data-ttu-id="f4a1b-120">โดยการนำทางไปยังโครงการใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-120">By navigating to the project purchase order.</span></span> <span data-ttu-id="f4a1b-121">คุณต้องเลือกทั้งผู้จัดจำหน่ายและโครงการที่จะสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-121">You must select both the vendor and the project to create the purchase order for.</span></span></li>
 </ul></td>
-<td>สินค้ามีการใช้เมื่อมีการอัพเดตใบแจ้งหนี้จากผู้จัดจำหน่าย</td>
+<td><span data-ttu-id="f4a1b-122">สินค้ามีการใช้เมื่อมีการอัพเดตใบแจ้งหนี้จากผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f4a1b-122">Items are consumed when the vendor invoice is updated.</span></span></td>
 </tr>
 <tr class="even">
-<td>สร้างใบสั่งซื้อจากใบสั่งขาย</td>
-<td>ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างใบสั่งขายจากโครงการ</td>
-<td>สินค้าจะถูกใช้เมื่อมีการออกอินวอยซ์ใบสั่งขายให้กับลูกค้า</td>
+<td><span data-ttu-id="f4a1b-123">สร้างใบสั่งซื้อจากใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="f4a1b-123">Create a purchase order from a sales order.</span></span></td>
+<td><span data-ttu-id="f4a1b-124">ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างใบสั่งขายจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-124">Use this method to purchase items when you create a sales order from a project.</span></span></td>
+<td><span data-ttu-id="f4a1b-125">สินค้าจะถูกใช้เมื่อมีการออกอินวอยซ์ใบสั่งขายให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f4a1b-125">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
 </tr>
 <tr class="odd">
-<td>สร้างใบสั่งซื้อจากความต้องการสินค้า</td>
-<td>ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างความต้องการสินค้าจากโครงการ</td>
-<td>สินค้ามีการใช้เมื่อมีการอัพเดตบันทึกการจัดส่งตามความต้องการสินค้า</td>
+<td><span data-ttu-id="f4a1b-126">สร้างใบสั่งซื้อจากความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="f4a1b-126">Create a purchase order from an item requirement.</span></span></td>
+<td><span data-ttu-id="f4a1b-127">ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างความต้องการสินค้าจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="f4a1b-127">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
+<td><span data-ttu-id="f4a1b-128">สินค้ามีการใช้เมื่อมีการอัพเดตบันทึกการจัดส่งตามความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="f4a1b-128">Items are consumed when the item requirement packing slip is updated.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE] 
-> เมื่อคุณอัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายหรือบันทึกการจัดส่ง คุณจะได้รับข้อความเตือนให้อัพเดตบันทึกการจัดส่งสำหรับความต้องการสินค้า
+> <span data-ttu-id="f4a1b-129">เมื่อคุณอัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายหรือบันทึกการจัดส่ง คุณจะได้รับข้อความเตือนให้อัพเดตบันทึกการจัดส่งสำหรับความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="f4a1b-129">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
 
-สำหรับข้อมูลเพิ่มเติม โปรดดู [รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า](tasks/receive-items-purchase-order-item-requirement.md)
+<span data-ttu-id="f4a1b-130">สำหรับข้อมูลเพิ่มเติม โปรดดู [รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า](tasks/receive-items-purchase-order-item-requirement.md)</span><span class="sxs-lookup"><span data-stu-id="f4a1b-130">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
 
 

@@ -16,50 +16,50 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f9b82db94d98fb19c67888a1f8a35b2fe62c98fe
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7cc024caa54db6629a1e573df295fe8333996647
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-governed-by-budget"></a>สร้างใบสั่งซื้อที่ได้รับการควบคุมโดยงบประมาณ
+# <a name="create-a-purchase-order-governed-by-budget"></a><span data-ttu-id="b44eb-103">สร้างใบสั่งซื้อที่ได้รับการควบคุมโดยงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-103">Create a purchase order governed by budget</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ใช้กระบวนงานนี้เพื่อสร้างใบสั่งซื้อที่มีการตรวจสอบงบประมาณที่มีอยู่ การบันทึกข้อมูลนี้ใช้บริษัทข้อมูลสาธิต USMF
+<span data-ttu-id="b44eb-104">ใช้กระบวนงานนี้เพื่อสร้างใบสั่งซื้อที่มีการตรวจสอบงบประมาณที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="b44eb-104">Use this procedure to create a purchase order that is checked for available budget.</span></span> <span data-ttu-id="b44eb-105">การบันทึกข้อมูลนี้ใช้บริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="b44eb-105">This recording uses the USMF demo data company.</span></span>
 
 
-## <a name="review-the-budget-control-configuration"></a>ตรวจสอบการตั้งค่าคอนฟิกการควบคุมงบประมาณ
-1. ไปที่ การจัดทำงบประมาณ > การตั้งค่า > การควบคุมงบประมาณ > การตั้งค่าคอนฟิกการควบคุมงบประมาณ
-2. คลิกแท็บ เงินงบประมาณที่มีอยู่
-3. คลิกแท็บ เอกสารและสมุดรายวัน
-4. คลิกแท็บ กำหนดกฎการควบคุมงบประมาณ
-5. คลิกแท็บ กำหนดกลุ่มงบประมาณ
-6. ปิดหน้า
+## <a name="review-the-budget-control-configuration"></a><span data-ttu-id="b44eb-106">ตรวจสอบการตั้งค่าคอนฟิกการควบคุมงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-106">Review the budget control configuration</span></span>
+1. <span data-ttu-id="b44eb-107">ไปที่ การจัดทำงบประมาณ > การตั้งค่า > การควบคุมงบประมาณ > การตั้งค่าคอนฟิกการควบคุมงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-107">Go to Budgeting > Setup > Budget control > Budget control configuration.</span></span>
+2. <span data-ttu-id="b44eb-108">คลิกแท็บ เงินงบประมาณที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="b44eb-108">Click the Budget funds available tab.</span></span>
+3. <span data-ttu-id="b44eb-109">คลิกแท็บ เอกสารและสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="b44eb-109">Click the Documents and journals tab.</span></span>
+4. <span data-ttu-id="b44eb-110">คลิกแท็บ กำหนดกฎการควบคุมงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-110">Click the Define budget control rules tab.</span></span>
+5. <span data-ttu-id="b44eb-111">คลิกแท็บ กำหนดกลุ่มงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-111">Click the Define budget groups tab.</span></span>
+6. <span data-ttu-id="b44eb-112">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="b44eb-112">Close the page.</span></span>
 
-## <a name="create-the-purchase-order-header"></a>สร้างส่วนหัวของใบสั่งซื้อ
-1. ไปที่การจัดซื้อและการจัดหา > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่า
-4. ขยายส่วนทั่วไป
-5. ในฟิลด์ วันที่ลงบัญชี ตั้งค่าวันที่เป็น '2016-01-01'
-6. คลิก ตกลง
+## <a name="create-the-purchase-order-header"></a><span data-ttu-id="b44eb-113">สร้างส่วนหัวของใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="b44eb-113">Create the purchase order header</span></span>
+1. <span data-ttu-id="b44eb-114">ไปที่การจัดซื้อและการจัดหา > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="b44eb-114">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="b44eb-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b44eb-115">Click New.</span></span>
+3. <span data-ttu-id="b44eb-116">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b44eb-116">In the Vendor account field, enter or select a value.</span></span>
+4. <span data-ttu-id="b44eb-117">ขยายส่วนทั่วไป</span><span class="sxs-lookup"><span data-stu-id="b44eb-117">Expand the General section.</span></span>
+5. <span data-ttu-id="b44eb-118">ในฟิลด์ วันที่ลงบัญชี ตั้งค่าวันที่เป็น '2016-01-01'</span><span class="sxs-lookup"><span data-stu-id="b44eb-118">In the Accounting date field, set the date to '2016-01-01'.</span></span>
+6. <span data-ttu-id="b44eb-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="b44eb-119">Click OK.</span></span>
 
-## <a name="add-a-purchase-order-line"></a>เพิ่มรายการใบสั่งซื้อ
-1. ในฟิลด์การจัดซื้อ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-2. กำหนดปริมาณเป็น '2'
-3. ในฟิลด์หน่วย ให้ป้อนหรือเลือกค่า
-4. ตั้งค่าราคาต่อหน่วยเป็น '10000'
-5. คลิกข้อมูลทางการเงิน
-6. คลิกกระจายยอดเงิน
-7. ในฟิลด์บัญชีแยกประเภท ให้ระบุค่า '601300-001-023--'
-8. ปิดหน้า
+## <a name="add-a-purchase-order-line"></a><span data-ttu-id="b44eb-120">เพิ่มรายการใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="b44eb-120">Add a purchase order line</span></span>
+1. <span data-ttu-id="b44eb-121">ในฟิลด์การจัดซื้อ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="b44eb-121">In the Procurement category field, enter or select a value.</span></span>
+2. <span data-ttu-id="b44eb-122">กำหนดปริมาณเป็น '2'</span><span class="sxs-lookup"><span data-stu-id="b44eb-122">Set Quantity to '2'.</span></span>
+3. <span data-ttu-id="b44eb-123">ในฟิลด์หน่วย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b44eb-123">In the Unit field, enter or select a value.</span></span>
+4. <span data-ttu-id="b44eb-124">ตั้งค่าราคาต่อหน่วยเป็น '10000'</span><span class="sxs-lookup"><span data-stu-id="b44eb-124">Set Unit price to '10000'.</span></span>
+5. <span data-ttu-id="b44eb-125">คลิกข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="b44eb-125">Click Financials.</span></span>
+6. <span data-ttu-id="b44eb-126">คลิกกระจายยอดเงิน</span><span class="sxs-lookup"><span data-stu-id="b44eb-126">Click Distribute amounts.</span></span>
+7. <span data-ttu-id="b44eb-127">ในฟิลด์บัญชีแยกประเภท ให้ระบุค่า '601300-001-023--'</span><span class="sxs-lookup"><span data-stu-id="b44eb-127">In the Ledger account field, specify the value '601300-001-023--'.</span></span>
+8. <span data-ttu-id="b44eb-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="b44eb-128">Close the page.</span></span>
 
-## <a name="perform-budget-checking"></a>ทำการตรวจสอบงบประมาณ
-1. คลิกข้อมูลทางการเงิน
-2. คลิก ทำการตรวจสอบงบประมาณ
-3. คลิกข้อมูลทางการเงิน
-4. คลิก ข้อผิดพลาดหรือคำเตือนของการตรวจสอบงบประมาณ
-5. คลิก ปิด
+## <a name="perform-budget-checking"></a><span data-ttu-id="b44eb-129">ทำการตรวจสอบงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-129">Perform budget checking</span></span>
+1. <span data-ttu-id="b44eb-130">คลิกข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="b44eb-130">Click Financials.</span></span>
+2. <span data-ttu-id="b44eb-131">คลิก ทำการตรวจสอบงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-131">Click Perform budget checking.</span></span>
+3. <span data-ttu-id="b44eb-132">คลิกข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="b44eb-132">Click Financials.</span></span>
+4. <span data-ttu-id="b44eb-133">คลิก ข้อผิดพลาดหรือคำเตือนของการตรวจสอบงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="b44eb-133">Click Budget check errors or warnings.</span></span>
+5. <span data-ttu-id="b44eb-134">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="b44eb-134">Click Close.</span></span>
 
 

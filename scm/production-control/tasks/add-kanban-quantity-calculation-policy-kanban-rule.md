@@ -16,50 +16,50 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f9e0ccf25a346d54e48f51b0866f0c11e98bf0a0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง
+# <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="70839-103">เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-103">Add a kanban quantity calculation policy to a kanban rule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้มุ่งเน้นการสร้างนโยบายการคำนวณปริมาณตามระบบคัมบังและการเพิ่มเติมให้กฎคัมบังเพื่อปรับประสิทธิภาพของขนาดและปริมาณระบบคัมบัง  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF ขั้นตอนนี้มีไว้สำหรับผู้จัดการการสายธารคุณค่า  ขั้นตอนนี้เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างกระบวนงานคำแนะนำที่ใช้ในการคำนวณปริมาณคัมบัง 
+<span data-ttu-id="70839-104">ขั้นตอนนี้มุ่งเน้นการสร้างนโยบายการคำนวณปริมาณตามระบบคัมบังและการเพิ่มเติมให้กฎคัมบังเพื่อปรับประสิทธิภาพของขนาดและปริมาณระบบคัมบัง </span><span class="sxs-lookup"><span data-stu-id="70839-104">This procedure focuses on creating a kanban quantity calculation policy and adding it to a kanban rule to optimize the kanban size and quantities.</span></span> <span data-ttu-id="70839-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="70839-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="70839-106">ขั้นตอนนี้มีไว้สำหรับผู้จัดการการสายธารคุณค่า </span><span class="sxs-lookup"><span data-stu-id="70839-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="70839-107">ขั้นตอนนี้เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างกระบวนงานคำแนะนำที่ใช้ในการคำนวณปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-107">This procedure is a prerequisite for creating the procedure Calculate kanban quantity suggestions.</span></span> 
 
 
-## <a name="create-a-kanban-quantity-calculation-policy"></a>สร้างนโยบายการคำนวณปริมาณตามระบบคัมบัง
-1. ไปที่การควบคุมผลิตภัณฑ์ > งานประจำงวด > การคำนวณปริมาณคัมบัง > นโยบายการคำนวณปริมาณคัมบัง
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-    * ตัวอย่างเช่น พิมพ์ Speaker2016  
-4. ในฟิลด์แผนหลัก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * เลือก StaticPlan เพื่อคำนวณความต้องการ  
-6. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-7. คลิก บันทึก
-8. ในฟิลด์ปริมาณคัมบังต่ำสุด ให้ป้อน '1' 
-    * นี่เป็นจำนวนเพิ่มเติมของคัมบังที่ถูกรวมอยู่ในการคำนวณปริมาณคัมบัง  
-9. ตั้งค่าความปลอดภัยเป็น '1' 
-    * นี่เป็นปัจจัยที่ถูกใช้เพื่อคำนวณปริมาณเพิ่มเติมของปริมาณสินค้าคงคลังที่ปลอดภัย  
-10. ในฟิลด์จำนวนวันข้างหน้า ให้ป้อน '30' 
-    * นี่เป็นจำนวนวันล่วงหน้าวันที่ของการคำนวณปริมาณคัมบัง ที่ถูกรวมอยู่ในการคำนวณความต้องการ  
-11. ในฟิลด์จำนวนวันย้อนหลัง ให้ป้อน '30' 
-    * นี่คือจำนวนวันที่ได้หลังจากวันที่มีการคำนวณปริมาณตามระบบคัมบัง ซึ่งรวมถึงการคำนวณปริมาณความต้องการด้วย   โดยสูตรที่ใช้สำหรับการคำนวณนั้นจะถูกแสดงพร้อมกับมูลค่าที่แท้จริง  ตัวอย่างเช่น ปริมาณตามระบบคัมบัง = ((ความต้องการเฉลี่ยต่อวัน x ระยะเวลารอคอยสินค้า x 2.00) / ปริมาณผลิตภัณฑ์ต่อหน่วยจัดการวัสดุ) + 1  
-12. ปิดหน้า
+## <a name="create-a-kanban-quantity-calculation-policy"></a><span data-ttu-id="70839-108">สร้างนโยบายการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-108">Create a kanban quantity calculation policy</span></span>
+1. <span data-ttu-id="70839-109">ไปที่การควบคุมผลิตภัณฑ์ > งานประจำงวด > การคำนวณปริมาณคัมบัง > นโยบายการคำนวณปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Kanban quantity calculation policies.</span></span>
+2. <span data-ttu-id="70839-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="70839-110">Click New.</span></span>
+3. <span data-ttu-id="70839-111">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="70839-111">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="70839-112">ตัวอย่างเช่น พิมพ์ Speaker2016</span><span class="sxs-lookup"><span data-stu-id="70839-112">For example, type Speaker2016.</span></span>  
+4. <span data-ttu-id="70839-113">ในฟิลด์แผนหลัก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="70839-113">In the Master plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="70839-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="70839-114">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="70839-115">เลือก StaticPlan เพื่อคำนวณความต้องการ</span><span class="sxs-lookup"><span data-stu-id="70839-115">Select StaticPlan to calculate demand.</span></span>  
+6. <span data-ttu-id="70839-116">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="70839-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="70839-117">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="70839-117">Click Save.</span></span>
+8. <span data-ttu-id="70839-118">ในฟิลด์ปริมาณคัมบังต่ำสุด ให้ป้อน '1' </span><span class="sxs-lookup"><span data-stu-id="70839-118">In the Minimum kanban quantity field, enter '1'.</span></span>
+    * <span data-ttu-id="70839-119">นี่เป็นจำนวนเพิ่มเติมของคัมบังที่ถูกรวมอยู่ในการคำนวณปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-119">This is the additional number of kanbans that is included in the kanban quantity calculation.</span></span>  
+9. <span data-ttu-id="70839-120">ตั้งค่าความปลอดภัยเป็น '1' </span><span class="sxs-lookup"><span data-stu-id="70839-120">Set Safety factor to '1'.</span></span>
+    * <span data-ttu-id="70839-121">นี่เป็นปัจจัยที่ถูกใช้เพื่อคำนวณปริมาณเพิ่มเติมของปริมาณสินค้าคงคลังที่ปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="70839-121">This is the factor that is used to calculate additional quantity of safety stock.</span></span>  
+10. <span data-ttu-id="70839-122">ในฟิลด์จำนวนวันข้างหน้า ให้ป้อน '30' </span><span class="sxs-lookup"><span data-stu-id="70839-122">In the Days ahead field, enter '30'.</span></span>
+    * <span data-ttu-id="70839-123">นี่เป็นจำนวนวันล่วงหน้าวันที่ของการคำนวณปริมาณคัมบัง ที่ถูกรวมอยู่ในการคำนวณความต้องการ</span><span class="sxs-lookup"><span data-stu-id="70839-123">This is the number of days prior to the kanban quantity calculation date that is included in the demand calculation.</span></span>  
+11. <span data-ttu-id="70839-124">ในฟิลด์จำนวนวันย้อนหลัง ให้ป้อน '30' </span><span class="sxs-lookup"><span data-stu-id="70839-124">In the Days behind field, enter '30'.</span></span>
+    * <span data-ttu-id="70839-125">นี่คือจำนวนวันที่ได้หลังจากวันที่มีการคำนวณปริมาณตามระบบคัมบัง ซึ่งรวมถึงการคำนวณปริมาณความต้องการด้วย </span><span class="sxs-lookup"><span data-stu-id="70839-125">This is the number of days forward from the kanban quantity calculation date that is included in the demand calculation.</span></span>  <span data-ttu-id="70839-126">โดยสูตรที่ใช้สำหรับการคำนวณนั้นจะถูกแสดงพร้อมกับมูลค่าที่แท้จริง </span><span class="sxs-lookup"><span data-stu-id="70839-126">The formula used for the calculation is shown with the actual values.</span></span> <span data-ttu-id="70839-127">ตัวอย่างเช่น ปริมาณตามระบบคัมบัง = ((ความต้องการเฉลี่ยต่อวัน x ระยะเวลารอคอยสินค้า x 2.00) / ปริมาณผลิตภัณฑ์ต่อหน่วยจัดการวัสดุ) + 1</span><span class="sxs-lookup"><span data-stu-id="70839-127">For example,  Kanban quantity = ((Average daily demand x lead time x 2.00) / Product quantity per handling unit) + 1</span></span>  
+12. <span data-ttu-id="70839-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="70839-128">Close the page.</span></span>
 
-## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง
-1. ไปที่การจัดการข้อมูลผลิตภัณฑ์ > การผลิตแบบ Lean > กฏคัมบัง
-2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * เลือกกฏคัมบัง 000020 สำหรับกระบวนงานนี้  
-3. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-4. สลับการขยายในส่วนนโยบายการคำนวณระบบคัมบัง
-5. คลิก เพิ่ม
-    * เพิ่มนโยบายการคำนวณปริมาณตามระบบคัมบัง ซึ่งคุณเพิ่งสร้างในงานย่อยก่อนหน้านี้  
-6. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-7. ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-    * เลือก Speaker2016 ของนโยบายที่คุณเพิ่งสร้างในงานย่อยก่อนหน้านี้  
+## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="70839-129">เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-129">Add the kanban quantity calculation policy to a kanban rule</span></span>
+1. <span data-ttu-id="70839-130">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > การผลิตแบบ Lean > กฏคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-130">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="70839-131">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="70839-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="70839-132">เลือกกฏคัมบัง 000020 สำหรับกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="70839-132">Select kanban rule 000020 for this procedure.</span></span>  
+3. <span data-ttu-id="70839-133">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="70839-133">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="70839-134">สลับการขยายในส่วนนโยบายการคำนวณระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="70839-134">Toggle the expansion of the Kanban quantity calculation policies section.</span></span>
+5. <span data-ttu-id="70839-135">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="70839-135">Click Add.</span></span>
+    * <span data-ttu-id="70839-136">เพิ่มนโยบายการคำนวณปริมาณตามระบบคัมบัง ซึ่งคุณเพิ่งสร้างในงานย่อยก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="70839-136">Add the kanban quantity calculation policy that you have just created in the previous sub-task.</span></span>  
+6. <span data-ttu-id="70839-137">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="70839-137">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="70839-138">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="70839-138">In the Name field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="70839-139">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="70839-139">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="70839-140">เลือก Speaker2016 ของนโยบายที่คุณเพิ่งสร้างในงานย่อยก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="70839-140">Select the policy Speaker2016 that you have just created in the previous sub-task.</span></span>  
 
 

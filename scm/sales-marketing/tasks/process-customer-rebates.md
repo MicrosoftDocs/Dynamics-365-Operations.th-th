@@ -16,71 +16,71 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fb5053ac5c5f9218b95d14baf4ea78f7a40479ff
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-and-process-customer-rebates"></a>สร้างและประมวลผลเงินคืนของลูกค้า
+# <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="ff2d2-103">สร้างและประมวลผลเงินคืนของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-103">Generate and process customer rebates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้  ซึ่งแนะนำคุณได้โดยใช้ตัวอย่างการเฉพาะเพื่ออธิบายว่า เงื่อนไขต่าง ๆ บนรายการเงินคืนส่งผลกระทบยอดเงินสุดท้ายที่จะถูกเครดิตไปยังลูกค้า คุณจำเป็นต้องใช้ข้อมูลสาธิตบริษัท USMF และดำเนินการงานต่อไปนี้ก่อนที่คุณจะเริ่มคำแนะนำ: (1) ไปยังหน้าพารามิเตอร์บัญชีลูกหนี้ และขยายแท็บราคา และแท็บรายละเอียดราคา และตรวจสอบว่าตัวเลือกรายละเอียดราคาเปิดใช้งานถูกตั้งค่าเป็น ใช่ (2) ไปยัง หน้าข้อตกลงเงินคืน และเลือกข้อตกลงเงินคืนของลูกค้า: USMF-000001 ถ้าฟิลด์สถานะการอนุมัติลำดับงานไม่ถูกตั้งค่าเป็นอนุมัติแล้ว คุณจำเป็นต้องคลิกการตรวจสอบความถูกต้องบนบานหน้าต่างการดำเนินงานเพื่ออนุมัติ
+<span data-ttu-id="ff2d2-104">ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้ </span><span class="sxs-lookup"><span data-stu-id="ff2d2-104">This procedure demonstrates how to process customer rebates from claim generation to the point of passing them as accruals to Accounts receivable.</span></span> <span data-ttu-id="ff2d2-105">ซึ่งแนะนำคุณได้โดยใช้ตัวอย่างการเฉพาะเพื่ออธิบายว่า เงื่อนไขต่าง ๆ บนรายการเงินคืนส่งผลกระทบยอดเงินสุดท้ายที่จะถูกเครดิตไปยังลูกค้า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-105">It walks you through a specific example to explain how the various conditions on the rebate lines affect the final amounts that will be credited to the customer.</span></span> <span data-ttu-id="ff2d2-106">คุณจำเป็นต้องใช้ข้อมูลสาธิตบริษัท USMF และดำเนินการงานต่อไปนี้ก่อนที่คุณจะเริ่มคำแนะนำ: (1) ไปยังหน้าพารามิเตอร์บัญชีลูกหนี้ และขยายแท็บราคา และแท็บรายละเอียดราคา และตรวจสอบว่าตัวเลือกรายละเอียดราคาเปิดใช้งานถูกตั้งค่าเป็น ใช่</span><span class="sxs-lookup"><span data-stu-id="ff2d2-106">You need to use the USMF demo data company, and carry out the following tasks before you start the guide: (1) Go to the Accounts receivable parameters page, and expand the Prices tab and then the Price details tab, and check that the Enable price details option is set to Yes.</span></span> <span data-ttu-id="ff2d2-107">(2) ไปยัง หน้าข้อตกลงเงินคืน และเลือกข้อตกลงเงินคืนของลูกค้า: USMF-000001</span><span class="sxs-lookup"><span data-stu-id="ff2d2-107">(2) Go to the Rebate agreements page and select the customer rebate agreement: USMF-000001.</span></span> <span data-ttu-id="ff2d2-108">ถ้าฟิลด์สถานะการอนุมัติลำดับงานไม่ถูกตั้งค่าเป็นอนุมัติแล้ว คุณจำเป็นต้องคลิกการตรวจสอบความถูกต้องบนบานหน้าต่างการดำเนินงานเพื่ออนุมัติ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-108">If the Workflow approval status field is not set to Approved, you need click Validation on the Action pane to approve it.</span></span>
 
 
-## <a name="review-a-customer-rebate-agreement"></a>ตรวจทานข้อตกลงเงินคืนของลูกค้า
-1. ไปยัง การขายและการตลาด > เงินคืนของลูกค้า > ข้อตกลงเงินคืน
-    * ไม่กี่ขั้นตอนถัดไปดูที่เงื่อนไขของข้อตกลง USMF-000001 ซึ่งช่วยให้เข้าวิธีการคำนวณค่าเครดิตลูกค้าในภายหลังกระบวนงานในได้ง่ายขึ้น  
-    * ข้อตกลงนั้นสำหรับลูกค้าแต่ละคน ในตัวอย่างนี้ได้แก่ลูกค้า US-009  
-    * เงินคืนถูกมอบให้แก่ลูกค้าเมื่อพวกเขาซื้อผลิตภัณฑ์เฉพาะ  ในกรณีนี้ ผลิตภัณฑ์นั้นมี T0020 เป็นหมายเลขสินค้า   
-    * ประสิทธิภาพการขายของลูกค้า เปรียบเทียบซึ้งจำนวนเงินคืนที่ถูกประเมิน จะมีการสะสมเงินคืนเป็นรายสัปดาห์  
-    * การตั้งค่าสำหรับ "ราคาได้มาจาก" จะรวม ซึ่งหมายความว่าบรรทัดของยอดขายอันที่มีเกณฑ์การอ้างสิทธิ์ที่ถูกประเมินไม่ได้ลดลงโดยส่วนลดต่อรายการ  
-    * ฟิลด์ชนิดการแบ่งรายการเงินคืนแสดงวิธีการคำนวณเงินคืน  ในกรณีนี้ เป้าหมายการขายที่เงินคืนจะถูกประเมินจะถูกกำหนดเป็นปริมาณ   
-    * รายการข้อตกลงระบุชนิดยอดเงินคืน มูลค่าเงินคืนจริงและขีดจำกัด  ในตัวอย่างนี้ลูกค้าจะมีสิทธิได้รับเงินคืน USD 20 ต่อหน่วยขาย ถ้าการซื้อผลิตภัณฑ์รายสัปดาห์ของพวกเขาอยู่ภายใน 1 ถึง 50 หน่วย และเงินคืน USD 40 ต่อหน่วยขายถ้าซื้อสูงกว่า 50 หน่วย  
-2. ปิดหน้า
+## <a name="review-a-customer-rebate-agreement"></a><span data-ttu-id="ff2d2-109">ตรวจทานข้อตกลงเงินคืนของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-109">Review a customer rebate agreement</span></span>
+1. <span data-ttu-id="ff2d2-110">ไปยัง การขายและการตลาด > เงินคืนของลูกค้า > ข้อตกลงเงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-110">Go to Sales and marketing > Customer rebates > Rebate agreements.</span></span>
+    * <span data-ttu-id="ff2d2-111">ไม่กี่ขั้นตอนถัดไปดูที่เงื่อนไขของข้อตกลง USMF-000001</span><span class="sxs-lookup"><span data-stu-id="ff2d2-111">The next few steps look at the conditions of agreement USMF-000001.</span></span> <span data-ttu-id="ff2d2-112">ซึ่งช่วยให้เข้าวิธีการคำนวณค่าเครดิตลูกค้าในภายหลังกระบวนงานในได้ง่ายขึ้น</span><span class="sxs-lookup"><span data-stu-id="ff2d2-112">This makes it easier to understand how the customer credit values are calculated later in the procedure.</span></span>  
+    * <span data-ttu-id="ff2d2-113">ข้อตกลงนั้นสำหรับลูกค้าแต่ละคน ในตัวอย่างนี้ได้แก่ลูกค้า US-009</span><span class="sxs-lookup"><span data-stu-id="ff2d2-113">The agreement is for an individual customer, in this example customer US-009.</span></span>  
+    * <span data-ttu-id="ff2d2-114">เงินคืนถูกมอบให้แก่ลูกค้าเมื่อพวกเขาซื้อผลิตภัณฑ์เฉพาะ </span><span class="sxs-lookup"><span data-stu-id="ff2d2-114">Rebates are given to the customer when they purchase a specific product.</span></span> <span data-ttu-id="ff2d2-115">ในกรณีนี้ ผลิตภัณฑ์นั้นมี T0020 เป็นหมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-115">In this case, the product has item number T0020.</span></span>   
+    * <span data-ttu-id="ff2d2-116">ประสิทธิภาพการขายของลูกค้า เปรียบเทียบซึ้งจำนวนเงินคืนที่ถูกประเมิน จะมีการสะสมเงินคืนเป็นรายสัปดาห์</span><span class="sxs-lookup"><span data-stu-id="ff2d2-116">The customer's sales performance, against which the rebate amounts are estimated, is to be accumulated on a weekly basis.</span></span>  
+    * <span data-ttu-id="ff2d2-117">การตั้งค่าสำหรับ "ราคาได้มาจาก" จะรวม ซึ่งหมายความว่าบรรทัดของยอดขายอันที่มีเกณฑ์การอ้างสิทธิ์ที่ถูกประเมินไม่ได้ลดลงโดยส่วนลดต่อรายการ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-117">The setting for “Price taken from” is Gross, which means that line's sales amount on which basis the claim is estimated is not reduced by the line discount.</span></span>  
+    * <span data-ttu-id="ff2d2-118">ฟิลด์ชนิดการแบ่งรายการเงินคืนแสดงวิธีการคำนวณเงินคืน </span><span class="sxs-lookup"><span data-stu-id="ff2d2-118">The Rebate line break type field shows the method for calculating rebates.</span></span> <span data-ttu-id="ff2d2-119">ในกรณีนี้ เป้าหมายการขายที่เงินคืนจะถูกประเมินจะถูกกำหนดเป็นปริมาณ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-119">In this case, the sales target against which the rebates are to be estimated is set to Quantity.</span></span>   
+    * <span data-ttu-id="ff2d2-120">รายการข้อตกลงระบุชนิดยอดเงินคืน มูลค่าเงินคืนจริงและขีดจำกัด </span><span class="sxs-lookup"><span data-stu-id="ff2d2-120">The agreement's lines specify the rebate amount type, the actual rebate value, and the thresholds.</span></span> <span data-ttu-id="ff2d2-121">ในตัวอย่างนี้ลูกค้าจะมีสิทธิได้รับเงินคืน USD 20 ต่อหน่วยขาย ถ้าการซื้อผลิตภัณฑ์รายสัปดาห์ของพวกเขาอยู่ภายใน 1 ถึง 50 หน่วย และเงินคืน USD 40 ต่อหน่วยขายถ้าซื้อสูงกว่า 50 หน่วย</span><span class="sxs-lookup"><span data-stu-id="ff2d2-121">In this example, the customer will qualify for a rebate of 20 USD per unit sold, if their weekly purchases of the product fall within 1 to 50 units; and a rebate of 40 USD per unit sold, if they purchase above 50 units.</span></span>  
+2. <span data-ttu-id="ff2d2-122">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-122">Close the page.</span></span>
 
-## <a name="generate-rebate-claims"></a>สร้างการอ้างสิทธิ์เงินคืน
-1. ไปยัง การขายและการตลาด > ใบสั่งขาย > ใบสั่งขายทั้งหมด
-2. คลิก สร้าง
-    * เพื่อเลียนแบบวิธีการที่จะสร้างการอ้างสิทธิ์เงินคืน งานถัดไปคือการสร้างใบสั่งขายซึ่งผลิตภัณฑ์และปริมาณนั้นจะคัดเลือกลูกค้าในการถามคำถามสำหรับเงินคืน  
-3. ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า
-4. คลิก ตกลง
-5. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า
-6. กำหนดปริมาณเป็น '40'
-7. คลิก รายการใบสั่งขาย
-8. คลิกรายละเอียดราคา
-    * ถ้าคุณไม่เห็นตัวเลือกนี้ นั่นเป็นเพราะคุณไม่ได้ตั้งค่าตัวเลือกเปิดใช้งานรายละเอียดราคาเป็น"ใช่"ก่อนที่คุณเริ่มต้นคำแนะนำ  
-9. ขยายส่วนเงินคืน
-    * แท็บเงินคืนนี้จะแสดงรายการข้อตกลงเงินคืนทั้งหมดที่เกี่ยวข้องกับรายการใบสั่งปัจจุบันและแสดงยอดประเมินเงินคืน  โปรดทราบว่า ยอดเงินที่แสดงเพียงข้อบ่งชี้ของการอ้างสิทธิ์เงินคืนใดในอนาคต ยอดเงินคืนที่เกิดขึ้นจริงอาจแตกต่างกันขึ้นอยู่กับ: ปริมาณยอดขายรวมที่ทำได้ โดยลูกค้าภายใต้ข้อตกลงเงินคืนประจำงวด ระบุว่าลูกค้าที่ได้ส่งคืนทั้งหมดหรือปริมาณบางส่วน; และระบุว่าใบสั่งขายที่เกี่ยวข้องถูกออกใบแจ้งหนี้  
-10. ปิดหน้า
-11. คลิก เพิ่มรายการ
-12. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า
-13. กำหนดปริมาณเป็น '60'
-14. คลิก บันทึก
-15. ในบานหน้าต่างการดำเนินการ คลิก ใบแจ้งหนี้
-16. คลิก ใบแจ้งหนี้
-17. ขยายส่วน พารามิเตอร์
-18. ในฟิลด์ ปริมาณ ให้เลือก 'ทั้งหมด'
-19. คลิก ตกลง
-20. คลิก ตกลง
+## <a name="generate-rebate-claims"></a><span data-ttu-id="ff2d2-123">สร้างการอ้างสิทธิ์เงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-123">Generate rebate claims</span></span>
+1. <span data-ttu-id="ff2d2-124">ไปยัง การขายและการตลาด > ใบสั่งขาย > ใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="ff2d2-124">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="ff2d2-125">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-125">Click New.</span></span>
+    * <span data-ttu-id="ff2d2-126">เพื่อเลียนแบบวิธีการที่จะสร้างการอ้างสิทธิ์เงินคืน งานถัดไปคือการสร้างใบสั่งขายซึ่งผลิตภัณฑ์และปริมาณนั้นจะคัดเลือกลูกค้าในการถามคำถามสำหรับเงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-126">To mimic the way in which rebate claims would be generated, the next task is to create a sales order, where the product and quantity will qualify the customer in question for a rebate.</span></span>  
+3. <span data-ttu-id="ff2d2-127">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-127">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="ff2d2-128">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-128">Click OK.</span></span>
+5. <span data-ttu-id="ff2d2-129">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-129">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="ff2d2-130">กำหนดปริมาณเป็น '40'</span><span class="sxs-lookup"><span data-stu-id="ff2d2-130">Set Quantity to '40'.</span></span>
+7. <span data-ttu-id="ff2d2-131">คลิก รายการใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="ff2d2-131">Click Sales order line.</span></span>
+8. <span data-ttu-id="ff2d2-132">คลิกรายละเอียดราคา</span><span class="sxs-lookup"><span data-stu-id="ff2d2-132">Click Price details.</span></span>
+    * <span data-ttu-id="ff2d2-133">ถ้าคุณไม่เห็นตัวเลือกนี้ นั่นเป็นเพราะคุณไม่ได้ตั้งค่าตัวเลือกเปิดใช้งานรายละเอียดราคาเป็น"ใช่"ก่อนที่คุณเริ่มต้นคำแนะนำ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-133">If you don’t see this option, it’s because you didn’t set the Enable price details option to Yes before you started the guide.</span></span>  
+9. <span data-ttu-id="ff2d2-134">ขยายส่วนเงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-134">Expand the Rebates section.</span></span>
+    * <span data-ttu-id="ff2d2-135">แท็บเงินคืนนี้จะแสดงรายการข้อตกลงเงินคืนทั้งหมดที่เกี่ยวข้องกับรายการใบสั่งปัจจุบันและแสดงยอดประเมินเงินคืน </span><span class="sxs-lookup"><span data-stu-id="ff2d2-135">The Rebates tab lists all the rebate agreements that are applicable to the current order line and shows the estimated rebate amount.</span></span> <span data-ttu-id="ff2d2-136">โปรดทราบว่า ยอดเงินที่แสดงเพียงข้อบ่งชี้ของการอ้างสิทธิ์เงินคืนใดในอนาคต</span><span class="sxs-lookup"><span data-stu-id="ff2d2-136">Note that the displayed amounts are only indications of what future rebate claims may be.</span></span> <span data-ttu-id="ff2d2-137">ยอดเงินคืนที่เกิดขึ้นจริงอาจแตกต่างกันขึ้นอยู่กับ: ปริมาณยอดขายรวมที่ทำได้ โดยลูกค้าภายใต้ข้อตกลงเงินคืนประจำงวด ระบุว่าลูกค้าที่ได้ส่งคืนทั้งหมดหรือปริมาณบางส่วน; และระบุว่าใบสั่งขายที่เกี่ยวข้องถูกออกใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="ff2d2-137">The actual rebate amounts may be different depending on: the total sales volume achieved by the customer under a periodic rebate agreement; whether the customer had returned all or partial quantities; and whether the applicable sales order was invoiced.</span></span>  
+10. <span data-ttu-id="ff2d2-138">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-138">Close the page.</span></span>
+11. <span data-ttu-id="ff2d2-139">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-139">Click Add line.</span></span>
+12. <span data-ttu-id="ff2d2-140">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ff2d2-140">In the Item number field, enter or select a value.</span></span>
+13. <span data-ttu-id="ff2d2-141">กำหนดปริมาณเป็น '60'</span><span class="sxs-lookup"><span data-stu-id="ff2d2-141">Set Quantity to '60'.</span></span>
+14. <span data-ttu-id="ff2d2-142">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ff2d2-142">Click Save.</span></span>
+15. <span data-ttu-id="ff2d2-143">ในบานหน้าต่างการดำเนินการ คลิก ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="ff2d2-143">On the Action Pane, click Invoice.</span></span>
+16. <span data-ttu-id="ff2d2-144">คลิก ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="ff2d2-144">Click Invoice.</span></span>
+17. <span data-ttu-id="ff2d2-145">ขยายส่วน พารามิเตอร์</span><span class="sxs-lookup"><span data-stu-id="ff2d2-145">Expand the Parameters section.</span></span>
+18. <span data-ttu-id="ff2d2-146">ในฟิลด์ ปริมาณ ให้เลือก 'ทั้งหมด'</span><span class="sxs-lookup"><span data-stu-id="ff2d2-146">In the Quantity field, select 'All'.</span></span>
+19. <span data-ttu-id="ff2d2-147">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-147">Click OK.</span></span>
+20. <span data-ttu-id="ff2d2-148">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-148">Click OK.</span></span>
 
-## <a name="process-rebate-claims"></a>ประมวลผลการอ้างสิทธิ์เงินคืน
-1. ไปยัง การขายและการตลาด > เงินคืนของลูกค้า > เงินคืน
-    * หน้าเงินคืนทำหน้าที่เป็นเวิร์กเบนซ์ซึ่งคุณสามารถตรวจทาน อนุมัติ และประมวลผลการอ้างสิทธิ์เงินคืน  ขณะนี้คุณจะประมวลผลการอ้างสิทธิ์ที่ถูกสร้างจากการออกใบแจ้งหนี้ใบสั่งขายสำหรับลูกค้า US-009 ที่มีชื่อเรื่องของข้อตกลงเงินคืน USMF-000001   
-    * รายการแรกแสดงถึงการอ้างสิทธิ์เงินคืนสำหรับ 800 USD ซึ่งขึ้นอยู่กับการขาย 40 หน่วยของผลิตภัณฑ์ T0020 คำนวณที่ 20 USD ต่อหน่วย  ซึ่งตรงกับเงื่อนไขของการแบ่งปริมาณแรกในข้อตกลงเงินคืน  
-    * การอ้างสิทธิ์ที่สองสำหรับ 2,400 USD ซึ่งขึ้นอยู่กับการขาย 60 หน่วยของผลิตภัณฑ์ T0020 คำนวณที่ 40 USD ต่อหน่วย ตามการแบ่งปริมาณที่สองในข้อตกลง  
-    * การอ้างสิทธิ์ทั้งสองอยู่ในสถานะ "จะถูกคำนวณ"  ซึ่งหมายความว่าพวกเขาเชื่อมโยงกับข้อตกลงที่ติดตามประสิทธิภาพการขายของลูกค้าเป็นประจำทุกงวด และพวกเขาจำเป็นต้องถูกคำนวณอีกครั้งไปยังบัญชีสำหรับปริมาณการขายรวมภายในรอบระยะเวลาสอดคล้องกัน   
-2. คลิกสะสม
-3. ในฟิลด์ลูกค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-4. ในฟิลด์วันที่เริ่มต้น ให้เลือกวันที่วันนี้
-5. คลิก ตกลง
-    * เนื่องจากการรันฟังก์ชันการสะสม จำนวนการอ้างสิทธิ์ที่ประเมินขณะนี้ถูกปรับปรุงไปยังบัญชีสำหรับข้อเท็จจริงที่ว่าปริมาณยอดขายรวมของลูกค้าในรอบระยะเวลาเกี่ยวข้องนั้นสูงกว่าเมื่อมีการสร้างเงินคืนแรก  เจาะจงมากขึ้น เนื่องจากปริมาณที่ซื้อรวมถึง 100 หน่วย ลูกค้าขณะนี้มีคุณสมบัติเพียงพอสำหรับ 40 USD ต่อหน่วย (แบ่งตามปริมาณที่สองของข้อตกลง) หรือ 400 USD ของยอดเงินคืนรวม ผลต่างจะถูกบันทึกเป็นการอ้างสิทธิ์ใหม่ "การปรับปรุง" สำหรับเพิ่มเติม 800 USD สถานะของการอ้างสิทธิ์เงินคืนที่รวมอยู่ในการอัพเดตสะสมตอนนี้ได้ตั้งค่าเพื่อคำนวณแล้ว   
-6. ในรายการนี้ ให้สลับไปใช้ 'ทำเครื่องหมายทุกแถว'
-7. คลิกอนุมัติ
-8. คลิกกระบวนการ
-9. ในฟิลด์ลูกค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-10. คลิก ตกลง
-    * ข้อความแสดงว่ามีการประมวลผลเงินคืนเสร็จเรียบร้อยแล้วและมีการเปลี่ยนแปลงสถานะของการอ้างสิทธิ์ที่จะทำเครื่องหมาย  ซึ่งหมายความว่า ผลลัพธ์ของสมุดรายวันคงค้างเงินคืนกำลังลงรายการบัญชี: a) อ้างสิทธิ์ขณะนี้ถูกโอนย้ายไปเป็นยอดดุลลูกค้าชั่วคราวเป็นการหักลด; b) เงินคืนคงค้างบัญชีถูกเครดิตเพื่อแสดงถึงหนี้สินในอนาคตไปยังลูกค้า; และ c) บัญชีค่าใช้จ่ายเงินคืนได้ถูกเดบิต ในการรับรู้ของต้นทุนที่ถูกใช้จ่ายในการเชื่อมต่อกับการขาย   
+## <a name="process-rebate-claims"></a><span data-ttu-id="ff2d2-149">ประมวลผลการอ้างสิทธิ์เงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-149">Process rebate claims</span></span>
+1. <span data-ttu-id="ff2d2-150">ไปยัง การขายและการตลาด > เงินคืนของลูกค้า > เงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-150">Go to Sales and marketing > Customer rebates > Rebates.</span></span>
+    * <span data-ttu-id="ff2d2-151">หน้าเงินคืนทำหน้าที่เป็นเวิร์กเบนซ์ซึ่งคุณสามารถตรวจทาน อนุมัติ และประมวลผลการอ้างสิทธิ์เงินคืน </span><span class="sxs-lookup"><span data-stu-id="ff2d2-151">The Rebates page acts a workbench in which you can review, approve, and process rebate claims.</span></span> <span data-ttu-id="ff2d2-152">ขณะนี้คุณจะประมวลผลการอ้างสิทธิ์ที่ถูกสร้างจากการออกใบแจ้งหนี้ใบสั่งขายสำหรับลูกค้า US-009 ที่มีชื่อเรื่องของข้อตกลงเงินคืน USMF-000001</span><span class="sxs-lookup"><span data-stu-id="ff2d2-152">You’ll now process the claims that were created as a result of invoicing a sales order for customer US-009, who is the subject of the rebate agreement USMF-000001.</span></span>   
+    * <span data-ttu-id="ff2d2-153">รายการแรกแสดงถึงการอ้างสิทธิ์เงินคืนสำหรับ 800 USD ซึ่งขึ้นอยู่กับการขาย 40 หน่วยของผลิตภัณฑ์ T0020 คำนวณที่ 20 USD ต่อหน่วย </span><span class="sxs-lookup"><span data-stu-id="ff2d2-153">The first line represents a rebate claim for 800 USD, which is based on the sales of 40 units of product T0020, calculated at 20 USD per unit.</span></span> <span data-ttu-id="ff2d2-154">ซึ่งตรงกับเงื่อนไขของการแบ่งปริมาณแรกในข้อตกลงเงินคืน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-154">This matches the conditions of the first quantity break in the rebate agreement.</span></span>  
+    * <span data-ttu-id="ff2d2-155">การอ้างสิทธิ์ที่สองสำหรับ 2,400 USD ซึ่งขึ้นอยู่กับการขาย 60 หน่วยของผลิตภัณฑ์ T0020 คำนวณที่ 40 USD ต่อหน่วย ตามการแบ่งปริมาณที่สองในข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-155">The second claim is for 2,400 USD, which is based on the sales of 60 units of product T0020, calculated at 40 USD per unit, as per the second quantity break in the agreement.</span></span>  
+    * <span data-ttu-id="ff2d2-156">การอ้างสิทธิ์ทั้งสองอยู่ในสถานะ "จะถูกคำนวณ" </span><span class="sxs-lookup"><span data-stu-id="ff2d2-156">Both claims are in the “To be calculated” state.</span></span> <span data-ttu-id="ff2d2-157">ซึ่งหมายความว่าพวกเขาเชื่อมโยงกับข้อตกลงที่ติดตามประสิทธิภาพการขายของลูกค้าเป็นประจำทุกงวด และพวกเขาจำเป็นต้องถูกคำนวณอีกครั้งไปยังบัญชีสำหรับปริมาณการขายรวมภายในรอบระยะเวลาสอดคล้องกัน</span><span class="sxs-lookup"><span data-stu-id="ff2d2-157">This means that they are associated with an agreement that tracks the customer's sales performance on periodic basis and that they have to be re-calculated to account for the total sales volume within the respective period.</span></span>   
+2. <span data-ttu-id="ff2d2-158">คลิกสะสม</span><span class="sxs-lookup"><span data-stu-id="ff2d2-158">Click Cumulate.</span></span>
+3. <span data-ttu-id="ff2d2-159">ในฟิลด์ลูกค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-159">In the Customer field, enter or select a value.</span></span>
+4. <span data-ttu-id="ff2d2-160">ในฟิลด์วันที่เริ่มต้น ให้เลือกวันที่วันนี้</span><span class="sxs-lookup"><span data-stu-id="ff2d2-160">In the Start date field, select today's date.</span></span>
+5. <span data-ttu-id="ff2d2-161">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-161">Click OK.</span></span>
+    * <span data-ttu-id="ff2d2-162">เนื่องจากการรันฟังก์ชันการสะสม จำนวนการอ้างสิทธิ์ที่ประเมินขณะนี้ถูกปรับปรุงไปยังบัญชีสำหรับข้อเท็จจริงที่ว่าปริมาณยอดขายรวมของลูกค้าในรอบระยะเวลาเกี่ยวข้องนั้นสูงกว่าเมื่อมีการสร้างเงินคืนแรก </span><span class="sxs-lookup"><span data-stu-id="ff2d2-162">As a result of running the Cumulate function, the estimated claim amount has now been adjusted to account for the fact that the customer's total sales volume in the relevant period is higher than when the first rebate was generated.</span></span> <span data-ttu-id="ff2d2-163">เจาะจงมากขึ้น เนื่องจากปริมาณที่ซื้อรวมถึง 100 หน่วย ลูกค้าขณะนี้มีคุณสมบัติเพียงพอสำหรับ 40 USD ต่อหน่วย (แบ่งตามปริมาณที่สองของข้อตกลง) หรือ 400 USD ของยอดเงินคืนรวม</span><span class="sxs-lookup"><span data-stu-id="ff2d2-163">More specifically, because the total purchased quantity has reached 100 units, the customer now qualifies for 40 USD per unit (as per the agreement's second quantity break), or 400 USD of total rebate amount.</span></span> <span data-ttu-id="ff2d2-164">ผลต่างจะถูกบันทึกเป็นการอ้างสิทธิ์ใหม่ "การปรับปรุง" สำหรับเพิ่มเติม 800 USD</span><span class="sxs-lookup"><span data-stu-id="ff2d2-164">The difference is recorded as a new claim "adjustment" for the additional 800 USD.</span></span> <span data-ttu-id="ff2d2-165">สถานะของการอ้างสิทธิ์เงินคืนที่รวมอยู่ในการอัพเดตสะสมตอนนี้ได้ตั้งค่าเพื่อคำนวณแล้ว</span><span class="sxs-lookup"><span data-stu-id="ff2d2-165">The status of the rebate claims that were included in the Cumulate update are now set to Calculated.</span></span>   
+6. <span data-ttu-id="ff2d2-166">ในรายการนี้ ให้สลับไปใช้ 'ทำเครื่องหมายทุกแถว'</span><span class="sxs-lookup"><span data-stu-id="ff2d2-166">In the list, mark all rows.</span></span>
+7. <span data-ttu-id="ff2d2-167">คลิกอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-167">Click Approve.</span></span>
+8. <span data-ttu-id="ff2d2-168">คลิกกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="ff2d2-168">Click Process.</span></span>
+9. <span data-ttu-id="ff2d2-169">ในฟิลด์ลูกค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-169">In the Customer field, enter or select a value.</span></span>
+10. <span data-ttu-id="ff2d2-170">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff2d2-170">Click OK.</span></span>
+    * <span data-ttu-id="ff2d2-171">ข้อความแสดงว่ามีการประมวลผลเงินคืนเสร็จเรียบร้อยแล้วและมีการเปลี่ยนแปลงสถานะของการอ้างสิทธิ์ที่จะทำเครื่องหมาย </span><span class="sxs-lookup"><span data-stu-id="ff2d2-171">A message shows that the rebate was processed successfully, and the status of the claims has been changed to Mark.</span></span> <span data-ttu-id="ff2d2-172">ซึ่งหมายความว่า ผลลัพธ์ของสมุดรายวันคงค้างเงินคืนกำลังลงรายการบัญชี: a) อ้างสิทธิ์ขณะนี้ถูกโอนย้ายไปเป็นยอดดุลลูกค้าชั่วคราวเป็นการหักลด; b) เงินคืนคงค้างบัญชีถูกเครดิตเพื่อแสดงถึงหนี้สินในอนาคตไปยังลูกค้า; และ c) บัญชีค่าใช้จ่ายเงินคืนได้ถูกเดบิต ในการรับรู้ของต้นทุนที่ถูกใช้จ่ายในการเชื่อมต่อกับการขาย</span><span class="sxs-lookup"><span data-stu-id="ff2d2-172">This means that as a result of a Rebate accrual journal being posted: a) the claims have now been transferred to the temporary customer balance as deductions; b) the Rebate accrual account has been credited to represent the future liability towards the customer; and c) the Rebate expense account has been debited, in recognition of the cost incurred in connection with the sales.</span></span>   
 
 

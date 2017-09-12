@@ -16,33 +16,33 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: dcad2c2e225a07bf9e9eb7fe7bbec605f668f8f5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: aed171004a43adbc504d74eb02c36df824a3e649
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="reclassify-fixed-assets"></a>จัดประเภทสินทรัพย์ถาวรใหม่
+# <a name="reclassify-fixed-assets"></a><span data-ttu-id="f15d4-103">จัดประเภทสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-103">Reclassify fixed assets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-เมื่อต้องการจัดประเภทสินทรัพย์ถาวรใหม่ คุณต้องโอนย้ายสินทรัพย์ถาวรนั้นไปยังกลุ่มสินทรัพย์ถาวร หรือกำหนดหมายเลขสินทรัพย์ถาวรใหม่ให้กับสินทรัพย์ถาวรนั้นในกลุ่มเดียวกัน 
+<span data-ttu-id="f15d4-104">เมื่อต้องการจัดประเภทสินทรัพย์ถาวรใหม่ คุณต้องโอนย้ายสินทรัพย์ถาวรนั้นไปยังกลุ่มสินทรัพย์ถาวร หรือกำหนดหมายเลขสินทรัพย์ถาวรใหม่ให้กับสินทรัพย์ถาวรนั้นในกลุ่มเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="f15d4-104">To reclassify a fixed asset, you must transfer it to a new fixed asset group or assign a new fixed asset number to it in the same group.</span></span> 
 
-เมื่อมีการจัดประเภทสินทรัพย์ถาวรใหม่:
+<span data-ttu-id="f15d4-105">เมื่อมีการจัดประเภทสินทรัพย์ถาวรใหม่:</span><span class="sxs-lookup"><span data-stu-id="f15d4-105">When a fixed asset is reclassified:</span></span>
 
-• รูปแบบมูลค่าทั้งหมดสำหรับสินทรัพย์ถาวรที่มีอยู่ จะถูกสร้างขึ้นสำหรับสินทรัพย์ถาวรใหม่ ข้อมูลใดๆ ที่มีการตั้งค่าไว้สำหรับสินทรัพย์ถาวรเดิมจะถูกคัดลอกไปยังสินทรัพย์ถาวรใหม่ สถานะของแบบจำลองมูลค่าสำหรับสินทรัพย์ถาวรเดิมคือ ปิด 
+<span data-ttu-id="f15d4-106">• รูปแบบมูลค่าทั้งหมดสำหรับสินทรัพย์ถาวรที่มีอยู่ จะถูกสร้างขึ้นสำหรับสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-106">• All value models for the existing fixed asset are created for the new fixed asset.</span></span> <span data-ttu-id="f15d4-107">ข้อมูลใดๆ ที่มีการตั้งค่าไว้สำหรับสินทรัพย์ถาวรเดิมจะถูกคัดลอกไปยังสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-107">Any information that was set up for the original fixed asset is copied to the new fixed asset.</span></span> <span data-ttu-id="f15d4-108">สถานะของแบบจำลองมูลค่าสำหรับสินทรัพย์ถาวรเดิมคือ ปิด</span><span class="sxs-lookup"><span data-stu-id="f15d4-108">The status of the value models for the original fixed asset is Closed.</span></span> 
 
-• แบบจำลองมูลค่าใหม่ของสินทรัพย์ถาวรใหม่ประกอบด้วยวันที่ของการจัดประเภทใหม่ในฟิลด์วันที่ซื้อสินทรัพย์ วันที่ในฟิลด์วันที่คำนวณค่าเสื่อมราคาจะถูกคัดลอกจากข้อมูลสินทรัพย์เดิม ถ้าการคิดค่าเสื่อมราคาได้เริ่มขึ้นแล้ว ฟิลด์วันที่ที่คิดค่าเสื่อมราคาครั้งล่าสุดจะแสดงวันที่ของการจัดประเภทใหม่ 
+<span data-ttu-id="f15d4-109">• แบบจำลองมูลค่าใหม่ของสินทรัพย์ถาวรใหม่ประกอบด้วยวันที่ของการจัดประเภทใหม่ในฟิลด์วันที่ซื้อสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="f15d4-109">• The new value models of the new fixed asset contain the date of the reclassification in the Acquisition date field.</span></span> <span data-ttu-id="f15d4-110">วันที่ในฟิลด์วันที่คำนวณค่าเสื่อมราคาจะถูกคัดลอกจากข้อมูลสินทรัพย์เดิม</span><span class="sxs-lookup"><span data-stu-id="f15d4-110">The date in the Depreciation run date field is copied from the original asset information.</span></span> <span data-ttu-id="f15d4-111">ถ้าการคิดค่าเสื่อมราคาได้เริ่มขึ้นแล้ว ฟิลด์วันที่ที่คิดค่าเสื่อมราคาครั้งล่าสุดจะแสดงวันที่ของการจัดประเภทใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-111">If the depreciation has already started, the Date when depreciation was last run field displays the date of the reclassification.</span></span> 
 
-• ธุรกรรมสินทรัพย์ถาวรที่มีอยู่สำหรับสินทรัพย์ถาวรเดิม จะถูกยกเลิกและสร้างขึ้นใหม่สำหรับสินทรัพย์ถาวรใหม่อีกครั้ง
+<span data-ttu-id="f15d4-112">• ธุรกรรมสินทรัพย์ถาวรที่มีอยู่สำหรับสินทรัพย์ถาวรเดิม จะถูกยกเลิกและสร้างขึ้นใหม่สำหรับสินทรัพย์ถาวรใหม่อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="f15d4-112">• The existing fixed asset transactions for the original fixed asset are canceled and regenerated for the new fixed asset.</span></span>
 
-1. ไปที่ สินทรัพย์ถาวร > งานประจำงวด > การจัดประเภทใหม่
-2. ในฟิลด์กลุ่มสินทรัพย์ถาวร ให้เลือกกลุ่มที่จะจัดประเภทใหม่
-3. ในฟิลด์หมายเลขสินทรัพย์ถาวร ให้เลือกสินทรัพย์ถาวรที่จะจัดประเภทใหม่
-4. ในฟิลด์กลุ่มสินทรัพย์ถาวรใหม่ ให้เลือกกลุ่มที่จะโอนสินทรัพย์ถาวร
-    * ถ้ากลุ่มสินทรัพย์ถาวรใหม่แนบกับลำดับหมายเลข ฟิลด์หมายเลขสินทรัพย์ถาวรใหม่จะถูกอัพเดตด้วยหมายเลขจากลำดับหมายเลขของกลุ่มสินทรัพย์ถาวรใหม่ มิฉะนั้น ฟิลด์หมายเลขสินทรัพย์ถาวรใหม่จะถูกอัพเดตด้วยหมายเลขจากลำดับหมายเลขที่ตั้งค่าไว้ในหน้าพารามิเตอร์สินทรัพย์ถาวร ถ้าไม่มีการตั้งค่าลำดับหมายเลขไว้ในหน้าพารามิเตอร์สินทรัพย์ถาวร ให้ป้อนหมายเลขในฟิลด์หมายเลขสินทรัพย์ถาวรใหม่  
-5. ในฟิลด์วันที่จัดประเภทใหม่ ให้ป้อนวันที่
-6. ในฟิลด์ ชุดใบสำคัญ ให้ป้อนหรือเลือกค่า
-7. คลิก ตกลง
+1. <span data-ttu-id="f15d4-113">ไปที่ สินทรัพย์ถาวร > งานประจำงวด > การจัดประเภทใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-113">Go to Fixed assets > Periodic tasks > Reclassification.</span></span>
+2. <span data-ttu-id="f15d4-114">ในฟิลด์กลุ่มสินทรัพย์ถาวร ให้เลือกกลุ่มที่จะจัดประเภทใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-114">In the Fixed asset group field, selet the group to reclassify.</span></span>
+3. <span data-ttu-id="f15d4-115">ในฟิลด์หมายเลขสินทรัพย์ถาวร ให้เลือกสินทรัพย์ถาวรที่จะจัดประเภทใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-115">In the Fixed asset number field, select the fixed asset to reclassify.</span></span>
+4. <span data-ttu-id="f15d4-116">ในฟิลด์กลุ่มสินทรัพย์ถาวรใหม่ ให้เลือกกลุ่มที่จะโอนสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f15d4-116">In the New fixed asset group field, select a group to transfer the fixed asset to.</span></span>
+    * <span data-ttu-id="f15d4-117">ถ้ากลุ่มสินทรัพย์ถาวรใหม่แนบกับลำดับหมายเลข ฟิลด์หมายเลขสินทรัพย์ถาวรใหม่จะถูกอัพเดตด้วยหมายเลขจากลำดับหมายเลขของกลุ่มสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-117">If the new fixed asset group is attached to a number sequence, the New fixed asset number field is updated with the number from the new fixed asset group number sequence.</span></span> <span data-ttu-id="f15d4-118">มิฉะนั้น ฟิลด์หมายเลขสินทรัพย์ถาวรใหม่จะถูกอัพเดตด้วยหมายเลขจากลำดับหมายเลขที่ตั้งค่าไว้ในหน้าพารามิเตอร์สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f15d4-118">Otherwise, the New fixed asset number field is updated with the number from the number sequence that is set up in the Fixed asset parameters page.</span></span> <span data-ttu-id="f15d4-119">ถ้าไม่มีการตั้งค่าลำดับหมายเลขไว้ในหน้าพารามิเตอร์สินทรัพย์ถาวร ให้ป้อนหมายเลขในฟิลด์หมายเลขสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f15d4-119">If a number sequence is not set up in the Fixed asset parameters page, enter a number in the New fixed asset number field.</span></span>  
+5. <span data-ttu-id="f15d4-120">ในฟิลด์วันที่จัดประเภทใหม่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="f15d4-120">In the Reclassification date field, enter a date.</span></span>
+6. <span data-ttu-id="f15d4-121">ในฟิลด์ ชุดใบสำคัญ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="f15d4-121">In the Voucher series field, enter or select a value.</span></span>
+7. <span data-ttu-id="f15d4-122">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="f15d4-122">Click OK.</span></span>
 
 

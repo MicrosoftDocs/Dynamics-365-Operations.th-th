@@ -24,34 +24,34 @@ ms.contentlocale: th-th
 ms.lasthandoff: 08/04/2017
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>เพจเริ่มต้นการปรับใช้ในองค์กร
+# <a name="on-premises-deployment-landing-page"></a><span data-ttu-id="c3191-103">เพจเริ่มต้นการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-103">On-premises deployment landing page</span></span>
 
-คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร) เมื่อคุณเลือกชนิดของการปรับใช้ในองค์กร ความต้องการระบบ การกำหนดฮาร์ดแวร์และฟังก์ชันการทำงานจะแตกต่างจากการปรับใช้บริการระบบคลาวด์ หัวข้อนี้แสดงลิงค์ไปยังเนื้อหาที่มีข้อมูลเฉพาะเกี่ยวกับการปรับใช้ในองค์กร
+<span data-ttu-id="c3191-104">คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร)</span><span class="sxs-lookup"><span data-stu-id="c3191-104">You can deploy Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises).</span></span> <span data-ttu-id="c3191-105">เมื่อคุณเลือกชนิดของการปรับใช้ในองค์กร ความต้องการระบบ การกำหนดฮาร์ดแวร์และฟังก์ชันการทำงานจะแตกต่างจากการปรับใช้บริการระบบคลาวด์</span><span class="sxs-lookup"><span data-stu-id="c3191-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="c3191-106">หัวข้อนี้แสดงลิงค์ไปยังเนื้อหาที่มีข้อมูลเฉพาะเกี่ยวกับการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
 
-**หมายเหตุ:** Dynamics 365 for Operations (ในองค์กร) ในขณะนี้ถูกเปลี่ยนชื่อ คุณจะเห็น Dynamics 365 for Operations (ในองค์กร) ที่ถูกอ้างอิงตลอดทั้งการสื่อสารและคู่มือการให้ลิขสิทธิ์ ชื่อในผลิตภัณฑ์ที่คุณจะเห็นขณะปรับใช้ผลิตภัณฑ์คือ Dynamics 365 for Finance and Operations, Enterprise edition ชื่อเหล่านี้หมายถึงผลิตภัณฑ์เดียวกัน
+<span data-ttu-id="c3191-107">**หมายเหตุ:** Dynamics 365 for Operations (ในองค์กร) ในขณะนี้ถูกเปลี่ยนชื่อ</span><span class="sxs-lookup"><span data-stu-id="c3191-107">**Note:** Dynamics 365 for Operations (on-premises) is currently being renamed.</span></span> <span data-ttu-id="c3191-108">คุณจะเห็น Dynamics 365 for Operations (ในองค์กร) ที่ถูกอ้างอิงตลอดทั้งการสื่อสารและคู่มือการให้ลิขสิทธิ์</span><span class="sxs-lookup"><span data-stu-id="c3191-108">You will see Dynamics 365 for Operations (on-premises) referenced throughout communications and licensing guides.</span></span> <span data-ttu-id="c3191-109">ชื่อในผลิตภัณฑ์ที่คุณจะเห็นขณะปรับใช้ผลิตภัณฑ์คือ Dynamics 365 for Finance and Operations, Enterprise edition</span><span class="sxs-lookup"><span data-stu-id="c3191-109">The in-product name that you will see when deploying the product is Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="c3191-110">ชื่อเหล่านี้หมายถึงผลิตภัณฑ์เดียวกัน</span><span class="sxs-lookup"><span data-stu-id="c3191-110">Both of these names refer to the same product.</span></span>
 
-## <a name="get-started"></a>เริ่มต้นใช้งาน
-- [ภาพรวมของ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](on-premises-overview.md)
-- [ความต้องการของระบบสำหรับการปรับใช้ในองค์กร](../get-started/system-requirements-on-prem.md)
-- [การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](../get-started/hardware-sizing-on-premises-environments.md)
-- [บริการออนไลน์และนโยบายเกี่ยวกับวงจรการใช้งานซอฟต์แวร์ในองค์กร](../migration-upgrade/versions-update-policy.md)
-- [ซื้อ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](../get-started/purchase-on-premises.md)
+## <a name="get-started"></a><span data-ttu-id="c3191-111">เริ่มต้นใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c3191-111">Get started</span></span>
+- [<span data-ttu-id="c3191-112">ภาพรวมของ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)</span><span class="sxs-lookup"><span data-stu-id="c3191-112">Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) overview</span></span>](on-premises-overview.md)
+- [<span data-ttu-id="c3191-113">ความต้องการของระบบสำหรับการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-113">System requirements for on-premises deployments</span></span>](../get-started/system-requirements-on-prem.md)
+- [<span data-ttu-id="c3191-114">การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-114">Hardware sizing for on-premises environments</span></span>](../get-started/hardware-sizing-on-premises-environments.md)
+- [<span data-ttu-id="c3191-115">บริการออนไลน์และนโยบายเกี่ยวกับวงจรการใช้งานซอฟต์แวร์ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-115">Online service and on-premises software lifecycle policy</span></span>](../migration-upgrade/versions-update-policy.md)
+- [<span data-ttu-id="c3191-116">ซื้อ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)</span><span class="sxs-lookup"><span data-stu-id="c3191-116">Purchase Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)</span></span>](../get-started/purchase-on-premises.md)
 
-## <a name="onboard"></a>แบบ Onboard
-- [สร้างโครงการสำหรับใช้งานในองค์กรใน Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร](setup-deploy-on-premises-environments.md)
-- [ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร](../analytics/configure-ssrs-on-premises.md)
-- [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร](develop-deploy-custom-models-on-premises.md)
+## <a name="onboard"></a><span data-ttu-id="c3191-117">แบบ Onboard</span><span class="sxs-lookup"><span data-stu-id="c3191-117">Onboard</span></span>
+- [<span data-ttu-id="c3191-118">สร้างโครงการสำหรับใช้งานในองค์กรใน Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="c3191-118">Create an on-premises project in Lifecycle Services</span></span>](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [<span data-ttu-id="c3191-119">ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-119">Set up and deploy on-premises environments</span></span>](setup-deploy-on-premises-environments.md)
+- [<span data-ttu-id="c3191-120">ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-120">Configure SQL Server Reporting Services for an on-premises deployment</span></span>](../analytics/configure-ssrs-on-premises.md)
+- [<span data-ttu-id="c3191-121">พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-121">Develop and deploy custom models to on-premises environments</span></span>](develop-deploy-custom-models-on-premises.md)
 
-## <a name="work-in-your-on-premises-deployment"></a>งานในการปรับใช้ในองค์กรของคุณ
-- [ตั้งค่าคอนฟิกการจัดการเอกสาร](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
-- [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-import-ger-configurations.md)
-- [ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร](../analytics/printing-capabilities-on-premises.md)
-- [ตั้งค่าการสนับสนุนทางเทคนิค](../lifecycle-services/support-experience.md)
-- [การแก้ไขปัญหาการเชื่อมต่ออินเทอร์เน็ตไคลเอนต์](../user-interface/client-disconnected.md)
+## <a name="work-in-your-on-premises-deployment"></a><span data-ttu-id="c3191-122">งานในการปรับใช้ในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="c3191-122">Work in your on-premises deployment</span></span>
+- [<span data-ttu-id="c3191-123">ตั้งค่าคอนฟิกการจัดการเอกสาร</span><span class="sxs-lookup"><span data-stu-id="c3191-123">Configure document management</span></span>](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [<span data-ttu-id="c3191-124">การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="c3191-124">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+- [<span data-ttu-id="c3191-125">ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-125">Document generation, publishing, and printing capabilities in on-premises deployments</span></span>](../analytics/printing-capabilities-on-premises.md)
+- [<span data-ttu-id="c3191-126">ตั้งค่าการสนับสนุนทางเทคนิค</span><span class="sxs-lookup"><span data-stu-id="c3191-126">Set up technical support</span></span>](../lifecycle-services/support-experience.md)
+- [<span data-ttu-id="c3191-127">การแก้ไขปัญหาการเชื่อมต่ออินเทอร์เน็ตไคลเอนต์</span><span class="sxs-lookup"><span data-stu-id="c3191-127">Client Internet connection troubleshooting</span></span>](../user-interface/client-disconnected.md)
 
-## <a name="other-resources"></a>ทรัพยากรอื่นๆ
-- [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](../get-started/features-not-implemented-on-prem.md)
-- [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](../migration-upgrade/deprecated-features.md)
+## <a name="other-resources"></a><span data-ttu-id="c3191-128">ทรัพยากรอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="c3191-128">Other resources</span></span>
+- [<span data-ttu-id="c3191-129">คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c3191-129">Features not implemented in on-premises deployments</span></span>](../get-started/features-not-implemented-on-prem.md)
+- [<span data-ttu-id="c3191-130">ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="c3191-130">Deprecated features</span></span>](../migration-upgrade/deprecated-features.md)
  
 

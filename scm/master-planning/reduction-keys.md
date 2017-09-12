@@ -20,119 +20,119 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ce3ff2ac0a5bd9bd342baa05425d7d0957ab8a09
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 30634b0af343ad171c385a95c4ba0934180f70cf
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="reduction-keys"></a>คีย์การลด
+# <a name="reduction-keys"></a><span data-ttu-id="6f9a5-105">คีย์การลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-105">Reduction keys</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงตัวอย่างที่แสดงวิธีการตั้งค่าเงื่อนไขสำคัญของการลด โดยมีข้อมูลเกี่ยวกับการตั้งค่าเงื่อนไขสำคัญของการลดต่างๆ และผลลัพธ์แต่ละครั้ง คุณสามารถใช้เงื่อนไขสำคัญของการลดเพื่อกำหนดวิธีการลดความต้องการการคาดการณ์
+<span data-ttu-id="6f9a5-106">บทความนี้แสดงตัวอย่างที่แสดงวิธีการตั้งค่าเงื่อนไขสำคัญของการลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="6f9a5-107">โดยมีข้อมูลเกี่ยวกับการตั้งค่าเงื่อนไขสำคัญของการลดต่างๆ และผลลัพธ์แต่ละครั้ง</span><span class="sxs-lookup"><span data-stu-id="6f9a5-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="6f9a5-108">คุณสามารถใช้เงื่อนไขสำคัญของการลดเพื่อกำหนดวิธีการลดความต้องการการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
-<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>ตัวอย่างที่ 1: เปอร์เซ็นต์ - คีย์การลดคาดการณ์หลักการลด
+<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a><span data-ttu-id="6f9a5-109">ตัวอย่างที่ 1: เปอร์เซ็นต์ - คีย์การลดคาดการณ์หลักการลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-109">Example 1: Percent - reduction key forecast reduction principle</span></span>
 ---------------------------------------------------------------
 
-ตัวอย่างนี้แสดงว่าคีย์การลดช่วยลดข้อกำหนดของการคาดการณ์ความต้องการตามเปอร์เซ็นต์และรอบระยะเวลาที่กำหนดโดยคีย์การลด
+<span data-ttu-id="6f9a5-110">ตัวอย่างนี้แสดงว่าคีย์การลดช่วยลดข้อกำหนดของการคาดการณ์ความต้องการตามเปอร์เซ็นต์และรอบระยะเวลาที่กำหนดโดยคีย์การลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  ในหน้า **คีย์การลด** ตั้งค่าบรรทัดต่อไปนี้
-    | เปลี่ยนแปลง | หน่วย  | เปอร์เซ็นต์ |
+1.  <span data-ttu-id="6f9a5-111">ในหน้า **คีย์การลด** ตั้งค่าบรรทัดต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="6f9a5-111">On the **Reduction keys** page, set up the following lines.</span></span>
+    | <span data-ttu-id="6f9a5-112">เปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="6f9a5-112">Change</span></span> | <span data-ttu-id="6f9a5-113">หน่วย</span><span class="sxs-lookup"><span data-stu-id="6f9a5-113">Unit</span></span>  | <span data-ttu-id="6f9a5-114">เปอร์เซ็นต์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-114">Percent</span></span> |
     |--------|-------|---------|
-    | 1      | เดือน | 100     |
-    | 2      | เดือน | 75      |
-    | 3      | เดือน | 50      |
-    | 4 ชั่วโมง      | เดือน | 25      |
+    | <span data-ttu-id="6f9a5-115">1</span><span class="sxs-lookup"><span data-stu-id="6f9a5-115">1</span></span>      | <span data-ttu-id="6f9a5-116">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-116">Month</span></span> | <span data-ttu-id="6f9a5-117">100</span><span class="sxs-lookup"><span data-stu-id="6f9a5-117">100</span></span>     |
+    | <span data-ttu-id="6f9a5-118">2</span><span class="sxs-lookup"><span data-stu-id="6f9a5-118">2</span></span>      | <span data-ttu-id="6f9a5-119">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-119">Month</span></span> | <span data-ttu-id="6f9a5-120">75</span><span class="sxs-lookup"><span data-stu-id="6f9a5-120">75</span></span>      |
+    | <span data-ttu-id="6f9a5-121">3</span><span class="sxs-lookup"><span data-stu-id="6f9a5-121">3</span></span>      | <span data-ttu-id="6f9a5-122">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-122">Month</span></span> | <span data-ttu-id="6f9a5-123">50</span><span class="sxs-lookup"><span data-stu-id="6f9a5-123">50</span></span>      |
+    | <span data-ttu-id="6f9a5-124">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="6f9a5-124">4</span></span>      | <span data-ttu-id="6f9a5-125">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-125">Month</span></span> | <span data-ttu-id="6f9a5-126">25</span><span class="sxs-lookup"><span data-stu-id="6f9a5-126">25</span></span>      |
 
-2.  เชื่อมโยงคีย์การลดกับกลุ่มความครอบคลุมของสินค้า
-3.  บนหน้า **แผนหลัก** ในฟิลด์ **หลักการลด** เลือก **เปอร์เซ็นต์ - คีย์การลด**
-4.  สร้างการคาดการณ์ความต้องการของ 1,000 ชิ้นต่อเดือน
+2.  <span data-ttu-id="6f9a5-127">เชื่อมโยงคีย์การลดกับกลุ่มความครอบคลุมของสินค้า</span><span class="sxs-lookup"><span data-stu-id="6f9a5-127">Link the reduction key to the item's coverage group.</span></span>
+3.  <span data-ttu-id="6f9a5-128">บนหน้า **แผนหลัก** ในฟิลด์ **หลักการลด** เลือก **เปอร์เซ็นต์ - คีย์การลด**</span><span class="sxs-lookup"><span data-stu-id="6f9a5-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4.  <span data-ttu-id="6f9a5-129">สร้างการคาดการณ์ความต้องการของ 1,000 ชิ้นต่อเดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
-ถ้าคุณรันการจัดกำหนดการการคาดการณ์ในวันที่ 1 มกราคม ข้อกำหนดการคาดการณ์ความต้องการจะถูกใช้ตามเปอร์เซ็นต์ที่คุณตั้งค่าในหน้า **คีย์การลด** ปริมาณข้อกำหนดต่อไปนี้จะถูกโอนย้ายไปยังแผนหลัก
+<span data-ttu-id="6f9a5-130">ถ้าคุณรันการจัดกำหนดการการคาดการณ์ในวันที่ 1 มกราคม ข้อกำหนดการคาดการณ์ความต้องการจะถูกใช้ตามเปอร์เซ็นต์ที่คุณตั้งค่าในหน้า **คีย์การลด**</span><span class="sxs-lookup"><span data-stu-id="6f9a5-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="6f9a5-131">ปริมาณข้อกำหนดต่อไปนี้จะถูกโอนย้ายไปยังแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="6f9a5-131">The following requirement quantities are transferred to the master plan.</span></span>
 
-| เดือน                | จำนวนชิ้นที่ต้องการ |
+| <span data-ttu-id="6f9a5-132">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-132">Month</span></span>                | <span data-ttu-id="6f9a5-133">จำนวนชิ้นที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-133">Number of pieces required</span></span> |
 |----------------------|---------------------------|
-| มกราคม              | 0                         |
-| กุมภาพันธ์             | 250                       |
-| มีนาคม                | 500                       |
-| เมษายน                | 750                       |
-| พฤษภาคม - ธันวาคม | 1,000                     |
+| <span data-ttu-id="6f9a5-134">มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-134">January</span></span>              | <span data-ttu-id="6f9a5-135">0</span><span class="sxs-lookup"><span data-stu-id="6f9a5-135">0</span></span>                         |
+| <span data-ttu-id="6f9a5-136">กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-136">February</span></span>             | <span data-ttu-id="6f9a5-137">250</span><span class="sxs-lookup"><span data-stu-id="6f9a5-137">250</span></span>                       |
+| <span data-ttu-id="6f9a5-138">มีนาคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-138">March</span></span>                | <span data-ttu-id="6f9a5-139">500</span><span class="sxs-lookup"><span data-stu-id="6f9a5-139">500</span></span>                       |
+| <span data-ttu-id="6f9a5-140">เมษายน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-140">April</span></span>                | <span data-ttu-id="6f9a5-141">750</span><span class="sxs-lookup"><span data-stu-id="6f9a5-141">750</span></span>                       |
+| <span data-ttu-id="6f9a5-142">พฤษภาคม - ธันวาคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-142">May through December</span></span> | <span data-ttu-id="6f9a5-143">1,000</span><span class="sxs-lookup"><span data-stu-id="6f9a5-143">1,000</span></span>                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>ตัวอย่างที่ 2: ธุรกรรม คีย์การลดคาดการณ์หลักการลด
-ตัวอย่างนี้แสดงว่าใบสั่งจริงที่เกิดขึ้นระหว่างรอบระยะเวลาที่ถูกกำหนดโดยคีย์การลดช่วยลดข้อกำหนดการคาดการณ์ความต้องการ
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a><span data-ttu-id="6f9a5-144">ตัวอย่างที่ 2: ธุรกรรม คีย์การลดคาดการณ์หลักการลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-144">Example 2: Transactions  reduction key forecast reduction principle</span></span>
+<span data-ttu-id="6f9a5-145">ตัวอย่างนี้แสดงว่าใบสั่งจริงที่เกิดขึ้นระหว่างรอบระยะเวลาที่ถูกกำหนดโดยคีย์การลดช่วยลดข้อกำหนดการคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-145">This example shows how actual orders that occur during the periods that are defined by the reduction key reduce demand forecast requirements.</span></span>
 
--   บนหน้า **แผนหลัก** ในฟิลด์ **หลักการลด** เลือก **ธุรกรรม - คีย์การลด**
+-   <span data-ttu-id="6f9a5-146">บนหน้า **แผนหลัก** ในฟิลด์ **หลักการลด** เลือก **ธุรกรรม - คีย์การลด**</span><span class="sxs-lookup"><span data-stu-id="6f9a5-146">On the **Master plans** page, in the **Reduction principle** field, select **Transactions - reduction key**.</span></span>
 
-ใบสั่งขายต่อไปนี้มีอยู่ในวันที่ 1 มกราคม
+<span data-ttu-id="6f9a5-147">ใบสั่งขายต่อไปนี้มีอยู่ในวันที่ 1 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-147">The following sales orders exist on January 1.</span></span>
 
-| เดือน    | จำนวนชิ้นที่สั่ง |
+| <span data-ttu-id="6f9a5-148">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-148">Month</span></span>    | <span data-ttu-id="6f9a5-149">จำนวนชิ้นที่สั่ง</span><span class="sxs-lookup"><span data-stu-id="6f9a5-149">Number of pieces ordered</span></span> |
 |----------|--------------------------|
-| มกราคม  | 956                      |
-| กุมภาพันธ์ | 1,176                    |
-| มีนาคม    | 451                      |
-| เมษายน    | 119                      |
+| <span data-ttu-id="6f9a5-150">มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-150">January</span></span>  | <span data-ttu-id="6f9a5-151">956</span><span class="sxs-lookup"><span data-stu-id="6f9a5-151">956</span></span>                      |
+| <span data-ttu-id="6f9a5-152">กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-152">February</span></span> | <span data-ttu-id="6f9a5-153">1,176</span><span class="sxs-lookup"><span data-stu-id="6f9a5-153">1,176</span></span>                    |
+| <span data-ttu-id="6f9a5-154">มีนาคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-154">March</span></span>    | <span data-ttu-id="6f9a5-155">451</span><span class="sxs-lookup"><span data-stu-id="6f9a5-155">451</span></span>                      |
+| <span data-ttu-id="6f9a5-156">เมษายน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-156">April</span></span>    | <span data-ttu-id="6f9a5-157">119</span><span class="sxs-lookup"><span data-stu-id="6f9a5-157">119</span></span>                      |
 
-ถ้าคุณใช้การคาดการณ์ความต้องการเดียวกันที่ 1,000 ชิ้นต่อเดือน ปริมาณความต้องการต่อไปนี้จะถูกโอนย้ายไปยังแผนหลัก
+<span data-ttu-id="6f9a5-158">ถ้าคุณใช้การคาดการณ์ความต้องการเดียวกันที่ 1,000 ชิ้นต่อเดือน ปริมาณความต้องการต่อไปนี้จะถูกโอนย้ายไปยังแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="6f9a5-158">If you use the same demand forecast of 1,000 pieces per month, the following requirement quantities are transferred to the master plan.</span></span>
 
-| เดือน                | จำนวนชิ้นที่ต้องการ |
+| <span data-ttu-id="6f9a5-159">เดือน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-159">Month</span></span>                | <span data-ttu-id="6f9a5-160">จำนวนชิ้นที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-160">Number of pieces required</span></span> |
 |----------------------|---------------------------|
-| มกราคม              | 44                        |
-| กุมภาพันธ์             | 0                         |
-| มีนาคม                | 549                       |
-| เมษายน                | 881                       |
-| พฤษภาคม - ธันวาคม | 1,000                     |
+| <span data-ttu-id="6f9a5-161">มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-161">January</span></span>              | <span data-ttu-id="6f9a5-162">44</span><span class="sxs-lookup"><span data-stu-id="6f9a5-162">44</span></span>                        |
+| <span data-ttu-id="6f9a5-163">กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-163">February</span></span>             | <span data-ttu-id="6f9a5-164">0</span><span class="sxs-lookup"><span data-stu-id="6f9a5-164">0</span></span>                         |
+| <span data-ttu-id="6f9a5-165">มีนาคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-165">March</span></span>                | <span data-ttu-id="6f9a5-166">549</span><span class="sxs-lookup"><span data-stu-id="6f9a5-166">549</span></span>                       |
+| <span data-ttu-id="6f9a5-167">เมษายน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-167">April</span></span>                | <span data-ttu-id="6f9a5-168">881</span><span class="sxs-lookup"><span data-stu-id="6f9a5-168">881</span></span>                       |
+| <span data-ttu-id="6f9a5-169">พฤษภาคม - ธันวาคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-169">May through December</span></span> | <span data-ttu-id="6f9a5-170">1,000</span><span class="sxs-lookup"><span data-stu-id="6f9a5-170">1,000</span></span>                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>ตัวอย่างที่ 3: ธุรกรรม รอบระยะเวลาแบบไดนามิกคาดการณ์หลักการลด
-ในกรณีส่วนใหญ่ ระบบจะตั้งค่าเพื่อให้ธุรกรรมลดความต้องการการคาดการณ์ภายในรอบระยะเวลาการคาดการณ์ที่กำหนด: สัปดาห์ เดือน เป็นต้น รอบระยะเวลาเหล่านี้จะถูกกำหนดอยู่ในคีย์การลด อย่างไรก็ตาม เวลาระหว่างสองรายการการคาดการณ์ความต้องการสามารถ *บ่งบอก* รอบระยะเวลา
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="6f9a5-171">ตัวอย่างที่ 3: ธุรกรรม รอบระยะเวลาแบบไดนามิกคาดการณ์หลักการลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
+<span data-ttu-id="6f9a5-172">ในกรณีส่วนใหญ่ ระบบจะตั้งค่าเพื่อให้ธุรกรรมลดความต้องการการคาดการณ์ภายในรอบระยะเวลาการคาดการณ์ที่กำหนด: สัปดาห์ เดือน เป็นต้น</span><span class="sxs-lookup"><span data-stu-id="6f9a5-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="6f9a5-173">รอบระยะเวลาเหล่านี้จะถูกกำหนดอยู่ในคีย์การลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="6f9a5-174">อย่างไรก็ตาม เวลาระหว่างสองรายการการคาดการณ์ความต้องการสามารถ *บ่งบอก* รอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="6f9a5-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  สร้างการคาดการณ์ความต้องการสำหรับวันต่อไปนี้และปริมาณการคาดการณ์
-    | วันที่       | การคาดการณ์ความต้องการ |
+1.  <span data-ttu-id="6f9a5-175">สร้างการคาดการณ์ความต้องการสำหรับวันต่อไปนี้และปริมาณการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-175">Create a demand forecast for the following dates and quantities.</span></span>
+    | <span data-ttu-id="6f9a5-176">วันที่</span><span class="sxs-lookup"><span data-stu-id="6f9a5-176">Date</span></span>       | <span data-ttu-id="6f9a5-177">การคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-177">Demand forecast</span></span> |
     |------------|-----------------|
-    | 1 มกราคม  | 1,000           |
-    | 5 มกราคม  | 500             |
-    | 12 มกราคม | 1,000           |
+    | <span data-ttu-id="6f9a5-178">1 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-178">January 1</span></span>  | <span data-ttu-id="6f9a5-179">1,000</span><span class="sxs-lookup"><span data-stu-id="6f9a5-179">1,000</span></span>           |
+    | <span data-ttu-id="6f9a5-180">5 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-180">January 5</span></span>  | <span data-ttu-id="6f9a5-181">500</span><span class="sxs-lookup"><span data-stu-id="6f9a5-181">500</span></span>             |
+    | <span data-ttu-id="6f9a5-182">12 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-182">January 12</span></span> | <span data-ttu-id="6f9a5-183">1,000</span><span class="sxs-lookup"><span data-stu-id="6f9a5-183">1,000</span></span>           |
 
-    ในการคาดการณ์นี้ ไม่มีรอบระยะเวลาที่ชัดเจนระหว่างวันคาดการณ์: ระหว่างวันที่หนึ่ง และวันที่สอง มีช่วงสี่วัน และระหว่างวันที่สอง และวันที่สาม มีช่วงเจ็ดวัน ระยะเวลาต่างๆเหล่านี้คือรอบระยะเวลาแบบไดนามิก
-2.  สร้างรายการใบสั่งขายดังต่อไปนี้
-    | วันที่                             | ปริมาณในใบสั่งขาย |
+    <span data-ttu-id="6f9a5-184">ในการคาดการณ์นี้ ไม่มีรอบระยะเวลาที่ชัดเจนระหว่างวันคาดการณ์: ระหว่างวันที่หนึ่ง และวันที่สอง มีช่วงสี่วัน และระหว่างวันที่สอง และวันที่สาม มีช่วงเจ็ดวัน</span><span class="sxs-lookup"><span data-stu-id="6f9a5-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="6f9a5-185">ระยะเวลาต่างๆเหล่านี้คือรอบระยะเวลาแบบไดนามิก</span><span class="sxs-lookup"><span data-stu-id="6f9a5-185">These various spans are the dynamic periods.</span></span>
+2.  <span data-ttu-id="6f9a5-186">สร้างรายการใบสั่งขายดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="6f9a5-186">Create sales order lines as follows.</span></span>
+    | <span data-ttu-id="6f9a5-187">วันที่</span><span class="sxs-lookup"><span data-stu-id="6f9a5-187">Date</span></span>                             | <span data-ttu-id="6f9a5-188">ปริมาณในใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="6f9a5-188">Sales order quantity</span></span> |
     |----------------------------------|----------------------|
-    | 15 ธันวาคมในปีก่อนหน้านี้ | 500                  |
-    | 3 มกราคม                        | 100                  |
-    | 10 มกราคม                       | 200                  |
+    | <span data-ttu-id="6f9a5-189">15 ธันวาคมในปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="6f9a5-189">December 15 in the previous year</span></span> | <span data-ttu-id="6f9a5-190">500</span><span class="sxs-lookup"><span data-stu-id="6f9a5-190">500</span></span>                  |
+    | <span data-ttu-id="6f9a5-191">3 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-191">January 3</span></span>                        | <span data-ttu-id="6f9a5-192">100</span><span class="sxs-lookup"><span data-stu-id="6f9a5-192">100</span></span>                  |
+    | <span data-ttu-id="6f9a5-193">10 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-193">January 10</span></span>                       | <span data-ttu-id="6f9a5-194">200</span><span class="sxs-lookup"><span data-stu-id="6f9a5-194">200</span></span>                  |
 
-การคาดการณ์จะถูกลดลงดังต่อไปนี้:
+<span data-ttu-id="6f9a5-195">การคาดการณ์จะถูกลดลงดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6f9a5-195">The forecast will be reduced as follows:</span></span>
 
--   ใบสั่งขายแรกไม่อยู่ภายในรอบระยะเวลา ดังนั้นจึงไม่สามารถลดการคาดการณ์ใด ๆ
--   ใบสั่งขายที่สองอยู่ระหว่าง 1 มกราคมและ 5 มกราคม ดังนั้นจึงจะลดการคาดการณ์สำหรับวันที่ 1 มกราคม ไป 100
--   ใบสั่งขายที่สามอยู่ระหว่าง 5 มกราคมและ 12 มกราคม ดังนั้นจึงจะลดการคาดการณ์สำหรับวันที่ 5 มกราคม ไป 200
+-   <span data-ttu-id="6f9a5-196">ใบสั่งขายแรกไม่อยู่ภายในรอบระยะเวลา ดังนั้นจึงไม่สามารถลดการคาดการณ์ใด ๆ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-196">The first sales order isn't within any period, so it won't reduce any forecast.</span></span>
+-   <span data-ttu-id="6f9a5-197">ใบสั่งขายที่สองอยู่ระหว่าง 1 มกราคมและ 5 มกราคม ดังนั้นจึงจะลดการคาดการณ์สำหรับวันที่ 1 มกราคม ไป 100</span><span class="sxs-lookup"><span data-stu-id="6f9a5-197">The second sales order is between January 1 and January 5, so it will reduce the forecast for January 1 by 100.</span></span>
+-   <span data-ttu-id="6f9a5-198">ใบสั่งขายที่สามอยู่ระหว่าง 5 มกราคมและ 12 มกราคม ดังนั้นจึงจะลดการคาดการณ์สำหรับวันที่ 5 มกราคม ไป 200</span><span class="sxs-lookup"><span data-stu-id="6f9a5-198">The third sales order is between January 5 and January 12, so it will reduce the forecast for January 5 by 200.</span></span>
 
-ใบสั่งที่ได้วางแผนไว้ต่อไปนี้จะถูกสร้างเพื่อตอบสนองการคาดการณ์
+<span data-ttu-id="6f9a5-199">ใบสั่งที่ได้วางแผนไว้ต่อไปนี้จะถูกสร้างเพื่อตอบสนองการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-199">The following planned order will be created to fulfill the forecast.</span></span>
 
-| วันที่การคาดการณ์ความต้องการ | ลดปริมาณ |
+| <span data-ttu-id="6f9a5-200">วันที่การคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-200">Demand forecast date</span></span> | <span data-ttu-id="6f9a5-201">ลดปริมาณ</span><span class="sxs-lookup"><span data-stu-id="6f9a5-201">Reduced quantity</span></span> |
 |----------------------|------------------|
-| 1 มกราคม            | 900              |
-| 5 มกราคม            | 300              |
-| 12 มกราคม           | 1,000            |
+| <span data-ttu-id="6f9a5-202">1 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-202">January 1</span></span>            | <span data-ttu-id="6f9a5-203">900</span><span class="sxs-lookup"><span data-stu-id="6f9a5-203">900</span></span>              |
+| <span data-ttu-id="6f9a5-204">5 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-204">January 5</span></span>            | <span data-ttu-id="6f9a5-205">300</span><span class="sxs-lookup"><span data-stu-id="6f9a5-205">300</span></span>              |
+| <span data-ttu-id="6f9a5-206">12 มกราคม</span><span class="sxs-lookup"><span data-stu-id="6f9a5-206">January 12</span></span>           | <span data-ttu-id="6f9a5-207">1,000</span><span class="sxs-lookup"><span data-stu-id="6f9a5-207">1,000</span></span>            |
 
-นี่คือสรุปของการลด **ธุรกรรม - รอบระยะเวลาแบบไดนามิก** :
+<span data-ttu-id="6f9a5-208">นี่คือสรุปของการลด **ธุรกรรม - รอบระยะเวลาแบบไดนามิก** :</span><span class="sxs-lookup"><span data-stu-id="6f9a5-208">Here is a summary of **Transactions - dynamic period** reduction:</span></span>
 
--   ความต้องการการคาดการณ์จะลดลงตามธุรกรรมใบสั่งจริงที่เกิดขึ้นในระหว่างรอบระยะเวลาแบบไดนามิก รอบระยะเวลาแบบไดนามิกครอบคลุมวันการคาดการณ์ปัจจุบัน และสิ้นสุดที่จุดเริ่มต้นของการคาดการณ์ถัดไป
--   วิธีการนี้ไม่ใช้หรือต้องมีคีย์การลด
--   เมื่อใช้ตัวเลือกนี้ ลักษณะการทำงานต่อไปนี้เกิดขึ้น:
-    -   ถ้าการคาดการณ์ถูกลดลงโดยสมบูรณ์ ข้อกำหนดการคาดการณ์สำหรับการคาดการณ์ปัจจุบันจะกลายเป็น 0 (ศูนย์)
-    -   ถ้าไม่มีการคาดการณ์ในอนาคต ข้อกำหนดการคาดการณ์จากการคาดการณ์ครั้งสุดท้ายที่ป้อนจะลดลง
-    -   กรอบเวลาจะรวมอยู่ในการคำนวณการลดการคาดการณ์
-    -   จำนวนวันค่าบวกจะรวมอยู่ในการคำนวณการลดการคาดการณ์
-    -   ถ้าธุรกรรมใบสั่งจริงเกินกว่าข้อกำหนดความคาดการณ์ ธุรกรรมที่เหลือจะไม่ถูกส่งต่อถึงรอบระยะเวลาการคาดการณ์ถัดไป
+-   <span data-ttu-id="6f9a5-209">ความต้องการการคาดการณ์จะลดลงตามธุรกรรมใบสั่งจริงที่เกิดขึ้นในระหว่างรอบระยะเวลาแบบไดนามิก</span><span class="sxs-lookup"><span data-stu-id="6f9a5-209">Forecast requirements are reduced by the actual order transactions that occur during the dynamic period.</span></span> <span data-ttu-id="6f9a5-210">รอบระยะเวลาแบบไดนามิกครอบคลุมวันการคาดการณ์ปัจจุบัน และสิ้นสุดที่จุดเริ่มต้นของการคาดการณ์ถัดไป</span><span class="sxs-lookup"><span data-stu-id="6f9a5-210">The dynamic period covers the current forecast dates and ends at the start of the next forecast.</span></span>
+-   <span data-ttu-id="6f9a5-211">วิธีการนี้ไม่ใช้หรือต้องมีคีย์การลด</span><span class="sxs-lookup"><span data-stu-id="6f9a5-211">This method doesn't use or require a reduction key.</span></span>
+-   <span data-ttu-id="6f9a5-212">เมื่อใช้ตัวเลือกนี้ ลักษณะการทำงานต่อไปนี้เกิดขึ้น:</span><span class="sxs-lookup"><span data-stu-id="6f9a5-212">When this option is used, the following behavior occurs:</span></span>
+    -   <span data-ttu-id="6f9a5-213">ถ้าการคาดการณ์ถูกลดลงโดยสมบูรณ์ ข้อกำหนดการคาดการณ์สำหรับการคาดการณ์ปัจจุบันจะกลายเป็น 0 (ศูนย์)</span><span class="sxs-lookup"><span data-stu-id="6f9a5-213">If the forecast is reduced completely, the forecast requirements for the current forecast become 0 (zero).</span></span>
+    -   <span data-ttu-id="6f9a5-214">ถ้าไม่มีการคาดการณ์ในอนาคต ข้อกำหนดการคาดการณ์จากการคาดการณ์ครั้งสุดท้ายที่ป้อนจะลดลง</span><span class="sxs-lookup"><span data-stu-id="6f9a5-214">If there is no future forecast, forecast requirements from the last forecast that was entered are reduced.</span></span>
+    -   <span data-ttu-id="6f9a5-215">กรอบเวลาจะรวมอยู่ในการคำนวณการลดการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-215">Time fences are included in the forecast reduction calculation.</span></span>
+    -   <span data-ttu-id="6f9a5-216">จำนวนวันค่าบวกจะรวมอยู่ในการคำนวณการลดการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="6f9a5-216">Positive days are included in the forecast reduction calculation.</span></span>
+    -   <span data-ttu-id="6f9a5-217">ถ้าธุรกรรมใบสั่งจริงเกินกว่าข้อกำหนดความคาดการณ์ ธุรกรรมที่เหลือจะไม่ถูกส่งต่อถึงรอบระยะเวลาการคาดการณ์ถัดไป</span><span class="sxs-lookup"><span data-stu-id="6f9a5-217">If actual order transactions exceed the forecasted requirements, the remaining transactions aren't forwarded to the next forecast period.</span></span>
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="6f9a5-218">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="6f9a5-218">See also</span></span>
 --------
 
-[แผนหลัก](master-plans.md)
+[<span data-ttu-id="6f9a5-219">แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="6f9a5-219">Master plans</span></span>](master-plans.md)
 
 
 

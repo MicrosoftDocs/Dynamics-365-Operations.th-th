@@ -17,60 +17,60 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 865beb1ee8b418d71c46f1842fb96e73090fd511
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8020a37bf0c725fc260574cfe87861aeb017519e
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>สร้างกฎคัมบังแบบปริมาณคงที่สำหรับการผลิต
+# <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a><span data-ttu-id="11e0c-103">สร้างกฎคัมบังแบบปริมาณคงที่สำหรับการผลิต</span><span class="sxs-lookup"><span data-stu-id="11e0c-103">Create a fixed quantity kanban rule for manufacturing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้มุ่งเน้นการตั้งค่าที่จำเป็นเพื่อสร้างกฎคัมบังการผลิตคงสำหรับกิจกรรมการแปลงทริกเกอร์ ด้านเซลล์ทำงานในสภาพแวดล้อมแบบลีน  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF ขั้นตอนนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสตรีมค่า ตามที่พวกเขาจัดเตรียมการผลิตสำหรับผลิตภัณฑ์ใหม่หรือผลิตภัณฑ์ปรับเปลี่ยน
+<span data-ttu-id="11e0c-104">ขั้นตอนนี้มุ่งเน้นการตั้งค่าที่จำเป็นเพื่อสร้างกฎคัมบังการผลิตคงสำหรับกิจกรรมการแปลงทริกเกอร์ ด้านเซลล์ทำงานในสภาพแวดล้อมแบบลีน </span><span class="sxs-lookup"><span data-stu-id="11e0c-104">This procedure focuses on the setup needed to create a fixed manufacturing kanban rule for triggering transforming activities, at a work cell, in a lean environment.</span></span> <span data-ttu-id="11e0c-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="11e0c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="11e0c-106">ขั้นตอนนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสตรีมค่า ตามที่พวกเขาจัดเตรียมการผลิตสำหรับผลิตภัณฑ์ใหม่หรือผลิตภัณฑ์ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="11e0c-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare production of a new or modified product.</span></span>
 
 
-## <a name="create-new-kanban-rule"></a>สร้างกฎคัมบังใหม่
-1. ไปที่กฎคัมบัง
-2. คลิก สร้าง
-    * โปรดสังเกตว่าค่าเริ่มต้นคือการผลิตและกลยุทธ์การเติมสินค้านั้นคงที่  คุณไม่จำเป็นต้องเปลี่ยนพารามิเตอร์เหล่านี้  
-3. ในฟิลด์กิจกรรมการวางแผนแรก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * นี่คือกิจกรรมที่จะดำเนินการสำหรับคัมบังที่สร้างขึ้นตามกฎคัมบังนี้   เลือก 'SpeakerTestAndPackaging'  
-4. ขยายส่วนรายละเอียด 
-5. ในฟิลด์ผลิตภัณฑ์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * เลือก L0050  
-6. ในฟิลด์หน่วยวัด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * เลือกนาที  
-7. ในฟิลด์ระยะเวลารอคอยสินค้า ให้ป้อนหมายเลข
-    * ป้อน 5  
+## <a name="create-new-kanban-rule"></a><span data-ttu-id="11e0c-107">สร้างกฎคัมบังใหม่</span><span class="sxs-lookup"><span data-stu-id="11e0c-107">Create new kanban rule</span></span>
+1. <span data-ttu-id="11e0c-108">ไปที่กฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-108">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="11e0c-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="11e0c-109">Click New.</span></span>
+    * <span data-ttu-id="11e0c-110">โปรดสังเกตว่าค่าเริ่มต้นคือการผลิตและกลยุทธ์การเติมสินค้านั้นคงที่ </span><span class="sxs-lookup"><span data-stu-id="11e0c-110">Notice that the default Type is Manufacturing and Replenishment strategy is Fixed.</span></span> <span data-ttu-id="11e0c-111">คุณไม่จำเป็นต้องเปลี่ยนพารามิเตอร์เหล่านี้</span><span class="sxs-lookup"><span data-stu-id="11e0c-111">You do not have to change these parameters.</span></span>  
+3. <span data-ttu-id="11e0c-112">ในฟิลด์กิจกรรมการวางแผนแรก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="11e0c-112">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="11e0c-113">นี่คือกิจกรรมที่จะดำเนินการสำหรับคัมบังที่สร้างขึ้นตามกฎคัมบังนี้ </span><span class="sxs-lookup"><span data-stu-id="11e0c-113">This is the activity that will be performed for kanbans created based on this kanban rule.</span></span>  <span data-ttu-id="11e0c-114">เลือก 'SpeakerTestAndPackaging'</span><span class="sxs-lookup"><span data-stu-id="11e0c-114">Select 'SpeakerTestAndPackaging'.</span></span>  
+4. <span data-ttu-id="11e0c-115">ขยายส่วนรายละเอียด </span><span class="sxs-lookup"><span data-stu-id="11e0c-115">Expand the Details section.</span></span>
+5. <span data-ttu-id="11e0c-116">ในฟิลด์ผลิตภัณฑ์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="11e0c-116">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="11e0c-117">เลือก L0050</span><span class="sxs-lookup"><span data-stu-id="11e0c-117">Select L0050.</span></span>  
+6. <span data-ttu-id="11e0c-118">ในฟิลด์หน่วยวัด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="11e0c-118">In the Unit of measure field, enter or select a value.</span></span>
+    * <span data-ttu-id="11e0c-119">เลือกนาที</span><span class="sxs-lookup"><span data-stu-id="11e0c-119">Select minutes.</span></span>  
+7. <span data-ttu-id="11e0c-120">ในฟิลด์ระยะเวลารอคอยสินค้า ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="11e0c-120">In the Lead time field, enter a number.</span></span>
+    * <span data-ttu-id="11e0c-121">ป้อน 5</span><span class="sxs-lookup"><span data-stu-id="11e0c-121">Enter 5.</span></span>  
 
-## <a name="set-quantities"></a>กำหนดปริมาณ
-1. ขยายส่วนปริมาณ 
-2. กำหนดปริมาณเริ่มต้นเป็น '10'
-    * นี่คือปริมาณที่จะถูกโอนย้ายสำหรับแต่ละคัมบัง  
-3. เลือกกล่องกาเครื่องหมายของผลต่างปริมาณผลิตภัณฑ์
-    * ด้วยอย่างนี้ คัมบังที่ถูกเลือกจะสามารถเสร็จสมบูรณ์โดยมีผลต่างจากปริมาณเริ่มต้น   เพื่ออนุญาตให้คัมบังเสร็จสมบูรณ์ด้วยปริมาณจาก 8 ถึง 12 ตั้งค่าทั้งสองผลต่างเป็น 2  
-4. ตั้งค่าผลต่างต่ำกว่า '2'
-    * นี่จะอนุญาติให้เสร็จสมบูรณ์ลงจนถึง 10-2 = 8  
-5. ตั้งค่าผลต่างสูงกว่า '2'
-    * นี่จะอนุญาติให้เสร็จสมบูรณ์ขึ้นจนถึง 10-2 = 12  
-6. ในฟิลด์ปริมาณตามระบบคัมบังแบบคงที่ ให้ป้อนหมายเลข
-    * จำนวนของคัมบังที่ควรเปิดใช้งานอยู่  ในกรณีนี้ 5 คัมบังประมวลผลแต่ละ 10  
-7. ในฟิลด์ค่าต่ำสุดของขอบเขตการแจ้งเตือน ให้ป้อน '2'
-    * ใช้เพื่อติดตามจำนวนเงินต่ำสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง  ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง  
-8. ในฟิลด์ค่าสูงสุดของขอบเขตการแจ้งเตือน ให้ป้อน '4'
-    * ใช้เพื่อติดตามจำนวนเงินสูงสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง  ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง  
-9. ในฟิลด์ปริมาณการวางแผนอัตโนมัติ ให้ป้อน '1'
-    * การตั้งค่านี้เป็น 1 หมายถึงทุกคัมบังจะถูกวางแผนโดยอัตโนมัติ    หากเราป้อน 3 คัมบังจะไม่สามารถวางแผนจนกว่า 3 คัมบังจะว่างพร้อมสำหรับการวางแผน  ซึ่งมีประโยชน์สำหรับการจัดกลุ่มงาน และหลีกเลี่ยงการใช้การตั้งค่ามากเกินไป  
+## <a name="set-quantities"></a><span data-ttu-id="11e0c-122">กำหนดปริมาณ</span><span class="sxs-lookup"><span data-stu-id="11e0c-122">Set quantities</span></span>
+1. <span data-ttu-id="11e0c-123">ขยายส่วนปริมาณ </span><span class="sxs-lookup"><span data-stu-id="11e0c-123">Expand the Quantities section.</span></span>
+2. <span data-ttu-id="11e0c-124">กำหนดปริมาณเริ่มต้นเป็น '10'</span><span class="sxs-lookup"><span data-stu-id="11e0c-124">Set Default quantity to '10'.</span></span>
+    * <span data-ttu-id="11e0c-125">นี่คือปริมาณที่จะถูกโอนย้ายสำหรับแต่ละคัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-125">This is the quantity that will be transferred for each kanban.</span></span>  
+3. <span data-ttu-id="11e0c-126">เลือกกล่องกาเครื่องหมายของผลต่างปริมาณผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="11e0c-126">Select the Product quantity variance check box.</span></span>
+    * <span data-ttu-id="11e0c-127">ด้วยอย่างนี้ คัมบังที่ถูกเลือกจะสามารถเสร็จสมบูรณ์โดยมีผลต่างจากปริมาณเริ่มต้น </span><span class="sxs-lookup"><span data-stu-id="11e0c-127">With this, selected kanbans can be completed with a variance from the default quantity.</span></span>  <span data-ttu-id="11e0c-128">เพื่ออนุญาตให้คัมบังเสร็จสมบูรณ์ด้วยปริมาณจาก 8 ถึง 12 ตั้งค่าทั้งสองผลต่างเป็น 2</span><span class="sxs-lookup"><span data-stu-id="11e0c-128">To allow kanbans to be completed with a quantity from 8 to 12, set both variances to 2.</span></span>  
+4. <span data-ttu-id="11e0c-129">ตั้งค่าผลต่างต่ำกว่า '2'</span><span class="sxs-lookup"><span data-stu-id="11e0c-129">Set Variance below to '2'.</span></span>
+    * <span data-ttu-id="11e0c-130">นี่จะอนุญาติให้เสร็จสมบูรณ์ลงจนถึง 10-2 = 8</span><span class="sxs-lookup"><span data-stu-id="11e0c-130">This will allow completing down to 10 - 2 = 8</span></span>  
+5. <span data-ttu-id="11e0c-131">ตั้งค่าผลต่างสูงกว่า '2'</span><span class="sxs-lookup"><span data-stu-id="11e0c-131">Set Variance above to '2'.</span></span>
+    * <span data-ttu-id="11e0c-132">นี่จะอนุญาติให้เสร็จสมบูรณ์ขึ้นจนถึง 10-2 = 12</span><span class="sxs-lookup"><span data-stu-id="11e0c-132">This will allow completing up to 10 + 2 = 12</span></span>  
+6. <span data-ttu-id="11e0c-133">ในฟิลด์ปริมาณตามระบบคัมบังแบบคงที่ ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="11e0c-133">In the Fixed kanban quantity field, enter a number.</span></span>
+    * <span data-ttu-id="11e0c-134">จำนวนของคัมบังที่ควรเปิดใช้งานอยู่ </span><span class="sxs-lookup"><span data-stu-id="11e0c-134">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="11e0c-135">ในกรณีนี้ 5 คัมบังประมวลผลแต่ละ 10</span><span class="sxs-lookup"><span data-stu-id="11e0c-135">In this case, 5 kanbans processing 10 each.</span></span>  
+7. <span data-ttu-id="11e0c-136">ในฟิลด์ค่าต่ำสุดของขอบเขตการแจ้งเตือน ให้ป้อน '2'</span><span class="sxs-lookup"><span data-stu-id="11e0c-136">In the Alert boundary minimum field, enter '2'.</span></span>
+    * <span data-ttu-id="11e0c-137">ใช้เพื่อติดตามจำนวนเงินต่ำสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง </span><span class="sxs-lookup"><span data-stu-id="11e0c-137">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="11e0c-138">ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-138">For example, this is used on the kanban quantity overview.</span></span>  
+8. <span data-ttu-id="11e0c-139">ในฟิลด์ค่าสูงสุดของขอบเขตการแจ้งเตือน ให้ป้อน '4'</span><span class="sxs-lookup"><span data-stu-id="11e0c-139">In the Alert boundary maximum field, enter '4'.</span></span>
+    * <span data-ttu-id="11e0c-140">ใช้เพื่อติดตามจำนวนเงินสูงสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง </span><span class="sxs-lookup"><span data-stu-id="11e0c-140">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="11e0c-141">ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-141">For example, this is used on the kanban quantity overview.</span></span>  
+9. <span data-ttu-id="11e0c-142">ในฟิลด์ปริมาณการวางแผนอัตโนมัติ ให้ป้อน '1'</span><span class="sxs-lookup"><span data-stu-id="11e0c-142">In the Automatic planning quantity field, enter '1'.</span></span>
+    * <span data-ttu-id="11e0c-143">การตั้งค่านี้เป็น 1 หมายถึงทุกคัมบังจะถูกวางแผนโดยอัตโนมัติ </span><span class="sxs-lookup"><span data-stu-id="11e0c-143">Setting this to 1 means that every kanban will be automatically planned.</span></span>   <span data-ttu-id="11e0c-144">หากเราป้อน 3 คัมบังจะไม่สามารถวางแผนจนกว่า 3 คัมบังจะว่างพร้อมสำหรับการวางแผน </span><span class="sxs-lookup"><span data-stu-id="11e0c-144">If we entered 3, the kanbans would not be planned until 3 empty kanbans are ready for planning.</span></span> <span data-ttu-id="11e0c-145">ซึ่งมีประโยชน์สำหรับการจัดกลุ่มงาน และหลีกเลี่ยงการใช้การตั้งค่ามากเกินไป</span><span class="sxs-lookup"><span data-stu-id="11e0c-145">This is useful for grouping work and avoiding too much setup.</span></span>  
 
-## <a name="create-kanbans"></a>สร้างคัมบัง
-1. ขยายส่วนคัมบัง
-2. คลิก บันทึก
-    * กฎคัมบังจำเป็นต้องถูกบันทึกก่อนจึงจะสามารถสร้างคัมบังได้  
-3. คลิก เพิ่ม
-    * หมายเหตุว่าไม่มีคัมบังที่ใช้งานอยู่เนื่องจากสิ่งนี้แนะนำ 'จำนวนของคัมบังใหม่' เป็น 5 สิ่งนี้เท่ากับ 'ปริมาณตามระบบคัมบังคงที่'  
-4. คลิก สร้าง
-    * สิ่งนี้จะสร้าง 5 คัมบัง  
-    * โปรดทราบว่า 5 คัมบังสำหรับแต่ละ 10 ถูกสร้างสำหรับกฎคัมบังการผลิต  นี่เป็นขั้นตอนสุดท้ายในกระบวนงานนี้  
+## <a name="create-kanbans"></a><span data-ttu-id="11e0c-146">สร้างคัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-146">Create Kanbans</span></span>
+1. <span data-ttu-id="11e0c-147">ขยายส่วนคัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-147">Expand the Kanbans section.</span></span>
+2. <span data-ttu-id="11e0c-148">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="11e0c-148">Click Save.</span></span>
+    * <span data-ttu-id="11e0c-149">กฎคัมบังจำเป็นต้องถูกบันทึกก่อนจึงจะสามารถสร้างคัมบังได้</span><span class="sxs-lookup"><span data-stu-id="11e0c-149">The kanban rule needs to be saved before kanbans can be created.</span></span>  
+3. <span data-ttu-id="11e0c-150">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="11e0c-150">Click Add.</span></span>
+    * <span data-ttu-id="11e0c-151">หมายเหตุว่าไม่มีคัมบังที่ใช้งานอยู่เนื่องจากสิ่งนี้แนะนำ 'จำนวนของคัมบังใหม่' เป็น 5</span><span class="sxs-lookup"><span data-stu-id="11e0c-151">Note that there are no active kanbans, due to this the suggested 'Number of new kanbans' are 5.</span></span> <span data-ttu-id="11e0c-152">สิ่งนี้เท่ากับ 'ปริมาณตามระบบคัมบังคงที่'</span><span class="sxs-lookup"><span data-stu-id="11e0c-152">This is equal to the 'Fixed kanban quantity'.</span></span>  
+4. <span data-ttu-id="11e0c-153">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="11e0c-153">Click Create.</span></span>
+    * <span data-ttu-id="11e0c-154">สิ่งนี้จะสร้าง 5 คัมบัง</span><span class="sxs-lookup"><span data-stu-id="11e0c-154">This will create 5 kanbans.</span></span>  
+    * <span data-ttu-id="11e0c-155">โปรดทราบว่า 5 คัมบังสำหรับแต่ละ 10 ถูกสร้างสำหรับกฎคัมบังการผลิต </span><span class="sxs-lookup"><span data-stu-id="11e0c-155">Note that 5 kanbans, for 10 each, was created for this manufacturing kanban rule.</span></span> <span data-ttu-id="11e0c-156">นี่เป็นขั้นตอนสุดท้ายในกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="11e0c-156">This is the last step in this procedure.</span></span>  
 
 

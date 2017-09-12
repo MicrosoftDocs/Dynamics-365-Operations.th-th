@@ -16,36 +16,36 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e8355a94322e6489fe64f22a049a34b7ecfe65b9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-kanban-rules-for-a-process-job"></a>เปลี่ยนกฎคัมบังสำหรับงานในกระบวนการ
+# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="5e250-103">เปลี่ยนกฎคัมบังสำหรับงานในกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="5e250-103">Change kanban rules for a process job</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้มุ่งเน้นการเปลี่ยนแปลงกฎคัมบังที่ใช้แล้วสำหรับคัมบังที่กำหนด  ซึ่งเป็นประโยชน์ในการตั้งระดับปริมาณระดับทรัพยากรหรือในกรณีของการแบ่ง  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF กระบวนงานนี้มีไว้สำหรับนักวางแผนซึ่งทำงานในบริษัทการผลิตแบบ Lean ที่มีความรับผิดชอบต่อสายธารคุณค่า
+<span data-ttu-id="5e250-104">กระบวนงานนี้มุ่งเน้นการเปลี่ยนแปลงกฎคัมบังที่ใช้แล้วสำหรับคัมบังที่กำหนด </span><span class="sxs-lookup"><span data-stu-id="5e250-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="5e250-105">ซึ่งเป็นประโยชน์ในการตั้งระดับปริมาณระดับทรัพยากรหรือในกรณีของการแบ่ง </span><span class="sxs-lookup"><span data-stu-id="5e250-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="5e250-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="5e250-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5e250-107">กระบวนงานนี้มีไว้สำหรับนักวางแผนซึ่งทำงานในบริษัทการผลิตแบบ Lean ที่มีความรับผิดชอบต่อสายธารคุณค่า</span><span class="sxs-lookup"><span data-stu-id="5e250-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 
 
-## <a name="copy-kanban-rule"></a>คัดลอกกฎคัมบัง
-1. ไปที่กฎคัมบัง
-2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * เลือกเหตุการณ์กฎคัมบัง 000022 สำหรับ L0001  
-3. คลิกทำซ้ำกฎคัมบัง
-4. คลิก ตกลง
+## <a name="copy-kanban-rule"></a><span data-ttu-id="5e250-108">คัดลอกกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5e250-108">Copy kanban rule</span></span>
+1. <span data-ttu-id="5e250-109">ไปที่กฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5e250-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="5e250-110">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="5e250-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="5e250-111">เลือกเหตุการณ์กฎคัมบัง 000022 สำหรับ L0001</span><span class="sxs-lookup"><span data-stu-id="5e250-111">Select Event Kanban rule 000022 for L0001.</span></span>  
+3. <span data-ttu-id="5e250-112">คลิกทำซ้ำกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5e250-112">Click Duplicate kanban rule.</span></span>
+4. <span data-ttu-id="5e250-113">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="5e250-113">Click OK.</span></span>
 
-## <a name="change-kanban-rule"></a>เปลี่ยนกฎคัมบัง
-1. ปิดหน้า
-2. ไปที่การกำหนดงานคัมบัง
-3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-    * เลือกรายการที่มีคัมบัง 000177  
-4. คลิกใช้กฎคัมบังสำรอง
-5. คลิก ถัดไป
-6. ในฟิลด์กฎคัมบัง ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * เลือกกฎคัมบังที่สร้างไว้ก่อนหน้านี้  นี่คือกฎคัมบังที่มีหมายเลขสูงสุด  
-7. คลิก Finish
-    * ขณะนี้งานคัมบังกำลังใช้กฎคัมบังอื่นอยู่  ซึ่งสามารถใช้เพื่อตั้งระดับปริมาณเซลล์ทำงาน  
+## <a name="change-kanban-rule"></a><span data-ttu-id="5e250-114">เปลี่ยนกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5e250-114">Change kanban rule</span></span>
+1. <span data-ttu-id="5e250-115">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="5e250-115">Close the page.</span></span>
+2. <span data-ttu-id="5e250-116">ไปที่การกำหนดงานคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5e250-116">Go to Kanban job scheduling.</span></span>
+3. <span data-ttu-id="5e250-117">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="5e250-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5e250-118">เลือกรายการที่มีคัมบัง 000177</span><span class="sxs-lookup"><span data-stu-id="5e250-118">Select line with Kanban 000177.</span></span>  
+4. <span data-ttu-id="5e250-119">คลิกใช้กฎคัมบังสำรอง</span><span class="sxs-lookup"><span data-stu-id="5e250-119">Click Use alternative kanban rule.</span></span>
+5. <span data-ttu-id="5e250-120">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="5e250-120">Click Next.</span></span>
+6. <span data-ttu-id="5e250-121">ในฟิลด์กฎคัมบัง ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="5e250-121">In the Kanban rule field, enter or select a value.</span></span>
+    * <span data-ttu-id="5e250-122">เลือกกฎคัมบังที่สร้างไว้ก่อนหน้านี้ </span><span class="sxs-lookup"><span data-stu-id="5e250-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="5e250-123">นี่คือกฎคัมบังที่มีหมายเลขสูงสุด</span><span class="sxs-lookup"><span data-stu-id="5e250-123">This is the kanban rule with the highest number.</span></span>  
+7. <span data-ttu-id="5e250-124">คลิก Finish</span><span class="sxs-lookup"><span data-stu-id="5e250-124">Click Finish.</span></span>
+    * <span data-ttu-id="5e250-125">ขณะนี้งานคัมบังกำลังใช้กฎคัมบังอื่นอยู่ </span><span class="sxs-lookup"><span data-stu-id="5e250-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="5e250-126">ซึ่งสามารถใช้เพื่อตั้งระดับปริมาณเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="5e250-126">This can be useful to level load work cells.</span></span>  
 
 

@@ -17,35 +17,35 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 44c5e9d62d3d4562a9d8a918b53711a5663bcb65
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 59fa33dbbf2b5e0d5fd2f7975c1ace71cdd383bd
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-value-stream"></a>สร้างสายธารคุณค่า
+# <a name="create-a-value-stream"></a><span data-ttu-id="9c192-103">สร้างสายธารคุณค่า</span><span class="sxs-lookup"><span data-stu-id="9c192-103">Create a value stream</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-สตรีมค่าคือหน่วยปฏิบัติงาน ที่จัดกลุ่มขั้นตอนการผลิตหนึ่งหรือหลายรายการ  เมื่อต้องการกำหนดขั้นตอนการผลิต คุณต้องกำหนดการสตรีมค่าก่อนเป็นอย่างเเรก
+<span data-ttu-id="9c192-104">สตรีมค่าคือหน่วยปฏิบัติงาน ที่จัดกลุ่มขั้นตอนการผลิตหนึ่งหรือหลายรายการ </span><span class="sxs-lookup"><span data-stu-id="9c192-104">Value streams are operating units, that group one or multiple production flows.</span></span> <span data-ttu-id="9c192-105">เมื่อต้องการกำหนดขั้นตอนการผลิต คุณต้องกำหนดการสตรีมค่าก่อนเป็นอย่างเเรก</span><span class="sxs-lookup"><span data-stu-id="9c192-105">To define a production flow, you first must define a value stream.</span></span>
 
 
-## <a name="open-the-form"></a>เปิดแบบฟอร์ม
-1. ไปที่การควบคุมการผลิต > การตั้งค่า > ขั้นตอนการผลิตแบบ lean > สตรีมค่า
+## <a name="open-the-form"></a><span data-ttu-id="9c192-106">เปิดแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="9c192-106">Open the form</span></span>
+1. <span data-ttu-id="9c192-107">ไปที่การควบคุมการผลิต > การตั้งค่า > ขั้นตอนการผลิตแบบ lean > สตรีมค่า</span><span class="sxs-lookup"><span data-stu-id="9c192-107">Go to Production control > Setup > Lean production flow > Value streams.</span></span>
 
-## <a name="create-a-new-value-stream"></a>สร้างสตรีมค่าใหม่
-1. คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง
-2. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
+## <a name="create-a-new-value-stream"></a><span data-ttu-id="9c192-108">สร้างสตรีมค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="9c192-108">Create a new value stream</span></span>
+1. <span data-ttu-id="9c192-109">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="9c192-109">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="9c192-110">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="9c192-110">In the Name field, type a value.</span></span>
 
-## <a name="select-a-value-stream-manager"></a>เลือกผู้จัดการสตรีมค่า
-1. ในฟิลด์ผู้จัดการ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * ผู้จัดการสายธารค่าถูกกำหนดไปยังเอกสารองค์กร  
-2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-3. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
+## <a name="select-a-value-stream-manager"></a><span data-ttu-id="9c192-111">เลือกผู้จัดการสตรีมค่า</span><span class="sxs-lookup"><span data-stu-id="9c192-111">Select a value stream manager</span></span>
+1. <span data-ttu-id="9c192-112">ในฟิลด์ผู้จัดการ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="9c192-112">In the Manager field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="9c192-113">ผู้จัดการสายธารค่าถูกกำหนดไปยังเอกสารองค์กร</span><span class="sxs-lookup"><span data-stu-id="9c192-113">The value stream manager is defined to document the organization.</span></span>  
+2. <span data-ttu-id="9c192-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="9c192-114">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="9c192-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="9c192-115">In the list, click the link in the selected row.</span></span>
 
-## <a name="save-and-close"></a>บันทึกและปิด
-1. คลิก บันทึก
-2. ปิดหน้า
-3. รีเฟรชหน้า
+## <a name="save-and-close"></a><span data-ttu-id="9c192-116">บันทึกและปิด</span><span class="sxs-lookup"><span data-stu-id="9c192-116">Save and close</span></span>
+1. <span data-ttu-id="9c192-117">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="9c192-117">Click Save.</span></span>
+2. <span data-ttu-id="9c192-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="9c192-118">Close the page.</span></span>
+3. <span data-ttu-id="9c192-119">รีเฟรชหน้า</span><span class="sxs-lookup"><span data-stu-id="9c192-119">Refresh the page.</span></span>
 
 

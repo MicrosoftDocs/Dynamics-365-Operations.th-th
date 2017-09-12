@@ -18,96 +18,96 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 86e8e91f2af474999d89bb63ac9e2afad7843c8a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6405599186c8d07ac5ade19d3b7d27ae83b036ff
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="trial-balance-financial-reports"></a>รายงานทางการเงินของงบทดลอง
+# <a name="trial-balance-financial-reports"></a><span data-ttu-id="aa903-104">รายงานทางการเงินของงบทดลอง</span><span class="sxs-lookup"><span data-stu-id="aa903-104">Trial balance financial reports</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบทดลอง นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานเหล่านี้และวิธีที่คุณสามารถปรับเปลี่ยนรายงานให้พอดีกับความต้องการทางธุรกิจของคุณ 
+<span data-ttu-id="aa903-105">บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบทดลอง</span><span class="sxs-lookup"><span data-stu-id="aa903-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="aa903-106">นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานเหล่านี้และวิธีที่คุณสามารถปรับเปลี่ยนรายงานให้พอดีกับความต้องการทางธุรกิจของคุณ</span><span class="sxs-lookup"><span data-stu-id="aa903-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
 
-<a name="default-trial-balance-reports"></a>รายงานงบทดลองเริ่มต้น
+<a name="default-trial-balance-reports"></a><span data-ttu-id="aa903-107">รายงานงบทดลองเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-107">Default trial balance reports</span></span>
 -----------------------------
 
-รายงานงบทดลองสามรายงานจะพร้อมใช้งานในการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+<span data-ttu-id="aa903-108">รายงานงบทดลองสามรายงานจะพร้อมใช้งานในการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span><span class="sxs-lookup"><span data-stu-id="aa903-108">Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
 
-| รายงานเริ่มต้น                                 | สิ่งที่ทำ                                                                                                                                                                                        |
+| <span data-ttu-id="aa903-109">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-109">Default report</span></span>                                 | <span data-ttu-id="aa903-110">สิ่งที่ทำ</span><span class="sxs-lookup"><span data-stu-id="aa903-110">What it does</span></span>                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| งบทดลองโดยละเอียด – ค่าเริ่มต้น               | ให้ข้อมูลยอดดุลสำหรับบัญชีทั้งหมด และรวมยอดดุลเดบิตและเครดิต และมูลค่าสุทธิของยอดดุลเหล่านี้ เข้ากับวันที่ทำธุรกรรม ใบสำคัญ และคำอธิบายเกี่ยวกับสมุดรายวัน                  |
-| สรุปงบทดลอง – ค่าเริ่มต้น                | ให้ข้อมูลยอดดุลสำหรับบัญชีทั้งหมด และรวมยอดดุลยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิต เข้ากับผลต่างสุทธิ                                        |
-| สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น | ให้ข้อมูลยอดดุลสำหรับบัญชีทั้งหมด และรวมยอดดุลยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิต เข้ากับผลต่างสุทธิสำหรับปีปัจจุบันและปีที่ผ่านมา |
+| <span data-ttu-id="aa903-111">งบทดลองโดยละเอียด – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-111">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="aa903-112">ให้ข้อมูลยอดดุลสำหรับบัญชีทั้งหมด และรวมยอดดุลเดบิตและเครดิต และมูลค่าสุทธิของยอดดุลเหล่านี้ เข้ากับวันที่ทำธุรกรรม ใบสำคัญ และคำอธิบายเกี่ยวกับสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="aa903-112">Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</span></span>                  |
+| <span data-ttu-id="aa903-113">สรุปงบทดลอง – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-113">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="aa903-114">ให้ข้อมูลยอดดุลสำหรับบัญชีทั้งหมด และรวมยอดดุลยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิต เข้ากับผลต่างสุทธิ</span><span class="sxs-lookup"><span data-stu-id="aa903-114">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</span></span>                                        |
+| <span data-ttu-id="aa903-115">สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-115">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="aa903-116">ให้ข้อมูลยอดดุลสำหรับบัญชีทั้งหมด และรวมยอดดุลยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิต เข้ากับผลต่างสุทธิสำหรับปีปัจจุบันและปีที่ผ่านมา</span><span class="sxs-lookup"><span data-stu-id="aa903-116">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</span></span> |
 
-## <a name="building-blocks"></a>ส่วนประกอบ
-รายงานทางการเงินของงบทดลองใช้ส่วนประกอบต่อไปนี้
+## <a name="building-blocks"></a><span data-ttu-id="aa903-117">ส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="aa903-117">Building blocks</span></span>
+<span data-ttu-id="aa903-118">รายงานทางการเงินของงบทดลองใช้ส่วนประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="aa903-118">The trial balance financial reports use the following building blocks.</span></span>
 
-| รายงานเริ่มต้น                                 | คำนิยามแถว          | คำนิยามคอลัมน์                              |
+| <span data-ttu-id="aa903-119">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-119">Default report</span></span>                                 | <span data-ttu-id="aa903-120">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="aa903-120">Row definition</span></span>          | <span data-ttu-id="aa903-121">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="aa903-121">Column definition</span></span>                              |
 |------------------------------------------------|-------------------------|------------------------------------------------|
-| งบทดลองโดยละเอียด – ค่าเริ่มต้น               | งบทดลอง - ค่าเริ่มต้น | งบทดลองโดยละเอียด – ค่าเริ่มต้น               |
-| สรุปงบทดลอง – ค่าเริ่มต้น                | งบทดลอง - ค่าเริ่มต้น | สรุปงบทดลอง – ค่าเริ่มต้น                |
-| สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น | งบทดลอง - ค่าเริ่มต้น | สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น |
+| <span data-ttu-id="aa903-122">งบทดลองโดยละเอียด – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-122">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="aa903-123">งบทดลอง - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-123">Trial Balance - Default</span></span> | <span data-ttu-id="aa903-124">งบทดลองโดยละเอียด – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-124">Detailed Trial Balance - Default</span></span>               |
+| <span data-ttu-id="aa903-125">สรุปงบทดลอง – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-125">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="aa903-126">งบทดลอง - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-126">Trial Balance - Default</span></span> | <span data-ttu-id="aa903-127">สรุปงบทดลอง – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-127">Summary Trial Balance - Default</span></span>                |
+| <span data-ttu-id="aa903-128">สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-128">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="aa903-129">งบทดลอง - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-129">Trial Balance - Default</span></span> | <span data-ttu-id="aa903-130">สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-130">Summary Trial Balance Year Over Year - Default</span></span> |
 
-### <a name="row-definition"></a>คำนิยามแถว
+### <a name="row-definition"></a><span data-ttu-id="aa903-131">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="aa903-131">Row definition</span></span>
 
-คำนิยามของแถว งบทดลอง – ค่าเริ่มต้น ประกอบด้วย แถวหนึ่งแถวที่รวมบัญชีหลักทั้งหมด ดังนั้น ใครก็ตามสามารถสร้างรายงาน โดยไม่ต้องทำการปรับเปลี่ยนใด ๆ เมื่อคุณดูรายงาน คุณเข้าถึงรายละเอียดแถวเดี่ยวเพื่อดูรายละเอียดเกี่ยวกับบัญชีแต่ละรายการ คุณสามารถปรับเปลี่ยนคำนิยามของแถวเพื่อให้รวมรายละเอียดมากขึ้น เพื่อแก้ไขงบทดลอง – คำนิยามของแถวเริ่มต้นเพื่อให้รวมแถวสำหรับบัญชีทั้งหมด ให้ปฏิบัติดังนี้
+<span data-ttu-id="aa903-132">คำนิยามของแถว งบทดลอง – ค่าเริ่มต้น ประกอบด้วย แถวหนึ่งแถวที่รวมบัญชีหลักทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="aa903-132">The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</span></span> <span data-ttu-id="aa903-133">ดังนั้น ใครก็ตามสามารถสร้างรายงาน โดยไม่ต้องทำการปรับเปลี่ยนใด ๆ</span><span class="sxs-lookup"><span data-stu-id="aa903-133">Therefore, anyone can generate the report without having to make any modifications.</span></span> <span data-ttu-id="aa903-134">เมื่อคุณดูรายงาน คุณเข้าถึงรายละเอียดแถวเดี่ยวเพื่อดูรายละเอียดเกี่ยวกับบัญชีแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="aa903-134">When you view the report, you drill into the single row to see details about each account.</span></span> <span data-ttu-id="aa903-135">คุณสามารถปรับเปลี่ยนคำนิยามของแถวเพื่อให้รวมรายละเอียดมากขึ้น</span><span class="sxs-lookup"><span data-stu-id="aa903-135">You can modify the row definition so that it includes more detail.</span></span> <span data-ttu-id="aa903-136">เพื่อแก้ไขงบทดลอง – คำนิยามของแถวเริ่มต้นเพื่อให้รวมแถวสำหรับบัญชีทั้งหมด ให้ปฏิบัติดังนี้</span><span class="sxs-lookup"><span data-stu-id="aa903-136">To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</span></span>
 
-1.  คลิก **แก้ไข** และจากนั้นคลิก **แทรกแถวจากมิติ** คำสั่ง **แทรกแถวจากมิติ** ช่วยให้คุณสามารถเลือกมิติที่คุณต้องการให้มีในคำนิยามของแถวของคุณ สำหรับคำนิยามของแถวนี้ คุณจะใช้ **บัญชีหลัก**
-2.  ตรวจสอบให้แน่ใจว่าว่า **บัญชีหลัก** ประกอบด้วยเครื่องหมายและ (&) และจากนั้นคลิก **ตกลง**
+1.  <span data-ttu-id="aa903-137">คลิก **แก้ไข** และจากนั้นคลิก **แทรกแถวจากมิติ**</span><span class="sxs-lookup"><span data-stu-id="aa903-137">Click **Edit**, and then click **Insert Rows from Dimensions**.</span></span> <span data-ttu-id="aa903-138">คำสั่ง **แทรกแถวจากมิติ** ช่วยให้คุณสามารถเลือกมิติที่คุณต้องการให้มีในคำนิยามของแถวของคุณ</span><span class="sxs-lookup"><span data-stu-id="aa903-138">The **Insert Rows from Dimensions** command lets you choose the dimensions that you want to have in your row definition.</span></span> <span data-ttu-id="aa903-139">สำหรับคำนิยามของแถวนี้ คุณจะใช้ **บัญชีหลัก**</span><span class="sxs-lookup"><span data-stu-id="aa903-139">For this row definition, you're going to use **Main Account**.</span></span>
+2.  <span data-ttu-id="aa903-140">ตรวจสอบให้แน่ใจว่าว่า **บัญชีหลัก** ประกอบด้วยเครื่องหมายและ (&) และจากนั้นคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="aa903-140">Make sure that **Main Account** contains all ampersands (&), and then click **OK**.</span></span>
 
-คำนิยามของแถวในขณะนี้ประกอบด้วยบัญชีหลักสำหรับนิติบุคคลเริ่มต้นของคุณทั้งหมด
+<span data-ttu-id="aa903-141">คำนิยามของแถวในขณะนี้ประกอบด้วยบัญชีหลักสำหรับนิติบุคคลเริ่มต้นของคุณทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="aa903-141">The row definition now contains all the main accounts for your default legal entity.</span></span>
 
-### <a name="column-definition"></a>คำนิยามคอลัมน์
+### <a name="column-definition"></a><span data-ttu-id="aa903-142">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="aa903-142">Column definition</span></span>
 
-รายงานงบทดลองแต่ละรายการใช้คำนิยามของคอลัมน์ที่แตกต่างกัน คำนิยามของคอลัมน์เหล่านี้ประกอบด้วย ชนิดที่แตกต่างกันของคอลัมน์เพื่อให้ระดับที่แตกต่างกันของรายละเอียดและข้อมูลทางการเงิน
+<span data-ttu-id="aa903-143">รายงานงบทดลองแต่ละรายการใช้คำนิยามของคอลัมน์ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="aa903-143">Each trial balance report uses a different column definition.</span></span> <span data-ttu-id="aa903-144">คำนิยามของคอลัมน์เหล่านี้ประกอบด้วย ชนิดที่แตกต่างกันของคอลัมน์เพื่อให้ระดับที่แตกต่างกันของรายละเอียดและข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="aa903-144">These column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   **งบทดลองโดยละเอียด – ชนิดของคอลัมน์เริ่มต้น:**
-    -   **DESC** – คำอธิบายจากคำนิยามของแถว
-    -   **ACCT** – รหัสบัญชี
-    -   **ATTR (3)** – แอททริบิวต์:
-        -   วันที่ธุรกรรม
-        -   ใบสำคัญ
-        -   คำอธิบายสมุดรายวัน
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้น
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้น
-    -   **CALC** – ผลต่างสุทธิ
--   **สรุปงบทดลอง – ชนิดของคอลัมน์เริ่มต้น:**
-    -   **ACCT** – รหัสบัญชี
-    -   **DESC** – คำอธิบายจากคำนิยามของแถว
-    -   **ATTR** – แอททริบิวต์
-        -   ใบสำคัญ
-    -   **FD** – ข้อมูลทางการเงินของยอดดุลเริ่มต้น
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้น
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้น
-    -   **CALC** – ผลต่างสุทธิ
-    -   **CALC** – ยอดดุลปิดบัญชี
--   **สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น:**
-    -   **ACCT** – รหัสบัญชี
-    -   **DESC** – คำอธิบายจากคำนิยามของแถว
-    -   **ATTR** – แอททริบิวต์
-        -   ใบสำคัญ
-    -   **FD** – ข้อมูลทางการเงินของยอดดุลเริ่มต้นสำหรับปีปัจจุบัน
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้นสำหรับปีปัจจุบัน
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้นสำหรับปีปัจจุบัน
-    -   **CALC** – ผลต่างสุทธิ
-    -   **CALC** – ยอดดุลปิดบัญชี
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้นสำหรับปีที่ผ่านมา
-    -   **FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้นสำหรับปีที่ผ่านมา
+-   <span data-ttu-id="aa903-145">**งบทดลองโดยละเอียด – ชนิดของคอลัมน์เริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="aa903-145">**Detailed Trial Balance – Default column types:**</span></span>
+    -   <span data-ttu-id="aa903-146">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="aa903-146">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="aa903-147">**ACCT** – รหัสบัญชี</span><span class="sxs-lookup"><span data-stu-id="aa903-147">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="aa903-148">**ATTR (3)** – แอททริบิวต์:</span><span class="sxs-lookup"><span data-stu-id="aa903-148">**ATTR (3)** – Attributes:</span></span>
+        -   <span data-ttu-id="aa903-149">วันที่ธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="aa903-149">Transaction Date</span></span>
+        -   <span data-ttu-id="aa903-150">ใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="aa903-150">Voucher</span></span>
+        -   <span data-ttu-id="aa903-151">คำอธิบายสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="aa903-151">Journal Description</span></span>
+    -   <span data-ttu-id="aa903-152">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="aa903-152">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="aa903-153">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="aa903-153">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="aa903-154">**CALC** – ผลต่างสุทธิ</span><span class="sxs-lookup"><span data-stu-id="aa903-154">**CALC** – The net difference</span></span>
+-   <span data-ttu-id="aa903-155">**สรุปงบทดลอง – ชนิดของคอลัมน์เริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="aa903-155">**Summary Trial Balance – Default columns types:**</span></span>
+    -   <span data-ttu-id="aa903-156">**ACCT** – รหัสบัญชี</span><span class="sxs-lookup"><span data-stu-id="aa903-156">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="aa903-157">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="aa903-157">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="aa903-158">**ATTR** – แอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="aa903-158">**ATTR** – An attribute:</span></span>
+        -   <span data-ttu-id="aa903-159">ใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="aa903-159">Voucher</span></span>
+    -   <span data-ttu-id="aa903-160">**FD** – ข้อมูลทางการเงินของยอดดุลเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa903-160">**FD** – The beginning balance financial data</span></span>
+    -   <span data-ttu-id="aa903-161">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="aa903-161">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="aa903-162">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="aa903-162">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="aa903-163">**CALC** – ผลต่างสุทธิ</span><span class="sxs-lookup"><span data-stu-id="aa903-163">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="aa903-164">**CALC** – ยอดดุลปิดบัญชี</span><span class="sxs-lookup"><span data-stu-id="aa903-164">**CALC** – The closing balance</span></span>
+-   <span data-ttu-id="aa903-165">**สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="aa903-165">**Summary Trial Balance Year Over Year – Default:**</span></span>
+    -   <span data-ttu-id="aa903-166">**ACCT** – รหัสบัญชี</span><span class="sxs-lookup"><span data-stu-id="aa903-166">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="aa903-167">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="aa903-167">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="aa903-168">**ATTR** – แอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="aa903-168">**ATTR** – An attribute</span></span>
+        -   <span data-ttu-id="aa903-169">ใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="aa903-169">Voucher</span></span>
+    -   <span data-ttu-id="aa903-170">**FD** – ข้อมูลทางการเงินของยอดดุลเริ่มต้นสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="aa903-170">**FD** – The beginning balance financial data for the current year</span></span>
+    -   <span data-ttu-id="aa903-171">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้นสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="aa903-171">**FD** – Financial data that contains only debits for the current year</span></span>
+    -   <span data-ttu-id="aa903-172">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้นสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="aa903-172">**FD** – Financial data that contains only credits for the current year</span></span>
+    -   <span data-ttu-id="aa903-173">**CALC** – ผลต่างสุทธิ</span><span class="sxs-lookup"><span data-stu-id="aa903-173">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="aa903-174">**CALC** – ยอดดุลปิดบัญชี</span><span class="sxs-lookup"><span data-stu-id="aa903-174">**CALC** – The closing balance</span></span>
+    -   <span data-ttu-id="aa903-175">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเดบิตเท่านั้นสำหรับปีที่ผ่านมา</span><span class="sxs-lookup"><span data-stu-id="aa903-175">**FD** – Financial data that contains only debits for the last year</span></span>
+    -   <span data-ttu-id="aa903-176">**FD** – ข้อมูลทางการเงินที่ประกอบด้วยเครดิตเท่านั้นสำหรับปีที่ผ่านมา</span><span class="sxs-lookup"><span data-stu-id="aa903-176">**FD** – Financial data that contains only credits for the last year</span></span>
 
  
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="aa903-177">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="aa903-177">See also</span></span>
 --------
 
-[การรายงานทางการเงิน](financial-reporting-getting-started.md)
+[<span data-ttu-id="aa903-178">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="aa903-178">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[ดูรายงานทางการเงิน](view-financial-reports.md)
+[<span data-ttu-id="aa903-179">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="aa903-179">View financial reports</span></span>](view-financial-reports.md)
 
-[บล็อกการรายงานทางการเงิน Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="aa903-180">บล็อกการรายงานทางการเงิน Dynamics</span><span class="sxs-lookup"><span data-stu-id="aa903-180">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

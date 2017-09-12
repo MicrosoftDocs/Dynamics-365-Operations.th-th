@@ -17,33 +17,33 @@ ms.assetid: e97f1d3d-1306-4c42-b2bc-d1755fe574d5
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 45c83752b4dc50a615e3bb64320cb22b7fc6dec0
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3ca9c920ea333bd21defebc29b40243d3a618a3d
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="consolidated-batch-orders"></a>ใบสั่งชุดงานแบบรวม
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="20bfa-103">ใบสั่งชุดงานแบบรวม</span><span class="sxs-lookup"><span data-stu-id="20bfa-103">Consolidated batch orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายแนวคิดเกี่ยวกับใบสั่งชุดงานแบบรวม
+<span data-ttu-id="20bfa-104">บทความนี้อธิบายแนวคิดเกี่ยวกับใบสั่งชุดงานแบบรวม</span><span class="sxs-lookup"><span data-stu-id="20bfa-104">This article describes the concept of consolidated batch orders.</span></span>
 
-สินค้าจำนวนมากที่ผลิตจะถือว่าเป็นสินค้าหลัก ในขณะที่สินค้ารวบรวมไว้จะถือว่าเป็นสินค้ารอง ความสัมพันธ์ระหว่างสินค้าจำนวนมากและสินค้ารวบรวมไว้จะแสดงในการแปลงสินค้าจำนวนมาก การแปลงสินค้าจำนวนมากนี้ถูกกำหนดด้วยสินค้าจำนวนมากเอง  
+<span data-ttu-id="20bfa-105">สินค้าจำนวนมากที่ผลิตจะถือว่าเป็นสินค้าหลัก ในขณะที่สินค้ารวบรวมไว้จะถือว่าเป็นสินค้ารอง</span><span class="sxs-lookup"><span data-stu-id="20bfa-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="20bfa-106">ความสัมพันธ์ระหว่างสินค้าจำนวนมากและสินค้ารวบรวมไว้จะแสดงในการแปลงสินค้าจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="20bfa-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="20bfa-107">การแปลงสินค้าจำนวนมากนี้ถูกกำหนดด้วยสินค้าจำนวนมากเอง</span><span class="sxs-lookup"><span data-stu-id="20bfa-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-นับสินค้าที่บรรจุลงในตู้บรรจุสินค้ามีขนาดเดียวหรือหลายขนาดที่จะถือว่าเป็นหนึ่งหน่วย โดยการรวมบัญชีใบสั่งสำหรับสินค้าจำนวนมาก คุณสามารถดูใบสั่งชุดงานที่เกี่ยวข้องในมุมมองเดียวซึ่งช่วยให้คุณกำหนดงานใด ๆ ที่เหลืออยู่ซึ่งต้องเสร็จสมบูรณ์ทั้งหมด  
+<span data-ttu-id="20bfa-108">นับสินค้าที่บรรจุลงในตู้บรรจุสินค้ามีขนาดเดียวหรือหลายขนาดที่จะถือว่าเป็นหนึ่งหน่วย</span><span class="sxs-lookup"><span data-stu-id="20bfa-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="20bfa-109">โดยการรวมบัญชีใบสั่งสำหรับสินค้าจำนวนมาก คุณสามารถดูใบสั่งชุดงานที่เกี่ยวข้องในมุมมองเดียวซึ่งช่วยให้คุณกำหนดงานใด ๆ ที่เหลืออยู่ซึ่งต้องเสร็จสมบูรณ์ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="20bfa-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-ใบสั่งชุดงานแบบรวมสามารถประกอบด้วยชุดข้อมูลของใบสั่งต่อไปนี้:
+<span data-ttu-id="20bfa-110">ใบสั่งชุดงานแบบรวมสามารถประกอบด้วยชุดข้อมูลของใบสั่งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="20bfa-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   ใบสั่งจำนวนมากหนึ่งใบและใบสั่งรวมหลายใบ
--   ใบสั่งจำนวนมากหลายใบและใบสั่งรวมหลายใบ
--   ใบสั่งจำนวนมากหลายใบและใบสั่งรวมหนึ่งใบ
--   เฉพาะใบสั่งรวม
+-   <span data-ttu-id="20bfa-111">ใบสั่งจำนวนมากหนึ่งใบและใบสั่งรวมหลายใบ</span><span class="sxs-lookup"><span data-stu-id="20bfa-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="20bfa-112">ใบสั่งจำนวนมากหลายใบและใบสั่งรวมหลายใบ</span><span class="sxs-lookup"><span data-stu-id="20bfa-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="20bfa-113">ใบสั่งจำนวนมากหลายใบและใบสั่งรวมหนึ่งใบ</span><span class="sxs-lookup"><span data-stu-id="20bfa-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="20bfa-114">เฉพาะใบสั่งรวม</span><span class="sxs-lookup"><span data-stu-id="20bfa-114">Only packed orders</span></span>
 
 
 

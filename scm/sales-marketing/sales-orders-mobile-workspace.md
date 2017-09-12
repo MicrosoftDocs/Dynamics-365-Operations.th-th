@@ -19,129 +19,129 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: 1a05c6c12d4b6d98886e418aadcc0bdb2c2fc8ef
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 88535eeda32e0fd176959437f014691db048ef46
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="sales-orders-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="afa16-104">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="afa16-104">Sales orders mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้ 
+<span data-ttu-id="afa16-105">หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="afa16-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="afa16-106">พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้</span><span class="sxs-lookup"><span data-stu-id="afa16-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+<span data-ttu-id="afa16-107">พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations</span><span class="sxs-lookup"><span data-stu-id="afa16-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>ภาพรวม
-พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ 
+## <a name="overview"></a><span data-ttu-id="afa16-108">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="afa16-108">Overview</span></span>
+<span data-ttu-id="afa16-109">พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้</span><span class="sxs-lookup"><span data-stu-id="afa16-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="afa16-110">ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="afa16-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="afa16-111">พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="afa16-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="afa16-112">คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="afa16-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก
+<span data-ttu-id="afa16-113">พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก</span><span class="sxs-lookup"><span data-stu-id="afa16-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a>ดูใบสั่งขายทั้งหมด
-มุมมองนี้แสดงรายการใบสั่งขายทั้งหมด
+### <a name="view-all-sales-orders"></a><span data-ttu-id="afa16-114">ดูใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="afa16-114">View all sales orders</span></span>
+<span data-ttu-id="afa16-115">มุมมองนี้แสดงรายการใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="afa16-115">This view lists all sales orders.</span></span>
 
--   ใช้ตัวกรองใดตัวกรองหนึ่งเพื่อเลือกใบสั่งขายที่ต้องการดู:
+-   <span data-ttu-id="afa16-116">ใช้ตัวกรองใดตัวกรองหนึ่งเพื่อเลือกใบสั่งขายที่ต้องการดู:</span><span class="sxs-lookup"><span data-stu-id="afa16-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   ค้นหาตามใบสั่งขาย
-    -   ค้นหาตามบัญชีของลูกค้า
-    -   ค้นหาตามชื่อของลูกค้า
-    -   ค้นหาตามสถานะ
-    -   ค้นหาตามสถานะนำออกใช้
-    -   ค้นหาตามวันที่และเวลาที่สร้าง
+    -   <span data-ttu-id="afa16-117">ค้นหาตามใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="afa16-117">Search by sales order</span></span>
+    -   <span data-ttu-id="afa16-118">ค้นหาตามบัญชีของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-118">Search by customer account</span></span>
+    -   <span data-ttu-id="afa16-119">ค้นหาตามชื่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-119">Search by customer name</span></span>
+    -   <span data-ttu-id="afa16-120">ค้นหาตามสถานะ</span><span class="sxs-lookup"><span data-stu-id="afa16-120">Search by status</span></span>
+    -   <span data-ttu-id="afa16-121">ค้นหาตามสถานะนำออกใช้</span><span class="sxs-lookup"><span data-stu-id="afa16-121">Search by release status</span></span>
+    -   <span data-ttu-id="afa16-122">ค้นหาตามวันที่และเวลาที่สร้าง</span><span class="sxs-lookup"><span data-stu-id="afa16-122">Search by created date and time</span></span>
     
--   หลังจากที่คุณเลือกใบสั่งขาย คุณสามารถดูรายละเอียดของใบสั่งเฉพาะได้ กล่าวคือ คุณสามารถดูข้อมูลต่อไปนี้:
+-   <span data-ttu-id="afa16-123">หลังจากที่คุณเลือกใบสั่งขาย คุณสามารถดูรายละเอียดของใบสั่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="afa16-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="afa16-124">กล่าวคือ คุณสามารถดูข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="afa16-124">Specifically, you can view the following information:</span></span>
 
-    -   ข้อมูลชื่อและที่อยู่ของลูกค้า
-    -   วันที่ต่างๆ สำหรับใบสั่งขาย เช่น วันที่จัดส่งที่ร้องขอ และวันที่จัดส่งที่ยืนยัน
-    -   ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
-    -   ข้อมูลติดต่อของลูกค้า
-    -   รายการใบสั่ง
-    -   การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย
+    -   <span data-ttu-id="afa16-125">ข้อมูลชื่อและที่อยู่ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="afa16-126">วันที่ต่างๆ สำหรับใบสั่งขาย เช่น วันที่จัดส่งที่ร้องขอ และวันที่จัดส่งที่ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="afa16-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="afa16-127">ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="afa16-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="afa16-128">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-128">Customer contact information</span></span>
+    -   <span data-ttu-id="afa16-129">รายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="afa16-129">Order lines</span></span>
+    -   <span data-ttu-id="afa16-130">การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="afa16-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a>ดูใบสั่งสำหรับลูกค้า
-มุมมองนี้แสดงรายการใบสั่งขายโดยเรียงตามลูกค้า
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="afa16-131">ดูใบสั่งสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-131">View orders for a customer</span></span>
+<span data-ttu-id="afa16-132">มุมมองนี้แสดงรายการใบสั่งขายโดยเรียงตามลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-132">This view lists sales orders by customer.</span></span>
 
--   ใช้ตัวกรองใดตัวกรองหนึ่งต่อไปนี้เพื่อดูใบสั่งสำหรับลูกค้า:
+-   <span data-ttu-id="afa16-133">ใช้ตัวกรองใดตัวกรองหนึ่งต่อไปนี้เพื่อดูใบสั่งสำหรับลูกค้า:</span><span class="sxs-lookup"><span data-stu-id="afa16-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   ค้นหาตามชื่อ
-    -   ค้นหาตามบัญชี
+    -   <span data-ttu-id="afa16-134">ค้นหาตามชื่อ</span><span class="sxs-lookup"><span data-stu-id="afa16-134">Search by name</span></span>
+    -   <span data-ttu-id="afa16-135">ค้นหาตามบัญชี</span><span class="sxs-lookup"><span data-stu-id="afa16-135">Search by account</span></span>
 
--   หลังจากที่คุณเลือกลูกค้า คุณสามารถดูข้อมูลต่อไปนี้:
+-   <span data-ttu-id="afa16-136">หลังจากที่คุณเลือกลูกค้า คุณสามารถดูข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="afa16-136">After you select a customer, you can view the following information:</span></span>
 
-    -   ชื่อและกลุ่มลูกค้า
-    -   ข้อมูลติดต่อของลูกค้า
-    -   ใบสั่งขายของลูกค้าและรายละเอียดเกี่ยวกับใบสั่งขายเหล่านั้น:
+    -   <span data-ttu-id="afa16-137">ชื่อและกลุ่มลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-137">Customer name and group</span></span>
+    -   <span data-ttu-id="afa16-138">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-138">Customer contact information</span></span>
+    -   <span data-ttu-id="afa16-139">ใบสั่งขายของลูกค้าและรายละเอียดเกี่ยวกับใบสั่งขายเหล่านั้น:</span><span class="sxs-lookup"><span data-stu-id="afa16-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   ข้อมูลชื่อและที่อยู่ของลูกค้า
-        -   วันที่ในใบสั่งขายต่างๆ
-        -   ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
-        -   ข้อมูลติดต่อของลูกค้า
-        -   รายการใบสั่ง
-        -   การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย
+        -   <span data-ttu-id="afa16-140">ข้อมูลชื่อและที่อยู่ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="afa16-141">วันที่ในใบสั่งขายต่างๆ</span><span class="sxs-lookup"><span data-stu-id="afa16-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="afa16-142">ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="afa16-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="afa16-143">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-143">Customer contact information</span></span>
+        -   <span data-ttu-id="afa16-144">รายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="afa16-144">Order lines</span></span>
+        -   <span data-ttu-id="afa16-145">การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="afa16-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ
+## <a name="prerequisites"></a><span data-ttu-id="afa16-146">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="afa16-146">Prerequisites</span></span>
+<span data-ttu-id="afa16-147">ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="afa16-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>ข้อกำหนดเบื้องต้นหากคุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017 
-ถ้า Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดพเดือนกรกฎาคม 2017 ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="afa16-148">ข้อกำหนดเบื้องต้นหากคุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017</span><span class="sxs-lookup"><span data-stu-id="afa16-148">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="afa16-149">ถ้า Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดพเดือนกรกฎาคม 2017 ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="afa16-149">If the Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="afa16-150">สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)</span><span class="sxs-lookup"><span data-stu-id="afa16-150">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
-ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="afa16-151">ข้อกำหนดเบื้องต้นถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="afa16-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="afa16-152">ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="afa16-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>ข้อกำหนดเบื้องต้น</th>
-<th>บทบาท</th>
-<th>คำอธิบาย</th>
+<th><span data-ttu-id="afa16-153">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="afa16-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="afa16-154">บทบาท</span><span class="sxs-lookup"><span data-stu-id="afa16-154">Role</span></span></th>
+<th><span data-ttu-id="afa16-155">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="afa16-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>การใช้ KB 4013633</td>
-<td>ผู้ดูแลระบบ</td>
+<td><span data-ttu-id="afa16-156">การใช้ KB 4013633</span><span class="sxs-lookup"><span data-stu-id="afa16-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="afa16-157">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="afa16-157">System administrator</span></span></td>
 
-<td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
+<td><span data-ttu-id="afa16-158">KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></span><span class="sxs-lookup"><span data-stu-id="afa16-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="afa16-159">เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="afa16-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><span data-ttu-id="afa16-160"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></span><span class="sxs-lookup"><span data-stu-id="afa16-160"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="afa16-161"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></span><span class="sxs-lookup"><span data-stu-id="afa16-161"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="afa16-162"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</span><span class="sxs-lookup"><span data-stu-id="afa16-162"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="afa16-163"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></span><span class="sxs-lookup"><span data-stu-id="afa16-163"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></td>
-<td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td><span data-ttu-id="afa16-164">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></span><span class="sxs-lookup"><span data-stu-id="afa16-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="afa16-165">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="afa16-165">System administrator</span></span></td>
+<td><span data-ttu-id="afa16-166">ดู <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></span><span class="sxs-lookup"><span data-stu-id="afa16-166">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="afa16-167">ดาวน์โหลดและติดตั้งแอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="afa16-167">Download and install the mobile app</span></span>
+<span data-ttu-id="afa16-168">ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations</span><span class="sxs-lookup"><span data-stu-id="afa16-168">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
--   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="afa16-169">สำหรับโทรศัพท์ Android</span><span class="sxs-lookup"><span data-stu-id="afa16-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="afa16-170">สำหรับ iPhone</span><span class="sxs-lookup"><span data-stu-id="afa16-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="afa16-171">ล็อกอินเข้าสู่แอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="afa16-171">Sign in to the mobile app</span></span>
 
-1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2.  ป้อน URL ของ Dynamics 365
-3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
-4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
+1.  <span data-ttu-id="afa16-172">เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ</span><span class="sxs-lookup"><span data-stu-id="afa16-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="afa16-173">ป้อน URL ของ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="afa16-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="afa16-174">ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ</span><span class="sxs-lookup"><span data-stu-id="afa16-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="afa16-175">ป้อนข้อมูลประจำตัวของคุณ</span><span class="sxs-lookup"><span data-stu-id="afa16-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="afa16-176">หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="afa16-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="afa16-177">หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="afa16-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="afa16-178">[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="afa16-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>ดูข้อมูลเกี่ยวกับใบสั่งขายสำหรับลูกค้าโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="afa16-179">ดูข้อมูลเกี่ยวกับใบสั่งขายสำหรับลูกค้าโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="afa16-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ใบสั่งขาย**
-2.  เลือก **ดูใบสั่งสำหรับลูกค้า**
-3.  ใช้ข้อมูลบัญชีหรือชื่อลูกค้าเพื่อค้นหาลูกค้าที่ต้องการ
-4.  เลือกลูกค้า
-5.  เลือก **ข้อมูลติดต่อ** หรือ **ใบสั่งขาย** ถ้าคุณเลือก **ใบสั่งขาย** รายการใบสั่งขายสำหรับลูกค้าจะปรากฏขึ้น
-6.  เลือก **ใบสั่งขาย** ในขณะนี้คุณสามารถดูข้อมูลเกี่ยวกับบรรทัดใบสั่งขาย ข้อมูลเกี่ยวกับการจัดส่ง ข้อมูลติดต่อของลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
+1.  <span data-ttu-id="afa16-180">บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="afa16-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="afa16-181">เลือก **ดูใบสั่งสำหรับลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="afa16-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="afa16-182">ใช้ข้อมูลบัญชีหรือชื่อลูกค้าเพื่อค้นหาลูกค้าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="afa16-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="afa16-183">เลือกลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afa16-183">Select the customer.</span></span>
+5.  <span data-ttu-id="afa16-184">เลือก **ข้อมูลติดต่อ** หรือ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="afa16-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="afa16-185">ถ้าคุณเลือก **ใบสั่งขาย** รายการใบสั่งขายสำหรับลูกค้าจะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="afa16-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="afa16-186">เลือก **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="afa16-186">Select **Sales order**.</span></span> <span data-ttu-id="afa16-187">ในขณะนี้คุณสามารถดูข้อมูลเกี่ยวกับบรรทัดใบสั่งขาย ข้อมูลเกี่ยวกับการจัดส่ง ข้อมูลติดต่อของลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="afa16-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
 

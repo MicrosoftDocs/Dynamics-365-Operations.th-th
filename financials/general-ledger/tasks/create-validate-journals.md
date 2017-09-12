@@ -16,32 +16,32 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e19022ee497148a90bbbf96d10c1c024cb02cdbf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 928fe98c089ec907a5b59864f902910f51ce1fd1
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-validate-journals"></a>สร้างตรวจสอบความถูกต้องของสมุดรายวัน
+# <a name="create-and-validate-journals"></a><span data-ttu-id="13829-103">สร้างตรวจสอบความถูกต้องของสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="13829-103">Create and validate journals</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-คำแนะนำงานนี้สร้างและตรวจสอบสมุดรายวันและรายการสมุดรายวัน  งานนี้ใช้บริษัทสาธิต USMF  
+<span data-ttu-id="13829-104">คำแนะนำงานนี้สร้างและตรวจสอบสมุดรายวันและรายการสมุดรายวัน </span><span class="sxs-lookup"><span data-stu-id="13829-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="13829-105">งานนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="13829-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. ไปที่บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-5. คลิกรายการ
-6. ในฟิลด์บัญชี ให้ป้อนบัญชีที่เหมาะสมตามชนิดบัญชี
-7. ในฟิลด์คำอธิบาย ให้พิมพ์ค่าใดค่าหนึ่ง
-8. ป้อนยอดเงินสำหรับบัญชีเดบิตหรือเครดิต  คำแนะนำของงานนี้จะสันนิษฐานว่าเป็นยอดเงินเดบิต
-9. ในฟิลด์บัญชีตรงข้าม ให้ป้อนบัญชีที่เหมาะสมตามชนิดบัญชีตรงข้าม
-10. คลิก ตรวจสอบความถูกต้อง
-11. คลิก ตรวจสอบความถูกต้อง
-12. คลิก ลงรายการบัญชี
-13. คลิกใบสำคัญ
+1. <span data-ttu-id="13829-106">ไปที่บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป</span><span class="sxs-lookup"><span data-stu-id="13829-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="13829-107">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="13829-107">Click New.</span></span>
+3. <span data-ttu-id="13829-108">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="13829-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="13829-109">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="13829-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="13829-110">คลิกรายการ</span><span class="sxs-lookup"><span data-stu-id="13829-110">Click Lines.</span></span>
+6. <span data-ttu-id="13829-111">ในฟิลด์บัญชี ให้ป้อนบัญชีที่เหมาะสมตามชนิดบัญชี</span><span class="sxs-lookup"><span data-stu-id="13829-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="13829-112">ในฟิลด์คำอธิบาย ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="13829-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="13829-113">ป้อนยอดเงินสำหรับบัญชีเดบิตหรือเครดิต </span><span class="sxs-lookup"><span data-stu-id="13829-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="13829-114">คำแนะนำของงานนี้จะสันนิษฐานว่าเป็นยอดเงินเดบิต</span><span class="sxs-lookup"><span data-stu-id="13829-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="13829-115">ในฟิลด์บัญชีตรงข้าม ให้ป้อนบัญชีที่เหมาะสมตามชนิดบัญชีตรงข้าม</span><span class="sxs-lookup"><span data-stu-id="13829-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="13829-116">คลิก ตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="13829-116">Click Validate.</span></span>
+11. <span data-ttu-id="13829-117">คลิก ตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="13829-117">Click Validate.</span></span>
+12. <span data-ttu-id="13829-118">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="13829-118">Click Post.</span></span>
+13. <span data-ttu-id="13829-119">คลิกใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="13829-119">Click Voucher.</span></span>
 
 

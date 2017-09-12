@@ -17,34 +17,34 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 60bcafffc922e6d57e52a5dff104a0fbb252f6ce
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42ab631e29a7fae1140acd41ad80c13e55ca1404
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="66dbb-103"> สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="66dbb-103">Create, calculate, and post a statement for a retail store</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง  อีกทั้งยังมีชุดงานที่สามารถตั้งค่าคอนฟิกสำหรับงานเดียวกัน  คุณจะพบขั้นตอนสำหรับการตั้งค่าคอนฟิกและการรันชุดงานในหัวข้ออื่น  การทำงานนี้ให้สำเร็จ คุณต้องมีธุรกรรมที่เสร็จสมบูรณ์ใน POS และจากนั้นดึงมาไว้ใน Dynamics AX  การบันทึกข้อมูลนี้ใช้บริษัท USRT ในข้อมูลสาธิต  กระบวนงานนี้อาจอ้างถึง Microsoft Dynamics AX  โปรดทราบว่าปัจจุบัน Dynamics AX เรียกว่า Microsoft Dynamics 365 for Operations
+<span data-ttu-id="66dbb-104">กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง </span><span class="sxs-lookup"><span data-stu-id="66dbb-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="66dbb-105">อีกทั้งยังมีชุดงานที่สามารถตั้งค่าคอนฟิกสำหรับงานเดียวกัน </span><span class="sxs-lookup"><span data-stu-id="66dbb-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="66dbb-106">คุณจะพบขั้นตอนสำหรับการตั้งค่าคอนฟิกและการรันชุดงานในหัวข้ออื่น </span><span class="sxs-lookup"><span data-stu-id="66dbb-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="66dbb-107">การทำงานนี้ให้สำเร็จ คุณต้องมีธุรกรรมที่เสร็จสมบูรณ์ใน POS และจากนั้นดึงมาไว้ใน Dynamics AX </span><span class="sxs-lookup"><span data-stu-id="66dbb-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="66dbb-108">การบันทึกข้อมูลนี้ใช้บริษัท USRT ในข้อมูลสาธิต </span><span class="sxs-lookup"><span data-stu-id="66dbb-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="66dbb-109">กระบวนงานนี้อาจอ้างถึง Microsoft Dynamics AX </span><span class="sxs-lookup"><span data-stu-id="66dbb-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="66dbb-110">โปรดทราบว่าปัจจุบัน Dynamics AX เรียกว่า Microsoft Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="66dbb-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 
-1. ไปที่ พื้นที่ทำงานทั้งหมด > .. > การเงินของร้านค้าปลีก
-2. คลิก สร้างใบแจ้งยอดใหม่
-3. ในฟิลด์หมายเลขร้านค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-5. คลิก ตกลง
-    * กลุ่มการตั้งค่ามีการตั้งค่าที่ควบคุมธุรกรรมต่างๆที่รวมอยู่ในรายงานการเงินและวิธีการจัดกลุ่มลงในรายการใบแจ้งยอด  คุณสามารถเปิดกลุ่มการตั้งค่าและเปลี่ยนการตั้งค่าเหล่านี้ หรือคุณสามารถใช้ค่าเริ่มต้นก็ได้  
-    * ในฟิลด์วิธีการจัดทำใบแจ้งยอด กำหนดวิธีจัดกลุ่มรายการใบแจ้งยอดว่าจะเป็นอย่างไร  
-    * เลือกพนักงานหรือเครื่องบันทึกเงินสด ถ้าคุณต้องการคำนวณรายงานการเงินสำหรับพนักงานเฉพาะบางคนเท่านั้นหรือลงทะเบียน  
-6. ในฟิลด์วิธีการปิดบัญชี ให้เลือกหนึ่งตัวเลือก
-7. คลิกคำนวณใบแจ้งยอด
-8. คลิก ใช่
-    * หลังจากการคำนวณรายงานการเงิน ควรมีรายการที่สร้างขึ้นด้วยยอดเงินรวมจากวิธีการชำระเงินแต่ละวิธีและวิธีการการจัดทำใบแจ้งยอดที่ใช้  
-    * ป้อนยอดเงินที่ตรวจนับในแต่ละบรรทัดถ้าจำเป็นต้องป้อนหรือปรับปรุง  ในฟิลด์ตรวจนับนั้นถูกเติมด้วยการตรวจนับเงินใน POS  
-9. คลิกลงรายการบัญชีใบแจ้งยอด
-10. คลิก ปิด
-11. ไปที่การขายปลีกและการค้า > ช่องทาง > การเงินของร้านค้าปลีก
-12. คลิกแท็บใบแจ้งยอดที่ลงรายการบัญชี
+1. <span data-ttu-id="66dbb-111">ไปที่ พื้นที่ทำงานทั้งหมด > ..</span><span class="sxs-lookup"><span data-stu-id="66dbb-111">Go to All workspaces > ..</span></span> <span data-ttu-id="66dbb-112">> การเงินของร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="66dbb-112">> Retail store financials.</span></span>
+2. <span data-ttu-id="66dbb-113">คลิก สร้างใบแจ้งยอดใหม่</span><span class="sxs-lookup"><span data-stu-id="66dbb-113">Click New statement.</span></span>
+3. <span data-ttu-id="66dbb-114">ในฟิลด์หมายเลขร้านค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="66dbb-114">In the Store number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="66dbb-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="66dbb-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="66dbb-116">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="66dbb-116">Click OK.</span></span>
+    * <span data-ttu-id="66dbb-117">กลุ่มการตั้งค่ามีการตั้งค่าที่ควบคุมธุรกรรมต่างๆที่รวมอยู่ในรายงานการเงินและวิธีการจัดกลุ่มลงในรายการใบแจ้งยอด </span><span class="sxs-lookup"><span data-stu-id="66dbb-117">The Setup group has the settings that control what transactions are included in the statement and how they are grouped into statement lines.</span></span> <span data-ttu-id="66dbb-118">คุณสามารถเปิดกลุ่มการตั้งค่าและเปลี่ยนการตั้งค่าเหล่านี้ หรือคุณสามารถใช้ค่าเริ่มต้นก็ได้</span><span class="sxs-lookup"><span data-stu-id="66dbb-118">You can open the Setup group and change these settings, or you can use the defaults.</span></span>  
+    * <span data-ttu-id="66dbb-119">ในฟิลด์วิธีการจัดทำใบแจ้งยอด กำหนดวิธีจัดกลุ่มรายการใบแจ้งยอดว่าจะเป็นอย่างไร</span><span class="sxs-lookup"><span data-stu-id="66dbb-119">The Statement method field defines how the statement lines will be grouped.</span></span>  
+    * <span data-ttu-id="66dbb-120">เลือกพนักงานหรือเครื่องบันทึกเงินสด ถ้าคุณต้องการคำนวณรายงานการเงินสำหรับพนักงานเฉพาะบางคนเท่านั้นหรือลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="66dbb-120">Select a staff member or a register if you want to calculate a statement only for the specific staff member or register.</span></span>  
+6. <span data-ttu-id="66dbb-121">ในฟิลด์วิธีการปิดบัญชี ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="66dbb-121">In the Closing method field, select an option.</span></span>
+7. <span data-ttu-id="66dbb-122">คลิกคำนวณใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="66dbb-122">Click Calculate statement.</span></span>
+8. <span data-ttu-id="66dbb-123">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="66dbb-123">Click Yes.</span></span>
+    * <span data-ttu-id="66dbb-124">หลังจากการคำนวณรายงานการเงิน ควรมีรายการที่สร้างขึ้นด้วยยอดเงินรวมจากวิธีการชำระเงินแต่ละวิธีและวิธีการการจัดทำใบแจ้งยอดที่ใช้</span><span class="sxs-lookup"><span data-stu-id="66dbb-124">After calculating the statement, there should be lines created with total amounts for each payment method and statement method that was used.</span></span>  
+    * <span data-ttu-id="66dbb-125">ป้อนยอดเงินที่ตรวจนับในแต่ละบรรทัดถ้าจำเป็นต้องป้อนหรือปรับปรุง </span><span class="sxs-lookup"><span data-stu-id="66dbb-125">Enter a counted amount in each line if it needs to be entered or updated.</span></span> <span data-ttu-id="66dbb-126">ในฟิลด์ตรวจนับนั้นถูกเติมด้วยการตรวจนับเงินใน POS</span><span class="sxs-lookup"><span data-stu-id="66dbb-126">The counted field is populated with amounts from tender declarations done in POS.</span></span>  
+9. <span data-ttu-id="66dbb-127">คลิกลงรายการบัญชีใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="66dbb-127">Click Post statement.</span></span>
+10. <span data-ttu-id="66dbb-128">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="66dbb-128">Click Close.</span></span>
+11. <span data-ttu-id="66dbb-129">ไปที่การขายปลีกและการค้า > ช่องทาง > การเงินของร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="66dbb-129">Go to Retail and commerce > Channels > Retail store financials.</span></span>
+12. <span data-ttu-id="66dbb-130">คลิกแท็บใบแจ้งยอดที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="66dbb-130">Click the Posted statements tab.</span></span>
 
 

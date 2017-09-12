@@ -15,7 +15,7 @@ ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -25,17 +25,17 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>โฮมเพจการบัญชีต้นทุน
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="19440-103">โฮมเพจการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="19440-103">Cost accounting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="learning-map"></a>แผนผังการเรียนรู้ 
+## <a name="learning-map"></a><span data-ttu-id="19440-104">แผนผังการเรียนรู้</span><span class="sxs-lookup"><span data-stu-id="19440-104">Learning map</span></span> 
 
-แผนผังการเรียนรู้ต่อไปนี้แสดงแนวคิดหลักและงานที่มีรายการที่เชื่อมโยงระหว่างงานที่เกี่ยวข้องซึ่งอธิบายลักษณะของโมดูลการบัญชีต้นทุน
+<span data-ttu-id="19440-105">แผนผังการเรียนรู้ต่อไปนี้แสดงแนวคิดหลักและงานที่มีรายการที่เชื่อมโยงระหว่างงานที่เกี่ยวข้องซึ่งอธิบายลักษณะของโมดูลการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="19440-105">The following learning map shows the major concepts and tasks with connecting lines between related tasks that describe the nature of the cost accounting module.</span></span>
 
 ![แผนผังการเรียนรู้สำหรับการบัญชีต้นทุน](./media/cost-accounting-map.png)
 
-## <a name="get-started-videos"></a>เริ่มต้นใช้งานวิดีโอ
+## <a name="get-started-videos"></a><span data-ttu-id="19440-107">เริ่มต้นใช้งานวิดีโอ</span><span class="sxs-lookup"><span data-stu-id="19440-107">Get started videos</span></span>
 
 
 <table>

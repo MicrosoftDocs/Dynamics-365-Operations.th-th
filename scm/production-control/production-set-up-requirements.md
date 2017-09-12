@@ -20,65 +20,65 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2e39173ef6a27296a20d5f6e44ff6c728aa49c09
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b5df3c6c776a8dafdcfb3be7e2f273e01d70bcae
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="production-setup-requirements"></a>ข้อกำหนดของการตั้งค่าการผลิต
+# <a name="production-setup-requirements"></a><span data-ttu-id="48b8d-103">ข้อกำหนดของการตั้งค่าการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-103">Production setup requirements</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการตั้งค่าก่อนที่คุณจะสามารถดำเนินการควบคุมการผลิต 
+<span data-ttu-id="48b8d-104">บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการตั้งค่าก่อนที่คุณจะสามารถดำเนินการควบคุมการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-104">This article provides information about setup requirements before you can work with Production control.</span></span> 
 
-การควบคุมการผลิตถูกรวมเข้ากับลักษณะการทำงานในโมดูลอื่น การเชื่อมโยงกันนี้ช่วยให้คุณสามารถเปลี่ยนใบสั่งผลิต และมั่นใจได้ว่ามีการอัพเดตใบสั่งผลิตโดยอัตโนมัติในกระบวนการและการคำนวณอื่นที่เกี่ยวข้องทั้งหมดในระบบ ขั้นตอนการตั้งค่าต่อไปนี้จะแสดงรายการในใบสั่งที่คุณควรดำเนินการ
+<span data-ttu-id="48b8d-105">การควบคุมการผลิตถูกรวมเข้ากับลักษณะการทำงานในโมดูลอื่น</span><span class="sxs-lookup"><span data-stu-id="48b8d-105">Production control is integrated with features in other modules.</span></span> <span data-ttu-id="48b8d-106">การเชื่อมโยงกันนี้ช่วยให้คุณสามารถเปลี่ยนใบสั่งผลิต และมั่นใจได้ว่ามีการอัพเดตใบสั่งผลิตโดยอัตโนมัติในกระบวนการและการคำนวณอื่นที่เกี่ยวข้องทั้งหมดในระบบ</span><span class="sxs-lookup"><span data-stu-id="48b8d-106">This interconnectivity lets you change production orders and make sure that they are automatically updated in all other related processes and calculations in the system.</span></span> <span data-ttu-id="48b8d-107">ขั้นตอนการตั้งค่าต่อไปนี้จะแสดงรายการในใบสั่งที่คุณควรดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="48b8d-107">The following setup processes are listed in the order that you should complete them in.</span></span>
 
-## <a name="required-baseline-setup-in-other-modules"></a>การตั้งค่าพื้นฐานที่จำเป็นในโมดูลอื่น
-ข้อมูลในโมดูลอื่นต้องมีการตั้งค่าก่อน คุณจึงจะสามารถทำงานกับการควบคุมการผลิตได้ การตั้งค่ารวมถึงงานดังต่อไปนี้:
+## <a name="required-baseline-setup-in-other-modules"></a><span data-ttu-id="48b8d-108">การตั้งค่าพื้นฐานที่จำเป็นในโมดูลอื่น</span><span class="sxs-lookup"><span data-stu-id="48b8d-108">Required baseline setup in other modules</span></span>
+<span data-ttu-id="48b8d-109">ข้อมูลในโมดูลอื่นต้องมีการตั้งค่าก่อน คุณจึงจะสามารถทำงานกับการควบคุมการผลิตได้</span><span class="sxs-lookup"><span data-stu-id="48b8d-109">Information in other modules must be set up before you can work with Production control.</span></span> <span data-ttu-id="48b8d-110">การตั้งค่ารวมถึงงานดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="48b8d-110">This setup includes the following tasks:</span></span>
 
--   ตั้งค่าข้อมูลบริษัททั่วไป
--   ตั้งค่าบัญชีแยกประเภททั่วไป
--   กำหนดกลุ่มสินค้า
--   ตั้งค่าบัญชีแยกประเภทสำหรับกลุ่มสินค้า
--   ตั้งค่าตารางสินค้าคงคลังในการบริหารสินค้าคงคลัง
--   สร้างสูตรการผลิต(BOMs) และ BOM เวอร์ชันในการบริหารสินค้าคงคลัง
+-   <span data-ttu-id="48b8d-111">ตั้งค่าข้อมูลบริษัททั่วไป</span><span class="sxs-lookup"><span data-stu-id="48b8d-111">Set up general company information.</span></span>
+-   <span data-ttu-id="48b8d-112">ตั้งค่าบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="48b8d-112">Set up the general ledger.</span></span>
+-   <span data-ttu-id="48b8d-113">กำหนดกลุ่มสินค้า</span><span class="sxs-lookup"><span data-stu-id="48b8d-113">Define item groups.</span></span>
+-   <span data-ttu-id="48b8d-114">ตั้งค่าบัญชีแยกประเภทสำหรับกลุ่มสินค้า</span><span class="sxs-lookup"><span data-stu-id="48b8d-114">Set up ledger accounts for item groups.</span></span>
+-   <span data-ttu-id="48b8d-115">ตั้งค่าตารางสินค้าคงคลังในการบริหารสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="48b8d-115">Set up the inventory item table in Inventory management.</span></span>
+-   <span data-ttu-id="48b8d-116">สร้างสูตรการผลิต(BOMs) และ BOM เวอร์ชันในการบริหารสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="48b8d-116">Create bills of materials (BOMs) and BOM versions in Inventory management.</span></span>
 
-## <a name="required-calendar-and-resource-setup"></a>การตั้งค่าปฏิทินและการจัดเตรียมทรัพยากร
-ก่อนที่คุณจะใช้การควบคุม ให้เปิดการจัดการองค์กร และสร้างและกำหนดปฏิทินและทรัพยากรการดำเนินงานในลำดับต่อไปนี้
+## <a name="required-calendar-and-resource-setup"></a><span data-ttu-id="48b8d-117">การตั้งค่าปฏิทินและการจัดเตรียมทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="48b8d-117">Required calendar and resource setup</span></span>
+<span data-ttu-id="48b8d-118">ก่อนที่คุณจะใช้การควบคุม ให้เปิดการจัดการองค์กร และสร้างและกำหนดปฏิทินและทรัพยากรการดำเนินงานในลำดับต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="48b8d-118">Before you use Production control, open Organization administration, and create and define the calendar and operations resources in the following order:</span></span>
 
-1.  **เท็มเพลตเวลาการทำงาน**– ตั้งค่าเท็มเพลตเวลาการทำงานเพื่อกำหนดเวลาที่พร้อมใช้งานสำหรับการจัดตารางการผลิต
-2.  **Calendars** – ตั้งค่าปฏิทินเวลาการทำงานเพื่อกำหนดจำนวนวันของปีที่พร้อมใช้งานสำหรับการจัดตารางการผลิต
-3.  **กลุ่มทรัพยากร**– ตั้งค่ากลุ่มทรัพยากรเพื่อจัดกลุ่มทรัพยากรการดำเนินงาน เพื่อให้คุณสามารถดูภาพรวมของกำลังการผลิตที่ว่างเมื่อคุณรันการจัดกำหนดการ คุณไม่จำเป็นต้องตั้งค่ากลุ่มทรัพยากรก่อนที่คุณตั้งค่าทรัพยากรการดำเนินงาน อย่างไรก็ตาม เราขอแนะนำให้คุณเข้าใจวิธีการจัดกลุ่มทรัพยากรเมื่อคุณตั้งค่าการควบคุมการผลิต
-4.  **ทรัพยากร** – ตั้งค่าทรัพยากรการดำเนินงานเพื่อกำหนดทรัพยากรต่างๆที่จะใช้เพื่อทำกระบวนการผลิตให้สมบูรณ์ และเพื่อวางแผนกำลังการผลิต
+1.  <span data-ttu-id="48b8d-119">**เท็มเพลตเวลาการทำงาน**– ตั้งค่าเท็มเพลตเวลาการทำงานเพื่อกำหนดเวลาที่พร้อมใช้งานสำหรับการจัดตารางการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-119">**Working time templates** – Set up working time templates to define the times that are available for production scheduling.</span></span>
+2.  <span data-ttu-id="48b8d-120">**Calendars** – ตั้งค่าปฏิทินเวลาการทำงานเพื่อกำหนดจำนวนวันของปีที่พร้อมใช้งานสำหรับการจัดตารางการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-120">**Calendars** – Set up working time calendars to define the days of the year that are available for production scheduling.</span></span>
+3.  <span data-ttu-id="48b8d-121">**กลุ่มทรัพยากร**– ตั้งค่ากลุ่มทรัพยากรเพื่อจัดกลุ่มทรัพยากรการดำเนินงาน เพื่อให้คุณสามารถดูภาพรวมของกำลังการผลิตที่ว่างเมื่อคุณรันการจัดกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="48b8d-121">**Resource groups** – Set up resource groups to group the operations resources, so that you can get an overview of any free capacity when you run scheduling.</span></span> <span data-ttu-id="48b8d-122">คุณไม่จำเป็นต้องตั้งค่ากลุ่มทรัพยากรก่อนที่คุณตั้งค่าทรัพยากรการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="48b8d-122">You don't have to set up resource groups before you set up operations resources.</span></span> <span data-ttu-id="48b8d-123">อย่างไรก็ตาม เราขอแนะนำให้คุณเข้าใจวิธีการจัดกลุ่มทรัพยากรเมื่อคุณตั้งค่าการควบคุมการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-123">However, we recommend that you understand how to group resources when you set up Production control.</span></span>
+4.  <span data-ttu-id="48b8d-124">**ทรัพยากร** – ตั้งค่าทรัพยากรการดำเนินงานเพื่อกำหนดทรัพยากรต่างๆที่จะใช้เพื่อทำกระบวนการผลิตให้สมบูรณ์ และเพื่อวางแผนกำลังการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-124">**Resources** – Set up operations resources to define the resources that are used to complete the production process and plan for capacity.</span></span>
 
-## <a name="required-production-parameters-setup"></a>การตั้งค่าพารามิเตอร์การผลิตที่จำเป็น
-**พารามิเตอร์การควบคุมการผลิต** – ตั้งค่าพารามิเตอร์การผลิตพื้นฐานเพื่อกำหนดวิธีจัดการกับระบบและกระบวนการใบสั่งผลิต กำหนดวิธีการสร้าง ประเมิน จัดกำหนดการ และคำนวณปริมาณการใช้วัสดุของใบสั่งผลิต คุณยังสามารถเลือกชนิดของผลป้อนกลับที่คุณต้องการ และวิธีการลงบัญชีต้นทุนสินค้าได้ด้วย
+## <a name="required-production-parameters-setup"></a><span data-ttu-id="48b8d-125">การตั้งค่าพารามิเตอร์การผลิตที่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="48b8d-125">Required production parameters setup</span></span>
+<span data-ttu-id="48b8d-126">**พารามิเตอร์การควบคุมการผลิต** – ตั้งค่าพารามิเตอร์การผลิตพื้นฐานเพื่อกำหนดวิธีจัดการกับระบบและกระบวนการใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-126">**Production control parameters** – Set up basic production parameters to define how the system handles and processes production orders.</span></span> <span data-ttu-id="48b8d-127">กำหนดวิธีการสร้าง ประเมิน จัดกำหนดการ และคำนวณปริมาณการใช้วัสดุของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-127">Define how production orders are created, estimated, scheduled, and consumed.</span></span> <span data-ttu-id="48b8d-128">คุณยังสามารถเลือกชนิดของผลป้อนกลับที่คุณต้องการ และวิธีการลงบัญชีต้นทุนสินค้าได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="48b8d-128">You can also select what kind of feedback you want and how cost accounting is done.</span></span>
 
-## <a name="required-journal-name-identification"></a>การระบุชื่อสมุดรายวันที่จำเป็น
-**ชื่อสมุดรายวันการผลิต**– ระบุชื่อสมุดรายวันการผลิตที่ใช้เพื่อบันทึกและลงรายการบัญชีธุรกรรม
+## <a name="required-journal-name-identification"></a><span data-ttu-id="48b8d-129">การระบุชื่อสมุดรายวันที่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="48b8d-129">Required journal name identification</span></span>
+<span data-ttu-id="48b8d-130">**ชื่อสมุดรายวันการผลิต**– ระบุชื่อสมุดรายวันการผลิตที่ใช้เพื่อบันทึกและลงรายการบัญชีธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="48b8d-130">**Production journal names** – Specify the production journal names that are used to record and post transactions.</span></span>
 
-## <a name="setup-if-you-use-operations"></a>การตั้งค่าถ้าคุณใช้การดำเนินงาน
-การดำเนินงานแสดงกิจกรรมเฉพาะที่เสร็จสมบูรณ์เพื่อผลิตผลิตภัณฑ์สำเร็จรูป **หมายเหตุ:** คุณต้องทราบชนิดของกิจกรรมที่จำเป็นในการผลิตสินค้าของคุณ และใบสั่งและระดับความสำคัญของกิจกรรมเหล่านั้น คุณต้องทราบว่าทรัพยากรใดที่เกี่ยวข้อง และจำนวนของทรัพยากรนั้น
+## <a name="setup-if-you-use-operations"></a><span data-ttu-id="48b8d-131">การตั้งค่าถ้าคุณใช้การดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="48b8d-131">Setup if you use operations</span></span>
+<span data-ttu-id="48b8d-132">การดำเนินงานแสดงกิจกรรมเฉพาะที่เสร็จสมบูรณ์เพื่อผลิตผลิตภัณฑ์สำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="48b8d-132">Operations represent the specific activities that are completed to produce the finished product.</span></span> <span data-ttu-id="48b8d-133">**หมายเหตุ:** คุณต้องทราบชนิดของกิจกรรมที่จำเป็นในการผลิตสินค้าของคุณ และใบสั่งและระดับความสำคัญของกิจกรรมเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="48b8d-133">**Note:** You must know the types of activities that are required in order to produce your item, and the order and priorities of those activities.</span></span> <span data-ttu-id="48b8d-134">คุณต้องทราบว่าทรัพยากรใดที่เกี่ยวข้อง และจำนวนของทรัพยากรนั้น</span><span class="sxs-lookup"><span data-stu-id="48b8d-134">You must also know which resources are involved, and how many.</span></span>
 
-1.  **การดำเนินงาน** – ตั้งค่าการดำเนินงานเพื่อแสดงถึงงานที่ต้องทำให้เสร็จสมบูรณ์เพื่อผลิตสินค้าสำเร็จรูป
-2.  **ความสัมพันธ์**– ตั้งค่าความสัมพันธ์ของการดำเนินงานเพื่อกำหนดคุณสมบัติโดยละเอียด เมื่อต้องการกำหนดความสัมพันธ์ของการดำเนินงาน คลิก **ความสัมพันธ์** บนหน้า **การดำเนินงาน**
+1.  <span data-ttu-id="48b8d-135">**การดำเนินงาน** – ตั้งค่าการดำเนินงานเพื่อแสดงถึงงานที่ต้องทำให้เสร็จสมบูรณ์เพื่อผลิตสินค้าสำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="48b8d-135">**Operations** – Set up operations to represent the tasks that must be completed to produce the finished item.</span></span>
+2.  <span data-ttu-id="48b8d-136">**ความสัมพันธ์**– ตั้งค่าความสัมพันธ์ของการดำเนินงานเพื่อกำหนดคุณสมบัติโดยละเอียด</span><span class="sxs-lookup"><span data-stu-id="48b8d-136">**Relations** – Set up operation relations to establish detailed properties.</span></span> <span data-ttu-id="48b8d-137">เมื่อต้องการกำหนดความสัมพันธ์ของการดำเนินงาน คลิก **ความสัมพันธ์** บนหน้า **การดำเนินงาน**</span><span class="sxs-lookup"><span data-stu-id="48b8d-137">To define operation relations, click **Relations** on the **Operations** page.</span></span>
 
-## <a name="setup-if-you-use-routes"></a>การตั้งค่าถ้าคุณใช้กระบวนการผลิต
-ถ้าคุณทำงานกับกระบวนการผลิตอยู่ คุณต้องกำหนดการดำเนินงานสำหรับกระบวนการผลิตแต่ละกระบวนการที่คุณตั้งค่าไว้ กระบวนการผลิตแสดงถึงเส้นทางที่สินค้าใช้จากการดำเนินงานหนึ่งไปยังอีกการดำเนินงานหนึ่ง จากจุดเริ่มต้นของกระบวนการผลิตไปจนกว่ากระบวนการจะสิ้นสุด
+## <a name="setup-if-you-use-routes"></a><span data-ttu-id="48b8d-138">การตั้งค่าถ้าคุณใช้กระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-138">Setup if you use routes</span></span>
+<span data-ttu-id="48b8d-139">ถ้าคุณทำงานกับกระบวนการผลิตอยู่ คุณต้องกำหนดการดำเนินงานสำหรับกระบวนการผลิตแต่ละกระบวนการที่คุณตั้งค่าไว้</span><span class="sxs-lookup"><span data-stu-id="48b8d-139">If you're working with routes, operations must be defined for every production route that you set up.</span></span> <span data-ttu-id="48b8d-140">กระบวนการผลิตแสดงถึงเส้นทางที่สินค้าใช้จากการดำเนินงานหนึ่งไปยังอีกการดำเนินงานหนึ่ง จากจุดเริ่มต้นของกระบวนการผลิตไปจนกว่ากระบวนการจะสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="48b8d-140">The route represents the path that the item takes from operation to operation, from the start of the production process to the end.</span></span>
 
-1.  **ประเภทต้นทุน** – ตั้งค่าประเภทต้นทุนเพื่อกำหนดต้นทุนต่อชั่วโมงของเวลาที่ใช้ในกระบวนการและการตั้งค่าที่ระบุ
-2.  **กลุ่มต้นทุน** – ตั้งค่ากลุ่มต้นทุนเพื่อสร้างและรักษาการลงบัญชีต้นทุนชนิดต่างๆ
-3.  **กลุ่มกระบวนการผลิต**– ตั้งค่ากลุ่มกระบวนการผลิตเพื่อกำหนดพารามิเตอร์ที่เกี่ยวข้องกับกลุ่มของกระบวนการผลิต ก่อนที่คุณจะตั้งค่ากระบวนการผลิต คุณต้องตั้งค่ากลุ่มกระบวนการผลิตก่อน
-4.  **กระบวนการผลิต** – ตั้งค่ากระบวนการผลิตและกำหนดการตั้งค่าเริ่มต้น เพื่อควบคุมการจัดกำหนดการ การลงบัญชีต้นทุน และการกำหนดราคาของกระบวนการผลิต และการรายงานความคืบหน้าการควบคุม
-5.  **กระบวนการผลิต** – ตั้งค่าเวอร์ชันกระบวนการผลิตเพื่อเปิดใช้งานการเปลี่ยนแปลงของสินค้าในการผลิต
+1.  <span data-ttu-id="48b8d-141">**ประเภทต้นทุน** – ตั้งค่าประเภทต้นทุนเพื่อกำหนดต้นทุนต่อชั่วโมงของเวลาที่ใช้ในกระบวนการและการตั้งค่าที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="48b8d-141">**Cost categories** – Set up cost categories to define the cost per hour of specified processes and setup times.</span></span>
+2.  <span data-ttu-id="48b8d-142">**กลุ่มต้นทุน** – ตั้งค่ากลุ่มต้นทุนเพื่อสร้างและรักษาการลงบัญชีต้นทุนชนิดต่างๆ</span><span class="sxs-lookup"><span data-stu-id="48b8d-142">**Cost groups** – Set up cost groups to create and maintain different types of costing.</span></span>
+3.  <span data-ttu-id="48b8d-143">**กลุ่มกระบวนการผลิต**– ตั้งค่ากลุ่มกระบวนการผลิตเพื่อกำหนดพารามิเตอร์ที่เกี่ยวข้องกับกลุ่มของกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-143">**Route groups** – Set up route groups to define parameters that are related to groups of routes.</span></span> <span data-ttu-id="48b8d-144">ก่อนที่คุณจะตั้งค่ากระบวนการผลิต คุณต้องตั้งค่ากลุ่มกระบวนการผลิตก่อน</span><span class="sxs-lookup"><span data-stu-id="48b8d-144">You must set up route groups before you can create production routes.</span></span>
+4.  <span data-ttu-id="48b8d-145">**กระบวนการผลิต** – ตั้งค่ากระบวนการผลิตและกำหนดการตั้งค่าเริ่มต้น เพื่อควบคุมการจัดกำหนดการ การลงบัญชีต้นทุน และการกำหนดราคาของกระบวนการผลิต และการรายงานความคืบหน้าการควบคุม</span><span class="sxs-lookup"><span data-stu-id="48b8d-145">**Routes** – Set up production routes, and define default settings to control scheduling, costing, and pricing of route operations, and to control progress reporting.</span></span>
+5.  <span data-ttu-id="48b8d-146">**กระบวนการผลิต** – ตั้งค่าเวอร์ชันกระบวนการผลิตเพื่อเปิดใช้งานการเปลี่ยนแปลงของสินค้าในการผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-146">**Routes** – Set up route versions to enable item variations in production.</span></span>
 
-## <a name="optional-advanced-settings"></a>กำหนดการตั้งค่าเสริมขั้นสูง
-1.  **กลุ่มการผลิต** – ตั้งค่ากลุ่มการผลิตเพื่อสร้างความสัมพันธ์ระหว่างใบสั่งผลิตบัญชีแยกประเภท บัญชีแยกประเภทจะถูกใช้ในการลงรายการบัญชีหรือการจัดกลุ่มใบสั่งสำหรับการรายงาน
-2.  **ประเภทการผลิต** - สร้างประเภทการผลิตเพื่อจัดกลุ่มใบสั่งผลิต เพื่อดำเนินการใบสั่งผลิตด่วน หรือเพื่อลบและการลงรายการบัญชีกลุ่มของใบสั่ง
-3.  **คุณสมบัติ**– กำหนดคุณสมบัติเพื่อสร้างแอททริบิวต์พิเศษซึ่งคุณสามารถมอบหมายให้กับทรัพยากรของคุณเพื่อควบคุมใบสั่งผลิต แอททริบิวต์เหล่านี้มีความเกี่ยวข้องกับเท็มเพลตเวลาการทำงาน 
+## <a name="optional-advanced-settings"></a><span data-ttu-id="48b8d-147">กำหนดการตั้งค่าเสริมขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="48b8d-147">Optional advanced settings</span></span>
+1.  <span data-ttu-id="48b8d-148">**กลุ่มการผลิต** – ตั้งค่ากลุ่มการผลิตเพื่อสร้างความสัมพันธ์ระหว่างใบสั่งผลิตบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="48b8d-148">**Production groups** – Set up production groups to establish relationships between the production order and ledger accounts.</span></span> <span data-ttu-id="48b8d-149">บัญชีแยกประเภทจะถูกใช้ในการลงรายการบัญชีหรือการจัดกลุ่มใบสั่งสำหรับการรายงาน</span><span class="sxs-lookup"><span data-stu-id="48b8d-149">The ledger accounts are used to post or group orders for reporting.</span></span>
+2.  <span data-ttu-id="48b8d-150">**ประเภทการผลิต** - สร้างประเภทการผลิตเพื่อจัดกลุ่มใบสั่งผลิต เพื่อดำเนินการใบสั่งผลิตด่วน หรือเพื่อลบและการลงรายการบัญชีกลุ่มของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="48b8d-150">**Production pools** – Create production pools to group production orders so that you can process urgent production orders, or delete and post groups of orders.</span></span>
+3.  <span data-ttu-id="48b8d-151">**คุณสมบัติ**– กำหนดคุณสมบัติเพื่อสร้างแอททริบิวต์พิเศษซึ่งคุณสามารถมอบหมายให้กับทรัพยากรของคุณเพื่อควบคุมใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="48b8d-151">**Properties** – Define properties to create special attributes that you can assign to your resources to control the order of productions.</span></span> <span data-ttu-id="48b8d-152">แอททริบิวต์เหล่านี้มีความเกี่ยวข้องกับเท็มเพลตเวลาการทำงาน </span><span class="sxs-lookup"><span data-stu-id="48b8d-152">These attributes are connected to the working time template.</span></span>
 
 
 

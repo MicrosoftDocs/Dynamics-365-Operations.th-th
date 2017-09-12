@@ -16,63 +16,63 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 93bd832b4bbb91e6bd0288042098383eb5f4488d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-with-a-delivery-schedule"></a>สร้างใบสั่งซื้อที่มีกำหนดการจัดส่ง
+# <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="87207-103">สร้างใบสั่งซื้อที่มีกำหนดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="87207-103">Create a purchase order with a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งซื้อ  กำหนดการจัดส่งจะใช้เมื่อปริมาณในใบสั่งหรือสมุดรายวันมีการร้องขอให้จัดส่งหลายรายการ ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปกระบวนงานนี้จะถูกดำเนินการโดยเจ้าหน้าที่จัดซื้อ
+<span data-ttu-id="87207-104">กระบวนงานนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="87207-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="87207-105">กำหนดการจัดส่งจะใช้เมื่อปริมาณในใบสั่งหรือสมุดรายวันมีการร้องขอให้จัดส่งหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="87207-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="87207-106">ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="87207-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="87207-107">โดยทั่วไปกระบวนงานนี้จะถูกดำเนินการโดยเจ้าหน้าที่จัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="87207-107">This procedure would typically be done by a purchasing agent.</span></span>
 
 
-## <a name="create-a-delivery-schedule"></a>สร้างกำหนดการจัดส่ง
-1. ไปที่การจัดซื้อและการจัดหา > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อน US-101'
-4. คลิก ตกลง
-5. ในฟิลด์หมายเลขสินค้า ให้ป้อน M0001
-6. ในฟิลด์ปริมาณ ให้ป้อน 10
-7. คลิก บรรทัดรายการใบสั่งซื้อ
-8. คลิก กำหนดการจัดส่ง
-    * หน้ากำหนดการจัดส่งทำให้คุณสามารถระบุหมายเลขของการจัดส่งที่ปริมาณรวมของรายการใบสั่งจะถูกจัดส่งจากผู้จัดจำหน่าย  
-    * โดยค่าเริ่มต้น ระบบจะคัดลอกปริมาณรวมและรายละเอียดการจัดส่งอื่นของรายการซื้อเดิมไปยังรายการกำหนดการจัดส่งแรก  ในตัวอย่างนี้ เราจะสร้างกำหนดการสำหรับการจัดส่งสองรายการ ซึ่งวันจัดส่งครั้งที่สองจะอ๊อฟเซ็ตไปหนึ่งสัปดาห์จากวันจัดส่งครั้งแรก  
-9. ในฟิลด์ปริมาณ เปลี่ยนปริมาณเป็น 4
-10. คลิก สร้าง
-11. ในฟิลด์ปริมาณ ให้ป้อน 6 เป็นปริมาณคงเหลือ
-    * ในฟิลด์วันที่จัดส่ง ให้เลือกวันที่ที่อยู่หลังจากวันที่ในรายการการจัดส่งครั้งแรกหนึ่งสัปดาห์  
-    * คุณสามารถติดตามปริมาณรวมที่ได้ปันส่วนไปยังรายการกำหนดการจัดส่งโดยการดูที่ฟิลด์ผลรวมและที่เหลืออยู่  เมื่อปริมาณคงเหลือเป็นศูนย์ ปริมาณทั้งหมดจากรายการต้นฉบับมีการปันส่วนไปยังกำหนดการ  
-12. ขยายส่วนการแปลงค่าธรรมเนียม
-    * ตัวเลือกนี้ทำให้คคุณสามารถควบคุมวิธีการแจกจ่ายค่าธรรมเนียมในรายการกำหนดการจัดส่ง  ถ้าคุณเลือกที่การคัดลอกยอดเงินรวม ยอดเงินค่าธรรมเนียมในรายการสั่งซื้อเดิมจะถูกคัดลอกไปที่รายการจัดส่งแต่ละรายการ การปันส่วนไปที่ตัวเลือกรายการการจัดส่งจะแบ่งค่าธรรมเนียมในรายการเดิมตามปริมาณในรายการจัดส่งแต่ละรายการ  
-13. ยุบส่วนการแปลงค่าธรรมเนียม
-14. คลิก ตกลง
-    * กำหนดการจัดส่งในขณะนี้ได้ถูกนำไปใช้กับใบสั่งแล้ว  
-    * ขณะนี้รายการใบสั่งต้นฉบับที่อ้างอิงรายการการค้าได้ถูกแปลงเป็นรายการใบสั่งที่มีการจัดส่งหลายครั้ง  มีการทำเครื่องหมายด้วยไอคอนเฉพาะและทำหน้าที่เป็นส่วนหัวของรายการการจัดส่ง  
-15. เลือกรายการใบสั่งที่สอง ซึ่งเป็นรายการแรกของรายการการจัดส่งสองรายการนั้น
-    * รายการใหม่สองรายการที่อ้างอิงรายการการจัดส่ง ประกอบกันเป็นหนึ่งกำหนดการจัดส่ง  ใบสั่งจะถูกประมวลผลโดยเทียบกับรายการเหล่านี้และไม่ใช่รายการต้นฉบับ ถ้ามีการพิมพ์เอกสารเช่น ใบยืนยัน สมุดรายวันใบรับสินค้า หรือใบแจ้งหนี้ รายการจัดส่งเท่านั้นจะแสดงขึ้น  
+## <a name="create-a-delivery-schedule"></a><span data-ttu-id="87207-108">สร้างกำหนดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="87207-108">Create a delivery schedule</span></span>
+1. <span data-ttu-id="87207-109">ไปที่การจัดซื้อและการจัดหา > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="87207-109">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="87207-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="87207-110">Click New.</span></span>
+3. <span data-ttu-id="87207-111">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อน US-101'</span><span class="sxs-lookup"><span data-stu-id="87207-111">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="87207-112">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="87207-112">Click OK.</span></span>
+5. <span data-ttu-id="87207-113">ในฟิลด์หมายเลขสินค้า ให้ป้อน M0001</span><span class="sxs-lookup"><span data-stu-id="87207-113">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="87207-114">ในฟิลด์ปริมาณ ให้ป้อน 10</span><span class="sxs-lookup"><span data-stu-id="87207-114">In the Quantity field, enter 10.</span></span>
+7. <span data-ttu-id="87207-115">คลิก บรรทัดรายการใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="87207-115">Click Purchase order line.</span></span>
+8. <span data-ttu-id="87207-116">คลิก กำหนดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="87207-116">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="87207-117">หน้ากำหนดการจัดส่งทำให้คุณสามารถระบุหมายเลขของการจัดส่งที่ปริมาณรวมของรายการใบสั่งจะถูกจัดส่งจากผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="87207-117">The Delivery schedule page allows you to specify the number of shipments in which the total quantity of the order line will be delivered from the vendor.</span></span>  
+    * <span data-ttu-id="87207-118">โดยค่าเริ่มต้น ระบบจะคัดลอกปริมาณรวมและรายละเอียดการจัดส่งอื่นของรายการซื้อเดิมไปยังรายการกำหนดการจัดส่งแรก </span><span class="sxs-lookup"><span data-stu-id="87207-118">By default, the system copies the total quantity and other delivery details of the original purchase line into the first delivery schedule line.</span></span> <span data-ttu-id="87207-119">ในตัวอย่างนี้ เราจะสร้างกำหนดการสำหรับการจัดส่งสองรายการ ซึ่งวันจัดส่งครั้งที่สองจะอ๊อฟเซ็ตไปหนึ่งสัปดาห์จากวันจัดส่งครั้งแรก</span><span class="sxs-lookup"><span data-stu-id="87207-119">In this example, we’ll create a schedule for two shipments, with the second shipment’s date offset by a week from the first shipment.</span></span>  
+9. <span data-ttu-id="87207-120">ในฟิลด์ปริมาณ เปลี่ยนปริมาณเป็น 4</span><span class="sxs-lookup"><span data-stu-id="87207-120">In the Quantity field, change the quantity to 4.</span></span>
+10. <span data-ttu-id="87207-121">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="87207-121">Click New.</span></span>
+11. <span data-ttu-id="87207-122">ในฟิลด์ปริมาณ ให้ป้อน 6 เป็นปริมาณคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="87207-122">In the Quantity field, enter 6 as the remaining quantity.</span></span>
+    * <span data-ttu-id="87207-123">ในฟิลด์วันที่จัดส่ง ให้เลือกวันที่ที่อยู่หลังจากวันที่ในรายการการจัดส่งครั้งแรกหนึ่งสัปดาห์</span><span class="sxs-lookup"><span data-stu-id="87207-123">In the delivery date field, select a date that’s one week after the date on the first delivery line.</span></span>  
+    * <span data-ttu-id="87207-124">คุณสามารถติดตามปริมาณรวมที่ได้ปันส่วนไปยังรายการกำหนดการจัดส่งโดยการดูที่ฟิลด์ผลรวมและที่เหลืออยู่ </span><span class="sxs-lookup"><span data-stu-id="87207-124">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="87207-125">เมื่อปริมาณคงเหลือเป็นศูนย์ ปริมาณทั้งหมดจากรายการต้นฉบับมีการปันส่วนไปยังกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="87207-125">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>  
+12. <span data-ttu-id="87207-126">ขยายส่วนการแปลงค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="87207-126">Expand the Charges conversion section.</span></span>
+    * <span data-ttu-id="87207-127">ตัวเลือกนี้ทำให้คคุณสามารถควบคุมวิธีการแจกจ่ายค่าธรรมเนียมในรายการกำหนดการจัดส่ง </span><span class="sxs-lookup"><span data-stu-id="87207-127">The options here allow you to control how you want charges to be distributed across the delivery schedule lines.</span></span> <span data-ttu-id="87207-128">ถ้าคุณเลือกที่การคัดลอกยอดเงินรวม ยอดเงินค่าธรรมเนียมในรายการสั่งซื้อเดิมจะถูกคัดลอกไปที่รายการจัดส่งแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="87207-128">If you select Copy gross amounts, the charge amount on the original order line is copied to each delivery line.</span></span> <span data-ttu-id="87207-129">การปันส่วนไปที่ตัวเลือกรายการการจัดส่งจะแบ่งค่าธรรมเนียมในรายการเดิมตามปริมาณในรายการจัดส่งแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="87207-129">The Allocate to delivery lines option divides the original line charge according to the quantity on each delivery line.</span></span>  
+13. <span data-ttu-id="87207-130">ยุบส่วนการแปลงค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="87207-130">Collapse the Charges conversion section.</span></span>
+14. <span data-ttu-id="87207-131">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="87207-131">Click OK.</span></span>
+    * <span data-ttu-id="87207-132">กำหนดการจัดส่งในขณะนี้ได้ถูกนำไปใช้กับใบสั่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="87207-132">The delivery schedule has now been applied to the order.</span></span>  
+    * <span data-ttu-id="87207-133">ขณะนี้รายการใบสั่งต้นฉบับที่อ้างอิงรายการการค้าได้ถูกแปลงเป็นรายการใบสั่งที่มีการจัดส่งหลายครั้ง </span><span class="sxs-lookup"><span data-stu-id="87207-133">The original order line, now referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="87207-134">มีการทำเครื่องหมายด้วยไอคอนเฉพาะและทำหน้าที่เป็นส่วนหัวของรายการการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="87207-134">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+15. <span data-ttu-id="87207-135">เลือกรายการใบสั่งที่สอง ซึ่งเป็นรายการแรกของรายการการจัดส่งสองรายการนั้น</span><span class="sxs-lookup"><span data-stu-id="87207-135">Select the second order line, which is the first of the two delivery lines.</span></span>
+    * <span data-ttu-id="87207-136">รายการใหม่สองรายการที่อ้างอิงรายการการจัดส่ง ประกอบกันเป็นหนึ่งกำหนดการจัดส่ง </span><span class="sxs-lookup"><span data-stu-id="87207-136">The two new lines, referred to as Delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="87207-137">ใบสั่งจะถูกประมวลผลโดยเทียบกับรายการเหล่านี้และไม่ใช่รายการต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="87207-137">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="87207-138">ถ้ามีการพิมพ์เอกสารเช่น ใบยืนยัน สมุดรายวันใบรับสินค้า หรือใบแจ้งหนี้ รายการจัดส่งเท่านั้นจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="87207-138">If documents such as confirmations, product receipt journals, or invoices are printed, only the delivery lines are shown.</span></span>  
 
-## <a name="change-the-delivery-schedule"></a>เปลี่ยนกำหนดการจัดส่ง
-    * คุณสามารถเปลี่ยนปริมาณในรายการจัดส่งได้  ถ้าคุณทำเช่นนี้ รายการค้าจะถูกอัพเดตเป็นปริมาณรวมในรายการการจัดส่งโดยอัตโนมัติ  
-1. ในฟิลด์ปริมาณของรายการการจัดส่งแรก เปลี่ยนปริมาณจาก 4 เป็น 5
-2. เลือกรายการใบสั่งแรก (รายการทางการค้า)
-    * มีการเปลี่ยนแปลงปริมาณในรายการทางการค้าเป็น 11  
+## <a name="change-the-delivery-schedule"></a><span data-ttu-id="87207-139">เปลี่ยนกำหนดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="87207-139">Change the delivery schedule</span></span>
+    * <span data-ttu-id="87207-140">คุณสามารถเปลี่ยนปริมาณในรายการจัดส่งได้ </span><span class="sxs-lookup"><span data-stu-id="87207-140">You can change the quantity on delivery lines.</span></span> <span data-ttu-id="87207-141">ถ้าคุณทำเช่นนี้ รายการค้าจะถูกอัพเดตเป็นปริมาณรวมในรายการการจัดส่งโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="87207-141">If you do this, the commercial line is automatically updated to the total quantity in the delivery lines.</span></span>  
+1. <span data-ttu-id="87207-142">ในฟิลด์ปริมาณของรายการการจัดส่งแรก เปลี่ยนปริมาณจาก 4 เป็น 5</span><span class="sxs-lookup"><span data-stu-id="87207-142">In the Quantity field of the first delivery line, change the quantity from 4 to 5.</span></span>
+2. <span data-ttu-id="87207-143">เลือกรายการใบสั่งแรก (รายการทางการค้า)</span><span class="sxs-lookup"><span data-stu-id="87207-143">Select the first order line (the commercial line).</span></span>
+    * <span data-ttu-id="87207-144">มีการเปลี่ยนแปลงปริมาณในรายการทางการค้าเป็น 11</span><span class="sxs-lookup"><span data-stu-id="87207-144">The quantity on the commercial line has been changed to 11.</span></span>  
 
-## <a name="process-product-receipt-using-delivery-schedules"></a>ประมวลผลการรับสินค้าโดยใช้กำหนดการจัดส่ง
-    * ต้องยืนยันใบสั่งซื้อก่อนที่จะประมวลผลใบรับสินค้า  ในตัวอย่างนี้ ใบเสร็จจะถูกบันทึกโดยตรงในใบสั่งซื้อ อาจยังมีการบันทึกการรับเมื่อได้รับสินค้าในคลังสินค้าอีกด้วย  
-1. ในบานหน้าต่างการดำเนินการ ให้คลิก ซื้อ
-2. คลิก ยืนยัน
-3. ในบานหน้าต่างการดำเนินการ ให้คลิก รับ
-4. คลิก ใบรับสินค้า
-5. ในฟิลด์ใบรับสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง
-    * ฟิลด์นี้จะใช้ในการป้อนข้อมูลอ้างอิงที่จะใช้เป็นใบสำคัญสำหรับมุดรายวันใบรับสินค้าจากใบสั่งซื้อ  
-    * ในฟิลด์ปริมาณ เลือก 'ปริมาณที่สั่ง'  ตัวเลือกนี้หมายความว่าการรับสินค้าจะประมวลผลสำหรับปริมาณที่รายการใบสั่งถูกสร้างขึ้น  
-    * ตรวจสอบให้แน่ใจว่าฟิลด์ พิมพ์ใบรับสินค้า ตั้งค่าเป็น ไม่ ไม่จำเป็นต้องพิมพ์ในตัวอย่างนี้  
-6. ขยายส่วนรายการ
-    * โปรดสังเกตวิธีสร้างใบรับสินค้าสำหรับรายการการจัดส่งสองรายการซึ่งไม่ใช่รายการใบสั่งเดิม  ถ้ามีการบันทึกการรับสินค้าในคลังสินค้า ควรมีการบันทึกในรายการกำหนดการจัดส่งเช่นกัน  
-7. ยุบส่วนรายการ
-8. คลิกตกลงเพื่อลงรายการบัญชีการรับสินค้า
+## <a name="process-product-receipt-using-delivery-schedules"></a><span data-ttu-id="87207-145">ประมวลผลการรับสินค้าโดยใช้กำหนดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="87207-145">Process product receipt using delivery schedules</span></span>
+    * <span data-ttu-id="87207-146">ต้องยืนยันใบสั่งซื้อก่อนที่จะประมวลผลใบรับสินค้า </span><span class="sxs-lookup"><span data-stu-id="87207-146">The purchase order must be confirmed before product receipt can be processed.</span></span> <span data-ttu-id="87207-147">ในตัวอย่างนี้ ใบเสร็จจะถูกบันทึกโดยตรงในใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="87207-147">In this example, receipt is recorded directly on the purchase order.</span></span> <span data-ttu-id="87207-148">อาจยังมีการบันทึกการรับเมื่อได้รับสินค้าในคลังสินค้าอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="87207-148">Receipt could also have been recorded when the goods arrived in the warehouse.</span></span>  
+1. <span data-ttu-id="87207-149">ในบานหน้าต่างการดำเนินการ ให้คลิก ซื้อ</span><span class="sxs-lookup"><span data-stu-id="87207-149">On the Action Pane, click Purchase.</span></span>
+2. <span data-ttu-id="87207-150">คลิก ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="87207-150">Click Confirm.</span></span>
+3. <span data-ttu-id="87207-151">ในบานหน้าต่างการดำเนินการ ให้คลิก รับ</span><span class="sxs-lookup"><span data-stu-id="87207-151">On the Action Pane, click Receive.</span></span>
+4. <span data-ttu-id="87207-152">คลิก ใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="87207-152">Click Product receipt.</span></span>
+5. <span data-ttu-id="87207-153">ในฟิลด์ใบรับสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="87207-153">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="87207-154">ฟิลด์นี้จะใช้ในการป้อนข้อมูลอ้างอิงที่จะใช้เป็นใบสำคัญสำหรับมุดรายวันใบรับสินค้าจากใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="87207-154">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+    * <span data-ttu-id="87207-155">ในฟิลด์ปริมาณ เลือก 'ปริมาณที่สั่ง' </span><span class="sxs-lookup"><span data-stu-id="87207-155">In the Quantity field, select ‘Ordered quantity’.</span></span> <span data-ttu-id="87207-156">ตัวเลือกนี้หมายความว่าการรับสินค้าจะประมวลผลสำหรับปริมาณที่รายการใบสั่งถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="87207-156">This option means that receipt will process for the quantity that the order lines were created with.</span></span>  
+    * <span data-ttu-id="87207-157">ตรวจสอบให้แน่ใจว่าฟิลด์ พิมพ์ใบรับสินค้า ตั้งค่าเป็น ไม่</span><span class="sxs-lookup"><span data-stu-id="87207-157">Make sure that the Print product receipt field is set to No.</span></span> <span data-ttu-id="87207-158">ไม่จำเป็นต้องพิมพ์ในตัวอย่างนี้</span><span class="sxs-lookup"><span data-stu-id="87207-158">Printing isn’t needed in this example.</span></span>  
+6. <span data-ttu-id="87207-159">ขยายส่วนรายการ</span><span class="sxs-lookup"><span data-stu-id="87207-159">Expand the Lines section.</span></span>
+    * <span data-ttu-id="87207-160">โปรดสังเกตวิธีสร้างใบรับสินค้าสำหรับรายการการจัดส่งสองรายการซึ่งไม่ใช่รายการใบสั่งเดิม </span><span class="sxs-lookup"><span data-stu-id="87207-160">Notice how the product receipt is created for the two delivery lines and not the original order line.</span></span> <span data-ttu-id="87207-161">ถ้ามีการบันทึกการรับสินค้าในคลังสินค้า ควรมีการบันทึกในรายการกำหนดการจัดส่งเช่นกัน</span><span class="sxs-lookup"><span data-stu-id="87207-161">If receipt had been recorded in the warehouse, it would also have been recorded on the delivery schedule lines.</span></span>  
+7. <span data-ttu-id="87207-162">ยุบส่วนรายการ</span><span class="sxs-lookup"><span data-stu-id="87207-162">Collapse the Lines section.</span></span>
+8. <span data-ttu-id="87207-163">คลิกตกลงเพื่อลงรายการบัญชีการรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="87207-163">Click OK to post the receipt.</span></span>
 
 

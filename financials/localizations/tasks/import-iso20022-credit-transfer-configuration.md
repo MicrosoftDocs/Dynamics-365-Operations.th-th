@@ -16,32 +16,32 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 52d502a53deb6defa619af4ca8cdc3158e086bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-iso20022-credit-transfer-configuration"></a>นำเข้าการตั้งค่าคอนฟิกการโอนย้ายเครดิต ISO20022
+# <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="ce825-103">นำเข้าการตั้งค่าคอนฟิกการโอนย้ายเครดิต ISO20022</span><span class="sxs-lookup"><span data-stu-id="ce825-103">Import ISO20022 credit transfer configuration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์การชำระเงินของผู้จัดจำหน่าย  รูปแบบการโอนย้ายเครดิต ISO 20022 ของเยอรมันถูกใช้เป็นตัวอย่าง สามารถใช้กระบวนงานนี้สำหรับรูปแบบการรายงานทางอิเล็กทรอนิกส์อื่นๆ ที่พร้อมใช้งาน 
+<span data-ttu-id="ce825-104">กระบวนงานนี้แสดงวิธีการนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์การชำระเงินของผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="ce825-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="ce825-105">รูปแบบการโอนย้ายเครดิต ISO 20022 ของเยอรมันถูกใช้เป็นตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ce825-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="ce825-106">สามารถใช้กระบวนงานนี้สำหรับรูปแบบการรายงานทางอิเล็กทรอนิกส์อื่นๆ ที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="ce825-106">This procedure can be used for other available electronic reporting format.</span></span> 
 
-งานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF แต่คุณสามารถใช้บริษัทข้อมูลสาธิตใดก็ได้เพื่อทำให้งานนี้เสร็จสมบูรณ์
+<span data-ttu-id="ce825-107">งานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF แต่คุณสามารถใช้บริษัทข้อมูลสาธิตใดก็ได้เพื่อทำให้งานนี้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="ce825-107">This task was created using the demo data company DEMF but you can use any demo data company to complete this task.</span></span>
 
-นี่คืองานแรกจากงานห้ารายการ ที่จะอธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
+<span data-ttu-id="ce825-108">นี่คืองานแรกจากงานห้ารายการ ที่จะอธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ce825-108">This is the first of five tasks, that together illustrate the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="ce825-109">กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="ce825-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-2. ในรายการผู้ให้บริการการตั้งค่าคอนฟิกที่พร้อมใช้งาน เลือก Microsoft
-3. คลิก กำหนดเป็นใช้งานอยู่
-4. คลิก ที่เก็บ
-5. คลิก เปิด
-6. คลิกแสดงตัวกรอง
-7. ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "การโอนย้ายเครดิต ISO20022 (DE)" ในฟิลด์ "ชื่อการตั้งค่าคอนฟิก" โดยใช้ตัวดำเนินการตัวกรอง "เริ่มต้นด้วย"
-    * อีกทางหนึ่งคือ คุณสามารถค้นหาการตั้งค่าคอนฟิกในรายการ เลือก และย้ายไปยังงานนำเข้า  
-8. คลิก นำเข้า
-    * ถ้าปุ่มการนำเข้าไม่พร้อมใช้งาน หมายความว่าการตั้งค่าคอนฟิกนี้ถูกนำเข้าเรียบร้อยแล้ว  
-9. คลิก ใช่
+1. <span data-ttu-id="ce825-110">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ce825-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="ce825-111">ในรายการผู้ให้บริการการตั้งค่าคอนฟิกที่พร้อมใช้งาน เลือก Microsoft</span><span class="sxs-lookup"><span data-stu-id="ce825-111">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="ce825-112">คลิก กำหนดเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="ce825-112">Click Set active.</span></span>
+4. <span data-ttu-id="ce825-113">คลิก ที่เก็บ</span><span class="sxs-lookup"><span data-stu-id="ce825-113">Click Repositories.</span></span>
+5. <span data-ttu-id="ce825-114">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="ce825-114">Click Open.</span></span>
+6. <span data-ttu-id="ce825-115">คลิกแสดงตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="ce825-115">Click Show filters.</span></span>
+7. <span data-ttu-id="ce825-116">ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "การโอนย้ายเครดิต ISO20022 (DE)" ในฟิลด์ "ชื่อการตั้งค่าคอนฟิก" โดยใช้ตัวดำเนินการตัวกรอง "เริ่มต้นด้วย"</span><span class="sxs-lookup"><span data-stu-id="ce825-116">Apply the following filters: Enter a filter value of "ISO20022 Credit transfer (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="ce825-117">อีกทางหนึ่งคือ คุณสามารถค้นหาการตั้งค่าคอนฟิกในรายการ เลือก และย้ายไปยังงานนำเข้า</span><span class="sxs-lookup"><span data-stu-id="ce825-117">Alternatively, you can find the configuration in the list, select it, and then move it to the Import task.</span></span>  
+8. <span data-ttu-id="ce825-118">คลิก นำเข้า</span><span class="sxs-lookup"><span data-stu-id="ce825-118">Click Import.</span></span>
+    * <span data-ttu-id="ce825-119">ถ้าปุ่มการนำเข้าไม่พร้อมใช้งาน หมายความว่าการตั้งค่าคอนฟิกนี้ถูกนำเข้าเรียบร้อยแล้ว</span><span class="sxs-lookup"><span data-stu-id="ce825-119">If the Import button is not available, it means that the configuration has  already been imported.</span></span>  
+9. <span data-ttu-id="ce825-120">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="ce825-120">Click Yes.</span></span>
 
 

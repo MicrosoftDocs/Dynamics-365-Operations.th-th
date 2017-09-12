@@ -16,166 +16,166 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c46b222cb12d0432609c47f89afc522e02c41ab6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04817d1f1851e43679995641e8b0ff99edaa83ad
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-format-configuration-for-electronic-reporting-er"></a>สร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="create-a-format-configuration-for-electronic-reporting-er"></a><span data-ttu-id="535a5-103">สร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="535a5-103">Create a format configuration for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายถึงผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER) การตั้งค่าคอนฟิกรูปแบบนี้จะใช้กำหนดรูปแบบของเอกสารทางอิเล็กทรอนิกส์ที่ถูกใช้สำหรับการประมวลผลการชำระเงิน ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับบริษัทตัวอย่าง Litware, Inc. เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนให้เสร็จสมบูรณ์ในกระบวนงาน "แม็ปแบบจำลองไปยังแหล่งข้อมูลที่เลือก" ก่อน 
+<span data-ttu-id="535a5-104">ขั้นตอนต่อไปนี้อธิบายถึงผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="535a5-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="535a5-105">การตั้งค่าคอนฟิกรูปแบบนี้จะใช้กำหนดรูปแบบของเอกสารทางอิเล็กทรอนิกส์ที่ถูกใช้สำหรับการประมวลผลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="535a5-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="535a5-106">ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับบริษัทตัวอย่าง Litware, Inc. เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนให้เสร็จสมบูรณ์ในกระบวนงาน "แม็ปแบบจำลองไปยังแหล่งข้อมูลที่เลือก" ก่อน </span><span class="sxs-lookup"><span data-stu-id="535a5-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Map model to selected datasources” procedure.</span></span>
 
 
-## <a name="create-a-new-format-configuration"></a>สร้างการตั้งค่าคอนฟิกรูปแบบใหม่
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-2. คลิก การตั้งค่าคอนฟิกการรายงาน
-3. ในแผนภูมิ เลือก 'การชำระเงิน(แบบจำลองอย่างง่าย)'
-4. คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง
-5. ในฟิลด์ใหม่ ป้อน 'จัดรูปแบบตามข้อมูลแบบจำลอง แบบจำลองการชำระเงิน'
-6. ในฟิลด์ชื่อ พิมพ์ 'BACS (UK fictitious)'
-    * BACS (แบบสมมติของ UK)  
-7. ในฟิลด์คำอธิบาย พิมพ์ 'รูปแบบการชำระเงินของผู้จัดจำหน่าย BACS (UK fictitious)'
-    * รูปแบบการชำระเงินของผู้จัดจำหน่าย BACS (UK fictitious)  
-    * ผู้ให้บริการการตั้งค่าคอนฟิกที่ใช้งานอยู่จะถูกป้อนไว้ที่นี่โดยอัตโนมัติ ผู้ให้บริการนี้จะสามารถรักษาการตั้งค่าคอนฟิกนี้ ผู้ให้บริการอื่นๆสามารถใช้การตั้งค่าคอนฟิกนี้ แต่จะไม่สามารถรักษาค่าคอนฟิกได้  
-    * รูปแบบเฉพาะของเอกสารทางอิเล็กทรอนิกส์สามารถถูกกำหนด ปล่อยฟิลด์นี้ว่างเปล่า ถ้าคุณต้องการเลือกรูปแบบที่ตรงกับเวลาที่ใช้ในการผลิต  
-8. ในฟิลด์คำนิยามแบบจำลองข้อมูล ให้ป้อนหรือเลือกค่า
-9. คลิก สร้างการตั้งค่าคอนฟิก
-    * การตั้งค่าคอนฟิกใหม่ถูกสร้างขึ้นแล้ว รุ่นแบบร่างสามารถใช้เพื่อจัดเก็บรูปแบบการออกแบบสำหรับเอกสารการจัดการทางอิเล็กทรอนิกส์  
+## <a name="create-a-new-format-configuration"></a><span data-ttu-id="535a5-107">สร้างการตั้งค่าคอนฟิกรูปแบบใหม่</span><span class="sxs-lookup"><span data-stu-id="535a5-107">Create a new format configuration</span></span>
+1. <span data-ttu-id="535a5-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="535a5-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="535a5-109">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="535a5-109">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="535a5-110">ในแผนภูมิ เลือก 'การชำระเงิน(แบบจำลองอย่างง่าย)'</span><span class="sxs-lookup"><span data-stu-id="535a5-110">In the tree, select 'Payments (simplified model)'.</span></span>
+4. <span data-ttu-id="535a5-111">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-111">Click Create configuration to open the drop dialog.</span></span>
+5. <span data-ttu-id="535a5-112">ในฟิลด์ใหม่ ป้อน 'จัดรูปแบบตามข้อมูลแบบจำลอง แบบจำลองการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="535a5-112">In the New field, enter 'Format based on data model PaymentModel'.</span></span>
+6. <span data-ttu-id="535a5-113">ในฟิลด์ชื่อ พิมพ์ 'BACS (UK fictitious)'</span><span class="sxs-lookup"><span data-stu-id="535a5-113">In the Name field, type 'BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="535a5-114">BACS (แบบสมมติของ UK)</span><span class="sxs-lookup"><span data-stu-id="535a5-114">BACS (UK fictitious)</span></span>  
+7. <span data-ttu-id="535a5-115">ในฟิลด์คำอธิบาย พิมพ์ 'รูปแบบการชำระเงินของผู้จัดจำหน่าย BACS (UK fictitious)'</span><span class="sxs-lookup"><span data-stu-id="535a5-115">In the Description field, type 'BACS vendor payment format (UK fictitious)'.</span></span>
+    * <span data-ttu-id="535a5-116">รูปแบบการชำระเงินของผู้จัดจำหน่าย BACS (UK fictitious)</span><span class="sxs-lookup"><span data-stu-id="535a5-116">BACS vendor payment format (UK fictitious)</span></span>  
+    * <span data-ttu-id="535a5-117">ผู้ให้บริการการตั้งค่าคอนฟิกที่ใช้งานอยู่จะถูกป้อนไว้ที่นี่โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="535a5-117">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="535a5-118">ผู้ให้บริการนี้จะสามารถรักษาการตั้งค่าคอนฟิกนี้</span><span class="sxs-lookup"><span data-stu-id="535a5-118">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="535a5-119">ผู้ให้บริการอื่นๆสามารถใช้การตั้งค่าคอนฟิกนี้ แต่จะไม่สามารถรักษาค่าคอนฟิกได้</span><span class="sxs-lookup"><span data-stu-id="535a5-119">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+    * <span data-ttu-id="535a5-120">รูปแบบเฉพาะของเอกสารทางอิเล็กทรอนิกส์สามารถถูกกำหนด</span><span class="sxs-lookup"><span data-stu-id="535a5-120">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="535a5-121">ปล่อยฟิลด์นี้ว่างเปล่า ถ้าคุณต้องการเลือกรูปแบบที่ตรงกับเวลาที่ใช้ในการผลิต</span><span class="sxs-lookup"><span data-stu-id="535a5-121">Leave this field blank if you want to select a format at run-time.</span></span>  
+8. <span data-ttu-id="535a5-122">ในฟิลด์คำนิยามแบบจำลองข้อมูล ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="535a5-122">In the Data model definition field, enter or select a value.</span></span>
+9. <span data-ttu-id="535a5-123">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="535a5-123">Click Create configuration.</span></span>
+    * <span data-ttu-id="535a5-124">การตั้งค่าคอนฟิกใหม่ถูกสร้างขึ้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="535a5-124">A new configuration has been created.</span></span> <span data-ttu-id="535a5-125">รุ่นแบบร่างสามารถใช้เพื่อจัดเก็บรูปแบบการออกแบบสำหรับเอกสารการจัดการทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="535a5-125">The draft version can be used to store the design format for managing electronic documents.</span></span>  
 
-## <a name="design-format-of-electronic-document"></a>รูปแบบการออกแบบของเอกสารทางอิเล็กทรอนิกส์
-1. คลิก ตัวออกแบบ
-2. คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง
-3. ในแผนภูมิ เลือก 'Common\File'
-4. ในฟิลด์ชื่อ พิมพ์ 'Xml'
-    * Xml  
-5. ในฟิลด์การเข้ารหัส พิมพ์ 'UTF-8'
-    * UTF-8  
-6. คลิก ตกลง
-7. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-8. ในแผนภูมิ เลือก 'XML\องค์ประกอบ'
-9. ในฟิลด์ชือ พิมพ์ 'ข้อความ'
-    * ข้อความ  
-10. คลิก ตกลง
-11. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ'
-12. คลิก เพิ่มองค์ประกอบ
-13. ในฟิลด์ชื่อ พิมพ์ 'วันที่ที่ประมวลผล'
-    * ProcessingDate  
-14. คลิก ตกลง
-15. คลิก เพิ่มองค์ประกอบ
-16. ในฟิลด์ชือ พิมพ์ 'รหัสข้อความ'
-    * MessageId  
-17. คลิก ตกลง
-18. คลิก เพิ่มองค์ประกอบ
-19. ในฟิลด์ชื่อ ให้พิมพ์ 'การชำระเงิน'
-    * การชำระเงิน  
-20. คลิก ตกลง
-21. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน'
-22. คลิก เพิ่มองค์ประกอบ
-23. ในฟิลด์ชื่อ พิมพ์ 'สินค้า'
-    * สินค้า  
-24. คลิก ตกลง
-25. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ'
-26. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-27. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
-28. ในฟิลด์ชื่อ พิมพ์ 'รหัส'
-    * รหัส  
-29. คลิก ตกลง
-30. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-31. ในแผนภูมิ เลือก 'XML\องค์ประกอบ'
-32. ในฟิลด์ชื่อ พิมพ์ 'ผู้จัดจำหน่าย'
-    * ผู้จัดจำหน่าย  
-33. คลิก ตกลง
-34. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย'
-35. คลิก เพิ่มองค์ประกอบ
-36. ในฟิลด์ชื่อ พิมพ์ 'ชื่อ'
-    * ชื่อ  
-37. คลิก ตกลง
-38. คลิก เพิ่มองค์ประกอบ
-39. ในฟิลด์ชื่อ พิมพ์ 'ธนาคาร'
-    * ธนาคาร  
-40. คลิก ตกลง
-41. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ธนาคาร'
-42. คลิก เพิ่มองค์ประกอบ
-43. ในฟิลด์ชื่อ พิมพ์ 'หมายเลขการกำหนดเส้นทาง'
-    * หมายเลขการกำหนดเส้นทาง
-   
-44. คลิก ตกลง
-45. คลิก เพิ่มองค์ประกอบ
-46. ในฟิลด์ชื่อ พิมพ์ 'หมายเลขบัญชี'
-    * AccountNumber  
-47. คลิก ตกลง
-48. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย'
-49. คลิก คัดลอก
-50. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ'
-51. คลิก วาง
-52. ในฟิลด์ชื่อ พิมพ์ 'ผู้ชำระ'
-    * ผู้จ่ายเงิน  
-53. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ'
-54. คลิก เพิ่มองค์ประกอบ
-55. ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'
-    * สกุลเงิน  
-56. คลิก ตกลง
-57. คลิก เพิ่มองค์ประกอบ
-58. ในฟิลด์ชื่อ ให้พิมพ์ 'คำอธิบาย'
-    * คำอธิบาย  
-59. คลิก ตกลง
-60. คลิก เพิ่มองค์ประกอบ
-61. ในฟิลด์ชื่อ พิมพ์ 'วันที่ธุรกรรม'
-    * TransDate  
-62. คลิก ตกลง
-63. คลิก เพิ่มองค์ประกอบ
-64. ในฟิลด์ชื่อ พิมพ์ 'จำนวน'
-    * จำนวนเงิน  
-65. คลิก ตกลง
+## <a name="design-format-of-electronic-document"></a><span data-ttu-id="535a5-126">รูปแบบการออกแบบของเอกสารทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="535a5-126">Design format of electronic document</span></span>
+1. <span data-ttu-id="535a5-127">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="535a5-127">Click Designer.</span></span>
+2. <span data-ttu-id="535a5-128">คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-128">Click Add root to open the drop dialog.</span></span>
+3. <span data-ttu-id="535a5-129">ในแผนภูมิ เลือก 'Common\File'</span><span class="sxs-lookup"><span data-stu-id="535a5-129">In the tree, select 'Common\File'.</span></span>
+4. <span data-ttu-id="535a5-130">ในฟิลด์ชื่อ พิมพ์ 'Xml'</span><span class="sxs-lookup"><span data-stu-id="535a5-130">In the Name field, type 'Xml'.</span></span>
+    * <span data-ttu-id="535a5-131">Xml</span><span class="sxs-lookup"><span data-stu-id="535a5-131">Xml</span></span>  
+5. <span data-ttu-id="535a5-132">ในฟิลด์การเข้ารหัส พิมพ์ 'UTF-8'</span><span class="sxs-lookup"><span data-stu-id="535a5-132">In the Encoding field, type 'UTF-8'.</span></span>
+    * <span data-ttu-id="535a5-133">UTF-8</span><span class="sxs-lookup"><span data-stu-id="535a5-133">UTF-8</span></span>  
+6. <span data-ttu-id="535a5-134">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-134">Click OK.</span></span>
+7. <span data-ttu-id="535a5-135">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-135">Click Add to open the drop dialog.</span></span>
+8. <span data-ttu-id="535a5-136">ในแผนภูมิ เลือก 'XML\องค์ประกอบ'</span><span class="sxs-lookup"><span data-stu-id="535a5-136">In the tree, select 'XML\Element'.</span></span>
+9. <span data-ttu-id="535a5-137">ในฟิลด์ชือ พิมพ์ 'ข้อความ'</span><span class="sxs-lookup"><span data-stu-id="535a5-137">In the Name field, type 'Message'.</span></span>
+    * <span data-ttu-id="535a5-138">ข้อความ</span><span class="sxs-lookup"><span data-stu-id="535a5-138">Message</span></span>  
+10. <span data-ttu-id="535a5-139">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-139">Click OK.</span></span>
+11. <span data-ttu-id="535a5-140">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ'</span><span class="sxs-lookup"><span data-stu-id="535a5-140">In the tree, select 'Xml\Message'.</span></span>
+12. <span data-ttu-id="535a5-141">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-141">Click Add Element.</span></span>
+13. <span data-ttu-id="535a5-142">ในฟิลด์ชื่อ พิมพ์ 'วันที่ที่ประมวลผล'</span><span class="sxs-lookup"><span data-stu-id="535a5-142">In the Name field, type 'ProcessingDate'.</span></span>
+    * <span data-ttu-id="535a5-143">ProcessingDate</span><span class="sxs-lookup"><span data-stu-id="535a5-143">ProcessingDate</span></span>  
+14. <span data-ttu-id="535a5-144">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-144">Click OK.</span></span>
+15. <span data-ttu-id="535a5-145">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-145">Click Add Element.</span></span>
+16. <span data-ttu-id="535a5-146">ในฟิลด์ชือ พิมพ์ 'รหัสข้อความ'</span><span class="sxs-lookup"><span data-stu-id="535a5-146">In the Name field, type 'MessageId'.</span></span>
+    * <span data-ttu-id="535a5-147">MessageId</span><span class="sxs-lookup"><span data-stu-id="535a5-147">MessageId</span></span>  
+17. <span data-ttu-id="535a5-148">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-148">Click OK.</span></span>
+18. <span data-ttu-id="535a5-149">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-149">Click Add Element.</span></span>
+19. <span data-ttu-id="535a5-150">ในฟิลด์ชื่อ ให้พิมพ์ 'การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="535a5-150">In the Name field, type 'Payments'.</span></span>
+    * <span data-ttu-id="535a5-151">การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="535a5-151">Payments</span></span>  
+20. <span data-ttu-id="535a5-152">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-152">Click OK.</span></span>
+21. <span data-ttu-id="535a5-153">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="535a5-153">In the tree, select 'Xml\Message\Payments'.</span></span>
+22. <span data-ttu-id="535a5-154">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-154">Click Add Element.</span></span>
+23. <span data-ttu-id="535a5-155">ในฟิลด์ชื่อ พิมพ์ 'สินค้า'</span><span class="sxs-lookup"><span data-stu-id="535a5-155">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="535a5-156">สินค้า</span><span class="sxs-lookup"><span data-stu-id="535a5-156">Item</span></span>  
+24. <span data-ttu-id="535a5-157">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-157">Click OK.</span></span>
+25. <span data-ttu-id="535a5-158">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ'</span><span class="sxs-lookup"><span data-stu-id="535a5-158">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+26. <span data-ttu-id="535a5-159">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-159">Click Add to open the drop dialog.</span></span>
+27. <span data-ttu-id="535a5-160">ในแผนภูมิ เลือก 'XML\แอททริบิวต์'</span><span class="sxs-lookup"><span data-stu-id="535a5-160">In the tree, select 'XML\Attribute'.</span></span>
+28. <span data-ttu-id="535a5-161">ในฟิลด์ชื่อ พิมพ์ 'รหัส'</span><span class="sxs-lookup"><span data-stu-id="535a5-161">In the Name field, type 'Id'.</span></span>
+    * <span data-ttu-id="535a5-162">รหัส</span><span class="sxs-lookup"><span data-stu-id="535a5-162">Id</span></span>  
+29. <span data-ttu-id="535a5-163">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-163">Click OK.</span></span>
+30. <span data-ttu-id="535a5-164">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-164">Click Add to open the drop dialog.</span></span>
+31. <span data-ttu-id="535a5-165">ในแผนภูมิ เลือก 'XML\องค์ประกอบ'</span><span class="sxs-lookup"><span data-stu-id="535a5-165">In the tree, select 'XML\Element'.</span></span>
+32. <span data-ttu-id="535a5-166">ในฟิลด์ชื่อ พิมพ์ 'ผู้จัดจำหน่าย'</span><span class="sxs-lookup"><span data-stu-id="535a5-166">In the Name field, type 'Vendor'.</span></span>
+    * <span data-ttu-id="535a5-167">ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="535a5-167">Vendor</span></span>  
+33. <span data-ttu-id="535a5-168">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-168">Click OK.</span></span>
+34. <span data-ttu-id="535a5-169">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย'</span><span class="sxs-lookup"><span data-stu-id="535a5-169">In the tree, select 'Xml\Message\Payments\Item\Vendor'.</span></span>
+35. <span data-ttu-id="535a5-170">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-170">Click Add Element.</span></span>
+36. <span data-ttu-id="535a5-171">ในฟิลด์ชื่อ พิมพ์ 'ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="535a5-171">In the Name field, type 'Name'.</span></span>
+    * <span data-ttu-id="535a5-172">ชื่อ</span><span class="sxs-lookup"><span data-stu-id="535a5-172">Name</span></span>  
+37. <span data-ttu-id="535a5-173">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-173">Click OK.</span></span>
+38. <span data-ttu-id="535a5-174">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-174">Click Add Element.</span></span>
+39. <span data-ttu-id="535a5-175">ในฟิลด์ชื่อ พิมพ์ 'ธนาคาร'</span><span class="sxs-lookup"><span data-stu-id="535a5-175">In the Name field, type 'Bank'.</span></span>
+    * <span data-ttu-id="535a5-176">ธนาคาร</span><span class="sxs-lookup"><span data-stu-id="535a5-176">Bank</span></span>  
+40. <span data-ttu-id="535a5-177">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-177">Click OK.</span></span>
+41. <span data-ttu-id="535a5-178">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ธนาคาร'</span><span class="sxs-lookup"><span data-stu-id="535a5-178">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+42. <span data-ttu-id="535a5-179">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-179">Click Add Element.</span></span>
+43. <span data-ttu-id="535a5-180">ในฟิลด์ชื่อ พิมพ์ 'หมายเลขการกำหนดเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="535a5-180">In the Name field, type 'RoutingNumber'.</span></span>
+    * <span data-ttu-id="535a5-181">หมายเลขการกำหนดเส้นทาง
+ </span><span class="sxs-lookup"><span data-stu-id="535a5-181">RoutingNumber</span></span>  
+44. <span data-ttu-id="535a5-182">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-182">Click OK.</span></span>
+45. <span data-ttu-id="535a5-183">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-183">Click Add Element.</span></span>
+46. <span data-ttu-id="535a5-184">ในฟิลด์ชื่อ พิมพ์ 'หมายเลขบัญชี'</span><span class="sxs-lookup"><span data-stu-id="535a5-184">In the Name field, type 'AccountNumber'.</span></span>
+    * <span data-ttu-id="535a5-185">AccountNumber</span><span class="sxs-lookup"><span data-stu-id="535a5-185">AccountNumber</span></span>  
+47. <span data-ttu-id="535a5-186">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-186">Click OK.</span></span>
+48. <span data-ttu-id="535a5-187">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย'</span><span class="sxs-lookup"><span data-stu-id="535a5-187">In the tree, select 'Xml\Message\Payments\Item\Vendor'.</span></span>
+49. <span data-ttu-id="535a5-188">คลิก คัดลอก</span><span class="sxs-lookup"><span data-stu-id="535a5-188">Click Copy.</span></span>
+50. <span data-ttu-id="535a5-189">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ'</span><span class="sxs-lookup"><span data-stu-id="535a5-189">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+51. <span data-ttu-id="535a5-190">คลิก วาง</span><span class="sxs-lookup"><span data-stu-id="535a5-190">Click Paste.</span></span>
+52. <span data-ttu-id="535a5-191">ในฟิลด์ชื่อ พิมพ์ 'ผู้ชำระ'</span><span class="sxs-lookup"><span data-stu-id="535a5-191">In the Name field, type 'Payer'.</span></span>
+    * <span data-ttu-id="535a5-192">ผู้จ่ายเงิน</span><span class="sxs-lookup"><span data-stu-id="535a5-192">Payer</span></span>  
+53. <span data-ttu-id="535a5-193">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ'</span><span class="sxs-lookup"><span data-stu-id="535a5-193">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+54. <span data-ttu-id="535a5-194">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-194">Click Add Element.</span></span>
+55. <span data-ttu-id="535a5-195">ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="535a5-195">In the Name field, type 'Currency'.</span></span>
+    * <span data-ttu-id="535a5-196">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="535a5-196">Currency</span></span>  
+56. <span data-ttu-id="535a5-197">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-197">Click OK.</span></span>
+57. <span data-ttu-id="535a5-198">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-198">Click Add Element.</span></span>
+58. <span data-ttu-id="535a5-199">ในฟิลด์ชื่อ ให้พิมพ์ 'คำอธิบาย'</span><span class="sxs-lookup"><span data-stu-id="535a5-199">In the Name field, type 'Description'.</span></span>
+    * <span data-ttu-id="535a5-200">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="535a5-200">Description</span></span>  
+59. <span data-ttu-id="535a5-201">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-201">Click OK.</span></span>
+60. <span data-ttu-id="535a5-202">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-202">Click Add Element.</span></span>
+61. <span data-ttu-id="535a5-203">ในฟิลด์ชื่อ พิมพ์ 'วันที่ธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="535a5-203">In the Name field, type 'TransDate'.</span></span>
+    * <span data-ttu-id="535a5-204">TransDate</span><span class="sxs-lookup"><span data-stu-id="535a5-204">TransDate</span></span>  
+62. <span data-ttu-id="535a5-205">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-205">Click OK.</span></span>
+63. <span data-ttu-id="535a5-206">คลิก เพิ่มองค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="535a5-206">Click Add Element.</span></span>
+64. <span data-ttu-id="535a5-207">ในฟิลด์ชื่อ พิมพ์ 'จำนวน'</span><span class="sxs-lookup"><span data-stu-id="535a5-207">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="535a5-208">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="535a5-208">Amount</span></span>  
+65. <span data-ttu-id="535a5-209">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-209">Click OK.</span></span>
 
-## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a>จัดเตรียมส่วนประกอบรูปแบบสำหรับการแม็ปไปยังองค์ประกอบแบบจำลองข้อมูล
-1. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\วันที่ประมวลผล'
-2. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-3. ในแผนภูมิ ให้เลือก 'ข้อความอักษร\วันที่และเวลา'
-4. ในฟิลด์รูปแบบ พิมพ์ 'yyyy-MM-dd'
-    * yyyy-MM-dd  
-5. คลิก ตกลง
-6. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\วันที่ทำธุรกรรม'
-7. คลิก เพิ่มวันที่และเวลา
-8. ในฟิลด์รูปแบบ พิมพ์ 'yyyy-MM-dd'
-    * yyyy-MM-dd  
-9. ในฟิลด์ชนิดวันที่และเวลา ให้เลือก 'วันที่'
-10. คลิก ตกลง
-11. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\รหัสข้อความ'
-12. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-13. ในแผนภูมิ ให้เลือก 'ข้อความ\สตริง'
-14. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-15. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ชื่อ'
-16. คลิกเพิ่มสตริง
-17. คลิก ตกลง
-18. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ธนาคาร\หมายเลขเส้นทาง'
-19. คลิกเพิ่มสตริง
-20. คลิก ตกลง
-21. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ธนาคาร\หมายเลขบัญชี'
-22. คลิกเพิ่มสตริง
-23. คลิก ตกลง
-24. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้ชำระ\ชื่อ'
-25. คลิกเพิ่มสตริง
-26. คลิก ตกลง
-27. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้ชำระ\ธนาคาร\หมายเลขเส้นทาง'
-28. คลิกเพิ่มสตริง
-29. คลิก ตกลง
-30. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้ชำระ\ธนาคาร\หมายเลขบัญชี'
-31. คลิกเพิ่มสตริง
-32. คลิก ตกลง
-33. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\สกุลเงิน'
-34. คลิกเพิ่มสตริง
-35. คลิก ตกลง
-36. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\คำอธิบาย'
-37. คลิกเพิ่มสตริง
-38. คลิก ตกลง
-39. ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\จำนวนเงิน'
-40. คลิกเพิ่มสตริง
-41. คลิก ตกลง
-42. คลิก บันทึก
-43. ปิดหน้า
+## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="535a5-210">จัดเตรียมส่วนประกอบรูปแบบสำหรับการแม็ปไปยังองค์ประกอบแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="535a5-210">Prepare format components for mapping to data model elements</span></span>
+1. <span data-ttu-id="535a5-211">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\วันที่ประมวลผล'</span><span class="sxs-lookup"><span data-stu-id="535a5-211">In the tree, select 'Xml\Message\ProcessingDate'.</span></span>
+2. <span data-ttu-id="535a5-212">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-212">Click Add to open the drop dialog.</span></span>
+3. <span data-ttu-id="535a5-213">ในแผนภูมิ ให้เลือก 'ข้อความอักษร\วันที่และเวลา'</span><span class="sxs-lookup"><span data-stu-id="535a5-213">In the tree, select 'Text\DateTime'.</span></span>
+4. <span data-ttu-id="535a5-214">ในฟิลด์รูปแบบ พิมพ์ 'yyyy-MM-dd'</span><span class="sxs-lookup"><span data-stu-id="535a5-214">In the Format field, type 'yyyy-MM-dd'.</span></span>
+    * <span data-ttu-id="535a5-215">yyyy-MM-dd</span><span class="sxs-lookup"><span data-stu-id="535a5-215">yyyy-MM-dd</span></span>  
+5. <span data-ttu-id="535a5-216">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-216">Click OK.</span></span>
+6. <span data-ttu-id="535a5-217">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\วันที่ทำธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="535a5-217">In the tree, select 'Xml\Message\Payments\Item\TransDate'.</span></span>
+7. <span data-ttu-id="535a5-218">คลิก เพิ่มวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="535a5-218">Click Add DateTime.</span></span>
+8. <span data-ttu-id="535a5-219">ในฟิลด์รูปแบบ พิมพ์ 'yyyy-MM-dd'</span><span class="sxs-lookup"><span data-stu-id="535a5-219">In the Format field, type 'yyyy-MM-dd'.</span></span>
+    * <span data-ttu-id="535a5-220">yyyy-MM-dd</span><span class="sxs-lookup"><span data-stu-id="535a5-220">yyyy-MM-dd</span></span>  
+9. <span data-ttu-id="535a5-221">ในฟิลด์ชนิดวันที่และเวลา ให้เลือก 'วันที่'</span><span class="sxs-lookup"><span data-stu-id="535a5-221">In the DateTime type field, select 'Date'.</span></span>
+10. <span data-ttu-id="535a5-222">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-222">Click OK.</span></span>
+11. <span data-ttu-id="535a5-223">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\รหัสข้อความ'</span><span class="sxs-lookup"><span data-stu-id="535a5-223">In the tree, select 'Xml\Message\MessageId'.</span></span>
+12. <span data-ttu-id="535a5-224">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="535a5-224">Click Add to open the drop dialog.</span></span>
+13. <span data-ttu-id="535a5-225">ในแผนภูมิ ให้เลือก 'ข้อความ\สตริง'</span><span class="sxs-lookup"><span data-stu-id="535a5-225">In the tree, select 'Text\String'.</span></span>
+14. <span data-ttu-id="535a5-226">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="535a5-226">Click OK.</span></span>
+15. <span data-ttu-id="535a5-227">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="535a5-227">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name'.</span></span>
+16. <span data-ttu-id="535a5-228">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-228">Click Add String.</span></span>
+17. <span data-ttu-id="535a5-229">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-229">Click OK.</span></span>
+18. <span data-ttu-id="535a5-230">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ธนาคาร\หมายเลขเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="535a5-230">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber'.</span></span>
+19. <span data-ttu-id="535a5-231">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-231">Click Add String.</span></span>
+20. <span data-ttu-id="535a5-232">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-232">Click OK.</span></span>
+21. <span data-ttu-id="535a5-233">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้จัดจำหน่าย\ธนาคาร\หมายเลขบัญชี'</span><span class="sxs-lookup"><span data-stu-id="535a5-233">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\AccountNumber'.</span></span>
+22. <span data-ttu-id="535a5-234">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-234">Click Add String.</span></span>
+23. <span data-ttu-id="535a5-235">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-235">Click OK.</span></span>
+24. <span data-ttu-id="535a5-236">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้ชำระ\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="535a5-236">In the tree, select 'Xml\Message\Payments\Item\Payer\Name'.</span></span>
+25. <span data-ttu-id="535a5-237">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-237">Click Add String.</span></span>
+26. <span data-ttu-id="535a5-238">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-238">Click OK.</span></span>
+27. <span data-ttu-id="535a5-239">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้ชำระ\ธนาคาร\หมายเลขเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="535a5-239">In the tree, select 'Xml\Message\Payments\Item\Payer\Bank\RoutingNumber'.</span></span>
+28. <span data-ttu-id="535a5-240">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-240">Click Add String.</span></span>
+29. <span data-ttu-id="535a5-241">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-241">Click OK.</span></span>
+30. <span data-ttu-id="535a5-242">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\ผู้ชำระ\ธนาคาร\หมายเลขบัญชี'</span><span class="sxs-lookup"><span data-stu-id="535a5-242">In the tree, select 'Xml\Message\Payments\Item\Payer\Bank\AccountNumber'.</span></span>
+31. <span data-ttu-id="535a5-243">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-243">Click Add String.</span></span>
+32. <span data-ttu-id="535a5-244">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-244">Click OK.</span></span>
+33. <span data-ttu-id="535a5-245">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="535a5-245">In the tree, select 'Xml\Message\Payments\Item\Currency'.</span></span>
+34. <span data-ttu-id="535a5-246">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-246">Click Add String.</span></span>
+35. <span data-ttu-id="535a5-247">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-247">Click OK.</span></span>
+36. <span data-ttu-id="535a5-248">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\คำอธิบาย'</span><span class="sxs-lookup"><span data-stu-id="535a5-248">In the tree, select 'Xml\Message\Payments\Item\Description'.</span></span>
+37. <span data-ttu-id="535a5-249">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-249">Click Add String.</span></span>
+38. <span data-ttu-id="535a5-250">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-250">Click OK.</span></span>
+39. <span data-ttu-id="535a5-251">ในแผนภูมิ ให้เลือก 'Xml\ข้อความ\การชำระเงิน\รายการ\จำนวนเงิน'</span><span class="sxs-lookup"><span data-stu-id="535a5-251">In the tree, select 'Xml\Message\Payments\Item\Amount'.</span></span>
+40. <span data-ttu-id="535a5-252">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="535a5-252">Click Add String.</span></span>
+41. <span data-ttu-id="535a5-253">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="535a5-253">Click OK.</span></span>
+42. <span data-ttu-id="535a5-254">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="535a5-254">Click Save.</span></span>
+43. <span data-ttu-id="535a5-255">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="535a5-255">Close the page.</span></span>
 
 

@@ -16,72 +16,72 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c6077b8a34ba4a11df014912d8b4c2b3749bc04d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ae1de653354d891e99fb41fa4b10e6910f458cf4
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>แก้ไขรูปแบบด้วยการใช้เท็มเพลต Microsoft Excel อีกครั้งสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a><span data-ttu-id="4f308-103">แก้ไขรูปแบบด้วยการใช้เท็มเพลต Microsoft Excel อีกครั้งสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="4f308-103">Modify a format by reapplying a Microsoft Excel template for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-เพื่อทำขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ ก่อนอื่นคุณต้องทำดำเนินกระบวนงานให้เสร็จสมบูรณ์ ER - ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML
+<span data-ttu-id="4f308-104">เพื่อทำขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ ก่อนอื่นคุณต้องทำดำเนินกระบวนงานให้เสร็จสมบูรณ์ ER - ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML</span><span class="sxs-lookup"><span data-stu-id="4f308-104">To complete the steps in this procedure, you must first complete the procedure, ER - Design a configuration for generating reports in OPENXML format.</span></span>
 
-กระบวนงานนี้อธิบายวิธีการแก้ไขการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) โดยใช้เท็มเพลต Microsoft Excel ที่มีการแก้ไขแล้วอีกครั้ง ในกระบวนงานนี้ คุณจะนำเข้าเท็มเพลต Excel ที่แก้ไขแล้วไปยังการตั้งค่าคอนฟิกรูปแบบ ER ที่สร้างขึ้นสำหรับบริษัทตัวอย่าง Litware, Inc. และจากนั้นสร้างเอกสารทางอิเล็กทรอนิกส์ กระบวนงานนี้มีไว้สำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ ขั้นตอนเหล่านี้สามารถเสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูล GBSI ก่อนที่คุณจะเริ่มต้น ให้ดาวน์โหลดและบันทึกไฟล์ SampleVendPaymWsReport2.xlsx ซึ่งแสดงรายการอยู่ในหัวข้อวิธีใช้ แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์โดยใช้เท็มเพลต Excel (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/)
+<span data-ttu-id="4f308-105">กระบวนงานนี้อธิบายวิธีการแก้ไขการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) โดยใช้เท็มเพลต Microsoft Excel ที่มีการแก้ไขแล้วอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="4f308-105">This procedure explains how to modify an Electronic reporting (ER) format configuration by reapplying a Microsoft Excel template that has been modified.</span></span> <span data-ttu-id="4f308-106">ในกระบวนงานนี้ คุณจะนำเข้าเท็มเพลต Excel ที่แก้ไขแล้วไปยังการตั้งค่าคอนฟิกรูปแบบ ER ที่สร้างขึ้นสำหรับบริษัทตัวอย่าง Litware, Inc. และจากนั้นสร้างเอกสารทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="4f308-106">In this procedure, you will import a modified Excel template into ER format configurations that have been created for the sample company, Litware, Inc., and then generate electronic documents.</span></span> <span data-ttu-id="4f308-107">กระบวนงานนี้มีไว้สำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="4f308-107">This procedure is intended for users who have the system administrator or electronic reporting developer role.</span></span> <span data-ttu-id="4f308-108">ขั้นตอนเหล่านี้สามารถเสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูล GBSI</span><span class="sxs-lookup"><span data-stu-id="4f308-108">These steps can be completed by using the GBSI dataset.</span></span> <span data-ttu-id="4f308-109">ก่อนที่คุณจะเริ่มต้น ให้ดาวน์โหลดและบันทึกไฟล์ SampleVendPaymWsReport2.xlsx ซึ่งแสดงรายการอยู่ในหัวข้อวิธีใช้ แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์โดยใช้เท็มเพลต Excel (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/)</span><span class="sxs-lookup"><span data-stu-id="4f308-109">Before you begin, download and save the file, SampleVendPaymWsReport2.xlsx, which is listed in the Help topic, Modify Electronic reporting format by reapplying an Excel template (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).</span></span>
 
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-    * ตรวจสอบให้แน่ใจว่าผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, Inc. พร้อมใช้งาน และทำเครื่องหมายเป็น ใช้งานอยู่ ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ จะต้องดำเนินขั้นตอนต่างๆ ให้สำเร็จในกระบวนงาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่  
+1. <span data-ttu-id="4f308-110">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="4f308-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="4f308-111">ตรวจสอบให้แน่ใจว่าผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, Inc. พร้อมใช้งาน และทำเครื่องหมายเป็น ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="4f308-111">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="4f308-112">ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ จะต้องดำเนินขั้นตอนต่างๆ ให้สำเร็จในกระบวนงาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="4f308-112">If you don’t see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
 
-## <a name="select-the-er-format"></a>เลือกรูปแบบ ER
-1. คลิก การตั้งค่าคอนฟิกการรายงาน
-2. ในแผนภูมิ ขยาย 'รูปแบบการชำระเงิน'
-3. ในแผนภูมิ เลือก 'แบบจำลองการชำระเงิน\รายงานแผ่นงานตัวอย่าง'
-4. คลิกสิ่งที่แนบ
-    * หมายเหตุว่าในขณะนี้ไฟล์ Excel SampleVendPaymWsReport.xlsx ถูกใช้เป็นเท็มเพลตสำหรับการประมวลผลสมุดรายวันการชำระเงิน   
-5. คลิก เปิด
-    * คลิก เปิดเพื่อสำรวจโครงร่างของเท็มเพลต Excel  
-    * ตรวจทานเท็มเพลต หมายเหตุว่าในขณะนี้มีรายละเอียดดังต่อไปนี้สำหรับแต่ละบรรทัดการชำระเงิน: หมายเลขบัญชีผู้จัดจำหน่าย ชื่อผู้จัดจำหน่าย ธนาคาร หมายเลขเส้นทาง หมายเลขบัญชี เดบิต เครดิต และสกุลเงิน ในตัวอย่างนี้ เราต้องการขยายรายการนี้โดยการเพิ่มรายละเอียดเกี่ยวกับวันที่ชำระเงิน   
-6. ปิดหน้า
+## <a name="select-the-er-format"></a><span data-ttu-id="4f308-113">เลือกรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="4f308-113">Select the ER format</span></span>
+1. <span data-ttu-id="4f308-114">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="4f308-114">Click Reporting configurations.</span></span>
+2. <span data-ttu-id="4f308-115">ในแผนภูมิ ขยาย 'รูปแบบการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="4f308-115">In the tree, expand 'Payment model'.</span></span>
+3. <span data-ttu-id="4f308-116">ในแผนภูมิ เลือก 'แบบจำลองการชำระเงิน\รายงานแผ่นงานตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="4f308-116">In the tree, select 'Payment model\Sample worksheet report'.</span></span>
+4. <span data-ttu-id="4f308-117">คลิกสิ่งที่แนบ</span><span class="sxs-lookup"><span data-stu-id="4f308-117">Click Attachments.</span></span>
+    * <span data-ttu-id="4f308-118">หมายเหตุว่าในขณะนี้ไฟล์ Excel SampleVendPaymWsReport.xlsx ถูกใช้เป็นเท็มเพลตสำหรับการประมวลผลสมุดรายวันการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-118">Note that the SampleVendPaymWsReport.xlsx Excel file is currently used as a template for payment journal processing.</span></span>   
+5. <span data-ttu-id="4f308-119">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="4f308-119">Click Open.</span></span>
+    * <span data-ttu-id="4f308-120">คลิก เปิดเพื่อสำรวจโครงร่างของเท็มเพลต Excel</span><span class="sxs-lookup"><span data-stu-id="4f308-120">Click Open to explore the layout of the Excel template.</span></span>  
+    * <span data-ttu-id="4f308-121">ตรวจทานเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="4f308-121">Review the template.</span></span> <span data-ttu-id="4f308-122">หมายเหตุว่าในขณะนี้มีรายละเอียดดังต่อไปนี้สำหรับแต่ละบรรทัดการชำระเงิน: หมายเลขบัญชีผู้จัดจำหน่าย ชื่อผู้จัดจำหน่าย ธนาคาร หมายเลขเส้นทาง หมายเลขบัญชี เดบิต เครดิต และสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-122">Note that it currently includes the following details for each payment line: vendor account number, vendor name, bank, routing number, account number, debit, credit, and currency.</span></span> <span data-ttu-id="4f308-123">ในตัวอย่างนี้ เราต้องการขยายรายการนี้โดยการเพิ่มรายละเอียดเกี่ยวกับวันที่ชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-123">For this example, we want to extend this list by adding details about the payment date.</span></span>   
+6. <span data-ttu-id="4f308-124">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4f308-124">Close the page.</span></span>
 
-## <a name="reapply-a-new-excel-template-to-er-format"></a>ใช้เท็มเพลต Excel ใหม่กับรูปแบบ ER อีกครั้ง
-1. คลิก ตัวออกแบบ
-    * เปิดเวอร์ชันแบบร่างของรูปแบบ ER ที่เลือกเพื่อแก้ไข  
-2. ในบานหน้าต่างการดำเนินการ คลิกนำเข้า
-3. คลิก อัพเดตจาก Excel
-    * คลิก 'ปรับปรุงเท็มเพลต' และจากนั้นเลือกไฟล์ SampleVendPaymWsReport2.xlsx  
-    * คลิก อัพเดตเท็มเพลต และเรียกดูเพื่อเรียกใช้ไฟล์ SampleVendPaymWsReport2.xlsx ที่ดาวน์โหลดมาก่อนหน้านี้  
-4. คลิก ตกลง
-    * ใช้เท็มเพลต SampleVendPaymWsReport2.xlsx โครงสร้างของรูปแบบ ER จะถูกซิงโครไนส์กับเนื้อหาของเท็มเพลตที่มีการเพิ่มองค์ประกอบไปยังรูปแบบ ER องค์ประกอบใด ๆ ที่มีอยู่ในรูปแบบ ER ที่ไม่รวมอยู่ในเท็มเพลตจะถูกเอาออกจากข้อกำหนดของรูปแบบ  
-5. ในแผนภูมิ ให้เลือก 'Excel'
-    * หมายเหตุว่าในขณะนี้ฟิลเท็มเพลตประกอบด้วยการอ้างอิงไปยังเท็มเพลตใหม่   
-6. คลิกสิ่งที่แนบ
-7. คลิก เปิด
-    * คลิก เปิดเพื่อสำรวจโครงร่างของเท็มเพลต Excel ที่แก้ไขแล้ว  
-    * ตรวจทานเท็มเพลต หมายเหตุว่าในขณะนี้จะประกอบด้วยบรรทัดสำหรับวันที่ชำระเงิน   
-8. ปิดหน้า
-9. ในแผนภูมิ ให้ขยาย 'Excel'
-10. ในแผนภูมิ ขยาย 'Excel\รายการการชำระเงิน'
-11. ในแผนภูมิ ให้เลือก ''Excel\PaymLines\PaymDate'
-    * หมายเหตุว่าในขณะนี้รูปแบบ ER ประกอบด้วยรายการมากกว่าหนึ่งรายการ มีการเพิ่มเซลล์ PaymDate ไปยังเท็มเพลต Excel  
-12. คลิกแท็บ การแม็ป
-13. ในแผนภูมิ ให้ขยาย 'model'
-14. ในแผนภูมิ ขยาย 'แบบจำลอง\การชำระเงิน'
-15. ในแผนภูมิ เลือก 'แบบจำลอง\การชำระเงิน\วันที่ธุรกรรม(วันที่ธุรกรรม)'
-16. คลิก ผูก
-    * ระบุว่าข้อมูลใดจะถูกเพิ่มไปยังเซลล์ใหม่ขณะรันไทม์  
-17. คลิก บันทึก
-18. ปิดหน้า
+## <a name="reapply-a-new-excel-template-to-er-format"></a><span data-ttu-id="4f308-125">ใช้เท็มเพลต Excel ใหม่กับรูปแบบ ER อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="4f308-125">Reapply a new Excel template to ER format</span></span>
+1. <span data-ttu-id="4f308-126">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="4f308-126">Click Designer.</span></span>
+    * <span data-ttu-id="4f308-127">เปิดเวอร์ชันแบบร่างของรูปแบบ ER ที่เลือกเพื่อแก้ไข</span><span class="sxs-lookup"><span data-stu-id="4f308-127">Open the draft version of the selected ER format for editing.</span></span>  
+2. <span data-ttu-id="4f308-128">ในบานหน้าต่างการดำเนินการ คลิกนำเข้า</span><span class="sxs-lookup"><span data-stu-id="4f308-128">On the Action Pane, click Import.</span></span>
+3. <span data-ttu-id="4f308-129">คลิก อัพเดตจาก Excel</span><span class="sxs-lookup"><span data-stu-id="4f308-129">Click Update from Excel.</span></span>
+    * <span data-ttu-id="4f308-130">คลิก 'ปรับปรุงเท็มเพลต' และจากนั้นเลือกไฟล์ SampleVendPaymWsReport2.xlsx</span><span class="sxs-lookup"><span data-stu-id="4f308-130">Click ‘Update template’, and then select the file, SampleVendPaymWsReport2.xlsx.</span></span>  
+    * <span data-ttu-id="4f308-131">คลิก อัพเดตเท็มเพลต และเรียกดูเพื่อเรียกใช้ไฟล์ SampleVendPaymWsReport2.xlsx ที่ดาวน์โหลดมาก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="4f308-131">Click Update template and browse to get the downloaded earlier SampleVendPaymWsReport2.xlsx file.</span></span>  
+4. <span data-ttu-id="4f308-132">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4f308-132">Click OK.</span></span>
+    * <span data-ttu-id="4f308-133">ใช้เท็มเพลต SampleVendPaymWsReport2.xlsx</span><span class="sxs-lookup"><span data-stu-id="4f308-133">The SampleVendPaymWsReport2.xlsx template is applied.</span></span> <span data-ttu-id="4f308-134">โครงสร้างของรูปแบบ ER จะถูกซิงโครไนส์กับเนื้อหาของเท็มเพลตที่มีการเพิ่มองค์ประกอบไปยังรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="4f308-134">The structure of the ER format is synchronized with the content of the template, whose elements are added to the ER format.</span></span> <span data-ttu-id="4f308-135">องค์ประกอบใด ๆ ที่มีอยู่ในรูปแบบ ER ที่ไม่รวมอยู่ในเท็มเพลตจะถูกเอาออกจากข้อกำหนดของรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="4f308-135">Any existing elements in the ER format that aren’t included in the template are removed from the format definition.</span></span>  
+5. <span data-ttu-id="4f308-136">ในแผนภูมิ ให้เลือก 'Excel'</span><span class="sxs-lookup"><span data-stu-id="4f308-136">In the tree, select 'Excel'.</span></span>
+    * <span data-ttu-id="4f308-137">หมายเหตุว่าในขณะนี้ฟิลเท็มเพลตประกอบด้วยการอ้างอิงไปยังเท็มเพลตใหม่</span><span class="sxs-lookup"><span data-stu-id="4f308-137">Note that the Template field now contains a reference to the new template.</span></span>   
+6. <span data-ttu-id="4f308-138">คลิกสิ่งที่แนบ</span><span class="sxs-lookup"><span data-stu-id="4f308-138">Click Attachments.</span></span>
+7. <span data-ttu-id="4f308-139">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="4f308-139">Click Open.</span></span>
+    * <span data-ttu-id="4f308-140">คลิก เปิดเพื่อสำรวจโครงร่างของเท็มเพลต Excel ที่แก้ไขแล้ว</span><span class="sxs-lookup"><span data-stu-id="4f308-140">Click Open to explore the layout of the modified Excel template.</span></span>  
+    * <span data-ttu-id="4f308-141">ตรวจทานเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="4f308-141">Review the template.</span></span> <span data-ttu-id="4f308-142">หมายเหตุว่าในขณะนี้จะประกอบด้วยบรรทัดสำหรับวันที่ชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-142">Note that it now contains a line for the payment date.</span></span>   
+8. <span data-ttu-id="4f308-143">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4f308-143">Close the page.</span></span>
+9. <span data-ttu-id="4f308-144">ในแผนภูมิ ให้ขยาย 'Excel'</span><span class="sxs-lookup"><span data-stu-id="4f308-144">In the tree, expand 'Excel'.</span></span>
+10. <span data-ttu-id="4f308-145">ในแผนภูมิ ขยาย 'Excel\รายการการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="4f308-145">In the tree, expand 'Excel\PaymLines'.</span></span>
+11. <span data-ttu-id="4f308-146">ในแผนภูมิ ให้เลือก ''Excel\PaymLines\PaymDate'</span><span class="sxs-lookup"><span data-stu-id="4f308-146">In the tree, select 'Excel\PaymLines\PaymDate'.</span></span>
+    * <span data-ttu-id="4f308-147">หมายเหตุว่าในขณะนี้รูปแบบ ER ประกอบด้วยรายการมากกว่าหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="4f308-147">Note that the ER format now contains one more item.</span></span> <span data-ttu-id="4f308-148">มีการเพิ่มเซลล์ PaymDate ไปยังเท็มเพลต Excel</span><span class="sxs-lookup"><span data-stu-id="4f308-148">A cell, PaymDate, has been added to the Excel template.</span></span>  
+12. <span data-ttu-id="4f308-149">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="4f308-149">Click the Mapping tab.</span></span>
+13. <span data-ttu-id="4f308-150">ในแผนภูมิ ให้ขยาย 'model'</span><span class="sxs-lookup"><span data-stu-id="4f308-150">In the tree, expand 'model'.</span></span>
+14. <span data-ttu-id="4f308-151">ในแผนภูมิ ขยาย 'แบบจำลอง\การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="4f308-151">In the tree, expand 'model\Payments'.</span></span>
+15. <span data-ttu-id="4f308-152">ในแผนภูมิ เลือก 'แบบจำลอง\การชำระเงิน\วันที่ธุรกรรม(วันที่ธุรกรรม)'</span><span class="sxs-lookup"><span data-stu-id="4f308-152">In the tree, select 'model\Payments\Transaction date(TransactionDate)'.</span></span>
+16. <span data-ttu-id="4f308-153">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="4f308-153">Click Bind.</span></span>
+    * <span data-ttu-id="4f308-154">ระบุว่าข้อมูลใดจะถูกเพิ่มไปยังเซลล์ใหม่ขณะรันไทม์</span><span class="sxs-lookup"><span data-stu-id="4f308-154">Specify what data is added to the new cell at runtime.</span></span>  
+17. <span data-ttu-id="4f308-155">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4f308-155">Click Save.</span></span>
+18. <span data-ttu-id="4f308-156">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4f308-156">Close the page.</span></span>
 
-## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a>เปิดใช้งานเวอร์ชันแบบร่างที่แก้ไขแล้วของรูปแบบ ER สำหรับใช้ในการประมวลผลสมุดรายวันการชำระเงิน
-1. ในบานหน้าต่างการดำเนินการ คลิก การจัดโครงแบบ
-2. คลิก พารามิเตอร์ผู้ใช้
-3. เลือก ใช่ ในฟิลด์ รันการตั้งค่า
-4. คลิก ตกลง
-5. คลิก แก้ไข
-6. เลือก ใช่ ในฟิลด์ รันฉบับร่าง
+## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a><span data-ttu-id="4f308-157">เปิดใช้งานเวอร์ชันแบบร่างที่แก้ไขแล้วของรูปแบบ ER สำหรับใช้ในการประมวลผลสมุดรายวันการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-157">Enable the modified draft version of the ER format for use in payment journal processing</span></span>
+1. <span data-ttu-id="4f308-158">ในบานหน้าต่างการดำเนินการ คลิก การจัดโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="4f308-158">On the Action Pane, click Configurations.</span></span>
+2. <span data-ttu-id="4f308-159">คลิก พารามิเตอร์ผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="4f308-159">Click User parameters.</span></span>
+3. <span data-ttu-id="4f308-160">เลือก ใช่ ในฟิลด์ รันการตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="4f308-160">Select Yes in the Run settings field.</span></span>
+4. <span data-ttu-id="4f308-161">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4f308-161">Click OK.</span></span>
+5. <span data-ttu-id="4f308-162">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="4f308-162">Click Edit.</span></span>
+6. <span data-ttu-id="4f308-163">เลือก ใช่ ในฟิลด์ รันฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="4f308-163">Select Yes in the Run Draft field.</span></span>
 
-## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>ใช้เวอร์ชันแบบร่างที่แก้ไขแล้วของรูปแบบ ER สำหรับการประมวลผลสมุดรายวันการชำระเงิน
-    * ตรวจทานแผ่นงานที่สร้างขึ้น รวมทั้งรายละเอียดใหม่ของบรรทัดการชำระเงิน – วันที่ชำระเงิน  
+## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a><span data-ttu-id="4f308-164">ใช้เวอร์ชันแบบร่างที่แก้ไขแล้วของรูปแบบ ER สำหรับการประมวลผลสมุดรายวันการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-164">Use the modified draft version of the ER format for payment journal processing</span></span>
+    * <span data-ttu-id="4f308-165">ตรวจทานแผ่นงานที่สร้างขึ้น รวมทั้งรายละเอียดใหม่ของบรรทัดการชำระเงิน – วันที่ชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4f308-165">Review the created worksheet, including new detail of payment lines – payment date.</span></span>  
 
 

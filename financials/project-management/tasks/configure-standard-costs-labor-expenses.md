@@ -17,46 +17,46 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 64719b39cb7c0140f1851a87ff49747d2286804c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 432b5b195b29fb03786cb0560e277735b531b7d7
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-standard-costs-for-labor-and-expenses"></a>ตั้งค่าคอนฟิกต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย
+# <a name="configure-standard-costs-for-labor-and-expenses"></a><span data-ttu-id="ecffa-103">ตั้งค่าคอนฟิกต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="ecffa-103">Configure standard costs for labor and expenses</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการตั้งค่าต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่ายสำหรับโครงการ งานนี้ใช้ชุดข้อมูล USSI
+<span data-ttu-id="ecffa-104">กระบวนงานนี้แสดงวิธีการตั้งค่าต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่ายสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="ecffa-104">This procedure shows you how to set up standard costs for labor and expenses for a project.</span></span> <span data-ttu-id="ecffa-105">งานนี้ใช้ชุดข้อมูล USSI</span><span class="sxs-lookup"><span data-stu-id="ecffa-105">This task uses the USSI data set.</span></span>
 
-1. ไปที่ การจัดการและการบัญชีโครงการ > การตั้งค่า > ราคา > ราคาต้นทุน (ชั่วโมง)
-2. คลิก สร้าง
-3. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่
-4. ในฟิลด์ราคาต้นทุน ให้ป้อนหมายเลข
-    * คุณสามารถตั้งค่าราคาต้นทุนมาตรฐานสำหรับประเภทโครงการ หรือคุณสามารถตั้งค่าราคาต้นทุนตามหมายเลขผู้ปฏิบัติงาน หมายเลขโครงการ ประเภท วันที่ หรือข้อมูลใดๆ ดังกล่าวรวมกัน ราคาต้นทุนที่จะนำไปใช้เป็นราคาต้นทุนที่มีรายละเอียดในระดับสูงสุด  
-5. คลิก บันทึก
-6. ปิดหน้า
-7. ไปที่ การจัดการและการบัญชีโครงการ > ตั้งค่า > ราคา > ราคาขาย (ชั่วโมง)
-8. คลิก สร้าง
-9. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่
-10. ในฟิลด์ มีผลบังคับใช้สำหรับ ให้เลือกหนึ่งตัวเลือก
-11. ในฟิลด์การกำหนดราคา ให้ป้อนตัวเลข
-    * คุณสามารถตั้งค่าราคาขายมาตรฐานสำหรับรายการบันทึกชั่วโมงหรือสำหรับประเภทโครงการ  นอกจากนี้คุณยังสามารถตั้งค่าราคาขายตามหมายเลขผู้ปฏิบัติงาน หมายเลขโครงการ ประเภท วันที่ธุรกรรม หรือข้อมูลใดๆ ดังกล่าวรวมกัน ราคาขายจริงซึ่งจะใช้เมื่อผู้ปฏิบัติงานป้อนธุรกรรมในสมุดรายวันชั่วโมง คือราคาขายที่มีระดับรายละเอียดสูงสุด ตัวอย่างเช่น ถ้ามีการตั้งค่าทั้งราคาขายทั่วไปและราคาขายเฉพาะผู้ปฏิบัติงาน ระบบจะใช้ราคาขายเฉพาะผู้ปฏิบัติงาน  
-12. คลิก บันทึก
-13. ปิดหน้า
-14. ไปที่ การจัดการและการบัญชีโครงการ > การตั้งค่า > ราคา > ราคาต้นทุน (ค่าใช้จ่าย)
-15. คลิก สร้าง
-16. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่
-17. ในฟิลด์ราคาต้นทุน ให้ป้อนหมายเลข
-    * สามารถกรอกข้อมูลได้หลายฟิลด์ แต่นี่คือจำนวนขั้นต่ำที่จำเป็นสำหรับการบันทึกเรกคอร์ด  
-18. คลิก บันทึก
-19. ปิดหน้า
-20. ไปที่ การจัดการและการบัญชีโครงการ > การตั้งค่า > ราคา > ราคาขาย (ค่าใช้จ่าย)
-21. คลิก สร้าง
-22. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่
-23. ในฟิลด์ มีผลบังคับใช้สำหรับ ให้เลือกหนึ่งตัวเลือก
-24. ในฟิลด์การกำหนดราคา ให้ป้อนตัวเลข
-    * ราคาขายจริงซึ่งจะใช้เมื่อผู้ปฏิบัติงานป้อนธุรกรรมในสมุดรายวันค่าใช้จ่าย คือราคาขายที่มีระดับรายละเอียดสูงสุด ตัวอย่างเช่น ถ้ามีการตั้งค่าทั้งราคาขายทั่วไปและราคาขายเฉพาะผู้ปฏิบัติงาน ระบบจะใช้ราคาขายเฉพาะผู้ปฏิบัติงาน  
-25. คลิก บันทึก
+1. <span data-ttu-id="ecffa-106">ไปที่ การจัดการและการบัญชีโครงการ > การตั้งค่า > ราคา > ราคาต้นทุน (ชั่วโมง)</span><span class="sxs-lookup"><span data-stu-id="ecffa-106">Go to Project management and accounting > Setup > Prices > Cost price (hour).</span></span>
+2. <span data-ttu-id="ecffa-107">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ecffa-107">Click New.</span></span>
+3. <span data-ttu-id="ecffa-108">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="ecffa-108">In the Effective date field, enter a date.</span></span>
+4. <span data-ttu-id="ecffa-109">ในฟิลด์ราคาต้นทุน ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ecffa-109">In the Cost price field, enter a number.</span></span>
+    * <span data-ttu-id="ecffa-110">คุณสามารถตั้งค่าราคาต้นทุนมาตรฐานสำหรับประเภทโครงการ หรือคุณสามารถตั้งค่าราคาต้นทุนตามหมายเลขผู้ปฏิบัติงาน หมายเลขโครงการ ประเภท วันที่ หรือข้อมูลใดๆ ดังกล่าวรวมกัน</span><span class="sxs-lookup"><span data-stu-id="ecffa-110">You can set up a standard cost price for the project category, or you can set up a cost price by worker number, project number, category, date, or any combination of these.</span></span> <span data-ttu-id="ecffa-111">ราคาต้นทุนที่จะนำไปใช้เป็นราคาต้นทุนที่มีรายละเอียดในระดับสูงสุด</span><span class="sxs-lookup"><span data-stu-id="ecffa-111">The cost price that is applied is the cost price with the highest level of detail.</span></span>  
+5. <span data-ttu-id="ecffa-112">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ecffa-112">Click Save.</span></span>
+6. <span data-ttu-id="ecffa-113">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ecffa-113">Close the page.</span></span>
+7. <span data-ttu-id="ecffa-114">ไปที่ การจัดการและการบัญชีโครงการ > ตั้งค่า > ราคา > ราคาขาย (ชั่วโมง)</span><span class="sxs-lookup"><span data-stu-id="ecffa-114">Go to Project management and accounting > Setup > Prices > Sales price (hour).</span></span>
+8. <span data-ttu-id="ecffa-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ecffa-115">Click New.</span></span>
+9. <span data-ttu-id="ecffa-116">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="ecffa-116">In the Effective date field, enter a date.</span></span>
+10. <span data-ttu-id="ecffa-117">ในฟิลด์ มีผลบังคับใช้สำหรับ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ecffa-117">In the Valid for field, select an option.</span></span>
+11. <span data-ttu-id="ecffa-118">ในฟิลด์การกำหนดราคา ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="ecffa-118">In the Pricing field, enter a number.</span></span>
+    * <span data-ttu-id="ecffa-119">คุณสามารถตั้งค่าราคาขายมาตรฐานสำหรับรายการบันทึกชั่วโมงหรือสำหรับประเภทโครงการ </span><span class="sxs-lookup"><span data-stu-id="ecffa-119">You can set up a standard sales price for hour transactions or for a project category.</span></span> <span data-ttu-id="ecffa-120">นอกจากนี้คุณยังสามารถตั้งค่าราคาขายตามหมายเลขผู้ปฏิบัติงาน หมายเลขโครงการ ประเภท วันที่ธุรกรรม หรือข้อมูลใดๆ ดังกล่าวรวมกัน</span><span class="sxs-lookup"><span data-stu-id="ecffa-120">You can also set up sales prices by worker number, project number, category, transaction date, or any combination of these.</span></span> <span data-ttu-id="ecffa-121">ราคาขายจริงซึ่งจะใช้เมื่อผู้ปฏิบัติงานป้อนธุรกรรมในสมุดรายวันชั่วโมง คือราคาขายที่มีระดับรายละเอียดสูงสุด</span><span class="sxs-lookup"><span data-stu-id="ecffa-121">The actual sales price, which is applied when a worker enters a transaction in the Hour journal, is the sales price with the highest level of detail.</span></span> <span data-ttu-id="ecffa-122">ตัวอย่างเช่น ถ้ามีการตั้งค่าทั้งราคาขายทั่วไปและราคาขายเฉพาะผู้ปฏิบัติงาน ระบบจะใช้ราคาขายเฉพาะผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="ecffa-122">For example, if both a general sales price and a worker-specific sales price are set up, the worker-specific sales price is used.</span></span>  
+12. <span data-ttu-id="ecffa-123">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ecffa-123">Click Save.</span></span>
+13. <span data-ttu-id="ecffa-124">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ecffa-124">Close the page.</span></span>
+14. <span data-ttu-id="ecffa-125">ไปที่ การจัดการและการบัญชีโครงการ > การตั้งค่า > ราคา > ราคาต้นทุน (ค่าใช้จ่าย)</span><span class="sxs-lookup"><span data-stu-id="ecffa-125">Go to Project management and accounting > Setup > Prices > Cost price (expense).</span></span>
+15. <span data-ttu-id="ecffa-126">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ecffa-126">Click New.</span></span>
+16. <span data-ttu-id="ecffa-127">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="ecffa-127">In the Effective date field, enter a date.</span></span>
+17. <span data-ttu-id="ecffa-128">ในฟิลด์ราคาต้นทุน ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ecffa-128">In the Cost price field, enter a number.</span></span>
+    * <span data-ttu-id="ecffa-129">สามารถกรอกข้อมูลได้หลายฟิลด์ แต่นี่คือจำนวนขั้นต่ำที่จำเป็นสำหรับการบันทึกเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ecffa-129">Multiple fields can be filled in, but this is the minimum needed to save the record.</span></span>  
+18. <span data-ttu-id="ecffa-130">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ecffa-130">Click Save.</span></span>
+19. <span data-ttu-id="ecffa-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ecffa-131">Close the page.</span></span>
+20. <span data-ttu-id="ecffa-132">ไปที่ การจัดการและการบัญชีโครงการ > การตั้งค่า > ราคา > ราคาขาย (ค่าใช้จ่าย)</span><span class="sxs-lookup"><span data-stu-id="ecffa-132">Go to Project management and accounting > Setup > Prices > Sales price (expense).</span></span>
+21. <span data-ttu-id="ecffa-133">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ecffa-133">Click New.</span></span>
+22. <span data-ttu-id="ecffa-134">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="ecffa-134">In the Effective date field, enter a date.</span></span>
+23. <span data-ttu-id="ecffa-135">ในฟิลด์ มีผลบังคับใช้สำหรับ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ecffa-135">In the Valid for field, select an option.</span></span>
+24. <span data-ttu-id="ecffa-136">ในฟิลด์การกำหนดราคา ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="ecffa-136">In the Pricing field, enter a number.</span></span>
+    * <span data-ttu-id="ecffa-137">ราคาขายจริงซึ่งจะใช้เมื่อผู้ปฏิบัติงานป้อนธุรกรรมในสมุดรายวันค่าใช้จ่าย คือราคาขายที่มีระดับรายละเอียดสูงสุด</span><span class="sxs-lookup"><span data-stu-id="ecffa-137">The actual sales price, which is applied when a worker enters transactions in an expense journal, is the sales price with the highest level of detail.</span></span> <span data-ttu-id="ecffa-138">ตัวอย่างเช่น ถ้ามีการตั้งค่าทั้งราคาขายทั่วไปและราคาขายเฉพาะผู้ปฏิบัติงาน ระบบจะใช้ราคาขายเฉพาะผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="ecffa-138">For example, if both a general and a worker-specific sales price are set up, the worker-specific sales price is used.</span></span>  
+25. <span data-ttu-id="ecffa-139">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ecffa-139">Click Save.</span></span>
 
 

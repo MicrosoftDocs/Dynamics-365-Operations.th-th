@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="a1816-105">พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย** พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้สามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยการใช้ใบเสร็จรับเงินที่แนบและสร้างและจัดการรายงานค่าใช้จ่ายของตน นอกจากนี้ ผู้อนุมัติสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ **การจัดการค่าใช้จ่าย** เพื่อดูรายงานค่าใช้จ่ายที่กำหนดไว้ให้ และอนุมัติหรือปฏิเสธรายงานค่าใช้จ่ายเหล่านั้นอย่างใดอย่างหนึ่ง
+<span data-ttu-id="a1816-106">หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="a1816-107">พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้สามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้</span><span class="sxs-lookup"><span data-stu-id="a1816-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="a1816-108">ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยการใช้ใบเสร็จรับเงินที่แนบและสร้างและจัดการรายงานค่าใช้จ่ายของตน</span><span class="sxs-lookup"><span data-stu-id="a1816-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="a1816-109">นอกจากนี้ ผู้อนุมัติสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ **การจัดการค่าใช้จ่าย** เพื่อดูรายงานค่าใช้จ่ายที่กำหนดไว้ให้ และอนุมัติหรือปฏิเสธรายงานค่าใช้จ่ายเหล่านั้นอย่างใดอย่างหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="a1816-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+<span data-ttu-id="a1816-110">พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations</span><span class="sxs-lookup"><span data-stu-id="a1816-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>ภาพรวม
+## <a name="overview"></a><span data-ttu-id="a1816-111">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="a1816-111">Overview</span></span>
 
-หลายองค์กรกำหนดให้ต้องแนบสำเนาของใบเสร็จรับเงินกับรายงานค่าใช้จ่ายที่เกี่ยวข้องกับการเดินทางหรือที่เกี่ยวข้องกับธุรกิจที่พนักงานส่งสำหรับการชำระคืนเงิน พื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย** ช่วยให้ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายใหม่บนอุปกรณ์เคลื่อนที่ที่ผู้ใช้เลือกได้อย่างรวดเร็วโดยใช้รูปภาพของใบเสร็จรับเงินที่แนบ อีกทางหนึ่งคือ ผู้ใช้สามารถเก็บบันทึกรูปภาพของใบเสร็จรับเงิน และจากนั้น แนบกับรายงานค่าใช้จ่ายในภายหลัง พนักงานสามารถสร้างและจัดการรายงานค่าใช้จ่ายของตน แล้วส่งเพื่อขอรับการอนุมัติและการชำระเงินคืนโดยใช้อุปกรณ์เคลื่อนที่ของตน
+<span data-ttu-id="a1816-112">หลายองค์กรกำหนดให้ต้องแนบสำเนาของใบเสร็จรับเงินกับรายงานค่าใช้จ่ายที่เกี่ยวข้องกับการเดินทางหรือที่เกี่ยวข้องกับธุรกิจที่พนักงานส่งสำหรับการชำระคืนเงิน</span><span class="sxs-lookup"><span data-stu-id="a1816-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="a1816-113">พื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย** ช่วยให้ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายใหม่บนอุปกรณ์เคลื่อนที่ที่ผู้ใช้เลือกได้อย่างรวดเร็วโดยใช้รูปภาพของใบเสร็จรับเงินที่แนบ</span><span class="sxs-lookup"><span data-stu-id="a1816-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="a1816-114">อีกทางหนึ่งคือ ผู้ใช้สามารถเก็บบันทึกรูปภาพของใบเสร็จรับเงิน และจากนั้น แนบกับรายงานค่าใช้จ่ายในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="a1816-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="a1816-115">พนักงานสามารถสร้างและจัดการรายงานค่าใช้จ่ายของตน แล้วส่งเพื่อขอรับการอนุมัติและการชำระเงินคืนโดยใช้อุปกรณ์เคลื่อนที่ของตน</span><span class="sxs-lookup"><span data-stu-id="a1816-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-โดยเฉพาะอย่างยิ่ง พื้นที่ทำงานเคลื่อนที่ **การจัดการค่าใช้จ่าย** ช่วยให้ผู้ใช้สามารถทำงานเหล่านี้ได้:
+<span data-ttu-id="a1816-116">โดยเฉพาะอย่างยิ่ง พื้นที่ทำงานเคลื่อนที่ **การจัดการค่าใช้จ่าย** ช่วยให้ผู้ใช้สามารถทำงานเหล่านี้ได้:</span><span class="sxs-lookup"><span data-stu-id="a1816-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- ถ่ายรูปภาพของใบเสร็จรับเงิน และอัพโหลดไปยัง Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition จากนั้นคุณสามารถแนบรูปถ่ายนั้นกับรายงานค่าใช้จ่ายในภายหลัง
-- อัพโหลดไฟล์เป็นใบเสร็จรับเงินที่เก็บบันทึก จากนั้นคุณสามารถแนบไฟล์นั้นกับรายงานค่าใช้จ่ายในภายหลัง
-- สร้างรายการค่าใช้จ่ายใหม่โดยใช้ใบเสร็จรับเงินที่แนบ คุณสามารถเพิ่มสินค้าในรายการไปยังรายงานค่าใช้จ่ายในภายหลัง แล้วส่งเพื่อขอการอนุมัติและการชำระเงินคืน
+- <span data-ttu-id="a1816-117">ถ่ายรูปภาพของใบเสร็จรับเงิน และอัพโหลดไปยัง Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="a1816-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="a1816-118">จากนั้นคุณสามารถแนบรูปถ่ายนั้นกับรายงานค่าใช้จ่ายในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="a1816-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="a1816-119">อัพโหลดไฟล์เป็นใบเสร็จรับเงินที่เก็บบันทึก</span><span class="sxs-lookup"><span data-stu-id="a1816-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="a1816-120">จากนั้นคุณสามารถแนบไฟล์นั้นกับรายงานค่าใช้จ่ายในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="a1816-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="a1816-121">สร้างรายการค่าใช้จ่ายใหม่โดยใช้ใบเสร็จรับเงินที่แนบ</span><span class="sxs-lookup"><span data-stu-id="a1816-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="a1816-122">คุณสามารถเพิ่มสินค้าในรายการไปยังรายงานค่าใช้จ่ายในภายหลัง แล้วส่งเพื่อขอการอนุมัติและการชำระเงินคืน</span><span class="sxs-lookup"><span data-stu-id="a1816-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition การอัพเดตกรกฎาคม 2017 คุณจะสามารถใช้คุณลักษณะเหล่านี้ได้อีกด้วย:
+<span data-ttu-id="a1816-123">ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition การอัพเดตกรกฎาคม 2017 คุณจะสามารถใช้คุณลักษณะเหล่านี้ได้อีกด้วย:</span><span class="sxs-lookup"><span data-stu-id="a1816-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- สร้างรายงานค่าใช้จ่ายใหม่
-- แนบธุรกรรมบัตรเครดิตและค่าใช้จ่ายที่สร้างขึ้นก่อนหน้านี้อื่น ๆ กับรายงานค่าใช้จ่าย
-- สร้างค่าใช้จ่ายใหม่สำหรับรายงานค่าใช้จ่าย
-- แนบใบเสร็จกับค่าใช้จ่ายใด ๆ สำหรับรายงานค่าใช้จ่าย โดยการใช้รูปภาพของใบเสร็จหรือการอัพโหลดไฟล์เป็นใบเสร็จที่รวบรวม
-- เพิ่มรายการของผู้เยี่ยมชมในค่าใช้จ่ายตามนโยบายค่าใช้จ่ายของบริษัท
-- แสดงรายการค่าใช้จ่ายตามนโยบายค่าใช้จ่ายของบริษัท
-- ส่งรายงานค่าใช้จ่ายเพื่อขออนุมัติและขอเงินคืน
-- อนุมัติหรือปฏิเสธรายงานค่าใช้จ่ายที่คุณได้รับมอบหมายให้เป็นผู้อนุมัติ
+- <span data-ttu-id="a1816-124">สร้างรายงานค่าใช้จ่ายใหม่</span><span class="sxs-lookup"><span data-stu-id="a1816-124">Create a new expense report.</span></span>
+- <span data-ttu-id="a1816-125">แนบธุรกรรมบัตรเครดิตและค่าใช้จ่ายที่สร้างขึ้นก่อนหน้านี้อื่น ๆ กับรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="a1816-126">สร้างค่าใช้จ่ายใหม่สำหรับรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="a1816-127">แนบใบเสร็จกับค่าใช้จ่ายใด ๆ สำหรับรายงานค่าใช้จ่าย โดยการใช้รูปภาพของใบเสร็จหรือการอัพโหลดไฟล์เป็นใบเสร็จที่รวบรวม</span><span class="sxs-lookup"><span data-stu-id="a1816-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="a1816-128">เพิ่มรายการของผู้เยี่ยมชมในค่าใช้จ่ายตามนโยบายค่าใช้จ่ายของบริษัท</span><span class="sxs-lookup"><span data-stu-id="a1816-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="a1816-129">แสดงรายการค่าใช้จ่ายตามนโยบายค่าใช้จ่ายของบริษัท</span><span class="sxs-lookup"><span data-stu-id="a1816-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="a1816-130">ส่งรายงานค่าใช้จ่ายเพื่อขออนุมัติและขอเงินคืน</span><span class="sxs-lookup"><span data-stu-id="a1816-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="a1816-131">อนุมัติหรือปฏิเสธรายงานค่าใช้จ่ายที่คุณได้รับมอบหมายให้เป็นผู้อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="a1816-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ
+## <a name="prerequisites"></a><span data-ttu-id="a1816-132">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="a1816-132">Prerequisites</span></span>
+<span data-ttu-id="a1816-133">ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1816-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>ข้อกำหนดเบื้องต้นหากคุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017 
-ถ้า Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดพเดือนกรกฎาคม 2017 ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="a1816-134">ข้อกำหนดเบื้องต้นหากคุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตของเดือนกรกฎาคม 2017</span><span class="sxs-lookup"><span data-stu-id="a1816-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="a1816-135">ถ้า Microsoft Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดพเดือนกรกฎาคม 2017 ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="a1816-136">สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)</span><span class="sxs-lookup"><span data-stu-id="a1816-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
-ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="a1816-137">ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="a1816-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="a1816-138">ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="a1816-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>ข้อกำหนดเบื้องต้น</th>
-<th>บทบาท</th>
-<th>คำอธิบาย</th>
+<th><span data-ttu-id="a1816-139">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="a1816-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="a1816-140">บทบาท</span><span class="sxs-lookup"><span data-stu-id="a1816-140">Role</span></span></th>
+<th><span data-ttu-id="a1816-141">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="a1816-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>การใช้ KB 4019015</td>
-<td>ผู้ดูแลระบบ</td>
-<td>KB 4019015 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การจัดการค่าใช้จ่าย</strong> เมื่อต้องการใช้ KB 4019015 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
+<td><span data-ttu-id="a1816-142">การใช้ KB 4019015</span><span class="sxs-lookup"><span data-stu-id="a1816-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="a1816-143">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="a1816-143">System administrator</span></span></td>
+<td><span data-ttu-id="a1816-144">KB 4019015 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การจัดการค่าใช้จ่าย</strong></span><span class="sxs-lookup"><span data-stu-id="a1816-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="a1816-145">เมื่อต้องการใช้ KB 4019015 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1816-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ExpenseMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><span data-ttu-id="a1816-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></span><span class="sxs-lookup"><span data-stu-id="a1816-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="a1816-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></span><span class="sxs-lookup"><span data-stu-id="a1816-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="a1816-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ExpenseMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</span><span class="sxs-lookup"><span data-stu-id="a1816-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="a1816-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></span><span class="sxs-lookup"><span data-stu-id="a1816-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ <strong>การจัดการค่าใช้จ่าย</strong></td>
-<td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td><span data-ttu-id="a1816-150">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ <strong>การจัดการค่าใช้จ่าย</strong></span><span class="sxs-lookup"><span data-stu-id="a1816-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="a1816-151">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="a1816-151">System administrator</span></span></td>
+<td><span data-ttu-id="a1816-152">ดู <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></span><span class="sxs-lookup"><span data-stu-id="a1816-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="a1816-153">ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="a1816-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="a1816-154">ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations</span><span class="sxs-lookup"><span data-stu-id="a1816-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="a1816-155">สำหรับโทรศัพท์ Android</span><span class="sxs-lookup"><span data-stu-id="a1816-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="a1816-156">สำหรับ iPhone</span><span class="sxs-lookup"><span data-stu-id="a1816-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
-1. เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2. ป้อน URL ของ Dynamics 365
-4. ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
-5. หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="a1816-157">ล็อกอินเข้าสู่แอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="a1816-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="a1816-158">เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1816-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="a1816-159">ป้อน URL ของ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="a1816-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="a1816-160">ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1816-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="a1816-161">ป้อนข้อมูลประจำตัวของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1816-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="a1816-162">หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1816-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="a1816-163">หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="a1816-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="a1816-164">[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="a1816-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>เก็บบันทึกใบเสร็จรับเงินโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="a1816-165">เก็บบันทึกใบเสร็จรับเงินโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**
-2. เลือก **เก็บบันทึกใบเสร็จรับเงิน**
-3. เลือก **ถ่ายรูป** หรือ **เลือกรูปภาพ**
-4. ทำตามขั้นตอนเหล่านี้
+1. <span data-ttu-id="a1816-166">บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1816-167">เลือก **เก็บบันทึกใบเสร็จรับเงิน**</span><span class="sxs-lookup"><span data-stu-id="a1816-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="a1816-168">เลือก **ถ่ายรูป** หรือ **เลือกรูปภาพ**</span><span class="sxs-lookup"><span data-stu-id="a1816-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="a1816-169">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1816-169">Follow one of these steps:</span></span>
 
-    - ถ้าคุณเลือก **ถ่ายรูป** ให้ทำตามขั้นตอนต่อไปนี้:
+    - <span data-ttu-id="a1816-170">ถ้าคุณเลือก **ถ่ายรูป** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. คุณกำลังถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน เมื่อคุณถ่ายรูปเสร็จแล้ว ให้เลือก **ตกลง** เพื่อยอมรับรูปถ่าย
-        2. เลือกระบุได้: ป้อนชื่อของรูปถ่าย และป้อนหมายเหตุใด ๆ
+        1. <span data-ttu-id="a1816-171">คุณกำลังถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน</span><span class="sxs-lookup"><span data-stu-id="a1816-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a1816-172">เมื่อคุณถ่ายรูปเสร็จแล้ว ให้เลือก **ตกลง** เพื่อยอมรับรูปถ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="a1816-173">เลือกระบุได้: ป้อนชื่อของรูปถ่าย และป้อนหมายเหตุใด ๆ</span><span class="sxs-lookup"><span data-stu-id="a1816-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - ถ้าคุณเลือก **เลือกรูปภาพ** ให้ทำตามขั้นตอนต่อไปนี้:
+    - <span data-ttu-id="a1816-174">ถ้าคุณเลือก **เลือกรูปภาพ** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. เลือกรูปภาพในรายการ
-        2. เลือกระบุได้: ป้อนชื่อของรูปภาพ และป้อนหมายเหตุใด ๆ
+        1. <span data-ttu-id="a1816-175">เลือกรูปภาพในรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="a1816-176">เลือกระบุได้: ป้อนชื่อของรูปภาพ และป้อนหมายเหตุใด ๆ</span><span class="sxs-lookup"><span data-stu-id="a1816-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. เลือก **เสร็จสิ้น**
+5. <span data-ttu-id="a1816-177">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>ป้อนค่าใช้จ่ายได้อย่างรวดเร็วโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย
-1. บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**
-2. เลือก **การป้อนข้อมูลค่าใช้จ่ายด่วน**
-3. เลือกประเภทสำหรับค่าใช้จ่าย คุณเห็นรายการประเภทค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามประเภทค่าใช้จ่ายหรือสลับไปยังการค้นหาตามชนิดค่าใช้จ่าย
-4. ป้อนวันที่ของธุรกรรมของค่าใช้จ่าย
-5. เลือกระบุได้: ป้อนผู้ขายสำหรับค่าใช้จ่าย
-6. ป้อนยอดเงินของค่าใช้จ่าย
-7. เลือกสกุลเงินของค่าใช้จ่าย คุณเห็นรายการของรหัสสกุลเงินที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดสกุลเงินไว้ 400 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าสกุลเงินของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามสกุลเงินหรือสลับไปยังการค้นหาตามชื่อประเภท
-8. เลือก **ถ่ายรูป** หรือ **เลือกรูปภาพ**
-9. ทำตามขั้นตอนเหล่านี้
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="a1816-178">ป้อนค่าใช้จ่ายได้อย่างรวดเร็วโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="a1816-179">บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1816-180">เลือก **การป้อนข้อมูลค่าใช้จ่ายด่วน**</span><span class="sxs-lookup"><span data-stu-id="a1816-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="a1816-181">เลือกประเภทสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-181">Select the category for the expense.</span></span> <span data-ttu-id="a1816-182">คุณเห็นรายการประเภทค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-183">โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-184">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-185">ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-186">ค้นหาตามประเภทค่าใช้จ่ายหรือสลับไปยังการค้นหาตามชนิดค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="a1816-187">ป้อนวันที่ของธุรกรรมของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="a1816-188">เลือกระบุได้: ป้อนผู้ขายสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="a1816-189">ป้อนยอดเงินของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="a1816-190">เลือกสกุลเงินของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-190">Select the currency of the expense.</span></span> <span data-ttu-id="a1816-191">คุณเห็นรายการของรหัสสกุลเงินที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-192">โดยค่าเริ่มต้น จะมีการโหลดสกุลเงินไว้ 400 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-193">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-194">ถ้าสกุลเงินของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-195">ค้นหาตามสกุลเงินหรือสลับไปยังการค้นหาตามชื่อประเภท</span><span class="sxs-lookup"><span data-stu-id="a1816-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="a1816-196">เลือก **ถ่ายรูป** หรือ **เลือกรูปภาพ**</span><span class="sxs-lookup"><span data-stu-id="a1816-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="a1816-197">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1816-197">Follow one of these steps:</span></span>
 
-    - ถ้าคุณเลือก **ถ่ายรูป** คุณจะถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน เมื่อคุณถ่ายรูปเสร็จแล้ว ให้เลือก **ตกลง** เพื่อยอมรับรูปถ่าย
-    - ถ้าคุณเลือก **เลือกรูปภาพ** ให้เลือกรูปภาพในรายการ
+    - <span data-ttu-id="a1816-198">ถ้าคุณเลือก **ถ่ายรูป** คุณจะถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน</span><span class="sxs-lookup"><span data-stu-id="a1816-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a1816-199">เมื่อคุณถ่ายรูปเสร็จแล้ว ให้เลือก **ตกลง** เพื่อยอมรับรูปถ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="a1816-200">ถ้าคุณเลือก **เลือกรูปภาพ** ให้เลือกรูปภาพในรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. เลือก **เสร็จสิ้น**
+10. <span data-ttu-id="a1816-201">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>อนุมัติรายงานค่าใช้จ่ายโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ในการจัดการค่าใช้จ่าย (ถ้าคุณใช้การอัพเดตกรกฎาคม 2017)
-1. บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**
-2. **การอนุมัติค่าใช้จ่าย** แสดงหมายเลขรายงานค่าใช้จ่ายที่กำหนดให้กับคุณสำหรับการอนุมัติ มีการอัพเดตหมายเลขทุก ๆ 30 นาทีโดยประมาณ เลือก **การอนุมัติค่าใช้จ่าย**
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="a1816-202">อนุมัติรายงานค่าใช้จ่ายโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ในการจัดการค่าใช้จ่าย (ถ้าคุณใช้การอัพเดตกรกฎาคม 2017)</span><span class="sxs-lookup"><span data-stu-id="a1816-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="a1816-203">บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1816-204">**การอนุมัติค่าใช้จ่าย** แสดงหมายเลขรายงานค่าใช้จ่ายที่กำหนดให้กับคุณสำหรับการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="a1816-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="a1816-205">มีการอัพเดตหมายเลขทุก ๆ 30 นาทีโดยประมาณ</span><span class="sxs-lookup"><span data-stu-id="a1816-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="a1816-206">เลือก **การอนุมัติค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-206">Select **Expense approvals**.</span></span>
 
-    รายการรายงานค่าใช้จ่ายที่กำหนดให้กับคุณสำหรับการอนุมัติจะแสดงขึ้น
+    <span data-ttu-id="a1816-207">รายการรายงานค่าใช้จ่ายที่กำหนดให้กับคุณสำหรับการอนุมัติจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1816-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. เลือกรายงานค่าใช้จ่ายเพื่อดูรายละเอียดของค่าใช้จ่าย
-4. เลือกค่าใช้จ่ายเพื่อดูรายละเอียดของ ข้อมูลที่ปรากฏสำหรับค่าใช้จ่ายรวมใด ๆ รวมถึงใบเสร็จ ผู้เยี่ยมชม และรายละเอียดการแสดงรายการ
-5. กลับมาที่หน้า **รายงานค่าใช้จ่าย** เลือกเพื่ออนุมัติหรือปฏิเสธรายงานค่าใช้จ่าย
-6. ป้อนข้อคิดเห็นใด ๆ สำหรับการดำเนินการอนุมัติ
-7. เลือก **เสร็จสิ้น**
+3. <span data-ttu-id="a1816-208">เลือกรายงานค่าใช้จ่ายเพื่อดูรายละเอียดของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="a1816-209">เลือกค่าใช้จ่ายเพื่อดูรายละเอียดของ</span><span class="sxs-lookup"><span data-stu-id="a1816-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="a1816-210">ข้อมูลที่ปรากฏสำหรับค่าใช้จ่ายรวมใด ๆ รวมถึงใบเสร็จ ผู้เยี่ยมชม และรายละเอียดการแสดงรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="a1816-211">กลับมาที่หน้า **รายงานค่าใช้จ่าย** เลือกเพื่ออนุมัติหรือปฏิเสธรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="a1816-212">ป้อนข้อคิดเห็นใด ๆ สำหรับการดำเนินการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="a1816-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="a1816-213">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>สร้างรายงานค่าใช้จ่ายใหม่และส่งเพื่อขอการอนุมัติโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ในการจัดการค่าใช้จ่าย (ถ้าคุณใช้การอัพเดตกรกฎาคม 2017)
-1. บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**
-2. เลือก **การป้อนข้อมูลค่าใช้จ่าย**
-3. เลือก **รายงานใหม่** หรือเลือกรายงานค่าใช้จ่ายที่มีอยู่ในรายการ
-4. สำหรับรายงานค่าใช้จ่ายใหม่ ป้อนวัตถุประสงค์และข้อมูลเพิ่มเติมที่พร้อมใช้งาน ข้อมูลนี้แตกต่างกันออกไปตามวิธีการตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายสำหรับบริษัทของคุณ
-5. เลือก **เสร็จสิ้น**
-6. เมื่อต้องการเพิ่มค่าใช้จ่ายที่มีอยู่ เช่น ธุรกรรมบัตรเครดิต รายงานค่าใช้จ่าย เลือก **แนบ**
-7. เลือกค่าใช้จ่ายในรายการหนึ่งประเภทขึ้นไป
-8. เลือก **เสร็จสิ้น**
-9. เมื่อต้องการเพิ่มค่าใช้จ่ายใหม่ไปยังรายงานค่าใช้จ่าย เลือก **ค่าใช้จ่ายใหม่**
-10. เลือกประเภทสำหรับค่าใช้จ่าย คุณเห็นรายการประเภทค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามประเภทค่าใช้จ่ายหรือสลับไปยังการค้นหาตามชนิดค่าใช้จ่าย
-11. เลือกระบุได้: ป้อนผู้ขายสำหรับค่าใช้จ่าย
-12. ป้อนวันที่ของธุรกรรมของค่าใช้จ่าย
-13. ป้อนยอดเงินของค่าใช้จ่าย
-14. เลือกสกุลเงินของค่าใช้จ่าย คุณเห็นรายการของรหัสสกุลเงินที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดสกุลเงินไว้ 400 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าสกุลเงินของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามสกุลเงินหรือสลับไปยังการค้นหาตามชื่อประเภท
-15. เลือก **เสร็จสิ้น**
-16. เมื่อต้องการเพิ่มรายละเอียดไปยังค่าใช้จ่ายเพิ่มเติม เลือก **เพิ่มรายละเอียดเพิ่มเติม** ฟิลด์ที่พร้อมใช้งานที่ขึ้นอยู่กับการตั้งค่าคอนฟิกของการจัดการค่าใช้จ่ายสำหรับบริษัทของคุณ
-17. ถ้านโยบายบริษัทกำหนดให้ต้องมีใบเสร็จสำหรับค่าใช้จ่าย เลือก **ใบเสร็จ** แล้วทำตามขั้นตอนเหล่านี้:
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="a1816-214">สร้างรายงานค่าใช้จ่ายใหม่และส่งเพื่อขอการอนุมัติโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ในการจัดการค่าใช้จ่าย (ถ้าคุณใช้การอัพเดตกรกฎาคม 2017)</span><span class="sxs-lookup"><span data-stu-id="a1816-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="a1816-215">บนอุปกรณ์เคลื่อนที่ เปิดพื้นที่ทำงาน **การจัดการค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1816-216">เลือก **การป้อนข้อมูลค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="a1816-217">เลือก **รายงานใหม่** หรือเลือกรายงานค่าใช้จ่ายที่มีอยู่ในรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="a1816-218">สำหรับรายงานค่าใช้จ่ายใหม่ ป้อนวัตถุประสงค์และข้อมูลเพิ่มเติมที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="a1816-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="a1816-219">ข้อมูลนี้แตกต่างกันออกไปตามวิธีการตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายสำหรับบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1816-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="a1816-220">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-220">Select **Done**.</span></span>
+6. <span data-ttu-id="a1816-221">เมื่อต้องการเพิ่มค่าใช้จ่ายที่มีอยู่ เช่น ธุรกรรมบัตรเครดิต รายงานค่าใช้จ่าย เลือก **แนบ**</span><span class="sxs-lookup"><span data-stu-id="a1816-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="a1816-222">เลือกค่าใช้จ่ายในรายการหนึ่งประเภทขึ้นไป</span><span class="sxs-lookup"><span data-stu-id="a1816-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="a1816-223">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-223">Select **Done**.</span></span>
+9. <span data-ttu-id="a1816-224">เมื่อต้องการเพิ่มค่าใช้จ่ายใหม่ไปยังรายงานค่าใช้จ่าย เลือก **ค่าใช้จ่ายใหม่**</span><span class="sxs-lookup"><span data-stu-id="a1816-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="a1816-225">เลือกประเภทสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-225">Select the category for the expense.</span></span> <span data-ttu-id="a1816-226">คุณเห็นรายการประเภทค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-227">โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-228">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-229">ถ้าประเภทของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-230">ค้นหาตามประเภทค่าใช้จ่ายหรือสลับไปยังการค้นหาตามชนิดค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="a1816-231">เลือกระบุได้: ป้อนผู้ขายสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="a1816-232">ป้อนวันที่ของธุรกรรมของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="a1816-233">ป้อนยอดเงินของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="a1816-234">เลือกสกุลเงินของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-234">Select the currency of the expense.</span></span> <span data-ttu-id="a1816-235">คุณเห็นรายการของรหัสสกุลเงินที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-236">โดยค่าเริ่มต้น จะมีการโหลดสกุลเงินไว้ 400 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-237">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-238">ถ้าสกุลเงินของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-239">ค้นหาตามสกุลเงินหรือสลับไปยังการค้นหาตามชื่อประเภท</span><span class="sxs-lookup"><span data-stu-id="a1816-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="a1816-240">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-240">Select **Done**.</span></span>
+16. <span data-ttu-id="a1816-241">เมื่อต้องการเพิ่มรายละเอียดไปยังค่าใช้จ่ายเพิ่มเติม เลือก **เพิ่มรายละเอียดเพิ่มเติม**</span><span class="sxs-lookup"><span data-stu-id="a1816-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="a1816-242">ฟิลด์ที่พร้อมใช้งานที่ขึ้นอยู่กับการตั้งค่าคอนฟิกของการจัดการค่าใช้จ่ายสำหรับบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1816-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="a1816-243">ถ้านโยบายบริษัทกำหนดให้ต้องมีใบเสร็จสำหรับค่าใช้จ่าย เลือก **ใบเสร็จ** แล้วทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. เลือก **ใบเสร็จที่รวบรวม** หรือ **แนบใบเสร็จ**
-    2. ทำตามขั้นตอนเหล่านี้
+    1. <span data-ttu-id="a1816-244">เลือก **ใบเสร็จที่รวบรวม** หรือ **แนบใบเสร็จ**</span><span class="sxs-lookup"><span data-stu-id="a1816-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="a1816-245">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1816-245">Follow one of these steps:</span></span>
 
-        - ถ้าคุณเลือก **ใบเสร็จที่รวบรวม** ให้ทำตามขั้นตอนต่อไปนี้:
+        - <span data-ttu-id="a1816-246">ถ้าคุณเลือก **ใบเสร็จที่รวบรวม** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. เลือก **ถ่ายรูป** หรือ **เลือกรูปภาพ**
-            2. ทำตามขั้นตอนเหล่านี้
+            1. <span data-ttu-id="a1816-247">เลือก **ถ่ายรูป** หรือ **เลือกรูปภาพ**</span><span class="sxs-lookup"><span data-stu-id="a1816-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="a1816-248">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1816-248">Follow one of these steps:</span></span>
 
-                - ถ้าคุณเลือก **ถ่ายรูป** ให้ทำตามขั้นตอนต่อไปนี้:
+                - <span data-ttu-id="a1816-249">ถ้าคุณเลือก **ถ่ายรูป** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. คุณกำลังถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน เมื่อคุณถ่ายรูปเสร็จแล้ว ให้เลือก **ตกลง** เพื่อยอมรับรูปถ่าย
-                    2. เลือกระบุได้: ป้อนชื่อของรูปถ่าย และป้อนหมายเหตุใด ๆ
+                    1. <span data-ttu-id="a1816-250">คุณกำลังถูกนำไปยังกล้องบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้คุณสามารถถ่ายรูปของใบเสร็จรับเงิน</span><span class="sxs-lookup"><span data-stu-id="a1816-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a1816-251">เมื่อคุณถ่ายรูปเสร็จแล้ว ให้เลือก **ตกลง** เพื่อยอมรับรูปถ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="a1816-252">เลือกระบุได้: ป้อนชื่อของรูปถ่าย และป้อนหมายเหตุใด ๆ</span><span class="sxs-lookup"><span data-stu-id="a1816-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - ถ้าคุณเลือก **เลือกรูปภาพ** ให้ทำตามขั้นตอนต่อไปนี้:
+                - <span data-ttu-id="a1816-253">ถ้าคุณเลือก **เลือกรูปภาพ** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. เลือกรูปภาพในรายการ
-                    2. เลือกระบุได้: ป้อนชื่อของรูปภาพ และป้อนหมายเหตุใด ๆ
+                    1. <span data-ttu-id="a1816-254">เลือกรูปภาพในรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="a1816-255">เลือกระบุได้: ป้อนชื่อของรูปภาพ และป้อนหมายเหตุใด ๆ</span><span class="sxs-lookup"><span data-stu-id="a1816-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  เลือก **เสร็จสิ้น**
+            3.  <span data-ttu-id="a1816-256">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-256">Select **Done**.</span></span>
 
-        - ถ้าคุณเลือก **แนบใบเสร็จ** ให้ทำตามขั้นตอนต่อไปนี้:
+        - <span data-ttu-id="a1816-257">ถ้าคุณเลือก **แนบใบเสร็จ** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  เลือกรูปภาพในรายการอย่างน้อยหนึ่งรายการ
-            2.  เลือก **เสร็จสิ้น**
+            1.  <span data-ttu-id="a1816-258">เลือกรูปภาพในรายการอย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="a1816-259">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-259">Select **Done**.</span></span>
 
-    3. เลือกปุ่ม **กลับ** เพื่อกลับไปยังรายละเอียดค่าใช้จ่าย
+    3. <span data-ttu-id="a1816-260">เลือกปุ่ม **กลับ** เพื่อกลับไปยังรายละเอียดค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. ถ้านโยบายบริษัทกำหนดให้ต้องมีผู้เยี่ยมชมสำหรับค่าใช้จ่าย เลือก **ผู้เยี่ยมชม** แล้วทำตามขั้นตอนเหล่านี้:
+18. <span data-ttu-id="a1816-261">ถ้านโยบายบริษัทกำหนดให้ต้องมีผู้เยี่ยมชมสำหรับค่าใช้จ่าย เลือก **ผู้เยี่ยมชม** แล้วทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. เลือก **ผู้เยี่ยมชม** **ผู้เยี่ยมชมก่อนหน้านี้** หรือ **เพื่อนร่วมงาน**
-    2. ทำตามขั้นตอนเหล่านี้
+    1. <span data-ttu-id="a1816-262">เลือก **ผู้เยี่ยมชม** **ผู้เยี่ยมชมก่อนหน้านี้** หรือ **เพื่อนร่วมงาน**</span><span class="sxs-lookup"><span data-stu-id="a1816-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="a1816-263">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1816-263">Follow one of these steps:</span></span>
 
-        - ถ้าคุณเลือก **ผู้เยี่ยมชม** ให้ทำตามขั้นตอนต่อไปนี้:
+        - <span data-ttu-id="a1816-264">ถ้าคุณเลือก **ผู้เยี่ยมชม** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. ป้อนชื่อของผู้เยี่ยมชม
-            2. ไม่จำเป็น: ป้อนองค์กรและ/หรือประเทศของผู้เยี่ยมชม
-            3. ไม่จำเป็น: ป้อนชื่อตำแหน่งงานของผู้เยี่ยมชม
-            4. เลือก **เสร็จสิ้น**
+            1. <span data-ttu-id="a1816-265">ป้อนชื่อของผู้เยี่ยมชม</span><span class="sxs-lookup"><span data-stu-id="a1816-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="a1816-266">ไม่จำเป็น: ป้อนองค์กรและ/หรือประเทศของผู้เยี่ยมชม</span><span class="sxs-lookup"><span data-stu-id="a1816-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="a1816-267">ไม่จำเป็น: ป้อนชื่อตำแหน่งงานของผู้เยี่ยมชม</span><span class="sxs-lookup"><span data-stu-id="a1816-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="a1816-268">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-268">Select **Done**.</span></span>
 
-        - ถ้าคุณเลือก **ผู้เยี่ยมชมก่อนหน้านี้** ให้ทำตามขั้นตอนต่อไปนี้:
+        - <span data-ttu-id="a1816-269">ถ้าคุณเลือก **ผู้เยี่ยมชมก่อนหน้านี้** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. เลือกผู้เยี่ยมชมก่อนหน้านี้ในรายการอย่างน้อยหนึ่งรายการ คุณจะเห็นรายการผู้เยี่ยมชมก่อนหน้านี้ที่คุณได้เพิ่มรายงานค่าใช้จ่ายก่อนหน้านี้ที่กำลังถูกโหลดเข้าในแอพลิเคชันของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าผู้เยี่ยมชมก่อนหน้านี้ของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามชื่อหรือสลับไปยังการค้นหาตามองค์กร ประเทศ หรือชื่อ
-            2. เลือก **เสร็จสิ้น**
+            1. <span data-ttu-id="a1816-270">เลือกผู้เยี่ยมชมก่อนหน้านี้ในรายการอย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="a1816-271">คุณจะเห็นรายการผู้เยี่ยมชมก่อนหน้านี้ที่คุณได้เพิ่มรายงานค่าใช้จ่ายก่อนหน้านี้ที่กำลังถูกโหลดเข้าในแอพลิเคชันของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-272">โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-273">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-274">ถ้าผู้เยี่ยมชมก่อนหน้านี้ของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-275">ค้นหาตามชื่อหรือสลับไปยังการค้นหาตามองค์กร ประเทศ หรือชื่อ</span><span class="sxs-lookup"><span data-stu-id="a1816-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="a1816-276">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-276">Select **Done**.</span></span>
 
-        - ถ้าคุณเลือก **เพื่อนร่วมงาน** ให้ทำตามขั้นตอนต่อไปนี้:
+        - <span data-ttu-id="a1816-277">ถ้าคุณเลือก **เพื่อนร่วมงาน** ให้ทำตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. เลือกเพื่อนร่วมงานในรายการอย่างน้อยหนึ่งรายการ คุณเห็นรายการของเพื่อนร่วมงานที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าเพื่อนร่วมงานของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามชื่อหรือสลับไปยังการค้นหาตามบริษัท หรือชื่อ
-            2. เลือก **เสร็จสิ้น**
+            1. <span data-ttu-id="a1816-278">เลือกเพื่อนร่วมงานในรายการอย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="a1816-279">คุณเห็นรายการของเพื่อนร่วมงานที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-280">โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-281">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-282">ถ้าเพื่อนร่วมงานของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-283">ค้นหาตามชื่อหรือสลับไปยังการค้นหาตามบริษัท หรือชื่อ</span><span class="sxs-lookup"><span data-stu-id="a1816-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="a1816-284">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-284">Select **Done**.</span></span>
 
-    3. เลือกปุ่ม **กลับ** เพื่อกลับไปยังรายละเอียดค่าใช้จ่าย
+    3. <span data-ttu-id="a1816-285">เลือกปุ่ม **กลับ** เพื่อกลับไปยังรายละเอียดค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. ถ้านโยบายบริษัทกำหนดให้ต้องมีการแสดงรายการค่าใช้จ่าย เลือก **แสดงรายการ** แล้วทำตามขั้นตอนเหล่านี้:
+19. <span data-ttu-id="a1816-286">ถ้านโยบายบริษัทกำหนดให้ต้องมีการแสดงรายการค่าใช้จ่าย เลือก **แสดงรายการ** แล้วทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="a1816-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. เลือกวันที่แรกเพื่อแสดงรายการ
-    2. เลือก **เพิ่มการแสดงรายการ**
-    3. เลือกประเภทย่อยสำหรับการแสดงรายการค่าใช้จ่าย คุณเห็นรายการประเภทย่อยของค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ถ้าประเภทย่อยของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์ ค้นหาตามชื่อประเภทย่อยของค่าใช้จ่าย
-    4. ป้อนยอดเงินของธุรกรรมสำหรับการแสดงรายการ
-    5. แก้ไขวันที่ของธุรกรรมถ้าจำเป็น
-    6. เลือก **เสร็จสิ้น**
-    7. ทำซ้ำขั้นตอนก่อนหน้านี้จนกว่าคุณจะเพิ่มการแสดงรายการทั้งหมดสำหรับวันที่ที่เลือกเสร็จสิ้น
-    8. สำหรับวันที่เพิ่มเติม คุณสามารถเลือก **คัดลอกไปยังวันถัดไป** เพื่อคัดลอกการแสดงรายการไปยังวันถัดไปได้ อีกทางหนึ่งคือ คุณสามารถเลือกวันที่ที่จะแสดงรายการ และเพิ่มการแสดงรายการตามที่คุณได้ทำไว้สำหรับวันที่แรก
-    9. หลังจากที่คุณแสดงรายการค่าใช้จ่ายเสร็จสิ้นแล้ว เลือกปุ่ม **กลับ** เพื่อกลับสู่รายละเอียดค่าใช้จ่าย
+    1. <span data-ttu-id="a1816-287">เลือกวันที่แรกเพื่อแสดงรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="a1816-288">เลือก **เพิ่มการแสดงรายการ**</span><span class="sxs-lookup"><span data-stu-id="a1816-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="a1816-289">เลือกประเภทย่อยสำหรับการแสดงรายการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="a1816-290">คุณเห็นรายการประเภทย่อยของค่าใช้จ่ายที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1816-291">โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="a1816-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1816-292">สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)</span><span class="sxs-lookup"><span data-stu-id="a1816-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1816-293">ถ้าประเภทย่อยของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหา** เพื่อทำการค้นหาออนไลน์</span><span class="sxs-lookup"><span data-stu-id="a1816-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1816-294">ค้นหาตามชื่อประเภทย่อยของค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="a1816-295">ป้อนยอดเงินของธุรกรรมสำหรับการแสดงรายการ</span><span class="sxs-lookup"><span data-stu-id="a1816-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="a1816-296">แก้ไขวันที่ของธุรกรรมถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="a1816-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="a1816-297">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="a1816-298">ทำซ้ำขั้นตอนก่อนหน้านี้จนกว่าคุณจะเพิ่มการแสดงรายการทั้งหมดสำหรับวันที่ที่เลือกเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="a1816-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="a1816-299">สำหรับวันที่เพิ่มเติม คุณสามารถเลือก **คัดลอกไปยังวันถัดไป** เพื่อคัดลอกการแสดงรายการไปยังวันถัดไปได้</span><span class="sxs-lookup"><span data-stu-id="a1816-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="a1816-300">อีกทางหนึ่งคือ คุณสามารถเลือกวันที่ที่จะแสดงรายการ และเพิ่มการแสดงรายการตามที่คุณได้ทำไว้สำหรับวันที่แรก</span><span class="sxs-lookup"><span data-stu-id="a1816-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="a1816-301">หลังจากที่คุณแสดงรายการค่าใช้จ่ายเสร็จสิ้นแล้ว เลือกปุ่ม **กลับ** เพื่อกลับสู่รายละเอียดค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a1816-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. เลือกปุ่ม **กลับ** เพื่อกลับไปยังหน้า **รายงานค่าใช้จ่าย**
-21. ทำซ้ำขั้นตอนก่อนหน้านี้จนกว่าคุณจะเพิ่มค่าใช้จ่ายทั้งหมดเสร็จสิ้น
-22. เลือก **ส่ง**
-23. ป้อนข้อคิดเห็นใด ๆ สำหรับผู้อนุมัติ
-24. เลือก **เสร็จสิ้น**
+20. <span data-ttu-id="a1816-302">เลือกปุ่ม **กลับ** เพื่อกลับไปยังหน้า **รายงานค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a1816-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="a1816-303">ทำซ้ำขั้นตอนก่อนหน้านี้จนกว่าคุณจะเพิ่มค่าใช้จ่ายทั้งหมดเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="a1816-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="a1816-304">เลือก **ส่ง**</span><span class="sxs-lookup"><span data-stu-id="a1816-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="a1816-305">ป้อนข้อคิดเห็นใด ๆ สำหรับผู้อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="a1816-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="a1816-306">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="a1816-306">Select **Done**.</span></span>
 

@@ -19,153 +19,153 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 688550888e5e029e38e945cec633170465df73f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: af2d61717a5aa02b2a3ef26144a845b81b32ca53
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a><span data-ttu-id="59e4f-104">จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-104">Organize your workforce using departments, jobs, and positions</span></span>
 
 [!include[banner](includes/banner.md)]
 
 [!include[retail name](includes/retail-name.md)]
 
 
-แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล หัวข้อนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้ 
+<span data-ttu-id="59e4f-105">แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="59e4f-105">Departments, jobs, and positions are organizational elements that are maintained within Human resources.</span></span> <span data-ttu-id="59e4f-106">หัวข้อนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="59e4f-106">This topic describes conceptual information about these elements.</span></span> 
 
-ตัวอย่างต่อไปนี้จะใช้เพื่อแสดงแนวคิดที่อธิบายไว้ในหัวข้อนี้
+<span data-ttu-id="59e4f-107">ตัวอย่างต่อไปนี้จะใช้เพื่อแสดงแนวคิดที่อธิบายไว้ในหัวข้อนี้</span><span class="sxs-lookup"><span data-stu-id="59e4f-107">The following example is used to illustrate the concepts described in this topic.</span></span>
 
-|**แผนก**|**ตำแหน่ง**|**งาน**|
+|<span data-ttu-id="59e4f-108">**แผนก**</span><span class="sxs-lookup"><span data-stu-id="59e4f-108">**Department**</span></span>|<span data-ttu-id="59e4f-109">**ตำแหน่ง**</span><span class="sxs-lookup"><span data-stu-id="59e4f-109">**Position**</span></span>|<span data-ttu-id="59e4f-110">**งาน**</span><span class="sxs-lookup"><span data-stu-id="59e4f-110">**Job**</span></span>|
 |---|---|---|
-|**การขาย**|ผู้จัดการฝ่ายขาย (ตะวันออก)|ผู้จัดการฝ่ายขาย|
-|**การขาย**|ผู้จัดการฝ่ายขาย (ตะวันตก)|ผู้จัดการฝ่ายขาย|
-|**การขาย**|ผู้จัดการฝ่ายขาย (ส่วนกลาง)|ผู้จัดการฝ่ายขาย|
-|**การบัญชี**|หัวหน้างานฝ่ายบัญชี|ผู้จัดการฝ่ายบัญชี|
-|**การบัญชี**|การบัญชี-A|นักบัญชี|
-|**ทรัพยากรบุคคล**|ผู้จัดการฝ่ายทรัพยากรบุคคล (ตะวันออก)|ผู้จัดการฝ่ายทรัพยากรบุคคล|
-|**ทรัพยากรบุคคล**|ผู้จัดการฝ่ายทรัพยากรบุคคล (ตะวันตก)|ผู้จัดการฝ่ายทรัพยากรบุคคล|
-|**ทรัพยากรบุคคล**|ผู้จัดการฝ่ายทรัพยากรบุคคล (ส่วนกลาง)|ผู้จัดการฝ่ายทรัพยากรบุคคล|
+|<span data-ttu-id="59e4f-111">**การขาย**</span><span class="sxs-lookup"><span data-stu-id="59e4f-111">**Sales**</span></span>|<span data-ttu-id="59e4f-112">ผู้จัดการฝ่ายขาย (ตะวันออก)</span><span class="sxs-lookup"><span data-stu-id="59e4f-112">Sales manager (East)</span></span>|<span data-ttu-id="59e4f-113">ผู้จัดการฝ่ายขาย</span><span class="sxs-lookup"><span data-stu-id="59e4f-113">Sales manager</span></span>|
+|<span data-ttu-id="59e4f-114">**การขาย**</span><span class="sxs-lookup"><span data-stu-id="59e4f-114">**Sales**</span></span>|<span data-ttu-id="59e4f-115">ผู้จัดการฝ่ายขาย (ตะวันตก)</span><span class="sxs-lookup"><span data-stu-id="59e4f-115">Sales manager (West)</span></span>|<span data-ttu-id="59e4f-116">ผู้จัดการฝ่ายขาย</span><span class="sxs-lookup"><span data-stu-id="59e4f-116">Sales manager</span></span>|
+|<span data-ttu-id="59e4f-117">**การขาย**</span><span class="sxs-lookup"><span data-stu-id="59e4f-117">**Sales**</span></span>|<span data-ttu-id="59e4f-118">ผู้จัดการฝ่ายขาย (ส่วนกลาง)</span><span class="sxs-lookup"><span data-stu-id="59e4f-118">Sales manager (Central)</span></span>|<span data-ttu-id="59e4f-119">ผู้จัดการฝ่ายขาย</span><span class="sxs-lookup"><span data-stu-id="59e4f-119">Sales manager</span></span>|
+|<span data-ttu-id="59e4f-120">**การบัญชี**</span><span class="sxs-lookup"><span data-stu-id="59e4f-120">**Accounting**</span></span>|<span data-ttu-id="59e4f-121">หัวหน้างานฝ่ายบัญชี</span><span class="sxs-lookup"><span data-stu-id="59e4f-121">Accounting supervisor</span></span>|<span data-ttu-id="59e4f-122">ผู้จัดการฝ่ายบัญชี</span><span class="sxs-lookup"><span data-stu-id="59e4f-122">Accounting manager</span></span>|
+|<span data-ttu-id="59e4f-123">**การบัญชี**</span><span class="sxs-lookup"><span data-stu-id="59e4f-123">**Accounting**</span></span>|<span data-ttu-id="59e4f-124">การบัญชี-A</span><span class="sxs-lookup"><span data-stu-id="59e4f-124">Accounting-A</span></span>|<span data-ttu-id="59e4f-125">นักบัญชี</span><span class="sxs-lookup"><span data-stu-id="59e4f-125">Accountant</span></span>|
+|<span data-ttu-id="59e4f-126">**ทรัพยากรบุคคล**</span><span class="sxs-lookup"><span data-stu-id="59e4f-126">**Human resources**</span></span>|<span data-ttu-id="59e4f-127">ผู้จัดการฝ่ายทรัพยากรบุคคล (ตะวันออก)</span><span class="sxs-lookup"><span data-stu-id="59e4f-127">HR manager (East)</span></span>|<span data-ttu-id="59e4f-128">ผู้จัดการฝ่ายทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="59e4f-128">HR manager</span></span>|
+|<span data-ttu-id="59e4f-129">**ทรัพยากรบุคคล**</span><span class="sxs-lookup"><span data-stu-id="59e4f-129">**Human resources**</span></span>|<span data-ttu-id="59e4f-130">ผู้จัดการฝ่ายทรัพยากรบุคคล (ตะวันตก)</span><span class="sxs-lookup"><span data-stu-id="59e4f-130">HR manager (West)</span></span>|<span data-ttu-id="59e4f-131">ผู้จัดการฝ่ายทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="59e4f-131">HR manager</span></span>|
+|<span data-ttu-id="59e4f-132">**ทรัพยากรบุคคล**</span><span class="sxs-lookup"><span data-stu-id="59e4f-132">**Human resources**</span></span>|<span data-ttu-id="59e4f-133">ผู้จัดการฝ่ายทรัพยากรบุคคล (ส่วนกลาง)</span><span class="sxs-lookup"><span data-stu-id="59e4f-133">HR manager (Central)</span></span>|<span data-ttu-id="59e4f-134">ผู้จัดการฝ่ายทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="59e4f-134">HR manager</span></span>|
 
  
- <a name="departments"></a>แผนก
+ <a name="departments"></a><span data-ttu-id="59e4f-135">แผนก</span><span class="sxs-lookup"><span data-stu-id="59e4f-135">Departments</span></span>
 ------------
 
-แผนกเป็นหน่วยปฏิบัติงานที่แสดงถึงประเภทหรือขอบเขตหน้าที่ขององค์กรที่รับผิดชอบเฉพาะด้านขององค์กร เช่น การขาย หรือ การบัญชี แผนกถูกใช้เพื่อรายงานในเรื่องขอบเขตหน้าที่ และอาจมีความรับผิดชอบในเรื่องกำไรขาดทุน แผนกยังอาจรวมกลุ่มของศูนย์ต้นทุนด้วย การขาย การบัญชี และทรัพยากรบุคคล เป็นตัวอย่างของแผนกในองค์กร
+<span data-ttu-id="59e4f-136">แผนกเป็นหน่วยปฏิบัติงานที่แสดงถึงประเภทหรือขอบเขตหน้าที่ขององค์กรที่รับผิดชอบเฉพาะด้านขององค์กร เช่น การขาย หรือ การบัญชี</span><span class="sxs-lookup"><span data-stu-id="59e4f-136">A department is an operating unit that represents a category or functional area of an organization that is responsible for a specific area of the organization, such as sales or accounting.</span></span> <span data-ttu-id="59e4f-137">แผนกถูกใช้เพื่อรายงานในเรื่องขอบเขตหน้าที่ และอาจมีความรับผิดชอบในเรื่องกำไรขาดทุน</span><span class="sxs-lookup"><span data-stu-id="59e4f-137">A department is used to report on functional areas and may have profit and loss responsibility.</span></span> <span data-ttu-id="59e4f-138">แผนกยังอาจรวมกลุ่มของศูนย์ต้นทุนด้วย</span><span class="sxs-lookup"><span data-stu-id="59e4f-138">Also, a department might include a group of cost centers.</span></span> <span data-ttu-id="59e4f-139">การขาย การบัญชี และทรัพยากรบุคคล เป็นตัวอย่างของแผนกในองค์กร</span><span class="sxs-lookup"><span data-stu-id="59e4f-139">Sales, accounting, and human resources are some examples of departments in an organization.</span></span>
 
-## <a name="jobs-and-positions"></a> งานและตำแหน่งงาน
-งานเป็นชุดข้อมูลงานและความรับผิดชอบที่ถูกระบุขึ้นสำหรับคนที่ทำงานนั้น ๆ ตำแหน่งคือแต่ละอินสแตนซ์ของงาน ขอบเขตความรับผิดชอบ การปฏิบัติงาน ฟังก์ชันงาน ทักษะ ข้อมูลการศึกษา และใบรับรองที่จำเป็นสำหรับงานนั้น ๆ ยังจำเป็นสำหรับตำแหน่งที่สัมพันธ์กับงานนั้น ๆ ด้วย
-### <a name="job-tasks"></a>การปฏิบัติงาน
+## <a name="jobs-and-positions"></a><span data-ttu-id="59e4f-140"> งานและตำแหน่งงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-140">Jobs and positions</span></span>
+<span data-ttu-id="59e4f-141">งานเป็นชุดข้อมูลงานและความรับผิดชอบที่ถูกระบุขึ้นสำหรับคนที่ทำงานนั้น ๆ</span><span class="sxs-lookup"><span data-stu-id="59e4f-141">A job is a collection of tasks and responsibilities that are required of a person who performs a job.</span></span> <span data-ttu-id="59e4f-142">ตำแหน่งคือแต่ละอินสแตนซ์ของงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-142">A position is an individual instance of a job.</span></span> <span data-ttu-id="59e4f-143">ขอบเขตความรับผิดชอบ การปฏิบัติงาน ฟังก์ชันงาน ทักษะ ข้อมูลการศึกษา และใบรับรองที่จำเป็นสำหรับงานนั้น ๆ ยังจำเป็นสำหรับตำแหน่งที่สัมพันธ์กับงานนั้น ๆ ด้วย</span><span class="sxs-lookup"><span data-stu-id="59e4f-143">Areas of responsibility, job tasks, job functions, skills, education information, and certificates that are required for a job are also required for positions that are associated with a job.</span></span>
+### <a name="job-tasks"></a><span data-ttu-id="59e4f-144">การปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-144">Job tasks</span></span>
 
-คุณสามารถสร้างการปฏิบัติงานที่อธิบายงานพื้นฐานซึ่งผู้ปฏิบัติงานในตำแหน่งนั้นต้องทำให้เสร็จสมบูรณ์ การปฏิบัติงานที่เหมือนกันสามารถเพิ่มลงในงานหลายงานได้ และตำแหน่งสำหรับงานดังกล่าวจะสืบทอดการปฏิบัติงานเหล่านั้น ตัวอย่างของการปฏิบัติงานคือรายการในตารางต่อไปนี้
+<span data-ttu-id="59e4f-145">คุณสามารถสร้างการปฏิบัติงานที่อธิบายงานพื้นฐานซึ่งผู้ปฏิบัติงานในตำแหน่งนั้นต้องทำให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="59e4f-145">You can create job tasks that describe the basic tasks that a worker in a position for that job must complete.</span></span> <span data-ttu-id="59e4f-146">การปฏิบัติงานที่เหมือนกันสามารถเพิ่มลงในงานหลายงานได้ และตำแหน่งสำหรับงานดังกล่าวจะสืบทอดการปฏิบัติงานเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="59e4f-146">The same job task can be added to multiple jobs, and positions for those jobs will inherit those job tasks.</span></span> <span data-ttu-id="59e4f-147">ตัวอย่างของการปฏิบัติงานคือรายการในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="59e4f-147">Examples of job tasks are listed in the following table.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>งาน</th>
-<th>การปฏิบัติงาน</th>
+<th><span data-ttu-id="59e4f-148">งาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-148">Job</span></span></th>
+<th><span data-ttu-id="59e4f-149">การปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-149">Job task</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ผู้จัดการฝ่ายขาย</td>
+<td><span data-ttu-id="59e4f-150">ผู้จัดการฝ่ายขาย</span><span class="sxs-lookup"><span data-stu-id="59e4f-150">Sales manager</span></span></td>
 <td><ul>
-<li><span class="input">การตรวจทานประสิทธิภาพการทำงาน</span>– ตรวจทานประสิทธิภาพการทำงานของพนักงานขายแต่ละคน</li>
-<li><span class="input">การตรวจทาน abs</span> – อนุมัติ หรือปฏิเสธ คำขอขาดงานหรือการลงทะเบียนของพนักงานขายแต่ละคน</li>
+<li><span data-ttu-id="59e4f-151"><span class="input">การตรวจทานประสิทธิภาพการทำงาน</span>– ตรวจทานประสิทธิภาพการทำงานของพนักงานขายแต่ละคน</span><span class="sxs-lookup"><span data-stu-id="59e4f-151"><span class="input">Perf-review</span> – Review each salesperson’s job performance.</span></span></li>
+<li><span data-ttu-id="59e4f-152"><span class="input">การตรวจทาน abs</span> – อนุมัติ หรือปฏิเสธ คำขอขาดงานหรือการลงทะเบียนของพนักงานขายแต่ละคน</span><span class="sxs-lookup"><span data-stu-id="59e4f-152"><span class="input">Abs-review</span> – Approve or reject each salesperson’s absence requests or registrations.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>นักบัญชี</td>
-<td><span class="input">การรายงาน FIN</span> – นำเสนอรายงานทางการเงินรายสัปดาห์ให้ประธานเจ้าหน้าที่ฝ่ายการเงิน</td>
+<td><span data-ttu-id="59e4f-153">นักบัญชี</span><span class="sxs-lookup"><span data-stu-id="59e4f-153">Accountant</span></span></td>
+<td><span data-ttu-id="59e4f-154"><span class="input">การรายงาน FIN</span> – นำเสนอรายงานทางการเงินรายสัปดาห์ให้ประธานเจ้าหน้าที่ฝ่ายการเงิน</span><span class="sxs-lookup"><span data-stu-id="59e4f-154"><span class="input">FIN-Report</span> – Present weekly financial reports to chief financial officer.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="job-functions"></a>ฟังก์ชันงาน
+### <a name="job-functions"></a><span data-ttu-id="59e4f-155">ฟังก์ชันงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-155">Job functions</span></span>
 
-ฟังก์ชันงานเหมือนกับการปฏิบัติงาน ฟังก์ชันงานอธิบายงานหนึ่งงานหรือหลายงาน หน้าที่หรือความรับผิดชอบที่ถูกกำหนดในงาน ฟังก์ชันงานสามารถกำหนดให้กับงานได้ และใช้เพื่อการตั้งค่า และใช้กฎการมีสิทธิ์สำหรับแผนค่าตอบแทน ตัวอย่างของฟังก์ชันงานคือรายการในตารางต่อไปนี้
+<span data-ttu-id="59e4f-156">ฟังก์ชันงานเหมือนกับการปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-156">Job functions are like job tasks.</span></span> <span data-ttu-id="59e4f-157">ฟังก์ชันงานอธิบายงานหนึ่งงานหรือหลายงาน หน้าที่หรือความรับผิดชอบที่ถูกกำหนดในงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-157">A job function describes one or more tasks, duties or responsibilities that are assigned to a job.</span></span> <span data-ttu-id="59e4f-158">ฟังก์ชันงานสามารถกำหนดให้กับงานได้ และใช้เพื่อการตั้งค่า และใช้กฎการมีสิทธิ์สำหรับแผนค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="59e4f-158">Job functions can be assigned to jobs and used to set up and implement eligibility rules for compensation plans.</span></span> <span data-ttu-id="59e4f-159">ตัวอย่างของฟังก์ชันงานคือรายการในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="59e4f-159">Examples of job functions are listed in the following table.</span></span>
 
-| งาน           | ฟังก์ชันงาน                                                |
+| <span data-ttu-id="59e4f-160">งาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-160">Job</span></span>           | <span data-ttu-id="59e4f-161">ฟังก์ชันงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-161">Job function</span></span>                                                |
 |---------------|-------------------------------------------------------------|
-| ผู้จัดการฝ่ายขาย | การจัดการบุคคลากร – การจัดการบุคลากรที่รายงานต่อคุณ               |
-| นักบัญชี    | การตรวจทานการเงิน – การรักษาข้อมูลทางการเงินสำหรับชุดของบัญชีนั้น |
+| <span data-ttu-id="59e4f-162">ผู้จัดการฝ่ายขาย</span><span class="sxs-lookup"><span data-stu-id="59e4f-162">Sales manager</span></span> | <span data-ttu-id="59e4f-163">การจัดการบุคคลากร – การจัดการบุคลากรที่รายงานต่อคุณ</span><span class="sxs-lookup"><span data-stu-id="59e4f-163">Mng-people – Manage people who report to you.</span></span>               |
+| <span data-ttu-id="59e4f-164">นักบัญชี</span><span class="sxs-lookup"><span data-stu-id="59e4f-164">Accountant</span></span>    | <span data-ttu-id="59e4f-165">การตรวจทานการเงิน – การรักษาข้อมูลทางการเงินสำหรับชุดของบัญชีนั้น</span><span class="sxs-lookup"><span data-stu-id="59e4f-165">FIN-Review – Maintain financial data for a set of accounts.</span></span> |
 
-### <a name="job-types"></a>ชนิดงาน
+### <a name="job-types"></a><span data-ttu-id="59e4f-166">ชนิดงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-166">Job types</span></span>
 
-ใช้ชนิดงานเพื่อจัดประเภทงานที่คล้ายกันเป็นประเภท ชนิดงานเหมือนกับฟังก์ชันงาน สามารถกำหนดให้กับงานได้ และใช้เพื่อการตั้งค่า และใช้กฎการมีสิทธิ์สำหรับแผนค่าตอบแทน ตัวอย่างของชนิดงานรวมอยู่ในรายการต่อไปนี้:
--   งานประจำ
--   งานชั่วคราว
--   เงินเดือน
--   ค่าจ้างต่อชั่วโมง
+<span data-ttu-id="59e4f-167">ใช้ชนิดงานเพื่อจัดประเภทงานที่คล้ายกันเป็นประเภท</span><span class="sxs-lookup"><span data-stu-id="59e4f-167">Use job types to classify similar jobs into categories.</span></span> <span data-ttu-id="59e4f-168">ชนิดงานเหมือนกับฟังก์ชันงาน สามารถกำหนดให้กับงานได้ และใช้เพื่อการตั้งค่า และใช้กฎการมีสิทธิ์สำหรับแผนค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="59e4f-168">Job types, just like job functions, can be assigned to jobs and used to set up and implement eligibility rules for compensation plans.</span></span> <span data-ttu-id="59e4f-169">ตัวอย่างของชนิดงานรวมอยู่ในรายการต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="59e4f-169">Some examples of job types are included in the following list:</span></span>
+-   <span data-ttu-id="59e4f-170">งานประจำ</span><span class="sxs-lookup"><span data-stu-id="59e4f-170">Full-time</span></span>
+-   <span data-ttu-id="59e4f-171">งานชั่วคราว</span><span class="sxs-lookup"><span data-stu-id="59e4f-171">Part-time</span></span>
+-   <span data-ttu-id="59e4f-172">เงินเดือน</span><span class="sxs-lookup"><span data-stu-id="59e4f-172">Salary</span></span>
+-   <span data-ttu-id="59e4f-173">ค่าจ้างต่อชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="59e4f-173">Hourly pay</span></span>
 
-### <a name="areas-of-responsibility"></a>ขอบเขตความรับผิดชอบ
+### <a name="areas-of-responsibility"></a><span data-ttu-id="59e4f-174">ขอบเขตความรับผิดชอบ</span><span class="sxs-lookup"><span data-stu-id="59e4f-174">Areas of responsibility</span></span>
 
-ใช้ขอบเขตความรับผิดชอบเพื่อระบุ บทบาทงาน กระบวนการ ผลิตภัณฑ์ ที่ผู้ปฏิบัติงานในตำแหน่งงานนั้นควรรับผิดชอบ ตัวอย่างของขอบเขตของความรับผิดชอบสำหรับตำแหน่งงาน "นักบัญชี" อาจเป็น "การรายงานการเงินสำหรับผลิตภัณฑ์ A"
+<span data-ttu-id="59e4f-175">ใช้ขอบเขตความรับผิดชอบเพื่อระบุ บทบาทงาน กระบวนการ ผลิตภัณฑ์ ที่ผู้ปฏิบัติงานในตำแหน่งงานนั้นควรรับผิดชอบ</span><span class="sxs-lookup"><span data-stu-id="59e4f-175">Use areas of responsibility to indicate the work roles, processes, and products that a worker in a position for that job would be responsible for.</span></span> <span data-ttu-id="59e4f-176">ตัวอย่างของขอบเขตของความรับผิดชอบสำหรับตำแหน่งงาน "นักบัญชี" อาจเป็น "การรายงานการเงินสำหรับผลิตภัณฑ์ A"</span><span class="sxs-lookup"><span data-stu-id="59e4f-176">An example of an area of responsibility for a job titled “Accountant” might be “Financial reporting for Product A”.</span></span>
 
-<a name="positions"></a>ตำแหน่ง
+<a name="positions"></a><span data-ttu-id="59e4f-177">ตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-177">Positions</span></span>
 ----------
 
-ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร ตำแหน่งคือแต่ละอินสแตนซ์ของงาน ตัวอย่างเช่น ตำแหน่ง "ผู้จัดการฝ่ายขาย (ตะวันออก)" เป็นเพียงหนึ่งในตำแหน่งที่สัมพันธ์กับงาน "ผู้จัดการฝ่ายขาย" ตำแหน่งต่างๆ มีอยู่ในแผนก และกำหนดให้กับผู้ปฏิบัติงาน
-### <a name="position-creation-and-maintenance"></a>การสร้างตำแหน่งงานและการรักษา
+<span data-ttu-id="59e4f-178">ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร</span><span class="sxs-lookup"><span data-stu-id="59e4f-178">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="59e4f-179">ตำแหน่งคือแต่ละอินสแตนซ์ของงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-179">A position is an individual instance of a job.</span></span> <span data-ttu-id="59e4f-180">ตัวอย่างเช่น ตำแหน่ง "ผู้จัดการฝ่ายขาย (ตะวันออก)" เป็นเพียงหนึ่งในตำแหน่งที่สัมพันธ์กับงาน "ผู้จัดการฝ่ายขาย"</span><span class="sxs-lookup"><span data-stu-id="59e4f-180">For example, the position, “Sales manager (East),” is just one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="59e4f-181">ตำแหน่งต่างๆ มีอยู่ในแผนก และกำหนดให้กับผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-181">Positions exist in a department and are assigned to workers.</span></span>
+### <a name="position-creation-and-maintenance"></a><span data-ttu-id="59e4f-182">การสร้างตำแหน่งงานและการรักษา</span><span class="sxs-lookup"><span data-stu-id="59e4f-182">Position creation and maintenance</span></span>
 
--   คุณสามารถดูประวัติของการเปลี่ยนแปลงของระบบที่เกี่ยวข้องกับตำแหน่งในหน้ารายการการเข้าถึงอย่างง่าย
--   คุณสามารถสร้างรหัสเหตุผลที่ผู้ใช้ของคุณสามารถเลือกเมื่อสร้างหรือแก้ไขตำแหน่ง
--   คุณสามารถสร้างชนิดการดำเนินการด้านบุคลากร และกำหนดลำดับหมายเลขให้กับการดำเนินการด้านบุคลากร
--   คุณสามารถตั้งค่าลำดับงานเพื่อให้การเพิ่มและเปลี่ยนแปลงตำแหน่งงานต้องมีการอนุมัติ
+-   <span data-ttu-id="59e4f-183">คุณสามารถดูประวัติของการเปลี่ยนแปลงของระบบที่เกี่ยวข้องกับตำแหน่งในหน้ารายการการเข้าถึงอย่างง่าย</span><span class="sxs-lookup"><span data-stu-id="59e4f-183">You can view a history of position-related system changes in an easy-to-access list page.</span></span>
+-   <span data-ttu-id="59e4f-184">คุณสามารถสร้างรหัสเหตุผลที่ผู้ใช้ของคุณสามารถเลือกเมื่อสร้างหรือแก้ไขตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-184">You can create reason codes that your users can select when they create or modify positions.</span></span>
+-   <span data-ttu-id="59e4f-185">คุณสามารถสร้างชนิดการดำเนินการด้านบุคลากร และกำหนดลำดับหมายเลขให้กับการดำเนินการด้านบุคลากร</span><span class="sxs-lookup"><span data-stu-id="59e4f-185">You can create personnel action types and assign a number sequence to personnel actions.</span></span>
+-   <span data-ttu-id="59e4f-186">คุณสามารถตั้งค่าลำดับงานเพื่อให้การเพิ่มและเปลี่ยนแปลงตำแหน่งงานต้องมีการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="59e4f-186">You can set up workflow so that position additions and changes can require approval.</span></span>
 
-### <a name="position-duration"></a>ช่วงเวลาของตำแหน่ง
+### <a name="position-duration"></a><span data-ttu-id="59e4f-187">ช่วงเวลาของตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-187">Position duration</span></span>
 
-ทุกตำแหน่งมีความยาวของเวลาที่ตำแหน่งจะมีผลบังคับใช้ ระยะเวลานี้จะถูกอ้างถึงช่วงเวลา ตัวอย่างเช่น ตำแหน่งในฤดูร้อนอาจมีช่วงเวลาตั้งแต่วันที่ 1 พษภาคม 2015 จนถึง วันที่ 31 สิงหาคม 2015
+<span data-ttu-id="59e4f-188">ทุกตำแหน่งมีความยาวของเวลาที่ตำแหน่งจะมีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="59e4f-188">Every position has a length of time that the position is effective.</span></span> <span data-ttu-id="59e4f-189">ระยะเวลานี้จะถูกอ้างถึงช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="59e4f-189">This length of time is referred to as duration.</span></span> <span data-ttu-id="59e4f-190">ตัวอย่างเช่น ตำแหน่งในฤดูร้อนอาจมีช่วงเวลาตั้งแต่วันที่ 1 พษภาคม 2015 จนถึง วันที่ 31 สิงหาคม 2015</span><span class="sxs-lookup"><span data-stu-id="59e4f-190">For example, summer positions might have duration of May 1, 2015 until August 31, 2015.</span></span>
 
-### <a name="worker-assignments"></a>การมอบหมายผู้ปฏิบัติงาน
+### <a name="worker-assignments"></a><span data-ttu-id="59e4f-191">การมอบหมายผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-191">Worker assignments</span></span>
 
-เมื่อคุณมอบหมายตำแหน่งให้กับผู้ปฏิบัติงาน ให้คุณใส่ตำแหน่งนั้น คุณสามารถกำหนดผู้ปฏิบัติงานในหลายตำแหน่ง แต่ผู้ปฏิบัติงานเพียงหนึ่งคนเท่านั้นที่จะสามารถถูกกำหนดตำแหน่งได้ในเวลาเดียวกัน
+<span data-ttu-id="59e4f-192">เมื่อคุณมอบหมายตำแหน่งให้กับผู้ปฏิบัติงาน ให้คุณใส่ตำแหน่งนั้น</span><span class="sxs-lookup"><span data-stu-id="59e4f-192">When you assign a worker to a position, you fill that position.</span></span> <span data-ttu-id="59e4f-193">คุณสามารถกำหนดผู้ปฏิบัติงานในหลายตำแหน่ง แต่ผู้ปฏิบัติงานเพียงหนึ่งคนเท่านั้นที่จะสามารถถูกกำหนดตำแหน่งได้ในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="59e4f-193">You can assign workers to multiple positions, but only one worker can be assigned to a position at the same time.</span></span>
 
-### <a name="reporting-relationships"></a>ความสัมพันธ์การรายงาน
+### <a name="reporting-relationships"></a><span data-ttu-id="59e4f-194">ความสัมพันธ์การรายงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-194">Reporting relationships</span></span>
 
-ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร ในแบบฟอร์มตำแหน่ง คุณสามารถระบุตำแหน่งที่ตำแหน่งนั้นต้องรายงานต่อ เมื่อคุณกำหนดผู้ปฏิบัติงานไปยังตำแหน่งที่รายงานต่อตำแหน่งอื่น คุณสร้างการรายงานความสัมพันธ์ระหว่างผู้ปฏิบัติงานที่ถูกกำหนดให้กับทั้งสองตำแหน่ง ตัวอย่างเช่น ตำแหน่ง "นักบัญชี A" รายงานต่อ "หัวหน้างานฝ่ายบัญชี" Kim Akers ถูกกำหนดตำแหน่งให้เป็น "หัวหน้างานฝ่ายบัญชี" และ Sanjay Patel ถูกกำหนดตำแหน่งให้เป็น "นักบัญชี A" ซึ่งหมายความว่า Sanjay Patel รายงานต่อ Kim Akers 
+<span data-ttu-id="59e4f-195">ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร</span><span class="sxs-lookup"><span data-stu-id="59e4f-195">Positions are important elements of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="59e4f-196">ในแบบฟอร์มตำแหน่ง คุณสามารถระบุตำแหน่งที่ตำแหน่งนั้นต้องรายงานต่อ</span><span class="sxs-lookup"><span data-stu-id="59e4f-196">In the Position form, you can specify the position that a position reports to.</span></span> <span data-ttu-id="59e4f-197">เมื่อคุณกำหนดผู้ปฏิบัติงานไปยังตำแหน่งที่รายงานต่อตำแหน่งอื่น คุณสร้างการรายงานความสัมพันธ์ระหว่างผู้ปฏิบัติงานที่ถูกกำหนดให้กับทั้งสองตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-197">When you assign a worker to a position that reports to another position, you create a reporting relationship between the workers who are assigned to the two positions.</span></span> <span data-ttu-id="59e4f-198">ตัวอย่างเช่น ตำแหน่ง "นักบัญชี A" รายงานต่อ "หัวหน้างานฝ่ายบัญชี"</span><span class="sxs-lookup"><span data-stu-id="59e4f-198">For example, position “Accountant-A” reports to position “Accounting Supervisor”.</span></span> <span data-ttu-id="59e4f-199">Kim Akers ถูกกำหนดตำแหน่งให้เป็น "หัวหน้างานฝ่ายบัญชี" และ Sanjay Patel ถูกกำหนดตำแหน่งให้เป็น "นักบัญชี A"</span><span class="sxs-lookup"><span data-stu-id="59e4f-199">Kim Akers is assigned to position “Accounting Supervisor” and Sanjay Patel is assigned to position “Accountant-A”.</span></span> <span data-ttu-id="59e4f-200">ซึ่งหมายความว่า Sanjay Patel รายงานต่อ Kim Akers</span><span class="sxs-lookup"><span data-stu-id="59e4f-200">This means that Sanjay Patel reports to Kim Akers.</span></span> 
 
-ถ้าองค์กรของคุณใช้ลำดับชั้นเมทริกซ์หรือลำดับชั้นแบบกำหนดเองอื่นๆ คุณสามารถตั้งค่าชนิดลำดับชั้นของตำแหน่งงาน และเพิ่มความสัมพันธ์การรายงานต่อตำแหน่งสำหรับแต่ละชนิดลำดับชั้นที่คุณตั้งค่า ตัวอย่างเช่น Lori Penor เป็นผู้จัดการทั่วไปใน Adventure Works และถูกกำหนดตำแหน่งให้เป็น "ผู้จัดการทั่วไป" Lori จัดการการพัฒนาผลิตภัณฑ์ที่จะใช้ในการทำความสะอาดอุปกรณ์ Lori ต้องมีนักบัญชีเพื่อช่วยเธอในเรื่องการเงินสำหรับการพัฒนาผลิตภัณฑ์ ดังนั้น เธอได้เลือก Sanjay Patel ให้เป็นนักบัญชีของเธอเอง Sanjay รายงานโดยตรงต่อ Kim Akers แต่ก็ทำงานให้กับ Lori Penor ซึ่งเกี่ยวข้องกับเรื่องการเงินสำหรับการพัฒนาอุปกรณ์ทำความสะอาด 
+<span data-ttu-id="59e4f-201">ถ้าองค์กรของคุณใช้ลำดับชั้นเมทริกซ์หรือลำดับชั้นแบบกำหนดเองอื่นๆ คุณสามารถตั้งค่าชนิดลำดับชั้นของตำแหน่งงาน และเพิ่มความสัมพันธ์การรายงานต่อตำแหน่งสำหรับแต่ละชนิดลำดับชั้นที่คุณตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="59e4f-201">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span> <span data-ttu-id="59e4f-202">ตัวอย่างเช่น Lori Penor เป็นผู้จัดการทั่วไปใน Adventure Works และถูกกำหนดตำแหน่งให้เป็น "ผู้จัดการทั่วไป"</span><span class="sxs-lookup"><span data-stu-id="59e4f-202">For example, Lori Penor is a general manager at Adventure Works and is assigned to the “General Manager” position.</span></span> <span data-ttu-id="59e4f-203">Lori จัดการการพัฒนาผลิตภัณฑ์ที่จะใช้ในการทำความสะอาดอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="59e4f-203">Lori manages the development of a product that is used to clean widgets.</span></span> <span data-ttu-id="59e4f-204">Lori ต้องมีนักบัญชีเพื่อช่วยเธอในเรื่องการเงินสำหรับการพัฒนาผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="59e4f-204">Lori requires an accountant to help her with the finances for developing the product.</span></span> <span data-ttu-id="59e4f-205">ดังนั้น เธอได้เลือก Sanjay Patel ให้เป็นนักบัญชีของเธอเอง</span><span class="sxs-lookup"><span data-stu-id="59e4f-205">Therefore, she has recruited Sanjay Patel to be her accountant.</span></span> <span data-ttu-id="59e4f-206">Sanjay รายงานโดยตรงต่อ Kim Akers แต่ก็ทำงานให้กับ Lori Penor ซึ่งเกี่ยวข้องกับเรื่องการเงินสำหรับการพัฒนาอุปกรณ์ทำความสะอาด</span><span class="sxs-lookup"><span data-stu-id="59e4f-206">Sanjay reports directly to Kim Akers, but also works with Lori Penor on his work related to the finances for developing the widget cleaner.</span></span> 
 
-ตัวอย่างก่อนหน้านี้ คุณต้องกรอกงานต่อไปนี้เพื่อตั้งค่าความสัมพันธ์ในการทำงานระหว่าง Sanjay Patel และ Lori Penor:
-1.  สร้างชนิดลำดับชั้นของตำแหน่งงานที่กำหนดเองเรียกว่า "อุปกรณ์" เพื่อสร้างลำดับชั้นที่ประกอบด้วยตำแหน่งงานที่รับผิดชอบสำหรับการทำงานในผลิตภัณฑ์อุปกรณ์ทำความสะอาด
-2.  กำหนดตำแหน่งผู้จัดการทั่วไปให้เป็นตำแหน่งที่นักบัญชี A รายงานต่อในลำดับชั้นของอุปกรณ์
+<span data-ttu-id="59e4f-207">ตัวอย่างก่อนหน้านี้ คุณต้องกรอกงานต่อไปนี้เพื่อตั้งค่าความสัมพันธ์ในการทำงานระหว่าง Sanjay Patel และ Lori Penor:</span><span class="sxs-lookup"><span data-stu-id="59e4f-207">For the previous example, you would complete the following tasks to set up the working relationship between Sanjay Patel and Lori Penor:</span></span>
+1.  <span data-ttu-id="59e4f-208">สร้างชนิดลำดับชั้นของตำแหน่งงานที่กำหนดเองเรียกว่า "อุปกรณ์" เพื่อสร้างลำดับชั้นที่ประกอบด้วยตำแหน่งงานที่รับผิดชอบสำหรับการทำงานในผลิตภัณฑ์อุปกรณ์ทำความสะอาด</span><span class="sxs-lookup"><span data-stu-id="59e4f-208">Create a custom position hierarchy type called “Widget” to create a hierarchy that includes positions responsible for working on the widget cleaner product.</span></span>
+2.  <span data-ttu-id="59e4f-209">กำหนดตำแหน่งผู้จัดการทั่วไปให้เป็นตำแหน่งที่นักบัญชี A รายงานต่อในลำดับชั้นของอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="59e4f-209">Assign the General Manager position to be the position that the Accountant-A position reports to in the Widget hierarchy.</span></span>
 
-ใช้ลำดับชั้นของตำแหน่งเพื่อดูโครงสร้างการรายงานของตำแหน่ง ถ้าคุณมีหลายลำดับชั้นของตำแหน่ง คุณสามารถดูลำดับชั้นสำหรับแต่ละชนิดลำดับชั้นในลำดับชั้นของตำแหน่ง นอกจากนี้ คุณยังสามารถค้นหาตำแหน่งโดยรหัสตำแหน่งหรือโดยชื่อของผู้ปฏิบัติงานที่ถูกกำหนดให้กับตำแหน่งงาน ลำดับชั้นของตำแหน่งเป็นลำดับชั้นองค์กร
+<span data-ttu-id="59e4f-210">ใช้ลำดับชั้นของตำแหน่งเพื่อดูโครงสร้างการรายงานของตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-210">Use the position hierarchy to view the reporting structure of positions.</span></span> <span data-ttu-id="59e4f-211">ถ้าคุณมีหลายลำดับชั้นของตำแหน่ง คุณสามารถดูลำดับชั้นสำหรับแต่ละชนิดลำดับชั้นในลำดับชั้นของตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-211">If you have multiple position hierarchies, you can view the hierarchy for each hierarchy type in the position hierarchy.</span></span> <span data-ttu-id="59e4f-212">นอกจากนี้ คุณยังสามารถค้นหาตำแหน่งโดยรหัสตำแหน่งหรือโดยชื่อของผู้ปฏิบัติงานที่ถูกกำหนดให้กับตำแหน่งงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-212">Also, you can search for a position by position ID or by the name of the worker who is assigned to the position.</span></span> <span data-ttu-id="59e4f-213">ลำดับชั้นของตำแหน่งเป็นลำดับชั้นองค์กร</span><span class="sxs-lookup"><span data-stu-id="59e4f-213">The position hierarchy is an organizational hierarchy.</span></span>
 
-## <a name="date-effective-records"></a>วันที่เรกคอร์ดมีผลบังคับใช้
-สำหรับบางเรกคอร์ด คุณสามารถระบุการเปลี่ยนแปลงในอนาคตให้กับเรกคอร์ดได้ ข้อมูลต่อไปนี้คือ วันที่มีผลบังคับใช้
+## <a name="date-effective-records"></a><span data-ttu-id="59e4f-214">วันที่เรกคอร์ดมีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="59e4f-214">Date effective records</span></span>
+<span data-ttu-id="59e4f-215">สำหรับบางเรกคอร์ด คุณสามารถระบุการเปลี่ยนแปลงในอนาคตให้กับเรกคอร์ดได้</span><span class="sxs-lookup"><span data-stu-id="59e4f-215">For some records, you can specify future changes to the record.</span></span> <span data-ttu-id="59e4f-216">ข้อมูลต่อไปนี้คือ วันที่มีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="59e4f-216">The following information is date effective.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>เรกคอร์ด</th>
-<th>วันที่มีผลบังคับใช้</th>
+<th><span data-ttu-id="59e4f-217">เรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="59e4f-217">Records</span></span></th>
+<th><span data-ttu-id="59e4f-218">วันที่มีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="59e4f-218">Date effective information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>งาน</td>
+<td><span data-ttu-id="59e4f-219">งาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-219">Jobs</span></span></td>
 <td><ul>
-<li>บางรายละเอียดงาน</li>
-<li>ข้อมูลการจัดประเภทงาน</li>
-<li>ข้อมูลค่าตอบแทน</li>
+<li><span data-ttu-id="59e4f-220">บางรายละเอียดงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-220">Some detailed job information</span></span></li>
+<li><span data-ttu-id="59e4f-221">ข้อมูลการจัดประเภทงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-221">Job classification information</span></span></li>
+<li><span data-ttu-id="59e4f-222">ข้อมูลค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="59e4f-222">Compensation information</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>ตำแหน่ง</td>
+<td><span data-ttu-id="59e4f-223">ตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="59e4f-223">Positions</span></span></td>
 <td><ul>
-<li>บางรายละเอียดตำแหน่งงาน</li>
-<li>การมอบหมายผู้ปฏิบัติงาน</li>
-<li>ช่วงเวลาของตำแหน่งงาน</li>
-<li>ลำดับชั้นของตำแหน่งงาน</li>
+<li><span data-ttu-id="59e4f-224">บางรายละเอียดตำแหน่งงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-224">Some detailed position information</span></span></li>
+<li><span data-ttu-id="59e4f-225">การมอบหมายผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-225">Worker assignments</span></span></li>
+<li><span data-ttu-id="59e4f-226">ช่วงเวลาของตำแหน่งงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-226">Position durations</span></span></li>
+<li><span data-ttu-id="59e4f-227">ลำดับชั้นของตำแหน่งงาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-227">Position hierarchies</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-คุณสามารถปรับเปลี่ยนข้อมูลที่ระบุไว้ในตารางก่อนหน้านี้สำหรับตำแหน่งหรืองาน และระบุวันที่มีผลในการปรับเปลี่ยนตำแหน่งหรืองาน ตัวอย่างเช่น ตำแหน่งสามารถถูกกำหนดให้กับผู้ปฏิบัติงานหนึ่งคนเท่านั้น แต่ Sanjay Patel ถูกกำหนดให้ในตำแหน่งงานนักบัญชี-A จะลาออกในอีกสองสัปดาห์ Joe Healy จะเข้ามาแทน Sanjay Patel เมื่อเขาลาออก ถึงแม้ว่า Sanjay จะยังถูกกำหนดตำแหน่งของเขาอยู่ คุณสามารถกำหนดให้ Healy joe อยู่ในตำแหน่งเดียวกัน เพื่อให้การกำหนดนั้นผลบังคับหลังจากวันที่สุดท้ายของการทำงานของ Sanjay เท่านั้น
+<span data-ttu-id="59e4f-228">คุณสามารถปรับเปลี่ยนข้อมูลที่ระบุไว้ในตารางก่อนหน้านี้สำหรับตำแหน่งหรืองาน และระบุวันที่มีผลในการปรับเปลี่ยนตำแหน่งหรืองาน</span><span class="sxs-lookup"><span data-stu-id="59e4f-228">You can modify the information mentioned in the previous table for a position or a job and specify a date when the modifications to the position or job should take effect.</span></span> <span data-ttu-id="59e4f-229">ตัวอย่างเช่น ตำแหน่งสามารถถูกกำหนดให้กับผู้ปฏิบัติงานหนึ่งคนเท่านั้น แต่ Sanjay Patel ถูกกำหนดให้ในตำแหน่งงานนักบัญชี-A จะลาออกในอีกสองสัปดาห์</span><span class="sxs-lookup"><span data-stu-id="59e4f-229">For example, a position can only be assigned to one worker, but Sanjay Patel, who is assigned to the position Accountant-A, will be leaving in two weeks.</span></span> <span data-ttu-id="59e4f-230">Joe Healy จะเข้ามาแทน Sanjay Patel เมื่อเขาลาออก</span><span class="sxs-lookup"><span data-stu-id="59e4f-230">Joe Healy will replace Sanjay Patel when he leaves.</span></span> <span data-ttu-id="59e4f-231">ถึงแม้ว่า Sanjay จะยังถูกกำหนดตำแหน่งของเขาอยู่ คุณสามารถกำหนดให้ Healy joe อยู่ในตำแหน่งเดียวกัน เพื่อให้การกำหนดนั้นผลบังคับหลังจากวันที่สุดท้ายของการทำงานของ Sanjay เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="59e4f-231">Even though Sanjay is still assigned to his position, you can assign Joe Healy to the same position so that the assignment is effective only after Sanjay’s last day.</span></span>
 
 
 

@@ -16,36 +16,36 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 2ab30f4326b627406f9a39d6c3203b181b67d68f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-segregation-of-duties"></a>ตั้งค่าการแบ่งแยกหน้าที่
+# <a name="set-up-segregation-of-duties"></a><span data-ttu-id="2ecfb-103">ตั้งค่าการแบ่งแยกหน้าที่</span><span class="sxs-lookup"><span data-stu-id="2ecfb-103">Set up segregation of duties</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ  แนวคิดนี้มีชื่อว่าการแบ่งแยกหน้าที่  ตัวอย่างเช่น คุณอาจไม่ต้องการบุคคลเดียวกันเพื่อยืนยันการรับสินค้าและเพื่อประมวลผลการชำระเงินให้กับผู้จัดจำหน่าย  การแบ่งแยกหน้าที่จะช่วยคุณในการลดความเสี่ยงของการฉ้อโกง และยังช่วยให้คุณตรวจพบข้อผิดพลาดหรือความผิดปกติต่างๆ  คุณยังสามารถใช้การแบ่งแยกหน้าที่เพื่อบังคับใช้นโยบายการควบคุมภายใน  ดำเนินการตามกระบวนงานต่อไปนี้เพื่อสร้างกฎให้เสร็จสมบูรณ์  คุณต้องเป็นผู้ดูแลระบบเพื่อดำเนินการขั้นตอนให้เสร็จสมบูรณ์  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างกระบวนงานนี้คือ DAT  
+<span data-ttu-id="2ecfb-104">คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ </span><span class="sxs-lookup"><span data-stu-id="2ecfb-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="2ecfb-105">แนวคิดนี้มีชื่อว่าการแบ่งแยกหน้าที่ </span><span class="sxs-lookup"><span data-stu-id="2ecfb-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="2ecfb-106">ตัวอย่างเช่น คุณอาจไม่ต้องการบุคคลเดียวกันเพื่อยืนยันการรับสินค้าและเพื่อประมวลผลการชำระเงินให้กับผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="2ecfb-106">For example, you might not want the same person both to acknowledge the receipt of goods and to process payment to the vendor.</span></span> <span data-ttu-id="2ecfb-107">การแบ่งแยกหน้าที่จะช่วยคุณในการลดความเสี่ยงของการฉ้อโกง และยังช่วยให้คุณตรวจพบข้อผิดพลาดหรือความผิดปกติต่างๆ </span><span class="sxs-lookup"><span data-stu-id="2ecfb-107">Segregation of duties helps you reduce the risk of fraud, and it also helps you detect errors or irregularities.</span></span> <span data-ttu-id="2ecfb-108">คุณยังสามารถใช้การแบ่งแยกหน้าที่เพื่อบังคับใช้นโยบายการควบคุมภายใน </span><span class="sxs-lookup"><span data-stu-id="2ecfb-108">You can also use segregation of duties to enforce internal control policies.</span></span> <span data-ttu-id="2ecfb-109">ดำเนินการตามกระบวนงานต่อไปนี้เพื่อสร้างกฎให้เสร็จสมบูรณ์ </span><span class="sxs-lookup"><span data-stu-id="2ecfb-109">Complete the following procedure to create a rule.</span></span> <span data-ttu-id="2ecfb-110">คุณต้องเป็นผู้ดูแลระบบเพื่อดำเนินการขั้นตอนให้เสร็จสมบูรณ์ </span><span class="sxs-lookup"><span data-stu-id="2ecfb-110">You must be a system administrator to complete the procedure.</span></span> <span data-ttu-id="2ecfb-111">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างกระบวนงานนี้คือ DAT </span><span class="sxs-lookup"><span data-stu-id="2ecfb-111">The demo data company used to create this procedure is DAT.</span></span> 
 
-1. ไปที่ การดูแลระบบ > ความปลอดภัย > การแบ่งแยกหน้าที่ > กฎการแบ่งแยกหน้าที่
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-    * ป้อนชื่อสำหรับกฎ  
-4. ในฟิลด์หน้าที่แรก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * เลือกหน้าที่แรกที่ถูกควบคุมโดยกฎ  
-6. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-7. ในฟิลด์หน้าที่ที่สอง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-8. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * เลือกหน้าที่รองที่ถูกควบคุมโดยกฎ  
-9. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-10. ในฟิลด์ความรุนแรง ให้เลือกหนึ่งตัวเลือก
-    * เลือกความรุนแรงของความเสี่ยงที่เกิดขึ้นเมื่อผู้ใช้เดียวกันหรือบทบาทเดียวกันทำหน้าที่ทั้งสองอย่าง  
-11. ในฟิลด์ความเสี่ยงด้านความปลอดภัย ให้พิมพ์ค่า
-    * ป้อนคำอธิบายของความเสี่ยงด้านความปลอดภัย  
-12. ในฟิลด์การลดปัญหาด้านความปลอดภัย ให้พิมพ์ค่า
-    * ป้อนคำอธิบายของการดำเนินการที่คุณใช้ในการลดความเสี่ยงด้านความปลอดภัยใน  ตัวอย่างเช่น คุณสามารถลดความเสี่ยงในการตรวจสอบอย่างละเอียดของกระบวนการ โดยการทำการตรวจทานจัดการรายเดือน หรือโดยการใช้ทรัพยากรร่วมกับแผนกอื่นๆ  
-13. คลิก บันทึก
+1. <span data-ttu-id="2ecfb-112">ไปที่ การดูแลระบบ > ความปลอดภัย > การแบ่งแยกหน้าที่ > กฎการแบ่งแยกหน้าที่</span><span class="sxs-lookup"><span data-stu-id="2ecfb-112">Go to System administration > Security > Segregation of duties > Segregation of duties rules.</span></span>
+2. <span data-ttu-id="2ecfb-113">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="2ecfb-113">Click New.</span></span>
+3. <span data-ttu-id="2ecfb-114">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="2ecfb-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="2ecfb-115">ป้อนชื่อสำหรับกฎ</span><span class="sxs-lookup"><span data-stu-id="2ecfb-115">Enter a name for the rule.</span></span>  
+4. <span data-ttu-id="2ecfb-116">ในฟิลด์หน้าที่แรก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2ecfb-116">In the First duty field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="2ecfb-117">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="2ecfb-117">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2ecfb-118">เลือกหน้าที่แรกที่ถูกควบคุมโดยกฎ</span><span class="sxs-lookup"><span data-stu-id="2ecfb-118">Select the first duty that is controlled by the rule.</span></span>  
+6. <span data-ttu-id="2ecfb-119">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2ecfb-119">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="2ecfb-120">ในฟิลด์หน้าที่ที่สอง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2ecfb-120">In the Second duty field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="2ecfb-121">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="2ecfb-121">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2ecfb-122">เลือกหน้าที่รองที่ถูกควบคุมโดยกฎ</span><span class="sxs-lookup"><span data-stu-id="2ecfb-122">Select the second duty that is controlled by the rule.</span></span>  
+9. <span data-ttu-id="2ecfb-123">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2ecfb-123">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="2ecfb-124">ในฟิลด์ความรุนแรง ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="2ecfb-124">In the Severity field, select an option.</span></span>
+    * <span data-ttu-id="2ecfb-125">เลือกความรุนแรงของความเสี่ยงที่เกิดขึ้นเมื่อผู้ใช้เดียวกันหรือบทบาทเดียวกันทำหน้าที่ทั้งสองอย่าง</span><span class="sxs-lookup"><span data-stu-id="2ecfb-125">Select the severity of the risk that occurs when the same user or role performs both duties.</span></span>  
+11. <span data-ttu-id="2ecfb-126">ในฟิลด์ความเสี่ยงด้านความปลอดภัย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2ecfb-126">In the Security risk field, type a value.</span></span>
+    * <span data-ttu-id="2ecfb-127">ป้อนคำอธิบายของความเสี่ยงด้านความปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="2ecfb-127">Enter a description of the security risk.</span></span>  
+12. <span data-ttu-id="2ecfb-128">ในฟิลด์การลดปัญหาด้านความปลอดภัย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2ecfb-128">In the Security mitigation field, type a value.</span></span>
+    * <span data-ttu-id="2ecfb-129">ป้อนคำอธิบายของการดำเนินการที่คุณใช้ในการลดความเสี่ยงด้านความปลอดภัยใน </span><span class="sxs-lookup"><span data-stu-id="2ecfb-129">Enter a description of the actions that you take to mitigate the security risk.</span></span> <span data-ttu-id="2ecfb-130">ตัวอย่างเช่น คุณสามารถลดความเสี่ยงในการตรวจสอบอย่างละเอียดของกระบวนการ โดยการทำการตรวจทานจัดการรายเดือน หรือโดยการใช้ทรัพยากรร่วมกับแผนกอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="2ecfb-130">For example, you can mitigate the risk by conducting more detailed reviews of the process, by conducting a monthly managerial review, or by sharing resources with other departments.</span></span>  
+13. <span data-ttu-id="2ecfb-131">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="2ecfb-131">Click Save.</span></span>
 
 

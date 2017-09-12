@@ -16,26 +16,26 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: e05895160b7695eea7c26b76dd1953b80ba063e9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d3d5324a6a70539a2b2ba5bb208a546934a7782f
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-product"></a>สร้างผลิตภัณฑ์
+# <a name="create-a-product"></a><span data-ttu-id="da6fd-103">สร้างผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="da6fd-103">Create a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้จะแนะนำวิธีการสร้างผลิตภัณฑ์ใหม่ในลำดับชั้นของผลิตภัณฑ์ขายปลีก  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์
+<span data-ttu-id="da6fd-104">ขั้นตอนนี้จะแนะนำวิธีการสร้างผลิตภัณฑ์ใหม่ในลำดับชั้นของผลิตภัณฑ์ขายปลีก </span><span class="sxs-lookup"><span data-stu-id="da6fd-104">This procedure walks through creating a new product in the retail product hierarchy.</span></span> <span data-ttu-id="da6fd-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="da6fd-105">The demo data company used to create this task is USRT, and this task is intended for the Merchandising Manager and Product Designer.</span></span>
 
-1. ไปที่ การขายปลีกและการค้า > .. > ผลิตภัณฑ์ตามประเภท
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อของผลิตภัณฑ์ ให้พิมพ์ชื่อสำหรับผลิตภัณฑ์ของคุณ
-4. ในฟิลด์ประเภทการขายปลีก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. ในแผนภูมิ ให้ขยาย 'ALL (ALL)\Fashion (Fashion)'
-6. ในแผนภูมิ เลือก 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'
-7. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-8. ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า
-9. คลิก ตกลง
+1. <span data-ttu-id="da6fd-106">ไปที่ การขายปลีกและการค้า > ..</span><span class="sxs-lookup"><span data-stu-id="da6fd-106">Go to Retail and commerce > ..</span></span> <span data-ttu-id="da6fd-107">> ผลิตภัณฑ์ตามประเภท</span><span class="sxs-lookup"><span data-stu-id="da6fd-107">> Products by category.</span></span>
+2. <span data-ttu-id="da6fd-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="da6fd-108">Click New.</span></span>
+3. <span data-ttu-id="da6fd-109">ในฟิลด์ชื่อของผลิตภัณฑ์ ให้พิมพ์ชื่อสำหรับผลิตภัณฑ์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="da6fd-109">In the Product name field, type a name for your product..</span></span>
+4. <span data-ttu-id="da6fd-110">ในฟิลด์ประเภทการขายปลีก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="da6fd-110">In the Retail category field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="da6fd-111">ในแผนภูมิ ให้ขยาย 'ALL (ALL)\Fashion (Fashion)'</span><span class="sxs-lookup"><span data-stu-id="da6fd-111">In the tree, expand 'ALL (ALL)\Fashion (Fashion)'.</span></span>
+6. <span data-ttu-id="da6fd-112">ในแผนภูมิ เลือก 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'</span><span class="sxs-lookup"><span data-stu-id="da6fd-112">In the tree, select 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'.</span></span>
+7. <span data-ttu-id="da6fd-113">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="da6fd-113">Click OK.</span></span>
+8. <span data-ttu-id="da6fd-114">ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="da6fd-114">In the Product number field, type a value.</span></span>
+9. <span data-ttu-id="da6fd-115">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="da6fd-115">Click OK.</span></span>
 
 

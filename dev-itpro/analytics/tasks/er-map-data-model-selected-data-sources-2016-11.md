@@ -16,134 +16,134 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5a7d55a5cfb890490315d45d67745ce65b7ab374
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>แม็ปแบบจำลองข้อมูลกับแหล่งข้อมูลที่เลือกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="f423c-103">แม็ปแบบจำลองข้อมูลกับแหล่งข้อมูลที่เลือกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="f423c-103">Map a data model to selected data sources for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายถึงผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถแม็ปแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER) ไปยังแหล่งข้อมูล Dynamics 365 for Finance and Operations, Enterprise Edition ที่เลือกไว้ การแม็ปแบบจำลองนี้จะถูกใช้เป็นแหล่งข้อมูลภายหลังในการตั้งค่าคอนฟิกรูปแบบที่จะจัดการเอกสารการชำระเงินทางอิเล็กทรอนิกส์ ในตัวอย่างนี้ คุณแม็ปแบบจำลองข้อมูลสำหรับบริษัทตัวอย่าง Litware, Inc. ไปยังแหล่งข้อมูล  เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในกระบวนงาน "เลือกแหล่งข้อมูลสำหรับการแม็ปแบบจำลอง"
+<span data-ttu-id="f423c-104">ขั้นตอนต่อไปนี้อธิบายถึงผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถแม็ปแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER) ไปยังแหล่งข้อมูล Dynamics 365 for Finance and Operations, Enterprise Edition ที่เลือกไว้</span><span class="sxs-lookup"><span data-stu-id="f423c-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can map an Electronic reporting (ER) data model to selected Dynamics 365 for Finance and Operations, Enterprise edition data sources.</span></span> <span data-ttu-id="f423c-105">การแม็ปแบบจำลองนี้จะถูกใช้เป็นแหล่งข้อมูลภายหลังในการตั้งค่าคอนฟิกรูปแบบที่จะจัดการเอกสารการชำระเงินทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="f423c-105">This model mapping will later be used as a data source in a format configuration that will be used to manage electronic payment documents.</span></span> <span data-ttu-id="f423c-106">ในตัวอย่างนี้ คุณแม็ปแบบจำลองข้อมูลสำหรับบริษัทตัวอย่าง Litware, Inc. ไปยังแหล่งข้อมูล </span><span class="sxs-lookup"><span data-stu-id="f423c-106">In this example, you map a data model for sample company, Litware, Inc. to data sources.</span></span> <span data-ttu-id="f423c-107">เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในกระบวนงาน "เลือกแหล่งข้อมูลสำหรับการแม็ปแบบจำลอง"</span><span class="sxs-lookup"><span data-stu-id="f423c-107">To complete these steps, you must first complete the steps in the “Select data sources for model mapping” procedure.</span></span>
 
 
-## <a name="open-er-configurations-tree"></a>เปิดแผนภูมิการตั้งค่าคอนฟิก ER
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-2. คลิกการตั้งค่าคอนฟลิก
+## <a name="open-er-configurations-tree"></a><span data-ttu-id="f423c-108">เปิดแผนภูมิการตั้งค่าคอนฟิก ER</span><span class="sxs-lookup"><span data-stu-id="f423c-108">Open ER configurations tree</span></span>
+1. <span data-ttu-id="f423c-109">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="f423c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="f423c-110">คลิกการตั้งค่าคอนฟลิก</span><span class="sxs-lookup"><span data-stu-id="f423c-110">Click Configurations.</span></span>
 
-## <a name="select-created-model-mapping"></a>เลือก การแม็ปแบบจำลองที่สร้างขึ้น
-1. ในแผนภูมิ เลือก 'การชำระเงิน(แบบจำลองอย่างง่าย)'
-    * ตรวจสอบให้แน่ใจว่าโครงแบบจำลอง "การชำระเงิน (แบบจำลองแบบง่าย)" ถูกสร้างไว้ล่วงหน้า มิฉะนั้น ให้หยุดทันทีและกลับมาใหม่หลังจากที่อ่านคู่มืองานเสร็จสิ้นแล้ว 'สร้างการตั้งค่าคอนฟิกใหม่ด้วยแบบจำลองข้อมูลของโดเมนที่เลือก'  
-2. คลิก ตัวออกแบบจำลอง
-3. คลิก แม็ปแบบจำลองกับแหล่งข้อมูล
-4. เลือก เรกคอร์ด 'การแม็ป CT'
-    * การแม็ป CT  
+## <a name="select-created-model-mapping"></a><span data-ttu-id="f423c-111">เลือก การแม็ปแบบจำลองที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="f423c-111">Select created model mapping</span></span>
+1. <span data-ttu-id="f423c-112">ในแผนภูมิ เลือก 'การชำระเงิน(แบบจำลองอย่างง่าย)'</span><span class="sxs-lookup"><span data-stu-id="f423c-112">In the tree, select 'Payments (simplified model)'.</span></span>
+    * <span data-ttu-id="f423c-113">ตรวจสอบให้แน่ใจว่าโครงแบบจำลอง "การชำระเงิน (แบบจำลองแบบง่าย)" ถูกสร้างไว้ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="f423c-113">Make sure that the model configuration “Payments (simplified model)” has been created in advance.</span></span> <span data-ttu-id="f423c-114">มิฉะนั้น ให้หยุดทันทีและกลับมาใหม่หลังจากที่อ่านคู่มืองานเสร็จสิ้นแล้ว 'สร้างการตั้งค่าคอนฟิกใหม่ด้วยแบบจำลองข้อมูลของโดเมนที่เลือก'</span><span class="sxs-lookup"><span data-stu-id="f423c-114">Otherwise, stop now and return after completion of the task guide ‘Create a new configuration with data model of the selected domain’.</span></span>  
+2. <span data-ttu-id="f423c-115">คลิก ตัวออกแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="f423c-115">Click Model designer.</span></span>
+3. <span data-ttu-id="f423c-116">คลิก แม็ปแบบจำลองกับแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="f423c-116">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="f423c-117">เลือก เรกคอร์ด 'การแม็ป CT'</span><span class="sxs-lookup"><span data-stu-id="f423c-117">Select the 'CT mapping' record.</span></span>
+    * <span data-ttu-id="f423c-118">การแม็ป CT</span><span class="sxs-lookup"><span data-stu-id="f423c-118">CT mapping</span></span>  
 
-## <a name="bind-created-data-sources-to-data-model-elements"></a>ผูกแหล่งข้อมูลที่สร้างขึ้นกับองค์ประกอบแบบจำลองข้อมูล
-1. คลิก ตัวออกแบบ
-2. ในแผนภูมิ เลือก 'วันที่ & เวลาที่ประมวลผล(ProcessingDateTime)'
-3. ในแผนภูมิ เลือก 'การประมวลผลวันที่(วันที่และเวลาประมวลผล)'
-4. คลิก ผูก
-5. ในแผนภูมิ เลือก 'การระบุรหัสประจำตัวข้อความการชำระเงิน(รหัสข้อความ)'
-6. ในแผนภูมิ ขยาย 'ธุรกรรม'
-7. ในแผนภูมิ เลือก 'ธุรกรรม\หมายเลขชุดงานสมุดรายวัน(JournalNum)'
-8. คลิก ผูก
-9. ในแผนภูมิ เลือก 'การชำระเงิน'
-10. ในแผนภูมิ เลือก 'ธุรกรรม'
-11. คลิก ผูก
-12. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม'
-13. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\เจ้าหนี้'
-14. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\บัญชี'
-15. ในแผนภูมิ เลือก ' การชำระเงิน = ธุรกรรม\เจ้าหนี้\บัญชี\รหัสสกุลเงิน(สกุลเงิน)'
-16. ในแผนภูมิ ขยาย 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()'
-17. ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\สกุลเงิน(รหัสสกุลเงิน)'
-18. คลิก ผูก
-19. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\บัญชี\รหัสIBAN(IBAN)'
-20. ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\รหัสIBAN(IBAN)'
-21. คลิก ผูก
-22. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\บัญชี\หมายเลข'
-23. ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\หมายเลขบัญชีธนาคาร(AccountNum)'
-24. คลิก ผูก
-25. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน'
-26. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน\ชื่อ'
-27. ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\ชื่อ'
-28. คลิก ผูก
-29. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน\หมายเลขการกำหนดเส้นทาง(หมายเลขการกำหนดเส้นทาง)'
-30. ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\หมายเลขการกำหนดเส้นทาง(หมายเลขการลงทะเบียน)'
-31. คลิก ผูก
-32. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน\รหัส SWIFT(SWIFT)'
-33. ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\รหัส SWIFT(SWIFTNo)'
-34. คลิก ผูก
-35. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ชื่อ'
-36. ในแผนภูมิ ขยาย 'ธุรกรรม\findVendTable()'
-37. ในแผนภูมิ เลือก 'Transactions\findVendTable()\name()'
-38. คลิก ผูก
-39. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\รหัสสกุลเงิน(สกุลเงิน)'
-40. ในแผนภูมิ ขยาย 'ธุรกรรม\>ความสัมพันธ์'
-41. ในแผนภูมิ ขยาย 'ธุรกรรม\>ความสัมพันธ์\ตารางสกุลเงิน(สกุลเงิน)'
-42. ในแผนภูมิ เลือก 'ธุรกรรม\>ความสัมพันธ์\ตารางสกุลเงิน(สกุลเงิน)\รหัสสกุลเงิน(รหัสสกุลเงินISO)'
-43. คลิก ผูก
-44. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\ลูกหนี้'
-45. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี'
-46. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี\รหัสสกุลเงิน(สกุลเงิน)'
-47. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)'
-48. ในแผนภูมิ ขยาย 'บัญชีธนาคาร(บัญชีธนาคาร)'
-49. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\สกุลเงิน(รหัสสกุลเงิน)'
-50. คลิก ผูก
-51. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\IBAN'
-52. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี\รหัสIBAN(IBAN)'
-53. คลิก ผูก
-54. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี\หมายเลข'
-55. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\หมายเลขบัญชีธนาคาร(AccountNum)'
-56. คลิก ผูก
-57. ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน'
-58. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน\ชื่อ'
-59. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\ชื่อ'
-60. คลิก ผูก
-61. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน\หมายเลขการกำหนดเส้นทาง(หมายเลขการกำหนดเส้นทาง)'
-62. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\หมายเลขการกำหนดเส้นทาง(หมายเลขการลงทะเบียน)'
-63. คลิก ผูก
-64. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน\รหัส SWIFT(SWIFT)'
-65. ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\รหัส SWIFT(SWIFTNo)'
-66. คลิก ผูก
-67. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ชื่อ'
-68. ในแผนภูมิ เลือก 'ข้อมูลบริษัท(บริษัท)'
-69. ในแผนภูมิ ขยาย 'ข้อมูลบริษัท(บริษัท)'
-70. ในแผนภูมิ เลือก 'ข้อมูลบริษัท(บริษัท)\ชื่อ'
-71. คลิก ผูก
-72. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\คำอธิบาย'
-73. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\คำอธิบาย(Txt)'
-74. คลิก ผูก
-75. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\การระบุรหัสแบบครอบคลุม(End2EndID)'
-76. ในแผนภูมิ เลือก 'ธุรกรรม\$EndToEndID'
-77. คลิก ผูก
-78. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ยอดเงินที่แนะนำ(ยอดเงินที่แนะนำ)'
-79. ในแผนภูมิ เลือก 'Transactions\$Amount'
-80. คลิก ผูก
-81. ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\วันที่ทำธุรกรรม(วันที่ทำธุรกรรม)'
-82. ในแผนภูมิ เลือก 'ธุรกรรม\วันที่(วันที่ธุรกรรม)'
-83. คลิก ผูก
+## <a name="bind-created-data-sources-to-data-model-elements"></a><span data-ttu-id="f423c-119">ผูกแหล่งข้อมูลที่สร้างขึ้นกับองค์ประกอบแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="f423c-119">Bind created data sources to data model elements</span></span>
+1. <span data-ttu-id="f423c-120">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="f423c-120">Click Designer.</span></span>
+2. <span data-ttu-id="f423c-121">ในแผนภูมิ เลือก 'วันที่ & เวลาที่ประมวลผล(ProcessingDateTime)'</span><span class="sxs-lookup"><span data-stu-id="f423c-121">In the tree, select 'Processing date & time(ProcessingDateTime)'.</span></span>
+3. <span data-ttu-id="f423c-122">ในแผนภูมิ เลือก 'การประมวลผลวันที่(วันที่และเวลาประมวลผล)'</span><span class="sxs-lookup"><span data-stu-id="f423c-122">In the tree, select 'Processing date(ProcessingDateTime)'.</span></span>
+4. <span data-ttu-id="f423c-123">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-123">Click Bind.</span></span>
+5. <span data-ttu-id="f423c-124">ในแผนภูมิ เลือก 'การระบุรหัสประจำตัวข้อความการชำระเงิน(รหัสข้อความ)'</span><span class="sxs-lookup"><span data-stu-id="f423c-124">In the tree, select 'Payment message identification(MessageIdentification)'.</span></span>
+6. <span data-ttu-id="f423c-125">ในแผนภูมิ ขยาย 'ธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="f423c-125">In the tree, expand 'Transactions'.</span></span>
+7. <span data-ttu-id="f423c-126">ในแผนภูมิ เลือก 'ธุรกรรม\หมายเลขชุดงานสมุดรายวัน(JournalNum)'</span><span class="sxs-lookup"><span data-stu-id="f423c-126">In the tree, select 'Transactions\Journal batch number(JournalNum)'.</span></span>
+8. <span data-ttu-id="f423c-127">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-127">Click Bind.</span></span>
+9. <span data-ttu-id="f423c-128">ในแผนภูมิ เลือก 'การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="f423c-128">In the tree, select 'Payments'.</span></span>
+10. <span data-ttu-id="f423c-129">ในแผนภูมิ เลือก 'ธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="f423c-129">In the tree, select 'Transactions'.</span></span>
+11. <span data-ttu-id="f423c-130">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-130">Click Bind.</span></span>
+12. <span data-ttu-id="f423c-131">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="f423c-131">In the tree, expand 'Payments= Transactions'.</span></span>
+13. <span data-ttu-id="f423c-132">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\เจ้าหนี้'</span><span class="sxs-lookup"><span data-stu-id="f423c-132">In the tree, expand 'Payments= Transactions\Creditor'.</span></span>
+14. <span data-ttu-id="f423c-133">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\บัญชี'</span><span class="sxs-lookup"><span data-stu-id="f423c-133">In the tree, expand 'Payments= Transactions\Creditor\Account'.</span></span>
+15. <span data-ttu-id="f423c-134">ในแผนภูมิ เลือก ' การชำระเงิน = ธุรกรรม\เจ้าหนี้\บัญชี\รหัสสกุลเงิน(สกุลเงิน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-134">In the tree, select 'Payments= Transactions\Creditor\Account\Currency code(Currency)'.</span></span>
+16. <span data-ttu-id="f423c-135">ในแผนภูมิ ขยาย 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()'</span><span class="sxs-lookup"><span data-stu-id="f423c-135">In the tree, expand 'Transactions\vendBankAccountInTransactionCompany()'.</span></span>
+17. <span data-ttu-id="f423c-136">ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\สกุลเงิน(รหัสสกุลเงิน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-136">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode)'.</span></span>
+18. <span data-ttu-id="f423c-137">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-137">Click Bind.</span></span>
+19. <span data-ttu-id="f423c-138">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\บัญชี\รหัสIBAN(IBAN)'</span><span class="sxs-lookup"><span data-stu-id="f423c-138">In the tree, select 'Payments= Transactions\Creditor\Account\IBAN code(IBAN)'.</span></span>
+20. <span data-ttu-id="f423c-139">ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\รหัสIBAN(IBAN)'</span><span class="sxs-lookup"><span data-stu-id="f423c-139">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN)'.</span></span>
+21. <span data-ttu-id="f423c-140">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-140">Click Bind.</span></span>
+22. <span data-ttu-id="f423c-141">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\บัญชี\หมายเลข'</span><span class="sxs-lookup"><span data-stu-id="f423c-141">In the tree, select 'Payments= Transactions\Creditor\Account\Number'.</span></span>
+23. <span data-ttu-id="f423c-142">ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\หมายเลขบัญชีธนาคาร(AccountNum)'</span><span class="sxs-lookup"><span data-stu-id="f423c-142">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Bank account number(AccountNum)'.</span></span>
+24. <span data-ttu-id="f423c-143">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-143">Click Bind.</span></span>
+25. <span data-ttu-id="f423c-144">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน'</span><span class="sxs-lookup"><span data-stu-id="f423c-144">In the tree, expand 'Payments= Transactions\Creditor\Agent'.</span></span>
+26. <span data-ttu-id="f423c-145">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-145">In the tree, select 'Payments= Transactions\Creditor\Agent\Name'.</span></span>
+27. <span data-ttu-id="f423c-146">ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-146">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Name'.</span></span>
+28. <span data-ttu-id="f423c-147">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-147">Click Bind.</span></span>
+29. <span data-ttu-id="f423c-148">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน\หมายเลขการกำหนดเส้นทาง(หมายเลขการกำหนดเส้นทาง)'</span><span class="sxs-lookup"><span data-stu-id="f423c-148">In the tree, select 'Payments= Transactions\Creditor\Agent\Routing number(RoutingNumber)'.</span></span>
+30. <span data-ttu-id="f423c-149">ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\หมายเลขการกำหนดเส้นทาง(หมายเลขการลงทะเบียน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-149">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Routing number(RegistrationNum)'.</span></span>
+31. <span data-ttu-id="f423c-150">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-150">Click Bind.</span></span>
+32. <span data-ttu-id="f423c-151">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ตัวแทน\รหัส SWIFT(SWIFT)'</span><span class="sxs-lookup"><span data-stu-id="f423c-151">In the tree, select 'Payments= Transactions\Creditor\Agent\SWIFT code(SWIFT)'.</span></span>
+33. <span data-ttu-id="f423c-152">ในแผนภูมิ เลือก 'ธุรกรรม\บัญชีธนาคารของผู้จัดจำหน่ายในบริษัทธุรกรรม()\รหัส SWIFT(SWIFTNo)'</span><span class="sxs-lookup"><span data-stu-id="f423c-152">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\SWIFT code(SWIFTNo)'.</span></span>
+34. <span data-ttu-id="f423c-153">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-153">Click Bind.</span></span>
+35. <span data-ttu-id="f423c-154">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\เจ้าหนี้\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-154">In the tree, select 'Payments= Transactions\Creditor\Name'.</span></span>
+36. <span data-ttu-id="f423c-155">ในแผนภูมิ ขยาย 'ธุรกรรม\findVendTable()'</span><span class="sxs-lookup"><span data-stu-id="f423c-155">In the tree, expand 'Transactions\findVendTable()'.</span></span>
+37. <span data-ttu-id="f423c-156">ในแผนภูมิ เลือก 'Transactions\findVendTable()\name()'</span><span class="sxs-lookup"><span data-stu-id="f423c-156">In the tree, select 'Transactions\findVendTable()\name()'.</span></span>
+38. <span data-ttu-id="f423c-157">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-157">Click Bind.</span></span>
+39. <span data-ttu-id="f423c-158">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\รหัสสกุลเงิน(สกุลเงิน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-158">In the tree, select 'Payments= Transactions\Currency code(Currency)'.</span></span>
+40. <span data-ttu-id="f423c-159">ในแผนภูมิ ขยาย 'ธุรกรรม\>ความสัมพันธ์'</span><span class="sxs-lookup"><span data-stu-id="f423c-159">In the tree, expand 'Transactions\>Relations'.</span></span>
+41. <span data-ttu-id="f423c-160">ในแผนภูมิ ขยาย 'ธุรกรรม\>ความสัมพันธ์\ตารางสกุลเงิน(สกุลเงิน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-160">In the tree, expand 'Transactions\>Relations\Currency table(Currency)'.</span></span>
+42. <span data-ttu-id="f423c-161">ในแผนภูมิ เลือก 'ธุรกรรม\>ความสัมพันธ์\ตารางสกุลเงิน(สกุลเงิน)\รหัสสกุลเงิน(รหัสสกุลเงินISO)'</span><span class="sxs-lookup"><span data-stu-id="f423c-161">In the tree, select 'Transactions\>Relations\Currency table(Currency)\Currency code(CurrencyCodeISO)'.</span></span>
+43. <span data-ttu-id="f423c-162">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-162">Click Bind.</span></span>
+44. <span data-ttu-id="f423c-163">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\ลูกหนี้'</span><span class="sxs-lookup"><span data-stu-id="f423c-163">In the tree, expand 'Payments= Transactions\Debtor'.</span></span>
+45. <span data-ttu-id="f423c-164">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี'</span><span class="sxs-lookup"><span data-stu-id="f423c-164">In the tree, expand 'Payments= Transactions\Debtor\Account'.</span></span>
+46. <span data-ttu-id="f423c-165">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี\รหัสสกุลเงิน(สกุลเงิน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-165">In the tree, select 'Payments= Transactions\Debtor\Account\Currency code(Currency)'.</span></span>
+47. <span data-ttu-id="f423c-166">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)'</span><span class="sxs-lookup"><span data-stu-id="f423c-166">In the tree, select 'Bank Account(BankAccount)'.</span></span>
+48. <span data-ttu-id="f423c-167">ในแผนภูมิ ขยาย 'บัญชีธนาคาร(บัญชีธนาคาร)'</span><span class="sxs-lookup"><span data-stu-id="f423c-167">In the tree, expand 'Bank Account(BankAccount)'.</span></span>
+49. <span data-ttu-id="f423c-168">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\สกุลเงิน(รหัสสกุลเงิน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-168">In the tree, select 'Bank Account(BankAccount)\Currency(CurrencyCode)'.</span></span>
+50. <span data-ttu-id="f423c-169">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-169">Click Bind.</span></span>
+51. <span data-ttu-id="f423c-170">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\IBAN'</span><span class="sxs-lookup"><span data-stu-id="f423c-170">In the tree, select 'Bank Account(BankAccount)\IBAN'.</span></span>
+52. <span data-ttu-id="f423c-171">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี\รหัสIBAN(IBAN)'</span><span class="sxs-lookup"><span data-stu-id="f423c-171">In the tree, select 'Payments= Transactions\Debtor\Account\IBAN code(IBAN)'.</span></span>
+53. <span data-ttu-id="f423c-172">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-172">Click Bind.</span></span>
+54. <span data-ttu-id="f423c-173">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\บัญชี\หมายเลข'</span><span class="sxs-lookup"><span data-stu-id="f423c-173">In the tree, select 'Payments= Transactions\Debtor\Account\Number'.</span></span>
+55. <span data-ttu-id="f423c-174">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\หมายเลขบัญชีธนาคาร(AccountNum)'</span><span class="sxs-lookup"><span data-stu-id="f423c-174">In the tree, select 'Bank Account(BankAccount)\Bank account number(AccountNum)'.</span></span>
+56. <span data-ttu-id="f423c-175">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-175">Click Bind.</span></span>
+57. <span data-ttu-id="f423c-176">ในแผนภูมิ ขยาย 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน'</span><span class="sxs-lookup"><span data-stu-id="f423c-176">In the tree, expand 'Payments= Transactions\Debtor\Agent'.</span></span>
+58. <span data-ttu-id="f423c-177">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-177">In the tree, select 'Payments= Transactions\Debtor\Agent\Name'.</span></span>
+59. <span data-ttu-id="f423c-178">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-178">In the tree, select 'Bank Account(BankAccount)\Name'.</span></span>
+60. <span data-ttu-id="f423c-179">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-179">Click Bind.</span></span>
+61. <span data-ttu-id="f423c-180">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน\หมายเลขการกำหนดเส้นทาง(หมายเลขการกำหนดเส้นทาง)'</span><span class="sxs-lookup"><span data-stu-id="f423c-180">In the tree, select 'Payments= Transactions\Debtor\Agent\Routing number(RoutingNumber)'.</span></span>
+62. <span data-ttu-id="f423c-181">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\หมายเลขการกำหนดเส้นทาง(หมายเลขการลงทะเบียน)'</span><span class="sxs-lookup"><span data-stu-id="f423c-181">In the tree, select 'Bank Account(BankAccount)\Routing number(RegistrationNum)'.</span></span>
+63. <span data-ttu-id="f423c-182">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-182">Click Bind.</span></span>
+64. <span data-ttu-id="f423c-183">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ตัวแทน\รหัส SWIFT(SWIFT)'</span><span class="sxs-lookup"><span data-stu-id="f423c-183">In the tree, select 'Payments= Transactions\Debtor\Agent\SWIFT code(SWIFT)'.</span></span>
+65. <span data-ttu-id="f423c-184">ในแผนภูมิ เลือก 'บัญชีธนาคาร(บัญชีธนาคาร)\รหัส SWIFT(SWIFTNo)'</span><span class="sxs-lookup"><span data-stu-id="f423c-184">In the tree, select 'Bank Account(BankAccount)\SWIFT code(SWIFTNo)'.</span></span>
+66. <span data-ttu-id="f423c-185">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-185">Click Bind.</span></span>
+67. <span data-ttu-id="f423c-186">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ลูกหนี้\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-186">In the tree, select 'Payments= Transactions\Debtor\Name'.</span></span>
+68. <span data-ttu-id="f423c-187">ในแผนภูมิ เลือก 'ข้อมูลบริษัท(บริษัท)'</span><span class="sxs-lookup"><span data-stu-id="f423c-187">In the tree, select 'Company information(Company)'.</span></span>
+69. <span data-ttu-id="f423c-188">ในแผนภูมิ ขยาย 'ข้อมูลบริษัท(บริษัท)'</span><span class="sxs-lookup"><span data-stu-id="f423c-188">In the tree, expand 'Company information(Company)'.</span></span>
+70. <span data-ttu-id="f423c-189">ในแผนภูมิ เลือก 'ข้อมูลบริษัท(บริษัท)\ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="f423c-189">In the tree, select 'Company information(Company)\Name'.</span></span>
+71. <span data-ttu-id="f423c-190">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-190">Click Bind.</span></span>
+72. <span data-ttu-id="f423c-191">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\คำอธิบาย'</span><span class="sxs-lookup"><span data-stu-id="f423c-191">In the tree, select 'Payments= Transactions\Description'.</span></span>
+73. <span data-ttu-id="f423c-192">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\คำอธิบาย(Txt)'</span><span class="sxs-lookup"><span data-stu-id="f423c-192">In the tree, select 'Transactions\Description(Txt)'.</span></span>
+74. <span data-ttu-id="f423c-193">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-193">Click Bind.</span></span>
+75. <span data-ttu-id="f423c-194">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\การระบุรหัสแบบครอบคลุม(End2EndID)'</span><span class="sxs-lookup"><span data-stu-id="f423c-194">In the tree, select 'Payments= Transactions\End to end identification code(End2EndID)'.</span></span>
+76. <span data-ttu-id="f423c-195">ในแผนภูมิ เลือก 'ธุรกรรม\$EndToEndID'</span><span class="sxs-lookup"><span data-stu-id="f423c-195">In the tree, select 'Transactions\$EndToEndID'.</span></span>
+77. <span data-ttu-id="f423c-196">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-196">Click Bind.</span></span>
+78. <span data-ttu-id="f423c-197">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\ยอดเงินที่แนะนำ(ยอดเงินที่แนะนำ)'</span><span class="sxs-lookup"><span data-stu-id="f423c-197">In the tree, select 'Payments= Transactions\Instructed amount(InstructedAmount)'.</span></span>
+79. <span data-ttu-id="f423c-198">ในแผนภูมิ เลือก 'Transactions\$Amount'</span><span class="sxs-lookup"><span data-stu-id="f423c-198">In the tree, select 'Transactions\$Amount'.</span></span>
+80. <span data-ttu-id="f423c-199">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-199">Click Bind.</span></span>
+81. <span data-ttu-id="f423c-200">ในแผนภูมิ เลือก 'การชำระเงิน= ธุรกรรม\วันที่ทำธุรกรรม(วันที่ทำธุรกรรม)'</span><span class="sxs-lookup"><span data-stu-id="f423c-200">In the tree, select 'Payments= Transactions\Transaction date(TransactionDate)'.</span></span>
+82. <span data-ttu-id="f423c-201">ในแผนภูมิ เลือก 'ธุรกรรม\วันที่(วันที่ธุรกรรม)'</span><span class="sxs-lookup"><span data-stu-id="f423c-201">In the tree, select 'Transactions\Date(TransDate)'.</span></span>
+83. <span data-ttu-id="f423c-202">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="f423c-202">Click Bind.</span></span>
 
-## <a name="validate-created-mapping"></a>การตรวจสอบความถูกต้องการแม็ปที่สร้างขึ้น
-1. คลิก ตรวจสอบความถูกต้อง
-    * ตรวจสอบการแม็ปใหม่เพื่อให้แน่ใจว่าการเชื่อมโยงข้อมูลทั้งหมดถูกต้อง  
-2. คลิกลูกศรเพื่อขยายหรือยุบส่วนรายการข้อผิดพลาด
-3. คลิก บันทึก
-4. ปิดหน้า
-5. ปิดหน้า
-6. ปิดหน้า
+## <a name="validate-created-mapping"></a><span data-ttu-id="f423c-203">การตรวจสอบความถูกต้องการแม็ปที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="f423c-203">Validate created mapping</span></span>
+1. <span data-ttu-id="f423c-204">คลิก ตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="f423c-204">Click Validate.</span></span>
+    * <span data-ttu-id="f423c-205">ตรวจสอบการแม็ปใหม่เพื่อให้แน่ใจว่าการเชื่อมโยงข้อมูลทั้งหมดถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="f423c-205">Validate the new mapping to ensure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="f423c-206">คลิกลูกศรเพื่อขยายหรือยุบส่วนรายการข้อผิดพลาด</span><span class="sxs-lookup"><span data-stu-id="f423c-206">Click the arrow to expand or collapse the Error List section.</span></span>
+3. <span data-ttu-id="f423c-207">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="f423c-207">Click Save.</span></span>
+4. <span data-ttu-id="f423c-208">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="f423c-208">Close the page.</span></span>
+5. <span data-ttu-id="f423c-209">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="f423c-209">Close the page.</span></span>
+6. <span data-ttu-id="f423c-210">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="f423c-210">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-model-configuration"></a>เปลี่ยนสถานะของรุ่นปัจจุบันของการตั้งค่าคอนฟิกแบบจำลอง
-1. คลิก เปลี่ยนแปลงสถานะ
-    * เปลี่ยนสถานะของการตั้งค่าคอนฟิกแบบจำลองที่ออกแบบแล้ว – จากแบบร่างเป็นแบบที่เสร็จสมบูรณ์ เพื่อทำให้พร้อมใช้งานสำหรับการออกแบบรูปแบบการชำระเงิน  
-2. คลิกเสร็จสมบูรณ์
-    * เลือกเสร็จสมบูรณ์  
-3. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ตัวอย่างเช่น 'version 1'  
-4. คลิก ตกลง
-5. เลือกเวอร์ชันที่สมบูรณ์ของการตั้งค่าคอนฟิกปัจจุบัน
-    * หมายเหตุว่า โครงแบบที่สร้างขึ้นถูกบันทึกเป็นเวอร์ชัน 1เสร็จสมบูรณ์  
+## <a name="change-the-status-of-the-current-version-of-model-configuration"></a><span data-ttu-id="f423c-211">เปลี่ยนสถานะของรุ่นปัจจุบันของการตั้งค่าคอนฟิกแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="f423c-211">Change the status of the current version of model configuration</span></span>
+1. <span data-ttu-id="f423c-212">คลิก เปลี่ยนแปลงสถานะ</span><span class="sxs-lookup"><span data-stu-id="f423c-212">Click Change status.</span></span>
+    * <span data-ttu-id="f423c-213">เปลี่ยนสถานะของการตั้งค่าคอนฟิกแบบจำลองที่ออกแบบแล้ว – จากแบบร่างเป็นแบบที่เสร็จสมบูรณ์ เพื่อทำให้พร้อมใช้งานสำหรับการออกแบบรูปแบบการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="f423c-213">Change the status of designed model configuration – from Draft to Completed to make it available for payment format design.</span></span>  
+2. <span data-ttu-id="f423c-214">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="f423c-214">Click Complete.</span></span>
+    * <span data-ttu-id="f423c-215">เลือกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="f423c-215">Select Complete.</span></span>  
+3. <span data-ttu-id="f423c-216">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="f423c-216">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="f423c-217">ตัวอย่างเช่น 'version 1'</span><span class="sxs-lookup"><span data-stu-id="f423c-217">For example, 'version 1'.</span></span>  
+4. <span data-ttu-id="f423c-218">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="f423c-218">Click OK.</span></span>
+5. <span data-ttu-id="f423c-219">เลือกเวอร์ชันที่สมบูรณ์ของการตั้งค่าคอนฟิกปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="f423c-219">Select the completed version of the current configuration.</span></span>
+    * <span data-ttu-id="f423c-220">หมายเหตุว่า โครงแบบที่สร้างขึ้นถูกบันทึกเป็นเวอร์ชัน 1เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="f423c-220">Note that the created configuration is saved as completed version 1.</span></span>  
 
 

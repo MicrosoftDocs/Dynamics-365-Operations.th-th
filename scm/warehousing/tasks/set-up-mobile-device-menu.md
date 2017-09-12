@@ -17,68 +17,68 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7ce132b590fffb753948e663763b8f3ef576ac36
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
+# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="4968d-103">ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="4968d-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่  ในตัวอย่างนี้ รายการเมนูจะถูกใช้สำหรับการปฏิบัติงานของประเภทใบสั่งซื้อ คลาสงานที่เชื่อมโยงกับรายการเมนูจะกำหนดว่างานใดถูกต้อง คุณสามารถใช้คู่มือนี้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการคลังสินค้า
+<span data-ttu-id="4968d-104">กระบวนงานนี้แสดงวิธีการตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ </span><span class="sxs-lookup"><span data-stu-id="4968d-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="4968d-105">ในตัวอย่างนี้ รายการเมนูจะถูกใช้สำหรับการปฏิบัติงานของประเภทใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="4968d-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="4968d-106">คลาสงานที่เชื่อมโยงกับรายการเมนูจะกำหนดว่างานใดถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="4968d-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="4968d-107">คุณสามารถใช้คู่มือนี้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="4968d-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="4968d-108">โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="4968d-108">This procedure is typically carried out by a warehouse manager.</span></span>
 
 
-## <a name="create-a-mobile-device-menu-item"></a>สร้างรายการเมนูบนอุปกรณ์เคลื่อนที่
-1. ไปที่ รายการเมนูของอุปกรณ์เคลื่อนที่
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อเมนูสินค้า ให้พิมพ์ค่า
-    * ป้อนค่าที่ไม่ซ้ำ  ตัวอย่างเช่น คุณสามารถพิมพ์ POMove  โปรดจำค่านี้ไว้เนื่องจากคุณจะต้องใช้ในภายหลัง  
-4. ในฟิลด์หัวข้อ ให้พิมพ์ค่าใดค่าหนึ่ง
-    * นี่คือหัวข้อที่จะแสดงบนอุปกรณ์เคลื่อนที่  ตัวอย่างเช่น คุณสามารถพิมพ์ PO Move  
-5. ในฟิลด์โหมด เลือก 'งาน'
-6. เลือก ใช่ ในฟิลด์การใช้ค่าที่มีอยู่
-    * รายการเมนูบนอุปกรณ์เคลื่อนที่นี้จะใช้ในการดำเนินงานที่มีอยู่  ดังนั้นคุณจะต้องตั้งค่านี้เป็น "ใช่"  
-    * ฟิลด์แสดงสถานะสินค้าคงคลังเป็นตัวกำหนดว่าสถานะสินค้าคงคลังของปริมาณคงคลังคงเหลือจะแสดงให้กับผู้ปฏิบัติงานคลังสินค้าบนอุปกรณ์เคลื่อนที่หรือไม่  
-7. ในฟิลด์สั่งการ เลือก 'ระบบการจัดกลุ่ม'
-    * เมื่อคุณเลือกบางอย่างในฟิลด์สั่งการโดย จะมีฟิลด์ปรากฏเพิ่มขึ้นในส่วนทั่วไปบนหน้านี้  ฟิลด์ที่ปรากฏจะขึ้นอยู่กับสิ่งที่คุณเลือกไว้ เมื่อคุณเลือกการจัดกลุ่มระบบ จะมีการเพิ่มฟิลด์ใหม่สองรายการ  ซึ่งมีอธิบายอยู่ด้านล่าง  
-8. ในฟิลด์การจัดกลุ่มระบบ ให้เลือก 'WorkPoolId'
-    * เมื่อผู้ปฏิบัติงานสำหรับคลังสินค้าเปิดรายการเมนูนี้ ระบบจะขอให้สแกนรหัสกลุ่มงาน ใบสั่งงานทั้งหมดที่มีรหัสกลุ่มงานนี้และรายการใบสั่งงานที่เปิดที่มีคลาสงานหนึ่งรายการที่เพิ่มไปยังรายการเมนูนี้จะถูกผลักให้กับผู้ใช้  
-9. ในฟิลด์ป้ายชื่อการจัดกลุ่มระบบ ให้พิมพ์ค่าใดค่าหนึ่ง
-    * นี่คือข้อความที่แสดงให้กับผู้ใช้บนอุปกรณ์เคลื่อนที่  ตัวอย่างเช่น คุณสามารถพิมพ์ กลุ่มงาน  
-10. เลือก ใช่ ในการแทนป้ายทะเบียนในระหว่างใส่ฟิลด์
-    * ตัวเลือกนี้ช่วยให้ผู้ปฏิบัติงานสำหรับคลังสินค้าสามารถแทนที่ป้ายทะเบียนเป้าหมายเมื่อมีสินค้าวางลงบนป้ายทะเบียนที่มีการควบคุมตำแหน่งที่ตั้ง  
-11. เลือก ใช่ ในกลุ่มฟิลด์การสำรองสินค้า
-    * ถ้ารายการการย้ายทั้งหมดในใบสั่งงานใช้ตำแหน่งที่ตั้งเดียวกัน ผู้ใช้จะได้รับคำสั่งการย้ายแบบรวมหนึ่งรายการสำหรับรายการทั้งหมด  
-    * รหัสเท็มเพลตการตรวจสอบ: เท็มเพลตการตรวจสอบงานช่วยให้คุณสามารถระบุว่ากระบวนการงานสำหรับรายการเมนูควรถูกขัดจังหวะเพื่อให้สามารถทำการดำเนินการอื่นได้ ตัวอย่างเช่น ถ้ารายการเมนูนี้ใช้สำหรับงานขาเข้า เท็มเพลตการตรวจสอบอาจจำเป็นที่ผู้ปฏิบัติงานตรวจสอบอุณหภูมิ จุดจะยุติกระบวนการที่ระบุในเท็มเพลตการตรวจสอบ ตัวอย่างเช่น เมื่องานเริ่มต้น หรือเสร็จสมบูรณ์ หรือเปลี่ยนแปลงสถานะ  
-12. ขยายส่วนคลาสงาน
-13. คลิก สร้าง
-14. ในฟิลด์รหัสคลาสงาน ให้พิมพ์ 'การซื้อ'
-    * กลุ่มงานจำกัดงานที่สามารถใช้สำหรับรายการเมนู  ในกรณีนี้ จะใช้งานได้สำหรับรายการใบสั่งงานที่เปิดที่มีรหัสคลาสงานการซื้อ  
-15. คลิก บันทึก
+## <a name="create-a-mobile-device-menu-item"></a><span data-ttu-id="4968d-109">สร้างรายการเมนูบนอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="4968d-109">Create a mobile device menu item</span></span>
+1. <span data-ttu-id="4968d-110">ไปที่ รายการเมนูของอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="4968d-110">Go to Mobile device menu items.</span></span>
+2. <span data-ttu-id="4968d-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4968d-111">Click New.</span></span>
+3. <span data-ttu-id="4968d-112">ในฟิลด์ชื่อเมนูสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="4968d-112">In the Menu item name field, type a value.</span></span>
+    * <span data-ttu-id="4968d-113">ป้อนค่าที่ไม่ซ้ำ </span><span class="sxs-lookup"><span data-stu-id="4968d-113">Enter a unique value.</span></span> <span data-ttu-id="4968d-114">ตัวอย่างเช่น คุณสามารถพิมพ์ POMove </span><span class="sxs-lookup"><span data-stu-id="4968d-114">For example, you could type POMove.</span></span> <span data-ttu-id="4968d-115">โปรดจำค่านี้ไว้เนื่องจากคุณจะต้องใช้ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="4968d-115">Remember the value, you'll need it later.</span></span>  
+4. <span data-ttu-id="4968d-116">ในฟิลด์หัวข้อ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="4968d-116">In the Title field, type a value.</span></span>
+    * <span data-ttu-id="4968d-117">นี่คือหัวข้อที่จะแสดงบนอุปกรณ์เคลื่อนที่ </span><span class="sxs-lookup"><span data-stu-id="4968d-117">This is the title which will be displayed on the mobile device.</span></span> <span data-ttu-id="4968d-118">ตัวอย่างเช่น คุณสามารถพิมพ์ PO Move</span><span class="sxs-lookup"><span data-stu-id="4968d-118">For example, you could type PO Move.</span></span>  
+5. <span data-ttu-id="4968d-119">ในฟิลด์โหมด เลือก 'งาน'</span><span class="sxs-lookup"><span data-stu-id="4968d-119">In the Mode field, select 'Work'.</span></span>
+6. <span data-ttu-id="4968d-120">เลือก ใช่ ในฟิลด์การใช้ค่าที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="4968d-120">Select Yes in the Use existing work field.</span></span>
+    * <span data-ttu-id="4968d-121">รายการเมนูบนอุปกรณ์เคลื่อนที่นี้จะใช้ในการดำเนินงานที่มีอยู่ </span><span class="sxs-lookup"><span data-stu-id="4968d-121">This mobile device menu item is used to perform existing work.</span></span> <span data-ttu-id="4968d-122">ดังนั้นคุณจะต้องตั้งค่านี้เป็น "ใช่"</span><span class="sxs-lookup"><span data-stu-id="4968d-122">Therefore you must set this value to Yes.</span></span>  
+    * <span data-ttu-id="4968d-123">ฟิลด์แสดงสถานะสินค้าคงคลังเป็นตัวกำหนดว่าสถานะสินค้าคงคลังของปริมาณคงคลังคงเหลือจะแสดงให้กับผู้ปฏิบัติงานคลังสินค้าบนอุปกรณ์เคลื่อนที่หรือไม่</span><span class="sxs-lookup"><span data-stu-id="4968d-123">The Display inventory status field determines whether the inventory status of the on-hand inventory will be displayed to the warehouse worker on the mobile device.</span></span>  
+7. <span data-ttu-id="4968d-124">ในฟิลด์สั่งการ เลือก 'ระบบการจัดกลุ่ม'</span><span class="sxs-lookup"><span data-stu-id="4968d-124">In the Directed by field, select 'System grouping'.</span></span>
+    * <span data-ttu-id="4968d-125">เมื่อคุณเลือกบางอย่างในฟิลด์สั่งการโดย จะมีฟิลด์ปรากฏเพิ่มขึ้นในส่วนทั่วไปบนหน้านี้ </span><span class="sxs-lookup"><span data-stu-id="4968d-125">When you select something in the Directed by field, additional fields appear in the General section on this page.</span></span> <span data-ttu-id="4968d-126">ฟิลด์ที่ปรากฏจะขึ้นอยู่กับสิ่งที่คุณเลือกไว้</span><span class="sxs-lookup"><span data-stu-id="4968d-126">The fields that appear depend on what you selected.</span></span> <span data-ttu-id="4968d-127">เมื่อคุณเลือกการจัดกลุ่มระบบ จะมีการเพิ่มฟิลด์ใหม่สองรายการ </span><span class="sxs-lookup"><span data-stu-id="4968d-127">When you select System grouping, two new fields are added.</span></span> <span data-ttu-id="4968d-128">ซึ่งมีอธิบายอยู่ด้านล่าง</span><span class="sxs-lookup"><span data-stu-id="4968d-128">These are explained below.</span></span>  
+8. <span data-ttu-id="4968d-129">ในฟิลด์การจัดกลุ่มระบบ ให้เลือก 'WorkPoolId'</span><span class="sxs-lookup"><span data-stu-id="4968d-129">In the System grouping field, select 'WorkPoolId'.</span></span>
+    * <span data-ttu-id="4968d-130">เมื่อผู้ปฏิบัติงานสำหรับคลังสินค้าเปิดรายการเมนูนี้ ระบบจะขอให้สแกนรหัสกลุ่มงาน</span><span class="sxs-lookup"><span data-stu-id="4968d-130">When warehouse workers open this menu item, they’ll be asked to scan a Work pool ID.</span></span> <span data-ttu-id="4968d-131">ใบสั่งงานทั้งหมดที่มีรหัสกลุ่มงานนี้และรายการใบสั่งงานที่เปิดที่มีคลาสงานหนึ่งรายการที่เพิ่มไปยังรายการเมนูนี้จะถูกผลักให้กับผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="4968d-131">All work orders with this Work pool ID and open work order lines with one of the work classes added to this menu item will be pushed to the user.</span></span>  
+9. <span data-ttu-id="4968d-132">ในฟิลด์ป้ายชื่อการจัดกลุ่มระบบ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="4968d-132">In the System grouping label field, type a value.</span></span>
+    * <span data-ttu-id="4968d-133">นี่คือข้อความที่แสดงให้กับผู้ใช้บนอุปกรณ์เคลื่อนที่ </span><span class="sxs-lookup"><span data-stu-id="4968d-133">This is the text displayed to the user on the mobile device.</span></span> <span data-ttu-id="4968d-134">ตัวอย่างเช่น คุณสามารถพิมพ์ กลุ่มงาน</span><span class="sxs-lookup"><span data-stu-id="4968d-134">For example, you could type Work pool.</span></span>  
+10. <span data-ttu-id="4968d-135">เลือก ใช่ ในการแทนป้ายทะเบียนในระหว่างใส่ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="4968d-135">Select Yes in the Override license plate during put field.</span></span>
+    * <span data-ttu-id="4968d-136">ตัวเลือกนี้ช่วยให้ผู้ปฏิบัติงานสำหรับคลังสินค้าสามารถแทนที่ป้ายทะเบียนเป้าหมายเมื่อมีสินค้าวางลงบนป้ายทะเบียนที่มีการควบคุมตำแหน่งที่ตั้ง</span><span class="sxs-lookup"><span data-stu-id="4968d-136">This option allows warehouse workers to override the target license plate when items are put down on a license plate controlled location.</span></span>  
+11. <span data-ttu-id="4968d-137">เลือก ใช่ ในกลุ่มฟิลด์การสำรองสินค้า</span><span class="sxs-lookup"><span data-stu-id="4968d-137">Select Yes in the Group put away field.</span></span>
+    * <span data-ttu-id="4968d-138">ถ้ารายการการย้ายทั้งหมดในใบสั่งงานใช้ตำแหน่งที่ตั้งเดียวกัน ผู้ใช้จะได้รับคำสั่งการย้ายแบบรวมหนึ่งรายการสำหรับรายการทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4968d-138">If all the Put lines on the work order share the same location, the user will receive one combined Put instruction for all lines.</span></span>  
+    * <span data-ttu-id="4968d-139">รหัสเท็มเพลตการตรวจสอบ: เท็มเพลตการตรวจสอบงานช่วยให้คุณสามารถระบุว่ากระบวนการงานสำหรับรายการเมนูควรถูกขัดจังหวะเพื่อให้สามารถทำการดำเนินการอื่นได้</span><span class="sxs-lookup"><span data-stu-id="4968d-139">Audit template ID: A work audit template allows you to specify that the work process for a menu item should be interrupted so that another operation can be performed.</span></span> <span data-ttu-id="4968d-140">ตัวอย่างเช่น ถ้ารายการเมนูนี้ใช้สำหรับงานขาเข้า เท็มเพลตการตรวจสอบอาจจำเป็นที่ผู้ปฏิบัติงานตรวจสอบอุณหภูมิ</span><span class="sxs-lookup"><span data-stu-id="4968d-140">For example, if this menu item is for inbound work, the audit template might require that the worker checks the temperature.</span></span> <span data-ttu-id="4968d-141">จุดจะยุติกระบวนการที่ระบุในเท็มเพลตการตรวจสอบ ตัวอย่างเช่น เมื่องานเริ่มต้น หรือเสร็จสมบูรณ์ หรือเปลี่ยนแปลงสถานะ</span><span class="sxs-lookup"><span data-stu-id="4968d-141">The point at which the process is interrupted is specified on the audit template and can be, for example, when work is started or completed, or when its status changes.</span></span>  
+12. <span data-ttu-id="4968d-142">ขยายส่วนคลาสงาน</span><span class="sxs-lookup"><span data-stu-id="4968d-142">Expand the Work classes section.</span></span>
+13. <span data-ttu-id="4968d-143">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4968d-143">Click New.</span></span>
+14. <span data-ttu-id="4968d-144">ในฟิลด์รหัสคลาสงาน ให้พิมพ์ 'การซื้อ'</span><span class="sxs-lookup"><span data-stu-id="4968d-144">In the Work class ID field, type 'Purchase'.</span></span>
+    * <span data-ttu-id="4968d-145">กลุ่มงานจำกัดงานที่สามารถใช้สำหรับรายการเมนู </span><span class="sxs-lookup"><span data-stu-id="4968d-145">The work pool restricts the work that the menu item can be used for.</span></span> <span data-ttu-id="4968d-146">ในกรณีนี้ จะใช้งานได้สำหรับรายการใบสั่งงานที่เปิดที่มีรหัสคลาสงานการซื้อ</span><span class="sxs-lookup"><span data-stu-id="4968d-146">In this case it will be used for open work order lines that have the Purchase work class ID.</span></span>  
+15. <span data-ttu-id="4968d-147">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4968d-147">Click Save.</span></span>
 
-## <a name="set-up-work-confirmation"></a>ตั้งค่าการยืนยันงาน
-1. คลิก การตั้งค่าการยืนยันงาน
-2. ในฟิลด์ประเภทงาน ให้เลือก 'เบิกสินค้า'
-3. เลือกกล่องกาเครื่องหมายยืนยันโดยอัตโนมัติ
-    * คำสั่งงานกับชนิดงานการย้ายจะได้รับการยืนยันโดยอัตโนมัติ  คำสั่งนี้จะไม่ถูกแสดงให้กับผู้ใช้  
-4. คลิก สร้าง
-5. ในฟิลด์ประเภทงาน ให้เลือก 'ส่งสินค้า'
-6. เลือกกล่องกาเครื่องหมายการยืนยันตำแหน่ง
-    * ระบบจะขอให้ผู้ปฏิบัติงานสำหรับคลังสินค้าทำการสแกนการยืนยันตำแหน่งที่ตั้ง เมื่อสินค้าถูกวางลง  
-7. คลิก บันทึก
-8. ปิดหน้า
-9. ปิดหน้า
+## <a name="set-up-work-confirmation"></a><span data-ttu-id="4968d-148">ตั้งค่าการยืนยันงาน</span><span class="sxs-lookup"><span data-stu-id="4968d-148">Set up work confirmation</span></span>
+1. <span data-ttu-id="4968d-149">คลิก การตั้งค่าการยืนยันงาน</span><span class="sxs-lookup"><span data-stu-id="4968d-149">Click Work confirmation setup.</span></span>
+2. <span data-ttu-id="4968d-150">ในฟิลด์ประเภทงาน ให้เลือก 'เบิกสินค้า'</span><span class="sxs-lookup"><span data-stu-id="4968d-150">In the Work type field, select 'Pick'.</span></span>
+3. <span data-ttu-id="4968d-151">เลือกกล่องกาเครื่องหมายยืนยันโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="4968d-151">Select the Auto confirm check box.</span></span>
+    * <span data-ttu-id="4968d-152">คำสั่งงานกับชนิดงานการย้ายจะได้รับการยืนยันโดยอัตโนมัติ </span><span class="sxs-lookup"><span data-stu-id="4968d-152">The work instruction with work type Pick will be auto-confirmed.</span></span> <span data-ttu-id="4968d-153">คำสั่งนี้จะไม่ถูกแสดงให้กับผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="4968d-153">This instruction will not be presented to the user.</span></span>  
+4. <span data-ttu-id="4968d-154">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4968d-154">Click New.</span></span>
+5. <span data-ttu-id="4968d-155">ในฟิลด์ประเภทงาน ให้เลือก 'ส่งสินค้า'</span><span class="sxs-lookup"><span data-stu-id="4968d-155">In the Work type field, select 'Put'.</span></span>
+6. <span data-ttu-id="4968d-156">เลือกกล่องกาเครื่องหมายการยืนยันตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="4968d-156">Select the Location confirmation check box.</span></span>
+    * <span data-ttu-id="4968d-157">ระบบจะขอให้ผู้ปฏิบัติงานสำหรับคลังสินค้าทำการสแกนการยืนยันตำแหน่งที่ตั้ง เมื่อสินค้าถูกวางลง</span><span class="sxs-lookup"><span data-stu-id="4968d-157">The warehouse worker will be asked to perform a confirmation scan of the location, when the item is put down.</span></span>  
+7. <span data-ttu-id="4968d-158">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4968d-158">Click Save.</span></span>
+8. <span data-ttu-id="4968d-159">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4968d-159">Close the page.</span></span>
+9. <span data-ttu-id="4968d-160">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4968d-160">Close the page.</span></span>
 
-## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>เพิ่มรายการเมนูที่เมนูอุปกรณ์เคลื่อนที่
-1. ไปที่ เมนูของอุปกรณ์เคลื่อนที่
-2. คลิก แก้ไข
-3. ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด  เช่น กรองข้อมูลในฟิลด์ชื่อ ด้วยค่า 'ขาเข้า'
-    * คุณต้องการค้นหาเมนูที่คุณใช้สำหรับรายการเมนูขาเข้า  ใน USMF จะเรียกว่าขาเข้า  
-4. ในแผนภูมิ ให้เลือกค่าใดค่าหนึ่ง
-5. คลิกที่ลูกศรที่ชี้ไปทางขวา
-6. คลิก บันทึก
-7. ปิดหน้า
+## <a name="add-the-menu-item-to-a-mobile-device-menu"></a><span data-ttu-id="4968d-161">เพิ่มรายการเมนูที่เมนูอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="4968d-161">Add the menu item to a mobile device menu</span></span>
+1. <span data-ttu-id="4968d-162">ไปที่ เมนูของอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="4968d-162">Go to Mobile device menu.</span></span>
+2. <span data-ttu-id="4968d-163">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="4968d-163">Click Edit.</span></span>
+3. <span data-ttu-id="4968d-164">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="4968d-164">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4968d-165">เช่น กรองข้อมูลในฟิลด์ชื่อ ด้วยค่า 'ขาเข้า'</span><span class="sxs-lookup"><span data-stu-id="4968d-165">For example, filter on the Name field with a value of 'inbound'.</span></span>
+    * <span data-ttu-id="4968d-166">คุณต้องการค้นหาเมนูที่คุณใช้สำหรับรายการเมนูขาเข้า </span><span class="sxs-lookup"><span data-stu-id="4968d-166">You want to find the menu you use for inbound menu items.</span></span> <span data-ttu-id="4968d-167">ใน USMF จะเรียกว่าขาเข้า</span><span class="sxs-lookup"><span data-stu-id="4968d-167">In USMF this is called Inbound.</span></span>  
+4. <span data-ttu-id="4968d-168">ในแผนภูมิ ให้เลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="4968d-168">In the tree, select 'a value'.</span></span>
+5. <span data-ttu-id="4968d-169">คลิกที่ลูกศรที่ชี้ไปทางขวา</span><span class="sxs-lookup"><span data-stu-id="4968d-169">Click on the arrow that points to the right.</span></span>
+6. <span data-ttu-id="4968d-170">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4968d-170">Click Save.</span></span>
+7. <span data-ttu-id="4968d-171">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4968d-171">Close the page.</span></span>
 
 

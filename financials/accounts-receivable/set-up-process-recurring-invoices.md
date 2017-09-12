@@ -19,51 +19,51 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 463a81d615e6820b6ab45592cd21e28a76c6c04d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5f095b74df8b680f6e7e54520f9684298ec51aad
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="set-up-and-process-recurring-invoices"></a>ตั้งค่า และประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ
+# <a name="set-up-and-process-recurring-invoices"></a><span data-ttu-id="236de-104">ตั้งค่า และประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-104">Set up and process recurring invoices</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายวิธีการตั้งค่าและประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ คุณสามารถใช้ใบแจ้งหนี้ที่เกิดซ้ำถ้าคุณต้องออกใบแจ้งหนี้ยอดเงินเดียวกันเป็นประจำให้ลูกค้า
+<span data-ttu-id="236de-105">บทความนี้อธิบายวิธีการตั้งค่าและประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-105">This article explains how to set up and process recurring invoices.</span></span> <span data-ttu-id="236de-106">คุณสามารถใช้ใบแจ้งหนี้ที่เกิดซ้ำถ้าคุณต้องออกใบแจ้งหนี้ยอดเงินเดียวกันเป็นประจำให้ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="236de-106">You can use recurring invoices if you must invoice customers for the same amount on a regular basis.</span></span>
 
-<a name="create-a-recurring-free-text-invoice-template"></a>สร้างเท็มเพลตสำหรับใบแจ้งหนี้ข้อความอิสระที่เกิดซ้ำ
+<a name="create-a-recurring-free-text-invoice-template"></a><span data-ttu-id="236de-107">สร้างเท็มเพลตสำหรับใบแจ้งหนี้ข้อความอิสระที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-107">Create a recurring free text invoice template</span></span>
 ---------------------------------------------
 
-เมื่อมีการออกอินวอยซ์ลูกค้าสำหรับบริการเดียวกันเป็นประจำ คุณต้องกำหนดแม่แบบใบแจ้งหนี้ข้อความอิสระที่สามารถนำมาใช้ใหม่เพื่อสร้างใบแจ้งหนี้ เท็มเพลต #DEF ประกอบด้วยข้อมูลต่อไปนี้
+<span data-ttu-id="236de-108">เมื่อมีการออกอินวอยซ์ลูกค้าสำหรับบริการเดียวกันเป็นประจำ คุณต้องกำหนดแม่แบบใบแจ้งหนี้ข้อความอิสระที่สามารถนำมาใช้ใหม่เพื่อสร้างใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="236de-108">To invoice customers for the same services on a regular basis, you must define a free text invoice template that can be reused to create the invoices.</span></span> <span data-ttu-id="236de-109">เท็มเพลต #DEF ประกอบด้วยข้อมูลต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="236de-109">This template contains the following information:</span></span>
 
--   ข้อมูลหัวข้อ เช่นกลุ่มภาษี เงื่อนไขการชำระเงิน และวิธีการชำระเงิน
--   ข้อมูลรายการ เช่นคำอธิบายการบริการ บัญชีรายได้ ราคาต่อหน่วย และยอดเงินใบแจ้งหนี้
--   ค่าธรรมเนียมสำหรับการจัดส่งหรือการจัดการ
--   การกระจายการลงบัญชีพร้อมกับรายละเอียดมิติทางการเงิน เช่นศูนย์ต้นทุนและหน่วยธุรกิจ
+-   <span data-ttu-id="236de-110">ข้อมูลหัวข้อ เช่นกลุ่มภาษี เงื่อนไขการชำระเงิน และวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="236de-110">Header information, such as tax groups, terms of payment, and the method of payment</span></span>
+-   <span data-ttu-id="236de-111">ข้อมูลรายการ เช่นคำอธิบายการบริการ บัญชีรายได้ ราคาต่อหน่วย และยอดเงินใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="236de-111">Line information, such as the service description, revenue accounts, unit price, and invoice amount</span></span>
+-   <span data-ttu-id="236de-112">ค่าธรรมเนียมสำหรับการจัดส่งหรือการจัดการ</span><span class="sxs-lookup"><span data-stu-id="236de-112">Charges for shipping or handling</span></span>
+-   <span data-ttu-id="236de-113">การกระจายการลงบัญชีพร้อมกับรายละเอียดมิติทางการเงิน เช่นศูนย์ต้นทุนและหน่วยธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="236de-113">Accounting distributions together with financial dimension information, such as cost centers and business units</span></span>
 
-มีผลบังคับ คุณกำลังสร้างใบแจ้งหนี้ทั้งฉบับ และจะบันทึกเป็นเท็มเพลต คุณสามารถตั้งค่าเท็มเพลตด้วยการใช้หน้า **ใบแจ้งหนี้ที่เกิดซ้ำ** ได้
+<span data-ttu-id="236de-114">มีผลบังคับ คุณกำลังสร้างใบแจ้งหนี้ทั้งฉบับ และจะบันทึกเป็นเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="236de-114">In effect, you're creating an entire invoice and saving it as a template.</span></span> <span data-ttu-id="236de-115">คุณสามารถตั้งค่าเท็มเพลตด้วยการใช้หน้า **ใบแจ้งหนี้ที่เกิดซ้ำ** ได้</span><span class="sxs-lookup"><span data-stu-id="236de-115">You can set up the templates using the **Recurring invoices** page.</span></span>
 
-## <a name="assign-a-free-text-invoice-template-to-a-customer-and-enter-recurrence-details"></a>กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระให้กับลูกค้าและป้อนรายละเอียดการเกิดซ้ำ
-หลังจากที่สร้างเท็มเพลต คุณต้องกำหนดเท็มเพลตให้แก่ลูกค้าที่คุณต้องการออกใบแจ้งหนี้ นอกจากนี้ คุณต้องระบุ เมื่อใด และบ่อยเพียงใด เพื่อที่จะใช้ใบแจ้งหนี้ได้ คุณสามารถกำหนดเท็มเพลตที่แท็บ **ใบแจ้งหนี้** ที่หน้าของ **ลูกค้า** ได้ เพิ่มเท็มเพลตในรายการ และอัพเดตข้อมูลต่อไปนี้:
+## <a name="assign-a-free-text-invoice-template-to-a-customer-and-enter-recurrence-details"></a><span data-ttu-id="236de-116">กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระให้กับลูกค้าและป้อนรายละเอียดการเกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-116">Assign a free text invoice template to a customer and enter recurrence details</span></span>
+<span data-ttu-id="236de-117">หลังจากที่สร้างเท็มเพลต คุณต้องกำหนดเท็มเพลตให้แก่ลูกค้าที่คุณต้องการออกใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="236de-117">After the template is created, you must assign the template to the customers that you want to invoice.</span></span> <span data-ttu-id="236de-118">นอกจากนี้ คุณต้องระบุ เมื่อใด และบ่อยเพียงใด เพื่อที่จะใช้ใบแจ้งหนี้ได้</span><span class="sxs-lookup"><span data-stu-id="236de-118">Additionally, you must specify when and how often the invoice will be used.</span></span> <span data-ttu-id="236de-119">คุณสามารถกำหนดเท็มเพลตที่แท็บ **ใบแจ้งหนี้** ที่หน้าของ **ลูกค้า** ได้</span><span class="sxs-lookup"><span data-stu-id="236de-119">You can assign the templates on the **Invoice** tab of the **Customers** page.</span></span> <span data-ttu-id="236de-120">เพิ่มเท็มเพลตในรายการ และอัพเดตข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="236de-120">Add the template to the list, and update the following information:</span></span>
 
--   วันที่เริ่มต้นและ อีกทางหนึ่งคือ วันที่สิ้นสุดสำหรับการเรียกเก็บเงินที่เกิดซ้ำ
--   ความถี่ของการเรียกเก็บเงินที่เกิดซ้ำ (ตัวอย่างเช่น ทุกวัน หรือ เดือนละครั้ง)
--   ยอดเงินการเรียกเก็บเงินสูงสุด (ถ้าจำเป็นต้องมีข้อมูลนี้)
+-   <span data-ttu-id="236de-121">วันที่เริ่มต้นและ อีกทางหนึ่งคือ วันที่สิ้นสุดสำหรับการเรียกเก็บเงินที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-121">The start date and, optionally, the end date for the recurring billing</span></span>
+-   <span data-ttu-id="236de-122">ความถี่ของการเรียกเก็บเงินที่เกิดซ้ำ (ตัวอย่างเช่น ทุกวัน หรือ เดือนละครั้ง)</span><span class="sxs-lookup"><span data-stu-id="236de-122">The frequency of the recurring billing (for example, every day or once a month)</span></span>
+-   <span data-ttu-id="236de-123">ยอดเงินการเรียกเก็บเงินสูงสุด (ถ้าจำเป็นต้องมีข้อมูลนี้)</span><span class="sxs-lookup"><span data-stu-id="236de-123">The maximum billing amount (if this information is required)</span></span>
 
-ลูกค้าสามารถมีเท็มเพลตหลายเท็มเพลต ที่มีความถี่ที่แตกต่าง
+<span data-ttu-id="236de-124">ลูกค้าสามารถมีเท็มเพลตหลายเท็มเพลต ที่มีความถี่ที่แตกต่าง</span><span class="sxs-lookup"><span data-stu-id="236de-124">A customer can have multiple templates that have different frequencies.</span></span>
 
-## <a name="generate-the-recurring-invoices"></a>สร้างใบแจ้งหนี้ที่เกิดซ้ำ
-ในหน้า **ใบแจ้งหนี้ที่เกิดซ้ำ**, จะมีงานที่ประมวลผลเท็มเพลใบแจ้งหนี้ที่เกิดซ้ำ ให้คุณระบุวันที่ในใบแจ้งหนี้และเท็มเพลตในการสร้างใบแจ้งหนี้ ใบแจ้งหนี้จะถูกสร้างขึ้น และกำหนดหมายเลขรหัสการเกิดซ้ำเดียวสำหรับใบแจ้งหนี้แต่ละกลุ่มที่ถูกประมวลผล
-ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระ
+## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="236de-125">สร้างใบแจ้งหนี้ที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-125">Generate the recurring invoices</span></span>
+<span data-ttu-id="236de-126">ในหน้า **ใบแจ้งหนี้ที่เกิดซ้ำ**, จะมีงานที่ประมวลผลเท็มเพลใบแจ้งหนี้ที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="236de-127">ให้คุณระบุวันที่ในใบแจ้งหนี้และเท็มเพลตในการสร้างใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="236de-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="236de-128">ใบแจ้งหนี้จะถูกสร้างขึ้น และกำหนดหมายเลขรหัสการเกิดซ้ำเดียวสำหรับใบแจ้งหนี้แต่ละกลุ่มที่ถูกประมวลผล</span><span class="sxs-lookup"><span data-stu-id="236de-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
+<span data-ttu-id="236de-129">ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="236de-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
-หลังจากที่สร้างใบแจ้งหนี้ที่เกิดซ้ำ ใบแจ้งหนี้รหัสการเกิดซ้ำปรากฏในงานการลงรายการบัญชีในหน้า **ใบแจ้งหนี้ที่เกิดซ้ำ** คุณสามารถดูใบแจ้งหนี้ทั้งหมดสำหรับรหัสการเกิดซ้ำ โดยการคลิกลิงค์ ในระหว่างการตรวจทานใบแจ้งหนี้สำหรับรหัสการเกิดซ้ำ คุณสามารถลบใบแจ้งหนี้แต่ละรายการ การตั้งค่าการเกิดซ้ำของลูกค้าจะตั้งค่าสำหรับเท็มเพลตนั้นใหม่ เพื่อที่จะสามารถสร้างใหม่ได้ในภายหลัง คุณสามารถลงรายการบัญชีเดียว มาก หรือทั้งหมดของใบแจ้งหนี้สำหรับรหัสการเกิดซ้ำ ถ้าเปิดใช้งานลำดับงาน คุณต้องคลิก **ส่ง** ก่อนที่คุณสามารถลงรายการใบแจ้งหนี้
-พิมพ์ใบแจ้งหนี้ข้อความอิสระที่เกิดซ้ำ
+<span data-ttu-id="236de-130">หลังจากที่สร้างใบแจ้งหนี้ที่เกิดซ้ำ ใบแจ้งหนี้รหัสการเกิดซ้ำปรากฏในงานการลงรายการบัญชีในหน้า **ใบแจ้งหนี้ที่เกิดซ้ำ**</span><span class="sxs-lookup"><span data-stu-id="236de-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="236de-131">คุณสามารถดูใบแจ้งหนี้ทั้งหมดสำหรับรหัสการเกิดซ้ำ โดยการคลิกลิงค์</span><span class="sxs-lookup"><span data-stu-id="236de-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="236de-132">ในระหว่างการตรวจทานใบแจ้งหนี้สำหรับรหัสการเกิดซ้ำ คุณสามารถลบใบแจ้งหนี้แต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="236de-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="236de-133">การตั้งค่าการเกิดซ้ำของลูกค้าจะตั้งค่าสำหรับเท็มเพลตนั้นใหม่ เพื่อที่จะสามารถสร้างใหม่ได้ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="236de-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="236de-134">คุณสามารถลงรายการบัญชีเดียว มาก หรือทั้งหมดของใบแจ้งหนี้สำหรับรหัสการเกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="236de-135">ถ้าเปิดใช้งานลำดับงาน คุณต้องคลิก **ส่ง** ก่อนที่คุณสามารถลงรายการใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="236de-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
+<span data-ttu-id="236de-136">พิมพ์ใบแจ้งหนี้ข้อความอิสระที่เกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="236de-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
-หลังจากที่ลงรายการบัญชีใบแจ้งหนี้ที่เกิดซ้ำ คุณสามารถพิมพ์ใบแจ้งหนี้จากหน้ารายการใบแจ้งหนี้ข้อความอิสระ คุณสามารถพิมพ์ใบแจ้งหนี้ที่เลือก หรือคุณสามารถเลือกช่วงของใบแจ้งหนี้ที่พิมพ์
+<span data-ttu-id="236de-137">หลังจากที่ลงรายการบัญชีใบแจ้งหนี้ที่เกิดซ้ำ คุณสามารถพิมพ์ใบแจ้งหนี้จากหน้ารายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="236de-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="236de-138">คุณสามารถพิมพ์ใบแจ้งหนี้ที่เลือก หรือคุณสามารถเลือกช่วงของใบแจ้งหนี้ที่พิมพ์</span><span class="sxs-lookup"><span data-stu-id="236de-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
 
 
 

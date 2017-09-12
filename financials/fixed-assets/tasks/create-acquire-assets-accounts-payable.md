@@ -16,46 +16,46 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f814d20bc16bb3334ae4bc449cc0d45843487023
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c483622346bf61d0805402ae4ae8d2ba7c7aed89
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-acquire-assets-from-accounts-payable"></a>สร้างและรับสินทรัพย์จากบัญชีเจ้าหนี้
+# <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="3c4ee-103">สร้างและรับสินทรัพย์จากบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3c4ee-103">Create and acquire assets from accounts payable</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-คู่มือของงานนี้จะนำไปสุ่การสร้างและการซื้อสินทรัพย์ของสินทรัพย์ถาวรด้วยกระบวนการซื้อ   มีการใช้นักบัญชีและเสมียนบัญชีเจ้าหนี้ดูแลและบริษัทสาธิต USMF
+<span data-ttu-id="3c4ee-104">คู่มือของงานนี้จะนำไปสุ่การสร้างและการซื้อสินทรัพย์ของสินทรัพย์ถาวรด้วยกระบวนการซื้อ </span><span class="sxs-lookup"><span data-stu-id="3c4ee-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span>  <span data-ttu-id="3c4ee-105">มีการใช้นักบัญชีและเสมียนบัญชีเจ้าหนี้ดูแลและบริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="3c4ee-105">It uses the Accountant and Accounts payable clerks and the demo company USMF .</span></span>
 
 
-## <a name="set-fixed-assets-parameters"></a>ตั้งค่าพารามิเตอร์สินทรัพย์ถาวร
-1. ไปที่สินทรัพย์ถาวร > การตั้งค่า > พารามิเตอร์สินทรัพย์ถาวร
-2. ขยายหรือยุบส่วนใบสั่งซื้อ
-3. ตรวจสอบการอนุญาตให้มีการซื้อสินทรัพย์จากกล่องกาเครื่องหมายการซื้อ
-4. ตรวจสอบสร้างสินทรัพย์ในระหว่างกล่องกาเครื่องหมายใบรับสินค้าหรือการลงรายการบัญชีใบแจ้งหนี้
+## <a name="set-fixed-assets-parameters"></a><span data-ttu-id="3c4ee-106">ตั้งค่าพารามิเตอร์สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="3c4ee-106">Set Fixed assets parameters</span></span>
+1. <span data-ttu-id="3c4ee-107">ไปที่สินทรัพย์ถาวร > การตั้งค่า > พารามิเตอร์สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="3c4ee-107">Go to Fixed assets > Setup > Fixed assets parameters.</span></span>
+2. <span data-ttu-id="3c4ee-108">ขยายหรือยุบส่วนใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="3c4ee-108">Expand or collapse the Purchase orders section.</span></span>
+3. <span data-ttu-id="3c4ee-109">ตรวจสอบการอนุญาตให้มีการซื้อสินทรัพย์จากกล่องกาเครื่องหมายการซื้อ</span><span class="sxs-lookup"><span data-stu-id="3c4ee-109">Check the Allow asset acquisition from Purchasing checkbox.</span></span>
+4. <span data-ttu-id="3c4ee-110">ตรวจสอบสร้างสินทรัพย์ในระหว่างกล่องกาเครื่องหมายใบรับสินค้าหรือการลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="3c4ee-110">Check the Create asset during product receipt or invoice posting checkbox.</span></span>
 
-## <a name="create-a-new-vendor-invoice"></a>สร้างใบแจ้งหนี้ของผู้จัดจำหน่ายใหม่
-1. ไปที่บัญชีเจ้าหนี้ > พื้นที่ทำงาน > รายการใบแจ้งหนี้ของผู้จัดจำหน่าย
-2. คลิกใบแจ้งหนี้ของผู้จัดจำหน่ายใหม่
-3. ในฟิลด์บัญชีใบแจ้งหนี้ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-5. ในฟิลด์หมายเลข ให้พิมพ์ค่า
-6. ในฟิลด์วันที่ลงรายการบัญชี ป้อนวันที่
-7. คลิก เพิ่มรายการ
-8. ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * สินค้าที่ไม่มีการเก็บในคลังหรือประเภทการจัดซื้ออย่างใดอย่างหนึ่่ง สามารถใช้สำหรับการซื้อสินทรัพย์ถาวร  
-9. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-10. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-    * รายการใบแจ้งหนี้หนึ่งรายการจะสร้างสินทรัพย์ถาวรแค่หนึ่งรายการโดยไม่คำนึงถึงปริมาณ   ค่าของฟิลด์ปริมาณใบแจ้งหนี้จะถูกโอนย้ายไปเป็นปริมาณสินทรัพย์ถาวร  
-11. ในฟิลด์ ราคาต่อหน่วย ให้ป้อนตัวเลข
-12. ขยายหรือยุบส่วนรายละเอียดของรายการ
-13. คลิกที่แท็บสินทรัพย์ถาวร
-14. เลือกกล่องกาเครื่องหมายสร้างสินทรัพย์ถาวรใหม่
-15. ในฟิลด์สินทรัพย์ถาวร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-16. ในรายการ ให้เลือกสินทรัพย์ถาวรที่จะใช้เมื่อมีการสร้างสินทรัพย์ถาวรใหม่
-17. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-18. คลิก ลงรายการบัญชี
-    * สินทรัพย์ถาวรจะถูกสร้างและซื้อเมื่อมีการลงรายการบัญชีใบแจ้งหนี้  
+## <a name="create-a-new-vendor-invoice"></a><span data-ttu-id="3c4ee-111">สร้างใบแจ้งหนี้ของผู้จัดจำหน่ายใหม่</span><span class="sxs-lookup"><span data-stu-id="3c4ee-111">Create a new vendor invoice</span></span>
+1. <span data-ttu-id="3c4ee-112">ไปที่บัญชีเจ้าหนี้ > พื้นที่ทำงาน > รายการใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3c4ee-112">Go to Accounts payable > Workspaces > Vendor invoice entry.</span></span>
+2. <span data-ttu-id="3c4ee-113">คลิกใบแจ้งหนี้ของผู้จัดจำหน่ายใหม่</span><span class="sxs-lookup"><span data-stu-id="3c4ee-113">Click New vendor invoice.</span></span>
+3. <span data-ttu-id="3c4ee-114">ในฟิลด์บัญชีใบแจ้งหนี้ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3c4ee-114">In the Invoice account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="3c4ee-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3c4ee-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="3c4ee-116">ในฟิลด์หมายเลข ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="3c4ee-116">In the Number field, type a value.</span></span>
+6. <span data-ttu-id="3c4ee-117">ในฟิลด์วันที่ลงรายการบัญชี ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3c4ee-117">In the Posting date field, enter a date.</span></span>
+7. <span data-ttu-id="3c4ee-118">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="3c4ee-118">Click Add line.</span></span>
+8. <span data-ttu-id="3c4ee-119">ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3c4ee-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="3c4ee-120">สินค้าที่ไม่มีการเก็บในคลังหรือประเภทการจัดซื้ออย่างใดอย่างหนึ่่ง สามารถใช้สำหรับการซื้อสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="3c4ee-120">Either non-stocked items or procurement categories can be used for fixed asset acquisition.</span></span>  
+9. <span data-ttu-id="3c4ee-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3c4ee-121">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="3c4ee-122">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="3c4ee-122">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="3c4ee-123">รายการใบแจ้งหนี้หนึ่งรายการจะสร้างสินทรัพย์ถาวรแค่หนึ่งรายการโดยไม่คำนึงถึงปริมาณ </span><span class="sxs-lookup"><span data-stu-id="3c4ee-123">One invoice line will only create one fixed asset, regardless of quantity.</span></span>  <span data-ttu-id="3c4ee-124">ค่าของฟิลด์ปริมาณใบแจ้งหนี้จะถูกโอนย้ายไปเป็นปริมาณสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="3c4ee-124">The invoice quantity field value will be transferred to the fixed asset quantity.</span></span>  
+11. <span data-ttu-id="3c4ee-125">ในฟิลด์ ราคาต่อหน่วย ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="3c4ee-125">In the Unit price field, enter a number.</span></span>
+12. <span data-ttu-id="3c4ee-126">ขยายหรือยุบส่วนรายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="3c4ee-126">Expand or collapse the Line details section.</span></span>
+13. <span data-ttu-id="3c4ee-127">คลิกที่แท็บสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="3c4ee-127">Click the Fixed assets tab.</span></span>
+14. <span data-ttu-id="3c4ee-128">เลือกกล่องกาเครื่องหมายสร้างสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="3c4ee-128">Check the Create a new fixed asset checkbox.</span></span>
+15. <span data-ttu-id="3c4ee-129">ในฟิลด์สินทรัพย์ถาวร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3c4ee-129">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="3c4ee-130">ในรายการ ให้เลือกสินทรัพย์ถาวรที่จะใช้เมื่อมีการสร้างสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="3c4ee-130">In the list, select the fixed asset group to be used when creating the new fixed asset.</span></span>
+17. <span data-ttu-id="3c4ee-131">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3c4ee-131">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="3c4ee-132">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="3c4ee-132">Click Post.</span></span>
+    * <span data-ttu-id="3c4ee-133">สินทรัพย์ถาวรจะถูกสร้างและซื้อเมื่อมีการลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="3c4ee-133">The fixed asset will be created and acquired when the invoice is posted.</span></span>  
 
 

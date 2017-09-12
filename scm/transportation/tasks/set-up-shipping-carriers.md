@@ -17,82 +17,82 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: eec121859b7135741ccf204fd507ef0790f1c8d4
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e27be049bebd63c9266029b8981874417a9f0a8c
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-shipping-carriers"></a>การตั้งค่าผู้ขนส่ง
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="78c5f-103">การตั้งค่าผู้ขนส่ง</span><span class="sxs-lookup"><span data-stu-id="78c5f-103">Set up shipping carriers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนการนี้แสดงวิธีการตั้งค่าการขนส่ง และกำหนดรายละเอียด เช่น การบริการ,โหมดการจัดส่ง,ค่าขนส่ง,วิธีการชำระเงิน,ข้อจำกัดขนส่ง, และอัตราการจัดส่ง  ผู้ประสานงานขนส่งสามารถกำหนดผู้ขนส่งสินค้าทั้งโหลดขาเข้าหรือขาออก
+<span data-ttu-id="78c5f-104">กระบวนการนี้แสดงวิธีการตั้งค่าการขนส่ง และกำหนดรายละเอียด เช่น การบริการ,โหมดการจัดส่ง,ค่าขนส่ง,วิธีการชำระเงิน,ข้อจำกัดขนส่ง, และอัตราการจัดส่ง </span><span class="sxs-lookup"><span data-stu-id="78c5f-104">This procedure shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="78c5f-105">ผู้ประสานงานขนส่งสามารถกำหนดผู้ขนส่งสินค้าทั้งโหลดขาเข้าหรือขาออก</span><span class="sxs-lookup"><span data-stu-id="78c5f-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a>สร้างผู้ขนส่งสินค้าใหม่
-1. ไปที่การจัดการการขนส่ง > การตั้งค่า > ผู้ขนส่ง > ผู้ขนส่งสินค้า
-2. คลิก สร้าง
-3. ในฟิลด์ผู้ขนส่งสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง
-4. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-5. ในฟิลด์โหมด ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-6. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-7. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="78c5f-106">สร้างผู้ขนส่งสินค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="78c5f-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="78c5f-107">ไปที่การจัดการการขนส่ง > การตั้งค่า > ผู้ขนส่ง > ผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="78c5f-107">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="78c5f-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="78c5f-108">Click New.</span></span>
+3. <span data-ttu-id="78c5f-109">ในฟิลด์ผู้ขนส่งสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="78c5f-109">In the Shipping carrier field, type a value.</span></span>
+4. <span data-ttu-id="78c5f-110">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="78c5f-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="78c5f-111">ในฟิลด์โหมด ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-111">In the Mode field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="78c5f-112">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="78c5f-113">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>กรอกข้อมูลทั่วไปสำหรับผู้ขนส่งสินค้า
-1. สลับการขยายส่วนภาพรวม
-2. เลือกหรือไม่เลือกกล่องกาเครื่องหมายของผู้ขนส่งสินค้า
-3. ในฟิลด์ผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * เลือกบัญชีผู้จัดจำหน่ายเพื่อมอบหมายให้กับผู้ขนส่งสินค้า  
-4. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. ในฟิลด์ชนิดการชำระเงินการขนส่ง ให้เลือกตัวเลือก
-    * เลือกชนิดการชำระเงินขนส่งด้วยตัวเอง หรือเลือก EDI เพื่ออัพเดตการชำระเงิน โดยใช้การแลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ (EDI)  
-7. เลือกหรือไม่เลือกกล่องกาเครื่องหมายการจัดอันดับของผู้ขนส่ง
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="78c5f-114">กรอกข้อมูลทั่วไปสำหรับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="78c5f-114">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="78c5f-115">สลับการขยายส่วนภาพรวม</span><span class="sxs-lookup"><span data-stu-id="78c5f-115">Toggle the expansion of the Overview section.</span></span>
+2. <span data-ttu-id="78c5f-116">เลือกหรือไม่เลือกกล่องกาเครื่องหมายของผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="78c5f-116">Check or uncheck the Activate shipping carrier checkbox.</span></span>
+3. <span data-ttu-id="78c5f-117">ในฟิลด์ผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-117">In the Vendor field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="78c5f-118">เลือกบัญชีผู้จัดจำหน่ายเพื่อมอบหมายให้กับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="78c5f-118">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="78c5f-119">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-119">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="78c5f-120">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-120">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="78c5f-121">ในฟิลด์ชนิดการชำระเงินการขนส่ง ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-121">In the Transportation tender type field, select an option.</span></span>
+    * <span data-ttu-id="78c5f-122">เลือกชนิดการชำระเงินขนส่งด้วยตัวเอง หรือเลือก EDI เพื่ออัพเดตการชำระเงิน โดยใช้การแลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ (EDI)</span><span class="sxs-lookup"><span data-stu-id="78c5f-122">Select Manual to use the Transportation Tender page, or select EDI to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+7. <span data-ttu-id="78c5f-123">เลือกหรือไม่เลือกกล่องกาเครื่องหมายการจัดอันดับของผู้ขนส่ง</span><span class="sxs-lookup"><span data-stu-id="78c5f-123">Check or uncheck the Activate carrier rating checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>สร้างบริการที่จำเป็นสำหรับการขนส่งสินค้า
-1. สลับการขยายส่วนการบริการ
-2. คลิก สร้าง
-3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-4. ในฟิลด์ผู้บริการขนส่ง ให้พิมพ์ค่าใดค่าหนึ่ง
-5. ในฟิลด์ชื่อ ให้พิมพ์ค่า
-6. ในฟิลด์วิธีการขนส่ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-7. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="78c5f-124">สร้างบริการที่จำเป็นสำหรับการขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="78c5f-124">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="78c5f-125">สลับการขยายส่วนการบริการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-125">Toggle the expansion of the Services section.</span></span>
+2. <span data-ttu-id="78c5f-126">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="78c5f-126">Click New.</span></span>
+3. <span data-ttu-id="78c5f-127">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-127">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="78c5f-128">ในฟิลด์ผู้บริการขนส่ง ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="78c5f-128">In the Carrier service field, type a value.</span></span>
+5. <span data-ttu-id="78c5f-129">ในฟิลด์ชื่อ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="78c5f-129">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="78c5f-130">ในฟิลด์วิธีการขนส่ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-130">In the Transportation method field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="78c5f-131">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-131">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="78c5f-132">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-132">In the list, click the link in the selected row.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a>ตั้งค่าอยู่สำหรับผู้ขนส่ง (ไม่จำเป็น)
-1. สลับการขยายส่วนที่อยู่
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อหรือคำอธิบาย ให้พิมพ์ค่า
-4. ในฟิลด์ประเทศ/ภูมิภาค ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. ในฟิลด์รหัสไปรษณีย์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-7. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-9. ในฟิลด์ถนน ให้พิมพ์ค่าใดค่าหนึ่ง
-10. คลิก ตกลง
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="78c5f-133">ตั้งค่าอยู่สำหรับผู้ขนส่ง (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="78c5f-133">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="78c5f-134">สลับการขยายส่วนที่อยู่</span><span class="sxs-lookup"><span data-stu-id="78c5f-134">Toggle the expansion of the Addresses section.</span></span>
+2. <span data-ttu-id="78c5f-135">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="78c5f-135">Click New.</span></span>
+3. <span data-ttu-id="78c5f-136">ในฟิลด์ชื่อหรือคำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="78c5f-136">In the Name or description field, type a value.</span></span>
+4. <span data-ttu-id="78c5f-137">ในฟิลด์ประเทศ/ภูมิภาค ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-137">In the Country/region field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="78c5f-138">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-138">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="78c5f-139">ในฟิลด์รหัสไปรษณีย์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-139">In the ZIP/postal code field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="78c5f-140">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-140">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="78c5f-141">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-141">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="78c5f-142">ในฟิลด์ถนน ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="78c5f-142">In the Street field, type a value.</span></span>
+10. <span data-ttu-id="78c5f-143">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="78c5f-143">Click OK.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>ตั้งค่าโพรไฟล์การจัดอันดับสำหรับผู้ขนส่งสินค้า
-1. สลับการขยายส่วนของการจัดอันดับโพรไฟล์
-2. คลิก สร้าง
-3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-4. ในฟิลด์การจัดอันดับโพรไฟล์ ให้พิมพ์ค่า
-5. ในฟิลด์ชื่อ ให้พิมพ์ค่า
-6. ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-7. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-9. ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-10. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-11. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-12. ในฟิลด์กลไกจัดการอัตรา ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * เลือกกลไกจัดการอัตราที่สอดคล้องกับสัญญากับผู้ขนส่งที่คุณมี  
-13. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-14. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-15. ในฟิลด์ต้นแบบอัตรา ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-16. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-17. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-18. ในฟิลด์กลไกจัดการเวลาในการส่งต่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-19. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-20. คลิก บันทึก
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="78c5f-144">ตั้งค่าโพรไฟล์การจัดอันดับสำหรับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="78c5f-144">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="78c5f-145">สลับการขยายส่วนของการจัดอันดับโพรไฟล์</span><span class="sxs-lookup"><span data-stu-id="78c5f-145">Toggle the expansion of the Rating profiles section.</span></span>
+2. <span data-ttu-id="78c5f-146">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="78c5f-146">Click New.</span></span>
+3. <span data-ttu-id="78c5f-147">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-147">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="78c5f-148">ในฟิลด์การจัดอันดับโพรไฟล์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="78c5f-148">In the Rating profile field, type a value.</span></span>
+5. <span data-ttu-id="78c5f-149">ในฟิลด์ชื่อ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="78c5f-149">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="78c5f-150">ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-150">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="78c5f-151">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-151">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="78c5f-152">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-152">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="78c5f-153">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-153">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="78c5f-154">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-154">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="78c5f-155">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-155">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="78c5f-156">ในฟิลด์กลไกจัดการอัตรา ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-156">In the Rate engine field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="78c5f-157">เลือกกลไกจัดการอัตราที่สอดคล้องกับสัญญากับผู้ขนส่งที่คุณมี</span><span class="sxs-lookup"><span data-stu-id="78c5f-157">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+13. <span data-ttu-id="78c5f-158">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-158">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="78c5f-159">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-159">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="78c5f-160">ในฟิลด์ต้นแบบอัตรา ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-160">In the Rate master field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="78c5f-161">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="78c5f-161">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="78c5f-162">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-162">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="78c5f-163">ในฟิลด์กลไกจัดการเวลาในการส่งต่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="78c5f-163">In the Transit time engine field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="78c5f-164">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78c5f-164">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="78c5f-165">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="78c5f-165">Click Save.</span></span>
 
 

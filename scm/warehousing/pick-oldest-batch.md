@@ -14,31 +14,31 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: ee45fed40b10dbe913c73e1186b726a39831816d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 25056886b1a18dbaef12c8732a1fd0bd92a6d04b
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="pick-oldest-batch-on-a-mobile-device"></a>เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่
+# <a name="pick-oldest-batch-on-a-mobile-device"></a><span data-ttu-id="186eb-103">เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="186eb-103">Pick oldest batch on a mobile device</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-คุณสามารถเข้าถึงการตั้งค่าคอนฟิก **เลือกชุดงานที่เก่าที่สุด** ผ่านทางเมนูอุปกรณ์เคลื่อนที่ และช่วยให้คุณสามารถบังคับหรือเตือนผู้ปฏิบัติงานคลังสินค้าให้เลือกชุดงานที่เก่าที่สุดในตำแหน่งปัจจุบันของตนได้  
+<span data-ttu-id="186eb-104">คุณสามารถเข้าถึงการตั้งค่าคอนฟิก **เลือกชุดงานที่เก่าที่สุด** ผ่านทางเมนูอุปกรณ์เคลื่อนที่ และช่วยให้คุณสามารถบังคับหรือเตือนผู้ปฏิบัติงานคลังสินค้าให้เลือกชุดงานที่เก่าที่สุดในตำแหน่งปัจจุบันของตนได้</span><span class="sxs-lookup"><span data-stu-id="186eb-104">You can access the configuration **Pick oldest batch** via a mobile device menu and it allows you to force or warn warehouse workers to pick the oldest batch in their current location.</span></span>  
 
-## <a name="where-it-applies"></a>ตำแหน่งที่ใช้
-เลือกชุดงานที่เก่าที่สุดได้รับการตั้งค่าคอนฟิกบนรายการเมนูของอุปกรณ์เคลื่อนที่ และส่งผลต่อการเลือกชุดงานด้านล่างรายการ
+## <a name="where-it-applies"></a><span data-ttu-id="186eb-105">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="186eb-105">Where it applies</span></span>
+<span data-ttu-id="186eb-106">เลือกชุดงานที่เก่าที่สุดได้รับการตั้งค่าคอนฟิกบนรายการเมนูของอุปกรณ์เคลื่อนที่ และส่งผลต่อการเลือกชุดงานด้านล่างรายการ</span><span class="sxs-lookup"><span data-stu-id="186eb-106">Pick oldest batch is configured on mobile device menu items and effects the pick for batch below items.</span></span>
 
-## <a name="how-to-set-up-the-configuration-for-pick-oldest-batch"></a>วิธีการตั้งค่าการตั้งค่าคอนฟิกสำหรับ เลือกชุดงานที่เก่าที่สุด 
-สำหรับสินค้าที่กำหนดให้ใช้งานที่มีอยู่ **เลือกชุดงานที่เก่าที่สุด** สามารถตั้งค่าเป็น **ไม่มี** **เตือน** หรือ **บังคับ** จากเมนูอุปกรณ์เคลื่อนที่
+## <a name="how-to-set-up-the-configuration-for-pick-oldest-batch"></a><span data-ttu-id="186eb-107">วิธีการตั้งค่าการตั้งค่าคอนฟิกสำหรับ เลือกชุดงานที่เก่าที่สุด</span><span class="sxs-lookup"><span data-stu-id="186eb-107">How to set up the configuration for Pick oldest batch</span></span> 
+<span data-ttu-id="186eb-108">สำหรับสินค้าที่กำหนดให้ใช้งานที่มีอยู่ **เลือกชุดงานที่เก่าที่สุด** สามารถตั้งค่าเป็น **ไม่มี** **เตือน** หรือ **บังคับ** จากเมนูอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="186eb-108">For items that are set to use existing work, **Pick oldest batch** can be set to **None**, **Warn**, or **Force** from a mobile device menu.</span></span>
 
-**ไม่มี**: ผู้ปฏิบัติงานจะไม่ได้รับข้อความใด ๆ และจะสามารถเลือกชุดงานใด ๆ ในตำแหน่งของตน
+<span data-ttu-id="186eb-109">**ไม่มี**: ผู้ปฏิบัติงานจะไม่ได้รับข้อความใด ๆ และจะสามารถเลือกชุดงานใด ๆ ในตำแหน่งของตน</span><span class="sxs-lookup"><span data-stu-id="186eb-109">**None**: Workers will not receive any messages and they will be allowed to pick any batch in their location.</span></span>
 
-**เตือน** และ **บังคับ**: รายการของชุดงานที่มีวันหมดอายุที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมชุดงานเมื่อผู้ปฏิบัติงานเลือกชุดงาน ถ้าสถานที่มีการควบคุมป้ายทะเบียน รายการของป้ายทะเบียนที่มีชุดงานที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมป้ายทะเบียน 
--   **เตือน**: ถ้าผู้ปฏิบัติงานเลือกป้ายทะเบียนหรือชุดงานที่ไม่ได้อยู่ในรายการที่แสดง การควบคุมจะว่างเปล่า และจะมีการแสดงคำเตือนว่าไม่มีชุดงานที่เก่ากว่าที่จะเลือกได้ เมื่อต้องการให้สามารถดำเนินการงานต่อไป ผู้ปฏิบัติงานสามารถเลือกป้ายทะเบียนหรือชุดงานเดิมอีกครั้งได้  
--   **หน่วยงาน**: ผู้ปฏิบัติงานจะได้รับข้อความว่ามีชุดงานที่เก่ากว่าที่จะเลือกต่อไป
+<span data-ttu-id="186eb-110">**เตือน** และ **บังคับ**: รายการของชุดงานที่มีวันหมดอายุที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมชุดงานเมื่อผู้ปฏิบัติงานเลือกชุดงาน</span><span class="sxs-lookup"><span data-stu-id="186eb-110">**Warn** and **Force**:  A list of the batch(es) with the oldest expiration date will be displayed above the batch control when the worker selects a batch.</span></span> <span data-ttu-id="186eb-111">ถ้าสถานที่มีการควบคุมป้ายทะเบียน รายการของป้ายทะเบียนที่มีชุดงานที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="186eb-111">If the location is license plate controlled, a list of license plates that have the oldest batch will be displayed above the license plate control.</span></span> 
+-   <span data-ttu-id="186eb-112">**เตือน**: ถ้าผู้ปฏิบัติงานเลือกป้ายทะเบียนหรือชุดงานที่ไม่ได้อยู่ในรายการที่แสดง การควบคุมจะว่างเปล่า และจะมีการแสดงคำเตือนว่าไม่มีชุดงานที่เก่ากว่าที่จะเลือกได้</span><span class="sxs-lookup"><span data-stu-id="186eb-112">**Warn**: If a worker chooses a license plate or batch that is not on the shown list, the control will be blanked and a warning will be shown that there is an older batch to select.</span></span> <span data-ttu-id="186eb-113">เมื่อต้องการให้สามารถดำเนินการงานต่อไป ผู้ปฏิบัติงานสามารถเลือกป้ายทะเบียนหรือชุดงานเดิมอีกครั้งได้</span><span class="sxs-lookup"><span data-stu-id="186eb-113">To be allowed to continue the work, the worker can select the same license plate or batch again.</span></span>  
+-   <span data-ttu-id="186eb-114">**หน่วยงาน**: ผู้ปฏิบัติงานจะได้รับข้อความว่ามีชุดงานที่เก่ากว่าที่จะเลือกต่อไป</span><span class="sxs-lookup"><span data-stu-id="186eb-114">**Force**: Workers will continue to receive the message that there is an older batch to pick.</span></span>
 

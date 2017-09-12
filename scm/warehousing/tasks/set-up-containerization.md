@@ -17,102 +17,102 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 38b60098daa0389af596920682c30dcd9b17a7fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-containerization"></a>ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
+# <a name="set-up-containerization"></a><span data-ttu-id="cdba9-103">ตั้งค่าการบรรจุลงตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-103">Set up containerization</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้อธิบายวิธีการทำให้การบรรจุลงตู้บรรจุสินค้าของโหลดในการจัดการคลังสินค้าเป็นแบบอัตโนมัติ  การบรรจุลงตู้บรรจุสินค้าแบบอัตโนมัติสร้างตู้บรรจุสินค้าและงานการเบิกสินค้าสำหรับการจัดส่ง เมื่อเวฟถูกประมวลผลและรายการงานถูกแบ่งออกเป็นปริมาณต่างๆที่พอดีกับตู้บรรจุสินค้า การดำเนินการนี้ช่วยให้ผู้ปฏิบัติงานสำหรับคลังสินค้าเบิกสินค้าได้โดยตรงในตู้บรรจุสินค้าที่เลือก เมื่อเปรียบเทียบกับกระบวนการการเบิกสินค่าแบบด้วยตนเอง งาน เช่น การสร้างตู้บรรจุสินค้า การมอบหมายสินค้า และการปิดตู้บรรจุสินค้า จะถูกทำให้เป็นอัตโนมัติโดยระบบ กระบวนงานนี้ใช้บริษัทข้อมูลสาธิต USMF และถูกดำเนินการโดยผู้จัดการคลังสินค้า
+<span data-ttu-id="cdba9-104">กระบวนงานนี้อธิบายวิธีการทำให้การบรรจุลงตู้บรรจุสินค้าของโหลดในการจัดการคลังสินค้าเป็นแบบอัตโนมัติ </span><span class="sxs-lookup"><span data-stu-id="cdba9-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="cdba9-105">การบรรจุลงตู้บรรจุสินค้าแบบอัตโนมัติสร้างตู้บรรจุสินค้าและงานการเบิกสินค้าสำหรับการจัดส่ง เมื่อเวฟถูกประมวลผลและรายการงานถูกแบ่งออกเป็นปริมาณต่างๆที่พอดีกับตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="cdba9-106">การดำเนินการนี้ช่วยให้ผู้ปฏิบัติงานสำหรับคลังสินค้าเบิกสินค้าได้โดยตรงในตู้บรรจุสินค้าที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cdba9-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="cdba9-107">เมื่อเปรียบเทียบกับกระบวนการการเบิกสินค่าแบบด้วยตนเอง งาน เช่น การสร้างตู้บรรจุสินค้า การมอบหมายสินค้า และการปิดตู้บรรจุสินค้า จะถูกทำให้เป็นอัตโนมัติโดยระบบ</span><span class="sxs-lookup"><span data-stu-id="cdba9-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="cdba9-108">กระบวนงานนี้ใช้บริษัทข้อมูลสาธิต USMF และถูกดำเนินการโดยผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 
 
-## <a name="set-up-a-wave-template"></a>การตั้งค่าเท็มเพลตเวฟ
-1. ไปที่การจัดการคลังสินค้า > การตั้งค่า > เวฟ > เท็มเพลตเวฟ
-2. คลิก สร้าง
-3. ในฟิลด์ชือเท็มเพลตเวฟ ให้พิมพ์ค่า
-4. ในฟิลด์คำอธิบายเท็มเพลตเวฟ ให้พิมพ์ค่าใดค่าหนึ่ง
-5. ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ในฟิลด์คลังสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-7. ขยายส่วนวิธี
-    * บานหน้าต่างวิธีที่เลือกจะแสดงรายการวิธีสำหรับชนิดเท็มเพลตเวฟที่เลือก  เท็มเพลตเวฟต้องรวมวิธีการบรรจุลงตู้บรรจุสินค้า  
-8. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-9. ในฟิลด์รหัสขั้นตอนของเวฟ ให้พิมพ์ค่า
-    * ป้อนรหัสขั้นตอนของเวฟสำหรับวิธีที่เพิ่ม ซึ่งสามารถเป็นรหัสใดๆ  สามารถเพิ่มวิธีได้มากกว่าหนึ่งครั้ง และมอบหมายรหัสขั้นตอนของเวฟที่แตกต่างกัน เพื่อดำเนินงานนี้ ให้เลือก ทำซ้ำได้ สำหรับวิธีนี้ในหน้าวิธีการกระบวนการเวฟ  
-10. คลิก บันทึก
-11. ปิดหน้า
+## <a name="set-up-a-wave-template"></a><span data-ttu-id="cdba9-109">การตั้งค่าเท็มเพลตเวฟ</span><span class="sxs-lookup"><span data-stu-id="cdba9-109">Set up a wave template</span></span>
+1. <span data-ttu-id="cdba9-110">ไปที่การจัดการคลังสินค้า > การตั้งค่า > เวฟ > เท็มเพลตเวฟ</span><span class="sxs-lookup"><span data-stu-id="cdba9-110">Go to Warehouse management > Setup > Waves > Wave templates.</span></span>
+2. <span data-ttu-id="cdba9-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-111">Click New.</span></span>
+3. <span data-ttu-id="cdba9-112">ในฟิลด์ชือเท็มเพลตเวฟ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-112">In the Wave template name field, type a value.</span></span>
+4. <span data-ttu-id="cdba9-113">ในฟิลด์คำอธิบายเท็มเพลตเวฟ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-113">In the Wave template description field, type a value.</span></span>
+5. <span data-ttu-id="cdba9-114">ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-114">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="cdba9-115">ในฟิลด์คลังสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-115">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="cdba9-116">ขยายส่วนวิธี</span><span class="sxs-lookup"><span data-stu-id="cdba9-116">Expand the Methods section.</span></span>
+    * <span data-ttu-id="cdba9-117">บานหน้าต่างวิธีที่เลือกจะแสดงรายการวิธีสำหรับชนิดเท็มเพลตเวฟที่เลือก </span><span class="sxs-lookup"><span data-stu-id="cdba9-117">The Selected methods pane lists the methods for the selected wave template type.</span></span> <span data-ttu-id="cdba9-118">เท็มเพลตเวฟต้องรวมวิธีการบรรจุลงตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-118">The wave template must include the containerize method.</span></span>  
+8. <span data-ttu-id="cdba9-119">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cdba9-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="cdba9-120">ในฟิลด์รหัสขั้นตอนของเวฟ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-120">In the Wave step code field, type a value.</span></span>
+    * <span data-ttu-id="cdba9-121">ป้อนรหัสขั้นตอนของเวฟสำหรับวิธีที่เพิ่ม ซึ่งสามารถเป็นรหัสใดๆ </span><span class="sxs-lookup"><span data-stu-id="cdba9-121">Enter a Wave step code for the added method, which can be any code.</span></span> <span data-ttu-id="cdba9-122">สามารถเพิ่มวิธีได้มากกว่าหนึ่งครั้ง และมอบหมายรหัสขั้นตอนของเวฟที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="cdba9-122">It’s possible to add the method more than once and assign different wave step codes.</span></span> <span data-ttu-id="cdba9-123">เพื่อดำเนินงานนี้ ให้เลือก ทำซ้ำได้ สำหรับวิธีนี้ในหน้าวิธีการกระบวนการเวฟ</span><span class="sxs-lookup"><span data-stu-id="cdba9-123">To do this, select Repeatable for this method in the Wave process methods page.</span></span>  
+10. <span data-ttu-id="cdba9-124">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cdba9-124">Click Save.</span></span>
+11. <span data-ttu-id="cdba9-125">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-125">Close the page.</span></span>
 
-## <a name="set-up-a-container-type"></a>ตั้งค่าชนิดตู้บรรจุสินค้า
-1. ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > ชนิดของตู้บรรจุสินค้า
-    * คุณสามารถกำหนดตู้บรรจุสินค้าของคุณในหน้าชนิดของตู้บรรจุสินค้า คุณสามารถตั้งค่าคอนฟิกมิติทางกายภาพของตู้บรรจุสินค้าได้ รวมถึงน้ำหนักหีบห่อ น้ำหนักสูงสุด ปริมาณสูงสุด ความยาว ความกว้าง น้ำหนัก และความสูง  ในตัวอย่างนี้ เรามีขนาดของกล่องที่แตกต่างกันสามขนาด  
-2. คลิก สร้าง
-3. ในฟิลด์รหัสชนิดของตู้บรรจุสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง
-4. ในฟิลด์น้ำหนักหีบห่อ ให้ป้อนตัวเลข
-5. ในฟิลด์น้ำหนักสูงสุด ให้ป้อนตัวเลข
-6. ในฟิลด์จำนวน ให้ป้อนตัวเลข
-7. ในฟิลด์ความยาว ให้ใส่ตัวเลข
-8. ในฟิลด์ความกว้าง ให้ป้อนตัวเลข
-9. ในฟิลด์ความสูง ให้ป้อนตัวเลข
-10. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-11. คลิก บันทึก
-12. คลิก สร้าง
-13. ในฟิลด์รหัสชนิดของตู้บรรจุสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง
-14. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-15. ในฟิลด์น้ำหนักหีบห่อ ให้ป้อนตัวเลข
-16. ในฟิลด์น้ำหนักสูงสุด ให้ป้อนตัวเลข
-17. ในฟิลด์จำนวน ให้ป้อนตัวเลข
-18. ในฟิลด์ความยาว ให้ใส่ตัวเลข
-19. ในฟิลด์ความกว้าง ให้ป้อนตัวเลข
-20. ในฟิลด์ความสูง ให้ป้อนตัวเลข
-21. คลิก บันทึก
-22. คลิก สร้าง
-23. ในฟิลด์รหัสชนิดของตู้บรรจุสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง
-24. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-25. ในฟิลด์น้ำหนักหีบห่อ ให้ป้อนตัวเลข
-26. ในฟิลด์น้ำหนักสูงสุด ให้ป้อนตัวเลข
-27. ในฟิลด์จำนวน ให้ป้อนตัวเลข
-28. ในฟิลด์ความยาว ให้ใส่ตัวเลข
-29. ในฟิลด์ความกว้าง ให้ป้อนตัวเลข
-30. ในฟิลด์ความสูง ให้ป้อนตัวเลข
-31. คลิก บันทึก
-32. ปิดหน้า
+## <a name="set-up-a-container-type"></a><span data-ttu-id="cdba9-126">ตั้งค่าชนิดตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-126">Set up a container type</span></span>
+1. <span data-ttu-id="cdba9-127">ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > ชนิดของตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-127">Go to Warehouse management > Setup > Containers > Container types.</span></span>
+    * <span data-ttu-id="cdba9-128">คุณสามารถกำหนดตู้บรรจุสินค้าของคุณในหน้าชนิดของตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-128">You can define your containers in the Container types page.</span></span> <span data-ttu-id="cdba9-129">คุณสามารถตั้งค่าคอนฟิกมิติทางกายภาพของตู้บรรจุสินค้าได้ รวมถึงน้ำหนักหีบห่อ น้ำหนักสูงสุด ปริมาณสูงสุด ความยาว ความกว้าง น้ำหนัก และความสูง </span><span class="sxs-lookup"><span data-stu-id="cdba9-129">You can configure the physical dimensions of containers including tare weight, maximum weight, maximum volume, length, width, and height.</span></span> <span data-ttu-id="cdba9-130">ในตัวอย่างนี้ เรามีขนาดของกล่องที่แตกต่างกันสามขนาด</span><span class="sxs-lookup"><span data-stu-id="cdba9-130">In this example, we have three different sizes of boxes.</span></span>  
+2. <span data-ttu-id="cdba9-131">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-131">Click New.</span></span>
+3. <span data-ttu-id="cdba9-132">ในฟิลด์รหัสชนิดของตู้บรรจุสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-132">In the Container type code field, type a value.</span></span>
+4. <span data-ttu-id="cdba9-133">ในฟิลด์น้ำหนักหีบห่อ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-133">In the Tare weight field, enter a number.</span></span>
+5. <span data-ttu-id="cdba9-134">ในฟิลด์น้ำหนักสูงสุด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-134">In the Maximum weight field, enter a number.</span></span>
+6. <span data-ttu-id="cdba9-135">ในฟิลด์จำนวน ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-135">In the Volume field, enter a number.</span></span>
+7. <span data-ttu-id="cdba9-136">ในฟิลด์ความยาว ให้ใส่ตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-136">In the Length field, enter a number.</span></span>
+8. <span data-ttu-id="cdba9-137">ในฟิลด์ความกว้าง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-137">In the Width field, enter a number.</span></span>
+9. <span data-ttu-id="cdba9-138">ในฟิลด์ความสูง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-138">In the Height field, enter a number.</span></span>
+10. <span data-ttu-id="cdba9-139">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-139">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="cdba9-140">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cdba9-140">Click Save.</span></span>
+12. <span data-ttu-id="cdba9-141">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-141">Click New.</span></span>
+13. <span data-ttu-id="cdba9-142">ในฟิลด์รหัสชนิดของตู้บรรจุสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-142">In the Container type code field, type a value.</span></span>
+14. <span data-ttu-id="cdba9-143">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-143">In the Description field, type a value.</span></span>
+15. <span data-ttu-id="cdba9-144">ในฟิลด์น้ำหนักหีบห่อ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-144">In the Tare weight field, enter a number.</span></span>
+16. <span data-ttu-id="cdba9-145">ในฟิลด์น้ำหนักสูงสุด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-145">In the Maximum weight field, enter a number.</span></span>
+17. <span data-ttu-id="cdba9-146">ในฟิลด์จำนวน ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-146">In the Volume field, enter a number.</span></span>
+18. <span data-ttu-id="cdba9-147">ในฟิลด์ความยาว ให้ใส่ตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-147">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="cdba9-148">ในฟิลด์ความกว้าง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-148">In the Width field, enter a number.</span></span>
+20. <span data-ttu-id="cdba9-149">ในฟิลด์ความสูง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-149">In the Height field, enter a number.</span></span>
+21. <span data-ttu-id="cdba9-150">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cdba9-150">Click Save.</span></span>
+22. <span data-ttu-id="cdba9-151">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-151">Click New.</span></span>
+23. <span data-ttu-id="cdba9-152">ในฟิลด์รหัสชนิดของตู้บรรจุสินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-152">In the Container type code field, type a value.</span></span>
+24. <span data-ttu-id="cdba9-153">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-153">In the Description field, type a value.</span></span>
+25. <span data-ttu-id="cdba9-154">ในฟิลด์น้ำหนักหีบห่อ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-154">In the Tare weight field, enter a number.</span></span>
+26. <span data-ttu-id="cdba9-155">ในฟิลด์น้ำหนักสูงสุด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-155">In the Maximum weight field, enter a number.</span></span>
+27. <span data-ttu-id="cdba9-156">ในฟิลด์จำนวน ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-156">In the Volume field, enter a number.</span></span>
+28. <span data-ttu-id="cdba9-157">ในฟิลด์ความยาว ให้ใส่ตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-157">In the Length field, enter a number.</span></span>
+29. <span data-ttu-id="cdba9-158">ในฟิลด์ความกว้าง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-158">In the Width field, enter a number.</span></span>
+30. <span data-ttu-id="cdba9-159">ในฟิลด์ความสูง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cdba9-159">In the Height field, enter a number.</span></span>
+31. <span data-ttu-id="cdba9-160">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cdba9-160">Click Save.</span></span>
+32. <span data-ttu-id="cdba9-161">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-161">Close the page.</span></span>
 
-## <a name="set-up-a-container-group"></a>ตั้งค่ากลุ่มตู้บรรจุสินค้า
-1. ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > กลุ่มตู้บรรจุสินค้า
-2. คลิก สร้าง
-    * คุณสามารถตั้งค่ากลุ่มเชิงตรรกะของชนิดตู้บรรจุสินค้า  สำหรับแต่ละกลุ่ม คุณสามารถระบุลำดับที่จะบรรจุตู้บรรจุสินค้า และเปอร์เซ็นต์ที่จะเติมของตู้บรรจุสินค้า ใช้มิติขนาดของสินค้าเพื่อกำหนดว่าจะพอดีในตู้บรรจุสินค้าหรือไม่ ตู้บรรจุสินค้าที่ใกล้เคียงกับมิติขนาดของสินค้าที่สุดจะถูกนำไปใช้  ถ้าคุณมีตู้บรรจุสินค้าหลายชนิดในกลุ่ม เราขอแนะนำให้คุณจัดเรียงลำดับตามขนาด เพื่อให้ตู้บรรจุสินค้าที่ใหญ่ที่สุดอยู่ในลำดับที่ 1 และตู้บรรจุสินค้าที่เล็กที่สุดอยู่ในลำดับสุดท้าย    
-3. ในฟิลด์รหัสกลุ่มตู้บรรจุสินค้า ให้พิมพ์ค่า
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. คลิก สร้าง
-6. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-7. ในฟิลด์ชนิดตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่า
-8. คลิก สร้าง
-9. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-10. ในฟิลด์ชนิดตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่า
-11. คลิก สร้าง
-12. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-13. ในฟิลด์ชนิดตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่า
-14. คลิก บันทึก
-15. ปิดหน้า
+## <a name="set-up-a-container-group"></a><span data-ttu-id="cdba9-162">ตั้งค่ากลุ่มตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-162">Set up a container group</span></span>
+1. <span data-ttu-id="cdba9-163">ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > กลุ่มตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-163">Go to Warehouse management > Setup > Containers > Container groups.</span></span>
+2. <span data-ttu-id="cdba9-164">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-164">Click New.</span></span>
+    * <span data-ttu-id="cdba9-165">คุณสามารถตั้งค่ากลุ่มเชิงตรรกะของชนิดตู้บรรจุสินค้า </span><span class="sxs-lookup"><span data-stu-id="cdba9-165">You can set up logical groups of container types.</span></span> <span data-ttu-id="cdba9-166">สำหรับแต่ละกลุ่ม คุณสามารถระบุลำดับที่จะบรรจุตู้บรรจุสินค้า และเปอร์เซ็นต์ที่จะเติมของตู้บรรจุสินค้า ใช้มิติขนาดของสินค้าเพื่อกำหนดว่าจะพอดีในตู้บรรจุสินค้าหรือไม่</span><span class="sxs-lookup"><span data-stu-id="cdba9-166">For each group, you can specify the sequence in which to pack the containers and the percentage of the containers to fill.The size dimensions of the item is used to determine whether it will fit in a container.</span></span> <span data-ttu-id="cdba9-167">ตู้บรรจุสินค้าที่ใกล้เคียงกับมิติขนาดของสินค้าที่สุดจะถูกนำไปใช้ </span><span class="sxs-lookup"><span data-stu-id="cdba9-167">The container that is closest to the size dimensions of the item is used.</span></span> <span data-ttu-id="cdba9-168">ถ้าคุณมีตู้บรรจุสินค้าหลายชนิดในกลุ่ม เราขอแนะนำให้คุณจัดเรียงลำดับตามขนาด เพื่อให้ตู้บรรจุสินค้าที่ใหญ่ที่สุดอยู่ในลำดับที่ 1 และตู้บรรจุสินค้าที่เล็กที่สุดอยู่ในลำดับสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="cdba9-168">If you have multiple container types in a group, we recommend that you arrange the sequence by size, so that the largest container is first, number 1 in the sequence, and the smallest container is last.</span></span>    
+3. <span data-ttu-id="cdba9-169">ในฟิลด์รหัสกลุ่มตู้บรรจุสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-169">In the Container group ID field, type a value.</span></span>
+4. <span data-ttu-id="cdba9-170">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-170">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="cdba9-171">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-171">Click New.</span></span>
+6. <span data-ttu-id="cdba9-172">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cdba9-172">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="cdba9-173">ในฟิลด์ชนิดตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-173">In the Container type field, enter or select a value.</span></span>
+8. <span data-ttu-id="cdba9-174">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-174">Click New.</span></span>
+9. <span data-ttu-id="cdba9-175">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cdba9-175">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="cdba9-176">ในฟิลด์ชนิดตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-176">In the Container type field, enter or select a value.</span></span>
+11. <span data-ttu-id="cdba9-177">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-177">Click New.</span></span>
+12. <span data-ttu-id="cdba9-178">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cdba9-178">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="cdba9-179">ในฟิลด์ชนิดตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-179">In the Container type field, enter or select a value.</span></span>
+14. <span data-ttu-id="cdba9-180">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cdba9-180">Click Save.</span></span>
+15. <span data-ttu-id="cdba9-181">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-181">Close the page.</span></span>
 
-## <a name="set-up-a-container-build-template"></a>ตั้งค่าเท็มเพลตการสร้างตู้บรรจุสินค้า
-1. ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > เท็มเพลตการสร้างตู้บรรจุสินค้า
-2. คลิก สร้าง
-    * เท็มเพลตการสร้างตู้บรรจุสินค้าขี้นกับว่ากระบวนการของการบรรจุลงตู้บรรจุสินค้าใดที่ถูกดำเนินการ  เท็มเพลตการสร้างตู้บรรจุสินค้าแต่ละแบบกำหนดหนึ่งรหัสกระบวนการของการบรรจุลงตู้บรรจุสินค้าที่จะถูกใช้โดยเท็มเพลตเวฟ ตัวเลือกการแก้ไขการสอบถาม อนุญาตให้คุณกำหนดเงื่อนไขว่าเท็มเพลตที่เลือกใดจะถูกประมวลผล ตัวอย่างเช่น คุณอาจต้องการรันเฉพาะการบรรจุลงตู้บรรจุสินค้าสำหรับลูกค้าเฉพาะ ผลิตภัณฑ์ หรือคลังสินค้า หรือคุณสามารถเพิ่มช่วงการสอบถามที่สอดคล้องกันไปยังเท็มเพลตได้ รหัสขั้นตอนของเวฟคือ วิธีการลิงค์เท็มเพลตการสร้างตู้บรรจุสินค้าไปยังขั้นตอนต่างๆในเท็มเพลตเวฟ เมื่อมีการดำเนินการเวฟ จะกำหนดว่าเท็มเพลตการสร้างตู้บรรจุสินค้าใดที่จะถูกใช้ในการเริ่มการบรรจุลงตู้บรรจุสินค้า ฟิลด์ชนิดการสอบถามพื้นฐานจะกำหนดสิ่งที่จะบรรจุ และสิ่งที่จะใช้เป็นพื้นฐานของการสอบถามตัวกรอง  
-3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-4. ในฟิลด์รหัสเท็มเพลตตู้บรรจุสินค้า ให้พิมพ์ค่า
-5. ในฟิลด์รหัสกลุ่มตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ในฟิลด์รหัสขั้นตอนของเวฟ ให้พิมพ์ค่า
-7. เลือกกล่องกาเครื่องหมายการอนุญาตให้แบ่งการเบิกสินค้าได้
-8. คลิก บันทึก
-9. คลิกข้อจำกัดการผสมของตู้บรรจุสินค้า
-    * การแบ่งตามตรรกะผสม อนุญาตให้คุณตั้งค่ากฎสำหรับการบรรจุรายการการปันส่วนในตู้บรรจุสินค้า  ตัวอย่างเช่น ถ้าคุณเพิ่มฟิลด์หมายเลขสินค้า เมื่อมีการกำหนดสินค้าให้กับตู้บรรจุสินค้า ตู้บรรจุสินค้าใหม่จะถูกสร้างเมื่อมีหมายเลขสินค้าใหม่ นี่จะป้องกันผู้ปฏิบัติงานจากการบรรจุรายการการปันส่วน สำหรับลูกค้าที่ต่างกันสองรายในตู้บรรจุสินค้าเดียวกัน  
-10. คลิก สร้าง
-11. ในฟิลด์ตาราง ให้เลือกหนึ่งตัวเลือก
-12. ในฟิลด์การเลือกฟิลด์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-13. คลิก ตกลง
+## <a name="set-up-a-container-build-template"></a><span data-ttu-id="cdba9-182">ตั้งค่าเท็มเพลตการสร้างตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-182">Set up a container build template</span></span>
+1. <span data-ttu-id="cdba9-183">ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > เท็มเพลตการสร้างตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-183">Go to Warehouse management > Setup > Containers > Container build templates.</span></span>
+2. <span data-ttu-id="cdba9-184">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-184">Click New.</span></span>
+    * <span data-ttu-id="cdba9-185">เท็มเพลตการสร้างตู้บรรจุสินค้าขี้นกับว่ากระบวนการของการบรรจุลงตู้บรรจุสินค้าใดที่ถูกดำเนินการ </span><span class="sxs-lookup"><span data-stu-id="cdba9-185">The container build template is based on which of the containerization processes are performed.</span></span> <span data-ttu-id="cdba9-186">เท็มเพลตการสร้างตู้บรรจุสินค้าแต่ละแบบกำหนดหนึ่งรหัสกระบวนการของการบรรจุลงตู้บรรจุสินค้าที่จะถูกใช้โดยเท็มเพลตเวฟ</span><span class="sxs-lookup"><span data-stu-id="cdba9-186">Each container build template defines one containerization process that will be used by a wave template.</span></span> <span data-ttu-id="cdba9-187">ตัวเลือกการแก้ไขการสอบถาม อนุญาตให้คุณกำหนดเงื่อนไขว่าเท็มเพลตที่เลือกใดจะถูกประมวลผล</span><span class="sxs-lookup"><span data-stu-id="cdba9-187">The Edit query option allows you to define the conditions on which the selected template will be processed.</span></span> <span data-ttu-id="cdba9-188">ตัวอย่างเช่น คุณอาจต้องการรันเฉพาะการบรรจุลงตู้บรรจุสินค้าสำหรับลูกค้าเฉพาะ ผลิตภัณฑ์ หรือคลังสินค้า หรือคุณสามารถเพิ่มช่วงการสอบถามที่สอดคล้องกันไปยังเท็มเพลตได้</span><span class="sxs-lookup"><span data-stu-id="cdba9-188">For example, you may want to only run containerization for specific customers, products, or warehouses or you can add the corresponding query ranges to the template.</span></span> <span data-ttu-id="cdba9-189">รหัสขั้นตอนของเวฟคือ วิธีการลิงค์เท็มเพลตการสร้างตู้บรรจุสินค้าไปยังขั้นตอนต่างๆในเท็มเพลตเวฟ</span><span class="sxs-lookup"><span data-stu-id="cdba9-189">The Wave step code field is how a container build template is linked to steps in a wave template.</span></span> <span data-ttu-id="cdba9-190">เมื่อมีการดำเนินการเวฟ จะกำหนดว่าเท็มเพลตการสร้างตู้บรรจุสินค้าใดที่จะถูกใช้ในการเริ่มการบรรจุลงตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-190">When a wave is executed, it determines which container build template(s) are used to initiate containerization.</span></span> <span data-ttu-id="cdba9-191">ฟิลด์ชนิดการสอบถามพื้นฐานจะกำหนดสิ่งที่จะบรรจุ และสิ่งที่จะใช้เป็นพื้นฐานของการสอบถามตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="cdba9-191">The Base query type field determines what to pack and what to base the filter query on.</span></span>  
+3. <span data-ttu-id="cdba9-192">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cdba9-192">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="cdba9-193">ในฟิลด์รหัสเท็มเพลตตู้บรรจุสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-193">In the Container template ID field, type a value.</span></span>
+5. <span data-ttu-id="cdba9-194">ในฟิลด์รหัสกลุ่มตู้บรรจุสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-194">In the Container group ID field, enter or select a value.</span></span>
+6. <span data-ttu-id="cdba9-195">ในฟิลด์รหัสขั้นตอนของเวฟ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cdba9-195">In the Wave step code field, type a value.</span></span>
+7. <span data-ttu-id="cdba9-196">เลือกกล่องกาเครื่องหมายการอนุญาตให้แบ่งการเบิกสินค้าได้</span><span class="sxs-lookup"><span data-stu-id="cdba9-196">Select the Allow split picks check box.</span></span>
+8. <span data-ttu-id="cdba9-197">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cdba9-197">Click Save.</span></span>
+9. <span data-ttu-id="cdba9-198">คลิกข้อจำกัดการผสมของตู้บรรจุสินค้า</span><span class="sxs-lookup"><span data-stu-id="cdba9-198">Click Containier mixing constraints.</span></span>
+    * <span data-ttu-id="cdba9-199">การแบ่งตามตรรกะผสม อนุญาตให้คุณตั้งค่ากฎสำหรับการบรรจุรายการการปันส่วนในตู้บรรจุสินค้า </span><span class="sxs-lookup"><span data-stu-id="cdba9-199">Mixing logic breaks allows you to set up rules for packing allocation lines in containers.</span></span> <span data-ttu-id="cdba9-200">ตัวอย่างเช่น ถ้าคุณเพิ่มฟิลด์หมายเลขสินค้า เมื่อมีการกำหนดสินค้าให้กับตู้บรรจุสินค้า ตู้บรรจุสินค้าใหม่จะถูกสร้างเมื่อมีหมายเลขสินค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="cdba9-200">For example, if you add the Item number field, when items are assigned to containers, a new container will be created when there is a new item number.</span></span> <span data-ttu-id="cdba9-201">นี่จะป้องกันผู้ปฏิบัติงานจากการบรรจุรายการการปันส่วน สำหรับลูกค้าที่ต่างกันสองรายในตู้บรรจุสินค้าเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="cdba9-201">This is will prevent workers from packing allocations lines for two different customers in the same container.</span></span>  
+10. <span data-ttu-id="cdba9-202">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cdba9-202">Click New.</span></span>
+11. <span data-ttu-id="cdba9-203">ในฟิลด์ตาราง ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="cdba9-203">In the Table field, select an option.</span></span>
+12. <span data-ttu-id="cdba9-204">ในฟิลด์การเลือกฟิลด์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="cdba9-204">In the Field Select field, enter or select a value.</span></span>
+13. <span data-ttu-id="cdba9-205">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="cdba9-205">Click OK.</span></span>
 
 

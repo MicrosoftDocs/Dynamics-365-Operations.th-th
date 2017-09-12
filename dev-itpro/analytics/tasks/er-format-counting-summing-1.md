@@ -16,44 +16,44 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a52aade62b0d05a41e22aa9e9a474999af725606
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cac3748182ba27735264acc947403d7b857f1b6e
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-formate-for-counting-and-summing-for-electronic-reporting-er"></a>สร้างรูปแบบสำหรับสำหรับการตรวจนับและการรวมสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="create-formate-for-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="49f7c-103">สร้างรูปแบบสำหรับสำหรับการตรวจนับและการรวมสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="49f7c-103">Create formate for counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายวิธีกำหนดผู้ใช้ให้กับผู้ดูแลระบบหรือวิธีการที่บทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อทำการตรวจนับและสรุปตามข้อมูลของผลลัพธ์ข้อความที่สร้างขึ้นแล้ว  สามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัทใดก็ได้ 
+<span data-ttu-id="49f7c-104">ขั้นตอนต่อไปนี้อธิบายวิธีกำหนดผู้ใช้ให้กับผู้ดูแลระบบหรือวิธีการที่บทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อทำการตรวจนับและสรุปตามข้อมูลของผลลัพธ์ข้อความที่สร้างขึ้นแล้ว </span><span class="sxs-lookup"><span data-stu-id="49f7c-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="49f7c-105">สามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัทใดก็ได้ </span><span class="sxs-lookup"><span data-stu-id="49f7c-105">These steps can be performed in any company.</span></span>
 
-เพื่อทำตามขั้นตอนเหล่านี้ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่"
+<span data-ttu-id="49f7c-106">เพื่อทำตามขั้นตอนเหล่านี้ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่"</span><span class="sxs-lookup"><span data-stu-id="49f7c-106">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
 
-กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
+<span data-ttu-id="49f7c-107">กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="49f7c-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>เข้าถึงรายการของการตั้งค่าคอนฟิกที่จัดเตรียมให้โดย Microsoft
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-    * ตรวจสอบให้แน่ใจว่า "Litware, Inc." พร้อมใช้งานและทำเครื่องหมายไว้เป็น เปิดใช้งาน  
-2. เลือก “Litware, Inc.“ ผู้ให้บริการ
-3. คลิก ที่เก็บ
-    * ถ้ามีที่เก็บชนิด "ทรัพยากรการดำเนินงาน" อยู่แล้ว ให้ข้ามขั้นตอนที่เหลือของงานย่อยปัจจุบัน  
-4. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-5. ในฟิลด์ชนิดที่เก็บของการตั้งค่าคอนฟิก ป้อน 'ทรัพยากรการดำเนินงาน'
-6. คลิกสร้างที่จัดเก็บ
-7. คลิก ตกลง
+## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="49f7c-108">เข้าถึงรายการของการตั้งค่าคอนฟิกที่จัดเตรียมให้โดย Microsoft</span><span class="sxs-lookup"><span data-stu-id="49f7c-108">Get access to the list of configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="49f7c-109">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="49f7c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="49f7c-110">ตรวจสอบให้แน่ใจว่า "Litware, Inc."</span><span class="sxs-lookup"><span data-stu-id="49f7c-110">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="49f7c-111">พร้อมใช้งานและทำเครื่องหมายไว้เป็น เปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="49f7c-111">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="49f7c-112">เลือก “Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="49f7c-112">Select the “Litware, Inc.”</span></span> <span data-ttu-id="49f7c-113">ผู้ให้บริการ</span><span class="sxs-lookup"><span data-stu-id="49f7c-113">provider.</span></span>
+3. <span data-ttu-id="49f7c-114">คลิก ที่เก็บ</span><span class="sxs-lookup"><span data-stu-id="49f7c-114">Click Repositories.</span></span>
+    * <span data-ttu-id="49f7c-115">ถ้ามีที่เก็บชนิด "ทรัพยากรการดำเนินงาน" อยู่แล้ว ให้ข้ามขั้นตอนที่เหลือของงานย่อยปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="49f7c-115">If a repository of the "Operations resources" type already exists, skip the remaining steps of the current sub-task.</span></span>  
+4. <span data-ttu-id="49f7c-116">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="49f7c-116">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="49f7c-117">ในฟิลด์ชนิดที่เก็บของการตั้งค่าคอนฟิก ป้อน 'ทรัพยากรการดำเนินงาน'</span><span class="sxs-lookup"><span data-stu-id="49f7c-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
+6. <span data-ttu-id="49f7c-118">คลิกสร้างที่จัดเก็บ</span><span class="sxs-lookup"><span data-stu-id="49f7c-118">Click Create repository.</span></span>
+7. <span data-ttu-id="49f7c-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="49f7c-119">Click OK.</span></span>
 
-## <a name="get-the-intrastat-configurations-provided-by-microsoft"></a>เรียกการตั้งค่าคอนฟิกอินทราสแทตที่จัดเตรียมให้โดย Microsoft
-1. คลิก เปิด
-2. ในแผนภูมิ เลือก 'Intrastat model\Intrastat (DE)'
-3. คลิก นำเข้า
-    * คลิก นำเข้าสำหรับรุ่น 1.1 ของการจัดโครงแบบที่เลือก  
-4. คลิก ใช่
-5. ปิดหน้า
-6. ปิดหน้า
-7. คลิก การตั้งค่าคอนฟิกการรายงาน
-8. ในแผนภูมิ ขยาย 'Intrastat model'
-9. ในแผนภูมิ เลือก 'Intrastat model\Intrastat (DE)'
+## <a name="get-the-intrastat-configurations-provided-by-microsoft"></a><span data-ttu-id="49f7c-120">เรียกการตั้งค่าคอนฟิกอินทราสแทตที่จัดเตรียมให้โดย Microsoft</span><span class="sxs-lookup"><span data-stu-id="49f7c-120">Get the Intrastat configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="49f7c-121">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="49f7c-121">Click Open.</span></span>
+2. <span data-ttu-id="49f7c-122">ในแผนภูมิ เลือก 'Intrastat model\Intrastat (DE)'</span><span class="sxs-lookup"><span data-stu-id="49f7c-122">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+3. <span data-ttu-id="49f7c-123">คลิก นำเข้า</span><span class="sxs-lookup"><span data-stu-id="49f7c-123">Click Import.</span></span>
+    * <span data-ttu-id="49f7c-124">คลิก นำเข้าสำหรับรุ่น 1.1 ของการจัดโครงแบบที่เลือก</span><span class="sxs-lookup"><span data-stu-id="49f7c-124">Click Import for version 1.1 of the selected configuration.</span></span>  
+4. <span data-ttu-id="49f7c-125">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="49f7c-125">Click Yes.</span></span>
+5. <span data-ttu-id="49f7c-126">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="49f7c-126">Close the page.</span></span>
+6. <span data-ttu-id="49f7c-127">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="49f7c-127">Close the page.</span></span>
+7. <span data-ttu-id="49f7c-128">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="49f7c-128">Click Reporting configurations.</span></span>
+8. <span data-ttu-id="49f7c-129">ในแผนภูมิ ขยาย 'Intrastat model'</span><span class="sxs-lookup"><span data-stu-id="49f7c-129">In the tree, expand 'Intrastat model'.</span></span>
+9. <span data-ttu-id="49f7c-130">ในแผนภูมิ เลือก 'Intrastat model\Intrastat (DE)'</span><span class="sxs-lookup"><span data-stu-id="49f7c-130">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
 
 

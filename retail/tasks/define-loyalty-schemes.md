@@ -17,57 +17,57 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8903e782d875d4d1ca7c3383f6978afc5554378a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e66ece3c8d7eb0c52e832f49d25e0d9133870e9
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-loyalty-schemes"></a> กำหนดแผนงานตอบแทนลูกค้าสมาชิก
+# <a name="define-loyalty-schemes"></a><span data-ttu-id="e1a3b-103"> กำหนดแผนงานตอบแทนลูกค้าสมาชิก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-103">Define loyalty schemes</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-กระบวนการนี้นำไปสู่วิธีการกำหนดแผนงานตอบแทนลูกค้าสมาชิก  แผนงานตอบแทนลูกค้าสมาชิกคือการได้รับรางวัลตและกฎการแลกรางวัลสำหรับโปรแกรมตอบแทนลูกค้าสมาชิก  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
+<span data-ttu-id="e1a3b-104">กระบวนการนี้นำไปสู่วิธีการกำหนดแผนงานตอบแทนลูกค้าสมาชิก </span><span class="sxs-lookup"><span data-stu-id="e1a3b-104">This procedure walks through how to define a loyalty scheme.</span></span> <span data-ttu-id="e1a3b-105">แผนงานตอบแทนลูกค้าสมาชิกคือการได้รับรางวัลตและกฎการแลกรางวัลสำหรับโปรแกรมตอบแทนลูกค้าสมาชิก </span><span class="sxs-lookup"><span data-stu-id="e1a3b-105">Loyalty schemes are reward earning and redeeming rules for a loyalty program.</span></span> <span data-ttu-id="e1a3b-106">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="e1a3b-106">This procedure uses the USRT demo data company.</span></span>
 
-1. ไปยังการขายปลีกและการค้า > ลูกค้า > สมาชิก > แผนงานตอบแทนลูกค้าสมาชิก
-2. คลิก สร้าง
-3. ในฟิลด์รหัสแผนงาน ให้พิมพ์ค่าใดค่าหนึ่ง
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * คุณสามารถมีแผนงานตอบแทนลูกค้าสมาชิกหลายแผนงานสำหรับโปรแกรมตอบแทนลูกค้าสมาชิก แผนงานตอบแทนลูกค้าสมาชิกสามารถำได้ทุกช่องทางหรือเพียงแค่ชุดย่อยของช่องทางก็ได้  
-6. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-7. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-8. คลิกบันทึก
-9. คลิก เพิ่มรายการ
-10. ในฟิลด์ชนิดของกิจกรรม ให้เลือกตัวเลือกหนึ่งตัวเลือก
-    * เลือก ซื้อผลิตภัณฑ์ตามยอดเงิน ถ้าคุณต้องการให้ลูกค้าได้รับรางวัลโดยขึ้นอยู่กับยอดค่าใช้จ่าย  เลือกการซื้อผลิตภัณฑ์ตามปริมาณ ถ้าคุณต้องการให้ลูกค้าได้รับรางวัลที่ขึ้นอยู่กับจำนวนผลิตภัณฑ์ที่พวกเขาซื้อ  เลือก การตรวจนับธุรกรรมการขาย ถ้าคุณต้องการให้ลูกค้าได้รับรางวัลสำหรับธุรกรรมการขายในแต่ละครั้ง โดยไม่คำนึงว่าลูกค้าจะซื้ออะไรหรือปริมาณเท่าใด  
-    * เลือกประเภท  ประเภทจะจำกัดว่ากฎรายได้นี้ใช้กับผลิตภัณฑ์ใด  
-    * ถ้าคุณต้องการนำกฎรายได้ไปใช้กับผลิตภัณฑ์ทั้งหมด ปล่อยฟิลด์นี้ว่างไว้  
-11. ในฟิลด์จำนวนและปริมาณของกิจกรรม ให้ป้อนค่าใดค่าหนึ่ง
-    *  สำหรับกิจกรรมการตรวจนับธุรกรรมการขาย คุณควรใช้ค่า '1.0' เสมอ  สำหรับชนิดของกิจกรรมของการซื้อตามยอดเงินหรือการซื้อตามปริมาณ ธุรกรรมใดๆที่น้อยกว่าค่าที่ป้อนไว้จะไม่ทริกเกอร์กฎรายได้ ตัวอย่างเช่น ถ้ากิจกรรมการซื้อกำหนดตามยอดเงิน และคุณป้อนค่า '10.00' แต่ธุรกรรมการขายนั้นเท่ากับ '9.00' คุณก็จะไม่ได้รับรางวัลตามกฎ  
-12. ในฟิลด์สกุลเงินกิจกรรม ให้พิมพ์ค่าใดค่าหนึ่ง
-13. ในฟิลด์รหัสคะแนนรางวัล ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-14. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-15. ในฟิลด์คะแนนรางวัล ให้ป้อนตัวเลข
-    * ยอดคะแนนรางวัลจะบันทึกคะแนนที่ได้รับพร้อมด้วยทศนิยม  ตัวอย่างเช่น ถ้ากฎรายได้ระบุว่าจะได้1คะแนนสำหรับการใช้จ่ายทุกๆ 1 ดอลลาร์แคนาดา และลูกค้าใช่จ่ายไป 1.25 ดอลลาร์แคนาดา ลูกค้าจะได้รับคะแนนรางวัล 1.25 คะแนน รางวัลชนิดปริมาณจะบันทึกคะแนนที่ได้รับเป็นจำนวนเต็ม  ตามตัวอย่าง กฎรายได้ระบุว่าจะได้ 1 คะแนนสำหรับการใช้จ่ายทุกๆ 1 ดอลลาร์แคนาดา และลูกค้าใช่จ่ายไป 1.25 ดอลลาร์แคนาดา ลูกค้าจะได้รับคะแนนรางวัล 1.0 คะแนน  
-16. คลิก บันทึก
-17. คลิก เพิ่มรายการ
-    * กฎการแลกรางวัลจะถูกใช้ก็ต่อเมื่อวิธีการชำระเงินของลูกค้าสมาชิกถูกใช้  
-18. ในฟิลด์รหัสคะแนนรางวัล ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * คะแนนรางวัลสามารถแลกได้เท่านั้นจะแสดงขึ้น  
-19. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-20. ในฟิลด์คะแนนรางวัล ให้ป้อนตัวเลข
-21. ในฟิลด์ชนิดการแลกรางวัล ให้เลือกตัวเลือกหนึ่งตัวเลือก
-    * เลือกการชำระเงินตามยอดเงิน ที่ทำให้ฟิลด์ยอดเงินหรือปริมาณถูกจัดการอยู่ในหน่วยสกุลเงิน  ในกรณีนี้ จำนวนของคะแนนรางวัลที่ใช้ต่อหน่วยสกุลเงินการชำระเงินเป็นอัตราส่วนแบบคงที่ การเลือกการชำระเงินตามปริมาณทำให้ฟิลด์ยอดเงินหรือปริมาณจะถูกจัดการเหมือนเป็นค่าปริมาณ ในกรณีนี้ จำนวนคะแนนรางวัลที่ใช้ต่อปริมาณสินค้าเป็นอัตราส่วนแบบคงที่ อย่างไรก็ตาม ยอดเงินในสกุลเงินสามารถเปลี่ยนแปลงได้ถ้าราคาของสินค้าที่มีการชำระสำหรับคะแนนรางวัลสำหรับสมาชิกมีค่าแตกต่างกันสำหรับปริมาณเดียวกัน การแลกรางวัลส่วนลดจากคะแนนสะสมสำหรับสมาชิก จะใช้ได้เฉพาะเมื่อคีย์การตั้งค่าคอนฟิกลักษณะการทำงานเฉพาะภูมิภาค/ประเทศ 'รัสเซีย'ถูกเปิดใช้งานและโพรไฟล์ฟังก์ชัน POS มีรหัส ISO เป็น'RU'  
-    * เลือกประเภท  ประเภทจะจำกัดว่ากฎการแลกรางวัลนี้ใช้กับผลิตภัณฑ์ใด  
-    * ถ้าคุณต้องการนำกฎการแลกรางวัลไปใช้กับผลิตภัณฑ์ทั้งหมด ปล่อยฟิลด์นี้ว่างไว้  
-22. ในฟิลด์จำนวนและปริมาณ ให้ป้อนค่าใดค่าหนึ่ง
-23. ในฟิลด์สกุลเงิน ให้พิมพ์ค่า
-24. คลิก บันทึก
-25. คลิก เพิ่มรายการ
-    * เลือกอย่างน้อยหนึ่งโหนด จากรายการโหนดขององค์กรที่พร้อมใช้งาน และย้ายโหนดไปที่รายการโหนดขององค์กรที่เลือก โดยการคลิกลูกศรระหว่างสองรายการนั้น  
-26. คลิก ตกลง
-27. คลิก บันทึก
-    * เมื่อใดก็ตามที่คุณเปลี่ยนช่องทางสำหรับแผนงานตอบแทนลูกค้าสมาชิก คุณต้องรันกระบวนการตอบแทนลูกค้าสมาชิก  วิธีนั้น ช่องทางจะได้รับแผนงานตอบแทนลูกค้าสมาชิกที่มีการอัพเดต  
+1. <span data-ttu-id="e1a3b-107">ไปยังการขายปลีกและการค้า > ลูกค้า > สมาชิก > แผนงานตอบแทนลูกค้าสมาชิก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-107">Go to Retail and commerce > Customers > Loyalty > Loyalty schemes.</span></span>
+2. <span data-ttu-id="e1a3b-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="e1a3b-108">Click New.</span></span>
+3. <span data-ttu-id="e1a3b-109">ในฟิลด์รหัสแผนงาน ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e1a3b-109">In the Scheme ID field, type a value.</span></span>
+4. <span data-ttu-id="e1a3b-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="e1a3b-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="e1a3b-111">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e1a3b-111">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e1a3b-112">คุณสามารถมีแผนงานตอบแทนลูกค้าสมาชิกหลายแผนงานสำหรับโปรแกรมตอบแทนลูกค้าสมาชิก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-112">You can have multiple loyalty schemes for a loyalty program.</span></span> <span data-ttu-id="e1a3b-113">แผนงานตอบแทนลูกค้าสมาชิกสามารถำได้ทุกช่องทางหรือเพียงแค่ชุดย่อยของช่องทางก็ได้</span><span class="sxs-lookup"><span data-stu-id="e1a3b-113">Loyalty schemes can be for all channels or only a sub-set of channels.</span></span>  
+6. <span data-ttu-id="e1a3b-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="e1a3b-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="e1a3b-116">คลิกบันทึก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-116">Click Save.</span></span>
+9. <span data-ttu-id="e1a3b-117">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-117">Click Add line.</span></span>
+10. <span data-ttu-id="e1a3b-118">ในฟิลด์ชนิดของกิจกรรม ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-118">In the Activity type field, select an option.</span></span>
+    * <span data-ttu-id="e1a3b-119">เลือก ซื้อผลิตภัณฑ์ตามยอดเงิน ถ้าคุณต้องการให้ลูกค้าได้รับรางวัลโดยขึ้นอยู่กับยอดค่าใช้จ่าย </span><span class="sxs-lookup"><span data-stu-id="e1a3b-119">Select Purchase products by amount if you want customers to earn rewards based on how much they spend.</span></span> <span data-ttu-id="e1a3b-120">เลือกการซื้อผลิตภัณฑ์ตามปริมาณ ถ้าคุณต้องการให้ลูกค้าได้รับรางวัลที่ขึ้นอยู่กับจำนวนผลิตภัณฑ์ที่พวกเขาซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-120">Select Purchase products by quantity if you want customers to earn rewards based on how many products they buy.</span></span>  <span data-ttu-id="e1a3b-121">เลือก การตรวจนับธุรกรรมการขาย ถ้าคุณต้องการให้ลูกค้าได้รับรางวัลสำหรับธุรกรรมการขายในแต่ละครั้ง โดยไม่คำนึงว่าลูกค้าจะซื้ออะไรหรือปริมาณเท่าใด</span><span class="sxs-lookup"><span data-stu-id="e1a3b-121">Select Sales transaction count if you want customers to earn rewards for each sales transaction, regardless of what or how much is purchased.</span></span>  
+    * <span data-ttu-id="e1a3b-122">เลือกประเภท </span><span class="sxs-lookup"><span data-stu-id="e1a3b-122">Select a category.</span></span> <span data-ttu-id="e1a3b-123">ประเภทจะจำกัดว่ากฎรายได้นี้ใช้กับผลิตภัณฑ์ใด</span><span class="sxs-lookup"><span data-stu-id="e1a3b-123">The category will limit which products this earning rule applies to.</span></span>  
+    * <span data-ttu-id="e1a3b-124">ถ้าคุณต้องการนำกฎรายได้ไปใช้กับผลิตภัณฑ์ทั้งหมด ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="e1a3b-124">If you want the earning rule to apply to all products, leave this field blank.</span></span>  
+11. <span data-ttu-id="e1a3b-125">ในฟิลด์จำนวนและปริมาณของกิจกรรม ให้ป้อนค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e1a3b-125">In the Activity amount/quantity field, enter a number.</span></span>
+    *  <span data-ttu-id="e1a3b-126">สำหรับกิจกรรมการตรวจนับธุรกรรมการขาย คุณควรใช้ค่า '1.0' เสมอ </span><span class="sxs-lookup"><span data-stu-id="e1a3b-126">For activity type Sales transaction count, you should always use a value of '1.0'.</span></span> <span data-ttu-id="e1a3b-127">สำหรับชนิดของกิจกรรมของการซื้อตามยอดเงินหรือการซื้อตามปริมาณ ธุรกรรมใดๆที่น้อยกว่าค่าที่ป้อนไว้จะไม่ทริกเกอร์กฎรายได้</span><span class="sxs-lookup"><span data-stu-id="e1a3b-127">For activity types of Purchase by amount or Purchase by quantity, any transaction that is less than the value entered will not trigger the earning rule.</span></span> <span data-ttu-id="e1a3b-128">ตัวอย่างเช่น ถ้ากิจกรรมการซื้อกำหนดตามยอดเงิน และคุณป้อนค่า '10.00' แต่ธุรกรรมการขายนั้นเท่ากับ '9.00' คุณก็จะไม่ได้รับรางวัลตามกฎ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-128">For example, if the activity type is Purchase by amount, and you enter '10.00', then a sales transaction for '9.00' will not earn rewards for this earning rule.</span></span>  
+12. <span data-ttu-id="e1a3b-129">ในฟิลด์สกุลเงินกิจกรรม ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e1a3b-129">In the Activity currency field, type a value.</span></span>
+13. <span data-ttu-id="e1a3b-130">ในฟิลด์รหัสคะแนนรางวัล ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e1a3b-130">In the Reward point ID field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="e1a3b-131">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-131">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="e1a3b-132">ในฟิลด์คะแนนรางวัล ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="e1a3b-132">In the Reward points field, enter a number.</span></span>
+    * <span data-ttu-id="e1a3b-133">ยอดคะแนนรางวัลจะบันทึกคะแนนที่ได้รับพร้อมด้วยทศนิยม </span><span class="sxs-lookup"><span data-stu-id="e1a3b-133">Amount type reward points will record earned amounts with decimals.</span></span> <span data-ttu-id="e1a3b-134">ตัวอย่างเช่น ถ้ากฎรายได้ระบุว่าจะได้1คะแนนสำหรับการใช้จ่ายทุกๆ 1 ดอลลาร์แคนาดา และลูกค้าใช่จ่ายไป 1.25 ดอลลาร์แคนาดา ลูกค้าจะได้รับคะแนนรางวัล 1.25 คะแนน</span><span class="sxs-lookup"><span data-stu-id="e1a3b-134">For example, if the earning rule states 1 reward point earned for every 1 Canadian Dollar spent, and the customer spends 1.25 Canadian Canadian Dollars, then the customer will earn 1.25 reward points.</span></span> <span data-ttu-id="e1a3b-135">รางวัลชนิดปริมาณจะบันทึกคะแนนที่ได้รับเป็นจำนวนเต็ม </span><span class="sxs-lookup"><span data-stu-id="e1a3b-135">Quantity type reward points will record earned amounts in integers.</span></span> <span data-ttu-id="e1a3b-136">ตามตัวอย่าง กฎรายได้ระบุว่าจะได้ 1 คะแนนสำหรับการใช้จ่ายทุกๆ 1 ดอลลาร์แคนาดา และลูกค้าใช่จ่ายไป 1.25 ดอลลาร์แคนาดา ลูกค้าจะได้รับคะแนนรางวัล 1.0 คะแนน</span><span class="sxs-lookup"><span data-stu-id="e1a3b-136">Using the example where the earning rule states 1 reward point earned for every 1 Canadian Dollar spent, and the customer spends 1.25 Canadian Canadian Dollars, then the customer will earn 1.0 reward points.</span></span>  
+16. <span data-ttu-id="e1a3b-137">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-137">Click Save.</span></span>
+17. <span data-ttu-id="e1a3b-138">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-138">Click Add line.</span></span>
+    * <span data-ttu-id="e1a3b-139">กฎการแลกรางวัลจะถูกใช้ก็ต่อเมื่อวิธีการชำระเงินของลูกค้าสมาชิกถูกใช้</span><span class="sxs-lookup"><span data-stu-id="e1a3b-139">Redemption rules are used when the loyalty payment method is used.</span></span>  
+18. <span data-ttu-id="e1a3b-140">ในฟิลด์รหัสคะแนนรางวัล ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e1a3b-140">In the Reward point ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e1a3b-141">คะแนนรางวัลสามารถแลกได้เท่านั้นจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="e1a3b-141">Only redeemable reward points are shown.</span></span>  
+19. <span data-ttu-id="e1a3b-142">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-142">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="e1a3b-143">ในฟิลด์คะแนนรางวัล ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="e1a3b-143">In the Reward points field, enter a number.</span></span>
+21. <span data-ttu-id="e1a3b-144">ในฟิลด์ชนิดการแลกรางวัล ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-144">In the Redemption type field, select an option.</span></span>
+    * <span data-ttu-id="e1a3b-145">เลือกการชำระเงินตามยอดเงิน ที่ทำให้ฟิลด์ยอดเงินหรือปริมาณถูกจัดการอยู่ในหน่วยสกุลเงิน </span><span class="sxs-lookup"><span data-stu-id="e1a3b-145">Selecting Payment by amount causes the Amount or quantity field to be treated as a currency value.</span></span> <span data-ttu-id="e1a3b-146">ในกรณีนี้ จำนวนของคะแนนรางวัลที่ใช้ต่อหน่วยสกุลเงินการชำระเงินเป็นอัตราส่วนแบบคงที่</span><span class="sxs-lookup"><span data-stu-id="e1a3b-146">In this case, the amount of reward points used per currency unit of payment is a fixed ratio.</span></span> <span data-ttu-id="e1a3b-147">การเลือกการชำระเงินตามปริมาณทำให้ฟิลด์ยอดเงินหรือปริมาณจะถูกจัดการเหมือนเป็นค่าปริมาณ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-147">Selecting Payment by quantity causes the Amount or quantity field to be treated as a quantity value.</span></span> <span data-ttu-id="e1a3b-148">ในกรณีนี้ จำนวนคะแนนรางวัลที่ใช้ต่อปริมาณสินค้าเป็นอัตราส่วนแบบคงที่ อย่างไรก็ตาม ยอดเงินในสกุลเงินสามารถเปลี่ยนแปลงได้ถ้าราคาของสินค้าที่มีการชำระสำหรับคะแนนรางวัลสำหรับสมาชิกมีค่าแตกต่างกันสำหรับปริมาณเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="e1a3b-148">In this case, the amount of reward points used per item quantity is a fixed ratio, however, the amount in currency can vary if the price of items paid for with loyalty reward points varies for the same quantity.</span></span> <span data-ttu-id="e1a3b-149">การแลกรางวัลส่วนลดจากคะแนนสะสมสำหรับสมาชิก จะใช้ได้เฉพาะเมื่อคีย์การตั้งค่าคอนฟิกลักษณะการทำงานเฉพาะภูมิภาค/ประเทศ 'รัสเซีย'ถูกเปิดใช้งานและโพรไฟล์ฟังก์ชัน POS มีรหัส ISO เป็น'RU'</span><span class="sxs-lookup"><span data-stu-id="e1a3b-149">Redemption type of Loyalty points discount is only valid when the 'Russia' Country/Regional specific features configuration key is enabled, and the POS functionality profiles has an ISO code of 'RU'.</span></span>  
+    * <span data-ttu-id="e1a3b-150">เลือกประเภท </span><span class="sxs-lookup"><span data-stu-id="e1a3b-150">Select a category.</span></span> <span data-ttu-id="e1a3b-151">ประเภทจะจำกัดว่ากฎการแลกรางวัลนี้ใช้กับผลิตภัณฑ์ใด</span><span class="sxs-lookup"><span data-stu-id="e1a3b-151">The category will limit which products this redemption rule applies to.</span></span>  
+    * <span data-ttu-id="e1a3b-152">ถ้าคุณต้องการนำกฎการแลกรางวัลไปใช้กับผลิตภัณฑ์ทั้งหมด ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="e1a3b-152">If you want the redemption rule to apply to all products, leave this field blank.</span></span>  
+22. <span data-ttu-id="e1a3b-153">ในฟิลด์จำนวนและปริมาณ ให้ป้อนค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e1a3b-153">In the Amount or quantity field, enter a number.</span></span>
+23. <span data-ttu-id="e1a3b-154">ในฟิลด์สกุลเงิน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="e1a3b-154">In the Currency field, type a value.</span></span>
+24. <span data-ttu-id="e1a3b-155">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-155">Click Save.</span></span>
+25. <span data-ttu-id="e1a3b-156">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="e1a3b-156">Click Add line.</span></span>
+    * <span data-ttu-id="e1a3b-157">เลือกอย่างน้อยหนึ่งโหนด จากรายการโหนดขององค์กรที่พร้อมใช้งาน และย้ายโหนดไปที่รายการโหนดขององค์กรที่เลือก โดยการคลิกลูกศรระหว่างสองรายการนั้น</span><span class="sxs-lookup"><span data-stu-id="e1a3b-157">Select one or more nodes from the Available organization nodes list and move them to the Selected organization nodes list by clicking the arrow between the two lists.</span></span>  
+26. <span data-ttu-id="e1a3b-158">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="e1a3b-158">Click OK.</span></span>
+27. <span data-ttu-id="e1a3b-159">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="e1a3b-159">Click Save.</span></span>
+    * <span data-ttu-id="e1a3b-160">เมื่อใดก็ตามที่คุณเปลี่ยนช่องทางสำหรับแผนงานตอบแทนลูกค้าสมาชิก คุณต้องรันกระบวนการตอบแทนลูกค้าสมาชิก </span><span class="sxs-lookup"><span data-stu-id="e1a3b-160">Anytime you change the channels for a loyalty scheme, you must run Process loyalty schemes.</span></span> <span data-ttu-id="e1a3b-161">วิธีนั้น ช่องทางจะได้รับแผนงานตอบแทนลูกค้าสมาชิกที่มีการอัพเดต</span><span class="sxs-lookup"><span data-stu-id="e1a3b-161">That way, the channels will get updated loyalty schemes.</span></span>  
 
 

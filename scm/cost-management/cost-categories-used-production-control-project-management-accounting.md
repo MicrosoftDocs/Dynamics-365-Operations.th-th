@@ -17,30 +17,30 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ
+# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="d24d7-104">ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ</span><span class="sxs-lookup"><span data-stu-id="d24d7-104">Cost categories used in Production control and Project management accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-งานการผลิตบางประเภทอาจใช้กับการประเมินเวลาและการรายงาน  บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่คุณต้องกำหนด สำหรับชนิดของงานการผลิตเหล่านี้สำหรับวัตถุประสงค์ของการผลิตและโครงการ
+<span data-ttu-id="d24d7-105">งานการผลิตบางประเภทอาจใช้กับการประเมินเวลาและการรายงาน </span><span class="sxs-lookup"><span data-stu-id="d24d7-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="d24d7-106">บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่คุณต้องกำหนด สำหรับชนิดของงานการผลิตเหล่านี้สำหรับวัตถุประสงค์ของการผลิตและโครงการ</span><span class="sxs-lookup"><span data-stu-id="d24d7-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
 
-งานการผลิตบางประเภทอาจใช้กับการประเมินเวลาและการรายงาน  ในกรณีนี้ ประเภทต้นทุนเป็นสิ่งจำเป็นสำหรับการผลิตและวัตถุประสงค์ของโครงการ  เมื่อมีการใช้ประเภทต้นทุนในการผลิตและโครงการ ต้องมีการกำหนดข้อมูลเกี่ยวกับโครงการเพิ่มเติม ตัวอย่างเช่น ต้นทุนต่อชั่วโมงที่เชื่อมโยงกับโครงการอาจแตกต่างจากต้นทุนต่อชั่วโมงที่เชื่อมโยงกับการผลิต  คุณสามารถใช้หน้า **ประเภทต้นทุน** เพื่อกำหนดประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและบัญชีการจัดการโครงการได้ **หมายเหตุ:** การบัญชีต้นทุนมีหน้า **ประเภทโครงการ** แต่หน้านี้ไม่มีความสัมพันธ์ใดๆกับฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ เมื่อคุณใช้ประเภทต้นทุนในโครงการ หน้า **ประเภทต้นทุน** มีแท็บเพิ่มเติม ที่แสดงข้อมูลเกี่ยวกับโครงการเพิ่มเติม ข้อมูลนี้ประกอบด้วย กลุ่มประเภท ลักษณะของรายการ และบัญชีแยกประเภท ที่กำหนดให้กับประเภทต้นทุน
+<span data-ttu-id="d24d7-107">งานการผลิตบางประเภทอาจใช้กับการประเมินเวลาและการรายงาน </span><span class="sxs-lookup"><span data-stu-id="d24d7-107">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="d24d7-108">ในกรณีนี้ ประเภทต้นทุนเป็นสิ่งจำเป็นสำหรับการผลิตและวัตถุประสงค์ของโครงการ </span><span class="sxs-lookup"><span data-stu-id="d24d7-108">In this case, a cost category is required for production and project purposes.</span></span> <span data-ttu-id="d24d7-109">เมื่อมีการใช้ประเภทต้นทุนในการผลิตและโครงการ ต้องมีการกำหนดข้อมูลเกี่ยวกับโครงการเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="d24d7-109">When a cost category is used in production and projects, additional project-related information must be defined.</span></span> <span data-ttu-id="d24d7-110">ตัวอย่างเช่น ต้นทุนต่อชั่วโมงที่เชื่อมโยงกับโครงการอาจแตกต่างจากต้นทุนต่อชั่วโมงที่เชื่อมโยงกับการผลิต </span><span class="sxs-lookup"><span data-stu-id="d24d7-110">For example, the hourly costs that are associated with projects can differ from the hourly costs that are associated with production.</span></span> <span data-ttu-id="d24d7-111">คุณสามารถใช้หน้า **ประเภทต้นทุน** เพื่อกำหนดประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและบัญชีการจัดการโครงการได้</span><span class="sxs-lookup"><span data-stu-id="d24d7-111">You can use the **Cost categories** page to define a cost category that is used in Production control and Project management accounting.</span></span> <span data-ttu-id="d24d7-112">**หมายเหตุ:** การบัญชีต้นทุนมีหน้า **ประเภทโครงการ** แต่หน้านี้ไม่มีความสัมพันธ์ใดๆกับฟังก์ชันที่อธิบายไว้ในหัวข้อนี้</span><span class="sxs-lookup"><span data-stu-id="d24d7-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="d24d7-113">เมื่อคุณใช้ประเภทต้นทุนในโครงการ หน้า **ประเภทต้นทุน** มีแท็บเพิ่มเติม ที่แสดงข้อมูลเกี่ยวกับโครงการเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="d24d7-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="d24d7-114">ข้อมูลนี้ประกอบด้วย กลุ่มประเภท ลักษณะของรายการ และบัญชีแยกประเภท ที่กำหนดให้กับประเภทต้นทุน</span><span class="sxs-lookup"><span data-stu-id="d24d7-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
 
--   ต้องมีการกำหนดประเภทต้นทุนให้กับกลุ่มประเภท ที่สนับสนุนชนิดธุรกรรมเป็น **ชั่วโมง**
--   คุณสมบัติของรายการจะบ่งชี้ข้อมูลเริ่มต้น เกี่ยวกับวิธีที่เวลาที่รายงานสามารถถูกคิดราคากับโครงการได้
--   โดยปกติ บัญชีแยกประเภทที่เกี่ยวข้องกับต้นทุนและยอดขาย จะถูกกำหนดสำหรับกลุ่มประเภทที่กำหนดให้กับประเภทต้นทุน  อย่างไรก็ตาม สามารถมีการกำหนดบัญชีเฉพาะสำหรับประเภทต้นทุนแต่ละแบบได้
+-   <span data-ttu-id="d24d7-115">ต้องมีการกำหนดประเภทต้นทุนให้กับกลุ่มประเภท ที่สนับสนุนชนิดธุรกรรมเป็น **ชั่วโมง**</span><span class="sxs-lookup"><span data-stu-id="d24d7-115">The cost category must be assigned to a category group that supports a transaction type of **Hours**.</span></span>
+-   <span data-ttu-id="d24d7-116">คุณสมบัติของรายการจะบ่งชี้ข้อมูลเริ่มต้น เกี่ยวกับวิธีที่เวลาที่รายงานสามารถถูกคิดราคากับโครงการได้</span><span class="sxs-lookup"><span data-stu-id="d24d7-116">The line property indicates default information about how reported time can be charged to a project.</span></span>
+-   <span data-ttu-id="d24d7-117">โดยปกติ บัญชีแยกประเภทที่เกี่ยวข้องกับต้นทุนและยอดขาย จะถูกกำหนดสำหรับกลุ่มประเภทที่กำหนดให้กับประเภทต้นทุน </span><span class="sxs-lookup"><span data-stu-id="d24d7-117">Typically, the ledger accounts that are related to costs and sales are defined for the category group that is assigned to the cost category.</span></span> <span data-ttu-id="d24d7-118">อย่างไรก็ตาม สามารถมีการกำหนดบัญชีเฉพาะสำหรับประเภทต้นทุนแต่ละแบบได้</span><span class="sxs-lookup"><span data-stu-id="d24d7-118">However, specific accounts can be defined for an individual cost category.</span></span>
 
-ปุ่มเพิ่มเติมบนหน้า **ประเภทต้นทุน** ทำให้คุณสามารถเข้าถึงข้อมูลที่เกี่ยวข้องกับโครงการเกี่ยวกับประเภทต้นทุนที่เลือกได้ ตัวอย่างเช่น คุณสามารถดูธุรกรรมที่เกี่ยวข้องกับโครงการ กำหนดพนักงานหรือโครงการ กำหนดต้นทุนต่อชั่วโมงและราคาขาย และดูรายงาน
+<span data-ttu-id="d24d7-119">ปุ่มเพิ่มเติมบนหน้า **ประเภทต้นทุน** ทำให้คุณสามารถเข้าถึงข้อมูลที่เกี่ยวข้องกับโครงการเกี่ยวกับประเภทต้นทุนที่เลือกได้</span><span class="sxs-lookup"><span data-stu-id="d24d7-119">Additional buttons on the **Cost categories** page let you access project-related information about a selected cost category.</span></span> <span data-ttu-id="d24d7-120">ตัวอย่างเช่น คุณสามารถดูธุรกรรมที่เกี่ยวข้องกับโครงการ กำหนดพนักงานหรือโครงการ กำหนดต้นทุนต่อชั่วโมงและราคาขาย และดูรายงาน</span><span class="sxs-lookup"><span data-stu-id="d24d7-120">For example, you can view project-related transactions, define employees or projects, define hourly costs and sales prices, and view reports.</span></span>
 
 
 

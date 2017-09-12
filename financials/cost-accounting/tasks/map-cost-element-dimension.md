@@ -16,32 +16,32 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6b99e1b5fc86bd1972766c8154141e9dd26bb7b0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ff31db3dbb6da9570bb85bbcaa3b444852d91d7
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-a-cost-element-dimension"></a>แม็ปมิติองค์ประกอบต้นทุน
+# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="14a17-103">แม็ปมิติองค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="14a17-103">Map a cost element dimension</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ผู้ควบคุมต้นทุนสามารถใช้กระบวนงานนี้ในการแม็ปมิติองค์ประกอบต้นทุนไปยังมิติองค์ประกอบต้นทุนในนิติบุคคล MXMF การบันทึกข้อมูลนี้ใช้บริษัทข้อมูลสาธิต USP2
+<span data-ttu-id="14a17-104">ผู้ควบคุมต้นทุนสามารถใช้กระบวนงานนี้ในการแม็ปมิติองค์ประกอบต้นทุนไปยังมิติองค์ประกอบต้นทุนในนิติบุคคล MXMF</span><span class="sxs-lookup"><span data-stu-id="14a17-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="14a17-105">การบันทึกข้อมูลนี้ใช้บริษัทข้อมูลสาธิต USP2</span><span class="sxs-lookup"><span data-stu-id="14a17-105">This recording uses the USP2 demo data company.</span></span>
 
-1. ไปที่ การลงบัญชีต้นทุนสินค้า > มิติ > มิติองค์ประกอบต้นทุน
-2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน  
-3. คลิก การแม็ปมิติ
-4. คลิก ตั้งค่าคอนฟิกการแม็ปจากมิตินี้
-5. คลิก สร้าง
-6. ในฟิลด์ ไปที่มิติ ให้ป้อนหรือเลือกค่า 
-    * สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน MXMF  
-7. คลิก สร้าง
-8. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-9. ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า
-    * ตัวอย่างนี้ เลือกสมาชิกมิติ 606400 ค่าโทรศัพท์ & โทรสาร  
-10. ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า
-    * ตัวอย่างนี้ เลือกสมาชิกมิติ 6001004 Telefono  
-11. คลิก บันทึก
+1. <span data-ttu-id="14a17-106">ไปที่ การลงบัญชีต้นทุนสินค้า > มิติ > มิติองค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="14a17-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="14a17-107">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="14a17-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="14a17-108">สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="14a17-108">For this example, select Cost elements.</span></span>  
+3. <span data-ttu-id="14a17-109">คลิก การแม็ปมิติ</span><span class="sxs-lookup"><span data-stu-id="14a17-109">Click Dimension mappings.</span></span>
+4. <span data-ttu-id="14a17-110">คลิก ตั้งค่าคอนฟิกการแม็ปจากมิตินี้</span><span class="sxs-lookup"><span data-stu-id="14a17-110">Click Configure mappings from this dimension.</span></span>
+5. <span data-ttu-id="14a17-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="14a17-111">Click New.</span></span>
+6. <span data-ttu-id="14a17-112">ในฟิลด์ ไปที่มิติ ให้ป้อนหรือเลือกค่า </span><span class="sxs-lookup"><span data-stu-id="14a17-112">In the To dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="14a17-113">สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน MXMF</span><span class="sxs-lookup"><span data-stu-id="14a17-113">For this example, select MXMF Cost elements.</span></span>  
+7. <span data-ttu-id="14a17-114">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="14a17-114">Click New.</span></span>
+8. <span data-ttu-id="14a17-115">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="14a17-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="14a17-116">ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="14a17-116">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="14a17-117">ตัวอย่างนี้ เลือกสมาชิกมิติ 606400 ค่าโทรศัพท์ & โทรสาร</span><span class="sxs-lookup"><span data-stu-id="14a17-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
+10. <span data-ttu-id="14a17-118">ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="14a17-118">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="14a17-119">ตัวอย่างนี้ เลือกสมาชิกมิติ 6001004 Telefono</span><span class="sxs-lookup"><span data-stu-id="14a17-119">For this example, select dimension member 6001004 Telefono.</span></span>  
+11. <span data-ttu-id="14a17-120">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="14a17-120">Click Save.</span></span>
 
 

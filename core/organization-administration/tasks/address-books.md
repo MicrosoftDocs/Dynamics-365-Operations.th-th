@@ -16,29 +16,29 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 1055d60b2a23c3124398b0e13cfa911f6ab68c6b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c600b7ac56b970a3fdb592eb0fc42865ee3e2dec
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-address-books"></a>ตั้งค่าคอนฟิกสมุดที่อยู่
+# <a name="configure-address-books"></a><span data-ttu-id="75c0d-103">ตั้งค่าคอนฟิกสมุดที่อยู่</span><span class="sxs-lookup"><span data-stu-id="75c0d-103">Configure address books</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ใช้กระบวนงานนี้และการตัดสินใจที่คุณได้ทำไว้ในการวางแผนและการตั้งค่าคอนฟิกของสมุดที่อยู่สากลและหัวข้อสมุดที่อยู่เพิ่มเติม เพื่อตั้งค่าสมุดที่อยู่เพิ่มเติมสำหรับองค์กรของคุณ 
+<span data-ttu-id="75c0d-104">ใช้กระบวนงานนี้และการตัดสินใจที่คุณได้ทำไว้ในการวางแผนและการตั้งค่าคอนฟิกของสมุดที่อยู่สากลและหัวข้อสมุดที่อยู่เพิ่มเติม เพื่อตั้งค่าสมุดที่อยู่เพิ่มเติมสำหรับองค์กรของคุณ </span><span class="sxs-lookup"><span data-stu-id="75c0d-104">Use this procedure, and the decisions that you made in the Planning the configuration of the global address book and additional address books topic, to set up additional address books for your organization.</span></span>
 
-ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF การบันทึกนี้มีไว้สำหรับสมาชิกของทีมการวางแผนและการตั้งค่าคอนฟิก
+<span data-ttu-id="75c0d-105">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="75c0d-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="75c0d-106">การบันทึกนี้มีไว้สำหรับสมาชิกของทีมการวางแผนและการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="75c0d-106">This recording is intended for the Planning and configuration team members.</span></span>
 
 
-## <a name="configure-address-books"></a>ตั้งค่าคอนฟิกสมุดที่อยู่
-1. ไปที่จัดการองค์กร > สมุดที่อยู่สากล > สมุดที่อยู่ 
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. คลิกบันทึก
-6. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-7. คลิกลูกศรเพื่อเพิ่มทีมงานซึ่งพร้อมใช้งานที่ถูกเลือกไปที่สมุดที่อยู่
-8. คลิก บันทึก
+## <a name="configure-address-books"></a><span data-ttu-id="75c0d-107">ตั้งค่าคอนฟิกสมุดที่อยู่</span><span class="sxs-lookup"><span data-stu-id="75c0d-107">Configure address books</span></span>
+1. <span data-ttu-id="75c0d-108">ไปที่จัดการองค์กร > สมุดที่อยู่สากล > สมุดที่อยู่ </span><span class="sxs-lookup"><span data-stu-id="75c0d-108">Go to Organization administration > Global address book > Address books.</span></span>
+2. <span data-ttu-id="75c0d-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="75c0d-109">Click New.</span></span>
+3. <span data-ttu-id="75c0d-110">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="75c0d-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="75c0d-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="75c0d-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="75c0d-112">คลิกบันทึก</span><span class="sxs-lookup"><span data-stu-id="75c0d-112">Click Save.</span></span>
+6. <span data-ttu-id="75c0d-113">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="75c0d-113">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="75c0d-114">คลิกลูกศรเพื่อเพิ่มทีมงานซึ่งพร้อมใช้งานที่ถูกเลือกไปที่สมุดที่อยู่</span><span class="sxs-lookup"><span data-stu-id="75c0d-114">Click the arrow to add the selected available teams to the address book.</span></span>
+8. <span data-ttu-id="75c0d-115">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="75c0d-115">Click Save.</span></span>
 
 

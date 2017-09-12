@@ -16,26 +16,26 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 9ac2d9bcc316a57941136c248a0c5ff030a1fe49
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2db8fb922b085a7f118822ef4fd974ac338f4d99
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="add-a-calculation-to-a-product-configuration-model"></a>เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์
+# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="4a0c1-103">เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="4a0c1-103">Add a calculation to a product configuration model</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการเพิ่มการคำนวณใหม่ไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์  แสดงว่าคุณสามารถสร้างนิพจน์ตรรกะโดยใช้ตัวดำเนินการ "ถ้า" เพื่อตั้งค่าความสูงของลำโพงที่ 10 สำหรับลำโพงสีขาวและ 15 สำหรับ cabinet อื่นๆที่จะเสร็จสิ้น  กระบวนงานใช้ส่วนประกอบลำโพงขั้นสูงในบริษัทสาธิต USMF
+<span data-ttu-id="4a0c1-104">กระบวนงานนี้แสดงวิธีการเพิ่มการคำนวณใหม่ไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="4a0c1-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="4a0c1-105">แสดงว่าคุณสามารถสร้างนิพจน์ตรรกะโดยใช้ตัวดำเนินการ "ถ้า" เพื่อตั้งค่าความสูงของลำโพงที่ 10 สำหรับลำโพงสีขาวและ 15 สำหรับ cabinet อื่นๆที่จะเสร็จสิ้น </span><span class="sxs-lookup"><span data-stu-id="4a0c1-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="4a0c1-106">กระบวนงานใช้ส่วนประกอบลำโพงขั้นสูงในบริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="4a0c1-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="add-a-calculation"></a>เพิ่มการคำนวณ
+## <a name="add-a-calculation"></a><span data-ttu-id="4a0c1-107">เพิ่มการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="4a0c1-107">Add a calculation</span></span>
 
-## <a name="create-calculation-expression"></a>สร้างนิพจน์การคำนวณ
-1. คลิกแก้ไขนิพจน์
-2. ในฟิลด์ ConstraintBody ให้ป้อน ' ถ้า[CabinetFinish == "ขาว" 10, 15]'
-3. คลิก ตรวจสอบความถูกต้อง
-4. คลิก ปิด
-5. คลิก ตกลง
+## <a name="create-calculation-expression"></a><span data-ttu-id="4a0c1-108">สร้างนิพจน์การคำนวณ</span><span class="sxs-lookup"><span data-stu-id="4a0c1-108">Create calculation expression</span></span>
+1. <span data-ttu-id="4a0c1-109">คลิกแก้ไขนิพจน์</span><span class="sxs-lookup"><span data-stu-id="4a0c1-109">Click Edit expression.</span></span>
+2. <span data-ttu-id="4a0c1-110">ในฟิลด์ ConstraintBody ให้ป้อน ' ถ้า[CabinetFinish == "ขาว" 10, 15]'</span><span class="sxs-lookup"><span data-stu-id="4a0c1-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
+3. <span data-ttu-id="4a0c1-111">คลิก ตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="4a0c1-111">Click Validate.</span></span>
+4. <span data-ttu-id="4a0c1-112">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="4a0c1-112">Click Close.</span></span>
+5. <span data-ttu-id="4a0c1-113">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4a0c1-113">Click OK.</span></span>
 
 

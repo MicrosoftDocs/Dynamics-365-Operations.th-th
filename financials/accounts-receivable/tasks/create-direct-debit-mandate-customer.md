@@ -16,77 +16,77 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e1ac289c261922f013b679eecfb054390b8aef73
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d01c7c19925a3c7064ab3f845b92b610b162066c
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-direct-debit-mandate-for-a-customer"></a>สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า
+# <a name="create-a-direct-debit-mandate-for-a-customer"></a><span data-ttu-id="6516a-103">สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="6516a-103">Create a direct debit mandate for a customer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-คำแนะนำของงานนี้แสดงวิธีการสร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ และใช้ในใบแจ้งหนี้
+<span data-ttu-id="6516a-104">คำแนะนำของงานนี้แสดงวิธีการสร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ และใช้ในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="6516a-104">This task guide demonstrates how to create a direct debit mandate and use it on an invoice.</span></span>
 
 
-## <a name="create-a-bank-account"></a>สร้างบัญชีธนาคาร
-1. ไปที่บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด
-2. ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001
-3. ในบานหน้าต่างการดำเนินการ คลิก ลูกค้า
-4. คลิก บัญชีธนาคาร
-5. คลิก สร้าง
-6. ในฟิลด์บัญชีธนาคาร ให้พิมพ์ค่า
-7. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-8. ในฟิลด์ IBAN ให้พิมพ์ค่า
-9. ในฟิลด์สกุลเงิน ให้พิมพ์ค่า
-10. คลิก บันทึก
-11. ปิดหน้า
-12. ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร
-13. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-14. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-15. คลิก แก้ไข
-16. ขยายส่วนการระบุรหัสประจำตัวเพิ่มเติม
-17. ในฟิลด์รหัสการหักบัญชีเงินฝากอัตโนมัติ ให้พิมพ์ค่า
-18. ในฟิลด์ IBAN ให้พิมพ์ค่า
-19. ปิดหน้า
-20. ปิดหน้า
+## <a name="create-a-bank-account"></a><span data-ttu-id="6516a-105">สร้างบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="6516a-105">Create a bank account</span></span>
+1. <span data-ttu-id="6516a-106">ไปที่บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="6516a-106">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="6516a-107">ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001</span><span class="sxs-lookup"><span data-stu-id="6516a-107">For example, select US-001</span></span>
+3. <span data-ttu-id="6516a-108">ในบานหน้าต่างการดำเนินการ คลิก ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="6516a-108">On the Action Pane, click Customer.</span></span>
+4. <span data-ttu-id="6516a-109">คลิก บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="6516a-109">Click Bank accounts.</span></span>
+5. <span data-ttu-id="6516a-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="6516a-110">Click New.</span></span>
+6. <span data-ttu-id="6516a-111">ในฟิลด์บัญชีธนาคาร ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-111">In the Bank account field, type a value.</span></span>
+7. <span data-ttu-id="6516a-112">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6516a-112">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="6516a-113">ในฟิลด์ IBAN ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-113">In the IBAN field, type a value.</span></span>
+9. <span data-ttu-id="6516a-114">ในฟิลด์สกุลเงิน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-114">In the Currency field, type a value.</span></span>
+10. <span data-ttu-id="6516a-115">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="6516a-115">Click Save.</span></span>
+11. <span data-ttu-id="6516a-116">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6516a-116">Close the page.</span></span>
+12. <span data-ttu-id="6516a-117">ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="6516a-117">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+13. <span data-ttu-id="6516a-118">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="6516a-118">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="6516a-119">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6516a-119">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="6516a-120">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="6516a-120">Click Edit.</span></span>
+16. <span data-ttu-id="6516a-121">ขยายส่วนการระบุรหัสประจำตัวเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="6516a-121">Expand the Additional identification section.</span></span>
+17. <span data-ttu-id="6516a-122">ในฟิลด์รหัสการหักบัญชีเงินฝากอัตโนมัติ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-122">In the Direct debit ID field, type a value.</span></span>
+18. <span data-ttu-id="6516a-123">ในฟิลด์ IBAN ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-123">In the IBAN field, type a value.</span></span>
+19. <span data-ttu-id="6516a-124">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6516a-124">Close the page.</span></span>
+20. <span data-ttu-id="6516a-125">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6516a-125">Close the page.</span></span>
 
-## <a name="define-the-electronic-payment-method"></a>ระบุวิธีการชำระเงินแบบอิเล็กทรอนิกส์
-1. ไปที่บัญชีลูกหนี้ > การตั้งค่าการชำระเงิน > วิธีการชำระเงิน
-2. คลิก สร้าง
-3. ในฟิลด์วิธีการชำระเงิน ให้พิมพ์ค่า
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ชนิดการชำระเงินสำหรับวิธีข้อตกลงการหักบัญชีเงินฝากอัตโนมัติของการชำระเงินที่ต้องชำระเงินทางอิเล็กทรอนิกส์
-6. เลือก ใช่ ในฟิลด์ข้อตกลงที่ต้องใช้
-7. ปิดหน้า
+## <a name="define-the-electronic-payment-method"></a><span data-ttu-id="6516a-126">ระบุวิธีการชำระเงินแบบอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="6516a-126">Define the electronic payment method</span></span>
+1. <span data-ttu-id="6516a-127">ไปที่บัญชีลูกหนี้ > การตั้งค่าการชำระเงิน > วิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6516a-127">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="6516a-128">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="6516a-128">Click New.</span></span>
+3. <span data-ttu-id="6516a-129">ในฟิลด์วิธีการชำระเงิน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-129">In the Method of payment field, type a value.</span></span>
+4. <span data-ttu-id="6516a-130">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-130">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="6516a-131">ชนิดการชำระเงินสำหรับวิธีข้อตกลงการหักบัญชีเงินฝากอัตโนมัติของการชำระเงินที่ต้องชำระเงินทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="6516a-131">The payment type for a direct debit mandate method of payment must be Electronic payment.</span></span>
+6. <span data-ttu-id="6516a-132">เลือก ใช่ ในฟิลด์ข้อตกลงที่ต้องใช้</span><span class="sxs-lookup"><span data-stu-id="6516a-132">Select Yes in the Require mandate field.</span></span>
+7. <span data-ttu-id="6516a-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6516a-133">Close the page.</span></span>
 
-## <a name="add-a-direct-debit-mandate-to-a-customer"></a>เพิ่มข้อตกลงการหักบัญชีเงินฝากอัตโนมัติไปยังลูกค้า
-1. ไปที่บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด
-2. ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001
-3. คลิก แก้ไข
-4. ขยายส่วนค่าเริ่มต้นของการชำระเงิน
-5. ในฟิลด์วิธีการชำระเงิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ขยายส่วนค่าเริ่มต้นของการชำระเงิน
-7. ขยายส่วนข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ
-8. คลิก เพิ่ม
-9. ในฟิลด์บัญชีธนาคาร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-10. ในฟิลด์บัญชีธนาคารของเจ้าหนี้ ให้ป้อนหรือเลือกค่า
-11. ป้อนหมายเลขของการชำระเงินที่คุณคาดว่าจะดำเนินการสำหรับข้อตกลงนี้
-12. คลิก ตกลง
-13. คลิก พิมพ์
-14. คลิก รายงานข้อตกลง
-15. ปิดหน้า
-16. คลิก แก้ไข
-17. ในฟิลด์วันที่ที่เซ็นรับรอง ให้ป้อนวันที่
-18. คลิก ใช่
-19. ป้อนสถานที่ที่ลงนามข้อตกลง
-20. คลิก ตกลง
-21. ปิดหน้า
+## <a name="add-a-direct-debit-mandate-to-a-customer"></a><span data-ttu-id="6516a-134">เพิ่มข้อตกลงการหักบัญชีเงินฝากอัตโนมัติไปยังลูกค้า</span><span class="sxs-lookup"><span data-stu-id="6516a-134">Add a direct debit mandate to a customer.</span></span>
+1. <span data-ttu-id="6516a-135">ไปที่บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="6516a-135">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="6516a-136">ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001</span><span class="sxs-lookup"><span data-stu-id="6516a-136">For example, select US-001</span></span>
+3. <span data-ttu-id="6516a-137">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="6516a-137">Click Edit.</span></span>
+4. <span data-ttu-id="6516a-138">ขยายส่วนค่าเริ่มต้นของการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6516a-138">Expand the Payment defaults section.</span></span>
+5. <span data-ttu-id="6516a-139">ในฟิลด์วิธีการชำระเงิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="6516a-139">In the Method of payment field, enter or select a value.</span></span>
+6. <span data-ttu-id="6516a-140">ขยายส่วนค่าเริ่มต้นของการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6516a-140">Expand the Payment defaults section.</span></span>
+7. <span data-ttu-id="6516a-141">ขยายส่วนข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="6516a-141">Expand the Direct debit mandates section.</span></span>
+8. <span data-ttu-id="6516a-142">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6516a-142">Click Add.</span></span>
+9. <span data-ttu-id="6516a-143">ในฟิลด์บัญชีธนาคาร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="6516a-143">In the Bank account field, enter or select a value.</span></span>
+10. <span data-ttu-id="6516a-144">ในฟิลด์บัญชีธนาคารของเจ้าหนี้ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6516a-144">In the Creditor bank account field, enter or select a value.</span></span>
+11. <span data-ttu-id="6516a-145">ป้อนหมายเลขของการชำระเงินที่คุณคาดว่าจะดำเนินการสำหรับข้อตกลงนี้</span><span class="sxs-lookup"><span data-stu-id="6516a-145">Enter the number of payments that you expect to process for this mandate.</span></span>
+12. <span data-ttu-id="6516a-146">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="6516a-146">Click OK.</span></span>
+13. <span data-ttu-id="6516a-147">คลิก พิมพ์</span><span class="sxs-lookup"><span data-stu-id="6516a-147">Click Print.</span></span>
+14. <span data-ttu-id="6516a-148">คลิก รายงานข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="6516a-148">Click Mandate report.</span></span>
+15. <span data-ttu-id="6516a-149">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6516a-149">Close the page.</span></span>
+16. <span data-ttu-id="6516a-150">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="6516a-150">Click Edit.</span></span>
+17. <span data-ttu-id="6516a-151">ในฟิลด์วันที่ที่เซ็นรับรอง ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="6516a-151">In the Signature date field, enter a date.</span></span>
+18. <span data-ttu-id="6516a-152">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="6516a-152">Click Yes.</span></span>
+19. <span data-ttu-id="6516a-153">ป้อนสถานที่ที่ลงนามข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="6516a-153">Enter the location where the mandate was signed.</span></span>
+20. <span data-ttu-id="6516a-154">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="6516a-154">Click OK.</span></span>
+21. <span data-ttu-id="6516a-155">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6516a-155">Close the page.</span></span>
 
-## <a name="create-a-free-text-invoice-with-mandate"></a>สร้างใบแจ้งหนี้ข้อความอิสระที่มีข้อตกลง
-1. ไปที่บัญชีลูกหนี้ > ใบแจ้งหนี้ > ใบแจ้งหนี้ข้อความอิสระทั้งหมด
-2. คลิก สร้าง
-3. เลือกลูกค้าที่คุณได้เพิ่มข้อตกลงไว้
-4. ในฟิลด์หัสข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
+## <a name="create-a-free-text-invoice-with-mandate"></a><span data-ttu-id="6516a-156">สร้างใบแจ้งหนี้ข้อความอิสระที่มีข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="6516a-156">Create a free text invoice with mandate</span></span>
+1. <span data-ttu-id="6516a-157">ไปที่บัญชีลูกหนี้ > ใบแจ้งหนี้ > ใบแจ้งหนี้ข้อความอิสระทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="6516a-157">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="6516a-158">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="6516a-158">Click New.</span></span>
+3. <span data-ttu-id="6516a-159">เลือกลูกค้าที่คุณได้เพิ่มข้อตกลงไว้</span><span class="sxs-lookup"><span data-stu-id="6516a-159">Select the customer that you added the mandate to.</span></span>
+4. <span data-ttu-id="6516a-160">ในฟิลด์หัสข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="6516a-160">In the Direct debit mandate ID field, enter or select a value.</span></span>
 
 

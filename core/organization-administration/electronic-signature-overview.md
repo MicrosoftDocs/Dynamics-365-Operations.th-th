@@ -19,93 +19,93 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: e81d4a29cf1624619c1f0c2bfc6bc66c715a6b7f
+ms.openlocfilehash: fa3aff17f3f55cdee9abf1f0326ac2bbe599bf94
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/24/2017
 
 ---
 
-# <a name="electronic-signature-overview"></a>ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
+# <a name="electronic-signature-overview"></a><span data-ttu-id="a1543-103">ภาพรวมของลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-103">Electronic signature overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงภาพรวมของลายเซ็นอิเล็กทรอนิกส์ และอธิบายวิธีการใช้ลายเซ็นดังกล่าวใน Microsoft Dynamics 365 for Finance and Operations
+<span data-ttu-id="a1543-104">บทความนี้แสดงภาพรวมของลายเซ็นอิเล็กทรอนิกส์ และอธิบายวิธีการใช้ลายเซ็นดังกล่าวใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="a1543-104">This article provides an overview of electronic signatures and describes how they can be used in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="what-is-an-electronic-signature"></a>ลายเซ็นอิเล็กทรอนิกส์คืออะไร?
+<a name="what-is-an-electronic-signature"></a><span data-ttu-id="a1543-105">ลายเซ็นอิเล็กทรอนิกส์คืออะไร?</span><span class="sxs-lookup"><span data-stu-id="a1543-105">What is an electronic signature?</span></span>
 --------------------------------
 
-ลายเซ็นอิเล็กทรอนิกส์จะยืนยันลักษณะเฉพาะของบุคคลที่กำลังจะเริ่มหรืออนุมัติกระบวนการระบบคอมพิวเตอร์  ในบางอุตสาหกรรม ลายเซ็นอิเล็กทรอนิกส์เป็นการผูกมัดตามกฎหมายเสมือนลายเซ็นที่เป็นลายมือ 
+<span data-ttu-id="a1543-106">ลายเซ็นอิเล็กทรอนิกส์จะยืนยันลักษณะเฉพาะของบุคคลที่กำลังจะเริ่มหรืออนุมัติกระบวนการระบบคอมพิวเตอร์ </span><span class="sxs-lookup"><span data-stu-id="a1543-106">An electronic signature confirms the identity of a person who is about to start or approve a computing process.</span></span> <span data-ttu-id="a1543-107">ในบางอุตสาหกรรม ลายเซ็นอิเล็กทรอนิกส์เป็นการผูกมัดตามกฎหมายเสมือนลายเซ็นที่เป็นลายมือ</span><span class="sxs-lookup"><span data-stu-id="a1543-107">In some industries, an electronic signature is as legally binding as a handwritten signature.</span></span> 
 
-ลายเซ็นอิเล็กทรอนิกส์เป็นข้อกำหนดของข้อบังคับที่ต้องปฏิบัติตามสำหรับอุตสาหกรรมต่าง ๆ เช่นอุตสาหกรรมยา อาหารและเครื่องดื่ม และอุตสาหกรรมอวกาศ และความมั่นคง ยังเป็นส่วนสำคัญของข้อบังคับที่ต้องปฏิบัติตามภายใต้ระเบียบ 21 CFR Part 11 ที่ออกโดยองค์การอาหารและยา (FDA) ของสหรัฐอเมริกา 
+<span data-ttu-id="a1543-108">ลายเซ็นอิเล็กทรอนิกส์เป็นข้อกำหนดของข้อบังคับที่ต้องปฏิบัติตามสำหรับอุตสาหกรรมต่าง ๆ เช่นอุตสาหกรรมยา อาหารและเครื่องดื่ม และอุตสาหกรรมอวกาศ และความมั่นคง</span><span class="sxs-lookup"><span data-stu-id="a1543-108">Electronic signatures are a regulations compliance requirement for several regulated industries, such as pharmaceuticals, food and beverage, and aerospace and defense.</span></span> <span data-ttu-id="a1543-109">ยังเป็นส่วนสำคัญของข้อบังคับที่ต้องปฏิบัติตามภายใต้ระเบียบ 21 CFR Part 11 ที่ออกโดยองค์การอาหารและยา (FDA) ของสหรัฐอเมริกา</span><span class="sxs-lookup"><span data-stu-id="a1543-109">They are also required for compliance with regulations in 21 CFR Part 11 that was issued by the Food and Drug Administration (FDA) in the United States.</span></span> 
 
-**หมายเหตุ:** ลายเซ็นอิเล็กทรอนิกส์เองไม่เหมือนกับลายเซ็นดิจิทัล ลายเซ็นอิเล็กทรอนิกส์เป็นเพียงสิ่งที่ใช้ทดแทนลายเซ็นที่เป็นลายมือ ในขณะที่ลายเซ็นดิจิทัลเป็นมาตรการรักษาความปลอดภัยเพิ่มเติม ลายเซ็นดิจิทัลสามารถช่วยระบุว่าผู้ใช้หรือกระบวนการอื่นได้แอบแก้ไขข้อมูลหรือไม่ ลายเซ็นดิจิทัลยังสามารถตรวจสอบ และการตรวจสอบนี้ไม่สามารถโต้แย้งโดยเจ้าของใบรับรองที่เคยลงชื่อในข้อมูลได้ ดังที่อธิบายไว้ข้างล่างนี้ ลายเซ็นอิเล็กทรอนิกส์ใน Microsoft Dynamics 365 for Finance and Operations มีความสามารถด้านลายเซ็นดิจิทัลในตัว
+<span data-ttu-id="a1543-110">**หมายเหตุ:** ลายเซ็นอิเล็กทรอนิกส์เองไม่เหมือนกับลายเซ็นดิจิทัล</span><span class="sxs-lookup"><span data-stu-id="a1543-110">**Note:** An electronic signature by itself isn't the same as a digital signature.</span></span> <span data-ttu-id="a1543-111">ลายเซ็นอิเล็กทรอนิกส์เป็นเพียงสิ่งที่ใช้ทดแทนลายเซ็นที่เป็นลายมือ ในขณะที่ลายเซ็นดิจิทัลเป็นมาตรการรักษาความปลอดภัยเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="a1543-111">An electronic signature is just a substitute for a handwritten signature, whereas a digital signature provides additional security measures.</span></span> <span data-ttu-id="a1543-112">ลายเซ็นดิจิทัลสามารถช่วยระบุว่าผู้ใช้หรือกระบวนการอื่นได้แอบแก้ไขข้อมูลหรือไม่</span><span class="sxs-lookup"><span data-stu-id="a1543-112">A digital signature can help identify whether another user or process has tampered with the data.</span></span> <span data-ttu-id="a1543-113">ลายเซ็นดิจิทัลยังสามารถตรวจสอบ และการตรวจสอบนี้ไม่สามารถโต้แย้งโดยเจ้าของใบรับรองที่เคยลงชื่อในข้อมูลได้</span><span class="sxs-lookup"><span data-stu-id="a1543-113">A digital signature can also be verified, and this verification can't be refuted by the owner of the certificate that was used to sign the data.</span></span> <span data-ttu-id="a1543-114">ดังที่อธิบายไว้ข้างล่างนี้ ลายเซ็นอิเล็กทรอนิกส์ใน Microsoft Dynamics 365 for Finance and Operations มีความสามารถด้านลายเซ็นดิจิทัลในตัว</span><span class="sxs-lookup"><span data-stu-id="a1543-114">As described below, electronic signatures in Microsoft Dynamics 365 for Finance and Operations have built-in digital signature functionality.</span></span>
 
-## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>ลายเซ็นอิเล็กทรอนิกส์ใน Dynamics 365 for Finance and Operations
-ใน Finance and Operations คุณสามารถใช้ลายเซ็นอิเล็กทรอนิกส์สำหรับกระบวนการทางธุรกิจที่สำคัญ บางกระบวนการมีความสามารถด้านลายเซ็นอิเล็กทรอนิกส์ในตัว คุณยังสามารถสร้างข้อกำหนดของลายเซ็นที่กำหนดเองสำหรับตารางฐานข้อมูลและฟิลด์ใดๆ 
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="a1543-115">ลายเซ็นอิเล็กทรอนิกส์ใน Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="a1543-115">Electronic signatures in Dynamics 365 for Finance and Operations</span></span>
+<span data-ttu-id="a1543-116">ใน Finance and Operations คุณสามารถใช้ลายเซ็นอิเล็กทรอนิกส์สำหรับกระบวนการทางธุรกิจที่สำคัญ</span><span class="sxs-lookup"><span data-stu-id="a1543-116">In Finance and Operations, you can use electronic signatures for critical business processes.</span></span> <span data-ttu-id="a1543-117">บางกระบวนการมีความสามารถด้านลายเซ็นอิเล็กทรอนิกส์ในตัว</span><span class="sxs-lookup"><span data-stu-id="a1543-117">Some processes have built-in electronic signature capabilities.</span></span> <span data-ttu-id="a1543-118">คุณยังสามารถสร้างข้อกำหนดของลายเซ็นที่กำหนดเองสำหรับตารางฐานข้อมูลและฟิลด์ใดๆ</span><span class="sxs-lookup"><span data-stu-id="a1543-118">You can also create custom signature requirements for any database table and field.</span></span> 
 
-ลายเซ็นอิเล็กทรอนิกส์มีความสามารถด้านลายเซ็นดิจิทัลในตัว ผู้ใช้ทุกรายที่ลงชื่อในเอกสารต้องต้องจัดหาใบรับรองการเข้ารหัสลับที่ถูกต้อง เมื่อเอกสารถูกลงชื่อ คีย์ส่วนตัวเชื่อมโยงกับใบรับรองที่ได้รับการตรวจสอบความถูกต้อง Finance and Operations บันทึกข้อมูลลายเซ็นอิเล็กทรอนิกส์ไว้ในล็อก เพื่อเป็นข้อมูลสำหรับบันทึกการตรวจสอบบัญชี เมื่อต้องการตั้งค่าลายเซ็นอิเล็กทรอนิกส์ ดู [ตั้งค่าลายเซ็นอิเล็กทรอนิกส์ (คู่มืองาน)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures)
+<span data-ttu-id="a1543-119">ลายเซ็นอิเล็กทรอนิกส์มีความสามารถด้านลายเซ็นดิจิทัลในตัว</span><span class="sxs-lookup"><span data-stu-id="a1543-119">Electronic signatures have built-in digital signature functionality.</span></span> <span data-ttu-id="a1543-120">ผู้ใช้ทุกรายที่ลงชื่อในเอกสารต้องต้องจัดหาใบรับรองการเข้ารหัสลับที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="a1543-120">Every user who signs documents must obtain a valid cryptographic certificate.</span></span> <span data-ttu-id="a1543-121">เมื่อเอกสารถูกลงชื่อ คีย์ส่วนตัวเชื่อมโยงกับใบรับรองที่ได้รับการตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="a1543-121">When a document is signed, the private key that is associated with that certificate is validated.</span></span> <span data-ttu-id="a1543-122">Finance and Operations บันทึกข้อมูลลายเซ็นอิเล็กทรอนิกส์ไว้ในล็อก เพื่อเป็นข้อมูลสำหรับบันทึกการตรวจสอบบัญชี</span><span class="sxs-lookup"><span data-stu-id="a1543-122">Finance and Operations records electronic signature information in a log to provide an audit trail.</span></span> <span data-ttu-id="a1543-123">เมื่อต้องการตั้งค่าลายเซ็นอิเล็กทรอนิกส์ ดู [ตั้งค่าลายเซ็นอิเล็กทรอนิกส์ (คู่มืองาน)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures)</span><span class="sxs-lookup"><span data-stu-id="a1543-123">To set up electronic signatures, see [Set up electronic signatures (Task guide)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).</span></span>
 
-## <a name="users-who-require-access-to-electronic-signatures"></a>ผู้ใช้ที่ต้องการเข้าถึงลายเซ็นอิเล็กทรอนิกส์
-โดยทั่วไปผู้ใช้สามชนิดต้องใช้การเข้าถึงที่ปลอดภัยไปยังลายเซ็นอิเล็กทรอนิกส์ ได้แก่ ผู้ดูแลลายเซ็นอิเล็กทรอนิกส์ ผู้ลงชื่อ และผู้ตรวจสอบลายเซ็นอิเล็กทรอนิกส์
+## <a name="users-who-require-access-to-electronic-signatures"></a><span data-ttu-id="a1543-124">ผู้ใช้ที่ต้องการเข้าถึงลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-124">Users who require access to electronic signatures</span></span>
+<span data-ttu-id="a1543-125">โดยทั่วไปผู้ใช้สามชนิดต้องใช้การเข้าถึงที่ปลอดภัยไปยังลายเซ็นอิเล็กทรอนิกส์ ได้แก่ ผู้ดูแลลายเซ็นอิเล็กทรอนิกส์ ผู้ลงชื่อ และผู้ตรวจสอบลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-125">Three kinds of users typically require security access to electronic signatures: electronic signature administrators, signers, and electronic signature auditors.</span></span>
 
-### <a name="electronic-signature-administrator"></a>ผู้ดูแลลายเซ็นอิเล็กทรอนิกส์
+### <a name="electronic-signature-administrator"></a><span data-ttu-id="a1543-126">ผู้ดูแลลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-126">Electronic signature administrator</span></span>
 
-ผู้ดูแลระบบลายเซ็นอิเล็กทรอนิกส์ตั้งค่าข้อกำหนดของลายเซ็น พารามิเตอร์ทั่วไป และผู้อนุมัติ และได้รับการแจ้งเตือนเมื่อลายเซ็นไม่สามารถตรวจสอบได้ โดยค่าเริ่มต้น ผู้ใช้ที่เป็นสมาชิก **ผู้จัดการฝ่ายเทคโนโลยีสารสนเทศ** บทบาทความปลอดภัยมีสิทธิ์เพื่อดูแลลายเซ็นอิเล็กทรอนิกส์
+<span data-ttu-id="a1543-127">ผู้ดูแลระบบลายเซ็นอิเล็กทรอนิกส์ตั้งค่าข้อกำหนดของลายเซ็น พารามิเตอร์ทั่วไป และผู้อนุมัติ และได้รับการแจ้งเตือนเมื่อลายเซ็นไม่สามารถตรวจสอบได้</span><span class="sxs-lookup"><span data-stu-id="a1543-127">The electronic signature administrator sets up signature requirements, general parameters, and approvers, and receives alerts when signatures can't be verified.</span></span> <span data-ttu-id="a1543-128">โดยค่าเริ่มต้น ผู้ใช้ที่เป็นสมาชิก **ผู้จัดการฝ่ายเทคโนโลยีสารสนเทศ** บทบาทความปลอดภัยมีสิทธิ์เพื่อดูแลลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-128">By default, a user who belongs to the **Information technology manager** security role has permission to administer electronic signatures.</span></span>
 
-### <a name="signer"></a>ผู้ลงชื่อ
+### <a name="signer"></a><span data-ttu-id="a1543-129">ผู้ลงชื่อ</span><span class="sxs-lookup"><span data-stu-id="a1543-129">Signer</span></span>
 
-ผู้ลงชื่อแสดงลายเซ็นอิเล็กทรอนิกส์สำหรับเอกสารและกระบวนการที่ต้องการลายเซ็น โดยค่าเริ่มต้น ผู้ใช้ที่เป็นสมาชิก **ผู้ใช้ระบบ** บทบาทความปลอดภัยมีสิทธิ์เพื่อลงชื่อในเอกสารทางอิเล็กทรอนิกส์ 
+<span data-ttu-id="a1543-130">ผู้ลงชื่อแสดงลายเซ็นอิเล็กทรอนิกส์สำหรับเอกสารและกระบวนการที่ต้องการลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="a1543-130">A signer provides electronic signatures for documents and processes that require signatures.</span></span> <span data-ttu-id="a1543-131">โดยค่าเริ่มต้น ผู้ใช้ที่เป็นสมาชิก **ผู้ใช้ระบบ** บทบาทความปลอดภัยมีสิทธิ์เพื่อลงชื่อในเอกสารทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-131">By default, a user who belongs to the **System user** security role has permission to sign documents electronically.</span></span> 
 
-**หมายเหตุ:** ผู้ลงชื่ออาจต้องมีสิทธิ์เพิ่มเติมก่อนที่จะได้รับอนุญาตให้เข้าถึงข้อมูลที่เกี่ยวข้องกับเอกสารหรือกระบวนการที่กำลังลงชื่ออยู่ ผู้ใช้ที่เปลี่ยนข้อมูล และจากนั้นต้องลงชื่อสำหรับการเปลี่ยนแปลงเหล่านั้น ต้องมีสิทธิ์เพื่อเปลี่ยนแปลงข้อมูล ผู้ใช้ที่ลงชื่อในนามของผู้ใช้อื่นอาจไม่จำเป็นต้องเข้าถึงข้อมูล ตัวอย่างของชนิดของผู้ใช้นี้เป็นผู้ควบคุมงานที่ลงชื่อสำหรับการเปลี่ยนแปลงของพนักงาน
+<span data-ttu-id="a1543-132">**หมายเหตุ:** ผู้ลงชื่ออาจต้องมีสิทธิ์เพิ่มเติมก่อนที่จะได้รับอนุญาตให้เข้าถึงข้อมูลที่เกี่ยวข้องกับเอกสารหรือกระบวนการที่กำลังลงชื่ออยู่</span><span class="sxs-lookup"><span data-stu-id="a1543-132">**Note:** The signer might require additional permissions before access is granted to data that is related to the document or process that is being signed.</span></span> <span data-ttu-id="a1543-133">ผู้ใช้ที่เปลี่ยนข้อมูล และจากนั้นต้องลงชื่อสำหรับการเปลี่ยนแปลงเหล่านั้น ต้องมีสิทธิ์เพื่อเปลี่ยนแปลงข้อมูล</span><span class="sxs-lookup"><span data-stu-id="a1543-133">A user who changes data and must then sign for those changes must have permission to change the data.</span></span> <span data-ttu-id="a1543-134">ผู้ใช้ที่ลงชื่อในนามของผู้ใช้อื่นอาจไม่จำเป็นต้องเข้าถึงข้อมูล</span><span class="sxs-lookup"><span data-stu-id="a1543-134">A user who signs on behalf of another user might not require access to the data.</span></span> <span data-ttu-id="a1543-135">ตัวอย่างของชนิดของผู้ใช้นี้เป็นผู้ควบคุมงานที่ลงชื่อสำหรับการเปลี่ยนแปลงของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="a1543-135">An example of this kind of user is a supervisor who signs for an employee's changes.</span></span>
 
-### <a name="electronic-signature-auditor"></a>ผู้ตรวจสอบลายเซ็นอิเล็กทรอนิกส์
+### <a name="electronic-signature-auditor"></a><span data-ttu-id="a1543-136">ผู้ตรวจสอบลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-136">Electronic signature auditor</span></span>
 
-ผู้ตรวจสอบลายเซ็นอิเล็กทรอนิกส์ตรวจทานล็อกฐานข้อมูลและล็อกการตรวจทานลายเซ็นที่พร้อมใช้งานจากล็อกฐานข้อมูล โดยค่าเริ่มต้น ผู้ใช้ที่เป็นสมาชิก **ผู้จัดการฝ่ายเทคโนโลยีสารสนเทศ** บทบาทความปลอดภัยมีสิทธิ์เพื่อตรวจสอบลายเซ็นอิเล็กทรอนิกส์ 
+<span data-ttu-id="a1543-137">ผู้ตรวจสอบลายเซ็นอิเล็กทรอนิกส์ตรวจทานล็อกฐานข้อมูลและล็อกการตรวจทานลายเซ็นที่พร้อมใช้งานจากล็อกฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="a1543-137">The electronic signature auditor reviews the database log and the signature review log that is available from the database log.</span></span> <span data-ttu-id="a1543-138">โดยค่าเริ่มต้น ผู้ใช้ที่เป็นสมาชิก **ผู้จัดการฝ่ายเทคโนโลยีสารสนเทศ** บทบาทความปลอดภัยมีสิทธิ์เพื่อตรวจสอบลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-138">By default, a user who belongs to the **Information technology manager** security role has permission to audit electronic signatures.</span></span> 
 
-ถ้าคุณใช้บทบาทอื่นมากกว่า **ผู้จัดการฝ่ายเทคโนโลยีสารสนเทศ** ทำให้แน่ใจว่าบทบาทถูกกำหนดสิทธิ์ต่อไปนี้แล้ว:
+<span data-ttu-id="a1543-139">ถ้าคุณใช้บทบาทอื่นมากกว่า **ผู้จัดการฝ่ายเทคโนโลยีสารสนเทศ** ทำให้แน่ใจว่าบทบาทถูกกำหนดสิทธิ์ต่อไปนี้แล้ว:</span><span class="sxs-lookup"><span data-stu-id="a1543-139">If you use a role other than **Information technology manager**, make sure that the role is assigned the following privileges:</span></span>
 
--   ดูความล้มเหลวของลายเซ็นอิเล็กทรอนิกส์
--   ดูล็อกฐานข้อมูล
+-   <span data-ttu-id="a1543-140">ดูความล้มเหลวของลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-140">View electronic signature failures</span></span>
+-   <span data-ttu-id="a1543-141">ดูล็อกฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="a1543-141">View database log</span></span>
 
-## <a name="signing-documents-electronically"></a>การลงชื่อในเอกสารทางอิเล็กทรอนิกส์
-### <a name="get-a-certificate"></a>การขอใบรับรอง
+## <a name="signing-documents-electronically"></a><span data-ttu-id="a1543-142">การลงชื่อในเอกสารทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-142">Signing documents electronically</span></span>
+### <a name="get-a-certificate"></a><span data-ttu-id="a1543-143">การขอใบรับรอง</span><span class="sxs-lookup"><span data-stu-id="a1543-143">Get a certificate</span></span>
 
-ก่อนที่คุณจะลงชื่อในเอกสารทางอิเล็กทรอนิกส์ใน Finance and Operations คุณจะต้องขอใบรับรอง 
+<span data-ttu-id="a1543-144">ก่อนที่คุณจะลงชื่อในเอกสารทางอิเล็กทรอนิกส์ใน Finance and Operations คุณจะต้องขอใบรับรอง</span><span class="sxs-lookup"><span data-stu-id="a1543-144">Before you sign documents electronically in Finance and Operations, you must request a certificate.</span></span> 
 
-**หมายเหตุ:** Finance and Operations ใช้ลักษณะการทำงานของ Microsoft SQL Server เพื่อสร้างใบรับรองและเปิดใช้งานการลงชื่อทางอิเล็กทรอนิกส์ ไม่จำเป็นต้องใช้ใบรับรองหรือโครงสร้างพื้นฐานคีย์สาธารณะ (PKI) เพิ่มเติม 
+<span data-ttu-id="a1543-145">**หมายเหตุ:** Finance and Operations ใช้ลักษณะการทำงานของ Microsoft SQL Server เพื่อสร้างใบรับรองและเปิดใช้งานการลงชื่อทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-145">**Note:** Finance and Operations uses Microsoft SQL Server features to create certificates and enable electronic signing.</span></span> <span data-ttu-id="a1543-146">ไม่จำเป็นต้องใช้ใบรับรองหรือโครงสร้างพื้นฐานคีย์สาธารณะ (PKI) เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="a1543-146">No additional certificate or public key infrastructure (PKI) is required.</span></span> 
 
-เมื่อคุณขอใบรับรอง จะมีการสร้างคีย์สาธารณะและคีย์ส่วนตัวให้แก่คุณในฐานข้อมูล Finance and Operations คีย์ส่วนตัวจะถูกเข้ารหัสลับโดยใช้รหัสผ่านที่มีคุณเท่านั้นที่ทราบ เมื่อคุณลงชื่อในเอกสารทางอิเล็กทรอนิกส์ จะมีการตรวจสอบความถูกต้องสำหรับข้อมูลประจำตัวของคุณเมื่อคุณป้อนรหัสผ่าน 
+<span data-ttu-id="a1543-147">เมื่อคุณขอใบรับรอง จะมีการสร้างคีย์สาธารณะและคีย์ส่วนตัวให้แก่คุณในฐานข้อมูล Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="a1543-147">When you request a certificate, a public key and a private key are created for you in the Finance and Operations database.</span></span> <span data-ttu-id="a1543-148">คีย์ส่วนตัวจะถูกเข้ารหัสลับโดยใช้รหัสผ่านที่มีคุณเท่านั้นที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="a1543-148">The private key is encrypted by using a password that is known only to you.</span></span> <span data-ttu-id="a1543-149">เมื่อคุณลงชื่อในเอกสารทางอิเล็กทรอนิกส์ จะมีการตรวจสอบความถูกต้องสำหรับข้อมูลประจำตัวของคุณเมื่อคุณป้อนรหัสผ่าน</span><span class="sxs-lookup"><span data-stu-id="a1543-149">When you sign a document electronically, your identity is verified when you enter the password.</span></span> 
 
-เมื่อต้องการร้องขอใบรับรอง ที่หน้า **ตัวเลือก** บนแท็บ **บัญชี** คลิก **ขอใบรับรอง** 
+<span data-ttu-id="a1543-150">เมื่อต้องการร้องขอใบรับรอง ที่หน้า **ตัวเลือก** บนแท็บ **บัญชี** คลิก **ขอใบรับรอง**</span><span class="sxs-lookup"><span data-stu-id="a1543-150">To request a certificate, on the **Options** page, on the **Accounts** tab, click **Get certificate**.</span></span> 
 
-คุณจะต้องป้อนและยืนยันรหัสผ่านที่คุณจะใช้สำหรับการลงชื่อ รหัสผ่านใช้เพื่อป้องกันคีย์ส่วนตัวของคุณและอนุมัติการใช้ใบรับรองของคุณ รหัสผ่านนี้ไม่มีการจัดเก็บไว้ในฐานข้อมูล และบุคคลอื่นไม่สามารถใช้ได้ รวมถึงผู้ดูแลระบบ Dynamics 365 for Finance and Operations 
+<span data-ttu-id="a1543-151">คุณจะต้องป้อนและยืนยันรหัสผ่านที่คุณจะใช้สำหรับการลงชื่อ</span><span class="sxs-lookup"><span data-stu-id="a1543-151">You must enter and confirm the password that you will use for signing.</span></span> <span data-ttu-id="a1543-152">รหัสผ่านใช้เพื่อป้องกันคีย์ส่วนตัวของคุณและอนุมัติการใช้ใบรับรองของคุณ</span><span class="sxs-lookup"><span data-stu-id="a1543-152">The password is used to protect your private key and authorize the use of your certificate.</span></span> <span data-ttu-id="a1543-153">รหัสผ่านนี้ไม่มีการจัดเก็บไว้ในฐานข้อมูล และบุคคลอื่นไม่สามารถใช้ได้ รวมถึงผู้ดูแลระบบ Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="a1543-153">This password isn't stored in the database, and it isn't available to anyone else, not even to the Finance and Operations administrator.</span></span> 
 
-ถ้าคุณลืมรหัสผ่านที่เชื่อมโยงกับใบรับรองของคุณ จะต้องตั้งค่าใบรับรองนั้นใหม่ ถ้าคุณตั้งค่าใบรับรอง คุณจะส่งผลกระทบต่อเอกสารที่คุณลงชื่อโดยใช้ใบรับรองก่อนหน้านี้ เมื่อต้องการรีเซ็ตใบรับรอง ในหน้า **ตัวเลือก** คลิก **รีเซ็ตใบรับรอง**
+<span data-ttu-id="a1543-154">ถ้าคุณลืมรหัสผ่านที่เชื่อมโยงกับใบรับรองของคุณ จะต้องตั้งค่าใบรับรองนั้นใหม่</span><span class="sxs-lookup"><span data-stu-id="a1543-154">If you forget the password that is connected with your certificate, that certificate must be reset.</span></span> <span data-ttu-id="a1543-155">ถ้าคุณตั้งค่าใบรับรอง คุณจะส่งผลกระทบต่อเอกสารที่คุณลงชื่อโดยใช้ใบรับรองก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="a1543-155">If you reset the certificate, you don't affect documents that you signed by using the previous certificate.</span></span> <span data-ttu-id="a1543-156">เมื่อต้องการรีเซ็ตใบรับรอง ในหน้า **ตัวเลือก** คลิก **รีเซ็ตใบรับรอง**</span><span class="sxs-lookup"><span data-stu-id="a1543-156">To reset the certificate, on the **Options** page, click **Reset certificate**.</span></span>
 
-### <a name="sign-a-document-electronically"></a>การลงชื่อในเอกสารทางอิเล็กทรอนิกส์
+### <a name="sign-a-document-electronically"></a><span data-ttu-id="a1543-157">การลงชื่อในเอกสารทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-157">Sign a document electronically</span></span>
 
-หน้า **ลงชื่อในเอกสาร** จะแสดงขึ้น เมื่อคุณทำการเปลี่ยนแปลงที่ต้องใช้ลายเซ็นอิเล็กทรอนิกส์
+<span data-ttu-id="a1543-158">หน้า **ลงชื่อในเอกสาร** จะแสดงขึ้น เมื่อคุณทำการเปลี่ยนแปลงที่ต้องใช้ลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a1543-158">The **Sign document** page is displayed when you make a change that requires an electronic signature.</span></span>
 
-1.  ในหน้า **ลงชื่อเอกสาร** คลิกแท็บ **เอกสาร** เพื่อตรวจทานการเปลี่ยนแปลงในเอกสาร
-2.  บนแท็บ **ลายเซ็น** ให้เลือกรหัสเหตุผล
-3.  ป้อนข้อคิดเห็น ถ้าจำเป็นต้องมีข้อคิดเห็น
-4.  ถ้ารหัสผู้ใช้ของคุณไม่แสดงขึ้นในฟิลด์ **ผู้ลงชื่อ** ให้เลือกรหัสผู้ใช้ในรายการ
-5.  ป้อนที่ตั้งของคุณ ถ้าจำเป็นต้องมีข้อมูลนี้
-6.  คลิก **ตกลง** ระบบจะนำเข้าข้อมูลการชำระเงิน
+1.  <span data-ttu-id="a1543-159">ในหน้า **ลงชื่อเอกสาร** คลิกแท็บ **เอกสาร** เพื่อตรวจทานการเปลี่ยนแปลงในเอกสาร</span><span class="sxs-lookup"><span data-stu-id="a1543-159">On the **Sign document** page, click the **Document** tab to review the changes to the document.</span></span>
+2.  <span data-ttu-id="a1543-160">บนแท็บ **ลายเซ็น** ให้เลือกรหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="a1543-160">On the **Signature** tab, select a reason code.</span></span>
+3.  <span data-ttu-id="a1543-161">ป้อนข้อคิดเห็น ถ้าจำเป็นต้องมีข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="a1543-161">Enter a comment, if a comment is required.</span></span>
+4.  <span data-ttu-id="a1543-162">ถ้ารหัสผู้ใช้ของคุณไม่แสดงขึ้นในฟิลด์ **ผู้ลงชื่อ** ให้เลือกรหัสผู้ใช้ในรายการ</span><span class="sxs-lookup"><span data-stu-id="a1543-162">If your user ID doesn't appear in the **Signer** field, select it in the list.</span></span>
+5.  <span data-ttu-id="a1543-163">ป้อนที่ตั้งของคุณ ถ้าจำเป็นต้องมีข้อมูลนี้</span><span class="sxs-lookup"><span data-stu-id="a1543-163">Enter your location, if this information is required.</span></span>
+6.  <span data-ttu-id="a1543-164">คลิก **ตกลง** ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="a1543-164">Click **OK**.</span></span>
 
-### <a name="sign-for-another-users-changes"></a>ลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น
+### <a name="sign-for-another-users-changes"></a><span data-ttu-id="a1543-165">ลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น</span><span class="sxs-lookup"><span data-stu-id="a1543-165">Sign for another user's changes</span></span>
 
-บางครั้งคุณอาจต้องการให้ผู้ใช้ลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น ตัวอย่างเช่น ผู้ควบคุมงานอาจจำเป็นต้องลงชื่อสำหรับการเปลี่ยนแปลงที่พนักงานทำรายการในสูตรการผลิต (BOM) ใช้ขั้นตอนนี้เพื่อแต่งตั้งผู้ใช้ Finance and Operations เป็นผู้ลงชื่อสำหรับผู้ใช้รายอื่น 
+<span data-ttu-id="a1543-166">บางครั้งคุณอาจต้องการให้ผู้ใช้ลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น</span><span class="sxs-lookup"><span data-stu-id="a1543-166">Occasionally, you might want a user to sign for another user's changes.</span></span> <span data-ttu-id="a1543-167">ตัวอย่างเช่น ผู้ควบคุมงานอาจจำเป็นต้องลงชื่อสำหรับการเปลี่ยนแปลงที่พนักงานทำรายการในสูตรการผลิต (BOM)</span><span class="sxs-lookup"><span data-stu-id="a1543-167">For example, a supervisor might be required to sign for changes that an employee makes to a bill of materials (BOM).</span></span> <span data-ttu-id="a1543-168">ใช้ขั้นตอนนี้เพื่อแต่งตั้งผู้ใช้ Finance and Operations เป็นผู้ลงชื่อสำหรับผู้ใช้รายอื่น</span><span class="sxs-lookup"><span data-stu-id="a1543-168">Use this procedure to designate a Finance and Operations user as a signer for another user.</span></span> 
 
-**หมายเหตุ:** เมื่อผู้ใช้รายหนึ่งลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น จะต้องมีลายเซ็นที่เวิร์กสเตชันของผู้ใช้ที่ทำการเปลี่ยนแปลง ผู้ใช้ไม่สามารถบันทึกการเปลี่ยนแปลงได้จนกว่าจะมีลายเซ็น 
+<span data-ttu-id="a1543-169">**หมายเหตุ:** เมื่อผู้ใช้รายหนึ่งลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น จะต้องมีลายเซ็นที่เวิร์กสเตชันของผู้ใช้ที่ทำการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="a1543-169">**Note:** When one user signs for another user's change, the signature must be provided at the workstation of the user who made the change.</span></span> <span data-ttu-id="a1543-170">ผู้ใช้ไม่สามารถบันทึกการเปลี่ยนแปลงได้จนกว่าจะมีลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="a1543-170">The user can't save the change until the signature has been provided.</span></span> 
 
-เมื่อต้องการแต่งตั้งผู้อนุมัติ ให้ทำตามขั้นตอนเหล่านี้
+<span data-ttu-id="a1543-171">เมื่อต้องการแต่งตั้งผู้อนุมัติ ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="a1543-171">To designate approvers, follow these steps.</span></span>
 
-1.  ในหน้า **ตัวเลือก** บนแท็บ **บัญชี** คลิก **แต่งตั้งผู้อนุมัติ**
-2.  ในฟิลด์ **รหัสผู้ใช้ของผู้อนุมัติ** ให้เลือกรหัสของผู้ใช้ที่ต้องลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น
-3.  ในฟิลด์ **ลงชื่อเพื่อขอรหัสผู้ใช้** ให้เลือกรหัสของผู้ใช้ที่เป็นเจ้าของการเปลี่ยนแปลงที่ต้องได้รับการลงชื่อ
+1.  <span data-ttu-id="a1543-172">ในหน้า **ตัวเลือก** บนแท็บ **บัญชี** คลิก **แต่งตั้งผู้อนุมัติ**</span><span class="sxs-lookup"><span data-stu-id="a1543-172">On the **Options** page, on the **Accounts** tab, click **Designate approver**.</span></span>
+2.  <span data-ttu-id="a1543-173">ในฟิลด์ **รหัสผู้ใช้ของผู้อนุมัติ** ให้เลือกรหัสของผู้ใช้ที่ต้องลงชื่อสำหรับการเปลี่ยนแปลงของผู้ใช้รายอื่น</span><span class="sxs-lookup"><span data-stu-id="a1543-173">In the **Approver user ID** field, select the ID of the user who must sign for another user's changes.</span></span>
+3.  <span data-ttu-id="a1543-174">ในฟิลด์ **ลงชื่อเพื่อขอรหัสผู้ใช้** ให้เลือกรหัสของผู้ใช้ที่เป็นเจ้าของการเปลี่ยนแปลงที่ต้องได้รับการลงชื่อ</span><span class="sxs-lookup"><span data-stu-id="a1543-174">In the **Sign for user ID** field, select the ID of the user whose changes must be signed for.</span></span>
 
 
 

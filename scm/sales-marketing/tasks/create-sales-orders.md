@@ -16,56 +16,56 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 62276765e1cc76b2328a7b5b57bd18593d93e4ab
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1308490140542d5159358173cfe59079b9483bb4
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-sales-orders"></a>สร้างใบสั่งขาย
+# <a name="create-sales-orders"></a><span data-ttu-id="08584-103">สร้างใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-103">Create sales orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการสร้างใบสั่งขาย  คุณสามารถใช้กระบวนงานในข้อมูลสาธิตของบริษัท USMF  โดยทั่วไปจะมีสร้างใบสั่งขายโดยตัวประมวลผลใบสั่งขาย 
+<span data-ttu-id="08584-104">กระบวนงานนี้แสดงวิธีการสร้างใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="08584-104">This procedure shows you how to create a sales order.</span></span> <span data-ttu-id="08584-105">คุณสามารถใช้กระบวนงานในข้อมูลสาธิตของบริษัท USMF </span><span class="sxs-lookup"><span data-stu-id="08584-105">You can use the procedure in demo data company USMF.</span></span> <span data-ttu-id="08584-106">โดยทั่วไปจะมีสร้างใบสั่งขายโดยตัวประมวลผลใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-106">Sales orders are typically created by a sales order processor.</span></span> 
 
 
 
 
-## <a name="enter-sales-order-header-details"></a>ป้อนรายละเอียดส่วนหัวของใบสั่งขาย
-1. ไปยัง การขายและการตลาด > ใบสั่งขาย > ใบสั่งขายทั้งหมด
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีลูกค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดลูกค้าที่ต้องการ
-    * สำหรับตัวอย่างนี้ ให้เลือกหมายเลขลูกค้า US-004  
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. คลิก ตกลง
+## <a name="enter-sales-order-header-details"></a><span data-ttu-id="08584-107">ป้อนรายละเอียดส่วนหัวของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-107">Enter sales order header details</span></span>
+1. <span data-ttu-id="08584-108">ไปยัง การขายและการตลาด > ใบสั่งขาย > ใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="08584-108">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="08584-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="08584-109">Click New.</span></span>
+3. <span data-ttu-id="08584-110">ในฟิลด์บัญชีลูกค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="08584-110">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="08584-111">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดลูกค้าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="08584-111">In the list, find and select the customer record.</span></span>
+    * <span data-ttu-id="08584-112">สำหรับตัวอย่างนี้ ให้เลือกหมายเลขลูกค้า US-004</span><span class="sxs-lookup"><span data-stu-id="08584-112">For this example, select customer number US-004.</span></span>  
+5. <span data-ttu-id="08584-113">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="08584-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="08584-114">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="08584-114">Click OK.</span></span>
 
-## <a name="enter-sales-order-line-details"></a>ป้อนรายละเอียดรายการของใบสั่งขาย
-    * ผลิตภัณฑ์ที่ขายโดยองค์กรของคุณอาจมีตัวแปรที่แตกต่างกันตามมิติเช่น โครงแบบ สี ขนาด และลักษณะ  ผลิตภัณฑ์อาจถูกกำหนดค่าเพื่อใช้มิติการจัดเก็บ เช่น ไซต์ คลังสินค้า และแท่นวางสินค้า และมิติ racking เช่น ชุดงานและหมายเลขลำดับประจำสินค้า เมื่อมีกำหนดมิติเหล่านี้ คุณต้องเลือกค่าสำหรับมิติเหล่านั้นบนรายการใบสั่ง เพื่อปรับปรุงประสิทธิภาพการป้อนข้อมูลใบสั่ง คุณอาจต้องการเพิ่มฟิลด์มิติที่เกี่ยวข้องในตารางใบสั่ง  
-1. คลิก รายการใบสั่งขาย
-2. คลิกที่มิติ
-    * ตัวอย่างนี้ ให้เลือกมิติของสี ไซต์ และคลังสินค้า  มิติที่คุณเลือกจะปรากฏในตารางใบสั่งขาย ถ้าคุณต้องการเก็บตัวเลือกของคุณไว้ ให้ตั้งค่าในการบันทึกการตั้งค่าเป็นใช่   
-3. คลิก ตกลง
-4. ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. สำหรับตัวอย่างนี้ ให้เลือกหมายเลข T0004
-6. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-    * ถ้าสินค้าเป็นส่วนหนึ่งของประเภทการขาย ชื่อสินค้าจะปรากฏขึ้นโดยอัตโนมัติในฟิลด์ประเภทการขาย  
-    * ถ้าฟิลด์มิติของผลิตภัณฑ์มีค่าอยู่แล้ว เกิดจากค่าได้ถูกคัดลอกจากเรกคอร์ดผลิตภัณฑ์ที่กำหนดไว้เป็นค่าเริ่มต้นมิติของผลิตภัณฑ์  คุณสามารถเปลี่ยนค่าเริ่มต้นเมื่อใดก็ได้   
-7. ในฟิลด์สี คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-8. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-9. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-10. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-    * ถ้ามีการขายสินค้าในหน่วยที่แตกต่างกว่าเมื่อมีการซื้อ การผลิต และการจัดเก็บ และหน่วยวัดการขายไม่ได้มีการตั้งค่่าไว้บนเรกคอร์ดผลิตภัณฑ์ ค่านี้จะแสดงอยู่ในฟิลด์หน่วย  คุณสามารถเปลี่ยนค่าได้ตลอดเวลา    
-    * ถ้าฟิลด์ไซต์มีค่าอยู่แล้ว ค่าจะถูกคัดลอกจากส่วนหัวของใบสั่งหรือจากการตั้งค่าใบสั่งที่เกี่ยวข้องกับผลิตภัณฑ์  คุณสามารถเปลี่ยนค่าได้ตลอดเวลา  ถ้าฟิลด์นี้ว่างเปล่า ให้เลือกค่า   
-    * ถ้าฟิลด์ราคาต่อหน่วยมีค่าอยู่แล้ว ค่าจะถูกคัดลอกจากข้อตกลงทางการค้าที่ถูกต้องหรือจากเรกคอร์ดผลิตภัณฑ์  (ราคาต่อหน่วยสามารถยังมีต้นกำเนิดมาจากข้อตกลงการขาย แต่ขั้นตอนสำหรับการสร้างใบสั่งขายจากข้อตกลงการขายจะแตกต่างกันกับที่แสดงไว้ที่นี่) ถ้าฟิลด์นี้ว่างเปล่า ให้ป้อนค่า   
-    * ฟิลด์ส่วนลดประกอบด้วยส่วนลดต่อหน่วยผลิตภัณฑ์  ในการคำนวณยอดเงินส่วนลดรายการรวม มูลค่าส่วนลดถูกคูณด้วยปริมาณในรายการ    ถ้าฟิลด์ส่วนลดประกอบด้วยค่าอยู่ ค่าถูกคัดลอกจากข้อตกลงทางการค้าที่ถูกต้อง ถ้าฟิลด์นี้ว่างเปล่า และคุณต้องการให้ส่วนลดรายการแก่ลูกค้า ให้ป้อนค่า  
-    * ฟิลด์ส่วนลดเปอร์เซนต์ประกอบด้วยค่าเปอร์เซนต์ที่มีการลดยอดเงินรวมของรายการทั้งหมด   ถ้าฟิลด์เปอร์เซ็นต์ส่วนลดประกอบด้วยค่าอยู่ จะถูกคัดลอกจากข้อตกลงทางการค้าที่ถูกต้อง ถ้าฟิลด์นี้ว่างเปล่า และคุณต้องการให้ส่วนลดรายการแก่ลูกค้า ให้ป้อนค่า  
-    * ฟิลด์ยอดเงินสุทธิประกอบด้วยมูลค่าที่คำนวณได้ตามปริมาณของรายการและราคาต่อหน่วยที่ได้ถูกเปลี่ยนแปลงตามส่วนลด   คุณสามารถแทนค่าที่คำนวณได้ไปยังค่าอื่น  
+## <a name="enter-sales-order-line-details"></a><span data-ttu-id="08584-115">ป้อนรายละเอียดรายการของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-115">Enter sales order line details</span></span>
+    * <span data-ttu-id="08584-116">ผลิตภัณฑ์ที่ขายโดยองค์กรของคุณอาจมีตัวแปรที่แตกต่างกันตามมิติเช่น โครงแบบ สี ขนาด และลักษณะ </span><span class="sxs-lookup"><span data-stu-id="08584-116">The products sold by your organization may come in variants differentiated by dimensions, such as configuration, color, size, and style.</span></span> <span data-ttu-id="08584-117">ผลิตภัณฑ์อาจถูกกำหนดค่าเพื่อใช้มิติการจัดเก็บ เช่น ไซต์ คลังสินค้า และแท่นวางสินค้า และมิติ racking เช่น ชุดงานและหมายเลขลำดับประจำสินค้า</span><span class="sxs-lookup"><span data-stu-id="08584-117">Also, products may be set up to use storage dimensions, such as site, warehouse, and pallet, and racking dimensions, such as batch and serial numbers.</span></span> <span data-ttu-id="08584-118">เมื่อมีกำหนดมิติเหล่านี้ คุณต้องเลือกค่าสำหรับมิติเหล่านั้นบนรายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="08584-118">When these dimensions are assigned, you must select the values for those dimensions on the order line.</span></span> <span data-ttu-id="08584-119">เพื่อปรับปรุงประสิทธิภาพการป้อนข้อมูลใบสั่ง คุณอาจต้องการเพิ่มฟิลด์มิติที่เกี่ยวข้องในตารางใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="08584-119">To improve order entry efficiency, you may want to add the respective dimension fields to the order grid.</span></span>  
+1. <span data-ttu-id="08584-120">คลิก รายการใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-120">Click Sales order line.</span></span>
+2. <span data-ttu-id="08584-121">คลิกที่มิติ</span><span class="sxs-lookup"><span data-stu-id="08584-121">Click Dimensions.</span></span>
+    * <span data-ttu-id="08584-122">ตัวอย่างนี้ ให้เลือกมิติของสี ไซต์ และคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="08584-122">For this example, select the Color, Site and Warehouse dimensions.</span></span> <span data-ttu-id="08584-123">มิติที่คุณเลือกจะปรากฏในตารางใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-123">The dimensions you select here will appear in the sales order grid.</span></span> <span data-ttu-id="08584-124">ถ้าคุณต้องการเก็บตัวเลือกของคุณไว้ ให้ตั้งค่าในการบันทึกการตั้งค่าเป็นใช่</span><span class="sxs-lookup"><span data-stu-id="08584-124">If you want your selections to persist, set the Save setup option to Yes.</span></span>   
+3. <span data-ttu-id="08584-125">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="08584-125">Click OK.</span></span>
+4. <span data-ttu-id="08584-126">ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="08584-126">In the Item number field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="08584-127">สำหรับตัวอย่างนี้ ให้เลือกหมายเลข T0004</span><span class="sxs-lookup"><span data-stu-id="08584-127">For this example, select item number T0004.</span></span>
+6. <span data-ttu-id="08584-128">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="08584-128">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="08584-129">ถ้าสินค้าเป็นส่วนหนึ่งของประเภทการขาย ชื่อสินค้าจะปรากฏขึ้นโดยอัตโนมัติในฟิลด์ประเภทการขาย</span><span class="sxs-lookup"><span data-stu-id="08584-129">If the item is part of a sales category, the item name will automatically appear in the Sales category field.</span></span>  
+    * <span data-ttu-id="08584-130">ถ้าฟิลด์มิติของผลิตภัณฑ์มีค่าอยู่แล้ว เกิดจากค่าได้ถูกคัดลอกจากเรกคอร์ดผลิตภัณฑ์ที่กำหนดไว้เป็นค่าเริ่มต้นมิติของผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="08584-130">If product dimension fields already contain a value, this is because the value was copied from the product record where it is defined as a default product dimension.</span></span> <span data-ttu-id="08584-131">คุณสามารถเปลี่ยนค่าเริ่มต้นเมื่อใดก็ได้</span><span class="sxs-lookup"><span data-stu-id="08584-131">You can change the default value at any time.</span></span>   
+7. <span data-ttu-id="08584-132">ในฟิลด์สี คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="08584-132">In the Color field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="08584-133">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="08584-133">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="08584-134">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="08584-134">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="08584-135">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="08584-135">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="08584-136">ถ้ามีการขายสินค้าในหน่วยที่แตกต่างกว่าเมื่อมีการซื้อ การผลิต และการจัดเก็บ และหน่วยวัดการขายไม่ได้มีการตั้งค่่าไว้บนเรกคอร์ดผลิตภัณฑ์ ค่านี้จะแสดงอยู่ในฟิลด์หน่วย </span><span class="sxs-lookup"><span data-stu-id="08584-136">If the item is sold in different units than when it’s purchased, produced, and stored, and a sales unit of measure is set on the product record, this value will be shown in the Unit field.</span></span> <span data-ttu-id="08584-137">คุณสามารถเปลี่ยนค่าได้ตลอดเวลา </span><span class="sxs-lookup"><span data-stu-id="08584-137">You can change the value at any time.</span></span>   
+    * <span data-ttu-id="08584-138">ถ้าฟิลด์ไซต์มีค่าอยู่แล้ว ค่าจะถูกคัดลอกจากส่วนหัวของใบสั่งหรือจากการตั้งค่าใบสั่งที่เกี่ยวข้องกับผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="08584-138">If the Site field already contains a value, the value was copied from the order header or from the order settings that are associated with the product.</span></span> <span data-ttu-id="08584-139">คุณสามารถเปลี่ยนค่าได้ตลอดเวลา </span><span class="sxs-lookup"><span data-stu-id="08584-139">You can change the value at any time.</span></span> <span data-ttu-id="08584-140">ถ้าฟิลด์นี้ว่างเปล่า ให้เลือกค่า</span><span class="sxs-lookup"><span data-stu-id="08584-140">If the field is empty, select a value.</span></span>   
+    * <span data-ttu-id="08584-141">ถ้าฟิลด์ราคาต่อหน่วยมีค่าอยู่แล้ว ค่าจะถูกคัดลอกจากข้อตกลงทางการค้าที่ถูกต้องหรือจากเรกคอร์ดผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="08584-141">If the Unit price field already contains a value, the value was copied from a valid trade agreement, or from the product record.</span></span> <span data-ttu-id="08584-142">(ราคาต่อหน่วยสามารถยังมีต้นกำเนิดมาจากข้อตกลงการขาย แต่ขั้นตอนสำหรับการสร้างใบสั่งขายจากข้อตกลงการขายจะแตกต่างกันกับที่แสดงไว้ที่นี่) ถ้าฟิลด์นี้ว่างเปล่า ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="08584-142">(The unit price can also originate from a sales agreement, but the process for creating sales orders from sales agreements is different to the one shown here.) If the field is empty, enter a value.</span></span>   
+    * <span data-ttu-id="08584-143">ฟิลด์ส่วนลดประกอบด้วยส่วนลดต่อหน่วยผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="08584-143">The Discount field contains a discount amount per product unit.</span></span> <span data-ttu-id="08584-144">ในการคำนวณยอดเงินส่วนลดรายการรวม มูลค่าส่วนลดถูกคูณด้วยปริมาณในรายการ</span><span class="sxs-lookup"><span data-stu-id="08584-144">To calculate the total line discount amount, the discount value is multiplied by line quantity.</span></span>    <span data-ttu-id="08584-145">ถ้าฟิลด์ส่วนลดประกอบด้วยค่าอยู่ ค่าถูกคัดลอกจากข้อตกลงทางการค้าที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="08584-145">If the Discount field already contains a value, the value was copied from a valid trade agreement.</span></span> <span data-ttu-id="08584-146">ถ้าฟิลด์นี้ว่างเปล่า และคุณต้องการให้ส่วนลดรายการแก่ลูกค้า ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="08584-146">If the field is empty, and you want to give the customer a line discount, enter a value.</span></span>  
+    * <span data-ttu-id="08584-147">ฟิลด์ส่วนลดเปอร์เซนต์ประกอบด้วยค่าเปอร์เซนต์ที่มีการลดยอดเงินรวมของรายการทั้งหมด </span><span class="sxs-lookup"><span data-stu-id="08584-147">The Discount percent field contains a percentage value by which the total line gross amount is to be reduced.</span></span>  <span data-ttu-id="08584-148">ถ้าฟิลด์เปอร์เซ็นต์ส่วนลดประกอบด้วยค่าอยู่ จะถูกคัดลอกจากข้อตกลงทางการค้าที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="08584-148">If the Discount percent field already contains a value, it was copied from a valid trade agreement.</span></span> <span data-ttu-id="08584-149">ถ้าฟิลด์นี้ว่างเปล่า และคุณต้องการให้ส่วนลดรายการแก่ลูกค้า ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="08584-149">If the field is empty, and you want to give the customer a line discount, enter a value.</span></span>  
+    * <span data-ttu-id="08584-150">ฟิลด์ยอดเงินสุทธิประกอบด้วยมูลค่าที่คำนวณได้ตามปริมาณของรายการและราคาต่อหน่วยที่ได้ถูกเปลี่ยนแปลงตามส่วนลด </span><span class="sxs-lookup"><span data-stu-id="08584-150">The Net amount field contains a value that is calculated based on the line's quantity and unit price adjusted by discounts.</span></span>  <span data-ttu-id="08584-151">คุณสามารถแทนค่าที่คำนวณได้ไปยังค่าอื่น</span><span class="sxs-lookup"><span data-stu-id="08584-151">You can override the calculated value to a different one.</span></span>  
 
-## <a name="review-the-order-totals"></a>ตรวจทานผลรวมในใบสั่งขาย
-1. ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งขาย
-2. คลิก ผลรวม
-    * หน้าผลรวมจะแสดงรายละเอียดเกี่ยวกับใบสั่งทั้งหมด  ซึ่งรวมถึงยอดผลรวมย่อยซึ่งก็คือผลรวมของยอดเงินสุทธิทุกรายการที่ได้ปรับปรุงสำหรับส่วนลดในรายการสุดท้าย ยอดใบแจ้งหนี้รวมซึ่งเป็นยอดผลรวมย่อยที่ได้ปรับปรุงสำหรับส่วนลดต่อระดับใบสั่งสุดท้าย ค่าธรรมเนียม และภาษีขาย สถานการณ์วงเงินสินเชื่อจำกัดของลูกค้า และอื่นๆ   ยอดเงินใบแจ้งหนี้คือจำนวนเงินที่จะปรากฏในเอกสารใบแจ้งหนี้ของลูกค้า  
-3. คลิก ตกลง
+## <a name="review-the-order-totals"></a><span data-ttu-id="08584-152">ตรวจทานผลรวมในใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-152">Review the order totals</span></span>
+1. <span data-ttu-id="08584-153">ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="08584-153">On the Action Pane, click Sales order.</span></span>
+2. <span data-ttu-id="08584-154">คลิก ผลรวม</span><span class="sxs-lookup"><span data-stu-id="08584-154">Click Totals.</span></span>
+    * <span data-ttu-id="08584-155">หน้าผลรวมจะแสดงรายละเอียดเกี่ยวกับใบสั่งทั้งหมด </span><span class="sxs-lookup"><span data-stu-id="08584-155">The Totals page displays details about the entire order.</span></span> <span data-ttu-id="08584-156">ซึ่งรวมถึงยอดผลรวมย่อยซึ่งก็คือผลรวมของยอดเงินสุทธิทุกรายการที่ได้ปรับปรุงสำหรับส่วนลดในรายการสุดท้าย ยอดใบแจ้งหนี้รวมซึ่งเป็นยอดผลรวมย่อยที่ได้ปรับปรุงสำหรับส่วนลดต่อระดับใบสั่งสุดท้าย ค่าธรรมเนียม และภาษีขาย สถานการณ์วงเงินสินเชื่อจำกัดของลูกค้า และอื่นๆ </span><span class="sxs-lookup"><span data-stu-id="08584-156">This includes the subtotal amount, which is a sum of all line net amounts adjusted for eventual line discounts, the total invoice amount, which is a subtotal amount adjusted for eventual order-level discount, charges, and sales tax, the customer credit limit situation, and more.</span></span>  <span data-ttu-id="08584-157">ยอดเงินใบแจ้งหนี้คือจำนวนเงินที่จะปรากฏในเอกสารใบแจ้งหนี้ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="08584-157">The invoice amount is the amount that will appear on the customer's invoice document.</span></span>  
+3. <span data-ttu-id="08584-158">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="08584-158">Click OK.</span></span>
 
 

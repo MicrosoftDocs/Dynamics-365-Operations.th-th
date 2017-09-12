@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="69317-104">ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="69317-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก ซึ่งจะอธิบายวิธีการต่าง ๆ ที่สามารถเชื่อมต่ออุปกรณ์ต่อพ่วงกับการขายหน้าร้าน (POS) และส่วนประกอบต่าง ๆ ที่มีหน้าที่ในการจัดการการเชื่อมต่อกับ POS
+<span data-ttu-id="69317-105">หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="69317-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="69317-106">ซึ่งจะอธิบายวิธีการต่าง ๆ ที่สามารถเชื่อมต่ออุปกรณ์ต่อพ่วงกับการขายหน้าร้าน (POS) และส่วนประกอบต่าง ๆ ที่มีหน้าที่ในการจัดการการเชื่อมต่อกับ POS</span><span class="sxs-lookup"><span data-stu-id="69317-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>แนวคิด
+## <a name="concepts"></a><span data-ttu-id="69317-107">แนวคิด</span><span class="sxs-lookup"><span data-stu-id="69317-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>เครื่องบันทึกเงินสด POS
+### <a name="pos-registers"></a><span data-ttu-id="69317-108">เครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="69317-108">POS registers</span></span>
 
-การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน** เครื่องบันทึกเงินสดแบบขายหน้าร้าน POS คือเอนทิตีที่ใช้ในการกำหนดลักษณะของอินสแตนซ์ที่ระบุของ POS ลักษณะเหล่านี้รวมถึงโพรไฟล์ฮาร์ดแวร์หรือการตั้งค่าสำหรับอุปกรณ์ต่อพ่วงขายปลีกที่จะใช้ที่เครื่องบันทึกเงินสด ร้านค้าที่แม็ปไว้กับที่เครื่องบันทึกเงินสด และประสบการณ์ทางภาพสำหรับผู้ใช้ที่ลงชื่อเข้าสู่เครื่องบันทึกเงินสดนั้น
+<span data-ttu-id="69317-109">การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="69317-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="69317-110">เครื่องบันทึกเงินสดแบบขายหน้าร้าน POS คือเอนทิตีที่ใช้ในการกำหนดลักษณะของอินสแตนซ์ที่ระบุของ POS</span><span class="sxs-lookup"><span data-stu-id="69317-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="69317-111">ลักษณะเหล่านี้รวมถึงโพรไฟล์ฮาร์ดแวร์หรือการตั้งค่าสำหรับอุปกรณ์ต่อพ่วงขายปลีกที่จะใช้ที่เครื่องบันทึกเงินสด ร้านค้าที่แม็ปไว้กับที่เครื่องบันทึกเงินสด และประสบการณ์ทางภาพสำหรับผู้ใช้ที่ลงชื่อเข้าสู่เครื่องบันทึกเงินสดนั้น</span><span class="sxs-lookup"><span data-stu-id="69317-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>อุปกรณ์
+### <a name="devices"></a><span data-ttu-id="69317-112">อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-112">Devices</span></span>
 
-การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **อุปกรณ์** อุปกรณ์คือเอนทิตีที่แสดงถึงอินสแตนซ์ที่มีอยู่จริงของอุปกรณ์ที่ถูกแม็ปไปยังเครื่องบันทึกเงินสด POS เมื่อมีการสร้างอุปกรณ์ อุปกรณ์นั้นจะถูกแม็ปไปยังเครื่องบันทึกเงินสด POS เอนทิตีอุปกรณ์จะติดตามข้อมูลเกี่ยวกับเวลาที่เครื่องบันทึกเงินสด POS ถูกเรียกใช้ ชนิดของไคลเอนต์ที่ถูกใช้ และแพคเกจของแอพลิเคชันที่มีการปรับใช้กับอุปกรณ์เฉพาะ คุณสามารถแม็ปอุปกรณ์ไปยังชนิดของแอพลิเคชันต่อไปนี้: Modern POS ของการขายปลีก, Retail Cloud POS, Modern POS ของการขายปลีก – Windows Phone, Modern POS ของการขายปลีก – Android และ Modern POS ของการขายปลีก – iOS
+<span data-ttu-id="69317-113">การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **อุปกรณ์**</span><span class="sxs-lookup"><span data-stu-id="69317-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="69317-114">อุปกรณ์คือเอนทิตีที่แสดงถึงอินสแตนซ์ที่มีอยู่จริงของอุปกรณ์ที่ถูกแม็ปไปยังเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="69317-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="69317-115">เมื่อมีการสร้างอุปกรณ์ อุปกรณ์นั้นจะถูกแม็ปไปยังเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="69317-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="69317-116">เอนทิตีอุปกรณ์จะติดตามข้อมูลเกี่ยวกับเวลาที่เครื่องบันทึกเงินสด POS ถูกเรียกใช้ ชนิดของไคลเอนต์ที่ถูกใช้ และแพคเกจของแอพลิเคชันที่มีการปรับใช้กับอุปกรณ์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="69317-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="69317-117">คุณสามารถแม็ปอุปกรณ์ไปยังชนิดของแอพลิเคชันต่อไปนี้: Modern POS ของการขายปลีก, Retail Cloud POS, Modern POS ของการขายปลีก – Windows Phone, Modern POS ของการขายปลีก – Android และ Modern POS ของการขายปลีก – iOS</span><span class="sxs-lookup"><span data-stu-id="69317-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Modern POS ของการขายปลีก
+### <a name="retail-modern-pos"></a><span data-ttu-id="69317-118">Modern POS ของการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="69317-118">Retail Modern POS</span></span>
 
-Modern POS คือ โปรแกรม POS สำหรับ Microsoft Windows สามารถปรับใช้ได้บนระบบปฏิบัติการ Windows 10 (OS)
+<span data-ttu-id="69317-119">Modern POS คือ โปรแกรม POS สำหรับ Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="69317-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="69317-120">สามารถปรับใช้ได้บนระบบปฏิบัติการ Windows 10 (OS)</span><span class="sxs-lookup"><span data-stu-id="69317-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a><span data-ttu-id="69317-121">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="69317-121">Cloud POS</span></span>
 
-Cloud POS คือโปรแกรม Modern POS รุ่นที่ใช้เบราว์เซอร์ที่สามารถเข้าถึงได้ในเว็บเบราว์เซอร์
+<span data-ttu-id="69317-122">Cloud POS คือโปรแกรม Modern POS รุ่นที่ใช้เบราว์เซอร์ที่สามารถเข้าถึงได้ในเว็บเบราว์เซอร์</span><span class="sxs-lookup"><span data-stu-id="69317-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>Modern POS สำหรับ iOS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="69317-123">Modern POS สำหรับ iOS</span><span class="sxs-lookup"><span data-stu-id="69317-123">Modern POS for iOS</span></span>
 
-Modern POS สำหรับ iOS คือโปรแกรม Modern POS รุ่นที่ใช้ iOS ที่สามารถปรับใช้บนอุปกรณ์ iOS
+<span data-ttu-id="69317-124">Modern POS สำหรับ iOS คือโปรแกรม Modern POS รุ่นที่ใช้ iOS ที่สามารถปรับใช้บนอุปกรณ์ iOS</span><span class="sxs-lookup"><span data-stu-id="69317-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Modern POS สำหรับ Android
+### <a name="modern-pos-for-android"></a><span data-ttu-id="69317-125">Modern POS สำหรับ Android</span><span class="sxs-lookup"><span data-stu-id="69317-125">Modern POS for Android</span></span>
 
-Modern POS สำหรับ Android คือโปรแกรม Modern POS รุ่นที่ใช้ Android ที่สามารถปรับใช้บนอุปกรณ์ Android
+<span data-ttu-id="69317-126">Modern POS สำหรับ Android คือโปรแกรม Modern POS รุ่นที่ใช้ Android ที่สามารถปรับใช้บนอุปกรณ์ Android</span><span class="sxs-lookup"><span data-stu-id="69317-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>อุปกรณ์ต่อพ่วง POS
+### <a name="pos-peripherals"></a><span data-ttu-id="69317-127">อุปกรณ์ต่อพ่วง POS</span><span class="sxs-lookup"><span data-stu-id="69317-127">POS peripherals</span></span>
 
-อุปกรณ์ต่อพ่วง POS คืออุปกรณ์ที่ได้รับการสนับสนุนอย่างชัดเจนสำหรับฟังก์ชัน POS โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วงเหล่านี้ออกเป็นคลาสเฉพาะต่าง ๆ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคลาสเหล่านี้ ดูส่วน "คลาสของอุปกรณ์" ของหัวข้อนี้
+<span data-ttu-id="69317-128">อุปกรณ์ต่อพ่วง POS คืออุปกรณ์ที่ได้รับการสนับสนุนอย่างชัดเจนสำหรับฟังก์ชัน POS</span><span class="sxs-lookup"><span data-stu-id="69317-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="69317-129">โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วงเหล่านี้ออกเป็นคลาสเฉพาะต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="69317-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="69317-130">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคลาสเหล่านี้ ดูส่วน "คลาสของอุปกรณ์" ของหัวข้อนี้</span><span class="sxs-lookup"><span data-stu-id="69317-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>สถานีฮาร์ดแวร์
+### <a name="hardware-station"></a><span data-ttu-id="69317-131">สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-131">Hardware station</span></span>
 
-การนำทาง: คลิก **การขายปลีก** &gt; **ช่องทาง** &gt; **ร้านค้าปลีก** &gt; **ร้านค้าปลีกทั้งหมด** เลือกร้านค้า และคลิก FastTab **สถานีฮาร์ดแวร์** การตั้งค่า **สถานีฮาร์ดแวร์** เป็นการตั้งค่าระดับช่องทางที่จะใช้ในการกำหนดอินสแตนซ์ที่จะปรับใช้ตรรกะการต่อพ่วงขายปลีก การตั้งค่าในระดับช่องทางนี้จะใช้เพื่อระบุลักษณะของสถานีฮาร์ดแวร์ดังกล่าว นอกจากนี้ยังใช้ในการแสดงรายการของสถานีฮาร์ดแวร์ที่พร้อมใช้งานสำหรับอินสแตนซ์ Modern POS ในร้านค้าที่กำหนดอีกด้วย สถานีฮาร์ดแวร์ถูกสร้างขึ้นในโปรแกรม Modern POS สำหรับ Windows สามารถปรับใช้สถานีฮาร์ดแวร์โดยไม่ขึ้นอยู่กับโปรแกรม Microsoft Internet Information Services (IIS) แบบสแตนด์อโลนได้ ในกรณีนี้ จะสามารถเข้าถึงผ่านเครือข่าย
+<span data-ttu-id="69317-132">การนำทาง: คลิก **การขายปลีก** &gt; **ช่องทาง** &gt; **ร้านค้าปลีก** &gt; **ร้านค้าปลีกทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="69317-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="69317-133">เลือกร้านค้า และคลิก FastTab **สถานีฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="69317-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="69317-134">การตั้งค่า **สถานีฮาร์ดแวร์** เป็นการตั้งค่าระดับช่องทางที่จะใช้ในการกำหนดอินสแตนซ์ที่จะปรับใช้ตรรกะการต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="69317-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="69317-135">การตั้งค่าในระดับช่องทางนี้จะใช้เพื่อระบุลักษณะของสถานีฮาร์ดแวร์ดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="69317-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="69317-136">นอกจากนี้ยังใช้ในการแสดงรายการของสถานีฮาร์ดแวร์ที่พร้อมใช้งานสำหรับอินสแตนซ์ Modern POS ในร้านค้าที่กำหนดอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="69317-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="69317-137">สถานีฮาร์ดแวร์ถูกสร้างขึ้นในโปรแกรม Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="69317-138">สามารถปรับใช้สถานีฮาร์ดแวร์โดยไม่ขึ้นอยู่กับโปรแกรม Microsoft Internet Information Services (IIS) แบบสแตนด์อโลนได้</span><span class="sxs-lookup"><span data-stu-id="69317-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="69317-139">ในกรณีนี้ จะสามารถเข้าถึงผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>โพรไฟล์ฮาร์ดแวร์
+### <a name="hardware-profile"></a><span data-ttu-id="69317-140">โพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-140">Hardware profile</span></span>
 
-การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์** โพรไฟล์ฮาร์ดแวร์คือรายการของอุปกรณ์ที่มีการตั้งค่าคอนฟิกสำหรับเครื่องบันทึกเงินสด POS หรือสถานีฮาร์ดแวร์ คุณสามารถแม็ปโพรไฟล์ฮาร์ดแวร์โดยตรงไปยังเครื่องบันทึกเงินสด POS หรือไปยังสถานีฮาร์ดแวร์
+<span data-ttu-id="69317-141">การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="69317-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="69317-142">โพรไฟล์ฮาร์ดแวร์คือรายการของอุปกรณ์ที่มีการตั้งค่าคอนฟิกสำหรับเครื่องบันทึกเงินสด POS หรือสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="69317-143">คุณสามารถแม็ปโพรไฟล์ฮาร์ดแวร์โดยตรงไปยังเครื่องบันทึกเงินสด POS หรือไปยังสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>คลาสของอุปกรณ์
-โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วง POS ออกเป็นคลาสต่าง ๆ ส่วนนี้อธิบายและให้ภาพรวมของอุปกรณ์ที่ Modern POS สนับสนุน
+## <a name="devices-classes"></a><span data-ttu-id="69317-144">คลาสของอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-144">Devices classes</span></span>
+<span data-ttu-id="69317-145">โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วง POS ออกเป็นคลาสต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="69317-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="69317-146">ส่วนนี้อธิบายและให้ภาพรวมของอุปกรณ์ที่ Modern POS สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>เครื่องพิมพ์
+### <a name="printer"></a><span data-ttu-id="69317-147">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-147">Printer</span></span>
 
-เครื่องพิมพ์รวมถึงเครื่องพิมพ์ใบเสร็จ POS ดั้งเดิมและเครื่องพิมพ์แบบเต็มหน้า เครื่องพิมพ์ได้รับการสนับสนุนผ่าน Object Linking และ Embedding for Retail POS (OPOS) และอินเทอร์เฟซการโปรแกรมควบคุม Microsoft Windows สามารถใช้เครื่องพิมพ์ได้สูงสุดสองเครื่องในเวลาเดียวกัน ความสามารถนี้สนับสนุนสถานการณ์จำลองที่มีการพิมพ์ใบเสร็จของลูกค้าแบบรับเงินสดและรับของกลับบนเครื่องพิมพ์ใบเสร็จ ในขณะที่ใบสั่งของลูกค้าซึ่งมีข้อมูลเพิ่มเติมถูกพิมพ์บนเครื่องพิมพ์แบบเต็มหน้า สามารถเชื่อมต่อเครื่องพิมพ์ใบเสร็จโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่ายผ่านอีเทอร์เน็ต หรือเชื่อมต่อผ่านบลูทูธ
+<span data-ttu-id="69317-148">เครื่องพิมพ์รวมถึงเครื่องพิมพ์ใบเสร็จ POS ดั้งเดิมและเครื่องพิมพ์แบบเต็มหน้า</span><span class="sxs-lookup"><span data-stu-id="69317-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="69317-149">เครื่องพิมพ์ได้รับการสนับสนุนผ่าน Object Linking และ Embedding for Retail POS (OPOS) และอินเทอร์เฟซการโปรแกรมควบคุม Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="69317-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="69317-150">สามารถใช้เครื่องพิมพ์ได้สูงสุดสองเครื่องในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="69317-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="69317-151">ความสามารถนี้สนับสนุนสถานการณ์จำลองที่มีการพิมพ์ใบเสร็จของลูกค้าแบบรับเงินสดและรับของกลับบนเครื่องพิมพ์ใบเสร็จ ในขณะที่ใบสั่งของลูกค้าซึ่งมีข้อมูลเพิ่มเติมถูกพิมพ์บนเครื่องพิมพ์แบบเต็มหน้า</span><span class="sxs-lookup"><span data-stu-id="69317-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="69317-152">สามารถเชื่อมต่อเครื่องพิมพ์ใบเสร็จโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่ายผ่านอีเทอร์เน็ต หรือเชื่อมต่อผ่านบลูทูธ</span><span class="sxs-lookup"><span data-stu-id="69317-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>สแกนเนอร์
+### <a name="scanner"></a><span data-ttu-id="69317-153">สแกนเนอร์</span><span class="sxs-lookup"><span data-stu-id="69317-153">Scanner</span></span>
 
-สามารถใช้สแกนเนอร์บาร์โค้ดได้สูงสุดสองเครื่องในเวลาเดียวกัน ความสามารถนี้สนับสนุนสถานการณ์จำลองที่จำเป็นต้องใช้สแกนเนอร์ที่สามารถเคลื่อนที่ได้มากขึ้นเพื่อสแกนสินค้าจำนวนมาก หรือที่มีขนาดใหญ่ ในขณะที่สแกนเนอร์แบบฝังตัวคงที่จะใช้สำหรับสินค้าที่มีขนาดมาตรฐานส่วนใหญ่เพื่อเร่งความเร็วของเวลาเช็คเอาท์ สแกนเนอร์สามารถได้รับการสนับสนุนผ่าน OPOS แพลตฟอร์ม Universal Windows (UWP) หรืออินเทอร์เฟซของเครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ สามารถใช้ USB หรือบลูทูธเพื่อเชื่อมต่อสแกนเนอร์กับคอมพิวเตอร์
+<span data-ttu-id="69317-154">สามารถใช้สแกนเนอร์บาร์โค้ดได้สูงสุดสองเครื่องในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="69317-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="69317-155">ความสามารถนี้สนับสนุนสถานการณ์จำลองที่จำเป็นต้องใช้สแกนเนอร์ที่สามารถเคลื่อนที่ได้มากขึ้นเพื่อสแกนสินค้าจำนวนมาก หรือที่มีขนาดใหญ่ ในขณะที่สแกนเนอร์แบบฝังตัวคงที่จะใช้สำหรับสินค้าที่มีขนาดมาตรฐานส่วนใหญ่เพื่อเร่งความเร็วของเวลาเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="69317-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="69317-156">สแกนเนอร์สามารถได้รับการสนับสนุนผ่าน OPOS แพลตฟอร์ม Universal Windows (UWP) หรืออินเทอร์เฟซของเครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="69317-157">สามารถใช้ USB หรือบลูทูธเพื่อเชื่อมต่อสแกนเนอร์กับคอมพิวเตอร์</span><span class="sxs-lookup"><span data-stu-id="69317-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>MSR
+### <a name="msr"></a><span data-ttu-id="69317-158">MSR</span><span class="sxs-lookup"><span data-stu-id="69317-158">MSR</span></span>
 
-สามารถตั้งค่าเครื่องอ่านแถบแม่เหล็ก (MSR) USB ได้โดยใช้โปรแกรมควบคุม OPOS ถ้าคุณต้องการใช้ MSR แบบสแตนด์อโลนสำหรับธุรกรรมการชำระเงินการโอนเงินทางอิเล็กทรอนิกส์ (EFT) จะต้องจัดการ MSR โดยตัวเชื่อมต่อการชำระเงิน สามารถใช้ MSR แบบสแตนด์อโลนสำหรับการป้อนข้อมูลลูกค้าสมาชิก การเข้าระบบของพนักงาน และการป้อนข้อมูลบัตรของขวัญ โดยไม่ขึ้นอยู่กับตัวเชื่อมต่อการชำระเงิน
+<span data-ttu-id="69317-159">สามารถตั้งค่าเครื่องอ่านแถบแม่เหล็ก (MSR) USB ได้โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="69317-160">ถ้าคุณต้องการใช้ MSR แบบสแตนด์อโลนสำหรับธุรกรรมการชำระเงินการโอนเงินทางอิเล็กทรอนิกส์ (EFT) จะต้องจัดการ MSR โดยตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="69317-161">สามารถใช้ MSR แบบสแตนด์อโลนสำหรับการป้อนข้อมูลลูกค้าสมาชิก การเข้าระบบของพนักงาน และการป้อนข้อมูลบัตรของขวัญ โดยไม่ขึ้นอยู่กับตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>ลิ้นชักเงินสด
+### <a name="cash-drawer"></a><span data-ttu-id="69317-162">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-162">Cash drawer</span></span>
 
-ลิ้นชักเงินสดสองรายการสามารถได้รับการสนับสนุนสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์ ความสามารถนี้ช่วยให้สามารถมีกะที่ใช้งานอยู่สองรายการสำหรับแต่ละเครื่องบันทึกเงินสดที่พร้อมใช้งานในเวลาเดียวกัน ในกรณีของกะที่ใช้ร่วมกันหรือลิ้นชักเงินสดที่ถูกใช้โดยอุปกรณ์ POS แบบเคลื่อนที่หลายเครื่องในเวลาเดียวกัน ระบบจะอนุญาตให้ใช้เพียงลิ้นชักเงินสดเดียวสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์ สามารถเชื่อมต่อลิ้นชักเงินสดโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่าย หรือเชื่อมต่อกับเครื่องพิมพ์ใบเสร็จผ่านอินเทอร์เฟส RJ12 ในบางกรณี ลิ้นชักเงินสดยังสามารถเชื่อมต่อผ่านบลูทูธได้อีกด้วย
+<span data-ttu-id="69317-163">ลิ้นชักเงินสดสองรายการสามารถได้รับการสนับสนุนสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="69317-164">ความสามารถนี้ช่วยให้สามารถมีกะที่ใช้งานอยู่สองรายการสำหรับแต่ละเครื่องบันทึกเงินสดที่พร้อมใช้งานในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="69317-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="69317-165">ในกรณีของกะที่ใช้ร่วมกันหรือลิ้นชักเงินสดที่ถูกใช้โดยอุปกรณ์ POS แบบเคลื่อนที่หลายเครื่องในเวลาเดียวกัน ระบบจะอนุญาตให้ใช้เพียงลิ้นชักเงินสดเดียวสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="69317-166">สามารถเชื่อมต่อลิ้นชักเงินสดโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่าย หรือเชื่อมต่อกับเครื่องพิมพ์ใบเสร็จผ่านอินเทอร์เฟส RJ12</span><span class="sxs-lookup"><span data-stu-id="69317-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="69317-167">ในบางกรณี ลิ้นชักเงินสดยังสามารถเชื่อมต่อผ่านบลูทูธได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="69317-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>จอแสดงผลรายการ
+### <a name="line-display"></a><span data-ttu-id="69317-168">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-168">Line display</span></span>
 
-จอแสดงผลรายการจะใช้เพื่อแสดงผลิตภัณฑ์ ยอดดุลของธุรกรรม และข้อมูลอื่น ๆ ที่เป็นประโยชน์ให้กับลูกค้าในระหว่างธุรกรรม สามารถเชื่อมต่อจอแสดงผลรายการหนึ่งไปยังคอมพิวเตอร์ได้โดยใช้ USB โดยใช้โปรแกรมควบคุม OPOS
+<span data-ttu-id="69317-169">จอแสดงผลรายการจะใช้เพื่อแสดงผลิตภัณฑ์ ยอดดุลของธุรกรรม และข้อมูลอื่น ๆ ที่เป็นประโยชน์ให้กับลูกค้าในระหว่างธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="69317-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="69317-170">สามารถเชื่อมต่อจอแสดงผลรายการหนึ่งไปยังคอมพิวเตอร์ได้โดยใช้ USB โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>การเก็บบันทึกลายเซ็น
+### <a name="signature-capture"></a><span data-ttu-id="69317-171">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="69317-171">Signature capture</span></span>
 
-สามารถเชื่อมต่ออุปกรณ์เก็บบันทึกลายเซ็นกับคอมพิวเตอร์ได้โดยตรงผ่าน USB โดยใช้โปรแกรมควบคุม OPOS เมื่อมีการตั้งค่าคอนฟิกการเก็บบันทึกลายเซ็น ระบบจะพร้อมท์ให้ลูกค้าลงชื่อเข้าสู่อุปกรณ์ หลังจากที่ให้ลายเซ็นแล้ว ลายเซ็นนั้นจะถูกแสดงขึ้นให้กับพนักงานเก็บเงินเพื่อยอมรับ
+<span data-ttu-id="69317-172">สามารถเชื่อมต่ออุปกรณ์เก็บบันทึกลายเซ็นกับคอมพิวเตอร์ได้โดยตรงผ่าน USB โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="69317-173">เมื่อมีการตั้งค่าคอนฟิกการเก็บบันทึกลายเซ็น ระบบจะพร้อมท์ให้ลูกค้าลงชื่อเข้าสู่อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="69317-174">หลังจากที่ให้ลายเซ็นแล้ว ลายเซ็นนั้นจะถูกแสดงขึ้นให้กับพนักงานเก็บเงินเพื่อยอมรับ</span><span class="sxs-lookup"><span data-stu-id="69317-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>สเกล
+### <a name="scale"></a><span data-ttu-id="69317-175">สเกล</span><span class="sxs-lookup"><span data-stu-id="69317-175">Scale</span></span>
 
-สามารถเชื่อมต่อสเกลไปยังคอมพิวเตอร์ผ่าน USP โดยใช้โปรแกรมควบคุม OPOS เมื่อมีการเพิ่มผลิตภัณฑ์ที่ถูกทำเครื่องหมายเป็นผลิตภัณฑ์ "ที่ชั่งน้ำหนัก" ลงในธุรกรรม POS จะอ่านน้ำหนักจากสเกล เพิ่มผลิตภัณฑ์ลงในธุรกรรม และใช้ปริมาณที่สเกลระบุ
+<span data-ttu-id="69317-176">สามารถเชื่อมต่อสเกลไปยังคอมพิวเตอร์ผ่าน USP โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="69317-177">เมื่อมีการเพิ่มผลิตภัณฑ์ที่ถูกทำเครื่องหมายเป็นผลิตภัณฑ์ "ที่ชั่งน้ำหนัก" ลงในธุรกรรม POS จะอ่านน้ำหนักจากสเกล เพิ่มผลิตภัณฑ์ลงในธุรกรรม และใช้ปริมาณที่สเกลระบุ</span><span class="sxs-lookup"><span data-stu-id="69317-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>แป้นกดรหัส
+### <a name="pin-pad"></a><span data-ttu-id="69317-178">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="69317-178">PIN pad</span></span>
 
-แป้นหเลขที่ประจำตัวประชาชน (PIN) ได้รับการสนับสนุนผ่าน OPOS แต่จะถูกจัดการผ่านทางตัวเชื่อมต่อการชำระเงิน
+<span data-ttu-id="69317-179">แป้นหเลขที่ประจำตัวประชาชน (PIN) ได้รับการสนับสนุนผ่าน OPOS แต่จะถูกจัดการผ่านทางตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>จอแสดงผลรอง
+### <a name="secondary-display"></a><span data-ttu-id="69317-180">จอแสดงผลรอง</span><span class="sxs-lookup"><span data-stu-id="69317-180">Secondary display</span></span>
 
-เมื่อมีการตั้งค่าคอนฟิกจอแสดงผลรอง จอแสดงผล Windows หมายเลข 2 จะถูกใช้เพื่อแสดงข้อมูลพื้นฐาน วัตถุประสงค์ของจอแสดงผลรองคือเพื่อสนับสนุนส่วนขยายของผู้ขายซอฟต์แวร์อิสระ (ISV) เนื่องจากหากไม่ได้อยู่กล่องแล้ว จอแสดงผลรองจะไม่สามารถตั้งค่าคอนฟิกได้และจะแสดงเนื้อหาที่จำกัด
+<span data-ttu-id="69317-181">เมื่อมีการตั้งค่าคอนฟิกจอแสดงผลรอง จอแสดงผล Windows หมายเลข 2 จะถูกใช้เพื่อแสดงข้อมูลพื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="69317-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="69317-182">วัตถุประสงค์ของจอแสดงผลรองคือเพื่อสนับสนุนส่วนขยายของผู้ขายซอฟต์แวร์อิสระ (ISV) เนื่องจากหากไม่ได้อยู่กล่องแล้ว จอแสดงผลรองจะไม่สามารถตั้งค่าคอนฟิกได้และจะแสดงเนื้อหาที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="69317-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>อุปกรณ์การชำระเงิน
+### <a name="payment-device"></a><span data-ttu-id="69317-183">อุปกรณ์การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-183">Payment device</span></span>
 
-การสนับสนุนอุปกรณ์การชำระเงินถูกนำมาใช้ผ่านตัวเชื่อมต่อการชำระเงิน อุปกรณ์การชำระเงินสามารถทำหน้าที่อย่างหนึ่งหรือหลายอย่างที่คลาสของอุปกรณ์อื่น ๆ มีได้ ตัวอย่างเช่น อุปกรณ์การชำระเงินสามารถทำหน้าที่เป็นตัวอ่านบัตร/MSR จอแสดงผลรายการ อุปกรณ์เก็บบันทึกลายเซ็น หรือแป้น PIN การสนับสนุนสำหรับอุปกรณ์การชำระเงินถูกนำมาใช้อย่างเป็นอิสระจากการสนับสนุนของอุปกรณ์แบบสแตนด์อโลนที่ให้ไว้สำหรับอุปกรณ์อื่น ๆ ที่รวมอยู่ในโพรไฟล์ฮาร์ดแวร์
+<span data-ttu-id="69317-184">การสนับสนุนอุปกรณ์การชำระเงินถูกนำมาใช้ผ่านตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="69317-185">อุปกรณ์การชำระเงินสามารถทำหน้าที่อย่างหนึ่งหรือหลายอย่างที่คลาสของอุปกรณ์อื่น ๆ มีได้</span><span class="sxs-lookup"><span data-stu-id="69317-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="69317-186">ตัวอย่างเช่น อุปกรณ์การชำระเงินสามารถทำหน้าที่เป็นตัวอ่านบัตร/MSR จอแสดงผลรายการ อุปกรณ์เก็บบันทึกลายเซ็น หรือแป้น PIN</span><span class="sxs-lookup"><span data-stu-id="69317-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="69317-187">การสนับสนุนสำหรับอุปกรณ์การชำระเงินถูกนำมาใช้อย่างเป็นอิสระจากการสนับสนุนของอุปกรณ์แบบสแตนด์อโลนที่ให้ไว้สำหรับอุปกรณ์อื่น ๆ ที่รวมอยู่ในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>อินเทอร์เฟสที่สนับสนุน
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="69317-188">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="69317-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-189">OPOS</span></span>
 
-เมื่อต้องการช่วยรับประกันว่าจะสามารถใช้อุปกรณ์ได้หลายประเภทกับ Microsoft Dynamics 365 for Retail OLE สำหรับมาตรฐานอุตสาหกรรม POS คือแพลตฟอร์มอุปกรณ์ต่อพ่วงขายปลีกหลักที่ได้รับการสนับสนุนใน Microsoft Dynamics 365 for Retail OLE สำหรับมาตรฐาน POS ถูกผลิตโดย National Retail Federation (NRF) ซึ่งสร้างโพรโทคอลการติดต่อสื่อสารมาตรฐานอุตสาหกรรมสำหรับอุปกรณ์ต่อพ่วงขายปลีก OPOS คือการดำเนินการที่ถูกนำมาใช้อย่างกว้างขวางของ OLE สำหรับมาตรฐาน POS ซึ่งได้รับการพัฒนาในช่วงกลางทศวรรษที่ 1990 และได้รับการอัพเดตหลายครั้งหลังจากนั้น OPOS แสดงสถาปัตยกรรมของโปรแกรมควบคุมอุปกรณ์ที่ช่วยให้การรวมฮาร์ดแวร์ POS กับระบบ POS ที่ใช้ Windows ทำได้โดยง่าย ตัวควบคุม OPOS จัดการการติดต่อสื่อสารระหว่างฮาร์ดแวร์ที่เข้ากันได้กับซอฟต์แวร์ POS ตัวควบคุม OPOS ประกอบด้วยสองส่วน:
+<span data-ttu-id="69317-190">เมื่อต้องการช่วยรับประกันว่าจะสามารถใช้อุปกรณ์ได้หลายประเภทกับ Microsoft Dynamics 365 for Retail OLE สำหรับมาตรฐานอุตสาหกรรม POS คือแพลตฟอร์มอุปกรณ์ต่อพ่วงขายปลีกหลักที่ได้รับการสนับสนุนใน Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="69317-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="69317-191">OLE สำหรับมาตรฐาน POS ถูกผลิตโดย National Retail Federation (NRF) ซึ่งสร้างโพรโทคอลการติดต่อสื่อสารมาตรฐานอุตสาหกรรมสำหรับอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="69317-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="69317-192">OPOS คือการดำเนินการที่ถูกนำมาใช้อย่างกว้างขวางของ OLE สำหรับมาตรฐาน POS</span><span class="sxs-lookup"><span data-stu-id="69317-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="69317-193">ซึ่งได้รับการพัฒนาในช่วงกลางทศวรรษที่ 1990 และได้รับการอัพเดตหลายครั้งหลังจากนั้น</span><span class="sxs-lookup"><span data-stu-id="69317-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="69317-194">OPOS แสดงสถาปัตยกรรมของโปรแกรมควบคุมอุปกรณ์ที่ช่วยให้การรวมฮาร์ดแวร์ POS กับระบบ POS ที่ใช้ Windows ทำได้โดยง่าย</span><span class="sxs-lookup"><span data-stu-id="69317-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="69317-195">ตัวควบคุม OPOS จัดการการติดต่อสื่อสารระหว่างฮาร์ดแวร์ที่เข้ากันได้กับซอฟต์แวร์ POS</span><span class="sxs-lookup"><span data-stu-id="69317-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="69317-196">ตัวควบคุม OPOS ประกอบด้วยสองส่วน:</span><span class="sxs-lookup"><span data-stu-id="69317-196">An OPOS control consists of two parts:</span></span>
 
--   **วัตถุควบคุม** – วัตถุควบคุมสำหรับคลาสของอุปกรณ์ (เช่น จอแสดงผลรายการ) ให้อินเทอร์เฟซสำหรับโปรแกรมซอฟต์แวร์ Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) แสดงชุดมาตรฐานของวัตถุควบคุม OPOS ที่เรียกว่าวัตถุควบคุมทั่วไป (CCO) CCO จะถูกใช้เมื่อต้องการทดสอบส่วนประกอบ POS ของ Microsoft Dynamics 365 for Retail ดังนั้น การทดสอบจะช่วยรับประกันว่า ถ้า Microsoft Dynamics 365 for Retail สนับสนุนคลาสของอุปกรณ์ผ่าน OPOS จะสามารถสนับสนุนชนิดของอุปกรณ์หลายชนิด ถ้าผู้ผลิตมีวัตถุที่ให้บริการที่มีอยู่สำหรับ OPOS คุณไม่จำเป็นต้องทดสอบแต่ละชนิดของอุปกรณ์อย่างชัดเจน
--   **วัตถุที่ให้บริการ** – วัตถุที่ให้บริการให้การสื่อสารระหว่างวัตถุควบคุม (CCO) และอุปกรณ์ โดยปกติ วัตถุที่ให้บริการสำหรับอุปกรณ์มีไว้ให้โดยผู้ผลิตอุปกรณ์ อย่างไรก็ตาม ในบางกรณี คุณอาจจำเป็นต้องดาวน์โหลดวัตถุที่ให้บริการจากเว็บไซต์ของผู้ผลิต ตัวอย่างเช่น มีวัตถุที่ให้บริการที่ใหม่กว่าพร้อมใช้งาน เมื่อต้องการค้นหาที่อยู่ของเว็บไซต์ของผู้ผลิต ให้ดูเอกสารประกอบฮาร์ดแวร์ของคุณ
+-   <span data-ttu-id="69317-197">**วัตถุควบคุม** – วัตถุควบคุมสำหรับคลาสของอุปกรณ์ (เช่น จอแสดงผลรายการ) ให้อินเทอร์เฟซสำหรับโปรแกรมซอฟต์แวร์</span><span class="sxs-lookup"><span data-stu-id="69317-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="69317-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) แสดงชุดมาตรฐานของวัตถุควบคุม OPOS ที่เรียกว่าวัตถุควบคุมทั่วไป (CCO)</span><span class="sxs-lookup"><span data-stu-id="69317-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="69317-199">CCO จะถูกใช้เมื่อต้องการทดสอบส่วนประกอบ POS ของ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="69317-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="69317-200">ดังนั้น การทดสอบจะช่วยรับประกันว่า ถ้า Microsoft Dynamics 365 for Retail สนับสนุนคลาสของอุปกรณ์ผ่าน OPOS จะสามารถสนับสนุนชนิดของอุปกรณ์หลายชนิด ถ้าผู้ผลิตมีวัตถุที่ให้บริการที่มีอยู่สำหรับ OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="69317-201">คุณไม่จำเป็นต้องทดสอบแต่ละชนิดของอุปกรณ์อย่างชัดเจน</span><span class="sxs-lookup"><span data-stu-id="69317-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="69317-202">**วัตถุที่ให้บริการ** – วัตถุที่ให้บริการให้การสื่อสารระหว่างวัตถุควบคุม (CCO) และอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="69317-203">โดยปกติ วัตถุที่ให้บริการสำหรับอุปกรณ์มีไว้ให้โดยผู้ผลิตอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="69317-204">อย่างไรก็ตาม ในบางกรณี คุณอาจจำเป็นต้องดาวน์โหลดวัตถุที่ให้บริการจากเว็บไซต์ของผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="69317-205">ตัวอย่างเช่น มีวัตถุที่ให้บริการที่ใหม่กว่าพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="69317-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="69317-206">เมื่อต้องการค้นหาที่อยู่ของเว็บไซต์ของผู้ผลิต ให้ดูเอกสารประกอบฮาร์ดแวร์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="69317-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![วัตถุควบคุมและวัตถุที่ให้บริการ](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) สนับสนุนการใช้งาน OPOS ของ OLE เพื่อใช้ POS ช่วยรับประกันว่า หากผู้ผลิตอุปกรณ์และผู้เผยแพร่ POS ใช้มาตรฐานอย่างถูกต้อง ระบบ POS และอุปกรณ์ที่สนับสนุนจะสามารถทำงานร่วมกันได้แม้ว่าจะไม่ได้รับการทดสอบก่อนหน้านี้ **หมายเหตุ:** การสนับสนุน OPOS ไม่ได้รับประกันการสนับสนุนสำหรับอุปกรณ์ทั้งหมดที่มีโปรแกรมควบคุม OPOS Microsoft Dynamics 365 for Retail ต้องสนับสนุนชนิดหรือคลาสของอุปกรณ์นั้นผ่าน OPOS ก่อน นอกจากนี้ วัตถุที่ให้บริการอาจไม่เป็นปัจจุบันที่มี CCO รุ่นล่าสุดอยู่เสมอ นอกจากนี้คุณยังควรตระหนักว่าโดยทั่วไปคุณภาพของวัตถุที่ให้บริการจะแตกต่างกันไป
+<span data-ttu-id="69317-207">[![วัตถุควบคุมและวัตถุที่ให้บริการ](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) สนับสนุนการใช้งาน OPOS ของ OLE เพื่อใช้ POS ช่วยรับประกันว่า หากผู้ผลิตอุปกรณ์และผู้เผยแพร่ POS ใช้มาตรฐานอย่างถูกต้อง ระบบ POS และอุปกรณ์ที่สนับสนุนจะสามารถทำงานร่วมกันได้แม้ว่าจะไม่ได้รับการทดสอบก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="69317-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="69317-208">**หมายเหตุ:** การสนับสนุน OPOS ไม่ได้รับประกันการสนับสนุนสำหรับอุปกรณ์ทั้งหมดที่มีโปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="69317-209">Microsoft Dynamics 365 for Retail ต้องสนับสนุนชนิดหรือคลาสของอุปกรณ์นั้นผ่าน OPOS ก่อน</span><span class="sxs-lookup"><span data-stu-id="69317-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="69317-210">นอกจากนี้ วัตถุที่ให้บริการอาจไม่เป็นปัจจุบันที่มี CCO รุ่นล่าสุดอยู่เสมอ</span><span class="sxs-lookup"><span data-stu-id="69317-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="69317-211">นอกจากนี้คุณยังควรตระหนักว่าโดยทั่วไปคุณภาพของวัตถุที่ให้บริการจะแตกต่างกันไป</span><span class="sxs-lookup"><span data-stu-id="69317-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="69317-212">Windows</span><span class="sxs-lookup"><span data-stu-id="69317-212">Windows</span></span>
 
-การพิมพ์ใบเสร็จที่ POS ได้รับการปรับให้เหมาะสมสำหรับ OPOS OPOS มีแนวโน้มที่จะเร็วกว่าการพิมพ์ผ่าน Windows ดังนั้น จึงเป็นความคิดที่ดีที่จะใช้ OPOS โดยเฉพาะในสภาพแวดล้อมการขายปลีกที่มีการพิมพ์ใบเสร็จรับเงิน 40 คอลัมน์ และเวลาธุรกรรมจะต้องรวดเร็ว สำหรับอุปกรณ์ส่วนใหญ่ คุณจะใช้ตัวควบคุม OPOS อย่างไรก็ตาม เครื่องพิมพ์ใบเสร็จ OPOS บางรุ่นยังสนับสนุนโปรแกรมควบคุมของ Windows เมื่อใช้โปรแกรมควบคุม Windows คุณจะสามารถเข้าถึงแบบอักษรล่าสุดและวางเครือข่ายเครื่องพิมพ์หนึ่งสำหรับเครื่องบันทึกเงินสดหลายรายการ อย่างไรก็ตาม มีข้อเสียของการใช้โปรแกรมควบคุมของ Windows ต่อไปนี้เป็นตัวอย่างของข้อเสียเหล่านี้:
+<span data-ttu-id="69317-213">การพิมพ์ใบเสร็จที่ POS ได้รับการปรับให้เหมาะสมสำหรับ OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="69317-214">OPOS มีแนวโน้มที่จะเร็วกว่าการพิมพ์ผ่าน Windows</span><span class="sxs-lookup"><span data-stu-id="69317-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="69317-215">ดังนั้น จึงเป็นความคิดที่ดีที่จะใช้ OPOS โดยเฉพาะในสภาพแวดล้อมการขายปลีกที่มีการพิมพ์ใบเสร็จรับเงิน 40 คอลัมน์ และเวลาธุรกรรมจะต้องรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="69317-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="69317-216">สำหรับอุปกรณ์ส่วนใหญ่ คุณจะใช้ตัวควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="69317-217">อย่างไรก็ตาม เครื่องพิมพ์ใบเสร็จ OPOS บางรุ่นยังสนับสนุนโปรแกรมควบคุมของ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="69317-218">เมื่อใช้โปรแกรมควบคุม Windows คุณจะสามารถเข้าถึงแบบอักษรล่าสุดและวางเครือข่ายเครื่องพิมพ์หนึ่งสำหรับเครื่องบันทึกเงินสดหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="69317-219">อย่างไรก็ตาม มีข้อเสียของการใช้โปรแกรมควบคุมของ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="69317-220">ต่อไปนี้เป็นตัวอย่างของข้อเสียเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="69317-220">Here are some examples of these drawbacks:</span></span>
 
--   เมื่อใช้โปรแกรมควบคุมของ Windows รูปภาพจะแสดงก่อนที่จะเกิดการพิมพ์ ดังนั้น การพิมพ์จึงมีแนวโน้มที่จะช้ากว่าเครื่องพิมพ์ที่ใช้ตัวควบคุม OPOS
--   อุปกรณ์ที่เชื่อมต่อผ่านเครื่องพิมพ์ ("สายโซ่เดซี่") อาจทำงานไม่ถูกต้องเมื่อมีการใช้โปรแกรมควบคุมของ Windows ตัวอย่างเช่น ลิ้นชักเงินสดอาจไม่เปิดหรือเครื่องพิมพ์สลิปอาจทำงานไม่ได้ตามที่คุณคาดหวัง
--   OPOS ยังสนับสนุนชุดที่ขยายขอบเขตมากขึ้นของตัวแปรที่เฉพาะสำหรับเครื่องพิมพ์ใบเสร็จการขายปลีก เช่น การตัดกระดาษหรือการพิมพ์สลิป
+-   <span data-ttu-id="69317-221">เมื่อใช้โปรแกรมควบคุมของ Windows รูปภาพจะแสดงก่อนที่จะเกิดการพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="69317-222">ดังนั้น การพิมพ์จึงมีแนวโน้มที่จะช้ากว่าเครื่องพิมพ์ที่ใช้ตัวควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="69317-223">อุปกรณ์ที่เชื่อมต่อผ่านเครื่องพิมพ์ ("สายโซ่เดซี่") อาจทำงานไม่ถูกต้องเมื่อมีการใช้โปรแกรมควบคุมของ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="69317-224">ตัวอย่างเช่น ลิ้นชักเงินสดอาจไม่เปิดหรือเครื่องพิมพ์สลิปอาจทำงานไม่ได้ตามที่คุณคาดหวัง</span><span class="sxs-lookup"><span data-stu-id="69317-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="69317-225">OPOS ยังสนับสนุนชุดที่ขยายขอบเขตมากขึ้นของตัวแปรที่เฉพาะสำหรับเครื่องพิมพ์ใบเสร็จการขายปลีก เช่น การตัดกระดาษหรือการพิมพ์สลิป</span><span class="sxs-lookup"><span data-stu-id="69317-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-ถ้าตัวควบคุม OPOS พร้อมใช้งานสำหรับเครื่องพิมพ์ของ Windows ที่คุณกำลังใช้อยู่ เครื่องพิมพ์ควรที่จะยังคงทำงานได้อย่างถูกต้องกับ Microsoft Dynamics 365 for Retail
+<span data-ttu-id="69317-226">ถ้าตัวควบคุม OPOS พร้อมใช้งานสำหรับเครื่องพิมพ์ของ Windows ที่คุณกำลังใช้อยู่ เครื่องพิมพ์ควรที่จะยังคงทำงานได้อย่างถูกต้องกับ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="69317-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>แพลตฟอร์ม Universal Windows
+### <a name="universal-windows-platform"></a><span data-ttu-id="69317-227">แพลตฟอร์ม Universal Windows</span><span class="sxs-lookup"><span data-stu-id="69317-227">Universal Windows Platform</span></span>
 
-ในกรณีของอุปกรณ์ต่อพ่วงขายปลีก UWP เกี่ยวข้องกับการสนับสนุนของ Windows สำหรับอุปกรณ์ Plug and Play เมื่ออุปกรณ์ Plug and Play เชื่อมต่อกับรุ่นระบบปฏิบัติการ Windows ที่สนับสนุนชนิดของอุปกรณ์นั้น ไม่จำเป็นต้องใช้โปรแกรมควบคุมสำหรับอุปกรณ์เพื่อที่จะใช้ตามที่ตั้งใจไว้ ตัวอย่างเช่น ถ้า Windows ตรวจพบอุปกรณ์ลำโพงบลูทูธ ระบบปฏิบัติการจะรู้ว่าอุปกรณ์มีชนิดของคลาส **ลำโพง** ดังนั้น ระบบจะถือว่าอุปกรณ์นั้นเป็นลำโพง ไม่ต้องตั้งค่าเพิ่มเติม ในกรณีของอุปกรณ์ POS สามารถต่ออุปกรณ์ USB ได้หลายรายการ และ Windows จะจดจำรายการเหล่านั้นเป็นอุปกรณ์อินเทอร์เฟสบุคคล (HID) อย่างไรก็ตาม อาจไม่สามารถตรวจสอบความสามารถที่อุปกรณ์มีได้ เนื่องจากอุปกรณ์ไม่ได้ระบุคลาสหรือชนิดของอุปกรณ์ ใน Windows 10 มีการเพิ่มคลาสของอุปกรณ์สำหรับสแกนเนอร์บาร์โค้ดและ MSR ดังนั้น ถ้าอุปกรณ์ประกาศต่อ Windows 10 ว่าเป็นอุปกรณ์ของคลาสใดคลาสหนึ่งเหล่านี้ Windows จะฟังเหตุการณ์จากอุปกรณ์ในช่วงเวลาที่เหมาะสม Modern POS สนับสนุน MSR และสแกนเนอร์ของ UWP ดังนั้น เมื่อพร้อมสำหรับการป้อนข้อมูลจากอุปกรณ์ใดอุปกรณ์หนึ่งเหล่านี้ และมีการเชื่อมต่ออุปกรณ์ที่เป็นของคลาสใดคลาสหนึ่งเหล่านี้ จะสามารถใช้อุปกรณ์ได้ ตัวอย่างเช่น ถ้าสแกนเนอร์บาร์โค้ด UWP เสียบเข้ากับเครื่องคอมพิวเตอร์ Windows 10 และมีการตั้งค่าคอนฟิกบาร์โค้ดสำหรับ Modern POS สแกนเนอร์บาร์โค้ดจะเปิดใช้งานบนหน้าจอการเข้าสู่ระบบ ไม่ต้องตั้งค่าเพิ่มเติม ขณะนี้มีการเพิ่มคลาสของอุปกรณ์ UWP จุดบริการลงใน Windows คลาสเหล่านี้รวมถึงคลาสสำหรับลิ้นชักเงินสดและเครื่องพิมพ์ใบเสร็จ การสนับสนุนสำหรับคลาสของอุปกรณ์ใหม่เหล่านี้ใน Modern POS ยังค้างอยู่
+<span data-ttu-id="69317-228">ในกรณีของอุปกรณ์ต่อพ่วงขายปลีก UWP เกี่ยวข้องกับการสนับสนุนของ Windows สำหรับอุปกรณ์ Plug and Play</span><span class="sxs-lookup"><span data-stu-id="69317-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="69317-229">เมื่ออุปกรณ์ Plug and Play เชื่อมต่อกับรุ่นระบบปฏิบัติการ Windows ที่สนับสนุนชนิดของอุปกรณ์นั้น ไม่จำเป็นต้องใช้โปรแกรมควบคุมสำหรับอุปกรณ์เพื่อที่จะใช้ตามที่ตั้งใจไว้</span><span class="sxs-lookup"><span data-stu-id="69317-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="69317-230">ตัวอย่างเช่น ถ้า Windows ตรวจพบอุปกรณ์ลำโพงบลูทูธ ระบบปฏิบัติการจะรู้ว่าอุปกรณ์มีชนิดของคลาส **ลำโพง**</span><span class="sxs-lookup"><span data-stu-id="69317-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="69317-231">ดังนั้น ระบบจะถือว่าอุปกรณ์นั้นเป็นลำโพง</span><span class="sxs-lookup"><span data-stu-id="69317-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="69317-232">ไม่ต้องตั้งค่าเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="69317-232">No additional setup is required.</span></span> <span data-ttu-id="69317-233">ในกรณีของอุปกรณ์ POS สามารถต่ออุปกรณ์ USB ได้หลายรายการ และ Windows จะจดจำรายการเหล่านั้นเป็นอุปกรณ์อินเทอร์เฟสบุคคล (HID)</span><span class="sxs-lookup"><span data-stu-id="69317-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="69317-234">อย่างไรก็ตาม อาจไม่สามารถตรวจสอบความสามารถที่อุปกรณ์มีได้ เนื่องจากอุปกรณ์ไม่ได้ระบุคลาสหรือชนิดของอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="69317-235">ใน Windows 10 มีการเพิ่มคลาสของอุปกรณ์สำหรับสแกนเนอร์บาร์โค้ดและ MSR</span><span class="sxs-lookup"><span data-stu-id="69317-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="69317-236">ดังนั้น ถ้าอุปกรณ์ประกาศต่อ Windows 10 ว่าเป็นอุปกรณ์ของคลาสใดคลาสหนึ่งเหล่านี้ Windows จะฟังเหตุการณ์จากอุปกรณ์ในช่วงเวลาที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="69317-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="69317-237">Modern POS สนับสนุน MSR และสแกนเนอร์ของ UWP</span><span class="sxs-lookup"><span data-stu-id="69317-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="69317-238">ดังนั้น เมื่อพร้อมสำหรับการป้อนข้อมูลจากอุปกรณ์ใดอุปกรณ์หนึ่งเหล่านี้ และมีการเชื่อมต่ออุปกรณ์ที่เป็นของคลาสใดคลาสหนึ่งเหล่านี้ จะสามารถใช้อุปกรณ์ได้</span><span class="sxs-lookup"><span data-stu-id="69317-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="69317-239">ตัวอย่างเช่น ถ้าสแกนเนอร์บาร์โค้ด UWP เสียบเข้ากับเครื่องคอมพิวเตอร์ Windows 10 และมีการตั้งค่าคอนฟิกบาร์โค้ดสำหรับ Modern POS สแกนเนอร์บาร์โค้ดจะเปิดใช้งานบนหน้าจอการเข้าสู่ระบบ</span><span class="sxs-lookup"><span data-stu-id="69317-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="69317-240">ไม่ต้องตั้งค่าเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="69317-240">No additional setup is required.</span></span> <span data-ttu-id="69317-241">ขณะนี้มีการเพิ่มคลาสของอุปกรณ์ UWP จุดบริการลงใน Windows</span><span class="sxs-lookup"><span data-stu-id="69317-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="69317-242">คลาสเหล่านี้รวมถึงคลาสสำหรับลิ้นชักเงินสดและเครื่องพิมพ์ใบเสร็จ</span><span class="sxs-lookup"><span data-stu-id="69317-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="69317-243">การสนับสนุนสำหรับคลาสของอุปกรณ์ใหม่เหล่านี้ใน Modern POS ยังค้างอยู่</span><span class="sxs-lookup"><span data-stu-id="69317-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์
+### <a name="keyboard-wedge"></a><span data-ttu-id="69317-244">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-244">Keyboard wedge</span></span>
 
-อุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์จะส่งข้อมูลไปยังคอมพิวเตอร์ราวกับว่าข้อมูลนั้นถูกพิมพ์บนแป้นพิมพ์ ดังนั้น โดยค่าเริ่มต้น ฟิลด์ที่ใช้งานอยู่ที่ POS จะได้รับข้อมูลที่ถูกสแกนหรือรูด ในบางกรณี ลักษณะการทำงานนี้อาจทำให้มีการสแกนชนิดของข้อมูลที่ไม่ถูกต้องลงในฟิลด์ที่ไม่ถูกต้อง ตัวอย่างเช่น อาจมีการสแกนบาร์โค้ดลงในฟิลด์ที่มีไว้สำหรับการป้อนข้อมูลบัตรเครดิต ในหลายกรณี มีตรรกะที่ POS ที่กำหนดว่าข้อมูลที่ถูกสแกนหรือรูดเป็นบาร์โค้ดหรือการรูดบัตรหรือไม่ ดังนั้น ข้อมูลจะถูกจัดการอย่างถูกต้อง อย่างไรก็ตาม เมื่ออุปกรณ์ถูกตั้งค่าเป็น OPOS แทนอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ จะมีการควบคุมวิธีการใช้ข้อมูลจากอุปกรณ์เหล่านั้นมากขึ้น เนื่องจากส่วนใหญ่ "ทราบ" เกี่ยวกับอุปกรณ์ที่เป็นจุดเริ่มของข้อมูล ตัวอย่างเช่น ข้อมูลจากสแกนเนอร์บาร์โค้ดจะถูกจดจำเป็นบาร์โค้ดโดยอัตโนมัติ และสามารถพบเรกคอร์ดที่เชื่อมโยงในฐานข้อมูลได้อย่างง่ายดายและรวดเร็วขึ้นถ้าใช้การค้นหาสายอักขระทั่วไป ดังเช่นในกรณีของอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์
+<span data-ttu-id="69317-245">อุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์จะส่งข้อมูลไปยังคอมพิวเตอร์ราวกับว่าข้อมูลนั้นถูกพิมพ์บนแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="69317-246">ดังนั้น โดยค่าเริ่มต้น ฟิลด์ที่ใช้งานอยู่ที่ POS จะได้รับข้อมูลที่ถูกสแกนหรือรูด</span><span class="sxs-lookup"><span data-stu-id="69317-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="69317-247">ในบางกรณี ลักษณะการทำงานนี้อาจทำให้มีการสแกนชนิดของข้อมูลที่ไม่ถูกต้องลงในฟิลด์ที่ไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="69317-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="69317-248">ตัวอย่างเช่น อาจมีการสแกนบาร์โค้ดลงในฟิลด์ที่มีไว้สำหรับการป้อนข้อมูลบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="69317-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="69317-249">ในหลายกรณี มีตรรกะที่ POS ที่กำหนดว่าข้อมูลที่ถูกสแกนหรือรูดเป็นบาร์โค้ดหรือการรูดบัตรหรือไม่</span><span class="sxs-lookup"><span data-stu-id="69317-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="69317-250">ดังนั้น ข้อมูลจะถูกจัดการอย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="69317-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="69317-251">อย่างไรก็ตาม เมื่ออุปกรณ์ถูกตั้งค่าเป็น OPOS แทนอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ จะมีการควบคุมวิธีการใช้ข้อมูลจากอุปกรณ์เหล่านั้นมากขึ้น เนื่องจากส่วนใหญ่ "ทราบ" เกี่ยวกับอุปกรณ์ที่เป็นจุดเริ่มของข้อมูล</span><span class="sxs-lookup"><span data-stu-id="69317-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="69317-252">ตัวอย่างเช่น ข้อมูลจากสแกนเนอร์บาร์โค้ดจะถูกจดจำเป็นบาร์โค้ดโดยอัตโนมัติ และสามารถพบเรกคอร์ดที่เชื่อมโยงในฐานข้อมูลได้อย่างง่ายดายและรวดเร็วขึ้นถ้าใช้การค้นหาสายอักขระทั่วไป ดังเช่นในกรณีของอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>เครื่องพิมพ์เดิม
+### <a name="native-printer"></a><span data-ttu-id="69317-253">เครื่องพิมพ์เดิม</span><span class="sxs-lookup"><span data-stu-id="69317-253">Native printer</span></span>
 
-คุณสามารถตั้งค่าคอนฟิกเดิม (หรือ "อุปกรณ์" เมื่อชนิดถูกตั้งชื่อในโพรไฟล์ฮาร์ดแวร์) เพื่อพร้อมท์ให้ผู้ใช้เลือกเครื่องพิมพ์ที่จะถูกตั้งค่าคอนฟิกสำหรับคอมพิวเตอร์ เมื่อเครื่องพิมพ์ของชนิด **อุปกรณ์** มีการตั้งค่าคอนฟิก ถ้า Modern POS พบคำสั่งพิมพ์ ระบบจะพร้อมต์ให้ผู้ใช้เลือกเครื่องพิมพ์ในรายการ ลักษณะการทำงานนี้แตกต่างจากลักษณะการทำงานสำหรับโปรแกรมควบคุมของ Windows เนื่องจากชนิดของเครื่องพิมพ์ **Windows** ในโพรไฟล์ฮาร์ดแวร์ไม่แสดงรายการของเครื่องพิมพ์ แต่จำเป็นต้องมีการระบุเครื่องพิมพ์ที่มีชื่อในฟิลด์ **ชื่ออุปกรณ์**
+<span data-ttu-id="69317-254">คุณสามารถตั้งค่าคอนฟิกเดิม (หรือ "อุปกรณ์" เมื่อชนิดถูกตั้งชื่อในโพรไฟล์ฮาร์ดแวร์) เพื่อพร้อมท์ให้ผู้ใช้เลือกเครื่องพิมพ์ที่จะถูกตั้งค่าคอนฟิกสำหรับคอมพิวเตอร์</span><span class="sxs-lookup"><span data-stu-id="69317-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="69317-255">เมื่อเครื่องพิมพ์ของชนิด **อุปกรณ์** มีการตั้งค่าคอนฟิก ถ้า Modern POS พบคำสั่งพิมพ์ ระบบจะพร้อมต์ให้ผู้ใช้เลือกเครื่องพิมพ์ในรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="69317-256">ลักษณะการทำงานนี้แตกต่างจากลักษณะการทำงานสำหรับโปรแกรมควบคุมของ Windows เนื่องจากชนิดของเครื่องพิมพ์ **Windows** ในโพรไฟล์ฮาร์ดแวร์ไม่แสดงรายการของเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="69317-257">แต่จำเป็นต้องมีการระบุเครื่องพิมพ์ที่มีชื่อในฟิลด์ **ชื่ออุปกรณ์**</span><span class="sxs-lookup"><span data-stu-id="69317-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="69317-258">Windows</span><span class="sxs-lookup"><span data-stu-id="69317-258">Windows</span></span>
 
-ชนิดของอุปกรณ์ **Windows** ใช้สำหรับเครื่องพิมพ์เท่านั้น เมื่อมีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows ในโพรไฟล์ฮาร์ดแวร์ ต้องมีการระบุชื่อเครื่องพิมพ์เฉพาะ เมื่อ Modern POS พบเหตุการณ์การพิมพ์ ถ้ามีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows เหตุการณ์จะถูกส่งผ่านไปยังเครื่องพิมพ์ Windows ที่ระบุ ผู้ใช้จะไม่ได้รับพร้อมท์ให้เลือกเครื่องพิมพ์
+<span data-ttu-id="69317-259">ชนิดของอุปกรณ์ **Windows** ใช้สำหรับเครื่องพิมพ์เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="69317-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="69317-260">เมื่อมีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows ในโพรไฟล์ฮาร์ดแวร์ ต้องมีการระบุชื่อเครื่องพิมพ์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="69317-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="69317-261">เมื่อ Modern POS พบเหตุการณ์การพิมพ์ ถ้ามีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows เหตุการณ์จะถูกส่งผ่านไปยังเครื่องพิมพ์ Windows ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="69317-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="69317-262">ผู้ใช้จะไม่ได้รับพร้อมท์ให้เลือกเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>เครือข่าย
+### <a name="network"></a><span data-ttu-id="69317-263">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-263">Network</span></span>
 
-สามารถใช้ลิ้นชักเงินสดที่ระบุเครือข่ายได้ เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านเครือข่าย ทั้งโดยผ่านสถานีฮาร์ดแวร์ Interprocess Communications (IPC) ที่มีอยู่ใน Modern POS สำหรับแอพลิเคชัน Windows โดยตรง หรือโดยผ่านสถานีฮาร์ดแวร์ของ IIS สำหรับไคลเอนต์ Modern POS อื่น ๆ
+<span data-ttu-id="69317-264">สามารถใช้ลิ้นชักเงินสดที่ระบุเครือข่ายได้ เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านเครือข่าย ทั้งโดยผ่านสถานีฮาร์ดแวร์ Interprocess Communications (IPC) ที่มีอยู่ใน Modern POS สำหรับแอพลิเคชัน Windows โดยตรง หรือโดยผ่านสถานีฮาร์ดแวร์ของ IIS สำหรับไคลเอนต์ Modern POS อื่น ๆ</span><span class="sxs-lookup"><span data-stu-id="69317-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>ตัวเลือกการปรับใช้สถานีฮาร์ดแวร์
-### <a name="ipc-built-in"></a>IPC (ในตัว)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="69317-265">ตัวเลือกการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="69317-266">IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="69317-266">IPC (built-in)</span></span>
 
-สถานีฮาร์ดแวร์ Interprocess Communications (IPC) ถูกสร้างขึ้นใน Modern POS สำหรับ Windows เมื่อต้องการใช้สถานีฮาร์ดแวร์ IPC ให้กำหนดโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสดที่จะใช้ Modern POS สำหรับแอพลิเคชัน Windows จากนั้น สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าที่จะใช้เครื่องบันทึกเงินสดนั้น เมื่อคุณเริ่มใช้งาน Modern POS สถานีฮาร์ดแวร์ IPC จะเปิดใช้งาน และอุปกรณ์ต่อพ่วง POS ที่ได้รับการตั้งค่าคอนฟิกจะพร้อมใช้งาน ถ้าคุณไม่ต้องการฮาร์ดแวร์ในพื้นที่ชั่วคราวด้วยเหตุผลบางประการ ให้ใช้การดำเนินงาน **จัดการสถานีฮาร์ดแวร์** เพื่อปิดความสามารถของสถานีฮาร์ดแวร์ Modern POS ยังสามารถใช้สถานีฮาร์ดแวร์ IPC เพื่อสื่อสารโดยตรงกับอุปกรณ์ต่อพ่วงของเครือข่าย
+<span data-ttu-id="69317-267">สถานีฮาร์ดแวร์ Interprocess Communications (IPC) ถูกสร้างขึ้นใน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="69317-268">เมื่อต้องการใช้สถานีฮาร์ดแวร์ IPC ให้กำหนดโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสดที่จะใช้ Modern POS สำหรับแอพลิเคชัน Windows</span><span class="sxs-lookup"><span data-stu-id="69317-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="69317-269">จากนั้น สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าที่จะใช้เครื่องบันทึกเงินสดนั้น</span><span class="sxs-lookup"><span data-stu-id="69317-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="69317-270">เมื่อคุณเริ่มใช้งาน Modern POS สถานีฮาร์ดแวร์ IPC จะเปิดใช้งาน และอุปกรณ์ต่อพ่วง POS ที่ได้รับการตั้งค่าคอนฟิกจะพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="69317-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="69317-271">ถ้าคุณไม่ต้องการฮาร์ดแวร์ในพื้นที่ชั่วคราวด้วยเหตุผลบางประการ ให้ใช้การดำเนินงาน **จัดการสถานีฮาร์ดแวร์** เพื่อปิดความสามารถของสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="69317-272">Modern POS ยังสามารถใช้สถานีฮาร์ดแวร์ IPC เพื่อสื่อสารโดยตรงกับอุปกรณ์ต่อพ่วงของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="69317-273">IIS</span><span class="sxs-lookup"><span data-stu-id="69317-273">IIS</span></span>
 
-คุณสามารถใช้ IIS หรือสถานีฮาร์ดแวร์รุ่นสแตนด์อะโลนได้สองวิธี ตัวอธิบาย "IIS" บ่งชี้ว่าแอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ผ่านทาง Microsoft Internet Information Services แอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ IIS ผ่านทางบริการเว็บที่รันบนคอมพิวเตอร์ที่อุปกรณ์เชื่อมต่ออยู่ เมื่อมีการใช้ IIS จะสามารถใช้อุปกรณ์ต่อพ่วงขายปลีกที่เชื่อมต่อไปยังสถานีฮาร์ดแวร์ได้โดยเครื่องบันทึกเงินสด POS ที่อยู่บนเครือข่ายเดียวกันโดยเป็นสถานีฮาร์ดแวร์ IIS เนื่องจากเฉพาะ Modern POS สำหรับ Windows มีการสนับสนุนในตัวสำหรับอุปกรณ์ต่อพ่วงขายปลีก แอพลิเคชัน Modern POS อื่น ๆ ทั้งหมดจะต้องใช้สถานีฮาร์ดแวร์ IIS ในการสื่อสารกับอุปกรณ์ต่อพ่วง POS ที่มีการตั้งค่าคอนฟิกในโพรไฟล์ฮาร์ดแวร์ ดังนั้น แต่ละอินสแตนซ์ของสถานีฮาร์ดแวร์ IIS กำหนดให้คอมพิวเตอร์รันบริการเว็บและแอพลิเคชันที่สื่อสารกับอุปกรณ์ จำเป็นต้องใช้สถานีฮาร์ดแวร์ IIS สำหรับแอพลิเคชันที่ไม่ใช่ Modern POS ของ Windows ทั้งหมด
+<span data-ttu-id="69317-274">คุณสามารถใช้ IIS หรือสถานีฮาร์ดแวร์รุ่นสแตนด์อะโลนได้สองวิธี</span><span class="sxs-lookup"><span data-stu-id="69317-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="69317-275">ตัวอธิบาย "IIS" บ่งชี้ว่าแอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ผ่านทาง Microsoft Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="69317-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="69317-276">แอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ IIS ผ่านทางบริการเว็บที่รันบนคอมพิวเตอร์ที่อุปกรณ์เชื่อมต่ออยู่</span><span class="sxs-lookup"><span data-stu-id="69317-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="69317-277">เมื่อมีการใช้ IIS จะสามารถใช้อุปกรณ์ต่อพ่วงขายปลีกที่เชื่อมต่อไปยังสถานีฮาร์ดแวร์ได้โดยเครื่องบันทึกเงินสด POS ที่อยู่บนเครือข่ายเดียวกันโดยเป็นสถานีฮาร์ดแวร์ IIS</span><span class="sxs-lookup"><span data-stu-id="69317-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="69317-278">เนื่องจากเฉพาะ Modern POS สำหรับ Windows มีการสนับสนุนในตัวสำหรับอุปกรณ์ต่อพ่วงขายปลีก แอพลิเคชัน Modern POS อื่น ๆ ทั้งหมดจะต้องใช้สถานีฮาร์ดแวร์ IIS ในการสื่อสารกับอุปกรณ์ต่อพ่วง POS ที่มีการตั้งค่าคอนฟิกในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="69317-279">ดังนั้น แต่ละอินสแตนซ์ของสถานีฮาร์ดแวร์ IIS กำหนดให้คอมพิวเตอร์รันบริการเว็บและแอพลิเคชันที่สื่อสารกับอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="69317-280">จำเป็นต้องใช้สถานีฮาร์ดแวร์ IIS สำหรับแอพลิเคชันที่ไม่ใช่ Modern POS ของ Windows ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="69317-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>เฉพาะเจาะจง
+#### <a name="dedicated"></a><span data-ttu-id="69317-281">เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="69317-281">Dedicated</span></span>
 
-Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เฉพาะเจาะจง** เพื่อตรวจสอบว่าอุปกรณ์ต่อพ่วงเชื่อมต่อโดยตรงไปยังคอมพิวเตอร์ที่กำลังใช้แอพอยู่ อย่างไรก็ตาม ชนิด **เฉพาะเจาะจง** ยังอาจถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ได้ ในสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวรที่ใช้ Cloud POS เป็นแอพลิเคชัน POS ชนิดของสถานีฮาร์ดแวร์ **เฉพาะเจาะจง** จะถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ที่มีการปรับใช้บนคอมพิวเตอร์เดียวกันที่กำลังรัน Cloud POS จากมุมมองอุปกรณ์ต่อพ่วงขายปลีก สถานีฮาร์ดแวร์เฉพาะเจาะจงของ IIS มีการสนับสนุนของอุปกรณ์ต่อพ่วงขายปลีกที่ดีกว่าสำหรับสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวร สถานีฮาร์ดแวร์เฉพาะเจาะจงสนับสนุนอุปกรณ์ต่อพ่วงทั้งหมดที่ได้รับการสนับสนุนในโพรไฟล์ฮาร์ดแวร์
+<span data-ttu-id="69317-282">Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เฉพาะเจาะจง** เพื่อตรวจสอบว่าอุปกรณ์ต่อพ่วงเชื่อมต่อโดยตรงไปยังคอมพิวเตอร์ที่กำลังใช้แอพอยู่</span><span class="sxs-lookup"><span data-stu-id="69317-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="69317-283">อย่างไรก็ตาม ชนิด **เฉพาะเจาะจง** ยังอาจถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ได้</span><span class="sxs-lookup"><span data-stu-id="69317-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="69317-284">ในสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวรที่ใช้ Cloud POS เป็นแอพลิเคชัน POS ชนิดของสถานีฮาร์ดแวร์ **เฉพาะเจาะจง** จะถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ที่มีการปรับใช้บนคอมพิวเตอร์เดียวกันที่กำลังรัน Cloud POS</span><span class="sxs-lookup"><span data-stu-id="69317-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="69317-285">จากมุมมองอุปกรณ์ต่อพ่วงขายปลีก สถานีฮาร์ดแวร์เฉพาะเจาะจงของ IIS มีการสนับสนุนของอุปกรณ์ต่อพ่วงขายปลีกที่ดีกว่าสำหรับสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวร</span><span class="sxs-lookup"><span data-stu-id="69317-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="69317-286">สถานีฮาร์ดแวร์เฉพาะเจาะจงสนับสนุนอุปกรณ์ต่อพ่วงทั้งหมดที่ได้รับการสนับสนุนในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>ที่มีส่วนแบ่ง
+#### <a name="shared"></a><span data-ttu-id="69317-287">ที่มีส่วนแบ่ง</span><span class="sxs-lookup"><span data-stu-id="69317-287">Shared</span></span>
 
-สถานีฮาร์ดแวร์ที่ใช้ร่วมกันมีไว้เพื่อให้ใช้โดยอุปกรณ์ POS หลายรายการผ่านหลักสูตรของวัน สถานีฮาร์ดแวร์ที่ใช้ร่วมกันจะได้รับการปรับให้เหมาะสมเพื่อสนับสนุนเฉพาะลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงิน คุณไม่สามารถเชื่อมต่อกับสแกนเนอร์บาร์โค้ดแบบสแตนด์อโลน MSR จอแสดงผลรายการ สเกล หรืออุปกรณ์อื่น ๆ ได้โดยตรง มิฉะนั้น ความขัดแย้งจะเกิดขึ้นเมื่ออุปกรณ์ POS หลายรายการพยายามอ้างสิทธิ์อุปกรณ์ต่อพ่วงเหล่านั้นในเวลาเดียวกัน ต่อไปนี้เป็นวิธีจัดการความขัดแย้งของอุปกรณ์ที่ได้รับการสนับสนุน:
+<span data-ttu-id="69317-288">สถานีฮาร์ดแวร์ที่ใช้ร่วมกันมีไว้เพื่อให้ใช้โดยอุปกรณ์ POS หลายรายการผ่านหลักสูตรของวัน</span><span class="sxs-lookup"><span data-stu-id="69317-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="69317-289">สถานีฮาร์ดแวร์ที่ใช้ร่วมกันจะได้รับการปรับให้เหมาะสมเพื่อสนับสนุนเฉพาะลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="69317-290">คุณไม่สามารถเชื่อมต่อกับสแกนเนอร์บาร์โค้ดแบบสแตนด์อโลน MSR จอแสดงผลรายการ สเกล หรืออุปกรณ์อื่น ๆ ได้โดยตรง</span><span class="sxs-lookup"><span data-stu-id="69317-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="69317-291">มิฉะนั้น ความขัดแย้งจะเกิดขึ้นเมื่ออุปกรณ์ POS หลายรายการพยายามอ้างสิทธิ์อุปกรณ์ต่อพ่วงเหล่านั้นในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="69317-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="69317-292">ต่อไปนี้เป็นวิธีจัดการความขัดแย้งของอุปกรณ์ที่ได้รับการสนับสนุน:</span><span class="sxs-lookup"><span data-stu-id="69317-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **ลิ้นชักเงินสด** – เปิดลิ้นชักเงินสดผ่านเหตุการณ์ที่จะถูกส่งไปยังอุปกรณ์ ปัญหาเดียวที่อาจเกิดขึ้นเมื่อมีการเรียกลิ้นชักเงินสดจะเกิดขึ้นถ้าลิ้นชักเงินสดถูกเปิดไว้แล้ว ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ลิ้นชักเงินสดควรถูกตั้งค่าเป็น **ที่ใช้ร่วมกัน** ในโพรไฟล์ฮาร์ดแวร์ การตั้งค่านี้ป้องกันไม่ให้ POS ตรวจสอบว่าลิ้นชักเงินสดถูกเปิดอยู่แล้วหรือไม่เมื่อส่งคำสั่งเปิด
--   **เครื่องพิมพ์ใบเสร็จ** – ถ้ามีคำสั่งการพิมพ์ใบเสร็จสองรายการถูกส่งไปยังสถานีฮาร์ดแวร์พร้อมกัน คำสั่งใดคำสั่งหนึ่งอาจสูญหาย ขึ้นอยู่กับอุปกรณ์ อุปกรณ์บางอย่างมีหน่วยความจำภายในหรือการรวมที่สามารถป้องกันไม่ให้เกิดปัญหานี้ ถ้าคำสั่งพิมพ์ไม่เสร็จเรียบร้อย พนักงานเก็บเงินจะได้รับข้อความแสดงข้อผิดพลาดและสามารถลองคำสั่งพิมพ์จาก POS อีกครั้ง
--   **เทอร์มินัลการชำระเงิน** – ถ้าพนักงานเก็บเงินพยายามที่จะชำระเงินธุรกรรมในเทอร์มินัลการชำระเงินที่ถูกใช้แล้ว จะมีข้อความแจ้งพนักงานเก็บเงินให้ทราบว่ากำลังมีการใช้เทอร์มินัลและจะขอให้พนักงานเก็บเงินลองอีกครั้งในภายหลัง โดยปกติ พนักงานเก็บเงินจะสามารถเห็นว่าเทอร์มินัลกำลังถูกใช้แล้ว และจะรอจนกว่าธุรกรรมอื่น ๆ เสร็จสมบูรณ์ก่อนที่จะพยายามชำระเงินอีกครั้ง
+-   <span data-ttu-id="69317-293">**ลิ้นชักเงินสด** – เปิดลิ้นชักเงินสดผ่านเหตุการณ์ที่จะถูกส่งไปยังอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="69317-294">ปัญหาเดียวที่อาจเกิดขึ้นเมื่อมีการเรียกลิ้นชักเงินสดจะเกิดขึ้นถ้าลิ้นชักเงินสดถูกเปิดไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="69317-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="69317-295">ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ลิ้นชักเงินสดควรถูกตั้งค่าเป็น **ที่ใช้ร่วมกัน** ในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="69317-296">การตั้งค่านี้ป้องกันไม่ให้ POS ตรวจสอบว่าลิ้นชักเงินสดถูกเปิดอยู่แล้วหรือไม่เมื่อส่งคำสั่งเปิด</span><span class="sxs-lookup"><span data-stu-id="69317-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="69317-297">**เครื่องพิมพ์ใบเสร็จ** – ถ้ามีคำสั่งการพิมพ์ใบเสร็จสองรายการถูกส่งไปยังสถานีฮาร์ดแวร์พร้อมกัน คำสั่งใดคำสั่งหนึ่งอาจสูญหาย ขึ้นอยู่กับอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="69317-298">อุปกรณ์บางอย่างมีหน่วยความจำภายในหรือการรวมที่สามารถป้องกันไม่ให้เกิดปัญหานี้</span><span class="sxs-lookup"><span data-stu-id="69317-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="69317-299">ถ้าคำสั่งพิมพ์ไม่เสร็จเรียบร้อย พนักงานเก็บเงินจะได้รับข้อความแสดงข้อผิดพลาดและสามารถลองคำสั่งพิมพ์จาก POS อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="69317-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="69317-300">**เทอร์มินัลการชำระเงิน** – ถ้าพนักงานเก็บเงินพยายามที่จะชำระเงินธุรกรรมในเทอร์มินัลการชำระเงินที่ถูกใช้แล้ว จะมีข้อความแจ้งพนักงานเก็บเงินให้ทราบว่ากำลังมีการใช้เทอร์มินัลและจะขอให้พนักงานเก็บเงินลองอีกครั้งในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="69317-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="69317-301">โดยปกติ พนักงานเก็บเงินจะสามารถเห็นว่าเทอร์มินัลกำลังถูกใช้แล้ว และจะรอจนกว่าธุรกรรมอื่น ๆ เสร็จสมบูรณ์ก่อนที่จะพยายามชำระเงินอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="69317-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-มีการวางแผนการตรวจสอบสำหรับรุ่นต่อไป เพื่อตรวจสอบว่าอุปกรณ์ที่ไม่ได้รับการสนับสนุนจะถูกตั้งค่าสำหรับโพรไฟล์ฮาร์ดแวร์ที่ถูกแม็ปไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ถ้าตรวจพบอุปกรณ์ใด ๆ ที่ไม่ได้รับการสนับสนุน ผู้ใช้จะได้รับข้อความที่แจ้งว่าอุปกรณ์ไม่ได้รับการสนับสนุนสำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ตัวเลือก **เลือกเมื่อมีการชำระเงิน** จะถูกตั้งค่าเป็น **ใช่** ในระดับเครื่องบันทึกเงินสด จากนั้นระบบจะพร้อมต์ให้ผู้ใช้ POS เลือกสถานีฮาร์ดแวร์เมื่อมีการเลือกการชำระเงินสำหรับธุรกรรมที่ POS เมื่อมีการเลือกสถานีฮาร์ดแวร์ในเวลาที่มีการชำระเงินเท่านั้น การเลือกสถานีฮาร์ดแวร์จะถูกเพิ่มโดยตรงไปยังลำดับงาน POS สำหรับสถานการณ์จำลองแบบเคลื่อนที่ จอแสดงผลรายการบนเทอร์มินัลการชำระเงินไม่ได้ถูกใช้สำหรับสถานการณ์จำลองที่ใช้ร่วมกันโดยเป็นผลประโยชน์เพิ่มเติม ถ้ามีการใช้เทอร์มินัลการชำระเงินเป็นจอแสดงผลรายการ ผู้ใช้รายอื่นอาจถูกบล็อกไม่ให้ใช้เทอร์มินัลดังกล่าวจนกว่าธุรกรรมจะเสร็จสมบูรณ์ ในสถานการณ์จำลองแบบเคลื่อนที่ อาจมีการเพิ่มรายการลงในธุรกรรมในรอบระยะเวลาที่นานขึ้น ดังนั้นจึงจำเป็นต้องใช้ตัวเลือก **เลือกเมื่อมีการชำระเงิน** เพื่อรับประกันถึงความพร้อมใช้งานของอุปกรณ์ที่ดีที่สุด
+<span data-ttu-id="69317-302">มีการวางแผนการตรวจสอบสำหรับรุ่นต่อไป เพื่อตรวจสอบว่าอุปกรณ์ที่ไม่ได้รับการสนับสนุนจะถูกตั้งค่าสำหรับโพรไฟล์ฮาร์ดแวร์ที่ถูกแม็ปไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="69317-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="69317-303">ถ้าตรวจพบอุปกรณ์ใด ๆ ที่ไม่ได้รับการสนับสนุน ผู้ใช้จะได้รับข้อความที่แจ้งว่าอุปกรณ์ไม่ได้รับการสนับสนุนสำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="69317-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="69317-304">ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ตัวเลือก **เลือกเมื่อมีการชำระเงิน** จะถูกตั้งค่าเป็น **ใช่** ในระดับเครื่องบันทึกเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="69317-305">จากนั้นระบบจะพร้อมต์ให้ผู้ใช้ POS เลือกสถานีฮาร์ดแวร์เมื่อมีการเลือกการชำระเงินสำหรับธุรกรรมที่ POS</span><span class="sxs-lookup"><span data-stu-id="69317-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="69317-306">เมื่อมีการเลือกสถานีฮาร์ดแวร์ในเวลาที่มีการชำระเงินเท่านั้น การเลือกสถานีฮาร์ดแวร์จะถูกเพิ่มโดยตรงไปยังลำดับงาน POS สำหรับสถานการณ์จำลองแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="69317-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="69317-307">จอแสดงผลรายการบนเทอร์มินัลการชำระเงินไม่ได้ถูกใช้สำหรับสถานการณ์จำลองที่ใช้ร่วมกันโดยเป็นผลประโยชน์เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="69317-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="69317-308">ถ้ามีการใช้เทอร์มินัลการชำระเงินเป็นจอแสดงผลรายการ ผู้ใช้รายอื่นอาจถูกบล็อกไม่ให้ใช้เทอร์มินัลดังกล่าวจนกว่าธุรกรรมจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="69317-309">ในสถานการณ์จำลองแบบเคลื่อนที่ อาจมีการเพิ่มรายการลงในธุรกรรมในรอบระยะเวลาที่นานขึ้น</span><span class="sxs-lookup"><span data-stu-id="69317-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="69317-310">ดังนั้นจึงจำเป็นต้องใช้ตัวเลือก **เลือกเมื่อมีการชำระเงิน** เพื่อรับประกันถึงความพร้อมใช้งานของอุปกรณ์ที่ดีที่สุด</span><span class="sxs-lookup"><span data-stu-id="69317-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>อุปกรณ์ต่อพ่วงของเครือข่าย
+### <a name="network-peripherals"></a><span data-ttu-id="69317-311">อุปกรณ์ต่อพ่วงของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-311">Network peripherals</span></span>
 
-การกำหนดเครือข่ายสำหรับอุปกรณ์ในโพรไฟล์ฮาร์ดแวร์ช่วยให้สามารถเชื่อมต่อลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านการเชื่อมต่อเครือข่าย
+<span data-ttu-id="69317-312">การกำหนดเครือข่ายสำหรับอุปกรณ์ในโพรไฟล์ฮาร์ดแวร์ช่วยให้สามารถเชื่อมต่อลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านการเชื่อมต่อเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Modern POS สำหรับ Windows
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="69317-313">Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-313">Modern POS for Windows</span></span>
 
-คุณสามารถระบุที่อยู่ IP สำหรับอุปกรณ์ต่อพ่วงของเครือข่ายได้สองตำแหน่ง ถ้าไคลเอนต์ Modern POS Windows ใช้อุปกรณ์ต่อพ่วงของเครือข่ายชุดเดียว คุณควรตั้งค่าที่อยู่ IP สำหรับอุปกรณ์เหล่านั้นโดยใช้ตัวเลือก **การตั้งค่าคอนฟิก IP** ในบานหน้าต่างการดำเนินการสำหรับเครื่องบันทึกเงินสดเอง ในกรณีของอุปกรณ์เครือข่ายที่จะใช้ร่วมกันระหว่างเครื่องบันทึกเงินสด POS ต่าง ๆ สามารถแม็ปโพรไฟล์ฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายที่กำหนดไว้ได้โดยตรงไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกันได้ เมื่อต้องการกำหนดที่อยู่ IP ให้เลือกสถานีฮาร์ดแวร์บนหน้า **ร้านค้าปลีก** และจากนั้น ใช้ตัวเลือก **การตั้งค่าคอนฟิก IP** ในส่วน **สถานีฮาร์ดแวร์** เพื่อระบุอุปกรณ์เครือข่ายที่ถูกกำหนดให้กับสถานีฮาร์ดแวร์ สำหรับสถานีฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายเพียงอย่างเดียว คุณไม่จำเป็นต้องปรับใช้สถานีฮาร์ดแวร์เอง ในกรณีนี้ จำเป็นต้องใช้สถานีฮาร์ดแวร์เพื่อจัดกลุ่มอุปกรณ์ที่ระบุเครือข่ายได้ตามแนวคิดตามตำแหน่งที่ตั้งในร้านค้าปลีกเท่านั้น
+<span data-ttu-id="69317-314">คุณสามารถระบุที่อยู่ IP สำหรับอุปกรณ์ต่อพ่วงของเครือข่ายได้สองตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="69317-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="69317-315">ถ้าไคลเอนต์ Modern POS Windows ใช้อุปกรณ์ต่อพ่วงของเครือข่ายชุดเดียว คุณควรตั้งค่าที่อยู่ IP สำหรับอุปกรณ์เหล่านั้นโดยใช้ตัวเลือก **การตั้งค่าคอนฟิก IP** ในบานหน้าต่างการดำเนินการสำหรับเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="69317-316">ในกรณีของอุปกรณ์เครือข่ายที่จะใช้ร่วมกันระหว่างเครื่องบันทึกเงินสด POS ต่าง ๆ สามารถแม็ปโพรไฟล์ฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายที่กำหนดไว้ได้โดยตรงไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกันได้</span><span class="sxs-lookup"><span data-stu-id="69317-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="69317-317">เมื่อต้องการกำหนดที่อยู่ IP ให้เลือกสถานีฮาร์ดแวร์บนหน้า **ร้านค้าปลีก** และจากนั้น ใช้ตัวเลือก **การตั้งค่าคอนฟิก IP** ในส่วน **สถานีฮาร์ดแวร์** เพื่อระบุอุปกรณ์เครือข่ายที่ถูกกำหนดให้กับสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="69317-318">สำหรับสถานีฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายเพียงอย่างเดียว คุณไม่จำเป็นต้องปรับใช้สถานีฮาร์ดแวร์เอง</span><span class="sxs-lookup"><span data-stu-id="69317-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="69317-319">ในกรณีนี้ จำเป็นต้องใช้สถานีฮาร์ดแวร์เพื่อจัดกลุ่มอุปกรณ์ที่ระบุเครือข่ายได้ตามแนวคิดตามตำแหน่งที่ตั้งในร้านค้าปลีกเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="69317-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS สำหรับ iOS และ Modern POS สำหรับ Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="69317-320">Cloud POS, Modern POS สำหรับ iOS และ Modern POS สำหรับ Android</span><span class="sxs-lookup"><span data-stu-id="69317-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-มีตรรกะที่กระตุ้นอุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อจริงหรือที่ระบุเครือข่ายได้อยู่ในสถานีฮาร์ดแวร์ ดังนั้น สำหรับไคลเอนต์ POS ทั้งหมดยกเว้น Modern POS สำหรับ Windows สถานีฮาร์ดแวร์ IIS จะต้องถูกปรับใช้และใช้งานเพื่อเปิดใช้งาน POS เพื่อสื่อสารกับอุปกรณ์ต่อพ่วง โดยไม่คำนึงว่าอุปกรณ์ต่อพ่วงเหล่านั้นมีการเชื่อมต่อไปยังสถานีฮาร์ดแวร์หรือมีการระบุผ่านเครือข่ายจริงหรือไม่
+<span data-ttu-id="69317-321">มีตรรกะที่กระตุ้นอุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อจริงหรือที่ระบุเครือข่ายได้อยู่ในสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="69317-322">ดังนั้น สำหรับไคลเอนต์ POS ทั้งหมดยกเว้น Modern POS สำหรับ Windows สถานีฮาร์ดแวร์ IIS จะต้องถูกปรับใช้และใช้งานเพื่อเปิดใช้งาน POS เพื่อสื่อสารกับอุปกรณ์ต่อพ่วง โดยไม่คำนึงว่าอุปกรณ์ต่อพ่วงเหล่านั้นมีการเชื่อมต่อไปยังสถานีฮาร์ดแวร์หรือมีการระบุผ่านเครือข่ายจริงหรือไม่</span><span class="sxs-lookup"><span data-stu-id="69317-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิก
-### <a name="hardware-station-installation"></a>การติดตั้งสถานีฮาร์ดแวร์
+## <a name="setup-and-configuration"></a><span data-ttu-id="69317-323">การตั้งค่าและการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="69317-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="69317-324">การติดตั้งสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-324">Hardware station installation</span></span>
 
-สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)
+<span data-ttu-id="69317-325">สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)</span><span class="sxs-lookup"><span data-stu-id="69317-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิก Modern POS สำหรับ Windows
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="69317-326">การตั้งค่าและการตั้งค่าคอนฟิก Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-326">Modern POS for Windows setup and configuration</span></span>
 
-สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าคอนฟิกและการติดตั้ง Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)
+<span data-ttu-id="69317-327">สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าคอนฟิกและการติดตั้ง Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="69317-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิกอุปกรณ์ OPOS
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="69317-328">การตั้งค่าและการตั้งค่าคอนฟิกอุปกรณ์ OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-328">OPOS device setup and configuration</span></span>
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบ OPOS ให้ดูส่วน "อินเทอร์เฟซที่ได้รับการสนับสนุน" ของเอกสารนี้ โดยทั่วไปแล้ว โปรแกรมควบคุม OPOS มีไว้ให้โดยผู้ผลิตอุปกรณ์ เมื่อมีการติดตั้งโปรแกรมควบคุมอุปกรณ์ OPOS ระบบจะเพิ่มคีย์ไปยังรีจิสทรีของ Windows ในตำแหน่งใดตำแหน่งหนึ่งต่อไปนี้:
+<span data-ttu-id="69317-329">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบ OPOS ให้ดูส่วน "อินเทอร์เฟซที่ได้รับการสนับสนุน" ของเอกสารนี้</span><span class="sxs-lookup"><span data-stu-id="69317-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="69317-330">โดยทั่วไปแล้ว โปรแกรมควบคุม OPOS มีไว้ให้โดยผู้ผลิตอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="69317-331">เมื่อมีการติดตั้งโปรแกรมควบคุมอุปกรณ์ OPOS ระบบจะเพิ่มคีย์ไปยังรีจิสทรีของ Windows ในตำแหน่งใดตำแหน่งหนึ่งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="69317-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **ระบบ 32 บิต:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **ระบบ 64 บิต:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="69317-332">**ระบบ 32 บิต:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="69317-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="69317-333">**ระบบ 64 บิต:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="69317-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-ภายในตำแหน่งรีจิสทรีของ ServiceOPOS อุปกรณ์ที่มีการตั้งค่าคอนฟิกจะถูกจัดการตามคลาสของอุปกรณ์ OPOS โปรแกรมควบคุมอุปกรณ์หลายรายการจะถูกบันทึก
+<span data-ttu-id="69317-334">ภายในตำแหน่งรีจิสทรีของ ServiceOPOS อุปกรณ์ที่มีการตั้งค่าคอนฟิกจะถูกจัดการตามคลาสของอุปกรณ์ OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="69317-335">โปรแกรมควบคุมอุปกรณ์หลายรายการจะถูกบันทึก</span><span class="sxs-lookup"><span data-stu-id="69317-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>สถานการณ์จำลองที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>การสนับสนุนไคลเอนต์ – สถานีฮาร์ดแวร์ของ IPC เทียบกับสถานีฮาร์ดแวร์ของ IIS
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="69317-336">สถานการณ์จำลองที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="69317-337">การสนับสนุนไคลเอนต์ – สถานีฮาร์ดแวร์ของ IPC เทียบกับสถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="69317-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-ตารางต่อไปนี้แสดงโทโพโลยีและสถานการณ์จำลองการปรับใช้ที่ได้รับการสนับสนุน
+<span data-ttu-id="69317-338">ตารางต่อไปนี้แสดงโทโพโลยีและสถานการณ์จำลองการปรับใช้ที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| ลูกค้า      | สถานีฮาร์ดแวร์ของ IPC | สถานีฮาร์ดแวร์ของ IIS |
+| <span data-ttu-id="69317-339">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="69317-339">Client</span></span>      | <span data-ttu-id="69317-340">สถานีฮาร์ดแวร์ของ IPC</span><span class="sxs-lookup"><span data-stu-id="69317-340">IPC hardware station</span></span> | <span data-ttu-id="69317-341">สถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="69317-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| แอพของ Windows | ใช่                  | ใช่                  |
-| Cloud POS   | หมายเลข                   | ใช่                  |
-| Android     | หมายเลข                   | ใช่                  |
-| iOS         | หมายเลข                   | ใช่                  |
+| <span data-ttu-id="69317-342">แอพของ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-342">Windows app</span></span> | <span data-ttu-id="69317-343">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-343">Yes</span></span>                  | <span data-ttu-id="69317-344">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-344">Yes</span></span>                  |
+| <span data-ttu-id="69317-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="69317-345">Cloud POS</span></span>   | <span data-ttu-id="69317-346">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="69317-346">No</span></span>                   | <span data-ttu-id="69317-347">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-347">Yes</span></span>                  |
+| <span data-ttu-id="69317-348">Android</span><span class="sxs-lookup"><span data-stu-id="69317-348">Android</span></span>     | <span data-ttu-id="69317-349">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="69317-349">No</span></span>                   | <span data-ttu-id="69317-350">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-350">Yes</span></span>                  |
+| <span data-ttu-id="69317-351">iOS</span><span class="sxs-lookup"><span data-stu-id="69317-351">iOS</span></span>         | <span data-ttu-id="69317-352">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="69317-352">No</span></span>                   | <span data-ttu-id="69317-353">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>อุปกรณ์ต่อพ่วงของเครือข่าย
+### <a name="network-peripherals"></a><span data-ttu-id="69317-354">อุปกรณ์ต่อพ่วงของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-354">Network peripherals</span></span>
 
-สามารถสนับสนุนอุปกรณ์ต่อพ่วงของเครือข่ายได้โดยตรงโดยใช้สถานีฮาร์ดแวร์ที่มีอยู่ในแอพลิเคชัน Modern POS สำหรับ Windows สำหรับไคลเอนต์อื่น ๆ ทั้งหมด คุณต้องปรับใช้สถานีฮาร์ดแวร์ของ IIS
+<span data-ttu-id="69317-355">สามารถสนับสนุนอุปกรณ์ต่อพ่วงของเครือข่ายได้โดยตรงโดยใช้สถานีฮาร์ดแวร์ที่มีอยู่ในแอพลิเคชัน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="69317-356">สำหรับไคลเอนต์อื่น ๆ ทั้งหมด คุณต้องปรับใช้สถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="69317-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| ลูกค้า      | สถานีฮาร์ดแวร์ของ IPC | สถานีฮาร์ดแวร์ของ IIS |
+| <span data-ttu-id="69317-357">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="69317-357">Client</span></span>      | <span data-ttu-id="69317-358">สถานีฮาร์ดแวร์ของ IPC</span><span class="sxs-lookup"><span data-stu-id="69317-358">IPC hardware station</span></span> | <span data-ttu-id="69317-359">สถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="69317-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| แอพของ Windows | ใช่                  | ใช่                  |
-| Cloud POS   | หมายเลข                   | ใช่                  |
-| Android     | หมายเลข                   | ใช่                  |
-| iOS         | หมายเลข                   | ใช่                  |
+| <span data-ttu-id="69317-360">แอพของ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-360">Windows app</span></span> | <span data-ttu-id="69317-361">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-361">Yes</span></span>                  | <span data-ttu-id="69317-362">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-362">Yes</span></span>                  |
+| <span data-ttu-id="69317-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="69317-363">Cloud POS</span></span>   | <span data-ttu-id="69317-364">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="69317-364">No</span></span>                   | <span data-ttu-id="69317-365">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-365">Yes</span></span>                  |
+| <span data-ttu-id="69317-366">Android</span><span class="sxs-lookup"><span data-stu-id="69317-366">Android</span></span>     | <span data-ttu-id="69317-367">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="69317-367">No</span></span>                   | <span data-ttu-id="69317-368">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-368">Yes</span></span>                  |
+| <span data-ttu-id="69317-369">iOS</span><span class="sxs-lookup"><span data-stu-id="69317-369">iOS</span></span>         | <span data-ttu-id="69317-370">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="69317-370">No</span></span>                   | <span data-ttu-id="69317-371">ใช่</span><span class="sxs-lookup"><span data-stu-id="69317-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>ชนิดของอุปกรณ์ที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>คลาสของอุปกรณ์ที่สนับสนุน</th>
-<th>อินเทอร์เฟสที่สนับสนุน</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>เครื่องพิมพ์</td>
-<td><ul>
-<li>OPOS</li>
-<li>โปรแกรมควบคุม Windows</li>
-<li>อุปกรณ์</li>
-<li>เครือข่าย</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>เครื่องพิมพ์ 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>โปรแกรมควบคุม Windows</li>
-<li>อุปกรณ์</li>
-<li>เครือข่าย</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>จอแสดงผลรายการ</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>จอแสดงผลแบบคู่</td>
-<td>โปรแกรมควบคุม Windows</td>
-</tr>
-<tr class="odd">
-<td>MSR</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (ไม่จำเป็นต้องตั้งค่า)</li>
-<li>เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ผู้ออกตั๋วเงิน</td>
-<td><ul>
-<li>OPOS</li>
-<li>เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>ลิ้นชัก 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>สแกนเนอร์</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (ไม่จำเป็นต้องตั้งค่า)</li>
-<li>เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>สแกนเนอร์ 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (ไม่จำเป็นต้องตั้งค่า)</li>
-<li>เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>สเกล</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>แป้นกดรหัส</td>
-<td>OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</td>
-</tr>
-<tr class="even">
-<td>การเก็บบันทึกลายเซ็น</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>เทอร์มินัลการชำระเงิน </td>
-<td><ul>
-<li>การสนับสนุนอุปกรณ์แบบกำหนดเอง</li>
-<li>เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง
-
-**หมายเหตุ:** เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "เฉพาะเจาะจง" จะมีความสัมพันธ์แบบหนึ่งต่อหนึ่งระหว่างไคลเอนต์ POS และสถานีฮาร์ดแวร์นี้
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="69317-372">ชนิดของอุปกรณ์ที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="69317-373">Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="69317-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เ
 </colgroup>
 <thead>
 <tr class="header">
-<th>คลาสของอุปกรณ์ที่สนับสนุน</th>
-<th>อินเทอร์เฟสที่สนับสนุน</th>
+<th><span data-ttu-id="69317-374">คลาสของอุปกรณ์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-374">Supported device class</span></span></th>
+<th><span data-ttu-id="69317-375">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>เครื่องพิมพ์</td>
+<td><span data-ttu-id="69317-376">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>โปรแกรมควบคุมของ Windows <strong>หมายเหตุ:</strong> สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้สถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</li>
-<li>เครือข่าย</li>
+<li><span data-ttu-id="69317-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-377">OPOS</span></span></li>
+<li><span data-ttu-id="69317-378">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="69317-378">Windows driver</span></span></li>
+<li><span data-ttu-id="69317-379">อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-379">Device</span></span></li>
+<li><span data-ttu-id="69317-380">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>เครื่องพิมพ์ 2</td>
+<td><span data-ttu-id="69317-381">เครื่องพิมพ์ 2</span><span class="sxs-lookup"><span data-stu-id="69317-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>โปรแกรมควบคุม Windows</li>
-<li>เครือข่าย</li>
+<li><span data-ttu-id="69317-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-382">OPOS</span></span></li>
+<li><span data-ttu-id="69317-383">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="69317-383">Windows driver</span></span></li>
+<li><span data-ttu-id="69317-384">อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="69317-384">Device</span></span></li>
+<li><span data-ttu-id="69317-385">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>จอแสดงผลรายการ</td>
-<td>OPOS</td>
+<td><span data-ttu-id="69317-386">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-386">Line display</span></span></td>
+<td><span data-ttu-id="69317-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>MSR</td>
-<td>OPOS</td>
+<td><span data-ttu-id="69317-388">จอแสดงผลแบบคู่</span><span class="sxs-lookup"><span data-stu-id="69317-388">Dual display</span></span></td>
+<td><span data-ttu-id="69317-389">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="69317-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>ผู้ออกตั๋วเงิน</td>
+<td><span data-ttu-id="69317-390">MSR</span><span class="sxs-lookup"><span data-stu-id="69317-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับแต่ละโพร์ไฟล์ฮาร์ดแวร์ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</li>
+<li><span data-ttu-id="69317-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-391">OPOS</span></span></li>
+<li><span data-ttu-id="69317-392">UWP (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="69317-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="69317-393">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="69317-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>ลิ้นชัก 2</td>
+<td><span data-ttu-id="69317-394">ผู้ออกตั๋วเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>เครือข่าย</li>
+<li><span data-ttu-id="69317-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-395">OPOS</span></span></li>
+<li><span data-ttu-id="69317-396">เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="69317-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>สแกนเนอร์</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>สแกนเนอร์ 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>สเกล</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>แป้นกดรหัส</td>
-<td>OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</td>
-</tr>
-<tr class="odd">
-<td>Sig เก็บบันทึก</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>เทอร์มินัลการชำระเงิน </td>
+<td><span data-ttu-id="69317-397">ลิ้นชัก 2</span><span class="sxs-lookup"><span data-stu-id="69317-397">Drawer 2</span></span></td>
 <td><ul>
-<li>การสนับสนุนอุปกรณ์แบบกำหนดเอง</li>
-<li>เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</li>
+<li><span data-ttu-id="69317-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-398">OPOS</span></span></li>
+<li><span data-ttu-id="69317-399">เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="69317-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-400">สแกนเนอร์</span><span class="sxs-lookup"><span data-stu-id="69317-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-401">OPOS</span></span></li>
+<li><span data-ttu-id="69317-402">UWP (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="69317-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="69317-403">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="69317-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-404">สแกนเนอร์ 2</span><span class="sxs-lookup"><span data-stu-id="69317-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-405">OPOS</span></span></li>
+<li><span data-ttu-id="69317-406">UWP (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="69317-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="69317-407">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="69317-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-408">สเกล</span><span class="sxs-lookup"><span data-stu-id="69317-408">Scale</span></span></td>
+<td><span data-ttu-id="69317-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-410">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="69317-410">PIN pad</span></span></td>
+<td><span data-ttu-id="69317-411">OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="69317-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-412">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="69317-412">Signature capture</span></span></td>
+<td><span data-ttu-id="69317-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-414">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-415">การสนับสนุนอุปกรณ์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-415">Custom device support</span></span></li>
+<li><span data-ttu-id="69317-416">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="69317-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="69317-417">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="69317-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**หมายเหตุ:** เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "ใช้ร่วมกัน" อุปกรณ์หลายรายการสามารถใช้สถานีฮาร์ดแวร์พร้อมกันได้ สำหรับสถานการณ์จำลองนี้ คุณควรใช้เฉพาะอุปกรณ์ที่ระบุอยู่ในตารางต่อไปนี้ ถ้าคุณพยายามที่จะใช้อุปกรณ์ที่ไม่ได้แสดงรายการไว้ที่นี่ เช่นสแกนเนอร์บาร์โค้ดและ MSR ร่วมกัน ข้อผิดพลาดจะเกิดขึ้นเมื่ออุปกรณ์หลายรายการพยายามที่จะอ้างสิทธิ์ของอุปกรณ์ต่อพ่วงเดียวกัน ในอนาคต จะมีการป้องกันการตั้งค่าคอนฟิกดังกล่าวอย่างชัดเจน
+<span data-ttu-id="69317-418">**หมายเหตุ:** เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "เฉพาะเจาะจง" จะมีความสัมพันธ์แบบหนึ่งต่อหนึ่งระหว่างไคลเอนต์ POS และสถานีฮาร์ดแวร์นี้</span><span class="sxs-lookup"><span data-stu-id="69317-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เ
 </colgroup>
 <thead>
 <tr class="header">
-<th>คลาสของอุปกรณ์ที่สนับสนุน</th>
-<th>อินเทอร์เฟสที่สนับสนุน</th>
+<th><span data-ttu-id="69317-419">คลาสของอุปกรณ์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-419">Supported device class</span></span></th>
+<th><span data-ttu-id="69317-420">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>เครื่องพิมพ์</td>
+<td><span data-ttu-id="69317-421">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>โปรแกรมควบคุมของ Windows <strong>หมายเหตุ:</strong> สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้สถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</li>
-<li>เครือข่าย</li>
+<li><span data-ttu-id="69317-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-422">OPOS</span></span></li>
+<li><span data-ttu-id="69317-423">โปรแกรมควบคุมของ Windows <strong>หมายเหตุ:</strong> สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้สถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="69317-424">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>เครื่องพิมพ์ 2</td>
+<td><span data-ttu-id="69317-425">เครื่องพิมพ์ 2</span><span class="sxs-lookup"><span data-stu-id="69317-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>โปรแกรมควบคุม Windows</li>
-<li>เครือข่าย</li>
+<li><span data-ttu-id="69317-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-426">OPOS</span></span></li>
+<li><span data-ttu-id="69317-427">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="69317-427">Windows driver</span></span></li>
+<li><span data-ttu-id="69317-428">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>ผู้ออกตั๋วเงิน</td>
+<td><span data-ttu-id="69317-429">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-429">Line display</span></span></td>
+<td><span data-ttu-id="69317-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-431">MSR</span><span class="sxs-lookup"><span data-stu-id="69317-431">MSR</span></span></td>
+<td><span data-ttu-id="69317-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-433">ผู้ออกตั๋วเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับแต่ละโพร์ไฟล์ฮาร์ดแวร์ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</li>
+<li><span data-ttu-id="69317-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-434">OPOS</span></span></li>
+<li><span data-ttu-id="69317-435">เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับแต่ละโพร์ไฟล์ฮาร์ดแวร์ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="69317-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>ลิ้นชัก 2</td>
+<td><span data-ttu-id="69317-436">ลิ้นชัก 2</span><span class="sxs-lookup"><span data-stu-id="69317-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>เครือข่าย</li>
+<li><span data-ttu-id="69317-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-437">OPOS</span></span></li>
+<li><span data-ttu-id="69317-438">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>เทอร์มินัลการชำระเงิน </td>
+<td><span data-ttu-id="69317-439">สแกนเนอร์</span><span class="sxs-lookup"><span data-stu-id="69317-439">Scanner</span></span></td>
+<td><span data-ttu-id="69317-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-441">สแกนเนอร์ 2</span><span class="sxs-lookup"><span data-stu-id="69317-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="69317-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-443">สเกล</span><span class="sxs-lookup"><span data-stu-id="69317-443">Scale</span></span></td>
+<td><span data-ttu-id="69317-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-445">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="69317-445">PIN pad</span></span></td>
+<td><span data-ttu-id="69317-446">OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="69317-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-447">Sig</span><span class="sxs-lookup"><span data-stu-id="69317-447">Sig.</span></span> <span data-ttu-id="69317-448">เก็บบันทึก</span><span class="sxs-lookup"><span data-stu-id="69317-448">capture</span></span></td>
+<td><span data-ttu-id="69317-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-450">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-450">Payment terminal</span></span></td>
 <td><ul>
-<li>การสนับสนุนอุปกรณ์แบบกำหนดเอง</li>
-<li>เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</li>
+<li><span data-ttu-id="69317-451">การสนับสนุนอุปกรณ์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-451">Custom device support</span></span></li>
+<li><span data-ttu-id="69317-452">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="69317-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>การตั้งค่าคอนฟิกสำหรับสถานการณ์จำลองที่ได้รับการสนับสนุน
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างโพรไฟล์ฮาร์ดแวร์ ให้ดู [กำหนดและรักษาไคลเอนต์ช่องทาง รวมถึงเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](define-maintain-channel-clients-registers-hw-stations.md) **หมายเหตุ:** สำหรับ Microsoft Dynamics 365 for Retail รุ่น 1611 ไม่มีการใช้งานโพรไฟล์สถานีฮาร์ดแวร์อีกต่อไป ในขณะนี้ แอตทริบิวต์ที่คุณตั้งค่าไว้ในโพรไฟล์สถานีฮาร์ดแวร์ก่อนหน้านี้จะเป็นส่วนหนึ่งของสถานีฮาร์ดแวร์เอง
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="69317-453">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="69317-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)
+<span data-ttu-id="69317-454">**หมายเหตุ:** เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "ใช้ร่วมกัน" อุปกรณ์หลายรายการสามารถใช้สถานีฮาร์ดแวร์พร้อมกันได้</span><span class="sxs-lookup"><span data-stu-id="69317-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="69317-455">สำหรับสถานการณ์จำลองนี้ คุณควรใช้เฉพาะอุปกรณ์ที่ระบุอยู่ในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="69317-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="69317-456">ถ้าคุณพยายามที่จะใช้อุปกรณ์ที่ไม่ได้แสดงรายการไว้ที่นี่ เช่นสแกนเนอร์บาร์โค้ดและ MSR ร่วมกัน ข้อผิดพลาดจะเกิดขึ้นเมื่ออุปกรณ์หลายรายการพยายามที่จะอ้างสิทธิ์ของอุปกรณ์ต่อพ่วงเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="69317-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="69317-457">ในอนาคต จะมีการป้องกันการตั้งค่าคอนฟิกดังกล่าวอย่างชัดเจน</span><span class="sxs-lookup"><span data-stu-id="69317-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-การตั้งค่าคอนฟิกนี้เป็นการตั้งค่าคอนฟิกทั่วไปที่สุดสำหรับเครื่องบันทึกเงินสด POS ดั้งเดิมแบบถาวร สำหรับสถานการณ์จำลองนี้ ข้อมูลโพรไฟล์ฮาร์ดแวร์จะถูกแม็ปโดยตรงไปยังเครื่องบันทึกเงินสดเอง หมายเลขเทอร์มินัล EFT ควรถูกตั้งค่าในเครื่องบันทึกเงินสดเอง หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="69317-458">คลาสของอุปกรณ์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-458">Supported device class</span></span></th>
+<th><span data-ttu-id="69317-459">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="69317-460">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-461">OPOS</span></span></li>
+<li><span data-ttu-id="69317-462">โปรแกรมควบคุมของ Windows <strong>หมายเหตุ:</strong> สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้สถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="69317-463">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-464">เครื่องพิมพ์ 2</span><span class="sxs-lookup"><span data-stu-id="69317-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-465">OPOS</span></span></li>
+<li><span data-ttu-id="69317-466">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="69317-466">Windows driver</span></span></li>
+<li><span data-ttu-id="69317-467">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-468">ผู้ออกตั๋วเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-469">OPOS</span></span></li>
+<li><span data-ttu-id="69317-470">เครือข่าย <strong>หมายเหตุ:</strong> สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับแต่ละโพร์ไฟล์ฮาร์ดแวร์ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="69317-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="69317-471">ลิ้นชัก 2</span><span class="sxs-lookup"><span data-stu-id="69317-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-472">OPOS</span></span></li>
+<li><span data-ttu-id="69317-473">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="69317-474">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="69317-475">การสนับสนุนอุปกรณ์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-475">Custom device support</span></span></li>
+<li><span data-ttu-id="69317-476">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="69317-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด
-2.  แม็ปโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสด POS
-3.  สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น ไม่จำเป็นต้องมีคำอธิบาย **หมายเหตุ:** คุณไม่จำเป็นต้องตั้งค่าคุณสมบัติอื่น ๆ บนสถานีฮาร์ดแวร์ ข้อมูลที่จำเป็นอื่นๆ ทั้งหมด เช่น โพรไฟล์ฮาร์ดแวร์ จะมาจากเครื่องบันทึกเงินสดเอง
-4.  คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
-5.  เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-6.  เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-7.  ติดตั้งและเปิดใช้งาน Modern POS สำหรับ Windows
-8.  เริ่มการทำงานของ Modern POS สำหรับ Windows และเริ่มต้นการใช้อุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อ
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="69317-477">การตั้งค่าคอนฟิกสำหรับสถานการณ์จำลองที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="69317-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="69317-478">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างโพรไฟล์ฮาร์ดแวร์ ให้ดู [กำหนดและรักษาไคลเอนต์ช่องทาง รวมถึงเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](define-maintain-channel-clients-registers-hw-stations.md)</span><span class="sxs-lookup"><span data-stu-id="69317-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="69317-479">**หมายเหตุ:** สำหรับ Microsoft Dynamics 365 for Retail รุ่น 1611 ไม่มีการใช้งานโพรไฟล์สถานีฮาร์ดแวร์อีกต่อไป</span><span class="sxs-lookup"><span data-stu-id="69317-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="69317-480">ในขณะนี้ แอตทริบิวต์ที่คุณตั้งค่าไว้ในโพรไฟล์สถานีฮาร์ดแวร์ก่อนหน้านี้จะเป็นส่วนหนึ่งของสถานีฮาร์ดแวร์เอง</span><span class="sxs-lookup"><span data-stu-id="69317-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="69317-481">Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="69317-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ที่ใช้โดยเครื่องบันทึกเงินสด POS หนึ่งโดยเฉพาะ หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้
+<span data-ttu-id="69317-482">การตั้งค่าคอนฟิกนี้เป็นการตั้งค่าคอนฟิกทั่วไปที่สุดสำหรับเครื่องบันทึกเงินสด POS ดั้งเดิมแบบถาวร</span><span class="sxs-lookup"><span data-stu-id="69317-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="69317-483">สำหรับสถานการณ์จำลองนี้ ข้อมูลโพรไฟล์ฮาร์ดแวร์จะถูกแม็ปโดยตรงไปยังเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="69317-484">หมายเลขเทอร์มินัล EFT ควรถูกตั้งค่าในเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="69317-485">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="69317-485">To set up this configuration, follow these steps.</span></span>
 
-1.  สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด
-2.  สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น
-3.  บนสถานีฮาร์ดแวร์เฉพาะเจาะจง ให้ตั้งค่าคุณสมบัติต่อไปนี้:
-    -   **ชื่อโฮสต์** – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน **หมายเหตุ:** Cloud POS สามารถแก้ไข **localhost** เพื่อตรวจสอบเครื่องคอมพิวเตอร์เฉพาะที่ที่ Cloud POS ทำงานได้ อย่างไรก็ตาม ใบรับรองที่จำเป็นในการซ่อมแซม Cloud POS กับสถานีฮาร์ดแวร์จะต้องมี "Localhost" เป็นชื่อคอมพิวเตอร์ เมื่อต้องการหลีกเลี่ยงปัญหา เราขอแนะนำให้คุณทำรายการอินสแตนซ์ของแต่ละสถานีฮาร์ดแวร์เฉพาะเจาะจงไว้สำหรับร้านค้าตามความจำเป็น สำหรับแต่ละสถานีฮาร์ดแวร์ ชื่อโฮสต์ควรเป็นชื่อคอมพิวเตอร์ที่เฉพาะเจาะจงที่จะมีการปรับใช้สถานีฮาร์ดแวร์
-    -   **พอร์ต** – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS
-    -   **โพรไฟล์ฮาร์ดแวร์** – ถ้าโพรไฟล์ฮาร์ดแวร์ที่ไม่ได้มีให้ไว้บนสถานีฮาร์ดแวร์เอง จะใช้โพรไฟล์ฮาร์ดแวร์ที่กำหนดให้กับเครื่องบันทึกเงินสด
-    -   **หมายเลข EFT POS** – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต
-    -   **ชื่อบรรจุภัณฑ์** – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์
+1.  <span data-ttu-id="69317-486">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="69317-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="69317-487">แม็ปโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="69317-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="69317-488">สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</span><span class="sxs-lookup"><span data-stu-id="69317-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="69317-489">ไม่จำเป็นต้องมีคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="69317-489">A description is optional.</span></span> <span data-ttu-id="69317-490">**หมายเหตุ:** คุณไม่จำเป็นต้องตั้งค่าคุณสมบัติอื่น ๆ บนสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="69317-491">ข้อมูลที่จำเป็นอื่นๆ ทั้งหมด เช่น โพรไฟล์ฮาร์ดแวร์ จะมาจากเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="69317-492">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="69317-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="69317-493">เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="69317-494">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="69317-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="69317-495">เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="69317-496">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="69317-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="69317-497">ติดตั้งและเปิดใช้งาน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="69317-498">เริ่มการทำงานของ Modern POS สำหรับ Windows และเริ่มต้นการใช้อุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อ</span><span class="sxs-lookup"><span data-stu-id="69317-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
-5.  เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-6.  เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-7.  ติดตั้งสถานีฮาร์ดแวร์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)
-8.  ติดตั้งและเปิดใช้งาน Modern POS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู [การตั้งค่าคอนฟิกและการติดตั้ง Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)
-9.  ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก **ดำเนินงานโดยไม่มีลิ้นชัก**
-10. เริ่มการดำเนินงาน **จัดการสถานีฮาร์ดแวร์**
-11. คลิก **จัดการ**
-12. บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์
-13. เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก **คู่**
-14. หลังจากที่จับคู่สถานีฮาร์ดแวร์แล้ว คลิก **ปิด**
-15. บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="69317-499">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="69317-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน
+<span data-ttu-id="69317-500">สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ที่ใช้โดยเครื่องบันทึกเงินสด POS หนึ่งโดยเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="69317-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="69317-501">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="69317-501">To set up this configuration, follow these steps.</span></span>
 
-สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่ใช้สถานีฮาร์ดแวร์ร่วมกันกับอุปกรณ์อื่น หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้
+1.  <span data-ttu-id="69317-502">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="69317-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="69317-503">สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</span><span class="sxs-lookup"><span data-stu-id="69317-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="69317-504">บนสถานีฮาร์ดแวร์เฉพาะเจาะจง ให้ตั้งค่าคุณสมบัติต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="69317-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="69317-505">**ชื่อโฮสต์** – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน</span><span class="sxs-lookup"><span data-stu-id="69317-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="69317-506">**หมายเหตุ:** Cloud POS สามารถแก้ไข **localhost** เพื่อตรวจสอบเครื่องคอมพิวเตอร์เฉพาะที่ที่ Cloud POS ทำงานได้</span><span class="sxs-lookup"><span data-stu-id="69317-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="69317-507">อย่างไรก็ตาม ใบรับรองที่จำเป็นในการซ่อมแซม Cloud POS กับสถานีฮาร์ดแวร์จะต้องมี "Localhost" เป็นชื่อคอมพิวเตอร์</span><span class="sxs-lookup"><span data-stu-id="69317-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="69317-508">เมื่อต้องการหลีกเลี่ยงปัญหา เราขอแนะนำให้คุณทำรายการอินสแตนซ์ของแต่ละสถานีฮาร์ดแวร์เฉพาะเจาะจงไว้สำหรับร้านค้าตามความจำเป็น</span><span class="sxs-lookup"><span data-stu-id="69317-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="69317-509">สำหรับแต่ละสถานีฮาร์ดแวร์ ชื่อโฮสต์ควรเป็นชื่อคอมพิวเตอร์ที่เฉพาะเจาะจงที่จะมีการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="69317-510">**พอร์ต** – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS</span><span class="sxs-lookup"><span data-stu-id="69317-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="69317-511">**โพรไฟล์ฮาร์ดแวร์** – ถ้าโพรไฟล์ฮาร์ดแวร์ที่ไม่ได้มีให้ไว้บนสถานีฮาร์ดแวร์เอง จะใช้โพรไฟล์ฮาร์ดแวร์ที่กำหนดให้กับเครื่องบันทึกเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="69317-512">**หมายเลข EFT POS** – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT</span><span class="sxs-lookup"><span data-stu-id="69317-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="69317-513">รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="69317-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="69317-514">**ชื่อบรรจุภัณฑ์** – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็น
-2.  สร้างสถานีฮาร์ดแวร์ของชนิด **ที่ใช้ร่วมกัน** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น
-3.  บนสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ให้ตั้งค่าคุณสมบัติต่อไปนี้:
-    -   **ชื่อโฮสต์** – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน
-    -   **คำอธิบาย** – ข้อความที่จะช่วยระบุสถานีฮาร์ดแวร์ เช่น **การส่งคืนสินค้า** หรือ **หน้าร้านค้า**
-    -   **พอร์ต** – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS
-    -   **โพรไฟล์ฮาร์ดแวร์** – สำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน แต่ละสถานีฮาร์ดแวร์ควรมีโพรไฟล์ฮาร์ดแวร์หนึ่งรายการ สามารถใช้โพรไฟล์ฮาร์ดแวร์ร่วมกันระหว่างสถานีฮาร์ดแวร์ต่าง ๆ แต่จะต้องมีการแม็ปสถานีฮาร์ดแวร์แต่ละรายการ นอกจากนั้น เราขอแนะนำให้คุณใช้กะที่ใช้ร่วมกันเมื่ออุปกรณ์หลายรายการใช้สถานีฮาร์ดแวร์ที่ใช้ร่วมกันเดียวกัน เมื่อต้องการตั้งค่ากะที่ใช้ร่วมกัน คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์** สำหรับแต่ละโพรไฟล์ของฮาร์ดแวร์ที่ใช้ร่วมกัน เลือกลิ้นชักเงินสด และตั้งค่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** เป็น **ใช่**
-    -   **หมายเลข EFT POS** – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต
-    -   **ชื่อบรรจุภัณฑ์** – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์
+4.  <span data-ttu-id="69317-515">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="69317-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="69317-516">เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="69317-517">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="69317-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="69317-518">เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="69317-519">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="69317-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="69317-520">ติดตั้งสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-520">Install the hardware station.</span></span> <span data-ttu-id="69317-521">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)</span><span class="sxs-lookup"><span data-stu-id="69317-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="69317-522">ติดตั้งและเปิดใช้งาน Modern POS</span><span class="sxs-lookup"><span data-stu-id="69317-522">Install and activate Modern POS.</span></span> <span data-ttu-id="69317-523">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู [การตั้งค่าคอนฟิกและการติดตั้ง Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="69317-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="69317-524">ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก **ดำเนินงานโดยไม่มีลิ้นชัก**</span><span class="sxs-lookup"><span data-stu-id="69317-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="69317-525">เริ่มการดำเนินงาน **จัดการสถานีฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="69317-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="69317-526">คลิก **จัดการ**</span><span class="sxs-lookup"><span data-stu-id="69317-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="69317-527">บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="69317-528">เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก **คู่**</span><span class="sxs-lookup"><span data-stu-id="69317-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="69317-529">หลังจากที่จับคู่สถานีฮาร์ดแวร์แล้ว คลิก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="69317-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="69317-530">บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="69317-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  ทำซ้ำขั้นตอนที่ 2 และ 3 สำหรับสถานีฮาร์ดแวร์เพิ่มเติมแต่ละรายการที่ต้องใช้ในร้านค้า
-5.  คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
-6.  เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-7.  เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-8.  ติดตั้งสถานีฮาร์ดแวร์บนคอมพิวเตอร์โฮสต์แต่ละเครื่องที่คุณตั้งค่าไว้ในขั้นตอนที่ 2 และ 3 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)
-9.  ติดตั้งและเปิดใช้งาน Modern POS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู [การตั้งค่าคอนฟิกและการติดตั้ง Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)
-10. ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก **ดำเนินงานโดยไม่มีลิ้นชัก**
-11. เริ่มการดำเนินงาน **จัดการสถานีฮาร์ดแวร์**
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="69317-531">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="69317-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. คลิก **จัดการ**
-13. บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์
-14. เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก **คู่**
-15. ทำซ้ำขั้นตอนที่ 14 สำหรับสถานีฮาร์ดแวร์แต่ละเครื่องที่ Modern POS จะใช้
-16. หลังจากที่มีการจับคู่สถานีฮาร์ดแวร์ที่จำเป็นทั้งหมดแล้ว คลิก **ปิด**
-17. บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน **หมายเหตุ:** ถ้าอุปกรณ์มักจะใช้สถานีฮาร์ดแวร์ที่แตกต่างกัน เราขอแนะนำให้คุณตั้งค่าคอนฟิก Modern POS เพื่อพร้อมท์ให้พนักงานเก็บเงินเลือกสถานีฮาร์ดแวร์เมื่อเริ่มต้นขั้นตอนการชำระเงิน คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน** เลือกเครื่องบันทึกเงินสด และจากนั้น ตั้งค่าตัวเลือก **เลือกเมื่อมีการชำระเงิน** เป็น **ใช่** ใช้กำหนดการกระจาย **1090** เพื่อซิงค์การเปลี่ยนแปลงไปยังฐานข้อมูลช่องทาง
+<span data-ttu-id="69317-532">สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่ใช้สถานีฮาร์ดแวร์ร่วมกันกับอุปกรณ์อื่น</span><span class="sxs-lookup"><span data-stu-id="69317-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="69317-533">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="69317-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>เพิ่มความสามารถ
-สำหรับข้อมูลเกี่ยวกับสถานการณ์จำลองของความสามารถในการขยายสำหรับสถานีฮาร์ดแวร์ ให้ดู [ความสามารถในการขยายของสถานีฮาร์ดแวร์](dev-itpro/hardware-station-extensibility.md)
+1.  <span data-ttu-id="69317-534">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="69317-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="69317-535">สร้างสถานีฮาร์ดแวร์ของชนิด **ที่ใช้ร่วมกัน** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</span><span class="sxs-lookup"><span data-stu-id="69317-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="69317-536">บนสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ให้ตั้งค่าคุณสมบัติต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="69317-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="69317-537">**ชื่อโฮสต์** – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน</span><span class="sxs-lookup"><span data-stu-id="69317-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="69317-538">**คำอธิบาย** – ข้อความที่จะช่วยระบุสถานีฮาร์ดแวร์ เช่น **การส่งคืนสินค้า** หรือ **หน้าร้านค้า**</span><span class="sxs-lookup"><span data-stu-id="69317-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="69317-539">**พอร์ต** – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS</span><span class="sxs-lookup"><span data-stu-id="69317-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="69317-540">**โพรไฟล์ฮาร์ดแวร์** – สำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน แต่ละสถานีฮาร์ดแวร์ควรมีโพรไฟล์ฮาร์ดแวร์หนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="69317-541">สามารถใช้โพรไฟล์ฮาร์ดแวร์ร่วมกันระหว่างสถานีฮาร์ดแวร์ต่าง ๆ แต่จะต้องมีการแม็ปสถานีฮาร์ดแวร์แต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="69317-542">นอกจากนั้น เราขอแนะนำให้คุณใช้กะที่ใช้ร่วมกันเมื่ออุปกรณ์หลายรายการใช้สถานีฮาร์ดแวร์ที่ใช้ร่วมกันเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="69317-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="69317-543">เมื่อต้องการตั้งค่ากะที่ใช้ร่วมกัน คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="69317-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="69317-544">สำหรับแต่ละโพรไฟล์ของฮาร์ดแวร์ที่ใช้ร่วมกัน เลือกลิ้นชักเงินสด และตั้งค่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="69317-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="69317-545">**หมายเลข EFT POS** – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT</span><span class="sxs-lookup"><span data-stu-id="69317-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="69317-546">รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="69317-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="69317-547">**ชื่อบรรจุภัณฑ์** – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>ความปลอดภัย
-ตามมาตรฐานความปลอดภัยปัจจุบัน ควรใช้การตั้งค่าต่อไปนี้ในสภาพแวดล้อมการผลิต: **หมายเหตุ:** ตัวติดตั้งสถานีฮาร์ดแวร์จะทำให้การแก้ไขรีจิสทรีเหล่านี้เป็นส่วนหนึ่งของการติดตั้งผ่านระบบบริการตนเองโดยอัตโนมัติ
+4.  <span data-ttu-id="69317-548">ทำซ้ำขั้นตอนที่ 2 และ 3 สำหรับสถานีฮาร์ดแวร์เพิ่มเติมแต่ละรายการที่ต้องใช้ในร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="69317-549">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="69317-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="69317-550">เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="69317-551">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="69317-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="69317-552">เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="69317-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="69317-553">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="69317-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="69317-554">ติดตั้งสถานีฮาร์ดแวร์บนคอมพิวเตอร์โฮสต์แต่ละเครื่องที่คุณตั้งค่าไว้ในขั้นตอนที่ 2 และ 3</span><span class="sxs-lookup"><span data-stu-id="69317-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="69317-555">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)</span><span class="sxs-lookup"><span data-stu-id="69317-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="69317-556">ติดตั้งและเปิดใช้งาน Modern POS</span><span class="sxs-lookup"><span data-stu-id="69317-556">Install and activate Modern POS.</span></span> <span data-ttu-id="69317-557">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู [การตั้งค่าคอนฟิกและการติดตั้ง Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="69317-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="69317-558">ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก **ดำเนินงานโดยไม่มีลิ้นชัก**</span><span class="sxs-lookup"><span data-stu-id="69317-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="69317-559">เริ่มการดำเนินงาน **จัดการสถานีฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="69317-559">Start the **Manage hardware stations** operation.</span></span>
 
--   ควรปิดใช้งาน Secure Sockets Layer (SSL)
--   ควรเปิดใช้งานและใช้เฉพาะ Transport Layer Security (TLS) รุ่น 1.2 (หรือรุ่นสูงสุดปัจจุบัน) **หมายเหตุ:** โดยค่าเริ่มต้น SSL และ TLS ทุกรุ่นยกเว้น TLS 1.2 จะถูกปิดใช้งาน เมื่อต้องการแก้ไขหรือเปิดใช้งานค่าเหล่านี้ ให้ทำตามขั้นตอนเหล่านี้:
-    1.  กดคีย์ โลโก้ Windows + R เพื่อเปิดหน้าต่าง **รัน**
-    2.  ในฟิลด์ **เปิด** พิมพ์ **Regedit** และจากนั้น คลิก **ตกลง**
-    3.  ถ้ากล่องข้อความ **การควบคุมบัญชีผู้ใช้** ปรากฏขึ้น คลิก **ใช่**
-    4.  ในหน้าต่าง **ตัวแก้ไขรีจิสทรี** นำทางไปยัง **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols** คีย์ต่อไปนี้ได้ถูกป้อนโดยอัตโนมัติเพื่ออนุญาตสำหรับ TLS 1.2 เท่านั้น:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   ไม่มีพอร์ตเครือข่ายเพิ่มเติมใดที่ควรเปิดอยู่ เว้นแต่ว่ามีความจำเป็นเนื่องด้วยเหตุผลที่เฉพาะเจาะจงที่รับทราบ
--   ต้องปิดใช้งานการใช้ทรัพยากรข้ามจุดเริ่มต้นร่วมกัน และต้องระบุจุดเริ่มต้นที่อนุญาตที่ได้รับการยอมรับ
--   ควรใช้เฉพาะหน่วยงานที่ออกใบรับรองที่เชื่อถือได้เท่านั้นในการขอรับใบรับรองที่จะใช้บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์
+12. <span data-ttu-id="69317-560">คลิก **จัดการ**</span><span class="sxs-lookup"><span data-stu-id="69317-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="69317-561">บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="69317-562">เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก **คู่**</span><span class="sxs-lookup"><span data-stu-id="69317-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="69317-563">ทำซ้ำขั้นตอนที่ 14 สำหรับสถานีฮาร์ดแวร์แต่ละเครื่องที่ Modern POS จะใช้</span><span class="sxs-lookup"><span data-stu-id="69317-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="69317-564">หลังจากที่มีการจับคู่สถานีฮาร์ดแวร์ที่จำเป็นทั้งหมดแล้ว คลิก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="69317-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="69317-565">บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="69317-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="69317-566">**หมายเหตุ:** ถ้าอุปกรณ์มักจะใช้สถานีฮาร์ดแวร์ที่แตกต่างกัน เราขอแนะนำให้คุณตั้งค่าคอนฟิก Modern POS เพื่อพร้อมท์ให้พนักงานเก็บเงินเลือกสถานีฮาร์ดแวร์เมื่อเริ่มต้นขั้นตอนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="69317-567">คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="69317-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="69317-568">เลือกเครื่องบันทึกเงินสด และจากนั้น ตั้งค่าตัวเลือก **เลือกเมื่อมีการชำระเงิน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="69317-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="69317-569">ใช้กำหนดการกระจาย **1090** เพื่อซิงค์การเปลี่ยนแปลงไปยังฐานข้อมูลช่องทาง</span><span class="sxs-lookup"><span data-stu-id="69317-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**หมายเหตุ:** คุณจำเป็นอย่างยิ่งที่จะต้องตรวจสอบคำแนะนำด้านความปลอดภัยสำหรับ IIS และข้อกำหนดของอุตสาหกรรมบัตรชำระเงิน (PCI)
+## <a name="extensibility"></a><span data-ttu-id="69317-570">เพิ่มความสามารถ</span><span class="sxs-lookup"><span data-stu-id="69317-570">Extensibility</span></span>
+<span data-ttu-id="69317-571">สำหรับข้อมูลเกี่ยวกับสถานการณ์จำลองของความสามารถในการขยายสำหรับสถานีฮาร์ดแวร์ ให้ดู [ความสามารถในการขยายของสถานีฮาร์ดแวร์](dev-itpro/hardware-station-extensibility.md)</span><span class="sxs-lookup"><span data-stu-id="69317-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>โปรแกรมจำลองอุปกรณ์ต่อพ่วง
-สำหรับข้อมูล ให้ดู [โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก](dev-itpro/retail-peripheral-simulator.md)
+## <a name="security"></a><span data-ttu-id="69317-572">ความปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="69317-572">Security</span></span>
+<span data-ttu-id="69317-573">ตามมาตรฐานความปลอดภัยปัจจุบัน ควรใช้การตั้งค่าต่อไปนี้ในสภาพแวดล้อมการผลิต: **หมายเหตุ:** ตัวติดตั้งสถานีฮาร์ดแวร์จะทำให้การแก้ไขรีจิสทรีเหล่านี้เป็นส่วนหนึ่งของการติดตั้งผ่านระบบบริการตนเองโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="69317-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>อุปกรณ์ต่อพ่วง Microsofttested
-### <a name="ipc-built-in-hardware-station"></a>สถานีฮาร์ดแวร์ IPC (ในตัว)
+-   <span data-ttu-id="69317-574">ควรปิดใช้งาน Secure Sockets Layer (SSL)</span><span class="sxs-lookup"><span data-stu-id="69317-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="69317-575">ควรเปิดใช้งานและใช้เฉพาะ Transport Layer Security (TLS) รุ่น 1.2 (หรือรุ่นสูงสุดปัจจุบัน)</span><span class="sxs-lookup"><span data-stu-id="69317-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="69317-576">**หมายเหตุ:** โดยค่าเริ่มต้น SSL และ TLS ทุกรุ่นยกเว้น TLS 1.2 จะถูกปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="69317-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="69317-577">เมื่อต้องการแก้ไขหรือเปิดใช้งานค่าเหล่านี้ ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="69317-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="69317-578">กดคีย์ โลโก้ Windows + R เพื่อเปิดหน้าต่าง **รัน**</span><span class="sxs-lookup"><span data-stu-id="69317-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="69317-579">ในฟิลด์ **เปิด** พิมพ์ **Regedit** และจากนั้น คลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="69317-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="69317-580">ถ้ากล่องข้อความ **การควบคุมบัญชีผู้ใช้** ปรากฏขึ้น คลิก **ใช่**</span><span class="sxs-lookup"><span data-stu-id="69317-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="69317-581">ในหน้าต่าง **ตัวแก้ไขรีจิสทรี** นำทางไปยัง **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**</span><span class="sxs-lookup"><span data-stu-id="69317-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="69317-582">คีย์ต่อไปนี้ได้ถูกป้อนโดยอัตโนมัติเพื่ออนุญาตสำหรับ TLS 1.2 เท่านั้น:</span><span class="sxs-lookup"><span data-stu-id="69317-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="69317-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="69317-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="69317-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="69317-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="69317-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="69317-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="69317-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="69317-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="69317-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="69317-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="69317-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="69317-595">ไม่มีพอร์ตเครือข่ายเพิ่มเติมใดที่ควรเปิดอยู่ เว้นแต่ว่ามีความจำเป็นเนื่องด้วยเหตุผลที่เฉพาะเจาะจงที่รับทราบ</span><span class="sxs-lookup"><span data-stu-id="69317-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="69317-596">ต้องปิดใช้งานการใช้ทรัพยากรข้ามจุดเริ่มต้นร่วมกัน และต้องระบุจุดเริ่มต้นที่อนุญาตที่ได้รับการยอมรับ</span><span class="sxs-lookup"><span data-stu-id="69317-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="69317-597">ควรใช้เฉพาะหน่วยงานที่ออกใบรับรองที่เชื่อถือได้เท่านั้นในการขอรับใบรับรองที่จะใช้บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-อุปกรณ์ต่อพ่วงต่อไปนี้ได้รับการทดสอบโดยใช้สถานีฮาร์ดแวร์ของ IPC ที่มีอยู่ใน Modern POS สำหรับ Windows
+<span data-ttu-id="69317-598">**หมายเหตุ:** คุณจำเป็นอย่างยิ่งที่จะต้องตรวจสอบคำแนะนำด้านความปลอดภัยสำหรับ IIS และข้อกำหนดของอุตสาหกรรมบัตรชำระเงิน (PCI)</span><span class="sxs-lookup"><span data-stu-id="69317-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>เครื่องพิมพ์
+## <a name="peripheral-simulator"></a><span data-ttu-id="69317-599">โปรแกรมจำลองอุปกรณ์ต่อพ่วง</span><span class="sxs-lookup"><span data-stu-id="69317-599">Peripheral simulator</span></span>
+<span data-ttu-id="69317-600">สำหรับข้อมูล ให้ดู [โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก](dev-itpro/retail-peripheral-simulator.md)</span><span class="sxs-lookup"><span data-stu-id="69317-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| ผู้ผลิต | รุ่น    | อินเทอร์เฟส | ข้อคิดเห็น                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="69317-601">อุปกรณ์ต่อพ่วง Microsofttested</span><span class="sxs-lookup"><span data-stu-id="69317-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="69317-602">สถานีฮาร์ดแวร์ IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="69317-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="69317-603">อุปกรณ์ต่อพ่วงต่อไปนี้ได้รับการทดสอบโดยใช้สถานีฮาร์ดแวร์ของ IPC ที่มีอยู่ใน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="69317-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="69317-604">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-604">Printer</span></span>
+
+| <span data-ttu-id="69317-605">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-605">Manufacturer</span></span> | <span data-ttu-id="69317-606">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-606">Model</span></span>    | <span data-ttu-id="69317-607">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-607">Interface</span></span> | <span data-ttu-id="69317-608">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย   |
-| Star         | mPOP     | OPOS      | เชื่อมต่อผ่านบลูทูธ |
-| HP           | F7M67AA  | OPOS      | USB ที่มีการจัดการ             |
+| <span data-ttu-id="69317-609">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-609">Epson</span></span>        | <span data-ttu-id="69317-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="69317-610">Tm-T88IV</span></span> | <span data-ttu-id="69317-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="69317-612">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-612">Epson</span></span>        | <span data-ttu-id="69317-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="69317-613">TM-T88V</span></span>  | <span data-ttu-id="69317-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="69317-615">Star</span><span class="sxs-lookup"><span data-stu-id="69317-615">Star</span></span>         | <span data-ttu-id="69317-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-616">TSP650II</span></span> | <span data-ttu-id="69317-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="69317-618">Star</span><span class="sxs-lookup"><span data-stu-id="69317-618">Star</span></span>         | <span data-ttu-id="69317-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-619">TSP650II</span></span> | <span data-ttu-id="69317-620">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-620">Custom</span></span>    | <span data-ttu-id="69317-621">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-621">Connected via network</span></span>   |
+| <span data-ttu-id="69317-622">Star</span><span class="sxs-lookup"><span data-stu-id="69317-622">Star</span></span>         | <span data-ttu-id="69317-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="69317-623">mPOP</span></span>     | <span data-ttu-id="69317-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-624">OPOS</span></span>      | <span data-ttu-id="69317-625">เชื่อมต่อผ่านบลูทูธ</span><span class="sxs-lookup"><span data-stu-id="69317-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="69317-626">HP</span><span class="sxs-lookup"><span data-stu-id="69317-626">HP</span></span>           | <span data-ttu-id="69317-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="69317-627">F7M67AA</span></span>  | <span data-ttu-id="69317-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-628">OPOS</span></span>      | <span data-ttu-id="69317-629">USB ที่มีการจัดการ</span><span class="sxs-lookup"><span data-stu-id="69317-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>สแกนเนอร์บาร์โค้ด
+#### <a name="bar-code-scanner"></a><span data-ttu-id="69317-630">สแกนเนอร์บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="69317-630">Bar code scanner</span></span>
 
-| ผู้ผลิต  | รุ่น         | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-631">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-631">Manufacturer</span></span>  | <span data-ttu-id="69317-632">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-632">Model</span></span>         | <span data-ttu-id="69317-633">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-633">Interface</span></span> | <span data-ttu-id="69317-634">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| สัญลักษณ์        | LS2208        | OPOS      |          |
-| HP Integrated | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="69317-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="69317-635">Motorola</span></span>      | <span data-ttu-id="69317-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="69317-636">DS9208</span></span>        | <span data-ttu-id="69317-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-637">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="69317-638">Honeywell</span></span>     | <span data-ttu-id="69317-639">1900</span><span class="sxs-lookup"><span data-stu-id="69317-639">1900</span></span>          | <span data-ttu-id="69317-640">UWP</span><span class="sxs-lookup"><span data-stu-id="69317-640">UWP</span></span>       |          |
+| <span data-ttu-id="69317-641">สัญลักษณ์</span><span class="sxs-lookup"><span data-stu-id="69317-641">Symbol</span></span>        | <span data-ttu-id="69317-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="69317-642">LS2208</span></span>        | <span data-ttu-id="69317-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-643">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-644">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="69317-644">HP Integrated</span></span> | <span data-ttu-id="69317-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="69317-645">E1L07AA</span></span>       | <span data-ttu-id="69317-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-646">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="69317-647">Datalogic</span></span>     | <span data-ttu-id="69317-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="69317-648">Magellan 8400</span></span> | <span data-ttu-id="69317-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>แป้นกดรหัส
+#### <a name="pin-pad"></a><span data-ttu-id="69317-650">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="69317-650">PIN pad</span></span>
 
-| ผู้ผลิต | รุ่น  | อินเทอร์เฟส | ข้อคิดเห็น                                        |
+| <span data-ttu-id="69317-651">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-651">Manufacturer</span></span> | <span data-ttu-id="69317-652">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-652">Model</span></span>  | <span data-ttu-id="69317-653">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-653">Interface</span></span> | <span data-ttu-id="69317-654">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน |
+| <span data-ttu-id="69317-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-655">VeriFone</span></span>     | <span data-ttu-id="69317-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="69317-656">1000SE</span></span> | <span data-ttu-id="69317-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-657">OPOS</span></span>      | <span data-ttu-id="69317-658">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>เทอร์มินัลการชำระเงิน 
+#### <a name="payment-terminal"></a><span data-ttu-id="69317-659">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-659">Payment terminal</span></span>
 
-| ผู้ผลิต | รุ่น | อินเทอร์เฟส | ข้อคิดเห็น                                                                       |
+| <span data-ttu-id="69317-660">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-660">Manufacturer</span></span> | <span data-ttu-id="69317-661">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-661">Model</span></span> | <span data-ttu-id="69317-662">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-662">Interface</span></span> | <span data-ttu-id="69317-663">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน                                |
-| VeriFone     | MX925 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB |
-| VeriFone     | MX915 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB |
+| <span data-ttu-id="69317-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="69317-664">Equinox</span></span>      | <span data-ttu-id="69317-665">L5300</span><span class="sxs-lookup"><span data-stu-id="69317-665">L5300</span></span> | <span data-ttu-id="69317-666">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-666">Custom</span></span>    | <span data-ttu-id="69317-667">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="69317-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-668">VeriFone</span></span>     | <span data-ttu-id="69317-669">MX925</span><span class="sxs-lookup"><span data-stu-id="69317-669">MX925</span></span> | <span data-ttu-id="69317-670">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-670">Custom</span></span>    | <span data-ttu-id="69317-671">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="69317-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="69317-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-672">VeriFone</span></span>     | <span data-ttu-id="69317-673">MX915</span><span class="sxs-lookup"><span data-stu-id="69317-673">MX915</span></span> | <span data-ttu-id="69317-674">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-674">Custom</span></span>    | <span data-ttu-id="69317-675">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="69317-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>ลิ้นชักเงินสด
+#### <a name="cash-drawer"></a><span data-ttu-id="69317-676">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-676">Cash drawer</span></span>
 
-| ผู้ผลิต | รุ่น     | อินเทอร์เฟส | ข้อคิดเห็น                |
+| <span data-ttu-id="69317-677">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-677">Manufacturer</span></span> | <span data-ttu-id="69317-678">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-678">Model</span></span>     | <span data-ttu-id="69317-679">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-679">Interface</span></span> | <span data-ttu-id="69317-680">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | เชื่อมต่อผ่านบลูทูธ |
-| APG          | Atwood    | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="69317-681">Star</span><span class="sxs-lookup"><span data-stu-id="69317-681">Star</span></span>         | <span data-ttu-id="69317-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="69317-682">mPOP</span></span>      | <span data-ttu-id="69317-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-683">OPOS</span></span>      | <span data-ttu-id="69317-684">เชื่อมต่อผ่านบลูทูธ</span><span class="sxs-lookup"><span data-stu-id="69317-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="69317-685">APG</span><span class="sxs-lookup"><span data-stu-id="69317-685">APG</span></span>          | <span data-ttu-id="69317-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="69317-686">Atwood</span></span>    | <span data-ttu-id="69317-687">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-687">Custom</span></span>    | <span data-ttu-id="69317-688">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-688">Connected via network</span></span>   |
+| <span data-ttu-id="69317-689">Star</span><span class="sxs-lookup"><span data-stu-id="69317-689">Star</span></span>         | <span data-ttu-id="69317-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="69317-690">SMD2-1317</span></span> | <span data-ttu-id="69317-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="69317-692">HP</span><span class="sxs-lookup"><span data-stu-id="69317-692">HP</span></span>           | <span data-ttu-id="69317-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="69317-693">QT457AA</span></span>   | <span data-ttu-id="69317-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>จอแสดงผลรายการ
+#### <a name="line-display"></a><span data-ttu-id="69317-695">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-695">Line display</span></span>
 
-| ผู้ผลิต  | รุ่น   | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-696">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-696">Manufacturer</span></span>  | <span data-ttu-id="69317-697">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-697">Model</span></span>   | <span data-ttu-id="69317-698">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-698">Interface</span></span> | <span data-ttu-id="69317-699">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="69317-700">HP integrated</span><span class="sxs-lookup"><span data-stu-id="69317-700">HP integrated</span></span> | <span data-ttu-id="69317-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="69317-701">G6U79AA</span></span> | <span data-ttu-id="69317-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-702">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-703">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-703">Epson</span></span>         | <span data-ttu-id="69317-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="69317-704">M58DC</span></span>   | <span data-ttu-id="69317-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>การเก็บบันทึกลายเซ็น
+#### <a name="signature-capture"></a><span data-ttu-id="69317-706">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="69317-706">Signature capture</span></span>
 
-| ผู้ผลิต | รุ่น  | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-707">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-707">Manufacturer</span></span> | <span data-ttu-id="69317-708">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-708">Model</span></span>  | <span data-ttu-id="69317-709">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-709">Interface</span></span> | <span data-ttu-id="69317-710">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="69317-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="69317-711">Scriptel</span></span>     | <span data-ttu-id="69317-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="69317-712">ST1550</span></span> | <span data-ttu-id="69317-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>สเกล
+#### <a name="scale"></a><span data-ttu-id="69317-714">สเกล</span><span class="sxs-lookup"><span data-stu-id="69317-714">Scale</span></span>
 
-| ผู้ผลิต | รุ่น         | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-715">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-715">Manufacturer</span></span> | <span data-ttu-id="69317-716">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-716">Model</span></span>         | <span data-ttu-id="69317-717">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-717">Interface</span></span> | <span data-ttu-id="69317-718">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="69317-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="69317-719">Datalogic</span></span>    | <span data-ttu-id="69317-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="69317-720">Magellan 8400</span></span> | <span data-ttu-id="69317-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="69317-722">MSR</span><span class="sxs-lookup"><span data-stu-id="69317-722">MSR</span></span>
 
-| ผู้ผลิต | รุ่น       | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-723">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-723">Manufacturer</span></span> | <span data-ttu-id="69317-724">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-724">Model</span></span>       | <span data-ttu-id="69317-725">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-725">Interface</span></span> | <span data-ttu-id="69317-726">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="69317-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="69317-727">Magtek</span></span>       | <span data-ttu-id="69317-728">21073075</span><span class="sxs-lookup"><span data-stu-id="69317-728">21073075</span></span>    | <span data-ttu-id="69317-729">UWP</span><span class="sxs-lookup"><span data-stu-id="69317-729">UWP</span></span>       |          |
+| <span data-ttu-id="69317-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="69317-730">Magtek</span></span>       | <span data-ttu-id="69317-731">21073062</span><span class="sxs-lookup"><span data-stu-id="69317-731">21073062</span></span>    | <span data-ttu-id="69317-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-732">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-733">HP</span><span class="sxs-lookup"><span data-stu-id="69317-733">HP</span></span>           | <span data-ttu-id="69317-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="69317-734">IDRA-334133</span></span> | <span data-ttu-id="69317-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>สถานีฮาร์ดแวร์ของ IIS เฉพาะเจาะจง
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="69317-736">สถานีฮาร์ดแวร์ของ IIS เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="69317-736">Dedicated IIS hardware station</span></span>
 
-อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS เฉพาะเจาะจง (ไม่ใช่ที่ใช้ร่วมกัน) กับ Modern POS สำหรับ Windows และ Cloud POS
+<span data-ttu-id="69317-737">อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS เฉพาะเจาะจง (ไม่ใช่ที่ใช้ร่วมกัน) กับ Modern POS สำหรับ Windows และ Cloud POS</span><span class="sxs-lookup"><span data-stu-id="69317-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>เครื่องพิมพ์
+#### <a name="printer"></a><span data-ttu-id="69317-738">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-738">Printer</span></span>
 
-| ผู้ผลิต | รุ่น    | อินเทอร์เฟส | ข้อคิดเห็น                  |
+| <span data-ttu-id="69317-739">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-739">Manufacturer</span></span> | <span data-ttu-id="69317-740">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-740">Model</span></span>    | <span data-ttu-id="69317-741">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-741">Interface</span></span> | <span data-ttu-id="69317-742">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย     |
-| Star         | TSP100   | OPOS      | จำเป็นต้องมีโปรแกรมควบคุม TSP650II |
-| HP           | F7M67AA  | OPOS      | USB ที่มีการจัดการ               |
+| <span data-ttu-id="69317-743">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-743">Epson</span></span>        | <span data-ttu-id="69317-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="69317-744">Tm-T88IV</span></span> | <span data-ttu-id="69317-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="69317-746">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-746">Epson</span></span>        | <span data-ttu-id="69317-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="69317-747">TM-T88V</span></span>  | <span data-ttu-id="69317-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="69317-749">Star</span><span class="sxs-lookup"><span data-stu-id="69317-749">Star</span></span>         | <span data-ttu-id="69317-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-750">TSP650II</span></span> | <span data-ttu-id="69317-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="69317-752">Star</span><span class="sxs-lookup"><span data-stu-id="69317-752">Star</span></span>         | <span data-ttu-id="69317-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-753">TSP650II</span></span> | <span data-ttu-id="69317-754">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-754">Custom</span></span>    | <span data-ttu-id="69317-755">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-755">Connected via network</span></span>     |
+| <span data-ttu-id="69317-756">Star</span><span class="sxs-lookup"><span data-stu-id="69317-756">Star</span></span>         | <span data-ttu-id="69317-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="69317-757">TSP100</span></span>   | <span data-ttu-id="69317-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-758">OPOS</span></span>      | <span data-ttu-id="69317-759">จำเป็นต้องมีโปรแกรมควบคุม TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="69317-760">HP</span><span class="sxs-lookup"><span data-stu-id="69317-760">HP</span></span>           | <span data-ttu-id="69317-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="69317-761">F7M67AA</span></span>  | <span data-ttu-id="69317-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-762">OPOS</span></span>      | <span data-ttu-id="69317-763">USB ที่มีการจัดการ</span><span class="sxs-lookup"><span data-stu-id="69317-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>สแกนเนอร์บาร์โค้ด
+#### <a name="bar-code-scanner"></a><span data-ttu-id="69317-764">สแกนเนอร์บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="69317-764">Bar code scanner</span></span>
 
-| ผู้ผลิต  | รุ่น   | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-765">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-765">Manufacturer</span></span>  | <span data-ttu-id="69317-766">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-766">Model</span></span>   | <span data-ttu-id="69317-767">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-767">Interface</span></span> | <span data-ttu-id="69317-768">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| สัญลักษณ์        | LS2208  | OPOS      |          |
-| HP Integrated | E1L07AA | OPOS      |          |
+| <span data-ttu-id="69317-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="69317-769">Motorola</span></span>      | <span data-ttu-id="69317-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="69317-770">DS9208</span></span>  | <span data-ttu-id="69317-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-771">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-772">สัญลักษณ์</span><span class="sxs-lookup"><span data-stu-id="69317-772">Symbol</span></span>        | <span data-ttu-id="69317-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="69317-773">LS2208</span></span>  | <span data-ttu-id="69317-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-774">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-775">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="69317-775">HP Integrated</span></span> | <span data-ttu-id="69317-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="69317-776">E1L07AA</span></span> | <span data-ttu-id="69317-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>แป้นกดรหัส
+#### <a name="pin-pad"></a><span data-ttu-id="69317-778">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="69317-778">PIN pad</span></span>
 
-| ผู้ผลิต | รุ่น  | อินเทอร์เฟส | ข้อคิดเห็น                                        |
+| <span data-ttu-id="69317-779">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-779">Manufacturer</span></span> | <span data-ttu-id="69317-780">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-780">Model</span></span>  | <span data-ttu-id="69317-781">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-781">Interface</span></span> | <span data-ttu-id="69317-782">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน |
+| <span data-ttu-id="69317-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-783">VeriFone</span></span>     | <span data-ttu-id="69317-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="69317-784">1000SE</span></span> | <span data-ttu-id="69317-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-785">OPOS</span></span>      | <span data-ttu-id="69317-786">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>เทอร์มินัลการชำระเงิน 
+#### <a name="payment-terminal"></a><span data-ttu-id="69317-787">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-787">Payment terminal</span></span>
 
-| ผู้ผลิต | รุ่น | อินเทอร์เฟส | ข้อคิดเห็น                                                                       |
+| <span data-ttu-id="69317-788">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-788">Manufacturer</span></span> | <span data-ttu-id="69317-789">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-789">Model</span></span> | <span data-ttu-id="69317-790">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-790">Interface</span></span> | <span data-ttu-id="69317-791">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน                                |
-| VeriFone     | MX925 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB |
-| VeriFone     | MX915 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB |
+| <span data-ttu-id="69317-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="69317-792">Equinox</span></span>      | <span data-ttu-id="69317-793">L5300</span><span class="sxs-lookup"><span data-stu-id="69317-793">L5300</span></span> | <span data-ttu-id="69317-794">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-794">Custom</span></span>    | <span data-ttu-id="69317-795">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="69317-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="69317-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-796">VeriFone</span></span>     | <span data-ttu-id="69317-797">MX925</span><span class="sxs-lookup"><span data-stu-id="69317-797">MX925</span></span> | <span data-ttu-id="69317-798">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-798">Custom</span></span>    | <span data-ttu-id="69317-799">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="69317-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="69317-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-800">VeriFone</span></span>     | <span data-ttu-id="69317-801">MX915</span><span class="sxs-lookup"><span data-stu-id="69317-801">MX915</span></span> | <span data-ttu-id="69317-802">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-802">Custom</span></span>    | <span data-ttu-id="69317-803">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="69317-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>ลิ้นชักเงินสด
+#### <a name="cash-drawer"></a><span data-ttu-id="69317-804">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-804">Cash drawer</span></span>
 
-| ผู้ผลิต | รุ่น     | อินเทอร์เฟส | ข้อคิดเห็น              |
+| <span data-ttu-id="69317-805">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-805">Manufacturer</span></span> | <span data-ttu-id="69317-806">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-806">Model</span></span>     | <span data-ttu-id="69317-807">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-807">Interface</span></span> | <span data-ttu-id="69317-808">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="69317-809">APG</span><span class="sxs-lookup"><span data-stu-id="69317-809">APG</span></span>          | <span data-ttu-id="69317-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="69317-810">Atwood</span></span>    | <span data-ttu-id="69317-811">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-811">Custom</span></span>    | <span data-ttu-id="69317-812">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-812">Connected via network</span></span> |
+| <span data-ttu-id="69317-813">Star</span><span class="sxs-lookup"><span data-stu-id="69317-813">Star</span></span>         | <span data-ttu-id="69317-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="69317-814">SMD2-1317</span></span> | <span data-ttu-id="69317-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="69317-816">HP</span><span class="sxs-lookup"><span data-stu-id="69317-816">HP</span></span>           | <span data-ttu-id="69317-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="69317-817">QT457AA</span></span>   | <span data-ttu-id="69317-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>จอแสดงผลรายการ
+#### <a name="line-display"></a><span data-ttu-id="69317-819">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-819">Line display</span></span>
 
-| ผู้ผลิต  | รุ่น   | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-820">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-820">Manufacturer</span></span>  | <span data-ttu-id="69317-821">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-821">Model</span></span>   | <span data-ttu-id="69317-822">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-822">Interface</span></span> | <span data-ttu-id="69317-823">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="69317-824">HP integrated</span><span class="sxs-lookup"><span data-stu-id="69317-824">HP integrated</span></span> | <span data-ttu-id="69317-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="69317-825">G6U79AA</span></span> | <span data-ttu-id="69317-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-826">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-827">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-827">Epson</span></span>         | <span data-ttu-id="69317-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="69317-828">M58DC</span></span>   | <span data-ttu-id="69317-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>การเก็บบันทึกลายเซ็น
+#### <a name="signature-capture"></a><span data-ttu-id="69317-830">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="69317-830">Signature capture</span></span>
 
-| ผู้ผลิต | รุ่น  | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-831">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-831">Manufacturer</span></span> | <span data-ttu-id="69317-832">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-832">Model</span></span>  | <span data-ttu-id="69317-833">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-833">Interface</span></span> | <span data-ttu-id="69317-834">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="69317-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="69317-835">Scriptel</span></span>     | <span data-ttu-id="69317-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="69317-836">ST1550</span></span> | <span data-ttu-id="69317-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>สเกล
+#### <a name="scale"></a><span data-ttu-id="69317-838">สเกล</span><span class="sxs-lookup"><span data-stu-id="69317-838">Scale</span></span>
 
-| ผู้ผลิต | รุ่น         | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-839">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-839">Manufacturer</span></span> | <span data-ttu-id="69317-840">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-840">Model</span></span>         | <span data-ttu-id="69317-841">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-841">Interface</span></span> | <span data-ttu-id="69317-842">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="69317-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="69317-843">Datalogic</span></span>    | <span data-ttu-id="69317-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="69317-844">Magellan 8400</span></span> | <span data-ttu-id="69317-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="69317-846">MSR</span><span class="sxs-lookup"><span data-stu-id="69317-846">MSR</span></span>
 
-| ผู้ผลิต | รุ่น       | อินเทอร์เฟส | ข้อคิดเห็น |
+| <span data-ttu-id="69317-847">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-847">Manufacturer</span></span> | <span data-ttu-id="69317-848">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-848">Model</span></span>       | <span data-ttu-id="69317-849">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-849">Interface</span></span> | <span data-ttu-id="69317-850">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="69317-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="69317-851">Magtek</span></span>       | <span data-ttu-id="69317-852">21073075</span><span class="sxs-lookup"><span data-stu-id="69317-852">21073075</span></span>    | <span data-ttu-id="69317-853">UWP</span><span class="sxs-lookup"><span data-stu-id="69317-853">UWP</span></span>       |          |
+| <span data-ttu-id="69317-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="69317-854">Magtek</span></span>       | <span data-ttu-id="69317-855">21073062</span><span class="sxs-lookup"><span data-stu-id="69317-855">21073062</span></span>    | <span data-ttu-id="69317-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-856">OPOS</span></span>      |          |
+| <span data-ttu-id="69317-857">HP</span><span class="sxs-lookup"><span data-stu-id="69317-857">HP</span></span>           | <span data-ttu-id="69317-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="69317-858">IDRA-334133</span></span> | <span data-ttu-id="69317-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>สถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="69317-860">สถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="69317-860">Shared IIS hardware station</span></span>
 
-อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS ที่ใช้ร่วมกันกับ Modern POS สำหรับ Windows และ Cloud POS **หมายเหตุ:** สนับสนุนเฉพาะเครื่องพิมพ์ เทอร์มินัลการชำระเงิน และลิ้นชักเงินสด
+<span data-ttu-id="69317-861">อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS ที่ใช้ร่วมกันกับ Modern POS สำหรับ Windows และ Cloud POS</span><span class="sxs-lookup"><span data-stu-id="69317-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="69317-862">**หมายเหตุ:** สนับสนุนเฉพาะเครื่องพิมพ์ เทอร์มินัลการชำระเงิน และลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>เครื่องพิมพ์
+#### <a name="printer"></a><span data-ttu-id="69317-863">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="69317-863">Printer</span></span>
 
-| ผู้ผลิต | รุ่น    | อินเทอร์เฟส | ข้อคิดเห็น                  |
+| <span data-ttu-id="69317-864">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-864">Manufacturer</span></span> | <span data-ttu-id="69317-865">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-865">Model</span></span>    | <span data-ttu-id="69317-866">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-866">Interface</span></span> | <span data-ttu-id="69317-867">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย     |
-| Star         | TSP100   | OPOS      | จำเป็นต้องมีโปรแกรมควบคุม TSP650II |
-| HP           | F7M67AA  | OPOS      | USB ที่มีการจัดการ               |
+| <span data-ttu-id="69317-868">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-868">Epson</span></span>        | <span data-ttu-id="69317-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="69317-869">Tm-T88IV</span></span> | <span data-ttu-id="69317-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="69317-871">Epson</span><span class="sxs-lookup"><span data-stu-id="69317-871">Epson</span></span>        | <span data-ttu-id="69317-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="69317-872">TM-T88V</span></span>  | <span data-ttu-id="69317-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="69317-874">Star</span><span class="sxs-lookup"><span data-stu-id="69317-874">Star</span></span>         | <span data-ttu-id="69317-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-875">TSP650II</span></span> | <span data-ttu-id="69317-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="69317-877">Star</span><span class="sxs-lookup"><span data-stu-id="69317-877">Star</span></span>         | <span data-ttu-id="69317-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-878">TSP650II</span></span> | <span data-ttu-id="69317-879">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-879">Custom</span></span>    | <span data-ttu-id="69317-880">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-880">Connected via network</span></span>     |
+| <span data-ttu-id="69317-881">Star</span><span class="sxs-lookup"><span data-stu-id="69317-881">Star</span></span>         | <span data-ttu-id="69317-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="69317-882">TSP100</span></span>   | <span data-ttu-id="69317-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-883">OPOS</span></span>      | <span data-ttu-id="69317-884">จำเป็นต้องมีโปรแกรมควบคุม TSP650II</span><span class="sxs-lookup"><span data-stu-id="69317-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="69317-885">HP</span><span class="sxs-lookup"><span data-stu-id="69317-885">HP</span></span>           | <span data-ttu-id="69317-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="69317-886">F7M67AA</span></span>  | <span data-ttu-id="69317-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-887">OPOS</span></span>      | <span data-ttu-id="69317-888">USB ที่มีการจัดการ</span><span class="sxs-lookup"><span data-stu-id="69317-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>เทอร์มินัลการชำระเงิน 
+#### <a name="payment-terminal"></a><span data-ttu-id="69317-889">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-889">Payment terminal</span></span>
 
-| ผู้ผลิต | รุ่น | อินเทอร์เฟส | ข้อคิดเห็น                                                                       |
+| <span data-ttu-id="69317-890">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-890">Manufacturer</span></span> | <span data-ttu-id="69317-891">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-891">Model</span></span> | <span data-ttu-id="69317-892">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-892">Interface</span></span> | <span data-ttu-id="69317-893">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB |
-| VeriFone     | MX915 | กำหนดเอง    | จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB |
+| <span data-ttu-id="69317-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-894">VeriFone</span></span>     | <span data-ttu-id="69317-895">MX925</span><span class="sxs-lookup"><span data-stu-id="69317-895">MX925</span></span> | <span data-ttu-id="69317-896">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-896">Custom</span></span>    | <span data-ttu-id="69317-897">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="69317-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="69317-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="69317-898">VeriFone</span></span>     | <span data-ttu-id="69317-899">MX915</span><span class="sxs-lookup"><span data-stu-id="69317-899">MX915</span></span> | <span data-ttu-id="69317-900">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-900">Custom</span></span>    | <span data-ttu-id="69317-901">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="69317-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>ลิ้นชักเงินสด
+#### <a name="cash-drawer"></a><span data-ttu-id="69317-902">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-902">Cash drawer</span></span>
 
-| ผู้ผลิต | รุ่น     | อินเทอร์เฟส | ข้อคิดเห็น              |
+| <span data-ttu-id="69317-903">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="69317-903">Manufacturer</span></span> | <span data-ttu-id="69317-904">รุ่น</span><span class="sxs-lookup"><span data-stu-id="69317-904">Model</span></span>     | <span data-ttu-id="69317-905">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="69317-905">Interface</span></span> | <span data-ttu-id="69317-906">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="69317-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="69317-907">APG</span><span class="sxs-lookup"><span data-stu-id="69317-907">APG</span></span>          | <span data-ttu-id="69317-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="69317-908">Atwood</span></span>    | <span data-ttu-id="69317-909">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="69317-909">Custom</span></span>    | <span data-ttu-id="69317-910">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="69317-910">Connected via network</span></span> |
+| <span data-ttu-id="69317-911">Star</span><span class="sxs-lookup"><span data-stu-id="69317-911">Star</span></span>         | <span data-ttu-id="69317-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="69317-912">SMD2-1317</span></span> | <span data-ttu-id="69317-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="69317-914">HP</span><span class="sxs-lookup"><span data-stu-id="69317-914">HP</span></span>           | <span data-ttu-id="69317-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="69317-915">QT457AA</span></span>   | <span data-ttu-id="69317-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="69317-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>การแก้ไขปัญหา
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการตัวเลือก แต่จะไม่สามารถทำการจับคู่ให้เสร็จสมบูรณ์ได้
+## <a name="troubleshooting"></a><span data-ttu-id="69317-917">การแก้ไขปัญหา</span><span class="sxs-lookup"><span data-stu-id="69317-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="69317-918">Modern POS สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการตัวเลือก แต่จะไม่สามารถทำการจับคู่ให้เสร็จสมบูรณ์ได้</span><span class="sxs-lookup"><span data-stu-id="69317-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**โซลูชัน:** ตรวจสอบรายการจุดข้อผิดพลาดที่อาจมีได้ต่อไปนี้:
+<span data-ttu-id="69317-919">**โซลูชัน:** ตรวจสอบรายการจุดข้อผิดพลาดที่อาจมีได้ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="69317-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   คอมพิวเตอร์ที่กำลังรัน Modern POS เชื่อถือใบรับรองที่ใช้บนคอมพิวเตอร์ที่รันในสถานีฮาร์ดแวร์
-    -   เมื่อต้องการตรวจสอบการตั้งค่านี้ ในเว็บเบราว์เซอร์ ไปที่ URL ต่อไปนี้: https://&lt;ชื่อคอมพิวเตอร์&gt;:&lt;หมายเลขพอร์ต&gt;/HardwareStation/ping
-    -   URL นี้ใช้ ping เพื่อตรวจสอบว่าสามารถเข้าถึงคอมพิวเตอร์ได้หรือไม่ และเบราว์เซอร์จะบ่งชี้ว่าใบรับรองเชื่อถือได้หรือไม่ (ตัวอย่างเช่น ใน Internet Explorer ไอคอนล็อกจะปรากฏในแถบที่อยู่ เมื่อคุณคลิกไอคอนนี้ Internet Explorer จะตรวจสอบว่าใบรับรองนั้น ๆ ได้รับการเชื่อถือในขณะนี้หรือไม่ คุณสามารถติดตั้งใบรับรองบนคอมพิวเตอร์เฉพาะที่ได้โดยการดูรายละเอียดของใบรับรองที่แสดงอยู่)
--   บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์ พอร์ตที่จะถูกใช้โดยสถานีฮาร์ดแวร์จะถูกเปิดในไฟร์วอลล์
--   สถานีฮาร์ดแวร์ได้ติดตั้งข้อมูลบัญชีร้านค้าอย่างถูกต้องผ่านเครื่องมือติดตั้งข้อมูลร้านค้าที่รันเมื่อสิ้นสุดการทำงานของโปรแกรมติดตั้งสถานีฮาร์ดแวร์
+-   <span data-ttu-id="69317-920">คอมพิวเตอร์ที่กำลังรัน Modern POS เชื่อถือใบรับรองที่ใช้บนคอมพิวเตอร์ที่รันในสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="69317-921">เมื่อต้องการตรวจสอบการตั้งค่านี้ ในเว็บเบราว์เซอร์ ไปที่ URL ต่อไปนี้: https://&lt;ชื่อคอมพิวเตอร์&gt;:&lt;หมายเลขพอร์ต&gt;/HardwareStation/ping</span><span class="sxs-lookup"><span data-stu-id="69317-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="69317-922">URL นี้ใช้ ping เพื่อตรวจสอบว่าสามารถเข้าถึงคอมพิวเตอร์ได้หรือไม่ และเบราว์เซอร์จะบ่งชี้ว่าใบรับรองเชื่อถือได้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="69317-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="69317-923">(ตัวอย่างเช่น ใน Internet Explorer ไอคอนล็อกจะปรากฏในแถบที่อยู่</span><span class="sxs-lookup"><span data-stu-id="69317-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="69317-924">เมื่อคุณคลิกไอคอนนี้ Internet Explorer จะตรวจสอบว่าใบรับรองนั้น ๆ ได้รับการเชื่อถือในขณะนี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="69317-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="69317-925">คุณสามารถติดตั้งใบรับรองบนคอมพิวเตอร์เฉพาะที่ได้โดยการดูรายละเอียดของใบรับรองที่แสดงอยู่)</span><span class="sxs-lookup"><span data-stu-id="69317-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="69317-926">บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์ พอร์ตที่จะถูกใช้โดยสถานีฮาร์ดแวร์จะถูกเปิดในไฟร์วอลล์</span><span class="sxs-lookup"><span data-stu-id="69317-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="69317-927">สถานีฮาร์ดแวร์ได้ติดตั้งข้อมูลบัญชีร้านค้าอย่างถูกต้องผ่านเครื่องมือติดตั้งข้อมูลร้านค้าที่รันเมื่อสิ้นสุดการทำงานของโปรแกรมติดตั้งสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="69317-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS ไม่สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการตัวเลือก
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="69317-928">Modern POS ไม่สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="69317-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**โซลูชัน:** ปัจจัยใดปัจจัยหนึ่งต่อไปนี้อาจทำให้เกิดปัญหานี้:
+<span data-ttu-id="69317-929">**โซลูชัน:** ปัจจัยใดปัจจัยหนึ่งต่อไปนี้อาจทำให้เกิดปัญหานี้:</span><span class="sxs-lookup"><span data-stu-id="69317-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   สถานีฮาร์ดแวร์ไม่ได้ถูกตั้งค่าอย่างถูกต้องใน headquarters ใช้ขั้นตอนก่อนหน้านี้ในหัวข้อนี้เพื่อตรวจสอบว่ามีการป้อนโพรไฟล์สถานีฮาร์ดแวร์และสถานีฮาร์ดแวร์อย่างถูกต้อง
--   ไม่มีการรันงานเพื่ออัพเดตการตั้งค่าคอนฟิกช่องทาง ในกรณีนี้ ให้รันงาน 1070 สำหรับการตั้งค่าคอนฟิกช่องทาง
+-   <span data-ttu-id="69317-930">สถานีฮาร์ดแวร์ไม่ได้ถูกตั้งค่าอย่างถูกต้องใน headquarters</span><span class="sxs-lookup"><span data-stu-id="69317-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="69317-931">ใช้ขั้นตอนก่อนหน้านี้ในหัวข้อนี้เพื่อตรวจสอบว่ามีการป้อนโพรไฟล์สถานีฮาร์ดแวร์และสถานีฮาร์ดแวร์อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="69317-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="69317-932">ไม่มีการรันงานเพื่ออัพเดตการตั้งค่าคอนฟิกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="69317-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="69317-933">ในกรณีนี้ ให้รันงาน 1070 สำหรับการตั้งค่าคอนฟิกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="69317-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS ไม่ได้แสดงการตั้งค่าลิ้นชักเงินสดใหม่
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="69317-934">Modern POS ไม่ได้แสดงการตั้งค่าลิ้นชักเงินสดใหม่</span><span class="sxs-lookup"><span data-stu-id="69317-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**โซลูชัน:** ปิดชุดงานปัจจุบัน ไม่มีการอัพเดตการเปลี่ยนแปลงของลิ้นชักเงินสดไปยัง Modern POS จนกว่าชุดงานปัจจุบันจะถูกปิด
+<span data-ttu-id="69317-935">**โซลูชัน:** ปิดชุดงานปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="69317-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="69317-936">ไม่มีการอัพเดตการเปลี่ยนแปลงของลิ้นชักเงินสดไปยัง Modern POS จนกว่าชุดงานปัจจุบันจะถูกปิด</span><span class="sxs-lookup"><span data-stu-id="69317-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS จะรายงานปัญหาเกี่ยวกับอุปกรณ์ต่อพ่วงขายปลีก
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="69317-937">Modern POS จะรายงานปัญหาเกี่ยวกับอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="69317-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**โซลูชัน:** ต่อไปนี้คือสาเหตุทั่วไปของปัญหานี้:
+<span data-ttu-id="69317-938">**โซลูชัน:** ต่อไปนี้คือสาเหตุทั่วไปของปัญหานี้:</span><span class="sxs-lookup"><span data-stu-id="69317-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   ตรวจสอบให้แน่ใจว่าได้ปิดยูทิลิตีการตั้งค่าคอนฟิกโปรแกรมควบคุมอุปกรณ์อื่น ๆ แล้ว ถ้ายูทิลิตีเหล่านี้เปิดอยู่ อาจป้องกันไม่ให้ Modern POS หรือสถานีฮาร์ดแวร์อ้างสิทธิ์ของอุปกรณ์ดังกล่าว
--   ถ้าอุปกรณ์ต่อพ่วงขายปลีกถูกใช้ร่วมกันกับอุปกรณ์ POS หลายรายการ ให้ตรวจสอบให้แน่ใจว่าอุปกรณ์เหล่านั้นเป็นของหนึ่งในประเภทต่อไปนี้:
-    -   ลิ้นชักเงินสด
-    -   เครื่องพิมพ์ใบเสร็จ
-    -   เทอร์มินัลการชำระเงิน 
+-   <span data-ttu-id="69317-939">ตรวจสอบให้แน่ใจว่าได้ปิดยูทิลิตีการตั้งค่าคอนฟิกโปรแกรมควบคุมอุปกรณ์อื่น ๆ แล้ว</span><span class="sxs-lookup"><span data-stu-id="69317-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="69317-940">ถ้ายูทิลิตีเหล่านี้เปิดอยู่ อาจป้องกันไม่ให้ Modern POS หรือสถานีฮาร์ดแวร์อ้างสิทธิ์ของอุปกรณ์ดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="69317-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="69317-941">ถ้าอุปกรณ์ต่อพ่วงขายปลีกถูกใช้ร่วมกันกับอุปกรณ์ POS หลายรายการ ให้ตรวจสอบให้แน่ใจว่าอุปกรณ์เหล่านั้นเป็นของหนึ่งในประเภทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="69317-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="69317-942">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="69317-942">Cash drawer</span></span>
+    -   <span data-ttu-id="69317-943">เครื่องพิมพ์ใบเสร็จ</span><span class="sxs-lookup"><span data-stu-id="69317-943">Receipt printer</span></span>
+    -   <span data-ttu-id="69317-944">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="69317-944">Payment terminal</span></span>
 
-    ถ้าอุปกรณ์ต่อพ่วงไม่ได้เป็นของหนึ่งในประเภทเหล่านี้ แสดงว่าสถานีฮาร์ดแวร์ไม่ได้รับการออกแบบมาเพื่อทำให้สามารถใช้อุปกรณ์ต่อพ่วงร่วมกันระหว่างอุปกรณ์ POS หลายรายการ
--   บางครั้ง โปรแกรมควบคุมอุปกรณ์อาจทำให้วัตถุควบคุมทั่วไป (CCO) ทำงานไม่ถูกต้อง หากอุปกรณ์ถูกติดตั้งเมื่อเร็ว ๆ นี้ แต่ทำงานไม่ถูกต้อง หรือหากคุณสังเกตเห็นปัญหาอื่น ๆ คุณมักจะสามารถแก้ไขปัญหานี้โดยการติดตั้ง CCO ใหม่ หากต้องการดาวน์โหลด CCO ให้ไปที่ <http://monroecs.com/oposccos_current.htm>
--   ถ้าคุณทำการเปลี่ยนแปลงอุปกรณ์ต่อพ่วงบ่อยในระหว่างการทดสอบหรือการแก้ไขปัญหาเบื้องต้น คุณอาจต้องรีเซ็ต IIS แทนการรอการรีเฟรชตัวเองของแคช เมื่อต้องการรีเซ็ต IIS ให้ทำตามขั้นตอนเหล่านี้:
-    1.  จากเมนู **เริ่มต้น** พิมพ์ **CMD**
-    2.  ในผลลัพธ์การค้นหา คลิกขวา **พร้อมต์คำสั่ง** แล้วคลิก **รันในฐานะผู้ดูแลระบบ**
-    3.  ในหน้าต่าง **พร้อมต์คำสั่ง** พิมพ์ **iisreset /Restart** แล้วกด Enter
-    4.  หลังจาก IIS เริ่มการทำงานใหม่แล้ว ให้เริ่มการทำงานของ Modern POS ใหม่
--   ในขณะที่คุณกำลังทำการเปลี่ยนแปลงบ่อยครั้งกับอุปกรณ์ต่อพ่วง ถ้าคุณมักจะเริ่มต้นและสิ้นสุดการทำงานของไคลเอนต์ POS กระบวนการ dllhost จากเซสชันก่อนหน้าของ POS อาจรบกวนเซสชันปัจจุบัน ในกรณีนี้ อุปกรณ์อาจไม่สามารถใช้งานได้จนกว่าคุณจะปิดโฮสต์ไลบรารีแบบไดนามิกลิงค์ (DLL) ที่มีการจัดการเซสชันก่อนหน้านี้ เมื่อต้องการปิดโฮสต์ DLL ให้ทำตามขั้นตอนเหล่านี้:
-    1.  จากเมนู **เริ่มต้น** พิมพ์ **ตัวจัดการงาน**
-    2.  ในผลลัพธ์การค้นหา คลิก **ตัวจัดการงาน**
-    3.  ในตัวจัดการงาน บนแท็บ **รายละเอียด** คลิกที่ส่วนหัวคอลัมน์ที่มีป้ายชื่อว่า **ชื่อ** เพื่อเรียงลำดับตารางตามลำดับอักษรตามชื่อ
-    4.  เลื่อนลงมาจนกว่าคุณจะพบ dllhost.exe
-    5.  เลือกโฮสต์ DLL แต่ละรายการ และจากนั้นคลิก **สิ้นสุดงาน**
-    6.  หลังจากที่โฮสต์ DLL ถูกปิดแล้ว ให้เริ่มการทำงานของ Modern POS ใหม่
+    <span data-ttu-id="69317-945">ถ้าอุปกรณ์ต่อพ่วงไม่ได้เป็นของหนึ่งในประเภทเหล่านี้ แสดงว่าสถานีฮาร์ดแวร์ไม่ได้รับการออกแบบมาเพื่อทำให้สามารถใช้อุปกรณ์ต่อพ่วงร่วมกันระหว่างอุปกรณ์ POS หลายรายการ</span><span class="sxs-lookup"><span data-stu-id="69317-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="69317-946">บางครั้ง โปรแกรมควบคุมอุปกรณ์อาจทำให้วัตถุควบคุมทั่วไป (CCO) ทำงานไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="69317-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="69317-947">หากอุปกรณ์ถูกติดตั้งเมื่อเร็ว ๆ นี้ แต่ทำงานไม่ถูกต้อง หรือหากคุณสังเกตเห็นปัญหาอื่น ๆ คุณมักจะสามารถแก้ไขปัญหานี้โดยการติดตั้ง CCO ใหม่</span><span class="sxs-lookup"><span data-stu-id="69317-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="69317-948">หากต้องการดาวน์โหลด CCO ให้ไปที่ <http://monroecs.com/oposccos_current.htm></span><span class="sxs-lookup"><span data-stu-id="69317-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="69317-949">ถ้าคุณทำการเปลี่ยนแปลงอุปกรณ์ต่อพ่วงบ่อยในระหว่างการทดสอบหรือการแก้ไขปัญหาเบื้องต้น คุณอาจต้องรีเซ็ต IIS แทนการรอการรีเฟรชตัวเองของแคช</span><span class="sxs-lookup"><span data-stu-id="69317-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="69317-950">เมื่อต้องการรีเซ็ต IIS ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="69317-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="69317-951">จากเมนู **เริ่มต้น** พิมพ์ **CMD**</span><span class="sxs-lookup"><span data-stu-id="69317-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="69317-952">ในผลลัพธ์การค้นหา คลิกขวา **พร้อมต์คำสั่ง** แล้วคลิก **รันในฐานะผู้ดูแลระบบ**</span><span class="sxs-lookup"><span data-stu-id="69317-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="69317-953">ในหน้าต่าง **พร้อมต์คำสั่ง** พิมพ์ **iisreset /Restart** แล้วกด Enter</span><span class="sxs-lookup"><span data-stu-id="69317-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="69317-954">หลังจาก IIS เริ่มการทำงานใหม่แล้ว ให้เริ่มการทำงานของ Modern POS ใหม่</span><span class="sxs-lookup"><span data-stu-id="69317-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="69317-955">ในขณะที่คุณกำลังทำการเปลี่ยนแปลงบ่อยครั้งกับอุปกรณ์ต่อพ่วง ถ้าคุณมักจะเริ่มต้นและสิ้นสุดการทำงานของไคลเอนต์ POS กระบวนการ dllhost จากเซสชันก่อนหน้าของ POS อาจรบกวนเซสชันปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="69317-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="69317-956">ในกรณีนี้ อุปกรณ์อาจไม่สามารถใช้งานได้จนกว่าคุณจะปิดโฮสต์ไลบรารีแบบไดนามิกลิงค์ (DLL) ที่มีการจัดการเซสชันก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="69317-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="69317-957">เมื่อต้องการปิดโฮสต์ DLL ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="69317-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="69317-958">จากเมนู **เริ่มต้น** พิมพ์ **ตัวจัดการงาน**</span><span class="sxs-lookup"><span data-stu-id="69317-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="69317-959">ในผลลัพธ์การค้นหา คลิก **ตัวจัดการงาน**</span><span class="sxs-lookup"><span data-stu-id="69317-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="69317-960">ในตัวจัดการงาน บนแท็บ **รายละเอียด** คลิกที่ส่วนหัวคอลัมน์ที่มีป้ายชื่อว่า **ชื่อ** เพื่อเรียงลำดับตารางตามลำดับอักษรตามชื่อ</span><span class="sxs-lookup"><span data-stu-id="69317-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="69317-961">เลื่อนลงมาจนกว่าคุณจะพบ dllhost.exe</span><span class="sxs-lookup"><span data-stu-id="69317-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="69317-962">เลือกโฮสต์ DLL แต่ละรายการ และจากนั้นคลิก **สิ้นสุดงาน**</span><span class="sxs-lookup"><span data-stu-id="69317-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="69317-963">หลังจากที่โฮสต์ DLL ถูกปิดแล้ว ให้เริ่มการทำงานของ Modern POS ใหม่</span><span class="sxs-lookup"><span data-stu-id="69317-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="69317-964">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="69317-964">See also</span></span>
 --------
 
-[โปรแกรมจำลองอุปกรณ์ต่อพ่วง](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="69317-965">โปรแกรมจำลองอุปกรณ์ต่อพ่วง</span><span class="sxs-lookup"><span data-stu-id="69317-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

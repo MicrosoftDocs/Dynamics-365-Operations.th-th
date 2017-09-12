@@ -17,43 +17,43 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 974dc11c2421f8399efa0ca0e6be53535c10f7fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3aa8cd2c0be56875904158f041cf120c466d9e9a
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="lean-pegging-from-sales-orders"></a>การจำแนกประเภทแบบ Lean จากใบสั่งขาย
+# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="5aa40-103">การจำแนกประเภทแบบ Lean จากใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="5aa40-103">Lean pegging from sales orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้เน้นไปที่ การตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อจากรายการขายที่ซึ่งสินค้าถูกผลิตด้วยคัมบัง  หลังจากการตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ งานคัมบังทั้งหมดจะถูกวางแผน  สิ่งนี้เป็นประโยชน์สำหรับสถานการณ์จำลองของใบสั่งที่เป็นผู้รับใบสั่งต้องแน่ใจว่า การผลิตจะสามารถเริ่มได้ทันที  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF กระบวนงานนี้มีไว้สำหรับผู้รับใบสั่งขั้นสูงที่ทำงานในบริษัทแบบ Lean
+<span data-ttu-id="5aa40-104">กระบวนงานนี้เน้นไปที่ การตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อจากรายการขายที่ซึ่งสินค้าถูกผลิตด้วยคัมบัง </span><span class="sxs-lookup"><span data-stu-id="5aa40-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="5aa40-105">หลังจากการตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ งานคัมบังทั้งหมดจะถูกวางแผน </span><span class="sxs-lookup"><span data-stu-id="5aa40-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="5aa40-106">สิ่งนี้เป็นประโยชน์สำหรับสถานการณ์จำลองของใบสั่งที่เป็นผู้รับใบสั่งต้องแน่ใจว่า การผลิตจะสามารถเริ่มได้ทันที </span><span class="sxs-lookup"><span data-stu-id="5aa40-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="5aa40-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="5aa40-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5aa40-108">กระบวนงานนี้มีไว้สำหรับผู้รับใบสั่งขั้นสูงที่ทำงานในบริษัทแบบ Lean</span><span class="sxs-lookup"><span data-stu-id="5aa40-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
 
 
-## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a>สร้างใบสั่งขายสำหรับสินค้าที่มีคัมบังควบคุม
-1. ไปที่ใบสั่งขายทั้งหมด
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า
-    * ใช้ สหรัฐอเมริกา-001  
-4. คลิก ตกลง
-5. ในฟิลด์ หมายเลขสินค้า ให้พิมพ์ 'L0001'
-6. กำหนดปริมาณเป็น '30'
-    * เป็นเรื่องสำคัญที่ว่า ปริมาณมีค่าสูงกว่า 24 เพื่อทริกเกอร์กฎคัมบังของเหตุการณ์  
+## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="5aa40-109">สร้างใบสั่งขายสำหรับสินค้าที่มีคัมบังควบคุม</span><span class="sxs-lookup"><span data-stu-id="5aa40-109">Create a sales order for a kanban controlled item</span></span>
+1. <span data-ttu-id="5aa40-110">ไปที่ใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="5aa40-110">Go to All sales orders.</span></span>
+2. <span data-ttu-id="5aa40-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="5aa40-111">Click New.</span></span>
+3. <span data-ttu-id="5aa40-112">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="5aa40-112">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="5aa40-113">ใช้ สหรัฐอเมริกา-001</span><span class="sxs-lookup"><span data-stu-id="5aa40-113">Use US-001.</span></span>  
+4. <span data-ttu-id="5aa40-114">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="5aa40-114">Click OK.</span></span>
+5. <span data-ttu-id="5aa40-115">ในฟิลด์ หมายเลขสินค้า ให้พิมพ์ 'L0001'</span><span class="sxs-lookup"><span data-stu-id="5aa40-115">In the Item number field, type 'L0001'.</span></span>
+6. <span data-ttu-id="5aa40-116">กำหนดปริมาณเป็น '30'</span><span class="sxs-lookup"><span data-stu-id="5aa40-116">Set Quantity to '30'.</span></span>
+    * <span data-ttu-id="5aa40-117">เป็นเรื่องสำคัญที่ว่า ปริมาณมีค่าสูงกว่า 24 เพื่อทริกเกอร์กฎคัมบังของเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="5aa40-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
 
-## <a name="open-a-pegging-tree"></a>เปิดแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ 
-1. คลิกที่ผลิตภัณฑ์และการจัดหาวัสดุ
-2. คลิกดูแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ
-    * โปรดสังเกตว่า แผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อแสดงระดับทั้งหมดของการเชื่อมโยงความต้องการกับการจัดซื้อที่จำเป็นสำหรับรายการใบสั่งขาย  ในกรณีนี้ มีคัมบังสองระดับและส่วนประกอบที่จำเป็นทั้งหมด  
+## <a name="open-a-pegging-tree"></a><span data-ttu-id="5aa40-118">เปิดแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="5aa40-118">Open a pegging tree</span></span> 
+1. <span data-ttu-id="5aa40-119">คลิกที่ผลิตภัณฑ์และการจัดหาวัสดุ</span><span class="sxs-lookup"><span data-stu-id="5aa40-119">Click Product and supply.</span></span>
+2. <span data-ttu-id="5aa40-120">คลิกดูแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="5aa40-120">Click View pegging tree.</span></span>
+    * <span data-ttu-id="5aa40-121">โปรดสังเกตว่า แผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อแสดงระดับทั้งหมดของการเชื่อมโยงความต้องการกับการจัดซื้อที่จำเป็นสำหรับรายการใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="5aa40-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="5aa40-122">ในกรณีนี้ มีคัมบังสองระดับและส่วนประกอบที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="5aa40-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
 
-## <a name="plan-the-pegging-tree"></a>วางแผนแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ
-1. ในแผนภูมิ ให้เลือก ' รายการขาย 000832\Kanban 000558'
-2. ขยายส่วนงานคัมบัง
-    * โปรดสังเกตว่า สถานะงานสำหรับงานคัมบังคือ ไม่ได้วางแผน  
-3. คลิกการวางแผนแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อทั้งหมด
-    * นี่จะเป็นการวางแผนงานคัมบังทั้งหมดในแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ ซึ่งเปลี่ยนสถานะงานจาก ไม่ได้วางแผน เป็น วางแผนแล้ว  
-4. รีเฟรชหน้า
-    * โปรดสังเกตว่า สถานะของงานคัมบังได้เปลี่ยนแปลงจาก ไม่ได้วางแผน เป็น วางแผนแล้ว  
-5. ในแผนภูมิ ให้เลือก 'รายการขาย 000832\Kanban 000558\Issue สำหรับ L0001\Kanban 000559'
-    * งานสำหรับคัมบังที่สองมีการวางแผนแล้วเช่นกัน เนื่องจากมีการวางแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ  สังเกตว่าสถานะของงานคัมบังจะเปลี่ยนจาก ไม่ได้วางแผน เป็น วางแผนแล้ว  
+## <a name="plan-the-pegging-tree"></a><span data-ttu-id="5aa40-123">วางแผนแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="5aa40-123">Plan the pegging tree</span></span>
+1. <span data-ttu-id="5aa40-124">ในแผนภูมิ ให้เลือก ' รายการขาย 000832\Kanban 000558'</span><span class="sxs-lookup"><span data-stu-id="5aa40-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
+2. <span data-ttu-id="5aa40-125">ขยายส่วนงานคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5aa40-125">Expand the Kanban jobs section.</span></span>
+    * <span data-ttu-id="5aa40-126">โปรดสังเกตว่า สถานะงานสำหรับงานคัมบังคือ ไม่ได้วางแผน</span><span class="sxs-lookup"><span data-stu-id="5aa40-126">Notice that the job status for the kanban job is Not planned.</span></span>  
+3. <span data-ttu-id="5aa40-127">คลิกการวางแผนแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="5aa40-127">Click Plan entire pegging tree.</span></span>
+    * <span data-ttu-id="5aa40-128">นี่จะเป็นการวางแผนงานคัมบังทั้งหมดในแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ ซึ่งเปลี่ยนสถานะงานจาก ไม่ได้วางแผน เป็น วางแผนแล้ว</span><span class="sxs-lookup"><span data-stu-id="5aa40-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
+4. <span data-ttu-id="5aa40-129">รีเฟรชหน้า</span><span class="sxs-lookup"><span data-stu-id="5aa40-129">Refresh the page.</span></span>
+    * <span data-ttu-id="5aa40-130">โปรดสังเกตว่า สถานะของงานคัมบังได้เปลี่ยนแปลงจาก ไม่ได้วางแผน เป็น วางแผนแล้ว</span><span class="sxs-lookup"><span data-stu-id="5aa40-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
+5. <span data-ttu-id="5aa40-131">ในแผนภูมิ ให้เลือก 'รายการขาย 000832\Kanban 000558\Issue สำหรับ L0001\Kanban 000559'</span><span class="sxs-lookup"><span data-stu-id="5aa40-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
+    * <span data-ttu-id="5aa40-132">งานสำหรับคัมบังที่สองมีการวางแผนแล้วเช่นกัน เนื่องจากมีการวางแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อ </span><span class="sxs-lookup"><span data-stu-id="5aa40-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="5aa40-133">สังเกตว่าสถานะของงานคัมบังจะเปลี่ยนจาก ไม่ได้วางแผน เป็น วางแผนแล้ว</span><span class="sxs-lookup"><span data-stu-id="5aa40-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
 
 

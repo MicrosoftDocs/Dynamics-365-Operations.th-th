@@ -16,33 +16,33 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 1984a303af844f63ab393675d809e04b78ac857f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 27ac6a4783eba148bcdd462bc8aa360691f67a06
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-a-fixed-asset-group"></a>เปลี่ยนกลุ่มสินทรัพย์ถาวร
+# <a name="change-a-fixed-asset-group"></a><span data-ttu-id="f516b-103">เปลี่ยนกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f516b-103">Change a fixed asset group</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ควรจะกำหนดสินทรัพย์ถาวรในกลุ่มสินทรัพย์ถาวรที่ถูกต้อง  กลุ่มสินทรัพย์ถาวรจะถูกนำไปใช้เมื่อคุณ:
+<span data-ttu-id="f516b-104">ควรจะกำหนดสินทรัพย์ถาวรในกลุ่มสินทรัพย์ถาวรที่ถูกต้อง </span><span class="sxs-lookup"><span data-stu-id="f516b-104">Fixed assets should be assigned to the correct fixed assets group.</span></span> <span data-ttu-id="f516b-105">กลุ่มสินทรัพย์ถาวรจะถูกนำไปใช้เมื่อคุณ:</span><span class="sxs-lookup"><span data-stu-id="f516b-105">The fixed assets group is used when you:</span></span>
 
- - สร้างการสอบถามและรายงาน
+ - <span data-ttu-id="f516b-106">สร้างการสอบถามและรายงาน</span><span class="sxs-lookup"><span data-stu-id="f516b-106">Create inquiries and reports</span></span>
 
- - ตั้งค่าสินทรัพย์ถาวรใหม่
+ - <span data-ttu-id="f516b-107">ตั้งค่าสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f516b-107">Set up new fixed assets</span></span>
 
- - รวมบัญชีแยกประเภทและลงรายการบัญชีธุรกรรมสินทรัพย์ถาวรที่บัญชีแยกประเภทที่เหมาะสม
+ - <span data-ttu-id="f516b-108">รวมบัญชีแยกประเภทและลงรายการบัญชีธุรกรรมสินทรัพย์ถาวรที่บัญชีแยกประเภทที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="f516b-108">Integrate ledgers and post fixed asset transactions to the appropriate ledger accounts</span></span>
 
-คำแนะนำนี้ใช้บริษัทสาธิต USMF
+<span data-ttu-id="f516b-109">คำแนะนำนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="f516b-109">This guide uses the USMF demo company.</span></span>
 
-1. ไปที่ สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร
-2. เลือกสินทรัพย์ถาวรที่คุณต้องการจะเปลี่ยนกลุ่มสินทรัพย์ถาวร
-3. คลิก เปลี่ยนกลุ่มสินทรัพย์ถาวร
-4. ในฟิลด์กลุ่มใหม่ ให้ป้อนหรือเลือกค่า
-5. เลือกตัวเลือกนี้เพื่อกำหนดหมายเลขสินทรัพย์ถาวรให้กับสินทรัพย์ถาวรที่เลือก
-    * ฟิลด์หมายเลขสินทรัพย์ถาวรจะพร้อมใช้งานถ้าคุณเลือกตัวเลือกหมายเลขสินทรัพย์ถาวรใหม่    ถ้าการกำหนดหมายเลขอัตโนมัติถูกตั้งค่าสำหรับสินทรัพย์ถาวร ฟิลด์นี้จะแสดงหมายเลขสินทรัพย์ถาวรที่พร้อมใช้งานถัดไป  คุณสามารถเปลี่ยนหมายเลขได้    ถ้ามีการตั้งค่าการกำหนดหมายเลขด้วยตนเอง ฟิลด์นี้จะว่างและคุณต้องป้อนหมายเลขสินทรัพย์ถาวรใหม่     
-6. คลิก ตกลง
-7. คลิก ใช่
+1. <span data-ttu-id="f516b-110">ไปที่ สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f516b-110">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="f516b-111">เลือกสินทรัพย์ถาวรที่คุณต้องการจะเปลี่ยนกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f516b-111">Select the fixed asset you would like to change the fixed asset group on.</span></span>
+3. <span data-ttu-id="f516b-112">คลิก เปลี่ยนกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f516b-112">Click Change fixed asset group.</span></span>
+4. <span data-ttu-id="f516b-113">ในฟิลด์กลุ่มใหม่ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="f516b-113">In the New group field, enter or select a value.</span></span>
+5. <span data-ttu-id="f516b-114">เลือกตัวเลือกนี้เพื่อกำหนดหมายเลขสินทรัพย์ถาวรให้กับสินทรัพย์ถาวรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="f516b-114">Select this option to assign a fixed asset number to the selected fixed asset.</span></span>
+    * <span data-ttu-id="f516b-115">ฟิลด์หมายเลขสินทรัพย์ถาวรจะพร้อมใช้งานถ้าคุณเลือกตัวเลือกหมายเลขสินทรัพย์ถาวรใหม่ </span><span class="sxs-lookup"><span data-stu-id="f516b-115">The Fixed asset number field is available if you select the New fixed asset number option.</span></span>   <span data-ttu-id="f516b-116">ถ้าการกำหนดหมายเลขอัตโนมัติถูกตั้งค่าสำหรับสินทรัพย์ถาวร ฟิลด์นี้จะแสดงหมายเลขสินทรัพย์ถาวรที่พร้อมใช้งานถัดไป </span><span class="sxs-lookup"><span data-stu-id="f516b-116">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="f516b-117">คุณสามารถเปลี่ยนหมายเลขได้ </span><span class="sxs-lookup"><span data-stu-id="f516b-117">You can change the number.</span></span>   <span data-ttu-id="f516b-118">ถ้ามีการตั้งค่าการกำหนดหมายเลขด้วยตนเอง ฟิลด์นี้จะว่างและคุณต้องป้อนหมายเลขสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="f516b-118">If manual numbering is set up, this field is blank and you must enter the new fixed asset number.</span></span>     
+6. <span data-ttu-id="f516b-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="f516b-119">Click OK.</span></span>
+7. <span data-ttu-id="f516b-120">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="f516b-120">Click Yes.</span></span>
 
 

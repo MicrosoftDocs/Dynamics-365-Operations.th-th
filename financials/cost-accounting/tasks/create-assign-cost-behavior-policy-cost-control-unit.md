@@ -16,73 +16,73 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4190fde8c587475f34e5e3fdf6e2d32d59a26022
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 392cb83ceb8612a2e73cc54bb2d8d40c62a6b7b6
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>สร้างและกำหนดนโยบายพฤติกรรมต้นทุนสำหรับหน่วยการควบคุมต้นทุน
+# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="b59b4-103">สร้างและกำหนดนโยบายพฤติกรรมต้นทุนสำหรับหน่วยการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b59b4-103">Create and assign a cost behavior policy to a cost control unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-พฤติกรรมต้นทุนคือการจัดประเภทของต้นทุนคงที่หรือต้นทุนผันแปร นโยบายและกฎที่สอดคล้องกันต้องถูกกำหนดให้กับหน่วยการควบคุมต้นทุนสำหรับนโยบายเพื่อให้เริ่มมีผลบังคับใช้ ใช้กระบวนงานนี้เพื่อสร้างนโยบายและกำหนดนโยบายหน่วยควบคุมต้นทุน
+<span data-ttu-id="b59b4-104">พฤติกรรมต้นทุนคือการจัดประเภทของต้นทุนคงที่หรือต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="b59b4-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="b59b4-105">นโยบายและกฎที่สอดคล้องกันต้องถูกกำหนดให้กับหน่วยการควบคุมต้นทุนสำหรับนโยบายเพื่อให้เริ่มมีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="b59b4-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="b59b4-106">ใช้กระบวนงานนี้เพื่อสร้างนโยบายและกำหนดนโยบายหน่วยควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b59b4-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
 
 
-## <a name="create-a-cost-behavior-hierarchy"></a>สร้างลำดับชั้นพฤติกรรมต้นทุน
-1. ไปที่ การบัญชีต้นทุน > มิติ > ลำดับชั้นของมิติ
-2. คลิก สร้าง
-3. คลิก สร้าง
-4. ในฟิลด์ชื่อลำดับชั้นมิติ พิมพ์ 'ลำดับชั้นพฤติกรรมต้นทุน'
-5. ในฟิลด์มิติ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * เลือกองค์ประกอบต้นทุน  
-6. คลิก บันทึก
-7. คลิกดูลำดับชั้น
-8. คลิก สร้าง
-9. ในฟิลด์ชื่อโหนด ให้พิมพ์ค่า
-    * ป้อนอัตราคงที่  
-10. ในแผนภูมิ เลือก 'ลำดับชั้นพฤติกรรมต้นทุน'
-11. คลิก สร้าง
-12. ในฟิลด์ชื่อโหนด ให้พิมพ์ค่า
-    * ป้อนต้นทุนผันแปร  
-13. คลิก บันทึก
-14. ในแผนภูมิ เลือก 'ลำดับชั้นพฤติกรรมต้นทุน\ต้นทุนคงที่'
-15. คลิก สร้าง
-16. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-17. ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า
-    * ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน  
-18. ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า
-    * ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน  
-19. ในแผนภูมิ เลือก 'ลำดับชั้นพฤติกรรมต้นทุน\ต้นทุนผันแปร'
-20. คลิก สร้าง
-21. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-22. ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า
-    * ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน  
-23. ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า
-    * ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน  
-24. คลิก บันทึก
+## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="b59b4-107">สร้างลำดับชั้นพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b59b4-107">Create a cost behavior hierarchy</span></span>
+1. <span data-ttu-id="b59b4-108">ไปที่ การบัญชีต้นทุน > มิติ > ลำดับชั้นของมิติ</span><span class="sxs-lookup"><span data-stu-id="b59b4-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="b59b4-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-109">Click New.</span></span>
+3. <span data-ttu-id="b59b4-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-110">Click Create.</span></span>
+4. <span data-ttu-id="b59b4-111">ในฟิลด์ชื่อลำดับชั้นมิติ พิมพ์ 'ลำดับชั้นพฤติกรรมต้นทุน'</span><span class="sxs-lookup"><span data-stu-id="b59b4-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
+5. <span data-ttu-id="b59b4-112">ในฟิลด์มิติ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="b59b4-112">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-113">เลือกองค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b59b4-113">Select Cost elements.</span></span>  
+6. <span data-ttu-id="b59b4-114">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b59b4-114">Click Save.</span></span>
+7. <span data-ttu-id="b59b4-115">คลิกดูลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="b59b4-115">Click View hierarchy.</span></span>
+8. <span data-ttu-id="b59b4-116">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-116">Click New.</span></span>
+9. <span data-ttu-id="b59b4-117">ในฟิลด์ชื่อโหนด ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-117">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="b59b4-118">ป้อนอัตราคงที่</span><span class="sxs-lookup"><span data-stu-id="b59b4-118">Enter Fixed cost.</span></span>  
+10. <span data-ttu-id="b59b4-119">ในแผนภูมิ เลือก 'ลำดับชั้นพฤติกรรมต้นทุน'</span><span class="sxs-lookup"><span data-stu-id="b59b4-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
+11. <span data-ttu-id="b59b4-120">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-120">Click New.</span></span>
+12. <span data-ttu-id="b59b4-121">ในฟิลด์ชื่อโหนด ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-121">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="b59b4-122">ป้อนต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="b59b4-122">Enter Variable cost.</span></span>  
+13. <span data-ttu-id="b59b4-123">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b59b4-123">Click Save.</span></span>
+14. <span data-ttu-id="b59b4-124">ในแผนภูมิ เลือก 'ลำดับชั้นพฤติกรรมต้นทุน\ต้นทุนคงที่'</span><span class="sxs-lookup"><span data-stu-id="b59b4-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
+15. <span data-ttu-id="b59b4-125">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-125">Click New.</span></span>
+16. <span data-ttu-id="b59b4-126">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b59b4-126">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="b59b4-127">ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-127">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-128">ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน</span><span class="sxs-lookup"><span data-stu-id="b59b4-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+18. <span data-ttu-id="b59b4-129">ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-129">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-130">ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน</span><span class="sxs-lookup"><span data-stu-id="b59b4-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+19. <span data-ttu-id="b59b4-131">ในแผนภูมิ เลือก 'ลำดับชั้นพฤติกรรมต้นทุน\ต้นทุนผันแปร'</span><span class="sxs-lookup"><span data-stu-id="b59b4-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
+20. <span data-ttu-id="b59b4-132">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-132">Click New.</span></span>
+21. <span data-ttu-id="b59b4-133">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b59b4-133">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="b59b4-134">ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-134">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-135">ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน</span><span class="sxs-lookup"><span data-stu-id="b59b4-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+23. <span data-ttu-id="b59b4-136">ในฟิลด์สมาชิกมิติสิ้นสุด ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-136">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-137">ช่วงของสมาชิกมิติอาจประกอบด้วยช่องว่าง แต่สมาชิกจะต้องไม่ทับซ้อนกัน</span><span class="sxs-lookup"><span data-stu-id="b59b4-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+24. <span data-ttu-id="b59b4-138">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b59b4-138">Click Save.</span></span>
 
-## <a name="create-the-policy-and-rules"></a>สร้างนโยบายและกฎ
-1. ไปที่ การบัญชีต้นทุน > นโยบาย > นโยบายพฤติกรรมต้นทุน
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อนโยบาย ให้พิมพ์ค่า
-4. ในฟิลด์ลำดับชั้นมิติองค์ประกอบต้นทุน ให้ป้อนหรือเลือกค่า
-    * เลือกลำดับชั้นของนโยบายที่คุณเพิ่งสร้างขึ้น  
-5. ในฟิลด์ลำดับชั้นมิติออบเจ็กต์ต้นทุน ให้ป้อนหรือเลือกค่า
-    * เลือกองค์กร  
-6. คลิก บันทึก
-7. คลิก สร้าง
-8. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-9. ในฟิลด์โหนดลำดับชั้นมิติองค์ประกอบต้นทุน ให้ป้อนหรือเลือกค่า
-    * ขยายทั้งลำดับชั้นเพื่อเลือกต้นทุนผันแปร  
-10. ในฟิลด์โหนดลำดับชั้นมิติออบเจ็กต์ต้นทุน ให้ป้อนหรือเลือกค่า
-    * โดยค่าเริ่มต้น เปอร์เซ็นต์ผันแปรเท่ากับ 100 เปอร์เซ็นต์  
-11. คลิก การกำหนดนโยบายสำหรับหน่วยควบคุมต้นทุน
-12. คลิก สร้าง
-13. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-14. ในฟิลด์ มีผลบังคับใช้นับจากวันที่ทางการบัญชี ให้ป้อนวันที่
-    * กฎมีผลบังคับวันที่ และผู้ใช้หรือระบบอาจยกเลิกการใช้กฎได้ถ้ามีการสร้างเวอร์ชันใหม่  
-15. ในฟิลด์หน่วยการควบคุมต้นทุน ให้ป้อนหรือเลือกค่า
-16. คลิก บันทึก
+## <a name="create-the-policy-and-rules"></a><span data-ttu-id="b59b4-139">สร้างนโยบายและกฎ</span><span class="sxs-lookup"><span data-stu-id="b59b4-139">Create the policy and rules</span></span>
+1. <span data-ttu-id="b59b4-140">ไปที่ การบัญชีต้นทุน > นโยบาย > นโยบายพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b59b4-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
+2. <span data-ttu-id="b59b4-141">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-141">Click New.</span></span>
+3. <span data-ttu-id="b59b4-142">ในฟิลด์ชื่อนโยบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-142">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="b59b4-143">ในฟิลด์ลำดับชั้นมิติองค์ประกอบต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-144">เลือกลำดับชั้นของนโยบายที่คุณเพิ่งสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="b59b4-144">Select the policy hierarchy that you just created.</span></span>  
+5. <span data-ttu-id="b59b4-145">ในฟิลด์ลำดับชั้นมิติออบเจ็กต์ต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-146">เลือกองค์กร</span><span class="sxs-lookup"><span data-stu-id="b59b4-146">Select Organization.</span></span>  
+6. <span data-ttu-id="b59b4-147">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b59b4-147">Click Save.</span></span>
+7. <span data-ttu-id="b59b4-148">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-148">Click New.</span></span>
+8. <span data-ttu-id="b59b4-149">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b59b4-149">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="b59b4-150">ในฟิลด์โหนดลำดับชั้นมิติองค์ประกอบต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-151">ขยายทั้งลำดับชั้นเพื่อเลือกต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="b59b4-151">Expand the hierarchy to select Variable cost.</span></span>  
+10. <span data-ttu-id="b59b4-152">ในฟิลด์โหนดลำดับชั้นมิติออบเจ็กต์ต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="b59b4-153">โดยค่าเริ่มต้น เปอร์เซ็นต์ผันแปรเท่ากับ 100 เปอร์เซ็นต์</span><span class="sxs-lookup"><span data-stu-id="b59b4-153">By default, the variable percentage is 100 percent.</span></span>  
+11. <span data-ttu-id="b59b4-154">คลิก การกำหนดนโยบายสำหรับหน่วยควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b59b4-154">Click Policy assignments for cost control unit.</span></span>
+12. <span data-ttu-id="b59b4-155">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b59b4-155">Click New.</span></span>
+13. <span data-ttu-id="b59b4-156">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b59b4-156">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="b59b4-157">ในฟิลด์ มีผลบังคับใช้นับจากวันที่ทางการบัญชี ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="b59b4-157">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="b59b4-158">กฎมีผลบังคับวันที่ และผู้ใช้หรือระบบอาจยกเลิกการใช้กฎได้ถ้ามีการสร้างเวอร์ชันใหม่</span><span class="sxs-lookup"><span data-stu-id="b59b4-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
+15. <span data-ttu-id="b59b4-159">ในฟิลด์หน่วยการควบคุมต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="b59b4-159">In the Cost control unit field, enter or select a value.</span></span>
+16. <span data-ttu-id="b59b4-160">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b59b4-160">Click Save.</span></span>
 
 

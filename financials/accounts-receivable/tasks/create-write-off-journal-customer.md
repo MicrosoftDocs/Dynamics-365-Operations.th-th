@@ -16,74 +16,74 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 1c7ecd07c294b7357e4bda9f4183deb346b3e6ee
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 19a816f04283ce4f200de7396617313e45e057db
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-write-off-journal-for-a-customer"></a>สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
+# <a name="create-a-write-off-journal-for-a-customer"></a><span data-ttu-id="19f67-103">สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="19f67-103">Create a write-off journal for a customer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-คู่มือการทำงานนี้จะแสดงวิธีการตั้งค่าพารามิเตอร์สำหรับการตัดจ่าย และตัดธุรกรรมจากหน้าการเรียกเก็บเงิน หน้าใบแจ้งหนี้ของลูกค้าเปิดและหน้าของลูกค้า  งานนี้ใช้บริษัทสาธิต USMF 
+<span data-ttu-id="19f67-104">คู่มือการทำงานนี้จะแสดงวิธีการตั้งค่าพารามิเตอร์สำหรับการตัดจ่าย และตัดธุรกรรมจากหน้าการเรียกเก็บเงิน หน้าใบแจ้งหนี้ของลูกค้าเปิดและหน้าของลูกค้า </span><span class="sxs-lookup"><span data-stu-id="19f67-104">This task guide will show you how to set up the parameters for write-offs and then write off transactions from the Collections page, the Open customer invoices page, and the Customer page.</span></span> <span data-ttu-id="19f67-105">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="19f67-105">This task uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-the-write-off-parameters"></a>ตั้งค่าพารามิเตอร์การตัดจ่าย
-1. ไปที่สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > พารามิเตอร์บัญชีลูกหนี้
-2. คลิก แท็บการเรียกเก็บเงิน
-3. ขยายหรือยุบส่วนตัดจ่าย
-    * สมุดรายวันการตัดจ่ายคือสมุดรายวันทั่วไปที่จะเก็บธุรกรรมการตัดจ่ายที่คุณสร้างขึ้น  
-    * คุณสามารถแนบรหัสเหตุผลสำหรับการตัดจ่ายได้ทุกครั้ง  คุณสามารถแทนค่าเริ่มต้นนี้ในขณะการตัดจ่ายได้  
-    * ตั้งค่าตัวนี้เป็น ใช่ ถ้าคุณต้องการแยกภาษีขายออกจากธุรกรรมดั้งเดิมในการตัดจ่าย  
-4. ปิดหน้า
-5. ไปที่สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > โพรไฟล์การลงรายการบัญชีลูกค้า
-    * บัญชีตัดจ่ายจะถูกใช้เป็นบัญชีค่าใช้จ่าย หรือจองการปรับปรุงในสมุดรายวันทั่วไป   
-6. ปิดหน้า
+## <a name="set-up-the-write-off-parameters"></a><span data-ttu-id="19f67-106">ตั้งค่าพารามิเตอร์การตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-106">Set up the write off parameters</span></span>
+1. <span data-ttu-id="19f67-107">ไปที่สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > พารามิเตอร์บัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="19f67-107">Go to Credit and collections > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="19f67-108">คลิก แท็บการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="19f67-108">Click the Collections tab.</span></span>
+3. <span data-ttu-id="19f67-109">ขยายหรือยุบส่วนตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-109">Expand or collapse the Write-off section.</span></span>
+    * <span data-ttu-id="19f67-110">สมุดรายวันการตัดจ่ายคือสมุดรายวันทั่วไปที่จะเก็บธุรกรรมการตัดจ่ายที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="19f67-110">The Write-off journal is the general journal that will hold the write-off transactions that you create.</span></span>  
+    * <span data-ttu-id="19f67-111">คุณสามารถแนบรหัสเหตุผลสำหรับการตัดจ่ายได้ทุกครั้ง </span><span class="sxs-lookup"><span data-stu-id="19f67-111">You can attach a reason code to every write-off.</span></span> <span data-ttu-id="19f67-112">คุณสามารถแทนค่าเริ่มต้นนี้ในขณะการตัดจ่ายได้</span><span class="sxs-lookup"><span data-stu-id="19f67-112">You can override this default at the time of the write-off.</span></span>  
+    * <span data-ttu-id="19f67-113">ตั้งค่าตัวนี้เป็น ใช่ ถ้าคุณต้องการแยกภาษีขายออกจากธุรกรรมดั้งเดิมในการตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-113">Set this to Yes if you want to separate the sales tax from the original transaction in the write-off.</span></span>  
+4. <span data-ttu-id="19f67-114">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-114">Close the page.</span></span>
+5. <span data-ttu-id="19f67-115">ไปที่สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > โพรไฟล์การลงรายการบัญชีลูกค้า</span><span class="sxs-lookup"><span data-stu-id="19f67-115">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
+    * <span data-ttu-id="19f67-116">บัญชีตัดจ่ายจะถูกใช้เป็นบัญชีค่าใช้จ่าย หรือจองการปรับปรุงในสมุดรายวันทั่วไป</span><span class="sxs-lookup"><span data-stu-id="19f67-116">The write-off account will be used as the expense account or reserve adjustment in the general journal</span></span>   
+6. <span data-ttu-id="19f67-117">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-117">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a>ตัดจ่ายยอดดุลของลูกค้าจากหน้ายอดดุลตามอายุหนี้
-1. ไปที่สินเชื่อและการเรียกเก็บเงิน > การเรียกเก็บเงิน > ยอดดุลตามอายุหนี้
-2. ทำเครื่องหมายที่แถวสำหรับลูกค้าที่คุณต้องการตัดจ่าย  ตัวอย่างเช่น ทำเครื่องหมายบรรทัดรายการที่มี บริษัท Birch อยู่
-3. ในแผงการดำเนินการ คลิก รวบรวม
-4. คลิก ตัดจ่าย
-5. คลิก ตกลง
-6. ปิดหน้า
-7. ไปที่บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป
-8. เลือกหมายเลขชุดงานสมุดรายวันสำหรับสมุดรายวันที่มีการตัดจ่ายของคุณอยู่
-    * หนึ่งบรรทัดจะถูกสร้างขึ้นมาเพื่อกลับรายการยอดดุลลูกค้า  อีกอย่างน้อยหนึ่งบรรทัดจะถูกสร้างขึ้นเพื่อลงรายการการตัดจ่ายไปยังบัญชีตัดจ่าย  
-9. ปิดหน้า
-10. ปิดหน้า
+## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a><span data-ttu-id="19f67-118">ตัดจ่ายยอดดุลของลูกค้าจากหน้ายอดดุลตามอายุหนี้</span><span class="sxs-lookup"><span data-stu-id="19f67-118">Write off a customer balance from the aged balances page</span></span>
+1. <span data-ttu-id="19f67-119">ไปที่สินเชื่อและการเรียกเก็บเงิน > การเรียกเก็บเงิน > ยอดดุลตามอายุหนี้</span><span class="sxs-lookup"><span data-stu-id="19f67-119">Go to Credit and collections > Collections > Aged balances.</span></span>
+2. <span data-ttu-id="19f67-120">ทำเครื่องหมายที่แถวสำหรับลูกค้าที่คุณต้องการตัดจ่าย </span><span class="sxs-lookup"><span data-stu-id="19f67-120">Mark the row for the customer that you want to write off.</span></span> <span data-ttu-id="19f67-121">ตัวอย่างเช่น ทำเครื่องหมายบรรทัดรายการที่มี บริษัท Birch อยู่</span><span class="sxs-lookup"><span data-stu-id="19f67-121">For example, mark the line with Birch Company on it.</span></span>
+3. <span data-ttu-id="19f67-122">ในแผงการดำเนินการ คลิก รวบรวม</span><span class="sxs-lookup"><span data-stu-id="19f67-122">On the Action Pane, click Collect.</span></span>
+4. <span data-ttu-id="19f67-123">คลิก ตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-123">Click Write off.</span></span>
+5. <span data-ttu-id="19f67-124">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="19f67-124">Click OK.</span></span>
+6. <span data-ttu-id="19f67-125">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-125">Close the page.</span></span>
+7. <span data-ttu-id="19f67-126">ไปที่บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป</span><span class="sxs-lookup"><span data-stu-id="19f67-126">Go to General ledger > Journal entries > General journals.</span></span>
+8. <span data-ttu-id="19f67-127">เลือกหมายเลขชุดงานสมุดรายวันสำหรับสมุดรายวันที่มีการตัดจ่ายของคุณอยู่</span><span class="sxs-lookup"><span data-stu-id="19f67-127">Select the journal batch number for the journal that contains your write-off.</span></span>
+    * <span data-ttu-id="19f67-128">หนึ่งบรรทัดจะถูกสร้างขึ้นมาเพื่อกลับรายการยอดดุลลูกค้า </span><span class="sxs-lookup"><span data-stu-id="19f67-128">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="19f67-129">อีกอย่างน้อยหนึ่งบรรทัดจะถูกสร้างขึ้นเพื่อลงรายการการตัดจ่ายไปยังบัญชีตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-129">One or more lines are created to post the write-off to the write-off account.</span></span>  
+9. <span data-ttu-id="19f67-130">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-130">Close the page.</span></span>
+10. <span data-ttu-id="19f67-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-131">Close the page.</span></span>
 
-## <a name="write-off-transactions-from-the-collections-form"></a>ตัดจ่ายธุรกรรมจากแบบฟอร์มการเรียกเก็บเงิน
-1. ไปที่สินเชื่อและการเรียกเก็บเงิน > การเรียกเก็บเงิน > ยอดดุลตามอายุหนี้
-2. เลือกชื่อของลูกค้าที่มีธุรกรรมที่คุณต้องการตัดจ่าย  ตัวอย่างเช่น เลือก Cave Wholesales (สหรัฐอเมริกา-004)
-3. ทำเครื่องหมายบนแถวธุรกรรมที่หนึ่ง
-4. ทำเครื่องหมายบนแถวธุรกรรมที่สอง
-5. คลิก ตัดจ่าย
-6. ในฟิลด์ข้อคิดเห็นเกี่ยวกับเหตุผล พิมพ์ 'Bad debts'
-7. คลิก ตกลง
-8. ปิดหน้า
-9. ปิดหน้า
-10. ไปที่บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป
-11. เลือกหมายเลขชุดงานสมุดรายวันสำหรับสมุดรายวันที่มีการตัดจ่ายของคุณอยู่
-    * หนึ่งบรรทัดจะถูกสร้างขึ้นมาเพื่อกลับรายการยอดดุลลูกค้า  อีกอย่างน้อยหนึ่งบรรทัดจะถูกสร้างขึ้นเพื่อลงรายการการตัดจ่ายไปยังบัญชีตัดจ่าย  
-12. ปิดหน้า
-13. ปิดหน้า
+## <a name="write-off-transactions-from-the-collections-form"></a><span data-ttu-id="19f67-132">ตัดจ่ายธุรกรรมจากแบบฟอร์มการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="19f67-132">Write off transactions from the collections form.</span></span>
+1. <span data-ttu-id="19f67-133">ไปที่สินเชื่อและการเรียกเก็บเงิน > การเรียกเก็บเงิน > ยอดดุลตามอายุหนี้</span><span class="sxs-lookup"><span data-stu-id="19f67-133">Go to Credit and collections > Collections > Aged balances.</span></span>
+2. <span data-ttu-id="19f67-134">เลือกชื่อของลูกค้าที่มีธุรกรรมที่คุณต้องการตัดจ่าย </span><span class="sxs-lookup"><span data-stu-id="19f67-134">Select the name of the customer that has the transactions that you want to write off.</span></span> <span data-ttu-id="19f67-135">ตัวอย่างเช่น เลือก Cave Wholesales (สหรัฐอเมริกา-004)</span><span class="sxs-lookup"><span data-stu-id="19f67-135">For example, select Cave Wholesales (US-004).</span></span>
+3. <span data-ttu-id="19f67-136">ทำเครื่องหมายบนแถวธุรกรรมที่หนึ่ง</span><span class="sxs-lookup"><span data-stu-id="19f67-136">Mark the row for the first transaction.</span></span>
+4. <span data-ttu-id="19f67-137">ทำเครื่องหมายบนแถวธุรกรรมที่สอง</span><span class="sxs-lookup"><span data-stu-id="19f67-137">Mark the row for the second transaction.</span></span>
+5. <span data-ttu-id="19f67-138">คลิก ตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-138">Click Write off.</span></span>
+6. <span data-ttu-id="19f67-139">ในฟิลด์ข้อคิดเห็นเกี่ยวกับเหตุผล พิมพ์ 'Bad debts'</span><span class="sxs-lookup"><span data-stu-id="19f67-139">In the Reason comment field, type 'Bad debts'.</span></span>
+7. <span data-ttu-id="19f67-140">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="19f67-140">Click OK.</span></span>
+8. <span data-ttu-id="19f67-141">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-141">Close the page.</span></span>
+9. <span data-ttu-id="19f67-142">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-142">Close the page.</span></span>
+10. <span data-ttu-id="19f67-143">ไปที่บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป</span><span class="sxs-lookup"><span data-stu-id="19f67-143">Go to General ledger > Journal entries > General journals.</span></span>
+11. <span data-ttu-id="19f67-144">เลือกหมายเลขชุดงานสมุดรายวันสำหรับสมุดรายวันที่มีการตัดจ่ายของคุณอยู่</span><span class="sxs-lookup"><span data-stu-id="19f67-144">Select the journal batch number for the journal that contains your write-off.</span></span>
+    * <span data-ttu-id="19f67-145">หนึ่งบรรทัดจะถูกสร้างขึ้นมาเพื่อกลับรายการยอดดุลลูกค้า </span><span class="sxs-lookup"><span data-stu-id="19f67-145">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="19f67-146">อีกอย่างน้อยหนึ่งบรรทัดจะถูกสร้างขึ้นเพื่อลงรายการการตัดจ่ายไปยังบัญชีตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-146">One or more lines are created to post the write-off to the write-off account.</span></span>  
+12. <span data-ttu-id="19f67-147">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-147">Close the page.</span></span>
+13. <span data-ttu-id="19f67-148">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-148">Close the page.</span></span>
 
-## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>ตัดจ่ายใบแจ้งหนี้จากหน้าใบแจ้งหนี้ของลูกค้าที่เปิดไว้
-1. ไปที่บัญชีลูกหนี้ > ใบแจ้งหนี้ > เปิดใบแจ้งหนี้ของลูกค้า
-2. ทำเครื่องหมายบรรทัดรายการสำหรับใบแจ้งหนี้  ตัวอย่างเช่น ทำเครื่องหมายในรายการสำหรับ CIV-000667
-3. ในบานหน้าต่างการดำเนินการ คลิก ใบแจ้งหนี้
-4. คลิก ตัดจ่าย
-5. คลิก ตกลง
-6. ปิดหน้า
+## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a><span data-ttu-id="19f67-149">ตัดจ่ายใบแจ้งหนี้จากหน้าใบแจ้งหนี้ของลูกค้าที่เปิดไว้</span><span class="sxs-lookup"><span data-stu-id="19f67-149">Write off an invoice from the Open customers invoices page</span></span>
+1. <span data-ttu-id="19f67-150">ไปที่บัญชีลูกหนี้ > ใบแจ้งหนี้ > เปิดใบแจ้งหนี้ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="19f67-150">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
+2. <span data-ttu-id="19f67-151">ทำเครื่องหมายบรรทัดรายการสำหรับใบแจ้งหนี้ </span><span class="sxs-lookup"><span data-stu-id="19f67-151">Mark the line for an invoice.</span></span> <span data-ttu-id="19f67-152">ตัวอย่างเช่น ทำเครื่องหมายในรายการสำหรับ CIV-000667</span><span class="sxs-lookup"><span data-stu-id="19f67-152">For example, mark the line for CIV-000667.</span></span>
+3. <span data-ttu-id="19f67-153">ในบานหน้าต่างการดำเนินการ คลิก ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="19f67-153">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="19f67-154">คลิก ตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-154">Click Write off.</span></span>
+5. <span data-ttu-id="19f67-155">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="19f67-155">Click OK.</span></span>
+6. <span data-ttu-id="19f67-156">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-156">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-customer-page"></a>ตัดจ่ายยอดดุลของลูกค้าจากหน้าเพจของลูกค้า
-1. ไปที่บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด
-2. เลือกรหัสลูกค้า  ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001 (Contoso Retail Diego San)
-3. ในแผงการดำเนินการ คลิก รวบรวม
-4. คลิก ตัดจ่าย
-5. คลิก ตกลง
-6. ปิดหน้า
+## <a name="write-off-a-customer-balance-from-the-customer-page"></a><span data-ttu-id="19f67-157">ตัดจ่ายยอดดุลของลูกค้าจากหน้าเพจของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="19f67-157">Write off a customer balance from the customer page</span></span>
+1. <span data-ttu-id="19f67-158">ไปที่บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="19f67-158">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="19f67-159">เลือกรหัสลูกค้า </span><span class="sxs-lookup"><span data-stu-id="19f67-159">Select a customer account.</span></span> <span data-ttu-id="19f67-160">ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001 (Contoso Retail Diego San)</span><span class="sxs-lookup"><span data-stu-id="19f67-160">For example, select US-001 (Contoso Retail San Diego).</span></span>
+3. <span data-ttu-id="19f67-161">ในแผงการดำเนินการ คลิก รวบรวม</span><span class="sxs-lookup"><span data-stu-id="19f67-161">On the Action Pane, click Collect.</span></span>
+4. <span data-ttu-id="19f67-162">คลิก ตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="19f67-162">Click Write off.</span></span>
+5. <span data-ttu-id="19f67-163">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="19f67-163">Click OK.</span></span>
+6. <span data-ttu-id="19f67-164">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="19f67-164">Close the page.</span></span>
 
 

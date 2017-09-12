@@ -16,65 +16,65 @@ ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: e43b9397dd4e362eff9d78f302732e6bcc53d1db
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="manual-depreciation"></a>การคิดค่าเสื่อมราคาด้วยตนเอง
+# <a name="manual-depreciation"></a><span data-ttu-id="600c7-103">การคิดค่าเสื่อมราคาด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="600c7-103">Manual depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงภาพรวมของวิธีคิดค่าเสื่อมราคาด้วยตนเอง
+<span data-ttu-id="600c7-104">บทความนี้แสดงภาพรวมของวิธีคิดค่าเสื่อมราคาด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="600c7-104">This article gives an overview of the manual depreciation method.</span></span>
 
-เมื่อคุณตั้งค่าการคิดค่าเสื่อมราคาสินทรัพย์ถาวรและเลือก **กำหนดเอง** ในฟิลด์ **วิธีการ** บนหน้า **โพรไฟล์การคิดค่าเสื่อมราคา** ค่าเสื่อมราคาของสินทรัพย์ถาวรที่มีการกำหนดให้กับโพรไฟล์การคิดค่าเสื่อมราคานี้ จะถูกกำหนดโดยเปอร์เซ็นต์ที่คุณป้อนสำหรับแต่ละช่วงเวลาในปีปฏิทิน ช่วงเวลาที่คุณตั้งค่าเปอร์เซ็นต์จะมีการลงรายการบัญชีตามค่าที่คุณเลือกไว้ในฟิลด์ **ความถี่ของรอบระยะเวลา** บนแท็บด่วน **ทั่วไป** ของหน้า **โพรไฟล์การคิดค่าเสื่อมราคา** ต่อไปนี้เป็นค่าที่คุณสามารถเลือกได้:
+<span data-ttu-id="600c7-105">เมื่อคุณตั้งค่าการคิดค่าเสื่อมราคาสินทรัพย์ถาวรและเลือก **กำหนดเอง** ในฟิลด์ **วิธีการ** บนหน้า **โพรไฟล์การคิดค่าเสื่อมราคา** ค่าเสื่อมราคาของสินทรัพย์ถาวรที่มีการกำหนดให้กับโพรไฟล์การคิดค่าเสื่อมราคานี้ จะถูกกำหนดโดยเปอร์เซ็นต์ที่คุณป้อนสำหรับแต่ละช่วงเวลาในปีปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="600c7-105">When you set up a fixed asset depreciation profile and select **Manual** in the **Method** field on the **Depreciation profiles** page, the depreciation of fixed assets that are assigned to the depreciation profile is determined by the percentage that you enter for each interval in the calendar year.</span></span> <span data-ttu-id="600c7-106">ช่วงเวลาที่คุณตั้งค่าเปอร์เซ็นต์จะมีการลงรายการบัญชีตามค่าที่คุณเลือกไว้ในฟิลด์ **ความถี่ของรอบระยะเวลา** บนแท็บด่วน **ทั่วไป** ของหน้า **โพรไฟล์การคิดค่าเสื่อมราคา**</span><span class="sxs-lookup"><span data-stu-id="600c7-106">The intervals that you set up percentages for are posted according to the value that you select in the **Period frequency** field on the **General** FastTab of the **Depreciation profiles** page.</span></span> <span data-ttu-id="600c7-107">ต่อไปนี้เป็นค่าที่คุณสามารถเลือกได้:</span><span class="sxs-lookup"><span data-stu-id="600c7-107">Here are the values that you can select:</span></span>
 
--   ทุกปี
--   ทุกเดือน
--   รายไตรมาส
--   ทุกครึ่งปี
--   รายวัน
+-   <span data-ttu-id="600c7-108">ทุกปี</span><span class="sxs-lookup"><span data-stu-id="600c7-108">Yearly</span></span>
+-   <span data-ttu-id="600c7-109">ทุกเดือน</span><span class="sxs-lookup"><span data-stu-id="600c7-109">Monthly</span></span>
+-   <span data-ttu-id="600c7-110">รายไตรมาส</span><span class="sxs-lookup"><span data-stu-id="600c7-110">Quarterly</span></span>
+-   <span data-ttu-id="600c7-111">ทุกครึ่งปี</span><span class="sxs-lookup"><span data-stu-id="600c7-111">Half-Yearly</span></span>
+-   <span data-ttu-id="600c7-112">รายวัน</span><span class="sxs-lookup"><span data-stu-id="600c7-112">Daily</span></span>
 
-หลังจากคุณเลือกความถี่ของรอบระยะเวลา ให้คลิก **กำหนดการที่กำหนดเอง**และตั้งค่าเปอร์เซ็นต์สำหรับช่วงเวลาการลงรายการบัญชีแต่ละช่วง เมื่อรวมกันแล้ว กำหนดการที่กำหนดเองและช่วงเวลาของการลงรายการบัญชีจะเป็นตัวกำหนดยอดค่าเสื่อมราคา ดังที่แสดงในตัวอย่างในบทความหลังจากนี้ การคิดค่าเสื่อมราคาด้วยตนเองจะถูกคำนวณเป็นเปอร์เซ็นต์ของราคาทุนของสินทรัพย์เสมอ สำหรับการคิดค่าเสื่อมราคาด้วยตนเอง เปอร์เซ็นต์ที่คุณป้อนในช่วงของค่าเสื่อมราคาไม่ต้องรวมกันได้ 100% การคิดค่าเสื่อมราคาด้วยตนเองเป็นวิธีการคิดค่าเสื่อมราคาที่ยืดหยุ่นซึ่งมักใช้เพื่อกำหนดโพรไฟล์ค่าเสื่อมราคาพิเศษบนหน้า **สมุดบัญชี** เช่นการคิดค่าเสื่อมราคาที่ไม่ใช่ประจำงวดสำหรับวัตถุประสงค์พิเศษ (ตัวอย่างเช่น ภาษี)
+<span data-ttu-id="600c7-113">หลังจากคุณเลือกความถี่ของรอบระยะเวลา ให้คลิก **กำหนดการที่กำหนดเอง**และตั้งค่าเปอร์เซ็นต์สำหรับช่วงเวลาการลงรายการบัญชีแต่ละช่วง</span><span class="sxs-lookup"><span data-stu-id="600c7-113">After you select the period frequency, click **Manual schedules**, and set up percentages for each posting interval.</span></span> <span data-ttu-id="600c7-114">เมื่อรวมกันแล้ว กำหนดการที่กำหนดเองและช่วงเวลาของการลงรายการบัญชีจะเป็นตัวกำหนดยอดค่าเสื่อมราคา ดังที่แสดงในตัวอย่างในบทความหลังจากนี้</span><span class="sxs-lookup"><span data-stu-id="600c7-114">Together, the manual schedules and the posting intervals define the depreciation amount, as shown in the examples later in this article.</span></span> <span data-ttu-id="600c7-115">การคิดค่าเสื่อมราคาด้วยตนเองจะถูกคำนวณเป็นเปอร์เซ็นต์ของราคาทุนของสินทรัพย์เสมอ</span><span class="sxs-lookup"><span data-stu-id="600c7-115">Manual depreciation is always calculated as a percentage of the acquisition price.</span></span> <span data-ttu-id="600c7-116">สำหรับการคิดค่าเสื่อมราคาด้วยตนเอง เปอร์เซ็นต์ที่คุณป้อนในช่วงของค่าเสื่อมราคาไม่ต้องรวมกันได้ 100%</span><span class="sxs-lookup"><span data-stu-id="600c7-116">For manual depreciation, the percentages that you enter in the intervals of the depreciation don't have to add up to 100 percent.</span></span> <span data-ttu-id="600c7-117">การคิดค่าเสื่อมราคาด้วยตนเองเป็นวิธีการคิดค่าเสื่อมราคาที่ยืดหยุ่นซึ่งมักใช้เพื่อกำหนดโพรไฟล์ค่าเสื่อมราคาพิเศษบนหน้า **สมุดบัญชี** เช่นการคิดค่าเสื่อมราคาที่ไม่ใช่ประจำงวดสำหรับวัตถุประสงค์พิเศษ (ตัวอย่างเช่น ภาษี)</span><span class="sxs-lookup"><span data-stu-id="600c7-117">Manual depreciation is a flexible depreciation method that is often used to define an extraordinary depreciation profile on the **Books** page, such as a non-periodic depreciation for special purposes (for example, tax).</span></span>
 
-## <a name="examples"></a>ตัวอย่างเช่น
-ราคาทุนของสินทรัพย์: มูลค่าซากที่คาดไว้คือ 11,000.00: 1,000.00 ตารางต่อไปนี้แสดงช่วงเวลาและเปอร์เซ็นต์ที่คุณตั้งค่าบนหน้า **กำหนดการโพรไฟล์ค่าเสื่อมราคาสินทรัพย์ถาวร**
+## <a name="examples"></a><span data-ttu-id="600c7-118">ตัวอย่างเช่น</span><span class="sxs-lookup"><span data-stu-id="600c7-118">Examples</span></span>
+<span data-ttu-id="600c7-119">ราคาทุนของสินทรัพย์: มูลค่าซากที่คาดไว้คือ 11,000.00: 1,000.00 ตารางต่อไปนี้แสดงช่วงเวลาและเปอร์เซ็นต์ที่คุณตั้งค่าบนหน้า **กำหนดการโพรไฟล์ค่าเสื่อมราคาสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="600c7-119">Acquisition price: 11,000.00 Expected scrap value: 1,000.00 The following table shows the intervals and percentages that you set up on the **Fixed asset depreciation profile schedules** page.</span></span>
 
-| หมายเลขช่วงเวลา | เปอร์เซ็นต์ |
+| <span data-ttu-id="600c7-120">หมายเลขช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="600c7-120">Interval number</span></span> | <span data-ttu-id="600c7-121">เปอร์เซ็นต์</span><span class="sxs-lookup"><span data-stu-id="600c7-121">Percentage</span></span> |
 |-----------------|------------|
-| 1               | 10.00      |
-| 2               | 50.00      |
-| 3               | 8.00       |
+| <span data-ttu-id="600c7-122">1</span><span class="sxs-lookup"><span data-stu-id="600c7-122">1</span></span>               | <span data-ttu-id="600c7-123">10.00</span><span class="sxs-lookup"><span data-stu-id="600c7-123">10.00</span></span>      |
+| <span data-ttu-id="600c7-124">2</span><span class="sxs-lookup"><span data-stu-id="600c7-124">2</span></span>               | <span data-ttu-id="600c7-125">50.00</span><span class="sxs-lookup"><span data-stu-id="600c7-125">50.00</span></span>      |
+| <span data-ttu-id="600c7-126">3</span><span class="sxs-lookup"><span data-stu-id="600c7-126">3</span></span>               | <span data-ttu-id="600c7-127">8.00</span><span class="sxs-lookup"><span data-stu-id="600c7-127">8.00</span></span>       |
 
-ตารางต่อไปนี้แสดงวิธีคำนวณค่าเสื่อมราคาสำหรับแต่ละช่วง
+<span data-ttu-id="600c7-128">ตารางต่อไปนี้แสดงวิธีคำนวณค่าเสื่อมราคาสำหรับแต่ละช่วง</span><span class="sxs-lookup"><span data-stu-id="600c7-128">The following table shows how the depreciation for each interval is calculated.</span></span>
 
-|  หมายเลขช่วงเวลา | การคำนวณยอดค่าเสื่อมราคารายปี | มูลค่าตามบัญชีสุทธิเมื่อสิ้นสุดช่วงเวลา |
+|  <span data-ttu-id="600c7-129">หมายเลขช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="600c7-129">Interval number</span></span> | <span data-ttu-id="600c7-130">การคำนวณยอดค่าเสื่อมราคารายปี</span><span class="sxs-lookup"><span data-stu-id="600c7-130">Calculation of the yearly depreciation amount</span></span> | <span data-ttu-id="600c7-131">มูลค่าตามบัญชีสุทธิเมื่อสิ้นสุดช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="600c7-131">Net book value at the end of the interval</span></span> |
 |------------------|-----------------------------------------------|-------------------------------------------|
-| 1                | (11,000 – 1,000) × 10% = 1,000                | 10,000 (11,000 – 1,000)                   |
-| 2                | (11,000 – 1,000) × 50% = 5,000                | 5,000 (10,000 – 5,000)                    |
-| 3                | (11,000 – 1,000) × 8% = 800                   | 4,200 (5,000 – 800)                       |
+| <span data-ttu-id="600c7-132">1</span><span class="sxs-lookup"><span data-stu-id="600c7-132">1</span></span>                | <span data-ttu-id="600c7-133">(11,000 – 1,000) × 10% = 1,000</span><span class="sxs-lookup"><span data-stu-id="600c7-133">(11,000 – 1,000) × 10% = 1,000</span></span>                | <span data-ttu-id="600c7-134">10,000 (11,000 – 1,000)</span><span class="sxs-lookup"><span data-stu-id="600c7-134">10,000 (11,000 – 1,000)</span></span>                   |
+| <span data-ttu-id="600c7-135">2</span><span class="sxs-lookup"><span data-stu-id="600c7-135">2</span></span>                | <span data-ttu-id="600c7-136">(11,000 – 1,000) × 50% = 5,000</span><span class="sxs-lookup"><span data-stu-id="600c7-136">(11,000 – 1,000) × 50% = 5,000</span></span>                | <span data-ttu-id="600c7-137">5,000 (10,000 – 5,000)</span><span class="sxs-lookup"><span data-stu-id="600c7-137">5,000 (10,000 – 5,000)</span></span>                    |
+| <span data-ttu-id="600c7-138">3</span><span class="sxs-lookup"><span data-stu-id="600c7-138">3</span></span>                | <span data-ttu-id="600c7-139">(11,000 – 1,000) × 8% = 800</span><span class="sxs-lookup"><span data-stu-id="600c7-139">(11,000 – 1,000) × 8% = 800</span></span>                   | <span data-ttu-id="600c7-140">4,200 (5,000 – 800)</span><span class="sxs-lookup"><span data-stu-id="600c7-140">4,200 (5,000 – 800)</span></span>                       |
 
-ถ้าคุณเลือก **ทุกเดือน** ในฟิลด์**ความถี่ของรอบระยะเวลา** คุณตั้งค่าช่วงเวลาของกำหนดการที่กำหนดเองเป็น 12 ช่วง ตารางต่อไปนี้แสดงยอดค่าเสื่อมราคาสำหรับช่วงเวลาสองช่วงแรก
+<span data-ttu-id="600c7-141">ถ้าคุณเลือก **ทุกเดือน** ในฟิลด์**ความถี่ของรอบระยะเวลา** คุณตั้งค่าช่วงเวลาของกำหนดการที่กำหนดเองเป็น 12 ช่วง</span><span class="sxs-lookup"><span data-stu-id="600c7-141">If you select **Monthly** in the **Period frequency** field, you set up 12 manual schedule intervals.</span></span> <span data-ttu-id="600c7-142">ตารางต่อไปนี้แสดงยอดค่าเสื่อมราคาสำหรับช่วงเวลาสองช่วงแรก</span><span class="sxs-lookup"><span data-stu-id="600c7-142">The following table shows the depreciation amounts for the first two intervals.</span></span>
 
-| ช่วงเวลา | ยอดค่าเสื่อมราคา            |
+| <span data-ttu-id="600c7-143">ช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="600c7-143">Interval</span></span> | <span data-ttu-id="600c7-144">ยอดค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="600c7-144">Depreciation amount</span></span>            |
 |----------|--------------------------------|
-| มกราคม  | (11,000 – 1,000) × 10% = 1,000 |
-| กุมภาพันธ์ | (11,000 – 1,000) × 50% = 5,000 |
+| <span data-ttu-id="600c7-145">มกราคม</span><span class="sxs-lookup"><span data-stu-id="600c7-145">January</span></span>  | <span data-ttu-id="600c7-146">(11,000 – 1,000) × 10% = 1,000</span><span class="sxs-lookup"><span data-stu-id="600c7-146">(11,000 – 1,000) × 10% = 1,000</span></span> |
+| <span data-ttu-id="600c7-147">กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="600c7-147">February</span></span> | <span data-ttu-id="600c7-148">(11,000 – 1,000) × 50% = 5,000</span><span class="sxs-lookup"><span data-stu-id="600c7-148">(11,000 – 1,000) × 50% = 5,000</span></span> |
 
-ถ้าคุณเลือก **ทุกครึ่งปี** ในฟิลด์ ****ความถี่ของรอบระยะเวลา** คุณตั้งค่าช่วงเวลาของกำหนดการที่กำหนดเองเป็น 2 ช่วง ตารางต่อไปนี้แสดงยอดค่าเสื่อมราคาสำหรับช่วงเวลาสองช่วงแรก
+<span data-ttu-id="600c7-149">ถ้าคุณเลือก **ทุกครึ่งปี** ในฟิลด์ ****ความถี่ของรอบระยะเวลา** คุณตั้งค่าช่วงเวลาของกำหนดการที่กำหนดเองเป็น 2 ช่วง</span><span class="sxs-lookup"><span data-stu-id="600c7-149">If you select **Half-Yearly** in the ****Period frequency** field**, you set up two manual schedule intervals.</span></span> <span data-ttu-id="600c7-150">ตารางต่อไปนี้แสดงยอดค่าเสื่อมราคาสำหรับช่วงเวลาสองช่วงแรก</span><span class="sxs-lookup"><span data-stu-id="600c7-150">The following table shows the depreciation amounts for those two intervals.</span></span>
 
-| ช่วงเวลา    | ยอดค่าเสื่อมราคา            |
+| <span data-ttu-id="600c7-151">ช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="600c7-151">Interval</span></span>    | <span data-ttu-id="600c7-152">ยอดค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="600c7-152">Depreciation amount</span></span>            |
 |-------------|--------------------------------|
-| 30 มิถุนายน     | (11,000 – 1,000) × 10% = 1,000 |
-| 31 ธันวาคม | (11,000 – 1,000) × 50% = 5,000 |
+| <span data-ttu-id="600c7-153">30 มิถุนายน</span><span class="sxs-lookup"><span data-stu-id="600c7-153">June 30</span></span>     | <span data-ttu-id="600c7-154">(11,000 – 1,000) × 10% = 1,000</span><span class="sxs-lookup"><span data-stu-id="600c7-154">(11,000 – 1,000) × 10% = 1,000</span></span> |
+| <span data-ttu-id="600c7-155">31 ธันวาคม</span><span class="sxs-lookup"><span data-stu-id="600c7-155">December 31</span></span> | <span data-ttu-id="600c7-156">(11,000 – 1,000) × 50% = 5,000</span><span class="sxs-lookup"><span data-stu-id="600c7-156">(11,000 – 1,000) × 50% = 5,000</span></span> |
 
-ผลรวมของเปอร์เซ็นต์สำหรับช่วงเวลาทั้งหมดไม่จำเป็นต้องเป็น 100 อย่างไรก็ตาม คุณจะได้รับข้อความถ้าค่าในฟิลด์ **เปอร์เซ็นต์สะสม** ในหน้า **กำหนดการโพรไฟล์ค่าเสื่อมราคาสินทรัพย์ถาวร** ไม่เป็น **100**
+<span data-ttu-id="600c7-157">ผลรวมของเปอร์เซ็นต์สำหรับช่วงเวลาทั้งหมดไม่จำเป็นต้องเป็น 100</span><span class="sxs-lookup"><span data-stu-id="600c7-157">The total of percentages for all intervals doesn't have to be 100.</span></span> <span data-ttu-id="600c7-158">อย่างไรก็ตาม คุณจะได้รับข้อความถ้าค่าในฟิลด์ **เปอร์เซ็นต์สะสม** ในหน้า **กำหนดการโพรไฟล์ค่าเสื่อมราคาสินทรัพย์ถาวร** ไม่เป็น **100**</span><span class="sxs-lookup"><span data-stu-id="600c7-158">However, you receive a message if the value in the **Cumulative percentage** field on the **Fixed asset depreciation profile schedules** page isn't **100**.</span></span>
 
 
 

@@ -25,228 +25,228 @@ ms.lasthandoff: 08/04/2017
 
 ---
 
-# <a name="system-requirements-for-on-premises-deployments"></a>ความต้องการของระบบสำหรับการปรับใช้ในองค์กร
+# <a name="system-requirements-for-on-premises-deployments"></a><span data-ttu-id="05b26-103">ความต้องการของระบบสำหรับการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="05b26-103">System requirements for on-premises deployments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงความต้องการของระบบสำหรับรุ่นล่าสุดของ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition สำหรับการปรับใช้ในองค์กร ก่อนที่คุณจะทำการติดตั้ง Finance and Operations เมื่อขั้นตอนนี้เหมาะสม ให้ตรวจสอบว่าระบบที่คุณกำลังทำงานมีคุณสมบัติตรงตามหรือสูงกว่าความต้องการต่ำสุดด้านเครือข่าย ฮาร์ดแวร์ และซอฟต์แวร์
+<span data-ttu-id="05b26-104">หัวข้อนี้แสดงความต้องการของระบบสำหรับรุ่นล่าสุดของ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition สำหรับการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="05b26-104">This topic lists the system requirements for the current version of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, for on-premises deployments.</span></span> <span data-ttu-id="05b26-105">ก่อนที่คุณจะทำการติดตั้ง Finance and Operations เมื่อขั้นตอนนี้เหมาะสม ให้ตรวจสอบว่าระบบที่คุณกำลังทำงานมีคุณสมบัติตรงตามหรือสูงกว่าความต้องการต่ำสุดด้านเครือข่าย ฮาร์ดแวร์ และซอฟต์แวร์</span><span class="sxs-lookup"><span data-stu-id="05b26-105">Before you install Finance and Operations, when this step is appropriate, verify that the system that you're working with meets or exceeds the minimum network, hardware, and software requirements.</span></span>
 
-## <a name="network-requirements"></a>ข้อกำหนดของเครือข่าย
-Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร) สามารถทำงานบนเครือข่ายที่ใช้ Internet Protocol รุ่น 4 (IPv4) หรือ Internet Protocol รุ่น 6 (IPv6) พิจารณาสภาพแวดล้อมเครือข่ายเมื่อคุณวางแผนระบบของคุณ และใช้คำแนะนำต่อไปนี้
+## <a name="network-requirements"></a><span data-ttu-id="05b26-106">ข้อกำหนดของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="05b26-106">Network requirements</span></span>
+<span data-ttu-id="05b26-107">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร) สามารถทำงานบนเครือข่ายที่ใช้ Internet Protocol รุ่น 4 (IPv4) หรือ Internet Protocol รุ่น 6 (IPv6)</span><span class="sxs-lookup"><span data-stu-id="05b26-107">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) can work on networks that use Internet Protocol Version 4 (IPv4) or Internet Protocol Version 6 (IPv6).</span></span> <span data-ttu-id="05b26-108">พิจารณาสภาพแวดล้อมเครือข่ายเมื่อคุณวางแผนระบบของคุณ และใช้คำแนะนำต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="05b26-108">Consider the network environment when you plan your system, and use the following guidelines.</span></span>
 
-### <a name="network-response-time"></a>เวลาในการตอบสนองเครือข่าย
-ตารางต่อไปนี้แสดงรายการข้อกำหนดต่ำสุดของเครือข่าย สำหรับการเชื่อมต่อระหว่างเว็บเบราเซอร์และ Application Object Server (AOS) และการเชื่อมต่อระหว่าง AOS และฐานข้อมูลในระบบภายในองค์กร
+### <a name="network-response-time"></a><span data-ttu-id="05b26-109">เวลาในการตอบสนองเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="05b26-109">Network response time</span></span>
+<span data-ttu-id="05b26-110">ตารางต่อไปนี้แสดงรายการข้อกำหนดต่ำสุดของเครือข่าย สำหรับการเชื่อมต่อระหว่างเว็บเบราเซอร์และ Application Object Server (AOS) และการเชื่อมต่อระหว่าง AOS และฐานข้อมูลในระบบภายในองค์กร</span><span class="sxs-lookup"><span data-stu-id="05b26-110">The following table lists the minimum network requirements for the connection between the web browser and Application Object Server (AOS), and for the connection between AOS and the database in an on-premises system.</span></span>
 
-| มูลค่า     | เว็บเบราเซอร์ไปยัง AOS                      | AOS ไปยังฐานข้อมูล |
+| <span data-ttu-id="05b26-111">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="05b26-111">Value</span></span>     | <span data-ttu-id="05b26-112">เว็บเบราเซอร์ไปยัง AOS</span><span class="sxs-lookup"><span data-stu-id="05b26-112">Web browser to AOS</span></span>                      | <span data-ttu-id="05b26-113">AOS ไปยังฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="05b26-113">AOS to database</span></span> |
 |-----------|-----------------------------------------|------------------------------------------------------------------------------------------|
-| แบนด์วิธ | 50 กิโลไบต์ต่อวินาที (KBps) สำหรับแต่ละผู้ใช้ | 100 เมกะไบต์ต่อวินาที (MBps) |
-| เวลาแฝง   | น้อยกว่า 250 – 300 มิลลิวินาที     | น้อยกว่า 1 มิลลิวินาที (เครือข่ายท้องถิ่น [LAN] เท่านั้น) AOS และฐานข้อมูลต้องอยู่ร่วมกัน |
+| <span data-ttu-id="05b26-114">แบนด์วิธ</span><span class="sxs-lookup"><span data-stu-id="05b26-114">Bandwidth</span></span> | <span data-ttu-id="05b26-115">50 กิโลไบต์ต่อวินาที (KBps) สำหรับแต่ละผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="05b26-115">50 kilobytes per second (KBps) per user</span></span> | <span data-ttu-id="05b26-116">100 เมกะไบต์ต่อวินาที (MBps)</span><span class="sxs-lookup"><span data-stu-id="05b26-116">100 megabytes per second (MBps)</span></span> |
+| <span data-ttu-id="05b26-117">เวลาแฝง</span><span class="sxs-lookup"><span data-stu-id="05b26-117">Latency</span></span>   | <span data-ttu-id="05b26-118">น้อยกว่า 250 – 300 มิลลิวินาที</span><span class="sxs-lookup"><span data-stu-id="05b26-118">Less than 250–300 milliseconds (ms)</span></span>     | <span data-ttu-id="05b26-119">น้อยกว่า 1 มิลลิวินาที (เครือข่ายท้องถิ่น [LAN] เท่านั้น)</span><span class="sxs-lookup"><span data-stu-id="05b26-119">Less than 1 ms (local area network [LAN] only).</span></span> <span data-ttu-id="05b26-120">AOS และฐานข้อมูลต้องอยู่ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="05b26-120">AOS and the database must be co-located.</span></span> |
 
-- Finance and Operations (ในองค์กร) ได้รับการออกแบบมาสำหรับเครือข่ายที่มีเวลาแฝง 250–300 มิลลิวินาที (ms) หรือน้อยกว่า เวลาแฝงนี้คือเวลาแฝงจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูลที่โฮสต์ Finance and Operations
-- ข้อกำหนดของแบนด์วิธสำหรับ Finance and Operations (ในองค์กร) ขึ้นอยู่กับสถานการณ์ของคุณ สถานการณ์ทั่วไปต้องมีแบนด์วิธของมากกว่า 50 กิโลไบต์ต่อวินาที ระหว่างเบราว์เซอร์และเซิร์ฟเวอร์ Finance and Operations อย่างไรก็ตาม เราแนะนำให้ใช้แบนด์วิดท์ที่สูงขึ้นสำหรับสถานการณ์ที่มีข้อกำหนดของน้ำหนักบรรทุกที่สร้างรายได้ที่สูง เช่น สถานการณ์ที่เกี่ยวข้องกับการพื้นที่ทำงานหรือการกำหนดเองที่ครอบคลุม จำนวนเฉพาะของแบนด์วิธขึ้นอยู่กับการใช้
+- <span data-ttu-id="05b26-121">Finance and Operations (ในองค์กร) ได้รับการออกแบบมาสำหรับเครือข่ายที่มีเวลาแฝง 250–300 มิลลิวินาที (ms) หรือน้อยกว่า</span><span class="sxs-lookup"><span data-stu-id="05b26-121">Finance and Operations (on-premises) is designed for networks that have a latency of 250–300 milliseconds (ms) or less.</span></span> <span data-ttu-id="05b26-122">เวลาแฝงนี้คือเวลาแฝงจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูลที่โฮสต์ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-122">This latency is the latency from a browser client to the datacenter that hosts Finance and Operations.</span></span>
+- <span data-ttu-id="05b26-123">ข้อกำหนดของแบนด์วิธสำหรับ Finance and Operations (ในองค์กร) ขึ้นอยู่กับสถานการณ์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="05b26-123">Bandwidth requirements for Finance and Operations (on-premises) depend on your scenario.</span></span> <span data-ttu-id="05b26-124">สถานการณ์ทั่วไปต้องมีแบนด์วิธของมากกว่า 50 กิโลไบต์ต่อวินาที ระหว่างเบราว์เซอร์และเซิร์ฟเวอร์ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-124">Typical scenarios require a bandwidth of more than 50 KBps between the browser and the Finance and Operations server.</span></span> <span data-ttu-id="05b26-125">อย่างไรก็ตาม เราแนะนำให้ใช้แบนด์วิดท์ที่สูงขึ้นสำหรับสถานการณ์ที่มีข้อกำหนดของน้ำหนักบรรทุกที่สร้างรายได้ที่สูง เช่น สถานการณ์ที่เกี่ยวข้องกับการพื้นที่ทำงานหรือการกำหนดเองที่ครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="05b26-125">However, we recommend higher bandwidth for scenarios that have high payload requirements, such as scenarios that involve workspaces or extensive customization.</span></span> <span data-ttu-id="05b26-126">จำนวนเฉพาะของแบนด์วิธขึ้นอยู่กับการใช้</span><span class="sxs-lookup"><span data-stu-id="05b26-126">The specific amount of bandwidth depends on use.</span></span>
 
-ไม่สนับสนุนการปรับใช้ที่ AOS และฐานข้อมูล Microsoft SQL Server อยู่ในศูนย์ข้อมูลอื่น AOS และฐานข้อมูล SQL Server ต้องอยู่ร่วมกัน 
+<span data-ttu-id="05b26-127">ไม่สนับสนุนการปรับใช้ที่ AOS และฐานข้อมูล Microsoft SQL Server อยู่ในศูนย์ข้อมูลอื่น</span><span class="sxs-lookup"><span data-stu-id="05b26-127">Deployments where AOS and the Microsoft SQL Server database are in different datacenters aren't supported.</span></span> <span data-ttu-id="05b26-128">AOS และฐานข้อมูล SQL Server ต้องอยู่ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="05b26-128">AOS and the SQL Server database must be co-located.</span></span> 
 
-โดยทั่วไป Finance and Operations จะมีประสิทธิภาพในการลดการเดินทางไปกลับระหว่างเบราเซอร์และเซิร์ฟเวอร์ จำนวนของรอบการเดินทางไปกลับจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูลอาจเป็นศูนย์หรือหนึ่งสำหรับการโต้ตอบของผู้ใช้แต่ละครั้ง และน้ำหนักบรรทุกทั้งหมดจะถูกบีบอัด
+<span data-ttu-id="05b26-129">โดยทั่วไป Finance and Operations จะมีประสิทธิภาพในการลดการเดินทางไปกลับระหว่างเบราเซอร์และเซิร์ฟเวอร์</span><span class="sxs-lookup"><span data-stu-id="05b26-129">In general, Finance and Operations is optimized to reduce browser-to-server round trips.</span></span> <span data-ttu-id="05b26-130">จำนวนของรอบการเดินทางไปกลับจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูลอาจเป็นศูนย์หรือหนึ่งสำหรับการโต้ตอบของผู้ใช้แต่ละครั้ง และน้ำหนักบรรทุกทั้งหมดจะถูกบีบอัด</span><span class="sxs-lookup"><span data-stu-id="05b26-130">The number of round trips from a browser client to the datacenter is either zero or one for each user interaction, and the payload is compressed.</span></span>
 
 > [!WARNING]
-> อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก เราแนะนำให้คุณใช้การจำลองจากชีวิตจริงโดยเทียบกับสภาพแวดล้อมที่ไม่ใช้งานจริงของ Finance and Operations เป็นการประเมินประสิทธิภาพที่ดีที่สุดสำหรับกรณีเฉพาะของคุณ 
+> <span data-ttu-id="05b26-131">อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด</span><span class="sxs-lookup"><span data-stu-id="05b26-131">Don't calculate bandwidth requirements from a client location by multiplying the number of users by the minimum bandwidth requirements.</span></span> <span data-ttu-id="05b26-132">การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก</span><span class="sxs-lookup"><span data-stu-id="05b26-132">The concurrent usage of a given location is very difficult to calculate.</span></span> <span data-ttu-id="05b26-133">เราแนะนำให้คุณใช้การจำลองจากชีวิตจริงโดยเทียบกับสภาพแวดล้อมที่ไม่ใช้งานจริงของ Finance and Operations เป็นการประเมินประสิทธิภาพที่ดีที่สุดสำหรับกรณีเฉพาะของคุณ</span><span class="sxs-lookup"><span data-stu-id="05b26-133">We recommend that you use a real-life simulation against a non-production environment of Finance and Operations as the best gauge of performance for your specific case.</span></span> 
 
-### <a name="lan-environments"></a>สภาพแวดล้อม LAN
-ในสภาพแวดล้อม LAN นั้น ไม่จำเป็นต้องให้ Microsoft Remote Desktop ใน Microsoft Windows Server เชื่อมต่อกับ Finance and Operations อย่างไรก็ตาม เดสก์ท็อประยะไกลอาจจำเป็นสำหรับการให้บริการการดำเนินงานบนเครื่องเสมือน (VM) ที่ประกอบขึ้นเป็นการปรับใช้งานเซิร์ฟเวอร์
+### <a name="lan-environments"></a><span data-ttu-id="05b26-134">สภาพแวดล้อม LAN</span><span class="sxs-lookup"><span data-stu-id="05b26-134">LAN environments</span></span>
+<span data-ttu-id="05b26-135">ในสภาพแวดล้อม LAN นั้น ไม่จำเป็นต้องให้ Microsoft Remote Desktop ใน Microsoft Windows Server เชื่อมต่อกับ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-135">In LAN environments, Microsoft Remote Desktop in Microsoft Windows Server isn't required in order to connect to Finance and Operations.</span></span> <span data-ttu-id="05b26-136">อย่างไรก็ตาม เดสก์ท็อประยะไกลอาจจำเป็นสำหรับการให้บริการการดำเนินงานบนเครื่องเสมือน (VM) ที่ประกอบขึ้นเป็นการปรับใช้งานเซิร์ฟเวอร์</span><span class="sxs-lookup"><span data-stu-id="05b26-136">However, Remote Desktop might be required for servicing operations on the virtual machines (VMs) that make up the server deployments.</span></span>
 
-### <a name="wan-environments"></a>สภาพแวดล้อม WAN
-ในสภาพแวดล้อมเครือข่ายบริเวณกว้าง (WAN) นั้น ไม่จำเป็นต้องให้เซิร์ฟเวอร์ Remote Desktop ใน Windows Server เชื่อมต่อกับ Finance and Operations
+### <a name="wan-environments"></a><span data-ttu-id="05b26-137">สภาพแวดล้อม WAN</span><span class="sxs-lookup"><span data-stu-id="05b26-137">WAN environments</span></span>
+<span data-ttu-id="05b26-138">ในสภาพแวดล้อมเครือข่ายบริเวณกว้าง (WAN) นั้น ไม่จำเป็นต้องให้เซิร์ฟเวอร์ Remote Desktop ใน Windows Server เชื่อมต่อกับ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-138">In wide area network (WAN) environments, Remote Desktop in Windows Server isn't required in order to connect to Finance and Operations.</span></span>
 
-### <a name="internet-connectivity-requirements"></a>ข้อมูลความต้องการการเชื่อมต่ออินเทอร์เน็ต
-Finance and Operations (ในองค์กร) ไม่จำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ตจากสถานีงานผู้ใช้ อย่างไรก็ตาม คุณลักษณะบางอย่างจะไม่พร้อมใช้งานหากไม่เชื่อมต่ออินเทอร์เน็ต
+### <a name="internet-connectivity-requirements"></a><span data-ttu-id="05b26-139">ข้อมูลความต้องการการเชื่อมต่ออินเทอร์เน็ต</span><span class="sxs-lookup"><span data-stu-id="05b26-139">Internet connectivity requirements</span></span>
+<span data-ttu-id="05b26-140">Finance and Operations (ในองค์กร) ไม่จำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ตจากสถานีงานผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="05b26-140">Finance and Operations (on-premises) doesn't require internet connectivity from user workstations.</span></span> <span data-ttu-id="05b26-141">อย่างไรก็ตาม คุณลักษณะบางอย่างจะไม่พร้อมใช้งานหากไม่เชื่อมต่ออินเทอร์เน็ต</span><span class="sxs-lookup"><span data-stu-id="05b26-141">However, some features won't be available if there is no internet connectivity.</span></span>
 
 |                    |   |
 |--------------------|---|
-| **ไคลเอนต์เบราเซอร์** | สถานการณ์อินทราเน็ตที่ไม่มีการเชื่อมต่ออินเทอร์เน็ตเป็นจุดออกแบบสำหรับตัวเลือกการปรับใช้ในองค์กร คุณลักษณะบางอย่างที่จำเป็นต้องใช้บริการระบบคลาวด์จะไม่พร้อมใช้งาน เช่นวิธีใช้และไลบรารีคู่มืองานใน Microsoft Dynamics Lifecycle Services (LCS) |
-| **เซิร์ฟเวอร์**         | ระดับ AOS หรือ Microsoft Azure Service Fabric ต้องสามารถสื่อสารกับ LCS ได้ ไคลเอ็นต์เบราเซอร์ในองค์กรไม่จำเป็นต้องเชื่อมต่อกับอินเทอร์เน็ต |
-| **การตรวจวัดระยะไกล**      | ข้อมูลการตรวจวัดระยะไกลอาจสูญถ้าการเชื่อมต่อถูกขัดจังหวะเป็นเวลานาน การขัดจังหวะในการเชื่อมต่อกับ LCS จะไม่มีผลกระทบต่อฟังก์ชันการทำงานของแอพลิเคชันในองค์กร |
-| **LCS**            | จำเป็นต้องมีการเชื่อมต่อกับ LCS สำหรับการปรับใช้ การปรับใช้รหัสและการให้บริการการดำเนินงาน |
+| <span data-ttu-id="05b26-142">**ไคลเอนต์เบราเซอร์**</span><span class="sxs-lookup"><span data-stu-id="05b26-142">**Browser client**</span></span> | <span data-ttu-id="05b26-143">สถานการณ์อินทราเน็ตที่ไม่มีการเชื่อมต่ออินเทอร์เน็ตเป็นจุดออกแบบสำหรับตัวเลือกการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="05b26-143">An intranet scenario without internet connectivity is a design point for the on-premises deployment option.</span></span> <span data-ttu-id="05b26-144">คุณลักษณะบางอย่างที่จำเป็นต้องใช้บริการระบบคลาวด์จะไม่พร้อมใช้งาน เช่นวิธีใช้และไลบรารีคู่มืองานใน Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="05b26-144">Some features that require cloud services won't be available, such as Help and Task guide libraries in Microsoft Dynamics Lifecycle Services (LCS).</span></span> |
+| <span data-ttu-id="05b26-145">**เซิร์ฟเวอร์**</span><span class="sxs-lookup"><span data-stu-id="05b26-145">**Server**</span></span>         | <span data-ttu-id="05b26-146">ระดับ AOS หรือ Microsoft Azure Service Fabric ต้องสามารถสื่อสารกับ LCS ได้</span><span class="sxs-lookup"><span data-stu-id="05b26-146">The AOS or Microsoft Azure Service Fabric tier must be able to communicate with LCS.</span></span> <span data-ttu-id="05b26-147">ไคลเอ็นต์เบราเซอร์ในองค์กรไม่จำเป็นต้องเชื่อมต่อกับอินเทอร์เน็ต</span><span class="sxs-lookup"><span data-stu-id="05b26-147">The on-premises browser-based client doesn't require internet access.</span></span> |
+| <span data-ttu-id="05b26-148">**การตรวจวัดระยะไกล**</span><span class="sxs-lookup"><span data-stu-id="05b26-148">**Telemetry**</span></span>      | <span data-ttu-id="05b26-149">ข้อมูลการตรวจวัดระยะไกลอาจสูญถ้าการเชื่อมต่อถูกขัดจังหวะเป็นเวลานาน</span><span class="sxs-lookup"><span data-stu-id="05b26-149">Telemetry data might be lost if there are long interruptions in connectivity.</span></span> <span data-ttu-id="05b26-150">การขัดจังหวะในการเชื่อมต่อกับ LCS จะไม่มีผลกระทบต่อฟังก์ชันการทำงานของแอพลิเคชันในองค์กร</span><span class="sxs-lookup"><span data-stu-id="05b26-150">Interruptions in connectivity to LCS don't affect the on-premises application functionality.</span></span> |
+| <span data-ttu-id="05b26-151">**LCS**</span><span class="sxs-lookup"><span data-stu-id="05b26-151">**LCS**</span></span>            | <span data-ttu-id="05b26-152">จำเป็นต้องมีการเชื่อมต่อกับ LCS สำหรับการปรับใช้ การปรับใช้รหัสและการให้บริการการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="05b26-152">Connectivity to LCS is required for deployment, code deployment, and servicing operations.</span></span> |
 
-## <a name="telemetry-data-transfer-to-the-cloud"></a>ข้อมูลการตรวจวัดระยะไกลโอนย้ายไปยังระบบคลาวด์
-ข้อมูลการตรวจวัดระยะไกลส่วนใหญ่จะจัดเก็บไว้ภายในเครื่อง และสามารถเข้าถึงได้โดยใช้ตัวแสดงเหตุการณ์ใน Microsoft Windows เซ็ตย่อยขนาดเล็กของเหตุการณ์การตรวจวัดระยะไกลจะถูกโอนย้ายไปยังไปป์ไลน์ Microsoft telemetry ในระบบคลาวด์เพื่อประกอบการวินิจฉัย ภายในข้อมูลการตรวจวัดระยะไกลที่ส่งไปยัง Microsoft จะไม่มีข้อมูลของลูกค้าและข้อมูลที่ระบุถึงตัวบุคคล ชื่อ VM จะถูกส่งไปยัง Microsoft เพื่อช่วยในการจัดการสภาพแวดล้อมและการวินิจฉัยจากพอร์ทัล LCS
+## <a name="telemetry-data-transfer-to-the-cloud"></a><span data-ttu-id="05b26-153">ข้อมูลการตรวจวัดระยะไกลโอนย้ายไปยังระบบคลาวด์</span><span class="sxs-lookup"><span data-stu-id="05b26-153">Telemetry data transfer to the cloud</span></span>
+<span data-ttu-id="05b26-154">ข้อมูลการตรวจวัดระยะไกลส่วนใหญ่จะจัดเก็บไว้ภายในเครื่อง และสามารถเข้าถึงได้โดยใช้ตัวแสดงเหตุการณ์ใน Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="05b26-154">Most telemetry data is stored locally and can be accessed by using Event Viewer in Microsoft Windows.</span></span> <span data-ttu-id="05b26-155">เซ็ตย่อยขนาดเล็กของเหตุการณ์การตรวจวัดระยะไกลจะถูกโอนย้ายไปยังไปป์ไลน์ Microsoft telemetry ในระบบคลาวด์เพื่อประกอบการวินิจฉัย</span><span class="sxs-lookup"><span data-stu-id="05b26-155">A small subset of telemetry events is transferred to the Microsoft telemetry pipeline in the cloud for diagnostics.</span></span> <span data-ttu-id="05b26-156">ภายในข้อมูลการตรวจวัดระยะไกลที่ส่งไปยัง Microsoft จะไม่มีข้อมูลของลูกค้าและข้อมูลที่ระบุถึงตัวบุคคล</span><span class="sxs-lookup"><span data-stu-id="05b26-156">Customer data and user-identifiable data aren't part of the telemetry data that is sent to Microsoft.</span></span> <span data-ttu-id="05b26-157">ชื่อ VM จะถูกส่งไปยัง Microsoft เพื่อช่วยในการจัดการสภาพแวดล้อมและการวินิจฉัยจากพอร์ทัล LCS</span><span class="sxs-lookup"><span data-stu-id="05b26-157">VM names are sent to Microsoft to help with environment management and diagnostics from the LCS portal.</span></span>
 
-## <a name="domain-requirements"></a>ข้อกำหนดโดเมน
-พิจารณาข้อกำหนดโดเมนต่อไปนี้เมื่อคุณติดตั้ง Finance and Operations (ในองค์กร):
+## <a name="domain-requirements"></a><span data-ttu-id="05b26-158">ข้อกำหนดโดเมน</span><span class="sxs-lookup"><span data-stu-id="05b26-158">Domain requirements</span></span>
+<span data-ttu-id="05b26-159">พิจารณาข้อกำหนดโดเมนต่อไปนี้เมื่อคุณติดตั้ง Finance and Operations (ในองค์กร):</span><span class="sxs-lookup"><span data-stu-id="05b26-159">Consider the following domain requirements when you install Finance and Operations (on-premises):</span></span>
 
-- ส่วนประกอบของเครื่องเสมือนที่โฮสต์ Finance and Operations (ในองค์กร) จะต้องเป็นสมาชิกของโดเมน Active Directory ต้องตั้งค่าคอนฟิก Active Directory Domain Services (AD DS) ไว้ในโหมดดั้งเดิม
-- ส่วนประกอบเครื่องเสมือนที่รัน Finance and Operations (ในองค์กร) ต้องมีการเข้าถึงซึ่งกันและกัน การเข้าถึงจะถูกตั้งค่าคอนฟิกใน AD DS 
-- ตัวควบคุมโดเมนจะต้องเป็น Microsoft Windows Server 2012 R2 หรือใหม่กว่า และระดับฟังก์ชันโดเมนต้องเป็น 2012 R2 หรือมากกว่า
+- <span data-ttu-id="05b26-160">ส่วนประกอบของเครื่องเสมือนที่โฮสต์ Finance and Operations (ในองค์กร) จะต้องเป็นสมาชิกของโดเมน Active Directory</span><span class="sxs-lookup"><span data-stu-id="05b26-160">VMs that host Finance and Operations (on-premises) components must belong to an Active Directory domain.</span></span> <span data-ttu-id="05b26-161">ต้องตั้งค่าคอนฟิก Active Directory Domain Services (AD DS) ไว้ในโหมดดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="05b26-161">Active Directory Domain Services (AD DS) must be configured in native mode.</span></span>
+- <span data-ttu-id="05b26-162">ส่วนประกอบเครื่องเสมือนที่รัน Finance and Operations (ในองค์กร) ต้องมีการเข้าถึงซึ่งกันและกัน</span><span class="sxs-lookup"><span data-stu-id="05b26-162">VMs that run Finance and Operations (on-premises) components must have access to each other.</span></span> <span data-ttu-id="05b26-163">การเข้าถึงจะถูกตั้งค่าคอนฟิกใน AD DS</span><span class="sxs-lookup"><span data-stu-id="05b26-163">This access is configured in AD DS.</span></span> 
+- <span data-ttu-id="05b26-164">ตัวควบคุมโดเมนจะต้องเป็น Microsoft Windows Server 2012 R2 หรือใหม่กว่า และระดับฟังก์ชันโดเมนต้องเป็น 2012 R2 หรือมากกว่า</span><span class="sxs-lookup"><span data-stu-id="05b26-164">The domain controller must be Microsoft Windows Server 2012 R2 or later, and the domain functional level must be 2012 R2 or more.</span></span>
 
-## <a name="hardware-requirements"></a>ข้อกำหนดของฮาร์ดแวร์
-ส่วนนี้อธิบายถึงฮาร์ดแวร์ที่จำเป็นในการรัน Finance and Operations (ในองค์กร)
+## <a name="hardware-requirements"></a><span data-ttu-id="05b26-165">ข้อกำหนดของฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="05b26-165">Hardware requirements</span></span>
+<span data-ttu-id="05b26-166">ส่วนนี้อธิบายถึงฮาร์ดแวร์ที่จำเป็นในการรัน Finance and Operations (ในองค์กร)</span><span class="sxs-lookup"><span data-stu-id="05b26-166">This section describes the hardware that is required in order to run Finance and Operations (on-premises).</span></span>
 
-ข้อกำหนดของฮาร์ดแวร์ตามจริงจะแตกต่างกันไปขึ้นอยู่กับการตั้งค่าคอนฟิกระบบ องค์ประกอบของข้อมูล และแอพลิเคชันและคุณลักษณะที่คุณเลือกใช้ นี่คือบางอย่างของปัจจัยที่อาจส่งผลกระทบต่อการตัดสินใจเลือกฮาร์ดแวร์ที่เหมาะสมสำหรับ Finance and Operations (ในองค์กร):
+<span data-ttu-id="05b26-167">ข้อกำหนดของฮาร์ดแวร์ตามจริงจะแตกต่างกันไปขึ้นอยู่กับการตั้งค่าคอนฟิกระบบ องค์ประกอบของข้อมูล และแอพลิเคชันและคุณลักษณะที่คุณเลือกใช้</span><span class="sxs-lookup"><span data-stu-id="05b26-167">The actual hardware requirements vary, based on the system configuration, the data composition, and the applications and features that you decide to use.</span></span> <span data-ttu-id="05b26-168">นี่คือบางอย่างของปัจจัยที่อาจส่งผลกระทบต่อการตัดสินใจเลือกฮาร์ดแวร์ที่เหมาะสมสำหรับ Finance and Operations (ในองค์กร):</span><span class="sxs-lookup"><span data-stu-id="05b26-168">Here are some of the factors that can affect the choice of appropriate hardware for Finance and Operations (on-premises):</span></span>
 
-- จำนวนธุรกรรมต่อชั่วโมง
-- จำนวนผู้ใช้ที่เกิดขึ้นพร้อมกัน
+- <span data-ttu-id="05b26-169">จำนวนธุรกรรมต่อชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-169">The number of transactions per hour</span></span>
+- <span data-ttu-id="05b26-170">จำนวนผู้ใช้ที่เกิดขึ้นพร้อมกัน</span><span class="sxs-lookup"><span data-stu-id="05b26-170">The number of concurrent users</span></span>
 
-## <a name="minimum-infrastructure-requirements"></a>ข้อกำหนดโครงสร้างพื้นฐานต่ำสุด
-Finance and Operations (ในองค์กร) ใช้ Service Fabric ในการโฮสต์ AOS, ชุดงาน, การจัดการข้อมูล, Management Reporter และบริการ Orchestrator สภาพแวดล้อม ไม่มีการโฮสต์ Microsoft SQL Server Reporting Services (SSRS) ในคลัสเตอร์ Service Fabric
+## <a name="minimum-infrastructure-requirements"></a><span data-ttu-id="05b26-171">ข้อกำหนดโครงสร้างพื้นฐานต่ำสุด</span><span class="sxs-lookup"><span data-stu-id="05b26-171">Minimum infrastructure requirements</span></span>
+<span data-ttu-id="05b26-172">Finance and Operations (ในองค์กร) ใช้ Service Fabric ในการโฮสต์ AOS, ชุดงาน, การจัดการข้อมูล, Management Reporter และบริการ Orchestrator สภาพแวดล้อม</span><span class="sxs-lookup"><span data-stu-id="05b26-172">Finance and Operations (on-premises) uses Service Fabric to host the AOS, Batch, Data management, Management reporter, and Environment orchestrator services.</span></span> <span data-ttu-id="05b26-173">ไม่มีการโฮสต์ Microsoft SQL Server Reporting Services (SSRS) ในคลัสเตอร์ Service Fabric</span><span class="sxs-lookup"><span data-stu-id="05b26-173">Microsoft SQL Server Reporting Services (SSRS) aren't hosted in the Service Fabric cluster.</span></span>
 
-SQL Server ต้องมีการตั้งค่า HADRON พร้อมใช้งานสูงที่มีอย่างน้อยสองโหนดสำหรับการใช้งานการผลิต
+<span data-ttu-id="05b26-174">SQL Server ต้องมีการตั้งค่า HADRON พร้อมใช้งานสูงที่มีอย่างน้อยสองโหนดสำหรับการใช้งานการผลิต</span><span class="sxs-lookup"><span data-stu-id="05b26-174">SQL Server must have a high-availability HADRON setup that has at least two nodes for production use.</span></span>
 
-แผนภาพต่อไปนี้แสดงจำนวนโหนดต่ำสุดที่แนะนำสำหรับคลัสเตอร์ Service Fabric ของคุณ
+<span data-ttu-id="05b26-175">แผนภาพต่อไปนี้แสดงจำนวนโหนดต่ำสุดที่แนะนำสำหรับคลัสเตอร์ Service Fabric ของคุณ</span><span class="sxs-lookup"><span data-stu-id="05b26-175">The following illustration shows the minimum number of nodes that is recommended for your Service Fabric cluster.</span></span>
 
-[![จำนวนโหนดที่สำหรับคลัสเตอร์ Service Fabric](./media/system-reqs-on-premises-01.png)](./media/system-reqs-on-premises-01.png) 
+<span data-ttu-id="05b26-176">[![จำนวนโหนดที่สำหรับคลัสเตอร์ Service Fabric](./media/system-reqs-on-premises-01.png)](./media/system-reqs-on-premises-01.png)</span><span class="sxs-lookup"><span data-stu-id="05b26-176">[![Recommended number of nodes for the Service Fabric cluster](./media/system-reqs-on-premises-01.png)](./media/system-reqs-on-premises-01.png)</span></span> 
 
-## <a name="processor-and-ram-requirements"></a>ข้อมูลความต้องการเกี่ยวกับโพรเซสเซอร์และ RAM
-ตารางต่อไปนี้แสดงจำนวนโพรเซสเซอร์และหน่วยความจำเข้าถึงโดยสุ่ม (RAM) ที่จำเป็นสำหรับแต่ละบทบาทที่จำเป็นในการรันตัวเลือกการปรับใช้นี้ สำหรับข้อมูลเพิ่มเติม ให้ดูความต้องการต่ำสุดที่แนะนำสำหรับคลัสเตอร์ Service Fabric แบบสแตนด์อโลนใน [วางแผนและจัดเตรียมคลัสเตอร์ Service Fabric ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)
+## <a name="processor-and-ram-requirements"></a><span data-ttu-id="05b26-177">ข้อมูลความต้องการเกี่ยวกับโพรเซสเซอร์และ RAM</span><span class="sxs-lookup"><span data-stu-id="05b26-177">Processor and RAM requirements</span></span>
+<span data-ttu-id="05b26-178">ตารางต่อไปนี้แสดงจำนวนโพรเซสเซอร์และหน่วยความจำเข้าถึงโดยสุ่ม (RAM) ที่จำเป็นสำหรับแต่ละบทบาทที่จำเป็นในการรันตัวเลือกการปรับใช้นี้</span><span class="sxs-lookup"><span data-stu-id="05b26-178">The following tables list the number of processors and the amount of random-access memory (RAM) that are required for each role that is required in order to run this deployment option.</span></span> <span data-ttu-id="05b26-179">สำหรับข้อมูลเพิ่มเติม ให้ดูความต้องการต่ำสุดที่แนะนำสำหรับคลัสเตอร์ Service Fabric แบบสแตนด์อโลนใน [วางแผนและจัดเตรียมคลัสเตอร์ Service Fabric ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)</span><span class="sxs-lookup"><span data-stu-id="05b26-179">For more information, see the recommended minimum requirements for a Service Fabric standalone cluster in [Plan and prepare your Service Fabric cluster](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).</span></span>
 
 > [!NOTE]
-> ในกรณีที่มีการติดตั้งซอฟต์แวร์อื่น ๆ ของ Microsoft บนคอมพิวเตอร์เครื่องเดียวกัน ระบบต้องสอดคล้องกับข้อกำหนดของฮาร์ดแวร์สำหรับซอฟต์แวร์นั้นด้วย ถ้าแอพลิเคชันเซิร์ฟเวอร์อื่น ๆ ถูกติดตั้งไว้ในคอมพิวเตอร์เครื่องเดียวกับ AOS เราแนะนำให้คุณจำกัดการใช้ทรัพยากรของแอพลิเคชันเซิร์ฟเวอร์เหล่านั้นให้อยู่ภายใน RAM 1 กิกะไบต์ (GB)
+> <span data-ttu-id="05b26-180">ในกรณีที่มีการติดตั้งซอฟต์แวร์อื่น ๆ ของ Microsoft บนคอมพิวเตอร์เครื่องเดียวกัน ระบบต้องสอดคล้องกับข้อกำหนดของฮาร์ดแวร์สำหรับซอฟต์แวร์นั้นด้วย</span><span class="sxs-lookup"><span data-stu-id="05b26-180">If other Microsoft software is installed on the same computer, the system must also comply with the hardware requirements for that software.</span></span> <span data-ttu-id="05b26-181">ถ้าแอพลิเคชันเซิร์ฟเวอร์อื่น ๆ ถูกติดตั้งไว้ในคอมพิวเตอร์เครื่องเดียวกับ AOS เราแนะนำให้คุณจำกัดการใช้ทรัพยากรของแอพลิเคชันเซิร์ฟเวอร์เหล่านั้นให้อยู่ภายใน RAM 1 กิกะไบต์ (GB)</span><span class="sxs-lookup"><span data-stu-id="05b26-181">If other server applications are installed on the same computer as AOS, we recommend that you limit those server applications 1 gigabyte (GB) of RAM.</span></span>
 
-**ปรับขนาดตามบทบาทและชนิดโทโพโลยี**
+<span data-ttu-id="05b26-182">**ปรับขนาดตามบทบาทและชนิดโทโพโลยี**</span><span class="sxs-lookup"><span data-stu-id="05b26-182">**Sizing by role and topology type**</span></span>
 
-| โทโพโลยี   | บทบาท (ชนิดของโหนด)              | จำนวนแกนประมวลผลที่แนะนำ | หน่วยความจำที่แนะนำ (GB) |
+| <span data-ttu-id="05b26-183">โทโพโลยี</span><span class="sxs-lookup"><span data-stu-id="05b26-183">Topology</span></span>   | <span data-ttu-id="05b26-184">บทบาท (ชนิดของโหนด)</span><span class="sxs-lookup"><span data-stu-id="05b26-184">Role (node type)</span></span>              | <span data-ttu-id="05b26-185">จำนวนแกนประมวลผลที่แนะนำ</span><span class="sxs-lookup"><span data-stu-id="05b26-185">Recommended processor cores</span></span> | <span data-ttu-id="05b26-186">หน่วยความจำที่แนะนำ (GB)</span><span class="sxs-lookup"><span data-stu-id="05b26-186">Recommended memory (GB)</span></span> |
 |------------|-------------------------------|-----------------------------|-------------------------|
-| การผลิต | AOS, การจัดการข้อมูล, ชุดงาน   | 8                           | 24                      |
-|            | Management Reporter           | 4 ชั่วโมง                           | 16                      |
-|            | SQL Server Reporting Services | 4 ชั่วโมง                           | 16                      |
-|            | Orchestrator                  | 4 ชั่วโมง                           | 16                      |
-| Sandbox    | AOS, การจัดการข้อมูล, ชุดงาน   | 4 ชั่วโมง                           | 24                      |
-|            | Management Reporter           | 4 ชั่วโมง                           | 16                      |
-|            | SQL Server Reporting Services | 4 ชั่วโมง                           | 16                      |
-|            | Orchestrator                  | 4 ชั่วโมง                           | 16                      |
+| <span data-ttu-id="05b26-187">การผลิต</span><span class="sxs-lookup"><span data-stu-id="05b26-187">Production</span></span> | <span data-ttu-id="05b26-188">AOS, การจัดการข้อมูล, ชุดงาน</span><span class="sxs-lookup"><span data-stu-id="05b26-188">AOS, Data management, Batch</span></span>   | <span data-ttu-id="05b26-189">8</span><span class="sxs-lookup"><span data-stu-id="05b26-189">8</span></span>                           | <span data-ttu-id="05b26-190">24</span><span class="sxs-lookup"><span data-stu-id="05b26-190">24</span></span>                      |
+|            | <span data-ttu-id="05b26-191">Management Reporter</span><span class="sxs-lookup"><span data-stu-id="05b26-191">Management Reporter</span></span>           | <span data-ttu-id="05b26-192">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-192">4</span></span>                           | <span data-ttu-id="05b26-193">16</span><span class="sxs-lookup"><span data-stu-id="05b26-193">16</span></span>                      |
+|            | <span data-ttu-id="05b26-194">SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="05b26-194">SQL Server Reporting Services</span></span> | <span data-ttu-id="05b26-195">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-195">4</span></span>                           | <span data-ttu-id="05b26-196">16</span><span class="sxs-lookup"><span data-stu-id="05b26-196">16</span></span>                      |
+|            | <span data-ttu-id="05b26-197">Orchestrator</span><span class="sxs-lookup"><span data-stu-id="05b26-197">Orchestrator</span></span>                  | <span data-ttu-id="05b26-198">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-198">4</span></span>                           | <span data-ttu-id="05b26-199">16</span><span class="sxs-lookup"><span data-stu-id="05b26-199">16</span></span>                      |
+| <span data-ttu-id="05b26-200">Sandbox</span><span class="sxs-lookup"><span data-stu-id="05b26-200">Sandbox</span></span>    | <span data-ttu-id="05b26-201">AOS, การจัดการข้อมูล, ชุดงาน</span><span class="sxs-lookup"><span data-stu-id="05b26-201">AOS, Data management, Batch</span></span>   | <span data-ttu-id="05b26-202">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-202">4</span></span>                           | <span data-ttu-id="05b26-203">24</span><span class="sxs-lookup"><span data-stu-id="05b26-203">24</span></span>                      |
+|            | <span data-ttu-id="05b26-204">Management Reporter</span><span class="sxs-lookup"><span data-stu-id="05b26-204">Management Reporter</span></span>           | <span data-ttu-id="05b26-205">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-205">4</span></span>                           | <span data-ttu-id="05b26-206">16</span><span class="sxs-lookup"><span data-stu-id="05b26-206">16</span></span>                      |
+|            | <span data-ttu-id="05b26-207">SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="05b26-207">SQL Server Reporting Services</span></span> | <span data-ttu-id="05b26-208">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-208">4</span></span>                           | <span data-ttu-id="05b26-209">16</span><span class="sxs-lookup"><span data-stu-id="05b26-209">16</span></span>                      |
+|            | <span data-ttu-id="05b26-210">Orchestrator</span><span class="sxs-lookup"><span data-stu-id="05b26-210">Orchestrator</span></span>                  | <span data-ttu-id="05b26-211">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-211">4</span></span>                           | <span data-ttu-id="05b26-212">16</span><span class="sxs-lookup"><span data-stu-id="05b26-212">16</span></span>                      |
 
-**ขนาดต่ำสุดที่ประเมินสำหรับการผลิตและการปรับใช้ Sandbox\***
+<span data-ttu-id="05b26-213">**ขนาดต่ำสุดที่ประเมินสำหรับการผลิตและการปรับใช้ Sandbox\***</span><span class="sxs-lookup"><span data-stu-id="05b26-213">**Minimum sizing estimates for production and sandbox deployments\***</span></span>
 
-| โทโพโลยี                                        | บทบาท                          | จำนวนของอินสแตนซ์ |
+| <span data-ttu-id="05b26-214">โทโพโลยี</span><span class="sxs-lookup"><span data-stu-id="05b26-214">Topology</span></span>                                        | <span data-ttu-id="05b26-215">บทบาท</span><span class="sxs-lookup"><span data-stu-id="05b26-215">Role</span></span>                          | <span data-ttu-id="05b26-216">จำนวนของอินสแตนซ์</span><span class="sxs-lookup"><span data-stu-id="05b26-216">Number of instances</span></span> |
 |-------------------------------------------------|-------------------------------|---------------------|
-| การผลิต                                      | AOS (การจัดการข้อมูล, ชุดงาน)  | 3                   |
-|                                                 | Management Reporter           | 2                   |
-|                                                 | SQL Server Reporting Services | 1                   |
-|                                                 | Orchestrator\*\*              | 3                   |
-| Sandbox                                         | AOS, การจัดการข้อมูล, ชุดงาน   | 2                   |
-|                                                 | Management Reporter           | 1                   |
-|                                                 | SQL Server Reporting Services | 1                   |
-|                                                 | Orchestrator                  | 3                   |
-| *สรุปสำหรับการผลิตและโทโพโลยี Sandbox* |                               | *16*                |
+| <span data-ttu-id="05b26-217">การผลิต</span><span class="sxs-lookup"><span data-stu-id="05b26-217">Production</span></span>                                      | <span data-ttu-id="05b26-218">AOS (การจัดการข้อมูล, ชุดงาน)</span><span class="sxs-lookup"><span data-stu-id="05b26-218">AOS (Data management, Batch)</span></span>  | <span data-ttu-id="05b26-219">3</span><span class="sxs-lookup"><span data-stu-id="05b26-219">3</span></span>                   |
+|                                                 | <span data-ttu-id="05b26-220">Management Reporter</span><span class="sxs-lookup"><span data-stu-id="05b26-220">Management Reporter</span></span>           | <span data-ttu-id="05b26-221">2</span><span class="sxs-lookup"><span data-stu-id="05b26-221">2</span></span>                   |
+|                                                 | <span data-ttu-id="05b26-222">SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="05b26-222">SQL Server Reporting Services</span></span> | <span data-ttu-id="05b26-223">1</span><span class="sxs-lookup"><span data-stu-id="05b26-223">1</span></span>                   |
+|                                                 | <span data-ttu-id="05b26-224">Orchestrator\*\*</span><span class="sxs-lookup"><span data-stu-id="05b26-224">Orchestrator\*\*</span></span>              | <span data-ttu-id="05b26-225">3</span><span class="sxs-lookup"><span data-stu-id="05b26-225">3</span></span>                   |
+| <span data-ttu-id="05b26-226">Sandbox</span><span class="sxs-lookup"><span data-stu-id="05b26-226">Sandbox</span></span>                                         | <span data-ttu-id="05b26-227">AOS, การจัดการข้อมูล, ชุดงาน</span><span class="sxs-lookup"><span data-stu-id="05b26-227">AOS, Data management, Batch</span></span>   | <span data-ttu-id="05b26-228">2</span><span class="sxs-lookup"><span data-stu-id="05b26-228">2</span></span>                   |
+|                                                 | <span data-ttu-id="05b26-229">Management Reporter</span><span class="sxs-lookup"><span data-stu-id="05b26-229">Management Reporter</span></span>           | <span data-ttu-id="05b26-230">1</span><span class="sxs-lookup"><span data-stu-id="05b26-230">1</span></span>                   |
+|                                                 | <span data-ttu-id="05b26-231">SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="05b26-231">SQL Server Reporting Services</span></span> | <span data-ttu-id="05b26-232">1</span><span class="sxs-lookup"><span data-stu-id="05b26-232">1</span></span>                   |
+|                                                 | <span data-ttu-id="05b26-233">Orchestrator</span><span class="sxs-lookup"><span data-stu-id="05b26-233">Orchestrator</span></span>                  | <span data-ttu-id="05b26-234">3</span><span class="sxs-lookup"><span data-stu-id="05b26-234">3</span></span>                   |
+| <span data-ttu-id="05b26-235">*สรุปสำหรับการผลิตและโทโพโลยี Sandbox*</span><span class="sxs-lookup"><span data-stu-id="05b26-235">*Summary for production and sandbox topologies*</span></span> |                               | <span data-ttu-id="05b26-236">*16*</span><span class="sxs-lookup"><span data-stu-id="05b26-236">*16*</span></span>                |
 
-\*ตัวเลขเหล่านี้มีตรวจสอบความถูกต้องโดยลูกค้าแสดงตัวอย่างของเรา และสามารถปรับปรุงตามความจำเป็น โดยอ้างอิงจากข้อคิดเห็นของลูกค้า
+<span data-ttu-id="05b26-237">\*ตัวเลขเหล่านี้มีตรวจสอบความถูกต้องโดยลูกค้าแสดงตัวอย่างของเรา และสามารถปรับปรุงตามความจำเป็น โดยอ้างอิงจากข้อคิดเห็นของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="05b26-237">\* The numbers in this table are being validated by our preview customers and might be adjusted based on the feedback from those customers.</span></span>
 
-\*\*Orchestrator ถูกกำหนดเป็นชนิดโหนหลัก และจะใช้เพื่อรันบริการ Service Fabric เช่นกัน
+<span data-ttu-id="05b26-238">\*\*Orchestrator ถูกกำหนดเป็นชนิดโหนหลัก และจะใช้เพื่อรันบริการ Service Fabric เช่นกัน</span><span class="sxs-lookup"><span data-stu-id="05b26-238">\*\* Orchestrator is designated as the primary node type and will also be used to run the Service Fabric services.</span></span>
 
-**การประเมิน Back-end SQL Server และ AD DS ขั้นต้น**
+<span data-ttu-id="05b26-239">**การประเมิน Back-end SQL Server และ AD DS ขั้นต้น**</span><span class="sxs-lookup"><span data-stu-id="05b26-239">**Initial estimates for the back-end SQL Server and AD DS**</span></span>
 
 <table>
 <thead>
 <tr>
 <th></th>
-<th>บทบาท</th>
-<th>VM/อินสแตนซ์</th>
-<th>แกนประมวลผล</th>
-<th>แกนประมวลผลรวม</th>
-<th>หน่วยความจำต่ออินสแตนซ์ (GB)</th>
-<th>หน่วยความจำรวม (GB)</th>
+<th><span data-ttu-id="05b26-240">บทบาท</span><span class="sxs-lookup"><span data-stu-id="05b26-240">Role</span></span></th>
+<th><span data-ttu-id="05b26-241">VM/อินสแตนซ์</span><span class="sxs-lookup"><span data-stu-id="05b26-241">VMs/instances</span></span></th>
+<th><span data-ttu-id="05b26-242">แกนประมวลผล</span><span class="sxs-lookup"><span data-stu-id="05b26-242">Cores</span></span></th>
+<th><span data-ttu-id="05b26-243">แกนประมวลผลรวม</span><span class="sxs-lookup"><span data-stu-id="05b26-243">Total cores</span></span></th>
+<th><span data-ttu-id="05b26-244">หน่วยความจำต่ออินสแตนซ์ (GB)</span><span class="sxs-lookup"><span data-stu-id="05b26-244">Memory per instance (GB)</span></span></th>
+<th><span data-ttu-id="05b26-245">หน่วยความจำรวม (GB)</span><span class="sxs-lookup"><span data-stu-id="05b26-245">Total memory (GB)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="3"><strong>โครงสร้างพื้นฐานที่ใช้ร่วมกัน</strong></td>
-<td>SQL Server*</td>
-<td>2</td>
-<td>8</td>
-<td>16</td>
-<td>32</td>
-<td>64</td>
+<td rowspan="3"><span data-ttu-id="05b26-246"><strong>โครงสร้างพื้นฐานที่ใช้ร่วมกัน</strong></span><span class="sxs-lookup"><span data-stu-id="05b26-246"><strong>Shared infrastructure</strong></span></span></td>
+<td><span data-ttu-id="05b26-247">SQL Server*</span><span class="sxs-lookup"><span data-stu-id="05b26-247">SQL Server*</span></span></td>
+<td><span data-ttu-id="05b26-248">2</span><span class="sxs-lookup"><span data-stu-id="05b26-248">2</span></span></td>
+<td><span data-ttu-id="05b26-249">8</span><span class="sxs-lookup"><span data-stu-id="05b26-249">8</span></span></td>
+<td><span data-ttu-id="05b26-250">16</span><span class="sxs-lookup"><span data-stu-id="05b26-250">16</span></span></td>
+<td><span data-ttu-id="05b26-251">32</span><span class="sxs-lookup"><span data-stu-id="05b26-251">32</span></span></td>
+<td><span data-ttu-id="05b26-252">64</span><span class="sxs-lookup"><span data-stu-id="05b26-252">64</span></span></td>
 </tr>
 <tr>
-<td>เซิร์ฟเวอร์ไฟล์/Storage Area Network/ที่เก็บข้อมูลพร้อมใช้งานสูง</td>
-<td colspan="5"><p>ที่เก็บข้อมูล Back-end ต้องยึดตามไดรฟ์โซลิดสเทต (SSD) ใน Storage Area Network (SAN) รันไทม์</p>
-<p>ปริมาณที่สามารถประมวลผลได้ของขนาดและการดำเนินงานอินพุต/เอาพุตต่อวินาที (IOPS) ขึ้นอยู่กับขนาดของปริมาณงาน</p></td>
+<td><span data-ttu-id="05b26-253">เซิร์ฟเวอร์ไฟล์/Storage Area Network/ที่เก็บข้อมูลพร้อมใช้งานสูง</span><span class="sxs-lookup"><span data-stu-id="05b26-253">File server/Storage area network/Highly available storage</span></span></td>
+<td colspan="5"><p><span data-ttu-id="05b26-254">ที่เก็บข้อมูล Back-end ต้องยึดตามไดรฟ์โซลิดสเทต (SSD) ใน Storage Area Network (SAN) รันไทม์</span><span class="sxs-lookup"><span data-stu-id="05b26-254">The back-end storage must be based on solid-state drives (SSDs) on a runtime storage area network (SAN).</span></span></p>
+<p><span data-ttu-id="05b26-255">ปริมาณที่สามารถประมวลผลได้ของขนาดและการดำเนินงานอินพุต/เอาพุตต่อวินาที (IOPS) ขึ้นอยู่กับขนาดของปริมาณงาน</span><span class="sxs-lookup"><span data-stu-id="05b26-255">Size and input/output operations per second (IOPS) throughput is based on the size of the workload.</span></span></p></td>
 </tr>
 <tr>
-<td>Active Directory</td>
-<td>3</td>
-<td>4 ชั่วโมง</td>
-<td>12</td>
-<td>16</td>
-<td>48</td>
+<td><span data-ttu-id="05b26-256">Active Directory</span><span class="sxs-lookup"><span data-stu-id="05b26-256">Active Directory</span></span></td>
+<td><span data-ttu-id="05b26-257">3</span><span class="sxs-lookup"><span data-stu-id="05b26-257">3</span></span></td>
+<td><span data-ttu-id="05b26-258">4 ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="05b26-258">4</span></span></td>
+<td><span data-ttu-id="05b26-259">12</span><span class="sxs-lookup"><span data-stu-id="05b26-259">12</span></span></td>
+<td><span data-ttu-id="05b26-260">16</span><span class="sxs-lookup"><span data-stu-id="05b26-260">16</span></span></td>
+<td><span data-ttu-id="05b26-261">48</span><span class="sxs-lookup"><span data-stu-id="05b26-261">48</span></span></td>
 </tr>
 <tr>
-<td><em>สรุปสำหรับโครงสร้างพื้นฐานที่ใช้ร่วมกัน</em></td>
+<td><span data-ttu-id="05b26-262"><em>สรุปสำหรับโครงสร้างพื้นฐานที่ใช้ร่วมกัน</em></span><span class="sxs-lookup"><span data-stu-id="05b26-262"><em>Summary for shared infrastructure</em></span></span></td>
 <td></td>
-<td><em>5</em></td>
+<td><span data-ttu-id="05b26-263"><em>5</em></span><span class="sxs-lookup"><span data-stu-id="05b26-263"><em>5</em></span></span></td>
 <td></td>
-<td><em>28</em></td>
+<td><span data-ttu-id="05b26-264"><em>28</em></span><span class="sxs-lookup"><span data-stu-id="05b26-264"><em>28</em></span></span></td>
 <td></td>
-<td><em>112</em></td>
+<td><span data-ttu-id="05b26-265"><em>112</em></span><span class="sxs-lookup"><span data-stu-id="05b26-265"><em>112</em></span></span></td>
 </tr>
 </tbody>
 </table>
 
-\*ขนาดของ SQL Server จะขึ้นอยู่กับปริมาณงานเป็นอย่างมาก สำหรับข้อมูลเพิ่มเติม ให้ดู [ขนาดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](hardware-sizing-on-premises-environments.md)
+<span data-ttu-id="05b26-266">\*ขนาดของ SQL Server จะขึ้นอยู่กับปริมาณงานเป็นอย่างมาก</span><span class="sxs-lookup"><span data-stu-id="05b26-266">\* SQL Server sizes are highly dependent on workloads.</span></span> <span data-ttu-id="05b26-267">สำหรับข้อมูลเพิ่มเติม ให้ดู [ขนาดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](hardware-sizing-on-premises-environments.md)</span><span class="sxs-lookup"><span data-stu-id="05b26-267">For more information, see [Hardware sizing for on-premises environments](hardware-sizing-on-premises-environments.md).</span></span>
 
-## <a name="storage"></a>ที่จัดเก็บ
+## <a name="storage"></a><span data-ttu-id="05b26-268">ที่จัดเก็บ</span><span class="sxs-lookup"><span data-stu-id="05b26-268">Storage</span></span>
 
-- **AOS** – Finance and Operations (ในองค์กร) ใช้บล็อคข่าวสารเซิร์ฟเวอร์ (SMB) 3.0 ที่ใช้ร่วมกันในการจัดเก็บข้อมูลที่ไม่มีโครงสร้าง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [พื้นที่จัดเก็บโดยตรงใน Windows Server 2016](/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
-- **SQL** – มีตัวเลือกดังต่อไปนี้:
+- <span data-ttu-id="05b26-269">**AOS** – Finance and Operations (ในองค์กร) ใช้บล็อคข่าวสารเซิร์ฟเวอร์ (SMB) 3.0 ที่ใช้ร่วมกันในการจัดเก็บข้อมูลที่ไม่มีโครงสร้าง</span><span class="sxs-lookup"><span data-stu-id="05b26-269">**AOS** – Finance and Operations (on-premises) uses a Server Message Block (SMB) 3.0 share to store unstructured data.</span></span> <span data-ttu-id="05b26-270">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [พื้นที่จัดเก็บโดยตรงใน Windows Server 2016](/windows-server/storage/storage-spaces/storage-spaces-direct-overview)</span><span class="sxs-lookup"><span data-stu-id="05b26-270">For more information, see [Storage Spaces Direct in Windows Server 2016](/windows-server/storage/storage-spaces/storage-spaces-direct-overview).</span></span>
+- <span data-ttu-id="05b26-271">**SQL** – มีตัวเลือกดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="05b26-271">**SQL** – The following options are viable:</span></span>
 
-    - การตั้งค่า SSD พร้อมใช้งานสูง
-    - SAN ที่ได้รับการปรับให้เหมาะสมสำหรับปริมาณที่สามารถประมวลผลได้ของการประมวลผลธุรกรรมทางออนไลน์ (OLTP)
-    - ที่จัดเก็บแบบแนบโดยตรง (DAS) ประสิทธิภาพสูง 
+    - <span data-ttu-id="05b26-272">การตั้งค่า SSD พร้อมใช้งานสูง</span><span class="sxs-lookup"><span data-stu-id="05b26-272">A highly available SSD setup</span></span>
+    - <span data-ttu-id="05b26-273">SAN ที่ได้รับการปรับให้เหมาะสมสำหรับปริมาณที่สามารถประมวลผลได้ของการประมวลผลธุรกรรมทางออนไลน์ (OLTP)</span><span class="sxs-lookup"><span data-stu-id="05b26-273">A SAN that is optimized for online transaction processing (OLTP) throughputs</span></span>
+    - <span data-ttu-id="05b26-274">ที่จัดเก็บแบบแนบโดยตรง (DAS) ประสิทธิภาพสูง</span><span class="sxs-lookup"><span data-stu-id="05b26-274">High-performance direct-attached storage (DAS)</span></span> 
 
-- **SQL Server และ IOPS การจัดการข้อมูล** – ที่จัดเก็บสำหรับทั้งการจัดการข้อมูลและ SQL Server ควรมีอย่างน้อย 2,000 (IOPS) IOPS การผลิตนั้นขึ้นอยู่กับหลายปัจจัย สำหรับข้อมูลเพิ่มเติม ให้ดู [ขนาดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](hardware-sizing-on-premises-environments.md)
-- **VM IOPS** – เครื่องเสมือนแต่ละเครื่องควรมีอย่างน้อย 100 write IOPS
+- <span data-ttu-id="05b26-275">**SQL Server และ IOPS การจัดการข้อมูล** – ที่จัดเก็บสำหรับทั้งการจัดการข้อมูลและ SQL Server ควรมีอย่างน้อย 2,000 (IOPS)</span><span class="sxs-lookup"><span data-stu-id="05b26-275">**SQL Server and data management IOPS** – The storage for both data management and SQL Server should have at least 2,000 IOPS.</span></span> <span data-ttu-id="05b26-276">IOPS การผลิตนั้นขึ้นอยู่กับหลายปัจจัย</span><span class="sxs-lookup"><span data-stu-id="05b26-276">Production IOPS depends on many factors.</span></span> <span data-ttu-id="05b26-277">สำหรับข้อมูลเพิ่มเติม ให้ดู [ขนาดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](hardware-sizing-on-premises-environments.md)</span><span class="sxs-lookup"><span data-stu-id="05b26-277">For more information, see [Hardware sizing for on-premises environments](hardware-sizing-on-premises-environments.md).</span></span>
+- <span data-ttu-id="05b26-278">**VM IOPS** – เครื่องเสมือนแต่ละเครื่องควรมีอย่างน้อย 100 write IOPS</span><span class="sxs-lookup"><span data-stu-id="05b26-278">**VM IOPS** – Each VM should have at least 100 write IOPS.</span></span>
 
-## <a name="virtual-host-requirements"></a>ความต้องการโฮสต์เสมือน
-เมื่อคุณตั้งค่าโฮสต์เสมือนสำหรับสภาพแวดล้อม Finance and Operations (ในองค์กร) ให้ดูคำแนะนำใน: [วางแผนและจัดเตรียมคลัสเตอร์ Service Fabric ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation) และ [การอธิบายคลัสเตอร์ Service Fabric](/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description) โฮสต์เสมือนแต่ละระบบควรมีแกนประมวลผลเพียงพอสำหรับขนาดโครงสร้างพื้นฐานที่จะสร้างขึ้น อาจเป็นไปได้ที่จะมีการตั้งค่าคอนฟิกขั้นสูงหลายชุด ในกรณีที่ SQL Server อยู่บนฮาร์ดแวร์จริง แต่องค์ประกอบอื่น ๆ จะถูกสร้างขึ้นบนระบบเสมือน ถ้า SQL Server ถูกสร้างขึ้นบนระบบเสมือน ระบบย่อยดิสก์ ควรจะเป็น SAN ด่วนหรือเทียบเท่า ในทุกกรณี โปรดตรวจสอบให้แน่ใจว่าการตั้งค่าพื้นฐานของโฮสต์เสมือนมีความพร้อมใช้งานสูงและซ้ำซ้อน ในทุกกรณี เมื่อมีการใช้ระบบเสมือน ไม่ควรมีการทำสแนปช็อต VM
+## <a name="virtual-host-requirements"></a><span data-ttu-id="05b26-279">ความต้องการโฮสต์เสมือน</span><span class="sxs-lookup"><span data-stu-id="05b26-279">Virtual host requirements</span></span>
+<span data-ttu-id="05b26-280">เมื่อคุณตั้งค่าโฮสต์เสมือนสำหรับสภาพแวดล้อม Finance and Operations (ในองค์กร) ให้ดูคำแนะนำใน: [วางแผนและจัดเตรียมคลัสเตอร์ Service Fabric ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation) และ [การอธิบายคลัสเตอร์ Service Fabric](/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description)</span><span class="sxs-lookup"><span data-stu-id="05b26-280">When you set up the virtual hosts for a Finance and Operations (on-premises) environment, see the guidelines in [Plan and prepare your Service Fabric cluster](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation) and [Describing a service fabric cluster](/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description).</span></span> <span data-ttu-id="05b26-281">โฮสต์เสมือนแต่ละระบบควรมีแกนประมวลผลเพียงพอสำหรับขนาดโครงสร้างพื้นฐานที่จะสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="05b26-281">Each virtual host should have enough cores for the infrastructure that is being sized.</span></span> <span data-ttu-id="05b26-282">อาจเป็นไปได้ที่จะมีการตั้งค่าคอนฟิกขั้นสูงหลายชุด ในกรณีที่ SQL Server อยู่บนฮาร์ดแวร์จริง แต่องค์ประกอบอื่น ๆ จะถูกสร้างขึ้นบนระบบเสมือน</span><span class="sxs-lookup"><span data-stu-id="05b26-282">Multiple advanced configurations are possible, where SQL Server resides on physical hardware but everything else is virtualized.</span></span> <span data-ttu-id="05b26-283">ถ้า SQL Server ถูกสร้างขึ้นบนระบบเสมือน ระบบย่อยดิสก์ ควรจะเป็น SAN ด่วนหรือเทียบเท่า</span><span class="sxs-lookup"><span data-stu-id="05b26-283">If SQL Server is virtualized, the disk subsystem should be a fast SAN or the equivalent.</span></span> <span data-ttu-id="05b26-284">ในทุกกรณี โปรดตรวจสอบให้แน่ใจว่าการตั้งค่าพื้นฐานของโฮสต์เสมือนมีความพร้อมใช้งานสูงและซ้ำซ้อน</span><span class="sxs-lookup"><span data-stu-id="05b26-284">In all cases, make sure that the basic setup of the virtual host is highly available and redundant.</span></span> <span data-ttu-id="05b26-285">ในทุกกรณี เมื่อมีการใช้ระบบเสมือน ไม่ควรมีการทำสแนปช็อต VM</span><span class="sxs-lookup"><span data-stu-id="05b26-285">In all cases, when virtualization is used, no VM snapshots should be taken.</span></span>
 
-## <a name="software-requirements-for-all-server-computers"></a>ข้อกำหนดของซอฟต์แวร์สำหรับคอมพิวเตอร์เซิร์ฟเวอร์ทั้งหมด
-ซอฟต์แวร์ต่อไปนี้ต้องมีอยู่บนคอมพิวเตอร์ก่อน จึงจะสามารถติดตั้งส่วนประกอบ Finance and Operations (ในองค์กร) ได้:
+## <a name="software-requirements-for-all-server-computers"></a><span data-ttu-id="05b26-286">ข้อกำหนดของซอฟต์แวร์สำหรับคอมพิวเตอร์เซิร์ฟเวอร์ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="05b26-286">Software requirements for all server computers</span></span>
+<span data-ttu-id="05b26-287">ซอฟต์แวร์ต่อไปนี้ต้องมีอยู่บนคอมพิวเตอร์ก่อน จึงจะสามารถติดตั้งส่วนประกอบ Finance and Operations (ในองค์กร) ได้:</span><span class="sxs-lookup"><span data-stu-id="05b26-287">The following software must be present on a computer before any Finance and Operations (on-premises) components can be installed:</span></span>
 
-- Microsoft .NET Framework เวอร์ชัน 4.5.1 หรือใหม่กว่า
-- Service Fabric
+- <span data-ttu-id="05b26-288">Microsoft .NET Framework เวอร์ชัน 4.5.1 หรือใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="05b26-288">The Microsoft .NET Framework version 4.5.1 or later</span></span>
+- <span data-ttu-id="05b26-289">Service Fabric</span><span class="sxs-lookup"><span data-stu-id="05b26-289">Service Fabric</span></span>
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [วางแผนและจัดเตรียมคลัสเตอร์ Service Fabric ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)
+<span data-ttu-id="05b26-290">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [วางแผนและจัดเตรียมคลัสเตอร์ Service Fabric ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)</span><span class="sxs-lookup"><span data-stu-id="05b26-290">For more information, see [Plan and prepare your Service Fabric cluster](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).</span></span>
 
-## <a name="supported-server-operating-systems"></a>ระบบปฏิบัติการของเซิร์ฟเวอร์ที่สนับสนุน
-ตารางต่อไปนี้แสดงรายการระบบปฏิบัติการเซิร์ฟเวอร์ที่สนับสนุนสำหรับส่วนประกอบ Finance and Operations
+## <a name="supported-server-operating-systems"></a><span data-ttu-id="05b26-291">ระบบปฏิบัติการของเซิร์ฟเวอร์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="05b26-291">Supported server operating systems</span></span>
+<span data-ttu-id="05b26-292">ตารางต่อไปนี้แสดงรายการระบบปฏิบัติการเซิร์ฟเวอร์ที่สนับสนุนสำหรับส่วนประกอบ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-292">The following table lists the server operating systems that are supported for Finance and Operations components.</span></span>
 
-| ระบบปฏิบัติการ                                     | บันทึก |
+| <span data-ttu-id="05b26-293">ระบบปฏิบัติการ</span><span class="sxs-lookup"><span data-stu-id="05b26-293">Operating system</span></span>                                     | <span data-ttu-id="05b26-294">บันทึก</span><span class="sxs-lookup"><span data-stu-id="05b26-294">Notes</span></span> |
 |------------------------------------------------------|-------|
-| Microsoft Windows Server 2016 Datacenter หรือมาตรฐาน | ข้อกำหนดเหล่านี้ใช้สำหรับฐานข้อมูลและคลัสเตอร์ Service Fabric ที่โฮสต์ AOS |
+| <span data-ttu-id="05b26-295">Microsoft Windows Server 2016 Datacenter หรือมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="05b26-295">Microsoft Windows Server 2016 Datacenter or Standard</span></span> | <span data-ttu-id="05b26-296">ข้อกำหนดเหล่านี้ใช้สำหรับฐานข้อมูลและคลัสเตอร์ Service Fabric ที่โฮสต์ AOS</span><span class="sxs-lookup"><span data-stu-id="05b26-296">These requirements are for the database and the Service Fabric cluster that hosts AOS.</span></span> |
 
-## <a name="software-requirements-for-database-servers"></a>ข้อกำหนดของซอฟต์แวร์สำหรับเซิร์ฟเวอร์ฐานข้อมูล
+## <a name="software-requirements-for-database-servers"></a><span data-ttu-id="05b26-297">ข้อกำหนดของซอฟต์แวร์สำหรับเซิร์ฟเวอร์ฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="05b26-297">Software requirements for database servers</span></span>
 
-- เฉพาะ SQL Server 2016 เวอร์ชัน 64 บิต เท่านั้นที่ได้รับการสนับสนุน
-- ในสภาพแวดล้อมการผลิต เราขอแนะนำให้คุณติดตั้งโปรแกรมปรับปรุงสะสม (CU) ล่าสุดสำหรับ SQL Server เวอร์ชันที่คุณกำลังใช้
-- Finance and Operations (ในองค์กร) สนับสนุนการเรียง Unicode ที่ตรงตามตัวพิมพ์ใหญ่เล็ก ตรงตามอักขระการออกเสียง ตรงตามตัวคะนะ และไม่ตรงตามความกว้าง การเรียงต้องตรงตามที่ตั้ง Windows ของคอมพิวเตอร์ที่รันอินสแตนซ์ AOS ถ้าคุณกำลังตั้งค่าการติดตั้งใหม่ เราขอแนะนำให้คุณเลือกการเรียง Windows แทนการเรียง SQL Server ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเลือกการเรียงสำหรับฐานข้อมูล SQL Server ได้ที่ [เอกสาร SQL Server](/sql/sql-server/sql-server-technical-documentation)
+- <span data-ttu-id="05b26-298">เฉพาะ SQL Server 2016 เวอร์ชัน 64 บิต เท่านั้นที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="05b26-298">Only 64-bit versions of SQL Server 2016 are supported.</span></span>
+- <span data-ttu-id="05b26-299">ในสภาพแวดล้อมการผลิต เราขอแนะนำให้คุณติดตั้งโปรแกรมปรับปรุงสะสม (CU) ล่าสุดสำหรับ SQL Server เวอร์ชันที่คุณกำลังใช้</span><span class="sxs-lookup"><span data-stu-id="05b26-299">In a production environment, we recommend that you install the latest cumulative update (CU) for the version of SQL Server that you’re using.</span></span>
+- <span data-ttu-id="05b26-300">Finance and Operations (ในองค์กร) สนับสนุนการเรียง Unicode ที่ตรงตามตัวพิมพ์ใหญ่เล็ก ตรงตามอักขระการออกเสียง ตรงตามตัวคะนะ และไม่ตรงตามความกว้าง</span><span class="sxs-lookup"><span data-stu-id="05b26-300">Finance and Operations (on-premises) supports Unicode collations that are case-insensitive, accent-sensitive, kana-sensitive, and width-insensitive.</span></span> <span data-ttu-id="05b26-301">การเรียงต้องตรงตามที่ตั้ง Windows ของคอมพิวเตอร์ที่รันอินสแตนซ์ AOS</span><span class="sxs-lookup"><span data-stu-id="05b26-301">The collation must match the Windows locale of the computers that are running AOS instances.</span></span> <span data-ttu-id="05b26-302">ถ้าคุณกำลังตั้งค่าการติดตั้งใหม่ เราขอแนะนำให้คุณเลือกการเรียง Windows แทนการเรียง SQL Server</span><span class="sxs-lookup"><span data-stu-id="05b26-302">If you’re setting up a new installation, we recommend that you select a Windows collation instead of a SQL Server collation.</span></span> <span data-ttu-id="05b26-303">ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเลือกการเรียงสำหรับฐานข้อมูล SQL Server ได้ที่ [เอกสาร SQL Server](/sql/sql-server/sql-server-technical-documentation)</span><span class="sxs-lookup"><span data-stu-id="05b26-303">For more information about how to select a collation for a SQL Server database, see the [SQL Server documentation](/sql/sql-server/sql-server-technical-documentation).</span></span>
 
-ตารางต่อไปนี้แสดงเวอร์ชัน SQL Server ที่สนับสนุนสำหรับฐานข้อมูล Finance and Operations สำหรับข้อมูลเพิ่มเติม ให้ดูความต้องการขั้นต่ำของฮาร์ดแวร์สำหรับ [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016)
+<span data-ttu-id="05b26-304">ตารางต่อไปนี้แสดงเวอร์ชัน SQL Server ที่สนับสนุนสำหรับฐานข้อมูล Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-304">The following table lists the SQL Server versions that are supported for the Finance and Operations databases.</span></span> <span data-ttu-id="05b26-305">สำหรับข้อมูลเพิ่มเติม ให้ดูความต้องการขั้นต่ำของฮาร์ดแวร์สำหรับ [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016)</span><span class="sxs-lookup"><span data-stu-id="05b26-305">For more information, see the minimum hardware requirements for [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2016).</span></span>
 
-| ความต้องการ                                                      | บันทึก |
+| <span data-ttu-id="05b26-306">ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="05b26-306">Requirement</span></span>                                                      | <span data-ttu-id="05b26-307">บันทึก</span><span class="sxs-lookup"><span data-stu-id="05b26-307">Notes</span></span> |
 |------------------------------------------------------------------|-------|
-| Microsoft SQL Server 2016 Standard Edition หรือ Enterprise Edition | สำหรับความต้องการของฮาร์ดแวร์สำหรับ SQL Server 2016 ให้ดูที่ [ความต้องการฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้ง SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server) |
+| <span data-ttu-id="05b26-308">Microsoft SQL Server 2016 Standard Edition หรือ Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="05b26-308">Microsoft SQL Server 2016 Standard Edition or Enterprise Edition</span></span> | <span data-ttu-id="05b26-309">สำหรับความต้องการของฮาร์ดแวร์สำหรับ SQL Server 2016 ให้ดูที่ [ความต้องการฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้ง SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server)</span><span class="sxs-lookup"><span data-stu-id="05b26-309">For the hardware requirements for SQL Server 2016, see [Hardware and Software Requirements for Installing SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).</span></span> |
 
-## <a name="software-requirements-for-client-computers"></a>ข้อกำหนดของซอฟต์แวร์สำหรับคอมพิวเตอร์ไคลเอนท์ทั้งหมด
-เว็บแอพลิเคชัน Finance and Operations สามารถรันบนอุปกรณ์ใด ๆ ที่มีเว็บเบราเซอร์ที่รองรับ HTML 5.0 ต่อไปนี้คือชุดอุปกรณ์เฉพาะ/เบราเซอร์ที่ Microsoft ยืนยัน:
+## <a name="software-requirements-for-client-computers"></a><span data-ttu-id="05b26-310">ข้อกำหนดของซอฟต์แวร์สำหรับคอมพิวเตอร์ไคลเอนท์ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="05b26-310">Software requirements for client computers</span></span>
+<span data-ttu-id="05b26-311">เว็บแอพลิเคชัน Finance and Operations สามารถรันบนอุปกรณ์ใด ๆ ที่มีเว็บเบราเซอร์ที่รองรับ HTML 5.0</span><span class="sxs-lookup"><span data-stu-id="05b26-311">The Finance and Operations web application can run on any device that has an HTML 5.0–compliant web browser.</span></span> <span data-ttu-id="05b26-312">ต่อไปนี้คือชุดอุปกรณ์เฉพาะ/เบราเซอร์ที่ Microsoft ยืนยัน:</span><span class="sxs-lookup"><span data-stu-id="05b26-312">Here are some of the specific device/browser combinations that Microsoft has confirmed:</span></span>
 
-- Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10
-- Internet Explorer 11 บน Windows 10, Windows 8.1 หรือ Windows 7
-- Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus แท็บเล็ต 10
-- Apple Safari (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) หรือ 10.12 (Sierra) หรือ Apple iPad
+- <span data-ttu-id="05b26-313">Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10</span><span class="sxs-lookup"><span data-stu-id="05b26-313">Microsoft Edge (latest publicly available version) on Windows 10</span></span>
+- <span data-ttu-id="05b26-314">Internet Explorer 11 บน Windows 10, Windows 8.1 หรือ Windows 7</span><span class="sxs-lookup"><span data-stu-id="05b26-314">Internet Explorer 11 on Windows 10, Windows 8.1, or Windows 7</span></span>
+- <span data-ttu-id="05b26-315">Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus แท็บเล็ต 10</span><span class="sxs-lookup"><span data-stu-id="05b26-315">Google Chrome (latest publicly available version) on Windows 10, Windows 8.1, Windows 8, Windows 7, or Google Nexus 10 tablet</span></span>
+- <span data-ttu-id="05b26-316">Apple Safari (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) หรือ 10.12 (Sierra) หรือ Apple iPad</span><span class="sxs-lookup"><span data-stu-id="05b26-316">Apple Safari (latest publicly available version) on Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) or 10.12 (Sierra), or Apple iPad</span></span>
 
-## <a name="software-requirements-for-active-directory-federation-services"></a>ข้อกำหนดของซอฟต์แวร์สำหรับสำหรับ Active Directory Federation Services 
-จำเป็นต้องมี Active Directory Federation Services (AD FS) บน Windows Server 2016
+## <a name="software-requirements-for-active-directory-federation-services"></a><span data-ttu-id="05b26-317">ข้อกำหนดของซอฟต์แวร์สำหรับสำหรับ Active Directory Federation Services</span><span class="sxs-lookup"><span data-stu-id="05b26-317">Software requirements for Active Directory Federation Services</span></span> 
+<span data-ttu-id="05b26-318">จำเป็นต้องมี Active Directory Federation Services (AD FS) บน Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="05b26-318">Active Directory Federation Services (AD FS) on Windows Server 2016 is required.</span></span>
 
-ตัวควบคุมโดเมนจะต้องเป็น Windows Server 2012 R2 หรือใหม่กว่า และระดับฟังก์ชันโดเมนต้องเป็น 2012 R2 หรือมากกว่า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับระดับฟังก์ชันโดเมน ให้ดูหน้าต่อไปนี้:
+<span data-ttu-id="05b26-319">ตัวควบคุมโดเมนจะต้องเป็น Windows Server 2012 R2 หรือใหม่กว่า และระดับฟังก์ชันโดเมนต้องเป็น 2012 R2 หรือมากกว่า</span><span class="sxs-lookup"><span data-stu-id="05b26-319">The domain controller must be Windows Server 2012 R2 or later, and the domain functional level must be 2012 R2 or more.</span></span> <span data-ttu-id="05b26-320">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับระดับฟังก์ชันโดเมน ให้ดูหน้าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="05b26-320">For more information about domain functional levels, see the following pages:</span></span>
 
-- [ระดับฟังก์ชัน Active Directory คืออะไร](https://technet.microsoft.com/en-us/library/cc787290(v=ws.10).aspx)
-- [การทำความเข้าใจเกี่ยวกับระดับฟังก์ชัน Active Directory Domain Services](https://technet.microsoft.com/en-us/library/understanding-active-directory-functional-levels(v=ws.10).aspx)
+- <span data-ttu-id="05b26-321">[ระดับฟังก์ชัน Active Directory คืออะไร](https://technet.microsoft.com/en-us/library/cc787290(v=ws.10).aspx)</span><span class="sxs-lookup"><span data-stu-id="05b26-321">[What Are Active Directory Functional Levels](https://technet.microsoft.com/en-us/library/cc787290(v=ws.10).aspx)</span></span>
+- <span data-ttu-id="05b26-322">[การทำความเข้าใจเกี่ยวกับระดับฟังก์ชัน Active Directory Domain Services](https://technet.microsoft.com/en-us/library/understanding-active-directory-functional-levels(v=ws.10).aspx)</span><span class="sxs-lookup"><span data-stu-id="05b26-322">[Understanding Active Directory Domain Services Functional Levels](https://technet.microsoft.com/en-us/library/understanding-active-directory-functional-levels(v=ws.10).aspx)</span></span>
 
-## <a name="supported-microsoft-office-applications"></a>แอพลิเคชัน Microsoft Office ที่ได้รับการสนับสนุน
-แอพลิเคชัน Microsoft Office ต่อไปนี้ได้รับการสนับสนุนในระบบคลาวด์และการปรับใช้ในองค์กรของ Finance and Operations
+## <a name="supported-microsoft-office-applications"></a><span data-ttu-id="05b26-323">แอพลิเคชัน Microsoft Office ที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="05b26-323">Supported Microsoft Office applications</span></span>
+<span data-ttu-id="05b26-324">แอพลิเคชัน Microsoft Office ต่อไปนี้ได้รับการสนับสนุนในระบบคลาวด์และการปรับใช้ในองค์กรของ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="05b26-324">The following Microsoft Office applications are supported in the cloud and on-premises deployments of Finance and Operations:</span></span>
 
--   เมื่อต้องการเรียกใช้ Add-in ของ Microsoft Excel and Microsoft Word คุณจะต้องตั้งค่า Microsoft Office 2016 สำหรับ Windows หรือ Mac ไว้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อกำหนดเวอร์ชัน ให้ดูที่ [การแก้ไขปัญหาการรวม Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting)
--   เมื่อต้องการดูเอกสารที่สร้างขึ้นโดยฟังก์ชันส่งออกไปที่ Excel หรือส่งออกไปที่ Word คุณต้องติดตั้ง Microsoft Office 2007 หรือรุ่นที่ใหม่กว่าไว้
+-   <span data-ttu-id="05b26-325">เมื่อต้องการเรียกใช้ Add-in ของ Microsoft Excel and Microsoft Word คุณจะต้องตั้งค่า Microsoft Office 2016 สำหรับ Windows หรือ Mac ไว้</span><span class="sxs-lookup"><span data-stu-id="05b26-325">To run the Microsoft Excel and Microsoft Word add-ins, you must have Microsoft Office 2016 for Windows or Mac installed.</span></span> <span data-ttu-id="05b26-326">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อกำหนดเวอร์ชัน ให้ดูที่ [การแก้ไขปัญหาการรวม Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting)</span><span class="sxs-lookup"><span data-stu-id="05b26-326">For more information about version requirements, see [Office integration troubleshooting](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).</span></span>
+-   <span data-ttu-id="05b26-327">เมื่อต้องการดูเอกสารที่สร้างขึ้นโดยฟังก์ชันส่งออกไปที่ Excel หรือส่งออกไปที่ Word คุณต้องติดตั้ง Microsoft Office 2007 หรือรุ่นที่ใหม่กว่าไว้</span><span class="sxs-lookup"><span data-stu-id="05b26-327">To view documents that are generated by the Export to Excel or Export to Word functionality, you must have Microsoft Office 2007 or later installed.</span></span>
  
-## <a name="hardware-and-software-requirements-for-retail-components"></a>ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับองค์ประกอบของระบบการขายปลีก
-ในขณะนี้ Finance and Operations (ในองค์กร) ไม่มีองค์ประกอบของระบบการขายปลีก
+## <a name="hardware-and-software-requirements-for-retail-components"></a><span data-ttu-id="05b26-328">ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับองค์ประกอบของระบบการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="05b26-328">Hardware and software requirements for Retail components</span></span>
+<span data-ttu-id="05b26-329">ในขณะนี้ Finance and Operations (ในองค์กร) ไม่มีองค์ประกอบของระบบการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="05b26-329">Currently, Finance and Operations (on-premises) doesn't include the Retail components.</span></span>
 

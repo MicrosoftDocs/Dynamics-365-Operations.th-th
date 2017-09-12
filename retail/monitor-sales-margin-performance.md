@@ -19,37 +19,37 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 6c299a1297e5721119ecfb5208453f8739fb7ad0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2442f27221e429761abb8c1b17c50a737c10795
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="monitor-sales-and-margin-performance"></a>ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="2ef4d-103">ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น</span><span class="sxs-lookup"><span data-stu-id="2ef4d-103">Monitor sales and margin performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรขั้นต้นในเวลาจริงใน Microsoft Dynamics 365 for Retail
+<span data-ttu-id="2ef4d-104">คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรขั้นต้นในเวลาจริงใน Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="2ef4d-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถติดตามการขายและกำไรขั้นต้นในแบบเรียลไทม์ระหว่างระดับต่างๆ ในลำดับชั้นขององค์กรสำหรับมิติต่อไปนี้:
+<span data-ttu-id="2ef4d-105">เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถติดตามการขายและกำไรขั้นต้นในแบบเรียลไทม์ระหว่างระดับต่างๆ ในลำดับชั้นขององค์กรสำหรับมิติต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="2ef4d-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   ผลิตภัณฑ์
--   ประเภท
--   ส่วนลด
--   ระยะเวลาเป็นปี
--   เครื่องบันทึกเงินสด/เทอร์มินัล
--   เจ้าหน้าที่/พนักงาน
--   ลูกค้า
--   หน่วยปฏิบัติงาน
+-   <span data-ttu-id="2ef4d-106">ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="2ef4d-106">Products</span></span>
+-   <span data-ttu-id="2ef4d-107">ประเภท</span><span class="sxs-lookup"><span data-stu-id="2ef4d-107">Categories</span></span>
+-   <span data-ttu-id="2ef4d-108">ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="2ef4d-108">Discounts</span></span>
+-   <span data-ttu-id="2ef4d-109">ระยะเวลาเป็นปี</span><span class="sxs-lookup"><span data-stu-id="2ef4d-109">Years as time period</span></span>
+-   <span data-ttu-id="2ef4d-110">เครื่องบันทึกเงินสด/เทอร์มินัล</span><span class="sxs-lookup"><span data-stu-id="2ef4d-110">Registers/terminals</span></span>
+-   <span data-ttu-id="2ef4d-111">เจ้าหน้าที่/พนักงาน</span><span class="sxs-lookup"><span data-stu-id="2ef4d-111">Staff/employees</span></span>
+-   <span data-ttu-id="2ef4d-112">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="2ef4d-112">Customers</span></span>
+-   <span data-ttu-id="2ef4d-113">หน่วยปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="2ef4d-113">Operating units</span></span>
 
-นอกจากนี้ สองรายงานเฉพาะที่ใช้ประโยชน์จากการจัดโครงสร้างกริดตามลำดับชั้นช่วยให้ผู้ใช้สามารถติดตามประสิทธิภาพการขายและกำไรขั้นต้น โดยการเลื่อนลงจากโหนดประเภทระดับบนสุดเป็นโหนดปลายสุดแต่ละประเภทในลำดับชั้นประเภทผลิตภัณฑ์ขายปลีกเริ่มต้น นอกจากนี้ ผู้ใช้อาจเลื่อนจากหน่วยปฏิบัติงานบนสุดไปยังช่องทางแต่ละรายการในลำดับชั้นขององค์กรที่กำหนดไว้เป็นลำดับชั้นขององค์กรเริ่มต้นสำหรับการรายงานวัตถุประสงค์ลำดับชั้นการขายปลีก สำหรับการดำเนินงาน คุณสามารถเปิดรายงานนี้จากตำแหน่งที่ตั้งต่อไปนี้:
+<span data-ttu-id="2ef4d-114">นอกจากนี้ สองรายงานเฉพาะที่ใช้ประโยชน์จากการจัดโครงสร้างกริดตามลำดับชั้นช่วยให้ผู้ใช้สามารถติดตามประสิทธิภาพการขายและกำไรขั้นต้น โดยการเลื่อนลงจากโหนดประเภทระดับบนสุดเป็นโหนดปลายสุดแต่ละประเภทในลำดับชั้นประเภทผลิตภัณฑ์ขายปลีกเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="2ef4d-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="2ef4d-115">นอกจากนี้ ผู้ใช้อาจเลื่อนจากหน่วยปฏิบัติงานบนสุดไปยังช่องทางแต่ละรายการในลำดับชั้นขององค์กรที่กำหนดไว้เป็นลำดับชั้นขององค์กรเริ่มต้นสำหรับการรายงานวัตถุประสงค์ลำดับชั้นการขายปลีก สำหรับการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="2ef4d-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="2ef4d-116">คุณสามารถเปิดรายงานนี้จากตำแหน่งที่ตั้งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="2ef4d-116">You can open the reports from any of the following locations:</span></span>
 
--   **การจัดการร้านค้าปลีก** พื้นที่ทำงาน &gt; **Retail** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**
--   **การจัดการประเภทและผลิตภัณฑ์** พื้นที่ทำงาน &gt; **การขายปลีก** &gt; **ผลิตภัณฑ์และประเภท** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**
--   **การจัดการราคาและส่วนลด** พื้นที่ทำงาน &gt; **Retail** &gt; **การจัดการราคาและส่วนลด** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**
--   **การสอบถามและรายงาน** ส่วน &gt; **การขายปลีก** &gt; **การสอบถามและรายงาน** &gt; **รายงานการขาย**
+-   <span data-ttu-id="2ef4d-117">**การจัดการร้านค้าปลีก** พื้นที่ทำงาน &gt; **Retail** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**</span><span class="sxs-lookup"><span data-stu-id="2ef4d-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="2ef4d-118">**การจัดการประเภทและผลิตภัณฑ์** พื้นที่ทำงาน &gt; **การขายปลีก** &gt; **ผลิตภัณฑ์และประเภท** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**</span><span class="sxs-lookup"><span data-stu-id="2ef4d-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="2ef4d-119">**การจัดการราคาและส่วนลด** พื้นที่ทำงาน &gt; **Retail** &gt; **การจัดการราคาและส่วนลด** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**</span><span class="sxs-lookup"><span data-stu-id="2ef4d-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="2ef4d-120">**การสอบถามและรายงาน** ส่วน &gt; **การขายปลีก** &gt; **การสอบถามและรายงาน** &gt; **รายงานการขาย**</span><span class="sxs-lookup"><span data-stu-id="2ef4d-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 
 
 

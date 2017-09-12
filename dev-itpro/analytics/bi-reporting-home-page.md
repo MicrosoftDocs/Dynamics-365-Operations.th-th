@@ -15,7 +15,7 @@ ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -25,80 +25,80 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>โฮมเพจ BI และการรายงาน
+# <a name="bi-amp-reporting-home-page"></a><span data-ttu-id="0f198-103">โฮมเพจ BI และการรายงาน</span><span class="sxs-lookup"><span data-stu-id="0f198-103">BI &amp; reporting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations 
+<span data-ttu-id="0f198-104">หัวข้อนี้แสดงรายการ BI และการรายงานที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0f198-104">This topic lists BI &amp; reporting resources that are available in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<a name="working-with-aggregate-data"></a>การทำงานกับข้อมูลรวม
+<a name="working-with-aggregate-data"></a><span data-ttu-id="0f198-105">การทำงานกับข้อมูลรวม</span><span class="sxs-lookup"><span data-stu-id="0f198-105">Working with aggregate data</span></span>
 ---------------------------
 
--   [การวิเคราะห์](analytics.md)
--   [ในหน่วยความจำแบบเรียลไทม์รวมต้นแบบแทนที่ SSAS คิวบ์](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [การสร้างโมเดลและการใช้ข้อมูลรวม](model-aggregate-data.md)
--   [ย้ายคิวบ์การขาย Dynamics AX 2012 R3 ที่อัพเกรดแล้วไปยังที่จัดเก็บเอนทิตี้](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [<span data-ttu-id="0f198-106">การวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="0f198-106">Analytics</span></span>](analytics.md)
+-   [<span data-ttu-id="0f198-107">ในหน่วยความจำแบบเรียลไทม์รวมต้นแบบแทนที่ SSAS คิวบ์</span><span class="sxs-lookup"><span data-stu-id="0f198-107">In-memory, real-time aggregate models replace SSAS cubes</span></span>](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
+-   [<span data-ttu-id="0f198-108">การสร้างโมเดลและการใช้ข้อมูลรวม</span><span class="sxs-lookup"><span data-stu-id="0f198-108">Modeling and using Aggregate Data</span></span>](model-aggregate-data.md)
+-   [<span data-ttu-id="0f198-109">ย้ายคิวบ์การขาย Dynamics AX 2012 R3 ที่อัพเกรดแล้วไปยังที่จัดเก็บเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="0f198-109">Migrate an upgraded Dynamics AX 2012 R3 sales cube to the entity store</span></span>](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>การรายงานการบริการตนเอง
--   [การรวม Power BI](power-bi-integration.md)
--   [การตั้งค่าคอนฟิกการรวม Power BI สำหรับพื้นที่ทำงาน](configure-power-bi-integration.md)
--   [สร้างรายงาน Power BI โดยใช้ข้อมูล Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
--   [สร้างรายงาน Power BI และแดชบอร์ด](create-powerbi-report-dashboard.md)
--   [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md)
--   [เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI](financial-performance-power-bi-content-pack.md)
--   [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
--   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+## <a name="self-service-reporting"></a><span data-ttu-id="0f198-110">การรายงานการบริการตนเอง</span><span class="sxs-lookup"><span data-stu-id="0f198-110">Self service reporting</span></span>
+-   [<span data-ttu-id="0f198-111">การรวม Power BI</span><span class="sxs-lookup"><span data-stu-id="0f198-111">Power BI integration</span></span>](power-bi-integration.md)
+-   [<span data-ttu-id="0f198-112">การตั้งค่าคอนฟิกการรวม Power BI สำหรับพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="0f198-112">Configuring Power BI integration for workspaces</span></span>](configure-power-bi-integration.md)
+-   [<span data-ttu-id="0f198-113">สร้างรายงาน Power BI โดยใช้ข้อมูล Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0f198-113">Create a Power BI report by using Microsoft Dynamics 365 for Finance and Operations data</span></span>](create-powerbi-report-data.md)
+-   [<span data-ttu-id="0f198-114">สร้างรายงาน Power BI และแดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="0f198-114">Create a Power BI report and dashboard</span></span>](create-powerbi-report-dashboard.md)
+-   [<span data-ttu-id="0f198-115">เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI</span><span class="sxs-lookup"><span data-stu-id="0f198-115">Retail Channel Performance Power BI content</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+-   [<span data-ttu-id="0f198-116">เนื้อหาประสิทธิภาพทางการเงินสำหรับ Power BI</span><span class="sxs-lookup"><span data-stu-id="0f198-116">Financial Performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
+-   [<span data-ttu-id="0f198-117">เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI</span><span class="sxs-lookup"><span data-stu-id="0f198-117">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
+-   [<span data-ttu-id="0f198-118">ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0f198-118">Use an Electronic reporting configuration to provide Power BI with data from Finance and Operations</span></span>](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>สร้างการฝังประสบการณ์การวิเคราะห์ในไคลเอนต์ Finance and Operations
--   [ข่าวกรองธุรกิจที่ฝังอยู่](analytics.md#embedded-business-intelligence)
--   [การสร้างโมเดล KPI และการกำหนดเอง](analytics.md#kpi-modeling-and-customization)
--   [การเพิ่ม BI ไปยังพื้นที่ทำงาน](add-bi-workspaces.md)
--   [การเพิ่มบริบท BI ไปยังแบบฟอร์ม](add-contextual-bi-forms.md)
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a><span data-ttu-id="0f198-119">สร้างการฝังประสบการณ์การวิเคราะห์ในไคลเอนต์ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0f198-119">Building embedded analytical experiences in the Finance and Operations client</span></span>
+-   [<span data-ttu-id="0f198-120">ข่าวกรองธุรกิจที่ฝังอยู่</span><span class="sxs-lookup"><span data-stu-id="0f198-120">Embedded business intelligence</span></span>](analytics.md#embedded-business-intelligence)
+-   [<span data-ttu-id="0f198-121">การสร้างโมเดล KPI และการกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="0f198-121">KPI modeling and customization</span></span>](analytics.md#kpi-modeling-and-customization)
+-   [<span data-ttu-id="0f198-122">การเพิ่ม BI ไปยังพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="0f198-122">Adding BI to workspaces</span></span>](add-bi-workspaces.md)
+-   [<span data-ttu-id="0f198-123">การเพิ่มบริบท BI ไปยังแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="0f198-123">Adding contextual BI to forms</span></span>](add-contextual-bi-forms.md)
 
-## <a name="document-reporting-and-printing"></a>การรายงานและการพิมพ์เอกสาร
--   [ภาพรวมของบริการรายงานเอกสาร](document-reporting-services.md)
--   [การพิมพ์ในแอพลิเคชัน Finance and Operations](print-documents.md)
--   [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย](install-document-routing-agent.md)
--   [รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows](run-document-routing-agent-as-windows-service.md)
--   [สร้างโซลูชันรายงานรุ่นต่อไป](create-nextgen-reporting-solutions.md)
--   [ติดตั้งเท็มเพลตการออกแบบรายงานสมัยใหม่](install-modern-report-design-templates.md)
--   [คำแนะนำเพื่อช่วยป้องกันไม่ให้รายงานที่รันเป็นเวลานานหมดเวลา](prevent-long-running-reports-timing-out.md)
+## <a name="document-reporting-and-printing"></a><span data-ttu-id="0f198-124">การรายงานและการพิมพ์เอกสาร</span><span class="sxs-lookup"><span data-stu-id="0f198-124">Document reporting and printing</span></span>
+-   [<span data-ttu-id="0f198-125">ภาพรวมของบริการรายงานเอกสาร</span><span class="sxs-lookup"><span data-stu-id="0f198-125">Document Reporting Services Overview</span></span>](document-reporting-services.md)
+-   [<span data-ttu-id="0f198-126">การพิมพ์ในแอพลิเคชัน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0f198-126">Printing in Finance and Operations applications</span></span>](print-documents.md)
+-   [<span data-ttu-id="0f198-127">ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="0f198-127">Install the Document Routing Agent to enable network printer devices</span></span>](install-document-routing-agent.md)
+-   [<span data-ttu-id="0f198-128">รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows</span><span class="sxs-lookup"><span data-stu-id="0f198-128">Run the Document Routing agent as a Windows service</span></span>](run-document-routing-agent-as-windows-service.md)
+-   [<span data-ttu-id="0f198-129">สร้างโซลูชันรายงานรุ่นต่อไป</span><span class="sxs-lookup"><span data-stu-id="0f198-129">Creating next-generation reporting solutions</span></span>](create-nextgen-reporting-solutions.md)
+-   [<span data-ttu-id="0f198-130">ติดตั้งเท็มเพลตการออกแบบรายงานสมัยใหม่</span><span class="sxs-lookup"><span data-stu-id="0f198-130">Install the modern report design templates</span></span>](install-modern-report-design-templates.md)
+-   [<span data-ttu-id="0f198-131">คำแนะนำเพื่อช่วยป้องกันไม่ให้รายงานที่รันเป็นเวลานานหมดเวลา</span><span class="sxs-lookup"><span data-stu-id="0f198-131">Tips to help prevent long-running reports from timing out</span></span>](prevent-long-running-reports-timing-out.md)
 
-## <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
--   [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
--   [จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-manage-configuration-lifecycle.md)
--   [การขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formulas-list-extension.md)
--   [ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
--   [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
--   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (คู่มืองาน)
--   [ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (คู่มืองาน)
--   [กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูลของ ER](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (คู่มืองาน)
--   [แม็ปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือกของ ER](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (คู่มืองาน)
--   [ออกแบบโดเมนของรูปแบบที่เฉพาะเจาะจงของ ER](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (คู่มืองาน)
--   [อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (คู่มืองาน)
--   [นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (คู่มืองาน)
--   [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกปลายทางของ ER](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 1: ออกแบบแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 2: การแม็ปแบบจำลอง)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 3: ออกแบบรายงาน)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (คู่มืองาน)
--   [ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 4: รันรายงาน)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 1: สร้างรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 2: ตั้งค่าการคำนวณ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 3: ใช้การคำนวณเพื่อสร้างผลลัพธ์)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (คู่มืองาน)
--   [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 4: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (คู่มืองาน)
--   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 1: ออกแบบรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (คู่มืองาน)
--   [ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 2: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 1: จัดเตรียมแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 2: ขยายแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 3: สร้างรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 4: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (คู่มืองาน)
--   [ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 5: แก้ไขและรันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (คู่มืองาน)
--   [สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (คู่มืองาน)
--   [อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นของ ER](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (คู่มืองาน)
+## <a name="electronic-reporting"></a><span data-ttu-id="0f198-132">การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="0f198-132">Electronic reporting</span></span>
+-   [<span data-ttu-id="0f198-133">ภาพรวมการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="0f198-133">Electronic reporting overview</span></span>](general-electronic-reporting.md)
+-   [<span data-ttu-id="0f198-134">จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="0f198-134">Manage the Electronic reporting configuration lifecycle</span></span>](general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [<span data-ttu-id="0f198-135">การขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="0f198-135">Extending the list of Electronic reporting functions</span></span>](general-electronic-reporting-formulas-list-extension.md)
+-   [<span data-ttu-id="0f198-136">ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="0f198-136">Formula designer in Electronic reporting</span></span>](general-electronic-reporting-formula-designer.md)
+-   [<span data-ttu-id="0f198-137">ปลายทางการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="0f198-137">Electronic reporting destinations</span></span>](electronic-reporting-destinations.md)
+-   [<span data-ttu-id="0f198-138">ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="0f198-138">Download Electronic reporting configurations from Lifecycle Services</span></span>](download-electronic-reporting-configuration-lcs.md)
+-   [<span data-ttu-id="0f198-139">ใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อระบุ Power BI ด้วยข้อมูลจาก Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0f198-139">Use an Electronic reporting configuration to provide Power BI with data from Finance and Operations</span></span>](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   <span data-ttu-id="0f198-140">[สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-140">[ER Create a configuration provider and mark it as active](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-141">[ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-141">[ER Design domain specific data model](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-142">[กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูลของ ER](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-142">[ER Define model mapping and select data sources](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-143">[แม็ปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือกของ ER](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-143">[ER Map data model to selected data sources](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-144">[ออกแบบโดเมนของรูปแบบที่เฉพาะเจาะจงของ ER](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-144">[ER Design domain specific format](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-145">[อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-145">[ER Upload a configuration into Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-146">[นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-146">[ER Import a configuration from Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-147">[ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-147">[ER Design a configuration for generating reports in OPENXML format](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-148">[ตั้งค่าคอนฟิกปลายทางของ ER](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-148">[ER Configure destinations](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-149">[ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 1: ออกแบบแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-149">[ER Use financial dimensions as a data source (Part 1: Design data model)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-150">[ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 2: การแม็ปแบบจำลอง)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-150">[ER Use financial dimensions as a data source (Part 2: Model mapping)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-151">[ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 3: ออกแบบรายงาน)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-151">[ER Use financial dimensions as a data source (Part 3: Design the report)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-152">[ใช้มิติทางการเงินเป็นแหล่งข้อมูลของ ER (ส่วนที่ 4: รันรายงาน)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-152">[ER Use financial dimensions as a data source (Part 4: Run the report)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-153">[ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 1: สร้างรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-153">[ER Configure format to do counting and summing (Part 1: Create format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-154">[ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 2: ตั้งค่าการคำนวณ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-154">[ER Configure format to do counting and summing (Part 2: Configure computations)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-155">[ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 3: ใช้การคำนวณเพื่อสร้างผลลัพธ์)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-155">[ER Configure format to do counting and summing (Part 3: Use computations to make the output)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-156">[ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวมของ ER (ส่วนที่ 4: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-156">[ER Configure format to do counting and summing (Part 4: Run format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-157">[ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 1: ออกแบบรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-157">[ER Use horizontally expandable ranges to dynamically add columns in Excel reports (Part 1: Design format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-158">[ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกของ ER (ส่วนที่ 2: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-158">[ER Use horizontally expandable ranges to dynamically add columns in Excel reports (Part 2: Run format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-159">[ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 1: จัดเตรียมแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-159">[ER Use Document Management files in format outputs (Part 1: Prepare data model)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-160">[ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 2: ขยายแบบจำลองข้อมูล)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-160">[ER Use Document Management files in format outputs (Part 2: Extend data model)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-161">[ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 3: สร้างรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-161">[ER Use Document Management files in format outputs (Part 3: Create format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-162">[ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 4: รันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-162">[ER Use Document Management files in format outputs (Part 4: Run format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-163">[ใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์ของ ER (ส่วนที่ 5: แก้ไขและรันรูปแบบ)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-163">[ER Use Document Management files in format outputs (Part 5: Modify and run format)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-164">[สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบของ ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-164">[ER Generate electronic documents for payments using a format configuration](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (Task guide)</span></span>
+-   <span data-ttu-id="0f198-165">[อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นของ ER](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="0f198-165">[ER Upgrade your format by adopting a new, base version of that format](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (Task guide)</span></span>
 
 
 

@@ -16,36 +16,36 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e49662a538046c387618104ecea542195f7ed663
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: bb2413e69464068ecde59b5ea7642e102e78e6d8
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-iso20022-direct-debit-configuration"></a>นำเข้าการตั้งค่าคอนฟิกการหักบัญชีเงินฝากอัตโนมัติ ISO20022
+# <a name="import-iso20022-direct-debit-configuration"></a><span data-ttu-id="ecbcf-103">นำเข้าการตั้งค่าคอนฟิกการหักบัญชีเงินฝากอัตโนมัติ ISO20022</span><span class="sxs-lookup"><span data-stu-id="ecbcf-103">Import ISO20022 direct debit configuration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้อธิบายวิธีการนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์การชำระเงินของลูกค้า  กระบวนงานนี้ใช้รูปแบบการหักบัญชีเงินฝากอัตโนมัติ ISO 20022 เป็นตัวอย่าง 
+<span data-ttu-id="ecbcf-104">กระบวนงานนี้อธิบายวิธีการนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์การชำระเงินของลูกค้า </span><span class="sxs-lookup"><span data-stu-id="ecbcf-104">This procedure demonstrates how to import a customer payment electronic reporting configuration.</span></span> <span data-ttu-id="ecbcf-105">กระบวนงานนี้ใช้รูปแบบการหักบัญชีเงินฝากอัตโนมัติ ISO 20022 เป็นตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ecbcf-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> 
 
 
 
-กระบวนงานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF แต่คุณสามารถใช้บริษัทข้อมูลสาธิตใดก็ได้สำหรับวัตถุประสงค์นี้
+<span data-ttu-id="ecbcf-106">กระบวนงานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF แต่คุณสามารถใช้บริษัทข้อมูลสาธิตใดก็ได้สำหรับวัตถุประสงค์นี้</span><span class="sxs-lookup"><span data-stu-id="ecbcf-106">This procedure was created using the demo data company DEMF but you can use any demo data company for this purpose.</span></span>
 
 
 
-นี่คือกระบวนงานแรกจากกระบวนงานห้ารายการที่แสดงให้เห็นถึงขั้นตอนการชำระเงินโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+<span data-ttu-id="ecbcf-107">นี่คือกระบวนงานแรกจากกระบวนงานห้ารายการที่แสดงให้เห็นถึงขั้นตอนการชำระเงินโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ecbcf-107">This is the first of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-2. ในรายการผู้ให้บริการการตั้งค่าคอนฟิกที่พร้อมใช้งาน เลือก Microsoft
-3. คลิก กำหนดเป็นใช้งานอยู่
-4. คลิก ที่เก็บ
-5. คลิก เปิด
-6. คลิกแสดงตัวกรอง
-7. ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "การหักบัญชีเงินฝากอัตโนมัติ ISO20022 (DE)" ในฟิลด์ "ชื่อการตั้งค่าคอนฟิก" โดยใช้ตัวดำเนินการตัวกรอง "เริ่มต้นด้วย"
-    * อีกทางหนึ่งคือ คุณสามารถหาการตั้งค่าคอนฟิกในรายการ เลือก และข้ามขั้นตอนนี้  
-8. คลิก นำเข้า
-    * ถ้าปุ่มการนำเข้าไม่พร้อมใช้งาน หมายความว่าการตั้งค่าคอนฟิกนี้ถูกนำเข้าเรียบร้อยแล้ว  
-9. คลิก ใช่
+1. <span data-ttu-id="ecbcf-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ecbcf-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="ecbcf-109">ในรายการผู้ให้บริการการตั้งค่าคอนฟิกที่พร้อมใช้งาน เลือก Microsoft</span><span class="sxs-lookup"><span data-stu-id="ecbcf-109">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="ecbcf-110">คลิก กำหนดเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="ecbcf-110">Click Set active.</span></span>
+4. <span data-ttu-id="ecbcf-111">คลิก ที่เก็บ</span><span class="sxs-lookup"><span data-stu-id="ecbcf-111">Click Repositories.</span></span>
+5. <span data-ttu-id="ecbcf-112">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="ecbcf-112">Click Open.</span></span>
+6. <span data-ttu-id="ecbcf-113">คลิกแสดงตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="ecbcf-113">Click Show filters.</span></span>
+7. <span data-ttu-id="ecbcf-114">ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "การหักบัญชีเงินฝากอัตโนมัติ ISO20022 (DE)" ในฟิลด์ "ชื่อการตั้งค่าคอนฟิก" โดยใช้ตัวดำเนินการตัวกรอง "เริ่มต้นด้วย"</span><span class="sxs-lookup"><span data-stu-id="ecbcf-114">Apply the following filters: Enter a filter value of "ISO20022 Direct debit (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="ecbcf-115">อีกทางหนึ่งคือ คุณสามารถหาการตั้งค่าคอนฟิกในรายการ เลือก และข้ามขั้นตอนนี้</span><span class="sxs-lookup"><span data-stu-id="ecbcf-115">Optionally, you can find the configuration in the list, select it, and skip this step.</span></span>  
+8. <span data-ttu-id="ecbcf-116">คลิก นำเข้า</span><span class="sxs-lookup"><span data-stu-id="ecbcf-116">Click Import.</span></span>
+    * <span data-ttu-id="ecbcf-117">ถ้าปุ่มการนำเข้าไม่พร้อมใช้งาน หมายความว่าการตั้งค่าคอนฟิกนี้ถูกนำเข้าเรียบร้อยแล้ว</span><span class="sxs-lookup"><span data-stu-id="ecbcf-117">If the Import button is not available, it means that the configuration has been imported already.</span></span>  
+9. <span data-ttu-id="ecbcf-118">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="ecbcf-118">Click Yes.</span></span>
 
 

@@ -20,68 +20,68 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1bd3168e80719c86e9a0541200fdb1608410c8f5
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 88fb31fc425c9fbd2ef96e4497f120da4440af04
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="calculate-material-consumption"></a>คำนวณปริมาณการใช้วัสดุ
+# <a name="calculate-material-consumption"></a><span data-ttu-id="bec80-103">คำนวณปริมาณการใช้วัสดุ</span><span class="sxs-lookup"><span data-stu-id="bec80-103">Calculate material consumption</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับตัวเลือกต่างๆ ที่เกี่ยวข้องกับการคำนวณปริมาณการใช้วัสดุ 
+<span data-ttu-id="bec80-104">บทความนี้แสดงข้อมูลเกี่ยวกับตัวเลือกต่างๆ ที่เกี่ยวข้องกับการคำนวณปริมาณการใช้วัสดุ</span><span class="sxs-lookup"><span data-stu-id="bec80-104">This article provides information about various options that are related to the calculation of material consumption.</span></span> 
 
-ตัวเลือกต่อไปนี้ที่สัมพันธ์กับการคำนวณปริมาณการใช้วัสดุจะพร้อมใช้งานในแท็บ **ตั้งค่า** และ **ปริมาณการใช้ขั้นตอน** ในแท็บด่วน **รายละเอียดรายการ** ของหน้า **สูตรการผลิต**
+<span data-ttu-id="bec80-105">ตัวเลือกต่อไปนี้ที่สัมพันธ์กับการคำนวณปริมาณการใช้วัสดุจะพร้อมใช้งานในแท็บ **ตั้งค่า** และ **ปริมาณการใช้ขั้นตอน** ในแท็บด่วน **รายละเอียดรายการ** ของหน้า **สูตรการผลิต**</span><span class="sxs-lookup"><span data-stu-id="bec80-105">The following options that are related to the calculation of material consumption are available on the **Setup** and **Step consumption** tabs on the **Line details** FastTab of the **Bill of materials** page.</span></span>
 
-## <a name="variable-and-constant-consumption"></a>ปริมาณการใช้วัสดุแปรผันและคงที่
-ในฟิลด์ **ปริมาณการใช้คือ** คุณสามารถเลือกว่าควรคำนวณปริมาณการใช้วัสดุเป็นปริมาณคงหรือผันแปรปริมาณได้ เลือก **คงที่** หากปริมาณหรือปริมาตรคงที่ต้องถูกระบุสำหรับการผลิตโดยไม่คำนึงถึงปริมาณที่มีการผลิต เลือก **ตัวแปร**ซึ่งเป็นการตั้งค่าเริ่มต้น ถ้าจำนวนของวัตถุดิบที่ต้องการในสินค้าสำเร็จรูปเป็นสัดส่วนกับจำนวนสินค้าสำเร็จรูปที่มีการผลิต
+## <a name="variable-and-constant-consumption"></a><span data-ttu-id="bec80-106">ปริมาณการใช้วัสดุแปรผันและคงที่</span><span class="sxs-lookup"><span data-stu-id="bec80-106">Variable and constant consumption</span></span>
+<span data-ttu-id="bec80-107">ในฟิลด์ **ปริมาณการใช้คือ** คุณสามารถเลือกว่าควรคำนวณปริมาณการใช้วัสดุเป็นปริมาณคงหรือผันแปรปริมาณได้</span><span class="sxs-lookup"><span data-stu-id="bec80-107">In the **Consumption is** field, you can select whether consumption should be calculated as a constant quantity or a variable quantity.</span></span> <span data-ttu-id="bec80-108">เลือก **คงที่** หากปริมาณหรือปริมาตรคงที่ต้องถูกระบุสำหรับการผลิตโดยไม่คำนึงถึงปริมาณที่มีการผลิต</span><span class="sxs-lookup"><span data-stu-id="bec80-108">Select **Constant** if a fixed quantity or volume is required for the production, regardless of the quantity that is produced.</span></span> <span data-ttu-id="bec80-109">เลือก **ตัวแปร**ซึ่งเป็นการตั้งค่าเริ่มต้น ถ้าจำนวนของวัตถุดิบที่ต้องการในสินค้าสำเร็จรูปเป็นสัดส่วนกับจำนวนสินค้าสำเร็จรูปที่มีการผลิต</span><span class="sxs-lookup"><span data-stu-id="bec80-109">Select **Variable**, which is the default setting, if the required amount of material in the finished goods is proportional to the number of finished goods that are produced.</span></span>
 
-## <a name="calculating-consumption-from-a-formula"></a>การคำนวณปริมาณการใช้วัสดุจากสูตร
-ในฟิลด์ **สูตร** คุณสามารถตั้งค่าสูตรที่หลากหลายสำหรับการคำนวณปริมาณการใช้วัสดุตได้ ถ้าคุณใช้ค่าเริ่มต้น **มาตรฐาน** ปริมาณการใช้จะไม่ได้คำนวณมาจากสูตร สูตรต่อไปนี้ทำงานร่วมกับฟิลด์ **ความสูง****ความกว้าง****ความลึก****ความหนาแน่น** และ **ค่าคงที่**:
+## <a name="calculating-consumption-from-a-formula"></a><span data-ttu-id="bec80-110">การคำนวณปริมาณการใช้วัสดุจากสูตร</span><span class="sxs-lookup"><span data-stu-id="bec80-110">Calculating consumption from a formula</span></span>
+<span data-ttu-id="bec80-111">ในฟิลด์ **สูตร** คุณสามารถตั้งค่าสูตรที่หลากหลายสำหรับการคำนวณปริมาณการใช้วัสดุตได้</span><span class="sxs-lookup"><span data-stu-id="bec80-111">In the **Formula** field, you can set up various formulas for calculating material consumption.</span></span> <span data-ttu-id="bec80-112">ถ้าคุณใช้ค่าเริ่มต้น **มาตรฐาน** ปริมาณการใช้จะไม่ได้คำนวณมาจากสูตร</span><span class="sxs-lookup"><span data-stu-id="bec80-112">If you use the default value, **Standard**, the consumption isn't calculated from a formula.</span></span> <span data-ttu-id="bec80-113">สูตรต่อไปนี้ทำงานร่วมกับฟิลด์ **ความสูง****ความกว้าง****ความลึก****ความหนาแน่น** และ **ค่าคงที่**:</span><span class="sxs-lookup"><span data-stu-id="bec80-113">The following formulas work together with the **Height**, **Width**, **Depth**, **Density**, and **Constant** fields:</span></span>
 
--   ความสูง \* ค่าคงที่
--   ความสูง \* ความกว้าง \* ค่าคงที่
--   ความสูง \* ความกว้าง \* ความลึก \* ค่าคงที่
--   (ความสูง \* ความกว้าง \* ความลึก / ความหนาแน่น) \* ค่าคงที่
+-   <span data-ttu-id="bec80-114">ความสูง \* ค่าคงที่</span><span class="sxs-lookup"><span data-stu-id="bec80-114">Height \* Constant</span></span>
+-   <span data-ttu-id="bec80-115">ความสูง \* ความกว้าง \* ค่าคงที่</span><span class="sxs-lookup"><span data-stu-id="bec80-115">Height \* Width \* Constant</span></span>
+-   <span data-ttu-id="bec80-116">ความสูง \* ความกว้าง \* ความลึก \* ค่าคงที่</span><span class="sxs-lookup"><span data-stu-id="bec80-116">Height \* Width \* Depth \* Constant</span></span>
+-   <span data-ttu-id="bec80-117">(ความสูง \* ความกว้าง \* ความลึก / ความหนาแน่น) \* ค่าคงที่</span><span class="sxs-lookup"><span data-stu-id="bec80-117">(Height \* Width \* Depth / Density) \* Constant</span></span>
 
-## <a name="rounding-up-and-multiples"></a>การปัดเศษขึ้นและการคูณ
-ทั้งฟิลด์ **การปัดเศษขึ้น** และ **การคูณ** จะช่วยให้คุณสามารถปัดเศษค่าปริมาณการใช้วัสดุได้ ตัวอย่างเช่น คุณสามารถปัดเศษค่าตามหน่วยจัดการวัสดุที่วัตถุดิบมีการเบิกสินค้าสำหรับการผลิต ตัวเลือกต่อไปนี้พร้อมใช้งานในฟิลด์ **การปัดเศษขึ้น**: **ปริมาณ** **การวัด**และ **ปริมาณการใช้วัสดุ**
+## <a name="rounding-up-and-multiples"></a><span data-ttu-id="bec80-118">การปัดเศษขึ้นและการคูณ</span><span class="sxs-lookup"><span data-stu-id="bec80-118">Rounding up and multiples</span></span>
+<span data-ttu-id="bec80-119">ทั้งฟิลด์ **การปัดเศษขึ้น** และ **การคูณ** จะช่วยให้คุณสามารถปัดเศษค่าปริมาณการใช้วัสดุได้</span><span class="sxs-lookup"><span data-stu-id="bec80-119">Together, the **Rounding up** and **Multiples** fields let you round up the material consumption value.</span></span> <span data-ttu-id="bec80-120">ตัวอย่างเช่น คุณสามารถปัดเศษค่าตามหน่วยจัดการวัสดุที่วัตถุดิบมีการเบิกสินค้าสำหรับการผลิต</span><span class="sxs-lookup"><span data-stu-id="bec80-120">For example, you can round up the value according to the handling unit in which the raw material is picked for production.</span></span> <span data-ttu-id="bec80-121">ตัวเลือกต่อไปนี้พร้อมใช้งานในฟิลด์ **การปัดเศษขึ้น**: **ปริมาณ** **การวัด**และ **ปริมาณการใช้วัสดุ**</span><span class="sxs-lookup"><span data-stu-id="bec80-121">The following options are available in the **Rounding up** field: **Quantity**, **Measurement**, and **Consumption**.</span></span>
 
-### <a name="quantity"></a>ปริมาณ
+### <a name="quantity"></a><span data-ttu-id="bec80-122">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="bec80-122">Quantity</span></span>
 
-ถ้าคุณเลือก **ปริมาณ** ให้เป็นกลไกการปัดเศษ ปริมาณต้องเป็นตัวคูณของปริมาณที่ระบุ ตัวอย่างเช่น ถ้าจำเป็นต้องมีตัวเลขจำนวนเต็ม ให้เลือก **1** ในฟิลด์ **การคูณ** จากนั้นหมายเลขจะถูกปัดเศษขึ้นเป็นปริมาณที่สามารถหารด้วย 1 ลงตัว
+<span data-ttu-id="bec80-123">ถ้าคุณเลือก **ปริมาณ** ให้เป็นกลไกการปัดเศษ ปริมาณต้องเป็นตัวคูณของปริมาณที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="bec80-123">If you select **Quantity** as the rounding-up mechanism, the quantity must be a multiple of the specified quantity.</span></span> <span data-ttu-id="bec80-124">ตัวอย่างเช่น ถ้าจำเป็นต้องมีตัวเลขจำนวนเต็ม ให้เลือก **1** ในฟิลด์ **การคูณ**</span><span class="sxs-lookup"><span data-stu-id="bec80-124">For example, if whole numbers are required, select **1** in the **Multiples** field.</span></span> <span data-ttu-id="bec80-125">จากนั้นหมายเลขจะถูกปัดเศษขึ้นเป็นปริมาณที่สามารถหารด้วย 1 ลงตัว</span><span class="sxs-lookup"><span data-stu-id="bec80-125">Numbers are then rounded up to a quantity that is divisible by 1.</span></span>
 
-### <a name="measurement"></a>การวัด
+### <a name="measurement"></a><span data-ttu-id="bec80-126">การวัด</span><span class="sxs-lookup"><span data-stu-id="bec80-126">Measurement</span></span>
 
-โดยทั่วไป คุณเลือก **การวัด** ให้เป็นกลไกการปัดเศษขึ้นเมื่อวัตถุดิบอยู่ในมิติเฉพาะ ตัวอย่างเช่น ท่อโลหะยาว 2 เมตรจำนวน 1 ชิ้นที่ต้องใช้สำหรับสินค้าสำเร็จรูป และท่อโลหะถูกจัดเก็บในความยาวที่ 4.5 เมตร ในกรณีนี้ กลไกการปัดเศษ **การวัด** สามารถใช้เพื่อคำนวณจำนวนท่อโลหะที่จำเป็นต่อการผลิตจำนวนชิ้นที่ต้องการของสินค้าสำเร็จรูปได้ สำหรับตัวอย่างนี้ ฟิลด์ **สูตร** ถูกตั้งค่าเป็น **ความสูง \* ค่าคงที่** ฟิลด์ **ความสูง** ถูกตั้งค่าเป็น **2** เพื่อระบุความยาวของท่อที่จำเป็นสำหรับสินค้าสำเร็จรูป ฟิลด์ **การคูณ** ถูกกำหนดเป็น **4.5** เพื่อบ่งชี้ว่ามีการเบิกท่อที่มีความยาว 4.5 เมตร นี่คือการคำนวณ:
+<span data-ttu-id="bec80-127">โดยทั่วไป คุณเลือก **การวัด** ให้เป็นกลไกการปัดเศษขึ้นเมื่อวัตถุดิบอยู่ในมิติเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="bec80-127">Typically, you select **Measurement** as the rounding-up mechanism when the raw material comes in specific dimensions.</span></span> <span data-ttu-id="bec80-128">ตัวอย่างเช่น ท่อโลหะยาว 2 เมตรจำนวน 1 ชิ้นที่ต้องใช้สำหรับสินค้าสำเร็จรูป และท่อโลหะถูกจัดเก็บในความยาวที่ 4.5 เมตร</span><span class="sxs-lookup"><span data-stu-id="bec80-128">For example, a piece of 2-meter metal tube is required for a finished good, and the metal tube is stored in 4.5-meter lengths.</span></span> <span data-ttu-id="bec80-129">ในกรณีนี้ กลไกการปัดเศษ **การวัด** สามารถใช้เพื่อคำนวณจำนวนท่อโลหะที่จำเป็นต่อการผลิตจำนวนชิ้นที่ต้องการของสินค้าสำเร็จรูปได้</span><span class="sxs-lookup"><span data-stu-id="bec80-129">In this case, the **Measurement** rounding-up mechanism can be used to calculate how many metal tubes are required to produce a specific number of pieces of the finished good.</span></span> <span data-ttu-id="bec80-130">สำหรับตัวอย่างนี้ ฟิลด์ **สูตร** ถูกตั้งค่าเป็น **ความสูง \* ค่าคงที่**</span><span class="sxs-lookup"><span data-stu-id="bec80-130">For this example, the **Formula** field is set to **Height \* Constant**.</span></span> <span data-ttu-id="bec80-131">ฟิลด์ **ความสูง** ถูกตั้งค่าเป็น **2** เพื่อระบุความยาวของท่อที่จำเป็นสำหรับสินค้าสำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="bec80-131">The **Height** field is set to **2** to indicate the length of the tube that is required for the finished good.</span></span> <span data-ttu-id="bec80-132">ฟิลด์ **การคูณ** ถูกกำหนดเป็น **4.5** เพื่อบ่งชี้ว่ามีการเบิกท่อที่มีความยาว 4.5 เมตร</span><span class="sxs-lookup"><span data-stu-id="bec80-132">The **Multiple** field is set to **4.5** to indicate that the tube is picked in lengths of 4.5 meters.</span></span> <span data-ttu-id="bec80-133">นี่คือการคำนวณ:</span><span class="sxs-lookup"><span data-stu-id="bec80-133">Here is the calculation:</span></span>
 
-1.  จำนวนเของการคูณที่จำเป็นสำหรับสินค้าสำเร็จรูป 10 ชิ้น: 10 ÷ 2 = 5 ชิ้น
-2.  ปริมาณการใช้วัสดุรวม: 4.5 × 5 = 22.5 เมตรของท่อโลหะ
+1.  <span data-ttu-id="bec80-134">จำนวนเของการคูณที่จำเป็นสำหรับสินค้าสำเร็จรูป 10 ชิ้น: 10 ÷ 2 = 5 ชิ้น</span><span class="sxs-lookup"><span data-stu-id="bec80-134">Number of multiples that are required for 10 pieces of the finished good: 10 ÷ 2 = 5 pieces</span></span>
+2.  <span data-ttu-id="bec80-135">ปริมาณการใช้วัสดุรวม: 4.5 × 5 = 22.5 เมตรของท่อโลหะ</span><span class="sxs-lookup"><span data-stu-id="bec80-135">Total consumption:  4.5 × 5 = 22.5 meters of metal tube</span></span>
 
-มีการสันนิษฐานว่า จะสูญเสียท่อยาว 0.5 เมตรสำหรับการใช้ท่อทุกๆห้าชิ้น
+<span data-ttu-id="bec80-136">มีการสันนิษฐานว่า จะสูญเสียท่อยาว 0.5 เมตรสำหรับการใช้ท่อทุกๆห้าชิ้น</span><span class="sxs-lookup"><span data-stu-id="bec80-136">It's assumed that 0.5 meter of tube is scrapped for every five pieces of tube that are consumed.</span></span>
 
-### <a name="consumption"></a>ปริมาณการใช้
+### <a name="consumption"></a><span data-ttu-id="bec80-137">ปริมาณการใช้</span><span class="sxs-lookup"><span data-stu-id="bec80-137">Consumption</span></span>
 
-โดยทั่วไป คุณเลือก**ปริมาณการใช้วัสดุ** ให้เป็นกลไกการปัดเศษขึ้นเมื่อต้องมีการเบิกวัตถุดิบในปริมาณทั้งหมดของหน่วยจัดการวัสดุที่เฉพาะเจาะจงของผลิตภัณฑ์ ตัวอย่างเช่น สี 2 ควอร์ตจะถูกใช้ในการผลิตสินค้าสำเร็จรูปหนึ่งชิ้น และมีการเบิกสีกระป๋อง 25 ควอร์ต ในกรณีนี้ กลไกการปัดเศษ **ปริมาณการใช้วัสดุ** สามารถใช้เพื่อปัดเศษปริมาณการใช้วัสดุเป็นจำนวนเต็มของกระป๋อง 25 ควอร์ตได้ นี่เป็นการคำนวณจำนวนสีที่ต้องการ ถ้าต้องมีการผลิตสินค้าสำเร็จรูปจำนวน 180 ชิ้น:
+<span data-ttu-id="bec80-138">โดยทั่วไป คุณเลือก**ปริมาณการใช้วัสดุ** ให้เป็นกลไกการปัดเศษขึ้นเมื่อต้องมีการเบิกวัตถุดิบในปริมาณทั้งหมดของหน่วยจัดการวัสดุที่เฉพาะเจาะจงของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="bec80-138">Typically, you select **Consumption** as the rounding-up mechanism when raw material must be picked in whole quantities of a specific handling unit of the product.</span></span> <span data-ttu-id="bec80-139">ตัวอย่างเช่น สี 2 ควอร์ตจะถูกใช้ในการผลิตสินค้าสำเร็จรูปหนึ่งชิ้น และมีการเบิกสีกระป๋อง 25 ควอร์ต</span><span class="sxs-lookup"><span data-stu-id="bec80-139">For example, 2 quarts of paint are used to produce one piece of a finished good, and the paint is picked in 25-quart cans.</span></span> <span data-ttu-id="bec80-140">ในกรณีนี้ กลไกการปัดเศษ **ปริมาณการใช้วัสดุ** สามารถใช้เพื่อปัดเศษปริมาณการใช้วัสดุเป็นจำนวนเต็มของกระป๋อง 25 ควอร์ตได้</span><span class="sxs-lookup"><span data-stu-id="bec80-140">In this case, the **Consumption** rounding-up mechanism can be used to round up consumption to whole numbers of 25-quart cans.</span></span> <span data-ttu-id="bec80-141">นี่เป็นการคำนวณจำนวนสีที่ต้องการ ถ้าต้องมีการผลิตสินค้าสำเร็จรูปจำนวน 180 ชิ้น:</span><span class="sxs-lookup"><span data-stu-id="bec80-141">Here is the calculation for the amount of paint that is required if 180 pieces of the finished good must be produced:</span></span>
 
-1.  สีที่ต้องการ ซึ่งไม่รวมของเสีย: 180 x 2 = 360 ควอร์ต
-2.  จำนวนของกระป๋อง: 360 ÷ 25 = 14.4 ซึ่งถูกปัดเศษขึ้นเป็น 15
-3.  สีที่ต้องการ ซึ่งรวมของเสีย: 15 x 25 = 375 ควอร์ต
+1.  <span data-ttu-id="bec80-142">สีที่ต้องการ ซึ่งไม่รวมของเสีย: 180 x 2 = 360 ควอร์ต</span><span class="sxs-lookup"><span data-stu-id="bec80-142">Paint that is required, excluding scrap: 180 × 2 = 360 quarts</span></span>
+2.  <span data-ttu-id="bec80-143">จำนวนของกระป๋อง: 360 ÷ 25 = 14.4 ซึ่งถูกปัดเศษขึ้นเป็น 15</span><span class="sxs-lookup"><span data-stu-id="bec80-143">Number of cans: 360 ÷ 25 = 14.4, which is rounded up to 15</span></span>
+3.  <span data-ttu-id="bec80-144">สีที่ต้องการ ซึ่งรวมของเสีย: 15 x 25 = 375 ควอร์ต</span><span class="sxs-lookup"><span data-stu-id="bec80-144">Paint that is required, including scrap: 15 × 25 = 375 quarts</span></span>
 
-## <a name="step-consumption"></a>ปริมาณการใช้ขั้นตอน
-ปริมาณการใช้ขั้นตอนถูกใช้เพื่อคำนวณปริมาณการใช้วัสดุคงที่ในช่วงของปริมาณ ถ้าคุณเลือก **ปริมาณการใช้ขั้นตอน** ในฟิลด์ **สูตร** ในแท็บ **ตั้งค่า** คุณจะสามารถเพิ่มข้อมูลเกี่ยวกับขั้นตอนต่างๆในแท็บ **ปริมาณการใช้ขั้นตอน** ได้ ปริมาณที่ใช้แบบคงที่สามารถถูกตั้งค่าในช่วงของปริมาณที่มีการผลิต ตัวอย่างเช่น ปริมาณการใช้ขั้นตอนถูกตั้งค่าดังที่แสดงในตารางต่อไปนี้
+## <a name="step-consumption"></a><span data-ttu-id="bec80-145">ปริมาณการใช้ขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="bec80-145">Step consumption</span></span>
+<span data-ttu-id="bec80-146">ปริมาณการใช้ขั้นตอนถูกใช้เพื่อคำนวณปริมาณการใช้วัสดุคงที่ในช่วงของปริมาณ</span><span class="sxs-lookup"><span data-stu-id="bec80-146">Step consumption is used to calculate constant consumption in quantity intervals.</span></span> <span data-ttu-id="bec80-147">ถ้าคุณเลือก **ปริมาณการใช้ขั้นตอน** ในฟิลด์ **สูตร** ในแท็บ **ตั้งค่า** คุณจะสามารถเพิ่มข้อมูลเกี่ยวกับขั้นตอนต่างๆในแท็บ **ปริมาณการใช้ขั้นตอน** ได้</span><span class="sxs-lookup"><span data-stu-id="bec80-147">If you select **Step consumption** in the **Formula** field on the **Setup** tab, you can add information about the steps on the **Step consumption** tab.</span></span> <span data-ttu-id="bec80-148">ปริมาณที่ใช้แบบคงที่สามารถถูกตั้งค่าในช่วงของปริมาณที่มีการผลิต</span><span class="sxs-lookup"><span data-stu-id="bec80-148">The fixed consumed quantity can be set up in intervals of the produced quantity.</span></span> <span data-ttu-id="bec80-149">ตัวอย่างเช่น ปริมาณการใช้ขั้นตอนถูกตั้งค่าดังที่แสดงในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="bec80-149">For example, step consumption is set up as shown in the following table.</span></span>
 
-| จากชุด | ปริมาณ |
+| <span data-ttu-id="bec80-150">จากชุด</span><span class="sxs-lookup"><span data-stu-id="bec80-150">From series</span></span> | <span data-ttu-id="bec80-151">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="bec80-151">Quantity</span></span> |
 |-------------|----------|
-| 0.00        | 10.0000  |
-| 100.00      | 20.0000  |
-| 200.00      | 40.0000  |
+| <span data-ttu-id="bec80-152">0.00</span><span class="sxs-lookup"><span data-stu-id="bec80-152">0.00</span></span>        | <span data-ttu-id="bec80-153">10.0000</span><span class="sxs-lookup"><span data-stu-id="bec80-153">10.0000</span></span>  |
+| <span data-ttu-id="bec80-154">100.00</span><span class="sxs-lookup"><span data-stu-id="bec80-154">100.00</span></span>      | <span data-ttu-id="bec80-155">20.0000</span><span class="sxs-lookup"><span data-stu-id="bec80-155">20.0000</span></span>  |
+| <span data-ttu-id="bec80-156">200.00</span><span class="sxs-lookup"><span data-stu-id="bec80-156">200.00</span></span>      | <span data-ttu-id="bec80-157">40.0000</span><span class="sxs-lookup"><span data-stu-id="bec80-157">40.0000</span></span>  |
 
-ปริมาณของสูตรการผลิต (BOM) คือ 1 และปริมาณการผลิตคือ 110 สูตรสำหรับปริมาณการใช้คือ จากชุด (ปริมาณ) = ปริมาณการใช้ เนื่องจากปริมาณการผลิตคือ 110 จึงอยู่ใน "จาก 100 ชุด" ดังนั้น ปริมาณคือ 20
+<span data-ttu-id="bec80-158">ปริมาณของสูตรการผลิต (BOM) คือ 1 และปริมาณการผลิตคือ 110</span><span class="sxs-lookup"><span data-stu-id="bec80-158">The bill of materials (BOM) quantity is 1, and the production quantity is 110.</span></span> <span data-ttu-id="bec80-159">สูตรสำหรับปริมาณการใช้คือ จากชุด (ปริมาณ) = ปริมาณการใช้</span><span class="sxs-lookup"><span data-stu-id="bec80-159">The formula for the consumption is From series (Quantity) = Consumption.</span></span> <span data-ttu-id="bec80-160">เนื่องจากปริมาณการผลิตคือ 110 จึงอยู่ใน "จาก 100 ชุด"</span><span class="sxs-lookup"><span data-stu-id="bec80-160">Because the production quantity is 110, it falls into the "From 100 series."</span></span> <span data-ttu-id="bec80-161">ดังนั้น ปริมาณคือ 20</span><span class="sxs-lookup"><span data-stu-id="bec80-161">Therefore, the quantity is 20.</span></span>
 
 
 

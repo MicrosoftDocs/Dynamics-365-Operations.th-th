@@ -18,38 +18,38 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df97cad657164866b83fa0ca8f10091317f92a88
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 3f5ed28400f333776ce4a5de47ce52aed49094e3
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="accounting-source-explorer"></a>โปรแกรมตรวจดูบัญชีต้นทาง
+# <a name="accounting-source-explorer"></a><span data-ttu-id="f82b6-103">โปรแกรมตรวจดูบัญชีต้นทาง</span><span class="sxs-lookup"><span data-stu-id="f82b6-103">Accounting source explorer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับโปรแกรมตรวจดูบัญชีต้นทาง ซึ่งคุณสามารถใช้สำหรับการวิเคราะห์แหล่งข้อมูลเบื้องหลังรายการบัญชีแยกประเภททั่วไปโดยละเอียด
+<span data-ttu-id="f82b6-104">บทความนี้แสดงข้อมูลเกี่ยวกับโปรแกรมตรวจดูบัญชีต้นทาง ซึ่งคุณสามารถใช้สำหรับการวิเคราะห์แหล่งข้อมูลเบื้องหลังรายการบัญชีแยกประเภททั่วไปโดยละเอียด</span><span class="sxs-lookup"><span data-stu-id="f82b6-104">This article provides information about Accounting source explorer, which you can use for detailed analysis of the source information behind general ledger accounting entries.</span></span>
 
-โปรแกรมตรวจดูต้นทางบัญชีคือ หน้าใหม่ที่แสดงข้อมูลแหล่งที่มา คุณสามารถใช้โปรแกรมตรวจดูบัญชีต้นทางเป็นเครื่องมือแบบสแตนด์อโลน หรือเพื่อวิเคราะห์รายละเอียดหลังรายการบัญชีแยกประเภททั่วไป ตัวอย่างเช่น คุณสามารถใช้โปรแกรมตรวจดูต้นทางบัญชีในการเรียกข้อมูลแหล่งที่มาของรายละเอียดมากที่สุด สำหรับยอดดุลในงบทดลอง หรือสำหรับธุรกรรมใบสำคัญ คุณสามารถใช้การส่งออกไปยังคุณลักษณะ MS Excel ไปยังสไลซ์เพิ่มเติม และไดซ์ข้อมูลใน Microsoft Excel (ตัวอย่างเช่น ใน PivotTable หรือ ในรายงาน PivotTable)
+<span data-ttu-id="f82b6-105">โปรแกรมตรวจดูต้นทางบัญชีคือ หน้าใหม่ที่แสดงข้อมูลแหล่งที่มา</span><span class="sxs-lookup"><span data-stu-id="f82b6-105">Accounting source explorer is a new page that shows source information.</span></span> <span data-ttu-id="f82b6-106">คุณสามารถใช้โปรแกรมตรวจดูบัญชีต้นทางเป็นเครื่องมือแบบสแตนด์อโลน หรือเพื่อวิเคราะห์รายละเอียดหลังรายการบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="f82b6-106">You can use Accounting source explorer either as a stand-alone tool or to analyze the details behind general ledger accounting entries.</span></span> <span data-ttu-id="f82b6-107">ตัวอย่างเช่น คุณสามารถใช้โปรแกรมตรวจดูต้นทางบัญชีในการเรียกข้อมูลแหล่งที่มาของรายละเอียดมากที่สุด สำหรับยอดดุลในงบทดลอง หรือสำหรับธุรกรรมใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="f82b6-107">For example, you can use Accounting source explorer to get the most detailed source information for a balance in Trail balance or for a voucher transaction.</span></span> <span data-ttu-id="f82b6-108">คุณสามารถใช้การส่งออกไปยังคุณลักษณะ MS Excel ไปยังสไลซ์เพิ่มเติม และไดซ์ข้อมูลใน Microsoft Excel (ตัวอย่างเช่น ใน PivotTable หรือ ในรายงาน PivotTable)</span><span class="sxs-lookup"><span data-stu-id="f82b6-108">You can then use the Export to MS Excel feature to further slice and dice the information in Microsoft Excel (for example, in a PivotTable or on a PivotTable report).</span></span>
 
-โปรแกรมตรวจดูต้นทางบัญชีแสดงเช่นเดียวกันกับยอดเงินรวมต่อบัญชีแยกประเภทเสมอขณะรายการบัญชีแยกประเภททั่วไปแสดงอยู่ (ตัวอย่างเช่น ในงบทดลอง) ดังเช่นในงบทดลอง คุณสามารถแสดงเซ็กเมนต์ในคอลัมน์ที่แยกต่างหาก เพียงแค่เลือกเซ็ตมิติทางการเงินที่เหมาะสม 
+<span data-ttu-id="f82b6-109">โปรแกรมตรวจดูต้นทางบัญชีแสดงเช่นเดียวกันกับยอดเงินรวมต่อบัญชีแยกประเภทเสมอขณะรายการบัญชีแยกประเภททั่วไปแสดงอยู่ (ตัวอย่างเช่น ในงบทดลอง)</span><span class="sxs-lookup"><span data-stu-id="f82b6-109">Accounting source explorer always shows the same total amount per ledger account as General ledger shows (for example, in Trial balance).</span></span> <span data-ttu-id="f82b6-110">ดังเช่นในงบทดลอง คุณสามารถแสดงเซ็กเมนต์ในคอลัมน์ที่แยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="f82b6-110">As in Trial balance, you can display segments in separate columns.</span></span> <span data-ttu-id="f82b6-111">เพียงแค่เลือกเซ็ตมิติทางการเงินที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="f82b6-111">Just select the appropriate financial dimension set.</span></span> 
 
-คุณสามารถใช้พารามิเตอร์เพื่อกำหนดช่วงวันที่สำหรับการวิเคราะห์ ฟังก์ชันนี้คล้ายกับฟังก์ชันในงบทดลอง
+<span data-ttu-id="f82b6-112">คุณสามารถใช้พารามิเตอร์เพื่อกำหนดช่วงวันที่สำหรับการวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="f82b6-112">You can use parameters to define a date interval for the analysis.</span></span> <span data-ttu-id="f82b6-113">ฟังก์ชันนี้คล้ายกับฟังก์ชันในงบทดลอง</span><span class="sxs-lookup"><span data-stu-id="f82b6-113">This functionality also resembles the functionality in Trial balance.</span></span>
 
-สำหรับเอกสารทั้งหมดที่ใช้ในกรอบงานเอกสารต้นทาง โปรแกรมตรวจดูบัญชีต้นทางแสดงข้อมูลเพิ่มเติม ตามการกระจายการลงบัญชี และ ถ้ามี โครงการกระจายการลงบัญชี ข้อมูลนี้รวมถึงชนิดยอดเงิน โครงการ กิจกรรม ประเภท และลักษณะของรายการ ต่อไปนี้เป็นตัวอย่างของการวิเคราะห์บางประการที่คุณสามารถทำได้:
+<span data-ttu-id="f82b6-114">สำหรับเอกสารทั้งหมดที่ใช้ในกรอบงานเอกสารต้นทาง โปรแกรมตรวจดูบัญชีต้นทางแสดงข้อมูลเพิ่มเติม ตามการกระจายการลงบัญชี และ ถ้ามี โครงการกระจายการลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="f82b6-114">For all documents that use the source document framework, Accounting source explorer shows additional information, based on accounting distributions and, if applicable, project accounting distributions.</span></span> <span data-ttu-id="f82b6-115">ข้อมูลนี้รวมถึงชนิดยอดเงิน โครงการ กิจกรรม ประเภท และลักษณะของรายการ</span><span class="sxs-lookup"><span data-stu-id="f82b6-115">This information includes the monetary amount type, project, activity, category, and line property.</span></span> <span data-ttu-id="f82b6-116">ต่อไปนี้เป็นตัวอย่างของการวิเคราะห์บางประการที่คุณสามารถทำได้:</span><span class="sxs-lookup"><span data-stu-id="f82b6-116">Here are some examples of the analysis that you can do:</span></span>
 
--   ผลต่างระหว่างใบสั่งซื้อและใบแจ้งหนี้ของผู้จัดจำหน่าย เนื่องจากผลต่างของแต่ละรายการถูกแสดง ด้วยชนิดยอดเงิน เช่นผลต่างค่าธรรมเนียม
--   เรียกเก็บเงินได้และชั่วโมงที่ไม่ได้เรียกเก็บเงินและค่าใช้จ่ายสำหรับโครงการแต่ละโครงการ หน่วยธุรกิจ และบัญชีหลัก
+-   <span data-ttu-id="f82b6-117">ผลต่างระหว่างใบสั่งซื้อและใบแจ้งหนี้ของผู้จัดจำหน่าย เนื่องจากผลต่างของแต่ละรายการถูกแสดง ด้วยชนิดยอดเงิน เช่นผลต่างค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="f82b6-117">Variances between purchase orders and vendor invoices, because each variance is represented by a monetary amount type, such as charge variance</span></span>
+-   <span data-ttu-id="f82b6-118">เรียกเก็บเงินได้และชั่วโมงที่ไม่ได้เรียกเก็บเงินและค่าใช้จ่ายสำหรับโครงการแต่ละโครงการ หน่วยธุรกิจ และบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="f82b6-118">Billable versus non-billable hours and expenses per project, business unit, and main account</span></span>
 
-สำหรับเอกสารต้นทางที่ใช้แนวคิดข้อมูลเฉพาะตัวอ้างอิงของเอกสารต้นทาง โปรแกรมตรวจดูบัญชีต้นทาง จะแสดงรายละเอียดเพิ่มเติม เช่นลูกค้า ผู้จัดจำหน่าย ผู้ปฏิบัติงาน ผลิตภัณฑ์ ปริมาณ ข้อความหน่วย และคำอธิบายต่างๆ ต่อไปนี้เป็นตัวอย่างของการวิเคราะห์บางประการที่คุณสามารถทำได้:
+<span data-ttu-id="f82b6-119">สำหรับเอกสารต้นทางที่ใช้แนวคิดข้อมูลเฉพาะตัวอ้างอิงของเอกสารต้นทาง โปรแกรมตรวจดูบัญชีต้นทาง จะแสดงรายละเอียดเพิ่มเติม เช่นลูกค้า ผู้จัดจำหน่าย ผู้ปฏิบัติงาน ผลิตภัณฑ์ ปริมาณ ข้อความหน่วย และคำอธิบายต่างๆ</span><span class="sxs-lookup"><span data-stu-id="f82b6-119">For source documents that use the source document reference identities concept, Accounting source explorer shows even more details, such as the customer, vendor, worker, product, quantity, unit text, and descriptions.</span></span> <span data-ttu-id="f82b6-120">ต่อไปนี้เป็นตัวอย่างของการวิเคราะห์บางประการที่คุณสามารถทำได้:</span><span class="sxs-lookup"><span data-stu-id="f82b6-120">Here are some examples of the analysis that you can do:</span></span>
 
--   ค่าใช้จ่ายโรงแรมต่อหน่วยธุรกิจและแบรนด์ของโรงแรมสำหรับรอบระยะเวลาทางบัญชี ขึ้นกับรายงานค่าใช้จ่าย
--   ส่วนลดสำหรับแต่ละผู้จัดจำหน่าย สินค้า แผนก
+-   <span data-ttu-id="f82b6-121">ค่าใช้จ่ายโรงแรมต่อหน่วยธุรกิจและแบรนด์ของโรงแรมสำหรับรอบระยะเวลาทางบัญชี ขึ้นกับรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="f82b6-121">Hotel expenses per business unit and hotel brand for a fiscal period, based on expense reports</span></span>
+-   <span data-ttu-id="f82b6-122">ส่วนลดสำหรับแต่ละผู้จัดจำหน่าย สินค้า แผนก</span><span class="sxs-lookup"><span data-stu-id="f82b6-122">Discounts per vendor, product, department</span></span>
 
-สำหรับเอกสารเหล่านี้ คุณสามารถหาเส้นทางไปยังเอกสารต้นทางที่แท้จริงจากโปรแกรมตรวจดูต้นทางบัญชี
+<span data-ttu-id="f82b6-123">สำหรับเอกสารเหล่านี้ คุณสามารถหาเส้นทางไปยังเอกสารต้นทางที่แท้จริงจากโปรแกรมตรวจดูต้นทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="f82b6-123">For these documents, you can also navigate to the actual source document from Accounting source explorer.</span></span>
 
 
 

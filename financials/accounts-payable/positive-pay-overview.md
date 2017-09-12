@@ -18,35 +18,35 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7c60a7f9444913c5475d08f959944d463cfcbab0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5b88b940e7a590ff99b6ab8a99ce45d32dfe0505
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="positive-pay-overview"></a>ภาพรวมของ Positive pay
+# <a name="positive-pay-overview"></a><span data-ttu-id="526ae-103">ภาพรวมของ Positive pay</span><span class="sxs-lookup"><span data-stu-id="526ae-103">Positive pay overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับ positive pay ซึ่งถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคารได้ 
+<span data-ttu-id="526ae-104">บทความนี้แสดงข้อมูลเกี่ยวกับ positive pay ซึ่งถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคารได้</span><span class="sxs-lookup"><span data-stu-id="526ae-104">This article provides information about positive pay, which is used to generate an electronic list of checks that can be presented to a bank.</span></span> 
 
-Positive pay ถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคาร  ไฟล์ Positive pay สามารถช่วยธนาคารป้องกันการฉ้อโกงเช็ค  คุณตั้งค่า Positive pay เพื่อสร้างรายการอิเล็กทรอนิกส์ของเช็คทุกครั้งที่มีการพิมพ์เช็ค  แล้วจากนั้นเมื่อมีการนำเสนอเช็คให้กับธนาคาร ธนาคารจะเปรียบเทียบเช็คกับรายการเช็คที่คุณส่งไปก่อนหน้านี้  ถ้าเช็คตรงกับเช็คในรายการ ธนาคารจะเคลียร์เช็ค  ถ้าเช็คไม่ตรงกัน ธนาคารจะระงับเช็คไว้เพื่อตรวจสอบ
+<span data-ttu-id="526ae-105">Positive pay ถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคาร </span><span class="sxs-lookup"><span data-stu-id="526ae-105">Positive pay is used to generate an electronic list of checks that can be presented to a bank.</span></span> <span data-ttu-id="526ae-106">ไฟล์ Positive pay สามารถช่วยธนาคารป้องกันการฉ้อโกงเช็ค </span><span class="sxs-lookup"><span data-stu-id="526ae-106">Positive pay files can help banks prevent check fraud.</span></span> <span data-ttu-id="526ae-107">คุณตั้งค่า Positive pay เพื่อสร้างรายการอิเล็กทรอนิกส์ของเช็คทุกครั้งที่มีการพิมพ์เช็ค </span><span class="sxs-lookup"><span data-stu-id="526ae-107">You set up positive pay to generate an electronic list of checks every time that checks are printed.</span></span> <span data-ttu-id="526ae-108">แล้วจากนั้นเมื่อมีการนำเสนอเช็คให้กับธนาคาร ธนาคารจะเปรียบเทียบเช็คกับรายการเช็คที่คุณส่งไปก่อนหน้านี้ </span><span class="sxs-lookup"><span data-stu-id="526ae-108">Then, when a check is presented to the bank, the bank compares the check with the list of checks that you previously submitted.</span></span> <span data-ttu-id="526ae-109">ถ้าเช็คตรงกับเช็คในรายการ ธนาคารจะเคลียร์เช็ค </span><span class="sxs-lookup"><span data-stu-id="526ae-109">If the check matches a check in the list, the bank clears it.</span></span> <span data-ttu-id="526ae-110">ถ้าเช็คไม่ตรงกัน ธนาคารจะระงับเช็คไว้เพื่อตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="526ae-110">If the check doesn't match a check in the list, the bank holds it for review.</span></span>
 
-Positive pay ถูกเรียกอีกอย่างว่า SafePay  
+<span data-ttu-id="526ae-111">Positive pay ถูกเรียกอีกอย่างว่า SafePay </span><span class="sxs-lookup"><span data-stu-id="526ae-111">Positive pay is also known as SafePay.</span></span> 
 
-ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ Positive pay จะถูกดาวน์โหลดตามคำแนะนำในการดาวน์โหลดสำหรับเว็บเบราเซอร์  
+<span data-ttu-id="526ae-112">ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค </span><span class="sxs-lookup"><span data-stu-id="526ae-112">Positive pay files can contain sensitive information about payees and check amounts.</span></span> <span data-ttu-id="526ae-113">ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร </span><span class="sxs-lookup"><span data-stu-id="526ae-113">Therefore, make sure that you use appropriate security measures from the time that the files are generated until they are received by the bank.</span></span> <span data-ttu-id="526ae-114">ไฟล์ Positive pay จะถูกดาวน์โหลดตามคำแนะนำในการดาวน์โหลดสำหรับเว็บเบราเซอร์ </span><span class="sxs-lookup"><span data-stu-id="526ae-114">Positive pay files are downloaded according to the download instructions for the web browser.</span></span> 
 
-มีสร้างไฟล์ positive pay โดยการใช้เอนทิตีข้อมูล  ก่อนที่คุณสร้างไฟล์ Positive pay คุณต้องตั้งค่ารูปแบบของการแปลงสำหรับ XML ที่แปลข้อมูลเป็นรูปแบบที่ธนาคารสามารถใช้ได้  
+<span data-ttu-id="526ae-115">มีสร้างไฟล์ positive pay โดยการใช้เอนทิตีข้อมูล </span><span class="sxs-lookup"><span data-stu-id="526ae-115">Positive pay files are created by using data entities.</span></span> <span data-ttu-id="526ae-116">ก่อนที่คุณสร้างไฟล์ Positive pay คุณต้องตั้งค่ารูปแบบของการแปลงสำหรับ XML ที่แปลข้อมูลเป็นรูปแบบที่ธนาคารสามารถใช้ได้ </span><span class="sxs-lookup"><span data-stu-id="526ae-116">Before you generate a positive pay file, you must set up the transformation formats for the XML that translates the data into a format that the bank can consume.</span></span> 
 
-สำหรับแต่ละบัญชีธนาคารที่คุณต้องการสร้างข้อมูล Positive pay ให้ คุณต้องกำหนดรูปแบบ Positive pay  หลังจากที่คุณได้สร้างการชำระเงิน คุณสามารถสร้างไฟ Positive pay สำหรับนิติบุคคลเดี่ยวและบัญชีธนาคารเดี่ยวได้  อีกทางหนึ่งคือ คุณสามารถสร้างไฟล์ Positive pay สำหรับหลายนิติบุคคลและหลายบัญชีธนาคารในเวลาเดียวกันได้  
+<span data-ttu-id="526ae-117">สำหรับแต่ละบัญชีธนาคารที่คุณต้องการสร้างข้อมูล Positive pay ให้ คุณต้องกำหนดรูปแบบ Positive pay </span><span class="sxs-lookup"><span data-stu-id="526ae-117">For each bank account that you want to generate positive pay information for, you must assign the positive pay format.</span></span> <span data-ttu-id="526ae-118">หลังจากที่คุณได้สร้างการชำระเงิน คุณสามารถสร้างไฟ Positive pay สำหรับนิติบุคคลเดี่ยวและบัญชีธนาคารเดี่ยวได้ </span><span class="sxs-lookup"><span data-stu-id="526ae-118">After you generate payments, you can generate a positive pay file for a single legal entity and a single bank account.</span></span> <span data-ttu-id="526ae-119">อีกทางหนึ่งคือ คุณสามารถสร้างไฟล์ Positive pay สำหรับหลายนิติบุคคลและหลายบัญชีธนาคารในเวลาเดียวกันได้ </span><span class="sxs-lookup"><span data-stu-id="526ae-119">Alternatively, you can generate positive pay files for multiple legal entities and bank accounts at the same time.</span></span> 
 
-หลังจากที่เช็คที่ถูกรายการในไฟล์ positive pay ได้ถูกชำระ คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ  คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ จากนั้นคุณสามารถยืนยันไฟ Positive pay ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้ 
+<span data-ttu-id="526ae-120">หลังจากที่เช็คที่ถูกรายการในไฟล์ positive pay ได้ถูกชำระ คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ </span><span class="sxs-lookup"><span data-stu-id="526ae-120">After the checks that are listed in a positive pay file have been paid, you receive a confirmation number from your bank.</span></span> <span data-ttu-id="526ae-121">คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ จากนั้นคุณสามารถยืนยันไฟ Positive pay ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้</span><span class="sxs-lookup"><span data-stu-id="526ae-121">You can then confirm the positive pay file in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-ถ้าคุณต้องเปลี่ยนไฟล์ positive pay คุณสามารถเรียกคืนได้  จากนั้นสำหรับเช็คแต่ละรายการในไฟล์ Positive pay ฟิลด์ที่บ่งชี้ว่าเช็คได้ถูกรวมอยู่ในไฟล์ Positive pay หรือไม่ จะถูกรีเซ็ต
+<span data-ttu-id="526ae-122">ถ้าคุณต้องเปลี่ยนไฟล์ positive pay คุณสามารถเรียกคืนได้ </span><span class="sxs-lookup"><span data-stu-id="526ae-122">If you must change a positive pay file, you can recall it.</span></span> <span data-ttu-id="526ae-123">จากนั้นสำหรับเช็คแต่ละรายการในไฟล์ Positive pay ฟิลด์ที่บ่งชี้ว่าเช็คได้ถูกรวมอยู่ในไฟล์ Positive pay หรือไม่ จะถูกรีเซ็ต</span><span class="sxs-lookup"><span data-stu-id="526ae-123">Then, for each check in the positive pay file, the field that indicates whether that check has been included in a positive pay file is reset.</span></span>
 
-สำหรับข้อมูลเพิ่มเติม ดู [ตั้งค่าและสร้างไฟล์ Positive Pay](set-up-generate-positive-pay-files.md)
+<span data-ttu-id="526ae-124">สำหรับข้อมูลเพิ่มเติม ดู [ตั้งค่าและสร้างไฟล์ Positive Pay](set-up-generate-positive-pay-files.md)</span><span class="sxs-lookup"><span data-stu-id="526ae-124">For more information, see [Set up and generate positive pay files](set-up-generate-positive-pay-files.md).</span></span>
 
 
 

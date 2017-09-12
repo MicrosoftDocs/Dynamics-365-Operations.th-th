@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="bc533-105">การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="bc533-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-องค์กรที่มีนิติบุคคลหลายรายสามารถสร้างและจัดการการชำระเงินโดยใช้นิติบุคคลเดียวซึ่งจัดการการชำระเงินทั้งหมด ดังนั้น การชำระเงินเดียวกันไม่จำเป็นต้องป้อนในนิติบุคคลหลายราย บทความนี้แสดงตัวอย่างที่แสดงวิธีการลงรายการบัญชีสำหรับการชำระเงินส่วนกลางในสถานการณ์ต่างๆ
+<span data-ttu-id="bc533-106">องค์กรที่มีนิติบุคคลหลายรายสามารถสร้างและจัดการการชำระเงินโดยใช้นิติบุคคลเดียวซึ่งจัดการการชำระเงินทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="bc533-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="bc533-107">ดังนั้น การชำระเงินเดียวกันไม่จำเป็นต้องป้อนในนิติบุคคลหลายราย</span><span class="sxs-lookup"><span data-stu-id="bc533-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="bc533-108">บทความนี้แสดงตัวอย่างที่แสดงวิธีการลงรายการบัญชีสำหรับการชำระเงินส่วนกลางในสถานการณ์ต่างๆ</span><span class="sxs-lookup"><span data-stu-id="bc533-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-องค์กรที่มีนิติบุคคลหลายรายสามารถสร้างและจัดการการชำระเงินโดยใช้นิติบุคคลซึ่งจัดการการชำระเงินทั้งหมด ดังนั้น การชำระเงินเดียวกันไม่จำเป็นต้องป้อนในนิติบุคคลหลายราย นอกจากนี้ องค์กรจะประหยัดเวลา เนื่องจากมีปรับปรุงกระบวนการชำระเงิน
+<span data-ttu-id="bc533-109">องค์กรที่มีนิติบุคคลหลายรายสามารถสร้างและจัดการการชำระเงินโดยใช้นิติบุคคลซึ่งจัดการการชำระเงินทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="bc533-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="bc533-110">ดังนั้น การชำระเงินเดียวกันไม่จำเป็นต้องป้อนในนิติบุคคลหลายราย</span><span class="sxs-lookup"><span data-stu-id="bc533-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="bc533-111">นอกจากนี้ องค์กรจะประหยัดเวลา เนื่องจากมีปรับปรุงกระบวนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="bc533-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-ในองค์กรที่ชำระเงินส่วนกลาง มีนิติบุคคลมากสำหรับการดำเนินงาน และนิติบุคคลแต่ละการดำเนินงานจัดการใบแจ้งหนี้ของผู้จัดจำหน่ายของตนเอง สร้างการชำระเงินสำหรับนิติบุคคลปฏิบัติงานทั้งหมดจากนิติบุคคลเดียว ซึ่งเรียกว่านิติบุคคลของการชำระเงิน ระหว่างกระบวนการชำระเงิน ธุรกรรมเจ้าหนี้และธุรกรรมลูกหนี้ที่เกี่ยวข้องจะถูกสร้างขึ้น คุณสามารถระบุได้ว่านิติบุคลใดภายในองค์กรจะได้รับธุรกรรมมีกำไรที่รับรู้หรือธุรกรรมขาดทุนที่รับรู้ และวิธีจัดการกับธุรกรรมส่วนลดเงินสดที่เกี่ยวข้องกับการชำระเงินระหว่างบริษัท 
+<span data-ttu-id="bc533-112">ในองค์กรที่ชำระเงินส่วนกลาง มีนิติบุคคลมากสำหรับการดำเนินงาน และนิติบุคคลแต่ละการดำเนินงานจัดการใบแจ้งหนี้ของผู้จัดจำหน่ายของตนเอง</span><span class="sxs-lookup"><span data-stu-id="bc533-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="bc533-113">สร้างการชำระเงินสำหรับนิติบุคคลปฏิบัติงานทั้งหมดจากนิติบุคคลเดียว ซึ่งเรียกว่านิติบุคคลของการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="bc533-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="bc533-114">ระหว่างกระบวนการชำระเงิน ธุรกรรมเจ้าหนี้และธุรกรรมลูกหนี้ที่เกี่ยวข้องจะถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="bc533-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="bc533-115">คุณสามารถระบุได้ว่านิติบุคลใดภายในองค์กรจะได้รับธุรกรรมมีกำไรที่รับรู้หรือธุรกรรมขาดทุนที่รับรู้ และวิธีจัดการกับธุรกรรมส่วนลดเงินสดที่เกี่ยวข้องกับการชำระเงินระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="bc533-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-ตัวอย่างต่อไปนี้จะแสดงให้เห็นว่าการลงรายการบัญชีได้รับการจัดการอย่างไรในสถานการณ์ต่างๆ โดยสมมุติว่าในแต่ละตัวอย่างมีการตั้งค่าไว้ดังต่อไปนี้:
+<span data-ttu-id="bc533-116">ตัวอย่างต่อไปนี้จะแสดงให้เห็นว่าการลงรายการบัญชีได้รับการจัดการอย่างไรในสถานการณ์ต่างๆ</span><span class="sxs-lookup"><span data-stu-id="bc533-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="bc533-117">โดยสมมุติว่าในแต่ละตัวอย่างมีการตั้งค่าไว้ดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="bc533-117">The following configuration is assumed for all these examples:</span></span>
 
--   นิติบุคคล Fabrikam, Fabrikam East และ Fabrikam West การชำระเงินถูกสร้างจาก Fabrikam
--   ฟิลด์ **ลงรายการบัญชีส่วนลดเงินสด** บนหน้า **จัดทำบัญชีระหว่างบริษัท** ถูกตั้งค่าเป็น **นิติบุคคลของใบแจ้งหนี้**
--   ฟิลด์ **ลงรายการบัญชีกำไรหรือขาดทุนจากการแลกเปลี่ยนสกุลเงิน** บนหน้า **จัดทำบัญชีระหว่างบริษัท** ถูกตั้งค่าเป็น **นิติบุคคลของการชำระเงิน**
--   ผู้จัดจำหน่าย Fourth Coffee ถูกตั้งค่าเป็นผู้จัดจำหน่ายในแต่ละนิติบุคคล ผู้จัดจำหน่ายจากนิติบุคคลต่างๆจะถูกระบุเป็นผู้จัดจำหน่ายเดียวกันได้เนื่องจากใช้รหัสสมุดที่อยู่สากลเดียวกัน
+-   <span data-ttu-id="bc533-118">นิติบุคคล Fabrikam, Fabrikam East และ Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="bc533-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="bc533-119">การชำระเงินถูกสร้างจาก Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="bc533-120">ฟิลด์ **ลงรายการบัญชีส่วนลดเงินสด** บนหน้า **จัดทำบัญชีระหว่างบริษัท** ถูกตั้งค่าเป็น **นิติบุคคลของใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="bc533-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="bc533-121">ฟิลด์ **ลงรายการบัญชีกำไรหรือขาดทุนจากการแลกเปลี่ยนสกุลเงิน** บนหน้า **จัดทำบัญชีระหว่างบริษัท** ถูกตั้งค่าเป็น **นิติบุคคลของการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="bc533-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="bc533-122">ผู้จัดจำหน่าย Fourth Coffee ถูกตั้งค่าเป็นผู้จัดจำหน่ายในแต่ละนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="bc533-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="bc533-123">ผู้จัดจำหน่ายจากนิติบุคคลต่างๆจะถูกระบุเป็นผู้จัดจำหน่ายเดียวกันได้เนื่องจากใช้รหัสสมุดที่อยู่สากลเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="bc533-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| รหัสไดเรกทอรี | บัญชีผู้จัดจำหน่าย | ชื่อ          | นิติบุคคล  |
+| <span data-ttu-id="bc533-124">รหัสไดเรกทอรี</span><span class="sxs-lookup"><span data-stu-id="bc533-124">Directory ID</span></span> | <span data-ttu-id="bc533-125">บัญชีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="bc533-125">Vendor account</span></span> | <span data-ttu-id="bc533-126">ชื่อ</span><span class="sxs-lookup"><span data-stu-id="bc533-126">Name</span></span>          | <span data-ttu-id="bc533-127">นิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="bc533-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Fabrikam East |
-| 1050         | 3004           | Fourth Coffee | Fabrikam West |
+| <span data-ttu-id="bc533-128">1050</span><span class="sxs-lookup"><span data-stu-id="bc533-128">1050</span></span>         | <span data-ttu-id="bc533-129">3004</span><span class="sxs-lookup"><span data-stu-id="bc533-129">3004</span></span>           | <span data-ttu-id="bc533-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-130">Fourth Coffee</span></span> | <span data-ttu-id="bc533-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-131">Fabrikam</span></span>      |
+| <span data-ttu-id="bc533-132">1050</span><span class="sxs-lookup"><span data-stu-id="bc533-132">1050</span></span>         | <span data-ttu-id="bc533-133">100</span><span class="sxs-lookup"><span data-stu-id="bc533-133">100</span></span>            | <span data-ttu-id="bc533-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-134">Fourth Coffee</span></span> | <span data-ttu-id="bc533-135">Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-135">Fabrikam East</span></span> |
+| <span data-ttu-id="bc533-136">1050</span><span class="sxs-lookup"><span data-stu-id="bc533-136">1050</span></span>         | <span data-ttu-id="bc533-137">3004</span><span class="sxs-lookup"><span data-stu-id="bc533-137">3004</span></span>           | <span data-ttu-id="bc533-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-138">Fourth Coffee</span></span> | <span data-ttu-id="bc533-139">Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="bc533-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>ตัวอย่างที่ 1: การชำระเงินของผู้จัดจำหน่ายให้กับใบแจ้งหนี้จากนิติบุคลอื่น
-Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับบัญชีผู้จัดจำหน่าย 100, Fourth Coffee Fabrikam ป้อนและลงรายการบัญชีการชำระเงินให้กับ บัญชีผู้จัดจำหน่าย 3004, Fourth Coffee ของ Fabrikam การชำระเงินให้กับใบแจ้งหนี้ที่เปิดไว้จะได้รับการดำเนินการ
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="bc533-140">ตัวอย่างที่ 1: การชำระเงินของผู้จัดจำหน่ายให้กับใบแจ้งหนี้จากนิติบุคลอื่น</span><span class="sxs-lookup"><span data-stu-id="bc533-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="bc533-141">Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับบัญชีผู้จัดจำหน่าย 100, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="bc533-142">Fabrikam ป้อนและลงรายการบัญชีการชำระเงินให้กับ บัญชีผู้จัดจำหน่าย 3004, Fourth Coffee ของ Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="bc533-143">การชำระเงินให้กับใบแจ้งหนี้ที่เปิดไว้จะได้รับการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="bc533-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>ลงรายการบัญชีใบแจ้งหนี้ใน Fabrikam East สำหรับผู้จัดจำหน่าย 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="bc533-144">ลงรายการบัญชีใบแจ้งหนี้ใน Fabrikam East สำหรับผู้จัดจำหน่าย 100</span><span class="sxs-lookup"><span data-stu-id="bc533-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-145">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-145">Account</span></span>                          | <span data-ttu-id="bc533-146">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-146">Debit amount</span></span> | <span data-ttu-id="bc533-147">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| ค่าใช้จ่าย (Fabrikam East)          | 600.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam East) |              | 600.00        |
+| <span data-ttu-id="bc533-148">ค่าใช้จ่าย (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="bc533-149">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-149">600.00</span></span>       |               |
+| <span data-ttu-id="bc533-150">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="bc533-151">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>การชำระเงินจะถูกสร้างขึ้นและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="bc533-152">การชำระเงินจะถูกสร้างขึ้นและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004</span><span class="sxs-lookup"><span data-stu-id="bc533-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| บัญชี                     | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-153">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-153">Account</span></span>                     | <span data-ttu-id="bc533-154">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-154">Debit amount</span></span> | <span data-ttu-id="bc533-155">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam) | 600.00       |               |
-| เงินสด (Fabrikam)             |              | 600.00        |
+| <span data-ttu-id="bc533-156">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="bc533-157">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-157">600.00</span></span>       |               |
+| <span data-ttu-id="bc533-158">เงินสด (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="bc533-159">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="bc533-160">รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**การลงรายการบัญชีของ Fabrikam**
+<span data-ttu-id="bc533-161">**การลงรายการบัญชีของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="bc533-161">**Fabrikam posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-162">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-162">Account</span></span>                           | <span data-ttu-id="bc533-163">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-163">Debit amount</span></span> | <span data-ttu-id="bc533-164">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) | 600.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam)       |              | 600.00        |
+| <span data-ttu-id="bc533-165">เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="bc533-166">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-166">600.00</span></span>       |               |
+| <span data-ttu-id="bc533-167">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="bc533-168">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-168">600.00</span></span>        |
 
-**การลงรายการบัญชีของ Fabrikam East**
+<span data-ttu-id="bc533-169">**การลงรายการบัญชีของ Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="bc533-169">**Fabrikam East posting**</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-170">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-170">Account</span></span>                          | <span data-ttu-id="bc533-171">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-171">Debit amount</span></span> | <span data-ttu-id="bc533-172">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam East) | 600.00       |               |
-| เงินที่ชำระแก่ Fabrikam (Fabrikam East)  |              | 600.00        |
+| <span data-ttu-id="bc533-173">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-174">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-174">600.00</span></span>       |               |
+| <span data-ttu-id="bc533-175">เงินที่ชำระแก่ Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="bc533-176">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>ตัวอย่างที่ 2: การชำระเงินของผู้จัดจำหน่ายให้กับใบแจ้งหนี้จากนิติบุคุลอื่นด้วยส่วนลดเงินสด
-Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับผู้จัดจำหน่าย 100, Fourth Coffee ใบแจ้งหนี้มีส่วนลดเงินสด 20.00 ที่สามารถใช้ได้ Fabrikam ป้อนและลงรายการบัญชีการชำระเงินจำนวน 580.00 สำหรับผู้จัดจำหน่าย 3004, Fourth Coffee ของ Fabrikam รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East ที่เปิดไว้ มีการลงรายการบัญชีส่วนลดเงินสดในส่วนของนิติบุคคล Fabrikam East ที่ออกใบแจ้งหนี้
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="bc533-177">ตัวอย่างที่ 2: การชำระเงินของผู้จัดจำหน่ายให้กับใบแจ้งหนี้จากนิติบุคุลอื่นด้วยส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="bc533-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="bc533-178">Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับผู้จัดจำหน่าย 100, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="bc533-179">ใบแจ้งหนี้มีส่วนลดเงินสด 20.00 ที่สามารถใช้ได้</span><span class="sxs-lookup"><span data-stu-id="bc533-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="bc533-180">Fabrikam ป้อนและลงรายการบัญชีการชำระเงินจำนวน 580.00 สำหรับผู้จัดจำหน่าย 3004, Fourth Coffee ของ Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="bc533-181">รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East ที่เปิดไว้</span><span class="sxs-lookup"><span data-stu-id="bc533-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="bc533-182">มีการลงรายการบัญชีส่วนลดเงินสดในส่วนของนิติบุคคล Fabrikam East ที่ออกใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="bc533-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>ลงรายการบัญชีใบแจ้งหนี้ใน Fabrikam East สำหรับผู้จัดจำหน่าย 100 ของ Fabrikam East
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="bc533-183">ลงรายการบัญชีใบแจ้งหนี้ใน Fabrikam East สำหรับผู้จัดจำหน่าย 100 ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-184">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-184">Account</span></span>                          | <span data-ttu-id="bc533-185">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-185">Debit amount</span></span> | <span data-ttu-id="bc533-186">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| ค่าใช้จ่าย (Fabrikam East)          | 600.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam East) |              | 600.00        |
+| <span data-ttu-id="bc533-187">ค่าใช้จ่าย (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="bc533-188">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-188">600.00</span></span>       |               |
+| <span data-ttu-id="bc533-189">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="bc533-190">600.00</span><span class="sxs-lookup"><span data-stu-id="bc533-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>การชำระเงินถูกสร้างและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004 ของ Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="bc533-191">การชำระเงินถูกสร้างและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004 ของ Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| บัญชี                     | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-192">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-192">Account</span></span>                     | <span data-ttu-id="bc533-193">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-193">Debit amount</span></span> | <span data-ttu-id="bc533-194">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam) | 580.00       |               |
-| เงินสด (Fabrikam)             |              | 580.00        |
+| <span data-ttu-id="bc533-195">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="bc533-196">580.00</span><span class="sxs-lookup"><span data-stu-id="bc533-196">580.00</span></span>       |               |
+| <span data-ttu-id="bc533-197">เงินสด (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="bc533-198">580.00</span><span class="sxs-lookup"><span data-stu-id="bc533-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="bc533-199">รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**การลงรายการบัญชีของ Fabrikam**
+<span data-ttu-id="bc533-200">**การลงรายการบัญชีของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="bc533-200">**Fabrikam posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-201">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-201">Account</span></span>                           | <span data-ttu-id="bc533-202">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-202">Debit amount</span></span> | <span data-ttu-id="bc533-203">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) | 580.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam)       |              | 580.00        |
+| <span data-ttu-id="bc533-204">เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="bc533-205">580.00</span><span class="sxs-lookup"><span data-stu-id="bc533-205">580.00</span></span>       |               |
+| <span data-ttu-id="bc533-206">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="bc533-207">580.00</span><span class="sxs-lookup"><span data-stu-id="bc533-207">580.00</span></span>        |
 
-**การลงรายการบัญชีของ Fabrikam East**
+<span data-ttu-id="bc533-208">**การลงรายการบัญชีของ Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="bc533-208">**Fabrikam East posting**</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-209">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-209">Account</span></span>                          | <span data-ttu-id="bc533-210">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-210">Debit amount</span></span> | <span data-ttu-id="bc533-211">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam East) | 580.00       |               |
-| เงินที่ชำระแก่ Fabrikam (Fabrikam East)  |              | 580.00        |
-| บัญชีเจ้าหนี้ (Fabrikam East) | 20.00        |               |
-| ส่วนลดเงินสด (Fabrikam East)    |              | 20.00         |
+| <span data-ttu-id="bc533-212">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-213">580.00</span><span class="sxs-lookup"><span data-stu-id="bc533-213">580.00</span></span>       |               |
+| <span data-ttu-id="bc533-214">เงินที่ชำระแก่ Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="bc533-215">580.00</span><span class="sxs-lookup"><span data-stu-id="bc533-215">580.00</span></span>        |
+| <span data-ttu-id="bc533-216">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-217">20.00</span><span class="sxs-lookup"><span data-stu-id="bc533-217">20.00</span></span>        |               |
+| <span data-ttu-id="bc533-218">ส่วนลดเงินสด (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="bc533-219">20.00</span><span class="sxs-lookup"><span data-stu-id="bc533-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>ตัวอย่างที่ 3: การชำระเงินของผู้จัดจำหน่ายของใบแจ้งหนี้จากนิติบุคคลอื่นที่มีการขาดทุนที่รับรู้ได้จากการแลกเปลี่ยนสกุลเงิน
-Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับผู้จัดจำหน่าย 100, Fourth Coffee Fabrikam ป้อนและลงรายการบัญชีการชำระเงินสำหรับผู้จัดจำหน่าย 3004, Fourth Coffee รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East ที่เปิดไว้ ธุรกรรมที่ขาดทุนจากอัตราแลกเปลี่ยนสกุลเงินจะถูกสร้างขึ้นในระหว่างกระบวนการชำระเงิน
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="bc533-220">ตัวอย่างที่ 3: การชำระเงินของผู้จัดจำหน่ายของใบแจ้งหนี้จากนิติบุคคลอื่นที่มีการขาดทุนที่รับรู้ได้จากการแลกเปลี่ยนสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="bc533-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="bc533-221">Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับผู้จัดจำหน่าย 100, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="bc533-222">Fabrikam ป้อนและลงรายการบัญชีการชำระเงินสำหรับผู้จัดจำหน่าย 3004, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="bc533-223">รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East ที่เปิดไว้</span><span class="sxs-lookup"><span data-stu-id="bc533-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="bc533-224">ธุรกรรมที่ขาดทุนจากอัตราแลกเปลี่ยนสกุลเงินจะถูกสร้างขึ้นในระหว่างกระบวนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="bc533-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   อัตราแลกเปลี่ยนจากยูโร (EUR) เป็นดอลลาร์สหรัฐฯ (USD) ตามวันที่ของใบแจ้งหนี้: 1.2062
--   อัตราแลกเปลี่ยนจาก EUR เป็น USD ตามวันที่ชำระเงิน: 1.2277
+-   <span data-ttu-id="bc533-225">อัตราแลกเปลี่ยนจากยูโร (EUR) เป็นดอลลาร์สหรัฐฯ (USD) ตามวันที่ของใบแจ้งหนี้: 1.2062</span><span class="sxs-lookup"><span data-stu-id="bc533-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="bc533-226">อัตราแลกเปลี่ยนจาก EUR เป็น USD ตามวันที่ชำระเงิน: 1.2277</span><span class="sxs-lookup"><span data-stu-id="bc533-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>ลงรายการบัญชีใบแจ้งหนี้ใน Fabrikam East สำหรับผู้จัดจำหน่าย 100 ของ Fabrikam East
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="bc533-227">ลงรายการบัญชีใบแจ้งหนี้ใน Fabrikam East สำหรับผู้จัดจำหน่าย 100 ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| บัญชี                          | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-228">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-228">Account</span></span>                          | <span data-ttu-id="bc533-229">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-229">Debit amount</span></span>            | <span data-ttu-id="bc533-230">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| ค่าใช้จ่าย (Fabrikam East)          | 600.00 EUR / 723.72 USD |                         |
-| บัญชีเจ้าหนี้ (Fabrikam East) |                         | 600.00 EUR / 723.72 USD |
+| <span data-ttu-id="bc533-231">ค่าใช้จ่าย (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="bc533-232">600.00 EUR / 723.72 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="bc533-233">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="bc533-234">600.00 EUR / 723.72 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>การชำระเงินถูกสร้างและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004 ของ Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="bc533-235">การชำระเงินถูกสร้างและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004 ของ Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| บัญชี                     | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-236">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-236">Account</span></span>                     | <span data-ttu-id="bc533-237">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-237">Debit amount</span></span>            | <span data-ttu-id="bc533-238">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| บัญชีเจ้าหนี้ (Fabrikam) | 600.00 EUR / 736.62 USD |                         |
-| เงินสด (Fabrikam)             |                         | 600.00 EUR / 736.62 USD |
+| <span data-ttu-id="bc533-239">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="bc533-240">600.00 EUR / 736.62 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="bc533-241">เงินสด (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="bc533-242">600.00 EUR / 736.62 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="bc533-243">รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**การลงรายการบัญชีของ Fabrikam**
+<span data-ttu-id="bc533-244">**การลงรายการบัญชีของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="bc533-244">**Fabrikam posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-245">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-245">Account</span></span>                           | <span data-ttu-id="bc533-246">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-246">Debit amount</span></span>            | <span data-ttu-id="bc533-247">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) | 600.00 EUR / 736.62 USD |                         |
-| บัญชีเจ้าหนี้ (Fabrikam)       |                         | 600.00 EUR / 736.62 USD |
-| การขาดทุนที่เกิดขึ้นจริง (Fabrikam)          | 0.00 EUR / 12.90 USD    |                         |
-| เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) |                         | 0.00 EUR / 12.90 USD    |
+| <span data-ttu-id="bc533-248">เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="bc533-249">600.00 EUR / 736.62 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="bc533-250">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="bc533-251">600.00 EUR / 736.62 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="bc533-252">การขาดทุนที่เกิดขึ้นจริง (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="bc533-253">0.00 EUR / 12.90 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="bc533-254">เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="bc533-255">0.00 EUR / 12.90 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**การลงรายการบัญชีของ Fabrikam East**
+<span data-ttu-id="bc533-256">**การลงรายการบัญชีของ Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="bc533-256">**Fabrikam East posting**</span></span>
 
-| บัญชี                          | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-257">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-257">Account</span></span>                          | <span data-ttu-id="bc533-258">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-258">Debit amount</span></span>            | <span data-ttu-id="bc533-259">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| บัญชีเจ้าหนี้ (Fabrikam East) | 600.00 EUR / 736.62 USD |                         |
-| เงินที่ชำระแก่ Fabrikam (Fabrikam East)  |                         | 600.00 EUR / 736.62 USD |
-| เงินที่ชำระแก่ Fabrikam (Fabrikam East)  | 0.00 EUR / 12.90 USD    |                         |
-| บัญชีเจ้าหนี้ (Fabrikam East) |                         | 0.00 EUR / 12.90 USD    |
+| <span data-ttu-id="bc533-260">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-261">600.00 EUR / 736.62 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="bc533-262">เงินที่ชำระแก่ Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="bc533-263">600.00 EUR / 736.62 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="bc533-264">เงินที่ชำระแก่ Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="bc533-265">0.00 EUR / 12.90 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="bc533-266">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="bc533-267">0.00 EUR / 12.90 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>ตัวอย่างที่ 4: การชำระเงินของผู้จัดจำหน่ายให้กับใบแจ้งหนี้จากนิติบุคคลอื่นด้วยส่วนลดเงินสดและการขาดทุนที่รับรู้จากอัตราแลกเปลี่ยน
-Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับผู้จัดจำหน่าย 100, Fourth Coffee ใบแจ้งหนี้มีส่วนลดเงินสดที่สามารถใช้ได้ และสร้างธุรกรรมภาษีขาย Fabrikam ลงรายการบัญชีการชำระเงินสำหรับผู้จัดจำหน่าย 3004, Fourth Coffee ของ Fabrikam รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East ที่เปิดไว้ ธุรกรรมที่ขาดทุนจากอัตราแลกเปลี่ยนสกุลเงินจะถูกสร้างขึ้นในระหว่างกระบวนการชำระเงิน ส่วนลดเงินสดถูกลงรายการบัญชีไปยังนิติบุคคลของใบแจ้งหนี้(Fabrikam East) และการขาดทุนจากอัตราแลกเปลี่ยนสกุลเงินถูกลงรายการบัญชีไปยังนิติบุคคลของการชำระเงิน (Fabrikam)
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="bc533-268">ตัวอย่างที่ 4: การชำระเงินของผู้จัดจำหน่ายให้กับใบแจ้งหนี้จากนิติบุคคลอื่นด้วยส่วนลดเงินสดและการขาดทุนที่รับรู้จากอัตราแลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="bc533-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="bc533-269">Fabrikam East มีใบแจ้งหนี้ที่เปิดไว้สำหรับผู้จัดจำหน่าย 100, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="bc533-270">ใบแจ้งหนี้มีส่วนลดเงินสดที่สามารถใช้ได้ และสร้างธุรกรรมภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="bc533-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="bc533-271">Fabrikam ลงรายการบัญชีการชำระเงินสำหรับผู้จัดจำหน่าย 3004, Fourth Coffee ของ Fabrikam</span><span class="sxs-lookup"><span data-stu-id="bc533-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="bc533-272">รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East ที่เปิดไว้</span><span class="sxs-lookup"><span data-stu-id="bc533-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="bc533-273">ธุรกรรมที่ขาดทุนจากอัตราแลกเปลี่ยนสกุลเงินจะถูกสร้างขึ้นในระหว่างกระบวนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="bc533-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="bc533-274">ส่วนลดเงินสดถูกลงรายการบัญชีไปยังนิติบุคคลของใบแจ้งหนี้(Fabrikam East) และการขาดทุนจากอัตราแลกเปลี่ยนสกุลเงินถูกลงรายการบัญชีไปยังนิติบุคคลของการชำระเงิน (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   อัตราแลกเปลี่ยนจาก EUR เป็น USD ตามวันที่ของใบแจ้งหนี้: 1.2062
--   อัตราแลกเปลี่ยนจาก EUR เป็น USD ตามวันที่ชำระเงิน: 1.2277
+-   <span data-ttu-id="bc533-275">อัตราแลกเปลี่ยนจาก EUR เป็น USD ตามวันที่ของใบแจ้งหนี้: 1.2062</span><span class="sxs-lookup"><span data-stu-id="bc533-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="bc533-276">อัตราแลกเปลี่ยนจาก EUR เป็น USD ตามวันที่ชำระเงิน: 1.2277</span><span class="sxs-lookup"><span data-stu-id="bc533-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>ใบแจ้งหนี้ที่ได้รับการลงรายการบัญชีและธุรกรรมทางภาษีจะถูกสร้างขึ้นใน Fabrikam East สำหรับผู้จัดจำหน่าย 100
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="bc533-277">ใบแจ้งหนี้ที่ได้รับการลงรายการบัญชีและธุรกรรมทางภาษีจะถูกสร้างขึ้นใน Fabrikam East สำหรับผู้จัดจำหน่าย 100</span><span class="sxs-lookup"><span data-stu-id="bc533-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| บัญชี                          | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-278">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-278">Account</span></span>                          | <span data-ttu-id="bc533-279">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-279">Debit amount</span></span>            | <span data-ttu-id="bc533-280">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| ค่าใช้จ่าย (Fabrikam East)          | 564.07 EUR / 680.38 USD |                         |
-| ภาษีขาย (Fabrikam East)        | 35.93 EUR / 43.34 USD   |                         |
-| บัญชีเจ้าหนี้ (Fabrikam East) |                         | 600.00 EUR / 723.72 USD |
+| <span data-ttu-id="bc533-281">ค่าใช้จ่าย (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="bc533-282">564.07 EUR / 680.38 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="bc533-283">ภาษีขาย (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="bc533-284">35.93 EUR / 43.34 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="bc533-285">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="bc533-286">600.00 EUR / 723.72 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>การชำระเงินจะถูกสร้างขึ้นและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="bc533-287">การชำระเงินจะถูกสร้างขึ้นและลงรายการบัญชีใน Fabrikam สำหรับผู้จัดจำหน่าย 3004</span><span class="sxs-lookup"><span data-stu-id="bc533-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| บัญชี                     | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-288">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-288">Account</span></span>                     | <span data-ttu-id="bc533-289">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-289">Debit amount</span></span>            | <span data-ttu-id="bc533-290">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| บัญชีเจ้าหนี้ (Fabrikam) | 588.72 EUR / 722.77 USD |                         |
-| เงินสด (Fabrikam East)        |                         | 588.72 EUR / 722.77 USD |
+| <span data-ttu-id="bc533-291">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="bc533-292">588.72 EUR / 722.77 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="bc533-293">เงินสด (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="bc533-294">588.72 EUR / 722.77 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="bc533-295">รายการชำระเงิน Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**การลงรายการบัญชีของ Fabrikam**
+<span data-ttu-id="bc533-296">**การลงรายการบัญชีของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="bc533-296">**Fabrikam posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-297">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-297">Account</span></span>                           | <span data-ttu-id="bc533-298">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-298">Debit amount</span></span>            | <span data-ttu-id="bc533-299">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) | 588.72 EUR / 722.77 USD |                         |
-| บัญชีเจ้าหนี้ (Fabrikam)       |                         | 588.72 EUR / 722.77 USD |
-| ขาดทุนที่เกิดขึ้นจริง (Fabrikam)          | 0.00 EUR / 12.66 USD    |                         |
-| เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam) |                         | 0.00 EUR / 12.66 USD    |
+| <span data-ttu-id="bc533-300">เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="bc533-301">588.72 EUR / 722.77 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="bc533-302">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="bc533-303">588.72 EUR / 722.77 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="bc533-304">ขาดทุนที่เกิดขึ้นจริง (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="bc533-305">0.00 EUR / 12.66 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="bc533-306">เงินที่ได้รับชำระจาก Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="bc533-307">0.00 EUR / 12.66 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**การลงรายการบัญชีของ Fabrikam East**
+<span data-ttu-id="bc533-308">**การลงรายการบัญชีของ Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="bc533-308">**Fabrikam East posting**</span></span>
 
-| บัญชี                          | ยอดเดบิต            | ยอดเครดิต           |
+| <span data-ttu-id="bc533-309">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-309">Account</span></span>                          | <span data-ttu-id="bc533-310">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-310">Debit amount</span></span>            | <span data-ttu-id="bc533-311">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| บัญชีเจ้าหนี้ (Fabrikam East) | 588.72 EUR / 722.77 USD |                         |
-| เงินที่ชำระแก่ Fabrikam (Fabrikam East)  |                         | 588.72 EUR / 722.77 USD |
-| เงินที่ต้องชำระให้กับ Fabrikam (Fabrikam East)   | 0.00 EUR / 12.66 USD    |                         |
-| บัญชีเจ้าหนี้ (Fabrikam East) |                         | 0.00 EUR / 12.66 USD    |
-| บัญชีเจ้าหนี้ (Fabrikam East) | 11.28 EUR / 13.61 USD   |                         |
-| ส่วนลดเงินสด (Fabrikam East)    |                         | 11.28 EUR / 13.61 USD   |
+| <span data-ttu-id="bc533-312">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-313">588.72 EUR / 722.77 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="bc533-314">เงินที่ชำระแก่ Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="bc533-315">588.72 EUR / 722.77 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="bc533-316">เงินที่ต้องชำระให้กับ Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="bc533-317">0.00 EUR / 12.66 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="bc533-318">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="bc533-319">0.00 EUR / 12.66 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="bc533-320">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-321">11.28 EUR / 13.61 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="bc533-322">ส่วนลดเงินสด (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="bc533-323">11.28 EUR / 13.61 USD</span><span class="sxs-lookup"><span data-stu-id="bc533-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>ตัวอย่างที่ 5: ใบลดหนี้ของผู้จัดจำหน่ายที่มีการชำระเงินหลัก
-Fabrikam สร้างการชำระเงินจำนวน 75.00 สำหรับผู้จัดจำหน่าย 3004, Fourth Coffee รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ที่เปิดอยู่สำหรับผู้จัดจำหน่ายของ Fabrikam West เลขที่ 3004 และหักลบกับใบลดหนี้สำหรับผู้จัดจำหน่ายของ Fabrikam East เลขที่ 100 การชำระเงินถูกเลือกเป็นการชำระเงินหลักบนหน้า **ชำระธุรกรรม**
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="bc533-324">ตัวอย่างที่ 5: ใบลดหนี้ของผู้จัดจำหน่ายที่มีการชำระเงินหลัก</span><span class="sxs-lookup"><span data-stu-id="bc533-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="bc533-325">Fabrikam สร้างการชำระเงินจำนวน 75.00 สำหรับผู้จัดจำหน่าย 3004, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="bc533-326">รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ที่เปิดอยู่สำหรับผู้จัดจำหน่ายของ Fabrikam West เลขที่ 3004 และหักลบกับใบลดหนี้สำหรับผู้จัดจำหน่ายของ Fabrikam East เลขที่ 100</span><span class="sxs-lookup"><span data-stu-id="bc533-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="bc533-327">การชำระเงินถูกเลือกเป็นการชำระเงินหลักบนหน้า **ชำระธุรกรรม**</span><span class="sxs-lookup"><span data-stu-id="bc533-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>ใบแจ้งหนี้ถูกลงรายการบัญชีไปยัง Fabrikam West สำหรับผู้จัดจำหน่าย 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="bc533-328">ใบแจ้งหนี้ถูกลงรายการบัญชีไปยัง Fabrikam West สำหรับผู้จัดจำหน่าย 3004</span><span class="sxs-lookup"><span data-stu-id="bc533-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-329">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-329">Account</span></span>                          | <span data-ttu-id="bc533-330">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-330">Debit amount</span></span> | <span data-ttu-id="bc533-331">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| ค่าใช้จ่าย (Fabrikam West)          | 100.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam West) |              | 100.00        |
+| <span data-ttu-id="bc533-332">ค่าใช้จ่าย (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="bc533-333">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-333">100.00</span></span>       |               |
+| <span data-ttu-id="bc533-334">บัญชีเจ้าหนี้ (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="bc533-335">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>ใบลดหนี้ได้รับการลงรายการบัญชีไปยัง Fabrikam East สำหรับผู้จัดจำหน่าย 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="bc533-336">ใบลดหนี้ได้รับการลงรายการบัญชีไปยัง Fabrikam East สำหรับผู้จัดจำหน่าย 100</span><span class="sxs-lookup"><span data-stu-id="bc533-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-337">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-337">Account</span></span>                          | <span data-ttu-id="bc533-338">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-338">Debit amount</span></span> | <span data-ttu-id="bc533-339">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam East) | 25.00        |               |
-| ผลตอบแทนจากการซื้อ (Fabrikam East) |              | 25.00         |
+| <span data-ttu-id="bc533-340">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-341">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-341">25.00</span></span>        |               |
+| <span data-ttu-id="bc533-342">ผลตอบแทนจากการซื้อ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="bc533-343">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>การชำระเงินได้รับการลงรายการบัญชีไปยัง Fabrikam สำหรับผู้จัดจำหน่าย 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="bc533-344">การชำระเงินได้รับการลงรายการบัญชีไปยัง Fabrikam สำหรับผู้จัดจำหน่าย 3004</span><span class="sxs-lookup"><span data-stu-id="bc533-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| บัญชี                     | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-345">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-345">Account</span></span>                     | <span data-ttu-id="bc533-346">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-346">Debit amount</span></span> | <span data-ttu-id="bc533-347">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam) | 75.00        |               |
-| เงินสด (Fabrikam)             |              | 75.00         |
+| <span data-ttu-id="bc533-348">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="bc533-349">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-349">75.00</span></span>        |               |
+| <span data-ttu-id="bc533-350">เงินสด (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="bc533-351">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>รายการชำระเงินของ Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam West และใบลดหนี้ของ Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="bc533-352">รายการชำระเงินของ Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam West และใบลดหนี้ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**การลงรายการบัญชีของ Fabrikam**
+<span data-ttu-id="bc533-353">**การลงรายการบัญชีของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="bc533-353">**Fabrikam posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-354">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-354">Account</span></span>                           | <span data-ttu-id="bc533-355">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-355">Debit amount</span></span> | <span data-ttu-id="bc533-356">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam)       | 25.00        |               |
-| เงินที่ชำระแก่ Fabrikam East (Fabrikam)   |              | 25.00         |
-| เงินที่ได้รับชำระจาก Fabrikam West (Fabrikam) | 100.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam)       |              | 100.00        |
+| <span data-ttu-id="bc533-357">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="bc533-358">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-358">25.00</span></span>        |               |
+| <span data-ttu-id="bc533-359">เงินที่ชำระแก่ Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="bc533-360">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-360">25.00</span></span>         |
+| <span data-ttu-id="bc533-361">เงินที่ได้รับชำระจาก Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="bc533-362">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-362">100.00</span></span>       |               |
+| <span data-ttu-id="bc533-363">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="bc533-364">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-364">100.00</span></span>        |
 
-**การลงรายการบัญชีของ Fabrikam East**
+<span data-ttu-id="bc533-365">**การลงรายการบัญชีของ Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="bc533-365">**Fabrikam East posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-366">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-366">Account</span></span>                           | <span data-ttu-id="bc533-367">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-367">Debit amount</span></span> | <span data-ttu-id="bc533-368">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| เงินที่ได้รับชำระจาก Fabrikam (Fabrikam East) | 25.00        |               |
-| บัญชีเจ้าหนี้ (Fabrikam East)  |              | 25.00         |
+| <span data-ttu-id="bc533-369">เงินที่ได้รับชำระจาก Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="bc533-370">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-370">25.00</span></span>        |               |
+| <span data-ttu-id="bc533-371">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="bc533-372">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-372">25.00</span></span>         |
 
-**การลงรายการบัญชีของ Fabrikam West**
+<span data-ttu-id="bc533-373">**การลงรายการบัญชีของ Fabrikam West**</span><span class="sxs-lookup"><span data-stu-id="bc533-373">**Fabrikam West posting**</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-374">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-374">Account</span></span>                          | <span data-ttu-id="bc533-375">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-375">Debit amount</span></span> | <span data-ttu-id="bc533-376">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam West) | 100.00       |               |
-| เงินที่ต้องชำระให้กับ Fabrikam (Fabrikam West)  |              | 100.00        |
+| <span data-ttu-id="bc533-377">บัญชีเจ้าหนี้ (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="bc533-378">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-378">100.00</span></span>       |               |
+| <span data-ttu-id="bc533-379">เงินที่ต้องชำระให้กับ Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="bc533-380">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>ตัวอย่างที่ 6: ใบลดหนี้ของผู้จัดจำหน่ายที่ไม่มีการชำระเงินหลัก
-Fabrikam สร้างการชำระเงินจำนวน 75.00 สำหรับผู้จัดจำหน่าย 3004, Fourth Coffee รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ที่เปิดอยู่สำหรับผู้จัดจำหน่ายของ Fabrikam West เลขที่ 3004 และหักลบกับใบลดหนี้สำหรับผู้จัดจำหน่ายของ Fabrikam East เลขที่ 100 การชำระเงินไม่ได้ถูกเลือกเป็นการชำระเงินหลักบนหน้า **ชำระธุรกรรม**
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="bc533-381">ตัวอย่างที่ 6: ใบลดหนี้ของผู้จัดจำหน่ายที่ไม่มีการชำระเงินหลัก</span><span class="sxs-lookup"><span data-stu-id="bc533-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="bc533-382">Fabrikam สร้างการชำระเงินจำนวน 75.00 สำหรับผู้จัดจำหน่าย 3004, Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="bc533-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="bc533-383">รายการชำระเงินนั้นถูกนำไปหักลบกับใบแจ้งหนี้ที่เปิดอยู่สำหรับผู้จัดจำหน่ายของ Fabrikam West เลขที่ 3004 และหักลบกับใบลดหนี้สำหรับผู้จัดจำหน่ายของ Fabrikam East เลขที่ 100</span><span class="sxs-lookup"><span data-stu-id="bc533-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="bc533-384">การชำระเงินไม่ได้ถูกเลือกเป็นการชำระเงินหลักบนหน้า **ชำระธุรกรรม**</span><span class="sxs-lookup"><span data-stu-id="bc533-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>ใบแจ้งหนี้ถูกลงรายการบัญชีไปยัง Fabrikam West สำหรับผู้จัดจำหน่าย 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="bc533-385">ใบแจ้งหนี้ถูกลงรายการบัญชีไปยัง Fabrikam West สำหรับผู้จัดจำหน่าย 3004</span><span class="sxs-lookup"><span data-stu-id="bc533-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-386">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-386">Account</span></span>                          | <span data-ttu-id="bc533-387">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-387">Debit amount</span></span> | <span data-ttu-id="bc533-388">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| ค่าใช้จ่าย (Fabrikam West)          | 100.00       |               |
-| บัญชีเจ้าหนี้ (Fabrikam West) |              | 100.00        |
+| <span data-ttu-id="bc533-389">ค่าใช้จ่าย (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="bc533-390">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-390">100.00</span></span>       |               |
+| <span data-ttu-id="bc533-391">บัญชีเจ้าหนี้ (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="bc533-392">100.00</span><span class="sxs-lookup"><span data-stu-id="bc533-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>ใบลดหนี้ได้รับการลงรายการบัญชีไปยัง Fabrikam East สำหรับผู้จัดจำหน่าย 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="bc533-393">ใบลดหนี้ได้รับการลงรายการบัญชีไปยัง Fabrikam East สำหรับผู้จัดจำหน่าย 100</span><span class="sxs-lookup"><span data-stu-id="bc533-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| บัญชี                          | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-394">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-394">Account</span></span>                          | <span data-ttu-id="bc533-395">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-395">Debit amount</span></span> | <span data-ttu-id="bc533-396">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam East) | 25.00        |               |
-| ผลตอบแทนจากการซื้อ (Fabrikam East) |              | 25.00         |
+| <span data-ttu-id="bc533-397">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="bc533-398">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-398">25.00</span></span>        |               |
+| <span data-ttu-id="bc533-399">ผลตอบแทนจากการซื้อ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="bc533-400">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>การชำระเงินได้รับการลงรายการบัญชีไปยัง Fabrikam สำหรับผู้จัดจำหน่าย 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="bc533-401">การชำระเงินได้รับการลงรายการบัญชีไปยัง Fabrikam สำหรับผู้จัดจำหน่าย 3004</span><span class="sxs-lookup"><span data-stu-id="bc533-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| บัญชี                     | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-402">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-402">Account</span></span>                     | <span data-ttu-id="bc533-403">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-403">Debit amount</span></span> | <span data-ttu-id="bc533-404">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam) | 75.00        |               |
-| เงินสด (Fabrikam)             |              | 75.00         |
+| <span data-ttu-id="bc533-405">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="bc533-406">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-406">75.00</span></span>        |               |
+| <span data-ttu-id="bc533-407">เงินสด (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="bc533-408">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>รายการชำระเงินของ Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam West และใบลดหนี้ของ Fabrikam East
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="bc533-409">รายการชำระเงินของ Fabrikam ถูกนำไปหักลบกับใบแจ้งหนี้ของ Fabrikam West และใบลดหนี้ของ Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="bc533-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**การลงรายการบัญชีของ Fabrikam**
+<span data-ttu-id="bc533-410">**การลงรายการบัญชีของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="bc533-410">**Fabrikam posting**</span></span>
 
-| บัญชี                           | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-411">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-411">Account</span></span>                           | <span data-ttu-id="bc533-412">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-412">Debit amount</span></span> | <span data-ttu-id="bc533-413">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| เงินที่ได้รับชำระจาก Fabrikam West (Fabrikam) | 75.00        |               |
-| บัญชีเจ้าหนี้ (Fabrikam)       |              | 75.00         |
+| <span data-ttu-id="bc533-414">เงินที่ได้รับชำระจาก Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="bc533-415">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-415">75.00</span></span>        |               |
+| <span data-ttu-id="bc533-416">บัญชีเจ้าหนี้ (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="bc533-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="bc533-417">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-417">75.00</span></span>         |
 
-**การลงรายการบัญชีของ Fabrikam East**
+<span data-ttu-id="bc533-418">**การลงรายการบัญชีของ Fabrikam East**</span><span class="sxs-lookup"><span data-stu-id="bc533-418">**Fabrikam East posting**</span></span>
 
-| บัญชี                                | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-419">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-419">Account</span></span>                                | <span data-ttu-id="bc533-420">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-420">Debit amount</span></span> | <span data-ttu-id="bc533-421">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| เงินที่ได้รับชำระจาก Fabrikam West (Fabrikam East) | 25.00        |               |
-| บัญชีเจ้าหนี้ (Fabrikam East)       |              | 25.00         |
+| <span data-ttu-id="bc533-422">เงินที่ได้รับชำระจาก Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="bc533-423">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-423">25.00</span></span>        |               |
+| <span data-ttu-id="bc533-424">บัญชีเจ้าหนี้ (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="bc533-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="bc533-425">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-425">25.00</span></span>         |
 
-**การลงรายการบัญชีของ Fabrikam West**
+<span data-ttu-id="bc533-426">**การลงรายการบัญชีของ Fabrikam West**</span><span class="sxs-lookup"><span data-stu-id="bc533-426">**Fabrikam West posting**</span></span>
 
-| บัญชี                              | ยอดเดบิต | ยอดเครดิต |
+| <span data-ttu-id="bc533-427">บัญชี</span><span class="sxs-lookup"><span data-stu-id="bc533-427">Account</span></span>                              | <span data-ttu-id="bc533-428">ยอดเดบิต</span><span class="sxs-lookup"><span data-stu-id="bc533-428">Debit amount</span></span> | <span data-ttu-id="bc533-429">ยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="bc533-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| บัญชีเจ้าหนี้ (Fabrikam West)     | 75.00        |               |
-| เงินที่ต้องชำระให้กับ Fabrikam (Fabrikam West)      |              | 75.00         |
-| บัญชีเจ้าหนี้ (Fabrikam West)     | 25.00        |               |
-| เงินที่ต้องชำระให้กับ Fabrikam East (Fabrikam West) |              | 25.00         |
+| <span data-ttu-id="bc533-430">บัญชีเจ้าหนี้ (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="bc533-431">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-431">75.00</span></span>        |               |
+| <span data-ttu-id="bc533-432">เงินที่ต้องชำระให้กับ Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="bc533-433">75.00</span><span class="sxs-lookup"><span data-stu-id="bc533-433">75.00</span></span>         |
+| <span data-ttu-id="bc533-434">บัญชีเจ้าหนี้ (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="bc533-435">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-435">25.00</span></span>        |               |
+| <span data-ttu-id="bc533-436">เงินที่ต้องชำระให้กับ Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="bc533-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="bc533-437">25.00</span><span class="sxs-lookup"><span data-stu-id="bc533-437">25.00</span></span>         |
 
 
 

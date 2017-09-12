@@ -17,43 +17,43 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3f1b526fced453ba5055772b2e74eed674cd3546
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a>สร้างสูตรโดยการคัดลอกจากสูตรที่มีอยู่แล้ว
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="05f5f-103">สร้างสูตรโดยการคัดลอกจากสูตรที่มีอยู่แล้ว</span><span class="sxs-lookup"><span data-stu-id="05f5f-103">Create a formula by copying from an existing formula</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้แสดงวิธีการสร้างสูตรใหม่ที่รวดเร็วโดยการคัดลอกจากสูตรที่มีอยู่แล้ว  คุณสามารถใช้ข้อมูลสาธิตของบริษัท USMF, USP2 หรือ USPI เพื่อสร้างขั้นตอนนี้
+<span data-ttu-id="05f5f-104">ขั้นตอนนี้แสดงวิธีการสร้างสูตรใหม่ที่รวดเร็วโดยการคัดลอกจากสูตรที่มีอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="05f5f-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="05f5f-105">คุณสามารถใช้ข้อมูลสาธิตของบริษัท USMF, USP2 หรือ USPI เพื่อสร้างขั้นตอนนี้</span><span class="sxs-lookup"><span data-stu-id="05f5f-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 
 
-## <a name="create-a-new-formula"></a>สร้างสูตรใหม่
-1. ไปที่สูตร
-2. คลิก สร้าง
-3. ในฟิลด์สูตร ให้พิมพ์ค่า
-4. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-5. ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ในฟิลด์กลุ่มสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-7. คลิก บันทึก
+## <a name="create-a-new-formula"></a><span data-ttu-id="05f5f-106">สร้างสูตรใหม่</span><span class="sxs-lookup"><span data-stu-id="05f5f-106">Create a new formula</span></span>
+1. <span data-ttu-id="05f5f-107">ไปที่สูตร</span><span class="sxs-lookup"><span data-stu-id="05f5f-107">Go to Formulas.</span></span>
+2. <span data-ttu-id="05f5f-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="05f5f-108">Click New.</span></span>
+3. <span data-ttu-id="05f5f-109">ในฟิลด์สูตร ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="05f5f-109">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="05f5f-110">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="05f5f-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="05f5f-111">ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="05f5f-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="05f5f-112">ในฟิลด์กลุ่มสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="05f5f-112">In the Item group field, enter or select a value.</span></span>
+7. <span data-ttu-id="05f5f-113">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="05f5f-113">Click Save.</span></span>
 
-## <a name="copy-from-an-existing-formula"></a>คัดลอกจากสูตรที่มีอยู่
-1. คลิก คัดลอก
-2. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า
-3. ในฟิลด์เวอร์ชันสูตร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-4. คลิก ตกลง
+## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="05f5f-114">คัดลอกจากสูตรที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="05f5f-114">Copy from an existing formula</span></span>
+1. <span data-ttu-id="05f5f-115">คลิก คัดลอก</span><span class="sxs-lookup"><span data-stu-id="05f5f-115">Click Copy.</span></span>
+2. <span data-ttu-id="05f5f-116">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="05f5f-116">In the Item number field, enter or select a value.</span></span>
+3. <span data-ttu-id="05f5f-117">ในฟิลด์เวอร์ชันสูตร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="05f5f-117">In the Formula version field, enter or select a value.</span></span>
+4. <span data-ttu-id="05f5f-118">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="05f5f-118">Click OK.</span></span>
 
-## <a name="revise-the-copied-formula"></a>แก้ไขสูตรที่ได้คัดลอก
-1. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-2. คลิก ลบ
-3. คลิก ใช่
+## <a name="revise-the-copied-formula"></a><span data-ttu-id="05f5f-119">แก้ไขสูตรที่ได้คัดลอก</span><span class="sxs-lookup"><span data-stu-id="05f5f-119">Revise the copied formula</span></span>
+1. <span data-ttu-id="05f5f-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="05f5f-120">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="05f5f-121">คลิก ลบ</span><span class="sxs-lookup"><span data-stu-id="05f5f-121">Click Delete.</span></span>
+3. <span data-ttu-id="05f5f-122">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="05f5f-122">Click Yes.</span></span>
 
-## <a name="approve-formula"></a>อนุมัติสูตร
-1. คลิกอนุมัติสูตร
-2. ในฟิลด์อนุมัติโดย ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-3. คลิก ตกลง
-4. ปิดหน้า
+## <a name="approve-formula"></a><span data-ttu-id="05f5f-123">อนุมัติสูตร</span><span class="sxs-lookup"><span data-stu-id="05f5f-123">Approve formula</span></span>
+1. <span data-ttu-id="05f5f-124">คลิกอนุมัติสูตร</span><span class="sxs-lookup"><span data-stu-id="05f5f-124">Click Approve formula.</span></span>
+2. <span data-ttu-id="05f5f-125">ในฟิลด์อนุมัติโดย ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="05f5f-125">In the Approved by field, enter or select a value.</span></span>
+3. <span data-ttu-id="05f5f-126">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="05f5f-126">Click OK.</span></span>
+4. <span data-ttu-id="05f5f-127">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="05f5f-127">Close the page.</span></span>
 
 

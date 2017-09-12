@@ -17,35 +17,35 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8ba98bbe522d215fb6307af0bd0e3da30d528511
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2b70bc95f56839da76612df2be3b35362925b977
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-pos-visual-profile"></a> สร้างโพรไฟล์ภาพ POS  
+# <a name="create-a-pos-visual-profile"></a><span data-ttu-id="03e91-103"> สร้างโพรไฟล์ภาพ POS </span><span class="sxs-lookup"><span data-stu-id="03e91-103">Create a POS visual profile</span></span> 
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-กระบวนการนี้นำไปสู่การสร้างโพรไฟล์ภาพการขายหน้าร้าน (POS) ขึ้นใหม่  โพรไฟล์ภาพประกอบด้วยข้อมูลพื้นฐานที่กำหนดรูปลักษณ์ของเครื่องบันทึกเงินสด POS  คุณสามารถสร้างโพรไฟล์ภาพต่าง ๆ และกำหนดโพรไฟล์เฉพาะให้ทำงานบนเครื่องบันทึกเงินสดหนึ่ง ๆ  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
+<span data-ttu-id="03e91-104">กระบวนการนี้นำไปสู่การสร้างโพรไฟล์ภาพการขายหน้าร้าน (POS) ขึ้นใหม่ </span><span class="sxs-lookup"><span data-stu-id="03e91-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="03e91-105">โพรไฟล์ภาพประกอบด้วยข้อมูลพื้นฐานที่กำหนดรูปลักษณ์ของเครื่องบันทึกเงินสด POS </span><span class="sxs-lookup"><span data-stu-id="03e91-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="03e91-106">คุณสามารถสร้างโพรไฟล์ภาพต่าง ๆ และกำหนดโพรไฟล์เฉพาะให้ทำงานบนเครื่องบันทึกเงินสดหนึ่ง ๆ </span><span class="sxs-lookup"><span data-stu-id="03e91-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="03e91-107">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="03e91-107">This procedure uses the USRT demo data company.</span></span>
 
-1. ไปที่ การขายปลีกและการค้า > การตั้งค่าช่องทาง > การตั้งค่า POS > โพรไฟล์ POS > โพรไฟล์ภาพ
-2. คลิก สร้าง
-3. ในฟิลด์หมายเลขโพรไฟล์ ให้พิมพ์ค่าใดค่าหนึ่ง
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์ชนิดของแอพพลิเคชั่น ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-6. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-7. ในฟิลด์ชุดรูปแบบ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-9. ในฟิลด์สีอักขระการออกเสียง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-10. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-11. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-12. สลับการขยายของการล็อกอินในส่วนพื้นหลัง
-13. ในฟิลด์รหัสรูปภาพแนวนอน ให้เลือกหรือป้อนรหัสรูปภาพ
-14. ในฟิลด์รหัสรูปภาพแนวตั้ง ให้เลือกหรือป้อนรหัสรูปภาพ
-15. สลับการขยายส่วนพื้นหลัง
-16. RequestPopup รหัสรูปภาพ
-17. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-18. คลิก บันทึก
+1. <span data-ttu-id="03e91-108">ไปที่ การขายปลีกและการค้า > การตั้งค่าช่องทาง > การตั้งค่า POS > โพรไฟล์ POS > โพรไฟล์ภาพ</span><span class="sxs-lookup"><span data-stu-id="03e91-108">Go to Retail and commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
+2. <span data-ttu-id="03e91-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="03e91-109">Click New.</span></span>
+3. <span data-ttu-id="03e91-110">ในฟิลด์หมายเลขโพรไฟล์ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="03e91-110">In the Profile number field, type a value.</span></span>
+4. <span data-ttu-id="03e91-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="03e91-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="03e91-112">ในฟิลด์ชนิดของแอพพลิเคชั่น ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="03e91-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="03e91-113">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="03e91-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="03e91-114">ในฟิลด์ชุดรูปแบบ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="03e91-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="03e91-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="03e91-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="03e91-116">ในฟิลด์สีอักขระการออกเสียง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="03e91-116">In the Accent colour field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="03e91-117">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="03e91-117">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="03e91-118">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="03e91-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="03e91-119">สลับการขยายของการล็อกอินในส่วนพื้นหลัง</span><span class="sxs-lookup"><span data-stu-id="03e91-119">Toggle the expansion of the Login background section.</span></span>
+13. <span data-ttu-id="03e91-120">ในฟิลด์รหัสรูปภาพแนวนอน ให้เลือกหรือป้อนรหัสรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="03e91-120">In the Landscape image ID field, select or enter an image ID.</span></span>
+14. <span data-ttu-id="03e91-121">ในฟิลด์รหัสรูปภาพแนวตั้ง ให้เลือกหรือป้อนรหัสรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="03e91-121">In the Portait image ID field, select or enter an image ID.</span></span>
+15. <span data-ttu-id="03e91-122">สลับการขยายส่วนพื้นหลัง</span><span class="sxs-lookup"><span data-stu-id="03e91-122">Toggle the expansion of the Background section.</span></span>
+16. <span data-ttu-id="03e91-123">RequestPopup รหัสรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="03e91-123">RequestPopup the Image ID.</span></span>
+17. <span data-ttu-id="03e91-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="03e91-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="03e91-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="03e91-125">Click Save.</span></span>
 
 

@@ -16,45 +16,45 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bfdc149632f2d0b7bdb978e7c12e0afef6ba3734
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7b6e35c922edeb3c3c7a33ff741a25e699242abf
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>สร้างข้อตกลงสินเชื่อธนาคารสำหรับหนังสือค้ำประกัน
+# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a><span data-ttu-id="ce6cc-103">สร้างข้อตกลงสินเชื่อธนาคารสำหรับหนังสือค้ำประกัน</span><span class="sxs-lookup"><span data-stu-id="ce6cc-103">Create a bank facility agreement for the letter of guarantee</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-งานนี้สร้างข้อตกลงสินเชื่อของธนาคารที่จะประมวลผลหนังสือค้ำประกัน  งานนี้ใช้บริษัทสาธิต USMF  
+<span data-ttu-id="ce6cc-104">งานนี้สร้างข้อตกลงสินเชื่อของธนาคารที่จะประมวลผลหนังสือค้ำประกัน </span><span class="sxs-lookup"><span data-stu-id="ce6cc-104">This task creates a bank facility agreement to process a letter of guarantee.</span></span> <span data-ttu-id="ce6cc-105">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="ce6cc-105">This task uses the USMF demo company.</span></span> 
 
 
-## <a name="create-bank-facility-agreement"></a>สร้างข้อตกลงสินเชื่อธนาคาร
-1. ไปที่การจัดการบัญชีเงินสดและธนาคาร > หนังสือค้ำประกัน > ข้อตกลงสินเชื่อธนาคาร
-2. คลิก สร้าง
-3. ในฟิลด์หมายเลขข้อตกลง ให้ป้อนหมายเลขข้อตกลงของธนาคารสำหรับธุรกรรม
-4. ในฟิลด์บัญชีธนาคาร ให้เลือกหมายเลขบัญชีธนาคารซึ่งหนังสือค้ำประกันจะได้เปิดขึ้น 
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. ในฟิลด์วันที่เริมต้น ให้ป้อนวันที่และเวลา
-7. ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่และเวลา
-8. เปิดปิดการขยายของส่วนทั่วไป
-9. คลิกเพิ่มรายการ
-10. ในฟิลด์ชนิดสินเชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-11. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-12. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-13. ในฟิลด์ขีดจำกัด ให้ป้อนยอดเงินตามที่เจรจาไว้กับธนาคาร
-14. คลิกบันทึก
-15. สลับการขยายของส่วนหนังสือค้ำประกัน
-16. ในฟิลด์วิธีการคำนวณ ให้เลือกหนึ่งตัวเลือก
-    * ป้อนวิธีการคำนวณและรายละเอียดเปอร์เซ็นต์สำหรับเงินประกันเงินสด ค่าคอมมิชชันของการออก ค่าคอมมิชชันของการขยายเวลา ค่าคอมมิชชันของการเพิ่มมูลค่าหรือค่าคอมมิชชันของการลดมูลค่า ตามความเหมาะสม   
-17. คลิก บันทึก
+## <a name="create-bank-facility-agreement"></a><span data-ttu-id="ce6cc-106">สร้างข้อตกลงสินเชื่อธนาคาร</span><span class="sxs-lookup"><span data-stu-id="ce6cc-106">Create Bank facility agreement</span></span>
+1. <span data-ttu-id="ce6cc-107">ไปที่การจัดการบัญชีเงินสดและธนาคาร > หนังสือค้ำประกัน > ข้อตกลงสินเชื่อธนาคาร</span><span class="sxs-lookup"><span data-stu-id="ce6cc-107">Go to Cash and bank management > Letters of guarantee > Bank facility agreements.</span></span>
+2. <span data-ttu-id="ce6cc-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ce6cc-108">Click New.</span></span>
+3. <span data-ttu-id="ce6cc-109">ในฟิลด์หมายเลขข้อตกลง ให้ป้อนหมายเลขข้อตกลงของธนาคารสำหรับธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="ce6cc-109">In the Agreement number field, enter the bank agreement number for the transaction.</span></span>
+4. <span data-ttu-id="ce6cc-110">ในฟิลด์บัญชีธนาคาร ให้เลือกหมายเลขบัญชีธนาคารซึ่งหนังสือค้ำประกันจะได้เปิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="ce6cc-110">In the Bank account field, select the bank account number for which the letter of guarantee is open.</span></span> 
+5. <span data-ttu-id="ce6cc-111">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ce6cc-111">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="ce6cc-112">ในฟิลด์วันที่เริมต้น ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="ce6cc-112">In the Start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="ce6cc-113">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="ce6cc-113">In the End date field, enter a date and time.</span></span>
+8. <span data-ttu-id="ce6cc-114">เปิดปิดการขยายของส่วนทั่วไป</span><span class="sxs-lookup"><span data-stu-id="ce6cc-114">Toggle the expansion of the General section.</span></span>
+9. <span data-ttu-id="ce6cc-115">คลิกเพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="ce6cc-115">Click Add line.</span></span>
+10. <span data-ttu-id="ce6cc-116">ในฟิลด์ชนิดสินเชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="ce6cc-116">In the Facility type field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="ce6cc-117">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="ce6cc-117">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="ce6cc-118">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ce6cc-118">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="ce6cc-119">ในฟิลด์ขีดจำกัด ให้ป้อนยอดเงินตามที่เจรจาไว้กับธนาคาร</span><span class="sxs-lookup"><span data-stu-id="ce6cc-119">In the Limit field, enter the amount negotiated with the bank.</span></span>
+14. <span data-ttu-id="ce6cc-120">คลิกบันทึก</span><span class="sxs-lookup"><span data-stu-id="ce6cc-120">Click Save.</span></span>
+15. <span data-ttu-id="ce6cc-121">สลับการขยายของส่วนหนังสือค้ำประกัน</span><span class="sxs-lookup"><span data-stu-id="ce6cc-121">Toggle the expansion of the Letter of guarantee section.</span></span>
+16. <span data-ttu-id="ce6cc-122">ในฟิลด์วิธีการคำนวณ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ce6cc-122">In the Calculation method field, select an option.</span></span>
+    * <span data-ttu-id="ce6cc-123">ป้อนวิธีการคำนวณและรายละเอียดเปอร์เซ็นต์สำหรับเงินประกันเงินสด ค่าคอมมิชชันของการออก ค่าคอมมิชชันของการขยายเวลา ค่าคอมมิชชันของการเพิ่มมูลค่าหรือค่าคอมมิชชันของการลดมูลค่า ตามความเหมาะสม</span><span class="sxs-lookup"><span data-stu-id="ce6cc-123">Enter the calculation method and percentage details for the Cash margin, Issuance commission, Extension commission, Increase value commission, or Decrease value commission, as appropriate.</span></span>   
+17. <span data-ttu-id="ce6cc-124">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ce6cc-124">Click Save.</span></span>
 
-## <a name="extend-bank-facility-agreement"></a>ขยายเวลาข้อตกลงสินเชื่อธนาคาร
-1. คลิกขยายเพื่อเปิดกล่องโต้ตอบการวาง
-2. ในฟิลด์หมายเลขข้อตกลงใหม่ ให้พิมพ์ค่า
-3. ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่และเวลา
-4. คลิกขยาย
-5. คลิก บันทึก
-6. ปิดหน้า
+## <a name="extend-bank-facility-agreement"></a><span data-ttu-id="ce6cc-125">ขยายเวลาข้อตกลงสินเชื่อธนาคาร</span><span class="sxs-lookup"><span data-stu-id="ce6cc-125">Extend bank facility agreement</span></span>
+1. <span data-ttu-id="ce6cc-126">คลิกขยายเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ce6cc-126">Click Extend to open the drop dialog.</span></span>
+2. <span data-ttu-id="ce6cc-127">ในฟิลด์หมายเลขข้อตกลงใหม่ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ce6cc-127">In the New agreement number field, type a value.</span></span>
+3. <span data-ttu-id="ce6cc-128">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="ce6cc-128">In the End date field, enter a date and time.</span></span>
+4. <span data-ttu-id="ce6cc-129">คลิกขยาย</span><span class="sxs-lookup"><span data-stu-id="ce6cc-129">Click Extend.</span></span>
+5. <span data-ttu-id="ce6cc-130">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ce6cc-130">Click Save.</span></span>
+6. <span data-ttu-id="ce6cc-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ce6cc-131">Close the page.</span></span>
 
 

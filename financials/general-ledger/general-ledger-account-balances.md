@@ -19,37 +19,37 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1dbdb732acdedb15554d242f076cd2e11d4fc226
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 05db6bc373b69a623939eb0e39876332b64cd64b
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="general-ledger-account-balances"></a>ยอดดุลบัญชีแยกประเภททั่วไป
+# <a name="general-ledger-account-balances"></a><span data-ttu-id="677f5-104">ยอดดุลบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="677f5-104">General ledger account balances</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายถึงสองวิธีในการดูยอดดุลบัญชีแยกประเภททั่วไป - หน้ารายการงบทดลองและรายงานทางการเงิน นอกจากนี้ยังอธิบายวิธีการปรับปรุงยอดดุลของเซ็ตมิติ
+<span data-ttu-id="677f5-105">บทความนี้อธิบายถึงสองวิธีในการดูยอดดุลบัญชีแยกประเภททั่วไป - หน้ารายการงบทดลองและรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="677f5-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="677f5-106">นอกจากนี้ยังอธิบายวิธีการปรับปรุงยอดดุลของเซ็ตมิติ</span><span class="sxs-lookup"><span data-stu-id="677f5-106">It also discusses how to update dimension set balances.</span></span>
 
-มีหลายวิธีที่ผู้ใช้สามารถดูยอดดุล ในบัญชีแยกประเภททั่วไป ตัวเลือกทั่วไปบางตัวเลือกที่พบมากที่สุดได้แก่:
+<span data-ttu-id="677f5-107">มีหลายวิธีที่ผู้ใช้สามารถดูยอดดุล ในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="677f5-107">There are a variety of ways users can view balances in the general ledger.</span></span> <span data-ttu-id="677f5-108">ตัวเลือกทั่วไปบางตัวเลือกที่พบมากที่สุดได้แก่:</span><span class="sxs-lookup"><span data-stu-id="677f5-108">Some of the most common options are:</span></span>
 
--   งบทดลอง
--   รายงานทางการเงิน
--   ธุรกรรมใบสำคัญ
--   รายงานบัญชีแยกประเภท
+-   <span data-ttu-id="677f5-109">งบทดลอง</span><span class="sxs-lookup"><span data-stu-id="677f5-109">Trial balance</span></span>
+-   <span data-ttu-id="677f5-110">รายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="677f5-110">Financial reports</span></span>
+-   <span data-ttu-id="677f5-111">ธุรกรรมใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="677f5-111">Voucher transactions</span></span>
+-   <span data-ttu-id="677f5-112">รายงานบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="677f5-112">Ledger reports</span></span>
 
-วิธีธรรมดาที่สุดคือ หน้ารายการงบทดลองและรายงานทางการเงิน
+<span data-ttu-id="677f5-113">วิธีธรรมดาที่สุดคือ หน้ารายการงบทดลองและรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="677f5-113">The most common ways are the trial balance list page and financial reports.</span></span>
 
-## <a name="trial-balance"></a>งบทดลอง
-งบทดลองคือ หน้ารายการที่แสดงยอดดุลของบัญชีผู้ใช้และ/หรือมิติทั้งหมดสำหรับรอบระยะเวลาที่กำหนด เมื่อเปิดงบทดลองก่อน งบทดลองจะรีเฟรชด้วยยอดดุลสำหรับวันและคุณสมบัติที่ตั้งค่าในพารามิเตอร์ คุณสมบัติที่สามารถเปลี่ยนแปลงในพารามิเตอร์คือ วันที่ ชั้นที่ลงรายการบัญชี วิธีที่พวกเขาต้องการเปิดยอดดุลให้แสดงอยู่ และชนิดของธุรกรรมปิดบัญชีจะแสดงการลงรายการบัญชี 
+## <a name="trial-balance"></a><span data-ttu-id="677f5-114">งบทดลอง</span><span class="sxs-lookup"><span data-stu-id="677f5-114">Trial balance</span></span>
+<span data-ttu-id="677f5-115">งบทดลองคือ หน้ารายการที่แสดงยอดดุลของบัญชีผู้ใช้และ/หรือมิติทั้งหมดสำหรับรอบระยะเวลาที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="677f5-115">The trial balance is a list page that shows all of the balances of an account and/or dimensions for a given period of time.</span></span> <span data-ttu-id="677f5-116">เมื่อเปิดงบทดลองก่อน งบทดลองจะรีเฟรชด้วยยอดดุลสำหรับวันและคุณสมบัติที่ตั้งค่าในพารามิเตอร์</span><span class="sxs-lookup"><span data-stu-id="677f5-116">When the trial balance is first opened it refreshes with the balances for the dates and properties that are set in the Parameters.</span></span> <span data-ttu-id="677f5-117">คุณสมบัติที่สามารถเปลี่ยนแปลงในพารามิเตอร์คือ วันที่ ชั้นที่ลงรายการบัญชี วิธีที่พวกเขาต้องการเปิดยอดดุลให้แสดงอยู่ และชนิดของธุรกรรมปิดบัญชีจะแสดงการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="677f5-117">Properties that can be changed in Parameters are the dates, posting layer, how they want opening balances to appear, and what closing transaction types to show.</span></span> 
 
-เมื่อผู้ใช้เปลี่ยนพารามิเตอร์ ยอดดุลจะรีเฟรช ผู้ใช้ยังสามารถเลือกเซ็ตมิติ พวกเขาต้องการดูยอดดุล ว่าแต่ละมิติจะแสดงในคอลัมน์ที่แยกต่างหาก 
+<span data-ttu-id="677f5-118">เมื่อผู้ใช้เปลี่ยนพารามิเตอร์ ยอดดุลจะรีเฟรช</span><span class="sxs-lookup"><span data-stu-id="677f5-118">When a user changes the parameters the balances are refreshed.</span></span> <span data-ttu-id="677f5-119">ผู้ใช้ยังสามารถเลือกเซ็ตมิติ พวกเขาต้องการดูยอดดุล ว่าแต่ละมิติจะแสดงในคอลัมน์ที่แยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="677f5-119">The user can also pick what dimension set they want to view balances for and whether each of the dimensions show in separate columns.</span></span> 
 
-ผู้ใช้สามารถสามารถดูรายละเอียดแนวลึกของยอดดุลต่างๆ เพื่อดูธุรกรรมที่สร้างยอดดุลนั้นๆ    
+<span data-ttu-id="677f5-120">ผู้ใช้สามารถสามารถดูรายละเอียดแนวลึกของยอดดุลต่างๆ เพื่อดูธุรกรรมที่สร้างยอดดุลนั้นๆ</span><span class="sxs-lookup"><span data-stu-id="677f5-120">Users can drill down on the balances to view the transactions that make up the balance.</span></span>    
 
-สำหรับข้อมูลเพิ่มเติม ดู [ดูรายงานทางการเงิน](view-financial-reports.md)
+<span data-ttu-id="677f5-121">สำหรับข้อมูลเพิ่มเติม ดู [ดูรายงานทางการเงิน](view-financial-reports.md)</span><span class="sxs-lookup"><span data-stu-id="677f5-121">For more information, see [View financial reports](view-financial-reports.md).</span></span>
 
 
 

@@ -17,7 +17,7 @@ ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -27,139 +27,139 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="cost-accounting-terminology"></a>คำศัพท์การบัญชีต้นทุน
+# <a name="cost-accounting-terminology"></a><span data-ttu-id="e8db3-103">คำศัพท์การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-103">Cost accounting terminology</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้กำหนดเงื่อนไขสำคัญที่ใช้ในการบัญชีต้นทุน
+<span data-ttu-id="e8db3-104">หัวข้อนี้กำหนดเงื่อนไขสำคัญที่ใช้ในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
-**การบัญชีต้นทุน**
+<span data-ttu-id="e8db3-105">**การบัญชีต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-105">**Cost accounting**</span></span>
 
-การบัญชีต้นทุนช่วยให้คุณสามารถรวบรวมข้อมูลจากแหล่งที่มาหลายแหล่ง เช่น บัญชีแยกประเภททั่วไป บัญชีแยกประเภทย่อย งบประมาณ และข้อมูลทางสถิติ คุณสามารถวิเคราะห์ สรุป และประเมินข้อมูลต้นทุน เพื่อให้ฝ่ายบริหารสามารถทำการตัดสินใจได้ดีที่สุดสำหรับการอัพเดตราคา งบประมาณ การควบคุมต้นทุน และอื่นๆ แหล่งข้อมูลที่ใช้สำหรับการวิเคราะห์ต้นทุนจะถือเป็นอิสระในการบัญชีต้นทุน ดังนั้น การอัพเดตในการบัญชีต้นทุนจึงไม่มีผลต่อข้อมูลต้นทาง อย่างไรก็ตาม เมื่อคุณรวบรวมข้อมูลต้นทุนจากแหล่งข้อมูลต่างๆ และโดยเฉพาะอย่างยิ่ง เมื่อคุณนำเข้าบัญชีหลักจากบัญชีแยกประเภททั่วไปใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เป็นองค์ประกอบต้นทุน จะไม่มีข้อมูลซ้ำเนื่องจากมีข้อมูลเดียวกันในบัญชีแยกประเภททั่วไปและการบัญชีต้นทุน จำเป็นต้องมีการทำซ้ำนี้ เนื่องจากคุณใช้การจัดการทางการเงินสำหรับการรายงานภายนอกและการบัญชีต้นทุนสำหรับการรายงานภายใน
+<span data-ttu-id="e8db3-106">การบัญชีต้นทุนช่วยให้คุณสามารถรวบรวมข้อมูลจากแหล่งที่มาหลายแหล่ง เช่น บัญชีแยกประเภททั่วไป บัญชีแยกประเภทย่อย งบประมาณ และข้อมูลทางสถิติ</span><span class="sxs-lookup"><span data-stu-id="e8db3-106">Cost accounting lets you collect data from various sources, such as the general ledger, sub-ledgers, budgets, and statistical information.</span></span> <span data-ttu-id="e8db3-107">คุณสามารถวิเคราะห์ สรุป และประเมินข้อมูลต้นทุน เพื่อให้ฝ่ายบริหารสามารถทำการตัดสินใจได้ดีที่สุดสำหรับการอัพเดตราคา งบประมาณ การควบคุมต้นทุน และอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="e8db3-107">You can then analyze, summarize, and evaluate cost data, so that management can make the best possible decisions for price updates, budgets, cost control, and so on.</span></span> <span data-ttu-id="e8db3-108">แหล่งข้อมูลที่ใช้สำหรับการวิเคราะห์ต้นทุนจะถือเป็นอิสระในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-108">The source data that is used for cost analysis is treated independently in Cost accounting.</span></span> <span data-ttu-id="e8db3-109">ดังนั้น การอัพเดตในการบัญชีต้นทุนจึงไม่มีผลต่อข้อมูลต้นทาง</span><span class="sxs-lookup"><span data-stu-id="e8db3-109">Therefore, updates in Cost accounting don’t affect the source data.</span></span> <span data-ttu-id="e8db3-110">อย่างไรก็ตาม เมื่อคุณรวบรวมข้อมูลต้นทุนจากแหล่งข้อมูลต่างๆ และโดยเฉพาะอย่างยิ่ง เมื่อคุณนำเข้าบัญชีหลักจากบัญชีแยกประเภททั่วไปใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เป็นองค์ประกอบต้นทุน จะไม่มีข้อมูลซ้ำเนื่องจากมีข้อมูลเดียวกันในบัญชีแยกประเภททั่วไปและการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-110">However, when you collect cost data from various sources, and especially when you import the main accounts from General ledger in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition as cost elements, there is data redundancy, because the same data exists in both General ledger and Cost accounting.</span></span> <span data-ttu-id="e8db3-111">จำเป็นต้องมีการทำซ้ำนี้ เนื่องจากคุณใช้การจัดการทางการเงินสำหรับการรายงานภายนอกและการบัญชีต้นทุนสำหรับการรายงานภายใน</span><span class="sxs-lookup"><span data-stu-id="e8db3-111">This redundancy is required, because you use financial management for external reporting and Cost accounting for internal reporting.</span></span>
 
-**บัญชีแยกประเภทสำหรับการบัญชีต้นทุน**
+<span data-ttu-id="e8db3-112">**บัญชีแยกประเภทสำหรับการบัญชีต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-112">**Cost accounting ledger**</span></span>
 
-บัญชีแยกประเภทของการบัญชีต้นทุนเป็นกรอบงานเฉพาะที่กำหนดวิธีป้อนและแสดงกระบวนการ ค่า และปริมาณสำหรับพื้นที่เฉพาะในการบัญชีต้นทุน บัญชีแยกประเภทของการบัญชีต้นทุนกำหนดกระบวนการและกฎสำหรับการประเมินต้นทุนสำหรับออบเจ็กต์ต้นทุน โดยจะจัดการกับธุรกรรมต้นทุน และจัดการเอกสารที่บันทึกการเปลี่ยนแปลงค่าและปริมาณที่ธุรกรรมต้นทุนผลิต
+<span data-ttu-id="e8db3-113">บัญชีแยกประเภทของการบัญชีต้นทุนเป็นกรอบงานเฉพาะที่กำหนดวิธีป้อนและแสดงกระบวนการ ค่า และปริมาณสำหรับพื้นที่เฉพาะในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-113">The cost accounting ledger is a specialized framework that determines how processes, values, and quantities are entered and presented for a particular area in Cost accounting.</span></span> <span data-ttu-id="e8db3-114">บัญชีแยกประเภทของการบัญชีต้นทุนกำหนดกระบวนการและกฎสำหรับการประเมินต้นทุนสำหรับออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-114">The cost accounting ledger defines processes and rules for measuring costs on cost objects.</span></span> <span data-ttu-id="e8db3-115">โดยจะจัดการกับธุรกรรมต้นทุน และจัดการเอกสารที่บันทึกการเปลี่ยนแปลงค่าและปริมาณที่ธุรกรรมต้นทุนผลิต</span><span class="sxs-lookup"><span data-stu-id="e8db3-115">It handles cost transactions, and manages documents that record the changes in values and quantities that cost transactions produce.</span></span>
 
-**รายการของต้นทุน**
+<span data-ttu-id="e8db3-116">**รายการของต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-116">**Cost entry**</span></span>
 
-รายการต้นทุนเป็นผลลัพธ์ของการโอนย้ายผ่านตัวเชื่อมต่อข้อมูลจากรายการบัญชีแยกประเภททั่วไป การปันส่วนต้นทุน และรายการต้นทุนที่ลงรายการบัญชีในสมุดรายวันต้นทุน
+<span data-ttu-id="e8db3-117">รายการต้นทุนเป็นผลลัพธ์ของการโอนย้ายผ่านตัวเชื่อมต่อข้อมูลจากรายการบัญชีแยกประเภททั่วไป การปันส่วนต้นทุน และรายการต้นทุนที่ลงรายการบัญชีในสมุดรายวันต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-117">Cost entries are the result of a transfer via data connectors from general ledger entries, cost allocations, and posted cost entries in cost journals.</span></span>
 
-**ออบเจ็กต์ต้นทุน**
+<span data-ttu-id="e8db3-118">**ออบเจ็กต์ต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-118">**Cost object**</span></span>
 
-ออบเจ็กต์ต้นทุนคือออบเจ็กต์ชนิดใดๆ ที่ต้นทุนจะถูกปันส่วน นี่คือออบเจ็กต์ต้นทุนทั่วไปบางรายการ:
+<span data-ttu-id="e8db3-119">ออบเจ็กต์ต้นทุนคือออบเจ็กต์ชนิดใดๆ ที่ต้นทุนจะถูกปันส่วน</span><span class="sxs-lookup"><span data-stu-id="e8db3-119">Cost objects are any type of object that costs are allocated to.</span></span> <span data-ttu-id="e8db3-120">นี่คือออบเจ็กต์ต้นทุนทั่วไปบางรายการ:</span><span class="sxs-lookup"><span data-stu-id="e8db3-120">Here are some typical cost objects:</span></span>
 
--   ผลิตภัณฑ์
--   โครงการ
--   ทรัพยากร
--   แผนก
--   ศูนย์ต้นทุน
--   ภูมิภาคทางภูมิศาสตร์
+-   <span data-ttu-id="e8db3-121">ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="e8db3-121">Products</span></span>
+-   <span data-ttu-id="e8db3-122">โครงการ</span><span class="sxs-lookup"><span data-stu-id="e8db3-122">Projects</span></span>
+-   <span data-ttu-id="e8db3-123">ทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="e8db3-123">Resources</span></span>
+-   <span data-ttu-id="e8db3-124">แผนก</span><span class="sxs-lookup"><span data-stu-id="e8db3-124">Departments</span></span>
+-   <span data-ttu-id="e8db3-125">ศูนย์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-125">Cost centers</span></span>
+-   <span data-ttu-id="e8db3-126">ภูมิภาคทางภูมิศาสตร์</span><span class="sxs-lookup"><span data-stu-id="e8db3-126">Geographic regions</span></span>
 
-การจัดการใช้ออบเจ็กต์ต้นทุนในการวัดปริมาณต้นทุน แต่ยังใช้ในการกระตุ้นการวิเคราะห์ความสามารถในการทำกำไรอีกด้วย
+<span data-ttu-id="e8db3-127">การจัดการใช้ออบเจ็กต์ต้นทุนในการวัดปริมาณต้นทุน แต่ยังใช้ในการกระตุ้นการวิเคราะห์ความสามารถในการทำกำไรอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="e8db3-127">Management uses cost objects to quantify costs, but also to drive profitability analysis.</span></span>
 
-**องค์ประกอบต้นทุน**
+<span data-ttu-id="e8db3-128">**องค์ประกอบต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-128">**Cost element**</span></span>
 
-ใช้องค์ประกอบต้นทุนเป็นฟังก์ชันในการติดตามและจัดประเภทขั้นตอนของต้นทุน องค์ประกอบต้นทุนมีสองชนิด: ต้นทุนหลักและต้นทุนรอง **ต้นทุนหลัก** องค์ประกอบต้นทุนหลักแสดงถึงขั้นตอนของต้นทุนจากการลงบัญชีทางการเงินถึงการบัญชีต้นทุน โครงสร้างองค์ประกอบต้นทุนสอดคล้องกับโครงสร้างทางบัญชีกำไรขาดทุนในบัญชีแยกประเภททั่วไป ซึ่งองค์ประกอบต้นทุนอาจสอดคล้องกับบัญชีหลัก ไม่ใช่บัญชีหลักทั้งหมดที่จำเป็นต้องแสดงเป็นองค์ประกอบต้นทุนตามความต้องการทางธุรกิจ นี่คือตัวอย่างบางรายการขององค์ประกอบต้นทุนหลัก:
+<span data-ttu-id="e8db3-129">ใช้องค์ประกอบต้นทุนเป็นฟังก์ชันในการติดตามและจัดประเภทขั้นตอนของต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-129">Cost elements are used as a function to track and categorize where costs flow to.</span></span> <span data-ttu-id="e8db3-130">องค์ประกอบต้นทุนมีสองชนิด: ต้นทุนหลักและต้นทุนรอง</span><span class="sxs-lookup"><span data-stu-id="e8db3-130">There are two types of cost elements: primary costs and secondary costs.</span></span> <span data-ttu-id="e8db3-131">**ต้นทุนหลัก** องค์ประกอบต้นทุนหลักแสดงถึงขั้นตอนของต้นทุนจากการลงบัญชีทางการเงินถึงการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-131">**Primary costs** The primary cost elements represent the flow of costs from financial accounting to cost accounting.</span></span> <span data-ttu-id="e8db3-132">โครงสร้างองค์ประกอบต้นทุนสอดคล้องกับโครงสร้างทางบัญชีกำไรขาดทุนในบัญชีแยกประเภททั่วไป ซึ่งองค์ประกอบต้นทุนอาจสอดคล้องกับบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="e8db3-132">The cost element structure corresponds to the profit and loss account structure in the general ledger, where a cost element can correspond to a main account.</span></span> <span data-ttu-id="e8db3-133">ไม่ใช่บัญชีหลักทั้งหมดที่จำเป็นต้องแสดงเป็นองค์ประกอบต้นทุนตามความต้องการทางธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="e8db3-133">Not all main accounts must be represented as cost elements, depending on business requirements.</span></span> <span data-ttu-id="e8db3-134">นี่คือตัวอย่างบางรายการขององค์ประกอบต้นทุนหลัก:</span><span class="sxs-lookup"><span data-stu-id="e8db3-134">Here are some examples of primary cost elements:</span></span>
 
--   ต้นทุนขาย (COG)
--   ต้นทุนวัสดุทางอ้อม
--   ต้นทุนบุคลากร
--   ต้นทุนพลังงาน
+-   <span data-ttu-id="e8db3-135">ต้นทุนขาย (COG)</span><span class="sxs-lookup"><span data-stu-id="e8db3-135">Costs of goods sold (COGs)</span></span>
+-   <span data-ttu-id="e8db3-136">ต้นทุนวัสดุทางอ้อม</span><span class="sxs-lookup"><span data-stu-id="e8db3-136">Indirect material costs</span></span>
+-   <span data-ttu-id="e8db3-137">ต้นทุนบุคลากร</span><span class="sxs-lookup"><span data-stu-id="e8db3-137">Personnel costs</span></span>
+-   <span data-ttu-id="e8db3-138">ต้นทุนพลังงาน</span><span class="sxs-lookup"><span data-stu-id="e8db3-138">Energy costs</span></span>
 
-**ต้นทุนองค์ประกอบรอง** 
+<span data-ttu-id="e8db3-139">**ต้นทุนองค์ประกอบรอง**</span><span class="sxs-lookup"><span data-stu-id="e8db3-139">**Secondary cost element**</span></span> 
 
-องค์ประกอบต้นทุนรองแสดงถึงขั้นตอนของต้นทุนภายในเนื่องจากมีการสร้างและใช้ต้นทุนเหล่านี้ในการบัญชีต้นทุนเท่านั้น องค์ประกอบต้นทุนรองช่วยรับประกันว่าสามารถติดตามแหล่งที่มาของต้นทุนได้ องค์ประกอบต้นทุนเหล่านี้จะใช้ในการปันส่วนต้นทุนและการคำนวณค่าโสหุ้ย นี่คือตัวอย่างบางรายการขององค์ประกอบต้นทุนรอง:
+<span data-ttu-id="e8db3-140">องค์ประกอบต้นทุนรองแสดงถึงขั้นตอนของต้นทุนภายในเนื่องจากมีการสร้างและใช้ต้นทุนเหล่านี้ในการบัญชีต้นทุนเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="e8db3-140">The secondary cost elements represent the internal flow of costs, because these costs are created and used only in Cost accounting.</span></span> <span data-ttu-id="e8db3-141">องค์ประกอบต้นทุนรองช่วยรับประกันว่าสามารถติดตามแหล่งที่มาของต้นทุนได้</span><span class="sxs-lookup"><span data-stu-id="e8db3-141">Secondary cost elements help guarantee that the source of costs can be traced.</span></span> <span data-ttu-id="e8db3-142">องค์ประกอบต้นทุนเหล่านี้จะใช้ในการปันส่วนต้นทุนและการคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="e8db3-142">These cost elements are used in cost allocations and overhead calculations.</span></span> <span data-ttu-id="e8db3-143">นี่คือตัวอย่างบางรายการขององค์ประกอบต้นทุนรอง:</span><span class="sxs-lookup"><span data-stu-id="e8db3-143">Here are some examples of secondary cost elements:</span></span>
 
--   ต้นทุนการผลิต
--   ค่าโสหุ้ยการผลิต วัสดุ และการตลาด
+-   <span data-ttu-id="e8db3-144">ต้นทุนการผลิต</span><span class="sxs-lookup"><span data-stu-id="e8db3-144">Production costs</span></span>
+-   <span data-ttu-id="e8db3-145">ค่าโสหุ้ยการผลิต วัสดุ และการตลาด</span><span class="sxs-lookup"><span data-stu-id="e8db3-145">Production, material, and marketing overheads</span></span>
 
-**หน่วยการควบคุมต้นทุน**
+<span data-ttu-id="e8db3-146">**หน่วยการควบคุมต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-146">**Cost control unit**</span></span>
 
-หน่วยควบคุมต้นทุนแสดงโครงสร้างต้นทุน ซึ่งจะต้องเชื่อมโยงกับมิติออบเจ็กต์ต้นทุนในบัญชีแยกประเภทของการบัญชีต้นทุน
+<span data-ttu-id="e8db3-147">หน่วยควบคุมต้นทุนแสดงโครงสร้างต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-147">A cost control unit represents the cost structure.</span></span> <span data-ttu-id="e8db3-148">ซึ่งจะต้องเชื่อมโยงกับมิติออบเจ็กต์ต้นทุนในบัญชีแยกประเภทของการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-148">It must be associated with cost object dimensions in a cost accounting ledger.</span></span>
 
-**เวอร์ชัน**
+<span data-ttu-id="e8db3-149">**เวอร์ชัน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-149">**Version**</span></span>
 
-เวอร์ชันต่างๆ จะถูกใช้เพื่อจำลอง ดู และเปรียบเทียบผลลัพธ์ต่างๆ โดยค่าเริ่มต้น สามารถดูต้นทุนจริงทั้งหมดในเวอร์ชันพื้นฐานเดียวที่เรียกว่า *จริง* สำหรับงบประมาณและการคำนวณ คุณสามารถทำงานกับเวอร์ชันต่างๆ ได้มากเท่าที่คุณต้องการ ตัวอย่างเช่น คุณสามารถนำเข้าข้อมูลงบประมาณลงในเวอร์ชันดั้งเดิม แล้วปรับปรุงงบประมาณในเวอร์ชันที่ปรับปรุงแล้ว สำหรับการคำนวณ คุณสามารถสร้างเวอร์ชันหลายรายการ ในเวอร์ชันต่างๆ เหล่านี้ คุณสามารถสร้างการคำนวณโดยใช้กฎการคำนวณที่แตกต่างกันซึ่งจะใช้สำหรับการปันส่วนต้นทุน
+<span data-ttu-id="e8db3-150">เวอร์ชันต่างๆ จะถูกใช้เพื่อจำลอง ดู และเปรียบเทียบผลลัพธ์ต่างๆ</span><span class="sxs-lookup"><span data-stu-id="e8db3-150">Versions are used to simulate, view, and compare various outcomes.</span></span> <span data-ttu-id="e8db3-151">โดยค่าเริ่มต้น สามารถดูต้นทุนจริงทั้งหมดในเวอร์ชันพื้นฐานเดียวที่เรียกว่า *จริง*</span><span class="sxs-lookup"><span data-stu-id="e8db3-151">By default, all actual costs are viewed in one base version that is known as *actual*.</span></span> <span data-ttu-id="e8db3-152">สำหรับงบประมาณและการคำนวณ คุณสามารถทำงานกับเวอร์ชันต่างๆ ได้มากเท่าที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="e8db3-152">For budgets and calculations, you can work with as many versions as you require.</span></span> <span data-ttu-id="e8db3-153">ตัวอย่างเช่น คุณสามารถนำเข้าข้อมูลงบประมาณลงในเวอร์ชันดั้งเดิม แล้วปรับปรุงงบประมาณในเวอร์ชันที่ปรับปรุงแล้ว</span><span class="sxs-lookup"><span data-stu-id="e8db3-153">For example, you can import budget data into an original version and then revise the budget in a revised version.</span></span> <span data-ttu-id="e8db3-154">สำหรับการคำนวณ คุณสามารถสร้างเวอร์ชันหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="e8db3-154">For calculations, you can create multiple versions.</span></span> <span data-ttu-id="e8db3-155">ในเวอร์ชันต่างๆ เหล่านี้ คุณสามารถสร้างการคำนวณโดยใช้กฎการคำนวณที่แตกต่างกันซึ่งจะใช้สำหรับการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-155">In these various versions, you can then create calculations by using different calculation rules that will be applied for cost allocation.</span></span>
 
-**คำสั่ง**
+<span data-ttu-id="e8db3-156">**คำสั่ง**</span><span class="sxs-lookup"><span data-stu-id="e8db3-156">**Statement**</span></span>
 
-ใบแจ้งยอดคือมุมมองสำหรับผู้จัดการที่รับผิดชอบการควบคุมต้นทุน ใบแจ้งยอดจะถูกกำหนดโดยผู้ควบคุมต้นทุนและจะให้ภาพรวมโดยย่อของต้นทุนจริงและต้นทุนที่จัดงบประมาณ และแม้กระทั่งความแตกต่างและเวอร์ชันการคำนวณ เพื่อช่วยในการรับประกันว่าผู้จัดการดูได้เฉพาะข้อมูลที่พวกเขารับผิดชอบ ข้อมูลที่ปรากฏในใบแจ้งยอดจะอยู่ภายใต้กฎการเข้าถึง
+<span data-ttu-id="e8db3-157">ใบแจ้งยอดคือมุมมองสำหรับผู้จัดการที่รับผิดชอบการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-157">Statements are views for the managers who are responsible for controlling costs.</span></span> <span data-ttu-id="e8db3-158">ใบแจ้งยอดจะถูกกำหนดโดยผู้ควบคุมต้นทุนและจะให้ภาพรวมโดยย่อของต้นทุนจริงและต้นทุนที่จัดงบประมาณ และแม้กระทั่งความแตกต่างและเวอร์ชันการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="e8db3-158">Statements are defined by a cost controller, and they give a quick overview of actual and budgeted costs, and even deviations and calculation versions.</span></span> <span data-ttu-id="e8db3-159">เพื่อช่วยในการรับประกันว่าผู้จัดการดูได้เฉพาะข้อมูลที่พวกเขารับผิดชอบ ข้อมูลที่ปรากฏในใบแจ้งยอดจะอยู่ภายใต้กฎการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="e8db3-159">To help guarantee that managers view only data that they are accountable for, data that appears in the statements is subject to access rules.</span></span>
 
-**ตัวเชื่อมต่อข้อมูล**
+<span data-ttu-id="e8db3-160">**ตัวเชื่อมต่อข้อมูล**</span><span class="sxs-lookup"><span data-stu-id="e8db3-160">**Data connector**</span></span>
 
-คุณสามารถนำเข้าข้อมูลลงในการบัญชีต้นทุนจากระบบภายนอกผ่านตัวเชื่อมต่อข้อมูล ตัวอย่างเช่น คุณสามารถนำเข้าโครงสร้างทางบัญชี มิติ รายการบัญชีแยกประเภททั่วไป และรายการงบประมาณ คุณสามารถใช้ตัวเชื่อมต่อข้อมูลที่กำหนดไว้ล่วงหน้าหรือตัวเชื่อมต่อที่กำหนดเองเพื่อนำเข้าข้อมูลและสร้างการเชื่อมต่อข้อมูล
+<span data-ttu-id="e8db3-161">คุณสามารถนำเข้าข้อมูลลงในการบัญชีต้นทุนจากระบบภายนอกผ่านตัวเชื่อมต่อข้อมูล</span><span class="sxs-lookup"><span data-stu-id="e8db3-161">Data can be imported into Cost accounting from external systems via data connectors.</span></span> <span data-ttu-id="e8db3-162">ตัวอย่างเช่น คุณสามารถนำเข้าโครงสร้างทางบัญชี มิติ รายการบัญชีแยกประเภททั่วไป และรายการงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="e8db3-162">For example, you can import account structures, dimensions, general ledger entries, and budget entries.</span></span> <span data-ttu-id="e8db3-163">คุณสามารถใช้ตัวเชื่อมต่อข้อมูลที่กำหนดไว้ล่วงหน้าหรือตัวเชื่อมต่อที่กำหนดเองเพื่อนำเข้าข้อมูลและสร้างการเชื่อมต่อข้อมูล</span><span class="sxs-lookup"><span data-stu-id="e8db3-163">You can use preconfigured data connectors or custom connectors to import data and create data connections.</span></span>
 
-**การจัดประเภทต้นทุน**
+<span data-ttu-id="e8db3-164">**การจัดประเภทต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-164">**Cost classification**</span></span>
 
-การจัดประเภทต้นทุนจัดกลุ่มต้นทุนตามลักษณะที่มีร่วมกัน ตัวอย่างเช่น สามารถจัดกลุ่มต้นทุนตามองค์ประกอบ ความสามารถในการติดตาม และลักษณะการทำงาน
+<span data-ttu-id="e8db3-165">การจัดประเภทต้นทุนจัดกลุ่มต้นทุนตามลักษณะที่มีร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="e8db3-165">Cost classification groups costs according to their shared characteristics.</span></span> <span data-ttu-id="e8db3-166">ตัวอย่างเช่น สามารถจัดกลุ่มต้นทุนตามองค์ประกอบ ความสามารถในการติดตาม และลักษณะการทำงาน</span><span class="sxs-lookup"><span data-stu-id="e8db3-166">For example, costs can be grouped by elements, traceability, and behavior.</span></span>
 
--   **ตามองค์ประกอบ** – วัสดุ แรงงาน และค่าใช้จ่าย
--   **ตามความสามารถในการติดตาม** – ต้นทุนทางตรงและต้นทุนทางอ้อม มีการกำหนดต้นทุนทางตรงให้กับออบเจ็กต์ต้นทุนโดยตรง ต้นทุนทางอ้อมไม่สามารถติดตามได้โดยตรงกับออบเจ็กต์ต้นทุน ต้นทุนทางอ้อมจะถูกปันส่วนให้กับออบเจ็กต์ต้นทุน
--   **ตามลักษณะการทำงาน** – คงที่ ผันแปร และกึ่งผันแปร
+-   <span data-ttu-id="e8db3-167">**ตามองค์ประกอบ** – วัสดุ แรงงาน และค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="e8db3-167">**By elements** – Materials, labor, and expenses.</span></span>
+-   <span data-ttu-id="e8db3-168">**ตามความสามารถในการติดตาม** – ต้นทุนทางตรงและต้นทุนทางอ้อม</span><span class="sxs-lookup"><span data-stu-id="e8db3-168">**By traceability** – Direct costs and indirect costs.</span></span> <span data-ttu-id="e8db3-169">มีการกำหนดต้นทุนทางตรงให้กับออบเจ็กต์ต้นทุนโดยตรง</span><span class="sxs-lookup"><span data-stu-id="e8db3-169">Direct costs are assigned directly to cost objects.</span></span> <span data-ttu-id="e8db3-170">ต้นทุนทางอ้อมไม่สามารถติดตามได้โดยตรงกับออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-170">Indirect costs aren't directly traceable to cost objects.</span></span> <span data-ttu-id="e8db3-171">ต้นทุนทางอ้อมจะถูกปันส่วนให้กับออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-171">Indirect costs are allocated to cost objects.</span></span>
+-   <span data-ttu-id="e8db3-172">**ตามลักษณะการทำงาน** – คงที่ ผันแปร และกึ่งผันแปร</span><span class="sxs-lookup"><span data-stu-id="e8db3-172">**By behavior** – Fixed, variable, and semi-variable.</span></span>
 
-**พฤติกรรมต้นทุน**
+<span data-ttu-id="e8db3-173">**พฤติกรรมต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-173">**Cost behavior**</span></span>
 
-ลักษณะการทำงานของต้นทุนจะจัดประเภทต้นทุนตามลักษณะการทำงานที่เกี่ยวข้องกับการเปลี่ยนแปลงของกิจกรรมทางธุรกิจที่สำคัญ เมื่อต้องการควบคุมต้นทุนอย่างมีประสิทธิภาพ ฝ่ายบริหารจะต้องเข้าใจลักษณะการทำงานของต้นทุน รูปแบบลักษณะการทำงานของต้นทุนมีสามชนิด: คงที่ ผันแปร และกึ่งผันแปร
+<span data-ttu-id="e8db3-174">ลักษณะการทำงานของต้นทุนจะจัดประเภทต้นทุนตามลักษณะการทำงานที่เกี่ยวข้องกับการเปลี่ยนแปลงของกิจกรรมทางธุรกิจที่สำคัญ</span><span class="sxs-lookup"><span data-stu-id="e8db3-174">Cost behavior classifies costs according to their behavior in relation to changes in key business activities.</span></span> <span data-ttu-id="e8db3-175">เมื่อต้องการควบคุมต้นทุนอย่างมีประสิทธิภาพ ฝ่ายบริหารจะต้องเข้าใจลักษณะการทำงานของต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-175">To control costs effectively, management must understand the cost behavior.</span></span> <span data-ttu-id="e8db3-176">รูปแบบลักษณะการทำงานของต้นทุนมีสามชนิด: คงที่ ผันแปร และกึ่งผันแปร</span><span class="sxs-lookup"><span data-stu-id="e8db3-176">There are three types of cost behavior pattern: fixed, variable, and semi-variable.</span></span>
 
-- **ต้นทุนคงที่** - ต้นทุนคงที่คือต้นทุนที่ไม่มีความแตกต่างกันในระยะสั้น โดยไม่คำนึงถึงการเปลี่ยนแปลงในระดับกิจกรรม ตัวอย่างเช่น ต้นทุนคงที่อาจเป็นค่าใช้จ่ายการดำเนินงานพื้นฐานของธุรกิจ เช่น ค่าเช่าที่ไม่ได้รับผลกระทบแม้ว่าระดับกิจกรรมจะเพิ่มหรือลด
+- <span data-ttu-id="e8db3-177">**ต้นทุนคงที่** - ต้นทุนคงที่คือต้นทุนที่ไม่มีความแตกต่างกันในระยะสั้น โดยไม่คำนึงถึงการเปลี่ยนแปลงในระดับกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="e8db3-177">**Fixed cost** - A fixed cost is a cost that doesn't vary in the short term, regardless of changes in activity level.</span></span> <span data-ttu-id="e8db3-178">ตัวอย่างเช่น ต้นทุนคงที่อาจเป็นค่าใช้จ่ายการดำเนินงานพื้นฐานของธุรกิจ เช่น ค่าเช่าที่ไม่ได้รับผลกระทบแม้ว่าระดับกิจกรรมจะเพิ่มหรือลด</span><span class="sxs-lookup"><span data-stu-id="e8db3-178">For example, a fixed cost can be a basic operating expense of a business, such as rent, that won't be affected even if the activity level increases or decreases.</span></span>
 
-- **ต้นทุนผันแปร** - ต้นทุนผันแปรเปลี่ยนไปตามการเปลี่ยนแปลงในระดับกิจกรรม ตัวอย่างเช่น ต้นทุนวัสดุทางตรงที่เฉพาะเจาะจงจะเชื่อมโยงกับแต่ละผลิตภัณฑ์ที่ขาย ยิ่งมีผลิตภัณฑ์ที่ถูกขายมากเท่าใด ต้นทุนวัสดุอ้อมก็มากขึ้นเท่านั้น
+- <span data-ttu-id="e8db3-179">**ต้นทุนผันแปร** - ต้นทุนผันแปรเปลี่ยนไปตามการเปลี่ยนแปลงในระดับกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="e8db3-179">**Variable cost** - A variable cost changes according to changes in activity level.</span></span> <span data-ttu-id="e8db3-180">ตัวอย่างเช่น ต้นทุนวัสดุทางตรงที่เฉพาะเจาะจงจะเชื่อมโยงกับแต่ละผลิตภัณฑ์ที่ขาย</span><span class="sxs-lookup"><span data-stu-id="e8db3-180">For example, a specific direct materials cost is associated with each product that is sold.</span></span> <span data-ttu-id="e8db3-181">ยิ่งมีผลิตภัณฑ์ที่ถูกขายมากเท่าใด ต้นทุนวัสดุอ้อมก็มากขึ้นเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="e8db3-181">The more products that are sold, the more direct materials costs there are.</span></span>
 
-- **ต้นทุนผันแปรกึ่ง** - ต้นทุนผันแปรกึ่งคือต้นทุนที่คงที่บางส่วน และผันแปรบางส่วน ตัวอย่างเช่น ค่าธรรมเนียมการเข้าถึงอินเทอร์เน็ตรวมค่าธรรมเนียมการเข้าถึงรายเดือนมาตรฐานและค่าธรรมเนียมการใช้บรอดแบนด์ ค่าธรรมเนียมการเข้าถึงรายเดือนมาตรฐานเป็นต้นทุนคงที่ ในขณะที่ค่าธรรมเนียมการใช้บรอดแบนด์เป็นต้นทุนผันแปร
+- <span data-ttu-id="e8db3-182">**ต้นทุนผันแปรกึ่ง** - ต้นทุนผันแปรกึ่งคือต้นทุนที่คงที่บางส่วน และผันแปรบางส่วน</span><span class="sxs-lookup"><span data-stu-id="e8db3-182">**Semi-variable cost** - Semi-variable costs are partly fixed and partly variable costs.</span></span> <span data-ttu-id="e8db3-183">ตัวอย่างเช่น ค่าธรรมเนียมการเข้าถึงอินเทอร์เน็ตรวมค่าธรรมเนียมการเข้าถึงรายเดือนมาตรฐานและค่าธรรมเนียมการใช้บรอดแบนด์</span><span class="sxs-lookup"><span data-stu-id="e8db3-183">For example, an Internet access fee includes a standard monthly access fee and a broadband usage fee.</span></span> <span data-ttu-id="e8db3-184">ค่าธรรมเนียมการเข้าถึงรายเดือนมาตรฐานเป็นต้นทุนคงที่ ในขณะที่ค่าธรรมเนียมการใช้บรอดแบนด์เป็นต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="e8db3-184">The standard monthly access fee is a fixed cost, whereas the broadband usage fee is a variable cost.</span></span>
 
-**ต้นทุนค่าโสหุ้ย**
+<span data-ttu-id="e8db3-185">**ต้นทุนค่าโสหุ้ย**</span><span class="sxs-lookup"><span data-stu-id="e8db3-185">**Overhead cost**</span></span>
 
-ต้นทุนค่าโสหุ้ยอ้างอิงถึงค่าใช้จ่ายต่อเนื่องของการดำเนินธุรกิจ นี่คือต้นทุนที่ไม่สามารถเชื่อมโยงกับกิจกรรมทางธุรกิจโดยตรง ต่อไปนี้เป็นตัวอย่างบางรายการของต้นทุนค่าโสหุ้ย:
+<span data-ttu-id="e8db3-186">ต้นทุนค่าโสหุ้ยอ้างอิงถึงค่าใช้จ่ายต่อเนื่องของการดำเนินธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="e8db3-186">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="e8db3-187">นี่คือต้นทุนที่ไม่สามารถเชื่อมโยงกับกิจกรรมทางธุรกิจโดยตรง</span><span class="sxs-lookup"><span data-stu-id="e8db3-187">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="e8db3-188">ต่อไปนี้เป็นตัวอย่างบางรายการของต้นทุนค่าโสหุ้ย:</span><span class="sxs-lookup"><span data-stu-id="e8db3-188">Here are some examples of overhead costs:</span></span>
 
--   ค่าธรรมเนียมทางบัญชี
--   ค่าเสื่อมราคา
--   การประกัน
--   ความสนใจ
--   ค่าธรรมเนียมทางกฎหมาย
--   ภาษี
--   ต้นทุนสาธารณูปโภค
+-   <span data-ttu-id="e8db3-189">ค่าธรรมเนียมทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="e8db3-189">Accounting fees</span></span>
+-   <span data-ttu-id="e8db3-190">ค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="e8db3-190">Depreciations</span></span>
+-   <span data-ttu-id="e8db3-191">การประกัน</span><span class="sxs-lookup"><span data-stu-id="e8db3-191">Insurance</span></span>
+-   <span data-ttu-id="e8db3-192">ความสนใจ</span><span class="sxs-lookup"><span data-stu-id="e8db3-192">Interest</span></span>
+-   <span data-ttu-id="e8db3-193">ค่าธรรมเนียมทางกฎหมาย</span><span class="sxs-lookup"><span data-stu-id="e8db3-193">Legal fees</span></span>
+-   <span data-ttu-id="e8db3-194">ภาษี</span><span class="sxs-lookup"><span data-stu-id="e8db3-194">Taxes</span></span>
+-   <span data-ttu-id="e8db3-195">ต้นทุนสาธารณูปโภค</span><span class="sxs-lookup"><span data-stu-id="e8db3-195">Utilities costs</span></span>
 
-**การกระจายต้นทุน**
+<span data-ttu-id="e8db3-196">**การกระจายต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-196">**Cost distribution**</span></span>
 
-การกระจายต้นทุนจะใช้ในการกระจายต้นทุนจากออบเจ็กต์ต้นทุนหนึ่งไปยังออบเจ็กต์ต้นทุนอื่นอย่างน้อยหนึ่งรายการโดยใช้ฐานการปันส่วนที่เกี่ยวข้อง การกระจายต้นทุนและการปันส่วนต้นทุนแตกต่างกันในแง่ที่ว่าการกระจายต้นทุนจะเกิดขึ้นในระดับขององค์ประกอบต้นทุนหลักของต้นทุนเดิมเสมอ
+<span data-ttu-id="e8db3-197">การกระจายต้นทุนจะใช้ในการกระจายต้นทุนจากออบเจ็กต์ต้นทุนหนึ่งไปยังออบเจ็กต์ต้นทุนอื่นอย่างน้อยหนึ่งรายการโดยใช้ฐานการปันส่วนที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="e8db3-197">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="e8db3-198">การกระจายต้นทุนและการปันส่วนต้นทุนแตกต่างกันในแง่ที่ว่าการกระจายต้นทุนจะเกิดขึ้นในระดับขององค์ประกอบต้นทุนหลักของต้นทุนเดิมเสมอ</span><span class="sxs-lookup"><span data-stu-id="e8db3-198">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
 
-**การปันส่วนต้นทุน**
+<span data-ttu-id="e8db3-199">**การปันส่วนต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-199">**Cost allocation**</span></span>
 
-การปันส่วนถูกนำมาใช้ในการปันส่วนยอดดุลของออบเจ็กต์ต้นทุนหนึ่งกับออบเจ็กต์ต้นทุนอื่นโดยใช้ฐานการปันส่วน Finance and Operations สนับสนุนวิธีการปันส่วนต่างตอบแทน ในวิธีการปันส่วนต่างตอบแทน มีการรับรู้การบริการที่มีร่วมกันที่ออบเจ็กต์ต้นทุนเสริมแลกเปลี่ยนทั้งหมด ระบบกำหนดลำดับที่ถูกต้องในการดำเนินการปันส่วนโดยอัตโนมัติ ยอดดุลของออบเจ็กต์ต้นทุนมีการปันส่วนโดยฐานการปันส่วนเดียว การปันส่วนในมิติออบเจ็กต์ต้นทุนและสมาชิกที่เกี่ยวข้องได้รับการสนับสนุน ลำดับการปันส่วนจะถูกควบคุมโดยหน่วยควบคุมต้นทุน
+<span data-ttu-id="e8db3-200">การปันส่วนถูกนำมาใช้ในการปันส่วนยอดดุลของออบเจ็กต์ต้นทุนหนึ่งกับออบเจ็กต์ต้นทุนอื่นโดยใช้ฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="e8db3-200">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="e8db3-201">Finance and Operations สนับสนุนวิธีการปันส่วนต่างตอบแทน</span><span class="sxs-lookup"><span data-stu-id="e8db3-201">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="e8db3-202">ในวิธีการปันส่วนต่างตอบแทน มีการรับรู้การบริการที่มีร่วมกันที่ออบเจ็กต์ต้นทุนเสริมแลกเปลี่ยนทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="e8db3-202">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="e8db3-203">ระบบกำหนดลำดับที่ถูกต้องในการดำเนินการปันส่วนโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="e8db3-203">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="e8db3-204">ยอดดุลของออบเจ็กต์ต้นทุนมีการปันส่วนโดยฐานการปันส่วนเดียว</span><span class="sxs-lookup"><span data-stu-id="e8db3-204">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="e8db3-205">การปันส่วนในมิติออบเจ็กต์ต้นทุนและสมาชิกที่เกี่ยวข้องได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-205">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="e8db3-206">ลำดับการปันส่วนจะถูกควบคุมโดยหน่วยควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-206">The allocation order is controlled by the cost control unit.</span></span>
 
-**นโยบายการปันส่วนต้นทุน**
+<span data-ttu-id="e8db3-207">**นโยบายการปันส่วนต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-207">**Cost allocation policy**</span></span>
 
-นโยบายการปันส่วนต้นทุนกำหนดจำนวนเงินและปริมาณที่ต้องมีการปันส่วน กฎการปันส่วนรวมถึงกฎต้นทางของการปันส่วนที่กำหนดต้นทุนที่ปันส่วน และกฎเป้าหมายของการปันส่วนที่กำหนดว่าจะปันส่วนไปที่ใด ตัวอย่างเช่น ต้นทุนทั้งหมดสำหรับการบริการสิ่งอำนวยความสะดวกคือ ต้นทางของการปันส่วนที่สามารถปันส่วนไปยังแผนกต่างๆ ในองค์กร (ซึ่งคือ เป้าหมายการปันส่วน)
+<span data-ttu-id="e8db3-208">นโยบายการปันส่วนต้นทุนกำหนดจำนวนเงินและปริมาณที่ต้องมีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="e8db3-208">A cost allocation policy defines the amounts and quantities that must be allocated.</span></span> <span data-ttu-id="e8db3-209">กฎการปันส่วนรวมถึงกฎต้นทางของการปันส่วนที่กำหนดต้นทุนที่ปันส่วน และกฎเป้าหมายของการปันส่วนที่กำหนดว่าจะปันส่วนไปที่ใด</span><span class="sxs-lookup"><span data-stu-id="e8db3-209">Allocation rules include allocation source rules, which determine the costs that are allocated, and allocation targets rules, which determine where the costs are allocated.</span></span> <span data-ttu-id="e8db3-210">ตัวอย่างเช่น ต้นทุนทั้งหมดสำหรับการบริการสิ่งอำนวยความสะดวกคือ ต้นทางของการปันส่วนที่สามารถปันส่วนไปยังแผนกต่างๆ ในองค์กร (ซึ่งคือ เป้าหมายการปันส่วน)</span><span class="sxs-lookup"><span data-stu-id="e8db3-210">For example, all costs for facility services are an allocation source that can be allocated to various departments in an organization (that is, to allocation targets).</span></span>
 
-**ฐานของการปันส่วน**
+<span data-ttu-id="e8db3-211">**ฐานของการปันส่วน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-211">**Allocation base**</span></span>
 
-ฐานการปันส่วนเป็นข้อมูลพื้นฐานที่สามารถใช้เพื่อวัดและกำหนดปริมาณกิจกรรม เช่น จำนวนชั่วโมงที่ใช้เครื่องจักร จำนวนชั่วโมงเป็นกิโลวัตต์ที่ใช้ จำนวนชั่วโมงแรงงานโดยตรงที่ใช้ หรือตารางฟุตที่ใช้ โดยจะถูกใช้ในการปันส่วนต้นทุนไปยังออบเจ็กต์ต้นทุนอย่างน้อยหนึ่งรายการ
+<span data-ttu-id="e8db3-212">ฐานการปันส่วนเป็นข้อมูลพื้นฐานที่สามารถใช้เพื่อวัดและกำหนดปริมาณกิจกรรม เช่น จำนวนชั่วโมงที่ใช้เครื่องจักร จำนวนชั่วโมงเป็นกิโลวัตต์ที่ใช้ จำนวนชั่วโมงแรงงานโดยตรงที่ใช้ หรือตารางฟุตที่ใช้</span><span class="sxs-lookup"><span data-stu-id="e8db3-212">The allocation base is the basis that can be used to measure and quantify activities, such as machine hours that are used, kilowatt hours that are consumed, direct labor hours that are spent, or square footage that is occupied.</span></span> <span data-ttu-id="e8db3-213">โดยจะถูกใช้ในการปันส่วนต้นทุนไปยังออบเจ็กต์ต้นทุนอย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="e8db3-213">It's used to allocate costs to one or more cost objects.</span></span>
 
-**หลักการปันส่วน**
+<span data-ttu-id="e8db3-214">**หลักการปันส่วน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-214">**Allocation principle**</span></span>
 
-หนึ่งในหลักการปันส่วนคือเพื่อปันส่วนต้นทุนตามอัตราต้นทุน คุณสามารถเลือกที่จะปันส่วนต้นทุนโดยใช้อัตรารอบระยะเวลาที่เกิดขึ้นจริงหรืออัตราในอดีต การปันส่วนที่ใช้วิธีการต่างตอบแทนในการช่วยรับประกันว่าฐานการปันส่วนนั้นถูกกำหนดตามชุดของสมการที่เกิดขึ้นพร้อมกันก่อนที่จะทำการปันส่วนให้เสร็จสมบูรณ์โดยใช้อัตรารอบระยะเวลาที่เกิดขึ้นจริง
+<span data-ttu-id="e8db3-215">หนึ่งในหลักการปันส่วนคือเพื่อปันส่วนต้นทุนตามอัตราต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-215">One of the allocation principles is to allocate cost by cost rate.</span></span> <span data-ttu-id="e8db3-216">คุณสามารถเลือกที่จะปันส่วนต้นทุนโดยใช้อัตรารอบระยะเวลาที่เกิดขึ้นจริงหรืออัตราในอดีต</span><span class="sxs-lookup"><span data-stu-id="e8db3-216">You can choose to allocate costs by using the actual period rate or a historical rate.</span></span> <span data-ttu-id="e8db3-217">การปันส่วนที่ใช้วิธีการต่างตอบแทนในการช่วยรับประกันว่าฐานการปันส่วนนั้นถูกกำหนดตามชุดของสมการที่เกิดขึ้นพร้อมกันก่อนที่จะทำการปันส่วนให้เสร็จสมบูรณ์โดยใช้อัตรารอบระยะเวลาที่เกิดขึ้นจริง</span><span class="sxs-lookup"><span data-stu-id="e8db3-217">Allocation that uses the reciprocal method helps guarantee that the allocation base is determined by a series of simultaneous equations before allocation is done by using the actual period rate.</span></span>
 
-**การรวบรวมต้นทุน**
+<span data-ttu-id="e8db3-218">**การรวบรวมต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-218">**Cost roll-up**</span></span>
 
-วัตถุประสงค์ของการรวบรวมต้นทุนคือเพื่อรวมต้นทุนทั้งหมดสำหรับออบเจ็กต์ต้นทุนที่กำหนด ระดับของการรวมจะกำหนดโดยผู้ใช้ โดยการใช้การรวบรวมต้นทุน คุณสามารถรวมองค์ประกอบต้นทุนที่ต้องปันส่วนจากออบเจ็กต์ต้นทุนหนึ่งไปยังอีกรายการหนึ่ง เมื่อไม่มีการใช้การรวบรวมต้นทุน แต่ละองค์ประกอบของต้นทุนจะถูกปันส่วนจากออบเจ็กต์ต้นทุนหนึ่งไปยังอีกรายการหนึ่ง
+<span data-ttu-id="e8db3-219">วัตถุประสงค์ของการรวบรวมต้นทุนคือเพื่อรวมต้นทุนทั้งหมดสำหรับออบเจ็กต์ต้นทุนที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="e8db3-219">The purpose of cost roll-up is to include all costs for a given cost object.</span></span> <span data-ttu-id="e8db3-220">ระดับของการรวมจะกำหนดโดยผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="e8db3-220">The level of aggregation is user-defined.</span></span> <span data-ttu-id="e8db3-221">โดยการใช้การรวบรวมต้นทุน คุณสามารถรวมองค์ประกอบต้นทุนที่ต้องปันส่วนจากออบเจ็กต์ต้นทุนหนึ่งไปยังอีกรายการหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e8db3-221">By using cost roll-up, you can aggregate elements of costs that must be allocated from one cost object to another.</span></span> <span data-ttu-id="e8db3-222">เมื่อไม่มีการใช้การรวบรวมต้นทุน แต่ละองค์ประกอบของต้นทุนจะถูกปันส่วนจากออบเจ็กต์ต้นทุนหนึ่งไปยังอีกรายการหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e8db3-222">When cost roll-up isn't used, every single element of costs is allocated from one cost object to another.</span></span>
 
-**นโยบายอัตราต้นทุน**
+<span data-ttu-id="e8db3-223">**นโยบายอัตราต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="e8db3-223">**Cost rate policy**</span></span>
 
-อัตราต้นทุนจะถูกใช้ในการคำนวณราคาสำหรับออบเจ็กต์ต้นทุนแต่ละรายการ เพื่อให้เข้าใจถึงองค์ประกอบของราคา คุณจะต้องกำหนดนโยบายอัตราต้นทุน อัตราต้นทุนมีสองชนิด: อัตราต้นทุนในอดีตและอัตราต้นทุนที่วางแผนไว้ อัตราต้นทุนในอดีตคือ อัตราที่ผ่านการคำนวณแล้วที่จะใช้เป็นตัวคูณสำหรับฐานการปันส่วนออบเจ็กต์ต้นทุน อัตราจะถูกคำนวณตามการปันส่วนต้นทุนในรอบระยะเวลาก่อนหน้านี้ อัตราที่วางแผนไว้คือ อัตราที่ผู้ใช้กำหนด
+<span data-ttu-id="e8db3-224">อัตราต้นทุนจะถูกใช้ในการคำนวณราคาสำหรับออบเจ็กต์ต้นทุนแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="e8db3-224">The cost rate is used to calculate price per cost object.</span></span> <span data-ttu-id="e8db3-225">เพื่อให้เข้าใจถึงองค์ประกอบของราคา คุณจะต้องกำหนดนโยบายอัตราต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-225">To understand the elements of the price, you define cost rate policies.</span></span> <span data-ttu-id="e8db3-226">อัตราต้นทุนมีสองชนิด: อัตราต้นทุนในอดีตและอัตราต้นทุนที่วางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="e8db3-226">There are two types of cost rate: historical cost rate and planned cost rate.</span></span> <span data-ttu-id="e8db3-227">อัตราต้นทุนในอดีตคือ อัตราที่ผ่านการคำนวณแล้วที่จะใช้เป็นตัวคูณสำหรับฐานการปันส่วนออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-227">A historical cost rate is a calculated rate that is used as a multiplier for the allocation base of a cost object.</span></span> <span data-ttu-id="e8db3-228">อัตราจะถูกคำนวณตามการปันส่วนต้นทุนในรอบระยะเวลาก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="e8db3-228">The rate is calculated based on the cost allocations in the previous period.</span></span> <span data-ttu-id="e8db3-229">อัตราที่วางแผนไว้คือ อัตราที่ผู้ใช้กำหนด</span><span class="sxs-lookup"><span data-stu-id="e8db3-229">A planned rate is a user-defined rate.</span></span>
 
-**ลำดับชั้นของมิติ**
+<span data-ttu-id="e8db3-230">**ลำดับชั้นของมิติ**</span><span class="sxs-lookup"><span data-stu-id="e8db3-230">**Dimensional hierarchy**</span></span>
 
-ลำดับชั้นของมิติจะถูกใช้เป็นโครงสร้างการรายงานเมื่อคุณกำหนดกฎสำหรับการปันส่วน อัตราต้นทุน การรวบรวมต้นทุน ดูรายงานหรือข้อมูลใน Microsoft Excel และกำหนดการเข้าถึงข้อมูลรวม ลำดับชั้นมิติมีสองรายการ: ลำดับชั้นการแบ่งประเภทและลำดับชั้นการจัดประเภท ลำดับชั้นการแบ่งประเภทจะถูกกำหนดตามองค์ประกอบต้นทุน ในขณะที่ลำดับชั้นการจัดประเภทตามจะถูกกำหนดตามออบเจ็กต์ต้นทุน
+<span data-ttu-id="e8db3-231">ลำดับชั้นของมิติจะถูกใช้เป็นโครงสร้างการรายงานเมื่อคุณกำหนดกฎสำหรับการปันส่วน อัตราต้นทุน การรวบรวมต้นทุน ดูรายงานหรือข้อมูลใน Microsoft Excel และกำหนดการเข้าถึงข้อมูลรวม</span><span class="sxs-lookup"><span data-stu-id="e8db3-231">Dimension hierarchies are used as reporting structures when you define rules for allocation, cost rate, and cost roll-up, view statements or data in Microsoft Excel, and define access to the aggregated data.</span></span> <span data-ttu-id="e8db3-232">ลำดับชั้นมิติมีสองรายการ: ลำดับชั้นการแบ่งประเภทและลำดับชั้นการจัดประเภท</span><span class="sxs-lookup"><span data-stu-id="e8db3-232">There are two dimension hierarchies: categorization hierarchy and classification hierarchy.</span></span> <span data-ttu-id="e8db3-233">ลำดับชั้นการแบ่งประเภทจะถูกกำหนดตามองค์ประกอบต้นทุน ในขณะที่ลำดับชั้นการจัดประเภทตามจะถูกกำหนดตามออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-233">A categorization hierarchy is defined based on cost elements, whereas a classification hierarchy is defined based on cost objects.</span></span>
 
-**มิติทางสถิติ**
+<span data-ttu-id="e8db3-234">**มิติทางสถิติ**</span><span class="sxs-lookup"><span data-stu-id="e8db3-234">**Statistical dimension**</span></span>
 
-มิติทางสถิติคือ นิพจน์ของการตรวจนับหรือผลรวมของวัตถุที่สามารถใช้เป็นข้อมูลพื้นฐานสำหรับการปันส่วนหรือการคำนวณอัตราต้นทุน ซึ่งจะสร้างขึ้นด้วยตนเองหรือนำเข้าจากระบบต้นทางก็ได้ ตัวอย่างของมิติทางสถิติ เช่น จำนวนของพนักงาน จำนวนของซอฟต์แวร์ที่ได้รับอนุญาตในแต่ละอุปกรณ์ ปริมาณการใช้พลังงานของเครื่องจักรแต่ละเครื่อง หรือตารางเมตรสำหรับศูนย์ต้นทุน
+<span data-ttu-id="e8db3-235">มิติทางสถิติคือ นิพจน์ของการตรวจนับหรือผลรวมของวัตถุที่สามารถใช้เป็นข้อมูลพื้นฐานสำหรับการปันส่วนหรือการคำนวณอัตราต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-235">A statistical dimension is the expression of a count or sum of an object that can be used as the basis for allocations or cost rate calculations.</span></span> <span data-ttu-id="e8db3-236">ซึ่งจะสร้างขึ้นด้วยตนเองหรือนำเข้าจากระบบต้นทางก็ได้</span><span class="sxs-lookup"><span data-stu-id="e8db3-236">It's either created manually or imported from source systems.</span></span> <span data-ttu-id="e8db3-237">ตัวอย่างของมิติทางสถิติ เช่น จำนวนของพนักงาน จำนวนของซอฟต์แวร์ที่ได้รับอนุญาตในแต่ละอุปกรณ์ ปริมาณการใช้พลังงานของเครื่องจักรแต่ละเครื่อง หรือตารางเมตรสำหรับศูนย์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8db3-237">Examples of statistical dimensions include the number of employees, the count of licensed software on each device, power consumption of each machine, or square meters for a cost center.</span></span>
 
-**รายการทางสถิติ**
+<span data-ttu-id="e8db3-238">**รายการทางสถิติ**</span><span class="sxs-lookup"><span data-stu-id="e8db3-238">**Statistical entry**</span></span>
 
-รายการทางสถิติระงับผลรวมที่มีการบันทึกหรือค่าการตรวจนับสำหรับมิติทางสถิติที่กำหนด ผลรวมที่มีการบันทึกหรือค่าการตรวจนับยังถูกอ้างอิงเป็นขนาดอีกด้วย
+<span data-ttu-id="e8db3-239">รายการทางสถิติระงับผลรวมที่มีการบันทึกหรือค่าการตรวจนับสำหรับมิติทางสถิติที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="e8db3-239">Statistical entries hold the recorded sum or count value for a given statistical dimension.</span></span> <span data-ttu-id="e8db3-240">ผลรวมที่มีการบันทึกหรือค่าการตรวจนับยังถูกอ้างอิงเป็นขนาดอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="e8db3-240">The recorded sum or count value is also referred to as the magnitude.</span></span>
 
 
 

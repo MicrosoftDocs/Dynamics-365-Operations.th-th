@@ -16,150 +16,150 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 65db27e59ce5f9234eeb486efeb9bb6e9dad40f7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 473cad588253b0eb42eb927834e186ccfa4c4f1e
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>จัดการการตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a><span data-ttu-id="ec9db-103">จัดการการตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="ec9db-103">Manage model mapping configurations for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ที่ถูกกำหนดบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนาการรายงานอิเล็กทรอนิกส์สามารถจัดการการแม็ปแบบจำลองการรายงานอิเล็กทรอนิกส์ (ER) ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก ในคู่มืองานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, Inc. เพื่อทำตามคู่มืองานเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำขั้นตอนในคู่มืองาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER" ให้เสร็จเรียบร้อยก่อน 
+<span data-ttu-id="ec9db-104">ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ที่ถูกกำหนดบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนาการรายงานอิเล็กทรอนิกส์สามารถจัดการการแม็ปแบบจำลองการรายงานอิเล็กทรอนิกส์ (ER) ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="ec9db-104">The following steps explain how a user assigned to the System administrator or Electronic reporting developer role can manage Electronic reporting (ER) model mappings in separate ER configurations.</span></span> <span data-ttu-id="ec9db-105">ในคู่มืองานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, Inc. เพื่อทำตามคู่มืองานเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำขั้นตอนในคู่มืองาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER" ให้เสร็จเรียบร้อยก่อน</span><span class="sxs-lookup"><span data-stu-id="ec9db-105">In this task guide, you will create required ER configurations for the sample company, Litware, Inc. To complete this task guide, you must first complete the steps in the task guide, “ER Create a configuration provider” and mark it as active.</span></span> 
 
-เนื่องจากการตั้งค่าคอนฟิก ER จะถูกใช้ร่วมกันระหว่างบริษัท คุณสามารถทำตามคู่มืองานนี้ให้เสร็จสมบูรณ์โดยใช้ชุดข้อมูลบริษัทที่คุณเลือก ฟังก์ชันสำหรับคู่มืองานนี้จะพร้อมใช้งานเมื่อคุณติดตั้งโปรแกรมแก้ไขด่วนต่อไปนี้: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 สำหรับเวอร์ชัน Dynamics AX 7.0 หรือ https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 สำหรับเวอร์ชัน Dynamics 365 for Operations
+<span data-ttu-id="ec9db-106">เนื่องจากการตั้งค่าคอนฟิก ER จะถูกใช้ร่วมกันระหว่างบริษัท คุณสามารถทำตามคู่มืองานนี้ให้เสร็จสมบูรณ์โดยใช้ชุดข้อมูลบริษัทที่คุณเลือก</span><span class="sxs-lookup"><span data-stu-id="ec9db-106">Because ER configurations are shared among companies, you can complete this task guide using the company data set of your choice.</span></span> <span data-ttu-id="ec9db-107">ฟังก์ชันสำหรับคู่มืองานนี้จะพร้อมใช้งานเมื่อคุณติดตั้งโปรแกรมแก้ไขด่วนต่อไปนี้: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 สำหรับเวอร์ชัน Dynamics AX 7.0 หรือ https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 สำหรับเวอร์ชัน Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="ec9db-107">The functionality for this task guide is available if you have installed one of the following hotfixes: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 for the Dynamics AX 7.0 version or https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 for the Dynamics 365 for Operations version.</span></span>
 
-1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-    * ตรวจสอบว่าผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, Inc. พร้อมใช้งาน และทำเครื่องหมายเป็นใช้งานอยู่ ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ ก่อนอื่นคุณต้องดำเนินขั้นตอนต่างๆ ให้สำเร็จในคู่มืองาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่   
+1. <span data-ttu-id="ec9db-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ec9db-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="ec9db-109">ตรวจสอบว่าผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, Inc. พร้อมใช้งาน และทำเครื่องหมายเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="ec9db-109">Verify that the configuration provider for the sample company Litware, Inc. is available and marked as active.</span></span> <span data-ttu-id="ec9db-110">ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ ก่อนอื่นคุณต้องดำเนินขั้นตอนต่างๆ ให้สำเร็จในคู่มืองาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="ec9db-110">If you don’t see this configuration provider, you must first complete the steps in the task guide, Create a configuration provider and mark it as active.</span></span>   
 
-## <a name="add-a-new-er-model-configuration"></a>เพิ่มการตั้งค่าคอนฟิกแบบจำลองของ ER ใหม่
-1. คลิก การตั้งค่าคอนฟิกการรายงาน
-    * เพิ่มการตั้งค่าคอนฟิกแบบจำลองใหม่ ชื่อต้องไม่ซ้ำกันในแผนภูมิการตั้งค่าคอนฟิก  
-2. คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง
-3. ในฟิลด์ชื่อ พิมพ์ 'แบบจำลองข้อมูลตัวอย่าง'
-    * แบบจำลองข้อมูลตัวอย่าง  
-4. คลิก สร้างการตั้งค่าคอนฟิก
-5. คลิก ตัวออกแบบ
-6. คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง
-7. ในฟิลด์ ชื่อ ให้พิมพ์ 'Root'
-    * ราก  
-8. คลิก เพิ่ม
-9. คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง
-10. ในฟิลด์ชื่อ พิมพ์ 'บริษัท'
-    * บริษัท  
-11. คลิก เพิ่ม
-12. ในฟิลด์คำอธิบาย ป้อนข้อความ คำอธิบายของนิติบุคคลหรือบริษัทที่ผู้ใช้บันทึกขณะทำงาน 
-    * คำอธิบายเกี่ยวกับนิติบุคคลหรือบริษัทที่ผู้ใช้บันทึกขณะทำงาน  
-13. คลิก การอ้างอิงราก
-14. คลิก ตกลง
-15. คลิก บันทึก
-16. ปิดหน้า
-17. คลิก เปลี่ยนแปลงสถานะ
-18. คลิกเสร็จสมบูรณ์
-19. คลิก ตกลง
+## <a name="add-a-new-er-model-configuration"></a><span data-ttu-id="ec9db-111">เพิ่มการตั้งค่าคอนฟิกแบบจำลองของ ER ใหม่</span><span class="sxs-lookup"><span data-stu-id="ec9db-111">Add a new ER model configuration</span></span>
+1. <span data-ttu-id="ec9db-112">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="ec9db-112">Click Reporting configurations.</span></span>
+    * <span data-ttu-id="ec9db-113">เพิ่มการตั้งค่าคอนฟิกแบบจำลองใหม่</span><span class="sxs-lookup"><span data-stu-id="ec9db-113">Add a new model configuration.</span></span> <span data-ttu-id="ec9db-114">ชื่อต้องไม่ซ้ำกันในแผนภูมิการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="ec9db-114">The name must be unique in the configurations tree.</span></span>  
+2. <span data-ttu-id="ec9db-115">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-115">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="ec9db-116">ในฟิลด์ชื่อ พิมพ์ 'แบบจำลองข้อมูลตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-116">In the Name field, type 'Sample data model'.</span></span>
+    * <span data-ttu-id="ec9db-117">แบบจำลองข้อมูลตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-117">Sample data model</span></span>  
+4. <span data-ttu-id="ec9db-118">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="ec9db-118">Click Create configuration.</span></span>
+5. <span data-ttu-id="ec9db-119">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-119">Click Designer.</span></span>
+6. <span data-ttu-id="ec9db-120">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-120">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="ec9db-121">ในฟิลด์ ชื่อ ให้พิมพ์ 'Root'</span><span class="sxs-lookup"><span data-stu-id="ec9db-121">In the Name field, type 'Root'.</span></span>
+    * <span data-ttu-id="ec9db-122">ราก</span><span class="sxs-lookup"><span data-stu-id="ec9db-122">Root</span></span>  
+8. <span data-ttu-id="ec9db-123">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ec9db-123">Click Add.</span></span>
+9. <span data-ttu-id="ec9db-124">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-124">Click New to open the drop dialog.</span></span>
+10. <span data-ttu-id="ec9db-125">ในฟิลด์ชื่อ พิมพ์ 'บริษัท'</span><span class="sxs-lookup"><span data-stu-id="ec9db-125">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="ec9db-126">บริษัท</span><span class="sxs-lookup"><span data-stu-id="ec9db-126">Company</span></span>  
+11. <span data-ttu-id="ec9db-127">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ec9db-127">Click Add.</span></span>
+12. <span data-ttu-id="ec9db-128">ในฟิลด์คำอธิบาย ป้อนข้อความ คำอธิบายของนิติบุคคลหรือบริษัทที่ผู้ใช้บันทึกขณะทำงาน</span><span class="sxs-lookup"><span data-stu-id="ec9db-128">In the Description field, enter the text, Description of the legal entity or company in which a user logged at run-time.</span></span> 
+    * <span data-ttu-id="ec9db-129">คำอธิบายเกี่ยวกับนิติบุคคลหรือบริษัทที่ผู้ใช้บันทึกขณะทำงาน</span><span class="sxs-lookup"><span data-stu-id="ec9db-129">Description of the legal entity or company in which a user logged at run-time.</span></span>  
+13. <span data-ttu-id="ec9db-130">คลิก การอ้างอิงราก</span><span class="sxs-lookup"><span data-stu-id="ec9db-130">Click Root reference.</span></span>
+14. <span data-ttu-id="ec9db-131">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-131">Click OK.</span></span>
+15. <span data-ttu-id="ec9db-132">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ec9db-132">Click Save.</span></span>
+16. <span data-ttu-id="ec9db-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-133">Close the page.</span></span>
+17. <span data-ttu-id="ec9db-134">คลิก เปลี่ยนแปลงสถานะ</span><span class="sxs-lookup"><span data-stu-id="ec9db-134">Click Change status.</span></span>
+18. <span data-ttu-id="ec9db-135">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="ec9db-135">Click Complete.</span></span>
+19. <span data-ttu-id="ec9db-136">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-136">Click OK.</span></span>
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>เพิ่มการตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ใหม่
-1. คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง
-2. ในฟิลด์ใหม่ ป้อน 'การแม็ปแบบจำลองตามแบบจำลองข้อมูลตัวอย่างของแบบจำลองข้อมูล'
-3. ในฟิลด์ชื่อ พิมพ์ 'การแม็ปตัวอย่าง'
-    * การแม็ปตัวอย่าง  
-4. คลิก สร้างการตั้งค่าคอนฟิก
-5. ขยายหรือยุบส่วน ข้อกำหนดเบื้องต้น
-    * หมายเหตุว่ากลุ่มข้อกำหนดเบื้องต้น การใช้งาน ได้ถูกเพิ่มโดยอัตโนมัติ กลุ่มดังกล่าวประกอบด้วยส่วนประกอบข้อกำหนดเบื้องต้นที่อ้างอิงถึงการตั้งค่าคอนฟิกแบบจำลองข้อมูลหลัก และมีการทำเครื่องหมายเป็น การใช้งาน สิ่งนี้หมายความว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองการแม็ปตัวอย่างนี้จะถือเป็นการใช้งานของแบบจำลองข้อมูล แบบจำลองข้อมูลตัวอย่าง ดังนั้น ส่วนประกอบนี้จะบังคับให้ ER ดาวน์โหลดการตั้งค่าคอนฟิกการแม็ปแบบจำลองการแม็ปตัวอย่างจากที่เก็บ ER เมื่อใดก็ตามที่มีการดาวน์โหลดการตั้งค่าคอนฟิกแบบจำลองแบบจำลองข้อมูลตัวอย่าง   
-6. คลิก ตัวออกแบบ
-    * หมายเหตุว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองที่สร้างขึ้นประกอบด้วยการแม็ปที่ว่างเปล่าใหม่ที่มีชื่อเดียวกับการตั้งค่าคอนฟิกที่สร้างขึ้น หมายเหตุว่าเมื่อการตั้งค่าคอนฟิกแบบจำลองหลักที่เลือกประกอบด้วยการแม็ปแบบจำลอง รายการเหล่านั้นจะถูกคัดลอกไปที่การตั้งค่าคอนฟิกการแม็ปแบบจำลองใหม่   
-7. คลิก ตัวออกแบบ
-8. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table'
-9. คลิก เพิ่มราก
-10. ในฟิลด์ชื่อ พิมพ์ 'บริษัท'
-    * บริษัท  
-11. ในฟิลด์ตาราง พิมพ์ 'CompanyInfo'
-    * CompanyInfo  
-12. คลิก ตกลง
-13. ในแผนภูมิ ให้ขยาย 'บริษัท'
-14. ในแผนภูมิ ขยาย 'Company\find()'
-15. ในแผนภูมิ ให้เลือก 'Company\find()\Name'
-16. คลิก ผูก
-17. คลิก บันทึก
-18. ปิดหน้า
-19. ปิดหน้า
-20. ในบานหน้าต่างการดำเนินการ คลิก การจัดโครงแบบ
-21. คลิก พารามิเตอร์ผู้ใช้
-22. เลือก ใช่ ในฟิลด์ รันการตั้งค่า
-23. คลิก ตกลง
-24. คลิก แก้ไข
-25. เลือก ใช่ ในฟิลด์ รันฉบับร่าง
+## <a name="add-a-new-er-model-mapping-configuration"></a><span data-ttu-id="ec9db-137">เพิ่มการตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ใหม่</span><span class="sxs-lookup"><span data-stu-id="ec9db-137">Add a new ER model mapping configuration</span></span>
+1. <span data-ttu-id="ec9db-138">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="ec9db-139">ในฟิลด์ใหม่ ป้อน 'การแม็ปแบบจำลองตามแบบจำลองข้อมูลตัวอย่างของแบบจำลองข้อมูล'</span><span class="sxs-lookup"><span data-stu-id="ec9db-139">In the New field, enter 'Model Mapping based on data model Sample data model'.</span></span>
+3. <span data-ttu-id="ec9db-140">ในฟิลด์ชื่อ พิมพ์ 'การแม็ปตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-140">In the Name field, type 'Sample mapping'.</span></span>
+    * <span data-ttu-id="ec9db-141">การแม็ปตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-141">Sample mapping</span></span>  
+4. <span data-ttu-id="ec9db-142">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="ec9db-142">Click Create configuration.</span></span>
+5. <span data-ttu-id="ec9db-143">ขยายหรือยุบส่วน ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="ec9db-143">Expand the Prerequisites section.</span></span>
+    * <span data-ttu-id="ec9db-144">หมายเหตุว่ากลุ่มข้อกำหนดเบื้องต้น การใช้งาน ได้ถูกเพิ่มโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="ec9db-144">Note that the Implementations prerequisites group has been added automatically.</span></span> <span data-ttu-id="ec9db-145">กลุ่มดังกล่าวประกอบด้วยส่วนประกอบข้อกำหนดเบื้องต้นที่อ้างอิงถึงการตั้งค่าคอนฟิกแบบจำลองข้อมูลหลัก และมีการทำเครื่องหมายเป็น การใช้งาน</span><span class="sxs-lookup"><span data-stu-id="ec9db-145">The group contains the prerequisite component that refers to the parent data model configuration and is marked as Implementation.</span></span> <span data-ttu-id="ec9db-146">สิ่งนี้หมายความว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองการแม็ปตัวอย่างนี้จะถือเป็นการใช้งานของแบบจำลองข้อมูล แบบจำลองข้อมูลตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-146">This means that this Sample mapping model mapping configuration is considered the implementation of the data model, Sample data model.</span></span> <span data-ttu-id="ec9db-147">ดังนั้น ส่วนประกอบนี้จะบังคับให้ ER ดาวน์โหลดการตั้งค่าคอนฟิกการแม็ปแบบจำลองการแม็ปตัวอย่างจากที่เก็บ ER เมื่อใดก็ตามที่มีการดาวน์โหลดการตั้งค่าคอนฟิกแบบจำลองแบบจำลองข้อมูลตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-147">Therefore, this component will force ER to download the model mapping configuration, Sample mapping from an ER repository when the model configuration, Sample data model, is downloaded.</span></span>   
+6. <span data-ttu-id="ec9db-148">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-148">Click Designer.</span></span>
+    * <span data-ttu-id="ec9db-149">หมายเหตุว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองที่สร้างขึ้นประกอบด้วยการแม็ปที่ว่างเปล่าใหม่ที่มีชื่อเดียวกับการตั้งค่าคอนฟิกที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="ec9db-149">Note that the created model mapping configuration contains a new blank mapping with the same name as the created configuration.</span></span> <span data-ttu-id="ec9db-150">หมายเหตุว่าเมื่อการตั้งค่าคอนฟิกแบบจำลองหลักที่เลือกประกอบด้วยการแม็ปแบบจำลอง รายการเหล่านั้นจะถูกคัดลอกไปที่การตั้งค่าคอนฟิกการแม็ปแบบจำลองใหม่</span><span class="sxs-lookup"><span data-stu-id="ec9db-150">Be aware that when a selected parent model configuration contains model mappings, they will be copied to a new model mapping configuration.</span></span>   
+7. <span data-ttu-id="ec9db-151">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-151">Click Designer.</span></span>
+8. <span data-ttu-id="ec9db-152">ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table'</span><span class="sxs-lookup"><span data-stu-id="ec9db-152">In the tree, select 'Dynamics 365 for Operations\Table'.</span></span>
+9. <span data-ttu-id="ec9db-153">คลิก เพิ่มราก</span><span class="sxs-lookup"><span data-stu-id="ec9db-153">Click Add root.</span></span>
+10. <span data-ttu-id="ec9db-154">ในฟิลด์ชื่อ พิมพ์ 'บริษัท'</span><span class="sxs-lookup"><span data-stu-id="ec9db-154">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="ec9db-155">บริษัท</span><span class="sxs-lookup"><span data-stu-id="ec9db-155">Company</span></span>  
+11. <span data-ttu-id="ec9db-156">ในฟิลด์ตาราง พิมพ์ 'CompanyInfo'</span><span class="sxs-lookup"><span data-stu-id="ec9db-156">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="ec9db-157">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="ec9db-157">CompanyInfo</span></span>  
+12. <span data-ttu-id="ec9db-158">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-158">Click OK.</span></span>
+13. <span data-ttu-id="ec9db-159">ในแผนภูมิ ให้ขยาย 'บริษัท'</span><span class="sxs-lookup"><span data-stu-id="ec9db-159">In the tree, expand 'Company'.</span></span>
+14. <span data-ttu-id="ec9db-160">ในแผนภูมิ ขยาย 'Company\find()'</span><span class="sxs-lookup"><span data-stu-id="ec9db-160">In the tree, expand 'Company\find()'.</span></span>
+15. <span data-ttu-id="ec9db-161">ในแผนภูมิ ให้เลือก 'Company\find()\Name'</span><span class="sxs-lookup"><span data-stu-id="ec9db-161">In the tree, select 'Company\find()\Name'.</span></span>
+16. <span data-ttu-id="ec9db-162">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="ec9db-162">Click Bind.</span></span>
+17. <span data-ttu-id="ec9db-163">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ec9db-163">Click Save.</span></span>
+18. <span data-ttu-id="ec9db-164">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-164">Close the page.</span></span>
+19. <span data-ttu-id="ec9db-165">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-165">Close the page.</span></span>
+20. <span data-ttu-id="ec9db-166">ในบานหน้าต่างการดำเนินการ คลิก การจัดโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-166">On the Action Pane, click Configurations.</span></span>
+21. <span data-ttu-id="ec9db-167">คลิก พารามิเตอร์ผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="ec9db-167">Click User parameters.</span></span>
+22. <span data-ttu-id="ec9db-168">เลือก ใช่ ในฟิลด์ รันการตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="ec9db-168">Select Yes in the Run settings field.</span></span>
+23. <span data-ttu-id="ec9db-169">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-169">Click OK.</span></span>
+24. <span data-ttu-id="ec9db-170">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="ec9db-170">Click Edit.</span></span>
+25. <span data-ttu-id="ec9db-171">เลือก ใช่ ในฟิลด์ รันฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-171">Select Yes in the Run Draft field.</span></span>
 
-## <a name="add-a-new-er-format-configuration"></a>เพิ่มการตั้งค่าคอนฟิกรูปแบบของ ER ใหม่
-1. ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง'
-2. คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง
-3. ในฟิลด์ใหม่ ป้อน 'จัดรูปแบบตามแบบจำลองข้อมูล แบบจำลองข้อมูลตัวอย่าง'
-4. ในฟิลด์ชื่อ พิมพ์ 'รูปแบบตัวอย่าง'
-    * รูปแบบตัวอย่าง  
-5. คลิก สร้างการตั้งค่าคอนฟิก
-6. คลิก ตัวออกแบบ
-7. คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง
-8. ในแผนภูมิ ให้เลือก 'ข้อความ\สตริง'
-9. คลิก ตกลง
-10. คลิกแท็บ การแม็ป
-11. ในแผนภูมิ ให้ขยาย 'model'
-12. ในแผนภูมิ ให้เลือก 'model\Company'
-13. คลิก ผูก
-14. คลิก บันทึก
-15. ปิดหน้า
-    * เรียกใช้เวอร์ชันแบบร่างของรูปแบบที่สร้างขึ้นสำหรับวัตถุประสงค์ในการทดสอบ  
-16. คลิก เรียกใช้
-    * บนแท็บด่วนเวอร์ชัน คลิกรัน  
-17. คลิก ตกลง
-    * ตรวจทานผลลัพธ์ที่ประกอบด้วยชื่อของบริษัทซึ่งผู้ใช้ที่กำลังรันการตั้งค่าคอนฟิกรูปแบบนี้จะเข้าสู่ระบบ หมายเหตุว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองที่สร้างขึ้นจะถูกใช้โดยการตั้งค่าคอนฟิกรูปแบบนี้เนื่องจากมีเพียงการตั้งค่าคอนฟิกเดียวที่พร้อมใช้งานที่ประกอบด้วยการแม็ปแบบจำลองที่จำเป็น   
+## <a name="add-a-new-er-format-configuration"></a><span data-ttu-id="ec9db-172">เพิ่มการตั้งค่าคอนฟิกรูปแบบของ ER ใหม่</span><span class="sxs-lookup"><span data-stu-id="ec9db-172">Add a new ER format configuration</span></span>
+1. <span data-ttu-id="ec9db-173">ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-173">In the tree, select 'Sample data model'.</span></span>
+2. <span data-ttu-id="ec9db-174">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-174">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="ec9db-175">ในฟิลด์ใหม่ ป้อน 'จัดรูปแบบตามแบบจำลองข้อมูล แบบจำลองข้อมูลตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-175">In the New field, enter 'Format based on data model Sample data model'.</span></span>
+4. <span data-ttu-id="ec9db-176">ในฟิลด์ชื่อ พิมพ์ 'รูปแบบตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-176">In the Name field, type 'Sample format'.</span></span>
+    * <span data-ttu-id="ec9db-177">รูปแบบตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-177">Sample format</span></span>  
+5. <span data-ttu-id="ec9db-178">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="ec9db-178">Click Create configuration.</span></span>
+6. <span data-ttu-id="ec9db-179">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-179">Click Designer.</span></span>
+7. <span data-ttu-id="ec9db-180">คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-180">Click Add root to open the drop dialog.</span></span>
+8. <span data-ttu-id="ec9db-181">ในแผนภูมิ ให้เลือก 'ข้อความ\สตริง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-181">In the tree, select 'Text\String'.</span></span>
+9. <span data-ttu-id="ec9db-182">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-182">Click OK.</span></span>
+10. <span data-ttu-id="ec9db-183">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="ec9db-183">Click the Mapping tab.</span></span>
+11. <span data-ttu-id="ec9db-184">ในแผนภูมิ ให้ขยาย 'model'</span><span class="sxs-lookup"><span data-stu-id="ec9db-184">In the tree, expand 'model'.</span></span>
+12. <span data-ttu-id="ec9db-185">ในแผนภูมิ ให้เลือก 'model\Company'</span><span class="sxs-lookup"><span data-stu-id="ec9db-185">In the tree, select 'model\Company'.</span></span>
+13. <span data-ttu-id="ec9db-186">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="ec9db-186">Click Bind.</span></span>
+14. <span data-ttu-id="ec9db-187">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ec9db-187">Click Save.</span></span>
+15. <span data-ttu-id="ec9db-188">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-188">Close the page.</span></span>
+    * <span data-ttu-id="ec9db-189">เรียกใช้เวอร์ชันแบบร่างของรูปแบบที่สร้างขึ้นสำหรับวัตถุประสงค์ในการทดสอบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-189">Run the draft version of the created format for testing purposes.</span></span>  
+16. <span data-ttu-id="ec9db-190">คลิก เรียกใช้</span><span class="sxs-lookup"><span data-stu-id="ec9db-190">Click Run.</span></span>
+    * <span data-ttu-id="ec9db-191">บนแท็บด่วนเวอร์ชัน คลิกรัน</span><span class="sxs-lookup"><span data-stu-id="ec9db-191">On the Versions FastTab, click Run.</span></span>  
+17. <span data-ttu-id="ec9db-192">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-192">Click OK.</span></span>
+    * <span data-ttu-id="ec9db-193">ตรวจทานผลลัพธ์ที่ประกอบด้วยชื่อของบริษัทซึ่งผู้ใช้ที่กำลังรันการตั้งค่าคอนฟิกรูปแบบนี้จะเข้าสู่ระบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-193">Review the output that contains the name of the company in which the user who is running this format configuration is logged into.</span></span> <span data-ttu-id="ec9db-194">หมายเหตุว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองที่สร้างขึ้นจะถูกใช้โดยการตั้งค่าคอนฟิกรูปแบบนี้เนื่องจากมีเพียงการตั้งค่าคอนฟิกเดียวที่พร้อมใช้งานที่ประกอบด้วยการแม็ปแบบจำลองที่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="ec9db-194">Note that the created model mapping configuration is used by this format configuration because there is only one configuration available that contains required model mappings.</span></span>   
 
-## <a name="add-alternative-er-model-mapping-configuration"></a>เพิ่มการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER สำรอง
-1. ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง'
-2. คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง
-3. ในฟิลด์ใหม่ ป้อน 'การแม็ปแบบจำลองตามแบบจำลองข้อมูลตัวอย่างของแบบจำลองข้อมูล'
-4. ในฟิลด์ชื่อ พิมพ์ 'การแม็บตัวอย่าง (สำรอง)'
-    * การแม็ปตัวอย่าง (สำรอง)  
-5. คลิก สร้างการตั้งค่าคอนฟิก
-6. คลิก ตัวออกแบบ
-7. คลิก ตัวออกแบบ
-8. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table'
-9. คลิก เพิ่มราก
-10. ในฟิลด์ชื่อ พิมพ์ 'บริษัท'
-    * บริษัท  
-11. ในฟิลด์ตาราง พิมพ์ 'CompanyInfo'
-    * CompanyInfo  
-12. คลิก ตกลง
-13. คลิก แก้ไข
-14. ในแผนภูมิ เลือก 'สตริง\เชื่อมเข้าด้วยกัน'
-15. คลิก เพิ่มฟังก์ชัน
-16. ในแผนภูมิ ให้ขยาย 'บริษัท'
-17. ในแผนภูมิ ขยาย 'Company\find()'
-18. ในแผนภูมิ ให้เลือก 'Company\find()\Name'
-19. คลิก เพิ่มแหล่งข้อมูล
-20. ในฟิลด์สูตร ให้พิมพ์ค่า
-    * CONCATENATE(Company.'find()'.Name, ";",  
-21. ในแผนภูมิ ให้เลือก 'Company\find()\Company(DataArea)'
-22. คลิก เพิ่มแหล่งข้อมูล
-23. ในฟิลด์สูตร ให้พิมพ์ค่า
-    * CONCATENATE(Company.'find()'.Name, ";", Company.'find()'.DataArea)  
-24. คลิก บันทึก
-25. ปิดหน้า
-26. คลิก บันทึก
-27. ปิดหน้า
-28. ปิดหน้า
-29. เลือก ใช่ ในฟิลด์ รันฉบับร่าง
+## <a name="add-alternative-er-model-mapping-configuration"></a><span data-ttu-id="ec9db-195">เพิ่มการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER สำรอง</span><span class="sxs-lookup"><span data-stu-id="ec9db-195">Add alternative ER model mapping configuration</span></span>
+1. <span data-ttu-id="ec9db-196">ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-196">In the tree, select 'Sample data model'.</span></span>
+2. <span data-ttu-id="ec9db-197">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ec9db-197">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="ec9db-198">ในฟิลด์ใหม่ ป้อน 'การแม็ปแบบจำลองตามแบบจำลองข้อมูลตัวอย่างของแบบจำลองข้อมูล'</span><span class="sxs-lookup"><span data-stu-id="ec9db-198">In the New field, enter 'Model Mapping based on data model Sample data model'.</span></span>
+4. <span data-ttu-id="ec9db-199">ในฟิลด์ชื่อ พิมพ์ 'การแม็บตัวอย่าง (สำรอง)'</span><span class="sxs-lookup"><span data-stu-id="ec9db-199">In the Name field, type 'Sample mapping (alternative)'.</span></span>
+    * <span data-ttu-id="ec9db-200">การแม็ปตัวอย่าง (สำรอง)</span><span class="sxs-lookup"><span data-stu-id="ec9db-200">Sample mapping (alternative)</span></span>  
+5. <span data-ttu-id="ec9db-201">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="ec9db-201">Click Create configuration.</span></span>
+6. <span data-ttu-id="ec9db-202">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-202">Click Designer.</span></span>
+7. <span data-ttu-id="ec9db-203">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ec9db-203">Click Designer.</span></span>
+8. <span data-ttu-id="ec9db-204">ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table'</span><span class="sxs-lookup"><span data-stu-id="ec9db-204">In the tree, select 'Dynamics 365 for Operations\Table'.</span></span>
+9. <span data-ttu-id="ec9db-205">คลิก เพิ่มราก</span><span class="sxs-lookup"><span data-stu-id="ec9db-205">Click Add root.</span></span>
+10. <span data-ttu-id="ec9db-206">ในฟิลด์ชื่อ พิมพ์ 'บริษัท'</span><span class="sxs-lookup"><span data-stu-id="ec9db-206">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="ec9db-207">บริษัท</span><span class="sxs-lookup"><span data-stu-id="ec9db-207">Company</span></span>  
+11. <span data-ttu-id="ec9db-208">ในฟิลด์ตาราง พิมพ์ 'CompanyInfo'</span><span class="sxs-lookup"><span data-stu-id="ec9db-208">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="ec9db-209">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="ec9db-209">CompanyInfo</span></span>  
+12. <span data-ttu-id="ec9db-210">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-210">Click OK.</span></span>
+13. <span data-ttu-id="ec9db-211">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="ec9db-211">Click Edit.</span></span>
+14. <span data-ttu-id="ec9db-212">ในแผนภูมิ เลือก 'สตริง\เชื่อมเข้าด้วยกัน'</span><span class="sxs-lookup"><span data-stu-id="ec9db-212">In the tree, select 'String\CONCATENATE'.</span></span>
+15. <span data-ttu-id="ec9db-213">คลิก เพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="ec9db-213">Click Add function.</span></span>
+16. <span data-ttu-id="ec9db-214">ในแผนภูมิ ให้ขยาย 'บริษัท'</span><span class="sxs-lookup"><span data-stu-id="ec9db-214">In the tree, expand 'Company'.</span></span>
+17. <span data-ttu-id="ec9db-215">ในแผนภูมิ ขยาย 'Company\find()'</span><span class="sxs-lookup"><span data-stu-id="ec9db-215">In the tree, expand 'Company\find()'.</span></span>
+18. <span data-ttu-id="ec9db-216">ในแผนภูมิ ให้เลือก 'Company\find()\Name'</span><span class="sxs-lookup"><span data-stu-id="ec9db-216">In the tree, select 'Company\find()\Name'.</span></span>
+19. <span data-ttu-id="ec9db-217">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ec9db-217">Click Add data source.</span></span>
+20. <span data-ttu-id="ec9db-218">ในฟิลด์สูตร ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ec9db-218">In the Formula field, type a value.</span></span>
+    * <span data-ttu-id="ec9db-219">CONCATENATE(Company.'find()'.Name, ";",</span><span class="sxs-lookup"><span data-stu-id="ec9db-219">CONCATENATE(Company.'find()'.Name, ";",</span></span>  
+21. <span data-ttu-id="ec9db-220">ในแผนภูมิ ให้เลือก 'Company\find()\Company(DataArea)'</span><span class="sxs-lookup"><span data-stu-id="ec9db-220">In the tree, select 'Company\find()\Company(DataArea)'.</span></span>
+22. <span data-ttu-id="ec9db-221">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ec9db-221">Click Add data source.</span></span>
+23. <span data-ttu-id="ec9db-222">ในฟิลด์สูตร ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ec9db-222">In the Formula field, type a value.</span></span>
+    * <span data-ttu-id="ec9db-223">CONCATENATE(Company.'find()'.Name, ";", Company.'find()'.DataArea)</span><span class="sxs-lookup"><span data-stu-id="ec9db-223">CONCATENATE(Company.'find()'.Name, ";", Company.'find()'.DataArea)</span></span>  
+24. <span data-ttu-id="ec9db-224">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ec9db-224">Click Save.</span></span>
+25. <span data-ttu-id="ec9db-225">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-225">Close the page.</span></span>
+26. <span data-ttu-id="ec9db-226">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ec9db-226">Click Save.</span></span>
+27. <span data-ttu-id="ec9db-227">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-227">Close the page.</span></span>
+28. <span data-ttu-id="ec9db-228">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ec9db-228">Close the page.</span></span>
+29. <span data-ttu-id="ec9db-229">เลือก ใช่ ในฟิลด์ รันฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="ec9db-229">Select Yes in the Run Draft field.</span></span>
 
-## <a name="use-an-existing-er-model-mapping-configuration"></a>ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ที่มีอยู่
-1. ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง\รูปแบบตัวอย่าง'
-2. คลิก เรียกใช้
-    * หมายเหตุว่าจะไม่สามารถดำเนินการเวอร์ชันแบบร่างที่เลือกของการตั้งค่าคอนฟิกรูปแบบ ER ได้เนื่องจากมีการตั้งค่าคอนฟิกการแม็ปแบบจำลองมากกว่าหนึ่งรายการที่พร้อมใช้งานสำหรับแบบจำลองข้อมูลที่ไม่ได้กำหนดที่เลือกไว้เป็นแหล่งข้อมูลของรูปแบบ ER ที่กำลังรันอยู่   
-    * ถัดไป คุณจะกำหนดการตั้งค่าคอนฟิกการแม็ปแบบจำลองสำรองเป็นการตั้งค่าคอนฟิกที่การแม็ปแบบจำลองจะใช้เป็นแหล่งข้อมูลสำหรับการรันรูปแบบ ER   
-3. ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง\การแม็ปตัวอย่าง (สำรอง)'
-4. เลือก ใช่ ในฟิลด์ ค่าเริ่มต้นสำหรับการแม็ปแบบจำลอง
-5. ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง\รูปแบบตัวอย่าง'
-6. คลิก เรียกใช้
-7. คลิก ตกลง
-    * หมายเหตุว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองเริ่มต้นจะถูกใช้โดยการตั้งค่าคอนฟิกรูปแบบนี้สำหรับการสร้างเอกสารอิเล็กทรอนิกส์ (ผลลัพธ์ที่สร้างขึ้นประกอบด้วยรหัสบริษัท)  
+## <a name="use-an-existing-er-model-mapping-configuration"></a><span data-ttu-id="ec9db-230">ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="ec9db-230">Use an existing ER model mapping configuration</span></span>
+1. <span data-ttu-id="ec9db-231">ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง\รูปแบบตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-231">In the tree, select 'Sample data model\Sample format'.</span></span>
+2. <span data-ttu-id="ec9db-232">คลิก เรียกใช้</span><span class="sxs-lookup"><span data-stu-id="ec9db-232">Click Run.</span></span>
+    * <span data-ttu-id="ec9db-233">หมายเหตุว่าจะไม่สามารถดำเนินการเวอร์ชันแบบร่างที่เลือกของการตั้งค่าคอนฟิกรูปแบบ ER ได้เนื่องจากมีการตั้งค่าคอนฟิกการแม็ปแบบจำลองมากกว่าหนึ่งรายการที่พร้อมใช้งานสำหรับแบบจำลองข้อมูลที่ไม่ได้กำหนดที่เลือกไว้เป็นแหล่งข้อมูลของรูปแบบ ER ที่กำลังรันอยู่</span><span class="sxs-lookup"><span data-stu-id="ec9db-233">Note that the selected draft version of the ER format configuration can’t be executed because there is more than one model mapping configuration available for the undefined data model that has been selected as the data source of the running ER format.</span></span>   
+    * <span data-ttu-id="ec9db-234">ถัดไป คุณจะกำหนดการตั้งค่าคอนฟิกการแม็ปแบบจำลองสำรองเป็นการตั้งค่าคอนฟิกที่การแม็ปแบบจำลองจะใช้เป็นแหล่งข้อมูลสำหรับการรันรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="ec9db-234">Next, you will define the alternative model mapping configuration as the one from which model mappings will be used as data sources for running ER format.</span></span>   
+3. <span data-ttu-id="ec9db-235">ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง\การแม็ปตัวอย่าง (สำรอง)'</span><span class="sxs-lookup"><span data-stu-id="ec9db-235">In the tree, select 'Sample data model\Sample mapping (alternative)'.</span></span>
+4. <span data-ttu-id="ec9db-236">เลือก ใช่ ในฟิลด์ ค่าเริ่มต้นสำหรับการแม็ปแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="ec9db-236">Select Yes in the Default for model mapping field.</span></span>
+5. <span data-ttu-id="ec9db-237">ในแผนภูมิ เลือก 'แบบจำลองข้อมูลตัวอย่าง\รูปแบบตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="ec9db-237">In the tree, select 'Sample data model\Sample format'.</span></span>
+6. <span data-ttu-id="ec9db-238">คลิก เรียกใช้</span><span class="sxs-lookup"><span data-stu-id="ec9db-238">Click Run.</span></span>
+7. <span data-ttu-id="ec9db-239">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ec9db-239">Click OK.</span></span>
+    * <span data-ttu-id="ec9db-240">หมายเหตุว่าการตั้งค่าคอนฟิกการแม็ปแบบจำลองเริ่มต้นจะถูกใช้โดยการตั้งค่าคอนฟิกรูปแบบนี้สำหรับการสร้างเอกสารอิเล็กทรอนิกส์ (ผลลัพธ์ที่สร้างขึ้นประกอบด้วยรหัสบริษัท)</span><span class="sxs-lookup"><span data-stu-id="ec9db-240">Note that the default model mapping configuration is used by this format configuration for generating the electronic document (the created output contains the company code).</span></span>  
 
 

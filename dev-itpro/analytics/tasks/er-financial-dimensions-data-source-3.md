@@ -16,131 +16,131 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6b9b6a59d5e350502c618e11924c46e4ad8229ca
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02787c96077e8bae54d8073e8d0770613ea2b49a
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="design-a-report-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="design-a-report-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a><span data-ttu-id="c5634-103">ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="c5634-103">Design a report to use financial dimensions as a data source for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER  สามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัทใดก็ได้ 
+<span data-ttu-id="c5634-104">ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER </span><span class="sxs-lookup"><span data-stu-id="c5634-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="c5634-105">สามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัทใดก็ได้ </span><span class="sxs-lookup"><span data-stu-id="c5634-105">These steps can be performed in any company.</span></span>
 
-เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในกระบวนงาน "ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2: การแม็ปแบบจำลอง)"
+<span data-ttu-id="c5634-106">เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในกระบวนงาน "ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2: การแม็ปแบบจำลอง)"</span><span class="sxs-lookup"><span data-stu-id="c5634-106">To complete these steps, you must first complete the steps in the “ER Use financial dimensions as a data source (Part 2: Model mapping)” procedure.</span></span>
 
 
-## <a name="design-a-report-to-present-financial-dimensions"></a>ออกแบบรายงานเพื่อแสดงมิติทางการเงิน
-1. ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > การตั้งค่าคอนฟิก
-2. ในแผนภูมิ เลือก 'แบบจำลองตัวอย่างมิติทางการเงิน'
-3. คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง
-4. ในฟิลด์ใหม่ ป้อน 'จัดรูปแบบตามแบบจำลองข้อมูล แบบจำลองตัวอย่างมิติทางการเงิน'
-    * ใช้แบบจำลองที่สร้างขึ้นล่วงหน้าเป็นแหล่งข้อมูลสำหรับรายงานใหม่ของคุณ  
-5. ในฟิลด์ชื่อ ให้พิมพ์ 'รายงานสมุดบัญชีแยกประเภท'
-6. ในฟิลด์คำนิยามแบบจำลองข้อมูล ให้เลือก รายการ
-7. คลิก สร้างการตั้งค่าคอนฟิก
-8. คลิก ตัวออกแบบ
-9. คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง
-10. ในแผนภูมิ เลือก 'XML\องค์ประกอบ'
-11. ในฟิลด์ ชื่อ ให้พิมพ์ 'Root'
-12. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-13. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-14. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
-15. ในฟิลด์ชื่อ พิมพ์ 'บริษัท'
-16. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-17. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-18. ในแผนภูมิ เลือก 'XML\องค์ประกอบ'
-19. ในฟิลด์ชื่อ ให้พิมพ์ 'สมุดรายวัน'
-20. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-21. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML'
-22. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-23. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
-24. ในฟิลด์ชื่อ ให้พิมพ์ชื่อ 'ชุดงาน'
-25. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-26. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-27. ในแผนภูมิ เลือก 'XML\องค์ประกอบ'
-28. ในฟิลด์ชื่อ พิมพ์ 'ธุรกรรม'
-29. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-30. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML'
-31. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-32. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
-33. ในฟิลด์ชื่อ ให้พิมพ์ 'ใบสำคัญ'
-34. คลิก ตกลง
-35. คลิก เพิ่มแอททริบิวต์
-36. ในฟิลด์ชื่อ ให้พิมพ์ 'วันที่'
-37. คลิก ตกลง
-38. คลิก เพิ่มแอททริบิวต์
-39. ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'
-40. คลิก ตกลง
-41. คลิก เพิ่มแอททริบิวต์
-42. ในฟิลด์ ชื่อ ให้พิมพ์ 'Dt'
-43. คลิก ตกลง
-44. คลิก เพิ่มแอททริบิวต์
-45. ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Ct'
-46. คลิก ตกลง
-47. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-48. ในแผนภูมิ เลือก 'XML\องค์ประกอบ'
-49. ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Dimensions'
-50. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-51. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML'
-52. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-53. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
-54. ในฟิลด์ชื่อ ให้พิมพ์ 'รหัส'
-55. คลิก ตกลง
-56. คลิก เพิ่มแอททริบิวต์
-57. ในฟิลด์ ชื่อ ให้พิมพ์ 'Value'
-58. คลิก ตกลง
-59. คลิก เพิ่มแอททริบิวต์
-60. ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Desc'
-61. คลิก ตกลง
+## <a name="design-a-report-to-present-financial-dimensions"></a><span data-ttu-id="c5634-107">ออกแบบรายงานเพื่อแสดงมิติทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-107">Design a report to present financial dimensions</span></span>
+1. <span data-ttu-id="c5634-108">ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > การตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="c5634-108">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="c5634-109">ในแผนภูมิ เลือก 'แบบจำลองตัวอย่างมิติทางการเงิน'</span><span class="sxs-lookup"><span data-stu-id="c5634-109">In the tree, select 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="c5634-110">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-110">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="c5634-111">ในฟิลด์ใหม่ ป้อน 'จัดรูปแบบตามแบบจำลองข้อมูล แบบจำลองตัวอย่างมิติทางการเงิน'</span><span class="sxs-lookup"><span data-stu-id="c5634-111">In the New field, enter 'Format based on data model Financial dimensions sample model'.</span></span>
+    * <span data-ttu-id="c5634-112">ใช้แบบจำลองที่สร้างขึ้นล่วงหน้าเป็นแหล่งข้อมูลสำหรับรายงานใหม่ของคุณ</span><span class="sxs-lookup"><span data-stu-id="c5634-112">Use the model that was created in advance as the data source for your new report.</span></span>  
+5. <span data-ttu-id="c5634-113">ในฟิลด์ชื่อ ให้พิมพ์ 'รายงานสมุดบัญชีแยกประเภท'</span><span class="sxs-lookup"><span data-stu-id="c5634-113">In the Name field, type 'Ledger journal report'.</span></span>
+6. <span data-ttu-id="c5634-114">ในฟิลด์คำนิยามแบบจำลองข้อมูล ให้เลือก รายการ</span><span class="sxs-lookup"><span data-stu-id="c5634-114">In the Data model definition field, select Entry.</span></span>
+7. <span data-ttu-id="c5634-115">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="c5634-115">Click Create configuration.</span></span>
+8. <span data-ttu-id="c5634-116">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="c5634-116">Click Designer.</span></span>
+9. <span data-ttu-id="c5634-117">คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-117">Click Add root to open the drop dialog.</span></span>
+10. <span data-ttu-id="c5634-118">ในแผนภูมิ เลือก 'XML\องค์ประกอบ'</span><span class="sxs-lookup"><span data-stu-id="c5634-118">In the tree, select 'XML\Element'.</span></span>
+11. <span data-ttu-id="c5634-119">ในฟิลด์ ชื่อ ให้พิมพ์ 'Root'</span><span class="sxs-lookup"><span data-stu-id="c5634-119">In the Name field, type 'Root'.</span></span>
+12. <span data-ttu-id="c5634-120">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-120">Click OK.</span></span>
+13. <span data-ttu-id="c5634-121">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-121">Click Add to open the drop dialog.</span></span>
+14. <span data-ttu-id="c5634-122">ในแผนภูมิ เลือก 'XML\แอททริบิวต์'</span><span class="sxs-lookup"><span data-stu-id="c5634-122">In the tree, select 'XML\Attribute'.</span></span>
+15. <span data-ttu-id="c5634-123">ในฟิลด์ชื่อ พิมพ์ 'บริษัท'</span><span class="sxs-lookup"><span data-stu-id="c5634-123">In the Name field, type 'Company'.</span></span>
+16. <span data-ttu-id="c5634-124">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-124">Click OK.</span></span>
+17. <span data-ttu-id="c5634-125">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-125">Click Add to open the drop dialog.</span></span>
+18. <span data-ttu-id="c5634-126">ในแผนภูมิ เลือก 'XML\องค์ประกอบ'</span><span class="sxs-lookup"><span data-stu-id="c5634-126">In the tree, select 'XML\Element'.</span></span>
+19. <span data-ttu-id="c5634-127">ในฟิลด์ชื่อ ให้พิมพ์ 'สมุดรายวัน'</span><span class="sxs-lookup"><span data-stu-id="c5634-127">In the Name field, type 'Journal'.</span></span>
+20. <span data-ttu-id="c5634-128">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-128">Click OK.</span></span>
+21. <span data-ttu-id="c5634-129">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-129">In the tree, select 'Root: XML Element\Journal: XML Element'.</span></span>
+22. <span data-ttu-id="c5634-130">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-130">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="c5634-131">ในแผนภูมิ เลือก 'XML\แอททริบิวต์'</span><span class="sxs-lookup"><span data-stu-id="c5634-131">In the tree, select 'XML\Attribute'.</span></span>
+24. <span data-ttu-id="c5634-132">ในฟิลด์ชื่อ ให้พิมพ์ชื่อ 'ชุดงาน'</span><span class="sxs-lookup"><span data-stu-id="c5634-132">In the Name field, type 'Batch'.</span></span>
+25. <span data-ttu-id="c5634-133">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-133">Click OK.</span></span>
+26. <span data-ttu-id="c5634-134">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-134">Click Add to open the drop dialog.</span></span>
+27. <span data-ttu-id="c5634-135">ในแผนภูมิ เลือก 'XML\องค์ประกอบ'</span><span class="sxs-lookup"><span data-stu-id="c5634-135">In the tree, select 'XML\Element'.</span></span>
+28. <span data-ttu-id="c5634-136">ในฟิลด์ชื่อ พิมพ์ 'ธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="c5634-136">In the Name field, type 'Transaction'.</span></span>
+29. <span data-ttu-id="c5634-137">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-137">Click OK.</span></span>
+30. <span data-ttu-id="c5634-138">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-138">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element'.</span></span>
+31. <span data-ttu-id="c5634-139">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-139">Click Add to open the drop dialog.</span></span>
+32. <span data-ttu-id="c5634-140">ในแผนภูมิ เลือก 'XML\แอททริบิวต์'</span><span class="sxs-lookup"><span data-stu-id="c5634-140">In the tree, select 'XML\Attribute'.</span></span>
+33. <span data-ttu-id="c5634-141">ในฟิลด์ชื่อ ให้พิมพ์ 'ใบสำคัญ'</span><span class="sxs-lookup"><span data-stu-id="c5634-141">In the Name field, type 'Voucher'.</span></span>
+34. <span data-ttu-id="c5634-142">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-142">Click OK.</span></span>
+35. <span data-ttu-id="c5634-143">คลิก เพิ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c5634-143">Click Add Attribute.</span></span>
+36. <span data-ttu-id="c5634-144">ในฟิลด์ชื่อ ให้พิมพ์ 'วันที่'</span><span class="sxs-lookup"><span data-stu-id="c5634-144">In the Name field, type 'Date'.</span></span>
+37. <span data-ttu-id="c5634-145">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-145">Click OK.</span></span>
+38. <span data-ttu-id="c5634-146">คลิก เพิ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c5634-146">Click Add Attribute.</span></span>
+39. <span data-ttu-id="c5634-147">ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="c5634-147">In the Name field, type 'Currency'.</span></span>
+40. <span data-ttu-id="c5634-148">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-148">Click OK.</span></span>
+41. <span data-ttu-id="c5634-149">คลิก เพิ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c5634-149">Click Add Attribute.</span></span>
+42. <span data-ttu-id="c5634-150">ในฟิลด์ ชื่อ ให้พิมพ์ 'Dt'</span><span class="sxs-lookup"><span data-stu-id="c5634-150">In the Name field, type 'Dt'.</span></span>
+43. <span data-ttu-id="c5634-151">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-151">Click OK.</span></span>
+44. <span data-ttu-id="c5634-152">คลิก เพิ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c5634-152">Click Add Attribute.</span></span>
+45. <span data-ttu-id="c5634-153">ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Ct'</span><span class="sxs-lookup"><span data-stu-id="c5634-153">In the Name field, type 'Ct'.</span></span>
+46. <span data-ttu-id="c5634-154">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-154">Click OK.</span></span>
+47. <span data-ttu-id="c5634-155">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-155">Click Add to open the drop dialog.</span></span>
+48. <span data-ttu-id="c5634-156">ในแผนภูมิ เลือก 'XML\องค์ประกอบ'</span><span class="sxs-lookup"><span data-stu-id="c5634-156">In the tree, select 'XML\Element'.</span></span>
+49. <span data-ttu-id="c5634-157">ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Dimensions'</span><span class="sxs-lookup"><span data-stu-id="c5634-157">In the Name field, type 'Dimensions'.</span></span>
+50. <span data-ttu-id="c5634-158">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c5634-158">Click OK.</span></span>
+51. <span data-ttu-id="c5634-159">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-159">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element'.</span></span>
+52. <span data-ttu-id="c5634-160">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="c5634-160">Click Add to open the drop dialog.</span></span>
+53. <span data-ttu-id="c5634-161">ในแผนภูมิ เลือก 'XML\แอททริบิวต์'</span><span class="sxs-lookup"><span data-stu-id="c5634-161">In the tree, select 'XML\Attribute'.</span></span>
+54. <span data-ttu-id="c5634-162">ในฟิลด์ชื่อ ให้พิมพ์ 'รหัส'</span><span class="sxs-lookup"><span data-stu-id="c5634-162">In the Name field, type 'Code'.</span></span>
+55. <span data-ttu-id="c5634-163">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-163">Click OK.</span></span>
+56. <span data-ttu-id="c5634-164">คลิก เพิ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c5634-164">Click Add Attribute.</span></span>
+57. <span data-ttu-id="c5634-165">ในฟิลด์ ชื่อ ให้พิมพ์ 'Value'</span><span class="sxs-lookup"><span data-stu-id="c5634-165">In the Name field, type 'Value'.</span></span>
+58. <span data-ttu-id="c5634-166">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-166">Click OK.</span></span>
+59. <span data-ttu-id="c5634-167">คลิก เพิ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c5634-167">Click Add Attribute.</span></span>
+60. <span data-ttu-id="c5634-168">ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Desc'</span><span class="sxs-lookup"><span data-stu-id="c5634-168">In the Name field, type 'Desc'.</span></span>
+61. <span data-ttu-id="c5634-169">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c5634-169">Click OK.</span></span>
 
-## <a name="map-report-elements-to-data-sources"></a>แม็ปองค์ประกอบของรายงานไปยังแหล่งข้อมูล
-1. คลิกแท็บ การแม็ป
-2. ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน'
-3. ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด'
-4. ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด'
-5. ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด'
-6. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML\คำอธิบาย: แอททริบิวต์ XML'
-7. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด\คำอธิบาย: สตริง'
-8. คลิก ผูก
-9. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML\ค่า: แอททริบิวต์ XML'
-10. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด\รหัส: สตริง'
-11. คลิก ผูก
-12. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML\รหัส: แอททริบิวต์ XML'
-13. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด\ชื่อ: สตริง'
-14. คลิก ผูก
-15. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด'
-16. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML'
-17. คลิก ผูก
-18. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\Ct: แอททริบิวต์ XML'
-19. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\เครดิต: จริง'
-20. คลิก ผูก
-21. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\Dt: แอททริบิวต์ XML'
-22. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\เดบิต: จริง'
-23. คลิก ผูก
-24. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\สกุลเงิน: แอททริบิวต์ XML'
-25. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\สกุลเงิน: สตริง'
-26. คลิก ผูก
-27. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\วันที่: แอททริบิวต์ XML'
-28. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\วันที่: วันที่'
-29. คลิก ผูก
-30. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\ใบสำคัญ: แอททริบิวต์ XML'
-31. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ใบสำคัญ: สตริง'
-32. คลิก ผูก
-33. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML'
-34. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด'
-35. คลิก ผูก
-36. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ชุดงาน: แอททริบิวต์ XML'
-37. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ชุดงาน: สตริง'
-38. คลิก ผูก
-39. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML'
-40. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด'
-41. คลิก ผูก
-42. ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\บริษัท: แอททริบิวต์ XML'
-43. ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\บริษัท: สตริง'
-44. คลิก ผูก
-45. คลิก บันทึก
-46. ปิดหน้า
+## <a name="map-report-elements-to-data-sources"></a><span data-ttu-id="c5634-170">แม็ปองค์ประกอบของรายงานไปยังแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="c5634-170">Map report elements to data sources</span></span>
+1. <span data-ttu-id="c5634-171">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="c5634-171">Click the Mapping tab.</span></span>
+2. <span data-ttu-id="c5634-172">ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน'</span><span class="sxs-lookup"><span data-stu-id="c5634-172">In the tree, expand 'model: Data model Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="c5634-173">ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด'</span><span class="sxs-lookup"><span data-stu-id="c5634-173">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+4. <span data-ttu-id="c5634-174">ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด'</span><span class="sxs-lookup"><span data-stu-id="c5634-174">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+5. <span data-ttu-id="c5634-175">ในแผนภูมิ ขยาย 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด'</span><span class="sxs-lookup"><span data-stu-id="c5634-175">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+6. <span data-ttu-id="c5634-176">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML\คำอธิบาย: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-176">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element\Desc: XML Attribute'.</span></span>
+7. <span data-ttu-id="c5634-177">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด\คำอธิบาย: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-177">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Description: String'.</span></span>
+8. <span data-ttu-id="c5634-178">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-178">Click Bind.</span></span>
+9. <span data-ttu-id="c5634-179">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML\ค่า: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-179">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element\Value: XML Attribute'.</span></span>
+10. <span data-ttu-id="c5634-180">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด\รหัส: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-180">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Code: String'.</span></span>
+11. <span data-ttu-id="c5634-181">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-181">Click Bind.</span></span>
+12. <span data-ttu-id="c5634-182">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML\รหัส: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-182">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element\Code: XML Attribute'.</span></span>
+13. <span data-ttu-id="c5634-183">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด\ชื่อ: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-183">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Name: String'.</span></span>
+14. <span data-ttu-id="c5634-184">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-184">Click Bind.</span></span>
+15. <span data-ttu-id="c5634-185">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ข้อมูลมิติ: รายการเรกคอร์ด'</span><span class="sxs-lookup"><span data-stu-id="c5634-185">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+16. <span data-ttu-id="c5634-186">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\มิติ: องค์ประกอบ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-186">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element'.</span></span>
+17. <span data-ttu-id="c5634-187">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-187">Click Bind.</span></span>
+18. <span data-ttu-id="c5634-188">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\Ct: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-188">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Ct: XML Attribute'.</span></span>
+19. <span data-ttu-id="c5634-189">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\เครดิต: จริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-189">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Credit: Real'.</span></span>
+20. <span data-ttu-id="c5634-190">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-190">Click Bind.</span></span>
+21. <span data-ttu-id="c5634-191">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\Dt: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-191">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dt: XML Attribute'.</span></span>
+22. <span data-ttu-id="c5634-192">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\เดบิต: จริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-192">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Debit: Real'.</span></span>
+23. <span data-ttu-id="c5634-193">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-193">Click Bind.</span></span>
+24. <span data-ttu-id="c5634-194">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\สกุลเงิน: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-194">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Currency: XML Attribute'.</span></span>
+25. <span data-ttu-id="c5634-195">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\สกุลเงิน: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-195">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Currency: String'.</span></span>
+26. <span data-ttu-id="c5634-196">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-196">Click Bind.</span></span>
+27. <span data-ttu-id="c5634-197">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\วันที่: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-197">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Date: XML Attribute'.</span></span>
+28. <span data-ttu-id="c5634-198">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\วันที่: วันที่'</span><span class="sxs-lookup"><span data-stu-id="c5634-198">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Date: Date'.</span></span>
+29. <span data-ttu-id="c5634-199">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-199">Click Bind.</span></span>
+30. <span data-ttu-id="c5634-200">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML\ใบสำคัญ: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-200">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Voucher: XML Attribute'.</span></span>
+31. <span data-ttu-id="c5634-201">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด\ใบสำคัญ: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-201">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Voucher: String'.</span></span>
+32. <span data-ttu-id="c5634-202">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-202">Click Bind.</span></span>
+33. <span data-ttu-id="c5634-203">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ธุรกรรม: องค์ประกอบ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-203">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element'.</span></span>
+34. <span data-ttu-id="c5634-204">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ธุรกรรม: รายการเรกคอร์ด'</span><span class="sxs-lookup"><span data-stu-id="c5634-204">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+35. <span data-ttu-id="c5634-205">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-205">Click Bind.</span></span>
+36. <span data-ttu-id="c5634-206">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML\ชุดงาน: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-206">In the tree, select 'Root: XML Element\Journal: XML Element\Batch: XML Attribute'.</span></span>
+37. <span data-ttu-id="c5634-207">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด\ชุดงาน: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-207">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Batch: String'.</span></span>
+38. <span data-ttu-id="c5634-208">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-208">Click Bind.</span></span>
+39. <span data-ttu-id="c5634-209">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\สมุดรายวัน: องค์ประกอบ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-209">In the tree, select 'Root: XML Element\Journal: XML Element'.</span></span>
+40. <span data-ttu-id="c5634-210">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\สมุดรายวัน: รายการเรกคอร์ด'</span><span class="sxs-lookup"><span data-stu-id="c5634-210">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+41. <span data-ttu-id="c5634-211">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-211">Click Bind.</span></span>
+42. <span data-ttu-id="c5634-212">ในแผนภูมิ เลือก 'ราก: องค์ประกอบ XML\บริษัท: แอททริบิวต์ XML'</span><span class="sxs-lookup"><span data-stu-id="c5634-212">In the tree, select 'Root: XML Element\Company: XML Attribute'.</span></span>
+43. <span data-ttu-id="c5634-213">ในแผนภูมิ เลือก 'แบบจำลอง: แบบจำลองข้อมูลแบบจำลองตัวอย่างมิติทางการเงิน\บริษัท: สตริง'</span><span class="sxs-lookup"><span data-stu-id="c5634-213">In the tree, select 'model: Data model Financial dimensions sample model\Company: String'.</span></span>
+44. <span data-ttu-id="c5634-214">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="c5634-214">Click Bind.</span></span>
+45. <span data-ttu-id="c5634-215">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="c5634-215">Click Save.</span></span>
+46. <span data-ttu-id="c5634-216">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="c5634-216">Close the page.</span></span>
 
 

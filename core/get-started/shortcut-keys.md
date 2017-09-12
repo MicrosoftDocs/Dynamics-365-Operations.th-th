@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="fee2e-103">แป้นพิมพ์ลัด</span><span class="sxs-lookup"><span data-stu-id="fee2e-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-คุณสามารถใช้แป้นพิมพ์ลัดต่อไปนี้ได้ในทุกส่วนของ Microsoft Dynamics 365 for Finance and Operations 
+<span data-ttu-id="fee2e-104">คุณสามารถใช้แป้นพิมพ์ลัดต่อไปนี้ได้ในทุกส่วนของ Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="fee2e-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**หมายเหตุ:** แป้นพิมพ์ลัดที่อธิบายไว้ที่นี่อ้างอิงถึงโครงร่างแป้นพิมพ์ของสหรัฐอเมริกา คีย์ในโครงร่างคีย์บอร์ดอื่นๆอาจไม่ตรงกับคีย์บนแป้นพิมพ์ของสหรัฐอเมริกาทุกประการ
+<span data-ttu-id="fee2e-105">**หมายเหตุ:** แป้นพิมพ์ลัดที่อธิบายไว้ที่นี่อ้างอิงถึงโครงร่างแป้นพิมพ์ของสหรัฐอเมริกา</span><span class="sxs-lookup"><span data-stu-id="fee2e-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="fee2e-106">คีย์ในโครงร่างคีย์บอร์ดอื่นๆอาจไม่ตรงกับคีย์บนแป้นพิมพ์ของสหรัฐอเมริกาทุกประการ</span><span class="sxs-lookup"><span data-stu-id="fee2e-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>ทางลัดการดำเนินการ
+## <a name="action-shortcuts"></a><span data-ttu-id="fee2e-107">ทางลัดการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="fee2e-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **ถ้าต้องการดำเนินการนี้**                                    | **กด**                        |
-| เปิดการดำเนินการค้นหา                                | Ctrl + ' หรือ Alt + Q                  |
-| ย้ายไปยังบานหน้าต่างการดำเนินการมาตรฐาน                  | Ctrl+F6                          |
-| เปิดแท็บในบานหน้าต่างการดำเนินการหรือเมนู           | ป้อนหรือเว้นวรรคหรือกด Alt + ลูกศรลง |
-| ย้ายไปยังตัวเลือกถัดไป/ก่อนหน้าในเมนู            | ลูกศรลง / ลูกศรขึ้น            |
-| ปิดแท็บในบานหน้าต่างการดำเนินการหรือเมนู          | Esc                              |
-| จำลองการคลิกขวา                            | SHIFT+F10                        |
-| เปิดเมนูบริบท Finance and Operations | Ctrl+F10                         |
-| ดำเนินการปุ่มเริ่มต้นในแบบฟอร์ม/กล่องโต้ตอบ       | Alt+ป้อน                        |
-| คลิกปุ่มหรือไทล์                            | ป้อน หรือเว้นวรรค                   |
-| ดูข้อมูลการรีเฟรชสำหรับการตรวจนับไทล์         | Alt + ลูกศรขึ้น                     |
+| <span data-ttu-id="fee2e-108">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-108">**To do this**</span></span>                                    | <span data-ttu-id="fee2e-109">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-109">**Press**</span></span>                        |
+| <span data-ttu-id="fee2e-110">เปิดการดำเนินการค้นหา</span><span class="sxs-lookup"><span data-stu-id="fee2e-110">Open action search</span></span>                                | <span data-ttu-id="fee2e-111">Ctrl + ' หรือ Alt + Q</span><span class="sxs-lookup"><span data-stu-id="fee2e-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="fee2e-112">ย้ายไปยังบานหน้าต่างการดำเนินการมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="fee2e-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="fee2e-113">Ctrl+F6</span><span class="sxs-lookup"><span data-stu-id="fee2e-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="fee2e-114">เปิดแท็บในบานหน้าต่างการดำเนินการหรือเมนู</span><span class="sxs-lookup"><span data-stu-id="fee2e-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="fee2e-115">ป้อนหรือเว้นวรรคหรือกด Alt + ลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="fee2e-116">ย้ายไปยังตัวเลือกถัดไป/ก่อนหน้าในเมนู</span><span class="sxs-lookup"><span data-stu-id="fee2e-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="fee2e-117">ลูกศรลง / ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="fee2e-118">ปิดแท็บในบานหน้าต่างการดำเนินการหรือเมนู</span><span class="sxs-lookup"><span data-stu-id="fee2e-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="fee2e-119">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-119">Esc</span></span>                              |
+| <span data-ttu-id="fee2e-120">จำลองการคลิกขวา</span><span class="sxs-lookup"><span data-stu-id="fee2e-120">Simulate a right-click</span></span>                            | <span data-ttu-id="fee2e-121">SHIFT+F10</span><span class="sxs-lookup"><span data-stu-id="fee2e-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="fee2e-122">เปิดเมนูบริบท Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="fee2e-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="fee2e-123">Ctrl+F10</span><span class="sxs-lookup"><span data-stu-id="fee2e-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="fee2e-124">ดำเนินการปุ่มเริ่มต้นในแบบฟอร์ม/กล่องโต้ตอบ</span><span class="sxs-lookup"><span data-stu-id="fee2e-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="fee2e-125">Alt+ป้อน</span><span class="sxs-lookup"><span data-stu-id="fee2e-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="fee2e-126">คลิกปุ่มหรือไทล์</span><span class="sxs-lookup"><span data-stu-id="fee2e-126">Click a button or tile</span></span>                            | <span data-ttu-id="fee2e-127">ป้อน หรือเว้นวรรค</span><span class="sxs-lookup"><span data-stu-id="fee2e-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="fee2e-128">ดูข้อมูลการรีเฟรชสำหรับการตรวจนับไทล์</span><span class="sxs-lookup"><span data-stu-id="fee2e-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="fee2e-129">Alt + ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>ทางลัดไปยังตัวเลือกวัน
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="fee2e-130">ทางลัดไปยังตัวเลือกวัน</span><span class="sxs-lookup"><span data-stu-id="fee2e-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **ถ้าต้องการดำเนินการนี้**                        | **กด**                                 |
-| เปิดตัวเลือกวันที่                  | Alt+ลูกศรลง                            |
-| ย้ายระหว่างวันที่ในตัวเลือกวันที่ | Ctrl + ลูกศร                               |
-| ย้ายไปที่เดือนถัดไป/ก่อนหน้า       | เลื่อนหน้าลง / เลื่อนหน้าขึ้น                       |
-| ย้ายไปที่ปีถัดไป/ก่อนหน้า        | Ctrl + Shift + เลื่อนหน้าลง / Ctrl + Shift + เลื่อนหน้าขึ้น |
+| <span data-ttu-id="fee2e-131">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-131">**To do this**</span></span>                        | <span data-ttu-id="fee2e-132">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-132">**Press**</span></span>                                 |
+| <span data-ttu-id="fee2e-133">เปิดตัวเลือกวันที่</span><span class="sxs-lookup"><span data-stu-id="fee2e-133">Open the date picker</span></span>                  | <span data-ttu-id="fee2e-134">Alt+ลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="fee2e-135">ย้ายระหว่างวันที่ในตัวเลือกวันที่</span><span class="sxs-lookup"><span data-stu-id="fee2e-135">Move between dates in the date picker</span></span> | <span data-ttu-id="fee2e-136">Ctrl + ลูกศร</span><span class="sxs-lookup"><span data-stu-id="fee2e-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="fee2e-137">ย้ายไปที่เดือนถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-137">Move to the next/previous month</span></span>       | <span data-ttu-id="fee2e-138">เลื่อนหน้าลง / เลื่อนหน้าขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="fee2e-139">ย้ายไปที่ปีถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-139">Move to the next/previous year</span></span>        | <span data-ttu-id="fee2e-140">Ctrl + Shift + เลื่อนหน้าลง / Ctrl + Shift + เลื่อนหน้าขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>ทางลัดกล่องแสดงข้อมูลย่อ
+## <a name="factbox-shortcuts"></a><span data-ttu-id="fee2e-141">ทางลัดกล่องแสดงข้อมูลย่อ</span><span class="sxs-lookup"><span data-stu-id="fee2e-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| เปิดบานหน้าต่างกล่องแสดงข้อมูลย่อ (หรือย้ายโฟกัสไปยังบานหน้าต่างกล่องแสดงข้อมูลย่อถ้ามีการเปิดอยู่แล้ว) | Ctrl+F2                                   |
-| ปิดบานหน้าต่างกล่องแสดงข้อมูลย่อ (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)                         | Esc                                       |
-| ย้ายไปยังกล่องแสดงข้อมูลย่อถัดไป/ก่อนหน้านี้ (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)              | Alt + Shift + ลูกศรลง / Alt + Shift + ลูกศรขึ้น |
-| ย้ายไปยังกล่องแสดงข้อมูลย่อที่ &lt;n&gt; (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
-| ขยายกล่องแสดงช้อมูลย่อ (ที่มีโฟกัสในส่วนหัวของกล่องแสดงข้อมูลย่อ)                             | เว้นวรรคหรือป้อน                            |
-| ยุบกล่องแสดงข้อมูลย่อปัจจุบัน                                                    | Alt + 0                                     |
+| <span data-ttu-id="fee2e-142">เปิดบานหน้าต่างกล่องแสดงข้อมูลย่อ (หรือย้ายโฟกัสไปยังบานหน้าต่างกล่องแสดงข้อมูลย่อถ้ามีการเปิดอยู่แล้ว)</span><span class="sxs-lookup"><span data-stu-id="fee2e-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="fee2e-143">Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="fee2e-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="fee2e-144">ปิดบานหน้าต่างกล่องแสดงข้อมูลย่อ (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)</span><span class="sxs-lookup"><span data-stu-id="fee2e-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="fee2e-145">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-145">Esc</span></span>                                       |
+| <span data-ttu-id="fee2e-146">ย้ายไปยังกล่องแสดงข้อมูลย่อถัดไป/ก่อนหน้านี้ (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)</span><span class="sxs-lookup"><span data-stu-id="fee2e-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="fee2e-147">Alt + Shift + ลูกศรลง / Alt + Shift + ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="fee2e-148">ย้ายไปยังกล่องแสดงข้อมูลย่อที่ &lt;n&gt; (ขณะที่โฟกัสในบานหน้าต่างกล่องแสดงข้อมูลย่อ)</span><span class="sxs-lookup"><span data-stu-id="fee2e-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="fee2e-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="fee2e-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="fee2e-150">ขยายกล่องแสดงช้อมูลย่อ (ที่มีโฟกัสในส่วนหัวของกล่องแสดงข้อมูลย่อ)</span><span class="sxs-lookup"><span data-stu-id="fee2e-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="fee2e-151">เว้นวรรคหรือป้อน</span><span class="sxs-lookup"><span data-stu-id="fee2e-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="fee2e-152">ยุบกล่องแสดงข้อมูลย่อปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fee2e-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="fee2e-153">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="fee2e-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>ทางลัดการกรองข้อมูล
+## <a name="filtering-shortcuts"></a><span data-ttu-id="fee2e-154">ทางลัดการกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="fee2e-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **ถ้าต้องการดำเนินการนี้**                                                                                                      | **กด**     |
-| เปิดการกรองกริดสำหรับคอลัมน์ปัจจุบัน                                                                          | Ctrl + G        |
-| ปิดการกรองกริดสำหรับคอลัมน์ปัจจุบัน                                                                         | Esc           |
-| เปิดบานหน้าต่างตัวกรองข้อมูล (หรือสลับโฟกัสระหว่างบานหน้าต่างตัวกรองและแบบฟอร์มหลักถ้าบานหน้าต่างตัวกรองมีการเปิดอยู่แล้ว) | Ctrl+F3       |
-| ปิดบานหน้าต่างตัวกรอง (ที่มีโฟกัสในบานหน้าต่างตัวกรอง)                                                               | Esc           |
-| เปิดการกรองข้อมูล/การเรียงลำดับขั้นสูง                                                                                        | Ctrl + Shift + F3 |
+| <span data-ttu-id="fee2e-155">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="fee2e-156">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-156">**Press**</span></span>     |
+| <span data-ttu-id="fee2e-157">เปิดการกรองกริดสำหรับคอลัมน์ปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fee2e-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="fee2e-158">Ctrl + G</span><span class="sxs-lookup"><span data-stu-id="fee2e-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="fee2e-159">ปิดการกรองกริดสำหรับคอลัมน์ปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fee2e-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="fee2e-160">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-160">Esc</span></span>           |
+| <span data-ttu-id="fee2e-161">เปิดบานหน้าต่างตัวกรองข้อมูล (หรือสลับโฟกัสระหว่างบานหน้าต่างตัวกรองและแบบฟอร์มหลักถ้าบานหน้าต่างตัวกรองมีการเปิดอยู่แล้ว)</span><span class="sxs-lookup"><span data-stu-id="fee2e-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="fee2e-162">Ctrl+F3</span><span class="sxs-lookup"><span data-stu-id="fee2e-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="fee2e-163">ปิดบานหน้าต่างตัวกรอง (ที่มีโฟกัสในบานหน้าต่างตัวกรอง)</span><span class="sxs-lookup"><span data-stu-id="fee2e-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="fee2e-164">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-164">Esc</span></span>           |
+| <span data-ttu-id="fee2e-165">เปิดการกรองข้อมูล/การเรียงลำดับขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="fee2e-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="fee2e-166">Ctrl + Shift + F3</span><span class="sxs-lookup"><span data-stu-id="fee2e-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>ทางลัดแบบฟอร์ม
+## <a name="form-shortcuts"></a><span data-ttu-id="fee2e-167">ทางลัดแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="fee2e-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **ถ้าต้องการดำเนินการนี้**                                                                                                                  | **กด**         |
-| สร้างเรกคอร์ดใหม่                                                                                                             | Alt + N             |
-| การลบเรกคอร์ด                                                                                                                 | Alt + Del หรือ Alt + F9 |
-| บันทึกเรกคอร์ด                                                                                                                     | Alt + S หรือ Ctrl + S   |
-| แปลงกลับ (คืนค่า)                                                                                                                | Ctrl + Shift + F5     |
-| รีเฟรชข้อมูล                                                                                                                    | SHIFT+F5          |
-| ย้ายไปที่ฟิลด์แรกที่มองเห็นได้บนแบบฟอร์ม                                                                                     | Alt + Shift + F       |
-| สลับโหมดแก้ไข                                                                                                                | F2                |
-| แนบเอกสาร                                                                                                               | Ctrl + Shift + A      |
-| ส่งออกไปที่ Excel                                                                                                                 | Ctrl + Shift + E      |
-| ย้ายไปที่เรกคอร์ดก่อนหน้านี้ (นอกกริด)                                                                                    | Ctrl + ลูกศรขึ้น     |
-| ย้ายไปที่เรกคอร์ดถัดไป (นอกกริด)                                                                                        | Ctrl + ลูกศรลง   |
-| ย้ายไปที่เรกคอร์ดแรก (นอกกริด)                                                                                       | Ctrl + Home         |
-| ย้ายไปที่เรกคอร์ดสุดท้าย (นอกกริด)                                                                                        | Ctrl + End          |
-| เปิดรายการการนำทางในแบบฟอร์มรายละเอียด (หรือสลับโฟกัสระหว่างรายการการนำทางแบบฟอร์มหลักถ้ามีการเปิดอยู่แล้ว) | Ctrl+F8           |
-| ปิดรายการการนำทางในแบบฟอร์มรายละเอียด (ที่มีโฟกัสในรายการการนำทาง)                                                   | Esc               |
+| <span data-ttu-id="fee2e-168">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="fee2e-169">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-169">**Press**</span></span>         |
+| <span data-ttu-id="fee2e-170">สร้างเรกคอร์ดใหม่</span><span class="sxs-lookup"><span data-stu-id="fee2e-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="fee2e-171">Alt + N</span><span class="sxs-lookup"><span data-stu-id="fee2e-171">Alt+N</span></span>             |
+| <span data-ttu-id="fee2e-172">การลบเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="fee2e-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="fee2e-173">Alt + Del หรือ Alt + F9</span><span class="sxs-lookup"><span data-stu-id="fee2e-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="fee2e-174">บันทึกเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="fee2e-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="fee2e-175">Alt + S หรือ Ctrl + S</span><span class="sxs-lookup"><span data-stu-id="fee2e-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="fee2e-176">แปลงกลับ (คืนค่า)</span><span class="sxs-lookup"><span data-stu-id="fee2e-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="fee2e-177">Ctrl + Shift + F5</span><span class="sxs-lookup"><span data-stu-id="fee2e-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="fee2e-178">รีเฟรชข้อมูล</span><span class="sxs-lookup"><span data-stu-id="fee2e-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="fee2e-179">SHIFT+F5</span><span class="sxs-lookup"><span data-stu-id="fee2e-179">Shift+F5</span></span>          |
+| <span data-ttu-id="fee2e-180">ย้ายไปที่ฟิลด์แรกที่มองเห็นได้บนแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="fee2e-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="fee2e-181">Alt + Shift + F</span><span class="sxs-lookup"><span data-stu-id="fee2e-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="fee2e-182">สลับโหมดแก้ไข</span><span class="sxs-lookup"><span data-stu-id="fee2e-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="fee2e-183">F2</span><span class="sxs-lookup"><span data-stu-id="fee2e-183">F2</span></span>                |
+| <span data-ttu-id="fee2e-184">แนบเอกสาร</span><span class="sxs-lookup"><span data-stu-id="fee2e-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="fee2e-185">Ctrl + Shift + A</span><span class="sxs-lookup"><span data-stu-id="fee2e-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="fee2e-186">ส่งออกไปที่ Excel</span><span class="sxs-lookup"><span data-stu-id="fee2e-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="fee2e-187">Ctrl + Shift + E</span><span class="sxs-lookup"><span data-stu-id="fee2e-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="fee2e-188">ย้ายไปที่เรกคอร์ดก่อนหน้านี้ (นอกกริด)</span><span class="sxs-lookup"><span data-stu-id="fee2e-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="fee2e-189">Ctrl + ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="fee2e-190">ย้ายไปที่เรกคอร์ดถัดไป (นอกกริด)</span><span class="sxs-lookup"><span data-stu-id="fee2e-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="fee2e-191">Ctrl + ลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="fee2e-192">ย้ายไปที่เรกคอร์ดแรก (นอกกริด)</span><span class="sxs-lookup"><span data-stu-id="fee2e-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="fee2e-193">Ctrl + Home</span><span class="sxs-lookup"><span data-stu-id="fee2e-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="fee2e-194">ย้ายไปที่เรกคอร์ดสุดท้าย (นอกกริด)</span><span class="sxs-lookup"><span data-stu-id="fee2e-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="fee2e-195">Ctrl + End</span><span class="sxs-lookup"><span data-stu-id="fee2e-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="fee2e-196">เปิดรายการการนำทางในแบบฟอร์มรายละเอียด (หรือสลับโฟกัสระหว่างรายการการนำทางแบบฟอร์มหลักถ้ามีการเปิดอยู่แล้ว)</span><span class="sxs-lookup"><span data-stu-id="fee2e-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="fee2e-197">Ctrl+F8</span><span class="sxs-lookup"><span data-stu-id="fee2e-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="fee2e-198">ปิดรายการการนำทางในแบบฟอร์มรายละเอียด (ที่มีโฟกัสในรายการการนำทาง)</span><span class="sxs-lookup"><span data-stu-id="fee2e-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="fee2e-199">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>ทางลัดการนำทางแบบฟอร์ม
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="fee2e-200">ทางลัดการนำทางแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="fee2e-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **ถ้าต้องการดำเนินการนี้**                                      | **กด**                                    |
-| ย้ายไปที่ฟิลด์ถัดไป/ก่อนหน้า                     | แท็บ / Shift + แท็บ                              |
-| ย้ายไปที่แท็บถัดไป/ก่อนหน้า                       | Alt + Shift + ลูกศรไปทางขวา / Alt + Shift + ลูกศรไปทางซ้าย |
-| ย้ายไปที่แท็บด่วนถัดไป/ก่อนหน้า                   | Alt + Shift + ลูกศรลง / Alt + Shift + ลูกศรขึ้น    |
-| ย้ายไปที่แท็บด่วนที่ &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| ย้ายไปที่แท็บที่ &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| ขยายแท็บด่วน (ที่มีโฟกัสในส่วนหัวของแท็บด่วน) | เว้นวรรคหรือป้อน                               |
-| ยุบแท็บด่วนปัจจุบัน                        | Alt + 0                                        |
-| สลับไปยังมุมมองกริด                                 | Ctrl + Shift + G                                 |
-| สลับไปยังมุมมองรายละเอียด                              | Ctrl + Shift + D                                 |
-| สลับไปยังมุมมองส่วนหัว                               | Ctrl + Shift + H                                 |
-| สลับไปยังมุมมองรายการ                                | Ctrl + Shift + L                                 |
-| ปิดแบบฟอร์ม (คลิก ย้อนกลับ)                         | Esc                                          |
-| ปิดแบบฟอร์มที่มีการบันทึกที่ชัดแจ้ง                   | Shift + Esc                                    |
-| ปิดแบบฟอร์มโดยการละทิ้งการเปลี่ยนแปลงใดๆที่ยังไม่ได้บันทึก       | Alt + Shift + Q                                  |
+| <span data-ttu-id="fee2e-201">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-201">**To do this**</span></span>                                      | <span data-ttu-id="fee2e-202">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-202">**Press**</span></span>                                    |
+| <span data-ttu-id="fee2e-203">ย้ายไปที่ฟิลด์ถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="fee2e-204">แท็บ / Shift + แท็บ</span><span class="sxs-lookup"><span data-stu-id="fee2e-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="fee2e-205">ย้ายไปที่แท็บถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="fee2e-206">Alt + Shift + ลูกศรไปทางขวา / Alt + Shift + ลูกศรไปทางซ้าย</span><span class="sxs-lookup"><span data-stu-id="fee2e-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="fee2e-207">ย้ายไปที่แท็บด่วนถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="fee2e-208">Alt + Shift + ลูกศรลง / Alt + Shift + ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="fee2e-209">ย้ายไปที่แท็บด่วนที่ &lt;n&gt;</span><span class="sxs-lookup"><span data-stu-id="fee2e-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="fee2e-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="fee2e-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="fee2e-211">ย้ายไปที่แท็บที่ &lt;n&gt;</span><span class="sxs-lookup"><span data-stu-id="fee2e-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="fee2e-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="fee2e-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="fee2e-213">ขยายแท็บด่วน (ที่มีโฟกัสในส่วนหัวของแท็บด่วน)</span><span class="sxs-lookup"><span data-stu-id="fee2e-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="fee2e-214">เว้นวรรคหรือป้อน</span><span class="sxs-lookup"><span data-stu-id="fee2e-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="fee2e-215">ยุบแท็บด่วนปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fee2e-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="fee2e-216">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="fee2e-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="fee2e-217">สลับไปยังมุมมองกริด</span><span class="sxs-lookup"><span data-stu-id="fee2e-217">Switch to grid view</span></span>                                 | <span data-ttu-id="fee2e-218">Ctrl + Shift + G</span><span class="sxs-lookup"><span data-stu-id="fee2e-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="fee2e-219">สลับไปยังมุมมองรายละเอียด</span><span class="sxs-lookup"><span data-stu-id="fee2e-219">Switch to details view</span></span>                              | <span data-ttu-id="fee2e-220">Ctrl + Shift + D</span><span class="sxs-lookup"><span data-stu-id="fee2e-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="fee2e-221">สลับไปยังมุมมองส่วนหัว</span><span class="sxs-lookup"><span data-stu-id="fee2e-221">Switch to header view</span></span>                               | <span data-ttu-id="fee2e-222">Ctrl + Shift + H</span><span class="sxs-lookup"><span data-stu-id="fee2e-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="fee2e-223">สลับไปยังมุมมองรายการ</span><span class="sxs-lookup"><span data-stu-id="fee2e-223">Switch to lines view</span></span>                                | <span data-ttu-id="fee2e-224">Ctrl + Shift + L</span><span class="sxs-lookup"><span data-stu-id="fee2e-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="fee2e-225">ปิดแบบฟอร์ม (คลิก ย้อนกลับ)</span><span class="sxs-lookup"><span data-stu-id="fee2e-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="fee2e-226">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-226">Esc</span></span>                                          |
+| <span data-ttu-id="fee2e-227">ปิดแบบฟอร์มที่มีการบันทึกที่ชัดแจ้ง</span><span class="sxs-lookup"><span data-stu-id="fee2e-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="fee2e-228">Shift + Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="fee2e-229">ปิดแบบฟอร์มโดยการละทิ้งการเปลี่ยนแปลงใดๆที่ยังไม่ได้บันทึก</span><span class="sxs-lookup"><span data-stu-id="fee2e-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="fee2e-230">Alt + Shift + Q</span><span class="sxs-lookup"><span data-stu-id="fee2e-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>ทางลัดกริด
+## <a name="grid-shortcuts"></a><span data-ttu-id="fee2e-231">ทางลัดกริด</span><span class="sxs-lookup"><span data-stu-id="fee2e-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **ถ้าต้องการดำเนินการนี้**                                                                                                | **กด**                       |
-| ย้ายไปที่คอลัมน์ถัดไป/ก่อนหน้า                                                                              | แท็บ / Shift + แท็บ                 |
-| ย้ายไปที่แถวถัดไป/ก่อนหน้า                                                                                 | เลื่อนลูกศรลง / เลื่อนลูกศรขึ้น           |
-| ย้ายไปยังแถวถัดไป/ก่อนหน้า โดยไม่มีการเลือก (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น) | Ctrl + เลื่อนลูกศรขึ้น / Ctrl + เลื่อนลูกศรลง |
-| เลือก/ล้างแถวปัจจุบัน (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)                    | Ctrl + เว้นวรรค / Ctrl + คลิก         |
-| เพิ่มแถวถัดไป/ก่อนหน้าไปยังชุดข้อมูลที่เลือก (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)   | SHIFT+เว้นวรรค                     |
-| เพิ่มช่วงของแถวปัจจุบันไปยังชุดข้อมูลที่เลือก (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)         | Shift + คลิก                     |
-| ไปที่หน้าข้อมูลถัดไป/ก่อนหน้า                                                                          | เลื่อนหน้าขึ้น / เลื่อนหน้าลง             |
-| สร้างแถวใหม่ที่ด้านล่างของกริด                                                                    | เลื่อนลูกศรลง (จากแถวสุดท้าย)  |
-| เลือกหรือล้างแถวทั้งหมด                                                                                      | Ctrl + Shift + M                    |
-| ย้ายไปที่เรกคอร์ดแรก                                                                                      | Ctrl + Home                       |
-| ย้ายไปที่เรกคอร์ดสุดท้าย                                                                                       | Ctrl + End                        |
+| <span data-ttu-id="fee2e-232">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="fee2e-233">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-233">**Press**</span></span>                       |
+| <span data-ttu-id="fee2e-234">ย้ายไปที่คอลัมน์ถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="fee2e-235">แท็บ / Shift + แท็บ</span><span class="sxs-lookup"><span data-stu-id="fee2e-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="fee2e-236">ย้ายไปที่แถวถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="fee2e-237">เลื่อนลูกศรลง / เลื่อนลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="fee2e-238">ย้ายไปยังแถวถัดไป/ก่อนหน้า โดยไม่มีการเลือก (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)</span><span class="sxs-lookup"><span data-stu-id="fee2e-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="fee2e-239">Ctrl + เลื่อนลูกศรขึ้น / Ctrl + เลื่อนลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="fee2e-240">เลือก/ล้างแถวปัจจุบัน (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)</span><span class="sxs-lookup"><span data-stu-id="fee2e-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="fee2e-241">Ctrl + เว้นวรรค / Ctrl + คลิก</span><span class="sxs-lookup"><span data-stu-id="fee2e-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="fee2e-242">เพิ่มแถวถัดไป/ก่อนหน้าไปยังชุดข้อมูลที่เลือก (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)</span><span class="sxs-lookup"><span data-stu-id="fee2e-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="fee2e-243">SHIFT+เว้นวรรค</span><span class="sxs-lookup"><span data-stu-id="fee2e-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="fee2e-244">เพิ่มช่วงของแถวปัจจุบันไปยังชุดข้อมูลที่เลือก (หมายเหตุ: ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น)</span><span class="sxs-lookup"><span data-stu-id="fee2e-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="fee2e-245">Shift + คลิก</span><span class="sxs-lookup"><span data-stu-id="fee2e-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="fee2e-246">ไปที่หน้าข้อมูลถัดไป/ก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="fee2e-247">เลื่อนหน้าขึ้น / เลื่อนหน้าลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="fee2e-248">สร้างแถวใหม่ที่ด้านล่างของกริด</span><span class="sxs-lookup"><span data-stu-id="fee2e-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="fee2e-249">เลื่อนลูกศรลง (จากแถวสุดท้าย)</span><span class="sxs-lookup"><span data-stu-id="fee2e-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="fee2e-250">เลือกหรือล้างแถวทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="fee2e-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="fee2e-251">Ctrl + Shift + M</span><span class="sxs-lookup"><span data-stu-id="fee2e-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="fee2e-252">ย้ายไปที่เรกคอร์ดแรก</span><span class="sxs-lookup"><span data-stu-id="fee2e-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="fee2e-253">Ctrl + Home</span><span class="sxs-lookup"><span data-stu-id="fee2e-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="fee2e-254">ย้ายไปที่เรกคอร์ดสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="fee2e-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="fee2e-255">Ctrl + End</span><span class="sxs-lookup"><span data-stu-id="fee2e-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>ทางลัดของตัวควบคุมข้อมูลป้อนเข้า
+## <a name="input-control-shortcuts"></a><span data-ttu-id="fee2e-256">ทางลัดของตัวควบคุมข้อมูลป้อนเข้า</span><span class="sxs-lookup"><span data-stu-id="fee2e-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **ถ้าต้องการดำเนินการนี้**                                             | **กด**                     |
-| ป้อนวันที่รอบเวลาในฟิลด์วันที่                     | D + Tab                         |
-| ป้อนวันที่ปัจจุบันในฟิลด์วันที่                     | T + แท็บ                         |
-| เปิดการค้นหา กล่องคำสั่งผสม ตัวเลือกวันที่ กล่องโต้ตอบการวาง           | Alt+เลื่อนลูกศรลง                |
-| ปิดการค้นหา กล่องคำสั่งผสม ตัวเลือกวันที่ กล่องโต้ตอบการวาง          | Esc                           |
-| ย้ายโฟกัสไปยังการค้นหา (เมื่อมีการเปิดการค้นหาอยู่แล้ว) | Alt+ลูกศรลง                |
-| เปิดการแสดงตัวอย่างขั้นสูงของตัวควบคุม                        | Alt + ลูกศรขึ้น                  |
-| เลือกข้อความในฟิลด์ปัจจุบัน                           | Ctrl + A                        |
-| เข้า/ออกจากพื้นที่ข้อความในการควบคุมโปรแกรมแก้ไข HTML        | Alt + เลื่อนลูกศรลง / Alt + เลื่อนลูกศรขึ้น |
+| <span data-ttu-id="fee2e-257">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-257">**To do this**</span></span>                                             | <span data-ttu-id="fee2e-258">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-258">**Press**</span></span>                     |
+| <span data-ttu-id="fee2e-259">ป้อนวันที่รอบเวลาในฟิลด์วันที่</span><span class="sxs-lookup"><span data-stu-id="fee2e-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="fee2e-260">D + Tab</span><span class="sxs-lookup"><span data-stu-id="fee2e-260">D+Tab</span></span>                         |
+| <span data-ttu-id="fee2e-261">ป้อนวันที่ปัจจุบันในฟิลด์วันที่</span><span class="sxs-lookup"><span data-stu-id="fee2e-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="fee2e-262">T + แท็บ</span><span class="sxs-lookup"><span data-stu-id="fee2e-262">T+Tab</span></span>                         |
+| <span data-ttu-id="fee2e-263">เปิดการค้นหา กล่องคำสั่งผสม ตัวเลือกวันที่ กล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="fee2e-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="fee2e-264">Alt+เลื่อนลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="fee2e-265">ปิดการค้นหา กล่องคำสั่งผสม ตัวเลือกวันที่ กล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="fee2e-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="fee2e-266">Esc</span><span class="sxs-lookup"><span data-stu-id="fee2e-266">Esc</span></span>                           |
+| <span data-ttu-id="fee2e-267">ย้ายโฟกัสไปยังการค้นหา (เมื่อมีการเปิดการค้นหาอยู่แล้ว)</span><span class="sxs-lookup"><span data-stu-id="fee2e-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="fee2e-268">Alt+ลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="fee2e-269">เปิดการแสดงตัวอย่างขั้นสูงของตัวควบคุม</span><span class="sxs-lookup"><span data-stu-id="fee2e-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="fee2e-270">Alt + ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="fee2e-271">เลือกข้อความในฟิลด์ปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fee2e-271">Select text in the current field</span></span>                           | <span data-ttu-id="fee2e-272">Ctrl + A</span><span class="sxs-lookup"><span data-stu-id="fee2e-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="fee2e-273">เข้า/ออกจากพื้นที่ข้อความในการควบคุมโปรแกรมแก้ไข HTML</span><span class="sxs-lookup"><span data-stu-id="fee2e-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="fee2e-274">Alt + เลื่อนลูกศรลง / Alt + เลื่อนลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>ทางลัดการส่งข้อความ
+## <a name="messaging-shortcuts"></a><span data-ttu-id="fee2e-275">ทางลัดการส่งข้อความ</span><span class="sxs-lookup"><span data-stu-id="fee2e-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **ถ้าต้องการดำเนินการนี้**           | **กด**     |
-| ไปที่ศูนย์ข้อความ | Ctrl + Shift + F7 |
-| ไปที่แถบข้อความ    | Ctrl+F7       |
+| <span data-ttu-id="fee2e-276">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-276">**To do this**</span></span>           | <span data-ttu-id="fee2e-277">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-277">**Press**</span></span>     |
+| <span data-ttu-id="fee2e-278">ไปที่ศูนย์ข้อความ</span><span class="sxs-lookup"><span data-stu-id="fee2e-278">Go to the Message Center</span></span> | <span data-ttu-id="fee2e-279">Ctrl + Shift + F7</span><span class="sxs-lookup"><span data-stu-id="fee2e-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="fee2e-280">ไปที่แถบข้อความ</span><span class="sxs-lookup"><span data-stu-id="fee2e-280">Go to the Message Bar</span></span>    | <span data-ttu-id="fee2e-281">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="fee2e-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>ทางลัดการนำทาง
+## <a name="navigation-shortcuts"></a><span data-ttu-id="fee2e-282">ทางลัดการนำทาง</span><span class="sxs-lookup"><span data-stu-id="fee2e-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **ถ้าต้องการดำเนินการนี้**                                                            | **กด**       |
-| ไปที่แดชบอร์ด                                                       | Alt+Shift+Home  |
-| ไปที่แถบการนำทาง                                                  | Alt + Shift +F1    |
-| ไปที่บานหน้าต่างการนำทาง                                                 | Alt + F1          |
-| ทำเป็นรายการโปรด/ยกเลิกการทำเป็นรายการโปรดฟอร์ม (ขณะที่โฟกัสที่ฟอร์มในบานหน้าต่างนำทาง) | Shift+F         |
-| ไปที่ตัวเลือกบริษัท                                                  | Ctrl + Shift + O    |
-| ไปที่การค้นหาการนำทาง                                                   | Ctrl+/ หรือ Alt+G |
-| เปิดบานหน้าต่างวิธีใช้                                                        | Ctrl+?          |
-| เปิด Trace Parser                                                     | Alt+Shift+T     |
+| <span data-ttu-id="fee2e-283">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-283">**To do this**</span></span>                                                            | <span data-ttu-id="fee2e-284">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-284">**Press**</span></span>       |
+| <span data-ttu-id="fee2e-285">ไปที่แดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="fee2e-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="fee2e-286">Alt+Shift+Home</span><span class="sxs-lookup"><span data-stu-id="fee2e-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="fee2e-287">ไปที่แถบการนำทาง</span><span class="sxs-lookup"><span data-stu-id="fee2e-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="fee2e-288">Alt + Shift +F1</span><span class="sxs-lookup"><span data-stu-id="fee2e-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="fee2e-289">ไปที่บานหน้าต่างการนำทาง</span><span class="sxs-lookup"><span data-stu-id="fee2e-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="fee2e-290">Alt + F1</span><span class="sxs-lookup"><span data-stu-id="fee2e-290">Alt+F1</span></span>          |
+| <span data-ttu-id="fee2e-291">ทำเป็นรายการโปรด/ยกเลิกการทำเป็นรายการโปรดฟอร์ม (ขณะที่โฟกัสที่ฟอร์มในบานหน้าต่างนำทาง)</span><span class="sxs-lookup"><span data-stu-id="fee2e-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="fee2e-292">Shift+F</span><span class="sxs-lookup"><span data-stu-id="fee2e-292">Shift+F</span></span>         |
+| <span data-ttu-id="fee2e-293">ไปที่ตัวเลือกบริษัท</span><span class="sxs-lookup"><span data-stu-id="fee2e-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="fee2e-294">Ctrl + Shift + O</span><span class="sxs-lookup"><span data-stu-id="fee2e-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="fee2e-295">ไปที่การค้นหาการนำทาง</span><span class="sxs-lookup"><span data-stu-id="fee2e-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="fee2e-296">Ctrl+/ หรือ Alt+G</span><span class="sxs-lookup"><span data-stu-id="fee2e-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="fee2e-297">เปิดบานหน้าต่างวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="fee2e-297">Open the help pane</span></span>                                                        | <span data-ttu-id="fee2e-298">Ctrl+?</span><span class="sxs-lookup"><span data-stu-id="fee2e-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="fee2e-299">เปิด Trace Parser</span><span class="sxs-lookup"><span data-stu-id="fee2e-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="fee2e-300">Alt+Shift+T</span><span class="sxs-lookup"><span data-stu-id="fee2e-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>ทางลัดรายการของเซ็กเมนต์
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="fee2e-301">ทางลัดรายการของเซ็กเมนต์</span><span class="sxs-lookup"><span data-stu-id="fee2e-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **ถ้าต้องการดำเนินการนี้**                                                                                                          | **กด**                        |
-| เปิดรายการแบบหล่นลง (เมื่อมีการปิดรายการแบบหล่นลง)                                                             | Alt+เลื่อนลูกศรลง                   |
-| ย้ายโฟกัสไปยังฟิลด์ป้อนข้อมูลสำหรับเซ็กเมนต์ปัจจุบันในรายการแบบหล่นลง (เมื่อมีรายการแบบหล่นลงเปิดอยู่แล้ว) | Alt+เลื่อนลูกศรลง                   |
-| ปิดรายการแบบหล่นลง                                                                                                | Alt + ลูกศรขึ้น                     |
-| ปิด/เปิดส่วนด้านขวาของรายการแบบหล่นลง                                                                      | Alt + Shift + ลูกศรไปทางซ้าย / Alt + Shift + ลูกศรไปทางขวา |
-| สลับไปมาระหว่างโหมด "แสดงสิ่งที่ใช้ได้" และ "แสดงทั้งหมด"                                                                        | Alt + W                            |
-| เลือกค่าจากรายการแบบหล่นลง และย้ายไปยังเซ็กเมนต์ถัดไป                                                       | ป้อน                            |
-| ย้ายไปยังตัวควบคุมถัดไป/ก่อนหน้าบนหน้า (เมื่อโฟกัสอยู่ในการควบคุมการป้อนข้อมูล)                                          | แท็บ / Shift + แท็บ                  |
-| ย้ายไปฟิลด์การป้อนข้อมูลถัดไป/ก่อนหน้าในแถบลอย (เมื่อโฟกัสอยู่ในรายการแบบหล่นลง)                               | แท็บ / Shift + แท็บ                  |
-| ย้ายขึ้น/ลงหนึ่งแถวในการค้นหา                                                                                        | เลื่อนลูกศรขึ้น / เลื่อนลูกศรลง            |
-| ย้ายขึ้น/ลงหนึ่งหน้าในการค้นหา                                                                                       | เลื่อนหน้าขึ้น / เลื่อนหน้าลง              |
-| ย้ายไปด้านบน/ด้านล่างของการค้นหา                                                                                    | หน้าหลัก / สิ้นสุด                       |
+| <span data-ttu-id="fee2e-302">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="fee2e-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="fee2e-303">**กด**</span><span class="sxs-lookup"><span data-stu-id="fee2e-303">**Press**</span></span>                        |
+| <span data-ttu-id="fee2e-304">เปิดรายการแบบหล่นลง (เมื่อมีการปิดรายการแบบหล่นลง)</span><span class="sxs-lookup"><span data-stu-id="fee2e-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="fee2e-305">Alt+เลื่อนลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="fee2e-306">ย้ายโฟกัสไปยังฟิลด์ป้อนข้อมูลสำหรับเซ็กเมนต์ปัจจุบันในรายการแบบหล่นลง (เมื่อมีรายการแบบหล่นลงเปิดอยู่แล้ว)</span><span class="sxs-lookup"><span data-stu-id="fee2e-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="fee2e-307">Alt+เลื่อนลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="fee2e-308">ปิดรายการแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="fee2e-309">Alt + ลูกศรขึ้น</span><span class="sxs-lookup"><span data-stu-id="fee2e-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="fee2e-310">ปิด/เปิดส่วนด้านขวาของรายการแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="fee2e-311">Alt + Shift + ลูกศรไปทางซ้าย / Alt + Shift + ลูกศรไปทางขวา</span><span class="sxs-lookup"><span data-stu-id="fee2e-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="fee2e-312">สลับไปมาระหว่างโหมด "แสดงสิ่งที่ใช้ได้" และ "แสดงทั้งหมด"</span><span class="sxs-lookup"><span data-stu-id="fee2e-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="fee2e-313">Alt + W</span><span class="sxs-lookup"><span data-stu-id="fee2e-313">Alt+W</span></span>                            |
+| <span data-ttu-id="fee2e-314">เลือกค่าจากรายการแบบหล่นลง และย้ายไปยังเซ็กเมนต์ถัดไป</span><span class="sxs-lookup"><span data-stu-id="fee2e-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="fee2e-315">ป้อน</span><span class="sxs-lookup"><span data-stu-id="fee2e-315">Enter</span></span>                            |
+| <span data-ttu-id="fee2e-316">ย้ายไปยังตัวควบคุมถัดไป/ก่อนหน้าบนหน้า (เมื่อโฟกัสอยู่ในการควบคุมการป้อนข้อมูล)</span><span class="sxs-lookup"><span data-stu-id="fee2e-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="fee2e-317">แท็บ / Shift + แท็บ</span><span class="sxs-lookup"><span data-stu-id="fee2e-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="fee2e-318">ย้ายไปฟิลด์การป้อนข้อมูลถัดไป/ก่อนหน้าในแถบลอย (เมื่อโฟกัสอยู่ในรายการแบบหล่นลง)</span><span class="sxs-lookup"><span data-stu-id="fee2e-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="fee2e-319">แท็บ / Shift + แท็บ</span><span class="sxs-lookup"><span data-stu-id="fee2e-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="fee2e-320">ย้ายขึ้น/ลงหนึ่งแถวในการค้นหา</span><span class="sxs-lookup"><span data-stu-id="fee2e-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="fee2e-321">เลื่อนลูกศรขึ้น / เลื่อนลูกศรลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="fee2e-322">ย้ายขึ้น/ลงหนึ่งหน้าในการค้นหา</span><span class="sxs-lookup"><span data-stu-id="fee2e-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="fee2e-323">เลื่อนหน้าขึ้น / เลื่อนหน้าลง</span><span class="sxs-lookup"><span data-stu-id="fee2e-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="fee2e-324">ย้ายไปด้านบน/ด้านล่างของการค้นหา</span><span class="sxs-lookup"><span data-stu-id="fee2e-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="fee2e-325">หน้าหลัก / สิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="fee2e-325">Home / End</span></span>                       |
 
  
 

@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -27,84 +27,84 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน
+## <a name="access-rights-of-a-cost-object-controller"></a><span data-ttu-id="84d72-103">สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-103">Access rights of a cost object controller</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-พื้นที่ทำงาน **การควบคุมต้นทุน** เป็นจุดศูนย์กลางที่ผู้จัดการสามารถดูประสิทธิภาพของออบเจ็กต์ต้นทุน พื้นที่ทำงานนี้ช่วยให้ผู้จัดการใช้ข้อมูลการบัญชีต้นทุน แม้ว่าจะไม่ได้เป็นผู้จัดการบัญชีต้นทุนก็ตาม สำหรับเหตุผลด้านความปลอดภัย ผู้จัดการควรได้รับอนุญาตให้ดูเฉพาะข้อมูลบัญชีต้นทุนที่เกี่ยวข้องกับออบเจ็กต์เฉพาะต้นทุนที่จะรับผิดชอบ
+<span data-ttu-id="84d72-104">พื้นที่ทำงาน **การควบคุมต้นทุน** เป็นจุดศูนย์กลางที่ผู้จัดการสามารถดูประสิทธิภาพของออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-104">The **Cost control** workspace is a central point where managers can view the performance of their cost objects.</span></span> <span data-ttu-id="84d72-105">พื้นที่ทำงานนี้ช่วยให้ผู้จัดการใช้ข้อมูลการบัญชีต้นทุน แม้ว่าจะไม่ได้เป็นผู้จัดการบัญชีต้นทุนก็ตาม</span><span class="sxs-lookup"><span data-stu-id="84d72-105">This workspace lets managers consume Cost accounting data even though they aren't cost accountants.</span></span> <span data-ttu-id="84d72-106">สำหรับเหตุผลด้านความปลอดภัย ผู้จัดการควรได้รับอนุญาตให้ดูเฉพาะข้อมูลบัญชีต้นทุนที่เกี่ยวข้องกับออบเจ็กต์เฉพาะต้นทุนที่จะรับผิดชอบ</span><span class="sxs-lookup"><span data-stu-id="84d72-106">For security reasons, managers should be allowed to see only the Cost accounting data that is related to the specific cost objects that they are responsible for.</span></span>
 
-บทบาทเฉพาะในการบัญชีต้นทุนมีอยู่สี่บทบาท
+<span data-ttu-id="84d72-107">บทบาทเฉพาะในการบัญชีต้นทุนมีอยู่สี่บทบาท</span><span class="sxs-lookup"><span data-stu-id="84d72-107">There are four unique roles in Cost accounting.</span></span>
 
-| ชื่อบทบาท               | ใบอนุญาต      |
+| <span data-ttu-id="84d72-108">ชื่อบทบาท</span><span class="sxs-lookup"><span data-stu-id="84d72-108">Role name</span></span>               | <span data-ttu-id="84d72-109">ใบอนุญาต</span><span class="sxs-lookup"><span data-stu-id="84d72-109">License</span></span>      |
 |-------------------------|--------------|
-| ผู้จัดการการบัญชีต้นทุน | กิจกรรม     |
-| นักบัญชีต้นทุน         | Operations   |
-| เสมียนบัญชีต้นทุน   | Operations   |
-| ตัวควบคุมออบเจ็กต์ต้นทุน  | สมาชิกทีมงาน |
+| <span data-ttu-id="84d72-110">ผู้จัดการการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-110">Cost accounting manager</span></span> | <span data-ttu-id="84d72-111">กิจกรรม</span><span class="sxs-lookup"><span data-stu-id="84d72-111">Activity</span></span>     |
+| <span data-ttu-id="84d72-112">นักบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-112">Cost accountant</span></span>         | <span data-ttu-id="84d72-113">Operations</span><span class="sxs-lookup"><span data-stu-id="84d72-113">Operations</span></span>   |
+| <span data-ttu-id="84d72-114">เสมียนบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-114">Cost accountant clerk</span></span>   | <span data-ttu-id="84d72-115">Operations</span><span class="sxs-lookup"><span data-stu-id="84d72-115">Operations</span></span>   |
+| <span data-ttu-id="84d72-116">ตัวควบคุมออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-116">Cost object controller</span></span>  | <span data-ttu-id="84d72-117">สมาชิกทีมงาน</span><span class="sxs-lookup"><span data-stu-id="84d72-117">Team members</span></span> |
 
-หัวข้อนี้อธิบายวิธีการกำหนดบทบาท **ตัวควบคุมออบเจ็กต์ต้นทุน** ให้กับผู้จัดการ
+<span data-ttu-id="84d72-118">หัวข้อนี้อธิบายวิธีการกำหนดบทบาท **ตัวควบคุมออบเจ็กต์ต้นทุน** ให้กับผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="84d72-118">This topic explains how to assign the **Cost object controller** role to a manager.</span></span>
 
-เมื่อบทบาทของ **ตัวควบคุมออบเจ็กต์ต้นทุน** กำหนดบทบาทให้กับผู้จัดการ ผู้จัดการสามารถดำเนินงานดังต่อไปนี้:
+<span data-ttu-id="84d72-119">เมื่อบทบาทของ **ตัวควบคุมออบเจ็กต์ต้นทุน** กำหนดบทบาทให้กับผู้จัดการ ผู้จัดการสามารถดำเนินงานดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="84d72-119">When the **Cost object controller** role is assigned to a manager, the manager can perform the following tasks:</span></span>
 
-- การเข้าถึงพื้นที่ทำงาน **การควบคุมต้นทุน** (ในไคลเอนต์)
+- <span data-ttu-id="84d72-120">การเข้าถึงพื้นที่ทำงาน **การควบคุมต้นทุน** (ในไคลเอนต์)</span><span class="sxs-lookup"><span data-stu-id="84d72-120">Access the **Cost control** workspace (in the client).</span></span>
 
-    - เจาะลึกและมีสิทธิ์เข้าดูหน้าที่สนับสนุนประสบการณ์แบบลงรายละเอียด
+    - <span data-ttu-id="84d72-121">เจาะลึกและมีสิทธิ์เข้าดูหน้าที่สนับสนุนประสบการณ์แบบลงรายละเอียด</span><span class="sxs-lookup"><span data-stu-id="84d72-121">Drill through and have view access to the pages that support the drill-through experience.</span></span>
 
-- เข้าถึงพื้นที่ทำงาน **การควบคุมต้นทุน** (ในอุปกรณ์เคลื่อนที่)
+- <span data-ttu-id="84d72-122">เข้าถึงพื้นที่ทำงาน **การควบคุมต้นทุน** (ในอุปกรณ์เคลื่อนที่)</span><span class="sxs-lookup"><span data-stu-id="84d72-122">Access the **Cost control** workspace (in the mobile application).</span></span>
 
 > [!NOTE]
-> บทบาท **ตัวควบคุมออบเจ็กต์ต้นทุน** ไม่ควบคุมออบเจ็กต์ต้นทุนที่ผู้ใช้สามารถเข้าถึงและดูข้อมูลได้ มีการจัดให้มีความปลอดภัยระดับแถวผ่านลำดับชั้นของมิติและลำดับชั้นรายการการเข้าถึง
+> <span data-ttu-id="84d72-123">บทบาท **ตัวควบคุมออบเจ็กต์ต้นทุน** ไม่ควบคุมออบเจ็กต์ต้นทุนที่ผู้ใช้สามารถเข้าถึงและดูข้อมูลได้</span><span class="sxs-lookup"><span data-stu-id="84d72-123">The **Cost object controller** role doesn't control which cost objects the user can access and view data for.</span></span> <span data-ttu-id="84d72-124">มีการจัดให้มีความปลอดภัยระดับแถวผ่านลำดับชั้นของมิติและลำดับชั้นรายการการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="84d72-124">Row-level security is provided via dimension hierarchies and the Access list hierarchy.</span></span>
 
-## <a name="grant-access-rights"></a>การให้สิทธิการเข้าถึง
-ตัวอย่างต่อไปนี้แสดงว่าลำดับชั้นมิติมีลักษณะอย่างไร
+## <a name="grant-access-rights"></a><span data-ttu-id="84d72-125">การให้สิทธิการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="84d72-125">Grant access rights</span></span>
+<span data-ttu-id="84d72-126">ตัวอย่างต่อไปนี้แสดงว่าลำดับชั้นมิติมีลักษณะอย่างไร</span><span class="sxs-lookup"><span data-stu-id="84d72-126">The following example shows what a dimension hierarchy can look like.</span></span>
 
-**รายละเอียดลำดับชั้นมิติ**
+<span data-ttu-id="84d72-127">**รายละเอียดลำดับชั้นมิติ**</span><span class="sxs-lookup"><span data-stu-id="84d72-127">**Dimension hierarchy details**</span></span>
 
-| ชื่อลำดับชั้นมิติ | มิติ    | ชื่อชนิดลำดับชั้นมิติ      | ลำดับชั้นรายการการเข้าถึง |
+| <span data-ttu-id="84d72-128">ชื่อลำดับชั้นมิติ</span><span class="sxs-lookup"><span data-stu-id="84d72-128">Dimension hierarchy name</span></span> | <span data-ttu-id="84d72-129">มิติ</span><span class="sxs-lookup"><span data-stu-id="84d72-129">Dimension</span></span>    | <span data-ttu-id="84d72-130">ชื่อชนิดลำดับชั้นมิติ</span><span class="sxs-lookup"><span data-stu-id="84d72-130">Dimension hierarchy type name</span></span>      | <span data-ttu-id="84d72-131">ลำดับชั้นรายการการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="84d72-131">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| องค์กร             | ศูนย์ต้นทุน | ลำดับชั้นการจัดประเภทมิติ | **ใช่**               |
+| <span data-ttu-id="84d72-132">องค์กร</span><span class="sxs-lookup"><span data-stu-id="84d72-132">Organization</span></span>             | <span data-ttu-id="84d72-133">ศูนย์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-133">Cost centers</span></span> | <span data-ttu-id="84d72-134">ลำดับชั้นการจัดประเภทมิติ</span><span class="sxs-lookup"><span data-stu-id="84d72-134">Dimension classification hierarchy</span></span> | <span data-ttu-id="84d72-135">**ใช่**</span><span class="sxs-lookup"><span data-stu-id="84d72-135">**Yes**</span></span>               |
 
-คุณสามารถใช้แท็บด่วน **ผู้ใช้** ในโปรแกรมออกแบบลำดับชั้นเพื่อแทรกรหัสผู้ใช้หนึ่งรหัสหรือมากกว่าในแต่ละโหนด
+<span data-ttu-id="84d72-136">คุณสามารถใช้แท็บด่วน **ผู้ใช้** ในโปรแกรมออกแบบลำดับชั้นเพื่อแทรกรหัสผู้ใช้หนึ่งรหัสหรือมากกว่าในแต่ละโหนด</span><span class="sxs-lookup"><span data-stu-id="84d72-136">You can use the **Users** FastTab in the hierarchy designer to insert one or more user IDs on each node.</span></span>
 
-|                                   | ผู้ใช้            | ช่วงสมาชิกมิติ   |                         |
+|                                   | <span data-ttu-id="84d72-137">ผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="84d72-137">Users</span></span>            | <span data-ttu-id="84d72-138">ช่วงสมาชิกมิติ</span><span class="sxs-lookup"><span data-stu-id="84d72-138">Dimension member ranges</span></span>   |                         |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **โหนด**                         | **รหัสผู้ใช้**      | **สมาชิกมิติเริ่มต้น** | **สมาชิกมิติสิ้นสุด** |
-| องค์กร                      | เบนจามิน แคลร์ |                           |                         |
-| &nbsp;&nbsp;ผู้ดูแลระบบ                 | เมษายน            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;การเงิน   | อลิเซีย           | CC002                     | CC003                   |
-|                                   |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;ทรัพยากรบุคคล        | อาร์นี            | CC001                     | CC001                   |
-| &nbsp;&nbsp;การผลิต            | เดวิด            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;บรรจุภัณฑ์ | เอลเลน            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;ชิ้นส่วนประกอบ  | คริส            | CC006                     | CC006                   |
+| <span data-ttu-id="84d72-139">**โหนด**</span><span class="sxs-lookup"><span data-stu-id="84d72-139">**Nodes**</span></span>                         | <span data-ttu-id="84d72-140">**รหัสผู้ใช้**</span><span class="sxs-lookup"><span data-stu-id="84d72-140">**User ID**</span></span>      | <span data-ttu-id="84d72-141">**สมาชิกมิติเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="84d72-141">**From dimension member**</span></span> | <span data-ttu-id="84d72-142">**สมาชิกมิติสิ้นสุด**</span><span class="sxs-lookup"><span data-stu-id="84d72-142">**To dimension member**</span></span> |
+| <span data-ttu-id="84d72-143">องค์กร</span><span class="sxs-lookup"><span data-stu-id="84d72-143">Organization</span></span>                      | <span data-ttu-id="84d72-144">เบนจามิน แคลร์</span><span class="sxs-lookup"><span data-stu-id="84d72-144">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="84d72-145">&nbsp;&nbsp;ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="84d72-145">&nbsp;&nbsp;Admin</span></span>                 | <span data-ttu-id="84d72-146">เมษายน</span><span class="sxs-lookup"><span data-stu-id="84d72-146">April</span></span>            |                           |                         |
+| <span data-ttu-id="84d72-147">&nbsp;&nbsp;&nbsp;&nbsp;การเงิน</span><span class="sxs-lookup"><span data-stu-id="84d72-147">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="84d72-148">อลิเซีย</span><span class="sxs-lookup"><span data-stu-id="84d72-148">Alicia</span></span>           | <span data-ttu-id="84d72-149">CC002</span><span class="sxs-lookup"><span data-stu-id="84d72-149">CC002</span></span>                     | <span data-ttu-id="84d72-150">CC003</span><span class="sxs-lookup"><span data-stu-id="84d72-150">CC003</span></span>                   |
+|                                   |                  | <span data-ttu-id="84d72-151">CC007</span><span class="sxs-lookup"><span data-stu-id="84d72-151">CC007</span></span>                     | <span data-ttu-id="84d72-152">CC007</span><span class="sxs-lookup"><span data-stu-id="84d72-152">CC007</span></span>                   |
+| <span data-ttu-id="84d72-153">&nbsp;&nbsp;&nbsp;&nbsp;ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="84d72-153">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="84d72-154">อาร์นี</span><span class="sxs-lookup"><span data-stu-id="84d72-154">Arnie</span></span>            | <span data-ttu-id="84d72-155">CC001</span><span class="sxs-lookup"><span data-stu-id="84d72-155">CC001</span></span>                     | <span data-ttu-id="84d72-156">CC001</span><span class="sxs-lookup"><span data-stu-id="84d72-156">CC001</span></span>                   |
+| <span data-ttu-id="84d72-157">&nbsp;&nbsp;การผลิต</span><span class="sxs-lookup"><span data-stu-id="84d72-157">&nbsp;&nbsp;Production</span></span>            | <span data-ttu-id="84d72-158">เดวิด</span><span class="sxs-lookup"><span data-stu-id="84d72-158">David</span></span>            |                           |                         |
+| <span data-ttu-id="84d72-159">&nbsp;&nbsp;&nbsp;&nbsp;บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="84d72-159">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="84d72-160">เอลเลน</span><span class="sxs-lookup"><span data-stu-id="84d72-160">Ellen</span></span>            | <span data-ttu-id="84d72-161">CC005</span><span class="sxs-lookup"><span data-stu-id="84d72-161">CC005</span></span>                     | <span data-ttu-id="84d72-162">CC005</span><span class="sxs-lookup"><span data-stu-id="84d72-162">CC005</span></span>                   |
+| <span data-ttu-id="84d72-163">&nbsp;&nbsp;&nbsp;&nbsp;ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="84d72-163">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="84d72-164">คริส</span><span class="sxs-lookup"><span data-stu-id="84d72-164">Chris</span></span>            | <span data-ttu-id="84d72-165">CC006</span><span class="sxs-lookup"><span data-stu-id="84d72-165">CC006</span></span>                     | <span data-ttu-id="84d72-166">CC006</span><span class="sxs-lookup"><span data-stu-id="84d72-166">CC006</span></span>                   |
 
 > [!NOTE]
-> ควรกำหนดให้ผู้จัดทำบัญชีต้นทุนอยู่ระดับบนสุดของลำดับชั้น เพื่อให้สามารถดูรายการทั้งหมดในการบัญชีต้นทุน
+> <span data-ttu-id="84d72-167">ควรกำหนดให้ผู้จัดทำบัญชีต้นทุนอยู่ระดับบนสุดของลำดับชั้น เพื่อให้สามารถดูรายการทั้งหมดในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-167">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-ก่อนที่จะใช้ลำดับชั้นรายการเข้าถึงและการตั้งค่าความปลอดภัย ตัวเลือก **เปิดใช้งานการเข้าถึงเพื่อดูสำหรับสมาชิกมิติออบเจ็กต์ต้นทุน** ต้องตั้งค่าตัวเลือกเป็น **ใช่** บนแท็บ **ทั่วไป** ของหน้า **พารามิเตอร์การบัญชีต้นทุน** (**การบัญชีต้นทุน** > **ตั้งค่า** > **พารามิเตอร์**)
+<span data-ttu-id="84d72-168">ก่อนที่จะใช้ลำดับชั้นรายการเข้าถึงและการตั้งค่าความปลอดภัย ตัวเลือก **เปิดใช้งานการเข้าถึงเพื่อดูสำหรับสมาชิกมิติออบเจ็กต์ต้นทุน** ต้องตั้งค่าตัวเลือกเป็น **ใช่** บนแท็บ **ทั่วไป** ของหน้า **พารามิเตอร์การบัญชีต้นทุน** (**การบัญชีต้นทุน** > **ตั้งค่า** > **พารามิเตอร์**)</span><span class="sxs-lookup"><span data-stu-id="84d72-168">Before the Access list hierarchy and its security settings can be applied, the **Enable view access for cost object dimension members** option must be set to **Yes** on the **General** tab of the **Cost accounting parameters** page (**Cost accounting** > **Setup** > **Parameters**).</span></span>
 
-การตั้งค่าสำหรับลำดับชั้นรายการการเข้าถึงใช้เพื่อควบคุมข้อมูลที่แสดงในพื้นที่ต่อไปนี้:
+<span data-ttu-id="84d72-169">การตั้งค่าสำหรับลำดับชั้นรายการการเข้าถึงใช้เพื่อควบคุมข้อมูลที่แสดงในพื้นที่ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="84d72-169">The settings for the Access list hierarchy are used to control the data that is shown in following areas:</span></span>
 
-- พื้นที่ทำงาน **การควบคุมต้นทุน** (ในไคลเอนต์):
+- <span data-ttu-id="84d72-170">พื้นที่ทำงาน **การควบคุมต้นทุน** (ในไคลเอนต์):</span><span class="sxs-lookup"><span data-stu-id="84d72-170">**Cost control** workspace (in the client):</span></span>
 
-    - ข้อมูลบนเพจที่ใช้สำหรับการเจาะลึก
+    - <span data-ttu-id="84d72-171">ข้อมูลบนเพจที่ใช้สำหรับการเจาะลึก</span><span class="sxs-lookup"><span data-stu-id="84d72-171">Data on the pages that are used for drill-through</span></span>
 
-- พื้นที่ทำงาน **การควบคุมต้นทุน** (ในอุปกรณ์เคลื่อนที่):
+- <span data-ttu-id="84d72-172">พื้นที่ทำงาน **การควบคุมต้นทุน** (ในอุปกรณ์เคลื่อนที่):</span><span class="sxs-lookup"><span data-stu-id="84d72-172">**Cost control** workspace (in the mobile application):</span></span>
 
-    - ยอดดุลในบัตร
+    - <span data-ttu-id="84d72-173">ยอดดุลในบัตร</span><span class="sxs-lookup"><span data-stu-id="84d72-173">Balances in cards</span></span>
 
-- Microsoft Power BI:
+- <span data-ttu-id="84d72-174">Microsoft Power BI:</span><span class="sxs-lookup"><span data-stu-id="84d72-174">Microsoft Power BI:</span></span>
 
-    - ข้อมูลที่แสดงในการแสดงภาพ Power BI
-    - การแสดงภาพข้อมูล Power BI ที่ฝังอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, client
+    - <span data-ttu-id="84d72-175">ข้อมูลที่แสดงในการแสดงภาพ Power BI</span><span class="sxs-lookup"><span data-stu-id="84d72-175">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="84d72-176">การแสดงภาพข้อมูล Power BI ที่ฝังอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, client</span><span class="sxs-lookup"><span data-stu-id="84d72-176">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, client</span></span>
 
 > [!IMPORTANT]
-> - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
-> - หัวข้อนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีอยู่ในตำแหน่งก่อนที่คุณสามารถใช้การพื้นที่ทำงาน **ควบคุมต้นทุน**
+> - <span data-ttu-id="84d72-177">ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI</span><span class="sxs-lookup"><span data-stu-id="84d72-177">Before the Access list hierarchy can affect data in Power BI, the Access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="84d72-178">สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)</span><span class="sxs-lookup"><span data-stu-id="84d72-178">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="84d72-179">หัวข้อนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีอยู่ในตำแหน่งก่อนที่คุณสามารถใช้การพื้นที่ทำงาน **ควบคุมต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="84d72-179">This topic shows the prerequisites that must be in place before you can use the **Cost control** workspace.</span></span>
 
-ดูเพิ่มเติมที่
+<span data-ttu-id="84d72-180">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="84d72-180">See also</span></span>
 
-- [พื้นที่ทำงานการควบคุมต้นทุน](cost-control-workspace.md)
-- [ลำดับชั้นของมิติ](dimension-hierarchy.md)
-- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [<span data-ttu-id="84d72-181">พื้นที่ทำงานการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-181">Cost control workspace</span></span>](cost-control-workspace.md)
+- [<span data-ttu-id="84d72-182">ลำดับชั้นของมิติ</span><span class="sxs-lookup"><span data-stu-id="84d72-182">Dimension hierarchy</span></span>](dimension-hierarchy.md)
+- [<span data-ttu-id="84d72-183">การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="84d72-183">Set up security for Cost accounting content pack</span></span>](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

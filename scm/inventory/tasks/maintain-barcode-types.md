@@ -1,4 +1,4 @@
---- 
+---
 title: "รักษาประเภทบาร์โค้ด"
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าข้อกำหนดบาร์โค้ดใหม่ ซึ่งสามารถนำไปใช้เป็นส่วนหนึ่งของรายงานรายการเบิกสินค้า "
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,32 +17,31 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 57ad3f2cb4f4a246af4d58001c6ef56c440b5431
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 45323206550d1b0ed66d89f4be7b995c60af63fc
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="maintain-bar-code-types"></a>รักษาประเภทบาร์โค้ด
+# <a name="maintain-bar-code-types"></a><span data-ttu-id="b7a93-103">รักษาประเภทบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="b7a93-103">Maintain bar code types</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการตั้งค่าข้อกำหนดบาร์โค้ดใหม่ ซึ่งสามารถนำไปใช้เป็นส่วนหนึ่งของรายงานรายการเบิกสินค้า  คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่ งานเหล่านี้อาจจะเกิดขึ้นทั่วไปโดยผู้จัดการคลังสินค้า 
+<span data-ttu-id="b7a93-104">กระบวนงานนี้แสดงวิธีการตั้งค่าข้อกำหนดบาร์โค้ดใหม่ ซึ่งสามารถนำไปใช้เป็นส่วนหนึ่งของรายงานรายการเบิกสินค้า </span><span class="sxs-lookup"><span data-stu-id="b7a93-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="b7a93-105">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="b7a93-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="b7a93-106">ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่</span><span class="sxs-lookup"><span data-stu-id="b7a93-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="b7a93-107">งานเหล่านี้อาจจะเกิดขึ้นทั่วไปโดยผู้จัดการคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="b7a93-107">These tasks would typically be carried out by a warehouse manager.</span></span>
 
-1. ไปที่ บาร์โค้ด
-2. คลิก สร้าง
-3. ในฟิลด์การตั้งค่าบาร์โค้ด ให้พิมพ์ค่าใดค่าหนึ่ง
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์ชนิดของบาร์โค้ด ให้เลือกตัวเลือกหนึ่งตัวเลือก
-    * ถ้าคุณกำลังใช้ USMF คุณสามารถเลือก 'รหัส 39' ได้  
-6. ในฟิลด์ขนาด ให้ป้อนตัวเลข
-7. ในฟิลด์ความยาวสูงสุด ให้ป้อนตัวเลข
-8. คลิกบันทึก
-9. ปิดหน้า
-10. ไปที่ สินค้าคงคลังและพารามิเตอร์การจัดการคลังสินค้า
-11. ในฟิลด์การตั้งค่าบาร์โค้ด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * เลือกการตั้งค่าบาร์โค้ดที่คุณสร้างขึ้นก่อนหน้า แต่ให้ระวังว่าบาร์โค้ดต้องตรงกับรูปแบบของตัวระบุเฉพาะสำหรับชนิดของเรกคอร์ดที่ใช้ในกระบวนการ  ตัวอย่างเช่น สำหรับเส้นทางการเบิกสินค้า รูปแบบบาร์โค้ดควรตรงกับรูปแบบของการอ้างอิงเส้นทางการเบิกสินค้า ซึ่งโดยปกติจะเป็นลำดับหมายเลข  
-12. คลิก บันทึก
-13. ปิดหน้า
-
+1. <span data-ttu-id="b7a93-108">ไปที่ บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="b7a93-108">Go to Bar codes.</span></span>
+2. <span data-ttu-id="b7a93-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b7a93-109">Click New.</span></span>
+3. <span data-ttu-id="b7a93-110">ในฟิลด์การตั้งค่าบาร์โค้ด ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="b7a93-110">In the Barcode setup field, type a value.</span></span>
+4. <span data-ttu-id="b7a93-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="b7a93-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="b7a93-112">ในฟิลด์ชนิดของบาร์โค้ด ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="b7a93-112">In the Bar code type field, select an option.</span></span>
+    * <span data-ttu-id="b7a93-113">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือก 'รหัส 39' ได้</span><span class="sxs-lookup"><span data-stu-id="b7a93-113">If you're using USMF, you can select 'Code 39'.</span></span>  
+6. <span data-ttu-id="b7a93-114">ในฟิลด์ขนาด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="b7a93-114">In the Size field, enter a number.</span></span>
+7. <span data-ttu-id="b7a93-115">ในฟิลด์ความยาวสูงสุด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="b7a93-115">In the Maximum length field, enter a number.</span></span>
+8. <span data-ttu-id="b7a93-116">คลิกบันทึก</span><span class="sxs-lookup"><span data-stu-id="b7a93-116">Click Save.</span></span>
+9. <span data-ttu-id="b7a93-117">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="b7a93-117">Close the page.</span></span>
+10. <span data-ttu-id="b7a93-118">ไปที่ สินค้าคงคลังและพารามิเตอร์การจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="b7a93-118">Go to Inventory and warehouse management parameters.</span></span>
+11. <span data-ttu-id="b7a93-119">ในฟิลด์การตั้งค่าบาร์โค้ด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="b7a93-119">In the Barcode setup field, enter or select a value.</span></span>
+    * <span data-ttu-id="b7a93-120">เลือกการตั้งค่าบาร์โค้ดที่คุณสร้างขึ้นก่อนหน้า แต่ให้ระวังว่าบาร์โค้ดต้องตรงกับรูปแบบของตัวระบุเฉพาะสำหรับชนิดของเรกคอร์ดที่ใช้ในกระบวนการ </span><span class="sxs-lookup"><span data-stu-id="b7a93-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="b7a93-121">ตัวอย่างเช่น สำหรับเส้นทางการเบิกสินค้า รูปแบบบาร์โค้ดควรตรงกับรูปแบบของการอ้างอิงเส้นทางการเบิกสินค้า ซึ่งโดยปกติจะเป็นลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="b7a93-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
+12. <span data-ttu-id="b7a93-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b7a93-122">Click Save.</span></span>
+13. <span data-ttu-id="b7a93-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="b7a93-123">Close the page.</span></span>
 

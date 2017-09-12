@@ -18,40 +18,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 16acadf0b814ff5863873280cd8d6e6ddbdcffc8
 ms.contentlocale: th-th
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="close-the-general-ledger-at-period-end"></a>ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="c2d93-103">ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="c2d93-103">Close the general ledger at period end</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายถึงงานที่โดยทั่วไปจะเสร็จสมบูรณ์เมื่อทำการปิดรอบระยะเวลาสำหรับบัญชีแยกประเภททั่วไป 
+<span data-ttu-id="c2d93-104">หัวข้อนี้อธิบายถึงงานที่โดยทั่วไปจะเสร็จสมบูรณ์เมื่อทำการปิดรอบระยะเวลาสำหรับบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="c2d93-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-ในบัญชีแยกประเภททั่วไป คุณสามารถใช้ขั้นตอนการปิดเมื่อสิ้นสุดรอบระยะเวลา หรือ ปีหนึ่งๆ กระบวนการปิดบัญชีจัดเตรียมระบบสำหรับรอบระยะเวลาใหม่ เมื่อต้องการจัดเตรียมระบบสำหรับปีใหม่ คุณต้องดำเนินกระบวนการปิดบัญชีสิ้นปี แต่ละองค์กรมีกระบวนการต่าง ๆ และขั้นตอนที่ทำงานสำหรับการสิ้นสุดของรอบระยะเวลา นี่คือขั้นตอนบางขั้นตอนที่จำเป็นต้องระบุสำหรับรอบระยะเวลาสิ้นสุด:
+<span data-ttu-id="c2d93-105">ในบัญชีแยกประเภททั่วไป คุณสามารถใช้ขั้นตอนการปิดเมื่อสิ้นสุดรอบระยะเวลา หรือ ปีหนึ่งๆ</span><span class="sxs-lookup"><span data-stu-id="c2d93-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="c2d93-106">กระบวนการปิดบัญชีจัดเตรียมระบบสำหรับรอบระยะเวลาใหม่</span><span class="sxs-lookup"><span data-stu-id="c2d93-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="c2d93-107">เมื่อต้องการจัดเตรียมระบบสำหรับปีใหม่ คุณต้องดำเนินกระบวนการปิดบัญชีสิ้นปี</span><span class="sxs-lookup"><span data-stu-id="c2d93-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="c2d93-108">แต่ละองค์กรมีกระบวนการต่าง ๆ และขั้นตอนที่ทำงานสำหรับการสิ้นสุดของรอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="c2d93-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="c2d93-109">นี่คือขั้นตอนบางขั้นตอนที่จำเป็นต้องระบุสำหรับรอบระยะเวลาสิ้นสุด:</span><span class="sxs-lookup"><span data-stu-id="c2d93-109">Here are some optional steps for period ends:</span></span>
 
--   ดำเนินงานทั้งหมดสำหรับโมดูลอื่น ๆ ทั้งหมด เช่น บัญชีลูกหนี้, บัญชีเจ้าหนี้, และ สินค้าคงคลัง
--   ตรวจสอบว่า มีการลงรายการบัญชีสมุดรายวันทั้งหมด
--   ดำเนินการประเมินค่าสกุลเงินต่างประเทศเพื่อสร้างยอดเงินกำไรหรือขาดทุนใด ๆที่เกิดขึ้นจริง
--   จัดตั้งธุรกรรมสำหรับบัญชีแยกประเภทแต่ละประเภท
--   การดำเนินการขอปันส่วน
--   ลงรายการบัญชีการปรับปรุงสิ้นสุดรอบระยะเวลาด้วยตนเอง
--   รายการธุรกรรม และตรวจทานการ **รายงานสมุดรายวันบัญชีแยกประเภท**
--   ดำเนินการรวมบัญชี โดยใช้บริษัทที่รวมบัญชีหรือการรายงานทางการเงิน
--   สร้างงบการเงินสิ้นงวด โดยใช้การรายงานทางการเงิน
--   ตั้งค่ารอบระยะเวลาบัญชีแยกประเภทเป็น **คงค้าง**, เพื่อให้ไม่มีการ ลงรายการบัญชีอื่นใดเกิดขึ้น คุณสามารถจำกัดรอบระยะเวลาให้กับกลุ่มผู้ใช้เฉพาะขณะสิ้นสุดรอบระยะเวลากิจกรรมใดๆที่จะเกิด เพื่อการควบคุมที่ดีขึ้น ไม่แนะนำให้กำหนดรอบระยะเวลาไปยัง **ปิดอย่างถาวร** เนื่องจากคุณจะไม่สามารถเปิดรอบระยะเวลาที่ปิดแล้วได้อีก
+-   <span data-ttu-id="c2d93-110">ดำเนินงานทั้งหมดสำหรับโมดูลอื่น ๆ ทั้งหมด เช่น บัญชีลูกหนี้, บัญชีเจ้าหนี้, และ สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="c2d93-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="c2d93-111">ตรวจสอบว่า มีการลงรายการบัญชีสมุดรายวันทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c2d93-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="c2d93-112">ดำเนินการประเมินค่าสกุลเงินต่างประเทศเพื่อสร้างยอดเงินกำไรหรือขาดทุนใด ๆที่เกิดขึ้นจริง</span><span class="sxs-lookup"><span data-stu-id="c2d93-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="c2d93-113">จัดตั้งธุรกรรมสำหรับบัญชีแยกประเภทแต่ละประเภท</span><span class="sxs-lookup"><span data-stu-id="c2d93-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="c2d93-114">การดำเนินการขอปันส่วน</span><span class="sxs-lookup"><span data-stu-id="c2d93-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="c2d93-115">ลงรายการบัญชีการปรับปรุงสิ้นสุดรอบระยะเวลาด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="c2d93-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="c2d93-116">รายการธุรกรรม และตรวจทานการ **รายงานสมุดรายวันบัญชีแยกประเภท**</span><span class="sxs-lookup"><span data-stu-id="c2d93-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="c2d93-117">ดำเนินการรวมบัญชี โดยใช้บริษัทที่รวมบัญชีหรือการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="c2d93-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="c2d93-118">สร้างงบการเงินสิ้นงวด โดยใช้การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="c2d93-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="c2d93-119">ตั้งค่ารอบระยะเวลาบัญชีแยกประเภทเป็น **คงค้าง**, เพื่อให้ไม่มีการ ลงรายการบัญชีอื่นใดเกิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="c2d93-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="c2d93-120">คุณสามารถจำกัดรอบระยะเวลาให้กับกลุ่มผู้ใช้เฉพาะขณะสิ้นสุดรอบระยะเวลากิจกรรมใดๆที่จะเกิด เพื่อการควบคุมที่ดีขึ้น</span><span class="sxs-lookup"><span data-stu-id="c2d93-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="c2d93-121">ไม่แนะนำให้กำหนดรอบระยะเวลาไปยัง **ปิดอย่างถาวร** เนื่องจากคุณจะไม่สามารถเปิดรอบระยะเวลาที่ปิดแล้วได้อีก</span><span class="sxs-lookup"><span data-stu-id="c2d93-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-สามารถใช้พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงินในการจัดระเบียบและติดตามงานที่จำเป็นสำหรับการประมวลผลสิ้นสุดรอบระยะเวลาต่าง ๆ 
+<span data-ttu-id="c2d93-122">สามารถใช้พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงินในการจัดระเบียบและติดตามงานที่จำเป็นสำหรับการประมวลผลสิ้นสุดรอบระยะเวลาต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="c2d93-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูข้อมูลต่อไปนี้สำหรับข้อมูลเพิ่มเติม:
-- [พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน](financial-period-close-workspace.md) 
-- [การปิดบัญชีสิ้นปี](Year-end-close.md)  
-- [การปิดรอบระยะเวลาทางการเงินโดยรวม](tasks/mass-financial-period-close.md)
+<span data-ttu-id="c2d93-123">สำหรับข้อมูลเพิ่มเติม ให้ดูข้อมูลต่อไปนี้สำหรับข้อมูลเพิ่มเติม:</span><span class="sxs-lookup"><span data-stu-id="c2d93-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="c2d93-124">พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="c2d93-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="c2d93-125">การปิดบัญชีสิ้นปี</span><span class="sxs-lookup"><span data-stu-id="c2d93-125">Year end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="c2d93-126">การปิดรอบระยะเวลาทางการเงินโดยรวม</span><span class="sxs-lookup"><span data-stu-id="c2d93-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 

@@ -17,52 +17,52 @@ ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9ae0bbb641d7517d33ad087faec231cb0bda3f78
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 172bb55358c20ba80b1c32b05f1ae8e6aff8901f
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="production-order-cost-estimation"></a>การประเมินต้นทุนใบสั่งผลิต
+# <a name="production-order-cost-estimation"></a><span data-ttu-id="5e2a2-104">การประเมินต้นทุนใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="5e2a2-104">Production order cost estimation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับการประเมินต้นทุนการผลิต  การประเมินต้นทุนการผลิตให้วัสดุที่คาดการณ์ไว้ และต้นทุนปริมาณการใช้ของกำลังการผลิตของการผลิตสินค้าในปริมาณใบสั่งผลิตตามแผน 
+<span data-ttu-id="5e2a2-105">บทความนี้แสดงข้อมูลเกี่ยวกับการประเมินต้นทุนการผลิต </span><span class="sxs-lookup"><span data-stu-id="5e2a2-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="5e2a2-106">การประเมินต้นทุนการผลิตให้วัสดุที่คาดการณ์ไว้ และต้นทุนปริมาณการใช้ของกำลังการผลิตของการผลิตสินค้าในปริมาณใบสั่งผลิตตามแผน</span><span class="sxs-lookup"><span data-stu-id="5e2a2-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 
-หลังจากที่คุณสร้างใบสั่งผลิต คุณต้องประเมินต้นทุนการผลิต  วัตถุประสงค์คือเพื่อประเมินปริมาณการใช้สินค้าและกระบวนการผลิตสำหรับกระบวนการผลิต เนื่องจากการประเมินเหล่านี้จะถูกใช้เป็นข้อมูลพื้นฐานสำหรับกระบวนการผลิตและการจัดกำหนดการในเวลาต่อมา
+<span data-ttu-id="5e2a2-107">หลังจากที่คุณสร้างใบสั่งผลิต คุณต้องประเมินต้นทุนการผลิต </span><span class="sxs-lookup"><span data-stu-id="5e2a2-107">After you create a production order, you must estimate production costs.</span></span> <span data-ttu-id="5e2a2-108">วัตถุประสงค์คือเพื่อประเมินปริมาณการใช้สินค้าและกระบวนการผลิตสำหรับกระบวนการผลิต เนื่องจากการประเมินเหล่านี้จะถูกใช้เป็นข้อมูลพื้นฐานสำหรับกระบวนการผลิตและการจัดกำหนดการในเวลาต่อมา</span><span class="sxs-lookup"><span data-stu-id="5e2a2-108">The purpose is to estimate item and route consumption for the production process, because these estimates are used as the basis for subsequent scheduling and production processes.</span></span>
 
-## <a name="production-cost-estimation"></a>การประเมินต้นทุนการผลิต
-การประเมินต้นทุนการผลิตเป็นไปตามข้อมูลต่อไปนี้:
+## <a name="production-cost-estimation"></a><span data-ttu-id="5e2a2-109">การประเมินต้นทุนการผลิต</span><span class="sxs-lookup"><span data-stu-id="5e2a2-109">Production cost estimation</span></span>
+<span data-ttu-id="5e2a2-110">การประเมินต้นทุนการผลิตเป็นไปตามข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="5e2a2-110">Estimates of production costs are based on the following information:</span></span>
 
--   ปริมาณในใบสั่งผลิต
--   ส่วนประกอบในสูตรการผลิต (BOMs)
--   ขั้นตอนของกระบวนการผลิตในกระบวนการผลิต
--   ต้นทุนทางอ้อมที่ใช้กับส่วนประกอบและการดำเนินงาน
--   ข้อมูลต้นทุนที่ใช้งาน ณ วันที่มีการคำนวณ
+-   <span data-ttu-id="5e2a2-111">ปริมาณในใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="5e2a2-111">The quantity on the production order</span></span>
+-   <span data-ttu-id="5e2a2-112">ส่วนประกอบในสูตรการผลิต (BOMs)</span><span class="sxs-lookup"><span data-stu-id="5e2a2-112">The components on the production bills of materials (BOMs)</span></span>
+-   <span data-ttu-id="5e2a2-113">ขั้นตอนของกระบวนการผลิตในกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="5e2a2-113">The routing operations in the production route</span></span>
+-   <span data-ttu-id="5e2a2-114">ต้นทุนทางอ้อมที่ใช้กับส่วนประกอบและการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="5e2a2-114">The indirect costs that apply to the components and operations</span></span>
+-   <span data-ttu-id="5e2a2-115">ข้อมูลต้นทุนที่ใช้งาน ณ วันที่มีการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="5e2a2-115">The active cost data as of the calculation date</span></span>
 
-ถ้ามีสินค้าในรายการแฝงอยู่ใน BOMs สำหรับการผลิต การคำนวณสะท้อนถึงส่วนประกอบของรายการแฝง และขั้นตอนของกระบวนการผลิต  คุณสามารถใช้งานการประเมินเพื่อคำนวณต้นทุนที่ประเมินใหม่ เพื่อที่จะสะท้อนถึงข้อมูลที่อัพเดตแล้ว  ตัวอย่างเช่น ข้อมูลที่อัพเดตแล้วอาจเป็นการเปลี่ยนแปลงปริมาณในใบสั่งผลิต ส่วนประกอบใน BOMs ของกระบวนการผลิต ขั้นตอนของกระบวนการผลิตในกระบวนการผลิต ต้นทุนทางอ้อมที่ใช้กับองค์ประกอบเหล่านี้และการดำเนินงาน หรือข้อมูลต้นทุนที่ใช้งาน ณ วันที่มีการคำนวณใหม่  การคำนวณต้นทุนที่ประเมินยังแนะนำราคาขายสำหรับสินค้าการผลิต ซึ่งใช้วิธีต้นทุนบวกการเพิ่มราคา  อีกทางหนึ่งคือ การคำนวณของต้นทุนที่ประเมินสามารถใช้กับใบสั่งอ้างอิงที่สะท้อนถึงใบสั่งผลิตอื่นๆที่เชื่อมโยงกับใบสั่งผลิตได้
+<span data-ttu-id="5e2a2-116">ถ้ามีสินค้าในรายการแฝงอยู่ใน BOMs สำหรับการผลิต การคำนวณสะท้อนถึงส่วนประกอบของรายการแฝง และขั้นตอนของกระบวนการผลิต </span><span class="sxs-lookup"><span data-stu-id="5e2a2-116">If there is a phantom line item on the production BOMs, the calculations reflect the phantom’s components and route operations.</span></span> <span data-ttu-id="5e2a2-117">คุณสามารถใช้งานการประเมินเพื่อคำนวณต้นทุนที่ประเมินใหม่ เพื่อที่จะสะท้อนถึงข้อมูลที่อัพเดตแล้ว </span><span class="sxs-lookup"><span data-stu-id="5e2a2-117">You can use the estimation task to recalculate estimated costs so that they reflect updated information.</span></span> <span data-ttu-id="5e2a2-118">ตัวอย่างเช่น ข้อมูลที่อัพเดตแล้วอาจเป็นการเปลี่ยนแปลงปริมาณในใบสั่งผลิต ส่วนประกอบใน BOMs ของกระบวนการผลิต ขั้นตอนของกระบวนการผลิตในกระบวนการผลิต ต้นทุนทางอ้อมที่ใช้กับองค์ประกอบเหล่านี้และการดำเนินงาน หรือข้อมูลต้นทุนที่ใช้งาน ณ วันที่มีการคำนวณใหม่ </span><span class="sxs-lookup"><span data-stu-id="5e2a2-118">For example, the updated information might be changes to the quantity on the production order, the components on the production BOMs, the routing operations in the production route, the indirect costs that apply to these components and operations, or the active cost data as of the recalculation date.</span></span> <span data-ttu-id="5e2a2-119">การคำนวณต้นทุนที่ประเมินยังแนะนำราคาขายสำหรับสินค้าการผลิต ซึ่งใช้วิธีต้นทุนบวกการเพิ่มราคา </span><span class="sxs-lookup"><span data-stu-id="5e2a2-119">The calculations of estimated cost also suggest a sales price for the production item, based on a cost-plus-markup approach.</span></span> <span data-ttu-id="5e2a2-120">อีกทางหนึ่งคือ การคำนวณของต้นทุนที่ประเมินสามารถใช้กับใบสั่งอ้างอิงที่สะท้อนถึงใบสั่งผลิตอื่นๆที่เชื่อมโยงกับใบสั่งผลิตได้</span><span class="sxs-lookup"><span data-stu-id="5e2a2-120">The calculations of estimated cost can optionally apply to reference orders that reflect other production orders that are linked to the production order.</span></span>
 
-## <a name="view-the-estimated-costs"></a>ดูต้นทุนที่ประเมิน
-หลังจากที่คุณรันการประเมิน คุณสามารถดูผลลัพธ์ในหน้า **การคำนวณราคา** ได้ การประเมินคำนวณค่าต่อไปนี้:
+## <a name="view-the-estimated-costs"></a><span data-ttu-id="5e2a2-121">ดูต้นทุนที่ประเมิน</span><span class="sxs-lookup"><span data-stu-id="5e2a2-121">View the estimated costs</span></span>
+<span data-ttu-id="5e2a2-122">หลังจากที่คุณรันการประเมิน คุณสามารถดูผลลัพธ์ในหน้า **การคำนวณราคา** ได้</span><span class="sxs-lookup"><span data-stu-id="5e2a2-122">After you run estimation, you can view the results on the **Price calculation** page.</span></span> <span data-ttu-id="5e2a2-123">การประเมินคำนวณค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="5e2a2-123">The estimation calculates the following values:</span></span>
 
--   **ต้นทุนการผลิต** – ต้นทุนการผลิตเป็นรายการบนสุดของการประเมิน ต้นทุนการผลิตแสดงต้นทุนทั้งหมดของการรันใบสั่งผลิต และราคาขายรวมสำหรับการผลิต  เป็นผลรวมของรายการต้นทุนทั้งหมดในการประเมิน
--   **ต้นทุนกระบวนการผลิตหรือทรัพยากร** – ต้นทุนกระบวนการผลิตหรือทรัพยากร เป็นต้นทุนของการดำเนินงานการผลิต ซึ่งรวมถึงต้นทุนขององค์ประกอบ เช่น เวลาการตั้งค่า เวลาที่ใช้ในการรัน และค่าโสหุ้ย
--   **ต้นทุนวัสดุ** – ต้นทุนวัสดุเป็นต้นทุนและราคาของส่วนประกอบ BOM ที่ต้องใช้เพื่อผลิตสินค้า ก่อนหน้านี้ ต้นทุนเหล่านี้ได้ถูกสร้างและป้อนเข้าในระบบไว้แล้ว
+-   <span data-ttu-id="5e2a2-124">**ต้นทุนการผลิต** – ต้นทุนการผลิตเป็นรายการบนสุดของการประเมิน</span><span class="sxs-lookup"><span data-stu-id="5e2a2-124">**Production cost** – The production cost is the top line of the estimate.</span></span> <span data-ttu-id="5e2a2-125">ต้นทุนการผลิตแสดงต้นทุนทั้งหมดของการรันใบสั่งผลิต และราคาขายรวมสำหรับการผลิต </span><span class="sxs-lookup"><span data-stu-id="5e2a2-125">It shows the complete cost of running the production order and the total sales price for the production.</span></span> <span data-ttu-id="5e2a2-126">เป็นผลรวมของรายการต้นทุนทั้งหมดในการประเมิน</span><span class="sxs-lookup"><span data-stu-id="5e2a2-126">It's the sum of all the cost lines on the estimate.</span></span>
+-   <span data-ttu-id="5e2a2-127">**ต้นทุนกระบวนการผลิตหรือทรัพยากร** – ต้นทุนกระบวนการผลิตหรือทรัพยากร เป็นต้นทุนของการดำเนินงานการผลิต</span><span class="sxs-lookup"><span data-stu-id="5e2a2-127">**Route or resource costs** – Route or resource costs are the costs for the production operations.</span></span> <span data-ttu-id="5e2a2-128">ซึ่งรวมถึงต้นทุนขององค์ประกอบ เช่น เวลาการตั้งค่า เวลาที่ใช้ในการรัน และค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="5e2a2-128">They include the cost of elements such as setup time, run time, and overhead.</span></span>
+-   <span data-ttu-id="5e2a2-129">**ต้นทุนวัสดุ** – ต้นทุนวัสดุเป็นต้นทุนและราคาของส่วนประกอบ BOM ที่ต้องใช้เพื่อผลิตสินค้า</span><span class="sxs-lookup"><span data-stu-id="5e2a2-129">**Material costs** – Material costs are the costs and prices of the BOM components that are required in order to produce the item.</span></span> <span data-ttu-id="5e2a2-130">ก่อนหน้านี้ ต้นทุนเหล่านี้ได้ถูกสร้างและป้อนเข้าในระบบไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="5e2a2-130">These costs have previously been established and entered into the system.</span></span>
 
-## <a name="other-uses-of-cost-estimation"></a>การใช้งานอื่นๆของการประเมินต้นทุน
-การประเมินต้นทุนยังให้ข้อมูลต่อไปนี้อีกด้วย:
+## <a name="other-uses-of-cost-estimation"></a><span data-ttu-id="5e2a2-131">การใช้งานอื่นๆของการประเมินต้นทุน</span><span class="sxs-lookup"><span data-stu-id="5e2a2-131">Other uses of cost estimation</span></span>
+<span data-ttu-id="5e2a2-132">การประเมินต้นทุนยังให้ข้อมูลต่อไปนี้อีกด้วย:</span><span class="sxs-lookup"><span data-stu-id="5e2a2-132">A cost estimate also provides the following information:</span></span>
 
--   ใบเสนอราคาที่มีประโยชน์
--   การประเมินผลกำไรของใบสั่ง
--   การประเมินการใช้วัตถุดิบ
--   การเปรียบเทียบข้อมูลต้นทุนจากการผลิตก่อนหน้านี้
--   ข้อมูลงบประมาณและการคาดการณ์
--   การประเมินขนาดการผลิตที่ต้องใช้ในการรักษาต้นทุนเฉพาะ
+-   <span data-ttu-id="5e2a2-133">ใบเสนอราคาที่มีประโยชน์</span><span class="sxs-lookup"><span data-stu-id="5e2a2-133">Meaningful price quotations</span></span>
+-   <span data-ttu-id="5e2a2-134">การประเมินผลกำไรของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="5e2a2-134">Estimates of the profitability of the order</span></span>
+-   <span data-ttu-id="5e2a2-135">การประเมินการใช้วัตถุดิบ</span><span class="sxs-lookup"><span data-stu-id="5e2a2-135">Estimates of raw material usage</span></span>
+-   <span data-ttu-id="5e2a2-136">การเปรียบเทียบข้อมูลต้นทุนจากการผลิตก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="5e2a2-136">Comparisons of cost information from previous productions</span></span>
+-   <span data-ttu-id="5e2a2-137">ข้อมูลงบประมาณและการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="5e2a2-137">Budget and forecasting information</span></span>
+-   <span data-ttu-id="5e2a2-138">การประเมินขนาดการผลิตที่ต้องใช้ในการรักษาต้นทุนเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="5e2a2-138">Estimates of the production size that is required in order to maintain a particular cost</span></span>
 
 
 

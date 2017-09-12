@@ -15,32 +15,32 @@ ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 3482aacba9315606a7751adc5839a8a11c2d4490
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6b576be9986a0c0701792a87422a0865cd3f8e7a
 ms.contentlocale: th-th
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>โฮมเพจการจัดการทางการเงิน
+# <a name="financial-management-home-page"></a><span data-ttu-id="d27cc-103">โฮมเพจการจัดการทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="d27cc-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 
+<span data-ttu-id="d27cc-104">หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span><span class="sxs-lookup"><span data-stu-id="d27cc-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม
-- [บัญชีเจ้าหนี้](accounts-payable\accounts-payable.md) 
-- [บัญชีลูกหนี้](accounts-receivable\accounts-receivable.md) 
-- [การจัดการเงินสดและธนาคาร](cash-bank-management\cash-bank-management.md)
-- [การบัญชีต้นทุน](cost-accounting\cost-accounting-home-page.md)
-- [สินทรัพย์ถาวร](fixed-assets\fixed-assets.md)
-- [บัญชีแยกประเภททั่วไป](general-ledger\general-ledger.md) 
-- [การจัดการโครงการ](project-management\overview-project-management-accounting.md)
-- [ภาครัฐ](public-sector\public-sector-functionality.md) 
-- [การจัดงบประมาณ](budgeting\budgeting-overview.md) 
+<span data-ttu-id="d27cc-105">เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="d27cc-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="d27cc-106">บัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="d27cc-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="d27cc-107">บัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="d27cc-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="d27cc-108">การจัดการเงินสดและธนาคาร</span><span class="sxs-lookup"><span data-stu-id="d27cc-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="d27cc-109">การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="d27cc-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="d27cc-110">สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="d27cc-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="d27cc-111">บัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="d27cc-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="d27cc-112">การจัดการโครงการ</span><span class="sxs-lookup"><span data-stu-id="d27cc-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="d27cc-113">ภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="d27cc-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="d27cc-114">การจัดงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d27cc-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 

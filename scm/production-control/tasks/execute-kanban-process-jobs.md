@@ -17,43 +17,43 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b5048a5f9277c47444fa69d2c8cc8e36ba7dcd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="execute-kanban-process-jobs"></a>ดำเนินการงานกระบวนการคัมบัง
+# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="36eb3-103">ดำเนินการงานกระบวนการคัมบัง</span><span class="sxs-lookup"><span data-stu-id="36eb3-103">Execute kanban process jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้มุ่งเน้นไปที่การดำเนินงานกระบวนงานคัมบัง  งานแรกเสร็จสมบูรณ์พร้อมกับปริมาณที่คาดหวังไว้และไม่มีข้อผิดพลาด  งานที่สองเสร็จสมบูรณ์พร้อมกับข้อผิดพลาด ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF กระบวนงานนี้มีไว้สำหรับพนักงานควบคุมเครื่องจักร
+<span data-ttu-id="36eb3-104">กระบวนงานนี้มุ่งเน้นไปที่การดำเนินงานกระบวนงานคัมบัง </span><span class="sxs-lookup"><span data-stu-id="36eb3-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="36eb3-105">งานแรกเสร็จสมบูรณ์พร้อมกับปริมาณที่คาดหวังไว้และไม่มีข้อผิดพลาด </span><span class="sxs-lookup"><span data-stu-id="36eb3-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="36eb3-106">งานที่สองเสร็จสมบูรณ์พร้อมกับข้อผิดพลาด</span><span class="sxs-lookup"><span data-stu-id="36eb3-106">The second job is completed with errors.</span></span> <span data-ttu-id="36eb3-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="36eb3-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="36eb3-108">กระบวนงานนี้มีไว้สำหรับพนักงานควบคุมเครื่องจักร</span><span class="sxs-lookup"><span data-stu-id="36eb3-108">This procedure is intended for the machine operator.</span></span>
 
 
-## <a name="select-a-kanban-job"></a>เลือกงานคัมบัง
-1. ไปที่การควบคุมการผลิต > คัมบัง > บอร์ดคัมบังสำหรับงานกระบวนการ 
-2. ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา 
-3. คลิกแถวที่มีกลุ่มทรัพยากร 1250 ซึ่งกรองรายการงานเพื่อแสดงเฉพาะงานสำหรับเซลล์ทำงาน 1250
-    * ทำเครื่องหมายแถวที่มีสถานะงานเป็นวางแผนแล้ว  
+## <a name="select-a-kanban-job"></a><span data-ttu-id="36eb3-109">เลือกงานคัมบัง</span><span class="sxs-lookup"><span data-stu-id="36eb3-109">Select a kanban job</span></span>
+1. <span data-ttu-id="36eb3-110">ไปที่การควบคุมการผลิต > คัมบัง > บอร์ดคัมบังสำหรับงานกระบวนการ </span><span class="sxs-lookup"><span data-stu-id="36eb3-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="36eb3-111">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="36eb3-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="36eb3-112">คลิกแถวที่มีกลุ่มทรัพยากร 1250</span><span class="sxs-lookup"><span data-stu-id="36eb3-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="36eb3-113">ซึ่งกรองรายการงานเพื่อแสดงเฉพาะงานสำหรับเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="36eb3-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
+    * <span data-ttu-id="36eb3-114">ทำเครื่องหมายแถวที่มีสถานะงานเป็นวางแผนแล้ว</span><span class="sxs-lookup"><span data-stu-id="36eb3-114">Mark the row that has the Planned job status.</span></span>  
 
-## <a name="complete-a-job-with-expected-quantity"></a>ดำเนินงานที่มีปริมาณที่คาดไว้ให้เสร็จสมบูรณ์
-1. ขยายหรือยุบส่วนรายละเอียด
-    * ส่วนนี้แสดงข้อมูลสำคัญเกี่ยวกับหมายเลขบัตร หมายเลขสินค้า ปริมาณที่สั่ง และชื่อกิจกรรม  
-2. ขยายหรือยุบส่วนคำแนะนำเกี่ยวกับการผลิต
-    * ส่วนนี้แสดงคำแนะนำเกี่ยวกับการผลิตสำหรับกิจกรรม คำแนะนำสามารถเป็นข้อความ รูปภาพ ภาพวาด หรือเอกสารอื่นๆได้  
-3. คลิก เริ่มต้น
-    * เลือกงานที่ยังไม่เสร็จสิ้น  .ช้ไอคอนสถานะในฟิลด์สถานะงาน เพื่อดูสถานะงาน      
-4. คลิกเสร็จสมบูรณ์
-    * งานเสร็จสมบูรณ์พร้อมกับปริมาณที่คาดหวังไว้  
+## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="36eb3-115">ดำเนินงานที่มีปริมาณที่คาดไว้ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="36eb3-115">Complete a job with expected quantity</span></span>
+1. <span data-ttu-id="36eb3-116">ขยายหรือยุบส่วนรายละเอียด</span><span class="sxs-lookup"><span data-stu-id="36eb3-116">Expand or collapse the Details section.</span></span>
+    * <span data-ttu-id="36eb3-117">ส่วนนี้แสดงข้อมูลสำคัญเกี่ยวกับหมายเลขบัตร หมายเลขสินค้า ปริมาณที่สั่ง และชื่อกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="36eb3-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
+2. <span data-ttu-id="36eb3-118">ขยายหรือยุบส่วนคำแนะนำเกี่ยวกับการผลิต</span><span class="sxs-lookup"><span data-stu-id="36eb3-118">Expand or collapse the Production instructions section.</span></span>
+    * <span data-ttu-id="36eb3-119">ส่วนนี้แสดงคำแนะนำเกี่ยวกับการผลิตสำหรับกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="36eb3-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="36eb3-120">คำแนะนำสามารถเป็นข้อความ รูปภาพ ภาพวาด หรือเอกสารอื่นๆได้</span><span class="sxs-lookup"><span data-stu-id="36eb3-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
+3. <span data-ttu-id="36eb3-121">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="36eb3-121">Click Start.</span></span>
+    * <span data-ttu-id="36eb3-122">เลือกงานที่ยังไม่เสร็จสิ้น </span><span class="sxs-lookup"><span data-stu-id="36eb3-122">Select a job that is not completed.</span></span> <span data-ttu-id="36eb3-123">.ช้ไอคอนสถานะในฟิลด์สถานะงาน เพื่อดูสถานะงาน</span><span class="sxs-lookup"><span data-stu-id="36eb3-123">Use status icons in the Job status field to view job status.</span></span>      
+4. <span data-ttu-id="36eb3-124">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="36eb3-124">Click Complete.</span></span>
+    * <span data-ttu-id="36eb3-125">งานเสร็จสมบูรณ์พร้อมกับปริมาณที่คาดหวังไว้</span><span class="sxs-lookup"><span data-stu-id="36eb3-125">The job is completed with the expected quality.</span></span>  
 
-## <a name="complete-a-job-with-errors"></a>ดำเนินงานที่มีงานที่มีข้อผิดพลาดให้เสร็จสมบูรณ์
-1. คลิก เริ่มต้น
-    * เมื่องานเสร็จสมบูรณ์ งานต่อไปบนรายการจะถูกเลือกโดยอัตโนมัติ  นี่เป็นเหตุผลว่าทำไมคุณไม่จำเป็นต้องเลือกงานก่อนที่คุณจะคลิกเริ่ม  
-2. ในบานหน้าต่างการดำเนินการ คลิกผลิต
-3. คลิกเสร็จสมบูรณ์ (รายละเอียด)
-4. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-5. ในฟิลด์ปริมาณสินค้าที่บกพร่อง ให้ป้อนตัวเลข
-6. ในฟิลด์ปริมาณสินค้าที่ดี ให้ป้อนตัวเลข
-7. คลิก ตกลง
+## <a name="complete-a-job-with-errors"></a><span data-ttu-id="36eb3-126">ดำเนินงานที่มีงานที่มีข้อผิดพลาดให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="36eb3-126">Complete a job with errors</span></span>
+1. <span data-ttu-id="36eb3-127">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="36eb3-127">Click Start.</span></span>
+    * <span data-ttu-id="36eb3-128">เมื่องานเสร็จสมบูรณ์ งานต่อไปบนรายการจะถูกเลือกโดยอัตโนมัติ </span><span class="sxs-lookup"><span data-stu-id="36eb3-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="36eb3-129">นี่เป็นเหตุผลว่าทำไมคุณไม่จำเป็นต้องเลือกงานก่อนที่คุณจะคลิกเริ่ม</span><span class="sxs-lookup"><span data-stu-id="36eb3-129">This is why you don't need to select a job before you click Start.</span></span>  
+2. <span data-ttu-id="36eb3-130">ในบานหน้าต่างการดำเนินการ คลิกผลิต</span><span class="sxs-lookup"><span data-stu-id="36eb3-130">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="36eb3-131">คลิกเสร็จสมบูรณ์ (รายละเอียด)</span><span class="sxs-lookup"><span data-stu-id="36eb3-131">Click Complete (details).</span></span>
+4. <span data-ttu-id="36eb3-132">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="36eb3-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="36eb3-133">ในฟิลด์ปริมาณสินค้าที่บกพร่อง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="36eb3-133">In the Error quantity field, enter a number.</span></span>
+6. <span data-ttu-id="36eb3-134">ในฟิลด์ปริมาณสินค้าที่ดี ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="36eb3-134">In the Good quantity field, enter a number.</span></span>
+7. <span data-ttu-id="36eb3-135">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="36eb3-135">Click OK.</span></span>
 
 

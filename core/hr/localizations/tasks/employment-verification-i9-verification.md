@@ -16,42 +16,42 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2183a6599646880e3af2a76b28a40a6299401943
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0841cd664a842880f24c30090a33d846b0c08ac4
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="employment-verification-using-form-i-9"></a>การตรวจสอบความถูกต้องของการทำงานโดยใช้แบบฟอร์ม I-9
+# <a name="employment-verification-using-form-i-9"></a><span data-ttu-id="9f559-103">การตรวจสอบความถูกต้องของการทำงานโดยใช้แบบฟอร์ม I-9</span><span class="sxs-lookup"><span data-stu-id="9f559-103">Employment verification using form I-9</span></span>
 
 [!include[task guide banner](../../../includes/task-guide-banner.md)]
 
-การปฏิรูปการอพยพและบัญญัติควบคุมกำหนดให้นายจ้างของสหรัฐอเมริกาต้องตรวจสอบสถานะสิทธิ์การจ้างงานของพนักงานที่เพิ่งจ้างมาใหม่  ขั้นตอนนี้คุณจะต้องผ่านขั้นตอนของการบันทึกเอกสารจำเป็นสำหรับการยืนยัน I-9  ใช้บริษัท USMF สำหรับขั้นตอนนี้
+<span data-ttu-id="9f559-104">การปฏิรูปการอพยพและบัญญัติควบคุมกำหนดให้นายจ้างของสหรัฐอเมริกาต้องตรวจสอบสถานะสิทธิ์การจ้างงานของพนักงานที่เพิ่งจ้างมาใหม่ </span><span class="sxs-lookup"><span data-stu-id="9f559-104">The Immigration Reform and Control Act requires US employers to verify the employment eligibility status of newly hired employees.</span></span> <span data-ttu-id="9f559-105">ขั้นตอนนี้คุณจะต้องผ่านขั้นตอนของการบันทึกเอกสารจำเป็นสำหรับการยืนยัน I-9 </span><span class="sxs-lookup"><span data-stu-id="9f559-105">This procedure will walk you through the steps of recording the necessary documents for I-9 verification.</span></span> <span data-ttu-id="9f559-106">ใช้บริษัท USMF สำหรับขั้นตอนนี้</span><span class="sxs-lookup"><span data-stu-id="9f559-106">Use the USMF company for this procedure.</span></span>
 
-1. ไปที่ทรัพยากรบุคคล > ผู้ปฏิบัติงาน > พนักงาน
-2. ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด  เช่น กรองข้อมูลในฟิลด์ชื่อ ด้วยค่า 'Vince'
-3. เลือกพนักงาน ตัวอย่าง: Vince Prado
-4. ขยายแท็บด่วนข้อมูลส่วนบุคคล
-5. หมายเลขการยืนยันตัวตน
-6. คลิก สร้าง
-7. เลือกชนิดการยืนยันตัวตนที่คุณจะบันทึก  ตัวอย่าง: หนังสือเดินทาง
-8. ในฟิลด์หมายเลข ให้พิมพ์ค่า
-9. เลือก ใช่ ในฟิลด์หลัก
-10. ในฟิลด์คำอธิบาย ป้อนชื่อและคำอธิบายสั้นๆ ของบันทึกการยืนยันตัวตน
-11. ในหน่วยงานที่ออกเอกสารให้เลือกหน่วยงานที่ออกแบบฟอร์มการยืนยันตัวตนสำหรับผู้ปฏิบัติงาน  ตัวอย่าง: รัฐบาล
-12. ป้อนวันที่ที่หน่วยงานออกเอกสารแบบฟอร์มการยืนยันตัวตนสำหรับผู้ปฏิบัติงาน  ตัวอย่าง: 02/15/2011
-13. ป้อนวันหมดอายุของแบบฟอร์มการยืนยันตัวตน  ตัวอย่าง: 2/15/2021
-14. คลิก บันทึก
-15. ปิดหน้า
-16. คลิกแท็บการจ้างงาน
-17. คลิก I-9
-18. คลิก สร้าง
-19. ในฟิลด์สิทธิ์การทำงาน ให้เลือกหนึ่งตัวเลือก
-    * หากพนักงานไม่ได้เป็นพลเมืองหรือมีสัญชาติของสหรัฐอเมริกา คุณจะต้องป้อนหมายเลขคนต่างด้าวหรือหมายเลขการรับเข้าทำงานของพนักงานด้วย  
-20. เลือกตัวเลือกในกลุ่มรายการ A
-    * รายการที่คุณเลือกจะขึ้นอยู่กับรูปแบบการยืนยันตนที่ผู้ปฏิบัติงานให้ไว้  ผู้ปฏิบัติงานต้องให้เอกสารหนึ่งอย่างตามรายการ A หรือเอกสารหนึ่งอย่างจากรายการ B และ C. ตัวอย่างเช่น ถ้าผู้ปฏิบัติงานให้ passport ก็ควรจะเลือกรายการ A  อย่างไรก็ตาม ถ้าผู้ปฏิบัติงานให้ไว้เพียงแค่ใบขับขี่และบัตรประกันสังคม ก็จะต้องเลือกรายการ B และ C  
-21. ในฟิลด์ชนิดของเอกสาร I-9 ให้เลือกชนิดของเอกสารที่พนักงานให้ไว้
-22. ในฟิลด์หมายเลขเอกสาร ให้ป้อนหรือเลือกค่า
-23. คลิก บันทึก
+1. <span data-ttu-id="9f559-107">ไปที่ทรัพยากรบุคคล > ผู้ปฏิบัติงาน > พนักงาน</span><span class="sxs-lookup"><span data-stu-id="9f559-107">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="9f559-108">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="9f559-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="9f559-109">เช่น กรองข้อมูลในฟิลด์ชื่อ ด้วยค่า 'Vince'</span><span class="sxs-lookup"><span data-stu-id="9f559-109">For example, filter on the Name field with a value of 'Vince'.</span></span>
+3. <span data-ttu-id="9f559-110">เลือกพนักงาน</span><span class="sxs-lookup"><span data-stu-id="9f559-110">Select the employee.</span></span> <span data-ttu-id="9f559-111">ตัวอย่าง: Vince Prado</span><span class="sxs-lookup"><span data-stu-id="9f559-111">Example: Vince Prado</span></span>
+4. <span data-ttu-id="9f559-112">ขยายแท็บด่วนข้อมูลส่วนบุคคล</span><span class="sxs-lookup"><span data-stu-id="9f559-112">Expand the Personal information FastTab.</span></span>
+5. <span data-ttu-id="9f559-113">หมายเลขการยืนยันตัวตน</span><span class="sxs-lookup"><span data-stu-id="9f559-113">Click Identification numbers.</span></span>
+6. <span data-ttu-id="9f559-114">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="9f559-114">Click New.</span></span>
+7. <span data-ttu-id="9f559-115">เลือกชนิดการยืนยันตัวตนที่คุณจะบันทึก </span><span class="sxs-lookup"><span data-stu-id="9f559-115">Select the identification type that you are recording.</span></span> <span data-ttu-id="9f559-116">ตัวอย่าง: หนังสือเดินทาง</span><span class="sxs-lookup"><span data-stu-id="9f559-116">Example: Passport</span></span>
+8. <span data-ttu-id="9f559-117">ในฟิลด์หมายเลข ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9f559-117">In the Number field, type a value.</span></span>
+9. <span data-ttu-id="9f559-118">เลือก ใช่ ในฟิลด์หลัก</span><span class="sxs-lookup"><span data-stu-id="9f559-118">Select Yes in the Primary field.</span></span>
+10. <span data-ttu-id="9f559-119">ในฟิลด์คำอธิบาย ป้อนชื่อและคำอธิบายสั้นๆ ของบันทึกการยืนยันตัวตน</span><span class="sxs-lookup"><span data-stu-id="9f559-119">In the Description field, enter a brief description of the identification record..</span></span>
+11. <span data-ttu-id="9f559-120">ในหน่วยงานที่ออกเอกสารให้เลือกหน่วยงานที่ออกแบบฟอร์มการยืนยันตัวตนสำหรับผู้ปฏิบัติงาน </span><span class="sxs-lookup"><span data-stu-id="9f559-120">In the issuing agency select the agency that issued the form of identification to the worker.</span></span> <span data-ttu-id="9f559-121">ตัวอย่าง: รัฐบาล</span><span class="sxs-lookup"><span data-stu-id="9f559-121">Example: Government</span></span>
+12. <span data-ttu-id="9f559-122">ป้อนวันที่ที่หน่วยงานออกเอกสารแบบฟอร์มการยืนยันตัวตนสำหรับผู้ปฏิบัติงาน </span><span class="sxs-lookup"><span data-stu-id="9f559-122">Enter the date that the issuing agency issued the form of identification to the worker.</span></span> <span data-ttu-id="9f559-123">ตัวอย่าง: 02/15/2011</span><span class="sxs-lookup"><span data-stu-id="9f559-123">Example: 02/15/2011</span></span>
+13. <span data-ttu-id="9f559-124">ป้อนวันหมดอายุของแบบฟอร์มการยืนยันตัวตน </span><span class="sxs-lookup"><span data-stu-id="9f559-124">Enter the date when the form of identification expires.</span></span> <span data-ttu-id="9f559-125">ตัวอย่าง: 2/15/2021</span><span class="sxs-lookup"><span data-stu-id="9f559-125">Example: 2/15/2021</span></span>
+14. <span data-ttu-id="9f559-126">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="9f559-126">Click Save.</span></span>
+15. <span data-ttu-id="9f559-127">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="9f559-127">Close the page.</span></span>
+16. <span data-ttu-id="9f559-128">คลิกแท็บการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="9f559-128">Click the Employment tab.</span></span>
+17. <span data-ttu-id="9f559-129">คลิก I-9</span><span class="sxs-lookup"><span data-stu-id="9f559-129">Click I-9.</span></span>
+18. <span data-ttu-id="9f559-130">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="9f559-130">Click New.</span></span>
+19. <span data-ttu-id="9f559-131">ในฟิลด์สิทธิ์การทำงาน ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="9f559-131">In the Work eligibility field, select an option.</span></span>
+    * <span data-ttu-id="9f559-132">หากพนักงานไม่ได้เป็นพลเมืองหรือมีสัญชาติของสหรัฐอเมริกา คุณจะต้องป้อนหมายเลขคนต่างด้าวหรือหมายเลขการรับเข้าทำงานของพนักงานด้วย</span><span class="sxs-lookup"><span data-stu-id="9f559-132">If the employee is not a citizen or national of the United States, you must enter the worker's resident alien or admission number.</span></span>  
+20. <span data-ttu-id="9f559-133">เลือกตัวเลือกในกลุ่มรายการ A</span><span class="sxs-lookup"><span data-stu-id="9f559-133">Select the GroupListA option.</span></span>
+    * <span data-ttu-id="9f559-134">รายการที่คุณเลือกจะขึ้นอยู่กับรูปแบบการยืนยันตนที่ผู้ปฏิบัติงานให้ไว้ </span><span class="sxs-lookup"><span data-stu-id="9f559-134">The list that you select depends on what form of identification the worker provided.</span></span> <span data-ttu-id="9f559-135">ผู้ปฏิบัติงานต้องให้เอกสารหนึ่งอย่างตามรายการ A หรือเอกสารหนึ่งอย่างจากรายการ B และ C. ตัวอย่างเช่น ถ้าผู้ปฏิบัติงานให้ passport ก็ควรจะเลือกรายการ A </span><span class="sxs-lookup"><span data-stu-id="9f559-135">A worker must provide one List A document or one document from List B and C. For example, if the worker provided a passport, then List A could be selected.</span></span> <span data-ttu-id="9f559-136">อย่างไรก็ตาม ถ้าผู้ปฏิบัติงานให้ไว้เพียงแค่ใบขับขี่และบัตรประกันสังคม ก็จะต้องเลือกรายการ B และ C</span><span class="sxs-lookup"><span data-stu-id="9f559-136">However, if the worker has only provided their drivers license and social security card, then list B and C must be selected.</span></span>  
+21. <span data-ttu-id="9f559-137">ในฟิลด์ชนิดของเอกสาร I-9 ให้เลือกชนิดของเอกสารที่พนักงานให้ไว้</span><span class="sxs-lookup"><span data-stu-id="9f559-137">In the I-9 document type field, select the type of document that the worker provided.</span></span>
+22. <span data-ttu-id="9f559-138">ในฟิลด์หมายเลขเอกสาร ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9f559-138">In the Document number field, enter or select a value.</span></span>
+23. <span data-ttu-id="9f559-139">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="9f559-139">Click Save.</span></span>
 
 

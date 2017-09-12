@@ -16,45 +16,45 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 1200b18b2109cef2f6d89c0b93ebb3b1d127decb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7c9093439c4c0c4645d96ad97ba56f31026ec334
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="receive-items-on-purchase-order-from-item-requirement"></a>รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
+# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="4e47b-103">รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="4e47b-103">Receive items on purchase order from item requirement</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการรับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
+<span data-ttu-id="4e47b-104">กระบวนงานนี้แสดงวิธีการรับสินค้าในใบสั่งซื้อจากความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="4e47b-104">This procedure shows how to receive items on a purchase order from an item requirement.</span></span>
 
-โดยการใช้ข้อกำหนดรายการแทนธุรกรรมรายการ คุณสามารถวางแผนให้กับการส่งมอบก่อนการใช้รายการจริง สร้างใบสั่งซื้อ รวมรายการในโครงงานข้อตกลงการค้า และรวมในข้อกำหนดรายการในการวางแผนการผลิต 
+<span data-ttu-id="4e47b-105">โดยการใช้ข้อกำหนดรายการแทนธุรกรรมรายการ คุณสามารถวางแผนให้กับการส่งมอบก่อนการใช้รายการจริง สร้างใบสั่งซื้อ รวมรายการในโครงงานข้อตกลงการค้า และรวมในข้อกำหนดรายการในการวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="4e47b-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
 
-งานนี้ใช้ชุดข้อมูล USSI
+<span data-ttu-id="4e47b-106">งานนี้ใช้ชุดข้อมูล USSI</span><span class="sxs-lookup"><span data-stu-id="4e47b-106">This task uses the USSI data set.</span></span>
 
-1. ไปที่การจัดการโครงการและการบัญชี > โครงการ > โครงการทั้งหมด
-2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-3. ในบานหน้าต่างการดำเนินการ ให้คลิก วางแผน
-4. คลิก ความต้องการสินค้า
-5. คลิก สร้าง
-6. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-7. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า
-8. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-9. คลิก บันทึก
-10. ในบานหน้าต่างการดำเนินการ คลิก จัดการ
-11. คลิกฟังก์ชัน
-12. คลิก สร้างใบสั่งซื้อ
-13. เลือกกล่องกาเครื่องหมาย รวม
-14. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่า
-15. คลิก ตกลง
-16. ไปที่บัญชีเจ้าหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
-17. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-18. ในบานหน้าต่างการดำเนินการ ให้คลิก ซื้อ
-19. คลิก ยืนยัน
-20. ในบานหน้าต่างการดำเนินการ ให้คลิก รับ
-21. คลิก ใบรับสินค้า
-22. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-23. ในฟิลด์ใบรับสินค้า ให้พิมพ์ค่า
-24. คลิก ตกลง
+1. <span data-ttu-id="4e47b-107">ไปที่การจัดการโครงการและการบัญชี > โครงการ > โครงการทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4e47b-107">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="4e47b-108">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4e47b-108">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="4e47b-109">ในบานหน้าต่างการดำเนินการ ให้คลิก วางแผน</span><span class="sxs-lookup"><span data-stu-id="4e47b-109">On the Action Pane, click Plan.</span></span>
+4. <span data-ttu-id="4e47b-110">คลิก ความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="4e47b-110">Click Item requirements.</span></span>
+5. <span data-ttu-id="4e47b-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4e47b-111">Click New.</span></span>
+6. <span data-ttu-id="4e47b-112">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4e47b-112">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="4e47b-113">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4e47b-113">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="4e47b-114">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="4e47b-114">In the Quantity field, enter a number.</span></span>
+9. <span data-ttu-id="4e47b-115">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4e47b-115">Click Save.</span></span>
+10. <span data-ttu-id="4e47b-116">ในบานหน้าต่างการดำเนินการ คลิก จัดการ</span><span class="sxs-lookup"><span data-stu-id="4e47b-116">On the Action Pane, click Manage.</span></span>
+11. <span data-ttu-id="4e47b-117">คลิกฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="4e47b-117">Click Functions.</span></span>
+12. <span data-ttu-id="4e47b-118">คลิก สร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="4e47b-118">Click Create purchase order.</span></span>
+13. <span data-ttu-id="4e47b-119">เลือกกล่องกาเครื่องหมาย รวม</span><span class="sxs-lookup"><span data-stu-id="4e47b-119">Select the Include check box.</span></span>
+14. <span data-ttu-id="4e47b-120">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4e47b-120">In the Vendor account field, enter or select a value.</span></span>
+15. <span data-ttu-id="4e47b-121">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4e47b-121">Click OK.</span></span>
+16. <span data-ttu-id="4e47b-122">ไปที่บัญชีเจ้าหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4e47b-122">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+17. <span data-ttu-id="4e47b-123">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4e47b-123">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="4e47b-124">ในบานหน้าต่างการดำเนินการ ให้คลิก ซื้อ</span><span class="sxs-lookup"><span data-stu-id="4e47b-124">On the Action Pane, click Purchase.</span></span>
+19. <span data-ttu-id="4e47b-125">คลิก ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="4e47b-125">Click Confirm.</span></span>
+20. <span data-ttu-id="4e47b-126">ในบานหน้าต่างการดำเนินการ ให้คลิก รับ</span><span class="sxs-lookup"><span data-stu-id="4e47b-126">On the Action Pane, click Receive.</span></span>
+21. <span data-ttu-id="4e47b-127">คลิก ใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="4e47b-127">Click Product receipt.</span></span>
+22. <span data-ttu-id="4e47b-128">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4e47b-128">In the list, mark the selected row.</span></span>
+23. <span data-ttu-id="4e47b-129">ในฟิลด์ใบรับสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="4e47b-129">In the Product receipt field, type a value.</span></span>
+24. <span data-ttu-id="4e47b-130">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4e47b-130">Click OK.</span></span>
 
 

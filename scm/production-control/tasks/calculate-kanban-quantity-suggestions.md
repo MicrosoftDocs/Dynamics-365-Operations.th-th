@@ -17,72 +17,72 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7416e0407892281377b69a7a3b19e61f46220709
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-kanban-quantity-suggestions"></a>คำแนะนำการคำนวณปริมาณตามระบบคัมบัง
+# <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="76643-103">คำแนะนำการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-103">Calculate kanban quantity suggestions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้มุ่งเน้นการเพิ่มประสิทธิภาพการคำนวณปริมาณตามระบบคัมบังสำหรับกฎคัมบังที่ระบุ โดยการใช้การคำนวณปริมาณตามระบบคัมบัง ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF ขั้นตอนนี้มีไว้สำหรับผู้จัดการการสายธารคุณค่า  มันเป็นข้อกำหนดเบื้องต้นว่าคุณต้องเพิ่มนโยบายการคำนวณปริมาณตามระบบคัมบังใหม่ให้กับกฎคัมบัง
+<span data-ttu-id="76643-104">ขั้นตอนนี้มุ่งเน้นการเพิ่มประสิทธิภาพการคำนวณปริมาณตามระบบคัมบังสำหรับกฎคัมบังที่ระบุ โดยการใช้การคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="76643-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="76643-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="76643-106">ขั้นตอนนี้มีไว้สำหรับผู้จัดการการสายธารคุณค่า </span><span class="sxs-lookup"><span data-stu-id="76643-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="76643-107">มันเป็นข้อกำหนดเบื้องต้นว่าคุณต้องเพิ่มนโยบายการคำนวณปริมาณตามระบบคัมบังใหม่ให้กับกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
 
 
-## <a name="create-a-kanban-quantity-calculation"></a>สร้างการคำนวณปริมาณตามระบบคัมบัง
-1. ไปที่การควบคุมการผลิต > งานประจำงวด > การคำนวณปริมาณตามระบบคัมบัง > คำนวณปริมาณตามระบบคัมบัง
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้พิมพ์ 'Speaker2016'
-4. ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * เลือกนโยบายที่คุณสร้างขึ้นในขั้นตอนการเพิ่มนโยบายการคำนวณปริมาณตามระบบคัมบังใหม่ให้กับกฎคัมบัง  ตัวอย่างเช่น Speaker2016  
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. ในฟิลด์กฎของวันการใช้งาน ให้ตั้งค่าวันและเวลาเป็น ' 2012-12-17T08:00:00'
-    * วันนี้เป็นวันที่ให้ข้อมูลพื้นฐานสำหรับการกำหนดว่า กฎคัมบังคงที่ใดรวมอยู่ในการคำนวณปริมาณตามระบบคัมบัง  
-7. ในฟิลด์วันที่สิ้นสุดรอบระยะเวลาความต้องการที่เติมเต็มแล้ว ให้ตั้งค่าวันและเวลาเป็น ' 2012-11-17T09:00:00'
-    * วันที่เริ่มต้นเมื่อรวมธุรกรรมความต้องการในอดีตเพื่อคำนวณปริมาณตามระบบคัมบัง  
-8. ในฟิลด์วันสิ้นสุดรอบระยะเวลาของความต้องการ ให้ตั้งวันและเวลาเป็น ' 2012-12-17T07:59:59'
-    * วันที่สิ้นสุดเมื่อรวมธุรกรรมความต้องการในอดีตเพื่อคำนวณปริมาณตามระบบคัมบัง  
-9. ในฟิลด์วันเริ่มต้นรอบระยะเวลาความต้องการ ให้ตั้งวันและเวลาเป็น ' 2012-12-17T08:00:00'
-    * วันที่เริ่มต้นเมื่อรวมธุรกรรมความต้องการปัจจุบันเพื่อคำนวณปริมาณตามระบบคัมบัง  
-10. ในฟิลด์รอบระยะเวลาของความต้องการ ให้ตั้งวันและเวลาเป็น ' 2013-01-16T07:59:59'
-    * วันที่สิ้นสุดเมื่อรวมธุรกรรมความต้องการปัจจุบันเพื่อคำนวณปริมาณตามระบบคัมบัง  
+## <a name="create-a-kanban-quantity-calculation"></a><span data-ttu-id="76643-108">สร้างการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-108">Create a kanban quantity calculation</span></span>
+1. <span data-ttu-id="76643-109">ไปที่การควบคุมการผลิต > งานประจำงวด > การคำนวณปริมาณตามระบบคัมบัง > คำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Calculate kanban quantity.</span></span>
+2. <span data-ttu-id="76643-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="76643-110">Click New.</span></span>
+3. <span data-ttu-id="76643-111">ในฟิลด์ชื่อ ให้พิมพ์ 'Speaker2016'</span><span class="sxs-lookup"><span data-stu-id="76643-111">In the Name field, type 'Speaker2016'.</span></span>
+4. <span data-ttu-id="76643-112">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="76643-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="76643-113">เลือกนโยบายที่คุณสร้างขึ้นในขั้นตอนการเพิ่มนโยบายการคำนวณปริมาณตามระบบคัมบังใหม่ให้กับกฎคัมบัง </span><span class="sxs-lookup"><span data-stu-id="76643-113">Select the policy that you have created in the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span> <span data-ttu-id="76643-114">ตัวอย่างเช่น Speaker2016</span><span class="sxs-lookup"><span data-stu-id="76643-114">For example, Speaker2016.</span></span>  
+5. <span data-ttu-id="76643-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="76643-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="76643-116">ในฟิลด์กฎของวันการใช้งาน ให้ตั้งค่าวันและเวลาเป็น ' 2012-12-17T08:00:00'</span><span class="sxs-lookup"><span data-stu-id="76643-116">In the Rule active as of date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="76643-117">วันนี้เป็นวันที่ให้ข้อมูลพื้นฐานสำหรับการกำหนดว่า กฎคัมบังคงที่ใดรวมอยู่ในการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-117">This date serves as the basis for determining which fixed kanban rules are included in the kanban quantity calculation.</span></span>  
+7. <span data-ttu-id="76643-118">ในฟิลด์วันที่สิ้นสุดรอบระยะเวลาความต้องการที่เติมเต็มแล้ว ให้ตั้งค่าวันและเวลาเป็น ' 2012-11-17T09:00:00'</span><span class="sxs-lookup"><span data-stu-id="76643-118">In the Fulfilled demand period start date field, set the date and time to '2012-11-17T09:00:00'.</span></span>
+    * <span data-ttu-id="76643-119">วันที่เริ่มต้นเมื่อรวมธุรกรรมความต้องการในอดีตเพื่อคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-119">The date from when past demand transactions are included to calculate the kanban quantity.</span></span>  
+8. <span data-ttu-id="76643-120">ในฟิลด์วันสิ้นสุดรอบระยะเวลาของความต้องการ ให้ตั้งวันและเวลาเป็น ' 2012-12-17T07:59:59'</span><span class="sxs-lookup"><span data-stu-id="76643-120">In the Fulfilled demand period end date field, set the date and time to '2012-12-17T07:59:59'.</span></span>
+    * <span data-ttu-id="76643-121">วันที่สิ้นสุดเมื่อรวมธุรกรรมความต้องการในอดีตเพื่อคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-121">The date until when past demand transactions are included to calculate the kanban quantity.</span></span>  
+9. <span data-ttu-id="76643-122">ในฟิลด์วันเริ่มต้นรอบระยะเวลาความต้องการ ให้ตั้งวันและเวลาเป็น ' 2012-12-17T08:00:00'</span><span class="sxs-lookup"><span data-stu-id="76643-122">In the Demand period start date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="76643-123">วันที่เริ่มต้นเมื่อรวมธุรกรรมความต้องการปัจจุบันเพื่อคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-123">The date from when current demand transactions are included to calculate the kanban quantity.</span></span>  
+10. <span data-ttu-id="76643-124">ในฟิลด์รอบระยะเวลาของความต้องการ ให้ตั้งวันและเวลาเป็น ' 2013-01-16T07:59:59'</span><span class="sxs-lookup"><span data-stu-id="76643-124">In the Demand period end date field, set the date and time to '2013-01-16T07:59:59'.</span></span>
+    * <span data-ttu-id="76643-125">วันที่สิ้นสุดเมื่อรวมธุรกรรมความต้องการปัจจุบันเพื่อคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-125">The date until when current demand transactions are included to calculate the kanban quantity.</span></span>  
 
-## <a name="generate-kanban-quantity-proposal"></a>สร้างข้อเสนอปริมาณตามระบบคัมบัง
-1. คลิก บันทึก
-2. คลิก สร้าง
-    * ขั้นตอนนี้สร้างรายการข้อเสนอปริมาณตามระบบคัมบังสำหรับกฎคัมบัง 000020  
+## <a name="generate-kanban-quantity-proposal"></a><span data-ttu-id="76643-126">สร้างข้อเสนอปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-126">Generate kanban quantity proposal</span></span>
+1. <span data-ttu-id="76643-127">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="76643-127">Click Save.</span></span>
+2. <span data-ttu-id="76643-128">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="76643-128">Click Generate.</span></span>
+    * <span data-ttu-id="76643-129">ขั้นตอนนี้สร้างรายการข้อเสนอปริมาณตามระบบคัมบังสำหรับกฎคัมบัง 000020</span><span class="sxs-lookup"><span data-stu-id="76643-129">This generates a kanban quantity proposal line for the kanban rule 000020.</span></span>  
 
-## <a name="run-kanban-quantity-calculation"></a>รันการคำนวณปริมาณตามระบบคัมบัง
-1. คลิก คำนวณ
-    * สิ่งนี้คำนวณข้อเสนอปริมาณตามระบบคัมบัง  
-2. คลิก ตกลง
-3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-    * ข้อความแจ้งเตือนแนะนำปริมาณตามระบบคัมบังคือ 2  
+## <a name="run-kanban-quantity-calculation"></a><span data-ttu-id="76643-130">รันการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-130">Run kanban quantity calculation</span></span>
+1. <span data-ttu-id="76643-131">คลิก คำนวณ</span><span class="sxs-lookup"><span data-stu-id="76643-131">Click Calculate.</span></span>
+    * <span data-ttu-id="76643-132">สิ่งนี้คำนวณข้อเสนอปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-132">This calculates the kanban quantity proposal.</span></span>  
+2. <span data-ttu-id="76643-133">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="76643-133">Click OK.</span></span>
+3. <span data-ttu-id="76643-134">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="76643-134">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="76643-135">ข้อความแจ้งเตือนแนะนำปริมาณตามระบบคัมบังคือ 2</span><span class="sxs-lookup"><span data-stu-id="76643-135">Notice the suggested kanban quantity is 2.</span></span>  
 
-## <a name="change-product-quantity-and-calculate-again"></a>เปลี่ยนแปลงปริมาณสินค้า และคำนวณอีกครั้ง
-1. ตั้งค่าปริมาณผลิตภัณฑ์เป็น 5
-2. คลิก คำนวณ
-3. คลิก ตกลง
-    * โปรดสังเกตว่า ตรงที่มีปริมาณตามระบบคัมบังเท่ากับ 5 คำแนะนำถูกเปลี่ยนให้เป็นปริมาณตามระบบคัมบังเท่ากับ 4  
-    * ซึ่งมีสาเหตุจากข้อเท็จจริงที่ว่า มีปริมาณผลิตภัณฑ์ต่ำ เราต้องการคัมบังเพิ่มเติมเพื่อตอบสนองความต้องการ  
+## <a name="change-product-quantity-and-calculate-again"></a><span data-ttu-id="76643-136">เปลี่ยนแปลงปริมาณสินค้า และคำนวณอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="76643-136">Change product quantity and calculate again</span></span>
+1. <span data-ttu-id="76643-137">ตั้งค่าปริมาณผลิตภัณฑ์เป็น 5</span><span class="sxs-lookup"><span data-stu-id="76643-137">Set Product quantity to '5'.</span></span>
+2. <span data-ttu-id="76643-138">คลิก คำนวณ</span><span class="sxs-lookup"><span data-stu-id="76643-138">Click Calculate.</span></span>
+3. <span data-ttu-id="76643-139">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="76643-139">Click OK.</span></span>
+    * <span data-ttu-id="76643-140">โปรดสังเกตว่า ตรงที่มีปริมาณตามระบบคัมบังเท่ากับ 5 คำแนะนำถูกเปลี่ยนให้เป็นปริมาณตามระบบคัมบังเท่ากับ 4</span><span class="sxs-lookup"><span data-stu-id="76643-140">Notice that with a kanban quantity of 5, the suggestion is changed to a kanban quantity of 4.</span></span>  
+    * <span data-ttu-id="76643-141">ซึ่งมีสาเหตุจากข้อเท็จจริงที่ว่า มีปริมาณผลิตภัณฑ์ต่ำ เราต้องการคัมบังเพิ่มเติมเพื่อตอบสนองความต้องการ</span><span class="sxs-lookup"><span data-stu-id="76643-141">This is caused by the fact that with a lower product quantity, we need more kanbans to fulfill the demand.</span></span>  
 
-## <a name="update-kanban-rule"></a>อัพเดตกฎคัมบัง
-1. ในฟิลด์ของกฎของวันที่มีผลบังคับใช้ ให้ป้อนวันที่และเวลา
-    * ตั้ง 'กฎใช้งาน ณ วันนี้' เป็นวันในอนาคต  ตัวอย่างเช่น วันนี้ + หนึ่งปี  
-2. คลิก อัพเดต ข้อมูลเพิ่มเติมจะแสดงขึ้น
-3. คลิก ตกลง
-4. ปิดหน้า
+## <a name="update-kanban-rule"></a><span data-ttu-id="76643-142">อัพเดตกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-142">Update kanban rule</span></span>
+1. <span data-ttu-id="76643-143">ในฟิลด์ของกฎของวันที่มีผลบังคับใช้ ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="76643-143">In the Rule effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="76643-144">ตั้ง 'กฎใช้งาน ณ วันนี้' เป็นวันในอนาคต </span><span class="sxs-lookup"><span data-stu-id="76643-144">Set the 'Rule active as of date' to a date in the future.</span></span> <span data-ttu-id="76643-145">ตัวอย่างเช่น วันนี้ + หนึ่งปี</span><span class="sxs-lookup"><span data-stu-id="76643-145">For example, today + one year.</span></span>  
+2. <span data-ttu-id="76643-146">คลิก อัพเดต ข้อมูลเพิ่มเติมจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="76643-146">Click Update.</span></span>
+3. <span data-ttu-id="76643-147">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="76643-147">Click OK.</span></span>
+4. <span data-ttu-id="76643-148">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="76643-148">Close the page.</span></span>
 
-## <a name="validate-change-on-kanban-rule"></a>ตรวจสอบความถูกต้องของการเปลี่ยนแปลงในกฎคัมบัง
-1. ไปที่การจัดการข้อมูลผลิตภัณฑ์ > การผลิตแบบ Lean > กฏคัมบัง
-2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-    * เลือกกฎคัมบังที่สร้างขึ้นโดยงานย่อยก่อนหน้านี้  สิ่งควรเป็นกฎคัมบังแรกในการเรียงลำดับตามหมายเลขรายการ  
-3. สลับการขยายส่วนของรายละเอียด
-    * โปรดสังเกตวันทีผลมีการบังคับใช้ ซึ่งหมายความว่า กฎนี้จะไม่ถูกใช้งานจนกว่าถึงวันที่กำหนด  
-4. สลับการขยายส่วนของปริมาณ 
-    * โปรดสังเกตว่า นี่คือปริมาณเริ่มต้นที่คุณป้อนไว้ในการคำนวณปริมาณตามระบบคัมบัง  
-    * โปรดสังเกตว่า นี่คือปริมาณคัมบังแบบคงที่ที่เท่ากับ 4 จากการคำนวณปริมาณตามระบบคัมบัง  
-5. คลิก ListPanelแท็บ
+## <a name="validate-change-on-kanban-rule"></a><span data-ttu-id="76643-149">ตรวจสอบความถูกต้องของการเปลี่ยนแปลงในกฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-149">Validate change on kanban rule</span></span>
+1. <span data-ttu-id="76643-150">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > การผลิตแบบ Lean > กฏคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-150">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="76643-151">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="76643-151">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="76643-152">เลือกกฎคัมบังที่สร้างขึ้นโดยงานย่อยก่อนหน้านี้ </span><span class="sxs-lookup"><span data-stu-id="76643-152">Select the kanban rule that was created in the previous sub-task.</span></span> <span data-ttu-id="76643-153">สิ่งควรเป็นกฎคัมบังแรกในการเรียงลำดับตามหมายเลขรายการ</span><span class="sxs-lookup"><span data-stu-id="76643-153">This should be the first kanban rule in the list sorted by number.</span></span>  
+3. <span data-ttu-id="76643-154">สลับการขยายส่วนของรายละเอียด</span><span class="sxs-lookup"><span data-stu-id="76643-154">Toggle the expansion of the Details section.</span></span>
+    * <span data-ttu-id="76643-155">โปรดสังเกตวันทีผลมีการบังคับใช้ ซึ่งหมายความว่า กฎนี้จะไม่ถูกใช้งานจนกว่าถึงวันที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="76643-155">Notice the effective date, which means that this rule is not activated until this date.</span></span>  
+4. <span data-ttu-id="76643-156">สลับการขยายส่วนของปริมาณ </span><span class="sxs-lookup"><span data-stu-id="76643-156">Toggle the expansion of the Quantities section.</span></span>
+    * <span data-ttu-id="76643-157">โปรดสังเกตว่า นี่คือปริมาณเริ่มต้นที่คุณป้อนไว้ในการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-157">Notice this is the default quantity that you entered on the kanban quantity calculation.</span></span>  
+    * <span data-ttu-id="76643-158">โปรดสังเกตว่า นี่คือปริมาณคัมบังแบบคงที่ที่เท่ากับ 4 จากการคำนวณปริมาณตามระบบคัมบัง</span><span class="sxs-lookup"><span data-stu-id="76643-158">Notice this is the fixed kanban quantity of 4 from the kanban quantity calculation.</span></span>  
+5. <span data-ttu-id="76643-159">คลิก ListPanelแท็บ</span><span class="sxs-lookup"><span data-stu-id="76643-159">Click the ListPanel tab.</span></span>
 
 

@@ -16,98 +16,98 @@ ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9cabce5400216ee0214eb6d56f0d32d746b260f
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9e9d1912abf9a356542ce2c317fa717bc991dbf9
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="order-entry-deadlines"></a>กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง
+# <a name="order-entry-deadlines"></a><span data-ttu-id="39118-104">กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="39118-104">Order entry deadlines</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง เวลาสิ้นสุดของการป้อนข้อมูลใบสั่งเป็นเวลาตัดยอดที่กำหนดว่าใบสั่งของลูกค้าถือว่าเป็นสิ้นสุด (และตอบสนอง) ว่าจะได้รับในวันนี้หรือวันถัดไป
+<span data-ttu-id="39118-105">บทความนี้แสดงข้อมูลเกี่ยวกับเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="39118-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="39118-106">เวลาสิ้นสุดของการป้อนข้อมูลใบสั่งเป็นเวลาตัดยอดที่กำหนดว่าใบสั่งของลูกค้าถือว่าเป็นสิ้นสุด (และตอบสนอง) ว่าจะได้รับในวันนี้หรือวันถัดไป</span><span class="sxs-lookup"><span data-stu-id="39118-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 
-ในบริษัทหลายแห่ง เฉพาะใบสั่งขายที่ได้รับก่อนเวลาหนึ่งๆ ของวันจะได้รับการปฏิบัติเสมือนว่าได้รับใบสั่งขายในวันนั้น ใบสั่งใด ๆ ที่ได้รับหลังจากนั้นจะได้รับการปฏิบัติเสมือนว่าได้รับในวันดำเนินการถัดไป เวลาตัดยอดนี้สำหรับใบสั่งเรียกกันว่ากำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง  
+<span data-ttu-id="39118-107">ในบริษัทหลายแห่ง เฉพาะใบสั่งขายที่ได้รับก่อนเวลาหนึ่งๆ ของวันจะได้รับการปฏิบัติเสมือนว่าได้รับใบสั่งขายในวันนั้น</span><span class="sxs-lookup"><span data-stu-id="39118-107">In many companies, only sales orders that are received before a certain time of day are treated as if they were received on that day.</span></span> <span data-ttu-id="39118-108">ใบสั่งใด ๆ ที่ได้รับหลังจากนั้นจะได้รับการปฏิบัติเสมือนว่าได้รับในวันดำเนินการถัดไป</span><span class="sxs-lookup"><span data-stu-id="39118-108">Any orders that are received after that time are treated as if they are received on the next business day.</span></span> <span data-ttu-id="39118-109">เวลาตัดยอดนี้สำหรับใบสั่งเรียกกันว่ากำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="39118-109">This cut-off time for orders is known as the order entry deadline.</span></span>  
 
-กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่งจะใช้เป็นข้อมูลป้อนเข้าสำหรับสัญญาใบสั่ง ดังนั้น จึงเป็นการช่วยให้คุณจัดการความคาดหวังของลูกค้าเกี่ยวกับการจัดส่งใบสั่ง ตัวอย่างเช่น ลูกค้าสามารถมองเห็นว่า ถ้าพวกเขาวางใบสั่งกับคุณก่อนเวลาที่ระบุ คุณจะยอมรับการจัดส่งสินค้าในวันเดียวกัน อย่างไรก็ตาม ถ้าพวกเขาพลาดกำหนดเวลาสิ้นสุดนั้น พวกเขาสามารถคาดว่าการจัดส่งจะเป็นวันถัดไปเท่านั้น คุณจะตั้งค่าการกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งตามซึ่งขึ้นอยู่กับ ความสามารถของหลังสินค้าและกำหนดการของผู้ขนส่งสินค้า  
+<span data-ttu-id="39118-110">กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่งจะใช้เป็นข้อมูลป้อนเข้าสำหรับสัญญาใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="39118-110">Order entry deadlines are used as input for order promising.</span></span> <span data-ttu-id="39118-111">ดังนั้น จึงเป็นการช่วยให้คุณจัดการความคาดหวังของลูกค้าเกี่ยวกับการจัดส่งใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="39118-111">Therefore, they help you manage customer expectations about order deliveries.</span></span> <span data-ttu-id="39118-112">ตัวอย่างเช่น ลูกค้าสามารถมองเห็นว่า ถ้าพวกเขาวางใบสั่งกับคุณก่อนเวลาที่ระบุ คุณจะยอมรับการจัดส่งสินค้าในวันเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="39118-112">For example, customers can see that, if they place an order with you before a specific time, you will commit to shipping the goods on the same day.</span></span> <span data-ttu-id="39118-113">อย่างไรก็ตาม ถ้าพวกเขาพลาดกำหนดเวลาสิ้นสุดนั้น พวกเขาสามารถคาดว่าการจัดส่งจะเป็นวันถัดไปเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="39118-113">However, if they miss that deadline, they can expect the shipment only on the next business day.</span></span> <span data-ttu-id="39118-114">คุณจะตั้งค่าการกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งตามซึ่งขึ้นอยู่กับ ความสามารถของหลังสินค้าและกำหนดการของผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="39118-114">You set order entry deadlines based on your warehouse capabilities and shipping carrier schedules.</span></span>  
 
-ในหน้า **กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง** คุณตั้งค่ากำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับทุกวันในสัปดาห์ ถ้าใบสั่งใด ๆ ที่ได้รับหลังจากที่ระบุเวลาไว้ จะได้รับการปฏิบัติเสมือนว่าได้รับในวันดำเนินการถัดไป ค่าเริ่มต้นตั้งค่าไว้ที่เวลา 23:59 น. (นั่นคือ 1 นาทีก่อนเที่ยงคืนของวันที่เกี่ยวข้อง) คุณสามารถเปลี่ยนแปลงเวลาเริ่มต้นเพื่อให้สอดคล้องกับกำหนดเวลาจัดส่งหรือรับสินค้าตามจริง  
+<span data-ttu-id="39118-115">ในหน้า **กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง** คุณตั้งค่ากำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับทุกวันในสัปดาห์</span><span class="sxs-lookup"><span data-stu-id="39118-115">On the **Order entry deadlines** page, you set up order entry deadline times for all the days of the week.</span></span> <span data-ttu-id="39118-116">ถ้าใบสั่งใด ๆ ที่ได้รับหลังจากที่ระบุเวลาไว้ จะได้รับการปฏิบัติเสมือนว่าได้รับในวันดำเนินการถัดไป</span><span class="sxs-lookup"><span data-stu-id="39118-116">If orders are received after the specified times, they are treated as if they are received on the next day.</span></span> <span data-ttu-id="39118-117">ค่าเริ่มต้นตั้งค่าไว้ที่เวลา 23:59 น. (นั่นคือ 1 นาทีก่อนเที่ยงคืนของวันที่เกี่ยวข้อง)</span><span class="sxs-lookup"><span data-stu-id="39118-117">By default, these times are set to 23:59 (that is, one minute before midnight at the end of the relevant day).</span></span> <span data-ttu-id="39118-118">คุณสามารถเปลี่ยนแปลงเวลาเริ่มต้นเพื่อให้สอดคล้องกับกำหนดเวลาจัดส่งหรือรับสินค้าตามจริง</span><span class="sxs-lookup"><span data-stu-id="39118-118">You can change the default times so that they coincide with actual ship or receipt deadline times.</span></span>  
 
-คุณสามารถกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับกลุ่มลูกค้าเฉพาะ ตัวอย่างเช่น คุณอาจต้องการให้กลุ่มลูกค้าเฉพาะมีกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งที่เป็นวันหลังจากลูกค้ารายอื่น ในกรณีนี้ คุณต้องกำหนดกลุ่มก่อนเพื่อกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งในหน้า **กลุ่มกำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง** คุณต้องกำหนดกลุ่มให้แก่ลูกค้าในหน้า **ลูกค้า**  
+<span data-ttu-id="39118-119">คุณสามารถกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับกลุ่มลูกค้าเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="39118-119">You can define order entry deadlines for a specific group of customers.</span></span> <span data-ttu-id="39118-120">ตัวอย่างเช่น คุณอาจต้องการให้กลุ่มลูกค้าเฉพาะมีกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งที่เป็นวันหลังจากลูกค้ารายอื่น</span><span class="sxs-lookup"><span data-stu-id="39118-120">For example, you might want a specific group of customers to have order entry deadlines that are later than those of other customers.</span></span> <span data-ttu-id="39118-121">ในกรณีนี้ คุณต้องกำหนดกลุ่มก่อนเพื่อกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งในหน้า **กลุ่มกำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง**</span><span class="sxs-lookup"><span data-stu-id="39118-121">In this case, you first define groups for order entry deadlines on the **Order entry deadline groups** page.</span></span> <span data-ttu-id="39118-122">คุณต้องกำหนดกลุ่มให้แก่ลูกค้าในหน้า **ลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="39118-122">You then assign the groups to customers on the **Customers** page.</span></span>  
 
-ถ้าบริษัทของคุณประกอบด้วยหลายไซต์ คุณสามารถตั้งค่ากำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับแต่ละไซต์ได้ ถ้าไซต์ตั้งอยู่ในโซนเวลาที่ต่างกัน กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งถูกตั้งค่าในโซนเวลาของแต่ละไซต์ อย่างไรก็ตาม เมื่อคุณทำใบสั่งขายและใบเสนอราคาขาย กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะถูกแปลงเป็นโซนเวลาของคุณในหน้า **วันที่จัดส่งและวันที่รับสินค้าที่เป็นไปได้**  
+<span data-ttu-id="39118-123">ถ้าบริษัทของคุณประกอบด้วยหลายไซต์ คุณสามารถตั้งค่ากำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับแต่ละไซต์ได้</span><span class="sxs-lookup"><span data-stu-id="39118-123">If your company consists of several sites, you can set up order entry deadlines for each site.</span></span> <span data-ttu-id="39118-124">ถ้าไซต์ตั้งอยู่ในโซนเวลาที่ต่างกัน กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งถูกตั้งค่าในโซนเวลาของแต่ละไซต์</span><span class="sxs-lookup"><span data-stu-id="39118-124">If the sites are located in different time zones, the order entry deadlines are set up in each site's time zone.</span></span> <span data-ttu-id="39118-125">อย่างไรก็ตาม เมื่อคุณทำใบสั่งขายและใบเสนอราคาขาย กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะถูกแปลงเป็นโซนเวลาของคุณในหน้า **วันที่จัดส่งและวันที่รับสินค้าที่เป็นไปได้**</span><span class="sxs-lookup"><span data-stu-id="39118-125">However, when you work with sales orders and sales quotations, the order entry deadline is converted to your time zone on the **Available ship and receipt dates** page.</span></span>  
 
-ในหน้า **การเรียกใช้ชุดกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง** คุณกำหนดชุดของไซต์และกลุ่มกำหนดเวลาสิ้นสุดของรายการใบสั่งที่ได้รับอนุญาต
+<span data-ttu-id="39118-126">ในหน้า **การเรียกใช้ชุดกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง** คุณกำหนดชุดของไซต์และกลุ่มกำหนดเวลาสิ้นสุดของรายการใบสั่งที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="39118-126">On the **Activate order entry deadline combinations** page, you define the combinations of sites and order entry deadline groups that are allowed.</span></span>
 
-## <a name="example-order-entry-deadline"></a>ตัวอย่าง : การกำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง
-มีการตั้งกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งในวันอังคารเวลา 16:00 น. เฉพาะวันอังคาร เวลา 17:00 น. คุณลองพยายามตั้งค่าวันที่ปัจจุบันเป็นวันจัดส่ง (โปรดทราบว่า ไม่มีระยะเวลารอคอยสินค้าตัวอย่างนี้) ถ้ามีการเลือกกล่องกาเครื่องหมาย **การควบคุมวันที่จัดส่ง** คุณได้รับคำเตือนที่ระบุว่าวันที่ไม่ถูกต้อง คำเตือนนี้จะปรากฏขึ้นในหน้า **วันที่จัดส่งและวันที่รับสินค้าที่เป็นไปได้** ซึ่งคุณสามารถเลือกวันที่อื่นๆได้
+## <a name="example-order-entry-deadline"></a><span data-ttu-id="39118-127">ตัวอย่าง : การกำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="39118-127">Example: Order entry deadline</span></span>
+<span data-ttu-id="39118-128">มีการตั้งกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งในวันอังคารเวลา 16:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-128">The order entry deadline on Tuesdays has been set to 16:00.</span></span> <span data-ttu-id="39118-129">เฉพาะวันอังคาร เวลา 17:00 น. คุณลองพยายามตั้งค่าวันที่ปัจจุบันเป็นวันจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="39118-129">On a particular Tuesday, at 17:00, you try to set the current date as the ship date.</span></span> <span data-ttu-id="39118-130">(โปรดทราบว่า ไม่มีระยะเวลารอคอยสินค้าตัวอย่างนี้) ถ้ามีการเลือกกล่องกาเครื่องหมาย **การควบคุมวันที่จัดส่ง** คุณได้รับคำเตือนที่ระบุว่าวันที่ไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="39118-130">(Note that there is no lead time for this example.) If the **Delivery date control** check box is selected, you receive a warning that states that the date isn't valid.</span></span> <span data-ttu-id="39118-131">คำเตือนนี้จะปรากฏขึ้นในหน้า **วันที่จัดส่งและวันที่รับสินค้าที่เป็นไปได้** ซึ่งคุณสามารถเลือกวันที่อื่นๆได้</span><span class="sxs-lookup"><span data-stu-id="39118-131">This warning appears on the **Available ship and receipt dates** page, where you can then select alternative dates.</span></span>
 
-## <a name="example-different-order-entry-deadlines-per-site"></a>ตัวอย่าง : กำหนดเวลาสิ้นสุดการป้อนรายการใบสั่งที่แตกต่างกันสำหรับแต่ละไซต์
-บริษัทของคุณประกอบไปด้วย 2 ไซต์ ไซต์ที่อยู่ในโซนเวลาที่แตกต่างกัน ดังที่แสดงในตารางต่อไปนี้
+## <a name="example-different-order-entry-deadlines-per-site"></a><span data-ttu-id="39118-132">ตัวอย่าง : กำหนดเวลาสิ้นสุดการป้อนรายการใบสั่งที่แตกต่างกันสำหรับแต่ละไซต์</span><span class="sxs-lookup"><span data-stu-id="39118-132">Example: Different order entry deadlines per site</span></span>
+<span data-ttu-id="39118-133">บริษัทของคุณประกอบไปด้วย 2 ไซต์</span><span class="sxs-lookup"><span data-stu-id="39118-133">Your company consists of two sites.</span></span> <span data-ttu-id="39118-134">ไซต์ที่อยู่ในโซนเวลาที่แตกต่างกัน ดังที่แสดงในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="39118-134">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| ไซต์ A                      | ไซต์ B                      |
+| <span data-ttu-id="39118-135">ไซต์ A</span><span class="sxs-lookup"><span data-stu-id="39118-135">Site A</span></span>                      | <span data-ttu-id="39118-136">ไซต์ B</span><span class="sxs-lookup"><span data-stu-id="39118-136">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| แคลิฟอร์เนีย                  | ฟลอริดา                     |
-| PST (เวลามาตรฐานของแปซิฟิก) | EST (เวลามาตรฐานของภาคตะวันออก) |
+| <span data-ttu-id="39118-137">แคลิฟอร์เนีย</span><span class="sxs-lookup"><span data-stu-id="39118-137">California</span></span>                  | <span data-ttu-id="39118-138">ฟลอริดา</span><span class="sxs-lookup"><span data-stu-id="39118-138">Florida</span></span>                     |
+| <span data-ttu-id="39118-139">PST (เวลามาตรฐานของแปซิฟิก)</span><span class="sxs-lookup"><span data-stu-id="39118-139">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="39118-140">EST (เวลามาตรฐานของภาคตะวันออก)</span><span class="sxs-lookup"><span data-stu-id="39118-140">EST (Eastern Standard Time)</span></span> |
 
-ไซต์ A และ B ได้ระบุกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งดังต่อไปนี้
+<span data-ttu-id="39118-141">ไซต์ A และ B ได้ระบุกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="39118-141">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| วันของสัปดาห์             | A: กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง (PST) | B: กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง (EST) |
+| <span data-ttu-id="39118-142">วันของสัปดาห์</span><span class="sxs-lookup"><span data-stu-id="39118-142">Day of the week</span></span>             | <span data-ttu-id="39118-143">A: กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง (PST)</span><span class="sxs-lookup"><span data-stu-id="39118-143">A: Order entry deadlines (PST)</span></span> | <span data-ttu-id="39118-144">B: กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่ง (EST)</span><span class="sxs-lookup"><span data-stu-id="39118-144">B: Order entry deadlines (EST)</span></span> |
 |-----------------------------|--------------------------------|--------------------------------|
-| วันจันทร์                      | 13:00 น.                          | 14:00 น.                          |
-| วันอังคาร                     | 13:00 น.                          | 14:00 น.                          |
-| วันพุธ                   | 13:00 น.                          | 14:00 น.                          |
-| วันพฤหัสบดี                    | 13:00 น.                          | 14:00 น.                          |
-| วันศุกร์                      | 13:00 น.                          | 14:00 น.                          |
+| <span data-ttu-id="39118-145">วันจันทร์</span><span class="sxs-lookup"><span data-stu-id="39118-145">Monday</span></span>                      | <span data-ttu-id="39118-146">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-146">13:00</span></span>                          | <span data-ttu-id="39118-147">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-147">14:00</span></span>                          |
+| <span data-ttu-id="39118-148">วันอังคาร</span><span class="sxs-lookup"><span data-stu-id="39118-148">Tuesday</span></span>                     | <span data-ttu-id="39118-149">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-149">13:00</span></span>                          | <span data-ttu-id="39118-150">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-150">14:00</span></span>                          |
+| <span data-ttu-id="39118-151">วันพุธ</span><span class="sxs-lookup"><span data-stu-id="39118-151">Wednesday</span></span>                   | <span data-ttu-id="39118-152">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-152">13:00</span></span>                          | <span data-ttu-id="39118-153">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-153">14:00</span></span>                          |
+| <span data-ttu-id="39118-154">วันพฤหัสบดี</span><span class="sxs-lookup"><span data-stu-id="39118-154">Thursday</span></span>                    | <span data-ttu-id="39118-155">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-155">13:00</span></span>                          | <span data-ttu-id="39118-156">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-156">14:00</span></span>                          |
+| <span data-ttu-id="39118-157">วันศุกร์</span><span class="sxs-lookup"><span data-stu-id="39118-157">Friday</span></span>                      | <span data-ttu-id="39118-158">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-158">13:00</span></span>                          | <span data-ttu-id="39118-159">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-159">14:00</span></span>                          |
 
-คุณคือผู้ประมวลผลใบสั่งในยูทาห์ซึ่งอยู่ในเขตเวลา MST (Mountain Standard Time) ดังนั้น หากคุณวางใบสั่งในไซต์ A ก่อนเวลา 14:00 น. MST และวางใบสั่งในไซต์ B ก่อนเวลา 12:00 น. MST ก็จะทันตามกำหนดเวลาสิ้นสุดสำหรับการป้อนรายการใบสั่งของไซต์ทั้งสอง  
+<span data-ttu-id="39118-160">คุณคือผู้ประมวลผลใบสั่งในยูทาห์ซึ่งอยู่ในเขตเวลา MST (Mountain Standard Time)</span><span class="sxs-lookup"><span data-stu-id="39118-160">You're an order processor in Utah, where the time zone is MST (Mountain Standard Time).</span></span> <span data-ttu-id="39118-161">ดังนั้น หากคุณวางใบสั่งในไซต์ A ก่อนเวลา 14:00 น. MST และวางใบสั่งในไซต์ B ก่อนเวลา 12:00 น. MST ก็จะทันตามกำหนดเวลาสิ้นสุดสำหรับการป้อนรายการใบสั่งของไซต์ทั้งสอง</span><span class="sxs-lookup"><span data-stu-id="39118-161">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 12:00 MST, you meet the order entry deadlines for both sites.</span></span>  
 
-ตารางต่อไปนี้แสดงวิธีกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับไซต์ A และ B ซึ่งได้รับการแปลงเป็นเวลา MST
+<span data-ttu-id="39118-162">ตารางต่อไปนี้แสดงวิธีกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับไซต์ A และ B ซึ่งได้รับการแปลงเป็นเวลา MST</span><span class="sxs-lookup"><span data-stu-id="39118-162">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| ไซต์ A: PST         | ไซต์ A: MST        | ไซต์ B: EST           | ไซต์ B: MST        |
+| <span data-ttu-id="39118-163">ไซต์ A: PST</span><span class="sxs-lookup"><span data-stu-id="39118-163">Site A: PST</span></span>         | <span data-ttu-id="39118-164">ไซต์ A: MST</span><span class="sxs-lookup"><span data-stu-id="39118-164">Site A: MST</span></span>        | <span data-ttu-id="39118-165">ไซต์ B: EST</span><span class="sxs-lookup"><span data-stu-id="39118-165">Site B: EST</span></span>           | <span data-ttu-id="39118-166">ไซต์ B: MST</span><span class="sxs-lookup"><span data-stu-id="39118-166">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13:00 น.               | 14:00 น.              | 14:00 น.                 | 12:00 น.              |
+| <span data-ttu-id="39118-167">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-167">13:00</span></span>               | <span data-ttu-id="39118-168">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-168">14:00</span></span>              | <span data-ttu-id="39118-169">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-169">14:00</span></span>                 | <span data-ttu-id="39118-170">12:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-170">12:00</span></span>              |
 
-**หมายเหตุ:** ถ้ามีการปรับเวลาตามฤดูกาล กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะได้รับการปรับให้สอดคล้องไปด้วย
+<span data-ttu-id="39118-171">**หมายเหตุ:** ถ้ามีการปรับเวลาตามฤดูกาล กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะได้รับการปรับให้สอดคล้องไปด้วย</span><span class="sxs-lookup"><span data-stu-id="39118-171">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-## <a name="example-same-order-entry-deadline-per-site"></a>ตัวอย่าง : กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งที่เหมือนกันสำหรับแต่ละไซต์
-บริษัทของคุณประกอบไปด้วย 2 ไซต์ ไซต์ที่อยู่ในโซนเวลาที่แตกต่างกัน ดังที่แสดงในตารางต่อไปนี้
+## <a name="example-same-order-entry-deadline-per-site"></a><span data-ttu-id="39118-172">ตัวอย่าง : กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งที่เหมือนกันสำหรับแต่ละไซต์</span><span class="sxs-lookup"><span data-stu-id="39118-172">Example: Same order entry deadline per site</span></span>
+<span data-ttu-id="39118-173">บริษัทของคุณประกอบไปด้วย 2 ไซต์</span><span class="sxs-lookup"><span data-stu-id="39118-173">Your company consists of two sites.</span></span> <span data-ttu-id="39118-174">ไซต์ที่อยู่ในโซนเวลาที่แตกต่างกัน ดังที่แสดงในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="39118-174">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| ไซต์ A                      | ไซต์ B                      |
+| <span data-ttu-id="39118-175">ไซต์ A</span><span class="sxs-lookup"><span data-stu-id="39118-175">Site A</span></span>                      | <span data-ttu-id="39118-176">ไซต์ B</span><span class="sxs-lookup"><span data-stu-id="39118-176">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| แคลิฟอร์เนีย                  | ฟลอริดา                     |
-| PST (เวลามาตรฐานของแปซิฟิก) | EST (เวลามาตรฐานของภาคตะวันออก) |
+| <span data-ttu-id="39118-177">แคลิฟอร์เนีย</span><span class="sxs-lookup"><span data-stu-id="39118-177">California</span></span>                  | <span data-ttu-id="39118-178">ฟลอริดา</span><span class="sxs-lookup"><span data-stu-id="39118-178">Florida</span></span>                     |
+| <span data-ttu-id="39118-179">PST (เวลามาตรฐานของแปซิฟิก)</span><span class="sxs-lookup"><span data-stu-id="39118-179">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="39118-180">EST (เวลามาตรฐานของภาคตะวันออก)</span><span class="sxs-lookup"><span data-stu-id="39118-180">EST (Eastern Standard Time)</span></span> |
 
-ไซต์ A และ B ได้ระบุกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งดังต่อไปนี้
+<span data-ttu-id="39118-181">ไซต์ A และ B ได้ระบุกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="39118-181">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| วันของสัปดาห์ | PST และ EST |
+| <span data-ttu-id="39118-182">วันของสัปดาห์</span><span class="sxs-lookup"><span data-stu-id="39118-182">Day of the week</span></span> | <span data-ttu-id="39118-183">PST และ EST</span><span class="sxs-lookup"><span data-stu-id="39118-183">PST and EST</span></span> |
 |-----------------|-------------|
-| วันจันทร์          | 13:00 น.       |
-| วันอังคาร         | 13:00 น.       |
-| วันพุธ       | 13:00 น.       |
-| วันพฤหัสบดี        | 13:00 น.       |
-| วันศุกร์          | 13:00 น.       |
+| <span data-ttu-id="39118-184">วันจันทร์</span><span class="sxs-lookup"><span data-stu-id="39118-184">Monday</span></span>          | <span data-ttu-id="39118-185">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-185">13:00</span></span>       |
+| <span data-ttu-id="39118-186">วันอังคาร</span><span class="sxs-lookup"><span data-stu-id="39118-186">Tuesday</span></span>         | <span data-ttu-id="39118-187">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-187">13:00</span></span>       |
+| <span data-ttu-id="39118-188">วันพุธ</span><span class="sxs-lookup"><span data-stu-id="39118-188">Wednesday</span></span>       | <span data-ttu-id="39118-189">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-189">13:00</span></span>       |
+| <span data-ttu-id="39118-190">วันพฤหัสบดี</span><span class="sxs-lookup"><span data-stu-id="39118-190">Thursday</span></span>        | <span data-ttu-id="39118-191">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-191">13:00</span></span>       |
+| <span data-ttu-id="39118-192">วันศุกร์</span><span class="sxs-lookup"><span data-stu-id="39118-192">Friday</span></span>          | <span data-ttu-id="39118-193">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-193">13:00</span></span>       |
 
-คุณคือผู้ประมวลผลใบสั่งในยูทาห์ซึ่งอยู่ในเขตเวลา MST ดังนั้น หากคุณวางใบสั่งในไซต์ A ก่อนเวลา 14:00 น. MST และวางใบสั่งในไซต์ B ก่อนเวลา 11:00 น. MST ก็จะทันตามกำหนดเวลาสิ้นสุดสำหรับการป้อนรายการใบสั่งของไซต์ทั้งสอง 
+<span data-ttu-id="39118-194">คุณคือผู้ประมวลผลใบสั่งในยูทาห์ซึ่งอยู่ในเขตเวลา MST</span><span class="sxs-lookup"><span data-stu-id="39118-194">You're an order processor in Utah, where the time zone is MST.</span></span> <span data-ttu-id="39118-195">ดังนั้น หากคุณวางใบสั่งในไซต์ A ก่อนเวลา 14:00 น. MST และวางใบสั่งในไซต์ B ก่อนเวลา 11:00 น. MST ก็จะทันตามกำหนดเวลาสิ้นสุดสำหรับการป้อนรายการใบสั่งของไซต์ทั้งสอง</span><span class="sxs-lookup"><span data-stu-id="39118-195">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 11:00 MST, you meet the order entry deadlines for both sites.</span></span> 
 
-ตารางต่อไปนี้แสดงวิธีกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับไซต์ A และ B ซึ่งได้รับการแปลงเป็นเวลา MST
+<span data-ttu-id="39118-196">ตารางต่อไปนี้แสดงวิธีกำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งสำหรับไซต์ A และ B ซึ่งได้รับการแปลงเป็นเวลา MST</span><span class="sxs-lookup"><span data-stu-id="39118-196">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| ไซต์ A: PST         | ไซต์ A: MST        | ไซต์ B: EST           | ไซต์ B: MST        |
+| <span data-ttu-id="39118-197">ไซต์ A: PST</span><span class="sxs-lookup"><span data-stu-id="39118-197">Site A: PST</span></span>         | <span data-ttu-id="39118-198">ไซต์ A: MST</span><span class="sxs-lookup"><span data-stu-id="39118-198">Site A: MST</span></span>        | <span data-ttu-id="39118-199">ไซต์ B: EST</span><span class="sxs-lookup"><span data-stu-id="39118-199">Site B: EST</span></span>           | <span data-ttu-id="39118-200">ไซต์ B: MST</span><span class="sxs-lookup"><span data-stu-id="39118-200">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13:00 น.               | 14:00 น.              | 13:00 น.                 | 11:00 น.              |
+| <span data-ttu-id="39118-201">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-201">13:00</span></span>               | <span data-ttu-id="39118-202">14:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-202">14:00</span></span>              | <span data-ttu-id="39118-203">13:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-203">13:00</span></span>                 | <span data-ttu-id="39118-204">11:00 น.</span><span class="sxs-lookup"><span data-stu-id="39118-204">11:00</span></span>              |
 
-**หมายเหตุ:** ถ้ามีการปรับเวลาตามฤดูกาล กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะได้รับการปรับให้สอดคล้องไปด้วย
+<span data-ttu-id="39118-205">**หมายเหตุ:** ถ้ามีการปรับเวลาตามฤดูกาล กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะได้รับการปรับให้สอดคล้องไปด้วย</span><span class="sxs-lookup"><span data-stu-id="39118-205">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="39118-206">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="39118-206">See also</span></span>
 --------
 
-[กำหนดการจัดส่ง](delivery-schedules.md)
+[<span data-ttu-id="39118-207">กำหนดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="39118-207">Delivery schedules</span></span>](delivery-schedules.md)
 
 
 

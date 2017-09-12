@@ -17,44 +17,44 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d57d12f4987c25a6b4e52856fc8fd198efcc8c3c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-discrete-manufacturing-resource-group"></a>กำหนดกลุ่มทรัพยากรผู้ผลิตแยกกัน
+# <a name="define-discrete-manufacturing-resource-group"></a><span data-ttu-id="37fb6-103">กำหนดกลุ่มทรัพยากรผู้ผลิตแยกกัน</span><span class="sxs-lookup"><span data-stu-id="37fb6-103">Define discrete manufacturing resource group</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กลุ่มทรัพยากรคือ ชุดของทรัพยากรการดำเนินงานที่โดยปกติจะสอดคล้องกับองค์กรจริงของเซลล์ทำงาน ซึ่งกำหนดโดยบรรทัดสีเหลืองบนการผลิตผลิตภัณฑ์  กระบวนงานนี้แสดงวิธีการกำหนดกลุ่มทรัพยากรสำหรับใช้ในการผลิตที่แยกกัน คุณสามารถดำเนินกระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง
+<span data-ttu-id="37fb6-104">กลุ่มทรัพยากรคือ ชุดของทรัพยากรการดำเนินงานที่โดยปกติจะสอดคล้องกับองค์กรจริงของเซลล์ทำงาน ซึ่งกำหนดโดยบรรทัดสีเหลืองบนการผลิตผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="37fb6-104">A resource group is a set of operations resources that typically correspond to the physical organization of work cells, defined by yellow lines on the production shop floor.</span></span> <span data-ttu-id="37fb6-105">กระบวนงานนี้แสดงวิธีการกำหนดกลุ่มทรัพยากรสำหรับใช้ในการผลิตที่แยกกัน</span><span class="sxs-lookup"><span data-stu-id="37fb6-105">This procedure shows you how to define a ressource group for use in discrete production.</span></span> <span data-ttu-id="37fb6-106">คุณสามารถดำเนินกระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="37fb6-106">You can walk through this procedure in demo data company USMF, or use your own data.</span></span>
 
-1. ไปที่กลุ่มทรัพยากร 
-2. คลิก สร้าง
-3. ในฟิลด์กลุ่มทรัพยากร ให้พิมพ์ค่า
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ในฟิลด์หน่วยการผลิต ให้ป้อนหรือเลือกค่า 
+1. <span data-ttu-id="37fb6-107">ไปที่กลุ่มทรัพยากร </span><span class="sxs-lookup"><span data-stu-id="37fb6-107">Go to Resource groups.</span></span>
+2. <span data-ttu-id="37fb6-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="37fb6-108">Click New.</span></span>
+3. <span data-ttu-id="37fb6-109">ในฟิลด์กลุ่มทรัพยากร ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="37fb6-109">In the Resource group field, type a value.</span></span>
+4. <span data-ttu-id="37fb6-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="37fb6-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="37fb6-111">ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="37fb6-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="37fb6-112">ในฟิลด์หน่วยการผลิต ให้ป้อนหรือเลือกค่า </span><span class="sxs-lookup"><span data-stu-id="37fb6-112">In the Production unit field, enter or select a value.</span></span>
 
-## <a name="define-default-operational-parameters"></a>กำหนดพารามิเตอร์ในการดำเนินงานเริ่มต้น
-1. ขยายส่วนการดำเนินงาน
-2. ในฟิลด์เปอร์เซ็นต์ของเสีย ให้ป้อนหมายเลข 
-3. ในฟิลด์ประเภทการตั้งค่า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-4. ในฟิลด์ประเภทเวลาที่ใช้ในการผลิต ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-5. ในฟิลด์เปอร์เซ็นต์การจัดตารางการผลิตระดับการดำเนินงาน ให้ป้อนหมายเลข 
+## <a name="define-default-operational-parameters"></a><span data-ttu-id="37fb6-113">กำหนดพารามิเตอร์ในการดำเนินงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="37fb6-113">Define default operational parameters</span></span>
+1. <span data-ttu-id="37fb6-114">ขยายส่วนการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="37fb6-114">Expand the Operation section.</span></span>
+2. <span data-ttu-id="37fb6-115">ในฟิลด์เปอร์เซ็นต์ของเสีย ให้ป้อนหมายเลข </span><span class="sxs-lookup"><span data-stu-id="37fb6-115">In the Scrap percentage field, enter a number.</span></span>
+3. <span data-ttu-id="37fb6-116">ในฟิลด์ประเภทการตั้งค่า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="37fb6-116">In the Setup category field, enter or select a value.</span></span>
+4. <span data-ttu-id="37fb6-117">ในฟิลด์ประเภทเวลาที่ใช้ในการผลิต ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="37fb6-117">In the Run time category field, enter or select a value.</span></span>
+5. <span data-ttu-id="37fb6-118">ในฟิลด์เปอร์เซ็นต์การจัดตารางการผลิตระดับการดำเนินงาน ให้ป้อนหมายเลข </span><span class="sxs-lookup"><span data-stu-id="37fb6-118">In the Operations scheduling percentage field, enter a number.</span></span>
 
-## <a name="define-operating-hours"></a>กำหนดชั่วโมงการดำเนินงาน
-1. ขยายส่วนปฏิทิน
-2. คลิก เพิ่ม
-3. ในฟิลด์ปฏิทิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
+## <a name="define-operating-hours"></a><span data-ttu-id="37fb6-119">กำหนดชั่วโมงการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="37fb6-119">Define operating hours</span></span>
+1. <span data-ttu-id="37fb6-120">ขยายส่วนปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="37fb6-120">Expand the Calendars section.</span></span>
+2. <span data-ttu-id="37fb6-121">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37fb6-121">Click Add.</span></span>
+3. <span data-ttu-id="37fb6-122">ในฟิลด์ปฏิทิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="37fb6-122">In the Calendar field, enter or select a value.</span></span>
 
-## <a name="add-operations-resources"></a>เพิ่มทรัพยากรการดำเนินงาน
-1. ขยายส่วนทรัพยากร 
-2. คลิก เพิ่ม
-3. ในฟิลด์ทรัพยากร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-4. คลิก เพิ่ม
-5. ในฟิลด์ทรัพยากร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-7. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
+## <a name="add-operations-resources"></a><span data-ttu-id="37fb6-123">เพิ่มทรัพยากรการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="37fb6-123">Add operations resources</span></span>
+1. <span data-ttu-id="37fb6-124">ขยายส่วนทรัพยากร </span><span class="sxs-lookup"><span data-stu-id="37fb6-124">Expand the Resources section.</span></span>
+2. <span data-ttu-id="37fb6-125">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37fb6-125">Click Add.</span></span>
+3. <span data-ttu-id="37fb6-126">ในฟิลด์ทรัพยากร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="37fb6-126">In the Resource field, enter or select a value.</span></span>
+4. <span data-ttu-id="37fb6-127">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37fb6-127">Click Add.</span></span>
+5. <span data-ttu-id="37fb6-128">ในฟิลด์ทรัพยากร ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="37fb6-128">In the Resource field, enter or select a value.</span></span>
+6. <span data-ttu-id="37fb6-129">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="37fb6-129">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="37fb6-130">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="37fb6-130">In the list, click the link in the selected row.</span></span>
 
 

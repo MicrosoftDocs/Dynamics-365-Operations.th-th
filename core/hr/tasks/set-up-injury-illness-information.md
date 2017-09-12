@@ -16,52 +16,52 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f1ced20c1d8ca9589fb64c8e360575bad5b8f64a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 60f1c836400c2da39cfce7a5024075634a0b54e0
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-injury-and-illness-information"></a>ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
+# <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="a0060-103">ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="a0060-103">Set up injury and illness information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-นายจ้างจำเป็นต้องทราบเมื่อพนักงานได้รับบาดเจ็บหรือมีการเจ็บป่วยที่เป็นผลมาจากอันตรายในสถานที่ทำงาน  คุณสามารถใช้หน้าการบาดเจ็บและการเจ็บป่วย เพื่อตั้งค่าข้อมูลที่ช่วยในการรายงานการบาดเจ็บหรือการเจ็บป่วยในสถานที่ทำงาน  คุณสามารถตั้งค่าชนิดของการบาดเจ็บและการเจ็บป่วย รวมถึงชนิดการรักษาพยาบาล ต้นทุน และผลที่ได้  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
+<span data-ttu-id="a0060-104">นายจ้างจำเป็นต้องทราบเมื่อพนักงานได้รับบาดเจ็บหรือมีการเจ็บป่วยที่เป็นผลมาจากอันตรายในสถานที่ทำงาน </span><span class="sxs-lookup"><span data-stu-id="a0060-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="a0060-105">คุณสามารถใช้หน้าการบาดเจ็บและการเจ็บป่วย เพื่อตั้งค่าข้อมูลที่ช่วยในการรายงานการบาดเจ็บหรือการเจ็บป่วยในสถานที่ทำงาน </span><span class="sxs-lookup"><span data-stu-id="a0060-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="a0060-106">คุณสามารถตั้งค่าชนิดของการบาดเจ็บและการเจ็บป่วย รวมถึงชนิดการรักษาพยาบาล ต้นทุน และผลที่ได้ </span><span class="sxs-lookup"><span data-stu-id="a0060-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="a0060-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="a0060-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. ไปที่ ทรัพยากรบุคคล > ผู้ปฏิบัติงาน > การบาดเจ็บและการเจ็บป่วย > การตั้งค่าการบาดเจ็บและการเจ็บป่วย
-2. คลิก สร้าง
-3. ในฟิลด์ชนิดการบาดเจ็บและการเจ็บป่วย ให้พิมพ์ค่า
-    * ตัวอย่าง: การแตกร้าว  
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ตัวอย่าง: กระดูกร้าว  
-5. คลิกแท็บอวัยวะ
-6. คลิก สร้าง
-7. ในฟิลด์อวัยวะ ให้พิมพ์ค่า
-    * ตัวอย่าง: ข้อมือ  
-8. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ตัวอย่าง: ข้อมือ  
-9. คลิกแท็บชนิดการรักษา
-10. คลิก สร้าง
-11. ในฟิลด์ชนิดการรักษา ให้พิมพ์ค่า
-    * ตัวอย่าง: เข้าเฝือก  
-12. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ตัวอย่าง: ใส่เฝือก  
-13. คลิกแท็บชนิดของต้นทุน
-14. คลิก สร้าง
-15. ในฟิลด์ชนิดต้นทุน ให้พิมพ์ค่า
-    * ตัวอย่าง: X-rays  
-16. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ตัวอย่าง: X-rays  
-17. คลิกแท็บชนิดของผลลัพธ์
-18. คลิก สร้าง
-19. ในฟิลด์ชนิดผลลัพธ์ ให้พิมพ์ค่า
-    * ตัวอย่าง: การบำบัด  
-20. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ตัวอย่าง: กายภาพบำบัด  
-21. คลิกแท็บระดับความรุนแรง
-    * สามารถสร้างระดับความรุนแรงที่กำหนดเองได้  ตัวอย่างเช่น: ความรุนแรง 1 อาจหมายถึง การบาดเจ็บเล็กน้อย ขณะที่ความรุนแรง 3 อาจบ่งชี้ถึงการบาดเจ็บร้ายแรง  
-22. คลิกแท็บหน่วยงานรายงาน
-    * หน่วยงานรายงานคือหน่วยงานที่ต้องได้รับการรายงานเหตุการณ์ เลือกกล่องกาเครื่องหมายค่าเริ่มต้นสำหรับหน่วยงานที่เป็นหน่วยงานค่าเริ่มต้นสำหรับการรายงานการบาดเจ็บและการเจ็บป่วย  
-23. คลิก บันทึก
+1. <span data-ttu-id="a0060-108">ไปที่ ทรัพยากรบุคคล > ผู้ปฏิบัติงาน > การบาดเจ็บและการเจ็บป่วย > การตั้งค่าการบาดเจ็บและการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="a0060-108">Go to Human resources > Workers > Injury and illness > Injury and illness setup.</span></span>
+2. <span data-ttu-id="a0060-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="a0060-109">Click New.</span></span>
+3. <span data-ttu-id="a0060-110">ในฟิลด์ชนิดการบาดเจ็บและการเจ็บป่วย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-110">In the Injury or illness type field, type a value.</span></span>
+    * <span data-ttu-id="a0060-111">ตัวอย่าง: การแตกร้าว</span><span class="sxs-lookup"><span data-stu-id="a0060-111">Example: Fracture</span></span>  
+4. <span data-ttu-id="a0060-112">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a0060-113">ตัวอย่าง: กระดูกร้าว</span><span class="sxs-lookup"><span data-stu-id="a0060-113">Example: Bone fracture</span></span>  
+5. <span data-ttu-id="a0060-114">คลิกแท็บอวัยวะ</span><span class="sxs-lookup"><span data-stu-id="a0060-114">Click the Body parts tab.</span></span>
+6. <span data-ttu-id="a0060-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="a0060-115">Click New.</span></span>
+7. <span data-ttu-id="a0060-116">ในฟิลด์อวัยวะ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-116">In the Body part field, type a value.</span></span>
+    * <span data-ttu-id="a0060-117">ตัวอย่าง: ข้อมือ</span><span class="sxs-lookup"><span data-stu-id="a0060-117">Example: Wrist</span></span>  
+8. <span data-ttu-id="a0060-118">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-118">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a0060-119">ตัวอย่าง: ข้อมือ</span><span class="sxs-lookup"><span data-stu-id="a0060-119">Example: Wrist</span></span>  
+9. <span data-ttu-id="a0060-120">คลิกแท็บชนิดการรักษา</span><span class="sxs-lookup"><span data-stu-id="a0060-120">Click the Treatment types tab.</span></span>
+10. <span data-ttu-id="a0060-121">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="a0060-121">Click New.</span></span>
+11. <span data-ttu-id="a0060-122">ในฟิลด์ชนิดการรักษา ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-122">In the Treatment type field, type a value.</span></span>
+    * <span data-ttu-id="a0060-123">ตัวอย่าง: เข้าเฝือก</span><span class="sxs-lookup"><span data-stu-id="a0060-123">Example: Splint</span></span>  
+12. <span data-ttu-id="a0060-124">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-124">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a0060-125">ตัวอย่าง: ใส่เฝือก</span><span class="sxs-lookup"><span data-stu-id="a0060-125">Example: Put a splint on</span></span>  
+13. <span data-ttu-id="a0060-126">คลิกแท็บชนิดของต้นทุน</span><span class="sxs-lookup"><span data-stu-id="a0060-126">Click the Cost types tab.</span></span>
+14. <span data-ttu-id="a0060-127">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="a0060-127">Click New.</span></span>
+15. <span data-ttu-id="a0060-128">ในฟิลด์ชนิดต้นทุน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-128">In the Cost type field, type a value.</span></span>
+    * <span data-ttu-id="a0060-129">ตัวอย่าง: X-rays</span><span class="sxs-lookup"><span data-stu-id="a0060-129">Example: X-rays</span></span>  
+16. <span data-ttu-id="a0060-130">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-130">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a0060-131">ตัวอย่าง: X-rays</span><span class="sxs-lookup"><span data-stu-id="a0060-131">Example: X-rays</span></span>  
+17. <span data-ttu-id="a0060-132">คลิกแท็บชนิดของผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="a0060-132">Click the Outcome types tab.</span></span>
+18. <span data-ttu-id="a0060-133">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="a0060-133">Click New.</span></span>
+19. <span data-ttu-id="a0060-134">ในฟิลด์ชนิดผลลัพธ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-134">In the Outcome type field, type a value.</span></span>
+    * <span data-ttu-id="a0060-135">ตัวอย่าง: การบำบัด</span><span class="sxs-lookup"><span data-stu-id="a0060-135">Example: Therapy</span></span>  
+20. <span data-ttu-id="a0060-136">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="a0060-136">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="a0060-137">ตัวอย่าง: กายภาพบำบัด</span><span class="sxs-lookup"><span data-stu-id="a0060-137">Example: Physical therapy</span></span>  
+21. <span data-ttu-id="a0060-138">คลิกแท็บระดับความรุนแรง</span><span class="sxs-lookup"><span data-stu-id="a0060-138">Click the Severity levels tab.</span></span>
+    * <span data-ttu-id="a0060-139">สามารถสร้างระดับความรุนแรงที่กำหนดเองได้ </span><span class="sxs-lookup"><span data-stu-id="a0060-139">Customizable severity levels can be created.</span></span> <span data-ttu-id="a0060-140">ตัวอย่างเช่น: ความรุนแรง 1 อาจหมายถึง การบาดเจ็บเล็กน้อย ขณะที่ความรุนแรง 3 อาจบ่งชี้ถึงการบาดเจ็บร้ายแรง</span><span class="sxs-lookup"><span data-stu-id="a0060-140">For example: Severity 1 might mean a minor injury, where severity 3 might indicate a severe injury.</span></span>  
+22. <span data-ttu-id="a0060-141">คลิกแท็บหน่วยงานรายงาน</span><span class="sxs-lookup"><span data-stu-id="a0060-141">Click the Reporting agencies tab.</span></span>
+    * <span data-ttu-id="a0060-142">หน่วยงานรายงานคือหน่วยงานที่ต้องได้รับการรายงานเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="a0060-142">Reporting agencies are the agencies that the incident needs to be reported to.</span></span> <span data-ttu-id="a0060-143">เลือกกล่องกาเครื่องหมายค่าเริ่มต้นสำหรับหน่วยงานที่เป็นหน่วยงานค่าเริ่มต้นสำหรับการรายงานการบาดเจ็บและการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="a0060-143">Select the default check box for the agency that is the default agency for reporting injury and illnesses to.</span></span>  
+23. <span data-ttu-id="a0060-144">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="a0060-144">Click Save.</span></span>
 
 

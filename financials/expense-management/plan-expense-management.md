@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย
+# <a name="configure-expense-management"></a><span data-ttu-id="eda38-104">ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผนก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง และนโยบายต่างๆ ในพื้นที่การจัดการค่าใช้จ่าย 
+<span data-ttu-id="eda38-105">บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผนก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span><span class="sxs-lookup"><span data-stu-id="eda38-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="eda38-106">คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง และนโยบายต่างๆ ในพื้นที่การจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-เนื่องจากหลายการตัดสินใจที่คุณเลือกเมื่อคุณวางแผนการตั้งค่าคอนฟิกของคุณสำหรับการจัดการค่าใช้จ่าย ตามลำดับชั้นขององค์กรของคุณและโครงสร้างทางการเงิน คุณต้องอ้างอิงเอกสารการวางแผนสำหรับพื้นที่เหล่านั้น
+<span data-ttu-id="eda38-107">เนื่องจากหลายการตัดสินใจที่คุณเลือกเมื่อคุณวางแผนการตั้งค่าคอนฟิกของคุณสำหรับการจัดการค่าใช้จ่าย ตามลำดับชั้นขององค์กรของคุณและโครงสร้างทางการเงิน คุณต้องอ้างอิงเอกสารการวางแผนสำหรับพื้นที่เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="eda38-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>ค่าใช้จ่ายระหว่างบริษัท
-เมื่อคุณเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท คุณอนุญาตนิติบุคคลและพนักงานให้ทำให้เกิดค่าใช้จ่ายในนามของ และเรียกเก็บการชำระเงินจาก นิติบุคคลอื่นภายในองค์กรของคุณ ตัวอย่างเช่น พนักงานในนิติบุคคล A เสร็จสิ้นโครงการสำหรับนิติบุคคล B. ถ้าเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท พนักงานสามารถยื่นแผ่นเวลาไป และได้รับชำระโดยนิติบุคคล B ถ้าองค์กรของคุณไม่มีหลายนิติบุคคล คุณไม่จำเป็นเพื่อเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท **การตัดสินใจ:** คุณต้องการเปิดใช้งานค่าใช้จ่ายระหว่างบริษัทหรือไม่
+## <a name="intercompany-expenses"></a><span data-ttu-id="eda38-108">ค่าใช้จ่ายระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="eda38-108">Intercompany expenses</span></span>
+<span data-ttu-id="eda38-109">เมื่อคุณเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท คุณอนุญาตนิติบุคคลและพนักงานให้ทำให้เกิดค่าใช้จ่ายในนามของ และเรียกเก็บการชำระเงินจาก นิติบุคคลอื่นภายในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="eda38-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="eda38-110">ตัวอย่างเช่น พนักงานในนิติบุคคล A เสร็จสิ้นโครงการสำหรับนิติบุคคล B. ถ้าเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท พนักงานสามารถยื่นแผ่นเวลาไป และได้รับชำระโดยนิติบุคคล B ถ้าองค์กรของคุณไม่มีหลายนิติบุคคล คุณไม่จำเป็นเพื่อเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="eda38-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="eda38-111">**การตัดสินใจ:** คุณต้องการเปิดใช้งานค่าใช้จ่ายระหว่างบริษัทหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>การจัดทางการเงิน
-การจัดการค่าใช้จ่ายมีการรวมเข้ากับการจัดทางการเงินขององค์กรของคุณ การตั้งค่าคอนฟิกของคุณจำนวนมากสำหรับการจัดการค่าใช้จ่ายจะขึ้นอยู่กับการตัดสินใจที่คุณได้ทำไว้เกี่ยวกับการเงินขององค์กรของคุณ ส่วนต่อไปนี้อธิบายถึงพื้นที่ต่าง ๆ ที่ต้องใช้การวางแผนและการตัดสินใจที่ขึ้นอยู่กับการตัดสินใจทางการเงินขององค์กรของคุณและคำแนะนำจากทีมงานผู้นำของคุณ
+## <a name="financial-management"></a><span data-ttu-id="eda38-112">การจัดทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="eda38-112">Financial management</span></span>
+<span data-ttu-id="eda38-113">การจัดการค่าใช้จ่ายมีการรวมเข้ากับการจัดทางการเงินขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="eda38-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="eda38-114">การตั้งค่าคอนฟิกของคุณจำนวนมากสำหรับการจัดการค่าใช้จ่ายจะขึ้นอยู่กับการตัดสินใจที่คุณได้ทำไว้เกี่ยวกับการเงินขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="eda38-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="eda38-115">ส่วนต่อไปนี้อธิบายถึงพื้นที่ต่าง ๆ ที่ต้องใช้การวางแผนและการตัดสินใจที่ขึ้นอยู่กับการตัดสินใจทางการเงินขององค์กรของคุณและคำแนะนำจากทีมงานผู้นำของคุณ</span><span class="sxs-lookup"><span data-stu-id="eda38-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>ค่าเบี้ยเลี้ยงต่อวัน
+### <a name="per-diems"></a><span data-ttu-id="eda38-116">ค่าเบี้ยเลี้ยงต่อวัน</span><span class="sxs-lookup"><span data-stu-id="eda38-116">Per diems</span></span>
 
-คุณต้องกำหนดค่าเบี้ยเลี้ยงต่อวันของพนักงานที่องค์กรของคุณมอบให้ เนื่องจากโดยทั่วไปใช้ค่าเบี้ยเลี้ยงต่อวันจะครอบคลุมค่าใช้จ่าย เช่นอาหาร ค่าที่พัก ค่าใช้จ่ายเบ็ดเตล็ดอื่น คุณสามารถสร้างกฎสำหรับค่าเบี้ยเลี้ยงต่อวันที่องค์กรของคุณเสนอให้ อัตราค่าเบี้ยเลี้ยงต่อวันสามารถขึ้นอยู่กับเวลาของปี สถานที่เดินทาง หรือทั้งสองอย่าง เมื่อคุณกำหนดกฎค่าเบี้ยเลี้ยงต่อวัน คุณสามารถระบุได้ว่าจะมีการหักเปอร์เซ็นต์ของอัตราค่าเบี้ยเลี้ยงต่อวันหากผู้ปฏิบัติงานได้รับประทานอาหารหรือได้รับบริการที่ไม่ต้องเสียค่าใช้จ่าย คุณยังสามารถกำหนดระดับอัตราค่าเบี้ยเลี้ยงต่อวันเพื่อตั้งค่าจำนวนต่ำสุดและสูงสุดของชั่วโมงที่สามารถใช้อัตราค่าเบี้ยเลี้ยงต่อวันในการเดินทางของผู้ปฏิบัติงาน **การตัดสินใจ:**
+<span data-ttu-id="eda38-117">คุณต้องกำหนดค่าเบี้ยเลี้ยงต่อวันของพนักงานที่องค์กรของคุณมอบให้</span><span class="sxs-lookup"><span data-stu-id="eda38-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="eda38-118">เนื่องจากโดยทั่วไปใช้ค่าเบี้ยเลี้ยงต่อวันจะครอบคลุมค่าใช้จ่าย เช่นอาหาร ค่าที่พัก ค่าใช้จ่ายเบ็ดเตล็ดอื่น คุณสามารถสร้างกฎสำหรับค่าเบี้ยเลี้ยงต่อวันที่องค์กรของคุณเสนอให้</span><span class="sxs-lookup"><span data-stu-id="eda38-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="eda38-119">อัตราค่าเบี้ยเลี้ยงต่อวันสามารถขึ้นอยู่กับเวลาของปี สถานที่เดินทาง หรือทั้งสองอย่าง</span><span class="sxs-lookup"><span data-stu-id="eda38-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="eda38-120">เมื่อคุณกำหนดกฎค่าเบี้ยเลี้ยงต่อวัน คุณสามารถระบุได้ว่าจะมีการหักเปอร์เซ็นต์ของอัตราค่าเบี้ยเลี้ยงต่อวันหากผู้ปฏิบัติงานได้รับประทานอาหารหรือได้รับบริการที่ไม่ต้องเสียค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="eda38-121">คุณยังสามารถกำหนดระดับอัตราค่าเบี้ยเลี้ยงต่อวันเพื่อตั้งค่าจำนวนต่ำสุดและสูงสุดของชั่วโมงที่สามารถใช้อัตราค่าเบี้ยเลี้ยงต่อวันในการเดินทางของผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="eda38-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="eda38-122">**การตัดสินใจ:**</span><span class="sxs-lookup"><span data-stu-id="eda38-122">**Decisions:**</span></span>
 
--   กฎค่าเบี้ยเลี้ยงต่อวันเริ่มต้นสำหรับวันแรกและวันสุดท้าย:
-    -   อะไรคือจำนวนชั่วโมงต่ำสุดที่พนักงานสามารถอ้างสิทธิ์สำหรับวันและยังคงได้รับยอดเงินประจำวันหรือไม่
-    -   มีการลดในยอดเงินที่เสนอไว้สำหรับค่าอาหารสำหรับวันแรกและวันสุดท้ายหรือไม่ ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์ของการลด
-    -   มีการลดในยอดเงินที่เสนอไว้สำหรับโรงแรมสำหรับวันแรกและวันสุดท้ายหรือไม่ ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์ของการลด
-    -   มีการลดในยอดเงินที่เสนอไว้สำหรับค่าใช้จ่ายอื่นๆที่เกิดขึ้นในวันแรกและวันสุดท้ายหรือไม่ ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์ของการลด
--   การสร้างกฎค่าเบี้ยเลี้ยงต่อวันเริ่มต้น
-    -   มีเปอร์เซ็นต์การปรับลดในค่าเบี้ยเลี้ยงต่อวันสำหรับแต่ละมื้ออาหาร ตัวอย่างเช่น ค่าอาหารฟรีหรือไม่ ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์การปรับลดสำหรับแต่ละมื้ออาหาร
-    -   มีการคำนวณการลดมื้ออาหารต่อวัน ต่อการเดินทาง หรือตามจำนวนมื้ออาหารต่อวันหรือไม่
-    -   ยอดเงินค่าเบี้ยเลี้ยงต่อวันควรปัดเศษปกติหรือปัดเศษขึ้นหรือไม่
-    -   การคำนวณค่าเบี้ยเลี้ยงต่อวันยึดตามรอบระยะเวลา 24 ชั่วโมงหรือหนึ่งวันปฏิทิน
--   กฎค่าเบี้ยเลี้ยงต่อวันขึ้นอยู่กับสถานที่:
-    -   อัตราค่าเบี้ยเลี้ยงต่อวันแตกต่างกันขึ้นอยู่กับสถานที่และสถานที่ใดถูกรวมบ้าง
-    -   ถ้าอัตราค่าเบี้ยเลี้ยงต่อวันแตกต่างกันไปขึ้นอยู่กับสถานที่ สำหรับแต่ละสถานที่ จำนวนเปอร์เซ็นต์ใดที่ระบุไว้สำหรับ:
-        -   มื้ออาหาร
-        -   โรงแรม
-        -   ค่าใช้จ่ายอื่นๆ
+-   <span data-ttu-id="eda38-123">กฎค่าเบี้ยเลี้ยงต่อวันเริ่มต้นสำหรับวันแรกและวันสุดท้าย:</span><span class="sxs-lookup"><span data-stu-id="eda38-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="eda38-124">อะไรคือจำนวนชั่วโมงต่ำสุดที่พนักงานสามารถอ้างสิทธิ์สำหรับวันและยังคงได้รับยอดเงินประจำวันหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="eda38-125">มีการลดในยอดเงินที่เสนอไว้สำหรับค่าอาหารสำหรับวันแรกและวันสุดท้ายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="eda38-126">ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์ของการลด</span><span class="sxs-lookup"><span data-stu-id="eda38-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="eda38-127">มีการลดในยอดเงินที่เสนอไว้สำหรับโรงแรมสำหรับวันแรกและวันสุดท้ายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="eda38-128">ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์ของการลด</span><span class="sxs-lookup"><span data-stu-id="eda38-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="eda38-129">มีการลดในยอดเงินที่เสนอไว้สำหรับค่าใช้จ่ายอื่นๆที่เกิดขึ้นในวันแรกและวันสุดท้ายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="eda38-130">ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์ของการลด</span><span class="sxs-lookup"><span data-stu-id="eda38-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="eda38-131">การสร้างกฎค่าเบี้ยเลี้ยงต่อวันเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eda38-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="eda38-132">มีเปอร์เซ็นต์การปรับลดในค่าเบี้ยเลี้ยงต่อวันสำหรับแต่ละมื้ออาหาร ตัวอย่างเช่น ค่าอาหารฟรีหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="eda38-133">ถ้าเป็นเช่นนั้นอะไรคือเปอร์เซ็นต์การปรับลดสำหรับแต่ละมื้ออาหาร</span><span class="sxs-lookup"><span data-stu-id="eda38-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="eda38-134">มีการคำนวณการลดมื้ออาหารต่อวัน ต่อการเดินทาง หรือตามจำนวนมื้ออาหารต่อวันหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="eda38-135">ยอดเงินค่าเบี้ยเลี้ยงต่อวันควรปัดเศษปกติหรือปัดเศษขึ้นหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="eda38-136">การคำนวณค่าเบี้ยเลี้ยงต่อวันยึดตามรอบระยะเวลา 24 ชั่วโมงหรือหนึ่งวันปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="eda38-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="eda38-137">กฎค่าเบี้ยเลี้ยงต่อวันขึ้นอยู่กับสถานที่:</span><span class="sxs-lookup"><span data-stu-id="eda38-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="eda38-138">อัตราค่าเบี้ยเลี้ยงต่อวันแตกต่างกันขึ้นอยู่กับสถานที่และสถานที่ใดถูกรวมบ้าง</span><span class="sxs-lookup"><span data-stu-id="eda38-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="eda38-139">ถ้าอัตราค่าเบี้ยเลี้ยงต่อวันแตกต่างกันไปขึ้นอยู่กับสถานที่ สำหรับแต่ละสถานที่ จำนวนเปอร์เซ็นต์ใดที่ระบุไว้สำหรับ:</span><span class="sxs-lookup"><span data-stu-id="eda38-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="eda38-140">มื้ออาหาร</span><span class="sxs-lookup"><span data-stu-id="eda38-140">meals</span></span>
+        -   <span data-ttu-id="eda38-141">โรงแรม</span><span class="sxs-lookup"><span data-stu-id="eda38-141">hotel</span></span>
+        -   <span data-ttu-id="eda38-142">ค่าใช้จ่ายอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="eda38-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>สมุดรายวันการจัดการค่าใช้จ่ายและบัญชี
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="eda38-143">สมุดรายวันการจัดการค่าใช้จ่ายและบัญชี</span><span class="sxs-lookup"><span data-stu-id="eda38-143">Expense management journals and accounts</span></span>
 
-การจัดการค่าใช้จ่ายต้องการให้คุณใช้สมุดรายวันและบัญชีหลายเล่ม คุณต้องตัดสินใจ ตัวอย่างเช่น ว่าจะใช้บัญชีเดียวกันสำหรับเงินทดรองจ่ายและข้อโต้แย้งเกี่ยวกับบัตรเครดิต **การตัดสินใจ:**
+<span data-ttu-id="eda38-144">การจัดการค่าใช้จ่ายต้องการให้คุณใช้สมุดรายวันและบัญชีหลายเล่ม</span><span class="sxs-lookup"><span data-stu-id="eda38-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="eda38-145">คุณต้องตัดสินใจ ตัวอย่างเช่น ว่าจะใช้บัญชีเดียวกันสำหรับเงินทดรองจ่ายและข้อโต้แย้งเกี่ยวกับบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="eda38-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="eda38-146">**การตัดสินใจ:**</span><span class="sxs-lookup"><span data-stu-id="eda38-146">**Decisions:**</span></span>
 
--   สมุดรายวันบัญชีแยกประเภทใดที่จะลงรายการบัญชีรายงานค่าใช้จ่ายที่ได้รับการอนุมัติ
--   บัญชีใดที่จะใช้สำหรับเงินทดรองจ่าย
--   ควรจะมีการลงรายการบัญชีเงินทดรองจ่ายทันทีหรือไม่
+-   <span data-ttu-id="eda38-147">สมุดรายวันบัญชีแยกประเภทใดที่จะลงรายการบัญชีรายงานค่าใช้จ่ายที่ได้รับการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="eda38-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="eda38-148">บัญชีใดที่จะใช้สำหรับเงินทดรองจ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="eda38-149">ควรจะมีการลงรายการบัญชีเงินทดรองจ่ายทันทีหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>วิธีการชำระเงิน
+### <a name="payment-methods"></a><span data-ttu-id="eda38-150">วิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="eda38-150">Payment methods</span></span>
 
-เมื่อคุณอนุญาตให้พนักงานทำให้เกิดค่าใช้จ่ายในนามของธุรกิจของคุณ คุณต้องกำหนดวิธีการชำระเงินที่พนักงานได้รับอนุญาตให้ใช้ ตัวอย่างเช่น คุณอาจอนุญาตให้พนักงานใช้เงินสดหรือบัตรเครดิตของบริษัท คุณอาจยังอนุญาตให้พนักงานใช้บัตรเครดิตส่วนบุคคล จากนั้นจ่ายคืนพนักงาน คุณต้องทำการตัดสินใจต่าง ๆ ต่อไปนี้สำหรับแต่ละวิธีการชำระเงินที่คุณอนุญาต **การตัดสินใจ:**
+<span data-ttu-id="eda38-151">เมื่อคุณอนุญาตให้พนักงานทำให้เกิดค่าใช้จ่ายในนามของธุรกิจของคุณ คุณต้องกำหนดวิธีการชำระเงินที่พนักงานได้รับอนุญาตให้ใช้</span><span class="sxs-lookup"><span data-stu-id="eda38-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="eda38-152">ตัวอย่างเช่น คุณอาจอนุญาตให้พนักงานใช้เงินสดหรือบัตรเครดิตของบริษัท</span><span class="sxs-lookup"><span data-stu-id="eda38-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="eda38-153">คุณอาจยังอนุญาตให้พนักงานใช้บัตรเครดิตส่วนบุคคล จากนั้นจ่ายคืนพนักงาน</span><span class="sxs-lookup"><span data-stu-id="eda38-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="eda38-154">คุณต้องทำการตัดสินใจต่าง ๆ ต่อไปนี้สำหรับแต่ละวิธีการชำระเงินที่คุณอนุญาต</span><span class="sxs-lookup"><span data-stu-id="eda38-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="eda38-155">**การตัดสินใจ:**</span><span class="sxs-lookup"><span data-stu-id="eda38-155">**Decisions:**</span></span>
 
--   วิธีการชำระเงินใดที่อนุญาต
--   ใครเป็นเจ้าของค่าใช้จ่ายวิธีการชำระเงิน
--   มีชนิดบัญชีตรงข้ามหรือไม่ ถ้าเป็นเช่นนั้น คืออะไร
--   ถ้ามีบัญชีตรงข้าม บัญนั้นชีคืออะไร
--   ถ้าวิธีการชำระเงินเป็นบัตรเครดิต วิธีการชำระเงินควรใช้เฉพาะกับธุรกรรมที่นำเข้าหรือไม่
+-   <span data-ttu-id="eda38-156">วิธีการชำระเงินใดที่อนุญาต</span><span class="sxs-lookup"><span data-stu-id="eda38-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="eda38-157">ใครเป็นเจ้าของค่าใช้จ่ายวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="eda38-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="eda38-158">มีชนิดบัญชีตรงข้ามหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-158">Is there an offset account type?</span></span> <span data-ttu-id="eda38-159">ถ้าเป็นเช่นนั้น คืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-159">If so, what is it?</span></span>
+-   <span data-ttu-id="eda38-160">ถ้ามีบัญชีตรงข้าม บัญนั้นชีคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="eda38-161">ถ้าวิธีการชำระเงินเป็นบัตรเครดิต วิธีการชำระเงินควรใช้เฉพาะกับธุรกรรมที่นำเข้าหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>ประเภทค่าใช้จ่ายและประเภทที่ใช้ร่วมกัน
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="eda38-162">ประเภทค่าใช้จ่ายและประเภทที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="eda38-162">Expense categories and shared categories</span></span>
 
-เมื่อพนักงานสร้างรายงานค่าใช้จ่าย แต่ละค่าใช้จ่ายที่พวกเขาบันทึกจะต้องเชื่อมโยงกับประเภทค่าใช้จ่าย ประเภทค่าใช้จ่ายจะสืบทอดมาจากประเภทที่ใช้ร่วมกันซึ่งสามารถใช้ร่วมกันระหว่างนิติบุคคลภายในองค์กรของคุณ ประเภทเหล่านี้ยังสามารถใช้ร่วมกันในการจัดการโครงการและการบัญชี ขึ้นอยู่กับวิธีการกำหนดโดยองค์กรของคุณ ขึ้นอยู่กับวิธีคำนิยามขององค์กรของคุณและคำแนะนำจากทีมงาน จะกำหนดว่าประเภทที่ใช้ในการจัดการค่าใช้จ่ายจะใช้ในค่าใช้จ่ายเท่านั้นหรือถ้าพวกเขาควรใช้ร่วมกันระหว่างโครงการและค่าใช้จ่าย โปรดทราบว่าประเภทเหล่านี้สามารถใช้ร่วมกันระหว่างโครงการและค่าใช้จ่ายหรือโครงการและการผลิต แต่ไม่ได้ระหว่างค่าใช้จ่ายและการผลิต คุณต้องทำการตัดสินใจต่าง ๆ ต่อไปนี้สำหรับแต่ละประเภทค่าใช้จ่าย **การตัดสินใจ:**
+<span data-ttu-id="eda38-163">เมื่อพนักงานสร้างรายงานค่าใช้จ่าย แต่ละค่าใช้จ่ายที่พวกเขาบันทึกจะต้องเชื่อมโยงกับประเภทค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="eda38-164">ประเภทค่าใช้จ่ายจะสืบทอดมาจากประเภทที่ใช้ร่วมกันซึ่งสามารถใช้ร่วมกันระหว่างนิติบุคคลภายในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="eda38-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="eda38-165">ประเภทเหล่านี้ยังสามารถใช้ร่วมกันในการจัดการโครงการและการบัญชี ขึ้นอยู่กับวิธีการกำหนดโดยองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="eda38-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="eda38-166">ขึ้นอยู่กับวิธีคำนิยามขององค์กรของคุณและคำแนะนำจากทีมงาน จะกำหนดว่าประเภทที่ใช้ในการจัดการค่าใช้จ่ายจะใช้ในค่าใช้จ่ายเท่านั้นหรือถ้าพวกเขาควรใช้ร่วมกันระหว่างโครงการและค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="eda38-167">โปรดทราบว่าประเภทเหล่านี้สามารถใช้ร่วมกันระหว่างโครงการและค่าใช้จ่ายหรือโครงการและการผลิต แต่ไม่ได้ระหว่างค่าใช้จ่ายและการผลิต</span><span class="sxs-lookup"><span data-stu-id="eda38-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="eda38-168">คุณต้องทำการตัดสินใจต่าง ๆ ต่อไปนี้สำหรับแต่ละประเภทค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="eda38-169">**การตัดสินใจ:**</span><span class="sxs-lookup"><span data-stu-id="eda38-169">**Decisions:**</span></span>
 
--   ประเภทของค่าใช้จ่ายคืออะไร ตัวอย่างเช่น เที่ยวบิน โรงแรม หรือระยะไมล์
--   ประเภทของค่าใช้จ่ายนี้สามารถใช้ในการจัดการและการบัญชีโครงการได้หรือไม่
--   ชนิดของค่าใช้จ่ายคืออะไร
--   วิธีการชำระเงินเริ่มต้นสำหรับประเภทค่าใช้จ่ายคืออะไร
--   มีค่าใช้จ่ายในประเภทนี้จำเป็นต้องแสดงรายการหรือไม่
--   บัญชีเริ่มต้นหลักสำหรับประเภทค่าใช้จ่ายคืออะไร
--   กลุ่มภาษีขายตามประเภทสินค้าเริ่มต้นสำหรับประเภทค่าใช้จ่ายคืออะไร
--   มีการอนุญาตให้ใช้วิธีการชำระเงินเพิ่มเติมสำหรับประเภทค่าใช้จ่ายหรือไม่ ถ้าเป็นเช่นนั้น มีอะไรบ้าง
--   มีประเภทย่อยภายในประเภทค่าใช้จ่ายนี้หรือไม่ ถ้าเป็นเช่นนั้น:
-    -   มีประเภทย่อยใดที่ถูกแยกออกจากการขอคืนภาษีหรือไม่
-    -   กลุ่มภาษีขายตามประเภทสินค้าของประเภทย่อยคืออะไร
+-   <span data-ttu-id="eda38-170">ประเภทของค่าใช้จ่ายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-170">What is the expense category?</span></span> <span data-ttu-id="eda38-171">ตัวอย่างเช่น เที่ยวบิน โรงแรม หรือระยะไมล์</span><span class="sxs-lookup"><span data-stu-id="eda38-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="eda38-172">ประเภทของค่าใช้จ่ายนี้สามารถใช้ในการจัดการและการบัญชีโครงการได้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="eda38-173">ชนิดของค่าใช้จ่ายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-173">What is the expense type?</span></span>
+-   <span data-ttu-id="eda38-174">วิธีการชำระเงินเริ่มต้นสำหรับประเภทค่าใช้จ่ายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="eda38-175">มีค่าใช้จ่ายในประเภทนี้จำเป็นต้องแสดงรายการหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="eda38-176">บัญชีเริ่มต้นหลักสำหรับประเภทค่าใช้จ่ายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="eda38-177">กลุ่มภาษีขายตามประเภทสินค้าเริ่มต้นสำหรับประเภทค่าใช้จ่ายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="eda38-178">มีการอนุญาตให้ใช้วิธีการชำระเงินเพิ่มเติมสำหรับประเภทค่าใช้จ่ายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="eda38-179">ถ้าเป็นเช่นนั้น มีอะไรบ้าง</span><span class="sxs-lookup"><span data-stu-id="eda38-179">If so, what are they?</span></span>
+-   <span data-ttu-id="eda38-180">มีประเภทย่อยภายในประเภทค่าใช้จ่ายนี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="eda38-181">ถ้าเป็นเช่นนั้น:</span><span class="sxs-lookup"><span data-stu-id="eda38-181">If so:</span></span>
+    -   <span data-ttu-id="eda38-182">มีประเภทย่อยใดที่ถูกแยกออกจากการขอคืนภาษีหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="eda38-183">กลุ่มภาษีขายตามประเภทสินค้าของประเภทย่อยคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-183">What is the item sales tax group of the subcategories?</span></span>
 
-    ถ้ามีใช้ประเภทค่าใช้จ่ายนี้ในการจัดการและการบัญชีโครงการ ให้ตอบคำถามที่เหลือ มิฉะนั้น คุณเสร็จสิ้นแล้วกับส่วนนี้
--   บัญชีต้นทุนใดจะใช้สำหรับต่อไปนี้?
-    -   ต้นทุน
-    -   การปันส่วนค่าจ้าง
-    -   WIP - มูลค่าต้นทุน
-    -   ต้นทุน - สินค้า
-    -   WIP - มูลค่าต้นทุน - สินค้า
-    -   ขาดทุนสะสม
-    -   WIP - ขาดทุนสะสม
--   บัญชีรายได้ใดจะใช้สำหรับต่อไปนี้?
-    -   รายได้ที่ออกใบแจ้งหนี้
-    -   รายได้ค้างรับ - ยอดขาย
-    -   WIP - มูลค่าการขาย
-    -   รายได้ค้างรับ - การผลิต
-    -   WIP - การผลิต
-    -   รายได้ค้างรับ - กำไร
-    -   WIP - กำไร
-    -   รายได้ค้างรับ - การบอกรับเป็นสมาชิก
-    -   WIP - การบอกรับเป็นสมาชิก
+    <span data-ttu-id="eda38-184">ถ้ามีใช้ประเภทค่าใช้จ่ายนี้ในการจัดการและการบัญชีโครงการ ให้ตอบคำถามที่เหลือ</span><span class="sxs-lookup"><span data-stu-id="eda38-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="eda38-185">มิฉะนั้น คุณเสร็จสิ้นแล้วกับส่วนนี้</span><span class="sxs-lookup"><span data-stu-id="eda38-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="eda38-186">บัญชีต้นทุนใดจะใช้สำหรับต่อไปนี้?</span><span class="sxs-lookup"><span data-stu-id="eda38-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="eda38-187">ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="eda38-187">Cost</span></span>
+    -   <span data-ttu-id="eda38-188">การปันส่วนค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="eda38-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="eda38-189">WIP - มูลค่าต้นทุน</span><span class="sxs-lookup"><span data-stu-id="eda38-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="eda38-190">ต้นทุน - สินค้า</span><span class="sxs-lookup"><span data-stu-id="eda38-190">Cost-item</span></span>
+    -   <span data-ttu-id="eda38-191">WIP - มูลค่าต้นทุน - สินค้า</span><span class="sxs-lookup"><span data-stu-id="eda38-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="eda38-192">ขาดทุนสะสม</span><span class="sxs-lookup"><span data-stu-id="eda38-192">Accrued loss</span></span>
+    -   <span data-ttu-id="eda38-193">WIP - ขาดทุนสะสม</span><span class="sxs-lookup"><span data-stu-id="eda38-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="eda38-194">บัญชีรายได้ใดจะใช้สำหรับต่อไปนี้?</span><span class="sxs-lookup"><span data-stu-id="eda38-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="eda38-195">รายได้ที่ออกใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="eda38-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="eda38-196">รายได้ค้างรับ - ยอดขาย</span><span class="sxs-lookup"><span data-stu-id="eda38-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="eda38-197">WIP - มูลค่าการขาย</span><span class="sxs-lookup"><span data-stu-id="eda38-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="eda38-198">รายได้ค้างรับ - การผลิต</span><span class="sxs-lookup"><span data-stu-id="eda38-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="eda38-199">WIP - การผลิต</span><span class="sxs-lookup"><span data-stu-id="eda38-199">WIP-production</span></span>
+    -   <span data-ttu-id="eda38-200">รายได้ค้างรับ - กำไร</span><span class="sxs-lookup"><span data-stu-id="eda38-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="eda38-201">WIP - กำไร</span><span class="sxs-lookup"><span data-stu-id="eda38-201">WIP-profit</span></span>
+    -   <span data-ttu-id="eda38-202">รายได้ค้างรับ - การบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="eda38-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="eda38-203">WIP - การบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="eda38-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>ภาษี
+### <a name="taxes"></a><span data-ttu-id="eda38-204">ภาษี</span><span class="sxs-lookup"><span data-stu-id="eda38-204">Taxes</span></span>
 
-สำหรับค่าใช้จ่ายที่เกี่ยวข้องกับภาษี คุณต้องกำหนดสิ่งที่จะรวมหรือเปิดใช้งานในรายงานค่าใช้จ่าย **การตัดสินใจ:**
+<span data-ttu-id="eda38-205">สำหรับค่าใช้จ่ายที่เกี่ยวข้องกับภาษี คุณต้องกำหนดสิ่งที่จะรวมหรือเปิดใช้งานในรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="eda38-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="eda38-206">**การตัดสินใจ:**</span><span class="sxs-lookup"><span data-stu-id="eda38-206">**Decisions:**</span></span>
 
--   ภาษีขายจะรวมอยู่ในจำนวนค่าใช้จ่ายหรือไม่
--   การขอคืนภาษีควรจะเปิดใช้งานในค่าใช้จ่ายหรือไม่
+-   <span data-ttu-id="eda38-207">ภาษีขายจะรวมอยู่ในจำนวนค่าใช้จ่ายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="eda38-208">การขอคืนภาษีควรจะเปิดใช้งานในค่าใช้จ่ายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="eda38-208">Should tax recovery be enabled on expenses?</span></span>
 
-หมายเหตุว่าถ้า ในระหว่างการวางแผนของบัญชีแยกประเภททั่วไป คุณตัดสินใจที่จะใช้ภาษีขายของสหรัฐอเมริกาและใช้กฎภาษี ซึ่งทำได้โดยการสลับฟิลด์ **ใช้กฎภาษีภาษีขาย** เป็นใช่ คุณจะไม่สามารถเปิดใช้งานการขอคืนภาษีบนค่าใช้จ่ายได้
+<span data-ttu-id="eda38-209">หมายเหตุว่าถ้า ในระหว่างการวางแผนของบัญชีแยกประเภททั่วไป คุณตัดสินใจที่จะใช้ภาษีขายของสหรัฐอเมริกาและใช้กฎภาษี ซึ่งทำได้โดยการสลับฟิลด์ **ใช้กฎภาษีภาษีขาย** เป็นใช่ คุณจะไม่สามารถเปิดใช้งานการขอคืนภาษีบนค่าใช้จ่ายได้</span><span class="sxs-lookup"><span data-stu-id="eda38-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>นโยบาย
-คุณสามารถสร้างนโยบายรายงานค่าใช้จ่ายเพื่อให้องค์กรของคุณสามารถประหยัดเวลาและเงินเมื่อพนักงานทำให้เกิดค่าใช้จ่ายในนาม นโยบายตรวจสอบให้แน่ใจว่าพนักงานยังอยู่ในงบประมาณ ให้ข้อมูลที่จำเป็นทั้งหมด และใช้จ่ายเงินตามความจำเป็นเท่านั้น คุณต้องทำการตัดสินใจต่าง ๆ ต่อไปนี้สำหรับแต่ละนโยบายรายงานค่าใช้จ่ายและแต่ละนโยบายการอนุมัติรายงานค่าใช้จ่ายที่คุณสร้างขึ้น **การตัดสินใจ:**
+## <a name="policies"></a><span data-ttu-id="eda38-210">นโยบาย</span><span class="sxs-lookup"><span data-stu-id="eda38-210">Policies</span></span>
+<span data-ttu-id="eda38-211">คุณสามารถสร้างนโยบายรายงานค่าใช้จ่ายเพื่อให้องค์กรของคุณสามารถประหยัดเวลาและเงินเมื่อพนักงานทำให้เกิดค่าใช้จ่ายในนาม</span><span class="sxs-lookup"><span data-stu-id="eda38-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="eda38-212">นโยบายตรวจสอบให้แน่ใจว่าพนักงานยังอยู่ในงบประมาณ ให้ข้อมูลที่จำเป็นทั้งหมด และใช้จ่ายเงินตามความจำเป็นเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="eda38-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="eda38-213">คุณต้องทำการตัดสินใจต่าง ๆ ต่อไปนี้สำหรับแต่ละนโยบายรายงานค่าใช้จ่ายและแต่ละนโยบายการอนุมัติรายงานค่าใช้จ่ายที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="eda38-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="eda38-214">**การตัดสินใจ:**</span><span class="sxs-lookup"><span data-stu-id="eda38-214">**Decisions:**</span></span>
 
--   ชื่อของนโยบายคืออะไร
--   นโยบายค่าใช้จ่ายสำหรับอะไร
--   ถ้าคุณเคยตัดสินใจที่จะเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท บริษัทใดในองค์กรของคุณที่จะใช้นโยบายนี้
--   เมื่อใดนโยบายจะมีผลบังคับใช้
--   เมื่อใดโยบายจะหมดอายุ
--   กฎนโยบายคืออะไร
--   ผลลัพธ์ของกฎนโยบายคืออะไร
+-   <span data-ttu-id="eda38-215">ชื่อของนโยบายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="eda38-216">นโยบายค่าใช้จ่ายสำหรับอะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="eda38-217">ถ้าคุณเคยตัดสินใจที่จะเปิดใช้งานค่าใช้จ่ายระหว่างบริษัท บริษัทใดในองค์กรของคุณที่จะใช้นโยบายนี้</span><span class="sxs-lookup"><span data-stu-id="eda38-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="eda38-218">เมื่อใดนโยบายจะมีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="eda38-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="eda38-219">เมื่อใดโยบายจะหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="eda38-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="eda38-220">กฎนโยบายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="eda38-221">ผลลัพธ์ของกฎนโยบายคืออะไร</span><span class="sxs-lookup"><span data-stu-id="eda38-221">What is the outcome of the policy rule?</span></span>
 
 
 

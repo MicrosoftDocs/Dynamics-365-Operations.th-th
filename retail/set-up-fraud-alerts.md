@@ -19,28 +19,28 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 09d80015298c3d0219b6ffb290dc456990536a62
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง
+# <a name="set-up-fraud-alerts"></a><span data-ttu-id="ea6c9-104">ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง</span><span class="sxs-lookup"><span data-stu-id="ea6c9-104">Set up fraud alerts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการตั้งค่ากฎเพื่อแจ้งเตือนพนักงานฝ่ายบริการลูกค้าถึงข้อมูลการฉ้อโกงที่อาจเป็นไปได้เมื่อมีการดำเนินการกับใบสั่ง  คุณสามารถกำหนดรหัสเฉพาะเพื่อใช้ระงับใบสั่งที่น่าสงสัยโดยอัตโนมัติ หรือด้วยตนเอง 
+<span data-ttu-id="ea6c9-105">หัวข้อนี้อธิบายวิธีการตั้งค่ากฎเพื่อแจ้งเตือนพนักงานฝ่ายบริการลูกค้าถึงข้อมูลการฉ้อโกงที่อาจเป็นไปได้เมื่อมีการดำเนินการกับใบสั่ง </span><span class="sxs-lookup"><span data-stu-id="ea6c9-105">This topic explains how to set up rules to alert customer service representatives of potentially fraudulent information when orders are processed.</span></span> <span data-ttu-id="ea6c9-106">คุณสามารถกำหนดรหัสเฉพาะเพื่อใช้ระงับใบสั่งที่น่าสงสัยโดยอัตโนมัติ หรือด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="ea6c9-106">You can define specific codes to use to automatically or manually put suspicious orders on hold.</span></span> 
 
-ก่อนคุณจะตั้งค่าและใช้กฎการตรวจสอบการฉ้อโกง คุณต้องเปิดใช้งานการตรวจสอบการฉ้อโกง และกำหนดค่าการตรวจสอบการฉ้อโกงพื้นฐานในพารามิเตอร์ศูนย์บริการ  กฎการฉ้อโกงมีอยู่สองชนิด
+<span data-ttu-id="ea6c9-107">ก่อนคุณจะตั้งค่าและใช้กฎการตรวจสอบการฉ้อโกง คุณต้องเปิดใช้งานการตรวจสอบการฉ้อโกง และกำหนดค่าการตรวจสอบการฉ้อโกงพื้นฐานในพารามิเตอร์ศูนย์บริการ </span><span class="sxs-lookup"><span data-stu-id="ea6c9-107">Before you set up and use fraud checking rules, you must enable fraud checking and define the basic fraud checking values in the call center parameters.</span></span> <span data-ttu-id="ea6c9-108">กฎการฉ้อโกงมีอยู่สองชนิด</span><span class="sxs-lookup"><span data-stu-id="ea6c9-108">There are two types of fraud rules:</span></span>
 
--   **กฎแบบคงที่** ใช้ค่าเฉพาะ เช่น หมายเลขโทรศัพท์ที่ถูกลงรายชื่อบัญชีดำ
--   **กฎแบบไดนามิก** สามารถประกอบด้วยตัวแปรและเงื่อนไขได้
+-   <span data-ttu-id="ea6c9-109">**กฎแบบคงที่** ใช้ค่าเฉพาะ เช่น หมายเลขโทรศัพท์ที่ถูกลงรายชื่อบัญชีดำ</span><span class="sxs-lookup"><span data-stu-id="ea6c9-109">**Static rules** use a specific value, such as a phone number that has been blacklisted.</span></span>
+-   <span data-ttu-id="ea6c9-110">**กฎแบบไดนามิก** สามารถประกอบด้วยตัวแปรและเงื่อนไขได้</span><span class="sxs-lookup"><span data-stu-id="ea6c9-110">**Dynamic rules** can be composed from variables and conditions.</span></span>
 
-ก่อนคุณสร้างกฎแบบไดนามิก คุณต้องสร้างตัวแปรและเงื่อนไขที่กำหนดว่ากฎจะใช้กับใคร และเมื่อใดที่กฎควรถูกนำมาใช้ ตัวอย่างเช่น คุณต้องการสร้างกฎเพื่อกำหนดว่า ใบสั่งขายใด ๆ ที่ลูกค้า 1202 วางไว้ ที่มีค่า 1, 000.00 หรือมากกว่า จะถูกระงับไว้จนกระทั่งการชำระเงินของลูกค้าสามารถถูกตรวจสอบได้ ในกรณีนี้ ตัวแปรคือ ลูกค้า 1202 และยอดรวมใบสั่ง 1,000.00 เงื่อนไขระบุว่าถ้าลูกค้า 1202 วางใบสั่ง และยอดรวมของใบสั่งเท่ากับหรือมากกว่า 1,000.00 ใบสั่งขายต้องถูกระงับจนกระทั่งการชำระเงินของลูกค้าสามารถถูกตรวจสอบได้
+<span data-ttu-id="ea6c9-111">ก่อนคุณสร้างกฎแบบไดนามิก คุณต้องสร้างตัวแปรและเงื่อนไขที่กำหนดว่ากฎจะใช้กับใคร และเมื่อใดที่กฎควรถูกนำมาใช้</span><span class="sxs-lookup"><span data-stu-id="ea6c9-111">Before you create a dynamic rule, you must create the variables and conditions that define who the rule applies to and when the rule should be applied.</span></span> <span data-ttu-id="ea6c9-112">ตัวอย่างเช่น คุณต้องการสร้างกฎเพื่อกำหนดว่า ใบสั่งขายใด ๆ ที่ลูกค้า 1202 วางไว้ ที่มีค่า 1, 000.00 หรือมากกว่า จะถูกระงับไว้จนกระทั่งการชำระเงินของลูกค้าสามารถถูกตรวจสอบได้</span><span class="sxs-lookup"><span data-stu-id="ea6c9-112">For example, you want to create a rule to require that any sales order that customer 1202 places that is worth 1,000.00 or more be put on hold until the customer payment can be verified.</span></span> <span data-ttu-id="ea6c9-113">ในกรณีนี้ ตัวแปรคือ ลูกค้า 1202 และยอดรวมใบสั่ง 1,000.00</span><span class="sxs-lookup"><span data-stu-id="ea6c9-113">In this case, the variables are customer 1202 and an order total of 1,000.00.</span></span> <span data-ttu-id="ea6c9-114">เงื่อนไขระบุว่าถ้าลูกค้า 1202 วางใบสั่ง และยอดรวมของใบสั่งเท่ากับหรือมากกว่า 1,000.00 ใบสั่งขายต้องถูกระงับจนกระทั่งการชำระเงินของลูกค้าสามารถถูกตรวจสอบได้</span><span class="sxs-lookup"><span data-stu-id="ea6c9-114">The condition specifies that if customer 1202 places an order, and the total amount of the order is equal to or more than 1,000.00, the sales order must be put on hold until the customer payment can be verified.</span></span>
 
 
 

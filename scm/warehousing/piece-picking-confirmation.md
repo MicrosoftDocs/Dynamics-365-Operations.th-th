@@ -14,39 +14,39 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: c5340f4dacd743600ef955c8d5228d1e2d2d2fa9
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 62b637b81a522c353067248deea79cfbf98518e9
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="piece-picking-confirmation"></a>การยืนยันการเบิกสินค้าเป็นรายชิ้น
+# <a name="piece-picking-confirmation"></a><span data-ttu-id="29ce3-103">การยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="29ce3-103">Piece picking confirmation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-การเบิกสินค้าเป็นรายชิ้นช่วยให้คุณยืนยันสินค้าคงคลังแต่ละชิ้นโดยใช้การเบิกสินค้าหรืองานการตรวจนับบนอุปกรณ์เคลื่อนที่ สำหรับการเบิกสินค้า คุณสามารถยืนยันปริมาณของงานที่จะประมวลผลเท่ากับปริมาณที่ระบุในงานที่จะเบิกสินค้า สำหรับงานการตรวจนับ คุณสามารถสแกนสินค้าคงคลังที่คุณกำลังทำการตรวจนับและติดตามยอดเงินรวม
+<span data-ttu-id="29ce3-104">การเบิกสินค้าเป็นรายชิ้นช่วยให้คุณยืนยันสินค้าคงคลังแต่ละชิ้นโดยใช้การเบิกสินค้าหรืองานการตรวจนับบนอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="29ce3-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="29ce3-105">สำหรับการเบิกสินค้า คุณสามารถยืนยันปริมาณของงานที่จะประมวลผลเท่ากับปริมาณที่ระบุในงานที่จะเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="29ce3-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="29ce3-106">สำหรับงานการตรวจนับ คุณสามารถสแกนสินค้าคงคลังที่คุณกำลังทำการตรวจนับและติดตามยอดเงินรวม</span><span class="sxs-lookup"><span data-stu-id="29ce3-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
-เมื่อคุณเปิดใช้งานการเบิกสินค้าเป็นรายชิ้น จะมีการเลือการยืนยันผลิตภัณฑ์โดยอัตโนมัติ สำหรับการเบิกสินค้าตามชนิดงาน จะเปิดใช้งานหมายเลขสูงสุดของสินค้าชิ้นนั้น ซึ่งช่วยให้คุณสามารถตั้งค่าจำนวนสูงสุดเป็นจำนวนชิ้นที่ต้องได้รับการยืนยันในระหว่างกระบวนการงาน ปริมาณสูงสุดจะขึ้นอยู่กับหน่วยงานปัจจุบันที่กำลังประมวลผลอยู่ ชนิดของงานการตรวจนับไม่อนุญาตให้มีการค่าสูงสุด
+<span data-ttu-id="29ce3-107">เมื่อคุณเปิดใช้งานการเบิกสินค้าเป็นรายชิ้น จะมีการเลือการยืนยันผลิตภัณฑ์โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="29ce3-107">When you enable piece picking, product confirmation is automatically selected.</span></span> <span data-ttu-id="29ce3-108">สำหรับการเบิกสินค้าตามชนิดงาน จะเปิดใช้งานหมายเลขสูงสุดของสินค้าชิ้นนั้น</span><span class="sxs-lookup"><span data-stu-id="29ce3-108">For work-type picks, a maximum number of pieces is enabled.</span></span> <span data-ttu-id="29ce3-109">ซึ่งช่วยให้คุณสามารถตั้งค่าจำนวนสูงสุดเป็นจำนวนชิ้นที่ต้องได้รับการยืนยันในระหว่างกระบวนการงาน</span><span class="sxs-lookup"><span data-stu-id="29ce3-109">This allows you to set a maximum to the number of pieces that must be confirmed during the work process.</span></span> <span data-ttu-id="29ce3-110">ปริมาณสูงสุดจะขึ้นอยู่กับหน่วยงานปัจจุบันที่กำลังประมวลผลอยู่</span><span class="sxs-lookup"><span data-stu-id="29ce3-110">The maximum quantity is based on the current work unit that is being processed.</span></span> <span data-ttu-id="29ce3-111">ชนิดของงานการตรวจนับไม่อนุญาตให้มีการค่าสูงสุด</span><span class="sxs-lookup"><span data-stu-id="29ce3-111">The counting work type does not allow a maximum.</span></span>
 
-คุณยังสามารถใช้ปริมาณและหน่วยวัด (UOM) ที่เชื่อมโยงกับสแกนบาร์โค้ดได้ ซึ่งจะทำงานสำหรับการรับสินค้ากระแสในขั้นตอนขาเข้า รวมทั้งการรับการรับป้ายทะเบียนแบบผสม สินค้าในใบสั่งซื้อ สินค้าในใบสั่งโอนย้าย และสินค้าของจำนวนงานในศูนย์การผลิต ซึ่งทำงานสำหรับการเบิกชิ้นเป็นรายชิ้นที่สแกนบาร์โค้ดจะเพิ่มปริมาณไปยังจำนวนรวมของชิ้นส่วนที่มีการแปลงหน่วยระหว่างหน่วยวัดบนบาร์โค้ดและหน่วยงาน ถ้าเมื่อตรวจนับหน่วยวัดบนบาร์โคด จะยืนยันได้ว่าปริมาณที่อนุญาตสำหรับการตรวจนับในกลุ่มลำดับ ปริมาณจะถูกเพิ่มเข้าไปกับจำนวนรวม
+<span data-ttu-id="29ce3-112">คุณยังสามารถใช้ปริมาณและหน่วยวัด (UOM) ที่เชื่อมโยงกับสแกนบาร์โค้ดได้</span><span class="sxs-lookup"><span data-stu-id="29ce3-112">You can also use the quantity and unit of measure (UOM) that is associated with a scanned bar code.</span></span> <span data-ttu-id="29ce3-113">ซึ่งจะทำงานสำหรับการรับสินค้ากระแสในขั้นตอนขาเข้า รวมทั้งการรับการรับป้ายทะเบียนแบบผสม สินค้าในใบสั่งซื้อ สินค้าในใบสั่งโอนย้าย และสินค้าของจำนวนงานในศูนย์การผลิต</span><span class="sxs-lookup"><span data-stu-id="29ce3-113">This will work for receiving on inbound flows including mixed license plate receiving, purchase order item, transfer order item, and load item.</span></span> <span data-ttu-id="29ce3-114">ซึ่งทำงานสำหรับการเบิกชิ้นเป็นรายชิ้นที่สแกนบาร์โค้ดจะเพิ่มปริมาณไปยังจำนวนรวมของชิ้นส่วนที่มีการแปลงหน่วยระหว่างหน่วยวัดบนบาร์โค้ดและหน่วยงาน</span><span class="sxs-lookup"><span data-stu-id="29ce3-114">It also works for piece picking where scanning the bar code will add the quantity to the total number of confirmed pieces converting between the UOM on the bar code and the work unit.</span></span> <span data-ttu-id="29ce3-115">ถ้าเมื่อตรวจนับหน่วยวัดบนบาร์โคด จะยืนยันได้ว่าปริมาณที่อนุญาตสำหรับการตรวจนับในกลุ่มลำดับ ปริมาณจะถูกเพิ่มเข้าไปกับจำนวนรวม</span><span class="sxs-lookup"><span data-stu-id="29ce3-115">If, when counting the UOM on the bar code, it is confirmed that the quantity is allowed for counting on the sequence group, the quantity will be added to the total count.</span></span>
 
-## <a name="where-it-applies"></a>ตำแหน่งที่ใช้
+## <a name="where-it-applies"></a><span data-ttu-id="29ce3-116">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="29ce3-116">Where it applies</span></span>
 
-งานการเบิกสินค้าเป็นรายชิ้นสำหรับงานการตรวจนับทั้งหมด และสำหรับการเบิกสินค้าเริ่มต้นสำหรับงานชนิดใดก็ได้ จะไม่สามารถใช้การเบิกสินค้าเป็นรายชิ้น ถ้าสินค้าถูกควบคุมโดยเรียงตามหมายเลขลำดับประจำสินค้า หรือถ้ามีการผลิตหรือการเบิกสินค้าคัมบังจากสถานที่เก็บป้ายทะเบียน (ป้ายทะเบียน) และมีการตั้งค่าสินค้าเป็นระยะ
+<span data-ttu-id="29ce3-117">งานการเบิกสินค้าเป็นรายชิ้นสำหรับงานการตรวจนับทั้งหมด และสำหรับการเบิกสินค้าเริ่มต้นสำหรับงานชนิดใดก็ได้</span><span class="sxs-lookup"><span data-stu-id="29ce3-117">Piece picking works for all counting work and for the initial pick for any type of work.</span></span> <span data-ttu-id="29ce3-118">จะไม่สามารถใช้การเบิกสินค้าเป็นรายชิ้น ถ้าสินค้าถูกควบคุมโดยเรียงตามหมายเลขลำดับประจำสินค้า หรือถ้ามีการผลิตหรือการเบิกสินค้าคัมบังจากสถานที่เก็บป้ายทะเบียน (ป้ายทะเบียน) และมีการตั้งค่าสินค้าเป็นระยะ</span><span class="sxs-lookup"><span data-stu-id="29ce3-118">Piece picking does not apply if the item is controlled by serial numbers or if it is a production or kanban pick from a license plate (LP) location and the item is set to staging.</span></span>
 
-## <a name="set-up-piece-picking"></a>ตั้งค่าการเบิกสินค้าเป็นรายชิ้น
+## <a name="set-up-piece-picking"></a><span data-ttu-id="29ce3-119">ตั้งค่าการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="29ce3-119">Set up piece picking</span></span>
 
-1.  บนรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งการสำรหับการยืนยันงาน: > **การบริหารคลังสินค้า** > **ตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่** 
-2. จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิดการตั้งค่าการยืนยันงาน
+1.  <span data-ttu-id="29ce3-120">บนรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งการสำรหับการยืนยันงาน: > **การบริหารคลังสินค้า** > **ตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่**</span><span class="sxs-lookup"><span data-stu-id="29ce3-120">On a mobile device menu item, open the setup form for work confirmation: Warehouse management > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span> 
+2. <span data-ttu-id="29ce3-121">จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิดการตั้งค่าการยืนยันงาน</span><span class="sxs-lookup"><span data-stu-id="29ce3-121">From the mobile device menu item, open Work confirmation setup.</span></span>
 
-ตัวเลือกต่อไปนี้เปลี่ยนเป็นพร้อมใช้งานสำหรับการเลือก เมื่อชนิดงานเป็นการเบิกสินค้าหรือการตรวจนับ
+<span data-ttu-id="29ce3-122">ตัวเลือกต่อไปนี้เปลี่ยนเป็นพร้อมใช้งานสำหรับการเลือก เมื่อชนิดงานเป็นการเบิกสินค้าหรือการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="29ce3-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| ตัวเลือก        | คำอธิบาย   | 
+| <span data-ttu-id="29ce3-123">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="29ce3-123">Option</span></span>        | <span data-ttu-id="29ce3-124">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="29ce3-124">Description</span></span>   | 
 | ------------- | ------------- |
-| การยืนยันการเบิกสินค้าเป็นรายชิ้น   | พร้อมใช้งานสำหรับชนิดของงานการตรวจนับและการเบิกสินค้า จะมีการเลือกการยืนยันผลิตภัณฑ์โดยอัตโนมัติ ช่วยให้คุณสามารถยืนยันสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่ | 
-| จำนวนชิ้นสูงสุด     | พร้อมใช้งานสำหรับงานการเบิกสินค้า ถ้าเปิดใช้งานการยืนยันการเบิกสินค้าเป็นรายชิ้น ตั้งค่าขีดจำกัดจำนวนชิ้นที่คุณต้องยืนยัน |  
+| <span data-ttu-id="29ce3-125">การยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="29ce3-125">Piece picking confirmation</span></span>   | <span data-ttu-id="29ce3-126">พร้อมใช้งานสำหรับชนิดของงานการตรวจนับและการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="29ce3-126">Available for pick and counting work types.</span></span> <span data-ttu-id="29ce3-127">จะมีการเลือกการยืนยันผลิตภัณฑ์โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="29ce3-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="29ce3-128">ช่วยให้คุณสามารถยืนยันสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="29ce3-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
+| <span data-ttu-id="29ce3-129">จำนวนชิ้นสูงสุด</span><span class="sxs-lookup"><span data-stu-id="29ce3-129">Maximum number of pieces</span></span>     | <span data-ttu-id="29ce3-130">พร้อมใช้งานสำหรับงานการเบิกสินค้า ถ้าเปิดใช้งานการยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="29ce3-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="29ce3-131">ตั้งค่าขีดจำกัดจำนวนชิ้นที่คุณต้องยืนยัน</span><span class="sxs-lookup"><span data-stu-id="29ce3-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
 

@@ -16,24 +16,24 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5fe6e54b4ebcf6cd611af54e7066a3e39d0e677d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-number-sequences-by-using-a-wizard"></a>ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
+# <a name="set-up-number-sequences-by-using-a-wizard"></a><span data-ttu-id="732db-103">ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด</span><span class="sxs-lookup"><span data-stu-id="732db-103">Set up number sequences by using a wizard</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ลำดับหมายเลขถูกใช้ในการสร้างรหัสที่สามารถอ่านได้ รหัสเฉพาะสำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่ต้องการ  ข้อมูลหลักหรือเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุจะอ้างเป็นการอ้างอิง ก่อนที่คุณจะสามารถสร้างเรกคอร์ดใหม่สำหรับการอ้างอิง คุณต้องตั้งค่าลำดับหมายเลขและเชื่อมโยงกับการอ้างอิงนั้น  ขั้นตอนนี้อธิบายวิธีการตั้งค่าลำดับหมายเลขที่จำเป็นทั้งหมดพร้อมกันโดยใช้วิซาร์ด  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
+<span data-ttu-id="732db-104">ลำดับหมายเลขถูกใช้ในการสร้างรหัสที่สามารถอ่านได้ รหัสเฉพาะสำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่ต้องการ </span><span class="sxs-lookup"><span data-stu-id="732db-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="732db-105">ข้อมูลหลักหรือเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุจะอ้างเป็นการอ้างอิง</span><span class="sxs-lookup"><span data-stu-id="732db-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="732db-106">ก่อนที่คุณจะสามารถสร้างเรกคอร์ดใหม่สำหรับการอ้างอิง คุณต้องตั้งค่าลำดับหมายเลขและเชื่อมโยงกับการอ้างอิงนั้น </span><span class="sxs-lookup"><span data-stu-id="732db-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="732db-107">ขั้นตอนนี้อธิบายวิธีการตั้งค่าลำดับหมายเลขที่จำเป็นทั้งหมดพร้อมกันโดยใช้วิซาร์ด </span><span class="sxs-lookup"><span data-stu-id="732db-107">This procedure explains how to set up all required number sequences at the same time by using a wizard.</span></span> <span data-ttu-id="732db-108">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="732db-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. ไปที่จัดการองค์กร > ลำดับหมายเลข > ลำดับหมายเลข
-2. คลิก สร้าง
-3. คลิก ถัดไป
-    * บนหน้านี้คุณจะสามารถแก้ไขรหัสประจำตัว ค่าต่ำสุดและค่าสูงสุดได้ นอกจากนี้คุณยังสามารถระบุได้ว่าลำดับหมายเลขต้องต่อเนื่องกันหรือไม่   
-    * อย่าเลือกตัวเลือกต่อเนื่องถ้าคุณต้องปันส่วนหมายเลขล่วงหน้าสำหรับลำดับหมายเลข      เมื่อต้องการเพิ่มเซ็กเมนต์ขอบเขตในรูปแบบลำดับหมายเลขให้เลือกรูปแบบในรายการจากนั้นคลิก รวมขอบเขตในรูปแบบ      การลบเซ็กเมนต์ขอบเขตออกจากรูปแบบของลำดับหมายเลขให้เลือกรูปแบบในรายการ จากนั้นคลิกลบขอบเขตออกจากรูปแบบ      การไม่รวมลำดับหมายเลขจากการสร้างโดยอัตโนมัติ ให้เลือกลำดับหมายเลขในรายการจากนั้นคลิกลบ  
-4. คลิก ถัดไป
-5. คลิก Finish
+1. <span data-ttu-id="732db-109">ไปที่จัดการองค์กร > ลำดับหมายเลข > ลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="732db-109">Go to Organization administration > Number sequences > Number sequences.</span></span>
+2. <span data-ttu-id="732db-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="732db-110">Click Generate.</span></span>
+3. <span data-ttu-id="732db-111">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="732db-111">Click Next.</span></span>
+    * <span data-ttu-id="732db-112">บนหน้านี้คุณจะสามารถแก้ไขรหัสประจำตัว ค่าต่ำสุดและค่าสูงสุดได้</span><span class="sxs-lookup"><span data-stu-id="732db-112">On this page, you can modify the identification code, the lowest value, and the highest value.</span></span> <span data-ttu-id="732db-113">นอกจากนี้คุณยังสามารถระบุได้ว่าลำดับหมายเลขต้องต่อเนื่องกันหรือไม่</span><span class="sxs-lookup"><span data-stu-id="732db-113">In addition, you can indicate whether the number sequence must be continuous.</span></span>   
+    * <span data-ttu-id="732db-114">อย่าเลือกตัวเลือกต่อเนื่องถ้าคุณต้องปันส่วนหมายเลขล่วงหน้าสำหรับลำดับหมายเลข </span><span class="sxs-lookup"><span data-stu-id="732db-114">Do not select the Continuous option if you must preallocate numbers for the number sequence.</span></span>     <span data-ttu-id="732db-115">เมื่อต้องการเพิ่มเซ็กเมนต์ขอบเขตในรูปแบบลำดับหมายเลขให้เลือกรูปแบบในรายการจากนั้นคลิก รวมขอบเขตในรูปแบบ </span><span class="sxs-lookup"><span data-stu-id="732db-115">To add a scope segment to the format of a number sequence, select the format in the list, and then click Include scope in format.</span></span>     <span data-ttu-id="732db-116">การลบเซ็กเมนต์ขอบเขตออกจากรูปแบบของลำดับหมายเลขให้เลือกรูปแบบในรายการ จากนั้นคลิกลบขอบเขตออกจากรูปแบบ </span><span class="sxs-lookup"><span data-stu-id="732db-116">To remove a scope segment from the format of a number sequence, select the format in the list, and then click Remove scope from format.</span></span>     <span data-ttu-id="732db-117">การไม่รวมลำดับหมายเลขจากการสร้างโดยอัตโนมัติ ให้เลือกลำดับหมายเลขในรายการจากนั้นคลิกลบ</span><span class="sxs-lookup"><span data-stu-id="732db-117">To exclude a number sequence from automatic generation, select the number sequence in the list, and then click Delete.</span></span>  
+4. <span data-ttu-id="732db-118">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="732db-118">Click Next.</span></span>
+5. <span data-ttu-id="732db-119">คลิก Finish</span><span class="sxs-lookup"><span data-stu-id="732db-119">Click Finish.</span></span>
 
 

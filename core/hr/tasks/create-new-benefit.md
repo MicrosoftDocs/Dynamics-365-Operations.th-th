@@ -16,42 +16,42 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcba94f5f17ffbe5bb02244cb27c03bf99db69c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: bef33595a09ea54ba246a04b5a838013c6d65271
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-new-benefit"></a>สร้างสวัสดิการใหม่
+# <a name="create-a-new-benefit"></a><span data-ttu-id="f0b31-103">สร้างสวัสดิการใหม่</span><span class="sxs-lookup"><span data-stu-id="f0b31-103">Create a new benefit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-งานนี้จะแสดงวิธีการสร้างองค์ประกอบของสวัสดิการที่จะใช้เมื่อสร้างสวัสดิการใหม่  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF งานนี้มีไว้สำหรับผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการ
+<span data-ttu-id="f0b31-104">งานนี้จะแสดงวิธีการสร้างองค์ประกอบของสวัสดิการที่จะใช้เมื่อสร้างสวัสดิการใหม่ </span><span class="sxs-lookup"><span data-stu-id="f0b31-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="f0b31-105">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="f0b31-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="f0b31-106">งานนี้มีไว้สำหรับผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="f0b31-106">This task is intended for a Compensation and Benefits manager.</span></span>
 
 
-## <a name="create-benefit-elements"></a>สร้างองค์ประกอบของสวัสดิการ
-1. ไปที่ ทรัพยากรบุคคล > การตั้งค่า > การตั้งค่า > องค์ประกอบของสวัสดิการ
-2. คลิก สร้าง
-3. ในฟิลด์ชนิด ให้ป้อนชื่อของประเภทของสวัสดิการที่คุณกำลังสร้าง
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์การลงทะเบียนที่เกิดขึ้นพร้อมกัน ให้เลือกหนึ่งตัวเลือก
-    * เพื่อจำกัดความสามารถของพนักงานในการลงทะเบียนในหลายแผนการรักษาพยาบาล ให้เลือกลงทะเบียนหนึ่งรายการต่อชนิด  
-6. ในฟิลด์ประเภทค่าจ้าง ให้เลือกหนึ่งตัวเลือก
-7. คลิกที่แท็บแผน
-8. คลิก สร้าง
-9. ในฟิลด์แผน ให้พิมพ์ค่า
-10. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-11. ในฟิลด์ชนิก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-12. ในฟิลด์ผลกระทบของค่าจ้าง ให้เลือกหนึ่งตัวเลือก
-13. คลิก บันทึก
+## <a name="create-benefit-elements"></a><span data-ttu-id="f0b31-107">สร้างองค์ประกอบของสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="f0b31-107">Create benefit elements</span></span>
+1. <span data-ttu-id="f0b31-108">ไปที่ ทรัพยากรบุคคล > การตั้งค่า > การตั้งค่า > องค์ประกอบของสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="f0b31-108">Go to Human resources > Benefits > Setup > Benefit elements.</span></span>
+2. <span data-ttu-id="f0b31-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="f0b31-109">Click New.</span></span>
+3. <span data-ttu-id="f0b31-110">ในฟิลด์ชนิด ให้ป้อนชื่อของประเภทของสวัสดิการที่คุณกำลังสร้าง</span><span class="sxs-lookup"><span data-stu-id="f0b31-110">In the Type field, Enter the name of the type of benefit you are creating..</span></span>
+4. <span data-ttu-id="f0b31-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="f0b31-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f0b31-112">ในฟิลด์การลงทะเบียนที่เกิดขึ้นพร้อมกัน ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="f0b31-112">In the Concurrent enrollment field, select an option.</span></span>
+    * <span data-ttu-id="f0b31-113">เพื่อจำกัดความสามารถของพนักงานในการลงทะเบียนในหลายแผนการรักษาพยาบาล ให้เลือกลงทะเบียนหนึ่งรายการต่อชนิด</span><span class="sxs-lookup"><span data-stu-id="f0b31-113">To restrict employees' ability to enroll in multiple medical plans, select One enrollment per type.</span></span>  
+6. <span data-ttu-id="f0b31-114">ในฟิลด์ประเภทค่าจ้าง ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="f0b31-114">In the Payroll category field, select an option.</span></span>
+7. <span data-ttu-id="f0b31-115">คลิกที่แท็บแผน</span><span class="sxs-lookup"><span data-stu-id="f0b31-115">Click the Plans tab.</span></span>
+8. <span data-ttu-id="f0b31-116">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="f0b31-116">Click New.</span></span>
+9. <span data-ttu-id="f0b31-117">ในฟิลด์แผน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="f0b31-117">In the Plan field, type a value.</span></span>
+10. <span data-ttu-id="f0b31-118">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="f0b31-118">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="f0b31-119">ในฟิลด์ชนิก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="f0b31-119">In the Type field, enter or select a value.</span></span>
+12. <span data-ttu-id="f0b31-120">ในฟิลด์ผลกระทบของค่าจ้าง ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="f0b31-120">In the Payroll impact field, select an option.</span></span>
+13. <span data-ttu-id="f0b31-121">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="f0b31-121">Click Save.</span></span>
 
-## <a name="create-a-benefit"></a>สร้างสวัสดิการ
-1. ปิดหน้า
-2. ไปที่ทรัพยากรบุคคล > สวัสดิการ > สวัสดิการ
-3. คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง
-4. ในฟิลด์แผนงาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-5. ในฟิลด์ตัวเลือก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-6. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่และเวลา
-7. คลิกที่สร้างสวัสดิการ
+## <a name="create-a-benefit"></a><span data-ttu-id="f0b31-122">สร้างสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="f0b31-122">Create a benefit</span></span>
+1. <span data-ttu-id="f0b31-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="f0b31-123">Close the page.</span></span>
+2. <span data-ttu-id="f0b31-124">ไปที่ทรัพยากรบุคคล > สวัสดิการ > สวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="f0b31-124">Go to Human resources > Benefits > Benefits.</span></span>
+3. <span data-ttu-id="f0b31-125">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="f0b31-125">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="f0b31-126">ในฟิลด์แผนงาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="f0b31-126">In the Plan field, enter or select a value.</span></span>
+5. <span data-ttu-id="f0b31-127">ในฟิลด์ตัวเลือก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="f0b31-127">In the Option field, enter or select a value.</span></span>
+6. <span data-ttu-id="f0b31-128">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="f0b31-128">In the Effective field, enter a date and time.</span></span>
+7. <span data-ttu-id="f0b31-129">คลิกที่สร้างสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="f0b31-129">Click Create benefit.</span></span>
 
 

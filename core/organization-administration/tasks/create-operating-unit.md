@@ -16,30 +16,30 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 83e2f3f07482b6b32e3bfa33e63165d4160dba9c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-operating-unit"></a>สร้างหน่วยปฏิบัติงาน
+# <a name="create-an-operating-unit"></a><span data-ttu-id="68837-103">สร้างหน่วยปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="68837-103">Create an operating unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-หน่วยปฏิบัติงานเป็นองค์กรที่ใช้ในการแบ่งการควบคุมทรัพยากรทางเศรษฐกิจและกระบวนการในการดำเนินงานในธุรกิจหนึ่ง ๆ บุคลากรในหน่วยปฏิบัติงานมีภาษีการขยายการใช้ทรัพยากร scarce กระบวนการปรับปรุง และบัญชีสำหรับประสิทธิภาพการทำงานของตน ชนิดของหน่วยปฏิบัติงานรวมศูนย์ต้นทุน หน่วยธุรกิจ แผนก มิติ และค่าสตรีม ใช้ขั้นตอนต่อไปนี้เพื่อสร้างหน่วยปฏิบัติงาน  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
+<span data-ttu-id="68837-104">หน่วยปฏิบัติงานเป็นองค์กรที่ใช้ในการแบ่งการควบคุมทรัพยากรทางเศรษฐกิจและกระบวนการในการดำเนินงานในธุรกิจหนึ่ง ๆ</span><span class="sxs-lookup"><span data-stu-id="68837-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="68837-105">บุคลากรในหน่วยปฏิบัติงานมีภาษีการขยายการใช้ทรัพยากร scarce กระบวนการปรับปรุง และบัญชีสำหรับประสิทธิภาพการทำงานของตน</span><span class="sxs-lookup"><span data-stu-id="68837-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="68837-106">ชนิดของหน่วยปฏิบัติงานรวมศูนย์ต้นทุน หน่วยธุรกิจ แผนก มิติ และค่าสตรีม</span><span class="sxs-lookup"><span data-stu-id="68837-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="68837-107">ใช้ขั้นตอนต่อไปนี้เพื่อสร้างหน่วยปฏิบัติงาน </span><span class="sxs-lookup"><span data-stu-id="68837-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="68837-108">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="68837-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. ไปที่ การจัดการองค์กร > องค์กร > หน่วยปฏิบัติงาน
-2. คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง
-3. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-    * เลือกชนิดของหน่วยปฏิบัติงานที่คุณต้องการสร้าง  
-4. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-5. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-    * ขยายส่วนทั่วไป ถ้าจำเป็น  
-    * ระบุข้อมูลทั่วไปเกี่ยวกับหน่วยปฏิบัติงานเช่น การระบุรหัสประจำตัว หมายเลข DUNS และผู้จัดการ    
-    * ขยายส่วนที่อยู่ ถ้าจำเป็น  
-    * ป้อนรายละเอียดที่อยู่เช่น ชื่อถนนและหมายเลข รหัสไปรษณีย์ และเมือง  คลิกการเพิ่มเพื่อป้อนเรกคอร์ดที่อยู่ใหม่หรือคลิกการแก้ไขเพื่อปรับเปลี่ยนที่อยู่เดิม   
-    * ขยายส่วนของข้อมูลผู้ติดต่อ ถ้าจำเป็น  
-    * ป้อนข้อมูลเกี่ยวกับวิธีการสื่อสารเช่น ที่อยู่อีเมล URLs และหมายเลขโทรศัพท์  เพื่อป้อนเรกคอร์ดการสื่อสารใหม่ ให้คลิกที่ ใหม่  เพื่อปรับเปลี่ยนเรกคอร์ดการติดต่อสื่อสารที่มีอยู่ ให้คลิกตัวเลือกเพิ่มเติม > ขั้นสูง   
-6. คลิก บันทึก
+1. <span data-ttu-id="68837-109">ไปที่ การจัดการองค์กร > องค์กร > หน่วยปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="68837-109">Go to Organization administration > Organizations > Operating units.</span></span>
+2. <span data-ttu-id="68837-110">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="68837-110">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="68837-111">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="68837-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="68837-112">เลือกชนิดของหน่วยปฏิบัติงานที่คุณต้องการสร้าง</span><span class="sxs-lookup"><span data-stu-id="68837-112">Select the type of operating unit you want to create.</span></span>  
+4. <span data-ttu-id="68837-113">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="68837-113">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="68837-114">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="68837-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="68837-115">ขยายส่วนทั่วไป ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="68837-115">Expand the General section, if necessary.</span></span>  
+    * <span data-ttu-id="68837-116">ระบุข้อมูลทั่วไปเกี่ยวกับหน่วยปฏิบัติงานเช่น การระบุรหัสประจำตัว หมายเลข DUNS และผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="68837-116">Provide general information about the operating unit, such as an identification number, DUNS number, and manager.</span></span>    
+    * <span data-ttu-id="68837-117">ขยายส่วนที่อยู่ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="68837-117">Expand the Addresses section, if necessary.</span></span>  
+    * <span data-ttu-id="68837-118">ป้อนรายละเอียดที่อยู่เช่น ชื่อถนนและหมายเลข รหัสไปรษณีย์ และเมือง </span><span class="sxs-lookup"><span data-stu-id="68837-118">Enter address information, such as the street name and number, postal code, and city.</span></span> <span data-ttu-id="68837-119">คลิกการเพิ่มเพื่อป้อนเรกคอร์ดที่อยู่ใหม่หรือคลิกการแก้ไขเพื่อปรับเปลี่ยนที่อยู่เดิม</span><span class="sxs-lookup"><span data-stu-id="68837-119">Click Add to enter a new address record, or click Edit to modify an existing address record.</span></span>   
+    * <span data-ttu-id="68837-120">ขยายส่วนของข้อมูลผู้ติดต่อ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="68837-120">Expand the Contact information section, if necessary.</span></span>  
+    * <span data-ttu-id="68837-121">ป้อนข้อมูลเกี่ยวกับวิธีการสื่อสารเช่น ที่อยู่อีเมล URLs และหมายเลขโทรศัพท์ </span><span class="sxs-lookup"><span data-stu-id="68837-121">Enter information about methods of communication, such as email addresses, URLs, and telephone numbers.</span></span> <span data-ttu-id="68837-122">เพื่อป้อนเรกคอร์ดการสื่อสารใหม่ ให้คลิกที่ ใหม่ </span><span class="sxs-lookup"><span data-stu-id="68837-122">To enter a new communication record, click New.</span></span> <span data-ttu-id="68837-123">เพื่อปรับเปลี่ยนเรกคอร์ดการติดต่อสื่อสารที่มีอยู่ ให้คลิกตัวเลือกเพิ่มเติม > ขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="68837-123">To modify an existing communication record, click More options > Advanced.</span></span>   
+6. <span data-ttu-id="68837-124">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="68837-124">Click Save.</span></span>
 
 

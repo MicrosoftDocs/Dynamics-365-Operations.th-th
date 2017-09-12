@@ -15,28 +15,28 @@ ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d3c6d817424be79b09ccdd89deb7f31599fe9bf5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 13ad43cc77731727525aae1edc4d405c166acbc1
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade"></a>การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน
+# <a name="single-voucher-and-currency-revaluation-upgrade"></a><span data-ttu-id="dcfdd-104">การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="dcfdd-104">Single voucher and currency revaluation upgrade</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บางองค์กรป้อนสมุดรายวันที่ประกอบด้วยใบสำคัญเดียวที่มีลูกค้าหรือผู้จัดจำหน่ายมากกว่าหนึ่งราย และยังเรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้หรือบัญชีเจ้าหนี้ หัวข้อนี้อธิบายถึงขั้นตอนที่องค์กรเหล่านี้ควรปฏิบัติตามเมื่อจะปรับรุ่นเป็น Microsoft Dynamics 365 for Operations เวอร์ชัน 1611
+<span data-ttu-id="dcfdd-105">บางองค์กรป้อนสมุดรายวันที่ประกอบด้วยใบสำคัญเดียวที่มีลูกค้าหรือผู้จัดจำหน่ายมากกว่าหนึ่งราย และยังเรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้หรือบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="dcfdd-105">Some organizations enter journals that contain a single voucher that has more than one customer or vendor, and they also run the Accounts receivable or Accounts payable foreign currency revaluation process.</span></span> <span data-ttu-id="dcfdd-106">หัวข้อนี้อธิบายถึงขั้นตอนที่องค์กรเหล่านี้ควรปฏิบัติตามเมื่อจะปรับรุ่นเป็น Microsoft Dynamics 365 for Operations เวอร์ชัน 1611</span><span class="sxs-lookup"><span data-stu-id="dcfdd-106">This topic describes the steps that these organizations should follow when they upgrade to Microsoft Dynamics 365 for Operations version 1611.</span></span>
 
-ทำตามขั้นตอนเหล่านี้เมื่อคุณจะปรับรุ่นเป็น Microsoft Dynamics 365 for Operations เวอร์ชัน 1611
+<span data-ttu-id="dcfdd-107">ทำตามขั้นตอนเหล่านี้เมื่อคุณจะปรับรุ่นเป็น Microsoft Dynamics 365 for Operations เวอร์ชัน 1611</span><span class="sxs-lookup"><span data-stu-id="dcfdd-107">Follow these steps when you upgrade to Microsoft Dynamics 365 for Operations version 1611.</span></span>
 
-1.  ก่อนที่คุณจะปรับรุ่นเป็น Dynamics 365 for Operations ให้เรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้และบัญชีเจ้าหนี้ ตั้งค่าฟิลด์ **วิธีการ** เป็น **วันที่ในใบแจ้งหนี้** ธุรกรรมการประเมินค่าใหม่ถูกสร้างขึ้นโดยย้อนกลับการประเมินค่าใหม่ตามสกุลเงินต่างประเทศล่าสุด ดังนั้น ธุรกรรมที่เปิดอยู่จะมีการประเมินค่าสกุลเงินทางบัญชีของต้นฉบับ
-2.  อัพเกรดเป็น Dynamics 365 for Operations เวอร์ชัน 1611
-3.  เรียกใช้กระบวนการประเมินค่าตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้อีกครั้ง จากนั้น ตั้งค่าฟิลด์ **วิธีการ** เป็น **มาตรฐาน** ธุรกรรมการประเมินค่าใหม่ถูกสร้างขึ้นโดยขึ้นอยู่กับอัตราแลกเปลี่ยนปัจจุบัน ธุรกรรมนี้จะบันทึกกำไร/ขาดทุนที่เกิดขึ้นจริงและบัญชีแยกประเภทสรุปที่ถูกต้อง
+1.  <span data-ttu-id="dcfdd-108">ก่อนที่คุณจะปรับรุ่นเป็น Dynamics 365 for Operations ให้เรียกใช้กระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีลูกหนี้และบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="dcfdd-108">Before you upgrade to Dynamics 365 for Operations, run the foreign currency revaluation processes for Accounts receivable and Accounts payable.</span></span> <span data-ttu-id="dcfdd-109">ตั้งค่าฟิลด์ **วิธีการ** เป็น **วันที่ในใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="dcfdd-109">Set the **Method** field to **Invoice date**.</span></span> <span data-ttu-id="dcfdd-110">ธุรกรรมการประเมินค่าใหม่ถูกสร้างขึ้นโดยย้อนกลับการประเมินค่าใหม่ตามสกุลเงินต่างประเทศล่าสุด</span><span class="sxs-lookup"><span data-stu-id="dcfdd-110">A revaluation transaction is created that reverses the last foreign currency revaluation.</span></span> <span data-ttu-id="dcfdd-111">ดังนั้น ธุรกรรมที่เปิดอยู่จะมีการประเมินค่าสกุลเงินทางบัญชีของต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="dcfdd-111">Therefore, the open transactions are valued at their original accounting currency.</span></span>
+2.  <span data-ttu-id="dcfdd-112">อัพเกรดเป็น Dynamics 365 for Operations เวอร์ชัน 1611</span><span class="sxs-lookup"><span data-stu-id="dcfdd-112">Upgrade to Dynamics 365 for Operations version 1611.</span></span>
+3.  <span data-ttu-id="dcfdd-113">เรียกใช้กระบวนการประเมินค่าตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="dcfdd-113">Run the Accounts receivable and Accounts payable foreign currency revaluation processes again.</span></span> <span data-ttu-id="dcfdd-114">จากนั้น ตั้งค่าฟิลด์ **วิธีการ** เป็น **มาตรฐาน**</span><span class="sxs-lookup"><span data-stu-id="dcfdd-114">This time, set the **Method** field to **Standard**.</span></span> <span data-ttu-id="dcfdd-115">ธุรกรรมการประเมินค่าใหม่ถูกสร้างขึ้นโดยขึ้นอยู่กับอัตราแลกเปลี่ยนปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="dcfdd-115">A new revaluation transaction is created that is based on the current exchange rates.</span></span> <span data-ttu-id="dcfdd-116">ธุรกรรมนี้จะบันทึกกำไร/ขาดทุนที่เกิดขึ้นจริงและบัญชีแยกประเภทสรุปที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="dcfdd-116">This transaction records the unrealized gain/loss and the correct summary ledger account.</span></span>
 
 
 

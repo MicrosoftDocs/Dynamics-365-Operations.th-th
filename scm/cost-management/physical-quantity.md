@@ -17,37 +17,37 @@ ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: af31af5e8f11119c03ee7cb7101f2c94714720ff
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4aec6e70325c7e4d00e6070293a1ab0c719e420b
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="inventory-object-values"></a>ค่าออบเจ็กต์สินค้าคงคลัง
+# <a name="inventory-object-values"></a><span data-ttu-id="7f60b-103">ค่าออบเจ็กต์สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-103">Inventory object values</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับวิธีคำนวณมูลค่าออบเจ็กต์สินค้าคงคลัง 
+<span data-ttu-id="7f60b-104">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีคำนวณมูลค่าออบเจ็กต์สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-ฟังก์ชันแบบใหม่ที่ชื่อ **ปริมาณทางกายภาพ**ช่วยให้คุณเห็นมูลค่าของสินค้าคงคลังเฉพาะออบเจ็กต์ 
+<span data-ttu-id="7f60b-105">ฟังก์ชันแบบใหม่ที่ชื่อ **ปริมาณทางกายภาพ**ช่วยให้คุณเห็นมูลค่าของสินค้าคงคลังเฉพาะออบเจ็กต์</span><span class="sxs-lookup"><span data-stu-id="7f60b-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-ออบเจ็กต์ต้นทุนแสดงถึงระดับของเอนทิตี้ที่ทำการลงบัญชีสินค้าคงคลัง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับต้นทุนวัตถุ ดูที่ [ต้นทุนวัตถุ](cost-object.md) 
+<span data-ttu-id="7f60b-106">ออบเจ็กต์ต้นทุนแสดงถึงระดับของเอนทิตี้ที่ทำการลงบัญชีสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="7f60b-107">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับต้นทุนวัตถุ ดูที่ [ต้นทุนวัตถุ](cost-object.md)</span><span class="sxs-lookup"><span data-stu-id="7f60b-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-เมื่เมื่อต้องการดูค่าของสินค้าคงคลังเฉพาะออบเจ็กต์ คลิก **ปริมาณทางกายภาพ** ในหน้า **ออบเจ็กต์ต้นทุน** นี่เป็นวิธีคำนวณมูลค่าของสินค้าคงคลังวัตถุ: 
+<span data-ttu-id="7f60b-108">เมื่เมื่อต้องการดูค่าของสินค้าคงคลังเฉพาะออบเจ็กต์ คลิก **ปริมาณทางกายภาพ** ในหน้า **ออบเจ็กต์ต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="7f60b-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="7f60b-109">นี่เป็นวิธีคำนวณมูลค่าของสินค้าคงคลังวัตถุ:</span><span class="sxs-lookup"><span data-stu-id="7f60b-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-วัตถุสินค้าคงคลัง มูลค่า = ออบเจ็กต์ต้นทุน.ต้นทุนเฉลี่ยต่อหน่วยxออบเจ็กต์สินค้าคงคลัง.ปริมาณ 
+<span data-ttu-id="7f60b-110">วัตถุสินค้าคงคลัง มูลค่า = ออบเจ็กต์ต้นทุน.ต้นทุนเฉลี่ยต่อหน่วยxออบเจ็กต์สินค้าคงคลัง.ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="7f60b-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-ตัวอย่างต่อไปนี้แสดงวิธีคำนวณค่าของออบเจ็กต์สินค้าคงคลังและต้นทุนวัตถุ เหตุการณ์ใบรับสินค้าสองใบถูกลงทะเบียนในสินค้า A:
+<span data-ttu-id="7f60b-111">ตัวอย่างต่อไปนี้แสดงวิธีคำนวณค่าของออบเจ็กต์สินค้าคงคลังและต้นทุนวัตถุ</span><span class="sxs-lookup"><span data-stu-id="7f60b-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="7f60b-112">เหตุการณ์ใบรับสินค้าสองใบถูกลงทะเบียนในสินค้า A:</span><span class="sxs-lookup"><span data-stu-id="7f60b-112">Two product receipt events are registered on item A:</span></span>
 
--   ใบรับสินค้า 1: ปริมาณ = 100 ชิ้น จำนวนเงิน = $1,000.00 ไซต์ = 1 คลังสินค้า = 11 หมายเลขชุดงาน = B1
--   ใบรับสินค้า 2: ปริมาณ = 50 ชิ้น จำนวนเงิน = $8,00.00 ไซต์ = 1 คลังสินค้า = 11 หมายเลขชุดงาน = B2
+-   <span data-ttu-id="7f60b-113">ใบรับสินค้า 1: ปริมาณ = 100 ชิ้น จำนวนเงิน = $1,000.00 ไซต์ = 1 คลังสินค้า = 11 หมายเลขชุดงาน</span><span class="sxs-lookup"><span data-stu-id="7f60b-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="7f60b-114">= B1</span><span class="sxs-lookup"><span data-stu-id="7f60b-114">= B1</span></span>
+-   <span data-ttu-id="7f60b-115">ใบรับสินค้า 2: ปริมาณ = 50 ชิ้น จำนวนเงิน = $8,00.00 ไซต์ = 1 คลังสินค้า = 11 หมายเลขชุดงาน</span><span class="sxs-lookup"><span data-stu-id="7f60b-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="7f60b-116">= B2</span><span class="sxs-lookup"><span data-stu-id="7f60b-116">= B2</span></span>
 
-ตารางต่อไปนี้แสดงผลลัพธ์การคำนวณสำหรับออบเจ็กต์ต้นทุน คุณสามารถดูผลลัพธ์ในหน้า **ออบเจ็กต์ต้นทุน**
+<span data-ttu-id="7f60b-117">ตารางต่อไปนี้แสดงผลลัพธ์การคำนวณสำหรับออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="7f60b-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="7f60b-118">คุณสามารถดูผลลัพธ์ในหน้า **ออบเจ็กต์ต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="7f60b-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -61,29 +61,29 @@ ms.lasthandoff: 06/13/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>ชนิดออบเจ็กต์</th>
-<th>หมายเลขสินค้า</th>
-<th>ไซต์</th>
-<th>ปริมาณ</th>
-<th>หน่วยสินค้าคงคลัง</th>
-<th>มูลค่า</th>
-<th>ต้นทุนเฉลี่ยต่อหน่วย</th>
+<th><span data-ttu-id="7f60b-119">ชนิดออบเจ็กต์</span><span class="sxs-lookup"><span data-stu-id="7f60b-119">Object type</span></span></th>
+<th><span data-ttu-id="7f60b-120">หมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="7f60b-120">Item number</span></span></th>
+<th><span data-ttu-id="7f60b-121">ไซต์</span><span class="sxs-lookup"><span data-stu-id="7f60b-121">Site</span></span></th>
+<th><span data-ttu-id="7f60b-122">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="7f60b-122">Quantity</span></span></th>
+<th><span data-ttu-id="7f60b-123">หน่วยสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="7f60b-124">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="7f60b-124">Value</span></span></th>
+<th><span data-ttu-id="7f60b-125">ต้นทุนเฉลี่ยต่อหน่วย</span><span class="sxs-lookup"><span data-stu-id="7f60b-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ออบเจ็กต์ต้นทุน</td>
-<td>A</td>
-<td>1</td>
-<td>150</td>
-<td>หน่วย</td>
-<td><p>$1800.00</p></td>
-<td><p>$12.00</p></td>
+<td><span data-ttu-id="7f60b-126">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="7f60b-126">Cost object</span></span></td>
+<td><span data-ttu-id="7f60b-127">A</span><span class="sxs-lookup"><span data-stu-id="7f60b-127">A</span></span></td>
+<td><span data-ttu-id="7f60b-128">1</span><span class="sxs-lookup"><span data-stu-id="7f60b-128">1</span></span></td>
+<td><span data-ttu-id="7f60b-129">150</span><span class="sxs-lookup"><span data-stu-id="7f60b-129">150</span></span></td>
+<td><span data-ttu-id="7f60b-130">หน่วย</span><span class="sxs-lookup"><span data-stu-id="7f60b-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="7f60b-131">$1800.00</span><span class="sxs-lookup"><span data-stu-id="7f60b-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="7f60b-132">$12.00</span><span class="sxs-lookup"><span data-stu-id="7f60b-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-ตารางต่อไปนี้แสดงผลลัพธ์การคำนวณสำหรับออบเจ็กต์สินค้าคงคลัง คุณสามารถดูผลลัพธ์โดยการคลิก **ปริมาณกายภาพ** บนหน้า **ออบเจ็กต์ต้นทุน**
+<span data-ttu-id="7f60b-133">ตารางต่อไปนี้แสดงผลลัพธ์การคำนวณสำหรับออบเจ็กต์สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="7f60b-134">คุณสามารถดูผลลัพธ์โดยการคลิก **ปริมาณกายภาพ** บนหน้า **ออบเจ็กต์ต้นทุน**</span><span class="sxs-lookup"><span data-stu-id="7f60b-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -99,53 +99,53 @@ ms.lasthandoff: 06/13/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>ชนิดออบเจ็กต์</th>
-<th>หมายเลขสินค้า</th>
-<th>ไซต์</th>
-<th>คลังสินค้า</th>
-<th>หมายเลขชุดงาน</th>
-<th>ปริมาณ</th>
-<th>หน่วยสินค้าคงคลัง</th>
-<th>มูลค่า</th>
-<th>ต้นทุนเฉลี่ยต่อหน่วย</th>
+<th><span data-ttu-id="7f60b-135">ชนิดออบเจ็กต์</span><span class="sxs-lookup"><span data-stu-id="7f60b-135">Object type</span></span></th>
+<th><span data-ttu-id="7f60b-136">หมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="7f60b-136">Item number</span></span></th>
+<th><span data-ttu-id="7f60b-137">ไซต์</span><span class="sxs-lookup"><span data-stu-id="7f60b-137">Site</span></span></th>
+<th><span data-ttu-id="7f60b-138">คลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="7f60b-138">Warehouse</span></span></th>
+<th><span data-ttu-id="7f60b-139">หมายเลขชุดงาน</span><span class="sxs-lookup"><span data-stu-id="7f60b-139">Batch No.</span></span></th>
+<th><span data-ttu-id="7f60b-140">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="7f60b-140">Quantity</span></span></th>
+<th><span data-ttu-id="7f60b-141">หน่วยสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="7f60b-142">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="7f60b-142">Value</span></span></th>
+<th><span data-ttu-id="7f60b-143">ต้นทุนเฉลี่ยต่อหน่วย</span><span class="sxs-lookup"><span data-stu-id="7f60b-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ออบเจ็กต์สินค้าคงคลัง</td>
-<td>A</td>
-<td>1</td>
-<td>11</td>
-<td>B1</td>
-<td>100</td>
-<td>หน่วย</td>
-<td><p>$1200.00</p></td>
-<td><p>$12.00</p></td>
+<td><span data-ttu-id="7f60b-144">ออบเจ็กต์สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-144">Inventory object</span></span></td>
+<td><span data-ttu-id="7f60b-145">A</span><span class="sxs-lookup"><span data-stu-id="7f60b-145">A</span></span></td>
+<td><span data-ttu-id="7f60b-146">1</span><span class="sxs-lookup"><span data-stu-id="7f60b-146">1</span></span></td>
+<td><span data-ttu-id="7f60b-147">11</span><span class="sxs-lookup"><span data-stu-id="7f60b-147">11</span></span></td>
+<td><span data-ttu-id="7f60b-148">B1</span><span class="sxs-lookup"><span data-stu-id="7f60b-148">B1</span></span></td>
+<td><span data-ttu-id="7f60b-149">100</span><span class="sxs-lookup"><span data-stu-id="7f60b-149">100</span></span></td>
+<td><span data-ttu-id="7f60b-150">หน่วย</span><span class="sxs-lookup"><span data-stu-id="7f60b-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="7f60b-151">$1200.00</span><span class="sxs-lookup"><span data-stu-id="7f60b-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="7f60b-152">$12.00</span><span class="sxs-lookup"><span data-stu-id="7f60b-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td>ออบเจ็กต์สินค้าคงคลัง</td>
-<td>A</td>
-<td>1</td>
-<td>11</td>
-<td>B2</td>
-<td>50</td>
-<td>หน่วย</td>
-<td><p>$600.00</p></td>
-<td><p>$12.00</p></td>
+<td><span data-ttu-id="7f60b-153">ออบเจ็กต์สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="7f60b-153">Inventory object</span></span></td>
+<td><span data-ttu-id="7f60b-154">A</span><span class="sxs-lookup"><span data-stu-id="7f60b-154">A</span></span></td>
+<td><span data-ttu-id="7f60b-155">1</span><span class="sxs-lookup"><span data-stu-id="7f60b-155">1</span></span></td>
+<td><span data-ttu-id="7f60b-156">11</span><span class="sxs-lookup"><span data-stu-id="7f60b-156">11</span></span></td>
+<td><span data-ttu-id="7f60b-157">B2</span><span class="sxs-lookup"><span data-stu-id="7f60b-157">B2</span></span></td>
+<td><span data-ttu-id="7f60b-158">50</span><span class="sxs-lookup"><span data-stu-id="7f60b-158">50</span></span></td>
+<td><span data-ttu-id="7f60b-159">หน่วย</span><span class="sxs-lookup"><span data-stu-id="7f60b-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="7f60b-160">$600.00</span><span class="sxs-lookup"><span data-stu-id="7f60b-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="7f60b-161">$12.00</span><span class="sxs-lookup"><span data-stu-id="7f60b-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="7f60b-162">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="7f60b-162">See also</span></span>
 --------
 
-[ออบเจ็กต์ต้นทุน](cost-object.md)
+[<span data-ttu-id="7f60b-163">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="7f60b-163">Cost objects</span></span>](cost-object.md)
 
-[รายการต้นทุน](cost-entries.md)
+[<span data-ttu-id="7f60b-164">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="7f60b-164">Cost entries</span></span>](cost-entries.md)
 
-[มีอะไรใหม่และมีการเปลี่ยนแปลง](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[<span data-ttu-id="7f60b-165">มีอะไรใหม่และมีการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="7f60b-165">What's new and changed</span></span>](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 
 

@@ -20,56 +20,56 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b2cbdb8bc65a3bfa84620a50480c503c3bb07991
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: a9b2d8dec04ed3653b2ebcfbd2492fc40d96b77b
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="pos-application-and-user-language-settings"></a>แอพลิเคชัน POS และการตั้งค่าภาษาผู้ใช้
+# <a name="pos-application-and-user-language-settings"></a><span data-ttu-id="b2c1a-103">แอพลิเคชัน POS และการตั้งค่าภาษาผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="b2c1a-103">POS application and user language settings</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการเปลี่ยนแปลงการตั้งค่าภาษาใน Modern POS ของการขายปลีก (MPOS) และ Cloud POS
+<span data-ttu-id="b2c1a-104">หัวข้อนี้อธิบายวิธีการเปลี่ยนแปลงการตั้งค่าภาษาใน Modern POS ของการขายปลีก (MPOS) และ Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b2c1a-104">This topic describes how to change language settings in Retail Modern POS (MPOS) and Cloud POS.</span></span>
 
-<a name="overview"></a>ภาพรวม
+<a name="overview"></a><span data-ttu-id="b2c1a-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="b2c1a-105">Overview</span></span>
 ========
 
-Modern POS ของการขายปลีก (MPOS) and Cloud POS สนับสนุนสภาพแวดล้อมที่การตั้งค่าภาษาและการแปลอาจแตกต่างกันระหว่างการตั้งค่าร้านค้าและผู้ใช้ ตัวอย่างเช่น ร้านค้าสามารถอยู่ในภูมิภาคที่ภาษาอังกฤษเป็นภาษาสามัญสำหรับลูกค้าของพวกเขา แต่ผู้ปฏิบัติงานบางคนต้องการใช้แอพลิเคชันที่มีการแปลภาษาฝรั่งเศส
+<span data-ttu-id="b2c1a-106">Modern POS ของการขายปลีก (MPOS) and Cloud POS สนับสนุนสภาพแวดล้อมที่การตั้งค่าภาษาและการแปลอาจแตกต่างกันระหว่างการตั้งค่าร้านค้าและผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="b2c1a-106">Retail Modern POS (MPOS) and Cloud POS support environments where language settings and translations can vary between the store and user settings.</span></span> <span data-ttu-id="b2c1a-107">ตัวอย่างเช่น ร้านค้าสามารถอยู่ในภูมิภาคที่ภาษาอังกฤษเป็นภาษาสามัญสำหรับลูกค้าของพวกเขา แต่ผู้ปฏิบัติงานบางคนต้องการใช้แอพลิเคชันที่มีการแปลภาษาฝรั่งเศส</span><span class="sxs-lookup"><span data-stu-id="b2c1a-107">For example, the store could be located in a region where English is most common for their customers, but some workers prefer to use the application with French translations.</span></span>
 
-## <a name="data-language"></a>ข้อมูลภาษา
-โดยไม่คำนึงถึงการตั้งค่าของผู้ใช้ MPOS และ Cloud POS จะใช้การตั้งค่าภาษาของร้านค้าเพื่อกำหนดการแปลที่จะถูกใช้กับข้อมูลเสมอ ซึ่งจะทำให้แน่ใจว่าผู้ใช้และลูกค้าทั้งหมดจะมีประสบการณ์ที่ตรงกัน  ตัวอย่างของข้อมูล ได้แก่
+## <a name="data-language"></a><span data-ttu-id="b2c1a-108">ข้อมูลภาษา</span><span class="sxs-lookup"><span data-stu-id="b2c1a-108">Data language</span></span>
+<span data-ttu-id="b2c1a-109">โดยไม่คำนึงถึงการตั้งค่าของผู้ใช้ MPOS และ Cloud POS จะใช้การตั้งค่าภาษาของร้านค้าเพื่อกำหนดการแปลที่จะถูกใช้กับข้อมูลเสมอ</span><span class="sxs-lookup"><span data-stu-id="b2c1a-109">Regardless of the user’s settings, MPOS and Cloud POS will always use the store's language settings to determine the translations used for data.</span></span> <span data-ttu-id="b2c1a-110">ซึ่งจะทำให้แน่ใจว่าผู้ใช้และลูกค้าทั้งหมดจะมีประสบการณ์ที่ตรงกัน</span><span class="sxs-lookup"><span data-stu-id="b2c1a-110">This will ensure that all users and customers will have a consistent experience.</span></span>  <span data-ttu-id="b2c1a-111">ตัวอย่างของข้อมูล ได้แก่</span><span class="sxs-lookup"><span data-stu-id="b2c1a-111">Examples of data include:</span></span>
 
--   ผลิตภัณฑ์
--   แอททริบิวต์และมูลค่า
--   ชื่อประเภท
--   ใบเสร็จรับเงินของธุรกรรมที่พิมพ์ออกมาหรือส่งทางอีเมล
--   ชื่อวิธีการชำระเงิน
--   ข้อความแสดงรายการ
+-   <span data-ttu-id="b2c1a-112">ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="b2c1a-112">Products</span></span>
+-   <span data-ttu-id="b2c1a-113">แอททริบิวต์และมูลค่า</span><span class="sxs-lookup"><span data-stu-id="b2c1a-113">Attributes and values</span></span>
+-   <span data-ttu-id="b2c1a-114">ชื่อประเภท</span><span class="sxs-lookup"><span data-stu-id="b2c1a-114">Category names</span></span>
+-   <span data-ttu-id="b2c1a-115">ใบเสร็จรับเงินของธุรกรรมที่พิมพ์ออกมาหรือส่งทางอีเมล</span><span class="sxs-lookup"><span data-stu-id="b2c1a-115">Printed or emailed transaction receipts</span></span>
+-   <span data-ttu-id="b2c1a-116">ชื่อวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b2c1a-116">Payment method names</span></span>
+-   <span data-ttu-id="b2c1a-117">ข้อความแสดงรายการ</span><span class="sxs-lookup"><span data-stu-id="b2c1a-117">Line display messages</span></span>
 
-ภาษาของร้านค้าจะยังใช้สำหรับหน้าจอล็อคอินหลักของ POS เนื่องจากไม่รู้จักผู้ใช้ก่อนที่จะเข้าสู่ระบบ ถ้าการแปลไม่พร้อมใช้งานสำหรับภาษาของร้านค้า POS จะเปลี่ยนกลับไปเป็นภาษาของบริษัท
+<span data-ttu-id="b2c1a-118">ภาษาของร้านค้าจะยังใช้สำหรับหน้าจอล็อคอินหลักของ POS เนื่องจากไม่รู้จักผู้ใช้ก่อนที่จะเข้าสู่ระบบ</span><span class="sxs-lookup"><span data-stu-id="b2c1a-118">The store’s language will also be used for the main POS login screen, since the user is not known before logging in.</span></span> <span data-ttu-id="b2c1a-119">ถ้าการแปลไม่พร้อมใช้งานสำหรับภาษาของร้านค้า POS จะเปลี่ยนกลับไปเป็นภาษาของบริษัท</span><span class="sxs-lookup"><span data-stu-id="b2c1a-119">If a translation is not available for the store’s language, the POS will revert to the company’s language.</span></span>
 
-### <a name="configuring-the-stores-language-setting"></a>การตั้งค่าคอนฟิกการตั้งค่าภาษาของร้านค้า
+### <a name="configuring-the-stores-language-setting"></a><span data-ttu-id="b2c1a-120">การตั้งค่าคอนฟิกการตั้งค่าภาษาของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b2c1a-120">Configuring the store’s language setting</span></span>
 
-การตั้งค่าภาษาของร้านค้าจากหน้า **ร้านค้าปลีกทั้งหมด** ในหน้า **ร้านค้าปลีก** ภายใต้ ** ทั่วไป &gt; การตั้งค่าภูมิภาค &gt; ภาษา **ใช้รายการที่หล่นลงมาเพื่อเลือกภาษาสำหรับแต่ละร้านค้า
+<span data-ttu-id="b2c1a-121">การตั้งค่าภาษาของร้านค้าจากหน้า **ร้านค้าปลีกทั้งหมด** ในหน้า **ร้านค้าปลีก** ภายใต้ ** ทั่วไป &gt; การตั้งค่าภูมิภาค &gt; ภาษา</span><span class="sxs-lookup"><span data-stu-id="b2c1a-121">The store’s language setting is set from **All retail stores** on the **Retail Store** page under **General &gt; Regional Settings &gt; Language.</span></span> <span data-ttu-id="b2c1a-122">**ใช้รายการที่หล่นลงมาเพื่อเลือกภาษาสำหรับแต่ละร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b2c1a-122">**Use the drop down to choose the language for each store.</span></span>
 
-## <a name="user-interface-language"></a>ภาษาของอินเทอร์เฟสผู้ใช้
-การตั้งค่าภาษาของผู้ใช้ POS กำหนดว่าการแปลที่ใช้ในอินเทอร์เฟสผู้ใช้แอพลิเคชัน ซึ่งรวมถึงป้ายชื่อ เมนู และรายการทั้งหมดที่ไม่ถือว่าเป็นข้อมูล หนึ่งข้อยกเว้นต่อสิ่งนี้คือ ข้อความที่แสดงบนกริดปุ่ม POS สิ่งเหล่านี้ไม่สนับสนุนการแปล ดังนั้นระบบจะแสดงข้อความตามที่กำหนดบนปุ่มเสมอ เพื่อที่จะสนับสนุนปุ่มการแปล คุณจะต้องทำการคัดลอกและรักษากริดปุ่มที่แยกต่างหากและมอบหมายกริดปุ่มเหล่านั้นให้กับผู้ใช้ตามความเหมาะสม
+## <a name="user-interface-language"></a><span data-ttu-id="b2c1a-123">ภาษาของอินเทอร์เฟสผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="b2c1a-123">User interface language</span></span>
+<span data-ttu-id="b2c1a-124">การตั้งค่าภาษาของผู้ใช้ POS กำหนดว่าการแปลที่ใช้ในอินเทอร์เฟสผู้ใช้แอพลิเคชัน</span><span class="sxs-lookup"><span data-stu-id="b2c1a-124">The POS user’s language setting determines the translations used in the application user interface.</span></span> <span data-ttu-id="b2c1a-125">ซึ่งรวมถึงป้ายชื่อ เมนู และรายการทั้งหมดที่ไม่ถือว่าเป็นข้อมูล</span><span class="sxs-lookup"><span data-stu-id="b2c1a-125">This includes all labels, menus, and lists that are not considered data.</span></span> <span data-ttu-id="b2c1a-126">หนึ่งข้อยกเว้นต่อสิ่งนี้คือ ข้อความที่แสดงบนกริดปุ่ม POS</span><span class="sxs-lookup"><span data-stu-id="b2c1a-126">One exception is the text that is displayed on POS button grids.</span></span> <span data-ttu-id="b2c1a-127">สิ่งเหล่านี้ไม่สนับสนุนการแปล ดังนั้นระบบจะแสดงข้อความตามที่กำหนดบนปุ่มเสมอ</span><span class="sxs-lookup"><span data-stu-id="b2c1a-127">The button grids don't support translations, so they will always show the text as defined on the button.</span></span> <span data-ttu-id="b2c1a-128">เพื่อที่จะสนับสนุนปุ่มการแปล คุณจะต้องทำการคัดลอกและรักษากริดปุ่มที่แยกต่างหากและมอบหมายกริดปุ่มเหล่านั้นให้กับผู้ใช้ตามความเหมาะสม</span><span class="sxs-lookup"><span data-stu-id="b2c1a-128">In order to support translated buttons, you'll have to copy and maintain separate button grids and assign them to the users as appropriate.</span></span>
 
-### <a name="configuring-the-users-language-setting"></a>การตั้งค่าคอนฟิกการตั้งค่าภาษาของร้านค้า
+### <a name="configuring-the-users-language-setting"></a><span data-ttu-id="b2c1a-129">การตั้งค่าคอนฟิกการตั้งค่าภาษาของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b2c1a-129">Configuring the user’s language setting</span></span>
 
-ตั้งค่าจากการตั้งค่าภาษาของผู้ใช้ POS มาจากการตั้งค่า **ผู้ปฏิบัติงานทั้งหมด** ในหน้า **ผู้ปฏิบัติงาน** ภายใต้ **การขายปลีก &gt; ภาษา**  ไม่ได้ถูกตั้งค่าบนแท็บโพรไฟล์หลัก  ไม่มีการใช้การตั้งค่านี้โดย POS ถ้าภาษาของผู้ใช่ไม่ได้ถูกตั้งค่าหรือมีการตั้งค่าไปยังภาษาที่การแปลไม่พร้อมใช้งาน POS จะเปลี่ยนกลับไปยังภาษาของร้านค้า  
+<span data-ttu-id="b2c1a-130">ตั้งค่าจากการตั้งค่าภาษาของผู้ใช้ POS มาจากการตั้งค่า **ผู้ปฏิบัติงานทั้งหมด** ในหน้า **ผู้ปฏิบัติงาน** ภายใต้ **การขายปลีก &gt; ภาษา**</span><span class="sxs-lookup"><span data-stu-id="b2c1a-130">The POS user’s language setting is set from **All workers** on the **Worker** page under **Retail &gt; Language**.</span></span>  <span data-ttu-id="b2c1a-131">ไม่ได้ถูกตั้งค่าบนแท็บโพรไฟล์หลัก</span><span class="sxs-lookup"><span data-stu-id="b2c1a-131">It is not set on the main Profile tab.</span></span>  <span data-ttu-id="b2c1a-132">ไม่มีการใช้การตั้งค่านี้โดย POS</span><span class="sxs-lookup"><span data-stu-id="b2c1a-132">This setting is not used by POS.</span></span> <span data-ttu-id="b2c1a-133">ถ้าภาษาของผู้ใช่ไม่ได้ถูกตั้งค่าหรือมีการตั้งค่าไปยังภาษาที่การแปลไม่พร้อมใช้งาน POS จะเปลี่ยนกลับไปยังภาษาของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b2c1a-133">If the user’s language is not set or it is set to a language where translations are not available, the POS will revert to the store’s language.</span></span>  
 
 |             |                            |                                                                   |
 |-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **ภาษา UI** ** **      | **ข้อมูลภาษา(ผลิตภัณฑ์ รูปแบบใบเสร็จ จอแสดงผลรายการ เป็นต้น)** |
-| **บริษัท** | ค่าเริ่มต้น                    | ค่าเริ่มต้น                                                           |
-| **ร้านค้า**   | การแทนที่บริษัท          | การแทนที่บริษัท                                                 |
-| **ผู้ใช้**    | การแทนที่ร้านค้าหรือบริษัท | ไม่                                                             |
+| <span data-ttu-id="b2c1a-134">** **</span><span class="sxs-lookup"><span data-stu-id="b2c1a-134">** **</span></span>       | <span data-ttu-id="b2c1a-135">**ภาษา UI** ** **</span><span class="sxs-lookup"><span data-stu-id="b2c1a-135">**UI language** ** **</span></span>      | <span data-ttu-id="b2c1a-136">**ข้อมูลภาษา(ผลิตภัณฑ์ รูปแบบใบเสร็จ จอแสดงผลรายการ เป็นต้น)**</span><span class="sxs-lookup"><span data-stu-id="b2c1a-136">**Data language (products, receipt formats, line display, etc.)**</span></span> |
+| <span data-ttu-id="b2c1a-137">**บริษัท**</span><span class="sxs-lookup"><span data-stu-id="b2c1a-137">**Company**</span></span> | <span data-ttu-id="b2c1a-138">ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="b2c1a-138">Default</span></span>                    | <span data-ttu-id="b2c1a-139">ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="b2c1a-139">Default</span></span>                                                           |
+| <span data-ttu-id="b2c1a-140">**ร้านค้า**</span><span class="sxs-lookup"><span data-stu-id="b2c1a-140">**Store**</span></span>   | <span data-ttu-id="b2c1a-141">การแทนที่บริษัท</span><span class="sxs-lookup"><span data-stu-id="b2c1a-141">Overrides company</span></span>          | <span data-ttu-id="b2c1a-142">การแทนที่บริษัท</span><span class="sxs-lookup"><span data-stu-id="b2c1a-142">Overrides company</span></span>                                                 |
+| <span data-ttu-id="b2c1a-143">**ผู้ใช้**</span><span class="sxs-lookup"><span data-stu-id="b2c1a-143">**User**</span></span>    | <span data-ttu-id="b2c1a-144">การแทนที่ร้านค้าหรือบริษัท</span><span class="sxs-lookup"><span data-stu-id="b2c1a-144">Overrides store or company</span></span> | <span data-ttu-id="b2c1a-145">ไม่</span><span class="sxs-lookup"><span data-stu-id="b2c1a-145">Never</span></span>                                                             |
 
 
 

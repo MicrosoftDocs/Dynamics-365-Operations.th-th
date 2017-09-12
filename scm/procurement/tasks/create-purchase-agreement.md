@@ -16,72 +16,72 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 22a252d98da5415f50a1d6ffb28f57aae19b5d14
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-agreement"></a>สร้างข้อตกลงการซื้อ
+# <a name="create-a-purchase-agreement"></a><span data-ttu-id="7cbff-103">สร้างข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7cbff-103">Create a purchase agreement</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้นำคุณผ่านการสร้างข้อตกลงการซื้อ  ซึ่งโดยทั่วไปสามารถทำได้โดยผู้จัดการฝ่ายจัดซื้อ คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเองได้ คุณต้องตั้งค่าการจัดประเภทข้อตกลงการซื้อก่อนที่คุณเริ่มต้น เมื่อคุณสร้างข้อตกลงแล้ว คุณสามารถใช้เมื่อคุณสร้างใบสั่งซื้อ และนี่จะคัดลอกเงื่อนไขข้อตกลงการซื้อไปยังหัวข้อและรายการที่อยู่ในใบสั่งที่ได้รับผลกระทบโดยข้อตกลง
+<span data-ttu-id="7cbff-104">ขั้นตอนนี้นำคุณผ่านการสร้างข้อตกลงการซื้อ </span><span class="sxs-lookup"><span data-stu-id="7cbff-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="7cbff-105">ซึ่งโดยทั่วไปสามารถทำได้โดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="7cbff-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="7cbff-106">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเองได้</span><span class="sxs-lookup"><span data-stu-id="7cbff-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="7cbff-107">คุณต้องตั้งค่าการจัดประเภทข้อตกลงการซื้อก่อนที่คุณเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="7cbff-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="7cbff-108">เมื่อคุณสร้างข้อตกลงแล้ว คุณสามารถใช้เมื่อคุณสร้างใบสั่งซื้อ และนี่จะคัดลอกเงื่อนไขข้อตกลงการซื้อไปยังหัวข้อและรายการที่อยู่ในใบสั่งที่ได้รับผลกระทบโดยข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="7cbff-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 
 
-## <a name="create-a-new-purchase-agreement"></a>สร้างข้อตกลงการซื้อใหม่
-1. ไปที่การจัดซื้อและการจัดหา > ข้อตกลงการซื้อ > ข้อตกลงการซื้อ
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. ในฟิลด์การจัดประเภทข้อตกลงการสั่งซื้อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-7. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-9. ขยายส่วน ทั่วไป
-10. ในฟิลด์วันที่สิ้นสุด ป้อนวันที่
-    * วันหมดอายุนี้จะเป็นค่าเริ่มต้นสำหรับรายการข้อผูกมัดทั้งหมด และจะกำหนดระยะเวลาที่ข้อผูกมัดเฉพาะแต่ละรายการจะมีผลบังคับใช้  
-11. ในฟิลด์ชื่อเอกสาร ให้พิมพ์ชื่อข้อตกลงการซื้อของคุณ
-    * ปล่อยให้ฟิลด์การตั้งค่าเริ่มต้นข้อผูกมัดตั้งค่าไปที่ข้อผูกมัดปริมาณผลิตภัณฑ์ (หรือเปลี่ยนถ้าไม่มีการตั้งค่านี้)  
-    * ค่าเริ่มต้นข้อผูกมัดกำหนดตัวเลือกรายการข้อตกลง  ถ้าคุณต้องการชนิดข้อผูกมัดใหม่เมื่อคุณกำลังสร้างข้อตกลง คุณจำเป็นต้องเปลี่ยนข้อผูกมัดเริ่มต้นบนส่วนหัว   มีข้อผูกมัด 4 ชนิด: ข้อผูกมัดปริมาณผลิตภัณฑ์ - สำหรับระบุปริมาณแต่ละผลิตภัณฑ์ ข้อผูกมัดมูลค่าผลิตภัณฑ์ - สำหรับระบุจำนวนสกุลเงินของแต่ละผลิตภัณฑ์ ข้อผูกมัดมูลค่าประเภทผลิตภัณฑ์ - สำหรับระบุจำนวนสกุลเงินในแต่ละประเภทการจัดซื้อที่จำนวนเงินสามารถเป็นยอดเงินสำหรับแค็ตตาล็อกสินค้าหรือสินค้าไม่มีในแค็ตตาล็อก ข้อผูกมัดมูลค่า - สำหรับระบุจำนวนสกุลเงินซึ่งสามารถดำเนินการตามผลิตภัณฑ์ใดๆหรือตามประเภทการจัดซื้อใดๆ  
-12. คลิก ตกลง
+## <a name="create-a-new-purchase-agreement"></a><span data-ttu-id="7cbff-109">สร้างข้อตกลงการซื้อใหม่</span><span class="sxs-lookup"><span data-stu-id="7cbff-109">Create a new purchase agreement</span></span>
+1. <span data-ttu-id="7cbff-110">ไปที่การจัดซื้อและการจัดหา > ข้อตกลงการซื้อ > ข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7cbff-110">Go to Procurement and sourcing > Purchase agreements > Purchase agreements.</span></span>
+2. <span data-ttu-id="7cbff-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7cbff-111">Click New.</span></span>
+3. <span data-ttu-id="7cbff-112">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7cbff-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="7cbff-113">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7cbff-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="7cbff-114">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-114">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="7cbff-115">ในฟิลด์การจัดประเภทข้อตกลงการสั่งซื้อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7cbff-115">In the Purchase agreement classification field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="7cbff-116">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7cbff-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="7cbff-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="7cbff-118">ขยายส่วน ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="7cbff-118">Expand the General section.</span></span>
+10. <span data-ttu-id="7cbff-119">ในฟิลด์วันที่สิ้นสุด ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="7cbff-119">In the Expiration date field, enter a date.</span></span>
+    * <span data-ttu-id="7cbff-120">วันหมดอายุนี้จะเป็นค่าเริ่มต้นสำหรับรายการข้อผูกมัดทั้งหมด และจะกำหนดระยะเวลาที่ข้อผูกมัดเฉพาะแต่ละรายการจะมีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="7cbff-120">This expiration date will be the default for all commitment lines and will determine how long each specific commitment is valid.</span></span>  
+11. <span data-ttu-id="7cbff-121">ในฟิลด์ชื่อเอกสาร ให้พิมพ์ชื่อข้อตกลงการซื้อของคุณ</span><span class="sxs-lookup"><span data-stu-id="7cbff-121">In the Document title field, type a name for your purchase agreement.</span></span>
+    * <span data-ttu-id="7cbff-122">ปล่อยให้ฟิลด์การตั้งค่าเริ่มต้นข้อผูกมัดตั้งค่าไปที่ข้อผูกมัดปริมาณผลิตภัณฑ์ (หรือเปลี่ยนถ้าไม่มีการตั้งค่านี้)</span><span class="sxs-lookup"><span data-stu-id="7cbff-122">Leave the Default commitment field set to Product quantity commitment (or change it if it’s not set to this).</span></span>  
+    * <span data-ttu-id="7cbff-123">ค่าเริ่มต้นข้อผูกมัดกำหนดตัวเลือกรายการข้อตกลง </span><span class="sxs-lookup"><span data-stu-id="7cbff-123">The default commitment value determines your options on the agreement lines.</span></span> <span data-ttu-id="7cbff-124">ถ้าคุณต้องการชนิดข้อผูกมัดใหม่เมื่อคุณกำลังสร้างข้อตกลง คุณจำเป็นต้องเปลี่ยนข้อผูกมัดเริ่มต้นบนส่วนหัว </span><span class="sxs-lookup"><span data-stu-id="7cbff-124">If you need a new commitment type when you’re creating the agreement lines, you need to change the default commitment on the header.</span></span>  <span data-ttu-id="7cbff-125">มีข้อผูกมัด 4 ชนิด: ข้อผูกมัดปริมาณผลิตภัณฑ์ - สำหรับระบุปริมาณแต่ละผลิตภัณฑ์ ข้อผูกมัดมูลค่าผลิตภัณฑ์ - สำหรับระบุจำนวนสกุลเงินของแต่ละผลิตภัณฑ์ ข้อผูกมัดมูลค่าประเภทผลิตภัณฑ์ - สำหรับระบุจำนวนสกุลเงินในแต่ละประเภทการจัดซื้อที่จำนวนเงินสามารถเป็นยอดเงินสำหรับแค็ตตาล็อกสินค้าหรือสินค้าไม่มีในแค็ตตาล็อก ข้อผูกมัดมูลค่า - สำหรับระบุจำนวนสกุลเงินซึ่งสามารถดำเนินการตามผลิตภัณฑ์ใดๆหรือตามประเภทการจัดซื้อใดๆ</span><span class="sxs-lookup"><span data-stu-id="7cbff-125">There are 4 types of commitments: Product quantity commitment - for a specific quantity of a product; Product value commitment - for a specific currency amount of a product; Product category value commitment - for a specific currency amount in a procurement category where the amount can be for a catalog item or a non-catalog item; Value commitment - for a specific currency amount which can be fulfilled by any product or by any procurement category.</span></span>  
+12. <span data-ttu-id="7cbff-126">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="7cbff-126">Click OK.</span></span>
 
-## <a name="add-a-commitment"></a>เพิ่มข้อผูกมัด
-1. คลิก เพิ่มรายการ
-2. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-3. ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. เลือกผลิตภัณฑ์คุณต้องการเพิ่มข้อผูกมัด
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-    * นี่คือปริมาณรวมที่คุณได้ตกลงที่จะซื้อจากผู้จัดจำหน่าย  
-7. ในฟิลด์ ราคาต่อหน่วย ให้ป้อนตัวเลข
-8. ขยายส่วน รายละเอียดของรายการ
-9. ตั้งค่าตัวเลือกค่าสูงสุดที่ถูกบังคับใช้เป็นใช่
-    * ค่าสูงสุดจะบังคับตัวเลือกที่จะใช้ข้อผูกมัด  คุณสามารถซื้อจนถึงปริมาณที่ระบุในฟิลด์ปริมาณสำหรับรายการเท่านั้น  
-10. ยุบส่วนรายละเอียดของรายการ
+## <a name="add-a-commitment"></a><span data-ttu-id="7cbff-127">เพิ่มข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="7cbff-127">Add a commitment</span></span>
+1. <span data-ttu-id="7cbff-128">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="7cbff-128">Click Add line.</span></span>
+2. <span data-ttu-id="7cbff-129">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-129">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="7cbff-130">ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7cbff-130">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="7cbff-131">เลือกผลิตภัณฑ์คุณต้องการเพิ่มข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="7cbff-131">Select the product you want to add a commitment for.</span></span>
+5. <span data-ttu-id="7cbff-132">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-132">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="7cbff-133">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7cbff-133">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="7cbff-134">นี่คือปริมาณรวมที่คุณได้ตกลงที่จะซื้อจากผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7cbff-134">This is the total quantity that you have agreed to buy from your vendor.</span></span>  
+7. <span data-ttu-id="7cbff-135">ในฟิลด์ ราคาต่อหน่วย ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7cbff-135">In the Unit price field, enter a number.</span></span>
+8. <span data-ttu-id="7cbff-136">ขยายส่วน รายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="7cbff-136">Expand the Line details section.</span></span>
+9. <span data-ttu-id="7cbff-137">ตั้งค่าตัวเลือกค่าสูงสุดที่ถูกบังคับใช้เป็นใช่</span><span class="sxs-lookup"><span data-stu-id="7cbff-137">Set the Max is enforced option to Yes.</span></span>
+    * <span data-ttu-id="7cbff-138">ค่าสูงสุดจะบังคับตัวเลือกที่จะใช้ข้อผูกมัด </span><span class="sxs-lookup"><span data-stu-id="7cbff-138">The Max is enforced option limits the use of the commitment.</span></span> <span data-ttu-id="7cbff-139">คุณสามารถซื้อจนถึงปริมาณที่ระบุในฟิลด์ปริมาณสำหรับรายการเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="7cbff-139">You can only purchase up to the quantity that's specified in the Quantity field for the line.</span></span>  
+10. <span data-ttu-id="7cbff-140">ยุบส่วนรายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="7cbff-140">Collapse the Line details section.</span></span>
 
-## <a name="add-header-conditions"></a>เพิ่มเงื่อนไขส่วนหัว
-1. ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก
-2. คลิกเปลี่ยนมุมมอง
-3. คลิกมุมมองหัวข้อ 
-4. ขยายส่วน ข้อกำหนด
-5. ในฟิลด์วิธีการชำระเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-    * เงื่อนไขการชำระเงินจากบัญชีผู้จัดจำหน่ายจะแสดงไว้ที่นี่โดยค่าเริ่มต้น       
-6. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-7. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-8. ในฟิลด์วิธีการจัดส่ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-9. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-10. ในฟิลด์เงื่อนไขการจัดส่ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-11. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
+## <a name="add-header-conditions"></a><span data-ttu-id="7cbff-141">เพิ่มเงื่อนไขส่วนหัว</span><span class="sxs-lookup"><span data-stu-id="7cbff-141">Add header conditions</span></span>
+1. <span data-ttu-id="7cbff-142">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-142">On the Action Pane, click Options.</span></span>
+2. <span data-ttu-id="7cbff-143">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="7cbff-143">Click Change view.</span></span>
+3. <span data-ttu-id="7cbff-144">คลิกมุมมองหัวข้อ </span><span class="sxs-lookup"><span data-stu-id="7cbff-144">Click Header view.</span></span>
+4. <span data-ttu-id="7cbff-145">ขยายส่วน ข้อกำหนด</span><span class="sxs-lookup"><span data-stu-id="7cbff-145">Expand the Terms section.</span></span>
+5. <span data-ttu-id="7cbff-146">ในฟิลด์วิธีการชำระเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7cbff-146">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="7cbff-147">เงื่อนไขการชำระเงินจากบัญชีผู้จัดจำหน่ายจะแสดงไว้ที่นี่โดยค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="7cbff-147">The payment terms from the vendor account are shown here by default.</span></span>       
+6. <span data-ttu-id="7cbff-148">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7cbff-148">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="7cbff-149">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-149">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="7cbff-150">ในฟิลด์วิธีการจัดส่ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7cbff-150">In the Mode of delivery field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="7cbff-151">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-151">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="7cbff-152">ในฟิลด์เงื่อนไขการจัดส่ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7cbff-152">In the Delivery terms field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="7cbff-153">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7cbff-153">In the list, click the link in the selected row.</span></span>
 
-## <a name="confirm-and-activate-the-agreement"></a>ยืนยันและเรียกใช้ข้อตกลง
-1. ในบานหน้าต่างการดำเนินการ คลิกที่ข้อตกลงการซื้อ
-2. คลิกการยืนยัน
-    * ตั้งค่าข้อตกลงโดยทำเครื่องหมายมีผลบังคับใช้เป็นใช่  
-3. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-4. ในบานหน้าต่างการดำเนินการ คลิกที่ข้อตกลงการซื้อ
-5. คลิกยืนยันข้อตกลงการซื้อ
-    * ตัวเลือกการแสดงตัวอย่าง/พิมพ์อนุญาตให้คุณสร้างเอกสารสำหรับข้อตกลงการซื้อซึ่งคุณสามารถพิมพ์ หรือส่งไปยังผู้จัดจำหน่าย  ถ้าคุณอัพเดตข้อตกลงในภายหลัง และยืนยันอีกครั้ง เวอร์ชันทั้งสองจะถูกแสดงที่นี่  
-6. ปิดหน้า
+## <a name="confirm-and-activate-the-agreement"></a><span data-ttu-id="7cbff-154">ยืนยันและเรียกใช้ข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="7cbff-154">Confirm and activate the agreement</span></span>
+1. <span data-ttu-id="7cbff-155">ในบานหน้าต่างการดำเนินการ คลิกที่ข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7cbff-155">On the Action Pane, click Purchase agreement.</span></span>
+2. <span data-ttu-id="7cbff-156">คลิกการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="7cbff-156">Click Confirmation.</span></span>
+    * <span data-ttu-id="7cbff-157">ตั้งค่าข้อตกลงโดยทำเครื่องหมายมีผลบังคับใช้เป็นใช่</span><span class="sxs-lookup"><span data-stu-id="7cbff-157">Set the Mark agreement as effective option to Yes.</span></span>  
+3. <span data-ttu-id="7cbff-158">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="7cbff-158">Click OK.</span></span>
+4. <span data-ttu-id="7cbff-159">ในบานหน้าต่างการดำเนินการ คลิกที่ข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7cbff-159">On the Action Pane, click Purchase agreement.</span></span>
+5. <span data-ttu-id="7cbff-160">คลิกยืนยันข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7cbff-160">Click Purchase agreement confirmations.</span></span>
+    * <span data-ttu-id="7cbff-161">ตัวเลือกการแสดงตัวอย่าง/พิมพ์อนุญาตให้คุณสร้างเอกสารสำหรับข้อตกลงการซื้อซึ่งคุณสามารถพิมพ์ หรือส่งไปยังผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="7cbff-161">The Preview/Print option allows you to generate a document for the purchase agreement which you can then print or send to the vendor.</span></span> <span data-ttu-id="7cbff-162">ถ้าคุณอัพเดตข้อตกลงในภายหลัง และยืนยันอีกครั้ง เวอร์ชันทั้งสองจะถูกแสดงที่นี่</span><span class="sxs-lookup"><span data-stu-id="7cbff-162">If you update the agreement later on and re-confirm it, both versions will be shown here.</span></span>  
+6. <span data-ttu-id="7cbff-163">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7cbff-163">Close the page.</span></span>
 
 

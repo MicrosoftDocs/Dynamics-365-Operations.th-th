@@ -18,155 +18,155 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 736eedf270ac08b0bdf9364821f8a7bae981ade9
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="enter-payroll-beginning-balances"></a>ป้อนยอดดุลต้นงวดของค่าจ้าง
+# <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="6d69d-104">ป้อนยอดดุลต้นงวดของค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="6d69d-104">Enter payroll beginning balances</span></span>
 
 [!include[banner](../../includes/banner.md)]
 
-หัวข้ออธิบายขั้นตอนสำหรับการป้อนยอดดุลต้นงวดสำหรับรหัสรายได้ การหักลด สวัสดิการ และภาษี ข้อมูลนี้มีประโยชน์สำหรับคู่ค้า ผู้ซึ่งโอนย้ายข้อมูลสำหรับการใช้งานค่าจ้างใหม่จากระบบอื่น ในการเตรียมป้อนยอดดุลค่าจ้างต้นงวด เราตรวจสอบข้อมูลต่อไปนี้:
+<span data-ttu-id="6d69d-105">หัวข้ออธิบายขั้นตอนสำหรับการป้อนยอดดุลต้นงวดสำหรับรหัสรายได้ การหักลด สวัสดิการ และภาษี</span><span class="sxs-lookup"><span data-stu-id="6d69d-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="6d69d-106">ข้อมูลนี้มีประโยชน์สำหรับคู่ค้า ผู้ซึ่งโอนย้ายข้อมูลสำหรับการใช้งานค่าจ้างใหม่จากระบบอื่น</span><span class="sxs-lookup"><span data-stu-id="6d69d-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="6d69d-107">ในการเตรียมป้อนยอดดุลค่าจ้างต้นงวด เราตรวจสอบข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 
-> * เรกคอร์ดพนักงานถูกป้อน และพร้อมใช้งานในระบบ
-> * ข้อมูลต่อไปนี้ถูกตั้งค่า และมอบหมายให้แก่พนักงาน:
+> * <span data-ttu-id="6d69d-108">เรกคอร์ดพนักงานถูกป้อน และพร้อมใช้งานในระบบ</span><span class="sxs-lookup"><span data-stu-id="6d69d-108">Employee records are entered and available in the system</span></span>
+> * <span data-ttu-id="6d69d-109">ข้อมูลต่อไปนี้ถูกตั้งค่า และมอบหมายให้แก่พนักงาน:</span><span class="sxs-lookup"><span data-stu-id="6d69d-109">The following data is set up and assigned to employees:</span></span>
 
-> > * รอบการชำระค่าจ้างและรอบระยะเวลาการชำระค่าจ้าง
-> > * รหัสรายได้
-> > * ภาษี
-> > * สวัสดิการและการหักลด
+> > * <span data-ttu-id="6d69d-110">รอบการชำระค่าจ้างและรอบระยะเวลาการชำระค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="6d69d-110">Pay cycles and pay periods</span></span>
+> > * <span data-ttu-id="6d69d-111">รหัสรายได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-111">Earning codes</span></span>
+> > * <span data-ttu-id="6d69d-112">ภาษี</span><span class="sxs-lookup"><span data-stu-id="6d69d-112">Taxes</span></span>
+> > * <span data-ttu-id="6d69d-113">สวัสดิการและการหักลด</span><span class="sxs-lookup"><span data-stu-id="6d69d-113">Benefits and deductions</span></span>
 
-> * บริษัทน่าจะเลือกวันซึ่งสามารถตั้งค่ายอดดุลต้นงวดเกี่ยวกับค่าจ้างได้
+> * <span data-ttu-id="6d69d-114">บริษัทน่าจะเลือกวันซึ่งสามารถตั้งค่ายอดดุลต้นงวดเกี่ยวกับค่าจ้างได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-114">The company should have chosen a date where payroll beginning balances can be set.</span></span>
 
-> * ข้อมูลถูกรวบรวมในรายได้ทั้งหมด สวัสดิการ/การหักเงิน การจัดสรรสวัสดิการ ภาษีพนักงาน และภาษีนายจ้าง และยอดเงิน YTD ของพวกเขาจากระบบดั้งเดิม
+> * <span data-ttu-id="6d69d-115">ข้อมูลถูกรวบรวมในรายได้ทั้งหมด สวัสดิการ/การหักเงิน การจัดสรรสวัสดิการ ภาษีพนักงาน และภาษีนายจ้าง และยอดเงิน YTD ของพวกเขาจากระบบดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="6d69d-115">Information were gathered on all earnings, benefits/deductions, benefit contributions, employee taxes, and employer taxes and their YTD amounts from the legacy system.</span></span>
 
-เมื่อคุณวางแผนที่จะป้อนยอดดุลต้นงวด พิจารณาว่าความละเอียดข้อมูลต้องเป็นระดับใด ธุรกิจส่วนใหญ่ป้อนยอดเดี่ยวที่รวมบัญชีตั้งแต่ต้นปีจนถึงปัจจุบัน อย่างไรก็ตาม ถ้าต้องการข้อมูลเพิ่มเติม ยอดดุลคุณสามารถป้อนในส่วนเพิ่มรายไตรมาส การตัดสินใจระดับของรายละเอียดที่จำเป็น จะกำหนดจำนวนใบแจ้งยอดการชำระเงินด้วยตนเองต้องถูกสร้างขึ้นสำหรับแต่ละผู้ปฏิบัติงาน สำหรับยอดเงินเดี่ยวตั้งแต่ต้นปีจนถึงปัจจุบัน จำเป็นต้องมีรายงานการเงินแบบกำหนดเองหนึ่งรายการเท่านั้นสำหรับพนักงานแต่ละคน เพื่อทำเช่นนี้ ใช้ยอดเงินตั้งแต่ต้นปีจนถึงปัจจุบันจากใบแจ้งยอดการชำระเงินสุดท้ายจากระบบก่อนหน้านี้ ให้เป็นยอดเงินที่ป้อนในระบบค่าจ้างใหม่
+<span data-ttu-id="6d69d-116">เมื่อคุณวางแผนที่จะป้อนยอดดุลต้นงวด พิจารณาว่าความละเอียดข้อมูลต้องเป็นระดับใด</span><span class="sxs-lookup"><span data-stu-id="6d69d-116">As you plan to enter beginning balances, consider how detailed the data needs to be.</span></span> <span data-ttu-id="6d69d-117">ธุรกิจส่วนใหญ่ป้อนยอดเดี่ยวที่รวมบัญชีตั้งแต่ต้นปีจนถึงปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="6d69d-117">Most businesses enter a single, consolidated year-to-date amount.</span></span> <span data-ttu-id="6d69d-118">อย่างไรก็ตาม ถ้าต้องการข้อมูลเพิ่มเติม ยอดดุลคุณสามารถป้อนในส่วนเพิ่มรายไตรมาส</span><span class="sxs-lookup"><span data-stu-id="6d69d-118">However if more detailed information is needed, balances can be entered in quarterly increments.</span></span> <span data-ttu-id="6d69d-119">การตัดสินใจระดับของรายละเอียดที่จำเป็น จะกำหนดจำนวนใบแจ้งยอดการชำระเงินด้วยตนเองต้องถูกสร้างขึ้นสำหรับแต่ละผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="6d69d-119">Deciding the level of detail that's needed determines how many manual pay statements must be created for each worker.</span></span> <span data-ttu-id="6d69d-120">สำหรับยอดเงินเดี่ยวตั้งแต่ต้นปีจนถึงปัจจุบัน จำเป็นต้องมีรายงานการเงินแบบกำหนดเองหนึ่งรายการเท่านั้นสำหรับพนักงานแต่ละคน</span><span class="sxs-lookup"><span data-stu-id="6d69d-120">For a single year-to-date amount, only one manual statement is needed for each employee.</span></span> <span data-ttu-id="6d69d-121">เพื่อทำเช่นนี้ ใช้ยอดเงินตั้งแต่ต้นปีจนถึงปัจจุบันจากใบแจ้งยอดการชำระเงินสุดท้ายจากระบบก่อนหน้านี้ ให้เป็นยอดเงินที่ป้อนในระบบค่าจ้างใหม่</span><span class="sxs-lookup"><span data-stu-id="6d69d-121">To do this use year-to-date amounts from the final pay statement from the previous system as the amount entered in the new payroll system.</span></span>
 
-ตัวอย่างต่อไปนี้แสดงวิธีที่คุณสามารถป้อนยอดดุลเริ่มต้นของค่าจ้างของพนักงาน ซึ่งรวมถึงรหัสรายได้ สวัสดิการ/การหักเงิน และภาษี ในตัวอย่างของโลกแห่งความเป็นจริง คุณจะต้องมีสินค้าในรายการสำหรับแต่ละรหัสรายได้ การหักลดสวัสดิการ การจ่ายเงินสมทบของสวัสดิการ ภาษีพนักงาน และภาษีนายจ้าง ที่มียอดเงินที่ป้อนเป็นยอดตั้งแต่ปีจนถึงปัจจุบัน โดยใช้รายการของรหัสและยอดเงิน ทำตามขั้นตอนสำหรับการสร้างรายได้แบบธรรมดา และใบแจ้งยอดการชำระค่าจ้าง ที่มีการบัญชีที่ปิดใช้งานเพื่อนำยอดดุลต้นงวดมาใช้เพื่อวัตถุประสงค์ของค่าจ้าง  คุณปิดการใช้งานการบัญชี เนื่องจากคุณไม่ต้องลงรายการบัญชีใบแจ้งยอดการชำระของยอดดุลนี้ไปยังบัญชีแยกประเภททั่วไปของคุณ ที่ทำในระบบดั้งเดิม และจะใช้กับเกินไปยังระบบใหม่เมื่อคุณกำหนดยอดดุลต้นงวดในบัญชีแยกประเภททั่วไป
+<span data-ttu-id="6d69d-122">ตัวอย่างต่อไปนี้แสดงวิธีที่คุณสามารถป้อนยอดดุลเริ่มต้นของค่าจ้างของพนักงาน ซึ่งรวมถึงรหัสรายได้ สวัสดิการ/การหักเงิน และภาษี</span><span class="sxs-lookup"><span data-stu-id="6d69d-122">The following example shows how you can enter employee payroll beginning balances, including earning codes, benefits/deductions, and taxes.</span></span> <span data-ttu-id="6d69d-123">ในตัวอย่างของโลกแห่งความเป็นจริง คุณจะต้องมีสินค้าในรายการสำหรับแต่ละรหัสรายได้ การหักลดสวัสดิการ การจ่ายเงินสมทบของสวัสดิการ ภาษีพนักงาน และภาษีนายจ้าง ที่มียอดเงินที่ป้อนเป็นยอดตั้งแต่ปีจนถึงปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="6d69d-123">In a real-world example you would have a line item for each earning code, benefit deduction, benefit contribution, employee tax and employer tax with the amount entered being the year-to-date amount.</span></span> <span data-ttu-id="6d69d-124">โดยใช้รายการของรหัสและยอดเงิน ทำตามขั้นตอนสำหรับการสร้างรายได้แบบธรรมดา และใบแจ้งยอดการชำระค่าจ้าง ที่มีการบัญชีที่ปิดใช้งานเพื่อนำยอดดุลต้นงวดมาใช้เพื่อวัตถุประสงค์ของค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="6d69d-124">Using that list of codes and amounts, follow the steps for creating a manual earning and pay statement with accounting disabled to bring over beginning balances for payroll purposes.</span></span>  <span data-ttu-id="6d69d-125">คุณปิดการใช้งานการบัญชี เนื่องจากคุณไม่ต้องลงรายการบัญชีใบแจ้งยอดการชำระของยอดดุลนี้ไปยังบัญชีแยกประเภททั่วไปของคุณ</span><span class="sxs-lookup"><span data-stu-id="6d69d-125">You disable accounting because you won't want to post this beginning balance pay statement to your general ledger.</span></span> <span data-ttu-id="6d69d-126">ที่ทำในระบบดั้งเดิม และจะใช้กับเกินไปยังระบบใหม่เมื่อคุณกำหนดยอดดุลต้นงวดในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="6d69d-126">That was done in the legacy system and will come over to the new system when you set beginning balances in General ledger.</span></span>
 
-### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. วิธีการตั้งค่ารหัสรายได้ที่จะใช้ในยอดดุลต้นงวดของค่าจ้าง
-เมื่อคุณป้อนยอดดุลต้นงวดของค่าจ้าง ให้แน่ใจว่ารหัสรายได้ที่คุณจะใช้ถูกตั้งค่าคอนฟิก ที่มีการเปิดใช้งานตัวเลือก "อนุญาตให้แก้ไขอัตราของใบแจ้งยอดรายได้" ซึ่งจะทำให้คุณสามารถป้อนยอดเงินจากระบบเก่าด้วยตนเองได้ 
+### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a><span data-ttu-id="6d69d-127">A.</span><span class="sxs-lookup"><span data-stu-id="6d69d-127">A.</span></span> <span data-ttu-id="6d69d-128">วิธีการตั้งค่ารหัสรายได้ที่จะใช้ในยอดดุลต้นงวดของค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="6d69d-128">How to set up earnings codes to be used on payroll beginning balances</span></span>
+<span data-ttu-id="6d69d-129">เมื่อคุณป้อนยอดดุลต้นงวดของค่าจ้าง ให้แน่ใจว่ารหัสรายได้ที่คุณจะใช้ถูกตั้งค่าคอนฟิก ที่มีการเปิดใช้งานตัวเลือก "อนุญาตให้แก้ไขอัตราของใบแจ้งยอดรายได้"</span><span class="sxs-lookup"><span data-stu-id="6d69d-129">When you enter payroll beginning balances, be sure the earning codes that you will be using are configured with the "Allow editing of earning statement rates" option enabled.</span></span> <span data-ttu-id="6d69d-130">ซึ่งจะทำให้คุณสามารถป้อนยอดเงินจากระบบเก่าด้วยตนเองได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-130">This will allow you to manually key the amount from the legacy system.</span></span> 
 
-### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a>B. สร้างใบแจ้งยอดรายได้สำหรับพนักงานเพือให้มียอดดุลต้นงวด
-ขั้นตอนนี้สร้างใบแจ้งยอดรายได้สำหรับผู้ปฏิบัติงานแต่ละรายด้วยตนเอง สำหรับรอบระยะเวลาการชำระค่าจ้างสุดท้ายของระบบเก่า ซึ่งสร้างรายการใบแจ้งยอดรายได้ในระบบค่าจ้างใหม่ ป้อนหนึ่งรายการสำหรับแต่ละรหัสรายได้ และยอดเงิน YTD และชั่วโมง ขั้นตอนตัวอย่างมีดังต่อไปนี้:
+### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a><span data-ttu-id="6d69d-131">B.</span><span class="sxs-lookup"><span data-stu-id="6d69d-131">B.</span></span> <span data-ttu-id="6d69d-132">สร้างใบแจ้งยอดรายได้สำหรับพนักงานเพือให้มียอดดุลต้นงวด</span><span class="sxs-lookup"><span data-stu-id="6d69d-132">Create earnings statement for an employee to have a beginning balance</span></span>
+<span data-ttu-id="6d69d-133">ขั้นตอนนี้สร้างใบแจ้งยอดรายได้สำหรับผู้ปฏิบัติงานแต่ละรายด้วยตนเอง สำหรับรอบระยะเวลาการชำระค่าจ้างสุดท้ายของระบบเก่า ซึ่งสร้างรายการใบแจ้งยอดรายได้ในระบบค่าจ้างใหม่</span><span class="sxs-lookup"><span data-stu-id="6d69d-133">This step manually creates an earnings statement for each worker for the last pay period of the legacy system, which creates the earning statement lines in the new payroll system.</span></span> <span data-ttu-id="6d69d-134">ป้อนหนึ่งรายการสำหรับแต่ละรหัสรายได้ และยอดเงิน YTD และชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="6d69d-134">Enter one line per earning code and the YTD amount and hours.</span></span> <span data-ttu-id="6d69d-135">ขั้นตอนตัวอย่างมีดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-135">The sample steps are as follows:</span></span>
 
-1. เปิดหน้า **ใบแจ้งยอดรายได้ทั้งหมด** และคลิก **สร้าง**  
+1. <span data-ttu-id="6d69d-136">เปิดหน้า **ใบแจ้งยอดรายได้ทั้งหมด** และคลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="6d69d-136">Open the **All earnings statements** page and click **New**.</span></span>  
 
-ป้อนข้อมูลต่อไปนี้: 
+<span data-ttu-id="6d69d-137">ป้อนข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-137">Enter the following:</span></span> 
 
-| ฟิลด์      | มูลค่า                 |
+| <span data-ttu-id="6d69d-138">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-138">Field</span></span>      | <span data-ttu-id="6d69d-139">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-139">Value</span></span>                 |
 |------------|-----------------------|
-| ผู้ปฏิบัติงาน     | ไมเคิล เรดมอนด์       |
-| รอบการชำระค่าจ้าง  | sm                    |
-| รอบระยะเวลาการชำระค่าจ้าง | 16/6/2560 - 30/6/2560 |
+| <span data-ttu-id="6d69d-140">ผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="6d69d-140">Worker</span></span>     | <span data-ttu-id="6d69d-141">ไมเคิล เรดมอนด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-141">Michael Redmond</span></span>       |
+| <span data-ttu-id="6d69d-142">รอบการชำระค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="6d69d-142">Pay cycle</span></span>  | <span data-ttu-id="6d69d-143">sm</span><span class="sxs-lookup"><span data-stu-id="6d69d-143">sm</span></span>                    |
+| <span data-ttu-id="6d69d-144">รอบระยะเวลาการชำระค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="6d69d-144">Pay period</span></span> | <span data-ttu-id="6d69d-145">16/6/2560 - 30/6/2560</span><span class="sxs-lookup"><span data-stu-id="6d69d-145">6/16/2017 - 6/30/2017</span></span> |
 
-2. บนแท็บ **รายการใบแจ้งยอดรายได้** ให้ป้อนค่าต่อไปนี้
+2. <span data-ttu-id="6d69d-146">บนแท็บ **รายการใบแจ้งยอดรายได้** ให้ป้อนค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="6d69d-146">In the **Earnings statement line** tab, enter the following:</span></span>
 
-รายการที่ 1: แท็บ **รายการของใบแจ้งยอดรายได้**
+<span data-ttu-id="6d69d-147">รายการที่ 1: แท็บ **รายการของใบแจ้งยอดรายได้**</span><span class="sxs-lookup"><span data-stu-id="6d69d-147">Line 1: **Earning statement line** tab</span></span>
 
-| ฟิลด์            | มูลค่า       |
+| <span data-ttu-id="6d69d-148">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-148">Field</span></span>            | <span data-ttu-id="6d69d-149">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-149">Value</span></span>       |
 |------------------|-------------|
-| รหัสรายได้    | การจ่ายค่าจ้างประจำ |
-| ปริมาณ         | 1.00        |
-| เรจ             | 30,000      |
-| แท็บรายละเอียดของรายการ |             |
-| ด้วยตนเอง           | (ทำเครื่องหมาย)    |
+| <span data-ttu-id="6d69d-150">รหัสรายได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-150">Earnings code</span></span>    | <span data-ttu-id="6d69d-151">การจ่ายค่าจ้างประจำ</span><span class="sxs-lookup"><span data-stu-id="6d69d-151">Regular pay</span></span> |
+| <span data-ttu-id="6d69d-152">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="6d69d-152">Quantity</span></span>         | <span data-ttu-id="6d69d-153">1.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-153">1.00</span></span>        |
+| <span data-ttu-id="6d69d-154">เรจ</span><span class="sxs-lookup"><span data-stu-id="6d69d-154">Rage</span></span>             | <span data-ttu-id="6d69d-155">30,000</span><span class="sxs-lookup"><span data-stu-id="6d69d-155">30,000</span></span>      |
+| <span data-ttu-id="6d69d-156">แท็บรายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="6d69d-156">Line details tab</span></span> |             |
+| <span data-ttu-id="6d69d-157">ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="6d69d-157">Manual</span></span>           | <span data-ttu-id="6d69d-158">(ทำเครื่องหมาย)</span><span class="sxs-lookup"><span data-stu-id="6d69d-158">(marked)</span></span>    |
 
-รายการที่ 2: แท็บ **รายการของใบแจ้งยอดรายได้**
+<span data-ttu-id="6d69d-159">รายการที่ 2: แท็บ **รายการของใบแจ้งยอดรายได้**</span><span class="sxs-lookup"><span data-stu-id="6d69d-159">Line 2: **Earning statement line** tab</span></span>
 
-| ฟิลด์            | มูลค่า    |
+| <span data-ttu-id="6d69d-160">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-160">Field</span></span>            | <span data-ttu-id="6d69d-161">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-161">Value</span></span>    |
 |------------------|----------|
-| รหัสรายได้    | โบนัส    |
-| ปริมาณ         | 1.0000   |
-| อัตรา             | 4250.00  |
-| แท็บรายละเอียดของรายการ |          |
-| ด้วยตนเอง           | (ทำเครื่องหมาย) |
+| <span data-ttu-id="6d69d-162">รหัสรายได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-162">Earnings code</span></span>    | <span data-ttu-id="6d69d-163">โบนัส</span><span class="sxs-lookup"><span data-stu-id="6d69d-163">Bonus</span></span>    |
+| <span data-ttu-id="6d69d-164">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="6d69d-164">Quantity</span></span>         | <span data-ttu-id="6d69d-165">1.0000</span><span class="sxs-lookup"><span data-stu-id="6d69d-165">1.0000</span></span>   |
+| <span data-ttu-id="6d69d-166">อัตรา</span><span class="sxs-lookup"><span data-stu-id="6d69d-166">Rate</span></span>             | <span data-ttu-id="6d69d-167">4250.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-167">4250.00</span></span>  |
+| <span data-ttu-id="6d69d-168">แท็บรายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="6d69d-168">Line details tab</span></span> |          |
+| <span data-ttu-id="6d69d-169">ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="6d69d-169">Manual</span></span>           | <span data-ttu-id="6d69d-170">(ทำเครื่องหมาย)</span><span class="sxs-lookup"><span data-stu-id="6d69d-170">(marked)</span></span> |
 
-รายการที่ 3: แท็บ **รายการของใบแจ้งยอดรายได้**
+<span data-ttu-id="6d69d-171">รายการที่ 3: แท็บ **รายการของใบแจ้งยอดรายได้**</span><span class="sxs-lookup"><span data-stu-id="6d69d-171">Line 3: **Earning statement line** tab</span></span>
 
-| ฟิลด์           | มูลค่า      |
+| <span data-ttu-id="6d69d-172">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-172">Field</span></span>           | <span data-ttu-id="6d69d-173">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-173">Value</span></span>      |
 |-----------------|------------|
-| รหัสรายได้   | ค่าคอมมิชชัน |
-| ปริมาณ        | 1.0000     |
-| อัตรา            | !,299.00   |
-| อัตรา            | 1,299.00   |
-| แท็บรายละเอียดของรายการ |            |
-| ด้วยตนเอง          | (ทำเครื่องหมาย)   |
+| <span data-ttu-id="6d69d-174">รหัสรายได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-174">Earnings code</span></span>   | <span data-ttu-id="6d69d-175">ค่าคอมมิชชัน</span><span class="sxs-lookup"><span data-stu-id="6d69d-175">Commission</span></span> |
+| <span data-ttu-id="6d69d-176">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="6d69d-176">Quantity</span></span>        | <span data-ttu-id="6d69d-177">1.0000</span><span class="sxs-lookup"><span data-stu-id="6d69d-177">1.0000</span></span>     |
+| <span data-ttu-id="6d69d-178">อัตรา</span><span class="sxs-lookup"><span data-stu-id="6d69d-178">Rate</span></span>            | <span data-ttu-id="6d69d-179">!,299.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-179">!,299.00</span></span>   |
+| <span data-ttu-id="6d69d-180">อัตรา</span><span class="sxs-lookup"><span data-stu-id="6d69d-180">Rate</span></span>            | <span data-ttu-id="6d69d-181">1,299.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-181">1,299.00</span></span>   |
+| <span data-ttu-id="6d69d-182">แท็บรายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="6d69d-182">Line detail tab</span></span> |            |
+| <span data-ttu-id="6d69d-183">ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="6d69d-183">Manual</span></span>          | <span data-ttu-id="6d69d-184">(ทำเครื่องหมาย)</span><span class="sxs-lookup"><span data-stu-id="6d69d-184">(Marked)</span></span>   |
 
 > [!NOTE]
-> การตั้งค่าแถบเลื่อน **ด้วยตนเอง** เป็น **ใช่** บนแท็บ **รายละเอียดรายการ** สำหรับรายการใบแจ้งยอดรายได้แต่ละรายการ เป็นกุญแจในการทำให้ยอดดุลต้นงวดของค่าจ้างถูกป้อนสำหรับผู้ปฏิบัติงานแต่ละราย
+> <span data-ttu-id="6d69d-185">การตั้งค่าแถบเลื่อน **ด้วยตนเอง** เป็น **ใช่** บนแท็บ **รายละเอียดรายการ** สำหรับรายการใบแจ้งยอดรายได้แต่ละรายการ เป็นกุญแจในการทำให้ยอดดุลต้นงวดของค่าจ้างถูกป้อนสำหรับผู้ปฏิบัติงานแต่ละราย</span><span class="sxs-lookup"><span data-stu-id="6d69d-185">Setting the **Manual** slider to **Yes** in the **Line Details** tab for each earnings statement line is key to have payroll beginning balances entered for each worker.</span></span>
 
-3. ในบานหน้าต่าง **การดำเนินการ** คลิก **นำใบแจ้งยอดรายได้ออก** USA-FED-ER-FICA
+3. <span data-ttu-id="6d69d-186">ในบานหน้าต่าง **การดำเนินการ** คลิก **นำใบแจ้งยอดรายได้ออก** USA-FED-ER-FICA</span><span class="sxs-lookup"><span data-stu-id="6d69d-186">On the **Action** pane, click **Release earnings statement** USA-FED-ER-FICA.</span></span>
 
-4. ในคลิกบานหน้าต่าง **การดำเนินการ** คลิก **ใบแจ้งยอดการชำระ** เพื่อเปิดหน้า **สร้างใบแจ้งยอดการชำระ** และตั้งค่าต่อไปนี้:
+4. <span data-ttu-id="6d69d-187">ในคลิกบานหน้าต่าง **การดำเนินการ** คลิก **ใบแจ้งยอดการชำระ** เพื่อเปิดหน้า **สร้างใบแจ้งยอดการชำระ** และตั้งค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-187">On the **Action** pane click **Pay statement** to open the **Generate pay statements** page and set the following:</span></span>
 
-| ฟิลด์              | มูลค่า     |
+| <span data-ttu-id="6d69d-188">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-188">Field</span></span>              | <span data-ttu-id="6d69d-189">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-189">Value</span></span>     |
 |--------------------|-----------|
-| วันที่ชำระเงิน       | วันที่ 6/30/2017 |
-| ชนิดการดำเนินการชำระเงิน   | ด้วยตนเอง    |
-| ปิดใช้งานการบัญชี |   ใช่     |
+| <span data-ttu-id="6d69d-190">วันที่ชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6d69d-190">Payment date</span></span>       | <span data-ttu-id="6d69d-191">วันที่ 6/30/2017</span><span class="sxs-lookup"><span data-stu-id="6d69d-191">6/30/2017</span></span> |
+| <span data-ttu-id="6d69d-192">ชนิดการดำเนินการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6d69d-192">Payment run type</span></span>   | <span data-ttu-id="6d69d-193">ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="6d69d-193">Manual</span></span>    |
+| <span data-ttu-id="6d69d-194">ปิดใช้งานการบัญชี</span><span class="sxs-lookup"><span data-stu-id="6d69d-194">Disable accounting</span></span> |   <span data-ttu-id="6d69d-195">ใช่</span><span class="sxs-lookup"><span data-stu-id="6d69d-195">Yes</span></span>     |
 
 > [!NOTE] 
-> นี่พร้อมใช้งานเฉพาะเมื่อชนิดการดำเนินการชำระเงินเป็นแบบกำหนดเอง และที่ซึ่งผู้ใช้ต้องการปิดใช้งานการบัญชีในการดำเนินการชำระเงิน
+> <span data-ttu-id="6d69d-196">นี่พร้อมใช้งานเฉพาะเมื่อชนิดการดำเนินการชำระเงินเป็นแบบกำหนดเอง และที่ซึ่งผู้ใช้ต้องการปิดใช้งานการบัญชีในการดำเนินการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6d69d-196">This is only available when the payment run type is manual and wherein the user want to disable accounting on the pay run.</span></span>
 
-คลิก **ตกลง** และปิด **Infolog**
+<span data-ttu-id="6d69d-197">คลิก **ตกลง** และปิด **Infolog**</span><span class="sxs-lookup"><span data-stu-id="6d69d-197">Click **OK** and close the **Infolog**.</span></span>
 
-#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>ทำไมแถบเลื่อนการปิดใช้งานการบัญชีจำเป็นต้องถูกตั้งค่าเป็นใช่ เมื่อสร้างใบแจ้งยอดการชำระเงิน
-การตั้งค่าแถบเลื่อนเป็น **ใช่** ป้องกันไม่ให้รายการใด ๆ ในใบแจ้งยอดการชำระเงินจากการถูกกระจายไปที่บัญชีแยกประเภททั่วไป ยอดเงินบัญชีแยกประเภททั่วไปถูกอัพเดตก่อนหน้านั้นเมื่อการมีป้อนยอดดุลบัญชีจากระบบดั้งเดิม การป้อนยอดดุลต้นงวดสำหรับค่าจ้างช่วยให้คุณสามารถสร้างรายงานที่รวมข้อมูลจากปีก่อนหน้า รวมทั้งเพื่อการระบุขีดจำกัดสำหรับวัตถุประสงค์ด้านสวัสดิการและภาษี   
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a><span data-ttu-id="6d69d-198">ทำไมแถบเลื่อนการปิดใช้งานการบัญชีจำเป็นต้องถูกตั้งค่าเป็นใช่ เมื่อสร้างใบแจ้งยอดการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6d69d-198">Why the Disable Accounting slider needs to set to Yes when generating pay statements?</span></span>
+<span data-ttu-id="6d69d-199">การตั้งค่าแถบเลื่อนเป็น **ใช่** ป้องกันไม่ให้รายการใด ๆ ในใบแจ้งยอดการชำระเงินจากการถูกกระจายไปที่บัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="6d69d-199">Setting the slider to **Yes** prevents lines in the pay statement from being districuted to General ledger.</span></span> <span data-ttu-id="6d69d-200">ยอดเงินบัญชีแยกประเภททั่วไปถูกอัพเดตก่อนหน้านั้นเมื่อการมีป้อนยอดดุลบัญชีจากระบบดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="6d69d-200">General ledger amounts were updating earlier when account balances from the legacy system were entered.</span></span> <span data-ttu-id="6d69d-201">การป้อนยอดดุลต้นงวดสำหรับค่าจ้างช่วยให้คุณสามารถสร้างรายงานที่รวมข้อมูลจากปีก่อนหน้า รวมทั้งเพื่อการระบุขีดจำกัดสำหรับวัตถุประสงค์ด้านสวัสดิการและภาษี</span><span class="sxs-lookup"><span data-stu-id="6d69d-201">Entering beginning balances for Payroll lets you generate reports that include information from prior years, as well as for identifying limits for benefit and tax purposes.</span></span>   
 
-### <a name="c-create-pay-statements-for-employees"></a>C. สร้างใบแจ้งยอดชำระเงินสำหรับพนักงาน
-หลังจากที่คุณสร้างใบแจ้งยอดการชำระเงินที่มียอดดุลต้นงวด คุณต้องตรวจสอบว่าใบแจ้งยอดการชำระเงินสะท้อนถึงข้อมูลค่าจ้างได้อย่างถูกต้อง คุณต้องอัพเดตข้อมูลสวัสดิการและภาษีให้ตรงกับค่าในระบบค่าจ้างก่อนหน้านี้ด้วยตนเอง หลังจากที่คุณตรวจสอบว่า จำนวนเงินจากระบบค่าจ้างก่อนหน้าตรงกับยอดเงินในใบแจ้งยอดการชำระเงินปัจจุบันแล้ว คุณต้องสรุปใบแจ้งยอดการชำระเงิน
+### <a name="c-create-pay-statements-for-employees"></a><span data-ttu-id="6d69d-202">C.</span><span class="sxs-lookup"><span data-stu-id="6d69d-202">C.</span></span> <span data-ttu-id="6d69d-203">สร้างใบแจ้งยอดชำระเงินสำหรับพนักงาน</span><span class="sxs-lookup"><span data-stu-id="6d69d-203">Create pay statements for employees</span></span>
+<span data-ttu-id="6d69d-204">หลังจากที่คุณสร้างใบแจ้งยอดการชำระเงินที่มียอดดุลต้นงวด คุณต้องตรวจสอบว่าใบแจ้งยอดการชำระเงินสะท้อนถึงข้อมูลค่าจ้างได้อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="6d69d-204">After you generate pay statements that have beginning balances, you must verify that the pay statements accurately reflect payroll data.</span></span> <span data-ttu-id="6d69d-205">คุณต้องอัพเดตข้อมูลสวัสดิการและภาษีให้ตรงกับค่าในระบบค่าจ้างก่อนหน้านี้ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="6d69d-205">You must also manually update the benefit and taxes information to match the values in the previous payroll system.</span></span> <span data-ttu-id="6d69d-206">หลังจากที่คุณตรวจสอบว่า จำนวนเงินจากระบบค่าจ้างก่อนหน้าตรงกับยอดเงินในใบแจ้งยอดการชำระเงินปัจจุบันแล้ว คุณต้องสรุปใบแจ้งยอดการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6d69d-206">After you verify that the amounts from the previous payroll system match the amounts on the current pay statements, you must finalize the pay statements.</span></span>
 
-1. เปิดหน้า **ใบแจ้งยอดการชำระเงินทั้งหมด**
+1. <span data-ttu-id="6d69d-207">เปิดหน้า **ใบแจ้งยอดการชำระเงินทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="6d69d-207">Open the **All pay statements** page.</span></span>
 
-2. เน้นใบแจ้งยอดการชำระเงินที่สร้างขึ้นล่าสุดสำหรับไมเคิล เรดมอนด์
+2. <span data-ttu-id="6d69d-208">เน้นใบแจ้งยอดการชำระเงินที่สร้างขึ้นล่าสุดสำหรับไมเคิล เรดมอนด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-208">Highlight the last generated pay statement for Michael Redmond</span></span>
 
-3. คลิก **แก้ไข** เพื่อเปิดหน้า **ใบแจ้งยอดการชำระเงิน**
+3. <span data-ttu-id="6d69d-209">คลิก **แก้ไข** เพื่อเปิดหน้า **ใบแจ้งยอดการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="6d69d-209">Click **Edit** to open the **Pay statement** page.</span></span>
 
-4. เปิดแท็บ **การหักลดสวัสดิการ** และป้อนค่าต่อไปนี้:
+4. <span data-ttu-id="6d69d-210">เปิดแท็บ **การหักลดสวัสดิการ** และป้อนค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-210">Open the **Benefit deductions** tab and enter the following:</span></span>
 
-| ฟิลด์                           | มูลค่า            |
+| <span data-ttu-id="6d69d-211">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-211">Field</span></span>                           | <span data-ttu-id="6d69d-212">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-212">Value</span></span>            |
 |---------------------------------|------------------|
-| สวัสดิการ                         | ยอดการหักลด |
-| 401K | เข้าร่วม              | 3000.00          |
-| ทันตกรรม | SubSp                  | 495.00           |
-| การใช้จ่ายในดูแลเชิงลึก | เข้าร่วม | 2500.00          |
-| ระยะการมองเห็น | SupSp                  | 500.00           |
+| <span data-ttu-id="6d69d-213">สวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="6d69d-213">Benefit</span></span>                         | <span data-ttu-id="6d69d-214">ยอดการหักลด</span><span class="sxs-lookup"><span data-stu-id="6d69d-214">Deduction amount</span></span> |
+| <span data-ttu-id="6d69d-215">401K</span><span class="sxs-lookup"><span data-stu-id="6d69d-215">401K</span></span> | <span data-ttu-id="6d69d-216">เข้าร่วม</span><span class="sxs-lookup"><span data-stu-id="6d69d-216">Participate</span></span>              | <span data-ttu-id="6d69d-217">3000.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-217">3000.00</span></span>          |
+| <span data-ttu-id="6d69d-218">ทันตกรรม</span><span class="sxs-lookup"><span data-stu-id="6d69d-218">Dental</span></span> | <span data-ttu-id="6d69d-219">SubSp</span><span class="sxs-lookup"><span data-stu-id="6d69d-219">SubSp</span></span>                  | <span data-ttu-id="6d69d-220">495.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-220">495.00</span></span>           |
+| <span data-ttu-id="6d69d-221">การใช้จ่ายในดูแลเชิงลึก</span><span class="sxs-lookup"><span data-stu-id="6d69d-221">Dep care spending</span></span> | <span data-ttu-id="6d69d-222">เข้าร่วม</span><span class="sxs-lookup"><span data-stu-id="6d69d-222">Participate</span></span> | <span data-ttu-id="6d69d-223">2500.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-223">2500.00</span></span>          |
+| <span data-ttu-id="6d69d-224">ระยะการมองเห็น</span><span class="sxs-lookup"><span data-stu-id="6d69d-224">Vision</span></span> | <span data-ttu-id="6d69d-225">SupSp</span><span class="sxs-lookup"><span data-stu-id="6d69d-225">SupSp</span></span>                  | <span data-ttu-id="6d69d-226">500.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-226">500.00</span></span>           |
 
-5. ในแท็บ **การจ่ายเงินสมทบของสวัสดิการ** และป้อนค่าต่อไปนี้:
+5. <span data-ttu-id="6d69d-227">ในแท็บ **การจ่ายเงินสมทบของสวัสดิการ** และป้อนค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-227">In the **Benefit contributions** tab and enter the following:</span></span>
 
-| ฟิลด์              | มูลค่า               |
+| <span data-ttu-id="6d69d-228">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-228">Field</span></span>              | <span data-ttu-id="6d69d-229">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-229">Value</span></span>               |
 |--------------------|---------------------|
-| สวัสดิการ            | ยอดการจ่ายเงินสมทบ |
-| 401K | เข้าร่วม | 3000,00             |
-| ทันตกรรม | SubSp     | 495.00              |
-| ระยะการมองเห็น | SubSp     | 500.00              |
+| <span data-ttu-id="6d69d-230">สวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="6d69d-230">Benefit</span></span>            | <span data-ttu-id="6d69d-231">ยอดการจ่ายเงินสมทบ</span><span class="sxs-lookup"><span data-stu-id="6d69d-231">Contribution amount</span></span> |
+| <span data-ttu-id="6d69d-232">401K</span><span class="sxs-lookup"><span data-stu-id="6d69d-232">401K</span></span> | <span data-ttu-id="6d69d-233">เข้าร่วม</span><span class="sxs-lookup"><span data-stu-id="6d69d-233">Participate</span></span> | <span data-ttu-id="6d69d-234">3000,00</span><span class="sxs-lookup"><span data-stu-id="6d69d-234">3000,00</span></span>             |
+| <span data-ttu-id="6d69d-235">ทันตกรรม</span><span class="sxs-lookup"><span data-stu-id="6d69d-235">Dental</span></span> | <span data-ttu-id="6d69d-236">SubSp</span><span class="sxs-lookup"><span data-stu-id="6d69d-236">SubSp</span></span>     | <span data-ttu-id="6d69d-237">495.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-237">495.00</span></span>              |
+| <span data-ttu-id="6d69d-238">ระยะการมองเห็น</span><span class="sxs-lookup"><span data-stu-id="6d69d-238">Vision</span></span> | <span data-ttu-id="6d69d-239">SubSp</span><span class="sxs-lookup"><span data-stu-id="6d69d-239">SubSp</span></span>     | <span data-ttu-id="6d69d-240">500.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-240">500.00</span></span>              |
 
-6. ในแท็บ **การหักลดภาษี** ป้อนค่าต่อไปนี้:
+6. <span data-ttu-id="6d69d-241">ในแท็บ **การหักลดภาษี** ป้อนค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-241">In the **Tax deductions** tab, enter the following:</span></span>
 
-| ฟิลด์           | มูลค่า            |
+| <span data-ttu-id="6d69d-242">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="6d69d-242">Field</span></span>           | <span data-ttu-id="6d69d-243">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="6d69d-243">Value</span></span>            |
 |-----------------|------------------|
-| รหัสภาษี        | ยอดการหักลด |
-| USA-FED-ER-FICA | 1600.00          |
-| USA-FED-ER-MEDI | 825.75           |
+| <span data-ttu-id="6d69d-244">รหัสภาษี</span><span class="sxs-lookup"><span data-stu-id="6d69d-244">Tax code</span></span>        | <span data-ttu-id="6d69d-245">ยอดการหักลด</span><span class="sxs-lookup"><span data-stu-id="6d69d-245">Deduction amount</span></span> |
+| <span data-ttu-id="6d69d-246">USA-FED-ER-FICA</span><span class="sxs-lookup"><span data-stu-id="6d69d-246">USA-FED-ER-FICA</span></span> | <span data-ttu-id="6d69d-247">1600.00</span><span class="sxs-lookup"><span data-stu-id="6d69d-247">1600.00</span></span>          |
+| <span data-ttu-id="6d69d-248">USA-FED-ER-MEDI</span><span class="sxs-lookup"><span data-stu-id="6d69d-248">USA-FED-ER-MEDI</span></span> | <span data-ttu-id="6d69d-249">825.75</span><span class="sxs-lookup"><span data-stu-id="6d69d-249">825.75</span></span>           |
 
-7. ในแท็บ **การจ่ายเงินสมทบภาษี** ป้อนค่าต่อไปนี้:
+7. <span data-ttu-id="6d69d-250">ในแท็บ **การจ่ายเงินสมทบภาษี** ป้อนค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="6d69d-250">In the **Tax contributions** tab enter the following:</span></span>
 
-8. คลิก **คำนวณ**
+8. <span data-ttu-id="6d69d-251">คลิก **คำนวณ**</span><span class="sxs-lookup"><span data-stu-id="6d69d-251">Click **Calculate**.</span></span>
 > [!IMPORTANT] 
-> ตรวจสอบผลรวมของใบแจ้งยอดค่าจ้างว่าตรงกับ YTD ของระบบแบบดั้งเดิมสำหรับผู้ปฏิบัติงาน คุณอาจต้องรอการดำเนินการขั้นสุดท้ายในขั้นตอนถัดไป เพื่อทำการตรวจสอบบางอย่างโดยรวมของใบแจ้งยอดการชำระค่าจ้างทั้งหมดในการรวม เมื่อตรวจสอบแล้ว รันใบแจ้งยอดการชำระค่าจ้างทั้งหมด และดำเนินการขั้นสุดท้าย
+> <span data-ttu-id="6d69d-252">ตรวจสอบผลรวมของใบแจ้งยอดค่าจ้างว่าตรงกับ YTD ของระบบแบบดั้งเดิมสำหรับผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="6d69d-252">Validate the totals of the pay statement that they match the YTD of the legacy system for the worker.</span></span> <span data-ttu-id="6d69d-253">คุณอาจต้องรอการดำเนินการขั้นสุดท้ายในขั้นตอนถัดไป เพื่อทำการตรวจสอบบางอย่างโดยรวมของใบแจ้งยอดการชำระค่าจ้างทั้งหมดในการรวม</span><span class="sxs-lookup"><span data-stu-id="6d69d-253">You may want to hold off on finalizing in the next step to do some overall validating of all pay statements in aggregate.</span></span> <span data-ttu-id="6d69d-254">เมื่อตรวจสอบแล้ว รันใบแจ้งยอดการชำระค่าจ้างทั้งหมด และดำเนินการขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="6d69d-254">Once validated run through all the pay statements and finalize them.</span></span>
 
-กระบวนการเดิมสามารถทำได้ในการเพิ่มรายไตรมาส ถ้าจำเป็นสำหรับไตรมาสก่อนหน้านี้ทั้งหมดในแต่ละปี สิ่งนี้จำเป็นก็ต่อเมื่อลูกค้าต้องการดูข้อมูลตามไตรมาสโดยไม่กลับไปยังระบบแบบดั้งเดิมเท่านั้น
+<span data-ttu-id="6d69d-255">กระบวนการเดิมสามารถทำได้ในการเพิ่มรายไตรมาส ถ้าจำเป็นสำหรับไตรมาสก่อนหน้านี้ทั้งหมดในแต่ละปี</span><span class="sxs-lookup"><span data-stu-id="6d69d-255">The same process can be done in quarter increments if necessary for all prior quarters in each year.</span></span> <span data-ttu-id="6d69d-256">สิ่งนี้จำเป็นก็ต่อเมื่อลูกค้าต้องการดูข้อมูลตามไตรมาสโดยไม่กลับไปยังระบบแบบดั้งเดิมเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="6d69d-256">This is only needed if the customer needs to see the data by quarter without going back to the legacy system.</span></span>
 
-## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a>ถ้าคุณทำผิดพลาดในการป้อนยอดดุลต้นงวดสำหรับพนักงาน
-สามารถย้อนกลับ และป้อนธุรกรรมใหม่อีกครั้งได้ เพื่อย้อนกลับรายการธุรกรรม คุณเพียงต้องดำเนินการตามขั้นตอนในหน้า **ใบแจ้งยอดการชำระค่าจ้างทั้งหมด** ให้เสร็จสมบูรณ์
+## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a><span data-ttu-id="6d69d-257">ถ้าคุณทำผิดพลาดในการป้อนยอดดุลต้นงวดสำหรับพนักงาน</span><span class="sxs-lookup"><span data-stu-id="6d69d-257">If you make a mistake Entering Beginning Balances for an Employee</span></span>
+<span data-ttu-id="6d69d-258">สามารถย้อนกลับ และป้อนธุรกรรมใหม่อีกครั้งได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-258">It is possible to reverse and reenter transactions.</span></span> <span data-ttu-id="6d69d-259">เพื่อย้อนกลับรายการธุรกรรม คุณเพียงต้องดำเนินการตามขั้นตอนในหน้า **ใบแจ้งยอดการชำระค่าจ้างทั้งหมด** ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="6d69d-259">To reverse the transaction, all you have to do is to complete the follow steps on the **All pay statements** page.</span></span>
 
-1. คลิก **ย้อนกลับ**
+1. <span data-ttu-id="6d69d-260">คลิก **ย้อนกลับ**</span><span class="sxs-lookup"><span data-stu-id="6d69d-260">Click **Reverse**.</span></span>
 
-2. คลิก **ใช่** เมื่อข้อความ "เมื่อคุณกลับรายการใบแจ้งยอดการชำระเงินนี้ ใบแจ้งยอดการชำระเงินกลับบัญชีจะถูกสร้างเพื่อออฟเซ็ตใบแจ้งยอดการชำระค่าจ้างนี้ ใบแจ้งยอดค่าจ้างไม่สามารถถูกแก้ไขได้ คุณต้องการกลับรายการใบแจ้งยอดการชำระค่าจ้างนี้หรือไม่" การแสดง 
+2. <span data-ttu-id="6d69d-261">คลิก **ใช่** เมื่อข้อความ "เมื่อคุณกลับรายการใบแจ้งยอดการชำระเงินนี้ ใบแจ้งยอดการชำระเงินกลับบัญชีจะถูกสร้างเพื่อออฟเซ็ตใบแจ้งยอดการชำระค่าจ้างนี้</span><span class="sxs-lookup"><span data-stu-id="6d69d-261">Click **Yes** when the message "When you reverse this pay statement, a reversing pay statement will be created to offset this pay statement.</span></span> <span data-ttu-id="6d69d-262">ใบแจ้งยอดค่าจ้างไม่สามารถถูกแก้ไขได้</span><span class="sxs-lookup"><span data-stu-id="6d69d-262">Neither pay statement can be edited.</span></span> <span data-ttu-id="6d69d-263">คุณต้องการกลับรายการใบแจ้งยอดการชำระค่าจ้างนี้หรือไม่"</span><span class="sxs-lookup"><span data-stu-id="6d69d-263">Do you want to reverse this pay statement?"</span></span> <span data-ttu-id="6d69d-264">การแสดง</span><span class="sxs-lookup"><span data-stu-id="6d69d-264">displays.</span></span> 
 
-หลังจากที่คุณกลับรายการใบแจ้งยอดค่าจ้าง คุณสามารถสร้างใบแจ้งยอดการชำระค่าจ้างใหม่สำหรับผู้ปฏิบัติงานจากใบแจ้งยอดรายได้ที่คุณสร้างไว้ก่อนหน้านี้ ตรวจสอบให้แน่ใจว่าได้ทำการแก้ไขบรรทัดที่ไม่ถูกต้องในใบแจ้งยอดรายได้ก่อนที่คุณจะสร้างใบแจ้งยอดค่าจ้างใหม่ จากนั้นให้สร้างใบแจ้งยอดค่าจ้างใหม่ที่มียอดเงินที่ถูกต้อง 
+<span data-ttu-id="6d69d-265">หลังจากที่คุณกลับรายการใบแจ้งยอดค่าจ้าง คุณสามารถสร้างใบแจ้งยอดการชำระค่าจ้างใหม่สำหรับผู้ปฏิบัติงานจากใบแจ้งยอดรายได้ที่คุณสร้างไว้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="6d69d-265">After you reverse the pay statement, you can generate a new pay statement for the worker from the earnings statement that you created previously.</span></span> <span data-ttu-id="6d69d-266">ตรวจสอบให้แน่ใจว่าได้ทำการแก้ไขบรรทัดที่ไม่ถูกต้องในใบแจ้งยอดรายได้ก่อนที่คุณจะสร้างใบแจ้งยอดค่าจ้างใหม่ จากนั้นให้สร้างใบแจ้งยอดค่าจ้างใหม่ที่มียอดเงินที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="6d69d-266">Be sure to fix any incorrect lines on the earnings statement before you generate the new pay statement, and then generate new pay statements with the correct amounts.</span></span> 
 

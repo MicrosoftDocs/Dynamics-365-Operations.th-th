@@ -17,60 +17,60 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 695460415f81d65ec35eeee60209358b722c9244
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a3be1e7aca7f0382aea55fa8a371c33c8b53df95
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-product-packages-for-purchase-orders"></a> สร้างบรรจุภัณฑ์ของผลิตภัณฑ์สำหรับใบสั่งซื้อ
+# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="7923c-103"> สร้างบรรจุภัณฑ์ของผลิตภัณฑ์สำหรับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7923c-103">Create product packages for purchase orders</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-กระบวนการนี้นำไปสู่การสร้างบรรจุภรรฑ์ของผลิตภัณฑ์ และการใช้บนใบสั่งซื้อ  ใบสั่งซื้อจะถูกใช้เพื่อสร้างใบสั่งสำหรับผลิตภัณฑ์ชุดที่กำหนดไว้ล่วงหน้า  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
+<span data-ttu-id="7923c-104">กระบวนการนี้นำไปสู่การสร้างบรรจุภรรฑ์ของผลิตภัณฑ์ และการใช้บนใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="7923c-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="7923c-105">ใบสั่งซื้อจะถูกใช้เพื่อสร้างใบสั่งสำหรับผลิตภัณฑ์ชุดที่กำหนดไว้ล่วงหน้า </span><span class="sxs-lookup"><span data-stu-id="7923c-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="7923c-106">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="7923c-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-product-package"></a>สร้างบรรจุภัณฑ์ของผลิตภัณฑ์
-1. ไปยังการขายปลีกและการค้า > การบริหารสินค้าคงคลัง > การเพิ่มเติมสินค้า > บรรจุภัณฑ์ของผลิตภัณฑ์
-2. คลิก สร้าง
-3. ในฟิลด์หมายเลขบรรจุภรรฑ์ ให้พิมพ์ค่าใดค่าหนึ่ง
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-6. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-7. คลิก เพิ่ม
-8. ในฟิลด์หมายเลขสินค้า ให้พิมพ์ '0160'
-9. ในฟิลด์ขนาด ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-10. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-11. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-12. คลิก เพิ่ม
-13. ในฟิลด์หมายเลขสินค้า ให้พิมพ์ '0160'
-14. ในฟิลด์หมายเลขตัวแปร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-15. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-16. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-17. คลิก เพิ่ม
-18. ในฟิลด์หมายเลขสินค้า ให้พิมพ์ '0175'
-19. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
-20. คลิก บันทึก
-21. ปิดหน้า
+## <a name="create-a-product-package"></a><span data-ttu-id="7923c-107">สร้างบรรจุภัณฑ์ของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="7923c-107">Create a product package</span></span>
+1. <span data-ttu-id="7923c-108">ไปยังการขายปลีกและการค้า > การบริหารสินค้าคงคลัง > การเพิ่มเติมสินค้า > บรรจุภัณฑ์ของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="7923c-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
+2. <span data-ttu-id="7923c-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7923c-109">Click New.</span></span>
+3. <span data-ttu-id="7923c-110">ในฟิลด์หมายเลขบรรจุภรรฑ์ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="7923c-110">In the Package number field, type a value.</span></span>
+4. <span data-ttu-id="7923c-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="7923c-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7923c-112">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7923c-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="7923c-113">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7923c-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="7923c-114">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="7923c-114">Click Add.</span></span>
+8. <span data-ttu-id="7923c-115">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ '0160'</span><span class="sxs-lookup"><span data-stu-id="7923c-115">In the Item number field, type '0160'.</span></span>
+9. <span data-ttu-id="7923c-116">ในฟิลด์ขนาด ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7923c-116">In the Size field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="7923c-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7923c-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="7923c-118">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7923c-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="7923c-119">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="7923c-119">Click Add.</span></span>
+13. <span data-ttu-id="7923c-120">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ '0160'</span><span class="sxs-lookup"><span data-stu-id="7923c-120">In the Item number field, type '0160'.</span></span>
+14. <span data-ttu-id="7923c-121">ในฟิลด์หมายเลขตัวแปร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7923c-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="7923c-122">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7923c-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="7923c-123">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7923c-123">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="7923c-124">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="7923c-124">Click Add.</span></span>
+18. <span data-ttu-id="7923c-125">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ '0175'</span><span class="sxs-lookup"><span data-stu-id="7923c-125">In the Item number field, type '0175'.</span></span>
+19. <span data-ttu-id="7923c-126">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7923c-126">In the Quantity field, enter a number.</span></span>
+20. <span data-ttu-id="7923c-127">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7923c-127">Click Save.</span></span>
+21. <span data-ttu-id="7923c-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7923c-128">Close the page.</span></span>
 
-## <a name="add-package-to-puchase-order"></a>เพิ่มแพคเกจในใบสั่งซื้อ
-1. ไปที่บัญชีเจ้าหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการ ให้เลือกผู้จัดจำหน่ายเดียวกันกับที่บรรจุภัณฑ์ของผลิตภัณฑ์ถูกสร้างไว้ให้ก่อนหน้านี้ ถ้าผู้จัดจำหน่ายถูกเลือก
-5. เปิดปิดการขยายของส่วนทั่วไป
-6. ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-7. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-8. ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-9. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-10. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-11. สลับการขยายของส่วนรายละเอียดรายการ
-12. คลิกที่แท็บบรรจุภัณฑ์ของผลิตภัณฑ์
-13. คลิก บรรทัดรายการใบสั่งซื้อ
-14. คลิก สร้างบรรทัดรายการจากบรรจุภัณฑ์
-15. ในรายการ ค้นหาและเลือกบรรจุภรรฑ์ของผลิตภัณฑ์ที่สร้างขึ้นในขั้นตอนก่อนหน้านี้
-16. ในฟิลด์ปริมาณ ให้ป้อนตัวเลข
-17. คลิก สร้าง
-18. คลิก บันทึก
+## <a name="add-package-to-puchase-order"></a><span data-ttu-id="7923c-129">เพิ่มแพคเกจในใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7923c-129">Add package to puchase order</span></span>
+1. <span data-ttu-id="7923c-130">ไปที่บัญชีเจ้าหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="7923c-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="7923c-131">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7923c-131">Click New.</span></span>
+3. <span data-ttu-id="7923c-132">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7923c-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="7923c-133">ในรายการ ให้เลือกผู้จัดจำหน่ายเดียวกันกับที่บรรจุภัณฑ์ของผลิตภัณฑ์ถูกสร้างไว้ให้ก่อนหน้านี้ ถ้าผู้จัดจำหน่ายถูกเลือก</span><span class="sxs-lookup"><span data-stu-id="7923c-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
+5. <span data-ttu-id="7923c-134">เปิดปิดการขยายของส่วนทั่วไป</span><span class="sxs-lookup"><span data-stu-id="7923c-134">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="7923c-135">ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7923c-135">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="7923c-136">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7923c-136">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="7923c-137">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7923c-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="7923c-138">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7923c-138">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="7923c-139">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="7923c-139">Click OK.</span></span>
+11. <span data-ttu-id="7923c-140">สลับการขยายของส่วนรายละเอียดรายการ</span><span class="sxs-lookup"><span data-stu-id="7923c-140">Toggle the expansion of the Line details section.</span></span>
+12. <span data-ttu-id="7923c-141">คลิกที่แท็บบรรจุภัณฑ์ของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="7923c-141">Click the Product packages tab.</span></span>
+13. <span data-ttu-id="7923c-142">คลิก บรรทัดรายการใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7923c-142">Click Purchase order line.</span></span>
+14. <span data-ttu-id="7923c-143">คลิก สร้างบรรทัดรายการจากบรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="7923c-143">Click Create lines from package.</span></span>
+15. <span data-ttu-id="7923c-144">ในรายการ ค้นหาและเลือกบรรจุภรรฑ์ของผลิตภัณฑ์ที่สร้างขึ้นในขั้นตอนก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="7923c-144">In the list, find and select the product package created in previous step.</span></span>
+16. <span data-ttu-id="7923c-145">ในฟิลด์ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7923c-145">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="7923c-146">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7923c-146">Click Create.</span></span>
+18. <span data-ttu-id="7923c-147">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7923c-147">Click Save.</span></span>
 
 

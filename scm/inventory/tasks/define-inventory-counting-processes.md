@@ -1,4 +1,4 @@
---- 
+---
 title: "กำหนดกระบวนการตรวจนับสินค้าคงคลัง"
 description: "ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ "
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,72 +17,71 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>กำหนดกระบวนการตรวจนับสินค้าคงคลัง
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="2779a-103">กำหนดกระบวนการตรวจนับสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2779a-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ  และยังแสดงวิธีการเปิดใช้งานนโยบายการตรวจนับในคลังสินค้าและระดับสินค้า โดยปกติแล้วงานเหล่านี้จะถูกดำเนินการโดยหัวหน้างานคลังสินค้า ข้อกำหนดเบื้องต้นคือให้มีผลิตภัณฑ์ที่นำออกใช้ที่มีอยู่และคลังสินค้า ถ้าคุณกำลังใช้ข้อมูลบริษัทสาธิต คุณสามารถรันขั้นตอนนี้ในบริษัท USMF กับสินค้าใดๆที่เก็บในคลัง
+<span data-ttu-id="2779a-104">ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ </span><span class="sxs-lookup"><span data-stu-id="2779a-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="2779a-105">และยังแสดงวิธีการเปิดใช้งานนโยบายการตรวจนับในคลังสินค้าและระดับสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="2779a-106">โดยปกติแล้วงานเหล่านี้จะถูกดำเนินการโดยหัวหน้างานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="2779a-107">ข้อกำหนดเบื้องต้นคือให้มีผลิตภัณฑ์ที่นำออกใช้ที่มีอยู่และคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="2779a-108">ถ้าคุณกำลังใช้ข้อมูลบริษัทสาธิต คุณสามารถรันขั้นตอนนี้ในบริษัท USMF กับสินค้าใดๆที่เก็บในคลัง</span><span class="sxs-lookup"><span data-stu-id="2779a-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>สร้างกลุ่มการตรวจนับ
-1. ไปที่ การจัดการสินค้าคงคลัง > การตั้งค่า > สินค้าคงคลัง > กลุ่มการตรวจนับ
-2. คลิก สร้าง
-3. ในฟิลด์กลุ่มการตรวจนับ ให้พิมพ์ค่า
-4. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-5. ในฟิลด์รหัสการตรวจนับ ให้เลือกตัวเลือก
-    * กำหนดเอง – รวมบรรทัดต่างๆทุกครั้งที่คุณรันงาน  กล่าวคือ คุณเป็นผู้กำหนดช่วงการตรวจนับสำหรับกลุ่มการตรวจนับ  รอบระยะเวลา – รวมบรรทัดสำหรับรอบระยะเวลาในสมุดรายวันการตรวจนับเมื่อช่วงรอบระยะเวลาหมดอายุ   สต็อกเป็นศูนย์ – ถ้าปริมาณคงคลังคงเหลือเป็นศูนย์ (0), บรรทัดสร้างในสมุดรายวันการตรวจนับเมื่อมีการรันงาน ถ้าปริมาณคงคลังคงเหลือเป็น 0 หลังจากการตรวจนับ บรรทัดสร้างในครั้งต่อไปที่คุณเริ่มต้นการตรวจนับ   ค่าต่ำสุด – แทรกบรรทัดในสมุดรายวันการตรวจนับถ้าปริมาณคงคลังคงเหลือเท่ากับ หรือน้อยกว่าจำนวนขั้นต่ำที่ได้ระบุไว้  
-    * ขั้นตอนนี้ไม่จำเป็น: ถ้าคุณได้ระบุรอบระยะเวลาในฟิลด์รหัสการตรวจนับ คุณต้องพิมพ์ช่วงเวลาสำหรับรอบระยะเวลาในฟิลด์รอบระยะเวลาการตรวจนับ หน่วยของช่วงเวลาเป็นวัน  
-    * เมื่อคุณรันงานสำหรับการสร้างบรรทัดใหม่ในสมุดรายวันการตรวจนับ บรรทัดใหม่จะถูกสร้างในช่วงที่ระบุไว้ในฟิลด์นี้ โดยไม่คำนึงว่าคุณรันงานเดียวกันบ่อยแค่ไหน  ตัวอย่างเช่น ถ้ารอบระยะเวลาการตรวจนับถูกตั้งเป็น 7 และบรรทัดสมุดรายวันสร้างขึ้นล่าสุดสำหรับการตรวจนับในวันที่ 1 มกราคม ถ้างานอื่นเริ่มต้นในวันที่ 5 มกราคม 7 วันแล้วยังไม่ผ่าน และดังนั้นจึง ไม่มีบรรทัดถูกสร้างในสมุดรายวันสำหรับช่วงรอบระยะเวลานั้น  ถ้าคุณเริ่มต้นงานอีกครั้งใน 8 มกราคม บรรทัดจะถูกสร้างสำหรับรอบระยะเวลาในสมุดรายวันการตรวจนับ ก่อนจะผ่านไป 7 วัน  
-6. คลิก บันทึก
+## <a name="create-a-counting-group"></a><span data-ttu-id="2779a-109">สร้างกลุ่มการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-109">Create a counting group</span></span>
+1. <span data-ttu-id="2779a-110">ไปที่ การจัดการสินค้าคงคลัง > การตั้งค่า > สินค้าคงคลัง > กลุ่มการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="2779a-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="2779a-111">Click New.</span></span>
+3. <span data-ttu-id="2779a-112">ในฟิลด์กลุ่มการตรวจนับ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2779a-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="2779a-113">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="2779a-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="2779a-114">ในฟิลด์รหัสการตรวจนับ ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="2779a-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="2779a-115">กำหนดเอง – รวมบรรทัดต่างๆทุกครั้งที่คุณรันงาน </span><span class="sxs-lookup"><span data-stu-id="2779a-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="2779a-116">กล่าวคือ คุณเป็นผู้กำหนดช่วงการตรวจนับสำหรับกลุ่มการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="2779a-117">รอบระยะเวลา – รวมบรรทัดสำหรับรอบระยะเวลาในสมุดรายวันการตรวจนับเมื่อช่วงรอบระยะเวลาหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="2779a-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="2779a-118">สต็อกเป็นศูนย์ – ถ้าปริมาณคงคลังคงเหลือเป็นศูนย์ (0), บรรทัดสร้างในสมุดรายวันการตรวจนับเมื่อมีการรันงาน</span><span class="sxs-lookup"><span data-stu-id="2779a-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="2779a-119">ถ้าปริมาณคงคลังคงเหลือเป็น 0 หลังจากการตรวจนับ บรรทัดสร้างในครั้งต่อไปที่คุณเริ่มต้นการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="2779a-120">ค่าต่ำสุด – แทรกบรรทัดในสมุดรายวันการตรวจนับถ้าปริมาณคงคลังคงเหลือเท่ากับ หรือน้อยกว่าจำนวนขั้นต่ำที่ได้ระบุไว้</span><span class="sxs-lookup"><span data-stu-id="2779a-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="2779a-121">ขั้นตอนนี้ไม่จำเป็น: ถ้าคุณได้ระบุรอบระยะเวลาในฟิลด์รหัสการตรวจนับ คุณต้องพิมพ์ช่วงเวลาสำหรับรอบระยะเวลาในฟิลด์รอบระยะเวลาการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="2779a-122">หน่วยของช่วงเวลาเป็นวัน</span><span class="sxs-lookup"><span data-stu-id="2779a-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="2779a-123">เมื่อคุณรันงานสำหรับการสร้างบรรทัดใหม่ในสมุดรายวันการตรวจนับ บรรทัดใหม่จะถูกสร้างในช่วงที่ระบุไว้ในฟิลด์นี้ โดยไม่คำนึงว่าคุณรันงานเดียวกันบ่อยแค่ไหน </span><span class="sxs-lookup"><span data-stu-id="2779a-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="2779a-124">ตัวอย่างเช่น ถ้ารอบระยะเวลาการตรวจนับถูกตั้งเป็น 7 และบรรทัดสมุดรายวันสร้างขึ้นล่าสุดสำหรับการตรวจนับในวันที่ 1 มกราคม ถ้างานอื่นเริ่มต้นในวันที่ 5 มกราคม 7 วันแล้วยังไม่ผ่าน และดังนั้นจึง ไม่มีบรรทัดถูกสร้างในสมุดรายวันสำหรับช่วงรอบระยะเวลานั้น </span><span class="sxs-lookup"><span data-stu-id="2779a-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="2779a-125">ถ้าคุณเริ่มต้นงานอีกครั้งใน 8 มกราคม บรรทัดจะถูกสร้างสำหรับรอบระยะเวลาในสมุดรายวันการตรวจนับ ก่อนจะผ่านไป 7 วัน</span><span class="sxs-lookup"><span data-stu-id="2779a-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="2779a-126">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="2779a-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>สร้างชื่อสมุดรายวันการตรวจนับ
-1. ไปที่ การจัดการสินค้าคงคลัง > การตั้งค่า > รายชื่อสมุดรายวัน > สินค้าคงคลัง
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-5. ในฟิลด์ชนิดสมุดรายวัน ให้เลือก'การตรวจนับ'
-    * ขั้นตอนนี้ไม่จำเป็น: คุณสามารถเลือกรหัสชุดใบสำคัญที่ต่างกันถ้าคุณต้องการลำดับหมายเลขเฉพาะสำหรับการสร้างรหัสใบสำคัญเมื่อสร้างสมุดรายวันการตรวจนับ ชุดใบสำคัญถูกสร้างในหน้าลำดับหมายเลข  
-6. ในฟิลด์ระดับรายละเอียด ให้เลือกหนึ่งตัวเลือก
-    * นี้คือระดับของรายละเอียดที่ใช้เมื่อลงรายการบัญชีสมุดรายวัน  
-    * ขั้นตอนนี้ไม่จำเป็น: คุณสามารถเปลี่ยนค่าได้ในฟิลด์การจองสินค้า นี่คือวิธีที่ใช้ในการจองสินค้าระหว่างการตรวจนับ   
-    * กำหนดเอง – จองสินค้าด้วยตนเองในแบบฟอร์มการจองสินค้า    อัตโนมัติ – ปริมาณในใบสั่งจะถูกจองจากสินค้าที่พร้อมใช้งาน ปริมาณคงคลังคงเหลือสำหรับสินค้า    การกระจาย – การจองเป็นส่วนหนึ่งของการวางแผนหลักของธุรกรรม  
-7. คลิก บันทึก
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="2779a-127">สร้างชื่อสมุดรายวันการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="2779a-128">ไปที่ การจัดการสินค้าคงคลัง > การตั้งค่า > รายชื่อสมุดรายวัน > สินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2779a-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="2779a-129">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="2779a-129">Click New.</span></span>
+3. <span data-ttu-id="2779a-130">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="2779a-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="2779a-131">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2779a-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="2779a-132">ในฟิลด์ชนิดสมุดรายวัน ให้เลือก'การตรวจนับ'</span><span class="sxs-lookup"><span data-stu-id="2779a-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="2779a-133">ขั้นตอนนี้ไม่จำเป็น: คุณสามารถเลือกรหัสชุดใบสำคัญที่ต่างกันถ้าคุณต้องการลำดับหมายเลขเฉพาะสำหรับการสร้างรหัสใบสำคัญเมื่อสร้างสมุดรายวันการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="2779a-134">ชุดใบสำคัญถูกสร้างในหน้าลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="2779a-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="2779a-135">ในฟิลด์ระดับรายละเอียด ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="2779a-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="2779a-136">นี้คือระดับของรายละเอียดที่ใช้เมื่อลงรายการบัญชีสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="2779a-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="2779a-137">ขั้นตอนนี้ไม่จำเป็น: คุณสามารถเปลี่ยนค่าได้ในฟิลด์การจองสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="2779a-138">นี่คือวิธีที่ใช้ในการจองสินค้าระหว่างการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="2779a-139">กำหนดเอง – จองสินค้าด้วยตนเองในแบบฟอร์มการจองสินค้า </span><span class="sxs-lookup"><span data-stu-id="2779a-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="2779a-140">อัตโนมัติ – ปริมาณในใบสั่งจะถูกจองจากสินค้าที่พร้อมใช้งาน ปริมาณคงคลังคงเหลือสำหรับสินค้า </span><span class="sxs-lookup"><span data-stu-id="2779a-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="2779a-141">การกระจาย – การจองเป็นส่วนหนึ่งของการวางแผนหลักของธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="2779a-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="2779a-142">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="2779a-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>ตั้งค่าชื่อสมุดรายวันการตรวจนับมาตรฐาน
-1. ไปที่การจัดการสินค้าคงคลัง > การตั้งค่า > สินค้าคงคลังและพารามิเตอร์การจัดการคลังสินค้า
-2. คลิกแท็บสมุดรายวัน
-3. ในฟิลด์การตรวจนับ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. เลือกสมุดรายวันที่คุณสร้างขึ้นก่อนหน้านี้
-    * สมุดรายวันนี้จะกลายเป็นชื่อสมุดรายวันเริ่มต้นสำหรับสมุดรายวันสินค้าคงคลังของชนิดการตรวจนับ  
-5. คลิกแท็บ ทั่วไป
-    * ขั้นตอนนี้ไม่จำเป็น: เลือกตัวเลือกนี้เพื่อล็อคสินค้าในระหว่างกระบวนการการตรวจนับเพื่อป้องกันการอัพเดตของ บันทึกการจัดส่ง รายการเบิกสินค้า หรือการลงทะเบียนรายการเบิกสินค้า  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="2779a-143">ตั้งค่าชื่อสมุดรายวันการตรวจนับมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="2779a-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="2779a-144">ไปที่การจัดการสินค้าคงคลัง > การตั้งค่า > สินค้าคงคลังและพารามิเตอร์การจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="2779a-145">คลิกแท็บสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="2779a-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="2779a-146">ในฟิลด์การตรวจนับ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2779a-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="2779a-147">เลือกสมุดรายวันที่คุณสร้างขึ้นก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="2779a-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="2779a-148">สมุดรายวันนี้จะกลายเป็นชื่อสมุดรายวันเริ่มต้นสำหรับสมุดรายวันสินค้าคงคลังของชนิดการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="2779a-149">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="2779a-149">Click the General tab.</span></span>
+    * <span data-ttu-id="2779a-150">ขั้นตอนนี้ไม่จำเป็น: เลือกตัวเลือกนี้เพื่อล็อคสินค้าในระหว่างกระบวนการการตรวจนับเพื่อป้องกันการอัพเดตของ บันทึกการจัดส่ง รายการเบิกสินค้า หรือการลงทะเบียนรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>ตั้งค่านโยบายการตรวจนับสินค้า
-1. ไปที่การจัดการข้อมูลผลิตภัณฑ์ > ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้ 
-2. ในรายการ คลิกที่ลิงค์สำหรับหมายเลขสินค้าของผลิตภัณฑ์ที่คุณต้องการตั้งค่านโยบายการตรวจนับ
-    * หมายเหตุว่าคุณต้องเลือกสินค้าที่เป็นสินค้าคงคลังที่ถูกติดตาม ผลิตภัณฑ์ที่ไม่ได้เก็บในคลังไม่สามารถนำมานับรวม  ถ้าคุณใช้ข้อมูลสาธิต USMF คุณสามารถเลือกสินค้า A0001  
-3. คลิก แก้ไข
-4. สลับการขยายส่วนของส่วนการจัดการสินค้าคงคลัง
-5. ในฟิลด์กลุ่มการตรวจนับ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-6. ในรายการ คลิกที่กลุ่มการตรวจนับที่คุณสร้างไว้ก่อนหน้านี้
-    * ผลิตภัณฑ์นี้จะถูกรวมเมื่อบรรทัดสมุดรายวันการตรวจนับสินค้าคงคลังถูกสร้างโดยใช้กลุ่มการตรวจนับนี้  
-7. คลิก บันทึก
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="2779a-151">ตั้งค่านโยบายการตรวจนับสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="2779a-152">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้ </span><span class="sxs-lookup"><span data-stu-id="2779a-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="2779a-153">ในรายการ คลิกที่ลิงค์สำหรับหมายเลขสินค้าของผลิตภัณฑ์ที่คุณต้องการตั้งค่านโยบายการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="2779a-154">หมายเหตุว่าคุณต้องเลือกสินค้าที่เป็นสินค้าคงคลังที่ถูกติดตาม</span><span class="sxs-lookup"><span data-stu-id="2779a-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="2779a-155">ผลิตภัณฑ์ที่ไม่ได้เก็บในคลังไม่สามารถนำมานับรวม </span><span class="sxs-lookup"><span data-stu-id="2779a-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="2779a-156">ถ้าคุณใช้ข้อมูลสาธิต USMF คุณสามารถเลือกสินค้า A0001</span><span class="sxs-lookup"><span data-stu-id="2779a-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="2779a-157">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="2779a-157">Click Edit.</span></span>
+4. <span data-ttu-id="2779a-158">สลับการขยายส่วนของส่วนการจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2779a-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="2779a-159">ในฟิลด์กลุ่มการตรวจนับ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2779a-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="2779a-160">ในรายการ คลิกที่กลุ่มการตรวจนับที่คุณสร้างไว้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="2779a-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="2779a-161">ผลิตภัณฑ์นี้จะถูกรวมเมื่อบรรทัดสมุดรายวันการตรวจนับสินค้าคงคลังถูกสร้างโดยใช้กลุ่มการตรวจนับนี้</span><span class="sxs-lookup"><span data-stu-id="2779a-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="2779a-162">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="2779a-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>ตั้งค่านโยบายการตรวจนับสำหรับสินค้าในคลังสินค้าเฉพาะ
-1. ในบานหน้าต่างการดำเนินการ คลิกจัดการสินค้าคงคลัง
-2. คลิกสินค้าในคลังสินค้า
-3. คลิก สร้าง
-4. ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. ในรายการ เลือกคลังสินค้าที่คุณต้องการตั้งค่านโยบายการตรวจนับเฉพาะ
-6. ในฟิลด์กลุ่มการตรวจนับ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-7. ในรายการ เลือกกลุ่มการตรวจนับ
-    * ที่นี่คุณสามารถเลือกกลุ่มการตรวจนับเฉพาะที่ควรใช้กับสินค้าในคลังสินค้าเฉพาะที่คุณเลือก  เมื่อการตรวจนับได้ดำเนินการในคลังสินค้า นโยบายการตรวจนับนี้จะแทนที่นโยบายการตรวจนับทั่วไปสำหรับสินค้า  
-8. คลิก บันทึก
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="2779a-163">ตั้งค่านโยบายการตรวจนับสำหรับสินค้าในคลังสินค้าเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="2779a-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="2779a-164">ในบานหน้าต่างการดำเนินการ คลิกจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2779a-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="2779a-165">คลิกสินค้าในคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="2779a-166">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="2779a-166">Click New.</span></span>
+4. <span data-ttu-id="2779a-167">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2779a-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="2779a-168">ในรายการ เลือกคลังสินค้าที่คุณต้องการตั้งค่านโยบายการตรวจนับเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="2779a-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="2779a-169">ในฟิลด์กลุ่มการตรวจนับ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2779a-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="2779a-170">ในรายการ เลือกกลุ่มการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="2779a-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="2779a-171">ที่นี่คุณสามารถเลือกกลุ่มการตรวจนับเฉพาะที่ควรใช้กับสินค้าในคลังสินค้าเฉพาะที่คุณเลือก </span><span class="sxs-lookup"><span data-stu-id="2779a-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="2779a-172">เมื่อการตรวจนับได้ดำเนินการในคลังสินค้า นโยบายการตรวจนับนี้จะแทนที่นโยบายการตรวจนับทั่วไปสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="2779a-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="2779a-173">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="2779a-173">Click Save.</span></span>
 

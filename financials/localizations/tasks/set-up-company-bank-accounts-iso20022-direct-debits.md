@@ -16,47 +16,47 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 741d8ddca24e5fe083b4ddf775bb7f2d65a56fee
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 836433a1a280efde5accba3391519f3c0ce08353
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>ตั้งค่าบัญชีธนาคารของบริษัทสำหรับการหักบัญชีเงินฝากอัตโนมัติ ISO20022
+# <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="4b64e-103">ตั้งค่าบัญชีธนาคารของบริษัทสำหรับการหักบัญชีเงินฝากอัตโนมัติ ISO20022</span><span class="sxs-lookup"><span data-stu-id="4b64e-103">Set up company bank accounts for ISO20022 direct debits</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-งานนี้จะช่วยคุณในการตั้งค่าข้อมูลบัญชีธนาคารเฉพาะบริษัทที่จำเป็นสำหรับการสร้างไฟล์การชำระเงินของลูกค้า  กระบวนงานนี้ใช้รูปแบบการหักบัญชีเงินฝากอัตโนมัติ ISO 20022 เป็นตัวอย่าง รูปแบบอื่นๆ อาจจำเป็นต้องมีการตั้งค่าข้อมูลเพิ่มเติม เช่น รหัสบริษัทหรือรหัสเรียงลำดับ
+<span data-ttu-id="4b64e-104">งานนี้จะช่วยคุณในการตั้งค่าข้อมูลบัญชีธนาคารเฉพาะบริษัทที่จำเป็นสำหรับการสร้างไฟล์การชำระเงินของลูกค้า </span><span class="sxs-lookup"><span data-stu-id="4b64e-104">This task walks you through setting up the company specific bank account information that is required for generating customer payment files.</span></span> <span data-ttu-id="4b64e-105">กระบวนงานนี้ใช้รูปแบบการหักบัญชีเงินฝากอัตโนมัติ ISO 20022 เป็นตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="4b64e-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> <span data-ttu-id="4b64e-106">รูปแบบอื่นๆ อาจจำเป็นต้องมีการตั้งค่าข้อมูลเพิ่มเติม เช่น รหัสบริษัทหรือรหัสเรียงลำดับ</span><span class="sxs-lookup"><span data-stu-id="4b64e-106">Other formats might require additional setup information like the Company ID or the Sort code.</span></span>
 
 
 
-งานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF
+<span data-ttu-id="4b64e-107">งานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF</span><span class="sxs-lookup"><span data-stu-id="4b64e-107">This task was created using the demo data company DEMF.</span></span>
 
 
 
-นี่คือกระบวนงานที่สองจากกระบวนงานห้ารายการที่แสดงให้เห็นถึงขั้นตอนการชำระเงินของลูกค้าโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+<span data-ttu-id="4b64e-108">นี่คือกระบวนงานที่สองจากกระบวนงานห้ารายการที่แสดงให้เห็นถึงขั้นตอนการชำระเงินของลูกค้าโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="4b64e-108">This is the second of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
 
-## <a name="set-up-the-iban-and-swift-codes"></a>ตั้งค่ารหัส IBAN และ SWIFT
-1. ไปที่การจัดการเงินสดและธนาคาร > บัญชีธนาคาร
-2. ใช้ตัวกรองด่วนเพื่อกรองฟิลด์บัญชีธนาคาร ด้วยค่า 'DEMF OPER'
-3. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-    * ตัวอย่างเช่น คลิก 'DEMF OPER' เพื่อเปิดรายละเอียดบัญชีธนาคาร  
-4. คลิก แก้ไข
-5. ขยายหรือยุบส่วนการระบุรหัสประจำตัวเพิ่มเติม
-6. ในฟิลด์ IBAN ให้พิมพ์ค่า
-    * ตัวอย่างเช่น ป้อน 'DE89370400440532013000'  
-7. ในฟิลด์รหัส SWIFT ให้พิมพ์ค่าใดค่าหนึ่ง
-    * ตัวอย่างเช่น ป้อน 'DEUTDEFF'     โปรดทราบว่าไม่จำเป็นต้องใช้ SWIFT \ BIC สำหรับรูปแบบการชำระเงินหลายรายการ อย่างไรก็ตาม ขอแนะนำให้ลงทะเบียนสำหรับบัญชีธนาคาร  
-8. คลิก บันทึก
+## <a name="set-up-the-iban-and-swift-codes"></a><span data-ttu-id="4b64e-109">ตั้งค่ารหัส IBAN และ SWIFT</span><span class="sxs-lookup"><span data-stu-id="4b64e-109">Set up the IBAN and SWIFT codes</span></span>
+1. <span data-ttu-id="4b64e-110">ไปที่การจัดการเงินสดและธนาคาร > บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="4b64e-110">Go to Cash and bank management > Bank accounts.</span></span>
+2. <span data-ttu-id="4b64e-111">ใช้ตัวกรองด่วนเพื่อกรองฟิลด์บัญชีธนาคาร ด้วยค่า 'DEMF OPER'</span><span class="sxs-lookup"><span data-stu-id="4b64e-111">Use the Quick Filter to filter on the Bank account field with a value of 'DEMF OPER'.</span></span>
+3. <span data-ttu-id="4b64e-112">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4b64e-112">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4b64e-113">ตัวอย่างเช่น คลิก 'DEMF OPER' เพื่อเปิดรายละเอียดบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="4b64e-113">For example, click 'DEMF OPER' to open the bank account details.</span></span>  
+4. <span data-ttu-id="4b64e-114">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="4b64e-114">Click Edit.</span></span>
+5. <span data-ttu-id="4b64e-115">ขยายหรือยุบส่วนการระบุรหัสประจำตัวเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="4b64e-115">Expand or collapse the Additional identification section.</span></span>
+6. <span data-ttu-id="4b64e-116">ในฟิลด์ IBAN ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="4b64e-116">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="4b64e-117">ตัวอย่างเช่น ป้อน 'DE89370400440532013000'</span><span class="sxs-lookup"><span data-stu-id="4b64e-117">For example, enter 'DE89370400440532013000'.</span></span>  
+7. <span data-ttu-id="4b64e-118">ในฟิลด์รหัส SWIFT ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="4b64e-118">In the SWIFT code field, type a value.</span></span>
+    * <span data-ttu-id="4b64e-119">ตัวอย่างเช่น ป้อน 'DEUTDEFF' </span><span class="sxs-lookup"><span data-stu-id="4b64e-119">For example, enter 'DEUTDEFF'.</span></span>    <span data-ttu-id="4b64e-120">โปรดทราบว่าไม่จำเป็นต้องใช้ SWIFT \ BIC สำหรับรูปแบบการชำระเงินหลายรายการ อย่างไรก็ตาม ขอแนะนำให้ลงทะเบียนสำหรับบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="4b64e-120">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
+8. <span data-ttu-id="4b64e-121">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4b64e-121">Click Save.</span></span>
 
-## <a name="set-up-a-bank-account-for-the-legal-entity"></a>ตั้งค่าบัญชีธนาคารสำหรับนิติบุคคล
-1. ไปที่การจัดการองค์กร > องค์กร > นิติบุคคล
-2. คลิก แก้ไข
-3. ขยายหรือยุบส่วนของข้อมูลบัญชีธนาคาร
-4. ในฟิลด์บัญชีธนาคาร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-    * ตัวอย่างเช่น เลือกบัญชีธนาคาร "DEMF OPER"  
-6. คลิก บันทึก
+## <a name="set-up-a-bank-account-for-the-legal-entity"></a><span data-ttu-id="4b64e-122">ตั้งค่าบัญชีธนาคารสำหรับนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="4b64e-122">Set up a bank account for the legal entity</span></span>
+1. <span data-ttu-id="4b64e-123">ไปที่การจัดการองค์กร > องค์กร > นิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="4b64e-123">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="4b64e-124">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="4b64e-124">Click Edit.</span></span>
+3. <span data-ttu-id="4b64e-125">ขยายหรือยุบส่วนของข้อมูลบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="4b64e-125">Expand or collapse the Bank account information section.</span></span>
+4. <span data-ttu-id="4b64e-126">ในฟิลด์บัญชีธนาคาร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="4b64e-126">In the Bank account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="4b64e-127">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4b64e-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4b64e-128">ตัวอย่างเช่น เลือกบัญชีธนาคาร "DEMF OPER"</span><span class="sxs-lookup"><span data-stu-id="4b64e-128">For example, select the "DEMF OPER" bank account.</span></span>  
+6. <span data-ttu-id="4b64e-129">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4b64e-129">Click Save.</span></span>
 
 

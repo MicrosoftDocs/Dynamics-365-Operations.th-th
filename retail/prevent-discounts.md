@@ -26,19 +26,19 @@ ms.lasthandoff: 07/31/2017
 
 ---
 
-# <a name="prevent-discounts-for-retail-products"></a>ป้องกันไม่ให้มีส่วนลดสำหรับผลิตภัณฑ์ขายปลีก
+# <a name="prevent-discounts-for-retail-products"></a><span data-ttu-id="ba4f4-103">ป้องกันไม่ให้มีส่วนลดสำหรับผลิตภัณฑ์ขายปลีก</span><span class="sxs-lookup"><span data-stu-id="ba4f4-103">Prevent discounts for retail products</span></span>
 
 [!include[banner](includes/banner.md)]
 
-มีเหตุผลต่าง ๆ ว่าเพราะเหตุใดผู้ค้าปลีกอาจต้องการป้องกันไม่ให้ได้รับส่วนลด จากโปรโมชัน หรือ ระหว่างการขายที่ POS
+<span data-ttu-id="ba4f4-104">มีเหตุผลต่าง ๆ ว่าเพราะเหตุใดผู้ค้าปลีกอาจต้องการป้องกันไม่ให้ได้รับส่วนลด จากโปรโมชัน หรือ ระหว่างการขายที่ POS</span><span class="sxs-lookup"><span data-stu-id="ba4f4-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
 
-ตัวเลือกต่อไปนี้ ซึ่งสามารถดูได้บนแท็บ **การขายปลีก** ของผลิตภัณฑ์ที่นำออกใช้ จะทำให้สามารถตั้งค่าคอนฟิกผลิตภัณฑ์ให้ป้องกันส่วนลดทั้งหมดหรือที่กำหนดด้วยตนเองได้ คุณสามารถระบุการตั้งค่าได้ที่ระดับประเภทจากลำดับชั้นประเภทการขายปลีก
+<span data-ttu-id="ba4f4-105">ตัวเลือกต่อไปนี้ ซึ่งสามารถดูได้บนแท็บ **การขายปลีก** ของผลิตภัณฑ์ที่นำออกใช้ จะทำให้สามารถตั้งค่าคอนฟิกผลิตภัณฑ์ให้ป้องกันส่วนลดทั้งหมดหรือที่กำหนดด้วยตนเองได้</span><span class="sxs-lookup"><span data-stu-id="ba4f4-105">The following options, which can be found on the **Retail** tab of released products, will allow the product to be configured to prevent all or manual discounts.</span></span> <span data-ttu-id="ba4f4-106">คุณสามารถระบุการตั้งค่าได้ที่ระดับประเภทจากลำดับชั้นประเภทการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="ba4f4-106">The settings can also be specified at the category level from the retail category hierarchy.</span></span>
 
-**ป้องกันไม่ให้มีส่วนลดทั้งหมด**: เลือกตัวเลือกนี้เพื่อป้องกันไม่ให้มีการนำส่วนลดทุกประเภททั้งหมดไปใช้กับผลิตภัณฑ์นี้ ซึ่งรวมถึงโปรโมชันต่าง ๆ เช่น การซื้อคละกัน ส่วนลดตามปริมาณและส่วนลดจำกัด รวมทั้งส่วนลดต่อรายการสินค้าที่กำหนดเองและส่วนลดของธุรกรรมที่ใช้ในระหว่างการขายโดยผู้ใช้ POS
+<span data-ttu-id="ba4f4-107">**ป้องกันไม่ให้มีส่วนลดทั้งหมด**: เลือกตัวเลือกนี้เพื่อป้องกันไม่ให้มีการนำส่วนลดทุกประเภททั้งหมดไปใช้กับผลิตภัณฑ์นี้</span><span class="sxs-lookup"><span data-stu-id="ba4f4-107">**Prevent all discounts**: Select this option to prevent all types of discounts from being applied to this product.</span></span> <span data-ttu-id="ba4f4-108">ซึ่งรวมถึงโปรโมชันต่าง ๆ เช่น การซื้อคละกัน ส่วนลดตามปริมาณและส่วนลดจำกัด รวมทั้งส่วนลดต่อรายการสินค้าที่กำหนดเองและส่วนลดของธุรกรรมที่ใช้ในระหว่างการขายโดยผู้ใช้ POS</span><span class="sxs-lookup"><span data-stu-id="ba4f4-108">This includes promotions such as mix and match, quantity and threshold discounts, as well as manual line and transaction discounts that are applied during a sale by a POS user.</span></span>
 
-**ป้องกันไม่ให้มีส่วนลดที่กำหนดเอง**: เลือกตัวเลือกนี้เพื่อป้องกันไม่ให้มีส่วนลดต่อรายการสินค้าที่กำหนดเองหรือส่วนลดของธุรกรรมที่ใช้ในระหว่างการขายโดยผู้ใช้ POS เท่านั้น ผลิตภัณฑ์ที่มีการเลือกตัวเลือกนี้จะยังคงมีสิทธิ์สำหรับการส่งเสริมการขาย เช่น ส่วนลดสำหรับการซื้อคละกัน และส่วนลดตามปริมาณและส่วนลดจำกัด
+<span data-ttu-id="ba4f4-109">**ป้องกันไม่ให้มีส่วนลดที่กำหนดเอง**: เลือกตัวเลือกนี้เพื่อป้องกันไม่ให้มีส่วนลดต่อรายการสินค้าที่กำหนดเองหรือส่วนลดของธุรกรรมที่ใช้ในระหว่างการขายโดยผู้ใช้ POS เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="ba4f4-109">**Prevent manual discounts**: Select this option to only prevent the manual line or transaction discounts that are applied during a sale by a POS user.</span></span> <span data-ttu-id="ba4f4-110">ผลิตภัณฑ์ที่มีการเลือกตัวเลือกนี้จะยังคงมีสิทธิ์สำหรับการส่งเสริมการขาย เช่น ส่วนลดสำหรับการซื้อคละกัน และส่วนลดตามปริมาณและส่วนลดจำกัด</span><span class="sxs-lookup"><span data-stu-id="ba4f4-110">Products with this option selected are still eligible for promotions, such as mix and match and quantity and threshold discounts.</span></span>
 
-**หมายเหตุ**: การตั้งค่าเหล่านี้ไม่จำกัดการดำเนินการแทนที่ราคา เนื่องจากจะเป็นการกำหนดราคาพื้นฐานและไม่ถือว่าเป็นส่วนลด  
+<span data-ttu-id="ba4f4-111">**หมายเหตุ**: การตั้งค่าเหล่านี้ไม่จำกัดการดำเนินการแทนที่ราคา เนื่องจากจะเป็นการกำหนดราคาพื้นฐานและไม่ถือว่าเป็นส่วนลด</span><span class="sxs-lookup"><span data-stu-id="ba4f4-111">**Note**: These settings do not restrict the price override operation, because that sets the base price and is not treated as a discount.</span></span>  
 
 ![ฟิลด์ป้องกันไม่ให้มีส่วนลด](/media/prevent-discounts.png)
 

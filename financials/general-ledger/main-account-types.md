@@ -19,27 +19,27 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: eb8ad0717ce0d9950e479d8e213a82f8e296da1d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2ef6f46b85c9f7784a15f416e1a2a1b009dfa02a
 ms.contentlocale: th-th
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="main-account-types"></a>ประเถทชนิดบัญชีหลัก
+# <a name="main-account-types"></a><span data-ttu-id="8967e-103">ประเถทชนิดบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8967e-103">Main account types</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-ชนิดของบัญชีหลักกำหนดวิธีใช้บัญชีหลักในผังบัญชี
+<span data-ttu-id="8967e-104">ชนิดของบัญชีหลักกำหนดวิธีใช้บัญชีหลักในผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="8967e-104">The main account types determine how a main account is used in the chart of accounts.</span></span>
 
-คุณต้องเลือกชนิดบัญชีหลักเมื่อคุณสร้างบัญชีหลักในบัญชีหลักทั้งหมด หรือ หน้าผังบัญชี
--   กำไร และการขาดทุน รวมถึงรายได้ และค่าใช้ จ่าย – บัญชีหลักเหล่านี้ถูกใช้ในการลงรายการบัญชี บัญชีกำไรขาดทุนจะใช้ถูกใช้สำหรับการบันทึกรายได้และค่าใช้จ่าย ผลรวมกำไรขาดทุน รายได้ และบัญชีค่าใช้จ่ายทั้งหมดจะกำหนดลงในผลตอนสิ้นปี บัญชีรายได้และบัญชีต้นทุนจะทำหน้าที่เหมือนบัญชีกำไรขาดทุน
--   งบดุล หนี้สิน และสินทรัพย์ หุ้น – บัญชีหลักเหล่านี้จะถูกใช้เป็นบัญชีธุรกรรมเพื่อบันทึกยอดเงินที่นิติบุคคลที่เป็นเจ้าของ หรือค้างชำระ
--   รวม – บัญชีหลักเหล่านี้จะถูกใช้เพื่อเพิ่มช่วงบัญชี ตั้งค่าคอนฟิกชนิดบัญชีหลัก โดยใช้บัญชีช่วงหน้า ซึ่งแสดงผลรวมของยอดดุลของกลุ่มสำหรับช่วงบัญชีทั้งหมด คุณสามารถเข้าถึงหน้าช่วงบัญชีได้โดยการคลิกผลรวมบนแท็บทั่วไปหลังจากที่คุณได้เลือกชนิดบัญชีผลรวม
--   รายงาน – บัญชีหลักเหล่านี้จะถูกใช้สำหรับงบการเงินการรายงานสำหรับบราซิลเท่านั้น
+<span data-ttu-id="8967e-105">คุณต้องเลือกชนิดบัญชีหลักเมื่อคุณสร้างบัญชีหลักในบัญชีหลักทั้งหมด หรือ หน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="8967e-105">You must select a main account type when you create a main account in the Main accounts - chart of accounts page.</span></span>
+-   <span data-ttu-id="8967e-106">กำไร และการขาดทุน รวมถึงรายได้ และค่าใช้ จ่าย – บัญชีหลักเหล่านี้ถูกใช้ในการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="8967e-106">Profit and loss, Revenue, and Expense – These main accounts are used as posting accounts.</span></span> <span data-ttu-id="8967e-107">บัญชีกำไรขาดทุนจะใช้ถูกใช้สำหรับการบันทึกรายได้และค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="8967e-107">Profit and loss accounts are used to record revenue and expenses.</span></span> <span data-ttu-id="8967e-108">ผลรวมกำไรขาดทุน รายได้ และบัญชีค่าใช้จ่ายทั้งหมดจะกำหนดลงในผลตอนสิ้นปี</span><span class="sxs-lookup"><span data-stu-id="8967e-108">The sum of all profit and loss, revenue, and expense accounts determines the year-end results.</span></span> <span data-ttu-id="8967e-109">บัญชีรายได้และบัญชีต้นทุนจะทำหน้าที่เหมือนบัญชีกำไรขาดทุน</span><span class="sxs-lookup"><span data-stu-id="8967e-109">Revenue and Expense main accounts have the same function as Profit and loss main accounts.</span></span>
+-   <span data-ttu-id="8967e-110">งบดุล หนี้สิน และสินทรัพย์ หุ้น – บัญชีหลักเหล่านี้จะถูกใช้เป็นบัญชีธุรกรรมเพื่อบันทึกยอดเงินที่นิติบุคคลที่เป็นเจ้าของ หรือค้างชำระ</span><span class="sxs-lookup"><span data-stu-id="8967e-110">Balance sheet, Asset, Liability, and Equity – These main accounts are used as transaction accounts to record the amounts that a legal entity owns or owes.</span></span>
+-   <span data-ttu-id="8967e-111">รวม – บัญชีหลักเหล่านี้จะถูกใช้เพื่อเพิ่มช่วงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8967e-111">Total – These main accounts are used to add account intervals.</span></span> <span data-ttu-id="8967e-112">ตั้งค่าคอนฟิกชนิดบัญชีหลัก โดยใช้บัญชีช่วงหน้า ซึ่งแสดงผลรวมของยอดดุลของกลุ่มสำหรับช่วงบัญชีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8967e-112">Configure the Total main account type by using the Account interval page, which displays the total of the group balances for all account intervals.</span></span> <span data-ttu-id="8967e-113">คุณสามารถเข้าถึงหน้าช่วงบัญชีได้โดยการคลิกผลรวมบนแท็บทั่วไปหลังจากที่คุณได้เลือกชนิดบัญชีผลรวม</span><span class="sxs-lookup"><span data-stu-id="8967e-113">Access the Account interval page by click Totals on the General tab once you have selected a Total account type.</span></span>
+-   <span data-ttu-id="8967e-114">รายงาน – บัญชีหลักเหล่านี้จะถูกใช้สำหรับงบการเงินการรายงานสำหรับบราซิลเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="8967e-114">Reporting – These main accounts are used for financial statement reporting for Brazil only.</span></span>
 
-สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าประเภทบัญชีหลัก](tasks/set-up-main-account-categories.md)
+<span data-ttu-id="8967e-115">สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าประเภทบัญชีหลัก](tasks/set-up-main-account-categories.md)</span><span class="sxs-lookup"><span data-stu-id="8967e-115">For more information, see [Set up main account categories](tasks/set-up-main-account-categories.md).</span></span>
 
 
 

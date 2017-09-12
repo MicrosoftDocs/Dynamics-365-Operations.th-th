@@ -16,41 +16,41 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a31a18ee075c865d5ad99f7cf4ca2eac7c6281c9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9d1718c5e9c98c77fbc274de1bf94f7f0e5eccb4
 ms.contentlocale: th-th
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-finished-product-february-2016-only"></a>สร้างผลิตภัณฑ์สำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)
+# <a name="create-a-finished-product-february-2016-only"></a><span data-ttu-id="9ebb6-103">สร้างผลิตภัณฑ์สำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)</span><span class="sxs-lookup"><span data-stu-id="9ebb6-103">Create a finished product (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์สำเร็จรูป นี่คืองานแรกในลำดับการคำนวณ BOM ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF
+<span data-ttu-id="9ebb6-104">งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์สำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="9ebb6-104">This task focuses on creating a finished product.</span></span> <span data-ttu-id="9ebb6-105">นี่คืองานแรกในลำดับการคำนวณ BOM</span><span class="sxs-lookup"><span data-stu-id="9ebb6-105">It is the first task in the BOM calculation series.</span></span> <span data-ttu-id="9ebb6-106">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="9ebb6-106">The demo data company used to create this task is USMF.</span></span>
 
-1. ไปที่การจัดการข้อมูลผลิตภัณฑ์ > ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้ 
-2. คลิก สร้าง
-3. ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า
-    * สำหรับการสาธิต ให้พิมพ์ BOM_1  
-4. ในฟิลด์กลุ่มแบบจำลอง ให้ป้อนหรือเลือกค่า
-    * เลือก STD STD ย่อมาจาก ต้นทุนมาตรฐาน และเป็นแบบจำลองที่ถูกนำมาใช้มากที่สุดเมื่อทำงานกับการคำนวณต้นทุน  
-5. ในฟิลด์กลุ่มสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * ตัวอย่างเช่น เลือก เสียง ซึ่งไม่มีผลกระทบต่อการคำนวณต้นทุน  
-6. ในฟิลด์กลุ่มแบบจำลองมิติการจัดเก็บ ให้ป้อนหรือเลือกค่า
-    * เลือก SiteWH เฉพาะไซต์และคลังสินค้าที่จะถูกใช้สำหรับการสาธิต  
-7. ในฟิลด์กลุ่มมิติการติดตาม ให้ป้อนหรือเลือกค่า
-    * จะไม่ใช้มิติการติดตามสำหรับตัวอย่างนี้ เลือก ไม่มี  
-8. คลิก ตกลง
-9. ในบานหน้าต่างการดำเนินการ คลิกจัดการสินค้าคงคลัง
-10. คลิกการตั้งค่าใบสั่งเริ่มต้น
-11. ในฟิลด์ชนิดใบสั่งเริ่มต้น ให้เลือก 'การผลิต'
-    * เนื่องจากเป็นผลิตภัณฑ์สำเร็จรูปที่จะผลิต เลือก การผลิต  
-12. ในฟิลด์ ไซต์การซื้อ ให้ป้อนหรือเลือกค่า
-    * สำหรับการสาธิต เลือก ไซต์ 1  
-13. ในฟิลด์ ไซต์สินค้าคงคลัง ให้ป้อนหรือเลือกค่า
-    * สำหรับตัวอย่างนี้ ให้เลือก ไซต์ 1  
-14. ในฟิลด์ ไซต์การขาย ให้ป้อนหรือเลือกค่า
-    * สำหรับตัวอย่างนี้ ให้เลือก ไซต์ 1  
-15. ปิดหน้า
+1. <span data-ttu-id="9ebb6-107">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้ </span><span class="sxs-lookup"><span data-stu-id="9ebb6-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="9ebb6-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="9ebb6-108">Click New.</span></span>
+3. <span data-ttu-id="9ebb6-109">ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="9ebb6-110">สำหรับการสาธิต ให้พิมพ์ BOM_1</span><span class="sxs-lookup"><span data-stu-id="9ebb6-110">For the demonstration, type BOM_1.</span></span>  
+4. <span data-ttu-id="9ebb6-111">ในฟิลด์กลุ่มแบบจำลอง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-111">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-112">เลือก STD</span><span class="sxs-lookup"><span data-stu-id="9ebb6-112">Select STD.</span></span> <span data-ttu-id="9ebb6-113">STD ย่อมาจาก ต้นทุนมาตรฐาน และเป็นแบบจำลองที่ถูกนำมาใช้มากที่สุดเมื่อทำงานกับการคำนวณต้นทุน</span><span class="sxs-lookup"><span data-stu-id="9ebb6-113">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+5. <span data-ttu-id="9ebb6-114">ในฟิลด์กลุ่มสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="9ebb6-114">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-115">ตัวอย่างเช่น เลือก เสียง</span><span class="sxs-lookup"><span data-stu-id="9ebb6-115">For example, select Audio.</span></span> <span data-ttu-id="9ebb6-116">ซึ่งไม่มีผลกระทบต่อการคำนวณต้นทุน</span><span class="sxs-lookup"><span data-stu-id="9ebb6-116">This has no impact on cost calculations.</span></span>  
+6. <span data-ttu-id="9ebb6-117">ในฟิลด์กลุ่มแบบจำลองมิติการจัดเก็บ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-117">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-118">เลือก SiteWH</span><span class="sxs-lookup"><span data-stu-id="9ebb6-118">Select SiteWH.</span></span> <span data-ttu-id="9ebb6-119">เฉพาะไซต์และคลังสินค้าที่จะถูกใช้สำหรับการสาธิต</span><span class="sxs-lookup"><span data-stu-id="9ebb6-119">Only Site and Warehouse will be used for the demonstration.</span></span>  
+7. <span data-ttu-id="9ebb6-120">ในฟิลด์กลุ่มมิติการติดตาม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-120">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-121">จะไม่ใช้มิติการติดตามสำหรับตัวอย่างนี้ เลือก ไม่มี</span><span class="sxs-lookup"><span data-stu-id="9ebb6-121">Tracking dimensions will not be used for this example, select None.</span></span>  
+8. <span data-ttu-id="9ebb6-122">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="9ebb6-122">Click OK.</span></span>
+9. <span data-ttu-id="9ebb6-123">ในบานหน้าต่างการดำเนินการ คลิกจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="9ebb6-123">On the Action Pane, click Manage inventory.</span></span>
+10. <span data-ttu-id="9ebb6-124">คลิกการตั้งค่าใบสั่งเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="9ebb6-124">Click Default order settings.</span></span>
+11. <span data-ttu-id="9ebb6-125">ในฟิลด์ชนิดใบสั่งเริ่มต้น ให้เลือก 'การผลิต'</span><span class="sxs-lookup"><span data-stu-id="9ebb6-125">In the Default order type field, select 'Production'.</span></span>
+    * <span data-ttu-id="9ebb6-126">เนื่องจากเป็นผลิตภัณฑ์สำเร็จรูปที่จะผลิต เลือก การผลิต</span><span class="sxs-lookup"><span data-stu-id="9ebb6-126">Because this is a finished product that will be produced, select Production.</span></span>  
+12. <span data-ttu-id="9ebb6-127">ในฟิลด์ ไซต์การซื้อ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-127">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-128">สำหรับการสาธิต เลือก ไซต์ 1</span><span class="sxs-lookup"><span data-stu-id="9ebb6-128">For the demonstration, select Site 1.</span></span>  
+13. <span data-ttu-id="9ebb6-129">ในฟิลด์ ไซต์สินค้าคงคลัง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-129">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-130">สำหรับตัวอย่างนี้ ให้เลือก ไซต์ 1</span><span class="sxs-lookup"><span data-stu-id="9ebb6-130">For this example, select Site 1.</span></span>  
+14. <span data-ttu-id="9ebb6-131">ในฟิลด์ ไซต์การขาย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-131">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="9ebb6-132">สำหรับตัวอย่างนี้ ให้เลือก ไซต์ 1</span><span class="sxs-lookup"><span data-stu-id="9ebb6-132">For this example, select Site 1.</span></span>  
+15. <span data-ttu-id="9ebb6-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="9ebb6-133">Close the page.</span></span>
 
 

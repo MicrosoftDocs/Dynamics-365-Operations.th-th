@@ -17,65 +17,65 @@ ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d13fc55342030d96d38f264f6bff9586832b4ab5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 89f01401f1d937a72ae7e59b784cf034b48aaf1f
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-based-product-configuration"></a>การจัดโครงแบบของผลิตภัณฑ์ตามมิติ
+# <a name="dimension-based-product-configuration"></a><span data-ttu-id="93edc-103">การจัดโครงแบบของผลิตภัณฑ์ตามมิติ</span><span class="sxs-lookup"><span data-stu-id="93edc-103">Dimension-based product configuration</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-การจัดโครงแบบของผลิตภัณฑ์ตามมิติแสดงโซลูชันแบบง่ายสำหรับการสร้างผลิตภัณฑ์ย่อยจำนวนมากจากผลิตภัณฑ์หลักเดียวและสูตรการผลิต
+<span data-ttu-id="93edc-104">การจัดโครงแบบของผลิตภัณฑ์ตามมิติแสดงโซลูชันแบบง่ายสำหรับการสร้างผลิตภัณฑ์ย่อยจำนวนมากจากผลิตภัณฑ์หลักเดียวและสูตรการผลิต</span><span class="sxs-lookup"><span data-stu-id="93edc-104">Dimension-based product configuration represents a simple solution for creating many product variants from a single product master and its bill of materials.</span></span>
 
-การจัดโครงแบบของผลิตภัณฑ์ตามมิติเป็นค่าใดค่าหนึ่งในสามเทคโนโลยีการจัดโครงแบบผลิตภัณฑ์ที่มีอยู่แล้ว เทคโนโลยีสองแบบมีตัวแปรที่กำหนดไว้ล่วงหน้าและการจัดโครงแบบตามข้อจำกัด เทคโนโลยีทั้งสามแบบใช้ผลิตภัณฑ์หลักเป็นจุดเริ่มต้น และอนุญาตให้ผู้ใช้สามารถสร้างผลิตภัณฑ์ย่อยหลายสำหรับหนึ่งผลิตภัณฑ์หลัก
+<span data-ttu-id="93edc-105">การจัดโครงแบบของผลิตภัณฑ์ตามมิติเป็นค่าใดค่าหนึ่งในสามเทคโนโลยีการจัดโครงแบบผลิตภัณฑ์ที่มีอยู่แล้ว</span><span class="sxs-lookup"><span data-stu-id="93edc-105">Dimension-based product configuration is one of the three built-in product configuration technologies.</span></span> <span data-ttu-id="93edc-106">เทคโนโลยีสองแบบมีตัวแปรที่กำหนดไว้ล่วงหน้าและการจัดโครงแบบตามข้อจำกัด</span><span class="sxs-lookup"><span data-stu-id="93edc-106">The two other technologies are predefined variants and constraint-based configuration.</span></span> <span data-ttu-id="93edc-107">เทคโนโลยีทั้งสามแบบใช้ผลิตภัณฑ์หลักเป็นจุดเริ่มต้น และอนุญาตให้ผู้ใช้สามารถสร้างผลิตภัณฑ์ย่อยหลายสำหรับหนึ่งผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="93edc-107">All three technologies use a product master as the starting point and allow the user to create many product variants for one product master.</span></span>
 
-## <a name="key-concepts"></a>แนวคิดหลัก
-การจัดโครงแบบของผลิตภัณฑ์ตามมิติตามแนวคิดหลักต่อไปนี้:
+## <a name="key-concepts"></a><span data-ttu-id="93edc-108">แนวคิดหลัก</span><span class="sxs-lookup"><span data-stu-id="93edc-108">Key concepts</span></span>
+<span data-ttu-id="93edc-109">การจัดโครงแบบของผลิตภัณฑ์ตามมิติตามแนวคิดหลักต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="93edc-109">Dimension-based product configuration is based on the following key concepts:</span></span>
 
--   ผลิตภัณฑ์หลัก
--   มิติของผลิตภัณฑ์การจัดการโครงแบบ
--   กลุ่มการปรับเปลี่ยน
--   สูตรการผลิต (BOM)
--   กระบวนการผลิตที่ปรับเปลี่ยนได้
--   กฎโครงแบบ
+-   <span data-ttu-id="93edc-110">ผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="93edc-110">Product masters</span></span>
+-   <span data-ttu-id="93edc-111">มิติของผลิตภัณฑ์การจัดการโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-111">Configuration product dimension</span></span>
+-   <span data-ttu-id="93edc-112">กลุ่มการปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="93edc-112">Configuration groups</span></span>
+-   <span data-ttu-id="93edc-113">สูตรการผลิต (BOM)</span><span class="sxs-lookup"><span data-stu-id="93edc-113">Bill of materials (BOM)</span></span>
+-   <span data-ttu-id="93edc-114">กระบวนการผลิตที่ปรับเปลี่ยนได้</span><span class="sxs-lookup"><span data-stu-id="93edc-114">Configuration route</span></span>
+-   <span data-ttu-id="93edc-115">กฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-115">Configuration rules</span></span>
 
-### <a name="product-masters"></a>ผลิตภัณฑ์หลัก
+### <a name="product-masters"></a><span data-ttu-id="93edc-116">ผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="93edc-116">Product masters</span></span>
 
-ผลิตภัณฑ์หลักคือ จุดเริ่มต้นสำหรับกระบวนการจัดโครงแบบผลิตภัณฑ์ สำหรับการจัดโครงแบบของผลิตภัณฑ์ตามมิติ คุณจำเป็นต้อง มีเทคโนโลยีการตั้งค่าคอนฟิกเฉพาะนี้และกลุ่มมิติของผลิตภัณฑ์ที่มีมิติของผลิตภัณฑ์การจัดการโครงแบบ
+<span data-ttu-id="93edc-117">ผลิตภัณฑ์หลักคือ จุดเริ่มต้นสำหรับกระบวนการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="93edc-117">A product master is the starting point for any product configuration process.</span></span> <span data-ttu-id="93edc-118">สำหรับการจัดโครงแบบของผลิตภัณฑ์ตามมิติ คุณจำเป็นต้อง มีเทคโนโลยีการตั้งค่าคอนฟิกเฉพาะนี้และกลุ่มมิติของผลิตภัณฑ์ที่มีมิติของผลิตภัณฑ์การจัดการโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-118">For the dimension-based product configuration, you need a product master with this particular configuration technology and a product dimension group that includes the configuration product dimension.</span></span>
 
-### <a name="configuration-product-dimension"></a>มิติของผลิตภัณฑ์การจัดการโครงแบบ
+### <a name="configuration-product-dimension"></a><span data-ttu-id="93edc-119">มิติของผลิตภัณฑ์การจัดการโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-119">Configuration product dimension</span></span>
 
-มิติของผลิตภัณฑ์การจัดการโครงแบบ จะถูกระบุผลิตภัณฑ์ย่อยสำหรับผลิตภัณฑ์หลัก กับเทคโนโลยีการจัดโครงแบบตามมิติ ค่ามิติโครงแบบถูกป้อน โดยผู้ใช้ และควรช่วยในการระบุแต่ละผลิตภัณฑ์ย่อย
+<span data-ttu-id="93edc-120">มิติของผลิตภัณฑ์การจัดการโครงแบบ จะถูกระบุผลิตภัณฑ์ย่อยสำหรับผลิตภัณฑ์หลัก กับเทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="93edc-120">The configuration product dimension is used to identify the product variants for a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="93edc-121">ค่ามิติโครงแบบถูกป้อน โดยผู้ใช้ และควรช่วยในการระบุแต่ละผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="93edc-121">The configuration dimension value is entered by the user and should help to identify the individual product variants.</span></span>
 
-### <a name="configuration-groups"></a>กลุ่มการปรับเปลี่ยน
+### <a name="configuration-groups"></a><span data-ttu-id="93edc-122">กลุ่มการปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="93edc-122">Configuration groups</span></span>
 
-กลุ่มมิติจะกำหนดอยู่ในเก็บส่วนกลาง และสามารถใช้สำหรับแบบจำลองการจัดโครงแบบของผลิตภัณฑ์ตามมิติทั้งหมด กลุ่มมิติที่เกี่ยวข้องกับบรรทัด BOM แต่ละรายการ และระงับเข้าด้วยกันกับกลุ่มของบรรทัดที่เป็นแบบเฉพาะร่วมกัน ซึ่งหมายความ ว่า คุณสามารถเลือกรายการเดียวเท่านั้นในกลุ่มสำหรับตัวแปรผลิตภัณฑ์ย่อยเดียวกัน
+<span data-ttu-id="93edc-123">กลุ่มมิติจะกำหนดอยู่ในเก็บส่วนกลาง และสามารถใช้สำหรับแบบจำลองการจัดโครงแบบของผลิตภัณฑ์ตามมิติทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="93edc-123">Configuration groups are defined in a central repository and can be used for all dimension-based product configuration models.</span></span> <span data-ttu-id="93edc-124">กลุ่มมิติที่เกี่ยวข้องกับบรรทัด BOM แต่ละรายการ และระงับเข้าด้วยกันกับกลุ่มของบรรทัดที่เป็นแบบเฉพาะร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="93edc-124">Configuration groups are associated to the individual BOM lines and hold together a group of lines that are mutually exclusive.</span></span> <span data-ttu-id="93edc-125">ซึ่งหมายความ ว่า คุณสามารถเลือกรายการเดียวเท่านั้นในกลุ่มสำหรับตัวแปรผลิตภัณฑ์ย่อยเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="93edc-125">This means that only one line in a group can be selected for a single product variant.</span></span>
 
-### <a name="bill-of-materials-bom"></a>สูตรการผลิต (BOM)
+### <a name="bill-of-materials-bom"></a><span data-ttu-id="93edc-126">สูตรการผลิต (BOM)</span><span class="sxs-lookup"><span data-stu-id="93edc-126">Bill of materials (BOM)</span></span>
 
-BOM แสดงส่วนประกอบตัวจัดโครงแบบของผลิตภัณฑ์ตามมิติ รวมถึงผลิตภัณฑ์อื่นทั้งหมดที่แตกต่างกันที่สามารถใช้ในผลิตภัณฑ์ย่อยใด ๆ แต่ละบรรทัดใน BOM สามารถอ้างอิงกลุ่มโครงแบบ ถ้าบรรทัดไม่ได้อ้างอิงกลุ่มโครงแบบ มันจะรวมอยู่ในผลิตภัณฑ์ย่อยทั้งหมด
+<span data-ttu-id="93edc-127">BOM แสดงส่วนประกอบตัวจัดโครงแบบของผลิตภัณฑ์ตามมิติ</span><span class="sxs-lookup"><span data-stu-id="93edc-127">The BOM represent the building blocks for a dimension-based product configuration.</span></span> <span data-ttu-id="93edc-128">รวมถึงผลิตภัณฑ์อื่นทั้งหมดที่แตกต่างกันที่สามารถใช้ในผลิตภัณฑ์ย่อยใด ๆ</span><span class="sxs-lookup"><span data-stu-id="93edc-128">It must include all the different products that can be used in any product variant.</span></span> <span data-ttu-id="93edc-129">แต่ละบรรทัดใน BOM สามารถอ้างอิงกลุ่มโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-129">Each line in the BOM can reference a configuration group.</span></span> <span data-ttu-id="93edc-130">ถ้าบรรทัดไม่ได้อ้างอิงกลุ่มโครงแบบ มันจะรวมอยู่ในผลิตภัณฑ์ย่อยทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="93edc-130">If a line doesn’t reference a configuration group, it will be included in all product variants.</span></span>
 
-### <a name="configuration-route"></a>กระบวนการผลิตที่ปรับเปลี่ยนได้
+### <a name="configuration-route"></a><span data-ttu-id="93edc-131">กระบวนการผลิตที่ปรับเปลี่ยนได้</span><span class="sxs-lookup"><span data-stu-id="93edc-131">Configuration route</span></span>
 
-เส้นทางการตั้งค่าคอนฟิกกำหนดลำดับของกลุ่มการตั้งค่าคอนฟิก ตามที่จะแสดงต่อผู้ใช้ในระหว่างกระบวนการจัดโครงแบบผลิตภัณฑ์
+<span data-ttu-id="93edc-132">เส้นทางการตั้งค่าคอนฟิกกำหนดลำดับของกลุ่มการตั้งค่าคอนฟิก ตามที่จะแสดงต่อผู้ใช้ในระหว่างกระบวนการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="93edc-132">The configuration route determines the sequence of the configuration groups, as they will be displayed to the user during the product configuration process.</span></span>
 
-### <a name="configuration-rules"></a>กฎโครงแบบ
+### <a name="configuration-rules"></a><span data-ttu-id="93edc-133">กฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-133">Configuration rules</span></span>
 
-กฎโครงแบบแสดงกลไกการตรวจสอบว่า ผลิตภัณฑ์ที่รวมอยู่ในกลุ่มโครงแบบหนึ่งใน BOM บังคับใช้ทั้งการรวมและมีข้อยกเว้นของผลิตภัณฑ์ในกลุ่มโครงแบบที่แตกต่างกันใน BOM เดียวกัน
+<span data-ttu-id="93edc-134">กฎโครงแบบแสดงกลไกการตรวจสอบว่า ผลิตภัณฑ์ที่รวมอยู่ในกลุ่มโครงแบบหนึ่งใน BOM บังคับใช้ทั้งการรวมและมีข้อยกเว้นของผลิตภัณฑ์ในกลุ่มโครงแบบที่แตกต่างกันใน BOM เดียวกัน</span><span class="sxs-lookup"><span data-stu-id="93edc-134">The configuration rules represent a mechanism for ensuring that a product included in one configuration group in a BOM enforces either an inclusion or an exclusion of a product in a different configuration group in the same BOM.</span></span>
 
-## <a name="product-modeling-process"></a>กระบวนการการสร้างแบบจำลองผลิตภัณฑ์
-ลำดับของการสร้างรุ่นผลิตภัณฑ์สำหรับผลิตภัณฑ์ตามมิติเริ่มต้น ด้วยการกำหนดกลุ่มโครงแบบที่เกี่ยวข้อง มันเป็นสิ่งสำคัญเพื่อให้แน่ใจว่า มีการผลิตภัณฑ์ทั้งหมดที่จะถูกใช้ใน BOM ได้ถูกส่งออกไปยังบริษัทที่แบบจำลองผลิตภัณฑ์ถูกสร้างขึ้น เมื่อส่วนประกอบเหล่านี้อยู่ในสถานที่ ผู้ใช้สามารถสร้าง BOM และกำหนดกลุ่มการตั้งค่าคอนฟิกให้กับบรรทัด BOM ที่เกี่ยวข้องทั้งหมด เมื่อ BOM เสร็จสมบูรณ์แล้ว คุณสามารถกำหนดเส้นทางการตั้งค่าคอนฟิกสำหรับกลุ่มการตั้งค่าคอนฟิกการสั่งซื้อในลำดับที่เหมาะสม \[caption id="attachment\_282671" align="alignnone" width="1187"\][![กระบวนการสร้างโมเดลผลิตภัณฑ์ตามมิติ](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) กระบวนการสร้างโมเดลผลิตภัณฑ์ตามมิติ\[/caption\] ถ้าผลิตภัณฑ์ที่แน่นอนจากกลุ่มการตั้งค่าคอนฟิกที่แตกต่างกันที่ต้องใช้ร่วมกันหรือต้องไม่ถูกใช้ร่วมกัน คุณสามารถสร้างกฎโครงแบบที่จะบังคับใช้ความสัมพันธ์ของผลิตภัณฑ์เหล่านี้ได้ หลังจาก BOM ถูกเชื่อมโยงร่วมกับผลิตภัณฑ์หลักตามมิติโดยใช้เวอร์ชัน BOM และทั้งสองแบบได้รับการอนุมัติ และเรียกใช้งาน คุณสามารถสร้างการจัดโครงแบบผลิตภัณฑ์ และป้อนชื่อสำหรับแต่ละโครงแบบ คุณสามารถกำหนดโครงแบบก่อนธุรกรรมใด ๆ จะถูกสร้างขึ้น หรือสามารถทำเมื่อจำเป็นสำหรับการกำหนดค่าบางอย่างเกิดขึ้น
+## <a name="product-modeling-process"></a><span data-ttu-id="93edc-135">กระบวนการการสร้างแบบจำลองผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="93edc-135">Product modeling process</span></span>
+<span data-ttu-id="93edc-136">ลำดับของการสร้างรุ่นผลิตภัณฑ์สำหรับผลิตภัณฑ์ตามมิติเริ่มต้น ด้วยการกำหนดกลุ่มโครงแบบที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="93edc-136">The natural sequence for building a product model for a dimension-based product starts with defining the relevant configuration groups.</span></span> <span data-ttu-id="93edc-137">มันเป็นสิ่งสำคัญเพื่อให้แน่ใจว่า มีการผลิตภัณฑ์ทั้งหมดที่จะถูกใช้ใน BOM ได้ถูกส่งออกไปยังบริษัทที่แบบจำลองผลิตภัณฑ์ถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="93edc-137">It is important to ensure that all products which will be used in the BOM have been relased to the company that the product model is built for.</span></span> <span data-ttu-id="93edc-138">เมื่อส่วนประกอบเหล่านี้อยู่ในสถานที่ ผู้ใช้สามารถสร้าง BOM และกำหนดกลุ่มการตั้งค่าคอนฟิกให้กับบรรทัด BOM ที่เกี่ยวข้องทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="93edc-138">With these building blocks in place, the user can create the BOM and assign configuration groups to all relevant BOM lines.</span></span> <span data-ttu-id="93edc-139">เมื่อ BOM เสร็จสมบูรณ์แล้ว คุณสามารถกำหนดเส้นทางการตั้งค่าคอนฟิกสำหรับกลุ่มการตั้งค่าคอนฟิกการสั่งซื้อในลำดับที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="93edc-139">When the BOM is complete, a configuration route can be defined for ordering the configuration groups in the proper sequence.</span></span> <span data-ttu-id="93edc-140">\[caption id="attachment\_282671" align="alignnone" width="1187"\][![กระบวนการสร้างโมเดลผลิตภัณฑ์ตามมิติ](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) กระบวนการสร้างโมเดลผลิตภัณฑ์ตามมิติ\[/caption\] ถ้าผลิตภัณฑ์ที่แน่นอนจากกลุ่มการตั้งค่าคอนฟิกที่แตกต่างกันที่ต้องใช้ร่วมกันหรือต้องไม่ถูกใช้ร่วมกัน คุณสามารถสร้างกฎโครงแบบที่จะบังคับใช้ความสัมพันธ์ของผลิตภัณฑ์เหล่านี้ได้</span><span class="sxs-lookup"><span data-stu-id="93edc-140">\[caption id="attachment\_282671" align="alignnone" width="1187"\][![Dimension-based product modeling process](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Dimension-based product modeling process\[/caption\] If there are certain products from different configuration groups that either must or must not be used together, you can create configuration rules that will enforce these product relationships.</span></span> <span data-ttu-id="93edc-141">หลังจาก BOM ถูกเชื่อมโยงร่วมกับผลิตภัณฑ์หลักตามมิติโดยใช้เวอร์ชัน BOM และทั้งสองแบบได้รับการอนุมัติ และเรียกใช้งาน คุณสามารถสร้างการจัดโครงแบบผลิตภัณฑ์ และป้อนชื่อสำหรับแต่ละโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="93edc-141">After the BOM has been tied together with a dimension-based product master through a BOM version and both have been approved and activated, you can create product configurations and enter a name for each configuration.</span></span> <span data-ttu-id="93edc-142">คุณสามารถกำหนดโครงแบบก่อนธุรกรรมใด ๆ จะถูกสร้างขึ้น หรือสามารถทำเมื่อจำเป็นสำหรับการกำหนดค่าบางอย่างเกิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="93edc-142">The configurations can be defined before any transactions are generated or it can be done when the need for a certain configuration occurs.</span></span>
 
-### <a name="suggested-use"></a>แนะนำการใช้
+### <a name="suggested-use"></a><span data-ttu-id="93edc-143">แนะนำการใช้</span><span class="sxs-lookup"><span data-stu-id="93edc-143">Suggested use</span></span>
 
-เทคโนโลยีการจัดโครงแบบตามมิติเหมาะสมที่จะใช้สำหรับผลิตภัณฑ์ที่ มีความผันแปรจำกัดและการรวมชุดของขนาดมิติผลิตภัณฑ์มาตรฐานมิติข สี ลักษณะ และตั้งค่าคอนฟิกที่ไม่เหมาะสมสำหรับการระบุตัวแปรผลิตภัณฑ์เฉพาะ ตัวอย่างอาจเป็นจักรยาน กับความสูงเฟรม ขนาดวงล้อ ชนิดเบรค และเกียร์แตกต่างกัน
+<span data-ttu-id="93edc-144">เทคโนโลยีการจัดโครงแบบตามมิติเหมาะสมที่จะใช้สำหรับผลิตภัณฑ์ที่ มีความผันแปรจำกัดและการรวมชุดของขนาดมิติผลิตภัณฑ์มาตรฐานมิติข สี ลักษณะ และตั้งค่าคอนฟิกที่ไม่เหมาะสมสำหรับการระบุตัวแปรผลิตภัณฑ์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="93edc-144">The dimension-based configuration technology is best used for products with limited variability and the combination of the standard product dimensions size, color, style, and configuration is unsuitable for identifying a specific product variant.</span></span> <span data-ttu-id="93edc-145">ตัวอย่างอาจเป็นจักรยาน กับความสูงเฟรม ขนาดวงล้อ ชนิดเบรค และเกียร์แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="93edc-145">An example could be bicycle with frame height, wheel size, brake types, and different gears.</span></span>
 
 
 

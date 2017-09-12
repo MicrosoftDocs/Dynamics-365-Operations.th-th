@@ -16,108 +16,108 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4576d89923926971ab3ca30dc702baedf05f602a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: de2840ebc6c91e313546859f5c0d8939eb80977b
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>สร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a><span data-ttu-id="a1671-103">สร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="a1671-103">Generate reports in Microsoft Office formats with embedded images for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ที่มีบทบาท ‘ผู้ดูแลระบบ‘ หรือ ‘นักพัฒนาการรายงานทางอิเล็กทรอนิกส์’ สามารถออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ MS office (Excel and Word) ที่มีรูปภาพที่ฝัง
+<span data-ttu-id="a1671-104">ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ที่มีบทบาท ‘ผู้ดูแลระบบ‘ หรือ ‘นักพัฒนาการรายงานทางอิเล็กทรอนิกส์’ สามารถออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ MS office (Excel and Word) ที่มีรูปภาพที่ฝัง</span><span class="sxs-lookup"><span data-stu-id="a1671-104">The following steps explain how a user playing either ‘System administrator’ or ‘Electronic reporting developer’ role can design Electronic reporting (ER) configurations to generate electronic documents in MS office formats (Excel and Word) containing embedded images.</span></span>
 
-ในตัวอย่างนี้ คุณจะใช้การตั้งค่าคอนฟิก ER ที่สร้างขึ้นสำหรับบริษัทตัวอย่าง ‘Litware, Inc.’  เมื่อต้องการทำตามขั้นตอนเหล่านี้ ก่อนอื่นคุณต้องทำตามขั้นตอนในคู่มืองาน "ทำรายงานในรูปแบบ MS Office ที่มีรูปภาพที่ฝังของ ER (ส่วนที่ 2: ตรวจทานการตั้งค่าคอนฟิก)" ขั้นตอนเหล่านี้สามารถดำเนินการได้ในบริษัท ‘USMF‘
+<span data-ttu-id="a1671-105">ในตัวอย่างนี้ คุณจะใช้การตั้งค่าคอนฟิก ER ที่สร้างขึ้นสำหรับบริษัทตัวอย่าง ‘Litware, Inc.’</span><span class="sxs-lookup"><span data-stu-id="a1671-105">In this example, you will use created ER configurations for sample company, ‘Litware, Inc.’.</span></span>  <span data-ttu-id="a1671-106">เมื่อต้องการทำตามขั้นตอนเหล่านี้ ก่อนอื่นคุณต้องทำตามขั้นตอนในคู่มืองาน "ทำรายงานในรูปแบบ MS Office ที่มีรูปภาพที่ฝังของ ER (ส่วนที่ 2: ตรวจทานการตั้งค่าคอนฟิก)"</span><span class="sxs-lookup"><span data-stu-id="a1671-106">To complete these steps, you must first complete the steps in the “ER Make reports in MS Office formats with embedded images (Part 2: Review configurations)” task guide.</span></span> <span data-ttu-id="a1671-107">ขั้นตอนเหล่านี้สามารถดำเนินการได้ในบริษัท ‘USMF‘</span><span class="sxs-lookup"><span data-stu-id="a1671-107">These steps can be performed in ‘USMF’ company.</span></span>
 
 
-## <a name="run-format-with-initial-model-mapping"></a>เรียกใช้รูปแบบที่มีการแม็ปแบบจำลองเริ่มต้น
-1. ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร
-2. ใช้ตัวกรองด่วนเพื่อกรองฟิลด์บัญชีธนาคาร ด้วยค่า 'USMF OPER'
-3. ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า
-4. คลิกตรวจสอบ
-5. คลิก พิมพ์การทดสอบ
-    * เรียกใช้รูปแบบสำหรับวัตถุประสงค์ในการทดสอบ  
-6. เลือก ใช่ ในฟิลด์รูปแบบเช็คที่เปลี่ยนมือได้
-7. คลิก ตกลง
-    * ตรวจทานผลลัพธ์ที่สร้างขึ้น หมายเหตุว่าโลโก้บริษัทจะแสดงขึ้นในรายงานได้เช่นเดียวกับลายเซ็นของบุคคลที่ได้รับอนุญาต รูปภาพลายเซ็นจะได้มาจากฟิลด์ของชนิดข้อมูล 'คอนเทนเนอร์' ของเรกคอร์ดโครงร่างเช็คที่เชื่อมโยงกับบัญชีธนาคารที่เลือก  
-8. ขยายส่วนสำเนา
-9. คลิก แก้ไข
-10. ในฟิลด์ลายน้ำ ป้อน 'พิมพ์ลายน้ำเป็นโมฆะ'
-    * เปลี่ยนการตั้งค่าโครงร่างลายน้ำเพื่อแสดงข้อความลายน้ำในการสร้างเอกสารในองค์ประกอบรูปร่าง Excel  
-11. คลิก พิมพ์การทดสอบ
-12. คลิก ตกลง
-    * ตรวจทานผลลัพธ์ที่สร้างขึ้น หมายเหตุว่าลายน้ำจะแสดงขึ้นในรายงานที่สร้างขึ้นตามตัวเลือกการเลือก  
-13. ปิดหน้า
-14. ในบานหน้าต่างการดำเนินการ คลิกจัดการการชำระเงิน
-15. คลิก เช็ค
-16. คลิกแสดงตัวกรอง
-17. ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "381","385","389" ในฟิลด์ "หมายเลขเช็ค" โดยใช้ตัวดำเนินการตัวกรอง "เป็นหนึ่งใน"
-18. ในรายการนี้ ให้สลับไปใช้ 'ทำเครื่องหมายทุกแถว'
-19. คลิก พิมพ์สำเนาเช็ค
-    * เรียกใช้รูปแบบเพื่อพิมพ์เช็คที่เลือกใหม่  
-    * ตรวจทานผลลัพธ์ที่สร้างขึ้น หมายเหตุว่าเช็คที่เลือกได้ถูกพิมพ์ใหม่แล้ว โลโก้บริษัทและป้ายชื่อจะไม่ถูกพิมพ์ออกมาเนื่องจากจะถูกแสดงบนแบบฟอร์มที่พิมพ์ไว้ล่วงหน้า  
+## <a name="run-format-with-initial-model-mapping"></a><span data-ttu-id="a1671-108">เรียกใช้รูปแบบที่มีการแม็ปแบบจำลองเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="a1671-108">Run format with initial model mapping</span></span>
+1. <span data-ttu-id="a1671-109">ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="a1671-109">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+2. <span data-ttu-id="a1671-110">ใช้ตัวกรองด่วนเพื่อกรองฟิลด์บัญชีธนาคาร ด้วยค่า 'USMF OPER'</span><span class="sxs-lookup"><span data-stu-id="a1671-110">Use the Quick Filter to filter on the Bank account field with a value of 'USMF OPER'.</span></span>
+3. <span data-ttu-id="a1671-111">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="a1671-111">On the Action Pane, click Set up.</span></span>
+4. <span data-ttu-id="a1671-112">คลิกตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-112">Click Check.</span></span>
+5. <span data-ttu-id="a1671-113">คลิก พิมพ์การทดสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-113">Click Print test.</span></span>
+    * <span data-ttu-id="a1671-114">เรียกใช้รูปแบบสำหรับวัตถุประสงค์ในการทดสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-114">Run the format for testing purposes.</span></span>  
+6. <span data-ttu-id="a1671-115">เลือก ใช่ ในฟิลด์รูปแบบเช็คที่เปลี่ยนมือได้</span><span class="sxs-lookup"><span data-stu-id="a1671-115">Select Yes in the Negotiable check format field.</span></span>
+7. <span data-ttu-id="a1671-116">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="a1671-116">Click OK.</span></span>
+    * <span data-ttu-id="a1671-117">ตรวจทานผลลัพธ์ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1671-117">Review the created output.</span></span> <span data-ttu-id="a1671-118">หมายเหตุว่าโลโก้บริษัทจะแสดงขึ้นในรายงานได้เช่นเดียวกับลายเซ็นของบุคคลที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="a1671-118">Note that the company logo is presented in the report as well as the authorized person’s signature.</span></span> <span data-ttu-id="a1671-119">รูปภาพลายเซ็นจะได้มาจากฟิลด์ของชนิดข้อมูล 'คอนเทนเนอร์' ของเรกคอร์ดโครงร่างเช็คที่เชื่อมโยงกับบัญชีธนาคารที่เลือก</span><span class="sxs-lookup"><span data-stu-id="a1671-119">The signature image is taken from the field of the ‘Container’ data type of the cheque layout record which is associated with the selected bank account.</span></span>  
+8. <span data-ttu-id="a1671-120">ขยายส่วนสำเนา</span><span class="sxs-lookup"><span data-stu-id="a1671-120">Expand the Copies section.</span></span>
+9. <span data-ttu-id="a1671-121">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="a1671-121">Click Edit.</span></span>
+10. <span data-ttu-id="a1671-122">ในฟิลด์ลายน้ำ ป้อน 'พิมพ์ลายน้ำเป็นโมฆะ'</span><span class="sxs-lookup"><span data-stu-id="a1671-122">In the Watermark field, enter 'Print watermark as Void'.</span></span>
+    * <span data-ttu-id="a1671-123">เปลี่ยนการตั้งค่าโครงร่างลายน้ำเพื่อแสดงข้อความลายน้ำในการสร้างเอกสารในองค์ประกอบรูปร่าง Excel</span><span class="sxs-lookup"><span data-stu-id="a1671-123">Change the watermark layout setting to show the watermark text in generating document in an Excel shape element.</span></span>  
+11. <span data-ttu-id="a1671-124">คลิก พิมพ์การทดสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-124">Click Print test.</span></span>
+12. <span data-ttu-id="a1671-125">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="a1671-125">Click OK.</span></span>
+    * <span data-ttu-id="a1671-126">ตรวจทานผลลัพธ์ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1671-126">Review the created output.</span></span> <span data-ttu-id="a1671-127">หมายเหตุว่าลายน้ำจะแสดงขึ้นในรายงานที่สร้างขึ้นตามตัวเลือกการเลือก</span><span class="sxs-lookup"><span data-stu-id="a1671-127">Note that the watermark is shown in the created report in accordance to the selection option.</span></span>  
+13. <span data-ttu-id="a1671-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-128">Close the page.</span></span>
+14. <span data-ttu-id="a1671-129">ในบานหน้าต่างการดำเนินการ คลิกจัดการการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="a1671-129">On the Action Pane, click Manage payments.</span></span>
+15. <span data-ttu-id="a1671-130">คลิก เช็ค</span><span class="sxs-lookup"><span data-stu-id="a1671-130">Click Checks.</span></span>
+16. <span data-ttu-id="a1671-131">คลิกแสดงตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="a1671-131">Click Show filters.</span></span>
+17. <span data-ttu-id="a1671-132">ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "381","385","389" ในฟิลด์ "หมายเลขเช็ค" โดยใช้ตัวดำเนินการตัวกรอง "เป็นหนึ่งใน"</span><span class="sxs-lookup"><span data-stu-id="a1671-132">Apply the following filters: Enter a filter value of "381","385","389" on the "Check number" field using the "is one of" filter operator.</span></span>
+18. <span data-ttu-id="a1671-133">ในรายการนี้ ให้สลับไปใช้ 'ทำเครื่องหมายทุกแถว'</span><span class="sxs-lookup"><span data-stu-id="a1671-133">In the list, mark all rows.</span></span>
+19. <span data-ttu-id="a1671-134">คลิก พิมพ์สำเนาเช็ค</span><span class="sxs-lookup"><span data-stu-id="a1671-134">Click Print check copy.</span></span>
+    * <span data-ttu-id="a1671-135">เรียกใช้รูปแบบเพื่อพิมพ์เช็คที่เลือกใหม่</span><span class="sxs-lookup"><span data-stu-id="a1671-135">Run the format to re-print the selected cheques.</span></span>  
+    * <span data-ttu-id="a1671-136">ตรวจทานผลลัพธ์ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1671-136">Review the created output.</span></span> <span data-ttu-id="a1671-137">หมายเหตุว่าเช็คที่เลือกได้ถูกพิมพ์ใหม่แล้ว</span><span class="sxs-lookup"><span data-stu-id="a1671-137">Note that the selected cheques have been re-printed.</span></span> <span data-ttu-id="a1671-138">โลโก้บริษัทและป้ายชื่อจะไม่ถูกพิมพ์ออกมาเนื่องจากจะถูกแสดงบนแบบฟอร์มที่พิมพ์ไว้ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-138">The company logo and labels are not printed out since they are presented on the pre-printed form.</span></span>  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>ปรับเปลี่ยนการแม็ปของแบบจำลองข้อมูลที่นำเข้า
-1. ปิดหน้า
-2. ปิดหน้า
-3. ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > การตั้งค่าคอนฟิก
-4. ในแผนภูมิ ให้เลือก 'แบบจำลองสำหรับเช็ค'
-5. คลิก ตัวออกแบบ
-6. คลิก แม็ปแบบจำลองกับแหล่งข้อมูล
-7. คลิก ตัวออกแบบ
-    * เราจะเปลี่ยนแปลงการผูกข้อมูลของรายการลายเซ็นของแบบจำลองข้อมูลเพื่อรับรูปภาพลายเซ็นจากไฟล์ที่แนบกับเรกคอร์ดโครงร่างเช็คที่เชื่อมโยงกับบัญชีธนาคารที่เลือกไว้  
-8. ปิดการแสดงรายละเอียด
-9. ในแผนภูมิ ขยาย 'โครงร่าง'
-10. ในแผนภูมิ ขยาย 'โครงร่าง\ลายเซ็น'
-11. ในแผนภูมิ เลือก 'โครงร่าง\ลายเซ็น\รูปภาพ = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'
-12. ในแผนภูมิ ขยาย 'chequesaccount'
-13. ในแผนภูมิ ขยาย 'chequesaccount\<Relations'
-14. ในแผนภูมิ ขยาย 'chequesaccount\<Relations\BankChequeLayout'
-15. ในแผนภูมิ ขยาย 'chequesaccount\<Relations\BankChequeLayout\<Relations'
-16. ในแผนภูมิ ขยาย 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents'
-17. ในแผนภูมิ เลือก 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()'
-18. คลิก ผูก
-19. คลิก บันทึก
-20. ปิดหน้า
-21. ปิดหน้า
-22. ปิดหน้า
-23. ปิดหน้า
+## <a name="modify-the-mapping-of-the-imported-data-model"></a><span data-ttu-id="a1671-139">ปรับเปลี่ยนการแม็ปของแบบจำลองข้อมูลที่นำเข้า</span><span class="sxs-lookup"><span data-stu-id="a1671-139">Modify the mapping of the imported data model</span></span>
+1. <span data-ttu-id="a1671-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-140">Close the page.</span></span>
+2. <span data-ttu-id="a1671-141">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-141">Close the page.</span></span>
+3. <span data-ttu-id="a1671-142">ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > การตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="a1671-142">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+4. <span data-ttu-id="a1671-143">ในแผนภูมิ ให้เลือก 'แบบจำลองสำหรับเช็ค'</span><span class="sxs-lookup"><span data-stu-id="a1671-143">In the tree, select 'Model for cheques'.</span></span>
+5. <span data-ttu-id="a1671-144">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="a1671-144">Click Designer.</span></span>
+6. <span data-ttu-id="a1671-145">คลิก แม็ปแบบจำลองกับแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="a1671-145">Click Map model to datasource.</span></span>
+7. <span data-ttu-id="a1671-146">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="a1671-146">Click Designer.</span></span>
+    * <span data-ttu-id="a1671-147">เราจะเปลี่ยนแปลงการผูกข้อมูลของรายการลายเซ็นของแบบจำลองข้อมูลเพื่อรับรูปภาพลายเซ็นจากไฟล์ที่แนบกับเรกคอร์ดโครงร่างเช็คที่เชื่อมโยงกับบัญชีธนาคารที่เลือกไว้</span><span class="sxs-lookup"><span data-stu-id="a1671-147">We will change the binding of the data model’s signature item to get the signature image from the file that has been attached to the cheque layout record which is associated with the selected bank account.</span></span>  
+8. <span data-ttu-id="a1671-148">ปิดการแสดงรายละเอียด</span><span class="sxs-lookup"><span data-stu-id="a1671-148">Turn Show details off.</span></span>
+9. <span data-ttu-id="a1671-149">ในแผนภูมิ ขยาย 'โครงร่าง'</span><span class="sxs-lookup"><span data-stu-id="a1671-149">In the tree, expand 'layout'.</span></span>
+10. <span data-ttu-id="a1671-150">ในแผนภูมิ ขยาย 'โครงร่าง\ลายเซ็น'</span><span class="sxs-lookup"><span data-stu-id="a1671-150">In the tree, expand 'layout\signature'.</span></span>
+11. <span data-ttu-id="a1671-151">ในแผนภูมิ เลือก 'โครงร่าง\ลายเซ็น\รูปภาพ = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'</span><span class="sxs-lookup"><span data-stu-id="a1671-151">In the tree, select 'layout\signature\image = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'.</span></span>
+12. <span data-ttu-id="a1671-152">ในแผนภูมิ ขยาย 'chequesaccount'</span><span class="sxs-lookup"><span data-stu-id="a1671-152">In the tree, expand 'chequesaccount'.</span></span>
+13. <span data-ttu-id="a1671-153">ในแผนภูมิ ขยาย 'chequesaccount\<Relations'</span><span class="sxs-lookup"><span data-stu-id="a1671-153">In the tree, expand 'chequesaccount\<Relations'.</span></span>
+14. <span data-ttu-id="a1671-154">ในแผนภูมิ ขยาย 'chequesaccount\<Relations\BankChequeLayout'</span><span class="sxs-lookup"><span data-stu-id="a1671-154">In the tree, expand 'chequesaccount\<Relations\BankChequeLayout'.</span></span>
+15. <span data-ttu-id="a1671-155">ในแผนภูมิ ขยาย 'chequesaccount\<Relations\BankChequeLayout\<Relations'</span><span class="sxs-lookup"><span data-stu-id="a1671-155">In the tree, expand 'chequesaccount\<Relations\BankChequeLayout\<Relations'.</span></span>
+16. <span data-ttu-id="a1671-156">ในแผนภูมิ ขยาย 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents'</span><span class="sxs-lookup"><span data-stu-id="a1671-156">In the tree, expand 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents'.</span></span>
+17. <span data-ttu-id="a1671-157">ในแผนภูมิ เลือก 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()'</span><span class="sxs-lookup"><span data-stu-id="a1671-157">In the tree, select 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()'.</span></span>
+18. <span data-ttu-id="a1671-158">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="a1671-158">Click Bind.</span></span>
+19. <span data-ttu-id="a1671-159">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="a1671-159">Click Save.</span></span>
+20. <span data-ttu-id="a1671-160">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-160">Close the page.</span></span>
+21. <span data-ttu-id="a1671-161">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-161">Close the page.</span></span>
+22. <span data-ttu-id="a1671-162">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-162">Close the page.</span></span>
+23. <span data-ttu-id="a1671-163">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-163">Close the page.</span></span>
 
-## <a name="run-format-using-the-adjusted-model-mapping"></a>รันรูปแบบโดยใช้การแม็ปแบบจำลองที่ปรับปรุงแล้ว
-1. ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร
-2. ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด  เช่น กรองข้อมูลในฟิลด์บัญชีธนาคาร ด้วยค่า 'USMF OPER'
-3. ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า
-4. คลิกตรวจสอบ
-5. คลิก พิมพ์การทดสอบ
-6. คลิก ตกลง
-    * ตรวจทานผลลัพธ์ที่สร้างขึ้น หมายเหตุว่ารูปภาพจากเอกสารแนบการจัดการจะแสดงเป็นลายเซ็นของบุคคลที่ได้รับอนุญาต  
+## <a name="run-format-using-the-adjusted-model-mapping"></a><span data-ttu-id="a1671-164">รันรูปแบบโดยใช้การแม็ปแบบจำลองที่ปรับปรุงแล้ว</span><span class="sxs-lookup"><span data-stu-id="a1671-164">Run format using the adjusted model mapping</span></span>
+1. <span data-ttu-id="a1671-165">ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="a1671-165">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+2. <span data-ttu-id="a1671-166">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="a1671-166">Use the Quick Filter to find records.</span></span> <span data-ttu-id="a1671-167">เช่น กรองข้อมูลในฟิลด์บัญชีธนาคาร ด้วยค่า 'USMF OPER'</span><span class="sxs-lookup"><span data-stu-id="a1671-167">For example, filter on the Bank account field with a value of 'USMF OPER'.</span></span>
+3. <span data-ttu-id="a1671-168">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="a1671-168">On the Action Pane, click Set up.</span></span>
+4. <span data-ttu-id="a1671-169">คลิกตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-169">Click Check.</span></span>
+5. <span data-ttu-id="a1671-170">คลิก พิมพ์การทดสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-170">Click Print test.</span></span>
+6. <span data-ttu-id="a1671-171">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="a1671-171">Click OK.</span></span>
+    * <span data-ttu-id="a1671-172">ตรวจทานผลลัพธ์ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1671-172">Review the created output.</span></span> <span data-ttu-id="a1671-173">หมายเหตุว่ารูปภาพจากเอกสารแนบการจัดการจะแสดงเป็นลายเซ็นของบุคคลที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="a1671-173">Note that the image from the Document Management attachment is presented as the signature of an authorized person.</span></span>  
 
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>ใช้เอกสาร MS Word เป็นเท็มเพลตในรูปแบบที่นำเข้า
-1. ปิดหน้า
-2. ปิดหน้า
-3. ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > การตั้งค่าคอนฟิก
-4. ในแผนภูมิ ขยาย 'แบบจำลองสำหรับเช็ค'
-5. ในแผนภูมิ เลือก 'แบบจำลองสำหรับเช็ค\รูปแบบการพิมพ์เช็ค'
-6. คลิก ตัวออกแบบ
-7. คลิกสิ่งที่แนบ
-8. คลิก ลบ
-9. คลิก ใช่
-10. คลิก สร้าง
-11. คลิกไฟล์
-    * คลิก เรียกดูและเลือกรายการที่ดาวน์โหลดแล้วในไฟล์ 'Cheque template Word.docx’  
-12. ปิดหน้า
-13. ในฟิลด์เท็มเพลต ให้ป้อนหรือเลือกค่า
-14. คลิก บันทึก
-15. ปิดหน้า
-16. คลิก แก้ไข
-17. เลือก ใช่ ในฟิลด์ รันฉบับร่าง
-18. ปิดหน้า
-19. ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร
-20. ใช้ตัวกรองด่วนเพื่อกรองฟิลด์บัญชีธนาคาร ด้วยค่า 'USMF OPER'
-21. คลิกตรวจสอบ
-22. คลิก พิมพ์การทดสอบ
-23. คลิก ตกลง
-    * ตรวจทานผลลัพธ์ที่สร้างขึ้น หมายเหตุว่าผลลัพธ์ได้ถูกสร้างขึ้นโดยเป็นเอกสาร MS Word ด้วยรูปภาพแบบฝังที่นำเสนอโลโก้บริษัท ลายเซ็นของบุคคลที่ได้รับอนุญาตและข้อความลายน้ำที่เลือก  
+## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a><span data-ttu-id="a1671-174">ใช้เอกสาร MS Word เป็นเท็มเพลตในรูปแบบที่นำเข้า</span><span class="sxs-lookup"><span data-stu-id="a1671-174">Use MS Word document as a template in the imported format</span></span>
+1. <span data-ttu-id="a1671-175">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-175">Close the page.</span></span>
+2. <span data-ttu-id="a1671-176">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-176">Close the page.</span></span>
+3. <span data-ttu-id="a1671-177">ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > การตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="a1671-177">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+4. <span data-ttu-id="a1671-178">ในแผนภูมิ ขยาย 'แบบจำลองสำหรับเช็ค'</span><span class="sxs-lookup"><span data-stu-id="a1671-178">In the tree, expand 'Model for cheques'.</span></span>
+5. <span data-ttu-id="a1671-179">ในแผนภูมิ เลือก 'แบบจำลองสำหรับเช็ค\รูปแบบการพิมพ์เช็ค'</span><span class="sxs-lookup"><span data-stu-id="a1671-179">In the tree, select 'Model for cheques\Cheques printing format'.</span></span>
+6. <span data-ttu-id="a1671-180">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="a1671-180">Click Designer.</span></span>
+7. <span data-ttu-id="a1671-181">คลิกสิ่งที่แนบ</span><span class="sxs-lookup"><span data-stu-id="a1671-181">Click Attachments.</span></span>
+8. <span data-ttu-id="a1671-182">คลิก ลบ</span><span class="sxs-lookup"><span data-stu-id="a1671-182">Click Delete.</span></span>
+9. <span data-ttu-id="a1671-183">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="a1671-183">Click Yes.</span></span>
+10. <span data-ttu-id="a1671-184">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="a1671-184">Click New.</span></span>
+11. <span data-ttu-id="a1671-185">คลิกไฟล์</span><span class="sxs-lookup"><span data-stu-id="a1671-185">Click File.</span></span>
+    * <span data-ttu-id="a1671-186">คลิก เรียกดูและเลือกรายการที่ดาวน์โหลดแล้วในไฟล์ 'Cheque template Word.docx’</span><span class="sxs-lookup"><span data-stu-id="a1671-186">Click Browse and select the downloaded in advance ‘Cheque template Word.docx’ file.</span></span>  
+12. <span data-ttu-id="a1671-187">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-187">Close the page.</span></span>
+13. <span data-ttu-id="a1671-188">ในฟิลด์เท็มเพลต ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="a1671-188">In the Template field, enter or select a value.</span></span>
+14. <span data-ttu-id="a1671-189">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="a1671-189">Click Save.</span></span>
+15. <span data-ttu-id="a1671-190">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-190">Close the page.</span></span>
+16. <span data-ttu-id="a1671-191">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="a1671-191">Click Edit.</span></span>
+17. <span data-ttu-id="a1671-192">เลือก ใช่ ในฟิลด์ รันฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="a1671-192">Select Yes in the Run Draft field.</span></span>
+18. <span data-ttu-id="a1671-193">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="a1671-193">Close the page.</span></span>
+19. <span data-ttu-id="a1671-194">ไปที่ การจัดการเงินสดและธนาคาร > บัญชีธนาคาร > บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="a1671-194">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+20. <span data-ttu-id="a1671-195">ใช้ตัวกรองด่วนเพื่อกรองฟิลด์บัญชีธนาคาร ด้วยค่า 'USMF OPER'</span><span class="sxs-lookup"><span data-stu-id="a1671-195">Use the Quick Filter to filter on the Bank account field with a value of 'USMF OPER'.</span></span>
+21. <span data-ttu-id="a1671-196">คลิกตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-196">Click Check.</span></span>
+22. <span data-ttu-id="a1671-197">คลิก พิมพ์การทดสอบ</span><span class="sxs-lookup"><span data-stu-id="a1671-197">Click Print test.</span></span>
+23. <span data-ttu-id="a1671-198">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="a1671-198">Click OK.</span></span>
+    * <span data-ttu-id="a1671-199">ตรวจทานผลลัพธ์ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a1671-199">Review the created output.</span></span> <span data-ttu-id="a1671-200">หมายเหตุว่าผลลัพธ์ได้ถูกสร้างขึ้นโดยเป็นเอกสาร MS Word ด้วยรูปภาพแบบฝังที่นำเสนอโลโก้บริษัท ลายเซ็นของบุคคลที่ได้รับอนุญาตและข้อความลายน้ำที่เลือก</span><span class="sxs-lookup"><span data-stu-id="a1671-200">Note that the output has been generated as a MS Word document with embedded images presenting the company logo, the signature of an authorized person and the selected text of the watermark.</span></span>  
 
 

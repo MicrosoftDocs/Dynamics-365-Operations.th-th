@@ -22,84 +22,84 @@ ms.contentlocale: th-th
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="ship-orders-as-direct-deliveries"></a>จัดส่งสินค้าตามการจัดส่งสินค้าโดยตรง
+# <a name="ship-orders-as-direct-deliveries"></a><span data-ttu-id="4237b-103">จัดส่งสินค้าตามการจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-103">Ship orders as direct deliveries</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการสร้างการจัดส่งสินค้าโดยตรงสำหรับใบสั่งขาย  คุณใช้การจัดส่งโดยตรงเมื่อคุณต้องการจัดส่งสินค้าให้กับลูกค้าโดยตรงจากผู้จัดจำหน่าย แทนที่จะเป็นการจัดส่งไปยังคลังสินค้าของคุณก่อน  คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง เพื่อทำให้งานย่อยที่สอง "สร้างการจัดส่งโดยตรงจากเวิร์กเบนซ์" เสร็จสมบูรณ์ ตรวจสอบให้มั่นใจว่า สินค้าที่คุณเลือกในใบสั่งขายมีค่าเริ่มต้นของผู้จัดจำหน่ายที่ระบุไว้บนแท็บด่วนการซื้อของผลิตภัณฑ์หลักที่นำออกมาใช้
+<span data-ttu-id="4237b-104">กระบวนงานนี้แสดงวิธีการสร้างการจัดส่งสินค้าโดยตรงสำหรับใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="4237b-104">This procedure demonstrates how to create a direct delivery for a sales order.</span></span> <span data-ttu-id="4237b-105">คุณใช้การจัดส่งโดยตรงเมื่อคุณต้องการจัดส่งสินค้าให้กับลูกค้าโดยตรงจากผู้จัดจำหน่าย แทนที่จะเป็นการจัดส่งไปยังคลังสินค้าของคุณก่อน </span><span class="sxs-lookup"><span data-stu-id="4237b-105">You use direct delivery when you want to ship goods to the customer directly from your vendor, instead of shipping them to your own warehouse first.</span></span> <span data-ttu-id="4237b-106">คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="4237b-106">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="4237b-107">เพื่อทำให้งานย่อยที่สอง "สร้างการจัดส่งโดยตรงจากเวิร์กเบนซ์" เสร็จสมบูรณ์ ตรวจสอบให้มั่นใจว่า สินค้าที่คุณเลือกในใบสั่งขายมีค่าเริ่มต้นของผู้จัดจำหน่ายที่ระบุไว้บนแท็บด่วนการซื้อของผลิตภัณฑ์หลักที่นำออกมาใช้</span><span class="sxs-lookup"><span data-stu-id="4237b-107">To successfully complete the second sub-task "Create direct deliveries from the workbench", make sure that the item that you choose on the sales order has a default Vendor specified on the Purchase FastTab of the Released product master.</span></span>
 
 
-## <a name="set-an-individual-order-for-direct-delivery"></a>ตั้งค่าใบสั่งแต่ละรายการสำหรับการจัดส่งโดยตรง
-1. ไปที่ใบสั่งขายทั้งหมด
-2. คลิก สร้าง
-3. ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า
-    * ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกบัญชี US-001 ได้  
-4. คลิก ตกลง
-5. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า
-    * ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกสินค้า US-027 ได้  
-6. คลิก บันทึก
-7. ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งขาย
-8. คลิก การจัดส่งสินค้าโดยตรง
-    * หน้าการสร้างการจัดส่งแสดงรายการใบสั่งขายที่เปิดค้างไว้ทั้งหมดตามที่คัดลอกมาจากใบสั่งขาย  คุณสามารถทบทวนรายละเอียดใบสั่ง และถ้าจำเป็น คุณสามารถปรับเปลี่ยนรายละเอียดเช่น ปริมาณการซื้อและเงื่อนไขการกำหนดราคาก่อนที่คุณสร้างการจัดส่งโดยตรง  
-9. เลือก ใช่ ในฟิลด์ รวมทั้งหมด
-    * ถ้าคุณต้องการสร้างการจัดส่งสินค้าโดยตรงสำหรับเฉพาะชุดย่อยของรายการใบสั่งขาย ให้เลือกรายการเหล่านี้ทีละรายการ  
-    * ฟิลด์บัญชีผู้จัดจำหน่ายอาจหรืออาจจะไม่ได้ถูกเติมด้วยหมายเลขผู้จัดจำหน่าย  ถ้าผู้จัดจำหน่ายเริ่มต้นมีการตั้งค่าไว้สำหรับผลิตภัณฑ์ (ในความครอบคลุมสินค้าที่เกี่ยวข้อง) แล้วผู้จัดจำหน่ายนี้จะถูกคัดลอกไปยังรายการ มิฉะนั้น คุณต้องป้อนผู้จัดจำหน่ายด้วยตนเอง ในตัวอย่างนี้ เราจะเลือกผู้จัดจำหน่ายใหม่ในขั้นตอนถัดไป แม้ว่าผู้จัดจำหน่ายจะถูกเติมไปแล้ว   
-10. ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่า
-    * ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกบัญชี 1001 ได้  
-11. คลิก ตกลง
-    * ข้อความแจ้งให้คุณทราบว่าขณะนี้ได้มีการสร้างใบสั่งซื้อแล้ว   
-12. ขยายส่วน รายละเอียดของรายการ
-13. คลิกแท็บ การจัดส่ง
-    * ฟิลด์การจัดส่งโดยตรงในขณะนี้ได้รับการตั้งค่าเป็น ใช่  
-    * สถานะการจัดส่งโดยตรงแสดงว่าใบสั่งซื้อได้มีการสร้างขึ้นแล้ว   
-14. ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป
-15. คลิกใบสั่งที่เกี่ยวข้องกับ
-16. คลิกเพื่อติดตามลิงค์ในฟิลด์ใบสั่งซื้อ
-17. ขยายส่วน รายละเอียดของรายการ
-18. คลิกแท็บที่อยู่
-    * โปรดทราบว่า ที่อยู่การจัดส่งสำหรับรายการใบสั่งซื้อนี้เป็นที่อยู่การจัดส่งของลูกค้าและไม่ใช้ที่อยู่ของบริษัทของคุณ  
-    * ถ้าคุณเปลี่ยนที่อยู่การจัดส่งบนรายการใบสั่งซื้อหรือรายการใบสั่งขายเริ่มต้นอย่างใดอย่างหนึ่ง ที่อยู่ที่สอดคล้องกับรายการสั่งซื้อจะถูกอัพเดตโดยอัตโนมัติ  
-19. คลิกแท็บ การจัดส่ง
-    * เช่นเดียวกับรายการใบสั่งขาย ชนิดรายการใบสั่งซื้อที่เกี่ยวข้องจะถูกตั้งค่าเป็นการจัดส่งโดยตรง  
-    * วันจัดส่งของและวันจัดส่งของที่ยืนยันแล้วของรายการใบสั่งซื้อ ได้ถูกตั้งค่าไปยังวันรับสินค้าที่ได้ร้องขอและวันรับสินค้าได้รับการยืนยันแล้วของรายการใบสั่งขายเริ่มต้นตามลำดับ   
-    * ถ้าคุณอัพเดตวันที่ใดวันที่หนึ่งของวันที่เหล่านี้บนรายการการซื้อหรือรายการการขาย วันที่ในใบสั่งที่สอดคล้องกันจะถูกอัพเดตโดยอัตโนมัติ     
-    * ใบสั่งซื้อที่มีการตั้งค่าการจัดส่งสินค้าโดยตรงกับลูกค้าเชื่อมโยงกับใบสั่งขายเริ่มต้นด้วยวิธีการเชื่อมโยงพิเศษ  การเชื่อมโยงนี้มีกฎเรียกเก็บบันทึกการจัดส่งการอัพเดทของใบสั่งขายที่ไม่สามารถดำเนินการสำเร็จจากใบสั่งขายเอง และต้องดำเนินการโดยใช้ใบสั่งซื้อ อย่างไรก็ตาม การออกใบแจ้งหนี้ต้องถูกดำเนินการจากใบสั่งขาย  
-20. ในบานหน้าต่างการดำเนินการ ให้คลิก ซื้อ
-21. คลิกการยืนยัน
-22. คลิก ตกลง
-23. ในบานหน้าต่างการดำเนินการ ให้คลิก รับ
-24. คลิก ใบรับสินค้า
-25. ในฟิลด์ใบรับสินค้า ให้พิมพ์ค่า
-26. คลิก ตกลง
-27. ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป
-28. คลิกใบสั่งที่เกี่ยวข้องกับ
-29. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-    * หลังจากที่ใบสั่งซื้อมีการอัพเดเป็นได้รับแล้ว หรือกล่าวได้อีกอย่างหนึ่งว่า หลังจากที่ผู้จัดจำหน่ายได้มีการจัดส่งสินค้าไปยังที่อยู่ของลูกค้าแล้ว สถานะของใบสั่งขายเริ่มต้นจะมีการอัพเดตโดยอัตโนมัติเป็นจัดส่งแล้ว  
-    * ขณะนี้ใบสั่งขายสามารถออกใบแจ้งหนี้ได้    
-30. คลิก ตกลง
-31. ปิดหน้า
-32. คลิก ตกลง
+## <a name="set-an-individual-order-for-direct-delivery"></a><span data-ttu-id="4237b-108">ตั้งค่าใบสั่งแต่ละรายการสำหรับการจัดส่งโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-108">Set an individual order for direct delivery</span></span>
+1. <span data-ttu-id="4237b-109">ไปที่ใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4237b-109">Go to All sales orders.</span></span>
+2. <span data-ttu-id="4237b-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4237b-110">Click New.</span></span>
+3. <span data-ttu-id="4237b-111">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4237b-111">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="4237b-112">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกบัญชี US-001 ได้</span><span class="sxs-lookup"><span data-stu-id="4237b-112">If you’re using USMF, you can select account US-001.</span></span>  
+4. <span data-ttu-id="4237b-113">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4237b-113">Click OK.</span></span>
+5. <span data-ttu-id="4237b-114">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4237b-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="4237b-115">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกสินค้า US-027 ได้</span><span class="sxs-lookup"><span data-stu-id="4237b-115">If you’re using USMF, you can select item T0020.</span></span>  
+6. <span data-ttu-id="4237b-116">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4237b-116">Click Save.</span></span>
+7. <span data-ttu-id="4237b-117">ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4237b-117">On the Action Pane, click Sales order.</span></span>
+8. <span data-ttu-id="4237b-118">คลิก การจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-118">Click Direct delivery.</span></span>
+    * <span data-ttu-id="4237b-119">หน้าการสร้างการจัดส่งแสดงรายการใบสั่งขายที่เปิดค้างไว้ทั้งหมดตามที่คัดลอกมาจากใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="4237b-119">The Create delivery page lists all the open sales order lines as copied from the sales order.</span></span> <span data-ttu-id="4237b-120">คุณสามารถทบทวนรายละเอียดใบสั่ง และถ้าจำเป็น คุณสามารถปรับเปลี่ยนรายละเอียดเช่น ปริมาณการซื้อและเงื่อนไขการกำหนดราคาก่อนที่คุณสร้างการจัดส่งโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-120">You can review the order details, and if required, you can modify details such purchase quantity and pricing terms before you create the direct delivery.</span></span>  
+9. <span data-ttu-id="4237b-121">เลือก ใช่ ในฟิลด์ รวมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4237b-121">Select Yes in the Include all field.</span></span>
+    * <span data-ttu-id="4237b-122">ถ้าคุณต้องการสร้างการจัดส่งสินค้าโดยตรงสำหรับเฉพาะชุดย่อยของรายการใบสั่งขาย ให้เลือกรายการเหล่านี้ทีละรายการ</span><span class="sxs-lookup"><span data-stu-id="4237b-122">If you want to generate a direct delivery for only a subset of the sales order lines, select these individually.</span></span>  
+    * <span data-ttu-id="4237b-123">ฟิลด์บัญชีผู้จัดจำหน่ายอาจหรืออาจจะไม่ได้ถูกเติมด้วยหมายเลขผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="4237b-123">The Vendor account field may or may not already be populated with a vendor number.</span></span> <span data-ttu-id="4237b-124">ถ้าผู้จัดจำหน่ายเริ่มต้นมีการตั้งค่าไว้สำหรับผลิตภัณฑ์ (ในความครอบคลุมสินค้าที่เกี่ยวข้อง) แล้วผู้จัดจำหน่ายนี้จะถูกคัดลอกไปยังรายการ</span><span class="sxs-lookup"><span data-stu-id="4237b-124">If the default vendor is set up for the product (on the associated Item coverage) then this vendor will be copied to the line.</span></span> <span data-ttu-id="4237b-125">มิฉะนั้น คุณต้องป้อนผู้จัดจำหน่ายด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="4237b-125">Otherwise, you must enter a vendor manually.</span></span> <span data-ttu-id="4237b-126">ในตัวอย่างนี้ เราจะเลือกผู้จัดจำหน่ายใหม่ในขั้นตอนถัดไป แม้ว่าผู้จัดจำหน่ายจะถูกเติมไปแล้ว</span><span class="sxs-lookup"><span data-stu-id="4237b-126">In this example, we’ll select a new vendor in the next step, even if one is already populated.</span></span>   
+10. <span data-ttu-id="4237b-127">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4237b-127">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="4237b-128">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกบัญชี 1001 ได้</span><span class="sxs-lookup"><span data-stu-id="4237b-128">If you’re using USMF, you can select account 1001.</span></span>  
+11. <span data-ttu-id="4237b-129">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4237b-129">Click OK.</span></span>
+    * <span data-ttu-id="4237b-130">ข้อความแจ้งให้คุณทราบว่าขณะนี้ได้มีการสร้างใบสั่งซื้อแล้ว</span><span class="sxs-lookup"><span data-stu-id="4237b-130">The message informs you that the purchase order has now been created.</span></span>   
+12. <span data-ttu-id="4237b-131">ขยายส่วน รายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="4237b-131">Expand the Line details section.</span></span>
+13. <span data-ttu-id="4237b-132">คลิกแท็บ การจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="4237b-132">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="4237b-133">ฟิลด์การจัดส่งโดยตรงในขณะนี้ได้รับการตั้งค่าเป็น ใช่</span><span class="sxs-lookup"><span data-stu-id="4237b-133">The Direct delivery field is now set to Yes.</span></span>  
+    * <span data-ttu-id="4237b-134">สถานะการจัดส่งโดยตรงแสดงว่าใบสั่งซื้อได้มีการสร้างขึ้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="4237b-134">The Direct delivery status shows the Purchase order created.</span></span>   
+14. <span data-ttu-id="4237b-135">ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="4237b-135">On the Action Pane, click General.</span></span>
+15. <span data-ttu-id="4237b-136">คลิกใบสั่งที่เกี่ยวข้องกับ</span><span class="sxs-lookup"><span data-stu-id="4237b-136">Click Related orders.</span></span>
+16. <span data-ttu-id="4237b-137">คลิกเพื่อติดตามลิงค์ในฟิลด์ใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="4237b-137">Click to follow the link in the Purchase order field.</span></span>
+17. <span data-ttu-id="4237b-138">ขยายส่วน รายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="4237b-138">Expand the Line details section.</span></span>
+18. <span data-ttu-id="4237b-139">คลิกแท็บที่อยู่</span><span class="sxs-lookup"><span data-stu-id="4237b-139">Click the Address tab.</span></span>
+    * <span data-ttu-id="4237b-140">โปรดทราบว่า ที่อยู่การจัดส่งสำหรับรายการใบสั่งซื้อนี้เป็นที่อยู่การจัดส่งของลูกค้าและไม่ใช้ที่อยู่ของบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="4237b-140">Note that the delivery address for this purchase order line is the customer's delivery address and not your company's address.</span></span>  
+    * <span data-ttu-id="4237b-141">ถ้าคุณเปลี่ยนที่อยู่การจัดส่งบนรายการใบสั่งซื้อหรือรายการใบสั่งขายเริ่มต้นอย่างใดอย่างหนึ่ง ที่อยู่ที่สอดคล้องกับรายการสั่งซื้อจะถูกอัพเดตโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="4237b-141">If you change the delivery address on either the purchase order line or the originating sales order line, the address on the corresponding order line will be automatically updated.</span></span>  
+19. <span data-ttu-id="4237b-142">คลิกแท็บ การจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="4237b-142">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="4237b-143">เช่นเดียวกับรายการใบสั่งขาย ชนิดรายการใบสั่งซื้อที่เกี่ยวข้องจะถูกตั้งค่าเป็นการจัดส่งโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-143">Like the sales order line, the associated purchase order line type is also set to Direct delivery.</span></span>  
+    * <span data-ttu-id="4237b-144">วันจัดส่งของและวันจัดส่งของที่ยืนยันแล้วของรายการใบสั่งซื้อ ได้ถูกตั้งค่าไปยังวันรับสินค้าที่ได้ร้องขอและวันรับสินค้าได้รับการยืนยันแล้วของรายการใบสั่งขายเริ่มต้นตามลำดับ</span><span class="sxs-lookup"><span data-stu-id="4237b-144">The purchase order line's Delivery  date and the Confirmed delivery date are set to the Requested receipt date and Confirmed receipt date of the originating sales order line respectively.</span></span>   
+    * <span data-ttu-id="4237b-145">ถ้าคุณอัพเดตวันที่ใดวันที่หนึ่งของวันที่เหล่านี้บนรายการการซื้อหรือรายการการขาย วันที่ในใบสั่งที่สอดคล้องกันจะถูกอัพเดตโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="4237b-145">If you update any of these dates on either the purchase line or the sales line, the dates on the corresponding order will be automatically updated.</span></span>     
+    * <span data-ttu-id="4237b-146">ใบสั่งซื้อที่มีการตั้งค่าการจัดส่งสินค้าโดยตรงกับลูกค้าเชื่อมโยงกับใบสั่งขายเริ่มต้นด้วยวิธีการเชื่อมโยงพิเศษ </span><span class="sxs-lookup"><span data-stu-id="4237b-146">The purchase order that is set to deliver goods directly the customer is linked to the originating sales order by means of a special association.</span></span> <span data-ttu-id="4237b-147">การเชื่อมโยงนี้มีกฎเรียกเก็บบันทึกการจัดส่งการอัพเดทของใบสั่งขายที่ไม่สามารถดำเนินการสำเร็จจากใบสั่งขายเอง และต้องดำเนินการโดยใช้ใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="4237b-147">This association imposes the rule that the packing slip update of the sales order can't be done from the sales order itself and must be done by using the purchase order.</span></span> <span data-ttu-id="4237b-148">อย่างไรก็ตาม การออกใบแจ้งหนี้ต้องถูกดำเนินการจากใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4237b-148">However, customer invoicing must be carried out from the sales order.</span></span>  
+20. <span data-ttu-id="4237b-149">ในบานหน้าต่างการดำเนินการ ให้คลิก ซื้อ</span><span class="sxs-lookup"><span data-stu-id="4237b-149">On the Action Pane, click Purchase.</span></span>
+21. <span data-ttu-id="4237b-150">คลิกการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="4237b-150">Click Confirmation.</span></span>
+22. <span data-ttu-id="4237b-151">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4237b-151">Click OK.</span></span>
+23. <span data-ttu-id="4237b-152">ในบานหน้าต่างการดำเนินการ ให้คลิก รับ</span><span class="sxs-lookup"><span data-stu-id="4237b-152">On the Action Pane, click Receive.</span></span>
+24. <span data-ttu-id="4237b-153">คลิก ใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="4237b-153">Click Product receipt.</span></span>
+25. <span data-ttu-id="4237b-154">ในฟิลด์ใบรับสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="4237b-154">In the Product receipt field, type a value.</span></span>
+26. <span data-ttu-id="4237b-155">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4237b-155">Click OK.</span></span>
+27. <span data-ttu-id="4237b-156">ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="4237b-156">On the Action Pane, click General.</span></span>
+28. <span data-ttu-id="4237b-157">คลิกใบสั่งที่เกี่ยวข้องกับ</span><span class="sxs-lookup"><span data-stu-id="4237b-157">Click Related orders.</span></span>
+29. <span data-ttu-id="4237b-158">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4237b-158">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="4237b-159">หลังจากที่ใบสั่งซื้อมีการอัพเดเป็นได้รับแล้ว หรือกล่าวได้อีกอย่างหนึ่งว่า หลังจากที่ผู้จัดจำหน่ายได้มีการจัดส่งสินค้าไปยังที่อยู่ของลูกค้าแล้ว สถานะของใบสั่งขายเริ่มต้นจะมีการอัพเดตโดยอัตโนมัติเป็นจัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="4237b-159">After the purchase order has been updated as received, or in other words, after the vendor has shipped the goods to your customer's address, the status of the originating sales order is automatically updated to Delivered.</span></span>  
+    * <span data-ttu-id="4237b-160">ขณะนี้ใบสั่งขายสามารถออกใบแจ้งหนี้ได้</span><span class="sxs-lookup"><span data-stu-id="4237b-160">The sales order can now be invoiced.</span></span>    
+30. <span data-ttu-id="4237b-161">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4237b-161">Click OK.</span></span>
+31. <span data-ttu-id="4237b-162">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4237b-162">Close the page.</span></span>
+32. <span data-ttu-id="4237b-163">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4237b-163">Click OK.</span></span>
 
-## <a name="create-direct-deliveries-from-the-workbench"></a>สร้างการจัดส่งโดยตรงจากเวิร์กเบนซ์
-1. ปิดหน้า
-2. ปิดหน้า
-3. ไปที่ใบสั่งขายทั้งหมด
-4. คลิก สร้าง
-5. ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า
-6. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-7. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า
-8. ขยายส่วน รายละเอียดของรายการ
-9. คลิกแท็บ การจัดส่ง
-    * แทนที่จะสร้างการจัดส่งสินค้าโดยตรงให้เป็นส่วนหนึ่งของใบสั่งขายที่ดำเนินการในกระบวนงานก่อนหน้านี้ คุณสามารถส่งมอบงานนี้ให้กับผู้เชี่ยวชาญด้านการจัดซื้อ  เมื่อต้องการรวมรายการใบสั่งขายในกระบวนการการส่งมอบการจัดส่งโดยตรง คุณต้องทำเครื่องหมายรายการสำหรับการจัดส่งโดยตรง  
-10. เลือก ใช่ ในฟิลด์การจัดส่งสินค้าโดยตรง
-    *   ถ้าสินค้ามีการตั้งค่าไว้แล้วตามค่าเริ่มต้นสำหรับการจัดส่งโดยตรง ฟิลด์จะถูกตั้งเป็น ใช่ โดยอัตโนมัติที่รายการบรรทัดใบสั่ง  คุณสามารถตั้งค่าสินค้าสำหรับการจัดส่งสินค้าโดยตรงในข้อมูลหลักของผลิตภัณฑ์ที่นำออกใช้ โดยการตั้งค่าตัวเลือกการจัดส่งโดยตรงเป็น ใช่ และโดยการเลือกคลังสินค้าการจัดส่งโดยตรงเป็นแบบเริ่มต้น  
-    * เนื่องจากยังไม่มีการสร้างใบสั่งซื้อ สถานะการจัดส่งสินค้าโดยตรงจะถูกกำหนดเป็น ที่จะมีการจัดส่งสินค้าโดยตรง   
-11. ปิดหน้า
-12. ปิดหน้า
-13. ไปที่การจัดส่งสินค้าโดยตรง
-    * หน้าการจัดส่งโดยตรงที่ทำหน้าที่เป็นเวิร์กเบนซ์ที่ให้ภาพรวมของรายการใบสั่งขายทั้งหมดที่จะมีการจัดส่งโดยตรงแก่เจ้าหน้าที่จัดซื้อ  นอกจากนี้ยังสามารถดูการจัดส่งโดยตรงที่เปิดค้างไว้และใบสั่งที่ได้รับดารยืนยันแล้วบนแท็บการยืนยันการขายและการจัดส่ง   
-14. คลิกการสร้างการจัดส่งสินค้าโดยตรง
-15. คลิกแท็บการยืนยัน
-    * หลังจากที่คุณได้สร้างใบสั่งจัดส่งโดยตรงแล้ว จะมีการย้ายไปยังแท็บการยืนยันโดยอัตโนมัติ  คุณสามารถเลือกที่จะยืนยันใบสั่งโดยตรงจากหน้านี้ เมื่อมีการยืนยันการซื้อ จะมีการย้ายโดยอัตโนมัติซึ่งจะเปลี่ยนไปแท็บการจัดส่ง ซึ่งคุณสามารถทำการลงทะเบียนการรับสินค้า  
+## <a name="create-direct-deliveries-from-the-workbench"></a><span data-ttu-id="4237b-164">สร้างการจัดส่งโดยตรงจากเวิร์กเบนซ์</span><span class="sxs-lookup"><span data-stu-id="4237b-164">Create direct deliveries from the workbench</span></span>
+1. <span data-ttu-id="4237b-165">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4237b-165">Close the page.</span></span>
+2. <span data-ttu-id="4237b-166">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4237b-166">Close the page.</span></span>
+3. <span data-ttu-id="4237b-167">ไปที่ใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4237b-167">Go to All sales orders.</span></span>
+4. <span data-ttu-id="4237b-168">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4237b-168">Click New.</span></span>
+5. <span data-ttu-id="4237b-169">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4237b-169">In the Customer account field, enter or select a value.</span></span>
+6. <span data-ttu-id="4237b-170">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4237b-170">Click OK.</span></span>
+7. <span data-ttu-id="4237b-171">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="4237b-171">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="4237b-172">ขยายส่วน รายละเอียดของรายการ</span><span class="sxs-lookup"><span data-stu-id="4237b-172">Expand the Line details section.</span></span>
+9. <span data-ttu-id="4237b-173">คลิกแท็บ การจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="4237b-173">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="4237b-174">แทนที่จะสร้างการจัดส่งสินค้าโดยตรงให้เป็นส่วนหนึ่งของใบสั่งขายที่ดำเนินการในกระบวนงานก่อนหน้านี้ คุณสามารถส่งมอบงานนี้ให้กับผู้เชี่ยวชาญด้านการจัดซื้อ </span><span class="sxs-lookup"><span data-stu-id="4237b-174">Instead of creating a direct delivery as part of the sales order processing as in the previous procedure, you can choose to hand over this task to a purchasing professional.</span></span> <span data-ttu-id="4237b-175">เมื่อต้องการรวมรายการใบสั่งขายในกระบวนการการส่งมอบการจัดส่งโดยตรง คุณต้องทำเครื่องหมายรายการสำหรับการจัดส่งโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-175">To include the sales order line in the direct delivery handling process, you must mark the line for direct delivery.</span></span>  
+10. <span data-ttu-id="4237b-176">เลือก ใช่ ในฟิลด์การจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-176">Select Yes in the Direct delivery field.</span></span>
+    *   <span data-ttu-id="4237b-177">ถ้าสินค้ามีการตั้งค่าไว้แล้วตามค่าเริ่มต้นสำหรับการจัดส่งโดยตรง ฟิลด์จะถูกตั้งเป็น ใช่ โดยอัตโนมัติที่รายการบรรทัดใบสั่ง </span><span class="sxs-lookup"><span data-stu-id="4237b-177">If the item has already been set up for direct delivery by default, the field will automatically be set to Yes at the order line entry.</span></span> <span data-ttu-id="4237b-178">คุณสามารถตั้งค่าสินค้าสำหรับการจัดส่งสินค้าโดยตรงในข้อมูลหลักของผลิตภัณฑ์ที่นำออกใช้ โดยการตั้งค่าตัวเลือกการจัดส่งโดยตรงเป็น ใช่ และโดยการเลือกคลังสินค้าการจัดส่งโดยตรงเป็นแบบเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="4237b-178">You can set up an item for direct delivery on the Released product's master by setting the Direct delivery option to Yes and selecting a default Direct delivery warehouse.</span></span>  
+    * <span data-ttu-id="4237b-179">เนื่องจากยังไม่มีการสร้างใบสั่งซื้อ สถานะการจัดส่งสินค้าโดยตรงจะถูกกำหนดเป็น ที่จะมีการจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-179">Because the purchase order has not yet been created, the Direct delivery status is set to To be direct delivered.</span></span>   
+11. <span data-ttu-id="4237b-180">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4237b-180">Close the page.</span></span>
+12. <span data-ttu-id="4237b-181">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4237b-181">Close the page.</span></span>
+13. <span data-ttu-id="4237b-182">ไปที่การจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-182">Go to Direct delivery.</span></span>
+    * <span data-ttu-id="4237b-183">หน้าการจัดส่งโดยตรงที่ทำหน้าที่เป็นเวิร์กเบนซ์ที่ให้ภาพรวมของรายการใบสั่งขายทั้งหมดที่จะมีการจัดส่งโดยตรงแก่เจ้าหน้าที่จัดซื้อ </span><span class="sxs-lookup"><span data-stu-id="4237b-183">The Direct delivery page acts as a workbench that provides the purchasing agent with an overview of all the sales order lines that are to be direct delivered and it allows them to create the respective purchase orders.</span></span> <span data-ttu-id="4237b-184">นอกจากนี้ยังสามารถดูการจัดส่งโดยตรงที่เปิดค้างไว้และใบสั่งที่ได้รับดารยืนยันแล้วบนแท็บการยืนยันการขายและการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="4237b-184">In addition, they can view the open direct delivery orders and the confirmed orders on the Confirmation and Delivery tabs.</span></span>   
+14. <span data-ttu-id="4237b-185">คลิกการสร้างการจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="4237b-185">Click Create direct delivery.</span></span>
+15. <span data-ttu-id="4237b-186">คลิกแท็บการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="4237b-186">Click the Confirmation tab.</span></span>
+    * <span data-ttu-id="4237b-187">หลังจากที่คุณได้สร้างใบสั่งจัดส่งโดยตรงแล้ว จะมีการย้ายไปยังแท็บการยืนยันโดยอัตโนมัติ </span><span class="sxs-lookup"><span data-stu-id="4237b-187">After you have created a direct delivery order, it automatically moved to the Confirmation tab.</span></span> <span data-ttu-id="4237b-188">คุณสามารถเลือกที่จะยืนยันใบสั่งโดยตรงจากหน้านี้</span><span class="sxs-lookup"><span data-stu-id="4237b-188">You can choose to confirm the order directly from this page.</span></span> <span data-ttu-id="4237b-189">เมื่อมีการยืนยันการซื้อ จะมีการย้ายโดยอัตโนมัติซึ่งจะเปลี่ยนไปแท็บการจัดส่ง ซึ่งคุณสามารถทำการลงทะเบียนการรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="4237b-189">When the purchase is confirmed, it will automatically move to the Delivery tab, from which you can registered its receipt.</span></span>  
 
 

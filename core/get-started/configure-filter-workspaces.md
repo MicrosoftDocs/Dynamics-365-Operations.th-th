@@ -15,56 +15,56 @@ ms.custom: 17491
 ms.assetid: 541e6012-4680-4684-8494-e9b5ca4684ee
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acbab3c833c109576f1e1e26fefeee770a29aeaf
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 754cd81a4550318de7003d847fafb2bcc7414b32
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-and-filter-workspaces"></a>ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
+# <a name="configure-and-filter-workspaces"></a><span data-ttu-id="96925-103">ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-103">Configure and filter workspaces</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงภาพรวมเกี่ยวกับวิธีการตั้งค่าคอนฟิก และการกรองข้อมูลพื้นที่ทำงาน
+<span data-ttu-id="96925-104">บทความนี้แสดงภาพรวมเกี่ยวกับวิธีการตั้งค่าคอนฟิก และการกรองข้อมูลพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-104">This article provides an overview about how to configure and filter workspaces.</span></span>
 
-<a name="configuring-a-workspace"></a>การตั้งค่าคอนฟิกพื้นที่ทำงาน
+<a name="configuring-a-workspace"></a><span data-ttu-id="96925-105">การตั้งค่าคอนฟิกพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-105">Configuring a workspace</span></span>
 -----------------------
 
-คุณสามารถเปลี่ยนลักษณะและพฤติกรรมของบางพื้นที่ทำงาน ด้วยการปรับปรุงการตั้งค่าที่นำไปใช้กับพื้นที่ทำงานทั้งหมด เมื่อมีพื้นที่ทำงานที่คุณสามารถกำหนดค่า บานหน้าต่างการดำเนินการมีปุ่มที่แนะนำให้คุณคลิก เพื่อที่จะทำการเปลี่ยนแปลงการตั้งค่าคอนฟิก ตัวอย่างเช่น ในภาพประกอบต่อไปนี้ ปุ่มชื่อว่า **การตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน** 
+<span data-ttu-id="96925-106">คุณสามารถเปลี่ยนลักษณะและพฤติกรรมของบางพื้นที่ทำงาน ด้วยการปรับปรุงการตั้งค่าที่นำไปใช้กับพื้นที่ทำงานทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="96925-106">You can change the appearance and behavior of some workspaces by updating settings that apply to the whole workspace.</span></span> <span data-ttu-id="96925-107">เมื่อมีพื้นที่ทำงานที่คุณสามารถกำหนดค่า บานหน้าต่างการดำเนินการมีปุ่มที่แนะนำให้คุณคลิก เพื่อที่จะทำการเปลี่ยนแปลงการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="96925-107">When a workspace can be configured, the Action Pane includes a button that instructs you to click it to make configuration changes.</span></span> <span data-ttu-id="96925-108">ตัวอย่างเช่น ในภาพประกอบต่อไปนี้ ปุ่มชื่อว่า **การตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน**</span><span class="sxs-lookup"><span data-stu-id="96925-108">For example, in the following illustration, the button is named **Configure my workspace**.</span></span> 
 
-[![ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
+<span data-ttu-id="96925-109">[![ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="96925-109">[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span></span>   
 
-เมื่อคุณคลิกปุ่ม กล่องโต้ตอบจะปรากฏขึ้น ซึ่งคุณสามารถปรับเปลี่ยนการตั้งค่าที่กำหนดไว้ล่วงหน้าสำหรับพื้นที่ทำงาน การตั้งค่าเฉพาะที่คุณเห็นในกล่องโต้ตอบนี้จะแตกต่างกันไปตามแต่ละพื้นที่ทำงาน และขึ้นอยู่กับการควบคุมเฉพาะและข้อมูลธุรกิจที่พร้อมใช้ในพื้นที่ทำงาน 
+<span data-ttu-id="96925-110">เมื่อคุณคลิกปุ่ม กล่องโต้ตอบจะปรากฏขึ้น ซึ่งคุณสามารถปรับเปลี่ยนการตั้งค่าที่กำหนดไว้ล่วงหน้าสำหรับพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-110">When you click the button, a dialog appears, where you can modify the predefined settings for the workspace.</span></span> <span data-ttu-id="96925-111">การตั้งค่าเฉพาะที่คุณเห็นในกล่องโต้ตอบนี้จะแตกต่างกันไปตามแต่ละพื้นที่ทำงาน และขึ้นอยู่กับการควบคุมเฉพาะและข้อมูลธุรกิจที่พร้อมใช้ในพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-111">The specific settings that you see in this dialog vary by workspace, and depend on the specific controls and business data that are available in the workspace.</span></span> 
 
-[![ตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+<span data-ttu-id="96925-112">[![ตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span><span class="sxs-lookup"><span data-stu-id="96925-112">[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span></span>
 
-## <a name="filtering-a-workspace"></a>การกรองข้อมูลพื้นที่ทำงาน
-หลายพื้นที่ทำงานให้คุณกรองเนื้อหาที่ปรากฏในนั้น ตัวควบคุมที่มีอยู่อาจช่วยให้คุณสามารถกรองเนื้อหาทั้งหมดในพื้นที่ทำงานหรือเนื้อหาในส่วนเฉพาะของพื้นที่ทำงานเท่านั้น ตัวกรองบนพื้นที่ทำงานสามารถเป็นการค้นหา กล่องคำสั่งผสม ฟิลด์ข้อความอิสระ หรือตัวควบคุมชนิดอื่น อย่างไรก็ตาม ตัวกรองทุกชนิดมีผลกระทบเดียวกัน ตามที่อธิบายไว้ในส่วนต่อไปนี้
+## <a name="filtering-a-workspace"></a><span data-ttu-id="96925-113">การกรองข้อมูลพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-113">Filtering a workspace</span></span>
+<span data-ttu-id="96925-114">หลายพื้นที่ทำงานให้คุณกรองเนื้อหาที่ปรากฏในนั้น</span><span class="sxs-lookup"><span data-stu-id="96925-114">Many workspaces let you filter the content that appears in them.</span></span> <span data-ttu-id="96925-115">ตัวควบคุมที่มีอยู่อาจช่วยให้คุณสามารถกรองเนื้อหาทั้งหมดในพื้นที่ทำงานหรือเนื้อหาในส่วนเฉพาะของพื้นที่ทำงานเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="96925-115">The controls that are available might let you filter all the content in the workspace or only the content in a specific section of the workspace.</span></span> <span data-ttu-id="96925-116">ตัวกรองบนพื้นที่ทำงานสามารถเป็นการค้นหา กล่องคำสั่งผสม ฟิลด์ข้อความอิสระ หรือตัวควบคุมชนิดอื่น</span><span class="sxs-lookup"><span data-stu-id="96925-116">The filters on workspaces can be lookups, combo boxes, free-form text fields, or other types of controls.</span></span> <span data-ttu-id="96925-117">อย่างไรก็ตาม ตัวกรองทุกชนิดมีผลกระทบเดียวกัน ตามที่อธิบายไว้ในส่วนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="96925-117">However, every type of filter has the same effects, as described in the following sections.</span></span>
 
-### <a name="workspace-wide-filters"></a>การกรองทั้งพื้นที่ทำงาน
+### <a name="workspace-wide-filters"></a><span data-ttu-id="96925-118">การกรองทั้งพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-118">Workspace-wide filters</span></span>
 
-คุณสามารถกรองพื้นที่ทำงานทั้งหมด โดยใช้ตัวกรองทั้งพื้นที่ทำงาน ตัวกรองทั้งพื้นที่ทำงานจะอยู่ในมุมบนซ้ายของพื้นที่ทำงาน เมื่อคุณเลือกค่าที่ระบุในรายการแบบหล่นลง เนื้อหาของพื้นที่ทำงานจะถูกกรองตามส่วนที่เลือก 
+<span data-ttu-id="96925-119">คุณสามารถกรองพื้นที่ทำงานทั้งหมด โดยใช้ตัวกรองทั้งพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-119">You can filter the whole workspace by using a workspace-wide filter.</span></span> <span data-ttu-id="96925-120">ตัวกรองทั้งพื้นที่ทำงานจะอยู่ในมุมบนซ้ายของพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="96925-120">A workspace-wide filter appears in the upper-left corner of the workspace.</span></span> <span data-ttu-id="96925-121">เมื่อคุณเลือกค่าที่ระบุในรายการแบบหล่นลง เนื้อหาของพื้นที่ทำงานจะถูกกรองตามส่วนที่เลือก</span><span class="sxs-lookup"><span data-stu-id="96925-121">When you select a specific value in the drop-down list, the contents of the workspace are filtered based on that selection.</span></span> 
 
-[![ตัวกรองพื้นที่ทำงาน](./media/workspace-filter.png)](./media/workspace-filter.png) 
+<span data-ttu-id="96925-122">[![ตัวกรองพื้นที่ทำงาน](./media/workspace-filter.png)](./media/workspace-filter.png)</span><span class="sxs-lookup"><span data-stu-id="96925-122">[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span></span> 
 
-เมื่อคุณคลิกเพื่อเปิดตัวกรอง ตัวเลือกต่างๆ จะถูกแสดง 
+<span data-ttu-id="96925-123">เมื่อคุณคลิกเพื่อเปิดตัวกรอง ตัวเลือกต่างๆ จะถูกแสดง</span><span class="sxs-lookup"><span data-stu-id="96925-123">When you click to open the filter, you're presented with several options.</span></span> 
 
-[![ตัวกรองทั้งพื้นที่ทำงานแบบขยาย](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
+<span data-ttu-id="96925-124">[![ตัวกรองทั้งพื้นที่ทำงานแบบขยาย](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span><span class="sxs-lookup"><span data-stu-id="96925-124">[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span></span> 
 
-เลือกตัวเลือกเพื่อกรองข้อมูลพื้นที่ทำงานตามตัวเลือกนั้น
+<span data-ttu-id="96925-125">เลือกตัวเลือกเพื่อกรองข้อมูลพื้นที่ทำงานตามตัวเลือกนั้น</span><span class="sxs-lookup"><span data-stu-id="96925-125">Select an option to filter the workspace based on that option.</span></span>
 
-### <a name="workspace-section-filters"></a>ตัวกรองพื้นที่ทำงานตามส่วน
+### <a name="workspace-section-filters"></a><span data-ttu-id="96925-126">ตัวกรองพื้นที่ทำงานตามส่วน</span><span class="sxs-lookup"><span data-stu-id="96925-126">Workspace section filters</span></span>
 
-ถ้าแต่ละส่วนของพื้นที่ทำงานมีตัวกรอง คุณสามารถกรองข้อมูลแต่ละส่วนแยกต่างหาก ในภาพประกอบต่อไปนี้ ตัวกรอง (ฟิลด์ที่ประกอบด้วยข้อความ "ตัวกรอง") เป็นตัวอย่างของตัวกรองในฟิลด์ข้อความอิสระ 
+<span data-ttu-id="96925-127">ถ้าแต่ละส่วนของพื้นที่ทำงานมีตัวกรอง คุณสามารถกรองข้อมูลแต่ละส่วนแยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="96925-127">If individual sections of the workspace have filters, you can filter each section separately.</span></span> <span data-ttu-id="96925-128">ในภาพประกอบต่อไปนี้ ตัวกรอง (ฟิลด์ที่ประกอบด้วยข้อความ "ตัวกรอง") เป็นตัวอย่างของตัวกรองในฟิลด์ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="96925-128">In the following illustration, the filter (the field that contains the text "Filter") is an example of a free-form text field filter.</span></span> 
 
-[![ตัวกรองพื้นที่ทำงานตามส่วน](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
+<span data-ttu-id="96925-129">[![ตัวกรองพื้นที่ทำงานตามส่วน](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span><span class="sxs-lookup"><span data-stu-id="96925-129">[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span></span> 
 
-จากตัวกรองทั้งพื้นที่ทำงาน ให้เลือกหรือป้อนค่าตัวกรองที่ต้องการเพื่อจำกัดการแสดงเนื้อหาของส่วน
+<span data-ttu-id="96925-130">จากตัวกรองทั้งพื้นที่ทำงาน ให้เลือกหรือป้อนค่าตัวกรองที่ต้องการเพื่อจำกัดการแสดงเนื้อหาของส่วน</span><span class="sxs-lookup"><span data-stu-id="96925-130">As with a workspace-wide filter, select or enter a value in the field to filter the contents of the section.</span></span>
 
 
 

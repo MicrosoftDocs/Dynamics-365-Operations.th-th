@@ -16,41 +16,41 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 668fea64810524e8ce0c3833d25656c026f2780a
-ms.openlocfilehash: 7e57b26c17d3bf773a719f9725d5f47dce2af6f7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a29cae6cdcd03903359a3a468243c6ad03c7adc6
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-books"></a>ตั้งค่าสมุดบัญชี
+# <a name="set-up-books"></a><span data-ttu-id="06a02-103">ตั้งค่าสมุดบัญชี</span><span class="sxs-lookup"><span data-stu-id="06a02-103">Set up books</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้จะแสดงวิธีการสร้างสมุดบัญชีสินทรัพย์ถาวรใหม่และเชื่อมโยงกับกลุ่มสินทรัพย์ถาวร  ซึ่งจะใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF
+<span data-ttu-id="06a02-104">กระบวนงานนี้จะแสดงวิธีการสร้างสมุดบัญชีสินทรัพย์ถาวรใหม่และเชื่อมโยงกับกลุ่มสินทรัพย์ถาวร </span><span class="sxs-lookup"><span data-stu-id="06a02-104">This procedure shows you to how create a new fixed asset book and associate it with a fixed asset group.</span></span> <span data-ttu-id="06a02-105">ซึ่งจะใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="06a02-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="create-a-book"></a>สร้างสมุดบัญชี
-1. ไปที่ สินทรัพย์ถาวร > ติดตั้ง > สมุดบัญชี
-2. คลิก สร้าง
-3. ในฟิลด์สมุดบัญชี ให้พิมพ์ค่า
-4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-    * ถ้าคำนวณค่าเสื่อมราคาถูกเลือก สินทรัพย์ที่เกี่ยวข้องกับสมุดบัญชีจะรวมในข้อเสนอค่าเสื่อมราคา  ถ้าไม่ได้ถูกเลือก สมุดบัญชีสินทรัพย์จะไม่ถูกคิดค่าเสื่อมราคาอัตโนมัติ  
-5. เลือก ใช่ ในฟิลด์คำนวณค่าเสื่อมราคา
-6. ในฟิลด์โพรไฟล์ค่าเสื่อมราคา ให้ป้อนหรือเลือกค่า
-    * โพรไฟล์ค่าเสื่อมราคาสำรองจะรู้จักกันในการเปลี่ยนแปลงวิธีการคิดค่าเสื่อมราคา  ข้อเสนอค่าเสื่อมราคาจะสลับไปยังโพรไฟล์นี้เมื่อโพรไฟล์สำรองจะคำนวณจำนวนค่าเสื่อมราคา นั่นคือเท่ากับหรือมากกว่าโพรไฟล์ค่าเสื่อมราคาเริ่มต้น  
-    * โพรไฟล์ค่าเสื่อมราคาพิเศษใช้สำหรับค่าเสื่อมราคาเพิ่มเติมของสินทรัพย์ในสถานการณ์ที่ผิดปกติ  ตัวอย่างเช่น คุณอาจใช้สิ่งนี้เพื่อบันทึกการคิดค่าเสื่อมราคาซึ่งเป็นผลมาจากภัยพิบัติธรรมชาติ  
-    * หากสร้างกการปรับปรุงค่าเสื่อมราคาที่มีการปรับปรุงพื้นฐานจะถูกเลือก การปรับปรุงค่าเสื่อมราคาจะสร้างอัตโนมัติเมื่อค่าของสินทรัพย์อัพเดท  ถ้าไม่ได้ถูกเลือก ถ้าไม่ได้ถูกเลือก มูลค่าสินทรัพย์อัพเดทจะมีผลเฉพาะกับคำนวณค่าเสื่อมราคานับจากวันนี้  
-7. เลือก ใช่ ในฟิลด์ สร้างการปรับปรุงค่าเสื่อมราคาที่มีการปรับปรุงเกณฑ์พื้นฐาน
-    * โดยค่าเริ่มต้น ธุรกรรมสมุดบัญชีสินทรัพย์ถาวรจะลงรายการบัญชีในบัญชีแยกประเภททั่วไป  คุณสามารถปิดใช้งานการลงรายการบัญชีในบัญชีแยกประเภททั่วไปสำหรับสมุดบัญชีได้โดยการตั้งค่าฟิลด์การลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไปเป็น ไม่ สมุดบัญชีที่ไม่ได้ลงรายการบัญชีในบัญชีแยกประเภททั่วไปโดยทั่วไปจะใช้สำหรับการรายงานภาษี ซึ่งทำให้คุณมีความยืดหยุ่นเพิ่มเติมในการลบธุรกรรมในอดีตสำหรับสมุดบัญชีสินทรัพย์เนื่องจากไม่ถูกส่งไปยังบัญชีแยกประเภท  
-    * ชั้นของการลงรายการบัญชีถูกกำหนดค่าเริ่มต้นเป็นชั้นปัจจุบัน ถ้าสมุดบัญชีลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไป และไม่มี ถ้าไม่ได้ลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไป  ปรับปรุงชั้นของการลงรายการบัญชีถ้าคุณต้องการให้ธุรกรรมสำหรับสมุดบัญชีนี้ถูกลงรายการบัญชีไปยังชั้นอื่น  
-8. ในฟิลด์ปฏิทิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * สมุดบัญชีที่ได้รับจะลงรายการบัญชีธุรกรรมไปยังบัญชีต่างๆ พร้อมกัน  คุณจะสร้างธุรกรรมที่มีสมุดบัญชีหลักและในระหว่างการลงรายการบัญชี สำเนาที่เหมือนกันของธุรกรรมดังกล่าวจะถูกลงรายการบัญชีไปยังสมุดบัญชีที่ได้รับ  ไม่มีการคำนวณใหม่กับธุรกรรมสมุดบัญชีที่ได้รับ ดังนั้นจึงไม่ควรใช้สำหรับธุรกรรมค่าเสื่อมราคา  
+## <a name="create-a-book"></a><span data-ttu-id="06a02-106">สร้างสมุดบัญชี</span><span class="sxs-lookup"><span data-stu-id="06a02-106">Create a book</span></span>
+1. <span data-ttu-id="06a02-107">ไปที่ สินทรัพย์ถาวร > ติดตั้ง > สมุดบัญชี</span><span class="sxs-lookup"><span data-stu-id="06a02-107">Go to Fixed assets > Setup > Books.</span></span>
+2. <span data-ttu-id="06a02-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="06a02-108">Click New.</span></span>
+3. <span data-ttu-id="06a02-109">ในฟิลด์สมุดบัญชี ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="06a02-109">In the Book field, type a value.</span></span>
+4. <span data-ttu-id="06a02-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="06a02-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="06a02-111">ถ้าคำนวณค่าเสื่อมราคาถูกเลือก สินทรัพย์ที่เกี่ยวข้องกับสมุดบัญชีจะรวมในข้อเสนอค่าเสื่อมราคา </span><span class="sxs-lookup"><span data-stu-id="06a02-111">If Calculate depreciation is selected, the associated asset book will be included in depreciation proposals.</span></span> <span data-ttu-id="06a02-112">ถ้าไม่ได้ถูกเลือก สมุดบัญชีสินทรัพย์จะไม่ถูกคิดค่าเสื่อมราคาอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="06a02-112">If it is not selected, the asset book will not be automatically depreciated.</span></span>  
+5. <span data-ttu-id="06a02-113">เลือก ใช่ ในฟิลด์คำนวณค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="06a02-113">Select Yes in the Calculate depreciation field.</span></span>
+6. <span data-ttu-id="06a02-114">ในฟิลด์โพรไฟล์ค่าเสื่อมราคา ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="06a02-114">In the Depreciation profile field, enter or select a value.</span></span>
+    * <span data-ttu-id="06a02-115">โพรไฟล์ค่าเสื่อมราคาสำรองจะรู้จักกันในการเปลี่ยนแปลงวิธีการคิดค่าเสื่อมราคา </span><span class="sxs-lookup"><span data-stu-id="06a02-115">An alternative depreciation profile is also known as a switchover method of depreciation.</span></span> <span data-ttu-id="06a02-116">ข้อเสนอค่าเสื่อมราคาจะสลับไปยังโพรไฟล์นี้เมื่อโพรไฟล์สำรองจะคำนวณจำนวนค่าเสื่อมราคา นั่นคือเท่ากับหรือมากกว่าโพรไฟล์ค่าเสื่อมราคาเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="06a02-116">The depreciation proposal will switch to this profile when the alternative profile calculates a depreciation amount that is equal to or greater than the default depreciation profile.</span></span>  
+    * <span data-ttu-id="06a02-117">โพรไฟล์ค่าเสื่อมราคาพิเศษใช้สำหรับค่าเสื่อมราคาเพิ่มเติมของสินทรัพย์ในสถานการณ์ที่ผิดปกติ </span><span class="sxs-lookup"><span data-stu-id="06a02-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="06a02-118">ตัวอย่างเช่น คุณอาจใช้สิ่งนี้เพื่อบันทึกการคิดค่าเสื่อมราคาซึ่งเป็นผลมาจากภัยพิบัติธรรมชาติ</span><span class="sxs-lookup"><span data-stu-id="06a02-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+    * <span data-ttu-id="06a02-119">หากสร้างกการปรับปรุงค่าเสื่อมราคาที่มีการปรับปรุงพื้นฐานจะถูกเลือก การปรับปรุงค่าเสื่อมราคาจะสร้างอัตโนมัติเมื่อค่าของสินทรัพย์อัพเดท </span><span class="sxs-lookup"><span data-stu-id="06a02-119">If Create depreciation adjustments with basis adjustments is selected, depreciation adjustments will be automatically created when the value of the asset is updated.</span></span> <span data-ttu-id="06a02-120">ถ้าไม่ได้ถูกเลือก ถ้าไม่ได้ถูกเลือก มูลค่าสินทรัพย์อัพเดทจะมีผลเฉพาะกับคำนวณค่าเสื่อมราคานับจากวันนี้</span><span class="sxs-lookup"><span data-stu-id="06a02-120">If it is not selected, the updated asset value will only affect depreciation calculations going forward.</span></span>  
+7. <span data-ttu-id="06a02-121">เลือก ใช่ ในฟิลด์ สร้างการปรับปรุงค่าเสื่อมราคาที่มีการปรับปรุงเกณฑ์พื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="06a02-121">Select Yes in the Create depreciation adjustments with basis adjustments field.</span></span>
+    * <span data-ttu-id="06a02-122">โดยค่าเริ่มต้น ธุรกรรมสมุดบัญชีสินทรัพย์ถาวรจะลงรายการบัญชีในบัญชีแยกประเภททั่วไป </span><span class="sxs-lookup"><span data-stu-id="06a02-122">By default, fixed asset book transactions will post to the general ledger.</span></span> <span data-ttu-id="06a02-123">คุณสามารถปิดใช้งานการลงรายการบัญชีในบัญชีแยกประเภททั่วไปสำหรับสมุดบัญชีได้โดยการตั้งค่าฟิลด์การลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไปเป็น ไม่</span><span class="sxs-lookup"><span data-stu-id="06a02-123">You can disable posting to the general ledger for the book by setting the Post to general ledger field to No.</span></span> <span data-ttu-id="06a02-124">สมุดบัญชีที่ไม่ได้ลงรายการบัญชีในบัญชีแยกประเภททั่วไปโดยทั่วไปจะใช้สำหรับการรายงานภาษี</span><span class="sxs-lookup"><span data-stu-id="06a02-124">Books that do not post to the general ledger are typically used for tax reporting purposes.</span></span> <span data-ttu-id="06a02-125">ซึ่งทำให้คุณมีความยืดหยุ่นเพิ่มเติมในการลบธุรกรรมในอดีตสำหรับสมุดบัญชีสินทรัพย์เนื่องจากไม่ถูกส่งไปยังบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="06a02-125">This gives you additional flexibility to delete historical transactions for the asset book because they have not been committed to the general ledger.</span></span>  
+    * <span data-ttu-id="06a02-126">ชั้นของการลงรายการบัญชีถูกกำหนดค่าเริ่มต้นเป็นชั้นปัจจุบัน ถ้าสมุดบัญชีลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไป และไม่มี ถ้าไม่ได้ลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไป </span><span class="sxs-lookup"><span data-stu-id="06a02-126">The Posting layer defaults to the Current layer if the book posts to general ledger, and None if it does not post to general ledger.</span></span> <span data-ttu-id="06a02-127">ปรับปรุงชั้นของการลงรายการบัญชีถ้าคุณต้องการให้ธุรกรรมสำหรับสมุดบัญชีนี้ถูกลงรายการบัญชีไปยังชั้นอื่น</span><span class="sxs-lookup"><span data-stu-id="06a02-127">Update Posting layer if you need transactions for this book to be posted to a different layer.</span></span>  
+8. <span data-ttu-id="06a02-128">ในฟิลด์ปฏิทิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="06a02-128">In the Calendar field, enter or select a value.</span></span>
+    * <span data-ttu-id="06a02-129">สมุดบัญชีที่ได้รับจะลงรายการบัญชีธุรกรรมไปยังบัญชีต่างๆ พร้อมกัน </span><span class="sxs-lookup"><span data-stu-id="06a02-129">Derived books will post transactions to different books at the same time.</span></span> <span data-ttu-id="06a02-130">คุณจะสร้างธุรกรรมที่มีสมุดบัญชีหลักและในระหว่างการลงรายการบัญชี สำเนาที่เหมือนกันของธุรกรรมดังกล่าวจะถูกลงรายการบัญชีไปยังสมุดบัญชีที่ได้รับ </span><span class="sxs-lookup"><span data-stu-id="06a02-130">You create the transactions with the primary book and during posting, an exact copy of the transaction is posted to the derived book.</span></span> <span data-ttu-id="06a02-131">ไม่มีการคำนวณใหม่กับธุรกรรมสมุดบัญชีที่ได้รับ ดังนั้นจึงไม่ควรใช้สำหรับธุรกรรมค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="06a02-131">There is no recalculation with derived book transactions, so it should not be used for depreciation transactions.</span></span>  
 
-## <a name="associate-the-book-with-a-fixed-asset-group"></a>เชื่อมโยงสมุดบัญชีกับกลุ่มสินทรัพย์ถาวร
-1. คลิกสินทรัพย์ถาวร
-2. ในฟิลด์กลุ่มสินทรัพย์ถาวร ให้ป้อนหรือเลือกค่า
-3. ในฟิลด์อายุการใช้งาน ป้อนจำนวน
-    * โปรดทราบว่ารอบระยะเวลาการคิดค่าเสื่อมราคาจะถูกคำนวณหลังจากการตั้งค่าอายุการใช้งาน  
-    * คุณสามารถกำหนดแบบแผนการคิดค่าเสื่อมราคาตามที่จำเป็นสำหรับวัตถุประสงค์ด้านภาษี  
+## <a name="associate-the-book-with-a-fixed-asset-group"></a><span data-ttu-id="06a02-132">เชื่อมโยงสมุดบัญชีกับกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="06a02-132">Associate the book with a fixed asset group</span></span>
+1. <span data-ttu-id="06a02-133">คลิกสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="06a02-133">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="06a02-134">ในฟิลด์กลุ่มสินทรัพย์ถาวร ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="06a02-134">In the Fixed asset group field, enter or select a value.</span></span>
+3. <span data-ttu-id="06a02-135">ในฟิลด์อายุการใช้งาน ป้อนจำนวน</span><span class="sxs-lookup"><span data-stu-id="06a02-135">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="06a02-136">โปรดทราบว่ารอบระยะเวลาการคิดค่าเสื่อมราคาจะถูกคำนวณหลังจากการตั้งค่าอายุการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="06a02-136">Note that Depreciation periods is calculated after setting the Service life.</span></span>  
+    * <span data-ttu-id="06a02-137">คุณสามารถกำหนดแบบแผนการคิดค่าเสื่อมราคาตามที่จำเป็นสำหรับวัตถุประสงค์ด้านภาษี</span><span class="sxs-lookup"><span data-stu-id="06a02-137">You are able to set the depreciation convention as required for tax purposes.</span></span>  
 
 

@@ -17,107 +17,107 @@ ms.assetid:
 ms.search.region: Global
 ms.search.industry: 
 ms.author: cvocph
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 84322bb3f02d236843bebc24c4c5eccdd4d9f2bf
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 159aa0fd5d057ed4105a79f11b3658133f417319
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="formula-designer"></a>โปรแกรมออกแบบสูตร
+# <a name="formula-designer"></a><span data-ttu-id="643b4-103">โปรแกรมออกแบบสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-103">Formula designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการใช้โปรแกรมออกแบบสูตรเพื่อวิเคราะห์ และเก็บรักษาสูตรในมุมมองแผนภูมิ
+<span data-ttu-id="643b4-104">หัวข้อนี้อธิบายวิธีการใช้โปรแกรมออกแบบสูตรเพื่อวิเคราะห์ และเก็บรักษาสูตรในมุมมองแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="643b4-104">This topic explains how to use the formula designer to analyze and maintain formulas in a tree view.</span></span>
 
-เมื่อคุณเปิดหน้า **โปรแกรมการออกแบบสูตร** จากหน้า **ผลิตภัณฑ์ที่นำออกใช้** แผนภูมิในบานหน้าต่างด้านซ้ายจะแสดงรายการของสินค้าร่วมและลำดับชั้นของส่วนผสมสำหรับผลิตภัณฑ์นำออกใช้ โครงสร้างได้รับมาจากลำดับชั้นของสูตรที่ใช้งานอยู่ และได้รับอนุมัติสำหรับสินค้าที่เลือก และส่วนผสมของโครงสร้าง ไซต์ของใบสั่งสินค้าเริ่มต้น และวันที่จริง
+<span data-ttu-id="643b4-105">เมื่อคุณเปิดหน้า **โปรแกรมการออกแบบสูตร** จากหน้า **ผลิตภัณฑ์ที่นำออกใช้** แผนภูมิในบานหน้าต่างด้านซ้ายจะแสดงรายการของสินค้าร่วมและลำดับชั้นของส่วนผสมสำหรับผลิตภัณฑ์นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="643b4-105">When you open the **Formula designer** page from the **Released products** page, the tree in the left pane shows the list of co-products and the hierarchy of ingredients for the released product.</span></span> <span data-ttu-id="643b4-106">โครงสร้างได้รับมาจากลำดับชั้นของสูตรที่ใช้งานอยู่ และได้รับอนุมัติสำหรับสินค้าที่เลือก และส่วนผสมของโครงสร้าง ไซต์ของใบสั่งสินค้าเริ่มต้น และวันที่จริง</span><span class="sxs-lookup"><span data-stu-id="643b4-106">The structure is derived from the hierarchy of formulas that are active and approved for the selected item and its ingredients, the default order site of the item, and the actual date.</span></span>
 
-คลิก **ตั้งค่า** เพื่อเลือกการตั้งค่าคอนฟิกและระบุข้อมูลที่ปรากฏในบรรทัดของแผนภูมิ
+<span data-ttu-id="643b4-107">คลิก **ตั้งค่า** เพื่อเลือกการตั้งค่าคอนฟิกและระบุข้อมูลที่ปรากฏในบรรทัดของแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="643b4-107">Click **Setup** to select different configurations and specify what information appears on the lines of the tree.</span></span>
 
-คลิก **ตัวกรอง** เพื่อเปลี่ยนการเลือกในมุมมองเริ่มต้น ถ้าคุณตั้งค่าหลักการแสดงผลเป็น **ที่เลือก/ใช้งานอยู่** หรือ **ที่เลือก** คุณสามารถเลือกสูตรแต่ละสูตรหรืเวอร์ชันกระบวนการผลิตเพื่อใช้ในมุมมอง คุณสามารถเลือกสูตรของเวอร์ชันที่ไม่ได้รับการอนุมัติและไม่ได้ใช้งานอยู่เพื่อแสดงหรือรักษาในโปรแกรมออกแบบสูตร  
+<span data-ttu-id="643b4-108">คลิก **ตัวกรอง** เพื่อเปลี่ยนการเลือกในมุมมองเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="643b4-108">Click **Filter** to change the initial selection in the view.</span></span> <span data-ttu-id="643b4-109">ถ้าคุณตั้งค่าหลักการแสดงผลเป็น **ที่เลือก/ใช้งานอยู่** หรือ **ที่เลือก** คุณสามารถเลือกสูตรแต่ละสูตรหรืเวอร์ชันกระบวนการผลิตเพื่อใช้ในมุมมอง</span><span class="sxs-lookup"><span data-stu-id="643b4-109">If you set the display principle to **Selected/Active** or **Selected**, you can select individual formula or route versions to use in the view.</span></span> <span data-ttu-id="643b4-110">คุณสามารถเลือกสูตรของเวอร์ชันที่ไม่ได้รับการอนุมัติและไม่ได้ใช้งานอยู่เพื่อแสดงหรือรักษาในโปรแกรมออกแบบสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-110">You can select non-approved and non-active formula versions to show or maintain in the formula designer.</span></span>  
 
 > [!NOTE]
-> ถ้าคุณเปิดหน้า **โปรแกรมออกแบบสูตร** จากหน้ารายการ **สูตรการผลิต** จะไม่แสดงข้อมูลกระบวนการผลิต ในปัจจุบัน การเลือกเวอร์ชันสูตรหรือกระบวนการผลิตจะนำไปใช้กับอินสแตนซ์ทั้งหมดของโปรแกรมออกแบบสูตร  
+> <span data-ttu-id="643b4-111">ถ้าคุณเปิดหน้า **โปรแกรมออกแบบสูตร** จากหน้ารายการ **สูตรการผลิต** จะไม่แสดงข้อมูลกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-111">If you open the **Formula designer** page from the **Bills of materials** list page, it doesn't show route information.</span></span> <span data-ttu-id="643b4-112">ในปัจจุบัน การเลือกเวอร์ชันสูตรหรือกระบวนการผลิตจะนำไปใช้กับอินสแตนซ์ทั้งหมดของโปรแกรมออกแบบสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-112">Currently, the selection of a formula or route version applies to all instances of the formula designer.</span></span>  
 
-ส่วนต่อไปนี้อธิบายถึงฟังก์ชันที่พร้อมใช้งานในโปรแกรมออกแบบ BOM
+<span data-ttu-id="643b4-113">ส่วนต่อไปนี้อธิบายถึงฟังก์ชันที่พร้อมใช้งานในโปรแกรมออกแบบ BOM</span><span class="sxs-lookup"><span data-stu-id="643b4-113">The following sections describe the functionality that is available in the BOM designer.</span></span>
 
-## <a name="analyze-a-formula-structure-by-using-the-formula-designer"></a>วิเคราะห์โครงสร้างของสูตรโดยการใช้โปรแกรมออกแบบสูตร
-โปรแกรมออกแบบสูตรประกอบด้วยสองส่วน:
+## <a name="analyze-a-formula-structure-by-using-the-formula-designer"></a><span data-ttu-id="643b4-114">วิเคราะห์โครงสร้างของสูตรโดยการใช้โปรแกรมออกแบบสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-114">Analyze a formula structure by using the formula designer</span></span>
+<span data-ttu-id="643b4-115">โปรแกรมออกแบบสูตรประกอบด้วยสองส่วน:</span><span class="sxs-lookup"><span data-stu-id="643b4-115">The formula designer has two sections:</span></span>
 
--   มุมมองแผนภูมิของโครงสร้างของสูตร
--   รายละเอียดส่วน แสดงรายละเอียดของข้อมูลที่เลือก เมื่อคุณเลือกโหนดในมุมมองแผนภูมิ แท็บด่วนในส่วนรายละเอียดจะถูกปรับปรุงตามโหนด:
-    -   **รายละเอียดรายการของสูตร** – ดูรายละเอียดรายการของสูตรที่เลือกในมุมมองแผนภูมิ
-    -   **รายการข้อมูล**– ดูรายละเอียดของสินค้าหลักหรือสินค้าที่ใช้ในโหนดที่เลือก คุณสามารถคลิก **แก้ไขผลิตภัณฑ์ที่นำออกใช้** เพื่อรักษาสินค้าที่เลือกได้
-    -   **สูตร** – ดูหัวข้อของสูตรที่เกี่ยวข้องกับโหนดที่เลือก
-    -   **กระบวนการผลิต** – ดูหัวข้อของกระบวนการผลิตที่เกี่ยวข้องกับโหนดที่เลือก
-    -   **การดำเนินกระบวนการผลิต**– ดูตัวอย่างของการดำเนินงานสำหรับกระบวนการผลิต เมื่อมีการเลือกรายการสูตรการผลิต (BOM) ที่กำหนดให้กับการดำเนินงาน การดำเนินงานจะถูกทำเครื่องหมายเป็น **คอมโพเนนต์ที่จำเป็นในการดำเนินงาน**
+-   <span data-ttu-id="643b4-116">มุมมองแผนภูมิของโครงสร้างของสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-116">The tree view of the formula structure.</span></span>
+-   <span data-ttu-id="643b4-117">รายละเอียดส่วน แสดงรายละเอียดของข้อมูลที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-117">The details section, which shows details of the selected data.</span></span> <span data-ttu-id="643b4-118">เมื่อคุณเลือกโหนดในมุมมองแผนภูมิ แท็บด่วนในส่วนรายละเอียดจะถูกปรับปรุงตามโหนด:</span><span class="sxs-lookup"><span data-stu-id="643b4-118">When you select a node in the tree view, the FastTabs in the details section are updated based on that node:</span></span>
+    -   <span data-ttu-id="643b4-119">**รายละเอียดรายการของสูตร** – ดูรายละเอียดรายการของสูตรที่เลือกในมุมมองแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="643b4-119">**Formula line details** – View the details of the formula line that is selected in the tree view.</span></span>
+    -   <span data-ttu-id="643b4-120">**รายการข้อมูล**– ดูรายละเอียดของสินค้าหลักหรือสินค้าที่ใช้ในโหนดที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-120">**Item data** – View the details of the main item or the item that is used in the selected node.</span></span> <span data-ttu-id="643b4-121">คุณสามารถคลิก **แก้ไขผลิตภัณฑ์ที่นำออกใช้** เพื่อรักษาสินค้าที่เลือกได้</span><span class="sxs-lookup"><span data-stu-id="643b4-121">You can click **Edit released product** to maintain the selected item.</span></span>
+    -   <span data-ttu-id="643b4-122">**สูตร** – ดูหัวข้อของสูตรที่เกี่ยวข้องกับโหนดที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-122">**Formula** – View the header of the formula that is related to the selected node.</span></span>
+    -   <span data-ttu-id="643b4-123">**กระบวนการผลิต** – ดูหัวข้อของกระบวนการผลิตที่เกี่ยวข้องกับโหนดที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-123">**Route** – View the header of the route that is related to the selected node.</span></span>
+    -   <span data-ttu-id="643b4-124">**การดำเนินกระบวนการผลิต**– ดูตัวอย่างของการดำเนินงานสำหรับกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-124">**Route operations** – View a preview of the operations for the route.</span></span> <span data-ttu-id="643b4-125">เมื่อมีการเลือกรายการสูตรการผลิต (BOM) ที่กำหนดให้กับการดำเนินงาน การดำเนินงานจะถูกทำเครื่องหมายเป็น **คอมโพเนนต์ที่จำเป็นในการดำเนินงาน**</span><span class="sxs-lookup"><span data-stu-id="643b4-125">When a bill of materials (BOM) line that is assigned to a specific operation is selected, the operation is marked as **Component needed at operations**.</span></span>
 
-## <a name="select-a-formula-and-route"></a>เลือกสูตรและกระบวนการผลิต
-ตัวกรองข้อมูลที่จะใช้สำหรับสูตรและกระบวนการผลิตจะแสดงอยู่ในส่วนหัวของโปรแกรมออกแบบสูตร คุณสามารถเปลี่ยนตัวกรองข้อมูล โดยใช้กล่องโต้ตอบ **ตัวกรอง** ได้ ตารางต่อไปนี้อธิบายถึงฟิลด์ในกล่องโต้ตอบ
+## <a name="select-a-formula-and-route"></a><span data-ttu-id="643b4-126">เลือกสูตรและกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-126">Select a formula and route</span></span>
+<span data-ttu-id="643b4-127">ตัวกรองข้อมูลที่จะใช้สำหรับสูตรและกระบวนการผลิตจะแสดงอยู่ในส่วนหัวของโปรแกรมออกแบบสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-127">The filter that is applied for the formula and route is shown in the header of the formula designer.</span></span> <span data-ttu-id="643b4-128">คุณสามารถเปลี่ยนตัวกรองข้อมูล โดยใช้กล่องโต้ตอบ **ตัวกรอง** ได้</span><span class="sxs-lookup"><span data-stu-id="643b4-128">You can change the filter by using the **Filter** dialog box.</span></span> <span data-ttu-id="643b4-129">ตารางต่อไปนี้อธิบายถึงฟิลด์ในกล่องโต้ตอบ</span><span class="sxs-lookup"><span data-stu-id="643b4-129">The following table describes the fields in this dialog box.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>ฟิลด์</th>
-<th>คำอธิบาย</th>
+<th><span data-ttu-id="643b4-130">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="643b4-130">Field</span></span></th>
+<th><span data-ttu-id="643b4-131">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="643b4-131">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>มิติของผลิตภัณฑ์</td>
-<td>ถ้าผลิตภัณฑ์สำเร็จรูปที่เลือกเป็นผลิตภัณฑ์หลัก คุณสามารถกำหนดมิติของผลิตภัณฑ์ที่ใช้งานอยู่สำหรับการเลือกหลักได้ โปรดสังเกตว่า ถ้าคุณเปิดโปรแกรมออกแบบสูตรสำหรับผลิตภัณฑ์ที่ไม่ใช่ผลิตภัณฑ์หลัก จะไม่สามารถเลือกมิติของผลิตภัณฑ์ได้ในกล่องโต้ตอบ <strong>ตัวกรอง</strong></p></td>
+<td><span data-ttu-id="643b4-132">มิติของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="643b4-132">Product dimensions</span></span></td>
+<td><span data-ttu-id="643b4-133">ถ้าผลิตภัณฑ์สำเร็จรูปที่เลือกเป็นผลิตภัณฑ์หลัก คุณสามารถกำหนดมิติของผลิตภัณฑ์ที่ใช้งานอยู่สำหรับการเลือกหลักได้</span><span class="sxs-lookup"><span data-stu-id="643b4-133">If the selected finished product is a product master, you can define the active product dimensions for the main selection.</span></span> <span data-ttu-id="643b4-134">โปรดสังเกตว่า ถ้าคุณเปิดโปรแกรมออกแบบสูตรสำหรับผลิตภัณฑ์ที่ไม่ใช่ผลิตภัณฑ์หลัก จะไม่สามารถเลือกมิติของผลิตภัณฑ์ได้ในกล่องโต้ตอบ <strong>ตัวกรอง</strong></span><span class="sxs-lookup"><span data-stu-id="643b4-134">Note that if you open the formula designer for a product that isn't a product master, no product dimensions can be selected in the <strong>Filter</strong> dialog box.</span></span></p></td>
 </tr>
 <tr class="even">
-<td>ไซต์</td>
-<td>เปลี่ยนไซต์ที่แสดงแผนภูมิของส่วนผสม ไซต์เริ่มต้นคือ ไซต์สินค้าคงคลังเริ่มต้นของสินค้าสำเร็จรูป</td>
+<td><span data-ttu-id="643b4-135">ไซต์</span><span class="sxs-lookup"><span data-stu-id="643b4-135">Site</span></span></td>
+<td><span data-ttu-id="643b4-136">เปลี่ยนไซต์ที่แสดงแผนภูมิของส่วนผสม</span><span class="sxs-lookup"><span data-stu-id="643b4-136">Change the site that the ingredient tree is shown for.</span></span> <span data-ttu-id="643b4-137">ไซต์เริ่มต้นคือ ไซต์สินค้าคงคลังเริ่มต้นของสินค้าสำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="643b4-137">The default site is the default inventory site of the finished item.</span></span></td>
 </tr>
 <tr class="odd">
-<td>แสดงหลักการ</td>
-<td><p>เลือกหลักการแสดงเวอร์ชันที่ใช้กับโครงสร้างของสูตรและกระบวนการผลิตปัจจุบัน</p>
+<td><span data-ttu-id="643b4-138">แสดงหลักการ</span><span class="sxs-lookup"><span data-stu-id="643b4-138">Display principle</span></span></td>
+<td><p><span data-ttu-id="643b4-139">เลือกหลักการแสดงเวอร์ชันที่ใช้กับโครงสร้างของสูตรและกระบวนการผลิตปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="643b4-139">Select the version display principle that applies to the current formula structure and the current route:</span></span></p>
 <ul>
-<li>เมื่อตั้งค่าหลักการเป็น <strong>ใช้งาน</strong> หรือ <strong>เลือกแล้ว/ใช้งาน</strong> จะพบรุ่นของสูตรหรือกระบวนการผลิตที่มีผลบังคับใช้ในวันที่ปัจจุบัน</li>
-<li>เมื่อตั้งค่าหลักการเป็น <strong>ที่เลือก/ใช้งานอยู่</strong> หรือ <strong>ที่เลือก</strong> คุณสามารถเลือกเวอร์ชันของสูตรหรือเวอร์ชันกระบวนการผลิตได้โดยการคลิก <strong>สูตร</strong> &gt; <strong>เวอร์ชันสูตร</strong> หรือ <strong>กระบวนการผลิต</strong> &gt; <strong>เวอร์ชันกระบวนการผลิต</strong></li>
+<li><span data-ttu-id="643b4-140">เมื่อตั้งค่าหลักการเป็น <strong>ใช้งาน</strong> หรือ <strong>เลือกแล้ว/ใช้งาน</strong> จะพบรุ่นของสูตรหรือกระบวนการผลิตที่มีผลบังคับใช้ในวันที่ปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="643b4-140">When the principle is set to <strong>Active</strong> or <strong>Selected/Active</strong>, the valid formula or route version for this date is found.</span></span></li>
+<li><span data-ttu-id="643b4-141">เมื่อตั้งค่าหลักการเป็น <strong>ที่เลือก/ใช้งานอยู่</strong> หรือ <strong>ที่เลือก</strong> คุณสามารถเลือกเวอร์ชันของสูตรหรือเวอร์ชันกระบวนการผลิตได้โดยการคลิก <strong>สูตร</strong> &gt; <strong>เวอร์ชันสูตร</strong> หรือ <strong>กระบวนการผลิต</strong> &gt; <strong>เวอร์ชันกระบวนการผลิต</strong></span><span class="sxs-lookup"><span data-stu-id="643b4-141">When the principle is set to <strong>Selected/Active</strong> or <strong>Selected</strong>, you can select a formula version or route version by clicking <strong>Formula</strong> &gt; <strong>Formula versions</strong> or <strong>Route</strong> &gt; <strong>Route versions</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>วันที่เวอร์ชัน</td>
-<td>ป้อนวันที่เวอร์ชันสำหรับสูตรและกระบวนการผลิต เวอร์ชันจะระบุว่าจะใช้เวอร์ชันของสูตรใดในวันที่เฉพาะ ตามวันที่เวอร์ชันในการตั้งค่าเวอร์ชันของสูตร</td>
+<td><span data-ttu-id="643b4-142">วันที่เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="643b4-142">Version date</span></span></td>
+<td><span data-ttu-id="643b4-143">ป้อนวันที่เวอร์ชันสำหรับสูตรและกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-143">Enter the version date for the formula and route.</span></span> <span data-ttu-id="643b4-144">เวอร์ชันจะระบุว่าจะใช้เวอร์ชันของสูตรใดในวันที่เฉพาะ ตามวันที่เวอร์ชันในการตั้งค่าเวอร์ชันของสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-144">The version identifies which formula version is used on a specific date, based on the version dates in the formula version setup.</span></span></td>
 </tr>
 <tr class="odd">
-<td>ปริมาณเริ่มต้น</td>
-<td>กรองข้อมูลแต่ละรุ่นโดยการเลือกเฉพาะปริมาณ "เริ่มต้น" ถ้าคุณตั้งค่า อาจมีการเลือกรุ่นของสูตรและกระบวนการผลิตที่แตกต่างกัน</td>
+<td><span data-ttu-id="643b4-145">ปริมาณเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="643b4-145">From quantity</span></span></td>
+<td><span data-ttu-id="643b4-146">กรองข้อมูลแต่ละรุ่นโดยการเลือกเฉพาะปริมาณ "เริ่มต้น"</span><span class="sxs-lookup"><span data-stu-id="643b4-146">Filter the versions by selecting a specific "from" quantity.</span></span> <span data-ttu-id="643b4-147">ถ้าคุณตั้งค่า อาจมีการเลือกรุ่นของสูตรและกระบวนการผลิตที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="643b4-147">If you set a value, different formula and route versions might be selected.</span></span></td>
 </tr>
 <tr class="even">
-<td>แสดงสิ่งที่ใช้ได้เท่านั้น</td>
-<td>เมื่อคุณเลือกกล่องกาเครื่องหมาย โครงสร้างแผนภูมิจะแสดงเฉพาะบรรทัดของสูตรที่มีวันที่ถูกต้อง คลิกขวา หรือดับเบิลคลิกบรรทัดของสูตร เพื่อเปิดหน้า <strong>แก้ไขรายการสูตร</strong> ซึ่งคุณสามารถดูวันที่มีผลบังคับใช้สำหรับรายการสูตรนั้นได้</td>
+<td><span data-ttu-id="643b4-148">แสดงสิ่งที่ใช้ได้เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="643b4-148">Show valid only</span></span></td>
+<td><span data-ttu-id="643b4-149">เมื่อคุณเลือกกล่องกาเครื่องหมาย โครงสร้างแผนภูมิจะแสดงเฉพาะบรรทัดของสูตรที่มีวันที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="643b4-149">When you select the check box, the tree structure shows only formula lines that have valid dates.</span></span> <span data-ttu-id="643b4-150">คลิกขวา หรือดับเบิลคลิกบรรทัดของสูตร เพื่อเปิดหน้า <strong>แก้ไขรายการสูตร</strong> ซึ่งคุณสามารถดูวันที่มีผลบังคับใช้สำหรับรายการสูตรนั้นได้</span><span class="sxs-lookup"><span data-stu-id="643b4-150">Right-click or double-click a formula line to open the <strong>Edit formula line</strong> page, where you can see the validity dates for that formula line.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-เมื่อคุณใช้โปรแกรมออกแบบสูตร เพื่อตรวจทานหรือแก้ไขสูตร ซึ่งประกอบด้วยสินค้าแฝงอย่างน้อยหนึ่งรายการ ซึ่งเชื่อมโยงกระบวนการผลิตที่เกี่ยวข้องกับสินค้าที่สุด โดยทั่วไปจะครอบคลุมลำดับชั้นของสูตรที่เสร็จสมบูรณ์ เพื่อทำให้ภาพรวมดูง่ายขึ้น คุณสามารถล็อคกระบวนการผลิตระดับบนสุดในการแสดงผลได้ โดยการคลิก **ดู** &gt; **ล็อคเส้นทาง**ได้ เมื่อต้องการปลดล็อคกระบวนการผลิต คลิก **ดู** &gt; **ปลดล็อคกระบวนการผลิต**
+<span data-ttu-id="643b4-151">เมื่อคุณใช้โปรแกรมออกแบบสูตร เพื่อตรวจทานหรือแก้ไขสูตร ซึ่งประกอบด้วยสินค้าแฝงอย่างน้อยหนึ่งรายการ ซึ่งเชื่อมโยงกระบวนการผลิตที่เกี่ยวข้องกับสินค้าที่สุด โดยทั่วไปจะครอบคลุมลำดับชั้นของสูตรที่เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="643b4-151">When you use the formula designer to review or edit formulas that consist of one or more levels of phantoms, the route that is associated with the top item typically spans the complete formula hierarchy.</span></span> <span data-ttu-id="643b4-152">เพื่อทำให้ภาพรวมดูง่ายขึ้น คุณสามารถล็อคกระบวนการผลิตระดับบนสุดในการแสดงผลได้ โดยการคลิก **ดู** &gt; **ล็อคเส้นทาง**ได้</span><span class="sxs-lookup"><span data-stu-id="643b4-152">To simplify the overview, you can lock the top-level route in the display by clicking **View** &gt; **Lock route**.</span></span> <span data-ttu-id="643b4-153">เมื่อต้องการปลดล็อคกระบวนการผลิต คลิก **ดู** &gt; **ปลดล็อคกระบวนการผลิต**</span><span class="sxs-lookup"><span data-stu-id="643b4-153">To unlock the route, click **View** &gt; **Unlock route**.</span></span>
 
-## <a name="add-and-edit-formulas-and-formula-lines"></a>เพิ่มและแก้ไขสูตรและรายการสูตร
-ใช้ฟังก์ชัน **บรรทัด BOM** หรือ **สูตร** เพื่อแก้ไขบรรทัดสูตรหรือสูตร เมื่อคุณเลือกโหนดในแผนภูมิ ชนิดของโหนดจะกำหนดฟังก์ชันที่พร้อมใช้งาน
+## <a name="add-and-edit-formulas-and-formula-lines"></a><span data-ttu-id="643b4-154">เพิ่มและแก้ไขสูตรและรายการสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-154">Add and edit formulas and formula lines</span></span>
+<span data-ttu-id="643b4-155">ใช้ฟังก์ชัน **บรรทัด BOM** หรือ **สูตร** เพื่อแก้ไขบรรทัดสูตรหรือสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-155">Use the **BOM lines** or **Formula** functions to modify the formula lines or formula.</span></span> <span data-ttu-id="643b4-156">เมื่อคุณเลือกโหนดในแผนภูมิ ชนิดของโหนดจะกำหนดฟังก์ชันที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="643b4-156">When you select a node in the tree, the type of the node determines the functions that are available.</span></span>
 
-| ฟังก์ชัน                            | คำอธิบาย                                                                                               | ชนิดของโหนดและเงื่อนไข |
+| <span data-ttu-id="643b4-157">ฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="643b4-157">Function</span></span>                            | <span data-ttu-id="643b4-158">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="643b4-158">Description</span></span>                                                                                               | <span data-ttu-id="643b4-159">ชนิดของโหนดและเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="643b4-159">Node type and conditions</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------|
-| บรรทัด BOM &gt; แก้ไข                 | เปิดกล่องโต้ตอบซึ่งคุณสามารถแก้ไขแอททริบิวต์รายการสูตรได้                                         | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดบรรทัดสูตร |
-| บรรทัด BOM &gt; ลบ               | ลบบรรทัดสูตรออกจากรายการสูตรที่เลือก                                                          | ฟังก์ชันนี้จะพร้อมใช้งาน เมื่อมีการเลือกโหนบรรทัดสูตร และสูตรไม่ได้ถูกล็อคสำหรับการแก้ไข |
-| บรรทัด BOM &gt; เพิ่มก่อนรายการ      | เปิดกล่องโต้ตอบที่คุณสามารถเลือกผลิตภัณฑ์ย่อย เพื่อที่จะรวมไว้ก่อนบรรทัดสูตรที่เลือก     | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดบรรทัดสูตร |
-| บรรทัด BOM &gt; เพิ่มไปยังส่วนประกอบของ BOM | เปิดกล่องโต้ตอบที่คุณสามารถเลือกผลิตภัณฑ์ย่อยเพื่อที่จะรวมไว้ที่บรรทัดสุดท้ายของสูตรที่เลือก   | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดที่มีสูตรที่เลือก ถ้าไม่มีฟังก์ชันนี้ เวอร์ชันสูตรอาจหายไปสำหรับตัวแปรสินค้าที่เลือก ในกรณีนี้ คุณสามารถคลิก **สูตร** &gt; **สร้างเวอร์ชัน** เพื่อสร้างเวอร์ชันที่ขาดหายไปสำหรับโหนดที่เลือกได้ |
-| บรรทัด BOM &gt; เพิ่มหลังบรรทัด       | เปิดกล่องโต้ตอบที่คุณสามารถเลือกผลิตภัณฑ์ย่อย เพื่อที่จะรวมไว้หลังบรรทัดสูตรที่เลือก      | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดบรรทัดสูตร |
-| สูตร &gt; สร้างเวอร์ชัน         | สร้างเวอร์ชันสูตรใหม่หรือสูตรสำหรับผลิตภัณฑ์ย่อยของโหนดที่เลือก                     | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อโหนดบรรทัดของสูตรที่เลือกจะเชื่อมโยงกับสินค้าที่มีชนิดการผลิตของ **BOM** หรือ **สูตร** |
-| สูตร &gt; การคำนวณ            | เปิดกล่องโต้ตอบซึ่งคุณสามารถเรียกใช้ต้นทุนหรือการคำนวณราคาขายสำหรับการเลือกผลิตภัณฑ์ย่อย | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดที่เกี่ยวข้องกับรุ่นของสูตร |
-| สูตร &gt; ตรวจสอบ                  | ตรวจสอบความถูกต้องและเลือกสูตรที่เลือกไว้                                                                  | ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดที่เกี่ยวข้องกับรุ่นของสูตร |
+| <span data-ttu-id="643b4-160">บรรทัด BOM &gt; แก้ไข</span><span class="sxs-lookup"><span data-stu-id="643b4-160">BOM lines &gt; Edit</span></span>                 | <span data-ttu-id="643b4-161">เปิดกล่องโต้ตอบซึ่งคุณสามารถแก้ไขแอททริบิวต์รายการสูตรได้</span><span class="sxs-lookup"><span data-stu-id="643b4-161">Open a dialog box where you can edit the formula line attributes.</span></span>                                         | <span data-ttu-id="643b4-162">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดบรรทัดสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-162">This function is available when a formula line node is selected.</span></span> |
+| <span data-ttu-id="643b4-163">บรรทัด BOM &gt; ลบ</span><span class="sxs-lookup"><span data-stu-id="643b4-163">BOM lines &gt; Delete</span></span>               | <span data-ttu-id="643b4-164">ลบบรรทัดสูตรออกจากรายการสูตรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-164">Delete a formula line from the selected formula.</span></span>                                                          | <span data-ttu-id="643b4-165">ฟังก์ชันนี้จะพร้อมใช้งาน เมื่อมีการเลือกโหนบรรทัดสูตร และสูตรไม่ได้ถูกล็อคสำหรับการแก้ไข</span><span class="sxs-lookup"><span data-stu-id="643b4-165">This function is available when a formula line node is selected, and the formula isn't locked for editing.</span></span> |
+| <span data-ttu-id="643b4-166">บรรทัด BOM &gt; เพิ่มก่อนรายการ</span><span class="sxs-lookup"><span data-stu-id="643b4-166">BOM lines &gt; Add before line</span></span>      | <span data-ttu-id="643b4-167">เปิดกล่องโต้ตอบที่คุณสามารถเลือกผลิตภัณฑ์ย่อย เพื่อที่จะรวมไว้ก่อนบรรทัดสูตรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-167">Open a dialog box where you can select a product variant to include before the selected formula line.</span></span>     | <span data-ttu-id="643b4-168">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดบรรทัดสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-168">This function is available when a formula line node is selected.</span></span> |
+| <span data-ttu-id="643b4-169">บรรทัด BOM &gt; เพิ่มไปยังส่วนประกอบของ BOM</span><span class="sxs-lookup"><span data-stu-id="643b4-169">BOM lines &gt; Add to component BOM</span></span> | <span data-ttu-id="643b4-170">เปิดกล่องโต้ตอบที่คุณสามารถเลือกผลิตภัณฑ์ย่อยเพื่อที่จะรวมไว้ที่บรรทัดสุดท้ายของสูตรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-170">Open a dialog box where you can select a product variant to include at the end of the selected formula.</span></span>   | <span data-ttu-id="643b4-171">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดที่มีสูตรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-171">This function is available when the node that is selected has a selected formula.</span></span> <span data-ttu-id="643b4-172">ถ้าไม่มีฟังก์ชันนี้ เวอร์ชันสูตรอาจหายไปสำหรับตัวแปรสินค้าที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-172">If this function isn't available, a formula version might be missing for the selected item variant.</span></span> <span data-ttu-id="643b4-173">ในกรณีนี้ คุณสามารถคลิก **สูตร** &gt; **สร้างเวอร์ชัน** เพื่อสร้างเวอร์ชันที่ขาดหายไปสำหรับโหนดที่เลือกได้</span><span class="sxs-lookup"><span data-stu-id="643b4-173">In this case, you can click **Formula** &gt; **Create version** to create the missing version for the selected node.</span></span> |
+| <span data-ttu-id="643b4-174">บรรทัด BOM &gt; เพิ่มหลังบรรทัด</span><span class="sxs-lookup"><span data-stu-id="643b4-174">BOM lines &gt; Add after line</span></span>       | <span data-ttu-id="643b4-175">เปิดกล่องโต้ตอบที่คุณสามารถเลือกผลิตภัณฑ์ย่อย เพื่อที่จะรวมไว้หลังบรรทัดสูตรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-175">Open a dialog box where you can select a product variant to include after the selected formula line.</span></span>      | <span data-ttu-id="643b4-176">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดบรรทัดสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-176">This function is available when a formula line node is selected.</span></span> |
+| <span data-ttu-id="643b4-177">สูตร &gt; สร้างเวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="643b4-177">Formula &gt; Create version</span></span>         | <span data-ttu-id="643b4-178">สร้างเวอร์ชันสูตรใหม่หรือสูตรสำหรับผลิตภัณฑ์ย่อยของโหนดที่เลือก</span><span class="sxs-lookup"><span data-stu-id="643b4-178">Create a new formula version or formula for the product variant of the selected node.</span></span>                     | <span data-ttu-id="643b4-179">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อโหนดบรรทัดของสูตรที่เลือกจะเชื่อมโยงกับสินค้าที่มีชนิดการผลิตของ **BOM** หรือ **สูตร**</span><span class="sxs-lookup"><span data-stu-id="643b4-179">This function is available when the formula line node that is selected is linked to an item that has a production type of **BOM** or **Formula**.</span></span> |
+| <span data-ttu-id="643b4-180">สูตร &gt; การคำนวณ</span><span class="sxs-lookup"><span data-stu-id="643b4-180">Formula &gt; Calculation</span></span>            | <span data-ttu-id="643b4-181">เปิดกล่องโต้ตอบซึ่งคุณสามารถเรียกใช้ต้นทุนหรือการคำนวณราคาขายสำหรับการเลือกผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="643b4-181">Open a dialog box where you can run the cost or sales price calculation for the selected product variant.</span></span> | <span data-ttu-id="643b4-182">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดที่เกี่ยวข้องกับรุ่นของสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-182">This function is available when the node that is selected is related to a formula version.</span></span> |
+| <span data-ttu-id="643b4-183">สูตร &gt; ตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="643b4-183">Formula &gt; Check</span></span>                  | <span data-ttu-id="643b4-184">ตรวจสอบความถูกต้องและเลือกสูตรที่เลือกไว้</span><span class="sxs-lookup"><span data-stu-id="643b4-184">Validate and check the selected formula.</span></span>                                                                  | <span data-ttu-id="643b4-185">ฟังก์ชันนี้จะพร้อมใช้งานเมื่อมีการเลือกโหนดที่เกี่ยวข้องกับรุ่นของสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-185">This function is available when the node that is selected is related to a formula version.</span></span> |
 
-## <a name="configuring-the-tree-view"></a>การตั้งค่าคอนฟิกมุมมองแผนภูมิ
-คลิก **ตั้งค่า** เพื่อกำหนดข้อมูลที่จะปรากฏในมุมมองแผนภูมิของโปรแกรมออกแบบสูตร
+## <a name="configuring-the-tree-view"></a><span data-ttu-id="643b4-186">การตั้งค่าคอนฟิกมุมมองแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="643b4-186">Configuring the tree view</span></span>
+<span data-ttu-id="643b4-187">คลิก **ตั้งค่า** เพื่อกำหนดข้อมูลที่จะปรากฏในมุมมองแผนภูมิของโปรแกรมออกแบบสูตร</span><span class="sxs-lookup"><span data-stu-id="643b4-187">Click **Setup** to customize the information that is shown in the tree view of the formula designer.</span></span>
 
-| กลุ่มฟิลด์ | คำอธิบาย |
+| <span data-ttu-id="643b4-188">กลุ่มฟิลด์</span><span class="sxs-lookup"><span data-stu-id="643b4-188">Field group</span></span> | <span data-ttu-id="643b4-189">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="643b4-189">Description</span></span> |
 |-------------|-------------|
-| สูตรการผลิต         | ใช้กล่องกาเครื่องหมายเพื่อเลือกเงื่อนไขที่จะแสดงอยู่ในโครงสร้างแผนภูมิ ผู้ออกแบบสูตรแสดงเงื่อนไขที่เลือกบริเวณด้านล่างของแท็บทั้งสอง |
-| กระบวนการผลิต       | ใช้กล่องกาเครื่องหมายเพื่อเลือกเงื่อนไขที่จะแสดงอยู่ในกระบวนการผลิต |
+| <span data-ttu-id="643b4-190">สูตรการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-190">BOM</span></span>         | <span data-ttu-id="643b4-191">ใช้กล่องกาเครื่องหมายเพื่อเลือกเงื่อนไขที่จะแสดงอยู่ในโครงสร้างแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="643b4-191">Use the check boxes to select the criteria that are shown in the tree structure.</span></span> <span data-ttu-id="643b4-192">ผู้ออกแบบสูตรแสดงเงื่อนไขที่เลือกบริเวณด้านล่างของแท็บทั้งสอง</span><span class="sxs-lookup"><span data-stu-id="643b4-192">The formula designer shows the selected criteria at the bottom of both tabs.</span></span> |
+| <span data-ttu-id="643b4-193">กระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-193">Route</span></span>       | <span data-ttu-id="643b4-194">ใช้กล่องกาเครื่องหมายเพื่อเลือกเงื่อนไขที่จะแสดงอยู่ในกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="643b4-194">Use the check boxes to select the criteria that are shown for the routes.</span></span> |
 

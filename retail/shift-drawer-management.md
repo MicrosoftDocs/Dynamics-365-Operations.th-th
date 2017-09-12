@@ -19,84 +19,84 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 72f73404f99330c3ff8b23dabed78477a0cd30cd
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="shift-and-cash-drawer-management"></a>การบริหารจัดการกะและลิ้นชักเงินสด
+# <a name="shift-and-cash-drawer-management"></a><span data-ttu-id="f51ff-104">การบริหารจัดการกะและลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="f51ff-104">Shift and cash drawer management</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-บทความนี้อธิบายวิธีการตั้งค่าและการใช้กะการขายหน้าร้านแบบขายปลีก (POS) สองชนิด ซึ่งได้แก่ แบบสแตนด์อโลน และที่ใช้ร่วมกัน กะที่ใช้ร่วมกันสามารถใช้ได้โดยผู้ใช้หลายคนในสถานที่หลายแห่ง ในขณะที่กะแบบสแตนด์อโลนสามารถใช้ได้โดยผู้ปฏิบัติงานเดียวเท่านั้นในแต่ละครั้ง
+<span data-ttu-id="f51ff-105">บทความนี้อธิบายวิธีการตั้งค่าและการใช้กะการขายหน้าร้านแบบขายปลีก (POS) สองชนิด ซึ่งได้แก่ แบบสแตนด์อโลน และที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-105">This article explains how to set up and use the two types of retail point of sale (POS) shifts -  shared and stand-alone.</span></span> <span data-ttu-id="f51ff-106">กะที่ใช้ร่วมกันสามารถใช้ได้โดยผู้ใช้หลายคนในสถานที่หลายแห่ง ในขณะที่กะแบบสแตนด์อโลนสามารถใช้ได้โดยผู้ปฏิบัติงานเดียวเท่านั้นในแต่ละครั้ง</span><span class="sxs-lookup"><span data-stu-id="f51ff-106">Shared shifts can be used by multiple users in multiple places, whereas stand-alone shifts can be used by only one worker at a time.</span></span>
 
-กะการขายหน้าร้านแบบขายปลีก (POS) มีสองชนิด ได้แก่ แบบสแตนด์อโลน และที่ใช้ร่วมกัน กะแบบสแตนด์อโลนสามารถใช้ได้โดยผู้ปฏิบัติงานคนเดียวเท่านั้นในแต่ละครั้ง กะที่ใช้ร่วมกันสามารถใช้ได้โดยผู้ใช้หลายคนในสถานที่หลายแห่ง ดังนั้น พวกเขาจึงสามารถสร้างกะเดียวสำหรับผู้ปฏิบัติงานหลายรายในร้านค้าเดียวได้อย่างมีประสิทธิภาพ
+<span data-ttu-id="f51ff-107">กะการขายหน้าร้านแบบขายปลีก (POS) มีสองชนิด ได้แก่ แบบสแตนด์อโลน และที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-107">There are two types of retail point of sale (POS) shifts: stand-alone and shared.</span></span> <span data-ttu-id="f51ff-108">กะแบบสแตนด์อโลนสามารถใช้ได้โดยผู้ปฏิบัติงานคนเดียวเท่านั้นในแต่ละครั้ง</span><span class="sxs-lookup"><span data-stu-id="f51ff-108">Stand-alone shifts can be used by only one worker at a time.</span></span> <span data-ttu-id="f51ff-109">กะที่ใช้ร่วมกันสามารถใช้ได้โดยผู้ใช้หลายคนในสถานที่หลายแห่ง</span><span class="sxs-lookup"><span data-stu-id="f51ff-109">Shared shifts can be used by multiple users in multiple places.</span></span> <span data-ttu-id="f51ff-110">ดังนั้น พวกเขาจึงสามารถสร้างกะเดียวสำหรับผู้ปฏิบัติงานหลายรายในร้านค้าเดียวได้อย่างมีประสิทธิภาพ</span><span class="sxs-lookup"><span data-stu-id="f51ff-110">Therefore, they effectively create a single shift for multiple workers in a store.</span></span>
 
-## <a name="standalone-shifts"></a>กะแบบสแตนด์อโลน
-กะแบบสแตนด์อโลนจะใช้ในสถานการณ์สมมติ POS ดั้งเดิมแบบถาวรซึ่งมีการกระทบยอดเงินสดโดยอิสระสำหรับเครื่องบันทึกเงินสด POS แต่ละเครื่อง ตัวอย่างเช่น ในร้านค้าขายของชำ โดยปกติจะมีเครื่องบันทึกเงินสด POS แบบถาวรหลายเครื่อง และมอบหมายพนักงานเก็บเงินหนี่งคนสำหรับแต่ละเครื่อง ในกรณีนี้ เครื่องบันทึกเงินสดแต่ละเครื่องมีแนวโน้มที่จะใช้กะแบบสแตนด์อโลน และพนักงานเก็บเงินจะมีหน้าที่รับผิดชอบลิ้นชักเก็บเงินและเงินสดในเครื่องนั้นๆ กะแบบสแตนด์อโลนครอบคลุมกิจกรรมทั้งหมดในเครื่องบันทึกเงินสดในระหว่างกะการทำงานของพนักงานเก็บเงิน กิจกรรมต่างๆ รวมถึงยอดเงินคงค้างที่เก็บไว้ในลิ้นชักเก็บเงิน การนำออกและการเพิ่มเงินสดผ่านการดำเนินการต่างๆ เช่น การนำเข้าธนาคารหรือการป้อนข้อมูลเศษเงินทอน และการตรวจนับเงินเมื่อสิ้นสุดกะ
+## <a name="standalone-shifts"></a><span data-ttu-id="f51ff-111">กะแบบสแตนด์อโลน</span><span class="sxs-lookup"><span data-stu-id="f51ff-111">Standalone shifts</span></span>
+<span data-ttu-id="f51ff-112">กะแบบสแตนด์อโลนจะใช้ในสถานการณ์สมมติ POS ดั้งเดิมแบบถาวรซึ่งมีการกระทบยอดเงินสดโดยอิสระสำหรับเครื่องบันทึกเงินสด POS แต่ละเครื่อง</span><span class="sxs-lookup"><span data-stu-id="f51ff-112">Stand-alone shifts are used in a traditional, fixed POS scenario, where cash is reconciled independently for each POS register.</span></span> <span data-ttu-id="f51ff-113">ตัวอย่างเช่น ในร้านค้าขายของชำ โดยปกติจะมีเครื่องบันทึกเงินสด POS แบบถาวรหลายเครื่อง และมอบหมายพนักงานเก็บเงินหนี่งคนสำหรับแต่ละเครื่อง</span><span class="sxs-lookup"><span data-stu-id="f51ff-113">For example, in a grocery store setting, there are typically several fixed POS registers, and a cashier is assigned to each register.</span></span> <span data-ttu-id="f51ff-114">ในกรณีนี้ เครื่องบันทึกเงินสดแต่ละเครื่องมีแนวโน้มที่จะใช้กะแบบสแตนด์อโลน และพนักงานเก็บเงินจะมีหน้าที่รับผิดชอบลิ้นชักเก็บเงินและเงินสดในเครื่องนั้นๆ</span><span class="sxs-lookup"><span data-stu-id="f51ff-114">In this case, each register likely uses a stand-alone shift, and the cashier is responsible for the till or physical cash at that register.</span></span> <span data-ttu-id="f51ff-115">กะแบบสแตนด์อโลนครอบคลุมกิจกรรมทั้งหมดในเครื่องบันทึกเงินสดในระหว่างกะการทำงานของพนักงานเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="f51ff-115">A stand-alone shift encompasses all the activity on that register during the cashier’s work shift.</span></span> <span data-ttu-id="f51ff-116">กิจกรรมต่างๆ รวมถึงยอดเงินคงค้างที่เก็บไว้ในลิ้นชักเก็บเงิน การนำออกและการเพิ่มเงินสดผ่านการดำเนินการต่างๆ เช่น การนำเข้าธนาคารหรือการป้อนข้อมูลเศษเงินทอน และการตรวจนับเงินเมื่อสิ้นสุดกะ</span><span class="sxs-lookup"><span data-stu-id="f51ff-116">Activities can include the opening amount that is deposited in the till, all removal and addition of cash through operations such as bank drops and float entry, and the tender declaration at the end of the shift.</span></span>
 
-### <a name="set-up-a-stand-alone-shift"></a>ติดตั้งกะแบบสแตนด์อโลน
+### <a name="set-up-a-stand-alone-shift"></a><span data-ttu-id="f51ff-117">ติดตั้งกะแบบสแตนด์อโลน</span><span class="sxs-lookup"><span data-stu-id="f51ff-117">Set up a stand-alone shift</span></span>
 
-กะแบบสแตนด์อโลนถูกกำหนดที่ระดับลิ้นชักเงินสด ขั้นตอนนี้อธิบายวิธีการตั้งค่ากะแบบสแตนด์อโลนบนเครื่องบันทึกเงินสด POS
+<span data-ttu-id="f51ff-118">กะแบบสแตนด์อโลนถูกกำหนดที่ระดับลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="f51ff-118">A stand-alone shift is designated at the cash drawer level.</span></span> <span data-ttu-id="f51ff-119">ขั้นตอนนี้อธิบายวิธีการตั้งค่ากะแบบสแตนด์อโลนบนเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="f51ff-119">This procedure explains how to set up a stand-alone shift on a POS register.</span></span>
 
-1.  คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**
-2.  เลือกโพรไฟล์ฮาร์ดแวร์ที่จะใช้สำหรับกะแบบสแตนด์อโลน
-3.  บน FastTab **ลิ้นชัก** ตรวจสอบว่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** ถูกตั้งค่าเป็น **ไม่ใช่**
-4.  คลิก **บันทึก**
-5.  คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**
-6.  เลือกเครื่องบันทึกเงินสดที่จำเป็นต้องใช้กะแบบสแตนด์อโลน และจากนั้น คลิก **แก้ไข**
-7.  ในฟิลด์ **โพรไฟล์ฮาร์ดแวร์** เลือกโพรไฟล์ฮาร์ดแวร์ที่คุณเลือกในขั้นตอนที่ 2
-8.  คลิก **บันทึก**
-9.  คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
-10. เลือกการกำหนดการกระจาย **1090** และคลิก **เรียกใช้เดี๋ยวนี้** เพื่อซิงโครไนส์การเปลี่ยนแปลงกับ POS
+1.  <span data-ttu-id="f51ff-120">คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="f51ff-120">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span>
+2.  <span data-ttu-id="f51ff-121">เลือกโพรไฟล์ฮาร์ดแวร์ที่จะใช้สำหรับกะแบบสแตนด์อโลน</span><span class="sxs-lookup"><span data-stu-id="f51ff-121">Select the hardware profile to use for the stand-alone shift.</span></span>
+3.  <span data-ttu-id="f51ff-122">บน FastTab **ลิ้นชัก** ตรวจสอบว่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** ถูกตั้งค่าเป็น **ไม่ใช่**</span><span class="sxs-lookup"><span data-stu-id="f51ff-122">On the **Drawer** FastTab, confirm that the **Shared shift drawer** option is set to **No**.</span></span>
+4.  <span data-ttu-id="f51ff-123">คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="f51ff-123">Click **Save**.</span></span>
+5.  <span data-ttu-id="f51ff-124">คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="f51ff-124">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span>
+6.  <span data-ttu-id="f51ff-125">เลือกเครื่องบันทึกเงินสดที่จำเป็นต้องใช้กะแบบสแตนด์อโลน และจากนั้น คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="f51ff-125">Select the register that requires a stand-alone shift, and then click **Edit**.</span></span>
+7.  <span data-ttu-id="f51ff-126">ในฟิลด์ **โพรไฟล์ฮาร์ดแวร์** เลือกโพรไฟล์ฮาร์ดแวร์ที่คุณเลือกในขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="f51ff-126">In the **Hardware profile** field, select the hardware profile that you selected in step 2.</span></span>
+8.  <span data-ttu-id="f51ff-127">คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="f51ff-127">Click **Save**.</span></span>
+9.  <span data-ttu-id="f51ff-128">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="f51ff-128">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+10. <span data-ttu-id="f51ff-129">เลือกการกำหนดการกระจาย **1090** และคลิก **เรียกใช้เดี๋ยวนี้** เพื่อซิงโครไนส์การเปลี่ยนแปลงกับ POS</span><span class="sxs-lookup"><span data-stu-id="f51ff-129">Select the **1090** distribution schedule, and then click **Run now** to synchronize changes to the POS.</span></span>
 
-### <a name="use-a-stand-alone-shift"></a>ใช้กะแบบสแตนด์อโลน
+### <a name="use-a-stand-alone-shift"></a><span data-ttu-id="f51ff-130">ใช้กะแบบสแตนด์อโลน</span><span class="sxs-lookup"><span data-stu-id="f51ff-130">Use a stand-alone shift</span></span>
 
-1.  ลงชื่อเข้าใช้ POS
-2.  ถ้าไม่มีกะที่เปิดอยู่ เลือก **เปิดกะใหม่**
-3.  ไปที่การดำเนินงาน **ตรวจนับยอดเงินเริ่มต้น** และระบุยอดเงินสดที่ถูกเพิ่มไปยังลิ้นชักเก็บเงินเพื่อเริ่มต้นวันทำงาน
-4.  ดำเนินธุรกรรม
-5.  เมื่อสิ้นสุดวัน เลือก **ตรวจนับเงิน** เพื่อตรวจนับยอดเงินสดที่ยังคงอยู่ในลิ้นชักเงินสด
-6.  ป้อนยอดเงินสด และจากนั้นคลิก **บันทึก** เพื่อบันทึกการตรวจนับเงิน
-7.  เลือก **ปิดกะ** เพื่อปิดกะนี้
+1.  <span data-ttu-id="f51ff-131">ลงชื่อเข้าใช้ POS</span><span class="sxs-lookup"><span data-stu-id="f51ff-131">Sign in to the POS.</span></span>
+2.  <span data-ttu-id="f51ff-132">ถ้าไม่มีกะที่เปิดอยู่ เลือก **เปิดกะใหม่**</span><span class="sxs-lookup"><span data-stu-id="f51ff-132">If no shift is open, select **Open a new shift**.</span></span>
+3.  <span data-ttu-id="f51ff-133">ไปที่การดำเนินงาน **ตรวจนับยอดเงินเริ่มต้น** และระบุยอดเงินสดที่ถูกเพิ่มไปยังลิ้นชักเก็บเงินเพื่อเริ่มต้นวันทำงาน</span><span class="sxs-lookup"><span data-stu-id="f51ff-133">Go to the **Declare start amount** operation, and specify the amount of cash that is being added to the till to start the work day.</span></span>
+4.  <span data-ttu-id="f51ff-134">ดำเนินธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="f51ff-134">Perform some transactions.</span></span>
+5.  <span data-ttu-id="f51ff-135">เมื่อสิ้นสุดวัน เลือก **ตรวจนับเงิน** เพื่อตรวจนับยอดเงินสดที่ยังคงอยู่ในลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="f51ff-135">At the end of the day, select **Declare tender** to declare the amount of cash that remains in the cash drawer.</span></span>
+6.  <span data-ttu-id="f51ff-136">ป้อนยอดเงินสด และจากนั้นคลิก **บันทึก** เพื่อบันทึกการตรวจนับเงิน</span><span class="sxs-lookup"><span data-stu-id="f51ff-136">Enter the amount of cash, and then click **Save** to save the tender declaration.</span></span>
+7.  <span data-ttu-id="f51ff-137">เลือก **ปิดกะ** เพื่อปิดกะนี้</span><span class="sxs-lookup"><span data-stu-id="f51ff-137">Select **Close shift** to close the shift.</span></span>
 
-**หมายเหตุ:** การดำเนินการอื่นๆ จะพร้อมใช้งานในระหว่างกะโดยขึ้นอยู่กับกระบวนการทางธุรกิจที่พร้อมใช้ การดำเนินงาน **การนำเงินฝากเข้าเซฟ** **การนำเงินฝากเข้าธนาคาร** และ **การเอาเงินออก** สามารถใช้เพื่อนำเงินออกจากลิ้นชักเก็บเงินในระหว่างวัน หรือ ก่อนปิดกะได้ ถ้าลิ้นชักเก็บเงินมีเงินสดจำนวนน้อย สามารถดำเนินการ **ป้อนข้อมูลเศษเงินทอน** เพื่อเพิ่มเงินสดในลิ้นชักเก็บเงินได้
+<span data-ttu-id="f51ff-138">**หมายเหตุ:** การดำเนินการอื่นๆ จะพร้อมใช้งานในระหว่างกะโดยขึ้นอยู่กับกระบวนการทางธุรกิจที่พร้อมใช้</span><span class="sxs-lookup"><span data-stu-id="f51ff-138">**Note:** Other operations are available during the shift, depending on the business processes that are in place.</span></span> <span data-ttu-id="f51ff-139">การดำเนินงาน **การนำเงินฝากเข้าเซฟ** **การนำเงินฝากเข้าธนาคาร** และ **การเอาเงินออก** สามารถใช้เพื่อนำเงินออกจากลิ้นชักเก็บเงินในระหว่างวัน หรือ ก่อนปิดกะได้</span><span class="sxs-lookup"><span data-stu-id="f51ff-139">The **Safe drop**, **Bank drop**, and **Tender removal** operations can be used to remove money from the till during the day or before the shift is closed.</span></span> <span data-ttu-id="f51ff-140">ถ้าลิ้นชักเก็บเงินมีเงินสดจำนวนน้อย สามารถดำเนินการ **ป้อนข้อมูลเศษเงินทอน** เพื่อเพิ่มเงินสดในลิ้นชักเก็บเงินได้</span><span class="sxs-lookup"><span data-stu-id="f51ff-140">If a till runs low on cash, the **Float entry** operation can be used to add cash to the till.</span></span>
 
-## <a name="shared-shifts"></a>กะที่ใช้ร่วมกัน
-กะที่ใช้ร่วมกันจะใช้ในสภาพแวดล้อมที่พนักงานเก็บเงินหลายคนใช้ลิ้นชักเงินสดหรือชุดของลิ้นชักเงินสดร่วมกันตลอดทั้งวันทำงาน โดยปกติ กะที่ใช้ร่วมกันจะใช้ในสภาพแวดล้อม POS แบบเคลื่อนที่ ในสภาพแวดล้อมแบบเคลื่อนที่ พนักงานเก็บเงินแต่ละคนจะไม่ถูกมอบหมายและรับผิดชอบลิ้นชักเงินสดเดียว แต่พนักงานเก็บเงินทั้งหมดจะต้องสามารถชำระเงินการขาย และเพิ่มเงินสดลงในลิ้นชักเงินสดใดก็ตามที่อยู่ใกล้ตนที่สุด ในสถานการณ์สมมตินี้ ลิ้นชักเงินสดที่ใช้ร่วมกันระหว่างพนักงานเก็บเงินจะรวมอยู่ในกะที่ใช้ร่วมกัน ลิ้นชักเงินสดทั้งหมดในกะที่ใช้ร่วมกันจะรวมอยู่ในกะเดียวกันเพื่อวัตถุประสงค์ของกิจกรรมที่เกี่ยวข้องกับการจัดการเงินสดสำหรับกะนั้น ดังนั้น ยอดเงินเริ่มต้นสำหรับกะควรรวมผลรวมของเงินสดทั้งหมดในลิ้นชักเงินสดทั้งหมดที่อยู่ในกะที่ใช้ร่วมกัน เช่นเดียวกัน การตรวจนับเงินจะเป็นผลรวมของเงินสดทั้งหมดในลิ้นชักเงินสดทั้งหมดที่อยู่ในกะที่ใช้ร่วมกัน **หมายเหตุ:** แต่ละร้านสามารถเปิดกะที่ใช้ร่วมกันได้เพียงหนี่งกะในแต่ละครั้ง สามารถใช้กะที่ใช้ร่วมกันและกะแบบสแตนด์อโลนได้ในร้านค้าเดียวกัน
+## <a name="shared-shifts"></a><span data-ttu-id="f51ff-141">กะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-141">Shared shifts</span></span>
+<span data-ttu-id="f51ff-142">กะที่ใช้ร่วมกันจะใช้ในสภาพแวดล้อมที่พนักงานเก็บเงินหลายคนใช้ลิ้นชักเงินสดหรือชุดของลิ้นชักเงินสดร่วมกันตลอดทั้งวันทำงาน</span><span class="sxs-lookup"><span data-stu-id="f51ff-142">A shared shift is used in an environment where multiple cashiers share a cash drawer or a set of cash drawers throughout the work day.</span></span> <span data-ttu-id="f51ff-143">โดยปกติ กะที่ใช้ร่วมกันจะใช้ในสภาพแวดล้อม POS แบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="f51ff-143">Typically, a shared shift is used in mobile POS environments.</span></span> <span data-ttu-id="f51ff-144">ในสภาพแวดล้อมแบบเคลื่อนที่ พนักงานเก็บเงินแต่ละคนจะไม่ถูกมอบหมายและรับผิดชอบลิ้นชักเงินสดเดียว</span><span class="sxs-lookup"><span data-stu-id="f51ff-144">In a mobile environment, each cashier isn’t assigned to and responsible for a single cash drawer.</span></span> <span data-ttu-id="f51ff-145">แต่พนักงานเก็บเงินทั้งหมดจะต้องสามารถชำระเงินการขาย และเพิ่มเงินสดลงในลิ้นชักเงินสดใดก็ตามที่อยู่ใกล้ตนที่สุด</span><span class="sxs-lookup"><span data-stu-id="f51ff-145">Instead, all cashiers must be able to tender a sale and add cash to whatever cash drawer is closest to them.</span></span> <span data-ttu-id="f51ff-146">ในสถานการณ์สมมตินี้ ลิ้นชักเงินสดที่ใช้ร่วมกันระหว่างพนักงานเก็บเงินจะรวมอยู่ในกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-146">In this scenario, the cash drawers that are shared among cashiers are included in a shared shift.</span></span> <span data-ttu-id="f51ff-147">ลิ้นชักเงินสดทั้งหมดในกะที่ใช้ร่วมกันจะรวมอยู่ในกะเดียวกันเพื่อวัตถุประสงค์ของกิจกรรมที่เกี่ยวข้องกับการจัดการเงินสดสำหรับกะนั้น</span><span class="sxs-lookup"><span data-stu-id="f51ff-147">All the cash drawers in a shared shift are included in the same shift for the purpose of activities that are related to cash management for that shift.</span></span> <span data-ttu-id="f51ff-148">ดังนั้น ยอดเงินเริ่มต้นสำหรับกะควรรวมผลรวมของเงินสดทั้งหมดในลิ้นชักเงินสดทั้งหมดที่อยู่ในกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-148">Therefore, the starting amount for the shift should include the sum of all cash in all the cash drawers that are included in the shared shift.</span></span> <span data-ttu-id="f51ff-149">เช่นเดียวกัน การตรวจนับเงินจะเป็นผลรวมของเงินสดทั้งหมดในลิ้นชักเงินสดทั้งหมดที่อยู่ในกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-149">Likewise, the tender declaration will be the sum of all the cash in all the cash drawers that are included in the shared shift.</span></span> <span data-ttu-id="f51ff-150">**หมายเหตุ:** แต่ละร้านสามารถเปิดกะที่ใช้ร่วมกันได้เพียงหนี่งกะในแต่ละครั้ง</span><span class="sxs-lookup"><span data-stu-id="f51ff-150">**Note:** Only one shared shift can be open at a time in each store.</span></span> <span data-ttu-id="f51ff-151">สามารถใช้กะที่ใช้ร่วมกันและกะแบบสแตนด์อโลนได้ในร้านค้าเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-151">Shared shifts and stand-alone shifts can be used in the same store.</span></span>
 
-### <a name="set-up-a-shared-shift"></a>ตั้งค่ากะที่ใช้ร่วมกัน
+### <a name="set-up-a-shared-shift"></a><span data-ttu-id="f51ff-152">ตั้งค่ากะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-152">Set up a shared shift</span></span>
 
-1.  คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**
-2.  เลือกโพรไฟล์ฮาร์ดแวร์ที่จะใช้สำหรับกะที่ใช้ร่วมกัน
-3.  บน FastTab **ลิ้นชัก** ตั้งค่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** เป็น **ใช่**
-4.  คลิก **บันทึก**
-5.  คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**
-6.  เลือกเครื่องบันทึกเงินสดที่จำเป็นต้องใช้กะที่ใช้ร่วมกัน และจากนั้น คลิก **แก้ไข**
-7.  ในฟิลด์ **โพรไฟล์ฮาร์ดแวร์** เลือกโพรไฟล์ฮาร์ดแวร์ที่คุณเลือกในขั้นตอนที่ 2
-8.  คลิก **บันทึก**
-9.  คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
-10. เลือกการกำหนดการกระจาย **1090** และคลิก **เรียกใช้เดี๋ยวนี้** เพื่อซิงโครไนส์การเปลี่ยนแปลงกับ POS
+1.  <span data-ttu-id="f51ff-153">คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="f51ff-153">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span>
+2.  <span data-ttu-id="f51ff-154">เลือกโพรไฟล์ฮาร์ดแวร์ที่จะใช้สำหรับกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-154">Select the hardware profile to use for the shared shift.</span></span>
+3.  <span data-ttu-id="f51ff-155">บน FastTab **ลิ้นชัก** ตั้งค่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="f51ff-155">On the **Drawer** FastTab, set the **Shared shift drawer** option to **Yes**.</span></span>
+4.  <span data-ttu-id="f51ff-156">คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="f51ff-156">Click **Save**.</span></span>
+5.  <span data-ttu-id="f51ff-157">คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="f51ff-157">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span>
+6.  <span data-ttu-id="f51ff-158">เลือกเครื่องบันทึกเงินสดที่จำเป็นต้องใช้กะที่ใช้ร่วมกัน และจากนั้น คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="f51ff-158">Select the register that requires a shared shift, and then click **Edit**.</span></span>
+7.  <span data-ttu-id="f51ff-159">ในฟิลด์ **โพรไฟล์ฮาร์ดแวร์** เลือกโพรไฟล์ฮาร์ดแวร์ที่คุณเลือกในขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="f51ff-159">In the **Hardware profile** field, select the hardware profile that you selected in step 2.</span></span>
+8.  <span data-ttu-id="f51ff-160">คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="f51ff-160">Click **Save**.</span></span>
+9.  <span data-ttu-id="f51ff-161">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="f51ff-161">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+10. <span data-ttu-id="f51ff-162">เลือกการกำหนดการกระจาย **1090** และคลิก **เรียกใช้เดี๋ยวนี้** เพื่อซิงโครไนส์การเปลี่ยนแปลงกับ POS</span><span class="sxs-lookup"><span data-stu-id="f51ff-162">Select the **1090** distribution schedule, and then click **Run now** to synchronize changes to the POS.</span></span>
 
-### <a name="use-a-shared-shift"></a>ใช้กะที่ใช้ร่วมกัน
+### <a name="use-a-shared-shift"></a><span data-ttu-id="f51ff-163">ใช้กะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-163">Use a shared shift</span></span>
 
-1.  ลงชื่อเข้าใช้ POS
-2.  ถ้า POS ยังไม่ได้เชื่อมต่อกับสถานีฮาร์ดแวร์ เลือก **การดำเนินการโดยไม่มีลิ้นชัก** จากนั้นเลือกการดำเนินการ **เลือกสถานีฮาร์ดแวร์** เพื่อทำให้สถานีฮาร์ดแวร์ใช้งานสำหรับกะที่ใช้ร่วมกัน ขั้นตอนนี้จำเป็นเฉพาะในครั้งแรกที่เครื่องบันทึกเงินสดถูกเพิ่มลงในสภาพแวดล้อมแบบกะที่ใช้ร่วมกัน
-3.  ลงชื่อออกจาก POS และจากนั้น เข้าสู่ระบบกลับเข้าไปใหม่
-4.  เลือก **สร้างกะใหม่**
-5.  เลือก **ตรวจนับยอดเงินเริ่มต้น**
-6.  ป้อนยอดเงินเริ่มต้นของลิ้นชักเงินสดในร้านค้าที่เป็นส่วนหนึ่งของกะที่ใช้ร่วมกัน และจากนั้น คลิก **บันทึก**
-    -   เมื่อต้องการเพิ่มส่วนหนึ่งของยอดเงินเริ่มต้นในแต่ละลิ้นชักเงินสดในเวลาต่อมา ใช้การดำเนินการ **เลือกสถานีฮาร์ดแวร์** เพื่อทำให้อุปกรณ์ฮาร์ดแวร์ใช้งาน
-    -   เมื่อต้องการเพิ่มลิ้นชักเก็บเงินที่เฉพาะเจาะจง ใช้การดำเนินการ **เปิดลิ้นชัก**
-    -   ทำต่อไปจนกว่าลิ้นชักเงินสดทั้งหมดในกะที่ใช้ร่วมกันมีส่วนหนึ่งของยอดเงินเริ่มต้น
+1.  <span data-ttu-id="f51ff-164">ลงชื่อเข้าใช้ POS</span><span class="sxs-lookup"><span data-stu-id="f51ff-164">Sign in to the POS.</span></span>
+2.  <span data-ttu-id="f51ff-165">ถ้า POS ยังไม่ได้เชื่อมต่อกับสถานีฮาร์ดแวร์ เลือก **การดำเนินการโดยไม่มีลิ้นชัก** จากนั้นเลือกการดำเนินการ **เลือกสถานีฮาร์ดแวร์** เพื่อทำให้สถานีฮาร์ดแวร์ใช้งานสำหรับกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-165">If the POS isn’t yet connected to a hardware station, select **Non-drawer operation**, and then select the **Select hardware station** operation to make a hardware station active for the shared shift.</span></span> <span data-ttu-id="f51ff-166">ขั้นตอนนี้จำเป็นเฉพาะในครั้งแรกที่เครื่องบันทึกเงินสดถูกเพิ่มลงในสภาพแวดล้อมแบบกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-166">This step is required only the first time that a register is added to a shared shift environment.</span></span>
+3.  <span data-ttu-id="f51ff-167">ลงชื่อออกจาก POS และจากนั้น เข้าสู่ระบบกลับเข้าไปใหม่</span><span class="sxs-lookup"><span data-stu-id="f51ff-167">Sign out of the POS, and then sign back in.</span></span>
+4.  <span data-ttu-id="f51ff-168">เลือก **สร้างกะใหม่**</span><span class="sxs-lookup"><span data-stu-id="f51ff-168">Select **Create a new shift**.</span></span>
+5.  <span data-ttu-id="f51ff-169">เลือก **ตรวจนับยอดเงินเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="f51ff-169">Select **Declare start amount**.</span></span>
+6.  <span data-ttu-id="f51ff-170">ป้อนยอดเงินเริ่มต้นของลิ้นชักเงินสดในร้านค้าที่เป็นส่วนหนึ่งของกะที่ใช้ร่วมกัน และจากนั้น คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="f51ff-170">Enter the starting amount of all the cash drawers in the store that are part of the shared shift, and then click **Save**.</span></span>
+    -   <span data-ttu-id="f51ff-171">เมื่อต้องการเพิ่มส่วนหนึ่งของยอดเงินเริ่มต้นในแต่ละลิ้นชักเงินสดในเวลาต่อมา ใช้การดำเนินการ **เลือกสถานีฮาร์ดแวร์** เพื่อทำให้อุปกรณ์ฮาร์ดแวร์ใช้งาน</span><span class="sxs-lookup"><span data-stu-id="f51ff-171">To add part of the starting amount to each subsequent cash drawer, use the **Select hardware station** operation to make the hardware station active.</span></span>
+    -   <span data-ttu-id="f51ff-172">เมื่อต้องการเพิ่มลิ้นชักเก็บเงินที่เฉพาะเจาะจง ใช้การดำเนินการ **เปิดลิ้นชัก**</span><span class="sxs-lookup"><span data-stu-id="f51ff-172">To add a till to a specific cash drawer, use the **Open drawer** operation.</span></span>
+    -   <span data-ttu-id="f51ff-173">ทำต่อไปจนกว่าลิ้นชักเงินสดทั้งหมดในกะที่ใช้ร่วมกันมีส่วนหนึ่งของยอดเงินเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="f51ff-173">Continue until all cash drawers in the shared shift have their part of the starting amount.</span></span>
 
-7.  เมื่อสิ้นสุดวัน เปิดลิ้นชักเงินสดแต่ละเครื่อง และเอาเงินสดออก
-8.  หลังจากที่คุณได้เอาเงินสดออกจากลิ้นชักเงินสดสุดท้ายแล้ว ตรวจนับเงินสดทั้งหมดจากลิ้นชักเงินสดทั้งหมด
-9.  ใช้การดำเนินการ **ตรวจนับเงิน** เพื่อระบุยอดเงินรวมของเงินสดจากลิ้นชักเงินสดทั้งหมดที่อยู่ในกะที่ใช้ร่วมกัน
-10. ใช้การดำเนินการ **ปิดกะ** เพื่อปิดกะที่ใช้ร่วมกัน
+7.  <span data-ttu-id="f51ff-174">เมื่อสิ้นสุดวัน เปิดลิ้นชักเงินสดแต่ละเครื่อง และเอาเงินสดออก</span><span class="sxs-lookup"><span data-stu-id="f51ff-174">At the end of the day, open each cash drawer, and remove the cash.</span></span>
+8.  <span data-ttu-id="f51ff-175">หลังจากที่คุณได้เอาเงินสดออกจากลิ้นชักเงินสดสุดท้ายแล้ว ตรวจนับเงินสดทั้งหมดจากลิ้นชักเงินสดทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="f51ff-175">After you’ve removed the cash from the last cash drawer, count all the cash from all the cash drawers.</span></span>
+9.  <span data-ttu-id="f51ff-176">ใช้การดำเนินการ **ตรวจนับเงิน** เพื่อระบุยอดเงินรวมของเงินสดจากลิ้นชักเงินสดทั้งหมดที่อยู่ในกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-176">Use the **Declare tender** operation to declare the total amount of cash from all the cash drawers that are included in the shared shift.</span></span>
+10. <span data-ttu-id="f51ff-177">ใช้การดำเนินการ **ปิดกะ** เพื่อปิดกะที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="f51ff-177">Use the **Close shift** operation to close the shared shift.</span></span>
 
 
 

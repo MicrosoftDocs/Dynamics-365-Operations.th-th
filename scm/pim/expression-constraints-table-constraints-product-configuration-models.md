@@ -17,7 +17,7 @@ ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -27,71 +27,71 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
+# <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a><span data-ttu-id="8f658-105">นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8f658-105">Expression constraints and table constraints in product configuration models</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายการใช้ข้อจำกัดนิพจน์และข้อจำกัดตาราง  ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต คุณสามารถใช้ข้อจำกัดนิพจน์หรือข้อจำกัดตาราง ขึ้นอยู่กับวิธีที่คุณต้องการสร้างข้อจำกัด 
+<span data-ttu-id="8f658-106">หัวข้อนี้อธิบายการใช้ข้อจำกัดนิพจน์และข้อจำกัดตาราง </span><span class="sxs-lookup"><span data-stu-id="8f658-106">This topic describes the use of expression constraints and table constraints.</span></span> <span data-ttu-id="8f658-107">ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="8f658-107">Constraints control the attribute values that you can select when you configure products for a sales order, sales quotation, purchase order, or production order.</span></span> <span data-ttu-id="8f658-108">คุณสามารถใช้ข้อจำกัดนิพจน์หรือข้อจำกัดตาราง ขึ้นอยู่กับวิธีที่คุณต้องการสร้างข้อจำกัด</span><span class="sxs-lookup"><span data-stu-id="8f658-108">You can use expression constraints or table constraints, depending on how you prefer to build the constraints.</span></span> 
 
-ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต คุณสามารถใช้นิพจน์ข้อจำกัดหรือข้อจำกัดตาราง ขึ้นอยู่กับว่าคุณต้องการสร้างข้อจำกัดอย่างไร
+<span data-ttu-id="8f658-109">ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="8f658-109">Constraints are used to control the attribute values that you can select when you configure products for a sales order, sales quotation, purchase order, or production order.</span></span> <span data-ttu-id="8f658-110">คุณสามารถใช้นิพจน์ข้อจำกัดหรือข้อจำกัดตาราง ขึ้นอยู่กับว่าคุณต้องการสร้างข้อจำกัดอย่างไร</span><span class="sxs-lookup"><span data-stu-id="8f658-110">You can use expression constraints or table constraints, depending on how you prefer to build the constraints.</span></span>
 
-## <a name="what-are-expression-constraints"></a>ข้อจำกัดนิพจน์คืออะไร
-ข้อจำกัดนิพจน์จะถูกกำหนดลักษณะตามนิพจน์ที่ใช้ฟังก์ชันและตัวดำเนินการคณิตศาสตร์และบูลีน มีการบันทึกข้อจำกัดนิพจน์สำหรับส่วนประกอบเฉพาะในแบบจำลองการจัดโครงแบบผลิตภัณฑ์ ไม่สามารถนำมาใช้ใหม่หรือใช้ร่วมกับส่วนประกอบอื่น อย่างไรก็ตาม ข้อจำกัดนิพจน์สำหรับส่วนประกอบสามารถอ้างอิงแอททริบิวต์ของส่วนประกอบย่อยของส่วนประกอบ
+## <a name="what-are-expression-constraints"></a><span data-ttu-id="8f658-111">ข้อจำกัดนิพจน์คืออะไร</span><span class="sxs-lookup"><span data-stu-id="8f658-111">What are expression constraints?</span></span>
+<span data-ttu-id="8f658-112">ข้อจำกัดนิพจน์จะถูกกำหนดลักษณะตามนิพจน์ที่ใช้ฟังก์ชันและตัวดำเนินการคณิตศาสตร์และบูลีน</span><span class="sxs-lookup"><span data-stu-id="8f658-112">Expression constraints are characterized by an expression that uses arithmetic and Boolean operators and functions.</span></span> <span data-ttu-id="8f658-113">มีการบันทึกข้อจำกัดนิพจน์สำหรับส่วนประกอบเฉพาะในแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8f658-113">An expression constraint is written for a specific component in a product configuration model.</span></span> <span data-ttu-id="8f658-114">ไม่สามารถนำมาใช้ใหม่หรือใช้ร่วมกับส่วนประกอบอื่น</span><span class="sxs-lookup"><span data-stu-id="8f658-114">It can't be reused by or shared with another component.</span></span> <span data-ttu-id="8f658-115">อย่างไรก็ตาม ข้อจำกัดนิพจน์สำหรับส่วนประกอบสามารถอ้างอิงแอททริบิวต์ของส่วนประกอบย่อยของส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8f658-115">However, the expression constraints for a component can reference attributes of the component's subcomponents.</span></span>
 
-## <a name="what-are-table-constraints"></a>ข้อจำกัดของตารางคืออะไร
-ข้อจำกัดตารางแสดงชุดของค่าที่อนุญาตสำหรับแอททริบิวต์เมื่อคุณจัดโครงแบบผลิตภัณฑ์ สามารถใช้คำนิยามข้อจำกัดตารางโดยทั่วไป เมื่อคุณสร้างข้อจำกัดตารางสำหรับองค์ประกอบในแบบจำลองการจัดโครงแบบผลิตภัณฑ์ คุณเลือกคำนิยามข้อจำกัดตาราง เพื่อสร้างชุดข้อมูลที่ได้รับอนุญาต เพิ่มแอททริบิวต์ของชนิดเฉพาะกับส่วนประกอบต่าง ๆ แอททริบิวต์แต่ละชนิดมีค่าระบุไว้
+## <a name="what-are-table-constraints"></a><span data-ttu-id="8f658-116">ข้อจำกัดของตารางคืออะไร</span><span class="sxs-lookup"><span data-stu-id="8f658-116">What are table constraints?</span></span>
+<span data-ttu-id="8f658-117">ข้อจำกัดตารางแสดงชุดของค่าที่อนุญาตสำหรับแอททริบิวต์เมื่อคุณจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8f658-117">Table constraints list the combinations of values that are allowed for attributes when you configure a product.</span></span> <span data-ttu-id="8f658-118">สามารถใช้คำนิยามข้อจำกัดตารางโดยทั่วไป</span><span class="sxs-lookup"><span data-stu-id="8f658-118">Table constraint definitions can be used generically.</span></span> <span data-ttu-id="8f658-119">เมื่อคุณสร้างข้อจำกัดตารางสำหรับองค์ประกอบในแบบจำลองการจัดโครงแบบผลิตภัณฑ์ คุณเลือกคำนิยามข้อจำกัดตาราง</span><span class="sxs-lookup"><span data-stu-id="8f658-119">When you create a table constraint for a component in a product configuration model, you select a table constraint definition.</span></span> <span data-ttu-id="8f658-120">เพื่อสร้างชุดข้อมูลที่ได้รับอนุญาต เพิ่มแอททริบิวต์ของชนิดเฉพาะกับส่วนประกอบต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="8f658-120">To create the combinations that are allowed, you add attributes of specific types to the components.</span></span> <span data-ttu-id="8f658-121">แอททริบิวต์แต่ละชนิดมีค่าระบุไว้</span><span class="sxs-lookup"><span data-stu-id="8f658-121">Each attribute type has a specific value.</span></span>
 
-### <a name="example-of-a-table-constraint"></a>ตัวอย่างข้อจำกัดตาราง
+### <a name="example-of-a-table-constraint"></a><span data-ttu-id="8f658-122">ตัวอย่างข้อจำกัดตาราง</span><span class="sxs-lookup"><span data-stu-id="8f658-122">Example of a table constraint</span></span>
 
-ตัวอย่างนี้แสดงว่าคุณสามารถจำกัดการตั้งค่าคอนฟิกของลำโพงเพื่อเสร็จสิ้นการ cabinet เฉพาะและ fronts ตารางแรกแสดง cabinet เสร็จสิ้นและ fronts ที่พร้อมใช้งานสำหรับการตั้งค่าคอนฟิกโดยทั่วไป ค่ากำหนดไว้สำหรับชนิดของแอททริบิวต์ **Cabinet เสร็จสิ้น**และ **grill หน้า**
+<span data-ttu-id="8f658-123">ตัวอย่างนี้แสดงว่าคุณสามารถจำกัดการตั้งค่าคอนฟิกของลำโพงเพื่อเสร็จสิ้นการ cabinet เฉพาะและ fronts</span><span class="sxs-lookup"><span data-stu-id="8f658-123">This example shows how you can limit the configuration of a speaker to specific cabinet finishes and fronts.</span></span> <span data-ttu-id="8f658-124">ตารางแรกแสดง cabinet เสร็จสิ้นและ fronts ที่พร้อมใช้งานสำหรับการตั้งค่าคอนฟิกโดยทั่วไป</span><span class="sxs-lookup"><span data-stu-id="8f658-124">The first table shows the cabinet finishes and fronts that are generally available for configuration.</span></span> <span data-ttu-id="8f658-125">ค่ากำหนดไว้สำหรับชนิดของแอททริบิวต์ **Cabinet เสร็จสิ้น**และ **grill หน้า**</span><span class="sxs-lookup"><span data-stu-id="8f658-125">The values are defined for the **Cabinet finish** and **Front grill** attribute types.</span></span>
 
-| ชนิดของแอททริบิวต์ | ค่า                      |
+| <span data-ttu-id="8f658-126">ชนิดของแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="8f658-126">Attribute type</span></span> | <span data-ttu-id="8f658-127">ค่า</span><span class="sxs-lookup"><span data-stu-id="8f658-127">Values</span></span>                      |
 |----------------|-----------------------------|
-| cabinet เสร็จสิ้น | สีดำ ไม้โอ้ค Rosewood สีขาว |
-| Grill หน้า    | สีดำ โลหะ สีขาว         |
+| <span data-ttu-id="8f658-128">cabinet เสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="8f658-128">Cabinet finish</span></span> | <span data-ttu-id="8f658-129">สีดำ ไม้โอ้ค Rosewood สีขาว</span><span class="sxs-lookup"><span data-stu-id="8f658-129">Black, Oak, Rosewood, White</span></span> |
+| <span data-ttu-id="8f658-130">Grill หน้า</span><span class="sxs-lookup"><span data-stu-id="8f658-130">Front grill</span></span>    | <span data-ttu-id="8f658-131">สีดำ โลหะ สีขาว</span><span class="sxs-lookup"><span data-stu-id="8f658-131">Black, Metal, White</span></span>         |
 
-ตารางถัดไปแสดงชุดข้อมูลที่กำหนดโดยข้อจำกัดตาราง **สีและเสร็จสิ้น** โดยการใช้ข้อจำกัดตารางนี้ คุณสามารถตั้งค่าคอนฟิกลำโพงที่มีไม้โอ้คเสร็จสิ้น และ grill เป็นสีดำ Rosewood เสร็จสิ้น และ grill เป็นสีขาว และอื่น ๆ
+<span data-ttu-id="8f658-132">ตารางถัดไปแสดงชุดข้อมูลที่กำหนดโดยข้อจำกัดตาราง **สีและเสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="8f658-132">The next table shows the combinations that are defined by the **Color and finish** table constraint.</span></span> <span data-ttu-id="8f658-133">โดยการใช้ข้อจำกัดตารางนี้ คุณสามารถตั้งค่าคอนฟิกลำโพงที่มีไม้โอ้คเสร็จสิ้น และ grill เป็นสีดำ Rosewood เสร็จสิ้น และ grill เป็นสีขาว และอื่น ๆ</span><span class="sxs-lookup"><span data-stu-id="8f658-133">By using this table constraint, you can configure a speaker that has an oak finish and a black grill, a Rosewood finish and a white grill, and so on.</span></span>
 
-| เสร็จสิ้น         | Grill                       |
+| <span data-ttu-id="8f658-134">เสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="8f658-134">Finish</span></span>         | <span data-ttu-id="8f658-135">Grill</span><span class="sxs-lookup"><span data-stu-id="8f658-135">Grill</span></span>                       |
 |----------------|-----------------------------|
-| ไม้โอ้ค            | สีดำ                       |
-| โรสวูด       | สีขาว                       |
-| สีขาว          | สีดำ                       |
-| สีขาว          | สีขาว                       |
-| สีดำ          | สีดำ                       |
-| สีดำ          | โลหะ                       | 
+| <span data-ttu-id="8f658-136">ไม้โอ้ค</span><span class="sxs-lookup"><span data-stu-id="8f658-136">Oak</span></span>            | <span data-ttu-id="8f658-137">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-137">Black</span></span>                       |
+| <span data-ttu-id="8f658-138">โรสวูด</span><span class="sxs-lookup"><span data-stu-id="8f658-138">Rosewood</span></span>       | <span data-ttu-id="8f658-139">สีขาว</span><span class="sxs-lookup"><span data-stu-id="8f658-139">White</span></span>                       |
+| <span data-ttu-id="8f658-140">สีขาว</span><span class="sxs-lookup"><span data-stu-id="8f658-140">White</span></span>          | <span data-ttu-id="8f658-141">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-141">Black</span></span>                       |
+| <span data-ttu-id="8f658-142">สีขาว</span><span class="sxs-lookup"><span data-stu-id="8f658-142">White</span></span>          | <span data-ttu-id="8f658-143">สีขาว</span><span class="sxs-lookup"><span data-stu-id="8f658-143">White</span></span>                       |
+| <span data-ttu-id="8f658-144">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-144">Black</span></span>          | <span data-ttu-id="8f658-145">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-145">Black</span></span>                       |
+| <span data-ttu-id="8f658-146">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-146">Black</span></span>          | <span data-ttu-id="8f658-147">โลหะ</span><span class="sxs-lookup"><span data-stu-id="8f658-147">Metal</span></span>                       | 
 
-คุณสามารถสร้างข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้ ดูข้อมูลเพิ่มเติม [ข้อจำกัดตารางที่ระบบกำหนดและกำหนดผู้ใช้](system-defined-user-defined-table-constraints.md)
+<span data-ttu-id="8f658-148">คุณสามารถสร้างข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="8f658-148">You can create system-defined and user-defined table constraints.</span></span> <span data-ttu-id="8f658-149">ดูข้อมูลเพิ่มเติม [ข้อจำกัดตารางที่ระบบกำหนดและกำหนดผู้ใช้](system-defined-user-defined-table-constraints.md)</span><span class="sxs-lookup"><span data-stu-id="8f658-149">For more information, see [System-defined and user-defined table constraints](system-defined-user-defined-table-constraints.md).</span></span>
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>ไวยากรณ์ใดควรใช้ในการบันทึกข้อจำกัด
-คุณต้องใช้ไวยากรณ์ Optimization Modeling Language (OML) เมื่อคุณเขียนข้อจำกัด ระบบใช้โปรแกรมแก้ปัญหาข้อจำกัด Microsoft Solver Foundation เพื่อแก้ไขข้อจำกัด
+## <a name="what-syntax-should-be-used-to-write-constraints"></a><span data-ttu-id="8f658-150">ไวยากรณ์ใดควรใช้ในการบันทึกข้อจำกัด</span><span class="sxs-lookup"><span data-stu-id="8f658-150">What syntax should be used to write constraints?</span></span>
+<span data-ttu-id="8f658-151">คุณต้องใช้ไวยากรณ์ Optimization Modeling Language (OML) เมื่อคุณเขียนข้อจำกัด</span><span class="sxs-lookup"><span data-stu-id="8f658-151">You must use Optimization Modeling Language (OML) syntax when you write constraints.</span></span> <span data-ttu-id="8f658-152">ระบบใช้โปรแกรมแก้ปัญหาข้อจำกัด Microsoft Solver Foundation เพื่อแก้ไขข้อจำกัด</span><span class="sxs-lookup"><span data-stu-id="8f658-152">The system uses Microsoft Solver Foundation constraint solver to solve the constraints.</span></span>
 
-## <a name="should-i-use-table-constraints-or-expression-constraints"></a>ฉันควรใช้ข้อจำกัดตารางหรือข้อจำกัดนิพจน์
-คุณสามารถใช้ทั้งนิพจน์ข้อจำกัดหรือข้อจำกัดตาราง ขึ้นอยู่กับว่าคุณต้องการสร้างข้อจำกัดอย่างไร คุณสร้างข้อจำกัดตารางเป็นเมทริกซ์ ในขณะที่ข้อจำกัดนิพจน์เป็นคำสั่งแต่ละรายการ เมื่อคุณจัดโครงแบบผลิตภัณฑ์ ไม่สำคัญว่าจะใช้ชนิดของข้อจำกัดใด ตัวอย่างต่อไปนี้จะแสดงความแตกต่างของสองวิธี  
+## <a name="should-i-use-table-constraints-or-expression-constraints"></a><span data-ttu-id="8f658-153">ฉันควรใช้ข้อจำกัดตารางหรือข้อจำกัดนิพจน์</span><span class="sxs-lookup"><span data-stu-id="8f658-153">Should I use table constraints or expression constraints?</span></span>
+<span data-ttu-id="8f658-154">คุณสามารถใช้ทั้งนิพจน์ข้อจำกัดหรือข้อจำกัดตาราง ขึ้นอยู่กับว่าคุณต้องการสร้างข้อจำกัดอย่างไร</span><span class="sxs-lookup"><span data-stu-id="8f658-154">You can use either expression constraints or table constraints, depending on how you prefer to build the constraints.</span></span> <span data-ttu-id="8f658-155">คุณสร้างข้อจำกัดตารางเป็นเมทริกซ์ ในขณะที่ข้อจำกัดนิพจน์เป็นคำสั่งแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="8f658-155">You build a table constraint as a matrix, whereas an expression constraint is an individual statement.</span></span> <span data-ttu-id="8f658-156">เมื่อคุณจัดโครงแบบผลิตภัณฑ์ ไม่สำคัญว่าจะใช้ชนิดของข้อจำกัดใด</span><span class="sxs-lookup"><span data-stu-id="8f658-156">When you configure a product, it doesn't matter what kind of constraint is used.</span></span> <span data-ttu-id="8f658-157">ตัวอย่างต่อไปนี้จะแสดงความแตกต่างของสองวิธี</span><span class="sxs-lookup"><span data-stu-id="8f658-157">The following example shows how the two methods differ.</span></span>  
 
-เมื่อคุณจัดโครงแบบผลิตภัณฑ์โดยใช้การตั้งค่าข้อจำกัดต่อไปนี้ ชุดข้อมูลเหล่านี้ได้รับอนุญาต:
+<span data-ttu-id="8f658-158">เมื่อคุณจัดโครงแบบผลิตภัณฑ์โดยใช้การตั้งค่าข้อจำกัดต่อไปนี้ ชุดข้อมูลเหล่านี้ได้รับอนุญาต:</span><span class="sxs-lookup"><span data-stu-id="8f658-158">When you configure a product by using the following constraint setups, these combinations are allowed:</span></span>
 
--   ผลิตภัณฑ์สีดำ และขนาด 30 หรือ 50
--   ผลิตภัณฑ์สีแดง และขนาด 20
+-   <span data-ttu-id="8f658-159">ผลิตภัณฑ์สีดำ และขนาด 30 หรือ 50</span><span class="sxs-lookup"><span data-stu-id="8f658-159">A product in the color Black, and in size 30 or 50</span></span>
+-   <span data-ttu-id="8f658-160">ผลิตภัณฑ์สีแดง และขนาด 20</span><span class="sxs-lookup"><span data-stu-id="8f658-160">A product in the color Red and in size 20</span></span>
 
-### <a name="table-constraint-setup"></a>การตั้งค่าข้อจำกัดตาราง
+### <a name="table-constraint-setup"></a><span data-ttu-id="8f658-161">การตั้งค่าข้อจำกัดตาราง</span><span class="sxs-lookup"><span data-stu-id="8f658-161">Table constraint setup</span></span>
 
-| สี | ขนาด |
+| <span data-ttu-id="8f658-162">สี</span><span class="sxs-lookup"><span data-stu-id="8f658-162">Color</span></span> | <span data-ttu-id="8f658-163">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8f658-163">Size</span></span> |
 |-------|------|
-| สีดำ | 30   |
-| สีดำ | 50   |
-| สีแดง   | 20   |
+| <span data-ttu-id="8f658-164">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-164">Black</span></span> | <span data-ttu-id="8f658-165">30</span><span class="sxs-lookup"><span data-stu-id="8f658-165">30</span></span>   |
+| <span data-ttu-id="8f658-166">สีดำ</span><span class="sxs-lookup"><span data-stu-id="8f658-166">Black</span></span> | <span data-ttu-id="8f658-167">50</span><span class="sxs-lookup"><span data-stu-id="8f658-167">50</span></span>   |
+| <span data-ttu-id="8f658-168">สีแดง</span><span class="sxs-lookup"><span data-stu-id="8f658-168">Red</span></span>   | <span data-ttu-id="8f658-169">20</span><span class="sxs-lookup"><span data-stu-id="8f658-169">20</span></span>   |
 
-### <a name="expression-constraint-setup"></a>การตั้งค่าข้อจำกัดนิพจน์
+### <a name="expression-constraint-setup"></a><span data-ttu-id="8f658-170">การตั้งค่าข้อจำกัดนิพจน์</span><span class="sxs-lookup"><span data-stu-id="8f658-170">Expression constraint setup</span></span>
 
-(สี == "ดำ" & (ขนาด == "30" | ขนาด == "50")) | (สี == "แดง" & ขนาด = "20")
+<span data-ttu-id="8f658-171">(สี == "ดำ" & (ขนาด == "30" | ขนาด == "50")) | (สี == "แดง" & ขนาด = "20")</span><span class="sxs-lookup"><span data-stu-id="8f658-171">(Color == "Black" & (size == "30" | size == "50")) | (color == "Red" & size = "20")</span></span>
 
-## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>ฉันควรใช้ตัวดำเนินการ หรือ infix สัญลักษณ์เมื่อฉันเขียนข้อจำกัดนิพจน์หรือไม่
-คุณสามารถเขียนข้อจำกัดนิพจน์ โดยใช้ทั้งตัวดำเนินการคำนำหน้าที่พร้อมใช้งาน หรือ สัญลักษณ์ infix สำหรับการดำเนินการ **Min**, **Max** และ **Abs**คุณไม่สามารถใช้สัญลักษณ์ infix ได้ ตัวดำเนินการเหล่านี้จะรวมเป็นตัวดำเนินการมาตรฐานในภาษาการเขียนโปรแกรมส่วนใหญ่
+## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a><span data-ttu-id="8f658-172">ฉันควรใช้ตัวดำเนินการ หรือ infix สัญลักษณ์เมื่อฉันเขียนข้อจำกัดนิพจน์หรือไม่</span><span class="sxs-lookup"><span data-stu-id="8f658-172">Should I use operators or infix notation when I write expression constraints?</span></span>
+<span data-ttu-id="8f658-173">คุณสามารถเขียนข้อจำกัดนิพจน์ โดยใช้ทั้งตัวดำเนินการคำนำหน้าที่พร้อมใช้งาน หรือ สัญลักษณ์ infix</span><span class="sxs-lookup"><span data-stu-id="8f658-173">You can write an expression constraint by using either the available prefix operators or infix notation.</span></span> <span data-ttu-id="8f658-174">สำหรับการดำเนินการ **Min**, **Max** และ **Abs**คุณไม่สามารถใช้สัญลักษณ์ infix ได้</span><span class="sxs-lookup"><span data-stu-id="8f658-174">For the **Min**, **Max**, and **Abs** operators, you can't use infix notation.</span></span> <span data-ttu-id="8f658-175">ตัวดำเนินการเหล่านี้จะรวมเป็นตัวดำเนินการมาตรฐานในภาษาการเขียนโปรแกรมส่วนใหญ่</span><span class="sxs-lookup"><span data-stu-id="8f658-175">These operators are included as standard operators in most programming languages.</span></span>
 
-## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>ตัวดำเนินการและสัญลักษณ์ infix ใดที่ฉันสามารถใช้เขียนข้อจำกัดนิพจน์
-ตารางต่อไปนี้แสดงรายการตัวดำเนินการและสัญลักษณ์ infix ที่คุณสามารถใช้เมื่อคุณเขียนข้อจำกัดนิพจน์สำหรับส่วนประกอบในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ ในตัวอย่างในตารางแรกนี้ แสดงวิธีการเขียนนิพจน์โดยใช้สัญลักษณ์ infix หรือตัวดำเนินการ
+## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a><span data-ttu-id="8f658-176">ตัวดำเนินการและสัญลักษณ์ infix ใดที่ฉันสามารถใช้เขียนข้อจำกัดนิพจน์</span><span class="sxs-lookup"><span data-stu-id="8f658-176">What operators and infix notation can I use when I write expression constraints?</span></span>
+<span data-ttu-id="8f658-177">ตารางต่อไปนี้แสดงรายการตัวดำเนินการและสัญลักษณ์ infix ที่คุณสามารถใช้เมื่อคุณเขียนข้อจำกัดนิพจน์สำหรับส่วนประกอบในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8f658-177">The following tables list the operators and infix notation that you can use when you write an expression constraint for a component in a product configuration model.</span></span> <span data-ttu-id="8f658-178">ในตัวอย่างในตารางแรกนี้ แสดงวิธีการเขียนนิพจน์โดยใช้สัญลักษณ์ infix หรือตัวดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="8f658-178">The examples in the first table show how to write an expression by using either infix notation or operators.</span></span>
 
 <table>
 <colgroup>
@@ -102,156 +102,156 @@ ms.lasthandoff: 07/27/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>ผู้ปฏิบัติงาน</th>
-<th>คำอธิบาย</th>
-<th>ไวยากรณ์</th>
-<th>ตัวอย่างเช่น</th>
+<th><span data-ttu-id="8f658-179">ผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="8f658-179">Operator</span></span></th>
+<th><span data-ttu-id="8f658-180">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="8f658-180">Description</span></span></th>
+<th><span data-ttu-id="8f658-181">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="8f658-181">Syntax</span></span></th>
+<th><span data-ttu-id="8f658-182">ตัวอย่างเช่น</span><span class="sxs-lookup"><span data-stu-id="8f658-182">Examples</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>บ่งชี้</td>
-<td>จะเป็นจริงหากเงื่อนไขแรกเป็นเท็จ เงื่อนไขที่สองเป็นจริง หรือทั้งสองอย่าง</td>
-<td>บ่งชี้[a, b], infix: a -: b</td>
+<td><span data-ttu-id="8f658-183">บ่งชี้</span><span class="sxs-lookup"><span data-stu-id="8f658-183">Implies</span></span></td>
+<td><span data-ttu-id="8f658-184">จะเป็นจริงหากเงื่อนไขแรกเป็นเท็จ เงื่อนไขที่สองเป็นจริง หรือทั้งสองอย่าง</span><span class="sxs-lookup"><span data-stu-id="8f658-184">This is true if the first condition is false, the second condition is true, or both.</span></span></td>
+<td><span data-ttu-id="8f658-185">บ่งชี้[a, b], infix: a -: b</span><span class="sxs-lookup"><span data-stu-id="8f658-185">Implies[a, b], infix: a -: b</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> หมายถึง [x != 0, y &gt;= 0]</li>
-<li><strong>Infix สัญลักษณ์:</strong> x != 0 -: y &gt;= 0</li>
+<li><span data-ttu-id="8f658-186"><strong>ตัวดำเนินการ:</strong> หมายถึง [x != 0, y &gt;= 0]</span><span class="sxs-lookup"><span data-stu-id="8f658-186"><strong>Operator:</strong> Implies[x != 0, y &gt;= 0]</span></span></li>
+<li><span data-ttu-id="8f658-187"><strong>Infix สัญลักษณ์:</strong> x != 0 -: y &gt;= 0</span><span class="sxs-lookup"><span data-stu-id="8f658-187"><strong>Infix notation:</strong> x != 0 -: y &gt;= 0</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>และ</td>
-<td>จะเป็นจริงหากเงื่อนไขทั้งหมดเป็นจริง ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>จริง</strong></td>
-<td>และ [args], infix: a &amp; b &amp; ... &amp; z</td>
+<td><span data-ttu-id="8f658-188">และ</span><span class="sxs-lookup"><span data-stu-id="8f658-188">And</span></span></td>
+<td><span data-ttu-id="8f658-189">จะเป็นจริงหากเงื่อนไขทั้งหมดเป็นจริง</span><span class="sxs-lookup"><span data-stu-id="8f658-189">This is true only if all conditions are true.</span></span> <span data-ttu-id="8f658-190">ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>จริง</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-190">If the number of conditions is 0 (zero), it produces <strong>True</strong>.</span></span></td>
+<td><span data-ttu-id="8f658-191">และ [args], infix: a &amp; b &amp; ... &amp; z</span><span class="sxs-lookup"><span data-stu-id="8f658-191">And[args], infix: a &amp; b &amp; ... &amp; z</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> และ [x == 2, y &lt;= 2]</li>
-<li><strong>สัญลักษณ์ Infix:</strong> x == 2 &amp; y &lt;= 2</li>
+<li><span data-ttu-id="8f658-192"><strong>ตัวดำเนินการ:</strong> และ [x == 2, y &lt;= 2]</span><span class="sxs-lookup"><span data-stu-id="8f658-192"><strong>Operator:</strong> And[x == 2, y &lt;= 2]</span></span></li>
+<li><span data-ttu-id="8f658-193"><strong>สัญลักษณ์ Infix:</strong> x == 2 &amp; y &lt;= 2</span><span class="sxs-lookup"><span data-stu-id="8f658-193"><strong>Infix notation:</strong> x == 2 &amp; y &lt;= 2</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>หรือ</td>
-<td>จะเป็นจริงหากเงื่อนไขใดๆ เป็นจริง ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>เท็จ</strong></td>
-<td>หรือ[args], infix: a | b | ... | z</td>
+<td><span data-ttu-id="8f658-194">หรือ</span><span class="sxs-lookup"><span data-stu-id="8f658-194">Or</span></span></td>
+<td><span data-ttu-id="8f658-195">จะเป็นจริงหากเงื่อนไขใดๆ เป็นจริง</span><span class="sxs-lookup"><span data-stu-id="8f658-195">This is true if any condition is true.</span></span> <span data-ttu-id="8f658-196">ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>เท็จ</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-196">If the number of conditions is 0 (zero), it produces <strong>False</strong>.</span></span></td>
+<td><span data-ttu-id="8f658-197">หรือ[args], infix: a | b | ... | z</span><span class="sxs-lookup"><span data-stu-id="8f658-197">Or[args], infix: a | b | ... | z</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> Or[x == 2, y &lt;= 2]</li>
-<li><strong>สัญลักษณ์ Infix:</strong> x == 2 | y &lt;= 2</li>
+<li><span data-ttu-id="8f658-198"><strong>ตัวดำเนินการ:</strong> Or[x == 2, y &lt;= 2]</span><span class="sxs-lookup"><span data-stu-id="8f658-198"><strong>Operator:</strong> Or[x == 2, y &lt;= 2]</span></span></li>
+<li><span data-ttu-id="8f658-199"><strong>สัญลักษณ์ Infix:</strong> x == 2 | y &lt;= 2</span><span class="sxs-lookup"><span data-stu-id="8f658-199"><strong>Infix notation:</strong> x == 2 | y &lt;= 2</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>บวก</td>
-<td>คือผลรวมเงื่อนไข ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>0</strong></td>
-<td>บวก[args], infix: a + b + ... + z</td>
+<td><span data-ttu-id="8f658-200">บวก</span><span class="sxs-lookup"><span data-stu-id="8f658-200">Plus</span></span></td>
+<td><span data-ttu-id="8f658-201">คือผลรวมเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="8f658-201">This sums its conditions.</span></span> <span data-ttu-id="8f658-202">ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>0</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-202">If the number of conditions is 0 (zero), it produces <strong>0</strong>.</span></span></td>
+<td><span data-ttu-id="8f658-203">บวก[args], infix: a + b + ... + z</span><span class="sxs-lookup"><span data-stu-id="8f658-203">Plus[args], infix: a + b + ... + z</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> บวก[x, y, 2] == z</li>
-<li><strong>สัญลักษณ์ Infix:</strong> x + y + 2 == z</li>
+<li><span data-ttu-id="8f658-204"><strong>ตัวดำเนินการ:</strong> บวก[x, y, 2] == z</span><span class="sxs-lookup"><span data-stu-id="8f658-204"><strong>Operator:</strong> Plus[x, y, 2] == z</span></span></li>
+<li><span data-ttu-id="8f658-205"><strong>สัญลักษณ์ Infix:</strong> x + y + 2 == z</span><span class="sxs-lookup"><span data-stu-id="8f658-205"><strong>Infix notation:</strong> x + y + 2 == z</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>ลบ</td>
-<td>ปฏิเสธอาร์กิวเมนต์ ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</td>
-<td>ลบ[expr], infix: -expr</td>
+<td><span data-ttu-id="8f658-206">ลบ</span><span class="sxs-lookup"><span data-stu-id="8f658-206">Minus</span></span></td>
+<td><span data-ttu-id="8f658-207">ปฏิเสธอาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="8f658-207">This negates its argument.</span></span> <span data-ttu-id="8f658-208">ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</span><span class="sxs-lookup"><span data-stu-id="8f658-208">It must have exactly one condition.</span></span></td>
+<td><span data-ttu-id="8f658-209">ลบ[expr], infix: -expr</span><span class="sxs-lookup"><span data-stu-id="8f658-209">Minus[expr], infix: -expr</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> ลบ[x] == y</li>
-<li><strong>สัญลักษณ์ Infix:</strong>-x == y</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Abs</td>
-<td>นำค่าสัมบูรณ์ของเงื่อนไข ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</td>
-<td>Abs[expr]</td>
-<td><strong>ตัวดำเนินการ:</strong> Abs[x]</td>
-</tr>
-<tr class="odd">
-<td>เวลา</td>
-<td>นำผลิตภัณฑ์ของเงื่อนไข ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>1</strong></td>
-<td>เวลา[args], infix: a * b * ... * z</td>
-<td><ul>
-<li><strong>ตัวดำเนินการ:</strong> เวลา[x, y, 2] == z</li>
-<li><strong>สัญลักษณ์ Infix:</strong> x * y * 2 == z</li>
+<li><span data-ttu-id="8f658-210"><strong>ตัวดำเนินการ:</strong> ลบ[x] == y</span><span class="sxs-lookup"><span data-stu-id="8f658-210"><strong>Operator:</strong> Minus[x] == y</span></span></li>
+<li><span data-ttu-id="8f658-211"><strong>สัญลักษณ์ Infix:</strong>-x == y</span><span class="sxs-lookup"><span data-stu-id="8f658-211"><strong>Infix notation:</strong> -x == y</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>กำลัง</td>
-<td>นำเลขชี้กำลัง มีเลขยกกำลังจากขวาไปซ้าย (กล่าวอีกอย่างหนึ่งคือ สัมพันธ์ทางขวา) ดังนั้น <strong>กำลัง [a, b, c]</strong> จะเท่ากับ <strong>กำลัง [a, กำลัง [b, c]]</strong> <strong>กำลัง</strong> สามารถใช้ได้เมื่อการยกกำลังมีค่าเป็นค่าบวกเท่านั้น</td>
-<td>กำลัง[args], infix: a ^ b ^ ... ^ z</td>
+<td><span data-ttu-id="8f658-212">Abs</span><span class="sxs-lookup"><span data-stu-id="8f658-212">Abs</span></span></td>
+<td><span data-ttu-id="8f658-213">นำค่าสัมบูรณ์ของเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="8f658-213">This takes the absolute value of its condition.</span></span> <span data-ttu-id="8f658-214">ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</span><span class="sxs-lookup"><span data-stu-id="8f658-214">It must have exactly one condition.</span></span></td>
+<td><span data-ttu-id="8f658-215">Abs[expr]</span><span class="sxs-lookup"><span data-stu-id="8f658-215">Abs[expr]</span></span></td>
+<td><span data-ttu-id="8f658-216"><strong>ตัวดำเนินการ:</strong> Abs[x]</span><span class="sxs-lookup"><span data-stu-id="8f658-216"><strong>Operator:</strong> Abs[x]</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="8f658-217">เวลา</span><span class="sxs-lookup"><span data-stu-id="8f658-217">Times</span></span></td>
+<td><span data-ttu-id="8f658-218">นำผลิตภัณฑ์ของเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="8f658-218">This takes the product of its conditions.</span></span> <span data-ttu-id="8f658-219">ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>1</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-219">If the number of conditions is 0 (zero), it produces <strong>1</strong>.</span></span></td>
+<td><span data-ttu-id="8f658-220">เวลา[args], infix: a * b * ... * z</span><span class="sxs-lookup"><span data-stu-id="8f658-220">Times[args], infix: a * b * ... * z</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> กำลัง[x, 2] == y</li>
-<li><strong>สัญลักษณ์ Infix:</strong> x ^ 2 == y</li>
+<li><span data-ttu-id="8f658-221"><strong>ตัวดำเนินการ:</strong> เวลา[x, y, 2] == z</span><span class="sxs-lookup"><span data-stu-id="8f658-221"><strong>Operator:</strong> Times[x, y, 2] == z</span></span></li>
+<li><span data-ttu-id="8f658-222"><strong>สัญลักษณ์ Infix:</strong> x * y * 2 == z</span><span class="sxs-lookup"><span data-stu-id="8f658-222"><strong>Infix notation:</strong> x * y * 2 == z</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="8f658-223">กำลัง</span><span class="sxs-lookup"><span data-stu-id="8f658-223">Power</span></span></td>
+<td><span data-ttu-id="8f658-224">นำเลขชี้กำลัง</span><span class="sxs-lookup"><span data-stu-id="8f658-224">This takes an exponential.</span></span> <span data-ttu-id="8f658-225">มีเลขยกกำลังจากขวาไปซ้าย</span><span class="sxs-lookup"><span data-stu-id="8f658-225">It applies exponentiation from right to left.</span></span> <span data-ttu-id="8f658-226">(กล่าวอีกอย่างหนึ่งคือ สัมพันธ์ทางขวา) ดังนั้น <strong>กำลัง [a, b, c]</strong> จะเท่ากับ <strong>กำลัง [a, กำลัง [b, c]]</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-226">(In other words, it's right-associative.) Therefore, <strong>Power[a, b, c]</strong> is equivalent to <strong>Power[a, Power[b, c]]</strong>.</span></span> <span data-ttu-id="8f658-227"><strong>กำลัง</strong> สามารถใช้ได้เมื่อการยกกำลังมีค่าเป็นค่าบวกเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="8f658-227"><strong>Power</strong> can be used only if the exponent is a positive constant.</span></span></td>
+<td><span data-ttu-id="8f658-228">กำลัง[args], infix: a ^ b ^ ... ^ z</span><span class="sxs-lookup"><span data-stu-id="8f658-228">Power[args], infix: a ^ b ^ ... ^ z</span></span></td>
+<td><ul>
+<li><span data-ttu-id="8f658-229"><strong>ตัวดำเนินการ:</strong> กำลัง[x, 2] == y</span><span class="sxs-lookup"><span data-stu-id="8f658-229"><strong>Operator:</strong> Power[x, 2] == y</span></span></li>
+<li><span data-ttu-id="8f658-230"><strong>สัญลักษณ์ Infix:</strong> x ^ 2 == y</span><span class="sxs-lookup"><span data-stu-id="8f658-230"><strong>Infix notation:</strong> x ^ 2 == y</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>สูงสุด</td>
-<td>ก่อให้เกิดเงื่อนไขใหญ่ที่สุด ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>อนันต์</strong></td>
-<td>สูงสุด[args]</td>
-<td><strong>ตัวดำเนินการ:</strong> ค่าสูงสุด[x, y, 2] == z</td>
+<td><span data-ttu-id="8f658-231">สูงสุด</span><span class="sxs-lookup"><span data-stu-id="8f658-231">Max</span></span></td>
+<td><span data-ttu-id="8f658-232">ก่อให้เกิดเงื่อนไขใหญ่ที่สุด</span><span class="sxs-lookup"><span data-stu-id="8f658-232">This produces the largest condition.</span></span> <span data-ttu-id="8f658-233">ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>อนันต์</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-233">If the number of conditions is 0 (zero), it produces <strong>Infinity</strong>.</span></span></td>
+<td><span data-ttu-id="8f658-234">สูงสุด[args]</span><span class="sxs-lookup"><span data-stu-id="8f658-234">Max[args]</span></span></td>
+<td><span data-ttu-id="8f658-235"><strong>ตัวดำเนินการ:</strong> ค่าสูงสุด[x, y, 2] == z</span><span class="sxs-lookup"><span data-stu-id="8f658-235"><strong>Operator:</strong> Max[x, y, 2] == z</span></span></td>
 </tr>
 <tr class="even">
-<td>ต่ำสุด</td>
-<td>ก่อให้เกิดเงื่อนไขเล็กที่สุด ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>อนันต์</strong></td>
-<td>ต่ำสุด[args]</td>
-<td><strong>ตัวดำเนินการ:</strong> ค่าต่ำสุด[x, y, 2] == z</td>
+<td><span data-ttu-id="8f658-236">ต่ำสุด</span><span class="sxs-lookup"><span data-stu-id="8f658-236">Min</span></span></td>
+<td><span data-ttu-id="8f658-237">ก่อให้เกิดเงื่อนไขเล็กที่สุด</span><span class="sxs-lookup"><span data-stu-id="8f658-237">This produces the smallest condition.</span></span> <span data-ttu-id="8f658-238">ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>อนันต์</strong></span><span class="sxs-lookup"><span data-stu-id="8f658-238">If the number of conditions is 0 (zero), it produces <strong>Infinity</strong>.</span></span></td>
+<td><span data-ttu-id="8f658-239">ต่ำสุด[args]</span><span class="sxs-lookup"><span data-stu-id="8f658-239">Min[args]</span></span></td>
+<td><span data-ttu-id="8f658-240"><strong>ตัวดำเนินการ:</strong> ค่าต่ำสุด[x, y, 2] == z</span><span class="sxs-lookup"><span data-stu-id="8f658-240"><strong>Operator:</strong> Min[x, y, 2] == z</span></span></td>
 </tr>
 <tr class="odd">
-<td>ไม่ใช่</td>
-<td>ก่อให้เกิดตัวผกผันทางตรรกะของเงื่อนไข ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</td>
-<td>ไม่[expr], infix: !expr</td>
+<td><span data-ttu-id="8f658-241">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="8f658-241">Not</span></span></td>
+<td><span data-ttu-id="8f658-242">ก่อให้เกิดตัวผกผันทางตรรกะของเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="8f658-242">This produces the logical inverse of its condition.</span></span> <span data-ttu-id="8f658-243">ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</span><span class="sxs-lookup"><span data-stu-id="8f658-243">It must have exactly one condition.</span></span></td>
+<td><span data-ttu-id="8f658-244">ไม่[expr], infix: !expr</span><span class="sxs-lookup"><span data-stu-id="8f658-244">Not[expr], infix: !expr</span></span></td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> ไม่ใช่ [x] &amp; ไม่ใช่ [y == 3]</li>
-<li><strong>สัญลักษณ์ Infix:</strong> !x!(y == 3)</li>
+<li><span data-ttu-id="8f658-245"><strong>ตัวดำเนินการ:</strong> ไม่ใช่ [x] &amp; ไม่ใช่ [y == 3]</span><span class="sxs-lookup"><span data-stu-id="8f658-245"><strong>Operator:</strong> Not[x] &amp; Not[y == 3]</span></span></li>
+<li><span data-ttu-id="8f658-246"><strong>สัญลักษณ์ Infix:</strong> !x!(y == 3)</span><span class="sxs-lookup"><span data-stu-id="8f658-246"><strong>Infix notation:</strong> !x!(y == 3)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-ตัวอย่างในตารางถัดไปแสดงวิธีการเขียนสัญลักษณ์ Infix
+<span data-ttu-id="8f658-247">ตัวอย่างในตารางถัดไปแสดงวิธีการเขียนสัญลักษณ์ Infix</span><span class="sxs-lookup"><span data-stu-id="8f658-247">The examples in the next table show how to write infix notation.</span></span>
 
-| Infix สัญลักษณ์    | คำอธิบาย                                                                                   |
+| <span data-ttu-id="8f658-248">Infix สัญลักษณ์</span><span class="sxs-lookup"><span data-stu-id="8f658-248">Infix notation</span></span>    | <span data-ttu-id="8f658-249">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="8f658-249">Description</span></span>                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | การเพิ่มขึ้น                                                                                      |
-| x \* y \* z       | คูณ                                                                                |
-| x - y             | การลบเลขฐานสองถูกแปลเหมือนกับการเพิ่มเลขฐานสองเมื่อมีวินาทีที่ปฏิเสธ |
-| x ^ y ^ z         | การยกกำลังที่มีทิศทางจากขวาไปซ้าย                                                   |
-| !x                | ไม่ใช่บูลีน                                                                                   |
-| x -: y            | การส่อความบูลีน                                                                           |
-|  x | y | z         | บูลีนหรือ                                                                                    |
-| x & y & z         | บูลีนและ                                                                                   |
-| x == y == z       | ความเท่าเทียม                                                                                      |
-| x != y != z       | ชัดเจน                                                                                      |
-| x &lt; y &lt; z   | น้อยกว่า                                                                                     |
-| x &gt; y &gt; z   | มากกว่า                                                                                  |
-| x &lt;= y &lt;= z | น้อยกว่าหรือเท่ากับ                                                                         |
-| x &gt;= y &gt;= z | มากกว่าหรือเท่ากับ                                                                      |
-| (x)               | วงเล็บแทนที่ความสำคัญเริ่มต้น                                                      |
+| <span data-ttu-id="8f658-250">x + y + z</span><span class="sxs-lookup"><span data-stu-id="8f658-250">x + y + z</span></span>         | <span data-ttu-id="8f658-251">การเพิ่มขึ้น</span><span class="sxs-lookup"><span data-stu-id="8f658-251">Addition</span></span>                                                                                      |
+| <span data-ttu-id="8f658-252">x \* y \* z</span><span class="sxs-lookup"><span data-stu-id="8f658-252">x \* y \* z</span></span>       | <span data-ttu-id="8f658-253">คูณ</span><span class="sxs-lookup"><span data-stu-id="8f658-253">Multiplication</span></span>                                                                                |
+| <span data-ttu-id="8f658-254">x - y</span><span class="sxs-lookup"><span data-stu-id="8f658-254">x - y</span></span>             | <span data-ttu-id="8f658-255">การลบเลขฐานสองถูกแปลเหมือนกับการเพิ่มเลขฐานสองเมื่อมีวินาทีที่ปฏิเสธ</span><span class="sxs-lookup"><span data-stu-id="8f658-255">Binary subtraction is translated the same as binary addition where there is a negated second.</span></span> |
+| <span data-ttu-id="8f658-256">x ^ y ^ z</span><span class="sxs-lookup"><span data-stu-id="8f658-256">x ^ y ^ z</span></span>         | <span data-ttu-id="8f658-257">การยกกำลังที่มีทิศทางจากขวาไปซ้าย</span><span class="sxs-lookup"><span data-stu-id="8f658-257">Exponentiation that has right associativity</span></span>                                                   |
+| <span data-ttu-id="8f658-258">!x</span><span class="sxs-lookup"><span data-stu-id="8f658-258">!x</span></span>                | <span data-ttu-id="8f658-259">ไม่ใช่บูลีน</span><span class="sxs-lookup"><span data-stu-id="8f658-259">Boolean not</span></span>                                                                                   |
+| <span data-ttu-id="8f658-260">x -: y</span><span class="sxs-lookup"><span data-stu-id="8f658-260">x -: y</span></span>            | <span data-ttu-id="8f658-261">การส่อความบูลีน</span><span class="sxs-lookup"><span data-stu-id="8f658-261">Boolean implication</span></span>                                                                           |
+| <span data-ttu-id="8f658-262"> x</span><span class="sxs-lookup"><span data-stu-id="8f658-262">x</span></span> | <span data-ttu-id="8f658-263">y</span><span class="sxs-lookup"><span data-stu-id="8f658-263">y</span></span> | <span data-ttu-id="8f658-264">z</span><span class="sxs-lookup"><span data-stu-id="8f658-264">z</span></span>         | <span data-ttu-id="8f658-265">บูลีนหรือ</span><span class="sxs-lookup"><span data-stu-id="8f658-265">Boolean or</span></span>                                                                                    |
+| <span data-ttu-id="8f658-266">x & y & z</span><span class="sxs-lookup"><span data-stu-id="8f658-266">x & y & z</span></span>         | <span data-ttu-id="8f658-267">บูลีนและ</span><span class="sxs-lookup"><span data-stu-id="8f658-267">Boolean and</span></span>                                                                                   |
+| <span data-ttu-id="8f658-268">x == y == z</span><span class="sxs-lookup"><span data-stu-id="8f658-268">x == y == z</span></span>       | <span data-ttu-id="8f658-269">ความเท่าเทียม</span><span class="sxs-lookup"><span data-stu-id="8f658-269">Equality</span></span>                                                                                      |
+| <span data-ttu-id="8f658-270">x != y != z</span><span class="sxs-lookup"><span data-stu-id="8f658-270">x != y != z</span></span>       | <span data-ttu-id="8f658-271">ชัดเจน</span><span class="sxs-lookup"><span data-stu-id="8f658-271">Distinct</span></span>                                                                                      |
+| <span data-ttu-id="8f658-272">x &lt; y &lt; z</span><span class="sxs-lookup"><span data-stu-id="8f658-272">x &lt; y &lt; z</span></span>   | <span data-ttu-id="8f658-273">น้อยกว่า</span><span class="sxs-lookup"><span data-stu-id="8f658-273">Less than</span></span>                                                                                     |
+| <span data-ttu-id="8f658-274">x &gt; y &gt; z</span><span class="sxs-lookup"><span data-stu-id="8f658-274">x &gt; y &gt; z</span></span>   | <span data-ttu-id="8f658-275">มากกว่า</span><span class="sxs-lookup"><span data-stu-id="8f658-275">Greater than</span></span>                                                                                  |
+| <span data-ttu-id="8f658-276">x &lt;= y &lt;= z</span><span class="sxs-lookup"><span data-stu-id="8f658-276">x &lt;= y &lt;= z</span></span> | <span data-ttu-id="8f658-277">น้อยกว่าหรือเท่ากับ</span><span class="sxs-lookup"><span data-stu-id="8f658-277">Less than or equal to</span></span>                                                                         |
+| <span data-ttu-id="8f658-278">x &gt;= y &gt;= z</span><span class="sxs-lookup"><span data-stu-id="8f658-278">x &gt;= y &gt;= z</span></span> | <span data-ttu-id="8f658-279">มากกว่าหรือเท่ากับ</span><span class="sxs-lookup"><span data-stu-id="8f658-279">Greater than or equal to</span></span>                                                                      |
+| <span data-ttu-id="8f658-280">(x)</span><span class="sxs-lookup"><span data-stu-id="8f658-280">(x)</span></span>               | <span data-ttu-id="8f658-281">วงเล็บแทนที่ความสำคัญเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8f658-281">Parentheses override default precedence.</span></span>                                                      |
 
-## <a name="why-arent-my-expression-constraints-validated-correctly"></a>เหตุใดข้อจำกัดนิพจน์ของฉันจึงถูกตรวจสอบไม่ถูกต้อง
-คุณไม่สามารถใช้คำสำคัญที่สำรองไว้เป็นชื่อโปรแกรมแก้ปัญหาแอททริบิวต์ ส่วนประกอบ หรือส่วนประกอบย่อยในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์  นี่คือรายการของคำสำคัญที่สำรองไว้ที่คุณไม่สามารถใช้:
+## <a name="why-arent-my-expression-constraints-validated-correctly"></a><span data-ttu-id="8f658-282">เหตุใดข้อจำกัดนิพจน์ของฉันจึงถูกตรวจสอบไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="8f658-282">Why aren't my expression constraints validated correctly?</span></span>
+<span data-ttu-id="8f658-283">คุณไม่สามารถใช้คำสำคัญที่สำรองไว้เป็นชื่อโปรแกรมแก้ปัญหาแอททริบิวต์ ส่วนประกอบ หรือส่วนประกอบย่อยในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="8f658-283">You can't use reserved keywords as solver names for attributes, components, or subcomponents in a product configuration model.</span></span> <span data-ttu-id="8f658-284">นี่คือรายการของคำสำคัญที่สำรองไว้ที่คุณไม่สามารถใช้:</span><span class="sxs-lookup"><span data-stu-id="8f658-284">Here is a list of the reserved keywords that you can't use:</span></span>
 
--   เพดานเงิน
--   องค์ประกอบ
--   เท่ากับ
--   ขั้นต่ำสุด
--   ถ้า
--   น้อยกว่า
--   มากกว่า
--   บ่งชี้
--   ล็อก
--   สูงสุด
--   ต่ำสุด
--   ลบ
--   บวก
--   กำลัง
--   เวลา
--   ช่อง
--   รุ่น
--   การตัดสินใจ
--   เป้าหมาย
+-   <span data-ttu-id="8f658-285">เพดานเงิน</span><span class="sxs-lookup"><span data-stu-id="8f658-285">Ceiling</span></span>
+-   <span data-ttu-id="8f658-286">องค์ประกอบ</span><span class="sxs-lookup"><span data-stu-id="8f658-286">Element</span></span>
+-   <span data-ttu-id="8f658-287">เท่ากับ</span><span class="sxs-lookup"><span data-stu-id="8f658-287">Equal</span></span>
+-   <span data-ttu-id="8f658-288">ขั้นต่ำสุด</span><span class="sxs-lookup"><span data-stu-id="8f658-288">Floor</span></span>
+-   <span data-ttu-id="8f658-289">ถ้า</span><span class="sxs-lookup"><span data-stu-id="8f658-289">If</span></span>
+-   <span data-ttu-id="8f658-290">น้อยกว่า</span><span class="sxs-lookup"><span data-stu-id="8f658-290">Less</span></span>
+-   <span data-ttu-id="8f658-291">มากกว่า</span><span class="sxs-lookup"><span data-stu-id="8f658-291">Greater</span></span>
+-   <span data-ttu-id="8f658-292">บ่งชี้</span><span class="sxs-lookup"><span data-stu-id="8f658-292">Implies</span></span>
+-   <span data-ttu-id="8f658-293">ล็อก</span><span class="sxs-lookup"><span data-stu-id="8f658-293">Log</span></span>
+-   <span data-ttu-id="8f658-294">สูงสุด</span><span class="sxs-lookup"><span data-stu-id="8f658-294">Max</span></span>
+-   <span data-ttu-id="8f658-295">ต่ำสุด</span><span class="sxs-lookup"><span data-stu-id="8f658-295">Min</span></span>
+-   <span data-ttu-id="8f658-296">ลบ</span><span class="sxs-lookup"><span data-stu-id="8f658-296">Minus</span></span>
+-   <span data-ttu-id="8f658-297">บวก</span><span class="sxs-lookup"><span data-stu-id="8f658-297">Plus</span></span>
+-   <span data-ttu-id="8f658-298">กำลัง</span><span class="sxs-lookup"><span data-stu-id="8f658-298">Power</span></span>
+-   <span data-ttu-id="8f658-299">เวลา</span><span class="sxs-lookup"><span data-stu-id="8f658-299">Times</span></span>
+-   <span data-ttu-id="8f658-300">ช่อง</span><span class="sxs-lookup"><span data-stu-id="8f658-300">Slot</span></span>
+-   <span data-ttu-id="8f658-301">รุ่น</span><span class="sxs-lookup"><span data-stu-id="8f658-301">Model</span></span>
+-   <span data-ttu-id="8f658-302">การตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="8f658-302">Decision</span></span>
+-   <span data-ttu-id="8f658-303">เป้าหมาย</span><span class="sxs-lookup"><span data-stu-id="8f658-303">Goal</span></span>
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="8f658-304">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="8f658-304">See also</span></span>
 --------
 
-[สร้างข้อจำกัดนิพจน์ (คู่มืองาน)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
+<span data-ttu-id="8f658-305">[สร้างข้อจำกัดนิพจน์ (คู่มืองาน)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)</span><span class="sxs-lookup"><span data-stu-id="8f658-305">[Create an expression constraint (Task guide)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)</span></span>
 
-[เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์ (คู่มืองาน)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
+[<span data-ttu-id="8f658-306">เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์ (คู่มืองาน)</span><span class="sxs-lookup"><span data-stu-id="8f658-306">Add a calculation to a product configuration model (Task guide)</span></span>](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
 
 
 

@@ -16,37 +16,37 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="report-definitions-in-financial-report-designer"></a>ข้อกำหนดของรายงานในผู้ออกแบบรายงานทางการเงิน
+# <a name="report-definitions-in-financial-report-designer"></a><span data-ttu-id="0a877-105">ข้อกำหนดของรายงานในผู้ออกแบบรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="0a877-105">Report definitions in financial report designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดของรายงาน ข้อกำหนดของรายงานคือส่วนประกอบของรายงาน (หรือบล็อคส่วนประกอบ) ที่ใช้คำนิยามแถว คำนิยามคอลัมน์ และคำนิยามแผนภูมิรายงานเพิ่มเติมเพื่อสร้างรายงาน ข้อกำหนดของรายงานยังมีตัวเลือกและการตั้งค่าสำหรับการปรับแต่งรายงานด้วยตนเองอีกด้วย 
+<span data-ttu-id="0a877-106">บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดของรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-106">This article provides information about report definitions.</span></span> <span data-ttu-id="0a877-107">ข้อกำหนดของรายงานคือส่วนประกอบของรายงาน (หรือบล็อคส่วนประกอบ) ที่ใช้คำนิยามแถว คำนิยามคอลัมน์ และคำนิยามแผนภูมิรายงานเพิ่มเติมเพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-107">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="0a877-108">ข้อกำหนดของรายงานยังมีตัวเลือกและการตั้งค่าสำหรับการปรับแต่งรายงานด้วยตนเองอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="0a877-108">A report definition also provides options and settings that for customizing a report.</span></span> 
 
-ข้อกำหนดของรายงานคือส่วนประกอบของรายงาน (หรือบล็อคส่วนประกอบ) ที่ใช้คำนิยามแถว คำนิยามคอลัมน์ และคำนิยามแผนภูมิรายงานเพิ่มเติมเพื่อสร้างรายงาน อีกทั้งข้อกำหนดของรายงานยังให้ตัวเลือกและการตั้งค่าที่คุณสามารถใช้ได้ในการกำหนดรายงาน หลังจากที่คุณกำหนดคำนิยามแถวและคำนิยามคอลัมน์ คุณต้องรวมค่าดังกล่าวในข้อกำหนดของรายงาน ณ จุดนี้ คุณยังสามารถกำหนดแง่มุมอื่นๆ ของคำนิยาม เช่นระดับรายละเอียดและวันที่รายงาน จากนั้นคุณสามารถบันทึกและสร้างรายงาน การรายงานทางการเงินมีรายละเอียดในระดับต่าง ๆ ดังต่อไปนี้:
+<span data-ttu-id="0a877-109">ข้อกำหนดของรายงานคือส่วนประกอบของรายงาน (หรือบล็อคส่วนประกอบ) ที่ใช้คำนิยามแถว คำนิยามคอลัมน์ และคำนิยามแผนภูมิรายงานเพิ่มเติมเพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-109">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="0a877-110">อีกทั้งข้อกำหนดของรายงานยังให้ตัวเลือกและการตั้งค่าที่คุณสามารถใช้ได้ในการกำหนดรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-110">A report definition also provides options and settings that you can use to customize a report.</span></span> <span data-ttu-id="0a877-111">หลังจากที่คุณกำหนดคำนิยามแถวและคำนิยามคอลัมน์ คุณต้องรวมค่าดังกล่าวในข้อกำหนดของรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-111">After you define row definitions and column definitions, you must combine them in a report definition.</span></span> <span data-ttu-id="0a877-112">ณ จุดนี้ คุณยังสามารถกำหนดแง่มุมอื่นๆ ของคำนิยาม เช่นระดับรายละเอียดและวันที่รายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-112">At this point, you also define other aspects of the definitions, such as the detail level and report date.</span></span> <span data-ttu-id="0a877-113">จากนั้นคุณสามารถบันทึกและสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-113">You can then save and generate a report.</span></span> <span data-ttu-id="0a877-114">การรายงานทางการเงินมีรายละเอียดในระดับต่าง ๆ ดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="0a877-114">Financial reporting offers the following levels of detail:</span></span>
 
--   การเงิน
--   การเงินและการบัญชี
--   การเงิน การบัญชีและธุรกรรม
+-   <span data-ttu-id="0a877-115">การเงิน</span><span class="sxs-lookup"><span data-stu-id="0a877-115">Financial</span></span>
+-   <span data-ttu-id="0a877-116">การเงินและการบัญชี</span><span class="sxs-lookup"><span data-stu-id="0a877-116">Financial and Account</span></span>
+-   <span data-ttu-id="0a877-117">การเงิน การบัญชีและธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="0a877-117">Financial, Account, and Transaction</span></span>
 
-อย่างไรก็ตาม ขึ้นอยู่กับวิธีเก็บข้อมูลในระบบ Microsoft Dynamics ERP รายละเอียดธุรกรรมอาจไม่มีอยู่ในรายงาน
+<span data-ttu-id="0a877-118">อย่างไรก็ตาม ขึ้นอยู่กับวิธีเก็บข้อมูลในระบบ Microsoft Dynamics ERP รายละเอียดธุรกรรมอาจไม่มีอยู่ในรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-118">However, depending on how data is stored in the Microsoft Dynamics ERP system, transaction details might not be available in reports.</span></span>
 
-## <a name="create-a-report-definition"></a>สร้างข้อกำหนดของรายงาน
-1.  ในโปรแกรมออกแบบรายงาน บนไฟล์ **เมนู** คลิก **สร้าง**แล้ว เลือก **ข้อกำหนดของรายงาน**
-2.  ระบุข้อมูลที่เหมาะสมบน **รายงาน** **ผลที่ได้และการกระจาย**, **หัวกระดาษและท้ายกระดาษ**และแท็บ **การตั้งค่า**
+## <a name="create-a-report-definition"></a><span data-ttu-id="0a877-119">สร้างข้อกำหนดของรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-119">Create a report definition</span></span>
+1.  <span data-ttu-id="0a877-120">ในโปรแกรมออกแบบรายงาน บนไฟล์ **เมนู** คลิก **สร้าง**แล้ว เลือก **ข้อกำหนดของรายงาน**</span><span class="sxs-lookup"><span data-stu-id="0a877-120">In Report Designer, on the **File** menu, click **New**, and then select **Report Definition**.</span></span>
+2.  <span data-ttu-id="0a877-121">ระบุข้อมูลที่เหมาะสมบน **รายงาน** **ผลที่ได้และการกระจาย**, **หัวกระดาษและท้ายกระดาษ**และแท็บ **การตั้งค่า**</span><span class="sxs-lookup"><span data-stu-id="0a877-121">Specify the appropriate information on the **Report**, **Output and Distribution**, **Headers and Footers**, and **Settings** tabs.</span></span>
 
-## <a name="contents-of-a-report-definition"></a>เนื้อหาของข้อกำหนดของรายงาน
-ตารางต่อไปนี้อธิบายถึงแท็บในข้อกำหนดของรายงานและวิธีใช้ข้อมูล
+## <a name="contents-of-a-report-definition"></a><span data-ttu-id="0a877-122">เนื้อหาของข้อกำหนดของรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-122">Contents of a report definition</span></span>
+<span data-ttu-id="0a877-123">ตารางต่อไปนี้อธิบายถึงแท็บในข้อกำหนดของรายงานและวิธีใช้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="0a877-123">The following table describes the tabs in a report definition and how the information is used.</span></span>
 
 <table>
 <colgroup>
@@ -55,33 +55,33 @@ ms.lasthandoff: 05/25/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>แท็บ</th>
-<th>คำอธิบาย</th>
+<th><span data-ttu-id="0a877-124">แท็บ</span><span class="sxs-lookup"><span data-stu-id="0a877-124">Tab</span></span></th>
+<th><span data-ttu-id="0a877-125">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="0a877-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>รายงาน</td>
-<td>สร้างรายงาน ตั้งค่าคอนฟิกรายงาน หรือปรับแก้รายงานที่มีอยู่</td>
+<td><span data-ttu-id="0a877-126">รายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-126">Report</span></span></td>
+<td><span data-ttu-id="0a877-127">สร้างรายงาน ตั้งค่าคอนฟิกรายงาน หรือปรับแก้รายงานที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="0a877-127">Create a report, configure a report, or modify an existing report.</span></span></td>
 </tr>
 <tr class="even">
-<td>ผลที่ได้และการกระจาย</td>
-<td>เปลี่ยนชนิดของผลที่ได้และปลายทางของรายงาน</td>
+<td><span data-ttu-id="0a877-128">ผลที่ได้และการกระจาย</span><span class="sxs-lookup"><span data-stu-id="0a877-128">Output and Distribution</span></span></td>
+<td><span data-ttu-id="0a877-129">เปลี่ยนชนิดของผลที่ได้และปลายทางของรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-129">Change the output type and destination of the report.</span></span></td>
 </tr>
 <tr class="odd">
-<td>หัวกระดาษและท้ายกระดาษ</td>
-<td>กำหนดและจัดรูปแบบหัวกระดาษและท้ายกระดาษสำหรับรายงาน ตัวอย่างเช่น คุณสามารถเพิ่มรูปภาพหรือข้อความในหัวกระดาษหรือท้ายกระดาษ การรายงานทางการเงินสนับสนุนไฟล์ .bmp, .jpg และ.png สำหรับรูปภาพ คุณยังสามารถเพิ่มรหัสข้อความอัตโนมัติเพื่อแทรกข้อมูลอื่น เช่น ชื่อบริษัท ชื่อรายงาน หรือหมายเลขหน้า</td>
+<td><span data-ttu-id="0a877-130">หัวกระดาษและท้ายกระดาษ</span><span class="sxs-lookup"><span data-stu-id="0a877-130">Headers and Footers</span></span></td>
+<td><span data-ttu-id="0a877-131">กำหนดและจัดรูปแบบหัวกระดาษและท้ายกระดาษสำหรับรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-131">Define and format the headers and footers for the report.</span></span> <span data-ttu-id="0a877-132">ตัวอย่างเช่น คุณสามารถเพิ่มรูปภาพหรือข้อความในหัวกระดาษหรือท้ายกระดาษ</span><span class="sxs-lookup"><span data-stu-id="0a877-132">For example, you can add text or images to the header or footer.</span></span> <span data-ttu-id="0a877-133">การรายงานทางการเงินสนับสนุนไฟล์ .bmp, .jpg และ.png สำหรับรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="0a877-133">Financial reporting supports .bmp, .jpg, and .png files for images.</span></span> <span data-ttu-id="0a877-134">คุณยังสามารถเพิ่มรหัสข้อความอัตโนมัติเพื่อแทรกข้อมูลอื่น เช่น ชื่อบริษัท ชื่อรายงาน หรือหมายเลขหน้า</span><span class="sxs-lookup"><span data-stu-id="0a877-134">You can also add autotext codes to insert other information, such as a company name, report name, or page number.</span></span></td>
 </tr>
 <tr class="even">
-<td>การตั้งค่า</td>
-<td>ระบุการตั้งค่าข้อกำหนดของรายงาน เช่น การตั้งค่าต่อไปนี้:
+<td><span data-ttu-id="0a877-135">การตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="0a877-135">Settings</span></span></td>
+<td><span data-ttu-id="0a877-136">ระบุการตั้งค่าข้อกำหนดของรายงาน เช่น การตั้งค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="0a877-136">Specify report definition settings, such as the following settings:</span></span>
 <ul>
-<li>การจัดรูปแบบและการปัดเศษยอดเงิน</li>
-<li>จัดรูปแบบรายละเอียดของรายงาน</li>
-<li>จัดรูปแบบแผนภูมิการรายงาน</li>
-<li>สร้างรายงานข้อยกเว้น</li>
-<li>ระบุการแปลงสกุลเงิน</li>
-<li>ผลรวมย่อยและรายละเอียดตัวกรองบัญชี</li>
+<li><span data-ttu-id="0a877-137">การจัดรูปแบบและการปัดเศษยอดเงิน</span><span class="sxs-lookup"><span data-stu-id="0a877-137">Formatting and rounding amounts</span></span></li>
+<li><span data-ttu-id="0a877-138">จัดรูปแบบรายละเอียดของรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-138">Format detail reports</span></span></li>
+<li><span data-ttu-id="0a877-139">จัดรูปแบบแผนภูมิการรายงาน</span><span class="sxs-lookup"><span data-stu-id="0a877-139">Format reporting trees</span></span></li>
+<li><span data-ttu-id="0a877-140">สร้างรายงานข้อยกเว้น</span><span class="sxs-lookup"><span data-stu-id="0a877-140">Generate an exception report</span></span></li>
+<li><span data-ttu-id="0a877-141">ระบุการแปลงสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="0a877-141">Specify currency conversion</span></span></li>
+<li><span data-ttu-id="0a877-142">ผลรวมย่อยและรายละเอียดตัวกรองบัญชี</span><span class="sxs-lookup"><span data-stu-id="0a877-142">Subtotal and filter account details</span></span></li>
 </ul></td>
 </tr>
 </tbody>
@@ -89,10 +89,10 @@ ms.lasthandoff: 05/25/2017
 
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="see-also"></a><span data-ttu-id="0a877-143">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="0a877-143">See also</span></span>
 --------
 
-[การรายงานทางการเงิน](financial-reporting-intro.md)
+[<span data-ttu-id="0a877-144">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="0a877-144">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

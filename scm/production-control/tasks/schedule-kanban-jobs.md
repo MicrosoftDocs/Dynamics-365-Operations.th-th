@@ -16,49 +16,49 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 88399f70a3c286d536637e166e8428eae50a561d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="schedule-kanban-jobs"></a>งานคัมบังตามกำหนดการ
+# <a name="schedule-kanban-jobs"></a><span data-ttu-id="5d6e1-103">งานคัมบังตามกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="5d6e1-103">Schedule kanban jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้มุ่งเน้นการจัดกำหนดการกระบวนการงานคัมบังสำหรับเซลล์ทำงานเฉพาะ  ขั้นตอน "การเตรียมงานกระบวนการคัมบังเมื่อไม่มีวัสดุอยู่" เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างขั้นตอนนี้  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF งานนี้มีไว้สำหรับผู้ควบคุมงานการผลิตและผู้วางแผนการผลิตที่ทำงานกับคัมบัง
+<span data-ttu-id="5d6e1-104">ขั้นตอนนี้มุ่งเน้นการจัดกำหนดการกระบวนการงานคัมบังสำหรับเซลล์ทำงานเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="5d6e1-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="5d6e1-105">ขั้นตอน "การเตรียมงานกระบวนการคัมบังเมื่อไม่มีวัสดุอยู่" เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างขั้นตอนนี้ </span><span class="sxs-lookup"><span data-stu-id="5d6e1-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="5d6e1-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="5d6e1-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5d6e1-107">งานนี้มีไว้สำหรับผู้ควบคุมงานการผลิตและผู้วางแผนการผลิตที่ทำงานกับคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5d6e1-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
 
 
-## <a name="select-kanban-jobs-for-a-work-cell"></a>เลือกงานคัมบังสำหรับเซลล์ทำงาน
-1. ไปที่การควบคุมการผลิต > คัมบัง > การกำหนดเวลางานคัมบัง 
-2. ขยายกล่องแสดงข้อมูลย่อกำลังการผลิตในรอบระยะเวลา
-    * ขยายกล่องแสดงข้อมูลย่อคัมบัง  
-3. ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา 
-4. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-    * เลือกเซลล์ทำงาน 1250 ซึ่งจะกรองมุมมองเพื่อแสดงเฉพาะงานสำหรับเซลล์ทำงาน 1250  
-5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-6. คลิกเลือก 
+## <a name="select-kanban-jobs-for-a-work-cell"></a><span data-ttu-id="5d6e1-108">เลือกงานคัมบังสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-108">Select kanban jobs for a work cell</span></span>
+1. <span data-ttu-id="5d6e1-109">ไปที่การควบคุมการผลิต > คัมบัง > การกำหนดเวลางานคัมบัง </span><span class="sxs-lookup"><span data-stu-id="5d6e1-109">Go to Production control > Kanban > Kanban job scheduling.</span></span>
+2. <span data-ttu-id="5d6e1-110">ขยายกล่องแสดงข้อมูลย่อกำลังการผลิตในรอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="5d6e1-110">Expand the Period capacity fact box</span></span>
+    * <span data-ttu-id="5d6e1-111">ขยายกล่องแสดงข้อมูลย่อคัมบัง</span><span class="sxs-lookup"><span data-stu-id="5d6e1-111">Expand the Kanban FactBox.</span></span>  
+3. <span data-ttu-id="5d6e1-112">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="5d6e1-112">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="5d6e1-113">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="5d6e1-113">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5d6e1-114">เลือกเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="5d6e1-114">Select work cell 1250.</span></span> <span data-ttu-id="5d6e1-115">ซึ่งจะกรองมุมมองเพื่อแสดงเฉพาะงานสำหรับเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="5d6e1-115">This will filter the view to display only the jobs for work cell 1250.</span></span>  
+5. <span data-ttu-id="5d6e1-116">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="5d6e1-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="5d6e1-117">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="5d6e1-117">Click Select.</span></span>
 
-## <a name="schedule-a-kanban-job-in-the-first-available-period"></a>กำหนดตารางงานคัมบังในรอบระยะเวลาแรกที่พร้อมใช้งาน
-1. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-    * เลือกแถวแรกในรายการที่อยู่ในสถานะที่ไม่ได้วางแผนไว้  ไอคอนที่มีจุดในฟิลด์สถานะงานบ่งชี้ว่าไม่ได้วางแผนไว้  
-2. คลิก กำหนดเวลางาน
-    * ซึ่งนี่จะกำหนดตารางงานคัมบังในรอบระยะเวลาแรกที่พร้อมใช้งาน  
-    * โปรดสังเกตว่างานคัมบังถูกย้ายไปตอนท้ายของรายการเพราะมันถูกเพิ่มไปยังรอบระยะเวลาเริ่มนับจากวันนี้  
-    * ถ้ารอบระยะเวลานับจากวันนี้ถูกจองจนหมด งานจะถูกย้ายไปรอบระยะเวลาแรกที่พร้อมใช้งาน  
+## <a name="schedule-a-kanban-job-in-the-first-available-period"></a><span data-ttu-id="5d6e1-118">กำหนดตารางงานคัมบังในรอบระยะเวลาแรกที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-118">Schedule a kanban job in the first available period</span></span>
+1. <span data-ttu-id="5d6e1-119">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="5d6e1-119">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5d6e1-120">เลือกแถวแรกในรายการที่อยู่ในสถานะที่ไม่ได้วางแผนไว้ </span><span class="sxs-lookup"><span data-stu-id="5d6e1-120">Select the first row in the list that has the Not planned status.</span></span> <span data-ttu-id="5d6e1-121">ไอคอนที่มีจุดในฟิลด์สถานะงานบ่งชี้ว่าไม่ได้วางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="5d6e1-121">The dotted icon in the Job status field indicates not planned.</span></span>  
+2. <span data-ttu-id="5d6e1-122">คลิก กำหนดเวลางาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-122">Click Schedule.</span></span>
+    * <span data-ttu-id="5d6e1-123">ซึ่งนี่จะกำหนดตารางงานคัมบังในรอบระยะเวลาแรกที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-123">This will schedule the kanban job in the first available period.</span></span>  
+    * <span data-ttu-id="5d6e1-124">โปรดสังเกตว่างานคัมบังถูกย้ายไปตอนท้ายของรายการเพราะมันถูกเพิ่มไปยังรอบระยะเวลาเริ่มนับจากวันนี้</span><span class="sxs-lookup"><span data-stu-id="5d6e1-124">Notice that the kanban job is moved to the end of the list because it has been added to the period starting from today.</span></span>  
+    * <span data-ttu-id="5d6e1-125">ถ้ารอบระยะเวลานับจากวันนี้ถูกจองจนหมด งานจะถูกย้ายไปรอบระยะเวลาแรกที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-125">If the period starting from today is fully booked, the job will be moved to the first available period.</span></span>  
 
-## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a>กำหนดตารางงานคัมบังสำหรับวันที่ระบุ
-1. ในรายการ ให้เลือกแถว 1
-    * คุณจะเห็นได้ว่าแถวแรกนั้นอยู่ในสถานะที่ไม่ได้วางแผนไว้ในฟิลด์สถานะงาน  
-2. ในรายการ ให้เลือกแถว 2
-    * คุณจะเห็นได้ว่าแถวที่สองนั้นอยู่ในสถานะที่ไม่ได้วางแผนไว้ในฟิลด์สถานะงาน  ตอนนี้คุณได้ทำการเลือกสองงานแรกไว้แล้ว  
-3. คลิก กำหนดเวลาจากวันที่ เพื่อเปิดกล่องโต้ตอบดรอป
-4. ทำเครื่องหมายเลือกหรือเอาเครื่องหมายเลือกออกจากกล่องแทนที่การตอบสนองต่อภาวะกำลังการผลิตไม่เพียงพอ
-    * ตัวเลือกนี้จะอนุญาตให้คุณสามารถแทนที่การตอบสนองต่อภาวะกำลังการผลิตไม่เพียงพอตั้งต้น  
-5. ในฟิลด์การตอบสนองต่อภาวะกำลังการผลิต เลือก 'เพิ่มไปยังรอบระยะเวลาที่ร้องขอไว้'
-    * ตัวเลือกนี้จะทำให้แน่ใจว่างานได้ถูกเพิ่มไปยังรอบระยะเวลาที่ร้องขอไว้ โดยไม่คำนึงถึงว่าเซลล์ทำงานอาจมีการโอเวอร์โหลด  
-6. คลิก กำหนดเวลางาน
-    * โปรดสังเกตว่างานทั้งสองถูกเพิ่มไปยังรอบระยะเวลาที่ต้องการแล้ว  
-    * ในส่วนรอบระยะเวลากำลังการผลิต คุณสามารถดูจำนวนงานในศูนย์การผลิตสำหรับแต่ละรอบระยะเวลาได้ ฟิลด์ปริมาณการใช้จะแสดงปริมาณการใช้วัสดุที่จัดกำหนดการไว้ในรอบระยะเวลานี้  ถ้าปริมาณการใช้วัสดุที่จัดกำหนดการไว้สูงกว่ากำลังการผลิตที่พร้อมใช้งานในรอบระยะเวลานี้ ปริมาณการใช้วัสดุที่โอเวอร์โหลดจะถูกเลือก  
+## <a name="schedule-two-kanban-jobs-for-a-specific-day"></a><span data-ttu-id="5d6e1-126">กำหนดตารางงานคัมบังสำหรับวันที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="5d6e1-126">Schedule two kanban jobs for a specific day</span></span>
+1. <span data-ttu-id="5d6e1-127">ในรายการ ให้เลือกแถว 1</span><span class="sxs-lookup"><span data-stu-id="5d6e1-127">In the list, select row 1.</span></span>
+    * <span data-ttu-id="5d6e1-128">คุณจะเห็นได้ว่าแถวแรกนั้นอยู่ในสถานะที่ไม่ได้วางแผนไว้ในฟิลด์สถานะงาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-128">You should see that the first row has the Not planned status in the Job status field.</span></span>  
+2. <span data-ttu-id="5d6e1-129">ในรายการ ให้เลือกแถว 2</span><span class="sxs-lookup"><span data-stu-id="5d6e1-129">In the list, select row 2.</span></span>
+    * <span data-ttu-id="5d6e1-130">คุณจะเห็นได้ว่าแถวที่สองนั้นอยู่ในสถานะที่ไม่ได้วางแผนไว้ในฟิลด์สถานะงาน </span><span class="sxs-lookup"><span data-stu-id="5d6e1-130">You should see that the second row has the Not planned status in the Job status field.</span></span> <span data-ttu-id="5d6e1-131">ตอนนี้คุณได้ทำการเลือกสองงานแรกไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="5d6e1-131">Now you have the first two jobs selected.</span></span>  
+3. <span data-ttu-id="5d6e1-132">คลิก กำหนดเวลาจากวันที่ เพื่อเปิดกล่องโต้ตอบดรอป</span><span class="sxs-lookup"><span data-stu-id="5d6e1-132">Click Schedule from date to open the drop dialog.</span></span>
+4. <span data-ttu-id="5d6e1-133">ทำเครื่องหมายเลือกหรือเอาเครื่องหมายเลือกออกจากกล่องแทนที่การตอบสนองต่อภาวะกำลังการผลิตไม่เพียงพอ</span><span class="sxs-lookup"><span data-stu-id="5d6e1-133">Check or uncheck the Override capacity shortage reaction box.</span></span>
+    * <span data-ttu-id="5d6e1-134">ตัวเลือกนี้จะอนุญาตให้คุณสามารถแทนที่การตอบสนองต่อภาวะกำลังการผลิตไม่เพียงพอตั้งต้น</span><span class="sxs-lookup"><span data-stu-id="5d6e1-134">This option allows you to override the default capacity shortage reaction.</span></span>  
+5. <span data-ttu-id="5d6e1-135">ในฟิลด์การตอบสนองต่อภาวะกำลังการผลิต เลือก 'เพิ่มไปยังรอบระยะเวลาที่ร้องขอไว้'</span><span class="sxs-lookup"><span data-stu-id="5d6e1-135">In the Capacity shortage reaction field, select 'Add to the requested period'.</span></span>
+    * <span data-ttu-id="5d6e1-136">ตัวเลือกนี้จะทำให้แน่ใจว่างานได้ถูกเพิ่มไปยังรอบระยะเวลาที่ร้องขอไว้ โดยไม่คำนึงถึงว่าเซลล์ทำงานอาจมีการโอเวอร์โหลด</span><span class="sxs-lookup"><span data-stu-id="5d6e1-136">This option will ensure that the job is added to the requested period, regardless if the work cell might be overloaded.</span></span>  
+6. <span data-ttu-id="5d6e1-137">คลิก กำหนดเวลางาน</span><span class="sxs-lookup"><span data-stu-id="5d6e1-137">Click Schedule.</span></span>
+    * <span data-ttu-id="5d6e1-138">โปรดสังเกตว่างานทั้งสองถูกเพิ่มไปยังรอบระยะเวลาที่ต้องการแล้ว</span><span class="sxs-lookup"><span data-stu-id="5d6e1-138">Notice that both jobs are added to the desired period.</span></span>  
+    * <span data-ttu-id="5d6e1-139">ในส่วนรอบระยะเวลากำลังการผลิต คุณสามารถดูจำนวนงานในศูนย์การผลิตสำหรับแต่ละรอบระยะเวลาได้</span><span class="sxs-lookup"><span data-stu-id="5d6e1-139">In the Period capacity section, you can see the load for each period.</span></span> <span data-ttu-id="5d6e1-140">ฟิลด์ปริมาณการใช้จะแสดงปริมาณการใช้วัสดุที่จัดกำหนดการไว้ในรอบระยะเวลานี้ </span><span class="sxs-lookup"><span data-stu-id="5d6e1-140">The Consumption field shows the scheduled consumption in this period.</span></span> <span data-ttu-id="5d6e1-141">ถ้าปริมาณการใช้วัสดุที่จัดกำหนดการไว้สูงกว่ากำลังการผลิตที่พร้อมใช้งานในรอบระยะเวลานี้ ปริมาณการใช้วัสดุที่โอเวอร์โหลดจะถูกเลือก</span><span class="sxs-lookup"><span data-stu-id="5d6e1-141">If the scheduled consumption is higher than the available capacity in this period, the overloaded consumption will be selected.</span></span>  
 
 

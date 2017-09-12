@@ -17,81 +17,81 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c2456fffd9a010728154749b35c58db13f142bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="e617e-103">ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e617e-103">Set up a location directive for purchase order put-away</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการตั้งค่าคำสั่งสถานที่เก็บอย่างง่าย  ตัวอย่างที่แสดงอยู่สร้างคำสั่งสถานที่ที่จะใช้ในการกำหนดตำแหน่งที่จะย้ายสินค้าที่ได้รับสำหรับใบสั่งซื้อ คุณสามารถเล่นคู่มืองานนี้ด้วยข้อมูลที่ระบุไว้โดยใช้ข้อมูลสาธิตบริษัท USMF เงื่อนไขเบื้องต้น: คุณต้องสร้างรหัสการโอนการครอบครอง ในกระบวนงานนี้เราใช้รหัสการโอนการครอบครองที่เรียกว่า Relabel ถ้าคุณกำลังสร้างคำสั่งสถานที่ในข้อมูลของคุณเอง คุณต้องมีตั้งค่าการบริหารคลังสินค้าขั้นสูงสำหรับคลังสินค้าและสินค้าของคุณ   ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า
+<span data-ttu-id="e617e-104">กระบวนงานนี้แสดงวิธีการตั้งค่าคำสั่งสถานที่เก็บอย่างง่าย </span><span class="sxs-lookup"><span data-stu-id="e617e-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="e617e-105">ตัวอย่างที่แสดงอยู่สร้างคำสั่งสถานที่ที่จะใช้ในการกำหนดตำแหน่งที่จะย้ายสินค้าที่ได้รับสำหรับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e617e-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="e617e-106">คุณสามารถเล่นคู่มืองานนี้ด้วยข้อมูลที่ระบุไว้โดยใช้ข้อมูลสาธิตบริษัท USMF</span><span class="sxs-lookup"><span data-stu-id="e617e-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="e617e-107">เงื่อนไขเบื้องต้น: คุณต้องสร้างรหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="e617e-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="e617e-108">ในกระบวนงานนี้เราใช้รหัสการโอนการครอบครองที่เรียกว่า Relabel</span><span class="sxs-lookup"><span data-stu-id="e617e-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="e617e-109">ถ้าคุณกำลังสร้างคำสั่งสถานที่ในข้อมูลของคุณเอง คุณต้องมีตั้งค่าการบริหารคลังสินค้าขั้นสูงสำหรับคลังสินค้าและสินค้าของคุณ </span><span class="sxs-lookup"><span data-stu-id="e617e-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="e617e-110">ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="e617e-110">This procedure is intended for the warehouse manager.</span></span>
 
-1. ไปที่คลังสินค้าจัดการ > การตั้งค่า > คำสั่งสถานที่
-2. ในฟิลด์ชนิดใบสั่งงาน เลือก 'ใบสั่งซื้อ' 
+1. <span data-ttu-id="e617e-111">ไปที่คลังสินค้าจัดการ > การตั้งค่า > คำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="e617e-111">Go to Warehouse management > Setup > Location directives.</span></span>
+2. <span data-ttu-id="e617e-112">ในฟิลด์ชนิดใบสั่งงาน เลือก 'ใบสั่งซื้อ' </span><span class="sxs-lookup"><span data-stu-id="e617e-112">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-location-directive-header"></a>สร้างหัวข้อคำสั่งสถานที่
-1. คลิก สร้าง
-2. ในฟิลด์หมายเลขลำดับ ให้ป้อนหมายเลข
-    * นี่คือลำดับที่ประมวลผลคำสั่งสถานที่สำหรับชนิดงานที่เลือก  คุณยังสามารถปรับเปลี่ยนลำดับ ถ้าจำเป็น  
-3. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-    * นี่คือตัวระบุเฉพาะสำหรับหน่วยคำสั่ง  
-4. ในฟิลด์ประเภทงาน ให้เลือก 'ส่งสินค้า'
-    * เลือกชนิดของงานที่จะดำเนินการ  สำหรับหน่วยคำสั่งที่มีชนิดงานเป็นใบสั่งซื้อ ให้ใส่แค่ค่าสนับสนุน  
-5. ในฟิลด์ไซต์ ให้พิมพ์ค่า
-6. ในฟิลด์คลังสินค้า ให้พิมพ์ค่า
-    * รหัสคำสั่งปล่อยว่างไว้   รหัสคำสั่งจะใช้เพื่อเชื่อมโยงรายการลำดับงานของชนิดการย้ายไปยังคำสั่งเฉพาะเจาะจง  สำหรับใบสั่งซื้อ สถานที่ของลำดับงานสุดท้ายของชนิดย้ายได้รับการแก้ไขก่อนที่จะขึ้นอยู่กับเท็มเพลตงาน ดังนั้นจึง ไม่สามารถเชื่อมต่อบรรทัดสุดท้ายของเท็มเพลตงานคำสั่งเฉพาะเจาะจง   
-7. ในฟิลด์รหัสการโอนการครอบครอง ให้พิมพ์ค่าใดค่าหนึ่ง
-    * รหัสการโอนการครอบครองจำกัดการใช้คำสั่งสถานที่ ดังนั้นคำสั่งสถานจะใช้เฉพาะเมื่อผู้ปฏิบัติงานคลังสินค้าที่ป้อนค่านี้เฉพาะในระหว่างการลงทะเบียนสินค้าโดยใช้อุปกรณ์เคลื่อน  
-8. คลิก บันทึก
+## <a name="create-a-location-directive-header"></a><span data-ttu-id="e617e-113">สร้างหัวข้อคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="e617e-113">Create a location directive header</span></span>
+1. <span data-ttu-id="e617e-114">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="e617e-114">Click New.</span></span>
+2. <span data-ttu-id="e617e-115">ในฟิลด์หมายเลขลำดับ ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="e617e-115">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="e617e-116">นี่คือลำดับที่ประมวลผลคำสั่งสถานที่สำหรับชนิดงานที่เลือก </span><span class="sxs-lookup"><span data-stu-id="e617e-116">This is the sequence in which the location directive is processed for the selected work type.</span></span> <span data-ttu-id="e617e-117">คุณยังสามารถปรับเปลี่ยนลำดับ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="e617e-117">You can also modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="e617e-118">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="e617e-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="e617e-119">นี่คือตัวระบุเฉพาะสำหรับหน่วยคำสั่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-119">This is the unique identifier for this directive.</span></span>  
+4. <span data-ttu-id="e617e-120">ในฟิลด์ประเภทงาน ให้เลือก 'ส่งสินค้า'</span><span class="sxs-lookup"><span data-stu-id="e617e-120">In the Work type field, select 'Put'.</span></span>
+    * <span data-ttu-id="e617e-121">เลือกชนิดของงานที่จะดำเนินการ </span><span class="sxs-lookup"><span data-stu-id="e617e-121">Select the type of work to be performed.</span></span> <span data-ttu-id="e617e-122">สำหรับหน่วยคำสั่งที่มีชนิดงานเป็นใบสั่งซื้อ ให้ใส่แค่ค่าสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="e617e-122">For directive with work order type Purchase order, Put is the only supported value.</span></span>  
+5. <span data-ttu-id="e617e-123">ในฟิลด์ไซต์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="e617e-123">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="e617e-124">ในฟิลด์คลังสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="e617e-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="e617e-125">รหัสคำสั่งปล่อยว่างไว้ </span><span class="sxs-lookup"><span data-stu-id="e617e-125">Leave the Directive code blank.</span></span>  <span data-ttu-id="e617e-126">รหัสคำสั่งจะใช้เพื่อเชื่อมโยงรายการลำดับงานของชนิดการย้ายไปยังคำสั่งเฉพาะเจาะจง </span><span class="sxs-lookup"><span data-stu-id="e617e-126">Directive codes are used to link a work order line of type Put to a specific directive.</span></span> <span data-ttu-id="e617e-127">สำหรับใบสั่งซื้อ สถานที่ของลำดับงานสุดท้ายของชนิดย้ายได้รับการแก้ไขก่อนที่จะขึ้นอยู่กับเท็มเพลตงาน</span><span class="sxs-lookup"><span data-stu-id="e617e-127">For purchase orders, the location of the last work order line of type Put is resolved before the work template is determined.</span></span> <span data-ttu-id="e617e-128">ดังนั้นจึง ไม่สามารถเชื่อมต่อบรรทัดสุดท้ายของเท็มเพลตงานคำสั่งเฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="e617e-128">Therefore it is not possible to connect the last line of a work template to a specific directive.</span></span>   
+7. <span data-ttu-id="e617e-129">ในฟิลด์รหัสการโอนการครอบครอง ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-129">In the Disposition code field, type a value.</span></span>
+    * <span data-ttu-id="e617e-130">รหัสการโอนการครอบครองจำกัดการใช้คำสั่งสถานที่ ดังนั้นคำสั่งสถานจะใช้เฉพาะเมื่อผู้ปฏิบัติงานคลังสินค้าที่ป้อนค่านี้เฉพาะในระหว่างการลงทะเบียนสินค้าโดยใช้อุปกรณ์เคลื่อน</span><span class="sxs-lookup"><span data-stu-id="e617e-130">The Disposition code limits the use of the location directive, so the location directive is only used if the warehouse worker enters this specific value during registration of the item using a mobile device.</span></span>  
+8. <span data-ttu-id="e617e-131">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="e617e-131">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive"></a>แก้ไขการสอบถามสำหรับหน่วยคำสั่ง
-1. (คลิกแก้ไขการสอบถาม)
-    * การใช้คำสั่งนี้จำกัดใช้สำหรับสินค้าที่ลงทะเบียน ในคลังสินค้าที่คุณระบุไว้ และที่มีรหัสการโอนการครอบครองที่คุณระบุไว้อยู่แล้ว  คุณสามารถเพิ่มข้อจำกัดอื่นโดยใช้การสอบถาม  
-2. คลิก ตกลง
+## <a name="edit-the-query-for-directive"></a><span data-ttu-id="e617e-132">แก้ไขการสอบถามสำหรับหน่วยคำสั่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-132">Edit the query for directive</span></span>
+1. <span data-ttu-id="e617e-133">(คลิกแก้ไขการสอบถาม)</span><span class="sxs-lookup"><span data-stu-id="e617e-133">Click Edit query.</span></span>
+    * <span data-ttu-id="e617e-134">การใช้คำสั่งนี้จำกัดใช้สำหรับสินค้าที่ลงทะเบียน ในคลังสินค้าที่คุณระบุไว้ และที่มีรหัสการโอนการครอบครองที่คุณระบุไว้อยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="e617e-134">The use of this directive is already limited to be used for items registered in the warehouse that you specified, and with the disposition code that you specified.</span></span> <span data-ttu-id="e617e-135">คุณสามารถเพิ่มข้อจำกัดอื่นโดยใช้การสอบถาม</span><span class="sxs-lookup"><span data-stu-id="e617e-135">You can add other constraints using the query.</span></span>  
+2. <span data-ttu-id="e617e-136">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="e617e-136">Click OK.</span></span>
 
-## <a name="add-directive-lines"></a>เพิ่มรายการคำสั่ง
-1. คลิก สร้าง
-    * นี่คือลำดับที่ประมวลผลรายการคำสั่งสถานที่สำหรับชนิดงานที่เลือก  คุณยังสามารถปรับเปลี่ยนลำดับ ถ้าจำเป็น  
-2. ในฟิลด์จากปริมาณ ให้ป้อนตัวเลข
-    * นี่คือปริมาณต่ำสุดที่ถูกต้องสำหรับบรรทัดคำสั่งนี้  
-3. ในฟิลด์ถึงปริมาณ ให้ป้อนตัวเลข
-4. ในฟิลด์หน่วย ให้พิมพ์ค่า 
-    * หน่วยปริมาณเริ่มต้น และปริมาณสิ้นสุดจะแสดงขึ้น ถ้าคุณปล่อยฟิลด์นี้ว่างไว้ หน่วยสินค้าคงคลังจากสินค้าจะถูกใช้  
-5. ในฟิลด์ระบุปริมาณ ให้เลือกหนึ่งตัวเลือก
-    * ไม่มี หรือปริมาณป้ายทะเบียน: ปริมาณลงทะเบียนบนแต่ละป้ายทะเบียน ปริมาณรวมไว้: ปริมาณสินค้าทั้งหมดที่ลงทะเบียนไว้แล้ว ปริมาณคงเหลือ: ปริมาณที่ยังไม่มีการลงทะเบียนจากบรรทัดใบสั่งซื้อ ปริมาณที่คาดการณ์: ปริมาณรวมที่ระบุไว้บนบรรทัดใบสั่งซื้อ  
-6. เลือกหรือยกเลิกการเลือกกล่องกาเครื่องหมายจำกัดตามหน่วย
-    * ถ้าคุณเลือกตัวเลือกนี้ และระบุหน่วยในการจำกัดตามหน่วยหน้า เฉพาะสินค้าที่ มีหน่วยวัดสามารถวางในสถานที่เก็บ ตัวอย่างเช่น ถ้าหน่วยวัดเป็น PL (แท่นวางสินค้า) เฉพาะสินค้าในแท่นวางสินค้าที่สามารถวางในที่ตั้งที่ระบุ  
-7. เลือกหรือยกเลิกกล่องกาเครื่องหมายอนุญาตให้แบ่ง
-    * นี้อนุญาติหน่วยคำสั่งเพื่อแบ่งปริมาณสำหรับหลายสถานที่  
-8. คลิก บันทึก
+## <a name="add-directive-lines"></a><span data-ttu-id="e617e-137">เพิ่มรายการคำสั่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-137">Add directive lines</span></span>
+1. <span data-ttu-id="e617e-138">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="e617e-138">Click New.</span></span>
+    * <span data-ttu-id="e617e-139">นี่คือลำดับที่ประมวลผลรายการคำสั่งสถานที่สำหรับชนิดงานที่เลือก </span><span class="sxs-lookup"><span data-stu-id="e617e-139">This is the sequence in which the location directive lines are processed for the selected work type.</span></span> <span data-ttu-id="e617e-140">คุณยังสามารถปรับเปลี่ยนลำดับ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="e617e-140">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="e617e-141">ในฟิลด์จากปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="e617e-141">In the From quantity field, enter a number.</span></span>
+    * <span data-ttu-id="e617e-142">นี่คือปริมาณต่ำสุดที่ถูกต้องสำหรับบรรทัดคำสั่งนี้</span><span class="sxs-lookup"><span data-stu-id="e617e-142">This is the lowest quantity that this directive line is valid for.</span></span>  
+3. <span data-ttu-id="e617e-143">ในฟิลด์ถึงปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="e617e-143">In the To quantity field, enter a number.</span></span>
+4. <span data-ttu-id="e617e-144">ในฟิลด์หน่วย ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="e617e-144">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="e617e-145">หน่วยปริมาณเริ่มต้น และปริมาณสิ้นสุดจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="e617e-145">The unit the From quantity and To quantity is expressed in.</span></span> <span data-ttu-id="e617e-146">ถ้าคุณปล่อยฟิลด์นี้ว่างไว้ หน่วยสินค้าคงคลังจากสินค้าจะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="e617e-146">If you leave this field blank the inventory unit from the item is used.</span></span>  
+5. <span data-ttu-id="e617e-147">ในฟิลด์ระบุปริมาณ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="e617e-147">In the Locate quantity field, select an option.</span></span>
+    * <span data-ttu-id="e617e-148">ไม่มี หรือปริมาณป้ายทะเบียน: ปริมาณลงทะเบียนบนแต่ละป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e617e-148">None, or licence plate quantity: The quantity registered on each licence plate.</span></span> <span data-ttu-id="e617e-149">ปริมาณรวมไว้: ปริมาณสินค้าทั้งหมดที่ลงทะเบียนไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="e617e-149">Unitized quantity: The entire quantity that’s been registered.</span></span> <span data-ttu-id="e617e-150">ปริมาณคงเหลือ: ปริมาณที่ยังไม่มีการลงทะเบียนจากบรรทัดใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e617e-150">Remaining quantity: The quantity that is yet to be registered from the purchase order line.</span></span> <span data-ttu-id="e617e-151">ปริมาณที่คาดการณ์: ปริมาณรวมที่ระบุไว้บนบรรทัดใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e617e-151">Expected quantity: The total quantity that is specified on the purchase order line.</span></span>  
+6. <span data-ttu-id="e617e-152">เลือกหรือยกเลิกการเลือกกล่องกาเครื่องหมายจำกัดตามหน่วย</span><span class="sxs-lookup"><span data-stu-id="e617e-152">Check or uncheck the Restrict by unit checkbox.</span></span>
+    * <span data-ttu-id="e617e-153">ถ้าคุณเลือกตัวเลือกนี้ และระบุหน่วยในการจำกัดตามหน่วยหน้า เฉพาะสินค้าที่ มีหน่วยวัดสามารถวางในสถานที่เก็บ</span><span class="sxs-lookup"><span data-stu-id="e617e-153">If you select this option, and specify the unit on the Restrict by unit page, only items with that unit of measurement can be put into the location.</span></span> <span data-ttu-id="e617e-154">ตัวอย่างเช่น ถ้าหน่วยวัดเป็น PL (แท่นวางสินค้า) เฉพาะสินค้าในแท่นวางสินค้าที่สามารถวางในที่ตั้งที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="e617e-154">For example, if the unit of measurement is PL (pallets), only items in pallets can be put into the specified location.</span></span>  
+7. <span data-ttu-id="e617e-155">เลือกหรือยกเลิกกล่องกาเครื่องหมายอนุญาตให้แบ่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-155">Check or uncheck the Allow split checkbox.</span></span>
+    * <span data-ttu-id="e617e-156">นี้อนุญาติหน่วยคำสั่งเพื่อแบ่งปริมาณสำหรับหลายสถานที่</span><span class="sxs-lookup"><span data-stu-id="e617e-156">This allows the directive to split the quantity across multiple locations.</span></span>  
+8. <span data-ttu-id="e617e-157">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="e617e-157">Click Save.</span></span>
 
-## <a name="restrict-the-directive-line-to-a-specific-unit"></a>จำกัดรายการคำสั่งที่กำหนด
-1. คลิกจำกัดตามหน่วย
-    * ปุ่มนี้สามารถใช้ได้เฉพาะเมื่อคุณกดบันทึก หลังจากเลือกกล่องกาเครื่องหมายจำกัดโดยหน่วย  
-2. ในฟิลด์หน่วย ให้พิมพ์ค่า 
-3. ปิดหน้า
+## <a name="restrict-the-directive-line-to-a-specific-unit"></a><span data-ttu-id="e617e-158">จำกัดรายการคำสั่งที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="e617e-158">Restrict the directive line to a specific unit</span></span>
+1. <span data-ttu-id="e617e-159">คลิกจำกัดตามหน่วย</span><span class="sxs-lookup"><span data-stu-id="e617e-159">Click Restrict by unit.</span></span>
+    * <span data-ttu-id="e617e-160">ปุ่มนี้สามารถใช้ได้เฉพาะเมื่อคุณกดบันทึก หลังจากเลือกกล่องกาเครื่องหมายจำกัดโดยหน่วย</span><span class="sxs-lookup"><span data-stu-id="e617e-160">This button is only available when you press Save after you have selected the Restrict by unit check box.</span></span>  
+2. <span data-ttu-id="e617e-161">ในฟิลด์หน่วย ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="e617e-161">In the Unit field, type a value.</span></span>
+3. <span data-ttu-id="e617e-162">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="e617e-162">Close the page.</span></span>
 
-## <a name="add-a-location-directive-action-line"></a>เพิ่มการดำเนินการในรายการคำสั่งสถานที่
-1. คลิก สร้าง
-    * นี่คือลำดับที่ประมวลผลการดำเนินการรายการคำสั่งสถานที่สำหรับชนิดงานที่เลือก  คุณยังสามารถปรับเปลี่ยนลำดับ ถ้าจำเป็น  
-2. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-    * นี่คือตัวระบุเฉพาะสำหรับการดำเนินการหน่วยคำสั่ง  
-3. ในฟิลด์การใช้สถานที่คงที่ ให้เลือกหนึ่งตัวเลือก
-    * สถานที่คงที่ และสถานที่ไม่คงที่: สถานที่ไม่คงที่ทั้งหมดถูกต้องรวมทั้งสถานที่คงที่ของตนของผลิตภัณฑ์ ภายในช่วงที่ระบุไว้ในการสอบถาม  เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์เท่านั้น: สถานที่คงที่สำหรับผลิตภัณฑ์ถูกต้อง และผลิตภัณฑ์ย่อยทั้งหมดใช้ร่วมกันชุดเดียวกันของสถานที่คงที่ เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์ย่อย: เฉพาะสถานที่คงที่ที่ระบุสำหรับแต่ละผลิตภัณฑ์ย่อยที่มีผลบังคับใช้  
-4. ในฟิลด์กลยุทธ์ ให้เลือกหนึ่งตัวเลือก
-    * ใบสั่งงานของชนิดใบสั่งซื้อสนับสนุนกลยุทธ์ต่อไปนี้: ไม่มี: สินค้าตั้งอยู่ที่ตำแหน่งแรกที่พบ รวมบัญชี: สินค้าถูกจัดวางในสถานที่คล้ายกันมีสินค้าอยู่แล้ว สถานที่ว่างที่ไม่มีงานขาเข้า: สินค้าถูกวางในสถานว่างเปล่าแรกที่พบ ตำแหน่งที่จะถือว่าจะว่างเปล่าถ้ายังไม่มีสินค้าคงคลังทางกายภาพและไม่มีงานขาเข้าที่คาดไว้  
-5. คลิก บันทึก
+## <a name="add-a-location-directive-action-line"></a><span data-ttu-id="e617e-163">เพิ่มการดำเนินการในรายการคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="e617e-163">Add a location directive action line</span></span>
+1. <span data-ttu-id="e617e-164">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="e617e-164">Click New.</span></span>
+    * <span data-ttu-id="e617e-165">นี่คือลำดับที่ประมวลผลการดำเนินการรายการคำสั่งสถานที่สำหรับชนิดงานที่เลือก </span><span class="sxs-lookup"><span data-stu-id="e617e-165">This is the sequence in which the location directive action lines are processed for the selected work type.</span></span> <span data-ttu-id="e617e-166">คุณยังสามารถปรับเปลี่ยนลำดับ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="e617e-166">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="e617e-167">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="e617e-167">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="e617e-168">นี่คือตัวระบุเฉพาะสำหรับการดำเนินการหน่วยคำสั่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-168">This is the unique identifier for this directive action.</span></span>  
+3. <span data-ttu-id="e617e-169">ในฟิลด์การใช้สถานที่คงที่ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="e617e-169">In the Fixed location usage field, select an option.</span></span>
+    * <span data-ttu-id="e617e-170">สถานที่คงที่ และสถานที่ไม่คงที่: สถานที่ไม่คงที่ทั้งหมดถูกต้องรวมทั้งสถานที่คงที่ของตนของผลิตภัณฑ์ ภายในช่วงที่ระบุไว้ในการสอบถาม</span><span class="sxs-lookup"><span data-stu-id="e617e-170">Fixed and non-fixed locations: All non-fixed locations are valid as well as the product’s own fixed location, within the range specified in the query.</span></span>  <span data-ttu-id="e617e-171">เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์เท่านั้น: สถานที่คงที่สำหรับผลิตภัณฑ์ถูกต้อง และผลิตภัณฑ์ย่อยทั้งหมดใช้ร่วมกันชุดเดียวกันของสถานที่คงที่</span><span class="sxs-lookup"><span data-stu-id="e617e-171">Only fixed location for the product: Fixed locations for the product are valid, and all product variants share the same set of fixed locations.</span></span> <span data-ttu-id="e617e-172">เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์ย่อย: เฉพาะสถานที่คงที่ที่ระบุสำหรับแต่ละผลิตภัณฑ์ย่อยที่มีผลบังคับใช้</span><span class="sxs-lookup"><span data-stu-id="e617e-172">Only fixed location for the product variants: Only fixed locations specified for each product variant are valid.</span></span>  
+4. <span data-ttu-id="e617e-173">ในฟิลด์กลยุทธ์ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="e617e-173">In the Strategy field, select an option.</span></span>
+    * <span data-ttu-id="e617e-174">ใบสั่งงานของชนิดใบสั่งซื้อสนับสนุนกลยุทธ์ต่อไปนี้: ไม่มี: สินค้าตั้งอยู่ที่ตำแหน่งแรกที่พบ</span><span class="sxs-lookup"><span data-stu-id="e617e-174">Work orders of type Purchase order support the following strategies: None: the item is placed at the first location that’s found.</span></span> <span data-ttu-id="e617e-175">รวมบัญชี: สินค้าถูกจัดวางในสถานที่คล้ายกันมีสินค้าอยู่แล้ว</span><span class="sxs-lookup"><span data-stu-id="e617e-175">Consolidate: The item is placed in a location where similar items are already available.</span></span> <span data-ttu-id="e617e-176">สถานที่ว่างที่ไม่มีงานขาเข้า: สินค้าถูกวางในสถานว่างเปล่าแรกที่พบ</span><span class="sxs-lookup"><span data-stu-id="e617e-176">Empty location with no incoming work: the item is placed in the first empty location that’s found.</span></span> <span data-ttu-id="e617e-177">ตำแหน่งที่จะถือว่าจะว่างเปล่าถ้ายังไม่มีสินค้าคงคลังทางกายภาพและไม่มีงานขาเข้าที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="e617e-177">A location is considered to be empty if it has no physical inventory and no expected incoming work.</span></span>  
+5. <span data-ttu-id="e617e-178">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="e617e-178">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive-action-line"></a>แก้ไขการสอบถามสำหรับการดำเนินการในรายการคำสั่ง
-1. (คลิกแก้ไขการสอบถาม)
-2. คลิก เพิ่ม
-3. ในฟิลด์ฟิลด์ ให้พิมพ์ค่า 'รหัสโพรไฟล์สถานที่'
-    * ในตัวอย่างนี้ เราจะจำกัดสถานที่เป็นไปได้โดยใช้รหัสโพรไฟล์สถานที่ตั้ง  
-4. ในฟิลด์กรณี ให้ป้อนค่า
-5. คลิก ตกลง
-    * คุณสามารถดำเนินต่อเพื่อเพิ่มบรรทัดคำสั่งและดำเนินการคำสั่งจนกว่าคุณได้ครอบคลุมสถานการณ์จำลองที่เป็นไปได้ทั้งหมดในคลังสินค้าของคุณ  
+## <a name="edit-the-query-for-directive-action-line"></a><span data-ttu-id="e617e-179">แก้ไขการสอบถามสำหรับการดำเนินการในรายการคำสั่ง</span><span class="sxs-lookup"><span data-stu-id="e617e-179">Edit the query for directive action line</span></span>
+1. <span data-ttu-id="e617e-180">(คลิกแก้ไขการสอบถาม)</span><span class="sxs-lookup"><span data-stu-id="e617e-180">Click Edit query.</span></span>
+2. <span data-ttu-id="e617e-181">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="e617e-181">Click Add.</span></span>
+3. <span data-ttu-id="e617e-182">ในฟิลด์ฟิลด์ ให้พิมพ์ค่า 'รหัสโพรไฟล์สถานที่'</span><span class="sxs-lookup"><span data-stu-id="e617e-182">In the Field field, type 'location profile ID'.</span></span>
+    * <span data-ttu-id="e617e-183">ในตัวอย่างนี้ เราจะจำกัดสถานที่เป็นไปได้โดยใช้รหัสโพรไฟล์สถานที่ตั้ง</span><span class="sxs-lookup"><span data-stu-id="e617e-183">In this example, we’ll restrict the possible locations using a location profile ID.</span></span>  
+4. <span data-ttu-id="e617e-184">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="e617e-184">In the Criteria field, type a value.</span></span>
+5. <span data-ttu-id="e617e-185">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="e617e-185">Click OK.</span></span>
+    * <span data-ttu-id="e617e-186">คุณสามารถดำเนินต่อเพื่อเพิ่มบรรทัดคำสั่งและดำเนินการคำสั่งจนกว่าคุณได้ครอบคลุมสถานการณ์จำลองที่เป็นไปได้ทั้งหมดในคลังสินค้าของคุณ</span><span class="sxs-lookup"><span data-stu-id="e617e-186">You can continue to add directive lines and directive actions until you have covered all the possible scenarios in your warehouse.</span></span>  
 
 
