@@ -1,7 +1,7 @@
 ---
 title: "การติดตามสินค้าและวัตถุดิบในสินค้าคงคลัง การผลิต และการขาย"
 description: "หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การติดตามสินค้าเพื่อระบุตำแหน่งที่สินค้าหรือวัตถุดิบได้ถูกใช้ กำลังถูกใช้ หรือจะใช้ในการผลิตและกระบวนการขาย "
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การติดตามสินค้าเพื่อระบุตำแหน่งที่สินค้าหรือวัตถุดิบได้ถูกใช้ กำลังถูกใช้ หรือจะใช้ในการผลิตและกระบวนการขาย  
+หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การติดตามสินค้าเพื่อระบุตำแหน่งที่สินค้าหรือวัตถุดิบได้ถูกใช้ กำลังถูกใช้ หรือจะใช้ในการผลิตและกระบวนการขาย 
 
 มีฟังก์ชันการติดตามสินค้าในหน้า **การติดตามสินค้า** ส่วนต่อไปนี้อธิบายวิธีการที่คุณสามารถใช้การติดตามสินค้าและตัวเลือกและข้อจำกัดมีอะไรบ้าง
 
@@ -142,7 +142,4 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>ฉันสามารถติดตามสินค้าร่วมและสินค้าพลอยได้หรือไม่
 คุณสามารถติดตามสินค้าร่วม แต่คุณไม่สามารถสืบค้นกลับสินค้าพลอยได้ เนื่องจากโดยทั่วไป มิติการติดตามไม่ได้กำหนดให้กับสินค้าพลอยได้  เมื่อคุณติดตามสินค้า รายละเอียดการติดตามรวมถึงผลิตภัณฑ์ร่วมใดๆ ที่เกี่ยวข้อง โหนดที่ประกอบด้วยผลิตภัณฑ์ร่วมมีคำว่า "สินค้าร่วม" ในรายละเอียด คุณยังสามารถดูรายละเอียดเกี่ยวกับผลิตภัณฑ์ร่วมได้ด้วยการเลือกโหนดในรายละเอียดการติดตาม แล้วคลิกแท็บด่วน **การผลิต**
-
-
-
 

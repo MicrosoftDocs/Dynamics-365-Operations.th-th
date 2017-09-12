@@ -1,4 +1,4 @@
---- 
+---
 title: "ปรับปรุงระดับปริมาณสินค้าคงคลังในคลังสินค้า (คลังสินค้าพื้นฐาน)"
 description: "กระบวนงานนี้นำคุณผ่านกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการปรับปรุงสินค้าคงคลังเพื่อปรับปรุงระดับสินค้าคงคลังของผลิตภัณฑ์ในคลังสินค้า "
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 4. คลิก ตกลง
 5. ปิดแบบฟอร์ม
 6. ปิดหน้า
-
 

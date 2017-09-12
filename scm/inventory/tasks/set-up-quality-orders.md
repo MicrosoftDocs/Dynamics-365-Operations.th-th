@@ -1,4 +1,4 @@
---- 
+---
 title: "ตั้งค่าใบสั่งตรวจสอบคุณภาพ"
 description: "กระบวนงานนี้แสดงวิธีการเปิดใช้งานกระบวนการจัดการคุณภาพที่ต้องตรวจสอบสินค้าคงคลังขาเข้าทันทีหลังจากการลงทะเบียนการมาถึง "
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ ms.lasthandoff: 07/27/2017
 15. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 16. คลิก บันทึก
 17. ปิดหน้า
-
 

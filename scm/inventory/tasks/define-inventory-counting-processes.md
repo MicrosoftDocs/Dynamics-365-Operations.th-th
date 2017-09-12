@@ -1,4 +1,4 @@
---- 
+---
 title: "กำหนดกระบวนการตรวจนับสินค้าคงคลัง"
 description: "ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ "
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ ms.lasthandoff: 07/27/2017
 7. ในรายการ เลือกกลุ่มการตรวจนับ
     * ที่นี่คุณสามารถเลือกกลุ่มการตรวจนับเฉพาะที่ควรใช้กับสินค้าในคลังสินค้าเฉพาะที่คุณเลือก  เมื่อการตรวจนับได้ดำเนินการในคลังสินค้า นโยบายการตรวจนับนี้จะแทนที่นโยบายการตรวจนับทั่วไปสำหรับสินค้า  
 8. คลิก บันทึก
-
 

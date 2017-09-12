@@ -1,7 +1,7 @@
 ---
 title: "ผสานชุดงานสินค้าคงคลัง"
 description: "บทความข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการรวมบัญชีสองชุดงานสินค้าคงคลังขึ้นไปไปยังชุดงานแบบผสาน"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการรวมบัญชีสองชุดงานสินค้าคงคลังขึ้นไปไปยังชุดงานแบบผสาน 
+บทความข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการรวมบัญชีสองชุดงานสินค้าคงคลังขึ้นไปไปยังชุดงานแบบผสาน
 
 เมื่อคุณผสานชุดงาน การคำนวณสามารถช่วยปรับลักษณะและแอททริบิวต์ของชุดงานในชุดงานแบบผสาน  หลังจากที่คุณเลือกชุดงานต้นทาง คุณสามารถตรวจทานและเปลี่ยนแปลงชุดงานที่ผสานได้ก่อนที่จะลงรายการบัญชี คุณสามารถโอนย้ายข้อมูลการผสานชุดงานไปที่สมุดรายวันสินค้าคงคลังเพื่อรอการอนุมัติ จากนั้นสามารถจองหรือลงรายการบัญชีสินค้าคงคลังได้โดยตรงจากสมุดรายวันสินค้าคงคลัง เมื่อคุณลงรายการบัญชีชุดงานแบบผสาน สินค้าคงคลังมีการปรับปรุงสำหรับชุดงานต้นทางและชุดงานที่ผสาน
 
@@ -142,7 +142,4 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>หลังจากที่ได้ผสานสินค้าตามน้ำหนักจริง เหตุใดฉันจึงไม่เห็นข้อมูลน้ำหนักจริงในสมุดรายวันสินค้าคงคลัง
 คุณสามารถผสานชุดงานของสินค้าตามน้ำหนักจริงได้เหมือนกับสินค้าอื่นๆทั้งหมด  อย่างไรก็ตาม ข้อมูลน้ำหนักจริงจะไม่แสดงบนสมุดรายวันสินค้าคงคลัง เราขอแนะนำให้คุณตรวจสอบข้อมูลน้ำหนักจริง ก่อนที่คุณโอนย้ายการผสานชุดงานไปยังสมุดรายวันสินค้าคงคลัง
-
-
-
 

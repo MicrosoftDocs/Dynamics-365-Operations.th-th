@@ -1,4 +1,4 @@
---- 
+---
 title: "นับจำนวนสินค้าคงคลังในคลังสินค้า"
 description: "ขั้นตอนนี้นำคุณไปสู่กระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการตรวจนับสินค้าคงคลังในใบสั่งที่นับสินค้าเฉพาะที่สถานที่ในคลังสินค้า "
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ ms.lasthandoff: 07/27/2017
 1. คลิกสินค้าคงคลัง
 2. คลิกธุรกรรม
     * ที่นี่คุณสามารถดูธุรกรรมที่เกี่ยวข้องใดๆ ซึ่งจะถูกสร้างเมื่อคุณลงรายการบัญชีในสมุดรายวันการตรวจนับสินค้าคงคลัง   
-
 

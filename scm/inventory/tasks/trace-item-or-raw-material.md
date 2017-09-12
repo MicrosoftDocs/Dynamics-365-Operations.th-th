@@ -1,4 +1,4 @@
---- 
+---
 title: "ติดตามสินค้าหรือวัตถุดิบ"
 description: "ขั้นตอนนี้แสดงถึงวิธีใช้การติดตามสินค้าเพื่อระบุบสถานที่ของสินค้า หรือวัตถุดิบที่ถูกใช้ หรือกำลังใช้ "
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. บนบานหน้าต่างการดำเนินการ คลิกการติดตาม
 9. คลิก ใบสั่งขายที่จัดส่งสินค้าแล้ว
 10. ปิดหน้า
-
 

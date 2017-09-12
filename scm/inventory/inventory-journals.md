@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้สมุดรายวันสินค้าคงคลังเพื่อลงรายบัญชีธุรกรรมสินค้าคงคลังทางกายภาพชนิดต่างๆ 
+บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้สมุดรายวันสินค้าคงคลังเพื่อลงรายบัญชีธุรกรรมสินค้าคงคลังทางกายภาพชนิดต่างๆ
 
 สมุดรายวันสินค้าคงคลังใน Microsoft Dynamics 365 for Finance and Operations จะใช้ในการลงรายบัญชีธุรกรรมสินค้าคงคลังที่มีอยู่จริงของชนิดต่างๆ เช่นการลงรายการบัญชีการตัดสินค้าจากคลัง และการรับสินค้า ความเคลื่อนไหวของสินค้าคงคลัง การสร้างของสูตรการผลิต (BOM) และการกระทบยอดของสินค้าคงคลังที่มีอยู่จริง สมุดรายวันสินค้าคงคลังเหล่านี้ทั้งหมดจะใช้ในลักษณะคล้ายกัน แต่จะแบ่งออกเป็นประเภทต่าง ๆ
 
@@ -95,7 +95,4 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="posting-journal-lines"></a>รายการสมุดรายวันการลงรายการบัญชี
 คุณสามารถลงรายการบัญชีรายการสมุดรายวันที่คุณสร้างขึ้นเมื่อใดก็ได้จนกว่าคุณได้ล็อคสินค้าจากธุรกรรมเพิ่มเติม ข้อมูลที่คุณป้อนในสมุดรายวันยังคงอยู่ในสมุดรายวัน แม้ว่าคุณปิดสมุดรายวันโดยไม่มีการลงรายการบัญชีรายการ
-
-
-
 
