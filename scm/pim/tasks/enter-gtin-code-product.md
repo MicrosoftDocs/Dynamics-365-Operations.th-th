@@ -1,7 +1,7 @@
 --- 
 title: "ป้อนรหัส GTIN สำหรับผลิตภัณฑ์"
 description: "รหัส GTIN จะถูกกำหนดโดยองค์กร GS1 "
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

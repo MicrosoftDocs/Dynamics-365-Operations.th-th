@@ -1,7 +1,7 @@
 --- 
 title: "สร้างผลิตภัณฑ์ใหม่"
 description: "งานนี้แสดงวิธีการสร้างผลิตภัณฑ์ที่ใช้ร่วมกันใหม่ "
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 06/08/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

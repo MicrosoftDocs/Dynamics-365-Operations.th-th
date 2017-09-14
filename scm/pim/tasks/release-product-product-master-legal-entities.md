@@ -1,7 +1,7 @@
 --- 
 title: "นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ"
 description: "ขั้นตอนนี้จะแนะนำวิธีการนำผลิตภัณฑ์หรือผลิตภัณฑ์หลักออกไปสู่นิติบุคคลอย่างน้อยหนึ่งรายการ "
-author: BibiSp
+author: josaw1
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw1
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
