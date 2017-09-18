@@ -1,7 +1,7 @@
 ---
 title: "พื้นที่ทำงานการควบคุมต้นทุน"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการควบคุมต้นทุน พื้นที่ทำงานนี้จะเป็นจุดศูนย์กลาง ที่ซึ่งผู้จัดการที่รับผิดชอบการควบคุมออบเจ็กต์ต้นทุนหรือชุดของออบเจ็กต์ต้นทุนภายในมิติหรือระหว่างมิติ สามารถเข้าถึงรายงานได้"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f

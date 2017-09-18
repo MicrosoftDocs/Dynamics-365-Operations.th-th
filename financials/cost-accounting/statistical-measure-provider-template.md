@@ -1,7 +1,7 @@
 ---
 title: "สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ"
 description: "หัวข้อนี้ให้ข้อมูลเกี่ยวกับสมาชิกมิติทางสถิติและเท็มเพลตผู้ให้บริการการประเมินทางสถิติ สมาชิกของมิติทางสถิติสามารถใช้เป็นฐานการปันส่วนในนโยบาย เช่น การกระจายต้นทุน และการปันส่วนต้นทุน นอกจากนี้ยังสามารถใช้ในการรายงานปริมาณการใช้ต้นทุนที่ไม่ใช่เงินได้ด้วย"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
