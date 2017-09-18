@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน
+# <a name="access-rights-of-a-cost-object-controller"></a>สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน
 
 [!include[banner](../includes/banner.md)]
 
