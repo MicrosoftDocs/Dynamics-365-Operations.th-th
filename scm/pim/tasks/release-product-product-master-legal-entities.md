@@ -1,0 +1,39 @@
+--- 
+title: "นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ"
+description: "ขั้นตอนนี้จะแนะนำวิธีการนำผลิตภัณฑ์หรือผลิตภัณฑ์หลักออกไปสู่นิติบุคคลอย่างน้อยหนึ่งรายการ "
+author: josaw1
+manager: AnnBe
+ms.date: 11/14/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: josaw1
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: bis
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
+ms.openlocfilehash: 81d7945d347f11d5d86f30edd1844ae4fe26e978
+ms.contentlocale: th-th
+ms.lasthandoff: 07/28/2017
+
+---
+# <a name="release-a-productproduct-master-to-legal-entities"></a>นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+ขั้นตอนนี้จะแนะนำวิธีการนำผลิตภัณฑ์หรือผลิตภัณฑ์หลักออกไปสู่นิติบุคคลอย่างน้อยหนึ่งรายการ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์
+
+1. ไปที่ การขายปลีกและการค้า > .. > ผลิตภัณฑ์ตามประเภท
+2. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
+3. คลิกนำออกใช้ผลิตภัณฑ์ 
+4. คลิก ถัดไป
+5. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
+6. คลิก ถัดไป
+7. คลิก Finish
+
+
