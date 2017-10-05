@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="2221a-101">เราจะไม่ยอมรับการแก้ไขหัวข้อนี้ เนื่องจากถูกสร้างขึ้นจากกระบวนการทางธุรกิจใน Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2221a-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
+> <span data-ttu-id="d01a8-101">เราจะไม่ยอมรับการแก้ไขหัวข้อนี้ เนื่องจากถูกสร้างขึ้นจากกระบวนการทางธุรกิจใน Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="d01a8-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
