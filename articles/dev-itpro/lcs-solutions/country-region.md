@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
 ms.contentlocale: th-th
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 
 หากต้องการค้นหาคู่มืองาน ให้ไปที่หน้าใน Microsoft Dynamics 365 for Finance and Operations แล้วคลิกวิธีใช้ คู่มืองานที่ใช้หน้าจะแสดงรายการอยู่ในบานหน้าต่างวิธีใช้ คุณยังสามารถใช้บานหน้าต่างวิธีใช้เพื่อค้นหาคู่มืองานตามชื่อได้
 
-เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [คู่มืองาน](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides)
+เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [คู่มืองาน](../../fin-and-ops/get-started/help-overview.md#task-guides)
 
 
 ## <a name="countryregion-specific-help-topics"></a>หัวข้อวิธีใช้เฉพาะประเทศ/ภูมิภาค
@@ -80,264 +80,264 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 
 ### <a name="australia"></a>ออสเตรเลีย
 
--   [รูปแบบไฟล์ธนาคาร](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks)
--   [แบบรายงานกิจกรรมทางธุรกิจ ](/dynamics365/unified-operations/financials/localizations/apac-aus-business-activity-statement)
--   [ค่าเสื่อมราคากลุ่มสินทรัพย์มูลค่าต่ำ](/dynamics365/unified-operations/financials/localizations/apac-aus-low-value-pool-depreciation)
+-   [รูปแบบไฟล์ธนาคาร](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
+-   [แบบรายงานกิจกรรมทางธุรกิจ ](../../financials/localizations/apac-aus-business-activity-statement.md)
+-   [ค่าเสื่อมราคากลุ่มสินทรัพย์มูลค่าต่ำ](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
 
 ### <a name="austria"></a>ออสเตรีย
 
-- [ค่าเสื่อมราคาครึ่งปี](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
-- [ค่าธรรมเนียมบรรจุภัณฑ์](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
-- [ภาษีซื้อ](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
-- [คำสั่ง VAT](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [ค่าเสื่อมราคาครึ่งปี](../../financials/localizations/emea-aut-half-year-depreciation.md)
+- [ค่าธรรมเนียมบรรจุภัณฑ์](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
+- [ภาษีซื้อ](../../financials/localizations/emea-aut-purchase-duties.md)
+- [คำสั่ง VAT](../../financials/localizations/emea-aut-vat-statement-details.md)
 
 ### <a name="belgium"></a>เบลเยียม
 
--   [ใบแจ้งยอดจากธนาคาร CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
--   [การรายงานภาษี Intervat](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
--   [การตั้งค่ารายงาน PRODCOM](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
--   [รายงานการกระทบยอด](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
+-   [ใบแจ้งยอดจากธนาคาร CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
+-   [การรายงานภาษี INTERVAT](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
+-   [การตั้งค่ารายงาน PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
+-   [รายงานการกระทบยอด](../../financials/localizations/emea-bel-reconciliation-reports.md)
 
 ### <a name="brazil"></a>บราซิล
 
--   [สินทรัพย์ถาวร CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
--   [ตั้งค่าคอนฟิกสมุดการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
--   [ส่งออกและนำเข้าธุรกรรมสำหรับการรวมบัญชีแยกประเภททั่วไปสำหรับบราซิล](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
--   [สมุดการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
--   [ตัวยึดข้อความของเอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
--   [เอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
--   [เอกสารทางการเงินภาษี ICMS](/dynamics365/unified-operations/financials/localizations/latam-bra-icms-tax-fiscal-documents)
--   [นำเข้าและตรวจสอบเอกสาร NF-e XML และไฟล์ DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails)
--   [นำเข้าเอกสารทางการเงิน](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents)
--   [สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
--   [กระบวนการ NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
--   [พารามิเตอร์สำหรับนิติบุคคล](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
--   [ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์สำหรับบราซิล](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
--   [เอกสารทางการเงินเพิ่มเติมการซื้อ](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
--   [เอกสารทางการเงินที่อ้างอิง](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
--   [เอกสารทางการเงินเพิ่มเติมการขาย](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
--   [เอกสารทางการเงินแบบอิเล็กทรอนิกส์บริการ](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
--   [ตั้งค่า นำเข้า และตรวจสอบเอกสาร NF-e XML และ DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
--   [แอททริบิวต์ภาษี](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
--   [การชำระภาษี](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
--   [ภาษี](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
+-   [สินทรัพย์ถาวร CIAP](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
+-   [ตั้งค่าคอนฟิกสมุดการเงิน](../../financials/localizations/latam-bra-configure-fiscal-books.md)
+-   [ส่งออกและนำเข้าธุรกรรมสำหรับการรวมบัญชีแยกประเภททั่วไปสำหรับบราซิล](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
+-   [สมุดการเงิน](../../financials/localizations/latam-bra-fiscal-books.md)
+-   [ตัวยึดข้อความของเอกสารทางการเงิน](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
+-   [เอกสารทางการเงิน](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
+-   [เอกสารทางการเงินภาษี ICMS](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
+-   [นำเข้าและตรวจสอบเอกสาร NF-e XML และไฟล์ DANFE](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+-   [นำเข้าเอกสารทางการเงิน](../../financials/localizations/latam-bra-import-fiscal-documents.md)
+-   [สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
+-   [กระบวนการ NF-e](../../financials/localizations/latam-bra-nf-e-process.md)
+-   [พารามิเตอร์สำหรับนิติบุคคล](../../financials/localizations/latam-bra-legal-entity-parameters.md)
+-   [ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์สำหรับบราซิล](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
+-   [เอกสารทางการเงินเพิ่มเติมการซื้อ](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
+-   [เอกสารทางการเงินที่อ้างอิง](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
+-   [เอกสารทางการเงินเพิ่มเติมการขาย](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
+-   [เอกสารทางการเงินแบบอิเล็กทรอนิกส์บริการ](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
+-   [ตั้งค่า นำเข้า และตรวจสอบเอกสาร NF-e XML และ DANFE](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [แอททริบิวต์ภาษี](../../financials/localizations/latam-bra-tax-attributes.md)
+-   [การชำระภาษี](../../financials/localizations/latam-bra-tax-payments.md)
+-   [ภาษี](../../financials/localizations/latam-bra-calculate-taxes.md)
 
 ### <a name="china"></a>จีน
--   [การเปรียบเทียบสูตรการผลิต](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison)
--   [ใบสำคัญภาษาจีน](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers)
--   [ตั้งค่าคอนฟิกการรวมภาษี](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration)
-    -   [FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices)
-    -   [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets)
--   [นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity)
--   [แบบจำลองต้นทุนเฉลี่ยรายเดือน](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model)
--   [ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
--   [แสดงยอดเดบิตและเครดิตสำหรับบัญชีแยกประเภท](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits)
+-   [การเปรียบเทียบสูตรการผลิต](../../financials/localizations/apac-chn-bom-comparison.md)
+-   [ใบสำคัญภาษาจีน](../../financials/localizations/apac-chn-vouchers.md)
+-   [ตั้งค่าคอนฟิกการรวมภาษี](../../financials/localizations/apac-chn-tax-integration.md)
+    -   [FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
+-   [นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
+-   [แบบจำลองต้นทุนเฉลี่ยรายเดือน](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
+-   [ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
+-   [แสดงยอดเดบิตและเครดิตสำหรับบัญชีแยกประเภท](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
 ### <a name="the-czech-republic"></a>สาธารณรัฐเช็ก
 
--   [ส่วนลดเงินสดในหมายเลขใบลดหนี้](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount)
--   [การปัดเศษค่าเสื่อมราคา](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding)
--   [ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
--   [การระงับค่าเสื่อมราคา (วันหยุด)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
--   [วิธีการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
--   [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [ใบแจ้งยอด VAT สำหรับสาธารณรัฐเช็ก](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
--   [การทำรายงานภาษีขาย ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
--   [แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
+-   [ส่วนลดเงินสดในหมายเลขใบลดหนี้](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
+-   [การปัดเศษค่าเสื่อมราคา](../../financials/localizations/emea-cze-depreciation-rounding.md)
+-   [ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
+-   [การระงับค่าเสื่อมราคา (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
+-   [วิธีการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
+-   [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+-   [ใบแจ้งยอด VAT สำหรับสาธารณรัฐเช็ก](../../financials/localizations/emea-cze-vat-statement-details.md)
+-   [การทำรายงานภาษีขาย ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
+-   [แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด](../../financials/localizations/emea-create-post-periodic-journals.md)
+-   [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+-   [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](../../financials/localizations/emea-amount-printing-forms.md)
 
 ### <a name="estonia"></a>เอสโตเนีย
 
--   [รายละเอียดใบแจ้งยอด VAT สำหรับเอสโตเนีย](/dynamics365/unified-operations/financials/localizations/emea-est-vat-statement-details)
--   [การตัดจำหน่ายสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+-   [รายละเอียดใบแจ้งยอด VAT สำหรับเอสโตเนีย](../../financials/localizations/emea-est-vat-statement-details.md)
+-   [การตัดจำหน่ายสินทรัพย์ถาวร](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
 ### <a name="europe"></a>ยุโรป
-- [ผู้ถือครองเงินทดรองจ่าย](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
-- [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
-- [การออกใบแจ้งหนี้ขั้นสูง](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
-- [การกระทบยอดบัญชีธนาคาร](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
-- [การออกใบแจ้งหนี้ที่มีการแก้ไข](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
-- [สร้างและลงรายการบัญชีสมุดรายวันประจำงวด](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
-- [แก้ไขหมายเลขใบแจ้งหนี้ในใบสั่งขาย](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
-- [ใบรับรองของรายการสำหรับ EU](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
-- [การรายงานรายการขายใน EU](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
-- [การปรับปรุงอัตราแลกเปลี่ยน](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
-- [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
-- [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
-- [นำเข้าไฟล์ ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
-- [อินทราสแทต](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
-- [รายงานสมุดรายวันสินค้าคงคลัง](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
-- [การกำหนดหมายเลขใบแจ้งหนี้และบันทึกการจัดส่งสำหรับลัตเวียและลิทัวเนีย](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
-- [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
-- [มาตรฐาน OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
-- [รายงานใบสำคัญการชำระเงิน](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
-- [เงินสดย่อย](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
-- [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
-- [รหัสไปรษณีย์](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
-- [รหัสการลงทะเบียน](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
-- [ค่าธรรมเนียมการส่งกลับ](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
-- [ภาพรวมของการโอนย้ายเครดิต SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
-- [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
-- [การตั้งค่าค่าตอบแทนลูกค้าและผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
-- [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
-- [การกลับรายการบัญชี](/dynamics365/unified-operations/financials/localizations/emea-storno)
-- [คำสั่งภาษี](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
-- [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
-- [อัตราแลกเปลี่ยน VAT](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
-- [ธุรกรรมการลงทะเบียน VAT สำหรับยุโรปตะวันออก](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
-- [การรายงาน VAT](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
-- [ดูธุรกรรมในการจ่ายเงิน](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [ผู้ถือครองเงินทดรองจ่าย](../../financials/localizations/emea-advance-holders.md)
+- [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](../../financials/localizations/emea-advance-holders-transactions.md)
+- [การออกใบแจ้งหนี้ขั้นสูง](../../financials/localizations/emea-advance-invoice.md)
+- [การกระทบยอดบัญชีธนาคาร](../../financials/localizations/emea-bank-reconciliation.md)
+- [การออกใบแจ้งหนี้ที่มีการแก้ไข](../../financials/localizations/emea-corrective-invoice.md)
+- [สร้างและลงรายการบัญชีสมุดรายวันประจำงวด](../../financials/localizations/emea-create-post-periodic-journals.md)
+- [แก้ไขหมายเลขใบแจ้งหนี้ในใบสั่งขาย](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
+- [ใบรับรองของรายการสำหรับ EU](../../financials/localizations/emea-entry-certificates.md)
+- [การรายงานรายการขายใน EU](../../financials/localizations/emea-eu-sales-list.md)
+- [การปรับปรุงอัตราแลกเปลี่ยน](../../financials/localizations/emea-exchange-rate-adjustments.md)
+- [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
+- [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+- [นำเข้าไฟล์ ISO20022](../../financials/localizations/emea-ISO20022-file-formats.md)
+- [อินทราสแทต](../../financials/localizations/emea-intrastat.md)
+- [รายงานสมุดรายวันสินค้าคงคลัง](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
+- [การกำหนดหมายเลขใบแจ้งหนี้และบันทึกการจัดส่งสำหรับลัตเวียและลิทัวเนีย](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+- [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](../../financials/localizations/emea-invoice-issue-deadline.md)
+- [มาตรฐาน OIOUBL](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
+- [รายงานใบสำคัญการชำระเงิน](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
+- [เงินสดย่อย](../../financials/localizations/emea-petty-cash.md)
+- [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+- [รหัสไปรษณีย์](../../financials/localizations/emea-import-create-postal-codes-manually.md)
+- [รหัสการลงทะเบียน](../../financials/localizations/emea-registration-ids.md)
+- [ค่าธรรมเนียมการส่งกลับ](../../financials/localizations/emea-reverse-charge.md)
+- [ภาพรวมของการโอนย้ายเครดิต SEPA](../../financials/accounts-payable/sepa-credit-transfer.md)
+- [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
+- [การตั้งค่าค่าตอบแทนลูกค้าและผู้จัดจำหน่าย](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
+- [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+- [การกลับรายการบัญชี](../../financials/localizations/emea-storno.md)
+- [คำสั่งภาษี](../../financials/localizations/emea-tax-directives.md)
+- [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](../../financials/localizations/emea-amount-printing-forms.md) 
+- [อัตราแลกเปลี่ยน VAT](../../financials/localizations/emea-vat-exchange-rate.md)
+- [ธุรกรรมการลงทะเบียน VAT สำหรับยุโรปตะวันออก](../../financials/localizations/emea-vat-register-transactions.md)
+- [การรายงาน VAT](../../financials/localizations/emea-vat-reporting.md)
+- [ดูธุรกรรมในการจ่ายเงิน](../../financials/localizations/emea-transactions-settlement-form.md)
 
 ### <a name="france"></a>ฝรั่งเศส
--   [หมายเลขใบสำคัญและใบแจ้งหนี้ตามลำดับเวลา](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
--   [ค่าเสื่อมราคาตามการเสื่อมสภาพสำหรับฝรั่งเศส](/dynamics365/unified-operations/financials/localizations/emea-fra-derogatory-depreciation)
--   [รหัส NAF และหมายเลข Siret](/dynamics365/unified-operations/financials/localizations/emea-fra-naf-codes-siret-numbers)
--   [บทลงโทษสำหรับการชำระเงินที่เลยกำหนดของลูกค้าในประเทศฝรั่งเศส](/dynamics365/unified-operations/financials/localizations/emea-fra-apply-penalty-customer-payment-past-due)
--   [พิมพ์ข้อความการขอคืนจำนวนเงินรวมทั้งหมดในใบแจ้งหนี้ของลูกค้า](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text)
--   [ค่าเสื่อมราคา RB/SL](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation)
+-   [หมายเลขใบสำคัญและใบแจ้งหนี้ตามลำดับเวลา](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
+-   [ค่าเสื่อมราคาตามการเสื่อมสภาพสำหรับฝรั่งเศส](../../financials/localizations/emea-fra-derogatory-depreciation.md)
+-   [รหัส NAF และหมายเลข Siret](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
+-   [บทลงโทษสำหรับการชำระเงินที่เลยกำหนดของลูกค้าในประเทศฝรั่งเศส](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
+-   [พิมพ์ข้อความการขอคืนจำนวนเงินรวมทั้งหมดในใบแจ้งหนี้ของลูกค้า](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
+-   [ค่าเสื่อมราคา RB/SL](../../financials/localizations/emea-fra-rbsl-depreciation.md)
 
 #### <a name="public-sector"></a>ภาครัฐ
-   -   [ข้อผูกมัดในภาครัฐ](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
-   -   [Mandats paiement de ในภาครัฐ](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
-   -   [การจัดซื้อและการจัดหา](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-   -   [การบัญชีภาครัฐ](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
-   -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
-   -   [การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
+   -   [ข้อผูกมัดในภาครัฐ](../../financials/localizations/emea-fra-commitments-public-sector.md)
+   -   [Mandats paiement de ในภาครัฐ](../../financials/localizations/emea-fra-mandats-de-paiement.md)
+   -   [การจัดซื้อและการจัดหา](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
+   -   [การบัญชีภาครัฐ](../../financials/localizations/emea-fra-public-sector-accounting.md)
+   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
+   -   [การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
 
 ### <a name="germany"></a>เยอรมนี
--   [ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
--   [ไฟล์การตรวจสอบภาษาเยอรมัน (GDPdU/GoBD)](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
--   [รายงานรายการสมุดรายวันภาษาเยอรมัน](/dynamics365/unified-operations/financials/localizations/emea-deu-journal-list-report)
--   [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย](/dynamics365/unified-operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
+-   [ไฟล์การตรวจสอบภาษาเยอรมัน (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
+-   [รายงานรายการสมุดรายวันภาษาเยอรมัน](../../financials/localizations/emea-deu-journal-list-report.md)
+-   [พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
 
 ### <a name="hungary"></a>ฮังการี
 
--   [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods) 
--   [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
--   [สินทรัพย์ถาวรต้นทุนต่ำ](/dynamics365/unified-operations/financials/localizations/emea-hun-low-cost-fixed-assets)
+-   [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
+-   [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [สินทรัพย์ถาวรต้นทุนต่ำ](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
 ### <a name="italy"></a>อิตาลี
 
--   [รายงานรายชื่อบัญชีดำของอิตาลี](/dynamics365/unified-operations/financials/localizations/emea-ita-black-list-report)
--   [รายละเอียดใบแจ้งยอด VAT](/dynamics365/unified-operations/financials/localizations/emea-ita-vat-statements-details)
--   [วันที่ใช้ได้สำหรับธุรกรรม](/dynamics365/unified-operations/financials/localizations/emea-ita-competence-date)
--   [การคิดค่าเสื่อมราคาด้วยตนเองของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-ita-depreciation-of-fixed-assets)
--   [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้สำหรับอิตาลี](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
--   [สมุดบัญชีภาษีขายภาษาอิตาลี](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
--   [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [ภาษีหัก ณ ที่จ่าย](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
+-   [รายงานรายชื่อบัญชีดำของอิตาลี](../../financials/localizations/emea-ita-black-list-report.md)
+-   [รายละเอียดใบแจ้งยอด VAT](../../financials/localizations/emea-ita-vat-statements-details.md)
+-   [วันที่ใช้ได้สำหรับธุรกรรม](../../financials/localizations/emea-ita-competence-date.md)
+-   [การคิดค่าเสื่อมราคาด้วยตนเองของสินทรัพย์ถาวร](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้สำหรับอิตาลี](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+-   [สมุดบัญชีภาษีขายภาษาอิตาลี](../../financials/localizations/emea-ita-fiscal-books.md)
+-   [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
+-   [ภาษีหัก ณ ที่จ่าย](../../financials/localizations/emea-ita-withholding-tax.md)
 
 ### <a name="japan"></a>ญี่ปุ่น
 
--  [ค่าธรรมเนียมการชำระเงินของธนาคารชำระโดยผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--  [ใบแจ้งหนี้ที่รวมบัญชี](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
--  [กฎการปันส่วนสำหรับสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
--  [วิธีแบ่งค่าเสื่อมราคาเท่าๆ กัน](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
--  [ค่าเสื่อมราคาของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
--  [จัดการการด้อยค่าสินทรัพย์ถาวรในเงินสดที่สร้างหน่วย](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
--  [นำเข้ารหัสไปรษณีย์](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
--  [ตั้งค่าข้อผูกมัดของการตัดจำหน่ายสำหรับสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
--  [ตั้งค่ารายการที่มีการลดสำหรับสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--  [ชำระให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--  [การคำนวณภาษีหัก ณ ที่จ่ายแบบก้าวหน้า](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [ค่าธรรมเนียมการชำระเงินของธนาคารชำระโดยผู้จัดจำหน่าย](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
+-  [ใบแจ้งหนี้ที่รวมบัญชี](../../financials/localizations/apac-jpn-consolidate-invoices.md)
+-  [กฎการปันส่วนสำหรับสินทรัพย์ถาวร](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
+-  [วิธีแบ่งค่าเสื่อมราคาเท่าๆ กัน](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
+-  [ค่าเสื่อมราคาของสินทรัพย์ถาวร](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
+-  [จัดการการด้อยค่าสินทรัพย์ถาวรในเงินสดที่สร้างหน่วย](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
+-  [นำเข้ารหัสไปรษณีย์](../../financials/localizations/apac-jpn-import-postal-codes.md)
+-  [ตั้งค่าข้อผูกมัดของการตัดจำหน่ายสำหรับสินทรัพย์ถาวร](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
+-  [ตั้งค่ารายการที่มีการลดสำหรับสินทรัพย์ถาวร](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
+-  [ชำระให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
+-  [การคำนวณภาษีหัก ณ ที่จ่ายแบบก้าวหน้า](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
 ### <a name="latvia"></a>ลัตเวีย
 
--   [บัญชีสินทรัพย์ถาวรสำหรับวัตถุประสงค์ด้านภาษี](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting)
--   [การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change)
--   [ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [รายงานภาษีของทรัพยากรธรรมชาติ](/dynamics365/unified-operations/financials/localizations/emea-lva-tax-natural-resources)
--   [รายละเอียดใบแจ้งยอด VAT](/dynamics365/unified-operations/financials/localizations/emea-lva-vat-statement-details)
+-   [บัญชีสินทรัพย์ถาวรสำหรับวัตถุประสงค์ด้านภาษี](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
+-   [การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
+-   [ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [รายงานภาษีของทรัพยากรธรรมชาติ](../../financials/localizations/emea-lva-tax-natural-resources.md)
+-   [รายละเอียดใบแจ้งยอด VAT](../../financials/localizations/emea-lva-vat-statement-details.md)
 
 ### <a name="lithuania"></a>ลิทัวเนีย
 
--   [รายงานซ่อมแซมสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
--   [ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [รายละเอียดใบแจ้งยอด VAT](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
+-   [รายงานซ่อมแซมสินทรัพย์ถาวร](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
+-   [ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [รายละเอียดใบแจ้งยอด VAT](../../financials/localizations/emea-ltu-vat-statement-details.md)
 
 ### <a name="mexico"></a>เม็กซิโก
 
--   [สถานะการรายงานภาษี DIOT](/dynamics365/unified-operations/financials/localizations/latam-mex-diot-declaration-statement)
--   [ใบแจ้งยอดบัญชีแยกประเภทอิเล็กทรอนิกส์](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements)
--   [การรายงานการปรับปรุงเงินเฟ้อ](/dynamics365/unified-operations/financials/localizations/latam-mex-adjustment-inflation-declaration-report)
--   [รายงานการรายงานภาษี ISR](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes)
--   [ใบแจ้งหนี้อิเล็กทรอนิกส์ (CFDI)](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices)
+-   [สถานะการรายงานภาษี DIOT](../../financials/localizations/latam-mex-diot-declaration-statement.md)
+-   [ใบแจ้งยอดบัญชีแยกประเภทอิเล็กทรอนิกส์](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
+-   [การรายงานการปรับปรุงเงินเฟ้อ](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
+-   [รายงานการรายงานภาษี ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
+-   [ใบแจ้งหนี้อิเล็กทรอนิกส์ (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
    
 ### <a name="malaysia"></a>มาเลเซีย
 
--   [ภาษีสินค้าและบริการ (GST)](/dynamics365/unified-operations/financials/localizations/apac-mys-gst)
+-   [ภาษีสินค้าและบริการ (GST)](../../financials/localizations/apac-mys-gst.md)
 
 ### <a name="netherlands"></a>เนเธอร์แลนด์
 
--   [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+-   [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](../../financials/localizations/emea-invoice-issue-deadline.md)
 
 ### <a name="norway"></a>นอร์เวย์
 
--   [รูปแบบนำเข้า Nets](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
--   [คำสั่ง VAT](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
+-   [รูปแบบนำเข้า Nets](../../financials/localizations/emea-nor-nets-import-format.md)
+-   [คำสั่ง VAT](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
 ### <a name="poland"></a>โปแลนด์
 
--   [คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price)
--   [หมายเหตุการแก้ไข](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes)
--   [ทำสำเนาการกำหนดหมายเลขใบแจ้งหนี้การขาย](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
--   [ค่าเสื่อมราคาของสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-assets-depreciation)
--   [การตัดจำหน่ายสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
--   [บรรจุภัณฑ์ที่สามารถส่งคืนได้](/dynamics365/unified-operations/financials/localizations/emea-pol-returnable-packages)
--   [รายงานภาษีขาย](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-tax-reports)
--   [ไฟล์การตรวจสอบมาตรฐาน (SAF)](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf)
--   [รายงานยอดขายและยอดดุล](/dynamics365/unified-operations/financials/localizations/emea-pol-turnover-balances-statement)
+-   [คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
+-   [หมายเหตุการแก้ไข](../../financials/localizations/emea-pol-correction-notes.md)
+-   [ทำสำเนาการกำหนดหมายเลขใบแจ้งหนี้การขาย](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
+-   [ค่าเสื่อมราคาของสินทรัพย์ถาวร](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
+-   [การตัดจำหน่ายสินทรัพย์ถาวร](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
+-   [บรรจุภัณฑ์ที่สามารถส่งคืนได้](../../financials/localizations/emea-pol-returnable-packages.md)
+-   [รายงานภาษีขาย](../../financials/localizations/emea-pol-sales-tax-reports.md)
+-   [ไฟล์การตรวจสอบมาตรฐาน (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
+-   [รายงานยอดขายและยอดดุล](../../financials/localizations/emea-pol-turnover-balances-statement.md)
 
 ### <a name="saudi-arabia"></a>ซาอุดีอาระเบีย
 
--   [การรายงาน Zakat](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting)
+-   [การรายงาน Zakat](../../financials/localizations/emea-sau-zakat-reporting.md)
 
 ### <a name="singapore"></a>สิงคโปร์
 
--   [สร้างรายงาน GST-05 สิงคโปร์](/dynamics365/unified-operations/financials/localizations/apac-sgp-generate-gst-05-report)
+-   [สร้างรายงาน GST-05 สิงคโปร์](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
 ### <a name="spain"></a>สเปน
 
--   [ตัวเลือกตั๋วแลกเงินของสเปน](/dynamics365/unified-operations/financials/localizations/emea-esp-bill-of-exchange-options)
--   [มีการใช้ส่วนลดเงินสดในพารามิเตอร์ใบแจ้งหนี้](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [ภาษีขายแบบมีเงื่อนไข](/dynamics365/unified-operations/financials/localizations/emea-esp-conditional-sales-tax)
--   [กลุ่มการประเมินค่าสินทรัพย์ถาวร](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
--   [VAT ภายในประชาคม](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
--   [ลูกค้าขาจร](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
--   [พิมพ์เช็คโดยใช้ภาษาสเปน](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
--   [ตัวเลือกตั๋วสัญญาใช้เงินภาษาสเปน](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
--   [วงจรการขายและการซื้อ](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
--   [รายการพิเศษและแผ่นงานการเปิด](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
--   [ใช้ข้อมูลบัญชีจากบัญชีใบแจ้งหนี้](/dynamics365/unified-operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [ตัวเลือกตั๋วแลกเงินของสเปน](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
+-   [มีการใช้ส่วนลดเงินสดในพารามิเตอร์ใบแจ้งหนี้](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
+-   [ภาษีขายแบบมีเงื่อนไข](../../financials/localizations/emea-esp-conditional-sales-tax.md)
+-   [กลุ่มการประเมินค่าสินทรัพย์ถาวร](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
+-   [VAT ภายในประชาคม](../../financials/localizations/emea-esp-intra-community-vat.md)
+-   [ลูกค้าขาจร](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
+-   [พิมพ์เช็คโดยใช้ภาษาสเปน](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
+-   [ตัวเลือกตั๋วสัญญาใช้เงินภาษาสเปน](../../financials/localizations/emea-esp-promissory-note-options.md)
+-   [วงจรการขายและการซื้อ](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
+-   [รายการพิเศษและแผ่นงานการเปิด](../../financials/localizations/emea-esp-opening-sheets-spain.md)
+-   [ใช้ข้อมูลบัญชีจากบัญชีใบแจ้งหนี้](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
 
 ### <a name="sweden"></a>สวีเดน
 
--   [นำเข้ารูปแบบการชำระเงินสำหรับสวีเดน](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
--   [เครื่องบันทึกเงินสดสำหรับสวีเดน](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
+-   [นำเข้ารูปแบบการชำระเงินสำหรับสวีเดน](../../financials/localizations/emea-swe-payment-formats-import.md)
+-   [เครื่องบันทึกเงินสดสำหรับสวีเดน](../../retail/localizations/emea-swe-cash-registers.md)
 
 ### <a name="switzerland"></a>สวิตเซอร์แลนด์
 
--   [การนำเข้าการชำระเงินของลูกค้า ESR](/dynamics365/unified-operations/financials/localizations/emea-che-esr-customer-payments-import)
+-   [การนำเข้าการชำระเงินของลูกค้า ESR](../../financials/localizations/emea-che-esr-customer-payments-import.md)
 
 ### <a name="thailand"></a>ไทย
 
--   [รายงานบัตรสินค้าคงคลัง](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
--   [ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
--   [VAT ที่ยังไม่รับรู้](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
--   [ภาษีหัก ณ ที่จ่าย](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
+-   [รายงานบัตรสินค้าคงคลัง](../../financials/localizations/apac-tha-stock-card-reports.md)
+-   [ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
+-   [VAT ที่ยังไม่รับรู้](../../financials/localizations/apac-tha-unrealized-vat.md)
+-   [ภาษีหัก ณ ที่จ่าย](../../financials/localizations/apac-tha-withholding-tax.md)
 
 ### <a name="united-kingdom"></a>สหราชอาณาจักร
 
--   [แผนงานอุตสาหกรรมก่อสร้างสำหรับสหราชอาณาจักร](/dynamics365/unified-operations/financials/localizations/emea-gbr-cis-construction-industry-scheme)
+-   [แผนงานอุตสาหกรรมก่อสร้างสำหรับสหราชอาณาจักร](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
 
 ### <a name="united-states"></a>สหรัฐอเมริกา
 
--   [แบบฟอร์ม 1099 ของภาครัฐ](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
--   [การตรวจสอบแบบฟอร์ม I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
--   [การรายงาน 1099 สิ้นปี](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
--   [ระบบค่าจ้าง](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
--   [ภาครัฐ](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
+-   [แบบฟอร์ม 1099 ของภาครัฐ](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
+-   [การตรวจสอบแบบฟอร์ม I-9](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [การรายงาน 1099 สิ้นปี](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
+-   [Payroll](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
+-   [ภาครัฐ](../../financials/public-sector/public-sector-functionality.md)
 
 
 
