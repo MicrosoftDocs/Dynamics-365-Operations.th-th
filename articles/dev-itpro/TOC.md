@@ -1,6 +1,6 @@
 # [การพัฒนาและการดูแลระบบสำหรับ Dynamics 365 for Finance and Operations](index.md)
 # [การปรับใช้ในองค์กรสำหรับการปรับใช้ระบบคลาวด์](../fin-and-ops/get-started/system-requirements.md)
-# [ความต้องการของระบบสำหรับการปรับใช้ในองค์กร](../fin-and-ops/get-started/system-requirements-on-prem.md)
+# [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [ข้อมูลสาธิต](../fin-and-ops/get-started/demo-data.md)
 
 
@@ -410,12 +410,12 @@
 ### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](deployment/arm-onboarding.md)
 ### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
 
-## [การปรับใช้ในองค์กร](deployment/on-premises-deployment-landing-page.md)
-### [ภาพรวมในองค์กร](deployment/on-premises-overview.md)
+## [การปรับใช้ในสถานที่](deployment/on-premises-deployment-landing-page.md)
+### [ภาพรวมในสถานที่](deployment/on-premises-overview.md)
 ### [การกำหนดขนาดฮาร์ดแวร์](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-### [สร้างโครงการแบบในองค์กร](lifecycle-services/lbd-create-lcs-on-prem-project.md)
-### [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร](deployment/setup-deploy-on-premises-environments.md)
-### [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร](deployment/develop-deploy-custom-models-on-premises.md)
+### [สร้างโครงการแบบในสถานที่](lifecycle-services/lbd-create-lcs-on-prem-project.md)
+### [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่](deployment/setup-deploy-on-premises-environments.md)
+### [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่](deployment/develop-deploy-custom-models-on-premises.md)
 
 ## ปรับใช้รหัสที่กำหนดเอง
 ### [สร้างแพคเกจที่สามารถปรับใช้ได้](deployment/create-apply-deployable-package.md)
@@ -451,10 +451,11 @@
 ### [แบ่งแบบจำลอง](dev-tools/model-split.md)
 ### [ใช้ผู้รับมอบสิทธิ์เพื่อแก้ไขการอ้างอิงระหว่างแบบจำลอง](migration-upgrade/delegates-migration.md)
 
+
 ## อัพเกรดเป็นการอัพเดตล่าสุด
 ### [กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด](migration-upgrade/upgrade-latest-update.md)
 ### [นโยบายเกี่ยวกับรอบการใช้งาน](migration-upgrade/versions-update-policy.md)
-### [อัพเกรดเป็นการอัพเดตแพลตฟอร์มล่าสุด](migration-upgrade/upgrade-latest-platform-update.md)
+### [อัพเกรดเป็น Platform Update ล่าสุด](migration-upgrade/upgrade-latest-platform-update.md)
 ### [อัพเกรดแพลตฟอร์ม Dynamics เป็นการนำออกใช้เดือนสิงหาคม 2016](migration-upgrade/update-platform-each-release.md)
 ### [อัพเกรดสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต](migration-upgrade/upgrade-data-to-latest-update.md)
@@ -511,6 +512,8 @@
 ## [อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเอง](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [การตรวจสอบและการวินิจฉัย ](lifecycle-services/monitoring-diagnostics.md)
 ## [ไลบรารีแอสเซท](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - ภาพรวมบริการแปลภาษา](lifecycle-services/translation-service-overview.md)
+### [คู่มือผู้ใช้บริการแปลภาษาของ Microsoft Dynamics 365  ](lifecycle-services/use-translation-service.md)
 
 ## คุณลักษณะของ Dynamics AX 2012 Lifecycle Services
 ### การปรับใช้

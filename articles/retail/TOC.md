@@ -1,5 +1,8 @@
 # [ยินดีต้อนรับสู่ Dynamics 365 for Retail](index.md)
 
+# เริ่มต้นใช้งาน
+## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](get-started/whats-new.md)
+
 # การชำระเงิน
 ## [วิธีการชำระเงิน](payment-methods.md)
 ## [การตั้งค่าบัตรเครดิต ตรวจสอบ และรวบรวมข้อมูล](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -175,7 +178,8 @@
 #### [การเรียกใช้อุปกรณ์ Retail POS](dev-itpro/retail-device-activation.md)
 #### [Retail Cloud POS ที่ปลอดภัย](dev-itpro/secure-retail-cloud-pos.md)
 ### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md)
-### [เหตุการณ์ของส่วนประกอบการขายปลีกสำหรับการวินิจฉัยและการแก้ไขปัญหา](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+### [การปรับใช้อย่างกว้างของส่วนประกอบ Retail แบบบริการตนเอง](dev-itpro/retail-mass-deployment.md)
+### [เหตุการณ์ของส่วนประกอบ Retail สำหรับการวินิจฉัยและการแก้ไขปัญหา](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [ใช้แพคเกจที่สามารถปรับใช้ได้](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## การอัพเกรดและการสนับสนุน N-1
