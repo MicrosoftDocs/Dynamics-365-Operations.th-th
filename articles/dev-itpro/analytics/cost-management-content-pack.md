@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 06/13/2017
 แหล่งข้อมูลหลักสำหรับ CostAggregatedCostStatementEntryEntity คือ ตาราง CostStatementCache ตารางนี้จะถูกจัดการโดยกรอบงานแคชชุดข้อมูล โดยค่าเริ่มต้น ตารางจะได้รับการอัพเดตทุก ๆ 24 ชั่วโมง แต่คุณสามารถเปิดใช้งานการอัพเดตด้วยตนเองในการตั้งค่าคอนฟิกแคชข้อมูล จากนั้นคุณสามารถทำการอัพเดตด้วยตนเองในพื้นที่ทำงาน **การจัดการต้นทุน** หรือ **การวิเคราะห์ต้นทุน** หลังจากที่มีการรันการอัพเดตของ CostStatementCache คุณต้องอัพเดตการเชื่อมต่อ OData บน Power BI.com เพื่อดูข้อมูลที่อัพเดตแล้วบนไซต์ หน่วยวัดผลต่าง (การซื้อ การผลิต) ในเนื้อหา Power BI นี้เกี่ยวข้องกับสินค้าที่มีการตีราคาโดยวิธีการของสินค้าคงคลังต้นทุนมาตรฐานเท่านั้น ผลต่างการผลิตถูกคำนวณเป็นส่วนต่างระหว่างต้นทุนที่ใช้งานอยู่และต้นทุนที่รับรู้ มีการคำนวณผลต่างการผลิตเมื่อใบสั่งผลิตมีสถานะเป็น **สิ้นสุด** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับชนิดของผลต่างการผลิตและวิธีคำนวณแต่ละชนิด ให้ดูที่[เกี่ยวกับการวิเคราะห์ผลต่างสำหรับใบสั่งผลิตที่เสร็จสมบูรณ์](https://technet.microsoft.com/en-us/library/gg242850.aspx)
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-มีเนื้อหา **การจัดการต้นทุน** ใน Power BI อยู่บน PowerBI.com ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและโหลดข้อมูล Microsoft Dynamics 365 for Finance and Operations ของคุณได้ที่ [เข้าถึงเนื้อหา Power BI จาก PowerBI.com](power-bi-home-page.md)
+เนื้อหา Power BI **การจัดการต้นทุน** พร้อมใช้งานจาก PowerBI.com ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและโหลดข้อมูล Microsoft Dynamics 365 for Finance and Operations ของคุณได้ที่ [เข้าใช้เนื้อหา Power BI จาก PowerBI.com](power-bi-home-page.md)
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>เมตริกที่รวมอยู่ในเนื้อหา Power BI
 เนื้อหาประกอบด้วยชุดของหน้าของรายงาน แต่ละหน้าประกอบด้วยชุดของเมตริกที่แสดงภาพข้อมูลเป็นแผนภูมิ ไทล์ และตาราง ตารางต่อไปนี้แสดงภาพรวมของการแสดงภาพประกอบในเนื้อหา **การจัดการต้นทุน** ใน Power BI

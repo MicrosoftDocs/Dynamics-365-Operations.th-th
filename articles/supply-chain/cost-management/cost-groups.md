@@ -1,7 +1,7 @@
 ---
 title: "กลุ่มต้นทุน"
 description: "กลุ่มต้นทุนนำเสนอพื้นฐานสำหรับการจัดเซกเมนต์และวิเคราะห์การจัดสรรต้นทุนในต้นทุนที่ได้รับการคำนวณของสินค้าที่ผลิต เช่น การจัดสรรต้นทุนสำหรับวัสดุ แรงงาน และโสหุ้ย  การแบ่งเซกเมนต์ของกลุ่มต้นทุนมีคำเหมือนหลายคำภายในสภาพแวดล้อมการผลิต เช่น แจกแจงต้นทุน จำแนกต้นทุน หรือแบ่งประเภทต้นทุน"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb335a521a1a79ea7d978171d233364c58765a0b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 022cca99bc5ad1f4c023b0b7aba748a2ef6b1d60
 ms.contentlocale: th-th
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
