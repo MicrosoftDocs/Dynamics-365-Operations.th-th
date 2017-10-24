@@ -17,38 +17,38 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b7d579ca7e2b9ca8cbead74b2c2ababfd142f171
 ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="set-up-warehouse-work-policies"></a><span data-ttu-id="b0991-103">ตั้งค่านโยบายงานของคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="b0991-103">Set up warehouse work policies</span></span> 
+# <a name="set-up-warehouse-work-policies"></a><span data-ttu-id="1dc4a-103">ตั้งค่านโยบายงานของคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="1dc4a-103">Set up warehouse work policies</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b0991-104">กระบวนการคลังสินค้าไม่รวมงานคลังสินค้าเสมอไป</span><span class="sxs-lookup"><span data-stu-id="b0991-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="b0991-105">โดยการกำหนดนโยบายงาน คุณสามารถป้องกันการสร้างงานสำหรับการเบิกวัตถุดิบและการสำรองสินค้าสำเร็จรูป สำหรับชุดของผลิตภัณฑ์ที่ตำแหน่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="b0991-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="b0991-106">บริษัทข้อมูลสาธิต USMF ถูกนำมาใช้เพื่อสร้างการบันทึกนี้</span><span class="sxs-lookup"><span data-stu-id="b0991-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="b0991-107">คู่มืองานนี้ต้องการแอพพลิเคชัน Dynamics AX 7.0.1 ขึ้นไป</span><span class="sxs-lookup"><span data-stu-id="b0991-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
+<span data-ttu-id="1dc4a-104">กระบวนการคลังสินค้าไม่รวมงานคลังสินค้าเสมอไป</span><span class="sxs-lookup"><span data-stu-id="1dc4a-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="1dc4a-105">โดยการกำหนดนโยบายงาน คุณสามารถป้องกันการสร้างงานสำหรับการเบิกวัตถุดิบและการสำรองสินค้าสำเร็จรูป สำหรับชุดของผลิตภัณฑ์ที่ตำแหน่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="1dc4a-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="1dc4a-106">บริษัทข้อมูลสาธิต USMF ถูกนำมาใช้เพื่อสร้างการบันทึกนี้</span><span class="sxs-lookup"><span data-stu-id="1dc4a-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="1dc4a-107">คู่มืองานนี้ต้องการแอพพลิเคชัน Dynamics AX 7.0.1 ขึ้นไป</span><span class="sxs-lookup"><span data-stu-id="1dc4a-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 
-1. <span data-ttu-id="b0991-108">ไปที่การจัดการคลังสินค้า > ตั้งค่า > งาน > นโยบายงาน</span><span class="sxs-lookup"><span data-stu-id="b0991-108">Go to Warehouse management > Setup > Work > Work policies.</span></span>
-2. <span data-ttu-id="b0991-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="b0991-109">Click New.</span></span>
-3. <span data-ttu-id="b0991-110">ในฟิลด์ชื่อนโยบายงาน ให้พิมพ์ 'ไม่มีงานการย้ายเก็บ'</span><span class="sxs-lookup"><span data-stu-id="b0991-110">In the Work policy name field, type 'No put-away work'.</span></span>
-4. <span data-ttu-id="b0991-111">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b0991-111">Click Save.</span></span>
-5. <span data-ttu-id="b0991-112">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="b0991-112">Click Add.</span></span>
-6. <span data-ttu-id="b0991-113">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b0991-113">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="b0991-114">ในฟิลด์ชนิดใบสั่งงาน ให้เลือก 'การสำรองสินค้าที่สำเร็จแล้ว'</span><span class="sxs-lookup"><span data-stu-id="b0991-114">In the Work order type field, select 'Finished goods put away'.</span></span>
-8. <span data-ttu-id="b0991-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="b0991-115">Click Add.</span></span>
-9. <span data-ttu-id="b0991-116">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b0991-116">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="b0991-117">ในฟิลด์ชนิดใบสั่งงาน ให้เลือก 'การสำรองผลิตภัณฑ์ร่วมและสินค้าพลอยได้'</span><span class="sxs-lookup"><span data-stu-id="b0991-117">In the Work order type field, select 'Co-product and by-product put away'.</span></span>
-11. <span data-ttu-id="b0991-118">ขยายส่วนสถานที่เก็บสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="b0991-118">Expand the Inventory locations section.</span></span>
-12. <span data-ttu-id="b0991-119">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="b0991-119">Click Add.</span></span>
-13. <span data-ttu-id="b0991-120">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b0991-120">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="b0991-121">ในรายการคลังสินค้า ป้อน '51'</span><span class="sxs-lookup"><span data-stu-id="b0991-121">In the Warehouse list, enter '51'.</span></span>
-15. <span data-ttu-id="b0991-122">ในฟิลด์สถานที่ ให้ป้อนหรือเลือก '001'</span><span class="sxs-lookup"><span data-stu-id="b0991-122">In the Location field, enter or select '001'.</span></span>
-16. <span data-ttu-id="b0991-123">ขยายส่วนผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="b0991-123">Expand the Products section.</span></span>
-17. <span data-ttu-id="b0991-124">ในฟิลด์การเลือกผลิตภัณฑ์ ให้ป้อน 'เลือกแล้ว'</span><span class="sxs-lookup"><span data-stu-id="b0991-124">In the Product selection field, select 'Selected'.</span></span>
-18. <span data-ttu-id="b0991-125">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="b0991-125">Click Add.</span></span>
-19. <span data-ttu-id="b0991-126">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b0991-126">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="b0991-127">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือก 'L0101'</span><span class="sxs-lookup"><span data-stu-id="b0991-127">In the Item number field, enter or select 'L0101'.</span></span>
-21. <span data-ttu-id="b0991-128">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="b0991-128">Click Save.</span></span>
+1. <span data-ttu-id="1dc4a-108">ไปที่การจัดการคลังสินค้า > ตั้งค่า > งาน > นโยบายงาน</span><span class="sxs-lookup"><span data-stu-id="1dc4a-108">Go to Warehouse management > Setup > Work > Work policies.</span></span>
+2. <span data-ttu-id="1dc4a-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="1dc4a-109">Click New.</span></span>
+3. <span data-ttu-id="1dc4a-110">ในฟิลด์ชื่อนโยบายงาน ให้พิมพ์ 'ไม่มีงานการย้ายเก็บ'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-110">In the Work policy name field, type 'No put-away work'.</span></span>
+4. <span data-ttu-id="1dc4a-111">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="1dc4a-111">Click Save.</span></span>
+5. <span data-ttu-id="1dc4a-112">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="1dc4a-112">Click Add.</span></span>
+6. <span data-ttu-id="1dc4a-113">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1dc4a-113">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="1dc4a-114">ในฟิลด์ชนิดใบสั่งงาน ให้เลือก 'การสำรองสินค้าที่สำเร็จแล้ว'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-114">In the Work order type field, select 'Finished goods put away'.</span></span>
+8. <span data-ttu-id="1dc4a-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="1dc4a-115">Click Add.</span></span>
+9. <span data-ttu-id="1dc4a-116">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1dc4a-116">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="1dc4a-117">ในฟิลด์ชนิดใบสั่งงาน ให้เลือก 'การสำรองผลิตภัณฑ์ร่วมและสินค้าพลอยได้'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-117">In the Work order type field, select 'Co-product and by-product put away'.</span></span>
+11. <span data-ttu-id="1dc4a-118">ขยายส่วนสถานที่เก็บสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="1dc4a-118">Expand the Inventory locations section.</span></span>
+12. <span data-ttu-id="1dc4a-119">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="1dc4a-119">Click Add.</span></span>
+13. <span data-ttu-id="1dc4a-120">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1dc4a-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="1dc4a-121">ในรายการคลังสินค้า ป้อน '51'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-121">In the Warehouse list, enter '51'.</span></span>
+15. <span data-ttu-id="1dc4a-122">ในฟิลด์สถานที่ ให้ป้อนหรือเลือก '001'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-122">In the Location field, enter or select '001'.</span></span>
+16. <span data-ttu-id="1dc4a-123">ขยายส่วนผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="1dc4a-123">Expand the Products section.</span></span>
+17. <span data-ttu-id="1dc4a-124">ในฟิลด์การเลือกผลิตภัณฑ์ ให้ป้อน 'เลือกแล้ว'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-124">In the Product selection field, select 'Selected'.</span></span>
+18. <span data-ttu-id="1dc4a-125">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="1dc4a-125">Click Add.</span></span>
+19. <span data-ttu-id="1dc4a-126">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1dc4a-126">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="1dc4a-127">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือก 'L0101'</span><span class="sxs-lookup"><span data-stu-id="1dc4a-127">In the Item number field, enter or select 'L0101'.</span></span>
+21. <span data-ttu-id="1dc4a-128">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="1dc4a-128">Click Save.</span></span>
 
 

@@ -19,28 +19,28 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ceeb82130a3ab214ef3e9eda09294c9bcc0c7cc0
 ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a><span data-ttu-id="839af-103">กำหนดเวอร์ชัน BOM</span><span class="sxs-lookup"><span data-stu-id="839af-103">Determine the BOM version</span></span>
+# <a name="determine-the-bom-version"></a><span data-ttu-id="e0487-103">กำหนดเวอร์ชัน BOM</span><span class="sxs-lookup"><span data-stu-id="e0487-103">Determine the BOM version</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="839af-104">ในระหว่างการกระจายความต้องการ ถ้าสินค้ามีชนิดใบสั่งเริ่มต้นของการผลิต กลไกจัดการการวางแผนจะหารุ่น BOM ที่ถูกต้องตามไซต์</span><span class="sxs-lookup"><span data-stu-id="839af-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
+<span data-ttu-id="e0487-104">ในระหว่างการกระจายความต้องการ ถ้าสินค้ามีชนิดใบสั่งเริ่มต้นของการผลิต กลไกจัดการการวางแผนจะหารุ่น BOM ที่ถูกต้องตามไซต์</span><span class="sxs-lookup"><span data-stu-id="e0487-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 
-<span data-ttu-id="839af-105">มิติไซต์จะทราบเสมอ และระบุในธุรกรรมความต้องการ</span><span class="sxs-lookup"><span data-stu-id="839af-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="839af-106">กระบวนการต่อไปนี้จะใช้เพื่อกำหนดรุ่น BOM ที่จะใช้:</span><span class="sxs-lookup"><span data-stu-id="839af-106">The following process is used to determine the BOM version to use:</span></span>
+<span data-ttu-id="e0487-105">มิติไซต์จะทราบเสมอ และระบุในธุรกรรมความต้องการ</span><span class="sxs-lookup"><span data-stu-id="e0487-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="e0487-106">กระบวนการต่อไปนี้จะใช้เพื่อกำหนดรุ่น BOM ที่จะใช้:</span><span class="sxs-lookup"><span data-stu-id="e0487-106">The following process is used to determine the BOM version to use:</span></span>
 
--   <span data-ttu-id="839af-107">ถ้ามีรุ่น BOMที่กำหนดสำหรับสินค้าที่ไซต์ความต้องการ BOM เฉพาะไซต์จะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="839af-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
--   <span data-ttu-id="839af-108">ถ้าไม่มีรุ่น BOM เฉพาะไซต์ที่กำหนดสำหรับสินค้าที่ไซต์ความต้องการ BOM ทั่วไปจะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="839af-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="839af-109">BOM ทั่วไปไม่ได้ระบุไซต์ และสามารถใช้ได้กับหลายไซต์</span><span class="sxs-lookup"><span data-stu-id="839af-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="839af-110">ถ้ามี BOM ทั่วไป ก็จะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="839af-110">If there is a general BOM, it is used.</span></span>
--   <span data-ttu-id="839af-111">ถ้าไม่มีรุ่น BOM ทั่วไปที่จะใช้ การกระจายความต้องการจะหยุดที่จุดนี้</span><span class="sxs-lookup"><span data-stu-id="839af-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
+-   <span data-ttu-id="e0487-107">ถ้ามีรุ่น BOMที่กำหนดสำหรับสินค้าที่ไซต์ความต้องการ BOM เฉพาะไซต์จะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="e0487-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
+-   <span data-ttu-id="e0487-108">ถ้าไม่มีรุ่น BOM เฉพาะไซต์ที่กำหนดสำหรับสินค้าที่ไซต์ความต้องการ BOM ทั่วไปจะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="e0487-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="e0487-109">BOM ทั่วไปไม่ได้ระบุไซต์ และสามารถใช้ได้กับหลายไซต์</span><span class="sxs-lookup"><span data-stu-id="e0487-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="e0487-110">ถ้ามี BOM ทั่วไป ก็จะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="e0487-110">If there is a general BOM, it is used.</span></span>
+-   <span data-ttu-id="e0487-111">ถ้าไม่มีรุ่น BOM ทั่วไปที่จะใช้ การกระจายความต้องการจะหยุดที่จุดนี้</span><span class="sxs-lookup"><span data-stu-id="e0487-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
 
-<span data-ttu-id="839af-112">BOM เวอร์ชันที่ถูกต้อง ไม่ว่าจะเป็นแบบเฉพาะไซต์หรือทั่วไป ต้องมีลักษณะตรงตามเงื่อนไขเกี่ยวกับวันที่และปริมาณที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="839af-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
+<span data-ttu-id="e0487-112">BOM เวอร์ชันที่ถูกต้อง ไม่ว่าจะเป็นแบบเฉพาะไซต์หรือทั่วไป ต้องมีลักษณะตรงตามเงื่อนไขเกี่ยวกับวันที่และปริมาณที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="e0487-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
 
 
 

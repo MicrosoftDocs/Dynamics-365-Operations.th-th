@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: c04997ccc29182f0f403af0e4ad5f039dbd4ae60
 ms.contentlocale: th-th
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="fixed-asset-mass-update"></a><span data-ttu-id="be3d4-103">การอัพเดตสินทรัพย์ถาวรโดยรวม</span><span class="sxs-lookup"><span data-stu-id="be3d4-103">Fixed asset mass update</span></span>
+# <a name="fixed-asset-mass-update"></a><span data-ttu-id="11618-103">การอัพเดตสินทรัพย์ถาวรโดยรวม</span><span class="sxs-lookup"><span data-stu-id="11618-103">Fixed asset mass update</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="be3d4-104">ถ้าคุณใช้สมุดบัญชี คุณสามารถเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับกลุ่มของสินทรัพย์ที่เป็นส่วนหนึ่งของสมุดบัญชีเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="be3d4-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
+<span data-ttu-id="11618-104">ถ้าคุณใช้สมุดบัญชี คุณสามารถเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับกลุ่มของสินทรัพย์ที่เป็นส่วนหนึ่งของสมุดบัญชีเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="11618-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
 
-<span data-ttu-id="be3d4-105">ตัวอย่างเช่น ถ้าคุณอยู่ในสหรัฐอเมริกา และคุณใช้สินทรัพย์ของคุณมากกว่า 40 เปอร์เซ็นต์ในบริการในระหว่างไตรมาสสี่ของปี คุณต้องใช้แบบแผนการคิดค่าเสื่อมราคากลางไตรมาส</span><span class="sxs-lookup"><span data-stu-id="be3d4-105">For example, if you are in the United States, and you put more than 40 percent of your assets in service during the fourth quarter of the year, you must use the mid-quarter depreciation convention.</span></span> <span data-ttu-id="be3d4-106">คุณสามารถใช้กระบวนการสำหรับการอัพเดตโดยรวมเพื่อเปลี่ยนสินทรัพย์ทั้งหมดที่ต้องใช้แบบแผนการคิดค่าเสื่อมราคาใหม่</span><span class="sxs-lookup"><span data-stu-id="be3d4-106">You can use the process for a mass update to change all assets that require the new depreciation convention.</span></span> 
+<span data-ttu-id="11618-105">ตัวอย่างเช่น ถ้าคุณอยู่ในสหรัฐอเมริกา และคุณใช้สินทรัพย์ของคุณมากกว่า 40 เปอร์เซ็นต์ในบริการในระหว่างไตรมาสสี่ของปี คุณต้องใช้แบบแผนการคิดค่าเสื่อมราคากลางไตรมาส</span><span class="sxs-lookup"><span data-stu-id="11618-105">For example, if you are in the United States, and you put more than 40 percent of your assets in service during the fourth quarter of the year, you must use the mid-quarter depreciation convention.</span></span> <span data-ttu-id="11618-106">คุณสามารถใช้กระบวนการสำหรับการอัพเดตโดยรวมเพื่อเปลี่ยนสินทรัพย์ทั้งหมดที่ต้องใช้แบบแผนการคิดค่าเสื่อมราคาใหม่</span><span class="sxs-lookup"><span data-stu-id="11618-106">You can use the process for a mass update to change all assets that require the new depreciation convention.</span></span> 
 
-<span data-ttu-id="be3d4-107">เมื่อคุณอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ คุณลบธุรกรรมค่าเสื่อมราคาทั้งหมดที่มีอยู่สำหรับสินทรัพย์ดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="be3d4-107">When you update the depreciation convention for assets, you delete all depreciation transactions that exist for those assets.</span></span> <span data-ttu-id="be3d4-108">คุณยังจะลบธุรกรรมทั้งหมดสำหรับการปรับปรุงค่าเสื่อมราคา ธุรกรรมค่าเสื่อมราคาโบนัส และธุรกรรมค่าเสื่อมราคาพิเศษของสินทรัพย์เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="be3d4-108">You also delete all transactions for depreciation adjustments, transactions for bonus depreciation, and transactions for extraordinary depreciation for those assets.</span></span> 
+<span data-ttu-id="11618-107">เมื่อคุณอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ คุณลบธุรกรรมค่าเสื่อมราคาทั้งหมดที่มีอยู่สำหรับสินทรัพย์ดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="11618-107">When you update the depreciation convention for assets, you delete all depreciation transactions that exist for those assets.</span></span> <span data-ttu-id="11618-108">คุณยังจะลบธุรกรรมทั้งหมดสำหรับการปรับปรุงค่าเสื่อมราคา ธุรกรรมค่าเสื่อมราคาโบนัส และธุรกรรมค่าเสื่อมราคาพิเศษของสินทรัพย์เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="11618-108">You also delete all transactions for depreciation adjustments, transactions for bonus depreciation, and transactions for extraordinary depreciation for those assets.</span></span> 
 
-<span data-ttu-id="be3d4-109">ถ้าต้องการอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ซึ่งตัดจำหน่ายแล้ว คุณต้องลบธุรกรรมการตัดจำหน่ายที่มีอยู่ออกก่อน</span><span class="sxs-lookup"><span data-stu-id="be3d4-109">To update the depreciation convention for assets that have already been disposed of, you must first delete the existing disposal transactions.</span></span> <span data-ttu-id="be3d4-110">คุณต้องลบธุรกรรมทั้งหมดที่สร้างขึ้นเนื่องจากกระบวนการตัดจำหน่ายออกด้วย</span><span class="sxs-lookup"><span data-stu-id="be3d4-110">You must also delete all transactions that were generated because of the disposal process.</span></span> 
+<span data-ttu-id="11618-109">ถ้าต้องการอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ซึ่งตัดจำหน่ายแล้ว คุณต้องลบธุรกรรมการตัดจำหน่ายที่มีอยู่ออกก่อน</span><span class="sxs-lookup"><span data-stu-id="11618-109">To update the depreciation convention for assets that have already been disposed of, you must first delete the existing disposal transactions.</span></span> <span data-ttu-id="11618-110">คุณต้องลบธุรกรรมทั้งหมดที่สร้างขึ้นเนื่องจากกระบวนการตัดจำหน่ายออกด้วย</span><span class="sxs-lookup"><span data-stu-id="11618-110">You must also delete all transactions that were generated because of the disposal process.</span></span> 
 
-<span data-ttu-id="be3d4-111">หลังจากคุณอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ คุณสามารถดำเนินการในส่วนของค่าเสื่อมราคาและค่าเสื่อมราคาพิเศษของสินทรัพย์แต่ละรายการได้</span><span class="sxs-lookup"><span data-stu-id="be3d4-111">After you update the depreciation convention for assets, you can process depreciation and extraordinary depreciation for each asset.</span></span> <span data-ttu-id="be3d4-112">คุณยังสามารถทำการปรับปรุงค่าเสื่อมราคาด้วยตนเอง ถ้าจำเป็นต้องมีการปรับปรุงใด ๆ</span><span class="sxs-lookup"><span data-stu-id="be3d4-112">You can also make manual depreciation adjustments, if any adjustments are required.</span></span>
+<span data-ttu-id="11618-111">หลังจากคุณอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ คุณสามารถดำเนินการในส่วนของค่าเสื่อมราคาและค่าเสื่อมราคาพิเศษของสินทรัพย์แต่ละรายการได้</span><span class="sxs-lookup"><span data-stu-id="11618-111">After you update the depreciation convention for assets, you can process depreciation and extraordinary depreciation for each asset.</span></span> <span data-ttu-id="11618-112">คุณยังสามารถทำการปรับปรุงค่าเสื่อมราคาด้วยตนเอง ถ้าจำเป็นต้องมีการปรับปรุงใด ๆ</span><span class="sxs-lookup"><span data-stu-id="11618-112">You can also make manual depreciation adjustments, if any adjustments are required.</span></span>
 
 
 

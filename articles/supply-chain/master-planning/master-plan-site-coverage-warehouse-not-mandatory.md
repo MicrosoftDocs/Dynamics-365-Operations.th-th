@@ -19,49 +19,49 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 79582e92daeaf0afb032448d36be12edd0926089
 ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="afcf1-103">การวางแผนหลักสำหรับความครอบคลุมไซต์ที่ไม่จำเป็นต้องมีคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="afcf1-103">Master planning for site coverage, warehouse not mandatory</span></span>
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="ca8fe-103">การวางแผนหลักสำหรับความครอบคลุมไซต์ที่ไม่จำเป็นต้องมีคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="ca8fe-103">Master planning for site coverage, warehouse not mandatory</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="afcf1-104">หัวข้อนี้อธิบายวิธีการวางแผนสินค้าที่มีไซต์เป็นชุดมิติความครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="afcf1-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
+<span data-ttu-id="ca8fe-104">หัวข้อนี้อธิบายวิธีการวางแผนสินค้าที่มีไซต์เป็นชุดมิติความครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="ca8fe-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
 
-<span data-ttu-id="afcf1-105">สถานการณ์จำลองการวางแผนหลักนี้มีเงื่อนไขดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="afcf1-105">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="ca8fe-105">สถานการณ์จำลองการวางแผนหลักนี้มีเงื่อนไขดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ca8fe-105">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="afcf1-106">มิติไซต์มีการตั้งค่าเป็นข้อมูลบังคับ และต้องป้อนบนธุรกรรมความต้องการ</span><span class="sxs-lookup"><span data-stu-id="afcf1-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="afcf1-107">ไม่ได้ตั้งค่ามิติคลังสินค้าเป็นข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="afcf1-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="afcf1-108">คุณอาจจะทราบคลังสินค้า แต่มันไม่ได้ใช้ในการคำนวณการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="afcf1-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
--   <span data-ttu-id="afcf1-109">มิติไซต์ตั้งค่าสำหรับการวางแผนความครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="afcf1-109">The site dimension is set for coverage planning.</span></span>
--   <span data-ttu-id="afcf1-110">มิติคลังสินค้าไม่ได้ตั้งค่าสำหรับการวางแผนความครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="afcf1-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="afcf1-111">ดังนั้น การจัดหาวัสดุและความต้องการถูกรวมโดยไซต์ และอาจรวมถึงมิติความครอบคลุมที่วางแผนอื่นด้วย</span><span class="sxs-lookup"><span data-stu-id="afcf1-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
+-   <span data-ttu-id="ca8fe-106">มิติไซต์มีการตั้งค่าเป็นข้อมูลบังคับ และต้องป้อนบนธุรกรรมความต้องการ</span><span class="sxs-lookup"><span data-stu-id="ca8fe-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="ca8fe-107">ไม่ได้ตั้งค่ามิติคลังสินค้าเป็นข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="ca8fe-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="ca8fe-108">คุณอาจจะทราบคลังสินค้า แต่มันไม่ได้ใช้ในการคำนวณการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="ca8fe-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
+-   <span data-ttu-id="ca8fe-109">มิติไซต์ตั้งค่าสำหรับการวางแผนความครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="ca8fe-109">The site dimension is set for coverage planning.</span></span>
+-   <span data-ttu-id="ca8fe-110">มิติคลังสินค้าไม่ได้ตั้งค่าสำหรับการวางแผนความครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="ca8fe-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="ca8fe-111">ดังนั้น การจัดหาวัสดุและความต้องการถูกรวมโดยไซต์ และอาจรวมถึงมิติความครอบคลุมที่วางแผนอื่นด้วย</span><span class="sxs-lookup"><span data-stu-id="ca8fe-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
 
-<span data-ttu-id="afcf1-112">รูปภาพต่อไปนี้แสดงวิธีการประมวลผลการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="afcf1-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="afcf1-113">พารามิเตอร์ที่มีการอ้างอิงในรูปภาพ และตำแหน่งของพารามิเตอร์เหล่านั้นมีดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="afcf1-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
--   <span data-ttu-id="afcf1-114">มีการกำหนดความครอบคลุมสินค้าสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="afcf1-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="afcf1-115">คลิก **การจัดการข้อมูลผลิตภัณฑ์ &gt; ผลิตภัณฑ์&gt; ผลิตภัณฑ์ที่นำออกใช้**</span><span class="sxs-lookup"><span data-stu-id="afcf1-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="afcf1-116">เลือกสินค้า และคลิก **วางแผน &gt; ความครอบคลุมสินค้า**</span><span class="sxs-lookup"><span data-stu-id="afcf1-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
--   <span data-ttu-id="afcf1-117">มีการกำหนดความสัมพันธ์ในการเติมสินค้าสำหรับคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="afcf1-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="afcf1-118">คลิก **การบริหารสินค้าคงคลัง &gt; การตั้งค่า &gt; แบ่งสินค้าคงคลัง &gt; คลังสินค้า**</span><span class="sxs-lookup"><span data-stu-id="afcf1-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="afcf1-119">บนแท็บ **การวางแผนหลัก** ดูกลุ่มฟิลด์ **คลังสินค้าหลัก**</span><span class="sxs-lookup"><span data-stu-id="afcf1-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
--   <span data-ttu-id="afcf1-120">ใบสั่งประเภทใบสั่งเริ่มต้นที่ถูกตั้งค่าเป็นการผลิต ใบสั่งซื้อหรือคัมบัง</span><span class="sxs-lookup"><span data-stu-id="afcf1-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="afcf1-121">คลิก **การจัดการข้อมูลผลิตภัณฑ์ &gt; ผลิตภัณฑ์&gt; ผลิตภัณฑ์ที่นำออกใช้**</span><span class="sxs-lookup"><span data-stu-id="afcf1-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="afcf1-122">เลือกสินค้า และคลิก **วางแผน &gt; การตั้งค่าใบสั่งเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="afcf1-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="afcf1-123">ในฟอร์ม **การตั้งค่าใบสั่งเริ่มต้น** ดูฟิลด์ **ประเภทใบสั่งเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="afcf1-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
+<span data-ttu-id="ca8fe-112">รูปภาพต่อไปนี้แสดงวิธีการประมวลผลการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="ca8fe-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="ca8fe-113">พารามิเตอร์ที่มีการอ้างอิงในรูปภาพ และตำแหน่งของพารามิเตอร์เหล่านั้นมีดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ca8fe-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="ca8fe-114">มีการกำหนดความครอบคลุมสินค้าสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="ca8fe-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="ca8fe-115">คลิก **การจัดการข้อมูลผลิตภัณฑ์ &gt; ผลิตภัณฑ์&gt; ผลิตภัณฑ์ที่นำออกใช้**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="ca8fe-116">เลือกสินค้า และคลิก **วางแผน &gt; ความครอบคลุมสินค้า**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
+-   <span data-ttu-id="ca8fe-117">มีการกำหนดความสัมพันธ์ในการเติมสินค้าสำหรับคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="ca8fe-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="ca8fe-118">คลิก **การบริหารสินค้าคงคลัง &gt; การตั้งค่า &gt; แบ่งสินค้าคงคลัง &gt; คลังสินค้า**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="ca8fe-119">บนแท็บ **การวางแผนหลัก** ดูกลุ่มฟิลด์ **คลังสินค้าหลัก**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="ca8fe-120">ใบสั่งประเภทใบสั่งเริ่มต้นที่ถูกตั้งค่าเป็นการผลิต ใบสั่งซื้อหรือคัมบัง</span><span class="sxs-lookup"><span data-stu-id="ca8fe-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="ca8fe-121">คลิก **การจัดการข้อมูลผลิตภัณฑ์ &gt; ผลิตภัณฑ์&gt; ผลิตภัณฑ์ที่นำออกใช้**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="ca8fe-122">เลือกสินค้า และคลิก **วางแผน &gt; การตั้งค่าใบสั่งเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="ca8fe-123">ในฟอร์ม **การตั้งค่าใบสั่งเริ่มต้น** ดูฟิลด์ **ประเภทใบสั่งเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="ca8fe-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
 
 ![ความต้องการความครอบคลุมไซต์ที่ไม่จำเป็นต้องมีคลังสินค้า](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-<a name="see-also"></a><span data-ttu-id="afcf1-125">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="afcf1-125">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="ca8fe-125">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="ca8fe-125">See also</span></span>
 --------
 
-[<span data-ttu-id="afcf1-126">การวางแผนหลักและฟังก์ชันหลายไซต์</span><span class="sxs-lookup"><span data-stu-id="afcf1-126">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="ca8fe-126">การวางแผนหลักและฟังก์ชันหลายไซต์</span><span class="sxs-lookup"><span data-stu-id="ca8fe-126">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[<span data-ttu-id="afcf1-127">การวางแผนหลัก - ความครอบคลุมไซต์ ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="afcf1-127">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="ca8fe-127">การวางแผนหลัก - ความครอบคลุมไซต์ ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="ca8fe-127">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="afcf1-128">การวางแผนหลัก - ความครอบคลุมไซต์และคลังสินค้า คลังสินค้าไม่ใช่ข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="afcf1-128">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="ca8fe-128">การวางแผนหลัก - ความครอบคลุมไซต์และคลังสินค้า คลังสินค้าไม่ใช่ข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="ca8fe-128">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="afcf1-129">การวางแผนหลัก- ความครอบคลุมไซต์และคลังสินค้า ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="afcf1-129">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="ca8fe-129">การวางแผนหลัก- ความครอบคลุมไซต์และคลังสินค้า ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="ca8fe-129">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="afcf1-130">การวางแผนหลัก - วิธีการกำหนดเวอร์ชัน BOM</span><span class="sxs-lookup"><span data-stu-id="afcf1-130">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="ca8fe-130">การวางแผนหลัก - วิธีการกำหนดเวอร์ชัน BOM</span><span class="sxs-lookup"><span data-stu-id="ca8fe-130">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

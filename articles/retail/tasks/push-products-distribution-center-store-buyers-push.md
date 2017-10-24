@@ -17,39 +17,39 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dce0016ede691a70a6eb1bf3240fa595efec0241
 ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="593ac-103"> กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก</span><span class="sxs-lookup"><span data-stu-id="593ac-103">Push products from distribution center to store using buyer's push</span></span>
+# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="95928-103"> กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก</span><span class="sxs-lookup"><span data-stu-id="95928-103">Push products from distribution center to store using buyer's push</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="593ac-104">ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการจัดส่งสินค้าแบบผลักเพื่อกระจายผลิตภัณฑ์จากสถานที่เดียวไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น </span><span class="sxs-lookup"><span data-stu-id="593ac-104">This procedure walks through the steps to create and process a Buyer´s push to distribute products from one location to one or many stores.</span></span> <span data-ttu-id="593ac-105">ผู้ใช้สามารถกำหนดโครงแบบหลายชนิดและให้ระบบแนะนำวิธีการกระจายผลิตภัณฑ์ หรือป้อนสถานที่ที่จะกระจายผลิตภัณฑ์และจำนวนที่จะกระจายให้กับร้านค้าแต่ละร้านด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="593ac-105">The user can define multiple configurations and have the system suggest how to distribute the products, or manually enter where the products are distributed to and how much gets distributed to each store.</span></span> <span data-ttu-id="593ac-106">กระบวนการนี้ไม่ได้รวมการตั้งค่าข้อมูลที่สามารถใช้ในการจัดส่งสินค้าแบบผลัก เช่น กฎการเพิ่มเติมสินค้า ลำดับชั้นขององค์กร และน้ำหนักของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="593ac-106">This procedure doesn't include setup of data that can be used in the Buyer´s push, such as replenishment rules, organizational hierarchies, and store weights.</span></span> <span data-ttu-id="593ac-107">ขั้นตอนนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="593ac-107">This procedure uses the USRT demo company.</span></span>
+<span data-ttu-id="95928-104">ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการจัดส่งสินค้าแบบผลักเพื่อกระจายผลิตภัณฑ์จากสถานที่เดียวไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น </span><span class="sxs-lookup"><span data-stu-id="95928-104">This procedure walks through the steps to create and process a Buyer´s push to distribute products from one location to one or many stores.</span></span> <span data-ttu-id="95928-105">ผู้ใช้สามารถกำหนดโครงแบบหลายชนิดและให้ระบบแนะนำวิธีการกระจายผลิตภัณฑ์ หรือป้อนสถานที่ที่จะกระจายผลิตภัณฑ์และจำนวนที่จะกระจายให้กับร้านค้าแต่ละร้านด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="95928-105">The user can define multiple configurations and have the system suggest how to distribute the products, or manually enter where the products are distributed to and how much gets distributed to each store.</span></span> <span data-ttu-id="95928-106">กระบวนการนี้ไม่ได้รวมการตั้งค่าข้อมูลที่สามารถใช้ในการจัดส่งสินค้าแบบผลัก เช่น กฎการเพิ่มเติมสินค้า ลำดับชั้นขององค์กร และน้ำหนักของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="95928-106">This procedure doesn't include setup of data that can be used in the Buyer´s push, such as replenishment rules, organizational hierarchies, and store weights.</span></span> <span data-ttu-id="95928-107">ขั้นตอนนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="95928-107">This procedure uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="593ac-108">ไปที่การจัดส่งสินค้าแบบผลัก</span><span class="sxs-lookup"><span data-stu-id="593ac-108">Go to Buyer's push.</span></span>
-2. <span data-ttu-id="593ac-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="593ac-109">Click New.</span></span>
-3. <span data-ttu-id="593ac-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="593ac-110">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="593ac-111">ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="593ac-111">In the Site field, enter or select a value.</span></span>
-5. <span data-ttu-id="593ac-112">ในฟิลด์คลังสินค้า ป้อนหรือเลือกคลังสินค้าที่มีผลิตภัณฑ์ที่มีปริมาณคงคลังคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="593ac-112">In the Warehouse field, enter or select a warehouse that has products with on-hand quantities.</span></span>
-6. <span data-ttu-id="593ac-113">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="593ac-113">Click Add.</span></span>
-7. <span data-ttu-id="593ac-114">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="593ac-114">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="593ac-115">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="593ac-115">In the Item number field, enter or select a product.</span></span>
-9. <span data-ttu-id="593ac-116">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="593ac-116">Click Add.</span></span>
-10. <span data-ttu-id="593ac-117">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="593ac-117">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="593ac-118">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="593ac-118">In the Item number field, enter or select a variant product.</span></span>
-    * <span data-ttu-id="593ac-119">เมื่อป้อนผลิตภัณฑ์ย่อย บรรทัดจะถูกสร้างขึ้นสำหรับตัวแปรแต่ละตัว</span><span class="sxs-lookup"><span data-stu-id="593ac-119">When entering a variant product, lines will be created for each variant.</span></span>  
-12. <span data-ttu-id="593ac-120">ในรายการนี้ ทำเครื่องหมายที่แถว</span><span class="sxs-lookup"><span data-stu-id="593ac-120">In the list, mark a row.</span></span>
-13. <span data-ttu-id="593ac-121">ในฟิลด์ปริมาณแบบผลัก พิมพ์จำนวนของผลิตภัณฑ์ที่เลือกว่าคุณต้องการกระจายมากแค่ไหน</span><span class="sxs-lookup"><span data-stu-id="593ac-121">In the Pushed quantity field, type how many of the selected product you want to distribute.</span></span>
-14. <span data-ttu-id="593ac-122">ในฟิลด์ปริมาณเพิ่มเติมที่จะผลัก ป้อนปริมาณของผลิตภัณฑ์ที่มีปริมาณพร้อมใช้งานเพื่อกระจาย</span><span class="sxs-lookup"><span data-stu-id="593ac-122">In the Additional quantity to push field, enter the quantity of the products that have available quantity to distribute.</span></span>
-15. <span data-ttu-id="593ac-123">ในฟิลด์การกระจาย ป้อน 'น้ำหนักของสถานที่เก็บ'</span><span class="sxs-lookup"><span data-stu-id="593ac-123">In the Distribution field, enter 'Location weight'.</span></span>
-    * <span data-ttu-id="593ac-124">คุณสามารถเลือกประเภทอื่นๆ เพื่อใช้กฎอื่นๆ สำหรับการกระจาย</span><span class="sxs-lookup"><span data-stu-id="593ac-124">You can select the other types to use other rules for the distribution.</span></span>  
-16. <span data-ttu-id="593ac-125">ในฟิลด์ลำดับชั้นการเพิ่มเติมสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="593ac-125">In the Replenishment hierarchy field, select a value.</span></span>
-17. <span data-ttu-id="593ac-126">เลือก ใช่ ในฟิลด์คำนึงถึงการจัดประเภท</span><span class="sxs-lookup"><span data-stu-id="593ac-126">Select Yes in the Respect assortments field.</span></span>
-18. <span data-ttu-id="593ac-127">คลิกคำนวณปริมาณและตรวจสอบปริมาณที่ถูกเพิ่มลงในแถวในส่วนคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="593ac-127">Click Calculate quantities and review the quantities that are added to the rows in the Warehouse section.</span></span>
-19. <span data-ttu-id="593ac-128">คลิกสร้างใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="593ac-128">Click Create order.</span></span>
-20. <span data-ttu-id="593ac-129">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="593ac-129">Click Yes.</span></span>
+1. <span data-ttu-id="95928-108">ไปที่การจัดส่งสินค้าแบบผลัก</span><span class="sxs-lookup"><span data-stu-id="95928-108">Go to Buyer's push.</span></span>
+2. <span data-ttu-id="95928-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="95928-109">Click New.</span></span>
+3. <span data-ttu-id="95928-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="95928-110">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="95928-111">ในฟิลด์ไซต์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="95928-111">In the Site field, enter or select a value.</span></span>
+5. <span data-ttu-id="95928-112">ในฟิลด์คลังสินค้า ป้อนหรือเลือกคลังสินค้าที่มีผลิตภัณฑ์ที่มีปริมาณคงคลังคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="95928-112">In the Warehouse field, enter or select a warehouse that has products with on-hand quantities.</span></span>
+6. <span data-ttu-id="95928-113">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="95928-113">Click Add.</span></span>
+7. <span data-ttu-id="95928-114">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="95928-114">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="95928-115">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="95928-115">In the Item number field, enter or select a product.</span></span>
+9. <span data-ttu-id="95928-116">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="95928-116">Click Add.</span></span>
+10. <span data-ttu-id="95928-117">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="95928-117">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="95928-118">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="95928-118">In the Item number field, enter or select a variant product.</span></span>
+    * <span data-ttu-id="95928-119">เมื่อป้อนผลิตภัณฑ์ย่อย บรรทัดจะถูกสร้างขึ้นสำหรับตัวแปรแต่ละตัว</span><span class="sxs-lookup"><span data-stu-id="95928-119">When entering a variant product, lines will be created for each variant.</span></span>  
+12. <span data-ttu-id="95928-120">ในรายการนี้ ทำเครื่องหมายที่แถว</span><span class="sxs-lookup"><span data-stu-id="95928-120">In the list, mark a row.</span></span>
+13. <span data-ttu-id="95928-121">ในฟิลด์ปริมาณแบบผลัก พิมพ์จำนวนของผลิตภัณฑ์ที่เลือกว่าคุณต้องการกระจายมากแค่ไหน</span><span class="sxs-lookup"><span data-stu-id="95928-121">In the Pushed quantity field, type how many of the selected product you want to distribute.</span></span>
+14. <span data-ttu-id="95928-122">ในฟิลด์ปริมาณเพิ่มเติมที่จะผลัก ป้อนปริมาณของผลิตภัณฑ์ที่มีปริมาณพร้อมใช้งานเพื่อกระจาย</span><span class="sxs-lookup"><span data-stu-id="95928-122">In the Additional quantity to push field, enter the quantity of the products that have available quantity to distribute.</span></span>
+15. <span data-ttu-id="95928-123">ในฟิลด์การกระจาย ป้อน 'น้ำหนักของสถานที่เก็บ'</span><span class="sxs-lookup"><span data-stu-id="95928-123">In the Distribution field, enter 'Location weight'.</span></span>
+    * <span data-ttu-id="95928-124">คุณสามารถเลือกประเภทอื่นๆ เพื่อใช้กฎอื่นๆ สำหรับการกระจาย</span><span class="sxs-lookup"><span data-stu-id="95928-124">You can select the other types to use other rules for the distribution.</span></span>  
+16. <span data-ttu-id="95928-125">ในฟิลด์ลำดับชั้นการเพิ่มเติมสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="95928-125">In the Replenishment hierarchy field, select a value.</span></span>
+17. <span data-ttu-id="95928-126">เลือก ใช่ ในฟิลด์คำนึงถึงการจัดประเภท</span><span class="sxs-lookup"><span data-stu-id="95928-126">Select Yes in the Respect assortments field.</span></span>
+18. <span data-ttu-id="95928-127">คลิกคำนวณปริมาณและตรวจสอบปริมาณที่ถูกเพิ่มลงในแถวในส่วนคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="95928-127">Click Calculate quantities and review the quantities that are added to the rows in the Warehouse section.</span></span>
+19. <span data-ttu-id="95928-128">คลิกสร้างใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="95928-128">Click Create order.</span></span>
+20. <span data-ttu-id="95928-129">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="95928-129">Click Yes.</span></span>
 
 

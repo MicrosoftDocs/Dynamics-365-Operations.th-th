@@ -17,44 +17,44 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2705008908699bda9479eb54a4827c71f402b603
 ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="8b205-103"> สร้างและเชื่อมโยงสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="8b205-103">Create and associate a hardware station</span></span>
+# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="7240e-103"> สร้างและเชื่อมโยงสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="7240e-103">Create and associate a hardware station</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8b205-104">กระบวนการนี้นำไปสู่วิธีการสร้างสถานีฮาร์ดแวร์ใหม่ </span><span class="sxs-lookup"><span data-stu-id="8b205-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="8b205-105">โพรไฟล์ฮาร์ดแวร์ใหม่จะถูกสร้างขึ้นและถูกใช้ในการเพิ่มสถานีฮาร์ดแวร์ใหม่ให้กับร้านค้าที่ถูกกำหนดไว้ล่วงหน้า (ช่องทาง) </span><span class="sxs-lookup"><span data-stu-id="8b205-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="8b205-106">กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต</span><span class="sxs-lookup"><span data-stu-id="8b205-106">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="7240e-104">กระบวนการนี้นำไปสู่วิธีการสร้างสถานีฮาร์ดแวร์ใหม่ </span><span class="sxs-lookup"><span data-stu-id="7240e-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="7240e-105">โพรไฟล์ฮาร์ดแวร์ใหม่จะถูกสร้างขึ้นและถูกใช้ในการเพิ่มสถานีฮาร์ดแวร์ใหม่ให้กับร้านค้าที่ถูกกำหนดไว้ล่วงหน้า (ช่องทาง) </span><span class="sxs-lookup"><span data-stu-id="7240e-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="7240e-106">กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต</span><span class="sxs-lookup"><span data-stu-id="7240e-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="8b205-107">ไปที่ สิ่งจำเป็นสำหรับการค้า > ช่องทาง > ..</span><span class="sxs-lookup"><span data-stu-id="8b205-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="8b205-108">> ..</span><span class="sxs-lookup"><span data-stu-id="8b205-108">> ..</span></span> <span data-ttu-id="8b205-109">> ..</span><span class="sxs-lookup"><span data-stu-id="8b205-109">> ..</span></span> <span data-ttu-id="8b205-110">> โพรไฟล์สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="8b205-110">> Hardware station profiles.</span></span>
-2. <span data-ttu-id="8b205-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="8b205-111">Click New.</span></span>
-3. <span data-ttu-id="8b205-112">ในฟิลด์รหัสสถานีฮาร์ดแวร์ ให้พิมพ์ 'TestHWProfile'</span><span class="sxs-lookup"><span data-stu-id="8b205-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
-4. <span data-ttu-id="8b205-113">ในฟิลด์ชื่อ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="8b205-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="8b205-114">ในฟิลด์หมายเลขพอร์ต ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="8b205-114">In the Port number field, enter a number.</span></span>
-6. <span data-ttu-id="8b205-115">ในฟิลด์โพรไฟล์ฮาร์ดแวร์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="8b205-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="8b205-116">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="8b205-116">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="8b205-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8b205-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="8b205-118">ในฟิลด์ชื่อแพคเกจ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="8b205-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="8b205-119">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8b205-119">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="8b205-120">นี่คือแพคเกจมาตรฐานที่มาพร้อมกับสภาพแวดล้อมใหม่ </span><span class="sxs-lookup"><span data-stu-id="8b205-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="8b205-121">หมายเลขเวอร์ชันอาจแตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="8b205-121">The version number may vary.</span></span>  
-11. <span data-ttu-id="8b205-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="8b205-122">Click Save.</span></span>
-12. <span data-ttu-id="8b205-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="8b205-123">Close the page.</span></span>
-13. <span data-ttu-id="8b205-124">ไปที่ การขายปลีกและการค้า > ช่องทาง > ร้านค้าปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8b205-124">Go to Retail and commerce > Channels > All retail stores.</span></span>
-14. <span data-ttu-id="8b205-125">ในรายการ ให้เลือกแถว 17</span><span class="sxs-lookup"><span data-stu-id="8b205-125">In the list, select row 17.</span></span>
-    * <span data-ttu-id="8b205-126">ถ้าคุณกำลังใช้บริษัทข้อมูลสาธิต USRT นี่คือร้านค้าHouston</span><span class="sxs-lookup"><span data-stu-id="8b205-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
-15. <span data-ttu-id="8b205-127">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8b205-127">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="8b205-128">สลับการขยายของส่วนสถานีฮาร์ดแวร์ </span><span class="sxs-lookup"><span data-stu-id="8b205-128">Toggle the expansion of the Hardware stations section.</span></span>
-17. <span data-ttu-id="8b205-129">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="8b205-129">Click Add.</span></span>
-18. <span data-ttu-id="8b205-130">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8b205-130">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="8b205-131">ในฟิลด์รหัสโพรไฟล์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="8b205-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="8b205-132">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="8b205-132">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="8b205-133">นี่ต้องเป็นโพรไฟล์สถานีฮาร์ดแวร์แบบใหม่ที่ถูกสร้างขึ้นในขั้นตอนก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="8b205-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
-21. <span data-ttu-id="8b205-134">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8b205-134">In the list, click the link in the selected row.</span></span>
-22. <span data-ttu-id="8b205-135">ในฟิลด์ชื่อโฮสต์ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="8b205-135">In the Host name field, type a value.</span></span>
-23. <span data-ttu-id="8b205-136">ในฟิลด์รหัสเทอร์มินัลEFT ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="8b205-136">In the EFT terminal ID field, type a value.</span></span>
-24. <span data-ttu-id="8b205-137">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="8b205-137">Click Save.</span></span>
+1. <span data-ttu-id="7240e-107">ไปที่ สิ่งจำเป็นสำหรับการค้า > ช่องทาง > ..</span><span class="sxs-lookup"><span data-stu-id="7240e-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="7240e-108">> ..</span><span class="sxs-lookup"><span data-stu-id="7240e-108">> ..</span></span> <span data-ttu-id="7240e-109">> ..</span><span class="sxs-lookup"><span data-stu-id="7240e-109">> ..</span></span> <span data-ttu-id="7240e-110">> โพรไฟล์สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="7240e-110">> Hardware station profiles.</span></span>
+2. <span data-ttu-id="7240e-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7240e-111">Click New.</span></span>
+3. <span data-ttu-id="7240e-112">ในฟิลด์รหัสสถานีฮาร์ดแวร์ ให้พิมพ์ 'TestHWProfile'</span><span class="sxs-lookup"><span data-stu-id="7240e-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
+4. <span data-ttu-id="7240e-113">ในฟิลด์ชื่อ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="7240e-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="7240e-114">ในฟิลด์หมายเลขพอร์ต ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7240e-114">In the Port number field, enter a number.</span></span>
+6. <span data-ttu-id="7240e-115">ในฟิลด์โพรไฟล์ฮาร์ดแวร์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7240e-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="7240e-116">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7240e-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="7240e-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7240e-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="7240e-118">ในฟิลด์ชื่อแพคเกจ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7240e-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="7240e-119">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7240e-119">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7240e-120">นี่คือแพคเกจมาตรฐานที่มาพร้อมกับสภาพแวดล้อมใหม่ </span><span class="sxs-lookup"><span data-stu-id="7240e-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="7240e-121">หมายเลขเวอร์ชันอาจแตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="7240e-121">The version number may vary.</span></span>  
+11. <span data-ttu-id="7240e-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7240e-122">Click Save.</span></span>
+12. <span data-ttu-id="7240e-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7240e-123">Close the page.</span></span>
+13. <span data-ttu-id="7240e-124">ไปที่ การขายปลีกและการค้า > ช่องทาง > ร้านค้าปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="7240e-124">Go to Retail and commerce > Channels > All retail stores.</span></span>
+14. <span data-ttu-id="7240e-125">ในรายการ ให้เลือกแถว 17</span><span class="sxs-lookup"><span data-stu-id="7240e-125">In the list, select row 17.</span></span>
+    * <span data-ttu-id="7240e-126">ถ้าคุณกำลังใช้บริษัทข้อมูลสาธิต USRT นี่คือร้านค้าHouston</span><span class="sxs-lookup"><span data-stu-id="7240e-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
+15. <span data-ttu-id="7240e-127">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7240e-127">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="7240e-128">สลับการขยายของส่วนสถานีฮาร์ดแวร์ </span><span class="sxs-lookup"><span data-stu-id="7240e-128">Toggle the expansion of the Hardware stations section.</span></span>
+17. <span data-ttu-id="7240e-129">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="7240e-129">Click Add.</span></span>
+18. <span data-ttu-id="7240e-130">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7240e-130">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="7240e-131">ในฟิลด์รหัสโพรไฟล์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7240e-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="7240e-132">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7240e-132">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="7240e-133">นี่ต้องเป็นโพรไฟล์สถานีฮาร์ดแวร์แบบใหม่ที่ถูกสร้างขึ้นในขั้นตอนก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="7240e-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
+21. <span data-ttu-id="7240e-134">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7240e-134">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="7240e-135">ในฟิลด์ชื่อโฮสต์ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="7240e-135">In the Host name field, type a value.</span></span>
+23. <span data-ttu-id="7240e-136">ในฟิลด์รหัสเทอร์มินัลEFT ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="7240e-136">In the EFT terminal ID field, type a value.</span></span>
+24. <span data-ttu-id="7240e-137">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7240e-137">Click Save.</span></span>
 
 
