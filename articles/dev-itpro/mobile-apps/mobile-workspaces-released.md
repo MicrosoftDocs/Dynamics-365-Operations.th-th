@@ -16,10 +16,10 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
-ms.openlocfilehash: e6d45094e8722fa51e545076c204459c41fd9131
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: d1650d351b5f7d476cea0d404ad261cfc7294dcc
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,12 +37,12 @@ ms.lasthandoff: 08/07/2017
 |[ไดเรกทอรีบริษัท](company-directory-mobile-workspace.md)| ช่วยให้คุณสามารถดูและติดต่อพนักงานคนอื่นในองค์กรของคุณ| 2017 มิถุนายน |    
 |[ทีมงานของฉัน](manager-self-service-mobile-workspace.md)| คุณสามารถดูการรายงานและพนักงานโดยรวมของคุณได้โดยตรง และส่งการชมเชยสำหรับแต่ละบุคคลในกลุ่มของการรายงานของคุณได้|2017 มิถุนายน |     
 |[การอนุมัติใบแจ้งหนี้](invoice-approval-mobile-workspace.md)| แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย| 2017 มิถุนายน   |
-| [การจัดการค่าใช้จ่าย](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) | คุณสามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้คุณสามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ พื้นที่ทำงานแบบเคลื่อนที่ยังช่วยให้คุณสามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยใช้ใบเสร็จรับเงินที่แนบ | 2017 เมษายน |
-| [การอนุมัติใบสั่งซื้อ](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) | ดูและตอบสนองกับใบสั่งซื้อพร้อมกับการดำเนินการ เช่น อนุมัติ หรือปฏิเสธ | 2017 เมษายน |
-| [รายการข้อมูลเวลาของโครงการ](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) | คุณสามารถป้อนและประหยัดเวลาในแง่ของโครงการโดยการใช้อุปกรณ์เคลื่อนที่ของคุณ | 2017 มีนาคม |
-| [การควบคุมต้นทุน](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)     | ผู้จัดการศูนย์ต้นทุนสามารถดูประสิทธิภาพของศูนย์ต้นทุนได้                                                                                               |  2017 มกราคม        |
-| [ปริมาณสินค้าคงคลังคงเหลือ](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)    | รับข้อมูลเชิงลึกในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้                                                                                                    |   2017 มกราคม       |
-| [ใบสั่งขาย](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)         | คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้                                                                                                                          |  2017 มกราคม                  |
-| [การทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) | ผู้จัดจำหน่ายสามารถคอยติดตามสถานการณ์ปัจจุบันในใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว |2017 มกราคม    |
+| [การจัดการค่าใช้จ่าย](../../financials/expense-management/expense-management-mobile-workspace.md) | คุณสามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้คุณสามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ พื้นที่ทำงานแบบเคลื่อนที่ยังช่วยให้คุณสามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยใช้ใบเสร็จรับเงินที่แนบ | 2017 เมษายน |
+| [การอนุมัติใบสั่งซื้อ](../../supply-chain/procurement/purchase-order-mobile-workspace.md) | ดูและตอบสนองกับใบสั่งซื้อพร้อมกับการดำเนินการ เช่น อนุมัติ หรือปฏิเสธ | 2017 เมษายน |
+| [รายการข้อมูลเวลาของโครงการ](../../financials/project-management/project-time-entry-mobile-workspace.md) | คุณสามารถป้อนและประหยัดเวลาในแง่ของโครงการโดยการใช้อุปกรณ์เคลื่อนที่ของคุณ | 2017 มีนาคม |
+| [การควบคุมต้นทุน](../../financials/cost-accounting/cost-controlling-mobile-workspace.md)     | ผู้จัดการศูนย์ต้นทุนสามารถดูประสิทธิภาพของศูนย์ต้นทุนได้                                                                                               |  2017 มกราคม        |
+| [ปริมาณสินค้าคงคลังคงเหลือ](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | รับข้อมูลเชิงลึกในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้                                                                                                    |   2017 มกราคม       |
+| [ใบสั่งขาย](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้                                                                                                                          |  2017 มกราคม                  |
+| [การทำงานร่วมกันกับผู้จัดจำหน่าย](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | ผู้จัดจำหน่ายสามารถคอยติดตามสถานการณ์ปัจจุบันในใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว |2017 มกราคม    |
 
 

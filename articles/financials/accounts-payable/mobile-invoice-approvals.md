@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
 ms.contentlocale: th-th
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 08/10/2017
 
 | ข้อกำหนดเบื้องต้น                                                                                            | คำอธิบาย                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| การอ่านคู่มือมือถือล่วงหน้า                                                                                |[แพลตฟอร์มแบบเคลื่อนที่](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
+| การอ่านคู่มือมือถือล่วงหน้า                                                                                |[แพลตฟอร์มแบบเคลื่อนที่](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | สภาพแวดล้อมที่มี Microsoft Dynamics 365 for Operations เวอร์ชัน 1611 และการอัพเดตแพลตฟอร์ม Microsoft Dynamics for Operations 3 (พฤศจิกายน 2016)                   |
 | ติดตั้ง KB โปรแกรมแก้ไขด่วน 3204341                                                                              | ตัวบันทึกงานสามารถบันทึกคำสั่งปิดสองรายการโดยไม่ได้ตั้งใจสำหรับกล่องโต้ตอบรายการแบบหล่นลง ซึ่งจะรวมอยู่ในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operation 3 (การอัพเดตเดือนพฤศจิกายน 2016) |
 | ติดตั้ง KB โปรแกรมแก้ไขด่วน 3207800                                                                              | โปรแกรมแก้ไขด่วนนี้ทำให้สามารถดูเอกสารแนบบนไคลเอ็นต์แบบเคลื่อนที่ได้ ซึ่งรวมอยู่ในการอัพเดตแพลตฟอร์ม Dynamics 365 for Operation 3 (การอัพเดตเดือนพฤศจิกายน 2016)           |

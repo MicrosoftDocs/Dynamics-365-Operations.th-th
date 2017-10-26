@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: cef54fa8109ebce0f8a6ca67c93afc30ec8a6781
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -332,6 +332,6 @@ ms.lasthandoff: 06/20/2017
     - การแสดงภาพ Data Power BI ที่ฝังอยู่ใน Microsoft Dynamics 365 สำหรับการเงินและการดำเนินงาน รุ่น Enterprise ไคลเอนต์
 
 > [!NOTE] 
-> - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+> - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 > - ลำดับชั้นรายการการเข้าถึงไม่ช่วยรักษาความปลอดภัยการส่งออกข้อมูลไปยัง Excel ดังนั้น จึงควรมีการใช้เครื่องมือที่ใช้รายงาน โดยผู้จัดทำบัญชีต้นทุนและผู้จัดการที่ต้องมีการเข้าถึงแบบเต็มรูปแบบในการดูข้อมูล
 

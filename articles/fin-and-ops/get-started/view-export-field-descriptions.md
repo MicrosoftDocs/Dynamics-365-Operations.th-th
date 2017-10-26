@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/13/2017
 
 ไม่ใช่ทุกหน้าที่มีคำอธิบายฟิลด์ เราเพียงต้องการแสดงคำอธิบายสำหรับฟิลด์ที่ซับซ้อนมากขึ้น ไม่ใช้ตำแหน่งที่มีการใช้ฟิลด์ที่ชัดเจน ดังนั้นบางหน้าจะไม่มีคำอธิบายใดๆ บางหน้ามีคำอธิบายสองสามรายการ และบางหน้าที่ซับซ้อนมากขึ้น เช่น หน้าพารามิเตอร์ส่วนใหญ่ มีคำอธิบายหลายรายการ 
 
-ถ้าคุณมีสิทธิเข้าถึงสภาพแวดล้อมการพัฒนาใน Finance and Operations คุณสามารถเพิ่มคำอธิบายฟิลด์ใหม่และเลือกกำหนดคำอธิบายที่มีอยู่ได้ ตัวอย่างเช่น คุณสามารถเพิ่มข้อมูลเฉพาะบริษัทไปยังคำอธิบายฟิลด์ได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [เลือกกำหนดวิธีใช้ฟิลด์](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+ถ้าคุณมีสิทธิเข้าถึงสภาพแวดล้อมการพัฒนาใน Finance and Operations คุณสามารถเพิ่มคำอธิบายฟิลด์ใหม่และเลือกกำหนดคำอธิบายที่มีอยู่ได้ ตัวอย่างเช่น คุณสามารถเพิ่มข้อมูลเฉพาะบริษัทไปยังคำอธิบายฟิลด์ได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [เลือกกำหนดวิธีใช้ฟิลด์](../../dev-itpro/user-interface/customize-field-help.md)
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>ดูคำอธิบายฟิลด์ในอินเทอร์เฟสผู้ใช้
 คุณสามารถดูคำอธิบายฟิลด์ได้โดยวางเมาส์เหนือฟิลด์ ถ้าไม่มีคำอธิบาย คุณจะเห็นชื่อฟิลด์เมื่อคุณวางเมาส์เหนือฟิลด์ (หมายเหตุ: ใน Dynamics AX 7.0 (กุมภาพันธ์ 2016) คุณสามารถดูคำอธิบายฟิลด์ได้เฉพาะในหน้า **คำอธิบายฟิลด์** ) ภาพประกอบต่อไปนี้แสดงคำอธิบายฟิลด์ที่ปรากฏขึ้นเมื่อคุณวางเมาส์เหนือฟิลด์ **ล็อคสินค้าในระหว่างตรวจนับ** 
@@ -101,7 +101,7 @@ ms.lasthandoff: 06/13/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[เลือกกำหนดวิธีใช้ฟิลด์](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[เลือกกำหนดวิธีใช้ฟิลด์](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

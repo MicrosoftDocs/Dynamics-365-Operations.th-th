@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a4f9e2c5203881f3faeebe4d33e72c7b3bcaa591
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 06/13/2017
 
 เมื่อมีการเผยแพร่รายการเหล่านั้น รายการเหล่านั้นจะถูกตรวจสอบเพื่อให้แน่ใจว่าเป็นไปตามกฎที่ตั้งค่าไว้ในสมุดรายวันทางการเงิน หลังจากมีการเผยแพร่รายการดังกล่าว ผู้ใช้สามารถแก้ไข หรือลงรายการบัญชีใบสำคัญจาก Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้ 
 
-เมื่อต้องการเพิ่มมิติทางการเงินให้กับเท็มเพลต จำเป็นต้องมีการเปลี่ยนแปลงเพิ่มเติม สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เพิ่มมิติไปยังเท็มเพลต Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates) หลังจากที่มีการเพิ่มมิติไปยังเอนทิตีเหล่านั้น เอนทิตีเหล่านั้นจะพร้อมใช้งานในตัวออกแบบแบบ Excel และคุณสามารถเพิ่มลงในเท็มเพลตได้
+เมื่อต้องการเพิ่มมิติทางการเงินให้กับเท็มเพลต จำเป็นต้องมีการเปลี่ยนแปลงเพิ่มเติม สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เพิ่มมิติไปยังเท็มเพลต Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md) หลังจากที่มีการเพิ่มมิติไปยังเอนทิตีเหล่านั้น เอนทิตีเหล่านั้นจะพร้อมใช้งานในตัวออกแบบแบบ Excel และคุณสามารถเพิ่มลงในเท็มเพลตได้
 
 
 

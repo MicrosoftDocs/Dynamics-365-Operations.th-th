@@ -13,14 +13,14 @@ ms.reviewer: robinr
 ms.search.scope: Operations, Platform, UnifiedOperations
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: e819aafbdf55fbc2a6dc996d275244de1e11d89b
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: d36abbf7c08c56d84ed83dbec1bfa33f30b47ef5
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,10 +47,10 @@ ms.lasthandoff: 07/27/2017
 4. ตัวเลือก: เพิ่มส่วนขยายเพื่อกำหนดมุมมองเอง
 
 > [!NOTE]
-> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
+> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
 
 # <a name="add-a-pbix-file-as-a-resource"></a>เพิ่มไฟล์ .pbix เป็นทรัพยากร
-ก่อนที่คุณจะเริ่มต้น คุณจะต้องสร้างหรือดูรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/)
+ก่อนที่คุณจะเริ่มต้น คุณจะต้องสร้างหรือดูรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)
  
 ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มไฟล์ .pbix เป็นวัตถุโครงการ Visual Studio
 
