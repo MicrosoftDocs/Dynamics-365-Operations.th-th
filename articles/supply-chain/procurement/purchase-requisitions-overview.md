@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d6ad1632de2bda8a188881bfabcc6c49e2b5d2d4
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -196,7 +196,7 @@ ms.lasthandoff: 07/27/2017
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[สร้างใบขอซื้อเพื่อปริมาณการใช้ (คู่มืองาน)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
+[สร้างใบขอซื้อเพื่อปริมาณการใช้ (คู่มืองาน)](tasks/create-requisition-consumption.md)
 
 [เวิร์กโฟลว์การขอเสนอซื้อ](purchase-requisitions-workflow.md)
 

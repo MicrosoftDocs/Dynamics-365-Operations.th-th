@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6b05dbef279b06fefc1eccd87689693edf2a418e
 ms.contentlocale: th-th
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 06/14/2017
 
 
 
-สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](../../supply-chain/procurement/collaborate-vendors-vendor-portal.md)
 
 
 

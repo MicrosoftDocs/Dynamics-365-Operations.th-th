@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ ms.lasthandoff: 08/09/2017
 11. เลือกวิธีการที่คุณต้องการบันทึกการบันทึกงาน
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>รวมบันทึกงานของคุณในบานหน้าต่างวิธีใช้
-แสดงบันทึกงานแบบกำหนดเองของคุณเองในบานหน้าต่างวิธีใช้เพื่อให้พวกเขาสามารถเล่นเป็นคำแนะนำงาน หรือดูเป็นข้อความ คุณต้องบันทึกบันทึกงานของคุณไปยังไลบรารี BPM ของคุณเอง และจากนั้น ปรับปรุงพารามิเตอร์ระบบวิธีใช้ของคุณเพื่อชี้ไปยังไลบรารี BPM สำหรับข้อมูลเพิ่มเติมให้ดูที่ [เชื่อมต่อระบบวิธีใช้](../get-started/help-connect.md)
+แสดงบันทึกงานแบบกำหนดเองของคุณเองในบานหน้าต่างวิธีใช้เพื่อให้พวกเขาสามารถเล่นเป็นคำแนะนำงาน หรือดูเป็นข้อความ คุณต้องบันทึกบันทึกงานของคุณไปยังไลบรารี BPM ของคุณเอง และจากนั้น ปรับปรุงพารามิเตอร์ระบบวิธีใช้ของคุณเพื่อชี้ไปยังไลบรารี BPM สำหรับข้อมูลเพิ่มเติมให้ดูที่ [เชื่อมต่อระบบวิธีใช้](../../fin-and-ops/get-started/help-connect.md)
 
 <a name="see-also"></a>ดูเพิ่มเติมที่
 --------
 
-[ภาพรวมของวิธีใช้](..\get-started\help-overview.md)
+[ภาพรวมของวิธีใช้](../../fin-and-ops/get-started/help-overview.md)
 
-[เชื่อมต่อความช่วยเหลือ](..\get-started\help-connect.md)
+[เชื่อมต่อความช่วยเหลือ](../../fin-and-ops/get-started/help-connect.md)
 
 [ตัวบันทึกงาน](task-recorder.md)
 

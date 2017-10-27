@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: th-th
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้
 ในขณะนี้คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้ในระบบ Cloud หรือในองค์กร การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่: [ตัวเลือกการปรับใช้](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่: [ตัวเลือกการปรับใช้](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>ขั้นตอนที่สาม: ซื้อและจัดการการบอกรับเป็นสมาชิก
 เมื่อต้องการสำรวจตัวเลือกการบอกรับเป็นสมาชิก ไปที่หน้าการกำหนดราคา [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) หน้านี้ประกอบด้วยแผนต่าง ๆ จำนวนมากเพื่อให้เหมาะสมกับความต้องการขององค์กรของคุณ
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/27/2017
 ผู้ให้บริการโซลูชัน Cloud ของ Microsoft สามารถทำงานกับคุณอย่างใกล้ชิดเพื่อทำความเข้าใจถึงความต้องการของธุรกิจหรือองค์กรของคุณ [ใช้พอร์ทัลศูนย์คู่ค้าของ Microsoft เพื่อค้นหาคู่ค้าให้ตรงกับความต้องการของคุณ](https://partnercenter.microsoft.com/en-us/partner/home) 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>ซื้อผ่านคู่ค้า Dynamics (ในองค์กร)
-คุณต้องทำงานกับคู่ค้าเพื่อซื้อ Finance and Operations ในองค์กร สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ซื้อ Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร)](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+คุณต้องทำงานกับคู่ค้าเพื่อซื้อ Finance and Operations ในองค์กร สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ซื้อ Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>เลือกตัวเลือกการสนับสนุนของคุณ
 Microsoft ให้การสนับสนุนแบบยืดหยุ่นและเป็นผู้นำทางอุตสาหกรรม การบริการ และทรัพยากรที่ช่วยให้ผู้ใช้สามารถระบุปัญหาทางเทคนิคและส่งคืนการลงทุน Dynamics 365 ของคุณให้มากที่สุดได้อย่างรวดเร็ว เลือกแผนที่ตรงกับความต้องการทางธุรกิจของคุณมากที่สุด 

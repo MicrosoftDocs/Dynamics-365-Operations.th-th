@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -183,8 +182,8 @@ ms.lasthandoff: 06/13/2017
 18. **บันทึก** การเปลี่ยนแปลงของคุณ และ **สร้าง** เมื่อรายงานการสร้างเสร็จสมบูรณ์และเปิดออก คุณสามารถสำรวจรายงานนั้น
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-[การรายงานทางการเงิน](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[ดูรายงานทางการเงิน](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[การรายงานทางการเงิน](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[ดูรายงานทางการเงิน](../../financials/general-ledger/view-financial-reports.md) 
 [บล็อกรายงานทางการเงิน Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

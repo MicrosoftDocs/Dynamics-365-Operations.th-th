@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: th-th
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 หัวข้อนี้อธิบายวิธีการใช้การทำงานร่วมกันกับผู้จัดจำหน่ายใน Finance and Operations เพื่อทำงานกับ PO และตรวจสอบสินค้าคงคลังที่มีการส่งมอบ
 
-หัวข้อนี้อธิบายวิธีการใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานกับลูกค้าใน Microsoft Finance and Operations มีข้อมูลเกี่ยวกับวิธีการตรวจสอบและตอบสนองต่อใบสั่งซื้อ และวิธีการตรวจสอบสินค้าคงคลังที่มีการส่งมอบ ดังนั้นจึงสามารถใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานกับใบแจ้งหนี้ได้ ดูข้อมูลเพิ่มเติมที่ [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+หัวข้อนี้อธิบายวิธีการใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานกับลูกค้าใน Microsoft Finance and Operations มีข้อมูลเกี่ยวกับวิธีการตรวจสอบและตอบสนองต่อใบสั่งซื้อ และวิธีการตรวจสอบสินค้าคงคลังที่มีการส่งมอบ ดังนั้นจึงสามารถใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานกับใบแจ้งหนี้ได้ ดูข้อมูลเพิ่มเติมที่ [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 ## <a name="working-with-purchase-orders"></a>การทำงานกับใบสั่งซื้อ
 พื้นที่ทำงาน **การยืนยันใบสั่งซื้อ** ช่วยให้คุณตอบสนอง PO ที่ถูกส่งเพื่อให้คุณตรวจทาน นอกจากนี้ยังช่วยให้คุณสามารถดูข้อมูลเกี่ยวกับ PO ที่กำลังรอการดำเนินการจากลูกค้า และ PO ที่ยืนยันแล้ว แต่ยังคงเปิดอยู่ มีสามรายการในพื้นที่ทำงาน **การยืนยันใบสั่งซื้อ**:

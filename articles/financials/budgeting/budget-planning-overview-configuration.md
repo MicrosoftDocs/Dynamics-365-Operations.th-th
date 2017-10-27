@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: th-th
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ ms.lasthandoff: 06/20/2017
 
 ในหน้า **ลำดับชั้นขององค์กร** คุณสามารถออกแบบลำดับชั้นขององค์กรเป็นลำดับชั้นการวางแผนงบประมาณ สำหรับกระบวนการวางแผนการวางแผนงบประมาณแต่ละกระบวนการได้ ลำดับชั้นของการวางแผนงบประมาณไม่จำเป็นต้องตรงกับลำดับชั้นขององค์กรมาตรฐานที่ใช้สำหรับวัตถุประสงค์อื่น เนื่องจากลำดับชั้นนี้ใช้ในการรวม และกระจายข้อมูล คุณอาจต้องการให้มีโครงสร้างที่แตกต่างกัน ในตัวอย่าง schema แผนกขายจะอยู่ภายใต้ระดับสำนักงานใหญ่ที่มีแผนกการเงินและงบประมาณ โครงสร้างนี้อาจแตกต่างจากโครงสร้างที่ใช้ในการจัดการการดำเนินงานสำหรับแผนกขาย เพียงแค่หนึ่งลำดับชั้นขององค์กรสามารถถูกกำหนดไปยังกระบวนการวางแผนงบประมาณแต่ละกระบวนการได้ 
 
-สำหรับข้อมูลเพิ่มเติม ให้ดู [องค์กรและลำดับชั้นขององค์กร](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies)
+สำหรับข้อมูลเพิ่มเติม ให้ดู [องค์กรและลำดับชั้นขององค์กร](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md)
 
 ### <a name="user-security"></a>ความปลอดภัยของผู้ใช้
 
