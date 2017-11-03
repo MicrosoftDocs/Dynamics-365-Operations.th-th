@@ -1,7 +1,7 @@
 ---
 title: "ตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์เพื่อดึงข้อมูลลงใน Power BI"
 description: "หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การรายงานทางอิเล็กทรอนิกส์ (ER) ของคุณในการจัดเรียงการโอนย้ายข้อมูลจากอินสแตนซ์ของ Finance and Operations ของคุณไปยังการบริการ Power BI ดังเช่นตัวอย่าง หัวข้อนี้ใช้ธุรกรรมอินทราสแทตเป็นข้อมูลธุรกิจที่ต้องโอนย้าย การแสดงภาพแผนผัง Power BI ใช้ข้อมูลธุรกรรมอินทราสแทตนี้ในการแสดงมุมมองสำหรับการวิเคราะห์ของกิจกรรมการนำเข้า/ส่งออกบริษัทในรายงาน Power BI"
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
