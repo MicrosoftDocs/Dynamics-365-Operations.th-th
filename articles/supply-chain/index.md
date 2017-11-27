@@ -1,16 +1,16 @@
 ---
 title: "โฮมเพจการบริหารห่วงโซ่อุปทาน"
-description: "หน้านี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations - การบริหารห่วงโซ่อุปทานได้อย่างมีประสิทธิภาพมากขึ้น"
+description: "หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-หน้านี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations - การบริหารห่วงโซ่อุปทานได้อย่างมีประสิทธิภาพมากขึ้น 
+หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 
 
 ## <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 ไปที่ <a href="https://roadmap.dynamics.com/">แผนการทำงาน Dynamics 365</a> เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา 
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/29/2017
 
 - [การบัญชีต้นทุน](../financials/cost-accounting/cost-accounting-home-page.md)
 - [การจัดการต้นทุน](cost-management/costing-sheets.md)  
-- [การบริหารสินค้าคงคลัง](inventory/consignment.md)
+- [การบริหารสินค้าคงคลัง](inventory/inventory-home-page.md)
 - [การวางแผนหลัก](master-planning/introduction-demand-forecasting.md)
 - [การจัดซื้อและการจัดหา](procurement/procurement-sourcing-overview.md)
 - [การจัดการข้อมูลผลิตภัณฑ์](pim/product-information.md)
@@ -78,7 +78,7 @@ ms.lasthandoff: 09/29/2017
 -  <a href="https://youtu.be/jgmTgJIgEFQ">การจัดการการขนส่ง (TMS) ใน Microsoft Dynamics AX ใหม่</a>
 
 ## <a name="blogs"></a>บล็อก
-มีหัวข้อต่าง ๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX </a> รายการเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
+มีหัวข้อต่าง ๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมงานวิจัยและพัฒนาการผลิต Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมงานวิจัยและพัฒนาการผลิต Dynamics AX </a> รายการเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
 
 ## <a name="white-papers"></a>เอกสาร
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">ห้องปฏิบัติการในเชิงปฏิบัติเกี่ยวกับการบัญชีต้นทุน</a> 

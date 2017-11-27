@@ -3,7 +3,7 @@ title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance 
 description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition"
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: th-th
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 10/10/2017
 
 <h3><a href="../supply-chain/index.md">การบริหารห่วงโซ่อุปทาน</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">การจัดการต้นทุน</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">การบริหารสินค้าคงคลัง</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">การบริหารสินค้าคงคลัง</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">การวางแผนหลัก</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">การจัดซื้อและการจัดหา</a></p>
 <p><a href="../supply-chain/pim/product-information.md">การจัดการข้อมูลผลิตภัณฑ์</a></p>
@@ -88,7 +88,10 @@ ms.lasthandoff: 10/10/2017
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">การพัฒนา</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">เพิ่มความสามารถ</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">การจัดการและการรวมข้อมูล</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">การรวมข้อมูล</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">การจัดการข้อมูล</a></p>
+
 <p><a href="../dev-itpro/office-integration/office-integration.md">การรวม Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">การจัดส่งแบบต่อเนื่อง</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">แพลตฟอร์มเคลื่อนที่</a></p>
@@ -97,13 +100,13 @@ ms.lasthandoff: 10/10/2017
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</h3>
 <p><a href="../dev-itpro/deployment/choose-deployment-type.md">การปรับใช้</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัพเกรด</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">การบริการ</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">การจัดการข้อมูล</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">กรอบงานการจัดการข้อมูล</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">การจัดการองค์กร</a></p>
 </td>
 <td>
-<h3>ผลิตภัณฑ์ที่สัมพันธ์กัน</h3>
+<h3>ผลิตภัณฑ์ที่เกี่ยวข้อง</h3>
 <h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
 <p><a href="../talent/manage-benefit-program.md">สวัสดิการ</a></p>
 <p><a href="../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
