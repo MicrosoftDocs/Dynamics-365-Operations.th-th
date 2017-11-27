@@ -27,30 +27,30 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="bfde4-103">การวางแผนหลักและฟังก์ชันหลายไซต์</span><span class="sxs-lookup"><span data-stu-id="bfde4-103">Master planning and multisite functionality</span></span>
+# <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="38185-103">การวางแผนหลักและฟังก์ชันหลายไซต์</span><span class="sxs-lookup"><span data-stu-id="38185-103">Master planning and multisite functionality</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="bfde4-104">การวางแผนหลักใช้การตั้งค่าไซต์และมิติสินค้าคงคลังของคลังสินค้ามาพิจารณา</span><span class="sxs-lookup"><span data-stu-id="bfde4-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
+<span data-ttu-id="38185-104">การวางแผนหลักใช้การตั้งค่าไซต์และมิติสินค้าคงคลังของคลังสินค้ามาพิจารณา</span><span class="sxs-lookup"><span data-stu-id="38185-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 
-<span data-ttu-id="bfde4-105">มิติไซต์เป็นข้อมูลบังคับ และคุณสามารถตั้งค่ามิติคลังสินค้าให้เป็นข้อมูลบังคับได้</span><span class="sxs-lookup"><span data-stu-id="bfde4-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
+<span data-ttu-id="38185-105">มิติไซต์เป็นข้อมูลบังคับ และคุณสามารถตั้งค่ามิติคลังสินค้าให้เป็นข้อมูลบังคับได้</span><span class="sxs-lookup"><span data-stu-id="38185-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
 
-<span data-ttu-id="bfde4-106">เมื่อมิติเป็นข้อมูลบังคับ คุณต้องป้อนค่ามิติบนธุรกรรมของสินค้าคงคลังทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="bfde4-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="bfde4-107">ดังนั้น ในระหว่างการวางแผนหลัก คุณต้องทราบไซต์และคลังสินค้าสำหรับความต้องการเริ่มแรก</span><span class="sxs-lookup"><span data-stu-id="bfde4-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="bfde4-108">มิติไซต์ยังต้องสอดคล้องในระหว่างการขยายความต้องการระดับล่าง ค่าไซต์ไม่เปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="bfde4-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
+<span data-ttu-id="38185-106">เมื่อมิติเป็นข้อมูลบังคับ คุณต้องป้อนค่ามิติบนธุรกรรมของสินค้าคงคลังทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="38185-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="38185-107">ดังนั้น ในระหว่างการวางแผนหลัก คุณต้องทราบไซต์และคลังสินค้าสำหรับความต้องการเริ่มแรก</span><span class="sxs-lookup"><span data-stu-id="38185-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="38185-108">มิติไซต์ยังต้องสอดคล้องในระหว่างการขยายความต้องการระดับล่าง ค่าไซต์ไม่เปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="38185-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
 
-<span data-ttu-id="bfde4-109">เมื่อไม่ได้ตั้งค่าคลังสินค้าเป็นข้อมูลบังคับ จะไม่ทราบคลังสินค้าจากความต้องการเริ่มแรก</span><span class="sxs-lookup"><span data-stu-id="bfde4-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="bfde4-110">เครื่องวางแผนต้องกำหนดคลังสินค้าที่จะใช้ตามข้อมูลการตั้งค่าที่กำหนดสำหรับสินค้า คลังสินค้าแต่ละแห่ง และรายละเอียดของบรรทัดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="bfde4-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
+<span data-ttu-id="38185-109">เมื่อไม่ได้ตั้งค่าคลังสินค้าเป็นข้อมูลบังคับ จะไม่ทราบคลังสินค้าจากความต้องการเริ่มแรก</span><span class="sxs-lookup"><span data-stu-id="38185-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="38185-110">เครื่องวางแผนต้องกำหนดคลังสินค้าที่จะใช้ตามข้อมูลการตั้งค่าที่กำหนดสำหรับสินค้า คลังสินค้าแต่ละแห่ง และรายละเอียดของบรรทัดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="38185-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
 
-<span data-ttu-id="bfde4-111">หัวข้อต่อไปนี้อธิบายวิธีการทำงานของเครื่องวางแผน เมื่อมีการกำหนดการตั้งค่าที่แตกต่างกันเพื่อกำหนดคลังสินค้าที่จะใช้</span><span class="sxs-lookup"><span data-stu-id="bfde4-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
+<span data-ttu-id="38185-111">หัวข้อต่อไปนี้อธิบายวิธีการทำงานของเครื่องวางแผน เมื่อมีการกำหนดการตั้งค่าที่แตกต่างกันเพื่อกำหนดคลังสินค้าที่จะใช้</span><span class="sxs-lookup"><span data-stu-id="38185-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
 
-[<span data-ttu-id="bfde4-112">การวางแผนหลัก- ความครอบคลุมไซต์และคลังสินค้า ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="bfde4-112">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="38185-112">การวางแผนหลัก- ความครอบคลุมไซต์และคลังสินค้า ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="38185-112">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="bfde4-113">การวางแผนหลัก - ความครอบคลุมไซต์ ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="bfde4-113">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="38185-113">การวางแผนหลัก - ความครอบคลุมไซต์ ข้อมูลบังคับคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="38185-113">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="bfde4-114">การวางแผนหลัก - ความครอบคลุมไซต์และคลังสินค้า คลังสินค้าไม่ใช่ข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="bfde4-114">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="38185-114">การวางแผนหลัก - ความครอบคลุมไซต์และคลังสินค้า คลังสินค้าไม่ใช่ข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="38185-114">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="bfde4-115">การวางแผนหลัก - ความครอบคลุมไซต์ คลังสินค้าไม่ใช่ข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="bfde4-115">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="38185-115">การวางแผนหลัก - ความครอบคลุมไซต์ คลังสินค้าไม่ใช่ข้อมูลบังคับ</span><span class="sxs-lookup"><span data-stu-id="38185-115">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="bfde4-116">การวางแผนหลัก - วิธีการกำหนดเวอร์ชัน BOM</span><span class="sxs-lookup"><span data-stu-id="bfde4-116">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="38185-116">การวางแผนหลัก - วิธีการกำหนดเวอร์ชัน BOM</span><span class="sxs-lookup"><span data-stu-id="38185-116">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

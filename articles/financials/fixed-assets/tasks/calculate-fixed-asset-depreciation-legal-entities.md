@@ -1,9 +1,9 @@
 --- 
 title: "คำนวณค่าเสื่อมราคาสินทรัพย์ถาวรในนิติบุคคล"
-description: "ใช้กระบวนงานนี้ในการเปลี่ยนกลุ่มสินทรัพย์ถาวรที่กำหนดให้กับสินทรัพย์ถาวร "
+description: "กระบวนงานนี้แสดงวิธีตั้งค่า และรันกระบวนการคิดค่าเสื่อมราคาสำหรับหลายนิติบุคคล"
 author: saraschi2
 manager: AnnBe
-ms.date: 10/11/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,27 +16,40 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 91f3f4a625d5d4b47bbe9d4e2d0ca0ed8da9dcd6
+ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
+ms.openlocfilehash: 4c45da124136b7fecb916d2ff9098c8ffeff6cb1
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
-# <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="bd64f-103">คำนวณค่าเสื่อมราคาสินทรัพย์ถาวรในนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="bd64f-103">Calculate fixed asset depreciation across legal entities</span></span>
+# <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="93749-103">คำนวณค่าเสื่อมราคาสินทรัพย์ถาวรในนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="93749-103">Calculate fixed asset depreciation across legal entities</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="bd64f-104">ใช้กระบวนงานนี้ในการเปลี่ยนกลุ่มสินทรัพย์ถาวรที่กำหนดให้กับสินทรัพย์ถาวร </span><span class="sxs-lookup"><span data-stu-id="bd64f-104">Use this procedure to change the fixed asset group that a fixed asset is assigned to.</span></span> <span data-ttu-id="bd64f-105">ควรจะกำหนดสินทรัพย์ถาวรในกลุ่มสินทรัพย์ถาวรที่ถูกต้อง </span><span class="sxs-lookup"><span data-stu-id="bd64f-105">Fixed assets should be assigned to the correct fixed asset group.</span></span> <span data-ttu-id="bd64f-106">กลุ่มสินทรัพย์ถาวรจะถูกนำไปใช้เมื่อคุณสร้างการสอบถามและรายงาน ตั้งค่าสินทรัพย์ถาวรใหม่ และรวมบัญชีแยกประเภทและลงรายการบัญชีธุรกรรมสินทรัพย์ถาวรกับบัญชีแยกประเภทที่เหมาะสม </span><span class="sxs-lookup"><span data-stu-id="bd64f-106">The fixed asset group is used when you create inquiries and reports, set up new fixed assets, and integrate ledgers and post fixed asset transactions to the appropriate ledger accounts.</span></span>
+<span data-ttu-id="93749-104">สามารถรันการคิดค่าเสื่อมราคาสินทรัพย์ถาวรในนิติบุคคลในขั้นตอนเดียวได้</span><span class="sxs-lookup"><span data-stu-id="93749-104">Fixed asset depreciation can be run across legal entities in a single step.</span></span> <span data-ttu-id="93749-105">กระบวนงานนี้แสดงวิธีตั้งค่า และรันกระบวนการสำหรับหลายนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="93749-105">This procedure shows you to how set up and run the process for multiple legal entities.</span></span> <span data-ttu-id="93749-106">ซึ่งใช้บทบาทของนักบัญชี</span><span class="sxs-lookup"><span data-stu-id="93749-106">It uses the accountant role.</span></span>  
 
-<span data-ttu-id="bd64f-107">การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="bd64f-107">This recording uses the USMF demo company.</span></span>
+<span data-ttu-id="93749-107">การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="93749-107">This recording uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="bd64f-108">ไปที่ สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="bd64f-108">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="bd64f-109">เลือกสินทรัพย์ถาวรที่จะเปลี่ยนกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="bd64f-109">Select the fixed asset to change the fixed asset group for.</span></span>
-3. <span data-ttu-id="bd64f-110">คลิก เปลี่ยนกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="bd64f-110">Click Change fixed asset group.</span></span>
-4. <span data-ttu-id="bd64f-111">ในฟิลด์กลุ่มใหม่ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="bd64f-111">In the New group field, enter or select a value.</span></span>
-5. <span data-ttu-id="bd64f-112">ตั้งค่าตัวเลือกหมายเลขสินทรัพย์ถาวรใหม่เป็น ใช่ เพื่อกำหนดหมายเลขสินทรัพย์ถาวรให้กับสินทรัพย์ถาวรที่เลือก</span><span class="sxs-lookup"><span data-stu-id="bd64f-112">Set the New fixed asset number option to Yes to assign a fixed asset number to the selected fixed asset.</span></span>
-    * <span data-ttu-id="bd64f-113">ฟิลด์หมายเลขสินทรัพย์ถาวรจะกลายเป็นพร้อมใช้งานเมื่อคุณตั้งค่าตัวเลือกหมายเลขสินทรัพย์ถาวรใหม่เป็น ใช่ </span><span class="sxs-lookup"><span data-stu-id="bd64f-113">The Fixed asset number field becomes available when the New fixed asset number option is set to Yes.</span></span>   <span data-ttu-id="bd64f-114">ถ้าการกำหนดหมายเลขอัตโนมัติถูกตั้งค่าสำหรับสินทรัพย์ถาวร ฟิลด์นี้จะแสดงหมายเลขสินทรัพย์ถาวรที่พร้อมใช้งานถัดไป </span><span class="sxs-lookup"><span data-stu-id="bd64f-114">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="bd64f-115">คุณสามารถเปลี่ยนหมายเลขได้ </span><span class="sxs-lookup"><span data-stu-id="bd64f-115">You can change the number.</span></span>   <span data-ttu-id="bd64f-116">ถ้ามีการตั้งค่าการกำหนดหมายเลขด้วยตนเองสำหรับสินทรัพย์ถาวร ฟิลด์นี้จะว่างและคุณต้องป้อนหมายเลขสินทรัพย์ถาวรใหม่</span><span class="sxs-lookup"><span data-stu-id="bd64f-116">If manual numbering is set up for fixed assets, this field is blank, and you must enter the new fixed asset number.</span></span>  
-6. <span data-ttu-id="bd64f-117">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="bd64f-117">Click OK.</span></span>
-7. <span data-ttu-id="bd64f-118">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="bd64f-118">Click Yes.</span></span>
 
+<span data-ttu-id="93749-108">ขั้นตอน (16) งานย่อย: ตั้งค่าสมุดรายวันการรันค่าเสื่อมราคาระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="93749-108">Steps (16) Sub-task: Set up cross company depreciation run journals.</span></span> 
+
+1. <span data-ttu-id="93749-109">ก่อนอื่น คุณต้องตั้งค่าสมุดรายวันที่จะใช้ในการคำนวณในการรันค่าเสื่อมราคาระหว่างบริษัทในนิติบุคคลแต่ละราย</span><span class="sxs-lookup"><span data-stu-id="93749-109">First, you must set up the journals to be used in the cross company depreciation run in each legal entity.</span></span> <span data-ttu-id="93749-110">ไปที่สินทรัพย์ถาวร > การตั้งค่า > พารามิเตอร์สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="93749-110">Go to Fixed assets > Setup > Fixed assets parameters.</span></span> 
+2. <span data-ttu-id="93749-111">ขยายส่วนข้อเสนอสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="93749-111">Expand the Fixed asset proposals section.</span></span> 
+3. <span data-ttu-id="93749-112">สร้างเรกคอร์ดที่มีชื่อสมุดรายวันที่จะถูกใช้สำหรับชั้นของการลงรายการบัญชีแต่ละชั้นในนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="93749-112">Create a record with the journal name to be used for each posting layer in the legal entity.</span></span> <span data-ttu-id="93749-113">ถ้าสมุดบัญชีไม่ลงรายการบัญชีในบัญชีแยกประเภททั่วไป จึงไม่มีชั้นของการลงรายการบัญชีควรถูกเลือกด้วยสมุดรายวันที่เชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="93749-113">If books do not post to the general ledger, then the None posting layer should be selected with the associated journal.</span></span> <span data-ttu-id="93749-114">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="93749-114">Click Add.</span></span> 
+4. <span data-ttu-id="93749-115">ในฟิลด์ชั้นของการลงรายการบัญชี ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="93749-115">In the Posting layer field, enter or select a value.</span></span> 
+5. <span data-ttu-id="93749-116">ในฟิลด์ชื่อสมุดรายวัน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="93749-116">In the Journal name field, enter or select a value.</span></span> 
+6. <span data-ttu-id="93749-117">ทำซ้ำการตั้งค่าสมุดรายวันบนหน้าพารามิเตอร์สินทรัพย์ถาวร ในนิติบุคคลแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="93749-117">Repeat the journal setup on the Fixed asset parameters page in each legal entity.</span></span> 
+
+<span data-ttu-id="93749-118">งานย่อย: คำนวณค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="93749-118">Sub-task: Calculate depreciation</span></span>
+
+1. <span data-ttu-id="93749-119">ใช้หน้า สร้างข้อเสนอค่าเสื่อมราคา เพื่อเริ่มต้นการรันค่าเสื่อมราคาของคุณระหว่างนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="93749-119">Use the Create depreciation proposal page to start your depreciation run across legal entities.</span></span> <span data-ttu-id="93749-120">ไปที่สินทรัพย์ถาวร > รายการสมุดรายวัน > สร้างข้อเสนอค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="93749-120">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span> 
+2. <span data-ttu-id="93749-121">ในฟิลด์ชั้นของการลงรายการบัญชี ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="93749-121">In the Posting layer field, enter or select a value.</span></span> 
+3. <span data-ttu-id="93749-122">ชื่อสมุดรายวันจะเริ่มต้นจากพารามิเตอร์สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="93749-122">The journal name will default from the Fixed asset parameters.</span></span> <span data-ttu-id="93749-123">ซึ่งสามารถถูกเปลี่ยนได้ที่นี่สำหรับนิติบุคคลปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="93749-123">It can be changed here for the current legal entity.</span></span> 
+4. <span data-ttu-id="93749-124">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="93749-124">In the To date field, enter a date.</span></span> 
+5. <span data-ttu-id="93749-125">เลือกนิติบุคคลที่จะถูกรวมในการรันค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="93749-125">Select the legal entities to be included in the depreciation run.</span></span> <span data-ttu-id="93749-126">จะมีการแสดงเฉพาะนิติบุคคลกับสมุดรายวันที่ตั้งค่าสำหรับข้อเสนอสินทรัพย์ถาวร บนหน้าพารามิเตอร์สินทรัพย์ถาวรในรายการ</span><span class="sxs-lookup"><span data-stu-id="93749-126">Only legal entities with journals set up for Fixed asset proposals on the Fixed asset parameters page will be shown in the list.</span></span> 
+6. <span data-ttu-id="93749-127">เมื่อเปิดใช้งาน ตัวเลือก ลงรายการบัญชีสมุดรายวัน จะลงรายการสมุดรายวันการคิดค่าเสื่อมราคาโดยอัตโนมัติ เมื่อถูกสร้าง</span><span class="sxs-lookup"><span data-stu-id="93749-127">When enabled, the Post journals option will automatically post the depreciation journals when they are created.</span></span> <span data-ttu-id="93749-128">เมื่อไม่มีการเลือก สมุดรายวันจะถูกสร้างขึ้น แต่ไม่ได้ลงรายการบัญชี ดังนั้นคุณสามารถทบทวนรายละเอียดได้ก่อนลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="93749-128">When not selected, the journals will be created, but not posted, so you can review the details before posting.</span></span> <span data-ttu-id="93749-129">เลือก ใช่ ในฟิลด์ ลงรายการบัญชีสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="93749-129">Select Yes in the Post journals field.</span></span> 
+7. <span data-ttu-id="93749-130">ฟิลด์กรองข้อมูลรวมสินทรัพย์ถาวร กลุ่ม และสมุดบัญชีทั้งหมด สำหรับนิติบุคคลที่ถูกเลือกสำหรับการรันค่าเสื่อมราคานี้</span><span class="sxs-lookup"><span data-stu-id="93749-130">Filtering fields include all fixed assets, groups, and books for the legal entities selected for this depreciation run.</span></span> 
+8. <span data-ttu-id="93749-131">ตัวเลือกการประมวลผลชุดงานถูกเปิดใช้งานโดยค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="93749-131">The Batch processing option is enabled by default.</span></span> <span data-ttu-id="93749-132">เมื่อตัวเลือกนี้ถูกเปิดใช้งาน การสร้างสมุดรายวันค่าเสื่อมราคาและการลงรายการบัญชีจะทำงานในเบื้องหลัง</span><span class="sxs-lookup"><span data-stu-id="93749-132">When this option is enabled, the depreciation journal creation and posting will run in the background.</span></span> 
+9. <span data-ttu-id="93749-133">คลิกสร้างสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="93749-133">Click Create journal.</span></span> 
+10. <span data-ttu-id="93749-134">คุณต้องดูสมุดรายวันค่าเสื่อมราคาที่สร้างขึ้นในนิติบุคคลที่สอดคล้องกัน</span><span class="sxs-lookup"><span data-stu-id="93749-134">You must view the depreciation journals created in the respective legal entities.</span></span> <span data-ttu-id="93749-135">ไปที่สินทรัพย์ถาวร > รายการสมุดรายวัน > สมุดรายวันสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="93749-135">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
 

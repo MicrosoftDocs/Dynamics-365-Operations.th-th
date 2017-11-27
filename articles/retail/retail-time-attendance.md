@@ -26,44 +26,44 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="retail-time-and-attendance"></a><span data-ttu-id="c9e90-103">เวลาและการเข้างานการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="c9e90-103">Retail time and attendance</span></span>
+# <a name="retail-time-and-attendance"></a><span data-ttu-id="35dfd-103">เวลาและการเข้างานการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="35dfd-103">Retail time and attendance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="c9e90-104">หัวข้อนี้อธิบายถึงสถานการณ์จำลองที่ได้รับการสนับสนุนสำหรับการจัดการเวลาและการเข้างานใน Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="c9e90-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span> 
+<span data-ttu-id="35dfd-104">หัวข้อนี้อธิบายถึงสถานการณ์จำลองที่ได้รับการสนับสนุนสำหรับการจัดการเวลาและการเข้างานใน Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="35dfd-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span> 
 
-<a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="c9e90-105">จัดการการตั้งค่าผู้ปฏิบัติงานและการจัดกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="c9e90-105">Manage worker setup and scheduling</span></span>
+<a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="35dfd-105">จัดการการตั้งค่าผู้ปฏิบัติงานและการจัดกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="35dfd-105">Manage worker setup and scheduling</span></span>
 ----------------------------------
 
-### <a name="initial-configuration"></a><span data-ttu-id="c9e90-106">การตั้งค่าคอนฟิกเริ่มต้น </span><span class="sxs-lookup"><span data-stu-id="c9e90-106">Initial configuration</span></span>
+### <a name="initial-configuration"></a><span data-ttu-id="35dfd-106">การตั้งค่าคอนฟิกเริ่มต้น </span><span class="sxs-lookup"><span data-stu-id="35dfd-106">Initial configuration</span></span>
 
--   <span data-ttu-id="c9e90-107">ดำเนินการวิซาร์ดการตั้งค่าคอนฟิกข้อมูล</span><span class="sxs-lookup"><span data-stu-id="c9e90-107">Run the configuration wizard.</span></span>
--   <span data-ttu-id="c9e90-108">ลงทะเบียนผู้ปฏิบัติงานเป็นผู้ปฏิบัติงานลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="c9e90-108">Register workers as time registration workers.</span></span>
+-   <span data-ttu-id="35dfd-107">ดำเนินการวิซาร์ดการตั้งค่าคอนฟิกข้อมูล</span><span class="sxs-lookup"><span data-stu-id="35dfd-107">Run the configuration wizard.</span></span>
+-   <span data-ttu-id="35dfd-108">ลงทะเบียนผู้ปฏิบัติงานเป็นผู้ปฏิบัติงานลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="35dfd-108">Register workers as time registration workers.</span></span>
 
-### <a name="plan-worker-schedules"></a><span data-ttu-id="c9e90-109">วางแผนกำหนดการของผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-109">Plan worker schedules</span></span>
+### <a name="plan-worker-schedules"></a><span data-ttu-id="35dfd-109">วางแผนกำหนดการของผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-109">Plan worker schedules</span></span>
 
--   <span data-ttu-id="c9e90-110">การนำโพรไฟล์มาใช้โดยการใช้โปรแกรมวางแผนงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="c9e90-111">สำหรับข้อมูลเพิ่มเติม ให้ดู <https://technet.microsoft.com/en-us/library/aa551234.aspx></span><span class="sxs-lookup"><span data-stu-id="c9e90-111">For more information, see <https://technet.microsoft.com/en-us/library/aa551234.aspx>.</span></span>
+-   <span data-ttu-id="35dfd-110">การนำโพรไฟล์มาใช้โดยการใช้โปรแกรมวางแผนงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="35dfd-111">สำหรับข้อมูลเพิ่มเติม ให้ดู <https://technet.microsoft.com/en-us/library/aa551234.aspx></span><span class="sxs-lookup"><span data-stu-id="35dfd-111">For more information, see <https://technet.microsoft.com/en-us/library/aa551234.aspx>.</span></span>
 
-<span data-ttu-id="c9e90-112">สำหรับข้อมูลเกี่ยวกับขั้นตอนการตั้งค่าคอนฟิก ให้ดู <https://technet.microsoft.com/en-us/library/aa496971.aspx></span><span class="sxs-lookup"><span data-stu-id="c9e90-112">For information about the configuration steps, see <https://technet.microsoft.com/en-us/library/aa496971.aspx>.</span></span>
+<span data-ttu-id="35dfd-112">สำหรับข้อมูลเกี่ยวกับขั้นตอนการตั้งค่าคอนฟิก ให้ดู <https://technet.microsoft.com/en-us/library/aa496971.aspx></span><span class="sxs-lookup"><span data-stu-id="35dfd-112">For information about the configuration steps, see <https://technet.microsoft.com/en-us/library/aa496971.aspx>.</span></span>
 
-### <a name="retail-specific-configuration"></a><span data-ttu-id="c9e90-113">การตั้งค่าคอนฟิกเฉพาะของการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="c9e90-113">Retail-specific configuration</span></span>
+### <a name="retail-specific-configuration"></a><span data-ttu-id="35dfd-113">การตั้งค่าคอนฟิกเฉพาะของการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="35dfd-113">Retail-specific configuration</span></span>
 
--   <span data-ttu-id="c9e90-114">เปิดใช้งานโพรไฟล์ฟังก์ชันสำหรับนาฬิกาตอกบัตร สำหรับผู้ปฏิบัติงานที่คุณต้องการเปิดใช้งานสำหรับการลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="c9e90-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="c9e90-115">คลิก **โพรไฟล์ฟังก์ชัน POS** &gt; **ฟังก์ชัน** &gt; **การลงทะเบียนเวลา POS** &gt; **เปิดใช้งานการลงทะเบียนเวลา**</span><span class="sxs-lookup"><span data-stu-id="c9e90-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
--   <span data-ttu-id="c9e90-116">ตั้งค่าคอนฟิกกลุ่มสิทธิ์การขายหน้าร้าน (POS) เพื่อเปิดใช้งานสิทธิ์การดูรายการของนาฬิกาตอกบัตร</span><span class="sxs-lookup"><span data-stu-id="c9e90-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="c9e90-117">สิทธิ์นี้ช่วยให้ผู้ใช้สามารถดูการลงทะเบียนนาฬิกาตอกบัตรของผู้ปฏิบัติงานอื่นๆในร้านค้า (และจากร้านค้าอื่นๆที่เกี่ยวข้องกับผู้ใช้ผ่านทางสมุดที่อยู่)</span><span class="sxs-lookup"><span data-stu-id="c9e90-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="c9e90-118">คุณอาจต้องการเปิดใช้งานสิทธิ์นี้สำหรับบทบาทผู้จัดการ แต่ไม่ใช่สำหรับบทบาทพนักงานเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="c9e90-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="c9e90-119">คลิก **กลุ่มสิทธิ์ของ POS** &gt; **ดูรายการของนาฬิกาตอกบัตร**</span><span class="sxs-lookup"><span data-stu-id="c9e90-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
+-   <span data-ttu-id="35dfd-114">เปิดใช้งานโพรไฟล์ฟังก์ชันสำหรับนาฬิกาตอกบัตร สำหรับผู้ปฏิบัติงานที่คุณต้องการเปิดใช้งานสำหรับการลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="35dfd-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="35dfd-115">คลิก **โพรไฟล์ฟังก์ชัน POS** &gt; **ฟังก์ชัน** &gt; **การลงทะเบียนเวลา POS** &gt; **เปิดใช้งานการลงทะเบียนเวลา**</span><span class="sxs-lookup"><span data-stu-id="35dfd-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
+-   <span data-ttu-id="35dfd-116">ตั้งค่าคอนฟิกกลุ่มสิทธิ์การขายหน้าร้าน (POS) เพื่อเปิดใช้งานสิทธิ์การดูรายการของนาฬิกาตอกบัตร</span><span class="sxs-lookup"><span data-stu-id="35dfd-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="35dfd-117">สิทธิ์นี้ช่วยให้ผู้ใช้สามารถดูการลงทะเบียนนาฬิกาตอกบัตรของผู้ปฏิบัติงานอื่นๆในร้านค้า (และจากร้านค้าอื่นๆที่เกี่ยวข้องกับผู้ใช้ผ่านทางสมุดที่อยู่)</span><span class="sxs-lookup"><span data-stu-id="35dfd-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="35dfd-118">คุณอาจต้องการเปิดใช้งานสิทธิ์นี้สำหรับบทบาทผู้จัดการ แต่ไม่ใช่สำหรับบทบาทพนักงานเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="35dfd-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="35dfd-119">คลิก **กลุ่มสิทธิ์ของ POS** &gt; **ดูรายการของนาฬิกาตอกบัตร**</span><span class="sxs-lookup"><span data-stu-id="35dfd-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
 
-## <a name="register-time"></a><span data-ttu-id="c9e90-120">ลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="c9e90-120">Register time</span></span>
-### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="c9e90-121">การลงทะเบียนเวลาพนักงานเก็บเงินและไม่ใช่พนักงานเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="c9e90-121">Cashier and non-cashier time registrations</span></span>
+## <a name="register-time"></a><span data-ttu-id="35dfd-120">ลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="35dfd-120">Register time</span></span>
+### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="35dfd-121">การลงทะเบียนเวลาพนักงานเก็บเงินและไม่ใช่พนักงานเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="35dfd-121">Cashier and non-cashier time registrations</span></span>
 
--   <span data-ttu-id="c9e90-122">ใน POS:</span><span class="sxs-lookup"><span data-stu-id="c9e90-122">On POS:</span></span>
-    -   <span data-ttu-id="c9e90-123">การดำเนินการตอกบัตรเข้า:</span><span class="sxs-lookup"><span data-stu-id="c9e90-123">Clock-in operations:</span></span>
-        -   <span data-ttu-id="c9e90-124">เข้าสู่ระบบด้วยการดำเนินงานไม่มีลิ้นชักหรือกะใหม่</span><span class="sxs-lookup"><span data-stu-id="c9e90-124">Log on with a non-drawer operation or New shift.</span></span>
-        -   <span data-ttu-id="c9e90-125">เลือกการดำเนินงานของนาฬิกาตอกบัตร</span><span class="sxs-lookup"><span data-stu-id="c9e90-125">Select a Time Clock operation.</span></span>
-        -   <span data-ttu-id="c9e90-126">เลือกการดำเนินงานที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c9e90-126">Select a desired operation:</span></span>
-            -   <span data-ttu-id="c9e90-127">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="c9e90-127">Clock-in</span></span>
-            -   <span data-ttu-id="c9e90-128">หยุดพักจากงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-128">Break for Work</span></span>
-            -   <span data-ttu-id="c9e90-129">หยุดพักกลางวัน</span><span class="sxs-lookup"><span data-stu-id="c9e90-129">Break for Lunch</span></span>
-            -   <span data-ttu-id="c9e90-130">การตอกบัตรออก</span><span class="sxs-lookup"><span data-stu-id="c9e90-130">Clock-out</span></span>
+-   <span data-ttu-id="35dfd-122">ใน POS:</span><span class="sxs-lookup"><span data-stu-id="35dfd-122">On POS:</span></span>
+    -   <span data-ttu-id="35dfd-123">การดำเนินการตอกบัตรเข้า:</span><span class="sxs-lookup"><span data-stu-id="35dfd-123">Clock-in operations:</span></span>
+        -   <span data-ttu-id="35dfd-124">เข้าสู่ระบบด้วยการดำเนินงานไม่มีลิ้นชักหรือกะใหม่</span><span class="sxs-lookup"><span data-stu-id="35dfd-124">Log on with a non-drawer operation or New shift.</span></span>
+        -   <span data-ttu-id="35dfd-125">เลือกการดำเนินงานของนาฬิกาตอกบัตร</span><span class="sxs-lookup"><span data-stu-id="35dfd-125">Select a Time Clock operation.</span></span>
+        -   <span data-ttu-id="35dfd-126">เลือกการดำเนินงานที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="35dfd-126">Select a desired operation:</span></span>
+            -   <span data-ttu-id="35dfd-127">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="35dfd-127">Clock-in</span></span>
+            -   <span data-ttu-id="35dfd-128">หยุดพักจากงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-128">Break for Work</span></span>
+            -   <span data-ttu-id="35dfd-129">หยุดพักกลางวัน</span><span class="sxs-lookup"><span data-stu-id="35dfd-129">Break for Lunch</span></span>
+            -   <span data-ttu-id="35dfd-130">การตอกบัตรออก</span><span class="sxs-lookup"><span data-stu-id="35dfd-130">Clock-out</span></span>
 
     <table>
     <colgroup>
@@ -72,70 +72,70 @@ ms.lasthandoff: 11/03/2017
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="c9e90-131">สถานะปัจจุบัน:</span><span class="sxs-lookup"><span data-stu-id="c9e90-131">Current state</span></span></th>
-    <th><span data-ttu-id="c9e90-132">การดำเนินงานที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-132">Available operations</span></span></th>
+    <th><span data-ttu-id="35dfd-131">สถานะปัจจุบัน:</span><span class="sxs-lookup"><span data-stu-id="35dfd-131">Current state</span></span></th>
+    <th><span data-ttu-id="35dfd-132">การดำเนินงานที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-132">Available operations</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><span data-ttu-id="c9e90-133">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="c9e90-133">Clock-in</span></span></td>
+    <td><span data-ttu-id="35dfd-133">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="35dfd-133">Clock-in</span></span></td>
     <td><ul>
-    <li><span data-ttu-id="c9e90-134">หยุดพักจากงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-134">Break for Work</span></span></li>
-    <li><span data-ttu-id="c9e90-135">หยุดพักกลางวัน</span><span class="sxs-lookup"><span data-stu-id="c9e90-135">Break for Lunch</span></span></li>
-    <li><span data-ttu-id="c9e90-136">การตอกบัตรออก</span><span class="sxs-lookup"><span data-stu-id="c9e90-136">Clock-out</span></span></li>
+    <li><span data-ttu-id="35dfd-134">หยุดพักจากงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-134">Break for Work</span></span></li>
+    <li><span data-ttu-id="35dfd-135">หยุดพักกลางวัน</span><span class="sxs-lookup"><span data-stu-id="35dfd-135">Break for Lunch</span></span></li>
+    <li><span data-ttu-id="35dfd-136">การตอกบัตรออก</span><span class="sxs-lookup"><span data-stu-id="35dfd-136">Clock-out</span></span></li>
     </ul></td>
     </tr>
     <tr class="even">
-    <td><span data-ttu-id="c9e90-137">หยุดพักจากงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-137">Break for Work</span></span></td>
-    <td><span data-ttu-id="c9e90-138">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="c9e90-138">Clock-in</span></span></td>
+    <td><span data-ttu-id="35dfd-137">หยุดพักจากงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-137">Break for Work</span></span></td>
+    <td><span data-ttu-id="35dfd-138">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="35dfd-138">Clock-in</span></span></td>
     </tr>
     <tr class="odd">
-    <td><span data-ttu-id="c9e90-139">หยุดพักกลางวัน</span><span class="sxs-lookup"><span data-stu-id="c9e90-139">Break for Lunch</span></span></td>
-    <td><span data-ttu-id="c9e90-140">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="c9e90-140">Clock-in</span></span></td>
+    <td><span data-ttu-id="35dfd-139">หยุดพักกลางวัน</span><span class="sxs-lookup"><span data-stu-id="35dfd-139">Break for Lunch</span></span></td>
+    <td><span data-ttu-id="35dfd-140">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="35dfd-140">Clock-in</span></span></td>
     </tr>
     <tr class="even">
-    <td><span data-ttu-id="c9e90-141">การตอกบัตรออก</span><span class="sxs-lookup"><span data-stu-id="c9e90-141">Clock-out</span></span></td>
-    <td><span data-ttu-id="c9e90-142">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="c9e90-142">Clock-in</span></span></td>
+    <td><span data-ttu-id="35dfd-141">การตอกบัตรออก</span><span class="sxs-lookup"><span data-stu-id="35dfd-141">Clock-out</span></span></td>
+    <td><span data-ttu-id="35dfd-142">การตอกบัตรเข้า</span><span class="sxs-lookup"><span data-stu-id="35dfd-142">Clock-in</span></span></td>
     </tr>
     </tbody>
     </table>
 
-    <span data-ttu-id="c9e90-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="c9e90-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
--   <span data-ttu-id="c9e90-144">ดูข้อความยืนยัน และตรวจสอบว่าเวลาของกิจกรรมปัจจุบันถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="c9e90-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
--   <span data-ttu-id="c9e90-145">ล็อกบุ๊ค:</span><span class="sxs-lookup"><span data-stu-id="c9e90-145">Logbook:</span></span>
-    -   <span data-ttu-id="c9e90-146">คลิก **ล็อกบุ๊ค** เพื่อดูกิจกรรมของนาฬิกาตอกบัตร</span><span class="sxs-lookup"><span data-stu-id="c9e90-146">Click **Logbook** to view time clock activity.</span></span>
-    -   <span data-ttu-id="c9e90-147">ใช้ตัวกรองเวลาเพื่อเลือกหน้าต่างเวลาที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="c9e90-147">Use time filters to select different time windows.</span></span>
-    -   <span data-ttu-id="c9e90-148">ถ้าคุณทำงานในตำแหน่งที่ตั้งของร้านค้าหลายแห่ง คุณจะเห็นการลงทะเบียนเวลาของคุณจากร้านค้าทั้งหมดที่คุณทำการบันทึกเวลา</span><span class="sxs-lookup"><span data-stu-id="c9e90-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="c9e90-149">คุณสามารถใช้ตัวกรองข้อมูลร้านค้าเพื่อดูการลงทะเบียนเวลาจากร้านค้าที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c9e90-149">You can use the store filter to view time registrations from a selected store.</span></span>
+    <span data-ttu-id="35dfd-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="35dfd-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
+-   <span data-ttu-id="35dfd-144">ดูข้อความยืนยัน และตรวจสอบว่าเวลาของกิจกรรมปัจจุบันถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="35dfd-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
+-   <span data-ttu-id="35dfd-145">ล็อกบุ๊ค:</span><span class="sxs-lookup"><span data-stu-id="35dfd-145">Logbook:</span></span>
+    -   <span data-ttu-id="35dfd-146">คลิก **ล็อกบุ๊ค** เพื่อดูกิจกรรมของนาฬิกาตอกบัตร</span><span class="sxs-lookup"><span data-stu-id="35dfd-146">Click **Logbook** to view time clock activity.</span></span>
+    -   <span data-ttu-id="35dfd-147">ใช้ตัวกรองเวลาเพื่อเลือกหน้าต่างเวลาที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="35dfd-147">Use time filters to select different time windows.</span></span>
+    -   <span data-ttu-id="35dfd-148">ถ้าคุณทำงานในตำแหน่งที่ตั้งของร้านค้าหลายแห่ง คุณจะเห็นการลงทะเบียนเวลาของคุณจากร้านค้าทั้งหมดที่คุณทำการบันทึกเวลา</span><span class="sxs-lookup"><span data-stu-id="35dfd-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="35dfd-149">คุณสามารถใช้ตัวกรองข้อมูลร้านค้าเพื่อดูการลงทะเบียนเวลาจากร้านค้าที่เลือก</span><span class="sxs-lookup"><span data-stu-id="35dfd-149">You can use the store filter to view time registrations from a selected store.</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="c9e90-150">โซนเวลาที่แตกต่างกัน:</span><span class="sxs-lookup"><span data-stu-id="c9e90-150">Different time zones:</span></span>
-    -   <span data-ttu-id="c9e90-151">ถ้าคุณดูเวลาจากตำแหน่งที่ตั้งที่แตกต่างกัน (สำหรับล็อกบุ๊คพนักงานเก็บเงิน หรือโดยการใช้ **ดูรายการของนาฬิกาตอกบัตร** สำหรับสถานการณ์จำลองของผู้จัดการฝ่าย) และตำแหน่งที่ตั้งนั้นอยู่ในโซนเวลาที่แตกต่างกัน เรกคอร์ดเวลาที่คุณเห็นจะถูกแปลงเป็นโซนเวลาท้องถิ่นของคุณ</span><span class="sxs-lookup"><span data-stu-id="c9e90-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="c9e90-152">ตัวอย่างเช่น คุณเป็นผู้จัดการสำหรับร้านค้าสองร้าน ร้านหนึ่งในแอริโซนา และอีกร้านหนึ่งในเนวาดา</span><span class="sxs-lookup"><span data-stu-id="c9e90-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="c9e90-153">พนักงานเก็บเงินลงทะเบียนการตอกเวลาที่เวลา 9:00 น.</span><span class="sxs-lookup"><span data-stu-id="c9e90-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="c9e90-154">ในแอริโซนา</span><span class="sxs-lookup"><span data-stu-id="c9e90-154">in Arizona.</span></span> <span data-ttu-id="c9e90-155">ในขณะนั้น เวลาในเนวาดาเป็น 8:00 น.</span><span class="sxs-lookup"><span data-stu-id="c9e90-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="c9e90-156">ดังนั้น ถ้าคุณอยู่ในร้านที่เนวาดาและดูเรกคอร์ดการลงทะเบียนเวลา การลงทะเบียนเวลาจะถูกทำเครื่องหมายเป็น 8:00 น.</span><span class="sxs-lookup"><span data-stu-id="c9e90-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
+-   <span data-ttu-id="35dfd-150">โซนเวลาที่แตกต่างกัน:</span><span class="sxs-lookup"><span data-stu-id="35dfd-150">Different time zones:</span></span>
+    -   <span data-ttu-id="35dfd-151">ถ้าคุณดูเวลาจากตำแหน่งที่ตั้งที่แตกต่างกัน (สำหรับล็อกบุ๊คพนักงานเก็บเงิน หรือโดยการใช้ **ดูรายการของนาฬิกาตอกบัตร** สำหรับสถานการณ์จำลองของผู้จัดการฝ่าย) และตำแหน่งที่ตั้งนั้นอยู่ในโซนเวลาที่แตกต่างกัน เรกคอร์ดเวลาที่คุณเห็นจะถูกแปลงเป็นโซนเวลาท้องถิ่นของคุณ</span><span class="sxs-lookup"><span data-stu-id="35dfd-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="35dfd-152">ตัวอย่างเช่น คุณเป็นผู้จัดการสำหรับร้านค้าสองร้าน ร้านหนึ่งในแอริโซนา และอีกร้านหนึ่งในเนวาดา</span><span class="sxs-lookup"><span data-stu-id="35dfd-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="35dfd-153">พนักงานเก็บเงินลงทะเบียนการตอกเวลาที่เวลา 9:00 น.</span><span class="sxs-lookup"><span data-stu-id="35dfd-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="35dfd-154">ในแอริโซนา</span><span class="sxs-lookup"><span data-stu-id="35dfd-154">in Arizona.</span></span> <span data-ttu-id="35dfd-155">ในขณะนั้น เวลาในเนวาดาเป็น 8:00 น.</span><span class="sxs-lookup"><span data-stu-id="35dfd-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="35dfd-156">ดังนั้น ถ้าคุณอยู่ในร้านที่เนวาดาและดูเรกคอร์ดการลงทะเบียนเวลา การลงทะเบียนเวลาจะถูกทำเครื่องหมายเป็น 8:00 น.</span><span class="sxs-lookup"><span data-stu-id="35dfd-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
 
-## <a name="view-worker-time-registrations"></a><span data-ttu-id="c9e90-157">ดูการลงทะเบียนเวลาของผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-157">View worker time registrations</span></span>
-### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="c9e90-158">ดูการลงทะเบียนเวลาของผู้ปฏิบัติงาน และกรองข้อมูลตามชนิดของร้านค้าหรือกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="c9e90-158">View worker time registrations, and filter by store or activity type</span></span>
+## <a name="view-worker-time-registrations"></a><span data-ttu-id="35dfd-157">ดูการลงทะเบียนเวลาของผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-157">View worker time registrations</span></span>
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="35dfd-158">ดูการลงทะเบียนเวลาของผู้ปฏิบัติงาน และกรองข้อมูลตามชนิดของร้านค้าหรือกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="35dfd-158">View worker time registrations, and filter by store or activity type</span></span>
 
-<span data-ttu-id="c9e90-159">ใน POS:</span><span class="sxs-lookup"><span data-stu-id="c9e90-159">On POS:</span></span>
+<span data-ttu-id="35dfd-159">ใน POS:</span><span class="sxs-lookup"><span data-stu-id="35dfd-159">On POS:</span></span>
 
--   <span data-ttu-id="c9e90-160">เลือก **ดูรายการของนาฬิกาตอกบัตร**</span><span class="sxs-lookup"><span data-stu-id="c9e90-160">Select **View timeclock entries**.</span></span>
--   <span data-ttu-id="c9e90-161">คุณดูกิจกรรมการลงทะเบียนนาฬิกาตอกบัตรจากพนักงานทั้งหมดที่ถูกกำหนดให้กับร้านค้าเดียวกันกับที่คุณได้รับมอบหมาย</span><span class="sxs-lookup"><span data-stu-id="c9e90-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
--   <span data-ttu-id="c9e90-162">คุณสามารถใช้ชนิดของกิจกรรม และเก็บตัวกรองเพื่อกรองข้อมูลสำหรับการลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="c9e90-162">You can use the activity type and store filters to filter on time registrations.</span></span>
+-   <span data-ttu-id="35dfd-160">เลือก **ดูรายการของนาฬิกาตอกบัตร**</span><span class="sxs-lookup"><span data-stu-id="35dfd-160">Select **View timeclock entries**.</span></span>
+-   <span data-ttu-id="35dfd-161">คุณดูกิจกรรมการลงทะเบียนนาฬิกาตอกบัตรจากพนักงานทั้งหมดที่ถูกกำหนดให้กับร้านค้าเดียวกันกับที่คุณได้รับมอบหมาย</span><span class="sxs-lookup"><span data-stu-id="35dfd-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
+-   <span data-ttu-id="35dfd-162">คุณสามารถใช้ชนิดของกิจกรรม และเก็บตัวกรองเพื่อกรองข้อมูลสำหรับการลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="35dfd-162">You can use the activity type and store filters to filter on time registrations.</span></span>
 
-## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="c9e90-163">ประมวลผลและจัดการการลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="c9e90-163">Process and manage time registrations</span></span>
-<span data-ttu-id="c9e90-164">ผู้ใช้ Dynamics 365 for Retail ปฏิบัติตามลำดับงานเพื่ิอคำนวณ อนุมัติ และโอนย้ายการลงทะเบียนเวลาไปที่ค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="c9e90-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="35dfd-163">ประมวลผลและจัดการการลงทะเบียนเวลา</span><span class="sxs-lookup"><span data-stu-id="35dfd-163">Process and manage time registrations</span></span>
+<span data-ttu-id="35dfd-164">ผู้ใช้ Dynamics 365 for Retail ปฏิบัติตามลำดับงานเพื่ิอคำนวณ อนุมัติ และโอนย้ายการลงทะเบียนเวลาไปที่ค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="35dfd-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
 
-### <a name="primary-operations"></a><span data-ttu-id="c9e90-165">การดำเนินงานหลัก</span><span class="sxs-lookup"><span data-stu-id="c9e90-165">Primary operations</span></span>
+### <a name="primary-operations"></a><span data-ttu-id="35dfd-165">การดำเนินงานหลัก</span><span class="sxs-lookup"><span data-stu-id="35dfd-165">Primary operations</span></span>
 
--   <span data-ttu-id="c9e90-166">คำนวณ</span><span class="sxs-lookup"><span data-stu-id="c9e90-166">Calculate</span></span>
--   <span data-ttu-id="c9e90-167">อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="c9e90-167">Approve</span></span>
--   <span data-ttu-id="c9e90-168">ส่งไปที่ค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="c9e90-168">Submit to payroll</span></span>
+-   <span data-ttu-id="35dfd-166">คำนวณ</span><span class="sxs-lookup"><span data-stu-id="35dfd-166">Calculate</span></span>
+-   <span data-ttu-id="35dfd-167">อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="35dfd-167">Approve</span></span>
+-   <span data-ttu-id="35dfd-168">ส่งไปที่ค่าจ้าง</span><span class="sxs-lookup"><span data-stu-id="35dfd-168">Submit to payroll</span></span>
 
-### <a name="other-common-operations"></a><span data-ttu-id="c9e90-169">การดำเนินงานทั่วไปอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="c9e90-169">Other common operations</span></span>
+### <a name="other-common-operations"></a><span data-ttu-id="35dfd-169">การดำเนินงานทั่วไปอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="35dfd-169">Other common operations</span></span>
 
--   <span data-ttu-id="c9e90-170">การตอกบัตรออกจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="c9e90-170">Bulk Clock-out</span></span>
--   <span data-ttu-id="c9e90-171">ลงทะเบียนการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="c9e90-171">Register Absence</span></span>
+-   <span data-ttu-id="35dfd-170">การตอกบัตรออกจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="35dfd-170">Bulk Clock-out</span></span>
+-   <span data-ttu-id="35dfd-171">ลงทะเบียนการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="35dfd-171">Register Absence</span></span>
 
-<span data-ttu-id="c9e90-172">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดำเนินการลงทะเบียนเวลาและการเข้างาน <https://technet.microsoft.com/en-us/library/aa573180.aspx></span><span class="sxs-lookup"><span data-stu-id="c9e90-172">For more information about how to process time and attendance registrations, see <https://technet.microsoft.com/en-us/library/aa573180.aspx>.</span></span>
+<span data-ttu-id="35dfd-172">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดำเนินการลงทะเบียนเวลาและการเข้างาน <https://technet.microsoft.com/en-us/library/aa573180.aspx></span><span class="sxs-lookup"><span data-stu-id="35dfd-172">For more information about how to process time and attendance registrations, see <https://technet.microsoft.com/en-us/library/aa573180.aspx>.</span></span>
 
 
 
