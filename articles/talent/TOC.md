@@ -1,10 +1,9 @@
 # [ยินดีต้อนรับสู่ Dynamics 365 for Talent](index.md)
 
-# การเริ่มต้นใช้งาน
+# [การเริ่มต้นใช้งาน](talent-get-started.md)
 ## [ความต้องการของระบบและนโยบายการอัพเดต](talent-versions-update-policy.md)
 
-# พัฒนากลยุทธ์ด้านทรัพยากรบุคคล
-## [จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง](departments-jobs-positions.md)
+# [พัฒนากลยุทธ์ด้านทรัพยากรบุคคล](departments-jobs-positions.md)
 ## [ตั้งค่าส่วนประกอบของงาน](create-job.md)
 ## [สร้างแผนกและการเชื่อมโยงกับลำดับชั้นของแผนก](create-department-add-department-hierarchy.md)
 ## [ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [จัดทักษะแรงงานกับความต้องการทางธุรกิจ](skills.md)
 ## [ตั้งค่าหลักสูตรการฝึกอบรม](courses.md)
 
-# สร้างและรักษาสวัสดิการ
-## [จัดการโปรแกรมสวัสดิการ](manage-benefit-program.md)
-## [นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ](benefit-eligibility-policies.md)
+# [สร้างและรักษาสวัสดิการ](manage-benefit-program.md)
+# [นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ](benefit-eligibility-policies.md)
 ## [จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน](loan-items.md)
 
-# รวบรวมข้อมูลโดยใช้แบบสอบถาม
-## [แบบสอบถาม](questionnaires.md)
+# [รวบรวมข้อมูลโดยใช้แบบสอบถาม](questionnaires.md)
 ## [ออกแบบแบบสอบถาม](design-questionnaires.md)
 ## [กระจายและทำแบบสอบถามให้เสร็จสมบูรณ์](distribute-questionnaires.md)
 ## [ประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)

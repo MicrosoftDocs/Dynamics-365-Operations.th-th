@@ -25,121 +25,121 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="9374d-103">โฮมเพจบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-103">Accounts payable home page</span></span>
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="3df70-103">โฮมเพจบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-103">Accounts payable home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="9374d-104">หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-104">This topic provides an overview of Accounts payable.</span></span> 
+<span data-ttu-id="3df70-104">หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-104">This topic provides an overview of Accounts payable.</span></span> 
 
-<span data-ttu-id="9374d-105">คุณสามารถป้อนใบแจ้งหนี้ของผู้จัดจำหน่ายด้วยตนเอง หรือได้รับทางอิเล็กทรอนิกส์ผ่านทางเอนทิตี้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="9374d-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="9374d-106">หลังจากที่ใบแจ้งหนี้ถูกป้อนหรือได้รับแล้ว คุณสามารถตรวจทานและอนุมัติใบแจ้งหนี้ โดยการใช้สมุดรายวันการอนุมัติใบแจ้งหนี้ หรือหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="9374d-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="9374d-107">คุณสามารถใช้การจับคู่ใบแจ้งหนี้ นโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย และลำดับงานในการดำเนินกระบวนการตรวจทานโดยอัตโนมัติ เพื่อให้ใบแจ้งหนี้ที่ตรงกับเกณฑ์บางอย่างได้รับการอนุมัติโดยอัตโนมัติ และตั้งค่าสถานะใบแจ้งหนี้ที่เหลือสำหรับการตรวจทานโดยผู้ใช้ที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="9374d-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
+<span data-ttu-id="3df70-105">คุณสามารถป้อนใบแจ้งหนี้ของผู้จัดจำหน่ายด้วยตนเอง หรือได้รับทางอิเล็กทรอนิกส์ผ่านทางเอนทิตี้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="3df70-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="3df70-106">หลังจากที่ใบแจ้งหนี้ถูกป้อนหรือได้รับแล้ว คุณสามารถตรวจทานและอนุมัติใบแจ้งหนี้ โดยการใช้สมุดรายวันการอนุมัติใบแจ้งหนี้ หรือหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="3df70-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="3df70-107">คุณสามารถใช้การจับคู่ใบแจ้งหนี้ นโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย และลำดับงานในการดำเนินกระบวนการตรวจทานโดยอัตโนมัติ เพื่อให้ใบแจ้งหนี้ที่ตรงกับเกณฑ์บางอย่างได้รับการอนุมัติโดยอัตโนมัติ และตั้งค่าสถานะใบแจ้งหนี้ที่เหลือสำหรับการตรวจทานโดยผู้ใช้ที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="3df70-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
 
-<span data-ttu-id="9374d-108">**กระบวนการทางธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="9374d-108">**Business processes**</span></span>
+<span data-ttu-id="3df70-108">**กระบวนการทางธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="3df70-108">**Business processes**</span></span>
 
-<span data-ttu-id="9374d-109">[![กระบวนการทางธุรกิจ](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="9374d-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
+<span data-ttu-id="3df70-109">[![กระบวนการทางธุรกิจ](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="3df70-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
 
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="9374d-110">ตั้งค่าบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-110">Set up Accounts payable</span></span>
+## <a name="set-up-accounts-payable"></a><span data-ttu-id="3df70-110">ตั้งค่าบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-110">Set up Accounts payable</span></span>
 
-<span data-ttu-id="9374d-111">ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น</span><span class="sxs-lookup"><span data-stu-id="9374d-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
+<span data-ttu-id="3df70-111">ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น</span><span class="sxs-lookup"><span data-stu-id="3df70-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
 
-[<span data-ttu-id="9374d-112">ตั้งค่าคอนฟิกบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
+[<span data-ttu-id="3df70-112">ตั้งค่าคอนฟิกบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
 
-[<span data-ttu-id="9374d-113">การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[<span data-ttu-id="3df70-113">การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
-[<span data-ttu-id="9374d-114">การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+[<span data-ttu-id="3df70-114">การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="9374d-115">ตั้งค่าคอนฟิกใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-115">Configure vendor invoices</span></span>
+## <a name="configure-vendor-invoices"></a><span data-ttu-id="3df70-115">ตั้งค่าคอนฟิกใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-115">Configure vendor invoices</span></span>
 
-<span data-ttu-id="9374d-116">ใช้บัญชีเจ้าหนี้เพื่อติดตามใบแจ้งหนี้และค่าใช้จ่ายทั้งหมดที่จ่ายให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
+<span data-ttu-id="3df70-116">ใช้บัญชีเจ้าหนี้เพื่อติดตามใบแจ้งหนี้และค่าใช้จ่ายทั้งหมดที่จ่ายให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
 
-[<span data-ttu-id="9374d-117">การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
+[<span data-ttu-id="3df70-117">การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
 
-[<span data-ttu-id="9374d-118">โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
+[<span data-ttu-id="3df70-118">โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
 
-[<span data-ttu-id="9374d-119">ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[<span data-ttu-id="3df70-119">ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[<span data-ttu-id="9374d-120">นโยบายการจับคู่สามทาง</span><span class="sxs-lookup"><span data-stu-id="9374d-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
+[<span data-ttu-id="3df70-120">นโยบายการจับคู่สามทาง</span><span class="sxs-lookup"><span data-stu-id="3df70-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
 
-[<span data-ttu-id="9374d-121">การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="9374d-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
+[<span data-ttu-id="3df70-121">การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="3df70-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
 
-[<span data-ttu-id="9374d-122">แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[<span data-ttu-id="3df70-122">แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[<span data-ttu-id="9374d-123">บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
+[<span data-ttu-id="3df70-123">บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
 
-[<span data-ttu-id="9374d-124">การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="9374d-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
+[<span data-ttu-id="3df70-124">การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="3df70-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
 
-[<span data-ttu-id="9374d-125">พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
+[<span data-ttu-id="3df70-125">พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
 
-[<span data-ttu-id="9374d-126">ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
+[<span data-ttu-id="3df70-126">ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
 
-## <a name="configure-vendor-payments"></a><span data-ttu-id="9374d-127">ตั้งค่าคอนฟิกการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-127">Configure vendor payments</span></span> 
+## <a name="configure-vendor-payments"></a><span data-ttu-id="3df70-127">ตั้งค่าคอนฟิกการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-127">Configure vendor payments</span></span> 
 
-<span data-ttu-id="9374d-128">กำหนดชนิดของการชำระเงินที่ระบบกำหนด เช่นเช็ค การชำระเงินทางอิเล็กทรอนิกส์ หรือตั๋วสัญญาใช้เงิน ให้กับวิธีการชำระเงินที่ผู้ใช้กำหนดได้</span><span class="sxs-lookup"><span data-stu-id="9374d-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="9374d-129">ชนิดของการชำระเงินเป็นตัวเลือกที่ไม่บังคับ แต่จะมีประโยชน์เมื่อคุณตรวจสอบความถูกต้องของการชำระเงินทางอิเล็กทรอนิกส์ และต้องการให้สามารถตัดสินใจอย่างรวดเร็วว่าการชำระเงินนั้นใช้ชนิดของการชำระเงินแบบใด</span><span class="sxs-lookup"><span data-stu-id="9374d-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
+<span data-ttu-id="3df70-128">กำหนดชนิดของการชำระเงินที่ระบบกำหนด เช่นเช็ค การชำระเงินทางอิเล็กทรอนิกส์ หรือตั๋วสัญญาใช้เงิน ให้กับวิธีการชำระเงินที่ผู้ใช้กำหนดได้</span><span class="sxs-lookup"><span data-stu-id="3df70-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="3df70-129">ชนิดของการชำระเงินเป็นตัวเลือกที่ไม่บังคับ แต่จะมีประโยชน์เมื่อคุณตรวจสอบความถูกต้องของการชำระเงินทางอิเล็กทรอนิกส์ และต้องการให้สามารถตัดสินใจอย่างรวดเร็วว่าการชำระเงินนั้นใช้ชนิดของการชำระเงินแบบใด</span><span class="sxs-lookup"><span data-stu-id="3df70-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
 
-[<span data-ttu-id="9374d-130">พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
+[<span data-ttu-id="3df70-130">พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
 
-[<span data-ttu-id="9374d-131">กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
+[<span data-ttu-id="3df70-131">กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
 
-[<span data-ttu-id="9374d-132">กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
+[<span data-ttu-id="3df70-132">กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
 
-[<span data-ttu-id="9374d-133">ภาพรวมของ Positive pay</span><span class="sxs-lookup"><span data-stu-id="9374d-133">Positive pay overview</span></span>](positive-pay-overview.md)
+[<span data-ttu-id="3df70-133">ภาพรวมของ Positive pay</span><span class="sxs-lookup"><span data-stu-id="3df70-133">Positive pay overview</span></span>](positive-pay-overview.md)
 
-[<span data-ttu-id="9374d-134">ตั้งค่าและสร้างไฟล์ Positve Pay</span><span class="sxs-lookup"><span data-stu-id="9374d-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
+[<span data-ttu-id="3df70-134">ตั้งค่าและสร้างไฟล์ Positve Pay</span><span class="sxs-lookup"><span data-stu-id="3df70-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
 
-[<span data-ttu-id="9374d-135">สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="9374d-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
+[<span data-ttu-id="3df70-135">สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="3df70-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
 
-[<span data-ttu-id="9374d-136">การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน</span><span class="sxs-lookup"><span data-stu-id="9374d-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
+[<span data-ttu-id="3df70-136">การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน</span><span class="sxs-lookup"><span data-stu-id="3df70-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
 
-[<span data-ttu-id="9374d-137">ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
+[<span data-ttu-id="3df70-137">ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
 
-[<span data-ttu-id="9374d-138">ใช้ส่วนลดเงินสดนอกรอบระยะเวลาส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="9374d-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
+[<span data-ttu-id="3df70-138">ใช้ส่วนลดเงินสดนอกรอบระยะเวลาส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="3df70-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[<span data-ttu-id="9374d-139">การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
+[<span data-ttu-id="3df70-139">การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
 
-[<span data-ttu-id="9374d-140">กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
+[<span data-ttu-id="3df70-140">กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
 
-[<span data-ttu-id="9374d-141">ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="9374d-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
+[<span data-ttu-id="3df70-141">ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="3df70-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
 
-[<span data-ttu-id="9374d-142">การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
+[<span data-ttu-id="3df70-142">การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a><span data-ttu-id="9374d-143">การตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-143">Settlements</span></span>
+## <a name="settlements"></a><span data-ttu-id="3df70-143">การตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-143">Settlements</span></span>
 
-<span data-ttu-id="9374d-144">หัวข้อต่อไปนี้แสดงข้อมูลเกี่ยวกับการตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="9374d-145">การตัดจ่ายคือกระบวนการในการชำระเงินใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="9374d-145">Settlement is the process of settling payments with invoices.</span></span> 
+<span data-ttu-id="3df70-144">หัวข้อต่อไปนี้แสดงข้อมูลเกี่ยวกับการตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="3df70-145">การตัดจ่ายคือกระบวนการในการชำระเงินใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="3df70-145">Settlement is the process of settling payments with invoices.</span></span> 
 
-[<span data-ttu-id="9374d-146">ตั้งค่าคอนฟิกการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="9374d-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
+[<span data-ttu-id="3df70-146">ตั้งค่าคอนฟิกการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="3df70-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
 
-[<span data-ttu-id="9374d-147">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="9374d-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[<span data-ttu-id="3df70-147">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="3df70-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
-[<span data-ttu-id="9374d-148">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9374d-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+[<span data-ttu-id="3df70-148">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="3df70-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
-[<span data-ttu-id="9374d-149">ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ</span><span class="sxs-lookup"><span data-stu-id="9374d-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
+[<span data-ttu-id="3df70-149">ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ</span><span class="sxs-lookup"><span data-stu-id="3df70-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[<span data-ttu-id="9374d-150">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด</span><span class="sxs-lookup"><span data-stu-id="9374d-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[<span data-ttu-id="3df70-150">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด</span><span class="sxs-lookup"><span data-stu-id="3df70-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[<span data-ttu-id="9374d-151">ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="9374d-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
+[<span data-ttu-id="3df70-151">ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="3df70-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a><span data-ttu-id="9374d-152">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="9374d-152">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="3df70-152">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="3df70-152">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="9374d-153">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="9374d-153">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="3df70-153">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="3df70-153">What's new and in development</span></span>
 
-<span data-ttu-id="9374d-154">ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="9374d-154">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
+<span data-ttu-id="3df70-154">ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="3df70-154">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="9374d-155">บล็อก</span><span class="sxs-lookup"><span data-stu-id="9374d-155">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="3df70-155">บล็อก</span><span class="sxs-lookup"><span data-stu-id="3df70-155">Blogs</span></span>
 
-<span data-ttu-id="9374d-156">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</span><span class="sxs-lookup"><span data-stu-id="9374d-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
+<span data-ttu-id="3df70-156">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</span><span class="sxs-lookup"><span data-stu-id="3df70-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
 
-<span data-ttu-id="9374d-157">มีโพสต์ต่างๆ เกี่ยวกับบัญชีเจ้าหนี้ใน [บล็อกทีมผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/)</span><span class="sxs-lookup"><span data-stu-id="9374d-157">There are many posts about Accounts payable on the [Microsoft Dynamics AX product team blog](https://blogs.msdn.microsoft.com/dax/).</span></span> <span data-ttu-id="9374d-158">แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับเวอร์ชันก่อนหน้านี้ของบัญชีเจ้าหนี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="9374d-158">Although some of these posts were written for the previous version of Accounts payable, the same concepts still apply, and the procedures are also similar in the current version.</span></span>
+<span data-ttu-id="3df70-157">มีโพสต์ต่างๆ เกี่ยวกับบัญชีเจ้าหนี้ใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/)</span><span class="sxs-lookup"><span data-stu-id="3df70-157">There are many posts about Accounts payable on the [Microsoft Dynamics AX product team blog](https://blogs.msdn.microsoft.com/dax/).</span></span> <span data-ttu-id="3df70-158">แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับเวอร์ชันก่อนหน้านี้ของบัญชีเจ้าหนี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="3df70-158">Although some of these posts were written for the previous version of Accounts payable, the same concepts still apply, and the procedures are also similar in the current version.</span></span>
 
-<span data-ttu-id="9374d-159">[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</span><span class="sxs-lookup"><span data-stu-id="9374d-159">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+<span data-ttu-id="3df70-159">[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</span><span class="sxs-lookup"><span data-stu-id="3df70-159">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="9374d-160">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="9374d-160">Task guides</span></span>
-<span data-ttu-id="9374d-161">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="9374d-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="9374d-162">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="9374d-162">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="3df70-160">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="3df70-160">Task guides</span></span>
+<span data-ttu-id="3df70-161">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3df70-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="3df70-162">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="3df70-162">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="9374d-163">วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="9374d-163">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="3df70-163">วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="3df70-163">Videos</span></span>
 
-<span data-ttu-id="9374d-164">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</span><span class="sxs-lookup"><span data-stu-id="9374d-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="3df70-164">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</span><span class="sxs-lookup"><span data-stu-id="3df70-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 
