@@ -3,7 +3,7 @@ title: "ตั้งค่าประเภทการจัดซื้อต
 description: "ขั้นตอนนี้แสดงวิธีการสร้างโหนดใหม่ในลำดับชั้นประเภทการจัดซื้อและวิธีการตั้งค่าประเภทการจัดซื้อที่จะใช้ในกระบวนการจัดซื้อ "
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 
 ## <a name="add-a-new-procurement-category"></a>เพิ่มประเภทการจัดซื้อใหม่
-1. ไปยัง การจัดซื้อและการจัดหา > .. > ประเภทการจัดซื้อ
+1. ไปที่การจัดซื้อและการจัดหา > ประเภทการจัดซื้อ
 2. คลิกแก้ไขลำดับชั้นของประเภท
     * ลำดับชั้นประเภทการจัดซื้อปัจจุบันจะแสดงอยู่ทางด้านซ้ายของหน้า  คุณกำลังจะปรับเปลี่ยนลำดับชั้น  
 3. คลิกโหนดประเภทใหม่
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 7. คลิก บันทึก
 
 ## <a name="add-products-to-your-new-procurement-category"></a>เพิ่มผลิตภัณฑ์ไปยังประเภทการจัดซื้อใหม่ของคุณ
-1. ไปยัง การจัดซื้อและการจัดหา > .. > ประเภทการจัดซื้อ
+1. ไปที่การจัดซื้อและการจัดหา > ประเภทการจัดซื้อ
     * เลือกโหนดคุณเพิ่งเพิ่มเข้ามา  ถ้าคุณกำลังใช้งานขั้นตอนนี้เป็นคู่มืองานคุณอาจต้องการปลดล็อคคู่มืองานเพื่อเลือกโหนด  
 2. เปิด/ปิดการขยายส่วนผลิตภัณฑ์ 
 3. คลิกเพิ่มเพื่อเชื่อมโยงผลิตภัณฑ์กับประเภทการจัดซื้อ

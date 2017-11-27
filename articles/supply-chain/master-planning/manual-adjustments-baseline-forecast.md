@@ -1,9 +1,9 @@
 ---
 title: "ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน"
-description: "บทความนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์"
+description: "หัวข้อนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์"
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์ 
+หัวข้อนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์ 
 
 ก่อนที่คุณจะทำการปรับปรุงด้วยตนเอง สิ่งสำคัญคือคุณเข้าใจแนวความคิดต่างๆในหน้าที่แตกต่างกัน
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 -   คอลัมน์ในลำดับต่อมาแสดงถึงกลุ่มการคาดการณ์ที่มีการสร้างการคาดการณ์ให้ ส่วนหัวของคอลัมน์แต่ละส่วนคือ วันที่แรกของกลุ่มการคาดการณ์ที่มีการแสดงคอลัมน์
 -   ค่าในเซลล์แสดงถึงการคาดการณ์สำหรับสินค้าหนึ่งรายการ คีย์การปันส่วนสินค้า และอื่นๆ สำหรับกลุ่มการคาดการณ์ที่ระบุ
 
-## <a name="forecast-aggregation-and-deaggregation"></a>การรวมและการแยกการคาดการณ์
+## <a name="forecast-aggregation-and-de-aggregation"></a>การรวมและการแยกการคาดการณ์
 หัวข้อย่อยของหน้าแสดงระดับของการรวมการคาดการณ์ 
 
 ตัวอย่างเช่น ถ้าหัวข้อย่อยของหน้าเป็น **บริษัท / ไซต์ / คีย์การปันส่วน / หมายเลขสินค้า/ สี / ขนาด / การตั้งค่าคอนฟิก / ลักษณะ**จะไม่มีการรวมการคาดการณ์ และการคาดการณ์จะถูกแสดงที่ระดับของสินค้าและมิติ เมื่อต้องการเปลี่ยนการรวม ให้ใช้หน้า **เปลี่ยนแปลงมิติการคาดการณ์** ซึ่งคุณสามารถเปิดจากเมนูแอพลิเคชัน 

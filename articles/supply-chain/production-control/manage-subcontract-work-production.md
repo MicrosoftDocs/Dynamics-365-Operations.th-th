@@ -3,7 +3,7 @@ title: "จัดการงานที่รับเหมารายย่
 description: "หัวข้อนี้อธิบายวิธีจัดการการดำเนินการรับเหมารายย่อยใน Microsoft Dynamics 365 for Finance and Operations อีกนัยหนึ่ง จะอธิบายวิธีจัดการการดำเนินงานการผลิตที่ปันส่วนให้กับทรัพยากรโดยผู้จัดจำหน่าย"
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 หัวข้อนี้อธิบายวิธีจัดการการดำเนินการรับเหมารายย่อยใน Microsoft Dynamics 365 for Finance and Operations อีกนัยหนึ่ง จะอธิบายวิธีจัดการการดำเนินงานการผลิตที่ปันส่วนให้กับทรัพยากรโดยผู้จัดจำหน่าย
 
-ใน [กระบวนการผลิต](production-process-overview.md) สามารถทำงานได้โดยใช้ทรัพยากรที่เป็นเจ้าของหรือจัดการโดยผู้จัดจำหน่าย โดยทั่วไป ระบบจะใช้ทรัพยากรผู้จัดจำหน่ายกับอุปสงค์ส่วนเกินเป็นครั้งคราวของระดับที่เกินกำลังการผลิตที่พร้อมใช้งานของทรัพยากรของบริษัทเอง ผู้จัดจำหน่ายอาจยังสามารถเสนอ [ความสามารถของทรัพยากร](resource-capabilities.md)เฉพาะหรือทรัพยากรในราคาที่ต่ำกว่าได้  
+ใน [กระบวนการผลิต](production-process-overview.md) สามารถทำงานได้โดยใช้ทรัพยากรที่เป็นเจ้าของหรือจัดการโดยผู้จัดจำหน่าย โดยทั่วไป ระบบจะใช้ทรัพยากรผู้จัดจำหน่ายกับอุปสงค์ส่วนเกินเป็นครั้งคราวของระดับที่เกินกำลังการผลิตที่พร้อมใช้งานของทรัพยากรของบริษัทเอง ผู้จัดจำหน่ายอาจยังสามารถเสนอ [ความสามารถของทรัพยากร](resource-capabilities.md) เฉพาะ หรือทรัพยากรในราคาที่ต่ำกว่าได้ด้วย  
 
 ขึ้นอยู่กับทรัพยากรผู้จัดจำหน่ายที่ใช้ในกระบวนการผลิต [กระบวนการผลิต](routes-operations.md) มักจะมีข้อกำหนดลอจิสติกส์เพิ่มเติม เนื่องจากวัสดุและผลิตภัณฑ์กึ่งสำเร็จรูปจะต้องถูกขนส่งไปยังไซต์ของผู้จัดจำหน่าย จากนั้นต้องมีการส่งผลลัพธ์ของการดำเนินงานรับเหมารายย่อยไปยังตำแหน่งที่มีการปันส่วนสำหรับการดำเนินงานถัดไป หรือไปยังคลังสินค้าสำเร็จรูปอย่างใดอย่างหนึ่ง  
 

@@ -1,9 +1,9 @@
 ---
 title: "สัญญาโครงการ"
-description: "บทความนี้อธิบายและแสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
+description: "หัวข้อนี้แสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างได้สำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายและแสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+บทความนี้แสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างได้สำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 
 ชนิดของโครงการที่คุณสร้างขึ้นสำหรับสัญญาโครงการ จะเป็นตัวกำหนดวิธีการที่ใช้ในการออกใบแจ้งหนี้แก่ลูกค้าโครงการ คุณสามารถแก้ไขสัญญาโครงการและโครงการที่เกี่ยวข้อง แต่คุณไม่สามารถเปลี่ยนชนิดของโครงการได้ 
 
@@ -224,7 +224,7 @@ ms.lasthandoff: 09/29/2017
 </tr>
 <tr class="odd">
 <td>ธุรกรรม 2</td>
-<td><strong>ยอดเงินธุรกรรม:</strong> 5,000.00<strong>เงินทุน:</strong> ธุรกรรมจะถูกชำระตามกฎทั้งหมดสามข้อ<strong>Rule 1</strong>
+<td><strong>ยอดเงินธุรกรรม:</strong> 5,000.00<strong>เงินทุน:</strong> ธุรกรรมจะถูกชำระตามกฎทั้งหมดสามข้อ <strong>กฎ 1</strong>
 <ul>
 <li>แหล่งเงินทุน 2: 450.00</li>
 <li>ที่มาของแหล่งเงินทุน 3: 450.00</li>

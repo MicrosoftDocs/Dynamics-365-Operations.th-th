@@ -1,9 +1,9 @@
 ---
 title: "ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ"
-description: "บทความนี้แสดงใบแจ้งหนี้หลายรายการที่ชำระเมื่อแต่ละใบแจ้งหนี้ตรงตามเงื่อนไขสำหรับส่วนลดเงินสด สถานการณ์จำลองในบทความของเขาเน้นว่าส่วนลดเงินสดที่จะนำมาใช้จะแตกต่าง เมื่อทำการชำระเงิน"
+description: "หัวข้อนี้แสดงวิธีการชำระใบแจ้งหนี้หลายรายการ เมื่อใบแจ้งหนี้แต่ละใบตรงตามเงื่อนไขสำหรับส่วนลดเงินสด สถานการณ์จำลองในบทความของเขาเน้นว่าส่วนลดเงินสดที่จะนำมาใช้จะแตกต่าง เมื่อทำการชำระเงิน"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5b6f3da6885d5e156ec1fde0609b1b35aa77b6c0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงใบแจ้งหนี้หลายรายการที่ชำระเมื่อแต่ละใบแจ้งหนี้ตรงตามเงื่อนไขสำหรับส่วนลดเงินสด สถานการณ์จำลองในบทความของเขาเน้นว่าส่วนลดเงินสดที่จะนำมาใช้จะแตกต่าง เมื่อทำการชำระเงิน
+หัวข้อนี้แสดงวิธีการชำระใบแจ้งหนี้หลายรายการ เมื่อใบแจ้งหนี้แต่ละใบตรงตามเงื่อนไขสำหรับส่วนลดเงินสด สถานการณ์จำลองในบทความของเขาเน้นว่าส่วนลดเงินสดที่จะนำมาใช้จะแตกต่าง เมื่อทำการชำระเงิน
 
 Fabrikam ขายสินค้าให้กับลูกค้า 4032 Fabrikam ให้ส่วนลดเงินสด 1 เปอร์เซ็นต์ หากใบแจ้งหนี้ถูกชำระภายใน 14 วัน Fabrikam ยังมอบส่วนลดเงินสดให้กับการชำระเงินบางส่วนอีกด้วย พารามิเตอร์การชำระเงินอยู่ในหน้า **พารามิเตอร์บัญชีลูกหนี้**
 

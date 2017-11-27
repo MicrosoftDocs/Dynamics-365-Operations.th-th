@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ Microsoft Word สำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 
 เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในคู่มืองาน "สร้างการตั้งค่าคอนฟิก ER สำหรับการสร้างรายงานในรูปแบบ OPENXML" ก่อน นอกจากนี้คุณยังต้องดาวน์โหลดและบันทึกเท็มเพลตต่อไปนี้ล่วงหน้าไว้ภายในเครื่องสำหรับรายงานตัวอย่าง:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[เท็มเพลตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[เท็มเพลตที่กำหนดขอบเขตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
 
 กระบวนงานนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Microsoft Dynamics 365 for Operations รุ่น 1611
 
@@ -49,7 +49,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
 ## <a name="replace-the-excel-template-with-the-word-template"></a>แทนที่เท็มเพลต Excel ด้วยเท็มเพลต Word
     * ปัจจุบัน เอกสาร Excel จะใช้เป็นเท็มเพลตเพื่อสร้างเอาท์พุทในรูปแบบ OPENXML เราจะนำเข้าเท็มเพลตของรายงานในรูปแบบ Word  
 1. คลิกสิ่งที่แนบ
-    * แทนที่เท็มเพลต Excel ที่มีอยู่ด้วยเท็มเพลต Word ที่คุณดาวน์โหลดมาก่อนหน้านี้ SampleVendPaymDocReport.docx หมายเหตุ เท็มเพลตนี้ประกอบด้วยโครงร่างของเอกสารที่เราต้องการสร้างเป็นเอาท์พุท ER เท่านั้น  
+    * แทนที่เท็มเพลต Excel ที่มีอยู่ด้วยเท็มเพลต Word ที่คุณดาวน์โหลดมาก่อนหน้านี้ เท็มเพลตของรายงานการชำระเงิน หมายเหตุ เท็มเพลตนี้ประกอบด้วยโครงร่างของเอกสารที่เราต้องการสร้างเป็นเอาท์พุท ER เท่านั้น  
 2. คลิก ลบ
 3. คลิก ใช่
 4. คลิก สร้าง

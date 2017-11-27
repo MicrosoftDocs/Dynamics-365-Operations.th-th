@@ -1,9 +1,9 @@
 --- 
 title: "พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน"
-description: "คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม "
+description: "คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสมได้"
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3cb6b9d8ee6a3d70731c89d26352eb3869ce3d11
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF และงานมีไว้สำหรับค่าตอบแทนและสวัสดิการผู้จัดการ
+คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสมได้ ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF และงานมีไว้สำหรับค่าตอบแทนและสวัสดิการผู้จัดการ
 
 
 ## <a name="create-fixed-compensation-plan"></a>สร้างแผนค่าตอบแทนคงที่

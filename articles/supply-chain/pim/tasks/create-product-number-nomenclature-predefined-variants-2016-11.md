@@ -3,7 +3,7 @@ title: "สร้างหมายเลขผลิตภัณฑ์สำห
 description: "คู่มือนี้แสดงวิธีการตั้งค่าระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า และวิธีการกำหนดให้กับกลุ่มมิติของผลิตภัณฑ์ที่เหมาะสม "
 author: BibiSp
 manager: AnnBe
-ms.date: 09/26/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6294e4608b31c37aa713e3a7a2028b409b5a8366
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c423aab341ddad9383c4c95b9dbb63c9875c99ef
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-product-number-for-predefined-product-variants"></a>สร้างหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 1. คลิก ข้อกำหนดแบบจำลองผลิตภัณฑ์ย่อย
 2. คลิก ระบบการตั้งชื่อผลิตภัณฑ์
 3. คลิก สร้าง
-4. ในฟิลด์ชื่อ ป้อนชื่อระบบการตั้งชื่อที่ช่วยในการระบุเป้าหมายกลุ่มมิติของผลิตภัณฑ์ ตัวอย่างเช่น ColorSize
+4. ในฟิลด์ ชื่อ ให้ป้อนชื่อระบบการตั้งชื่อที่ช่วยในการระบุกลุ่มมิติของผลิตภัณฑ์เป้าหมาย ตัวอย่างเช่น ColorSize
 5. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
 6. คลิก เพิ่ม
 7. คลิก หมายเลขผลิตภัณฑ์หลัก

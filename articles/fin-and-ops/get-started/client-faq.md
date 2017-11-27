@@ -3,14 +3,14 @@ title: "FAQ ไคลเอนต์ Finance and Operations"
 description: "บทความนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์ Microsoft Dynamics 365 for Finance and Operations"
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d4fa4629d203aa888fe6400126a872d2eee000
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>ฉันขาด ribbon จาก Dynamics AX 2012 ฉันสามารถรักษาแท็บบานหน้าต่างการดำเนินการให้เปิดตลอดเวลาได้หรือไม่
 เรากำลังวางแผนจะใช้คุณลักษณะนี้ในเร็วๆ นี้ ผู้ใช้สามารถเลือกเพื่อรักษาแท็บในบานหน้าต่างการดำเนินการเปิดตลอดเวลา มิฉะนั้น แท็บจะสามารถยุบเมื่อไม่ได้กำลังใช้งาน เพื่อเข้าใช้พื้นที่หน้าจอเพิ่มเติมสำหรับหน้านั้น
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>เหตุใดบางครั้งฉันสามารถดูเมนูทางลัดที่แตกต่างกันเมื่อฉันคลิกขวา
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>เหตุใดบางครั้งฉันเห็นเมนูทางลัดที่แตกต่างกัน เมื่อฉันคลิกขวา?
 ถ้าคุณคลิกขวาในฟิลด์แก้ไขได้ (หรือ ถ้าข้อความถูกเลือก), เมนูทางลัดของเบราเซอร์จะแสดงขึ้น เมนูนี้ช่วยให้คุณเข้าถึงคำสั่ง **ตัด**, **สำเนา**และ **วาง** เราไม่สามารถฝังคำสั่งเหล่านี้ลงในเมนูทางลัด Finance and Operations เนื่องจาก เหตุผลด้านความปลอดภัย เบราเซอร์ไม่อนุญาติให้เราเข้าถึงคลิปบอร์ดระบบทางโปรแกรม
 
 ถ้าคุณคลิกขวาที่ป้ายชื่อฟิลด์หรือค่าของตัวควบคุมแบบอ่านอย่างเดียว คุณจะเห็นเมนูทางลัด Finance and Operations

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -38,12 +38,11 @@ ms.lasthandoff: 09/29/2017
 ## <a name="quick-links"></a>ลิงค์ด่วน
 |      |   |
 |------|---|
-|  [เริ่มต้นใช้งาน](terms-cost-accounting.md)    | [ตั้งค่าคอนฟิกระบบต้นทาง](../general-ledger/financial-dimensions.md)  |
-|  [สร้างมิติและนำเข้าสมาชิกมิติ](cost-elements.md)    |[สร้างลำดับชั้นมิติ](dimension-hierarchy.md)   |
-|  [สร้างการตั้งค่าพื้นฐาน](./tasks/define-cost-control-units.md)    |  [การกำหนดฐานการปันส่วน](allocation-bases.md) |
-|    [กำหนดนโยบาย](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [แหล่งข้อมูลและตัวให้บริการข้อมูล](./tasks/manage-data-source-cost-accounting-ledger.md)  |
-| [การประมวลผลแหล่งข้อมูล](./tasks/process-trace-source-data.md)     | [การคำนวณค่าโสหุ้ย](overhead-calculation.md)  |
-|   [การวิเคราะห์และการรายงาน](cost-control-workspace.md)   |   |
+|  [ตั้งค่าคอนฟิกเอนทิตี้พื้นฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องใช้บัญชี CustomerSource)  |[สร้างมิติ](cost-elements.md)  |
+|  [สร้างลำดับชั้นมิติ](dimension-hierarchy.md)  |[สร้างการตั้งค่าพื้นฐาน](./tasks/define-cost-control-units.md)| 
+| [การกำหนดฐานการปันส่วน](allocation-bases.md)|[กำหนดนโยบาย](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [แหล่งข้อมูลและตัวให้บริการข้อมูล](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [แหล่งข้อมูลและตัวให้บริการข้อมูล](./tasks/process-trace-source-data.md)     | 
+|[การคำนวณค่าโสหุ้ย](overhead-calculation.md)  | [การวิเคราะห์และการรายงาน](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>เริ่มต้นใช้งานวิดีโอ<br/>
 
