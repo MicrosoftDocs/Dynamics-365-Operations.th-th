@@ -2,6 +2,11 @@
 
 # เริ่มต้นใช้งาน
 ## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](get-started/whats-new.md)
+## [ก่อนที่คุณจะซื้อ Dynamics 365 for Retail](get-started/before-you-buy.md)
+## [ลงทะเบียนสมัครใช้งานรุ่นตัวอย่าง](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [ปรับใช้สภาพแวดล้อมสาธิต](../dev-itpro/deployment/deploy-demo-environment.md)
+## [ตัวเลือกการปรับใช้](dev-itpro/choose-deployment.md)
+
 
 # การชำระเงิน
 ## [วิธีการชำระเงิน](payment-methods.md)
@@ -32,17 +37,19 @@
 ## [ตัวเลือกการชำระเงิน](work-with-payments.md)
 
 # การตั้งค่าและการจัดการช่องทาง
-## [เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อมการขายปลีก](enable-configure-retail-functionality.md)
+## [เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Retail](enable-configure-retail-functionality.md)
 ## [กำหนดช่องทางการขายปลีก](define-maintain-retail-channels.md)
 ## [ภาพรวมร้านค้าออนไลน์](online-stores.md)
-## [ตั้งค่าคอนฟิกและติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)
-## [เวลาและการเข้างานการขายปลีก](retail-time-attendance.md)
+## [ตั้งค่าคอนฟิกและติดตั้งสถานีฮาร์ดแวร์ Retail](retail-hardware-station-configuration-installation.md)
+## [เวลาและการเข้างานของ Retail](retail-time-attendance.md)
 
-# ขายหน้าร้านที่ทันสมัย (MPOS) และ POS ระบบคลาวด์
+# Modern Point of Sale (MPOS) และ Cloud POS
+## [การดำเนินการของ POS](POS-operations.md)
+## [เค้าโครงหน้าจอข้อมูลสาธิตใน MPOS/CPOS](demo-data.md)
 ## อุปกรณ์ต่อพ่วงฮาร์ดแวร์
-### [ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก](retail-peripherals-overview.md)
+### [ภาพรวมของอุปกรณ์ต่อพ่วงของ Retail](retail-peripherals-overview.md)
 ### [Microsoft ทดสอบอุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS](microsoft-tested-pos-hardware-peripherals.md)
-### [โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก](dev-itpro/retail-peripheral-simulator.md)
+### [โปรแกรมจำลองอุปกรณ์ต่อพ่วงของ Retail](dev-itpro/retail-peripheral-simulator.md)
 ### [กำหนดและรักษาไคลเอนต์ช่องทาง และเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](define-maintain-channel-clients-registers-hw-stations.md)
 ## โครงร่างหน้าจอ
 ### [ตั้งค่าคอนฟิกโครงร่างหน้าจอสำหรับ POS](pos-screen-layouts.md)
@@ -60,10 +67,11 @@
 ### [ใบสั่งของลูกค้าแบบไฮบริด](hybrid-customer-orders.md)
 ## สมาคมการขาย
 ### [ติดตามค่าคอมมิชชันใน POS โดยใช้กลุ่มการขาย](pos-sales-groups-track-commissions.md)
+## [จัดส่งตามใบสั่งจากร้านค้าอื่น](charge-send.md)
 ## การเรียกใช้อุปกรณ์
 ### [ตั้งค่าคอนฟิกและติดตั้ง MPOS](retail-modern-pos-device-activation.md)
-### [ตั้งค่าการล็อกออนแบบขยายสำหรับ POS ระบบ Cloud และ MPOS](extended-logon.md)
-### [จัดการบัญชีการขายปลีกและอุปกรณ์จากสำนักงานใหญ่](set-up-activation-accounts-validate-devices-hq.md)
+### [ตั้งค่าการล็อกออนแบบขยายสำหรับ Cloud POS และ MPOS](extended-logon.md)
+### [จัดการบัญชีและอุปกรณ์ Retail จากศูนย์ควบคุม](set-up-activation-accounts-validate-devices-hq.md)
 ## ใบเสร็จ
 ### [ตั้งค่าเท็มเพลตใบเสร็จ](receipt-templates-printing.md) 
 ### [ส่งใบเสร็จทางอีเมลจาก MPOS](email-receipts.md)
@@ -85,7 +93,7 @@
 
 # ผลิตภัณฑ์และการจัดซื้อสินค้า
 ## [ภาพรวมข้อมูลผลิตภัณฑ์](../supply-chain/pim/product-information.md)
-## [ลำดับชั้นการขายปลีก](retail-hierarchies.md)
+## [ลำดับชั้นของ Retail](retail-hierarchies.md)
 ## [สร้างและจัดการแอททริบิวต์](create-manage-attributes.md)
 ## [ตั้งค่าผลิตภัณฑ์ขายปลีก](set-up-retail-products.md)
 ## [มิติของผลิตภัณฑ์](../supply-chain/pim/product-dimensions.md)
@@ -122,7 +130,7 @@
 ## [ตั้งค่าคอนฟิคผลิตภัณฑ์ที่เชื่อมโยง](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
 ## [ ข้อตกลงทางการค้าและราคาพื้นฐาน](tasks/base-price-trade-agreements.md)
-## [ จัดประเภทกฏการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า](tasks/category-pricing-rules-trade-agreements.md)
+## [ จัดประเภทกฎการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า](tasks/category-pricing-rules-trade-agreements.md)
 ## [ ตั้งค่าคอนฟิคการประมวลผลบัตรเครดิต](tasks/configure-credit-card-processing.md)
 ## [ ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชันสำหรับพนักงานขาย](tasks/configure-functionality-profile-sales-representative.md)
 ## [ ตั้งค่าคอนฟิกสำหรับคำแนะนำผลิตภัณฑ์ที่ใช้ Machine Learning](tasks/configure-machine-learning-product-recommendations.md)
@@ -132,7 +140,7 @@
 ## [ สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก](tasks/create-calculate-post-statement-retail-store.md)
 ## [ สร้างใบสั่งศูนย์บริการ](tasks/create-call-center-orders.md)
 ## [ สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด](tasks/create-financial-dimensions-pos.md)
-## [ สร้างค่ามิติทางการเงินสำหรับช่องทางการค้าปลีกและตั้งค่าคอนฟิกค่ามิติบนร้านค้า](tasks/create-financial-dimensions-retail-channels.md)
+## [ สร้างค่ามิติทางการเงินสำหรับช่องทาง Retail และตั้งค่าคอนฟิกค่ามิติบนร้านค้า](tasks/create-financial-dimensions-retail-channels.md)
 ## [ สร้างช่องทางออนไลน์และกำหนดลักษณะช่องทาง](tasks/create-online-channel-define-channel-attributes.md)
 ## [ สร้างกลุ่มสิทธิ์ของ POS](tasks/create-pos-permission-groups.md)
 ## [ สร้างโพรไฟล์ภาพ POS ](tasks/create-pos-visual-profile-2016-02.md)
@@ -145,36 +153,36 @@
 ## [ กำหนดแผนงานตอบแทนลูกค้าสมาชิก](tasks/define-loyalty-schemes.md)
 ## [ ออกแบบความสัมพันธ์ระหว่างหน่วยงานขององค์กร](tasks/design-relationships-between-organizational-units.md)
 ## [ จัดการการจัดประเภท ](tasks/manage-assortments-2016-11.md)
-## [ การตั้งค่าคอนฟิกพารามิเตอร์สำหรับใบแจ้งยอดการขายปลีก](tasks/parameter-configurations-retail-statements.md)
-## [ การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดการขายปลีก](tasks/payment-configurations-retail-statements.md)
+## [ การตั้งค่าคอนฟิกพารามิเตอร์สำหรับใบแจ้งยอดของ Retail](tasks/parameter-configurations-retail-statements.md)
+## [ การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดของ Retail](tasks/payment-configurations-retail-statements.md)
 ## [ ดำเนินการบริการตนเองเพื่อดาวน์โหลดสถานีฮาร์ดแวร์](tasks/perform-self-service-download-hardware-station.md)
 ## [ ลงรายการบัญชีการขายออนไลน์และการชำระเงิน](tasks/posting-online-sales-payments.md)
 ## [ ดำเนินการปรับปรุงคะแนนรางวัลสำหรับสมาชิก](tasks/process-loyalty-reward-point-adjustments.md)
 ## [ กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก](tasks/push-products-distribution-center-store-buyers-push.md)
-## [ การปรับปรุงราคาในการขายปลีก](tasks/retail-price-adjustments.md)
+## [ การปรับปรุงราคาใน Retail](tasks/retail-price-adjustments.md)
 ## [ ตั้งค่าคอนฟิกและดำเนินงานเพื่อการคำนวณใบแจ้งยอด](tasks/run-job-calculate-statements.md)
 ## [ ตั้งค่าคอนฟิกและดำเนินงานเพื่อลงรายการบัญชีใบแจ้งยอด](tasks/run-job-post-statements.md)
 ## [ สร้างและรันรายงานนอกกล่อง](tasks/run-out-box-reports.md)
 ## [ ตั้งค่ากฎและพารามิเตอร์สำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าและการจัดส่งสินค้าแบบผลัก](tasks/set-up-rules-parameters-cross-docking-buyers-push.md)
-## [ การตั้งค่าคอนฟิกการจัดเก็บสำหรับใบแจ้งยอดการขายปลีก](tasks/store-configurations-retail-statements.md)
+## [ การตั้งค่าคอนฟิกการจัดเก็บสำหรับใบแจ้งยอดของ Retail](tasks/store-configurations-retail-statements.md)
 ## [ ใช้โปรแกรมความต่อเนื่อง](tasks/use-continuity-program.md)
 ## [ ตั้งค่าคอนฟิกผู้ปฏิบัติงาน](tasks/worker.md)
 
-# [การพัฒนาและการจัดการการขายปลีก](dev-itpro/dev-retail-home-page.md)
+# [การพัฒนาและการจัดการของ Retail](dev-itpro/dev-retail-home-page.md)
 
 ## สถาปัตยกรรม
-### [ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition - การขายปลีก](retail-components.md)
-### [สถาปัตยกรรมของเซิร์ฟเวอร์ระบบการขายปลีก](dev-itpro/retail-server-architecture.md)
-### [การสื่อสารช่องทางการขายปลีก](dev-itpro/define-retail-channel-communications-cdx.md)
+### [ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition - Retail](retail-components.md)
+### [สถาปัตยกรรมของเซิร์ฟเวอร์ Retail](dev-itpro/retail-server-architecture.md)
+### [การสื่อสารช่องทาง Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [สถาปัตยกรรม MPOS](dev-itpro/retail-modern-pos-architecture.md)
-### [สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของการขายปลีก](dev-itpro/retail-online-store-publishing-architecture.md)
-### [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของ Retail](dev-itpro/retail-online-store-publishing-architecture.md)
+### [เนื้อหาประสิทธิภาพช่องทาง Retail สำหรับ Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## การปรับใช้และโปรแกรมแก้ไขด่วน
-### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [ระบบร้านค้าปลีก ก่อนที่คุณจะเริ่มต้น](dev-itpro/retail-store-system-begin.md)
+### [ภาพรวมของ Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
+#### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [จัดการบัญชีการขายปลีกและอุปกรณ์จากสำนักงานใหญ่](set-up-activation-accounts-validate-devices-hq.md)
+#### [จัดการบัญชีและอุปกรณ์ Retail จากศูนย์ควบคุม](set-up-activation-accounts-validate-devices-hq.md)
 #### [การเรียกใช้อุปกรณ์ Retail POS](dev-itpro/retail-device-activation.md)
 #### [Retail Cloud POS ที่ปลอดภัย](dev-itpro/secure-retail-cloud-pos.md)
 ### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md)
@@ -187,28 +195,30 @@
 ### [ติดตั้งส่วนประกอบ N-1](dev-itpro/n-1-installation-configuration.md)
 
 ## การตั้งค่าคอนฟิกสภาพแวดล้อม
+### [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [จัดการ Bing Maps](dev-itpro/manage-bing-maps.md)
 
 ## เพิ่มความสามารถ
-### การขายหน้าร้าน
+### ขายหน้าร้าน
 #### [โครงร่างหน้าจอ Retail POS](pos-screen-layouts.md)
 ##### [ติดตั้งตัวออกแบบโครงร่าง POS](install-pos-layout-designer.md)
 #### [ตั้งค่าคอนฟิก MPOS สำหรับโหมดออฟไลน์](dev-itpro/retail-modern-pos-offline.md)
 #### [ความสามารถในการขยายทริกเกอร์ของ MPOS และ Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS](dev-itpro/pos-custom-control.md)
 #### [ส่วนขยายการชำระเงิน POS](dev-itpro/pos-payment-extension.md)
+#### [การรองรับบัตรของขวัญภายนอก](dev-itpro/gift-card.md)
 ### [สร้างแอพ Retail Experience](dev-itpro/create-retail-experience-app.md)
 ### [ภาพรวมและความสามารถในการขยายของ Hardware Station](dev-itpro/hardware-station-extensibility.md)
 
-### เซิร์ฟเวอร์ระบบการขายปลีก
+### เซิร์ฟเวอร์ Retail
 #### [ขยายตัวควบคุม Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
 #### [ตัวควบคุม Web API และ OData](dev-itpro/odata-controllers-api.md)
-#### [API ลูกค้าและผู้บริโภคของเซิร์ฟเวอร์ระบบการขายปลีก](dev-itpro/retail-server-customer-consumer-api.md)
+#### [API ลูกค้าและผู้บริโภคของเซิร์ฟเวอร์ Retail](dev-itpro/retail-server-customer-consumer-api.md)
 #### [ขยายข้อมูลเมตา](dev-itpro/extend-metadata.md)
 #### [ขยาย Commerce Runtime เพื่อสนับสนุนโหมดออฟไลน์ของ POS](dev-itpro/call-crt-service-offline.md)
 ### Commerce Runtime
 #### [ภาพรวมของ Commerce Runtime](dev-itpro/commerce-runtime-overview.md)
-#### [ความสามารถในการขยายของ Commerce Runtime และเซิร์ฟเวอร์ระบบการขายปลีก ](dev-itpro/commerce-runtime-extensibility.md)
+#### [ความสามารถในการขยายของ Commerce Runtime และเซิร์ฟเวอร์ Retail ](dev-itpro/commerce-runtime-extensibility.md)
 #### [เพิ่มข้อมูลการกำหนดลักษณะของลูกค้าในฐานข้อมูลช่องทาง](dev-itpro/add-customer-preference-channel.md)
 #### [เพิ่มคุณสมบัติในใบสั่งขาย](dev-itpro/add-properties-sales-order.md)
 #### [ความสามารถในการขยายและทริกเกอร์ของ Commerce Runtime](dev-itpro/commerce-runtime-extensibility-trigger.md)
@@ -230,10 +240,16 @@
 ### [ตัวอย่างความสามารถในการขยายของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [เครื่องบันทึกเงินสดสำหรับสวีเดน](localizations/emea-swe-cash-registers.md)
 ### [ตัวอย่างสำหรับการรวมระบบ Retail POS กับหน่วยการควบคุมสำหรับสวีเดน](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [การบรรจุสินค้าของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-cash-registers.md)
+### [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-loc-deployment-guidelines.md)
+### [การทำแพคเกจ Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [ตัวอย่าง Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [ส่วนขยายฐานข้อมูล (DB) ช่องทาง](dev-itpro/channel-db-extensions.md)
 ### [ความสามารถในการขยาย CDX](dev-itpro/cdx-extensibility.md)
+### [แอตทริบิวต์ใบสั่ง](dev-itpro/order-attributes.md)
+### [แอตทริบิวต์สำหรับลูกค้า](dev-itpro/customer-attributes.md)
+### [Retail Typescript และพร็อกซี C#](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Commerce Runtime
 ### [ส่วนขยายของสมาชิก](dev-itpro/retail-sdk/loyalty-extension-sample.md)

@@ -3,24 +3,24 @@ title: "คุณลักษณะการทำงานเฉพาะแล
 description: "หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -65,7 +65,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [สร้างเอกสารทางอิเล็กทรอนิกส์และอัพเดตข้อมูลใบสมัครโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../analytics/generate-electronic-documents-update-application-data.md)
+-   [สร้างเอกสารอิเล็กทรอนิกส์และอัพเดตข้อมูลใบสมัครโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>คู่มืองาน
 คุณสามารถอ่านคู่มืองานจากบานหน้าต่างวิธีใช้ผลิตภัณฑ์ ซึ่งจะมีหัวข้อที่แนะนำกระบวนการทางธุรกิจที่สำคัญต่างๆ คุณสามารถเปิดคู่มืองานเพื่ออ่านขั้นตอนของกระบวนการทางธุรกิจ หรือคุณสามารถเลือกเล่นคู่มืองานเพื่อทราบรายละเอียดเกี่ยวกับกระบวนการทางธุรกิจและการป้อนข้อมูลได้
