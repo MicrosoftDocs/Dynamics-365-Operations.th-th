@@ -1,9 +1,9 @@
 ---
-title: "ค่าเฉลี่ยถ่วงน้ำหนักโดยรวมมูลค่าจริงและการทำเครื่องหมาย"
-description: 
+title: "ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย"
+description: "ค่าเฉลี่ยถ่วงน้ำหนักเป็นแบบจำลองสินค้าคงคลังตามหลักการของค่าเฉลี่ยถ่วงน้ำหนัก ซึ่งการตัดสินค้าจากคลังจากสินค้าคงคลังจะมีค่าที่ค่าเฉลี่ยของสินค้าที่ได้รับในสินค้าคงคลังระหว่างรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง บวกด้วยปริมาณคงคลังคงเหลือใดๆ จากรอบระยะเวลาก่อนหน้า"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,20 +20,20 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="weighted-average-with-physical-value-and-marking"></a>ค่าเฉลี่ยถ่วงน้ำหนักโดยรวมมูลค่าจริงและการทำเครื่องหมาย
+# <a name="weighted-average-with-physical-value-and-marking"></a>ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+ค่าเฉลี่ยถ่วงน้ำหนักเป็นแบบจำลองสินค้าคงคลังตามหลักการของค่าเฉลี่ยถ่วงน้ำหนัก ซึ่งการตัดสินค้าจากคลังจากสินค้าคงคลังจะมีค่าที่ค่าเฉลี่ยของสินค้าที่ได้รับในสินค้าคงคลังระหว่างรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง บวกด้วยปริมาณคงคลังคงเหลือใดๆ จากรอบระยะเวลาก่อนหน้า
 
 เมื่อคุณรันการปิดบัญชีสินค้าคงคลัง การรับสินค้าทั้งหมดจะถูกจับคู่กับการนำสินค้าออกใช้เสมือน ซึ่งมีปริมาณและมูลค่าของสินค้าที่ได้รับทั้งหมด  การนำสินค้าออกใช้เสมือนมีความสอดคล้องกับการรับสินค้าเสมือนจากที่ที่การออกสินค้าจะถูกชำระด้วย ในลักษณะนี้ การนำสินค้าจากคลังทั้งหมดได้รับต้นทุนเฉลี่ยเดียวกัน การนำสินค้าออกใช้เสมือนและการรับสินค้าอาจถือว่าเป็นการโอนย้ายเสมือน ที่เรียกว่าการการโอนย้ายการปิดบัญชีสินค้าคงคลังค่าเฉลี่ยถ่วงน้ำหนัก
 

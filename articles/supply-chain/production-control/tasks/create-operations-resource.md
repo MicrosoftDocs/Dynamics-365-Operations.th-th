@@ -3,7 +3,7 @@ title: "สร้างแหล่งปฏิบัติงาน"
 description: "ทรัพยากรการดำเนินงานดำเนินการกิจกรรมของโครงการหรือกระบวนการผลิต "
 author: sorenva
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,17 +17,17 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e05eb5df2d29e90ed24fb13ed16543ad470dfe6b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: aa80e4b22d116c8f580c9aefe7c114cfe1d19cc8
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-an-operations-resource"></a>สร้างแหล่งปฏิบัติงาน
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-ทรัพยากรการดำเนินงานดำเนินการกิจกรรมของโครงการหรือกระบวนการผลิต  กระบวนงานนี้แสดงถึงวิธีการกำหนดทรัพยากรการดำเนินงาน  คุณสามารถดำเนินการขั้นตอนนี้ได้ในข้อมูลสาธิตของบริษัท USMF หรือการใช้ข้อมูลของคุณเอง
+ทรัพยากรการดำเนินงานดำเนินการกิจกรรมของโครงการหรือกระบวนการผลิต  กระบวนงานนี้แสดงถึงวิธีการกำหนดทรัพยากรการดำเนินงาน  คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง
 
 1. ไปที่ทรัพยากร
 2. คลิก สร้าง

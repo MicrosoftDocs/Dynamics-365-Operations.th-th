@@ -1,9 +1,9 @@
 ---
-title: "การคำนวณ BOM ด้วยต้นทุนมาตรฐาน"
-description: 
+title: "ข้อมูลที่ใช้ในการคำนวณ BOM กับต้นทุนมาตรฐาน"
+description: "การคำนวณรายการวัสดุและส่วนประกอบ (BOM) จะใช้ข้อมูลจากแหล่งที่มาหลายๆ แหล่งในการคำนวณต้นทุนมาตรฐานของสินค้าที่ผลิต แหล่งที่มาได้แก่ข้อมูลเกี่ยวกับสินค้า รายการวัสดุในกระบวนการผลิต สูตรการคำนวณต้นทุนทางอ้อม และเวอร์ชันการคิดต้นทุน"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60a84eaaf1f8aa4dbf4e1de10172a728a855e62b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>การคำนวณ BOM ด้วยต้นทุนมาตรฐาน
+# <a name="information-used-in-bom-calculations-with-standard-costs"></a>ข้อมูลที่ใช้ในการคำนวณ BOM กับต้นทุนมาตรฐาน
 
 [!include[banner](../includes/banner.md)]
 
 
-
+การคำนวณรายการวัสดุและส่วนประกอบ (BOM) จะใช้ข้อมูลจากแหล่งที่มาหลายๆ แหล่งในการคำนวณต้นทุนมาตรฐานของสินค้าที่ผลิต แหล่งที่มาได้แก่ข้อมูลเกี่ยวกับสินค้า รายการวัสดุในกระบวนการผลิต สูตรการคำนวณต้นทุนทางอ้อม และเวอร์ชันการคิดต้นทุน
 
 ข้อมูลสินค้าที่ซื้อที่ใช้ในการคำนวณ BOM ต้นทุนมาตรฐานได้แก่
 -   ต้นทุน−ต้นทุนของสินค้าที่ซื้อถูกเก็บเป็นเรกคอร์ดต้นทุนเฉพาะไซต์ในเวอร์ชันการคำนวณต้นทุนสำหรับต้นทุนมาตรฐาน แต่ละเรกคอร์ดต้นทุนแต่ละเรกคอร์ดจะมีวันที่ที่มีผลบังคับใช้ และวันที่การคำนวณ BOM จะกำหนดเรกคอร์ดต้นทุนที่จะใช้ ตัวอย่าง เช่น การคำนวณ BOM ที่มีวันที่การคำนวณอนาคตอาจใช้เรกคอร์ดต้นทุนที่มีสถานะค้างอยู่และวันมีผลบังคับใช้ในอนาคต

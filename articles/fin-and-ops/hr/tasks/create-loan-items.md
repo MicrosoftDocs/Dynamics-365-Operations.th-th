@@ -3,7 +3,7 @@ title: "สร้างสินค้าที่ให้กู้ยืม"
 description: "สินค้าที่ให้กู้ยืมเป็นเรกคอร์ดที่ช่วยให้คุณติดตามสินค้าที่มีอยู่จริง เช่นโทรศัพท์หรือคอมพิวเตอร์ ที่บริษัทของคุณให้ยืมกับผู้ปฏิบัติงาน "
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cef1f9b2e3d202d7eea3a967fa8a6c371c6ac3a5
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: aa5824a7a56136b6d09860f2ff493359dbeab9f9
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="create-loan-items"></a>สร้างสินค้าที่ให้กู้ยืม
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/29/2017
 11. ในฟิลด์ค่าเริ่มต้น ให้ป้อนตัวเลข
 12. ในฟิลด์ช่วงเวลา ให้ป้อนตัวเลข 
 13. ในฟิลด์รูแแบบ ให้พิมพ์ค่า
-    * ตัวอย่างเช่น ถ้าหมายเลขเริ่มต้นสำหรับสินค้าที่ให้กู้ยืมคือ 10 ป้อนสัญลักษณ์สองตัวเลขในฟิลด์รูปแบบ  
+    * ตัวอย่างเช่น ถ้าหมายเลขเริ่มต้นสำหรับสินค้าที่ให้กู้ยืมคือ 10 ป้อนสัญลักษณ์ตัวเลขสองรายการในฟิลด์รูปแบบ  
 14. คลิก ตกลง
 15. รีเฟรชหน้า
 

@@ -1,9 +1,9 @@
 ---
 title: "การวางแผนโหมดผสม - รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับการวางแผนโหมดผสม ในโหมดการวางแผนผสม แบบจำลองห่วงโซ่อุปทานของคุณจะยึดตามขั้นตอนการผลิต Microsoft Dynamics 365 for Finance and Operations ช่วยให้มั่นใจว่าขั้นตอนการผลิตเป็นไปตามแบบจำลองของคุณ โดยไม่คำนึงถึงนโยบายการจัดหาวัสดุที่เลือก (คัมบัง ใบสั่งผลิต ใบสั่งซื้อ ใบสั่งชุดงาน หรือใบสั่งโอนย้าย)"
+description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับการวางแผนโหมดผสม"
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้แสดงข้อมูลเกี่ยวกับการวางแผนโหมดผสม ในโหมดการวางแผนผสม แบบจำลองห่วงโซ่อุปทานของคุณจะยึดตามขั้นตอนการผลิต Microsoft Dynamics 365 for Finance and Operations ช่วยให้มั่นใจว่าขั้นตอนการผลิตเป็นไปตามแบบจำลองของคุณ โดยไม่คำนึงถึงนโยบายการจัดหาวัสดุที่เลือก (คัมบัง ใบสั่งผลิต ใบสั่งซื้อ ใบสั่งชุดงาน หรือใบสั่งโอนย้าย) 
+หัวข้อนี้แสดงข้อมูลเกี่ยวกับการวางแผนโหมดผสม ในโหมดการวางแผนผสม แบบจำลองห่วงโซ่อุปทานของคุณจะยึดตามขั้นตอนการผลิต Microsoft Dynamics 365 for Finance and Operations ช่วยให้มั่นใจว่าขั้นตอนการผลิตเป็นไปตามแบบจำลองของคุณ โดยไม่คำนึงถึงนโยบายการจัดหาวัสดุที่เลือก (คัมบัง ใบสั่งผลิต ใบสั่งซื้อ ใบสั่งชุดงาน หรือใบสั่งโอนย้าย) 
 
 คุณสามารถเลือกกลยุทธ์ของคุณทั้งหมดสำหรับการจัดหาผลิตภัณฑ์ โดยไม่คำนึงถึงโครงสร้างผลิตภัณฑ์  
 
@@ -59,7 +59,7 @@ Finance and Operations ช่วยให้มั่นใจว่าขั้
 
 ตรรกะเดียวกันถูกแสดงสำหรับชนิดนโยบายการจัดหาวัสดุอื่นๆทั้งหมด ดังนั้น การวางแผนวัสดุในระยะยาวจะขึ้นอยู่กับตรรกะเดียวกันกับที่คุณคาดว่าจะเรียกใช้กับใบสั่งซื้อจริงหลังจากที่มีการอนุมัติการผลิตและการจัดหาวัสดุ
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>นโยบายอุปทานไขว้การปันส่วนวัสดุ – ปริมาณการใช้ทรัพยากรบน BOMs
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>นโยบายอุปทานไขว้การปันส่วนวัสดุ – ปริมาณการใช้ทรัพยากรบน BOMs
 ปริมาณการใช้ทรัพยากรเป็นฟังก์ชันสำคัญใน Dynamics 365 for Operations ปริมาณการใช้ทรัพยากรเปิดใช้งานคลังสินค้าให้กับวัสดุที่เบิกสินค้าที่จะถูกเลือกแบบไดนามิก ซึ่งขึ้นอยู่กับนโยบายการจัดหาวัสดุ (ชนิดของใบสั่ง) และยังง่ายต่อการบำรุงรักษาข้อมูลพื้นฐานอีกด้วย  
 
 ปริมาณการใช้ทรัพยากรต้องการคลังสินค้าที่มีการเบิกวัสดุที่ขึ้นอยู่กับวิธีการจัดหาผลิตภัณฑ์ กล่าวได้อีกอย่างหนึ่งว่า ขณะเวลาดำเนินงาน ระบบจะค้นหาทรัพยากรที่ควรใช้สำหรับการผลิต ขึ้นอยู่กับทรัพยากร จากนั้นระบบจะค้นหาคลังสินค้าที่จะเบิกสินค้า  

@@ -3,7 +3,7 @@ title: "กระจายแบบสอบถามโดยใช้การ
 description: "การจัดกำหนดการแบบสอบถามอนุญาตให้คุณสามารถวางแผนและแจกจ่ายแบบสอบถามไปให้ผู้ตอบหลายคน "
 author: kherr75
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d371873cbd16f050ca042f5c13d93781fe6fc732
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 8dd7365a18f371694f21a19efca76bd3e29ed641
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>กระจายแบบสอบถามโดยใช้การจัดกำหนดการ
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 9. ขยายส่วนอีเมลสำหรับการบริการตนเองของพนักงาน
 10. ในฟิลด์ชื่อเรื่อง ให้พิมพ์ค่า
     * ตัวอย่าง: แบบสอบถามที่พร้อมใช้งาน  
-11. ในฟิลด์คำอธิบาย พิมพ์เนื้อความของข้อความอีเมล  โปรดทราบว่าสามารถใช้ตัวแปรเพื่อทดแทนค่าในระบบได้
+11. ในฟิลด์คำอธิบาย พิมพ์เนื้อความของข้อความอีเมล  โปรดทราบว่า สามารถใช้ตัวแปรเพื่อทดแทนค่าในระบบได้
     * ตัวอย่าง:   เรียน %P% โปรดล็อกอินไปยังระบบบริการตนเองของพนักงานเพื่อกรอกแบบสอบถามความสมบูรณ์ของบุคลากร  Contoso  
 12. คลิก บันทึก
 

@@ -1,7 +1,7 @@
 ---
 title: "ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์"
-description: "หัวข้อนี้อธิบายวิธีการใช้โปรแกรมออกแบบสูตรในรายงานอิเล็กทรอนิกส์ (ER) เมื่อคุณออกแบบรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์เฉพาะใน ER คุณสามารถใช้ Microsoft Excel เหมือนกับสูตรสำหรับการแปลงข้อมูลเพื่อให้ตรงกับความต้องการสำหรับการเติมสินค้าและการจัดรูปแบบของเอกสาร ฟังก์ชันชนิดต่างๆ ที่ได้รับการสนับสนุน - ข้อความ วันที่และเวลา ตรรกะเชิงคณิตศาสตร์ ข้อมูล การแปลงชนิดข้อมูล และอื่ ๆ  (ฟังก์ชันเฉพาะโดเมนธุรกิจ)"
-author: kfend
+description: "หัวข้อนี้อธิบายวิธีการใช้โปรแกรมออกแบบสูตรในรายงานอิเล็กทรอนิกส์ (ER)"
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: th-th
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -593,11 +593,12 @@ ms.lasthandoff: 10/05/2017
 <td>GETENUMVALUEBYNAME (พาธแหล่งข้อมูลการแจงนับ ข้อความป้ายชื่อค่าแจงนับ)</td>
 <td>ส่งคืนค่าของแหล่งข้อมูลการแจงนับที่ระบุ โดยข้อความที่ระบุของป้ายชื่อการแจงนับนี้</td>
 <td>ตัวอย่างต่อไปนี้แสดง ReportDirection ของการแจงนับในแบบจำลองข้อมูล โปรดทราบว่า ป้ายชื่อถูกกำหนดไว้สำหรับค่าแจงนับ
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> ตัวอย่างต่อไปนี้แสดง:
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>ตัวอย่างต่อไปนี้แสดง:</p>
 <ul><li>การแจงนับแบบจำลอง <strong>ReportDirection</strong> ที่ถูกแทรกลงในรายงาน ให้เป็นแหล่งข้อมูล <strong>$Direction</strong></li>
 <li>นิพจน์ ER <strong>$IsArrivals</strong> ถูกออกแบบมาเพื่อใช้การแจงนับแบบจำลองให้เป็นพารามิเตอร์ของฟังก์ชันนี้ ค่าของนิพจน์นี้คือ <strong>จริง</strong>
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>

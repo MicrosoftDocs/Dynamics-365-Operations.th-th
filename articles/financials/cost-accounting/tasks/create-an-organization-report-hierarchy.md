@@ -3,7 +3,7 @@ title: "สร้างลำดับชั้นรายงานของอ
 description: "ใช้กระบวนงานนี้เพื่อสร้างลำดับชั้นรายงานสำหรับการรายงานขององค์กร"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/28/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a>สร้างลำดับชั้นรายงานขององค์กร
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/29/2017
 40. ในฟิลด์สมาชิกมิติเริ่มต้น ให้ป้อนหรือเลือกค่า
     * เลือกสมาชิกมิติที่สอดคล้องกับโหนด  
 41. คลิก บันทึก
-42. ในแผนภูมิ เลือก 'ศูนย์ต้นทุนขององค์กร USP2\CEO\CFO'
+42. ในแผนภูมิ เลือก 'ศูนย์ต้นทุน USP2\CEO\CFO ขององค์กร'
 43. คลิก สร้าง
 44. ในฟิลด์ชื่อโหนด ให้พิมพ์ 'แสดงการค้า'
 45. คลิก บันทึก

@@ -3,7 +3,7 @@ title: "แก้ไขและรันรูปแบบเพื่อใช
 description: "ขั้นตอนต่อไปนี้อธิบายวิธีกำหนดผู้ใช้ให้กับผู้ดูแลระบบหรือวิธีการที่บทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ให้ใช้ไฟล์การจัดการเอกสาร (เอกสารแนบ) ในผลลัพธ์ ER "
 author: NickSelin
 manager: AnnBe
-ms.date: 10/31/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 76915a7294e078d76ed3ca9c41755e12b0791f3c
+ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
+ms.openlocfilehash: e145c4c7a1f3fd88481ad32d0af05511437e21dc
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>แก้ไขและรันรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์สำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
@@ -94,6 +94,6 @@ ms.lasthandoff: 09/29/2017
     * 000148  
 6. คลิก ตกลง
 7. คลิก ตกลง
-    * ตรวจทานผลลัพธ์ที่สร้างขึ้น  โปรดทราบว่านอกเหนือจากข้อความใบแจ้งหนี้ในรูปแบบ XML จะมีเพียงไฟล์เดียวที่ถูกสร้างสำหรับเอกสารแนบแต่ละรายการ  ไฟล์แนบจะถูกเติมข้อมูลด้วยผลลัพธ์ที่มีการอัดในรูปแบบฐานสอง  
+    * ตรวจทานผลลัพธ์ที่สร้างขึ้น  โปรดทราบว่า นอกเหนือจากข้อความใบแจ้งหนี้ในรูปแบบ XML มีการสร้างไฟล์เดี่ยวสำหรับเอกสารแนบแต่ละรายการ  ไฟล์แนบจะถูกเติมข้อมูลด้วยผลลัพธ์ที่มีการอัดในรูปแบบฐานสอง  
 
 

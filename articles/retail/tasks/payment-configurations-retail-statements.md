@@ -3,7 +3,7 @@ title: " การตั้งค่าคอนฟิกการชำระ�
 description: "กระบวนการนี้จะแสดงการตั้งค่าคอนฟิกสำหรับวิธีการชำระเงินของร้านค้าปลีกที่มีผลต่อวิธีการสร้างและลงรายการบัญชีการขายปลีก "
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f12d8ac9be11b92eaef4acce094ae183906278d4
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 19f9c0b1c3a93ed9c84d66041814fd64951744b0
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="payment-configurations-for-retail-statements"></a> การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดการขายปลีก

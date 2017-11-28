@@ -1,16 +1,16 @@
 ---
 title: "ภาพรวมของวิธีใช้"
-description: "บทความนี้แสดงภาพรวมส่วนประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายวิธีระบุเอกสารแบบกำหนดเองและการฝึกอบรมองค์กรของคุณ"
+description: "หัวข้อนี้แสดงภาพรวมส่วนประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายวิธีระบุเอกสารแบบกำหนดเองและการฝึกอบรมองค์กรของคุณ"
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>ภาพรวมของวิธีใช้
+# <a name="help-system-overview"></a>ภาพรวมระบบวิธีใช้
 
 [!include[banner](../includes/banner.md)]
 
-บทความนี้แสดงภาพรวมส่วนประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายวิธีระบุเอกสารแบบกำหนดเองและการฝึกอบรมองค์กรของคุณ 
+หัวข้อนี้แสดงภาพรวมส่วนประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายวิธีระบุเอกสารแบบกำหนดเองและการฝึกอบรมองค์กรของคุณ 
 
 > [!NOTE] 
 > ผลิตภัณฑ์ต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับ Talent หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent และหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้
@@ -69,16 +69,17 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 
 คุณยังสามารถค้นหาเนื้อหาของเราโดยใช้กลไกจัดการค้นหาใด ๆ เราขอแนะนำว่า เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดคุณควรใช้การค้นหาไซต์ เช่น site:docs.microsoft.com dynamics 365 "คำค้นหา"  
 
-![การค้นหาไซต์](./media/site-search-1.png)
-
-![ผลการการค้นหาไซต์](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>ตาราง docs.microsoft.com ของเนื้อหา
-ผลิตภัณฑ์ทั้งหมดใช้ร่วมกันกับเนื้อหาตารางเดี่ยวบนไซต์เอกสาร ซึ่งช่วยให้ลูกค้าสามารถดูบริบทของหัวข้อที่ใช้งานอยู่ นอกจากนี้ช่วยให้คุณสามารถใช้ตัวควบคุมตัวกรองข้อมูลเพื่อค้นหาหัวข้อที่คุณกำลังค้นหา
+Finance and Operations, Retail, and Talent ทั้งหมดใช้ตารางเนื้อหาเดี่ยวร่วมกันบนไซต์เอกสาร ซึ่งช่วยให้ลูกค้าสามารถดูบริบทของหัวข้อที่ใช้งานอยู่ได้ นอกจากนี้ ยังช่วยให้คุณสามารถใช้ตัวควบคุมตัวกรองข้อมูลที่อยู่เหนือตารางเนื้อหา เพื่อค้นหาหัวข้อที่คุณกำลังค้นหา
 
-### <a name="how-can-i-contribute"></a>ฉันจะจัดสรรได้อย่างไร 
+### <a name="follow-a-topic"></a>ตามหัวข้อ
+เพื่อให้เป็นไปตามหัวข้อ คลิกปุ่ม +ติดตามด้านล่างของกล่องข้อคิดเห็น คุณจะต้องล็อกอินเพื่อติดตามหัวข้อ ดู [ฝากความคิดเห็นให้พวกเรา](#leave-us-a-comment) เพื่อดูรายละเอียด  
 
-แสดงข้อคิดเห็นให้กับเรา! 
+### <a name="give-feedback"></a>ให้ความคิดเห็น 
+เราชอบความคิดเห็นของลูกค้า คุณสามารถแสดงข้อคิดเห็น หรือแนะนำการเปลี่ยนแปลงต่อเนื้อหาของเราได้ผ่าน GitHub
+
+##### <a name="leave-us-a-comment"></a>แสดงข้อคิดเห็นให้กับเรา 
+ถ้าคุณมีความคิดเห็นหรือคำถามเกี่ยวกับหัวข้อ ฝากความคิดเห็นให้พวกเราที่ด้านล่างของหน้า  
 
 1 คลิก **ข้อคิดเห็น** เพื่อไปยังข้อคิดเห็นที่ด้านล่างของหน้านั้น
 
@@ -96,6 +97,19 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 ทางด้านขวา ป้อนที่อยู่อีเมลและรหัสผ่านใหม่เพื่อสร้างบัญชีใหม่สำหรับเว็บไซต์ 
 
 ![ตัวเลือกการลงชื่อเข้าใช้](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>แนะนำการเปลี่ยนแปลงหรือจัดสรรเนื้อหาผ่าน GitHub
+เพื่อแนะนำการเปลี่ยนแปลง คุณจะต้องมีบัญชี GitHub และลงชื่อในข้อตกลงลิขสิทธิ์ผู้สนับสนุน  หลังจากที่คุณส่งคำขอดึง เราจะตรวจทานการเปลี่ยนแปลงที่นำเสนอของคุณ ถ้าจำเป็น เราจะอภิปรายภายใน และจากนั้นจะติดต่อกลับไปหาคุณ  
+
+เมื่อต้องการเริ่มต้นใช้งาน คลิกปุ่ม **แก้ไข** (ดินสอ) บนหัวข้อ หรือไปที่ repo ของเราที่ https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public 
+
+สำหรับข้อมูลเพิ่มเติม โปรดดูคู่มือผู้สนับสนุนของเรา: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md 
+
+
+> [!NOTE]
+> เราจะสามารถยอมรับการจัดสรรไปยังที่เก็บข้อมูลภาษาอังกฤษของเราในขณะนี้เท่านั้น  
+> เราไม่ยอมรับเรื่องที่รายงานผ่าน GitHub--ให้แน่ใจว่าจะใช้คำขอดึงมาสำหรับคำแนะนำเนื้อหา ข้อคิดเห็นของผลิตภัณฑ์และลักษณะการทำงานถูกจัดการได้ดีที่สุดผ่านทางพอร์ทัลแนวคิด Dynamics 365: https://ideas.dynamics.com/ideas/ 
 
 
 ## <a name="task-guides"></a>คู่มืองาน
@@ -196,9 +210,4 @@ Finance and Operations ประกอบด้วยระบบวิธีใ
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)](new-updated-task-guides-available-august-2016.md)
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
 [คู่มืองานใหม่ (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

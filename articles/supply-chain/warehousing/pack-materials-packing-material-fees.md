@@ -3,7 +3,7 @@ title: "วัสดุและค่าธรรมเนียมบรรจ
 description: "จะมีการชำระค่าธรรมเนียมบรรจุภัณฑ์ให้กับบริษัทรีไซเคิลในช่วงเวลาหนึ่งๆ  ชำระเงินต่อหน่วยของน้ำหนักสำหรับวัสดุแต่ละรายการอยู่ในหน่วยบรรจุ จะมีการคำนวณและรายงานค่าธรรมเนียมบรรจุภัณฑ์ แต่ไม่มีการลงรายการบัญชีธุรกรรมบัญชีแยกประเภท เนื่องจากค่าธรรมเนียมนี้ไม่ถือเป็นภาษีที่ต้องชำระให้แก่หน่วยงานจัดเก็บภาษี"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="packing-units-on-purchase-order-lines"></a>หน่วยบรรจุบนรายการใบสั่งซื้อ
 ธุรกรรมบรรจุภัณฑ์สำหรับรายการใบสั่งซื้อไม่ได้สร้างโดยระบบ คุณสร้างธุรกรรมสำหรับใบแจ้งหนี้รายการใบสั่งซื้อด้วยตนเองในหน้า **ธุรกรรมบรรจุภัณฑ์**
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>ตั้งค่าหมายเลขใบอนุญาตค่าธรรมเนียมบรรจุภัณฑ์ของลูกค้า
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>การตั้งค่าหมายเลขใบอนุญาตค่าธรรมเนียมบรรจุภัณฑ์ของลูกค้า
 ถ้าลูกค้าจ่ายค่าธรรมเนียมบรรจุภัณฑ์ ให้ระบุหมายเลขใบอนุญาตค่าธรรมเนียมบรรจุภัณฑ์ของลูกค้าในหน้า **ลูกค้า** เมื่อมีการกำหนดหมายเลขใบอนุญาตให้ลูกค้า ค่าธรรมเนียมบรรจุภัณฑ์จะคำนวณโดยอัตโนมัติเมื่อมีการออกใบแจ้งหนี้ใบสั่งขาย หลังจากการออกใบแจ้งหนี้ กล่องกาเครื่องหมาย **คำนวณค่าธรรมเนียม** ไม่ได้ถูกเลือก ในหน้า **ธุรกรรมบรรจุภัณฑ์** เนื่องจากคุณไม่จำเป็นต้องคำนวณและพิมพ์รายงาน คุณสามารถพิมพ์น้ำหนักบรรจุภัณฑ์บนใบแจ้งหนี้ และแจ้งลูกค้าว่าพวกเขาเป็นผู้ชำระค่าธรรมเนียม 
 
 ถ้าบริษัทของคุณเป็นผู้ชำระค่าธรรมเนียมบรรจุภัณฑ์ ไม่ต้องระบุหมายเลขลิขสิทธิ์ของลูกค้า หลังจากการออกใบแจ้งหนี้ กล่องกาเครื่องหมาย **คำนวณค่าธรรมเนียม** มีการเลือก ในหน้า **ธุรกรรมบรรจุภัณฑ์** บ่งชี้ว่าจะมีการคำนวณค่าธรรมเนียมเมื่อรายงานถูกสร้างขึ้น คุณสามารถพิมพ์น้ำหนักบนใบแจ้งหนี้ และระบุว่าบริษัทของคุณเป็นผู้ชำระค่าธรรมเนียม

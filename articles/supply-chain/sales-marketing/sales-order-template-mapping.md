@@ -3,7 +3,7 @@ title: "ซิงโครไนส์ส่วนหัวและรายก
 description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายจาก Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ไปยัง Microsoft Dynamics 365 for Sales"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 707efc97afc0679ed1fc22539789e98cbabcb581
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c7b2ff6430e99661ee284f65089086df9fa5a1ad
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -116,7 +116,7 @@ ms.lasthandoff: 09/29/2017
 
 ### <a name="setup-in-finance-and-operations"></a>ตั้งค่าใน Finance and Operations
 
-ตั้งค่า **การขายและการตลาด** > **งานประจำงวด** > **คำนวณยอดขายรวม** เพื่อรันเป็นชุดงานที่มีการตั้งค่า **คำนวณยอดรวมสำหรับใบสั่งขาย** เป็น **ใช่** สิ่งนี้เป็นสิ่งสำคัญเนื่องจากเฉพาะใบสั่งขายที่มีการคำนวณยอดขายรวมเท่านั้นที่จะถูกซิงค์ไปยัง CDS และ Sales ความถี่ของชุดงานควรถูกปรับให้เข้ากับความถี่ของการซิงค์ใบสั่งขาย
+ตั้งค่า **การขายและการตลาด** > **งานประจำงวด** > **คำนวณยอดขายรวม** เพื่อรันเป็นชุดงานที่มีการตั้งค่า **คำนวณยอดรวมสำหรับใบสั่งขาย** เป็น **ใช่** สิ่งนี้เป็นสิ่งสำคัญเนื่องจากเฉพาะใบสั่งขายที่มีการคำนวณยอดขายรวมเท่านั้นที่จะถูกซิงค์ไปยัง CDS และ Sales ความถี่ของชุดงานควรถูกปรับให้เข้ากับความถี่ของการซิงโครไนส์ใบสั่งขาย
 
 ### <a name="setup-in-the-data-integration-project"></a>การตั้งค่าในโครงการการรวมข้อมูล
 
