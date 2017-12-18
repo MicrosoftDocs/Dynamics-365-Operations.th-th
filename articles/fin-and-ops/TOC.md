@@ -10,6 +10,7 @@
 ##### [การปรับใช้ในองค์กรสำหรับการปรับใช้ระบบคลาวด์](get-started/system-requirements.md)
 ##### [การปรับใช้ในสถานที่](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](get-started/system-requirements-on-prem.md)
+##### [คลังสินค้าสำหรับการปรับใช้ในสถานที่](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### ซื้อ Finance and Operations
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,8 +21,9 @@
 #### [ลักษณะการทำงานของ AX 2012 ที่เลื่อนออกไป](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่](get-started/features-not-implemented-on-prem.md)
 #### [นโยบายเกี่ยวกับรอบการใช้งาน](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platform Update 11 (ตุลาคม 2017)](get-started/whats-new-platform-update-11.md)
-#### [Platform Update 10 (สิงหาคม 2017)](get-started/whats-new-platform-update-10.md)
+#### [การอัพเดตแพลตฟอร์ม 12 (พฤศจิกายน 2017)](get-started/whats-new-platform-update-12.md)
+#### [การอัพเดตแพลตฟอร์ม 11 (ตุลาคม 2017)](get-started/whats-new-platform-update-11.md)
+#### [การอัพเดตแพลตฟอร์ม 10 (สิงหาคม 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (กรกฎาคม 2017)](get-started/whats-new-application-July-2017-update.md)
 #### [Platform Update 9 (กรกฎาคม 2017)](get-started/whats-new-platform-update-9.md)
 #### [Platform Update 8 (มิถุนายน 2017)](get-started/whats-new-platform-update-8.md)
@@ -42,8 +44,9 @@
 ##### [คู่มืองานเดือนกุมภาพันธ์ 2016](get-started/new-task-guides-available-february-2016.md)
 
 ### สำรวจอินเทอร์เฟซผู้ใช้
+#### [ลักษณะการทำงานสำหรับความสามารถในการเข้าถึง](get-started/accessibility-features.md)
 #### [FAQ เกี่ยวกับ UI ของไคลเอนต์](get-started/client-faq.md)
-#### [การดำเนินการค้นหา](get-started/action-search.md)
+#### [การค้นหาการดำเนินการ](get-started/action-search.md)
 #### [ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม](get-started/advanced-filtering-query-options.md)
 #### [ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](get-started/configure-filter-workspaces.md)
 #### [แสดงหน้าแบบเคียงข้างกันโดยใช้ไอคอนเปิดในหน้าต่างใหม่](get-started/display-pages-side-by-side.md)
@@ -56,7 +59,7 @@
 #### [การตั้งเขตเวลาที่ผู้ใช้ต้องการ](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [เข้าใจเกี่ยวกับ Lifecycle Services](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### รับความช่วยเหลือและการสนับสนุน
+### อ่านและเรียกใช้เอกสารประกอบ
 #### [ภาพรวมของวิธีใช้](get-started/help-overview.md)
 #### [เชื่อมต่อความช่วยเหลือ](get-started/help-connect.md)
 #### [ดูและส่งออกคำอธิบายฟิลด์](get-started/view-export-field-descriptions.md)
@@ -152,17 +155,21 @@
 
 #### [การรวมข้อมูลโดยใช้ Common Data Service](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [ตั้งค่าคอนฟิกผู้ที่มีแนวโน้มจะเป็นลูกค้าไปยังสถานการณ์เงินสด](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [ซิงโครไนส์ผลิตภัณฑ์จาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [ซิงโครไนส์บัญชีจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [ซิงโครไนส์ผู้ติดต่อจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้จาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [รักษาบัญชีใน Sales และซิงโครไนส์โดยตรงจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [รักษาผลิตภัณฑ์ใน Finance and Operations และซิงโครไนส์โดยตรงไปยัง Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [รักษาผู้ติดต่อใน Sales และซิงโครไนส์โดยตรงไปยังผู้ติดต่อหรือลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [ซิงโครไนส์ใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [ซิงโครไนส์ใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [ซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [ซิงโครไนส์ใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [รักษาบัญชีใน Sales และซิงโครไนส์ไปยัง Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [รักษาผู้ติดต่อใน Sales และซิงโครไนส์ไปยัง Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [รักษาผลิตภัณฑ์ใน Finance and Operations และซิงโครไนส์ไปยัง Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [สร้างใบเสนอราคาขายใน Sales และซิงโครไนส์กับ Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [สร้างใบสั่งขายใน Finance and Operations และซิงโครไนส์กับ Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [สร้างใบแจ้งหนี้การขายใน Finance and Operations และซิงโครไนส์กับ Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [การใช้บริการเว็บภายนอก](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [รายงานรายชื่อบัญชีดำ](../financials/localizations/emea-ita-black-list-report.md)
 ##### [วันที่ใช้ได้](../financials/localizations/emea-ita-competence-date.md)
 ##### [ค่าเสื่อมราคาของสินทรัพย์ถาวร](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [สมุดบัญชีภาษีขาย](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## การวางแผนหลัก
+## [การวางแผนหลัก](../supply-chain/master-planning/master-planning-home-page.md)
+### [แผนหลัก](../supply-chain/master-planning/master-plans.md)
+#### [การตั้งค่าความครอบคลุม](../supply-chain/master-planning/coverage-settings.md)
+#### [กำหนดกฎความครอบคลุมสำหรับสินค้า (คู่มืองาน)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [จัดทำแผนที่มีข้อจำกัด (คู่มืองาน)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม (คู่มืองาน)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [รักษาใบสั่งตามแผน](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [จัดการความล่าช้า](../supply-chain/master-planning/delays.md)
+#### [สืบค้นกลับการกระจาย](../supply-chain/master-planning/trace-explosion.md)
+#### [ข้อความการดำเนินการ](../supply-chain/master-planning/action-messages.md)
+#### [ตรวจสอบการรันการวางแผนหลัก (คู่มืองาน)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [สร้างกำหนดการสำหรับไซต์ (คู่มืองาน)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [สร้างแผนสำหรับไซต์ (คู่มืองาน)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [แผนหลักและฟังก์ชันหลายไซต์](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [แผนสำหรับความครอบคลุมไซต์ จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [แผนสำหรับความครอบคลุมไซต์ ไม่จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [แผนสำหรับความครอบคลุมไซต์และคลังสินค้า จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [แผนสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [กำหนดรุ่น BOM](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [การกระจายรุ่น BOM](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [จัดทำแผนระหว่างบริษัท (คู่มืองาน)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [ดูความต้องการระหว่างบริษัทที่วางแผนไว้ขาออก (คู่มืองาน)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [ร่วมมือกับลูกค้าของห่วงโซ่อุปทานภายใน (คู่มืองาน)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [การคาดการณ์ความต้องการ](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [ตั้งค่าการคาดการณ์ความต้องการ](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [คีย์การลด](../supply-chain/master-planning/reduction-keys.md)
 #### [สร้างการคาดการณ์พื้นฐาน (คู่มืองาน)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [แก้ไขการคาดการณ์ความต้องการด้วยตนเอง (คู่มืองาน)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [แผนหลัก](../supply-chain/master-planning/master-plans.md)
-#### [การตั้งค่าความครอบคลุม](../supply-chain/master-planning/coverage-settings.md)
-#### [รักษาใบสั่งตามแผน](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [ล่าช้า](../supply-chain/master-planning/delays.md)
-#### [ข้อความการดำเนินการ](../supply-chain/master-planning/action-messages.md)
-#### [สืบค้นกลับการกระจาย](../supply-chain/master-planning/trace-explosion.md)
-#### [แผนหลักและฟังก์ชันหลายไซต์](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [แผนสำหรับความครอบคลุมไซต์ จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [แผนสำหรับความครอบคลุมไซต์ ไม่จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [แผนสำหรับความครอบคลุมไซต์และคลังสินค้า จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [แผนสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [กำหนดรุ่น BOM](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [การกระจายรุ่น BOM](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [ตรวจสอบการรันการวางแผนหลัก (คู่มืองาน)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [กำหนดกฎความครอบคลุมสำหรับสินค้า (คู่มืองาน)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [สร้างแผนสำหรับไซต์ (คู่มืองาน)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [สร้างกำหนดการสำหรับไซต์ (คู่มืองาน)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [จัดทำแผนที่มีข้อจำกัด (คู่มืองาน)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [จัดทำแผนระหว่างบริษัท (คู่มืองาน)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม (คู่มืองาน)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [ดูความต้องการระหว่างบริษัทที่วางแผนไว้ขาออก (คู่มืองาน)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [ร่วมมือกับลูกค้าของห่วงโซ่อุปทานภายใน (คู่มืองาน)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [แอพบนมือถือ](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [วางแผนการบรรทุกโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [การพัฒนาและการจัดการ](../dev-itpro/toc.md)
+# [การพัฒนาและการดูแลระบบสำหรับ Finance and Operations](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 
