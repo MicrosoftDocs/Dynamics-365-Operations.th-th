@@ -180,11 +180,11 @@
 
 ## การปรับใช้และโปรแกรมแก้ไขด่วน
 ### [ภาพรวมของ Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
-#### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [จัดการบัญชีและอุปกรณ์ Retail จากศูนย์ควบคุม](set-up-activation-accounts-validate-devices-hq.md)
-#### [การเรียกใช้อุปกรณ์ Retail POS](dev-itpro/retail-device-activation.md)
-#### [Retail Cloud POS ที่ปลอดภัย](dev-itpro/secure-retail-cloud-pos.md)
+### [จัดการบัญชีและอุปกรณ์ Retail จากศูนย์ควบคุม](set-up-activation-accounts-validate-devices-hq.md)
+### [การเรียกใช้อุปกรณ์ Retail POS](dev-itpro/retail-device-activation.md)
+### [Retail Cloud POS ที่ปลอดภัย](dev-itpro/secure-retail-cloud-pos.md)
 ### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [การปรับใช้อย่างกว้างของส่วนประกอบ Retail แบบบริการตนเอง](dev-itpro/retail-mass-deployment.md)
 ### [เหตุการณ์ของส่วนประกอบ Retail สำหรับการวินิจฉัยและการแก้ไขปัญหา](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [ภาพรวมของการอัพเกรดและการสนับสนุน N-1](dev-itpro/overview-upgrade-n-minus1.md)
 ### [ติดตั้งส่วนประกอบ N-1](dev-itpro/n-1-installation-configuration.md)
 
+## คำแนะนำการใช้งาน
+### [คำแนะนำการใช้งานการจัดการอุปกรณ์](implementation-considerations-devices.md)
+
 ## การตั้งค่าคอนฟิกสภาพแวดล้อม
 ### [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [จัดการ Bing Maps](dev-itpro/manage-bing-maps.md)
 
-## เพิ่มความสามารถ
-### ขายหน้าร้าน
-#### [โครงร่างหน้าจอ Retail POS](pos-screen-layouts.md)
-##### [ติดตั้งตัวออกแบบโครงร่าง POS](install-pos-layout-designer.md)
-#### [ตั้งค่าคอนฟิก MPOS สำหรับโหมดออฟไลน์](dev-itpro/retail-modern-pos-offline.md)
-#### [ความสามารถในการขยายทริกเกอร์ของ MPOS และ Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS](dev-itpro/pos-custom-control.md)
-#### [ส่วนขยายการชำระเงิน POS](dev-itpro/pos-payment-extension.md)
-#### [การรองรับบัตรของขวัญภายนอก](dev-itpro/gift-card.md)
+## ความสามารถในการขยายสำหรับการขายหน้าร้าน
+### [โครงร่างหน้าจอ Retail POS](pos-screen-layouts.md)
+### [ติดตั้งตัวออกแบบโครงร่าง POS](install-pos-layout-designer.md)
+### [ตั้งค่าคอนฟิก MPOS สำหรับโหมดออฟไลน์](dev-itpro/retail-modern-pos-offline.md)
+### [ความสามารถในการขยายทริกเกอร์ของ MPOS และ Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
+### [เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS](dev-itpro/pos-custom-control.md)
+### [ส่วนขยายการชำระเงิน POS](dev-itpro/pos-payment-extension.md)
+### [การรองรับบัตรของขวัญภายนอก](dev-itpro/gift-card.md)
 ### [สร้างแอพ Retail Experience](dev-itpro/create-retail-experience-app.md)
 ### [ภาพรวมและความสามารถในการขยายของ Hardware Station](dev-itpro/hardware-station-extensibility.md)
 
-### เซิร์ฟเวอร์ Retail
-#### [ขยายตัวควบคุม Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
-#### [ตัวควบคุม Web API และ OData](dev-itpro/odata-controllers-api.md)
-#### [API ลูกค้าและผู้บริโภคของเซิร์ฟเวอร์ Retail](dev-itpro/retail-server-customer-consumer-api.md)
-#### [ขยายข้อมูลเมตา](dev-itpro/extend-metadata.md)
-#### [ขยาย Commerce Runtime เพื่อสนับสนุนโหมดออฟไลน์ของ POS](dev-itpro/call-crt-service-offline.md)
-### Commerce Runtime
-#### [ภาพรวมของ Commerce Runtime](dev-itpro/commerce-runtime-overview.md)
-#### [ความสามารถในการขยายของ Commerce Runtime และเซิร์ฟเวอร์ Retail ](dev-itpro/commerce-runtime-extensibility.md)
-#### [เพิ่มข้อมูลการกำหนดลักษณะของลูกค้าในฐานข้อมูลช่องทาง](dev-itpro/add-customer-preference-channel.md)
-#### [เพิ่มคุณสมบัติในใบสั่งขาย](dev-itpro/add-properties-sales-order.md)
-#### [ความสามารถในการขยายและทริกเกอร์ของ Commerce Runtime](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [ตัวอย่างทริกเกอร์: การบล็อคธุรกรรม](dev-itpro/trigger-example-blocking-transaction.md)
-#### [ตัวอย่างทริกเกอร์: นโยบายการส่งคืน](dev-itpro/trigger-example-return-policy.md)
-### อีคอมเมิร์ซ
-#### [ตั้งค่าคอนฟิกร้านค้าออนไลน์](dev-itpro/configure-online-store.md)
-#### [ตั้งค่าคอนฟิกตัวให้บริการการรับรองความถูกต้อง](dev-itpro/configure-authentication-providers.md)
-#### [แพลตฟอร์มอีคอมเมิร์ซ](dev-itpro/ecommerce-platform.md)
-#### [SDK แพลตฟอร์มอีคอมเมิร์ซ](dev-itpro/ecommerce-platform-sdk.md)
-### ตัวเชื่อมต่อการชำระเงิน
-#### [การใช้งานตัวเชื่อมต่อการชำระเงินและสนุนอุปกรณ์การชำระเงิน (เอกสาร)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [ปรับใช้ตัวเชื่อมต่อการชำระเงิน](dev-itpro/deploy-payment-connector.md)
-#### [สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน](dev-itpro/create-windows-installer-payment-connector.md)
+## ความสามารถในการขยายของเซิร์ฟเวอร์ Retail
+### [ขยายตัวควบคุม Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
+### [ตัวควบคุม Web API และ OData](dev-itpro/odata-controllers-api.md)
+### [API ลูกค้าและผู้บริโภคของเซิร์ฟเวอร์ Retail](dev-itpro/retail-server-customer-consumer-api.md)
+### [ขยายข้อมูลเมตา](dev-itpro/extend-metadata.md)
+### [ขยาย Commerce Runtime เพื่อสนับสนุนโหมดออฟไลน์ของ POS](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [ภาพรวมของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## ความสามารถในการขยายของ Commerce Runtime
+### [ภาพรวมของ Commerce Runtime](dev-itpro/commerce-runtime-overview.md)
+### [ความสามารถในการขยายของ Commerce Runtime และเซิร์ฟเวอร์ Retail ](dev-itpro/commerce-runtime-extensibility.md)
+### [เพิ่มข้อมูลการกำหนดลักษณะของลูกค้าในฐานข้อมูลช่องทาง](dev-itpro/add-customer-preference-channel.md)
+### [เพิ่มคุณสมบัติในใบสั่งขาย](dev-itpro/add-properties-sales-order.md)
+### [ความสามารถในการขยายและทริกเกอร์ของ Commerce Runtime](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [ตัวอย่างทริกเกอร์: การบล็อคธุรกรรม](dev-itpro/trigger-example-blocking-transaction.md)
+### [ตัวอย่างทริกเกอร์: นโยบายการส่งคืน](dev-itpro/trigger-example-return-policy.md)
+
+## ความสามารถในการขยายของอีคอมเมิร์ซ
+### [ตั้งค่าคอนฟิกร้านค้าออนไลน์](dev-itpro/configure-online-store.md)
+### [ตั้งค่าคอนฟิกตัวให้บริการการรับรองความถูกต้อง](dev-itpro/configure-authentication-providers.md)
+### [แพลตฟอร์มอีคอมเมิร์ซ](dev-itpro/ecommerce-platform.md)
+### [SDK แพลตฟอร์มอีคอมเมิร์ซ](dev-itpro/ecommerce-platform-sdk.md)
+
+## ความสามารถในการขยายของเชื่อมต่อการชำระเงิน
+### [การใช้งานตัวเชื่อมต่อการชำระเงินและสนุนอุปกรณ์การชำระเงิน (เอกสาร)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [ปรับใช้ตัวเชื่อมต่อการชำระเงิน](dev-itpro/deploy-payment-connector.md)
+### [สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [รวม Retail SDK กับระบบบิลด์แบบต่อเนื่อง](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [ตัวอย่างความสามารถในการขยายของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [เครื่องบันทึกเงินสดสำหรับสวีเดน](localizations/emea-swe-cash-registers.md)
@@ -247,9 +251,15 @@
 ### [ส่วนขยายฐานข้อมูล (DB) ช่องทาง](dev-itpro/channel-db-extensions.md)
 ### [ความสามารถในการขยาย CDX](dev-itpro/cdx-extensibility.md)
 ### [แอตทริบิวต์ใบสั่ง](dev-itpro/order-attributes.md)
-### [แอตทริบิวต์สำหรับลูกค้า](dev-itpro/customer-attributes.md)
+### [แอตทริบิวต์ลูกค้า](dev-itpro/customer-attributes.md)
 ### [Retail Typescript และพร็อกซี C#](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [รันตัวอย่าง Retail POS](dev-itpro/pos-run-samples.md)
+### [ขยายมุมมอง POS ที่มีอยู่เพื่อเพิ่มคอลัมน์และปุ่มแถบแอพที่กำหนดเอง](dev-itpro/pos-view-extension.md)
+### [เพิ่มการควบคุมที่กำหนดเองไปยังหน้าธุรกรรมของ Retail Modern POS](dev-itpro/pos-custom-transaction.md)
+### [เพิ่มคอลัมน์ที่กำหนดเองไปยังกริดธุรกรรม POS](dev-itpro/pos-custom-transaction-column.md)
+### [เรียก POS API หรือการดำเนินงานจากส่วนขยาย POS](dev-itpro/pos-api-extension.md)
+### [ขยายมุมมอง POS ที่มีอยู่เพื่อเพิ่มคอลัมน์และปุ่มแถบแอพที่กำหนดเอง](dev-itpro/pos-view-extension.md)
+### [ทริกเกอร์และการพิมพ์ Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 
 ## Commerce Runtime
 ### [ส่วนขยายของสมาชิก](dev-itpro/retail-sdk/loyalty-extension-sample.md)

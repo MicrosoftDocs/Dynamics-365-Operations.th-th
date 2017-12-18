@@ -2,6 +2,8 @@
 
 # [การเริ่มต้นใช้งาน](talent-get-started.md)
 ## [ความต้องการของระบบและนโยบายการอัพเดต](talent-versions-update-policy.md)
+## [เตรียมใช้งาน Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [ขยายฟังก์ชันของ Talent](extend-talent-functionality.md)
 
 # [พัฒนากลยุทธ์ด้านทรัพยากรบุคคล](departments-jobs-positions.md)
 ## [ตั้งค่าส่วนประกอบของงาน](create-job.md)

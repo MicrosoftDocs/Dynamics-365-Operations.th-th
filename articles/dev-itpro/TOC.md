@@ -124,6 +124,7 @@
 #### [ลงทะเบียนคลาสย่อยสำหรับวิธีโรงงาน](extensibility/register-subclass-factory-methods.md)
 #### [ตอบกลับด้วย EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [ขยายคลาส RunBase](extensibility/extend-runbase-class.md)
+#### [ใช้ผู้รับมอบสิทธิ์เพื่อกำหนดการเริ่มต้นแอพลิเคชันเอง](extensibility/startup-customizations.md)
 #### [แก้ไขฟิลด์ที่มีอยู่ในตาราง](extensibility/modify-existing-field.md)
 #### [เพิ่มฟิลด์ใหม่ไปยังตารางที่มีอยู่](extensibility/add-field-extension.md)
 #### [เพิ่มดัชนีไปยังตารางที่มีอยู่](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่](deployment/setup-deploy-on-premises-environments.md)
 ### [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่](deployment/develop-deploy-custom-models-on-premises.md)
 ### [ใช้การอัพเดตกับการปรับใช้ในสถานที่](deployment/apply-updates-on-premises.md)
+### [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](deployment/redeploy-on-prem.md)
+### [แก้ไขปัญหา Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร)](deployment/troubleshoot-on-prem.md)
 
 ## ปรับใช้รหัสที่กำหนดเอง
 ### [สร้างแพคเกจที่สามารถปรับใช้ได้](deployment/create-apply-deployable-package.md)
-### [ใช้แพคเกจที่สามารถปรับใช้ได้](deployment/apply-deployable-package-system.md)
+### [ใช้การอัพเดตกับสภาพแวดล้อม Cloud](deployment/apply-deployable-package-system.md)
 ### [ติดตั้งแพคเกจที่สามารถปรับใช้ได้](deployment/install-deployable-package.md)
 ### [แก้ไขปัญหาแอพลิเคชันของแพคเกจ](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## อัพเกรดเป็นการอัพเดตล่าสุด
 ### [กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด](migration-upgrade/upgrade-latest-update.md)
 ### [นโยบายเกี่ยวกับรอบการใช้งาน](migration-upgrade/versions-update-policy.md)
-### [อัพเกรดเป็น Platform Update ล่าสุด](migration-upgrade/upgrade-latest-platform-update.md)
+### [ใช้การอัพเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
 ### [อัพเกรดแพลตฟอร์ม Dynamics เป็นการนำออกใช้เดือนสิงหาคม 2016](migration-upgrade/update-platform-each-release.md)
 ### [อัพเกรดสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [อัพเดตเครื่องมือการพัฒนา](dev-tools/update-development-tools.md)
+### [ใช้การอัพเดตกับการปรับใช้ในสถานที่](deployment/apply-updates-on-premises.md)
+### [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](deployment/redeploy-on-prem.md)
 
 ## โปรแกรมแก้ไขด่วนและการให้บริการ
 ### [ดาวน์โหลดโปรแกรมแก้ไขด่วนจาก Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [การใช้ข้อมูลร่วมกันข้ามบริษัท](sysadmin/cross-company-data-sharing.md)
 ## [โหมดการบำรุงรักษา](sysadmin/maintenance-mode.md)
 ## [ตั้งค่าคอนฟิกบัญชีระบบล่วงหน้า](sysadmin/pre-configured-system-accounts.md)
+## [ส่งออกผู้ใช้ B2B ไปยัง Azure AD](sysadmin/implement-b2b.md)
 ## [ความปลอดภัยตามบทบาท](sysadmin/role-based-security.md)
 ### [สถาปัตยกรรมความปลอดภัย](sysadmin/security-architecture.md)
 ### [รายงานความปลอดภัย](sysadmin/security-reports.md)
