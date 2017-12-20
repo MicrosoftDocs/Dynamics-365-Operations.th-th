@@ -3,7 +3,7 @@ title: "การเปรียบเทียบคุณสมบัติบ
 description: "หัวข้อแสดงลักษณะการทำงานที่ได้รับการสนับสนุนใน Cloud และ On-Premises"
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: th-th
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ ms.lasthandoff: 11/06/2017
 | | การรวมด้วย PowerBI.com| ใช่ | หมายเลข |
 | | พื้นที่ทำงานการวิเคราะห์ | ใช่ | หมายเลข |
 | | กระบวนการทางธุรกิจอัจฉริยะ: คำแนะนำ| ใช่ | หมายเลข |
+| | การสร้างรายงาน Power BI ที่มี OData โดยใช้เดสก์ท็อป Power BI หรือเครื่องมือ Excel PowerQuery | ใช่ | หมายเลข |
+| | SQL Server Reporting Services (SSRS) สนับสนุนมาตราส่วนออก  | ใช่ | หมายเลข |
+| | การตรวจวัดระยะไกลถูกโอนย้ายไปยังระบบคลาวด์ | ใช่ | หมายเลข |
 | การบริหารสินค้าคงคลัง| | ใช่ | ใช่ |
 | Lifecycle Services| | ใช่ | ใช่ |
 | | กระบวนการทางธุรกิจที่ตั้งค่าคอนฟิกได้ | ใช่ | หมายเลข |
@@ -86,7 +89,7 @@ ms.lasthandoff: 11/06/2017
 | การจัดการการขนส่ง| | ใช่ | ใช่ |
 | การทำงานร่วมกันกับผู้จัดจำหน่าย| | ใช่ | ใช่|
 | การบริหารคลังสินค้า| | ใช่ | ใช่ |
-| | แอพคลังสินค้าเคลื่อนที่| ใช่ | หมายเลข |
+| | แอพคลังสินค้าเคลื่อนที่| ใช่ | ใช่ |
 | | รายงานคลังสินค้าใน Power BI| ใช่ | หมายเลข |
 | เว็บไคลเอนต์ | | ใช่ | ใช่ |
 | | ตัวบันทึกงาน - บันทึกหรือโหลดการบันทึกงานจากไลบรารี BPM| ใช่ | หมายเลข |
@@ -103,6 +106,7 @@ ms.lasthandoff: 11/06/2017
 | ความเข้ากันได้ของแพลตฟอร์ม  || ใช่ | ใช่ |
 | การบริการ | | ใช่ | ใช่ |
 | | สภาพแวดล้อมการให้บริการ | ใช่ | หมายเลข |
+| Trace Parser และ PerfTimer | | ใช่ | หมายเลข |
 | อัพเกรด | | ใช่ | ใช่ |
 | | อัพเกรด | ใช่ | หมายเลข |
 | | การอัพเกรดและการสนับสนุนสำหรับรุ่นก่อนหน้า | ใช่ | หมายเลข |
@@ -121,6 +125,8 @@ ms.lasthandoff: 11/06/2017
 |---|---|---|---|
 | พื้นที่ Talent ทั้งหมด | คุณลักษณะ Talent ทั้งหมด | ใช่ | หมายเลข |
 
+## <a name="see-also"></a>ดูเพิ่มเติมที่
 
+- [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](features-not-implemented-on-prem.md)
 
 

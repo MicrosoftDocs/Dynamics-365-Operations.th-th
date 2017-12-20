@@ -3,7 +3,7 @@ title: "เนื้อหาประสิทธิภาพทางการ
 description: "หัวข้อนี้อธิบายถึงเนื้อหาประสิทธิภาพทางการเงินใน Power BI และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="available-from-lcs"></a>พร้อมใช้งานจาก LCS
 เนื้อหา Power BI **ประสิทธิภาพทางการเงิน** ที่พร้อมใช้งานจาก LCS สนับสนุนเวอร์ชันดังต่อไปนี้:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017)
+- Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise edition
 - Microsoft Dynamics 365 for Operations เวอร์ชัน 1611 
 
 คุณสามารถค้นหาเนื้อหา Power BI ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดชุดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)

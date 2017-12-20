@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 88e4737bd8abf7f7dbab54fa6fb18afa525177e9
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
 ms.contentlocale: th-th
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,7 +84,7 @@ ms.lasthandoff: 11/06/2017
 <tr class="odd">
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
-<td>ใช้ Finance and Operations หรือ Finance and Operations ในองค์กรของคุณ</td>
+<td>นำ Finance and Operations ไปใช้ในองค์กรของคุณ</td>
 <td><ul><li>ถ้าคุณยังไม่ได้ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
 </tr>
 <tr class="even">

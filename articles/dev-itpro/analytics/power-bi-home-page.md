@@ -3,7 +3,7 @@ title: "เนื้อหา Power BI"
 description: "หัวข้อนี้แสดงรายการเนื้อหา Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้"
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ffae237693ebf0b0feedf7c60230590d95eed3d4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 11/03/2017
 
 หัวข้อนี้แสดงรายการเนื้อหา Microsoft Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Power BI content for Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017)
-ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017) เนื้อหาPower BI ต่อไปนี้จะพร้อมใช้งาน
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>เนื้อหา Power BI สำหรับ Dynamics 365 for Finance and Operations, Enterprise edition
+ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เนื้อหาPower BI ต่อไปนี้จะพร้อมใช้งาน:
 
 - [เนื้อหา Power BI ของงบประมาณและที่เกิดขึ้นจริง](ledger-budgets-power-bi.md)
 - [เนื้อหาค่าตอบแทนใน Power BI](benefits-power-bi.md)

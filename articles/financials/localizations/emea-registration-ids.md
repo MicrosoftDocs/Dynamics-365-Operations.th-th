@@ -3,7 +3,7 @@ title: "รหัสการลงทะเบียน"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าและการใช้รหัสทะเบียน"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ ms.lasthandoff: 11/03/2017
 | OGRN                                                          | สหพันธรัฐรัสเซีย| OGRN (OGRN ของชนิดตามกฎหมายใน AX 2012 R3) |
 | SNILS                                                         | สหพันธรัฐรัสเซีย| SNILS (SNILS ของชนิดตามกฎหมายใน AX 2012 R3)|
 | CIFTS                                                         | สหพันธรัฐรัสเซีย| CIFTS (CIFTS ของชนิดตามกฎหมายใน AX 2012 R3)|
+| หนังสือเดินทาง                                                      | สเปน             | หนังสือเดินทาง|
+| เอกสารประจำตัวอย่างเป็นทางการ                              | สเปน             | เอกสารประจำตัวอย่างเป็นทางการ|
+| หนังสือรับรองการมีถิ่นที่อยู่                                         | สเปน             | หนังสือรับรองการมีถิ่นที่อยู่|
+| เอกสารประจำตัวอื่น                                 | สเปน             | เอกสารประจำตัวอื่น|
+| Censused ไม่ได้                                                  | สเปน             | ไม่พร้อมใช้งานใน AX 2012 R3|
+
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการประมวลผลรหัสทะเบียน รวมถึงข้อกำหนดเบื้องต้นที่จำเป็น ให้ดูที่การบันทึกงานต่อไปนี้สำหรับรหัส VAT ใน Lifecycle Services (LCS):
 
