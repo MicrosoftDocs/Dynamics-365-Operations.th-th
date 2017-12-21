@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506dd06790f40fbba272811a59281add1a86b179
+ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
+ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](../../supply-chain/procurement/collaborate-vendors-vendor-portal.md)
+สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่มีผู้จัดจำหน่ายภายนอก](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 
 
 

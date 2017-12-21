@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: th-th
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>เพจเริ่มต้นการปรับใช้ในองค์กร
@@ -30,14 +30,13 @@ ms.lasthandoff: 10/05/2017
 
 คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร) เมื่อคุณเลือกชนิดของการปรับใช้ในองค์กร ความต้องการระบบ การกำหนดฮาร์ดแวร์และฟังก์ชันการทำงานจะแตกต่างจากการปรับใช้บริการระบบคลาวด์ หัวข้อนี้แสดงลิงค์ไปยังเนื้อหาที่มีข้อมูลเฉพาะเกี่ยวกับการปรับใช้ในองค์กร
 
-**หมายเหตุ:** Dynamics 365 for Operations (ในองค์กร) ในขณะนี้ถูกเปลี่ยนชื่อ คุณจะเห็น Dynamics 365 for Operations (ในองค์กร) ที่ถูกอ้างอิงตลอดทั้งการสื่อสารและคู่มือการให้ลิขสิทธิ์ ชื่อในผลิตภัณฑ์ที่คุณจะเห็นขณะปรับใช้ผลิตภัณฑ์คือ Dynamics 365 for Finance and Operations, Enterprise edition ชื่อเหล่านี้หมายถึงผลิตภัณฑ์เดียวกัน
-
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
 - [ภาพรวมของ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](on-premises-overview.md)
 - [ความต้องการของระบบสำหรับการปรับใช้ในองค์กร](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [บริการออนไลน์และนโยบายเกี่ยวกับวงจรการใช้งานซอฟต์แวร์ในองค์กร](../migration-upgrade/versions-update-policy.md)
 - [ซื้อ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในสถานที่](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>แบบ Onboard
 - [สร้างโครงการสำหรับใช้งานในองค์กรใน Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ ms.lasthandoff: 10/05/2017
 - [ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร](../analytics/printing-capabilities-on-premises.md)
 - [ตั้งค่าการสนับสนุนทางเทคนิค](../lifecycle-services/support-experience.md)
 - [การแก้ไขปัญหาการเชื่อมต่ออินเทอร์เน็ตไคลเอนต์](../user-interface/client-disconnected.md)
+- [ใช้การอัพเดตกับการปรับใช้ในสถานที่](apply-updates-on-premises.md)
+- [จัดวางการปรับใช้ในองค์กรใหม่](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>ทรัพยากรอื่นๆ
 - [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](../migration-upgrade/deprecated-features.md)
+- [นโยบายวัฏจักรซอฟต์แวร์และรายการของการนำออกใช้](../migration-upgrade/versions-update-policy.md)
  
 

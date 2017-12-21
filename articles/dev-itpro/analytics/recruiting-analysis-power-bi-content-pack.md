@@ -3,7 +3,7 @@ title: "เนื้อหาการสรรหาบุคลากร Power
 description: "หัวข้อนี้อธิบายถึงเนื้อหาการสรรหาใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 42d7b94e655799596f478e7592a17437b336099e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 หัวข้อนี้อธิบายถึงเนื้อหา **Microsoft** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017) เนื้อหา Power BI **การสรรหา** จะปรากฏในพื้นที่ทำงาน **การสรรหา** 
+เนื้อหา Power BI **การสรรหา** จะปรากฏในพื้นที่ทำงาน **การจัดการสรรหาบุคลากร** 
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>การรายงานและสิ่งที่มองเห็นในพื้นที่ทำงานการจัดการสรรหาบุคลากร
 พื้นที่ทำงาน **การจัดการสรรหาบุคลากร** ประกอบด้วยแท็บ **การวิเคราะห์** แท็บนี้ประกอบด้วยเนื้อหา Power BI แบบฝังสำหรับการสรรหาบุคลากร เนื้อหาประกอบด้วยแท็บภาพรวมและแท็บที่ประกอบด้วยรายละเอียดเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงานในแต่ละแท็บ

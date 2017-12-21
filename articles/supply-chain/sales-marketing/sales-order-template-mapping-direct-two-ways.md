@@ -1,6 +1,6 @@
 ---
 title: "การซิงโครไนส์ของใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations"
-description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ เพื่อเรียกใช้การซิงโครไนส์แบบสองทางของส่วนหัวและรายการของใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
+description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: th-th
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ เพื่อเรียกใช้การซิงโครไนส์แบบสองทางของส่วนหัวและรายการของใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 
 ## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
 เมื่อต้องการเข้าถึงเท็มเพลตที่พร้อมใช้งาน เปิด [ศูนย์การจัดการ PowerApps](https://preview.admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
 
-เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้เพื่อเรียกใช้การซิงโครไนส์แบบสองทางของส่วนหัวและรายการของใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations:
+เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations:
 
 - **ชื่อของเท็มเพลตในการรวมข้อมูล:** 
 
