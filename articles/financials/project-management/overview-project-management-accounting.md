@@ -3,7 +3,7 @@ title: "การจัดการและการบัญชีโครง
 description: "การจัดการโครงการและฟังก์ชันการลงบัญชีสามารถใช้ในอุตสาหกรรมหลายรายการเพื่อการบริการ ผลิตผลิตภัณฑ์ หรือบรรลุผลลัพธ์"
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
