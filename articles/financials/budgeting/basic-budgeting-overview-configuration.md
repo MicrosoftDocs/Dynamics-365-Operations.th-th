@@ -3,7 +3,7 @@ title: "ภาพรวมของงบประมาณ"
 description: "เกือบทุกบริษัทที่ใช้ฟังก์ชันการทำงานของข้อมูลทางการเงินใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition จะต้องสามารถสร้างรายงานของงบประมาณเทียบกับจำนวนจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations, Enterprise edition หรือโหลดจากโปรแกรมของบริษัทอื่น"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

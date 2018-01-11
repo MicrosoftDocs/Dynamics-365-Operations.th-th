@@ -3,7 +3,7 @@ title: "ภาพรวมของการวางแผนงบประม
 description: "บทความนี้จะแนะนำการวางแผนงบประมาณ และประกอบด้วยข้อมูลที่จะช่วยคุณเตรียมพร้อมในการจัดเตรียมเพื่อตั้งค่าคอนฟิกการวางแผนงบประมาณ และตั้งค่ากระบวนการวางแผนงบประมาณ"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
