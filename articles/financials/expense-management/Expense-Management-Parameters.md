@@ -3,7 +3,7 @@ title: "พารามิเตอร์การจัดการค่าใ
 description: "พารามิเตอร์ต่อไปนี้ควบคุมลักษณะการทำงานในการจัดการค่าใช้จ่าย"
 author: KimANelson
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
