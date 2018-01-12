@@ -3,7 +3,7 @@ title: "สร้างใบแจ้งหนี้ของลูกค้า
 description: "**ใบแจ้งหนี้ของลูกค้าสำหรับใบสั่งขาย** คือบิลที่เกี่ยวข้องกับการขาย และที่ทางองค์กรให้กับลูกค้า"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
