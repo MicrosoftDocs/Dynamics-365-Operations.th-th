@@ -3,7 +3,7 @@ title: "การวางแผนงบประมาณ"
 description: "วัตถุประสงค์ของห้องปฏิบัติการนี้คือแสดงมุมมองที่แนะนำของการอัพเดตฟังก์ชัน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ในพื้นที่การวางแผนงบประมาณ จุดประสงค์ของห้องปฏิบัติการนี้คือแสดงตัวอย่างการตั้งค่าคอนฟิกด่วนของโมดูลการวางแผนงบประมาณ และแสดงวิธีวางแผนงบประมาณให้สำเร็จโดยใช้การตั้งค่าคอนฟิกนี้  ห้องปฏิบัติการนี้จะเน้นเฉพาะกระบวนการทางธุรกิจหรืองานต่อไปนี้ -    - การสร้างลำดับชั้นขององค์กรสำหรับงบประมาณที่วางแผน และการตั้งค่าคอนฟิกความปลอดภัยผู้ใช้   -  กำหนดสถานการณ์จำลองแผนงบประมาณ คอลัมน์แผนงบประมาณ โครงร่าง และแม่แบบ Excel   -  สร้างและเปิดใช้งานกระบวนการวางแผนงบประมาณ   - สร้างเอกสารแผนงบประมาณโดยดึงจากบัญชีแยกประเภททั่วไป   -  ใช้การปันส่วนการปรับปรุงข้อมูลเอกสารแผนงบประมาณ   - การแก้ไขงบประมาณข้อมูลแผนงบประมาณเอกสารใน Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8d1174599e383f96a9eaa7a9235664079079906c
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
