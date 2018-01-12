@@ -3,7 +3,7 @@ title: "บัญชีตรงข้ามเริ่มต้นสำหร
 description: "หัวข้อนี้จะช่วยคุณในการกำหนดตำแหน่งที่คุณควรจะมอบหมายบัญชีเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
