@@ -3,14 +3,14 @@ title: "กฎการตัดออก"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับกฎการตัดออกและตัวเลือกต่างๆ สำหรับการรายงานเกี่ยวกับการตัดออก"
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="2d863-182">หลังจากที่คุณได้กำหนดพื้นฐานแล้ว คุณสามารถกำหนดกฎการประมวลผลจริงโดยการคลิก **บรรทัด**</span><span class="sxs-lookup"><span data-stu-id="2d863-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="2d863-183">มีสองตัวเลือกสำหรับการตัดออก การตัดการเปลี่ยนยอดเงินสุทธิหรือการกำหนดจำนวนเงินคงที่</span><span class="sxs-lookup"><span data-stu-id="2d863-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="2d863-184">เลือกบัญชีต้นทางของคุณ</span><span class="sxs-lookup"><span data-stu-id="2d863-184">Select your source account.</span></span> <span data-ttu-id="2d863-185">คุณสามารถใช้เครื่องหมายดอกจัน (\*) เป็นไวด์การ์ด</span><span class="sxs-lookup"><span data-stu-id="2d863-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="2d863-186">ตัวอย่างเช่น 1\* จะต้องเลือกบัญชีทั้งหมดที่เริ่มต้นด้วย 1 เป็นต้นทางข้อมูลสำหรับการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="2d863-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="2d863-184">เลือกบัญชีต้นทางของคุณ</span><span class="sxs-lookup"><span data-stu-id="2d863-184">Select your source account.</span></span> <span data-ttu-id="2d863-185">คุณสามารถใช้เครื่องหมายดอกจัน (\\*) เป็นไวด์การ์ด</span><span class="sxs-lookup"><span data-stu-id="2d863-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="2d863-186">ตัวอย่างเช่น 1\\* จะต้องเลือกบัญชีทั้งหมดที่เริ่มต้นด้วย 1 เป็นต้นทางข้อมูลสำหรับการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="2d863-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="2d863-187">หลังจากที่คุณได้เลือกบัญชีต้นทางของคุณแล้ว **ข้อมูลจำเพาะเกี่ยวกับบัญชี** จะกำหนดบัญชีจากบริษัทปลายทางที่ใช้</span><span class="sxs-lookup"><span data-stu-id="2d863-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="2d863-188">เลือก **ต้นทาง** ถ้าคุณต้องการใช้บัญชีหลักเดียวกันที่กำหนดไว้ในบัญชี **ต้นทาง**</span><span class="sxs-lookup"><span data-stu-id="2d863-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="2d863-189">ถ้าคุณเลือก **กำหนดโดยผู้ใช้** จากนั้นคุณต้องระบุบัญชีปลายทาง</span><span class="sxs-lookup"><span data-stu-id="2d863-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
