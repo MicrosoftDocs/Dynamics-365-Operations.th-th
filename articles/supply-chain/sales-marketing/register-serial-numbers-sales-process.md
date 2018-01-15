@@ -1,7 +1,7 @@
 ---
 title: "ลงทะเบียนหมายเลขลำดับประจำสินค้าในกระบวนการขาย"
 description: "หัวข้อนี้อธิบายวิธีที่คุณสามารถลงทะเบียนหมายเลขประจำสินค้าบนบันทึกการจัดส่ง หรือใบแจ้งหนี้ในระหว่างกระบวนการขาย ฟังก์ชันนี้จะมีประโยชน์เมื่อบริษัทต้องการรวบรวมหมายเลขลำดับประจำสินค้าสำหรับจุดประสงค์ในการบริการและการรับประกัน แต่ไม่จำเป็นต้องรักษาหมายเลขลำดับประจำสินค้าในสินค้าคงคลังจากการรับสินค้าเพื่อนำออกใช้"
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: sorenand
+ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
