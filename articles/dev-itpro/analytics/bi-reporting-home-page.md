@@ -1,9 +1,9 @@
 ---
 title: "ข่าวกรอง"
-description: "หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition"
+description: "หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise"
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ (BI) และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ (BI) และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise
 
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
 - [การเข้าถึงข้อมูลและการรายงาน](information-access-reporting.md)
@@ -47,9 +47,8 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 
  - [Power BI ที่ฝังในพื้นที่ทำงาน](embed-power-bi-workspaces.md)
  - [การรวม Power BI Embedded](power-bi-embedded-integration.md)
- - [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI ที่ฝัง](add-analytics-tab-workspaces.md)
- - [เผยแพร่แอพลิเคชันเชิงวิเคราะห์บน Power BI](publish-apps-powerbi.md)
- - [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI ที่ฝัง](secure-analytical-workspaces.md)
+ - [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI Embedded](add-analytics-tab-workspaces.md)
+ - [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI Embedded](secure-analytical-workspaces.md)
  - [เนื้อหา Power BI สำหรับ Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>เอกสารทางธุรกิจและการพิมพ์
@@ -59,7 +58,7 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 
 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
-- [ภาพรวมของบริการรายงานเอกสาร](document-reporting-services.md)
+- [ภาพรวมของ Document Reporting Services](document-reporting-services.md)
 - [การพิมพ์ในแอพลิเคชัน Finance and Operations](print-documents.md)
 - [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย](install-document-routing-agent.md)
 
@@ -88,11 +87,8 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 ## <a name="technical-reference-reports"></a>รายงานอ้างอิงทางเทคนิค
 รายงานต่อไปนี้มีข้อมูลอ้างอิงเกี่ยวกับออบเจ็กต์ต่างๆ ใน Finance and Operations:
 
-- [รวมรายงานเอนทิตี้ข้อมูล](aggregate-data-entities-report.md)
-- [รวมรายงานการวัด](aggregate-measurements-report.md)
 - [รายงานเอนทิตี้ข้อมูล](../data-entities/data-entities-report.md)
-- [รายงานดัชนีชี้วัดผลการปฏิบัติงานหลัก (KPI)](key-performance-indicators-report.md)
 - [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](../sysadmin/license-codes-configuration-keys-report.md)
-- [รายงานเกี่ยวกับรายงานของบริการรายงาน SQL Server](SSRS-report.md)
+- [รายงานเกี่ยวกับรายงานของ SQL Server Reporting Services](SSRS-report.md)
 - [รายงานชนิดลำดับงาน](../../fin-and-ops/organization-administration/workflow-types-report.md)
 

@@ -44,6 +44,7 @@
 ## [เวลาและการเข้างานของ Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) และ Cloud POS
+## [เลือกระหว่าง Modern POS และ Cloud POS](MPOS-or-CPOS.md)
 ## [การดำเนินการของ POS](POS-operations.md)
 ## [เค้าโครงหน้าจอข้อมูลสาธิตใน MPOS/CPOS](demo-data.md)
 ## อุปกรณ์ต่อพ่วงฮาร์ดแวร์
@@ -76,6 +77,11 @@
 ### [ตั้งค่าเท็มเพลตใบเสร็จ](receipt-templates-printing.md) 
 ### [ส่งใบเสร็จทางอีเมลจาก MPOS](email-receipts.md)
 ## [ตัวบันทึกงานและวิธีใช้สำหรับ POS](task-recorder-retail-pos.md)
+
+# การเติมสินค้าของใบสั่ง
+## [ภาพรวมของการเติมสินค้าของใบสั่งร้านค้า](Order-fulfillment-overview.md)
+## [ตั้งค่าการเติมสินค้าในร้านค้า](Order-fulfillment-POS-setup.md)
+## [เปิดใช้งานการแจ้งเตือนในการขายหน้าร้าน](Notifications-POS.md)
 
 # การตรวจสอบและการวิเคราะห์
 ## [ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น](monitor-sales-margin-performance.md)
@@ -171,7 +177,7 @@
 # [การพัฒนาและการจัดการของ Retail](dev-itpro/dev-retail-home-page.md)
 
 ## สถาปัตยกรรม
-### [ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition - Retail](retail-components.md)
+### [ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise - Retail](retail-components.md)
 ### [สถาปัตยกรรมของเซิร์ฟเวอร์ Retail](dev-itpro/retail-server-architecture.md)
 ### [การสื่อสารช่องทาง Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [สถาปัตยกรรม MPOS](dev-itpro/retail-modern-pos-architecture.md)
@@ -258,8 +264,10 @@
 ### [เพิ่มการควบคุมที่กำหนดเองไปยังหน้าธุรกรรมของ Retail Modern POS](dev-itpro/pos-custom-transaction.md)
 ### [เพิ่มคอลัมน์ที่กำหนดเองไปยังกริดธุรกรรม POS](dev-itpro/pos-custom-transaction-column.md)
 ### [เรียก POS API หรือการดำเนินงานจากส่วนขยาย POS](dev-itpro/pos-api-extension.md)
-### [ขยายมุมมอง POS ที่มีอยู่เพื่อเพิ่มคอลัมน์และปุ่มแถบแอพที่กำหนดเอง](dev-itpro/pos-view-extension.md)
 ### [ทริกเกอร์และการพิมพ์ Retail Modern POS](dev-itpro/pos-trigger-printing.md)
+### [เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมองตามตัวออกแบบที่ไม่ใช่หน้าจอของ Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [สร้างพร็อกซี Retail สำหรับ POS และอีคอมเมิร์ซ](dev-itpro/pos-generate-retail-proxy.md)
+### [ขั้นตอนการตั้งค่าคอนฟิกสำหรับนักพัฒนา Retail ที่ทำงานบนกล่องการพัฒนาที่ใช้ Cloud](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
 ### [ส่วนขยายของสมาชิก](dev-itpro/retail-sdk/loyalty-extension-sample.md)
