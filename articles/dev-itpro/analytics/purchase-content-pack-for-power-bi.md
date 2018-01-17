@@ -3,7 +3,7 @@ title: "เนื้อหาการวิเคราะห์การซื
 description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -131,16 +131,6 @@ ms.lasthandoff: 12/01/2017
 </table>
 
 \* การซื้อปีนี้และปีที่แล้ว และการเติบโตโดยเรียงตามประเภทการจัดซื้อ
-
-## <a name="extending-the-power-bi-content"></a>การขยายเนื้อหา Power BI
-โดยการใช้ชุดเนื้อหาที่พร้อมใช้งานใน Microsoft Dynamics Lifecycle Services (LCS) คุณสามารถให้ข้อมูลการวิเคราะห์ที่ยอดเยี่ยมแก่ผู้ที่ไม่ได้ลงชื่อเข้าใช้ Microsoft Dynamics 365 คุณสามารถแก้ไขชุดเนื้อหาเหล่านี้ เพื่อรวมกับการรายงานหรือสิ่งที่มองเห็นได้อื่น ๆ และจากนั้นเผยแพร่ชุดเนื้อหานี้ไปยังผู้เช่า Power BI.com ของคุณสำหรับการวิเคราะห์ 
-
-คุณสามารถค้นหาเนื้อหา Power BI **การวิเคราะห์การซื้อและการใช้จ่าย** ได้ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
-
-ตรวจสอบให้แน่ใจว่าได้ดาวน์โหลดเนื้อหา **การวิเคราะห์การซื้อและการใช้จ่าย** ที่ใช้กับเวอร์ชันของ Microsoft Dynamics 365 ที่คุณกำลังใช้อยู่
-
-> [!NOTE]
-> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 สำหรับเวอร์ชันการดำเนินงาน 1611 KB 4011327 เป็นข้อกำหนดเบื้องต้นสำหรับเนื้อหา Power BI นี้ หลังจากที่คุณลงชื่อเข้าใช้ไปยัง LCS คุณสามารถเข้าถึง KB ได้ที่ https://fix.lcs.dynamics.com/issue/results/?q=kb4011327
 
 ## <a name="data-model-and-entities"></a>แบบจำลองข้อมูลและเอนทิตี
 ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกข้อมูลหน้ารายงานในเนื้อหา **การวิเคราะห์การซื้อและการใช้จ่าย** ใน Power BI ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูลเซิร์ฟเวอร์ Microsoft SQL ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)

@@ -3,23 +3,23 @@ title: "เนื้อหาภาพรวมของเงินสดใน
 description: "หัวข้อนี้อธิบายถึงเนื้อหาภาพรวมของเงินสดใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้"
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +53,6 @@ ms.lasthandoff: 12/01/2017
 | การคาดการณ์สกุลเงิน                     | <ul><li>ยอดดุลที่มีการคาดการณ์ในสกุลเงิน</li><li>สรุปสกุลเงินประจำวัน</li><li>รายละเอียดการคาดการณ์</li></ul> |
 | ยอดดุลบัญชีธนาคาร                         | <ul><li>ยอดดุลบัญชีธนาคารโดยรวมในสกุลเงินของระบบ</li><li>ยอดดุลตามนิติบุคคล</li><li>ยอดดุลที่แท้จริงของวันนี้เปรียบเทียบกับที่คาดการณ์ไว้ในสกุลเงินของบัญชีธนาคาร</li><li>ยอดดุลตามบัญชีธนาคาร</li><li>ยอดดุลโดยเรียงตามสกุลเงิน</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>การขยายเนื้อหา Power BI
-คุณสามารถให้ข้อมูลการวิเคราะห์ที่ยอดเยี่ยมแก่ผู้ที่ไม่ได้ลงชื่อเข้าใช้ Dynamics 365 โดยการใช้ชุดเนื้อหาที่พร้อมใช้งานใน Lifecycle Services (LCS) สามารถแก้ไขชุดเนื้อหาเหล่านี้เพื่อรวมกับการรายงานหรือสิ่งที่มองเห็นได้อื่นๆ จากนั้นเผยแพร่ไปยังผู้เช่า Power BI.com ของคุณสำหรับการวิเคราะห์ 
-
-คุณสามารถค้นหาเนื้อหา Power BI **ภาพรวมของเงินสด** ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
@@ -72,6 +68,5 @@ ms.lasthandoff: 12/01/2017
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | กระแสเงินสดเข้าและกระแสเงินสดออกและยอดดุลแบบสรุปยอดโดยการใช้สกุลเงินของระบบสำหรับทุกบริษัท |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | จำนวนธุรกรรมสุทธิแบบสรุปยอดและยอดดุลของสกุลเงินโดยการใช้สกุลเงินของธุรกรรม |
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล จากนั้นจะมีการใช้การวัดที่คำนวณแล้วเหล่านี้เพื่อคำนวณแผนภูมิและรายงานที่ใช้ในเนื้อหา Power BI **ภาพรวมของเงินสด** เมื่อต้องการรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถดาวน์โหลด และปรับเปลี่ยนไฟล์ Power BI จาก LCS ไฟล์นี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา หลังจากที่คุณทำการเปลี่ยนแปลงแล้ว คุณสามารถสร้างเนื้อหาและแดชบอร์ดขององค์กรที่ประกอบด้วยข้อมูลที่คุณเพิ่มไว้ได้
 
 

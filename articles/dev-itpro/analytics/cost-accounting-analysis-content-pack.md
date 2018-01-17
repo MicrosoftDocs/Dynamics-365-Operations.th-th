@@ -3,7 +3,7 @@ title: "เนื้อหาการบัญชีต้นทุนใน Po
 description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การบัญชีต้นทุนใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d2966954ccb9df03227edab1fe7c471ddd20f32
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 โดยการกำหนดความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุนและการรวมกับการรักษาความปลอดภัยระดับแถวใน Power BI คุณสามารถได้รับการเข้าถึงของเจ้าของออบเจ็กต์ต้นทุนทั้งหมดไปยังเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ใน Power BI จากนั้นข้อมูลทั้งหมดในการแสดงภาพประกอบจะถูกกรองข้อมูลตามระดับการเข้าถึงที่ถูกควบคุมในการบัญชีต้นทุน เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการรักษาความปลอดภัยระดับการเข้าถึงและความปลอดภัยระดับแถว ให้ดูที่[ตั้งค่าความปลอดภัยสำหรับเนื้อหาการบัญชีต้นทุนสำหรับ Power BI](setup-security-cost-accounting-content-pack.md)
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-คุณสามารถดูเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ใน Power BI ได้ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
+คุณสามารถดูเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ใน Power BI ได้ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
 
 ตรวจสอบให้แน่ใจว่าได้ดาวน์โหลดเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 

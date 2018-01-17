@@ -1,9 +1,9 @@
 ---
 title: "เนื้อหาการเรียนรู้ Power BI"
-description: "หัวข้อนี้อธิบายถึงเนื้อหาการเรียนรู้ใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
+description: "หัวข้อนี้อธิบายถึงเนื้อหาการเรียนรู้ใน Power BI"
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bb4a2d6d725f79fe3f095a37b8a37d47339a7966
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงเนื้อหา **การเรียนรู้** ใน Microsoft Power BI ซึ่งจะอธิบายถึงวิธีการเข้าถึงเนื้อหา และอธิบายถึงแบบจำลองข้อมูลและเอนทิตีที่ใช้ในการสร้างเนื้อหา
-
-## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-
-คุณสามารถค้นหาเนื้อหา Power BI **การเรียนรู้** ได้ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
+หัวข้อนี้อธิบายถึงเนื้อหา **การเรียนรู้** ใน Microsoft Power BI
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 
@@ -69,5 +65,5 @@ ms.lasthandoff: 12/01/2017
 | ชื่อพนักงาน    | ชื่อจริง นามสกุล และชื่อเต็ม                             | ผู้เข้าร่วมหลักสูตร |
 | ตำแหน่งของพนักงาน   | ตำแหน่งงานและวันที่อายุงาน                                         | ผู้เข้าร่วมหลักสูตร |
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล จากนั้นจะมีการใช้การวัดที่คำนวณแล้วเหล่านี้เพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา ถ้าคุณต้องการรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถดาวน์โหลด และปรับเปลี่ยนไฟล์ .pbix จาก LCS ไฟล์นี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา หลังจากที่คุณทำการเปลี่ยนแปลงแล้ว คุณสามารถสร้างชุดเนื้อหาและแดชบอร์ดขององค์กรที่ประกอบด้วยข้อมูลที่คุณเพิ่มไว้ได้
+
 
