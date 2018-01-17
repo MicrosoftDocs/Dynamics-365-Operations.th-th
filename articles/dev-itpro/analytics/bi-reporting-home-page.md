@@ -1,6 +1,6 @@
 ---
 title: "ข่าวกรอง"
-description: "หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise"
+description: "หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ (BI) และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise
+หัวข้อนี้นำคุณไปยังทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ (BI) และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
 - [การเข้าถึงข้อมูลและการรายงาน](information-access-reporting.md)
