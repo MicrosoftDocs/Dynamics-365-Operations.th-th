@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,54 +17,54 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62338fe11c30781f264e626fad835a2ba9dca837
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 74eaa59db44e21b3ddfae38d28f84712959cc40e
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
-# ตรวจสอบความพร้อมของสินค้าคงคลัง
+# <a name="check-the-availability-of-stock"></a><span data-ttu-id="bcdd8-103">ตรวจสอบความพร้อมของสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-103">Check the availability of stock</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้จะแสดงวิธีการตรวจสอบสินค้าคงคลังคงเหลือและสินค้าคงคลังคงเหลือที่มีอยู่จริงสำหรับจำนวนสินค้าเฉพาะ  นอกจากนี้ยังแสดงให้เห็นวืธีการจัดหาข้อมูลที่เกี่ยวข้องกับสินค้า สินค้าคงคลังคงเหลือที่มีอยู่จริงคือปริมาณคงคลังคงเหลือที่พร้อมใช้งาน นั่นคือสินค้าที่ซื้อแล้ว ได้รับ และลงทะเบียน สินค้าคงคลังคงเหลือรวมถึงสินค้าคงคลังคงเหลือที่พร้อมใช้งาน แต่ด้วยสินค้าคงคลังที่ได้รับการสั่งซื้อและคาดไว้ แต่ยังไม่ได้รับ หรือลงทะเบียน คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่ งานเหล่านี้โดยทั่วไปจะถูกดำเนินการโดยผู้ปฏิบัติงานคลังสินค้า
+<span data-ttu-id="bcdd8-104">กระบวนงานนี้จะแสดงวิธีการตรวจสอบสินค้าคงคลังคงเหลือและสินค้าคงคลังคงเหลือที่มีอยู่จริงสำหรับจำนวนสินค้าเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="bcdd8-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="bcdd8-105">นอกจากนี้ยังแสดงให้เห็นวืธีการจัดหาข้อมูลที่เกี่ยวข้องกับสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="bcdd8-106">สินค้าคงคลังคงเหลือที่มีอยู่จริงคือปริมาณคงคลังคงเหลือที่พร้อมใช้งาน นั่นคือสินค้าที่ซื้อแล้ว ได้รับ และลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="bcdd8-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="bcdd8-107">สินค้าคงคลังคงเหลือรวมถึงสินค้าคงคลังคงเหลือที่พร้อมใช้งาน แต่ด้วยสินค้าคงคลังที่ได้รับการสั่งซื้อและคาดไว้ แต่ยังไม่ได้รับ หรือลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="bcdd8-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="bcdd8-108">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="bcdd8-109">ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่</span><span class="sxs-lookup"><span data-stu-id="bcdd8-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="bcdd8-110">งานเหล่านี้โดยทั่วไปจะถูกดำเนินการโดยผู้ปฏิบัติงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 
 
-## ตรวจสอบสินค้าคงคลังคงเหลือสำหรับสินค้า
-1. ไปยัง การบริหารสินค้าคงคลัง > การสอบถาม และรายงาน > ปริมาณคงคลังคงเหลือ
-2. เลือกแถวจำนวนสินค้า
-    * เพื่อสอบถามปริมาณสินค้าคงคลังโดยหมายเลขสินค้า เลือกแถวที่ตารางที่ตั้งค่าไปยังปริมาณสินค้าคงเหลือและฟิลด์ถูกตั้งค่าไปยังหมายเลขสินค้า  
-3. ในฟิลด์เงื่อนไข เลือกสินค้าที่คุณต้องการสอบถาม
-    * ถ้าคุณกำลังใช้การข้อมูลสาธิตของบริษัท USMF คุณสามารถเลือก 'M9201'  
-4. คลิก ตกลง
-5. คลิกที่มิติ
-    * แท็บมิติช่วยให้คุณเลือกจำนวนรายละเอียดที่คุณต้องการดูเกี่ยวกับปริมาณสิ้นค้าคงคลัง  ถ้าคุณต้องการข้อมูลที่เกี่ยวข้องกับการจองสินค้า คุณต้องแสดงมิติสินค้าคงคลังทั้งหมดสำหรับสินค้านั้นใช้กระบวนการคลังสินค้าขึ้นสูงสุด (WHS)  
-6. คลิก ตกลง
-7. ในบานหน้าต่างการดำเนินการ คลิกข้อมูลที่เกี่ยวข้อง
-    * ถ้าคุณไม่เห็นนี่ คุณอาจะต้องคลิกที่ปุ่มจุดไข่ปลา (...) เพื่อดูตัวเลือกบานหน้าต่างตัวเลือกเพิ่มเติม  
-8. คลิกดูภาพรวมการจัดหาวัสดุ
-    * แท็บภาพรวมการจัดหาวัสดุให้จัดหาข้อมูลสำหรับสินค้าเฉพาะ เช่น ปริมาณคงคลังคงเหลือ เวลารอคอยสินค้า และข้อมูลผู้จัดจำหน่าย  
-9. ขยายส่วนคงเหลือ
-10. ขยายส่วนผู้จัดจำหน่าย
-11. ปิดหน้า
-12. ปิดหน้า
+## <a name="check-on-hand-inventory-for-an-item"></a><span data-ttu-id="bcdd8-111">ตรวจสอบสินค้าคงคลังคงเหลือสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-111">Check on-hand inventory for an item</span></span>
+1. <span data-ttu-id="bcdd8-112">ไปยัง การบริหารสินค้าคงคลัง > การสอบถาม และรายงาน > ปริมาณคงคลังคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-112">Go to Inventory management > Inquiries and reports > On-hand inventory.</span></span>
+2. <span data-ttu-id="bcdd8-113">เลือกแถวจำนวนสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-113">Select the Item number row.</span></span>
+    * <span data-ttu-id="bcdd8-114">เพื่อสอบถามปริมาณสินค้าคงคลังโดยหมายเลขสินค้า เลือกแถวที่ตารางที่ตั้งค่าไปยังปริมาณสินค้าคงเหลือและฟิลด์ถูกตั้งค่าไปยังหมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-114">To query the on-hand inventory by item number, select the row where the Table is set to On-hand inventory and Field is set to Item number.</span></span>  
+3. <span data-ttu-id="bcdd8-115">ในฟิลด์เงื่อนไข เลือกสินค้าที่คุณต้องการสอบถาม</span><span class="sxs-lookup"><span data-stu-id="bcdd8-115">In the Criteria field, select the item you want to query.</span></span>
+    * <span data-ttu-id="bcdd8-116">ถ้าคุณกำลังใช้การข้อมูลสาธิตของบริษัท USMF คุณสามารถเลือก 'M9201'</span><span class="sxs-lookup"><span data-stu-id="bcdd8-116">If you're using the USMF demo data company, you can select 'M9201'.</span></span>  
+4. <span data-ttu-id="bcdd8-117">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-117">Click OK.</span></span>
+5. <span data-ttu-id="bcdd8-118">คลิกที่มิติ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-118">Click Dimensions.</span></span>
+    * <span data-ttu-id="bcdd8-119">แท็บมิติช่วยให้คุณเลือกจำนวนรายละเอียดที่คุณต้องการดูเกี่ยวกับปริมาณสิ้นค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="bcdd8-119">The Dimensions tab allows you select how much detail you want to see about your on-hand inventory.</span></span> <span data-ttu-id="bcdd8-120">ถ้าคุณต้องการข้อมูลที่เกี่ยวข้องกับการจองสินค้า คุณต้องแสดงมิติสินค้าคงคลังทั้งหมดสำหรับสินค้านั้นใช้กระบวนการคลังสินค้าขึ้นสูงสุด (WHS)</span><span class="sxs-lookup"><span data-stu-id="bcdd8-120">If you need data related to reservation, you must display all inventory dimensions for the items that use advanced warehouse (WHS) processes.</span></span>  
+6. <span data-ttu-id="bcdd8-121">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-121">Click OK.</span></span>
+7. <span data-ttu-id="bcdd8-122">ในบานหน้าต่างการดำเนินการ คลิกข้อมูลที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-122">On the Action Pane, click Related information.</span></span>
+    * <span data-ttu-id="bcdd8-123">ถ้าคุณไม่เห็นนี่ คุณอาจะต้องคลิกที่ปุ่มจุดไข่ปลา (...) เพื่อดูตัวเลือกบานหน้าต่างตัวเลือกเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="bcdd8-123">If you don’t see this, you may need to click on the Ellipsis button (…) to see additional action pane options.</span></span>  
+8. <span data-ttu-id="bcdd8-124">คลิกดูภาพรวมการจัดหาวัสดุ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-124">Click Supply overview.</span></span>
+    * <span data-ttu-id="bcdd8-125">แท็บภาพรวมการจัดหาวัสดุให้จัดหาข้อมูลสำหรับสินค้าเฉพาะ เช่น ปริมาณคงคลังคงเหลือ เวลารอคอยสินค้า และข้อมูลผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="bcdd8-125">The Supply overview tab provides supply information for a specific item, such as the quantity on-hand, the lead time, and vendor information.</span></span>  
+9. <span data-ttu-id="bcdd8-126">ขยายส่วนคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-126">Expand the On-hand section.</span></span>
+10. <span data-ttu-id="bcdd8-127">ขยายส่วนผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="bcdd8-127">Expand the Vendors section.</span></span>
+11. <span data-ttu-id="bcdd8-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-128">Close the page.</span></span>
+12. <span data-ttu-id="bcdd8-129">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-129">Close the page.</span></span>
 
-## ตรวจสอบสินค้าคงคลังคงเหลือที่มีอยู่จริง
-1. ไปยัง การจัดการคลังสินค้า > การสอบถาม และรายงาน > ปริมาณคงคลังคงเหลือที่มีอยู่จริง
-2. ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า
-    * คุณสามารถใช้ไซต์และฟิลด์คลังสินค้าเพื่อกรองรายการของสินค้า  
-3. รีเฟรชหน้า
-4. คลิกแสดงมิติ
-    * แท็บแสดงมิติช่วยให้คุณเลือกจำนวนรายละเอียดที่คุณต้องการดูเกี่ยวกับปริมาณคงคลังคงเหลือ  
-5. คลิก ตกลง
-6. ปิดหน้า
+## <a name="check-physical-on-hand-inventory"></a><span data-ttu-id="bcdd8-130">ตรวจสอบสินค้าคงคลังคงเหลือที่มีอยู่จริง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-130">Check physical on-hand inventory</span></span>
+1. <span data-ttu-id="bcdd8-131">ไปยัง การจัดการคลังสินค้า > การสอบถาม และรายงาน > ปริมาณคงคลังคงเหลือที่มีอยู่จริง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-131">Go to Warehouse management > Inquiries and reports > Physical on-hand inventory.</span></span>
+2. <span data-ttu-id="bcdd8-132">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-132">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="bcdd8-133">คุณสามารถใช้ไซต์และฟิลด์คลังสินค้าเพื่อกรองรายการของสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-133">You can use the Site and Warehouse fields to filter the list of items.</span></span>  
+3. <span data-ttu-id="bcdd8-134">รีเฟรชหน้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-134">Refresh the page.</span></span>
+4. <span data-ttu-id="bcdd8-135">คลิกแสดงมิติ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-135">Click Display Dimensions.</span></span>
+    * <span data-ttu-id="bcdd8-136">แท็บแสดงมิติช่วยให้คุณเลือกจำนวนรายละเอียดที่คุณต้องการดูเกี่ยวกับปริมาณคงคลังคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-136">The Dimensions Display tab allows you select how much detail you want to see about your on-hand inventory.</span></span>  
+5. <span data-ttu-id="bcdd8-137">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-137">Click OK.</span></span>
+6. <span data-ttu-id="bcdd8-138">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-138">Close the page.</span></span>
 
-## ตรวจสอบปริมาณคงคลังคงเหลือโดยสถานที่
-1. ไปยัง การจัดการคลังสินค้า > การสอบถาม และรายงาน > ปริมาณคงคลังคงเหลือโดยสถานที่
-2. ในฟิลด์คลังสินค้า ให้พิมพ์ค่า
-    * ถ้าคุณกำลังใช้การข้อมูลสาธิตของบริษัท USMF คุณสามารถใช้ '51'  
-3. รีเฟรชหน้า
-4. คลิกแสดงมิติ
-5. คลิก ตกลง
-6. ปิดหน้า
+## <a name="check-on-hand-inventory-by-location"></a><span data-ttu-id="bcdd8-139">ตรวจสอบปริมาณคงคลังคงเหลือโดยสถานที่</span><span class="sxs-lookup"><span data-stu-id="bcdd8-139">Check on-hand inventory by location</span></span>
+1. <span data-ttu-id="bcdd8-140">ไปยัง การจัดการคลังสินค้า > การสอบถาม และรายงาน > ปริมาณคงคลังคงเหลือโดยสถานที่</span><span class="sxs-lookup"><span data-stu-id="bcdd8-140">Go to Warehouse management > Inquiries and reports > On hand by location.</span></span>
+2. <span data-ttu-id="bcdd8-141">ในฟิลด์คลังสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-141">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="bcdd8-142">ถ้าคุณกำลังใช้การข้อมูลสาธิตของบริษัท USMF คุณสามารถใช้ '51'</span><span class="sxs-lookup"><span data-stu-id="bcdd8-142">If you're using the USMF demo data company, you can use '51'.</span></span>  
+3. <span data-ttu-id="bcdd8-143">รีเฟรชหน้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-143">Refresh the page.</span></span>
+4. <span data-ttu-id="bcdd8-144">คลิกแสดงมิติ</span><span class="sxs-lookup"><span data-stu-id="bcdd8-144">Click Display Dimensions.</span></span>
+5. <span data-ttu-id="bcdd8-145">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-145">Click OK.</span></span>
+6. <span data-ttu-id="bcdd8-146">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-146">Close the page.</span></span>
 
