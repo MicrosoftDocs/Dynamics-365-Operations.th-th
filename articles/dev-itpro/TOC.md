@@ -29,7 +29,7 @@
 ### [ส่งออกและนำเข้าแบบจำลอง](dev-tools/models-export-import.md)
 ### [การค้นหาข้อมูลเมตาใน Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [แบบจำลอง](dev-tools/models.md)
-### [โครงการใน Dynamics 365 for Finance and Operations, รุ่น Enterprise](dev-tools/projects.md)
+### [โครงการใน Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [Add-in ของเครื่องมือสำหรับ Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน](dev-tools/lock-models.md)
 ### [อัพเดตเครื่องมือการพัฒนา Visual Studio](dev-tools/update-development-tools.md)
@@ -161,8 +161,8 @@
 ### [สร้างการนำทาง](user-interface/build-navigation.md)
 ### [สร้างพื้นที่ทำงาน](user-interface/build-workspace.md)
 ## แบบฟอร์ม
-### [การนำทางใน Dynamics 365 for Finance and Operations, รุ่น Enterprise](user-interface/page-navigation.md)
-### [โครงร่างใน Dynamics 365 for Finance and Operations, รุ่น Enterprise](user-interface/page-layout.md)
+### [การนำทางใน Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [โครงร่างใน Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [แบบอักษรสัญลักษณ์](user-interface/symbol-font.md)
 ### [ทดสอบแบบฟอร์มด้วยรูปแบบที่กำหนดเอง](user-interface/testing-forms-custom-patterns.md)
 ### [สร้างและใช้ลิงก์เฉพาะ](user-interface/create-deep-links.md)
@@ -500,7 +500,7 @@
 
 ## การปรับใช้บน Cloud
 ### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, รุ่น Enterprise](deployment/expressroute.md)
+### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [การปรับใช้ในสถานที่](deployment/on-premises-deployment-landing-page.md)
 ### [ภาพรวมในสถานที่](deployment/on-premises-overview.md)
@@ -513,7 +513,7 @@
 ### [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](deployment/redeploy-on-prem.md)
 ### [อัพเดตตัวแทนในพื้นที่](lifecycle-services/update-local-agent.md)
 ### [ตั้งค่าคอนฟิกสภาพแวดล้อมของคุณใหม่](lifecycle-services/reconfigure-environment.md)
-### [แก้ไขปัญหา Dynamics 365 for Finance and Operations, รุ่น Enterprise (ในสถานที่)](deployment/troubleshoot-on-prem.md)
+### [แก้ไขปัญหา Dynamics 365 for Finance and Operations, Enterprise edition (ในสถานที่)](deployment/troubleshoot-on-prem.md)
 
 ## ปรับใช้รหัสที่กำหนดเอง
 ### [สร้างแพคเกจที่สามารถปรับใช้ได้](deployment/create-apply-deployable-package.md)
@@ -701,10 +701,10 @@
 ## [คำขอสำหรับการรีเฟรชฐานข้อมูล Sandbox](database/database-refresh.md)
 
 # การสนับสนุน
-## [รับการสนับสนุนสำหรับr Dynamics 365 for Finance and Operations, รุ่น Enterprise และ Lifecycle Services](lifecycle-services/lcs-support.md)
+## [รับการสนับสนุนสำหรับr Dynamics 365 for Finance and Operations, Enterprise edition และ Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [บันทึกบัตรผ่านการสนับสนุนพรีเมียร์](lifecycle-services/premier-support.md)
 ## [ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับr Dynamics 365 for Finance and Operations, รุ่น Enterprise และ Lifecycle Services](lifecycle-services/support-experience.md) 
+## [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับr Dynamics 365 for Finance and Operations, Enterprise edition และ Lifecycle Services](lifecycle-services/support-experience.md) 
 ## [FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [การดำเนินงานและการให้บริการระบบคลาวด์](lifecycle-services/cloud-operations-servicing.md)
 ## [จัดการประสบการณ์การสนับสนุนของ Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)
