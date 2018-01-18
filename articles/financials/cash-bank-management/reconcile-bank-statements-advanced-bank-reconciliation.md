@@ -3,11 +3,12 @@ title: "กระทบยอดใบแจ้งยอดจากธนาค
 description: "คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด"
 author: saraschi2
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

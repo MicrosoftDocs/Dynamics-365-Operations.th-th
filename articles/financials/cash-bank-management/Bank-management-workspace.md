@@ -3,11 +3,12 @@ title: "พื้นที่ทำงานการจัดการธนา
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการจัดการธนาคาร พื้นที่ทำงานนี้แสดงข้อมูลที่เกี่ยวข้องกับบัญชีธนาคารของบริษัท และรวมทั้งมุมมองสรุปและหน้าการวิเคราะห์ มุมมองสรุปแสดงไทล์สรุป ข้อมูลบัญชีธนาคาร แผนภูมิยอดดุลและข้อมูลที่เกี่ยวข้อง หน้าการวิเคราะห์ใช้ความสามารถของ Microsoft Power BI เพื่อแสดงสิ่งที่มองเห็นได้ที่เกี่ยวข้องกับยอดดุลบัญชีธนาคาร"
 author: saraschi2
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

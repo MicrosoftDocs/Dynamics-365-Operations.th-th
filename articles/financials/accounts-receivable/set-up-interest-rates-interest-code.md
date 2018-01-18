@@ -3,11 +3,12 @@ title: "การตั้งค่าอัตราดอกเบี้ยส
 description: "รหัสดอกเบี้ยที่ประกอบด้วยการตั้งค่าที่กำหนดเมื่อมีการเรียกเก็บดอกเบี้ยและวิธีที่คำนวณในบัญชีที่พ้นกำหนดชำระ "
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Interest
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

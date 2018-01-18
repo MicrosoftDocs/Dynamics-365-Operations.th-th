@@ -3,11 +3,12 @@ title: "เนื้อหาเมตริกบุคลากรใน Power
 description: "หัวข้อนี้อธิบายถึงเนื้อหาเมตริกบุคลากรใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent, Core
@@ -18,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ade42c932b764b8cf5540bddd099e57901637f35
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 8ff4eb80eeb47a72fc1ac91ddc4bdfccebc4c0c6
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -58,11 +59,6 @@ ms.lasthandoff: 12/01/2017
 
 คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
-## <a name="extending-the-power-bi-content"></a>การขยายเนื้อหา Power BI
-โดยการใช้ชุดเนื้อหาที่พร้อมใช้งานใน Microsoft Dynamics Lifecycle Services (LCS) คุณสามารถให้ข้อมูลการวิเคราะห์ที่ยอดเยี่ยมแก่ผู้ที่ไม่ได้ลงชื่อเข้าใช้ Finance and Operations คุณสามารถแก้ไขชุดเนื้อหาเหล่านี้ เพื่อรวมกับการรายงานหรือสิ่งที่มองเห็นได้อื่น ๆ และจากนั้นเผยแพร่ชุดเนื้อหานี้ไปยังผู้เช่า Power BI.com ของคุณสำหรับการวิเคราะห์
-
-คุณสามารถค้นหาเนื้อหา Power BI **เมตริกบุคลากร** ได้ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
-
 ตรวจสอบให้แน่ใจว่าได้ดาวน์โหลดเนื้อหา Power BI **เมตริกบุคลากร** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 
 >[!NOTE]
@@ -93,5 +89,5 @@ ms.lasthandoff: 12/01/2017
 | โครงการจ้างงานโดยรวม        | หมายเลขโครงการจ้างงานโดยรวม เจ้าของโครงการ และสถานะของโครงการ                     | บริษัท การจ้างงานโดยรวม |
 | รายการจ้างงานโดยรวม           | แผนก ชนิดการจ้างงาน และตำแหน่ง                                           | วันที่ งาน โครงการจ้างงานโดยรวม |
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล จากนั้นจะมีการใช้การวัดที่คำนวณแล้วเหล่านี้เพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา Power BI ถ้าคุณต้องการรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถดาวน์โหลด และปรับเปลี่ยนไฟล์ .pbix จาก LCS ไฟล์นี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา Power BI หลังจากที่คุณทำการเปลี่ยนแปลงแล้ว คุณสามารถสร้างชุดเนื้อหาและแดชบอร์ดขององค์กรที่ประกอบด้วยข้อมูลที่คุณเพิ่มไว้ได้
+
 

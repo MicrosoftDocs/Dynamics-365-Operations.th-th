@@ -1,9 +1,9 @@
 ---
 title: "เนื้อหาประสิทธิภาพทางการเงินใน Power BI"
-description: "หัวข้อนี้อธิบายถึงเนื้อหาประสิทธิภาพทางการเงินใน Power BI และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
+description: "หัวข้อนี้อธิบายถึงเนื้อหาประสิทธิภาพทางการเงินใน Power BI"
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงเนื้อหา **ประสิทธิภาพทางการเงิน** ใน Microsoft Power BI และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
-
-## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-
-คุณสามารถเข้าถึง Power BI **ประสิทธิภาพทางการเงิน** จาก Microsoft Dynamics Lifecycle Services (LCS) and from PowerBI.com
-
-### <a name="available-from-lcs"></a>พร้อมใช้งานจาก LCS
-เนื้อหา Power BI **ประสิทธิภาพทางการเงิน** ที่พร้อมใช้งานจาก LCS สนับสนุนเวอร์ชันดังต่อไปนี้:
-
-- Microsoft Dynamics 365 for Finance and Operations, รุ่น Enterprise edition
-- Microsoft Dynamics 365 for Operations เวอร์ชัน 1611 
-
-คุณสามารถค้นหาเนื้อหา Power BI ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดชุดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
-
-### <a name="available-from-powerbicom"></a>พร้อมใช้งานจาก PowerBI.com
-เนื้อหา Power BI **ประสิทธิภาพทางการเงิน** ที่พร้อมใช้งานจาก PowerBI.com สนับสนุน Microsoft Dynamics AX เวอร์ชัน 7.0 และ 7.0.1 ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและโหลดข้อมูล Microsoft Dynamics AX ของคุณได้ที่ [เข้าถึงเนื้อหา Power BI จาก PowerBI.com](power-bi-home-page.md)
 
 ## <a name="main-account-setup"></a>การตั้งค่าบัญชีหลัก
 เนื่องจากองค์กรต้องการให้ยอดเงินหนี้สินและรายได้ปรากฏเป็นจำนวนค่าบวกในรายงาน การตั้งค่าบัญชีหลักจึงมีความสำคัญ สำหรับบัญชีหลักเหล่านี้ที่จะปรากฏเป็นจำนวนค่าบวก คุณต้องกำหนดชนิดบัญชีหลักเป็น **หนี้สิน** หรือ **รายได้** เมื่อมีการใช้ชนิดบัญชีเหล่านี้ การรายงานผ่าน Power BI จะกลับเครื่องหมายต่าง ๆ และแสดงยอดเงินเป็นค่าบวก
@@ -101,5 +86,5 @@ ms.lasthandoff: 12/01/2017
 - บัญชีแยกประเภท
 - ChartofAccounts
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล มีการใช้การวัดที่คำนวณเพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา โดยค่าเริ่มต้น เนื้อหาจะนำเข้าข้อมูลของสามปีที่ผ่านมาและหนึ่งปีในอนาคต เมื่อต้องการรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถปรับเปลี่ยน [สมุดงาน Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) ได้ สมุดงานนี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา หลังจากที่คุณทำการเปลี่ยนแปลงเสร็จเรียบร้อยแล้ว คุณสามารถสร้างชุดเนื้อหาและแดชบอร์ดขององค์กรที่ประกอบด้วยข้อมูลที่คุณเพิ่มไว้ได้
+เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล มีการใช้การวัดที่คำนวณเพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา โดยค่าเริ่มต้น เนื้อหาจะนำเข้าข้อมูลของสามปีที่ผ่านมาและหนึ่งปีในอนาคต เมื่อต้องการรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถปรับเปลี่ยน [สมุดงาน Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) ได้ สมุดงานนี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา 
 

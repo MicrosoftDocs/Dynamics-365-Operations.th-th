@@ -3,11 +3,12 @@ title: "ตั้งค่าข้อตกลงการหักบัญช
 description: "ระบบการชำระเงินของสหภาพยุโรป (SEPA) การหักบัญชีเงินฝากอัตโนมัติช่วยให้เจ้าหนี้เรียกเก็บเงินจากบัญชีธนาคารของลูกค้า ได้รับว่าลูกค้าได้อนุญาตให้มีการลงชื่อข้อตกลงกับเจ้าหนี้"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

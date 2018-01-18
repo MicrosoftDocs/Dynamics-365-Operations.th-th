@@ -3,11 +3,12 @@ title: "พื้นที่ทำงานการจัดการสิน
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการจัดสินทรัพย์ถาวร พื้นที่ทำงานนี้แสดงข้อมูลที่เกี่ยวข้องกับสินทรัพย์ถาวรที่ป้อนเข้าไปในระบบ ซึ่งจะมีมุมมองสรุปและมุมมองการวิเคราะห์"
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

@@ -3,11 +3,12 @@ title: "พื้นที่ทำงานการตรวจสอบคว
 description: "พื้นที่ทำงานรายการการตรวจสอบความถูกต้องของข้อมูลช่วยให้คุณติดตามกระบวนการตรวจสอบข้อมูลระหว่างบริษัท พื้นที่ และบุคคล รายการตรวจสอบสามารถใช้ได้ในระหว่างการใช้งานใหม่ หลังจาการอัพเกรดหรือหลังจากการย้าย"
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

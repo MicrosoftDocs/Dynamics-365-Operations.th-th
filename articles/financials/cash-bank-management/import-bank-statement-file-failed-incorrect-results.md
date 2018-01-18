@@ -3,11 +3,12 @@ title: "การแก้ไขปัญหาการนำเข้าไฟ
 description: "ไฟล์ใบแจ้งยอดจากธนาคารจำเป็นต้องตรงกับโครงร่างที่ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition รองรับ เนื่องด้วยมาตรฐานที่เข้มงวดของใบแจ้งยอดจากธนาคาร การรวมส่วนใหญ่จะทำงานอย่างถูกต้อง อย่างไรก็ตาม บางครั้งไม่สามารถนำเข้าไฟล์ใบแจ้งยอดได้ หรือมีผลลัพธ์ที่ไม่ถูกต้อง โดยทั่วไป ปัญหาเหล่านี้มีสาเหตุมาจากความแตกต่างเล็ก ๆ น้อย ๆ ในไฟล์ใบแจ้งยอดจากธนาคาร บทความนี้อธิบายวิธีการแก้ไขความแตกต่างเหล่านี้ และวิธีการแก้ไขปัญหา"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

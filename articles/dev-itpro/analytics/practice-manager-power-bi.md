@@ -3,11 +3,12 @@ title: "เนื้อหาเกี่ยวกับผู้จัดกา
 description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
 author: KimANelson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -39,7 +40,9 @@ ms.lasthandoff: 12/01/2017
 ยอดเงินทั้งหมดในเนื้อหาจะแสดงในสกุลเงินของระบบ คุณสามารถตั้งค่าสกุลเงินของระบบได้ในหน้า **พารามิเตอร์ระบบ**
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
+
 เนื้อหา Power BI **ผู้จัดการแนวทางปฏิบัติ** จะปรากฏในพื้นที่ทำงาน **การจัดการโครงการ**
+
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 
@@ -47,7 +50,7 @@ ms.lasthandoff: 12/01/2017
 
 | หน้ารายงาน       | เมตริก |
 |-------------------|---------|
-| ภาพรวมโครงการ | <ul><li>โครงการที่สร้าง</li><li>โครงการที่ประเมิน</li><li>โครงการที่อยู่ระหว่างดำเนินการ</li><li>หมายเลขของโครงการโดยเรียงตามขั้น</li><li>หมายเลขของโครงการโดยเรียงตามเมือง</li><li>รายได้จริงโดยเรียงตามลูกค้า</li><li>กำไรขั้นต้นตามงบประมาณโดยเรียงตามโครงการ</li><li>ภาพรวมการจัดการมูลค่าที่ได้มา</li></ul> |
+| ภาพรวมโครงการ | <ul><li>โครงการที่สร้าง</li><li>โครงการที่ประเมิน</li><li>โครงการที่อยู่ระหว่างดำเนินการ</li><li>รายได้จริงโดยเรียงตามลูกค้า</li><li>กำไรขั้นต้นตามงบประมาณโดยเรียงตามโครงการ</li><li>ภาพรวมการจัดการมูลค่าที่ได้มา</li></ul> |
 | ต้นทุน              | <ul><li>ต้นทุนจริงเทียบกับต้นทุนงบประมาณโดยเรียงตามเดือน</li><li>ต้นทุนจริงเทียบกับต้นทุนงบประมาณโดยเรียงตามปี</li><li>ต้นทุนจริงเทียบกับต้นทุนงบประมาณโดยเรียงตามประเภท</li><li>ต้นทุนจริงโดยเรียงตามชนิดธุรกรรม</li></ul> |
 | รายได้           | <ul><li>รายได้จริงโดยเรียงตามเดือน</li><li>รายได้จริงโดยเรียงตามรหัสไปรษณีย์</li><li>รายได้จริงเทียบกับรายได้งบประมาณโดยเรียงตามประเภท</li><li>รายได้จริงโดยเรียงตามอุตสาหกรรมของลูกค้า</li></ul> |
 | EVM               | ดัชนีประสิทธิภาพต้นทุนและกำหนดการโดยเรียงตามโครงการ |
@@ -55,74 +58,67 @@ ms.lasthandoff: 12/01/2017
 
 สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันการส่งออกข้อมูลพื้นฐานเพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปโดยใช้การแสดงภาพ
 
-## <a name="extending-the-power-bi-content"></a>การขยายเนื้อหา Power BI
-โดยการใช้ชุดเนื้อหาที่พร้อมใช้งานใน Microsoft Dynamics Lifecycle Services (LCS) คุณสามารถให้ข้อมูลการวิเคราะห์ที่ยอดเยี่ยมแก่ผู้ที่ไม่ได้ลงชื่อเข้าใช้ Microsoft Dynamics 365 คุณสามารถแก้ไขชุดเนื้อหาเหล่านี้เพื่อรวมกับการรายงานหรือสิ่งที่มองเห็นได้อื่น ๆ และจากนั้นเผยแพร่ไปยังผู้เช่า Power BI.com ของคุณสำหรับการวิเคราะห์ 
-
-คุณสามารถค้นหาเนื้อหา Power BI **ผู้จัดการแนวทางปฏิบัติ** ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา Power BI และนำไปใช้ในองค์กรของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md) เมื่อต้องการดูการสาธิตที่แสดงวิธีใช้เนื้อหา Power BI ให้ดูที่ Office Mix [เนื้อหา Power BI จาก Microsoft และคู่ค้าของคุณใน Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w)
-
-ตรวจสอบให้แน่ใจว่าได้ดาวน์โหลดเนื้อหา **การวิเคราะห์การบัญชีต้นทุ** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้อยู่
-
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
 ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกข้อมูลหน้ารายงานในเนื้อหา Power BI **ผู้จัดการแนวทางปฏิบัติ** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูลเซิร์ฟเวอร์ Microsoft SQL ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
 ส่วนต่อไปนี้อธิบายถึงการวัดแบบรวมที่ใช้ในแต่ละเอนทิตี้
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>เอนทิตี้: ProjectAccountingCube_ActualHourUtilization
+### <a name="entity-projectaccountingcubeactualhourutilization"></a>เอนทิตี: ProjectAccountingCube\_ActualHourUtilization
 **แหล่งข้อมูล** ProjEmplTrans
 
-| การวัดแบบรวมหลัก      | ฟิลด์                              | คำอธิบาย | 
+| การวัดแบบรวมหลัก      | ฟิลด์                              | คำอธิบาย |
 |--------------------------------|------------------------------------|-------------|
 | ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริง | Sum(ActualUtilizationBillableRate) | จำนวนรวมของชั่วโมงที่ใช้เรียกเก็บเงินได้จริง |
 | ชั่วโมงภาระงานที่เรียกเก็บเงินได้จริง   | Sum(ActualBurdenBillableRate)      | จำนวนรวมของอัตราภาระงานจริง |
 
-### <a name="entity-projectaccountingcubeactuals"></a>เอนทิตี้: ProjectAccountingCube_Actuals
+### <a name="entity-projectaccountingcubeactuals"></a>เอนทิตี: ProjectAccountingCube\_Actuals
 **แหล่งข้อมูล** ProjTransPosting
 
-| การวัดแบบรวมหลัก | ฟิลด์              | คำอธิบาย | 
+| การวัดแบบรวมหลัก | ฟิลด์              | คำอธิบาย |
 |---------------------------|--------------------|-------------|
-| รายได้จริง            | Sum(ActualRevenue) | จำนวนรวมของรายได้ที่ลงรายการบัญชีสำหรับธุรกรรมทั้งหมด |   
+| รายได้จริง            | Sum(ActualRevenue) | จำนวนรวมของรายได้ที่ลงรายการบัญชีสำหรับธุรกรรมทั้งหมด |
 | ต้นทุนจริง               | Sum(ActualCost)    | จำนวนรวมของต้นทุนที่ลงรายการบัญชีสำหรับชนิดธุรกรรมทั้งหมด |
 
-### <a name="entity-projectaccountingcubecustomer"></a>เอนทิตี้: ProjectAccountingCube_Customer
+### <a name="entity-projectaccountingcubecustomer"></a>เอนทิตี: ProjectAccountingCube\_Customer
 **แหล่งข้อมูล** CustTable
 
-| การวัดแบบรวมหลัก | ฟิลด์                                            | คำอธิบาย | 
-|---------------------------|--------------------------------------------------|-------------|
-| จำนวนของโครงการ        | COUNTA(ProjectAccountingCube_Projects[PROJECTS]) | จำนวนของโครงการที่มีอยู่ |
+| การวัดแบบรวมหลัก | ฟิลด์                                             | คำอธิบาย |
+|---------------------------|---------------------------------------------------|-------------|
+| จำนวนของโครงการ        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | จำนวนของโครงการที่มีอยู่ |
 
 
-### <a name="entity-projectaccountingcubeforecasts"></a>เอนทิตี้: ProjectAccountingCube_Forecasts
+### <a name="entity-projectaccountingcubeforecasts"></a>เอนทิตี: ProjectAccountingCube\_Forecasts
 **แหล่งข้อมูล** ProjTransBudget
 
-| การวัดแบบรวมหลัก | ฟิลด์                  | คำอธิบาย | 
+| การวัดแบบรวมหลัก | ฟิลด์                  | คำอธิบาย |
 |---------------------------|------------------------|-------------|
 | ต้นทุนตามงบประมาณ               | Sum(BudgetCost)        | จำนวนรวมของต้นทุนที่คาดการณ์สำหรับชนิดธุรกรรมทั้งหมด |
-| รายได้ตามงบประมาณ            | Sum(BudgetRevenue)     | จำนวนรวมของรายได้ค้างรับ/ที่ออกใบแจ้งหนี้ที่คาดการณ์  |
+| รายได้ตามงบประมาณ            | Sum(BudgetRevenue)     | จำนวนรวมของรายได้ค้างรับ/ที่ออกใบแจ้งหนี้ที่คาดการณ์ |
 | กำไรขั้นต้นตามงบประมาณ       | Sum(BudgetGrossMargin) | ผลต่างระหว่างผลรวมของรายได้ที่คาดการณ์ไว้รวมและผลรวมของต้นทุนที่คาดการณ์ไว้รวม |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>เอนทิตี้: ProjectAccountingCube_ProjectPlanCostsView
+### <a name="entity-projectaccountingcubeprojectplancostsview"></a>เอนทิตี: ProjectAccountingCube\_ProjectPlanCostsView
 **แหล่งข้อมูล** โครงการ
 
-| การวัดแบบรวมหลัก | ฟิลด์                    | คำอธิบาย | 
+| การวัดแบบรวมหลัก | ฟิลด์                    | คำอธิบาย |
 |---------------------------|--------------------------|-------------|
 | ต้นทุนที่วางแผนไว้              | Sum(SumOfTotalCostPrice) | ราคาต้นทุนรวมในการประเมินสำหรับธุรกรรมของโครงการทุกชนิดที่มีงานที่ได้วางแผนไว้ |
 
-### <a name="entity-projectaccountingcubeprojects"></a>เอนทิตี้: ProjectAccountingCube_Projects
+### <a name="entity-projectaccountingcubeprojects"></a>เอนทิตี: ProjectAccountingCube\_Projects
 **แหล่งข้อมูล** โครงการ
 
-| การวัดแบบรวมหลัก    | ฟิลด์ | คำอธิบาย | 
+| การวัดแบบรวมหลัก    | ฟิลด์ | คำอธิบาย |
 |------------------------------|-------|-------------|
-| ดัชนีประสิทธิภาพต้นทุน       | ProjectAccountingCube_Projects[Earned value] / ProjectAccountingCube_Projects[ต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์] | การคำนวณค่าที่ได้รับรวมหารด้วยต้นทุนจริงรวม |
-| ดัชนีประสิทธิภาพของกำหนดการ   | ProjectAccountingCube_Projects[Earned value] / ProjectAccountingCube_Projects[ต้นทุนที่วางแผนไว้รวมของงานที่เสร็จสมบูรณ์] | การคำนวณค่าที่ได้รับรวมหารด้วยต้นทุนที่วางแผนไว้รวม |
-| เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ | เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ = ProjectAccountingCube_Projects[ต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์] / (ProjectAccountingCube_Projects[ต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์] + ProjectAccountingCube_Projects[ต้นทุนที่วางแผนไว้รวมของโครงการ] - ProjectAccountingCube_Projects[ต้นทุนที่วางแผนไว้รวมของงานที่เสร็จสมบูรณ์]) | เปอร์เซ็นต์รวมของงานที่เสร็จสมบูรณ์ตามต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์และต้นทุนที่วางแผนไว้ของโครงการ |
-| อัตราส่วนชั่วโมงที่เรียกเก็บเงินได้จริง  | ProjectAccountingCube_Projects[ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริงรวมของโครงการ] / (ProjectAccountingCube_Projects[ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริงรวมของโครงการ] + ProjectAccountingCube_Projects[ชั่วโมงภาระงานที่เรียกเก็บเงินได้จริงรวมของโครงการ]) | ชั่วโมงที่เรียกเก็บเงินได้จริงรวม ขึ้นอยู่กับจำนวนชั่วโมงใช้งานและชั่วโมงภาระงาน |
-| มูลค่าที่ได้มา                 | ProjectAccountingCube_Projects[ต้นทุนที่วางแผนไว้รวมของโครงการ] * ProjectAccountingCube_Projects[เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์] | ต้นทุนที่วางแผนไว้รวมที่คูณด้วยเปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ |
+| ดัชนีประสิทธิภาพต้นทุน       | ProjectAccountingCube\_Projects[Earned value] ÷ ProjectAccountingCube\_Projects[ต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์] | การคำนวณค่าที่ได้รับรวมหารด้วยต้นทุนจริงรวม |
+| ดัชนีประสิทธิภาพของกำหนดการ   | ProjectAccountingCube\_Projects[Earned value] ÷ ProjectAccountingCube\_Projects[ต้นทุนที่วางแผนไว้รวมของงานที่เสร็จสมบูรณ์] | การคำนวณค่าที่ได้รับรวมหารด้วยต้นทุนที่วางแผนไว้รวม |
+| เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ | เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ = ProjectAccountingCube\_Projects[ต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์] ÷ (ProjectAccountingCube\_Projects[ต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์] + ProjectAccountingCube\_Projects[ต้นทุนที่วางแผนไว้รวมของโครงการ] – ProjectAccountingCube\_Projects[ต้นทุนที่วางแผนไว้รวมของงานที่เสร็จสมบูรณ์]) | เปอร์เซ็นต์รวมของงานที่เสร็จสมบูรณ์ตามต้นทุนจริงรวมของงานที่เสร็จสมบูรณ์และต้นทุนที่วางแผนไว้ของโครงการ |
+| อัตราส่วนชั่วโมงที่เรียกเก็บเงินได้จริง  | ProjectAccountingCube\_Projects[ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริงรวมของโครงการ] ÷ (ProjectAccountingCube\_Projects[ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริงรวมของโครงการ] + ProjectAccountingCube\_Projects[ชั่วโมงภาระงานที่เรียกเก็บเงินได้จริงรวมของโครงการ]) | ชั่วโมงที่เรียกเก็บเงินได้จริงรวม ขึ้นอยู่กับจำนวนชั่วโมงใช้งานและชั่วโมงภาระงาน |
+| มูลค่าที่ได้มา                 | ProjectAccountingCube\_Projects[ต้นทุนที่วางแผนไว้รวมของโครงการ] × ProjectAccountingCube\_Projects[เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์] | ต้นทุนที่วางแผนไว้รวมที่คูณด้วยเปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>เอนทิตี้: ProjectAccountingCube_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>เอนทิตี: ProjectAccountingCube\_TotalEstimatedCosts 
 **แหล่งข้อมูล** ProjTable
 
-| การวัดแบบรวมหลัก       | ฟิลด์               | คำอธิบาย | 
+| การวัดแบบรวมหลัก       | ฟิลด์               | คำอธิบาย |
 |---------------------------------|---------------------|-------------|
 | ต้นทุนที่วางแผนไว้สำหรับกิจกรรมเสร็จสมบูรณ์ | Sum(TotalCostPrice) | ราคาต้นทุนรวมในการประเมินสำหรับชนิดธุรกรรมของโครงการทั้งหมดที่มีงานที่เสร็จสมบูรณ์ |
 

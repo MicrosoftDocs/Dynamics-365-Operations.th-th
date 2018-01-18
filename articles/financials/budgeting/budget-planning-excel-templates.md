@@ -3,11 +3,12 @@ title: "เท็มเพลตการวางแผนงบประมา
 description: "หัวข้อนี้อธิบายวิธีการสร้างเท็มเพลต Microsoft Excel ที่สามารถใช้ได้กับแผนงบประมาณ"
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

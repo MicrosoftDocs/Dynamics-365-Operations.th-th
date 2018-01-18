@@ -1,9 +1,9 @@
 ---
 title: "เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI"
-description: "หัวข้อนี้อธิบายถึง Finance and Operations - เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
+description: "หัวข้อนี้อธิบายถึง Finance and Operations - เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI"
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f403416921d2eede9d0071a13af09e1103f91692
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 510064a462258b2a632eaa2a5ffd341950775b89
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายถึง Finance and Operations - เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
-
-<a name="accessing-the-content-pack"></a>การเข้าถึงชุดเนื้อหา
---------------------------
-
-คุณสามารถดูชุดเนื้อหาค่าตอบแทนและสวัสดิการได้ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดชุดเนื้อหาและเชื่อมต่อกับข้อมูล Microsoft Dynamics 365 for Finance and Operations ของคุณ ให้ดูที่ [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](power-bi-content-microsoft-partners.md)
+หัวข้อนี้อธิบายถึง Finance and Operations - เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กร ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
@@ -75,15 +70,7 @@ ms.lasthandoff: 11/03/2017
 | บุคลากร\_ตำแหน่งผู้ปฏิบัติงาน            | ตำแหน่งงานและวันที่อายุงาน                                                                                   | บุคลากร\_ผู้ปฏิบัติงานปัจจุบันของบุคลากร\_ผู้ปฏิบัติงานที่ถูกเลิกจ้างงานของบุคลากร\_แนวโน้มของผู้ปฏิบัติงาน                                                                                                                                                                                                                                                       |
 | บุคลากร\_แนวโน้มของผู้ปฏิบัติงาน             | ผู้ปฏิบัติงานล่วงเวลา จำนวนพนักงาน บริษัท และตำแหน่ง                                                        | บุคลากร\_บุคลากรของบริษัท\_ค่าตอบแทนของบุคลากร\_ที่ตั้งทางภูมิศาสตร์ของบุคลากร\_ประสิทธิภาพการทำงานของบุคลากร\_ชื่อผู้ปฏิบัติงานของบุคลากร\_บุคลากรรายงานไปยังชื่อผู้ปฏิบัติงาน\_บุคลากร CalendarOffset\_วันที่ของบุคลากร\_ตำแหน่งผู้ปฏิบัติงานของบุคลากร\_ข้อมูลประชากรของบุคลากร\_การจ้างงานของบุคลากร\_งานบุคลากร\_สวัสดิการของผู้ปฏิบัติงาน                     |
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล จากนั้นจะมีการใช้การวัดที่คำนวณแล้วเหล่านี้เพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในชุดเนื้อหา ถ้าคุณต้องการรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถดาวน์โหลด และปรับเปลี่ยนไฟล์ CompensationandBenefits.pbix จาก LCS ไฟล์นี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างชุดเนื้อหา หลังจากที่คุณทำการเปลี่ยนแปลงแล้ว คุณสามารถสร้างชุดเนื้อหาและแดชบอร์ดขององค์กรที่ประกอบด้วยข้อมูลที่คุณเพิ่มไว้ได้
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-ต่อไปนี้เป็นการเชื่อมโยงที่เป็นประโยชน์ที่เกี่ยวข้องกับเอนทิตี้และเนื้อหาการสร้าง Power BI:
-
--   [เอนทิตี้ข้อมูล](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [การสร้างชุดเนื้อหาขององค์กร](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [การสร้างแบบจำลองข้อมูลโดยใช้พลังงาน BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [การเพิ่มไทล์ Power BI ไปยังพื้นที่ทำงาน](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +99,10 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="capture-screenshots"></a>จับภาพหน้าจอ
 
-ตัวบันทึกงานสามารถจับภาพหน้าจอของ Retail Modern POS UI ขณะที่คุณบันทึกกระบวนการทางธุรกิจ ตัวบันทึกงานใช้ภาพหน้าจอถ้าคุณดาวน์โหลดการบันทึกเป็นเอกสาร Word เมื่อต้องการเปิดใช้งานคุณลักษณะการจับภาพหน้าจอ ตั้งค่าตัวเลือก **จับภาพหน้าจอ** เป็น **ใช่** 
+ตัวบันทึกงานสามารถจับภาพหน้าจอของ Retail Modern POS UI ขณะที่คุณบันทึกกระบวนการทางธุรกิจ เมื่อต้องการเปิดใช้งานคุณลักษณะการจับภาพหน้าจอ ตั้งค่าตัวเลือก **จับภาพหน้าจอ** เป็น **ใช่** และจากนั้นทำการบันทึก หลังจากที่การบันทึกเสร็จสมบูรณ์ คลิก **หยุด** และดาวน์โหลดเอกสาร Word เอกสารจะประกอบด้วยขั้นตอนต่างๆ ที่มีภาพหน้าจอที่เกี่ยวข้อง
 
 #### <a name="note"></a>บันทึก
-> ฟังก์ชันการจับภาพหน้าจอไม่ได้รับการสนับสนุนใน Cloud POS
+> ฟังก์ชันการจับภาพหน้าจอไม่ได้รับการสนับสนุนใน Modern POS
 
 ### <a name="start-task-and-end-task"></a>เริ่มต้นงานและสิ้นสุดงาน
 

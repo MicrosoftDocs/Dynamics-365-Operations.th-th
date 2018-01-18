@@ -14,28 +14,29 @@
 
 #### ซื้อ Finance and Operations
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
-##### [ซื้อ Finance and Operations (ใช้ในสถานที่)](get-started/purchase-on-premises.md)
+##### [ซื้อ Finance and Operations (ในสถานที่)](get-started/purchase-on-premises.md)
 
 ### [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](get-started/whats-new-changed.md)
-#### [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](../dev-itpro/migration-upgrade/deprecated-features.md)
-#### [ลักษณะการทำงานของ AX 2012 ที่เลื่อนออกไป](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
+#### [คุณสมบัติที่ลบหรือไม่ได้รับการสนับสนุน](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [คุณสมบัติของ AX 2012 ที่เลื่อนออกไป](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่](get-started/features-not-implemented-on-prem.md)
-#### [นโยบายเกี่ยวกับรอบการใช้งาน](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [การอัพเดตแพลตฟอร์ม 12 (พฤศจิกายน 2017)](get-started/whats-new-platform-update-12.md)
-#### [การอัพเดตแพลตฟอร์ม 11 (ตุลาคม 2017)](get-started/whats-new-platform-update-11.md)
-#### [การอัพเดตแพลตฟอร์ม 10 (สิงหาคม 2017)](get-started/whats-new-platform-update-10.md)
-#### [Finance and Operations, Enterprise Edition (กรกฎาคม 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [Platform Update 9 (กรกฎาคม 2017)](get-started/whats-new-platform-update-9.md)
-#### [Platform Update 8 (มิถุนายน 2017)](get-started/whats-new-platform-update-8.md)
-#### [Platform Update 7 (พฤษภาคม 2017)](get-started/whats-new-platform-update-7.md)
-#### [Platform Update 6 (เมษายน 2017)](get-started/whats-new-platform-update-6.md)
-#### [Platform Update 5 (มีนาคม 2017)](get-started/whats-new-platform-update-5.md)
-#### [Platform Update 4 (กุมภาพันธ์ 2017)](get-started/whats-new-platform-update-4.md)
+#### [การนำออกใช้และนโยบายเกี่ยวกับวงจรการใช้งาน](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [การอัพเดต Platform 12 (พฤศจิกายน 2017)](get-started/whats-new-platform-update-12.md)
+#### [การอัพเดต Platform 11 (ตุลาคม 2017)](get-started/whats-new-platform-update-11.md)
+#### [การอัพเดต Platform 10 (สิงหาคม 2017)](get-started/whats-new-platform-update-10.md)
+#### [Finance and Operations, Enterprise edition (กรกฎาคม 2017)](get-started/whats-new-application-July-2017-update.md)
+#### [การอัพเดต Platform 9 (กรกฎาคม 2017)](get-started/whats-new-platform-update-9.md)
+#### [การอัพเดต Platform 8 (มิถุนายน 2017)](get-started/whats-new-platform-update-8.md)
+#### [การอัพเดต Platform 7 (พฤษภาคม 2017)](get-started/whats-new-platform-update-7.md)
+#### [การอัพเดต Platform 6 (เมษายน 2017)](get-started/whats-new-platform-update-6.md)
+#### [การอัพเดต Platform 5 (มีนาคม 2017)](get-started/whats-new-platform-update-5.md)
+#### [การอัพเดต Platform 4 (กุมภาพันธ์ 2017)](get-started/whats-new-platform-update-4.md)
 #### [รุ่นการดำเนินงาน 1611 (พฤศจิกายน 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Platform Update 3 (พฤศจิกายน 2016)](get-started/whats-new-platform-update-3.md)
-#### [Platform Update 2 (สิงหาคม 2016)](get-started/whats-new-platform-update-2.md) 
+#### [การอัพเดต Platform 3 (พฤศจิกายน 2016)](get-started/whats-new-platform-update-3.md)
+#### [การอัพเดต Platform 2 (สิงหาคม 2016)](get-started/whats-new-platform-update-2.md) 
 #### [แอพลิเคชัน Dynamics AX เวอร์ชัน 7.0.1 (พฤษภาคม 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Platform Update 1 (พฤษภาคม 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [การอัพเดต Platform 1 (พฤษภาคม 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (กุมภาพันธ์ 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### คู่มืองานที่อัพเดต
 ##### [คู่มืองานเดือนพฤศจิกายน 2016](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [API แพคการจัดการข้อมูล](../dev-itpro/data-entities/data-management-api.md)
 #### [ตำแหน่งข้อมูลบริการ](../dev-itpro/data-entities/services-home-page.md)
 ##### [การแก้ไขปัญหาการรับรองความถูกต้องของบริการ](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [บริการลูกค้า](../dev-itpro/data-entities/custom-services.md)
 #### [การรวมที่เกิดซ้ำ](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [เอนทิตี้ข้อมูล](../dev-itpro/data-entities/data-entities.md)
 
 #### [โครงการข้อมูลการตั้งค่าคอนฟิก](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [แพคเกจข้อมูลการตั้งค่าคอนฟิก](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทต่างๆ](../dev-itpro/data-entities/copy-configuration.md)
+##### [แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [ติดตามการเปลี่ยนแปลงของเอนทิตี้](../dev-itpro/data-entities/entity-change-track.md)
 
 ### เอนทิตี้ข้อมูลมาตรฐาน
@@ -646,6 +648,11 @@
 ##### [ตั้งค่าเครดิตเดบิตค่าลบ ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [ล็อกการดำเนินงานของผู้ใช้ โดยกฎการทำงานของจีน](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### อินเดีย
+##### [ภาพรวมกลไกจัดการภาษี](../financials/general-ledger/tax-engine.md)
+##### [การรวมกลไกจัดการภาษี](../financials/general-ledger/tax-engine-integration.md)
+##### [การขยายกลไกจัดการภาษี](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### ญี่ปุ่น
 ##### [ได้รับสินทรัพย์ถาวรและการอ้างสิทธิ์สำหรับเงินช่วยเหลือรัฐบาล](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,14 +1221,15 @@
 #### [เมตริกบุคลากร](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### การรายงานและการพิมพ์เอกสาร
-#### [ภาพรวมของบริการรายงานเอกสาร](../dev-itpro/analytics/document-reporting-services.md)
+#### [ภาพรวมของ Document Reporting Services](../dev-itpro/analytics/document-reporting-services.md)
+#### [ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [ตั้งค่าคอนฟิก SSRS สำหรับการปรับใช้ในสถานที่](../dev-itpro/analytics/configure-ssrs-on-premises.md)
-#### [การพิมพ์](../dev-itpro/analytics/print-documents.md)
+#### [กำลังพิมพ์](../dev-itpro/analytics/print-documents.md)
 ##### [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย](../dev-itpro/analytics/install-document-routing-agent.md)
 ##### [ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในสถานที่](../dev-itpro/analytics/printing-capabilities-on-premises.md)
 ##### [รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md)
 #### [ช่วยป้องกันไม่ให้รายงานที่รันเป็นเวลานานหมดเวลา](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md)
-#### [รายการของรายงานบริการการรายงาน SQL Server](../dev-itpro/analytics/SSRS-report.md)
+#### [รายการของรายงาน SQL Server Reporting Services](../dev-itpro/analytics/SSRS-report.md)
 #### [สร้างโซลูชันการรายงาน](../dev-itpro/analytics/create-nextgen-reporting-solutions.md)
 #### [ติดตั้งเท็มเพลตการออกแบบรายงาน](../dev-itpro/analytics/install-modern-report-design-templates.md)
 #### [ปรับแต่งรายงานชุดโปรแกรมแอปโดยใช้ส่วนขยาย](../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md)
@@ -1285,30 +1293,28 @@
 ##### [เลือกข้อกำหนดแบบจำลองข้อมูลขณะสร้างรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-upgrade-format.md)
 ##### [อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์สำหรับการอัพเดตแอพลิเคชัน 7.3](../dev-itpro/analytics/er-apis-app73.md)
 
-### เครื่องมือในการวิเคราะห์และการแสดงภาพ
+### โซลูชันเชิงวิเคราะห์ที่ฝัง
+#### [Power BI ที่ฝังในพื้นที่ทำงาน](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [การรวม Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### ตัวเลือกการกำหนดเป็นแบบส่วนบุคคลด้วย PowerBI.com
+#### [การรวม Power BI](../dev-itpro/analytics/power-bi-integration.md)
+#### [ตรึงรายงาน Power BI ไปยังพื้นที่ทำงาน](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### เครื่องมือสำหรับการสร้างและการขยายโซลูชัน
 #### [การวิเคราะห์ การวัดแบบรวม และการสร้างแบบจำลอง KPI](../dev-itpro/analytics/analytics.md)
+#### [สร้างรายงานเชิงวิเคราะห์โดยการใช้ Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [แบบจำลองและข้อมูลรวม](../dev-itpro/analytics/model-aggregate-data.md)
 #### [เพิ่มมิติทางการเงินไปยังการวัดแบบรวม](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [เพิ่มบริบท BI ไปยังแบบฟอร์ม](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [รวมรายงานการวัด](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [รวมรายงานเอนทิตี้ข้อมูล](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [รายงานดัชนีชี้วัดผลการปฏิบัติงานหลัก (KPI.md)](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [การรวม Power BI](../dev-itpro/analytics/power-bi-integration.md)
-#### [เข้าใช้เนื้อหา Power BI](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [สร้างรายงาน Power BI และแดชบอร์ด](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [สร้างรายงาน Power BI โดยใช้ข้อมูล Finance and Operations](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [ตั้งค่าคอนฟิกการรวม Power BI สำหรับพื้นที่ทำงาน](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [การรวม Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Power BI ที่ฝังในพื้นที่ทำงาน](../dev-itpro/analytics/embed-power-bi-workspaces.md)
-#### [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI ที่ฝัง](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
-#### [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI ที่ฝัง](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [เพิ่ม Power BI ไปยังพื้นที่ทำงาน](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [ตรึงรายงาน Power BI ไปยังพื้นที่ทำงาน](../dev-itpro/analytics/pin-power-bi-reports.md)
+#### [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
+#### [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
+
+### เครื่องมือการจัดการผู้ใช้ระดับสูง
 #### [การรวม Power BI ด้วยที่จัดเก็บเอนทิตี้](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [ตั้งค่าคอนฟิกการรวม Power BI สำหรับพื้นที่ทำงาน](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [ใช้ฐานข้อมูลของคุณเอง](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [สร้างรายงานเชิงวิเคราะห์โดยการใช้ Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [เผยแพร่แอพลิเคชันเชิงวิเคราะห์บน Power BI](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [การบริหารสินค้าคงคลัง](../supply-chain/inventory/inventory-home-page.md)
@@ -1362,6 +1368,7 @@
 #### [จัดทำแผนที่มีข้อจำกัด (คู่มืองาน)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม (คู่มืองาน)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [รักษาใบสั่งตามแผน](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [จัดการสินค้าคงคลังที่ปลอดภัย](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [จัดการความล่าช้า](../supply-chain/master-planning/delays.md)
 #### [สืบค้นกลับการกระจาย](../supply-chain/master-planning/trace-explosion.md)
 #### [ข้อความการดำเนินการ](../supply-chain/master-planning/action-messages.md)
@@ -1438,6 +1445,8 @@
 #### [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [ตั้งค่าบัญชีผู้จัดจำหน่าย](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [การตั้งค่าคอนฟิกคำขอของผู้จัดจำหน่าย](../supply-chain/procurement/vendor-request-configurations.md)
+#### [การเตรียมความพร้อมของผู้จัดจำหน่าย](../supply-chain/procurement/vendor-onboarding.md)
 #### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### ดำเนินงานการผลิต
 ##### [สร้างใบสั่งผลิต](../supply-chain/production-control/create-production-orders.md)
 ##### [นำใบสั่งผลิตออกใช้](../supply-chain/production-control/release-production-orders.md)
-##### [กลับสถานะใบสั่งผลิต](../supply-chain/production-control/reverse-production-order-status.md)
+##### [การมองเห็นข้อยกเว้นของวัตถุดิบ](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [นำรายการ BOM และสูตรออกใช้ไปยังคลังสินค้า](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[กลับสถานะใบสั่งผลิต](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [ลงทะเบียนปริมาณการใช้วัสดุโดยใช้อุปกรณ์เคลื่อนที่](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [ควบคุมการใช้วัตถุดิบโดยการใช้หลักการตัดจ่าย](../supply-chain/production-control/flushing-principles.md) 
 ##### [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [การลงทะเบียนสำหรับการดำเนินการผลิต](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [ผลป้อนกลับของการผลิต](../supply-chain/production-control/production-feedback.md)
 ##### [การลงทะเบียนเวลาและการเข้างาน](../supply-chain/production-control/time-attendance-registrations.md)
-##### [การลงทะเบียนการขาดงานในเวลาและการเข้างาน](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [การลงทะเบียนการขาดงานในเวลาและการเข้างาน](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### จัดการข้อมูลทางการเงินในด้านการผลิต
 ##### [ปันส่วนเวลาสำหรับงานในแต่ละกลุ่มงาน](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [คำนวณปริมาณการใช้วัสดุ](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [สร้างผลิตภัณฑ์หลัก (คู่มืองาน)](../supply-chain/pim/tasks/create-product-master.md)
 #### [สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า (คู่มืองาน)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [สร้างผลิตภัณฑ์นำออกใช้สำหรับบริษัทเดียว (คู่มืองาน)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [สถานะรอบการขายของผลิตภัณฑ์](../supply-chain/pim/product-lifecycle.md)
 #### [สร้างบาร์โค้ดให้ผลิตภัณฑ์ (คู่มืองาน)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [ป้อนรหัส GTIN สำหรับผลิตภัณฑ์ (คู่มืองาน)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์ (คู่มืองาน)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,7 +1812,8 @@
 ### [ตั้งค่าข้อจำกัดในการขนส่งสำหรับสินค้า](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [การจัดการคลังสินค้า](../supply-chain/warehousing/warehouse-management-overview.md)
-### [การตั้งค่าคอนฟิกคลังสินค้า](../supply-chain/warehousing/warehouse-configuration.md) 
+### [การตั้งค่าคอนฟิกคลังสินค้า](../supply-chain/warehousing/warehouse-configuration.md)
+#### [ตั้งค่าคลังสินค้าโดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า](../supply-chain/inventory/warehouse-template.md)
 #### [ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [หน่วยวัดและนโยบายการเก็บสต็อก](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [เนื้อหา Warehouse Power BI](../dev-itpro/analytics/warehouse-power-bi-content.md)

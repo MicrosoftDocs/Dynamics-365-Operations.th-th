@@ -3,11 +3,12 @@ title: "เอกสารเหตุผลการวางแผนงบป
 description: "เอกสารเหตุผลให้ข้อมูลสำหรับผู้ที่ร้องของบประมาณเพื่ออธิบายว่าเหตุใดงบประมาณที่ระบุจึงเป็นสิ่งจำเป็น"
 author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

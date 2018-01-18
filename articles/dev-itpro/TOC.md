@@ -2,6 +2,7 @@
 # [การปรับใช้ในองค์กรสำหรับการปรับใช้ระบบคลาวด์](../fin-and-ops/get-started/system-requirements.md)
 # [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [ข้อมูลสาธิต](../fin-and-ops/get-started/demo-data.md)
+## [สร้างข้อมูลสาธิตที่มีแพคเกจ](data-entities/generate-demo-data-packages.md)
 
 
 # [พัฒนาและเลือกกำหนดโดยใช้ Visual Studio](dev-tools/developer-home-page.md)
@@ -28,7 +29,7 @@
 ### [ส่งออกและนำเข้าแบบจำลอง](dev-tools/models-export-import.md)
 ### [การค้นหาข้อมูลเมตาใน Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [แบบจำลอง](dev-tools/models.md)
-### [โครงการใน Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
+### [โครงการใน Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [Add-in ของเครื่องมือสำหรับ Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน](dev-tools/lock-models.md)
 ### [อัพเดตเครื่องมือการพัฒนา Visual Studio](dev-tools/update-development-tools.md)
@@ -160,8 +161,8 @@
 ### [สร้างการนำทาง](user-interface/build-navigation.md)
 ### [สร้างพื้นที่ทำงาน](user-interface/build-workspace.md)
 ## แบบฟอร์ม
-### [การนำทางใน Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [โครงร่างใน Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [การนำทางใน Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [โครงร่างใน Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [แบบอักษรสัญลักษณ์](user-interface/symbol-font.md)
 ### [ทดสอบแบบฟอร์มด้วยรูปแบบที่กำหนดเอง](user-interface/testing-forms-custom-patterns.md)
 ### [สร้างและใช้ลิงก์เฉพาะ](user-interface/create-deep-links.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [บริการลูกค้า](data-entities/custom-services.md)
 ### [การรวมที่เกิดซ้ำ](data-entities/recurring-integrations.md)
+### [ใช้บริการของบุคคลภายนอกที่ทดสอบยูทิลิตีที่มีบริการ](data-entities/third-party-service-test.md)
 
 ## การพัฒนาสำหรับการรวม
 ### [การรวมข้อมูลโดยใช้เอนทิตี้ข้อมูล](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [แพคเกจข้อมูลการตั้งค่าคอนฟิก](data-entities/configuration-data-packages.md)
 ### [คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทต่างๆ](data-entities/copy-configuration.md)
 ### [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](data-entities/configuration-data-templates.md)
+### [เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ](data-entities/excel-template-multiple.md)
 ### [ติดตามการเปลี่ยนแปลงของเอนทิตี้](data-entities/entity-change-track.md)
 
 ## เอนทิตี้ข้อมูลมาตรฐาน
@@ -497,17 +500,20 @@
 
 ## การปรับใช้บน Cloud
 ### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [การปรับใช้ในสถานที่](deployment/on-premises-deployment-landing-page.md)
 ### [ภาพรวมในสถานที่](deployment/on-premises-overview.md)
+### [การวางแผนสำหรับการปรับใช้ในสถานที่ของคุณ](deployment/plan-onprem-deployment.md)
 ### [การกำหนดขนาดฮาร์ดแวร์](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [สร้างโครงการแบบในสถานที่](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่](deployment/setup-deploy-on-premises-environments.md)
 ### [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่](deployment/develop-deploy-custom-models-on-premises.md)
 ### [ใช้การอัพเดตกับการปรับใช้ในสถานที่](deployment/apply-updates-on-premises.md)
 ### [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](deployment/redeploy-on-prem.md)
-### [แก้ไขปัญหา Dynamics 365 for Finance and Operations, Enterprise Edition (ในองค์กร)](deployment/troubleshoot-on-prem.md)
+### [อัพเดตตัวแทนในพื้นที่](lifecycle-services/update-local-agent.md)
+### [ตั้งค่าคอนฟิกสภาพแวดล้อมของคุณใหม่](lifecycle-services/reconfigure-environment.md)
+### [แก้ไขปัญหา Dynamics 365 for Finance and Operations, Enterprise edition (ในสถานที่)](deployment/troubleshoot-on-prem.md)
 
 ## ปรับใช้รหัสที่กำหนดเอง
 ### [สร้างแพคเกจที่สามารถปรับใช้ได้](deployment/create-apply-deployable-package.md)
@@ -547,7 +553,7 @@
 ## อัพเกรดเป็นการอัพเดตล่าสุด
 ### [กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด](migration-upgrade/upgrade-latest-update.md)
 ### [นโยบายเกี่ยวกับรอบการใช้งาน](migration-upgrade/versions-update-policy.md)
-### [ใช้การอัพเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
+### [ใช้การอัพเดต Platform ล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
 ### [อัพเกรดแพลตฟอร์ม Dynamics เป็นการนำออกใช้เดือนสิงหาคม 2016](migration-upgrade/update-platform-each-release.md)
 ### [อัพเกรดสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต](migration-upgrade/upgrade-data-to-latest-update.md)

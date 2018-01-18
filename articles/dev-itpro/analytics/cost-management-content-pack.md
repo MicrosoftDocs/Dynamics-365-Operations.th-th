@@ -1,9 +1,9 @@
 ---
 title: "เนื้อหาการจัดการต้นทุนใน Power BI"
-description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
+description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI 
 
 # <a name="overview"></a>ภาพรวม
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 11/03/2017
 
 แหล่งข้อมูลหลักสำหรับ CostAggregatedCostStatementEntryEntity คือ ตาราง CostStatementCache ตารางนี้จะถูกจัดการโดยกรอบงานแคชชุดข้อมูล โดยค่าเริ่มต้น ตารางจะได้รับการอัพเดตทุก ๆ 24 ชั่วโมง แต่คุณสามารถเปิดใช้งานการอัพเดตด้วยตนเองในการตั้งค่าคอนฟิกแคชข้อมูล จากนั้นคุณสามารถทำการอัพเดตด้วยตนเองในพื้นที่ทำงาน **การจัดการต้นทุน** หรือ **การวิเคราะห์ต้นทุน** หลังจากที่มีการรันการอัพเดตของ CostStatementCache คุณต้องอัพเดตการเชื่อมต่อ OData บน Power BI.com เพื่อดูข้อมูลที่อัพเดตแล้วบนไซต์ หน่วยวัดผลต่าง (การซื้อ การผลิต) ในเนื้อหา Power BI นี้เกี่ยวข้องกับสินค้าที่มีการตีราคาโดยวิธีการของสินค้าคงคลังต้นทุนมาตรฐานเท่านั้น ผลต่างการผลิตถูกคำนวณเป็นส่วนต่างระหว่างต้นทุนที่ใช้งานอยู่และต้นทุนที่รับรู้ มีการคำนวณผลต่างการผลิตเมื่อใบสั่งผลิตมีสถานะเป็น **สิ้นสุด** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับชนิดของผลต่างการผลิตและวิธีคำนวณแต่ละชนิด ให้ดูที่[เกี่ยวกับการวิเคราะห์ผลต่างสำหรับใบสั่งผลิตที่เสร็จสมบูรณ์](https://technet.microsoft.com/en-us/library/gg242850.aspx)
 
-## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-เนื้อหา Power BI **การจัดการต้นทุน** พร้อมใช้งานจาก PowerBI.com ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและโหลดข้อมูล Microsoft Dynamics 365 for Finance and Operations ของคุณได้ที่ [เข้าใช้เนื้อหา Power BI จาก PowerBI.com](power-bi-home-page.md)
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>เมตริกที่รวมอยู่ในเนื้อหา Power BI
 เนื้อหาประกอบด้วยชุดของหน้าของรายงาน แต่ละหน้าประกอบด้วยชุดของเมตริกที่แสดงภาพข้อมูลเป็นแผนภูมิ ไทล์ และตาราง ตารางต่อไปนี้แสดงภาพรวมของการแสดงภาพประกอบในเนื้อหา **การจัดการต้นทุน** ใน Power BI
@@ -136,13 +134,6 @@ ms.lasthandoff: 11/03/2017
 | บัญชีแยกประเภท          | สกุลเงิน ชื่อ คำอธิบาย                  |
 | ไซต์            | รหัส ชื่อ ประเทศ เมือง                      |
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-ต่อไปนี้เป็นการเชื่อมโยงที่เป็นประโยชน์ที่เกี่ยวข้องกับเอนทิตี้และเนื้อหาการสร้าง Power BI:
-
--   [เอนทิตี้ข้อมูล](..\data-entities\data-entities.md)
--   [การสร้างชุดเนื้อหาขององค์กร](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [การสร้างแบบจำลองข้อมูลโดยใช้พลังงาน BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [การเพิ่มไทล์ Power BI ไปยังพื้นที่ทำงาน](configure-power-bi-integration.md)
 
 
 
