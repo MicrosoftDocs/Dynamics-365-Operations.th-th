@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d55e9a520b1f895d130f24834626429e19b4b939
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ee931a46524a8f0f79f53b8371765118caf5f1f8
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -255,10 +255,10 @@ ms.lasthandoff: 01/17/2018
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
 | <span data-ttu-id="e536a-340">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="e536a-340">Fixed cost</span></span>                            | <span data-ttu-id="e536a-341">องค์กร</span><span class="sxs-lookup"><span data-stu-id="e536a-341">Organization</span></span>                         | <span data-ttu-id="e536a-342">100.00</span><span class="sxs-lookup"><span data-stu-id="e536a-342">100.00</span></span>           | <span data-ttu-id="e536a-343">0.00</span><span class="sxs-lookup"><span data-stu-id="e536a-343">0.00</span></span>         | <span data-ttu-id="e536a-344">วันที่ 1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e536a-344">1/1/2017</span></span>   | <span data-ttu-id="e536a-345">ไม่ต้อง</span><span class="sxs-lookup"><span data-stu-id="e536a-345">Never</span></span>    |
 | <span data-ttu-id="e536a-346">10001</span><span class="sxs-lookup"><span data-stu-id="e536a-346">10001</span></span>                                 | <span data-ttu-id="e536a-347">องค์กร</span><span class="sxs-lookup"><span data-stu-id="e536a-347">Organization</span></span>                         | <span data-ttu-id="e536a-348">0.00</span><span class="sxs-lookup"><span data-stu-id="e536a-348">0.00</span></span>             | <span data-ttu-id="e536a-349">150.00</span><span class="sxs-lookup"><span data-stu-id="e536a-349">150.00</span></span>       | <span data-ttu-id="e536a-350">วันที่ 1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e536a-350">1/1/2017</span></span>   | <span data-ttu-id="e536a-351">ไม่ต้อง</span><span class="sxs-lookup"><span data-stu-id="e536a-351">Never</span></span>    |
-| <span data-ttu-id="e536a-352">10001 (\\*)</span><span class="sxs-lookup"><span data-stu-id="e536a-352">10001 (\\*)</span></span>                             | <span data-ttu-id="e536a-353">การเงิน</span><span class="sxs-lookup"><span data-stu-id="e536a-353">Finance</span></span>                              |                  | <span data-ttu-id="e536a-354">50.00</span><span class="sxs-lookup"><span data-stu-id="e536a-354">50.00</span></span>        | <span data-ttu-id="e536a-355">วันที่ 1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e536a-355">1/1/2017</span></span>   | <span data-ttu-id="e536a-356">ไม่ต้อง</span><span class="sxs-lookup"><span data-stu-id="e536a-356">Never</span></span>    |
+| <span data-ttu-id="e536a-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="e536a-352">10001 (\*)</span></span>                             | <span data-ttu-id="e536a-353">การเงิน</span><span class="sxs-lookup"><span data-stu-id="e536a-353">Finance</span></span>                              |                  | <span data-ttu-id="e536a-354">50.00</span><span class="sxs-lookup"><span data-stu-id="e536a-354">50.00</span></span>        | <span data-ttu-id="e536a-355">วันที่ 1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e536a-355">1/1/2017</span></span>   | <span data-ttu-id="e536a-356">ไม่ต้อง</span><span class="sxs-lookup"><span data-stu-id="e536a-356">Never</span></span>    |
 | <span data-ttu-id="e536a-357">พฤติกรรมต้นทุนหรือต้นทุนผันแปร (\*\*)</span><span class="sxs-lookup"><span data-stu-id="e536a-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="e536a-358">องค์กร</span><span class="sxs-lookup"><span data-stu-id="e536a-358">Organization</span></span>                         | <span data-ttu-id="e536a-359">0.00</span><span class="sxs-lookup"><span data-stu-id="e536a-359">0.00</span></span>             | <span data-ttu-id="e536a-360">0.00</span><span class="sxs-lookup"><span data-stu-id="e536a-360">0.00</span></span>         | <span data-ttu-id="e536a-361">วันที่ 1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e536a-361">1/1/2017</span></span>   | <span data-ttu-id="e536a-362">ไม่ต้อง</span><span class="sxs-lookup"><span data-stu-id="e536a-362">Never</span></span>    |
 
-<span data-ttu-id="e536a-363">\\* ไม่จำเป็นต้องมีโหนดต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="e536a-363">\\* The variable cost node isn't required.</span></span> <span data-ttu-id="e536a-364">ถ้าต้นทุนไม่ได้ถูกจัดประเภทเป็นต้นทุนคงที่ จะต้องเป็นต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="e536a-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
+<span data-ttu-id="e536a-363">\* ไม่จำเป็นต้องมีโหนดต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="e536a-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="e536a-364">ถ้าต้นทุนไม่ได้ถูกจัดประเภทเป็นต้นทุนคงที่ จะต้องเป็นต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="e536a-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
 <span data-ttu-id="e536a-365">\*\* มีการสร้างกฎที่มีรายละเอียดสำหรับชุดข้อมูลของสมาชิกองค์ประกอบต้นทุน 10001 และสมาชิกออบเจ็กต์ต้นทุนทั้งหมดที่ถูกรวมไว้ภายใต้ระดับของลำดับชั้นทางการเงิน (CC002, CC003, CC007)</span><span class="sxs-lookup"><span data-stu-id="e536a-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 

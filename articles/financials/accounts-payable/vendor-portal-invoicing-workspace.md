@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: th-th
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="1d04c-113">ใบแจ้งหนี้ที่ชำระเงินแล้วคือใบแจ้งหนี้ที่ชำระเงินครบแล้วใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1d04c-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="1d04c-114">เมื่อคลิกที่ไทล์ ระบบจะเปิดมุมมองที่กรองข้อมูลของหน้า **รายการใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="1d04c-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="1d04c-115">รายการตาราง</span><span class="sxs-lookup"><span data-stu-id="1d04c-115">Tabular lists</span></span>
 
 <span data-ttu-id="1d04c-116">ในส่วน **รายการตาราง**สถานะของการออกใบแจ้งหนี้จะแบ่งออกในลักษณะที่คล้ายกันกับไทล์สรุป: รายการฉบับร่าง รายการที่ส่งแล้ว และรายการที่อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="1d04c-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="1d04c-117">ขณะที่อยู่ในสถานะฉบับร่าง สามารถส่งใบแจ้งหนี้ไปยังลำดับงานหรือลบออกได้</span><span class="sxs-lookup"><span data-stu-id="1d04c-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="1d04c-118">รายการตารางสุดท้ายคือตัวเลือกในการค้นหาใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="1d04c-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="1d04c-119">คุณสามารถกรองข้อมูลตามที่คุณค้นหาเพื่ออนุญาตสำหรับการค้นหาที่เร็วขึ้น</span><span class="sxs-lookup"><span data-stu-id="1d04c-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="1d04c-120">หน้ารายการใบแจ้งหนี้ของผู้จัดจำหน่ายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="1d04c-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="1d04c-120">หน้ารายการใบแจ้งหนี้ของผู้จัดจำหน่ายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="1d04c-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="1d04c-121">คุณสามารถดูใบแจ้งหนี้ของผู้จัดจำหน่ายที่ลงรายการบัญชีแล้วและที่ไม่ได้ลงรายการบัญชีทั้งหมดได้บนหน้ารายการ **ใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="1d04c-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="1d04c-122">คุณสามารถใช้หน้ารายการนี้เพื่อดูสถานะการชำระเงินของใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="1d04c-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="1d04c-123">สถานะการชำระเงินรวมถึง ยังไม่ได้ลงรายการบัญชี ยังไม่ได้ชำระเงิน ชำระเงินบางส่วน และชำระเงินครบถ้วน</span><span class="sxs-lookup"><span data-stu-id="1d04c-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>

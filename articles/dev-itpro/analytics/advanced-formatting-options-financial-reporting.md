@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: de2a362958dd464299913043e96d2a33087394fa
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -184,7 +184,7 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="operators-in-a-calculation-formula"></a><span data-ttu-id="e6ec5-385">ตัวดำเนินการในสูตรการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="e6ec5-385">Operators in a calculation formula</span></span>
 
-<span data-ttu-id="e6ec5-386">สูตรการคำนวณใช้ตัวดำเนินการซับซ้อนมากกว่าสูตรแถวผลรวม</span><span class="sxs-lookup"><span data-stu-id="e6ec5-386">A calculation formula uses more complex operators than a row total formula.</span></span> <span data-ttu-id="e6ec5-387">อย่างไรก็ตาม คุณสามารถใช้ **\*** และ **/** ตัวดำเนินการพร้อมกับตัวดำเนินการเพิ่มเติมเพื่อคูณ (*) และหาร (\*) ยอดเงินได้</span><span class="sxs-lookup"><span data-stu-id="e6ec5-387">However, can you use the **\*** and **/** operators together with the additional operators to multiply (\*) and divide (/) amounts.</span></span> <span data-ttu-id="e6ec5-388">เมื่อใช้ช่วงหรือผลรวมในสูตรการคำนวณ คุณต้องใส่เครื่องหมาย (@) ไว้หน้ารหัสแถวใดๆ ยกเว้นว่าคุณกำลังใช้คอลัมน์ในคำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="e6ec5-388">To use a range or sum in a calculation formula, you must use an at sign (@) in front of any row code, unless you're using a column in the row definition.</span></span> <span data-ttu-id="e6ec5-389">ตัวอย่างเช่น เพื่อเพิ่มยอดเงินในแถว 100 ไปที่ยอดเงินในแถว 330 คุณสามารถใช้สูตรรวมแถว **100+330** หรือสูตรการคำนวณ **@100+@330** ได้</span><span class="sxs-lookup"><span data-stu-id="e6ec5-389">For example, to add the amount in row 100 to the amount in row 330, you can use the row total formula **100+330** or the calculation formula **@100+@330**.</span></span> <span data-ttu-id="e6ec5-390">**หมายเหตุ:** คุณต้องใช้เครื่องหมาย (@) ก่อนทุกรหัสแถวที่คุณใช้ในสูตรการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="e6ec5-390">**Note:** You must use an at sign (@) before every row code that you use in a calculation formula.</span></span> <span data-ttu-id="e6ec5-391">มิฉะนั้น หมายเลขจะถูกอ่านเป็นจำนวนเต็ม</span><span class="sxs-lookup"><span data-stu-id="e6ec5-391">Otherwise, the number is read as an absolute amount.</span></span> <span data-ttu-id="e6ec5-392">ตัวอย่างเช่น สูตร **@100+330** เพิ่มยอดเงิน 330 USD ไปที่แถว 100</span><span class="sxs-lookup"><span data-stu-id="e6ec5-392">For example, the formula **@100+330** adds USD 330 to the amount in row 100.</span></span> <span data-ttu-id="e6ec5-393">เมื่อคุณอ้างอิงคอลัมน์ในสูตรการคำนวณ เครื่องหมาย (@) ก็ไม่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="e6ec5-393">When you reference a column in a calculation formula, an at sign (@) isn't required.</span></span>
+<span data-ttu-id="e6ec5-386">สูตรการคำนวณใช้ตัวดำเนินการซับซ้อนมากกว่าสูตรแถวผลรวม</span><span class="sxs-lookup"><span data-stu-id="e6ec5-386">A calculation formula uses more complex operators than a row total formula.</span></span> <span data-ttu-id="e6ec5-387">อย่างไรก็ตาม คุณสามารถใช้ **\*** และ **/** ตัวดำเนินการพร้อมกับตัวดำเนินการเพิ่มเติมเพื่อคูณ (\*) และหาร (\*) ยอดเงินได้</span><span class="sxs-lookup"><span data-stu-id="e6ec5-387">However, can you use the **\*** and **/** operators together with the additional operators to multiply (\*) and divide (/) amounts.</span></span> <span data-ttu-id="e6ec5-388">เมื่อใช้ช่วงหรือผลรวมในสูตรการคำนวณ คุณต้องใส่เครื่องหมาย (@) ไว้หน้ารหัสแถวใดๆ ยกเว้นว่าคุณกำลังใช้คอลัมน์ในคำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="e6ec5-388">To use a range or sum in a calculation formula, you must use an at sign (@) in front of any row code, unless you're using a column in the row definition.</span></span> <span data-ttu-id="e6ec5-389">ตัวอย่างเช่น เพื่อเพิ่มยอดเงินในแถว 100 ไปที่ยอดเงินในแถว 330 คุณสามารถใช้สูตรรวมแถว **100+330** หรือสูตรการคำนวณ **@100+@330** ได้</span><span class="sxs-lookup"><span data-stu-id="e6ec5-389">For example, to add the amount in row 100 to the amount in row 330, you can use the row total formula **100+330** or the calculation formula **@100+@330**.</span></span> <span data-ttu-id="e6ec5-390">**หมายเหตุ:** คุณต้องใช้เครื่องหมาย (@) ก่อนทุกรหัสแถวที่คุณใช้ในสูตรการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="e6ec5-390">**Note:** You must use an at sign (@) before every row code that you use in a calculation formula.</span></span> <span data-ttu-id="e6ec5-391">มิฉะนั้น หมายเลขจะถูกอ่านเป็นจำนวนเต็ม</span><span class="sxs-lookup"><span data-stu-id="e6ec5-391">Otherwise, the number is read as an absolute amount.</span></span> <span data-ttu-id="e6ec5-392">ตัวอย่างเช่น สูตร **@100+330** เพิ่มยอดเงิน 330 USD ไปที่แถว 100</span><span class="sxs-lookup"><span data-stu-id="e6ec5-392">For example, the formula **@100+330** adds USD 330 to the amount in row 100.</span></span> <span data-ttu-id="e6ec5-393">เมื่อคุณอ้างอิงคอลัมน์ในสูตรการคำนวณ เครื่องหมาย (@) ก็ไม่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="e6ec5-393">When you reference a column in a calculation formula, an at sign (@) isn't required.</span></span>
 
 ### <a name="create-a-calculation-formula"></a><span data-ttu-id="e6ec5-394">สร้างสูตรการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="e6ec5-394">Create a calculation formula</span></span>
 
