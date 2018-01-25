@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > คุณลักษณะนี้ได้รับการสนับสนุนใน Dynamics 365 for Finance and Operations (เวอร์ชัน 7.2 และเวอร์ชันหลังจากนั้น)
 
-# <a name="introduction"></a>คำนำ
+## <a name="introduction"></a>คำนำ
 หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI บนแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
 
-# <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 + เข้าถึงสภาพแวดล้อมนักพัฒนาที่รันการอัพเดตแพลตฟอร์ม 8 หรือรุ่นที่ใหม่กว่า
 + รายงานเชิงวิเคราะห์ (ไฟล์ .pbix) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และที่มีแบบจำลองข้อมูลที่ต้นทางมาจากฐานข้อมูลร้านค้าเอนทิตี้
 
-# <a name="overview"></a>ภาพรวม
+## <a name="overview"></a>ภาพรวม
 ไม่ว่าคุณจะขยายพื้นที่ทำงานของแอพลิเคชันที่มีอยู่ หรือใช้พื้นที่ทำงานใหม่ของคุณเอง คุณสามารถใช้มุมมองการวิเคราะห์แบบฝังเพื่อจัดส่งมุมมองที่ชาญฉลาดและเชิงโต้ตอบของข้อมูลธุรกิจของคุณ กระบวนการสำหรับการเพิ่มแท็บพื้นที่ทำงานเชิงวิเคราะห์มีสี่ขั้นตอน
 
 1. เพิ่มไฟล์ .pbix เป็นทรัพยากร Dynamics 365
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
 
-# <a name="add-a-pbix-file-as-a-resource"></a>เพิ่มไฟล์ .pbix เป็นทรัพยากร
+## <a name="add-a-pbix-file-as-a-resource"></a>เพิ่มไฟล์ .pbix เป็นทรัพยากร
 ก่อนที่คุณจะเริ่มต้น คุณจะต้องสร้างหรือดูรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)
  
 ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มไฟล์ .pbix เป็นวัตถุโครงการ Visual Studio
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/06/2017
   
 หลังจากที่คุณได้เพิ่มไฟล์ .pbix เป็นทรัพยากร Dynamics 365 แล้ว คุณสามารถฝังรายงานในพื้นที่ทำงาน และเพิ่มลิงค์โดยตรงโดยใช้รายการเมนู
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>เพิ่มตัวควบคุมแท็บไปยังพื้นที่ทำงานของแอพลิเคชัน
+## <a name="add-a-tab-control-to-an-application-workspace"></a>เพิ่มตัวควบคุมแท็บไปยังพื้นที่ทำงานของแอพลิเคชัน
 ในตัวอย่างนี้ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแบบจำลองการจัดการยานพาหนะโดยการเพิ่มแท็บ **การวิเคราะห์** ไปยังคำนิยามของแบบฟอร์ม **FMClerkWorkspace**
  
 ภาพประกอบต่อไปนี้แสดงลักษณะแบบฟอร์ม **FMClerkWorkspace** ในตัวออกแบบใน Microsoft Visual Studio
@@ -105,7 +105,7 @@ ms.lasthandoff: 11/06/2017
  
 เมื่อถึงขั้นตอนนี้ คุณได้ทำการขยายคำนิยามแบบฟอร์มแอพลิเคชันเสร็จสมบูรณ์แล้ว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ส่วนขยายเพื่อทำการเลือกกำหนด ให้ดูที่ [การเลือกกำหนด: การโอเวอร์เลย์และการขยายออก](../extensibility/customization-overlayering-extensions.md)
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>เพิ่มตรรกะทางธุรกิจ X++ เพื่อฝังการควบคุมตัวแสดง
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>เพิ่มตรรกะทางธุรกิจ X++ เพื่อฝังการควบคุมตัวแสดง
 ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มตรรกะทางธุรกิจที่เริ่มต้นการควบคุม Report Viewer ที่ฝังอยู่ในพื้นที่ทำงาน **การจัดการการจอง**
 
 1. เปิดตัวออกแบบแบบฟอร์ม **FMClerkWorkspace** เพื่อขยายคำนิยามการออกแบบ
@@ -151,12 +151,12 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > คุณสามารถเข้าถึงมุมมองการดำเนินงานที่มีอยู่ได้โดยใช้แท็บพื้นที่ทำงานที่อยู่ด้านล่างชื่อหน้า
 
-# <a name="reference"></a>ข้อมูลอ้างอิง
+## <a name="reference"></a>ข้อมูลอ้างอิง
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>วิธีการ PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>วิธีการ PBIReportHelper.initializeReportControl
 ส่วนนี้แสดงข้อมูลเกี่ยวกับคลาสตัวช่วยที่ใช้ในการฝังรายงาน Power BI (ทรัพยากร .pbix) ในการควบคุมกลุ่มแบบฟอร์ม
 
-### <a name="syntax"></a>ไวยากรณ์
+#### <a name="syntax"></a>ไวยากรณ์
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>พารามิเตอร์
+#### <a name="parameters"></a>พารามิเตอร์
 
 | ชื่อ | คำอธิบาย |
 |---|---|
