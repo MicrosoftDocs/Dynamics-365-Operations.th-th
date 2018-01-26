@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e544c592429d00b1ce464740f4e82cb75d10412b
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: bea7dc240f495ac60c733f1a62cebfda281d754e
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="157dc-118">[![กระบวนการทางธุรกิจ](./media/GL-process.PNG)](./media/GL-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="157dc-118">[![Business process](./media/GL-process.PNG)](./media/GL-process.PNG)</span></span>
 
-# <a name="sales-tax"></a><span data-ttu-id="157dc-119">ภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="157dc-119">Sales tax</span></span>
+## <a name="sales-tax"></a><span data-ttu-id="157dc-119">ภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="157dc-119">Sales tax</span></span>
 <span data-ttu-id="157dc-120">บริษัททุกแห่งจัดเก็บและชำระภาษีให้กับหน่วยงานจัดเก็บภาษีต่างๆ </span><span class="sxs-lookup"><span data-stu-id="157dc-120">Every company collects and pays taxes to various tax authorities.</span></span> <span data-ttu-id="157dc-121">กฎและอัตราแตกต่างกันไปตามประเทศ/ภูมิภาค รัฐ เขต และเมือง</span><span class="sxs-lookup"><span data-stu-id="157dc-121">The rules and rates vary by country/region, state, county, and city.</span></span>
 <span data-ttu-id="157dc-122">นอกจากนี้ กฎต้องมีการอัพเดเป็นระยะ ๆ เมื่อหน่วยงานจัดเก็บภาษีเปลี่ยนแปลงข้อกำหนด</span><span class="sxs-lookup"><span data-stu-id="157dc-122">In addition, the rules must be updated periodically when tax authorities change their requirements.</span></span> <span data-ttu-id="157dc-123">รหัสภาษีการขายประกอบด้วยข้อมูลพื้นฐานเกี่ยวกับยอดภาษีที่คุณรวบรวมและชำระแก่หน่วยงานจัดเก็บภาษี</span><span class="sxs-lookup"><span data-stu-id="157dc-123">Sales tax codes contain the basic information about how much you collect and pay to the authorities.</span></span> <span data-ttu-id="157dc-124">เมื่อคุณตั้งค่ารหัสภาษีขาย คุณจะกำหนดจำนวนเงินหรือเปอร์เซ็นต์ที่ต้องรวบรวมไว้</span><span class="sxs-lookup"><span data-stu-id="157dc-124">When you set up sales tax codes, you define the amounts or percentages that must be collected.</span></span> <span data-ttu-id="157dc-125">คุณยังสามารถกำหนดวิธีการต่าง ๆ ที่จำนวนเงินหรือเปอร์เซ็นต์ดังกล่าวจะใช้กับจำนวนเงินธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="157dc-125">You also define the various methods by which those amounts or percentages are applied to transaction amounts.</span></span> <span data-ttu-id="157dc-126">หัวข้อในส่วนนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่ารหัสภาษีขาย สำหรับวิธีการและอัตราที่หน่วยงานจัดเก็บภาษีของคุณกำหนด</span><span class="sxs-lookup"><span data-stu-id="157dc-126">The topics in this section provide information about how to set up sales tax codes for the methods and rates that your tax authorities require.</span></span>
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 11/03/2017
  - [<span data-ttu-id="157dc-129">การชำระภาษีขายและกฎการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="157dc-129">Sales tax payments and rounding rules</span></span>](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a><span data-ttu-id="157dc-130">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="157dc-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="157dc-130">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="157dc-130">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="157dc-131">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="157dc-131">What's new and in development</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="157dc-131">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="157dc-131">What's new and in development</span></span>
 
 <span data-ttu-id="157dc-132">ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="157dc-132">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="157dc-133">บล็อก</span><span class="sxs-lookup"><span data-stu-id="157dc-133">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="157dc-133">บล็อก</span><span class="sxs-lookup"><span data-stu-id="157dc-133">Blogs</span></span>
 
 <span data-ttu-id="157dc-134">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</span><span class="sxs-lookup"><span data-stu-id="157dc-134">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
 
@@ -66,10 +66,10 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="157dc-137">[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</span><span class="sxs-lookup"><span data-stu-id="157dc-137">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="157dc-138">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="157dc-138">Task guides</span></span>
+### <a name="task-guides"></a><span data-ttu-id="157dc-138">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="157dc-138">Task guides</span></span>
 <span data-ttu-id="157dc-139">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="157dc-139">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="157dc-140">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="157dc-140">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="157dc-141">วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="157dc-141">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="157dc-141">วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="157dc-141">Videos</span></span>
 
 <span data-ttu-id="157dc-142">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</span><span class="sxs-lookup"><span data-stu-id="157dc-142">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 

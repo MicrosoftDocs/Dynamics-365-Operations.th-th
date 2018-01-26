@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 09266e28c0fec4200e1644049e4a7f2880ebdcc4
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b28d3abb31fe2b54bd207b3dbdd26b26edb31695
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -53,10 +53,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-128">[![เท็มเพลต Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a><span data-ttu-id="09fe6-129">แบบฝึกหัดที่ 1: ตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="09fe6-129">Exercise 1: Configuration</span></span>
-=========================
+## <a name="exercise-1-configuration"></a><span data-ttu-id="09fe6-129">แบบฝึกหัดที่ 1: ตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="09fe6-129">Exercise 1: Configuration</span></span>
 
-## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="09fe6-130">**งานที่ 1: สร้างลำดับชั้นองค์กร**</span><span class="sxs-lookup"><span data-stu-id="09fe6-130">**Task 1: Create organizational hierarchy**</span></span>
+### <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="09fe6-130">**งานที่ 1: สร้างลำดับชั้นองค์กร**</span><span class="sxs-lookup"><span data-stu-id="09fe6-130">**Task 1: Create organizational hierarchy**</span></span>
 <span data-ttu-id="09fe6-131">เมื่อกระบวนการจัดทำงบประมาณทั้งหมดเกิดขึ้นในแผนกการเงิน ดังนั้น Julia จึงจำเป็นต้องสร้างลำดับชั้นองค์กรที่เรียบง่ายมากๆ – ประกอบด้วยแผนกการเงินเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="09fe6-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="09fe6-132">1.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-132">1.1.</span></span> <span data-ttu-id="09fe6-133">นำไปยังลำดับชั้นขององค์กร (การจัดการองค์กร &gt; องค์กร &gt; ลำดับชั้นขององค์กร) และคลิกปุ่มใหม่</span><span class="sxs-lookup"><span data-stu-id="09fe6-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![ลำดับชั้นขององค์กร](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-155">[![วันที่มีผลบังคับใช้](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a><span data-ttu-id="09fe6-156">งานที่ 2: ตั้งค่าคอนฟิกความปลอดภัยของผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="09fe6-156">Task 2: Configure user security</span></span>
+### <a name="task-2-configure-user-security"></a><span data-ttu-id="09fe6-156">งานที่ 2: ตั้งค่าคอนฟิกความปลอดภัยของผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="09fe6-156">Task 2: Configure user security</span></span>
 <span data-ttu-id="09fe6-157">การวางแผนงบประมาณใช้นโยบายความปลอดภัยพิเศษเพื่อกำหนดค่าคอนฟิกให้กับข้อมูลแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="09fe6-158">จูเลียจำเป็นต้องให้สิทธิ์ในการเข้าถึงแผนงบประมาณทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="09fe6-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
 <span data-ttu-id="09fe6-159">2.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-159">2.1.</span></span> <span data-ttu-id="09fe6-160">สลับไปที่บริบทของนิติบุคคล DEMF</span><span class="sxs-lookup"><span data-stu-id="09fe6-160">Switch to DEMF legal entity context.</span></span> 
@@ -109,7 +108,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-178">[![ให้สิทธิ์เข้าถึง](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a><span data-ttu-id="09fe6-179">งานที่ 3: สร้างสถานการณ์จำลอง</span><span class="sxs-lookup"><span data-stu-id="09fe6-179">Task 3: Create scenarios</span></span>
+### <a name="task-3-create-scenarios"></a><span data-ttu-id="09fe6-179">งานที่ 3: สร้างสถานการณ์จำลอง</span><span class="sxs-lookup"><span data-stu-id="09fe6-179">Task 3: Create scenarios</span></span>
 <span data-ttu-id="09fe6-180">3.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-180">3.1.</span></span> <span data-ttu-id="09fe6-181">นำทางไปยังการจัดทำงบประมาณ&gt;การตั้งค่า &gt; การวางแผนงบประมาณ &gt; การตั้งค่าคอนฟิกการวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="09fe6-182">ในหน้าสถานการณ์จำลองสังเกตสถานการณ์เรากำลังจะใช้ห้องปฏิบัติการนี้เพิ่มเติม: ยอดที่เกิดขึ้นจริงและงบประมาณปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="09fe6-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
 <span data-ttu-id="09fe6-183">*หมายเหตุ: คุณสามารถสร้างสถานการณ์จำลองใหม่สำหรับแบบฝึกหัดนี้ ตามประสงค์และ และใช้เหล่านั้นแทน*</span><span class="sxs-lookup"><span data-stu-id="09fe6-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
@@ -118,7 +117,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-185">*หมายเหตุ: Julia ไม่ได้ใช้กระบวนการอนุมัติอย่างเป็นทางการสำหรับการจัดเตรียมงบประมาณ เราจะข้ามลำดับงาน ขั้น และตั้งค่าขั้นตอนลำดับงานในห้องปฏิบัติการนี้ และจะใช้การตั้งค่าที่มีอยู่สำหรับการลำดับงานอนุมัติอัตโนมัติ โปรดดูภาคผนวกสำหรับการตั้งค่าคอนฟิกลำดับงานนี้*</span><span class="sxs-lookup"><span data-stu-id="09fe6-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="09fe6-186">งานที่ 4: สร้างคอลัมน์แผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-186">Task 4: Create budget plan columns</span></span>
+### <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="09fe6-186">งานที่ 4: สร้างคอลัมน์แผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-186">Task 4: Create budget plan columns</span></span>
 <span data-ttu-id="09fe6-187">แผนงบประมาณที่มีคอลัมน์ยอดเงินหรือปริมาณตามคอลัมน์ที่สามารถใช้ในโครงร่างเอกสารแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="09fe6-188">ในตัวอย่างของเรา เราต้องสร้างคอลัมน์สำหรับค่าจริงของปีก่อนหน้านี้และ คอลัมน์ 12 คอลัมน์เพื่อแสดงยอดแต่ละเดือนในปีงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="09fe6-189">คอลัมน์สามารถสร้างได้ โดยการคลิกปุ่มเพิ่ม และการกรอกมูลค่า หรือโดยการใช้ของเอนทิตี้ข้อมูลก็ได้</span><span class="sxs-lookup"><span data-stu-id="09fe6-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="09fe6-190">ในห้องปฏิบัติการนี้ เราจะใช้เอนทิตีข้อมูลเพื่อเติมค่า</span><span class="sxs-lookup"><span data-stu-id="09fe6-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
 <span data-ttu-id="09fe6-191">4.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-191">4.1.</span></span> <span data-ttu-id="09fe6-192">ในการจัดงบประมาณ&gt;ตั้งค่า &gt; การวางแผนงบประมาณ &gt;  การตั้งค่าคอนฟิกการวางแผนงบประมาณเปิดหน้าคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="09fe6-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="09fe6-193">คลิกปุ่ม Office มุมบนขวาของแบบฟอร์ม และเลือกคอลัมน์ (ยังไม่ได้กรอง)</span><span class="sxs-lookup"><span data-stu-id="09fe6-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
@@ -151,7 +150,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-219">[![รีเฟรช](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="09fe6-220">งานที่ 5: สร้างแม่แบบและโครงร่างเอกสารแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-220">Task 5: Create budget plan document layouts and templates</span></span>
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="09fe6-220">งานที่ 5: สร้างแม่แบบและโครงร่างเอกสารแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-220">Task 5: Create budget plan document layouts and templates</span></span>
 <span data-ttu-id="09fe6-221">โครงร่างกำหนดวิธีตารางบรรทัดเอกสารของแผนงบประมาณที่จะดูคล้ายกันเมื่อผู้ใช้เปิดเอกสารแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="09fe6-222">จึงจะสามารถสลับโครงร่างสำหรับเอกสารแผนงบประมาณเมื่อต้องการดูข้อมูลเดียวกันในมุมที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="09fe6-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="09fe6-223">ตอนนี้ ขณะเธอยังได้รับคอลัมน์ที่กำหนดไว้เพื่อใช้กับเอกสารแผนงบประมาณของเรา Julia จำเป็นต้องสร้างโครงร่างเอกสารแผนงบประมาณ ที่มีลักษณะคล้ายกับตาราง Excel เธอใช้ในการสร้างข้อมูลงบประมาณ (ดูภาพรวมของส่วนสถานการณ์จำลองในห้องปฏิบัติการนี้)</span><span class="sxs-lookup"><span data-stu-id="09fe6-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
 <span data-ttu-id="09fe6-224">5.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-224">5.1.</span></span> <span data-ttu-id="09fe6-225">ในการจัดงบประมาณ&gt;ตั้งค่า &gt; การวางแผนงบประมาณ &gt; การตั้งค่าคอนฟิกการวางแผนงบประมาณเปิดหน้าโครงร่าง</span><span class="sxs-lookup"><span data-stu-id="09fe6-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="09fe6-226">สร้างโครงร่างใหม่สำหรับรายการบัญชีงบประมาณรายเดือน:</span><span class="sxs-lookup"><span data-stu-id="09fe6-226">Create a new layout for Monthly budget entry:</span></span>
@@ -172,7 +171,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-240">5.3</span><span class="sxs-lookup"><span data-stu-id="09fe6-240">5.3.</span></span> <span data-ttu-id="09fe6-241">&lt; ขั้นตอนเพิ่มเติม&gt; เท็มเพลต Excel ปรับเปลี่ยนเพื่อทำให้ผู้ใช้ใช้งานได้ง่ายขึ้น – ดูเพิ่มสูตรรวม ฟิลด์หัวข้อ การจัดรูปแบบ เป็นต้น บันทึกการเปลี่ยนแปลง และอัพโหลดไฟล์โครงร่างของแผนงบประมาณ โดยคลิกที่โครงร่าง &gt; อัพโหลด [![อัพโหลด](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="09fe6-242">งานที่ 6: สร้างกระบวนการวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-242">Task 6: Create a budget planning process</span></span>
+### <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="09fe6-242">งานที่ 6: สร้างกระบวนการวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-242">Task 6: Create a budget planning process</span></span>
 <span data-ttu-id="09fe6-243">Julia จำเป็นต้องสร้าง และเรียกใช้กระบวนการวางแผนงบประมาณใหม่รวมกับการตั้งค่าข้างต้นเพื่อเริ่มป้อนการวางแผนงบประมาณใหม่</span><span class="sxs-lookup"><span data-stu-id="09fe6-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="09fe6-244">กระบวนการวางแผนงบประมาณกำหนดจัดทำงบประมาณองค์กร ลำดับงาน โครงร่าง และเท็มเพจจะใช้สำหรับการสร้างแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
 <span data-ttu-id="09fe6-245">6.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-245">6.1.</span></span> <span data-ttu-id="09fe6-246">นำไปยังการจัดทำงบประมาณ &gt; การตั้งค่า &gt; การวางแผนงบประมาณ &gt; กระบวนการวางแผนงบประมาณ และสร้างเรกคอร์ดใหม่</span><span class="sxs-lookup"><span data-stu-id="09fe6-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
@@ -193,10 +192,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-258">[![เปิดใช้งาน](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a><span data-ttu-id="09fe6-259">แบบฝึกหัดที่ 2: การจำลองกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="09fe6-259">Exercise 2: Process simulation</span></span>
-==============================
+## <a name="exercise-2-process-simulation"></a><span data-ttu-id="09fe6-259">แบบฝึกหัดที่ 2: การจำลองกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="09fe6-259">Exercise 2: Process simulation</span></span>
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="09fe6-260">งานที่ 7: สร้างข้อมูลเริ่มต้นสำหรับแผนงบประมาณจากรายการบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="09fe6-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="09fe6-260">งานที่ 7: สร้างข้อมูลเริ่มต้นสำหรับแผนงบประมาณจากรายการบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="09fe6-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
 <span data-ttu-id="09fe6-261">7.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-261">7.1.</span></span> <span data-ttu-id="09fe6-262">นำไปยังการจัดทำงบประมาณ &gt; งานประจำงวด &gt; สร้างรายการแผนงบประมาณจากบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="09fe6-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="09fe6-263">กรอกข้อมูลพารามิเตอร์กระบวนการเป็นครั้งคราว และคลิกปุ่มสร้าง</span><span class="sxs-lookup"><span data-stu-id="09fe6-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
 <span data-ttu-id="09fe6-264">[![สร้าง](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
@@ -209,7 +207,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-271">[![การแสดงแผนงบประมาณ](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="09fe6-272">งานที่ 8: สร้างงบประมาณปีปัจจุบันตามจริงของปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="09fe6-272">Task 8: Create current year budget based on previous year actuals</span></span>
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="09fe6-272">งานที่ 8: สร้างงบประมาณปีปัจจุบันตามจริงของปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="09fe6-272">Task 8: Create current year budget based on previous year actuals</span></span>
 <span data-ttu-id="09fe6-273">สามารถใช้วิธีการปันส่วนในแผนงบประมาณเพื่อคัดลอกข้อมูลสำหรับแผนงบประมาณได้โดยง่ายจากสถานการณ์จำลองหนึ่งไปอีกสถานการณ์จำลองหนึ่ง/ กระจายเหล่านั้นข้ามรอบระยะเวลา /ปันส่วนไปยังกับมิติ</span><span class="sxs-lookup"><span data-stu-id="09fe6-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="09fe6-274">เราจะใช้การปันส่วนเพื่อสร้างงบประมาณปีปัจจุบันจากยอดจริงในปีก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="09fe6-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
 <span data-ttu-id="09fe6-275">8.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-275">8.1.</span></span> <span data-ttu-id="09fe6-276">เลือกรายการทั้งหมดในกริดเอกสารแผนงบประมาณ และคลิกปุ่มปันส่วนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="09fe6-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
@@ -224,7 +222,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-282">[![เส้นโค้งการขาย](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="09fe6-283">งานที่ 9: การปรับปรุงเอกสารแผนงบประมาณโดยใช้ Excel และเอกสารขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="09fe6-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="09fe6-283">งานที่ 9: การปรับปรุงเอกสารแผนงบประมาณโดยใช้ Excel และเอกสารขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="09fe6-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
 <span data-ttu-id="09fe6-284">9.1</span><span class="sxs-lookup"><span data-stu-id="09fe6-284">9.1.</span></span> <span data-ttu-id="09fe6-285">คลิกปุ่มแผ่นงานเพื่อเปิดเนื้อหาเอกสารใน Excel</span><span class="sxs-lookup"><span data-stu-id="09fe6-285">Click Button worksheet to open document contents in Excel</span></span>
 
 <span data-ttu-id="09fe6-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
@@ -239,8 +237,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="09fe6-294">หลังจากที่ลำดับงานเสร็จสมบูรณ์ ขั้นเอกสารแผนงบประมาณจะเปลี่ยนเป็น อนุมัติแล้ว</span><span class="sxs-lookup"><span data-stu-id="09fe6-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="09fe6-295">[![อนุมัติแล้ว](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="09fe6-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a><span data-ttu-id="09fe6-296">ภาคผนวก</span><span class="sxs-lookup"><span data-stu-id="09fe6-296">Appendix</span></span>
-========
+## <a name="appendix"></a><span data-ttu-id="09fe6-296">ภาคผนวก</span><span class="sxs-lookup"><span data-stu-id="09fe6-296">Appendix</span></span>
 
 ### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="09fe6-297">การตั้งค่าคอนฟิกลำดับงานอนุมัติอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="09fe6-297">Auto-Approve workflow configuration</span></span>
 

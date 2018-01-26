@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="e791b-105">หัวข้อนี้อธิบายถึงเนื้อหา **ที่เกิดขึ้นจริงเปรียบเทียบกับงบประมาณ** ใน Power BI</span><span class="sxs-lookup"><span data-stu-id="e791b-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="e791b-106">และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้</span><span class="sxs-lookup"><span data-stu-id="e791b-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="e791b-107">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="e791b-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="e791b-107">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="e791b-107">Overview</span></span>
 
 <span data-ttu-id="e791b-108">เนื้อหา Power BI **ที่เกิดขึ้นจริงเทียบกับงบประมาณ** ถูกสร้างขึ้นสำหรับบุคคลแต่ละบุคคลที่รับผิดชอบในการตรวจสอบที่เกิดขึ้นจริงเทียบกับประสิทธิภาพของงบประมาณในองค์กรของตน</span><span class="sxs-lookup"><span data-stu-id="e791b-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="e791b-109">เนื้อหา Power BI **ที่เกิดขึ้นจริงเทียบกับงบประมาณ** แสดงภาพของผลต่างงบประมาณของคุณ</span><span class="sxs-lookup"><span data-stu-id="e791b-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="e791b-110">คุณสามารถวิเคราะห์งบประมาณสำหรับปีปัจจุบันโดยเรียงตามประเภทบัญชี รหัสงบประมาณ บัญชีหลัก คำอธิบายเกี่ยวกับบัญชีหลัก หรือรอบระยะเวลาทางบัญชีเพื่อที่จะทำความเข้าใจกับสาเหตุของผลต่างใด ๆ ได้ดีขึ้น</span><span class="sxs-lookup"><span data-stu-id="e791b-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="e791b-111">การเข้าถึงเนื้อหา Power BI</span><span class="sxs-lookup"><span data-stu-id="e791b-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="e791b-111">การเข้าถึงเนื้อหา Power BI</span><span class="sxs-lookup"><span data-stu-id="e791b-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="e791b-112">รายงานจากเนื้อหา Power BI **ที่เกิดขึ้นจริงเทียบกับงบประมาณ** จะแสดงในพื้นที่ทำงาน **งบประมาณบัญชีแยกประเภทและการคาดการณ์** และ **CFO**</span><span class="sxs-lookup"><span data-stu-id="e791b-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="e791b-113">รายงานที่รวมอยู่ในเนื้อหา Power BI</span><span class="sxs-lookup"><span data-stu-id="e791b-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="e791b-113">รายงานที่รวมอยู่ในเนื้อหา Power BI</span><span class="sxs-lookup"><span data-stu-id="e791b-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="e791b-114">ตารางต่อไปนี้ให้รายละเอียดเกี่ยวกับเมตริกที่พบในแต่ละหน้าของรายงานในเนื้อหา **ที่เกิดขึ้นจริงเทียบกับงบประมาณ** ใน Power BI</span><span class="sxs-lookup"><span data-stu-id="e791b-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="e791b-115">รายงาน</span><span class="sxs-lookup"><span data-stu-id="e791b-115">Report</span></span>                      | <span data-ttu-id="e791b-116">เมตริก</span><span class="sxs-lookup"><span data-stu-id="e791b-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="e791b-129">กำไรสุทธิ</span><span class="sxs-lookup"><span data-stu-id="e791b-129">Net income</span></span>                  | <ul><li><span data-ttu-id="e791b-130">กำไรสุทธิปีนี้</span><span class="sxs-lookup"><span data-stu-id="e791b-130">Net income this year</span></span></li><li><span data-ttu-id="e791b-131">เป้าหมายสำหรับกำไรสุทธิตามงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="e791b-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="e791b-132">การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="e791b-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="e791b-132">การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="e791b-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="e791b-133">เอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="e791b-133">Entity</span></span>                    | <span data-ttu-id="e791b-134">เนื้อหา</span><span class="sxs-lookup"><span data-stu-id="e791b-134">Contents</span></span> |
 |---------------------------|----------|

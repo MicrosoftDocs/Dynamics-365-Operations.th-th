@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 7547ff6dcea546100a11f20e8e8f7f7fcab82cee
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: d369b760047a18c82dd89f3452d94b9c62ba8841
 ms.contentlocale: th-th
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="fca0a-104">หัวข้อนี้ครอบคลุมตัวเลือกของคุณสำหรับการตั้งค่าการเข้าสู่ระบบแบบขยายสำหรับ Cloud POS และ Modern POS ของการขายปลีก (MPOS)</span><span class="sxs-lookup"><span data-stu-id="fca0a-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a><span data-ttu-id="fca0a-105">การตั้งค่าการเข้าสู่ระบบแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-105">Setting up extended logon</span></span>
-=========================
+## <a name="setting-up-extended-logon"></a><span data-ttu-id="fca0a-105">การตั้งค่าการเข้าสู่ระบบแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-105">Setting up extended logon</span></span>
 
 <span data-ttu-id="fca0a-106">คุณสามารถค้นหาการตั้งค่าสำหรับตัวพรางบาร์โค้ดที่ **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฟังก์ชันได้**</span><span class="sxs-lookup"><span data-stu-id="fca0a-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="fca0a-107">FastTab **ฟังก์ชัน** รวมตัวเลือกต่อไปนี้ที่เกี่ยวข้องกับการล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
@@ -55,23 +54,19 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="fca0a-116">เมื่อมีการเปิดใช้งานตัวเลือก **การล็อกออนด้วยบัตรของพนักงานต้องใช้รหัสผ่าน** การล็อกออนด้วยบัตรของพนักงานจะเลือกเฉพาะผู้ปฏิบัติงานที่ถูกกำหนดให้กับการล็อกออนแบบขยายที่จะมีการแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="fca0a-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="fca0a-117">ผู้ปฏิบัติงานยังต้องป้อนรหัสผ่านเมื่อเปิดใช้งานตัวเลือกนี้</span><span class="sxs-lookup"><span data-stu-id="fca0a-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a><span data-ttu-id="fca0a-118">การกำหนดการล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-118">Assigning an extended logon</span></span>
-===========================
+## <a name="assigning-an-extended-logon"></a><span data-ttu-id="fca0a-118">การกำหนดการล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-118">Assigning an extended logon</span></span>
 
 <span data-ttu-id="fca0a-119">โดยค่าเริ่มต้น เฉพาะผู้จัดการเท่านั้นสามารถกำหนดการล็อกออนแบบขยายให้กับผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="fca0a-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="fca0a-120">เมื่อต้องการกำหนดการล็อกออนแบบขยาย ให้ไปที่ **การล็อกออนเพิ่มเติม** ใน POS</span><span class="sxs-lookup"><span data-stu-id="fca0a-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="fca0a-121">จากนั้นค้นหาผู้ปฏิบัติงานโดยการป้อนรหัสผู้ปฏิบัติงานของเขาหรือเธอในฟิลด์การค้นหา</span><span class="sxs-lookup"><span data-stu-id="fca0a-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="fca0a-122">เลือกผู้ปฏิบัติงาน แล้วคลิก **มอบหมาย**</span><span class="sxs-lookup"><span data-stu-id="fca0a-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="fca0a-123">ในหน้าถัดไป ให้รูดหรือสแกนการล็อกออนแบบขยายเพื่อมอบหมายให้กับผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="fca0a-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="fca0a-124">ถ้ารูดหรือการสแกนถูกอ่านเสร็จเรียบร้อย ปุ่ม **ตกลง**จะพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="fca0a-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="fca0a-125">คลิก **ตกลง** เพื่อบันทึกการล็อกออนแบบขยายสำหรับผู้ปฏิบัติงานที่นั้น</span><span class="sxs-lookup"><span data-stu-id="fca0a-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a><span data-ttu-id="fca0a-126">การลบการล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-126">Deleting an extended logon</span></span>
-==========================
+## <a name="deleting-an-extended-logon"></a><span data-ttu-id="fca0a-126">การลบการล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-126">Deleting an extended logon</span></span>
 
 <span data-ttu-id="fca0a-127">เมื่อต้องการลบการล็อกออนแบบขยายที่กำหนดให้กับผู้ปฏิบัติงาน ให้ค้นหาผู้ปฏิบัติงานโดยใช้การดำเนินงาน **การล็อกออนเพิ่มเติม**</span><span class="sxs-lookup"><span data-stu-id="fca0a-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="fca0a-128">เลือกผู้ปฏิบัติงาน แล้วคลิก **ยกเลิกการมอบหมาย**</span><span class="sxs-lookup"><span data-stu-id="fca0a-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="fca0a-129">ข้อมูลประจำตัวการล็อกออนแบบขยายทั้งหมดที่เชื่อมโยงกับผู้ปฏิบัติงานที่จะถูกลบออก</span><span class="sxs-lookup"><span data-stu-id="fca0a-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a><span data-ttu-id="fca0a-130">การล็อกออนแบบขยายเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="fca0a-130">Extending extended logon</span></span>
-========================
+## <a name="extending-extended-logon"></a><span data-ttu-id="fca0a-130">การล็อกออนแบบขยายเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="fca0a-130">Extending extended logon</span></span>
 
 <span data-ttu-id="fca0a-131">บริการการล็อกออนสามารถถูกขยายเพื่อสนับสนุนอุปกรณ์การล็อกออนแบบขยายเพิ่มเติมเช่น เครื่องสแกนฝ่ามือ</span><span class="sxs-lookup"><span data-stu-id="fca0a-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="fca0a-132">สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารความสามารถในการขยาย POS</span><span class="sxs-lookup"><span data-stu-id="fca0a-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a><span data-ttu-id="fca0a-133">การใช้การล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-133">Using extended logon</span></span>
-====================
+## <a name="using-extended-logon"></a><span data-ttu-id="fca0a-133">การใช้การล็อกออนแบบขยาย</span><span class="sxs-lookup"><span data-stu-id="fca0a-133">Using extended logon</span></span>
 
 <span data-ttu-id="fca0a-134">เมื่อมีการตั้งค่าคอนฟิกการล็อกออนแบบขยาย และผู้ปฏิบัติงานได้รับมอบหมายบาร์โค้ดหรือแถบแม่เหล็ก ผู้ปฏิบัติงานเพียงต้องรูดหรือสแกนบัตรของเขาหรือเธอขณะที่มีการแสดงหน้าการล็อกออน POS</span><span class="sxs-lookup"><span data-stu-id="fca0a-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="fca0a-135">ถ้าต้องใช้รหัสผ่านด้วยก่อนที่จะสามารถดำเนินการล็อกออนได้ ผู้ปฏิบัติงานจะถูกเตือนให้ใส่รหัสผ่านของเขาหรือเธอ</span><span class="sxs-lookup"><span data-stu-id="fca0a-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 
