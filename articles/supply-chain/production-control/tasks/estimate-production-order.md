@@ -1,4 +1,4 @@
---- 
+---
 title: "ประเมินใบสั่งผลิต"
 description: "คุณสามารถรันขั้นตอนนี้ โดยใช้ข้อมูลบริษัทในการสาธิต USMF หรือชุดข้อมูลของคุณเอง "
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. ในบานหน้าต่างการดำเนินการ คลิกการจัดการต้นทุน
 2. คลิกดูรายละเอียดการคำนวณ
     * หน้านี้แสดงการแบ่งต้นทุน  ตัวอย่างเช่น คุณสามารถดูราคาต้นทุนรวมต่อหน่วยสำหรับสินค้าที่สำเร็จแล้วได้ในแถวแรก  ในแถวต่อมาประกอบด้วยต้นทุนตามสูตรการผลิต กระบวนการผลิต และต้นทุนทางอ้อม  
-
 
