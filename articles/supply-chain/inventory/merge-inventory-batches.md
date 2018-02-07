@@ -1,7 +1,7 @@
 ---
 title: "ผสานชุดงานสินค้าคงคลัง"
 description: "บทความข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการรวมบัญชีสองชุดงานสินค้าคงคลังขึ้นไปไปยังชุดงานแบบผสาน"
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 --- 
 title: "นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ"
 description: "ขั้นตอนนี้จะแนะนำวิธีการนำผลิตภัณฑ์หรือผลิตภัณฑ์หลักออกไปสู่นิติบุคคลอย่างน้อยหนึ่งรายการ "
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
