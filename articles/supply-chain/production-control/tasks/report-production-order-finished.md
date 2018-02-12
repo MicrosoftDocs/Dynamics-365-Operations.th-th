@@ -1,4 +1,4 @@
---- 
+---
 title: "รายงานการเสร็จงานของใบสั่งผลิต"
 description: "ขั้นตอนนี้แสดงถึงวิธีการรายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์ "
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
 4. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
     * มีการงรายการบัญชีรายงานเมื่อสมุดรายวันเสร็จสมบูรณ์  ถ้าคุณต้องการทำการปรับปรุงสมุดรายวัน คุณสามารถสร้างสมุดรายวันใหม่ที่คุณสามารถสร้างการเปลี่ยนแปลงด้วยตนเอง  
-
 

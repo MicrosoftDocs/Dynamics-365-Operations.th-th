@@ -3,7 +3,7 @@ title: "โฮมเพจการบริหารห่วงโซ่อุ
 description: "หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,18 +52,20 @@ ms.lasthandoff: 12/01/2017
 
 ## <a name="videos"></a>วิดีโอ
 
-### <a name="get-started"></a>เริ่มต้นใช้งาน  
+วิดีโอสั้นเหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)
 
-วิดีโอสั้นเหล่านี้จะช่วยคุณเริ่มต้นใช้งานคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)
+-  [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg) 
+-  [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+วิดีโอสั้นเหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)
 
 -  [เริ่มต้นใช้งานการบัญชีต้นทุน](https://youtu.be/1pUDtJQZ8FU)
 -  [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)
 -  [ใช้ Excel สำหรับการวิเคราะห์ต้นทุน](https://youtu.be/-HKHYdClvx8)
 -  [อนุมัติใบสั่งซื้อบนอุปกรณ์เคลื่อนที่](https://youtu.be/gZ-gOlJe7H8)
--  [การกำหนดการแบบภาพด้วยแผนภูมิ Gantt สำหรับใบสั่งผลิตและใบสั่งชุดงาน](https://youtu.be/BtbuShkGj4I)
+-  [การกำหนดการแบบภาพด้วยแผนภูมิแกนต์สำหรับใบสั่งผลิตและใบสั่งชุดงาน](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>บันทึกการประชุมด้านเทคนิค
-บันทึกเหล่านี้เกี่ยวกับฟังก์ชันการทำงานของผลิตภัณฑ์ในรุ่นก่อนหน้าของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
+บันทึกการประชุมด้านเทคนิคเหล่านี้มีเนื้อหาเกี่ยวกับฟังก์ชันการทำงานของผลิตภัณฑ์ในรุ่นก่อนหน้าของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา</a>

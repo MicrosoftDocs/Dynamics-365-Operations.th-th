@@ -1,4 +1,4 @@
---- 
+---
 title: "นำใบสั่งผลิตออกใช้"
 description: "กระบวนงานนี้แสดงวิธีการนำใบสั่งผลิตออกใช้ "
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. คลิกที่กล่องกาเครื่องหมายการพิมพ์บัตรกระบวนการผลิต
 6. คลิก ตกลง
 7. ปิดหน้า
-
 

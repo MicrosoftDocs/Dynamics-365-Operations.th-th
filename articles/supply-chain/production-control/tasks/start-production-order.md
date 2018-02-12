@@ -1,4 +1,4 @@
---- 
+---
 title: "เริ่มใบสั่งผลิต"
 description: "กระบวนงานนี้แสดงวิธีการเริ่มใบสั่งผลิตลิในกระบวนการผลิต "
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. คลิก ลงรายการบัญชี
 8. คลิก ตกลง
     * ในสมุดรายวันบัตรกระบวนการผลิต เวลาที่ใช้ในการดำเนินงานแต่ละตัวจะถูกบันทึกลงไป  นอกจากยังนี้สามารถรายงานปริมาณสินค้าที่ดีและข้อผิดพลาดได้อีกด้วย  
-
 

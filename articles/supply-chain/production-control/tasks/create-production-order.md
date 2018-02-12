@@ -1,4 +1,4 @@
---- 
+---
 title: "สร้างใบสั่งผลิต"
 description: "กระบวนงานนี้แสดงวิธีการสร้างใบสั่งผลิต "
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
     * การเปลี่ยนเวลาการประมวลผลที่ส่งผลต่อปริมาณการใช้วัสดุของกระบวนการผลิตที่ประเมินได้และต้นทุนของใบสั่งผลิต  
 6. คลิก บันทึก
 7. ปิดหน้า
-
 

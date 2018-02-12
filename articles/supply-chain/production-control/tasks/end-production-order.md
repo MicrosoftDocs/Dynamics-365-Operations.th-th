@@ -1,4 +1,4 @@
---- 
+---
 title: "ใบสั่งผลิตสิ้นสุด"
 description: "กระบวนงานนี้แสดงวิธีการสิ้นสุดใบสั่งผลิต "
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. ในบานหน้าต่างการดำเนินการ คลิกการจัดการต้นทุน
 2. คลิกดูการเปรียบเทียบต้นทุน
     * หลังจากที่คุณสิ้นสุดใบสั่งผลิตแล้ว คุณสามารถเปรียบเทียบราคาต้นทุนประมาณกับราคาต้นทุนที่รับรู้ได้ เพื่อเรียกดูภาพรวมของผลต่างการผลิต  
-
 

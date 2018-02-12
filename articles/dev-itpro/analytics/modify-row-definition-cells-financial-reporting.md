@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 บทความนี้อธิบายข้อมูลที่จำเป็นสำหรับแต่ละเซลล์ในคำนิยามแถวในรายงานทางการเงินและอธิบายวิธีการใส่ข้อมูลดังกล่าว 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>ระบุรหัสแถวในคำนิยามแถว
+## <a name="specify-a-row-code-in-a-row-definition"></a>ระบุรหัสแถวในคำนิยามแถว
 
 ในคำนิยามแถว หมายเลขหรือป้ายชื่อในเซลล์ **รหัสแถว** จะกำหนดแต่ละรายการในคำนิยามแถว คุณสามารถระบุรหัสแถวเพื่ออ้างอิงไปยังข้อมูลในการคำนวณและผลรวม
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 11/03/2017
 4.  เลือกเซ็ตที่จะลบ แล้วคลิก **ลบ** คลิก **ใช่** เพื่อลบเซ็ตค่ามิติที่ตั้งโดยถาวร
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
---------
+## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
 

@@ -114,6 +114,7 @@
 #### [การเลือกกำหนด: การโอเวอร์เลย์และส่วนขยาย](extensibility/customization-overlayering-extensions.md)
 ### มีอะไรใหม่
 #### [การเปลี่ยนแปลงความสามารถในการขยาย กรกฎาคม 2017](extensibility/changes-july-2017.md)
+#### [การเปลี่ยนแปลงความสามารถในการขยายใน Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### พื้นฐาน
 #### [การกำหนดการบุกรุก](extensibility/intrusive-customizations.md)
 #### [ส่วนขยายของคลาส](extensibility/class-extensions.md)
@@ -138,6 +139,11 @@
 #### [แก้ไขคุณสมบัติการควบคุมแบบฟอร์ม](extensibility/modify-control-properties.md)
 #### [เปลี่ยนป้ายชื่อ](extensibility/change-label.md)
 #### [ขยายขอบข่ายลำดับหมายเลข](extensibility/extend-number-sequence-scope.md)
+#### [เพิ่มมิติสินค้าคงคลังใหม่](extensibility/inventory-dimensions.md)
+#### [การเปลี่ยนแปลงความสามารถในการขยายของราคาและส่วนลด](extensibility/pricing-app73.md)
+#### [ส่วนขยายแผนผังตาราง](extensibility/map-extensions.md)
+#### [ขยายแผนผังตารางที่ใช้เป็นอินเทอร์เฟส](extensibility/maps-as-interfaces.md)
+#### [ขยายแผนผังตารางที่ใช้สำหรับการกำหนดเวอร์ชัน](extensibility/maps-with-versioning.md)
 
 
 
@@ -523,16 +529,16 @@
 
 # [การอัพเกรดและการย้าย](migration-upgrade/upgrade-home-page.md)
 ## [อัพเกรดจาก AX 2012 เป็น Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [วิเคราะห์ - ใช้เครื่องมือตัววิเคราะห์การอัพเกรดเพื่อวางแผนการอัพเกรด](migration-upgrade/upgrade-analyzer-tool.md)
-### [วิเคราะห์ – ใช้บริการอัพเกรดรหัสเพื่อประเมินการดำเนินการในการอัพเกรดรหัส](migration-upgrade/analyze-code-upgrade.md)
-### [วิเคราะห์ - ปรับใช้สภาพแวดล้อม Sandbox](migration-upgrade/analysis-sandbox.md)
-### [อัพเกรด - การอัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนา](migration-upgrade/data-upgrade-2012.md)
-### [อัพเกรด - งานการอัพเกรดข้อมูล AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [อัพเกรด - การอัพเกรดข้อมูลในสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-data-sandbox.md)
-### [ตรวจสอบความถูกต้อง - การทดสอบการโยกย้าย](migration-upgrade/upgrade-cutover-testing.md)
-### [ตรวจสอบความถูกต้อง - งานที่จะดำเนินการหลังการอัพเกรด](migration-upgrade/app-validation-process.md)
-### [ตรวจสอบความถูกต้อง - การทดสอบการทำงาน](migration-upgrade/upgrade-functional-validation.md)
-### [ตรวจสอบความถูกต้อง - เตรียมพร้อมสำหรับการเริ่มใช้งานจริง](migration-upgrade/upgrade-go-live-prep.md)
+### [การอัพเกรด AX 2012 - ใช้เครื่องมือตัววิเคราะห์การอัพเกรดเพื่อวางแผน](migration-upgrade/upgrade-analyzer-tool.md)
+### [การอัพเกรด AX 2012 – ใช้บริการอัพเกรดรหัสเพื่อประเมินการดำเนินการ](migration-upgrade/analyze-code-upgrade.md)
+### [การอัพเกรด AX 2012 - ปรับใช้สภาพแวดล้อม Sandbox](migration-upgrade/analysis-sandbox.md)
+### [การอัพเกรด AX 2012 - การอัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนา](migration-upgrade/data-upgrade-2012.md)
+### [การอัพเกรด AX 2012 - งานการอัพเกรดข้อมูล AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [การอัพเกรด AX 2012 - การอัพเกรดข้อมูลในสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-data-sandbox.md)
+### [การอัพเกรด AX 2012 - การทดสอบการโยกย้าย](migration-upgrade/upgrade-cutover-testing.md)
+### [การอัพเกรด AX 2012 - งานที่จะดำเนินการหลังการอัพเกรด](migration-upgrade/app-validation-process.md)
+### [การอัพเกรด AX 2012 - ผ่านการทดสอบการทำงาน](migration-upgrade/upgrade-functional-validation.md)
+### [การอัพเกรด AX 2012 - เตรียมพร้อมสำหรับการเริ่มใช้งานจริง](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### การเปลี่ยนแปลงที่มีผลต่อการอัพเกรดจาก AX 2012
@@ -590,6 +596,8 @@
 ## [การประมวลผลชุดงาน](sysadmin/batch-processing-overview.md)
 ### [ภาพรวมของเซิร์ฟเวอร์ชุดงาน](sysadmin/batch-server-overview.md)
 ### [สร้างชุดงาน](sysadmin/tasks/create-batch-job.md)
+
+## [สร้างกฎขั้นสูงสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [ภาพรวมของ Lifecycle Services](lifecycle-services/lcs.md)

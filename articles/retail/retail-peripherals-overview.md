@@ -1,6 +1,7 @@
 ---
 title: "ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก"
 description: "หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก"
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

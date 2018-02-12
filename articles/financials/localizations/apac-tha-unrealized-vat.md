@@ -8,13 +8,14 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 265924
 ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
 ms.search.region: Thailand
-ms.author: leguo
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
