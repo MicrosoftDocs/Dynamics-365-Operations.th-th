@@ -3,7 +3,7 @@ title: "เนื้อหาการจัดการต้นทุนใน
 description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: th-th
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [หมายเหตุ] ชุดเนื้อหานี้ได้รับการสนับสนุนตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่มีการเผยแพร่ไปยัง PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom)
+
 
 หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI 
-
-# <a name="overview"></a>ภาพรวม
 
 เนื้อหา **การจัดการต้นทุน** ใน Microsoft Power BI มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลังหรือบุคคลในองค์กรที่รับผิดชอบสำหรับสินค้าคงคลัง เนื้อหา **การจัดการต้นทุน** ใน Power BI ให้ข้อมูลเชิงลึกเชิงจัดการเกี่ยวกับสินค้าคงคลัง และสินค้าคงคลังของงานระหว่างทำ (WIP) และขั้นตอนของต้นทุนเกี่ยวกับเรื่องนี้ตามประเภทในช่วงเวลาหนึ่ง นอกจากนี้ยังสามารถใช้ข้อมูลเป็นรายละเอียดภาคผนวกสำหรับงบการเงิน
 

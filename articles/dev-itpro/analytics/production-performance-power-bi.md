@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
 ms.contentlocale: th-th
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -104,7 +105,7 @@ ms.lasthandoff: 12/19/2017
 | ล่าช้า               | 'ใบสั่งผลิต'[RAF'ed] = จริง && 'ใบสั่งผลิต'[ค่าที่ล่าช้า] = 1 |
 | ก่อนเวลา                 | 'ใบสั่งผลิต'[RAF'ed] = จริง && 'ใบสั่งผลิต'[วันที่ล่าช้า] \< 0 |
 | เต็มจำนวน               | 'ใบสั่งผลิต'[ปริมาณที่ดี] \>= 'ใบสั่งผลิต'[ปริมาณที่จัดกำหนดการ] |
-| RAF'ed                | 'ใบสั่งผลิต' [ค่าสถานะการผลิต] = 5 \|\| 'ใบสั่งผลิต' [ค่าสถานะการผลิต] = 7 \ |
+| RAF'ed                | 'ใบสั่งผลิต' [ค่าสถานะการผลิต] = 5 \|\| 'ใบสั่งผลิต' [ค่าสถานะการผลิต] = 7 |
 | ล่าช้าและเต็มจำนวน           | COUNTROWS (ตัวกรอง ('ใบสั่งผลิต' 'ใบสั่งผลิต' [เต็มจำนวน] = จริง & & 'ใบสั่งผลิต' [ล่าช้า] = จริง)) |
 | ล่าช้า \#                  | COUNTROWS(ตัวกรอง ('ใบสั่งผลิต' 'ใบสั่งผลิต' [มีความล่าช้า] = จริง)) |
 | ล่าช้า %                   | IFERROR (ถ้า ('ใบสั่งผลิต' [ล่าช้า \#] \<\> 0 'ใบสั่งผลิต' [ก่อนเวลา \#], ถ้า ('ใบสั่งผลิต' [ใบสั่งรวม] = 0, ว่างเปล่า(), 0)) / 'ใบสั่งผลิต' [ใบสั่งรวม], ว่างเปล่า()) |
