@@ -1,7 +1,7 @@
 ---
 title: "ก่อนที่คุณจะซื้อ"
 description: "คำแนะนำทีละขั้นตอนเพื่อใช้เมื่อคุณกำลังพิจารณาที่จะซื้อ Dynamics 365 for Finance and Operations, Enterprise Edition"
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้
 ในขณะนี้คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้ในระบบ Cloud หรือในองค์กร การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่: [ตัวเลือกการปรับใช้](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+ข้อควรพิจารณาต่อไปนี้ต้องใช้ เมื่อคุณเลือกแบบในองค์กรเป็นตัวเลือกการปรับใช้:
+- ความต้องการตามข้อบังคับและการปฏิบัติตามกฎระเบียบที่ไม่พร้อมใช้งานใน [ใบรับรอง cloud](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- กระบวนการทางธุรกิจที่ไม่เชื่อมต่อกับการเชื่อมต่ออินเทอร์เน็ตแบบเป็นช่วงๆ จำเป็นในการเข้าถึง Microsoft Dynamics Lifecycle Services (LCS) สำหรับการจัดการรอบการใช้งานแอพลิเคชัน
+- [คุณสมบัติที่ยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กรในขณะนี้](features-not-implemented-on-prem.md)
+- [ข้อกำหนดโครงสร้างพื้นฐานต่ำสุด](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> การปรับใช้ในองค์กรของ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐาน cloud สาธารณะใดๆ ซึ่งรวมถึง Azure 
+
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตัวเลือกการปรับใช้](../../dev-itpro/deployment/choose-deployment-type.md)
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>ขั้นตอนที่สาม: ซื้อและจัดการการบอกรับเป็นสมาชิก
 เมื่อต้องการสำรวจตัวเลือกการบอกรับเป็นสมาชิก ไปที่หน้าการกำหนดราคา [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) หน้านี้ประกอบด้วยแผนต่าง ๆ จำนวนมากเพื่อให้เหมาะสมกับความต้องการขององค์กรของคุณ

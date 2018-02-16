@@ -1,0 +1,199 @@
+---
+title: "สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม"
+description: "หัวข้อนี้อธิบายวิธีการเพิ่มกฎใหม่ในโปรแกรมช่วยแนะนำการปรับให้เหมาะสม"
+author: roxanadiaconu
+manager: AnnBe
+ms.date: 01/23/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: SelfHealingWorkspace
+audience: Application User, IT Pro
+ms.reviewer: yuyus
+ms.search.scope: Core (Operations, Core)
+ms.custom: 
+ms.assetid: 
+ms.search.region: global
+ms.search.industry: 
+ms.author: roxanad
+ms.search.validFrom: 2017-12-01
+ms.dyn365.ops.version: 7.3
+ms.translationtype: HT
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 88739298405343a36ae5bc11f51c666c414e7157
+ms.contentlocale: th-th
+ms.lasthandoff: 01/23/2018
+
+---
+
+# <a name="create-rules-for-optimization-advisor"></a>สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
+
+[!include[banner](../includes/banner.md)]
+
+หัวข้อนี้อธิบายวิธีการสร้างกฎใหม่สำหรับ **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** ตัวอย่างเช่น คุณสามารถสร้างกฎใหม่ที่ระบุกรณีของคำขอใบเสนอราคา (RFQ) ที่มีชื่อเรื่องแบบว่างเปล่า การใช้ชื่อในกรณีทำให้สามารถระบุและสามารถค้นหาได้ง่าย ขณะที่ค่อนข้างอย่างง่าย ตัวอย่างนี้แสดงสิ่งที่สามารถทำได้ด้วยกฎการปรับให้เหมาะสม 
+
+*กฎ* เป็นการตรวจสอบข้อมูลแอพลิเคชัน ถ้าเป็นไปตามเงื่อนไขที่กฎประเมิน จะมีการสร้างโอกาสในการเพิ่มประสิทธิภาพกระบวนการ หรือปรับปรุงข้อมูล โอกาสที่สามารถดำเนินการ และอีกทางหนึ่งคือ สามารถวัดผลกระทบของการดำเนินการได้ 
+
+ในการสร้างกฎใหม่สำหรับ **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** เพิ่มคลาสใหม่ที่ขยายคลาสนามธรรม **SelfHealingRule** ใช้อินเทอร์เฟส **IDiagnosticsRule** และถูกตกแต่งโดยแอตทริบิวต์ **DiagnosticRule** คลาสต้องมีวิธีที่ถูกตกแต่งด้วยแอตทริบิวต์ **DiagnosticsRuleSubscription** ตามแบบแผน ซึ่งเสร็จสิ้นในวิธี **opportunityTitle** ซึ่งจะกล่าวถึงในภายหลัง คลาสใหม่นี้สามารถถูกเพิ่มไปยังแบบจำลองที่กำหนดเองที่มีการขึ้นต่อกันในแบบจำลอง **SelfHealingRules** ได้ ในตัวอย่างต่อไปนี้ กฎที่กำลังถูกใช้ เรียกว่า **RFQTitleSelfHealingRule**
+
+```
+[DiagnosticsRule] 
+public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
+{ 
+… 
+} 
+```
+
+คลาสนามธรรม **SelfHealingRule** มีวิธีการนามธรรมที่ต้องดำเนินการในคลาสที่สืบทอด หลักคือ วิธี **ประเมิน** ซึ่งส่งกลับรายการของโอกาสที่ระบุโดยกฎ โอกาสสามารถเป็นต่อนิติบุคคล หรือสามารถนำไปใช้กับทั้งระบบได้
+
+```
+protected List evaluate() 
+{ 
+    List results = new List(Types::Record); 
+    
+    DataArea dataArea; 
+
+    while select id from dataArea 
+        where !dataArea.isVirtual 
+    { 
+        changecompany(dataArea.id) 
+        { 
+            container result = this.findRFQCasesWithEmptyTitle(); 
+
+            if (conLen(result) > 0) 
+            { 
+                SelfHealingOpportunity opportunity = this.getOpportunityForCompany(dataArea.Id); 
+                opportunity.EvaluationState = SelfHealingEvaluationState::Evaluated; 
+                opportunity.Data = result; 
+                opportunity.OpportunityDate = DateTimeUtil::utcNow(); 
+                
+                results.addEnd(opportunity); 
+            } 
+        } 
+    } 
+    
+    return results; 
+} 
+```
+
+วิธีการที่แสดงไว้ข้างบนวนผ่านบริษัทและเลือกกรณี RFQ ที่มีชื่อเรื่องแบบว่างเปล่าในวิธี **findRFQCasesWithEmptyTitle** ถ้ามีการพบกรณีดังกล่าวอย่างน้อยหนึ่งกรณี โอกาสทางการขายเฉพาะบริษัทจะถูกสร้างขึ้นด้วยวิธี **getOpportunityForCompany** สังเกตว่า ฟิลด์ **ข้อมูล** ในตาราง **SelfHealingOpportunity** เป็นชนิด **คอนเทนเนอร์** และดังนั้นจึงสามารถประกอบด้วยข้อมูลที่เกี่ยวข้องกับตรรกะเฉพาะสำหรับกฎนี้ การตั้งค่า **OpportunityDate** ด้วยการประทับเวลาปัจจุบันจะลงทะเบียนเวลาของการประเมินล่าสุดของโอกาส  
+
+โอกาสทางการขายอาจเป็นระหว่างบริษัทได้ด้วย ในกรณีนี้ ลูปที่ผ่านบริษัทไม่จำเป็น และต้องมีการสร้างโอกาสด้วยวิธี **getOpportunityAcrossCompanies** 
+
+โค้ดต่อไปนี้แสดงวิธี **findRFQCasesWithEmptyTitle** ซึ่งส่งกลับรหัสของกรณี RFQ ที่มีชื่อที่ว่างเปล่า
+
+```
+private container findRFQCasesWithEmptyTitle() 
+{ 
+    container result; 
+
+    PurchRFQCaseTable rfqCase; 
+    while select RFQCaseId from rfqCase 
+        where rfqCase.Name == '' 
+    { 
+        result += rfqCase.RFQCaseId; 
+    } 
+    
+    return result; 
+} 
+```
+
+วิธีเพิ่มเติมที่ต้องถูกนำมาใช้คือ **opportunityTitle** และ **opportunityDetails** ค่าเดิมคืนค่าชื่อเรื่องแบบสั้นสำหรับโอกาส ค่าหลังส่งคืนคำอธิบายโดยละเอียดของโอกาสทางการขาย ซึ่งยังสามารถมีข้อมูลอยู่ได้ด้วย
+
+ชื่อเรื่องที่ส่งคืนโดย **opportunityTitle** ปรากฏอยู่ภายใต้คอลัมน์ **โอกาสในการปรับให้เหมาะสม** ในพื้นที่ทำงาน **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** นอกจากนี้ยังปรากฏเป็นส่วนหัวของบานหน้าต่างด้านข้างที่แสดงข้อมูลเพิ่มเติมเกี่ยวกับโอกาสด้วย ตามแบบแผน วิธีการนี้ถูกปรับปรุงด้วยแอตทริบิวต์ **DiagnosticRuleSubscription** ซึ่งใช้อาร์กิวเมนต์ดังต่อไปนี้: 
+
+* **พื้นที่การวินิจฉัย** – การแจงนับของชนิด **DiagnosticArea** ที่อธิบายว่าพื้นที่ใดของแอพลิเคชันที่มีกฎอยู่ เช่น **DiagnosticArea::SCM** 
+
+* **ชื่อกฎ** – สตริงที่มีชื่อกฎ นี่จะปรากฏขึ้นภายใต้คอลัมน์ **ชื่อกฎ** ในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** (**DiagnosticsValidationRuleMaintain**) 
+
+* **ความถี่ในการรัน** – การแจงนับของชนิด **DiagnosticRunFrequency** ที่อธิบายความถี่ที่ควรรันกฎ เช่น **DiagnosticRunFrequency::Daily** 
+
+* **คำอธิบายกฎ** – สตริงที่มีคำอธิบายโดยละเอียดมากขึ้นของกฎ นี่จะปรากฏขึ้นภายใต้คอลัมน์ **คำอธิบายกฎ** ในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** (**DiagnosticsValidationRuleMaintain**) 
+
+> [!NOTE]
+> แอททริบิวต์ **DiagnosticRuleSubscription** จำเป็นสำหรับกฎในการทำงาน โดยทั่วไป จะมีการใช้ใน **opportunityTitle** แต่จะสามารถตกแต่งวิธีใดๆ ของคลาสได้
+
+รายการต่อไปนี้เป็นการนำไปใช้แบบตัวอย่าง มีการใช้สตริงการดิบสำหรับความเรียบง่าย แต่การใช้งานที่ถูกต้องต้องมีป้ายชื่อ 
+
+```
+[DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
+                             'Assign titles to Request for Quotation cases', 
+                             DiagnosticsRunFrequency::Daily,  
+                             'This rule detects Requests for Quotation with empty titles.')] 
+public str opportunityTitle() 
+{ 
+    return 'Assign titles to Request for Quotation cases'; 
+} 
+```
+
+คำอธิบายที่ส่งคืนโดย **opportunityDetails** ปรากฏในบานหน้าต่างด้านข้างที่แสดงข้อมูลเพิ่มเติมเกี่ยวกับโอกาส นี่จะใช้อาร์กิวเมนต์ **SelfHealingOpportunity** ซึ่งก็คือฟิลด์ **ข้อมูล** ที่สามารถใช้เพื่อระบุรายละเอียดเพิ่มเติมเกี่ยวกับโอกาสได้ ในตัวอย่าง วิธีส่งคืนรหัสของกรณี RFQ ที่มีชื่อเรื่องแบบว่างเปล่า 
+
+```
+public str opportunityDetails(SelfHealingOpportunity _opportunity) 
+{ 
+    str details = ''; 
+    container opportunityData = _opportunity.Data; 
+    int affectedRFQCasesCount = conLen(opportunityData); 
+
+    if (affectedRFQCasesCount != 0) 
+    { 
+        details = 'The following Request for Quotation cases have an empty title:\n'; 
+        for (int i = 1; i <= affectedRFQCasesCount ; i++) 
+        { 
+            PurchRFQCaseId rfqCaseId = conPeek(opportunityData, i); 
+            details += rfqCaseId + '\n'; 
+        } 
+    } 
+
+    return details; 
+}
+```
+
+วิธีการนามธรรมที่คงเหลือสองวิธีในการนำไปใช้คือ **provideHealingAction** และ **securityMenuItem** 
+
+**provideHealingAction** ส่งคืนค่าจริง ถ้ามีระบุการดำเนินการรักษามิฉะนั้น จะส่งกลับค่าเท็จ ถ้ามีการส่งคืนค่าจริง วิธีการ **performAction** ต้องถูกนำมาใช้ได้ หรือจะมีข้อผิดพลาดแสดงขึ้น วิธีการ **performAction** ใช้อาร์กิวเมนต์ **SelfHealingOpportunity** ที่ซึ่งสามารถใช้ข้อมูลสำหรับการดำเนินการได้ ในตัวอย่าง การดำเนินการเปิด **PurchRFQCaseTableListPage** สำหรับการแก้ไขด้วยตนเอง 
+
+```
+public boolean providesHealingAction() 
+{ 
+    return true; 
+} 
+
+protected void performAction(SelfHealingOpportunity _opportunity) 
+{ 
+    new MenuFunction(menuItemDisplayStr(PurchRFQCaseTableListPage), MenuItemType::Display).run(); 
+} 
+```
+
+โดยขึ้นอยู่กับข้อกำหนดของกฎ อาจสามารถที่จะดำเนินการโดยอัตโนมัติโดยใช้ข้อมูลโอกาสได้ ในตัวอย่างนี้ ระบบสามารถสร้างชื่อเรื่องสำหรับกรณี RFQ ได้โดยอัตโนมัติ 
+
+**securityMenuItem** ส่งกลับชื่อของรายการเมนูการดำเนินการ เพื่อให้กฎสามารถมองเห็นได้เฉพาะกับผู้ใช้ที่สามารถเข้าถึงรายการเมนูการดำเนินการ ความปลอดภัยอาจต้องการให้กฎเฉพาะและโอกาสจะสามารถเข้าถึงผู้ใช้ที่ได้รับอนุญาตเท่านั้น ในตัวอย่าง เฉพาะผู้ใช้ที่มีการเข้าถึง **PurchRFQCaseTitleAction** สามารถดูโอกาสได้ สังเกตว่า รายการเมนูการดำเนินการนี้ถูกสร้างขึ้นสำหรับตัวอย่างนี้ และถูกเพิ่มเป็นจุดเข้าใช้งานสำหรับสิทธิ์ความปลอดภัย **PurchRFQCaseTableMaintain** 
+
+```
+public MenuName securityMenuItem() 
+{ 
+    return menuItemActionStr(PurchRFQCaseTitleAction); 
+}
+```
+
+หลังจากที่มีการคอมไพล์กฎ ดำเนินการงานต่อไปนี้เพื่อให้แสดงในอินเทอร์เฟสผู้ใช้ (UI)
+
+```
+class ScanNewRulesJob 
+{         
+    public static void main(Args _args) 
+    {         
+        SysExtensionCache::clearAllScopes(); 
+        var controller = new DiagnosticsRuleController(); 
+        controller.runOperation(); 
+    } 
+} 
+```
+
+กฎจะแสดงในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** ที่พร้อมใช้งานจาก **การดูแลระบบ** > **งานประจำงวด** > **รักษากฎการตรวจสอบความถูกต้องของการวิเคราะห์** เพื่อการให้มีการประเมิน ไปที่ **การดูแลระบบ** > **งานประจำงวด** > **กฎการตรวจสอบความถูกต้องของการวิเคราะห์ของกำหนดการ** เลือกความถี่ของกฎ เช่น **รายวัน** คลิก **ตกลง**  ไปยัง **การดูแลระบบ** > **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** เพื่อดูโอกาสใหม่ 
+
+สำหรับข้อมูลเพิ่มเติม ดูวิดีโอ YouTube แบบย่อ:
+
+> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
+
