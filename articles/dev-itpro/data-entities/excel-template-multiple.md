@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>เท็มเพลต Excel ที่มีแผ่นงานหลายแผ่น
 
+[!include[banner](../includes/banner.md)]
+
 การจัดการข้อมูลใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition สนับสนุนเท็มเพลตตาม Microsoft Excel สำหรับเอนทิตีข้อมูล เท็มเพลตเหล่านี้ประกอบด้วยแผ่นงานอย่างน้อยหนึ่งแผ่น เท็มเพลตที่มีแผ่นงานหลายแผ่นมักถูกใช้ เมื่อสะดวกในการจัดการข้อมูลในแฟ้มเดียว และในการนำเข้าไปยังเอนทิตีข้อมูลหลายรายการ ตัวอย่างอาจเป็นไซต์และคลังสินค้า
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>อัพโหลดไฟล์ครั้งเดียว และแม็ปกับเอนทิตีทั้งหมด
