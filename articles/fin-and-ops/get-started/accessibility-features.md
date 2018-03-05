@@ -25,6 +25,8 @@ ms.lasthandoff: 01/23/2018
 
 # <a name="accessibility-features"></a>ลักษณะการทำงานสำหรับความสามารถในการเข้าถึง
 
+[!include[banner](../includes/banner.md)]
+
 หัวข้อนี้อธิบายฟังก์ชันที่มีวัตถุประสงค์เพื่อช่วยให้ผู้ใช้ที่มีความบกพร่องต่างๆ ในการใช้ Dynamics 365 for Finance and Operations, Enterprise edition Dynamics 365 for Retail และ Dynamics 365 for Talent ตัวอย่างเช่น มีลักษณะการทำงานสำหรับผู้ที่ใช้เทคโนโลยีเพื่อผู้พิการทางการมองเห็น เช่น ผู้บรรยาย Microsoft Windows
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>ผู้บรรยาย Windows และการเข้าถึงแป้นพิมพ์อย่างเดียว

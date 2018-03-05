@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX ถอน
 
+[!include[banner](../includes/banner.md)]
+
 เราต้องถอนหน้า WebSearchAX เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่  ตัวอย่างเช่น  
 
 ไซต์:technet.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"

@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในองค์กร
 
+[!include[banner](../includes/banner.md)]
+
 หัวข้อนี้แสดงให้เห็นว่าคุณลักษณะแต่ละอย่างจะพร้อมใช้งานในผลิตภัณฑ์เหล่านี้หรือไม่:
 
 + Dynamics 365 for Finance and Operations, Enterprise edition (ระบบ Cloud)
