@@ -18,14 +18,17 @@ ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fecffd83f32c8424e3ddcd77fb0651631f73c055
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 32b0d71d98c64ce998acbf5cdc03645401a2be7b
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a><span data-ttu-id="58fef-103">การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร</span><span class="sxs-lookup"><span data-stu-id="58fef-103">Hardware sizing for on-premises environments</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="58fef-104">ก่อนที่คุณจะเริ่มกระบวนการกำหนดฮาร์ดแวร์และโครงสร้างพื้นฐานสำหรับสภาพแวดล้อมในองค์กร ให้ทำความคุ้นเคยกับ [ความต้องการของระบบ](system-requirements.md) และ [คำแนะนำในการตั้งค่าและการปรับใช้](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) เพื่อทำความเข้าใจที่ดีขึ้นเกี่ยวกับโครงการสร้างพื้นฐานที่อยู่ภายใต้</span><span class="sxs-lookup"><span data-stu-id="58fef-104">Before you begin the hardware and infrastructure sizing process for an on-premises environment, familiarize yourself with the [System requirements](system-requirements.md) and [Setup and deployment instructions](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) to gain a solid understanding off the underlying infrastructure.</span></span> 
 
   <span data-ttu-id="58fef-105">**หมายเหตุ:** พิจารณาแนวทางปฏิบัติที่ดีที่สุดในการตั้งค่าระบบเพื่อให้ได้ประสิทธิภาพที่ดีที่สุดอย่างใกล้ชิด</span><span class="sxs-lookup"><span data-stu-id="58fef-105">**Note:** Pay close attention to the system setup best practices for optimum performance.</span></span> 

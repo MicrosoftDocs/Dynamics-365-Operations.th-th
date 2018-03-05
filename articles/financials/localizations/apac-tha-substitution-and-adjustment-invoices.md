@@ -17,14 +17,16 @@ ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0770463ebd04f642a1a515519c8b0b62f7fb7ecc
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 86659933803718c4bd676412b1a082b53da216a5
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="substitutionadjustment-tax-invoice-for-thailand"></a><span data-ttu-id="b4543-105">ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="b4543-105">Substitution/adjustment tax invoice for Thailand</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="b4543-106">คุณสามารถติดตามจำนวนการพิมพ์สำเนาใบกำกับภาษีสำหรับลูกค้าได้</span><span class="sxs-lookup"><span data-stu-id="b4543-106">You can track how many times copies of tax invoices for customers are printed.</span></span> <span data-ttu-id="b4543-107">ทุกครั้งที่ต้องพิมพ์สำเนาของใบกำกับภาษี คุณจะต้องระบุเหตุผลสำหรับใบแจ้งหนี้ที่พิมพ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="b4543-107">Whenever a copy of a tax invoice must be printed, the reason for the reprinted invoice must be specified.</span></span> <span data-ttu-id="b4543-108">ใบแจ้งหนี้ที่พิมพ์ใหม่จะแทนที่ใบแจ้งหนี้ต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="b4543-108">The reprinted invoice is a substitution for the original invoice.</span></span> <span data-ttu-id="b4543-109">มีการพิมพ์ข้อคิดเห็นพิเศษบนสำเนาของสำเนาใบกำกับภาษี</span><span class="sxs-lookup"><span data-stu-id="b4543-109">A special comment is printed on the copy of the tax invoice copy.</span></span> <span data-ttu-id="b4543-110">ข้อคิดเห็นนี้รวมถึงเหตุผลสำหรับการแทนที่และจำนวนสำเนาที่พิมพ์</span><span class="sxs-lookup"><span data-stu-id="b4543-110">This comment includes the reason for the substitution and the number of copies that have been printed.</span></span>
 
