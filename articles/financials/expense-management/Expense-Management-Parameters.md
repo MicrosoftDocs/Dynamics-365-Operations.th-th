@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>พารามิเตอร์การจัดการค่าใช้จ่าย
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 พารามิเตอร์ควบคุมลักษณะการทำงานทั่วไปในการจัดการค่าใช้จ่าย

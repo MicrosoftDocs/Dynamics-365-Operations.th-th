@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
+
+[!include[banner](../includes/banner.md)]
+
 โดยการใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement คุณไม่จำเป็นต้องรักษาข้อมูลเกี่ยวกับผลิตภัณฑ์ของผู้จัดจำหน่ายในข้อมูลหลักของคุณเอง แทนที่จะทำเช่นนั้น รถเข็นซื้อของบนเว็บไซต์ของผู้จัดจำหน่ายจะถูกแปลงเป็นรายการที่มีข้อมูลผลิตภัณฑ์ที่ถูกต้องของใบขอซื้อ 
 
 คุณควรหลีกเลี่ยงการรักษาคำอธิบายและราคาของผลิตภัณฑ์ของผู้จัดจำหน่ายในข้อมูลหลักของผลิตภัณฑ์ของคุณเอง แทนที่จะทำเช่นนั้น ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut e-procurement จากนั้น เมื่อพนักงานสร้างใบขอซื้อ พวกเขาสามารถ "ร้องขอ" ไปยังไซต์แค็ตตาล็อกภายนอกของผู้จัดจำหน่าย (กล่าวคือ พวกเขาจะออกจากระบบของคุณ และไปที่ไซต์ของผู้จัดจำหน่าย) ผลิตภัณฑ์ที่เพิ่มไปยังรถเข็นซื้อบนเว็บไซต์ของผู้จัดจำหน่าย สามารถแปลงเป็นรายการใบขอซื้อได้ ดังนั้น คุณจะได้รับข้อมูลผลิตภัณฑ์ที่ถูกต้อง: รหัสผลิตภัณฑ์ ชื่อ ราคา และอื่น ๆ

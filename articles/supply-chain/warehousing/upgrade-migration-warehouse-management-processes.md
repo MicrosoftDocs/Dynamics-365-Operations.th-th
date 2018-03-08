@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>ย้ายการจัดการผลิตภัณฑ์และคลังสินค้าจาก AX 2012 ไปยัง Finance and Operations
 
+[!include[banner](../includes/banner.md)]
+
 หัวข้อนี้แสดงภาพรวมของตัวเลือกการย้ายการบริหารคลังสินค้าและผลิตภัณฑ์ ภายใน Microsoft Dynamics 365 สำหรับการเงินและการดำเนินงาน รุ่น Enterprise
 
 <a name="introduction"></a>คำนำ
