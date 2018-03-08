@@ -18,15 +18,17 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 02c863bc507cacb3829bed474b37d32ff599bf1b
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ccff6533257379c0305f7414dd36e17d1c323c21
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 
 # <a name="set-up-order-fulfillment-for-stores"></a><span data-ttu-id="64137-103">ตั้งค่าการเติมสินค้าตามใบสั่งสำหรับร้านค้า</span><span class="sxs-lookup"><span data-stu-id="64137-103">Set up order fulfillment for stores</span></span>
+
+[!include[banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="64137-104">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="64137-104">Overview</span></span>
 <span data-ttu-id="64137-105">ผู้ค้าปลีกหลายรายต้องการปรับปรุงการเติมสินค้าของใบสั่ง โดยการเปิดใช้งานร้านค้าเพื่อกรอกข้อมูลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="64137-105">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="64137-106">การเติมสินค้าของใบสั่งในระดับร้านค้าสามารถช่วยให้สถานการณ์การเก็บสินค้ามากเกินไปง่ายขึ้นสำหรับร้านค้าเฉพาะ หรืออาจเป็นที่ต้องการจากจุดยืนเชิงตรรกะ ในกรณีที่ร้านค้ามีกำลังการผลิตพิเศษ หรือตั้งอยู่ภายในระยะการจัดส่งที่ใกล้เคียงยิ่งขึ้นให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="64137-106">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="64137-107">เพื่อระบุความต้องการนี้ การดำเนินการเติมสินค้าตามใบสั่งแบบรวมจะพร้อมใช้งานที่จุดขายหน้าร้าน</span><span class="sxs-lookup"><span data-stu-id="64137-107">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>

@@ -17,14 +17,16 @@ ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bb0b97c7728f76d84b85fb5cfa209a0d3b2df3de
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="create-an-engaging-onboarding-experience"></a><span data-ttu-id="48815-103">สร้างประสบการณ์การเตรียมพร้อมที่ต้องตาต้องใจ</span><span class="sxs-lookup"><span data-stu-id="48815-103">Create an engaging onboarding experience</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="48815-104">เมื่อเตรียมพร้อมได้อย่างมีประสิทธิภาพ จะช่วยให้พนักงานใหม่ทำงานได้อย่างมีประสิทธิภาพมากขึ้น และยังได้รับรู้ได้ถึงการเป็นส่วนหนึ่งในบทบามใหม่ของตน</span><span class="sxs-lookup"><span data-stu-id="48815-104">When done effectively, onboarding helps new employees perform more effectively while also gaining a sense of belonging in their new role.</span></span> <span data-ttu-id="48815-105">การเตรียมพร้อมสามารถช่วยให้พนักงานใหม่เข้าใจบทบาทใหม่ของตนได้เร็วขึ้นและถูกต้องมากกว่าหากไม่มีการเตรียมพร้อม และเป็นการเริ่มต้นในการสร้างความสัมพันธ์ที่สามารถช่วยให้ดำเนินการได้อย่างสำเร็จอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="48815-105">Onboarding can help new employees understand their new role more quickly and accurately than they would have otherwise, and they get a head start on establishing relationships that can help them succeed.</span></span> <span data-ttu-id="48815-106">อีกทางหนึ่งคือ ประสบการณ์การเตรียมพร้อมที่ไม่มีประสิทธิภาพอาจทำให้พนักงานไม่มั่นใจที่จะเข้าร่วมกับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="48815-106">Alternatively, an ineffective onboarding experience might leave employees questioning their decision to join your organization.</span></span> <span data-ttu-id="48815-107">กรณีศึกษาของ Gartner ในปี 2014 พบว่าเกือบหนึ่งในสามของผู้ตอบรับ 1,005 คนที่ออกจากงานภายในหกเดือนแรก กระทำดังกล่าวเนื่องจากคำแนะนำที่พวกเขาได้รับจากความผู้นำของตนไม่ชัดเจน การฝึกอบรมไม่มีประสิทธิผล หรือเนื่องจากพวกเขาไม่ได้สร้างความสัมพันธ์ที่มีประสิทธิผลในสภาพแวดล้อมใหม่ของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="48815-107">A study conducted by Gartner in 2014 found that nearly one third of the 1,005 respondents who quit a job within the first six months, did so because the guidelines they were given by their leadership weren't clear, their training wasn't effective, or because they didn't establish effective relationships in their new environment.</span></span>
 

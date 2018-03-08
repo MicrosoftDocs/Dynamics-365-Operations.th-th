@@ -18,14 +18,17 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: e3f0f79df73cce4a54c7e6abbc38381c708af690
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
 ms.contentlocale: th-th
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="a5c4e-104">การดำเนินการด้านบุคลากร [FAQ]</span><span class="sxs-lookup"><span data-stu-id="a5c4e-104">Personnel actions [FAQ]</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="a5c4e-105">หัวข้อนี้ประกอบด้วยคำตอบของคำถามที่คุณมี ถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร</span><span class="sxs-lookup"><span data-stu-id="a5c4e-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="a5c4e-106">การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร</span><span class="sxs-lookup"><span data-stu-id="a5c4e-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="a5c4e-107">ตัวอย่างของงานที่อาจต้องต้องการการดำเนินการด้านบุคลากร คือ เมื่อคุณสร้างตำแหน่งใหม่ ปรับเปลี่ยนค่าตำแหน่งที่มีอยู่ ว่าจ้างผู้ปฏิบัติงานใหม่ โอนย้ายผู้ปฏิบัติงาน เปลี่ยนค่าตอบแทนของผู้ปฏิบัติงาน เปลี่ยนการมอบหมายตำแหน่งงาน หรือเลิกจ้างผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="a5c4e-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
 <span data-ttu-id="a5c4e-108">**หมายเหตุ:** การดำเนินการด้านบุคลากรจะพร้อมใช้งานก็ต่อเมื่อมีการตั้งค่าฟิลด์ **เปิดใช้งานการดำเนินการของผู้ปฏิบัติงาน** และ **เปิดใช้งานการดำเนินการของตำแหน่ง** เป็น **ใช่** ในแท็บ **การดำเนินการด้านบุคลากร** ในหน้า **พารามิเตอร์ที่ใช้ร่วมกันของทรัพยากรบุคคล**</span><span class="sxs-lookup"><span data-stu-id="a5c4e-108">**Note:** Personnel actions are available only if the **Enable worker actions** and **Enable position actions** fields have been set to **Yes**, in the **Personnel actions** tab on the **Human resources shared parameters** page.</span></span> 

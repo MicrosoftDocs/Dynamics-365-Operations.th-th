@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="94950-103">ใบแจ้งยอดการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="94950-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="94950-104">ใน Microsoft Dynamics 365 for Retail กระบวนการลงรายการบัญชีใบแจ้งยอดจะใช้สำหรับธุรกรรมที่เกิดขึ้นในจุดขายหน้าร้าน (POS) หรือ Modern POS (MPOS) บนระบบคลาวด์</span><span class="sxs-lookup"><span data-stu-id="94950-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="94950-105">กระบวนการลงรายการบัญชีใบแจ้งยอดจะใช้กำหนดการกระจายในการดึงชุดธุรกรรม POS ไปยังไคลเอนต์สำนักงานใหญ่ (HQ)</span><span class="sxs-lookup"><span data-stu-id="94950-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="94950-106">พารามิเตอร์ที่กำหนดไว้ในหน้า **พารามิเตอร์การขายปลีก** และ **ร้านค้า** จะใช้เพื่อเลือกธุรกรรมที่จะดึงไปยังใบแจ้งยอดแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="94950-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="94950-107">แผนภาพต่อไปนี้แสดงให้เห็นถึงกระบวนการลงรายการบัญชีใบแจ้งยอด </span><span class="sxs-lookup"><span data-stu-id="94950-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="94950-108">ในกระบวนการนี้ ธุรกรรมที่บันทึกใน POS จะถูกส่งผ่านไปยังไคลเอนต์โดยใช้ตัวกำหนดตารางทำงานการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="94950-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="94950-109">หลังจากที่ไคลเอนต์ได้รับธุรกรรม คุณสามารถสร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดธุรกรรมสำหรับร้านค้าได้</span><span class="sxs-lookup"><span data-stu-id="94950-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 
