@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: th-th
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [สินทรัพย์ถาวรต้นทุนต่ำ](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>อินเดีย
+
+- [สินทรัพย์ถาวร](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [แนบปฏิทินตามวันกับสมุดบัญชีสินทรัพย์ถาวร](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [ตั้งค่าพารามิเตอร์เพื่อคำนวณการคิดค่าเสื่อมราคา](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [ตั้งค่าค่าเสื่อมราคาของกลุ่มสินทรัพย์สำหรับสมุดบัญชีค่าเสื่อมราคา](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [สร้างกลุ่มแบบจำลองสินค้าคงคลังสำหรับสินค้าประเภททุน](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [การคำนวณค่าเสื่อมราคากะสำหรับสินทรัพย์ถาวรของอินเดีย](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [กำหนดชนิดของกะและอุตสาหกรรมสำหรับสมุดบัญชี และแนบกับสินทรัพย์ถาวร](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [ภาพรวมกลไกจัดการภาษี](../../financials/general-ledger/tax-engine.md)
+    - [การรวมกลไกจัดการภาษี](../../financials/general-ledger/tax-engine-integration.md)
+    - [FAQ เกี่ยวกับขีดจำกัดภาษี](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [การขยายกลไกจัดการภาษี](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>อิตาลี
 

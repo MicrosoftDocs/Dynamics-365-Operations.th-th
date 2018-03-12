@@ -1,9 +1,9 @@
 ---
 title: "โฮมเพจการบริหารห่วงโซ่อุปทาน"
-description: "หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
+description: "หน้านี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: th-th
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/22/2018
 เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม
 
 - [การบัญชีต้นทุน](../financials/cost-accounting/cost-accounting-home-page.md)
-- [การจัดการต้นทุน](cost-management/costing-sheets.md)  
+- [การจัดการต้นทุน](cost-management/cost-management-home-page.md)  
 - [การบริหารสินค้าคงคลัง](inventory/inventory-home-page.md)
 - [การวางแผนหลัก](master-planning/master-planning-home-page.md)
 - [การจัดซื้อและการจัดหา](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ ms.lasthandoff: 01/22/2018
 
 -  [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg) 
 -  [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 วิดีโอสั้นเหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)
 
@@ -67,17 +68,36 @@ ms.lasthandoff: 01/22/2018
 
 บันทึกการประชุมด้านเทคนิคเหล่านี้มีเนื้อหาเกี่ยวกับฟังก์ชันการทำงานของผลิตภัณฑ์ในรุ่นก่อนหน้าของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
 
--  <a href="https://youtu.be/zotrj3SbCl4">ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา</a>
--  <a href="https://youtu.be/RLXybx20B5o">ช่วยด้วย MRP ทำงานช้า</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">ประมวลผล ASN ขาเข้าในการจัดการคลังสินค้า</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">การจัดการคลังสินค้าขั้นสูง R3 - การดำเนินการขาเข้าและการเติมสินค้าต่ำสุด/สูงสุด</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">การจัดการคลังสินค้าขั้นสูง R3 - หนึ่งวันในอายุการใช้งาน การดำเนินการขาออกและการเติมสินค้าตามความต้องการ</a>
--  <a href="https://youtu.be/5w1MngVchBA">ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในอายุการใช้งานของประมวลผลการผลิต</a>
--  <a href="https://youtu.be/y1jrd3A_k70">การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">การจัดการการขนส่ง (TMS) ใน Microsoft Dynamics AX ใหม่</a>
+**การจัดการต้นทุน**
+
+-  [ภาพรวมของการจัดการต้นทุน](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**การวางแผนหลัก**
+
+-  [ขยายฟังก์ชันการคาดการณ์ความต้องการ](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา](https://youtu.be/7v8BPmEs9Dg)
+-  [ช่วยด้วย MRP ทำงานช้า](https://youtu.be/RLXybx20B5o)
+
+**การจัดการข้อมูลผลิตภัณฑ์**
+
+-  [ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**การจัดการคลังสินค้า** 
+
+-  [ประมวลผล ASN ขาเข้าในการจัดการคลังสินค้า](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [การจัดการคลังสินค้าขั้นสูง R3 - การดำเนินการขาเข้าและการเติมสินค้าต่ำสุด/สูงสุด](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [การจัดการคลังสินค้าขั้นสูง R3 - หนึ่งวันในอายุการใช้งาน การดำเนินการขาออกและการเติมสินค้าตามความต้องการ](https://youtu.be/Og0gLlVp7jA)
+-  [ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในอายุการใช้งานของประมวลผลการผลิต](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**การควบคุมการผลิต**
+
+-  [การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต](https://youtu.be/y1jrd3A_k70)
+
+**การจัดการการขนส่ง**
+
+-  [การจัดการการขนส่ง (TMS) ใน Microsoft Dynamics AX ใหม่](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>บล็อก
 มีหัวข้อต่าง ๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมงานวิจัยและพัฒนาการผลิต Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมงานวิจัยและพัฒนาการผลิต Dynamics AX </a> รายการเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
