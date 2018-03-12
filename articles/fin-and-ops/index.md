@@ -3,7 +3,7 @@ title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance 
 description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition"
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: th-th
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,9 +43,13 @@ ms.lasthandoff: 11/14/2017
 <h3><a href="get-started/before-you-buy.md">ก่อนที่คุณจะซื้อ</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">ลงทะเบียนเพื่อแสดงตัวอย่างการสมัครใช้งาน</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">เลือกตัวเลือกการปรับใช้</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">ซื้อ Finance and Operations (ใช้ในสถานที่)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">ซื้อ Finance and Operations (ในสถานที่)</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">วงจรการใช้งาน</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">เตรียมความพร้อมสำหรับโครงการ</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">การจัดเตรียมสำหรับการเริ่มใช้งานจริง</a></p>
+  
 <h3><a href="../financials/index.md">การจัดการทางการเงิน</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">บัญชีลูกหนี้</a></p>
@@ -99,7 +103,8 @@ ms.lasthandoff: 11/14/2017
 <p><a href="get-started/demo-data.md">ข้อมูลสาธิต</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">การปรับใช้</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">การปรับใช้ระบบคลาวด์</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">การปรับใช้ในองค์กร</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัพเกรด</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">กรอบงานการจัดการข้อมูล</a></p>

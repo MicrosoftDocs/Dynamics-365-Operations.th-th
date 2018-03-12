@@ -9,7 +9,7 @@
 ## [สแต็คแอพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์](dev-tools/application-stack-server-architecture.md)
 ## [รับสำเนาการประเมิน](dev-tools/get-evaluation-copy.md)
 ## [ลงทะเบียนเพื่อสมัครใช้งาน](dev-tools/sign-up-preview-subscription.md)
-## [เข้าถึงอินสแตนซ์](dev-tools/access-instances.md)
+## [ปรับใช้และเข้าถึงสภาพแวดล้อมการปรับใช้](dev-tools/access-instances.md)
 ## [ความต้องการของระบบการพัฒนา](dev-tools/development-system-requirements.md)
 ## แอพลิเคชันตัวอย่างการจัดการยานพาหนะ
 ### [แอพลิเคชันตัวอย่างการจัดการยานพาหนะ](dev-tools/fleet-management-sample.md)
@@ -360,7 +360,7 @@
 #### [ชนิดของ ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # การรวมข้อมูล
-## [รูปแบบการรวม](data-entities/integration-overview.md)
+## [เลือกกลยุทธ์การรวมข้อมูล (นำเข้า/ส่งออก)](data-entities/integration-overview.md)
 
 ## API การรวมข้อมูล
 ### [API แพคเกจการจัดการข้อมูล](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [การรวมข้อมูลโดยใช้ Common Data Service](data-entities/data-integration-cds.md) 
 #### [ตั้งค่าคอนฟิกผู้ที่มีแนวโน้มจะเป็นลูกค้าไปยังสถานการณ์เงินสด](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [ซิงโครไนส์ผลิตภัณฑ์จาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [ซิงโครไนส์บัญชีจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [ซิงโครไนส์ผู้ติดต่อจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้จาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [ซิงโครไนส์ผลิตภัณฑ์จาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [ซิงโครไนส์บัญชีจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [ซิงโครไนส์ผู้ติดต่อจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้จาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [ใช้ฐานข้อมูลของคุณเอง](analytics/export-entities-to-your-own-database.md)
 
+## [ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR](gdpr/gdpr-home-page.md)
+
 # [โฮมเพจการจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-home-page.md)
 ## [FAQ การพัฒนาและการจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-faq.md)
 ## [ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์](dev-tools/exclude-test-packages.md)
@@ -504,7 +506,7 @@
 # การปรับใช้
 ## [ปรับใช้สภาพแวดล้อมสาธิต](deployment/deploy-demo-environment.md)
 
-## การปรับใช้บน Cloud
+## การปรับใช้ระบบคลาวด์
 ### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](deployment/arm-onboarding.md)
 ### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
@@ -515,6 +517,7 @@
 ### [สร้างโครงการแบบในสถานที่](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่](deployment/setup-deploy-on-premises-environments.md)
 ### [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่](deployment/develop-deploy-custom-models-on-premises.md)
+### [ตั้งค่าคอนฟิกพร็อกซี่ย้อนกลับสำหรับสภาพแวดล้อมในสถานที่](deployment/onprem-reverseproxy.md)
 ### [ใช้การอัพเดตกับการปรับใช้ในสถานที่](deployment/apply-updates-on-premises.md)
 ### [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](deployment/redeploy-on-prem.md)
 ### [อัพเดตตัวแทนในพื้นที่](lifecycle-services/update-local-agent.md)
@@ -523,11 +526,11 @@
 
 ## ปรับใช้รหัสที่กำหนดเอง
 ### [สร้างแพคเกจที่สามารถปรับใช้ได้](deployment/create-apply-deployable-package.md)
-### [ใช้การอัพเดตกับสภาพแวดล้อม Cloud](deployment/apply-deployable-package-system.md)
+### [ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์](deployment/apply-deployable-package-system.md)
 ### [ติดตั้งแพคเกจที่สามารถปรับใช้ได้](deployment/install-deployable-package.md)
 ### [แก้ไขปัญหาแอพลิเคชันของแพคเกจ](deployment/deployable-package-troubleshooting.md)
 
-# [การอัพเกรดและการย้าย](migration-upgrade/upgrade-home-page.md)
+# [การอัพเกรด การอัพเดต และโปรแกรมแก้ไขด่วน](migration-upgrade/upgrade-home-page.md)
 ## [อัพเกรดจาก AX 2012 เป็น Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [การอัพเกรด AX 2012 - ใช้เครื่องมือตัววิเคราะห์การอัพเกรดเพื่อวางแผน](migration-upgrade/upgrade-analyzer-tool.md)
 ### [การอัพเกรด AX 2012 – ใช้บริการอัพเกรดรหัสเพื่อประเมินการดำเนินการ](migration-upgrade/analyze-code-upgrade.md)
@@ -555,22 +558,25 @@
 ### [แบ่งแบบจำลอง](dev-tools/model-split.md)
 ### [ใช้ผู้รับมอบสิทธิ์เพื่อแก้ไขการอ้างอิงระหว่างแบบจำลอง](migration-upgrade/delegates-migration.md)
 
-
-## อัพเกรดเป็นการอัพเดตล่าสุด
+## อัพเกรดเป็นการอัพเดตล่าสุด (ระบบคลาวด์)
 ### [กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด](migration-upgrade/upgrade-latest-update.md)
 ### [นโยบายเกี่ยวกับรอบการใช้งาน](migration-upgrade/versions-update-policy.md)
-### [ใช้การอัพเดต Platform ล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
+### [ใช้การอัพเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
 ### [อัพเกรดแพลตฟอร์ม Dynamics เป็นการนำออกใช้เดือนสิงหาคม 2016](migration-upgrade/update-platform-each-release.md)
 ### [อัพเกรดสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [อัพเดตเครื่องมือการพัฒนา](dev-tools/update-development-tools.md)
+
+## อัพเกรดเป็นการอัพเดตล่าสุด (ในสถานที่)
 ### [ใช้การอัพเดตกับการปรับใช้ในสถานที่](deployment/apply-updates-on-premises.md)
 ### [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](deployment/redeploy-on-prem.md)
 
-## โปรแกรมแก้ไขด่วนและการให้บริการ
+## โปรแกรมแก้ไขด่วน
 ### [ดาวน์โหลดโปรแกรมแก้ไขด่วนจาก Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์](deployment/apply-deployable-package-system.md)
 ### [ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Reporting Services ของโปรแกรมปรับปรุงในสภาพแวดล้อมแบบ One-Box](migration-upgrade/patch-reporting-service-environment.md)
+### [อัพเดตเครื่องมือการพัฒนา Visual Studio](dev-tools/update-development-tools.md)
 
 ## เลิกสนับสนุน
 ### [API ที่ไม่สนับสนุน](migration-upgrade/deprecated-apis.md)

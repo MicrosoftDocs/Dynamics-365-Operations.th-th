@@ -182,7 +182,8 @@
 ### [การสื่อสารช่องทาง Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [สถาปัตยกรรม MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของ Retail](dev-itpro/retail-online-store-publishing-architecture.md)
-### [เนื้อหาประสิทธิภาพช่องทาง Retail สำหรับ Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [การรับรองมาตรฐานความปลอดภัยของข้อมูลแอพลิเคชันการขำระเงิน (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
 
 ## การปรับใช้และโปรแกรมแก้ไขด่วน
 ### [ภาพรวมของ Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
