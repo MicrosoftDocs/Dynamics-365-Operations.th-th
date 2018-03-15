@@ -23,51 +23,51 @@ ms.contentlocale: th-th
 ms.lasthandoff: 02/06/2018
 
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="51d3c-103">เริ่มใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="c1905-103">เริ่มใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-103">Start a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="51d3c-104">กระบวนงานนี้แสดงวิธีการเริ่มใบสั่งผลิตลิในกระบวนการผลิต </span><span class="sxs-lookup"><span data-stu-id="51d3c-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="51d3c-105">เวลาและวัสดุที่ใช้ในการผลิตจะถูกรายงานในขั้นตอนนี้ </span><span class="sxs-lookup"><span data-stu-id="51d3c-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="51d3c-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="51d3c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="51d3c-107">นี่เป็นขั้นตอนที่ห้าจากเจ็ดขั้นตอน ซึ่งอธิบายวงจรชีวิตของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="c1905-104">กระบวนงานนี้แสดงวิธีการเริ่มใบสั่งผลิตลิในกระบวนการผลิต </span><span class="sxs-lookup"><span data-stu-id="c1905-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="c1905-105">เวลาและวัสดุที่ใช้ในการผลิตจะถูกรายงานในขั้นตอนนี้ </span><span class="sxs-lookup"><span data-stu-id="c1905-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="c1905-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="c1905-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c1905-107">นี่เป็นขั้นตอนที่ห้าจากเจ็ดขั้นตอน ซึ่งอธิบายวงจรชีวิตของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="51d3c-108">เริ่มใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-108">Start a production order</span></span>
-1. <span data-ttu-id="51d3c-109">ไปที่การควบคุมการผลิต > ใบสั่งผลิต > ใบสั่งผลิตทั้งหมด </span><span class="sxs-lookup"><span data-stu-id="51d3c-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="51d3c-110">เลือกใบสั่งผลิตที่มีสถานะเป็นนำออกใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="51d3c-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="51d3c-111">ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="51d3c-112">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="51d3c-112">Click Start.</span></span>
-    * <span data-ttu-id="51d3c-113">ในหน้านี้ คุณสามารถยืนยันจุดเริ่มต้นของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="51d3c-114">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="51d3c-114">Click the General tab.</span></span>
-5. <span data-ttu-id="51d3c-115">ในจากการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="51d3c-115">In the From Oper.</span></span> <span data-ttu-id="51d3c-116">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="51d3c-116">No.</span></span> <span data-ttu-id="51d3c-117">ฟิลด์ ป้อน '10'</span><span class="sxs-lookup"><span data-stu-id="51d3c-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="51d3c-118">ในฟิลด์ประเภทการทำงานของกระบวนการผลิตแบบอัตโนมัติ ให้เลือก 'เสมอ'</span><span class="sxs-lookup"><span data-stu-id="51d3c-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="51d3c-119">คลิกที่กล่องกาเครื่องหมายลงรายการบัญชีบัตรกระบวนการผลิตทันที</span><span class="sxs-lookup"><span data-stu-id="51d3c-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="51d3c-120">ในฟิลด์การใช้ BOM อัตโนมัติ ให้เลือก 'เสมอ'</span><span class="sxs-lookup"><span data-stu-id="51d3c-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="51d3c-121">คลิกที่กล่องกาเครื่องหมายลงรายการบัญชีรายการเบิกสินค้าทันที</span><span class="sxs-lookup"><span data-stu-id="51d3c-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="51d3c-122">คลิกที่กล่องกาเครื่องหมายการพิมพ์รายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="51d3c-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="51d3c-123">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="51d3c-123">Click OK.</span></span>
-    * <span data-ttu-id="51d3c-124">นี่คือรายการเบิกสินค้าที่พิมพ์ออกมา ซึ่งใช้แสดงวัสดุที่ใช้สำหรับใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="51d3c-125">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="51d3c-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="c1905-108">เริ่มใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-108">Start a production order</span></span>
+1. <span data-ttu-id="c1905-109">ไปที่การควบคุมการผลิต > ใบสั่งผลิต > ใบสั่งผลิตทั้งหมด </span><span class="sxs-lookup"><span data-stu-id="c1905-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="c1905-110">เลือกใบสั่งผลิตที่มีสถานะเป็นนำออกใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c1905-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="c1905-111">ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="c1905-112">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="c1905-112">Click Start.</span></span>
+    * <span data-ttu-id="c1905-113">ในหน้านี้ คุณสามารถยืนยันจุดเริ่มต้นของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="c1905-114">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="c1905-114">Click the General tab.</span></span>
+5. <span data-ttu-id="c1905-115">ในจากการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="c1905-115">In the From Oper.</span></span> <span data-ttu-id="c1905-116">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="c1905-116">No.</span></span> <span data-ttu-id="c1905-117">ฟิลด์ ป้อน '10'</span><span class="sxs-lookup"><span data-stu-id="c1905-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="c1905-118">ในฟิลด์ประเภทการทำงานของกระบวนการผลิตแบบอัตโนมัติ ให้เลือก 'เสมอ'</span><span class="sxs-lookup"><span data-stu-id="c1905-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="c1905-119">คลิกที่กล่องกาเครื่องหมายลงรายการบัญชีบัตรกระบวนการผลิตทันที</span><span class="sxs-lookup"><span data-stu-id="c1905-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="c1905-120">ในฟิลด์การใช้ BOM อัตโนมัติ ให้เลือก 'เสมอ'</span><span class="sxs-lookup"><span data-stu-id="c1905-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="c1905-121">คลิกที่กล่องกาเครื่องหมายลงรายการบัญชีรายการเบิกสินค้าทันที</span><span class="sxs-lookup"><span data-stu-id="c1905-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="c1905-122">คลิกที่กล่องกาเครื่องหมายการพิมพ์รายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c1905-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="c1905-123">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c1905-123">Click OK.</span></span>
+    * <span data-ttu-id="c1905-124">นี่คือรายการเบิกสินค้าที่พิมพ์ออกมา ซึ่งใช้แสดงวัสดุที่ใช้สำหรับใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="c1905-125">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="c1905-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="51d3c-126">ตรวจสอบความถูกต้องของรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="51d3c-126">Validate the picking list</span></span>
-1. <span data-ttu-id="51d3c-127">ในบานหน้าต่างการดำเนินการ ให้คลิก ดู</span><span class="sxs-lookup"><span data-stu-id="51d3c-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="51d3c-128">คลิกรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="51d3c-128">Click Picking list.</span></span>
-3. <span data-ttu-id="51d3c-129">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="51d3c-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="51d3c-130">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="51d3c-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="51d3c-131">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="51d3c-131">Click Edit.</span></span>
-6. <span data-ttu-id="51d3c-132">ในฟิลด์ปริมาณการใช้ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="51d3c-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="51d3c-133">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="51d3c-133">Click Post.</span></span>
-8. <span data-ttu-id="51d3c-134">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="51d3c-134">Click OK.</span></span>
-    * <span data-ttu-id="51d3c-135">ในสมุดรายวันการเบิกสินค้า วัตถุดิบที่ใช้โดยใบสั่งผลิตถูกนำลงรายการบัญชี </span><span class="sxs-lookup"><span data-stu-id="51d3c-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="51d3c-136">ก่อนจะลงรายการบัญชีสมุดรายวัน คุณสามารถทำการปรับปรุงได้ ถ้ามีความแตกต่างระหว่างปริมาณที่ประเมินไว้และปริมาณที่ใช้จริง</span><span class="sxs-lookup"><span data-stu-id="51d3c-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="51d3c-137">คลิกแท็บ GridPanel</span><span class="sxs-lookup"><span data-stu-id="51d3c-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="51d3c-138">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="51d3c-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="c1905-126">ตรวจสอบความถูกต้องของรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c1905-126">Validate the picking list</span></span>
+1. <span data-ttu-id="c1905-127">ในบานหน้าต่างการดำเนินการ ให้คลิก ดู</span><span class="sxs-lookup"><span data-stu-id="c1905-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="c1905-128">คลิกรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c1905-128">Click Picking list.</span></span>
+3. <span data-ttu-id="c1905-129">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c1905-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="c1905-130">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c1905-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="c1905-131">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="c1905-131">Click Edit.</span></span>
+6. <span data-ttu-id="c1905-132">ในฟิลด์ปริมาณการใช้ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c1905-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="c1905-133">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="c1905-133">Click Post.</span></span>
+8. <span data-ttu-id="c1905-134">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c1905-134">Click OK.</span></span>
+    * <span data-ttu-id="c1905-135">ในสมุดรายวันการเบิกสินค้า วัตถุดิบที่ใช้โดยใบสั่งผลิตถูกนำลงรายการบัญชี </span><span class="sxs-lookup"><span data-stu-id="c1905-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="c1905-136">ก่อนจะลงรายการบัญชีสมุดรายวัน คุณสามารถทำการปรับปรุงได้ ถ้ามีความแตกต่างระหว่างปริมาณที่ประเมินไว้และปริมาณที่ใช้จริง</span><span class="sxs-lookup"><span data-stu-id="c1905-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="c1905-137">คลิกแท็บ GridPanel</span><span class="sxs-lookup"><span data-stu-id="c1905-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="c1905-138">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="c1905-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="51d3c-139">ตรวจสอบสมุดรายวันบัตรกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="51d3c-140">ในบานหน้าต่างการดำเนินการ ให้คลิก ดู</span><span class="sxs-lookup"><span data-stu-id="51d3c-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="51d3c-141">คลิก บัตรกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="51d3c-141">Click Route card.</span></span>
-3. <span data-ttu-id="51d3c-142">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="51d3c-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="51d3c-143">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="51d3c-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="51d3c-144">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="51d3c-144">Click Edit.</span></span>
-6. <span data-ttu-id="51d3c-145">ในฟิลด์ชั่วโมง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="51d3c-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="51d3c-146">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="51d3c-146">Click Post.</span></span>
-8. <span data-ttu-id="51d3c-147">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="51d3c-147">Click OK.</span></span>
-    * <span data-ttu-id="51d3c-148">ในสมุดรายวันบัตรกระบวนการผลิต เวลาที่ใช้ในการดำเนินงานแต่ละตัวจะถูกบันทึกลงไป </span><span class="sxs-lookup"><span data-stu-id="51d3c-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="51d3c-149">นอกจากยังนี้สามารถรายงานปริมาณสินค้าที่ดีและข้อผิดพลาดได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="51d3c-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="c1905-139">ตรวจสอบสมุดรายวันบัตรกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="c1905-140">ในบานหน้าต่างการดำเนินการ ให้คลิก ดู</span><span class="sxs-lookup"><span data-stu-id="c1905-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="c1905-141">คลิก บัตรกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="c1905-141">Click Route card.</span></span>
+3. <span data-ttu-id="c1905-142">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c1905-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="c1905-143">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c1905-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="c1905-144">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="c1905-144">Click Edit.</span></span>
+6. <span data-ttu-id="c1905-145">ในฟิลด์ชั่วโมง ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c1905-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="c1905-146">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="c1905-146">Click Post.</span></span>
+8. <span data-ttu-id="c1905-147">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c1905-147">Click OK.</span></span>
+    * <span data-ttu-id="c1905-148">ในสมุดรายวันบัตรกระบวนการผลิต เวลาที่ใช้ในการดำเนินงานแต่ละตัวจะถูกบันทึกลงไป </span><span class="sxs-lookup"><span data-stu-id="c1905-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="c1905-149">นอกจากยังนี้สามารถรายงานปริมาณสินค้าที่ดีและข้อผิดพลาดได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="c1905-149">Good and error quantity can also be reported.</span></span>  
 
