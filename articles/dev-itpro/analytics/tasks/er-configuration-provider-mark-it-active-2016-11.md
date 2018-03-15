@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่สำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
@@ -33,11 +33,10 @@ ms.lasthandoff: 11/02/2017
 1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
 2. คลิก ผู้ให้บริการการตั้งค่าคอนฟิก
 3. คลิก สร้าง
-    * เรกคอร์ดของผู้ให้บริการมีชื่อและ URL ที่ไม่ซ้ำกัน  ตรวจทวนเนื้อหาของหน้านี้ และข้ามขั้นตอนนี้ถ้าเรกคอร์ดสำหรับ Litware, Inc. (http://www.litware.com) มีอยู่แล้ว  
+    * เรกคอร์ดของผู้ให้บริการมีชื่อและ URL ที่ไม่ซ้ำกัน  ตรวจทานเนื้อหาของหน้านี้ และข้ามกระบวนงานนี้ ถ้าเรกคอร์ดสำหรับ Litware, Inc. (`http://www.litware.com`) มีอยู่แล้ว  
 4. ในฟิลด์ชื่อ พิมพ์ 'Litware, Inc.'
     * Litware, inc  
-5. ในฟิลด์ที่อยู่อินเทอร์เน็ต พิมพ์ 'http://www.litware.com'
-    * http://www.litware.com  
+5. ในฟิลด์ที่อยู่อินเทอร์เน็ต ให้พิมพ์ `http://www.litware.com`
 6. คลิก บันทึก
 7. ปิดหน้า
 

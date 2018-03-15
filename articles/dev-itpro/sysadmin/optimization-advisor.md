@@ -3,7 +3,7 @@ title: "สร้างกฎสำหรับโปรแกรมช่วย
 description: "หัวข้อนี้อธิบายวิธีการเพิ่มกฎใหม่ในโปรแกรมช่วยแนะนำการปรับให้เหมาะสม"
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 02/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 88739298405343a36ae5bc11f51c666c414e7157
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
 ms.contentlocale: th-th
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -170,6 +170,9 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 
 **securityMenuItem** ส่งกลับชื่อของรายการเมนูการดำเนินการ เพื่อให้กฎสามารถมองเห็นได้เฉพาะกับผู้ใช้ที่สามารถเข้าถึงรายการเมนูการดำเนินการ ความปลอดภัยอาจต้องการให้กฎเฉพาะและโอกาสจะสามารถเข้าถึงผู้ใช้ที่ได้รับอนุญาตเท่านั้น ในตัวอย่าง เฉพาะผู้ใช้ที่มีการเข้าถึง **PurchRFQCaseTitleAction** สามารถดูโอกาสได้ สังเกตว่า รายการเมนูการดำเนินการนี้ถูกสร้างขึ้นสำหรับตัวอย่างนี้ และถูกเพิ่มเป็นจุดเข้าใช้งานสำหรับสิทธิ์ความปลอดภัย **PurchRFQCaseTableMaintain** 
 
+> [!NOTE]
+> รายการเมนูต้องเป็นรายการเมนูการดำเนินการเพื่อให้ความปลอดภัยทำงานอย่างถูกต้อง ชนิดรายการเมนูอื่นๆ เช่น **แสดงรายการเมนู** จะไม่ทำงานอย่างถูกต้อง
+
 ```
 public MenuName securityMenuItem() 
 { 
@@ -192,6 +195,65 @@ class ScanNewRulesJob
 ```
 
 กฎจะแสดงในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** ที่พร้อมใช้งานจาก **การดูแลระบบ** > **งานประจำงวด** > **รักษากฎการตรวจสอบความถูกต้องของการวิเคราะห์** เพื่อการให้มีการประเมิน ไปที่ **การดูแลระบบ** > **งานประจำงวด** > **กฎการตรวจสอบความถูกต้องของการวิเคราะห์ของกำหนดการ** เลือกความถี่ของกฎ เช่น **รายวัน** คลิก **ตกลง**  ไปยัง **การดูแลระบบ** > **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** เพื่อดูโอกาสใหม่ 
+
+ตัวอย่างต่อไปนี้คือ ส่วนเล็กๆ ของโค้ดที่มีโครงสร้างของกฎซึ่งรวมถึงวิธีและแอททริบิวต์ที่จำเป็นทั้งหมด จะช่วยคุณในการเริ่มต้นใช้งานด้วยการเขียนกฎใหม่ ป้ายชื่อและรายการเมนูการดำเนินการที่ใช้ในตัวอย่าง ใช้สำหรับวัตถุประสงค์ในการสาธิตเท่านั้น
+
+```
+[DiagnosticsRuleAttribute]
+public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
+{
+    [DiagnosticsRuleSubscription(DiagnosticsArea::SCM,
+                                 "@SkeletonRuleLabels:SkeletonRuleTitle", // Label with the title of the rule
+                                 DiagnosticsRunFrequency::Monthly,
+                                 "@SkeletonRuleLabels:SkeletonRuleDescription")] // Label with a description of the rule
+    public str opportunityTitle()
+    {
+        // Return a label with the title of the opportunity
+        return "@SkeletonRuleLabels:SkeletonOpportunityTitle";
+    }
+
+    public str opportunityDetails(SelfHealingOpportunity _opportunity)
+    {
+        str details = "";
+
+        // Use _opportunity.data to provide details on the opportunity
+
+        return details;
+    }
+
+    protected List evaluate()
+    {
+        List results = new List(Types::Record);
+
+        // Write here the core logic of the rule
+
+        // When creating an opportunity, use:
+        //     * this.getOpportunityForCompany() for company specific opportunities
+        //     * this.getOpportunityAcrossCompanies() for cross-company opportunities
+
+        return results;
+    }
+
+    public boolean providesHealingAction()
+    {
+        return true;
+    }
+
+    protected void performAction(SelfHealingOpportunity _opportunity)
+    {
+        // Place here the code that performs the healing action
+
+        // To open a form, use the following:
+        // new MenuFunction(menuItemDisplayStr(SkeletonRuleDisplayMenuItem), MenuItemType::Display).run();
+    }
+
+    public MenuName securityMenuItem()
+    {
+        return menuItemActionStr(SkeletonRuleActionMenuItem);
+    }
+
+}
+```
 
 สำหรับข้อมูลเพิ่มเติม ดูวิดีโอ YouTube แบบย่อ:
 
