@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: th-th
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ ms.lasthandoff: 01/19/2018
 6. ล้างข้อมูลตารางที่กำลังเตรียม
 
 ส่วนที่เหลือของหัวข้อนี้ให้รายละเอียดเพิ่มเติมเกี่ยวกับแต่ละขั้นตอนของกระบวนการ
+
+> [!NOTE]
+> เมื่อต้องการรีเฟรชแบบฟอร์มการนำเข้า/ส่งออกข้อมูลเพื่อดูความคืบหน้าล่าสุด ใช้ไอคอนการรีเฟรชแบบฟอร์ม ไม่แนะนำการรีเฟรชระดับเบราเซอร์ เนื่องจากจะยุติงานการนำเข้า/ส่งออกใดๆ ที่ไม่ได้ถูกรันในชุดงาน
 
 ## <a name="create-an-import-or-export-job"></a>สร้างงานการนำเข้าและส่งออก
 คุณสามารถรันงานการนำเข้าและส่งออกได้ครั้งเดียวหรือหลายครั้งได้

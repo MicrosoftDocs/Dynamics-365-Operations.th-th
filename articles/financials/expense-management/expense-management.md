@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65aedce1aef92a56b3f48df02446471c26a3bfce
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 
 คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีลูกหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 
-มีโพสต์ต่างๆ เกี่ยวกับบัญชีลูกหนี้ใน [บล็อกทีมผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้ถูกเขียนขึ้นสำหรับบัญชีลูกหนี้ในรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และขั้นตอนจะเหมือนกันในรุ่นปัจจุบัน
+มีโพสต์ต่างๆ เกี่ยวกับบัญชีลูกหนี้ใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้ถูกเขียนขึ้นสำหรับบัญชีลูกหนี้ในรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และขั้นตอนจะเหมือนกันในรุ่นปัจจุบัน
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 

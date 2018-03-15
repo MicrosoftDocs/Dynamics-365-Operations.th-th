@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: th-th
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ ms.lasthandoff: 01/25/2018
 - [ซิงโครไนส์ใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](sales-order-template-mapping-direct.md)
 - [ซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations (เท็มเพลตที่ค้างอยู่รอการนำออกใช้)](sales-order-template-mapping-direct-two-ways.md)
 - [ซิงโครไนส์ใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](sales-invoice-template-mapping-direct.md)
-
-ในเวอร์ชันก่อนหน้า โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดแสดงชนิดของการซิงโครไนส์ที่ไม่ใช่โดยตรงต่อไปนี้:
-
-- [รักษาบัญชีใน Sales และซิงโครไนส์กับ Finance and Operations](accounts-template-mapping.md)
-- [รักษาผู้ติดต่อใน Sales และซิงโครไนส์ไปยัง Finance and Operations](contacts-template-mapping.md)
-- [รักษาผลิตภัณฑ์ใน Finance and Operations และซิงโครไนส์ไปยัง Sales](products-template-mapping.md)
-- [สร้างใบเสนอราคาขายใน Sales และซิงโครไนส์กับ Finance and Operations](sales-quotation-template-mapping.md)
-- [สร้างใบสั่งขายใน Finance and Operations และซิงโครไนส์กับ Sales](sales-order-template-mapping.md)
-- [สร้างใบแจ้งหนี้การขายใน Finance and Operations และซิงโครไนส์กับ Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
 
@@ -87,7 +78,7 @@ ms.lasthandoff: 01/25/2018
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - จำเป็นต้องมีการสนับสนุนสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดผ่านทางเอนทิตีข้อมูล
     
     > [!NOTE]
-    > หลังจากที่คุณติดตั้งโปรแกรมแก้ไขด่วน คุณต้องทริกเกอร์ชุดงานต่อไปนี้จากแบบฟอร์ม **SalesPopulateProspectToCash** แบบฟอร์มนี้ถูกซ่อนไว้ เนื่องจากคุณต้องการเพียงครั้งเดียว ในการเข้าถึงแบบฟอร์ม ล็อกอินไปยังสภาพแวดล้อม และเพิ่มรายการต่อไปนี้ใน URL ในที่อยู่ของเบราเซอร์ของคุณ: &mi=action:SalesPopulateProspectToCash, for example, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash เมื่อแบบฟอร์มเปิดขึ้น คลิกตกลง การดำเนินการนี้จะเติมข้อมูลในฟิลด์ **LineCreationSequnceNumber** ใหม่ ในตาราง **SalesLine** **SalesQuotationLine** และ **CustInvoiceTrans** ด้วยค่าที่ไม่ซ้ำกัน และรีเฟรชรายการผลิตภัณฑ์ นี่เป็นสิ่งจำเป็นสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดกับการทำงาน
+    > หลังจากที่คุณติดตั้งโปรแกรมแก้ไขด่วน คุณต้องทริกเกอร์ชุดงานต่อไปนี้จากแบบฟอร์ม **SalesPopulateProspectToCash** แบบฟอร์มนี้ถูกซ่อนไว้ เนื่องจากคุณต้องการเพียงครั้งเดียว เพื่อเข้าถึงแบบฟอร์ม ให้ล็อกอินเข้าสู่สภาพแวดล้อม และเพิ่มรายการต่อไปนี้ไปยัง URL ในที่อยู่เบราเซอร์ของคุณ: &mi=action:SalesPopulateProspectToCash ตัวอย่างเช่น `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash` เมื่อแบบฟอร์มเปิดขึ้น คลิกตกลง การดำเนินการนี้จะเติมข้อมูลในฟิลด์ **LineCreationSequnceNumber** ใหม่ ในตาราง **SalesLine** **SalesQuotationLine** และ **CustInvoiceTrans** ด้วยค่าที่ไม่ซ้ำกัน และรีเฟรชรายการผลิตภัณฑ์ นี่เป็นสิ่งจำเป็นสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดกับการทำงาน
 
 
 ## <a name="system-requirements-for-sales"></a>ความต้องการของระบบสำหรับ Sales
@@ -96,12 +87,6 @@ ms.lasthandoff: 01/25/2018
 
 - Dynamics 365 for Sales รุ่น 1612 (8.2.1.207) (DB 8.2.1.207) ออนไลน์
 - โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Dynamics 365 for Sales รุ่น 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > เท็มเพลตที่มีรุ่น 1.0.0.0 และ 1.0.0.1 ได้รับการสนับสนุนบนโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Dynamics 365 for Sales รุ่น 1.14.1.0
-   >
-   > เท็มเพลตที่มีรุ่น 2.0.0.0 และ 2.1.0.0 ได้รับการสนับสนุนบนโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Dynamics 365 for Sales รุ่น 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>ติดตั้งโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Sales
 
