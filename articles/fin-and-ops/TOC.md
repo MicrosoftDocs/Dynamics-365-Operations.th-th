@@ -19,10 +19,11 @@
 ### [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](get-started/whats-new-changed.md)
 #### [คุณสมบัติที่ลบหรือไม่ได้รับการสนับสนุน](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [คุณสมบัติของ AX 2012 ที่เลื่อนออกไป](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
-#### [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่](get-started/features-not-implemented-on-prem.md)
+#### [ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่](get-started/features-not-implemented-on-prem.md)
 #### [การนำออกใช้และนโยบายเกี่ยวกับวงจรการใช้งาน](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [การปรับใช้ในสถานที่ (มีนาคม 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Platform update 13 (กุมภาพันธ์ 2018)](get-started/whats-new-platform-update-13.md)
-#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (พฤศจิกายน 2017)](get-started/whats-new-platform-update-12.md)
 #### [การอัพเดต Platform 11 (ตุลาคม 2017)](get-started/whats-new-platform-update-11.md)
 #### [การอัพเดต Platform 10 (สิงหาคม 2017)](get-started/whats-new-platform-update-10.md)
@@ -134,10 +135,10 @@
 ### [ชุดเนื้อหา Power BI ในการจัดการต้นทุน](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## การรวมข้อมูล
-### [รูปแบบการรวม](../dev-itpro/data-entities/integration-overview.md)
+### [เลือกกลยุทธ์การรวมข้อมูล (นำเข้า/ส่งออก)](../dev-itpro/data-entities/integration-overview.md)
 
 ### API การรวมข้อมูล
-#### [API แพคการจัดการข้อมูล](../dev-itpro/data-entities/data-management-api.md)
+#### [API แพคเกจการจัดการข้อมูล](../dev-itpro/data-entities/data-management-api.md)
 #### [ตำแหน่งข้อมูลบริการ](../dev-itpro/data-entities/services-home-page.md)
 ##### [การแก้ไขปัญหาการรับรองความถูกต้องของบริการ](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
 #### [OData](../dev-itpro/data-entities/odata.md)
@@ -157,10 +158,9 @@
 ###### [รักษาบัญชีใน Sales และซิงโครไนส์โดยตรงจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [รักษาผลิตภัณฑ์ใน Finance and Operations และซิงโครไนส์โดยตรงไปยัง Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [รักษาผู้ติดต่อใน Sales และซิงโครไนส์โดยตรงไปยังผู้ติดต่อหรือลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [ซิงโครไนส์ใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [ซิงโครไนส์ใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [ซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [ซิงโครไนส์ใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [รักษาใบเสนอราคาขายใน Sales และซิงโครไนส์โดยตรงไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [รักษาใบสั่งขายใน Finance and Operations และซิงโครไนส์โดยตรงไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [รักษาใบแจ้งหนี้การขายใน Finance and Operations และซิงโครไนส์โดยตรงไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [การใช้บริการเว็บภายนอก](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,7 +473,13 @@
 #### [การกระจายในรายงานค่าใช้จ่าย](../financials/expense-management/expense-report-distributions.md)
 #### [ค่าใช้จ่ายระหว่างบริษัท](../financials/expense-management/intercompany-expense.md)
 #### [นโยบายค่าใช้จ่าย](../financials/expense-management/travel-expense-policies.md)
-
+#### [ดูรายงานค่าใช้จ่าย](../financials/expense-management/view-expense-report.md)
+#### [โพสต์รายงานค่าใช้จ่าย](../financials/expense-management/post-expense.md)
+#### [รายงานค่าใช้จ่ายและผู้อนุมัติหลายราย](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [การขอคืน VAT ในการจัดการค่าใช้จ่าย](../financials/expense-management/VAT-expense-report.md)
+#### [กฎค่าเบี้ยเลี้ยงต่อวัน](../financials/expense-management/per-diem.md)
+#### [ใบเบิกค่าเดินทาง](../financials/expense-management/travel-req.md)
+#### [ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย](../financials/expense-management/personal-expenses.md)
 
 ### [การจัดงบประมาณ](../financials/budgeting/budgeting-overview.md)
 #### [ภาพรวมของการวางแผนงบประมาณ ](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [การรวมกลไกจัดการภาษี](../financials/general-ledger/tax-engine-integration.md)
 ##### [FAQ เกี่ยวกับขีดจำกัดภาษี](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [การขยายกลไกจัดการภาษี](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [การรวม GST สำหรับเครื่องบันทึกเงินสด](../retail/localizations/apac-ind-cash-registers.md)
+##### [แนวทางการปรับใช้เครื่องบันทึกเงินสด](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### ญี่ปุ่น
 ##### [ได้รับสินทรัพย์ถาวรและการอ้างสิทธิ์สำหรับเงินช่วยเหลือรัฐบาล](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [รูปแบบการชำระเงินของลูกค้าและการชำระเงินให้แก่ผู้จัดจำหน่าย](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [การชำระเงินของลูกค้าขึ้นอยู่กับรหัสการชำระเงิน](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [รูปแบบนำเข้า Nets](../financials/localizations/emea-nor-nets-import-format.md)
-##### [คำสั่ง VAT](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [ใบแจ้งยอด VAT](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [เครื่องบันทึกเงินสด](../retail/localizations/emea-nor-cash-registers.md)
+##### [แนวทางการปรับใช้เครื่องบันทึกเงินสด](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### โปแลนด์
 ##### [คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [หมายเหตุการแก้ไข](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [รายการพิเศษและแผ่นงานการเปิด](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### สวีเดน
 ##### [นำเข้ารูปแบบการชำระเงิน](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [เครื่องบันทึกเงินสด](../retail/localizations/emea-swe-cash-registers.md)
 #### สวิตเซอร์แลนด์
 ##### [นำเข้าการชำระเงินของลูกค้าใน ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### สหราชอาณาจักร
@@ -1644,6 +1656,7 @@
 ##### [ทรัพยากรการดำเนินงาน](../supply-chain/production-control/operations-resources.md)
 ##### [ความสามารถของทรัพยากร](../supply-chain/production-control/resource-capabilities.md)
 ##### [แอททริบิวต์ของชุดงาน](../supply-chain/production-control/batch-attributes.md)
+##### [การปรับสมดุลแบบกลุ่ม](../supply-chain/production-control/batch-balancing.md)
 ##### [คัดลอกสูตร (คู่มืองาน)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [สร้างสูตรโดยการคัดลอกจากสูตรที่มีอยู่แล้ว (คู่มืองาน)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [คัดลอกสินค้าร่วมจากเวอร์ชั่นสูตรที่มีอยู่ (คู่มืองาน)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [หน่วยวัดและนโยบายการเก็บสต็อก](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [เนื้อหา Warehouse Power BI](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [การจัดกลุ่มระบบในรายการงานที่เปิด](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [การสนับสนุนบาร์โค้ดบนมือถือ](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [นโยบายงานของคลังสินค้า](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1816,8 +1830,9 @@
 #### [การยืนยันชุดงานและป้ายทะเบียน](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [การรับป้ายทะเบียนแบบผสม](../supply-chain/warehousing/mixed-license-plate-receiving.md)
-#### [ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
+#### [ตั้งค่าคอนฟิกแสดงชุดงานที่เก่ากว่าภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [การยืนยันการเบิกสินค้าเป็นรายชิ้น](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
