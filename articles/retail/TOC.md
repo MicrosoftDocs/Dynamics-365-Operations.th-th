@@ -39,8 +39,9 @@
 # การตั้งค่าและการจัดการช่องทาง
 ## [เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Retail](enable-configure-retail-functionality.md)
 ## [กำหนดช่องทางการขายปลีก](define-maintain-retail-channels.md)
+## [การจัดการการจัดประเภท](assortments.md)
 ## [ภาพรวมร้านค้าออนไลน์](online-stores.md)
-## [ตั้งค่าคอนฟิกและติดตั้งสถานีฮาร์ดแวร์ Retail](retail-hardware-station-configuration-installation.md)
+## [ตั้งค่าคอนฟิกและติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ## [เวลาและการเข้างานของ Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) และ Cloud POS
@@ -55,7 +56,8 @@
 ## โครงร่างหน้าจอ
 ### [ตั้งค่าคอนฟิกโครงร่างหน้าจอสำหรับ POS](pos-screen-layouts.md)
 ### [ติดตั้งตัวออกแบบโครงร่าง Retail POS](install-pos-layout-designer.md)
-### [แอพลิเคชัน POS และการตั้งค่าภาษาผู้ใช้](pos-application-user-language-settings.md)
+### [เลือกการตั้งค่าการแจ้งเตือน](Notifications-POS.md)
+### [การตั้งค่าแอพลิเคชัน POS และภาษาผู้ใช้](pos-application-user-language-settings.md)
 ### [ตั้งค่ารูปภาพสำหรับ MPOS](set-up-manage-images-retail-mpos.md)
 ## [ภาพรวมรหัสข้อมูล](info-codes-retail.md) 
 ## คำแนะนำผลิตภัณฑ์
@@ -99,7 +101,8 @@
 
 # ผลิตภัณฑ์และการจัดซื้อสินค้า
 ## [ภาพรวมข้อมูลผลิตภัณฑ์](../supply-chain/pim/product-information.md)
-## [ลำดับชั้นของ Retail](retail-hierarchies.md)
+## [ลำดับชั้นการขายปลีก](retail-hierarchies.md)
+## [ภาพรวมแอททริบิวต์และกลุ่มแอททริบิวต์](attribute-attributegroups-lifecycle.md)
 ## [สร้างและจัดการแอททริบิวต์](create-manage-attributes.md)
 ## [ตั้งค่าผลิตภัณฑ์ขายปลีก](set-up-retail-products.md)
 ## [มิติของผลิตภัณฑ์](../supply-chain/pim/product-dimensions.md)
@@ -131,9 +134,19 @@
 ## [จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง](../talent/departments-jobs-positions.md)
 ## [การตั้งค่าส่วนประกอบของงาน](../talent/create-job.md)
 
+# คุณลักษณะการทำงานเฉพาะและบังคับ
+## อินเดีย
+### [การรวม GST สำหรับเครื่องบันทึกเงินสดของอินเดีย](localizations/apac-ind-cash-registers.md)
+### [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับอินเดีย](localizations/apac-ind-loc-deployment-guidelines.md)
+## นอร์เวย์
+### [เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-cash-registers.md)
+### [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-loc-deployment-guidelines.md)
+## สวีเดน
+### [เครื่องบันทึกเงินสดสำหรับสวีเดน](localizations/emea-swe-cash-registers.md)
+
 # งาน Retail
 ## [สร้างผลิตภัณฑ์](../supply-chain/pim/tasks/create-product.md)
-## [ตั้งค่าคอนฟิคผลิตภัณฑ์ที่เชื่อมโยง](../supply-chain/pim/tasks/configure-linked-products.md)
+## [ตั้งค่าคอนฟิกผลิตภัณฑ์ที่เชื่อมโยง](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
 ## [ ข้อตกลงทางการค้าและราคาพื้นฐาน](tasks/base-price-trade-agreements.md)
 ## [ จัดประเภทกฎการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า](tasks/category-pricing-rules-trade-agreements.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [รวม Retail SDK กับระบบบิลด์แบบต่อเนื่อง](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [ตัวอย่างความสามารถในการขยายของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [เครื่องบันทึกเงินสดสำหรับสวีเดน](localizations/emea-swe-cash-registers.md)
-### [ตัวอย่างสำหรับการรวมระบบ Retail POS กับหน่วยการควบคุมสำหรับสวีเดน](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-cash-registers.md)
-### [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [การทำแพคเกจ Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [ตัวอย่าง Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [ส่วนขยายฐานข้อมูล (DB) ช่องทาง](dev-itpro/channel-db-extensions.md)
