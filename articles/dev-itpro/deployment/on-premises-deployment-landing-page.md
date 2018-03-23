@@ -3,7 +3,7 @@ title: "การปรับใช้ในองค์กร"
 description: "หัวข้อนี้แสดงข้อมูลและลิงค์ไปยังเนื้อหาเกี่ยวกับการปรับใช้ในองค์กร"
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: th-th
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>เพจเริ่มต้นการปรับใช้ในองค์กร
+# <a name="on-premises-deployment-home-page"></a>โฮมเพจการปรับใช้ในองค์กร
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,14 +36,14 @@ ms.lasthandoff: 03/06/2018
 - [การวางแผนสำหรับการปรับใช้ในองค์กรของคุณ](plan-onprem-deployment.md)
 - [ความต้องการของระบบสำหรับการปรับใช้ในองค์กร](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [บริการออนไลน์และนโยบายเกี่ยวกับวงจรการใช้งานซอฟต์แวร์ในองค์กร](../migration-upgrade/versions-update-policy.md)
 - [ซื้อ Dynamics 365 for Finance and Operations, Enterprise edition (ในองค์กร)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในสถานที่](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>แบบ Onboard
 - [สร้างโครงการสำหรับใช้งานในองค์กรใน Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร](setup-deploy-on-premises-environments.md)
-- [ติดตั้งอุปกรณ์เครื่องพิมพ์บนเครือข่ายในสภาพแวดล้อมในองค์กร](../analytics/install-network-printer-onprem.md)
+- [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร (การอัพเดต Platform 12)](setup-deploy-on-premises-pu12.md)
+- [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร (การอัพเดต Platform 8 และ 11)](setup-deploy-on-premises-pu8-pu11.md)
+- [ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่](../analytics/install-network-printer-onprem.md)
 - [ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร](../analytics/configure-ssrs-on-premises.md)
 - [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร](develop-deploy-custom-models-on-premises.md)
 

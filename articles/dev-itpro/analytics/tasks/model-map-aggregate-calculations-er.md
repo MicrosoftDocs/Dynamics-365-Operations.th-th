@@ -1,5 +1,5 @@
 --- 
-title: "ใช้การคำนวณ configurationforaggregate ของการแม็ปแบบจำลองที่ระดับฐานข้อมูล (ER)"
+title: "ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการคำนวณรวมที่ระดับฐานข้อมูล (ER)"
 description: "กระบวนงานนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการแม็ปแบบจำลอง (ER) ของการรายงานทางอิเล็กทรอนิกส์ใหม่ และใช้ฟังก์ชัน ER ภายในสำหรับการคำนวณรวมที่มีประสิทธิภาพ"
 author: NickSelin
 manager: AnnBe
@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 3c3558d9e25dcfd56f3306e69884528d01324cbd
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 869a23b992f1d6dccf9327b66b3e4d611728efce
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการคำนวณรวมที่ระดับฐานข้อมูล (ER) 

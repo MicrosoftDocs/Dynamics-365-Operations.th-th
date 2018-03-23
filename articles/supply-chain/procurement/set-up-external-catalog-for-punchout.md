@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/08/2018
 
 ---
 
@@ -71,15 +71,15 @@ ms.lasthandoff: 11/03/2017
 
 | ฟิลด์ | คำอธิบาย | 
 |---------|---------|
-|<ส่วนหัว >< จาก >< โดเมนข้อมูลประจำตัว = "" >|โดเมนของบริษัทของผู้ซื้อ|
-|< ส่วนหัว >< จาก >< ข้อมูลประจำตัว>< ข้อมูลเฉพาะตัว >< /ข้อมูลเฉพาะตัว> | ข้อมูลเฉพาะตัวของบริษัทของผู้ซื้อ|
-|<ส่วนหัว >< ถึง >< โดเมนข้อมูลประจำตัว = "" > | โดเมนของบริษัทของผู้จัดจำหน่าย|
-|< ส่วนหัว >< ถึง >< ข้อมูลประจำตัว>< ข้อมูลเฉพาะตัว >< /ข้อมูลเฉพาะตัว> | ข้อมูลเฉพาะตัวของบริษัทของผู้จัดจำหน่าย|
-|<ส่วนหัว >< ผู้ส่ง >< โดเมนข้อมูลประจำตัว = "" > | โดเมนของบริษัทของผู้ซื้อ|
-|< ส่วนหัว >< ผู้ส่ง >< ข้อมูลประจำตัว>< ข้อมูลเฉพาะตัว >< /ข้อมูลเฉพาะตัว> | ข้อมูลเฉพาะตัวของบริษัทของผู้ซื้อ|
-|<ส่วนหัว >< ผู้ส่ง >< ข้อมูลประจำตัว >< SharedSecret >< /SharedSecret >|ข้อมูลลับที่ใช้ร่วมกันสำหรับบริษัทของผู้ซื้อ|
-|< ร้องขอ deploymentMode = "" >|การปรับใช้การทดสอบหรือการผลิต|
-|<คำขอ >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL >|URL ของปลายทางการเข้าใช้งานแบบโดยตรงของผู้จัดจำหน่าย|
+|< Header >< From >< Credential domain=”” >|โดเมนของบริษัทของผู้ซื้อ|
+|< Header >< From >< Credential>< Identity >< /Identity > | ข้อมูลเฉพาะตัวของบริษัทของผู้ซื้อ|
+|< Header >< To >< Credential domain=”” > | โดเมนของบริษัทของผู้จัดจำหน่าย|
+|< Header >< To >< Credential>< Identity >< /Identity> | ข้อมูลเฉพาะตัวของบริษัทของผู้จัดจำหน่าย|
+|< Header >< Sender >< Credential domain=”” > | โดเมนของบริษัทของผู้ซื้อ|
+|< Header >< Sender >< Credential >< Identity >< /Identity> | ข้อมูลเฉพาะตัวของบริษัทของผู้ซื้อ|
+|< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|ข้อมูลลับที่ใช้ร่วมกันสำหรับบริษัทของผู้ซื้อ|
+|< Request deploymentMode=”” >|การปรับใช้การทดสอบหรือการผลิต|
+|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|URL ของปลายทางการเข้าใช้งานแบบโดยตรงของผู้จัดจำหน่าย|
 
 ### <a name="extrinsic-elements"></a>องค์ประกอบ extrinsic
 
@@ -92,15 +92,15 @@ ms.lasthandoff: 11/03/2017
 
 | ข้อความที่ได้รับจากผู้จัดจำหน่าย | คัดลอกไปยังรายการเบิกในการเงินและการดำเนินงาน|
 |------------------------------|----------------------------------------------------------|
-|< ปริมาณ ItemIn=”” > |ปริมาณ|
+|< ItemIn quantity=”” > |ปริมาณ|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|รหัสสินค้าภายนอก|
-|< ItemDetail>< UnitPrice >< สกุลเงิน=”” >| สกุลเงิน|
-|< ItemDetail >< UnitPrice >< เงิน >< /เงิน >| ราคาต่อหน่วย|
-|< ItemDetail >< ShortName คำอธิบาย = "" >|ชื่อผลิตภัณฑ์|
-|< ItemDetail >< คำอธิบาย >< /คำอธิบาย >|รวมอยู่ในคำอธิบายสินค้า; ชื่อผลิตภัณฑ์ ถ้าไม่มีการระบุ ShortName|
+|< ItemDetail>< UnitPrice >< Money currency=”” >| สกุลเงิน|
+|< ItemDetail >< UnitPrice >< Money >< /Money >| ราคาต่อหน่วย|
+|< ItemDetail >< Description ShortName=”” >|ชื่อผลิตภัณฑ์|
+|< ItemDetail >< Description >< /Description >|รวมอยู่ในคำอธิบายสินค้า; ชื่อผลิตภัณฑ์ ถ้าไม่มีการระบุ ShortName|
 |< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure >|หน่วย|
-|< ItemDetail >< การจัดประเภท >< /การจัดประเภท >|รวมอยู่ในคำอธิบายสินค้า|
-|< ItemDetail >< โดเมนการจัดประเภท = "" >|รวมอยู่ในคำอธิบายสินค้า|
+|< ItemDetail >< Classification >< /Classification >|รวมอยู่ในคำอธิบายสินค้า|
+|< ItemDetail >< Classification domain=”” >|รวมอยู่ในคำอธิบายสินค้า|
 
 ## <a name="delete-an-external-catalog"></a>ลบแค็ตตาล็อกภายนอก
 ลบแค็ตตาล็อกภายนอกด้วย ลบการดำเนินการ บนหน้า
