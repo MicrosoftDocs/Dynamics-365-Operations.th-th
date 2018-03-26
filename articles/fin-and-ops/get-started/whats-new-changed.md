@@ -3,7 +3,7 @@ title: "มีอะไรใหม่หรือมีการเปลี่
 description: "หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Finance and Operations เวอร์ชันล่าสุดของคุณ"
 author: josaw1
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -34,6 +34,8 @@ ms.lasthandoff: 01/23/2018
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุด](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)
 
+
+[!include[release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>การนำออกใช้ของแอพลิเคชัน
 

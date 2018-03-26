@@ -18,14 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ffbd853c15e479fc4350a19121f2aebcedda9854
-ms.openlocfilehash: 31b9d421f3fd5378f26faeee3a83b66861ef5008
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
 ms.contentlocale: th-th
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – Warehousing
+
+[!include[banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่า Dynamics 365 for Finance and Operations – Warehousing เพื่อสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่ 
 
@@ -47,8 +49,8 @@ ms.lasthandoff: 03/02/2018
 - คลิกกล้องบนหน้างานและรายละเอียดเพื่อย้อนกลับไปยังหน้ากล้อง 
 
 | หน้างานและรายละเอียด | หน้ากล้อง | 
-| --------------------- | -------------------- |
-| ![กล้อง-การสแกน-ตัวอย่าง-งาน-รายละเอียด-หน้า](media/camera-scanning-example-task-detail-page.png)          | ![กล้อง-การสแกน-ตัวอย่าง-กล้อง-หน้า](media/camera-scanning-example-camera-page.png)          |
+| :---------------------: | :--------------------: |
+| ![กล้อง-การสแกน-ตัวอย่าง-งาน-รายละเอียด-หน้า](./media/camera-scanning-example-task-detail-page50.png)          | ![กล้อง-การสแกน-ตัวอย่าง-กล้อง-หน้า-เล็กกว่า](./media/camera-scanning-example-camera-page50.png)          |
 
 บนหน้ากล้อง เมื่อคุณคลิกปุ่มกล้อง จะปรากฏเป็นจางลง ขณะที่พยายามระบุบาร์โค้ด ถ้าไม่มีการระบุบาร์โค้ดภายใน 5 วินาที กระบวนการจะหมดเวลา และปุ่มกล้องจะกลายเป็นพร้อมใช้งานอีกครั้ง จากนั้น คุณจะสามารถลองสแกนบาร์โค้ดได้อีกครั้ง
 
