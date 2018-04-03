@@ -1,0 +1,6 @@
+> [!IMPORTANT]
+> <span data-ttu-id="9f400-101">**การประกาศบันทึกย่อประจำรุ่น Dynamics 365 ฤดูใบไม้ผลิ 18**</span><span class="sxs-lookup"><span data-stu-id="9f400-101">**Announcing the Dynamics 365 Spring '18 release notes**</span></span>
+>
+> <span data-ttu-id="9f400-102">สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม</span><span class="sxs-lookup"><span data-stu-id="9f400-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span> 
+> 
+> <span data-ttu-id="9f400-103">[ดาวน์โหลดบันทึกย่อประจำรุ่นของฤดูใบไม้ผลิ 18](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf)</span><span class="sxs-lookup"><span data-stu-id="9f400-103">[Download the Spring '18 release notes](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span></span> <span data-ttu-id="9f400-104">เราเก็บทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบใน PDF เดียวที่สามารถใช้สำหรับการวางแผน</span><span class="sxs-lookup"><span data-stu-id="9f400-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span> 

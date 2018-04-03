@@ -3,6 +3,8 @@
 # [การเริ่มต้นใช้งาน](talent-get-started.md)
 ## [ความต้องการของระบบและนโยบายการอัพเดต](talent-versions-update-policy.md)
 ## [เตรียมใช้งาน Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [เอาสภาพแวดล้อม Talent ออก](remove-test-environment.md)
+## [เตรียมใช้งานแอปหน่วยย่อย Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [ขยายฟังก์ชันของ Talent](extend-talent-functionality.md)
 
 # [พัฒนากลยุทธ์ด้านทรัพยากรบุคคล](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [ประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)
 
 # ความปลอดภัยที่ทำงานและการปฏิบัติตามกฎระเบียบ (สหรัฐอเมริกา)
-## [การตรวจสอบความถูกต้องของการทำงานตามแบบฟอร์ม I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [เป็นไปตาม ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [การตรวจสอบความถูกต้องของการทำงานตามแบบฟอร์ม I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [เป็นไปตาม ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)

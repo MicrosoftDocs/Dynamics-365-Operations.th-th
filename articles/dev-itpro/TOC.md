@@ -1,7 +1,7 @@
 # [การพัฒนาและการดูแลระบบสำหรับ Dynamics 365 for Finance and Operations](index.md)
-# [การปรับใช้ในองค์กรสำหรับการปรับใช้ระบบคลาวด์](../fin-and-ops/get-started/system-requirements.md)
-# [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [ข้อมูลสาธิต](../fin-and-ops/get-started/demo-data.md)
+# [ความต้องการของระบบสำหรับการปรับใช้ในระบบคลาวด์](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [ข้อมูลสาธิต](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [สร้างข้อมูลสาธิตที่มีแพคเกจ](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [ส่งออกและนำเข้าแบบจำลอง](dev-tools/models-export-import.md)
 ### [การค้นหาข้อมูลเมตาใน Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [แบบจำลอง](dev-tools/models.md)
-### [โครงการใน Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
+### [โครงการใน Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Add-in ของเครื่องมือสำหรับ Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน](dev-tools/lock-models.md)
 ### [อัพเดตเครื่องมือการพัฒนา Visual Studio](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [การเลือกกำหนด: การโอเวอร์เลย์และส่วนขยาย](extensibility/customization-overlayering-extensions.md)
 ### มีอะไรใหม่
 #### [การเปลี่ยนแปลงความสามารถในการขยาย กรกฎาคม 2017](extensibility/changes-july-2017.md)
-#### [การเปลี่ยนแปลงความสามารถในการขยายใน Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
+#### [การเปลี่ยนแปลงความสามารถในการขยายรุ่น 7.3](extensibility/extensibility-changes-73.md)
 ### พื้นฐาน
 #### [การกำหนดการบุกรุก](extensibility/intrusive-customizations.md)
 #### [ส่วนขยายของคลาส](extensibility/class-extensions.md)
@@ -159,7 +159,7 @@
 ### [การปรับใช้ด้วยระบบอัตโนมัติของบิลด์และการทดสอบแบบต่อเนื่อง](perf-test/continuous-build-test-automation.md)
 ## [วันที่มีผลบังคับใช้](dev-tools/date-effectivity.md)
 ## [การให้สิทธิ์ใช้งาน ISV](dev-tools/isv-licensing.md)
-## [การให้สิทฑิ์ ISV ในสถานที่](dev-tools/isv-licensing-on-prem.md)
+## [การให้สิทธิ์ ISV ในสถานที่](dev-tools/isv-licensing-on-prem.md)
 
 # [การพัฒนาอินเทอร์เฟสผู้ใช้](user-interface/user-interface-development-home-page.md)
 ## บทสอน
@@ -168,8 +168,8 @@
 ### [สร้างการนำทาง](user-interface/build-navigation.md)
 ### [สร้างพื้นที่ทำงาน](user-interface/build-workspace.md)
 ## แบบฟอร์ม
-### [การนำทางใน Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
-### [โครงร่างใน Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
+### [การนำทางใน Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [โครงร่างใน Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [แบบอักษรสัญลักษณ์](user-interface/symbol-font.md)
 ### [ทดสอบแบบฟอร์มด้วยรูปแบบที่กำหนดเอง](user-interface/testing-forms-custom-patterns.md)
 ### [สร้างและใช้ลิงก์เฉพาะ](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## การปรับใช้ระบบคลาวด์
 ### [การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure](deployment/arm-onboarding.md)
-### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute และ Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [การปรับใช้ในสถานที่](deployment/on-premises-deployment-landing-page.md)
 ### [ภาพรวมในสถานที่](deployment/on-premises-overview.md)
 ### [การวางแผนสำหรับการปรับใช้ในสถานที่ของคุณ](deployment/plan-onprem-deployment.md)
-### [การกำหนดขนาดฮาร์ดแวร์](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [การกำหนดขนาดฮาร์ดแวร์](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [สร้างโครงการแบบในสถานที่](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่](deployment/setup-deploy-on-premises-environments.md)
 #### [ปรับใช้สภาพแวดล้อมในสถานที่ด้วย Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,9 +507,9 @@
 ### [อัพเดตตัวแทนในพื้นที่](lifecycle-services/update-local-agent.md)
 ### [ตั้งค่าคอนฟิกสภาพแวดล้อมของคุณใหม่](lifecycle-services/reconfigure-environment.md)
 ### [การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์](user-interface/client-disconnected.md)
-### [แก้ไขปัญหา Dynamics 365 for Finance and Operations, รุ่น Enterprise (ในสถานที่)](deployment/troubleshoot-on-prem.md)
+### [แก้ไขปัญหา Dynamics 365 for Finance and Operations รุ่นในสถานที่](deployment/troubleshoot-on-prem.md)
 
-## ปรับใช้รหัสที่กำหนดเอง
+## ปรับใช้โค้ดที่กำหนดเอง
 ### [สร้างแพคเกจที่สามารถปรับใช้ได้](deployment/create-apply-deployable-package.md)
 ### [ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์](deployment/apply-deployable-package-system.md)
 ### [ติดตั้งแพคเกจที่สามารถปรับใช้ได้](deployment/install-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [การอัพเกรด AX 2012 - งานที่จะดำเนินการหลังการอัพเกรด](migration-upgrade/app-validation-process.md)
 ### [การอัพเกรด AX 2012 - ผ่านการทดสอบการทำงาน](migration-upgrade/upgrade-functional-validation.md)
 ### [การอัพเกรด AX 2012 - เตรียมพร้อมสำหรับการเริ่มใช้งานจริง](migration-upgrade/upgrade-go-live-prep.md)
-
+### [การอัพเกรด AX 2012 - เริ่มใช้งานจริง](migration-upgrade/2012-upgrade-cutover.md)
 
 ### การเปลี่ยนแปลงที่มีผลต่อการอัพเกรดจาก AX 2012
 #### [การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -546,7 +546,7 @@
 ## อัพเกรดเป็นการอัพเดตล่าสุด (ระบบคลาวด์)
 ### [กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด](migration-upgrade/upgrade-latest-update.md)
 ### [นโยบายเกี่ยวกับรอบการใช้งาน](migration-upgrade/versions-update-policy.md)
-### [ใช้การอัพเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
+### [ใช้ Platform update ล่าสุดกับสภาพแวดล้อมของคุณ](migration-upgrade/upgrade-latest-platform-update.md)
 ### [อัพเกรดแพลตฟอร์ม Dynamics เป็นการนำออกใช้เดือนสิงหาคม 2016](migration-upgrade/update-platform-each-release.md)
 ### [อัพเกรดสภาพแวดล้อม Sandbox](migration-upgrade/upgrade-sandbox-environment.md)
 ### [อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต](migration-upgrade/upgrade-data-to-latest-update.md)
@@ -588,7 +588,9 @@
 ### [ภาพรวมของเซิร์ฟเวอร์ชุดงาน](sysadmin/batch-server-overview.md)
 ### [สร้างชุดงาน](sysadmin/tasks/create-batch-job.md)
 
-## [สร้างกฎขั้นสูงสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](sysadmin/optimization-advisor.md)
+##  [ภาพรวมของที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](sysadmin/optimization-advisor-overview.md)
+### [สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [ภาพรวมของ Lifecycle Services](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [คำขอสำหรับการรีเฟรชฐานข้อมูล Sandbox](database/database-refresh.md)
 
 # การสนับสนุน
-## [รับการสนับสนุนสำหรับr Dynamics 365 for Finance and Operations, Enterprise edition และ Lifecycle Services](lifecycle-services/lcs-support.md)
+## [รับการสนับสนุนสำหรับr Dynamics 365 for Finance and Operations และ Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [บันทึกบัตรผ่านการสนับสนุนพรีเมียร์](lifecycle-services/premier-support.md)
 ## [ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับr Dynamics 365 for Finance and Operations, Enterprise edition และ Lifecycle Services](lifecycle-services/support-experience.md) 
-## [FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน](lifecycle-services/planned-maintenance-window-faq.md) 
+## [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับr Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
+## [คำถามที่ถามบ่อยเกี่ยวกับกรอบการบำรุงรักษาตามแผน](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [การดำเนินงานและการให้บริการระบบคลาวด์](lifecycle-services/cloud-operations-servicing.md)
 ## [จัดการประสบการณ์การสนับสนุนของ Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

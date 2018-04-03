@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="d3bd6-101">หัวข้อนี้จะใช้กับทั้ง Dynamics 365 for Finance and Operations, Enterprise edition และกับ Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="d3bd6-101">This topic applies to both Dynamics 365 for Finance and Operations, Enterprise edition and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="35d7f-101">หัวข้อนี้ใช้กับทั้ง Dynamics 365 for Finance and Operations และ Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="35d7f-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
