@@ -1,6 +1,6 @@
 ---
-title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition"
-description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition"
+title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations"
+description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations"
 author: margoc
 manager: AnnBe
 ms.date: 03/02/2018
@@ -17,17 +17,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
-ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
 ms.contentlocale: th-th
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>บทนำสู่ Microsoft Dynamics 365 for Finance and Operations
 [!include[banner](includes/banner.md)]
 
-เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition ทำงานให้กับธุรกิจของคุณ โดยใช้ทรัพยากรด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
+เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
 
 เนื้อหานี้ส่วนใหญ่ยังนำไปใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Microsoft Dynamics 365 for Retail และ Microsoft Dynamics 365 for Talent 
 

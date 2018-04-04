@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 Microsoft Dynamics 365 for Retail คือโซลูชันสำหรับการขายปลีกที่ครอบคลุม ซึ่งมอบการค้าแบบรวมเป็นหนึ่งในทุกช่องทาง ซึ่งประกอบด้วยการขาย ความคล่องตัว ข่าวกรอง และประสิทธิภาพการทำงาน ที่จะช่วยให้ผู้ขายปลีกและผู้ปฏิบัติงานบรรลุผลสำเร็จในการทำงานที่ให้ความสำคัญกับระบบคลาวด์และอุปกรณ์เคลื่อนที่เป็นอันดับแรกมากขึ้น Retail ให้การสนับสนุนที่ครอบคลุมสำหรับการดำเนินกระบวนการทางธุรกิจที่หลากหลาย เช่น ความสามารถในการจัดการการจัดซื้อ สินค้าคงคลัง และช่องทาง และยังมอบประสบการณ์ลูกค้าอันน่าประทับใจไปทั่วทุกจุดที่มีการติดต่อ
 
 > [!NOTE] 
-> Dynamics 365 for Retail เกี่ยวข้องกับ Dynamics 365 for Finance and Operations, Enterprise edition และ Dynamics 365 for Talent อย่างมาก ฟังก์ชันเดียวกันอาจปรากฏในทั้งสามผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Microsoft Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก (Finance and Operations) ชื่อผลิตภัณฑ์จะเป็น Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ในหัวข้อที่เกี่ยวข้องกับทรัพยากรบุคคลเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent 
+> Dynamics 365 for Retail เกี่ยวข้องกับ Dynamics 365 for Finance and Operations และ Dynamics 365 for Talent อย่างมาก ฟังก์ชันเดียวกันอาจปรากฏในทั้งสามผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Microsoft Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก (Finance and Operations) ชื่อผลิตภัณฑ์จะเป็น Microsoft Dynamics 365 for Finance and Operations ในหัวข้อที่เกี่ยวข้องกับทรัพยากรบุคคลเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent 
 
 ในบานหน้าต่างด้านซ้าย ให้เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม
 

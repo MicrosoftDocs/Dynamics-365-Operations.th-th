@@ -3,8 +3,8 @@
 # เริ่มต้นใช้งาน
 ## [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](get-started/whats-new.md)
 ## [ก่อนที่คุณจะซื้อ Dynamics 365 for Retail](get-started/before-you-buy.md)
-## [ลงทะเบียนสมัครใช้งานรุ่นตัวอย่าง](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [ปรับใช้สภาพแวดล้อมสาธิต](../dev-itpro/deployment/deploy-demo-environment.md)
+## [ลงทะเบียนสมัครใช้งานรุ่นตัวอย่าง](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [ปรับใช้สภาพแวดล้อมสาธิต](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [ตัวเลือกการปรับใช้](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # Modern Point of Sale (MPOS) และ Cloud POS
 ## [เลือกระหว่าง Modern POS และ Cloud POS](MPOS-or-CPOS.md)
-## [การดำเนินการของ POS](POS-operations.md)
+## [การดำเนินงาน POS ออนไลน์และออฟไลน์](pos-operations.md)
 ## [เค้าโครงหน้าจอข้อมูลสาธิตใน MPOS/CPOS](demo-data.md)
+## [ภาพรวมของการค้นหาผลิตภัณฑ์และลูกค้าในการขายหน้าร้าน](POS-search-improvements.md)
 ## อุปกรณ์ต่อพ่วงฮาร์ดแวร์
 ### [ภาพรวมของอุปกรณ์ต่อพ่วงของ Retail](retail-peripherals-overview.md)
 ### [Microsoft ทดสอบอุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [การตั้งค่าแอพลิเคชัน POS และภาษาผู้ใช้](pos-application-user-language-settings.md)
 ### [ตั้งค่ารูปภาพสำหรับ MPOS](set-up-manage-images-retail-mpos.md)
 ## [ภาพรวมรหัสข้อมูล](info-codes-retail.md) 
+## [การปรับปรุง POS สำหรับผลิตภัณฑ์ที่กำหนดหมายเลขลำดับประจำสินค้าแล้ว](serialized-inventory.md)
 ## คำแนะนำผลิตภัณฑ์
 ### [ภาพรวมคำแนะนำผลิตภัณฑ์แบบส่วนบุคคล](personalized-product-recommendations.md)
 ### [เพิ่มตัวควบคุมคำแนะนำบนอุปกรณ์ POS](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [การปรับปรุงราคาและส่วนลด](price-adjustments-discounts.md)
 ## [กำหนดชุดของส่วนลดที่ซ้อนทับกันที่ดีที่สุด](optimal-combination-overlapping-discounts.md)
 ## [กำหนดส่วนลดเฉพาะช่องทาง](define-channel-specific-discounts.md)
+## [ป้องกันไม่ให้มีส่วนลดสำหรับผลิตภัณฑ์ขายปลีก](prevent-discounts.md)
 ## [สร้างคูปองสำหรับการขายปลีก](retail-coupons.md)
 
 # ผลิตภัณฑ์และการจัดซื้อสินค้า
@@ -105,6 +108,7 @@
 ## [ภาพรวมแอททริบิวต์และกลุ่มแอททริบิวต์](attribute-attributegroups-lifecycle.md)
 ## [สร้างและจัดการแอททริบิวต์](create-manage-attributes.md)
 ## [ตั้งค่าผลิตภัณฑ์ขายปลีก](set-up-retail-products.md)
+## [การจัดการผลิตภัณฑ์และประเภทขั้นสูง](category-management-product-creation.md)
 ## [มิติของผลิตภัณฑ์](../supply-chain/pim/product-dimensions.md)
 ## [ตั้งค่าบาร์โค้ด](set-up-bar-codes.md)
 ## [ตั้งค่าบาร์โค้ดมาสก์](set-up-bar-code-masks.md)
@@ -190,13 +194,14 @@
 # [การพัฒนาและการจัดการของ Retail](dev-itpro/dev-retail-home-page.md)
 
 ## สถาปัตยกรรม
-### [ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
+### [ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations - Retail](retail-components.md)
 ### [สถาปัตยกรรมของเซิร์ฟเวอร์ Retail](dev-itpro/retail-server-architecture.md)
 ### [การสื่อสารช่องทาง Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [สถาปัตยกรรม MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของ Retail](dev-itpro/retail-online-store-publishing-architecture.md)
-### [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [การรับรองมาตรฐานความปลอดภัยของข้อมูลแอพลิเคชันการขำระเงิน (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
+### [ความสามารถของ Retail มีอยู่ในการปรับใช้ในสถานที่](retail-onprem.md)
 
 ## การปรับใช้และโปรแกรมแก้ไขด่วน
 ### [ภาพรวมของ Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
@@ -208,7 +213,7 @@
 ### [การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [การปรับใช้อย่างกว้างของส่วนประกอบ Retail แบบบริการตนเอง](dev-itpro/retail-mass-deployment.md)
 ### [เหตุการณ์ของส่วนประกอบ Retail สำหรับการวินิจฉัยและการแก้ไขปัญหา](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [ใช้แพคเกจที่สามารถปรับใช้ได้](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [ใช้แพคเกจที่สามารถปรับใช้ได้](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## การอัพเกรดและการสนับสนุน N-1
 ### [ภาพรวมของการอัพเกรดและการสนับสนุน N-1](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [คำแนะนำการใช้งานการจัดการอุปกรณ์](implementation-considerations-devices.md)
 
 ## การตั้งค่าคอนฟิกสภาพแวดล้อม
-### [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [จัดการ Bing Maps](dev-itpro/manage-bing-maps.md)
 
 ## ความสามารถในการขยายสำหรับการขายหน้าร้าน
