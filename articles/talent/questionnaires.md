@@ -19,44 +19,44 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="questionnaires"></a><span data-ttu-id="6ca82-105">แบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-105">Questionnaires</span></span>
+# <a name="questionnaires"></a><span data-ttu-id="7d821-105">แบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-105">Questionnaires</span></span>
 
 [!include[banner](includes/banner.md)]
 
-<span data-ttu-id="6ca82-106">หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="6ca82-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="6ca82-107">แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="6ca82-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="6ca82-108">คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="6ca82-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
+<span data-ttu-id="7d821-106">หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="7d821-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="7d821-107">แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="7d821-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="7d821-108">คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="7d821-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
 
-<span data-ttu-id="6ca82-109">คุณสามารถกำหนดแบบสอบถามให้เหมาะสมกับความต้องการเฉพาะของคุณ โดยใช้ลักษณะการทำงานต่าง ๆ ที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="6ca82-109">You can customize a questionnaire to fit your specific requirements by using various features that are available in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span></span> <span data-ttu-id="6ca82-110">นี่คือบางตัวอย่างของวิธีการใช้แบบสอบถาม:</span><span class="sxs-lookup"><span data-stu-id="6ca82-110">Here are some examples of how questionnaires can be used:</span></span>
+<span data-ttu-id="7d821-109">คุณสามารถกำหนดแบบสอบถามให้เหมาะสมกับความต้องการเฉพาะของคุณได้ โดยใช้ลักษณะการทำงานต่างๆ ที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="7d821-109">You can customize a questionnaire to fit your specific requirements by using various features that are available in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="7d821-110">นี่คือบางตัวอย่างของวิธีการใช้แบบสอบถาม:</span><span class="sxs-lookup"><span data-stu-id="7d821-110">Here are some examples of how questionnaires can be used:</span></span>
 
--   <span data-ttu-id="6ca82-111">เพื่อทดสอบทักษะด้านอาชีพของพนักงานและผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="6ca82-111">Test the professional skills of employees and applicants.</span></span>
--   <span data-ttu-id="6ca82-112">ประเมินว่าผู้เข้าร่วมหลักสูตรได้เรียนรู้เอกสารประกอบหลักสูตรหรือไม่</span><span class="sxs-lookup"><span data-stu-id="6ca82-112">Evaluate whether course participants learned the course material.</span></span>
--   <span data-ttu-id="6ca82-113">ประเมินผลหลักสูตร (ตัวอย่างเช่น สิ่งอำนวยความสะดวก เนื้อหา และผู้สอน)</span><span class="sxs-lookup"><span data-stu-id="6ca82-113">Evaluate a course (for example, the facilities, content, and instructor).</span></span>
--   <span data-ttu-id="6ca82-114">สำรวจความพึงพอใจของพนักงานและลูกค้า</span><span class="sxs-lookup"><span data-stu-id="6ca82-114">Survey employee and customer satisfaction.</span></span>
--   <span data-ttu-id="6ca82-115">ประเมินประสิทธิภาพงานของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="6ca82-115">Evaluate employee job performance.</span></span>
+-   <span data-ttu-id="7d821-111">เพื่อทดสอบทักษะด้านอาชีพของพนักงานและผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="7d821-111">Test the professional skills of employees and applicants.</span></span>
+-   <span data-ttu-id="7d821-112">ประเมินว่าผู้เข้าร่วมหลักสูตรได้เรียนรู้เอกสารประกอบหลักสูตรหรือไม่</span><span class="sxs-lookup"><span data-stu-id="7d821-112">Evaluate whether course participants learned the course material.</span></span>
+-   <span data-ttu-id="7d821-113">ประเมินผลหลักสูตร (ตัวอย่างเช่น สิ่งอำนวยความสะดวก เนื้อหา และผู้สอน)</span><span class="sxs-lookup"><span data-stu-id="7d821-113">Evaluate a course (for example, the facilities, content, and instructor).</span></span>
+-   <span data-ttu-id="7d821-114">สำรวจความพึงพอใจของพนักงานและลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7d821-114">Survey employee and customer satisfaction.</span></span>
+-   <span data-ttu-id="7d821-115">ประเมินประสิทธิภาพงานของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="7d821-115">Evaluate employee job performance.</span></span>
 
-<span data-ttu-id="6ca82-116">ตารางต่อไปนี้มีลิงค์ไปยังข้อมูลเกี่ยวกับงานสำคัญของแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-116">The following table provides links to information about the core questionnaire tasks.</span></span> <span data-ttu-id="6ca82-117">คลิกลิงค์สำหรับข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="6ca82-117">Click the links for more information.</span></span>
+<span data-ttu-id="7d821-116">ตารางต่อไปนี้มีลิงค์ไปยังข้อมูลเกี่ยวกับงานสำคัญของแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-116">The following table provides links to information about the core questionnaire tasks.</span></span> <span data-ttu-id="7d821-117">คลิกลิงค์สำหรับข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="7d821-117">Click the links for more information.</span></span>
 
-| <span data-ttu-id="6ca82-118">หัวข้อ</span><span class="sxs-lookup"><span data-stu-id="6ca82-118">Topic</span></span>| <span data-ttu-id="6ca82-119">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="6ca82-119">Description</span></span>|
+| <span data-ttu-id="7d821-118">หัวข้อ</span><span class="sxs-lookup"><span data-stu-id="7d821-118">Topic</span></span>| <span data-ttu-id="7d821-119">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="7d821-119">Description</span></span>|
 |------|------------|
-| [<span data-ttu-id="6ca82-120">การออกแบบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-120">Design a questionnaire</span></span>](design-questionnaires.md)  | <span data-ttu-id="6ca82-121">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบแบบสอบ</span><span class="sxs-lookup"><span data-stu-id="6ca82-121">This article provides information about how to design a questionnaire.</span></span> <span data-ttu-id="6ca82-122">กระบวนการออกแบบเกี่ยวข้องกับการตั้งค่าข้อกำหนดเบื้องต้น คำตอบ และคำถาม จากนั้นจึงรวมทั้งหมดลงในแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-122">The design process involves setting up prerequisites, answers, and questions, and then combining them into a questionnaire.</span></span> |
-| [<span data-ttu-id="6ca82-123">การแจกจ่ายละการตอบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-123">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)  | <span data-ttu-id="6ca82-124">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามสำหรับผู้ตอบและวิธีการกรอกแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-124">This article provides information about how to distribute a questionnaire to respondents and how to complete questionnaires.</span></span>                                                                       |
-| [<span data-ttu-id="6ca82-125">ดูและประเมินผลลัพธ์ของแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-125">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md) | <span data-ttu-id="6ca82-126">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการดูและประเมินผลลัพธ์จากแบบสอบถามที่กรอกข้อมูลแล้ว</span><span class="sxs-lookup"><span data-stu-id="6ca82-126">This article provides information about how to view and evaluate the results from completed questionnaires.</span></span>                                                                                        |
+| [<span data-ttu-id="7d821-120">การออกแบบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-120">Design a questionnaire</span></span>](design-questionnaires.md)  | <span data-ttu-id="7d821-121">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบแบบสอบ</span><span class="sxs-lookup"><span data-stu-id="7d821-121">This article provides information about how to design a questionnaire.</span></span> <span data-ttu-id="7d821-122">กระบวนการออกแบบเกี่ยวข้องกับการตั้งค่าข้อกำหนดเบื้องต้น คำตอบ และคำถาม จากนั้นจึงรวมทั้งหมดลงในแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-122">The design process involves setting up prerequisites, answers, and questions, and then combining them into a questionnaire.</span></span> |
+| [<span data-ttu-id="7d821-123">การแจกจ่ายละการตอบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-123">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)  | <span data-ttu-id="7d821-124">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามสำหรับผู้ตอบและวิธีการกรอกแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-124">This article provides information about how to distribute a questionnaire to respondents and how to complete questionnaires.</span></span>                                                                       |
+| [<span data-ttu-id="7d821-125">ดูและประเมินผลลัพธ์ของแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-125">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md) | <span data-ttu-id="7d821-126">บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการดูและประเมินผลลัพธ์จากแบบสอบถามที่กรอกข้อมูลแล้ว</span><span class="sxs-lookup"><span data-stu-id="7d821-126">This article provides information about how to view and evaluate the results from completed questionnaires.</span></span>                                                                                        |
 
 
 
-<a name="see-also"></a><span data-ttu-id="6ca82-127">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="6ca82-127">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="7d821-127">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="7d821-127">See also</span></span>
 --------
 
-[<span data-ttu-id="6ca82-128">การออกแบบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-128">Designing questionnaires</span></span>](design-questionnaires.md)
+[<span data-ttu-id="7d821-128">การออกแบบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-128">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[<span data-ttu-id="6ca82-129">การแจกจ่ายและการตอบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-129">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
+[<span data-ttu-id="7d821-129">การแจกจ่ายและการตอบแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-129">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
 
-[<span data-ttu-id="6ca82-130">การดูและการประเมินผลลัพธ์ของแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="6ca82-130">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
+[<span data-ttu-id="7d821-130">การดูและการประเมินผลลัพธ์ของแบบสอบถาม</span><span class="sxs-lookup"><span data-stu-id="7d821-130">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 
