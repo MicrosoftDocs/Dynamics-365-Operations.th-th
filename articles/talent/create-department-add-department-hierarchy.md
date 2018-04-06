@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cea3ecd66a57780c9ef1b3a3c21f1e5273faa0ef
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -56,7 +56,6 @@ ms.lasthandoff: 11/03/2017
 5.  บันทึกการเปลี่ยนแปลง คุณจะได้รับข้อความว่ารุ่นแบบร่างของลำดับชั้นถูกสร้างขึ้นแล้ว
 6.  เมื่อคุณพร้อม คลิก **เผยแพร่** ในโปรแกรมออกแบบลำดับชั้น คุณสามารถป้อนวันที่มีผลบังคับใช้ที่บ่งชี้ว่าลำดับชั้นควรถูกเผยแพร่เมื่อใด ตัวอย่างเช่น การเพิ่มแผนกใหม่ที่จุดเริ่มต้นของปีปฏิทินถัดไป ตั้งค่าวันที่มีผลบังคับใช้เป็นวันที่ 1 มกราคมของปีปฏิทินใหม่ การเปลี่ยนแปลงลำดับชั้นจะมีผลในวันที่ดังกล่าว
 
-
-
-
+## <a name="steps-for-creating-a-department"></a>ขั้นตอนสำหรับการสร้างแผนก
+อ้างอิงถึงหัวข้อ [กำหนดแผนกใหม่](../fin-and-ops/hr/tasks/define-new-departments.md) สำหรับกระบวนงานแบบเป็นขั้นตอนสำหรับการสร้างแผนกใหม่ 
 

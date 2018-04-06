@@ -1,6 +1,6 @@
 ---
-title: "ความสามารถของพนักงานและเนื้อหา Power BI การพัฒนา"
-description: "หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI การพัฒนา"
+title: "เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI"
+description: "หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI ในการพัฒนา"
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,19 +18,19 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: th-th
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>ความสามารถของพนักงานและเนื้อหา Power BI การพัฒนา
+# <a name="employee-competencies-and-development-power-bi-content"></a>เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI การพัฒนา 
+หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI ในการพัฒนา 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กร ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน

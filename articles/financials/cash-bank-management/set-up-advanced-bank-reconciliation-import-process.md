@@ -1,6 +1,6 @@
 ---
 title: "ตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง"
-description: "คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคารของคุณ"
+description: "คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคารของคุณ"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคารของคุณ 
+คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคารของคุณ 
 
 การตั้งค่าสำหรับการนำเข้าใบแจ้งยอดจากธนาคารแตกต่างกันไปขึ้นอยู่กับรูปแบบของใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ของคุณ Finance and Operations รองรับรูปแบบใบแจ้งยอดจากธนาคารสามรายการทั้งหมด: ISO20022, MT940 และ BAI2
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>ตัวอย่างรูปแบบและโครงร่างทางเทคนิคของใบแจ้งยอดจากธนาคาร
-ต่อไปนี้เป็นตัวอย่างคำนิยามของโครงร่างทางเทคนิคของไฟล์การนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูงและไฟล์ตัวอย่างสามรายการของใบแจ้งยอดจากธนาคารที่เกี่ยวข้อง: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+ต่อไปนี้เป็นตัวอย่างคำนิยามของโครงร่างทางเทคนิคของไฟล์การนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง และไฟล์ตัวอย่างของใบแจ้งยอดจากธนาคารที่เกี่ยวข้องสามรายการ: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | คำนิยามโครงร่างทางเทคนิค                             | ไฟล์ตัวอย่างใบแจ้งยอดจากธนาคาร          |
 |---------------------------------------------------------|--------------------------------------|

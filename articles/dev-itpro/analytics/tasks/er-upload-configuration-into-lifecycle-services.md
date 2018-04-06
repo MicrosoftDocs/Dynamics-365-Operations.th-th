@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d24679a380ec824fe08c56aacb4bc348ff40440a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services สำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
@@ -92,6 +92,6 @@ ms.lasthandoff: 09/29/2017
 10. คลิก เปิด
     * เลือกที่เก็บ LCS และเปิดขึ้น  
     * หมายเหตุว่า การตั้งค่าคอนฟิกที่เลือกถูกแสดงเป็นสินทรัพย์ของโครงการ LCS ที่เลือก  
-    * เปิด LCS โดยใช้ https://lcs.dynamics.com เปิดโครงการที่ถูกใช้ก่อนหน้าสำหรับการลงทะเบียนที่เก็บ เปิด 'ไลบรารีแอสเซท' ของโครงการนี้และขยายเนื้อหาของชนิดสินทรัพย์ 'การตั้งค่าคอนฟิก GER' – การตั้งค่าคอนฟิก ER ที่อัพโหลดแล้วจะพร้อมใช้งาน  หมายเหตุว่า การตั้งค่าคอนฟิก LCS ที่อัพโหลดแล้วสามารถถูกนำเข้าไปยังอินสแตนซ์ของ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition อีกรายการหนึ่ง ถ้าผู้ให้บริการมีสิทธิ์ในการเข้าถึงโครงการ LCS  
+    * เปิด LCS โดยใช้ https://lcs.dynamics.com เปิดโครงการที่ถูกใช้ก่อนหน้าสำหรับการลงทะเบียนที่เก็บ เปิด 'ไลบรารีสินทรัพย์' ของโครงการนี้และขยายเนื้อหาของชนิดสินทรัพย์ 'การตั้งค่าคอนฟิก GER' – การตั้งค่าคอนฟิก ER ที่อัพโหลดแล้วจะพร้อมใช้งาน หมายเหตุว่า การตั้งค่าคอนฟิก LCS ที่อัพโหลดแล้วสามารถถูกนำเข้าไปยังอินสแตนซ์ของ Microsoft Dynamics 365 for Finance and Operations อีกรายการหนึ่งได้ ถ้าผู้ให้บริการมีสิทธิ์ในการเข้าถึงโครงการ LCS  
 
 

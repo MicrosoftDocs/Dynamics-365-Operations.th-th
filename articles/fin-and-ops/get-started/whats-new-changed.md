@@ -3,7 +3,7 @@ title: "มีอะไรใหม่หรือมีการเปลี่
 description: "หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Finance and Operations เวอร์ชันล่าสุดของคุณ"
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: th-th
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ ms.lasthandoff: 01/23/2018
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
-<td>แพลตฟอร์ม update 13</td>
-<td>7.0.4764</td>
-<td>มกราคม 2018 (นี่คือการนำออกใช้ที่เป็นเป้าหมาย ซึ่งพร้อมใช้งานสำหรับผู้ใช้ที่ได้เลือกใน Continuous Auto-update Advantage Program (CAAP) เท่านั้น)</td>
-<td><a href="whats-new-platform-update-13.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตแพลตฟอร์ม 13 (มกราคม 2018)</a></td><tbody>
+<td>แพลตฟอร์ม update 15</td>
+<td>7.0.4839</td>
+<td>มีนาคม 2018 (นี่คือการนำออกใช้ที่เป็นเป้าหมาย ซึ่งพร้อมใช้งานสำหรับผู้ใช้ที่ได้เลือกใน Continuous Auto-update Advantage Program (CAAP) เท่านั้น)</td>
+<td><a href="whats-new-platform-update-15.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตแพลตฟอร์ม 15 (มีนาคม 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>แพลตฟอร์ม update 12</td>

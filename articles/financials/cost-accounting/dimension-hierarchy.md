@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -156,7 +156,7 @@ ms.lasthandoff: 11/03/2017
 |&nbsp;&nbsp;ต้นทุนผันแปร | 40001                     | 40010                   |
 
 > [!NOTE]
-> ภายใต้ **ช่วงสมาชิกมิติ** โหนดสามารถบรรจุช่วงสมาชิกมิติได้ 1:_n_ คุณสามารถแทรกรหัสสมาชิกของมิติที่ยังไม่มีอยู่ให้เป็นสมาชิกของมิติได้ วิธีการนี้ทำให้ลำดับชั้นยืดหยุ่นสำหรับในอนาคต  
+> ภายใต้ **ช่วงสมาชิกมิติ** โหนดสามารถบรรจุช่วงสมาชิกมิติ 1:_n_ ได้ คุณสามารถแทรกรหัสสมาชิกของมิติที่ยังไม่มีอยู่ให้เป็นสมาชิกของมิติได้ วิธีการนี้ทำให้ลำดับชั้นยืดหยุ่นสำหรับในอนาคต  
 
 ### <a name="copy-a-hierarchy"></a>คัดลอกลำดับชั้น
 
@@ -329,7 +329,7 @@ ms.lasthandoff: 11/03/2017
 - Power BI:
 
     - ข้อมูลที่แสดงในการแสดงภาพ Power BI
-    - การแสดงภาพ Data Power BI ที่ฝังอยู่ใน Microsoft Dynamics 365 สำหรับการเงินและการดำเนินงาน รุ่น Enterprise ไคลเอนต์
+    - การแสดงภาพ Data Power BI ที่ฝังอยู่ในไคลเอนต์ Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)

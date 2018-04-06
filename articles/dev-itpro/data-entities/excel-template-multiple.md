@@ -1,6 +1,6 @@
 ---
 title: "นำเข้าข้อมูลจากเท็มเพลตเอนทิตีข้อมูล Excel ที่มีแผ่นงานหลายแผ่น"
-description: "หัวข้อนี้อธิบายวิธีการนำเข้าข้อมูลโดยใช้เท็มเพลตเอนทิตี้ข้อมูล Excel ไปยัง Microsoft Dynamics 365 for Finance and Operations, Enterprise edition"
+description: "หัวข้อนี้อธิบายวิธีการนำเข้าข้อมูลโดยใช้เท็มเพลตเอนทิตี้ข้อมูล Excel ไปยัง Microsoft Dynamics 365 for Finance and Operations"
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: th-th
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-การจัดการข้อมูลใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition สนับสนุนเท็มเพลตตาม Microsoft Excel สำหรับเอนทิตีข้อมูล เท็มเพลตเหล่านี้ประกอบด้วยแผ่นงานอย่างน้อยหนึ่งแผ่น เท็มเพลตที่มีแผ่นงานหลายแผ่นมักถูกใช้ เมื่อสะดวกในการจัดการข้อมูลในแฟ้มเดียว และในการนำเข้าไปยังเอนทิตีข้อมูลหลายรายการ ตัวอย่างอาจเป็นไซต์และคลังสินค้า
+การจัดการข้อมูลใน Microsoft Dynamics 365 for Finance and Operations สนับสนุนเท็มเพลตตาม Microsoft Excel สำหรับเอนทิตีข้อมูล เท็มเพลตเหล่านี้ประกอบด้วยแผ่นงานอย่างน้อยหนึ่งแผ่น เท็มเพลตที่มีแผ่นงานหลายแผ่นมักถูกใช้ เมื่อสะดวกในการจัดการข้อมูลในแฟ้มเดียว และในการนำเข้าไปยังเอนทิตีข้อมูลหลายรายการ ตัวอย่างอาจเป็นไซต์และคลังสินค้า
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>อัพโหลดไฟล์ครั้งเดียว และแม็ปกับเอนทิตีทั้งหมด
 ลองดูตัวอย่างที่มีไฟล์ Excel หนึ่งไฟล์ซึ่งมีแผ่นงานที่เรียกว่า **ไซต์** และ **คลังสินค้า** ในการตั้งค่าโครงการนำเข้าข้อมูล คุณก็จะสามารถเพิ่มเอนทิตี้ข้อมูลแรก **ไซต์** แล้วจากนั้น อัพโหลดไฟล์ คุณจะสามารถเลือก **ไซต์** เป็นแผ่นงานที่จะใช้สำหรับเอนทิตี้นี้ได้

@@ -1,6 +1,6 @@
 ---
 title: "โฮมเพจการจัดการองค์กร"
-description: "หัวข้อนี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ในองค์กรของคุณ"
+description: "หัวข้อนี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ Microsoft Dynamics 365 for Finance and Operations ในองค์กรของคุณ"
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้ชี้ไปที่เนื้อหาที่จะช่วยให้ผู้ใช้ที่มีความชำนาญและผู้ดูแลระบบตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เนื้อหานี้จะช่วยในการตั้งค่าคอนฟิกระบบให้ทำงานได้อย่างราบรื่นและอย่างมีประสิทธิภาพสำหรับธุรกิจและองค์กรของคุณ
+หัวข้อนี้ชี้ไปที่เนื้อหาที่จะช่วยให้ผู้ใช้ที่มีความชำนาญและผู้ดูแลระบบสามารถตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations ได้ เนื้อหานี้จะช่วยในการตั้งค่าคอนฟิกระบบให้ทำงานได้อย่างราบรื่นและอย่างมีประสิทธิภาพสำหรับธุรกิจและองค์กรของคุณ
 
 เนื้อหาส่วนใหญ่ที่แสดงรายการไว้ที่นี่ใช้กับลักษณะการทำงานในโมดูล **การจัดการองค์กร** อย่างไรก็ตาม มีงานสองอย่าง เช่น การสร้างและการใช้เท็มเพลตเรกคอร์ดที่สามารถดำเนินการในโมดูลต่าง ๆ เพื่อช่วยให้องค์กรของคุณทำงานได้อย่างมีประสิทธิภาพ 
 
