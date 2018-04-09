@@ -3,7 +3,7 @@ title: "ฟิลด์ที่กำหนดเอง"
 description: "หัวข้อนี้แสดงวิธีการที่ Microsoft Dynamics 365 for Finance and Operations อนุญาตให้ผู้ใช้บางรายสามารถสร้างฟิลด์แบบกำหนดเองได้ เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของตน"
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: th-th
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-ในขณะที่ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition แสดงชุดที่ขยายขอบเขตของฟิลด์แบบนอกกรอบสำหรับการจัดการกระบวนการทางธุรกิจที่หลากหลาย ในบางครั้งมีความต้องการสำหรับบริษัทในการติดตามข้อมูลเพิ่มเติมในระบบ เพื่อรองรับความต้องการนี้ Finance and Operations ช่วยให้คุณสามารถสร้างฟิลด์แบบกำหนดเองได้เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของคุณ หากคุณมีสิทธิ์ลักษณะในการทำงาน
+ในขณะที่ Microsoft Dynamics 365 for Finance and Operations แสดงชุดที่ขยายขอบเขตของฟิลด์แบบนอกกรอบสำหรับการจัดการกระบวนการทางธุรกิจที่หลากหลาย ในบางครั้งมีความต้องการสำหรับบริษัทในการติดตามข้อมูลเพิ่มเติมในระบบ เพื่อรองรับความต้องการนี้ Finance and Operations ช่วยให้คุณสามารถสร้างฟิลด์แบบกำหนดเองได้เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของคุณ หากคุณมีสิทธิ์ลักษณะในการทำงาน 
+
+ความสามารถในการเพิ่มฟิลด์ที่กำหนดเองจะพร้อมใช้งานในการปรับปรุงแพลตฟอร์ม 13 และรุ่นที่ใหม่กว่า
 
 วิดีโอนี้แสดงความง่ายดายในการเพิ่มฟิลด์ที่กำหนดเองลงในหน้า
 

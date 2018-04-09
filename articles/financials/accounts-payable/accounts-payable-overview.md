@@ -1,6 +1,6 @@
 ---
 title: "ตั้งค่าคอนฟิกบัญชีเจ้าหนี้"
-description: "บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย"
+description: "บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย"
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d01a85dad2582a6ab796b03616ef283e40e040b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
+บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 
 <a name="prerequisites-for-accounts-payable-setup"></a>ข้อกำหนดเบื้องต้นสำหรับการตั้งค่าบัญชีเจ้าหนี้
 ----------------------------------------

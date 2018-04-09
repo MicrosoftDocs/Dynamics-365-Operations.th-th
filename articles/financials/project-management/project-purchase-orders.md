@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1797bc49877f1c8c06797083d1c7b76934675ba3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: dae65394a2180ccbf3317a41b635ba97034e541b
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/07/2018
 
 บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ
 
-ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณสามารถใช้วิธีการต่างๆเพื่อสร้างใบสั่งซื้อสำหรับโครงการ วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ
+ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้วิธีการต่างๆ เพื่อสร้างใบสั่งซื้อสำหรับโครงการ วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ
 
 ### <a name="methods-for-creating-a-purchase-order"></a>วิธีการสร้างใบสั่งซื้อ
 

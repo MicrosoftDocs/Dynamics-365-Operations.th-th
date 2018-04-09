@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
 ms.contentlocale: th-th
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 |-----------------------|----------------|
 | ชนิดของการลงทะเบียน     | ชนิดการลงทะเบียนในประเทศ/ภูมิภาคเฉพาะ|
 | ข้อจำกัดเกี่ยวกับ         | ชนิดของข้อจำกัดที่ใช้กับชนิดทะเบียนภาษี: ไม่มี บุคคล องค์กร|
-| ประเภททะเบียน | ตัวระบุการลงทะเบียนที่ไม่ซ้ำกันที่ได้รับการอนุมัติสำหรับการใช้ในประเทศ ด้านล่างนี้คือรายการทั้งหมดที่ได้รับการสนับสนุนในประเภท Microsoft Dynamics 365 for Finance and Operations, Enterprise edition |
+| ประเภททะเบียน | ตัวระบุการลงทะเบียนที่ไม่ซ้ำกันที่ได้รับการอนุมัติสำหรับการใช้ในประเทศ รายการทั้งหมดที่ได้รับการสนับสนุนในประเภท Microsoft Dynamics 365 for Finance and Operations อยู่ด้านล่าง |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>ป้อนรหัสทะเบียนสำหรับเรกคอร์ดสมุดที่อยู่สากล
 

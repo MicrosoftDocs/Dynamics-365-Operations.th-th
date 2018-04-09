@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้ การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ ผู้จัดการโครงการสามารถประกาศการเปลี่ยนแปลงใดๆ กลับไปยังโครงสร้างการแบ่งงานของโครงการ Finance and Operations
 
 > [!NOTE]
-> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition การอัพเดตเดือนกรกฎาคม 2017 คุณต้องติดตั้ง KB 4054797 และ 4055884
+> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations การอัพเดตเดือนกรกฎาคม 2017 คุณต้องติดตั้ง KB 4054797 และ 4055884
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>ตั้งค่าคอนฟิก add-in ของไคลเอนต์ Microsoft Project
 ในการเปิดใช้งานการรวมกับ Microsoft Project Client จะต้องติดตั้ง add-in ของ Microsoft Dynamics 365 ในแอพลิเคชัน Microsoft Project ของไคลเอนต์ของผู้ใช้ ซึ่งทำได้โดยการเปิด **พื้นที่ทำงานการจัดการโครงการ**

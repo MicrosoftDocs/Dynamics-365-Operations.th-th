@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 คุณควรไปยังไลบรารีสินทรัพย์ที่ใช้ร่วมกันบน Microsoft Dynamics Lifecycle services (LCS) และดูรายการปัจจุบันของไฟล์ที่พร้อมใช้งานที่มีชนิดสินทรัพย์เป็น **การตั้งค่าคอนฟิก GER** เสมอ ส่วนถัดไป "ฉันต้องตั้งค่าอะไรบ้าง" มีการเชื่อมโยงไปยังหัวข้อที่อธิบายถึงวิธีการสร้างที่เก็บ LCS เพื่อให้คุณสามารถตรวจทานการตั้งค่าคอนฟิกที่มีอยู่และนำเข้าการตั้งค่าคอนฟิกที่เลือกไว้
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition มีรูปแบบตัวอย่างที่มีเช็คอยู่บนสุด และตามด้วยส่วนการชำระเงินผ่านธนาคารสองส่วน และยังมีรูปแบบตัวอย่างที่มีเช็คอยู่ตรงกลาง ระหว่างส่วนการชำระเงินผ่านธนาคารสองส่วน รูปแบบตัวอย่างเหล่านี้สอดคล้องกับรูปแบบเช็คธุรกิจแบบ Deluxe
+Microsoft Dynamics 365 for Finance and Operations มีรูปแบบตัวอย่างที่มีเช็คอยู่บนสุด และตามด้วยส่วนการชำระเงินผ่านธนาคารสองส่วน และยังมีรูปแบบตัวอย่างที่มีเช็คอยู่ตรงกลาง ระหว่างส่วนการชำระเงินผ่านธนาคารสองส่วน รูปแบบตัวอย่างเหล่านี้สอดคล้องกับรูปแบบเช็คธุรกิจแบบ Deluxe
 
 ## <a name="what-do-i-have-to-set-up"></a>ฉันจำเป็นต้องตั้งค่าอะไรบ้าง
 

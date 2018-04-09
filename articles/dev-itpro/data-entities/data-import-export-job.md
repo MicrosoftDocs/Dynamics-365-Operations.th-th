@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: th-th
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-เมื่อต้องการสร้าง และจัดการงานการนำเข้า และส่งออกข้อมูลใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition คุณจะใช้พื้นที่ทำงาน **การจัดการข้อมูล** โดยค่าเริ่มต้น กระบวนการนำเข้าและส่งออกข้อมูลจะสร้างตารางที่กำลังเตรียมสำหรับแต่ละเอนทิตี้้ในฐานข้อมูลเป้าหมาย ตารางที่กำลังเตรียมช่วยให้คุณได้ตรวจสอบ ล้าง หรือแปลงข้อมูลก่อนที่คุณจะย้าย
+เมื่อต้องการสร้าง และจัดการงานการนำเข้าและส่งออกข้อมูลใน Microsoft Dynamics 365 for Finance and Operations คุณจะใช้พื้นที่ทำงาน **การจัดการข้อมูล** โดยค่าเริ่มต้น กระบวนการนำเข้าและส่งออกข้อมูลจะสร้างตารางที่กำลังเตรียมสำหรับแต่ละเอนทิตี้้ในฐานข้อมูลเป้าหมาย ตารางที่กำลังเตรียมช่วยให้คุณได้ตรวจสอบ ล้าง หรือแปลงข้อมูลก่อนที่คุณจะย้าย
 
 > [!NOTE]
 > หัวข้อนี้สันนิษฐานว่า คุณมีความคุ้นเคยกับ [เอนทิตี้ข้อมูล](data-entities.md)
@@ -66,7 +66,7 @@ ms.lasthandoff: 02/13/2018
 ### <a name="set-the-data-format-for-the-job"></a>ตั้งค่ารูปแบบข้อมูลสำหรับงาน
 เมื่อคุณเลือกเอนทิตี้ คุณต้องเลือกรูปแบบของข้อมูลที่จะส่งออกหรือนำเข้า คุณกำหนดรูปแบบโดยใช้ไทล์ **การตั้งค่าแหล่งข้อมูล** หลายองค์กรเริ่มต้นจากรูปแบบที่มีอยู่ตามค่าเริ่มต้นในชุดข้อมูลสาธิต นี่คือรายการบางส่วนของรูปแบบเหล่านี้:
 
-- AX (สำหรับข้อมูลที่ต้องการนำเข้าหรือส่งออกในรูปแบบเดียวกับที่ใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition)
+- AX (สำหรับข้อมูลที่ต้องการนำเข้าหรือส่งออกในรูปแบบเดียวกับที่ใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel

@@ -1,6 +1,6 @@
 ---
-title: "เนื้อหาการฝึกอบรมพลังงาน BI ขององค์กร"
-description: "หัวข้อนี้อธิบายถึงเนื้อหาการฝึกอบรม Power BI ขององค์กรใน Finance and Operations"
+title: "เนื้อหาการฝึกอบรมขององค์กรใน Power BI"
+description: "หัวข้อนี้อธิบายถึงเนื้อหา Power BI ของการฝึกอบรม Finance and Operations - เชิงองค์กร"
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,19 +18,19 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
 ms.contentlocale: th-th
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>เนื้อหาการฝึกอบรมพลังงาน BI ขององค์กร
+# <a name="organizational-training-power-bi-content"></a>เนื้อหาการฝึกอบรมขององค์กรใน Power BI
 
 [!include[banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายถึงเนื้อหาการฝึกอบรม Power BI ขององค์กรใน Finance and Operations 
+หัวข้อนี้อธิบายถึงเนื้อหา Power BI ของการฝึกอบรม Finance and Operations - เชิงองค์กร 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กร ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
@@ -43,7 +43,7 @@ ms.lasthandoff: 12/19/2017
 คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
-ใช้ข้อมูล Finance and Operations เพื่อรวบรวมรายงานในชุดเนื้อหาการฝึกอบรมขององค์กร ตารางต่อไปนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม
+มีการใช้ข้อมูล Finance and Operations เพื่อรวบรวมรายงานในชุดเนื้อหาการฝึกอบรมขององค์กร ตารางต่อไปนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม
 
 | เอนทิตี้                    | เนื้อหา                                                         | ความสัมพันธ์กับเอนทิตีอื่น                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/01/2017
 พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
 
 ## <a name="overview"></a>ภาพรวม 
-พื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** ช่วยให้ผู้จัดจำหน่ายได้ทราบเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อได้ แล้วตอบสนองต่อพวกเขาใน Microsoft Dynamics 365 สำหรับการเงินและการดำเนินงาน รุ่น Enterprise เว็บไคลเอนต์ 
+พื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** ช่วยให้ผู้จัดจำหน่ายได้ทราบเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อได้ และจากนั้นตอบสนองต่อพวกเขาใน Microsoft Dynamics 365 for Finance and Operations เว็บไคลเอนต์ 
 
 >[!NOTE]
 > หมายเหตุ: ควรใช้พื้นที่ทำงานแบบเคลื่อนที่เป็นส่วนเพิ่มเติมของเว็บไคลเอนต์การทำงานร่วมกันของผู้จัดจำหน่าย แต่ไม่ได้แทนที่ 
@@ -60,8 +60,8 @@ ms.lasthandoff: 12/01/2017
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นเปลี่ยนแปลง โดยขึ้นอยู่กับเวอร์ชันของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>ข้อกำหนดเบื้องต้นหากคุณใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 
-ถ้า Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ได้ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น หากคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
+ถ้า Microsoft Dynamics 365 for Finance and Operations ได้ถูกปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
 ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ 

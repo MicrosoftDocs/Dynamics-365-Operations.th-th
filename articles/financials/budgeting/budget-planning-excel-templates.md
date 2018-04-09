@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 [![ตัวอย่าง](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> เมื่อต้องการหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นในการดูและแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรเข้าสู่ระบบไปยังทั้ง Microsoft Dynamics 365 for Finance and Operations, Enterprise edition และ Add-in ของ Office สำหรับ Microsoft Dynamics
+> เมื่อต้องการหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นกับการดูและแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรเข้าสู่ระบบไปยังทั้ง Microsoft Dynamics 365 for Finance and Operations และ Add-in ของ Office สำหรับ Microsoft Dynamics
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>เพิ่มหัวข้อลงในเท็มเพลตเอกสารแผนงบประมาณ
 เมื่อต้องการเพิ่มข้อมูลหัวข้อ เลือกแถวบนสุดในไฟล์ Excel และแทรกแถวที่ว่าง คลิก **ออกแบบ** ใน **ตัวเชื่อมต่อข้อมูล** เพื่อเพิ่มฟิลด์หัวข้อไปยังไฟล์ Excel
