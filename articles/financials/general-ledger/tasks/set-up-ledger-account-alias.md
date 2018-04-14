@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>ตั้งค่านามแฝงของบัญชีแยกประเภท
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการสร้างนามแฝงของบัญชีที่มีทางลัดสำหรับการป้อนหมายเลขบัญชี  ผู้ใช้ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USMF
 

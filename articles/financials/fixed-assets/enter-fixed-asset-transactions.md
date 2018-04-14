@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>ตัวเลือกธุรกรรมสินทรัพย์ถาวร
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการต่างๆ ที่พร้อมใช้งานเพื่อสร้างธุรกรรมสินทรัพย์ถาวร
 

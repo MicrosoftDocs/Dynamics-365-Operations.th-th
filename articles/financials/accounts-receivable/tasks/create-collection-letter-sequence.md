@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>สร้างลำดับของจดหมายเรียกเก็บเงิน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้คำแนะนำของงานนี้เพื่อสร้างลำดับจดหมายเรียกเก็บเงิน  งานนี้ใช้บริษัทสาธิต USMF 
 

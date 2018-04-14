@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-and-filter-workspaces"></a>ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมเกี่ยวกับวิธีการตั้งค่าคอนฟิก และการกรองข้อมูลพื้นที่ทำงาน
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>สร้างเอกสารหรือการใช้งานการบันทึกข้อมูลการฝึกอบรม
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายว่าตัวบันทึกงานและคู่มืองานคืออะไร วิธีการสร้างตัวบันทึกงาน และวิธีการเลือกกำหนดคู่มืองาน Microsoft และรวมเข้าในวิธีใช้ของคุณ
 

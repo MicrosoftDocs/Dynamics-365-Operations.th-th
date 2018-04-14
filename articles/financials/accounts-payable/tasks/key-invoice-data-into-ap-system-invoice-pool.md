@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้กลุ่มใบแจ้งหนี้
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มือของงานนี้จะแสดงวิธีการใช้ทะเบียนใบแจ้งหนี้เพื่อสร้างใบแจ้งหนี้   แล้วใช้กลุ่มใบแจ้งหนี้เพื่อจับคู่ใบแจ้งหนี้กับใบสั่งซื้อ และทำให้ค่าใช้จ่ายในหน้าใบแจ้งหนี้ของผู้จัดจำหน่ายเสร็จสมบูรณ์
 

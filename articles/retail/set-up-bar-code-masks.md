@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>ตั้งค่าตัวพรางบาร์โค้ด
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าอักขระตัวพรางบาร์โค้ด ตัวพรางบาร์โค้ด และวิธีการกำหนดตัวพรางบาร์โค้ดให้กับบาร์โค้ด
 

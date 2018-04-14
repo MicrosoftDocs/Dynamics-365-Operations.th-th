@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>ลักษณะการทำงานสำหรับความสามารถในการเข้าถึง
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายฟังก์ชันที่มีวัตถุประสงค์ เพื่อช่วยเหลือผู้ใช้ที่มีความบกพร่องต่างๆ ในการใช้ Dynamics 365 for Finance and Operations, Enterprise edition Dynamics 365 for Retail และ Dynamics 365 for Talent ตัวอย่างเช่น มีลักษณะการทำงานสำหรับผู้ที่ใช้เทคโนโลยีเพื่อผู้พิการทางการมองเห็น เช่น ผู้บรรยาย Microsoft Windows
 

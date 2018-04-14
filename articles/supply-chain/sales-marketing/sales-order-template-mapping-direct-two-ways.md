@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>การซิงโครไนส์ของใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations
 

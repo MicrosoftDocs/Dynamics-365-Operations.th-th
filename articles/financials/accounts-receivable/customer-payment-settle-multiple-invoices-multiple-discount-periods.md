@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงวิธีการชำระใบแจ้งหนี้หลายรายการ เมื่อใบแจ้งหนี้แต่ละใบตรงตามเงื่อนไขสำหรับส่วนลดเงินสด สถานการณ์จำลองในบทความของเขาเน้นว่าส่วนลดเงินสดที่จะนำมาใช้จะแตกต่าง เมื่อทำการชำระเงิน
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="finance-and-operations-client-faq"></a>FAQ ไคลเอนต์ Finance and Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์ Microsoft Dynamics 365 for Finance and Operations
 

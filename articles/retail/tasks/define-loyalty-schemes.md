@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> กำหนดแผนงานตอบแทนลูกค้าสมาชิก
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่วิธีการกำหนดแผนงานตอบแทนลูกค้าสมาชิก  แผนงานตอบแทนลูกค้าสมาชิกคือการได้รับรางวัลตและกฎการแลกรางวัลสำหรับโปรแกรมตอบแทนลูกค้าสมาชิก  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 

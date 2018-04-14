@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>อนุมัติแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 การดำเนินกระบวนงานนี้ต้องใช้อย่างน้อยหนึ่งแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ที่จะพร้อมใช้งาน  กระบวนงานนี้ใช้แบบจำลองลำโพงขั้นสูงในข้อมูลบริษัทสาธิต USMF  โปรดสังเกตว่า แบบจำลองนี้ได้รับการอนุมัติแล้ว แต่กระบวนงานจะนำคุณผ่านกระบวนการทั้งหมด
 

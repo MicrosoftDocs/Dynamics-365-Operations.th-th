@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด  
 

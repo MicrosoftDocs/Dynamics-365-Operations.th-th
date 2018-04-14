@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>ใบรับสินค้า - ใบสั่งซื้อ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 บทความนี้อธิบายตัวเลือกต่างๆ สำหรับการลงทะเบียนผลิตภัณฑ์เป็นได้รับแล้ว
 

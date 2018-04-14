@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-hardware-station"></a> สร้างและเชื่อมโยงสถานีฮาร์ดแวร์
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่วิธีการสร้างสถานีฮาร์ดแวร์ใหม่  โพรไฟล์ฮาร์ดแวร์ใหม่จะถูกสร้างขึ้นและถูกใช้ในการเพิ่มสถานีฮาร์ดแวร์ใหม่ให้กับร้านค้าที่ถูกกำหนดไว้ล่วงหน้า (ช่องทาง)  กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต
 

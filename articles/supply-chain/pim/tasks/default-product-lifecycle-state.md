@@ -24,7 +24,7 @@ ms.lasthandoff: 02/08/2018
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>สร้างสถานะรอบการขายของผลิตภัณฑ์ค่าเริ่มต้น
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างสถานะวงจรชีวิตผลิตภัณฑ์เริ่มต้น รวมทั้งวิธีการเชื่อมโยงสถานะเริ่มต้นกับผลิตภัณฑ์ที่นำออกใช้ด้วย
 

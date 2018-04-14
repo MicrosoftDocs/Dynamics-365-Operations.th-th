@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>การรับเหมารายย่อยตามกิจกรรม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้กิจกรรมที่รับเหมารายย่อยโดยละเอียดในขั้นตอนการผลิตสำหรับ Lean Manufacturing
 

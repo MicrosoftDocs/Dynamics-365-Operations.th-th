@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-setup-process"></a>กระบวนการตั้งค่าการกระทบยอดบัญชีธนาคารขั้นสูง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 การกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations  บทความนี้จะอธิบายถึงการตั้งค่ากระบวนการสำหรับการกระทบยอด  
 

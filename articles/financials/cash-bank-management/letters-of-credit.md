@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>เลตเตอร์ออฟเครดิต
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 เลตเตอร์ออฟเครดิตมีเอกสารธนาคารที่ใช้สำหรับการซื้อและการขายสินค้าข้ามพรมแดนประเทศ 
 

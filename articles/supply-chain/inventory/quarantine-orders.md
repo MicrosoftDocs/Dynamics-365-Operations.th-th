@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quarantine-orders"></a>ใบสั่งตรวจสอบสินค้า
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
 

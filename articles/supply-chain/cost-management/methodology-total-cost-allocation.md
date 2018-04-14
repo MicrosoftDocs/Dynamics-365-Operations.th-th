@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>วิธีการปันส่วนต้นทุนรวม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้ให้คำแนะนำสำหรับการใช้การปันส่วนต้นทุนรวม (TCA) TCA มีวิธีการคำนวณต้นทุนระหว่างสินค้าตามสูตรหลักสำหรับใบสั่งชุดงานสินค้าร่วมที่กำหนดสำหรับสูตร
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>ตั้งค่า และประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าและประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ คุณสามารถใช้ใบแจ้งหนี้ที่เกิดซ้ำถ้าคุณต้องออกใบแจ้งหนี้ยอดเงินเดียวกันเป็นประจำให้ลูกค้า
 

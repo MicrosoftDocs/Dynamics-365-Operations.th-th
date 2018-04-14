@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>กฎการตัดออก
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับกฎการตัดออกและตัวเลือกต่างๆ สำหรับการรายงานเกี่ยวกับการตัดออก
 

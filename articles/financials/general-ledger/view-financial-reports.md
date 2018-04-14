@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="view-financial-reports"></a>ดูรายงานทางการเงิน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการดูและสำรวจรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations ซึ่งจะรวมถึงข้อมูลเกี่ยวกับตัวเลือกต่าง ๆ ที่คุณสามารถนำไปใช้กับการรายงานทางการเงินเพื่อเปลี่ยนลักษณะที่ปรากฏของพวกเขาและข้อมูลที่จะรวมไว้
 

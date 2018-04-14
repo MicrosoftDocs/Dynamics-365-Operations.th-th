@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>ภาพรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับใบแจ้งหนี้ของผู้จัดจำหน่าย มีการร้องขอใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับการชำระเงินผลิตภัณฑ์และบริการที่ได้รับ ใบแจ้งหนี้ของผู้จัดจำหน่ายจะแสดงบิลสำหรับบริการต่อเนื่อง หรือพวกเขาสามารถยึดตามใบสั่งซื้อสำหรับสินค้าเฉพาะและบริการ 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 12/14/2017
  - [ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้สมุดรายวันการอนุมัติ](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้กลุ่มใบแจ้งหนี้](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายในสมุดรายวันใบแจ้งหนี้](tasks/record-vendor-invoice-invoice-journal.md)
 
 

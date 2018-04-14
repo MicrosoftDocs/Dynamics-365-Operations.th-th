@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="physical-and-financial-updates"></a>เกี่ยวกับการปรับปรุงข้อมูลทางการเงินตามจริง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ในหัวข้อนี้จะแสดงภาพรวมของชนิดธุรกรรมที่เพิ่มหรือลดปริมาณสินค้าคงคลัง 
 

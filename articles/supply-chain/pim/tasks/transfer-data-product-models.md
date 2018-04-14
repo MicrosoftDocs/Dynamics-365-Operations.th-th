@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>โอนย้ายข้อมูลสำหรับรุ่นผลิตภัณฑ์
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ข้อมูลการส่งออกสำหรับแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์กำหนดว่า คุณต้องมีอย่างน้อยหนึ่งแบบจำลองผลิตภัณฑ์ที่พร้อมใช้งาน  กระบวนงานนี้ใช้แบบจำลองลำโพงขั้นสูงในบริษัทสาธิต USMF เพื่อแสดงวิธีการส่งออกข้อมูลสำหรับแบบจำลองนี้
 

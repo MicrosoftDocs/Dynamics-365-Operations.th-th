@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>สร้างผลิตภัณฑ์สำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์สำเร็จรูป นี่คืองานแรกในลำดับการคำนวณ BOM ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF
 

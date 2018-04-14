@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>พื้นที่ทำงานแบบเคลื่อนที่
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งานสำหรับการใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
 

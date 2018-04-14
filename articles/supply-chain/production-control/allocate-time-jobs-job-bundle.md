@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>ปันส่วนเวลาสำหรับงานในแต่ละกลุ่มงาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ในการดำเนินการผลิต คุณสามารถรวมกลุ่มงานได้ จากนั้นคุณสามารถเริ่มงานหลายงานพร้อมกันบนหน้ารายการงาน
 

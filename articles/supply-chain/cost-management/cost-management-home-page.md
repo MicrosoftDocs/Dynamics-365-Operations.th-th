@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>โฮมเพจการจัดการต้นทุน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [การจัดการต้นทุน (วิดีโอ)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) ช่วยให้คุณสามารถทำงานได้กับวิธีการประเมินค่าและการบัญชีของวัตถุดิบ สินค้ากึ่งสำเร็จรูป สินค้าสำเร็จรูป และสินทรัพย์ที่อยู่ระหว่างดำเนินการ เป็นกระบวนการในการกำหนด การจัดการ และการรายงาน [การบัญชีสินค้าคงคลัง](cost-object.md) และ [การบัญชีการผลิต](bom-calculations.md)
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>สร้างตรวจสอบความถูกต้องของสมุดรายวัน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำงานนี้สร้างและตรวจสอบสมุดรายวันและรายการสมุดรายวัน  งานนี้ใช้บริษัทสาธิต USMF  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>ดูประวัติลำดับงาน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้ขั้นตอนเหล่านี้เพื่อดูสถานะของเอกสารที่ส่งให้กับระบบลำดับงานเพื่อการประมวลผลและการอนุมัติ ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

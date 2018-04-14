@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 วันที่ถัวเฉลี่ยถ่วงน้ำหนักคือ แบบจำลองสินค้าคงคลังที่ใช้หลักการถัวเฉลี่ยถ่วงน้ำหนัก สำหรับหลักการการถัวเฉลี่ยถ่วงน้ำหนัก การตัดสินค้าจากคลังจะถูกประเมินค่าที่ค่าเฉลี่ยของสินค้า ซึ่งได้รับเข้าในคลังสินค้าสำหรับแต่ละวันในรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง 
 

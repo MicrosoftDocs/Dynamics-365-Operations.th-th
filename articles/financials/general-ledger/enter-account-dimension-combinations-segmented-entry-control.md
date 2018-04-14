@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>ป้อนชุดบัญชีและชุดข้อมูลมิติ (การควบคุมรายการของเซ็กเมนต์)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการป้อนบัญชี และชุดมิติ หรือบัญชีแยกประเภท รายการประสบการณ์มักหมายถึงตัวควบคุมรายการที่แบ่งเซ็กเมนต์
 
@@ -112,7 +111,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 
 
 

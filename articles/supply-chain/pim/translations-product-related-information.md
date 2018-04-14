@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>FAQ เกี่ยวกับการแปลที่เกี่ยวข้องกับผลิตภัณฑ์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการจัดการการแปลสำหรับผลิตภัณฑ์ ค่ามิติของผลิตภัณฑ์ และคุณลักษณะของผลิตภัณฑ์ 
 
@@ -95,8 +94,7 @@ ms.lasthandoff: 02/07/2018
 <tbody>
 <tr class="odd">
 <td>การตั้งค่าภาษาที่ต้องการของลูกค้า ทำตามขั้นตอนเหล่านี้:
-<ol>  
-<li>คลิก <strong>การขายและการตลาด</strong> &gt; <strong>ทั่วไป</strong> &gt; <strong>ลูกค้า</strong> &gt; <strong>ทั้งหมด</strong> <strong>ลูกค้า</strong></li>
+<ol><br/><li>คลิก <strong>การขายและการตลาด</strong> &gt; <strong>ทั่วไป</strong> &gt; <strong>ลูกค้า</strong> &gt; <strong>ทั้งหมด</strong> <strong>ลูกค้า</strong></li>
 <li>ดับเบิลคลิกบัญชีลูกค้าเพื่อเปิดหน้า <strong>ลูกค้า</strong> ในแท็บ <strong>ทั่วไป</strong> ในฟิลด์ <strong>ภาษา</strong> เลือก <strong>ภาษา</strong></li>
 </ol></td>
 </tr>

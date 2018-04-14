@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายสถานการณ์ที่แสดงวิธีจัดการการชำระเงินเมื่อลูกค้ามีส่วนลดเงินสด แต่ยังเกินผลรวม 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>การจัดการที่ไม่สอดคล้องกัน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายการตั้งค่าพื้นฐานที่จำเป็นเพื่อใช้ความไม่สอดคล้องกัน จำเป็นต้องมีการตั้งค่าเพิ่มเติม ถ้าคุณต้องการใช้ใบสั่งตรวจสอบคุณภาพ
 

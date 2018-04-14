@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>ประเมินประสิทธิภาพการขายตามผลิตภัณฑ์
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 คุณสามารถศึกษาผลกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Microsoft Dynamics 365 for Retail 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>การคิดต้นทุนแบบย้อนกลับ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แนะนำแนวคิดของการคิดต้นทุนแบบย้อนกลับที่ใช้สำหรับการผลิตแบบ Lean 
 

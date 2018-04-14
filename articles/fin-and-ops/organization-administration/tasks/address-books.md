@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>ตั้งค่าคอนฟิกสมุดที่อยู่
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้กระบวนงานนี้และการตัดสินใจที่คุณได้ทำไว้ในการวางแผนและการตั้งค่าคอนฟิกของสมุดที่อยู่สากลและหัวข้อสมุดที่อยู่เพิ่มเติม เพื่อตั้งค่าสมุดที่อยู่เพิ่มเติมสำหรับองค์กรของคุณ 
 

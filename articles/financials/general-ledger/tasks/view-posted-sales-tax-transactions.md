@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>ดูธุรกรรมภาษีขายที่ลงรายการบัญชี
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คุณสามารถดูธุรกรรมภาษีขายที่ลงรายการบัญชีไว้แล้วจากหน้าต่างๆโดยขึ้นอยู่กับสิ่งที่คุณต้องการดู  งานนี้ใช้บริษัทสาธิต USMF 
 

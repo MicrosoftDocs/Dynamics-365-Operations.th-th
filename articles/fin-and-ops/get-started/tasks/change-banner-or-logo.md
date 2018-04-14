@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>เปลี่ยนป้ายประกาศหรือรูปภาพสัญลักษณ์
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานต่อไปนี้แสดงรายการขั้นตอนที่ผู้ดูแลระบบสามารถใช้เพื่ออัพเดตป้ายประกาศหรือรูปภาพสัญลักษณ์ที่ถูกแสดงสำหรับนิติบุคคล ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

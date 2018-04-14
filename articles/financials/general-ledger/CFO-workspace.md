@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการเพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของประธานคณะผู้บริหารด้านการเงิน (CFO) เพื่อให้สามารถใช้สำหรับการรายงานบัญชีแยกประเภทและงบประมาณ พื้นที่ทำงานของ CFO มีแท็บ **ภาพรวม** และแท็บ **การเงิน** รายงานบนสองแท็บนี้มีข้อมูลสำรองโดยหน่วยวัดสองแบบ: LedgerActivityMeasure และ BudgetActivityMeasure ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017) มีความสัมพันธ์ระหว่างหน่วยวัดสองแบบนั้นและเอนทิตี้ DimensionCombinationEntity ดังนั้น คุณสามารถเลือกมิติได้
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>แบ่งสินทรัพย์ถาวร
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มืองานนี้จะแบ่งเป็นเปอร์เซ็นต์ของสมุดบัญชีสินทรัพย์เดียวกับสมุดบัญชีสินทรัพย์ใหม่   มีการเข้าถึงข้อมูลบทบาทของนักบัญชีและข้อมูลสาธิต USMF
 

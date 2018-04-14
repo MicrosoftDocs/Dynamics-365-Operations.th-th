@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>ส่งและอนุมัติการปรับปรุงงบประมาณโครงการ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้ให้ข้อมูลเกี่ยวกับวิธีปรับปรุงงบประมาณโครงการ คุณสามารถปรับปรุงงบประมาณโครงการได้หลายครั้งตามความจำเป็น อย่างไรก็ตาม คุณไม่สามารถดูยอดเงินของการปรับปรุงแต่ละครั้งได้ ถ้างบประมาณมีการปรับปรุงมากกว่าหนึ่งครั้ง 
 

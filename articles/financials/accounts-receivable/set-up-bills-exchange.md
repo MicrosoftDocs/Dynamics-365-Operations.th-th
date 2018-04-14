@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bills-of-exchange"></a>ตั้งค่าตั๋วแลกเงิน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายขั้นตอนสำหรับการตั้งค่าตั๋วแลกเงิน
 

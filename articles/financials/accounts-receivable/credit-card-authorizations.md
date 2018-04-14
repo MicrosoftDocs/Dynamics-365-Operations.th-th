@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-card-setup-authorization-and-capture"></a>การตั้งค่าบัตรเครดิต ตรวจสอบ และรวบรวมข้อมูล
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 บทความนี้แสดงภาพรวมของการตรวจสอบบัตรเครดิตใน Microsoft Dynamics 365 for Finance and Operations โดยจะมีข้อมูลเกี่ยวกับวิธีการตั้งค่าบริการชำระเงิน เพิ่มบัตรเครดิตให้ใบสั่งขาย และยกเลิกการตรวจสอบ
 

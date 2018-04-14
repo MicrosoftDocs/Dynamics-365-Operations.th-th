@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>ภาพรวมของการรวมบัญชีและการตัดออก
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกระบวนการรวมบัญชีและการตัดออก โดยจะมีคำตอบสำหรับคำถามที่ถามบ่อย
 

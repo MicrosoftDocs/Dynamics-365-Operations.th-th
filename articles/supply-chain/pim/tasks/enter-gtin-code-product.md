@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>ป้อนรหัส GTIN สำหรับผลิตภัณฑ์
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 รหัส GTIN จะถูกกำหนดโดยองค์กร GS1  ในตัวอย่างนี้ คุณจะป้อนรหัสสำหรับหมายเลขผลิตภัณฑ์ M0001 ในบริษัทข้อมูลสาธิต USMF
 

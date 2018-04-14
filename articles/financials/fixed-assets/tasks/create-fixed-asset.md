@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>สร้างสินทรัพย์ถาวร
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มือของงานนี้ใช้บริษัทสาธิต USMF  ที่จะสร้างสินทรัพย์ถาวรใหม่โดยใช้หน้ารายการสินทรัพย์ถาวร
 

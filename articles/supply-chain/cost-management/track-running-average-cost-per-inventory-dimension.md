@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a>การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 กลุ่มมิติสินค้าคงคลังถูกแนบกับทุกๆสินค้าในสินค้าคงคลัง ดังนั้นระบบจะคำนวณราคาต้นทุนเฉลี่ยสืบเนื่องโดยยึดตามมิติสินค้าคงคลังที่เลือกไว้และมีการติดตามการเปลี่ยนแปลงข้อมูลทางการเงิน
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> ใช้โปรแกรมความต่อเนื่อง
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แนะนำการขายโปรแกรมความต่อเนื่อง และการประมวลผลใบสั่งขายที่เกี่ยวข้อง  เมื่อต้องการดำเนินกระบวนงานนี้ให้เสร็จสมบูรณ์ จะต้องตั้งค่าผู้ใช้เป็นผู้ใช้ศูนย์บริการ  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 

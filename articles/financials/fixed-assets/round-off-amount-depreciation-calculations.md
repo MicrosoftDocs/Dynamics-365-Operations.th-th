@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>จำนวนที่ปัดเศษสำหรับการคำนวณค่าเสื่อมราคา
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายฟิลด์การปัดเศษค่าเสื่อมราคาที่พบในหน้าการตั้งค่าสมุดบัญชี
 

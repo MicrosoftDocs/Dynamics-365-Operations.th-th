@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 การแม็ปสมาชิกมิติองค์ประกอบต้นทุกที่แตกต่างกันกับชุดทั่วไปของสมาชิกมิติองค์ประกอบต้นทุน จะเป็นการผสานข้อมูลลงในรูปแบบทั่วไปสำหรับวัตถุประสงค์ในการวิเคราะห์
 

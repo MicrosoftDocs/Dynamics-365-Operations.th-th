@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-goal"></a>สร้างเป้าหมาย
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คุณสามารถสร้างเป้าหมาย เพิ่มกิจกรรมให้กับเป้าหมาย ติดตามการวัด และเชื่อมโยงเป้าหมายกับการตรวจทาน  กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF  ขั้นตอนนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Dynamics 365 for Operations version 1611
 

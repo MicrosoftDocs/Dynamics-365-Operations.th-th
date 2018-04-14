@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-statuses"></a>สถานะสินค้าคงคลัง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้สถานะสินค้าคงคลังเพื่อจัดประเภท และติดตามสินค้าคงคลัง
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-collection-letters"></a>ดำเนินการจดหมายเรียกเก็บเงิน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้าง การพิมพ์ และการลงรายการบัญชีจดหมายเรียกเก็บเงิน  งานนี้ใช้บริษัทสาธิต USMF 
 

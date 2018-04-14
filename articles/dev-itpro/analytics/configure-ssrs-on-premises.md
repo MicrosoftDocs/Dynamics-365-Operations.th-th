@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ใช้ขั้นตอนในหัวข้อนี้ในการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ Microsoft Dynamics 365 for Finance and Operations (ในองค์กร) ของคุณ
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     [![แท็บ URL ของเว็บพอร์ทัล](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  หลังจากที่มีการตั้งค่าคอนฟิกพอร์ทัล แท็บ **เว็บพอร์ทัล** จะตรงกับรูปภาพต่อไปนี้
+   หลังจากที่มีการตั้งค่าคอนฟิกพอร์ทัล แท็บ **เว็บพอร์ทัล** จะตรงกับรูปภาพต่อไปนี้
     [![แท็บเว็บพอร์ทัล](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. คลิก URL รายงานเพื่อดูเว็บพอร์ทัลบริการรายงาน SQL Server 
-9.  เมื่อคุณอยู่ในพอร์ทัล ให้สร้างโฟลเดอร์ใหม่ที่ชื่อว่า **Dynamics**
+9. เมื่อคุณอยู่ในพอร์ทัล ให้สร้างโฟลเดอร์ใหม่ที่ชื่อว่า **Dynamics**
 
-    [![โฟลเดอร์ Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![โฟลเดอร์ Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. ใน **Reporting Services Configuration Manager** คลิกแท็บ **การตั้งค่าอีเมล** และตรวจสอบว่าการตั้งค่าตรงกับภาพต่อไปนี้
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     [![แท็บบัญชีการดำเนินการ](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **คีย์การเข้ารหัส** [![แท็บคีย์การเข้ารหัส](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **คีย์การเข้ารหัส** [![แท็บคีย์การเข้ารหัส](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. คลิกแท็บ **การตั้งค่าการบอกรับเป็นสมาชิก** และตรวจสอบว่าการตั้งค่าตรงกับภาพต่อไปนี้หรือไม่
 
     [![แท็บการตั้งค่าการบอกรับเป็นสมาชิก](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การปรับใช้ Scale-out** [![แท็บการปรับใช้ Scale-out](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การปรับใช้ Scale-out** [![แท็บการปรับใช้ Scale-out](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การรวม Power BI** [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การรวม Power BI** [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. คลิก **ออก** เพื่อปิด **Reporting Services Configuration Manager**
 

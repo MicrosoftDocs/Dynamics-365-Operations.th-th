@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>เพิ่มตัวควบคุมคำแนะนำในหน้าธุรกรรมบนอุปกรณ์ POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > เราจะลบเวอร์ชันปัจจุบันของบริการแนะนำผลิตภัณฑ์ เนื่องจากเราได้ออกแบบคุณลักษณะนี้ใหม่พร้อมกับอัลกอริทึมที่ดีขึ้นและความสามารถที่เกี่ยวข้องกับการขายปลีกที่ใหม่กว่า สำหรับข้อมูลเพิ่มเติม ให้ดู [ลบหรือเลิกใช้คุณลักษณะ](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features) 

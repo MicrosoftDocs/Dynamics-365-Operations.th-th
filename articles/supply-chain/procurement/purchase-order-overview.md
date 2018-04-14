@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>ภาพรวมใบสั่งซื้อ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับใบสั่งซื้อ (PO) และการเชื่อมโยงไปยังบทความเพิ่มเติมที่เกี่ยวข้องกับขั้นตอนต่างๆ ของ PO
 

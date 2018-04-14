@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> ออกแบบความสัมพันธ์ระหว่างหน่วยงานขององค์กร
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แนะนำเกี่ยวกับวิธีการออกแบบความสัมพันธ์ระหว่างหน่วยงาน  คุณต้องสร้างวัตถุประสงค์ใหม่ขององค์กรก่อนการกำหนดความสัมพันธ์ หรือคุณสามารถใช้ในวัตถุประสงค์องค์กรที่มีอยู่  ข้อมูลบริษัทสาธิตที่ใช้ในการปฏิบัติตามขั้นตอนนี้คือ USRT  งานนี้มีไว้สำหรับบทบาทผู้ดูแลระบบ
 

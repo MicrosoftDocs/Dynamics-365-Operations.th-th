@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="benefits-power-bi-content"></a>เนื้อหาค่าตอบแทนใน Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงเนื้อหา **ผลประโยชน์** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
 

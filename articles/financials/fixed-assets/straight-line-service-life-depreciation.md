@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-service-life-depreciation"></a>การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมอายุบริการคงเหลือแบบเส้นตรงของค่าเสื่อมราคา
 

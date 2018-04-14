@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>ตั้งค่าคอนฟิกการออกใบแจ้งหนี้โครงการระหว่างบริษัท
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าการออกใบแจ้งหนี้โครงการระหว่างบริษัทสองแห่งในองค์กรของคุณ งานนี้ใช้ชุดข้อมูล USSI
 

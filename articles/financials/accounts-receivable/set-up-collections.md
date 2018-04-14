@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>การตั้งค่าสินเชื่อและการเรียกเก็บเงิน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการเรียกเก็บเงิน
 
@@ -97,9 +96,9 @@ ms.lasthandoff: 11/03/2017
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่หัวข้อต่อไปนี้
 
  - [สร้างลำดับของจดหมายเรียกเก็บเงิน](tasks/create-collection-letter-sequence.md)
- 
+
  - [ดำเนินการจดหมายเรียกเก็บเงิน](tasks/process-collection-letters.md)
- 
+
  - [การตรวจทานข้อมูลการเรียกเก็บเงิน](tasks/review-collections-information.md)
 
 

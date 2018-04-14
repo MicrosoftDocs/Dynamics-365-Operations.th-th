@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-performance-review"></a>สร้างการตรวจสอบประสิทธิภาพ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน  กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF  กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
 

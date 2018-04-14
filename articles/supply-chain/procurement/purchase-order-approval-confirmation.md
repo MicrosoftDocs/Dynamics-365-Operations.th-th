@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>อนุมัติและยืนยันใบสั่งซื้อ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 บทความนี้อธิบายสถานะต่างๆ ที่ใบสั่งซื้อ (PO) ผ่านหลังจากถูกสร้างขึ้น และผลกระทบของการเปิดใช้งานการจัดการการเปลี่ยนแปลงบน PO
 

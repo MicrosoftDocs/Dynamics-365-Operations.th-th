@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>งานบริการ  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ใช้ภารกิจการให้บริการในการอธิบายภารกิจที่ต้องดำเนินการให้เสร็จสมบูรณ์ในระหว่างใบสั่งบริการ
 ทั้งช่างเทคนิคและลูกค้าสามารถเห็นข้อมูลนี้ได้

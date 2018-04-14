@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>ชำระการชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันลดราคา
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แนะนำคุณผ่านสถานการณ์สมมติการชำระเงินบางส่วนสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และใช้ส่วนลดเงินสด
 

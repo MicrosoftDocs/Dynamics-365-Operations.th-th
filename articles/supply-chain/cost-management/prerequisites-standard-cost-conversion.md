@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายงานการเพื่อดำเนินการก่อนที่คุณจะดำเนินการแปลงต้นทุนมาตรฐาน 
 

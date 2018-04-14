@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-posting"></a>การผลิตที่ลงรายการบัญชีแล้ว
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับชนิดของการลงรายการบัญชีในกระบวนการผลิต
 

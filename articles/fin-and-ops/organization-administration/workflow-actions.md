@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-actions"></a>การดำเนินการลำดับงาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายการดำเนินการที่ผู้เข้าร่วมในกระบวนการอนุมัติลำดับงานสามารถทำได้
 

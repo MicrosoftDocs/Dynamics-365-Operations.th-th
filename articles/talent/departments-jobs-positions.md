@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล หัวข้อนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้ 
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 02/07/2018
 |**ทรัพยากรบุคคล**|ผู้จัดการฝ่ายทรัพยากรบุคคล (ตะวันตก)|ผู้จัดการฝ่ายทรัพยากรบุคคล|
 |**ทรัพยากรบุคคล**|ผู้จัดการฝ่ายทรัพยากรบุคคล (ส่วนกลาง)|ผู้จัดการฝ่ายทรัพยากรบุคคล|
 
- 
+
  <a name="departments"></a>แผนก
 ------------
 

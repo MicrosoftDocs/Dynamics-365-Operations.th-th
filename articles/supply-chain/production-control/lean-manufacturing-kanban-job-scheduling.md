@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>การกำหนดการงานคัมบังสำหรับ Lean Manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลการควบคุมแบบภาพสำหรับกำหนดการงานคัมบังและวิธีต่างๆ ในการจัดกำหนดการงานคัมบัง  
 

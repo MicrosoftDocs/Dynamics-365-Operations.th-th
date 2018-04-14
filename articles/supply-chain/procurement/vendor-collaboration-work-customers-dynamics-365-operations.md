@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานกับลูกค้าใน Microsoft Dynamics 365 for Finance and Operations ผู้จัดจำหน่ายสามารถดำเนินการชุดของกระบวนการทางธุรกิจให้เสร็จสมบูรณ์ได้จากพื้นที่ทำงานต่อไปนี้:
 

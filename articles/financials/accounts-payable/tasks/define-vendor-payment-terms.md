@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-terms"></a>กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ตั้งค่าเงื่อนไขการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย  งานนี้ใช้บริษัทสาธิต USMF 
 

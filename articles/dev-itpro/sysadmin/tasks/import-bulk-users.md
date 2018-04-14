@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-users-in-bulk"></a>นำเข้าผู้ใช้จำนวนมาก
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ผู้ดูแลระบบใช้กระบวนงานนี้ในการนำเข้าผู้ใช้จำนวนมากจาก Azure Active Directory
 

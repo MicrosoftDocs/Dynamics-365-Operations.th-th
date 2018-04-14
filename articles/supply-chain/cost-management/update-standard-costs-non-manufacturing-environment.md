@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้ให้คำแนะนำสำหรับวิธีการอัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 

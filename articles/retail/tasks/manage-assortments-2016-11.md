@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> จัดการการจัดประเภท  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้อธิบายวิธีการสร้างและเผยแพร่การจัดประเภทผลิตภัณฑ์ใหม่และการใช้ข้อมูลบริษัทสาธิต USRT  กระบวนงานนี้จำเป็นต้องใช้แอพลิเคชัน Dynamics AX 7.0.1 หรือใหม่กว่า และแพลตฟอร์ม Dynamics AX 7.1  
 

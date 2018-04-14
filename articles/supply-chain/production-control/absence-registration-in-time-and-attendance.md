@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>การลงทะเบียนการขาดงานในเวลาและการเข้างาน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายแนวคิดสำหรับการขาดงาน และอธิบายวิธีการจัดการการขาดงานในเวลาและการเข้างาน
 

@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>พื้นที่ทำงานการตรวจสอบความถูกต้องของข้อมูล
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของ **พื้นที่ทำงานรายการการตรวจสอบความถูกต้องของข้อมูล** และการตั้งค่าคอนฟิกที่เกี่ยวข้อง
 

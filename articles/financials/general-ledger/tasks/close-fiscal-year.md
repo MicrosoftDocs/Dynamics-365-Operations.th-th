@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="close-the-fiscal-year"></a>ปิดปีบัญชี
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้ระบุกระบวนการปิดบัญชีสิ้นปีที่โอนย้ายยอดดุลไปยังปีบัญชีใหม่
 

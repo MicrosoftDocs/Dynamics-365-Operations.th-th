@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>สร้างใบแจ้งหนี้ข้อความอิสระ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มืองานนี้แสดงการสร้างใบแจ้งหนี้ข้อความอิสระ  งานนี้ใช้บริษัทสาธิต USMF 
 

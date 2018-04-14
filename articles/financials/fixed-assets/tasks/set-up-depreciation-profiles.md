@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>ตั้งค่าและสร้างโพรไฟล์ค่าเสื่อมราคา
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 โพรไฟล์การกำหนดชนิดค่าเสื่อมราคาและความถี่ของค่าเสื่อมราคาสำหรับสินทรัพย์    บันทึกนี้ใช้บริษัท USMF สาธิตและบทบาทของนักบัญชี
 

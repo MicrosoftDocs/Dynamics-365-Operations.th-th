@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>ทรัพยากรของ Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ทรัพยากรการดำเนินงานดำเนินกิจกรรมของโครงการหรือกระบวนการผลิต  พวกเขาสามารถมีชนิดแตกต่างกัน และมีความสามารถที่แตกต่างกัน 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>โฮมเพจการบัญชีต้นทุน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>แผนผังการเรียนรู้ 
 
@@ -37,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 [![แผนผังการเรียนรู้สำหรับการบัญชีต้นทุน](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>ลิงค์ด่วน
+
 |      |   |
 |------|---|
 |  [ตั้งค่าคอนฟิกเอนทิตี้พื้นฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องใช้บัญชี CustomerSource)  |[สร้างมิติ](cost-elements.md)  |

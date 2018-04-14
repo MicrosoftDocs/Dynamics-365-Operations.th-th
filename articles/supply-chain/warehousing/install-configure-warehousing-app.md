@@ -29,11 +29,10 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>ติดตั้งและตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations &#8211; คลังสินค้า
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ cloud ถ้าคุณกำลังค้นหาวิธีการตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 

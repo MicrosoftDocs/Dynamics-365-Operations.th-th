@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>สร้างใบสั่งขาย
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างใบสั่งขาย  คุณสามารถใช้กระบวนงานในข้อมูลสาธิตของบริษัท USMF  โดยทั่วไปจะมีสร้างใบสั่งขายโดยตัวประมวลผลใบสั่งขาย 
 

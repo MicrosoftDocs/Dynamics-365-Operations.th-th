@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>การตั้งค่าคอนฟิกคลังสินค้า
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าคลังสินค้า โดยจะมีข้อมูลเกี่ยวกับวิธีการเปิดใช้งานเค้าโครงคลังสินค้าและกระบวนการคลังสินค้า
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึง Finance and Operations - เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI 
 

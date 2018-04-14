@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 การบันทึกนี้จะแสดงวิธีการสร้างกฎและนโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ และจากนั้น กำหนดกฎสำหรับสวัสดิการ     
 

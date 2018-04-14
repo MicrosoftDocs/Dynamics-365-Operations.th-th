@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>ฟังก์ชันข้อมูลศูนย์บริการ
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 บทความนี้แสดงภาพรวมฟังก์ชันการขายของศูนย์บริการใน Microsoft Dynamics 365 for Retail
 

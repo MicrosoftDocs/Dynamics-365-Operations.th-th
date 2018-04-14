@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>ติดตั้งตัวออกแบบโครงร่าง Retail POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 คุณสามารถใช้ตัวออกแบบคลิกเดียวเพื่อออกแบบโครงร่าง Modern POS ของการขายปลีก (MPOS) และ POS ระบบคลาวด์ต่างๆ ในโหมดแนวนอนหรือโหมดแนวตั้ง สำหรับร้านค้า เครื่องบันทึกเงินสด พนักงาน และผู้จัดการ
 

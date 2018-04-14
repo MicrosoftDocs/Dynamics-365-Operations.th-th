@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>การรายงานทางการเงิน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงตำแหน่งที่สามารถเข้าถึงรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถในการรายงานทางการเงิน ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
 

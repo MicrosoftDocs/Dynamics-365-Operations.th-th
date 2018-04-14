@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>การประมวลผลชุดงานสำหรับการแจ้งเตือน
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ข้อความแจ้งเตือนถูกประมวลผลโดยฟังก์ชันการประมวลผลชุดงานใน Microsoft Dynamics 365 for Finance and Operations คุณต้องตั้งค่าการประมวลผลชุดงาน ก่อนที่จะส่งการแจ้งเตือน
 

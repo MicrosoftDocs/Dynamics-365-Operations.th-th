@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>โฮมเพจการวางแผนหลัก
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 คามหลัก การวางแผนหลักช่วยให้บริษัทสามารถกำหนด และรักษาดุลความต้องการในอนาคตสำหรับวัตถุดิบและกำลังการผลิตให้เป็นไปตามเป้าหมายของบริษัทได้ การวางแผนหลักประเมินรายการต่อไปนี้: 
 
@@ -58,6 +57,7 @@ ms.lasthandoff: 02/13/2018
 [![การเรียนรู้แผนที่สำหรับการวางแผนหลัก](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>ลิงค์ด่วน
+
 |      |   |
 |------|---|
 |        [แผนหลัก](master-plans.md)       |     [จัดทำแผนที่มีข้อจำกัด](./tasks/constrained-plan.md)  |

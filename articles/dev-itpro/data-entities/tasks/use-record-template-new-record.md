@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>ใช้เท็มเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการใช้เท็มเพลตเรกคอร์ดที่กำหนดไว้ก่อนหน้านี้เพื่อสร้างเรกคอร์ดใหม่ เพื่อทำกระบวนงานนี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องดำเนินกระบวนงาน "สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล" ให้เสร็จสมบูรณ์
 

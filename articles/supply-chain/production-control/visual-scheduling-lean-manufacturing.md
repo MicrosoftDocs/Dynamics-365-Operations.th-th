@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>การกำหนดการแบบภาพสำหรับ Lean Manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับบอร์ดกำหนดการคัมบัง ซึ่งสามารถใช้โปรแกรมวางแผนการผลิตเพื่อควบคุมและปรับการตั้งค่าแผนการผลิตสำหรับงานคัมบัง
 

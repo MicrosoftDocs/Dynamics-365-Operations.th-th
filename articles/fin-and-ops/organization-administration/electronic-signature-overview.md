@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของลายเซ็นอิเล็กทรอนิกส์ และอธิบายวิธีการใช้ลายเซ็นดังกล่าวใน Microsoft Dynamics 365 for Finance and Operations
 

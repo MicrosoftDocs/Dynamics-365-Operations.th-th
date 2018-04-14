@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>การตรวจทานข้อมูลการเรียกเก็บเงิน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้นำไปสู่วิธีการตรวจทานข้อมูลการเรียกเก็บเงิน ตลอดจนตัวเลือกต่างๆในการตั้งค่าและการเรียกเก็บเงินธุรกรรม  กระบวนงานนี้ใช้บริษัทสาธิต USMF
 

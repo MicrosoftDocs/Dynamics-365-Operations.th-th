@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>ตั้งค่าผู้จัดจำหน่ายและบัญชีธนาคารของผู้จัดจำหน่ายสำหรับการโอนย้ายเครดิต ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลของผู้จัดจำหน่ายและข้อมูลของบัญชีธนาคารของผู้จัดจำหน่ายเฉพาะที่จำเป็นสำหรับการโอนย้ายเครดิต ISO20022 หรือการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายอื่นใดๆ  
 

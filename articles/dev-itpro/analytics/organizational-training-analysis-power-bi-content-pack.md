@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="organizational-training-power-bi-content"></a>เนื้อหาการฝึกอบรมขององค์กรใน Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงเนื้อหา Power BI ของการฝึกอบรม Finance and Operations - เชิงองค์กร 
 

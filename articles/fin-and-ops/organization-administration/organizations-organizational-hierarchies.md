@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="organizations-and-organizational-hierarchies"></a>องค์กรและลำดับชั้นขององค์กร
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 องค์กร คือ กลุ่มของบุคคลที่ทำงานร่วมกันเพื่อดำเนินกระบวนการทางธุรกิจหรือบรรลุเป้าหมาย  ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ
 

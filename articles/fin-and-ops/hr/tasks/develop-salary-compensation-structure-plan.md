@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสมได้ ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF และงานมีไว้สำหรับค่าตอบแทนและสวัสดิการผู้จัดการ
 

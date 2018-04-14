@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Microsoft Power BI เกี่ยวกับ **การจัดการสินเชื่อและการเรียกเก็บเงิน** และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
@@ -69,22 +69,24 @@ ms.lasthandoff: 03/07/2018
 
 ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกรายงานในเนื้อหา Power BI **การจัดการสินเชื่อและการเรียกเก็บเงิน** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูลเซิร์ฟเวอร์ Microsoft SQL ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
 
-| เอนทิตี้                                      | การวัดแบบรวมหลัก           | แหล่งข้อมูล                                 | ฟิลด์                                                      | คำอธิบาย |
-|---------------------------------------------|--------------------------------------|---------------------------------------------|------------------------------------------------------------|-------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities AveragecClosedTime  | smmActivities                               | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) | จำนวนกิจกรรมที่ปิดและเวลาเฉลี่ยที่จะปิดกิจกรรมเหล่านั้น |
-| CustCollectionsBIActivitiesOpen             | ActivityNumber                       | smmActivities                               | Count(ActivityNumber)                                      | จำนวนของกิจกรรมที่เปิด |
-| CustCollectionsBIAgedBalances               | AgedBalances                         | CustCollectionsBIAgedBalancesView           | Sum(SystemCurrencyBalance)                                 | ผลรวมของยอดดุลตามอายุหนี้ |
-| CustCollectionsBIBalancesDue                | SystemCurrencyAmount                 | CustCollectionsBIBalanceDueView             | Sum(SystemCurrencyAmount)                                  | ยอดเงินที่พ้นกำหนดชำระ |
-| CustCollectionsBICaseAverageCloseTIme       | NumOfCases CaseAverageClosedTime    | CustCollectionsCaseDetail                   | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) | จำนวนกิจกรรมที่ปิดและเวลาเฉลี่ยที่จะปิดกิจกรรมเหล่านั้น |
-| CustCollectionsBICasesOpen                  | CaseId                               | CustCollectionsCaseDetail                   | Count(CaseId)                                              | จำนวนของกรณีที่เปิด |
-| CustCollectionsBICollectionLetter           | CollectionLetterNum                  | CustCollectionLetterJour                    | Count(CollectionLetterNum)                                 | จำนวนของจดหมายเรียกเก็บเงินที่เปิด |
-| CustCollectionsBICollectionLetterAmount     | CollectionLetterAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | ยอดดุลของจดหมายเรียกเก็บเงินที่ลงรายการบัญชีแล้ว |
-| CustCollectionsBICollectionStatus           | CollectionStatusAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | ยอดดุลของธุรกรรมที่มีสถานะการเรียกเก็บเงิน |
-| CustCollectionsBICredit                     | CreditExposed AmountOverCreditLimit | CustCollectionsBICreditView                 | Sum(CreditExposed) Sum(AmountOverCreditLimit)             | ผลรวมของความเสี่ยงเครดิตและยอดเงินที่ลูกค้าเกินวงเงินสินเชื่อ |
-| CustCollectionsBICustOnHold                 | บล็อค                              | CustCollectionsBICustTable                  | Count(Blocked)                                             | จำนวนของลูกค้าที่ระงับ |
-| CustCollectionsBIDSO                        | DSO30                                | CustCollectionsBIDSOView                    | AverageOfChildren(DSO30)                                   | ระยะเวลาการเก็บหนี้ถัวเฉลี่ยนาน 30 วัน |
-| CustCollectionsBIExpectedPayment            | ExpectedPayment                      | CustCollectionsBIExpectedPaymentView        | Sum(SystemCurrencyAmounts)                                 | ผลรวมของการชำระเงินที่คาดไว้ภายในปีถัดไป |
-| CustCollectionsBIInterestNote               | InterestNote                         | CustInterestJour                            | Count(InterestNote)                                        | จำนวนของดอกเบี้ยตั๋วเงินที่ได้มีการสร้าง |
-| CustCollectionsBISalesOnHold                | SalesId                              | SalesTable                                  | Count(SalesId)                                             | จำนวนของใบสั่งขายรวมที่ระงับ |
-| CustCollectionsBIWriteOff                   | WriteOffAmount                       | CustCollectionsBIWriteOffView               | Sum(SystemCurrencyAmount)                                  | ผลรวมของธุรกรรมที่มีการตัดบัญชี |
+
+|                   เอนทิตี้                    |      การวัดแบบรวมหลัก      |             แหล่งข้อมูล              |                           ฟิลด์                            |                                    คำอธิบาย                                     |
+|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     จำนวนกิจกรรมที่ปิดและเวลาเฉลี่ยที่จะปิดกิจกรรมเหล่านั้น     |
+|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           จำนวนของกิจกรรมที่เปิด                            |
+|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             ผลรวมของยอดดุลตามอายุหนี้                              |
+|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           ยอดเงินที่พ้นกำหนดชำระ                            |
+|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        จำนวนกิจกรรมที่ปิดและเวลาเฉลี่ยที่จะปิดกิจกรรมเหล่านั้น        |
+|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              จำนวนของกรณีที่เปิด                              |
+|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       จำนวนของจดหมายเรียกเก็บเงินที่เปิด                        |
+|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     ยอดดุลของจดหมายเรียกเก็บเงินที่ลงรายการบัญชีแล้ว                      |
+|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                ยอดดุลของธุรกรรมที่มีสถานะการเรียกเก็บเงิน                 |
+|           CustCollectionsBICredit           | CreditExposed AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed) Sum(AmountOverCreditLimit)       | ผลรวมของความเสี่ยงเครดิตและยอดเงินที่ลูกค้าเกินวงเงินสินเชื่อ |
+|         CustCollectionsBICustOnHold         |               บล็อค                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     จำนวนของลูกค้าที่ระงับ                      |
+|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        ระยะเวลาการเก็บหนี้ถัวเฉลี่ยนาน 30 วัน                         |
+|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 ผลรวมของการชำระเงินที่คาดไว้ภายในปีถัดไป                 |
+|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                จำนวนของดอกเบี้ยตั๋วเงินที่ได้มีการสร้าง                |
+|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 จำนวนของใบสั่งขายรวมที่ระงับ                 |
+|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                ผลรวมของธุรกรรมที่มีการตัดบัญชี                 |
+
 

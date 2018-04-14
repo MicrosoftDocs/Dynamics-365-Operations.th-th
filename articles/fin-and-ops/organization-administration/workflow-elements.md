@@ -27,8 +27,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="workflow-elements"></a>องค์ประกอบลำดับงาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายองค์ประกอบต่างๆ ที่ประกอบลำดับงาน
 
