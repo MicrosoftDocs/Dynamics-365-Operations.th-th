@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad4212584b0f9062edbd5c13f4c75eaa03c853f7
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="postdated-checks"></a><span data-ttu-id="ff0c8-105">เช็คลงวันที่ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="ff0c8-105">Postdated checks</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff0c8-106">บทความนี้แสดงข้อมูลเกี่ยวกับการสนับสนุนสำหรับเช็คลงวันที่ล่วงหน้าใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ff0c8-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="ff0c8-107">เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต </span><span class="sxs-lookup"><span data-stu-id="ff0c8-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="ff0c8-108">ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="ff0c8-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
@@ -76,14 +75,14 @@ ms.lasthandoff: 03/26/2018
 <td><span data-ttu-id="ff0c8-132">คุณสามารถยกเลิกเช็คลงวันที่ล่วงหน้าที่ลงรายการบัญชีได้ในสถานการณ์เหล่านี้: - เช็คถูกตีกลับโดยธนาคาร</span><span class="sxs-lookup"><span data-stu-id="ff0c8-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
 <span data-ttu-id="ff0c8-133">- มีการใช้เช็คกับใบแจ้งหนี้ที่ไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="ff0c8-133">- The check is applied to an incorrect invoice.</span></span>
 <span data-ttu-id="ff0c8-134">- มีการชำระเงินสดแทนเช็ค</span><span class="sxs-lookup"><span data-stu-id="ff0c8-134">- A cash payment is made against the check.</span></span>
-</td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="ff0c8-135">หยุดการชำระเงินสำหรับเช็คลงวันที่ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="ff0c8-135">Stop payment for a postdated check</span></span></td>
-<td><span data-ttu-id="ff0c8-136">คุณสามารถหยุดการชำระเงินในเช็คลงวันที่ล่วงหน้า ที่ถูกออกให้แก่ผู้จัดจำหน่าย ด้วยเหตุผลเช่น เงินในบัญชีไม่เพียงพอ การเปลี่ยนแปลงเงื่อนไขของข้อตกลงกับผู้จัดจำหน่าย จัดส่งสินค้าที่มีข้อบกพร่องโดยผู้จัดจำหน่าย หรือส่งคืนสินค้าให้แก่ผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="ff0c8-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="ff0c8-137">คุณสามารถหยุดการชำระเงินได้เฉพาะในเช็คที่ยังไม่ได้ขึ้นเงินเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="ff0c8-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td><span data-ttu-id="ff0c8-135">หยุดการชำระเงินสำหรับเช็คลงวันที่ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="ff0c8-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="ff0c8-136">คุณสามารถหยุดการชำระเงินในเช็คลงวันที่ล่วงหน้า ที่ถูกออกให้แก่ผู้จัดจำหน่าย ด้วยเหตุผลเช่น เงินในบัญชีไม่เพียงพอ การเปลี่ยนแปลงเงื่อนไขของข้อตกลงกับผู้จัดจำหน่าย จัดส่งสินค้าที่มีข้อบกพร่องโดยผู้จัดจำหน่าย หรือส่งคืนสินค้าให้แก่ผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="ff0c8-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="ff0c8-137">คุณสามารถหยุดการชำระเงินได้เฉพาะในเช็คที่ยังไม่ได้ขึ้นเงินเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="ff0c8-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0d7fbc5f9b928a43870899836ead4f8adbc1a56
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="ddaec-103">ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="ddaec-103">Identify and deploy candidate selection tools</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ddaec-104">การค้นหากลุ่มผู้สมัครที่เข้าเกณฑ์เพื่อบรรจุลงในตำแหน่งว่างอาจเป็นเรื่องยาก โดยเฉพาะอย่างยิ่งเมื่อตำแหน่งต้องการชุดของทักษะเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="ddaec-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="ddaec-105">อย่างไรก็ตาม คุณอาจมีผู้สมัคร ที่มีทักษะตามที่คุณต้องการทำงานอยู่ในองค์กรของคุณอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="ddaec-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="ddaec-106">คุณสามารถค้นหาชุดของทักษะเฉพาะของพนักงานที่คุณมีอยู่ หรือผู้สมัครใหม่</span><span class="sxs-lookup"><span data-stu-id="ddaec-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="ddaec-107">ซึ่งช่วยให้ผู้สรรหารวบรวมและกรั่นกรองผู้สมัครที่ได้มาสมัครในตำแหน่งงานที่เปิดรับทั้งในอดีตและปัจจุบันได้อย่างรวดเร็ว หรือช่วยให้ค้นหาผู้สมัครที่มีศักยภาพจากกลุ่มพนักงานที่มีอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="ddaec-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="ddaec-108">ใช้การบันทึกงานนี้เพื่อเรียนรู้ว่าฟังก์ชันการแม็ปทักษะสามารถช่วยคุณค้นหาบุคคลที่เหมาะสมสำหรับตำแหน่งที่เปิดรับได้อย่างไร </span><span class="sxs-lookup"><span data-stu-id="ddaec-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="ddaec-109">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="ddaec-109">The demo data company used to create this procedure is USMF.</span></span>
 

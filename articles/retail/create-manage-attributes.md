@@ -20,17 +20,16 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2066f6c9dd71144a330e00a71f02dfc21dd930bc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dccb702c072b7fae41f5200783a9c95eb8c54988
 ms.contentlocale: th-th
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-and-manage-attributes"></a><span data-ttu-id="c99b9-104">สร้างและจัดการแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c99b9-104">Create and manage attributes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c99b9-105">บทความนี้อธิบายถึงแอททริบิวต์ใน Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="c99b9-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="c99b9-106">แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด</span><span class="sxs-lookup"><span data-stu-id="c99b9-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 01/18/2018
 
 ## <a name="attribute-type"></a><span data-ttu-id="c99b9-173">ชนิดแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c99b9-173">Attribute type</span></span>
   <span data-ttu-id="c99b9-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="c99b9-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
-  
+
 <span data-ttu-id="c99b9-175">แอททริบิวต์จะขึ้นอยู่กับชนิดแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="c99b9-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="c99b9-176">ชนิดแอททริบิวต์ระบุชนิดของข้อมูลที่สามารถป้อนเพื่อแอททริบิวต์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="c99b9-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="c99b9-177">ในปัจจุบัน Microsoft Dynamics 365 for Retail สนับสนุนชนิดแอททริบิวต์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c99b9-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
 -   <span data-ttu-id="c99b9-178">**สกุลเงิน**– ชนิดแอททริบิวต์นี้สนับสนุนค่าสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="c99b9-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="c99b9-179">สามารถกำหนดขอบเขต (นั่นคือสามารถสนับสนุนช่วงค่า) หรือสามารถปล่อยให้เปิดไว้ได้</span><span class="sxs-lookup"><span data-stu-id="c99b9-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>

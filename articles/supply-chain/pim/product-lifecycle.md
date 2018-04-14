@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: th-th
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="2bdfd-103">สถานะรอบการขายของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="2bdfd-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2bdfd-104">เอกสารสถานะรอบการขายของผลิตภัณฑ์ สถานะรอบการขายของผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="2bdfd-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="2bdfd-105">สถานะรอบการขายของผลิตภัณฑ์ถูกกำหนดโดยผู้ใช้ โดยทั่วไป ผู้จัดการผลิตภัณฑ์หรือผู้จัดการข้อมูลหลักของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="2bdfd-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="2bdfd-106">กระบวนการทางธุรกิจเฉพาะ เช่น การวางแผนหลัก สามารถได้รับผลกระทบโดยสถานะรอบการขายเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="2bdfd-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="2bdfd-107">ผลิตภัณฑ์ที่นำออกใช้หรือผลิตภัณฑ์ย่อยสามารถเชื่อมโยงกับสถานะรอบการขายของผลิตภัณฑ์ ที่เอกสารในสถานะรอบการขาย ผลิตภัณฑ์เฉพาะ หรือผลิตภัณฑ์ย่อยอยู่ในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="2bdfd-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="2bdfd-108">คุณสามารถกำหนดสถานะรอบการขายผลิตภัณฑ์จำนวนเท่าใดก็ได้ โดยการกำหนดชื่อสถานะและคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="2bdfd-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="2bdfd-109">คุณสามารถเลือกสถานะรอบการขายหนึ่งให้เป็นสถานะเริ่มต้นสำหรับผลิตภัณฑ์ที่นำออกใช้ใหม่</span><span class="sxs-lookup"><span data-stu-id="2bdfd-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="2bdfd-110">ผลิตภัณฑ์ย่อยที่นำออกใช้สืบทอดสถานะรอบการขายผลิตภัณฑ์จากผลิตภัณฑ์หลักที่นำออกใช้ในการสร้าง</span><span class="sxs-lookup"><span data-stu-id="2bdfd-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="2bdfd-111">เมื่อเปลี่ยนสถานะรอบการขายในผลิตภัณฑ์หลักที่นำออกใช้ คุณสามารถเลือกที่จะอัพเดตผลิตภัณฑ์ย่อยที่มีอยู่ทั้งหมดที่มีสถานะดั้งเดิมเหมือนกันได้</span><span class="sxs-lookup"><span data-stu-id="2bdfd-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="2bdfd-112">สร้างสถานะรอบการขายของผลิตภัณฑ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="2bdfd-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="2bdfd-113">เพื่อสถานะสร้างรอบการขายของผลิตภัณฑ์ใหม่ เล่น หรืออ่านคู่มืองาน **สร้างสถานะรอบการขายของผลิตภัณฑ์ใหม่**</span><span class="sxs-lookup"><span data-stu-id="2bdfd-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="2bdfd-114">เพื่อสร้างสถานะสร้างรอบการขายของผลิตภัณฑ์เริ่มต้น เล่น หรืออ่านคู่มืองาน **สร้างสถานะรอบการขายของผลิตภัณฑ์เริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="2bdfd-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="2bdfd-134">สำหรับเหตุผลในด้านประสิทธิภาพ ขอแนะนำอย่างยิ่งให้เชื่อมโยงผลิตภัณฑ์ที่นำออกใช้หรือผลิตภัณฑ์ย่อยที่ล้าสมัยทั้งหมด โดยเฉพาะอย่างยิ่งเมื่อทำงานกับผลิตภัณฑ์ย่อยในการตั้งค่าคอนฟิกที่ไม่สามารถนำกลับมาใช้ใหม่ได้ ซึ่งมีสถานะรอบการขายของผลิตภัณฑ์ที่ถูกปิดใช้งานสำหรับการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="2bdfd-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="2bdfd-135">การย้าย การนำเข้า และการส่งออกข้อมูลค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="2bdfd-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="2bdfd-136">ไม่มีการสนับสนุนสถานะรอบการขายของผลิตภัณฑ์โดยเอนทิตีข้อมูล และไม่สามารถตั้งค่าสถานะรอบการขายเป็นสถานะผันแปรโดยใช้เอนทิตีข้อมูลผลิตภัณฑ์ที่นำออกใช้ได้</span><span class="sxs-lookup"><span data-stu-id="2bdfd-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="2bdfd-137">ในการย้ายจากรุ่นก่อน สถานะรอบการขายของผลิตภัณฑ์และผลิตภัณฑ์ย่อยทั้งหมดจะว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="2bdfd-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="2bdfd-138">เมื่อนำเข้าผลิตภัณฑ์ที่นำออกใช้ผ่านทางเอนทิตีข้อมูล สถานะรอบการขายเริ่มต้นจะถูกนำมาใช้ในการสร้าง</span><span class="sxs-lookup"><span data-stu-id="2bdfd-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="2bdfd-139">เมื่อนำเข้าผลิตภัณฑ์ย่อยที่นำออกใช้ผ่านทางเอนทิตีข้อมูล สถานะรอบการขายของผลิตภัณฑ์ของผลิตภัณฑ์หลักที่นำออกใช้จะถูกนำเข้า</span><span class="sxs-lookup"><span data-stu-id="2bdfd-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="2bdfd-140">ค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยที่ล้าสมัย</span><span class="sxs-lookup"><span data-stu-id="2bdfd-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="2bdfd-141">คุณสามารถเรียกใช้การวิเคราะห์แบบจำลอง เพื่อค้นหาผลิตภัณฑ์ที่นำออกใช้หรือผลิตภัณฑ์ย่อยซึ่งล้าสมัยได้ และจากนั้นอัพเดตสถานะรอบการขายของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="2bdfd-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="2bdfd-142">เมื่อต้องการค้นหาผลิตภัณฑ์ที่ล้าสมัย เล่น และอ่านคู่มืองาน **ค้นหาผลิตภัณฑ์ย่อยที่ล้าสมัย และกำหนดสถานะรอบการขายของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="2bdfd-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="2bdfd-143">คู่มืองานนี้แสดงวิธีการค้นหาผลิตภัณฑ์ที่นำออกใช้หรือผลิตภัณฑ์ย่อยซึ่งล้าสมัย และวิธีการเชื่อมโยงสถานะรอบการขายของผลิตภัณฑ์กับผลิตภัณฑ์ที่ล้าสมัย</span><span class="sxs-lookup"><span data-stu-id="2bdfd-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="2bdfd-144">นอกจากนี้ ยังแสดง hot เพื่อดูผลลัพธ์ของแบบจำลอง และประเมินจำนวนผลิตภัณฑ์และผลิตภัณฑ์ย่อยที่จะเชื่อมโยงกับสถานะรอบการขายของผลิตภัณฑ์ใหม่ เมื่อรันการปรับปรุง โดยไม่มีการจำลอง</span><span class="sxs-lookup"><span data-stu-id="2bdfd-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="2bdfd-145">โดยการรันการวิเคราะห์ในโหมดจำลอง ผลิตภัณฑ์และผลิตภัณฑ์ย่อยที่ระบุเป็นล้าสมัย ถูกแสดงอยู่ในแบบฟอร์มเฉพาะ ที่ซึ่งพวกเขาสามารถตรวจทานได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="2bdfd-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="2bdfd-146">การวิเคราะห์ค้นหาธุรกรรมและข้อมูลหลักเฉพาะในการระบุผลิตภัณฑ์ที่ไม่มีความต้องการภายในรอบระยะเวลาผันแปร และไม่มีข้อมูลหลักที่อาจส่งผลต่อความต้องการ</span><span class="sxs-lookup"><span data-stu-id="2bdfd-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="2bdfd-147">ผลิตภัณฑ์ที่นำออกใช้ใหม่ภายในรอบระยะเวลาผันแปร สามารถถูกแยกออกจากการวิเคราะห์ได้</span><span class="sxs-lookup"><span data-stu-id="2bdfd-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="2bdfd-148">เมื่อการจำลองการวิเคราะห์ส่งคืนผลลัพธ์คาดไว้ ผู้ใช้สามารถรันการวิเคราะห์ และตั้งค่าสถานะรอบการขายของผลิตภัณฑ์ใหม่เป็นผลิตภัณฑ์ทั้งหมดที่ระบุเป็นล้าสมัยด้วยการวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="2bdfd-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="2bdfd-149">โปรดสังเกตว่า การวิเคราะห์และปรับปรุงทั้งหมดจะต้องกระทำภายในนิติบุคคลเดียวเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="2bdfd-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="2bdfd-150">เงื่อนไขในการเลือกและอัพเดตผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="2bdfd-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="2bdfd-151">ใช้เงื่อนไขต่อไปนี้ในการเลือกและอัพเดตผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้:</span><span class="sxs-lookup"><span data-stu-id="2bdfd-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="2bdfd-152">สถานะรอบการขายผลิตภัณฑ์ของผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยต้องแตกต่างจากสถานะที่ต้องการใหม่</span><span class="sxs-lookup"><span data-stu-id="2bdfd-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

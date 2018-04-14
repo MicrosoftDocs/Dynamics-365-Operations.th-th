@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 38ff9fde897136fa23a2c2951167f6507b047b2d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
 ms.contentlocale: th-th
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="feb54-103">ตั้งค่าตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="feb54-103">Set up positions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="feb54-104">ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร</span><span class="sxs-lookup"><span data-stu-id="feb54-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="feb54-105">ตำแหน่งคือแต่ละอินสแตนซ์ของงาน</span><span class="sxs-lookup"><span data-stu-id="feb54-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="feb54-106">ตัวอย่างเช่น ตำแหน่ง "ผู้จัดการฝ่ายขาย (ตะวันออก)" เป็นหนึ่งในตำแหน่งที่สัมพันธ์กับงาน "ผู้จัดการฝ่ายขาย" </span><span class="sxs-lookup"><span data-stu-id="feb54-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="feb54-107">ตำแหน่งมีอยู่ในแผนกและอาจมีผู้ปฏิบัติงานเพียงคนเดียวที่เกี่ยวข้อง </span><span class="sxs-lookup"><span data-stu-id="feb54-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="feb54-108">ในงานนี้ เราจะไปสู่ขั้นตอนที่ต้องการในการสร้างตำแหน่ง </span><span class="sxs-lookup"><span data-stu-id="feb54-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="feb54-109">กระบวนงานนี้มีไว้สำหรับผู้เชี่ยวชาญด้านการทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="feb54-109">This procedure is intended for Human Resources Specialists.</span></span>
 

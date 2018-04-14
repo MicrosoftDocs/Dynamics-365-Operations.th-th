@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 4d591eec163cfe2952f37b93e634eae676860889
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="d6411-103">ตั้งค่ากระบวนการการเพิ่มเติมสินค้าต่ำสุด-สูงสุด</span><span class="sxs-lookup"><span data-stu-id="d6411-103">Set up a min-max replenishment process</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d6411-104">กระบวนงานนี้แสดงวิธีการตั้งค่ากระบวนการการเติมสินค้าใหม่ซึ่งใช้กลยุทธ์การเติมสินค้าต่ำสุด/สูงสุด </span><span class="sxs-lookup"><span data-stu-id="d6411-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="d6411-105">เมื่อสินค้าคงคลังอยู่ต่ำกว่าระดับต่ำสุด งานจะถูกสร้างเพื่อเติมสินค้าให้สถานที่</span><span class="sxs-lookup"><span data-stu-id="d6411-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="d6411-106">กระบวนงานยังแสดงวิธีการใช้สถานที่เบิกที่คงที่ แม้ว่าสินค้าคงคลังอยู่ต่ำกว่าระดับต่ำสุด และวิธีการเปิดใช้งานกระบวนการการเติมสินค้าเพื่อรันตามปกติโดยใช้ชุดงาน</span><span class="sxs-lookup"><span data-stu-id="d6411-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="d6411-107">งานเหล่านี้โดยทั่วไปจะถูกดำเนินการโดยผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="d6411-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="d6411-108">คุณสามารถรันกระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF ในหมายเหตุ หรือสามารถรันได้ในข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="d6411-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="d6411-109">ถ้าคุณกำลังใช้ข้อมูลของคุณเอง ตรวจสอบให้แน่ใจว่า คุณมีคลังสินค้าที่ได้เปิดใช้งานสำหรับกระบวนการการจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="d6411-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/02/2017
     * <span data-ttu-id="d6411-206">นี่คือสถานที่ที่จะกำหนดว่าผลิตภัณฑ์ใดควรถูกเติมสินค้า </span><span class="sxs-lookup"><span data-stu-id="d6411-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="d6411-207">ถ้าตัวเลือกสถานที่เบิกที่คงที่ถูกเลือก คุณยังต้องกำหนดสถานที่ในการสอบถามนี้ด้วย</span><span class="sxs-lookup"><span data-stu-id="d6411-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="d6411-208">การสอบถามเฉพาะ-ตัวแปรจะพร้อมใช้งานเช่นเดียวกับการสอบถามเฉพาะ-ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="d6411-208">Variant-specific queries are available as well product-specific queries.</span></span>  
 18. <span data-ttu-id="d6411-209">เลือกแถวสินค้า</span><span class="sxs-lookup"><span data-stu-id="d6411-209">Select the Items row.</span></span>
 19. <span data-ttu-id="d6411-210">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="d6411-210">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="d6411-211">เลือกสินค้าที่ควรถูกเติมสินค้าที่สถานที่คงที่ </span><span class="sxs-lookup"><span data-stu-id="d6411-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="d6411-212">ตัวอย่างเช่น พิมพ์ชนิด A* เพื่อเลือกหมายเลขสินค้าทั้งหมดที่ขึ้นต้นด้วย A</span><span class="sxs-lookup"><span data-stu-id="d6411-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+    * <span data-ttu-id="d6411-211">เลือกสินค้าที่ควรถูกเติมสินค้าที่สถานที่คงที่ </span><span class="sxs-lookup"><span data-stu-id="d6411-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="d6411-212">ตัวอย่างเช่น พิมพ์ชนิด A\* เพื่อเลือกหมายเลขสินค้าทั้งหมดที่ขึ้นต้นด้วย A</span><span class="sxs-lookup"><span data-stu-id="d6411-212">For example, type A\* to select all item numbers beginning with A.</span></span>  
 20. <span data-ttu-id="d6411-213">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="d6411-213">Click Add.</span></span>
     * <span data-ttu-id="d6411-214">เพิ่มเอนทิตีสถานที่ (ถ้าไม่ได้มีอยู่แล้ว) ให้สามารถที่จะจำกัดงานการเพิ่มเติมสินค้าได้ ไปยังสถานที่เบิกที่คงที่ภายในพื้นที่เฉพาะของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="d6411-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
 21. <span data-ttu-id="d6411-215">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="d6411-215">In the list, mark the selected row.</span></span>

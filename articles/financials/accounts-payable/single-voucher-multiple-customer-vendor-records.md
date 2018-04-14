@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7348706006dd5baec207ed8ef1d208b032a8e16a
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a><span data-ttu-id="255c8-104">ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="255c8-104">Single voucher with multiple customer or vendor records</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="255c8-105">หัวข้อนี้แสดงภาพรวมของสิ่งที่เกิดขึ้นเมื่อคุณลงรายการบัญชีใบสำคัญเดียวกับเรกคอร์ของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="255c8-105">This topic provides an overview of what happens when you post a single voucher with multiple customer or vendor records.</span></span> <span data-ttu-id="255c8-106">ฟังก์ชันนี้จะถูกยกเลิกในเวอร์ชันในอนาคตของ Microsoft Dynamics 365 for Finance and Operations ดังนั้น เราไม่แนะนำให้ใช้วิธีการลงรายการบัญชีนี้ เนื่องจากจะมีผลกระทบด้านการบัญชีต่อการประมวลผลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="255c8-106">This functionality will be discontinued in future versions of Microsoft Dynamics 365 for Finance and Operations, as a result, we do not recommend using this method of posting because of the accounting impact to settlement processing.</span></span> 
 
@@ -251,7 +250,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="255c8-616">001</span><span class="sxs-lookup"><span data-stu-id="255c8-616">001</span></span>         | <span data-ttu-id="255c8-617">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="255c8-617">Customer</span></span>         | <span data-ttu-id="255c8-618">US-008</span><span class="sxs-lookup"><span data-stu-id="255c8-618">US-008</span></span>      |                 |           |  <span data-ttu-id="255c8-619">75.00</span><span class="sxs-lookup"><span data-stu-id="255c8-619">75.00</span></span>     | <span data-ttu-id="255c8-620">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="255c8-620">Ledger</span></span>          | <span data-ttu-id="255c8-621">999999---</span><span class="sxs-lookup"><span data-stu-id="255c8-621">999999---</span></span>          |
 | <span data-ttu-id="255c8-622">002</span><span class="sxs-lookup"><span data-stu-id="255c8-622">002</span></span>         | <span data-ttu-id="255c8-623">ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="255c8-623">Vendor</span></span>           | <span data-ttu-id="255c8-624">1001</span><span class="sxs-lookup"><span data-stu-id="255c8-624">1001</span></span>        |                 |  <span data-ttu-id="255c8-625">75.00</span><span class="sxs-lookup"><span data-stu-id="255c8-625">75.00</span></span>    |            | <span data-ttu-id="255c8-626">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="255c8-626">Ledger</span></span>          | <span data-ttu-id="255c8-627">999999---</span><span class="sxs-lookup"><span data-stu-id="255c8-627">999999---</span></span>          |
 
- 
+
 
 
 

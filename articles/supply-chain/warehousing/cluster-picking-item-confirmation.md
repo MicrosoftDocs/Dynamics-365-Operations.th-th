@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
 ms.contentlocale: th-th
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="c2e8f-103">การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="c2e8f-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="c2e8f-104">การเบิกสินค้าคลัสเตอร์ช่วยให้คุณสามารถเบิกสินค้าสำหรับใบสั่งหลายใบพร้อมกัน</span><span class="sxs-lookup"><span data-stu-id="c2e8f-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="c2e8f-105">เมื่อมีการนำการเบิกสินค้าคลัสเตอร์มาใช้ การยืนยันสินค้าเป็นสิ่งสำคัญยิ่งในการตรวจสอบสินค้าที่ถูกเพิ่มลงในคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="c2e8f-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="c2e8f-106">คุณสามารถตรวจสอบสินค้าในการเบิกสินค้าคลัสเตอร์ในระหว่างกระบวนการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="c2e8f-106">You can verify items in cluster picking during the cluster picking process.</span></span>
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/13/2018
 1.  <span data-ttu-id="c2e8f-111">บนรายการเมนูอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งค่าสำหรับการยืนยันงาน: **การบริหารคลังสินค้า** > **การบริหารคลังสินค้า** > **การตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่**</span><span class="sxs-lookup"><span data-stu-id="c2e8f-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
 2.  <span data-ttu-id="c2e8f-112">จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิด **การตั้งค่าการยืนยันงาน**</span><span class="sxs-lookup"><span data-stu-id="c2e8f-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| <span data-ttu-id="c2e8f-113">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="c2e8f-113">Option</span></span>        | <span data-ttu-id="c2e8f-114">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="c2e8f-114">Description</span></span>   | 
-| ------------- | ------------- |
-|<span data-ttu-id="c2e8f-115">การยืนยันผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c2e8f-115">Product confirmation</span></span> | <span data-ttu-id="c2e8f-116">ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน</span><span class="sxs-lookup"><span data-stu-id="c2e8f-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
+|        <span data-ttu-id="c2e8f-113">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="c2e8f-113">Option</span></span>        |                                    <span data-ttu-id="c2e8f-114">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="c2e8f-114">Description</span></span>                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| <span data-ttu-id="c2e8f-115">การยืนยันผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c2e8f-115">Product confirmation</span></span> | <span data-ttu-id="c2e8f-116">ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน</span><span class="sxs-lookup"><span data-stu-id="c2e8f-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+
 

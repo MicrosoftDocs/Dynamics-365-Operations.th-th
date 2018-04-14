@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="acf6a-103">ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="acf6a-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="acf6a-104">หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="acf6a-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/03/2017
     <span data-ttu-id="acf6a-192">ถ้าผู้ใช้ไม่ดำเนินการกับเอกสารในเวลาที่กำหนด เอกสารจะเกินกำหนด</span><span class="sxs-lookup"><span data-stu-id="acf6a-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="acf6a-193">เอกสารที่เกินกำหนดจะถูกเลื่อนระดับตามตัวเลือกที่คุณเลือกในพื้นที่ **การเลื่อนระดับ** ของหน้า</span><span class="sxs-lookup"><span data-stu-id="acf6a-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="acf6a-194">ถ้าคุณกำหนดขั้นตอนการอนุมัติให้กับผู้ใช้หรือกลุ่มผู้ใช้หลายราย บนแท็บ **นโยบายฉบับสมบูรณ์** เลือกหนึ่งในตัวเลือกต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="acf6a-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="acf6a-195">**ผู้อนุมัติรายเดียว** – การดำเนินการที่ใช้กับเอกสารจะเป็นไปตามบุคคลแรกที่ตอบสนอง</span><span class="sxs-lookup"><span data-stu-id="acf6a-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="acf6a-196">ตัวอย่างเช่น Sam ส่งรายงานค่าใช้จ่ายมูลค่า 15000 เหรียญสหรัฐ</span><span class="sxs-lookup"><span data-stu-id="acf6a-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="acf6a-197">ในขณะนี้รายงานค่าใช้จ่ายถูกกำหนดให้กับ Sue, Jo และ Bill</span><span class="sxs-lookup"><span data-stu-id="acf6a-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="acf6a-198">หาก Sue เป็นบุคคลแรกที่ตอบสนองเอกสารนี้ การดำเนินการของ Sue จะถูกนำไปใช้กับเอกสาร</span><span class="sxs-lookup"><span data-stu-id="acf6a-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="acf6a-199">หาก Sue ปฏิเสธเอกสารนี้ เอกสารจะถูกปฏิเสธและส่งกลับไปยัง Sam</span><span class="sxs-lookup"><span data-stu-id="acf6a-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="acf6a-200">ถ้า Sue อนุมัติเอกสาร เอกสารนี้จะถูกส่งให้กับ Ann เพื่อขอการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="acf6a-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![ลำดับงานที่มีกระบวนการอนุมัติ](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="acf6a-202">**ผู้อนุมัติส่วนใหญ่** –การดำเนินการที่ใช้กับเอกสารนี้จะเป็นไปตามเสียงตอบสนองส่วนใหญ่ของผู้อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="acf6a-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="acf6a-203">ตัวอย่างเช่น Sam ส่งรายงานค่าใช้จ่ายมูลค่า 15000 เหรียญสหรัฐ</span><span class="sxs-lookup"><span data-stu-id="acf6a-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="acf6a-204">ในขณะนี้รายงานค่าใช้จ่ายถูกกำหนดให้กับ Sue, Jo และ Bill</span><span class="sxs-lookup"><span data-stu-id="acf6a-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="acf6a-205">หาก Sue และ Jo เป็นผู้อนุมัติสองคนแรกที่ตอบสนอง การดำเนินการของทั้งสองคนจะถูกนำไปใช้กับเอกสาร</span><span class="sxs-lookup"><span data-stu-id="acf6a-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="acf6a-206">หาก Sue อนุมัติเอกสารนี้แต่ Jo ปฏิเสธ เอกสารจะถูกปฏิเสธและส่งกลับไปยัง Sam</span><span class="sxs-lookup"><span data-stu-id="acf6a-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="acf6a-207">หากทั้ง Sue และ Jo อนุมัติเอกสารนี้ เอกสารจะส่งไปยัง Ann เพื่อทำการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="acf6a-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: th-th
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="e1e8c-103">เนื้อหาการพัฒนาพนักงานใน Power BI</span><span class="sxs-lookup"><span data-stu-id="e1e8c-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e1e8c-104">หัวข้อนี้อธิบายถึงเนื้อหา **การพัฒนาพนักงาน** ใน Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="e1e8c-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="e1e8c-124">คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="e1e8c-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="e1e8c-125">ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)</span><span class="sxs-lookup"><span data-stu-id="e1e8c-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="e1e8c-126">การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="e1e8c-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="e1e8c-127">เอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="e1e8c-127">Entity</span></span>                   | <span data-ttu-id="e1e8c-128">เนื้อหา</span><span class="sxs-lookup"><span data-stu-id="e1e8c-128">Contents</span></span>                                                                                                   | <span data-ttu-id="e1e8c-129">ความสัมพันธ์กับเอนทิตีอื่น</span><span class="sxs-lookup"><span data-stu-id="e1e8c-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="e1e8c-130">ออฟเซ็ตของปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="e1e8c-130">Calendar Offset</span></span>          | <span data-ttu-id="e1e8c-131">ปฏิทินออฟเซ็ตเพื่อแบ่งส่วนรายงาน</span><span class="sxs-lookup"><span data-stu-id="e1e8c-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="e1e8c-132">การกำหนดตำแหน่งที่ผ่านมา แนวโน้มของตำแหน่ง แนวโน้มของพนักงาน พนักงานที่เลิกจ้างไปแล้ว</span><span class="sxs-lookup"><span data-stu-id="e1e8c-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

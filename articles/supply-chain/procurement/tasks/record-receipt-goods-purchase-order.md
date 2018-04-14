@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8a47dac61705831b330f7b4939a18c865a8ace7
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="380b4-103">บันทึกการรับสินค้าในใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="380b4-103">Record the receipt of goods on the purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="380b4-104">ขั้นตอนนี้แสดงวิธีการบันทึกการรับสินค้าโดยตรงในใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="380b4-104">This procedure shows you how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="380b4-105">และยังสามารถลงทะเบียนการรับสินค้าในคลังสินค้า และจากนั้น บันทึกบนใบสั่งซื้อในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="380b4-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="380b4-106">โดยทั่วไปจะมีการทำงานนี้โดยเจ้าหน้าที่จัดซื้อหรือผู้ประสานงานเจ้าหนี้บัญชี</span><span class="sxs-lookup"><span data-stu-id="380b4-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="380b4-107">ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="380b4-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="380b4-108">ตัวอย่างประกอบด้วยขั้นตอนในการสร้างใบสั่งซื้อแบบง่ายเพื่อให้คุณสามารถใช้กระบวนงานเป็นคู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="380b4-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="380b4-109">ถ้าคุณเคยใช้กระบวนงานในข้อมูลของคุณเอง ให้เริ่มต้นที่งานย่อย บันทึกการรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="380b4-109">If you were using the procedure on your own data, you would start at the Record receipt of goods subtask.</span></span>
 

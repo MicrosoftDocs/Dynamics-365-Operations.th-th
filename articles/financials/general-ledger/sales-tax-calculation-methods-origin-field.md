@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="e518f-103">วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="e518f-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="e518f-104">บทความนี้อธิบายถึงตัวเลือกในฟิลด์จุดเริ่มต้นในหน้ารหัสภาษีขาย และวิธีคำนวณภาษีขายตามตัวเลือกที่เลือกสำหรับรหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="e518f-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="e518f-122">ภาษีขาย= 25% โดยใช้เปอร์เซ็นต์ของวิธีการคำนวณยอดเงินรวม</span><span class="sxs-lookup"><span data-stu-id="e518f-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="e518f-123">ถ้ายอดเงินสุทธิ = 10.00 ดังนั้น ภาษี 1 = 1.00 x (10.00 x 10%) และ ภาษี 2 = 2.00 x (10.00 x 20%)</span><span class="sxs-lookup"><span data-stu-id="e518f-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="e518f-124">ยอดเงินจะเป็นดังนี้: ยอดเงินรวม: สุทธิภาษี + ยอดเงินสุทธิ + ยอดเงินภาษี 1 + ยอดเงินภาษี 2 (10.00 + 1.00 + 2.00) = 13.00 ภาษีขาย = 13.00 x 25% = 3.25 ยอดรวมภาษีและภาษีขาย: 1.00 + 2.00 + 3.25 = 6.25 ยอดเงินรวม: 10.00 + 6.25 = 16.25</span><span class="sxs-lookup"><span data-stu-id="e518f-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="e518f-125">**หมายเหตุ**</span><span class="sxs-lookup"><span data-stu-id="e518f-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e518f-126">ภาษีจุดเริ่มต้นรหัสเดียวเท่านั้น = เปอร์เซ็นต์ของยอดเงินรวมที่สามารถใช้สำหรับธุรกรรมได้</span><span class="sxs-lookup"><span data-stu-id="e518f-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="e518f-127">ถ้าภาษีถูกกำหนดมากกว่าหนึงรหัสสำหรับธุรกรรม ข้อผิดพลาดจะถูกแสดงออกมาว่า ไม่สามารถคำนวณภาษีขายได้</span><span class="sxs-lookup"><span data-stu-id="e518f-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="e518f-128">เปอร์เซ็นต์ของภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="e518f-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="e518f-136">ภาษีขาย= 25% โดยใช้เปอร์เซ็นต์ของวิธีการคำนวณยอดเงินรวม</span><span class="sxs-lookup"><span data-stu-id="e518f-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="e518f-137">ยอดเงินสุทธิ: 10.00 ภาษี 1: 10.00 x 10% = 1.00 ภาษี 2: 1.00 x 20% = 0.20 ยอดเงินรวม: 10.00 + 1.00 + 0.20 = 11.20 ภาษีขาย: 11.20 x 25% = 2.80 รวมภาษีและภาษีขาย: 1.00 + 0.20 + 2.80 = 4.00 ยอดเงินรวม: 10.00 + 4.00 = 14.00</span><span class="sxs-lookup"><span data-stu-id="e518f-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="e518f-138">**หมายเหตุ**</span><span class="sxs-lookup"><span data-stu-id="e518f-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e518f-139">ในการคำนวณภาษีจะไม่สามารถคำนวณภาษีหลายระดับได้</span><span class="sxs-lookup"><span data-stu-id="e518f-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="e518f-140">ภาษีจะไม่ถูกคำนวณตามภาษีที่ถูกคำนวณแล้วโดยภาษีอื่น</span><span class="sxs-lookup"><span data-stu-id="e518f-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="e518f-141">ภาษีหลายระดับและภาษีระดับเดียวตามรหัสภาษีสามารถคำนวณในธุรกรรมได้</span><span class="sxs-lookup"><span data-stu-id="e518f-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="e518f-146">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="e518f-146">Example</span></span>
 
 <span data-ttu-id="e518f-147">รหัสภาษีขายถูกตั้งค่าเป็น: USD 1.20 ต่อหน่วย =กล่องในใบแจ้งหนี้การขายรายการ 25 กล่องของสินค้าที่ขาย ภาษีขายจะคำนวณเป็น 25 x 1.20 = 30.00</span><span class="sxs-lookup"><span data-stu-id="e518f-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="e518f-148">-**หมายเหตุ**</span><span class="sxs-lookup"><span data-stu-id="e518f-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e518f-149">ถ้ามีธุรกรรมถูกป้อนในหน่วยที่แตกต่างจากหน่วยที่ระบุในรหัสภาษีขาย ระบบจะแปลงค่าโดยอัตโนมัติตามการแปลงหน่วยที่ถูกตั้งค่าในหน้าการแปลงหน่วย</span><span class="sxs-lookup"><span data-stu-id="e518f-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

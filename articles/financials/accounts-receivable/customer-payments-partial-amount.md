@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1805c5972e2205cffa1a691348e5aa1e36f5f144
 ms.contentlocale: th-th
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="customer-payments-for-a-partial-amount"></a><span data-ttu-id="a727e-105">การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินเป็นบางส่วน</span><span class="sxs-lookup"><span data-stu-id="a727e-105">Customer payments for a partial amount</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a727e-106">บางครั้ง ลูกค้าทำการชำระเงินที่น้อยกว่ายอดเงินของใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="a727e-106">Sometimes, customers make a payment that is less than the amount of an invoice.</span></span> <span data-ttu-id="a727e-107">บทความนี้อธิบายถึงตัวเลือกต่างๆ สำหรับการจัดการสถานการณ์นี้</span><span class="sxs-lookup"><span data-stu-id="a727e-107">This article describes the various options for handling this situation.</span></span> <span data-ttu-id="a727e-108">ตัวเลือกที่พร้อมใช้งานสำหรับคุณขึ้นอยู่กับความต้องการทางธุรกิจของคุณและตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="a727e-108">The options that are available to you depend on your business requirements and configuration.</span></span>
 

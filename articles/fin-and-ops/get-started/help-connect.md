@@ -19,17 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2deb2aea7dce889a655fbd5dec5ec928e0f10bb8
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="connect-the-help-system"></a><span data-ttu-id="876b7-103">เชื่อมต่อระบบวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="876b7-103">Connect the Help system</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="876b7-104">หัวข้อนี้อธิบายส่วนประกอบของระบบวิธีใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="876b7-104">This topic describes the components of the Help system for Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="876b7-105">และให้ภาพรวมของวิธีการเชื่อมต่อส่วนประกอบเหล่านี้และสรุปวิธีการสร้างวิธีใช้แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="876b7-105">It provides an overview of how to connect these components and a summary of how to create custom help.</span></span> 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a><span data-ttu-id="876b7-111">การเชื่อมต่อระบบวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="876b7-111">Connecting the Help system</span></span>
 > [!NOTE]
 > <span data-ttu-id="876b7-112">ในขณะนี้แท็บ **คู่มืองาน** ไม่พร้อมใช้งานใน Microsoft Dynamics 365 for Talent และ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="876b7-112">The **Task guides** tab is currently not available in Microsoft Dynamics 365 for Talent and Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="876b7-113">เรากำลังดำเนินกรเพื่อเปิดใช้งานฟังก์ชันนี้ในรุ่นต่อไป</span><span class="sxs-lookup"><span data-stu-id="876b7-113">We are currently working to enable this functionality in a future release.</span></span> <span data-ttu-id="876b7-114">คู่มืองานในประสบการณ์การเริ่มต้นใช้งานใน Talent ยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="876b7-114">The Task guides in the Getting Started experience in Talent remain available to cover basic functionality.</span></span> <span data-ttu-id="876b7-115">นอกจากนี้วิธีใช้ตามขั้นตอนยังพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) สำหรับทั้ง Retail และ Talent</span><span class="sxs-lookup"><span data-stu-id="876b7-115">Procedural help is also available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
- 
+
 
 <span data-ttu-id="876b7-116">การใช้หน้า **พารามิเตอร์ระบบ** ผู้ดูแลระบบจะเชื่อมต่อชิ้นส่วนของระบบวิธีใช้สำหรับการนำไปใช้</span><span class="sxs-lookup"><span data-stu-id="876b7-116">Using the **System Parameters** page, system administrators connect the pieces of the Help system for an implementation.</span></span> <span data-ttu-id="876b7-117">[![แบบฟอร์มพารามิเตอร์ระบบพร้อมการตั้งค่าวิธีใช้](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) บนหน้า **พารามิเตอร์ระบบ** ให้ปฏิบัติตามขั้นตอนต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="876b7-117">[![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) On the **System parameters** page, follow these steps:</span></span>
 

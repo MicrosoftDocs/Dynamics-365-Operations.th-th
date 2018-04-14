@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="96acf-103">ยืนยันใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="96acf-103">Confirm sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="96acf-104">ขั้นตอนนี้อธิบายวิธีการยืนยันใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="96acf-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="96acf-105">คุณจะได้เห็นวิธีการยืนยันใบสั่งทีละใบ และวิธีการยืนยันใบสั่งหลายใบพร้อมกันในครั้งเดียว </span><span class="sxs-lookup"><span data-stu-id="96acf-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="96acf-106">งานเหล่านี้อาจจะสามารถกระทำโดยผู้ประมวลผลใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="96acf-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="96acf-107">คุณสามารถใช้ขั้นตอนนี้ในข้อมูลสาธิตบริษัท USMF หรือข้อมูลของคุณเอง </span><span class="sxs-lookup"><span data-stu-id="96acf-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="96acf-108">ก่อนที่คุณเริ่ม ตรวจสอบว่ามีใบสั่งขายหลายใบสำหรับลูกค้ารายเดียวกันเปิดอยู่ </span><span class="sxs-lookup"><span data-stu-id="96acf-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="96acf-109">ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ลูกค้า US-027</span><span class="sxs-lookup"><span data-stu-id="96acf-109">If you’re using USMF, you can use customer US-027.</span></span>
 

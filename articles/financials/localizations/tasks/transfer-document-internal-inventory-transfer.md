@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 30e5f6ad184720d0e119f86fb703ed7211b27fab
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ed39f1b11a1a05395028edd50c5b3bf5f08c6ad4
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="68ab6-103">สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน</span><span class="sxs-lookup"><span data-stu-id="68ab6-103">Generate a transfer document for an internal inventory transfer</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="68ab6-104">กระบวนงานนี้แสดงวิธีการสร้างเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท </span><span class="sxs-lookup"><span data-stu-id="68ab6-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="68ab6-105">กระบวนงานนี้จะพร้อมใช้งานสำหรับนิติบุคคลที่มีที่อยู่หลักในลิทัวเนียเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="68ab6-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="68ab6-106">กระบวนงานจะถูกสร้างขึ้นโดยใช้ข้อมูลบริษัทสาธิต DEMF ที่มีที่อยู่หลักในลิทัวเนีย </span><span class="sxs-lookup"><span data-stu-id="68ab6-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="68ab6-107">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ คุณจะต้องดำเนินกระบวนงาน "ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท" ให้เสร็จสมบูรณ์ก่อน </span><span class="sxs-lookup"><span data-stu-id="68ab6-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="68ab6-108">กระบวนงานนี้มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="68ab6-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="68ab6-109">กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="68ab6-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

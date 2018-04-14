@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f3610b52fd690b698d50a608c41adfb918930266
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 13df47f7b04f5fc4b6c9a28b0c05a2b1bd0fe6a8
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="b39ed-103">กำหนดกระบวนการตรวจนับสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="b39ed-103">Define inventory counting processes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b39ed-104">ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ </span><span class="sxs-lookup"><span data-stu-id="b39ed-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="b39ed-105">และยังแสดงวิธีการเปิดใช้งานนโยบายการตรวจนับในคลังสินค้าและระดับสินค้า</span><span class="sxs-lookup"><span data-stu-id="b39ed-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="b39ed-106">โดยปกติแล้วงานเหล่านี้จะถูกดำเนินการโดยหัวหน้างานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="b39ed-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="b39ed-107">ข้อกำหนดเบื้องต้นคือให้มีผลิตภัณฑ์ที่นำออกใช้ที่มีอยู่และคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="b39ed-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="b39ed-108">ถ้าคุณกำลังใช้ข้อมูลบริษัทสาธิต คุณสามารถรันขั้นตอนนี้ในบริษัท USMF กับสินค้าใดๆที่เก็บในคลัง</span><span class="sxs-lookup"><span data-stu-id="b39ed-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 

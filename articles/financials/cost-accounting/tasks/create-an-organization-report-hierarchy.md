@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afac613bdf366c4abcac4ee551e2db3db041803c
 ms.contentlocale: th-th
-ms.lasthandoff: 10/30/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="3aee4-103">สร้างลำดับชั้นรายงานขององค์กร</span><span class="sxs-lookup"><span data-stu-id="3aee4-103">Create an organization report hierarchy</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3aee4-104">ใช้กระบวนงานนี้เพื่อสร้างลำดับชั้นรายงานสำหรับการรายงานขององค์กร</span><span class="sxs-lookup"><span data-stu-id="3aee4-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="3aee4-105">วัตถุประสงค์ของการบันทึกนี้คือเพื่อแนะนำคุณเกี่ยวกับลำดับชั้นมิติเพื่อให้คุณสามารถดำเนินการต่อไปจนกว่าจะมีการสร้างโครงสร้างการรายงานขององค์กร</span><span class="sxs-lookup"><span data-stu-id="3aee4-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="3aee4-106">การบันทึกข้อมูลนี้ใช้บริษัทข้อมูลสาธิต USP2</span><span class="sxs-lookup"><span data-stu-id="3aee4-106">This recording uses the USP2 demo data company.</span></span>
 

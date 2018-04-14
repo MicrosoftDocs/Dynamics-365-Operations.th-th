@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bce608594e2eb0e7769e7dfa2e254e29385000b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a947d4564c8ad97b415b556986c3f815674aa4
 ms.contentlocale: th-th
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a><span data-ttu-id="fdb7a-103">นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="fdb7a-103">Cost rollup policy and overhead calculation</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fdb7a-104">การบัญชีต้นทุนช่วยให้คุณได้รับข้อมูลเชิงลึกว่า กระแสต้นทุนเกี่ยวข้องกับผลิตภัณฑ์และบริการที่ถูกจัดส่งภายในองค์กรได้อย่างไร</span><span class="sxs-lookup"><span data-stu-id="fdb7a-104">Cost accounting lets you gain insight into how the cost flow relates to the products and services that are delivered within an organization.</span></span> <span data-ttu-id="fdb7a-105">เมื่อต้องการดูความโปร่งใสของต้นทุน จำเป็นต้องดำเนินการปันส่วนต้นทุนระหว่างออบเจ็กต์ต้นทุนที่ขึ้นอยู่กับฐานการปันส่วนที่เหมาะสมให้สำเร็จ</span><span class="sxs-lookup"><span data-stu-id="fdb7a-105">To see the cost transparency, it's crucial to achieve cost allocation between cost objects based on an appropriate allocation basis.</span></span> <span data-ttu-id="fdb7a-106">โดยค่าเริ่มต้น การปันส่วนต้นทุนได้บรรลุเป้าหมายสำหรับองค์ประกอบต้นทุนหลัก ที่ต้องการในบางสถานการณ์ แต่มีผลกระทบสองสามรายการที่ควรได้รับการพิจารณา</span><span class="sxs-lookup"><span data-stu-id="fdb7a-106">By default, the cost allocation is achieved for the primary cost element, which is desired in some situations, but it has a few implications that should be considered.</span></span>
 

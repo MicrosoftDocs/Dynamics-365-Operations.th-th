@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 06b98e40948f30d30e6cb20ff2d0a6e726af95a9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9d758ce6cda885e82ee220624da1adb176400877
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-configuration-rules"></a><span data-ttu-id="c662a-103">สร้างกฏการปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="c662a-103">Create configuration rules</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c662a-104">กระบวนงานนี้สร้างกฎการจัดโครงสร้างที่จะใช้สำหรับการจัดโครงแบบตามมิติ เพื่อบังคับและป้องกันชุดบางอย่างของรายการ BOM </span><span class="sxs-lookup"><span data-stu-id="c662a-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="c662a-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="c662a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c662a-106">นี่เป็นกระบวนงานที่เจ็ดจากแปดกระบวนงาน ที่อธิบายวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="c662a-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 

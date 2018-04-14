@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="9b48e-103">การยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="9b48e-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9b48e-104">การเบิกสินค้าเป็นรายชิ้นช่วยให้คุณยืนยันสินค้าคงคลังแต่ละชิ้นโดยใช้การเบิกสินค้าหรืองานการตรวจนับบนอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="9b48e-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="9b48e-105">สำหรับการเบิกสินค้า คุณสามารถยืนยันปริมาณของงานที่จะประมวลผลเท่ากับปริมาณที่ระบุในงานที่จะเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="9b48e-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="9b48e-106">สำหรับงานการตรวจนับ คุณสามารถสแกนสินค้าคงคลังที่คุณกำลังทำการตรวจนับและติดตามยอดเงินรวม</span><span class="sxs-lookup"><span data-stu-id="9b48e-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="9b48e-122">ตัวเลือกต่อไปนี้เปลี่ยนเป็นพร้อมใช้งานสำหรับการเลือก เมื่อชนิดงานเป็นการเบิกสินค้าหรือการตรวจนับ</span><span class="sxs-lookup"><span data-stu-id="9b48e-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="9b48e-123">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="9b48e-123">Option</span></span>        | <span data-ttu-id="9b48e-124">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="9b48e-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="9b48e-125">การยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="9b48e-125">Piece picking confirmation</span></span>   | <span data-ttu-id="9b48e-126">พร้อมใช้งานสำหรับชนิดของงานการตรวจนับและการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="9b48e-126">Available for pick and counting work types.</span></span> <span data-ttu-id="9b48e-127">จะมีการเลือกการยืนยันผลิตภัณฑ์โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="9b48e-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="9b48e-128">ช่วยให้คุณสามารถยืนยันสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="9b48e-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="9b48e-129">จำนวนชิ้นสูงสุด</span><span class="sxs-lookup"><span data-stu-id="9b48e-129">Maximum number of pieces</span></span>     | <span data-ttu-id="9b48e-130">พร้อมใช้งานสำหรับงานการเบิกสินค้า ถ้าเปิดใช้งานการยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="9b48e-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="9b48e-131">ตั้งค่าขีดจำกัดจำนวนชิ้นที่คุณต้องยืนยัน</span><span class="sxs-lookup"><span data-stu-id="9b48e-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="9b48e-123">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="9b48e-123">Option</span></span>           |                                                                            <span data-ttu-id="9b48e-124">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="9b48e-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="9b48e-125">การยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="9b48e-125">Piece picking confirmation</span></span> | <span data-ttu-id="9b48e-126">พร้อมใช้งานสำหรับชนิดของงานการตรวจนับและการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="9b48e-126">Available for pick and counting work types.</span></span> <span data-ttu-id="9b48e-127">จะมีการเลือกการยืนยันผลิตภัณฑ์โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="9b48e-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="9b48e-128">ช่วยให้คุณสามารถยืนยันสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="9b48e-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="9b48e-129">จำนวนชิ้นสูงสุด</span><span class="sxs-lookup"><span data-stu-id="9b48e-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="9b48e-130">พร้อมใช้งานสำหรับงานการเบิกสินค้า ถ้าเปิดใช้งานการยืนยันการเบิกสินค้าเป็นรายชิ้น</span><span class="sxs-lookup"><span data-stu-id="9b48e-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="9b48e-131">ตั้งค่าขีดจำกัดจำนวนชิ้นที่คุณต้องยืนยัน</span><span class="sxs-lookup"><span data-stu-id="9b48e-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

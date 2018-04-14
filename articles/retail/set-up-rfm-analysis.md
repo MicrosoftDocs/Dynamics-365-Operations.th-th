@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: th-th
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="212c6-103">ตั้งค่าการวิเคราะห์ RFM</span><span class="sxs-lookup"><span data-stu-id="212c6-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="212c6-104">หัวข้อนี้อธิบายวิธีการตั้งค่าการวิเคราะห์ระยะเวลา ความถี่ และเงิน (RFM) ของลูกค้าของคุณ </span><span class="sxs-lookup"><span data-stu-id="212c6-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/18/2018
     - <span data-ttu-id="212c6-126">ถ้าแต่ละส่วนของคะแนน RFM ต้องประกอบด้วยจำนวนลูกค้าที่เท่ากัน เลือกกล่องกาเครื่องหมาย **การกระจายเท่าๆ กัน**</span><span class="sxs-lookup"><span data-stu-id="212c6-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="212c6-127">เลือกกล่องกาเครื่องหมาย **เพิ่มคะแนน** เพื่อรวมคะแนนทั้งสามนี้</span><span class="sxs-lookup"><span data-stu-id="212c6-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="212c6-128">ตัวอย่างเช่น รายการนี้จะให้คะแนน RFM แก่ลูกค้า 13 คะแนน แทนที่จะเป็น 535 คะแนน</span><span class="sxs-lookup"><span data-stu-id="212c6-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="212c6-129">เลือกกล่องกาเครื่องหมาย **บันทึกประวัติ** เพื่อกำหนดระบบในการบันทึกข้อมูลทางสถิติสำหรับลูกค้า เพื่อให้สามารถใช้ข้อมูลในการคำนวณคะแนน RFM ได้</span><span class="sxs-lookup"><span data-stu-id="212c6-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="212c6-130">บน FastTab **Recency** ให้ดำเนินการต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="212c6-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="212c6-131">ในฟิลด์ **ส่วน** ป้อนหมายเลขของส่วน หรือกลุ่ม ที่จะใช้เพื่อคำนวณคะแนน recency สำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="212c6-132">ตัวอย่างเช่น ถ้าคุณมีลูกค้า 100 กลุ่ม 5 หมายความว่ามี 20 ลูกค้าสำหรับแต่ละคะแนน </span><span class="sxs-lookup"><span data-stu-id="212c6-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="212c6-133">ลูกค้า 20 รายที่ทำการซื้อมากที่สุดเมื่อเร็วๆ นี้ มีคะแนน recency เท่ากับ 5</span><span class="sxs-lookup"><span data-stu-id="212c6-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="212c6-134">ลูกค้า 20 รายถัดไปมีคะแนน recency เท่ากับ 4 เป็นต้น</span><span class="sxs-lookup"><span data-stu-id="212c6-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="212c6-135">ถ้าคุณมี 50 ลูกค้า 10 ลูกค้ามีคะแนนระยะเวลา 5 10 ลูกค้ามีคะแนนระยะเวลา 4 ไปเรื่อยๆ</span><span class="sxs-lookup"><span data-stu-id="212c6-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="212c6-136">ในฟิลด์ **ระดับความสำคัญ** เลือกจำนวนน้ำหนักที่จะให้แก่พารามิเตอร์ recency โดยสัมพันธ์กับพารามิเตอร์อื่นๆ เมื่อมีการคำนวณคะแนน RFM สำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="212c6-137">ตัวอย่างเช่น คุณอาจวางค่าเพิ่มเติมเกี่ยวกับคะแนนระยะเวลามากกว่าคะแนนการเงิน</span><span class="sxs-lookup"><span data-stu-id="212c6-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="212c6-138">ในฟิลด์ **ตัวคูณ** ป้อนค่าที่จะใช้คูณคะแนน recency</span><span class="sxs-lookup"><span data-stu-id="212c6-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="212c6-139">ถ้าคุณไม่ได้ป้อนค่า จะไม่มีการคูณคะแนน</span><span class="sxs-lookup"><span data-stu-id="212c6-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="212c6-140">ในฟิลด์ **รอบระยะเวลา** เลือกรอบระยะเวลาที่มีการคำนวณคะแนน recency</span><span class="sxs-lookup"><span data-stu-id="212c6-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="212c6-141">ตัวอย่างเช่น ตามสัปดาห์หรือตามเดือน</span><span class="sxs-lookup"><span data-stu-id="212c6-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="212c6-142">บน FastTab **ความถี่** ให้ดำเนินการต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="212c6-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="212c6-143">ในฟิลด์ **ส่วน** ป้อนหมายเลขของส่วน หรือกลุ่ม ที่จะใช้เพื่อคำนวณคะแนนความถี่สำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="212c6-144">ในฟิลด์ **ระดับความสำคัญ** เลือกจำนวนน้ำหนักที่จะให้แก่พารามิเตอร์ความถี่ซึ่งสัมพันธ์กับรายการอื่นๆ เมื่อมีการคำนวณคะแนน RFM สำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="212c6-145">ในฟิลด์ **ตัวคูณ** ป้อนค่าที่จะใช้คูณคะแนนความถี่</span><span class="sxs-lookup"><span data-stu-id="212c6-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="212c6-146">ถ้าคุณไม่ได้ป้อนค่า จะไม่มีการคูณคะแนน</span><span class="sxs-lookup"><span data-stu-id="212c6-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="212c6-147">บน FastTab **การเงิน** ให้ดำเนินการต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="212c6-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="212c6-148">ในฟิลด์ **ส่วน** ป้อนหมายเลขของส่วน หรือกลุ่ม ที่จะใช้เพื่อคำนวณคะแนนการเงินสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="212c6-149">ในฟิลด์ **ระดับความสำคัญ** เลือกจำนวนน้ำหนักที่จะให้แก่พารามิเตอร์การเงินซึ่งสัมพันธ์กับรายการอื่นๆ เมื่อมีการคำนวณคะแนน RFM สำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="212c6-150">ในฟิลด์ **ตัวคูณ** ป้อนค่าที่จะใช้คูณคะแนนการเงิน</span><span class="sxs-lookup"><span data-stu-id="212c6-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="212c6-151">ถ้าคุณไม่ได้ป้อนค่า จะไม่มีการคูณคะแนน</span><span class="sxs-lookup"><span data-stu-id="212c6-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="212c6-152">ในฟิลด์ **รวม/สุทธิ** เลือกว่าควรคำนวณคะแนนการเงินของลูกค้า โดยใช้ยอดเงินใบแจ้งหนี้รวมหรือสุทธิ</span><span class="sxs-lookup"><span data-stu-id="212c6-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="212c6-153">ถ้ามีการลบยอดการส่งคืนของลูกค้าจากการคำนวณผลรวมใบแจ้งหนี้ของลูกค้า เลือกกล่องกาเครื่องหมาย **ลบการส่งคืน**</span><span class="sxs-lookup"><span data-stu-id="212c6-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="212c6-154">ดูคะแนน RFM ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="212c6-155">ใช้กระบวนงานนี้เพื่อดูคะแนน RFM ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="212c6-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

@@ -16,15 +16,15 @@ ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dfe5c25b299284267bed91d58e0acefb7250570
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dd8c3355ac63373768292e1623ad6c771ec5ee1c
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a><span data-ttu-id="44611-103">จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="44611-103">Hire an existing employee through recruiting</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="44611-104">บางครั้งตำแหน่งที่เปิดสามารถให้ผู้ที่เป็นพนักงานในองค์กรของคุณอยู่แล้วสมัครได้ </span><span class="sxs-lookup"><span data-stu-id="44611-104">Sometimes open positions can be filled by candidates who are already employees in your organization.</span></span> <span data-ttu-id="44611-105">ขั้นตอนนี้จะเป็นขั้นตอนในการว่าจ้างโดยนำพนักงานที่มีอยู่ไปยังกระบวนการสรรหาบุคลากร </span><span class="sxs-lookup"><span data-stu-id="44611-105">This procedure walks through the steps of hiring an existing employee through the recruiting process.</span></span> <span data-ttu-id="44611-106">ในขั้นตอนนี้จะ มีการตั้งค่าโครงการสรรหาบุคลากรไว้แล้ว และโครงการสรรหาบุคลากรได้รับใบสมัครพนักงานที่มีอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="44611-106">In this procedure, a recruitment project has already been set up, and an existing employee has already submitted an application for the recruitment project.</span></span> <span data-ttu-id="44611-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="44611-107">The demo data company used to create this procedure is USMF.</span></span>
 

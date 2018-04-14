@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: e675c954769e07b7d0bd7a8d1fd1d66d4270d908
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a1502d90c3ed02246a056d6acc89d39166faac11
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="3c618-103">สร้างสถานะรอบการขายของผลิตภัณฑ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="3c618-103">Create a new product lifecycle state</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3c618-104">กระบวนงานนี้จะแสดงวิธีการสร้างสถานะรอบการขายของผลิตภัณฑ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="3c618-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="3c618-105">เอกสารสถานะรอบการขายของผลิตภัณฑ์ สถานะรอบการขายของผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="3c618-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="3c618-106">สถานะรอบการขายของผลิตภัณฑ์ถูกกำหนดโดยผู้ใช้ โดยทั่วไป ผู้จัดการผลิตภัณฑ์หรือผู้จัดการข้อมูลหลักของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="3c618-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="3c618-107">กระบวนการทางธุรกิจเฉพาะ ตัวอย่างเช่น การวางแผนหลัก สามารถได้รับผลกระทบโดยสถานะรอบการขายเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="3c618-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
 

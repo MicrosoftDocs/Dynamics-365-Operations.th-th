@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: th-th
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="d69ce-103">ภาพรวมของการจัดซื้อและการจัดหา</span><span class="sxs-lookup"><span data-stu-id="d69ce-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d69ce-104">บทความนี้ให้ภาพรวมของฟังก์ชันที่พร้อมใช้งานในโมดูลการจัดหาและการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="d69ce-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="d69ce-108">ความต้องการสำหรับผลิตภัณฑ์หรือบริการอาจเกิดขึ้นจาก *ใบขอซื้อ* ตัวอย่างเช่น เมื่อพนักงานต้องการใช้ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="d69ce-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="d69ce-109">*แค็ตตาล็อกผลิตภัณฑ์* สามารถมีการตั้งค่าเป็นคู่มือการเลือกผลิตภัณฑ์ที่มีอยู่ให้เลือก หรือสามารถมีการร้องขอสำหรับผลิตภัณฑ์ที่ยังไม่ได้ทำให้พร้อมใช้งานในแค็ตตาล็อก การอนุญาตให้แผนกจัดซื้อสามารถพิจารณาวิธีการจัดหาผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="d69ce-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="d69ce-110">*วงเงิน* สามารถใช้เพื่อจำกัดค่าใช้จ่ายในการจัดหาวัตถุดิบ และ *ลำดับงานการซื้อ* เพิ่มตัวเลือกของการอนุมัติที่จำเป็นก่อนมีการสั่งซื้อเกิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="d69ce-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="d69ce-111">ยังสามารถระบุการปันส่วนเงินทุนงบประมาณได้ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="d69ce-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="d69ce-112">แผนกจัดซื้อระบุซัพพลายเออร์สำหรับผลิตภัณฑ์และบริการที่ต้องการ และนี่สามารถเกี่ยวข้องกับ *คำขอใบเสนอราคา* ที่จะส่งออกไปยังซัพพลายเออร์หลายรายที่มีความเป็นไปได้</span><span class="sxs-lookup"><span data-stu-id="d69ce-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="d69ce-113">สามารถแบ่งปันข้อมูลจำเพาะของผลิตภัณฑ์ที่มีการร้องขอ และผู้จัดจำหน่ายที่เป็นไปได้สามารถดูข้อมูลเหล่านี้ได้ว่าพวกเขาสามารถจัดส่งผลิตภัณฑ์ที่สอดคล้องกันได้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="d69ce-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="d69ce-114">ผู้จัดจำหน่ายส่งคืนการประมูลซึ่งได้มีการตรวจทานโดยแผนกจัดซื้อก่อนที่จะเลือกซัพพลายเออร์ที่พวกเขาต้องการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="d69ce-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="d69ce-115">ใบสั่งซื้อรวมตัวเลือกเพื่อส่ง *การสอบถามเกี่ยวกับการซื้อ* ไปยังผู้จัดจำหน่าย ให้เป็นทางเลือกที่มีรายะละเอียดมากขึ้นสำหรับกระบวนการคำขอใบเสนอราคา</span><span class="sxs-lookup"><span data-stu-id="d69ce-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="d69ce-116">การสอบถามเกี่ยวกับการซื้อสามารถใช้เพื่อช่วยในการสร้างเงื่อนไขเช่น ราคา ส่วนลด และวันที่จัดส่งสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="d69ce-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="d69ce-117">ถ้ามีการตั้งค่าผู้จัดจำหน่ายที่จะใช้พอร์ทัล **ผู้จัดจำหน่าย** จะมีการปิดใช้งานฟังก์ชันการสอบถามเกี่ยวกับการซื้อ</span><span class="sxs-lookup"><span data-stu-id="d69ce-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="d69ce-118">ใบสั่งจะถูกใช้ร่วมกันบนพอร์ทัล**ผู้จัดจำหน่าย** แทน และเมื่อ *การยืนยันคำขอ* ถูกส่ง ผู้จัดจำหน่ายสามารถยืนยันใบสั่งได้โดยตรง</span><span class="sxs-lookup"><span data-stu-id="d69ce-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="188dd-104">การดำเนินการด้านบุคลากร [FAQ]</span><span class="sxs-lookup"><span data-stu-id="188dd-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="188dd-105">หัวข้อนี้ประกอบด้วยคำตอบของคำถามที่คุณมี ถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร</span><span class="sxs-lookup"><span data-stu-id="188dd-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="188dd-106">การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร</span><span class="sxs-lookup"><span data-stu-id="188dd-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="188dd-107">ตัวอย่างของงานที่อาจต้องต้องการการดำเนินการด้านบุคลากร คือ เมื่อคุณสร้างตำแหน่งใหม่ ปรับเปลี่ยนค่าตำแหน่งที่มีอยู่ ว่าจ้างผู้ปฏิบัติงานใหม่ โอนย้ายผู้ปฏิบัติงาน เปลี่ยนค่าตอบแทนของผู้ปฏิบัติงาน เปลี่ยนการมอบหมายตำแหน่งงาน หรือเลิกจ้างผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="188dd-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/08/2018
 <span data-ttu-id="188dd-140">ถ้าคำขอการดำเนินการด้านบุคลากรล้มเหลว ให้ทำตามขั้นตอนเหล่านี้เพื่อแก้ไขข้อผิดพลาดและส่งคำขอใหม่</span><span class="sxs-lookup"><span data-stu-id="188dd-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="188dd-141">ใน **บานหน้าต่างการดำเนินการ** ให้คลิกปุ่ม **ข้อความแสดงข้อผิดพลาด** เพื่อแสดงเนื้อหาข้อความที่อธิบายปัญหา</span><span class="sxs-lookup"><span data-stu-id="188dd-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="188dd-142">ใน **บนหน้าต่างการดำเนินการ** ให้คลิก **เรียกใช้ใหม่** เพื่อโหลดข้อมูลล่าสุดและตั้งค่าสถานะของการดำเนินการด้านบุคคลากรกลับไปเป็น **ร่าง**</span><span class="sxs-lookup"><span data-stu-id="188dd-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="188dd-143">แก้ไขข้อผิดพลาด และจากนั้น คลิก **เสร็จสมบูรณ์** หรือ **ส่ง**</span><span class="sxs-lookup"><span data-stu-id="188dd-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="188dd-144">จะเกิดอะไรขึ้นกับการดำเนินการด้านบุคลากรที่ใช้ลำดับงานเมื่อการอนุมัติขั้นสุดท้ายเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="188dd-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

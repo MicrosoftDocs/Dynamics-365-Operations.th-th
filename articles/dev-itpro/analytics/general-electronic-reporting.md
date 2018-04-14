@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="12ee9-104">ภาพรวมการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="12ee9-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="12ee9-105">หัวข้อนี้แสดงภาพรวมของเครื่องมือการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="12ee9-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="12ee9-106">ซึ่งรวมถึงข้อมูลเกี่ยวกับแนวคิดหลัก สถานการณ์จำลองที่ ER สนับสนุน และรายการรูปแบบที่ได้รับการออกแบบและนำออกใช้เป็นส่วนหนึ่งของโซลูชัน</span><span class="sxs-lookup"><span data-stu-id="12ee9-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="12ee9-344">ER ทำให้คุณสามารถนำการเปลี่ยนแปลงมาใช้โดยอัตโนมัติ ของเวอร์ชันล่าสุดของส่วนประกอบพื้นฐานในเวอร์ชันแบบร่างปัจจุบันของส่วนประกอบที่ได้รับมา</span><span class="sxs-lookup"><span data-stu-id="12ee9-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="12ee9-345">กระบวนการนี้เรียกว่า *การปรับใช้ซ้ำ*</span><span class="sxs-lookup"><span data-stu-id="12ee9-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="12ee9-346">ตัวอย่างเช่น การเปลี่ยนแปลงข้อบังคับใหม่ทีได้นำไปใช้ในเวอร์ชันล่าสุดของรูปแบบที่มีการนำเข้าจาก LCS สามารถรวมโดยอัตโนมัติในเวอร์ชันที่กำหนดเองของเอกสารทางอิเล็กทรอนิกส์รูปแบบนี้</span><span class="sxs-lookup"><span data-stu-id="12ee9-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="12ee9-347">การเปลี่ยนแปลงใดๆ ที่ไม่สามารถผสานโดยอัตโนมัติจะถือว่าเป็นความขัดแย้ง</span><span class="sxs-lookup"><span data-stu-id="12ee9-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="12ee9-348">ความขัดแย้งเหล่านี้จะแสดงสำหรับการแก้ปัญหาด้วยตนเองในเครื่องมือผู้ออกแบบสำหรับส่วนประกอบที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="12ee9-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="12ee9-349">เพื่อทำความคุ้นเคยกับสถานการณ์นี้ในรายละเอียด เล่นคู่มืองาน **ER อัพเกรดรูปแบบโดยการใช้เวอร์ชันพื้นฐานใหม่ของรูปแบบนั้น** (ส่วนหนึ่งของกระบวนการทางธุรกิจ **7.5.5.3 จัดหา/พัฒนาส่วนประกอบของบริการแ/โซลูชันด้านไอทีที่มีการเปลี่ยนแปลง (10683)**)</span><span class="sxs-lookup"><span data-stu-id="12ee9-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="12ee9-350">รายการของการตั้งค่าคอนฟิก ER ที่ถูกส่งในโซลูชันการเงินและการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="12ee9-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="12ee9-351">การตั้งค่าคอนฟิกของแบบจำลองข้อมูลเฉพาะโดเมน: ชื่อเรื่อง</span><span class="sxs-lookup"><span data-stu-id="12ee9-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="12ee9-352">โดเมน</span><span class="sxs-lookup"><span data-stu-id="12ee9-352">Domain</span></span>                | <span data-ttu-id="12ee9-353">การตั้งค่าคอนฟิกของรูปแบบที่ยึดตามแบบจำลองข้อมูล: ชื่อเรื่อง</span><span class="sxs-lookup"><span data-stu-id="12ee9-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="12ee9-354">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="12ee9-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="12ee9-355">แบบจำลองไฟล์การตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="12ee9-355">Audit file model</span></span>                                 | <span data-ttu-id="12ee9-356">การตรวจสอบบัญชีทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="12ee9-356">Financial audit</span></span>       |                                                   |                                                                    |

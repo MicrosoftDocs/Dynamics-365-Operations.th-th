@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3293e918c6c1e2b1a71d6ff24761a26b83a0616b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adecf9b2ea29abaee378f1c02c64551c3aeede6d
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-process-a-conformance"></a><span data-ttu-id="ca86c-103">สร้างและประมวลผลความสอดคล้องกัน</span><span class="sxs-lookup"><span data-stu-id="ca86c-103">Create and process a conformance</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ca86c-104">ใช้กระบวนงานนี้เพื่อดำเนินการจัดการไม่สอดคล้องกัน ขึ้นอยู่กับใบสั่งตรวจสอบคุณภาพที่มีอยู่ </span><span class="sxs-lookup"><span data-stu-id="ca86c-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="ca86c-105">คุณสามารถรันการจัดทำเรกคอร์ดนี้ในบริษัทสาธิต USMF และสามารถใช้ค่าแนะนำ</span><span class="sxs-lookup"><span data-stu-id="ca86c-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="ca86c-106">โดยทั่วไป ทำกระบวนงานนี้ โดยเจ้าหน้าที่ในการตรวจสอบคุณภาพ</span><span class="sxs-lookup"><span data-stu-id="ca86c-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="ca86c-107">เป็นข้อกำหนดเบื้องต้น รันการบันทึกภารกิจ "ตรวจสอบคุณภาพของสินค้า"</span><span class="sxs-lookup"><span data-stu-id="ca86c-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="ca86c-108">เพื่อกระบวนการการอนุมัติของความไม่สอดคล้อง ผู้ใช้ที่รันบันทึกงานต้องมีค่า "ชื่อ" กำหนดบนหน้าผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="ca86c-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="ca86c-109">การใช้บันทึกเอกสาร ผู้ใช้ต้องสามารถเรียกใช้ตัวเลือกผู้ใช้ในการจัดการเอกสาร</span><span class="sxs-lookup"><span data-stu-id="ca86c-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 

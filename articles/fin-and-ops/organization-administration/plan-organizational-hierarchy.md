@@ -19,17 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
-ms.openlocfilehash: 47c97ee32c345f584c8efa7a00b7ff3ec4b70475
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e04926abca47444d06708f34278eb02bb1640cd6
 ms.contentlocale: th-th
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-your-organizational-hierarchy"></a><span data-ttu-id="b4d80-103">วางแผนลำดับชั้นขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="b4d80-103">Plan your organizational hierarchy</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b4d80-104">ก่อนที่คุณตั้งค่าองค์กรและลำดับชั้นขององค์กรใน Microsoft Dynamics 365 for Finance and Operations ตรวจสอบให้แน่ใจว่า คุณวางแผนว่าจะสร้างแบบจำลองธุรกิจของคุณอย่างไร</span><span class="sxs-lookup"><span data-stu-id="b4d80-104">Before you set up organizations and organization hierarchies in Microsoft Dynamics 365 for Finance and Operations, make sure that you plan how your business will be modeled.</span></span> <span data-ttu-id="b4d80-105">รูปแบบองค์กรมีผลกระทบที่สำคัญต่อการใช้งานของ Finance and Operations และในกระบวนการทางธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="b4d80-105">The organization model has a significant effect on the implementation of Finance and Operations and on business processes.</span></span> 
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 04/03/2018
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a><span data-ttu-id="b4d80-254">ถ้าจำลององค์กรเป็นหน่วยปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="b4d80-254">If the organization is modeled as an operating unit</span></span> 
 <span data-ttu-id="b4d80-255">ถ้ากฎหมายและแนวทางปฏิบัติด้านบัญชีเหมือนกันในประเทศ/ภูมิภาคที่เป็นที่ตั้งขององค์กรของคุณ คุณสามารถใช้กระบวนงานสิ้นปีเดียวได้ </span><span class="sxs-lookup"><span data-stu-id="b4d80-255">If laws and accounting practices are the same among the countries/regions where your organizations are located, you may use a single set of year-end procedures.</span></span> <span data-ttu-id="b4d80-256">ซึ่งหมายความว่าคุณสามารถจำลององค์กรเป็นหน่วยปฏิบัติงาน </span><span class="sxs-lookup"><span data-stu-id="b4d80-256">This means that you can model the organizations as operating units.</span></span> <span data-ttu-id="b4d80-257">หน่วยปฏิบัติงานทั้งหมดต้องใช้กระบวนงานการปิดบัญชีสิ้นปีเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b4d80-257">All operating units must use the same year-end closing procedure.</span></span> 
-   
+
 ### <a name="number-sequences"></a><span data-ttu-id="b4d80-258">ลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="b4d80-258">Number sequences</span></span>
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a><span data-ttu-id="b4d80-259">ถ้าจำลององค์กรเป็นนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="b4d80-259">If the organization is modeled as a legal entity</span></span>
 <span data-ttu-id="b4d80-260">สามารถตั้งค่าลำดับหมายเลขสำหรับการอ้างอิงบางอย่างสำหรับแต่ละนิติบุคคล </span><span class="sxs-lookup"><span data-stu-id="b4d80-260">Number sequences for some references can be set up per legal entity.</span></span> <span data-ttu-id="b4d80-261">ลำดับหมายเลขบางรายการสามารถใช้ร่วมกันได้</span><span class="sxs-lookup"><span data-stu-id="b4d80-261">Some number sequences can be shared.</span></span> 

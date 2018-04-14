@@ -16,16 +16,16 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ccc5d488d07159981c753c83fdb1d4644b31c8ac
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c3897b6d25a7c414110d635fdadf812e70601712
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-workspaces"></a><span data-ttu-id="3bfef-103">พื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="3bfef-103">Mobile workspaces</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3bfef-104">หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งานสำหรับการใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations</span><span class="sxs-lookup"><span data-stu-id="3bfef-104">This topic lists the mobile workspaces that are available for use with the Dynamics 365 for Unified Operations mobile app.</span></span>
 

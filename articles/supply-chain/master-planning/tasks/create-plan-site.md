@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1452c5d6f5dd8d0dd4cb08eb5cc9a48fd8f875f9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8c44579df2f844bcd4668a218df2ebdca37fa0cc
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-plan-for-a-site"></a><span data-ttu-id="51d11-103">สร้างแผนสำหรับไซต์</span><span class="sxs-lookup"><span data-stu-id="51d11-103">Create a plan for a site</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="51d11-104">ผู้วางแผนการผลิตคำนวณความต้องการทางวัสดุและกำลังการผลิต สำหรับการผลิตสินค้าเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="51d11-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="51d11-105">หลังจากมีการสร้างคำแนะนำในการจัดหา จะพบใบสั่งสำหรับไซต์ที่กำลังวางแผนและยืนยันใบสั่ง ซึ่งเริ่มจากใบสั่งด่วน</span><span class="sxs-lookup"><span data-stu-id="51d11-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="51d11-106">ใบสั่งด่วนส่วนมากคือใบสั่งที่ต้องการการยืนยันในวันที่ปัจจุบัน </span><span class="sxs-lookup"><span data-stu-id="51d11-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="51d11-107">ใช้บริษัทข้อมูลสาธิต USMF เพื่อดำเนินงานเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="51d11-107">Use the demo data company USMF to perform these tasks.</span></span>
 

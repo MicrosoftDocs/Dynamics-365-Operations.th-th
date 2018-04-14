@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 4ca093e74daaf102a92d74f3f05d8ad4ea9cbf1b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: df480e7ae7996599f2e69a2d0e13be6db7a43e13
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="correct-inventory-tracking-information"></a><span data-ttu-id="353a7-103">รวบรวมข้อมูลการติดตามสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="353a7-103">Correct inventory tracking information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="353a7-104">ขั้นตอนนี้นำคุณผ่านกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการโอนสินค้าคงคลังในใบสั่งไปยังทะเบียนการเคลื่อนย้ายของสินค้าจากสถานที่หนึ่งในคลังสินค้าอื่น </span><span class="sxs-lookup"><span data-stu-id="353a7-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to correct inventory tracking information.</span></span> <span data-ttu-id="353a7-105">ในตัวอย่างนี้ เราจะปรับปรุงข้อมูลของสินค้าที่ถูกควบคุมด้วยชุดงาน โดยการเปลี่ยนชุดงานการลงทะเบียนที่ไม่ถูกต้องไปยังชุดงานอื่น</span><span class="sxs-lookup"><span data-stu-id="353a7-105">In this example, we’ll update the information of a batch controlled item by changing an incorrectly registered batch to another batch.</span></span> <span data-ttu-id="353a7-106">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USPI หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="353a7-106">You can walk through this procedure in demo data company USPI, or using your own data.</span></span> <span data-ttu-id="353a7-107">ถ้าคุณใช้ข้อมูลของคุณเอง คุณจำเป็นต้องมีสินค้าที่มีการเปิดใช้งานชุดงาน และจะต้องไม่มีการควบคุมที่ตั้ง</span><span class="sxs-lookup"><span data-stu-id="353a7-107">If you use your own data, you need to have an item that’s batch-enabled, and it must not be location-controlled.</span></span> <span data-ttu-id="353a7-108">คุณยังจำเป็นต้องมีการตั้งค่าชื่อสมุดรายวันสินค้าคงคลังสำหรับการโอนย้ายสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="353a7-108">You also need to have an inventory journal name set up for inventory transfers.</span></span> <span data-ttu-id="353a7-109">งานเหล่านี้จะปกติจะดำเนินการโดยพนักงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="353a7-109">These tasks would normally be carried out by a warehouse employee.</span></span>
 

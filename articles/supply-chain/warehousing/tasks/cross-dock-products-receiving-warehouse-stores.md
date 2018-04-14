@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 78de38597ed0abd81569a6b6e8ee1f154f43ca0d
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a><span data-ttu-id="11fc1-103">ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="11fc1-103">Cross-dock products from receiving warehouse to stores</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="11fc1-104">ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าเพื่อกระจายผลิตภัณฑ์จากสถานที่ที่รับสินค้าในใบสั่งซื้อไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น </span><span class="sxs-lookup"><span data-stu-id="11fc1-104">This procedure walks through the steps to create and process a Cross-dock to distribute products from the receiving location of a purchase order to one or many stores.</span></span> <span data-ttu-id="11fc1-105">ผู้ใช้สามารถกำหนดโครงแบบหลายชนิดและให้ระบบแนะนำวิธีการกระจายผลิตภัณฑ์ หรือป้อนสถานที่ที่จะกระจายผลิตภัณฑ์และจำนวนที่จะกระจายให้กับร้านค้าแต่ละร้านด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="11fc1-105">The user can define multiple configurations and have the system suggest how to distribute the products, or manually enter where the products are distributed to and how much gets distributed to each store.</span></span> <span data-ttu-id="11fc1-106">กระบวนงานนี้ไม่ได้รวมการตั้งค่าข้อมูลที่สามารถใช้ในการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า เช่นกฎการเพิ่มเติมสินค้า ลำดับชั้นขององค์กร และน้ำหนักของร้านค้า </span><span class="sxs-lookup"><span data-stu-id="11fc1-106">The procedure doesn't include setup of data that can be used in the Cross-dock, such as replenishment rules, organizational hierarchies, and store weights.</span></span> <span data-ttu-id="11fc1-107">ขั้นตอนนี้จะใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="11fc1-107">The procedure uses the USRT demo company.</span></span>
 

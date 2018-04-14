@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6bab3de11dbd2aba8b1330284986514a6ac1dfc
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="6cb3a-103">ภาพรวมคำแนะนำผลิตภัณฑ์แบบส่วนบุคคล</span><span class="sxs-lookup"><span data-stu-id="6cb3a-103">Personalized product recommendations overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="6cb3a-104">เราจะลบเวอร์ชันปัจจุบันของบริการแนะนำผลิตภัณฑ์ เนื่องจากเราได้ออกแบบคุณลักษณะนี้ใหม่พร้อมกับอัลกอริทึมที่ดีขึ้นและความสามารถที่เกี่ยวข้องกับการขายปลีกที่ใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="6cb3a-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="6cb3a-105">สำหรับข้อมูลเพิ่มเติม ให้ดู [ลบหรือเลิกใช้คุณลักษณะ](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)</span><span class="sxs-lookup"><span data-stu-id="6cb3a-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span> <span data-ttu-id="6cb3a-106">นำทางไปยังด้านล่างของหน้า ถ้าคุณกำลังพบปัญหาเกี่ยวกับคำแนะนำผลิตภัณฑ์ที่เปิดใช้งานอยู่แล้วสำหรับสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="6cb3a-106">Navigate to the bottom of the page if you are facing issues with already-enabled product recommendations for your environment.</span></span> 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   <span data-ttu-id="6cb3a-145">ข้อมูลประจำตัวและรหัสแบบจำลองจะพร้อมใช้งานสำหรับ CRT เพื่อให้สามารถจ่ายการเรียกใช้คำแนะนำผลิตภัณฑ์จาก Cloud POS and MPOS ในโหมดออนไลน์ได้</span><span class="sxs-lookup"><span data-stu-id="6cb3a-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="6cb3a-146">แก้ไขปัญหาที่ซึ่งคุณมีคำแนะนำผลิตภัณฑ์ที่เปิดใช้งานอยู่แล้ว</span><span class="sxs-lookup"><span data-stu-id="6cb3a-146">Troubleshoot issues where you have Product recommendations already enabled</span></span> 
->- <span data-ttu-id="6cb3a-147">นำทางไปยัง **พารามิเตอร์การขายปลีก** > **Machine learning** > **ปิดใช้งานคำแนะนำผลิตภัณฑ์** และรัน **งานการตั้งค่าคอนฟิกส่วนกลาง [1110]**</span><span class="sxs-lookup"><span data-stu-id="6cb3a-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="6cb3a-148">ถ้าคุณไม่สามารถค้นหาตำแหน่งของแท็บ **Machine learning** ได้ โปรดติดต่อฝ่ายสนับสนุน Dynamics</span><span class="sxs-lookup"><span data-stu-id="6cb3a-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
-
->- <span data-ttu-id="6cb3a-149">ถ้าคุณได้เพิ่ม **ตัวควบคุมคำแนะนำ** ไปยังหน้าจอธุรกรรมของคุณโดยใช้ **โปรแกรมออกแบบโครงร่างหน้าจอ** โปรดลบรายการนั้นเช่นกัน</span><span class="sxs-lookup"><span data-stu-id="6cb3a-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
+> - <span data-ttu-id="6cb3a-147">นำทางไปยัง **พารามิเตอร์การขายปลีก** > **Machine learning** > **ปิดใช้งานคำแนะนำผลิตภัณฑ์** และรัน **งานการตั้งค่าคอนฟิกส่วนกลาง [1110]**</span><span class="sxs-lookup"><span data-stu-id="6cb3a-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="6cb3a-148">ถ้าคุณไม่สามารถค้นหาตำแหน่งของแท็บ **Machine learning** ได้ โปรดติดต่อฝ่ายสนับสนุน Dynamics</span><span class="sxs-lookup"><span data-stu-id="6cb3a-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
+> 
+> - <span data-ttu-id="6cb3a-149">ถ้าคุณได้เพิ่ม **ตัวควบคุมคำแนะนำ** ไปยังหน้าจอธุรกรรมของคุณโดยใช้ **โปรแกรมออกแบบโครงร่างหน้าจอ** โปรดลบรายการนั้นเช่นกัน</span><span class="sxs-lookup"><span data-stu-id="6cb3a-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
 
 
 

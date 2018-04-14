@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0e2e99bc1132f50bca4e6c21abccdc685658a178
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-production-flow-version"></a><span data-ttu-id="4375c-103">สร้างเวอร์ชันขั้นตอนการผลิต</span><span class="sxs-lookup"><span data-stu-id="4375c-103">Create a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4375c-104">กระบวนงานนี้มุ่งเน้นสร้างเวอร์ชันใหม่ของขั้นตอนการผลิต </span><span class="sxs-lookup"><span data-stu-id="4375c-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="4375c-105">สำหรับกระบวนงานนี้ พารามิเตอร์การผลิตสำหรับ Lean Manufacturing และหน่วยวัดเวลาต้องถูกกำหนด</span><span class="sxs-lookup"><span data-stu-id="4375c-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="4375c-106">คุณต้องกำหนดสายธารคุณค่าและกลุ่มการผลิตอีกด้วย </span><span class="sxs-lookup"><span data-stu-id="4375c-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="4375c-107">เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับขั้นตอนการผลิตและกิจกรรมในการผลิตแบบ lean ดูเอกสารในการผลิตแบบ Lean สำหรับ Microsoft Dynamics AX </span><span class="sxs-lookup"><span data-stu-id="4375c-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="4375c-108">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="4375c-108">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6587189fe2a366caebd0dbaf34487d578815bb94
 ms.contentlocale: th-th
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a><span data-ttu-id="5aea3-103">ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI</span><span class="sxs-lookup"><span data-stu-id="5aea3-103">Configure Electronic reporting to pull data into Power BI</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5aea3-104">หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การรายงานทางอิเล็กทรอนิกส์ (ER) ของคุณในการจัดเรียงการโอนย้ายข้อมูลจากอินสแตนซ์ของ Finance and Operations ของคุณไปยังการบริการ Power BI</span><span class="sxs-lookup"><span data-stu-id="5aea3-104">This topic explains how you can use your Electronic reporting (ER) configuration to arrange the transfer of data from your instance of Finance and Operations to Power BI services.</span></span> <span data-ttu-id="5aea3-105">ดังเช่นตัวอย่าง หัวข้อนี้ใช้ธุรกรรมอินทราสแทตเป็นข้อมูลธุรกิจที่ต้องโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="5aea3-105">As an example, this topic uses Intrastat transactions as business data that must be transferred.</span></span> <span data-ttu-id="5aea3-106">การแสดงภาพแผนผัง Power BI ใช้ข้อมูลธุรกรรมอินทราสแทตนี้ในการแสดงมุมมองสำหรับการวิเคราะห์ของกิจกรรมการนำเข้า/ส่งออกบริษัทในรายงาน Power BI</span><span class="sxs-lookup"><span data-stu-id="5aea3-106">The Power BI map visualization uses this Intrastat transaction data to present a view for analysis of company import/export activities on the Power BI report.</span></span>
 
@@ -118,9 +117,9 @@ ms.lasthandoff: 02/23/2018
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a><span data-ttu-id="5aea3-217">สร้างรายงาน Power BI โดยใช้ชุดข้อมูลใหม่</span><span class="sxs-lookup"><span data-stu-id="5aea3-217">Create a Power BI report by using the new dataset</span></span>
 1. <span data-ttu-id="5aea3-218">คลิก **นำเข้าและส่งออกรายละเอียด** ชุดข้อมูล Power BI ที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="5aea3-218">Click the **Import and export details** Power BI dataset that you created.</span></span> 
 2. <span data-ttu-id="5aea3-219">ตั้งค่าคอนฟิกการแสดงภาพ</span><span class="sxs-lookup"><span data-stu-id="5aea3-219">Configure the visualization.</span></span> <span data-ttu-id="5aea3-220">ตัวอย่างเช่น เลือกการแสดงภาพ **แผนผังที่บรรจุแล้ว** และตั้งค่าคอนฟิกดังนี้:</span><span class="sxs-lookup"><span data-stu-id="5aea3-220">For example, select the **Filled map** visualization, and configure it as follows:</span></span>
- -   <span data-ttu-id="5aea3-221">กำหนดฟิลด์ชุดข้อมูล **CountryOrigin** ไปยังฟิลด์ **สถานที่** ของการแสดงภาพแผนผัง</span><span class="sxs-lookup"><span data-stu-id="5aea3-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
- -   <span data-ttu-id="5aea3-222">กำหนดฟิลด์ชุดข้อมูล **จำนวน** ไปยังฟิลด์ **ความอิ่มตัวสี** ของการแสดงภาพแผนผัง</span><span class="sxs-lookup"><span data-stu-id="5aea3-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
- -   <span data-ttu-id="5aea3-223">เพิ่มฟิลด์ชุดข้อมูล **กิจกรรม** และ **ปี** ไปยังการรวบรวมฟิลด์ **ตัวกรอง** ของการแสดงภาพแผนผัง</span><span class="sxs-lookup"><span data-stu-id="5aea3-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
+   -   <span data-ttu-id="5aea3-221">กำหนดฟิลด์ชุดข้อมูล **CountryOrigin** ไปยังฟิลด์ **สถานที่** ของการแสดงภาพแผนผัง</span><span class="sxs-lookup"><span data-stu-id="5aea3-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
+   -   <span data-ttu-id="5aea3-222">กำหนดฟิลด์ชุดข้อมูล **จำนวน** ไปยังฟิลด์ **ความอิ่มตัวสี** ของการแสดงภาพแผนผัง</span><span class="sxs-lookup"><span data-stu-id="5aea3-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
+   -   <span data-ttu-id="5aea3-223">เพิ่มฟิลด์ชุดข้อมูล **กิจกรรม** และ **ปี** ไปยังการรวบรวมฟิลด์ **ตัวกรอง** ของการแสดงภาพแผนผัง</span><span class="sxs-lookup"><span data-stu-id="5aea3-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
 
 3. <span data-ttu-id="5aea3-224">บันทึกรายงาน Power BI เป็น **รายงานการนำเข้าและส่งออกรายละเอียด**</span><span class="sxs-lookup"><span data-stu-id="5aea3-224">Save the Power BI report as **Import and export details report**.</span></span> <span data-ttu-id="5aea3-225">[![รายงานการนำเข้าและส่งออกรายละเอียด](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) หมายเหตุว่า แผนผังแสดงประเทศ/ภูมิภาคที่ระบุไว้ในไฟล์ Excel (ในตัวอย่างนี้คือออสเตรียและสวิตเซอร์แลนด์)</span><span class="sxs-lookup"><span data-stu-id="5aea3-225">[![Import and export details report](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Note that the map shows the countries/regions that are mentioned in the Excel file (Austria and Switzerland in this example).</span></span> <span data-ttu-id="5aea3-226">ประเทศ/ภูมิภาคจะถูกระบุสีเพื่อแสดงสัดส่วนของยอดเงินที่ออกใบแจ้งหนี้สำหรับแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="5aea3-226">These countries/regions are colored to show the proportion of invoiced amounts for each.</span></span> 
 4. <span data-ttu-id="5aea3-227">อัพเดตรายการของธุรกรรมอินทราสแทต</span><span class="sxs-lookup"><span data-stu-id="5aea3-227">Update the list of Intrastat transactions.</span></span> <span data-ttu-id="5aea3-228">มีการเพิ่มธุรกรรมการส่งออกที่สร้างขึ้นจากอิตาลี</span><span class="sxs-lookup"><span data-stu-id="5aea3-228">The export transaction that originated from Italy is added.</span></span> <span data-ttu-id="5aea3-229">[![รายการธุรกรรมอินทราสแทต](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span><span class="sxs-lookup"><span data-stu-id="5aea3-229">[![Intrastat transactions list](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span></span> 

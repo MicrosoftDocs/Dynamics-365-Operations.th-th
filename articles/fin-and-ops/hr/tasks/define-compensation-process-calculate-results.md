@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 9cc66eccec146c9f8f562b5d4e4d21bb6b7c6457
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
 ms.contentlocale: th-th
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="0fe1b-103">กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="0fe1b-103">Define compensation process and calculate results</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0fe1b-104">กระบวนการค่าตอบแทนถูกใช้เพื่อกำหนดจำนวนค่าตอบแทนใหม่และรางวัลสำหรับพนักงานที่ลงทะเบียนในแผนค่าตอบแทนคงที่และแผนค่าตอบแทนผันแปร </span><span class="sxs-lookup"><span data-stu-id="0fe1b-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="0fe1b-105">กระบวนการค่าตอบแทนสามารถรันได้หลายครั้งเพื่อดำเนินการ "วิเคราะห์เชิง" เพื่อตรวจสอบการเปลี่ยนแปลงและการตั้งค่าทั้งหมดที่ถูกต้อง </span><span class="sxs-lookup"><span data-stu-id="0fe1b-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="0fe1b-106">ขั้นตอนนี้จะสร้างกระบวนการค่าตอบแทน รันกระบวนการ และแสดงผลลัพธ์ </span><span class="sxs-lookup"><span data-stu-id="0fe1b-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="0fe1b-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="0fe1b-107">The demo data company used to create this procedure is USMF.</span></span>
 

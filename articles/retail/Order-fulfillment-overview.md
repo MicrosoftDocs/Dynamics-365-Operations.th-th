@@ -18,16 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1ac73b50c6051ba7d3b96ae49cb7e33cf436ba9e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5ab58a7e977b5a23825c60a53c8064c831bae512
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a><span data-ttu-id="c7767-103">การเติมสินค้าของใบสั่งของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="c7767-103">Store order fulfillment</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c7767-104">ผู้ค้าปลีกหลายรายต้องการปรับปรุงการเติมสินค้าของใบสั่ง โดยการเปิดใช้งานร้านค้าเพื่อกรอกข้อมูลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c7767-104">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="c7767-105">การเติมสินค้าของใบสั่งในระดับร้านค้าสามารถช่วยให้สถานการณ์การเก็บสินค้ามากเกินไปง่ายขึ้นสำหรับร้านค้าเฉพาะ หรืออาจเป็นที่ต้องการจากจุดยืนเชิงตรรกะ ในกรณีที่ร้านค้ามีกำลังการผลิตพิเศษ หรือตั้งอยู่ภายในระยะการจัดส่งที่ใกล้เคียงยิ่งขึ้นให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="c7767-105">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="c7767-106">เพื่อระบุความต้องการนี้ การดำเนินการเติมสินค้าตามใบสั่งแบบรวมจะพร้อมใช้งานที่จุดขายหน้าร้าน</span><span class="sxs-lookup"><span data-stu-id="c7767-106">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>
 

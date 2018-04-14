@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52e6003dfddc398c19055405bf936195febe0737
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-discounts"></a><span data-ttu-id="e5bf7-104">ส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="e5bf7-104">Cash discounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e5bf7-105">บัญชีเจ้าหนี้และบัญชีลูกหนี้มีการกำหนดและใช้ส่วนลดเงินสดร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="e5bf7-105">Cash discounts are setup and shared for Accounts payable and Accounts receivable.</span></span>  <span data-ttu-id="e5bf7-106">ส่วนลดเงินสดสามารถกำหนดในใบแจ้งหนี้ของลูกค้าหรือใบแจ้งหนี้ของผู้จัดจำหน่าย และจะได้รับหากชำระใบแจ้งหนี้ภายในวันที่ให้ส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="e5bf7-106">The cash discount available can be defined on the customer invoice or vendor invoice, and will be taken if the invoice is paid within the cash discount date.</span></span> 
 
@@ -65,6 +64,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="e5bf7-135">1 มีนาคม = 80</span><span class="sxs-lookup"><span data-stu-id="e5bf7-135">March 1 = 80</span></span>
 
 <span data-ttu-id="e5bf7-136">ใบแจ้งหนี้สำหรับ USD 1000 กับเงื่อนไขส่วนลดเงินสดของ 20D2% ที่ลงรายการบัญชีในวันที่ 15 กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="e5bf7-136">An invoice for 1000 USD with cash discount terms of 20D2% is posted on February 15.</span></span> <span data-ttu-id="e5bf7-137">ยอดเงินสกุลเงินทางบัญชีของใบแจ้งหนี้เป็น 1100 EUR</span><span class="sxs-lookup"><span data-stu-id="e5bf7-137">The accounting currency amount of the invoice is 1100 EUR.</span></span> <span data-ttu-id="e5bf7-138">การชำระเงินสำหรับ USD 980 ที่มีการชำระด้วยใบแจ้งหนี้ในวันที่ 1 มีนาคม</span><span class="sxs-lookup"><span data-stu-id="e5bf7-138">A payment for 980 USD is settled with the invoice on March 1.</span></span> <span data-ttu-id="e5bf7-139">ยอดส่วนลดเงินสดคือ USD 20</span><span class="sxs-lookup"><span data-stu-id="e5bf7-139">The cash discount amount is 20 USD.</span></span> <span data-ttu-id="e5bf7-140">ยอดเงินในสกุลเงินทางบัญชีของการชำระเงินคือ 784 EUR</span><span class="sxs-lookup"><span data-stu-id="e5bf7-140">The accounting currency amount of the payment is 784 EUR.</span></span> <span data-ttu-id="e5bf7-141">ยอดเงินในสกุลเงินทางบัญชีของส่วนลดเงินสดจะคำนวณโดยการใช้อัตราแลกเปลี่ยน ณ วันที่ 1 มีนาคม: 20 \* 80 / 100 = 16 EUR.</span><span class="sxs-lookup"><span data-stu-id="e5bf7-141">The accounting currency amount of the cash discount is calculated by using the exchange rate as of March 1: 20 \* 80 / 100 = 16 EUR.</span></span>
+
 | <span data-ttu-id="e5bf7-142">**หมายเหตุ**</span><span class="sxs-lookup"><span data-stu-id="e5bf7-142">**Note**</span></span>                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e5bf7-143">คำนวณส่วนลดเงินสดสำหรับตัวเลือกการชำระเงินบางส่วนที่ถูกเลือกในหน้าพารามิเตอร์บัญชีลูกหนี้หรือพารามิเตอร์บัญชีเจ้าหนี้ อัตราแลกเปลี่ยนที่มีผลบังคับในวันที่ของ แต่ละการชำระเงินบางส่วนจะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="e5bf7-143">If the Calculate cash discounts for partial payments option is selected in the Accounts receivable parameters or Accounts payable parameters pages, the exchange rate that is in effect on the date of each partial payment is used.</span></span> |

@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8b32b32a2cc8f7ac36e6c27ab17e550b5e3bd17
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="af4c5-103">แม็ปส่วนประกอบของรูปแบบที่สร้างกับองค์ประกอบแบบจำลองข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="af4c5-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="af4c5-104">กระบวนงานต่อไปนี้แสดงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถแม็ปองค์ประกอบแบบจำลองข้อมูลไปยังส่วนประกอบของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้น ซึ่งจะกำหนดรูปแบบเอกสารอิเล็กทรอนิกส์สำหรับโดเมนธุรกิจการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="af4c5-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="af4c5-105">รูปแบบนี้จะใช้ในภายหลังเพื่อสร้างเอกสารอิเล็กทรอนิกส์สำหรับการประมวลผลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="af4c5-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="af4c5-106">ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกรูปแบบบริษัทตัวอย่าง ‘Litware, Inc.’</span><span class="sxs-lookup"><span data-stu-id="af4c5-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="af4c5-107">ขั้นตอนเหล่านี้สามารถทำได้ในบริษัทใดๆ เนื่องจากมีการใช้การตั้งค่าคอนฟิก ER ร่วมกันสำหรับบริษัททั้งหมด</span><span class="sxs-lookup"><span data-stu-id="af4c5-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="af4c5-108">เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในคู่มืองาน "สร้างการตั้งค่าคอนฟิกรูปแบบ"</span><span class="sxs-lookup"><span data-stu-id="af4c5-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 

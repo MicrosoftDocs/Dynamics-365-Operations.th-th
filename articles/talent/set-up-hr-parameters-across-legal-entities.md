@@ -19,17 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: badbeb8f80cf10dac890cef6267e0d910cae971b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e73441a3f4190561d1d16db40ee1581267c8dfb
 ms.contentlocale: th-th
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a><span data-ttu-id="b7abe-104">ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="b7abe-104">Set up HR parameters across legal entities</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="b7abe-105">คุณต้องตั้งค่าพารามิเตอร์ที่ใช้ร่วมกันสำหรับเรกคอร์ดที่ใช้ร่วมกันระหว่างบริษัท เช่นเรกคอร์ดตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="b7abe-105">You must set up shared parameters for records that are shared across companies, such as Position records.</span></span> <span data-ttu-id="b7abe-106">บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="b7abe-106">This article explains how to set up Human resources parameters across legal entities.</span></span>
 

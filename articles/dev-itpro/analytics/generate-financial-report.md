@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="4610f-103">สร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="4610f-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4610f-104">หัวข้อนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="4610f-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="4610f-115">สร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="4610f-115">Generate a financial report</span></span>
 
 <span data-ttu-id="4610f-116">เมื่อต้องการสร้างรายงาน ด้วย Microsoft Dynamics 365 for Finance and Operations ไปที่ **บัญชีแยกประเภททั่วไป** > **การสอบถามและรายงาน** > **รายงานทางการเงิน**</span><span class="sxs-lookup"><span data-stu-id="4610f-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="4610f-117">เลือกรายงานที่จะสร้าง และคลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="4610f-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="4610f-118">เติมข้อมูลในฟิลด์ **วันที่รายงาน** และคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="4610f-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="4610f-119">หลังจากที่มีการสร้างรายงาน รายงานจะพร้อมใช้งานเมื่อต้องการดูในส่วน **รายงาน**</span><span class="sxs-lookup"><span data-stu-id="4610f-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="4610f-120">คุณสามารถเลือกที่จะ **ดู** หรือ **ลบ** รายงานได้</span><span class="sxs-lookup"><span data-stu-id="4610f-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="4610f-117">เลือกรายงานที่จะสร้าง และคลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="4610f-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="4610f-118">เติมข้อมูลในฟิลด์ **วันที่รายงาน** และคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="4610f-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="4610f-119">หลังจากที่มีการสร้างรายงาน รายงานจะพร้อมใช้งานเมื่อต้องการดูในส่วน **รายงาน**</span><span class="sxs-lookup"><span data-stu-id="4610f-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="4610f-120">คุณสามารถเลือกที่จะ **ดู** หรือ **ลบ** รายงานได้</span><span class="sxs-lookup"><span data-stu-id="4610f-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="4610f-121">เมื่อต้องการสร้างรายงานโดยใช้ **ตัวออกแบบรายงาน** เปิดข้อกำหนดของรายงาน และจากนั้นคลิกปุ่มสร้างในแถบเครื่องมือ</span><span class="sxs-lookup"><span data-stu-id="4610f-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="4610f-122">หน้าต่าง สถานะคิวรายงาน จะเปิด และระบุที่ตั้งของรายงานของคุณในคิวนั้น</span><span class="sxs-lookup"><span data-stu-id="4610f-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="4610f-123">โดยค่าเริ่มต้น รายงานที่สร้างจะเปิดขึ้นใน Web Viewer</span><span class="sxs-lookup"><span data-stu-id="4610f-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="4610f-237">เปิดข้อกำหนดของรายงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4610f-237">Open the selected report definition</span></span>  | <span data-ttu-id="4610f-238">Ctrl + R</span><span class="sxs-lookup"><span data-stu-id="4610f-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="4610f-239">เปิดคำนิยามแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4610f-239">Open the selected row definition</span></span>     | <span data-ttu-id="4610f-240">Ctrl + O</span><span class="sxs-lookup"><span data-stu-id="4610f-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="4610f-241">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="4610f-241">See also</span></span>
 --------
 

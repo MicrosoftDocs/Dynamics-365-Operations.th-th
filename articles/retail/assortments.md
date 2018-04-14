@@ -15,15 +15,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 364207d188c0361cbbc9627bec35e059a7bb552c
 ms.contentlocale: th-th
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="assortment-management"></a><span data-ttu-id="65096-103">การจัดการการจัดประเภท</span><span class="sxs-lookup"><span data-stu-id="65096-103">Assortment management</span></span>
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="65096-104">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="65096-104">Overview</span></span>
 <span data-ttu-id="65096-105">Microsoft Dynamics 365 for Retail ให้ *การจัดประเภท* ที่ทำให้คุณสามารถจัดการความพร้อมของผลิตภัณฑ์ได้ในทุกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="65096-105">Microsoft Dynamics 365 for Retail provides *assortments* that let you manage product availability across channels.</span></span> <span data-ttu-id="65096-106">การจัดประเภทกำหนดว่าผลิตภัณฑ์ใดที่จะพร้อมใช้งาน ณ ร้านค้าหนึ่งๆ และในระหว่างรอบระยะเวลาที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="65096-106">Assortments determine which products are available at specific stores and during a specific period.</span></span>

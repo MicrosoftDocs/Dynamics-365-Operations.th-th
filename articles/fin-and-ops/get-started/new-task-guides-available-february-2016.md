@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="678fd-104">คู่มืองานใหม่ (กุมภาพันธ์ 2016)</span><span class="sxs-lookup"><span data-stu-id="678fd-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="678fd-105">หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016</span><span class="sxs-lookup"><span data-stu-id="678fd-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="678fd-106">ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน</span><span class="sxs-lookup"><span data-stu-id="678fd-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-124">ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="678fd-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="678fd-125">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-125">Global</span></span>             |
 | <span data-ttu-id="678fd-126">ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="678fd-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="678fd-127">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="678fd-128">บัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="678fd-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-153">การตรวจทานข้อมูลการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="678fd-153">Review collections information</span></span>                              | <span data-ttu-id="678fd-154">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-154">Global</span></span>             |
 | <span data-ttu-id="678fd-155">ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="678fd-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="678fd-156">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="678fd-157">การจัดการเงินสดและธนาคาร</span><span class="sxs-lookup"><span data-stu-id="678fd-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-196">ชำระเช็คลงวันที่ล่วงหน้าจากลูกค้า</span><span class="sxs-lookup"><span data-stu-id="678fd-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="678fd-197">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-197">Global</span></span>             |
 | <span data-ttu-id="678fd-198">ภาพรวมการชำระเงินของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="678fd-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="678fd-199">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="678fd-200">การปฏิบัติตามกฎระเบียบ</span><span class="sxs-lookup"><span data-stu-id="678fd-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-201">**รายการ BPM**</span><span class="sxs-lookup"><span data-stu-id="678fd-201">**BPM Line**</span></span>                               | <span data-ttu-id="678fd-202">**ประเทศ/ภูมิภาค**</span><span class="sxs-lookup"><span data-stu-id="678fd-202">**Country/Region**</span></span> |
 | <span data-ttu-id="678fd-203">กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง</span><span class="sxs-lookup"><span data-stu-id="678fd-203">Define audit policies for source documents</span></span> | <span data-ttu-id="678fd-204">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="678fd-205">การจัดการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="678fd-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-214">ดูสถานะปัจจุบันของ WIP ในใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="678fd-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="678fd-215">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-215">Global</span></span>             |
 | <span data-ttu-id="678fd-216">ดูใบแจ้งยอดของสินค้าคงคลังและ KPI ตามต้นทุนวัตถุ</span><span class="sxs-lookup"><span data-stu-id="678fd-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="678fd-217">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="678fd-218">ฟังก์ชันประเทศ/ภูมิภาค</span><span class="sxs-lookup"><span data-stu-id="678fd-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-485">GB-00009 สร้างใบลดหนี้ในส่วนลดการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="678fd-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="678fd-486">สหราชอาณาจักร</span><span class="sxs-lookup"><span data-stu-id="678fd-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="678fd-487">GB-00009 ตั้งค่าพารามิเตอร์สำหรับใบลดหนี้บนส่วนลดการชำระเงินแบบพร้อมต์</span><span class="sxs-lookup"><span data-stu-id="678fd-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="678fd-488">สหราชอาณาจักร</span><span class="sxs-lookup"><span data-stu-id="678fd-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="678fd-489">พัฒนาวิสัยทัศน์และกลยุทธ์</span><span class="sxs-lookup"><span data-stu-id="678fd-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-498">กำหนดคำถามโดยขึ้นอยู่กับคำตอบของคำถามก่อนหน้านี้ (คำถามแบบมีเงื่อนไข)</span><span class="sxs-lookup"><span data-stu-id="678fd-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="678fd-499">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-499">Global</span></span>             |
 | <span data-ttu-id="678fd-500">ให้คะแนนแบบสอบถามโดยยึดตามเปอร์เซ็นต์</span><span class="sxs-lookup"><span data-stu-id="678fd-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="678fd-501">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="678fd-502">การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="678fd-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-511">แม็ปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือกของ ER</span><span class="sxs-lookup"><span data-stu-id="678fd-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="678fd-512">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-512">Global</span></span>             |
 | <span data-ttu-id="678fd-513">เลือกผู้ให้บริการของ ER</span><span class="sxs-lookup"><span data-stu-id="678fd-513">ER Select service provider</span></span>                      | <span data-ttu-id="678fd-514">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="678fd-515">การจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="678fd-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-516">**รายการ BPM**</span><span class="sxs-lookup"><span data-stu-id="678fd-516">**BPM Line**</span></span>                 | <span data-ttu-id="678fd-517">**ประเทศ/ภูมิภาค**</span><span class="sxs-lookup"><span data-stu-id="678fd-517">**Country/Region**</span></span> |
 | <span data-ttu-id="678fd-518">ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="678fd-518">Configure expense management</span></span> | <span data-ttu-id="678fd-519">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="678fd-520">สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="678fd-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-549">แบ่งสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="678fd-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="678fd-550">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-550">Global</span></span>             |
 | <span data-ttu-id="678fd-551">โอนสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="678fd-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="678fd-552">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="678fd-553">บัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="678fd-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-602">ดูรายการสมุดรายวันหรือธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="678fd-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="678fd-603">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-603">Global</span></span>             |
 | <span data-ttu-id="678fd-604">ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="678fd-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="678fd-605">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="678fd-606">การจัดการทุนมนุษย์</span><span class="sxs-lookup"><span data-stu-id="678fd-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-677">การตั้งค่านโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="678fd-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="678fd-678">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-678">Global</span></span>             |
 | <span data-ttu-id="678fd-679">การตั้งค่าชนิดเอกสาร i9</span><span class="sxs-lookup"><span data-stu-id="678fd-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="678fd-680">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="678fd-681">การบริหารสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="678fd-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-712">ติดตามสินค้าหรือวัตถุดิบ</span><span class="sxs-lookup"><span data-stu-id="678fd-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="678fd-713">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-713">Global</span></span>             |
 | <span data-ttu-id="678fd-714">โอนสินค้าคงคลังที่มีอยู่ภายในคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="678fd-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="678fd-715">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="678fd-716">การผลิต</span><span class="sxs-lookup"><span data-stu-id="678fd-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-803">โอนย้ายวัสดุด้วยงานคัมบัง</span><span class="sxs-lookup"><span data-stu-id="678fd-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="678fd-804">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-804">Global</span></span>             |
 | <span data-ttu-id="678fd-805">ตรวจสอบความถูกต้องของขั้นตอนการผลิตและรุ่น</span><span class="sxs-lookup"><span data-stu-id="678fd-805">Validate production flow and version</span></span>                          | <span data-ttu-id="678fd-806">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="678fd-807">การวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="678fd-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-816">ระบุวัสดุที่สำคัญและกำลังการผลิตของซัพพลายเออร์</span><span class="sxs-lookup"><span data-stu-id="678fd-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="678fd-817">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-817">Global</span></span>             |
 | <span data-ttu-id="678fd-818">แก้ไขการคาดการณ์ความต้องการด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="678fd-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="678fd-819">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="678fd-820">การจัดการองค์กร</span><span class="sxs-lookup"><span data-stu-id="678fd-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-831">การตั้งค่าลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="678fd-831">Set up electronic signatures</span></span>              | <span data-ttu-id="678fd-832">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-832">Global</span></span>             |
 | <span data-ttu-id="678fd-833">ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด</span><span class="sxs-lookup"><span data-stu-id="678fd-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="678fd-834">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="678fd-835">การวางแผน</span><span class="sxs-lookup"><span data-stu-id="678fd-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-836">**รายการ BPM**</span><span class="sxs-lookup"><span data-stu-id="678fd-836">**BPM Line**</span></span>           | <span data-ttu-id="678fd-837">**ประเทศ/ภูมิภาค**</span><span class="sxs-lookup"><span data-stu-id="678fd-837">**Country/Region**</span></span> |
 | <span data-ttu-id="678fd-838">กำหนดความพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="678fd-838">Determine availability</span></span> | <span data-ttu-id="678fd-839">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="678fd-840">การจัดซื้อและการจัดหา</span><span class="sxs-lookup"><span data-stu-id="678fd-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-853">ค้นหาผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="678fd-853">Search for vendors</span></span>                                               | <span data-ttu-id="678fd-854">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-854">Global</span></span>             |
 | <span data-ttu-id="678fd-855">ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="678fd-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="678fd-856">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="678fd-857">ข้อมูลผลิตภัณฑ์และการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="678fd-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-892">นำออกใช้ ..\มิติทางการเงิน\ผลิตภัณฑ์หลักที่ใช้มิติ</span><span class="sxs-lookup"><span data-stu-id="678fd-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="678fd-893">สากล</span><span class="sxs-lookup"><span data-stu-id="678fd-893">Global</span></span>             |
 | <span data-ttu-id="678fd-894">โอนย้ายข้อมูลสำหรับรุ่นผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="678fd-894">Transfer data for product models</span></span>                      | <span data-ttu-id="678fd-895">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="678fd-896">ภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="678fd-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-931">ตั้งค่าเงินทุนสำหรับภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="678fd-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="678fd-932">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-932">Global</span></span>             |
 | <span data-ttu-id="678fd-933">ตั้งค่าการจัดประเภทข้อตกลงการซื้อสำหรับภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="678fd-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="678fd-934">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="678fd-935">การขายปลีกและการค้า</span><span class="sxs-lookup"><span data-stu-id="678fd-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-1002">การปรับปรุงราคาในการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="678fd-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="678fd-1003">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1003">Global</span></span>             |
 | <span data-ttu-id="678fd-1004">การตั้งค่าคอนฟิกร้านค้าสำหรับใบแจ้งยอดการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="678fd-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="678fd-1005">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="678fd-1006">ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="678fd-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-1035">จัดส่งสินค้าตามการจัดส่งสินค้าโดยตรง</span><span class="sxs-lookup"><span data-stu-id="678fd-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="678fd-1036">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1036">Global</span></span>             |
 | <span data-ttu-id="678fd-1037">จัดส่งใบสั่งขายโดยไม่มีคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="678fd-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="678fd-1038">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="678fd-1039">ภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="678fd-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-1060">ตั้งค่าภาษีหัก ณ ที่จ่าย</span><span class="sxs-lookup"><span data-stu-id="678fd-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="678fd-1061">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1061">Global</span></span>             |
 | <span data-ttu-id="678fd-1062">ดูธุรกรรมภาษีขายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="678fd-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="678fd-1063">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="678fd-1064">ความปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="678fd-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-1069">ระบุและแก้ไขความขัดแย้งการแบ่งแยกหน้าที่</span><span class="sxs-lookup"><span data-stu-id="678fd-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="678fd-1070">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1070">Global</span></span>             |
 | <span data-ttu-id="678fd-1071">ตั้งค่าการแบ่งแยกหน้าที่</span><span class="sxs-lookup"><span data-stu-id="678fd-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="678fd-1072">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="678fd-1073">คลังสินค้าและการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="678fd-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="678fd-1106">การตั้งค่าผู้ขนส่ง</span><span class="sxs-lookup"><span data-stu-id="678fd-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="678fd-1107">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1107">Global</span></span>             |
 | <span data-ttu-id="678fd-1108">ใช้การวางแผนการบรรทุกของ Workbench เพื่อวางแผนการบรรทุกและการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="678fd-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="678fd-1109">ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="678fd-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="678fd-1110">คู่มืองานใน (กุมภาพันธ์ 2016) ไลบรารีการเริ่มต้นใช้งาน</span><span class="sxs-lookup"><span data-stu-id="678fd-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="678fd-1111">**รายการ BPM**</span><span class="sxs-lookup"><span data-stu-id="678fd-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="678fd-1112">**ประเทศ/ภูมิภาค**</span><span class="sxs-lookup"><span data-stu-id="678fd-1112">**Country/Region**</span></span> |

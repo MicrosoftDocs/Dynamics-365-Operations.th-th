@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b2e9449e4ba1c534bcdb5a05e5da0311b2bb2e3c
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a><span data-ttu-id="a82ac-104">ภาพรวมของการแปลงต้นทุนมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="a82ac-104">Standard cost conversion overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a82ac-105">บทความนี้แสดงภาพรวมของกระบวนการ เพื่อช่วยคุณในการตั้งค่าและรันการแปลงต้นทุนมาตรฐาน </span><span class="sxs-lookup"><span data-stu-id="a82ac-105">This article provides a process overview to help you set up and run a standard cost conversion.</span></span> <span data-ttu-id="a82ac-106">ขั้นตอนต่างๆที่แสดงรายการมีวัตถุประสงค์เพื่อให้ถูกดำเนินการให้เสร็จหลังจากที่คุณได้ดำเนินการข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐานเสร็จแล้ว</span><span class="sxs-lookup"><span data-stu-id="a82ac-106">The steps listed are intended to be completed after you've completed the prerequisites for a standard cost conversion.</span></span> 
 

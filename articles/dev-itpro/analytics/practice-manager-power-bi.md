@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="b8739-104">เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI</span><span class="sxs-lookup"><span data-stu-id="b8739-104">Practice manager Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b8739-105">หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาเกี่ยวกับ **ผู้จัดการแนวทางปฏิบัติ** ใน Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="b8739-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="b8739-106">และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้</span><span class="sxs-lookup"><span data-stu-id="b8739-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -118,7 +118,9 @@ ms.lasthandoff: 01/17/2018
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="b8739-228">เอนทิตี: ProjectAccountingCube\_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="b8739-228">Entity: ProjectAccountingCube\_TotalEstimatedCosts</span></span> 
 <span data-ttu-id="b8739-229">**แหล่งข้อมูล** ProjTable</span><span class="sxs-lookup"><span data-stu-id="b8739-229">**Data source:** ProjTable</span></span>
 
-| <span data-ttu-id="b8739-230">การวัดแบบรวมหลัก</span><span class="sxs-lookup"><span data-stu-id="b8739-230">Key aggregate measurement</span></span>       | <span data-ttu-id="b8739-231">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="b8739-231">Field</span></span>               | <span data-ttu-id="b8739-232">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="b8739-232">Description</span></span> |
-|---------------------------------|---------------------|-------------|
+
+|    <span data-ttu-id="b8739-230">การวัดแบบรวมหลัก</span><span class="sxs-lookup"><span data-stu-id="b8739-230">Key aggregate measurement</span></span>    |        <span data-ttu-id="b8739-231">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="b8739-231">Field</span></span>        |                                          <span data-ttu-id="b8739-232">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="b8739-232">Description</span></span>                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="b8739-233">ต้นทุนที่วางแผนไว้สำหรับกิจกรรมเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b8739-233">Completed activity planned cost</span></span> | <span data-ttu-id="b8739-234">Sum(TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="b8739-234">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="b8739-235">ราคาต้นทุนรวมในการประเมินสำหรับชนิดธุรกรรมของโครงการทั้งหมดที่มีงานที่เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b8739-235">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
+
 

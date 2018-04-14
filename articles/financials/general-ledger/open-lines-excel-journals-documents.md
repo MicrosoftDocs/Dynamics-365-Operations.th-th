@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="24858-104">เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel</span><span class="sxs-lookup"><span data-stu-id="24858-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="24858-105">หัวข้อนี้อธิบายวิธีการป้อนและการเผยแพร่รายการสำหรับสมุดรายวันทั่วไปจาก Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="24858-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="24858-106">ซึ่งจะรวมถึงข้อมูลเกี่ยวกับเท็มเพลตต่าง ๆ ที่คุณสามารถใช้ โดยขึ้นอยู่กับชนิดของธุรกรรมที่คุณกำลังป้อน</span><span class="sxs-lookup"><span data-stu-id="24858-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="24858-107">ผู้ใช้สามารถป้อนและเผยแพร่รายการสำหรับสมุดรายวันทางการเงินจาก Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="24858-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="24858-108">หลังจากที่ผู้ใช้สร้างสมุดรายวัน ปุ่ม **รายการที่เปิดอยู่ใน Excel** จะแสดงเท็มเพลตที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="24858-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="24858-109">เท็มเพลตได้รับการออกแบบมาเพื่อสนับสนุนสถานการณ์จำลองเฉพาะ แต่ไม่ได้รับสนับสนุนชนิดบัญชีรวมกันทุกชนิดในสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="24858-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="24858-110">ตารางต่อไปนี้แสดงเท็มเพลตที่พร้อมใช้งานและชนิดของบัญชีที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="24858-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="24858-111">**เท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="24858-111">**Template**</span></span>             | <span data-ttu-id="24858-112">**ชนิดบัญชีที่ได้รับการสนับสนุน**</span><span class="sxs-lookup"><span data-stu-id="24858-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="24858-113">**วิธีการเข้าถึงเท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="24858-113">**How to access the template**</span></span>                                                          |

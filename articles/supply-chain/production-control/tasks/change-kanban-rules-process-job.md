@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 55498a68b3f03ed8c360b479c6dcbd607a186e13
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="44212-103">เปลี่ยนกฎคัมบังสำหรับงานในกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="44212-103">Change kanban rules for a process job</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="44212-104">กระบวนงานนี้มุ่งเน้นการเปลี่ยนแปลงกฎคัมบังที่ใช้แล้วสำหรับคัมบังที่กำหนด </span><span class="sxs-lookup"><span data-stu-id="44212-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="44212-105">ซึ่งเป็นประโยชน์ในการตั้งระดับปริมาณระดับทรัพยากรหรือในกรณีของการแบ่ง </span><span class="sxs-lookup"><span data-stu-id="44212-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="44212-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="44212-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="44212-107">กระบวนงานนี้มีไว้สำหรับนักวางแผนซึ่งทำงานในบริษัทการผลิตแบบ Lean ที่มีความรับผิดชอบต่อสายธารคุณค่า</span><span class="sxs-lookup"><span data-stu-id="44212-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 

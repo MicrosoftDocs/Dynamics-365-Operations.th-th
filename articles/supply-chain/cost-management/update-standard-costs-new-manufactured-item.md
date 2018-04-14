@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f60f7932ce79b23b1656d6947fcb321f9484869d
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a><span data-ttu-id="494ec-103">อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่</span><span class="sxs-lookup"><span data-stu-id="494ec-103">Update standard costs for a new manufactured item</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="494ec-104">บทความนี้ให้คำแนะนำสำหรับการอัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตใหม่</span><span class="sxs-lookup"><span data-stu-id="494ec-104">This article provides guidance for updating standard costs for a new manufactured item.</span></span> 
 

@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 245d1fd9e5489a5f996a385979d2e5aaf891846a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5b1350524c4e59c3148d07cef6f8e1ab02ec43b4
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a><span data-ttu-id="65c68-103">ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเองในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="65c68-103">Configure a manual decision in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="65c68-104">หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของการตัดสินใจด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="65c68-104">This topic explains how to configure the properties of a manual decision.</span></span>
 
@@ -253,73 +252,74 @@ ms.lasthandoff: 11/03/2017
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a><span data-ttu-id="65c68-266">การระบุสิ่งที่จะเกิดขึ้นเมื่อการตัดสินใจเกินกำหนด</span><span class="sxs-lookup"><span data-stu-id="65c68-266">Specify what happens when a decision is overdue</span></span>
 <span data-ttu-id="65c68-267">ถ้าผู้ใช้ไม่ทำการตัดสินใจในเวลาที่กำหนด การตัดสินใจจะเกินกำหนด</span><span class="sxs-lookup"><span data-stu-id="65c68-267">If a user doesn't make the decision in the allotted time, the decision is overdue.</span></span> <span data-ttu-id="65c68-268">การตัดสินใจที่เกินกำหนดอาจถูกเลื่อนระดับหรือถูกกำหนดให้กับผู้ใช้รายอื่นโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="65c68-268">A decision that is overdue can be escalated, or automatically assigned to another user.</span></span> <span data-ttu-id="65c68-269">ทำตามขั้นตอนเหล่านี้เพื่อเลื่อนระดับการตัดสินใจถ้าเกินกำหนดแล้ว</span><span class="sxs-lookup"><span data-stu-id="65c68-269">Follow these steps to escalate the decision if it's overdue.</span></span>
 
-1.  <span data-ttu-id="65c68-270">ในบานหน้าต่างทางซ้าย ให้คลิก **การเลื่อนระดับ**</span><span class="sxs-lookup"><span data-stu-id="65c68-270">In the left pane, click **Escalation**.</span></span>
-2.  <span data-ttu-id="65c68-271">เลือกกล่องกาเครื่องหมาย **ใช้พาธการเลื่อนระดับ** เพื่อสร้างพาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-271">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="65c68-272">ระบบจะกำหนดการตัดสินใจให้กับผู้ใช้ที่อยู่ในพาธการเลื่อนระดับโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="65c68-272">The system automatically assigns the decision to the users who are listed in the escalation path.</span></span> <span data-ttu-id="65c68-273">ตัวอย่างเช่น ตารางต่อไปนี้แสดงพาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-273">For example, the following table represents an escalation path.</span></span>
-    | <span data-ttu-id="65c68-274">ลำดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-274">Sequence</span></span> | <span data-ttu-id="65c68-275">พาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-275">Escalation path</span></span>            |
-    |----------|----------------------------|
-    | <span data-ttu-id="65c68-276">1</span><span class="sxs-lookup"><span data-stu-id="65c68-276">1</span></span>        | <span data-ttu-id="65c68-277">กำหนดให้กับ: Donna</span><span class="sxs-lookup"><span data-stu-id="65c68-277">Assign to: Donna</span></span>           |
-    | <span data-ttu-id="65c68-278">2</span><span class="sxs-lookup"><span data-stu-id="65c68-278">2</span></span>        | <span data-ttu-id="65c68-279">กำหนดให้กับ: Erin</span><span class="sxs-lookup"><span data-stu-id="65c68-279">Assign to: Erin</span></span>            |
-    | <span data-ttu-id="65c68-280">3</span><span class="sxs-lookup"><span data-stu-id="65c68-280">3</span></span>        | <span data-ttu-id="65c68-281">การดำเนินการขั้นสุดท้าย: \[ตัวเลือก 1\]</span><span class="sxs-lookup"><span data-stu-id="65c68-281">Final action: \[Choice 1\]</span></span> |
+1. <span data-ttu-id="65c68-270">ในบานหน้าต่างทางซ้าย ให้คลิก **การเลื่อนระดับ**</span><span class="sxs-lookup"><span data-stu-id="65c68-270">In the left pane, click **Escalation**.</span></span>
+2. <span data-ttu-id="65c68-271">เลือกกล่องกาเครื่องหมาย **ใช้พาธการเลื่อนระดับ** เพื่อสร้างพาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-271">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="65c68-272">ระบบจะกำหนดการตัดสินใจให้กับผู้ใช้ที่อยู่ในพาธการเลื่อนระดับโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="65c68-272">The system automatically assigns the decision to the users who are listed in the escalation path.</span></span> <span data-ttu-id="65c68-273">ตัวอย่างเช่น ตารางต่อไปนี้แสดงพาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-273">For example, the following table represents an escalation path.</span></span>
 
-    <span data-ttu-id="65c68-282">ในตัวอย่างนี้ ระบบจะกำหนดการตัดสินใจที่เกินกำหนดให้กับ Donna</span><span class="sxs-lookup"><span data-stu-id="65c68-282">In this example, the system assigns the overdue decision to Donna.</span></span> <span data-ttu-id="65c68-283">ถ้า Donna ไม่ทำการตัดสินใจในเวลาที่กำหนด ระบบจะกำหนดการตัดสินใจให้กับ Erin</span><span class="sxs-lookup"><span data-stu-id="65c68-283">If Donna doesn't make the decision in the allotted time, the system assigns the decision to Erin.</span></span> <span data-ttu-id="65c68-284">ถ้า Erin ไม่ทำการตัดสินใจในเวลาที่กำหนด ระบบจะเลือก **\[ตัวเลือก 1\]** เป็นการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-284">If Erin doesn't make the decision in the allotted time, the system selects **\[Choice 1\]** as the decision.</span></span>
-3.  <span data-ttu-id="65c68-285">เมื่อต้องการเพิ่มผู้ใช้ในพาธการเลื่อนระดับ คลิก **เพิ่มการเลื่อนระดับ**</span><span class="sxs-lookup"><span data-stu-id="65c68-285">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="65c68-286">เลือกหนึ่งในตัวเลือกในตารางต่อไปนี้ และทำตามขั้นตอนเพิ่มเติมสำหรับตัวเลือกนั้นก่อนที่คุณจะไปยังขั้นตอนที่ 4</span><span class="sxs-lookup"><span data-stu-id="65c68-286">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><span data-ttu-id="65c68-287">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="65c68-287">Option</span></span></th>
-    <th><span data-ttu-id="65c68-288">ผู้ใช้ที่ได้รับการเลื่อนระดับการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-288">Users that the decision is escalated to</span></span></th>
-    <th><span data-ttu-id="65c68-289">ขั้นตอนเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="65c68-289">Additional steps</span></span></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><span data-ttu-id="65c68-290">ลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="65c68-290">Hierarchy</span></span></td>
-    <td><span data-ttu-id="65c68-291">ผู้ใช้ในลำดับชั้นขององค์กรเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="65c68-291">Users in a specific organizational hierarchy</span></span></td>
-    <td><ol>
-    <li><span data-ttu-id="65c68-292">หลังจากที่คุณเลือก <strong>ลำดับชั้น</strong>บนแท็บ <strong>การเลือกลำดับชั้น</strong>  ในรายการ <strong>ชนิดของลำดับชั้น</strong> เลือกชนิดของลำดับชั้นที่จะเลื่อนระดับการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-292">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</span></span></li>
-    <li><span data-ttu-id="65c68-293">ระบบต้องดึงข้อมูลช่วงชื่อผู้ใช้จากลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="65c68-293">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="65c68-294">ชื่อเหล่านี้คือผู้ใช้ที่สามารถเลื่อนระดับการตัดสินใจได้</span><span class="sxs-lookup"><span data-stu-id="65c68-294">These names represent users that the decision can be escalated to.</span></span> <span data-ttu-id="65c68-295">ทำตามขั้นตอนเหล่านี้เพื่อระบุจุดเริ่มต้นและจุดสิ้นสุดของช่วงดังกล่าวของชื่อผู้ใช้ที่ระบบดึงข้อมูล:</span><span class="sxs-lookup"><span data-stu-id="65c68-295">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
-    <li><span data-ttu-id="65c68-296">หากต้องการระบุจุดเริ่มต้น ให้เลือกบุคคลในรายการ <strong>เริ่มต้นจาก</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-296">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
-    <li><span data-ttu-id="65c68-297">หากต้องการระบุจุดสิ้นสุด ให้คลิก <strong>เพิ่มเงื่อนไข</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-297">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="65c68-298">จากนั้นป้อนเงื่อนไขที่กำหนดตำแหน่งในลำดับชั้นที่ระบบจะหยุดดึงข้อมูลชื่อ</span><span class="sxs-lookup"><span data-stu-id="65c68-298">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
-    </ol></li>
-    <li><span data-ttu-id="65c68-299">บนแท็บ <strong>ตัวเลือกลำดับชั้น</strong> ระบุว่าควรเลื่อนระดับให้กับผู้ใช้ใดในช่วงการตัดสินใจ:</span><span class="sxs-lookup"><span data-stu-id="65c68-299">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:</span></span> <ul>
-    <li><span data-ttu-id="65c68-300"><strong>กำหนดให้กับผู้ใช้ทั้งหมดที่ดึงข้อมูล</strong>– การตัดสินใจถูกเลื่อนระดับให้กับผู้ใช้ทั้งหมดในช่วง</span><span class="sxs-lookup"><span data-stu-id="65c68-300"><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</span></span></li>
-    <li><span data-ttu-id="65c68-301"><strong>กำหนดให้กับผู้ใช้คนสุดท้ายที่ถูกดึงข้อมูลเท่านั้น</strong> การตัดสินใจถูกเลื่อนระดับให้กับผู้ใช้คนสุดท้ายที่อยู่ในช่วงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="65c68-301"><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</span></span></li>
-    <li><span data-ttu-id="65c68-302"><strong>ไม่รวมผู้ใช้ที่มีเงื่อนไขต่อไปนี้</strong> – การตัดสินใจไม่ถูกเลื่อนระดับให้กับผู้ใช้ใด ๆ ในช่วงที่ตรงตามเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="65c68-302"><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="65c68-303">คลิก <strong>เพิ่มเงื่อนไข</strong> เพื่อระบุเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="65c68-303">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td><span data-ttu-id="65c68-304">ผู้ใช้ลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="65c68-304">Workflow user</span></span></td>
-    <td><span data-ttu-id="65c68-305">ผู้ใช้ในลำดับงานปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="65c68-305">Users in the current workflow</span></span></td>
-    <td><ul>
-    <li><span data-ttu-id="65c68-306">หลังจากที่คุณเลือก <strong>ผู้ใช้ลำดับงาน</strong>บนแท็บ <strong>ผู้ใช้ลำดับงาน</strong> ในรายการ <strong>ผู้ใช้ลำดับงาน</strong> เลือกผู้ใช้ที่เข้าร่วมในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="65c68-306">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td><span data-ttu-id="65c68-307">ผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="65c68-307">User</span></span></td>
-    <td><span data-ttu-id="65c68-308">ผู้ใช้ Finance and Operations เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="65c68-308">Specific Finance and Operations users</span></span></td>
-    <td><ol>
-    <li><span data-ttu-id="65c68-309">หลังจากที่คุณเลือก <strong>ผู้ใช้</strong>คลิกแท็บ <strong>ผู้ใช้</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-309">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="65c68-310"><strong>ผู้ใช้ที่พร้อมใช้งาน</strong> ประกอบด้วยผู้ใช้ Finance and Operations ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="65c68-310">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="65c68-311">เลือกผู้ใช้ที่จะเลื่อนระดับการตัดสินใจ จากนั้นย้ายผู้ใช้เหล่านั้นไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-311">Select the users to escalate the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | <span data-ttu-id="65c68-274">ลำดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-274">Sequence</span></span> | <span data-ttu-id="65c68-275">พาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-275">Escalation path</span></span>            |
+   |----------|----------------------------|
+   | <span data-ttu-id="65c68-276">1</span><span class="sxs-lookup"><span data-stu-id="65c68-276">1</span></span>        | <span data-ttu-id="65c68-277">กำหนดให้กับ: Donna</span><span class="sxs-lookup"><span data-stu-id="65c68-277">Assign to: Donna</span></span>           |
+   | <span data-ttu-id="65c68-278">2</span><span class="sxs-lookup"><span data-stu-id="65c68-278">2</span></span>        | <span data-ttu-id="65c68-279">กำหนดให้กับ: Erin</span><span class="sxs-lookup"><span data-stu-id="65c68-279">Assign to: Erin</span></span>            |
+   | <span data-ttu-id="65c68-280">3</span><span class="sxs-lookup"><span data-stu-id="65c68-280">3</span></span>        | <span data-ttu-id="65c68-281">การดำเนินการขั้นสุดท้าย: \[ตัวเลือก 1\]</span><span class="sxs-lookup"><span data-stu-id="65c68-281">Final action: \[Choice 1\]</span></span> |
 
-4.  <span data-ttu-id="65c68-312">บนแท็บ **ขีดจำกัดเวลา** ในฟิลด์ **ระยะเวลา** ระบุระยะเวลาที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-312">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="65c68-313">เลือกหนึ่งในตัวเลือกต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="65c68-313">Select one of the following options:</span></span>
-    -   <span data-ttu-id="65c68-314">**ชั่วโมง**– ป้อนจำนวนชั่วโมงที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-314">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="65c68-315">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="65c68-315">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    -   <span data-ttu-id="65c68-316">**วัน**– ป้อนจำนวนวันที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-316">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="65c68-317">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="65c68-317">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    -   <span data-ttu-id="65c68-318">**สัปดาห์**– ป้อนจำนวนสัปดาห์ที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-318">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
-    -   <span data-ttu-id="65c68-319">**เดือน**– เลือกวันและสัปดาห์ที่ผู้ใช้ต้องใช้ในการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-319">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="65c68-320">ตัวอย่างเช่น คุณอาจต้องการให้ผู้ใช้ตัดสินใจภายในวันศุกร์ของสัปดาห์ที่สามของเดือน</span><span class="sxs-lookup"><span data-stu-id="65c68-320">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
-    -   <span data-ttu-id="65c68-321">**ปี**– เลือกวัน สัปดาห์และเดือนที่ผู้ใช้ต้องใช้ในการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-321">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="65c68-322">ตัวอย่างเช่น คุณอาจต้องการให้ผู้ใช้ตัดสินใจภายในวันศุกร์ของสัปดาห์ที่สามของเดือนธันวาคม</span><span class="sxs-lookup"><span data-stu-id="65c68-322">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
+   <span data-ttu-id="65c68-282">ในตัวอย่างนี้ ระบบจะกำหนดการตัดสินใจที่เกินกำหนดให้กับ Donna</span><span class="sxs-lookup"><span data-stu-id="65c68-282">In this example, the system assigns the overdue decision to Donna.</span></span> <span data-ttu-id="65c68-283">ถ้า Donna ไม่ทำการตัดสินใจในเวลาที่กำหนด ระบบจะกำหนดการตัดสินใจให้กับ Erin</span><span class="sxs-lookup"><span data-stu-id="65c68-283">If Donna doesn't make the decision in the allotted time, the system assigns the decision to Erin.</span></span> <span data-ttu-id="65c68-284">ถ้า Erin ไม่ทำการตัดสินใจในเวลาที่กำหนด ระบบจะเลือก **\[ตัวเลือก 1\]** เป็นการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-284">If Erin doesn't make the decision in the allotted time, the system selects **\[Choice 1\]** as the decision.</span></span>
+3. <span data-ttu-id="65c68-285">เมื่อต้องการเพิ่มผู้ใช้ในพาธการเลื่อนระดับ คลิก **เพิ่มการเลื่อนระดับ**</span><span class="sxs-lookup"><span data-stu-id="65c68-285">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="65c68-286">เลือกหนึ่งในตัวเลือกในตารางต่อไปนี้ และทำตามขั้นตอนเพิ่มเติมสำหรับตัวเลือกนั้นก่อนที่คุณจะไปยังขั้นตอนที่ 4</span><span class="sxs-lookup"><span data-stu-id="65c68-286">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th><span data-ttu-id="65c68-287">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="65c68-287">Option</span></span></th>
+   <th><span data-ttu-id="65c68-288">ผู้ใช้ที่ได้รับการเลื่อนระดับการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-288">Users that the decision is escalated to</span></span></th>
+   <th><span data-ttu-id="65c68-289">ขั้นตอนเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="65c68-289">Additional steps</span></span></th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td><span data-ttu-id="65c68-290">ลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="65c68-290">Hierarchy</span></span></td>
+   <td><span data-ttu-id="65c68-291">ผู้ใช้ในลำดับชั้นขององค์กรเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="65c68-291">Users in a specific organizational hierarchy</span></span></td>
+   <td><ol>
+   <li><span data-ttu-id="65c68-292">หลังจากที่คุณเลือก <strong>ลำดับชั้น</strong>บนแท็บ <strong>การเลือกลำดับชั้น</strong>  ในรายการ <strong>ชนิดของลำดับชั้น</strong> เลือกชนิดของลำดับชั้นที่จะเลื่อนระดับการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-292">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</span></span></li>
+   <li><span data-ttu-id="65c68-293">ระบบต้องดึงข้อมูลช่วงชื่อผู้ใช้จากลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="65c68-293">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="65c68-294">ชื่อเหล่านี้คือผู้ใช้ที่สามารถเลื่อนระดับการตัดสินใจได้</span><span class="sxs-lookup"><span data-stu-id="65c68-294">These names represent users that the decision can be escalated to.</span></span> <span data-ttu-id="65c68-295">ทำตามขั้นตอนเหล่านี้เพื่อระบุจุดเริ่มต้นและจุดสิ้นสุดของช่วงดังกล่าวของชื่อผู้ใช้ที่ระบบดึงข้อมูล:</span><span class="sxs-lookup"><span data-stu-id="65c68-295">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+   <li><span data-ttu-id="65c68-296">หากต้องการระบุจุดเริ่มต้น ให้เลือกบุคคลในรายการ <strong>เริ่มต้นจาก</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-296">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+   <li><span data-ttu-id="65c68-297">หากต้องการระบุจุดสิ้นสุด ให้คลิก <strong>เพิ่มเงื่อนไข</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-297">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="65c68-298">จากนั้นป้อนเงื่อนไขที่กำหนดตำแหน่งในลำดับชั้นที่ระบบจะหยุดดึงข้อมูลชื่อ</span><span class="sxs-lookup"><span data-stu-id="65c68-298">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
+   </ol></li>
+   <li><span data-ttu-id="65c68-299">บนแท็บ <strong>ตัวเลือกลำดับชั้น</strong> ระบุว่าควรเลื่อนระดับให้กับผู้ใช้ใดในช่วงการตัดสินใจ:</span><span class="sxs-lookup"><span data-stu-id="65c68-299">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:</span></span> <ul>
+   <li><span data-ttu-id="65c68-300"><strong>กำหนดให้กับผู้ใช้ทั้งหมดที่ดึงข้อมูล</strong>– การตัดสินใจถูกเลื่อนระดับให้กับผู้ใช้ทั้งหมดในช่วง</span><span class="sxs-lookup"><span data-stu-id="65c68-300"><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</span></span></li>
+   <li><span data-ttu-id="65c68-301"><strong>กำหนดให้กับผู้ใช้คนสุดท้ายที่ถูกดึงข้อมูลเท่านั้น</strong> การตัดสินใจถูกเลื่อนระดับให้กับผู้ใช้คนสุดท้ายที่อยู่ในช่วงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="65c68-301"><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</span></span></li>
+   <li><span data-ttu-id="65c68-302"><strong>ไม่รวมผู้ใช้ที่มีเงื่อนไขต่อไปนี้</strong> – การตัดสินใจไม่ถูกเลื่อนระดับให้กับผู้ใช้ใด ๆ ในช่วงที่ตรงตามเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="65c68-302"><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="65c68-303">คลิก <strong>เพิ่มเงื่อนไข</strong> เพื่อระบุเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="65c68-303">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td><span data-ttu-id="65c68-304">ผู้ใช้ลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="65c68-304">Workflow user</span></span></td>
+   <td><span data-ttu-id="65c68-305">ผู้ใช้ในลำดับงานปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="65c68-305">Users in the current workflow</span></span></td>
+   <td><ul>
+   <li><span data-ttu-id="65c68-306">หลังจากที่คุณเลือก <strong>ผู้ใช้ลำดับงาน</strong>บนแท็บ <strong>ผู้ใช้ลำดับงาน</strong> ในรายการ <strong>ผู้ใช้ลำดับงาน</strong> เลือกผู้ใช้ที่เข้าร่วมในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="65c68-306">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td><span data-ttu-id="65c68-307">ผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="65c68-307">User</span></span></td>
+   <td><span data-ttu-id="65c68-308">ผู้ใช้ Finance and Operations เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="65c68-308">Specific Finance and Operations users</span></span></td>
+   <td><ol>
+   <li><span data-ttu-id="65c68-309">หลังจากที่คุณเลือก <strong>ผู้ใช้</strong>คลิกแท็บ <strong>ผู้ใช้</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-309">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+   <li><span data-ttu-id="65c68-310"><strong>ผู้ใช้ที่พร้อมใช้งาน</strong> ประกอบด้วยผู้ใช้ Finance and Operations ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="65c68-310">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="65c68-311">เลือกผู้ใช้ที่จะเลื่อนระดับการตัดสินใจ จากนั้นย้ายผู้ใช้เหล่านั้นไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong></span><span class="sxs-lookup"><span data-stu-id="65c68-311">Select the users to escalate the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  <span data-ttu-id="65c68-323">ทำซ้ำขั้นตอนที่ 3 ถึง 4 สำหรับแต่ละผู้ใช้ที่ควรจะเพิ่มในพาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-323">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="65c68-324">คุณสามารถเปลี่ยนลำดับของผู้ใช้ได้</span><span class="sxs-lookup"><span data-stu-id="65c68-324">You can change the order of the users.</span></span>
-6.  <span data-ttu-id="65c68-325">ถ้าผู้ใช้ในพาธการเลื่อนระดับไม่ทำการตัดสินใจในเวลาที่กำหนด ระบบจะทำการตัดสินใจเอง</span><span class="sxs-lookup"><span data-stu-id="65c68-325">If the users in the escalation path don't make the decision in the allotted time, the system makes the decision.</span></span> <span data-ttu-id="65c68-326">เมื่อต้องการระบุตัวเลือกที่ระบบเลือก เลือกแถว **การดำเนินการ** จากนั้น บนแท็บ **สิ้นสุดการดำเนินการ** เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="65c68-326">To specify the option that the system selects, select the **Action** row, and then, on the **End action** tab, select an option.</span></span>
+4. <span data-ttu-id="65c68-312">บนแท็บ **ขีดจำกัดเวลา** ในฟิลด์ **ระยะเวลา** ระบุระยะเวลาที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-312">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="65c68-313">เลือกหนึ่งในตัวเลือกต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="65c68-313">Select one of the following options:</span></span>
+   -   <span data-ttu-id="65c68-314">**ชั่วโมง**– ป้อนจำนวนชั่วโมงที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-314">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="65c68-315">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="65c68-315">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+   -   <span data-ttu-id="65c68-316">**วัน**– ป้อนจำนวนวันที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-316">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="65c68-317">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="65c68-317">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+   -   <span data-ttu-id="65c68-318">**สัปดาห์**– ป้อนจำนวนสัปดาห์ที่ผู้ใช้ต้องตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-318">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
+   -   <span data-ttu-id="65c68-319">**เดือน**– เลือกวันและสัปดาห์ที่ผู้ใช้ต้องใช้ในการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-319">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="65c68-320">ตัวอย่างเช่น คุณอาจต้องการให้ผู้ใช้ตัดสินใจภายในวันศุกร์ของสัปดาห์ที่สามของเดือน</span><span class="sxs-lookup"><span data-stu-id="65c68-320">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
+   -   <span data-ttu-id="65c68-321">**ปี**– เลือกวัน สัปดาห์และเดือนที่ผู้ใช้ต้องใช้ในการตัดสินใจ</span><span class="sxs-lookup"><span data-stu-id="65c68-321">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="65c68-322">ตัวอย่างเช่น คุณอาจต้องการให้ผู้ใช้ตัดสินใจภายในวันศุกร์ของสัปดาห์ที่สามของเดือนธันวาคม</span><span class="sxs-lookup"><span data-stu-id="65c68-322">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
+
+5. <span data-ttu-id="65c68-323">ทำซ้ำขั้นตอนที่ 3 ถึง 4 สำหรับแต่ละผู้ใช้ที่ควรจะเพิ่มในพาธการเลื่อนระดับ</span><span class="sxs-lookup"><span data-stu-id="65c68-323">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="65c68-324">คุณสามารถเปลี่ยนลำดับของผู้ใช้ได้</span><span class="sxs-lookup"><span data-stu-id="65c68-324">You can change the order of the users.</span></span>
+6. <span data-ttu-id="65c68-325">ถ้าผู้ใช้ในพาธการเลื่อนระดับไม่ทำการตัดสินใจในเวลาที่กำหนด ระบบจะทำการตัดสินใจเอง</span><span class="sxs-lookup"><span data-stu-id="65c68-325">If the users in the escalation path don't make the decision in the allotted time, the system makes the decision.</span></span> <span data-ttu-id="65c68-326">เมื่อต้องการระบุตัวเลือกที่ระบบเลือก เลือกแถว **การดำเนินการ** จากนั้น บนแท็บ **สิ้นสุดการดำเนินการ** เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="65c68-326">To specify the option that the system selects, select the **Action** row, and then, on the **End action** tab, select an option.</span></span>
 
 ## <a name="set-a-time-limit"></a><span data-ttu-id="65c68-327">การกำหนดขอบเขตเวลา</span><span class="sxs-lookup"><span data-stu-id="65c68-327">Set a time limit</span></span>
 <span data-ttu-id="65c68-328">ทำตามขั้นตอนเหล่านี้ถ้าต้องทำการตัดสินใจในเวลาที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="65c68-328">Follow these steps if the decision must be made in a specific time.</span></span> <span data-ttu-id="65c68-329">**หมายเหตุ:** ตัวเลือกที่คุณเลือกในกระบวนงานนี้จะแทนที่ตัวเลือกที่คุณเลือกไว้ในพื้นที่ **การกำหนด** และ **การเลื่อนระดับ** ของหน้า</span><span class="sxs-lookup"><span data-stu-id="65c68-329">**Note:** The options that you select in this procedure override the options that you selected in the **Assignment** and **Escalation** areas of the page.</span></span>

@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 15253a9c96af67eb405b9ce42c5a328c8aec7ecc
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a><span data-ttu-id="79d92-103">ตั้งค่าลำดับหมายเลขแต่ละตัว</span><span class="sxs-lookup"><span data-stu-id="79d92-103">Set up number sequences on an individual basis</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="79d92-104">ลำดับหมายเลขถูกใช้ในการสร้างรหัสที่สามารถอ่านได้ รหัสเฉพาะสำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่ต้องการ </span><span class="sxs-lookup"><span data-stu-id="79d92-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="79d92-105">ข้อมูลหลักหรือเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุจะอ้างเป็นการอ้างอิง</span><span class="sxs-lookup"><span data-stu-id="79d92-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="79d92-106">ก่อนที่คุณจะสามารถสร้างเรกคอร์ดใหม่สำหรับการอ้างอิงได้ คุณต้องตั้งค่าลำดับหมายเลขและเชื่อมโยงกับการอ้างอิงนั้น</span><span class="sxs-lookup"><span data-stu-id="79d92-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="79d92-107">คุณสามารถตั้งค่าลำดับหมายเลขที่ต้องการทั้งหมดในเวลาเดียวกัน โดยการใช้วิซาร์ดการตั้งค่าลำดับหมายเลข หรือคุณสามารถสร้างหรือแก้ไขลำดับหมายเลขแต่ละตัวได้โดยการใช้หน้าลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="79d92-107">You can set up all required number sequences at the same time by using the Set up number sequences wizard, or you can create or modify individual number sequences by using the Number sequences page.</span></span>
 

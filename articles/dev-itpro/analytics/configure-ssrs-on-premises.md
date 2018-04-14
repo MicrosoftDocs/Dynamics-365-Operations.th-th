@@ -18,15 +18,15 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bea198488da52de21aba0c33b4004b6ad7518fd3
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a><span data-ttu-id="c7c4c-103">ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร</span><span class="sxs-lookup"><span data-stu-id="c7c4c-103">Configure SQL Server Reporting Services for an on-premises deployment</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c7c4c-104">ใช้ขั้นตอนในหัวข้อนี้ในการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ Microsoft Dynamics 365 for Finance and Operations (ในองค์กร) ของคุณ</span><span class="sxs-lookup"><span data-stu-id="c7c4c-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 for Finance and Operations (on-premises) deployment.</span></span>
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     <span data-ttu-id="c7c4c-119">[![แท็บ URL ของเว็บพอร์ทัล](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
     
-  <span data-ttu-id="c7c4c-120">หลังจากที่มีการตั้งค่าคอนฟิกพอร์ทัล แท็บ **เว็บพอร์ทัล** จะตรงกับรูปภาพต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c7c4c-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
+   <span data-ttu-id="c7c4c-120">หลังจากที่มีการตั้งค่าคอนฟิกพอร์ทัล แท็บ **เว็บพอร์ทัล** จะตรงกับรูปภาพต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c7c4c-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
     <span data-ttu-id="c7c4c-121">[![แท็บเว็บพอร์ทัล](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
     
 8. <span data-ttu-id="c7c4c-122">คลิก URL รายงานเพื่อดูเว็บพอร์ทัลบริการรายงาน SQL Server</span><span class="sxs-lookup"><span data-stu-id="c7c4c-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span> 
-9.  <span data-ttu-id="c7c4c-123">เมื่อคุณอยู่ในพอร์ทัล ให้สร้างโฟลเดอร์ใหม่ที่ชื่อว่า **Dynamics**</span><span class="sxs-lookup"><span data-stu-id="c7c4c-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
+9. <span data-ttu-id="c7c4c-123">เมื่อคุณอยู่ในพอร์ทัล ให้สร้างโฟลเดอร์ใหม่ที่ชื่อว่า **Dynamics**</span><span class="sxs-lookup"><span data-stu-id="c7c4c-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
 
-    <span data-ttu-id="c7c4c-124">[![โฟลเดอร์ Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
+   <span data-ttu-id="c7c4c-124">[![โฟลเดอร์ Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
     
 10. <span data-ttu-id="c7c4c-125">ใน **Reporting Services Configuration Manager** คลิกแท็บ **การตั้งค่าอีเมล** และตรวจสอบว่าการตั้งค่าตรงกับภาพต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c7c4c-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     <span data-ttu-id="c7c4c-128">[![แท็บบัญชีการดำเนินการ](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
     
-  <span data-ttu-id="c7c4c-129">อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **คีย์การเข้ารหัส** [![แท็บคีย์การเข้ารหัส](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-129">Don’t change the default settings on the **Encryption Keys** tab. [![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
+    <span data-ttu-id="c7c4c-129">อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **คีย์การเข้ารหัส** [![แท็บคีย์การเข้ารหัส](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-129">Don’t change the default settings on the **Encryption Keys** tab. [![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
     
 12. <span data-ttu-id="c7c4c-130">คลิกแท็บ **การตั้งค่าการบอกรับเป็นสมาชิก** และตรวจสอบว่าการตั้งค่าตรงกับภาพต่อไปนี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="c7c4c-130">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
 
     <span data-ttu-id="c7c4c-131">[![แท็บการตั้งค่าการบอกรับเป็นสมาชิก](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-131">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
     
-  <span data-ttu-id="c7c4c-132">อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การปรับใช้ Scale-out** [![แท็บการปรับใช้ Scale-out](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-132">Don’t change the default settings on the **Scale-out Deployment** tab. [![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
+    <span data-ttu-id="c7c4c-132">อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การปรับใช้ Scale-out** [![แท็บการปรับใช้ Scale-out](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-132">Don’t change the default settings on the **Scale-out Deployment** tab. [![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
     
-  <span data-ttu-id="c7c4c-133">อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การรวม Power BI** [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-133">Don’t change the default settings on the **Power BI Integration** tab. [![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span> 
+    <span data-ttu-id="c7c4c-133">อย่าเปลี่ยนการตั้งค่าเริ่มต้นในแท็บ **การรวม Power BI** [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="c7c4c-133">Don’t change the default settings on the **Power BI Integration** tab. [![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span> 
     
 13. <span data-ttu-id="c7c4c-134">คลิก **ออก** เพื่อปิด **Reporting Services Configuration Manager**</span><span class="sxs-lookup"><span data-stu-id="c7c4c-134">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
 

@@ -19,19 +19,16 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 06490f14ed01c3061b20a0e6977746e9fd2a6ffa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2330939ddd7ccf4555cf1eff1e264c51f779c4eb
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a><span data-ttu-id="d1aa8-103">การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="d1aa8-103">Currency revaluation in a consolidation company</span></span>
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d1aa8-104">เมื่อคุณรวมข้อมูลจากสกุลเงินทางบัญชีหนึ่งไปอีกสกุลเงินทางบัญชีหนึ่ง คุณต้องรันการประเมินค่าสกุลเงินใหม่หากมีการเปลี่ยนแปลงอัตราแลกเปลี่ยน จากนั้นยอดดุลบัญชีของคุณถึงจะได้ประเมินค่าใหม่ได้อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="d1aa8-104">When you consolidate data from one accounting currency to another, you must still run currency revaluation if there is a change in exchange rates, so that your account balances  are correctly revalued.</span></span> <span data-ttu-id="d1aa8-105">เมื่อคุณรวมข้อมูลไว้ในตอนแรก ใช้แท็บ **การแปลงสกุลเงิน** เพื่อเลือกอัตราแลกเปลี่ยนเริ่มต้นสำหรับการแปลงในระหว่างกระบวนการรวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="d1aa8-105">When you originally consolidate the data, use the **Currency translation** tab to select the initial exchange rates to for translation during the consolidation process.</span></span> <span data-ttu-id="d1aa8-106">หลังจากป้อนอัตราแลกเปลี่ยนใหม่ (ตัวอย่างเช่น ในเดือนถัดไป) คุณต้องประเมินค่ายอดดุลบัญชีใหม่</span><span class="sxs-lookup"><span data-stu-id="d1aa8-106">After a new exchange rate is entered (for example, in the next month), you must revalue the account balances.</span></span> <span data-ttu-id="d1aa8-107">กำไรหรือขาดทุนที่ยังไม่รับรู้จะถูกอัพเดตไปตามนั้น ตามอัตราแลกเปลี่ยนและวันใหม่</span><span class="sxs-lookup"><span data-stu-id="d1aa8-107">The unrealized gains or losses are then updated accordingly, based on the new exchange rate and date.</span></span> <span data-ttu-id="d1aa8-108">ตัวอย่างต่อไปนี้แสดงให้เห็นรายการบัญชีที่สร้างขึ้นในระหว่างกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="d1aa8-108">The following example illustrates the accounting entries that are created during the process.</span></span>
 
@@ -52,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="d1aa8-126">วันที่ 11 ตุลาคม 2015</span><span class="sxs-lookup"><span data-stu-id="d1aa8-126">10/11/2015</span></span> | <span data-ttu-id="d1aa8-127">130100 – บัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="d1aa8-127">130100 – Accounts Receivable</span></span> | <span data-ttu-id="d1aa8-128">USD</span><span class="sxs-lookup"><span data-stu-id="d1aa8-128">USD</span></span>      | <span data-ttu-id="d1aa8-129">-500</span><span class="sxs-lookup"><span data-stu-id="d1aa8-129">-500</span></span>   |
 
 ## <a name="exchange-rates"></a><span data-ttu-id="d1aa8-130">อัตราแลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="d1aa8-130">Exchange rates</span></span>
+
 | <span data-ttu-id="d1aa8-131">สกุลเงินต้นทาง</span><span class="sxs-lookup"><span data-stu-id="d1aa8-131">From currency</span></span> | <span data-ttu-id="d1aa8-132">สกุลเงินสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="d1aa8-132">To currency</span></span> | <span data-ttu-id="d1aa8-133">วันที่เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="d1aa8-133">Start date</span></span> | <span data-ttu-id="d1aa8-134">อัตราแลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="d1aa8-134">Exchange rate</span></span> |
 |---------------|-------------|------------|---------------|
 | <span data-ttu-id="d1aa8-135">EUR</span><span class="sxs-lookup"><span data-stu-id="d1aa8-135">EUR</span></span>           | <span data-ttu-id="d1aa8-136">USD</span><span class="sxs-lookup"><span data-stu-id="d1aa8-136">USD</span></span>         | <span data-ttu-id="d1aa8-137">วันที่ 1 ตุลาคม 2015</span><span class="sxs-lookup"><span data-stu-id="d1aa8-137">10/1/2015</span></span>  | <span data-ttu-id="d1aa8-138">200</span><span class="sxs-lookup"><span data-stu-id="d1aa8-138">200</span></span>           |

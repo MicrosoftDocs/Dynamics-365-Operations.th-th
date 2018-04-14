@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 4db56f76c7f8ce0cccf85ab04024d9a1e88a8822
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0c83c8e4506db41a69e94f35272bb651197f3478
 ms.contentlocale: th-th
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-production-order"></a><span data-ttu-id="fe3f7-103">สร้างใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="fe3f7-103">Create a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fe3f7-104">กระบวนงานนี้แสดงวิธีการสร้างใบสั่งผลิต </span><span class="sxs-lookup"><span data-stu-id="fe3f7-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="fe3f7-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="fe3f7-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="fe3f7-106">นี่เป็นกระบวนงานแรกจากเจ็ดกระบวนงานซึ่งอธิบายวงจรชีวิตของใบสั่งการผลิต</span><span class="sxs-lookup"><span data-stu-id="fe3f7-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
 

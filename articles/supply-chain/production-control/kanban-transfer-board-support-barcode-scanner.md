@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0696580dcf50139639dace641169d041021cf1b8
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a><span data-ttu-id="46cd7-103">การสนับสนุนบอร์ดการโอนย้ายคัมบังสำหรับเครื่องสแกนบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="46cd7-103">Kanban transfer board support for barcode scanners</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="46cd7-104">บอร์ดการโอนย้ายคัมบังสนับสนุนสแกนเนอร์อินพุตจากเครื่องสแกนบาร์โค้ดราคาให้เป็น การเลือก เริ่มต้น เสร็จสมบูรณ์ และลบงานคัมบัง</span><span class="sxs-lookup"><span data-stu-id="46cd7-104">The Kanban transfer board supports scanner input from a widget barcode scanner to Select, Start, Complete, and Empty a kanban job.</span></span>
 
@@ -38,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 ------------------
 
 <span data-ttu-id="46cd7-106">ในแท็บด่วน **การลงทะเบียนสแกนเนอร์** คุณสามารถเลือกโหมดการลงทะเบียน ซึ่งควบคุมการดำเนินการเมื่อคุณสแกนหมายเลขบัตรคัมบัง หรือพิมพ์หมายเลขในฟิลด์หมายเลขบัตรคัมบังด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="46cd7-106">On the **Scanner registration** FastTab you can select the registration mode, which controls the action when you scan a kanban card number or manually type the number in the Kanban card number field.</span></span>
+
 | <span data-ttu-id="46cd7-107">ตั้งค่าโหมดการลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="46cd7-107">Set registration mode</span></span> | <span data-ttu-id="46cd7-108">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="46cd7-108">Description</span></span>                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="46cd7-109">เริ่ม</span><span class="sxs-lookup"><span data-stu-id="46cd7-109">Start</span></span>                 | <span data-ttu-id="46cd7-110">ลงทะเบียนงานการโอนย้ายคัมบังอยู่ในระหว่างดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="46cd7-110">Registers a Kanban transfer job as in progress.</span></span>                                                 |

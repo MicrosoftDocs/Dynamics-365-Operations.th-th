@@ -19,17 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 008e0ceddac334d5624fb0793f5297caac7bd7d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e699d92d2e38416928d4386621d176e17b3fa77f
 ms.contentlocale: th-th
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="balance-sheet-financial-reports"></a><span data-ttu-id="e9c8e-104">รายงานทางการเงินของงบดุล</span><span class="sxs-lookup"><span data-stu-id="e9c8e-104">Balance sheet financial reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e9c8e-105">บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล</span><span class="sxs-lookup"><span data-stu-id="e9c8e-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="e9c8e-106">นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="e9c8e-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
@@ -71,7 +70,7 @@ ms.lasthandoff: 01/19/2018
     -   <span data-ttu-id="e9c8e-142">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="e9c8e-142">**DESC** – The description from the row definition</span></span>
     -   <span data-ttu-id="e9c8e-143">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="e9c8e-143">**FD** – Year-to-date financial data for the current year</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="e9c8e-144">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="e9c8e-144">See also</span></span>
 --------

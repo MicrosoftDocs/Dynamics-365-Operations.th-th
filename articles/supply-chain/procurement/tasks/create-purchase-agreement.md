@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84b8f08c5e72d3bae597d78cd8f1f77d59355917
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-agreement"></a><span data-ttu-id="575de-103">สร้างข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="575de-103">Create a purchase agreement</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="575de-104">ขั้นตอนนี้นำคุณผ่านการสร้างข้อตกลงการซื้อ </span><span class="sxs-lookup"><span data-stu-id="575de-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="575de-105">ซึ่งโดยทั่วไปสามารถทำได้โดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="575de-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="575de-106">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเองได้</span><span class="sxs-lookup"><span data-stu-id="575de-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="575de-107">คุณต้องตั้งค่าการจัดประเภทข้อตกลงการซื้อก่อนที่คุณเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="575de-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="575de-108">เมื่อคุณสร้างข้อตกลงแล้ว คุณสามารถใช้เมื่อคุณสร้างใบสั่งซื้อ และนี่จะคัดลอกเงื่อนไขข้อตกลงการซื้อไปยังหัวข้อและรายการที่อยู่ในใบสั่งที่ได้รับผลกระทบโดยข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="575de-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 

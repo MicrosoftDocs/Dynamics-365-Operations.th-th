@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: dfac5fe931cd6932da3a3e851b2578267449ea7b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 948fdefc52db2e5cb46e7708d36d172b38285913
 ms.contentlocale: th-th
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-overview-power-bi-content"></a><span data-ttu-id="79c44-104">เนื้อหาภาพรวมของเงินสดใน Power BI</span><span class="sxs-lookup"><span data-stu-id="79c44-104">Cash overview Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="79c44-105">หัวข้อนี้อธิบายถึงเนื้อหา **ภาพรวมของเงินสด** ใน Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="79c44-105">This topic describes the **Cash overview** Microsoft Power BI content.</span></span> <span data-ttu-id="79c44-106">และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้</span><span class="sxs-lookup"><span data-stu-id="79c44-106">It explains how to access the reports that are included in the content, and provides information about the data model and entities that were used to build the content.</span></span>
 

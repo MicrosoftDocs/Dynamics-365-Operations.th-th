@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 115dfc163dce580244c2b2b6975e49ea3b69f1ef
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="445fa-103">ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="445fa-103">Set up a location directive for purchase order put-away</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="445fa-104">กระบวนงานนี้แสดงวิธีการตั้งค่าคำสั่งสถานที่เก็บอย่างง่าย </span><span class="sxs-lookup"><span data-stu-id="445fa-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="445fa-105">ตัวอย่างที่แสดงอยู่สร้างคำสั่งสถานที่ที่จะใช้ในการกำหนดตำแหน่งที่จะย้ายสินค้าที่ได้รับสำหรับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="445fa-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="445fa-106">คุณสามารถเล่นคู่มืองานนี้ด้วยข้อมูลที่ระบุไว้โดยใช้ข้อมูลสาธิตบริษัท USMF</span><span class="sxs-lookup"><span data-stu-id="445fa-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="445fa-107">เงื่อนไขเบื้องต้น: คุณต้องสร้างรหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="445fa-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="445fa-108">ในกระบวนงานนี้เราใช้รหัสการโอนการครอบครองที่เรียกว่า Relabel</span><span class="sxs-lookup"><span data-stu-id="445fa-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="445fa-109">ถ้าคุณกำลังสร้างคำสั่งสถานที่ในข้อมูลของคุณเอง คุณต้องมีตั้งค่าการบริหารคลังสินค้าขั้นสูงสำหรับคลังสินค้าและสินค้าของคุณ </span><span class="sxs-lookup"><span data-stu-id="445fa-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="445fa-110">ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="445fa-110">This procedure is intended for the warehouse manager.</span></span>
 

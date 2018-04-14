@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e25d631dbfde4013ebf29d5ad3e88602ae3f317a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: db6c78942d1824adf82869b1258f00a18526058f
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a><span data-ttu-id="1d94e-103">จัดประเภทผลิตภัณฑ์โดยใช้ลำดับชั้นประเภท</span><span class="sxs-lookup"><span data-stu-id="1d94e-103">Classify a product using category hierarchies</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1d94e-104">ใช้ลำดับชั้นประเภทในการจัดประเภทผลิตภัณฑ์สำหรับการส่งออก การจัดซื้อ การขาย หรือวัตถุประสงค์อื่นๆ </span><span class="sxs-lookup"><span data-stu-id="1d94e-104">Use category hierarchies to classify products for export, procurement, sales, or other purposes.</span></span> <span data-ttu-id="1d94e-105">โดยทั่วไป งานนี้จะถูกดำเนินการโดยผู้จัดการผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="1d94e-105">This task is typically performed by a product manager.</span></span> <span data-ttu-id="1d94e-106">ตัวอย่างนี้ใช้หมายเลขผลิตภัณฑ์ M0009 ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="1d94e-106">The example uses product number M0009 in demo data company USMF.</span></span>
 

@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="38942-103">การเริ่มต้นใช้งานกับ Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="38942-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="38942-104">ใน Microsoft Dynamics 365 for Talent จะง่ายในการปรับเปลี่ยนอินเทอร์เฟสผู้ใช้ และการตั้งค่าตัวเลือกที่ทำให้ซอฟต์แวร์สะดวกสำหรับความต้องการของคุณมากขึ้น</span><span class="sxs-lookup"><span data-stu-id="38942-104">In Microsoft Dynamics 365 for Talent it's easy to modify the user interface and set options that make the software more intuitive for your needs.</span></span> <span data-ttu-id="38942-105">หัวข้อนี้มีการเชื่อมโยงไปยังหัวข้อที่แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้อินเทอร์เฟสผู้ใช้กับการกำหนดลักษณะของคุณ</span><span class="sxs-lookup"><span data-stu-id="38942-105">This topic includes links to topics that provide information on how to adapt the user interface to your preferences.</span></span> <span data-ttu-id="38942-106">หัวข้อยังรวมถึงการเชื่อมโยงไปยังข้อมูล ที่สามารถช่วยคุณในการค้นหาข้อมูลในระบบได้อย่างมีประสิทธิภาพและอย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="38942-106">The topic also includes links to information that can help you find information in the system efficiently and accurately.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 63252347f88f474a0527d9e6d283e2458fabc1aa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9832a60ee703878701927b66b0b4b63cb7efb985
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="1c6a5-103">นับจำนวนสินค้าคงคลังในคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="1c6a5-103">Count inventory in a warehouse</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1c6a5-104">ขั้นตอนนี้นำคุณไปสู่กระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการตรวจนับสินค้าคงคลังในใบสั่งที่นับสินค้าเฉพาะที่สถานที่ในคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="1c6a5-104">This procedure walks you through the process of creating and posting an inventory counting journal in order to count a specific item at a location in the warehouse.</span></span> <span data-ttu-id="1c6a5-105">กระบวนงานดังกล่าวใช้กับฟังก์ชัน "คลังสินค้าพื้นฐาน" ซึ่งอยู่ในโมดูลการจัดการสินค้าคงคลัง และไม่ใช้กับฟังก์ชันคลังสินค้าที่อยู่ในโมดูลการจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="1c6a5-105">The procedure applies to “basic warehousing” functionality, available in the Inventory management module, not to the warehousing functionality that’s available in the Warehouse management module.</span></span> <span data-ttu-id="1c6a5-106">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="1c6a5-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="1c6a5-107">ถ้าคุณกำลังใช้ข้อมูลของคุณเอง โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าผลิตภัณฑ์และสถานที่แล้ว และคุณได้สร้างชื่อสมุดรายวันสินค้าคงคลังสำหรับสมุดรายวันการตรวจนับแล้ว</span><span class="sxs-lookup"><span data-stu-id="1c6a5-107">If you’re using your own data, make sure that you have products and locations set up, and that you’ve created an inventory journal name for counting journals.</span></span> <span data-ttu-id="1c6a5-108">การนับสินค้าคงคลังจะดำเนินการปกติโดยพนักงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="1c6a5-108">Inventory counting is normally carried out by a warehouse employee.</span></span>
 

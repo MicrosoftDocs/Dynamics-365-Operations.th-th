@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="37e16-103">แป้นพิมพ์ลัด</span><span class="sxs-lookup"><span data-stu-id="37e16-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="37e16-104">ใช้แป้นพิมพ์ลัดต่อไปนี้ได้ในทุกส่วนของ Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="37e16-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="37e16-111">ทางลัดการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="37e16-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="37e16-112">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-112">**To do this**</span></span>                                    | <span data-ttu-id="37e16-113">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-134">ดูทางลัดที่มีอยู่ในปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="37e16-134">View currently available shortcuts</span></span>                | <span data-ttu-id="37e16-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="37e16-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="37e16-136">ทางลัดไปยังตัวเลือกวัน</span><span class="sxs-lookup"><span data-stu-id="37e16-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="37e16-137">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-137">**To do this**</span></span>                        | <span data-ttu-id="37e16-138">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-153">เลือก ไม่เคย (หรือวันที่สูงสุด)</span><span class="sxs-lookup"><span data-stu-id="37e16-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="37e16-154">ฎ</span><span class="sxs-lookup"><span data-stu-id="37e16-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="37e16-155">ทางลัดกล่องแสดงข้อมูลย่อ</span><span class="sxs-lookup"><span data-stu-id="37e16-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="37e16-156">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-156">**To do this**</span></span>                                                                  | <span data-ttu-id="37e16-157">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-168">ยุบกล่องแสดงข้อมูลย่อปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="37e16-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="37e16-169">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="37e16-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="37e16-170">ทางลัดการกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="37e16-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="37e16-171">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-171">**To do this**</span></span>                     | <span data-ttu-id="37e16-172">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-181">เปิดการกรองข้อมูล/การเรียงลำดับขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="37e16-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="37e16-182">Ctrl + Shift + F3</span><span class="sxs-lookup"><span data-stu-id="37e16-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="37e16-183">ทางลัดแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="37e16-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="37e16-184">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-184">**To do this**</span></span>                                      | <span data-ttu-id="37e16-185">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-216">ปิดแบบฟอร์มโดยการละทิ้งการเปลี่ยนแปลงใดๆที่ยังไม่ได้บันทึก</span><span class="sxs-lookup"><span data-stu-id="37e16-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="37e16-217">Alt + Shift + Q</span><span class="sxs-lookup"><span data-stu-id="37e16-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="37e16-218">ทางลัดการนำทางแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="37e16-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="37e16-219">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-219">**To do this**</span></span>                                      | <span data-ttu-id="37e16-220">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-245">สลับไปยังมุมมองรายากร</span><span class="sxs-lookup"><span data-stu-id="37e16-245">Switch to lines view</span></span>                                | <span data-ttu-id="37e16-246">Ctrl + Shift + L</span><span class="sxs-lookup"><span data-stu-id="37e16-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="37e16-247">ทางลัดกริด</span><span class="sxs-lookup"><span data-stu-id="37e16-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="37e16-248">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="37e16-249">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-283">เปิดการกรองกริดสำหรับคอลัมน์ปัจจุบัน (พร้อมกับโฟกัสในแถวส่วนหัว)</span><span class="sxs-lookup"><span data-stu-id="37e16-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="37e16-284">ป้อน</span><span class="sxs-lookup"><span data-stu-id="37e16-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="37e16-285">ทางลัดของตัวควบคุมข้อมูลป้อนเข้า</span><span class="sxs-lookup"><span data-stu-id="37e16-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="37e16-286">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-286">**To do this**</span></span>                                                               | <span data-ttu-id="37e16-287">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-306">สลับโฟกัสระหว่างพื้นที่ข้อความและแถบเครื่องมือในตัวควบคุมโปรแกรมแก้ไข HTML</span><span class="sxs-lookup"><span data-stu-id="37e16-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="37e16-307">F6</span><span class="sxs-lookup"><span data-stu-id="37e16-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="37e16-308">ทางลัดการส่งข้อความ</span><span class="sxs-lookup"><span data-stu-id="37e16-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="37e16-309">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-309">**To do this**</span></span>           | <span data-ttu-id="37e16-310">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-313">ไปที่แถบข้อความ</span><span class="sxs-lookup"><span data-stu-id="37e16-313">Go to the Message Bar</span></span>    | <span data-ttu-id="37e16-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="37e16-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="37e16-315">ทางลัดการนำทาง</span><span class="sxs-lookup"><span data-stu-id="37e16-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="37e16-316">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-316">**To do this**</span></span>                                                                | <span data-ttu-id="37e16-317">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-348">ย้ายไปที่บานหน้าต่าง FactBox (ซึ่งอาจรวมถึงการเปิด)</span><span class="sxs-lookup"><span data-stu-id="37e16-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="37e16-349">Alt+M,B หรือ Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="37e16-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="37e16-350">ทางลัดไปยังการกำหนดเป็นแบบส่วนบุคคล</span><span class="sxs-lookup"><span data-stu-id="37e16-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="37e16-351">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="37e16-352">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="37e16-397">ออกจากโหมดการกำหนดเป็นแบบส่วนบุคคล (เมื่ออยู่ในโหมดการกำหนดเป็นแบบส่วนบุคคล)</span><span class="sxs-lookup"><span data-stu-id="37e16-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="37e16-398">Esc</span><span class="sxs-lookup"><span data-stu-id="37e16-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="37e16-399">ทางลัดรายการของเซ็กเมนต์</span><span class="sxs-lookup"><span data-stu-id="37e16-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="37e16-400">**ถ้าต้องการดำเนินการนี้**</span><span class="sxs-lookup"><span data-stu-id="37e16-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="37e16-401">**กด**</span><span class="sxs-lookup"><span data-stu-id="37e16-401">**Press**</span></span>                        |

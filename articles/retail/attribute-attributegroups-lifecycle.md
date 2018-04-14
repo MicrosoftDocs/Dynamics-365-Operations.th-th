@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="3efc8-102">แอททริบิวต์ กลุ่มแอททริบิวต์ และการเชื่อมโยงกับเอนทิตี้ Retail ต่างๆ ใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3efc8-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3efc8-103">*แอททริบิวต์* จะกำหนดวิธีการอธิบายผลิตภัณฑ์และลักษณะเพิ่มเติมผ่านทางฟิลด์ที่กำหนดโดยผู้ใช้ (เช่น **ขนาดหน่วยความจำ** **กำลังการผลิตฮาร์ดดิสก์** **เป็นความสอดคล้องกันของ Energy star** ฯลฯ)</span><span class="sxs-lookup"><span data-stu-id="3efc8-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="3efc8-104">ใน Microsoft Dynamics 365 for Finance and Operations แอททริบิวต์สามารถเชื่อมโยงกับเอนทิตีการขายปลีกต่างๆ ได้ เช่น ประเภทผลิตภัณฑ์ และช่องทางการขายปลีก และสามารถตั้งค่าเริ่มต้นสำหรับรายการเหล่านี้ได้</span><span class="sxs-lookup"><span data-stu-id="3efc8-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="3efc8-105">จากนั้น ผลิตภัณฑ์จะสืบทอดแอททริบิวต์และค่าเริ่มต้น เมื่อได้ถูกเชื่อมโยงกับประเภทผลิตภัณฑ์และช่องทางการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="3efc8-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="3efc8-106">ค่าเริ่มต้นสามารถถูกแทนที่ได้ในระดับผลิตภัณฑ์แต่ละรายการ ที่ระดับช่องทางการขายปลีก หรือในแค็ตตาล็อกการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="3efc8-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="3efc8-307">บน FastTab **ผลิตภัณฑ์** เลือกผลิตภัณฑ์ที่จำเป็น และจากนั้นเลือก **แอททริบิวต์** เหนือกริดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="3efc8-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="3efc8-308">บน FastTab ต่อไปนี้ อัพเดตค่าของแอททริบิวต์ที่จำเป็น:</span><span class="sxs-lookup"><span data-stu-id="3efc8-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="3efc8-309">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-309">Shared product media</span></span>
-    - <span data-ttu-id="3efc8-310">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-310">Shared product attributes</span></span>
-    - <span data-ttu-id="3efc8-311">สื่อที่เป็นช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-311">Channel media</span></span>
-    - <span data-ttu-id="3efc8-312">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-312">Channel product attributes</span></span>
+   - <span data-ttu-id="3efc8-309">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-309">Shared product media</span></span>
+   - <span data-ttu-id="3efc8-310">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-310">Shared product attributes</span></span>
+   - <span data-ttu-id="3efc8-311">สื่อที่เป็นช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-311">Channel media</span></span>
+   - <span data-ttu-id="3efc8-312">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="3efc8-313">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="3efc8-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="3efc8-313">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="3efc8-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![กลุ่มคุณลักษณะของผลิตภัณฑ์ในแค็ตตาล็อก](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="3efc8-321">บน FastTab ต่อไปนี้ อัพเดตค่าของแอททริบิวต์ที่จำเป็น:</span><span class="sxs-lookup"><span data-stu-id="3efc8-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="3efc8-322">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-322">Shared product media</span></span>
-    - <span data-ttu-id="3efc8-323">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-323">Shared product attributes</span></span>
-    - <span data-ttu-id="3efc8-324">สื่อที่เป็นช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-324">Channel media</span></span>
-    - <span data-ttu-id="3efc8-325">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-325">Channel product attributes</span></span>
+   - <span data-ttu-id="3efc8-322">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-322">Shared product media</span></span>
+   - <span data-ttu-id="3efc8-323">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="3efc8-323">Shared product attributes</span></span>
+   - <span data-ttu-id="3efc8-324">สื่อที่เป็นช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-324">Channel media</span></span>
+   - <span data-ttu-id="3efc8-325">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3efc8-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="3efc8-326">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="3efc8-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="3efc8-326">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="3efc8-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

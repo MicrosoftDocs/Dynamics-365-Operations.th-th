@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 834146c1a57cca0c02598290352c3ab8e1e4b7f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8f23791736d677027dc6e172b4ee322b73da3f57
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accessibility-features"></a><span data-ttu-id="f9c7a-103">ลักษณะการทำงานสำหรับความสามารถในการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="f9c7a-103">Accessibility features</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f9c7a-104">หัวข้อนี้อธิบายฟังก์ชันที่มีวัตถุประสงค์ เพื่อช่วยเหลือผู้ใช้ที่มีความบกพร่องต่างๆ ในการใช้ Dynamics 365 for Finance and Operations, Enterprise edition Dynamics 365 for Retail และ Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="f9c7a-104">This topic describes the functionality that is designed to help users who have various disabilities use Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, and Dynamics 365 for Talent.</span></span> <span data-ttu-id="f9c7a-105">ตัวอย่างเช่น มีลักษณะการทำงานสำหรับผู้ที่ใช้เทคโนโลยีเพื่อผู้พิการทางการมองเห็น เช่น ผู้บรรยาย Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="f9c7a-105">For example, there are features for people who use sight-assistive technologies such as Microsoft Windows Narrator.</span></span>
 

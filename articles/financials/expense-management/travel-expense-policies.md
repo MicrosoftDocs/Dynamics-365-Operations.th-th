@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="492c7-103">นโยบายค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="492c7-103">Expense policies</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="492c7-104">คุณสามารถกำหนดนโยบายซึ่งผู้ปฏิบัติงานของคุณต้องปฏิบัติตามเมื่อป้อนหรือส่งรายงานค่าใช้จ่ายและใบเบิกค่าเดินทาง</span><span class="sxs-lookup"><span data-stu-id="492c7-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="492c7-105">การนำนโยบายค่าใช้จ่ายมาใช้สามารถช่วยให้คุณจัดการค่าใช้จ่ายได้อย่างมีประสิทธิภาพ</span><span class="sxs-lookup"><span data-stu-id="492c7-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
@@ -39,14 +39,14 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="492c7-111">คุณสามารถกำหนดนโยบายสามชนิด:</span><span class="sxs-lookup"><span data-stu-id="492c7-111">You can define three types of policies:</span></span>         
         
 - <span data-ttu-id="492c7-112">คำเตือน – อนุญาตให้ผู้ปฏิบัติงานสามารถส่งรายงานค่าใช้จ่าย หรือใบเบิกค่าเดินทางได้ แต่ค่าใช้จ่ายจะต้องถูกทำเครื่องหมายสำหรับผู้อนุมัติทั้งหมด และ</span><span class="sxs-lookup"><span data-stu-id="492c7-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-<span data-ttu-id="492c7-113">สำหรับการรายงานภายหลัง</span><span class="sxs-lookup"><span data-stu-id="492c7-113">for later reporting.</span></span>        
+  <span data-ttu-id="492c7-113">สำหรับการรายงานภายหลัง</span><span class="sxs-lookup"><span data-stu-id="492c7-113">for later reporting.</span></span>        
 
 - <span data-ttu-id="492c7-114">ข้อผิดพลาด – กำหนดให้ผู้ปฏิบัติงานต้องแก้ไขค่าใช้จ่ายเพื่อให้สอดคล้องกับนโยบายก่อนที่จะส่งรายงานค่าใช้จ่าย หรือใบเบิกค่าเดินทาง</span><span class="sxs-lookup"><span data-stu-id="492c7-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
- - <span data-ttu-id="492c7-115">เหตุผล – กำหนดให้ผู้ปฏิบัติงานหรือผู้จัดการต้องป้อนเหตุผลสำหรับการเกินยอดเงินนโยบายก่อนที่จะส่งรายงานค่าใช้จ่าย หรือใบเบิกค่าเดินทาง</span><span class="sxs-lookup"><span data-stu-id="492c7-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="492c7-115">เหตุผล – กำหนดให้ผู้ปฏิบัติงานหรือผู้จัดการต้องป้อนเหตุผลสำหรับการเกินยอดเงินนโยบายก่อนที่จะส่งรายงานค่าใช้จ่าย หรือใบเบิกค่าเดินทาง</span><span class="sxs-lookup"><span data-stu-id="492c7-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
- <span data-ttu-id="492c7-116">และคุณยังสามารถตั้งค่าช่วงวันที่ที่นโยบายค่าใช้จ่ายมีผลบังคับใช้ได้ด้วย </span><span class="sxs-lookup"><span data-stu-id="492c7-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="492c7-117">ตัวอย่างเช่น ค่าธรรมเนียมสายการบินสำหรับเที่ยวบินระหว่างเดนมาร์ก</span><span class="sxs-lookup"><span data-stu-id="492c7-117">For example, airline fares for flights between Denmark</span></span>      
- <span data-ttu-id="492c7-118">และนิวยอร์คจะมีราคาสูงในช่วงฤดูกาลท่องเที่ยวที่มีวันหยุดยาว</span><span class="sxs-lookup"><span data-stu-id="492c7-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="492c7-119">คุณสามารถกำหนดกฎค่าใช้จ่ายเที่ยวบินที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="492c7-119">You can define a flight expense rule that restricts the</span></span>      
- <span data-ttu-id="492c7-120">ต้นทุนเที่ยวบินไปยังนิวยอร์คถึงขีดจำกัด DKK 5000 และคุณสามารถระบุว่า กฎนี้มีผลบังคับใช้ระหว่างวันที่ 15 มีนาคม และ</span><span class="sxs-lookup"><span data-stu-id="492c7-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
- <span data-ttu-id="492c7-121">วันที่ 15 กันยายน</span><span class="sxs-lookup"><span data-stu-id="492c7-121">September 15.</span></span>
+  <span data-ttu-id="492c7-116">และคุณยังสามารถตั้งค่าช่วงวันที่ที่นโยบายค่าใช้จ่ายมีผลบังคับใช้ได้ด้วย </span><span class="sxs-lookup"><span data-stu-id="492c7-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="492c7-117">ตัวอย่างเช่น ค่าธรรมเนียมสายการบินสำหรับเที่ยวบินระหว่างเดนมาร์ก</span><span class="sxs-lookup"><span data-stu-id="492c7-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="492c7-118">และนิวยอร์คจะมีราคาสูงในช่วงฤดูกาลท่องเที่ยวที่มีวันหยุดยาว</span><span class="sxs-lookup"><span data-stu-id="492c7-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="492c7-119">คุณสามารถกำหนดกฎค่าใช้จ่ายเที่ยวบินที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="492c7-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="492c7-120">ต้นทุนเที่ยวบินไปยังนิวยอร์คถึงขีดจำกัด DKK 5000 และคุณสามารถระบุว่า กฎนี้มีผลบังคับใช้ระหว่างวันที่ 15 มีนาคม และ</span><span class="sxs-lookup"><span data-stu-id="492c7-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="492c7-121">วันที่ 15 กันยายน</span><span class="sxs-lookup"><span data-stu-id="492c7-121">September 15.</span></span>
 

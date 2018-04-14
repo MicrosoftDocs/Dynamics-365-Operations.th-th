@@ -17,15 +17,15 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2e986df1e089ef2a394d0e9d9236d39f2726c77
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d46e5382c4808ecb01012800caf85209b173901a
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-call-center-orders"></a><span data-ttu-id="1932b-103"> สร้างใบสั่งศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="1932b-103">Create call center orders</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1932b-104">ขั้นตอนนี้จะสอนให้ค้นหาลูกค้า สร้างใบสั่งใหม่ ค้นหาผลิตภัณฑ์และรวบรวมการชำระเงินจากลูกค้า </span><span class="sxs-lookup"><span data-stu-id="1932b-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="1932b-105">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT และมีไว้สำหรับเจ้าหน้าที่ดูแลใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="1932b-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="1932b-106">ความต้องการเบื้องต้น:  ผู้ใช้ที่ดำเนินการขั้นตอนนี้จะต้องถูกตั้งค่าเป็นผู้ใช้ศูนย์บริการ และแค็ตตาล็อกประจำครึ่งปี Fabrikam จะถูกเผยแพร่พร้อมกับหนึ่งรหัสแหล่งที่เป็นอย่างต่ำ</span><span class="sxs-lookup"><span data-stu-id="1932b-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 

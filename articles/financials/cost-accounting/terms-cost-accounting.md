@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="3340f-103">คำศัพท์การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="3340f-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3340f-104">หัวข้อนี้กำหนดเงื่อนไขสำคัญที่ใช้ในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="3340f-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="3340f-241">การเพิ่มขึ้น</span><span class="sxs-lookup"><span data-stu-id="3340f-241">Addition</span></span> |
 |  <span data-ttu-id="3340f-242">–</span><span class="sxs-lookup"><span data-stu-id="3340f-242">–</span></span> |  <span data-ttu-id="3340f-243">การลบ</span><span class="sxs-lookup"><span data-stu-id="3340f-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="3340f-244">คูณ</span><span class="sxs-lookup"><span data-stu-id="3340f-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="3340f-245">ข้อความ ถ้า ดั้งเดิม ไม่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="3340f-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="3340f-246">อย่างไรก็ตาม คุณสามารถสร้างข้อความ และตรวจสอบว่าเป็นจริงหรือไม่</span><span class="sxs-lookup"><span data-stu-id="3340f-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="3340f-247">**การตรวจสอบความถูกต้องใบแจ้งยอด**</span><span class="sxs-lookup"><span data-stu-id="3340f-247">**Statement  Validation**</span></span> | <span data-ttu-id="3340f-248">**ผลลัพธ์**</span><span class="sxs-lookup"><span data-stu-id="3340f-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="3340f-249">a > b</span><span class="sxs-lookup"><span data-stu-id="3340f-249">a > b</span></span>| <span data-ttu-id="3340f-250">จริง</span><span class="sxs-lookup"><span data-stu-id="3340f-250">True</span></span>  |
 |  <span data-ttu-id="3340f-251">a > b</span><span class="sxs-lookup"><span data-stu-id="3340f-251">a > b</span></span> |  <span data-ttu-id="3340f-252">เท็จ</span><span class="sxs-lookup"><span data-stu-id="3340f-252">False</span></span> |
-    
+
 <span data-ttu-id="3340f-253">**ต้นทุนค่าโสหุ้ย**</span><span class="sxs-lookup"><span data-stu-id="3340f-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="3340f-254">ต้นทุนค่าโสหุ้ยอ้างอิงถึงค่าใช้จ่ายต่อเนื่องของการดำเนินธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="3340f-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="3340f-255">นี่คือต้นทุนที่ไม่สามารถเชื่อมโยงกับกิจกรรมทางธุรกิจโดยตรง</span><span class="sxs-lookup"><span data-stu-id="3340f-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="3340f-256">ต่อไปนี้เป็นตัวอย่างบางรายการของต้นทุนค่าโสหุ้ย:</span><span class="sxs-lookup"><span data-stu-id="3340f-256">Here are some examples of overhead costs:</span></span>

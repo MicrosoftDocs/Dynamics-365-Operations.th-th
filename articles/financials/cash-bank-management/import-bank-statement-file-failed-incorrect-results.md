@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a5f53a76ebd0bd428f791ce8493e9f388eb8e2fa
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bank-statement-file-import-troubleshooting"></a><span data-ttu-id="cf8ab-107">การแก้ไขปัญหาการนำเข้าไฟล์ใบแจ้งยอดจากธนาคาร</span><span class="sxs-lookup"><span data-stu-id="cf8ab-107">Bank statement file import troubleshooting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cf8ab-108">ไฟล์ใบแจ้งยอดจากธนาคารจำเป็นต้องตรงกับโครงร่างที่ Microsoft Dynamics 365 for Finance and Operations รองรับ</span><span class="sxs-lookup"><span data-stu-id="cf8ab-108">It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Finance and Operations supports.</span></span> <span data-ttu-id="cf8ab-109">เนื่องด้วยมาตรฐานที่เข้มงวดของใบแจ้งยอดจากธนาคาร การรวมส่วนใหญ่จะทำงานอย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="cf8ab-109">Because of strict standards for bank statements, most integrations will work correctly.</span></span> <span data-ttu-id="cf8ab-110">อย่างไรก็ตาม บางครั้งไม่สามารถนำเข้าไฟล์ใบแจ้งยอดได้ หรือมีผลลัพธ์ที่ไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="cf8ab-110">However, sometimes the statement file can't be imported or has incorrect results.</span></span> <span data-ttu-id="cf8ab-111">โดยทั่วไป ปัญหาเหล่านี้มีสาเหตุมาจากความแตกต่างเล็ก ๆ น้อย ๆ ในไฟล์ใบแจ้งยอดจากธนาคาร</span><span class="sxs-lookup"><span data-stu-id="cf8ab-111">Typically, these issues are caused by small differences in the bank statement file.</span></span> <span data-ttu-id="cf8ab-112">บทความนี้อธิบายวิธีการแก้ไขความแตกต่างเหล่านี้ และวิธีการแก้ไขปัญหา</span><span class="sxs-lookup"><span data-stu-id="cf8ab-112">This article explains how to fix these differences and resolve the issues.</span></span>
 

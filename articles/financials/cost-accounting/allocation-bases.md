@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="61219-104">ฐานของการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="61219-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="61219-105">ฐานการปันส่วนเป็นข้อมูลพื้นฐานที่ซึ่งการบัญชีต้นทุนจัดสรรต้นทุนค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="61219-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="61219-106">ฐานการปันส่วนอาจเป็นปริมาณ เช่น ชั่วโมงเครื่องจักรที่ใช้ กิโลวัตต์ต่อชั่วโมง (kWh) ที่ใช้ หรือตารางฟุตที่ใช้งาน</span><span class="sxs-lookup"><span data-stu-id="61219-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="61219-107">ฐานของการปันส่วนโดยทั่วไปส่วนใหญ่แล้วจะถูกใช้เพื่อมอบหมายต้นทุนค่าโสหุ้ยให้กับสินค้าคงคลังที่ถูกผลิต</span><span class="sxs-lookup"><span data-stu-id="61219-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="61219-108">ตัวอย่างเช่น แผนก IT ปันส่วนค่าใช้จ่ายตามจำนวนคอมพิวเตอร์ที่ใช้แต่ละแผนก</span><span class="sxs-lookup"><span data-stu-id="61219-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="61219-775">นี่เป็นตัวอย่างของกฎการกระจายต้นทุน ถ้ามีการมอบหมายฐานของการปันส่วนตามสูตรคงที่ของไฟฟ้าให้เป็นฐานของการปันส่วนในนั้น</span><span class="sxs-lookup"><span data-stu-id="61219-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="61219-776">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="61219-776">Cost object</span></span> |  <span data-ttu-id="61219-777">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="61219-777">Description</span></span>  | <span data-ttu-id="61219-778">ขนาด</span><span class="sxs-lookup"><span data-stu-id="61219-778">Magnitude</span></span> | <span data-ttu-id="61219-779">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="61219-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="61219-780">CC001</span><span class="sxs-lookup"><span data-stu-id="61219-780">CC001</span></span>       | <span data-ttu-id="61219-781">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="61219-781">HR</span></span> | <span data-ttu-id="61219-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="61219-782">1,837.50</span></span>  | <span data-ttu-id="61219-783">(1,837.50 ÷ 18,162.50) × ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="61219-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="61219-784">CC002</span><span class="sxs-lookup"><span data-stu-id="61219-784">CC002</span></span>       | <span data-ttu-id="61219-785">FI</span><span class="sxs-lookup"><span data-stu-id="61219-785">FI</span></span> | <span data-ttu-id="61219-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="61219-786">3,075.00</span></span>  | <span data-ttu-id="61219-787">(3,075.00 ÷ 18,162.50) × ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="61219-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="61219-788">CC003</span><span class="sxs-lookup"><span data-stu-id="61219-788">CC003</span></span>       | <span data-ttu-id="61219-789">ไอที</span><span class="sxs-lookup"><span data-stu-id="61219-789">IT</span></span> | <span data-ttu-id="61219-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="61219-790">13,250.00</span></span> | <span data-ttu-id="61219-791">(13,250.00 ÷ 18,162.50) × ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="61219-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="61219-776">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="61219-776">Cost object</span></span> | <span data-ttu-id="61219-777">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="61219-777">Description</span></span> | <span data-ttu-id="61219-778">ขนาด</span><span class="sxs-lookup"><span data-stu-id="61219-778">Magnitude</span></span> |        <span data-ttu-id="61219-779">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="61219-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="61219-780">CC001</span><span class="sxs-lookup"><span data-stu-id="61219-780">CC001</span></span>    |     <span data-ttu-id="61219-781">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="61219-781">HR</span></span>      | <span data-ttu-id="61219-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="61219-782">1,837.50</span></span>  | <span data-ttu-id="61219-783">(1,837.50 ÷ 18,162.50) × ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="61219-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="61219-784">CC002</span><span class="sxs-lookup"><span data-stu-id="61219-784">CC002</span></span>    |     <span data-ttu-id="61219-785">FI</span><span class="sxs-lookup"><span data-stu-id="61219-785">FI</span></span>      | <span data-ttu-id="61219-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="61219-786">3,075.00</span></span>  | <span data-ttu-id="61219-787">(3,075.00 ÷ 18,162.50) × ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="61219-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="61219-788">CC003</span><span class="sxs-lookup"><span data-stu-id="61219-788">CC003</span></span>    |     <span data-ttu-id="61219-789">ไอที</span><span class="sxs-lookup"><span data-stu-id="61219-789">IT</span></span>      | <span data-ttu-id="61219-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="61219-790">13,250.00</span></span> | <span data-ttu-id="61219-791">(13,250.00 ÷ 18,162.50) × ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="61219-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

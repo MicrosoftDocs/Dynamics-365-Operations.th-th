@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 21366e82be8ddfcc608164c0a4a98e321799a67c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
 ms.contentlocale: th-th
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-performance-review"></a><span data-ttu-id="b2600-103">สร้างการตรวจสอบประสิทธิภาพ</span><span class="sxs-lookup"><span data-stu-id="b2600-103">Create a performance review</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b2600-104">กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน </span><span class="sxs-lookup"><span data-stu-id="b2600-104">This procedure shows how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="b2600-105">กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="b2600-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="b2600-106">กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="b2600-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0aaa5941807199a64e6541960dbcdf83fedb47e
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a><span data-ttu-id="844aa-103">การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ</span><span class="sxs-lookup"><span data-stu-id="844aa-103">Project cost accrual on purchase receipts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="844aa-104">หัวข้อนี้อธิบายวิธีการติดตามต้นทุนโครงการที่ค้างรับค้างจ่ายจากใบรับสินค้าซื้อใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="844aa-104">This topic describes how accrued project costs from purchase receipts can be tracked in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 

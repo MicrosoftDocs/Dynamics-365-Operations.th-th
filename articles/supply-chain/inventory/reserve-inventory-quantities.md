@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6de5c66d4587f6577e36345f7b77d72508c449d5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c705f51e32cc03d201eb00b6a1aa8048e59ff59e
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reserve-inventory-quantities"></a><span data-ttu-id="e526e-103">จองปริมาณสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="e526e-103">Reserve inventory quantities</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e526e-104">หัวข้อนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="e526e-104">This topic describes the different options that are available for reserving inventory.</span></span>
 
@@ -50,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 ### <a name="policies-on-the-item-model-groups-page"></a><span data-ttu-id="e526e-128">นโยบายบนหน้ากลุ่มแบบจำลองสินค้า</span><span class="sxs-lookup"><span data-stu-id="e526e-128">Policies on the Item model groups page</span></span>
 
 <span data-ttu-id="e526e-129">ส่วน **นโยบายสินค้าคงคลัง** ประกอบด้วยนโยบายการจองต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="e526e-129">The **Inventory policies** section contains the following reservation policies.</span></span>
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e526e-130">**นโยบายการจอง**</span><span class="sxs-lookup"><span data-stu-id="e526e-130">**Reservation policy**</span></span>  | <span data-ttu-id="e526e-131">**คำอธิบาย**</span><span class="sxs-lookup"><span data-stu-id="e526e-131">**Description**</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ ms.lasthandoff: 01/17/2018
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a><span data-ttu-id="e526e-155">ตัวอย่างสำหรับรายการที่ควบคุมวันที่ FIFO และย้อนหลังจากวันที่จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="e526e-155">Example for FIFO date-controlled and Backward from ship date</span></span>
 
 <span data-ttu-id="e526e-156">ในตัวอย่างนี้ มีปริมาณคงคลังคงเหลือสำหรับหมายเลขสินค้า A สำหรับหมายเลขชุดงานที่แตกต่างสามรายการ</span><span class="sxs-lookup"><span data-stu-id="e526e-156">In this example, on-hand inventory for item number A exists for three different batch numbers.</span></span>
+
 | <span data-ttu-id="e526e-157">หมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="e526e-157">Item number</span></span> | <span data-ttu-id="e526e-158">หมายเลขชุดงาน</span><span class="sxs-lookup"><span data-stu-id="e526e-158">Batch number</span></span> | <span data-ttu-id="e526e-159">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="e526e-159">Quantity</span></span> | <span data-ttu-id="e526e-160">วันที่</span><span class="sxs-lookup"><span data-stu-id="e526e-160">Date</span></span>             |
 |-------------|--------------|----------|------------------|
 | <span data-ttu-id="e526e-161">A</span><span class="sxs-lookup"><span data-stu-id="e526e-161">A</span></span>           | <span data-ttu-id="e526e-162">1000</span><span class="sxs-lookup"><span data-stu-id="e526e-162">1000</span></span>         | <span data-ttu-id="e526e-163">5</span><span class="sxs-lookup"><span data-stu-id="e526e-163">5</span></span>        | <span data-ttu-id="e526e-164">2 กุมภาพันธ์ 2016</span><span class="sxs-lookup"><span data-stu-id="e526e-164">February 2, 2016</span></span> |

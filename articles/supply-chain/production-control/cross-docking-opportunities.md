@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06416e3cec2915071f13acf485d21482da2eef21
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a><span data-ttu-id="1c684-103">การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ</span><span class="sxs-lookup"><span data-stu-id="1c684-103">Cross-docking from production orders to outbound docks</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1c684-104">หัวข้อนี้อธิบายวิธีการจัดการกระบวนการขนย้ายวัสดุผ่านศูนย์เปลี่ยนถ่ายสินค้าที่มีการรายงานเป็นเสร็จสมบูรณ์ จากสายการผลิตไปยังจะมีท่าขนส่งสินค้าขาออก</span><span class="sxs-lookup"><span data-stu-id="1c684-104">This topic describes how to manage the process of cross-docking material that is being reported as finished from a production line to an outbound transportation dock.</span></span>
 
@@ -76,10 +76,10 @@ ms.lasthandoff: 03/08/2018
 
 ### <a name="cross-docking-policy-name-transfer-order"></a><span data-ttu-id="1c684-135">ชื่อนโยบายการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า: ใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="1c684-135">Cross-docking policy name: Transfer order</span></span>
 
--   <span data-ttu-id="1c684-136">หมายเลขตามลำดับ: 10</span><span class="sxs-lookup"><span data-stu-id="1c684-136">Sequence number: 10</span></span>
- -   <span data-ttu-id="1c684-137">ชนิดใบสั่งงาน: การออกใช้การโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="1c684-137">Work order type: Transfer issue</span></span>
--   <span data-ttu-id="1c684-138">ความต้องการด้านการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าต้องการสถานที่ตั้ง: เท็จ</span><span class="sxs-lookup"><span data-stu-id="1c684-138">Cross docking demand requires location: False</span></span>
--   <span data-ttu-id="1c684-139">กลยุทธ์การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า: วันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="1c684-139">Cross docking strategy: Date and time</span></span>
+- <span data-ttu-id="1c684-136">หมายเลขตามลำดับ: 10</span><span class="sxs-lookup"><span data-stu-id="1c684-136">Sequence number: 10</span></span>
+  -   <span data-ttu-id="1c684-137">ชนิดใบสั่งงาน: การออกใช้การโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="1c684-137">Work order type: Transfer issue</span></span>
+- <span data-ttu-id="1c684-138">ความต้องการด้านการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าต้องการสถานที่ตั้ง: เท็จ</span><span class="sxs-lookup"><span data-stu-id="1c684-138">Cross docking demand requires location: False</span></span>
+- <span data-ttu-id="1c684-139">กลยุทธ์การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า: วันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="1c684-139">Cross docking strategy: Date and time</span></span>
 
 ### <a name="sequence-number"></a><span data-ttu-id="1c684-140">หมายเลขลำดับ</span><span class="sxs-lookup"><span data-stu-id="1c684-140">Sequence number</span></span>
 

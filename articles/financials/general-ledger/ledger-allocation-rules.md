@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e5eb9d79fee7ec2e288db24aee9535d6414fdeed
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="ledger-allocation-rules"></a><span data-ttu-id="da2f6-104">กฎการปันส่วนบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="da2f6-104">Ledger allocation rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="da2f6-105">บทความนี้แสดงข้อมูลเกี่ยวกับกฎการปันส่วนบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="da2f6-105">This article provides information about ledger allocation rules.</span></span> <span data-ttu-id="da2f6-106">โดยจะอธิบายส่วนประกอบต่างๆ ของกฎการปันส่วนและวิธีการปันส่วนที่สามารถใช้สำหรับอุปกรณ์เหล่านี้</span><span class="sxs-lookup"><span data-stu-id="da2f6-106">It describes the various components of these allocation rules and the allocation methods that can be used for them.</span></span>
 

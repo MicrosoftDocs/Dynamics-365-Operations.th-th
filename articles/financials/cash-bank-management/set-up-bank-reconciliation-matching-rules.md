@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b48accdc7aaaa65b4c620777546b20056038905b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d3e841f30f133644d0c6e1f0b0e9e990934a78db
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-bank-reconciliation-matching-rules"></a><span data-ttu-id="c509b-104">ตั้งค่าชุดกฎการจับคู่การกระทบยอดบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="c509b-104">Set up bank reconciliation matching rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c509b-105">หัวข้อนี้อธิบายวิธีการตั้งค่ากฎการจับคู่การกระทบยอดและชุดกฎการจับคู่การกระทบยอด เพื่อช่วยกระบวนการกระทบยอดบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="c509b-105">This topic explains how to set up reconciliation matching rules and reconciliation matching rule sets to help with the bank reconciliation process.</span></span> <span data-ttu-id="c509b-106">กฎการจับคู่การกระทบยอดมีชุดของเงื่อนไขที่ถูกใช้เพื่อกรองข้อมูลรายการใบแจ้งยอดของธนาคาร และรายการเอกสารธนาคารในระหว่างกระบวนการกระทบยอด</span><span class="sxs-lookup"><span data-stu-id="c509b-106">Reconciliation matching rules are a set of criteria that are used to filter bank statement lines and bank document lines during the reconciliation process.</span></span>
 
@@ -50,7 +49,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="c509b-122">**ล้างข้อมูลรายการใบแจ้งยอดการกลับรายการ**</span><span class="sxs-lookup"><span data-stu-id="c509b-122">**Clear reversal statement lines**</span></span> | <span data-ttu-id="c509b-123">สร้างเงื่อนไขเพื่อระบุวิธีที่รายการใบแจ้งยอดย้อนกลับรายการควรถูกลบ จากหน้า **แผ่นงานการกระทบยอดธนาคาร** เมื่อมีการดำเนินงานกฎการจับคู่</span><span class="sxs-lookup"><span data-stu-id="c509b-123">Create criteria to specify how reversal statement lines should be removed from the **Bank reconciliation worksheet** page when the matching rule is run.</span></span> <span data-ttu-id="c509b-124">ตัวเลือกนี้จะใช้เมื่อมีข้อผิดพลาดของธนาคารทำให้รายการใบแจ้งยอดจากธนาคารสองรายการ ถูกแสดงรายการในใบแจ้งยอดจากธนาคารที่นำเข้า และรายการต้องถูกกระทบยอด</span><span class="sxs-lookup"><span data-stu-id="c509b-124">This option is used when a bank error causes two bank statement lines to be listed in the imported bank statement, and the lines must be reconciled.</span></span> | <span data-ttu-id="c509b-125">**ขั้นตอนที่ 1**:**ค้นหารายการใบแจ้งยอดการกลับรายการ**– เพิ่มเกณฑ์การเลือกเพื่อเลือกรายการใบแจ้งยอดจากธนาคารย้อนกลับรายการ</span><span class="sxs-lookup"><span data-stu-id="c509b-125">**Step 1**: **Find reversal statement lines** – Add selection criteria to select reversal bank statement lines.</span></span> <span data-ttu-id="c509b-126">ตัวอย่างเช่น ถ้าต้องการเลือกเฉพาะเช็ค ให้เลือก **รหัสธุรกรรมธนาคาร** ในฟิลด์ ฟิลด์ ให้เลือกเครื่องหมายบวก (+) ในฟิลด์ **ผู้ปฏิบัติงาน** และจากนั้นให้ป้อน **เช็ค** ในฟิลด์มูลค่า</span><span class="sxs-lookup"><span data-stu-id="c509b-126">For example, to select only checks, select the **Bank transaction code** in the Field field, select the plus sign (+) in the **Operator** field, and then enter **Checks** in the Value field.</span></span> <span data-ttu-id="c509b-127">**ขั้นตอนที่ 2: ค้นหารายการใบแจ้งยอดเดิม** – คุณสามารถเพิ่มเกณฑ์การเลือกเพื่อจับคุ่กับรายการเอกสารธนาคารกับรายการใบแจ้งยอดจากธนาคารได้</span><span class="sxs-lookup"><span data-stu-id="c509b-127">**Step 2: Find original statement lines** – You can add selection criteria to match bank document lines to bank statement lines.</span></span> <span data-ttu-id="c509b-128">**ขั้นตอนที่ 3: ค้นหาธุรกรรมธนาคาร Finance and Operations**– คุณสามารถเพิ่มเกณฑ์การเลือกเพื่อจับคู่ธุรกรรมธนาคาร Finance and Operations กับรายการใบแจ้งยอดจากธนาคารได้</span><span class="sxs-lookup"><span data-stu-id="c509b-128">**Step 3: Find Finance and Operations bank transactions **– You can add selection criteria to match Finance and Operations bank transactions to bank statement lines.</span></span> |
 | <span data-ttu-id="c509b-129">**ทำเครื่องหมายธุรกรรมใหม่**</span><span class="sxs-lookup"><span data-stu-id="c509b-129">**Mark new transactions**</span></span>          | <span data-ttu-id="c509b-130">สร้างเงื่อนไขเพื่อระบุวิธีที่ธุรกรรมใหม่ควรทำเครื่องหมายในหน้า **แผ่นงานการกระทบยอดธนาคาร**เมื่อมีการดำเนินงานกฎการจับคู่</span><span class="sxs-lookup"><span data-stu-id="c509b-130">Create criteria to specify how new transactions should be marked on the **Bank reconciliation workshee**t page when the matching rule is run.</span></span>                                                                                                                                                                 | <span data-ttu-id="c509b-131">**ขั้นตอนที่ 1: ค้นหารายการใบแจ้งยอด**– เพิ่มฟิลด์การเลือกเพื่อระบุรายการใบแจ้งยอดจากธนาคารควรถูกเลือกจากหน้า **แผ่นงานการกระทบยอดธนาคาร**</span><span class="sxs-lookup"><span data-stu-id="c509b-131">**Step 1: Find statement lines** – Add selection fields to specify which bank statement lines should be selected from the **Bank reconciliation worksheet** page.</span></span> <span data-ttu-id="c509b-132">**ขั้นตอนที่ 2: ค้นหา Finance and Operations**– คุณสามารถเพิ่มเงื่อนไขการเลือกเพื่อค้นหารายการเอกสารธนาคารได้</span><span class="sxs-lookup"><span data-stu-id="c509b-132">**Step 2: Find Finance and Operations **– You can add selection criteria to search bank document lines.</span></span> <span data-ttu-id="c509b-133">ถ้าไม่พบเอกสารธนาคาร รายการใบแจ้งยอดจะถูกทำเครื่องหมายเป็นธุรกรรมใหม่</span><span class="sxs-lookup"><span data-stu-id="c509b-133">If no bank document is found, a statement line will be marked as a new transaction.</span></span>                                                                                                                                                                                                                                             |
 
- 
+
 
 
 

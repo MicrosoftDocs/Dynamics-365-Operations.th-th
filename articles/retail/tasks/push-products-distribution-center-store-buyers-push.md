@@ -17,15 +17,15 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f827cae291644bea0e6a1af8af9f692b118534ad
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="1957c-103"> กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก</span><span class="sxs-lookup"><span data-stu-id="1957c-103">Push products from distribution center to store using buyer's push</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1957c-104">ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการจัดส่งสินค้าแบบผลักเพื่อกระจายผลิตภัณฑ์จากสถานที่เดียวไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น </span><span class="sxs-lookup"><span data-stu-id="1957c-104">This procedure walks through the steps to create and process a Buyer´s push to distribute products from one location to one or many stores.</span></span> <span data-ttu-id="1957c-105">ผู้ใช้สามารถกำหนดโครงแบบหลายชนิดและให้ระบบแนะนำวิธีการกระจายผลิตภัณฑ์ หรือป้อนสถานที่ที่จะกระจายผลิตภัณฑ์และจำนวนที่จะกระจายให้กับร้านค้าแต่ละร้านด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="1957c-105">The user can define multiple configurations and have the system suggest how to distribute the products, or manually enter where the products are distributed to and how much gets distributed to each store.</span></span> <span data-ttu-id="1957c-106">กระบวนการนี้ไม่ได้รวมการตั้งค่าข้อมูลที่สามารถใช้ในการจัดส่งสินค้าแบบผลัก เช่น กฎการเพิ่มเติมสินค้า ลำดับชั้นขององค์กร และน้ำหนักของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="1957c-106">This procedure doesn't include setup of data that can be used in the Buyer´s push, such as replenishment rules, organizational hierarchies, and store weights.</span></span> <span data-ttu-id="1957c-107">ขั้นตอนนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="1957c-107">This procedure uses the USRT demo company.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb7a945243387f85ec5f38cc3b969d8d030ff25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 134642ff2eed988c137e7d0ecc8b0da77684f8c7
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-new-trade-agreement"></a><span data-ttu-id="00121-103">สร้างข้อตกลงทางการค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="00121-103">Create a new trade agreement</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="00121-104">ขั้นตอนนี้แสดงวิธีการสร้างข้อตกลงทางการค้าที่คุณลงทะเบียนราคาขายใหม่ของผลิตภัณฑ์ซึ่งคุณได้ตกลงกับลูกค้าแต่ละราย </span><span class="sxs-lookup"><span data-stu-id="00121-104">This procedure shows you how to create a trade agreement where you register a new product sales price that you've agreed with a specific customer.</span></span> <span data-ttu-id="00121-105">คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="00121-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="00121-106">ถ้าคุณกำลังใช้ข้อมูลของคุณเอง ก่อนที่คุณเริ่มทำตามคำแนะนำนี้ คุณจำเป็นต้องแน่ใจว่าชื่อสมุดรายวันข้อตกลงทางการค้าปรากฎอยู่ที่ที่ความสัมพันธ์เริ่มต้นถูกตั้งค่าเป็น "ราคา (ขาย)"</span><span class="sxs-lookup"><span data-stu-id="00121-106">If you’re using your own data, before you start this guide you need to make sure that a Trade agreement journal name exists where the Default relation is set to “Price (sales)”.</span></span>
 

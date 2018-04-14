@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="ce822-104">เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI</span><span class="sxs-lookup"><span data-stu-id="ce822-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ce822-105">หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา **ประสิทธิภาพการขายและความสามารถในการทำกำไร** ใน Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="ce822-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="ce822-106">และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้</span><span class="sxs-lookup"><span data-stu-id="ce822-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="ce822-140">รายได้โดยเรียงตามผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ce822-140">Revenue by product</span></span>     | <span data-ttu-id="ce822-141">รายได้และกำไรขั้นต้นโดยเรียงตามประเภทการขาย</span><span class="sxs-lookup"><span data-stu-id="ce822-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="ce822-142">\# ผลิตภัณฑ์รวม</span><span class="sxs-lookup"><span data-stu-id="ce822-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="ce822-143">ผลิตภัณฑ์ 10 อันดับแรกโดยเรียงตามรายได้</span><span class="sxs-lookup"><span data-stu-id="ce822-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="ce822-144">จำนวนรวมของผลิตภัณฑ์ที่ใช้งานอยู่และเปอร์เซ็นต์ของจำนวนรวม</span><span class="sxs-lookup"><span data-stu-id="ce822-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="ce822-145">รายได้รวมโดยเรียงตามประเภทการขาย</span><span class="sxs-lookup"><span data-stu-id="ce822-145">Total revenue by sales category</span></span>            | <span data-ttu-id="ce822-146">จำนวนของผลิตภัณฑ์ที่ลงบัญชีสำหรับรายได้ 80%</span><span class="sxs-lookup"><span data-stu-id="ce822-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="ce822-147">รายได้โดยเรียงตามรอบระยะเวลา\\*</span><span class="sxs-lookup"><span data-stu-id="ce822-147">Revenue by period\\*</span></span>    | <span data-ttu-id="ce822-148">รายได้โดยเรียงตามเดือน</span><span class="sxs-lookup"><span data-stu-id="ce822-148">Revenue by month</span></span>                           | <span data-ttu-id="ce822-149">การเติบโตรายได้ YOY</span><span class="sxs-lookup"><span data-stu-id="ce822-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="ce822-147">รายได้โดยเรียงตามรอบระยะเวลา\*</span><span class="sxs-lookup"><span data-stu-id="ce822-147">Revenue by period\*</span></span>    | <span data-ttu-id="ce822-148">รายได้โดยเรียงตามเดือน</span><span class="sxs-lookup"><span data-stu-id="ce822-148">Revenue by month</span></span>                           | <span data-ttu-id="ce822-149">การเติบโตรายได้ YOY</span><span class="sxs-lookup"><span data-stu-id="ce822-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="ce822-150">ผลต่างงบประมาณปิดท้าย YOY</span><span class="sxs-lookup"><span data-stu-id="ce822-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="ce822-151">% การเติบโตรายได้ YOY</span><span class="sxs-lookup"><span data-stu-id="ce822-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="ce822-152">ผลต่างการขายทั้งหมดโดยเรียงตามภูมิภาคของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="ce822-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="ce822-153">รายได้โดยเรียงตามสถานที่</span><span class="sxs-lookup"><span data-stu-id="ce822-153">Revenue by location</span></span>    | <span data-ttu-id="ce822-154">รายได้การขายโดยเรียงตามเมือง</span><span class="sxs-lookup"><span data-stu-id="ce822-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="ce822-162">ลูกค้า 15 อันดับแรกโดยเรียงตามกำไรขั้นต้น</span><span class="sxs-lookup"><span data-stu-id="ce822-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="ce822-163">กำไรขั้นต้นโดยเรียงตามเดือน YOY</span><span class="sxs-lookup"><span data-stu-id="ce822-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="ce822-164">\\* รายได้ปีนี้และปีที่แล้ว และการเติบโตโดยเรียงตามประเภทการขาย</span><span class="sxs-lookup"><span data-stu-id="ce822-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="ce822-164">\* รายได้ปีนี้และปีที่แล้ว และการเติบโตโดยเรียงตามประเภทการขาย</span><span class="sxs-lookup"><span data-stu-id="ce822-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="ce822-165">การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="ce822-165">Understanding the data model and entities</span></span>

@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0adfb1dcdaa1c57a3f8af0d874c081e19844d20a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b1346917dc8482181acdb9dac31efbc5356dd24
 ms.contentlocale: th-th
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="info-codes"></a><span data-ttu-id="f2e72-103">รหัสข้อมูล</span><span class="sxs-lookup"><span data-stu-id="f2e72-103">Info codes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="f2e72-104">บทความนี้แสดงภาพรวมเกี่ยวกับรหัส กลุ่มรหัสข้อมูล และข้อมูลวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="f2e72-104">This article provides an overview about info codes, info code groups, and how to use them.</span></span>
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="f2e72-132">**ตัวอย่างที่ 2: เชื่อมโยงรหัสข้อมูลกับกลุ่มรหัสข้อมูล** เมื่อคุณขายผลิตภัณฑ์ ตัวอย่างเช่น อุปกรณ์เคลื่อนที่ คุณต้องการรวบรวมชุดข้อมูล เช่น หมายเลขโทรศัพท์ รหัสอุปกรณ์เคลื่อนที่ (MEID) และหมายเลขลำดับประจำสินค้าที่เฉพาะเจาะจงเสมอ</span><span class="sxs-lookup"><span data-stu-id="f2e72-132">**Example 2: Link info codes to info code groups** When you sell certain products, for example mobile devices, you always want to collect a specific set of information, such as telephone number, mobile equipment identifier (MEID), and serial number.</span></span> <span data-ttu-id="f2e72-133">อย่างไรก็ตาม คุณต้องการรวบรวมข้อมูลที่แตกต่างกันสำหรับแท็บเล็ตเทียบกับโทรศัพท์เคลื่อนด้วย</span><span class="sxs-lookup"><span data-stu-id="f2e72-133">However, you also want to collect different information for a tablet versus a mobile phone.</span></span> <span data-ttu-id="f2e72-134">คุณสามารถตั้งค่ากลุ่มรหัสข้อมูลที่รวมการแสดงสำหรับหมายเลขโทรศัพท์ MEID และหมายเลขลำดับประจำสินค้า แล้วเชื่อมโยงกลุ่มรหัสข้อมูลกับรหัสข้อมูลแต่ละตัว</span><span class="sxs-lookup"><span data-stu-id="f2e72-134">You can set up an info code group that includes prompts for the telephone number, MEID, and the serial number, and then link the info code group to an individual info code.</span></span> <span data-ttu-id="f2e72-135">เมื่อรหัสข้อมูลเฉพาะของผลิตภัณฑ์มีการทริกเกอร์ กลุ่มรหัสข้อมูลก็สามารถมีการทริกเกอร์ถัดไป เพื่อให้คุณสามารถรวบรวมข้อมูลทั่วไปได้โดยไม่ต้องกำหนดรหัสข้อมูลที่เชื่อมโยงสำหรับแต่ละอุปกรณ์หลายชุด</span><span class="sxs-lookup"><span data-stu-id="f2e72-135">When the product-specific info code is triggered, the info code group can be triggered next to enable you to collect the common data without having to define multiple sets of linked info codes for each device.</span></span>
 
- 
+
 
 
 
