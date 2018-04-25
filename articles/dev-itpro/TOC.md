@@ -115,6 +115,7 @@
 ### มีอะไรใหม่
 #### [การเปลี่ยนแปลงความสามารถในการขยาย กรกฎาคม 2017](extensibility/changes-july-2017.md)
 #### [การเปลี่ยนแปลงความสามารถในการขยายรุ่น 7.3](extensibility/extensibility-changes-73.md)
+#### [การเปลี่ยนแปลงความสามารถในการขยายรุ่น 8.0](extensibility/changes-80.md)
 ### พื้นฐาน
 #### [การกำหนดการบุกรุก](extensibility/intrusive-customizations.md)
 #### [ส่วนขยายของคลาส](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [การรวมข้อมูลโดยใช้ Common Data Service](data-entities/data-integration-cds.md) 
 #### [ตั้งค่าคอนฟิกผู้ที่มีแนวโน้มจะเป็นลูกค้าไปยังสถานการณ์เงินสด](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [ซิงโครไนส์ผลิตภัณฑ์จาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [ซิงโครไนส์บัญชีจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [ซิงโครไนส์ผู้ติดต่อจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้จาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [ตั้งค่าคอนฟิกการรวมกับ Field Service](../supply-chain/sales-marketing/field-service.md)
+##### [ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [การใช้บริการเว็บภายนอก](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](data-entities/configuration-data-templates.md)
 ### [เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ](data-entities/excel-template-multiple.md)
 ### [ติดตามการเปลี่ยนแปลงของเอนทิตี้](data-entities/entity-change-track.md)
+
 ### [ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน](data-entities/data-entities-report.md)
+
 
 ## [งานการนำเข้าและส่งออกข้อมูล](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [ใช้ฐานข้อมูลของคุณเอง](analytics/export-entities-to-your-own-database.md)
 
+
+## [ระบบอัตโนมัติของงานข้อมูล](data-entities/data-task-automation.md)
+
 ## [ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR](gdpr/gdpr-home-page.md)
 ### [คู่มือ GDPR สำหรับ Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [การจัดประเภทต้นทุน](gdpr/gdpr-asset-classification-values.md)
 ### [ใช้รายงานการค้นหาบุคคล](gdpr/gdpr-person-search-report.md)
 ### [ขยายรายงานการค้นหาบุคคล](gdpr/gdpr-extend-person-search-report.md)
 ### [จัดการการเข้าถึงข้อมูลที่สำคัญ](gdpr/gdpr-auditing-sensitive-data.md)
 ### [ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent](gdpr/respond-dsr-request-talent.md)
 ### [ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [โฮมเพจการจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-home-page.md)
 ## [FAQ การพัฒนาและการจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-faq.md)
@@ -530,7 +539,8 @@
 ### [การอัพเกรด AX 2012 - เริ่มใช้งานจริง](migration-upgrade/2012-upgrade-cutover.md)
 
 ### การเปลี่ยนแปลงที่มีผลต่อการอัพเกรดจาก AX 2012
-#### [การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [ตัวคั่นผังบัญชีต้องไม่ซ้ำกัน](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [การอัพเกรดใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [แบบจำลองข้อมูลการจัดกำหนดการทรัพยากรของโครงการ](migration-upgrade/data-model-changes-resource-management.md)
 #### [การเปลี่ยนแปลงระบบย่อยของลำดับงาน](migration-upgrade/workflow-subsystem.md)
 #### [เหตุจึงต้องย้ายจากคิวบ์ไปยังแบบจำลองแบบรวม](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -568,7 +578,8 @@
 ### [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](migration-upgrade/deprecated-features.md)
 
 # [การจัดการระบบ](sysadmin/system-administration-home-page.md)
-## [FAQ เกี่ยวกับการอัพเดตรายเดือนของแพลตฟอร์ม](sysadmin/faq-platform-monthly-updates.md)
+## [FAQ การอัพเดตรายเดือนของแพลตฟอร์ม](sysadmin/faq-platform-monthly-updates.md)
+## [FAQ เครื่องเสมือนที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง](sysadmin/VMs-no-admin-access.md)
 ## [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](sysadmin/legal-terms-privacy-statement.md)
 ## [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](sysadmin/license-codes-configuration-keys-report.md)
 ## [การใช้ข้อมูลร่วมกันข้ามบริษัท](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [งานเสร็จสมบูรณ์ในไลไบรารี BPM](lifecycle-services/complete-tasks-bpm.md)
 ## [ใช้แผนภาพกิจกรรม](lifecycle-services/using-activity-diagrams.md)
 ## [ซิงโครไนส์ไลบรารี BPM กับ Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [สร้างชุดการทดสอบการยอมรับโดยใช้คู่มืองานและ BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [แผนผังของตัวทำแบบจำลองกระบวนการทางธุรกิจ](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเอง](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [การตรวจสอบและการวินิจฉัย ](lifecycle-services/monitoring-diagnostics.md)
@@ -619,7 +631,9 @@
 ## [ติดตามล็อกอินของผู้ใช้](lifecycle-services/user-logins.md)
 ## [ไลบรารีแอสเซท](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - ภาพรวมบริการแปลภาษา](lifecycle-services/translation-service-overview.md)
-### [คู่มือผู้ใช้บริการแปลภาษาของ Microsoft Dynamics 365  ](lifecycle-services/use-translation-service.md)
+### [คู่มือผู้ใช้บริการแปลภาษาของ Microsoft Dynamics 365](lifecycle-services/use-translation-service.md)
+### [บริการแปลภาษาของ Microsoft Dynamics 365 - การแปลไฟล์เอกสาร](lifecycle-services/use-translation-service-ua.md)
+### [บริการแปลภาษาของ Microsoft Dynamics 365 - หน่วยความจำคำแปล](lifecycle-services/use-translation-service-tm.md)
 
 ## คุณลักษณะของ Dynamics AX 2012 Lifecycle Services
 ### การปรับใช้

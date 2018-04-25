@@ -3,7 +3,7 @@
 # [การเริ่มต้นใช้งาน](talent-get-started.md)
 ## [ความต้องการของระบบและนโยบายการอัพเดต](talent-versions-update-policy.md)
 ## [เตรียมใช้งาน Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [เอาสภาพแวดล้อม Talent ออก](remove-test-environment.md)
+## [เอาสภาพแวดล้อม Talent ออก](remove-talent-environment.md)
 ## [เตรียมใช้งานแอปหน่วยย่อย Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [ขยายฟังก์ชันของ Talent](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล](set-up-hr-parameters-across-legal-entities.md)
 ## [ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท](set-up-company-specific-hr-parameters.md)
 ## [FAQ การดำเนินการด้านบุคลากร](personnel-actions-faq.md)
+## [ทำให้กระบวนการทางธุรกิจเป็นทางการ](formalize-business-processes.md)
 ## [ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน](workflow-manage-employee-information.md)
 ## [ภาพรวมการลางานและการขาดงาน](leave-absence-overview.md)
 
