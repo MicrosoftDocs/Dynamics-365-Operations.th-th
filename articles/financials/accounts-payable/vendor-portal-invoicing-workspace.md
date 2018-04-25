@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57fc1c21394d91f6a8bd4726c9d948c8ae2cf4d0
+ms.sourcegitcommit: 8af424d1a1ce41316008649472c2b8748806c6d6
+ms.openlocfilehash: 0a76417e01b67b493b320973c14e059850ab772e
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
@@ -52,16 +52,12 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="f3cb4-116">ในส่วน **รายการตาราง**สถานะของการออกใบแจ้งหนี้จะแบ่งออกในลักษณะที่คล้ายกันกับไทล์สรุป: รายการฉบับร่าง รายการที่ส่งแล้ว และรายการที่อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="f3cb4-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="f3cb4-117">ขณะที่อยู่ในสถานะฉบับร่าง สามารถส่งใบแจ้งหนี้ไปยังลำดับงานหรือลบออกได้</span><span class="sxs-lookup"><span data-stu-id="f3cb4-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="f3cb4-118">รายการตารางสุดท้ายคือตัวเลือกในการค้นหาใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="f3cb4-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="f3cb4-119">คุณสามารถกรองข้อมูลตามที่คุณค้นหาเพื่ออนุญาตสำหรับการค้นหาที่เร็วขึ้น</span><span class="sxs-lookup"><span data-stu-id="f3cb4-119">You can filter as you search, to allow for faster searches.</span></span>
 
-<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="f3cb4-120">หน้ารายการใบแจ้งหนี้ของผู้จัดจำหน่ายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="f3cb4-120">All vendor invoices list page</span></span>
------------------------------
+### <a name="all-vendor-invoices-list-page"></a><span data-ttu-id="f3cb4-120">หน้ารายการใบแจ้งหนี้ของผู้จัดจำหน่ายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="f3cb4-120">All vendor invoices list page</span></span>
 
 <span data-ttu-id="f3cb4-121">คุณสามารถดูใบแจ้งหนี้ของผู้จัดจำหน่ายที่ลงรายการบัญชีแล้วและที่ไม่ได้ลงรายการบัญชีทั้งหมดได้บนหน้ารายการ **ใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="f3cb4-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="f3cb4-122">คุณสามารถใช้หน้ารายการนี้เพื่อดูสถานะการชำระเงินของใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="f3cb4-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="f3cb4-123">สถานะการชำระเงินรวมถึง ยังไม่ได้ลงรายการบัญชี ยังไม่ได้ชำระเงิน ชำระเงินบางส่วน และชำระเงินครบถ้วน</span><span class="sxs-lookup"><span data-stu-id="f3cb4-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>
 <span data-ttu-id="f3cb4-124">การสร้างใบแจ้งหนี้ของผู้จัดจำหน่ายใหม่จากใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="f3cb4-124">Creating a new invoice from a purchase order</span></span>
---------------------------------------------
 
 <span data-ttu-id="f3cb4-125">คุณสามารถสร้างใบแจ้งหนี้ของผู้จัดจำหน่ายใหม่โดยการเลือกการดำเนินการ **ใหม่** บนพื้นที่ทำงาน **การออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="f3cb4-125">You can create a new vendor invoice by selecting the **New** action on the **Vendor collaboration invoicing** workspace.</span></span> <span data-ttu-id="f3cb4-126">ผู้จัดจำหน่ายจำเป็นต้องระบุหมายเลขใบสั่งซื้อและหมายเลขใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="f3cb4-126">The purchase order number and invoice number must be provided by the vendor.</span></span> <span data-ttu-id="f3cb4-127">โดยค่าเริ่มต้น รายการจากใบสั่งซื้อของผู้จัดจำหน่ายทั้งหมดจะปรากฏในใบแจ้งหนี้ใหม่</span><span class="sxs-lookup"><span data-stu-id="f3cb4-127">By default, all of the lines from the vendor's purchase order will appear on the new invoice.</span></span> <span data-ttu-id="f3cb4-128">คุณสามารถแก้ไขข้อมูลปริมาณและต้นทุนได้ก่อนที่จะส่งใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="f3cb4-128">The quantity and cost information can be edited prior to submitting the vendor invoice to workflow.</span></span> <span data-ttu-id="f3cb4-129">คุณสามารถแนบไฟล์ บันทึก รูปภาพ และ URL ให้กับใบแจ้งหนี้ได้ก่อนที่จะส่ง</span><span class="sxs-lookup"><span data-stu-id="f3cb4-129">You can attach files, notes, images, and URLs to an invoice before submitting it.</span></span>
-
-
 
 <span data-ttu-id="f3cb4-130">สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกับผู้จัดจำหน่ายที่มีผู้จัดจำหน่ายภายนอก](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span><span class="sxs-lookup"><span data-stu-id="f3cb4-130">For more information, see [Vendor collaboration with external vendors](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span></span>
 
