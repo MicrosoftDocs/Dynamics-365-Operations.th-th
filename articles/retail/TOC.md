@@ -31,7 +31,7 @@
 ## [แค็ตตาล็อกของศูนย์บริการ](call-center-catalogs.md)
 ## [สร้างแค็ตตาล็อกของศูนย์บริการ](create-call-center-catalogs.md)
 ## [ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง](set-up-fraud-alerts.md)
-## [ตั้งค่าตัวเลือกการประมวลผลใบสั่ง](set-up-order-processing-options.md)
+## [ตั้งค่าศูนย์บริการ](set-up-order-processing-options.md)
 ## [ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์](set-up-continuity-program.md)
 ## [การระงับใบสั่ง](work-with-order-holds.md)
 ## [ตัวเลือกการชำระเงิน](work-with-payments.md)
@@ -47,10 +47,11 @@
 # Modern Point of Sale (MPOS) และ Cloud POS
 ## [เลือกระหว่าง Modern POS และ Cloud POS](MPOS-or-CPOS.md)
 ## [การดำเนินงาน POS ออนไลน์และออฟไลน์](pos-operations.md)
-## [เค้าโครงหน้าจอข้อมูลสาธิตใน MPOS/CPOS](demo-data.md)
+## [โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS](demo-data.md)
 ## [ภาพรวมของการค้นหาผลิตภัณฑ์และลูกค้าในการขายหน้าร้าน](POS-search-improvements.md)
+## [การค้นหาสินค้าคงคลังในการขายหน้าร้าน](product-variants-POS.md)
 ## อุปกรณ์ต่อพ่วงฮาร์ดแวร์
-### [ภาพรวมของอุปกรณ์ต่อพ่วงของ Retail](retail-peripherals-overview.md)
+### [ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก](retail-peripherals-overview.md)
 ### [Microsoft ทดสอบอุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS](microsoft-tested-pos-hardware-peripherals.md)
 ### [โปรแกรมจำลองอุปกรณ์ต่อพ่วงของ Retail](dev-itpro/retail-peripheral-simulator.md)
 ### [กำหนดและรักษาไคลเอนต์ช่องทาง และเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](define-maintain-channel-clients-registers-hw-stations.md)
@@ -96,6 +97,7 @@
 ## [ตั้งค่าการวิเคราะห์ RFM](set-up-rfm-analysis.md)
 
 # ส่วนลดและการปรับปรุงราคา
+## [การจัดการราคาขายปลีก](price-management.md)
 ## [การปรับปรุงราคาและส่วนลด](price-adjustments-discounts.md)
 ## [กำหนดชุดของส่วนลดที่ซ้อนทับกันที่ดีที่สุด](optimal-combination-overlapping-discounts.md)
 ## [กำหนดส่วนลดเฉพาะช่องทาง](define-channel-specific-discounts.md)
@@ -139,18 +141,22 @@
 ## [การตั้งค่าส่วนประกอบของงาน](../talent/create-job.md)
 
 # คุณลักษณะการทำงานเฉพาะและบังคับ
+## ฝรั่งเศส
+### [เครื่องบันทึกเงินสดสำหรับฝรั่งเศส](localizations/emea-fra-cash-registers.md)
+### [แนวทางการปรับใช้เครื่องบันทึกเงินสดในฝรั่งเศส](localizations/emea-fra-deployment.md)
 ## อินเดีย
-### [การรวม GST สำหรับเครื่องบันทึกเงินสดของอินเดีย](localizations/apac-ind-cash-registers.md)
-### [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับอินเดีย](localizations/apac-ind-loc-deployment-guidelines.md)
+### [การรวม GST สำหรับเครื่องบันทึกเงินสด](localizations/apac-ind-cash-registers.md)
+### [แนวทางการปรับใช้เครื่องบันทึกเงินสดในอินเดีย](localizations/apac-ind-loc-deployment-guidelines.md)
 ## นอร์เวย์
 ### [เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-cash-registers.md)
-### [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์](localizations/emea-nor-loc-deployment-guidelines.md)
+### [แนวทางการปรับใช้เครื่องบันทึกเงินสดในนอร์เวย์](localizations/emea-nor-loc-deployment-guidelines.md)
 ## สวีเดน
 ### [เครื่องบันทึกเงินสดสำหรับสวีเดน](localizations/emea-swe-cash-registers.md)
+### [ตัวอย่างสำหรับการรวมระบบ Retail POS กับหน่วยการควบคุม](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # งาน Retail
 ## [สร้างผลิตภัณฑ์](../supply-chain/pim/tasks/create-product.md)
-## [ตั้งค่าคอนฟิกผลิตภัณฑ์ที่เชื่อมโยง](../supply-chain/pim/tasks/configure-linked-products.md)
+## [ตั้งค่าคอนฟิคผลิตภัณฑ์ที่เชื่อมโยง](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
 ## [ ข้อตกลงทางการค้าและราคาพื้นฐาน](tasks/base-price-trade-agreements.md)
 ## [ จัดประเภทกฎการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า](tasks/category-pricing-rules-trade-agreements.md)
@@ -260,6 +266,7 @@
 ### [SDK แพลตฟอร์มอีคอมเมิร์ซ](dev-itpro/ecommerce-platform-sdk.md)
 
 ## ความสามารถในการขยายของเชื่อมต่อการชำระเงิน
+### [การรวมการชำระเงินเข้ากับเทอร์มินัลการชำระเงิน](dev-itpro/end-to-end-payment-extension.md)
 ### [การใช้งานตัวเชื่อมต่อการชำระเงินและสนุนอุปกรณ์การชำระเงิน (เอกสาร)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [ปรับใช้ตัวเชื่อมต่อการชำระเงิน](dev-itpro/deploy-payment-connector.md)
 ### [สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน](dev-itpro/create-windows-installer-payment-connector.md)
@@ -267,8 +274,9 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [รวม Retail SDK กับระบบบิลด์แบบต่อเนื่อง](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [ตัวอย่างความสามารถในการขยายของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [การทำแพคเกจ Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [การบรรจุสินค้าของ Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [ตัวอย่าง Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [จุดขยายสำหรับบันทึกการจัดส่ง](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [ส่วนขยายฐานข้อมูล (DB) ช่องทาง](dev-itpro/channel-db-extensions.md)
 ### [ความสามารถในการขยาย CDX](dev-itpro/cdx-extensibility.md)
 ### [แอตทริบิวต์ใบสั่ง](dev-itpro/order-attributes.md)
