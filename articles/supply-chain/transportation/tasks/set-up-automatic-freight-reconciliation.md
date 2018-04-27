@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>ตั้งค่าการกระทบยอดค่าขนส่งโดยอัตโนมัติ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลสำหรับการกระทบยอดการขนส่งโดยอัตโนมัติ  ซึ่งปกติจะดำเนินการโดยผู้จัดการคลังสินค้า  คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF
 

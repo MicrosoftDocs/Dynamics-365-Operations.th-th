@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>การคำนวณ BOM
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 การคำนวณต้นทุนและราคาขายเรียกว่าการคำนวณสูตรการผลิต (BOM) และคุณต้องเรียกใช้งานจากหน้าการคำนวณ หัวข้อนี้มีข้อมูลเกี่ยวกับการคำนวณ BOM
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>ตั้งค่าฟังก์ชันการล็อกออนแบบขยายสำหรับ POS ระบบ Cloud และ MPOS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมตัวเลือกของคุณสำหรับการตั้งค่าการเข้าสู่ระบบแบบขยายสำหรับ Cloud POS และ Modern POS ของการขายปลีก (MPOS)
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันคลังสินค้าและระดับความสำคัญใน Finance and Operations 
 

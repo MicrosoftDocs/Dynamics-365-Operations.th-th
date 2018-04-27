@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF การบันทึกจัดทำขึ้นสำหรับผู้ใช้ที่รับผิดชอบการจัดการ และประมวลผลใบแจ้งหนี้ A/R
 

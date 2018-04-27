@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>ภาพรวมของโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้โปรแกรมช่วยแนะนำการปรับให้เหมาะสม เพื่อช่วยในการรับรองการตั้งค่าคอนฟิกที่ดีที่สุดของ Microsoft Dynamics 365 Finance and Operations
 

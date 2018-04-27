@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่ค่าในฟิลด์ฐานกำไรเบื้องต้นและวิธีการคำนวณ ระบุอัตราภาษีในธุรกรรมการขายและการซื้อ
 

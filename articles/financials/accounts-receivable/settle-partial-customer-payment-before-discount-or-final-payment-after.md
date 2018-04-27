@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>การชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้กล่าวถึงผลกระทบของการชำระเงินใบแจ้งหนี้สำหรับลูกค้า สถานการณ์จำลองที่มุ่งเน้นผลที่เกิดขึ้นในบัญชีแยกประเภทย่อย ไม่ใช่บัญชีแยกประเภททั่วไป
 

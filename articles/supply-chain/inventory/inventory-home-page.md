@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-management"></a>การบริหารสินค้าคงคลัง 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 คุณสามารถใช้การจัดการสินค้าคงคลังเพื่อทำภารกิจต่อไปนี้:
 

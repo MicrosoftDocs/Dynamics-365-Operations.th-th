@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="modeling-a-lean-organization"></a>การสร้างแบบจำลององค์กรแบบ lean
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความแสดงข้อมูลเกี่ยวกับแนวคิดหลักในการสร้างโมเดลกับองค์กรแบบ Lean 
 

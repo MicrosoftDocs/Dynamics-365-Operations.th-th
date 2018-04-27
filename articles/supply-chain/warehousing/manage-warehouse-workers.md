@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงวิธีการที่คุณสามารถใช้ Microsoft Dynamics 365 for Finance and Operations เพื่อช่วยควบคุมและตรวจสอบงานที่มีการดำเนินการโดยพนักงานในคลังสินค้าของคุณ
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 โดยการใช้แค็ตตาล็อกภายนอก คุณสามารถมั่นใจได้ว่าข้อมูลผลิตภัณฑ์และราคาที่คุณประมวลผลในเวลาต่อมาใน Dynamics 365 for Finance and Operations กรกฎาคม 2017 ถูกต้อง และเป็นข้อมูลล่าสุด จากนั้นสามารถมีการอนุมัติใบเบิก และถูกแปลงเป็นใบสั่งซื้อ และสามารถวางใบสั่งที่ผู้จัดจำหน่ายได้
 

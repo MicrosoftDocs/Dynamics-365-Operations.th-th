@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>ประเภทต้นทุนที่ใช้ในการควบคุมการผลิตและการจัดการและการบัญชีโครงการ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 งานการผลิตบางประเภทอาจใช้กับการประเมินเวลาและการรายงาน  บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่คุณต้องกำหนด สำหรับชนิดของงานการผลิตเหล่านี้สำหรับวัตถุประสงค์ของการผลิตและโครงการ
 

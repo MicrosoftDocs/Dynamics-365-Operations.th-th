@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-tax-overview"></a>ภาพรวมของภาษีขาย
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 หัวข้อนี้แสดงภาพรวมของฟังก์ชันระบบภาษีขาย โดยอธิบายถึงองค์ประกอบของการตั้งค่าภาษีขายและการทำงานร่วมกัน
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-project-resource-information"></a>ตั้งค่าข้อมูลทรัพยากรโครงการ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงให้เห็นถึงวิธีการตั้งค่าทรัพยากรโครงการ งานนี้ใช้ชุดข้อมูล USMF
 

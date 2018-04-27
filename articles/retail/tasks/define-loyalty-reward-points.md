@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> กำหนดคะแนนรางวัลสำหรับสมาชิก
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้จะแนะนำวิธีกำหนดคะแนนรางวัลสำหรับสมาชิก  คุณควรตั้งค่าคะแนนรางวัลสำหรับสมาชิกก่อนที่คุณจะตั้งค่าโปรแกรมตอบแทนลูกค้าสมาชิก  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>การตั้งค่าการแสดงผลสำหรับอุปกรณ์เคลื่อนที่ของคลังสินค้า
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าลักษณะที่ปรากฏของจอแสดงผลของอุปกรณ์เคลื่อนที่ และแม็ปแป้นพิมพ์ลัดเพื่อควบคุม เช่น ปุ่ม 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>โอนย้ายวัสดุด้วยงานคัมบัง (กุมภาพันธ์ 2016 เท่านั้น)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้มุ่งเน้นการดำเนินการงานคัมบัง ในการเบิกถอนเพื่อการโอนย้ายวัสดุและส่วนประกอบ ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF ขั้นตอนนี้มีไว้สำหรับผู้ปฏิบัติงานคลังสินค้า
 

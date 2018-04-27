@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>สร้างใบลดหนี้ในใบแจ้งหนี้ของโครงการ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. ไปที่การจัดการโครงการและการบัญชี > โครงการ > โครงการทั้งหมด 
 2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ 

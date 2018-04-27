@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>แสดงหน้าแบบเคียงข้างกันโดยใช้ไอคอนเปิดในหน้าต่างใหม่
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการแสดงหน้าเคียงข้างกันใน Microsoft Dynamics 365 for Finance and Operations
 

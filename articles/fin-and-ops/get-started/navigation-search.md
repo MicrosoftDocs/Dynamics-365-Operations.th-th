@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>การค้นหานำทาง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าใน Microsoft Dynamics 365 for Finance and Operations
 

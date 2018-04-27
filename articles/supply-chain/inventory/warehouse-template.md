@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>ตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า มีเท็มเพลตการจัดโครงแบบที่กำหนดไว้ล่วงหน้าหลายรายการที่คุณสามารถใช้ได้ สำหรับข้อมูลเกี่ยวกับวิธีการใช้เท็มเพลตเหล่านี้ ดู [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](../../dev-itpro/data-entities/configuration-data-templates.md)
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-consignment"></a>ตั้งค่าการส่งมอบ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกการดำเนินการสินค้าคงคลังที่มีการส่งมอบขาเข้า
 

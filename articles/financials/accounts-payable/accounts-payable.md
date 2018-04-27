@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้ 
 

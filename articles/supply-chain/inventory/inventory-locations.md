@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-locations"></a>สถานที่เก็บสินค้าคงคลัง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 สถานที่เก็บสินค้าคงคลังจะใช้กับคลังสินค้าพื้นฐาน (WMS I) เพื่อกำหนดที่จัดเก็บสินค้าและเบิกสินค้าในคลังสินค้า WMS
 

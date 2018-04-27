@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-depreciation"></a>ค่าเสื่อมราคาของสินทรัพย์ถาวร
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร
 

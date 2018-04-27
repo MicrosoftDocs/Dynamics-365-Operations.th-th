@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a> กำหนดการความต่อเนื่อง
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 หัวข้อนี้แนะนำเกี่ยวกับการตั้งค่าโปรแกรมความต่อเนื่อง (หรือเรียกว่าใบสั่งที่เกิดซ้ำ)  หัวข้อนี้ใช้บริษัท USRT ในข้อมูลสาธิต
 

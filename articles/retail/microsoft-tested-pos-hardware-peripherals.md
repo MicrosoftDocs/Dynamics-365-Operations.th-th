@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก 
 

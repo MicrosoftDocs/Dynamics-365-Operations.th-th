@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>การบล็อคสินค้าคงคลัง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของการบล็อคสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>ผลกระทบของค่าเสื่อมราคากับการกลับรายการ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้กล่าวถึงผลกระทบที่เป็นไปได้ของการกลับรายการธุรกรรมสินทรัพย์ถาวร 
 

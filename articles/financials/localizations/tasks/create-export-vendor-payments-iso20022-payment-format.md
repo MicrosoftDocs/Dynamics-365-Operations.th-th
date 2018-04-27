@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างบรรทัดการชำระเงินในสมุดรายวันการชำระเงินของผู้จัดจำหน่ายและการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้าย ISO2022  
 

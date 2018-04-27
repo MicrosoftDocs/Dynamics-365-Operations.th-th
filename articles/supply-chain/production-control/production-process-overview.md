@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>ภาพรวมของกระบวนการผลิต
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของกระบวนการผลิต โดยอธิบายขั้นต่างๆ ของใบสั่งผลิต ใบสั่งชุดงาน และคัมบัง ตั้งแต่การสร้างใบสั่งไปจนถึงการปิดบัญชีรอบระยะเวลาทางการเงิน 
 

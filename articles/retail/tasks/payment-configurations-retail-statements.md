@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a> การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดการขายปลีก
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้จะแสดงการตั้งค่าคอนฟิกสำหรับวิธีการชำระเงินของร้านค้าปลีกที่มีผลต่อวิธีการสร้างและลงรายการบัญชีการขายปลีก 
 

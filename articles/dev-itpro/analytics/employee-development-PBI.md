@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: th-th
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a>เนื้อหาการพัฒนาพนักงานใน Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงเนื้อหา **การพัฒนาพนักงาน** ใน Microsoft Power BI
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 12/19/2017
 คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
+
 | เอนทิตี้                   | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | ออฟเซ็ตของปฏิทิน          | ปฏิทินออฟเซ็ตเพื่อแบ่งส่วนรายงาน                                                                          | การกำหนดตำแหน่งที่ผ่านมา แนวโน้มของตำแหน่ง แนวโน้มของพนักงาน พนักงานที่เลิกจ้างไปแล้ว 

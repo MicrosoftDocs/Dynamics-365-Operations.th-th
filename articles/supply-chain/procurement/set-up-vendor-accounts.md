@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-vendor-accounts"></a>ตั้งค่าบัญชีผู้จัดจำหน่าย
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงชนิดของข้อมูลที่คุณต้องระบุเมื่อคุณสร้างบัญชีผู้จัดจำหน่ายใหม่
 

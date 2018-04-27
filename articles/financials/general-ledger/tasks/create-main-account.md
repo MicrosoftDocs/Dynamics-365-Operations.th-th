@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>สร้างบัญชีหลัก
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำงานนี้ระบุการเพิ่มบัญชีหลักให้กับผังบัญชีที่มีอยู่  การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF  
 

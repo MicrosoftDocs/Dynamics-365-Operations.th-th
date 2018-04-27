@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-purchase-orders"></a>การสร้างใบสั่งซื้อ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 บทความนี้อธิบายกระบวนการและตัวเลือกเมื่อคุณสร้างใบสั่งซื้อด้วยตนเอง
 

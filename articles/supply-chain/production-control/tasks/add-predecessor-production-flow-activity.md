@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>เพิ่มงานที่เกิดขึ้นก่อนหน้าในกิจกรรมขั้นตอนการผลิต
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ในรุ่นขั้นตอนการผลิต กิจกรรมทั้งหมดต้องมีการจัดลำดับ  กิจกรรมสามารถมีหนึ่งหรือหลายรายการก่อนหน้าหรืองานที่เกิดขึ้นตามมา 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> การตั้งค่าคอนฟิกพารามิเตอร์สำหรับใบแจ้งยอดการขายปลีก
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้จะแสดงการตั้งค่าคอนฟิกสำหรับพารามิเตอร์ของการขายปลีกที่มีผลต่อวิธีการสร้างและลงรายการบัญชีการขายปลีก  ขั้นตอนนี้ใช้บริษัทสาธิต USRT
 

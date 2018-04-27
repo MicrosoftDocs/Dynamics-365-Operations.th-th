@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรขั้นต้นในเวลาจริงใน Microsoft Dynamics 365 for Retail
 

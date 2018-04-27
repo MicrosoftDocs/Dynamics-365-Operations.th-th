@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 

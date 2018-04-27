@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>ตั้งค่าผลิตภัณฑ์ขายปลีก
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 บทความนี้อธิบายวิธีตั้งค่าผลิตภัณฑ์ขายปลีกใน Microsoft Dynamics 365 for Retail
 

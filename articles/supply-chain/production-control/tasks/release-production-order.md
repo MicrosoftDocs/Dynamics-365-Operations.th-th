@@ -24,7 +24,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="release-a-production-order"></a>นำใบสั่งผลิตออกใช้
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการนำใบสั่งผลิตออกใช้  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF นี่เป็นขั้นตอนที่สี่จากเจ็ดขั้นตอนซึ่งอธิบายวงจรชีวิตของใบสั่งการผลิต
 

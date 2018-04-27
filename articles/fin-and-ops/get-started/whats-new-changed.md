@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: th-th
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลง
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เวอร์ชันล่าสุดของคุณ
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุด](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>การนำออกใช้ของแอพลิเคชัน
 
@@ -61,6 +61,13 @@ ms.lasthandoff: 03/25/2018
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>2018 เมษายน</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">มีอะไร&#39;ใหม่หรือมีการเปลี่ยนแปลงใดใน Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018)</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ ms.lasthandoff: 03/25/2018
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>แพลตฟอร์ม update 15</td>
 <td>7.0.4839</td>
-<td>มีนาคม 2018 (นี่คือการนำออกใช้ที่เป็นเป้าหมาย ซึ่งพร้อมใช้งานสำหรับผู้ใช้ที่ได้เลือกใน Continuous Auto-update Advantage Program (CAAP) เท่านั้น)</td>
+<td>มีนาคม 2018 (นี่คือการนำออกใช้ที่เป็นเป้าหมาย ซึ่งพร้อมใช้งานสำหรับผู้ใช้ที่ได้เลือกใน Continuous Auto-update Advantage Program (CAAP) เท่านั้น) การปรับปรุงแพลตฟอร์ม 15 ยังมีอยู่ใน Dynamics 365 for Finance and Operations รุ่น 8.0 อีกด้วย)</td>
 <td><a href="whats-new-platform-update-15.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตแพลตฟอร์ม 15 (มีนาคม 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>

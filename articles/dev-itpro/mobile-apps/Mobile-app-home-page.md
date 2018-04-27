@@ -18,16 +18,16 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4736a7041c746350fa073bd58929c840f7689bf
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 
@@ -85,12 +85,12 @@ ms.lasthandoff: 03/26/2018
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
 <td>นำ Finance and Operations ไปใช้ในองค์กรของคุณ</td>
-<td><ul><li>ถ้าคุณยังไม่ได้ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
+<td><ul><li>ถ้าคุณยังไม่ได้&#39;ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>ผู้ดูแลระบบ</td>
-<td><strong>ถ้าคุณกำลังใช้ Microsoft Dynamics 365 For Operations เวอร์ชัน 1611:</strong> ดาวน์โหลดและติดตั้ง KBs ที่เปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่ที่จัดเตรียมให้โดย Microsoft</td>
+<td><strong>ถ้าคุณกำลัง&#39;ใช้ Microsoft Dynamics 365 For Operations เวอร์ชัน 1611:</strong> ดาวน์โหลดและติดตั้ง KBs ที่เปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่ที่จัดเตรียมให้โดย Microsoft</td>
 <td>ให้ดูที่หัวข้อต่อไปนี้ สำหรับข้อมูลเพิ่มเติม:
 <ul>
 

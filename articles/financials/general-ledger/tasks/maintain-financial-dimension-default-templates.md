@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน  สามารถใช้เท็มเพลตนี้เพื่อกระจายยอดเงินในเอกสารต้นทางได้อย่างรวดเร็ว
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชันสำหรับพนักงานขาย
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้อธิบายวิธีการตั้งค่าคอนฟิกการตั้งค่าโพรไฟล์ฟังก์ชันของร้านค้าที่ใช้กับพนักงานขาย  กระบวนงานนี้ใช้บริษัทข้อมูลสาธิต USRT
 

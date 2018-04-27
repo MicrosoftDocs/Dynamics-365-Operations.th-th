@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>ภาพรวมระบบวิธีใช้
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมส่วนประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายวิธีระบุเอกสารแบบกำหนดเองและการฝึกอบรมองค์กรของคุณ 
 

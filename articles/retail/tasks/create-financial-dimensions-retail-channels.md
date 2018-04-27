@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> สร้างค่ามิติทางการเงินสำหรับช่องทางการค้าปลีกและตั้งค่าคอนฟิกค่ามิติบนร้านค้า
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินของช่องทางการขายปลีกด้วยและค่ามิติและขั้นตอนต่างๆเพื่อตั้งค่าคอนฟิกค่ามิติทางการเงินในร้านค้าปลีก  หัวข้อนี้ไม่ได้รวมถึงขั้นตอนอื่นที่เกี่ยวข้อง เช่น การสร้างเซ็ตมิติและโครงสร้างทางบัญชี  กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="registration-ids"></a>รหัสการลงทะเบียน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าและการใช้รหัสทะเบียน
 

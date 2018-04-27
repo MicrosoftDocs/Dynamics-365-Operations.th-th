@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>การชำระเงินบางส่วนของผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แนะนำคุณผ่านสถานการณ์ที่มีการชำระเงินบางส่วนหลายรายการ บางรายการภายในรอบระยะเวลาส่วนลดเงินสดและอื่นๆ นอกรอบระยะเวลาส่วนลดเงินสด
 

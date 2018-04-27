@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้มุ่งเน้นการตั้งค่ารายการเมนูอุปกรณ์เคลื่อนที่  รายการเมนูนี้จะใช้สำหรับการลงทะเบียนการรับสินค้าที่สั่งซื้อผ่านใบสั่งซื้อ  
 

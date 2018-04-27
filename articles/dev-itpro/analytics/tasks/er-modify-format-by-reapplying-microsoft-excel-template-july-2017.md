@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>แก้ไขรูปแบบด้วยการใช้เท็มเพลต Microsoft Excel อีกครั้งสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 เพื่อทำขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ ก่อนอื่นคุณต้องทำดำเนินกระบวนงานให้เสร็จสมบูรณ์ ER - ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML
 

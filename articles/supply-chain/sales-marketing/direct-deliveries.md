@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>การจัดส่งสินค้าโดยตรง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้มีข้อมูลเกี่ยวกับการจัดส่งสินค้าโดยตรง การจัดส่งสินค้าโดยตรงคือการจัดส่งที่ส่งโดยตรงจากผู้จัดจำหน่ายให้ลูกค้าของคุณ
 

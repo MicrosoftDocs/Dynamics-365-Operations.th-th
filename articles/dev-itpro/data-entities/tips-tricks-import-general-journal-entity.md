@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้มีคำแนะนำสำหรับการนำเข้าข้อมูลลงในสมุดรายวันทั่วไปโดยใช้เอนทิตีสมุดรายวันทั่วไป  
 

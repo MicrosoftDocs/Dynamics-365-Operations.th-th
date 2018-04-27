@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>FAQ เกี่ยวกับการคำนวณแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงการคำนวณสำหรับแบบจำลองการจัดโครงแบบผลิตภัณฑ์ และอธิบายถึงวิธีการใช้การคำนวณร่วมกับข้อจำกัดต่างๆ
 

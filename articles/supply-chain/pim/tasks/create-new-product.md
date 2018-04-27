@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>สร้างผลิตภัณฑ์ใหม่
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้แสดงวิธีการสร้างผลิตภัณฑ์ที่ใช้ร่วมกันใหม่  ซึ่งมักจะถูกดำเนินการโดยผู้ออกแบบผลิตภัณฑ์  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF
 

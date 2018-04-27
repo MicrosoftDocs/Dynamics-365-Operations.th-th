@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>รายงานเป็น เสร็จแล้ว ไปยังสถานที่ที่ควบคุมป้าย  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มืองานนี้แสดงตัวอย่างการรายงานเป็น เสร็จแล้ว ไปยังสถานที่ที่เป็นป้ายทะเบียนที่มีการควบคุม  นโยบายงานที่ใช้งานได้เป็นข้อกำหนดเบื้องต้นสำหรับงานนี้ คู่มืองานก่อนหน้าแสดงการตั้งค่าของนโยบายงาน คู่มืองานนี้ต้องการแอพพลิเคชัน Dynamics AX 7.0.1 ขึ้นไป
 

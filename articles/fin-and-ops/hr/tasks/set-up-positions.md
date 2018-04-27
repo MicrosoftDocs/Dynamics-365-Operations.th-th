@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c902f532e189753a375d4b48edd9ef0b6d74020e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-positions"></a>ตั้งค่าตำแหน่ง
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร ตำแหน่งคือแต่ละอินสแตนซ์ของงาน ตัวอย่างเช่น ตำแหน่ง "ผู้จัดการฝ่ายขาย (ตะวันออก)" เป็นหนึ่งในตำแหน่งที่สัมพันธ์กับงาน "ผู้จัดการฝ่ายขาย"  ตำแหน่งมีอยู่ในแผนกและอาจมีผู้ปฏิบัติงานเพียงคนเดียวที่เกี่ยวข้อง  ในงานนี้ เราจะไปสู่ขั้นตอนที่ต้องการในการสร้างตำแหน่ง  กระบวนงานนี้มีไว้สำหรับผู้เชี่ยวชาญด้านการทรัพยากรบุคคล
 

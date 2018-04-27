@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="generate-affordable-care-act-reports"></a>สร้างรายงาน Affordable Care Act
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ฟังก์ชันพร้อมใช้งานในการช่วยนายจ้างที่จำเป็นต้องติดตามข้อมูลที่รายงานบนแบบฟอร์ม 1095 B และ C 1095 พร้อมกับส่วน **ข้อตกลงของนายจ้าง** ของ Affordable Care Act หมายเหตุ มีเปิดใช้งานฟังก์ชันนี้สำหรับนิติบุคคลในสหรัฐอเมริกาเท่านั้น
 

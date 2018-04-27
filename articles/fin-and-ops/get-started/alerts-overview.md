@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 1f0b5ff383c8bb2d1ac892ef771e15f0afec2655
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
 ms.contentlocale: th-th
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="alerts-overview"></a>ภาพรวมของการแจ้งเตือน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>เกี่ยวกับข้อความแจ้งเตือน
 การแจ้งเตือนก่อตั้งระบบการแจ้งเตือนสำหรับเหตุการณ์สำคัญใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน คุณสามารถสร้างชุดกฎของตนเองได้อย่างง่ายดาย เพื่อให้ได้รับการแจ้งเตือนเกี่ยวกับการจัดส่งที่เกินกำหนด ใบสั่งที่ถูกลบ ราคาที่เปลี่ยนแปลง หรือเหตุการณ์อื่นๆ ที่คุณจำเป็นต้องตอบสนอง
@@ -71,4 +71,7 @@ ms.lasthandoff: 03/23/2018
 
     > [!NOTE]
     > ตัวเลือกนี้ถูกจำกัดแก่ผู้ดูแลระบบขององค์กร
+
+## <a name="email-notifications-from-alerts"></a>การแจ้งเตือนทางอีเมลจากการแจ้งเตือน
+ยังไม่ได้เปิดการแจ้งเตือนทางอีเมลจากการแจ้งเตือน นี่จะถูกเปิดใช้งานการปรับปรุงในอนาคต
 

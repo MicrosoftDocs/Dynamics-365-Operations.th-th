@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>การวางแผนโหมดผสม - รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการวางแผนโหมดผสม ในโหมดการวางแผนผสม แบบจำลองห่วงโซ่อุปทานของคุณจะยึดตามขั้นตอนการผลิต Microsoft Dynamics 365 for Finance and Operations ช่วยให้มั่นใจว่าขั้นตอนการผลิตเป็นไปตามแบบจำลองของคุณ โดยไม่คำนึงถึงนโยบายการจัดหาวัสดุที่เลือก (คัมบัง ใบสั่งผลิต ใบสั่งซื้อ ใบสั่งชุดงาน หรือใบสั่งโอนย้าย) 
 

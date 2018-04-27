@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="general-journal-processing"></a>การประมวลผลสมุดรายวันทั่วไป
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงความสามารถใน Microsoft Dynamics 365 for Finance and Operations ที่จะช่วยให้การประมวลผลสมุดรายวันทั่วไปทำได้ง่ายขึ้น และยังช่วยรับประกันว่าจะมีการรวบรวมข้อมูลที่ถูกต้องและการควบคุมภายในจะไม่ลดลง  
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="set-up-a-product-configuration-model"></a>ตั้งค่าแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายขั้นตอนสำหรับการตั้งค่า และการสร้างแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 

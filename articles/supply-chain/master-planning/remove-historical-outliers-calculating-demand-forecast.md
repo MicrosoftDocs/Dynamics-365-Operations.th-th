@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>ลบจุดนอกขอบเขตออกจากข้อมูลในอดีตเกี่ยวกับธุรกรรมเมื่อคำนวณความต้องการการคาดการณ์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการแยกจุดนอกขอบเขตจากข้อมูลในอดีตที่ใช้ในการคำนวณความต้องการการคาดการณ์ออก โดยไม่รวมจุดนอกขอบเขต คุณสามารถปรับปรุงความถูกต้องของการคาดการณ์
 

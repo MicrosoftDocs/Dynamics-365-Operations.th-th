@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-historical-data-for-demand-forecasts"></a>นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 เพื่อช่วยในการรับรองความถูกต้องของการคาดการณ์ความต้องการ คุณต้องมีข้อมูลความต้องการในอดีตที่มากเท่ากับข้อมูลที่คุณสามารถได้รับสำหรับแต่ละสินค้าหรือคีย์การปันส่วนสินค้า ถ้าข้อมูลความต้องการในอดีตยังไม่ได้ถูกนำเข้า ให้ใช้เอนทิตี้ข้อมูล **ความต้องการภายนอกในอดีต** (ReqDemPlanHistoricalExternalDemandEntity) ใน Microsoft Dynamics 365 for Finance and Operations เพื่อนำเข้า
 

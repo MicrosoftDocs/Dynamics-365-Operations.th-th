@@ -3,12 +3,12 @@ title: "โฮมเพจการจัดการต้นทุน"
 description: "การจัดการต้นทุนช่วยให้คุณสามารถจัดการวิธีการประเมินค่าและการบัญชีของวัตถุดิบ สินค้ากึ่งสำเร็จรูป สินค้าสำเร็จรูป และสินทรัพย์ที่อยู่ระหว่างดำเนินการ"
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>โฮมเพจการจัดการต้นทุน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [การจัดการต้นทุน (วิดีโอ)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) ช่วยให้คุณสามารถทำงานได้กับวิธีการประเมินค่าและการบัญชีของวัตถุดิบ สินค้ากึ่งสำเร็จรูป สินค้าสำเร็จรูป และสินทรัพย์ที่อยู่ระหว่างดำเนินการ เป็นกระบวนการในการกำหนด การจัดการ และการรายงาน [การบัญชีสินค้าคงคลัง](cost-object.md) และ [การบัญชีการผลิต](bom-calculations.md)
 

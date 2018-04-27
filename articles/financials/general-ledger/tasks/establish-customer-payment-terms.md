@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>จัดทำเงื่อนไขการชำระเงินของลูกค้า
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้กำหนดส่วนลดเงินสดและการตั้งค่าวันที่ครบกำหนด  คู่มือของงานนี้ใช้บริษัทสาธิต USMF
 

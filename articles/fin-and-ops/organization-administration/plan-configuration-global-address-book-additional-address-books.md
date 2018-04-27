@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>วางแผนวิธีการตั้งค่าคอนฟิกสมุดที่อยู่สากลและสมุดที่อยู่เพิ่มเติม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงการพิจารณาและการตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผน ก่อนที่คุณจะตั้งค่าและตั้งค่าคอนฟิกสมุดที่อยู่สากลและสมุดที่อยู่เพิ่มเติมใดๆ ใน Microsoft Dynamics 365 for Finance and Operations การตัดสินใจบางอย่างจะต้องให้คุณยืนยันการตัดสินใจสำหรับพื้นที่อื่นๆ ของผลิตภัณฑ์ เช่นลำดับชั้นขององค์กร
 

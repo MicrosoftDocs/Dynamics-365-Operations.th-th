@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์พื้นที่ทำงานการควบคุมต้นทุน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้กระบวนงานนี้เพื่อตั้งค่าคอนฟิกพื้นที่ทำงานการควบคุมต้นทุนเพื่อให้ผู้จัดการระดับต่าง ๆ ในองค์กรสามารถรับความช่วยเหลือจากออบเจ็กต์ต้นทุน เช่น ศูนย์ต้นทุนและกลุ่มผลิตภัณฑ์ บริษัทสาธิต USP2 ถูกใช้ในการสร้างเรกคอร์ดนี้
 

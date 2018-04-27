@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>ดูรายการสมุดรายวันและธุรกรรม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการต่างๆ ที่คุณสามารถดูรายการสมุดรายวันและธุรกรรม 
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 11/03/2017
 -   **จุดเริ่มต้นของธุรกรรม**– รายงานธุรกรรมนี้ แสดงบัญชีโดยสมุดรายวัน และโดยการทำธุรกรรม การบัญชี และการรายงานสกุลเงิน และยังแสดงสมุดรายวันเป็นรายบรรทัดที่มีการใช้เป็นออฟเซ็ต
 
 
-##<a name="see-also"></a>ดูเพิ่มเติมที่
+## <a name="see-also"></a>ดูเพิ่มเติมที่
 - [ยอดดุลบัญชีแยกประเภททั่วไป](general-ledger-account-balances.md) 
 - [โปรแกรมตรวจดูบัญชีต้นทาง](..\accounts-payable\accounting-source-explorer.md)
 - [การรายงานทางการเงิน](financial-reporting-getting-started.md)

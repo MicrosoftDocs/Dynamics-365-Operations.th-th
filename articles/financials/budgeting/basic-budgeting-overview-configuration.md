@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-overview"></a>ภาพรวมของงบประมาณ 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 เกือบทุกบริษัทที่ใช้ฟังก์ชันการทำงานของข้อมูลทางการเงินใน Microsoft Dynamics 365 for Finance and Operations จะต้องสามารถสร้างรายงานของงบประมาณเทียบกับยอดจริงได้ บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
 

@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>ภาพรวมข้อมูลผลิตภัณฑ์
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการข้อมูลของผลิตภัณฑ์ การจัดการข้อมูลผลิตภัณฑ์ทำงานกับคำนิยามผลิตภัณฑ์ที่ใช้ร่วมกัน การจัดประเภท และตัวระบุผ่านนิติบุคคลทั้งหมด และการตั้งค่าคอนฟิกของผลิตภัณฑ์เพื่อให้พอดีกับกระบวนการทางธุรกิจอีกด้วย 
 

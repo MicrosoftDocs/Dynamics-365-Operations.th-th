@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>สร้างมิติและนำเข้าสมาชิกมิติ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 การบัญชีต้นทุนคือโมดูลอิสระที่กำหนดให้ต้องมีข้อมูลจากโมดูลอื่น ข้อมูลนี้แบ่งออกได้ดังนี้:
 

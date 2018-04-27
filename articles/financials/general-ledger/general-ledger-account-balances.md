@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>ยอดดุลบัญชีแยกประเภททั่วไป
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงสองวิธีในการดูยอดดุลบัญชีแยกประเภททั่วไป - หน้ารายการงบทดลองและรายงานทางการเงิน นอกจากนี้ยังอธิบายวิธีการปรับปรุงยอดดุลของเซ็ตมิติ
 

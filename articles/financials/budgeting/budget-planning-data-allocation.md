@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>การปันส่วนข้อมูลของการวางแผนงบประมาณ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงวิธีการปันส่วนต่างๆ ที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้  
 

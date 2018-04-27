@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>การอัพเดตสินทรัพย์ถาวรโดยรวม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 ถ้าคุณใช้สมุดบัญชี คุณสามารถเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับกลุ่มของสินทรัพย์ที่เป็นส่วนหนึ่งของสมุดบัญชีเดียวกัน
 

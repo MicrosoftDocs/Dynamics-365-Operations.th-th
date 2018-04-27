@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a> สร้างกลุ่มสิทธิ์ของ POS
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้จะแสดงวิธีการสร้างกลุ่มสิทธิ์ของ POS  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT  งานนี้มีไว้สำหรับบทบาทผู้จัดการการดำเนินงานขายปลีก
 

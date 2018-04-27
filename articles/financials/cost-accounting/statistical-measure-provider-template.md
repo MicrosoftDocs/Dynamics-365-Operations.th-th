@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 มิติทางสถิติและสมาชิกถูกใช้ในการลงทะเบียน และควบคุมรายการที่ไม่ใช่เงินตราในการบัญชีต้นทุน สมาชิกของมิติทางสถิติสามารถถูกใช้สำหรับวัตถุประสงค์สองประการ:
 

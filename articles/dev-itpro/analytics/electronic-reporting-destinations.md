@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c92c1ca3f46d80a58ca315f1f695f082d1929ca
 ms.contentlocale: th-th
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 คุณสามารถตั้งค่าคอนฟิกปลายทางสำหรับการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) แต่ละรายการและส่วนประกอบผลลัพธ์ (โฟลเดอร์หรือไฟล์)  ผู้ใช้ที่มีสิทธิการเข้าถึงที่เหมาะสมยังสามารถปรับเปลี่ยนการตั้งค่าปลายทางในขณะดำเนินการได้อีกด้วย บทความนี้อธิบายถึงการจัดการปลายทาง ER ชนิดของปลายทางที่ได้รับการสนับสนุน และข้อควรพิจารณาด้านความปลอดภัย
 

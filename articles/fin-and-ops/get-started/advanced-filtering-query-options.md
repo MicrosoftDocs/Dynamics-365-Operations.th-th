@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงการกรองข้อมูลและตัวเลือกการสอบถามที่พร้อมใช้งานเมื่อคุณใช้ตัวดำเนินการ "รายการตรงกัน" ในกล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 11/03/2017
 <td><em>จากค่า</em>..<em>ถึงค่า</em> (เครื่องหมายมหัพภาคสองเครื่องหมาย)</td>
 <td>ระหว่างสองค่าที่ป้อนถูกแยกด้วยเครื่องหมายมหัพภาคสองเครื่องหมาย</td>
 <td>พิมพ์ค่าเริ่มต้น ตามด้วยเครื่องหมายมหัพภาคสองเครื่องหมาย แล้วตามด้วยค่าสิ้นสุด</td>
-<td><strong>1..10</strong> จะค้นหาค่าทั้งหมดตั้งแต่ 1 จนถึง 10 อย่างไรก็ตาม ในฟิลด์สตริง <strong>A..C</strong>จะค้นหาค่าทั้งหมดที่ขึ้นต้นด้วย &quot;A&quot; และ &quot;B&quot; และค่าเท่ากับ &quot;C&quot; ตัวอย่างเช่น การสอบถามนี้จะไม่ค้นหา &quot;Ca&quot; เมื่อต้องการค่าทั้งหมดตั้งแต่ &quot;A*&quot; จนถึง &quot;C*&quot; พิมพ์ <strong>A..D</strong></td>
+<td><strong>1..10</strong> จะค้นหาค่าทั้งหมดตั้งแต่ 1 จนถึง 10 อย่างไรก็ตาม ในฟิลด์สตริง <strong>A..C</strong>จะค้นหาค่าทั้งหมดที่ขึ้นต้นด้วย &quot;A&quot; และ &quot;B&quot; และค่าเท่ากับ &quot;C&quot; ตัวอย่างเช่น การสอบถามนี้จะ&#39;ไม่ค้นหา &quot;Ca&quot; เมื่อต้องการค่าทั้งหมดตั้งแต่ &quot;A<em>&quot; จนถึง &quot;C</em>&quot; พิมพ์ <strong>A..D</strong></td>
 </tr>
 <tr class="even">
 <td>..<em>ค่า</em> (เครื่องหมายมหัพภาคสองเครื่องหมาย)</td>
@@ -97,20 +96,20 @@ ms.lasthandoff: 11/03/2017
 <tr class="even">
 <td><em>ค่า</em>* (ดอกจัน)</td>
 <td>เริ่มจากค่าที่ป้อน</td>
-<td>พิมพ์ค่าเริ่มต้น แล้วตามด้วยเครื่องหมายดอกจัน (<strong>*</strong>)</td>
-<td><strong>S*</strong> จะค้นหาสตริงใดๆ ที่เริ่มต้นด้วย &quot;S&quot; เช่น &quot;Stockholm&quot;, &quot;Sydney&quot;และ &quot;San Francisco&quot;</td>
+<td>พิมพ์ค่าเริ่มต้น แล้วตามด้วยเครื่องหมายดอกจัน (<strong><em></strong>)</td>
+<td><strong>S</em></strong> จะค้นหาสตริงใดๆ ที่เริ่มต้นด้วย &quot;S&quot; เช่น &quot;Stockholm&quot; &quot;Sydney&quot; และ &quot;San Francisco&quot;</td>
 </tr>
 <tr class="odd">
-<td>*<em>ค่า</em> *(ดอกจัน)</td>
+<td><em><em>ค่า</em> (ดอกจัน)</td>
 <td>สิ้นสุดด้วยค่าที่ป้อน</td>
 <td>พิมพ์เครื่องหมายดอกจัน แล้วตามด้วยค่าสิ้นสุด</td>
-<td><strong>*east</strong> จะค้นหาสตริงใดๆ ที่สิ้นสุดด้วย &quot;east&quot; เช่น &quot;Northeast&quot; และ &quot;Southeast&quot;</td>
+<td><strong></em>east</strong> จะค้นหาสตริงใดๆ ที่ลงท้ายด้วย &quot;east&quot; เช่น &quot;Northeast&quot; และ &quot;Southeast&quot;</td>
 </tr>
 <tr class="even">
-<td>*<em>value</em>* (ดอกจัน)</td>
+<td><em><em>ค่า</em></em> (ดอกจัน)</td>
 <td>มีค่าที่ป้อน</td>
 <td>พิมพ์เครื่องหมายดอกจัน ตามด้วยค่า แล้วตามด้วยเครื่องหมายดอกจันอีกอันหนึ่ง</td>
-<td><strong>*th*</strong> จะค้นหาสตริงใดๆ ที่มี &quot;th&quot; อยู่ เช่น &quot;Northeast&quot; และ &quot;Southeast&quot;</td>
+<td><strong><em>th</em></strong> จะค้นหาสตริงใดๆ ที่มี &quot;th&quot; อยู่ เช่น &quot;Northeast&quot; และ &quot;Southeast&quot;</td>
 </tr>
 <tr class="odd">
 <td>? (เครื่องหมายคำถาม)</td>
@@ -131,10 +130,10 @@ ms.lasthandoff: 11/03/2017
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>อ.</td>
-<td>วันที่ของวันนี้</td>
+<td>T</td>
+<td>วันที่&#39;ของวันนี้</td>
 <td>ชนิด <strong>T</strong></td>
-<td><strong>T</strong> ตรงกับวันที่ของวันนี้</td>
+<td><strong>T</strong> ตรงกับวันที่ของ&#39;วันนี้</td>
 </tr>
 <tr class="odd">
 <td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> วิธีในวงเล็บ)</td>

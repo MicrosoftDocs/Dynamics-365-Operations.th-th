@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>ตั้งค่าพื้นฐานของผลิตภัณฑ์หลักที่นำออกใช้ให้ครบถ้วน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการการตั้งค่าอย่างน้อยที่สุดที่ต้องระบุก่อนที่ผลิตภัณฑ์หลักจะถูกใช้ในเวอร์ชันสูตร BOM 
 

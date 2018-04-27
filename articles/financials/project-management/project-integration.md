@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>การรวม Microsoft Project client
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้ การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ ผู้จัดการโครงการสามารถประกาศการเปลี่ยนแปลงใดๆ กลับไปยังโครงสร้างการแบ่งงานของโครงการ Finance and Operations
 

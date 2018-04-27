@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>สร้างกำหนดการจัดส่ง
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งขาย  กำหนดการจัดส่งจะใช้เมื่อมีการร้องขอปริมาณหรือใบเสนอราคาให้จัดส่งหลายรายการ  คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง
 

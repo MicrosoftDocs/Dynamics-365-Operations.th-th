@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>ดูความต้องการระหว่างบริษัทที่วางแผนไว้ขาออก
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการดูใบสั่งที่วางแผนไว้ทั้งหมดที่จะดำเนินการโดยผู้จัดจำหน่ายระหว่างบริษัท  บริษัทข้อมูลสาธิตที่ใช้สร้างกระบวนการนี้คือ DEMF
 

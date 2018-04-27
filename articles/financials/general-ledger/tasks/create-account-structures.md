@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-account-structures"></a>สร้างโครงสร้างทางบัญชี
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี  ขั้นตอนเหล่านี้ใช้ข้อมูลสาธิตบริษัท USMF
 

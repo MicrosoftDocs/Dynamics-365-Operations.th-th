@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการจัดการวัฏจักรของการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ (ER) สำหรับโซลูชัน Microsoft Dynamics 365 for Finance and Operations
 

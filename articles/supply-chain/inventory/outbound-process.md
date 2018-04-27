@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="outbound-process"></a>กระบวนการขาออก
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของกระบวนการขาออกในการจัดการสินค้าคงคลัง
 

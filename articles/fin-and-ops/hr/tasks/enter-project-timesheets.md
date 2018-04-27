@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a>ป้อนแผ่นเวลาโครงการ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้ช่วยให้คุณสร้างแผ่นเวลา โดยใช้แบบฟอร์มที่มีแผ่นเวลาที่ว่างเปล่า  แผ่นเวลาใหม่สามารถยึดตามข้อมูลจากแผ่นเวลาก่อนหน้านี้ หรือการกำหนดโครงการและกิจกรรมในหน้ารายการโปรดของฉันก็ได้  โดยค่าเริ่มต้น หน้ารายการแผ่นเวลาทั้งหมดแสดงแผ่นเวลาทั้งหมดของคุณสำหรับรอบระยะเวลาปัจจุบัน  คุณสามารถใช้รายการดร็อปดาวน์สำหรับฟิลด์แสดงในหน้าแผ่นเวลาของฉัน เพื่อกรองรายการแผ่นเวลาตามรอบระยะเวลาหรือโครงการ หรือดูแผ่นเวลาที่ถูกสร้างขึ้นในนามของผู้ปฏิบัติงานอื่นๆ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างขั้นตอนนี้คือ USSI  เมื่อต้องการเริ่มต้นขั้นตอนนี้ ไปที่การจัดการโครงการและบัญชี > แผ่นเวลา > แผ่นเวลาของฉัน
 

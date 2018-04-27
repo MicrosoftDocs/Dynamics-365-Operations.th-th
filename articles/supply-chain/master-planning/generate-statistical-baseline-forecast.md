@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-a-statistical-baseline-forecast"></a>สร้างการคาดการณ์พื้นฐานทางสถิติ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณการคาดการณ์ความต้องการ 
 

@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa56911c19e9b6514829084221ba03c7cd421c92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-returns"></a>การส่งคืนสินค้าจากการขาย
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับกระบวนการสำหรับใบสั่งส่งคืนสินค้า ซึ่งจะรวมถึงข้อมูลเกี่ยวกับการส่งคืนของลูกค้าและผลที่เกิดขึ้นในการคำนวณต้นทุนและปริมาณคงคลังคงเหลือ
 
@@ -134,7 +133,7 @@ ms.lasthandoff: 11/03/2017
 <ul>
 <li>ไม่มีความน่าเชื่อถือเพียงพอระหว่างคู่ค้า</li>
 <li>ต้นทุนของการส่งคืนสินค้าที่มีตำหนิมีจำกัด</li>
-<li>สินค้าไม่ได้รับอนุญาตให้กลับเข้าไปในสินค้าคงคลัง เนื่องจากเงื่อนไขอื่น ๆ จึงไม่จำเป็นต้องส่งคืนสินค้าจริง</li>
+<li>สินค้าไม่&#39;ได้รับอนุญาตให้กลับเข้าไปในสินค้าคงคลัง เนื่องจากเงื่อนไขอื่นๆ จึงไม่&#39;จำเป็นต้องส่งคืนสินค้าจริง</li>
 </ul></td>
 </tr>
 <tr class="even">

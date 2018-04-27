@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>เชื่อมต่อระบบวิธีใช้
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายส่วนประกอบของระบบวิธีใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations และให้ภาพรวมของวิธีการเชื่อมต่อส่วนประกอบเหล่านี้และสรุปวิธีการสร้างวิธีใช้แบบกำหนดเอง 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a>การเชื่อมต่อระบบวิธีใช้
 > [!NOTE]
 > ในขณะนี้แท็บ **คู่มืองาน** ไม่พร้อมใช้งานใน Microsoft Dynamics 365 for Talent และ Microsoft Dynamics 365 for Retail เรากำลังดำเนินกรเพื่อเปิดใช้งานฟังก์ชันนี้ในรุ่นต่อไป คู่มืองานในประสบการณ์การเริ่มต้นใช้งานใน Talent ยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน นอกจากนี้วิธีใช้ตามขั้นตอนยังพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) สำหรับทั้ง Retail และ Talent
- 
+
 
 การใช้หน้า **พารามิเตอร์ระบบ** ผู้ดูแลระบบจะเชื่อมต่อชิ้นส่วนของระบบวิธีใช้สำหรับการนำไปใช้ [![แบบฟอร์มพารามิเตอร์ระบบพร้อมการตั้งค่าวิธีใช้](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) บนหน้า **พารามิเตอร์ระบบ** ให้ปฏิบัติตามขั้นตอนต่อไปนี้:
 

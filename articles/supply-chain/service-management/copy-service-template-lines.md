@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>การคัดลอกบรรทัดเท็มเพลตการบริการ 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 คุณสามารถคัดลอกข้อมูลเท็มเพลตไปไว้ยังข้อตกลงการให้บริการหรือใบสั่งบริการได้
 

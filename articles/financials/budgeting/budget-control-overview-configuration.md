@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>ภาพรวมของการควบคุมงบประมาณ 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แนะนำการควบคุมงบประมาณ และให้ข้อมูลเพื่อช่วยเหลือคุณในการตั้งค่าคอนฟิกการควบคุมงบประมาณใน Microsoft Dynamics 365 for Finance and Operations เพื่อให้คุณสามารถจัดการทรัพยากรทางการเงินได้
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>ดูและประเมินผลลัพธ์ของแบบสอบถาม
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการดูและประเมินผลลัพธ์ของแบบสอบถามที่ตอบเสร็จสมบูรณ์แล้ว 
 

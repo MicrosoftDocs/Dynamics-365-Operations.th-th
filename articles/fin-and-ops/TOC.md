@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## เริ่มต้นใช้งาน
@@ -17,13 +18,15 @@
 ##### [ซื้อ Finance and Operations (ในสถานที่)](get-started/purchase-on-premises.md)
 
 ### [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](get-started/whats-new-changed.md)
+#### [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [คุณสมบัติที่ลบหรือไม่ได้รับการสนับสนุน](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
-#### [คุณสมบัติของ AX 2012 ที่เลื่อนออกไป](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
-#### [ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่](get-started/features-not-implemented-on-prem.md)
+#### [ลักษณะการทำงานของ AX 2012 ที่เลื่อนออกไป](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
+#### [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่](get-started/features-not-implemented-on-prem.md)
+#### [Finance and Operations 8.0 (เมษายน 2018)](get-started/whats-new-changed-8-0-April-2018.md)
 #### [Platform update 15 (มีนาคม 2018)](get-started/whats-new-platform-update-15.md)
-#### [การนำออกใช้และนโยบายเกี่ยวกับวงจรการใช้งาน](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [การปรับใช้ในสถานที่ (มีนาคม 2018)](get-started/whats-new-LBD-PU12-App72.md)
-#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [การปรับใช้ในสถานที่ของ 7.2 ที่มี Platform update 12 (มีนาคม 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (พฤศจิกายน 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platform update 11 (ตุลาคม 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (สิงหาคม 2017)](get-started/whats-new-platform-update-10.md)
@@ -162,6 +165,10 @@
 ###### [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [ตั้งค่าคอนฟิกการรวมกับ Field Service](../supply-chain/sales-marketing/field-service.md)
+###### [ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service](../supply-chain/sales-marketing/field-service-product.md)
+###### [ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [การใช้บริการเว็บภายนอก](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -198,6 +205,8 @@
 #### [การรักษาความปลอดภัยและเอนทิตี้ข้อมูล](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [ใช้ฐานข้อมูลของคุณเอง](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [ระบบอัตโนมัติของงานข้อมูล](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [การจัดการทางการเงิน](../financials/index.md)
 
@@ -754,6 +763,7 @@
 #### [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 #### [การรวมบริการทางการเงิน (ESR)](../financials/localizations/emea-fiscal-service-integration.md)
 #### [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [การประเมินค่าใหม่ตามสกุลเงินต่างประเทศ](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [สร้างการรายงานภาษีอินทราสแทตใน EU](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [สร้างรายงานรายการขายใน EU](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -809,13 +819,7 @@
 
 #### [ออสเตรีย](../financials/localizations/austria.md)
 
-#### เบลเยียม
-##### [ใบแจ้งยอดจากธนาคาร CODA](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [สร้างและโอนย้ายธุรกรรมไปยัง BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [การรายงานภาษี INTERVAT](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [การตั้งค่ารายงาน PRODCOM](../financials/localizations/emea-bel-prodcom-report.md)
-##### [รายงานการกระทบยอด](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [ตั้งค่าการรายงานยอดดุลการชำระเงิน](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [เบลเยียม](../financials/localizations/belgium.md)
 
 #### [สาธารณรัฐเช็ก](../financials/localizations/czech-republic.md)
 
@@ -833,7 +837,8 @@
 ##### [ตั้งค่ารูปแบบบันทึกการชำระเงิน](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### เอสโตเนีย
-##### [คำสั่ง VAT](../financials/localizations/emea-est-vat-statement-details.md)
+##### [คำขอข้อมูลส่วนตัว](../financials/localizations/emea-est-personal-info.md)
+##### [ใบแจ้งยอด VAT](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### ฝรั่งเศส
 ##### ภาครัฐ
@@ -859,6 +864,9 @@
 ##### [ค่าเสื่อมราคา RB/SL](../financials/localizations/emea-fra-rbsl-depreciation.md)
 ##### [ตั้งค่าวิธีการชำระเงิน](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [อัพเดตวิธีการชำระเงินของลูกค้า](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [เครื่องบันทึกเงินสด](../retail/localizations/emea-fra-cash-registers.md)
+###### [แนวทางการปรับใช้เครื่องบันทึกเงินสด](../retail/localizations/emea-fra-deployment.md)
 
 #### เยอรมนี
 ##### [ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -877,6 +885,7 @@
 ##### [วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [สินทรัพย์ถาวรต้นทุนต่ำ](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 ##### [ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [เอกสารขอชำระคืนเงินภาษี](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### ไอซ์แลนด์
 ##### [สร้างบัญชีผู้จัดจำหน่ายและแนบประเภทการประกาศใบแจ้งหนี้](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -891,6 +900,7 @@
 ##### [ค่าเสื่อมราคาของสินทรัพย์ถาวร](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [ลงรายการบัญชีและพิมพ์บันทึกการจัดส่งที่มีรายละเอียดการจัดส่งของฝ่ายขนส่ง](../financials/localizations/emea-ita-packing-slip.md)
 ##### [สมุดบัญชีภาษีขาย](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [ภาษีหัก ณ ที่จ่าย](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [วงจรการขายและการซื้อ](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [รายการพิเศษและแผ่นงานการเปิด](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### สวีเดน
+##### [ส่งออกข้อมูลทางการเงินสำหรับผู้ตรวจสอบบัญชีในสวีเดน](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [นำเข้ารูปแบบการชำระเงิน](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [เครื่องบันทึกเงินสด](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### สวิตเซอร์แลนด์
@@ -1219,6 +1230,7 @@
 #### [ตั้งค่าคอนฟิก SSRS สำหรับการปรับใช้ในสถานที่](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [การพิมพ์](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
 ##### [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [อัพเกรดเอเจนต์การกำหนดเส้นทางเอกสาร](../dev-itpro/analytics/upgrade-document-routing-agent.md)
 ##### [ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในสถานที่](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [การรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [สร้างการตั้งค่าคอนฟิก](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [ออกแบบแบบจำลองข้อมูลที่เฉพาะเจาะจงของโดเมนสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1248,48 +1261,46 @@
 ##### [ตั้งค่าคอนฟิกปลายทางสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ Microsoft Word สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OpenXML สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [แก้ไขรูปแบบด้วยการใช้เท็มเพลต Microsoft Excel อีกครั้งสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
 #### [แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Microsoft Excel](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [เลือกข้อกำหนดแบบจำลองข้อมูลขณะสร้างรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกจากการตั้งค่าคอนฟิกสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [แม็ปแบบจำลองเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [รันรายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [สร้างรูปแบบสำหรับสำหรับการตรวจนับและการรวมสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [ตั้งค่าการคำนวณเพื่อทำการตรวจนับและการรวมสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [ใช้การคำนวณเพื่อสร้างผลลัพธ์สำหรับการตรวจนับและการรวมสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [รันรูปแบบเพื่อทำการตรวจนับและการรวมสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [ออกแบบรูปแบบเพื่อใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [รันรูปแบบที่ใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิกสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [รันรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [แก้ไขและรันรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER) (ส่วนที่ 1)](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [ตรวจสอบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [สร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกจากการตั้งค่าคอนฟิกสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [แมปแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [เรียกใช้รายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูล](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [สร้างรูปแบบสำหรับสำหรับการตรวจนับและการรวม](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [ตั้งค่าการคำนวณเพื่อทำการตรวจนับและการรวม](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [ใช้การคำนวณเพื่อสร้างผลลัพธ์สำหรับการตรวจนับและการรวม](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [เรียกใช้รูปแบบเพื่อทำการตรวจนับและการรวม](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [ออกแบบรูปแบบเพื่อใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิก](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [เรียกใช้รูปแบบที่จะใช้ช่วงขยายในแนวนอนเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิก](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [จัดเตรียมแบบจำลองข้อมูลที่จะใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [ขยายแบบจำลองข้อมูลที่จะใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [เรียกใช้รูปแบบที่จะใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [แก้ไขและเรียกใช้รูปแบบที่จะใช้ไฟล์การจัดการเอกสารในรูปแบบผลลัพธ์](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝัง](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [ตรวจสอบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝัง](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [สร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝัง](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
 #### [สร้างเอกสารอิเล็กทรอนิกส์และอัพเดตข้อมูลใบสมัครโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [สร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [แก้ไขแบบจำลองและการแม็ปเพื่อสร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [แก้ไขรูปแบบเพื่อสร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [สร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
-#### [ฝังรูปภาพและรูปร่างในเอกสารทางธุรกิจที่สร้างด้วยการใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-##### [นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [แก้ไขแบบจำลองและการแมปเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [แก้ไขรูปแบบเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [สร้างเอกสารที่มีข้อมูลแอพลิเคชัน](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+#### [ฝังรูปภาพและรูปร่างในเอกสารธุรกิจที่สร้างด้วยการใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
 #### [จัดการวงจรการตั้งค่าคอนฟิก](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [สร้างการตั้งค่าคอนฟิก](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [ขยายฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [จัดการการตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services สำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [จัดการการตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [สร้างการตั้งค่าคอนฟิกที่จำเป็นเพื่อนำเข้าข้อมูลจากไฟล์ภายนอกสำหรับการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
 #### [แยกวิเคราะห์เอกสารที่กำลังจะมาถึงเพื่ออัพเดตข้อมูลแอพลิเคชัน](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [แยกวิเคราะห์เอกสารที่กำลังจะมาถึงในรูปแบบ CSV](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [ขยายฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์สำหรับ Application update 7.3](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### โซลูชันเชิงวิเคราะห์ที่ฝัง
 #### [Power BI ที่ฝังในพื้นที่ทำงาน](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,6 +1462,7 @@
 #### [การเตรียมความพร้อมของผู้จัดจำหน่าย](../supply-chain/procurement/vendor-onboarding.md)
 #### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [การนำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย](../supply-chain/procurement/vendor-catalogs-import.md)
 #### [ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1598,16 +1610,18 @@
 ##### [การทดแทนวัตถุดิบในการผลิต](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [การลงทะเบียนสำหรับการดำเนินการผลิต](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [ผลป้อนกลับของการผลิต](../supply-chain/production-control/production-feedback.md)
-##### [การลงทะเบียนเวลาและการเข้างาน](../supply-chain/production-control/time-attendance-registrations.md)
-##### [การลงทะเบียนการขาดงานในเวลาและการเข้างาน](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [เปิดใช้งานกระบวนการค่าจ้างของเวลาและการเข้างาน](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [ตั้งค่าคอนฟิกผู้ปฏิบัติงานโดยใช้อุปกรณ์เคลื่อนที่ของงาน](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### จัดการข้อมูลทางการเงินในด้านการผลิต
 ##### [ปันส่วนเวลาสำหรับงานในแต่ละกลุ่มงาน](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [คำนวณปริมาณการใช้วัสดุ](../supply-chain/production-control/consumption.md)
 ##### [การลงรายการบัญชีการผลิต](../supply-chain/cost-management/production-posting.md)
+#### [การลงทะเบียนเวลาและการเข้างาน](../supply-chain/production-control/time-attendance-registrations.md)
+##### [ชำระค่าจ้างตามการลงทะเบียน](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [การลงทะเบียนการขาดงานในเวลาและการเข้างาน](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [กลุ่มการทำงานแบบยืดหยุ่นเวลา](../supply-chain/production-control/time-attendance-flex-groups.md)
 
-### Lean manufacturing 
+### การผลิตแบบ Lean 
 #### [ภาพรวม Lean manufacturing](../supply-chain/production-control/lean-manufacturing-overview.md)
 #### [การรับเหมารายย่อยตามกิจกรรม](../supply-chain/production-control/activity-based-subcontracting.md)
 
@@ -1836,6 +1850,7 @@
 #### [การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### การเบิกสินค้าและการบรรจุสินค้า
+#### [ตั้งค่ากระบวนการเบิกสินค้า](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [การยืนยันชุดงานและป้ายทะเบียน](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [การรับป้ายทะเบียนแบบผสม](../supply-chain/warehousing/mixed-license-plate-receiving.md)
@@ -1843,10 +1858,11 @@
 #### [เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่](../supply-chain/warehousing/pick-oldest-batch.md)
 #### [สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [การยืนยันการเบิกสินค้าเป็นรายชิ้น](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [วัสดุและค่าธรรมเนียมบรรจุภัณฑ์](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### การนับสินค้าคงคลัง
+#### [รหัสเหตุผลการตรวจนับสินค้าคงคลัง](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
 #### [บล็อคสินค้าคงคลัง](../supply-chain/inventory/inventory-blocking.md)
 #### [การตรวจนับตามรอบ](../supply-chain/warehousing/cycle-counting.md)
 #### [กำหนดการตรวจนับตามรอบ ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
@@ -1857,6 +1873,7 @@
 #### [สถานะของสินค้าคงคลัง](../supply-chain/inventory/inventory-statuses.md)
 #### [การตรวจนับป้ายสินค้าคงคลัง](../supply-chain/inventory/inventory-tag-counting.md)
 ### [การเติมสินค้า](../supply-chain/warehousing/replenishment.md)
+#### [การเติมสินค้าทันที](../supply-chain/warehousing/immediate-replenishment.md)
 #### [การเติมสินค้าที่มีคัมบังการเบิกถอน](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [ติดตั้งและตั้งค่าคอนฟิกในแอพลิเคชัน Warehousing ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [ตั้งค่าคอนฟิกชื่อฟิลด์ในแอพลิเคชัน Warehousing](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)

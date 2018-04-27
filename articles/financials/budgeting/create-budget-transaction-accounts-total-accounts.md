@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>สร้างงบประมาณจากบัญชีธุรกรรมและบัญชีผลรวม
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของกระบวนการสร้างงบประมาณที่ขึ้นอยู่กับบัญชีผลรวม นอกจากนี้ยังอธิบายวิธีการเปิดการควบคุมงบประมาณสำหรับบัญชีผลรวม ถ้าจำเป็นต้องมีการควบคุมงบประมาณ
 

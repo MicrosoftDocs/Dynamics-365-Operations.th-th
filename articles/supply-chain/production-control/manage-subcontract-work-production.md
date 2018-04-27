@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>จัดการงานที่รับเหมารายย่อยในการผลิต
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีจัดการการดำเนินการรับเหมารายย่อยใน Microsoft Dynamics 365 for Finance and Operations อีกนัยหนึ่ง จะอธิบายวิธีจัดการการดำเนินงานการผลิตที่ปันส่วนให้กับทรัพยากรโดยผู้จัดจำหน่าย
 

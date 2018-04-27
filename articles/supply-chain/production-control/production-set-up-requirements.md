@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-setup-requirements"></a>ข้อกำหนดของการตั้งค่าการผลิต
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการตั้งค่าก่อนที่คุณจะสามารถดำเนินการควบคุมการผลิต 
 

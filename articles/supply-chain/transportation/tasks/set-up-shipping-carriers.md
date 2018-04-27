@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-shipping-carriers"></a>การตั้งค่าผู้ขนส่ง
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนการนี้แสดงวิธีการตั้งค่าการขนส่ง และกำหนดรายละเอียด เช่น การบริการ,โหมดการจัดส่ง,ค่าขนส่ง,วิธีการชำระเงิน,ข้อจำกัดขนส่ง, และอัตราการจัดส่ง  ผู้ประสานงานขนส่งสามารถกำหนดผู้ขนส่งสินค้าทั้งโหลดขาเข้าหรือขาออก
 

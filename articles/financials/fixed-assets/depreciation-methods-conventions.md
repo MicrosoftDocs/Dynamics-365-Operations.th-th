@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>วิธีการคิดค่าเสื่อมราคาและแบบแผนการคิดค่าเสื่อมราคา
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของแบบแผนการคิดค่าเสื่อมราคาและวิธีการคิดค่าเสื่อมราคาที่ได้รับการสนับสนุนโดย Microsoft Dynamics 365 for Finance and Operations
 
@@ -62,7 +61,7 @@ ms.lasthandoff: 03/26/2018
 -   ยอดดุลที่ลดลง 150%
 -   ยอดดุลที่ลดลง 125%
 
- 
+
 
 
 

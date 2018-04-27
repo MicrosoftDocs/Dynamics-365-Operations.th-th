@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-books"></a>ตั้งค่าสมุดบัญชี
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้จะแสดงวิธีการสร้างสมุดบัญชีสินทรัพย์ถาวรใหม่และเชื่อมโยงกับกลุ่มสินทรัพย์ถาวร  ซึ่งจะใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF
 

@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-tag-counting"></a>การนับป้ายสินค้าคงคลัง
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับการตรวจนับแท็ก ซึ่งใช้ในการเปรียบเทียบเนื้อหาจริงของคลังสินค้าที่มีปริมาณคงคลังคงเหลือ
 

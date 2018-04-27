@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-boms-as-finished"></a>รายงานการเสร็จงานของ BOM
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับการรายงานการเสร็จงานของ BOM
 

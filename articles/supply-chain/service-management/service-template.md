@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>เท็มเพลตการบริการ
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 คุณสามารถกำหนดข้อตกลงการให้บริการเป็นเท็มเพลต และคัดลอกรายการของเท็มเพลตไปไว้ยังข้อตกลงการให้บริการอื่นหรือใบสั่งบริการในภายหลังได้
 

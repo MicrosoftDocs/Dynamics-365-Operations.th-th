@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>การระงับใบสั่ง
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายการระงับใบสั่งโดยใช้ Dynamics 365 for Retail
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์ 
 

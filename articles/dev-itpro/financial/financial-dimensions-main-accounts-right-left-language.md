@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>มิติทางการเงินและบัญชีหลักในภาษาที่เรียงจากขวาไปซ้าย
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายการตัดสินใจการนำไปใช้บางอย่างที่คุณควรพิจารณาเมื่อคุณใช้ภาษาที่เรียงจากขวาไปซ้าย และคุณต้องตั้งค่ามิติทางการเงินและบัญชีหลัก
 

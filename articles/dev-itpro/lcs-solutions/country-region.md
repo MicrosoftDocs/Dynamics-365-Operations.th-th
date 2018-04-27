@@ -3,7 +3,7 @@ title: "คุณลักษณะการทำงานเฉพาะแล
 description: "หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: th-th
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>คุณลักษณะการทำงานเฉพาะและบังคับ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations ประกอบด้วยฟังก์ชันการทำงานสำหรับประเทศ/ภูมิภาคที่ระบุไว้ใน [คู่มือความพร้อมใช้งานของผลิตภัณฑ์สำหรับต่างประเทศ](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf) ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ 
 
@@ -53,8 +52,8 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [การดูข้อบังคับและการสื่อสารการอัพเดตตามข้อบังคับ](regulatory-watch-communication.md)
 -   [แจ้งให้ Microsoft ทราบเกี่ยวกับการแจ้งเตือนข้อบังคับของประเทศ/ภูมิภาค และติดตามสถานะของคุณลักษณะตามข้อบังคับ](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>แผนการทำงาน Dynamics 365
-[แผนการทำงาน Dynamics 365](https://roadmap.dynamics.com/) แสดงสแนปช็อตของสิ่งที่เรากำลังดำเนินการอยู่ ใช้แผนการทำงานนี้เพื่อค้นหาว่าสิ่งใดพร้อมใช้งานเป็นการทั่วไปและสิ่งใดกำลังอยู่ระหว่างการพัฒนา วันที่และคุณลักษณะทั้งหมดที่อยูู่ระหว่างการพัฒนาจะเป็นข้อมูลเบื้องต้น จะขึ้นอยู่กับความคาดหวังปัจจุบัน และอาจเปลี่ยนแปลงโดยไม่มีการแจ้งให้ทราบ
+### <a name="dynamics-365-release-notes"></a>บันทึกย่อประจำรุ่น Dynamics 365
+[บันทึกย่อประจำรุ่น Dynamics 365Dynamics 365 (ดาวน์โหลด PDF)](https://aka.ms/businessappsreleasenotes) มีคำอธิบายความสามารถใหม่ๆ และความสามารถที่ีมีการปรับปรุงล่าสุดในแอพลิเคชันธุรกิจและแพลตฟอร์มแอพลิเคชันของ Dynamics 365 
 
 ## <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:
@@ -79,25 +78,9 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 ## <a name="countryregion-specific-help-topics"></a>หัวข้อวิธีใช้เฉพาะประเทศ/ภูมิภาค
 ส่วนต่อไปนี้แสดงรายการทรัพยากรตามประเทศ/ภูมิภาค
 
-### <a name="australia"></a>ออสเตรเลีย
-
--   [รูปแบบไฟล์ธนาคาร](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [แบบรายงานกิจกรรมทางธุรกิจ ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [ค่าเสื่อมราคากลุ่มสินทรัพย์มูลค่าต่ำ](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>ออสเตรีย
-
-- [ค่าเสื่อมราคาครึ่งปี](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [ค่าธรรมเนียมบรรจุภัณฑ์](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [ภาษีซื้อ](../../financials/localizations/emea-aut-purchase-duties.md)
-- [คำสั่ง VAT](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>เบลเยียม
-
--   [ใบแจ้งยอดจากธนาคาร CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [การรายงานภาษี INTERVAT](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [การตั้งค่ารายงาน PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
--   [รายงานการกระทบยอด](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[ออสเตรเลีย](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[ออสเตรีย](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[เบลเยียม](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>บราซิล
 
@@ -134,22 +117,9 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [แสดงยอดเดบิตและเครดิตสำหรับบัญชีแยกประเภท](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>สาธารณรัฐเช็ก
-
--   [ส่วนลดเงินสดในหมายเลขใบลดหนี้](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [การปัดเศษค่าเสื่อมราคา](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [การระงับค่าเสื่อมราคา (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [วิธีการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรสำหรับสาธารณรัฐเช็ก](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [ลงรายการบัญชีก่อนการซื้อของสินทรัพย์ถาวร](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [ใบแจ้งยอด VAT สำหรับสาธารณรัฐเช็ก](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [การทำรายงานภาษีขาย ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[สาธารณรัฐเช็ก](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>เอสโตเนีย
-
 -   [รายละเอียดใบแจ้งยอด VAT สำหรับเอสโตเนีย](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [การตัดจำหน่ายสินทรัพย์ถาวร](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [การรายงานการปรับปรุงเงินเฟ้อ](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [รายงานการรายงานภาษี ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [ใบแจ้งหนี้อิเล็กทรอนิกส์ (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>มาเลเซีย
 
 -   [ภาษีสินค้าและบริการ (GST)](../../financials/localizations/apac-mys-gst.md)
@@ -294,7 +264,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [เครื่องบันทึกเงินสดสำหรับนอร์เวย์](../../retail/localizations/emea-nor-cash-registers.md)
 -   [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
 -   [รูปแบบนำเข้า Nets](../../financials/localizations/emea-nor-nets-import-format.md)
--   [คำสั่ง VAT](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
+-   [ใบแจ้งยอด VAT](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
 ### <a name="poland"></a>โปแลนด์
 

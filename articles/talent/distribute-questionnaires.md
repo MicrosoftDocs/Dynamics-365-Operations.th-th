@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="distribute-and-complete-a-questionnaire"></a>การแจกจ่ายละการตอบแบบสอบถาม
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีกระจายแบบสอบถามที่คุณออกแบบ เพื่อให้สามารถใช้งานกับบุคคลหรือกลุ่มของบุคคลที่จะตอบ 
 

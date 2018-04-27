@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>อินเทอร์เฟสของโปรแกรมออกแบบรายงาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงวิธีการนำทางไปยังผู้ออกแบบรายงานและวิธีการใช้ตัวเลือกต่าง ๆ เพื่อให้ตรงกับความต้องการเฉพาะของคุณ 
 

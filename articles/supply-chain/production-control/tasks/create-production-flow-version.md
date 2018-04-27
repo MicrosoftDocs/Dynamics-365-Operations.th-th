@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-production-flow-version"></a>สร้างเวอร์ชันขั้นตอนการผลิต
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้มุ่งเน้นสร้างเวอร์ชันใหม่ของขั้นตอนการผลิต  สำหรับกระบวนงานนี้ พารามิเตอร์การผลิตสำหรับ Lean Manufacturing และหน่วยวัดเวลาต้องถูกกำหนด คุณต้องกำหนดสายธารคุณค่าและกลุ่มการผลิตอีกด้วย  เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับขั้นตอนการผลิตและกิจกรรมในการผลิตแบบ lean ดูเอกสารในการผลิตแบบ Lean สำหรับ Microsoft Dynamics AX  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

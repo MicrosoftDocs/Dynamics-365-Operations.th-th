@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -25,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>บทนำสู่ Microsoft Dynamics 365 for Finance and Operations
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
 

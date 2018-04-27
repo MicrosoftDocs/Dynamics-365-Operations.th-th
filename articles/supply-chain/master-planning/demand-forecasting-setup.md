@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="demand-forecasting-setup"></a>การตั้งค่าการคาดการณ์ความต้องการ
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายงานการตั้งค่าที่คุณต้องดำเนินการเพื่อจัดเตรียมสำหรับการคาดการณ์ความต้องการ  
 

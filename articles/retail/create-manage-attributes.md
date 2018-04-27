@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>สร้างและจัดการแอททริบิวต์
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 บทความนี้อธิบายถึงแอททริบิวต์ใน Microsoft Dynamics 365 for Retail แอททริบิวต์ช่วยให้คุณสามารถอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="attribute-type"></a>ชนิดแอททริบิวต์
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 แอททริบิวต์จะขึ้นอยู่กับชนิดแอททริบิวต์ ชนิดแอททริบิวต์ระบุชนิดของข้อมูลที่สามารถป้อนเพื่อแอททริบิวต์เฉพาะ ในปัจจุบัน Microsoft Dynamics 365 for Retail สนับสนุนชนิดแอททริบิวต์ต่อไปนี้:
 
 -   **สกุลเงิน**– ชนิดแอททริบิวต์นี้สนับสนุนค่าสกุลเงิน สามารถกำหนดขอบเขต (นั่นคือสามารถสนับสนุนช่วงค่า) หรือสามารถปล่อยให้เปิดไว้ได้

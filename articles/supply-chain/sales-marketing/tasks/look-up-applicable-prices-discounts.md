@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>ค้นหาราคาและส่วนลดที่เกี่ยวข้อง
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการค้นหาราคาและ/หรือส่วนลดสำหรับผลิตภัณฑ์ที่มีผลบังคับใช้สำหรับลูกค้าเฉพาะรายโดยไม่มีการสร้างใบสั่งขาย  กระบวนการดังดล่าวนำไปสู่ตัวอย่างเฉพาะ และคุณต้องทำตามตัวอย่างโดยใช้ข้อมูลสาธิตบริษัท USMF เพื่อเลือกค่าจำเป็น
 

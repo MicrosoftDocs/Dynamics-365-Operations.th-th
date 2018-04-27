@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>การจัดการการจัดประเภท
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>ภาพรวม
 Microsoft Dynamics 365 for Retail ให้ *การจัดประเภท* ที่ทำให้คุณสามารถจัดการความพร้อมของผลิตภัณฑ์ได้ในทุกช่องทาง การจัดประเภทกำหนดว่าผลิตภัณฑ์ใดที่จะพร้อมใช้งาน ณ ร้านค้าหนึ่งๆ และในระหว่างรอบระยะเวลาที่ระบุ
