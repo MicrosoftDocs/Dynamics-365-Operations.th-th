@@ -1,5 +1,5 @@
 --- 
-title: "สร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)"
+title: "สร้างเอกสารด้วยข้อมูลแอพลิเคชัน"
 description: "เมื่อต้องการทำขั้นตอนในกระบวนงานนี้ให้เสร็จเรียบร้อย ก่อนอื่นคุณต้องดำเนินกระบวนงาน ”สร้างเอกสารที่มีการอัพเดตข้อมูลแอพลิเคชัน (ส่วนที่ 4 - แก้ไขรูปแบบ) ของ ER” ให้เสร็จเรียบร้อยก่อน"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b2844621bf50a385ad1a4770c0df2d97623dc77a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5001adbc1c7fae96e94e7b31a64a5a04ba886dc8
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a>สร้างเอกสารที่มีการอัพเดตข้อมูลใบสมัครสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="generate-documents-with-application-data"></a>สร้างเอกสารด้วยข้อมูลแอพลิเคชัน
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 เมื่อต้องการทำขั้นตอนในกระบวนงานนี้ให้เสร็จเรียบร้อย ก่อนอื่นคุณต้องดำเนินกระบวนงาน ”สร้างเอกสารที่มีการอัพเดตข้อมูลแอพลิเคชัน (ส่วนที่ 4: แก้ไขรูปแบบ) ของ ER” ให้เสร็จเรียบร้อยก่อน
 

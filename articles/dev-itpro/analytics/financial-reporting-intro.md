@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
 ms.contentlocale: th-th
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>การรายงานทางการเงิน for Finance and Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 การรายงานทางการเงินสำหรับ Finance and Operations ช่วยให้ผู้เชี่ยวชาญทางการเงิน และผู้เชี่ยวชาญทางธุรกิจสามารถสร้าง รักษา ปรับใช้ และดูงบการเงินได้ ซึ่งสามารถใช้งานได้เกินกว่าข้อจำกัดการรายงานดั้งเดิมเพื่อช่วยให้คุณสามารถออกแบบรายงานชนิดต่างๆ ได้อย่างมีประสิทธิภาพ
 
@@ -87,8 +86,8 @@ ms.lasthandoff: 12/01/2017
 <td>การดูรายงานเชิงโต้ตอบ</td>
 <td>คุณลักษณะแบบโต้ตอบช่วยให้คุณสามารถดำเนินงานต่อไปนี้ได้:
 <ul>
-<li>เปลี่ยนวันที่รายงานของรายงานที่คุณกำลังดู</li>
-<li>เปลี่ยนสกุลเงินของรายงานที่คุณกำลังดู</li>
+<li>เปลี่ยนวันที่รายงานสำหรับรายงานที่คุณกำลัง&#39;ดู</li>
+<li>เปลี่ยนสกุลเงินของรายงานที่คุณกำลัง&#39;ดู</li>
 <li>ดูรายงานในมุมมองสรุปหรือมุมมองโดยละเอียด</li>
 <li>เพิ่มตัวกรองมิติเพื่อจำกัดเนื้อหารายงานไปยังมิติหรือชุดของมิติที่เจาะจง</li>
 <li>เพิ่มตัวกรองแอททริบิวต์เพื่อจำกัดเนื้อหารายงานไปยังแอททริบิวต์หรือชุดของแอททริบิวต์ที่เจาะจง</li>

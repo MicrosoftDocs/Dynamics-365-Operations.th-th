@@ -16,16 +16,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: aa2bbfab4afa59c15e28526192cc07be13da11d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="my-team-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ทีมงานของฉัน** พื้นที่ทำงานนี้จะทำให้ผู้จัดการดูรายงานโดยตรงและพนักงานโดยรวมได้ คุณสามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/26/2018
 </ul>
 </td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณไม่มี Finance and Operations ที่นำไปใช้ในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณยังไม่มี Talent ที่นำไปใช้ในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองใช้จาก <a href="https://www.microsoft.com/en-us/dynamics365/talent">เว็บเพจ Talent</a>.
+<td>ถ้าคุณยังไม่&#39;มี Finance and Operations ที่นำไปใช้ในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณยังไม่&#39;มี Talent ที่นำไปใช้ในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองใช้ได้จาก <a href="https://www.microsoft.com/en-us/dynamics365/talent">เว็บเพจ Talent</a>.
 </td>
 </tr>
 <tr class="even">

@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>การคิดค่าเสื่อมราคาด้วยตนเอง
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของวิธีคิดค่าเสื่อมราคาด้วยตนเอง
 
@@ -67,7 +66,7 @@ ms.lasthandoff: 11/03/2017
 | มกราคม  | (11,000 – 1,000) × 10% = 1,000 |
 | กุมภาพันธ์ | (11,000 – 1,000) × 50% = 5,000 |
 
-ถ้าคุณเลือก **ทุกครึ่งปี** ในฟิลด์ ****ความถี่ของรอบระยะเวลา** คุณตั้งค่าช่วงเวลาของกำหนดการที่กำหนดเองเป็น 2 ช่วง ตารางต่อไปนี้แสดงยอดค่าเสื่อมราคาสำหรับช่วงเวลาสองช่วงแรก
+ถ้าคุณเลือก <strong>ทุกครึ่งปี</strong> ในฟิลด์ *<strong><em>ความถี่ของรอบระยะเวลา</em>* </strong> คุณตั้งค่าช่วงเวลาของกำหนดการที่กำหนดเองเป็น 2 ช่วง ตารางต่อไปนี้แสดงยอดค่าเสื่อมราคาสำหรับช่วงเวลาสองช่วงแรก
 
 | ช่วงเวลา    | ยอดค่าเสื่อมราคา            |
 |-------------|--------------------------------|

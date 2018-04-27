@@ -1,5 +1,5 @@
 --- 
-title: "ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER) (ส่วนที่ 1)"
+title: "ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ด้วยรูปภาพที่ฝัง"
 description: "ขั้นตอนในหัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสารอิเล็กทรอนิกส์ในรูปแบบ Microsoft Office (Excel และ Word) ที่ประกอบด้วยรูปภาพที่ฝังอยู่"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: th-th
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ที่มีรูปภาพที่ฝังสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER) (ส่วนที่ 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ด้วยรูปภาพที่ฝัง
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 เพื่อทำตามขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำกระบวนงาน “ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งาน” กระบวนงานนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสาร Microsoft Excel หรือ Word ที่ประกอบด้วยรูปภาพที่ฝังอยู่ ในกระบวนงานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, inc สามารถดำเนินขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูล USMF กระบวนงานนี้ถูกสร้างขึ้นสำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ ก่อนที่คุณจะเริ่มต้น ดาวน์โหลดและบันทึกแฟ้มที่แสดงรายการอยู่ในหัวข้อวิธีใช้ [รูปและรูปร่างที่ฝังอยู่ในเอกสารทางธุรกิจที่ถูกสร้างขึ้นโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../electronic-reporting-embed-images-shapes.md) แฟ้มคือ: แบบจำลองสำหรับเช็ค.xml รูปแบบการพิมพ์เช็ค.xml โลโก้.png โลโก้บริษัท.png รูปภาพลายเซ็น.png รูปภาพลายเซ็น 2.png และ Word เท็มเพลตของเช็ค.docx
 

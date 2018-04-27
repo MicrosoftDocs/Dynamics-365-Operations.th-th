@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a>สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการสร้างกฎใหม่สำหรับ **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** ตัวอย่างเช่น คุณสามารถสร้างกฎใหม่ที่ระบุกรณีของคำขอใบเสนอราคา (RFQ) ที่มีชื่อเรื่องแบบว่างเปล่า การใช้ชื่อในกรณีทำให้สามารถระบุและสามารถค้นหาได้ง่าย ขณะที่ค่อนข้างอย่างง่าย ตัวอย่างนี้แสดงสิ่งที่สามารถทำได้ด้วยกฎการปรับให้เหมาะสม 
 

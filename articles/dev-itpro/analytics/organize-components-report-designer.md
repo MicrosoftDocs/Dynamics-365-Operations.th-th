@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d575e2b0215b0e8c4b6cb1b17c0f1d908b862e9d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 850a40cc29f51521636c01f6ac1cfa54d3bd7798
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 หลังจากที่คุณได้ออกแบบบล็อคส่วนประกอบและสร้างรายงานแล้ว คุณควรจัดเรียงออบเจ็กต์เหล่านี้เพื่อให้ผู้ใช้สามารถค้นหาได้ง่ายขึ้น บทความนี้อธิบายถึงวิธีการจัดระเบียบรายงานที่มีอยู่ บล็อคส่วนประกอบ และออบเจ็กต์ในตัวออกแบบรายงาน
 
@@ -106,7 +105,7 @@ ms.lasthandoff: 11/03/2017
 <td>ระดับรายละเอียด</td>
 <td>ระบุระดับของรายละเอียดที่มีอยู่ในรายงาน
 <ul>
-<li><strong>รายงานทางการเงิน</strong>− สรุปข้อมูลระดับสูง คุณไม่สามารถดูรายละเอียดยังบัญชีและมิติ ยกเว้นบัญชีและมิติที่ถูกเพิ่มผ่านรายงานแผนภูมิ</li>
+<li><strong>รายงานทางการเงิน</strong>− สรุปข้อมูลระดับสูง คุณไม่&#39;สามารถดูรายละเอียดแนวลึกในบัญชีและมิติได้ ยกเว้นบัญชีและมิติเหล่านั้นที่ได้ถูกเพิ่มผ่านแผนภูมิการรายงาน</li>
 <li><strong>การเงิน &amp; บัญชี</strong>− รายงานที่ประกอบด้วยข้อมูลสรุปและรายละเอียดทางบัญชีระดับสูง</li>
 <li><strong>การเงิน บัญชี &amp; ธุรกรรม</strong> − รายงานที่ประกอบด้วยข้อมูลสรุปและธุรกรรมทางบัญชีระดับสูง</li>
 </ul></td>

@@ -3,7 +3,7 @@ title: "ใช้ Add-in ของ Excel"
 description: "หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel"
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>ใช้ Add-in ของ Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel เมื่อต้องการเปิดเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือ Microsoft Dynamics 365 for Finance and Operations อย่างใดอย่างหนึ่ง
 
@@ -35,6 +35,11 @@ ms.lasthandoff: 03/26/2018
 
 > [!NOTE]
 > หากผู้เช่า Microsoft Azure Active Directory (Azure AD) ของคุณถูกตั้งค่าคอนฟิกให้ใช้ Active Directory Federation Services (AD FS) คุณต้องแน่ใจว่ามีการใช้การอัพเดตเดือนพฤษภาคม 2016 สำหรับ Office เพื่อให้ Add-in ของ Excel สามารถนำคุณเข้าสู่ระบบได้อย่างถูกต้อง
+
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการใช้ add-in ของ Excel ให้ดูวิดีโอ [สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบรายการใน Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) แบบย่อ
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>เปิดข้อมูลเอนทิตีใน Excel เมื่อคุณเริ่มการทำงานจาก Finance and Operations
 1. ในหน้าใน Finance and Operations เลือก **เปิดใน Microsoft Office**

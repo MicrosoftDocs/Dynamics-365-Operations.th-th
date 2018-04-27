@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในองค์กร
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงให้เห็นว่าคุณลักษณะแต่ละอย่างจะพร้อมใช้งานในผลิตภัณฑ์เหล่านี้หรือไม่:
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/26/2018
 | | ส่วนขยายที่ควบคุมโดยการตั้งค่าคอนฟิก| ใช่ | หมายเลข |
 | | ส่งออกข้อมูลไปยังคลังข้อมูลของคุณเอง| ใช่ | ใช่ |
 | | เปิดใช้งานการส่งออกการอัพเดตที่เพิ่มขึ้นไปยังเอนทิตี้ข้อมูล | ใช่ | หมายเลข |
-| | การรวมที่เกิดซ้ำ                 |ใช่ | หมายเลข|
+| | การรวมข้อมูล                 |ใช่ | ใช่|
 | การจัดการเอกสาร| | ใช่| ใช่ |
 | การจัดการทางการเงิน|  | ใช่ | ใช่ |
 | วิธีใช้| | ใช่ | หมายเลข |
