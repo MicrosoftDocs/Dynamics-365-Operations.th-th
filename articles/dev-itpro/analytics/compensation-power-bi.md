@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="compensation-power-bi-content"></a>เนื้อหาค่าตอบแทนของ Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงเนื้อหา **ค่าตอบแทน** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 

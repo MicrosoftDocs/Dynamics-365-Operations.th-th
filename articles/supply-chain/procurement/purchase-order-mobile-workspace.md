@@ -27,9 +27,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-order-approval-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของ **การอนุมัติใบสั่งซื้อ** แบบเคลื่อนที่ พื้นที่ทำงานนี้ช่วยให้คุณสามารถดูใบสั่งซื้อ และตอบสนองได้โดยใช้การดำเนินการ ตัวอย่างเช่น คุณสามารถอนุมัติ หรือปฏิเสธใบสั่งซื้อ
  

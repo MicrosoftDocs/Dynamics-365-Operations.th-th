@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>การสร้างข้อตกลงการให้บริการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้ลักษณะการทำงานในโมดูลการจัดการงานบริการและการจัดการและการบัญชีโครงการ เพื่อสร้างข้อตกลงการให้บริการ
 

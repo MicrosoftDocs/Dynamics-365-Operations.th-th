@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI ที่ฝัง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > คุณลักษณะนี้ได้รับการสนับสนุนใน Dynamics 365 for Finance and Operations (เวอร์ชัน 7.2 และเวอร์ชันหลังจากนั้น)

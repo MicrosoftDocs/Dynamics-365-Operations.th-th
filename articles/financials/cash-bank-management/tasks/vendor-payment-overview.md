@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>ภาพรวมการชำระเงินของผู้จัดจำหน่าย
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำของงานนี้จะนำคุณผ่านวิธีการต่างๆที่ใช้ในการสร้างการชำระเงินของผู้จัดจำหน่าย รวมถึงวิธีการใช้ข้อเสนอการชำระเงิน หรือการชำระเงินด้วยตนเองแบบครั้งเดียว  กระบวนงานนี้ใช้บริษัทสาธิต USMF
 

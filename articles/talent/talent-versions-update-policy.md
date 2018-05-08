@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>ความต้องการของระบบ Microsoft Dynamics 365 for Talent และนโยบายการอัพเดต
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงรายการความต้องการสำหรับ Microsoft Dynamics 365 for Talent นอกจากนี้ยังระบุนโยบายการอัพเดตด้วย
 

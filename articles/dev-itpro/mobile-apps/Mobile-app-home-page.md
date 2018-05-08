@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 

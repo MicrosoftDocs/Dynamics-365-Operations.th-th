@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>สร้างข้อตกลงสินเชื่อธนาคารสำหรับหนังสือค้ำประกัน
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้สร้างข้อตกลงสินเชื่อของธนาคารที่จะประมวลผลหนังสือค้ำประกัน  งานนี้ใช้บริษัทสาธิต USMF  
 

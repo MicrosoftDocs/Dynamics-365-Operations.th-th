@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของพื้นที่ทำงานการปิดรอบระยะเวลาทางการเงินและการตั้งค่าคอนฟิกที่เกี่ยวข้อง
 

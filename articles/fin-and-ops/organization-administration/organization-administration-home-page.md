@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>โฮมเพจการจัดการองค์กร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้ชี้ไปที่เนื้อหาที่จะช่วยให้ผู้ใช้ที่มีความชำนาญและผู้ดูแลระบบสามารถตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations ได้ เนื้อหานี้จะช่วยในการตั้งค่าคอนฟิกระบบให้ทำงานได้อย่างราบรื่นและอย่างมีประสิทธิภาพสำหรับธุรกิจและองค์กรของคุณ
 

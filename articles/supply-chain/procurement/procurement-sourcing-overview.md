@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>ภาพรวมของการจัดซื้อและการจัดหา
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้ให้ภาพรวมของฟังก์ชันที่พร้อมใช้งานในโมดูลการจัดหาและการจัดซื้อ
 

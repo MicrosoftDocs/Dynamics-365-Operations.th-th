@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>ตั้งค่าคอนฟิกร้านค้าออนไลน์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงลิงค์ไปยังหัวข้อที่จะช่วยให้คุณในการตั้งค่าคอนฟิกและจัดการจากส่วนกลางและร้านค้าออนไลน์
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>ตั้งค่าการจัดประเภท
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้อธิบายว่าการจัดประเภทคืออะไร และอธิบายวิธีการตั้งค่าการจัดประเภทใน Microsoft Dynamics 365 for Retail
 

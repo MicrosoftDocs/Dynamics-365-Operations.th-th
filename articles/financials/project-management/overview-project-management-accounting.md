@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>การจัดการและการบัญชีโครงการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 การจัดการโครงการและฟังก์ชันการลงบัญชีสามารถใช้ในอุตสาหกรรมหลายรายการเพื่อการบริการ ผลิตผลิตภัณฑ์ หรือบรรลุผลลัพธ์  
 

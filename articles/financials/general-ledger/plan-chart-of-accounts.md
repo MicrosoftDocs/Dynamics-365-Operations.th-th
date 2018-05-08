@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="plan-your-chart-of-accounts"></a>วางแผนชื่อผังบัญชีของคุณ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้ให้ข้อมูลที่จะช่วยให้คุณวางแผนผังบัญชีสำหรับองค์กรของคุณ
 

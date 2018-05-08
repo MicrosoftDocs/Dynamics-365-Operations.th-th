@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>วิเคราะห์แนวโน้มและรูปแบบการขาย
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 คุณสามารถศึกษาแนวโน้มการและรูปแบบในเวลาจริงใน Microsoft Dynamics 365 for Retail
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="calculate-material-consumption"></a>คำนวณปริมาณการใช้วัสดุ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับตัวเลือกต่างๆ ที่เกี่ยวข้องกับการคำนวณปริมาณการใช้วัสดุ 
 

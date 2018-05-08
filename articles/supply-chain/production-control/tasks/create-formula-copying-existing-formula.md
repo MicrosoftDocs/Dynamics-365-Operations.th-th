@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>สร้างสูตรโดยการคัดลอกจากสูตรที่มีอยู่แล้ว
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการสร้างสูตรใหม่ที่รวดเร็วโดยการคัดลอกจากสูตรที่มีอยู่แล้ว  คุณสามารถใช้ข้อมูลสาธิตของบริษัท USMF, USP2 หรือ USPI เพื่อสร้างขั้นตอนนี้
 

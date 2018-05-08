@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ ที่พร้อมใช้งานสำหรับการจัดซื้อและการจัดหา
 

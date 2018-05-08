@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>อัพเกรดการวางแผนงบประมาณ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 มีความแตกต่างที่สำคัญในการวางแผนงบประมาณระหว่าง Microsoft Dynamics AX 2012 และ Microsoft Dynamics 365 for Finance and Operations คุณลักษณะบางอย่างจะไม่ถูกอัพเกรด และดังนั้นจึงต้องมีการตั้งค่าคอนฟิกใหม่ หัวข้อนี้อธิบายถึงสิ่งที่ต้องตั้งค่าคอนฟิกใหม่ และยังอธิบายถึงคุณลักษณะใหม่ที่ควรพิจารณาหลังจากการอัพเกรดเสร็จสมบูรณ์  
 

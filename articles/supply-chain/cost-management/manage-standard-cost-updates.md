@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>จัดการการอัพเดตต้นทุนมาตรฐาน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 สามารถจัดการการอัพเดตไปยังข้อมูลต้นทุนมาตรฐานได้โดยใช้วิธีการสองวิธี - วิธีการรุ่นเดียวหรือวิธีการสองรุ่น 
 

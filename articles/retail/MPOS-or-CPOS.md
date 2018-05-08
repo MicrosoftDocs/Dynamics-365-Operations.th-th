@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>เลือกระหว่าง Modern POS และ Cloud POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้ให้ผู้ใช้มีพื้นหลังเพิ่มเติม เคล็ดลับ และคำแนะนำสำหรับปัจจัยที่พวกเขาควรพิจารณา เมื่อพวกเขาทำการปรับใช้ Microsoft Dynamics 365 for Retail โดยการตรวจทานและการทำตามคำแนะนำนี้ เป็นส่วนหนึ่งของกระบวนการปรับใช้ ผู้ใช้งานระบบสามารถหลีกเลี่ยงปัญหาที่อาจส่งผลกระทบต่อประสิทธิภาพการทำงานหรือความพึงพอใจของผู้ใช้
 

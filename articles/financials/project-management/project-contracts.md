@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>สัญญาโครงการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations
 

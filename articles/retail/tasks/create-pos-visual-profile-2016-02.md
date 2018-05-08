@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> สร้างโพรไฟล์ภาพ POS  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่การสร้างโพรไฟล์ภาพการขายหน้าร้าน (POS) ขึ้นใหม่  โพรไฟล์ภาพประกอบด้วยข้อมูลพื้นฐานที่กำหนดรูปลักษณ์ของเครื่องบันทึกเงินสด POS  คุณสามารถสร้างโพรไฟล์ภาพต่าง ๆ และกำหนดโพรไฟล์เฉพาะให้ทำงานบนเครื่องบันทึกเงินสดหนึ่ง ๆ  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 

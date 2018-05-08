@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>จัดประเภทผลิตภัณฑ์โดยใช้ลำดับชั้นประเภท
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้ลำดับชั้นประเภทในการจัดประเภทผลิตภัณฑ์สำหรับการส่งออก การจัดซื้อ การขาย หรือวัตถุประสงค์อื่นๆ  โดยทั่วไป งานนี้จะถูกดำเนินการโดยผู้จัดการผลิตภัณฑ์ ตัวอย่างนี้ใช้หมายเลขผลิตภัณฑ์ M0009 ในบริษัทข้อมูลสาธิต USMF
 

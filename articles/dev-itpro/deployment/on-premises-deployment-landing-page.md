@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>โฮมเพจการปรับใช้ในองค์กร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations (ในองค์กร) ได้ เมื่อคุณเลือกชนิดของการปรับใช้ในองค์กร ความต้องการระบบ การกำหนดฮาร์ดแวร์และฟังก์ชันการทำงานจะแตกต่างจากการปรับใช้บริการระบบคลาวด์ หัวข้อนี้แสดงลิงค์ไปยังเนื้อหาที่มีข้อมูลเฉพาะเกี่ยวกับการปรับใช้ในองค์กร
 

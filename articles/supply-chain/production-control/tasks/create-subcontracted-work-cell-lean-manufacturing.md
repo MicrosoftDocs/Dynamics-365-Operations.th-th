@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>สร้างเซลล์ทำงานที่รับเหมารายย่อยสำหรับ lean manufacturing
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 เมื่อต้องการสร้างแบบจำลองงานที่รับเหมารายย่อยสำหรับ Lean Manufacturing คุณต้องสร้างเซลล์ทำงานที่เกี่ยวข้องกับผู้จัดจำหน่ายที่มีการทำงาน เซลล์ทำงานที่รับเหมารายย่อยจะเชื่อมโยงกับผู้จัดจำหน่ายโดยใช้การเชื่อมโยงของทรัพยากรของชนิดผู้จัดจำหน่าย ถ้าคุณเล่นการบันทึกนี้ในบริษัทสาธิต USMF คุณสามารถเลือกรหัสบัญชีผู้จัดจำหน่าย 1002 และไซต์ 1
 

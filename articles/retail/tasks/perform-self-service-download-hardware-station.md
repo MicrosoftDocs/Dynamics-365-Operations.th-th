@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> ดำเนินการบริการตนเองเพื่อดาวน์โหลดสถานีฮาร์ดแวร์
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่วิธีการดาวน์โหลดสถานีฮาร์ดแวร์ที่กำหนดไว้ล่วงหน้า  ข้อมูลสาธิตที่บริษัทใช้สำหรับกระบวนการนี้คือ USRT  คุณต้องสร้างสถานีโพรไฟล์ฮาร์ดแวร์และสถานีฮาร์ดแวร์ใหม่ก่อนการเริ่มทำงานนี้
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 รายงานเมื่อเสร็จสมบุรณ์เป็นขั้นการผลิต ในขั้นนี้ ผลิตภัณฑ์สำเร็จรูปจะได้รับการรายงานและย้ายออกจากใบสั่งผลิตไปยังสินค้าคงคลัง
 

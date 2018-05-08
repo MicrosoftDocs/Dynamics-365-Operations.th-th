@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-boms-february-2016-only"></a>สร้าง BOM (กุมภาพันธ์ 2016 เท่านั้น)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้มุ่งเน้นการสร้างโครงสร้างสูตรการผลิตสำหรับผลิตภัณฑ์สำเร็จรูปและผลิตภัณฑ์กึ่งสำเร็จรูป นี่คืองานที่สี่ในลำดับการคำนวณ BOM ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF
 

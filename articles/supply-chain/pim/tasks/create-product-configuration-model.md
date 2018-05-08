@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-a-product-configuration-model"></a>สร้างแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างแบบจำลองการจัดโครงแบบผลิตภัณฑ์ และการป้อนรายละเอียดพื้นฐานเช่น คุณลักษณะและส่วนประกอบย่อย  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

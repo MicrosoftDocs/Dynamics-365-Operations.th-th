@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>กลุ่มบัญชีหลักในการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับกลุ่มบัญชีหลักในการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม และอธิบายถึงวิธีการใช้ใน Microsoft Dynamics 365 for Finance and Operations
 

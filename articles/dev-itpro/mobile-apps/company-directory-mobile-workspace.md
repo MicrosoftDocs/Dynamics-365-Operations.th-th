@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ไดเรกทอรีบริษัท** พื้นที่ทำงานนี้ช่วยให้ผู้ใช้ดูและติดต่อพนักงานคนอื่นในองค์กร
 

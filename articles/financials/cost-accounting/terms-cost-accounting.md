@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>คำศัพท์การบัญชีต้นทุน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้กำหนดเงื่อนไขสำคัญที่ใช้ในการบัญชีต้นทุน
 

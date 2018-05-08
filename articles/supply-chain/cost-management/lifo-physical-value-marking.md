@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO ที่มีค่าจริงและมีการทำเครื่องหมาย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 เข้าหลังออกก่อน (LIFO) เป็นแบบจำลองสินค้าคงคลัง ซึ่งการรับสินค้าครั้งหลังสุด (ล่าสุด) จะถูกนำออกใช้ก่อน  การนำสินค้าออกใช้จากสินค้าคงคลังจะถูกจับคู่กับการรับสินค้าเข้าในสินค้าคงคลังครั้งล่าสุด โดยยึดตามวันที่ของรายการความเคลื่อนไหวของสินค้าคงคลัง  
 

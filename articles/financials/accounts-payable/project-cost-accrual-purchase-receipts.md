@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการติดตามต้นทุนโครงการที่ค้างรับค้างจ่ายจากใบรับสินค้าซื้อใน Microsoft Dynamics 365 for Finance and Operations 
 

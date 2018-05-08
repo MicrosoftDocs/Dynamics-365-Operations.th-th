@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>ช่วงการบริการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ช่วงข้อตกลงการให้บริการบ่งชี้ความถี่พร้อมกับรายการใบสั่งบริการถูกสร้างสำหรับรายการข้อตกลงการให้บริการ เมื่อคุณสร้างใบสั่งบริการโดยอัตโนมัติ
 

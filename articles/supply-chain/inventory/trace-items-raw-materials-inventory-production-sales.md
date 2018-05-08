@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>การติดตามสินค้าและวัตถุดิบในสินค้าคงคลัง การผลิต และการขาย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การติดตามสินค้าเพื่อระบุตำแหน่งที่สินค้าหรือวัตถุดิบได้ถูกใช้ กำลังถูกใช้ หรือจะใช้ในการผลิตและกระบวนการขาย 
 

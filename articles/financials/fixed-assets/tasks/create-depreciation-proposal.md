@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-depreciation-proposal"></a>สร้างข้อเสนอค่าเสื่อมราคา
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้อธิบายถึงการทำงานของข้อเสนอของชุดค่าเสื่อมราคา และอธิบายวิธีการเสนอค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร  งานนี้ใช้บริษัทสาธิต USMF และบทบาทของนักบัญชี
 

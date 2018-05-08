@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-performance-power-bi-content"></a>เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา **ประสิทธิภาพการทำงานของคลังสินค้า** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 

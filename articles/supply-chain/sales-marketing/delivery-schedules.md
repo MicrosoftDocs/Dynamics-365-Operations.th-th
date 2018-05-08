@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="delivery-schedules"></a>กำหนดการจัดส่ง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 กำหนดการจัดส่งช่วยให้คุณสามารถติดตามปริมาณในบรรทัดใบสั่งเมื่อคุณใช้การจัดส่งหลายครั้ง สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อเดียว
 

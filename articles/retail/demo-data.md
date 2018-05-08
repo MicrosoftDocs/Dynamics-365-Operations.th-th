@@ -29,7 +29,7 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับโครงร่างหน้าจอ ที่มาพร้อมกับชุดข้อมูลสาธิตสำหรับประสบการณ์การขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 for Retail
 

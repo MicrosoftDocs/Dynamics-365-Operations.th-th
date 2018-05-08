@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounts-payable-invoice-matching"></a>การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 การจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้เป็นกระบวนการจับคู่ใบแจ้งหนี้ของผู้จัดจำหน่าย ใบสั่งซื้อ และข้อมูลการรับสินค้า 
 

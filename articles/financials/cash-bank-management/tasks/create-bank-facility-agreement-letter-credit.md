@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>สร้างข้อตกลงสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้นำไปสู่การสร้างข้อตกลงสินเชื่อของธนาคารเพื่อประมวลผลเลตเตอร์ออฟเครดิต  คุณจะต้องตั้งค่าสินเชื่อธนาคารและการลงบัญชีโพรไฟล์ก่อนหน้างานนี้   งานนี้ใช้บริษัทสาธิต 'USMF'  
 

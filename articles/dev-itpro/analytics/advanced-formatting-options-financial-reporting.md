@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>ตัวเลือกการจัดรูปแบบขั้นสูงในรายงานทางการเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 เมื่อคุณสร้างรายงานในรายงานทางการเงิน ฟังก์ชันการจัดรูปแบบเพิ่มเติมจะพร้อมใช้งาน รวมถึงตัวกรองสำหรับขนาด ข้อจำกัดสำหรับคอลัมน์ และหน่วยการรายงาน แถวที่ไม่มีการพิมพ์ และคำสั่ง IF/THEN/ELSE ในการคำนวณ 
 

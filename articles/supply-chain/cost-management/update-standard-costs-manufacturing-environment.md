@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมการผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้ให้คำแนะนำเกี่ยวกับวิธีการอัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมการผลิต 
 

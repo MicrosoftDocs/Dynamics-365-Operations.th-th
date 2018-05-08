@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>เริ่มใบสั่งผลิต
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการเริ่มใบสั่งผลิตลิในกระบวนการผลิต  เวลาและวัสดุที่ใช้ในการผลิตจะถูกรายงานในขั้นตอนนี้  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF นี่เป็นขั้นตอนที่ห้าจากเจ็ดขั้นตอน ซึ่งอธิบายวงจรชีวิตของใบสั่งผลิต
 

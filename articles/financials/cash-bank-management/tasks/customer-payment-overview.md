@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>ภาพรวมการชำระเงินของลูกค้า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำของงานนี้นำไปสู่วิธีการต่างๆ ที่เคยป้อนการชำระเงินของลูกค้า  งานนี้ใช้บริษัทสาธิต USMF 
 

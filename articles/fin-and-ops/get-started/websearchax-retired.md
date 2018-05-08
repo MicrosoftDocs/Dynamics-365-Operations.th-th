@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX ถอน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 เราต้องถอนหน้า WebSearchAX เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่  ตัวอย่างเช่น  
 

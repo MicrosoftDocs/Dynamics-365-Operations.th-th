@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>รวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้า
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ฟังก์ชันสำหรับการรวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้าแสดงภาพของน้ำหนักรวมและปริมาตรของตู้บรรจุสินค้าและสินค้าที่กำลังจะโหลดได้อย่างชัดเจน
 

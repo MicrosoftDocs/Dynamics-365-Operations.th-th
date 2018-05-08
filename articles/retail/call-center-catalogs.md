@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>แค็ตตาล็อกของศูนย์บริการ
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้อธิบายถึงศูนย์บริการ – ฟังก์ชันเฉพาะสำหรับแค็ตตาล็อกใน Microsoft Dynamics 365 for Retail
 

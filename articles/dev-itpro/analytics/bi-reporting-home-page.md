@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>ข่าวกรอง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้นำคุณไปยังแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ (BI) และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-the-global-address-book"></a>ตั้งค่าคอนฟิกสมุดที่อยู่สากล
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้กระบวนงานนี้เพื่อตั้งค่าเริ่มต้นและนโยบายความปลอดภัยสำหรับสมุดที่อยู่สากล  
 

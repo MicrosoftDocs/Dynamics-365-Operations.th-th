@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 ค่าเฉลี่ยถ่วงน้ำหนักเป็นแบบจำลองสินค้าคงคลังตามหลักการของค่าเฉลี่ยถ่วงน้ำหนัก ซึ่งการตัดสินค้าจากคลังจากสินค้าคงคลังจะมีค่าที่ค่าเฉลี่ยของสินค้าที่ได้รับในสินค้าคงคลังระหว่างรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง บวกด้วยปริมาณคงคลังคงเหลือใดๆ จากรอบระยะเวลาก่อนหน้า
 

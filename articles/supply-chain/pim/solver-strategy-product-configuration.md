@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="solver-strategy-for-product-configuration"></a>กลยุทธ์ของโปรแกรมแก้ปัญหาสำหรับการจัดโครงแบบผลิตภัณฑ์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้กลยุทธ์ของโปรแกรมแก้ปัญหา เพื่อปรับปรุงประสิทธิภาพของการจัดโครงแบบผลิตภัณฑ์
 

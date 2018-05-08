@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-search"></a>การดำเนินการค้นหา
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงฟังก์ชันการดำเนินการค้นหาใน Microsoft Dynamics 365 for Finance and Operations การดำเนินการค้นหาจะช่วยคุณค้นหาและดำเนินการที่เรียกใช้บนหน้า
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>โปรแกรมออกแบบสูตร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้โปรแกรมออกแบบสูตรเพื่อวิเคราะห์ และเก็บรักษาสูตรในมุมมองแผนภูมิ
 

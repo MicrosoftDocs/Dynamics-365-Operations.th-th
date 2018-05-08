@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา และวิธีการใช้ข้อมูลเหล่านั้นสำหรับนิติบุคคล สินทรัพย์ถาวร และงบประมาณ
 

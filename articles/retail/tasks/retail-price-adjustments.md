@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a> การปรับปรุงราคาในการขายปลีก
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้จะนำไปสู่การสร้างการปรับปรุงราคาขายปลีก  การปรับปรุงราคาขายปลีกสามารถตั้งค่าราคาขายของสินค้าโดยตรง หรือปรับเปลี่ยนราคาขายพื้นฐานหรือราคาขายตามข้อตกลงทางการค้าได้  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 

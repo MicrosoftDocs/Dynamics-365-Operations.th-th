@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>ดูและออกแบบรายงานทางการเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้มีแบบฝึกหัดที่จะนำคุณผ่านขั้นตอนการดูและการสร้างรายงานทางการเงินสำหรับ Microsoft Dynamics 365 for Finance and Operations การรายงานทางการเงินประกอบด้วยประสบการณ์การดูภายใน Finance and Operations และตัวออกแบบรายงานหนึ่งครั้งที่จะช่วยคุณในการสร้างและแก้ไขรายงานทางการเงิน  
 

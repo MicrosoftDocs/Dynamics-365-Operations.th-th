@@ -24,7 +24,7 @@ ms.lasthandoff: 02/15/2018
 ---
 # <a name="benefit-eligibility-process"></a>กระบวนการการมีสิทธิ์ในสวัสดิการ
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงว่ากระบวนงานการมีสิทธิ์ในสวัสดิการทำงานอย่างไร  เมื่อกระบวนการเสร็จสมบูรณ์ คุณสามารถดูผลลัพธ์  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

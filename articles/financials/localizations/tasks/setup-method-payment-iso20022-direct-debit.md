@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-method-of-payment-for-iso20022-direct-debit"></a>การตั้งค่าวิธีการชำระเงินสำหรับการหักบัญชีเงินฝากอัตโนมัติ ISO20022
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าวิธีการชำระเงินของลูกค้าสำหรับการหักบัญชีเงินฝากอัตโนมัติ ISO20022 หรือชนิดการชำระเงินอื่นๆ โดยใช้การรายงานทางอิเล็กทรอนิกส์  
 

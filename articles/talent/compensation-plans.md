@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>แผนค่าตอบแทน
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ค่าตอบแทนและสวัสดิการผู้จัดการสามารถใช้การจัดการค่าตอบแทนเพื่อรักษาและประมวลผลแผนค่าตอบแทนคงที่และผันแปรสำหรับพนักงานขององค์กร
 

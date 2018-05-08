@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>ลำดับชั้นการขายปลีก
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้อธิบายถึงลำดับชั้นการขายปลีกใน Microsoft Dynamics 365 for Retail
 

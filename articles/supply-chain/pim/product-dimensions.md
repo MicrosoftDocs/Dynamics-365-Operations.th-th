@@ -29,9 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>มิติของผลิตภัณฑ์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
 ผลิตภัณฑ์มีสี่มิติ - สี โครงแบบ ขนาด และลักษณะ คุณได้รวมมิติสินค้าในกลุ่มมิติ และกำหนดกลุ่มมิติให้กับผลิตภัณฑ์หลัก การรวมชุดมิติของผลิตภัณฑ์กำหนดวิธีกำหนดผลิตภัณฑ์ย่อย
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>การชำระเงินบางส่วนของที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แนะนำคุณผ่านสถานการณ์ที่ใบลดหนี้ถูกชำระด้วยใบแจ้งหนี้
 

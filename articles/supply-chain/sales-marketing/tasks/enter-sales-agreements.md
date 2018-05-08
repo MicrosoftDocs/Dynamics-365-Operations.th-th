@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="enter-sales-agreements"></a>ป้อนข้อตกลงการขาย
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการสร้างข้อตกลงการขายที่ยืนยันที่ลูกค้าของคุณให้ซื้อผลิตภัณฑ์เป็นจำนวนที่ตกลงกันตามช่วงเวลาการแลกเปลี่ยนสำหรับส่วนลดพิเศษ  คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง
 

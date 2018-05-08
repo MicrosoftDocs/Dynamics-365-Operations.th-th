@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>ภาพรวมการอัพเกรดของสมุดบัญชีค่าเสื่อมราคา
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ในรุ่นก่อนหน้า มีแนวคิดการคิดมูลค่าสองรายการสำหรับสินทรัพย์ถาวร - รูปแบบมูลค่าและสมุดบัญชีค่าเสื่อมราคา ใน Microsoft Dynamics 365 for Operations (1611) ฟังก์ชันรูปแบบมูลค่าและฟังก์ชันสมุดบัญชีค่าเสื่อมราคาถูกรวมกันเป็นแนวคิดเดียวซึ่งเรียกว่าสมุดบัญชี หัวข้อนี้อธิบายสิ่งที่ควรพิจารณาสำหรับการอัพเกรด 
 
@@ -62,17 +62,17 @@ ms.lasthandoff: 11/03/2017
 พารามิเตอร์อยู่ที่จุดเริ่มต้นของคลาส ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans 
 
 *// ระบุวิธีการที่ต้องการสำหรับการปันส่วนใบสำคัญ* 
-*// จริง ถ้าคุณต้องการใช้รหัสลำดับหมายเลขที่มีอยู่* 
-*// เท็จ ถ้าคุณต้องการใช้ลำดับหมายเลขที่ระบบกำหนด (ค่าเริ่มต้น)* const boolean NumberSequenceUseExistingCode = false;  
+ *// จริง ถ้าคุณต้องการใช้รหัสลำดับหมายเลขที่มีอยู่* 
+ *// เท็จ ถ้าคุณต้องการใช้ลำดับหมายเลขที่ระบบกำหนด (ค่าเริ่มต้น)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// ถ้าใช้วิธีการของลำดับหมายเลขที่ระบบกำหนด ให้ระบุพารามิเตอร์สำหรับลำดับหมายเลข*
-*// จะมีการสร้างลำดับหมายเลขใหม่โดยใช้พารามิเตอร์เหล่านี้* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// จะมีการสร้างลำดับหมายเลขใหม่โดยใช้พารามิเตอร์เหล่านี้* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// ถ้าใช้วิธีการของลำดับหมายเลขที่มีอยู่ ให้ระบุรหัสลำดับหมายเลขที่มีอยู่* 
-*// การปันส่วนใบสำคัญจะดำเนินการทีละแถวสำหรับลำดับหมายเลขที่มีอยู่* const str NumberSequenceExistingCode = ''; *// ระบุขอบเขตของรหัสลำดับหมายเลขที่มีอยู่* 
-*// จริง ถ้ามีการใช้ลำดับหมายเลขที่ระบุร่วมกัน* 
-*// เท็จ ถ้าลำดับหมายเลขที่ระบุสำหรับแต่ละบริษัท* 
-*// ลำดับหมายเลขที่ระบบกำหนดเริ่มต้นจะถูกใช้ถ้าไม่พบรหัสลำดับหมายเลขที่มีขอบเขตที่ระบุ* const boolean NumberSequenceExistingIsShared = true; 
+ *// การปันส่วนใบสำคัญจะดำเนินการทีละแถวสำหรับลำดับหมายเลขที่มีอยู่* const str NumberSequenceExistingCode = ''; *// ระบุขอบเขตของรหัสลำดับหมายเลขที่มีอยู่* 
+ *// จริง ถ้ามีการใช้ลำดับหมายเลขที่ระบุร่วมกัน* 
+ *// เท็จ ถ้าลำดับหมายเลขที่ระบุสำหรับแต่ละบริษัท* 
+ *// ลำดับหมายเลขที่ระบบกำหนดเริ่มต้นจะถูกใช้ถ้าไม่พบรหัสลำดับหมายเลขที่มีขอบเขตที่ระบุ* const boolean NumberSequenceExistingIsShared = true; 
 
 สร้างโครงการที่มีคลาสใหม่หลังจากที่มีการแก้ไขค่าคงที่ 
 

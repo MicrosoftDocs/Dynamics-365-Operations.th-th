@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>คุณลักษณะที่ถูกลบหรือถูกยกเลิกการใช้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ได้ถูกลบออก หรือที่ได้ถูกยกเลิกการใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations
 

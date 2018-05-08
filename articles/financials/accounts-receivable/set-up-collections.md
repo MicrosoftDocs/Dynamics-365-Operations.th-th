@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>การตั้งค่าสินเชื่อและการเรียกเก็บเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการเรียกเก็บเงิน
 

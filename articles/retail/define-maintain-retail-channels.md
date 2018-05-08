@@ -29,7 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="define-and-maintain-retail-channels"></a>การกำหนดและรักษาช่องทางการขายปลีก
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของกระบวนการสำหรับการตั้งค่าร้านค้าที่ให้บริการจริง ซึ่งจะเรียกว่าร้านค้าปลีกใน Microsoft Dynamics 365 for Retail โดยจะมีข้อมูลเกี่ยวกับภารกิจที่คุณต้องกรอกทั้งหมดก่อน และหลังจากที่คุณตั้งค่าร้านค้าปลีก
 

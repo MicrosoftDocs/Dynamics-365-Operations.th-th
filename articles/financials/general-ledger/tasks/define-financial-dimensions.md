@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-financial-dimensions"></a>กำหนดมิติทางการเงิน
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำงานนี้สาธิตการเพิ่มเอนทิตี้ที่ได้รับการสนับสนุนมิติทางการเงินและมิติทางการเงินที่กำหนดเอง   คำแนะนำการใช้บริษัทสาธิต USMF
 

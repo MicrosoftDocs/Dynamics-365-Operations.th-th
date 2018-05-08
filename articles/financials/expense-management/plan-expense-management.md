@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผน ก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations ในการจัดการค่าใช้จ่าย คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง รายงานค่าใช้จ่าย และนโยบายต่างๆ
 

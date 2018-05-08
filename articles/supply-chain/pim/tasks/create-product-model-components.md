@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>สร้างส่วนประกอบแบบจำลองผลิตภัณฑ์
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 แบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ตามข้อจำกัดใช้ส่วนประกอบเป็นส่วนประกอบที่จะสร้างโครงสร้างรูปแบบผลิตภัณฑ์  ส่วนประกอบต้องถูกสร้างก่อนที่แบบจำลองผลิตภัณฑ์ที่สามารถสร้างขึ้น  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

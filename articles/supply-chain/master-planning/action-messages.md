@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-messages"></a>ข้อความการดำเนินการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ข้อความเกี่ยวกับการดำเนินการเป็นคำแนะนำที่ระบบสร้างขึ้นเพื่อเปลี่ยนแปลงใบสั่งเติมสินค้าที่วางแผนไว้หรือมีการยืนยันแล้ว
 

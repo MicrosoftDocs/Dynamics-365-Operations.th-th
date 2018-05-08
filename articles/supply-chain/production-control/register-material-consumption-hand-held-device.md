@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>ลงทะเบียนปริมาณการใช้วัสดุโดยใช้อุปกรณ์เคลื่อนที่
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบาย ลำดับงานที่เปิดใช้งานการลงทะเบียนของปริมาณการใช้วัตถุดิบในการผลิต โดยใช้อุปกรณ์มือถือ
 

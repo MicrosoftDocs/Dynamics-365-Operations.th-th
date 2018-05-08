@@ -28,7 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>ตั้งค่าคอนฟิกบัญชีลูกหนี้และสินเชื่อและการเรียกเก็บเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ตั้งค่าคอนฟิกบัญชีลูกหนี้ และสินเชื่อ และการเรียกเก็บเงินเพื่อติดตามใบแจ้งหนี้และการชำระเงินที่มาจากลูกค้า
 

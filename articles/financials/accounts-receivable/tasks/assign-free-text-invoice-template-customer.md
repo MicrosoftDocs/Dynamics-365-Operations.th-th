@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 การทำงานนี้จะแสดงวิธีการกำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระให้กับลูกค้า  การทำงานนี้ใช้บริษัทสาธิต USMF และมีไว้สำหรับผู้ใช้ที่รับผิดชอบการจัดการและประมวลผลใบแจ้งหนี้ A/R
 

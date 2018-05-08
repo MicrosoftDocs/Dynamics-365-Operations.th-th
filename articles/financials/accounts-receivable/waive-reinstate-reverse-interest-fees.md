@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการยกเว้น กลับมาคิดใหม่ และกลับรายการค่าธรรมเนียมสำหรับดอกเบี้ยและค่าธรรมเนียม
 

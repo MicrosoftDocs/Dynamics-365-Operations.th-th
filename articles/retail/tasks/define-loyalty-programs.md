@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> กำหนดโปรแกรมตอบแทนลูกค้าสมาชิก
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้แสดงวิธีการตั้งค่าโปรแกรมตอบแทนลูกค้าสมาชิกที่มีระดับสมาชิกสองขั้น  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 

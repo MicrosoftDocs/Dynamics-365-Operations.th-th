@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>สร้างสายธารคุณค่า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 สตรีมค่าคือหน่วยปฏิบัติงาน ที่จัดกลุ่มขั้นตอนการผลิตหนึ่งหรือหลายรายการ  เมื่อต้องการกำหนดขั้นตอนการผลิต คุณต้องกำหนดการสตรีมค่าก่อนเป็นอย่างเเรก
 

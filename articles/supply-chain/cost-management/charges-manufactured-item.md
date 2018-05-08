@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-charges-for-a-manufactured-item"></a>แสดงค่าธรรมเนียมสำหรับสินค้าที่ผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ต้นทุนคงที่ของสินค้าที่ผลิตจะสะท้อนเวลาเซ็ตอัพของการดำเนินการและส่วนประกอบที่มีปริมาณคงที่หรือยอดของเสียแบบคงที่
 

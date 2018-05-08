@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>กำหนดกฎความครอบคลุมสำหรับสินค้า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF กระบวนการนี้แสดงวิธีการสร้างกฎความครอบคลุมและแทนที่การตั้งค่าความครอบคลุมสำหรับสินค้าเฉพาะ  และยังแสดงวิธีการระบุการตั้งค่าสินค้าคงคลังเริ่มต้น
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้จะแนะนำวิธีการนำผลิตภัณฑ์หรือผลิตภัณฑ์หลักออกไปสู่นิติบุคคลอย่างน้อยหนึ่งรายการ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์
 

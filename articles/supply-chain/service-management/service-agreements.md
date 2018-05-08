@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreements"></a>ข้อตกลงการให้บริการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ข้อตกลงการให้บริการอนุญาตให้คุณสามารถกำหนดทรัพยากรที่ใช้ในการให้บริการตามปกติ และวิธีการออกใบแจ้งหนี้ทรัพยากรดังกล่าวให้แก่ลูกค้า
 

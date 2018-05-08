@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>การชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แนะนำคุณผ่านสถานการณ์ที่ส่วนลดเงินสดจะใช้ใบลดหนี้เมื่อใบแจ้งหนี้เดิมยังมีส่วนลดเงินสด 
 

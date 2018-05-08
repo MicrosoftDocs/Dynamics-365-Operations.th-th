@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>การรับป้ายทะเบียนแบบผสม
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 การรับป้ายทะเบียนแบบผสมช่วยให้คุณสร้างป้ายทะเบียนที่ประกอบด้วยสินค้าหลายรายการ ก่อนที่คุณจะลงทะเบียนและสร้างงานสำรอง 
 

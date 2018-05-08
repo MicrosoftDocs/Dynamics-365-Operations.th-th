@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>การรวมรูปแบบมูลค่าสินทรัพย์ถาวรและสมุดบัญชีค่าเสื่อมราคา
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ในรุ่นก่อนหน้า มีแนวคิดการคิดมูลค่าสองรายการสำหรับสินทรัพย์ถาวร - รูปแบบมูลค่าและสมุดบัญชีค่าเสื่อมราคา ในการนำออกใช้ Microsoft Dynamics 365 for Operations (1611) ฟังก์ชันรูปแบบมูลค่าและฟังก์ชันสมุดบัญชีค่าเสื่อมราคาถูกรวมกันเป็นแนวคิดเดียวซึ่งเรียกว่าสมุดบัญชี
 

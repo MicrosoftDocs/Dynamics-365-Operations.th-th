@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>FAQ เกี่ยวกับการแปลที่เกี่ยวข้องกับผลิตภัณฑ์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการจัดการการแปลสำหรับผลิตภัณฑ์ ค่ามิติของผลิตภัณฑ์ และคุณลักษณะของผลิตภัณฑ์ 
 

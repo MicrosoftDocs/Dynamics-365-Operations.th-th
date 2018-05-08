@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>ตั้งค่าช่องทางศูนย์บริการ
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บริษัทสามารถกำหนดช่องทางศูนย์บริการต่างๆ ได้ใน Microsoft Dynamics 365 for Retail ช่องทางศูนย์บริการถูกตั้งค่าคอนฟิกที่ **การขายปลีก** \> **ช่องทาง** \> **ศูนย์บริการ** \> **ศูนย์บริการทั้งหมด** และเป็นแบบเฉพาะสำหรับนิติบุคคล
 

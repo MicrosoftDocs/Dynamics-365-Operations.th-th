@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-overview"></a>ภาพรวมการจัดการการขนส่ง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Microsoft Dynamics 365 for Finance and Operations
 

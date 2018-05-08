@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-time-and-attendance"></a>เวลาและการเข้างานการขายปลีก
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงสถานการณ์จำลองที่ได้รับการสนับสนุนสำหรับการจัดการเวลาและการเข้างานใน Microsoft Dynamics 365 for Retail 
 

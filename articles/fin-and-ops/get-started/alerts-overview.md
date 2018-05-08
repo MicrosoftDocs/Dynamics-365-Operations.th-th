@@ -26,9 +26,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="alerts-overview"></a>ภาพรวมของการแจ้งเตือน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>เกี่ยวกับข้อความแจ้งเตือน
 การแจ้งเตือนก่อตั้งระบบการแจ้งเตือนสำหรับเหตุการณ์สำคัญใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน คุณสามารถสร้างชุดกฎของตนเองได้อย่างง่ายดาย เพื่อให้ได้รับการแจ้งเตือนเกี่ยวกับการจัดส่งที่เกินกำหนด ใบสั่งที่ถูกลบ ราคาที่เปลี่ยนแปลง หรือเหตุการณ์อื่นๆ ที่คุณจำเป็นต้องตอบสนอง

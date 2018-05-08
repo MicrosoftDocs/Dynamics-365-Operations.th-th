@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="merge-inventory-batches"></a>ผสานชุดงานสินค้าคงคลัง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการรวมบัญชีสองชุดงานสินค้าคงคลังขึ้นไปไปยังชุดงานแบบผสาน
 

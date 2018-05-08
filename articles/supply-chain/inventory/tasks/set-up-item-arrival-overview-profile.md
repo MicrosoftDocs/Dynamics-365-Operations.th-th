@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>ตั้งค่าโพรไฟล์ภาพรวมของการมาถึงของสินค้า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้มุ่งเน้นการตั้งค่าโพรไฟล์ภาพรวมการมาถึง  โพรไฟล์ภาพรวมการมาถึงคือ ชุดของกฎที่จะใช้เมื่อผู้ใช้มีการเปิดหน้าภาพรวมของการมาถึง คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปจะดำเนินการโดยเจ้าหน้าที่รับสินค้า
 

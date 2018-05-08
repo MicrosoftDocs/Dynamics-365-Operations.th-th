@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-transportation-tender"></a>ตั้งค่าวิธีการชำระเงินการขนส่ง
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าวิธีการชำระเงินการขนส่ง  ซึ่งปกติจะดำเนินการโดยผู้ประสานงานการขนส่ง  คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>จัดการสินค้าคงคลังของร้านค้า
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้อธิบายถึงชนิดของเอกสารที่คุณสามารถใช้เพื่อจัดการสินค้าคงคลังได้
 

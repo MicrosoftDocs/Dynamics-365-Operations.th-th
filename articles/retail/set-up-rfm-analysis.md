@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>ตั้งค่าการวิเคราะห์ RFM
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าการวิเคราะห์ระยะเวลา ความถี่ และเงิน (RFM) ของลูกค้าของคุณ 
 

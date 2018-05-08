@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>ชนิดสมุดรายวันบัญชีแยกประเภท
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงชนิดของสมุดรายวันที่คุณสามารถตั้งค่าสำหรับสมุดรายวันทางการเงิน  ใช้หน้า **ชื่อสมุดรายวัน** เพื่อตั้งค่าสมุดรายวันที่คุณสามารถใช้ทั่วทั้ง Microsoft Dynamics 365 for Finance and Operations
 

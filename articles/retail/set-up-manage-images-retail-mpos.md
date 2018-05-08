@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>ตั้งค่าและจัดการรูปภาพสำหรับ Modern POS ของการขายปลีก
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้อธิบายขั้นตอนที่เกี่ยวข้องในการตั้งค่า และการจัดการรูปภาพสำหรับหน่วยงานต่างๆ ที่ปรากฏขึ้นใน Modern POS ของการขายปลีก (MPOS)
 

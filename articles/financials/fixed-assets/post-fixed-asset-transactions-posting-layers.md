@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>ลงรายการบัญชีธุรกรรมสินทรัพย์ถาวรที่ชั้นของการลงรายการบัญชี
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้ให้ภาพรวมของฟังก์ชันชั้นของการลงรายการบัญชีสำหรับธุรกรรมสินทรัพย์ถาวร
 

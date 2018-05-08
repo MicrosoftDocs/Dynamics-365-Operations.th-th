@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 หน้าต่างใบสำคัญที่เกี่ยวข้องแสดงใบสำคัญจากบริษัทตรงข้าม เมื่อมีการลงรายการบัญชีธุรกรรมระหว่างบริษัทจากสมุดรายวันทั่วไป
 

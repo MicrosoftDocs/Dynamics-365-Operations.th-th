@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>หน่วยการวัดและนโยบายการเก็บสต็อก
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีใช้หน่วยเริ่มต้น ลำดับหน่วย และการแปลงหน่วยในกระบวนการคลังสินค้า
 

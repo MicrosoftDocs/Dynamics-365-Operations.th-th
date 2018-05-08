@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-output-location"></a>ที่ตั้งเอาท์พุทการผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงลำดับชั้นที่ใช้ในการระบุที่ตั้งเอาท์พุทการผลิต
 

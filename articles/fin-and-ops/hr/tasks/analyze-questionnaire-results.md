@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="analyze-questionnaire-results"></a>วิเคราะห์ผลลัพธ์ของแบบสอบถาม
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 สถิติแบบสอบถามสามารถใช้ในการคำนวณค่าเฉลี่ย ยอดรวม และเปอร์เซ็นต์ ที่ขึ้นอยู่กับชุดของข้อมูลทางประชากรศาสตร์  เริ่มต้นขั้นตอนนี้โดยไปที่แบบสอบถาม > ดูและวิเคราะห์ผลลัพธ์ > สถิติแบบสอบถาม  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

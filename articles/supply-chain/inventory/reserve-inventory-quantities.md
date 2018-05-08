@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>จองปริมาณสินค้าคงคลัง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง
 

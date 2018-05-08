@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>การสร้างวัตถุที่ให้บริการ  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
    
 ออบเจ็กต์บริการคือสินทรัพย์ของลูกค้าและผลิตภัณฑ์ที่คุณสามารถใช้ดำเนินการให้บริการได้  
 

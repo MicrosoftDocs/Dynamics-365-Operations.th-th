@@ -28,7 +28,7 @@ ms.lasthandoff: 11/20/2017
 
 # <a name="personalize-the-user-experience"></a>ตั้งค่าประสบการณ์ผู้ใช้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถกำหนด Microsoft Dynamics 365 for Finance and Operations ให้เป็นส่วนตัวได้
 

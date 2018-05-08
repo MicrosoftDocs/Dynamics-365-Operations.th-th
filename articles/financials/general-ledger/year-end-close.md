@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="year-end-close"></a>การปิดบัญชีสิ้นปี
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงการตั้งค่าที่จำเป็นและขั้นตอนสำหรับการรันกระบวนการปิดเมื่อสิ้นสุดปีของบัญชีแยกประเภททั่วไป 
 
