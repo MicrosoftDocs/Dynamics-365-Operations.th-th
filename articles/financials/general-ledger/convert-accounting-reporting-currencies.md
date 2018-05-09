@@ -18,16 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f05020dfde0b985faf3a6b9dc72f94a6d87e7968
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="8a186-103">แปลงบัญชีหรือการรายงานสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="8a186-103">Convert accounting or reporting currencies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8a186-104">บริษัทที่ต้องเปลี่ยนแปลงสกุลเงินทางบัญชีหรือการรายงานสกุลเงินจะมีสองตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="8a186-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="8a186-105">ตัวเลือกแรก เพื่อสร้างบริษัทใหม่และเริ่มต้นใหม่</span><span class="sxs-lookup"><span data-stu-id="8a186-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="8a186-106">ตัวเลือกที่สอง คือการรันการลงบัญชีและกระบวนการรายงานการแปลงสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="8a186-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="8a186-107">นี่เป็นกระบวนการที่รันเป็นเวลานานมากซึ่งจะเปลี่ยนธุรกรรมทั้งหมดในระบบ</span><span class="sxs-lookup"><span data-stu-id="8a186-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="8a186-108">การตั้งค่าบางรายการจำเป็นต้องทำก่อนที่กระบวนการจะถูกรัน</span><span class="sxs-lookup"><span data-stu-id="8a186-108">Some setup is also required before the process can be run.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b8f3961e17ba381a75de448c85335abb026c0c53
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3bccfcaad529f35dc28048bacbe08e298d4c459
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-legal-entity"></a><span data-ttu-id="97fac-103">สร้างนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="97fac-103">Create a legal entity</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="97fac-104">นิติบุคคลเป็นองค์กรที่ได้รับการระบุผ่านการลงทะเบียนกับหน่วยงานทางกฎหมาย </span><span class="sxs-lookup"><span data-stu-id="97fac-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="97fac-105">นิติบุคคลที่สามารถป้อนลงในสัญญา และจำเป็นต้องใช้เพื่อจัดเตรียมรายงานที่รายงานเกี่ยวกับประสิทธิภาพการทำงานของตน</span><span class="sxs-lookup"><span data-stu-id="97fac-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="97fac-106">กระบวนงานต่อไปนี้อธิบายวิธีสร้างนิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="97fac-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="97fac-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="97fac-107">The demo data company used to create this procedure is USMF.</span></span>
 

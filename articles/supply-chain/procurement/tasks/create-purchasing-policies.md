@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 713e02b6537da0d72b34e796d81ad32a6cb74bc3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dd5a62dc1459f1768104eeaea3e71780431e8e79
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-purchasing-policies"></a><span data-ttu-id="a2ba0-103">สร้างนโยบายการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="a2ba0-103">Create purchasing policies</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a2ba0-104">กระบวนงานนี้แสดงวิธีการสร้างนโยบายการจัดซื้อเพื่อให้สอดคล้องกับกระบวนการทางธุรกิจสำหรับการซื้อ </span><span class="sxs-lookup"><span data-stu-id="a2ba0-104">This procedure shows you how to create purchasing policies to align with your business processes for purchasing.</span></span> <span data-ttu-id="a2ba0-105">ก่อนที่คุณจะสามารถสร้างนโยบายการจัดซื้อ คุณจะต้องตั้งค่าพารามิเตอร์นโยบายการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="a2ba0-105">Before you can create purchasing policies, you must set up the purchasing policy parameters.</span></span> <span data-ttu-id="a2ba0-106">สามารถสร้าง ปรับเปลี่ยน และถอนนโยบายการจัดซื้อได้ แต่คุณไม่สามารถลบนโยบายการจัดซื้อได้</span><span class="sxs-lookup"><span data-stu-id="a2ba0-106">It’s possible to create, modify, and retire a purchasing policy, but you can’t delete a purchasing policy.</span></span> <span data-ttu-id="a2ba0-107">โดยทั่วไปกระบวนงานนี้จะดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="a2ba0-107">This procedure would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="a2ba0-108">คุณสามารถใช้ขั้นตอนนี้ในข้อมูลสาธิตบริษัท USMF หรือข้อมูลของคุณเอง </span><span class="sxs-lookup"><span data-stu-id="a2ba0-108">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

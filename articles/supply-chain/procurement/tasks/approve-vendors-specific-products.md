@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9bc32f4453deb028781514fd3b97602d07771402
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a6db8ab41ab393cc92b4fea0435608eff110d58b
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="approve-vendors-for-specific-products"></a><span data-ttu-id="ac997-103">อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="ac997-103">Approve vendors for specific products</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ac997-104">กระบวนงานนี้แสดงวิธีการอนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ </span><span class="sxs-lookup"><span data-stu-id="ac997-104">This procedure shows you how to approve vendors for specific products.</span></span> <span data-ttu-id="ac997-105">ซึ่งจะช่วยให้คุณสามารถควบคุมว่าสามารถใช้ผู้จัดจำหน่ายใดเมื่อมีการเพิ่มผลิตภัณฑ์ลงในใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="ac997-105">This allows you to control which vendors can be used when the product is added to a purchase order.</span></span> <span data-ttu-id="ac997-106">คุณสามารถใช้กระบวนงานนี้ในข้อมูลสาธิตของบริษัท USMF หรือข้อมูลของคุณเอง ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="ac997-106">You can use this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="ac997-107">โดยทั่วไป งานนี้จะถูกดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="ac997-107">This task would typically be carried out by a Purchasing manager.</span></span>
 

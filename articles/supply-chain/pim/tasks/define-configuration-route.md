@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 26fb7dc7113411bb5117476ddfa02ae9d81cf287
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 945c83a72fc640d0eed0cd8ba14a701bffe1acd8
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-configuration-routes"></a><span data-ttu-id="1cb15-103">กำหนดเส้นทางการปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="1cb15-103">Define configuration routes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1cb15-104">ขั้นตอนนี้มุ่งเน้นการกำหนดกระบวนการผลิตที่ปรับเปลี่ยนได้ที่กำหนดลำดับสำหรับกลุ่มการปรับเปลี่ยนที่จะนำเสนอ </span><span class="sxs-lookup"><span data-stu-id="1cb15-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="1cb15-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="1cb15-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1cb15-106">นี่เป็นกระบวนงานที่หกจากแปดกระบวนงาน ที่อธิบายวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="1cb15-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 

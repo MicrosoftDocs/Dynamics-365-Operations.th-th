@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d63b4885d918418549ad4c3fd3139810f0cc8066
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a><span data-ttu-id="26d18-103">ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ด้วยรูปภาพที่ฝัง</span><span class="sxs-lookup"><span data-stu-id="26d18-103">Design configurations to generate reports in Microsoft Office formats with embedded images</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="26d18-104">เพื่อทำตามขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำกระบวนงาน “ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งาน”</span><span class="sxs-lookup"><span data-stu-id="26d18-104">To complete the steps in this procedure, first complete the procedure, “ER Create a configuration provider and mark it as active.”</span></span> <span data-ttu-id="26d18-105">กระบวนงานนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสาร Microsoft Excel หรือ Word ที่ประกอบด้วยรูปภาพที่ฝังอยู่</span><span class="sxs-lookup"><span data-stu-id="26d18-105">This procedure explains how to design Electronic reporting (ER) configurations to generate a Microsoft Excel or Word document that contains embedded images.</span></span> <span data-ttu-id="26d18-106">ในกระบวนงานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, inc สามารถดำเนินขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูล USMF</span><span class="sxs-lookup"><span data-stu-id="26d18-106">In this procedure, you will create the required ER configurations for the sample company, Litware, Inc. These steps can be completed using the USMF dataset.</span></span> <span data-ttu-id="26d18-107">กระบวนงานนี้ถูกสร้างขึ้นสำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="26d18-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="26d18-108">ก่อนที่คุณจะเริ่มต้น ดาวน์โหลดและบันทึกแฟ้มที่แสดงรายการอยู่ในหัวข้อวิธีใช้ [รูปและรูปร่างที่ฝังอยู่ในเอกสารทางธุรกิจที่ถูกสร้างขึ้นโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../electronic-reporting-embed-images-shapes.md)</span><span class="sxs-lookup"><span data-stu-id="26d18-108">Before you begin, download and save the files listed in the Help topic, [Embed images and shapes in business documents that are generated with the Electronic reporting tool](../electronic-reporting-embed-images-shapes.md).</span></span> <span data-ttu-id="26d18-109">แฟ้มคือ: แบบจำลองสำหรับเช็ค.xml รูปแบบการพิมพ์เช็ค.xml โลโก้.png โลโก้บริษัท.png รูปภาพลายเซ็น.png รูปภาพลายเซ็น 2.png และ Word เท็มเพลตของเช็ค.docx</span><span class="sxs-lookup"><span data-stu-id="26d18-109">The files are: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, and Cheque template Word.docx.</span></span>
 

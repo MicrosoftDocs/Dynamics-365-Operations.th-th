@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c035f73fb35c6390be3c665c2645b1fdc411650
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a><span data-ttu-id="be557-103">การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก</span><span class="sxs-lookup"><span data-stu-id="be557-103">Vendor collaboration with external vendors</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="be557-104">โมดูล **การทำงานร่วมกันกับผู้จัดจำหน่าย** มีเป้าหมายที่ผู้จัดจำหน่ายที่ไม่มีการรวมการแลกเปลี่ยนข้อมูลอิเล็กทรอนิกส์ (EDI) กับ Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="be557-104">The **Vendor collaboration** module is targeted at vendors who don't have electronic data interchange (EDI) integration with Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="be557-105">จะอนุญาตให้ผู้จัดจำหน่ายสามารถทำงานกับใบสั่งซื้อ (POs) ใบแจ้งหนี้ ข้อมูลสินค้าคงคลังที่มีการส่งมอบ และคำขอใบเสนอราคา (RFQs) และยังช่วยให้สามารถเข้าถึงส่วนต่างๆ ของข้อมูลหลักของผู้จัดจำหน่ายได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="be557-105">It lets vendors work with purchase orders (POs), invoices, consignment inventory information, and requests for quotation (RFQs), and also lets them access parts of their vendor master data.</span></span> <span data-ttu-id="be557-106">หัวข้อนี้อธิบายวิธีที่คุณสามารถทำงานร่วมกันกับผู้จัดจำหน่ายภายนอกที่ใช้อินเทอร์เฟสการทำงานร่วมกันกับผู้จัดจำหน่าย เพื่อทำงานกับ PO RFQs และสินค้าคงคลังที่มีการส่งมอบ</span><span class="sxs-lookup"><span data-stu-id="be557-106">This topic explains how you can collaborate with external vendors who use the vendor collaboration interface to work with POs, RFQs, and consignment inventory.</span></span> <span data-ttu-id="be557-107">นอกจากนี้ ยังจะอธิบายวิธีการเปิดใช้งานผู้จัดจำหน่ายเฉพาะให้สามารถใช้การทำงานร่วมกันกับผู้จัดจำหน่าย และวิธีการกำหนดข้อมูลที่ผู้จัดจำหน่ายทั้งหมดจะเห็น เมื่อตอบสนอง PO</span><span class="sxs-lookup"><span data-stu-id="be557-107">It also explains how to enable a specific vendor to use vendor collaboration, and how to define the information that all vendors see when they respond to a PO.</span></span>
 

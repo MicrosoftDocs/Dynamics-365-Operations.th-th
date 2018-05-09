@@ -19,15 +19,15 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66e4be092a7728f061cb9b09157712ffcf37c923
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5568482424f5afca6773fa66ca43691bcd1e95e2
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="8532c-103">ภาพรวมการจัดการการลางานและการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="8532c-103">Leave and absence management overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="8532c-104">โมดูล **การจัดการการลางานและการขาดงาน** มีกรอบงานแบบยืดหยุ่นสำหรับการกำหนดกระบวนการจัดการการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="8532c-104">The **Leave and absence management** module offers a flexible framework for defining the absence management process.</span></span> <span data-ttu-id="8532c-105">คุณสามารถสร้างแผนการลางานและการขาดงานเพื่อกำหนดการลาหยุดที่คงค้างหรืออนุญาตให้ลาหยุดของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="8532c-105">Leave and absence plans can be created to determine how employees accrue or are granted time off.</span></span> <span data-ttu-id="8532c-106">หลังจากที่พนักงานลงทะเบียนในแผน พวกเขาสามารถส่งคำขอเวลาหยุดพักเพื่อขออนุมัติโดยผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="8532c-106">After employees are enrolled in a plan, they can submit time-off requests for approval by managers.</span></span> <span data-ttu-id="8532c-107">การติดตามการลางานให้ทั้งผู้จัดการระดับต้นและผู้จัดการฝ่ายทรัพยากรบุคคล (HR) สามารถดูว่าบุคคลใดบ้างที่ลาหยุด และจำนวนการลาหยุดที่พวกเขาเหลืออยู่</span><span class="sxs-lookup"><span data-stu-id="8532c-107">Leave tracking lets both first-level managers and Human Resources (HR) managers see who is taking time off and how much time off each employee still has.</span></span>  
 

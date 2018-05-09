@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9da0adc848f334e5044c1629a403b6daac2dc639
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb8477eba19b536c77296f235fc93280b9982518
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a><span data-ttu-id="dfea6-103">ออกแบบการตั้งค่าคอนฟิกเพื่อแยกวิเคราะห์เอกสารขาเข้าสำหรับการอัพเดตข้อมูลแอพลิเคชัน (ER)</span><span class="sxs-lookup"><span data-stu-id="dfea6-103">Design configurations to parse incoming documents for application data updates (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dfea6-104">กระบวนงานนี้แสดงวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อแยกวิเคราะห์เอกสารอิเล็กทรอนิกส์ขาเข้า</span><span class="sxs-lookup"><span data-stu-id="dfea6-104">This procedure shows how to design Electronic reporting (ER) configurations to parse an incoming electronic document.</span></span> <span data-ttu-id="dfea6-105">ในกระบวนงานนี้ คุณจะนำเข้าการตั้งค่าคอนฟิก ER ที่กำหนดซึ่งได้ถูกสร้างขึ้นสำหรับบริษัทตัวอย่าง Litware, Inc. และใช้ในการแยกวิเคราะห์เอกสารทางอิเล็กทรอนิกส์ขาเข้า</span><span class="sxs-lookup"><span data-stu-id="dfea6-105">In this procedure, you will import the required ER configurations that have been created for the sample company, Litware, Inc. and use them for parsing incoming electronic documents.</span></span> <span data-ttu-id="dfea6-106">เพื่อทำขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำกระบวนงานให้เสร็จสมบูรณ์ "ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่"</span><span class="sxs-lookup"><span data-stu-id="dfea6-106">To complete the steps in this procedure, you must first complete the procedure, “ER Create a configuration provider and mark it as active.”</span></span>
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b9e73f1dec1bc36431227e165d86b7ce052af3be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dd703d5c0d35b592ebd1b8fda80e0eeed4185ce1
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reuse-product-configurations"></a><span data-ttu-id="4ac16-105">นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่</span><span class="sxs-lookup"><span data-stu-id="4ac16-105">Reuse product configurations</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4ac16-106">คุณสามารถระบุว่าคุณต้องการนำการตั้งค่าคอนฟิกที่มีอยู่กลับมาใช้ใหม่โดยอัตโนมัติสำหรับผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="4ac16-106">You can specify that you want to automatically reuse an existing configuration for a product.</span></span> <span data-ttu-id="4ac16-107">จากนั้น เมื่อผู้ใช้ดำเนินการรอบเวลาการตั้งค่าคอนฟิกเสร็จสมบูรณ์แล้ว ระบบจะตรวจสอบว่ามีการตั้งค่าคอนฟิกที่สอดคล้องกับการเลือกของผู้ใช้อยู่แล้วหรือไม่</span><span class="sxs-lookup"><span data-stu-id="4ac16-107">Then, when a user has completed a configuration session, the system verifies whether a configuration that matches the user’s selections already exists.</span></span> <span data-ttu-id="4ac16-108">ถ้าพบการตั้งค่าคอนฟิกที่ตรงกัน รหัสการตั้งค่าคอนฟิก ใบตราส่ง (BOM) ที่สอดคล้องกัน และกระบวนการผลิตจะถูกนำกลับมาใช้ใหม่</span><span class="sxs-lookup"><span data-stu-id="4ac16-108">If a matching configuration is found, the configuration ID, corresponding bill of materials (BOM), and route are reused.</span></span>
 

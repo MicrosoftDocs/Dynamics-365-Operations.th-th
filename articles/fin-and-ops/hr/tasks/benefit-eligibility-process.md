@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5a3be54d336b5a0e4e85844307c3c7d60c1aef69
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e98d48fc31a9dfd4959e88f31e00317afbfeb8c1
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="benefit-eligibility-process"></a><span data-ttu-id="43b52-103">กระบวนการการมีสิทธิ์ในสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="43b52-103">Benefit eligibility process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="43b52-104">กระบวนงานนี้แสดงว่ากระบวนงานการมีสิทธิ์ในสวัสดิการทำงานอย่างไร </span><span class="sxs-lookup"><span data-stu-id="43b52-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="43b52-105">เมื่อกระบวนการเสร็จสมบูรณ์ คุณสามารถดูผลลัพธ์ </span><span class="sxs-lookup"><span data-stu-id="43b52-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="43b52-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="43b52-106">The demo data company used to create this procedure is USMF.</span></span>
 

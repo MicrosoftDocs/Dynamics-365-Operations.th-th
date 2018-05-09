@@ -19,16 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aa80976e539e88af8b157257d043d410ede49e8d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0148bd65bad2b5c947287d18289c08c7ef7f476f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="posting-definitions"></a><span data-ttu-id="df6ab-104">ข้อกำหนดการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="df6ab-104">Posting definitions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="df6ab-105">บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการลงรายการบัญชี และวิธีการกำหนดการเชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="df6ab-105">This article provides information about posting definitions, and how to define and link them.</span></span> <span data-ttu-id="df6ab-106">สำหรับการสนับสนุนชนิดการลงรายการบัญชี และเอกสาร คุณสามารถใช้ข้อกำหนดการลงรายการบัญชีแทนโพรไฟล์การลงรายการบัญชีเพื่อจัดประเภทบัญชีหลัก และมิติทางการเงินบนรายการการบัญชี</span><span class="sxs-lookup"><span data-stu-id="df6ab-106">For supported posting types and documents, you can use posting definitions instead of posting profiles to classify main accounts and financial dimensions on accounting entries.</span></span>
 

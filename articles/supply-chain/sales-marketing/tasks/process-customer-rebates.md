@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8278a57271314104c36b074c7a7ee422751f2c19
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5c2235fd8a1d495f0321a84fd63b98f699da34de
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="b9302-103">สร้างและประมวลผลเงินคืนของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="b9302-103">Generate and process customer rebates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b9302-104">ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้ </span><span class="sxs-lookup"><span data-stu-id="b9302-104">This procedure demonstrates how to process customer rebates from claim generation to the point of passing them as accruals to Accounts receivable.</span></span> <span data-ttu-id="b9302-105">ซึ่งแนะนำคุณได้โดยใช้ตัวอย่างการเฉพาะเพื่ออธิบายว่า เงื่อนไขต่าง ๆ บนรายการเงินคืนส่งผลกระทบยอดเงินสุดท้ายที่จะถูกเครดิตไปยังลูกค้า</span><span class="sxs-lookup"><span data-stu-id="b9302-105">It walks you through a specific example to explain how the various conditions on the rebate lines affect the final amounts that will be credited to the customer.</span></span> <span data-ttu-id="b9302-106">คุณจำเป็นต้องใช้ข้อมูลสาธิตบริษัท USMF และดำเนินการงานต่อไปนี้ก่อนที่คุณจะเริ่มคำแนะนำ: (1) ไปยังหน้าพารามิเตอร์บัญชีลูกหนี้ และขยายแท็บราคา และแท็บรายละเอียดราคา และตรวจสอบว่าตัวเลือกรายละเอียดราคาเปิดใช้งานถูกตั้งค่าเป็น ใช่</span><span class="sxs-lookup"><span data-stu-id="b9302-106">You need to use the USMF demo data company, and carry out the following tasks before you start the guide: (1) Go to the Accounts receivable parameters page, and expand the Prices tab and then the Price details tab, and check that the Enable price details option is set to Yes.</span></span> <span data-ttu-id="b9302-107">(2) ไปยัง หน้าข้อตกลงเงินคืน และเลือกข้อตกลงเงินคืนของลูกค้า: USMF-000001</span><span class="sxs-lookup"><span data-stu-id="b9302-107">(2) Go to the Rebate agreements page and select the customer rebate agreement: USMF-000001.</span></span> <span data-ttu-id="b9302-108">ถ้าฟิลด์สถานะการอนุมัติลำดับงานไม่ถูกตั้งค่าเป็นอนุมัติแล้ว คุณจำเป็นต้องคลิกการตรวจสอบความถูกต้องบนบานหน้าต่างการดำเนินงานเพื่ออนุมัติ</span><span class="sxs-lookup"><span data-stu-id="b9302-108">If the Workflow approval status field is not set to Approved, you need click Validation on the Action pane to approve it.</span></span>
 

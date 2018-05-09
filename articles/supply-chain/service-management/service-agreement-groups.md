@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6440bae664e4eac6643e480dbf60191fb0050375
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5da697d4a6765f7a7ab13284b90a93e596af0559
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-agreement-groups"></a><span data-ttu-id="aa288-103">กลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="aa288-103">Service agreement groups</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa288-104">กลุ่มข้อตกลงการให้บริการมีประโยชน์สำหรับการเรียงลำดับและการกรองข้อมูลข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="aa288-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span> <span data-ttu-id="aa288-105">ใช้กลุ่มข้อตกลงการให้บริการเพื่อจัดกลุ่มข้อตกลงการให้บริการ ตัวอย่างเช่น ขนาดของบริษัท ที่ตั้งทางภูมิศาสตร์ หรือชนิดอุตสาหกรรม</span><span class="sxs-lookup"><span data-stu-id="aa288-105">Use service agreement groups to group service agreements by, for example, company size, geographical location, or industry type.</span></span> <span data-ttu-id="aa288-106">หรือคุณสามารถใช้กลุ่มข้อตกลงเพื่อจัดกลุ่มข้อตกลงการให้บริการตามระดับของการบริการที่นำเสนอให้แก่ลูกค้าก็ได้</span><span class="sxs-lookup"><span data-stu-id="aa288-106">Alternatively, you can use agreement groups to group service agreements by the level of service offered to a customer.</span></span>
 

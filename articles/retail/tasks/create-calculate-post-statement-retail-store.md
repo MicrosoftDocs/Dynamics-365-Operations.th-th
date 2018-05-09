@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9f9888d04f4e2419de9d4a6857a81ae40f6f21a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 08a8f937f63b93ad15e489dbc53468af6e3827b4
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="fbf5c-103"> สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="fbf5c-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fbf5c-104">กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง </span><span class="sxs-lookup"><span data-stu-id="fbf5c-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="fbf5c-105">อีกทั้งยังมีชุดงานที่สามารถตั้งค่าคอนฟิกสำหรับงานเดียวกัน </span><span class="sxs-lookup"><span data-stu-id="fbf5c-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="fbf5c-106">คุณจะพบขั้นตอนสำหรับการตั้งค่าคอนฟิกและการรันชุดงานในหัวข้ออื่น </span><span class="sxs-lookup"><span data-stu-id="fbf5c-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="fbf5c-107">การทำงานนี้ให้สำเร็จ คุณต้องมีธุรกรรมที่เสร็จสมบูรณ์ใน POS และจากนั้นดึงมาไว้ใน Dynamics AX </span><span class="sxs-lookup"><span data-stu-id="fbf5c-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="fbf5c-108">การบันทึกข้อมูลนี้ใช้บริษัท USRT ในข้อมูลสาธิต </span><span class="sxs-lookup"><span data-stu-id="fbf5c-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="fbf5c-109">กระบวนงานนี้อาจอ้างถึง Microsoft Dynamics AX </span><span class="sxs-lookup"><span data-stu-id="fbf5c-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="fbf5c-110">โปรดทราบว่าปัจจุบัน Dynamics AX เรียกว่า Microsoft Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="fbf5c-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 

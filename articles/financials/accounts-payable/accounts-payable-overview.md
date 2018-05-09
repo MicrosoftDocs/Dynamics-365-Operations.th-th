@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591c71cccc5ec5f00734bef21dc9551325432020
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f8437797f107ca00ca642e56330d58eeeb00ed0f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-accounts-payable"></a><span data-ttu-id="f6e24-104">ตั้งค่าคอนฟิกบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="f6e24-104">Configure Accounts payable</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f6e24-105">บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="f6e24-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="f6e24-106">นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="f6e24-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
 

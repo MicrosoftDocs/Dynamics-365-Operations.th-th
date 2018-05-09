@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5839962a5a3be5d7836c74fc8476ceafa414d48c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30d91d2ffab74250b3a8a46d7b7c5441a94d8dfd
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="01f24-103">ตั้งค่าสิทธิ์สำหรับการสั่งซื้อสินค้าในนามของผู้อื่น</span><span class="sxs-lookup"><span data-stu-id="01f24-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="01f24-104">กระบวนงานนี้แสดงวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการจัดเตรียมใบขอซื้อในนามของผู้ปฏิบัติงานอื่น ๆ </span><span class="sxs-lookup"><span data-stu-id="01f24-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="01f24-105">กล่าวคือ "ผู้จัดเตรียม" ใบขอซื้อสามารถสร้างใบขอซื้อสำหรับ "ผู้ขอ" อื่น </span><span class="sxs-lookup"><span data-stu-id="01f24-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="01f24-106">กระบวนงานนี้ยังแสดงวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการสั่งซื้อสินค้าและบริการในนิติบุคคลหรือหน่วยปฏิบัติงานอื่น </span><span class="sxs-lookup"><span data-stu-id="01f24-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="01f24-107">โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="01f24-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="01f24-108">คุณสามารถใช้กระบวนงานนี้ในข้อมูลสำหรับบริษัทสาธิต USMF หรือข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="01f24-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 

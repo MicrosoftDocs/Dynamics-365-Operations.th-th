@@ -20,16 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b5f991c9edc1a8680a7f2f79ff46678c625f7a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b2799ab1fce629993360c75ff7cfbb308dbd24ed
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-bar-code-masks"></a><span data-ttu-id="4783b-103">ตั้งค่าตัวพรางบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="4783b-103">Set up bar code masks</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="4783b-104">หัวข้อนี้อธิบายวิธีการตั้งค่าอักขระตัวพรางบาร์โค้ด ตัวพรางบาร์โค้ด และวิธีการกำหนดตัวพรางบาร์โค้ดให้กับบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="4783b-104">This topic describes how to set up bar code mask characters, bar code masks, and how to assign bar code masks to bar codes.</span></span>
 

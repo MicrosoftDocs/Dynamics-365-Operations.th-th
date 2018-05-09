@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dc014e499d5705b8ad72bc502969a6102d89ae36
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="ee617-103">ตั้งค่ารหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="ee617-103">Set up dispositions codes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ee617-104">ขั้นตอนนี้มุ่งเน้นการตั้งค่ารหัสการโอนการครอบครองที่สามารถใช้บนอุปกรณ์เคลื่อนที่สำหรับกระบวนการการได้รับสินค้าส่งคืนที่ </span><span class="sxs-lookup"><span data-stu-id="ee617-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="ee617-105">รหัสการโอนการครอบครองคือชุดของกฎที่สามารถใช้เมื่อได้รับสินค้า</span><span class="sxs-lookup"><span data-stu-id="ee617-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="ee617-106">ตัวอย่างเช่น เมื่อผู้ใช้งานใช้อุปกรณ์เคลื่อนที่ในการรับสินค้าที่ได้รับความเสียหาย ผู้ใช้ต้องสแกนรหัสการโอนการครอบครองสำหรับสินค้าที่เสียหาย</span><span class="sxs-lookup"><span data-stu-id="ee617-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="ee617-107">สถานะสินค้าคงคลังของสินค้าที่ได้รับ เท็มเพลตงาน และคำสั่งสถานที่สามารถกำหนดได้จากรหัสการโอนการครอบครองที่สแกน</span><span class="sxs-lookup"><span data-stu-id="ee617-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="ee617-108">สำหรับกระบวนการรับใบสั่งซื้อและใบสั่งผลิตรายงานเป็นกระบวนการที่เสร็จสิ้นแล้ว การใช้รหัสการโอนการครอบครองเป็นเพียงตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ee617-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="ee617-109">สำหรับกระบวนการรับการส่งคืนใบสั่งขาย ถ้าสินค้ามีการลงทะเบียนโดยใช้อุปกรณ์เคลื่อนที่ การใช้รหัสการโอนการครอบครองจะเป็นข้อบังคับ</span><span class="sxs-lookup"><span data-stu-id="ee617-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="ee617-110">คำแนะนำนี้ถูกสร้างโดยใช้ข้อมูลสาธิตของบริษัท USMF </span><span class="sxs-lookup"><span data-stu-id="ee617-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="ee617-111">ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="ee617-111">This procedure is intended for the warehouse manager.</span></span> 
 

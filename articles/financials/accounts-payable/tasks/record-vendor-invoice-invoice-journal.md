@@ -16,15 +16,15 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 470ec0275fed46f48b072f85e6058bf35afc6d16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 26515140b020d824f99441b9f1ee560a44e28f8f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="dd538-103">บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายในสมุดรายวันใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="dd538-103">Record a vendor invoice in the invoice journal</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dd538-104">คู่มือของงานนี้จะแสดงวิธีการบันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายที่ไม่ได้เชื่อมโยงกับใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="dd538-104">This task guide will show how to record vendor invoices that are not associated with purchase orders.</span></span> <span data-ttu-id="dd538-105">ตัวอย่างของใบแจ้งหนี้ชนิดนี้รวมถึงค่าใช้จ่ายสำหรับวัตถุดิบหรือบริการ </span><span class="sxs-lookup"><span data-stu-id="dd538-105">Examples of this type of invoice include expenses for supplies or services.</span></span>  <span data-ttu-id="dd538-106">การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="dd538-106">This recording uses the USMF demo company.</span></span>
 

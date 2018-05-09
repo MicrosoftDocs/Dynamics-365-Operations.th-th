@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2831231c057588e8e5131574b9f6945ac87f2354
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 557500d8db305472cccb2982d0cee1d379ad03e4
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a><span data-ttu-id="b0d2e-103">คำนวณใหม่ของต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับกลุ่มสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="b0d2e-103">Recalculate replacement costs and insured values for fixed asset groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b0d2e-104">บทความนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="b0d2e-104">This article explains the process to update the replacement costs and insured values for fixed assets.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c8af5d3343bf8376dfec5a41cd03e1325b10b978
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 510775079fc5193e243eb251396d79433ce37f4b
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning"></a><span data-ttu-id="4a5eb-105">การวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="4a5eb-105">Budget planning</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a5eb-106">วัตถุประสงค์ของห้องปฏิบัติการนี้คือ แสดงมุมมองที่แนะนำของการอัพเดตฟังก์ชันของ Microsoft Dynamics 365 for Finance and Operations ในพื้นที่การวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="4a5eb-106">The objective of this lab is to provide a guided view of Microsoft Dynamics 365 for Finance and Operations functionality updates in Budget planning area.</span></span> <span data-ttu-id="4a5eb-107">จุดประสงค์ของห้องปฏิบัติการนี้คือแสดงตัวอย่างการตั้งค่าคอนฟิกด่วนของโมดูลการวางแผนงบประมาณ และแสดงวิธีวางแผนงบประมาณให้สำเร็จโดยใช้การตั้งค่าคอนฟิกนี้</span><span class="sxs-lookup"><span data-stu-id="4a5eb-107">The intent of this lab is to illustrate a quick configuration example of budget planning module and showcase how budget planning can be accomplished using this configuration.</span></span>  <span data-ttu-id="4a5eb-108">ห้องปฏิบัติการนี้จะเน้นเฉพาะกระบวนการทางธุรกิจหรืองานต่อไปนี้ -    - การสร้างลำดับชั้นขององค์กรสำหรับงบประมาณที่วางแผน และการตั้งค่าคอนฟิกความปลอดภัยผู้ใช้   -  กำหนดสถานการณ์จำลองแผนงบประมาณ คอลัมน์แผนงบประมาณ โครงร่าง และแม่แบบ Excel   -  สร้างและเปิดใช้งานกระบวนการวางแผนงบประมาณ   - สร้างเอกสารแผนงบประมาณโดยดึงจากบัญชีแยกประเภททั่วไป   -  ใช้การปันส่วนการปรับปรุงข้อมูลเอกสารแผนงบประมาณ   - การแก้ไขงบประมาณข้อมูลแผนงบประมาณเอกสารใน Excel</span><span class="sxs-lookup"><span data-stu-id="4a5eb-108">This lab will focus specifically on the following business processes or tasks -    - Creating organizational hierarchy for budget planning and configuring user security   - Defining budget plan scenarios, budget plan columns, layouts and Excel templates   - Creating and activating budget planning process   - Creating budget plan document by pulling in actuals from General ledger   - Using allocations to adjust budget plan document data   - Editing budget plan document data in Excel</span></span> 
 

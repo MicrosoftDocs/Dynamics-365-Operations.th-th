@@ -19,16 +19,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ccdc5548bd5800b5d21f1bc4b734dffe224a87
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7fa1ec33c50f83e43a7c35a855f1f4d8238348e7
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="thailand-unrealized-vat"></a><span data-ttu-id="84f44-104">VAT ที่ยังไม่รับรู้ของประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="84f44-104">Thailand unrealized VAT</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="84f44-105">หัวข้อนี้แสดงข้อมูลเกี่ยวกับ VAT ที่ยังไม่รับรู้ และวิธีการตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="84f44-105">This topic provides information about unrealized VAT and how to set it up.</span></span> <span data-ttu-id="84f44-106">ซึ่งยังอธิบายวิธีการคำนวณและลงรายการบัญชีใบสั่งซื้อที่มี VAT ซื้อที่ยังไม่รับรู้ และใบสั่งขายที่มี VAT ของการขายที่ยังไม่รับรู้ และสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="84f44-106">It also explains how to calculate and post purchase orders that have unrealized purchase VAT and sales orders that have unrealized sales VAT, and generate reports.</span></span>
 

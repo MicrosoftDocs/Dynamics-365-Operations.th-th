@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 32951ffe0f0ee49c668394eb006bbfba8d4d431d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ab455786b9288bc244a8645bc13a43b002146
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchasing-policies"></a><span data-ttu-id="aa0c1-105">นโยบายการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="aa0c1-105">Purchasing policies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa0c1-106">บทความนี้แสดงข้อมูลเกี่ยวกับนโยบายการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="aa0c1-106">This article provides information about purchasing policies.</span></span> <span data-ttu-id="aa0c1-107">นโยบายการจัดซื้อคือชุดของกฎที่ควบคุมกระบวนการใบขอซื้อ</span><span class="sxs-lookup"><span data-stu-id="aa0c1-107">A purchasing policy is a collection of rules that control the requisition process.</span></span> <span data-ttu-id="aa0c1-108">นโยบายการจัดซื้อช่วยให้ผู้ดูแลระบบสามารถปรับใช้การกลยุทธ์การจัดซื้อของพวกเขา ด้วยการสร้างโครงสร้างนโยบายที่สอดคล้องกับความต้องการซื้อเชิงกลยุทธ์ขององค์กร</span><span class="sxs-lookup"><span data-stu-id="aa0c1-108">Purchasing policies help procurement administrators implement their procurement strategy by creating a policy structure that is aligned with the organization’s strategic purchasing requirements.</span></span>
 

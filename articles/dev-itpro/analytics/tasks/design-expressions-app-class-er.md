@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fa2d85bbb9c8b2fda36883b71a3f540eabc4c1d7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cf61432d4734efbd4e5beb9e58b651a509fe2311
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a><span data-ttu-id="00e5f-103">ออกแบบนิพจน์เพื่อเรียกวิธีการคลาสแอพลิเคชัน (ER)</span><span class="sxs-lookup"><span data-stu-id="00e5f-103">Design expressions to call application class methods (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="00e5f-104">คู่มือนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ซ้ำตรรกะแอพลิเคชันที่มีอยู่ในการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ (ER) โดยการเรียกใช้วิธีที่ต้องการของคลาสแอพลิเคชันในนิพจน์ ER</span><span class="sxs-lookup"><span data-stu-id="00e5f-104">This guide provides information about how to reuse the existing application logic in Electronic reporting (ER) configurations by calling required methods of application classes in ER expressions.</span></span> <span data-ttu-id="00e5f-105">ค่าของอาร์กิวเมนต์สำหรับการเรียกคลาสที่สามารถถูกกำหนดแบบไดนามิกได้ในขณะทำงาน: ตัวอย่างเช่น ตามข้อมูลในเอกสารแยกวิเคราะห์เพื่อให้มั่นใจถึงความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="00e5f-105">Values of arguments for calling classes can be defined dynamically at run-time: for example, based on information in the parsing document to ensure its correctness.</span></span> <span data-ttu-id="00e5f-106">ในคู่มือนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, inc กระบวนงานนี้จะถูกสร้างขึ้นสำหรับผู้ใช้ที่มีบทบาทของผู้ดูแลระบบหรือนักพัฒนารายงานทางอิเล็กทรอนิกส์ที่ได้รับมอบหมาย</span><span class="sxs-lookup"><span data-stu-id="00e5f-106">In this guide, you will create the required ER configurations for the sample company, Litware, Inc. This procedure is created for users with the assigned role of System administrator or Electronic reporting developer.</span></span> 
 

@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 01c09587cfb8c7b21f8f5fb57a65a356ba3694d9
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="24858-104">เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel</span><span class="sxs-lookup"><span data-stu-id="24858-104">Publish journal lines and documents from Excel</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="24858-105">หัวข้อนี้อธิบายวิธีการป้อนและการเผยแพร่รายการสำหรับสมุดรายวันทั่วไปจาก Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="24858-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="24858-106">ซึ่งจะรวมถึงข้อมูลเกี่ยวกับเท็มเพลตต่าง ๆ ที่คุณสามารถใช้ โดยขึ้นอยู่กับชนิดของธุรกรรมที่คุณกำลังป้อน</span><span class="sxs-lookup"><span data-stu-id="24858-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 

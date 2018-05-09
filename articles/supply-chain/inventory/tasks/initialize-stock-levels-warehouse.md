@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4ad9ab54fbe84c8ec47aa2bebcca44656124a73e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: deec8bfe6e00a451d80be75ead428d5c5cc037b6
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="dc7b1-103">เริ่มระดับสินค้าคงคลังในคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="dc7b1-103">Initialize stock levels in the warehouse</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dc7b1-104">ขั้นตอนนี้แสดงให้เห็นถึงการรับสินค้าคงคลังคงเหลือด้วยตนเอง โดยใช้สมุดรายวันการเคลื่อนย้ายสินค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="dc7b1-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="dc7b1-105">(เป็นไปได้ที่มันสามารถอัพเดตสินค้าคงคลังคงเหลือเองด้วย โดยการนำเข้าธุรกรรมในเอนทิตี้ข้อมูล) คุณสามารถรันคำแนะนำนี้ในข้อมูลสาธิตของบริษัท USMF ซึ่งเป็นข้อกำหนดเบื้องต้นต่างๆ เช่น ชื่อสมุดรายวัน การตั้งค่าสินค้า โพรไฟล์การลงรายการบัญชี และบัญชีที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="dc7b1-105">(It’s also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="dc7b1-106">คำแนะนำดังกล่าวได้แนะนำค่าเฉพาะสำหรับสินค้าและมิติที่ต้องใช้</span><span class="sxs-lookup"><span data-stu-id="dc7b1-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="dc7b1-107">ถ้าคุณเลือกสินค้าอื่น คุณอาจต้องป้อนค่าสำหรับมิติที่ต่างออกไป</span><span class="sxs-lookup"><span data-stu-id="dc7b1-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
 

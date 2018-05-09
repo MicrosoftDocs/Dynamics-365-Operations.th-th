@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad4212584b0f9062edbd5c13f4c75eaa03c853f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28b972720bcc566cf0cd52dc8cb645562c61c2ae
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="postdated-checks"></a><span data-ttu-id="ff0c8-105">เช็คลงวันที่ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="ff0c8-105">Postdated checks</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff0c8-106">บทความนี้แสดงข้อมูลเกี่ยวกับการสนับสนุนสำหรับเช็คลงวันที่ล่วงหน้าใน Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ff0c8-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="ff0c8-107">เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต </span><span class="sxs-lookup"><span data-stu-id="ff0c8-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="ff0c8-108">ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="ff0c8-108">Therefore, the check can't be cashed until the specified date.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c41194f5d032b3ec59c079c91c83fcbe90f8b47d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 08fbaa1a65b31a0ae4f4669bbe34105dee17e557
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sepa-direct-debit-overview"></a><span data-ttu-id="57299-107">ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA</span><span class="sxs-lookup"><span data-stu-id="57299-107">SEPA direct debit overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="57299-108">Single Euro Payments Area (SEPA) ถูกตั้งขึ้นโดยคณะกรรมาธิการยุโรป และกำหนดว่าการชำระเงินทางอิเล็กทรอนิกส์ทั้งหมดถือว่าเป็นภายในประเทศ โดยไม่คำนึงถึงประเทศ/ภูมิภาคซึ่งบุคคล ธุรกิจ หรือองค์กร และธนาคารตั้งอยู่ </span><span class="sxs-lookup"><span data-stu-id="57299-108">The Single Euro Payments Area (SEPA) is set up by the European Commission, and dictates that all electronic payments are considered domestic, regardless of the country/region where the individual, business, or organization, and the bank are located.</span></span> <span data-ttu-id="57299-109">ไม่มีความแตกต่างระหว่างการชำระเงินในประเทศและข้ามแดน</span><span class="sxs-lookup"><span data-stu-id="57299-109">There is no difference between national and cross-border payments.</span></span> <span data-ttu-id="57299-110">SEPA ประกอบด้วย 28 รัฐสมาชิกสหภาพยุโรป (EU) รวมถึงไอซ์แลนด์ ลิกเตนสไตน์ นอร์เวย์ สวิตเซอร์แลนด์ รัฐโมนาโก และซานมารีโน </span><span class="sxs-lookup"><span data-stu-id="57299-110">The SEPA includes the 28 European Union (EU) member states, as well as Iceland, Liechtenstein, Norway, Switzerland, Monaco and San Marino.</span></span> <span data-ttu-id="57299-111">SEPA ช่วยจัดรูปแบบตลาดเดี่ยวสำหรับธุรกรรมการชำระเงินภายในเขตเศรษฐกิจยุโรป (EEA) </span><span class="sxs-lookup"><span data-stu-id="57299-111">The SEPA helps form a single market for payment transactions within the European Economic Area (EEA).</span></span> <span data-ttu-id="57299-112">ท้ายที่สุด SEPA ถูกคาดว่าจะลดจำนวนของรูปแบบการชำระเงินที่ธนาคาร ธุรกิจ และบุคคลต้องใช้</span><span class="sxs-lookup"><span data-stu-id="57299-112">Ultimately, the SEPA is expected to reduce the number of payment formats that banks, businesses, and individuals must work with.</span></span>   
 

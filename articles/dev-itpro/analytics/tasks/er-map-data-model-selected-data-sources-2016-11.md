@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 326e535c9c01812a399da932c414a73ad0ee3bc6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2881a3cb27a3be4778c9edd4c8a01f9cbcd79f63
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="32192-103">แม็ปแบบจำลองข้อมูลกับแหล่งข้อมูลที่เลือกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="32192-103">Map a data model to selected data sources for electronic reporting (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="32192-104">ขั้นตอนต่อไปนี้อธิบายถึงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถแม็ปแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER) ไปยังแหล่งข้อมูล Dynamics 365 for Finance and Operations ที่เลือกไว้</span><span class="sxs-lookup"><span data-stu-id="32192-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can map an Electronic reporting (ER) data model to selected Dynamics 365 for Finance and Operations data sources.</span></span> <span data-ttu-id="32192-105">การแม็ปแบบจำลองนี้จะถูกใช้เป็นแหล่งข้อมูลภายหลังในการตั้งค่าคอนฟิกรูปแบบที่จะจัดการเอกสารการชำระเงินทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="32192-105">This model mapping will later be used as a data source in a format configuration that will be used to manage electronic payment documents.</span></span> <span data-ttu-id="32192-106">ในตัวอย่างนี้ คุณแม็ปแบบจำลองข้อมูลสำหรับบริษัทตัวอย่าง Litware, Inc. ไปยังแหล่งข้อมูล </span><span class="sxs-lookup"><span data-stu-id="32192-106">In this example, you map a data model for sample company, Litware, Inc. to data sources.</span></span> <span data-ttu-id="32192-107">เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในกระบวนงาน "เลือกแหล่งข้อมูลสำหรับการแม็ปแบบจำลอง"</span><span class="sxs-lookup"><span data-stu-id="32192-107">To complete these steps, you must first complete the steps in the “Select data sources for model mapping” procedure.</span></span>
 

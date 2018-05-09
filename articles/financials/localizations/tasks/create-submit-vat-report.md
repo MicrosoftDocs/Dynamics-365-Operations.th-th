@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 720c6517384087cfb0db22019fde694024683fe7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a592cf689690c32428d78f30de3ef5e8322b1f69
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-submit-vat-report"></a><span data-ttu-id="02443-103">สร้างและส่งรายงาน VAT</span><span class="sxs-lookup"><span data-stu-id="02443-103">Create and submit VAT report</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="02443-104">กระบวนงานนี้จะอธิบายการสร้างและการส่งรายงาน VAT ไปยังหน่วยงานของเยอรมัน</span><span class="sxs-lookup"><span data-stu-id="02443-104">This procedure walks you through creating and submitting the VAT report to German authority.</span></span>
 

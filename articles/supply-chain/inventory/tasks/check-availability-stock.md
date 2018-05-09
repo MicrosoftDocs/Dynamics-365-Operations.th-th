@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e4b08aa7376bee6526d1993ee38916b60d0e0648
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a0c440250588e38b4bc8ebdb6830b026361f1d96
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="bcdd8-103">ตรวจสอบความพร้อมของสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-103">Check the availability of stock</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bcdd8-104">กระบวนงานนี้จะแสดงวิธีการตรวจสอบสินค้าคงคลังคงเหลือและสินค้าคงคลังคงเหลือที่มีอยู่จริงสำหรับจำนวนสินค้าเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="bcdd8-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="bcdd8-105">นอกจากนี้ยังแสดงให้เห็นวืธีการจัดหาข้อมูลที่เกี่ยวข้องกับสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="bcdd8-106">สินค้าคงคลังคงเหลือที่มีอยู่จริงคือปริมาณคงคลังคงเหลือที่พร้อมใช้งาน นั่นคือสินค้าที่ซื้อแล้ว ได้รับ และลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="bcdd8-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="bcdd8-107">สินค้าคงคลังคงเหลือรวมถึงสินค้าคงคลังคงเหลือที่พร้อมใช้งาน แต่ด้วยสินค้าคงคลังที่ได้รับการสั่งซื้อและคาดไว้ แต่ยังไม่ได้รับ หรือลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="bcdd8-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="bcdd8-108">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="bcdd8-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="bcdd8-109">ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่</span><span class="sxs-lookup"><span data-stu-id="bcdd8-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="bcdd8-110">งานเหล่านี้โดยทั่วไปจะถูกดำเนินการโดยผู้ปฏิบัติงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="bcdd8-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 

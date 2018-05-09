@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 516b62cb152e2997e50b0c30ec767be0180805d5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d95108fd9c275a9f1fa0bff79db31f941f0bbbf2
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="stock-card-report-for-thailand"></a><span data-ttu-id="8d723-103">รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="8d723-103">Stock card report for Thailand</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8d723-104">หัวข้อนี้ให้ข้อมูลเกี่ยวกับรายงานบัตรสินค้าคงคลังสำหรับนิติบุคคลในประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="8d723-104">This topic provides information about stock card reports for legal entities in Thailand.</span></span> <span data-ttu-id="8d723-105">รายงานบัตรสินค้าคงคลังประกอบด้วยรายละเอียดเกี่ยวกับความเคลื่อนไหวของสินค้าคงคลัง ปริมาณ และต้นทุนสำหรับแต่ละสินค้าและคลังสินค้า และจะต้องถูกสร้างขึ้นเมื่อรัฐบาลร้องขอ</span><span class="sxs-lookup"><span data-stu-id="8d723-105">A stock card report contains information about inventory movement, quantity, and cost for each item and warehouse, and must be generated when the government requests it.</span></span> <span data-ttu-id="8d723-106">รายงานบัตรสินค้าคงคลังจะถูกสร้างขึ้นก่อนหรือหลังกระบวนการปิดบัญชีสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="8d723-106">The stock card report is generated either before or after the inventory close process.</span></span> 
 

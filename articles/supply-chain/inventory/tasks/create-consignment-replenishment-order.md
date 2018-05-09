@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a9cb8050d5d2f0945be76be7370a2e49dee52819
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c8af002efb12f5b18100d2eb6c41c69a3daef1e
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="53833-103">สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ</span><span class="sxs-lookup"><span data-stu-id="53833-103">Create a consignment replenishment order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="53833-104">กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ </span><span class="sxs-lookup"><span data-stu-id="53833-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="53833-105">นอกจากนี้ยังแสดงวิธีการบันทึกการรับผลิตภัณฑ์เพื่อลงทะเบียนสินค้าคงคลังที่มีการส่งมอบเป็นปริมาณคงคลังคงเหลือที่ผู้จัดจำหน่ายเป็นเจ้าของ</span><span class="sxs-lookup"><span data-stu-id="53833-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="53833-106">โดยทั่วไป กระบวนงานนี้จะกระทำโดยผู้เชี่ยวชาญด้านการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="53833-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="53833-107">คุณสามารถใช้คู่มือนี้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="53833-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="53833-108">ขั้นตอนนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Dynamics 365 for Operations version 1611</span><span class="sxs-lookup"><span data-stu-id="53833-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

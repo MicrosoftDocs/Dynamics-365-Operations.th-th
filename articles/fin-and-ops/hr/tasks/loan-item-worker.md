@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aff5ca3a6f3de4d90955e803917d352a21877244
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 34259fa522481b23c16c88f76c1d2c077e747bbf
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="loan-items-to-a-worker"></a><span data-ttu-id="a3244-103">รายการที่ยืมของผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="a3244-103">Loan items to a worker</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a3244-104">ขั้นตอนนี้แสดงวิธีการยืมสินค้ากับผู้ปฏิบัติงาน และบันทึกการส่งสินค้าคืนของผู้ปฏิบัติงาน </span><span class="sxs-lookup"><span data-stu-id="a3244-104">This procedure shows how to loan an item to a worker and record the worker returning an item.</span></span> <span data-ttu-id="a3244-105">ผู้ปฏิบัติงานสามารถขอยืมสิ้นค้าผ่านทางหน้าบริการตนเองของพนักงาน </span><span class="sxs-lookup"><span data-stu-id="a3244-105">Workers can also request loan items through their Employee self-service pages.</span></span> <span data-ttu-id="a3244-106">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="a3244-106">The demo data company used to create this procedure is USMF.</span></span>
 

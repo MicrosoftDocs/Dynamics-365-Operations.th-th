@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4fb8251afad657d76f4b7b1de0a53ca584477a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 211a64162c52377a7643004416d90029a3d17ee7
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-payments-workspace"></a><span data-ttu-id="094c7-104">พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="094c7-104">Vendor payments workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="094c7-105">พื้นที่ทำงาน **การชำระเงินให้แก่ผู้จัดจำหน่าย** แสดงข้อมูลที่เกี่ยวข้องกับการประมวลผลการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="094c7-105">The **Vendor payments** workspace shows information that is related to the processing of vendor payments.</span></span> <span data-ttu-id="094c7-106">พื้นที่ทำงานนี้ประกอบด้วยมุมมอง **งานของฉัน** และหน้า **การวิเคราะห์**</span><span class="sxs-lookup"><span data-stu-id="094c7-106">This workspace includes a **My work** view and an **Analytics** page.</span></span> <span data-ttu-id="094c7-107">มุมมอง **งานของฉัน** แสดงไทล์สรุป กริดของธุรกรรมผู้จัดจำหน่าย และข้อมูลของผู้จัดจำหน่ายที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="094c7-107">The **My work** view shows summary tiles, vendor transaction grids, and related vendor information.</span></span> <span data-ttu-id="094c7-108">หน้า **การวิเคราะห์** ใช้ความสามารถของ Microsoft Power BI เพื่อแสดงสิ่งที่มองเห็นได้ที่เกี่ยวข้องกับการชำระเงินให้กับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="094c7-108">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to vendor payments.</span></span>
 

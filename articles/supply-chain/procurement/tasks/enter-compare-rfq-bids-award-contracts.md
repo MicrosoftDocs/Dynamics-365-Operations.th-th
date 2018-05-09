@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 140d9f7a48b6cb06f02d3c4e6440d0a99a9d8161
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 15c9f82bcbac23a7b1737f55676e58377272fc8c
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a><span data-ttu-id="f00a9-103">ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา</span><span class="sxs-lookup"><span data-stu-id="f00a9-103">Enter and compare RFQ bids and award contracts</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f00a9-104">กระบวนงานนี้แสดงให้คุณเห็นถึงวิธีการป้อนการตอบให้กับ RFQ การให้คะแนน และการเปรียบเทียบการประมูล และจากนั้น การให้การประมูลแก่ผู้จัดจำหน่าย </span><span class="sxs-lookup"><span data-stu-id="f00a9-104">This procedure shows you how to enter replies to an RFQ, score and compare bids, and then award the bid to one of the vendors.</span></span> <span data-ttu-id="f00a9-105">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="f00a9-105">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="f00a9-106">ก่อนที่คุณจะเริ่ม คุณต้องมี RFQ ที่มีรายการสองรายการที่ได้ถูกส่งไปยังผู้จัดจำหน่ายสองราย</span><span class="sxs-lookup"><span data-stu-id="f00a9-106">Before you start, you must have an RFQ with two lines that has been sent to at least two vendors.</span></span> <span data-ttu-id="f00a9-107">คุณสามารถรันกระบวนงาน "สร้างคำขอใบเสนอราคา" ให้เป็นข้อกำหนดเบื้องต้นเพื่อสร้างสิ่งนี้</span><span class="sxs-lookup"><span data-stu-id="f00a9-107">You can run the "Create a request for quotation" procedure as a prerequisite to create this.</span></span> <span data-ttu-id="f00a9-108">คุณต้องตั้งค่าเกณฑ์การให้คะแนนก่อนที่คุณจะสามารถรันกระบวนงานนี้ได้</span><span class="sxs-lookup"><span data-stu-id="f00a9-108">You need to have set up scoring criteria before you can run this procedure.</span></span>
 

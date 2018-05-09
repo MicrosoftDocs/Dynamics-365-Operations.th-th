@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 101ebe4a2e177a5702a162297e1820598e56a6e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0336bcaa7062a9b24079d8491ce426041751ccf
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="fcf1b-103">เชื่อมโยงดัชนีเชื้อเพลิงกับผู้ขนส่งเป็นค่าธรรมเนียมอุปกรณ์เสริม</span><span class="sxs-lookup"><span data-stu-id="fcf1b-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fcf1b-104">คำแนะนำนี้แสดงวิธีการสร้างการกำหนดอุปกรณ์เสริม ค่าธรรมเนียมอุปกรณ์เสริมผู้ขนส่ง ต้นแบบอุปกรณ์เสริมสำหรับค่าธรรมเนียมเชื้อเพลิง และเชื่อมโยงกับดัชนีเชื้อเพลิงของผู้ขนส่งกับผู้ขนส่ง</span><span class="sxs-lookup"><span data-stu-id="fcf1b-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="fcf1b-105">คุณต้องมีการตั้งค่าดัชนีเชื้อเพลิงของผู้ขนส่งก่อนที่คุณรันคำแนะนำนี้</span><span class="sxs-lookup"><span data-stu-id="fcf1b-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="fcf1b-106">คุณสามารถใช้คำแนะนำ "ตั้งค่าดัชนีเชื้อเพลิงของผู้ขนส่ง"ในการตั้งค่านี้ได้</span><span class="sxs-lookup"><span data-stu-id="fcf1b-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="fcf1b-107">การตั้งค่าเหล่านี้มักจะกระทำโดยผู้จัดการลอจิสติกส์ </span><span class="sxs-lookup"><span data-stu-id="fcf1b-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="fcf1b-108">ข้อมูลสาธิตที่เคยสร้างขั้นตอนนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="fcf1b-108">The demo data used to create this procedure is USMF.</span></span>
 

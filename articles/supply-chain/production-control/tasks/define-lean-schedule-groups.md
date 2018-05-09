@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 50435f858524013c3b0e67939bd29ab18b4272b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d306b9f28daf73884d5804720be3dba41e569509
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="bb124-103">กำหนดกลุ่มกำหนดการแบบลีน</span><span class="sxs-lookup"><span data-stu-id="bb124-103">Define lean schedule groups</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bb124-104">กลุ่มกำหนดการแบบ lean ถูกกำหนดเป็นกลุ่ม และแยกแยะผลิตภัณฑ์ในการจัดกำหนดการคัมบัง </span><span class="sxs-lookup"><span data-stu-id="bb124-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="bb124-105">การจัดกลุ่มสามารถทำให้เสร็จเป็นความสัมพันธ์ทั่วไปสำหรับแต่ละบริษัท หรือเฉพาะสำหรับเซลล์ทำงาน </span><span class="sxs-lookup"><span data-stu-id="bb124-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="bb124-106">แต่ละกลุ่มมีรหัสสีที่กำหนดให้สำหรับการบ่งชี้ทางภาพในหน้ารายการการจัดกำหนดการคัมบัง</span><span class="sxs-lookup"><span data-stu-id="bb124-106">Each group has a color code assigned for visual indication in the kanban scheduling list page.</span></span> <span data-ttu-id="bb124-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="bb124-107">The demo data company used to create this procedure is USMF.</span></span>
 

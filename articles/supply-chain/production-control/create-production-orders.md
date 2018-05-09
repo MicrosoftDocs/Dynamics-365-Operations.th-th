@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c572c15f58f1633fe89a8ad8683075fa6b9de6d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6b35c347aad64a44e827ecb86273f4767d8afd3
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-production-orders"></a><span data-ttu-id="80c0d-105">สร้างใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="80c0d-105">Create production orders</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="80c0d-106">เมื่อมีการสร้างใบสั่งผลิต คำขอจะถูกเริ่มต้นเพื่อเริ่มการผลิตสินค้า</span><span class="sxs-lookup"><span data-stu-id="80c0d-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="80c0d-107">ใบสั่งผลิตประกอบด้วยข้อมูลเกี่ยวกับสิ่งที่จะมีการผลิต ปริมาณที่จะผลิต และวันที่เสร็จสิ้นที่วางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="80c0d-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="80c0d-108">ทั้งยังประกอบด้วยข้อมูลเกี่ยวกับวัสดุที่จะใช้ และกระบวนการที่จะดำเนินการตามเพื่อผลิตสินค้า</span><span class="sxs-lookup"><span data-stu-id="80c0d-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 

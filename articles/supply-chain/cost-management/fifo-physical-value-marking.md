@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 36c3f9f0afe91c2326bafcbdcc636ae4b3406b01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9994b527bde6d27060dabc2d422d1ce9187a3fb
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a><span data-ttu-id="105b2-104">FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย</span><span class="sxs-lookup"><span data-stu-id="105b2-104">FIFO with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="105b2-105">เข้าก่อนออกก่อน (FIFO) เป็นแบบจำลองสินค้าคงคลังที่สินค้าที่ได้รับเข้ามาแรกสุดจะถูกนำออกใช้ก่อน </span><span class="sxs-lookup"><span data-stu-id="105b2-105">First in, First out (FIFO) is an inventory model in which the first acquired receipts are issued first.</span></span> <span data-ttu-id="105b2-106">ในทางการเงิน ปัญหาที่อัพเดตจากสินค้าคงคลังจะถูกจับคู่กับการรับสินค้าเข้าในคลังสินค้ารายการแรกที่ได้รับการอัพเดต ตามวันที่ทางการเงินของรายการความเคลื่อนไหวของสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="105b2-106">Financially updated issues from inventory are settled against the first financially updated receipts into inventory, based on the financial date of the inventory transaction.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41db5fa77c020c0929868593fec16223676e5e31
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3106412f24826febb934a728a1810534680061be
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="2460f-103">เปลี่ยนชื่อหรือแก้ไขระยะโครงการ</span><span class="sxs-lookup"><span data-stu-id="2460f-103">Rename or modify a project stage</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2460f-104">ขั้นของโครงการจะทำหน้าที่เป็นการชี้นำวงจรชีวิตของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="2460f-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="2460f-105">คุณสามารถกำหนดระยะโครงการที่คุณต้องการรวมไว้ในโครงการของคุณได้ ในพื้นที่ระยะโครงการในหน้าพารามิเตอร์การบัญชีและการจัดการโครงการ</span><span class="sxs-lookup"><span data-stu-id="2460f-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="2460f-106">Dynamics 365 for Finance and Operations แสดงระยะโครงการที่กำหนดไว้ล่วงหน้าห้าระยะและระยะที่กำหนดโดยผู้ใช้สามระยะ</span><span class="sxs-lookup"><span data-stu-id="2460f-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="2460f-107">คุณสามารถปรับปรุงชื่อระยะโครงการที่คุณใช้ในการติดตามความคืบหน้าของโครงการได้</span><span class="sxs-lookup"><span data-stu-id="2460f-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="2460f-108">คุณยังสามารถให้ชื่อสำหรับชื่อสถานะที่กำหนดโดยผู้ใช้ได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="2460f-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="2460f-109">งานนี้แสดงวิธีการเปลี่ยนชื่อหรือปรับเปลี่ยนระยะโครงการ และใช้ชุดข้อมูล USSI</span><span class="sxs-lookup"><span data-stu-id="2460f-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
 

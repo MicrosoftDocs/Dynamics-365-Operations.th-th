@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a6eb7fd5a44d5e4fb81f5939d820e429ff131246
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b2d97a59ae782af0a3d5ab71903961ef244a8e62
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="process-rebates-for-payment"></a><span data-ttu-id="65223-103">กระบวนการเงินคืนสำหรับการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="65223-103">Process rebates for payment</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="65223-104">ขั้นตอนนี้อธิบายวิธีการแปลงเงินคืนของลูกค้าที่ได้รับการอนุมัติและดำเนินการไปสู่ใบลดหนี้ </span><span class="sxs-lookup"><span data-stu-id="65223-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="65223-105">คุณสามารถใช้คำแนะนำนี้ในบริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="65223-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="65223-106">เงื่อนไขเบื้องต้นสำหรับคำแนะนำนี้คือจะมีการอ้างสิทธิ์เงินคืนหนึ่งรายการหรือมากกว่าซึ่งมีสถานะการทำเครื่องหมาย </span><span class="sxs-lookup"><span data-stu-id="65223-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="65223-107">ถ้าคุณใช้ USMF คุณควรรันคำแนะนำ " สร้างและประมวลผลเงินคืนของลูกค้า" ก่อนที่จะเริ่มคำแนะนำนี้</span><span class="sxs-lookup"><span data-stu-id="65223-107">If you’re using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 

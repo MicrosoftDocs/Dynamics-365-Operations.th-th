@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 954f6237739defe14aaa13b19641f9f9d27b5fac
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5d0a007f6e2473e12e5dd27da9148be6ac7e1a16
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a><span data-ttu-id="d1ff1-104">ความต้องการของระบบ Microsoft Dynamics 365 for Talent และนโยบายการอัพเดต</span><span class="sxs-lookup"><span data-stu-id="d1ff1-104">Microsoft Dynamics 365 for Talent system requirements and update policy</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="d1ff1-105">หัวข้อนี้แสดงรายการความต้องการสำหรับ Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="d1ff1-105">This topic lists requirements for Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="d1ff1-106">นอกจากนี้ยังระบุนโยบายการอัพเดตด้วย</span><span class="sxs-lookup"><span data-stu-id="d1ff1-106">The update policy is outlined, as well.</span></span>
 

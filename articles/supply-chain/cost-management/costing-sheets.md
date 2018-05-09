@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6ddba210ced7c7ed5fad818945765528e5b1c1d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36b92b7dfacb781c559e3ab39406b709e7ce5c9a
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="costing-sheets"></a><span data-ttu-id="3746e-108">แผ่นงานการคิดต้นทุน</span><span class="sxs-lookup"><span data-stu-id="3746e-108">Costing sheets</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3746e-109">การตั้งค่าแผ่นงานคำนวณต้นทุนประกอบด้วยวัตถุประสงค์สองประการด้วยกัน </span><span class="sxs-lookup"><span data-stu-id="3746e-109">Setting up the costing sheet involves two objectives.</span></span> <span data-ttu-id="3746e-110">วัตถุประสงค์ประการแรก คุณต้องกำหนดรูปแบบสำหรับการแสดงข้อมูลของต้นทุนของสินค้าที่ขายเกี่ยวกับสินค้าที่ผลิตหรือใบสั่งผลิต </span><span class="sxs-lookup"><span data-stu-id="3746e-110">As the first objective, you define the format for displaying cost of goods sold information about a manufactured item or production order.</span></span> <span data-ttu-id="3746e-111">การแสดงผลที่จัดรูปแบบจะเรียกว่าแผ่นงานคำนวณต้นทุน</span><span class="sxs-lookup"><span data-stu-id="3746e-111">The formatted display is termed a costing sheet.</span></span> <span data-ttu-id="3746e-112">วัตถุประสงค์ประการที่สอง คุณต้องกำหนดพื้นฐานของการคำนวณต้นทุนทางอ้อม </span><span class="sxs-lookup"><span data-stu-id="3746e-112">As the second objective, you define the basis for calculating indirect costs.</span></span> <span data-ttu-id="3746e-113">การตั้งค่าแผ่นงานคำนวณต้นทุนจะสร้างขึ้นจากลักษณะการทำงานของกลุ่มต้นทุนสำหรับการแสดงข้อมูลและสำหรับสูตรการคำนวณต้นทุนทางอ้อม </span><span class="sxs-lookup"><span data-stu-id="3746e-113">The costing sheet setup builds on the cost group feature for displaying information and for the indirect cost calculation formulas.</span></span> <span data-ttu-id="3746e-114">วัตถุประสงค์สองประการของการตั้งค่าแผ่นงานการคำนวณต้นทุนได้ถูกอธิบายไว้ในบทความนี้</span><span class="sxs-lookup"><span data-stu-id="3746e-114">The two objectives of costing sheet setup are described in this article.</span></span> 
 

@@ -19,16 +19,16 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8d2188ddac937ab373315759b89ecf85c0b7e007
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0903879f7fa11c80e695dcb095ce1020984addf6
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a><span data-ttu-id="e342f-103">ขายและส่งคืนผลิตภัณฑ์นอกการจัดประเภท</span><span class="sxs-lookup"><span data-stu-id="e342f-103">Sell and return products outside of an assortment</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e342f-104">สถานการณ์ทั่วไปสำหรับผู้ค้าปลีกใด ๆ คือ ในการขายผลิตภัณฑ์ให้ลูกค้าหรือยอมรับสินค้าที่ส่งคืนจากลูกค้าถึงแม้ว่าจะไม่มีผลิตภัณฑ์ที่ระบุในร้านค้า (กล่าวคือ ผลิตภัณฑ์จะไม่จัดประเภทลงในร้านค้า)</span><span class="sxs-lookup"><span data-stu-id="e342f-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don’t carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
 <span data-ttu-id="e342f-105">ต่อไปนี้เป็นสถานการณ์ทั่วไปบางส่วน:</span><span class="sxs-lookup"><span data-stu-id="e342f-105">Here are some typical scenarios:</span></span>

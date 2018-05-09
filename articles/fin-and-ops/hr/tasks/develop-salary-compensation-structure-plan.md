@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d2a4a0b2bf2d33530dedc7ce3974ee558d063878
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48ca723cbbc6a13970ba4ab7b890ba333e469514
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a><span data-ttu-id="94a88-103">พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="94a88-103">Develop salary/compensation structure and plans</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="94a88-104">คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสมได้</span><span class="sxs-lookup"><span data-stu-id="94a88-104">This task guide walks through the process of creating a Fixed compensation plan and enabling employees to be enrolled in the plan through eligibility rules.</span></span> <span data-ttu-id="94a88-105">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF และงานมีไว้สำหรับค่าตอบแทนและสวัสดิการผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="94a88-105">The demo data company used to create this task is USMF and the task is intended for Compensation and Benefits Managers.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff11cf7b23c48675b108d7d03d241fcec2cb792a
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a><span data-ttu-id="622c4-103">การค้นหาสินค้าคงคลังในจุดขายหน้าร้าน</span><span class="sxs-lookup"><span data-stu-id="622c4-103">Inventory lookup in the Point of Sale</span></span> 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="622c4-104">การค้นหาสินค้าคงคลังในการขายหน้าร้าน (POS) ช่วยให้ผู้ค้าปลีกบรรลุความรู้ความสามารถในการดำเนินงานในเวลาจริง และได้รับความเข้าใจด้วยการเชื่อมต่อร้านค้า POS และฝ่ายสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="622c4-104">Inventory lookup in the point of sale (POS) helps retailers achieve real-time operational excellence and gain insights by connecting stores, the POS, and the back office.</span></span> <span data-ttu-id="622c4-105">ฟังก์ชันนี้แสดงมุมมองในเวลาจริงอย่างถูกต้องของสินค้าคงคลังของผลิตภัณฑ์ระหว่างศูนย์กระจายสินค้าและร้านค้า</span><span class="sxs-lookup"><span data-stu-id="622c4-105">This functionality provides an accurate real-time view of product inventory across stores and distribution centers.</span></span> <span data-ttu-id="622c4-106">นอกจากนี้ ยังช่วยให้ผู้ค้าปลีกไดรฟ์ประสิทธิภาพเพิ่มเติม และการประหยัดต้นทุนโดยการปรับปรุงการวางแผนสินค้าคงคลังในเวลาจริง</span><span class="sxs-lookup"><span data-stu-id="622c4-106">It also helps retailers drive additional efficiencies and cost savings by improving inventory planning in real time.</span></span>
 

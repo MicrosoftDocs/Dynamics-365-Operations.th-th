@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84ed2bfa708664674af781c575cfab35640e7079
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 890d501bf8b111ccd0698372f9df1dd63c2039a0
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="b7663-103">ปรับปรุงระดับปริมาณสินค้าคงคลังในคลังสินค้า (คลังสินค้าพื้นฐาน)</span><span class="sxs-lookup"><span data-stu-id="b7663-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b7663-104">กระบวนงานนี้นำคุณผ่านกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการปรับปรุงสินค้าคงคลังเพื่อปรับปรุงระดับสินค้าคงคลังของผลิตภัณฑ์ในคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="b7663-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="b7663-105">คุณจำเป็นต้องมีชื่อสมุดรายวันสินค้าคงคลังที่ตั้งค่าสำหรับการปรับปรุงสินค้าคงคลัง ก่อนที่คุณจะเริ่มต้นนี้ </span><span class="sxs-lookup"><span data-stu-id="b7663-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="b7663-106">คุณสามารถดำเนินการขั้นตอนนี้ได้ในข้อมูลสาธิตของบริษัท USMF หรือการใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="b7663-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="b7663-107">งานเหล่านี้จะปกติจะดำเนินการโดยพนักงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="b7663-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 

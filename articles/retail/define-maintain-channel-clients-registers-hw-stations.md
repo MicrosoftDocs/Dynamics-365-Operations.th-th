@@ -20,20 +20,20 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2bc302c83affbee4ce9d0ab8441cfca61d5d8335
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 85593f258542fbe86a61cceb34ae5cdaa9b8767f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a><span data-ttu-id="b9743-103">กำหนดและรักษาไคลเอนต์ช่องทาง และเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b9743-103">Define and maintain channel clients, registers, and hardware stations</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="b9743-104">หัวข้อนี้ครอบคลุมวิธีการเชื่อมต่ออุปกรณ์ต่อพ่วงกับ Retail POS ของคุณ</span><span class="sxs-lookup"><span data-stu-id="b9743-104">This topic covers how to connect peripherals to your Retail POS.</span></span>
 
-<span data-ttu-id="b9743-105">**หมายเหตุ:**สำหรับคำแนะนำในการติดตั้งเฉพาะ ดูที่[การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์ขายปลีก](retail-hardware-station-configuration-installation.md) และ [การดาวน์โหลด/การติดตั้งการบริการตนเองของ Modern POS ของการขายปลีก และการเปิดใช้งาน Modern POS และ Cloud POS](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="b9743-105">**Note:** For specific installation instructions, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md) and [Retail Modern POS self-service download/installation, and device activation of Modern POS and Cloud POS](retail-modern-pos-device-activation.md).</span></span>
+<span data-ttu-id="b9743-105">**หมายเหตุ:** สำหรับคำแนะนำในการติดตั้งเฉพาะ ดูที่[การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์ขายปลีก](retail-hardware-station-configuration-installation.md) และ [การดาวน์โหลด/การติดตั้งการบริการตนเองของ Modern POS ของการขายปลีก และการเปิดใช้งาน Modern POS และ Cloud POS](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="b9743-105">**Note:** For specific installation instructions, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md) and [Retail Modern POS self-service download/installation, and device activation of Modern POS and Cloud POS](retail-modern-pos-device-activation.md).</span></span>
 
 ## <a name="key-components"></a><span data-ttu-id="b9743-106">ส่วนประกอบหลัก</span><span class="sxs-lookup"><span data-stu-id="b9743-106">Key components</span></span>
 <span data-ttu-id="b9743-107">ส่วนประกอบหลายรายการถูกนำมาใช้ในการกำหนดความสัมพันธ์ระหว่างร้านค้า เครื่องบันทึกเงินสด (POS) ขายหน้าร้านหรือช่องทางภายในร้านค้า และอุปกรณ์ต่อพ่วงขายปลีกที่เครื่องบันทึกเงินสดหรือช่องทางเหล่านั้นใช้ในการประมวลผลธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="b9743-107">Several components are used to define the relationships among a store, the point-of-sale (POS) registers or channels within the store, and the retail peripherals that those registers or channels use to process transactions.</span></span> <span data-ttu-id="b9743-108">ส่วนนี้อธิบายถึงส่วนประกอบแต่ละรายการ และอธิบายวิธีที่ควรจะใช้ในการปรับใช้ระบบร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="b9743-108">This section describes each component and explains how it should be used in a retail store deployment.</span></span>

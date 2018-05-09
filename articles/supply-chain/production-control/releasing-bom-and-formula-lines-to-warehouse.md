@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1cecc57bbcac4a8b9d2bfc009499d567d2569c84
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="b0a59-103">นำรายการ BOM และรายการสูตรออกใช้ไปยังคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="b0a59-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b0a59-104">หัวข้อนี้อธิบายกระบวนการสำหรับการนำวัตถุดิบสำหรับรายการสูตรการผลิต (BOM) และรายการสูตรออกใช้ไปยังคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="b0a59-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="b0a59-105">เมื่อคุณนำรายการ BOM หรือรายการสูตรออกใช้ในคลังสินค้า อันดับแรก ระบบพิจารณาจะว่าวัสดุพร้อมใช้งานอยู่แล้วที่ที่ตั้งอินพุทการผลิตในการผลิตที่วัสดุที่จะถูกใช้สำหรับกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="b0a59-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 

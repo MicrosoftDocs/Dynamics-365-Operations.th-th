@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e17ac2b9f4eff06bdff7cdb210acdc05ed2ef4e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e13f644f6d5a817cd3fe24de10f44433ce491f4d
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="2d4a1-103">ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ</span><span class="sxs-lookup"><span data-stu-id="2d4a1-103">Set up a mobile device menu item to register received items</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2d4a1-104">งานนี้มุ่งเน้นการตั้งค่ารายการเมนูอุปกรณ์เคลื่อนที่ </span><span class="sxs-lookup"><span data-stu-id="2d4a1-104">This task focuses on the setup of a mobile device menu item.</span></span> <span data-ttu-id="2d4a1-105">รายการเมนูนี้จะใช้สำหรับการลงทะเบียนการรับสินค้าที่สั่งซื้อผ่านใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="2d4a1-105">This menu item is used for registration of the receipt of items ordered via purchase orders.</span></span> 
 

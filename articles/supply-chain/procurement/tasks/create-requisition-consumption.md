@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bad86a4726ce69015f318d9af98992b36d34b29a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad2a356c4f6bc2c72898e8b841963e6bee6daac0
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="7d8e9-103">สร้างใบขอซื้อเพื่อปริมาณการใช้</span><span class="sxs-lookup"><span data-stu-id="7d8e9-103">Create a requisition for consumption</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7d8e9-104">ขั้นตอนนี้นำคุณไปสู่กระบวนการของการสร้างใบขอซื้อ</span><span class="sxs-lookup"><span data-stu-id="7d8e9-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="7d8e9-105">ซึ่งจะแสดงวิธีต่างๆในการค้นหาผลิตภัณฑ์ในแค็ตตาล็อกการจัดซื้อและวิธีการเพิ่มผลิตภัณฑ์ที่ไม่ได้อยู่ในแค็ตตาล็อกของคุณ</span><span class="sxs-lookup"><span data-stu-id="7d8e9-105">It shows you different ways to search for products in your procurement catalog and how to add a product that isn’t in your catalog.</span></span> <span data-ttu-id="7d8e9-106">ก่อนที่คุณเริ่มกระบวนงานนี้ คุณจะต้องมีนโยบายการจัดซื้อที่ตั้งค่าด้วยปริมาณการใช้เป็นชนิดเริ่มต้นของการจัดหาวัตถุดิบ</span><span class="sxs-lookup"><span data-stu-id="7d8e9-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="7d8e9-107">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="7d8e9-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="7d8e9-108">กระบวนงานสามารถถูกดำเนินการได้โดยโปรไฟล์ผู้ใช้ที่ถูกตั้งค่าเป็นผู้ปฏิบัติงานเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="7d8e9-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="7d8e9-109">ตามปกติแล้วงานนี้จะถูกดำเนินการโดยพนักงาน</span><span class="sxs-lookup"><span data-stu-id="7d8e9-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="7d8e9-110">พนักงานรักษาบทบาทความปลอดภัยจะอนุญาตให้คุณดำเนินงาน หรือถ้าคุณกำลังใช้ USMF คุณสามารถเข้าสู่ระบบในฐานะ Alicia</span><span class="sxs-lookup"><span data-stu-id="7d8e9-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 

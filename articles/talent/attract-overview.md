@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 45383a32afe53f4005e329382ddc0fe511799477
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6b17ed34b7a44f09405d5e6cf8bad3a2ab6a8ccf
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="c8012-104">ภาพรวม Attract</span><span class="sxs-lookup"><span data-stu-id="c8012-104">Attract overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="c8012-105">Attract ช่วยทำให้สามารถจัดการกระบวนการว่าจ้างผู้มีความสามารถคนใหม่</span><span class="sxs-lookup"><span data-stu-id="c8012-105">Attract provides capabilities to manage the process of hiring new talent.</span></span> <span data-ttu-id="c8012-106">คุณสามารถเพิ่มผู้สมัครเพื่อเปิดงานและส่งจากขั้นหนึ่งไปอีกขั้นหนึ่งจนกว่าจะขยายข้อเสนอหรือการสมัครถูกปฏิเสธ</span><span class="sxs-lookup"><span data-stu-id="c8012-106">Candidates can be added to open jobs and advanced from stage to stage until an offer is extended or the application is rejected.</span></span> <span data-ttu-id="c8012-107">ในแต่ละขั้น ผู้สมัครจะดำเนินกิจกรรมต่าง ๆ เช่น การคัดเลือก การประเมิน หรือการจัดกำหนดการการสัมภาษณ์</span><span class="sxs-lookup"><span data-stu-id="c8012-107">In each stage, candidates move through activities like screening calls, assessments, or the scheduling of interviews.</span></span> <span data-ttu-id="c8012-108">หลังจากที่สมัคร ผู้สมัครจะได้รับอีเมลเชิญให้เข้าสู่ระบบ Attract ซึ่งพวกเขาสามารถปฏิบัติตามสถานะของงาน การสมัครของพวกเขา และตอบสนองต่องานใด ๆ ที่กำหนดให้กับพวกเขา</span><span class="sxs-lookup"><span data-stu-id="c8012-108">After they apply, candidates get an email inviting them to sign in to Attract, where they can follow the status of the job, their application, and respond to any tasks that are assigned to them.</span></span>
 

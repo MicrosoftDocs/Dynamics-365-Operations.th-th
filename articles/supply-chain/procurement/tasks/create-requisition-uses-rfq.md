@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2c2daad961ec5c47ca49b2e53a2118570caf6a58
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 590ac360f0cc317f16d223e979b084ac2d331b9a
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="aafb0-103">สร้างใบขอซื้อที่ใช้ RFQ</span><span class="sxs-lookup"><span data-stu-id="aafb0-103">Create a requisition that uses an RFQ</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aafb0-104">คำแนะนำนี้แสดงวิธีการเพิ่มข้อมูลราคาและผู้จัดจำหน่ายในใบขอซื้อจากกระบวนการ RFQ </span><span class="sxs-lookup"><span data-stu-id="aafb0-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="aafb0-105">ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF และคุณต้องล็อกอินเป็นผู้ดูแลระบบเพื่อทำขั้นตอนทั้งหมดให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="aafb0-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="aafb0-106">โดยทั่วไปงานในคู่มือนี้จะดำเนินการโดยผู้เชี่ยวชาญด้านการจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="aafb0-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 

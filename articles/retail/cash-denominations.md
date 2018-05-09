@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4a7d80783368b6b39d48f80a3329d4053169c464
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f029a37b0f71dd449c993027d9698c10d9f37c7c
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-cash-denominations-for-pos"></a><span data-ttu-id="56121-103">ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับ POS</span><span class="sxs-lookup"><span data-stu-id="56121-103">Configure cash denominations for POS</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="56121-104">คุณสามารถกำหนดหน่วยเงินของเงินสดสำหรับธนบัตรและเหรียญได้ที่ฝ่ายสนับสนุนให้ถูกนำไปใช้โดยพนักงานเก็บเงิน สมาคมการขาย และผู้จัดการที่ร้านค้าจากภายใน POS</span><span class="sxs-lookup"><span data-stu-id="56121-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="56121-105">คุณสามารถใช้หน่วยเงินเหล่านี้เพื่อช่วยในการตรวจนับเงินสดสำหรับการตรวจนับเงินในช่วงท้ายของวันหรือเพื่อให้สามารถชำระเงินการขายได้อย่างรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="56121-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
 

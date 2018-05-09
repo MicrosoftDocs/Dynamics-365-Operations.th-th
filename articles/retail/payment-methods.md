@@ -20,16 +20,16 @@ ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4ea00653be087982134ecc5474512ef18a01ca22
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f23aa8df992a796c5e96761dca36b4ea33c5a0f6
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="payment-methods"></a><span data-ttu-id="3b129-104">วิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="3b129-104">Payment methods</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="3b129-105">ต้องกำหนดประเภทการชำระเงินแต่ละชนิดที่ผู้ค้าปลีกยอมรับเมื่อตั้งค่าระบบ</span><span class="sxs-lookup"><span data-stu-id="3b129-105">Each payment type that a retailer accepts must be configured when the system is set up.</span></span> <span data-ttu-id="3b129-106">บทความนี้อธิบายถึงชนิดการชำระเงินที่คุณสามารถตั้งค่า และอธิบายกระบวนการตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="3b129-106">This article describes the payment types that you can set up and describes the process for setting them up.</span></span>
 

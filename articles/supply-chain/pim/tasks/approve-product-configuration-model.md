@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d19c904ca7d974a8f80eebe7d237bede080c8f6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5a514d7d524c055b3fe37df524186c55a26fb233
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="approve-a-product-configuration-model"></a><span data-ttu-id="9cfa3-103">อนุมัติแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="9cfa3-103">Approve a product configuration model</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9cfa3-104">การดำเนินกระบวนงานนี้ต้องใช้อย่างน้อยหนึ่งแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ที่จะพร้อมใช้งาน </span><span class="sxs-lookup"><span data-stu-id="9cfa3-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="9cfa3-105">กระบวนงานนี้ใช้แบบจำลองลำโพงขั้นสูงในข้อมูลบริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="9cfa3-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="9cfa3-106">โปรดสังเกตว่า แบบจำลองนี้ได้รับการอนุมัติแล้ว แต่กระบวนงานจะนำคุณผ่านกระบวนการทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="9cfa3-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
 

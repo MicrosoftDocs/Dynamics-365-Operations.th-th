@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ced48377f8f6cfdf416bcaf5e2b5e6473998ea91
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f23ddf59d986f16c350e9e978333cd7c9b47389a
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="aff2e-103">สร้างผลิตภัณฑ์นำออกใช้สำหรับบริษัทเดียว</span><span class="sxs-lookup"><span data-stu-id="aff2e-103">Create a released product for a single company</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aff2e-104">ขั้นตอนนี้แนะนำวิธีการสร้างผลิตภัณฑ์เดี่ยวที่นำออกใช้ในบริบทของหน่วยกฎหมายเดี่ยว </span><span class="sxs-lookup"><span data-stu-id="aff2e-104">This procedure walks through how to create a single released product in the context of a single legal unit.</span></span> <span data-ttu-id="aff2e-105">หลังจากที่มีการสร้างผลิตภัณฑ์นำออกใช้ซึ่ง จะพร้อมใช้งานทันทีในหน่วยนี้เท่านั้น </span><span class="sxs-lookup"><span data-stu-id="aff2e-105">After the released product is created,  it's immediately available in this unit only.</span></span> <span data-ttu-id="aff2e-106">คุณสามารถแนะนำขั้นตอนนี้ในบริษัทข้อมูลสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="aff2e-106">You can walk through this procedure in demo data company USMF.</span></span> <span data-ttu-id="aff2e-107">โดยปกติผู้ออกแบบผลิตภัณฑ์จะเป็นผู้ดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="aff2e-107">This task is usually performed by a product designer.</span></span>
 

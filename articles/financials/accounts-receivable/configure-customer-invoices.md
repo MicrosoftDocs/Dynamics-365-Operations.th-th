@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 787c958f07bc3fbd442be8132b55de7f3e769cae
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a><span data-ttu-id="1fe5a-103">สร้างใบแจ้งหนี้ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="1fe5a-103">Create a customer invoice</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1fe5a-104">**ใบแจ้งหนี้ของลูกค้าสำหรับใบสั่งขาย** คือใบตราที่เกี่ยวข้องกับการขาย และที่ทางองค์กรให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="1fe5a-104">A **customer invoice for a sales order** is a bill that is related to a sale, and that an organization gives to a customer.</span></span> <span data-ttu-id="1fe5a-105">ชนิดของใบแจ้งหนี้ของลูกค้านี้ถูกสร้างขึ้นตามใบสั่งขาย ซึ่งรวมรายการใบสั่งและหมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="1fe5a-105">This type of customer invoice is created based on a sales order, which includes order lines and item numbers.</span></span> <span data-ttu-id="1fe5a-106">ต้องมีการระบุและลงรายการบัญชีหมายเลขสินค้าในบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="1fe5a-106">Item numbers are specified and posted in the ledger.</span></span> <span data-ttu-id="1fe5a-107">รายการสมุดรายวันของบัญชีแยกประเภทย่อยไม่พร้อมใช้งานสำหรับใบแจ้งหนี้ของลูกค้าสำหรับใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="1fe5a-107">Subledger journal entries aren't available for a customer invoice for a sales order.</span></span> <span data-ttu-id="1fe5a-108">สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างใบแจ้งหนี้สำหรับใบสั่งขาย](tasks/create-sales-order-invoices.md)</span><span class="sxs-lookup"><span data-stu-id="1fe5a-108">For more information, see [Create sales order invoices](tasks/create-sales-order-invoices.md).</span></span>
 

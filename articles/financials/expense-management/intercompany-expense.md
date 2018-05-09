@@ -19,16 +19,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 861230dd08de570c451c8495bad91f9a4aef3691
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dfd956826b847539cdfa84d93700dbf5ebfa465a
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="intercompany-expenses"></a><span data-ttu-id="06fe3-104">ค่าใช้จ่ายระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="06fe3-104">Intercompany expenses</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="06fe3-105">ผู้ปฏิบัติงานที่มีการว่าจ้างจากนิติบุคคลหนึ่งในองค์กรอาจทำงานสำหรับนิติบุคคลอื่นในองค์กรเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="06fe3-105">A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization.</span></span> <span data-ttu-id="06fe3-106">ในสถานการณ์นี้ คุณสามารถใช้ลักษณะการทำงานของค่าใช้จ่ายระหว่างบริษัทในการกำหนดค่าใช้จ่ายของผู้ปฏิบัติงานให้กับนิติบุคคลซึ่งมีการดำเนินงาน</span><span class="sxs-lookup"><span data-stu-id="06fe3-106">In this situation, you can use the intercompany expense feature to assign the worker’s expenses to the legal entity for which the work was performed.</span></span> <span data-ttu-id="06fe3-107">นิติบุคคลที่จ้างผู้ปฏิบัติงานเรียกว่านิติบุคคลที่ให้ยืม</span><span class="sxs-lookup"><span data-stu-id="06fe3-107">The legal entity that employs the worker is called the loaning legal entity.</span></span> <span data-ttu-id="06fe3-108">นิติบุคคลที่ผู้ปฏิบัติงานก่อค่าใช้จ่ายให้เรียกว่านิติบุคคลที่ขอยืม</span><span class="sxs-lookup"><span data-stu-id="06fe3-108">The legal entity for which the worker incurs expenses is called the borrowing legal entity.</span></span> 
 

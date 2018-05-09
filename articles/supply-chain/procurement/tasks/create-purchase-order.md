@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 50ca6f46253ca49b90493b4588e0bbf4e9711ecd
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="a8b36-103">สร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="a8b36-103">Create a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a8b36-104">กระบวนงานนี้แสดงวิธีการสร้างใบสั่งซื้อด้วยตนเอง </span><span class="sxs-lookup"><span data-stu-id="a8b36-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="a8b36-105">เป็นเรื่องปกติมากกว่าสำหรับใบสั่งซื้อที่จะถูกสร้างโดยอัตโนมัติ ที่เป็นผลมาจากการวางแผนหลัก การจัดส่งโดยตรง และกระบวนการอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="a8b36-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="a8b36-106">โดยทั่วไป ใบสั่งซื้อจะถูกสร้างโดยเจ้าหน้าที่จัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="a8b36-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="a8b36-107">ตัวอย่างที่แสดงที่นี่สามารถถูกใช้ในบริษัทข้อมูลสาธิต USMF โดยใช้ค่าที่ได้รับการแนะนำในหมายเหตุสำหรับขั้นตอนต่างๆ</span><span class="sxs-lookup"><span data-stu-id="a8b36-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

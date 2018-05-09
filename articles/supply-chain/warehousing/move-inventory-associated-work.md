@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d81397ed30751f5b3dd7c46ffe6b27b8153c8f9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2889f04017bdd20be05174146ba88a24cbefacbb
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="29c68-103">การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="29c68-103">Movement of inventory with associated work in Warehouse management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="29c68-104">โดยการใช้ความเคลื่อนไหวของสินค้าคงคลัง คุณสามารถเลือกผู้ปฏิบัติงานคลังสินค้าที่ได้รับอนุญาตให้ย้ายสินค้าคงคลังที่จองไว้</span><span class="sxs-lookup"><span data-stu-id="29c68-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="29c68-105">ซึ่งให้ความยืดหยุ่นกับคลังสินค้าควบคุมที่คุณสามารถตัดสินใจที่จะไม่อนุญาตให้ผู้ปฏิบัติงานเลือกสถานที่เบิกสินค้าใหม่สำหรับงานการเบิกสินค้าที่สร้างขึ้นไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="29c68-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="29c68-106">นอกจากนี้ยังอนุญาตให้ผู้จัดการคลังสินค้าควบคุมความสามารถที่ผู้ปฏิบัติงานที่มีประสบการณ์น้อยบางรายควรมี</span><span class="sxs-lookup"><span data-stu-id="29c68-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 

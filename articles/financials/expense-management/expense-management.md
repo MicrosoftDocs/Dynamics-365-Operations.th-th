@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 185f6878e8ffb18b7685439e3ccb5803726e3118
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 56ceba3d3a2495079f621148476cc70ac694834a
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-management"></a><span data-ttu-id="4f56b-103">การจัดการค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="4f56b-103">Expense management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4f56b-104">ใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="4f56b-104">Use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees are spending when they incur expenses for your business.</span></span> <span data-ttu-id="4f56b-105">คุณยังสามารถกำหนดนโยบายค่าใช้จ่ายและทำให้การชำระคืนเงินค่าเดินทางเป็นระบบอัตโนมัติได้ </span><span class="sxs-lookup"><span data-stu-id="4f56b-105">You can also define expense policies and automate the reimbursement of travel expenses.</span></span> 
 

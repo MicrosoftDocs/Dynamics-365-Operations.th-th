@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0161ac3d67b57484f05a64ab785bbbcc90816ba2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8285305466a3762d3dab8a7975dfa51b994f1e6f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bom-calculations-groups"></a><span data-ttu-id="21a28-105">กลุ่มการคำนวณ BOM</span><span class="sxs-lookup"><span data-stu-id="21a28-105">BOM calculations groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="21a28-106">บทความนี้แสดงข้อมูลเกี่ยวกับกลุ่มการคำนวณของสูตรการผลิต (BOM) และวิธีการตั้งค่าเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="21a28-106">This article provides information about calculation groups for bills of materials (BOMs) and how to set them up.</span></span> <span data-ttu-id="21a28-107">เมื่อต้องการรันการคำนวณ BOM คุณจะต้องตั้งค่ากลุ่มการคำนวณ และกำหนดค่าให้กับสินค้าแต่ละรายการ หรือตั้งค่ากลุ่มการคำนวณเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="21a28-107">To run a BOM calculation, you must either set up calculation groups and assign them to individual items, or set a default calculation group.</span></span> <span data-ttu-id="21a28-108">ดังนั้นการตั้งค่าการคำนวณจากกลุ่มการคำนวณจะใช้เป็นค่าเริ่มต้นในหน้า การคำนวณ BOM ในขณะที่คำนวณ BOM</span><span class="sxs-lookup"><span data-stu-id="21a28-108">The calculation settings from the calculation group are then used as default values on the BOM calculation page at the time of BOM calculation.</span></span> 
 

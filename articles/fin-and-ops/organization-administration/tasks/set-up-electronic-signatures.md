@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d57fc2bcc514f7be8d6edffca5ada0b91aadf073
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95c1c750349feaa3bfe47385585989ef8f9fa3bc
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-electronic-signatures"></a><span data-ttu-id="c981e-103">การตั้งค่าลายเซ็นอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="c981e-103">Set up electronic signatures</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c981e-104">ใช้ขั้นตอนนี้เพื่อตั้งค่าลายเซ็นอิเล็กทรอนิกส์ </span><span class="sxs-lookup"><span data-stu-id="c981e-104">Use this procedure to set up electronic signatures.</span></span> <span data-ttu-id="c981e-105">ลายเซ็นอิเล็กทรอนิกส์จะยืนยันลักษณะเฉพาะของบุคคลที่กำลังจะเริ่มหรืออนุมัติกระบวนการระบบคอมพิวเตอร์ </span><span class="sxs-lookup"><span data-stu-id="c981e-105">An electronic signature confirms the identity of a person who is about to start or approve a computing process.</span></span> <span data-ttu-id="c981e-106">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างกระบวนงานนี้คือ DAT </span><span class="sxs-lookup"><span data-stu-id="c981e-106">The demo data company used to create this procedure is DAT.</span></span>
 

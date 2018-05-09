@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58069d79f92ce015fe4b11b50fb3348722bca4f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 13b47d755a122199608ece386f4f764ee580b2ed
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="number-sequences"></a><span data-ttu-id="ae5c2-103">ลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ae5c2-103">Number sequences</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ae5c2-104">ลำดับหมายเลขที่ใช้ในการสร้างตัวระบุเฉพาะที่สามารถอ่านได้สำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุ</span><span class="sxs-lookup"><span data-stu-id="ae5c2-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require identifiers.</span></span> <span data-ttu-id="ae5c2-105">เรกคอร์ดข้อมูลหลักหรือเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุจะถูกอ้างเป็น *การอ้างอิง*</span><span class="sxs-lookup"><span data-stu-id="ae5c2-105">A master data record or transaction record that requires an identifier is referred to as a *reference*.</span></span>
 
@@ -68,9 +68,9 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="ae5c2-148">ในตัวอย่างต่อไปนี้ หมายเลขใบสั่งขายถูกตั้งค่าสำหรับรหัสบริษัท **CEU**</span><span class="sxs-lookup"><span data-stu-id="ae5c2-148">In the following example, sales order numbers are set up for the company ID **CEU**.</span></span> 
 
-- <span data-ttu-id="ae5c2-149">**พื้นที่:**ขาย</span><span class="sxs-lookup"><span data-stu-id="ae5c2-149">**Area:** Sales</span></span> 
+- <span data-ttu-id="ae5c2-149">**พื้นที่:** ขาย</span><span class="sxs-lookup"><span data-stu-id="ae5c2-149">**Area:** Sales</span></span> 
 - <span data-ttu-id="ae5c2-150">**การอ้างอิง:** ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="ae5c2-150">**Reference:** Sales order</span></span> 
-- <span data-ttu-id="ae5c2-151">**ขอบเขต:**บริษัท</span><span class="sxs-lookup"><span data-stu-id="ae5c2-151">**Scope:** Company</span></span> 
+- <span data-ttu-id="ae5c2-151">**ขอบเขต:** บริษัท</span><span class="sxs-lookup"><span data-stu-id="ae5c2-151">**Scope:** Company</span></span> 
 - <span data-ttu-id="ae5c2-152">**บริษัท:** CEU</span><span class="sxs-lookup"><span data-stu-id="ae5c2-152">**Company:** CEU</span></span>
 
 | <span data-ttu-id="ae5c2-153">เซ็กเมนต์</span><span class="sxs-lookup"><span data-stu-id="ae5c2-153">Segments</span></span>  | <span data-ttu-id="ae5c2-154">ชนิดเช็กเมนต์</span><span class="sxs-lookup"><span data-stu-id="ae5c2-154">Segment type</span></span> | <span data-ttu-id="ae5c2-155">มูลค่า</span><span class="sxs-lookup"><span data-stu-id="ae5c2-155">Value</span></span>    |
@@ -86,7 +86,7 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="ae5c2-167">ในตัวอย่างต่อไปนี้ หมายเลขใบขอซื้อเป็นแบบทั่วทั้งองค์กร</span><span class="sxs-lookup"><span data-stu-id="ae5c2-167">In the following example, purchase requisition numbers are organization-wide.</span></span> 
 
-- <span data-ttu-id="ae5c2-168">**พื้นที่:**ซื้อ</span><span class="sxs-lookup"><span data-stu-id="ae5c2-168">**Area:** Purchase</span></span> 
+- <span data-ttu-id="ae5c2-168">**พื้นที่:** ซื้อ</span><span class="sxs-lookup"><span data-stu-id="ae5c2-168">**Area:** Purchase</span></span> 
 - <span data-ttu-id="ae5c2-169">**การอ้างอิง:** ใบขอซื้อ</span><span class="sxs-lookup"><span data-stu-id="ae5c2-169">**Reference:** Purchase requisition</span></span> 
 - <span data-ttu-id="ae5c2-170">**ขอบเขต:** ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="ae5c2-170">**Scope:** Shared</span></span>
 

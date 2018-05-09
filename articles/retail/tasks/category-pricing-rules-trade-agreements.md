@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ee5c9ef3dcfa45ce515427cbabc8a2b8de9a9fa7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8878362aaa5bae6ae98fc0dd2cd57e3d4a6c34b2
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="52907-103"> จัดประเภทกฏการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า</span><span class="sxs-lookup"><span data-stu-id="52907-103">Category pricing rules to create trade agreements</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="52907-104">กระบวนงานนี้แสดงวิธีการสร้างข้อตกลงทางการค้าราคาขายโดยใช้กฎการกำหนดราคาประเภท </span><span class="sxs-lookup"><span data-stu-id="52907-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="52907-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT </span><span class="sxs-lookup"><span data-stu-id="52907-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="52907-106">งานนี้มีไว้สำหรับบทบาทผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="52907-106">This task is intended for the Retail merchandising manager role.</span></span>
 

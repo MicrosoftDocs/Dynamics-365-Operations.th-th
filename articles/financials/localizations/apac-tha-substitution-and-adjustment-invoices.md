@@ -17,16 +17,16 @@ ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2bc7372ddd185131c7a7d68b142bd10536ba6ca2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77969410f838516990cf8256df641a99f7abbe65
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="substitutionadjustment-tax-invoice-for-thailand"></a><span data-ttu-id="79c9a-105">ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="79c9a-105">Substitution/adjustment tax invoice for Thailand</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="79c9a-106">คุณสามารถติดตามจำนวนการพิมพ์สำเนาใบกำกับภาษีสำหรับลูกค้าได้</span><span class="sxs-lookup"><span data-stu-id="79c9a-106">You can track how many times copies of tax invoices for customers are printed.</span></span> <span data-ttu-id="79c9a-107">ทุกครั้งที่ต้องพิมพ์สำเนาของใบกำกับภาษี คุณจะต้องระบุเหตุผลสำหรับใบแจ้งหนี้ที่พิมพ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="79c9a-107">Whenever a copy of a tax invoice must be printed, the reason for the reprinted invoice must be specified.</span></span> <span data-ttu-id="79c9a-108">ใบแจ้งหนี้ที่พิมพ์ใหม่จะแทนที่ใบแจ้งหนี้ต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="79c9a-108">The reprinted invoice is a substitution for the original invoice.</span></span> <span data-ttu-id="79c9a-109">มีการพิมพ์ข้อคิดเห็นพิเศษบนสำเนาของสำเนาใบกำกับภาษี</span><span class="sxs-lookup"><span data-stu-id="79c9a-109">A special comment is printed on the copy of the tax invoice copy.</span></span> <span data-ttu-id="79c9a-110">ข้อคิดเห็นนี้รวมถึงเหตุผลสำหรับการแทนที่และจำนวนสำเนาที่พิมพ์</span><span class="sxs-lookup"><span data-stu-id="79c9a-110">This comment includes the reason for the substitution and the number of copies that have been printed.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c8126322f85b317a9737978295ec0ebd2fd7cdc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 86868fc3a5d1543e46b3ebd4dcc31cbc3a78479b
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="20061-103">ติดตามสินค้าหรือวัตถุดิบ</span><span class="sxs-lookup"><span data-stu-id="20061-103">Trace an item or raw material</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="20061-104">ขั้นตอนนี้แสดงถึงวิธีใช้การติดตามสินค้าเพื่อระบุบสถานที่ของสินค้า หรือวัตถุดิบที่ถูกใช้ หรือกำลังใช้ </span><span class="sxs-lookup"><span data-stu-id="20061-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="20061-105">ด้วยกระบวนงานนี้ คุณสามารถระบุสินค้า ติดตามสินค้ากลับไปยังแหล่งที่มา แล้วติดตามการผลิตไปข้างหน้าผ่านการผลิตและการขายผลิตภัณฑ์สำเร็จรูป </span><span class="sxs-lookup"><span data-stu-id="20061-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="20061-106">ขั้นตอนนี้สามารถนำมาใช้ในการตรวจสอบผลกระทบของลูกค้า ใบสั่งขายที่ได้รับผลกระทบ และอีกมากมาย </span><span class="sxs-lookup"><span data-stu-id="20061-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="20061-107">ขั้นตอนนี้จะใช้ข้อมูลสาธิตบริษัท USP2</span><span class="sxs-lookup"><span data-stu-id="20061-107">This procedure uses demo data company USP2.</span></span>
 

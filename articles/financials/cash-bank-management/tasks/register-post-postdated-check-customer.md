@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d1e3df13c644ffa39621e73d1c907084bbd7ba7c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 69a057196d1503da664cb629ad5f20c523d57c33
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="b407b-103">ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="b407b-103">Register and post a postdated check for a customer</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b407b-104">คุณสามารถลงทะเบียนรายละเอียดเกี่ยวกับเช็คลงวันที่ล่วงหน้าที่ได้รับจากลูกค้า </span><span class="sxs-lookup"><span data-stu-id="b407b-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="b407b-105">คุณสามารถลงรายการบัญชีเช็คลงวันที่ล่วงหน้าและสร้างธุรกรรมทางการเงิน </span><span class="sxs-lookup"><span data-stu-id="b407b-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="b407b-106">ดำเนินงานต่อไปนี้ให้เสร็จสมบูรณ์ก่อนที่คุณจะลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าที่ได้รับจากลูกค้า:   • ตั้งค่าเช็คลงวันที่ล่วงหน้าในหน้าการจัดการเงินสดและธนาคาร • ตั้งค่าวิธีการชำระเงินสำหรับเช็คลงวันที่ล่วงหน้า บทบาทสำหรับกระบวนงานนี้คือฝ่ายการเงิน</span><span class="sxs-lookup"><span data-stu-id="b407b-106">Complete the following tasks before you register and post a postdated check received from a customer:   • Set up postdated check in the Cash and bank management page • Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="b407b-107">กระบวนงานนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="b407b-107">This procedure uses the USMF demo company.</span></span>
 

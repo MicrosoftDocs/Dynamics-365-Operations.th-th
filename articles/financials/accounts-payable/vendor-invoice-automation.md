@@ -17,15 +17,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7794448e928fbad76a9b4b67d296705e18908ed6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f30712dea69e1c85820bfa37a360865cb60d2bfc
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="vendor-invoice-automation"></a><span data-ttu-id="63103-103">ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="63103-103">Vendor invoice automation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="63103-104">หัวข้อนี้อธิบายถึงลักษณะการทำงานที่พร้อมใช้งานสำหรับระบบอัตโนมัติตั้งแต่ต้นจนจบของใบแจ้งหนี้ของผู้จัดจำหน่าย แม้แต่ใบแจ้งหนี้ที่มีเอกสารแนบ</span><span class="sxs-lookup"><span data-stu-id="63103-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
 

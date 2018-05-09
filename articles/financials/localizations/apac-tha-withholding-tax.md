@@ -18,16 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f587fda34dcfef6d4d2533d130f9c0d8daa79211
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 04ac271e6d1cc6cad93c164791f54e338a151576
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="withholding-tax-in-thailand"></a><span data-ttu-id="6be5b-104">ภาษีหัก ณ ที่จ่ายในประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="6be5b-104">Withholding tax in Thailand</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6be5b-105">หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย</span><span class="sxs-lookup"><span data-stu-id="6be5b-105">This topic provides information about withholding tax and how to set it up for Thailand.</span></span> <span data-ttu-id="6be5b-106">ฟังก์ชันการทำงานของภาษีหัก ณ ที่จ่ายได้รับการปรับปรุงสำหรับทั้งธุรกรรมของผู้จัดจำหน่ายและลูกค้า เพื่อให้มีการคำนวณภาษีหัก ณ ที่จ่ายและมีการสร้างรายงานภาษีหัก ณ ที่จ่าย</span><span class="sxs-lookup"><span data-stu-id="6be5b-106">The withholding tax functionality has been enhanced for both vendor and customer transactions, so that withholding tax is calculated and withholding tax reports are generated.</span></span>
 

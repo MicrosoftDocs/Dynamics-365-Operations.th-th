@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1b49dd7f4cfa0da68337554f21008bd41f9bdda1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1992aa8e570db294c128313209250e3cf237df6
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a><span data-ttu-id="361d4-104">สร้างเอกสารทางอิเล็กทรอนิกส์และอัพเดตข้อมูลใบสมัครโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="361d4-104">Generate electronic documents and update application data using the Electronic reporting tool</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="361d4-105">คุณสามารถออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สามารถใช้ในแอพลิเคชัน Finance and Operations เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออก</span><span class="sxs-lookup"><span data-stu-id="361d4-105">You can design Electronic reporting (ER) formats that can be used in the Finance and Operations application to generate outgoing electronic documents.</span></span> <span data-ttu-id="361d4-106">นอกจากนี้คุณยังสามารถออกแบบรูปแบบ ER ที่แยกวิเคราะห์เอกสารอิเล็กทรอนิกส์ขาเข้า และใช้เนื้อหาในเอกสารเหล่านั้นเพื่ออัพเดตข้อมูลแอพลิเคชัน</span><span class="sxs-lookup"><span data-stu-id="361d4-106">You can also design ER formats that parse incoming electronic documents and use the content in those documents to update application data.</span></span> 
 

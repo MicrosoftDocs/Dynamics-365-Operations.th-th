@@ -16,15 +16,15 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0a793ff52fd5821fef68f1ae928664bbacb1305c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 738df67c45b2e88f56ba0dffa7da19cbce6306b7
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a><span data-ttu-id="f752b-103">ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="f752b-103">Set up and generate accounts receivable aging information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f752b-104">คู่มือนี้จะช่วยคุณตั้งค่าข้อกำหนดรอบระยะเวลาอายุหนี้ ยอดดุลลูกค้าตามอายุหนี้ และดูยอดดุลในรายการยอดดุลตามอายุหนี้และหน้าการเรียกเก็บเงิน </span><span class="sxs-lookup"><span data-stu-id="f752b-104">This guide will help you set up an aging period definition, age customer balances, and view balances in the Aged balance list and the Collections page.</span></span> <span data-ttu-id="f752b-105">การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="f752b-105">This recording uses the USMF demo company.</span></span>
 
