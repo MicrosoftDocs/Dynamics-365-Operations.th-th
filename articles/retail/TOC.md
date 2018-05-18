@@ -24,6 +24,7 @@
 # ภาษีขาย
 ## [ภาพรวมของภาษีขาย](../financials/general-ledger/indirect-taxes-overview.md)
 ## [วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [การกำหนดและการแทนที่ภาษีขาย](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # ศูนย์บริการ
@@ -165,10 +166,11 @@
 ## [ ตั้งค่าคอนฟิกสำหรับคำแนะนำผลิตภัณฑ์ที่ใช้ Machine Learning](tasks/configure-machine-learning-product-recommendations.md)
 ## [ สร้างและเชื่อมโยงอุปกรณ์](tasks/create-associate-device.md)
 ## [ สร้างและเชื่อมโยงสถานีฮาร์ดแวร์](tasks/create-associate-hardware-station.md)
-## [ สร้างและเชื่อมโยงการลงทะเบียน](tasks/create-associate-registers.md)
-## [ สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก](tasks/create-calculate-post-statement-retail-store.md)
-## [ สร้างใบสั่งศูนย์บริการ](tasks/create-call-center-orders.md)
-## [ สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด](tasks/create-financial-dimensions-pos.md)
+## [สร้างและเชื่อมโยงการลงทะเบียน](tasks/create-associate-registers.md)
+## [สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก](tasks/create-calculate-post-statement-retail-store.md)
+## [การปรับปรุงการลงรายการบัญชีใบแจ้งยอดจากธนาคาร](statement-posting-EOD.md)
+## [สร้างใบสั่งศูนย์บริการ](tasks/create-call-center-orders.md)
+## [สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด](tasks/create-financial-dimensions-pos.md)
 ## [ สร้างค่ามิติทางการเงินสำหรับช่องทาง Retail และตั้งค่าคอนฟิกค่ามิติบนร้านค้า](tasks/create-financial-dimensions-retail-channels.md)
 ## [ สร้างช่องทางออนไลน์และกำหนดลักษณะช่องทาง](tasks/create-online-channel-define-channel-attributes.md)
 ## [ สร้างกลุ่มสิทธิ์ของ POS](tasks/create-pos-permission-groups.md)
@@ -289,7 +291,6 @@
 ### [เรียก POS API หรือการดำเนินงานจากส่วนขยาย POS](dev-itpro/pos-api-extension.md)
 ### [ทริกเกอร์และการพิมพ์ Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 ### [เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมองตามตัวออกแบบที่ไม่ใช่หน้าจอของ Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [สร้างพร็อกซี Retail สำหรับ POS และอีคอมเมิร์ซ](dev-itpro/pos-generate-retail-proxy.md)
 ### [ขั้นตอนการตั้งค่าคอนฟิกสำหรับนักพัฒนา Retail ที่ทำงานบนกล่องการพัฒนาที่ใช้ Cloud](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime

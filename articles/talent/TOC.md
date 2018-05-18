@@ -6,6 +6,7 @@
 ## [เอาสภาพแวดล้อม Talent ออก](remove-talent-environment.md)
 ## [เตรียมใช้งานแอปหน่วยย่อย Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [ขยายฟังก์ชันของ Talent](extend-talent-functionality.md)
+## [เข้าถึงคุณลักษณะตัวอย่างใน Dynamics 365 for Talent: Attract](access-preview-feature.md)
 
 # [พัฒนากลยุทธ์ด้านทรัพยากรบุคคล](departments-jobs-positions.md)
 ## [ตั้งค่าส่วนประกอบของงาน](create-job.md)
