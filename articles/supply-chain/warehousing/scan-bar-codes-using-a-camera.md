@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – Warehousing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่า Dynamics 365 for Finance and Operations – Warehousing เพื่อสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่ 
 

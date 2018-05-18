@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>ตั้งค่าคอนฟิคผลิตภัณฑ์ที่เชื่อมโยง
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกผลิตภัณฑ์ที่เชื่อมโยงกัน  ขั้นตอนนี้ใช้ข้อมูลสาธิต USRT และถือว่าผลิตภัณฑ์ทั้งสองได้ถูกสร้างขึ้นและนำออกใช้แล้ว
 

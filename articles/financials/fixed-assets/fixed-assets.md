@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>โฮมเพจสินทรัพย์ถาวร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 สินทรัพย์ถาวรคือสินค้าที่มีมูลค่า เช่น อาคาร พาหนะ ที่ดิน และเครื่องมือ ที่เป็นของบุคคลหรือองค์กร 
 

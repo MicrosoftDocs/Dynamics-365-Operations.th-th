@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>การลงทะเบียนสำหรับการดำเนินการผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายแนวคิดหลักและเงื่อนไขที่คุณต้องการทำความเข้าใจเกี่ยวกับการตั้งค่าคอนฟิก และใช้การดำเนินการผลิต 
 

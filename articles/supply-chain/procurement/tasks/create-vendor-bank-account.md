@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>สร้างบัญชีธนาคารของผู้จัดจำหน่าย
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างบัญชีธนาคารสำหรับผู้จัดจำหน่าย  คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF
 

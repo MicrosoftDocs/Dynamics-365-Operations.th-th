@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-engines"></a>กลไกจัดการการจัดการขนส่ง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 กลไกจัดการการขนส่งกำหนดตรรกะที่ใช้ในการสร้าง และประมวลผลอัตราการขนส่งในการจัดการการขนส่ง 
 

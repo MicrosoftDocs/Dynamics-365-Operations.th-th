@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-accrual-schemes"></a>การสร้างแบบแผนการรับรู้
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำงานนี้ระบุขั้นตอนในการสร้างแผนงานรายการคงค้าง  งานนี้ใช้บริษัทสาธิต USMF 
 

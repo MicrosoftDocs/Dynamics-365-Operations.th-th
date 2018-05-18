@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="printing-in-finance-and-operations-applications"></a>การพิมพ์ในแอพลิเคชัน Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถพิมพ์เอกสารได้โดยใช้เครื่องพิมพ์ท้องถิ่น หรืออุปกรณ์ที่เชื่อมต่อเครือข่าย อย่างใดอย่างหนึ่ง บทความนี้แสดงภาพรวมของวิธีการพิมพ์เอกสาร
 

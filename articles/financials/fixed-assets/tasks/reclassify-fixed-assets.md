@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="reclassify-fixed-assets"></a>จัดประเภทสินทรัพย์ถาวรใหม่
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 เมื่อต้องการจัดประเภทสินทรัพย์ถาวรใหม่ คุณต้องโอนย้ายสินทรัพย์ถาวรนั้นไปยังกลุ่มสินทรัพย์ถาวร หรือกำหนดหมายเลขสินทรัพย์ถาวรใหม่ให้กับสินทรัพย์ถาวรนั้นในกลุ่มเดียวกัน 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a> การตั้งค่าคอนฟิกการจัดเก็บสำหรับใบแจ้งยอดการขายปลีก
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกร้านค้าปลีกที่มีผลต่อการสร้างและลงใบแจ้งยอดของการขายปลีก  มิติทางการเงินในร้านค้าปลีกจะถูกดำเนินการในกระบวนการอื่น  ขั้นตอนนี้ใช้บริษัทสาธิต USRT
 

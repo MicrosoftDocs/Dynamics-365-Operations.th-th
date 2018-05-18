@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>ข้อมูลเชิงลึกทางการเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **ข้อมูลเชิงลึกทางการเงิน** ใช้ Microsoft Power BI เพื่อรวมตัวบ่งชี้ประสิทธิภาพหลักทางการเงิน (KPIs) แผนภูมิ และงบการเงิน Power BI ถูกฝังไว้ใน Microsoft Dynamics 365 for Finance and Operations
 โฟกัสของ **ข้อมูลเชิงลึกทางการเงิน** คือการรายงานเชิงวิเคราะห์ บทบาททั่วทั้งองค์กรสามารถดู ค้นคว้า เข้าใจ และดำเนินการได้ 

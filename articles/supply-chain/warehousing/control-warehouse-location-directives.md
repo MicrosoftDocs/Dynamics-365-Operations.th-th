@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>ควบคุมงานคลังสินค้าโดยเท็มเพลตงานและคำสั่งสถานที่
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการใช้เท็มเพลตงานและคำสั่งสถานที่ในการกำหนดวิธีและตำแหน่งที่งานจะถูกดำเนินการในคลังสินค้า
 

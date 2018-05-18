@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการจัดการกระบวนการขนย้ายวัสดุผ่านศูนย์เปลี่ยนถ่ายสินค้าที่มีการรายงานเป็นเสร็จสมบูรณ์ จากสายการผลิตไปยังจะมีท่าขนส่งสินค้าขาออก
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>ภาพรวม Lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมและคำอธิบายเกี่ยวกับลักษณะการทำงานของการผลิตแบบ Lean ใน Microsoft Dynamics 365 for Finance and Operations
 

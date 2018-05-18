@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> กำหนดลักษณะช่องทาง
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 เพิ่มช่องทางโดยการเพิ่มช่องทางและคุณลักษณะของผลิตภัณฑ์  คุณต้องเพิ่มช่องทางในลำดับชั้นเริ่มต้นขององค์กรก่อนที่คุณจะสามารถกำหนดแอททริบิวต์
 

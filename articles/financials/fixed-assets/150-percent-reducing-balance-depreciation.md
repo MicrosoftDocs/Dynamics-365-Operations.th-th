@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>ค่าเสื่อมราคายอดดุลที่ลดลง 150%
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมยอดดุลที่ลดลง 150% ของค่าเสื่อมราคา
 

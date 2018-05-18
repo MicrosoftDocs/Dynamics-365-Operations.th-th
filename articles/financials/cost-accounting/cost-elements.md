@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>มิติองค์ประกอบต้นทุน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หนึ่งในหลักของการลงบัญชีต้นทุนคือมิติองค์ประกอบต้นทุนจะถูกใช้ในการจัดประเภทและติดตามขั้นตอนของต้นทุน 
 

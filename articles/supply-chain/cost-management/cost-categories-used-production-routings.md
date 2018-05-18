@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>ประเภทต้นทุนที่ใช้ในกระบวนการผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่ใช้กับสภาพแวดล้อมการผลิตที่ใช้กระบวนการผลิต
 

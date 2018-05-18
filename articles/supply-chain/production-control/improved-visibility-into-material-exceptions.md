@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>การมองเห็นได้ในข้อยกเว้นของวัสดุ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ในพื้นที่ทำงาน **การจัดการระบบการผลิต** ไทล์สามไทล์จะช่วยให้คุณมีการมองเห็นที่ดีขึ้นในข้อยกเว้น สำหรับวัตถุดิบสำหรับใบสั่งผลิตและใบสั่งชุดงาน:
 

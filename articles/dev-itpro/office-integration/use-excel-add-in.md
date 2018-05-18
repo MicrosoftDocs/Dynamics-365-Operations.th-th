@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="use-the-excel-add-in"></a>ใช้ Add-in ของ Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel เมื่อต้องการเปิดเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือ Microsoft Dynamics 365 for Finance and Operations อย่างใดอย่างหนึ่ง
 

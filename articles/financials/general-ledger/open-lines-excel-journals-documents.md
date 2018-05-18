@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการป้อนและการเผยแพร่รายการสำหรับสมุดรายวันทั่วไปจาก Microsoft Excel ซึ่งจะรวมถึงข้อมูลเกี่ยวกับเท็มเพลตต่าง ๆ ที่คุณสามารถใช้ โดยขึ้นอยู่กับชนิดของธุรกรรมที่คุณกำลังป้อน
 

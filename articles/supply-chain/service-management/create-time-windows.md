@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-time-windows"></a>การสร้างหน้าต่างเวลา   
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 คุณสามารถใช้หน้าต่างเวลาเพื่อเพิ่มประสิทธิภาพการจัดกำหนดการของรายการใบสั่งบริการได้
 

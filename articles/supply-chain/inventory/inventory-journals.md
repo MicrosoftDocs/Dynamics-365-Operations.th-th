@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-journals"></a>สมุดรายวันสินค้าคงคลัง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถใช้สมุดรายวันสินค้าคงคลัง เพื่อลงรายบัญชีธุรกรรมสินค้าคงคลังทางกายภาพชนิดต่างๆ
 

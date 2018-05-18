@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI เกี่ยวกับการบัญชีต้นทุน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่คุณสามารถถ่ายทอดความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุนไปยังความปลอดภัยระดับแถวใน Microsoft Power BI ฟังก์ชันนี้ช่วยรับประกันว่าผู้ใช้จะเห็นเฉพาะข้อมูล Power BI ที่พวกเขาได้รับสิทธิ์การเข้าถึง
 

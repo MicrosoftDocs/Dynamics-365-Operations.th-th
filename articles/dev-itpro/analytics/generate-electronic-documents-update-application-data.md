@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>สร้างเอกสารทางอิเล็กทรอนิกส์และอัพเดตข้อมูลใบสมัครโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 คุณสามารถออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สามารถใช้ในแอพลิเคชัน Finance and Operations เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออก นอกจากนี้คุณยังสามารถออกแบบรูปแบบ ER ที่แยกวิเคราะห์เอกสารอิเล็กทรอนิกส์ขาเข้า และใช้เนื้อหาในเอกสารเหล่านั้นเพื่ออัพเดตข้อมูลแอพลิเคชัน 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> กำหนดช่องทางคอลเซ็นเตอร์และกำหนดลักษณะช่องทาง
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้นำไปสู่การสร้างช่องทางการขายปลีกใหม่และการกำหนดลักษณะช่องทาง ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT  กระบวนงานนี้มีไว้สำหรับบทบาทของฝ่ายไอทีระบบขายปลีก
 

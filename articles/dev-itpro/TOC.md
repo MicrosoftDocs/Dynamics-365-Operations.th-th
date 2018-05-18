@@ -10,7 +10,12 @@
 ## [รับสำเนาการประเมิน](dev-tools/get-evaluation-copy.md)
 ## [ลงทะเบียนเพื่อสมัครใช้งาน](dev-tools/sign-up-preview-subscription.md)
 ## [ปรับใช้และเข้าถึงสภาพแวดล้อมการปรับใช้](dev-tools/access-instances.md)
-## [ความต้องการของระบบการพัฒนา](dev-tools/development-system-requirements.md)
+### [ตั้งค่าคอนฟิก VM สำหรับนักพัฒนา](dev-tools/configure-developer-vm.md)
+### [สร้างผู้ใช้ใหม่ในเครื่องการพัฒนา](dev-tools/enable-development-machine.md)
+### [FAQ เครื่องเสมือนสำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง](sysadmin/VMs-no-admin-access.md)
+### [เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเปิดใช้งานการเข้าถึง Visual Studio Team Services](migration-upgrade/vso-machine-renaming.md)
+### [ความต้องการของระบบการพัฒนา](dev-tools/development-system-requirements.md)
+## [การควบคุมรุ่น, การค้นหาข้อมูลเมตา และการนำทาง](dev-tools/version-control-metadata-navigation.md)
 ## แอพลิเคชันตัวอย่างการจัดการยานพาหนะ
 ### [แอพลิเคชันตัวอย่างการจัดการยานพาหนะ](dev-tools/fleet-management-sample.md)
 ### [ภาพรวมแอพลิเคชันตัวอย่างการจัดการยานพาหนะ](dev-tools/introduction-fleet-management-sample.md)
@@ -20,10 +25,11 @@
 ### [Application Explorer](dev-tools/application-explorer.md)
 ### [สร้างและดีบักโครงการ](dev-tools/build-debug-project.md)
 ### [การดำเนินงานของบิลด์](dev-tools/build-operations.md)
-### [โปรแกรมแก้ไขรหัส](dev-tools/code-editor.md)
+### [โปรแกรมแก้ไขโค้ด](dev-tools/code-editor.md)
 ### [สร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล](dev-tools/create-data-model-elements.md)
-### [สร้างผู้ใช้ใหม่ในเครื่องการพัฒนา](dev-tools/enable-development-machine.md)
-### [รายการการวิเคราะห์การกำหนดเอง](dev-tools/customization-analysis-report.md)
+#### [แนวทางการตั้งชื่อ](extensibility/NamingGuidelines.md)
+#### [ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน](dev-tools/lock-models.md)
+### [รายงานการวิเคราะห์การกำหนดเอง](dev-tools/customization-analysis-report.md)
 ### [ตัวออกแบบองค์ประกอบ](dev-tools/element-designers.md)
 ### [การใช้องค์ประกอบ](dev-tools/element-usage.md)
 ### [ส่งออกและนำเข้าแบบจำลอง](dev-tools/models-export-import.md)
@@ -31,7 +37,6 @@
 ### [แบบจำลอง](dev-tools/models.md)
 ### [โครงการใน Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Add-in ของเครื่องมือสำหรับ Visual Studio](dev-tools/developer-tools-add-ins.md)
-### [ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน](dev-tools/lock-models.md)
 ### [อัพเดตเครื่องมือการพัฒนา Visual Studio](dev-tools/update-development-tools.md)
 ## ภาษาการสร้างโปรแกรม X++
 ### [X++ และคุณสมบัติของดีบักเกอร์ ](dev-tools/new-x-debugger-features.md)
@@ -104,9 +109,9 @@
 #### [คลาส W](dev-ref/w-classes.md)
 #### [คลาส X](dev-ref/x-classes.md)
 
-## [โฮมเพจเพิ่มความสามารถ](extensibility/extensibility-home-page.md)
+## [การเพิ่มความสามารถ](extensibility/extensibility-home-page.md)
 ### บทนำและการเริ่มต้นใช้งาน
-#### [แผนการขยายใบสมัคร](extensibility/extensibility-roadmap.md)
+#### [แผนการเพิ่มความสามารถแอพพลิเคชัน](extensibility/extensibility-roadmap.md)
 #### [คำขอการขยาย](extensibility/extensibility-requests.md) 
 #### [FAQ](extensibility/app-sealing-faq.md) 
 #### [ย้ายจากการโอเวอร์เลย์ไปยังส่วนขยาย](extensibility/migrate-overlayer-extension.md)
@@ -261,9 +266,9 @@
 ### [สร้างเอกสารหรือการฝึกอบรมโดยใช้ตัวบันทึกงาน](user-interface/task-recorder-training-docs.md)
 
 # [แพลตฟอร์มเคลื่อนที่](mobile-apps/platform/mobile-platform-home-page.md)
-## การเริ่มต้นใช้งาน
-### [การเริ่มต้นใช้งาน](mobile-apps/platform/mobile-platform-getting-started.md)
+## [การเริ่มต้นใช้งาน](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [สถาปัตยกรรม](mobile-apps/platform/mobile-platform-architecture.md)
+### [ภาพรวมของเหตุการณ์ตรรกะทางธุรกิจ](mobile-apps/platform/business-logic-events-overview.md)
 ### [แนวทางการออกแบบหน้า](mobile-apps/platform/page-design-guidelines.md)
 ### [แนวทางการออกแบบการดำเนินการ](mobile-apps/platform/action-design-guidelines.md)
 ### [แนวทางการออกแบบแบบฟอร์ม](mobile-apps/platform/form-design-requirements.md)
@@ -409,7 +414,7 @@
 ### [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](data-entities/configuration-data-templates.md)
 ### [เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ](data-entities/excel-template-multiple.md)
 ### [ติดตามการเปลี่ยนแปลงของเอนทิตี้](data-entities/entity-change-track.md)
-
+### [คีย์การตั้งค่าคอนฟิกและเอนทิตี้ข้อมูล](data-entities/config-key-entities.md)
 ### [ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน](data-entities/data-entities-report.md)
 
 
@@ -418,6 +423,7 @@
 ### [แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## การพัฒนาเอนทิตี้ข้อมูล
+### [หลักการออกแบบและแนวทางปฏิบัติสำหรับเอนทิตี้ข้อมูล](dev-tools/design-best-practices.md)
 ### [สร้างเอนทิตี้ข้อมูลใหม่](data-entities/build-consuming-data-entities.md)
 ### [คุณสมบัติเอนทิตี้ข้อมูล](data-entities/behavioral-properties-data-entities.md)
 ### [สร้างคอลัมน์คำนวณและฟิลด์เสมือน](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [คุณสมบัติของข้อมูลเมตา](data-entities/behavioral-properties-data-entities.md)
 ### [การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แม็ป](data-entities/validations-defaults-unmapped-fields.md)
 ### [การรักษาความปลอดภัยและเอนทิตี้ข้อมูล](data-entities/security-data-entities.md)
+### [สร้างเอนทิตี้แบบอ่านอย่างเดียวที่แสดงมิติทางการเงิน](financial/read-only-entity-financial.md)
+ 
+
 
 ## [ใช้ฐานข้อมูลของคุณเอง](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [ระบบอัตโนมัติของงานข้อมูล](data-entities/data-task-automation.md)
 
 ## [ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR](gdpr/gdpr-home-page.md)
-### [คู่มือ GDPR สำหรับ Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [คู่มือ GDPR สำหรับ Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-guide.md)
 ### [การจัดประเภทต้นทุน](gdpr/gdpr-asset-classification-values.md)
 ### [ใช้รายงานการค้นหาบุคคล](gdpr/gdpr-person-search-report.md)
 ### [ขยายรายงานการค้นหาบุคคล](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent](gdpr/respond-dsr-request-talent.md)
 ### [ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
+## [พื้นที่ทำงานการตรวจสอบความถูกต้องของข้อมูล](user-interface/data-validation-workspace.md)
 
-# [โฮมเพจการจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-home-page.md)
+# [การจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-home-page.md)
 ## [FAQ การพัฒนาและการจัดส่งแบบต่อเนื่อง](dev-tools/continuous-delivery-faq.md)
 ## [ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์](dev-tools/exclude-test-packages.md)
 ## [จัดการแบบจำลองของบุคคลที่สามและแพคเกจรันไทม์โดยใช้การควบคุมต้นทาง](dev-tools/manage-runtime-packages.md)
@@ -487,6 +497,7 @@
 ## [วิธีการ parm ของตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์](financial/segmented-entry-control-parm-method-specification.md)
 ## [เพิ่มความสามารถเพื่อค้นหาค่าสำหรับมิติทางการเงินในเท็มเพลต Microsoft Excel](financial/add-dimensions-excel-templates.md)
 ## [สร้างตัวให้บริการอัตราแลกเปลี่ยน](financial/create-exchange-rate-providers.md)
+## [สร้างตัวให้บริการอัตราแลกเปลี่ยนใน Microsoft Dynamics 8.0 for Finance and Operations รุ่น 8.0](financial/create-exchange-rate-8.md)
 
 # การพัฒนาห่วงโซ่อุปทาน
 ## [คู่มือการพัฒนาแบบ Gantt](user-interface/gantt-development-guide.md)
@@ -578,8 +589,7 @@
 ### [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](migration-upgrade/deprecated-features.md)
 
 # [การจัดการระบบ](sysadmin/system-administration-home-page.md)
-## [FAQ การอัพเดตรายเดือนของแพลตฟอร์ม](sysadmin/faq-platform-monthly-updates.md)
-## [FAQ เครื่องเสมือนที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง](sysadmin/VMs-no-admin-access.md)
+## [FAQ เกี่ยวกับการอัพเดตรายเดือนของแพลตฟอร์ม](sysadmin/faq-platform-monthly-updates.md)
 ## [เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลขององค์กรของคุณ](sysadmin/legal-terms-privacy-statement.md)
 ## [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](sysadmin/license-codes-configuration-keys-report.md)
 ## [การใช้ข้อมูลร่วมกันข้ามบริษัท](sysadmin/cross-company-data-sharing.md)

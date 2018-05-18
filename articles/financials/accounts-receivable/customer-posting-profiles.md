@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="customer-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีลูกค้า
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 โพรไฟล์การลงบัญชีของลูกค้าควบคุมการลงรายการบัญชีของธุรกรรมลูกค้าให้บัญชีแยกประเภททั่วไป
 

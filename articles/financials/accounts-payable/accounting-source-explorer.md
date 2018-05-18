@@ -28,7 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>โปรแกรมตรวจดูบัญชีต้นทาง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับโปรแกรมตรวจดูบัญชีต้นทาง ซึ่งคุณสามารถใช้สำหรับการวิเคราะห์แหล่งข้อมูลเบื้องหลังรายการบัญชีแยกประเภททั่วไปโดยละเอียด
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125%
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมยอดดุลที่ลดลง 125% ของค่าเสื่อมราคา
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>ปรับปรุงธุรกรรมโครงการ
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 คู่มืองานนี้แสดงวิธีการปรับปรุงธุรกรรมในโครงการ อย่างไรก็ตาม คุณสามารถปรับปรุงธุรกรรมโครงการได้ครั้งละหนึ่งรายการ หรือเลือกจากรายการของธุรกรรมโครงการทั้งหมดได้ โดยปกติแล้วงานนี้เสร็จสมบูรณ์ โดยหัวหน้างานโครงการ คู่มืองานนี้ใช้ชุดข้อมูล USSI
 

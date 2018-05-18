@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>กำหนดแบบจำลองขั้นตอนการผลิต
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 แบบจำลองขั้นตอนการผลิตอธิบายวิธีการทำงานของกำลังการผลิตของเซลล์ทำงานการผลิตแบบ lean ถูกคำนวณและเก็บรักษาไว้  ดังนั้น คำนิยามของแบบจำลองขั้นตอนการผลิตจะเป็นข้อกำหนดเบื้องต้นของคำนิยามของเซลล์ทำงาน  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

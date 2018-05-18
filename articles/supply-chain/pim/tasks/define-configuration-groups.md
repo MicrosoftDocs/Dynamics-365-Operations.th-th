@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>กำหนดกลุ่มการปรับเปลี่ยน
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการกำหนดกลุ่มการปรับเปลี่ยนผลิตภัณฑ์โดยการสร้างกลุ่มสองกลุ่มในบริษัทสาธิตข้อมูลของบริษัท USMF  นี่เป็นกระบวนงานที่สี่จากแปดกระบวนงาน ซึ่งอธิบายถึงวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ
 

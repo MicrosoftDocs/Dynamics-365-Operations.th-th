@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>การจัดโครงแบบของผลิตภัณฑ์ตามมิติ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 การจัดโครงแบบของผลิตภัณฑ์ตามมิติแสดงโซลูชันแบบง่ายสำหรับการสร้างผลิตภัณฑ์ย่อยจำนวนมากจากผลิตภัณฑ์หลักเดียวและสูตรการผลิต
 

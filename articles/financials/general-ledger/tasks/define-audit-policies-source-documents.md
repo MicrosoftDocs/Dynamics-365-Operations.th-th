@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีตั้งค่าและดำเนินการกฎนโยบายการตรวจสอบ  ตัวอย่างได้ใช้รายงานค่าใช้จ่ายที่มีชนิดค่าใช้จ่ายโรงแรม  กระบวนงานนี้ใช้บริษัทสาธิต USMF บทบาทผู้ตรวจสอบบัญชีประกอบด้วยสิทธิ์ที่ถูกต้องเพื่อการดำเนินการงานเหล่านี้
 

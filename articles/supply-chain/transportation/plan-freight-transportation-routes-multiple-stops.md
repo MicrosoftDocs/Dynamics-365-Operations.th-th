@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>วางแผนเส้นทางสำหรับการขนส่งค่าขนส่งที่มีจุดหยุดหลายแห่ง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงองค์ประกอบต่างๆ ที่คุณใช้ในการวางแผนเส้นทางการขนส่งใน Microsoft Dynamics 365 for Finance and Operations
 

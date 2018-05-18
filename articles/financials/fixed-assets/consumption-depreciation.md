@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consumption-depreciation"></a>การคิดค่าเสื่อมราคาตามปริมาณการใช้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของวิธีปริมาณการใช้ค่าเสื่อมราคา
 

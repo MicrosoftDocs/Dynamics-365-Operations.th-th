@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่  
 

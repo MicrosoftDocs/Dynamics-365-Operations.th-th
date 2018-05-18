@@ -27,7 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>คำนวณใหม่ของต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับกลุ่มสินทรัพย์ถาวร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร
 

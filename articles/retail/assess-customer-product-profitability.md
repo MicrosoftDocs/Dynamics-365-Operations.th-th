@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-customer-and-product-profitability"></a>ประเมินความสามารถในการทำกำไรของลูกค้าและผลิตภัณฑ์
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้อธิบายวิธีใช้การวิเคราะห์ในหน่วยความจำแบบเรียลไทม์เพื่อเข้าถึง สำรวจ และรับความช่วยเหลือเกี่ยวกับลูกค้าและกำไรจากสินค้าจากข้อมูลของ Microsoft Dynamics 365 for Retail 
 

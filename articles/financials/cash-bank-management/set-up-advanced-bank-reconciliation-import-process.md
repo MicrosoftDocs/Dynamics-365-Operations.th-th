@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>ตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations บทความนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคารของคุณ 
 

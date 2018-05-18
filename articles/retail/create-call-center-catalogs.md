@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>สร้างแค็ตตาล็อกของศูนย์บริการ
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้แสดงภาพรวมของกระบวนการสร้างแค็ตตาล็อกสำหรับศูนย์บริการ 
 

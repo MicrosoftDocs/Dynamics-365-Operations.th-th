@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 

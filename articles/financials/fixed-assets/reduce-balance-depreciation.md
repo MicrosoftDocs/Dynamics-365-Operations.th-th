@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมยอดดุลที่ลดลงของค่าเสื่อมราคา
 

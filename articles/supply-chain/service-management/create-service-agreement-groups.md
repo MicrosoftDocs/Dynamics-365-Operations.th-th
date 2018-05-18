@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>สร้างกลุ่มข้อตกลงการให้บริการ 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 กลุ่มข้อตกลงการให้บริการมีประโยชน์สำหรับการเรียงลำดับและการกรองข้อมูลข้อตกลงการให้บริการ
 

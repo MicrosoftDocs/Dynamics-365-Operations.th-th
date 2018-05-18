@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อนำเข้าข้อมูลจากไฟล์ภายนอกในรูปแบบ CSV (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ใช้กระบวนงานนี้เพื่อออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ในการนำเข้าข้อมูลไปยังแอพลิเคชัน Dynamics 365 for Finance and Operations จากไฟล์ภายนอกในรูปแบบ CSV ในกระบวนงานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, Inc. เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนในคู่มืองานให้เสร็จสมบูรณ์ "ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่า ใช้งานอยู่" 
 

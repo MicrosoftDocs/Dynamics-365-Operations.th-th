@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>สร้างผลิตภัณฑ์หลักที่ใช้มิติ
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการสร้างผลิตภัณฑ์หลักใหม่ด้วยเทคโนโลยีการจัดโครงแบบตามมิติ  บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF นี่เป็นกระบวนงานแรกจากแปดกระบวนงาน ที่อธิบายวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ
 

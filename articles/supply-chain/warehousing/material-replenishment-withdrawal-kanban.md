@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="replenishment-with-withdrawal-kanbans"></a>การเติมสินค้าที่มีคัมบังการเบิกถอน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>ตัวคั่นแผนภูมิของบัญชีต้องเป็นแบบเฉพาะ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ใน Microsoft Dynamics AX 2012 คุณสามารถใช้ตัวคั่นเดียวกันสำหรับผังบัญชีและค่ามิติได้ ใน Dynamics 365 for Finance and Operations คุณไม่สามารถมีตัวคั่นเดียวกันสำหรับผังบัญชีและค่ามิติได้ ถ้าไม่มีตัวคั่นซ้ำ คุณสามารถเปลี่ยนได้หลังจากการอัพเกรด 
 

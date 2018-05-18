@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-jobs"></a>กำหนดงานใหม่
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 งานนี้มุ่งเน้นการสร้างงานใหม่  ซึ่งจะเสร็จสมบูรณ์โดยใช้การป้อนข้อมูลและคัดลอกด้วยตนเองจากฟังก์ชันเท็มเพลต  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF งานนี้มีไว้สำหรับผู้เชี่ยวชาญด้านทรัพยากรบุคคล
 

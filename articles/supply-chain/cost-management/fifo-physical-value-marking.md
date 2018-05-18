@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 เข้าก่อนออกก่อน (FIFO) เป็นแบบจำลองสินค้าคงคลังที่สินค้าที่ได้รับเข้ามาแรกสุดจะถูกนำออกใช้ก่อน  ในทางการเงิน ปัญหาที่อัพเดตจากสินค้าคงคลังจะถูกจับคู่กับการรับสินค้าเข้าในคลังสินค้ารายการแรกที่ได้รับการอัพเดต ตามวันที่ทางการเงินของรายการความเคลื่อนไหวของสินค้าคงคลัง 
 

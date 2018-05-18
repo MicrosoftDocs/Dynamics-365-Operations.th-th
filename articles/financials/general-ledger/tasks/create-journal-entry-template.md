@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>สร้างรายการสมุดรายวันโดยใช้เท็มเพลต
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ใบสำคัญสมุดรายวันที่มีการลงรายการบัญชีสามารถบันทึกเป็นเท็มเพลตใบสำคัญ และนำไปใช้ในใบสำคัญสมุดรายวันใหม่  กระบวนงานนี้ใช้บริษัทสาธิต USMF
 

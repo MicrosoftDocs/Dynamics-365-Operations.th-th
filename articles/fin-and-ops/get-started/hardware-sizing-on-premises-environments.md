@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ก่อนที่คุณจะเริ่มกระบวนการกำหนดฮาร์ดแวร์และโครงสร้างพื้นฐานสำหรับสภาพแวดล้อมในองค์กร ให้ทำความคุ้นเคยกับ [ความต้องการของระบบ](system-requirements.md) และ [คำแนะนำในการตั้งค่าและการปรับใช้](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) เพื่อทำความเข้าใจที่ดีขึ้นเกี่ยวกับโครงการสร้างพื้นฐานที่อยู่ภายใต้ 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>วางแผนลำดับชั้นขององค์กรของคุณ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ก่อนที่คุณตั้งค่าองค์กรและลำดับชั้นขององค์กรใน Microsoft Dynamics 365 for Finance and Operations ตรวจสอบให้แน่ใจว่า คุณวางแผนว่าจะสร้างแบบจำลองธุรกิจของคุณอย่างไร รูปแบบองค์กรมีผลกระทบที่สำคัญต่อการใช้งานของ Finance and Operations และในกระบวนการทางธุรกิจ 
 

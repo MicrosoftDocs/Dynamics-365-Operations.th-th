@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกจากส่วนประกอบอื่นๆ 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 เมื่อต้องการทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำตามขั้นตอนในคู่มืองาน การจัดการการตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ก่อน และคุณต้องสามารถเข้าถึง Microsoft Dynamics Lifecycle Services (LCS) ได้
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="correct-a-free-text-invoice"></a>แก้ไขใบแจ้งหนี้ข้อความอิสระ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการแก้ไขข้อความอิสระในใบแจ้งหนี้ที่ได้ลงรายการบัญชี และออกใบแจ้งหนี้ที่แก้ไขใหม่
 

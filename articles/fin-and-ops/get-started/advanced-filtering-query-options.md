@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึงการกรองข้อมูลและตัวเลือกการสอบถามที่พร้อมใช้งานเมื่อคุณใช้ตัวดำเนินการ "รายการตรงกัน" ในกล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>โครงการจ้างงานโดยรวม
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 โครงการจ้างงานโดยรวมช่วยทรัพยากรบุคคลผู้เชี่ยวชาญในการสร้างหลายตำแหน่ง และจ้างผู้ปฏิบัติงานลงในตำแหน่งดังกล่าวได้อย่างมีประสิทธิภาพ
 

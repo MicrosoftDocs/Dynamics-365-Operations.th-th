@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 โดยการใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement คุณไม่จำเป็นต้องรักษาข้อมูลเกี่ยวกับผลิตภัณฑ์ของผู้จัดจำหน่ายในข้อมูลหลักของคุณเอง แทนที่จะทำเช่นนั้น รถเข็นซื้อของบนเว็บไซต์ของผู้จัดจำหน่ายจะถูกแปลงเป็นรายการที่มีข้อมูลผลิตภัณฑ์ที่ถูกต้องของใบขอซื้อ 
 

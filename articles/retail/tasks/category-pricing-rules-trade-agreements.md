@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> จัดประเภทกฏการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างข้อตกลงทางการค้าราคาขายโดยใช้กฎการกำหนดราคาประเภท  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT  งานนี้มีไว้สำหรับบทบาทผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก
 

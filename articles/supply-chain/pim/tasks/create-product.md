@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>สร้างผลิตภัณฑ์
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้จะแนะนำวิธีการสร้างผลิตภัณฑ์ใหม่ในลำดับชั้นของผลิตภัณฑ์ขายปลีก  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์
 

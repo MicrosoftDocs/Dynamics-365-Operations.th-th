@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-fees"></a>กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ตั้งค่าค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย  งานนี้ใช้บริษัทสาธิต USMF 
 

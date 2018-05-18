@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>กำหนดเซลล์ทำงานของ lean manufacturing
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 เซลล์ทำงานเป็นรูปแบบเฉพาะของกลุ่มทรัพยากรที่สามารถใช้ในกิจกรรมกระบวนการผลิตแบบ lean  เซลล์ทำงานมีที่ตั้งอินพุทและเอาท์พุทและข้อกำหนดของกำลังการผลิตตามแบบจำลองขั้นตอนการผลิต  หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับแนวคิดพื้นฐานของเซลล์ทำงาน Lean Manufacturing และการคำนวณกำลังการผลิต ดูเอกสาร Lean Manufacturing ข้อมูลสาธิตที่บริษัทใช้ในการสร้างขั้นตอนนี้คือ USMF
 

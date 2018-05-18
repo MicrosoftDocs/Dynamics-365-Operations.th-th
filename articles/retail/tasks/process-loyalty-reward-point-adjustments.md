@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> ดำเนินการปรับปรุงคะแนนรางวัลสำหรับสมาชิก
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการค้นหาข้อมูลบัตรสมาชิกและปรับปรุงคะแนนรางวัลสำหรับสมาชิก  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT  งานนี้มีไว้สำหรับบทบาทของผู้จัดการการดำเนินการขายปลีกหรือบทบาทของผู้จัดการฝ่ายบริการลูกค้า
 

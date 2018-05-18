@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI ในการพัฒนา 
 

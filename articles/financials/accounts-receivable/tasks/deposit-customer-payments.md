@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deposit-customer-payments"></a>นำฝากการชำระเงินของลูกค้า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ฝากการชำระเงินของลูกค้า  งานนี้ใช้บริษัทสาธิต USMF 
 

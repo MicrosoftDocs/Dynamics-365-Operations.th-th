@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-work-policies"></a>นโยบายงานของคลังสินค้า
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 นโยบายงานคลังสินค้าใน Microsoft Dynamics 365 for Finance and Operations ควบคุมว่างานคลังสินค้าจะถูกสร้างโดยกระบวนการคลังสินค้าในการผลิตหรือไม่ โดยยึดตามชนิดของใบสั่งงาน สถานที่เก็บสินค้าคงคลัง และผลิตภัณฑ์
 

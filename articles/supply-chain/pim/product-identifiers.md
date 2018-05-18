@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>ตัวระบุผลิตภัณฑ์ 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดต่างๆ ของตัวระบุผลิตภัณฑ์ และอธิบายวิธีการที่คุณสามารถเพิ่มรหัสผลิตภัณฑ์ในข้อมูลผลิตภัณฑ์ของคุณ
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>บัญชีการลงรายการการซื้อสินทรัพย์ถาวร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไปที่ลงรายการบัญชีสำหรับสินทรัพย์ที่ซื้อสินทรัพย์
 

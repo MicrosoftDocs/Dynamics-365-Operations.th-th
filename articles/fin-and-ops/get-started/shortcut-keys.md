@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ใช้แป้นพิมพ์ลัดต่อไปนี้ได้ในทุกส่วนของ Dynamics 365 for Finance and Operations 
 

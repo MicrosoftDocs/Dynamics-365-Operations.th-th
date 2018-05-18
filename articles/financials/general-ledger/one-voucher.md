@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>ใบสำคัญหนึ่งใบ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  ฟังก์ชันนี้จะพร้อมใช้งานใน Dynamics 365 for Finance and Operations รุ่น 8.0 ซึ่งจะพร้อมใช้งานในการเผยแพร่ในฤดูใบไม้ผลิ '18   

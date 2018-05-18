@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่ายควบคุมการลงรายการบัญชีของธุรกรรมผู้จัดจำหน่ายที่บัญชีแยกประเภททั่วไป
 

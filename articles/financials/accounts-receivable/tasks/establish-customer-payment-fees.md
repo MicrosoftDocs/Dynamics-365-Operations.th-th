@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="establish-customer-payment-fees"></a>จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 สร้างค่าธรรมเนียมในการชำระเงินสำหรับการชำระเงินของลูกค้า 
 

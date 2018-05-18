@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>ปันส่วนงบประมาณโครงการหรือการปรับปรุงงบประมาณตลอดรอบระยะเวลา
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  หลังจากที่คุณป้อนงบประมาณโครงการหรือการปรับปรุงงบประมาณโครงการ และก่อนที่คุณจะส่งเพื่อการอนุมัติ คุณสามารถปันส่วนยอดเงินตลอดรอบระยะเวลาได้ ถ้างบประมาณหรือการปรับปรุงงบประมาณถูกปฏิเสธ คุณยังสามารถปันส่วนยอดเงินก่อนที่คุณส่งอีกครั้งได้ 
 

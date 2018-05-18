@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>ลำดับงานค่าใช้จ่าย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 คุณสามารถใช้ระบบลำดับงานใน Microsoft Dynamics 365 for Finance and Operations เพื่อตั้งค่ากระบวนการตรวจทานสำหรับรายงานค่าใช้จ่ายในการจัดการค่าใช้จ่ายได้ คุณสามารถตั้งค่าลำดับงานที่ใช้เงื่อนไขต่อไปนี้เพื่อกำหนดผู้อนุมัติรายงานค่าใช้จ่าย:
 

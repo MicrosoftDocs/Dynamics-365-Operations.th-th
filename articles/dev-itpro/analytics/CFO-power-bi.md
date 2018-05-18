@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>เนื้อหาภาพรวมของ CFO ใน Power BI
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 หัวข้อนี้อธิบายถึงเนื้อหา **ภาพรวมของ CFO** ใน Microsoft Power BI เนื้อหา Power BI นี้ใช้กับรายการดังกล่าวโดยใช้ Microsoft Dynamics 365 for Finance and Operations รุ่น 7.2 ถ้าคุณกำลังใช้รุ่น 7.3 หรือใหม่กว่า โปรดอ้างอิงถึง [ข้อมูลเชิงลึกทางการเงิน](financial-insights.md)
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>แบบแผนค่าเสื่อมราคาของสินทรัพย์ถาวร
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 แบบแผนการคิดค่าเสื่อมราคาจะถูกใช้เพื่อกำหนดเวลาและวิธีการคำนวณค่าเสื่อมราคา สำหรับทั้งปีที่ได้สินทรัพย์ถาวรมาและปีที่ตัดจำหน่ายสินทรัพย์ถาวร
 

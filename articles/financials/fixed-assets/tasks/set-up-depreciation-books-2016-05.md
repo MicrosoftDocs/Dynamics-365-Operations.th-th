@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>ตั้งค่าสมุดบัญชีค่าเสื่อมราคา  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 คำแนะนำของงานนี้จะสร้างสมุดค่าเสื่อมราคาใหม่และเชื่อมโยงกับสินทรัพย์ถาวร   ใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF
 

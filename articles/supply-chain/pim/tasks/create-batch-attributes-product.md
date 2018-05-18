@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-batch-attributes-for-a-product"></a>สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการสร้างแอททริบิวต์ของชุดงาน กำหนดช่วงของค่าเริ่มต้น และรวมแอททริบิวต์ในกลุ่ม  บริษัทข้อมูลสาธิตที่เคยสร้างขั้นตอนนี้คือบริษัท USP2
 

@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายขั้นตอนสำหรับการเตรียมการในการรักษาต้นทุนสำหรับสินค้าที่ผลิต ขั้นตอนสำหรับสินค้าที่ผลิตแตกต่างกันเล็กน้อยจากขั้นตอนสำหรับสินค้าที่ซื้อ
 

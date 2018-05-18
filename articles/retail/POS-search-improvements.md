@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>ภาพรวมของการค้นหาผลิตภัณฑ์และลูกค้าในการขายหน้าร้าน
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 การขายหน้าร้านที่สมัยใหม่ (MPOS) และการขายหน้าร้านระบบ Cloud (CPOS) ให้ฟังก์ชันการค้นหาที่ใช้งานง่ายสำหรับผลิตภัณฑ์และลูกค้า เนื่องจากแถบการค้นหาจะปรากฏที่ด้านบนของหน้าต่าง MPOS และ CPOS เสมอ พนักงานสามารถค้นหาผลิตภัณฑ์และลูกค้าได้อย่างรวดเร็ว
 

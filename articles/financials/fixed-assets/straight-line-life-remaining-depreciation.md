@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>การคิดค่าเสื่อมราคาตามอายุการใช้งานคงเหลือแบบเส้นตรง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงภาพรวมอายุการใช้งานคงเหลือแบบเส้นตรงของค่าเสื่อมราคา
 

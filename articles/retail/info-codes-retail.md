@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="info-codes"></a>รหัสข้อมูล
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 บทความนี้แสดงภาพรวมเกี่ยวกับรหัส กลุ่มรหัสข้อมูล และข้อมูลวิธีใช้
 

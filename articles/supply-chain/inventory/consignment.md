@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-consignment"></a>ตั้งค่าปริมาณการใช้วัสดุ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้กระบวนการสินค้าคงคลังที่มีการส่งมอบขาเข้า
 
