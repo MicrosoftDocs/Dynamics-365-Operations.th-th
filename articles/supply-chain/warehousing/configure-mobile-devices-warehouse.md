@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกรายการเมนู ที่พนักงานคลังสินค้าใช้ในการดำเนินงานบนอุปกรณ์เคลื่อนที่
 
@@ -407,7 +407,7 @@ ms.lasthandoff: 04/13/2018
 
 **หมายเหตุ:** คุณสามารถต้องการยืนยันผลิตภัณฑ์เฉพาะสำหรับการเบิกและส่งชนิดงาน
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การตั้งค่าการแสดงผลสำหรับอุปกรณ์เคลื่อนที่ของคลังสินค้า](change-warehouse-mobile-device-displays.md)

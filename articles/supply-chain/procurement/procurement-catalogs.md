@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>แค็ตตาล็อกการจัดซื้อ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายถึง วิธีที่ผู้เชี่ยวชาญด้านการจัดซื้อสามารถตั้งค่าและรักษาแค็ตตาล็อกการจัดซื้อในระดับสูง แค็ตตาล็อกการจัดซื้อกำหนดสินค้าและบริการที่พนักงานบริษัทสามารถสั่งสำหรับใช้ภายใน
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   **ทั้งสอง** – ถ้าแค็ตตาล็อกรวมประเภทผลิตภัณฑ์ที่มีชนิดของการอัพเดตค่าเริ่มต้นของ **คงที่** จะต้องอัพเดตด้วยตนเองเมื่อประเภทเหล่านี้ถูกอัพเดต ถ้าแค็ตตาล็อกรวมประเภทผลิตภัณฑ์ที่มีชนิดการอัพเดตค่าเริ่มต้น **ไดนามิก** จะมีการอัพเดตโดยอัตโนมัติทุกครั้งที่มีการเปลี่ยนแปลง
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น (คู่มืองาน)](tasks/set-up-procurement-category-hierarchy.md)

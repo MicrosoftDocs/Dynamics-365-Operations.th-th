@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition เวอร์ชันล่าสุดของคุณ
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุด](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)
 
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>การนำออกใช้ของแอพลิเคชัน
 
@@ -129,12 +129,12 @@ ms.lasthandoff: 04/13/2018
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>แพลตฟอร์ม update 15</td>
 <td>7.0.4839</td>
-<td>มีนาคม 2018 (นี่คือการนำออกใช้ที่เป็นเป้าหมาย ซึ่งพร้อมใช้งานสำหรับผู้ใช้ที่ได้เลือกใน Continuous Auto-update Advantage Program (CAAP) เท่านั้น) การปรับปรุงแพลตฟอร์ม 15 ยังมีอยู่ใน Dynamics 365 for Finance and Operations รุ่น 8.0 อีกด้วย)</td>
+<td>การปรับปรุงแพลตฟอร์ม 15 เป็นการนำออกใช้ที่เป็นเป้าหมาย ซึ่งหมายความว่า จะพร้อมใช้งานสำหรับผู้ใช้ทั้งหมดในเดือนมิถุนายน 2018</td>
 <td><a href="whats-new-platform-update-15.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations, Enterprise edition การอัพเดตแพลตฟอร์ม 15 (มีนาคม 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>แพลตฟอร์ม update 12</td>
-<td>7.0.4709</td>
+<td>7.0.4841</td>
 <td>พฤศจิกายน 2017</td>
 <td><a href="whats-new-platform-update-12.md">มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Finance and Operations, Enterprise edition แพลตฟอร์มอัพเดต 12 (พฤศจิกายน 2017)</a></td>
 <tbody><tr class="odd">

@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>ติดตั้งตัวออกแบบโครงร่าง Retail POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 คุณสามารถใช้ตัวออกแบบคลิกเดียวเพื่อออกแบบโครงร่าง Modern POS ของการขายปลีก (MPOS) และ POS ระบบคลาวด์ต่างๆ ในโหมดแนวนอนหรือโหมดแนวตั้ง สำหรับร้านค้า เครื่องบันทึกเงินสด พนักงาน และผู้จัดการ
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/03/2017
 
 **ปัญหาที่ทราบ:** ตัวออกแบบทำงานไม่ถูกต้องในเบราเซอร์ Google Chrome และ Mozilla Firefox เรากำลังดำเนินการเพื่อแก้ไขปัญหานี้
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ตั้งค่าคอนฟิก ดาวน์โหลด ติดตั้ง และเรียกใช้ Modern POS ของการขายปลีก](retail-modern-pos-device-activation.md)

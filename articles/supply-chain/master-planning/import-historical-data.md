@@ -19,16 +19,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02daa312d74311432c0c468e3e691637dcf94157
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e7975003620d951717c66144c8d0521de0f69158
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-historical-data-for-demand-forecasts"></a>นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 เพื่อช่วยในการรับรองความถูกต้องของการคาดการณ์ความต้องการ คุณต้องมีข้อมูลความต้องการในอดีตที่มากเท่ากับข้อมูลที่คุณสามารถได้รับสำหรับแต่ละสินค้าหรือคีย์การปันส่วนสินค้า ถ้าข้อมูลความต้องการในอดีตยังไม่ได้ถูกนำเข้า ให้ใช้เอนทิตี้ข้อมูล **ความต้องการภายนอกในอดีต** (ReqDemPlanHistoricalExternalDemandEntity) ใน Microsoft Dynamics 365 for Finance and Operations เพื่อนำเข้า
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/03/2017
 
 หลังจากที่คุณนำเข้าข้อมูลความต้องการในอดีต คุณสามารถสร้างการคาดการณ์ความต้องการได้
 
-## <a name="see-also"></a>ดูเพิ่มเติมที่
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
 

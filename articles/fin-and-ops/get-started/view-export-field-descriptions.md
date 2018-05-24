@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>ดูและส่งออกคำอธิบายฟิลด์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการดูคำอธิบายฟิลด์และวิธีการใช้หน้าคำอธิบายฟิลด์เพื่อส่งออกคำอธิบาย
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 04/13/2018
 
 สำหรับข้อมูลเกี่ยวกับวิธีการต่างๆ ในการค้นหาหน้า ดูส่วน "กำลังค้นหาหน้า" ก่อนบทความนี้ ถ้าคุณพิมพ์ชื่อที่เหมือนกันของหน้า คำอธิบายฟิลด์อาจไม่แสดงถ้ามีหน้าที่มีชื่อเดียวกันมากกว่าหนึ่งหน้า คลิกที่ลูกศรในฟิลด์ **เลือกหน้า** เพื่อเปิดรายการของหน้าที่พร้อมใช้งานที่กรองแล้ว
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [เลือกกำหนดวิธีใช้ฟิลด์](../../dev-itpro/user-interface/customize-field-help.md)

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>ภาพรวมของกระบวนการผลิต
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของกระบวนการผลิต โดยอธิบายขั้นต่างๆ ของใบสั่งผลิต ใบสั่งชุดงาน และคัมบัง ตั้งแต่การสร้างใบสั่งไปจนถึงการปิดบัญชีรอบระยะเวลาทางการเงิน 
 
@@ -78,14 +78,14 @@ ms.lasthandoff: 11/03/2017
 12. **การปิดรอบระยะเวลา**– บางหลักการบัญชีต้นทุน เช่น ค่าเฉลี่ยเป็นงวด การคิดต้นทุนการล้างแบบย้อนกลับ FIFO หรือ LIFO ต้องการกิจกรรมเป็นงวดๆเพื่อปิดสินค้าคงคลังหรือรอบระยะเวลาทางการเงิน โดยทั่วไป ระบบจะพยายามรายงานการใช้ทรัพยากรวัสดุและปริมาณทั้งหมด และรวมถึงการแก้ไขของสินค้าคงคลังและปริมาณของเสียด้วย ก่อนที่จะมีการปิดรอบระยะเวลา รายงานนี้ใช้โดยทั่วไปถูกดำเนินงานโดยใช้สมุดรายวันความเคลื่อนไหวของสินค้าคงคลังหรือสมุดรายวันการปรับปรุง เป้าหมายคือ การประเมินประสิทธิภาพทางเศรษฐกิจของหน่วยการดำเนินงานต่อรอบระยะเวลา ในบางกรณี เมื่อมีการใช้ใบสั่งผลิตที่ใช้งานเป็นเวลานานซึ่งครอบคลุมรอบระยะเวลาการรายงานทางการเงิน สมุดรายวันการผลิตจะถูกใช้เพื่อรายงานความคืบหน้าการผลิตและปริมาณการใช้วัสดุภายในจุดสิ้นสุดของรอบระยะเวลา
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ผลป้อนกลับของการผลิต](production-feedback.md)
 
 [แบบจำลองการจัดโครงแบบผลิตภัณฑ์](../pim/product-configuration-models.md)
 
-[Lean manufacturing](lean-manufacturing-overview.md)
+[การผลิตแบบ Lean](lean-manufacturing-overview.md)
 
 
 

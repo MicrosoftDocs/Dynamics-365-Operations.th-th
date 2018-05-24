@@ -20,16 +20,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ce6774ede836eb29e6ef2cd8d4baa9efb931020c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-orders-overview"></a>ภาพรวมใบสั่งของลูกค้า
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับใบสั่งของลูกค้าใน Modern POS ของการขายปลีก (MPOS) ใบสั่งของลูกค้ามีชื่อเรียกอีกอย่างหนึ่งว่าใบสั่งพิเศษ หัวข้อนี้มีคำอธิบายเกี่ยวกับพารามิเตอร์ที่เกี่ยวข้องและขั้นตอนของธุรกรรม
 
@@ -95,7 +95,7 @@ ms.lasthandoff: 11/03/2017
 
 เมื่อตัวเลือก **สร้างใบสั่งของลูกค้าในโหมดอะซิงโครนัส** ถูกตั้งค่าเป็น **ใช่** ใบสั่งของลูกค้ามักถูกสร้างในโหมดอะซิงโครนัส แม้ว่า Retail Transaction Service (RTS) จะพร้อมใช้งาน ถ้าคุณตั้งค่าตัวเลือกนี้เป็น **ไม่ใช่**ใบสั่งของลูกค้ามักถูกสร้างในโหมดซิงโครนัสโดยใช้ RTS เมื่อใบสั่งของลูกค้าถูกสร้างขึ้นในโหมดอะซิงโครนัส จะถูกดึงและแทรกลงใน Retail โดยงาน Pull (P) มีการสร้างใบสั่งขายที่สอดคล้องกันใน Retail เมื่อมีการเรียกใช้ **ซิงโครไนส์ใบสั่ง** ด้วยตนเองหรือโดยใช้กระบวนการชุดงาน
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ใบสั่งของลูกค้าแบบไฮบริด](hybrid-customer-orders.md)

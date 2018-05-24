@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>การตรวจนับตามรอบ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการใช้การตรวจนับตามรอบกับโซลูชันคลังสินค้าที่จะพร้อมใช้งานในการจัดการคลังสินค้า  บทความนี้ไม่ใช้กับโซลูชันคลังสินค้าที่พร้อมใช้งานในการบริหารสินค้าคงคลัง
 
@@ -136,7 +136,7 @@ ms.lasthandoff: 11/03/2017
 
 คุณสามารถปรับปรุงความแตกต่างของค่าตรวจนับ และจากนั้นยอมรับค่าที่ตรวจนับแล้วบนหน้า **การตรวจนับตามรอบการตรวจทานที่ค้างอยู่** คุณสามารถตรวจสอบการนับที่แก้ไขแล้วของปริมาณของสินค้าในหน้า **คงเหลือตามสถานที่** ค่าการตรวจนับจะถูกปฏิเสธถ้าไม่สามารถอนุมัติความแตกต่างได้
 
-## <a name="see-also"></a>ดูเพิ่มเติมที่
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 [ตั้งค่าคอนฟิกอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](configure-mobile-devices-warehouse.md)
 
 

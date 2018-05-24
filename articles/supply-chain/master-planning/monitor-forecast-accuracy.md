@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd84dde353972d2d259706dd9f8f3621cef04472
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="monitor-forecast-accuracy"></a>ตรวจสอบความถูกต้องของการคาดการณ์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายชนิดของการคาดการณ์ความถูกต้องที่ Microsoft Dynamics 365 for Finance and Operations คำนวณ และอธิบายวิธีการดูค่าความถูกต้อง
 
@@ -41,7 +41,7 @@ Finance and Operations คำนวณชนิดของความถูก
 **หมายเหตุ:** ถ้าคุณใช้บริการ Machine Learning ของ Microsoft Azure ของการคาดการณ์ความต้องการใน Finance and Operations การคำนวณความถูกต้องของแบบจำลองภายในจะขึ้นอยู่กับชุดข้อมูลการทดสอบ เมื่อต้องการระบุขนาดของชุดข้อมูลการทดสอบ ให้ตั้งค่าพารามิเตอร์ **TEST\_SET\_SIZE\_PERCENT** ในหน้า **พารามิเตอร์การคาดการณ์ความต้องการ** ตัวอย่างเช่น ถ้าคุณตั้งค่าเป็น **20**, 20 เปอร์เซ็นต์สุดท้ายของข้อมูลในอดีตจะถูกใช้ในการคำนวณความถูกต้องของแบบจำลองภายใน
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การอนุมัติการคาดการณ์ที่มีการปรับปรุง](authorize-adjusted-forecast.md)

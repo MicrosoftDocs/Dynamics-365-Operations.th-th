@@ -19,16 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2e73441a3f4190561d1d16db40ee1581267c8dfb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a>ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 คุณต้องตั้งค่าพารามิเตอร์ที่ใช้ร่วมกันสำหรับเรกคอร์ดที่ใช้ร่วมกันระหว่างบริษัท เช่นเรกคอร์ดตำแหน่ง บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 04/13/2018
 -   **ไม่มีวัน** – คุณไม่สามารถมอบหมายผู้ปฏิบัติงานไปยังตำแหน่งใหม่เมื่อตำแหน่งนั้นถูกสร้าง ถ้าคุณเลือกตัวเลือกนี้ คุณต้องเปิดหน้า **ตำแหน่ง** สำหรับแต่ละตำแหน่งใหม่เมื่อพร้อมใช้งาน จากนั้น ในแท็บ **ทั่วไป** ป้อนวันที่ **พร้อมใช้งานสำหรับการกำหนด**เพื่อเปิดใช้งานการกำหนดผู้ปฏิบัติงาน
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท](set-up-company-specific-hr-parameters.md)

@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการจัดการวัฏจักรของการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ (ER) สำหรับโซลูชัน Microsoft Dynamics 365 for Finance and Operations
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/03/2017
 
 การตั้งค่าคอนฟิก ER ที่ถูกออกแบบใน สภาพแวดล้อมการพัฒนา สามารถถูกอัพโหลดไปที่ สภาพแวดล้อมการทดสอบ สำหรับการประเมินการตั้งค่าคอนฟิก (การรวมกระบวนการที่เหมาะสม ความถูกต้องของผลลัพธ์ และประสิทธิภาพ) และการรับรองคุณภาพ เช่น ความถูกต้องของสิทธิการเข้าถึงซึ่งควบคุมโดยบทบาท และการแบ่งแยกหน้าที่ได้ คุณลักษณะที่เปิดใช้งานการแลกเปลี่ยนการตั้งค่าคอนฟิก ER สามารถถูกใช้สำหรับวัตถุประสงค์นี้ ในตอนท้าย การตั้งค่าคอนฟิก ER ที่ได้รับการพิสูจน์แล้วสามารถถูกอัพโหลดไปยัง LCS ที่สามารถถูกใช้ร่วมกันกับสมาชิกการบริการ หรือไปยัง สภาพแวดล้อมการผลิต สำหรับการใช้ภายใน ดังที่แสดงในภาพประกอบต่อไปนี้ ![วงจรการตั้งค่าคอนฟิก ER](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)

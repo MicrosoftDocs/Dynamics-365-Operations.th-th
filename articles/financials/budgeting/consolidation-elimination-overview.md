@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60dd33f296a37f0010a948c410738ce5486b780e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>ภาพรวมของการรวมบัญชีและการตัดออก
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกระบวนการรวมบัญชีและการตัดออก โดยจะมีคำตอบสำหรับคำถามที่ถามบ่อย
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 โดยการใช้ตัวเลือก **ส่งออกยอดดุลของบริษัท** เพื่อส่งออกจากอินสแตนซ์หนึ่ง และจากนั้นใช้ตัวเลือก **รวมกับการนำเข้า** ในอินสแตนซ์อื่น คุณสามารถรวมข้อมูลได้
 
 
-สำหรับข้อมูลเพิ่มเติม ดู [การประเมินค่าใหม่ตามสกุลเงินในบริษัทที่รวมบัญชี](..\general-ledger\currency-revaluation-consolidation-company.md)
+สำหรับข้อมูลเพิ่มเติม ดู [การประเมินค่าใหม่ตามสกุลเงินในบริษัทที่รวมบัญชี](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
 

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed0df1abbf4f70ea70046eff7b91a25fdd59016c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fed78a7eba16d286a81b1e9ad709142422298c91
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delays"></a>ล่าช้า
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับวันที่ล่าช้าในการวางแผนหลัก วันที่ที่ล่าช้าเป็นวันครบกำหนดชำระจริงที่ได้รับธุรกรรมการ ถ้าวันเติมสินค้าแรกสุดที่การวางแผนหลักคำนวณ เป็นวันหลังจากวันที่ร้องขอ
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 11/03/2017
 
 **หมายเหตุ:** ในรุ่นก่อนหน้า ความล่าช้าที่คำนวณได้ถูกเรียกว่า *ข่าวสารในอนาคต*วันล่าช้าที่เรียกว่า *วันในอนาคต*และธุรกรรมล่าช้าที่เรียกว่า *ธุรกรรมที่มีการตั้งค่าในอนาคต*
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การตั้งค่าความครอบคลุม](coverage-settings.md)
