@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>ข้อตกลงการซื้อ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับข้อตกลงการซื้อ  ข้อตกลงการซื้อคือสัญญาที่กำหนดให้องค์กรซื้อในปริมาณหรือยอดเงินที่ระบุโดยใช้ใบสั่งซื้อตามช่วงเวลา ในการแลกเปลี่ยนข้อผูกมัดนี้ ผู้ซื้อจะได้รับราคาและส่วนลดพิเศษ 
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="financial-dimensions-on-purchase-agreements"></a>มิติทางการเงินบนข้อตกลงการซื้อ
 คุณสามารถคัดลอกมิติทางการเงินไปยังส่วนหัวของเอกสารหรือแต่ละรายการของข้อตกลงการซื้อ ถ้าคุณเปลี่ยนมิติในส่วนหัวของข้อตกลงหรือในรายการข้อตกลง การเปลี่ยนแปลงจะไม่ส่งผลต่อใบสั่งที่นำออกใช้แล้วใดๆ แต่จะมีการสะท้อนในใบสั่งใหม่อื่นๆ
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [สร้างข้อตกลงการซื้อใหม่ (คู่มืองาน)](tasks/create-purchase-agreement.md)

@@ -19,21 +19,21 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="connect-the-help-system"></a>เชื่อมต่อระบบวิธีใช้
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายส่วนประกอบของระบบวิธีใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations และให้ภาพรวมของวิธีการเชื่อมต่อส่วนประกอบเหล่านี้และสรุปวิธีการสร้างวิธีใช้แบบกำหนดเอง 
 
 ## <a name="help-architecture"></a>สถาปัตยกรรมของวิธีใช้
-ภาพประกอบต่อไปนี้แสดงส่วนประกอบของระบบวิธีใช้ของ Finance and Operations ระบบภายในผลิตภัณฑ์ดึงบทความจากไซต์ Finance and Operations ที่ https://docs.microsoft.com ตลอดจนคู่มืองานที่จัดเก็บอยู่ในบบจำลองกระบวนการทางธุรกิจใน Lifecycle Services (LCS) 
+ภาพประกอบต่อไปนี้แสดงส่วนประกอบของระบบวิธีใช้ของ Finance and Operations ระบบวิธีใช้ภายในผลิตภัณฑ์ดึงบทความจากไซต์ Finance and Operations ใน https://docs.microsoft.com ตลอดจนคู่มืองานที่จัดเก็บอยู่ในตัวทำแบบจำลองกระบวนการทางธุรกิจใน Lifecycle Services (LCS) 
 > [!NOTE]
 > มีการวางแผนลักษณะการทำงานที่แสดงไว้ในไดอะแกรมที่มีเครื่องหมายดอกจัน (\*) แต่ยังไม่พร้อมใช้งาน [![สถาปัตยกรรมของวิธีใช้](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 11/03/2017
 
 สำหรับคู่ค้า ถ้าคุณเลื่อนลำดับเป็นไลบรารีของบริษัท และรวมอยู่ในโซลูชัน ไลบรารีนั้นจะพร้อมใช้งานสำหรับลูกค้าของคุณ คุณสามารถทำสำเนาสากล APQC และจากนั้นเปิดสำเนาของคุณ เปิดบันทึกงานจากไลบรารีนั้น ปรับเปลี่ยน และบันทึกบันทึกงานที่ึคุณทำการเปลี่ยนแปลง สำหรับข้อมูลเพิ่มเติม ดู [วิธีการสร้างบันทึกงานเพื่อใช้เป็นเอกสารหรือการฝึกอบรม](../../dev-itpro/user-interface/task-recorder.md)
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ภาพรวมของวิธีใช้](help-overview.md)

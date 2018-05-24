@@ -1,8 +1,9 @@
 ---
 title: "แอททริบิวต์ กลุ่มแอททริบิวต์ และการเชื่อมโยงกับเอนทิตี้ Retail ต่างๆ ใน Finance and Operations"
+description: "หัวข้อนี้อธิบายวิธีการใช้แอททริบิวต์ เพื่อช่วยให้มีวิธีในการอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด"
 author: ashishmsft
 manager: AnnBe
-ms.date: 03/12/2018
+ms.date: 04/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5e04b1f6ef58836eeac85be074e295e6d1f42c52
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>แอททริบิวต์ กลุ่มแอททริบิวต์ และการเชื่อมโยงกับเอนทิตี้ Retail ต่างๆ ใน Finance and Operations
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 *แอททริบิวต์* จะกำหนดวิธีการอธิบายผลิตภัณฑ์และลักษณะเพิ่มเติมผ่านทางฟิลด์ที่กำหนดโดยผู้ใช้ (เช่น **ขนาดหน่วยความจำ** **กำลังการผลิตฮาร์ดดิสก์** **เป็นความสอดคล้องกันของ Energy star** ฯลฯ) ใน Microsoft Dynamics 365 for Finance and Operations แอททริบิวต์สามารถเชื่อมโยงกับเอนทิตีการขายปลีกต่างๆ ได้ เช่น ประเภทผลิตภัณฑ์ และช่องทางการขายปลีก และสามารถตั้งค่าเริ่มต้นสำหรับรายการเหล่านี้ได้ จากนั้น ผลิตภัณฑ์จะสืบทอดแอททริบิวต์และค่าเริ่มต้น เมื่อได้ถูกเชื่อมโยงกับประเภทผลิตภัณฑ์และช่องทางการขายปลีก ค่าเริ่มต้นสามารถถูกแทนที่ได้ในระดับผลิตภัณฑ์แต่ละรายการ ที่ระดับช่องทางการขายปลีก หรือในแค็ตตาล็อกการขายปลีก
  

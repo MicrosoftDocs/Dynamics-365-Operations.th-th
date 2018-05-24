@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>กระบวนการการจัดการคุณภาพ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับกระบวนการจัดการคุณภาพสำหรับผลิตภัณฑ์ที่ไม่สอดคล้องกัน อธิบายวิธีการที่คุณสามารถใช้ฟังก์ชันการควบคุมคุณภาพ วิธีการกำหนด และรักษาความไม่สอดคล้อง และวิธีการจัดการกับการแก้ไข
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 
 เป็นความคิดที่ดีที่จะกำหนดชนิดเอกสารเฉพาะสำหรับการแก้ไขความไม่สอดคล้องกันโดยการใช้หน้า **ชนิดของเอกสาร** จากนั้นคุณสามารถใช้หน้า **การตั้งค่ารายงาน** เพื่อกำหนดว่าข้อคิดเห็นสำหรับชนิดเอกสารนี้ควรจะพิมพ์บนรายงานการแก้ไขหรือไม่ รายงานการแก้ไขที่พิมพ์แสดงข้อมูลเกี่ยวกับความไม่สอดคล้องกัน และบันทึกความไม่สอดคล้องกันที่เกี่ยวข้อง รายงานยังรวมข้อมูลการแก้ไข เช่น ชนิดการวินิจฉัย และบันทึกการแก้ไขที่เกี่ยวข้อง
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การเปิดใช้การจัดการคุณภาพ](enable-quality-management.md)

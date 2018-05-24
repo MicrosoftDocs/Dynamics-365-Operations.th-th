@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>ตั้งค่าคอนฟิกโครงร่างหน้าจอสำหรับ POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้ให้ข้อมูลเกี่ยวกับโครงร่างหน้าจอสำหรับประสบการณ์ระบบการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 for Retail
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 
 **ผลิตภัณฑ์ที่แนะนำ** - ถ้ามีการตั้งค่าคอนฟิกสำหรับสภาพแวดล้อม การควบคุมผลิตภัณฑ์ที่แนะนำจะแสดงคำแนะนำตาม Machine Learning การควบคุมผลิตภัณฑ์ที่แนะนำจะพร้อมใช้งานสำหรับโครงร่างแบบเต็มใน Dynamics 365 for Retail รุ่น 1611 เท่านั้น **การควบคุมแบบกำหนดเอง** -การควบคุมแบบกำหนดเองทำหน้าที่เป็นตัวยึดภายในโครงร่างหน้าจอซึ่งทำให้ผู้ใช้สามารถจองพื้นที่ว่างสำหรับเนื้อหาแบบกำหนดเอง การควบคุมแบบกำหนดเองจะพร้อมใช้งานสำหรับโครงร่างแบบเต็มเท่านั้น
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ติดตั้งตัวออกแบบโครงร่าง Retail POS](install-pos-layout-designer.md)

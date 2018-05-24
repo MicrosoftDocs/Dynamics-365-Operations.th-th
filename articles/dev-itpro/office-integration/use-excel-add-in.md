@@ -38,9 +38,6 @@ ms.lasthandoff: 04/13/2018
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการใช้ add-in ของ Excel ให้ดูวิดีโอ [สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบรายการใน Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) แบบย่อ
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>เปิดข้อมูลเอนทิตีใน Excel เมื่อคุณเริ่มการทำงานจาก Finance and Operations
 1. ในหน้าใน Finance and Operations เลือก **เปิดใน Microsoft Office**
 

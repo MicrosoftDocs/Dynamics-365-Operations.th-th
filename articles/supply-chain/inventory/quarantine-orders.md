@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a05c35d2e4a9e3ad81421eac863d182e8a6b499
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quarantine-orders"></a>ใบสั่งตรวจสอบสินค้า
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="quarantine-order-scrap"></a>ของเสียใบสั่งตรวจสอบสินค้า
 โดยเป็นส่วนหนึ่งของกระบวนการใบสั่งตรวจสอบสินค้า คุณอาจทำให้สินค้าคงคลังเสีย เมื่อกำลังดำนินการกับของเสีย สถานะสินค้าคงคลังจะกำหนดเป็น **ขายแล้ว** โดยธุรกรรมการออกใช้จากคลังสินค้าตรวจสอบ
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การบล็อคสินค้าคงคลัง](inventory-blocking.md)

@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่ 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()คู่มืองานใน (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>คู่มืองานใน (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
 (พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดต Microsoft Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานที่ถูกนำออกใช้ใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC จะมีอยู่ในไลบรารี่นี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md) <strong>หมายเหตุ:</strong> เครื่องหมายดอกจัน (<strong>\</strong>*) ที่อยู่ถัดจากชื่อเรื่องของรายการตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บ่งชี้ว่าคู่มืองานสำหรับกระบวนการทางธุรกิจนั้นถูกสร้างขึ้นสำหรับการอัพเดต Microsoft Dynamics AX พฤษภาคม 2016 และไม่ได้รับการสนับสนุนใน Microsoft Dynamics AX เวอร์ชันก่อนหน้านี้
@@ -186,7 +186,7 @@ ms.lasthandoff: 04/13/2018
 |                  ตั้งค่าข้อจำกัดในการขนส่งสำหรับสินค้า                   |     สากล     |
 |                <strong>\</strong>*ตั้งค่านโยบายงานของคลังสินค้า                  |     สากล     |
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [คู่มืองานใหม่ (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)

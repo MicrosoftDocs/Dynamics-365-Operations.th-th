@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f79f686720d615da6996f854a9e4cc18f840337f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-portal-user-security"></a>ความปลอดภัยของผู้ใช้พอร์ทัลของผู้จัดจำหน่าย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าความปลอดภัยสำหรับผู้จัดจำหน่ายภายนอกที่ใช้เว็บไซต์ของผู้จัดจำหน่าย ข้อมูลนี้ใช้กับ Dynamics AX เวอร์ชันกุมภาพันธ์ 2016 &amp; พฤษภาคม 2016 เท่านั้น
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 
 ถ้าบุคคลเดียวกันต้องการเข้าถึงพอร์ทัลผู้จัดจำหน่ายสำหรับบัญชีผู้จัดจำหน่ายหลายบัญชี (อาจจะสำหรับนิติบุคคลอื่น) บัญชีผู้ใช้ของบุคคลนั้นแต่ละบัญชีต้องเชื่อมโยงกับผู้ติดต่อจดทะเบียนเดียวกัน บทบาท **ผู้จัดจำหน่าย (ภายนอก)** รวมความสามารถพื้นฐานทั้งหมดที่จำเป็นเพื่อให้สามารถใช้ฟังก์ชันที่พร้อมใช้งานในพอร์ทัลของผู้จัดจำหน่าย การตั้งค่านี้ช่วยรับประกันว่า อินเทอร์เฟสผู้ใช้ที่ผู้ใช้ภายนอกมองเห็นจะถูกโฟกัสไปที่สถานการณ์จำลองที่กำหนดไว้เท่านั้น
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การทำงานร่วมกันกับผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)

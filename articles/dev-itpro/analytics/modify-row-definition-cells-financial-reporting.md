@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>การแก้ไขเซลล์คำนิยามแถว
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายข้อมูลที่จำเป็นสำหรับแต่ละเซลล์ในคำนิยามแถวในรายงานทางการเงินและอธิบายวิธีการใส่ข้อมูลดังกล่าว 
 
@@ -488,10 +488,10 @@ ms.lasthandoff: 04/13/2018
 1.  ในโปรแกรมออกแบบรายงาน เปิดคำนิยามแถว คอลัมน์ หรือลำดับการรายงานเพื่อแก้ไข
 2.  ในเมนู **แก้ไข** คลิก **จัดการเซ็ตค่ามิติ**
 3.  ในกล่องโต้ตอบ **จัดการเซ็ตค่ามิติ** ในการฟิลด์ **มิติ** เลือกชนิดของมิติ
-4.  เลือกเซ็ตที่จะลบ แล้วคลิก **ลบ** คลิก **ใช่** เพื่อลบเซ็ตค่ามิติที่ตั้งโดยถาวร
+4.  เลือกชุดที่ต้องการลบ แล้วคลิก **ลบ** คลิก **ใช่** เพื่อลบชุดค่ามิติโดยถาวร
 
 
-## <a name="see-also"></a>ดูเพิ่มเติมที่
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
 

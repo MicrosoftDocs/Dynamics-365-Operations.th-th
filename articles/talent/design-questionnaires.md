@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc25f4fde93df03145baedafb9c6b093659594d0
 ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a>การออกแบบแบบสอบถาม
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม ขั้นตอนแรกคือการ ออกแบบแบบสอบถาม เมื่อคุณออกแบบแบบสอบถาม คุณไม่เพียงเขียนคำถามและคำตอบ แต่ยังสร้างโครงสร้างที่คำตอบที่สามารถบันทึก และจัดทำตารางคำตอบได้ 
 
@@ -230,7 +230,7 @@ ms.lasthandoff: 03/08/2018
 
 อีกทางหนึ่งคือ คุณตั้งค่าแบบสอบถาม หากผู้ตอบเลือกคำตอบ A สำหรับคำถามข้อ 1 คำถาม 2 จะเป็นอันดับถัดไปในลำดับคำถาม อย่างไรก็ตาม ถ้าผู้ตอบเลือกคำตอบ B สำหรับคำถามข้อ 1 คำถาม 5 จะเป็นอันดับถัดไป
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [โดยใช้แบบสอบถาม](questionnaires.md)

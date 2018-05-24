@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>ดูรายการสมุดรายวันและธุรกรรม
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการต่างๆ ที่คุณสามารถดูรายการสมุดรายวันและธุรกรรม 
 
@@ -54,9 +54,9 @@ ms.lasthandoff: 11/03/2017
 -   **จุดเริ่มต้นของธุรกรรม**– รายงานธุรกรรมนี้ แสดงบัญชีโดยสมุดรายวัน และโดยการทำธุรกรรม การบัญชี และการรายงานสกุลเงิน และยังแสดงสมุดรายวันเป็นรายบรรทัดที่มีการใช้เป็นออฟเซ็ต
 
 
-## <a name="see-also"></a>ดูเพิ่มเติมที่
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 - [ยอดดุลบัญชีแยกประเภททั่วไป](general-ledger-account-balances.md) 
-- [โปรแกรมตรวจดูบัญชีต้นทาง](..\accounts-payable\accounting-source-explorer.md)
+- [โปรแกรมตรวจดูบัญชีต้นทาง](../accounts-payable/accounting-source-explorer.md)
 - [การรายงานทางการเงิน](financial-reporting-getting-started.md)
 - [ดูรายการสมุดรายวัน](tasks/view-journal-entries-or-transactions.md)
 

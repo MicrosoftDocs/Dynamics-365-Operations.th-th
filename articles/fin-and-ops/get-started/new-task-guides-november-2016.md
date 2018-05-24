@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤศจิกายน 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 
@@ -587,7 +587,7 @@ ms.lasthandoff: 04/13/2018
 |                       ตั้งค่าการกระทบยอดค่าขนส่งโดยอัตโนมัติ                       |     สากล     |
 |              <strong>\</strong>*ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด              |     สากล     |
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [มีคู่มืองานสำหรับใช้งาน (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)

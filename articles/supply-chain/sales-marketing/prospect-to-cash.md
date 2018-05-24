@@ -3,7 +3,7 @@ title: "ผู้ที่มีแนวโน้มจะเป็นลูก
 description: "หัวข้อนี้แสดงภาพรวมของโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดระหว่าง Microsoft Dynamics 365 for Finance and Operations และ Microsoft Dynamics 365 for Sales"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดให้การซิงโครไนส์โดยตรงระหว่าง Dynamics 365 for Finance and Operations และ Microsoft Dynamics 365 for Sales เท็มเพลตผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Finance and Operations และ Sales ขณะที่มีการถ่ายโอนข้อมูลระหว่าง Finance and Operations และ Sales คุณสามารถดำเนินกิจกรรมการขายและการตลาดใน Sales และคุณสามารถจัดการการเติมสินค้าตามใบสั่งโดยใช้การบริหารสินค้าคงคลัง Finance and Operations ได้ 
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ให้ดูวิดีโอ YouTube แบบย่อ:
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด (วิดีโอ YouTube)](https://youtu.be/AVV9x5x-XCg) 
 
 ในเวอร์ชันปัจจุบัน โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดแสดงชนิดของการซิงโครไนส์โดยตรงต่อไปนี้:
 
@@ -76,7 +78,7 @@ ms.lasthandoff: 04/13/2018
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - จำเป็นต้องมีการสนับสนุนสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดผ่านทางเอนทิตีข้อมูล
     
     > [!NOTE]
-    > หลังจากที่คุณติดตั้งโปรแกรมแก้ไขด่วน คุณต้องทริกเกอร์ชุดงานต่อไปนี้จากแบบฟอร์ม **SalesPopulateProspectToCash** แบบฟอร์มนี้ถูกซ่อนไว้ เนื่องจากคุณต้องการเพียงครั้งเดียว เพื่อเข้าถึงแบบฟอร์ม ให้ล็อกอินเข้าสู่สภาพแวดล้อม และเพิ่มรายการต่อไปนี้ไปยัง URL ในที่อยู่เบราเซอร์ของคุณ: &mi=action:SalesPopulateProspectToCash ตัวอย่างเช่น `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash` เมื่อแบบฟอร์มเปิดขึ้น คลิกตกลง การดำเนินการนี้จะเติมข้อมูลในฟิลด์ **LineCreationSequnceNumber** ใหม่ ในตาราง **SalesLine** **SalesQuotationLine** และ **CustInvoiceTrans** ด้วยค่าที่ไม่ซ้ำกัน และรีเฟรชรายการผลิตภัณฑ์ นี่เป็นสิ่งจำเป็นสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดกับการทำงาน
+    > หลังจากที่คุณติดตั้งโปรแกรมแก้ไขด่วน คุณต้องทริกเกอร์ชุดงานต่อไปนี้จากแบบฟอร์ม **SalesPopulateProspectToCash** แบบฟอร์มนี้ถูกซ่อนไว้ เนื่องจากคุณต้องการเพียงครั้งเดียว เพื่อเข้าถึงแบบฟอร์ม ให้ล็อกอินเข้าสู่สภาพแวดล้อม และเพิ่มรายการต่อไปนี้ไปยัง URL ในที่อยู่เบราเซอร์ของคุณ: *&mi=action:SalesPopulateProspectToCash* ตัวอย่างเช่น `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash` เมื่อแบบฟอร์มเปิดขึ้น คลิกตกลง การดำเนินการนี้จะเติมข้อมูลในฟิลด์ **LineCreationSequnceNumber** ใหม่ ในตาราง **SalesLine** **SalesQuotationLine** และ **CustInvoiceTrans** ด้วยค่าที่ไม่ซ้ำกัน และรีเฟรชรายการผลิตภัณฑ์ นี่เป็นสิ่งจำเป็นสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดกับการทำงาน
 
 
 ## <a name="system-requirements-for-sales"></a>ความต้องการของระบบสำหรับ Sales

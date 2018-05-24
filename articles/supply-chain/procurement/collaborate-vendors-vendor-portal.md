@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>ทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถใช้พอร์ทัลผู้จัดจำหน่ายเพื่อร่วมมือกับผู้จัดจำหน่ายภายนอกในระหว่างกระบวนการยืนยันใบสั่งซื้อ ข้อมูลนี้ใช้กับ Dynamics AX เวอร์ชันกุมภาพันธ์ 2016 &amp; พฤษภาคม 2016 เท่านั้น
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 04/13/2018
 |                           คุณสามารถส่งใบสั่งซื้อเวอร์ชันใหม่ไปยังพอร์ทัลผู้จัดจำหน่าย                            |                                                                                                                                                                    รุ่นใหม่จะถูกลงทะเบียนในพอร์ทัลผู้จัดจำหน่าย และสถานะจะถูกเปลี่ยนเป็น <strong>อยู่ระหว่างการตรวจทานภายนอก</strong>                                                                                                                                                                     |
 |                                ผู้จัดจำหน่ายอนุมัติรุ่นใหม่ของใบสั่งซื้อ                                 |                                                                                                                                                     สถานะจะถูกเปลี่ยนเป็น <strong>ยืนยันแล้ว</strong> โดยอัตโนมัติ หรือเมื่อคุณได้รับการตอบสนองจากผู้จัดจำหน่ายและยืนยันใบสั่งซื้อแล้ว อย่างใดอย่างหนึ่ง                                                                                                                                                     |
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การตั้งค่าคอนฟิกระบบความปลอดภัยของผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](configure-security-vendor-portal-users.md)

@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>คู่มืองานใหม่ (กุมภาพันธ์ 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน
 
@@ -719,7 +719,7 @@ ms.lasthandoff: 11/03/2017
 
  
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)

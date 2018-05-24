@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ ms.lasthandoff: 04/13/2018
 > [!Note]
 > เนื้อหา Power BI ของ **การจัดการต้นทุน** ที่อธิบายไว้ในหัวข้อนี้ จะนำไปใช้กับ Dynamics 365 for Finance and Operations 8.0
 > 
-> ชุดเนื้อหา Power BI ของ **การจัดการต้นทุน** ที่เผยแพร่ไปยังไซต์ PowerBI.com ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับค่าเสื่อมราคา ดู [ชุดเนื้อหา Power BI ที่เผยแพร่ไปยัง PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom)
-
+> ชุดเนื้อหา Power BI ของ **การจัดการต้นทุน** พร้อมใช้งานในไซต์ AppSource ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับค่าเสื่อมราคา ดู [ชุดเนื้อหา Power BI พร้อมใช้งานใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
 
 เนื้อหา Power BI นี้ให้รูปแบบที่จัดประเภทที่ช่วยคุณในการตรวจสอบประสิทธิภาพการทำงานของสินค้าคงคลัง และแสดงให้เห็นวิธีการที่ต้นทุนหมุนเวียนผ่านรายการเหล่านั้น คุณสามารถได้รับข้อมูลเชิงลึกเชิงการจัดการ เช่น อัตราหมุนเวียน จำนวนวันที่สินค้าคงคลังคงเหลือ ความถูกต้อง และ "การจัดประเภท ABC" ที่ระดับแบบรวมที่ต้องการของคุณ (บริษัท สินค้า กลุ่มสินค้า หรือไซต์) นอกจากนี้ ข้อมูลที่ถูกทำให้พร้อมใช้งานยังสามารถใช้เป็นภาคผนวกอย่างละเอียดสำหรับงบการเงินได้ด้วย
 

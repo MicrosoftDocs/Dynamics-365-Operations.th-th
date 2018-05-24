@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 714a892ff4c168ee3ba1cefd25ae18345af5631b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b4805d343518a880ad0d6e6568c5493583a17783
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>ลบจุดนอกขอบเขตออกจากข้อมูลในอดีตเกี่ยวกับธุรกรรมเมื่อคำนวณความต้องการการคาดการณ์
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการแยกจุดนอกขอบเขตจากข้อมูลในอดีตที่ใช้ในการคำนวณความต้องการการคาดการณ์ออก โดยไม่รวมจุดนอกขอบเขต คุณสามารถปรับปรุงความถูกต้องของการคาดการณ์
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 **หมายเหตุ:** คุณยังสามารถสร้างแบบสอบถามที่ยึดตามแบบสอบถามที่มีอยู่ได้ เลือกการสอบถามที่คุณต้องการคัดลอก จากนั้นคลิก **ทำซ้ำ** ฟิลด์ **วันที่ของการสอบถาม** ระบุเวอร์ชัน คุณสามารถใช้การสอบถาม หรือคุณสามารถคลิก **แก้ไขการสอบถาม** เพื่อแก้ไขเงื่อนไขได้ อีกทางหนึ่งคือคุณสามารถแก้ไขชื่อและคำอธิบายของแบบสอบถามใหม่ได้
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [บทนำเกี่ยวกับการคาดการณ์ความต้องการ](introduction-demand-forecasting.md)

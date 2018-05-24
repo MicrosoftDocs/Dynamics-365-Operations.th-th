@@ -33,8 +33,6 @@ ms.lasthandoff: 04/13/2018
 
 เพื่อทราบข้อมูลเพิ่มเติมเกี่ยวกับ PowerApps ที่ฝัง ให้ดูวิดีโอ [วิธีการฝัง PowerApps ใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY) แบบย่อ
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>การเพิ่ม PowerApp ที่ฝังตัวไปยังหน้า
 ### <a name="overview"></a>ภาพรวม
 ก่อนที่จะฝัง PowerApp ลงในไคลเอนต์ Finance and Operations ก่อนอื่นคุณต้องค้นหาหรือสร้าง PowerApp พร้อมกับภาพที่ต้องการและ/หรือฟังก์ชัน เราจะไม่อธิบายกระบวนการโดยละเอียดสำหรับการสร้าง PowerApp ที่นี่ หัวข้อ [บทนำไปยัง PowerApps](https://docs.microsoft.com/en-us/powerapps/getting-started) คือจุดเริ่มต้นที่ดี ถ้าคุณใหม่กับ PowerApps

@@ -1,5 +1,5 @@
 ---
-title: "การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง"
+title: "ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง"
 description: "กลุ่มมิติสินค้าคงคลังถูกแนบกับทุกๆสินค้าในสินค้าคงคลัง ดังนั้นระบบจะคำนวณราคาต้นทุนเฉลี่ยสืบเนื่องโดยยึดตามมิติสินค้าคงคลังที่เลือกไว้และมีการติดตามการเปลี่ยนแปลงข้อมูลทางการเงิน"
 author: AndersGirke
 manager: AnnBe
@@ -20,18 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb2a3a193585944810c5dfac1eb3c019e074008f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48db7ff047a50343bd473d2c71f878e4ee2201e5
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="tracking-running-average-cost-per-inventory-dimension"></a>การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
+# <a name="track-running-average-cost-per-inventory-dimension"></a>ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 กลุ่มมิติสินค้าคงคลังถูกแนบกับทุกๆสินค้าในสินค้าคงคลัง ดังนั้นระบบจะคำนวณราคาต้นทุนเฉลี่ยสืบเนื่องโดยยึดตามมิติสินค้าคงคลังที่เลือกไว้และมีการติดตามการเปลี่ยนแปลงข้อมูลทางการเงิน
 

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7344fad7c4dffabd99993924604e2e497bebc5ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-and-manage-a-benefits-program"></a>กำหนดและจัดการโปรแกรมสวัสดิการ
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ทรัพยากรบุคคลให้ชุดของเครื่องมือที่สามารถถูกใช้เพื่อตั้งค่าและรักษาสวัสดิการ การหักลด และแผนค่าตอบแทนของผู้ปฏิบัติงานที่หน่วยงานนำเสนอ หรือประมวลผลสำหรับผู้ปฏิบัติงาน หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าและการจัดการสวัสดิการ
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 04/13/2018
 
 ในทำนองเดียวกัน ส่วนขยายสวัสดิการโดยรวมทำให้คุณสามารถขยายวันหมดอายุของทั้งสวัสดิการและการลงทะเบียนผู้ปฏิบัติงานสำหรับสวัสดิการนั้น ถ้าคุณตัดสินใจที่จะเสนอสวัสดิการนานกว่าที่คุณได้วางแผนไว้ในตอนแรก
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ](benefit-eligibility-policies.md)

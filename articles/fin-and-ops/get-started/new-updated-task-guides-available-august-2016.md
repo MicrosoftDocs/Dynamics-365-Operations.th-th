@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: th-th
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()คู่มืองานใน (สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>คู่มืองานใน (สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
 (สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม 2 (สิงหาคม 2016) Microsoft Dynamics AX การอัพเดตแอพลิเคชัน Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 ดูข้อมูลเพิ่มเติมเกี่ยวกับการนำออกใช้เหล่านี้ที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลง](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/06/2017
 
 
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [คู่มืองานใหม่ (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)

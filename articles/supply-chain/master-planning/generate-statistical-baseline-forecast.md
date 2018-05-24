@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>สร้างการคาดการณ์พื้นฐานทางสถิติ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณการคาดการณ์ความต้องการ 
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 
 ถ้าการคาดการณ์ไม่ถูกสร้างขึ้นสำหรับชุดของสินค้าขนาดใหญ่ แต่ ตัวอย่างเช่น สำหรับสินค้าหนึ่งรายการหรือคีย์การปันส่วนสินค้าหนึ่งรายการในแต่ละครั้ง จากนั้นเพื่อให้ได้ประสิทธิภาพที่ดีขึ้น คุณสามารถเลือกกล่องกาเครื่องหมาย **ใช้โหมดการตอบสนองคำขอ** บนแท็บ **การวางแผนหลัก - การตั้งค่า - การคาดการณ์ความต้องการ** - **พารามิเตอร์การคาดการณ์ความต้องการ - Machine Learningของ Azure**
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [การตั้งค่าการคาดการณ์ความต้องการ](demand-forecasting-setup.md)

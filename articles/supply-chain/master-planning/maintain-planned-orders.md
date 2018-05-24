@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8931908fbf643a8154da70d2ad065ea47d2aa4e6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3d7afda9371b4d21e58f2e56de3d477b1c9950a1
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="maintain-planned-orders"></a>รักษาแผนการใบสั่ง
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้จะแสดงข้อมูลเกี่ยวกับวิธีการจัดการใบสั่งที่วางแผน โดยอธิบายวิธีการปรับปรุงสถานะของแผนการใบสั่ง ยืนยัน และกรองข้อมูลสำหรับแผนการใบสั่งที่มีสถานะเดียวกันเป็นแผนการใบสั่งที่เลือก
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 เมื่อมียืนยันแผนการใบสั่ง แผนการใบสั่งจะถูกย้ายไปยังส่วนของใบสั่งของโมดูลที่เกี่ยวข้อง **หมายเหตุ:** คุณสามารถคลิกขวาที่แผนการใบสั่งที่มีสถานะหนึ่งๆ และกรองข้อมูลแผนการใบสั่งที่มีสถานะเดียวกัน ฟังก์ชันนี้มีประโยชน์ ตัวอย่างเช่น ถ้าคุณต้องการกรองแผนการใบสั่งทั้งหมดที่มีสถานะเป็น **อนุมัติ** เพื่อให้คุณสามารถยืนยันแผนการใบสั่งเหล่านั้นได้
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [แผนหลัก](master-plans.md)

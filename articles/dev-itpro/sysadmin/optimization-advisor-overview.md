@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>ภาพรวมของโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้โปรแกรมช่วยแนะนำการปรับให้เหมาะสม เพื่อช่วยในการรับรองการตั้งค่าคอนฟิกที่ดีที่สุดของ Microsoft Dynamics 365 Finance and Operations
 
@@ -50,8 +50,6 @@ ms.lasthandoff: 03/26/2018
 เมื่อคุณดำเนินการโอกาสในการปรับให้เหมาะสมบางอย่าง ระบบจะคำนวณผลของโอกาสในแง่ของการลดในรันไทม์ของกระบวนการทางธุรกิจ ขออภัย คุณลักษณะนี้ไม่พร้อมใช้งานสำหรับโอกาสในการปรับให้เหมาะสมทั้งหมด
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม ให้ดูวิดีโอ [โปรแกรมช่วยแนะนำการปรับให้เหมาะสมใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ) แบบย่อ
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>กฎการปรับให้เหมาะสม
 
@@ -93,7 +91,7 @@ ms.lasthandoff: 03/26/2018
 
 ในการปิดใช้งานการประเมินของกฎเฉพาะ เลือกโอกาสที่ถูกสร้างขึ้นโดยกฎ และจากนั้นเลือก **ปิดใช้งานการวิเคราะห์**
 
-## <a name="see-also"></a>ดูเพิ่มเติมที่
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [สร้างกฎใหม่](./create-rules-optimization-advisor.md)
 

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>การตั้งค่าการคาดการณ์ความต้องการ
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายงานการตั้งค่าที่คุณต้องดำเนินการเพื่อจัดเตรียมสำหรับการคาดการณ์ความต้องการ  
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>การตั้งค่าสำหรับบริการ Machine Learning ของการคาดการณ์ความต้องการใน Finance and Operations
 เมื่อต้องการดูพารามิเตอร์ที่สามารถถูกตั้งค่าคอนฟิกสำหรับบริการการคาดการณ์ความต้องการใน Finance and Operations ได้ ให้ไปที่ **การวางแผนหลัก** &gt; **การตั้งค่า** &gt; **การคาดการณ์ความต้องการ** &gt; **พารามิเตอร์อัลกอริทึมการคาดการณ์** หน้า **พารามิเตอร์อัลกอริทึมการคาดการณ์** แสดงค่าเริ่มต้นสำหรับพารามิเตอร์ คุณสามารถบันทึกทับพารามิเตอร์เหล่านี้ในหน้า **พารามิเตอร์การคาดการณ์ความต้องการ** ได้ ใช้แท็บ **ทั่วไป** เพื่อบันทึกทับพารามิเตอร์แบบสากล หรือใช้แท็บ **คีย์การปันส่วนสินค้า** เพื่อบันทึกทับพารามิเตอร์ต่อคีย์การปันส่วนสินค้า พารามิเตอร์ที่จะถูกบันทึกทับสำหรับคีย์การปันส่วนสินค้ามีผลเฉพาะกับการคาดการณ์ของสินค้าที่เกี่ยวข้องกับคีย์การปันส่วนสินค้านั้น
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [บทนำเกี่ยวกับการคาดการณ์ความต้องการ](introduction-demand-forecasting.md)

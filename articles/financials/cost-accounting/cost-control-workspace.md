@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>ภาพรวมของการควบคุมต้นทุน 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 พื้นที่ทำงาน **การควบคุมต้นทุน** นี้เป็นจุดศูนย์กลาง ที่ซึ่งผู้จัดการที่รับผิดชอบการควบคุมออบเจ็กต์ต้นทุนหรือชุดของออบเจ็กต์ต้นทุนภายในมิติหรือระหว่างมิติ (ตัวอย่างเช่น ศูนย์ต้นทุน และกลุ่มผลิตภัณฑ์) สามารถเข้าถึงรายงานได้ รายงานในพื้นที่ทำงานจะถูกจัดการทั้งหมดโดยผู้จัดทำบัญชีต้นทุน เพื่อให้โครงร่างและข้อมูลที่ใช้สำหรับการรายงานสอดคล้องกันทั้งองค์กร
 
@@ -154,7 +154,7 @@ ms.lasthandoff: 11/03/2017
 
 ![การคำนวณสำหรับแต่ละออบเจ็กต์ต้นทุน](./media/cost-entries-allocation-base.png)
 
-ดูเพิ่มเติมที่ 
+ทรัพยากรเพิ่มเติม 
 
 [กำหนดสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน](access-rights-cost-object-controller.md)
 

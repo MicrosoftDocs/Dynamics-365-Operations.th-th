@@ -3,7 +3,7 @@ title: "การรวมกับ Microsoft Dynamics 365 for Field Service"
 description: "หัวข้อนี้แสดงภาพรวมของการรวมกับ Microsoft Dynamics 365 for Field Service"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/10/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: d32a4e376770fc73c79b94924d5ae062d201d84a
-ms.openlocfilehash: a224962152e80293f6cf3425dea74d73a283e31a
+ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
+ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
 ms.contentlocale: th-th
-ms.lasthandoff: 04/12/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
@@ -44,6 +44,12 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 - [ใบสั่งผลิตใน Field Service ไปยังใบสั่งขายใน Finance and Operations](field-service-work-order.md)
 - [ใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Finance and Operations](field-service-invoice.md)
 
+เมื่อต้องการดูตัวอย่างของวิธีที่คุณสามารถซิงโครไนส์ใบสั่งงานระหว่าง Field Service และ Finance and Operations โปรดดูวิดีโอ YouTube แบบย่อ:
+
+> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
+
+[ซิงโครไนส์ใบสั่งงานระหว่าง Field Service กับ Finance and Operations (วิดีโอ YouTube)](https://youtu.be/hAB4TDVMjxU)
+
 ## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
 การรวม Field Service สนับสนุนเวอร์ชันต่อไปนี้:
 
@@ -58,5 +64,5 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 
 - Dynamics 365 for Field Service รุ่น 1612 (9.0.1.733) (DB 9.0.1.733) ออนไลน์ หรือรุ่นที่ใหม่กว่า
 - โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด (P2C) สำหรับ Dynamics 365 รุ่น 1.15.0.1 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
-- โซลูชันการรวม Field Service สำหรับ Dynamics 365 รุ่น 1.0.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก AppSource **(การนำออกใช้ที่คงค้าง)**
+- โซลูชันการรวม Field Service สำหรับ Dynamics 365 รุ่น 1.0.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.p2cfieldserviceintegration)
 

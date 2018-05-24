@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: th-th
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>คำนิยามคอลัมน์ในรายงานทางการเงิน
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 บทความนี้แสดงข้อมูลเกี่ยวกับคำนิยามคอลัมน์ คำนิยามคอลัมน์คือองค์ประกอบของรายงานหรือบล็อคส่วนประกอบที่กำหนดเนื้อหาของคอลัมน์ในรายงาน เช่นเดียวกับคำนิยามแถว คำนิยามคอลัมน์พื้นฐานสามารถใช้ในหลายรายงาน
 
@@ -583,7 +583,7 @@ Phyllis ได้สร้างการเลือกสกุลเงิน
 
 คุณสามารถหารยอดเงินในคอลัมน์ด้วยจำนวนรอบระยะเวลาที่ระบุ ตัวอย่างเช่น สูตร **B/รอบระยะเวลา** หารค่าในคอลัมน์ B ด้วยจำนวนรอบระยะเวลาในคอลัมน์ B ถ้าการคำนวณครอบคลุมหลายคอลัมน์ ระบุจำนวนของรอบระยะเวลาที่จะใช้ในการคำนวณ ตัวอย่างเช่น สูตร **(B+C)/รอบระยะเวลา** เพิ่มยอดเงินในคอลัมน์ B และคอลัมน์ C จากนั้นหารผลลัพธ์ด้วยค่ารอบระยะเวลา
 
-<a name="see-also"></a>ดูเพิ่มเติมที่
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [คำนิยามแถวในการรายงานทางการเงิน](row-definitions-financial-reporting.md)
