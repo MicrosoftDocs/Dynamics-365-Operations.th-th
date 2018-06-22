@@ -1,9 +1,9 @@
 ---
-title: "เนื้อหา Power BI"
-description: "หัวข้อนี้แสดงรายการเนื้อหา Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้"
+title: "โซลูชัน PowerBI.com"
+description: "หัวข้อนี้แสดงรายการโซลูชัน PowerBI.com ซึ่งพร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับโซลูชันได้"
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>เนื้อหา Power BI
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>โซลูชัน PowerBI.com
+โซลูชัน PowerBI.com ต่อไปนี้จะพร้อมใช้งานสำหรับสภาพแวดล้อม Dynamics 365 for Finance and Operations 
 
-หัวข้อนี้แสดงรายการเนื้อหา Microsoft Power BI ที่พร้อมใช้งาน และแสดงให้คุณเห็นทรัพยากรที่คุณสามารถเรียนรู้เพิ่มเติมได้
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก Lifecycle Services (LCS)
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>เนื้อหา Power BI สำหรับ Dynamics 365 for Finance and Operations
-ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations เนื้อหา Power BI ต่อไปนี้จะพร้อมใช้งาน:
-
-- [เนื้อหา Power BI ของงบประมาณและที่เกิดขึ้นจริง](ledger-budgets-power-bi.md)
-- [เนื้อหาค่าตอบแทนใน Power BI](benefits-power-bi.md)
-- [เนื้อหาภาพรวมของเงินสดใน Power BI](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [เนื้อหาภาพรวมของ CFO ใน Power BI](CFO-power-bi.md)
-- [เนื้อหาค่าตอบแทนของ Power BI](compensation-power-bi.md)
-- [เนื้อหาการบัญชีต้นทุนใน Power BI](cost-accounting-analysis-content-pack.md) 
-- [เนื้อหาการจัดการต้นทุนใน Power BI](cost-management-content-pack.md)    
-- [เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [เนื้อหาการพัฒนาพนักงานใน Power BI](employee-development-PBI.md) 
-- [เนื้อหา Power BI ของข้อมูลเชิงลึกทางการเงิน](financial-insights.md)
-- [เนื้อหาประสิทธิภาพทางการเงินใน Power BI](financial-performance-power-bi-content-pack.md)
-- [เนื้อหาการจัดการสินทรัพย์ถาวรใน Power BI](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [เนื้อหาการเรียนรู้ Power BI](learning-power-bi.md)
-- [เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI](practice-manager-power-bi.md)
-- [เนื้อหา Power BI ของประสิทธิภาพการผลิต](production-performance-power-bi.md)
-- [เนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI](purchase-content-pack-for-power-bi.md) 
-- [เนื้อหาการสรรหาบุคลากรใน Power BI](recruiting-analysis-power-bi-content-pack.md) 
-- [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
-- [เนื้อหาชำระเงินให้แก่ผู้จัดจำหน่ายใน Power BI](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI](warehouse-power-bi-content.md)
-- [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>เนื้อหา Power BI สำหรับ Dynamics 365 for Operations เวอร์ชัน 1611
-ถ้าคุณกำลังใช้ Microsoft Dynamics 365 สำหรับเวอร์ชันการดำเนินงาน 1611 เนื้อหา Power BI ต่อไปนี้พร้อมใช้งานแล้ว:
-
-- [เนื้อหาค่าตอบแทนและสวัสดิการใน Power BI](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [เนื้อหาการบัญชีต้นทุนใน Power BI](cost-accounting-analysis-content-pack.md) 
-- [เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [เนื้อหาประสิทธิภาพทางการเงินใน Power BI](financial-performance-power-bi-content-pack.md)
-- [เนื้อหาการฝึกอบรมขององค์กรใน Power BI](organizational-training-analysis-power-bi-content-pack.md) 
-- [เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI](practice-manager-power-bi.md)
-- [เนื้อหา Power BI ของประสิทธิภาพการผลิต](production-performance-power-bi.md)
-- [เนื้อหาการวิเคราะห์การซื้อและการใช้จ่ายใน Power BI](purchase-content-pack-for-power-bi.md) 
-- [เนื้อหาการสรรหาบุคลากรใน Power BI](recruiting-analysis-power-bi-content-pack.md) 
-- [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
-- [เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI](warehouse-power-bi-content.md)
-- [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>เนื้อหา Power BI สำหรับ Microsoft Dynamics AX
-ถ้าคุณกำลังใช้ Microsoft Dynamics AX 7.0 หรือ Microsoft Dynamics AX 7.0.1 เนื้อหา Power BI ต่อไปนี้พร้อมใช้งานแล้ว:
+โซลูชัน PowerBI.com ต่อไปนี้จะพร้อมใช้งานในไลบรารีสินทรัพย์ที่ใช้ร่วมกันของ LCS อ้างอิงถึงข้อมูลเวอร์ชันในไลบรารีสินทรัพย์ที่ใช้ร่วมกัน เพื่อดาวน์โหลดรุ่นที่ถูกต้องสำหรับสภาพแวดล้อมของคุณ 
 
 > [!Note]
-> ชุดเนื้อหาเหล่านี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่มีการเผยแพร่ไปยัง PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom)
+> โซลูชัน PowerBI.com ส่วนใหญ่ในรายการต่อไปนี้ได้ถูกฝังอยู่ในพื้นที่ทำงานเชิงวิเคราะห์ใน Dynamics 365 for Finance and Operations รุ่นล่าสุด การใช้พื้นที่ทำงานเชิงวิเคราะห์จะตัดความจำเป็นในการดาวน์โหลดโซลูชันเหล่านี้จากไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS หัวข้อในรายการนี้บ่งชี้ที่ซึ่งโซลูชัน PowerBI.com เหล่านี้ได้ถูกฝังอยู่ใน Finance and Operations หากมี 
 
-- [เนื้อหาการจัดการต้นทุนใน Power BI](cost-management-content-pack.md)    
-- [เนื้อหาประสิทธิภาพทางการเงินใน Power BI](financial-performance-power-bi-content-pack.md)
-- [เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI](retail-channel-performance-dashboard-power-bi-data.md) 
+- [ที่เกิดขึ้นจริงเทียบกับงบประมาณ](ledger-budgets-power-bi.md)
+- [ภาพรวมของเงินสด](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [ค่าตอบแทนและสวัสดิการ](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [การวิเคราะห์การบัญชีต้นทุน](cost-accounting-analysis-content-pack.md) 
+- [การจัดการสินเชื่อและการเรียกเก็บเงิน](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [ความสามารถของพนักงานและการพัฒนา](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [ประสิทธิภาพทางการเงิน](financial-performance-power-bi-content-pack.md)
+- [การจัดการสินทรัพย์ถาวร](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [การฝึกอบรมขององค์กร](organizational-training-analysis-power-bi-content-pack.md) 
+- [ผู้จัดการแนวทางปฏิบัติ](practice-manager-power-bi.md)
+- [ประสิทธิภาพของการผลิต](production-performance-power-bi.md)
+- [การวิเคราะห์การซื้อและการใช้จ่าย](purchase-content-pack-for-power-bi.md) 
+- [การสรรหา](recruiting-analysis-power-bi-content-pack.md)
+- [ประสิทธิภาพการขายและความสามารถในการทำกำไร](sales-profitability-performance-content-pack.md)
+- [การชำระเงินให้แก่ผู้จัดจำหน่าย](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [ประสิทธิภาพคลังสินค้า](warehouse-power-bi-content.md)
+- [เมตริกบุคลากร](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก AppSource
 
+โซลูชัน PowerBI.com ต่อไปนี้จะพร้อมใช้งานจาก [Microsoft AppSource](https://appsource.microsoft.com)
+
+> [!Note]
+> โซลูชันเหล่านี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่พร้อมใช้งานใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
+
+- การจัดการต้นทุน    
+- [ประสิทธิภาพทางการเงิน](financial-performance-power-bi-content-pack.md)
+- [ประสิทธิภาพของช่องทางการขายปลีก ](retail-channel-performance-dashboard-power-bi-data.md) 
 

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
-ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
 ms.contentlocale: th-th
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -44,11 +44,9 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 - [ใบสั่งผลิตใน Field Service ไปยังใบสั่งขายใน Finance and Operations](field-service-work-order.md)
 - [ใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Finance and Operations](field-service-invoice.md)
 
-เมื่อต้องการดูตัวอย่างของวิธีที่คุณสามารถซิงโครไนส์ใบสั่งงานระหว่าง Field Service และ Finance and Operations โปรดดูวิดีโอ YouTube แบบย่อ:
+เมื่อต้องการดูตัวอย่างของวิธีการที่คุณสามารถซิงโครไนส์ใบสั่งงานระหว่าง Field Service และ Finance and Operations ดูวิดีโอ YouTube แบบย่อ [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
-> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
-
-[ซิงโครไนส์ใบสั่งงานระหว่าง Field Service กับ Finance and Operations (วิดีโอ YouTube)](https://youtu.be/hAB4TDVMjxU)
+[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
 การรวม Field Service สนับสนุนเวอร์ชันต่อไปนี้:
