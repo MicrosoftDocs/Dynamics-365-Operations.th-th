@@ -1,0 +1,84 @@
+- name: ยินดีต้อนรับสู่ Dynamics 365 for Talent
+  href: index.md
+- name: การเริ่มต้นใช้งาน
+  href: talent-get-started.md
+  items:
+    - name: ความต้องการของระบบและนโยบายการอัพเดต
+      href: talent-versions-update-policy.md
+    - name: เตรียมใช้งาน Microsoft Dynamics 365 for Talent
+      href: provisioning-talent.md
+    - name: เอาสภาพแวดล้อม Talent ออก
+      href: remove-talent-environment.md
+    - name: เตรียมใช้งานแอปหน่วยย่อย Microsoft Dynamics 365 for Talent
+      href: modular-app-tech-faq.md
+    - name: ขยายฟังก์ชันของ Talent
+      href: extend-talent-functionality.md
+    - name: เข้าถึงคุณลักษณะตัวอย่างใน Dynamics 365 for Talent
+      href: access-preview-feature.md
+- name: พัฒนากลยุทธ์ด้านทรัพยากรบุคคล
+  href: departments-jobs-positions.md
+  items:
+    - name: ตั้งค่าส่วนประกอบของงาน
+      href: create-job.md
+    - name: สร้างแผนกและการเชื่อมโยงกับลำดับชั้นของแผนก
+      href: create-department-add-department-hierarchy.md
+    - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
+      href: set-up-hr-parameters-across-legal-entities.md
+    - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
+      href: set-up-company-specific-hr-parameters.md
+    - name: FAQ การดำเนินการด้านบุคลากร
+      href: personnel-actions-faq.md
+    - name: ทำให้กระบวนการทางธุรกิจเป็นทางการ
+      href: formalize-business-processes.md
+    - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
+      href: workflow-manage-employee-information.md
+    - name: ภาพรวมการลางานและการขาดงาน
+      href: leave-absence-overview.md
+- name: การจัดหาพนักงานในองค์กรของคุณ
+  items:
+    - name: ภาพรวม Attract
+      href: attract-overview.md
+    - name: ภาพรวม Onboard
+      href: create-onboarding-experience.md
+- name: จูงใจพนักงาน
+  items:
+    - name: แผนค่าตอบแทน
+      href: compensation-plans.md
+    - name: สร้างแผนค่าตอบแทนคงที่
+      href: create-fixed-compensation-plans.md
+    - name: สร้างแผนค่าตอบแทนผันแปร
+      href: create-variable-compensation-plans.md
+    - name: ประมวลผลค่าตอบแทน
+      href: process-compensation.md
+- name: พัฒนาและฝึกอบรมพนักงาน
+  items:
+    - name: ภาพรวมของการบริหารประสิทธิภาพ
+      href: performance-management-overview.md
+    - name: จัดทักษะแรงงานกับความต้องการทางธุรกิจ
+      href: skills.md
+    - name: ตั้งค่าหลักสูตรการฝึกอบรม
+      href: courses.md
+- name: สร้างและรักษาสวัสดิการ
+  href: manage-benefit-program.md
+- name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
+  href: benefit-eligibility-policies.md
+  items:
+    - name: จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
+      href: loan-items.md
+- name: รวบรวมข้อมูลโดยใช้แบบสอบถาม
+  href: questionnaires.md
+  items:
+    - name: ออกแบบแบบสอบถาม
+      href: design-questionnaires.md
+    - name: กระจายและทำแบบสอบถามให้เสร็จสมบูรณ์
+      href: distribute-questionnaires.md
+    - name: ประเมินผลลัพธ์ของแบบสอบถาม
+      href: evaluate-questionnaire-results.md
+- name: ความปลอดภัยที่ทำงานและการปฏิบัติตามกฎระเบียบ (สหรัฐอเมริกา)
+  items:
+    - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
+      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+    - name: การตรวจสอบความถูกต้องของการทำงานตามแบบฟอร์ม I-9
+      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+    - name: เป็นไปตาม ADA
+      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
