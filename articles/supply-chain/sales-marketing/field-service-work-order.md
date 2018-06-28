@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ ms.lasthandoff: 05/08/2018
     - **รายการผลิตภัณฑ์:** ปริมาณที่ประเมินไว้ = 5ea ปริมาณที่ใช้ = 6ea สถานะรายการ = ที่ใช้ ที่ปันส่วน = ใช่
     - **รายการบริการ:** ปริมาณที่ประเมินไว้ = 2h ปริมาณที่ใช้ = 1.5h สถานะรายการ = ที่ใช้
 
-    ในตัวอย่างนี้ ค่า **ปริมาณที่ใช้** ของผลิตภัณฑ์เป็น **6** และค่า **ปริมาณที่ประเมิน** ของบริการเป็น **1.5h** จะถูกซิงโครไนส์กับ Finance and Operations
+    ในตัวอย่างนี้ ค่า **ปริมาณที่ใช้** ของผลิตภัณฑ์เป็น **6** และ **ปริมาณที่ใช้** ของบริการเป็น **1.5h** จะถูกซิงโครไนส์กับ Finance and Operations
 
 ## <a name="sales-order-origin-and-status"></a>จุดเริ่มต้นและสถานะของใบสั่งขาย
 

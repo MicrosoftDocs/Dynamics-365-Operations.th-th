@@ -1,6 +1,6 @@
 ---
-title: "เนื้อหาประสิทธิภาพทางการเงินใน Power BI"
-description: "หัวข้อนี้อธิบายถึงเนื้อหาประสิทธิภาพทางการเงินใน Power BI"
+title: "โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน"
+description: "หัวข้อนี้อธิบายถึงโซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน"
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: th-th
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>เนื้อหาประสิทธิภาพทางการเงินใน Power BI
+# <a name="financial-performance-powerbicom-solution"></a>โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> ชุดเนื้อหานี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่มีอยู่ใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
+> โซลูชัน PowerBI.com นี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่มีอยู่ใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
 
-หัวข้อนี้อธิบายถึงเนื้อหา **ประสิทธิภาพทางการเงิน** ใน Microsoft Power BI และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
+หัวข้อนี้อธิบายถึงโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน** และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างโซลูชันนี้
 
 ## <a name="main-account-setup"></a>การตั้งค่าบัญชีหลัก
 เนื่องจากองค์กรต้องการให้ยอดเงินหนี้สินและรายได้ปรากฏเป็นจำนวนค่าบวกในรายงาน การตั้งค่าบัญชีหลักจึงมีความสำคัญ สำหรับบัญชีหลักเหล่านี้ที่จะปรากฏเป็นจำนวนค่าบวก คุณต้องกำหนดชนิดบัญชีหลักเป็น **หนี้สิน** หรือ **รายได้** เมื่อมีการใช้ชนิดบัญชีเหล่านี้ การรายงานผ่าน Power BI จะกลับเครื่องหมายต่าง ๆ และแสดงยอดเงินเป็นค่าบวก
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>แดชบอร์ดและรายงานที่รวมอยู่ในเนื้อหา Power BI
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>แดชบอร์ดและรายงานที่ถูกรวมอยู่ในโซลูชัน PowerBI.com
 แดชบอร์ดประกอบด้วยไทล์สรุปของข้อมูลที่เป็นไปตามรายงานที่เน้น แต่ละไทล์ประกอบด้วยข้อมูลสรุปของปีปัจจุบันระหว่างบริษัททั้งหมดในองค์กร ต่อไปนี้เป็นตัวอย่างของไฟล์ดังกล่าว:
 
 - เงินสด
@@ -74,7 +74,7 @@ ms.lasthandoff: 05/09/2018
 สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
-เอนทิตีต่อไปนี้จะนำมาใช้เป็นข้อมูลพื้นฐานของชุดเนื้อหา Power BI **ประสิทธิภาพทางการเงิน**
+เอนทิตีต่อไปนี้ถูกนำมาใช้เป็นข้อมูลพื้นฐานของโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน**
 
 **รวมเอนทิตี้ข้อมูล**
 

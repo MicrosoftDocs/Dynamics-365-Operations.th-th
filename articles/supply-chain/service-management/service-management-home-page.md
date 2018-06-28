@@ -1,28 +1,28 @@
 ---
 title: "การจัดการงานบริการ"
 description: "ใช้การจัดการงานบริการเพื่อกำหนดข้อตกลงการให้บริการและการบอกรับเป็นสมาชิกการบริการ จัดการใบสั่งบริการและการสอบถามของลูกค้า และเพื่อจัดการและวิเคราะห์การจัดส่งบริการให้แก่ลูกค้า"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: th-th
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/09/2018
 
 4.  ค่าใช้จ่ายและค่าธรรมเนียมที่เกี่ยวข้องกับบริการหรือซ่อมแซมใดๆ
 
-ลูกค้าสามารถส่งคำขอการบริการผ่านอินเทอร์เน็ตได้โดยใช้เว็บไซต์องค์กร คุณสามารถได้รับ ประมวลผล และจัดส่งคำขอ  หลังจากที่คุณได้สร้างใบสั่งบริการ คุณสามารถใช้ขั้นของการบริการติดตามความคืบหน้า และระบุกฎที่ควบคุมการดำเนินการเปิดใช้งานในแต่ละขั้นตอน  เมื่อใบสั่งบริการเสร็จสมบูรณ์แล้ว คุณสามารถออกจากระบบใบสั่งเพื่อยืนยันว่า เสร็จสมบูรณ์แล้ว และใบสั่งที่จะเริ่มต้นกระบวนการใบแจ้งหนี้ที่ลงรายการบัญชีแล้ว
+คุณสามารถได้รับ ประมวลผล และจัดส่งคำขอบริการได้ หลังจากที่คุณได้สร้างใบสั่งบริการ คุณสามารถใช้ขั้นของการบริการติดตามความคืบหน้า และระบุกฎที่ควบคุมการดำเนินการเปิดใช้งานในแต่ละขั้นตอน  เมื่อใบสั่งบริการเสร็จสมบูรณ์แล้ว คุณสามารถออกจากระบบใบสั่งเพื่อยืนยันว่า เสร็จสมบูรณ์แล้ว และใบสั่งที่จะเริ่มต้นกระบวนการใบแจ้งหนี้ที่ลงรายการบัญชีแล้ว
 
 ใช้เครื่องมือรายงานเพื่อตรวจสอบกำไรขั้นต้นของใบสั่งบริการ และธุรกรรมการบอกรับเป็นสมาชิก และคำอธิบายเกี่ยวกับงานพิมพ์ และงานใบรับสินค้า
 
@@ -56,47 +56,19 @@ ms.lasthandoff: 05/09/2018
 
 ## <a name="service-management-at-a-glance"></a>จัดการการบริการ
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>งานที่สำคัญ</p></th>
-<th><p>ฟอร์มหลัก</p></th>
-<th><p>รายงานที่ได้รับความนิยม</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>เติมเต็มข้อตกลงการให้บริการ</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">ข้อตกลงการให้บริการ (แบบฟอร์ม)</a></p></td>
-<td><p><strong>ค่าเผื่อในใบสั่งบริการ</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>จัดการการสอบถามของลูกค้า</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">ใบสั่งบริการ (แบบฟอร์ม)</a></p></td>
-<td><p><strong>คำอธิบายงาน</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">บอร์ดการจัดส่ง (แบบฟอร์ม)</a></p></td>
-<td><p><strong>ธุรกรรม - การบอกรับเป็นสมาชิก</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>ธุรกรรมค่าธรรมเนียมการบอกรับเป็นสมาชิก</strong></p></td>
-</tr>
-</tbody>
-</table>
+|งานที่สำคัญ           | หน้าหลัก                         |รายงานที่ได้รับความนิยม              |
+|--------------------------|---------------------------------------|-----------------------------|
+|เติมเต็มข้อตกลงการให้บริการ|ข้อตกลงการให้บริการ                     |ค่าเผื่อในใบสั่งบริการ         |
+|จัดการการสอบถามของลูกค้า |ใบสั่งบริการ                         |คำอธิบายงาน             |
+|                          |บอร์ดการจัดส่ง                         |ธุรกรรม - การบอกรับเป็นสมาชิก   |
+|                          |                                       |ธุรกรรมค่าธรรมเนียมการบอกรับเป็นสมาชิก|
 
 
 ## <a name="integration-of-service-management"></a>การรวมการจัดการงานบริการ
 
-การจัดการงานบริการสามารถรวมกับโมดูลดังต่อไปนี้ได้ใน Microsoft Dynamics 365 for Finance and Operations:
+สามารถรวมการจัดการบริการกับโมดูลต่อไปนี้ได้ใน:
 
   - [การขายและการตลาด](../sales-marketing/overview-sales-marketing.md)
-
   - [ทรัพยากรบุคคล](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   
