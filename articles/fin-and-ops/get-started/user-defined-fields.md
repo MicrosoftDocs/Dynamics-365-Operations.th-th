@@ -3,7 +3,7 @@ title: "ฟิลด์ที่กำหนดเอง"
 description: "หัวข้อนี้แสดงวิธีการที่ Microsoft Dynamics 365 for Finance and Operations อนุญาตให้ผู้ใช้บางรายสามารถสร้างฟิลด์แบบกำหนดเองได้ เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของตน"
 author: jasongre
 manager: AnnBe
-ms.date: 04/18/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -27,8 +27,6 @@ ms.lasthandoff: 05/23/2018
 # <a name="custom-fields"></a>ฟิลด์ที่กำหนดเอง
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ในขณะที่ Microsoft Dynamics 365 for Finance and Operations แสดงชุดที่ขยายขอบเขตของฟิลด์แบบนอกกรอบสำหรับการจัดการกระบวนการทางธุรกิจที่หลากหลาย ในบางครั้งมีความต้องการสำหรับบริษัทในการติดตามข้อมูลเพิ่มเติมในระบบ เพื่อรองรับความต้องการนี้ Finance and Operations ช่วยให้คุณสามารถสร้างฟิลด์แบบกำหนดเองได้เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของคุณ หากคุณมีสิทธิ์ลักษณะในการทำงาน 
 
