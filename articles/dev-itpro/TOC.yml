@@ -830,11 +830,11 @@
           href: data-entities/behavioral-properties-data-entities.md
         - name: สร้างคอลัมน์คำนวณและฟิลด์เสมือน
           href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: ลักษณะการทำงานข้ามบริษัท
+        - name: พฤติกรรมข้ามบริษัท
           href: data-entities/cross-company-behavior.md
         - name: การจัดการรหัสประเทศ/ภูมิภาค
           href: data-entities/countryregion-codes-configuration-keys.md
-        - name: รูปแบบการรับค่าคุณสมบัติ
+        - name: รูปแบบการสืบทอด
           href: data-entities/support-super-type-sub-type.md
         - name: กฎของวิซาร์ดเอนทิตี้ข้อมูล
           href: data-entities/data-entity-wizard-rules.md
@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: ติดตั้งแพคเกจที่สามารถปรับใช้ได้
           href: deployment/install-deployable-package.md
+        - name: ถอนการติดตั้งแพคเกจ
+          href: deployment/uninstall-deployable-package.md
         - name: แก้ไขปัญหาแอพลิเคชันของแพคเกจ
           href: deployment/deployable-package-troubleshooting.md
 - name: การอัพเกรด การอัพเดต และโปรแกรมแก้ไขด่วน
