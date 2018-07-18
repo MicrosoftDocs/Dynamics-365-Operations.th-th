@@ -33,16 +33,16 @@ ms.lasthandoff: 06/25/2018
 
 เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม
 
-:::แถว::: :::คอลัมน์::: - [บัญชีเจ้าหนี้](accounts-payable/accounts-payable.md) 
+:::row::: :::column::: - [บัญชีเจ้าหนี้](accounts-payable/accounts-payable.md) 
         - [บัญชีลูกหนี้](accounts-receivable/accounts-receivable.md)
         - [การจัดงบประมาณ](budgeting/budgeting-overview.md) 
         - [การจัดการเงินสดและธนาคาร](cash-bank-management/cash-bank-management.md)
-        - [การบัญชีต้นทุน](cost-accounting/cost-accounting-home-page.md) :::สิ้นสุดคอลัมน์::: :::คอลัมน์::: - [การจัดการค่าใช้จ่าย](expense-management/expense-management.md)
+        - [การบัญชีต้นทุน](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [การจัดการค่าใช้จ่าย](expense-management/expense-management.md)
         - [การรายงานทางการเงิน](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [สินทรัพย์ถาวร](fixed-assets/fixed-assets.md)
         - [บัญชีแยกประเภททั่วไป](general-ledger/general-ledger.md) 
         - [การจัดการโครงการ](project-management/overview-project-management-accounting.md)
-        - [ภาครัฐ](public-sector/public-sector-functionality.md) :::สิ้นสุดคอลัมน์::: :::สิ้นสุดแถว:::
+        - [ภาครัฐ](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
 
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม

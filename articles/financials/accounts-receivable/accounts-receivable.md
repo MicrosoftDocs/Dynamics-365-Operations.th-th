@@ -43,17 +43,17 @@ ms.lasthandoff: 06/25/2018
 
 ใช้บัญชีลูกหนี้เพื่อติดตามใบแจ้งหนี้ของลูกค้าและการชำระเงินที่คุณได้รับจากลูกค้า คุณสามารถตั้งค่ากลุ่มลูกค้า ลูกค้า โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ ดอกเบี้ยตั๋วเงิน จดหมายเรียกเก็บเงิน ค่าส่งเสริมการขายให้แก่ผู้ขาย และพารามิเตอร์ที่เกี่ยวข้องกับลูกค้า ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วแลกเงิน และข้อมูลบัญชีลูกหนี้ชนิดอื่น 
 
-:::แถว::: :::คอลัมน์::: - [การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row::: :::column::: - [การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [โพรไฟล์การลงรายการบัญชีลูกค้า](customer-posting-profiles.md)
         - [การตั้งค่าบัตรเครดิต ตรวจสอบ และรวบรวมข้อมูล](credit-card-authorizations.md)
         - [สร้างใบแจ้งหนี้ของลูกค้า](configure-customer-invoices.md)
         - [ตั้งค่า และประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ](set-up-process-recurring-invoices.md)
-        - [แก้ไขใบแจ้งหนี้ข้อความอิสระ](correct-free-text-invoice.md) :::สิ้นสุดคอลัมน์::: :::คอลัมน์::: - [ตั้งค่าตั๋วแลกเงิน](set-up-bills-exchange.md)
+        - [แก้ไขใบแจ้งหนี้ข้อความอิสระ](correct-free-text-invoice.md) :::column-end::: :::column::: - [ตั้งค่าตั๋วแลกเงิน](set-up-bills-exchange.md)
         - [การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย](set-up-interest-rates-interest-code.md)
         - [ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย](waive-reinstate-reverse-interest-fees.md)
         - [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](sepa-direct-debit-overview.md)
         - [ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA](sepa-direct-debit-mandate.md)
-        - [ปิดบัญชีลูกหนี้](close-accounts-receivable.md) :::สิ้นสุดคอลัมน์::: :::สิ้นสุดแถว:::
+        - [ปิดบัญชีลูกหนี้](close-accounts-receivable.md) :::column-end::: :::row-end:::
 
 
 ## <a name="set-up-credit-and-collections"></a>การตั้งค่าสินเชื่อและการเรียกเก็บเงิน
@@ -70,13 +70,13 @@ ms.lasthandoff: 06/25/2018
 
 ยอมรับการชำระเงินจากลูกค้า เช่นตั๋วแลกเงิน เงินสด เช็ค บัตรเครดิต และการชำระเงินทางอิเล็กทรอนิกส์ชนิดต่างๆ 
 
-:::แถว::: :::คอลัมน์::: - [ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row::: :::column::: - [ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
         - [การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้](centralized-payments-accounts-receivable.md)
         - [ชำระเงินบางส่วนของลูกค้า และการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [การชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::สิ้นสุดคอลัมน์::: :::คอลัมน์::: - [การชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [การชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [การชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้](settle-partial-customer-payment-discounts-credit-notes.md)
         - [ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ](settle-partial-customer-payment-multiple-discount-periods.md)
         - [ชำระเงินคืนลูกค้า](reimburse-customers.md)
-        - [การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน](customer-payments-partial-amount.md) :::สิ้นสุดคอลัมน์::: :::สิ้นสุดแถว:::
+        - [การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
 
 
 ### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
