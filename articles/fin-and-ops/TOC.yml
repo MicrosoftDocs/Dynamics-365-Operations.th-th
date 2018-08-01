@@ -410,151 +410,6 @@
     - name: การจัดการทางการเงิน
       href: ../financials/index.md
       items:
-        - name: บัญชีแยกประเภททั่วไป
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: บัญชี
-              items:
-                - name: ภาพรวมของหลักการลงบัญชีพึงรับพึงจ่าย
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: กฎการตัดออก
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: ชุดบัญชีและมิติ
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: ข้อกำหนดการลงรายการบัญชี
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'ตัวอย่างข้อกำหนดการลงรายการบัญชี '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: ยอดดุลบัญชีแยกประเภททั่วไป
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: กำหนดมิติทางการเงิน
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: สร้างโครงสร้างทางบัญชี
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: การสร้างแบบแผนการรับรู้
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: สร้างกลุ่มการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: ประเภทชนิดบัญชีหลัก
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: สร้างบัญชีหลัก
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: วางแผนชื่อผังบัญชีของคุณ
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: การจับคู่ธุรกรรมระหว่างรหัสบัญชี
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: ตั้งค่านามแฝงของบัญชีแยกประเภท
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: ตั้งค่าประเภทบัญชีหลัก
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: โปรแกรมตรวจดูบัญชีต้นทาง
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: การกระจายการลงบัญชี
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: ดำเนินการกับการปันส่วน
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: มิติทางการเงิน
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: แปลงบัญชีหรือการรายงานสกุลเงิน
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: กลุ่มและบัญชีบัญชีหลักในการรวมบัญชี
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: ภาพรวมของการรวมบัญชีและการตัดออก
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: ตั้งค่าคอนฟิกโครงสร้างทางบัญชี
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: สมุดรายวันและบัญชีแยกประเภท
-              items:
-                - name: การประมวลผลสมุดรายวันทั่วไป
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: ลงรายการบัญชีสมุดรายวันประจำงวด
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: ประมวลผลสมุดรายวันการปันส่วนบัญชีแยกประเภท
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: การตั้งค่าการบัญชีระหว่างบริษัท
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: กฎการปันส่วนบัญชีแยกประเภท
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: สร้างกฎขั้นสูงสำหรับสมุดรายวัน
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: สร้างและกำหนดโครงสร้างกฎขั้นสูง
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: ชนิดสมุดรายวันบัญชีแยกประเภท
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: สร้างตรวจสอบความถูกต้องของสมุดรายวัน
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: ดูรายการสมุดรายวันหรือธุรกรรม
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: สร้างรายการสมุดรายวันโดยใช้เท็มเพลต
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: การสร้างธุรกรรมค้างรับค้างจ่ายในบัญชีแยกประเภท
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: ดูรายการสมุดรายวันและธุรกรรม
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: บันทึกบัญชีในสมุดรายวันเกี่ยวกับรายการสมุดรายวันที่ลงรายการบัญชี
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภท
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: นำเข้าอัตราแลกเปลี่ยนสกุลเงิน
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: การปิดบัญชีสิ้นสุดรอบระยะเวลา
-              items:
-                - name: ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: การปิดบัญชีสิ้นปี
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: ปิดปีบัญชี
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: การปิดรอบระยะเวลาทางการเงินโดยรวม
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: ภาษีขาย
-              items:
-                - name: ภาพรวมของภาษีขาย
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: การชำระภาษีขายและกฎการปัดเศษ
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: การสร้างการชำระเงินภาษีขาย
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: ตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: ตั้งค่าหน่วยงานจัดเก็บภาษี
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: ตั้งค่ารหัสภาษีขาย
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: ตั้งค่ากลุ่มภาษีขายและกลุ่มภาษีขายตามประเภทสินค้า
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: ตั้งค่ารหัสการรายงานภาษีขาย
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: ตั้งค่ารอบระยะเวลาการชำระภาษีขาย
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: ตั้งค่าภาษีหัก ณ ที่จ่าย
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: ดูธุรกรรมภาษีขายที่ลงรายการบัญชี
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: บัญชีเจ้าหนี้
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -662,6 +517,10 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: การตั้งค่าบัตรเครดิต ตรวจสอบ และรวบรวมข้อมูล
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: สร้างใบแจ้งหนี้ข้อความอิสระ
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: แก้ไขใบแจ้งหนี้ข้อความอิสระ
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: สร้างลำดับของจดหมายเรียกเก็บเงิน
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: สร้างใบแจ้งหนี้ข้อความอิสระ
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: สร้างรหัสดอกเบี้ยด้วยช่วงดอกเบี้ย
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: สร้างใบแจ้งหนี้สำหรับใบสั่งขาย
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: การจัดงบประมาณ
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'ภาพรวมของการวางแผนงบประมาณ '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'ภาพรวมของการควบคุมงบประมาณ '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'ภาพรวมของงบประมาณ  '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: การคาดการณ์ตำแหน่ง
+              href: ../financials/budgeting/position-forecasting.md
+            - name: เอกสารเหตุผลการวางแผนงบประมาณ
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: สร้างงบประมาณจากบัญชีธุรกรรมและบัญชีผลรวม
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: การวางแผนงบประมาณ
+              href: ../financials/budgeting/budget-plan.md
+            - name: การปันส่วนข้อมูลของการวางแผนงบประมาณ
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: การรวมแผนงบประมาณกับโมดูลอื่นๆ
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: การจัดการเงินสดและธนาคาร
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: อัพเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: การบัญชีต้นทุน
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: คำศัพท์การบัญชีต้นทุน
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: มิติทางการเงิน
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: โครงสร้างทางบัญชี
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: สร้างโครงสร้างทางบัญชี
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: ภาพรวมของงบประมาณ
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: สร้างมิติและนำเข้าสมาชิกมิติ
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: มิติองค์ประกอบต้นทุน
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: สร้างองค์ประกอบต้นทุน
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: มิติออบเจ็กต์ต้นทุน
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: สร้างออบเจ็กต์ต้นทุน
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: แม็ปมิติองค์ประกอบต้นทุน
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: ลำดับชั้นของมิติ
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: สร้างลำดับชั้นรายงานขององค์กร
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: ตั้งค่าคอนฟิกสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: กำหนดหน่วยการควบคุมต้นทุน
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: สร้างบัญชีแยกประเภทการบัญชีต้นทุน
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: ฐานของการปันส่วน
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: สร้างและกำหนดนโยบายการปันส่วนต้นทุนสำหรับหน่วยการควบคุมต้นทุน
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: สร้างและกำหนดนโยบายพฤติกรรมต้นทุนสำหรับหน่วยการควบคุมต้นทุน
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: สร้างและกำหนดนโยบายการกระจายต้นทุนสำหรับหน่วยการควบคุมต้นทุน
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: สร้างนโยบายการรวบรวมต้นทุน
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: ประมวลผลและติดตามข้อมูลต้นทาง
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: การคำนวณค่าโสหุ้ย
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: ตั้งค่าคอนฟิกพื้นที่ทำงานการควบคุมต้นทุน
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์พื้นที่ทำงานการควบคุมต้นทุน
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: ทำความเข้าใจความปลอดภัยของรายการการเข้าถึงและ RLS ใน Microsoft Power BI
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: ใช้ชุดเนื้อหาสำหรับการรายงาน Microsoft Power BI
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: ใช้พื้นที่ทำงานการควบคุมต้นทุนสำหรับแอพลิเคชันสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: การจัดการค่าใช้จ่าย
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: การจัดการวางแผนค่าใช้จ่าย
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: พารามิเตอร์การจัดการค่าใช้จ่าย
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: ตั้งค่าลำดับงานสำหรับการจัดการค่าใช้จ่าย
+              href: ../financials/expense-management/expense-workflows.md
+            - name: ลำดับงานการจัดการค่าใช้จ่าย
+              href: ../financials/expense-management/expense-workflow.md
+            - name: นำเข้าและรักษาธุรกรรมบัตรเครดิต
+              href: ../financials/expense-management/import-credit-card.md
+            - name: การกระจายในรายงานค่าใช้จ่าย
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: ค่าใช้จ่ายระหว่างบริษัท
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: นโยบายค่าใช้จ่าย
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: ดูรายงานค่าใช้จ่าย
+              href: ../financials/expense-management/view-expense-report.md
+            - name: โพสต์รายงานค่าใช้จ่าย
+              href: ../financials/expense-management/post-expense.md
+            - name: รายงานค่าใช้จ่ายและผู้อนุมัติหลายราย
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: การขอคืน VAT ในการจัดการค่าใช้จ่าย
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: กฎค่าเบี้ยเลี้ยงต่อวัน
+              href: ../financials/expense-management/per-diem.md
+            - name: ใบเบิกค่าเดินทาง
+              href: ../financials/expense-management/travel-req.md
+            - name: ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย
+              href: ../financials/expense-management/personal-expenses.md
         - name: สินทรัพย์ถาวร
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: โอนย้ายสินทรัพย์ถาวร
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: การจัดการค่าใช้จ่าย
-          href: ../financials/expense-management/expense-management.md
+        - name: บัญชีแยกประเภททั่วไป
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: การจัดการวางแผนค่าใช้จ่าย
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: พารามิเตอร์การจัดการค่าใช้จ่าย
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: ตั้งค่าลำดับงานสำหรับการจัดการค่าใช้จ่าย
-              href: ../financials/expense-management/expense-workflows.md
-            - name: ลำดับงานการจัดการค่าใช้จ่าย
-              href: ../financials/expense-management/expense-workflow.md
-            - name: นำเข้าและรักษาธุรกรรมบัตรเครดิต
-              href: ../financials/expense-management/import-credit-card.md
-            - name: การกระจายในรายงานค่าใช้จ่าย
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: ค่าใช้จ่ายระหว่างบริษัท
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: นโยบายค่าใช้จ่าย
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: ดูรายงานค่าใช้จ่าย
-              href: ../financials/expense-management/view-expense-report.md
-            - name: โพสต์รายงานค่าใช้จ่าย
-              href: ../financials/expense-management/post-expense.md
-            - name: รายงานค่าใช้จ่ายและผู้อนุมัติหลายราย
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: การขอคืน VAT ในการจัดการค่าใช้จ่าย
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: กฎค่าเบี้ยเลี้ยงต่อวัน
-              href: ../financials/expense-management/per-diem.md
-            - name: ใบเบิกค่าเดินทาง
-              href: ../financials/expense-management/travel-req.md
-            - name: ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย
-              href: ../financials/expense-management/personal-expenses.md
-        - name: การจัดงบประมาณ
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'ภาพรวมของการวางแผนงบประมาณ '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'ภาพรวมของการควบคุมงบประมาณ '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'ภาพรวมของงบประมาณ  '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: การคาดการณ์ตำแหน่ง
-              href: ../financials/budgeting/position-forecasting.md
-            - name: เอกสารเหตุผลการวางแผนงบประมาณ
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: สร้างงบประมาณจากบัญชีธุรกรรมและบัญชีผลรวม
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: การวางแผนงบประมาณ
-              href: ../financials/budgeting/budget-plan.md
-            - name: การปันส่วนข้อมูลของการวางแผนงบประมาณ
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: การรวมแผนงบประมาณกับโมดูลอื่นๆ
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: การรายงาน
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: รายงานทางการเงินของงบดุล
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: สร้างรายงานทางการเงิน
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: รายงานงทางการเงินใบแจ้งยอดรายได้
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: รายงานทางการเงินของงบทดลอง
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: ดูรายงานทางการเงิน
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: โปรแกรมออกแบบรายงาน
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: การบัญชีต้นทุน
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: คำศัพท์การบัญชีต้นทุน
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: มิติทางการเงิน
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: โครงสร้างทางบัญชี
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: สร้างโครงสร้างทางบัญชี
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: ภาพรวมของงบประมาณ
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: สร้างมิติและนำเข้าสมาชิกมิติ
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: มิติองค์ประกอบต้นทุน
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: สร้างองค์ประกอบต้นทุน
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: มิติออบเจ็กต์ต้นทุน
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: สร้างออบเจ็กต์ต้นทุน
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: แม็ปมิติองค์ประกอบต้นทุน
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: ลำดับชั้นของมิติ
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: สร้างลำดับชั้นรายงานขององค์กร
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: ตั้งค่าคอนฟิกสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: กำหนดหน่วยการควบคุมต้นทุน
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: สร้างบัญชีแยกประเภทการบัญชีต้นทุน
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: ฐานของการปันส่วน
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: สร้างและกำหนดนโยบายการปันส่วนต้นทุนสำหรับหน่วยการควบคุมต้นทุน
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: สร้างและกำหนดนโยบายพฤติกรรมต้นทุนสำหรับหน่วยการควบคุมต้นทุน
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: สร้างและกำหนดนโยบายการกระจายต้นทุนสำหรับหน่วยการควบคุมต้นทุน
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: สร้างนโยบายการรวบรวมต้นทุน
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: ประมวลผลและติดตามข้อมูลต้นทาง
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: การคำนวณค่าโสหุ้ย
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: ตั้งค่าคอนฟิกพื้นที่ทำงานการควบคุมต้นทุน
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: ตั้งค่าคอนฟิกพารามิเตอร์พื้นที่ทำงานการควบคุมต้นทุน
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: ทำความเข้าใจความปลอดภัยของรายการการเข้าถึงและ RLS ใน Microsoft Power BI
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: ใช้ชุดเนื้อหาสำหรับการรายงาน Microsoft Power BI
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: ใช้พื้นที่ทำงานการควบคุมต้นทุนสำหรับแอพลิเคชันสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: บัญชี
+              items:
+                - name: ภาพรวมของรายการค้างรับค้างจ่าย
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: กฎการตัดออก
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: ชุดบัญชีและมิติ
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: ข้อกำหนดการลงรายการบัญชี
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'ตัวอย่างข้อกำหนดการลงรายการบัญชี '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: ยอดดุลบัญชีแยกประเภททั่วไป
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: กำหนดมิติทางการเงิน
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: สร้างโครงสร้างทางบัญชี
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: การสร้างแบบแผนการรับรู้
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: สร้างกลุ่มการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: ประเภทชนิดบัญชีหลัก
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: สร้างบัญชีหลัก
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: วางแผนชื่อผังบัญชีของคุณ
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: การจับคู่ธุรกรรมระหว่างรหัสบัญชี
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: ตั้งค่านามแฝงของบัญชีแยกประเภท
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: ตั้งค่าประเภทบัญชีหลัก
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: โปรแกรมตรวจดูบัญชีต้นทาง
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: การกระจายการลงบัญชี
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: ดำเนินการกับการปันส่วน
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: มิติทางการเงิน
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: แปลงบัญชีหรือการรายงานสกุลเงิน
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: กลุ่มและบัญชีบัญชีหลักในการรวมบัญชี
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: ภาพรวมของการรวมบัญชีและการตัดออก
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: ตั้งค่าคอนฟิกโครงสร้างทางบัญชี
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: สมุดรายวันและบัญชีแยกประเภท
+              items:
+                - name: การประมวลผลสมุดรายวันทั่วไป
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: ลงรายการบัญชีสมุดรายวันประจำงวด
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: ประมวลผลสมุดรายวันการปันส่วนบัญชีแยกประเภท
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: การตั้งค่าการบัญชีระหว่างบริษัท
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: กฎการปันส่วนบัญชีแยกประเภท
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: สร้างกฎขั้นสูงสำหรับสมุดรายวัน
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: สร้างและกำหนดโครงสร้างกฎขั้นสูง
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: ชนิดสมุดรายวันบัญชีแยกประเภท
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: สร้างตรวจสอบความถูกต้องของสมุดรายวัน
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: ดูรายการสมุดรายวันหรือธุรกรรม
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: สร้างรายการสมุดรายวันโดยใช้เท็มเพลต
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: การสร้างธุรกรรมค้างรับค้างจ่ายในบัญชีแยกประเภท
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: ดูรายการสมุดรายวันและธุรกรรม
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: บันทึกบัญชีในสมุดรายวันเกี่ยวกับรายการสมุดรายวันที่ลงรายการบัญชี
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภท
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: นำเข้าอัตราแลกเปลี่ยนสกุลเงิน
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: การปิดบัญชีสิ้นสุดรอบระยะเวลา
+              items:
+                - name: ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: การปิดบัญชีสิ้นปี
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: ปิดปีบัญชี
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: การปิดรอบระยะเวลาทางการเงินโดยรวม
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: ภาษีขาย
+              items:
+                - name: ภาพรวมของภาษีขาย
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: การชำระภาษีขายและกฎการปัดเศษ
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: การสร้างการชำระเงินภาษีขาย
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: ตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: ตั้งค่าหน่วยงานจัดเก็บภาษี
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: ตั้งค่ารหัสภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: ตั้งค่ากลุ่มภาษีขายและกลุ่มภาษีขายตามประเภทสินค้า
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: ตั้งค่ารหัสการรายงานภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: ตั้งค่ารอบระยะเวลาการชำระภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: ตั้งค่าภาษีหัก ณ ที่จ่าย
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: ดูธุรกรรมภาษีขายที่ลงรายการบัญชี
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: ภาครัฐ
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: ตั้งค่าการจัดประเภทข้อตกลงการซื้อในภาครัฐ
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: การรายงานทางการเงิน
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: สร้างรายงานทางการเงิน
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: ส่วนประกอบของรายงานทางการเงิน
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: โปรแกรมออกแบบรายงาน
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: การกำหนดลักษณะของผู้ใช้
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: ตัวเลือกการจัดรูปแบบขั้นสูง
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: จัดการส่วนประกอบของรายงาน
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: ข้อกำหนดของรายงาน
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: ข้อกำหนดของแถว
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: ข้อกำหนดของคอลัมน์
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: แก้ไขเซลล์ข้อกำหนดของแถว
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: รีเซ็ต Data Mart การรายงานทางการเงินหลังจากการคืนค่าฐานข้อมูล
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: การรายงานทางการเงิน
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: ภาพรวมการรายงานทางการเงิน
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: ส่วนประกอบของรายงานทางการเงิน
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: รายงานทางการเงินของงบดุล
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: สร้างรายงานทางการเงิน
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: รายงานงทางการเงินใบแจ้งยอดรายได้
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: รายงานทางการเงินของงบทดลอง
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: ดูรายงานทางการเงิน
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: โปรแกรมออกแบบรายงาน
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: การกำหนดลักษณะของผู้ใช้
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: ตัวเลือกการจัดรูปแบบขั้นสูง
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: จัดการส่วนประกอบของรายงาน
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: ข้อกำหนดของรายงาน
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: ข้อกำหนดของแถว
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: ข้อกำหนดของคอลัมน์
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: แก้ไขเซลล์ข้อกำหนดของแถว
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: รีเซ็ต Data Mart การรายงานทางการเงินหลังจากการคืนค่าฐานข้อมูล
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: คุณลักษณะการทำงานเฉพาะและบังคับ
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1660,6 +1653,7 @@
                 - name: การปิดบัญชีสิ้นปี
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: เดนมาร์ก
+              href: ../financials/localizations/denmark.md
               items:
                 - name: กำหนดรูปแบบบันทึกการชำระเงินให้กับบัญชีลูกค้า
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1691,6 +1685,7 @@
                 - name: งบ VAT
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: ฝรั่งเศส
+              href: ../financials/localizations/france.md
               items:
                 - name: ภาครัฐ
                   items:
@@ -1767,6 +1762,7 @@
                 - name: ตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: ฮังการี
+              href: ../financials/localizations/hungary.md
               items:
                 - name: การคำนวณอัตราแลกเปลี่ยน
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1781,6 +1777,7 @@
                 - name: การปิดบัญชีสิ้นปี
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: ไอซ์แลนด์
+              href: ../financials/localizations/iceland.md
               items:
                 - name: สร้างบัญชีผู้จัดจำหน่ายและแนบประเภทการประกาศใบแจ้งหนี้
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1791,6 +1788,7 @@
                 - name: อัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายและสร้างรายงาน
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: อิตาลี
+              href: ../financials/localizations/italy.md
               items:
                 - name: รายละเอียดงบ VAT
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1813,6 +1811,7 @@
                 - name: ภาษีหัก ณ ที่จ่าย
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: ลัตเวีย
+              href: ../financials/localizations/latvia.md
               items:
                 - name: การบัญชีสินทรัพย์ถาวร
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1825,6 +1824,7 @@
                 - name: รายละเอียดงบ VAT
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: ลิทัวเนีย
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: รายงานซ่อมแซมสินทรัพย์ถาวร
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1835,12 +1835,14 @@
                 - name: รายละเอียดงบ VAT
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: เนเธอร์แลนด์
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: การรายงานภาษีทางอิเล็กทรอนิกส์ (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: การรวม Semansys XBRL
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: นอร์เวย์
+              href: ../financials/localizations/norway.md
               items:
                 - name: รูปแบบการชำระเงินของลูกค้าและการชำระเงินให้แก่ผู้จัดจำหน่าย
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1855,6 +1857,7 @@
                 - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: โปแลนด์
+              href: ../financials/localizations/poland.md
               items:
                 - name: คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1877,6 +1880,7 @@
                 - name: รายงานยอดขายและยอดดุล
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: สเปน
+              href: ../financials/localizations/spain.md
               items:
                 - name: ใช้ส่วนลดเงินสดในใบแจ้งหนี้
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1905,6 +1909,7 @@
                 - name: รายการพิเศษและแผ่นงานการเปิด
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: สวีเดน
+              href: ../financials/localizations/sweden.md
               items:
                 - name: ส่งออกข้อมูลทางการเงินสำหรับผู้ตรวจสอบบัญชีในสวีเดน
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1913,10 +1918,12 @@
                 - name: เครื่องบันทึกเงินสด
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: สวิตเซอร์แลนด์
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: นำเข้าการชำระเงินของลูกค้าใน ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: สหราชอาณาจักร
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'แผนงานอุตสาหกรรมก่อสร้าง '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -3994,5 +4001,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml

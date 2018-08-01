@@ -3,7 +3,7 @@ title: "ซิงโครไนส์ผลิตภัณฑ์โดยตร
 description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ผลิตภัณฑ์จาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ ms.lasthandoff: 03/26/2018
 ผลิตภัณฑ์รักษาไว้ภายนอกจะถูกเพิ่มไปยังรายการราคาแรกที่ถูกต้องที่มีสกุลเงินเดียวกันโดยอัตโนมัติ รายการราคามีการจัดระเบียบตามตัวอักษรตามชื่อ ราคาขายของผลิตภัณฑ์จาก Finance and Operations ถูกใช้เป็นราคาในรายการราคา ดังนั้น ต้องมีรายการราคาใน Sales สำหรับสกุลเงินขายผลิตภัณฑ์ทุกๆ สกุลใน Finance and Operations สกุลเงินของผลิตภัณฑ์ที่สามารถขายได้ที่นำออกใช้ จะถูกตั้งค่าเป็นสกุลเงินทางบัญชีในนิติบุคคลที่ผลิตภัณฑ์ถูกส่งออกมา
 
 > [!NOTE]
-> การซิงโครไนส์ผลิตภัณฑ์จะไม่สำเร็จ เว้นแต่จะมีราคาตลาดที่มีสกุลเงินที่ตรงกัน
+> - การซิงโครไนส์ผลิตภัณฑ์จะไม่สำเร็จ เว้นแต่จะมีรายการราคาที่มีสกุลเงินที่ตรงกัน
+> - คุณสามารถควบคุมรายการราคาที่ใช้กับการรวม โดยการแม็ป pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] ได้ในโครงการรวมข้อมูล การป้อนข้อมูลต้องเป็นอักษรตัวพิมพ์เล็กทั้งหมด ตัวอย่างเช่น ค่าเริ่มต้นสำหรับรายการราคาในการขายที่มีชื่อว่า 'มาตรฐาน' จะเป็น: ฟิลด์ปลายทาง: pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] และชนิดแผนผัง: [ { "transformType": "เริ่มต้น" "ค่าเริ่มต้น": "มาตรฐาน" } ]
 
 ## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแม็ป
 
