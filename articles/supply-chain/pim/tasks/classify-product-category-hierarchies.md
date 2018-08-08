@@ -1,7 +1,7 @@
 --- 
 title: "จัดประเภทผลิตภัณฑ์โดยใช้ลำดับชั้นประเภท"
 description: "ใช้ลำดับชั้นประเภทในการจัดประเภทผลิตภัณฑ์สำหรับการส่งออก การจัดซื้อ การขาย หรือวัตถุประสงค์อื่นๆ "
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing

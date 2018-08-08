@@ -1,7 +1,7 @@
 ---
 title: "การอัพเดตบันทึกการจัดส่งสำหรับการส่งคืนสินค้า"
 description: "ก่อนที่สามารถรับสินค้าที่ส่งคืนเข้าไว้ในสินค้าคงคลังได้ ต้องอัพเดตบันทึกการจัดส่งสำหรับใบสั่งที่สินค้านั้นเป็นส่วนประกอบอยู่ "
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

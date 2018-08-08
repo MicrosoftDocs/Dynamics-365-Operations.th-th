@@ -1,7 +1,7 @@
 ---
 title: "กฎการปันส่วนบัญชีแยกประเภท"
 description: "บทความนี้แสดงข้อมูลเกี่ยวกับกฎการปันส่วนบัญชีแยกประเภท โดยจะอธิบายส่วนประกอบต่างๆ ของกฎการปันส่วนและวิธีการปันส่วนที่สามารถใช้สำหรับอุปกรณ์เหล่านี้"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54

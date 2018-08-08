@@ -1,7 +1,7 @@
 ---
 title: "หนังสือค้ำประกัน"
 description: "บทความนี้ให้ข้อมูลเกี่ยวกับหนังสือค้ำประกัน ในหนังสือค้ำประกัน ธนาคารตกลงที่จะชำระจำนวนเงินเฉพาะให้แก่บุคคลถ้าลูกค้าของธนาคารหนึ่งมีค่าเริ่มต้นในการชำระเงินหรือข้อผูกมัดไปยังบุคคลนั้น"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankLGGuarantee
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 18291
 ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f

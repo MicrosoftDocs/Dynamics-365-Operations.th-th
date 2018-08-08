@@ -1,7 +1,7 @@
 ---
 title: "การจัดส่งสินค้าโดยตรง"
 description: "บทความนี้มีข้อมูลเกี่ยวกับการจัดส่งสินค้าโดยตรง การจัดส่งสินค้าโดยตรงคือการจัดส่งที่ส่งโดยตรงจากผู้จัดจำหน่ายให้ลูกค้าของคุณ"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
