@@ -1,7 +1,7 @@
 --- 
 title: "ตั้งค่าคอนฟิกการประมวลผลเวฟ"
 description: "คู่มือนี้อธิบายวิธีการตั้งค่าเกณฑ์ที่กำหนดว่า งานใดถูกสร้างสำหรับคลังสินค้าเมื่อมีการประมวลผลเวฟ และเวฟถูกประมวลผลด้วยตนเองหรือโดยอัตโนมัติ "
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9a1318055f9c740e8d659a15db8311a0ca518f61
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 16fd964f3e83136b76541cae47f3ef156df61303
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="e09a6-103">ตั้งค่าคอนฟิกการประมวลผลเวฟ</span><span class="sxs-lookup"><span data-stu-id="e09a6-103">Configure wave processing</span></span>
