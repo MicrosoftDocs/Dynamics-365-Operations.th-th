@@ -1,7 +1,7 @@
 ---
 title: "การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน"
 description: "บทความนี้อธิบายสถานการณ์ที่แสดงวิธีจัดการการชำระเงินเมื่อลูกค้ามีส่วนลดเงินสด แต่ยังเกินผลรวม"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19

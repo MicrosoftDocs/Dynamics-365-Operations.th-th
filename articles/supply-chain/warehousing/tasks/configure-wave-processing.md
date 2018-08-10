@@ -1,7 +1,7 @@
 --- 
 title: "ตั้งค่าคอนฟิกการประมวลผลเวฟ"
 description: "คู่มือนี้อธิบายวิธีการตั้งค่าเกณฑ์ที่กำหนดว่า งานใดถูกสร้างสำหรับคลังสินค้าเมื่อมีการประมวลผลเวฟ และเวฟถูกประมวลผลด้วยตนเองหรือโดยอัตโนมัติ "
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

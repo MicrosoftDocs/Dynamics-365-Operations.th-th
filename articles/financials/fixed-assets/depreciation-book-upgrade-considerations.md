@@ -1,7 +1,7 @@
 ---
 title: "ภาพรวมการอัพเกรดของสมุดบัญชีค่าเสื่อมราคา"
 description: "ในรุ่นก่อนหน้า มีแนวคิดการคิดมูลค่าสองรายการสำหรับสินทรัพย์ถาวร - รูปแบบมูลค่าและสมุดบัญชีค่าเสื่อมราคา ใน Microsoft Dynamics 365 for Operations (1611) ฟังก์ชันรูปแบบมูลค่าและฟังก์ชันสมุดบัญชีค่าเสื่อมราคาถูกรวมกันเป็นแนวคิดเดียวซึ่งเรียกว่าสมุดบัญชี หัวข้อนี้อธิบายสิ่งที่ควรพิจารณาสำหรับการอัพเกรด"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39

@@ -1,7 +1,7 @@
 ---
 title: "โฮมเพจการบัญชีต้นทุน"
 description: "หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่น ๆ ที่พร้อมใช้งานสำหรับการบัญชีต้นทุน"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT

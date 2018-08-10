@@ -1,7 +1,7 @@
 ---
 title: "การรวมรูปแบบมูลค่าสินทรัพย์ถาวรและสมุดบัญชีค่าเสื่อมราคา"
 description: "ในรุ่นก่อนหน้า มีแนวคิดการคิดมูลค่าสองรายการสำหรับสินทรัพย์ถาวร - รูปแบบมูลค่าและสมุดบัญชีค่าเสื่อมราคา ในการนำออกใช้ Microsoft Dynamics 365 for Operations (1611) ฟังก์ชันรูปแบบมูลค่าและฟังก์ชันสมุดบัญชีค่าเสื่อมราคาถูกรวมกันเป็นแนวคิดเดียวซึ่งเรียกว่าสมุดบัญชี"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e

@@ -1,7 +1,7 @@
 --- 
 title: "ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด"
 description: "กระบวนงานนี้แสดงวิธีการอนุญาตให้ผู้ปฏิบัติงานคลังสินค้าสามารถค้นหาสถานที่อื่นได้อย่างรวดเร็วถ้าที่สถานที่ที่พวกเขาได้รับการสั่งการมีสินค้าคงคลังไม่เพียงพอ "
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
