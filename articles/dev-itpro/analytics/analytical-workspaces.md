@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: th-th
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [เนื้อหาภาพรวมของ CFO ใน Power BI](CFO-power-bi.md)
 - [เนื้อหาค่าตอบแทนของ Power BI](compensation-power-bi.md)
 - [เนื้อหาการบัญชีต้นทุนใน Power BI](cost-accounting-analysis-content-pack.md) 
-- [เนื้อหาการจัดการต้นทุนใน Power BI](cost-management-content-pack.md)    
+- [เนื้อหาการจัดการต้นทุนใน Power BI](cost-management-content-pack.md)
 - [เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [เนื้อหาการพัฒนาพนักงานใน Power BI](employee-development-PBI.md) 
 - [เนื้อหา Power BI ของข้อมูลเชิงลึกทางการเงิน](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [เนื้อหาประสิทธิภาพการขายและการทำกำไรใน Power BI](sales-profitability-performance-content-pack.md)
 - [เนื้อหาชำระเงินให้แก่ผู้จัดจำหน่ายใน Power BI](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI](warehouse-power-bi-content.md)
-- [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)  
+- [เนื้อหาเมตริกบุคลากรใน Power BI](workforce-analysis-power-bi-content-pack.md)
 
