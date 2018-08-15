@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="187fe-105">หัวข้อนี้อธิบายถึงเนื้อหา **Microsoft** ใน Microsoft Power BI</span><span class="sxs-lookup"><span data-stu-id="187fe-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="187fe-106">และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้</span><span class="sxs-lookup"><span data-stu-id="187fe-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="187fe-107">การเข้าถึงเนื้อหา Power BI</span><span class="sxs-lookup"><span data-stu-id="187fe-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="187fe-108">เนื้อหา Power BI **การสรรหา** จะปรากฏในพื้นที่ทำงาน **การจัดการสรรหาบุคลากร**</span><span class="sxs-lookup"><span data-stu-id="187fe-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="187fe-108">เนื้อหา Power BI **การสรรหา** จะปรากฏในพื้นที่ทำงาน **การจัดการสรรหาบุคลากร**</span><span class="sxs-lookup"><span data-stu-id="187fe-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="187fe-109">การรายงานและสิ่งที่มองเห็นในพื้นที่ทำงานการจัดการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="187fe-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="187fe-110">พื้นที่ทำงาน **การจัดการสรรหาบุคลากร** ประกอบด้วยแท็บ **การวิเคราะห์** แท็บนี้ประกอบด้วยเนื้อหา Power BI แบบฝังสำหรับการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="187fe-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="187fe-111">เนื้อหาประกอบด้วยแท็บภาพรวมและแท็บที่ประกอบด้วยรายละเอียดเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="187fe-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="187fe-112">ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงานในแต่ละแท็บ</span><span class="sxs-lookup"><span data-stu-id="187fe-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="187fe-163">ประสิทธิภาพ</span><span class="sxs-lookup"><span data-stu-id="187fe-163">Performance</span></span>          | <span data-ttu-id="187fe-164">การจัดอันดับ คำอธิบาย และแบบจำลองการจัดอันดับ</span><span class="sxs-lookup"><span data-stu-id="187fe-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="187fe-165">ผู้สมัคร ผู้สมัครที่ได้รับว่าจ้าง ผู้สมัครที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="187fe-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="187fe-166">โครงการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="187fe-166">Recruitment Project</span></span>  | <span data-ttu-id="187fe-167">คำอธิบายโครงการ สถานะโครงการ และตำแหน่งที่เปิดรับ</span><span class="sxs-lookup"><span data-stu-id="187fe-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="187fe-168">ผู้สมัคร ผู้สมัครที่ได้รับว่าจ้าง ผู้สมัครที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="187fe-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="187fe-169">ผู้สมัครที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="187fe-169">Terminated Applicant</span></span> | <span data-ttu-id="187fe-170">ผู้สมัครที่ถูกสิ้นสุดงานแล้ว เหตุผล ประสิทธิภาพการทำงาน และวันที่สิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="187fe-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="187fe-171">บริษัท ออฟเซ็ตปฏิทิน วันที่ ที่ตั้งทางภูมิศาสตร์ ประสิทธิภาพ สถิติประชากร การจ้างงาน สื่อ โครงการสรรหาบุคลากร ชื่อผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="187fe-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 

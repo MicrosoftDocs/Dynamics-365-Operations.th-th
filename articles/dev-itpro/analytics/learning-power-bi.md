@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="db061-162">ตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="db061-162">Position</span></span>         | <span data-ttu-id="db061-163">ตำแหน่งงาน ชื่อ และเทียบเท่าเต็มเวลา (FTE)</span><span class="sxs-lookup"><span data-stu-id="db061-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="db061-164">วาระการประชุมของหลักสูตร ผู้เข้าร่วมหลักสูตร</span><span class="sxs-lookup"><span data-stu-id="db061-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="db061-165">ชื่อพนักงาน</span><span class="sxs-lookup"><span data-stu-id="db061-165">Employee Name</span></span>    | <span data-ttu-id="db061-166">ชื่อจริง นามสกุล และชื่อเต็ม</span><span class="sxs-lookup"><span data-stu-id="db061-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="db061-167">ผู้เข้าร่วมหลักสูตร</span><span class="sxs-lookup"><span data-stu-id="db061-167">Course Attendees</span></span> |
 | <span data-ttu-id="db061-168">ตำแหน่งของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="db061-168">Employee Title</span></span>   | <span data-ttu-id="db061-169">ตำแหน่งงานและวันที่อายุงาน</span><span class="sxs-lookup"><span data-stu-id="db061-169">Title and seniority date</span></span>                                         | <span data-ttu-id="db061-170">ผู้เข้าร่วมหลักสูตร</span><span class="sxs-lookup"><span data-stu-id="db061-170">Course Attendees</span></span> |
-
-
 
