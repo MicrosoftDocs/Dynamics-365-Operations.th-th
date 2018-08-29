@@ -1,5 +1,5 @@
 ---
-title: "อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS"
+title: "อุปกรณ์ต่อพ่วงฮาร์ดแวร์ของการขายหน้าร้านที่ทดสอบ Microsoft (POS)"
 description: "การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก"
 author: jblucher
 manager: AnnBe
@@ -19,53 +19,53 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 250ab6570e152ad57b4a590203e9321d89e7b5d1
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e4191f6765faf9de5cbf8acf16dbd54d6b478252
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="pos-hardware-peripherals"></a><span data-ttu-id="431e1-103">อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS</span><span class="sxs-lookup"><span data-stu-id="431e1-103">POS hardware peripherals</span></span>
+# <a name="microsoft-tested-point-of-sale-pos-hardware-peripherals"></a><span data-ttu-id="abed1-103">อุปกรณ์ต่อพ่วงฮาร์ดแวร์ของการขายหน้าร้านที่ทดสอบ Microsoft (POS)</span><span class="sxs-lookup"><span data-stu-id="abed1-103">Microsoft-tested point of sale (POS) hardware peripherals</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="431e1-104">การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="431e1-104">Retail Modern point of sale (POS) and Cloud POS can utilize a wide range of POS hardware peripherals, with multiple interfaces and deployment options to achieve a retailer’s various business scenarios.</span></span> 
+<span data-ttu-id="abed1-104">การขายหน้าร้าน (POS) และ POS ระบบคลาวด์ของ Retail Modern สามารถใช้อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่หลากหลายที่มีอินเทอร์เฟสและตัวเลือกการปรับใช้ที่หลากหลายเพื่อให้บรรลุตามสถานการณ์ทางธุรกิจต่างๆ ของผู้ค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="abed1-104">Retail Modern point of sale (POS) and Cloud POS can utilize a wide range of POS hardware peripherals, with multiple interfaces and deployment options to achieve a retailer’s various business scenarios.</span></span> 
 
-<span data-ttu-id="431e1-105">เพื่อสนับสนุนการเลือกที่กว้างที่สุดของอุปกรณ์ต่างๆ ระหว่างผู้ผลิตและแบบจำลอง POS ใช้อินเทอร์เฟสมาตรฐาน เช่น OLE สำหรับ Retail POS (OPOS) ไดรเวอร์อุปกรณ์ของ Windows และ Application Program Interface (API) จุดบริการของ Windows</span><span class="sxs-lookup"><span data-stu-id="431e1-105">To support the widest selection of devices across manufactures and models, POS utilizes standard interfaces such as OLE for Retail POS (OPOS), Windows device drivers, and Windows point of service application program interfaces (APIs).</span></span> <span data-ttu-id="431e1-106">โดยทั่วไป POS จะทำงานบนอุปกรณ์เหล่านี้ถ้ามีโปรแกรมควบคุมที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="431e1-106">Generally, POS will work on these devices provided that the appropriate driver is supplied.</span></span> <span data-ttu-id="431e1-107">อย่างไรก็ตาม เนื่องจากผู้ผลิตและนักพัฒนาซอฟต์แวร์แต่ละรายนำมาตรฐานเหล่านี้ไปใช้แตกต่างกัน ความสามารถหรือพฤติกรรมในการสนับสนุนจึงมักจะแตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="431e1-107">However, because each manufacturer and software developer’s implementation of these standards can vary, there are often differences in supported capabilities or behaviors.</span></span>
+<span data-ttu-id="abed1-105">เพื่อสนับสนุนการเลือกที่กว้างที่สุดของอุปกรณ์ต่างๆ ระหว่างผู้ผลิตและแบบจำลอง POS ใช้อินเทอร์เฟสมาตรฐาน เช่น OLE สำหรับ Retail POS (OPOS) ไดรเวอร์อุปกรณ์ของ Windows และ Application Program Interface (API) จุดบริการของ Windows</span><span class="sxs-lookup"><span data-stu-id="abed1-105">To support the widest selection of devices across manufactures and models, POS utilizes standard interfaces such as OLE for Retail POS (OPOS), Windows device drivers, and Windows point of service application program interfaces (APIs).</span></span> <span data-ttu-id="abed1-106">โดยทั่วไป POS จะทำงานบนอุปกรณ์เหล่านี้ถ้ามีโปรแกรมควบคุมที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="abed1-106">Generally, POS will work on these devices provided that the appropriate driver is supplied.</span></span> <span data-ttu-id="abed1-107">อย่างไรก็ตาม เนื่องจากผู้ผลิตและนักพัฒนาซอฟต์แวร์แต่ละรายนำมาตรฐานเหล่านี้ไปใช้แตกต่างกัน ความสามารถหรือพฤติกรรมในการสนับสนุนจึงมักจะแตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="abed1-107">However, because each manufacturer and software developer’s implementation of these standards can vary, there are often differences in supported capabilities or behaviors.</span></span>
 
-<span data-ttu-id="431e1-108">รายการต่อไปนี้รวมถึงแบบจำลองอุปกรณ์ในประเภทแต่ละคลาสที่มีการทดสอบภายในโดย Microsoft</span><span class="sxs-lookup"><span data-stu-id="431e1-108">The following list includes device models, in each class, that have been tested internally by Microsoft.</span></span>
+<span data-ttu-id="abed1-108">รายการต่อไปนี้รวมถึงแบบจำลองอุปกรณ์ในประเภทแต่ละคลาสที่มีการทดสอบภายในโดย Microsoft</span><span class="sxs-lookup"><span data-stu-id="abed1-108">The following list includes device models, in each class, that have been tested internally by Microsoft.</span></span>
 
-<span data-ttu-id="431e1-109">**อุปกรณ์ OPOS**</span><span class="sxs-lookup"><span data-stu-id="431e1-109">**OPOS devices**</span></span>
+<span data-ttu-id="abed1-109">**อุปกรณ์ OPOS**</span><span class="sxs-lookup"><span data-stu-id="abed1-109">**OPOS devices**</span></span>
 
--   <span data-ttu-id="431e1-110">บาร์โค้ด – Motorola DS9208</span><span class="sxs-lookup"><span data-stu-id="431e1-110">Barcode – Motorola DS9208</span></span>
--   <span data-ttu-id="431e1-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span><span class="sxs-lookup"><span data-stu-id="431e1-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span></span>
--   <span data-ttu-id="431e1-112">LineDisplay – Epson M58DC</span><span class="sxs-lookup"><span data-stu-id="431e1-112">LineDisplay – Epson M58DC</span></span>
--   <span data-ttu-id="431e1-113">Pinpad – Verifone 1000SE</span><span class="sxs-lookup"><span data-stu-id="431e1-113">Pinpad – Verifone 1000SE</span></span>
--   <span data-ttu-id="431e1-114">แป้นกดลายเซ็น – Scriptel ST1550</span><span class="sxs-lookup"><span data-stu-id="431e1-114">Signature pad – Scriptel ST1550</span></span>
--   <span data-ttu-id="431e1-115">เครื่องพิมพ์ – TM EPSON-T88IV, TMT88V</span><span class="sxs-lookup"><span data-stu-id="431e1-115">Printer – EPSON TM-T88IV, TMT88V</span></span>
--   <span data-ttu-id="431e1-116">ลิ้นชักเงินสด – Star SMD2-1317BK44</span><span class="sxs-lookup"><span data-stu-id="431e1-116">Cash drawer – Star SMD2-1317BK44</span></span>
--   <span data-ttu-id="431e1-117">สเกล – Datalogic Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="431e1-117">Scale – Datalogic Magellan 8400</span></span>
+-   <span data-ttu-id="abed1-110">บาร์โค้ด – Motorola DS9208</span><span class="sxs-lookup"><span data-stu-id="abed1-110">Barcode – Motorola DS9208</span></span>
+-   <span data-ttu-id="abed1-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span><span class="sxs-lookup"><span data-stu-id="abed1-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span></span>
+-   <span data-ttu-id="abed1-112">LineDisplay – Epson M58DC</span><span class="sxs-lookup"><span data-stu-id="abed1-112">LineDisplay – Epson M58DC</span></span>
+-   <span data-ttu-id="abed1-113">Pinpad – Verifone 1000SE</span><span class="sxs-lookup"><span data-stu-id="abed1-113">Pinpad – Verifone 1000SE</span></span>
+-   <span data-ttu-id="abed1-114">แป้นกดลายเซ็น – Scriptel ST1550</span><span class="sxs-lookup"><span data-stu-id="abed1-114">Signature pad – Scriptel ST1550</span></span>
+-   <span data-ttu-id="abed1-115">เครื่องพิมพ์ – TM EPSON-T88IV, TMT88V</span><span class="sxs-lookup"><span data-stu-id="abed1-115">Printer – EPSON TM-T88IV, TMT88V</span></span>
+-   <span data-ttu-id="abed1-116">ลิ้นชักเงินสด – Star SMD2-1317BK44</span><span class="sxs-lookup"><span data-stu-id="abed1-116">Cash drawer – Star SMD2-1317BK44</span></span>
+-   <span data-ttu-id="abed1-117">สเกล – Datalogic Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="abed1-117">Scale – Datalogic Magellan 8400</span></span>
 
-<span data-ttu-id="431e1-118">**เครื่องอ่านบัตรเครดิตคีย์บอร์ด MSR**</span><span class="sxs-lookup"><span data-stu-id="431e1-118">**Keyboard wedge MSR**</span></span>
+<span data-ttu-id="abed1-118">**เครื่องอ่านบัตรเครดิตคีย์บอร์ด MSR**</span><span class="sxs-lookup"><span data-stu-id="abed1-118">**Keyboard wedge MSR**</span></span>
 
--   <span data-ttu-id="431e1-119">Magtek USB</span><span class="sxs-lookup"><span data-stu-id="431e1-119">Magtek USB</span></span>
+-   <span data-ttu-id="abed1-119">Magtek USB</span><span class="sxs-lookup"><span data-stu-id="abed1-119">Magtek USB</span></span>
 
-<span data-ttu-id="431e1-120">**เทอร์มินัลการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="431e1-120">**Payment terminal**</span></span>
+<span data-ttu-id="abed1-120">**เทอร์มินัลการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="abed1-120">**Payment terminal**</span></span>
 
--   <span data-ttu-id="431e1-121">Equinox L3500</span><span class="sxs-lookup"><span data-stu-id="431e1-121">Equinox L3500</span></span>
--   <span data-ttu-id="431e1-122">Verifone MX925</span><span class="sxs-lookup"><span data-stu-id="431e1-122">Verifone MX925</span></span>
+-   <span data-ttu-id="abed1-121">Equinox L3500</span><span class="sxs-lookup"><span data-stu-id="abed1-121">Equinox L3500</span></span>
+-   <span data-ttu-id="abed1-122">Verifone MX925</span><span class="sxs-lookup"><span data-stu-id="abed1-122">Verifone MX925</span></span>
 
-<span data-ttu-id="431e1-123">**อุปกรณ์เครือข่าย**</span><span class="sxs-lookup"><span data-stu-id="431e1-123">**Network devices**</span></span>
+<span data-ttu-id="abed1-123">**อุปกรณ์เครือข่าย**</span><span class="sxs-lookup"><span data-stu-id="abed1-123">**Network devices**</span></span>
 
--   <span data-ttu-id="431e1-124">เครื่องพิมพ์ – Star TSP650II</span><span class="sxs-lookup"><span data-stu-id="431e1-124">Printer – Star TSP650II</span></span>
--   <span data-ttu-id="431e1-125">ลิ้นชักเงินสด – APG Atwood</span><span class="sxs-lookup"><span data-stu-id="431e1-125">Cash drawer – APG Atwood</span></span>
--   <span data-ttu-id="431e1-126">เทอร์มินัลการชำระเงิน – MX915, MX925</span><span class="sxs-lookup"><span data-stu-id="431e1-126">Payment terminal – MX915, MX925</span></span>
+-   <span data-ttu-id="abed1-124">เครื่องพิมพ์ – Star TSP650II</span><span class="sxs-lookup"><span data-stu-id="abed1-124">Printer – Star TSP650II</span></span>
+-   <span data-ttu-id="abed1-125">ลิ้นชักเงินสด – APG Atwood</span><span class="sxs-lookup"><span data-stu-id="abed1-125">Cash drawer – APG Atwood</span></span>
+-   <span data-ttu-id="abed1-126">เทอร์มินัลการชำระเงิน – MX915, MX925</span><span class="sxs-lookup"><span data-stu-id="abed1-126">Payment terminal – MX915, MX925</span></span>
 
-<span data-ttu-id="431e1-127">**IPC MPOS โดยตรงเท่านั้น**</span><span class="sxs-lookup"><span data-stu-id="431e1-127">**MPOS direct IPC only**</span></span>
+<span data-ttu-id="abed1-127">**IPC MPOS โดยตรงเท่านั้น**</span><span class="sxs-lookup"><span data-stu-id="abed1-127">**MPOS direct IPC only**</span></span>
 
--   <span data-ttu-id="431e1-128">บาร์โค้ด – Honeywell 1900, HP LS2208</span><span class="sxs-lookup"><span data-stu-id="431e1-128">Barcode – Honeywell 1900, HP LS2208</span></span>
--   <span data-ttu-id="431e1-129">MSR – Magtek PN - 21073075</span><span class="sxs-lookup"><span data-stu-id="431e1-129">MSR – Magtek PN - 21073075</span></span>
+-   <span data-ttu-id="abed1-128">บาร์โค้ด – Honeywell 1900, HP LS2208</span><span class="sxs-lookup"><span data-stu-id="abed1-128">Barcode – Honeywell 1900, HP LS2208</span></span>
+-   <span data-ttu-id="abed1-129">MSR – Magtek PN - 21073075</span><span class="sxs-lookup"><span data-stu-id="abed1-129">MSR – Magtek PN - 21073075</span></span>
 
 
 

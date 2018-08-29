@@ -1,5 +1,5 @@
 ---
-title: "WebSearchAX ถอน"
+title: "มีการถอนหน้า WebSearchAX"
 description: "เราต้องถอนหน้า WebSearchAX เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่"
 author: margoc
 manager: AnnBe
@@ -18,23 +18,23 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 59e45f504fbe484f3eb842e3d6a6bbfc4fe0e50f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 8c2375ee1dec3e816dbec19130733ebb2aac0fc3
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="websearchax-retired"></a><span data-ttu-id="2feef-104">WebSearchAX ถอน</span><span class="sxs-lookup"><span data-stu-id="2feef-104">WebSearchAX retired</span></span>
+# <a name="websearchax-page-has-been-retired"></a><span data-ttu-id="4f35d-104">มีการถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="4f35d-104">WebSearchAX page has been retired</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2feef-105">เราต้องถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="2feef-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="2feef-106">เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่</span><span class="sxs-lookup"><span data-stu-id="2feef-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="2feef-107">ตัวอย่างเช่น </span><span class="sxs-lookup"><span data-stu-id="2feef-107">For example:</span></span> 
+<span data-ttu-id="4f35d-105">เราต้องถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="4f35d-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="4f35d-106">เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่</span><span class="sxs-lookup"><span data-stu-id="4f35d-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="4f35d-107">ตัวอย่างเช่น </span><span class="sxs-lookup"><span data-stu-id="4f35d-107">For example:</span></span> 
 
-<span data-ttu-id="2feef-108">ไซต์:technet.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="2feef-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="4f35d-108">ไซต์:technet.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="4f35d-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
 
-<span data-ttu-id="2feef-109">หรือ</span><span class="sxs-lookup"><span data-stu-id="2feef-109">-or-</span></span>
+<span data-ttu-id="4f35d-109">หรือ</span><span class="sxs-lookup"><span data-stu-id="4f35d-109">-or-</span></span>
 
-<span data-ttu-id="2feef-110">ไซต์:msdn.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="2feef-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span></span>
+<span data-ttu-id="4f35d-110">ไซต์:msdn.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="4f35d-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span></span>
 
 

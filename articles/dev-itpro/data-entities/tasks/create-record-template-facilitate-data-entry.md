@@ -16,37 +16,37 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a84ca9a8d6e7346cc136317cc4751a495d5dee1
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: afe2da72ef6a6451e797ed6098df164e765e503e
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="c1f1a-103">สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล</span><span class="sxs-lookup"><span data-stu-id="c1f1a-103">Create a record template to facilitate data entry</span></span>
+# <a name="create-record-templates-to-facilitate-data-entry"></a><span data-ttu-id="073bb-103">สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล</span><span class="sxs-lookup"><span data-stu-id="073bb-103">Create record templates to facilitate data entry</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c1f1a-104">กระบวนงานนี้อธิบายวิธีการสร้างเท็มเพลตเรกคอร์ดเพื่อให้ไม่จำเป็นต้องป้อนค่าในฟิลด์ที่ใช้บ่อยอย่างชัดแจ้งสำหรับแต่ละเรกคอร์ดใหม่</span><span class="sxs-lookup"><span data-stu-id="c1f1a-104">This procedure demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="c1f1a-105">ในกระบวนงานนี้ คุณจะสร้างเรกคอร์ดใหม่สำหรับแล็ปท็อปใหม่ที่ควรถูกเพิ่มในสินทรัพย์ถาวรของคุณ</span><span class="sxs-lookup"><span data-stu-id="c1f1a-105">In this procedure, you’ll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="c1f1a-106">กระบวนงานนี้ใช้บริษัทตัวอย่าง USMF</span><span class="sxs-lookup"><span data-stu-id="c1f1a-106">This procedure uses the USMF sample company.</span></span>
+<span data-ttu-id="073bb-104">กระบวนงานนี้อธิบายวิธีการสร้างเท็มเพลตเรกคอร์ดเพื่อให้ไม่จำเป็นต้องป้อนค่าในฟิลด์ที่ใช้บ่อยอย่างชัดแจ้งสำหรับแต่ละเรกคอร์ดใหม่</span><span class="sxs-lookup"><span data-stu-id="073bb-104">This procedure demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="073bb-105">ในกระบวนงานนี้ คุณจะสร้างเรกคอร์ดใหม่สำหรับแล็ปท็อปใหม่ที่ควรถูกเพิ่มในสินทรัพย์ถาวรของคุณ</span><span class="sxs-lookup"><span data-stu-id="073bb-105">In this procedure, you’ll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="073bb-106">กระบวนงานนี้ใช้บริษัทตัวอย่าง USMF</span><span class="sxs-lookup"><span data-stu-id="073bb-106">This procedure uses the USMF sample company.</span></span>
 
-1. <span data-ttu-id="c1f1a-107">ไปที่ สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="c1f1a-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="c1f1a-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="c1f1a-108">Click New.</span></span>
-3. <span data-ttu-id="c1f1a-109">ในฟิลด์กลุ่มสินทรัพย์ถาวร ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="c1f1a-109">In the Fixed asset group field, enter or select a value.</span></span>
-4. <span data-ttu-id="c1f1a-110">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="c1f1a-110">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="c1f1a-111">ตัวอย่างเช่น ป้อน 'Corporate lead laptop'</span><span class="sxs-lookup"><span data-stu-id="c1f1a-111">For example, enter 'Corporate lead laptop'.</span></span>  
-5. <span data-ttu-id="c1f1a-112">ในฟิลด์ชื่อสำหรับค้นหา ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c1f1a-112">In the Search name field, type a value.</span></span>
-    * <span data-ttu-id="c1f1a-113">ตัวอย่างเช่น ป้อน 'laptop'</span><span class="sxs-lookup"><span data-stu-id="c1f1a-113">For example, enter 'laptop.'</span></span>  
-6. <span data-ttu-id="c1f1a-114">ขยายส่วนข้อมูลทางเทคนิค</span><span class="sxs-lookup"><span data-stu-id="c1f1a-114">Expand the Technical information section.</span></span>
-7. <span data-ttu-id="c1f1a-115">ในฟิลด์ยี่ห้อ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c1f1a-115">In the Make field, type a value.</span></span>
-8. <span data-ttu-id="c1f1a-116">ในฟิลด์แบบจำลอง ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c1f1a-116">In the Model field, type a value.</span></span>
-9. <span data-ttu-id="c1f1a-117">ในฟิลด์ปีของรุ่น ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c1f1a-117">In the Model year field, type a value.</span></span>
-10. <span data-ttu-id="c1f1a-118">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="c1f1a-118">On the Action Pane, click Options.</span></span>
-11. <span data-ttu-id="c1f1a-119">คลิก ข้อมูลของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="c1f1a-119">Click Record info.</span></span>
-12. <span data-ttu-id="c1f1a-120">คลิก เท็มเพลตผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="c1f1a-120">Click User template.</span></span>
-13. <span data-ttu-id="c1f1a-121">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="c1f1a-121">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="c1f1a-122">ตัวอย่างเช่น ป้อน 'Corporate laptop'</span><span class="sxs-lookup"><span data-stu-id="c1f1a-122">For example, enter 'Corporate laptop.'</span></span>  
-14. <span data-ttu-id="c1f1a-123">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c1f1a-123">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="c1f1a-124">ตัวอย่างเช่น ป้อน 'Corporate laptop'</span><span class="sxs-lookup"><span data-stu-id="c1f1a-124">For example, enter 'Corporate laptop'.</span></span>  
-15. <span data-ttu-id="c1f1a-125">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c1f1a-125">Click OK.</span></span>
-16. <span data-ttu-id="c1f1a-126">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="c1f1a-126">Click Close.</span></span>
+1. <span data-ttu-id="073bb-107">ไปที่ สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="073bb-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="073bb-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="073bb-108">Click New.</span></span>
+3. <span data-ttu-id="073bb-109">ในฟิลด์กลุ่มสินทรัพย์ถาวร ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="073bb-109">In the Fixed asset group field, enter or select a value.</span></span>
+4. <span data-ttu-id="073bb-110">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="073bb-110">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="073bb-111">ตัวอย่างเช่น ป้อน 'Corporate lead laptop'</span><span class="sxs-lookup"><span data-stu-id="073bb-111">For example, enter 'Corporate lead laptop'.</span></span>  
+5. <span data-ttu-id="073bb-112">ในฟิลด์ชื่อสำหรับค้นหา ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="073bb-112">In the Search name field, type a value.</span></span>
+    * <span data-ttu-id="073bb-113">ตัวอย่างเช่น ป้อน 'laptop'</span><span class="sxs-lookup"><span data-stu-id="073bb-113">For example, enter 'laptop.'</span></span>  
+6. <span data-ttu-id="073bb-114">ขยายส่วนข้อมูลทางเทคนิค</span><span class="sxs-lookup"><span data-stu-id="073bb-114">Expand the Technical information section.</span></span>
+7. <span data-ttu-id="073bb-115">ในฟิลด์ยี่ห้อ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="073bb-115">In the Make field, type a value.</span></span>
+8. <span data-ttu-id="073bb-116">ในฟิลด์แบบจำลอง ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="073bb-116">In the Model field, type a value.</span></span>
+9. <span data-ttu-id="073bb-117">ในฟิลด์ปีของรุ่น ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="073bb-117">In the Model year field, type a value.</span></span>
+10. <span data-ttu-id="073bb-118">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="073bb-118">On the Action Pane, click Options.</span></span>
+11. <span data-ttu-id="073bb-119">คลิก ข้อมูลของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="073bb-119">Click Record info.</span></span>
+12. <span data-ttu-id="073bb-120">คลิก เท็มเพลตผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="073bb-120">Click User template.</span></span>
+13. <span data-ttu-id="073bb-121">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="073bb-121">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="073bb-122">ตัวอย่างเช่น ป้อน 'Corporate laptop'</span><span class="sxs-lookup"><span data-stu-id="073bb-122">For example, enter 'Corporate laptop.'</span></span>  
+14. <span data-ttu-id="073bb-123">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="073bb-123">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="073bb-124">ตัวอย่างเช่น ป้อน 'Corporate laptop'</span><span class="sxs-lookup"><span data-stu-id="073bb-124">For example, enter 'Corporate laptop'.</span></span>  
+15. <span data-ttu-id="073bb-125">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="073bb-125">Click OK.</span></span>
+16. <span data-ttu-id="073bb-126">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="073bb-126">Click Close.</span></span>
 
 
