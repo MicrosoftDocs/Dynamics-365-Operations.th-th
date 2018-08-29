@@ -1,5 +1,5 @@
 --- 
-title: "สร้างการตั้งค่าคอนฟิกที่จำเป็นเพื่อนำเข้าข้อมูลจากไฟล์ภายนอกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)"
+title: "สร้างการตั้งค่าคอนฟิก ER เพื่อนำเข้าข้อมูลจากไฟล์ภายนอก"
 description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จะนำเข้าข้อมูลลงในแอพลิเคชัน Dynamics 365 for Finance and Operations จากไฟล์ภายนอก"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>สร้างการตั้งค่าคอนฟิกที่จำเป็นเพื่อนำเข้าข้อมูลจากไฟล์ภายนอกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="create-er-configurations-to-import-data-from-external-files"></a>สร้างการตั้งค่าคอนฟิก ER เพื่อนำเข้าข้อมูลจากไฟล์ภายนอก
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

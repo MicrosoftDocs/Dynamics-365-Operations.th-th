@@ -1,5 +1,5 @@
 --- 
-title: "แม็ปแบบจำลองเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล"
+title: "แมปแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล"
 description: "ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER "
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c26713a8a391f9f10a6e24f6619c24c1615d4560
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source"></a>แม็ปแบบจำลองเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล 
+# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>แมปแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "ติดตั้งตัวออกแบบโครงร่าง Retail POS"
+title: "ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)"
 description: "คุณสามารถใช้ตัวออกแบบคลิกเดียวเพื่อออกแบบโครงร่าง Modern POS ของการขายปลีก (MPOS) และ POS ระบบคลาวด์ต่างๆ ในโหมดแนวนอนหรือโหมดแนวตั้ง สำหรับร้านค้า เครื่องบันทึกเงินสด พนักงาน และผู้จัดการ"
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="install-the-retail-pos-layout-designer"></a>ติดตั้งตัวออกแบบโครงร่าง Retail POS
+# <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)
 
 [!include [banner](includes/banner.md)]
 

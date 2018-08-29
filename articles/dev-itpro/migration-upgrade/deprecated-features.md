@@ -1,9 +1,9 @@
 ---
-title: "ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน"
+title: "คุณสมบัติที่ลบหรือไม่ได้รับการสนับสนุน"
 description: "หัวข้อนี้อธิบายลักษณะการทำงานที่ถูกลบออก หรือที่วางแผนไว้ว่าจะลบ"
 author: sericks007
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 08/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
-ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
+ms.sourcegitcommit: 884a1372c6ebdcc665a812090d75c158c1fef895
+ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
 ms.contentlocale: th-th
-ms.lasthandoff: 05/30/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -38,6 +38,9 @@ ms.lasthandoff: 05/30/2018
 
 > [!Note]
 > โดยเริ่มต้นด้วย Dynamics 365 for Finance and Operations รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 ที่มีการปรับปรุงแพลตฟอร์ม 8 ชนิดของการปรับใช้ถูกบันทึกไว้สำหรับคุณลักษณะที่ถูกลบหรือถูกยกเลิกการใช้แต่ละรายการ รุ่นก่อนหน้านี้ทั้งหมดที่กล่าวถึงในหัวข้อนี้ สนับสนุนการปรับใช้ระบบคลาวด์เท่านั้น
+
+> [!Note]
+> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ใน Finance and Operations สามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ได้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่ได้เปลี่ยนแปลง หรือถูกลบออกในแต่ละรุ่นของ Finance and Operations
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations ที่มีการอัพเดตแพลตฟอร์ม 15
 ลักษณะการทำงานไม่ได้ถูกลบออก หรือไม่สนับสนุน ด้วยรุ่นที่นำออกใช้นี้ การปรับปรุงแพลตฟอร์ม 15 เป็นแบบสะสม และประกอบด้วยคุณลักษณะใหม่หรือที่เปลี่ยนแปลงจากการปรับปรุงแพลตฟอร์ม 13 ปรับปรุงแพลตฟอร์ม 14 และการปรับปรุงแพลตฟอร์ม 15

@@ -1,5 +1,5 @@
 --- 
-title: "อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)"
+title: "อัพเกรดรูปแบบโดยปรับใช้รุ่นฐานใหม่"
 description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถรักษาการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7a14299c3bdcc33a4441d1cc096b198af4d4ae4c
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้นสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="upgrade-formats-by-adopting-new-base-versions"></a>อัพเกรดรูปแบบโดยปรับใช้รุ่นฐานใหม่
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

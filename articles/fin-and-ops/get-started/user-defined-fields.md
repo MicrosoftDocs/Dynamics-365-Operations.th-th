@@ -1,5 +1,5 @@
 ---
-title: "ฟิลด์ที่กำหนดเอง"
+title: "สร้าง และทำงานร่วมกับฟิลด์ที่กำหนดเอง"
 description: "หัวข้อนี้แสดงวิธีการที่ Microsoft Dynamics 365 for Finance and Operations อนุญาตให้ผู้ใช้บางรายสามารถสร้างฟิลด์แบบกำหนดเองได้ เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของตน"
 author: jasongre
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 1ce709a4b5cce145d841b844a21a5218ba250c87
 ms.contentlocale: th-th
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="custom-fields"></a>ฟิลด์ที่กำหนดเอง
+# <a name="create-and-work-with-custom-fields"></a>สร้าง และทำงานร่วมกับฟิลด์ที่กำหนดเอง
 
 [!include [banner](../includes/banner.md)]
 

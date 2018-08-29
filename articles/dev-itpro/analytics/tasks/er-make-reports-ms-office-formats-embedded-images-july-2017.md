@@ -1,5 +1,5 @@
 --- 
-title: "ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ด้วยรูปภาพที่ฝัง"
+title: "ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง"
 description: "ขั้นตอนในหัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสารอิเล็กทรอนิกส์ในรูปแบบ Microsoft Office (Excel และ Word) ที่ประกอบด้วยรูปภาพที่ฝังอยู่"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Microsoft Office ด้วยรูปภาพที่ฝัง
+# <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

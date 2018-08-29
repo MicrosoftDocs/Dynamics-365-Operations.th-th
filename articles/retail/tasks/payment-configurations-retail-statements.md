@@ -1,5 +1,5 @@
 --- 
-title: " การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดการขายปลีก"
+title: "ตั้งค่าคอนฟิกการตั้งค่าวิธีการชำระเงินที่ส่งผลต่อใบแจ้งยอด Retail"
 description: "กระบวนการนี้จะแสดงการตั้งค่าคอนฟิกสำหรับวิธีการชำระเงินของร้านค้าปลีกที่มีผลต่อวิธีการสร้างและลงรายการบัญชีการขายปลีก "
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0ffd6dc5fff6d27ec3cfdcd68c53b2299c4100b9
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ba21db9ee97dc4d851c77a906927ef513940b743
 ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="payment-configurations-for-retail-statements"></a> การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดการขายปลีก
+# <a name="configure-payment-method-settings-that-affect-retail-statements"></a>ตั้งค่าคอนฟิกการตั้งค่าวิธีการชำระเงินที่ส่งผลต่อใบแจ้งยอด Retail
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

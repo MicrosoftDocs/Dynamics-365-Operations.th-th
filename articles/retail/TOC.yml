@@ -4,29 +4,60 @@
   items:
     - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
       href: get-started/whats-new.md
-    - name: ก่อนที่คุณจะซื้อ Dynamics 365 for Retail
+    - name: ก่อนที่คุณจะซื้อ Retail
       href: get-started/before-you-buy.md
-    - name: ลงทะเบียนสมัครใช้งานรุ่นตัวอย่าง
+    - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
     - name: ปรับใช้สภาพแวดล้อมสาธิต
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: ตัวเลือกการปรับใช้
       href: dev-itpro/choose-deployment.md
+- name: ทำความเข้าใจวงจรการใช้งาน
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: การเตรียมความพร้อม
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: การจัดเตรียมสำหรับการเริ่มใช้งานจริง
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: FAQ เกี่ยวกับการเริ่มใช้งานจริง
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: ส่งคำขอรับบริการ
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: FAQ เกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure Active Directory
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: ย้ายสภาพแวดล้อมระหว่างศูนย์ข้อมูล
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: ย้ายสิทธิ์การใช้งานระหว่างข้อตกลงชนิดต่างๆ
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: ย้ายโครงการการใช้งาน LCS ไปยังผู้เช่า Azure Active Directory อื่น
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: ใช้งานโครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure Active Directory เดียวกัน
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: ดำเนินโครงการ Retail ใน Finance and Operations
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'ตั้งค่าสภาพแวดล้อมใหม่, VSTS และสาขาสำหรับโครงการ Retail'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: อัพเดตรหัสและสภาพแวดล้อมสำหรับโครงการ Retail
+      href: dev-itpro/updating-environments.md
+    - name: ปัญหาการทดสอบและประสิทธิภาพ
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: การชำระเงิน
   items:
     - name: วิธีการชำระเงิน
       href: payment-methods.md
-    - name: การตั้งค่าบัตรเครดิต ตรวจสอบ และรวบรวมข้อมูล
+    - name: การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: ตั้งค่าคอนฟิกวิธีการชำระเงินสำหรับ POS
+    - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับ POS
       href: cash-denominations.md
-    - name: FAQ การชำระเงิน
+    - name: FAQ เกี่ยวกับการชำระเงิน
       href: dev-itpro/payments-retail.md
 - name: ใบสั่งซื้อ
   items:
     - name: ภาพรวมใบสั่งซื้อ
       href: ../supply-chain/procurement/purchase-order-overview.md
-    - name: การสร้างใบสั่งซื้อ
+    - name: สร้างใบสั่งซื้อ
       href: ../supply-chain/procurement/purchase-order-creation.md
     - name: ใบรับสินค้า - ใบสั่งซื้อ
       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
@@ -34,23 +65,23 @@
       href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
     - name: พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
-- name: รายงาน
+- name: ใบแจ้งยอด
   items:
-    - name: ภาพรวมใบแจ้งยอดของ Retail
+    - name: ใบแจ้งยอดการขายปลีก
       href: retail-statements.md
     - name: สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: การปรับปรุงการลงรายการบัญชีใบแจ้งยอดจากธนาคาร
+    - name: การปรับปรุงฟังก์ชันการลงรายการบัญชีใบแจ้งยอด
       href: statement-posting-EOD.md
-    - name: การตั้งค่าคอนฟิกพารามิเตอร์สำหรับใบแจ้งยอดของ Retail
+    - name: ตั้งค่าคอนฟิกพารามิเตอร์ Retail ที่มีผลกับใบแจ้งยอดการขายปลีก
       href: tasks/parameter-configurations-retail-statements.md
-    - name: การตั้งค่าคอนฟิกการชำระเงินสำหรับใบแจ้งยอดของ Retail
+    - name: ตั้งค่าคอนฟิกการกำหนดวิธีการชำระเงินที่มีผลกับใบแจ้งยอดการขายปลีก
       href: tasks/payment-configurations-retail-statements.md
     - name: ตั้งค่าคอนฟิกและดำเนินงานเพื่อการคำนวณใบแจ้งยอด
       href: tasks/run-job-calculate-statements.md
     - name: ตั้งค่าคอนฟิกและดำเนินงานเพื่อลงรายการบัญชีใบแจ้งยอด
       href: tasks/run-job-post-statements.md
-    - name: การตั้งค่าคอนฟิกการจัดเก็บสำหรับใบแจ้งยอดของ Retail
+    - name: ตั้งค่าคอนฟิกการกำหนดร้านค้าที่มีผลกับใบแจ้งยอดการขายปลีก
       href: tasks/store-configurations-retail-statements.md
 - name: ภาษีขาย
   items:
@@ -64,7 +95,7 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: ศูนย์บริการ
   items:
-    - name: ภาพรวมศูนย์บริการ
+    - name: ฟังก์ชันการขายของศูนย์บริการ
       href: call-center-functionality.md
     - name: แค็ตตาล็อกของศูนย์บริการ
       href: call-center-catalogs.md
@@ -72,55 +103,55 @@
       href: create-call-center-catalogs.md
     - name: กำหนดค่าวิธีและค่าธรรมเนียมการจัดส่ง
       href: configure-call-center-delivery.md
-    - name: ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง
+    - name: ตั้งค่าและทำงานกับข้อความแจ้งเตือนการฉ้อโกง
       href: set-up-fraud-alerts.md
-    - name: ตั้งค่าศูนย์บริการ
+    - name: ตั้งค่าช่องทางของศูนย์บริการ
       href: set-up-order-processing-options.md
-    - name: ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์
+    - name: ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ
       href: set-up-continuity-program.md
-    - name: การระงับใบสั่งของศูนย์บริการ
+    - name: ตั้งค่าคอนฟิกและทำงานกับการระงับใบสั่งของศูนย์บริการ
       href: work-with-order-holds.md
-    - name: ตัวเลือกการชำระเงิน
+    - name: วิธีการชำระเงิน
       href: work-with-payments.md
 - name: การตั้งค่าและการจัดการช่องทาง
   items:
-    - name: เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Retail
+    - name: เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่
       href: enable-configure-retail-functionality.md
-    - name: กำหนดช่องทางการขายปลีก
+    - name: กำหนดและรักษาช่องทางการขายปลีก
       href: define-maintain-retail-channels.md
     - name: การจัดการการจัดประเภท
       href: assortments.md
-    - name: ภาพรวมร้านค้าออนไลน์
+    - name: ตั้งค่าร้านค้าออนไลน์
       href: online-stores.md
     - name: ตั้งค่าคอนฟิกและติดตั้ง Retail Hardware Station
       href: retail-hardware-station-configuration-installation.md
-    - name: เวลาและการเข้างานของ Retail
+    - name: เวลาและการเข้างานใน Retail
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) และ Cloud POS
   items:
-    - name: เลือกระหว่าง Modern POS และ Cloud POS
+    - name: เลือกระหว่าง MPOS และ Cloud POS
       href: MPOS-or-CPOS.md
-    - name: การดำเนินงาน POS ออนไลน์และออฟไลน์
+    - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
       href: pos-operations.md
-    - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS
+    - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ Cloud POS
       href: demo-data.md
-    - name: ภาพรวมของการค้นหาผลิตภัณฑ์และลูกค้าในการขายหน้าร้าน
+    - name: การค้นหาผลิตภัณฑ์และลูกค้าใน POS
       href: POS-search-improvements.md
-    - name: การค้นหาสินค้าคงคลังในการขายหน้าร้าน
+    - name: การค้นหาสินค้าคงคลังใน POS
       href: product-variants-POS.md
     - name: อุปกรณ์ต่อพ่วงฮาร์ดแวร์
       items:
-        - name: ภาพรวมของอุปกรณ์ต่อพ่วงขายปลีก
+        - name: อุปกรณ์ต่อพ่วงของการขายปลีก
           href: retail-peripherals-overview.md
-        - name: Microsoft ทดสอบอุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS
+        - name: อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่ได้รับการทดสอบจาก Microsoft
           href: microsoft-tested-pos-hardware-peripherals.md
-        - name: โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก
+        - name: โปรแกรมจำลองอุปกรณ์ต่อพ่วงของการขายปลีก
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: กำหนดและรักษาไคลเอนต์ช่องทาง และเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์
+        - name: เชื่อมต่ออุปกรณ์ต่อพ่วงกับ POS
           href: define-maintain-channel-clients-registers-hw-stations.md
     - name: โครงร่างหน้าจอ
       items:
-        - name: ตั้งค่าคอนฟิกโครงร่างหน้าจอสำหรับ POS
+        - name: โครงร่างหน้าจอสำหรับ POS
           href: pos-screen-layouts.md
         - name: ติดตั้งตัวออกแบบโครงร่าง Retail POS
           href: install-pos-layout-designer.md
@@ -128,15 +159,15 @@
           href: Notifications-POS.md
         - name: การตั้งค่าแอพลิเคชัน POS และภาษาผู้ใช้
           href: pos-application-user-language-settings.md
-        - name: ตั้งค่ารูปภาพสำหรับ MPOS
+        - name: ตั้งค่าและจัดการรูปภาพสำหรับ MPOS
           href: set-up-manage-images-retail-mpos.md
-    - name: ภาพรวมรหัสข้อมูล
+    - name: รหัสข้อมูลและกลุ่มรหัสข้อมูล
       href: info-codes-retail.md
     - name: การปรับปรุง POS สำหรับผลิตภัณฑ์ที่กำหนดหมายเลขลำดับประจำสินค้าแล้ว
       href: serialized-inventory.md
     - name: คำแนะนำผลิตภัณฑ์
       items:
-        - name: ภาพรวมคำแนะนำผลิตภัณฑ์แบบส่วนบุคคล
+        - name: คำแนะนำผลิตภัณฑ์แบบส่วนบุคคล
           href: personalized-product-recommendations.md
         - name: เพิ่มตัวควบคุมคำแนะนำบนอุปกรณ์ POS
           href: add-recommendations-control-pos-screen.md
@@ -146,7 +177,7 @@
       href: shift-drawer-management.md
     - name: ใบสั่งของลูกค้า
       items:
-        - name: ภาพรวมใบสั่งของลูกค้า
+        - name: ใบสั่งของลูกค้าใน MPOS
           href: customer-orders-overview.md
         - name: ใบสั่งของลูกค้าแบบไฮบริด
           href: hybrid-customer-orders.md
@@ -158,27 +189,27 @@
       href: charge-send.md
     - name: การเรียกใช้อุปกรณ์
       items:
-        - name: ตั้งค่าคอนฟิกและติดตั้ง MPOS
+        - name: ตั้งค่าคอนฟิก ติดตั้ง และเรียกใช้ MPOS
           href: retail-modern-pos-device-activation.md
-        - name: ตั้งค่าการล็อกออนแบบขยายสำหรับ Cloud POS และ MPOS
+        - name: ตั้งค่าฟังก์ชันการล็อกออนแบบขยายสำหรับ MPOS และ Cloud POS
           href: extended-logon.md
-        - name: จัดการบัญชีและอุปกรณ์ Retail จากศูนย์ควบคุม
+        - name: จัดการบัญชีการเรียกใช้ Retail และตรวจสอบความถูกต้องของอุปกรณ์
           href: set-up-activation-accounts-validate-devices-hq.md
     - name: ใบเสร็จ
       items:
-        - name: ตั้งค่าเท็มเพลตใบเสร็จ
+        - name: ตั้งค่าและออกแบบรูปแบบใบเสร็จ
           href: receipt-templates-printing.md
         - name: ส่งใบเสร็จทางอีเมลจาก MPOS
           href: email-receipts.md
-    - name: ตัวบันทึกงานและวิธีใช้สำหรับ POS
+    - name: ตัวบันทึกงานและวิธีใช้สำหรับ MPOS และ Cloud POS
       href: task-recorder-retail-pos.md
 - name: การเติมสินค้าของใบสั่ง
   items:
-    - name: ภาพรวมของการเติมสินค้าของใบสั่งร้านค้า
+    - name: การเติมสินค้าของใบสั่งของร้านค้า
       href: Order-fulfillment-overview.md
-    - name: ตั้งค่าการเติมสินค้าในร้านค้า
+    - name: ตั้งค่าการเติมสินค้าตามใบสั่งสำหรับร้านค้า
       href: Order-fulfillment-POS-setup.md
-    - name: เปิดใช้งานการแจ้งเตือนในการขายหน้าร้าน
+    - name: แสดงการแจ้งเตือนใบสั่งใน POS
       href: Notifications-POS.md
 - name: การตรวจสอบและการวิเคราะห์
   items:
@@ -192,11 +223,11 @@
       href: assess-customer-product-profitability.md
     - name: วิเคราะห์ประสิทธิภาพร้านค้า
       href: store-performance-information.md
-    - name: ตั้งค่าการวิเคราะห์ RFM
+    - name: 'ตั้งค่าการวิเคราะห์ Recency, ความถี่ และยอดเงิน (RFM)'
       href: set-up-rfm-analysis.md
 - name: ส่วนลดและการปรับปรุงราคา
   items:
-    - name: การจัดการราคาขายปลีก
+    - name: การจัดการราคาขายของ Retail
       href: price-management.md
     - name: การปรับปรุงราคาและส่วนลด
       href: price-adjustments-discounts.md
@@ -204,23 +235,23 @@
       href: optimal-combination-overlapping-discounts.md
     - name: กำหนดส่วนลดเฉพาะช่องทาง
       href: define-channel-specific-discounts.md
-    - name: ป้องกันไม่ให้มีส่วนลดสำหรับผลิตภัณฑ์ขายปลีก
+    - name: ตัวเลือกสำหรับการป้องกันไม่ให้มีส่วนลดสำหรับผลิตภัณฑ์ขายปลีก
       href: prevent-discounts.md
-    - name: สร้างคูปองสำหรับการขายปลีก
+    - name: ตั้งค่าคูปองสำหรับการขายปลีก
       href: retail-coupons.md
 - name: ผลิตภัณฑ์และการจัดซื้อสินค้า
   items:
     - name: ภาพรวมข้อมูลผลิตภัณฑ์
       href: ../supply-chain/pim/product-information.md
-    - name: ลำดับชั้นการขายปลีก
+    - name: ลำดับชั้นของ Retail
       href: retail-hierarchies.md
-    - name: ภาพรวมแอททริบิวต์และกลุ่มแอททริบิวต์
+    - name: แอททริบิวต์และกลุ่มแอททริบิวต์
       href: attribute-attributegroups-lifecycle.md
     - name: สร้างและจัดการแอททริบิวต์
       href: create-manage-attributes.md
     - name: ตั้งค่าผลิตภัณฑ์ขายปลีก
       href: set-up-retail-products.md
-    - name: การจัดการผลิตภัณฑ์และประเภทขั้นสูง
+    - name: จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์ของ Retail
       href: category-management-product-creation.md
     - name: มิติของผลิตภัณฑ์
       href: ../supply-chain/pim/product-dimensions.md
@@ -230,7 +261,7 @@
       href: set-up-bar-code-masks.md
     - name: ตั้งค่าการจัดประเภท
       href: set-up-assortments.md
-    - name: ขายและส่งคืนผลิตภัณฑ์นอกการจัดประเภท
+    - name: ขายและส่งคืนผลิตภัณฑ์ที่ไม่รวมอยู่ในการจัดประเภทของร้านค้า
       href: sell-return-outside-assortments.md
     - name: การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย
       href: ../supply-chain/production-control/default-order-settings.md
@@ -242,7 +273,7 @@
       href: set-up-customer-loyalty-program.md
 - name: สินค้าคงคลัง
   items:
-    - name: จัดการสินค้าคงคลังของร้านค้า
+    - name: การบริหารสินค้าคงคลังของร้านค้า
       href: work-with-store-inventory.md
     - name: ลงทะเบียนหมายเลขลำดับประจำสินค้าในกระบวนการขาย
       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
@@ -276,71 +307,71 @@
   items:
     - name: ฝรั่งเศส
       items:
-        - name: เครื่องบันทึกเงินสดสำหรับฝรั่งเศส
+        - name: ฟังก์ชันเครื่องบันทึกเงินสด
           href: localizations/emea-fra-cash-registers.md
-        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดในฝรั่งเศส
+        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
           href: localizations/emea-fra-deployment.md
     - name: อินเดีย
       items:
-        - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
+        - name: การรวมภาษีสินค้าและบริการ (GST) สำหรับเครื่องบันทึกเงินสด
           href: localizations/apac-ind-cash-registers.md
-        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดในอินเดีย
+        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: นอร์เวย์
       items:
-        - name: เครื่องบันทึกเงินสดสำหรับนอร์เวย์
+        - name: ฟังก์ชันเครื่องบันทึกเงินสด
           href: localizations/emea-nor-cash-registers.md
-        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดในนอร์เวย์
+        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: สวีเดน
       items:
-        - name: เครื่องบันทึกเงินสดสำหรับสวีเดน
+        - name: ฟังก์ชันเครื่องบันทึกเงินสด
           href: localizations/emea-swe-cash-registers.md
-        - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับหน่วยการควบคุม
+        - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
 - name: งาน Retail
   items:
     - name: สร้างผลิตภัณฑ์
       href: ../supply-chain/pim/tasks/create-product.md
-    - name: ตั้งค่าคอนฟิคผลิตภัณฑ์ที่เชื่อมโยง
+    - name: ตั้งค่าคอนฟิกผลิตภัณฑ์ที่เชื่อมโยง
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: นำผลิตภัณฑ์/ผลิตภัณฑ์หลักออกไปสู่ที่นิติบุคคลอื่นๆ
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: ' ข้อตกลงทางการค้าและราคาพื้นฐาน'
+    - name: สร้างข้อตกลงทางการค้าเฉพาะช่องทาง
       href: tasks/base-price-trade-agreements.md
-    - name: ' จัดประเภทกฎการกำหนดราคาเพื่อสร้างข้อตกลงทางการค้า'
+    - name: สร้างข้อตกลงทางการค้าโดยใช้กฎการกำหนดราคาตามประเภท
       href: tasks/category-pricing-rules-trade-agreements.md
-    - name: ' ตั้งค่าคอนฟิคการประมวลผลบัตรเครดิต'
+    - name: ตั้งค่าคอนฟิกการประมวลผลบัตรเครดิต
       href: tasks/configure-credit-card-processing.md
-    - name: ' ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชันสำหรับพนักงานขาย'
+    - name: ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชันสำหรับพนักงานขาย
       href: tasks/configure-functionality-profile-sales-representative.md
-    - name: ' ตั้งค่าคอนฟิกสำหรับคำแนะนำผลิตภัณฑ์ที่ใช้ Machine Learning'
+    - name: ตั้งค่าคอนฟิกสำหรับคำแนะนำผลิตภัณฑ์ที่ใช้ Machine Learning
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: ' สร้างและเชื่อมโยงอุปกรณ์'
+    - name: สร้างอุปกรณ์และเชื่อมโยงกับเครื่องบันทึกเงินสด
       href: tasks/create-associate-device.md
-    - name: สร้างและเชื่อมโยงสถานีฮาร์ดแวร์
+    - name: สร้าง Hardware Station
       href: tasks/create-associate-hardware-station.md
-    - name: สร้างและเชื่อมโยงการลงทะเบียน
+    - name: สร้างเครื่องบันทึกเงินสด POS
       href: tasks/create-associate-registers.md
-    - name: สร้างใบสั่งศูนย์บริการ
+    - name: สร้างใบสั่งของศูนย์บริการ
       href: tasks/create-call-center-orders.md
     - name: สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด
       href: tasks/create-financial-dimensions-pos.md
-    - name: ' สร้างค่ามิติทางการเงินสำหรับช่องทาง Retail และตั้งค่าคอนฟิกค่ามิติบนร้านค้า'
+    - name: สร้างค่ามิติทางการเงินสำหรับช่องทางการค้าปลีกและตั้งค่าคอนฟิกค่ามิติบนร้านค้า
       href: tasks/create-financial-dimensions-retail-channels.md
-    - name: ' สร้างช่องทางออนไลน์และกำหนดลักษณะช่องทาง'
+    - name: สร้างช่องทางออนไลน์และกำหนดแอททริบิวต์ช่องทาง
       href: tasks/create-online-channel-define-channel-attributes.md
-    - name: ' สร้างกลุ่มสิทธิ์ของ POS'
+    - name: สร้างกลุ่มสิทธิ์ของ POS
       href: tasks/create-pos-permission-groups.md
-    - name: ' สร้างโพรไฟล์ภาพ POS  '
+    - name: สร้างโพรไฟล์ภาพ POS
       href: tasks/create-pos-visual-profile-2016-02.md
-    - name: ' สร้างบรรจุภัณฑ์ของผลิตภัณฑ์สำหรับใบสั่งซื้อ'
+    - name: สร้างบรรจุภัณฑ์ของผลิตภัณฑ์สำหรับใบสั่งซื้อ
       href: tasks/create-product-packages-purchase-orders.md
-    - name: ' กำหนดช่องทางคอลเซ็นเตอร์และกำหนดลักษณะช่องทาง'
+    - name: กำหนดช่องทางคอลเซ็นเตอร์และกำหนดแอททริบิวต์ช่องทาง
       href: tasks/define-call-center-channel-channel-attributes.md
-    - name: ' กำหนดลักษณะช่องทาง'
+    - name: กำหนดแอททริบิวต์ช่องทาง
       href: tasks/define-channel-attributes.md
-    - name: ' กำหนดการความต่อเนื่อง'
+    - name: กำหนดการความต่อเนื่อง
       href: tasks/define-continuity-schedules.md
     - name: ' กำหนดโปรแกรมตอบแทนลูกค้าสมาชิก'
       href: tasks/define-loyalty-programs.md
@@ -352,40 +383,40 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: จัดการการจัดประเภท
       href: tasks/manage-assortments-2016-11.md
-    - name: ดำเนินการบริการตนเองเพื่อดาวน์โหลดสถานีฮาร์ดแวร์
+    - name: ดาวน์โหลด Hardware Station โดยใช้การบริการตนเอง
       href: tasks/perform-self-service-download-hardware-station.md
     - name: ลงรายการบัญชีการขายออนไลน์และการชำระเงิน
       href: tasks/posting-online-sales-payments.md
-    - name: ' ดำเนินการปรับปรุงคะแนนรางวัลสำหรับสมาชิก'
+    - name: ดำเนินการปรับปรุงคะแนนรางวัลสำหรับสมาชิก
       href: tasks/process-loyalty-reward-point-adjustments.md
     - name: กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: การปรับปรุงราคาใน Retail
+    - name: สร้างการปรับปรุงราคาในการขายปลีก
       href: tasks/retail-price-adjustments.md
-    - name: สร้างและรันรายงานนอกกล่อง
+    - name: สร้างและรันรายงานสำเร็จรูป
       href: tasks/run-out-box-reports.md
     - name: ตั้งค่ากฎและพารามิเตอร์สำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าและการจัดส่งสินค้าแบบผลัก
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: ใช้โปรแกรมความต่อเนื่อง
+    - name: การขายโปรแกรมความต่อเนื่องและการประมวลผลใบสั่งขาย
       href: tasks/use-continuity-program.md
-    - name: ตั้งค่าคอนฟิกผู้ปฏิบัติงาน
+    - name: ตั้งค่าคอนฟิกผู้ปฏิบัติงานการขายปลีก
       href: tasks/worker.md
 - name: การพัฒนาและการจัดการการขายปลีก
   href: dev-itpro/dev-retail-home-page.md
   items:
     - name: สถาปัตยกรรม
       items:
-        - name: ส่วนประกอบของ Microsoft Dynamics 365 for Finance and Operations - Retail
+        - name: ส่วนประกอบของ Retail
           href: retail-components.md
         - name: สถาปัตยกรรมของ Retail Server
           href: dev-itpro/retail-server-architecture.md
-        - name: การสื่อสารช่องทางการขายปลีก
+        - name: Commerce Data Exchange และช่องทางการสื่อสารการขายปลีก
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: สถาปัตยกรรม MPOS
+        - name: สถาปัตยกรรม Retail Modern POS
           href: dev-itpro/retail-modern-pos-architecture.md
-        - name: สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของการขายปลีก
+        - name: สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์ของ Retail
           href: dev-itpro/retail-online-store-publishing-architecture.md
-        - name: เนื้อหาประสิทธิภาพช่องทางการขายปลีกสำหรับ Power BI
+        - name: เนื้อหาของ Retail Channel Performance Power BI
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
         - name: การรับรองมาตรฐานความปลอดภัยของข้อมูลแอพลิเคชันการขำระเงิน (PA-DSS)
           href: dev-itpro/PA-DSS-Certification.md
@@ -393,9 +424,9 @@
           href: retail-onprem.md
     - name: การปรับใช้และโปรแกรมแก้ไขด่วน
       items:
-        - name: ภาพรวมของ Retail Store Scale Unit
+        - name: Retail Store Scale Unit
           href: dev-itpro/retail-store-system-begin.md
-        - name: การตั้งค่าคอนฟิกและการติดตั้ง Retail Store Scale Unit
+        - name: ตั้งค่าคอนฟิกและติดตั้ง Retail Store Scale Unit
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
         - name: การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS
           href: retail-modern-pos-device-activation.md
@@ -403,7 +434,7 @@
           href: set-up-activation-accounts-validate-devices-hq.md
         - name: การเรียกใช้อุปกรณ์ Retail POS
           href: dev-itpro/retail-device-activation.md
-        - name: Retail Cloud POS ที่ปลอดภัย
+        - name: ช่วยรักษาความปลอดภัย Cloud POS ในสภาพแวดล้อมที่ใช้ร่วมกัน
           href: dev-itpro/secure-retail-cloud-pos.md
         - name: การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station
           href: retail-hardware-station-configuration-installation.md
@@ -415,9 +446,9 @@
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
     - name: การอัพเกรดและการสนับสนุน N-1
       items:
-        - name: ภาพรวมของการอัพเกรดและการสนับสนุน N-1
+        - name: การอัพเกรดและการสนับสนุน N-1 สำหรับ Retail
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: ติดตั้งส่วนประกอบ N-1
+        - name: การติดตั้ง การตั้งค่าคอนฟิกและการตัดการเปิดตัวแบบเป็นขั้นตอน (N-1)
           href: dev-itpro/n-1-installation-configuration.md
     - name: คำแนะนำการใช้งาน
       items:
@@ -431,61 +462,61 @@
           href: dev-itpro/manage-bing-maps.md
     - name: แปลทรัพยากรส่วนขยายและไฟล์ป้ายกำกับ Retail เป็นภาษาท้องถิ่น
       href: dev-itpro/extension-resource-localization.md
-    - name: ความสามารถในการขยายสำหรับการขายหน้าร้าน
+    - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน
       items:
         - name: โครงร่างหน้าจอ Retail POS
           href: pos-screen-layouts.md
         - name: ติดตั้งตัวออกแบบโครงร่าง POS
           href: install-pos-layout-designer.md
-        - name: ตั้งค่าคอนฟิก MPOS สำหรับโหมดออฟไลน์
+        - name: Retail Modern POS ในโหมดออฟไลน์
           href: dev-itpro/retail-modern-pos-offline.md
         - name: ขยายมุมมองแสดงผล POS Dual
           href: dev-itpro/pos-dual-display-extension.md
-        - name: ความสามารถในการขยายทริกเกอร์ของ MPOS และ Cloud POS
+        - name: ความสามารถในการเพิ่มฟังก์ชันทริกเกอร์ของ Retail Modern POS และ Cloud POS
           href: dev-itpro/modern-pos-trigger-extensibility.md
         - name: เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS
           href: dev-itpro/pos-custom-control.md
-        - name: เพิ่มการดำเนินงานของ POS ให้กับโครงร่าง POS
+        - name: เพิ่มการดำเนินการ POS ไปยังโครงร่าง POS โดยใช้ตัวออกแบบกริดปุ่ม
           href: dev-itpro/add-POS-operations.md
         - name: ส่วนขยายการชำระเงิน POS
           href: dev-itpro/pos-payment-extension.md
         - name: การรองรับบัตรของขวัญภายนอก
           href: dev-itpro/gift-card.md
-        - name: สร้างแอพ Retail Experience
+        - name: สร้างและใช้การสร้างแบรนด์กับแอพ Retail Experience
           href: dev-itpro/create-retail-experience-app.md
-    - name: ภาพรวมและความสามารถในการขยายของ Hardware Station
+    - name: Hardware Station และความสามารถในการเพิ่มฟังก์ชัน
       href: dev-itpro/hardware-station-extensibility.md
-    - name: ความสามารถในการขยายของ Retail Server
+    - name: ความสามารถในการเพิ่มฟังก์ชันของ Retail Server
       items:
         - name: ขยายตัวควบคุม Retail Server OData
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: ตัวควบคุม Web API และ OData
+        - name: สร้างตัวควบคุม Web API สำหรับ Retail Server
           href: dev-itpro/odata-controllers-api.md
         - name: API ลูกค้าและผู้บริโภคของ Retail Server
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: ขยายข้อมูลเมตา
+        - name: ขยายตัวควบคุมข้อมูลเมตาค่าเริ่มต้นของ Retail Server
           href: dev-itpro/extend-metadata.md
-        - name: ขยาย Commerce Runtime เพื่อสนับสนุนโหมดออฟไลน์ของ POS
+        - name: เรียกใช้บริการ CRT ในโหมดออฟไลน์
           href: dev-itpro/call-crt-service-offline.md
-    - name: ความสามารถในการขยายของ Commerce Runtime
+    - name: ความสามารถในการเพิ่มฟังก์ชันของ Commerce Runtime (CRT)
       items:
-        - name: ภาพรวมของ Commerce Runtime
+        - name: สถาปัตยกรรมและการตั้งค่าคอนฟิก CRT
           href: dev-itpro/commerce-runtime-overview.md
-        - name: บริการ Commerce Runtime
+        - name: การบริการ CRT
           href: dev-itpro/crt-services.md
-        - name: ความสามารถในการขยายของ Commerce Runtime และ Retail Server
+        - name: CRT และความสามารถในการเพิ่มฟังก์ชันของ Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
         - name: เพิ่มข้อมูลการกำหนดลักษณะของลูกค้าในฐานข้อมูลช่องทาง
           href: dev-itpro/add-customer-preference-channel.md
         - name: เพิ่มคุณสมบัติในใบสั่งขาย
           href: dev-itpro/add-properties-sales-order.md
-        - name: ความสามารถในการขยายและทริกเกอร์ของ Commerce Runtime
+        - name: ความสามารถในการเพิ่มฟังก์ชัน CRT และทริกเกอร์
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: 'ตัวอย่างทริกเกอร์: การบล็อคธุรกรรม'
+        - name: บล็อคธุรกรรมโดยใช้ทริกเกอร์
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: 'ตัวอย่างทริกเกอร์: นโยบายการส่งคืน'
+        - name: ใช้นโยบายการส่งคืนโดยใช้ทริกเกอร์
           href: dev-itpro/trigger-example-return-policy.md
-    - name: ความสามารถในการขยายของอีคอมเมิร์ซ
+    - name: ความสามารถในการเพิ่มฟังก์ชันของอีคอมเมิร์ซ
       items:
         - name: ตั้งค่าคอนฟิกร้านค้าออนไลน์
           href: dev-itpro/configure-online-store.md
@@ -495,45 +526,47 @@
           href: dev-itpro/ecommerce-platform.md
         - name: SDK แพลตฟอร์มอีคอมเมิร์ซ
           href: dev-itpro/ecommerce-platform-sdk.md
-    - name: ความสามารถในการขยายของเชื่อมต่อการชำระเงิน
+    - name: ความสามารถในการเพิ่มฟังก์ชันของเชื่อมต่อการชำระเงิน
       items:
-        - name: การรวมการชำระเงินเข้ากับเทอร์มินัลการชำระเงิน
+        - name: สร้างการรวมการชำระเงินสำหรับเทอร์มินัลการชำระเงิน
           href: dev-itpro/end-to-end-payment-extension.md
         - name: การใช้งานตัวเชื่อมต่อการชำระเงินและสนุนอุปกรณ์การชำระเงิน (เอกสาร)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
         - name: ปรับใช้ตัวเชื่อมต่อการชำระเงิน
           href: dev-itpro/deploy-payment-connector.md
+        - name: สร้างข้อความแสดงข้อผิดพลาดที่แปลเป็นภาษาท้องถิ่นแบบกำหนดเองสำหรับส่วนขยายของเทอร์มินัลการชำระเงิน
+          href: dev-itpro/payment-custom-error-messages.md
         - name: สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน
           href: dev-itpro/create-windows-installer-payment-connector.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: รวม Retail SDK กับระบบบิลด์แบบต่อเนื่อง
+        - name: ผสานระบบบิลด์สำหรับ Retail และ Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-        - name: ตัวอย่างความสามารถในการขยายของ Retail SDK
+        - name: ตัวอย่างความสามารถในการเพิ่มฟังก์ชันของ Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: การบรรจุสินค้าของ Retail SDK
+        - name: สร้างแพคเกจที่สามารถปรับใช้ได้ของระบบการขายปลีก
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: 'ตัวอย่าง Retail SDK '
+        - name: ตัวอย่าง Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: จุดขยายสำหรับบันทึกการจัดส่ง
               href: dev-itpro/extensions-shipping-carrier-integration.md
-        - name: ส่วนขยายฐานข้อมูล (DB) ช่องทาง
+        - name: ส่วนขยายฐานข้อมูลช่องทาง
           href: dev-itpro/channel-db-extensions.md
-        - name: เพิ่มความสามารถ
+        - name: เปิดใช้งานการซิงโครไนส์ CDX แบบกำหนดเองโดยใช้ส่วนขยาย
           href: dev-itpro/cdx-extensibility.md
-        - name: เพิ่มฟิลด์ที่กำหนดเองลงในแผง POS
+        - name: เพิ่มฟิลด์ที่กำหนดเองลงในแผง POS Totals
           href: dev-itpro/custom-field-pos-totals.md
-        - name: แอตทริบิวต์ใบสั่ง
+        - name: กำหนดและตั้งค่าแอททริบิวต์ใบสั่ง
           href: dev-itpro/order-attributes.md
         - name: แอททริบิวต์สำหรับลูกค้า
           href: dev-itpro/customer-attributes.md
-        - name: 'Retail Typescript และ C# proxy'
+        - name: 'Retail Typescript และ C# proxies'
           href: dev-itpro/typescript-proxy-retail-pos.md
         - name: รันตัวอย่าง Retail POS
           href: dev-itpro/pos-run-samples.md
-        - name: ขยายมุมมอง POS ที่มีอยู่เพื่อเพิ่มคอลัมน์และปุ่มแถบแอพที่กำหนดเอง
+        - name: ขยายมุมมอง POS เพื่อเพิ่มคอลัมน์และปุ่มแถบแอพที่กำหนดเอง
           href: dev-itpro/pos-view-extension.md
         - name: เพิ่มการควบคุมที่กำหนดเองไปยังหน้าธุรกรรมของ Retail Modern POS
           href: dev-itpro/pos-custom-transaction.md
@@ -543,9 +576,9 @@
           href: dev-itpro/pos-api-extension.md
         - name: ทริกเกอร์และการพิมพ์ Retail Modern POS
           href: dev-itpro/pos-trigger-printing.md
-        - name: เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมองตามตัวออกแบบที่ไม่ใช่หน้าจอของ Retail Modern POS
+        - name: เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS ตามตัวออกแบบที่ไม่ใช่หน้าจอ
           href: dev-itpro/pos-control-non-screen.md
-        - name: ขั้นตอนการตั้งค่าคอนฟิกสำหรับนักพัฒนา Retail ที่ทำงานบนกล่องการพัฒนาที่ใช้ Cloud
+        - name: การพัฒนาในสภาพแวดล้อมการพัฒนาที่โฮสต์ในระบบคลาวด์โดยไม่มีสิทธิ์การเข้าถึงของผู้ดูแลระบบ
           href: dev-itpro/cloud-dev-box.md
     - name: Commerce Runtime
       items:

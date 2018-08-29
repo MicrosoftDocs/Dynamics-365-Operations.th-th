@@ -1,5 +1,5 @@
 ---
-title: "ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร"
+title: "ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises"
 description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ในองค์กร"
 author: sarvanisathish
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b18050aa3c01db5667f0a529e3eb0c5eba971dc8
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร
+# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "แม็ปแบบจำลองข้อมูลกับแหล่งข้อมูลที่เลือกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)"
+title: "แม็ปแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER) กับแหล่งข้อมูลที่เลือก"
 description: "ขั้นตอนต่อไปนี้อธิบายถึงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถแม็ปแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER) ไปยังแหล่งข้อมูล Dynamics 365 for Finance and Operations, Enterprise Edition ที่เลือกไว้ (พฤศจิกายน 2016)"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>แม็ปแบบจำลองข้อมูลกับแหล่งข้อมูลที่เลือกสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a>แม็ปแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER) กับแหล่งข้อมูลที่เลือก
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

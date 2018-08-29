@@ -1,5 +1,5 @@
 --- 
-title: "ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OpenXML สำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)"
+title: "ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ OpenXML"
 description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) ซึ่งประกอบด้วยเท็มเพลตสำหรับการสร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ OPENXML"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
 ms.contentlocale: th-th
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OpenXML สำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
+# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ OpenXML
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

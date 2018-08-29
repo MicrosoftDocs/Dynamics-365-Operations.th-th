@@ -1,5 +1,5 @@
 ---
-title: "การค้นหาสินค้าคงคลังในจุดขายหน้าร้าน"
+title: "การค้นหาสินค้าคงคลังในการขายหน้าร้าน (POS)"
 description: "หัวข้อนี้อธิบายถึงตัวเลือกที่พร้อมใช้งานสำหรับการดูข้อมูลสินค้าคงคลังในการขายหน้าร้าน (POS)"
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="inventory-lookup-in-the-point-of-sale"></a>การค้นหาสินค้าคงคลังในจุดขายหน้าร้าน 
+# <a name="inventory-lookup-in-the-point-of-sale-pos"></a>การค้นหาสินค้าคงคลังในการขายหน้าร้าน (POS)
 
 [!include [banner](includes/banner.md)]
 

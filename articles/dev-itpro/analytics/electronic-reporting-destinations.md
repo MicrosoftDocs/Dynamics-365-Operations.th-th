@@ -1,5 +1,5 @@
 ---
-title: "ปลายทางการรายงานทางอิเล็กทรอนิกส์"
+title: "ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)"
 description: "คุณสามารถตั้งค่าคอนฟิกปลายทางสำหรับการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) แต่ละรายการและส่วนประกอบผลลัพธ์ (โฟลเดอร์หรือไฟล์)  ผู้ใช้ที่มีสิทธิการเข้าถึงที่เหมาะสมยังสามารถปรับเปลี่ยนการตั้งค่าปลายทางในขณะดำเนินการได้อีกด้วย บทความนี้อธิบายถึงการจัดการปลายทาง ER ชนิดของปลายทางที่ได้รับการสนับสนุน และข้อควรพิจารณาด้านความปลอดภัย"
 author: ShylaThompson
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="electronic-reporting-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์
+# <a name="electronic-reporting-er-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 
 [!include [banner](../includes/banner.md)]
 

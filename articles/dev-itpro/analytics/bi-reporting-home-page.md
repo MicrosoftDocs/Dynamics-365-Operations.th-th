@@ -1,5 +1,5 @@
 ---
-title: "ข่าวกรอง"
+title: "โฮมเพจ Business intelligence (BI) และการรายงาน"
 description: "หัวข้อนี้นำคุณไปยังแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations"
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>ข่าวกรอง
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>โฮมเพจ Business intelligence (BI) และการรายงาน
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 
 ![ตัวอย่างของ Power BI ในพื้นที่ทำงาน](./media/Power-BI-in-D365-Workspace.png)
 
- เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
+เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
- - [Power BI ที่ฝังในพื้นที่ทำงาน](embed-power-bi-workspaces.md)
- - [การรวม Power BI Embedded](power-bi-embedded-integration.md)
- - [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI Embedded](add-analytics-tab-workspaces.md)
- - [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI Embedded](secure-analytical-workspaces.md)
- - [เนื้อหา Power BI สำหรับ Finance and Operations](power-bi-home-page.md)
+- [Power BI ที่ฝังในพื้นที่ทำงาน](embed-power-bi-workspaces.md)
+- [การรวม Power BI Embedded](power-bi-embedded-integration.md)
+- [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI Embedded](add-analytics-tab-workspaces.md)
+- [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI Embedded](secure-analytical-workspaces.md)
+- [เนื้อหา Power BI สำหรับ Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>เอกสารทางธุรกิจและการพิมพ์
 โซลูชันการรายงานมักใช้สำหรับเก็บบันทึกและสื่อสารรายละเอียดของธุรกรรมทางธุรกิจ ดังนั้นโซลูชันการรายงานจึงต้องสามารถสร้างการแสดงรายการข้อมูลทางธุรกิจจริงโดยใช้อุปกรณ์ที่มีอยู่ เช่นเครื่องพิมพ์บนเครือข่าย ตัวอย่างของเอกสารทางธุรกิจได้แก่ใบแจ้งหนี้การขาย รายงานสรุปยอดบัญชีลูกค้า และเช็ค
