@@ -1,5 +1,5 @@
 ---
-title: "การดำเนินการชุดงานสำหรับการแจ้งเตือน"
+title: "การประมวลผลชุดงานของการแจ้งเตือน"
 description: "หัวข้อนี้มีข้อมูลเกี่ยวกับการประมวลผลชุดงานของการแจ้งเตือนใน Microsoft Dynamics 365 for Finance and Operations"
 author: tjvass
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: f4c874c148dc10ac658f659896009981962a5802
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
 ms.contentlocale: th-th
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="batch-processing-for-alerts"></a>การประมวลผลชุดงานสำหรับการแจ้งเตือน
+# <a name="batch-processing-of-alerts"></a>การประมวลผลชุดงานของการแจ้งเตือน
 [!include [banner](../includes/banner.md)]
 
 ข้อความแจ้งเตือนถูกประมวลผลโดยฟังก์ชันการประมวลผลชุดงานใน Microsoft Dynamics 365 for Finance and Operations คุณต้องตั้งค่าการประมวลผลชุดงาน ก่อนที่จะส่งการแจ้งเตือน

@@ -1,5 +1,5 @@
 ---
-title: "ตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์เพื่อดึงข้อมูลลงใน Power BI"
+title: "ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อดึงข้อมูลไปยัง Power BI"
 description: "หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การรายงานทางอิเล็กทรอนิกส์ (ER) ของคุณในการจัดเรียงการโอนย้ายข้อมูลจากอินสแตนซ์ของ Finance and Operations ของคุณไปยังการบริการ Power BI"
 author: NickSelin
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9f5a4d0c9fc4c5c9b439b4f184b25085f5d68077
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อดึงข้อมูลไปยัง Power BI
 
 [!include [banner](../includes/banner.md)]
 

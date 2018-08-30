@@ -1,5 +1,5 @@
 ---
-title: "เวลาและการเข้างานการขายปลีก"
+title: "การจัดการเวลาและการเข้างานใน Retail"
 description: "หัวข้อนี้อธิบายถึงสถานการณ์จำลองที่ได้รับการสนับสนุนสำหรับการจัดการเวลาและการเข้างานใน Microsoft Dynamics 365 for Retail"
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>เวลาและการเข้างานการขายปลีก
+# <a name="time-and-attendance-management-in-retail"></a>การจัดการเวลาและการเข้างานใน Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="plan-worker-schedules"></a>วางแผนกำหนดการของผู้ปฏิบัติงาน
 
--   การนำโพรไฟล์มาใช้โดยการใช้โปรแกรมวางแผนงาน สำหรับข้อมูลเพิ่มเติม ให้ดู <https://technet.microsoft.com/en-us/library/aa551234.aspx>
+-   การนำโพรไฟล์มาใช้โดยการใช้โปรแกรมวางแผนงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ <https://technet.microsoft.com/en-us/library/aa551234.aspx>
 
-สำหรับข้อมูลเกี่ยวกับขั้นตอนการตั้งค่าคอนฟิก ให้ดู <https://technet.microsoft.com/en-us/library/aa496971.aspx>
+สำหรับข้อมูลเกี่ยวกับขั้นตอนการตั้งค่าคอนฟิก ให้ดูที่ <https://technet.microsoft.com/en-us/library/aa496971.aspx>
 
 ### <a name="retail-specific-configuration"></a>การตั้งค่าคอนฟิกเฉพาะของการขายปลีก
 
@@ -135,7 +135,7 @@ ms.lasthandoff: 11/03/2017
 -   การตอกบัตรออกจำนวนมาก
 -   ลงทะเบียนการขาดงาน
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดำเนินการลงทะเบียนเวลาและการเข้างาน <https://technet.microsoft.com/en-us/library/aa573180.aspx>
+ลำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการประมวลผลการลงทะเบียนเวลาและการเข้างาน ให้ดูที่ <https://technet.microsoft.com/en-us/library/aa573180.aspx>
 
 
 

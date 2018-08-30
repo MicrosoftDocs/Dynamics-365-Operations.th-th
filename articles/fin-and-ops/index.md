@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
-ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
 ms.contentlocale: th-th
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>บทนำสู่ Microsoft Dynamics 365 for Finance and Operations
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
 [!include [banner](includes/banner.md)]
 
 เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
@@ -42,7 +42,7 @@ ms.lasthandoff: 07/10/2018
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">ก่อนที่คุณจะซื้อ</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">ลงทะเบียนเพื่อแสดงตัวอย่างการสมัครใช้งาน</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">เลือกตัวเลือกการปรับใช้</a></p>
  <p><a href="get-started/purchase-on-premises.md">ซื้อ Finance and Operations (ในสถานที่)</a></p>
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 07/10/2018
 
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">การพัฒนา</h3>
-<p><a href="../dev-itpro/extensibility/extensibility-home-page.md">เพิ่มความสามารถ</a></p>
+<p><a href="../dev-itpro/extensibility/extensibility-home-page.md">ความสามารถในการเพิ่มฟังก์ชัน</a></p>
 
 <p><a href="../dev-itpro/data-entities/integration-overview.md">การรวมข้อมูล</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">การจัดการข้อมูล</a></p>

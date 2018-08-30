@@ -1,5 +1,5 @@
 ---
-title: "ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเองในลำดับงาน"
+title: "ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน"
 description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง"
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09bd86ff7a4aa8ae64cfa4a38fba643f9117d6eb
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 130f0791e2adc9998101f66442a967e3b72a0fd1
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเองในลำดับงาน
+# <a name="configure-manual-tasks-in-a-workflow"></a>ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "ติดตามค่าคอมมิชชันใน POS โดยใช้กลุ่มการขาย"
+title: "ติดตามค่าคอมมิชชันในการขายหน้าร้าน (POS) โดยใช้กลุ่ม Sales"
 description: "ถือเป็นวิธีปฏิบัติการขายปลีกทั่วไปในการติดตามการขายโดยสมาคมที่ทำงานกับลูกค้า ซึ่งให้ความช่วยเหลือ การขายสินค้าต่อเนื่อง การขายสินค้าชนิดอื่น และการดำเนินการธุรกรรม"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 46d93960932adfe89bccf73fd609de75e9ebd58d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 737e07233d7ce972986be58cc739a86be3555f4f
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="track-commissions-in-pos-using-sales-groups"></a>ติดตามค่าคอมมิชชันใน POS โดยใช้กลุ่มการขาย
+# <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>ติดตามค่าคอมมิชชันในการขายหน้าร้าน (POS) โดยใช้กลุ่ม Sales
 
 [!include [banner](includes/banner.md)]
 

@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: th-th
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 เลือกพื้นที่คุณลักษณะเพื่อเรียนรู้เพิ่มเติม
 
-:::row::: :::column::: - [บัญชีเจ้าหนี้](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [บัญชีเจ้าหนี้](accounts-payable/accounts-payable.md) 
         - [บัญชีลูกหนี้](accounts-receivable/accounts-receivable.md)
         - [การจัดงบประมาณ](budgeting/budgeting-overview.md) 
         - [การจัดการเงินสดและธนาคาร](cash-bank-management/cash-bank-management.md)
-        - [การบัญชีต้นทุน](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [การจัดการค่าใช้จ่าย](expense-management/expense-management.md)
+        - [การบัญชีต้นทุน](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [การจัดการค่าใช้จ่าย](expense-management/expense-management.md)
         - [การรายงานทางการเงิน](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [สินทรัพย์ถาวร](fixed-assets/fixed-assets.md)
         - [บัญชีแยกประเภททั่วไป](general-ledger/general-ledger.md) 
         - [การจัดการโครงการ](project-management/overview-project-management-accounting.md)
-        - [ภาครัฐ](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [ภาครัฐ](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
@@ -60,7 +67,7 @@ ms.lasthandoff: 06/25/2018
 
 ### <a name="videos"></a>วิดีโอ
 
-ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
+ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
 
 ### <a name="countryregion-functionality"></a>ฟังก์ชันประเทศ/ภูมิภาค
 

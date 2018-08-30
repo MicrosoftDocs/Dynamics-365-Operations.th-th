@@ -1,5 +1,5 @@
 --- 
-title: "นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารด้วยข้อมูลแอพลิเคชัน"
+title: "นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน"
 description: "เพื่อทำตามขั้นตอนเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำกระบวนงาน “สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER ให้เสร็จเรียบร้อยก่อน“"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87352293a78d6a356db49deffb930016a1bf836c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="import-configurations-to-generate-documents-with-application-data"></a>นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารด้วยข้อมูลแอพลิเคชัน
+# <a name="import-configurations-to-generate-documents-that-have-application-data"></a>นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

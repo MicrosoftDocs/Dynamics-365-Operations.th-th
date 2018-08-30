@@ -1,5 +1,5 @@
 ---
-title: "ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท"
+title: "ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) เฉพาะบริษัท"
 description: "การตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) บางรายการมีการใช้ร่วมกันระหว่างบริษัท ในขณะที่การตั้งค่าของพารามิเตอร์อื่นๆ ใช้เฉพาะบริษัท บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท"
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-company-specific-hr-parameters"></a>ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
+# <a name="set-up-company-specific-human-resources-hr-parameters"></a>ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) เฉพาะบริษัท
 
 [!include [banner](includes/banner.md)]
 
