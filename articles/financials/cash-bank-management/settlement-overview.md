@@ -3,7 +3,7 @@ title: "ภาพรวมของการชำระเงิน"
 description: "บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกระบวนการชำระเงิน โดยอธิบายชนิดของธุรกรรมที่สามารถชำระ และวิธีที่คุณสามารถชำระธุรกรรม และผลลัพธ์ของกระบวนการชำระเงิน"
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a96bdd8088e72bc0526589bde94242c3acf39a54
+ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
+ms.openlocfilehash: dc986b083082b590627f171a359f95099e21d2f5
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/31/2018
 
 ---
 
@@ -51,7 +51,6 @@ ms.lasthandoff: 08/07/2018
 -   <span data-ttu-id="8eec5-152">หากยอดการชำระเงินเท่ากับยอดใบแจ้งหนี้ ทั้งการชำระเงินและใบแจ้งหนี้จะถูกปิดไป และยอดดุลของทั้งสองอย่างจะเป็น 0.00</span><span class="sxs-lookup"><span data-stu-id="8eec5-152">If the payment amount equals the invoice amount, both the payment and the invoice are closed, and the balance of both is 0.00.</span></span>
 
 <span data-ttu-id="8eec5-153">หากการชำระเงิน [น้อยกว่ายอดเงินใบแจ้งหนี้](../accounts-payable/vendor-payments-partial-amount.md) เนื่องจากมีส่วนลดเงินสด มีการตัดจ่าย หรือมีการชำระน้อยเกิน ใบแจ้งหนี้และการชำระเงินอาจยังคงปิดอยู่ ขึ้นอยู่กับการตั้งค่าการชำระเงินในพารามิเตอร์บัญชีเจ้าหนี้และพารามิเตอร์ลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="8eec5-153">If a [payment is less than the invoice amount](../accounts-payable/vendor-payments-partial-amount.md) because of a cash discount, write-off, or underpayment, the invoice and payment might still be closed, depending on the setup of settlement in Accounts payable parameters and Accounts receivable parameters.</span></span> <span data-ttu-id="8eec5-154">การชำระเงินสามารถสร้างธุรกรรมได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="8eec5-154">Settlement can also generate transactions.</span></span> <span data-ttu-id="8eec5-155">ตัวอย่างเช่น การชำระหนี้ของใบแจ้งหนี้และการชำระเงินอาจทำให้เกิดส่วนลดเงินสด กำไรที่รับรู้หรือขาดทุน การปรับปรุงภาษีขาย การตัดจ่าย หรือผลต่างเศษสตางค์</span><span class="sxs-lookup"><span data-stu-id="8eec5-155">For example, the settlement of an invoice and payment might produce a cash discount, realized gain or loss, sales tax adjustments, write-offs, or penny differences.</span></span>
-
 
 
 
