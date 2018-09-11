@@ -3,24 +3,25 @@ title: "ตั้งค่าการบรรจุลงตู้บรรจ
 description: "กระบวนงานนี้อธิบายวิธีการทำให้การบรรจุลงตู้บรรจุสินค้าของโหลดในการจัดการคลังสินค้าเป็นแบบอัตโนมัติ "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
@@ -83,7 +84,7 @@ ms.lasthandoff: 11/02/2017
 ## <a name="set-up-a-container-group"></a>ตั้งค่ากลุ่มตู้บรรจุสินค้า
 1. ไปที่การจัดการคลังสินค้า > การตั้งค่า > ตู้บรรจุสินค้า > กลุ่มตู้บรรจุสินค้า
 2. คลิก สร้าง
-    * คุณสามารถตั้งค่ากลุ่มเชิงตรรกะของชนิดตู้บรรจุสินค้า  สำหรับแต่ละกลุ่ม คุณสามารถระบุลำดับที่จะบรรจุตู้บรรจุสินค้า และเปอร์เซ็นต์ที่จะเติมของตู้บรรจุสินค้า  มิติขนาดของสินค้าถูกใช้เพื่อกำหนดว่าจะพอดีในตู้บรรจุสินค้าหรือไม่ ตู้บรรจุสินค้าที่ใกล้เคียงกับมิติขนาดของสินค้าที่สุดจะถูกนำไปใช้  ถ้าคุณมีตู้บรรจุสินค้าหลายชนิดในกลุ่ม เราขอแนะนำให้คุณจัดเรียงลำดับตามขนาด เพื่อให้ตู้บรรจุสินค้าที่ใหญ่ที่สุดอยู่ในลำดับที่ 1 และตู้บรรจุสินค้าที่เล็กที่สุดอยู่ในลำดับสุดท้าย    
+    * คุณสามารถตั้งค่ากลุ่มเชิงตรรกะของชนิดตู้บรรจุสินค้า  สำหรับแต่ละกลุ่ม คุณสามารถระบุลำดับที่จะบรรจุตู้บรรจุสินค้า และเปอร์เซ็นต์ที่จะเติมของตู้บรรจุสินค้า ใช้มิติขนาดของสินค้าเพื่อกำหนดว่าจะพอดีในตู้บรรจุสินค้าหรือไม่ ตู้บรรจุสินค้าที่ใกล้เคียงกับมิติขนาดของสินค้าที่สุดจะถูกนำไปใช้  ถ้าคุณมีตู้บรรจุสินค้าหลายชนิดในกลุ่ม เราขอแนะนำให้คุณจัดเรียงลำดับตามขนาด เพื่อให้ตู้บรรจุสินค้าที่ใหญ่ที่สุดอยู่ในลำดับที่ 1 และตู้บรรจุสินค้าที่เล็กที่สุดอยู่ในลำดับสุดท้าย    
 3. ในฟิลด์รหัสกลุ่มตู้บรรจุสินค้า ให้พิมพ์ค่า
 4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
 5. คลิก สร้าง

@@ -3,23 +3,24 @@ title: "สร้างสินค้าที่ให้กู้ยืม"
 description: "สินค้าที่ให้กู้ยืมเป็นเรกคอร์ดที่ช่วยให้คุณติดตามสินค้าที่มีอยู่จริง เช่นโทรศัพท์หรือคอมพิวเตอร์ ที่บริษัทของคุณให้ยืมกับผู้ปฏิบัติงาน "
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 429b33366ab9ab705a0f31cb9659f58b41689152
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cef1f9b2e3d202d7eea3a967fa8a6c371c6ac3a5
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-loan-items"></a>สร้างสินค้าที่ให้กู้ยืม
@@ -54,7 +55,7 @@ ms.lasthandoff: 04/13/2018
 11. ในฟิลด์ค่าเริ่มต้น ให้ป้อนตัวเลข
 12. ในฟิลด์ช่วงเวลา ให้ป้อนตัวเลข 
 13. ในฟิลด์รูแแบบ ให้พิมพ์ค่า
-    * ตัวอย่างเช่น ถ้าหมายเลขเริ่มต้นสำหรับสินค้าที่ให้กู้ยืมคือ 10 ป้อนสัญลักษณ์ตัวเลขสองรายการในฟิลด์รูปแบบ  
+    * ตัวอย่างเช่น ถ้าหมายเลขเริ่มต้นสำหรับสินค้าที่ให้กู้ยืมคือ 10 ป้อนสัญลักษณ์สองตัวเลขในฟิลด์รูปแบบ  
 14. คลิก ตกลง
 15. รีเฟรชหน้า
 

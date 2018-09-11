@@ -3,23 +3,24 @@ title: "ภาพรวมการชำระเงินของลูกค
 description: "คำแนะนำของงานนี้นำไปสู่วิธีการต่างๆ ที่เคยป้อนการชำระเงินของลูกค้า "
 author: kweekley
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: th-th
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="customer-payment-overview"></a>ภาพรวมการชำระเงินของลูกค้า
@@ -53,7 +54,7 @@ ms.lasthandoff: 10/26/2017
 15. คลิก สร้าง เพื่อสร้างการชำระเงินอื่น 
 16. เลือก ลูกค้าจากการชำระเงินที่คุณได้รับ
     * ถ้าคุณไม่ทราบเกี่ยวกับลูกค้าแต่ทราบเกี่ยวกับใบแจ้งหนี้ที่ชำระโดยการชำระเงิน ใช้ฟิลด์ใบแจ้งหนี้เพื่อป้อนหรือเลือกใบแจ้งหนี้  ลูกค้าจะกำหนดค่าเริ่มต้นหลังจากเลือกใบแจ้งหนี้  
-17. คลิกการชำระธุรกรรมเพื่อทำเครื่องหมายในใบแจ้งหนี้ที่ชำระเงินแล้ว
+17. คลิก ชำระธุรกรรม เพื่อทำเครื่องหมายใบแจ้งหนี้ที่ชำระเงินแล้ว
     * คุณไม่ต้องระบุการชำระเงินกับใบแจ้งหนี้ใดๆ  ถ้านี่เป็นการชำระเงินล่วงหน้า หรือถ้าคุณไม่ทราบว่าใบแจ้งหนี้ได้ถูกชำระแล้ว คุณสามารถป้อน และลงรายการบัญชีการชำระเงิน  การชำระเงินสามารถชำระกับใบแจ้งหนี้ในภายหลังได้  
 18. ทำเครื่องหมายใบแจ้งหนี้ที่ชำระโดยการชำระเงิน 
 19. ป้อนจำนวนของการชำระเงินที่จะถูกชำระไปยังใบแจ้งหนี้

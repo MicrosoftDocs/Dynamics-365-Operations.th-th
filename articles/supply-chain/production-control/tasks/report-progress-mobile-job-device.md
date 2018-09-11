@@ -3,24 +3,25 @@ title: "รายงานความคืบหน้าของอุปก
 description: "กระบวนการนี้จะแสดงวิธีการเริ่มต้นและวิธีการรายงานการดำเนินการของงานการผลิตในแบบฟอร์มการลงทะเบียนงานบนอุปกรณ์ "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>รายงานความคืบหน้าของอุปกรณ์เคลื่อนที่ของงาน
@@ -31,10 +32,10 @@ ms.lasthandoff: 11/03/2017
 
 
 
-เพื่อให้สามารถรันกระบวนงานนี้ได้ คุณต้องมีผู้ดูแลระบบหรือบทบาทพนักงานควบคุมเครื่องจักรที่เชื่อมโยงกับบัญชีผู้ใช้
+เพื่อเป็นการรันกระบวนงานนี้ คุณต้องมีผู้ดูแลระบบหรือบทบาทพนักงานควบคุมเครื่องจักรที่เชื่อมโยงกับบัญชีผู้ใช้
 
 1. ไปที่ การควบคุมการผลิต > การดำเนินการผลิต > อุปกรณ์สำหรับบัตรงาน
-2. ในฟิลด์ WorkerTextField ป้อนป้ายชื่อของผู้ปฏิบัติงาน  ในข้อมูลสาธิต USMF พิมพ์ '123' สำหรับ Christina Portra
+2. ในฟิลด์ WorkerTextField ป้อนป้ายชื่อของผู้ปฏิบัติงาน  ในข้อมูลสาธิต USMF พิมพ์ '123' สำหรับ Christina Portra ...
 3. คลิกเพื่อเข้าสู่ระบบ
 4. คลิกปุ่มตัวกรอง
 5. ตรวจสอบความถูกต้องหรือยกเลิกการประยุกต์ใช้กล่องกาเครื่องหมายตัวกรองการตั้งค่าคอนฟิก  ถ้าคุณกำหนดตัวกรอง คุณสามารถใช้หน่วยการผลิต 110 ใน USMF

@@ -3,23 +3,24 @@ title: "จัดส่งใบสั่งขายโดยไม่มีค
 description: "คำแนะนำนี้อธิบายวิธีการอัพเดตใบสั่งขายเมื่อมีการจัดส่งผลิตภัณฑ์ให้กับลูกค้า "
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
 ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>จัดส่งใบสั่งขายโดยไม่มีคลังสินค้า
@@ -50,13 +51,13 @@ ms.lasthandoff: 11/03/2017
 15. คลิกเปลี่ยนมุมมอง
 16. คลิกมุมมองหัวข้อ 
     * ถ้ารายการในใบสั่งทั้งหมดมีการจัดส่งทั้งหมดแล้ว สถานะใบสั่งจะเปลี่ยนจาก เปิด เป็น จัดส่งแล้ว  
-    * ในตัวอย่างนี้ รายการใบสั่งได้ถูกจัดส่งเป็นบางส่วน  นี่เป็นเหตุผลว่าทำไมสถานะใบสั่งยังคงเป็น เปิด     
+    * ในตัวอย่างนี้ รายการใบสั่งได้ถูกจัดส่งเป็นบางส่วน  นี่เป็นเหตุผลว่าทำไมสถานะใบสั่งยังคงเป็น เปิดอยู่     
     * มีการตั้งค่าฟิลด์สถานะเอกสารไปที่บันทึกการจัดส่ง เนื่องจากมีรายการใบสั่งอย่างน้อยหนึ่งรายการได้ถูกจัดส่ง  
 17. ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป
 18. คลิกปริมาณในรายการ
 19. ปิดหน้า
 20. ในบานหน้าต่างการดำเนินการ ให้คลิก เบิกสินค้าและจัดส่ง
 21. คลิกบันทึกการจัดส่ง
-    * หน้าสมุดรายวันบันทึกการจัดส่งประกอบด้วย เอกสารบันทึกการจัดส่งทั้งหมดที่ถูกสร้างขึ้นสำหรับใบสั่งของคุณ  คุณสามารถตรวจทานรายละเอียดของแต่ละเอกสาร และพิมพ์เอกสารเหล่านั้นได้ ถ้าคุณต้องการ  
+    * หน้าสมุดรายวันบันทึกการจัดส่งประกอบด้วย เอกสารบันทึกการจัดส่งทั้งหมดที่ถูกสร้างขึ้นสำหรับใบสั่งของคุณ  คุณสามารถตรวจทานรายละเอียดของแต่ละเอกสาร และพิมพ์เอกสารเหล่านั้น ถ้าคุณต้องการ  
 
 

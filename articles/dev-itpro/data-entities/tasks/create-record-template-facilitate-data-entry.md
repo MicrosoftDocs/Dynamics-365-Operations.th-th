@@ -1,28 +1,29 @@
 --- 
 title: "สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล"
 description: "กระบวนงานนี้อธิบายวิธีการสร้างเท็มเพลตเรกคอร์ดเพื่อให้ไม่จำเป็นต้องป้อนค่าในฟิลด์ที่ใช้บ่อยอย่างชัดแจ้งสำหรับแต่ละเรกคอร์ดใหม่"
-author: sericks007
+author: margoc
 manager: AnnBe
-ms.date: 02/21/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: margoc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: afe2da72ef6a6451e797ed6098df164e765e503e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-record-templates-to-facilitate-data-entry"></a>สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
+# <a name="create-a-record-template-to-facilitate-data-entry"></a>สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
