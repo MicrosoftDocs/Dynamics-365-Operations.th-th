@@ -3,23 +3,24 @@ title: "ป้อนข้อมูลผู้ปฏิบัติงาน"
 description: "หลังจากที่ผู้สรรหาได้สร้างโครงการจ้างงานโดยรวมและสร้างตำแหน่งงานแล้ว ขั้นตอนถัดไปคือ การป้อนข้อมูลผู้ปฏิบัติงานของบุคลากรที่กำลังถูกจ้างงาน "
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7304d49cdaafb1521b56747e98a39f97183e12f2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 926fb416cf22476edb2bd4a3b1a22f3e43203db2
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="enter-worker-information"></a><span data-ttu-id="9ecee-103">ป้อนข้อมูลผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="9ecee-103">Enter worker information</span></span>

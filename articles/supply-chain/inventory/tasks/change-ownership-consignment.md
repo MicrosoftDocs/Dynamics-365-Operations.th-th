@@ -1,26 +1,27 @@
----
+--- 
 title: "เปลี่ยนแปลงความเป็นเจ้าของของสินค้าคงคลังที่มีการส่งมอบที่ยึดตามความต้องการการผลิต"
 description: "กระบวนงานนี้แสดงวิธีการเปลี่ยนเจ้าของของสินค้าคงคลังที่มีการส่งมอบจากผู้จัดจำหน่ายเป็นนิติบุคคลของคุณเมื่อต้องการสินค้าคงคลังในการผลิต "
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a665387244c571907afab24a54bc88580eca093e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5dd00e6f53d13305949d225e73223ab54947c804
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="d634f-103">เปลี่ยนแปลงความเป็นเจ้าของของสินค้าคงคลังที่มีการส่งมอบที่ยึดตามความต้องการการผลิต</span><span class="sxs-lookup"><span data-stu-id="d634f-103">Change the ownership of consignment inventory based on production demand</span></span>
@@ -51,4 +52,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="d634f-131">เมื่อลงรายการบัญชีสมุดรายวัน สินค้าคงคลังซึ่งมีผู้จัดจำหน่ายเป็นเจ้าของจะถูกนำออกใช้โดยใช้การอ้างอิง "การเปลี่ยนแปลงความเป็นเจ้าของ" </span><span class="sxs-lookup"><span data-stu-id="d634f-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="d634f-132">จากนั้นจะได้รับสินค้าคงคลังเป็นปริมาณคงคลังคงเหลือโดยใช้รายการความเคลื่อนไหวของสินค้าคงคลังที่มีการอัพเดตด้วยใบรับสินค้าตามใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="d634f-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="d634f-133">โปรดทราบว่าจะมีการสร้างเฉพาะรายการความเคลื่อนไหวที่เกี่ยวข้องกับสมุดรายวันที่ลงรายการบัญชี </span><span class="sxs-lookup"><span data-stu-id="d634f-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="d634f-134">และจะไม่มีการสร้างรายการความเคลื่อนไหวของสินค้าคงคลังที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="d634f-134">No expected inventory transactions are created.</span></span>  
 2. <span data-ttu-id="d634f-135">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="d634f-135">Click OK.</span></span>
 3. <span data-ttu-id="d634f-136">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="d634f-136">Close the page.</span></span>
+
 

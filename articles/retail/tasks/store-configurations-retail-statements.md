@@ -1,50 +1,51 @@
 --- 
-title: "ตั้งค่าคอนฟิกการตั้งค่าร้านค้าที่ส่งผลต่อใบแจ้งยอด Retail"
+title: " การตั้งค่าคอนฟิกการจัดเก็บสำหรับใบแจ้งยอดการขายปลีก"
 description: "กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกร้านค้าปลีกที่มีผลต่อการสร้างและลงใบแจ้งยอดของการขายปลีก "
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fdfb233a3e6c3ab17577afb67aa0fdd0d4588020
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: ab1ee4a3273c162e94452a63891963922947c26c
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="configure-store-settings-that-affect-retail-statements"></a><span data-ttu-id="268d5-103">ตั้งค่าคอนฟิกการตั้งค่าร้านค้าที่ส่งผลต่อใบแจ้งยอด Retail</span><span class="sxs-lookup"><span data-stu-id="268d5-103">Configure store settings that affect retail statements</span></span>
+# <a name="store-configurations-for-retail-statements"></a><span data-ttu-id="c6e64-103"> การตั้งค่าคอนฟิกการจัดเก็บสำหรับใบแจ้งยอดการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="c6e64-103">Store configurations for Retail statements</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="268d5-104">กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกร้านค้าปลีกที่มีผลต่อการสร้างและลงใบแจ้งยอดของการขายปลีก </span><span class="sxs-lookup"><span data-stu-id="268d5-104">This procedure walks through configurations for the Retail store that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="268d5-105">มิติทางการเงินในร้านค้าปลีกจะถูกดำเนินการในกระบวนการอื่น </span><span class="sxs-lookup"><span data-stu-id="268d5-105">Financial dimensions on Retail stores are covered in another procedure.</span></span> <span data-ttu-id="268d5-106">ขั้นตอนนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="268d5-106">This procedure uses the USRT demo company.</span></span>
+<span data-ttu-id="c6e64-104">กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกร้านค้าปลีกที่มีผลต่อการสร้างและลงใบแจ้งยอดของการขายปลีก </span><span class="sxs-lookup"><span data-stu-id="c6e64-104">This procedure walks through configurations for the Retail store that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="c6e64-105">มิติทางการเงินในร้านค้าปลีกจะถูกดำเนินการในกระบวนการอื่น </span><span class="sxs-lookup"><span data-stu-id="c6e64-105">Financial dimensions on Retail stores are covered in another procedure.</span></span> <span data-ttu-id="c6e64-106">ขั้นตอนนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="c6e64-106">This procedure uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="268d5-107">ไปยังการขายปลีกและการค้า > ช่องทาง > ร้านค้าปลีก > ร้านค้าปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="268d5-107">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-2. <span data-ttu-id="268d5-108">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="268d5-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="268d5-109">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="268d5-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="268d5-110">การตั้งค่าในส่วนของใบแจ้งยอด/การปิดบัญชี มีผลกระทบต่อการสร้าง การตรวจสอบ และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้า </span><span class="sxs-lookup"><span data-stu-id="268d5-110">The settings in the Statement/closing section affect the statement creation, validation, and posting for the store.</span></span>  <span data-ttu-id="268d5-111">เปิดส่วนใบแจ้งยอด/การปิดบัญชี</span><span class="sxs-lookup"><span data-stu-id="268d5-111">Open the Statement/closing section.</span></span>  
-    * <span data-ttu-id="268d5-112">เลือกวิธีการที่คุณต้องการใช้เพื่อจัดกลุ่มรายการใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="268d5-112">Select the method you want to use to group the statement lines by.</span></span>  
-    * <span data-ttu-id="268d5-113">เลือก "ใช่" ถ้าควรมีเพียงใบแจ้งยอดเดียวที่ถูกสร้างขึ้นต่อวันเมื่อมีการสร้างใบแจ้งยอดจากชุดงานของการสร้างใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="268d5-113">Select "Yes" if there should only be one statement created per day when creating statements from the statement creation batch job.</span></span>  
-    * <span data-ttu-id="268d5-114">ฟิลด์การคำนวณการตรวจนับเงินจะกำหนดว่าการตรวจนับเงินควรถูกเพิ่มรวมกันหรือไม่ หรือว่าอันล่าสุดควรจะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="268d5-114">The Tender declaration calculation field defines whether tender declarations should be added together or if the last one should be used.</span></span>  
-    * <span data-ttu-id="268d5-115">เลือกบัญชีแยกประเภทเพื่อจะลงรายการบัญชีผลต่างการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="268d5-115">Select the ledger account to post rounding differences into.</span></span>  
-    * <span data-ttu-id="268d5-116">ในฟิลด์การปัดเศษผลต่างสูงสุด คุณสามารถป้อนการปัดเศษผลต่างสูงสุดที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="268d5-116">In the Maximum rounding difference field, you can enter the maximum rounding difference allowed.</span></span>  
-    * <span data-ttu-id="268d5-117">ในฟิลด์การลงรายการบัญชี คุณสามารถป้อนผลรวมสูงสุดที่ลงรายการบัญชีผลต่างที่อนุญาตสำหรับใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="268d5-117">In the Posting field, you can enter the maximum total posting difference allowed for a statement.</span></span>  
-    * <span data-ttu-id="268d5-118">ในฟิลด์กะ คุณสามารถป้อนผลต่างรวมสูงสุดภายในกะในใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="268d5-118">In the Shift field, you can enter the maximum total difference within a shift in a statement.</span></span>  
-    * <span data-ttu-id="268d5-119">ในฟิลด์ธุรกรรม คุณสามารถป้อนผลต่างรวมสูงสุดในบรรทัดรายการใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="268d5-119">In the Transaction field, you can enter the maximum total difference in a statement line.</span></span>  
-    * <span data-ttu-id="268d5-120">ในฟิลด์วิธีการปิดบัญชี คุณสามารถกำหนดว่าธุรกรรมที่จะถูกรวมอยู่ในใบแจ้งยอดควรเป็นส่วนหนึ่งของกะที่ปิดแล้วหรือไม่ หรือว่าสามารถจะมีเป็นธุรกรรมใดๆ ภายในช่วงวัน/เวลาที่กำหนดหรือไม่</span><span class="sxs-lookup"><span data-stu-id="268d5-120">In the Closing method field, you can define whether transactions that will be included in a statement should be part of a closed shift or if they can be any transactions within the defined date/time range.</span></span>  
-    * <span data-ttu-id="268d5-121">ในฟิลด์วันสิ้นสุดธุรกิจ คุณสามารถป้อนเวลาว่าธุรกรรมที่เกิดขึ้นหลังเที่ยงคืนควรจะถูกลงรายการบัญชีรวมกับวันก่อนหน้านี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="268d5-121">In the End of business day field, you can enter a time if transactions that happen after midnight should be posted with the previous day.</span></span>  
-    * <span data-ttu-id="268d5-122">เลือก "ใช่" ถ้าธุรกรรมที่เกิดขึ้นหลังเที่ยงคืนควรจะถูกลงรายการบัญชีเป็นส่วนหนึ่งของวันก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="268d5-122">Select "Yes" if transactions that happen after midnight should be posted as part of the previous day.</span></span>  
-    * <span data-ttu-id="268d5-123">เลือก "ใช่" เพื่อสร้างใบแจ้งยอดขึ้นมาสำหรับแต่ละวิธีการจัดทำใบแจ้งยอดที่กำหนดไว้ </span><span class="sxs-lookup"><span data-stu-id="268d5-123">Select "Yes" to get statements created for each statement method defined.</span></span> <span data-ttu-id="268d5-124">นี่จะเป็นประโยชน์ถ้าประสิทธิภาพการทำงานของการลงรายการบัญชีจำเป็นต้องได้รับการพัฒนาสำหรับร้านค้าที่มีปริมาณธุรกรรมที่สูง เพราะมันจะสร้างใบแจ้งยอดที่เล็กลงจำนวนมากที่สามารถประมวลผลพร้อมกันได้</span><span class="sxs-lookup"><span data-stu-id="268d5-124">This can be useful if the performance of the posting needs to be improved for stores with high transaction volumes since it will create many smaller statements that can be processed in parallel.</span></span>  
-    * <span data-ttu-id="268d5-125">ในฟิลด์ลูกค้าเริ่มต้น คุณสามารถเลือกบัญชีลูกค้าที่จะใช้สำหรับการขายให้แก่ลูกค้า walk-in</span><span class="sxs-lookup"><span data-stu-id="268d5-125">In the Default customer field, you can select the customer account to use for sales to walk-in customers.</span></span>  
+1. <span data-ttu-id="c6e64-107">ไปยังการขายปลีกและการค้า > ช่องทาง > ร้านค้าปลีก > ร้านค้าปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c6e64-107">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+2. <span data-ttu-id="c6e64-108">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c6e64-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="c6e64-109">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c6e64-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="c6e64-110">การตั้งค่าในส่วนของใบแจ้งยอด/การปิดบัญชี มีผลกระทบต่อการสร้าง การตรวจสอบ และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้า </span><span class="sxs-lookup"><span data-stu-id="c6e64-110">The settings in the Statement/closing section affect the statement creation, validation, and posting for the store.</span></span>  <span data-ttu-id="c6e64-111">เปิดส่วนใบแจ้งยอด/การปิดบัญชี</span><span class="sxs-lookup"><span data-stu-id="c6e64-111">Open the Statement/closing section.</span></span>  
+    * <span data-ttu-id="c6e64-112">เลือกวิธีการที่คุณต้องการใช้เพื่อจัดกลุ่มบรรทัดรายการใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="c6e64-112">Select the method you want to use to to group the statement lines by.</span></span>  
+    * <span data-ttu-id="c6e64-113">เลือก "ใช่" ถ้าควรมีเพียงใบแจ้งยอดเดียวที่ถูกสร้างขึ้นต่อวันเมื่อมีการสร้างใบแจ้งยอดจากชุดงานของการสร้างใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="c6e64-113">Select "Yes" if there should only be one statement created per day when creating statements from the statement creation batch job.</span></span>  
+    * <span data-ttu-id="c6e64-114">ฟิลด์การคำนวณการตรวจนับเงินจะกำหนดว่าการตรวจนับเงินควรถูกเพิ่มรวมกันหรือไม่ หรือว่าอันล่าสุดควรจะถูกใช้</span><span class="sxs-lookup"><span data-stu-id="c6e64-114">The Tender declaration calculation field defines whether tender declarations should be added together or if the last one should be used.</span></span>  
+    * <span data-ttu-id="c6e64-115">เลือกบัญชีแยกประเภทเพื่อจะลงรายการบัญชีผลต่างการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="c6e64-115">Select the ledger account to post rounding differences into.</span></span>  
+    * <span data-ttu-id="c6e64-116">ในฟิลด์การปัดเศษผลต่างสูงสุด คุณสามารถป้อนการปัดเศษผลต่างสูงสุดที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="c6e64-116">In the Maximum rounding difference field, you can enter the maximum rounding difference allowed.</span></span>  
+    * <span data-ttu-id="c6e64-117">ในฟิลด์การลงรายการบัญชี คุณสามารถป้อนผลรวมสูงสุดที่ลงรายการบัญชีผลต่างที่อนุญาตสำหรับใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="c6e64-117">In the Posting field, you can enter the maximum total posting difference allowed for a statement.</span></span>  
+    * <span data-ttu-id="c6e64-118">ในฟิลด์กะ คุณสามารถป้อนผลต่างรวมสูงสุดภายในกะในใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="c6e64-118">In the Shift field, you can enter the maximum total difference within a shift in a statement.</span></span>  
+    * <span data-ttu-id="c6e64-119">ในฟิลด์ธุรกรรม คุณสามารถป้อนผลต่างรวมสูงสุดในบรรทัดรายการใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="c6e64-119">In the Transaction field, you can enter the maximum total difference in a statement line.</span></span>  
+    * <span data-ttu-id="c6e64-120">ในฟิลด์วิธีการปิดบัญชี คุณสามารถกำหนดว่าธุรกรรมที่จะถูกรวมอยู่ในใบแจ้งยอดควรเป็นส่วนหนึ่งของกะที่ปิดแล้วหรือไม่ หรือว่าสามารถจะมีเป็นธุรกรรมใดๆ ภายในช่วงวัน/เวลาที่กำหนดหรือไม่</span><span class="sxs-lookup"><span data-stu-id="c6e64-120">In the Closing method field, you can define whether transactions that will be included in a statement should be part of a closed shift or if they can be any transactions within the defined date/time range.</span></span>  
+    * <span data-ttu-id="c6e64-121">ในฟิลด์วันสิ้นสุดธุรกิจ คุณสามารถป้อนเวลาว่าธุรกรรมที่เกิดขึ้นหลังเที่ยงคืนควรจะถูกลงรายการบัญชีรวมกับวันก่อนหน้านี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="c6e64-121">In the End of business day field, you can enter a time if transactions that happen after midnight should be posted with the previous day.</span></span>  
+    * <span data-ttu-id="c6e64-122">เลือก "ใช่" ถ้าธุรกรรมที่เกิดขึ้นหลังเที่ยงคืนควรจะถูกลงรายการบัญชีเป็นส่วนหนึ่งของวันก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="c6e64-122">Select "Yes" if transactions that happen after midnight should be posted as part of the previous day.</span></span>  
+    * <span data-ttu-id="c6e64-123">เลือก "ใช่" เพื่อสร้างใบแจ้งยอดขึ้นมาสำหรับแต่ละวิธีการจัดทำใบแจ้งยอดที่กำหนดไว้ </span><span class="sxs-lookup"><span data-stu-id="c6e64-123">Select "Yes" to get statements created for each statement method defined.</span></span> <span data-ttu-id="c6e64-124">นี่จะเป็นประโยชน์ถ้าประสิทธิภาพการทำงานของการลงรายการบัญชีจำเป็นต้องได้รับการพัฒนาสำหรับร้านค้าที่มีปริมาณธุรกรรมที่สูง เพราะมันจะสร้างใบแจ้งยอดที่เล็กลงจำนวนมากที่สามารถประมวลผลพร้อมกันได้</span><span class="sxs-lookup"><span data-stu-id="c6e64-124">This can be useful if the performance of the posting needs to be improved for stores with high transaction volumes since it will create many smaller statements that can be processed in parallel.</span></span>  
+    * <span data-ttu-id="c6e64-125">ในฟิลด์ลูกค้าเริ่มต้น คุณสามารถเลือกบัญชีลูกค้าที่จะใช้สำหรับการขายให้แก่ลูกค้า walk-in</span><span class="sxs-lookup"><span data-stu-id="c6e64-125">In the Default customer field, you can select the customer account to use for sales to walk-in customers.</span></span>  
 
 
