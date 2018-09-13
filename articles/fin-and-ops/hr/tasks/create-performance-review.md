@@ -3,7 +3,7 @@ title: "สร้างการตรวจสอบประสิทธิภ
 description: "กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน "
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

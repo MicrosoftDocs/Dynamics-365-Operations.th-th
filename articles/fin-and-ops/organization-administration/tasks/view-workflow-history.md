@@ -3,7 +3,7 @@ title: "ดูประวัติลำดับงาน"
 description: "ใช้ขั้นตอนเหล่านี้เพื่อดูสถานะของเอกสารที่ส่งให้กับระบบลำดับงานเพื่อการประมวลผลและการอนุมัติ"
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

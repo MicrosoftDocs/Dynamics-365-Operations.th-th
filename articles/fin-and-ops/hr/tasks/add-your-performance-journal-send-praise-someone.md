@@ -3,7 +3,7 @@ title: "เพิ่มลงในสมุดรายวันประสิ
 description: "สมุดรายวันประสิทธิภาพจะเก็บข้อมูลที่เกี่ยวข้องกับวิธีที่คุณดำเนินการตามเป้าหมายของคุณหรือวิธีที่คุณดำเนินการในระหว่างรอบระยะเวลา "
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
