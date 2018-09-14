@@ -3,7 +3,7 @@ title: "ตั้งค่าลูกค้าและบัญชีธนา
 description: "งานนี้จะช่วยคุณในการตั้งค่าบัญชีธนาคารของลูกค้าและข้อตกลงการหักบัญชีเงินฝากอัตโนมัติของลูกค้าที่จำเป็นในการสร้างไฟล์การชำระเงินของลูกค้า เช่น การหักบัญชีเงินฝากอัตโนมัติ ISO20022 "
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

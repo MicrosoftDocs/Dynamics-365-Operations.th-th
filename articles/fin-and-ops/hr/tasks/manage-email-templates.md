@@ -3,7 +3,7 @@ title: "จัดการเท็มเพลตอีเมล"
 description: "คุณสามารถโอนย้ายข้อมูลจากฐานข้อมูลขององค์กรของคุณไปยังที่คั่นหน้าในเอกสารใหม่และใช้ในเทมเพลตซึ่งช่วยให้คุณสื่อสารได้อย่างมีประสิทธิภาพกับผู้สมัครและผู้สมัคร "
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

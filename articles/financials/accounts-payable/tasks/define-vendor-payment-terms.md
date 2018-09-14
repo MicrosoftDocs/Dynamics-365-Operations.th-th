@@ -3,7 +3,7 @@ title: "กำหนดเงื่อนไขการชำระเงิน
 description: "ตั้งค่าเงื่อนไขการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย "
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

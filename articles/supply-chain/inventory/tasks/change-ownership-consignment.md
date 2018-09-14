@@ -3,7 +3,7 @@ title: "เปลี่ยนแปลงความเป็นเจ้าข
 description: "กระบวนงานนี้แสดงวิธีการเปลี่ยนเจ้าของของสินค้าคงคลังที่มีการส่งมอบจากผู้จัดจำหน่ายเป็นนิติบุคคลของคุณเมื่อต้องการสินค้าคงคลังในการผลิต "
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

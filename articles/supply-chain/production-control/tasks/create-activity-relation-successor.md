@@ -3,7 +3,7 @@ title: "สร้างความสัมพันธ์กิจกรรม
 description: "ทิศทางของกิจกรรมในขั้นตอนการผลิตแบบ lean จะจัดทำเอกสารโดยใช้ความสัมพันธ์ของกิจกรรม "
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

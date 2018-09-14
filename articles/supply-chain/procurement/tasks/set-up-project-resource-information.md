@@ -3,7 +3,7 @@ title: "ตั้งค่าข้อมูลทรัพยากรโคร
 description: "กระบวนงานนี้แสดงให้เห็นถึงวิธีการตั้งค่าทรัพยากรโครงการ"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

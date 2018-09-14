@@ -3,7 +3,7 @@ title: "กำหนดเซลล์ทำงานของ lean manufacturin
 description: "เซลล์ทำงานเป็นรูปแบบเฉพาะของกลุ่มทรัพยากรที่สามารถใช้ในกิจกรรมกระบวนการผลิตแบบ lean "
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

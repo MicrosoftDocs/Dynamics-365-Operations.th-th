@@ -3,7 +3,7 @@ title: "สร้างใบสั่งซื้อซ้ำ"
 description: "กระบวนงานนี้แสดงวิธีการสร้างใบสั่งซื้อ (PO) ที่ทำซ้ำโดยการคัดลอกรายการจากเอกสารใบสั่งซื้อก่อนหน้านี้ไปยังใบสั่งซื้อใหม่หรือใบสั่งซื้อที่มีอยู่ "
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

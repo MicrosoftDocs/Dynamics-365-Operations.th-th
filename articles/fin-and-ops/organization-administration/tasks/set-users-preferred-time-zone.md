@@ -3,7 +3,7 @@ title: "การตั้งเขตเวลาที่ผู้ใช้ต
 description: "กระบวนงานต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบสามารถตั้งเขตเวลาสำหรับผู้ใช้"
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

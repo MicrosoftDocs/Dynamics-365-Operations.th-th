@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกของสถานที่ใ
 description: "คำแนะนำนี้แสดงวิธีการตั้งค่าคอนฟิกการตั้งค่าสถานที่สำหรับการเปิดใช้งานคลังสินค้า WMS ใหม่ (คลังสินค้าที่ใช้กระบวนการจัดการคลังสินค้าขั้นสูง) "
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

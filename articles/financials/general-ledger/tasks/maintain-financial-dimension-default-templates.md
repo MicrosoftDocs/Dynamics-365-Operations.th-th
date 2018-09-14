@@ -3,7 +3,7 @@ title: "รักษาเท็มเพลตเริ่มต้นของ
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน "
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

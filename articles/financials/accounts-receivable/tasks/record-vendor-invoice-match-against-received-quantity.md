@@ -3,7 +3,7 @@ title: "บันทึกใบแจ้งหนี้ของผู้จั
 description: "เมื่อคุณได้รับใบแจ้งหนี้จากผู้จัดจำหน่ายสำหรับสินค้าหรือบริการในใบสั่งซื้อ กระบวนการทางธุรกิจอาจต้องการได้รับสินค้าหรือบริการก่อนที่จะสามารถอนุมัติใบแจ้งหนี้สำหรับการชำระเงินได้ "
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

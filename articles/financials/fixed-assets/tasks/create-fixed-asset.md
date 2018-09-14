@@ -3,7 +3,7 @@ title: "สร้างสินทรัพย์ถาวร"
 description: "คู่มือของงานนี้ใช้บริษัทสาธิต USMF"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

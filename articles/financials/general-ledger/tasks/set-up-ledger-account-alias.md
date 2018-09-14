@@ -3,7 +3,7 @@ title: "ตั้งค่านามแฝงของบัญชีแยก
 description: "ขั้นตอนนี้แสดงวิธีการสร้างนามแฝงของบัญชีที่มีทางลัดสำหรับการป้อนหมายเลขบัญชี "
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ใช้สมุดรายวันปริมาณสินค้
 description: "ขั้นตอนนี้แสดงวิธีการคำนวณข้อเสนอความครอบคลุมขั้นต่ำที่ขึ้นอยู่กับธุรกรรมที่ผ่านมา จากนั้นอัพเดตความครอบคลุมสินค้าที่มีข้อเสนอ "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

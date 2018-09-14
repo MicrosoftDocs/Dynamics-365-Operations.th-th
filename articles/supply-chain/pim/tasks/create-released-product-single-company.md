@@ -3,7 +3,7 @@ title: "สร้างผลิตภัณฑ์นำออกใช้สำ
 description: "ขั้นตอนนี้แนะนำวิธีการสร้างผลิตภัณฑ์เดี่ยวที่นำออกใช้ในบริบทของหน่วยกฎหมายเดี่ยว "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

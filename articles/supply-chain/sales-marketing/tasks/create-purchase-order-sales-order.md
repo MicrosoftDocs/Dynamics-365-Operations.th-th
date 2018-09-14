@@ -3,7 +3,7 @@ title: "การสร้างใบสั่งซื้อจากใบส
 description: "กระบวนงานนี้แสดงวิธีการสร้างใบสั่งซื้อที่ขึ้นอยู่กับใบสั่งขาย "
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: " สร้างใบสั่งศูนย์บริการ"
 description: "ขั้นตอนนี้จะสอนให้ค้นหาลูกค้า สร้างใบสั่งใหม่ ค้นหาผลิตภัณฑ์และรวบรวมการชำระเงินจากลูกค้า "
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "สร้างกฏคัมบังโดยใช้อีเว้
 description: "กระบวนงานนี้มุ่งเน้นการตั้งค่าที่จำเป็นสำหรับการสร้างกฎคัมบังโดยใช้เหตุการณ์ของสินค้าคงคลังต่ำสุดเพื่อให้แน่ใจว่าผลิตภัณฑ์เฉพาะจะพร้อมใช้งานเสมอที่สถานที่เฉพาะ "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

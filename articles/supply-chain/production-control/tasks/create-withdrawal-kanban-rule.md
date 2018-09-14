@@ -3,7 +3,7 @@ title: "สร้างกฎคัมบังการเบิกถอน"
 description: "กระบวนงานนี้แสดงการตั้งค่าที่จำเป็นในการสร้างกฎคัมบังการถอน สำหรับการโอนย้ายวัสดุในสภาพแวดล้อมแบบลีน "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "โอนย้ายข้อมูลสำหรับรุ่นผ
 description: "ข้อมูลการส่งออกสำหรับแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์กำหนดว่า คุณต้องมีอย่างน้อยหนึ่งแบบจำลองผลิตภัณฑ์ที่พร้อมใช้งาน "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

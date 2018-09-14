@@ -3,7 +3,7 @@ title: "เพิ่มกิจกรรมที่มีอยู่ไปย
 description: "ในขณะที่สร้างขั้นตอนการผลิตรุ่นใหม่ คุณสามารถเลือกที่จะเพิ่มกิจกรรมที่สร้างขึ้นสำหรับรุ่นที่เก่ากว่าไปยังรุ่นใหม่ได้ "
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

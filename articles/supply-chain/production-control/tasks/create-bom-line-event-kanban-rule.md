@@ -3,7 +3,7 @@ title: "สร้างกฏคัมบังสำหรับอีเว้
 description: "งานนี้มุ่งเน้นการตั้งค่าที่จำเป็นเพื่อสร้างกฎคัมบังเหตุการณ์ เพื่อให้มั่นใจว่าการจัดหาวัสดุสำหรับรายการ BOM การผลิตในลีนแบบผสมและสภาพแวดล้อมการผลิตแบบดั้งเดิม "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

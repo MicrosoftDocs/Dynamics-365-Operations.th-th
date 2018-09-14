@@ -3,7 +3,7 @@ title: "ตั้งค่าและสร้างโพรไฟล์ค่
 description: "โพรไฟล์การกำหนดชนิดค่าเสื่อมราคาและความถี่ของค่าเสื่อมราคาสำหรับสินทรัพย์ "
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ตั้งค่าโพรไฟล์ภาพรวมของก
 description: "งานนี้มุ่งเน้นการตั้งค่าโพรไฟล์ภาพรวมการมาถึง "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

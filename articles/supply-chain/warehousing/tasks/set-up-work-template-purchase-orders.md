@@ -3,7 +3,7 @@ title: "ตั้งค่าเท็มเพลตงานสำหรับ
 description: "ขั้นตอนนี้มุ่งเน้นไปที่การตั้งค่าของเท็มเพลตงานอย่างง่ายที่จะใช้เมื่อย้ายสินค้าที่ได้รับออกไป "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

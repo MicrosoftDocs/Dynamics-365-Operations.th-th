@@ -3,7 +3,7 @@ title: "ตรวจสอบความถูกต้องของขั้
 description: "ขั้นตอนนี้แสดงวิธีการสร้างขั้นตอนการผลิตใหม่และเวอร์ชันแรกสำหรับการผลิตแบบ lean "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

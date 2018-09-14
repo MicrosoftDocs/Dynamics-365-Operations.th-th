@@ -3,7 +3,7 @@ title: "สร้างใบขอซื้อที่ใช้ RFQ"
 description: "คำแนะนำนี้แสดงวิธีการเพิ่มข้อมูลราคาและผู้จัดจำหน่ายในใบขอซื้อจากกระบวนการ RFQ "
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

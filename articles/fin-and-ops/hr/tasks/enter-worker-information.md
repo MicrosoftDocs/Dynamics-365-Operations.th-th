@@ -3,7 +3,7 @@ title: "ป้อนข้อมูลผู้ปฏิบัติงาน"
 description: "หลังจากที่ผู้สรรหาได้สร้างโครงการจ้างงานโดยรวมและสร้างตำแหน่งงานแล้ว ขั้นตอนถัดไปคือ การป้อนข้อมูลผู้ปฏิบัติงานของบุคลากรที่กำลังถูกจ้างงาน "
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

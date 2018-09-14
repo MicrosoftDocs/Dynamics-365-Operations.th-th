@@ -3,7 +3,7 @@ title: "ลงทะเบียนและลงรายการบัญช
 description: "คุณสามารถลงทะเบียนรายละเอียดเกี่ยวกับเช็คลงวันที่ล่วงหน้าก่อนที่จะออกเช็คให้กับผู้จัดจำหน่ายโดยการใช้ใบสำคัญสมุดรายวัน "
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

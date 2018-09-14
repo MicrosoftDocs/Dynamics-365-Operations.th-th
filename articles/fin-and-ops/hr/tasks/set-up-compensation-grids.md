@@ -3,7 +3,7 @@ title: "ตั้งค่ากริดค่าตอบแทน"
 description: "กริดค่าตอบแทนจะใช้ในการกำหนด และรักษาโครงสร้างค่าตอบแทนสำหรับแผนค่าตอบแทนที่คงที่ "
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

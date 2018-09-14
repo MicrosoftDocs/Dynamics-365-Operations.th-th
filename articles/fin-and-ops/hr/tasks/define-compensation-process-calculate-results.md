@@ -3,7 +3,7 @@ title: "กำหนดกระบวนการของค่าตอบแ
 description: "กระบวนการค่าตอบแทนถูกใช้เพื่อกำหนดจำนวนค่าตอบแทนใหม่และรางวัลสำหรับพนักงานที่ลงทะเบียนในแผนค่าตอบแทนคงที่และแผนค่าตอบแทนผันแปร "
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

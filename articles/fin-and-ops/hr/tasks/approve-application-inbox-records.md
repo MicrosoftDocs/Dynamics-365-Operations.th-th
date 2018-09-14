@@ -3,7 +3,7 @@ title: "อนุมัติเรกคอร์ดกล่องข้อค
 description: "ขั้นตอนนี้แสดงวิธีการตรวจทานใบสมัครที่ได้รับผ่านหน้าบริการตนเองของพนักงาน "
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ดูธุรกรรมภาษีขายที่ลงราย
 description: "คุณสามารถดูธุรกรรมภาษีขายที่ลงรายการบัญชีไว้แล้วจากหน้าต่างๆโดยขึ้นอยู่กับสิ่งที่คุณต้องการดู "
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

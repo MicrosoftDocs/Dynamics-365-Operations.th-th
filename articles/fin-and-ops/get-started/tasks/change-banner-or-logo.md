@@ -3,7 +3,7 @@ title: "เปลี่ยนป้ายประกาศหรือรูป
 description: "กระบวนงานต่อไปนี้แสดงรายการขั้นตอนที่ผู้ดูแลระบบสามารถใช้เพื่ออัพเดตป้ายประกาศหรือรูปภาพสัญลักษณ์ที่ถูกแสดงสำหรับนิติบุคคล"
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

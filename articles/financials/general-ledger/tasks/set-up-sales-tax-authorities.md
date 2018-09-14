@@ -3,7 +3,7 @@ title: "การตั้งค่าหน่วยงานจัดเก็
 description: "หน่วยงานจัดเก็บภาษีขายเป็นองค์กรอิสระที่เก็บรวบรวมภาษีขายที่จะต้องถูกรายงานและชำระ "
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "สร้างคำขอใบเสนอราคา"
 description: "กระบวนงานนี้แสดงให้คุณเห็นถึงวิธีการสร้างคำขอใบเสนอราคา "
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

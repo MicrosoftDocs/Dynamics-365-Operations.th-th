@@ -3,7 +3,7 @@ title: "การตั้งค่าวิธีการชำระเงิ
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าวิธีการชำระเงินของผู้จัดจำหน่ายการโอนย้ายเครดิต ISO20022 หรือชนิดการชำระเงินอื่นๆ โดยใช้การรายงานทางอิเล็กทรอนิกส์ในการสร้างไฟล์ "
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

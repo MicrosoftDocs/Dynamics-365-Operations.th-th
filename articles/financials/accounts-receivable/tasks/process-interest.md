@@ -3,7 +3,7 @@ title: "ประมวลผลดอกเบี้ย"
 description: "กระบวนงานนี้แสดงวิธีการสร้าง การพิมพ์ และการลงรายการบัญชีดอกเบี้ยตั๋วเงิน "
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

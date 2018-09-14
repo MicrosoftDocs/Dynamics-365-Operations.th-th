@@ -3,7 +3,7 @@ title: "สร้างบาร์โค้ดให้ผลิตภัณฑ
 description: "กระบวนงานนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 เป็นตัวอย่าง "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

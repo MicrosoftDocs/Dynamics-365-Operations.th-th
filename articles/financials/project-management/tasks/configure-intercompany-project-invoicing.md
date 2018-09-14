@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกการออกใบแจ้
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าการออกใบแจ้งหนี้โครงการระหว่างบริษัทสองแห่งในองค์กรของคุณ"
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

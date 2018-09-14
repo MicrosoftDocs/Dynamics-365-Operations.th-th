@@ -3,7 +3,7 @@ title: "สร้างใบสั่งส่งคืนสินค้าซ
 description: "ขั้นตอนนี้แสดงวิธีการสร้างใบสั่งส่งคืนสินค้าที่ซื้อ โดยใช้การดำเนินการใบลดหนี้เพื่อคัดลอกบรรทัดจากเอกสารใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังใบสั่งซื้อใหม่ "
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

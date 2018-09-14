@@ -3,7 +3,7 @@ title: "ปรับปรุงระดับปริมาณสินค้
 description: "กระบวนงานนี้นำคุณผ่านกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการปรับปรุงสินค้าคงคลังเพื่อปรับปรุงระดับสินค้าคงคลังของผลิตภัณฑ์ในคลังสินค้า "
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

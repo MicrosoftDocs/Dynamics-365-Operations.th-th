@@ -3,7 +3,7 @@ title: "ดำเนินการงานกระบวนการคัม
 description: "กระบวนงานนี้มุ่งเน้นไปที่การดำเนินงานกระบวนงานคัมบัง "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ตั้งค่ากระบวนการการเพิ่ม
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่ากระบวนการการเติมสินค้าใหม่ซึ่งใช้กลยุทธ์การเติมสินค้าต่ำสุด/สูงสุด "
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

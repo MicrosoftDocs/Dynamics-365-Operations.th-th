@@ -3,7 +3,7 @@ title: "สร้างใบสั่งการเพิ่มเติมส
 description: "กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ "
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

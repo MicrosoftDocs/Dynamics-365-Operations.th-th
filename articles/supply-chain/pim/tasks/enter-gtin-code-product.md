@@ -3,7 +3,7 @@ title: "ป้อนรหัส GTIN สำหรับผลิตภัณฑ
 description: "รหัส GTIN จะถูกกำหนดโดยองค์กร GS1 "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

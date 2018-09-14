@@ -3,7 +3,7 @@ title: "แบ่งสินทรัพย์ถาวร"
 description: "คู่มืองานนี้จะแบ่งเป็นเปอร์เซ็นต์ของสมุดบัญชีสินทรัพย์เดียวกับสมุดบัญชีสินทรัพย์ใหม่ "
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

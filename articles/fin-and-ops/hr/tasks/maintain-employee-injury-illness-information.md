@@ -3,7 +3,7 @@ title: "รักษาข้อมูลการบาดเจ็บและ
 description: "ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่ "
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

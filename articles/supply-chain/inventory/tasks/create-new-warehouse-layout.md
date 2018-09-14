@@ -3,7 +3,7 @@ title: "สร้างการจัดวางพื้นที่คลั
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลเกี่ยวกับสถานที่เก็บในคลังสินค้า "
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

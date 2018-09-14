@@ -3,7 +3,7 @@ title: "ตั้งค่าผู้จัดจำหน่ายและบ
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลของผู้จัดจำหน่ายและข้อมูลของบัญชีธนาคารของผู้จัดจำหน่ายเฉพาะที่จำเป็นสำหรับการโอนย้ายเครดิต ISO20022 หรือการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายอื่นใดๆ "
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

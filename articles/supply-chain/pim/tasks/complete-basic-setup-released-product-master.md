@@ -3,7 +3,7 @@ title: "ตั้งค่าพื้นฐานของผลิตภัณ
 description: "ขั้นตอนนี้แสดงวิธีการการตั้งค่าอย่างน้อยที่สุดที่ต้องระบุก่อนที่ผลิตภัณฑ์หลักจะถูกใช้ในเวอร์ชันสูตร BOM "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

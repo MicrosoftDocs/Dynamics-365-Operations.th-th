@@ -3,7 +3,7 @@ title: "สร้างการชำระเงินสำหรับลู
 description: "กระบวนงานนี้แสดงวิธีการสร้างไฟล์การชำระเงินการหักบัญชีเงินฝากอัตโนมัติ ISO20022 สำหรับลูกค้าที่มีการตั้งค่าคอนฟิกการหักบัญชีเงินฝากอัตโนมัติและการชำระเงินใบแจ้งหนี้ "
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

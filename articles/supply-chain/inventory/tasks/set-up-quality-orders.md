@@ -3,7 +3,7 @@ title: "ตั้งค่าใบสั่งตรวจสอบคุณภ
 description: "กระบวนงานนี้แสดงวิธีการเปิดใช้งานกระบวนการจัดการคุณภาพที่ต้องตรวจสอบสินค้าคงคลังขาเข้าทันทีหลังจากการลงทะเบียนการมาถึง "
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

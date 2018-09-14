@@ -3,7 +3,7 @@ title: "ยกเลิกการเรียกใช้เวอร์ชั
 description: "เมื่อไม่ต้องการรุ่นของขั้นตอนการผลิตที่ใช้งานอยู่แล้ว สามารถถูกปิดใช้งานได้ "
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

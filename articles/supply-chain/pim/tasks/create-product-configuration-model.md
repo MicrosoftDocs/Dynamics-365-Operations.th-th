@@ -3,7 +3,7 @@ title: "สร้างแบบจำลองการจัดโครงแ
 description: "กระบวนงานนี้แสดงวิธีการสร้างแบบจำลองการจัดโครงแบบผลิตภัณฑ์ และการป้อนรายละเอียดพื้นฐานเช่น คุณลักษณะและส่วนประกอบย่อย "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

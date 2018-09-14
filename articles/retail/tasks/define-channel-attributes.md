@@ -3,7 +3,7 @@ title: " กำหนดลักษณะช่องทาง"
 description: "เพิ่มช่องทางโดยการเพิ่มช่องทางและคุณลักษณะของผลิตภัณฑ์ "
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

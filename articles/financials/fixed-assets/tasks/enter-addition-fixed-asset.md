@@ -3,7 +3,7 @@ title: "การป้อนสินทรัพย์ถาวรที่ไ
 description: "กระบวนการนี้จะแสดงวิธีการเพิ่มรายการเพิ่มเติมไปยังทรัพย์สินถาวรที่มีอยู่ "
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

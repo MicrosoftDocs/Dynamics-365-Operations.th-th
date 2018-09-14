@@ -3,7 +3,7 @@ title: "การสร้างบัญชีผู้จัดจำหน่
 description: "ขั้นตอนนี้แสดงวิธีการสร้างบัญชีผู้จัดจำหน่าย และเพิ่มอยู่และข้อมูลผู้ติดต่อ "
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

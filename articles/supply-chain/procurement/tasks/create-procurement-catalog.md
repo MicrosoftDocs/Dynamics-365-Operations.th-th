@@ -3,7 +3,7 @@ title: "สร้างแค็ตตาล็อกการจัดซื้
 description: "คำแนะนำนี้แสดงวิธีการสร้างแค็ตตาล็อกการจัดซื้อ "
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

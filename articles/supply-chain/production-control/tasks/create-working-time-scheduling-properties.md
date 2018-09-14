@@ -3,7 +3,7 @@ title: "สร้างคุณสมบัติการจัดกำหน
 description: "คุณสมบัติการจัดกำหนดการของเวลาทำงาน จะใช้เพื่อจัดประเภทช่วงเวลาการทำงานและกำหนดการตั้งค่าที่ผู้ปฏิบัติงานต้องคำนึงถึง "
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

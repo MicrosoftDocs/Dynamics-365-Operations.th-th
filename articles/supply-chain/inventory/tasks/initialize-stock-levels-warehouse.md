@@ -3,7 +3,7 @@ title: "เริ่มระดับสินค้าคงคลังใน
 description: "ขั้นตอนนี้แสดงให้เห็นถึงการรับสินค้าคงคลังคงเหลือด้วยตนเอง โดยใช้สมุดรายวันการเคลื่อนย้ายสินค้าคงคลัง "
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ตั้งค่าข้อมูลการบาดเจ็บแ
 description: "นายจ้างจำเป็นต้องทราบเมื่อพนักงานได้รับบาดเจ็บหรือมีการเจ็บป่วยที่เป็นผลมาจากอันตรายในสถานที่ทำงาน "
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

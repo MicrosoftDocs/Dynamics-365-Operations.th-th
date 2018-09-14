@@ -3,7 +3,7 @@ title: "กำหนดกลุ่มการปรับเปลี่ยน
 description: "ขั้นตอนนี้แสดงวิธีการกำหนดกลุ่มการปรับเปลี่ยนผลิตภัณฑ์โดยการสร้างกลุ่มสองกลุ่มในบริษัทสาธิตข้อมูลของบริษัท USMF "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

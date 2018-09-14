@@ -3,7 +3,7 @@ title: "ตั้งค่าตำแหน่ง"
 description: "ตำแหน่งเป็นองค์ประกอบสำคัญของระดับต่ำกว่าของลำดับชั้นขององค์กร"
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

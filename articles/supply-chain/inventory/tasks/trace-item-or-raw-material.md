@@ -3,7 +3,7 @@ title: "ติดตามสินค้าหรือวัตถุดิบ
 description: "ขั้นตอนนี้แสดงถึงวิธีใช้การติดตามสินค้าเพื่อระบุบสถานที่ของสินค้า หรือวัตถุดิบที่ถูกใช้ หรือกำลังใช้ "
 author: pjacobse
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

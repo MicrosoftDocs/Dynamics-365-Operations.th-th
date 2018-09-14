@@ -3,7 +3,7 @@ title: "ตั้งค่ารูปแบบการบันทึกกา
 description: "ธุรกิจมักจะแนบบันทึกการชำระเงินที่ถูกพิมพ์ เพื่อออกใบแจ้งหนี้เพื่อช่วยเหลือลูกค้าและให้ข้อมูลอ้างอิงการชำระเงินสำหรับการชำระเงินและการลงรายการบัญชี"
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

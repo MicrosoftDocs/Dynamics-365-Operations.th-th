@@ -3,7 +3,7 @@ title: "สร้างส่วนประกอบแบบจำลองผ
 description: "แบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ตามข้อจำกัดใช้ส่วนประกอบเป็นส่วนประกอบที่จะสร้างโครงสร้างรูปแบบผลิตภัณฑ์ "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

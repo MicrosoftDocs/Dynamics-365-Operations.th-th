@@ -3,7 +3,7 @@ title: "ตั้งค่าภาษีหัก ณ ที่จ่าย"
 description: "ภาษีหัก ณ ที่จ่ายคือ ภาษีสำหรับผู้จัดจำหน่ายที่ไม่ได้สร้างธุรกรรมภาษีขาย "
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

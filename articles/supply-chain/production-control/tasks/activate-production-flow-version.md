@@ -3,7 +3,7 @@ title: "เรียกใช้เวอร์ชันขั้นตอนก
 description: "ก่อนที่จะสามารถสร้างงานคัมบังและสามารถประมวลผลกิจกรรมสำหรับเวอร์ชันขั้นตอนการผลิต คุณควรเรียกใช้เวอร์ชัน "
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

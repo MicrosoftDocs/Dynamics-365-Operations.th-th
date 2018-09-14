@@ -3,7 +3,7 @@ title: "การจำแนกประเภทแบบ Lean จากใบ
 description: "กระบวนงานนี้เน้นไปที่ การตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อจากรายการขายที่ซึ่งสินค้าถูกผลิตด้วยคัมบัง "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

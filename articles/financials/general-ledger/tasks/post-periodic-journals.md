@@ -3,7 +3,7 @@ title: "ลงรายการบัญชีสมุดรายวันป
 description: "สมุดรายวันประจำงวดในบางครั้งจะเรียกว่าสมุดรายวันที่เกิดซ้ำ เนื่องจากยอดเงิน ข้อความ และข้อมูลอื่นๆได้ถูกทำซ้ำแต่ละครั้งที่มีการดึงข้อมูลสมุดรายวันประจำงวด "
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

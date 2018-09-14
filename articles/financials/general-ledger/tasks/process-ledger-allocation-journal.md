@@ -3,7 +3,7 @@ title: "ประมวลผลสมุดรายวันการปัน
 description: "ใช้หน้าคำขอขั้นตอนการปันส่วนเพื่อสร้างสมุดรายวันการปันส่วนที่สามารถตรวจทานได้ และอนุมัติก่อนลงรายการบัญชีแยกประเภททั่วไป หรือลงรายการบัญชีโดยตรงในบัญชีแยกประเภททั่วไป "
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

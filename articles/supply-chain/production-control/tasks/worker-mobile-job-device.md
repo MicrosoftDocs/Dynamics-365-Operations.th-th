@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกผู้ปฏิบัติง
 description: "กระบวนงานนี้แสดงวิธีการกำหนดบทบาทที่ถูกต้องให้กับบัญชีผู้ปฏิบัติงานและเปิดการใช้งานของผู้ปฏิบัติงานในการลงทะเบียนการผลิต"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

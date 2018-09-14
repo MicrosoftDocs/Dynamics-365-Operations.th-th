@@ -3,7 +3,7 @@ title: "สร้างลำดับของจดหมายเรียก
 description: "ใช้คำแนะนำของงานนี้เพื่อสร้างลำดับจดหมายเรียกเก็บเงิน "
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

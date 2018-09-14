@@ -3,7 +3,7 @@ title: "อนุมัติผู้จัดจำหน่ายสำหร
 description: "เมื่อมีการสร้างใบสั่งซื้อ อาจจำเป็นต้องเลือกผู้จัดจำหน่ายที่ได้รับอนุมัติหรือที่ต้องการ โดยขึ้นอยู่กับวิธีตั้งค่านโยบายการจัดซื้อ "
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

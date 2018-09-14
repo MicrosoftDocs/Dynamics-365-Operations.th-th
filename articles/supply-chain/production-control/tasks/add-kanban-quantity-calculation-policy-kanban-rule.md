@@ -3,7 +3,7 @@ title: "เพิ่มนโยบายการคำนวณปริมา
 description: "ขั้นตอนนี้มุ่งเน้นการสร้างนโยบายการคำนวณปริมาณตามระบบคัมบังและการเพิ่มเติมให้กฎคัมบังเพื่อปรับประสิทธิภาพของขนาดและปริมาณระบบคัมบัง "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "กำหนดนโยบายการตรวจสอบสำห
 description: "กระบวนงานนี้แสดงวิธีตั้งค่าและดำเนินการกฎนโยบายการตรวจสอบ "
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกสมุดที่อยู่
 description: "ใช้กระบวนงานนี้และการตัดสินใจที่คุณได้ทำไว้ในการวางแผนและการตั้งค่าคอนฟิกของสมุดที่อยู่สากลและหัวข้อสมุดที่อยู่เพิ่มเติม เพื่อตั้งค่าสมุดที่อยู่เพิ่มเติมสำหรับองค์กรของคุณ "
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

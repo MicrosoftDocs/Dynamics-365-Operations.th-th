@@ -3,7 +3,7 @@ title: "ตั้งค่ากฎค่าส่งเสริมการข
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าและการเปิดใช้งานการคำนวณค่าคอมมิชชันการขายและการติดตาม "
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

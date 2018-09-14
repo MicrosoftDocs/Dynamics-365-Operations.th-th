@@ -3,7 +3,7 @@ title: "สร้างกฏคัมบังโดยใช้อีเว้
 description: "กระบวนงานนี้สร้างกฎคัมบังโดยใช้การตั้งค่าเหตุการณ์รายการคัมบังเพื่อทริกเกอร์การดึงจากกิจกรรมกระบวนการ "
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

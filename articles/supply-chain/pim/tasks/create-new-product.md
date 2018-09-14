@@ -3,7 +3,7 @@ title: "สร้างผลิตภัณฑ์ใหม่"
 description: "งานนี้แสดงวิธีการสร้างผลิตภัณฑ์ที่ใช้ร่วมกันใหม่ "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
