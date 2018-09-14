@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 5a950a100fd5e9026300ea08eb1a6311a8e63129
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 
@@ -44,11 +44,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="adding-a-new-credit-card"></a><span data-ttu-id="02fac-117">การเพิ่มบัตรเครดิตใหม่</span><span class="sxs-lookup"><span data-stu-id="02fac-117">Adding a new credit card</span></span>
 <span data-ttu-id="02fac-118">คุณสามารถสร้างข้อมูลบัตรเครดิตใหม่ในหน้า ลูกค้า โดยเลือก ลูกค้า ตั้งค่า บัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="02fac-118">You can create new credit card records on the Customers page by using Customer, Set up, Credit card.</span></span> <span data-ttu-id="02fac-119">คุณยังสามารถสร้างบันทึกของข้อมูลบัตรเครดิตเมื่อคุณป้อนใบสั่งขายบนหน้าใบสั่งขาย โดยใช้การจัดการ ลูกค้า บัตรเครดิต ลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="02fac-119">You can also create credit card records when you enter sales orders on the Sales order page, by using Manage, Customer, Credit card, Register.</span></span>
-<span data-ttu-id="02fac-120">การเพิ่มบัตรเครดิตไปยังใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="02fac-120">Adding a credit card to a sales order</span></span>
+
+<a name="adding-a-credit-card-to-a-sales-order"></a><span data-ttu-id="02fac-120">การเพิ่มบัตรเครดิตไปยังใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="02fac-120">Adding a credit card to a sales order</span></span>
 -------------------------------------
 
 <span data-ttu-id="02fac-121">คุณสามารถเพิ่มบัตรเครดิตในใบสั่งขายได้ โดยการเลือกบัตรเครดิตในการค้นหาบัตรเครดิตในแท็บด่วนราคาและส่วนลด บนหน้าใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="02fac-121">You can add a credit card to a sales order by selecting a credit card in the credit card lookup on the Price and discounts FastTab on the Sales order page.</span></span> <span data-ttu-id="02fac-122">การตรวจสอบบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="02fac-122">To start the authorization process, on the Action Pane, on the Manage tab, select Credit card and Authorize.</span></span>
-<span data-ttu-id="02fac-123">การตรวจสอบบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="02fac-123">Authorizing a credit card</span></span>
+
+<a name="authorizing-a-credit-card"></a><span data-ttu-id="02fac-123">การตรวจสอบบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="02fac-123">Authorizing a credit card</span></span>
 -------------------------
 
 <span data-ttu-id="02fac-124">เมื่อบัตรเครดิตได้รับอนุมัติการตรวจสอบ หมายเลขบัตรและชื่อของผู้ถือบัตรจะได้รับการตรวจสอบความถูกต้อง และยอดวงเงินที่ใช้ได้ในเครดิตก็จะได้รับการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="02fac-124">When a credit card is authorized, the card number and cardholder's name are verified, and the available credit balance is confirmed.</span></span> <span data-ttu-id="02fac-125">อีกทางหนึ่งคือ มูลค่าในการตรวจสอบบัตรและที่อยู่ของผู้ถือบัตรจะได้รับการตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="02fac-125">Optionally, the card verification value and the cardholder’s address are verified.</span></span> <span data-ttu-id="02fac-126">ยอดวงเงินที่ใช้ได้ในเครดิตของลูกค้าจะลดลงตามยอดเงินในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="02fac-126">The customer's available credit balance is then reduced by the amount of the invoice.</span></span> <span data-ttu-id="02fac-127">บริการชำระเงินจะทำการส่งข้อมูลว่า บัตรเครดิตนั้นได้รับการอนุมัติ หรือถูกปฏิเสธ</span><span class="sxs-lookup"><span data-stu-id="02fac-127">The payment service sends information that the credit card has been approved or declined.</span></span> <span data-ttu-id="02fac-128">เมื่อออกอินวอยซ์ใบสั่งขาย บัตรเครดิตจะถูกคิดค่าธรรมเนียม (รวบรวม) ตามยอดเงินในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="02fac-128">When the sales order is invoiced, the credit card is charged (captured) for the invoice amount.</span></span>
