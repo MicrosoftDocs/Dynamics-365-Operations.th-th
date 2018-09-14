@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: แค็ตตาล็อกของศูนย์บริการ
       href: call-center-catalogs.md
-    - name: สร้างแค็ตตาล็อกของศูนย์บริการ
-      href: create-call-center-catalogs.md
     - name: กำหนดค่าวิธีและค่าธรรมเนียมการจัดส่ง
       href: configure-call-center-delivery.md
     - name: ตั้งค่าและทำงานกับข้อความแจ้งเตือนการฉ้อโกง
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
       href: pos-operations.md
+    - name: การเปิดใช้งานอุปกรณ์ของ Retail Modern POS ที่กำหนดเอง
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ Cloud POS
       href: demo-data.md
     - name: การค้นหาผลิตภัณฑ์และลูกค้าใน POS

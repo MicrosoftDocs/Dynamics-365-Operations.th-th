@@ -6,7 +6,9 @@
       items:
         - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
           items:
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (กรกฏาคม 2018)
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (สิงหาคม 2018)
+              href: whats-new-talent-august2018.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)
               href: whats-new-talent-july2018.md
         - name: ความต้องการของระบบและนโยบายการอัพเดต
           href: talent-versions-update-policy.md
@@ -14,10 +16,10 @@
           href: provisioning-talent.md
         - name: เอาสภาพแวดล้อม Talent ออก
           href: remove-talent-environment.md
-        - name: การเตรียมใช้งานแอพหน่วยย่อย Talent
+        - name: การเตรียมใช้งานแอปหน่วยย่อย Talent
           href: modular-app-tech-faq.md
-        - name: ขยายฟังก์ชันของ Talent
-          href: extend-talent-functionality.md
+        - name: ฝังแอป PowerApps
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: เข้าถึงคุณลักษณะตัวอย่าง
           href: access-preview-feature.md
         - name: ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce

@@ -3,7 +3,7 @@ title: "คัดลอกสินค้าร่วมจากเวอร์
 description: "กระบวนงานนี้แสดงวิธีการคัดลอกผลิตภัณฑ์ร่วมจากเวอร์ชันสูตรที่มีอยู่ ไปที่เวอร์ชันสูตรที่แตกต่างกันสำหรับผลิตภัณฑ์ที่นำออกใช้ "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 91212851a011536f17acef57e842587be1934e3e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 179c12da0c2ddc7b5e2f2fdddd21168eac121811
 ms.contentlocale: th-th
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="bb9cd-103">คัดลอกสินค้าร่วมจากเวอร์ชั่นสูตรที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="bb9cd-103">Copy co-products from an existing formula version</span></span>

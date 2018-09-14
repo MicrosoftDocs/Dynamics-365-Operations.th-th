@@ -3,7 +3,7 @@ title: " กำหนดผลิตภัณฑ์จากศูนย์ก�
 description: "ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการจัดส่งสินค้าแบบผลักเพื่อกระจายผลิตภัณฑ์จากสถานที่เดียวไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น "
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3337241f8b0e3b30a3382a402257844e7438477a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 20c2734a8339279e3f13ca9f0a0d5398c87f846f
 ms.contentlocale: th-th
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="1957c-103"> กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก</span><span class="sxs-lookup"><span data-stu-id="1957c-103">Push products from distribution center to store using buyer's push</span></span>

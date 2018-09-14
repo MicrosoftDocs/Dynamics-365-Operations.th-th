@@ -120,7 +120,7 @@
               href: get-started/personalize-user-experience.md
             - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
               href: get-started/user-defined-fields.md
-            - name: ฝังแอพ PowerApps
+            - name: ฝังแอป PowerApps
               href: get-started/embed-power-apps.md
             - name: ค้นหาข้อมูลโดยใช้การค้นหา
               href: get-started/use-lookups-to-find-information.md
@@ -157,6 +157,8 @@
           href: get-started/fasttrack-dynamics-365-overview.md
         - name: เตรียมความพร้อมโครงการสำหรับการใช้งาน
           href: imp-lifecycle/onboard.md
+        - name: การวางแผนสภาพแวดล้อม
+          href: imp-lifecycle/environment-planning.md
         - name: จัดเตรียมสำหรับการเริ่มใช้งานจริง
           href: imp-lifecycle/prepare-go-live.md
         - name: FAQ เกี่ยวกับการเริ่มใช้งานจริง
@@ -460,6 +462,8 @@
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
             - name: บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
+            - name: ลำดับงานของผู้จัดจำหน่าย
+              href: ../financials/accounts-payable/vendor-workflow.md
             - name: แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้
               href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
@@ -475,12 +479,18 @@
               href: ../financials/accounts-payable/vendor-portal-invoicing-workspace.md
             - name: ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: ../financials/accounts-payable/vendor-invoice-automation.md
+            - name: การจัดการสัญญาของนายหน้า
+              href: ../financials/accounts-payable/broker-contract.md
+            - name: การจัดการสัญญาของสมาชิก
+              href: ../financials/accounts-payable/royalty-contract.md
             - name: การชำระเงินและการตัดจ่าย
               items:
                 - name: การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: ตั้งค่าคอนฟิกการชำระเงิน
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: ภาพรวมการชำระเงินของผู้จัดจำหน่าย
+                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
                 - name: ระบุอัตราไขว้
@@ -513,6 +523,8 @@
                   href: ../financials/accounts-payable/take-discount-more-calculated-discount-vendor-payment.md
                 - name: การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน
                   href: ../financials/accounts-payable/vendor-payments-partial-amount.md
+                - name: หน้ารายการธุรกรรมผู้จัดจำหน่าย
+                  href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: บัญชีลูกหนี้
           href: ../financials/accounts-receivable/accounts-receivable.md
           items:
@@ -522,6 +534,8 @@
               href: ../financials/accounts-receivable/accounts-receivables-set-up-overview.md
             - name: การตั้งค่าสินเชื่อและการเรียกเก็บเงิน
               href: ../financials/accounts-receivable/set-up-collections.md
+            - name: ตรวจทานข้อมูลการเรียกเก็บเงิน
+              href: ../financials/accounts-receivable/tasks/review-collections-information.md
             - name: ตั้งค่า และประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ
@@ -540,52 +554,54 @@
               href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: แก้ไขใบแจ้งหนี้ข้อความอิสระ
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
-            - name: การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย
+            - name: กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้า
+              href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระที่เกิดซ้ำ
+              href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
+            - name: สร้างใบแจ้งหนี้สำหรับใบสั่งขาย
+              href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
+            - name: ตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
             - name: ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: ประมวลผลดอกเบี้ย
+              href: ../financials/accounts-receivable/tasks/process-interest.md
+            - name: ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: สร้างใบแจ้งหนี้ของลูกค้า
               href: ../financials/accounts-receivable/configure-customer-invoices.md
+            - name: นำฝากการชำระเงินของลูกค้า
+              href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
             - name: จัดทำเงื่อนไขการชำระเงินของลูกค้า
               href: ../financials/general-ledger/tasks/establish-customer-payment-terms.md
+            - name: จัดทำวิธีการชำระเงินของลูกค้า
+              href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า
+              href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: ตั้งค่าตั๋วแลกเงิน
               href: ../financials/accounts-receivable/set-up-bills-exchange.md
-            - name: การปิดบัญชีลูกหนี้
+            - name: ปิดบัญชีลูกหนี้
               href: ../financials/accounts-receivable/close-accounts-receivable.md
-            - name: งานบัญชีลูกหนี้
-              items:
-                - name: กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้า
-                  href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
-                - name: สร้างลำดับของจดหมายเรียกเก็บเงิน
-                  href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: สร้างรหัสดอกเบี้ยด้วยช่วงดอกเบี้ย
-                  href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
-                - name: สร้างใบแจ้งหนี้สำหรับใบสั่งขาย
-                  href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
-                - name: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
-                  href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
-                - name: นำฝากการชำระเงินของลูกค้า
-                  href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
-                - name: จัดทำวิธีการชำระเงินของลูกค้า
-                  href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
-                - name: จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า
-                  href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
-                - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระที่เกิดซ้ำ
-                  href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
-                - name: ดำเนินการจดหมายเรียกเก็บเงิน
-                  href: ../financials/accounts-receivable/tasks/process-collection-letters.md
-                - name: ประมวลผลดอกเบี้ย
-                  href: ../financials/accounts-receivable/tasks/process-interest.md
-                - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
-                  href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
-                - name: การตรวจทานข้อมูลการเรียกเก็บเงิน
-                  href: ../financials/accounts-receivable/tasks/review-collections-information.md
-                - name: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
-                  href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-                - name: ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย
-                  href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: สร้างลำดับของจดหมายเรียกเก็บเงิน
+              href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: ดำเนินการจดหมายเรียกเก็บเงิน
+              href: ../financials/accounts-receivable/tasks/process-collection-letters.md
+            - name: สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า
+              href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+            - name: สร้างรหัสดอกเบี้ยด้วยช่วงดอกเบี้ย
+              href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
+            - name: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
+              href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
+              href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: ลำดับงานของลูกค้า
+              href: ../financials/accounts-receivable/customer-workflow.md
             - name: การชำระเงินและการตัดจ่าย
               items:
+                - name: ภาพรวมการชำระเงินของลูกค้า
+                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
                 - name: ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ
                   href: ../financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้
@@ -602,6 +618,8 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+                - name: หน้ารายการธุรกรรมลูกค้า
+                  href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: การจัดงบประมาณ
           href: ../financials/budgeting/budgeting-overview.md
           items:
@@ -638,18 +656,44 @@
               href: ../financials/cash-bank-management/cash-discounts.md
             - name: ส่วนลดเงินสดสำหรับการชำระมากเกิน
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
+            - name: จัดการการตรวจสอบความถูกต้องของบัญชี IBAN
+              href: ../financials/cash-bank-management/iban-validation.md
             - name: ภาพรวมของการชำระเงิน
               href: ../financials/cash-bank-management/settlement-overview.md
             - name: ภาพรวมของการชำระเงินสำหรับการชำระเงินแบบรวมเข้าสู่ศูนย์กลาง
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: เลตเตอร์ออฟเครดิต
               href: ../financials/cash-bank-management/letters-of-credit.md
+            - name: สร้างข้อตกลงสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
+            - name: ตั้งค่าสินเชื่อธนาคารและการลงรายการบัญชีโพรไฟล์สำหรับเลตเตอร์ออฟเครดิต
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า
               href: ../financials/cash-bank-management/letters-of-credit-import-collections.md
+            - name: เลตเตอร์ออฟเครดิตสำหรับการส่งออก
+              href: ../financials/cash-bank-management/tasks/export-letter-credit.md
+            - name: เลตเตอร์ออฟเครดิตสำหรับการนำเข้า
+              href: ../financials/cash-bank-management/tasks/import-letter-credit.md
             - name: หนังสือค้ำประกัน
               href: ../financials/cash-bank-management/letters-of-guarantee.md
+            - name: ธุรกรรมของหนังสือค้ำประกัน
+              href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
+            - name: สร้างข้อตกลงสินเชื่อธนาคารสำหรับหนังสือค้ำประกัน
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
+            - name: ตั้งค่าสินเชื่อธนาคารและการลงรายการบัญชีโพรไฟล์สำหรับหนังสือค้ำประกัน
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
             - name: เช็คลงวันที่ล่วงหน้า
               href: ../financials/cash-bank-management/postdated-checks.md
+            - name: ตั้งค่าเช็คลงวันที่ล่วงหน้า
+              href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
+            - name: ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับลูกค้า
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
+            - name: ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
+            - name: ชำระเช็คลงวันที่ล่วงหน้าจากลูกค้า
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
+            - name: ชำระเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
             - name: ใบแจ้งหนี้การชำระเงินล่วงหน้าเปรียบเทียบกับการชำระเงินล่วงหน้า
               href: ../financials/accounts-payable/prepayments-invoices-vs-prepayments.md
             - name: การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน
@@ -658,36 +702,6 @@
               href: ../financials/cash-bank-management/set-up-centralized-payments.md
             - name: การชำระเงินอัตโนมัติและจัดระดับความสำคัญ
               href: ../financials/accounts-receivable/automatic-settlement-prioritization.md
-            - name: งานการจัดการเงินสดและธนาคาร
-              items:
-                - name: สร้างข้อตกลงสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
-                - name: สร้างข้อตกลงสินเชื่อธนาคารสำหรับหนังสือค้ำประกัน
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
-                - name: ภาพรวมการชำระเงินของลูกค้า
-                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
-                - name: เลตเตอร์ออฟเครดิตสำหรับการส่งออก
-                  href: ../financials/cash-bank-management/tasks/export-letter-credit.md
-                - name: เลตเตอร์ออฟเครดิตสำหรับการนำเข้า
-                  href: ../financials/cash-bank-management/tasks/import-letter-credit.md
-                - name: ธุรกรรมของหนังสือค้ำประกัน
-                  href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
-                - name: ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับลูกค้า
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
-                - name: ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
-                - name: ชำระเช็คลงวันที่ล่วงหน้าจากลูกค้า
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
-                - name: ชำระเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
-                - name: ตั้งค่าสินเชื่อธนาคารและการลงรายการบัญชีโพรไฟล์สำหรับหนังสือค้ำประกัน
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
-                - name: ตั้งค่าสินเชื่อธนาคารและการลงรายการบัญชีโพรไฟล์สำหรับเลตเตอร์ออฟเครดิต
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
-                - name: ตั้งค่าเช็คลงวันที่ล่วงหน้า
-                  href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
-                - name: ภาพรวมการชำระเงินของผู้จัดจำหน่าย
-                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
             - name: การกระทบยอดบัญชีธนาคารขั้นสูง
               items:
                 - name: งานการตั้งค่าการกระทบยอดบัญชีธนาคารขั้นสูง
@@ -817,6 +831,14 @@
         - name: สินทรัพย์ถาวร
           href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: สร้างสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/create-fixed-asset.md
+            - name: ป้อนสินทรัพย์ถาวรที่ได้มาเพิ่มลงในสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
+            - name: นำเสนอการซื้อสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
+            - name: จัดประเภทสินทรัพย์ถาวรใหม่
+              href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
             - name: พื้นที่ทำงานสินทรัพย์ถาวร
               href: ../financials/fixed-assets/fixed-asset-management-workspace.md
             - name: รายงานการกระทบยอดสินทรัพย์ถาวร
@@ -833,10 +855,20 @@
               href: ../financials/fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: ตัวเลือกธุรกรรมสินทรัพย์ถาวร
               href: ../financials/fixed-assets/enter-fixed-asset-transactions.md
+            - name: โอนย้ายสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
+            - name: แบ่งสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/split-fixed-asset.md
+            - name: ตั้งค่ากลุ่มสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
+            - name: เปลี่ยนกลุ่มสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
             - name: คำนวณใหม่ของต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับกลุ่มสินทรัพย์ถาวร
               href: ../financials/fixed-assets/recalculate-replacement-costs-insured-values-fixed-asset-groups.md
             - name: บัญชีการลงรายการการตัดจำหน่ายสินทรัพย์ถาวร
               href: ../financials/fixed-assets/fixed-asset-disposal-posting-accounts.md
+            - name: ตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ
+              href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
             - name: การอัพเดตสินทรัพย์ถาวรโดยรวม
               href: ../financials/fixed-assets/fixed-asset-mass-update.md
             - name: จัดซื้อสินทรัพย์โดยการจัดซื้อ
@@ -845,8 +877,18 @@
               items:
                 - name: ตั้งค่าสินทรัพย์ถาวร
                   href: ../financials/fixed-assets/set-up-fixed-assets.md
+                - name: ตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
+                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: การรวมสินทรัพย์ถาวร
                   href: ../financials/fixed-assets/fixed-asset-integration.md
+                - name: สร้างและรับสินทรัพย์จากบัญชีเจ้าหนี้
+                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
+                - name: 'ตั้งค่าสมุดบัญชีค่าเสื่อมราคา '
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
+                - name: ตั้งค่าและสร้างโพรไฟล์ค่าเสื่อมราคา
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
+                - name: ตั้งค่ารูปแบบมูลค่า
+                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
             - name: วิธีการคิดค่าเสื่อมราคา
               items:
                 - name: แบบแผนการคิดค่าเสื่อมราคา
@@ -861,18 +903,26 @@
                   href: ../financials/fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: ค่าเสื่อมราคาพิเศษ
                   href: ../financials/fixed-assets/bonus-depreciation.md
+                - name: ตั้งค่าการคิดค่าเสื่อมราคาพิเศษ
+                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: การคิดค่าเสื่อมราคาตามปริมาณการใช้
                   href: ../financials/fixed-assets/consumption-depreciation.md
                 - name: ผลกระทบของค่าเสื่อมราคากับการกลับรายการ
                   href: ../financials/fixed-assets/depreciation-effects-reversals.md
                 - name: วิธีการคิดค่าเสื่อมราคาและแบบแผนการคิดค่าเสื่อมราคา
                   href: ../financials/fixed-assets/depreciation-methods-conventions.md
+                - name: สร้างข้อเสนอค่าเสื่อมราคา
+                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
                 - name: การคิดค่าเสื่อมราคาตามอัตรา
                   href: ../financials/fixed-assets/factor-depreciation.md
                 - name: บัญชีการลงรายการการซื้อสินทรัพย์ถาวร
                   href: ../financials/fixed-assets/fixed-asset-acquisition-posting-accounts.md
                 - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
                   href: ../financials/fixed-assets/fixed-asset-depreciation.md
+                - name: คำนวณค่าเสื่อมราคาสินทรัพย์ถาวรในนิติบุคคล
+                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
+                - name: การเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรหลายรายการ
+                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
                 - name: การคิดค่าเสื่อมราคาด้วยตนเอง
                   href: ../financials/fixed-assets/manual-depreciation.md
                 - name: การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง
@@ -883,44 +933,6 @@
                   href: ../financials/fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
-            - name: งานสินทรัพย์ถาวร
-              items:
-                - name: คำนวณค่าเสื่อมราคาสินทรัพย์ถาวรในนิติบุคคล
-                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
-                - name: การเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรหลายรายการ
-                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
-                - name: เปลี่ยนกลุ่มสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
-                - name: สร้างและรับสินทรัพย์จากบัญชีเจ้าหนี้
-                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
-                - name: สร้างข้อเสนอค่าเสื่อมราคา
-                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
-                - name: สร้างสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/create-fixed-asset.md
-                - name: ตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ
-                  href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
-                - name: การป้อนสินทรัพย์ถาวรที่ได้มาเพิ่มลงในสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
-                - name: นำเสนอการซื้อสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
-                - name: จัดประเภทสินทรัพย์ถาวรใหม่
-                  href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
-                - name: ตั้งค่าการคิดค่าเสื่อมราคาพิเศษ
-                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'ตั้งค่าสมุดบัญชีค่าเสื่อมราคา '
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
-                - name: ตั้งค่าและสร้างโพรไฟล์ค่าเสื่อมราคา
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
-                - name: ตั้งค่ากลุ่มสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
-                - name: ตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
-                - name: ตั้งค่ารูปแบบมูลค่า
-                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
-                - name: แบ่งสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/split-fixed-asset.md
-                - name: โอนย้ายสินทรัพย์ถาวร
-                  href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
         - name: บัญชีแยกประเภททั่วไป
           href: ../financials/general-ledger/general-ledger.md
           items:
@@ -946,8 +958,15 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: สร้างโครงสร้างทางบัญชี
                   href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: การสร้างแบบแผนการรับรู้
+                - name: สร้างแบบแผนการรับรู้
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: การรวมบัญชีทางการเงินและการแปลงสกุลเงิน
+                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                  items:
+                    - name: รวมบัญชีออนไลน์
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: สร้างงบการเงินที่รวมบัญชี
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
                 - name: สร้างกลุ่มการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
                   href: ../financials/general-ledger/tasks/create-consolidation-groups.md
                 - name: ประเภทชนิดบัญชีหลัก
@@ -1073,22 +1092,40 @@
           items:
             - name: แผนสำหรับฟังก์ชันการทำงานของภาครัฐ
               href: ../financials/public-sector/plan-public-sector-functionality.md
+            - name: สร้างหน้าใบปะหน้าและลายเซ็นสำหรับรายงานการชำระเงินสำหรับภาครัฐ
+              href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: บัญชีเจ้าหนี้ในภาครัฐ
               href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
                 - name: รหัสใบสั่งซื้อในภาครัฐ
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
+                - name: สร้างและกำหนดรหัสคู่ค้าสำหรับภาครัฐ
+                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: ข้อกำหนดการลงรายการบัญชีในภาครัฐ
                   href: ../financials/public-sector/posting-definitions-public-sector.md
-                - name: วางแผนสำหรับผู้จัดจำหน่ายขาจรในภาครัฐ
-                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
                 - name: ผู้จัดจำหน่ายขาจรในภาครัฐ
                   href: ../financials/public-sector/one-time-vendors-public-sector.md
+                - name: สร้างผู้จัดจำหน่ายขาจรและใบแจ้งหนี้ในภาครัฐ
+                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
+                - name: สร้างชนิดใบรับรองผู้จัดจำหน่ายในภาครัฐ
+                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
+                - name: นำเข้าและสร้างผู้จัดจำหน่ายขาจรหลายรายในใบแจ้งหนี้ภาครัฐ
+                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: วางแผนสำหรับผู้จัดจำหน่ายขาจรในภาครัฐ
+                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
+                - name: ควบคุมการเข้าถึงข้อตกลงการซื้อขายในภาครัฐ
+                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
+                - name: ตั้งค่าการจัดประเภทข้อตกลงการซื้อในภาครัฐ
+                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: บัญชีลูกหนี้ในภาครัฐ
               href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
                 - name: การจัดประเภทการเรียกเก็บเงินและรหัสการเรียกเก็บเงินในภาครัฐ
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
+                - name: สร้างการจัดประเภทการเรียกเก็บเงินในภาครัฐ
+                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
+                - name: สร้างรหัสการเรียกเก็บเงินสำหรับภาครัฐ
+                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
                 - name: ระดับความสำคัญของการชำระเงินในภาครัฐ
                   href: ../financials/public-sector/settlement-priority-public-sector.md
                 - name: ใบแจ้งหนี้ข้อความอิสระในภาครัฐ
@@ -1098,10 +1135,16 @@
             - name: การจัดงบประมาณในภาครัฐ
               href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: สร้างงบประมาณตั้งต้น และกลับการเข้ารายการงบประมาณเบื้องต้นในภาครัฐ
+                  href: ../financials/public-sector/tasks/create-original-budget.md
+                - name: สร้างงบประมาณเบื้องต้นสำหรับภาครัฐ
+                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
                 - name: การวิเคราะห์งบประมาณในภาครัฐ
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: งบประมาณเบื้องต้นและการแบ่งตามส่วนในภาครัฐ
                   href: ../financials/public-sector/preliminary-budgets-apportionments-public-sector.md
+                - name: สร้างข้อผูกมัดในการจองเงินงบประมาณสำหรับภาครัฐ
+                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
             - name: สินทรัพย์ถาวรในภาครัฐ
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: บัญชีแยกประเภททั่วไปในภาครัฐ
@@ -1109,52 +1152,26 @@
               items:
                 - name: รายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
+                - name: สร้างรายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
+                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: การประมวลผลสิ้นปีในภาครัฐ
                   href: ../financials/public-sector/year-end-processing-public-sector.md
                 - name: ลำดับชั้นทางการเงินที่ได้รับในภาครัฐ
                   href: ../financials/public-sector/derived-financial-hierarchies-public-sector.md
+                - name: ตั้งค่าลำดับชั้นทางการเงินที่ได้รับในภาครัฐ
+                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
             - name: การจัดซื้อและการจัดหาในภาครัฐ
               href: ../financials/public-sector/procurement-sourcing-public-sector.md
             - name: บทบาทความปลอดภัยในภาครัฐ
               href: ../financials/public-sector/security-roles-public-sector.md
             - name: เงินทุนในภาครัฐ
               href: ../financials/public-sector/funds-public-sector.md
-            - name: งานภาครัฐ
-              items:
-                - name: เพิ่มชนิดใบรับรองไปยังผู้จัดจำหน่ายในภาครัฐ
-                  href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
-                - name: ควบคุมการเข้าถึงข้อตกลงการซื้อขายในภาครัฐ
-                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
-                - name: สร้างรายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
-                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: สร้างและกำหนดรหัสคู่ค้าสำหรับภาครัฐ
-                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
-                - name: สร้างการจัดประเภทการเรียกเก็บเงินในภาครัฐ
-                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
-                - name: สร้างรหัสการเรียกเก็บเงินสำหรับภาครัฐ
-                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
-                - name: สร้างข้อผูกมัดในการจองเงินงบประมาณสำหรับภาครัฐ
-                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
-                - name: สร้างหน้าใบปะหน้าและลายเซ็นสำหรับรายงานการชำระเงินสำหรับภาครัฐ
-                  href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
-                - name: สร้างชนิดกองทุนในภาครัฐ
-                  href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
-                - name: สร้างผู้จัดจำหน่ายขาจรและใบแจ้งหนี้ในภาครัฐ
-                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
-                - name: สร้างงบประมาณตั้งต้น และกลับการเข้ารายการงบประมาณเบื้องต้นในภาครัฐ
-                  href: ../financials/public-sector/tasks/create-original-budget.md
-                - name: สร้างงบประมาณเบื้องต้นสำหรับภาครัฐ
-                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
-                - name: สร้างชนิดใบรับรองผู้จัดจำหน่ายในภาครัฐ
-                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: นำเข้าและสร้างผู้จัดจำหน่ายขาจรหลายรายในใบแจ้งหนี้ภาครัฐ
-                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
-                - name: ตั้งค่าลำดับชั้นทางการเงินที่ได้รับในภาครัฐ
-                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
-                - name: ตั้งค่าเงินทุนในภาครัฐ
-                  href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
-                - name: ตั้งค่าการจัดประเภทข้อตกลงการซื้อในภาครัฐ
-                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
+            - name: ตั้งค่าเงินทุนในภาครัฐ
+              href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
+            - name: สร้างชนิดกองทุนในภาครัฐ
+              href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
+            - name: เพิ่มชนิดใบรับรองไปยังผู้จัดจำหน่ายในภาครัฐ
+              href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: การรายงานทางการเงิน
           href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
@@ -1193,311 +1210,315 @@
     - name: คุณลักษณะการทำงานเฉพาะและบังคับ
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
-        - name: เอเชียแปซิฟิก
+        - name: ออสเตรเลีย
+          href: ../financials/localizations/australia.md
           items:
-            - name: ออสเตรเลีย
-              href: ../financials/localizations/australia.md
+            - name: แบบรายงานกิจกรรมทางธุรกิจ (BAS)
+              href: ../financials/localizations/apac-aus-business-activity-statement.md
+            - name: เพิ่มกล่องรายงานและสร้าง BAS
+              href: ../financials/localizations/tasks/add-bas-report-boxes.md
+            - name: ค่าเสื่อมราคากลุ่มสินทรัพย์มูลค่าต่ำ
+              href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
+            - name: ตั้งค่ารหัสเหตุผลสำหรับ BAS
+              href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
+        - name: ออสเตรีย
+          href: ../financials/localizations/austria.md
+          items:
+            - name: ค่าเสื่อมราคาครึ่งปีสำหรับการซื้อสินทรัพย์เพิ่มเติม
+              href: ../financials/localizations/emea-aut-half-year-depreciation.md
+            - name: ค่าธรรมเนียมบรรจุภัณฑ์
+              href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
+            - name: งบ VAT
+              href: ../financials/localizations/emea-aut-vat-statement-details.md
+        - name: เบลเยียม
+          href: ../financials/localizations/belgium.md
+          items:
+            - name: ใบแจ้งยอดจากธนาคาร CODA
+              href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
+            - name: การสร้างและโอนย้ายธุรกรรมไปยัง BLWI
+              href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
+            - name: การรายงานภาษี INTERVAT
+              href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
+            - name: รายงานการกระทบยอด
+              href: ../financials/localizations/emea-bel-reconciliation-reports.md
+            - name: ตั้งค่าการรายงานยอดดุลการชำระเงิน
+              href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
+            - name: ตั้งค่าและรักษา PRODCOM
+              href: ../financials/localizations/emea-bel-prodcom-report.md
+        - name: บราซิล
+          href: ../financials/localizations/brazil.md
+          items:
+            - name: ขอบเขตของการแปลเป็นภาษาท้องถิ่น
+              href: ../financials/localizations/latam-bra-scope.md
+            - name: สมุดการเงิน
+              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
-                - name: แบบรายงานกิจกรรมทางธุรกิจ (BAS)
-                  href: ../financials/localizations/apac-aus-business-activity-statement.md
-                - name: เพิ่มกล่องรายงานและสร้าง BAS
-                  href: ../financials/localizations/tasks/add-bas-report-boxes.md
-                - name: ค่าเสื่อมราคากลุ่มสินทรัพย์มูลค่าต่ำ
-                  href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
-                - name: ตั้งค่ารหัสเหตุผลสำหรับ BAS
-                  href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
-            - name: จีน
-              href: ../financials/localizations/china.md
+                - name: ตั้งค่าคอนฟิกสมุดการเงิน
+                  href: ../financials/localizations/latam-bra-configure-fiscal-books.md
+                - name: เอกสารทางการเงินภาษี ICMS
+                  href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
+                - name: นำเข้าเอกสารทางการเงิน
+                  href: ../financials/localizations/latam-bra-import-fiscal-documents.md
+                - name: ส่งออกและนำเข้าธุรกรรมของนิติบุคคลจากการรวมบัญชีแยกประเภททั่วไป
+                  href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
+                - name: นำเข้าและตรวจสอบเอกสาร NF-e XML และไฟล์ DANFE
+                  href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
+                - name: การใช้เอกสารทางการเงินอิเล็กทรอนิกส์บริการในรูปแบบไฟล์ข้อความ
+                  href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
+                - name: ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์
+                  href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
+                - name: การจัดการการชำระเงินทางอิเล็กทรอนิกส์สำหรับการชำระเงินของผู้จัดจำหน่าย
+                  href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
+                - name: เอกสารทางการเงิน
+                  href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
+                - name: ตัวยึดข้อความของเอกสารทางการเงิน
+                  href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
+                - name: ตั้งค่าข้อความต้นฉบับของเอกสารทางการเงิน
+                  href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
+                - name: จัดการข้อความเอกสารทางการเงินในเอกสารการจัดซื้อ
+                  href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
+                - name: ออกเอกสารทางการเงินสำหรับผู้จัดจำหน่าย
+                  href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
+                - name: ออกเอกสารทางการเงินสำหรับลูกค้า
+                  href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
+                - name: เอกสารทางการเงินเพิ่มเติมการซื้อ
+                  href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
+                - name: สร้างและลงรายการบัญชีเอกสารทางการเงินเพิ่มเติมการซื้อ
+                  href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
+                - name: ยกเลิกเอกสารทางการเงินเพิ่มเติมการซื้อ
+                  href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
+                - name: เอกสารทางการเงินที่อ้างอิง
+                  href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
+                - name: รับเอกสารทางการเงินของผู้จัดจำหน่าย (ผลิตภัณฑ์)
+                  href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
+                - name: รับเอกสารทางการเงินของผู้จัดจำหน่าย (สินทรัพย์ถาวร - PIS และ COFINS ที่ได้รับคืนระยะยาว)
+                  href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
+                - name: รับเอกสารทางการเงินของผู้จัดจำหน่าย (สินทรัพย์ถาวร - ICMS ที่ได้รับคืนระยะยาว)
+                  href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
+                - name: ออกเอกสารทางการเงินสำหรับลูกค้า (บริการ)
+                  href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
+                - name: ออกเอกสารทางการเงินสำหรับลูกค้า (สินทรัพย์ถาวร)
+                  href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
+                - name: ออกเอกสารทางการเงินสำหรับลูกค้า (โครงการ)
+                  href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
+                - name: ออกเอกสารทางการเงินสำหรับลูกค้า (สำหรับผู้ใช้)
+                  href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
+                - name: ออกเอกสารทางการเงินสำหรับลูกค้า (สำหรับลูกค้า SUFRAMA)
+                  href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
+                - name: ยกเลิกเอกสารทางการเงินสำหรับลูกค้า (โครงการ)
+                  href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
+                - name: เอกสารทางการเงินเพิ่มเติมการขาย
+                  href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
+                - name: สร้างและลงรายการบัญชีเอกสารทางการเงินเพิ่มเติมการขาย
+                  href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
+                - name: ยกเลิกเอกสารทางการเงินเพิ่มเติมการขาย
+                  href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
+                - name: เอกสารทางการเงินแบบอิเล็กทรอนิกส์บริการ
+                  href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
+                - name: สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์
+                  href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
+                - name: ใบเพิ่มหนี้ของโครงการ
+                  href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
+            - name: กระบวนการ NF-e
+              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
-                - name: การเปรียบเทียบสูตรการผลิต
-                  href: ../financials/localizations/apac-chn-bom-comparison.md
-                - name: ลำดับชั้นภาษาจีนสำหรับผังบัญชี
-                  href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
-                - name: การตรวจสอบความต่อเนื่องของใบสำคัญภาษาจีน
-                  href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
-                - name: ใบสำคัญภาษาจีน
-                  href: ../financials/localizations/apac-chn-vouchers.md
-                - name: ตั้งค่าคอนฟิกการรวมภาษี
-                  href: ../financials/localizations/apac-chn-tax-integration.md
-                - name: การตั้งค่าการส่งออกการรวมภาษีทองคำภาษาจีน
-                  href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
-                - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
-                  href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden
-                  href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
-                - name: แบบจำลองต้นทุนเฉลี่ยรายเดือน
-                  href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
-                - name: ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์
-                  href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
-                - name: ลงรายการบัญชีใบสำคัญจากโมดูลอื่นๆ
-                  href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
-                - name: ลงรายการบัญชีใบสำคัญจากสมุดรายวันทั่วไป
-                  href: ../financials/localizations/tasks/post-vouchers-general-journal.md
-                - name: ตั้งค่าโพรไฟล์การรวมภาษีพื้นฐานสำหรับจีน
-                  href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
-                - name: ตั้งค่าใบสำคัญภาษาจีน
-                  href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
-                - name: ตั้งค่าการปันส่วนค่าเสื่อมราคาของสินทรัพย์ถาวร
-                  href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
-                - name: แสดงยอดเดบิตและเครดิตในบัญชีแยกประเภท
-                  href: ../financials/localizations/apac-chn-negative-debits-credits.md
-                - name: ล็อกการดำเนินงานของผู้ใช้ โดยกฎการทำงานของจีน
-                  href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
-                - name: FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT
-                  href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
-            - name: อินเดีย
-              href: ../financials/localizations/india.md
+                - name: การส่งผ่านอัตโนมัติของเอกสารทางการเงิน NF-e
+                  href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
+                - name: สร้างอีเมลสำหรับ NF-e ที่อนุมัติแล้วและแนบไฟล์ DANFE PDF และไฟล์ NF-e XML ไปกับอีเมล
+                  href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
+                - name: ใบรับรอง NF-e
+                  href: ../financials/localizations/latam-bra-nfe-certs.md
+                - name: ตั้งค่า นำเข้า และตรวจสอบเอกสาร NF-e XML และ DANFE
+                  href: ../financials/localizations/latam-bra-set-up-import-nfe.md
+                - name: การตั้งค่าพารามิเตอร์ของภาครัฐ NF-e
+                  href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
+                - name: ตั้งค่าพารามิเตอร์ NF-e สำหรับการจัดทำในภาครัฐ
+                  href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+            - name: พารามิเตอร์สำหรับนิติบุคคล
+              href: ../financials/localizations/latam-bra-legal-entity-parameters.md
+            - name: ตั้งค่าพารามิเตอร์นิติบุคคล
+              href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
+            - name: ซื้อสินทรัพย์ถาวร CIAP
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: ตัดจำหน่ายสินทรัพย์ถาวร CIAP
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: ป้อนธุรกรรม CIAP
+              href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
+            - name: คำนวณยอดเครดิต CIAP
+              href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
+            - name: รวมเครดิต CIAP จากงวดก่อนหน้านี้
+              href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
+            - name: บันทึกการจัดส่ง
+              href: ../financials/localizations/tasks/br-00041-delivery-slip.md
+            - name: การดำเนินงานที่ไม่ใช่ทางการเงิน
+              href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
+            - name: ค่าธรรมเนียมเบ็ดเตล็ดในใบแจ้งหนี้ข้อความอิสระ
+              href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
+            - name: ตั้งค่าดอกเบี้ยและค่าปรับสำหรับการชำระเงินให้ผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
+            - name: คำนวณดอกเบี้ยและค่าปรับในการชำระเงินให้ผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
+            - name: ตั้งค่าดอกเบี้ยและค่าปรับสำหรับการชำระเงินให้ลูกค้า
+              href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
+            - name: คำนวณดอกเบี้ยและค่าปรับในการชำระเงินให้ลูกค้า
+              href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+            - name: ภาษี
+              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
-                - name: สินทรัพย์ถาวร
-                  href: ../financials/localizations/apac-ind-fixed-assets.md
-                  items:
-                    - name: แนบปฏิทินตามวันกับสมุดบัญชีสินทรัพย์ถาวร
-                      href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: คำนวณค่าเสื่อมราคาตามกะการทำงาน
-                      href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: สร้างกลุ่มแบบจำลองสินค้าคงคลังสำหรับสินค้าประเภททุน
-                      href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: สร้างและลงรายการบัญชีค่าเสื่อมราคา
-                      href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
-                    - name: กำหนดชนิดของกะและอุตสาหกรรมสำหรับสมุดบัญชี และแนบกับสินทรัพย์ถาวร
-                      href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: การกลับรายการธุรกรรมสินทรัพย์ถาวร
-                      href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: การคำนวณค่าเสื่อมราคาตามกะการทำงาน
-                      href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: ตั้งค่าปฏิทินทางการเงินตามวัน
-                      href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: ตั้งค่าพารามิเตอร์เพื่อคำนวณการคิดค่าเสื่อมราคา
-                      href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: ตั้งค่าค่าเสื่อมราคาของกลุ่มสินทรัพย์สำหรับสมุดบัญชีค่าเสื่อมราคา
-                      href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
-                      href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: GST อินเดีย
-                  href: ../financials/localizations/apac-ind-gst.md
-                  items:
-                    - name: กลุ่มการอ้างอิง GST อินเดีย
-                      href: ../financials/localizations/apac-ind-gst-reference-groups.md
-                    - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-                - name: ภาพรวมกลไกจัดการภาษี
-                  href: ../financials/general-ledger/tax-engine.md
-                  items:
-                    - name: การรวมกลไกจัดการภาษี
-                      href: ../financials/general-ledger/tax-engine-integration.md
-                    - name: การขยายกลไกจัดการภาษี
-                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
-                - name: FAQ เกี่ยวกับขีดจำกัดภาษี
-                  href: ../financials/localizations/apac-ind-tax-thresholds.md
-            - name: ญี่ปุ่น
-              href: ../financials/localizations/japan.md
-              items:
-                - name: ได้รับสินทรัพย์ถาวรและการอ้างสิทธิ์สำหรับเงินช่วยเหลือรัฐบาล
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
-                - name: ได้รับสินทรัพย์ถาวรที่มีข้อผูกมัดการตัดจำหน่ายสินทรัพย์
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
-                - name: ปรับการประเมินข้อผูกมัดของการตัดจำหน่ายสินทรัพย์
-                  href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
-                - name: ปันส่วนจำนวนที่ถือครองของสินทรัพย์ที่ใช้ร่วมกันและค่านิยมสำหรับหน่วยสินทรัพย์ที่ก่อให้เกิดเงินสด
-                  href: ../financials/localizations/tasks/allocate-carrying-amount.md
-                - name: กฎการปันส่วน
-                  href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
-                - name: ค่าธรรมเนียมการชำระเงินของธนาคารชำระโดยผู้จัดจำหน่าย
-                  href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
-                - name: เปลี่ยนวิธีการคิดค่าเสื่อมราคาในระหว่างอายุการใช้งานของสินทรัพย์สำหรับสมุดบัญชี
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
-                - name: เปลี่ยนวิธีการคิดค่าเสื่อมราคาในระหว่างอายุการใช้งานของสินทรัพย์สำหรับหนึ่งสินทรัพย์
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
-                - name: ตั้งค่าคอนฟิกพารามิเตอร์ค่าเสื่อมราคาที่เร็วขึ้นและการลงรายการบัญชีโพรไฟล์
-                  href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
-                - name: การตั้งค่าคอนฟิกพารามิเตอร์ใบแจ้งหนี้ที่รวมบัญชีและตั้งค่าสำหรับบัญชีเจ้าหนี้
-                  href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
-                - name: ตั้งค่าคอนฟิกโพรไฟล์การคิดค่าเสื่อมราคาและโพรไฟล์การลงบัญชีสำหรับค่าเสื่อมราคาเพิ่มเติม
-                  href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
-                - name: ตั้งค่าคอนฟิกบัญชีหลักสำหรับข้อผูกมัดการลงรายการบัญชีการตัดจำหน่ายสินทรัพย์และอัตราส่วนลดของตลาด
-                  href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
-                - name: ใบแจ้งหนี้ที่รวมบัญชี
-                  href: ../financials/localizations/apac-jpn-consolidate-invoices.md
-                - name: สร้างสินทรัพย์ถาวร ด้วยค่าเสื่อมราคาเพิ่มเติม
-                  href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
-                - name: สร้างสินทรัพย์ถาวรด้วยโพรไฟล์ค่าเสื่อมราคาพิเศษ
-                  href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
-                - name: สร้างเอกสารการคิดค่าเสื่อมราคาแบบอัตราเร่ง และป้อนข้อมูลการใช้
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
-                - name: สร้างโพรไฟล์การคิดค่าเสื่อมราคาที่เร็วขึ้น และกำหนดให้กับสมุดบัญชี
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
-                - name: สร้างและกำหนดเอกสารรายการการหักลดสำหรับการสำรองเงินช่วยเหลือของรัฐบาล
-                  href: ../financials/localizations/tasks/create-assign-reduction-document.md
-                - name: สร้างและกำหนดกลุ่มอุปกรณ์
-                  href: ../financials/localizations/tasks/create-assign-equipment-group.md
-                - name: สร้างและยืนยันใบแจ้งหนี้ที่รวมบัญชีของลูกค้า
-                  href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
-                - name: สร้างและยืนยันการทดสอบการรับรู้
-                  href: ../financials/localizations/tasks/create-confirm-recognition-test.md
-                - name: สร้างและยืนยันใบแจ้งหนี้ที่รวมบัญชีของผู้จัดจำหน่าย
-                  href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
-                - name: สร้างกลุ่ม CGU และหน่วยที่ก่อให้เกิดเงินสด
-                  href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
-                - name: สร้างสินทรัพย์ที่มีค่าเสื่อมราคารวมทั้งหมดโดยใช้วิธีแบ่งเท่าๆ กัน
-                  href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
-                - name: กำหนดรอบระยะเวลาที่ไม่ได้ใช้งานของสินทรัพย์ และตรวจสอบความถูกต้องของกระบวนการคิดค่าเสื่อมราคา
-                  href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
-                - name: คิดค่าเสื่อมราคาและการรับรู้ดอกเบี้ยค่าใช้จ่ายสำหรับข้อผูกมัดการตัดจำหน่ายสินทรัพย์
-                  href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
-                - name: คิดค่าเสื่อมราคาของสินทรัพย์ถาวรที่มีการลงรายการบัญชีที่มีการลด
-                  href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: FAQ ค่าเสื่อมราคา
-                  href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
-                - name: ตัดจำหน่ายสินทรัพย์ถาวรที่มีรายการการลด
-                  href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
-                - name: เปิดใช้งานรูปแบบไฟล์การชำระเงิน JBA
-                  href: ../financials/localizations/tasks/jba-payment-file-format.md
-                - name: ป้อนกำหนดการอัตราค่าเสื่อมราคาและเชื่อมโยงกับโพรไฟล์การคิดค่าเสื่อมราคา
-                  href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
-                - name: วิธีแบ่งค่าเสื่อมราคาเท่า ๆ กัน
-                  href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
-                - name: แบบฟอร์ม 26 สำหรับการรายงานภาษีที่คิดค่าเสื่อมราคา
-                  href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
-                - name: สร้างไฟล์การชำระเงิน EFT ที่มีรูปแบบ JBA
-                  href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
-                - name: สร้างและลงรายการบัญชีค่าธรรมเนียมในการชำระเงิน
-                  href: ../financials/localizations/tasks/post-payment-fee.md
-                - name: สร้างรายงานภาษีจากปริมาณการใช้
-                  href: ../financials/localizations/tasks/japan-consumption-tax-report.md
-                - name: การบัญชีที่มีความบกพร่องบน CGU
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
-                - name: การบัญชีที่มีความบกพร่อง
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
-                - name: นำเข้าการชำระเงินของลูกค้าที่มีรูปแบบไฟล์ JBA
-                  href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
-                - name: นำเข้ารหัสไปรษณีย์
-                  href: ../financials/localizations/apac-jpn-import-postal-codes.md
-                - name: สมุดรายวันสำหรับการป้อนค่าในแบบฟอร์มบัญชี T
-                  href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
-                - name: สอบถามเกี่ยวกับธุรกรรมที่เกี่ยวข้องกับข้อผูกมัดของการตัดจำหน่ายสินทรัพย์
-                  href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
-                - name: สอบถามเกี่ยวกับค่าใช้จ่ายที่สามารถหักได้
-                  href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
-                - name: สอบถามเกี่ยวกับค่าธรรมเนียมการชำระเงินในสมุดรายวัน
-                  href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
-                - name: รักษาไฟล์ข้อมูลหลักของสินทรัพย์ถาวรสำหรับค่าใช้จ่ายที่สามารถหักได้
-                  href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
-                - name: รักษาตัวบ่งชี้ความบกพร่องของสินทรัพย์แต่ละรายการ
-                  href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
-                - name: ชำระให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า
-                  href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
-                - name: ชำระธุรกรรมให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า
-                  href: ../financials/localizations/tasks/pay-vendor-transaction.md
-                - name: การชำระประจำงวดของค่าเสื่อมราคาที่มากเกินหรือน้อยเกิน
-                  href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
-                - name: การคำนวณภาษีหัก ณ ที่จ่ายแบบก้าวหน้า
-                  href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
-                - name: นำเสนอค่าเสื่อมราคาเพิ่มเติม
-                  href: ../financials/localizations/tasks/propose-additional-depreciation.md
-                - name: นำเสนอและลงรายการบัญชีค่าเสื่อมราคาแบบอัตราเร่ง
-                  href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
-                - name: นำเสนอและลงรายการบัญชียอดเงินผลโดยชุดงาน
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
-                - name: นำเสนอและลงรายการบัญชียอดเงินผลโดยใช้สมุดรายวันสินทรัพย์ถาวร
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
-                - name: นำเสนอและลงรายการบัญชียอดเงินผลสำหรับเงินหน่วยสินทรัพย์ที่ก่อให้เกิดเงินสด
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
-                - name: นำเสนอค่าเสื่อมราคาพิเศษ
-                  href: ../financials/localizations/tasks/propose-special-depreciation.md
-                - name: เปิดและแก้ไขใบแจ้งหนี้ที่รวมบัญชีของลูกค้า
-                  href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
-                - name: เปิดและแก้ไขใบแจ้งหนี้ที่รวมบัญชีของผู้จัดจำหน่าย
-                  href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
-                - name: กลับรายการตั๋วแลกเงินที่สลักหลังแล้ว
-                  href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
-                - name: รันการทดสอบการรับรู้และคำนวณผลยอดเงินสำหรับสินทรัพย์แต่ละรายการ
-                  href: ../financials/localizations/tasks/run-recognition-test-calculate.md
-                - name: ตั้งค่าลูกค้าและใบสั่งขายให้เป็นเป้าหมายของใบแจ้งหนี้ที่รวมบัญชี
-                  href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
-                - name: ตั้งค่า ARO
-                  href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
-                - name: ตั้งค่าเอกสารข้อผูกมัดการเกษียณอายุของสินทรัพย์ และป้อนจำนวนเงิน ARO ในสินทรัพย์ถาวร
-                  href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
-                - name: ตั้งค่าใบแจ้งหนี้ที่รวมบัญชี
-                  href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
-                - name: ตั้งค่าพารามิเตอร์ทั่วไปสำหรับการลงบัญชีการด้อยค่าและโพรไฟล์การลงบัญชี
-                  href: ../financials/localizations/tasks/impairment-accounting.md
-                - name: ตั้งค่ารายงานภาษีจากปริมาณการใช้ในประเทศญี่ปุ่น
-                  href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
-                - name: ตั้งค่าการชำระเงินของประเทศญี่ปุ่นโดยการสลักหลังตั๋วแลกเงินของลูกค้า
-                  href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
-                - name: ตั้งค่าข้อมูลหลักสำหรับการรวมค่าใช้จ่ายที่สามารถหักได้สำหรับชั้นของการลงรายการบัญชีหลายรายการ
-                  href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
-                - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับประเทศญี่ปุ่น
-                  href: ../financials/localizations/tasks/setup-payment-fee-japan.md
-                - name: ตั้งค่ารายการที่มีการลด
-                  href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
-                - name: ตั้งค่าข้อมูลหลักของผู้จัดจำหน่ายและใบสั่งซื้อให้เป็นเป้าหมายของใบแจ้งหนี้ที่รวมบัญชี
-                  href: ../financials/localizations/tasks/vendor-master-po.md
-                - name: ชำระรายการตั๋วแลกเงินที่สลักหลังแล้ว
-                  href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
-                - name: ชำระใบแจ้งหนี้ของลูกค้าที่รวมบัญชีโดยใช้สมุดรายวันการชำระเงิน
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
-                - name: ชำระใบแจ้งหนี้ของลูกค้าที่รวมบัญชีโดยใช้ชำระธุรกรรม
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: ชำระใบแจ้งหนี้ของผู้จัดจำหน่ายที่รวมบัญชีโดยใช้สมุดรายวันการชำระเงิน
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: ชำระใบแจ้งหนี้ของผู้จัดจำหน่ายที่รวมบัญชีโดยใช้ชำระธุรกรรม
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
-                - name: ใช้รายการรวมของสินทรัพย์ถาวร
-                  href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
-                - name: ใช้รายการแยกของสินทรัพย์ถาวร
-                  href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
-            - name: มาเลเซีย
-              href: ../financials/localizations/malaysia.md
-              items:
-                - name: สร้างสินเชื่อลูกค้าสำหรับการขายของโครงการ
-                  href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
-                - name: สร้างการหักบัญชีเงินฝากอัตโนมัติของลูกค้าสำหรับการขายของโครงการ
-                  href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: ภาษีสินค้าและบริการ (GST)
-                  href: ../financials/localizations/apac-mys-gst.md
-                - name: GST - สร้างไฟล์ GAF ในรูปแบบที่กำหนด
-                  href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
-                - name: จัดการการหักบัญชีเงินฝากอัตโนมัติและสินเชื่อของลูกค้าสำหรับ GST
-                  href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
-                - name: จัดการการหักบัญชีเงินฝากอัตโนมัติและสินเชื่อของผู้จัดจำหน่ายสำหรับ GST
-                  href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
-                - name: พิมพ์ใบแจ้งหนี้ของลูกค้า GST ที่มีข้อกำหนดการลดหย่อนภาษี
-                  href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: พิมพ์ใบแจ้งหนี้ภาษี GST
-                  href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
-                - name: ใบแจ้งหนี้เรียกเก็บเงินด้วยตนเอง
-                  href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
-                - name: การตั้งค่าข้อกำหนดการลดหย่อนภาษี GST
-                  href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
-            - name: สิงคโปร์
-              href: ../financials/localizations/singapore.md
-              items:
-                - name: สร้างรายงาน GST-05
-                  href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
-            - name: ไทย
-              href: ../financials/localizations/thailand.md
-              items:
-                - name: รายงานบัตรสินค้าคงคลัง
-                  href: ../financials/localizations/apac-tha-stock-card-reports.md
-                - name: หมายเลขของใบกำกับภาษีการปรับปรุง/ใบแทน
-                  href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
-                - name: VAT ที่ยังไม่รับรู้
-                  href: ../financials/localizations/apac-tha-unrealized-vat.md
+                - name: คำนวณภาษีสำหรับใบเสนอราคาซื้อ
+                  href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
+                - name: สร้างการประเมินภาษี - ICMS
+                  href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
+                - name: สร้างการประเมินภาษี - ภาษี IPI
+                  href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
+                - name: สร้างการประเมินภาษี - ภาษี PIS และ COFINS
+                  href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
+                - name: ป้อนและลงรายการบัญชีธุรกรรมการปรับปรุงภาษี
+                  href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
+                - name: ป้อนธุรกรรมการปรับปรุงภาษี PIS และ COFINS
+                  href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
+                - name: คุณลักษณะภาษีของที่ตั้งทางการเงิน
+                  href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
+                - name: ออกเอกสารเครดิตภาษีทางการเงิน ICMS
+                  href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
+                - name: ออกเอกสารโอนย้ายเครดิตภาษีทางการเงิน ICMS
+                  href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
+                - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี ICMS
+                  href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
+                - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี ICMS เกี่ยวกับเอกสารทางการเงิน
+                  href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
+                - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี IPI
+                  href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
+                - name: สินทรัพย์ถาวร PIS และ COFINS
+                  href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
+                - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี PIS และ COFINS
+                  href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
+                - name: ตั้งค่าตาราง PIS และ COFINS
+                  href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
+                - name: การประเมินภาษีสำหรับภาษี ISS
+                  href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
+                - name: แอททริบิวต์ภาษี
+                  href: ../financials/localizations/latam-bra-tax-attributes.md
+                - name: การชำระภาษี
+                  href: ../financials/localizations/latam-bra-tax-payments.md
+                - name: ภาษีในใบเสนอราคาขาย
+                  href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
                 - name: ภาษีหัก ณ ที่จ่าย
-                  href: ../financials/localizations/apac-tha-withholding-tax.md
+                  href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
+                - name: ภาษีหัก ณ ที่จ่ายสำหรับการชำระเงินของลูกค้า
+                  href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
+                - name: ภาษีหัก ณ ที่จ่ายสำหรับการชำระเงินของผู้จัดจำหน่าย
+                  href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
+        - name: จีน
+          href: ../financials/localizations/china.md
+          items:
+            - name: การเปรียบเทียบสูตรการผลิต
+              href: ../financials/localizations/apac-chn-bom-comparison.md
+            - name: ลำดับชั้นภาษาจีนสำหรับผังบัญชี
+              href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
+            - name: การตรวจสอบความต่อเนื่องของใบสำคัญภาษาจีน
+              href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
+            - name: ใบสำคัญภาษาจีน
+              href: ../financials/localizations/apac-chn-vouchers.md
+            - name: ตั้งค่าคอนฟิกการรวมภาษี
+              href: ../financials/localizations/apac-chn-tax-integration.md
+            - name: การตั้งค่าการส่งออกการรวมภาษีทองคำภาษาจีน
+              href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+            - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
+              href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
+            - name: นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden
+              href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
+            - name: แบบจำลองต้นทุนเฉลี่ยรายเดือน
+              href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
+            - name: ลงรายการบัญชีหลักของสินค้าคงคลังโดยเรียงตามไซต์
+              href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
+            - name: ลงรายการบัญชีใบสำคัญจากโมดูลอื่นๆ
+              href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
+            - name: ลงรายการบัญชีใบสำคัญจากสมุดรายวันทั่วไป
+              href: ../financials/localizations/tasks/post-vouchers-general-journal.md
+            - name: ตั้งค่าโพรไฟล์การรวมภาษีพื้นฐานสำหรับจีน
+              href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
+            - name: ตั้งค่าใบสำคัญภาษาจีน
+              href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
+            - name: ตั้งค่าการปันส่วนค่าเสื่อมราคาของสินทรัพย์ถาวร
+              href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
+            - name: แสดงยอดเดบิตและเครดิตในบัญชีแยกประเภท
+              href: ../financials/localizations/apac-chn-negative-debits-credits.md
+            - name: ล็อกการดำเนินงานของผู้ใช้ โดยกฎการทำงานของจีน
+              href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
+            - name: FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT
+              href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
+        - name: สาธารณรัฐเช็ก
+          href: ../financials/localizations/czech-republic.md
+          items:
+            - name: ใบลดหนี้ในส่วนลดเงินสด
+              href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
+            - name: สินทรัพย์ถาวร
+              items:
+                - name: การปัดเศษค่าเสื่อมราคา
+                  href: ../financials/localizations/emea-cze-depreciation-rounding.md
+                - name: ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวร
+                  href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
+                - name: การระงับค่าเสื่อมราคา (วันหยุด)
+                  href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
+                - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
+                  href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
+                - name: ลงรายการบัญชีก่อนการซื้อสินทรัพย์
+                  href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
+            - name: ลงรายการบัญชีสมุดรายวันประจำงวด
+              href: ../financials/general-ledger/tasks/post-periodic-journals.md
+            - name: ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์
+              href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
+            - name: แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด
+              href: ../financials/localizations/emea-create-post-periodic-journals.md
+            - name: อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร
+              href: ../financials/localizations/emea-amount-printing-forms.md
+            - name: งบ VAT
+              href: ../financials/localizations/emea-cze-vat-statement-details.md
+            - name: การปิดบัญชีสิ้นปี
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: เดนมาร์ก
+          href: ../financials/localizations/denmark.md
+          items:
+            - name: กำหนดรูปแบบบันทึกการชำระเงินให้กับบัญชีลูกค้า
+              href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
+            - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ของลูกค้าสำหรับลูกค้าภาครัฐ
+              href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
+            - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้าภาครัฐ
+              href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
+            - name: สร้างและลงรายการบัญชีใบแจ้งหนี้โครงการสำหรับลูกค้าภาครัฐ
+              href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
+            - name: นำเข้าการตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ OIOUBL
+              href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+            - name: ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระพร้อมกับบันทึกการชำระเงิน
+              href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
+            - name: ลงรายการบัญชีใบแจ้งหนี้โครงการพร้อมกับบันทึกการชำระเงิน
+              href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
+            - name: ลงรายการบัญชีใบแจ้งหนี้การขายพร้อมกับบันทึกการชำระเงิน
+              href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
+            - name: การตั้งค่ารหัสลูกค้าสำหรับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ OIOUBL
+              href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
+            - name: ตั้งค่าการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ OIOUBL
+              href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
+            - name: ตั้งค่ารูปแบบบันทึกการชำระเงิน
+              href: ../financials/localizations/tasks/set-up-payment-slip-format.md
+        - name: เอสโตเนีย
+          href: ../financials/localizations/estonia.md
+          items:
+            - name: คำขอข้อมูลส่วนตัว
+              href: ../financials/localizations/emea-est-personal-info.md
+            - name: งบ VAT
+              href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: ยุโรป
+          href: ../financials/localizations/europe.md
           items:
             - name: ผู้ถือครองเงินทดรองจ่าย
               href: ../financials/localizations/emea-advance-holders.md
               items:
                 - name: ธุรกรรมของผู้ถือครองเงินทดรองจ่าย
                   href: ../financials/localizations/emea-advance-holders-transactions.md
-            - name: การชำระเงินล่วงหน้าให้พนักงาน (ยุโรปตะวันออก)
-              href: ../financials/localizations/tasks/advance-payment-employee.md
+                - name: การชำระเงินล่วงหน้าให้พนักงาน (ยุโรปตะวันออก)
+                  href: ../financials/localizations/tasks/advance-payment-employee.md
             - name: การออกใบแจ้งหนี้ขั้นสูง
               href: ../financials/localizations/emea-advance-invoice.md
             - name: การกระทบยอดบัญชีธนาคาร
@@ -1526,8 +1547,6 @@
               href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
-            - name: สร้างการรายงานภาษีอินทราสแทตใน EU
-              href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: สร้างรายงานรายการขายใน EU
               href: ../financials/localizations/tasks/eur-00011-eu-sales-list-report.md
             - name: ไฟล์ ISO20022
@@ -1557,6 +1576,10 @@
               items:
                 - name: โอนย้ายธุรกรรมไปยังอินทราสแทต
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
+                - name: ระบุที่อยู่ในใบตราส่งสำหรับธุรกรรมภายในประชาคม
+                  href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
+                - name: สร้างการรายงานภาษีอินทราสแทตใน EU
+                  href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: รายงานสมุดรายวันสินค้าคงคลัง
               href: ../financials/localizations/emea-set-up-report-inventory-journal-names.md
             - name: กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้
@@ -1601,7 +1624,7 @@
               href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
             - name: ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท
               href: ../financials/localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
-            - name: ระบุที่อยู่ในใบตราส่งสำหรับธุรกรรม Intra-community
+            - name: ระบุที่อยู่ในใบตราส่งสำหรับธุรกรรมภายในประชาคม
               href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
             - name: การกลับรายการบัญชี
               href: ../financials/localizations/emea-storno.md
@@ -1627,555 +1650,470 @@
                   href: ../financials/localizations/tasks/create-submit-vat-report.md
             - name: ดูธุรกรรมในการจ่ายเงิน
               href: ../financials/localizations/emea-transactions-settlement-form.md
-            - name: ออสเตรีย
-              href: ../financials/localizations/austria.md
-              items:
-                - name: ค่าเสื่อมราคาครึ่งปีสำหรับการซื้อสินทรัพย์เพิ่มเติม
-                  href: ../financials/localizations/emea-aut-half-year-depreciation.md
-                - name: ค่าธรรมเนียมบรรจุภัณฑ์
-                  href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
-                - name: งบ VAT
-                  href: ../financials/localizations/emea-aut-vat-statement-details.md
-            - name: เบลเยียม
-              href: ../financials/localizations/belgium.md
-              items:
-                - name: ใบแจ้งยอดจากธนาคาร CODA
-                  href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
-                - name: การสร้างและโอนย้ายธุรกรรมไปยัง BLWI
-                  href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: การรายงานภาษี INTERVAT
-                  href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
-                - name: รายงานการกระทบยอด
-                  href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: ตั้งค่าการรายงานยอดดุลการชำระเงิน
-                  href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
-                - name: ตั้งค่าและรักษา PRODCOM
-                  href: ../financials/localizations/emea-bel-prodcom-report.md
-            - name: สาธารณรัฐเช็ก
-              href: ../financials/localizations/czech-republic.md
-              items:
-                - name: ใบลดหนี้ในส่วนลดเงินสด
-                  href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
-                - name: สินทรัพย์ถาวร
-                  items:
-                    - name: การปัดเศษค่าเสื่อมราคา
-                      href: ../financials/localizations/emea-cze-depreciation-rounding.md
-                    - name: ค่าเสื่อมราคาครึ่งปีในการตัดจำหน่ายสินทรัพย์ถาวร
-                      href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
-                    - name: การระงับค่าเสื่อมราคา (วันหยุด)
-                      href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
-                    - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
-                      href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
-                    - name: ลงรายการบัญชีก่อนการซื้อสินทรัพย์
-                      href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
-                - name: ลงรายการบัญชีสมุดรายวันประจำงวด
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์
-                  href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
-                - name: แบ่งรอบระยะเวลาในสมุดรายวันประจำงวด
-                  href: ../financials/localizations/emea-create-post-periodic-journals.md
-                - name: อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร
-                  href: ../financials/localizations/emea-amount-printing-forms.md
-                - name: งบ VAT
-                  href: ../financials/localizations/emea-cze-vat-statement-details.md
-                - name: การปิดบัญชีสิ้นปี
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: เดนมาร์ก
-              href: ../financials/localizations/denmark.md
-              items:
-                - name: กำหนดรูปแบบบันทึกการชำระเงินให้กับบัญชีลูกค้า
-                  href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
-                - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ของลูกค้าสำหรับลูกค้าภาครัฐ
-                  href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
-                - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้าภาครัฐ
-                  href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
-                - name: สร้างและลงรายการบัญชีใบแจ้งหนี้โครงการสำหรับลูกค้าภาครัฐ
-                  href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: นำเข้าการตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ OIOUBL
-                  href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
-                - name: ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระพร้อมกับบันทึกการชำระเงิน
-                  href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
-                - name: ลงรายการบัญชีใบแจ้งหนี้โครงการพร้อมกับบันทึกการชำระเงิน
-                  href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
-                - name: ลงรายการบัญชีใบแจ้งหนี้การขายพร้อมกับบันทึกการชำระเงิน
-                  href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
-                - name: การตั้งค่ารหัสลูกค้าสำหรับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ OIOUBL
-                  href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
-                - name: ตั้งค่าการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ OIOUBL
-                  href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
-                - name: ตั้งค่ารูปแบบบันทึกการชำระเงิน
-                  href: ../financials/localizations/tasks/set-up-payment-slip-format.md
-            - name: เอสโตเนีย
-              href: ../financials/localizations/estonia.md
-              items:
-                - name: คำขอข้อมูลส่วนตัว
-                  href: ../financials/localizations/emea-est-personal-info.md
-                - name: งบ VAT
-                  href: ../financials/localizations/emea-est-vat-statement-details.md
-            - name: ฝรั่งเศส
-              href: ../financials/localizations/france.md
-              items:
-                - name: ภาครัฐ
-                  items:
-                    - name: การบัญชีภาครัฐ
-                      href: ../financials/localizations/emea-fra-public-sector-accounting.md
-                    - name: ข้อผูกมัด
-                      href: ../financials/localizations/emea-fra-commitments-public-sector.md
-                    - name: Mandats de paiement
-                      href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                    - name: การจัดซื้อและการจัดหา
-                      href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
-                    - name: Titres de recette
-                      href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
-                    - name: การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย
-                      href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
-                - name: อนุมัติและลงรายการการออกตั๋วแลกเงิน
-                  href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: ใบสำคัญใบแจ้งหนี้ตามลำดับเวลา
-                  href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: สร้างไฟล์การตรวจสอบมาตรฐานสำหรับฝรั่งเศส (FEC)
-                  href: ../financials/localizations/emea-fra-fec-audit-file.md
-                - name: ใบแจ้งยอดบัญชีลูกค้าและผู้จัดจำหน่าย
-                  href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: การคำนวณดอกเบี้ยประจำวันสำหรับการชำระเงินล่าช้าและจำนวนเงินรวมทั้งหมดในจดหมายเรียกเก็บเงินและใบแจ้งหนี้
-                  href: ../financials/localizations/tasks/fr-00018-daily-interest.md
-                - name: การคิดค่าเสื่อมราคาตามการเสื่อมสภาพ
-                  href: ../financials/localizations/emea-fra-derogatory-depreciation.md
-                - name: ตั๋วแลกเงินและตั๋วสัญญาใช้เงินของประเทศฝรั่งเศส
-                  href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
-                - name: รหัส NAF และหมายเลข Siret
-                  href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
-                - name: ตั้งค่ารหัส NAF และหมายเลข Siret
-                  href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
-                - name: บทลงโทษสำหรับการชำระเงินที่เลยกำหนดของลูกค้า
-                  href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
-                - name: ลงรายการบัญชีสมุดรายวันการปฏิเสธการจ่ายตั๋วแลกเงิน
-                  href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
-                - name: ลงรายการบัญชีสมุดรายวันการปฏิเสธการจ่ายตั๋วแลกเงินอีกครั้ง
-                  href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
-                - name: พิมพ์ข้อความการขอคืนจำนวนเงินรวมทั้งหมดในใบแจ้งหนี้ของลูกค้า
-                  href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
-                - name: ค่าเสื่อมราคา RB/SL
-                  href: ../financials/localizations/emea-fra-rbsl-depreciation.md
-                - name: ตั้งค่าวิธีการชำระเงิน
-                  href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
-                - name: อัพเดตวิธีการชำระเงินของลูกค้า
-                  href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: Retail
-                  items:
-                    - name: เครื่องบันทึกเงินสด
-                      href: ../retail/localizations/emea-fra-cash-registers.md
-                    - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
-                      href: ../retail/localizations/emea-fra-deployment.md
-            - name: เยอรมนี
-              href: ../financials/localizations/germany.md
-              items:
-                - name: ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม
-                  href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: ไฟล์การตรวจสอบ
-                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
-                  items:
-                    - name: เลือกกำหนดการตั้งค่าไฟล์การตรวจสอบ
-                      href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: สร้างไฟล์การตรวจสอบ
-                      href: ../financials/localizations/tasks/german-audit-file.md
-                    - name: นำเข้าการตั้งค่าคอนฟิกไฟล์การตรวจสอบ
-                      href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
-                - name: การปรับปรุงค่าเสื่อมราคาสำหรับการซื้อสินทรัพย์เพิ่มเติมในปีที่สอง
-                  href: ../financials/localizations/tasks/de-00002-depreciation.md
-                - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
-                  href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: รายงานรายการสมุดรายวัน
-                  href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: ตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์
-                  href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
-            - name: ฮังการี
-              href: ../financials/localizations/hungary.md
-              items:
-                - name: การคำนวณอัตราแลกเปลี่ยน
-                  href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
-                - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
-                - name: สินทรัพย์ถาวรต้นทุนต่ำ
-                  href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
-                - name: ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง
-                  href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
-                - name: เอกสารขอชำระคืนเงินภาษี
-                  href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
-                - name: การปิดบัญชีสิ้นปี
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: ไอซ์แลนด์
-              href: ../financials/localizations/iceland.md
-              items:
-                - name: สร้างบัญชีผู้จัดจำหน่ายและแนบประเภทการประกาศใบแจ้งหนี้
-                  href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
-                - name: ตั้งค่าการรายงานใบแจ้งหนี้สำหรับผู้จัดจำหน่าย
-                  href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
-                - name: ตั้งค่าข้อมูลอ้างอิงการชำระเงินที่จำเป็น
-                  href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
-                - name: อัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายและสร้างรายงาน
-                  href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
-            - name: อิตาลี
-              href: ../financials/localizations/italy.md
-              items:
-                - name: รายละเอียดงบ VAT
-                  href: ../financials/localizations/emea-ita-vat-statements-details.md
-                - name: รายงานรายชื่อบัญชีดำ
-                  href: ../financials/localizations/emea-ita-black-list-report.md
-                - name: วันที่ใช้ได้
-                  href: ../financials/localizations/emea-ita-competence-date.md
-                - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
-                - name: Modello 770
-                  href: ../financials/localizations/emea-ita-modello770.md
-                - name: การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้
-                  href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
-                - name: ลงรายการบัญชีและพิมพ์บันทึกการจัดส่งที่มีรายละเอียดการจัดส่งของฝ่ายขนส่ง
-                  href: ../financials/localizations/emea-ita-packing-slip.md
-                - name: สมุดบัญชีภาษีขาย
-                  href: ../financials/localizations/emea-ita-fiscal-books.md
-                - name: แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ
-                  href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-                - name: ภาษีหัก ณ ที่จ่าย
-                  href: ../financials/localizations/emea-ita-withholding-tax.md
-            - name: ลัตเวีย
-              href: ../financials/localizations/latvia.md
-              items:
-                - name: การบัญชีสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
-                - name: การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
-                - name: ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: รายงานภาษีของทรัพยากรธรรมชาติ
-                  href: ../financials/localizations/emea-lva-tax-natural-resources.md
-                - name: รายละเอียดงบ VAT
-                  href: ../financials/localizations/emea-lva-vat-statement-details.md
-            - name: ลิทัวเนีย
-              href: ../financials/localizations/lithuania.md
-              items:
-                - name: รายงานซ่อมแซมสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
-                - name: สร้างเอกสารคลังสินค้าระหว่างการโอนย้ายสินทรัพย์ถาวร
-                  href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: รายละเอียดงบ VAT
-                  href: ../financials/localizations/emea-ltu-vat-statement-details.md
-            - name: เนเธอร์แลนด์
-              href: ../financials/localizations/netherlands.md
-              items:
-                - name: การรายงานภาษีทางอิเล็กทรอนิกส์ (EVAT)
-                  href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
-                - name: การรวม Semansys XBRL
-                  href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
-            - name: นอร์เวย์
-              href: ../financials/localizations/norway.md
-              items:
-                - name: รูปแบบการชำระเงินของลูกค้าและการชำระเงินให้แก่ผู้จัดจำหน่าย
-                  href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
-                - name: การชำระเงินของลูกค้าขึ้นอยู่กับรหัสการชำระเงิน
-                  href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: รูปแบบนำเข้า Nets
-                  href: ../financials/localizations/emea-nor-nets-import-format.md
-                - name: งบ VAT
-                  href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
-                - name: เครื่องบันทึกเงินสด
-                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: โปแลนด์
-              href: ../financials/localizations/poland.md
-              items:
-                - name: คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย
-                  href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: หมายเหตุการแก้ไข
-                  href: ../financials/localizations/emea-pol-correction-notes.md
-                - name: ทำสำเนาการกำหนดหมายเลขใบแจ้งหนี้การขาย
-                  href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
-                - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
-                - name: ส่วนขยายฟังก์ชันการทำงานการตัดจำหน่ายสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
-                - name: บรรจุภัณฑ์ที่สามารถส่งคืนได้
-                  href: ../financials/localizations/emea-pol-returnable-packages.md
-                - name: รายงานภาษีขาย
-                  href: ../financials/localizations/emea-pol-sales-tax-reports.md
-                - name: ไฟล์การตรวจสอบมาตรฐาน
-                  href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
-                - name: ดอกเบี้ยภาษีและดอกเบี้ยฟรีแฮนด์
-                  href: ../financials/localizations/emea-pol-interest-calculation.md
-                - name: รายงานยอดขายและยอดดุล
-                  href: ../financials/localizations/emea-pol-turnover-balances-statement.md
-            - name: สเปน
-              href: ../financials/localizations/spain.md
-              items:
-                - name: ใช้ส่วนลดเงินสดในใบแจ้งหนี้
-                  href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
-                - name: ตัวเลือกตั๋วแลกเงิน
-                  href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-                - name: ภาษีขายแบบมีเงื่อนไข
-                  href: ../financials/localizations/emea-esp-conditional-sales-tax.md
-                - name: การออกใบแจ้งหนี้เงินเชื่อ
-                  href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-                - name: บัญชีใบแจ้งหนี้ข้อมูลบัญชี
-                  href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
-                - name: การประเมินค่าใหม่กลุ่มสินทรัพย์ถาวร
-                  href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: VAT ภายในประชาคม
-                  href: ../financials/localizations/emea-esp-intra-community-vat.md
-                - name: ลูกค้าขาจร
-                  href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
-                - name: พิมพ์เช็คเป็นภาษาสเปน
-                  href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
-                - name: ตัวเลือกตั๋วสัญญาใช้เงิน
-                  href: ../financials/localizations/emea-esp-promissory-note-options.md
-                - name: รายงาน 340
-                  href: ../financials/localizations/emea-esp-report-340.md
-                - name: วงจรการขายและการซื้อ
-                  href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
-                - name: รายการพิเศษและแผ่นงานการเปิด
-                  href: ../financials/localizations/emea-esp-opening-sheets-spain.md
-            - name: สวีเดน
-              href: ../financials/localizations/sweden.md
-              items:
-                - name: ส่งออกข้อมูลทางการเงินสำหรับผู้ตรวจสอบบัญชีในสวีเดน
-                  href: ../financials/localizations/emea-swe-sie-standard-report.md
-                - name: นำเข้ารูปแบบการชำระเงิน
-                  href: ../financials/localizations/emea-swe-payment-formats-import.md
-                - name: เครื่องบันทึกเงินสด
-                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: สวิตเซอร์แลนด์
-              href: ../financials/localizations/switzerland.md
-              items:
-                - name: นำเข้าการชำระเงินของลูกค้าใน ESR
-                  href: ../financials/localizations/emea-che-esr-customer-payments-import.md
-            - name: สหราชอาณาจักร
-              href: ../financials/localizations/united-kingdom.md
-              items:
-                - name: แผนงานอุตสาหกรรมก่อสร้าง
-                  href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: สร้างสินเชื่อในส่วนลดการชำระเงิน
-                  href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: การสร้างใบสั่งซื้อที่มีสินค้าที่ต้องเสีย VAT ที่เก็บย้อนหลัง
-                  href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: การสร้างใบสั่งขายที่มีสินค้าที่ต้องเสีย VAT ที่เก็บย้อนหลัง
-                  href: ../financials/localizations/tasks/gb-00002-sales-order.md
-                - name: การตั้งค่ากลุ่มภาษีขายตามประเภทสินค้าสำหรับ VAT ที่เก็บย้อนกลับ
-                  href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: ตั้งค่ากลุ่มสินค้า VAT ที่เก็บย้อนกลับ กฎ และพารามิเตอร์
-                  href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ที่เก็บย้อนกลับ
-                  href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: ละตินอเมริกา
+        - name: ฝรั่งเศส
+          href: ../financials/localizations/france.md
           items:
-            - name: บราซิล
-              href: ../financials/localizations/brazil.md
+            - name: ภาครัฐ
               items:
-                - name: ขอบเขตของการแปลเป็นภาษาท้องถิ่น
-                  href: ../financials/localizations/latam-bra-scope.md
-                - name: สมุดการเงิน
-                  href: ../financials/localizations/latam-bra-fiscal-books.md
-                  items:
-                    - name: ตั้งค่าคอนฟิกสมุดการเงิน
-                      href: ../financials/localizations/latam-bra-configure-fiscal-books.md
-                    - name: เอกสารทางการเงินภาษี ICMS
-                      href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
-                    - name: นำเข้าเอกสารทางการเงิน
-                      href: ../financials/localizations/latam-bra-import-fiscal-documents.md
-                    - name: ส่งออกและนำเข้าธุรกรรมของนิติบุคคลจากการรวมบัญชีแยกประเภททั่วไป
-                      href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
-                    - name: นำเข้าและตรวจสอบเอกสาร NF-e XML และไฟล์ DANFE
-                      href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
-                    - name: ประมวลผลการชำระเงินผ่านธนาคารทางอิเล็กทรอนิกส์
-                      href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
-                    - name: เอกสารทางการเงิน
-                      href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
-                    - name: ตัวยึดข้อความของเอกสารทางการเงิน
-                      href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
-                    - name: เอกสารทางการเงินเพิ่มเติมการซื้อ
-                      href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
-                    - name: เอกสารทางการเงินที่อ้างอิง
-                      href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
-                    - name: เอกสารทางการเงินเพิ่มเติมการขาย
-                      href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
-                    - name: เอกสารทางการเงินแบบอิเล็กทรอนิกส์บริการ
-                      href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
-                    - name: สมุดรายวันที่สร้างขึ้นในระหว่างกระบวนการส่งคืนการชำระเงินทางอิเล็กทรอนิกส์
-                      href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
-                - name: กระบวนการ NF-e
-                  href: ../financials/localizations/latam-bra-nf-e-process.md
-                  items:
-                    - name: การส่งผ่านอัตโนมัติของเอกสารทางการเงิน NF-e
-                      href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
-                    - name: สร้างอีเมลสำหรับ NF-e ที่อนุมัติแล้วและแนบไฟล์ DANFE PDF และไฟล์ NF-e XML ไปกับอีเมล
-                      href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
-                    - name: ใบรับรอง NF-e
-                      href: ../financials/localizations/latam-bra-nfe-certs.md
-                    - name: ตั้งค่า นำเข้า และตรวจสอบเอกสาร NF-e XML และ DANFE
-                      href: ../financials/localizations/latam-bra-set-up-import-nfe.md
-                    - name: การตั้งค่าพารามิเตอร์ของภาครัฐ NF-e
-                      href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
-                    - name: ตั้งค่าพารามิเตอร์ NF-e สำหรับการจัดทำในภาครัฐ
-                      href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                - name: พารามิเตอร์สำหรับนิติบุคคล
-                  href: ../financials/localizations/latam-bra-legal-entity-parameters.md
-                - name: ซื้อสินทรัพย์ถาวร CIAP
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: ตัดจำหน่ายสินทรัพย์ถาวร CIAP
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: ภาษี
-                  href: ../financials/localizations/latam-bra-calculate-taxes.md
-                  items:
-                    - name: คำนวณภาษีสำหรับใบเสนอราคาซื้อ
-                      href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
-                    - name: สร้างการประเมินภาษี - ICMS
-                      href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
-                    - name: สร้างการประเมินภาษี - ภาษี IPI
-                      href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
-                    - name: สร้างการประเมินภาษี - ภาษี PIS และ COFINS
-                      href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
-                    - name: ป้อนและลงรายการบัญชีธุรกรรมการปรับปรุงภาษี
-                      href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
-                    - name: ป้อนธุรกรรมการปรับปรุงภาษี PIS และ COFINS
-                      href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
-                    - name: คุณลักษณะภาษีของที่ตั้งทางการเงิน
-                      href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
-                    - name: ออกเอกสารเครดิตภาษีทางการเงิน ICMS
-                      href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
-                    - name: ออกเอกสารโอนย้ายเครดิตภาษีทางการเงิน ICMS
-                      href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
-                    - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี ICMS
-                      href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
-                    - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี ICMS เกี่ยวกับเอกสารทางการเงิน
-                      href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
-                    - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี IPI
-                      href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
-                    - name: ตั้งค่ารหัสการปรับปรุงสำหรับภาษี PIS และ COFINS
-                      href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
-                    - name: การตั้งค่าตาราง PIS และ COFINS
-                      href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
-                    - name: การประเมินภาษีสำหรับภาษี ISS
-                      href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
-                    - name: แอททริบิวต์ภาษี
-                      href: ../financials/localizations/latam-bra-tax-attributes.md
-                    - name: การชำระภาษี
-                      href: ../financials/localizations/latam-bra-tax-payments.md
-                    - name: ภาษีในใบเสนอราคาขาย
-                      href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: ภาษีหัก ณ ที่จ่าย
-                      href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
-                    - name: ภาษีหัก ณ ที่จ่ายสำหรับการชำระเงินของลูกค้า
-                      href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
-                    - name: ภาษีหัก ณ ที่จ่ายสำหรับการชำระเงินของผู้จัดจำหน่าย
-                      href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
-                - name: งานสำหรับบราซิล
-                  items:
-                    - name: ตั้งค่าพารามิเตอร์นิติบุคคล
-                      href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
-                    - name: ตั้งค่าข้อความต้นฉบับของเอกสารทางการเงิน
-                      href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
-                    - name: รับเอกสารทางการเงินของผู้จัดจำหน่าย (สินทรัพย์ถาวร - PIS และ COFINS ที่ได้รับคืนระยะยาว)
-                      href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
-                    - name: รับเอกสารทางการเงินของผู้จัดจำหน่าย (ผลิตภัณฑ์)
-                      href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
-                    - name: สร้างและลงรายการบัญชีเอกสารทางการเงินเพิ่มเติมการซื้อ
-                      href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
-                    - name: ยกเลิกเอกสารทางการเงินเพิ่มเติมการซื้อ
-                      href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
-                    - name: ออกเอกสารทางการเงินสำหรับผู้จัดจำหน่าย
-                      href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
-                    - name: ออกเอกสารทางการเงินสำหรับลูกค้า
-                      href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
-                    - name: บันทึกการจัดส่ง
-                      href: ../financials/localizations/tasks/br-00041-delivery-slip.md
-                    - name: ค่าธรรมเนียมเบ็ดเตล็ดในใบแจ้งหนี้ข้อความอิสระ
-                      href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
-                    - name: สร้างและลงรายการบัญชีเอกสารทางการเงินเพิ่มเติมการขาย
-                      href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
-                    - name: ยกเลิกเอกสารทางการเงินเพิ่มเติมการขาย
-                      href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
-                    - name: การใช้เอกสารทางการเงินอิเล็กทรอนิกส์บริการในรูปแบบไฟล์ข้อความ
-                      href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
-                    - name: ตั้งค่าดอกเบี้ยและค่าปรับสำหรับการชำระเงินให้ผู้จัดจำหน่าย
-                      href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
-                    - name: คำนวณดอกเบี้ยและค่าปรับในการชำระเงินให้ผู้จัดจำหน่าย
-                      href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
-                    - name: ตั้งค่าดอกเบี้ยและค่าปรับสำหรับการชำระเงินให้ลูกค้า
-                      href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
-                    - name: คำนวณดอกเบี้ยและค่าปรับในการชำระเงินให้ลูกค้า
-                      href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                    - name: การจัดการการชำระเงินทางอิเล็กทรอนิกส์สำหรับการชำระเงินของผู้จัดจำหน่าย
-                      href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
-                    - name: ใบเพิ่มหนี้ของโครงการ
-                      href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
-                    - name: จัดการข้อความเอกสารทางการเงินในเอกสารการจัดซื้อ
-                      href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
-                    - name: รับเอกสารทางการเงินของผู้จัดจำหน่าย (สินทรัพย์ถาวร - ICMS ที่ได้รับคืนระยะยาว)
-                      href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
-                    - name: ออกเอกสารทางการเงินสำหรับลูกค้า (บริการ)
-                      href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
-                    - name: ออกเอกสารทางการเงินสำหรับลูกค้า (สินทรัพย์ถาวร)
-                      href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
-                    - name: ออกเอกสารทางการเงินสำหรับลูกค้า (โครงการ)
-                      href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
-                    - name: ออกเอกสารทางการเงินสำหรับลูกค้า (สำหรับผู้ใช้)
-                      href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
-                    - name: ออกเอกสารทางการเงินสำหรับลูกค้า (สำหรับลูกค้า SUFRAMA)
-                      href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
-                    - name: ยกเลิกเอกสารทางการเงินสำหรับลูกค้า (โครงการ)
-                      href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
-                    - name: การดำเนินงานที่ไม่ใช่ทางการเงิน
-                      href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
-                    - name: ป้อนธุรกรรม CIAP
-                      href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
-                    - name: คำนวณยอดเครดิต CIAP
-                      href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
-                    - name: รวมเครดิต CIAP จากงวดก่อนหน้านี้
-                      href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
-                    - name: สินทรัพย์ถาวร PIS และ COFINS
-                      href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
-            - name: เม็กซิโก
-              href: ../financials/localizations/mexico.md
+                - name: การบัญชีภาครัฐ
+                  href: ../financials/localizations/emea-fra-public-sector-accounting.md
+                - name: ข้อผูกมัด
+                  href: ../financials/localizations/emea-fra-commitments-public-sector.md
+                - name: Mandats de paiement
+                  href: ../financials/localizations/emea-fra-mandats-de-paiement.md
+                - name: การจัดซื้อและการจัดหา
+                  href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
+                - name: Titres de recette
+                  href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
+                - name: การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
+            - name: อนุมัติและลงรายการการออกตั๋วแลกเงิน
+              href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
+            - name: ใบสำคัญใบแจ้งหนี้ตามลำดับเวลา
+              href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
+            - name: สร้างไฟล์การตรวจสอบมาตรฐานสำหรับฝรั่งเศส (FEC)
+              href: ../financials/localizations/emea-fra-fec-audit-file.md
+            - name: ใบแจ้งยอดบัญชีลูกค้าและผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
+            - name: การคำนวณดอกเบี้ยประจำวันสำหรับการชำระเงินล่าช้าและจำนวนเงินรวมทั้งหมดในจดหมายเรียกเก็บเงินและใบแจ้งหนี้
+              href: ../financials/localizations/tasks/fr-00018-daily-interest.md
+            - name: การคิดค่าเสื่อมราคาตามการเสื่อมสภาพ
+              href: ../financials/localizations/emea-fra-derogatory-depreciation.md
+            - name: ตั๋วแลกเงินและตั๋วสัญญาใช้เงินของประเทศฝรั่งเศส
+              href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+            - name: รหัส NAF และหมายเลข Siret
+              href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
+            - name: ตั้งค่ารหัส NAF และหมายเลข Siret
+              href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
+            - name: บทลงโทษสำหรับการชำระเงินที่เลยกำหนดของลูกค้า
+              href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
+            - name: ลงรายการบัญชีสมุดรายวันการปฏิเสธการจ่ายตั๋วแลกเงิน
+              href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
+            - name: ลงรายการบัญชีสมุดรายวันการปฏิเสธการจ่ายตั๋วแลกเงินอีกครั้ง
+              href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
+            - name: พิมพ์ข้อความการขอคืนจำนวนเงินรวมทั้งหมดในใบแจ้งหนี้ของลูกค้า
+              href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
+            - name: ค่าเสื่อมราคา RB/SL
+              href: ../financials/localizations/emea-fra-rbsl-depreciation.md
+            - name: ตั้งค่าวิธีการชำระเงิน
+              href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
+            - name: อัพเดตวิธีการชำระเงินของลูกค้า
+              href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
+            - name: Retail
               items:
-                - name: ขอบเขตของการแปลเป็นภาษาท้องถิ่น
-                  href: ../financials/localizations/latam-mex-scope.md
-                - name: การรายงานการปรับปรุงเงินเฟ้อ
-                  href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
-                - name: ยกเลิกใบแจ้งหนี้อิเล็กทรอนิกส์
-                  href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
-                - name: CFDI เวอร์ชัน 3.3
-                  href: ../financials/localizations/latam-mex-cfdi-3-3.md
-                - name: รหัสการลงทะเบียนลูกค้าและข้อมูลอื่นๆ
-                  href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
-                - name: สถานะการรายงานภาษี DIOT
-                  href: ../financials/localizations/latam-mex-diot-declaration-statement.md
-                - name: การออกใบแจ้งหนี้อิเล็กทรอนิกส์ CFDIE
-                  href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: ใบแจ้งหนี้อิเล็กทรอนิกส์
-                  href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: ใบแจ้งยอดบัญชีแยกประเภทอิเล็กทรอนิกส์
-                  href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
-                - name: ป้อนรหัสทะเบียนภาษีสำหรับนิติบุคคลของเม็กซิโก
-                  href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
-                - name: สอบถามและพิมพ์ใบแจ้งหนี้อิเล็กทรอนิกส์
-                  href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
-                - name: รายงานการรายงานภาษี ISR
-                  href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
-                - name: ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระ
-                  href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-                - name: สร้างรายงานบัญชีแยกประเภททางอิเล็กทรอนิกส์ของเม็กซิโกรุ่น 1.1
-                  href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
-                - name: ตั้งค่าพารามิเตอร์สำหรับใบแจ้งหนี้อิเล็กทรอนิกส์
-                  href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-                - name: ตั้งค่ารหัสภาษีขายสำหรับเม็กซิโก
-                  href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
-                - name: ตั้งค่าผังบัญชีสำหรับนิติบุคคลในเม็กซิโก
-                  href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: ระบุรหัสการลงทะเบียน RFC สำหรับบัญชีธนาคารของเม็กซิโก
-                  href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: รหัสการลงทะเบียนผู้จัดจำหน่าย
-                  href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+                - name: เครื่องบันทึกเงินสด
+                  href: ../retail/localizations/emea-fra-cash-registers.md
+                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+                  href: ../retail/localizations/emea-fra-deployment.md
+        - name: เยอรมนี
+          href: ../financials/localizations/germany.md
+          items:
+            - name: ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม
+              href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
+            - name: ไฟล์การตรวจสอบ
+              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
+              items:
+                - name: เลือกกำหนดการตั้งค่าไฟล์การตรวจสอบ
+                  href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
+                - name: สร้างไฟล์การตรวจสอบ
+                  href: ../financials/localizations/tasks/german-audit-file.md
+                - name: นำเข้าการตั้งค่าคอนฟิกไฟล์การตรวจสอบ
+                  href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
+            - name: การปรับปรุงค่าเสื่อมราคาสำหรับการซื้อสินทรัพย์เพิ่มเติมในปีที่สอง
+              href: ../financials/localizations/tasks/de-00002-depreciation.md
+            - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
+              href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
+            - name: รายงานรายการสมุดรายวัน
+              href: ../financials/localizations/emea-deu-journal-list-report.md
+            - name: ตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์
+              href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
+        - name: ฮังการี
+          href: ../financials/localizations/hungary.md
+          items:
+            - name: การคำนวณอัตราแลกเปลี่ยน
+              href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
+            - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
+            - name: สินทรัพย์ถาวรต้นทุนต่ำ
+              href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
+            - name: ย้ายสินทรัพย์ถาวรไปยังสินค้าคงคลัง
+              href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
+            - name: เอกสารขอชำระคืนเงินภาษี
+              href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
+            - name: การปิดบัญชีสิ้นปี
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: ไอซ์แลนด์
+          href: ../financials/localizations/iceland.md
+          items:
+            - name: สร้างบัญชีผู้จัดจำหน่ายและแนบประเภทการประกาศใบแจ้งหนี้
+              href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
+            - name: ตั้งค่าการรายงานใบแจ้งหนี้สำหรับผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
+            - name: ตั้งค่าข้อมูลอ้างอิงการชำระเงินที่จำเป็น
+              href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
+            - name: อัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายและสร้างรายงาน
+              href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
+        - name: อินเดีย
+          href: ../financials/localizations/india.md
+          items:
+            - name: สินทรัพย์ถาวร
+              href: ../financials/localizations/apac-ind-fixed-assets.md
+              items:
+                - name: แนบปฏิทินตามวันกับสมุดบัญชีสินทรัพย์ถาวร
+                  href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
+                - name: คำนวณค่าเสื่อมราคาตามกะการทำงาน
+                  href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
+                - name: สร้างกลุ่มแบบจำลองสินค้าคงคลังสำหรับสินค้าประเภททุน
+                  href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
+                - name: สร้างและลงรายการบัญชีค่าเสื่อมราคา
+                  href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
+                - name: กำหนดชนิดของกะและอุตสาหกรรมสำหรับสมุดบัญชี และแนบกับสินทรัพย์ถาวร
+                  href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
+                - name: การกลับรายการธุรกรรมสินทรัพย์ถาวร
+                  href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
+                - name: การคำนวณค่าเสื่อมราคาตามกะการทำงาน
+                  href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
+                - name: ตั้งค่าปฏิทินทางการเงินตามวัน
+                  href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
+                - name: ตั้งค่าพารามิเตอร์เพื่อคำนวณการคิดค่าเสื่อมราคา
+                  href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
+                - name: ตั้งค่าค่าเสื่อมราคาของกลุ่มสินทรัพย์สำหรับสมุดบัญชีค่าเสื่อมราคา
+                  href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
+                  href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
+            - name: GST อินเดีย
+              href: ../financials/localizations/apac-ind-gst.md
+              items:
+                - name: กลุ่มการอ้างอิง GST อินเดีย
+                  href: ../financials/localizations/apac-ind-gst-reference-groups.md
+                - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+            - name: ภาพรวมกลไกจัดการภาษี
+              href: ../financials/general-ledger/tax-engine.md
+              items:
+                - name: การรวมกลไกจัดการภาษี
+                  href: ../financials/general-ledger/tax-engine-integration.md
+                - name: การขยายกลไกจัดการภาษี
+                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+            - name: FAQ เกี่ยวกับขีดจำกัดภาษี
+              href: ../financials/localizations/apac-ind-tax-thresholds.md
+        - name: อิตาลี
+          href: ../financials/localizations/italy.md
+          items:
+            - name: รายละเอียดงบ VAT
+              href: ../financials/localizations/emea-ita-vat-statements-details.md
+            - name: รายงานรายชื่อบัญชีดำ
+              href: ../financials/localizations/emea-ita-black-list-report.md
+            - name: วันที่ใช้ได้
+              href: ../financials/localizations/emea-ita-competence-date.md
+            - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
+            - name: Modello 770
+              href: ../financials/localizations/emea-ita-modello770.md
+            - name: การตรวจสอบวันที่ในบันทึกการจัดส่งในใบแจ้งหนี้
+              href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
+            - name: ลงรายการบัญชีและพิมพ์บันทึกการจัดส่งที่มีรายละเอียดการจัดส่งของฝ่ายขนส่ง
+              href: ../financials/localizations/emea-ita-packing-slip.md
+            - name: สมุดบัญชีภาษีขาย
+              href: ../financials/localizations/emea-ita-fiscal-books.md
+            - name: แบ่งการชำระเงินสำหรับใบแจ้งหนี้ที่ออกใช้ไปยังการดูแลสาธารณะ
+              href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+            - name: ภาษีหัก ณ ที่จ่าย
+              href: ../financials/localizations/emea-ita-withholding-tax.md
+        - name: ญี่ปุ่น
+          href: ../financials/localizations/japan.md
+          items:
+            - name: ได้รับสินทรัพย์ถาวรและการอ้างสิทธิ์สำหรับเงินช่วยเหลือรัฐบาล
+              href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
+            - name: ได้รับสินทรัพย์ถาวรที่มีข้อผูกมัดการตัดจำหน่ายสินทรัพย์
+              href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
+            - name: ปรับการประเมินข้อผูกมัดของการตัดจำหน่ายสินทรัพย์
+              href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
+            - name: ปันส่วนจำนวนที่ถือครองของสินทรัพย์ที่ใช้ร่วมกันและค่านิยมสำหรับหน่วยสินทรัพย์ที่ก่อให้เกิดเงินสด
+              href: ../financials/localizations/tasks/allocate-carrying-amount.md
+            - name: กฎการปันส่วน
+              href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
+            - name: ค่าธรรมเนียมการชำระเงินของธนาคารชำระโดยผู้จัดจำหน่าย
+              href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
+            - name: เปลี่ยนวิธีการคิดค่าเสื่อมราคาในระหว่างอายุการใช้งานของสินทรัพย์สำหรับสมุดบัญชี
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
+            - name: เปลี่ยนวิธีการคิดค่าเสื่อมราคาในระหว่างอายุการใช้งานของสินทรัพย์สำหรับหนึ่งสินทรัพย์
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์ค่าเสื่อมราคาที่เร็วขึ้นและการลงรายการบัญชีโพรไฟล์
+              href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
+            - name: การตั้งค่าคอนฟิกพารามิเตอร์ใบแจ้งหนี้ที่รวมบัญชีและตั้งค่าสำหรับบัญชีเจ้าหนี้
+              href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
+            - name: ตั้งค่าคอนฟิกโพรไฟล์การคิดค่าเสื่อมราคาและโพรไฟล์การลงบัญชีสำหรับค่าเสื่อมราคาเพิ่มเติม
+              href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
+            - name: ตั้งค่าคอนฟิกบัญชีหลักสำหรับข้อผูกมัดการลงรายการบัญชีการตัดจำหน่ายสินทรัพย์และอัตราส่วนลดของตลาด
+              href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
+            - name: ใบแจ้งหนี้ที่รวมบัญชี
+              href: ../financials/localizations/apac-jpn-consolidate-invoices.md
+            - name: สร้างสินทรัพย์ถาวร ด้วยค่าเสื่อมราคาเพิ่มเติม
+              href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
+            - name: สร้างสินทรัพย์ถาวรด้วยโพรไฟล์ค่าเสื่อมราคาพิเศษ
+              href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
+            - name: สร้างเอกสารการคิดค่าเสื่อมราคาแบบอัตราเร่ง และป้อนข้อมูลการใช้
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
+            - name: สร้างโพรไฟล์การคิดค่าเสื่อมราคาที่เร็วขึ้น และกำหนดให้กับสมุดบัญชี
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
+            - name: สร้างและกำหนดเอกสารรายการการหักลดสำหรับการสำรองเงินช่วยเหลือของรัฐบาล
+              href: ../financials/localizations/tasks/create-assign-reduction-document.md
+            - name: สร้างและกำหนดกลุ่มอุปกรณ์
+              href: ../financials/localizations/tasks/create-assign-equipment-group.md
+            - name: สร้างและยืนยันใบแจ้งหนี้ที่รวมบัญชีของลูกค้า
+              href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
+            - name: สร้างและยืนยันการทดสอบการรับรู้
+              href: ../financials/localizations/tasks/create-confirm-recognition-test.md
+            - name: สร้างและยืนยันใบแจ้งหนี้ที่รวมบัญชีของผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
+            - name: สร้างกลุ่ม CGU และหน่วยที่ก่อให้เกิดเงินสด
+              href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
+            - name: สร้างสินทรัพย์ที่มีค่าเสื่อมราคารวมทั้งหมดโดยใช้วิธีแบ่งเท่าๆ กัน
+              href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
+            - name: กำหนดรอบระยะเวลาที่ไม่ได้ใช้งานของสินทรัพย์ และตรวจสอบความถูกต้องของกระบวนการคิดค่าเสื่อมราคา
+              href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
+            - name: คิดค่าเสื่อมราคาและการรับรู้ดอกเบี้ยค่าใช้จ่ายสำหรับข้อผูกมัดการตัดจำหน่ายสินทรัพย์
+              href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
+            - name: คิดค่าเสื่อมราคาของสินทรัพย์ถาวรที่มีการลงรายการบัญชีที่มีการลด
+              href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
+            - name: FAQ ค่าเสื่อมราคา
+              href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
+            - name: ตัดจำหน่ายสินทรัพย์ถาวรที่มีรายการการลด
+              href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
+            - name: เปิดใช้งานรูปแบบไฟล์การชำระเงิน JBA
+              href: ../financials/localizations/tasks/jba-payment-file-format.md
+            - name: ป้อนกำหนดการอัตราค่าเสื่อมราคาและเชื่อมโยงกับโพรไฟล์การคิดค่าเสื่อมราคา
+              href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
+            - name: วิธีแบ่งค่าเสื่อมราคาเท่า ๆ กัน
+              href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
+            - name: แบบฟอร์ม 26 สำหรับการรายงานภาษีที่คิดค่าเสื่อมราคา
+              href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
+            - name: สร้างไฟล์การชำระเงิน EFT ที่มีรูปแบบ JBA
+              href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
+            - name: สร้างและลงรายการบัญชีค่าธรรมเนียมในการชำระเงิน
+              href: ../financials/localizations/tasks/post-payment-fee.md
+            - name: สร้างรายงานภาษีจากปริมาณการใช้
+              href: ../financials/localizations/tasks/japan-consumption-tax-report.md
+            - name: การบัญชีที่มีความบกพร่องบน CGU
+              href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
+            - name: การบัญชีที่มีความบกพร่อง
+              href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
+            - name: นำเข้าการชำระเงินของลูกค้าที่มีรูปแบบไฟล์ JBA
+              href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
+            - name: นำเข้ารหัสไปรษณีย์
+              href: ../financials/localizations/apac-jpn-import-postal-codes.md
+            - name: สมุดรายวันสำหรับการป้อนค่าในแบบฟอร์มบัญชี T
+              href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
+            - name: สอบถามเกี่ยวกับธุรกรรมที่เกี่ยวข้องกับข้อผูกมัดของการตัดจำหน่ายสินทรัพย์
+              href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
+            - name: สอบถามเกี่ยวกับค่าใช้จ่ายที่สามารถหักได้
+              href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
+            - name: สอบถามเกี่ยวกับค่าธรรมเนียมการชำระเงินในสมุดรายวัน
+              href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
+            - name: รักษาไฟล์ข้อมูลหลักของสินทรัพย์ถาวรสำหรับค่าใช้จ่ายที่สามารถหักได้
+              href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
+            - name: รักษาตัวบ่งชี้ความบกพร่องของสินทรัพย์แต่ละรายการ
+              href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
+            - name: ชำระให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า
+              href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
+            - name: ชำระธุรกรรมให้แก่ผู้จัดจำหน่ายโดยการสลักหลังตั๋วแลกเงินของลูกค้า
+              href: ../financials/localizations/tasks/pay-vendor-transaction.md
+            - name: การชำระประจำงวดของค่าเสื่อมราคาที่มากเกินหรือน้อยเกิน
+              href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
+            - name: การคำนวณภาษีหัก ณ ที่จ่ายแบบก้าวหน้า
+              href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
+            - name: นำเสนอค่าเสื่อมราคาเพิ่มเติม
+              href: ../financials/localizations/tasks/propose-additional-depreciation.md
+            - name: นำเสนอและลงรายการบัญชีค่าเสื่อมราคาแบบอัตราเร่ง
+              href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
+            - name: นำเสนอและลงรายการบัญชียอดเงินผลโดยชุดงาน
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
+            - name: นำเสนอและลงรายการบัญชียอดเงินผลโดยใช้สมุดรายวันสินทรัพย์ถาวร
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
+            - name: นำเสนอและลงรายการบัญชียอดเงินผลสำหรับเงินหน่วยสินทรัพย์ที่ก่อให้เกิดเงินสด
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
+            - name: นำเสนอค่าเสื่อมราคาพิเศษ
+              href: ../financials/localizations/tasks/propose-special-depreciation.md
+            - name: เปิดและแก้ไขใบแจ้งหนี้ที่รวมบัญชีของลูกค้า
+              href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
+            - name: เปิดและแก้ไขใบแจ้งหนี้ที่รวมบัญชีของผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
+            - name: กลับรายการตั๋วแลกเงินที่สลักหลังแล้ว
+              href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
+            - name: รันการทดสอบการรับรู้และคำนวณผลยอดเงินสำหรับสินทรัพย์แต่ละรายการ
+              href: ../financials/localizations/tasks/run-recognition-test-calculate.md
+            - name: ตั้งค่าลูกค้าและใบสั่งขายให้เป็นเป้าหมายของใบแจ้งหนี้ที่รวมบัญชี
+              href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
+            - name: ตั้งค่า ARO
+              href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
+            - name: ตั้งค่าเอกสารข้อผูกมัดการเกษียณอายุของสินทรัพย์ และป้อนจำนวนเงิน ARO ในสินทรัพย์ถาวร
+              href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
+            - name: ตั้งค่าใบแจ้งหนี้ที่รวมบัญชี
+              href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
+            - name: ตั้งค่าพารามิเตอร์ทั่วไปสำหรับการลงบัญชีการด้อยค่าและโพรไฟล์การลงบัญชี
+              href: ../financials/localizations/tasks/impairment-accounting.md
+            - name: ตั้งค่ารายงานภาษีจากปริมาณการใช้ในประเทศญี่ปุ่น
+              href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
+            - name: ตั้งค่าการชำระเงินของประเทศญี่ปุ่นโดยการสลักหลังตั๋วแลกเงินของลูกค้า
+              href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
+            - name: ตั้งค่าข้อมูลหลักสำหรับการรวมค่าใช้จ่ายที่สามารถหักได้สำหรับชั้นของการลงรายการบัญชีหลายรายการ
+              href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
+            - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับประเทศญี่ปุ่น
+              href: ../financials/localizations/tasks/setup-payment-fee-japan.md
+            - name: ตั้งค่ารายการที่มีการลด
+              href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
+            - name: ตั้งค่าข้อมูลหลักของผู้จัดจำหน่ายและใบสั่งซื้อให้เป็นเป้าหมายของใบแจ้งหนี้ที่รวมบัญชี
+              href: ../financials/localizations/tasks/vendor-master-po.md
+            - name: ชำระรายการตั๋วแลกเงินที่สลักหลังแล้ว
+              href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
+            - name: ชำระใบแจ้งหนี้ของลูกค้าที่รวมบัญชีโดยใช้สมุดรายวันการชำระเงิน
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
+            - name: ชำระใบแจ้งหนี้ของลูกค้าที่รวมบัญชีโดยใช้ชำระธุรกรรม
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
+            - name: ชำระใบแจ้งหนี้ของผู้จัดจำหน่ายที่รวมบัญชีโดยใช้สมุดรายวันการชำระเงิน
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
+            - name: ชำระใบแจ้งหนี้ของผู้จัดจำหน่ายที่รวมบัญชีโดยใช้ชำระธุรกรรม
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
+            - name: ใช้รายการรวมของสินทรัพย์ถาวร
+              href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
+            - name: ใช้รายการแยกของสินทรัพย์ถาวร
+              href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
+        - name: ลัตเวีย
+          href: ../financials/localizations/latvia.md
+          items:
+            - name: การบัญชีสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
+            - name: การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
+            - name: ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: รายงานภาษีของทรัพยากรธรรมชาติ
+              href: ../financials/localizations/emea-lva-tax-natural-resources.md
+            - name: รายละเอียดงบ VAT
+              href: ../financials/localizations/emea-lva-vat-statement-details.md
+        - name: ลิทัวเนีย
+          href: ../financials/localizations/lithuania.md
+          items:
+            - name: รายงานซ่อมแซมสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
+            - name: สร้างเอกสารคลังสินค้าระหว่างการโอนย้ายสินทรัพย์ถาวร
+              href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
+            - name: ใบแจ้งหนี้และการกำหนดหมายเลขบันทึกการจัดส่ง
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: รายละเอียดงบ VAT
+              href: ../financials/localizations/emea-ltu-vat-statement-details.md
+        - name: มาเลเซีย
+          href: ../financials/localizations/malaysia.md
+          items:
+            - name: สร้างสินเชื่อลูกค้าสำหรับการขายของโครงการ
+              href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
+            - name: สร้างการหักบัญชีเงินฝากอัตโนมัติของลูกค้าสำหรับการขายของโครงการ
+              href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
+            - name: ภาษีสินค้าและบริการ (GST)
+              href: ../financials/localizations/apac-mys-gst.md
+            - name: GST - สร้างไฟล์ GAF ในรูปแบบที่กำหนด
+              href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
+            - name: จัดการการหักบัญชีเงินฝากอัตโนมัติและสินเชื่อของลูกค้าสำหรับ GST
+              href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
+            - name: จัดการการหักบัญชีเงินฝากอัตโนมัติและสินเชื่อของผู้จัดจำหน่ายสำหรับ GST
+              href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
+            - name: พิมพ์ใบแจ้งหนี้ของลูกค้า GST ที่มีข้อกำหนดการลดหย่อนภาษี
+              href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
+            - name: พิมพ์ใบแจ้งหนี้ภาษี GST
+              href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
+            - name: ใบแจ้งหนี้เรียกเก็บเงินด้วยตนเอง
+              href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
+            - name: ตั้งค่าข้อกำหนดการลดหย่อนภาษี GST
+              href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
+        - name: เม็กซิโก
+          href: ../financials/localizations/mexico.md
+          items:
+            - name: ขอบเขตของการแปลเป็นภาษาท้องถิ่น
+              href: ../financials/localizations/latam-mex-scope.md
+            - name: การรายงานการปรับปรุงเงินเฟ้อ
+              href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
+            - name: ยกเลิกใบแจ้งหนี้อิเล็กทรอนิกส์
+              href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
+            - name: CFDI เวอร์ชัน 3.3
+              href: ../financials/localizations/latam-mex-cfdi-3-3.md
+            - name: รหัสการลงทะเบียนลูกค้าและข้อมูลอื่นๆ
+              href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
+            - name: สถานะการรายงานภาษี DIOT
+              href: ../financials/localizations/latam-mex-diot-declaration-statement.md
+            - name: การออกใบแจ้งหนี้อิเล็กทรอนิกส์ CFDIE
+              href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
+            - name: ใบแจ้งหนี้อิเล็กทรอนิกส์
+              href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
+            - name: ใบแจ้งยอดบัญชีแยกประเภทอิเล็กทรอนิกส์
+              href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
+            - name: ป้อนรหัสทะเบียนภาษีสำหรับนิติบุคคลของเม็กซิโก
+              href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
+            - name: สอบถามและพิมพ์ใบแจ้งหนี้อิเล็กทรอนิกส์
+              href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
+            - name: รายงานการรายงานภาษี ISR
+              href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
+            - name: ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระ
+              href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
+            - name: สร้างรายงานบัญชีแยกประเภททางอิเล็กทรอนิกส์ของเม็กซิโกรุ่น 1.1
+              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
+            - name: ตั้งค่าพารามิเตอร์สำหรับใบแจ้งหนี้อิเล็กทรอนิกส์
+              href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
+            - name: ตั้งค่ารหัสภาษีขายสำหรับเม็กซิโก
+              href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
+            - name: ตั้งค่าผังบัญชีสำหรับนิติบุคคลในเม็กซิโก
+              href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
+            - name: ระบุรหัสการลงทะเบียน RFC สำหรับบัญชีธนาคารของเม็กซิโก
+              href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
+            - name: รหัสการลงทะเบียนผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+        - name: เนเธอร์แลนด์
+          href: ../financials/localizations/netherlands.md
+          items:
+            - name: การรายงานภาษีทางอิเล็กทรอนิกส์ (EVAT)
+              href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
+            - name: การรวม Semansys XBRL
+              href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
+        - name: นอร์เวย์
+          href: ../financials/localizations/norway.md
+          items:
+            - name: รูปแบบการชำระเงินของลูกค้าและการชำระเงินให้แก่ผู้จัดจำหน่าย
+              href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
+            - name: การชำระเงินของลูกค้าขึ้นอยู่กับรหัสการชำระเงิน
+              href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
+            - name: รูปแบบนำเข้า Nets
+              href: ../financials/localizations/emea-nor-nets-import-format.md
+            - name: งบ VAT
+              href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
+            - name: เครื่องบันทึกเงินสด
+              href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+              href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+        - name: โปแลนด์
+          href: ../financials/localizations/poland.md
+          items:
+            - name: คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย
+              href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
+            - name: หมายเหตุการแก้ไข
+              href: ../financials/localizations/emea-pol-correction-notes.md
+            - name: ทำสำเนาการกำหนดหมายเลขใบแจ้งหนี้การขาย
+              href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
+            - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
+            - name: ส่วนขยายฟังก์ชันการทำงานการตัดจำหน่ายสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: บรรจุภัณฑ์ที่สามารถส่งคืนได้
+              href: ../financials/localizations/emea-pol-returnable-packages.md
+            - name: รายงานภาษีขาย
+              href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: ไฟล์การตรวจสอบมาตรฐาน
+              href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
+            - name: ดอกเบี้ยภาษีและดอกเบี้ยฟรีแฮนด์
+              href: ../financials/localizations/emea-pol-interest-calculation.md
+            - name: รายงานยอดขายและยอดดุล
+              href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: ซาอุดีอาระเบีย
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2183,7 +2121,83 @@
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: การรายงาน Zakat สำหรับซาอุดีอาระเบีย
               href: ../financials/localizations/emea-sau-zakat-reporting.md
-        - name: สหรัฐอเมริกา
+        - name: สิงคโปร์
+          href: ../financials/localizations/singapore.md
+          items:
+            - name: สร้างรายงาน GST-05
+              href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
+        - name: สเปน
+          href: ../financials/localizations/spain.md
+          items:
+            - name: ใช้ส่วนลดเงินสดในใบแจ้งหนี้
+              href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
+            - name: ตัวเลือกตั๋วแลกเงิน
+              href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: ภาษีขายแบบมีเงื่อนไข
+              href: ../financials/localizations/emea-esp-conditional-sales-tax.md
+            - name: การออกใบแจ้งหนี้เงินเชื่อ
+              href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
+            - name: บัญชีใบแจ้งหนี้ข้อมูลบัญชี
+              href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
+            - name: การประเมินค่าใหม่กลุ่มสินทรัพย์ถาวร
+              href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
+            - name: VAT ภายในประชาคม
+              href: ../financials/localizations/emea-esp-intra-community-vat.md
+            - name: ลูกค้าขาจร
+              href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
+            - name: พิมพ์เช็คเป็นภาษาสเปน
+              href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
+            - name: ตัวเลือกตั๋วสัญญาใช้เงิน
+              href: ../financials/localizations/emea-esp-promissory-note-options.md
+            - name: รายงาน 340
+              href: ../financials/localizations/emea-esp-report-340.md
+            - name: วงจรการขายและการซื้อ
+              href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
+            - name: รายการพิเศษและแผ่นงานการเปิด
+              href: ../financials/localizations/emea-esp-opening-sheets-spain.md
+        - name: สวีเดน
+          href: ../financials/localizations/sweden.md
+          items:
+            - name: ส่งออกข้อมูลทางการเงินสำหรับผู้ตรวจสอบบัญชีในสวีเดน
+              href: ../financials/localizations/emea-swe-sie-standard-report.md
+            - name: นำเข้ารูปแบบการชำระเงิน
+              href: ../financials/localizations/emea-swe-payment-formats-import.md
+            - name: เครื่องบันทึกเงินสด
+              href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: สวิตเซอร์แลนด์
+          href: ../financials/localizations/switzerland.md
+          items:
+            - name: นำเข้าการชำระเงินของลูกค้าใน ESR
+              href: ../financials/localizations/emea-che-esr-customer-payments-import.md
+        - name: ไทย
+          href: ../financials/localizations/thailand.md
+          items:
+            - name: รายงานบัตรสินค้าคงคลัง
+              href: ../financials/localizations/apac-tha-stock-card-reports.md
+            - name: หมายเลขของใบกำกับภาษีการปรับปรุง/ใบแทน
+              href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
+            - name: VAT ที่ยังไม่รับรู้
+              href: ../financials/localizations/apac-tha-unrealized-vat.md
+            - name: ภาษีหัก ณ ที่จ่าย
+              href: ../financials/localizations/apac-tha-withholding-tax.md
+        - name: สหราชอาณาจักร
+          href: ../financials/localizations/united-kingdom.md
+          items:
+            - name: แผนงานอุตสาหกรรมก่อสร้าง
+              href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
+            - name: สร้างสินเชื่อในส่วนลดการชำระเงิน
+              href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
+            - name: การสร้างใบสั่งซื้อที่มีสินค้าที่ต้องเสีย VAT ย้อนกลับ
+              href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
+            - name: การสร้างใบสั่งขายที่มีสินค้าที่ต้องเสีย VAT ย้อนกลับ
+              href: ../financials/localizations/tasks/gb-00002-sales-order.md
+            - name: การตั้งค่ากลุ่มภาษีขายตามประเภทสินค้าสำหรับ VAT ย้อนกลับ
+              href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+            - name: ตั้งค่ากลุ่มสินค้า กฎ และพารามิเตอร์ VAT ย้อนกลับ
+              href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+            - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
+              href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+        - name: สหรัฐ
           href: ../financials/localizations/united-states.md
           items:
             - name: การรายงาน 1099 สิ้นปีสำหรับสหรัฐอเมริกา
@@ -2195,12 +2209,20 @@
       items:
         - name: พัฒนากลยุทธ์ด้านทรัพยากรบุคคล
           items:
+            - name: สร้างเป้าหมาย
+              href: hr/tasks/create-goal.md
             - name: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
               href: ../talent/departments-jobs-positions.md
             - name: ตั้งค่าส่วนประกอบของงาน
               href: ../talent/create-job.md
+            - name: กำหนดฝ่ายใหม่
+              href: hr/tasks/define-new-departments.md
+            - name: กำหนดงานใหม่
+              href: hr/tasks/define-new-jobs.md
             - name: สร้างแผนกและการเชื่อมโยงกับลำดับชั้นของแผนก
               href: ../talent/create-department-add-department-hierarchy.md
+            - name: สร้างปฏิทินและกำหนดเวลาการทำงาน
+              href: hr/tasks/create-calendar-working-times.md
             - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
             - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
@@ -2209,12 +2231,46 @@
               href: ../talent/personnel-actions-faq.md
             - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
               href: ../talent/workflow-manage-employee-information.md
+            - name: แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง
+              href: hr/tasks/modify-reporting-relationships-position.md
+            - name: อนุมัติเรกคอร์ดกล่องข้อความใบสมัคร
+              href: hr/tasks/approve-application-inbox-records.md
+            - name: ป้อนข้อมูลผู้ปฏิบัติงาน
+              href: hr/tasks/enter-worker-information.md
+            - name: รายการกู้ยืมของผู้ปฏิบัติงาน
+              href: hr/tasks/loan-item-worker.md
+            - name: สร้างรายการกู้ยืม
+              href: hr/tasks/create-loan-items.md
+            - name: จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
+              href: ../talent/loan-items.md
+            - name: พัฒนาแผนการสืบทอด
+              href: hr/tasks/develop-succession-plan.md
+            - name: ป้อนแผ่นเวลาโครงการ
+              href: hr/tasks/enter-project-timesheets.md
+            - name: จัดการเท็มเพลตอีเมล
+              href: hr/tasks/manage-email-templates.md
+            - name: จัดการกับการลาหยุด
+              href: hr/tasks/manage-leave-absence.md
         - name: การสรรหา
           items:
             - name: จัดการกระบวนการสรรหาบุคลากร
               href: hr/manage-recruiting-process.md
             - name: โครงการจ้างงานโดยรวม
               href: hr/mass-hire-projects.md
+            - name: สร้างโครงการจ้างงานโดยรวม
+              href: hr/tasks/create-mass-hire-project.md
+            - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
+              href: hr/tasks/enter-applicant-application-data-manually.md
+            - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
+              href: hr/tasks/develop-open-job-requisition.md
+            - name: ตั้งค่าตำแหน่ง
+              href: hr/tasks/set-up-positions.md
+            - name: จ้างงานผู้สมัครผ่านการสรรหาบุคลากร
+              href: hr/tasks/hire-candidate-through-recruiting.md
+            - name: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
+              href: hr/tasks/hire-existing-employee-through-recruiting.md
+            - name: ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
+              href: hr/tasks/identify-deploy-candidate-selection-tools.md
         - name: จูงใจพนักงาน
           items:
             - name: แผนค่าตอบแทน
@@ -2223,8 +2279,22 @@
               href: ../talent/create-fixed-compensation-plans.md
             - name: สร้างแผนค่าตอบแทนผันแปร
               href: ../talent/create-variable-compensation-plans.md
+            - name: กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
+              href: hr/tasks/define-compensation-process-calculate-results.md
             - name: ประมวลผลค่าตอบแทน
               href: ../talent/process-compensation.md
+            - name: ตั้งค่ากริดค่าตอบแทน
+              href: hr/tasks/set-up-compensation-grids.md
+            - name: พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน
+              href: hr/tasks/develop-salary-compensation-structure-plan.md
+            - name: เพิ่มข้อมูลลงในสมุดรายวันประสิทธิภาพของคุณและส่งการชมเชย
+              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
+            - name: ลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่
+              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
+            - name: ลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร
+              href: hr/tasks/enroll-employee-variable-compensation-plan.md
+            - name: สร้างการตรวจสอบประสิทธิภาพ
+              href: hr/tasks/create-performance-review.md
         - name: พัฒนาและฝึกอบรมพนักงาน
           items:
             - name: ภาพรวมของการบริหารประสิทธิภาพ
@@ -2239,8 +2309,18 @@
               href: ../talent/manage-benefit-program.md
             - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
               href: ../talent/benefit-eligibility-policies.md
-            - name: จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
-              href: ../talent/loan-items.md
+            - name: กระบวนการการมีสิทธิ์ในสวัสดิการ
+              href: hr/tasks/benefit-eligibility-process.md
+            - name: กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ
+              href: hr/tasks/define-benefit-eligibility-rules-policies.md
+            - name: นำเสนอโปรแกรมสวัสดิการของพนักงาน
+              href: hr/tasks/deliver-employee-benefits-program.md
+            - name: สร้างสวัสดิการใหม่
+              href: hr/tasks/create-new-benefit.md
+            - name: ลงทะเบียนผู้ปฏิบัติงานในสวัสดิการและลบสวัสดิการจากผู้ปฏิบัติงาน
+              href: hr/tasks/enroll-remove-benefits-workers.md
+            - name: จัดการวันหมดอายุของสวัสดิการ
+              href: hr/tasks/manage-benefit-expiration-dates.md
         - name: รวบรวมข้อมูลโดยใช้แบบสอบถาม
           items:
             - name: แบบสอบถาม
@@ -2249,8 +2329,18 @@
               href: ../talent/design-questionnaires.md
             - name: กระจายและทำแบบสอบถามให้เสร็จสมบูรณ์
               href: ../talent/distribute-questionnaires.md
+            - name: กระจายแบบสอบถามโดยใช้การจัดกำหนดการ
+              href: hr/tasks/distribute-questionnaires-scheduling.md
             - name: ประเมินผลลัพธ์ของแบบสอบถาม
               href: ../talent/evaluate-questionnaire-results.md
+            - name: วิเคราะห์ผลลัพธ์ของแบบสอบถาม
+              href: hr/tasks/analyze-questionnaire-results.md
+            - name: สร้างคำถามปลายเปิด
+              href: hr/tasks/create-open-ended-question.md
+            - name: สร้างคำถามแบบปลายปิด
+              href: hr/tasks/create-closed-ended-question.md
+            - name: กำหนดคำถามโดยขึ้นอยู่กับคำตอบของคำถามก่อนหน้านี้
+              href: hr/tasks/make-question-dependent-answer-previous-question.md
         - name: ความปลอดภัยที่ทำงานและการปฏิบัติตามกฎระเบียบ (สหรัฐอเมริกา)
           items:
             - name: การตรวจสอบแบบฟอร์ม I-9
@@ -2263,6 +2353,10 @@
               href: hr/localizations/noam-usa-comply-ada.md
             - name: จัดการที่พักของผู้ปฏิบัติงาน
               href: hr/localizations/tasks/manage-worker-accommodations.md
+            - name: ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
+              href: hr/tasks/set-up-injury-illness-information.md
+            - name: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
+              href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: ค่าจ้างของสหรัฐอเมริกา
           href: hr/localizations/noam-usa-payroll.md
           items:
@@ -2331,88 +2425,6 @@
                   href: hr/localizations/noam-usa-payroll-data-updates.md
                 - name: รายงานบัญชีเงินเดือนมาตรฐาน
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: งานทรัพยากรบุคคล
-          items:
-            - name: เพิ่มข้อมูลลงในสมุดรายวันประสิทธิภาพของคุณและส่งการชมเชย
-              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
-            - name: วิเคราะห์ผลลัพธ์ของแบบสอบถาม
-              href: hr/tasks/analyze-questionnaire-results.md
-            - name: อนุมัติเรกคอร์ดกล่องข้อความใบสมัคร
-              href: hr/tasks/approve-application-inbox-records.md
-            - name: กระบวนการการมีสิทธิ์ในสวัสดิการ
-              href: hr/tasks/benefit-eligibility-process.md
-            - name: สร้างปฏิทินและกำหนดเวลาการทำงาน
-              href: hr/tasks/create-calendar-working-times.md
-            - name: สร้างคำถามแบบปลายปิด
-              href: hr/tasks/create-closed-ended-question.md
-            - name: สร้างเป้าหมาย
-              href: hr/tasks/create-goal.md
-            - name: สร้างรายการกู้ยืม
-              href: hr/tasks/create-loan-items.md
-            - name: สร้างโครงการจ้างงานโดยรวม
-              href: hr/tasks/create-mass-hire-project.md
-            - name: สร้างสวัสดิการใหม่
-              href: hr/tasks/create-new-benefit.md
-            - name: สร้างคำถามปลายเปิด
-              href: hr/tasks/create-open-ended-question.md
-            - name: สร้างการตรวจสอบประสิทธิภาพ
-              href: hr/tasks/create-performance-review.md
-            - name: กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ
-              href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
-              href: hr/tasks/define-compensation-process-calculate-results.md
-            - name: กำหนดฝ่ายใหม่
-              href: hr/tasks/define-new-departments.md
-            - name: กำหนดงานใหม่
-              href: hr/tasks/define-new-jobs.md
-            - name: นำเสนอโปรแกรมสวัสดิการของพนักงาน
-              href: hr/tasks/deliver-employee-benefits-program.md
-            - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
-              href: hr/tasks/develop-open-job-requisition.md
-            - name: พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน
-              href: hr/tasks/develop-salary-compensation-structure-plan.md
-            - name: พัฒนาแผนการสืบทอด
-              href: hr/tasks/develop-succession-plan.md
-            - name: กระจายแบบสอบถามโดยใช้การจัดกำหนดการ
-              href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: การลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่
-              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: การลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร
-              href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: ลงทะเบียนผู้ปฏิบัติงานในสวัสดิการและลบสวัสดิการจากผู้ปฏิบัติงาน
-              href: hr/tasks/enroll-remove-benefits-workers.md
-            - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
-              href: hr/tasks/enter-applicant-application-data-manually.md
-            - name: ป้อนแผ่นเวลาโครงการ
-              href: hr/tasks/enter-project-timesheets.md
-            - name: ป้อนข้อมูลผู้ปฏิบัติงาน
-              href: hr/tasks/enter-worker-information.md
-            - name: จ้างงานผู้สมัครผ่านการสรรหาบุคลากร
-              href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
-              href: hr/tasks/hire-existing-employee-through-recruiting.md
-            - name: ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
-              href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: รายการกู้ยืมของผู้ปฏิบัติงาน
-              href: hr/tasks/loan-item-worker.md
-            - name: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
-              href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: กำหนดคำถามโดยขึ้นอยู่กับคำตอบของคำถามก่อนหน้านี้
-              href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: จัดการวันหมดอายุของสวัสดิการ
-              href: hr/tasks/manage-benefit-expiration-dates.md
-            - name: จัดการเท็มเพลตอีเมล
-              href: hr/tasks/manage-email-templates.md
-            - name: จัดการกับการลาหยุด
-              href: hr/tasks/manage-leave-absence.md
-            - name: แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง
-              href: hr/tasks/modify-reporting-relationships-position.md
-            - name: ตั้งค่ากริดค่าตอบแทน
-              href: hr/tasks/set-up-compensation-grids.md
-            - name: ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
-              href: hr/tasks/set-up-injury-illness-information.md
-            - name: ตั้งค่าตำแหน่ง
-              href: hr/tasks/set-up-positions.md
     - name: ข่าวกรอง
       href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
@@ -3635,6 +3647,8 @@
               href: ../supply-chain/sales-marketing/tasks/register-sales-commissions.md
             - name: ตั้งค่ากฎค่าส่งเสริมการขายให้แก่ผู้ขาย
               href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
+        - name: การให้ส่วนลดทางการค้า
+          href: ../supply-chain/sales-marketing/trade-allowance.md
     - name: การจัดการงานบริการ
       href: ../supply-chain/service-management/service-management-home-page.md
       items:

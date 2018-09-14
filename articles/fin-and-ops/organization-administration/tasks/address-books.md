@@ -3,7 +3,7 @@ title: "ตั้งค่าคอนฟิกสมุดที่อยู่
 description: "ใช้กระบวนงานนี้และการตัดสินใจที่คุณได้ทำไว้ในการวางแผนและการตั้งค่าคอนฟิกของสมุดที่อยู่สากลและหัวข้อสมุดที่อยู่เพิ่มเติม เพื่อตั้งค่าสมุดที่อยู่เพิ่มเติมสำหรับองค์กรของคุณ "
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 0db6308167741408e787f60f657aa24e4f1a8469
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 325e3974cb38afea46c2f735165ee2fd1a6a22ab
 ms.contentlocale: th-th
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="configure-address-books"></a><span data-ttu-id="5a489-103">ตั้งค่าคอนฟิกสมุดที่อยู่</span><span class="sxs-lookup"><span data-stu-id="5a489-103">Configure address books</span></span>

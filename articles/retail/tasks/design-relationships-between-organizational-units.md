@@ -3,7 +3,7 @@ title: " ออกแบบความสัมพันธ์ระหว่�
 description: "กระบวนงานนี้แนะนำเกี่ยวกับวิธีการออกแบบความสัมพันธ์ระหว่างหน่วยงาน "
 author: mugunthanm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: b0e013d2987514594e027e3b2a2f0eb19d44c968
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 7e0f775d2d0994708da1435523e0d1f497af127c
 ms.contentlocale: th-th
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="8ca8f-103"> ออกแบบความสัมพันธ์ระหว่างหน่วยงานขององค์กร</span><span class="sxs-lookup"><span data-stu-id="8ca8f-103">Design the relationships between organizational units</span></span>
