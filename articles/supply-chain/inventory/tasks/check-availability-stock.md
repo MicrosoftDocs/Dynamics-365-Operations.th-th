@@ -1,7 +1,7 @@
 --- 
 title: "ตรวจสอบความพร้อมของสินค้าคงคลัง"
 description: "กระบวนงานนี้จะแสดงวิธีการตรวจสอบสินค้าคงคลังคงเหลือและสินค้าคงคลังคงเหลือที่มีอยู่จริงสำหรับจำนวนสินค้าเฉพาะ "
-author: 
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
