@@ -27,6 +27,9 @@ ms.lasthandoff: 08/09/2018
 ---
 
 # <a name="powerbicom-solutions-home-page"></a>โฮมเพจโซลูชัน PowerBI.com
+
+[!include [banner](../includes/banner.md)]
+
 โซลูชัน PowerBI.com ต่อไปนี้จะพร้อมใช้งานสำหรับสภาพแวดล้อม Dynamics 365 for Finance and Operations
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก Lifecycle Services (LCS)

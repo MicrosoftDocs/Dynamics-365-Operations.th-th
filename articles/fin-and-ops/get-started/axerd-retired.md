@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>มีการถอนหน้า AxErd
 
+[!include [banner](../includes/banner.md)]
+
 ขออภัย เราต้องถอนเว็บเพจ AxErd ซึ่งระบุไดอะแกรมความสัมพันธ์เอนทิตี้ (ERDs) สำหรับตาราง Microsoft Dynamics AX 2012 จำนวนมาก เราสามารถลงรายการบัญชีได้ทั้งโค้ดต้นฉบับสำหรับโครงการ และไฟล์ HTML สำหรับเว็บเพจใน repo GitHub: https://github.com/Microsoft/ax-2012-doc-tools
 
 หน้า HTML อยู่ใน repo ที่ [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)
