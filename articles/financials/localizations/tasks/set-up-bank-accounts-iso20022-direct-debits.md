@@ -3,30 +3,31 @@ title: "ตั้งค่าลูกค้าและบัญชีธนา
 description: "งานนี้จะช่วยคุณในการตั้งค่าบัญชีธนาคารของลูกค้าและข้อตกลงการหักบัญชีเงินฝากอัตโนมัติของลูกค้าที่จำเป็นในการสร้างไฟล์การชำระเงินของลูกค้า เช่น การหักบัญชีเงินฝากอัตโนมัติ ISO20022 "
 author: mrolecki
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustTable, CustBankAccounts, CustDirectDebitMandate, BankAccountTableLookUp,  LogisticsAddressCityLookup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 22fadf126dfa884520bc2fe6f94bc3fe3b612f77
-ms.openlocfilehash: 86c3f62e17d4955c12d09b512624eb5f576a9cd3
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 5b4652b76e089d6beb2ce1513d06cf07a5ea3195
 ms.contentlocale: th-th
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>ตั้งค่าลูกค้าและบัญชีธนาคารของลูกค้าสำหรับการหักบัญชีเงินฝากอัตโนมัติ ISO20022
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-งานนี้จะช่วยคุณในการตั้งค่าบัญชีธนาคารของลูกค้าและข้อตกลงการหักบัญชีเงินฝากอัตโนมัติของลูกค้าที่จำเป็นในการสร้างไฟล์การชำระเงินของลูกค้า เช่น การหักบัญชีเงินฝากอัตโนมัติ ISO20022  ทั้งนี้ขึ้นอยู่กับรูปแบบการชำระเงินของลูกค้าที่ตั้งค่าไว้ ข้อมูลเพิ่มเติม ไม่ครอบคลุมอยู่ในกระบวนงานนี้ อาจจำเป็นสำหรับลูกค้าหรือบัญชีธนาคารของลูกค้า 
+งานนี้จะช่วยคุณในการตั้งค่าบัญชีธนาคารของลูกค้าและข้อตกลงการหักบัญชีเงินฝากอัตโนมัติของลูกค้าที่จำเป็นในการสร้างไฟล์การชำระเงินของลูกค้า เช่น การหักบัญชีเงินฝากอัตโนมัติ ISO20022  ทั้งนี้ขึ้นอยู่กับรูปแบบการชำระเงินของลูกค้าที่ตั้งค่าไว้ อาจจำเป็นต้องมีรายละเอียดเพิ่มเติมซึ่งไม่ครอบคลุมอยู่ในกระบวนงานนี้สำหรับลูกค้าหรือบัญชีธนาคารของลูกค้า 
 
 งานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF ที่มีที่อยู่หลักของนิติบุคคลในเยอรมนี
 

@@ -3,7 +3,7 @@ title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance 
 description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations"
 author: margoc
 manager: AnnBe
-ms.date: 03/02/2018
+ms.date: 08/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,6 +26,7 @@ ms.lasthandoff: 08/09/2018
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
+
 [!include [banner](includes/banner.md)]
 
 เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 

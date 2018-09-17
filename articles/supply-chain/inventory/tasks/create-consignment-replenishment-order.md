@@ -1,21 +1,22 @@
----
+--- 
 title: "สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ"
 description: "กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ "
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="receive-items"></a>รับสินค้า
 1. คลิก ใบรับสินค้า
 2. ในฟิลด์ใบรับสินค้าภายนอก ให้พิมพ์ค่า
-3. ในฟิลด์ปริมาณ ให้ป้อนหมายเลขที่ต่ำกว่าหมายเลขที่แสดงอยู่
+3. ในฟิลด์ปริมาณ ให้ป้อนหมายเลขที่ต่ำกว่าหมายเลขที่แสดงอยู่ 
 4. คลิก ตกลง
 
 ## <a name="check-the-on-hand-inventory"></a>ตรวจสอบปริมาณคงคลังคงเหลือ
@@ -70,4 +71,5 @@ ms.lasthandoff: 09/29/2017
     * สินค้าที่ได้รับเป็นสินค้าคงคลังที่มีการส่งมอบที่ผู้จัดจำหน่ายเป็นเจ้าของเป็นปริมาณคงคลังคงเหลือที่พร้อมใช้งาน  ปริมาณคงเหลือในใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบจะแสดงอยู่ในฟิลด์ผลรวมที่สั่ง  
 4. ปิดหน้า
 5. คลิก ปิด
+
 

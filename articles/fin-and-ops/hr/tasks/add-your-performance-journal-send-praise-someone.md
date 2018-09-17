@@ -1,28 +1,29 @@
 --- 
-title: "เพิ่มข้อมูลลงในสมุดรายวันประสิทธิภาพของคุณ และส่งการชมเชย"
+title: "เพิ่มลงในสมุดรายวันประสิทธิภาพของคุณ และส่งการชมเชยให้แก่บุคคลอื่น"
 description: "สมุดรายวันประสิทธิภาพจะเก็บข้อมูลที่เกี่ยวข้องกับวิธีที่คุณดำเนินการตามเป้าหมายของคุณหรือวิธีที่คุณดำเนินการในระหว่างรอบระยะเวลา "
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>เพิ่มข้อมูลลงในสมุดรายวันประสิทธิภาพของคุณ และส่งการชมเชย
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>เพิ่มลงในสมุดรายวันประสิทธิภาพของคุณ และส่งการชมเชยให้แก่บุคคลอื่น
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ ms.lasthandoff: 08/09/2018
 9. ในฟิลด์คำสำคัญ ให้พิมพ์ค่า
 10. คลิก เพิ่มการเชื่อมโยงภายนอก
 11. ในฟิลด์คำอธิบาย พิมพ์ 'การมองเห็น'
-12. ในฟิลด์ที่อยู่อินเทอร์เน็ต ให้พิมพ์ '<https://www.microsoft.com/en/envision/default>'
+12. ในฟิลด์ที่อยู่อินเทอร์เน็ต พิมพ์ 'https://www.microsoft.com/en/envision/default'
 13. คลิกคำอธิบายใต้ปุ่มบันทึกที่ระบุว่า "สมุดรายวันประสิทธิภาพ" เพื่อกลับไปยังกริด
     * คุณสามารถเพิ่มสมุดรายวันที่เลือกอย่างน้อยหนึ่งรายการให้กับเป้าหมายเพื่อให้ปรากฏขึ้นเมื่อคุณเปิดเป้าหมาย  การเชื่อมโยงจะถูกเพิ่มลงในแท็บด่วนการเชื่อมโยง ถ้าคุณเพิ่มสมุดรายวันให้กับเป้าหมาย และเพิ่มเป้าหมายให้กับการตรวจทาน สมุดรายวันจะปรากฏในการตรวจทานโดยอัตโนมัติ  
     * คุณสามารถเพิ่มสมุดรายวันที่เลือกอย่างน้อยหนึ่งรายการให้กับเป้าหมายเพื่อให้ปรากฏขึ้นเมื่อคุณเปิดเป้าหมาย     การเชื่อมโยงจะถูกเพิ่มลงในแท็บด่วนการเชื่อมโยง  

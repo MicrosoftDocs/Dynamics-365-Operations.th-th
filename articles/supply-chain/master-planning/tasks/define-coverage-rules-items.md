@@ -3,23 +3,24 @@ title: "กำหนดกฎความครอบคลุมสำหรั
 description: "ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: fe92393cc264df68f084db6974f7d4607d37d3ab
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-coverage-rules-for-items"></a>กำหนดกฎความครอบคลุมสำหรับสินค้า
@@ -100,7 +101,7 @@ ms.lasthandoff: 11/02/2017
 4. คลิกแท็บ ทั่วไป
 5. เช็คกล่องบนหัวข้อของแทนที่การตั้งค่ากลุ่มความครอบคลุม
 6. ในฟิลด์กรอบเวลาความครอบคลุม (วัน) ให้ป้อน 60
-    * แม้ว่าสินค้าที่อยู่ภายใต้ข้อกำหนดกกลุ่มความครอบคลุมถูกวางแผนไว้ 90 วันล่วงหน้า สินค้านี้จะถูกวางแผนไว้ 60 วันล่วงหน้า  
+    * แม้ว่าสินค้าที่อยู่ภายใต้ข้อกำหนดกลุ่มที่วางแผนไว้ 90 วันล่วงหน้า สินค้านี้จะถูกวางแผนไว้ 60 วันล่วงหน้า  
 7. ในฟิลด์จำนวนวันค่าลบ ให้ป้อน 2
 8. ในฟิลด์จำนวนวันค่าบวก ให้ป้อน 2
 9. คลิกที่แท็บเวลารอคอยสินค้า

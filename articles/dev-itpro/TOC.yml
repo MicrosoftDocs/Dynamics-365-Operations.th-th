@@ -263,7 +263,7 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: ผ่อนปรนข้อจำกัดของแบบจำลองเพื่อปรับโครงสร้างการโอเวอร์เลย์เป็นส่วนขยาย
               href: extensibility/refactoring-over-layering.md
-        - name: ฉันจะทำอย่างไร
+        - name: การสร้างส่วนขยาย
           items:
             - name: เพิ่มค่าไปยัง Enum
               href: extensibility/add-enum-value.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: ขยายแผนผังตารางที่ใช้สำหรับการกำหนดรุ่น
               href: extensibility/maps-with-versioning.md
+        - name: การสร้างโซลูชันที่ขยายได้
+          items:
+            - name: เขียนโค้ดที่ขยายได้
+              href: extensibility/writing-extensible-code.md
+            - name: คลาส
+              href: extensibility/extensible-classes.md
+            - name: วิธีการ
+              href: extensibility/extensible-methods.md
+            - name: แบบฟอร์ม
+              href: extensibility/extensible-forms.md
+            - name: ชนิดข้อมูลแบบขยาย
+              href: extensibility/extensible-edts.md
+            - name: Enum ที่ขยายได้
+              href: extensibility/extensible-enums.md
+            - name: ผู้รับมอบสิทธิ์
+              href: extensibility/extensible-code-delegates.md
+            - name: ตาราง
+              href: extensibility/extensible-tables.md
+            - name: แอททริบิวต์ความสามารถในการเพิ่มฟังก์ชันสำหรับวิธีการ
+              href: extensibility/extensibility-attributes.md
+            - name: การจำแนกการเปลี่ยนแปลง
+              href: extensibility/breaking-changes.md
     - name: ประสิทธิภาพ
       items:
-        - name: ติดตามโดยใช้ Trace Parser
+        - name: ติดตามโดยใช้ตัวแยกวิเคราะห์ Trace
           href: perf-test/trace-trace-tutorial.md
         - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ด้วย Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ในสภาพแวดล้อมแบบในสถานที่
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: วินิจฉัยปัญหาและวิเคราะห์ปัญหาประสิทธิภาพโดยใช้ Trace Parser
+        - name: วินิจฉัยปัญหาและวิเคราะห์ปัญหาประสิทธิภาพโดยใช้ตัวแยกวิเคราะห์ Trace
           href: perf-test/trace-parser.md
         - name: ระบบจับเวลาของประสิทธิภาพ
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: รายงานความขัดข้องในการผลิต
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: ทรัพยากรสำหรับ Lifecycle Services
@@ -1236,11 +1260,13 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
       href: lifecycle-services/restart-environment-services.md
+    - name: รายงานความขัดข้องในการผลิต
+      href: lifecycle-services/report-production-outage.md
     - name: ติดตามการลงชื่อเข้าใช้ของผู้ใช้
       href: lifecycle-services/user-logins.md
     - name: ไลบรารีแอสเซท
       href: lifecycle-services/asset-library.md
-    - name: บริการแปลภาษาของ Microsoft Dynamics 365
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
         - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
