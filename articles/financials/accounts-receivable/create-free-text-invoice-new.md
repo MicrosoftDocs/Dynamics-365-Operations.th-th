@@ -1,9 +1,9 @@
 --- 
 title: "สร้างใบแจ้งหนี้ข้อความอิสระ"
-description: "บทความนี้สาธิตวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ"
+description: "หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ"
 author: mikefalkner
 manager: AnnBe
-ms.date: 05/29/2018
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,64 +13,77 @@ ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mfalkner
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-08-30
+ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e6f89a6d77ff8e1cd88632df0d9a72915086ee1e
+ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
+ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/05/2018
 
 ---
 
-# <a name="create-a-free-text-invoice"></a><span data-ttu-id="33949-103">สร้างใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="33949-103">Create a free text invoice</span></span>
+# <a name="create-free-text-invoices"></a><span data-ttu-id="23046-103">สร้างใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="23046-103">Create free text invoices</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="33949-104">บทความนี้สาธิตวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="33949-104">This article demonstrates how to create a free text invoice.</span></span> <span data-ttu-id="33949-105">สำหรับกระบวนงานนี้ ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="33949-105">For this procedure, use the USMF demo company.</span></span>
+<span data-ttu-id="23046-104">หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="23046-104">This topic explains how to create free text invoices.</span></span> <span data-ttu-id="23046-105">สำหรับกระบวนงาน ใช้บริษัทสาธิต **USMF**</span><span class="sxs-lookup"><span data-stu-id="23046-105">For the procedure, use the **USMF** demo company.</span></span>
 
-## <a name="create-a-free-text-invoice"></a><span data-ttu-id="33949-106">สร้างใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="33949-106">Create a free text invoice</span></span>
+## <a name="create-a-free-text-invoice"></a><span data-ttu-id="23046-106">สร้างใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="23046-106">Create a free text invoice</span></span>
 
-1. <span data-ttu-id="33949-107">ไปที่บัญชีลูกหนี้ > ใบแจ้งหนี้ > ใบแจ้งหนี้ข้อความอิสระทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="33949-107">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
-2. <span data-ttu-id="33949-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="33949-108">Click New.</span></span>
-3. <span data-ttu-id="33949-109">ในฟิลด์บัญชีลูกค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="33949-109">In the Customer account field, select a value.</span></span>
-    * <span data-ttu-id="33949-110">บัญชีใบแจ้งหนี้จะเป็นค่าเริ่มต้นของบัญชีเดียวกันกับที่ใช้เป็นบัญชีลูกค้า</span><span class="sxs-lookup"><span data-stu-id="33949-110">The invoice account will default to the same account used for the customer account.</span></span>   
-    * <span data-ttu-id="33949-111">สถานะการลงบัญชีเริ่มต้นด้วย อยู่ระหว่างดำเนินการ ถ้าไม่มีการลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="33949-111">The accounting status starts with In process if the invoice is not posted.</span></span>   
-    * <span data-ttu-id="33949-112">หมายเลขใบแจ้งหนี้จะถูกกำหนดเมื่อมีการลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="33949-112">The invoice number will be assigned when the invoice is posted.</span></span>  
-    * <span data-ttu-id="33949-113">ถ้าคุณกำลังใช้ข้อบังคับ SEPA ข้อตกลงในการหักบัญชีเงินฝากอัตโนมัติจะมีการเติมข้อมูลโดยอัตโนมัติด้วยข้อบังคับเมื่อคุณเลือกบัญชีลูกค้า</span><span class="sxs-lookup"><span data-stu-id="33949-113">If you are using SEPA mandates, the direct debit mandate will be automatically populated with a mandate when you select the customer account.</span></span>  
-4. <span data-ttu-id="33949-114">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="33949-114">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="33949-115">ในฟิลด์บัญชีหลัก ให้ระบุหมายเลขบัญชีโดยไม่มีมิติ</span><span class="sxs-lookup"><span data-stu-id="33949-115">In the Main account field, specify an account number without dimensions.</span></span>
-    * <span data-ttu-id="33949-116">นอกจากนี้คุณยังสามารถป้อนอักขระหนึ่งอักขระหรือมากกว่าสำหรับบัญชีหลัก และใช้การค้นหาเพื่อค้นหาบัญชีของคุณ </span><span class="sxs-lookup"><span data-stu-id="33949-116">You can also enter one or more characters for the main account and use the lookup to find your account.</span></span> <span data-ttu-id="33949-117">คุณจะป้อนมิติในภายหลังในคู่มือนี้</span><span class="sxs-lookup"><span data-stu-id="33949-117">You will enter dimensions later on in this guide.</span></span>  
-6. <span data-ttu-id="33949-118">ขยายแท็บด่วน รายละเอียดรายการ เพื่อให้คุณสามารถเพิ่มมิติไปยังบัญชีหลักของคุณ</span><span class="sxs-lookup"><span data-stu-id="33949-118">Expand the Line details fasttab so you can add dimensions to your main account.</span></span>
-7. <span data-ttu-id="33949-119">คลิกแท็บ รายการมิติทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="33949-119">Click the Financial dimensions line tab.</span></span>
-    * <span data-ttu-id="33949-120">ค่ามิติใช้สำหรับรายการที่เลือกเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="33949-120">The dimensions are for the selected line only.</span></span>    
-    * <span data-ttu-id="33949-121">กลุ่มภาษีขายจะถูกเติมจากลูกค้า </span><span class="sxs-lookup"><span data-stu-id="33949-121">The sales tax group is populated from the customer.</span></span> <span data-ttu-id="33949-122">ถ้าลูกค้าไม่มีกลุ่มภาษีขาย จะมีการใช้กลุ่มภาษีขายจากบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="33949-122">If the customer does not have a sales tax group, the sales tax group from the main account is used.</span></span>  
-    * <span data-ttu-id="33949-123">กลุ่มภาษีขายตามประเภทสินค้ามีการเติมข้อมูลจากบัญชีหลัก </span><span class="sxs-lookup"><span data-stu-id="33949-123">The items sales tax group is populated from the main account.</span></span> <span data-ttu-id="33949-124">ถ้าบัญชีหลักไม่มีกลุ่มภาษีขายตามประเภทสินค้า จะมีการใช้กลุ่มภาษีขายตามประเภทสินค้าในพารามิเตอร์ภาษีขายของบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="33949-124">If the main account does not have an item sales tax group, then the item sales tax group in the General ledger sales tax parameters is used.</span></span>    
-8. <span data-ttu-id="33949-125">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="33949-125">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="33949-126">ไม่จำเป็นต้องระบุปริมาณ</span><span class="sxs-lookup"><span data-stu-id="33949-126">The quantity is optional.</span></span>  
-9. <span data-ttu-id="33949-127">ในฟิลด์ ราคาต่อหน่วย ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="33949-127">In the Unit price field, enter a number.</span></span>
-    * <span data-ttu-id="33949-128">ราคาต่อหน่วยไม่จำเป็นต้องระบุ</span><span class="sxs-lookup"><span data-stu-id="33949-128">The unit price is optional.</span></span>  
-    * <span data-ttu-id="33949-129">ยอดเงินจะถูกคำนวณจากปริมาณคูณด้วยราคาต่อหน่วย </span><span class="sxs-lookup"><span data-stu-id="33949-129">The amount is calculated as the quantity times the unit price.</span></span> <span data-ttu-id="33949-130">อย่างไรก็ตาม คุณสามารถแทนการคำนวณนั้นและป้อนจำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="33949-130">However, you can override that calculation and enter an amount.</span></span>  
-10. <span data-ttu-id="33949-131">คลิก ภาษีขาย เพื่อดูภาษีขายที่คำนวณได้สำหรับใบแจ้งหนี้ของคุณ</span><span class="sxs-lookup"><span data-stu-id="33949-131">Click on Sales tax to view the sales tax calculated for your invoice.</span></span>
-    * <span data-ttu-id="33949-132">ดูยอดภาษีขายในหน้านี้ หรือคุณสามารถแทนยอดเงินบนแท็บการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="33949-132">View the sales tax amounts in this page or you can override the amounts on the Adjustment tab.</span></span>  
-11. <span data-ttu-id="33949-133">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="33949-133">Click OK.</span></span>
-12. <span data-ttu-id="33949-134">คลิกที่ค่าธรรมเนียมเพื่อเพิ่มค่าธรรมเนียมในใบแจ้งหนี้ของคุณ</span><span class="sxs-lookup"><span data-stu-id="33949-134">Click Charges to add a charge to your invoice.</span></span> 
-13. <span data-ttu-id="33949-135">ในฟิลด์รหัสค่าธรรมเนียม ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="33949-135">In the Charges code field, type a value.</span></span>
-14. <span data-ttu-id="33949-136">ในฟิลด์มูลค่าของค่าธรรมเนียม ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="33949-136">In the Charges value field, enter a number.</span></span>
-15. <span data-ttu-id="33949-137">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="33949-137">Close the page.</span></span>
-16. <span data-ttu-id="33949-138">คลิก ผลรวม เพื่อดูสรุปรายละเอียดใบแจ้งหนี้และผลรวม</span><span class="sxs-lookup"><span data-stu-id="33949-138">Click Totals to view the summary invoice details and totals.</span></span>
-17. <span data-ttu-id="33949-139">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="33949-139">Click Close.</span></span>
-18. <span data-ttu-id="33949-140">คลิกที่ลงรายการบัญชีเพื่อลงรายการบัญชีใบแจ้งหนี้ </span><span class="sxs-lookup"><span data-stu-id="33949-140">Click Post to post the invoice.</span></span> <span data-ttu-id="33949-141">คุณสามารถยกเลิกก่อนที่คุณจะลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="33949-141">You will be able to cancel before you post.</span></span>
-    * <span data-ttu-id="33949-142">เมื่อต้องการเปลี่ยนช่วงเวลาของการพิมพ์ใบแจ้งหนี้: ให้เลือก ปัจจุบัน เพื่อพิมพ์ใบแจ้งหนี้แต่ละใบเมื่อมีการอัพเดต หรือเลือก หลังจาก เพื่อพิมพ์ใบแจ้งหนี้หลังจากที่ได้รับการอัพเดตแล้ว</span><span class="sxs-lookup"><span data-stu-id="33949-142">To change the timing of your invoice printing:  Select Current to print each invoice as it is updated   or  Select After to print after all invoices have been updated.</span></span>  
-    * <span data-ttu-id="33949-143">ถ้าคุณต้องการเปลี่ยนวิธีการตรวจสอบวงเงินสินเชื่อของลูกค้าก่อนที่จะลงรายการบัญชี ให้เปลี่ยนชนิดวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="33949-143">If you want to change how the customer's credit limit is checked before posting, change the Credit limit type.</span></span>  
-    * <span data-ttu-id="33949-144">ถ้าคุณต้องการพิมพ์ใบแจ้งหนี้ เลือก ใช่</span><span class="sxs-lookup"><span data-stu-id="33949-144">If you want to print the invoice, select Yes.</span></span>  
-    * <span data-ttu-id="33949-145">ถ้าคุณต้องการลงรายการบัญชีใบแจ้งหนี้ เลือก ใช่ </span><span class="sxs-lookup"><span data-stu-id="33949-145">If you want to post the invoice, select Yes.</span></span> <span data-ttu-id="33949-146">คุณสามารถพิมพ์ใบแจ้งหนี้โดยไม่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="33949-146">You can print the invoice without posting.</span></span>  
-19. <span data-ttu-id="33949-147">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="33949-147">Click OK.</span></span>
+1. <span data-ttu-id="23046-107">ไปที่ **บัญชีลูกหนี้ \> ใบแจ้งหนี้ \> ใบแจ้งหนี้ข้อความอิสระทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="23046-107">Go to **Accounts receivable \> Invoices \> All free text invoices**.</span></span>
+2. <span data-ttu-id="23046-108">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="23046-108">Select **New**.</span></span>
+3. <span data-ttu-id="23046-109">ในฟิลด์ **บัญชีลูกค้า** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="23046-109">In the **Customer account** field, select a value.</span></span>
 
-## <a name="copy-lines"></a><span data-ttu-id="33949-148">คัดลอกรายการ</span><span class="sxs-lookup"><span data-stu-id="33949-148">Copy lines</span></span>
-<span data-ttu-id="33949-149">ในการคัดลอกรายการในใบแจ้งหนี้ข้อความอิสระ เลือกอย่างน้อยหนึ่งรายการ แล้วคลิกคัดลอกรายการที่เลือก</span><span class="sxs-lookup"><span data-stu-id="33949-149">To copy lines on the free text invoice, select one or more lines and then click Copy selected lines.</span></span> <span data-ttu-id="33949-150">คุณสามารถระบุจำนวนของสำเนาที่คุณต้องการสร้าง และคุณยังสามารถคัดลอกบันทึกย่อและสิ่งที่แนบมาได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="33949-150">You can specify the number of copies that you want to make, and you can also copy notes and attachments.</span></span> <span data-ttu-id="33949-151">คุณสามารถคัดลอกการกระจาย หรืออนุญาตให้ถูกสร้างขึ้นใหม่ เมื่อคุณลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="33949-151">You can copy the distributions or allow them to be recreated when you post.</span></span> <span data-ttu-id="33949-152">เมื่อคุณคัดลอกรายการ คุณสามารถแก้ไขข้อมูลได้ตามความจำเป็น</span><span class="sxs-lookup"><span data-stu-id="33949-152">Once you copy the lines, you can edit the information as needed.</span></span> 
+    * <span data-ttu-id="23046-110">โดยค่าเริ่มต้น บัญชีที่ถูกเลือกเป็นบัญชีลูกค้าจะถูกใช้เป็นบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="23046-110">By default, the account that is selected as the customer account is used as the invoice account.</span></span>
+    * <span data-ttu-id="23046-111">ถ้าไม่มีการลงรายการบัญชีใบแจ้งหนี้ สถานะการลงบัญชีเริ่มต้นด้วย **อยู่ระหว่างดำเนินการ**</span><span class="sxs-lookup"><span data-stu-id="23046-111">If the invoice isn't posted, the accounting status starts with **In process**.</span></span>
+    * <span data-ttu-id="23046-112">หมายเลขใบแจ้งหนี้จะถูกกำหนดเมื่อมีการลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="23046-112">The invoice number will be assigned when the invoice is posted.</span></span>
+    * <span data-ttu-id="23046-113">ถ้าคุณกำลังใช้ข้อบังคับ Single Euro Payments Area (SEPA) ข้อตกลงการหักบัญชีเงินฝากอัตโนมัติจะถูกป้อนโดยอัตโนมัติ เมื่อคุณเลือกบัญชีลูกค้า</span><span class="sxs-lookup"><span data-stu-id="23046-113">If you're using Single Euro Payments Area (SEPA) mandates, the direct debit mandate is automatically entered when you select the customer account.</span></span>
 
-## <a name="create-a-free-text-invoice-from-a-template"></a><span data-ttu-id="33949-153">สร้างใบแจ้งหนี้ข้อความอิสระจากเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="33949-153">Create a free text invoice from a template</span></span>
-<span data-ttu-id="33949-154">คุณสามารถสร้างใบแจ้งหนี้ข้อความอิสระจากเท็มเพลตได้</span><span class="sxs-lookup"><span data-stu-id="33949-154">You can create a free text invoice from a template.</span></span> <span data-ttu-id="33949-155">เมื่อคุณเลือกสร้างจากเท็มเพลตจากแท็บใบแจ้งหนี้ คุณสามารถเลือกชื่อเท็มเพลตและบัญชีลูกค้าสำหรับใบแจ้งหนี้ข้อความอิสระใหม่ได้</span><span class="sxs-lookup"><span data-stu-id="33949-155">When you select New from template from the Invoice tab, you can select a template name and the customer account for the new free text invoice.</span></span> <span data-ttu-id="33949-156">นอกจากนี้ คุณยังสามารถเลือกเป็นค่าเริ่มต้นได้ เช่น เงื่อนไขการชำระเงิน และวิธีการชำระเงินจากลูกค้า หรือใช้ค่าที่ได้รับการบันทึกด้วยเท็มเพลตได้</span><span class="sxs-lookup"><span data-stu-id="33949-156">You can also choose to default values such as the terms of payment and method of payment from the customer or use the values that were saved with the template.</span></span> <span data-ttu-id="33949-157">ใบแจ้งหนี้ข้อความอิสระใหม่จะถูกสร้างขึ้น และคุณสามารถแก้ไขค่าในใบแจ้งหนี้นั้นได้</span><span class="sxs-lookup"><span data-stu-id="33949-157">A new free text invoice will be created and you can edit the values in that invoice.</span></span> 
+4. <span data-ttu-id="23046-114">ในฟิลด์ **คำอธิบาย** ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="23046-114">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="23046-115">ในฟิลด์ **บัญชีหลัก** ให้ระบุหมายเลขบัญชีที่ไม่มีมิติ</span><span class="sxs-lookup"><span data-stu-id="23046-115">In the **Main account** field, specify an account number that doesn't have dimensions.</span></span> <span data-ttu-id="23046-116">คุณจะป้อนมิติในภายหลังในคู่มือนี้</span><span class="sxs-lookup"><span data-stu-id="23046-116">You will enter dimensions later in this topic.</span></span>
 
+    <span data-ttu-id="23046-117">นอกจากนี้ คุณยังสามารถป้อนอักขระหนึ่งอักขระหรือมากกว่าสำหรับบัญชีหลัก และใช้การค้นหาเพื่อค้นหาบัญชีได้</span><span class="sxs-lookup"><span data-stu-id="23046-117">You can also enter one or more characters for the main account, and use the lookup to find the account.</span></span>
+
+6. <span data-ttu-id="23046-118">เลือก FastTab **รายละเอียดของรายการ** เพื่อเพิ่มมิติไปยังบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="23046-118">Select the **Line details** FastTab to add dimensions to the main account.</span></span>
+7. <span data-ttu-id="23046-119">เลือกแท็บ **รายการมิติทางการเงิน**</span><span class="sxs-lookup"><span data-stu-id="23046-119">Select the **Financial dimensions line** tab.</span></span>
+
+    * <span data-ttu-id="23046-120">ค่ามิติใช้สำหรับรายการที่เลือกเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="23046-120">The dimensions are for the selected line only.</span></span>
+    * <span data-ttu-id="23046-121">กลุ่มภาษีขายจะถูกเติมจากลูกค้า</span><span class="sxs-lookup"><span data-stu-id="23046-121">The sales tax group is filled in from the customer.</span></span> <span data-ttu-id="23046-122">ถ้าลูกค้าไม่มีกลุ่มภาษีขาย จะมีการใช้กลุ่มภาษีขายจากบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="23046-122">If the customer doesn't have a sales tax group, the sales tax group from the main account is used.</span></span>
+    * <span data-ttu-id="23046-123">กลุ่มภาษีขายตามประเภทสินค้าถูกเติมข้อมูลจากบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="23046-123">The items sales tax group is filled in from the main account.</span></span> <span data-ttu-id="23046-124">ถ้าบัญชีหลักไม่มีกลุ่มภาษีขายตามประเภทสินค้า จะมีการใช้กลุ่มภาษีขายตามประเภทสินค้าที่ระบุในพารามิเตอร์ภาษีขายในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="23046-124">If the main account doesn't have an item sales tax group, the item sales tax group that is specified in the sales tax parameters in General ledger is used.</span></span>
+
+8. <span data-ttu-id="23046-125">ไม่จำเป็นต้องระบุ: ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="23046-125">Optional: In the **Quantity** field, enter a number.</span></span>
+9. <span data-ttu-id="23046-126">ไม่จำเป็นต้องระบุ: ในฟิลด์ **ราคาต่อหน่วย** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="23046-126">Optional: In the **Unit price** field, enter a number.</span></span>
+
+    <span data-ttu-id="23046-127">ยอดเงินจะถูกคำนวณจากปริมาณคูณด้วยราคาต่อหน่วย </span><span class="sxs-lookup"><span data-stu-id="23046-127">The amount is calculated as the quantity times the unit price.</span></span> <span data-ttu-id="23046-128">อย่างไรก็ตาม คุณสามารถแทนการคำนวณนั้นได้โดยการป้อนจำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="23046-128">However, you can override that calculation by entering an amount.</span></span>
+
+10. <span data-ttu-id="23046-129">เลือก **ภาษีขาย** เพื่อดูภาษีขายที่ถูกคำนวณสำหรับใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="23046-129">Select **Sales tax** to view the sales tax that is calculated for the invoice.</span></span>
+
+    <span data-ttu-id="23046-130">คุณสามารถดูยอดภาษีขายในหน้านี้ หรือคุณสามารถแทนยอดเงินบนแท็บ **การปรับปรุง** ได้</span><span class="sxs-lookup"><span data-stu-id="23046-130">You can view the sales tax amounts on this page, or you can override the amounts on the **Adjustment** tab.</span></span>
+
+11. <span data-ttu-id="23046-131">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="23046-131">Select **OK**.</span></span>
+12. <span data-ttu-id="23046-132">เลือก **ค่าธรรมเนียม** เพื่อเพิ่มค่าธรรมเนียมในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="23046-132">Select **Charges** to add a charge to the invoice.</span></span>
+13. <span data-ttu-id="23046-133">ในฟิลด์ **รหัสค่าธรรมเนียม** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="23046-133">In the **Charges code** field, enter a value.</span></span>
+14. <span data-ttu-id="23046-134">ในฟิลด์ **มูลค่าของค่าธรรมเนียม** ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="23046-134">In the **Charges value** field, enter a number.</span></span>
+15. <span data-ttu-id="23046-135">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="23046-135">Close the page.</span></span>
+16. <span data-ttu-id="23046-136">เลือก **ผลรวม** เพื่อดูสรุปของรายละเอียดใบแจ้งหนี้และผลรวม</span><span class="sxs-lookup"><span data-stu-id="23046-136">Select **Totals** to view a summary of the invoice details and totals.</span></span>
+17. <span data-ttu-id="23046-137">เลือก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="23046-137">Select **Close**.</span></span>
+18. <span data-ttu-id="23046-138">เลือก **ลงรายการบัญชี** เพื่อลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="23046-138">Select **Post** to post the invoice.</span></span> <span data-ttu-id="23046-139">คุณจะยังคงมีโอกาสในการยกเลิก ก่อนที่คุณจะลงรายการบัญชีจริงๆ</span><span class="sxs-lookup"><span data-stu-id="23046-139">You will still have an opportunity to cancel before you actually post.</span></span>
+
+    * <span data-ttu-id="23046-140">คุณสามารถเปลี่ยนช่วงเวลาของการพิมพ์ใบแจ้งหนี้ได้</span><span class="sxs-lookup"><span data-stu-id="23046-140">You can change the timing of invoice printing.</span></span> <span data-ttu-id="23046-141">เลือก **ปัจจุบัน** เพื่อพิมพ์ใบแจ้งหนี้แต่ละฉบับเมื่อมีการอัพเดต</span><span class="sxs-lookup"><span data-stu-id="23046-141">Select **Current** to print each invoice as it's updated.</span></span> <span data-ttu-id="23046-142">เลือก **หลังจาก** เพื่อพิมพ์เอกสารหลังจากการอัพเดตใบแจ้งหนี้ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="23046-142">Select **After** to print after all invoices have been updated.</span></span>
+    * <span data-ttu-id="23046-143">เมื่อต้องการเปลี่ยนวิธีการตรวจสอบวงเงินสินเชื่อของลูกค้า ก่อนที่จะลงรายการบัญชีใบแจ้งหนี้ เปลี่ยนค่าในฟิลด์ **ชนิดวงเงินสินเชื่อ**</span><span class="sxs-lookup"><span data-stu-id="23046-143">To change how the customer's credit limit is verified before the invoice is posted, change the value in the **Credit limit type** field.</span></span>
+    * <span data-ttu-id="23046-144">เพื่อพิมพ์ใบแจ้งหนี้ ตั้งค่าตัวเลือกนี้เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="23046-144">To print the invoice, set the option to **Yes**.</span></span>
+    * <span data-ttu-id="23046-145">เพื่อลงรายการบัญชีใบแจ้งหนี้ ตั้งค่าตัวเลือกนี้เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="23046-145">To post the invoice, set the option to **Yes**.</span></span> <span data-ttu-id="23046-146">คุณสามารถพิมพ์ใบแจ้งหนี้ได้โดยไม่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="23046-146">You can print the invoice without posting it.</span></span>
+
+19. <span data-ttu-id="23046-147">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="23046-147">Select **OK**.</span></span>
+
+## <a name="copy-lines"></a><span data-ttu-id="23046-148">คัดลอกรายการ</span><span class="sxs-lookup"><span data-stu-id="23046-148">Copy lines</span></span>
+<span data-ttu-id="23046-149">ในการคัดลอกรายการในใบแจ้งหนี้ข้อความอิสระ เลือกอย่างน้อยหนึ่งรายการ แล้วจากนั้น เลือก **คัดลอกรายการที่เลือก**</span><span class="sxs-lookup"><span data-stu-id="23046-149">To copy lines on a free text invoice, select one or more lines, and then select **Copy selected lines**.</span></span> <span data-ttu-id="23046-150">คุณสามารถระบุจำนวนของสำเนาเพื่อสร้าง และคุณยังสามารถคัดลอกบันทึกย่อและสิ่งที่แนบมาได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="23046-150">You can specify the number of copies to make, and you can also copy notes and attachments.</span></span> <span data-ttu-id="23046-151">คุณสามารถคัดลอกการกระจาย หรืออนุญาตให้ถูกสร้างขึ้นใหม่ เมื่อคุณลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="23046-151">You can either copy the distributions or let them be re-created when you post.</span></span>
+
+<span data-ttu-id="23046-152">หลังจากที่คุณคัดลอกรายการ คุณสามารถแก้ไขข้อมูลได้ตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="23046-152">After you copy lines, you can edit the information as you require.</span></span>
+
+## <a name="create-a-free-text-invoice-from-a-template"></a><span data-ttu-id="23046-153">สร้างใบแจ้งหนี้ข้อความอิสระจากเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="23046-153">Create a free text invoice from a template</span></span>
+<span data-ttu-id="23046-154">คุณสามารถสร้างใบแจ้งหนี้ข้อความอิสระจากเท็มเพลตได้</span><span class="sxs-lookup"><span data-stu-id="23046-154">You can create a free text invoice from a template.</span></span> <span data-ttu-id="23046-155">เมื่อคุณเลือก **สร้างจากเท็มเพลต** ในแท็บ **ใบแจ้งหนี้** คุณสามารถเลือกชื่อเท็มเพลตและบัญชีลูกค้าสำหรับใบแจ้งหนี้ข้อความอิสระใหม่ได้</span><span class="sxs-lookup"><span data-stu-id="23046-155">When you select **New from template** on the **Invoice** tab, you can select a template name and the customer account for the new free text invoice.</span></span> <span data-ttu-id="23046-156">ค่าเริ่มต้น เช่น เงื่อนไขในการชำระเงิน และวิธีของการชำระเงิน สามารถถูกเติมข้อมูลโดยอัตโนมัติได้จากลูกค้า หรือคุณสามารถใช้ค่าที่ถูกบันทึกไว้ในเท็มเพลตได้</span><span class="sxs-lookup"><span data-stu-id="23046-156">Default values, such as the terms of payment and method of payment, can be automatically filled in from the customer, or you can use the values that were saved in the template.</span></span>
+
+<span data-ttu-id="23046-157">ใบแจ้งหนี้ข้อความอิสระใหม่จะถูกสร้างขึ้น และคุณสามารถแก้ไขค่าตามที่คุณต้องการได้</span><span class="sxs-lookup"><span data-stu-id="23046-157">A new free text invoice is created, and you can edit the values as you require.</span></span>
 
