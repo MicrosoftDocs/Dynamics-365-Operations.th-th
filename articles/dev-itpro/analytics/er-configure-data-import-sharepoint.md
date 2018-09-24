@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 4285db9c71208bce45d64933e692a25ef3f46b26
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 9f23f73e9a98fc50c622255bf6ed027c41ec8010
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="configure-data-import-from-sharepoint"></a>ตั้งค่าคอนฟิกการนำเข้าข้อมูลจาก SharePoint
@@ -50,13 +50,13 @@ ms.lasthandoff: 08/09/2018
     - การตั้งค่าคอนฟิกแบบจำลอง ER **แบบจำลองการชำระเงิน 1099**
     - การตั้งค่าคอนฟิกรูปแบบ ER **รูปแบบสำหรับการนำเข้าธุรกรรมของผู้จัดจำหน่ายจาก Excel**
 
-[![การตั้งค่าคอนฟิก ER สำหรับการนำเข้าข้อมูลจาก SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)](./media/GERImportFromSharePoint-01-Configurations.PNG)
+    [![การตั้งค่าคอนฟิก ER สำหรับการนำเข้าข้อมูลจาก SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 - ตัวอย่างของไฟล์ขาเข้าสำหรับการนำเข้าข้อมูล:
 
     - ไฟล์ Excel **1099import-data.xlsx** ที่มีธุรกรรมผู้จัดจำหน่ายที่ควรถูกนำเข้าไปยัง Finance and Operations
 
-[![ไฟล์ Microsoft Excel ตัวอย่างสำหรับการนำเข้าจาก SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)](./media/GERImportFromSharePoint-02-Excel.PNG)
+    [![ไฟล์ Microsoft Excel ตัวอย่างสำหรับการนำเข้าจาก SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)](./media/GERImportFromSharePoint-02-Excel.PNG)
 
 > [!NOTE]
 > รูปแบบสำหรับการนำเข้าธุรกรรมผู้จัดจำหน่ายถูกเลือกเป็นการแม็ปแบบจำลองเริ่มต้น ดังนั้น ถ้าคุณรันการแม็ปแบบจำลองของ **แบบจำลองการชำระเงิน 1099** และการแม็ปแบบจำลองนั้นเป็นของชนิด **ไปยังปลายทาง** การแม็ปแบบจำลองจะรันรูปแบบนี้เพื่อนำเข้าข้อมูลจากไฟล์ภายนอก จากนั้น จะใช้ข้อมูลดังกล่าวเพื่ออัพเดตตารางแอพลิเคชัน
@@ -65,16 +65,16 @@ ms.lasthandoff: 08/09/2018
 1. ในหน้า **พารามิเตอร์การจัดการเอกสาร** ให้ตั้งค่าคอนฟิกการเข้าถึงอินสแตนซ์ SharePoint Server ที่จะใช้โดยบริษัทที่คุณลงชื่อเข้าใช้ในขณะนี้ ในตัวอย่างนี้ บริษัทคือ USMF
 2. ทดสอบการเชื่อมต่อไปยังอินสแตนซ์ SharePoint Server เพื่อให้แน่ใจว่า คุณได้รับอนุญาตให้เข้าถึง
 
-[![การตั้งค่าการจัดการเอกสาร – SharePoint server](./media/GERImportFromSharePoint-03-SharePointSetup.png)](./media/GERImportFromSharePoint-03-SharePointSetup.png)
+    [![การตั้งค่าการจัดการเอกสาร – SharePoint server](./media/GERImportFromSharePoint-03-SharePointSetup.png)](./media/GERImportFromSharePoint-03-SharePointSetup.png)
 
 3. เปิดไซต์ SharePoint ที่ตั้งค่าคอนฟิก และสร้างโฟลเดอร์ต่อไปนี้ที่ซึ่งสามารถจัดเก็บไฟล์ขาเข้าได้:
 
     - ต้นทางการนำเข้าไฟล์ (หลัก)
     - ต้นทางการนำเข้าไฟล์ (สำรอง)
 
-[![การตั้งค่าการจัดการเอกสาร – SharePoint server](./media/GERImportFromSharePoint-04-SharePointFolder1.png)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    [![การตั้งค่าการจัดการเอกสาร – SharePoint server](./media/GERImportFromSharePoint-04-SharePointFolder1.png)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
-[![การตั้งค่าการจัดการเอกสาร – SharePoint server](./media/GERImportFromSharePoint-05-SharePointFolder2.png)](./media/GERImportFromSharePoint-05-SharePointFolder2.png)
+    [![การตั้งค่าการจัดการเอกสาร – SharePoint server](./media/GERImportFromSharePoint-05-SharePointFolder2.png)](./media/GERImportFromSharePoint-05-SharePointFolder2.png)
 
 4. ใน Finance and Operations ในหน้า **ชนิดเอกสาร** ให้สร้างชนิดเอกสารต่อไปนี้ที่จะใช้ในการเข้าถึงโฟลเดอร์ SharePoint ที่คุณเพิ่งสร้างขึ้น:
 
@@ -86,21 +86,19 @@ ms.lasthandoff: 08/09/2018
     - สำหรับชนิดเอกสาร **SP หลัก** : ต้นทางการนำเข้าไฟล์ (หลัก)
     - สำหรับชนิดเอกสาร **SP สำรอง** : ต้นทางการนำเข้าไฟล์ (สำรอง)
 
-[![การตั้งค่า SharePoint – ชนิดเอกสารใหม่](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+    [![การตั้งค่า SharePoint – ชนิดเอกสารใหม่](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>ตั้งค่าคอนฟิกแหล่งที่มา ER สำหรับรูปแบบ ER
-1. คลิก **การจัดการองค์กร** > **การรายงานทางอิเล็กทรอนิกส์** > **แหล่งที่มาการรายงานทางอิเล็กทรอนิกส์**
+1. คลิก **การจัดการองค์กร** \> **การรายงานทางอิเล็กทรอนิกส์** \> **แหล่งที่มาการรายงานทางอิเล็กทรอนิกส์**
 2. ในหน้า **แหล่งที่มาการรายงานทางอิเล็กทรอนิกส์** ตั้งค่าคอนฟิกไฟล์ต้นทางสำหรับการนำเข้าข้อมูล โดยใช้รูปแบบ ER ที่ตั้งค่าคอนฟิก
 3. กำหนดตัวพรางชื่อไฟล์ เพื่อให้มีการนำเข้าเฉพาะไฟล์ที่มีนามสกุล .xlsx ตัวพรางชื่อไฟล์ไม่จำเป็นต้องระบุ และจะใช้เฉพาะเมื่อมีการกำหนด คุณสามารถกำหนดตัวพรางได้เพียงหนึ่งตัวเท่านั้นสำหรับรูปแบบ ER แต่ละแบบ
 4. เลือกโฟลเดอร์ SharePoint ทั้งสองที่คุณสร้างไว้ก่อนหน้านี้
 
-[![การตั้งค่าแหล่งที่มาไฟล์ ER](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![การตั้งค่าแหล่งที่มาไฟล์ ER](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
->มีการกำหนด *แหล่งที่มา* ER สำหรับบริษัทแอพลิเคชันแต่ละรายการ ในทางตรงกันข้าม *การตั้งค่าคอนฟิก* ER จะถูกใช้ร่วมกันระหว่างบริษัท
-
-> [!NOTE]
-> เมื่อคุณลบการตั้งค่าแหล่งที่มา ER สำหรับรูปแบบการ ER สถานะไฟล์ที่เชื่อมต่อทั้งหมด (ดูด้านล่าง) จะถูกลบออกด้วยเช่นกัน
+> - มีการกำหนด *แหล่งที่มา* ER สำหรับบริษัทแอพลิเคชันแต่ละรายการ ในทางตรงกันข้าม *การตั้งค่าคอนฟิก* ER จะถูกใช้ร่วมกันระหว่างบริษัท
+> - เมื่อคุณลบการตั้งค่าแหล่งที่มา ER สำหรับรูปแบบการ ER สถานะไฟล์ที่เชื่อมต่อทั้งหมด (ดูด้านล่าง) จะถูกลบออกด้วยเช่นกัน
 
 ## <a name="review-the-files-states-for-the-er-format"></a>ตรวจทานสถานะของไฟล์สำหรับรูปแบบ ER
 1. ในหน้า **แหล่งที่มาการรายงานทางอิเล็กทรอนิกส์** เลือก **สถานะของไฟล์สำหรับแหล่งที่มา** เพื่อตรวจทานเนื้อหาของแหล่งที่มาของไฟล์ที่ตั้งค่าคอนฟิกสำหรับรูปแบบ ER ปัจจุบัน
@@ -114,29 +112,29 @@ ms.lasthandoff: 08/09/2018
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>นำเข้าข้อมูลจากแฟ้ม Excel ที่อยู่ในโฟลเดอร์ SharePoint
 1. ใน SharePoint อัพโหลดไฟล์ Microsoft Excel **1099import-data.xlsx** ที่ประกอบด้วยธุรกรรมผู้จัดจำหน่ายไปยังโฟลเดอร์ SharePoint **ต้นทางการนำเข้าไฟล์ (หลัก)** ที่คุณสร้างไว้ก่อนหน้านี้
 
-[![เนื้อหา SharePoint – ไฟล์ Microsoft Excel สำหรับการนำเข้า](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![เนื้อหา SharePoint – ไฟล์ Microsoft Excel สำหรับการนำเข้า](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. ใน Finance and Operations บนหน้า **สถานะของไฟล์สำหรับแหล่งที่มา** เลือก **รีเฟรช** เพื่อรีเฟรชหน้า หมายเหตุ ไฟล์ Excel ที่ถูกอัพโหลดไปยัง SharePoint ปรากฏขึ้นในแบบฟอร์มนี้โดยมีสถานะ **พร้อม** สถานะต่อไปนี้ได้รับการสนับสนุนในขณะนี้:
 
-    - **พร้อม** - มอบหมายโดยอัตโนมัติสำหรับไฟล์ใหม่แต่ละไฟล์ในโฟลเดอร์ SharePoint สถานะนี้หมายความว่า ไฟล์พร้อมสำหรับการนำเข้า
-    - **การนำเข้า** - กำหนดโดยอัตโนมัติโดยรายงาน ER เมื่อไฟล์จะถูกล็อคโดยกระบวนการนำเข้า เพื่อป้องกันการใช้งานโดยกระบวนการอื่นๆ (หากมีค่าหลายค่ากำลังรันพร้อมกัน)
-    - **ที่นำเข้า** - กำหนดโดยอัตโนมัติตามการรายงาน ER เมื่อการนำเข้าไฟล์เสร็จเรียบร้อยแล้ว สถานะนี้หมายความว่า ไฟล์ที่นำเข้าได้ถูกลบออกจากต้นทางไฟล์ที่ตั้งค่าคอนฟิก (โฟลเดอร์ SharePoint)
-    - **ที่ล้มเหลว** - กำหนดโดยอัตโนมัติตามการรายงาน ER เมื่อการนำเข้าไฟล์เสร็จเรียบร้อยโดยมีข้อผิดพลาดหรือข้อยกเว้น
-    - **ระงับ** - กำหนดด้วยตนเอง โดยผู้ใช้บนแบบฟอร์มนี้ สถานะนี้หมายความว่า จะไม่สามารถนำเข้าไฟล์ได้ในขณะนี้ สถานะนี้สามารถใช้เพื่อเลื่อนเวลาการนำเข้าไฟล์บางรายการ
+    - **พร้อม** – มอบหมายโดยอัตโนมัติสำหรับไฟล์ใหม่แต่ละไฟล์ในโฟลเดอร์ SharePoint สถานะนี้หมายความว่า ไฟล์พร้อมสำหรับการนำเข้า
+    - **การนำเข้า** – กำหนดโดยอัตโนมัติโดยรายงาน ER เมื่อไฟล์จะถูกล็อคโดยกระบวนการนำเข้า เพื่อป้องกันการใช้งานโดยกระบวนการอื่นๆ (หากมีค่าหลายค่ากำลังรันพร้อมกัน)
+    - **นำเข้า** – กำหนดโดยอัตโนมัติตามรายงาน ER เมื่อการนำเข้าไฟล์เสร็จเรียบร้อยแล้ว สถานะนี้หมายความว่า ไฟล์ที่นำเข้าได้ถูกลบออกจากต้นทางไฟล์ที่ตั้งค่าคอนฟิก (โฟลเดอร์ SharePoint)
+    - **ล้มเหลว** – กำหนดโดยอัตโนมัติตามการรายงาน ER เมื่อการนำเข้าไฟล์เสร็จเรียบร้อยโดยมีข้อผิดพลาดหรือข้อยกเว้น
+    - **ระงับ** – กำหนดด้วยตนเองโดยผู้ใช้บนแบบฟอร์มนี้ สถานะนี้หมายความว่า จะไม่สามารถนำเข้าไฟล์ได้ในขณะนี้ สถานะนี้สามารถใช้เพื่อเลื่อนเวลาการนำเข้าไฟล์บางรายการ
 
-[![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>นำเข้าข้อมูลบจากไฟล์ SharePoint
 1. เปิดแผนภูมิการตั้งค่าคอนฟิก ER เลือก **แบบจำลองการชำระเงิน 1099** และขยายรายการของส่วนประกอบของแบบจำลอง ER
 2. เลือกชื่อของการแม็ปแบบจำลองเพื่อเปิดรายการของการแม็ปแบบจำลองของการตั้งค่าคอนฟิกแบบจำลอง ER ที่เลือก
 
-[![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. เลือก **รัน** เพื่อรันการแม็ปแบบจำลองที่เลือก เนื่องจากคุณตั้งค่าคอนฟิกแหล่งที่มาของแฟ้มสำหรับรูปแบบ ER คุณสามารถเปลี่ยนการตั้งค่าของตัวเลือก **แหล่งที่มาของแฟ้ม** ได้ตามที่คุณต้องการได้ ถ้าคุณรักษาการตั้งค่าของตัวเลือกนี้ ไฟล์ .xslx จะถูกนำเข้าจากแหล่งข้อมูลที่ตั้งค่าคอนฟิก (โฟลเดอร์ SharePoint ในตัวอย่างนี้)
 
     ในตัวอย่างนี้ คุณกำลังนำเข้าไฟล์เดียวเท่านั้น อย่างไรก็ตาม ถ้าไม่มีไฟล์ที่หลากหลาย จะมีการเลือกสำหรับการนำเข้าในใบสั่งที่ถูกเพิ่มลงในโฟลเดอร์ SharePoint การรันทุกของครั้งของรูปแบบ ER จะนำเข้าไฟล์ที่เลือกไฟล์เดียว
 
-[![รันการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![รันการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. การแม็ปแบบจำลองสามารถรันแบบอัตโนมัติได้ในโหมดชุดงาน ในกรณีนี้ ทุกครั้งที่ชุดงานรันในรูปแบบ ER นี้ ไฟล์เดียวจะถูกนำเข้าจากแหล่งที่มาของไฟล์ที่ตั้งค่าคอนฟิก ใช้รหัสต่อไปนี้เพื่อใช้งานการรันชุดงานนี้
 
@@ -148,11 +146,11 @@ ms.lasthandoff: 08/09/2018
 
 5. ป้อนรหัสใบสำคัญ เช่น **V-00001** และจากนั้น เลือก **ตกลง**
 
-[![รันการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![รันการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. ในหน้า **สถานะของไฟล์สำหรับแหล่งที่มา** เลือก **รีเฟรช** เพื่อรีเฟรชหน้า
 
-[![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. ในส่วน **ไฟล์** ตรวจทานรายการของไฟล์ ส่วน **ล็อกแหล่งที่มาสำหรับรูปแบบการนำเข้า** แสดงประวัติของการนำเข้าไฟล์ Excel เนื่องจากแฟ้มนี้มีการนำเข้าเสร็จเรียบร้อยแล้ว จะถูกทำเครื่องหมายเป็น **ลบแล้ว** ในโฟลเดอร์ SharePoint
 8. ตรวจทานโฟลเดอร์ SharePoint **ต้นทางการนำเข้าไฟล์ (หลัก)** ไฟล์ Excel ซึ่งถูกนำเข้าสำเร็จแล้ว ได้ถูกลบออกจากโฟลเดอร์นี้
@@ -161,12 +159,12 @@ ms.lasthandoff: 08/09/2018
 
     ธุรกรรมผู้จัดจำหน่ายที่ถูกนำเข้าจากไฟล์ Excel บน SharePoint สำหรับใบสำคัญ **V-00001** จะถูกแสดงอยู่ในหน้า
 
-[![หน้าธุรกรรมของผู้จัดจำหน่าย 1099](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![หน้าธุรกรรมของผู้จัดจำหน่าย 1099](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>เตรียมไฟล์ Excel สำหรับการนำเข้า
 1. เปิดไฟล์ Excel ที่คุณใช้ก่อนหน้านี้ ในแถว 3 คอลัมน์ 1 เพิ่มรหัสผู้จัดจำหน่ายที่ไม่มีอยู่ในแอพลิเคชัน เพิ่มข้อมูลผู้จัดจำหน่ายที่เป็นเท็จเพิ่มเติมในแถว
 
-[![ไฟล์ Microsoft Excel ตัวอย่าง สำหรับการนำเข้าจาก SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![ไฟล์ Microsoft Excel ตัวอย่าง สำหรับการนำเข้าจาก SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. อัพโหลดไฟล์ Excel ที่ปรับปรุงแล้ว ซึ่งประกอบด้วยธุรกรรมผู้จัดจำหน่ายไปยังโฟลเดอร์ SharePoint **ต้นทางการนำเข้าไฟล์ (หลัก)**
 3. ใน Finance and Operations เปิดแผนภูมิการตั้งค่าคอนฟิก ER เลือก **แบบจำลองการชำระเงิน 1099** และขยายรายการของส่วนประกอบของแบบจำลอง ER
@@ -174,7 +172,7 @@ ms.lasthandoff: 08/09/2018
 5. เลือก **ตัวออกแบบ**
 6. บนแท็บ **การตรวจสอบ** คุณต้องเปลี่ยนการดำเนินการหลังการตรวจสอบสำหรับกฎการตรวจสอบที่ถูกตั้งค่าคอนฟิก เพื่อประเมินว่ามีบัญชีผู้จัดจำหน่ายที่ถูกนำเข้าอยู่ในแอพลิเคชันหรือไม่ อัพเดตค่าของฟิลด์ **การดำเนินการหลังการตรวจสอบ** ไปยัง **หยุดดำเนินการ** บันทึกการเปลี่ยนแปลง และปิดหน้า
 
-[![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. บันทึกการเปลี่ยนแปลงของคุณ และปิดตัวออกแบบการแม็ปแบบจำลอง ER
 8. เลือก **รัน** เพื่อรันการแม็ปแบบจำลอง ER ที่ปรับเปลี่ยน
@@ -182,13 +180,13 @@ ms.lasthandoff: 08/09/2018
 
     หมายเหตุ Infolog ประกอบด้วยการแจ้งเตือนที่แจ้งให้ทราบว่า ที่อยู่ในไฟล์โฟลเดอร์ SharePoint ประกอบด้วยบัญชีผู้จัดจำหน่ายที่ไม่ถูกต้อง และไม่สามารถนำเข้าได้
 
-[![รันการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![รันการแม็ปแบบจำลอง ER](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. ในหน้า **สถานะของไฟล์สำหรับแหล่งที่มา** เลือก **รีเฟรช** และจากนั้น ในส่วน **ไฟล์** ตรวจทานรายการของไฟล์
 
-[![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![หน้าสถานะของไฟล์ ER สำหรับแหล่งที่มาที่เลือก](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
-ส่วน **ล็อกแหล่งที่มาสำหรับรูปแบบการนำเข้า** บ่งชี้ว่ากระบวนการนำเข้าล้มเหลว และไฟล์ยังอยู่ในโฟลเดอร์ SharePoint (ไม่มีการเลือกกล่องกาเครื่องหมาย **ถูกลบ** ) ถ้าคุณแก้ไขไฟล์นี้บน SharePoint ด้วยการเพิ่มรหัสผู้จัดจำหน่ายที่เหมาะสม และจากนั้น เปลี่ยนสถานะของไฟล์จาก **ล้มเหลว** เป็น **พร้อม** ในส่วน **ล็อกแหล่งที่มาสำหรับรูปแบบการนำเข้า** คุณสามารถนำเข้าไฟล์ได้อีกครั้ง
+    ส่วน **ล็อกแหล่งที่มาสำหรับรูปแบบการนำเข้า** บ่งชี้ว่ากระบวนการนำเข้าล้มเหลว และไฟล์ยังอยู่ในโฟลเดอร์ SharePoint (ไม่มีการเลือกกล่องกาเครื่องหมาย **ถูกลบ** ) ถ้าคุณแก้ไขไฟล์นี้บน SharePoint ด้วยการเพิ่มรหัสผู้จัดจำหน่ายที่เหมาะสม และจากนั้น เปลี่ยนสถานะของไฟล์จาก **ล้มเหลว** เป็น **พร้อม** ในส่วน **ล็อกแหล่งที่มาสำหรับรูปแบบการนำเข้า** คุณสามารถนำเข้าไฟล์ได้อีกครั้ง
 
 11. ตรวจทานโฟลเดอร์ SharePoint **ต้นทางการนำเข้าไฟล์ (หลัก)** โปรดสังเกตว่า ไฟล์ Excel ที่ไม่ได้รับการนำเข้าจะยังคงอยู่ในโฟลเดอร์นี้
 12. ใน Finance and Operations เลือก **บัญชีเจ้าหนี้** \> **งานประจำงวด** \> **ภาษี 1099** \> **การชำระเงินของผู้จัดจำหน่ายสำหรับ 1099** ป้อนค่าที่ถูกต้องในฟิลด์ **วันที่เริ่มต้น** และ **วันที่สิ้นสุด** และจากนั้นเลือก **ธุรกรรม 1099 แบบกำหนดเอง**

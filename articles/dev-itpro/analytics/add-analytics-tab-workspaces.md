@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 04/13/2018
 ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มไฟล์ .pbix เป็นวัตถุโครงการ Visual Studio
 
 1. สร้างโครงการใหม่ในแบบจำลองที่เหมาะสม
-2. ใน Solution Explorer เลือกโครงการ คลิกขวา แล้วเลือก **เพิ่ม** > **รายการใหม่**
+2. ใน Solution Explorer เลือกโครงการ คลิกขวา และจากนั้นเลือก **เพิ่ม** \> **รายการใหม่**
 3. ในกล่องโต้ตอบ **เพิ่มรายการใหม่** ภายใต้ **วัตถุการดำเนินงาน** เลือกเท็มเพลต **ทรัพยากร**
 4. ป้อนชื่อที่จะใช้เป็นการอ้างอิงรายงานในข้อมูลเมตาของ X++ และคลิก **เพิ่ม**
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 04/13/2018
 
 1. เปิดตัวออกแบบแบบฟอร์มเพื่อขยายคำนิยามการออกแบบ
 2. ในข้อกำหนดของการออกแบบ เลือกองค์ประกอบบนสุดที่มีชื่อว่า **ออกแบบ | รูปแบบ: พื้นที่ในการดำเนินงาน**
-3. คลิกขวา จากนั้นเลือก **สร้าง** > **แท็บ** เพื่อเพิ่มตัวควบคุมใหม่ที่ชื่อว่า **FormTabControl1**
+3. คลิกขวา และจากนั้นเลือก **สร้าง** \> **แท็บ** เพื่อเพิ่มตัวควบคุมใหม่ที่ชื่อว่า **FormTabControl1**
 4. ในตัวออกแบบแบบฟอร์ม เลือก **FormTabControl1**
 5. คลิกขวา จากนั้นเลือก **หน้าแท็บใหม่** เพื่อเพิ่มหน้าแท็บใหม่
 6. เปลี่ยนชื่อหน้าแท็บเป็นบางสิ่งที่สำคัญ เช่น **พื้นที่ทำงาน**
@@ -86,12 +86,12 @@ ms.lasthandoff: 04/13/2018
 9. เปลี่ยนชื่อหน้าแท็บเป็นบางสิ่งที่สำคัญ เช่น **การวิเคราะห์**
 10. ในตัวออกแบบแบบฟอร์ม เลือก **การวิเคราะห์ (หน้าแท็บ)**
 11. ตั้งค่าคุณสมบัติ **คำอธิบาย** เป็น **การวิเคราะห์**
-12. คลิกขวาตัวควบคุม จากนั้นเลือก **สร้าง** > **กลุ่ม** เพื่อเพิ่มตัวควบคุมกลุ่มแบบฟอร์มใหม่
+12. คลิกขวาตัวควบคุม และจากนั้นเลือก **สร้าง** \> **กลุ่ม** เพื่อเพิ่มตัวควบคุมกลุ่มแบบฟอร์มใหม่
 13. เปลี่ยนกลุ่มแบบฟอร์มเป็นบางสิ่งที่สำคัญ เช่น **powerBIReportGroup**
 14. ในแบบฟอร์ม เลือก **PanoramaBody (แท็บ)** แล้วลากตัวควบคุมไปยังแท็บ **พื้นที่ทำงาน**
 15. ในข้อกำหนดของการออกแบบ เลือกองค์ประกอบบนสุดที่มีชื่อว่า **ออกแบบ | รูปแบบ: พื้นที่ในการดำเนินงาน**
 16. คลิกขวา แล้วเลือก **เอารูปแบบออก**
-17. คลิกขวาอีกครั้ง จากนั้นเลือก **เพิ่มรูปแบบ** > **แท็บของพื้นที่ทำงาน**
+17. คลิกขวาอีกครั้ง และจากนั้นเลือก **เพิ่มรูปแบบ** \> **พื้นที่ทำงานที่แตะ**
 18. ดำเนินการสร้างเพื่อตรวจสอบการเปลี่ยนแปลงของคุณ
 
 ภาพประกอบต่อไปนี้แสดงลักษณะของการออกแบบหลังจากที่มีการใช้การเปลี่ยนแปลงเหล่านี้
@@ -116,7 +116,7 @@ ms.lasthandoff: 04/13/2018
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ ms.lasthandoff: 04/13/2018
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ ms.lasthandoff: 04/13/2018
 #### <a name="syntax"></a>ไวยากรณ์
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>พารามิเตอร์
 
-|       ชื่อ       |                                                              คำอธิบาย                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   ชื่อทรัพยากร   |                                                    ชื่อของทรัพยากร .pbix                                                     |
-| formGroupControl |                                    การควบคุมกลุ่มแบบฟอร์มเพื่อใช้กับการควบคุมรายงาน Power BI                                     |
-| defaultPageName  |                                                         ชื่อหน้าเริ่มต้น                                                         |
-|  showFilterPane  |   ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างตัวกรอง (<strong>จริง</strong>) หรือ (<strong>เท็จ</strong>) ที่ซ่อนอยู่   |
-|   showNavPane    | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างนำทาง (<strong>จริง</strong>) หรือ (<strong>เท็จ</strong>) ที่ซ่อนอยู่ |
-|  defaultFilters  |                                              ตัวกรองเริ่มต้นสำหรับรายงาน Power BI                                              |
-
+| ชื่อ             | คำอธิบาย                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| ชื่อทรัพยากร     | ชื่อของทรัพยากร .pbix                                                                              |
+| formGroupControl | การควบคุมกลุ่มแบบฟอร์มเพื่อใช้กับการควบคุมรายงาน Power BI                                              |
+| defaultPageName  | ชื่อหน้าเริ่มต้น                                                                                       |
+| showFilterPane   | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างตัวกรอง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่     |
+| showNavPane      | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างนำทาง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่ |
+| defaultFilters   | ตัวกรองเริ่มต้นสำหรับรายงาน Power BI                                                                 |
 

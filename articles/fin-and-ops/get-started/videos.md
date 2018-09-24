@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 08/09/2018
 
 #### <a name="data-integration"></a>การรวมข้อมูล
 - [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg) 
-- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และ Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และ Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>การจัดการข้อมูล
 - [ใช้ข้อมูลเอนทิตีและแพคเกจข้อมูลใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ ms.lasthandoff: 08/09/2018
 
 #### <a name="intelligence"></a>ข่าวกรอง
 - [นำฐานข้อมูลของคุณเอง (BYOD) ไปยัง Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 - [ไลบรารีแอสเซทใน Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -94,7 +95,10 @@ ms.lasthandoff: 08/09/2018
 - [การปรับปรุงไปยังกระบวนการนำออกใช้ของใบสั่งผลิต](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [การกำหนดการแบบภาพด้วยแผนภูมิแกนต์สำหรับใบสั่งผลิตและใบสั่งชุดงาน](https://youtu.be/BtbuShkGj4I)
 
-#### <a name="warehouse-management"></a>การบริหารคลังสินค้า
+#### <a name="tax-engine"></a>กลไกจัดการภาษี
+- [ภาพรวมกลไกจัดการภาษี](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+
+#### <a name="warehouse-management"></a>การจัดการคลังสินค้า
 - [นำการเบิกสินค้าการผลิตไปใช้ยังคลังสินค้าในชุดงาน](https://youtu.be/8urAJn50dQ8)
 - [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
