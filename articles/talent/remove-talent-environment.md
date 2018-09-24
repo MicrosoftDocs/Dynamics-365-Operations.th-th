@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>เอาสภาพแวดล้อม Talent ออก
 
+[!include [banner](includes/banner.md)]
+
 หัวข้อนี้นำคุณไปสู่กระบวนการของการลบไดรฟ์ทดสอบ หรือสภาพแวดล้อมในการผลิตสำหรับ Microsoft Dynamics 365 for Talent
 
 ## <a name="removing-a-test-drive-environment"></a>การลบสภาพแวดล้อมไดรฟ์ทดสอบ

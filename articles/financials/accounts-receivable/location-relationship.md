@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>เพิ่มบทบาทสถานที่และชนิดความสัมพันธ์ของฝ่าย 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>เพิ่มบทบาทสถานที่
 
 มีวิธีสองวิธีที่จะเพิ่มบทบาทสถานที่ใหม่สำหรับที่อยู่และข้อมูลผู้ติดต่อ:
