@@ -9,10 +9,10 @@
   items:
     - name: สร้างข้อมูลสาธิตโดยใช้แพคเกจข้อมูล
       href: data-entities/generate-demo-data-packages.md
-- name: พัฒนาและเลือกกำหนดโดยใช้ Visual Studio
+- name: พัฒนาและเลือกกำหนด
   href: dev-tools/developer-home-page.md
   items:
-    - name: สแต็คแอพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
+    - name: สแต็คแอปพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
       href: dev-tools/application-stack-server-architecture.md
     - name: รับสำเนาการประเมิน
       href: dev-tools/get-evaluation-copy.md
@@ -25,9 +25,9 @@
           href: dev-tools/configure-developer-vm.md
         - name: สร้างผู้ใช้ใหม่ในเครื่องสำหรับการพัฒนา
           href: dev-tools/enable-development-machine.md
-        - name: FAQ เกี่ยวกับเครื่องเสมือนสำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
+        - name: FAQ เกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
           href: sysadmin/VMs-no-admin-access.md
-        - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Visual Studio Team Services
+        - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: ความต้องการของระบบการพัฒนา
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'คำสั่ง X++, การวนซ้ำ และการจัดการข้อยกเว้น'
               href: dev-ref/xpp-statements-loops.md
+            - name: ข้อยกเว้น X++ ของข้อผิดพลาดในการเชื่อมต่อ SQL
+              href: dev-ref/sql-connection-error.md
             - name: ตัวดำเนินการ X++
               href: dev-ref/xpp-operators.md
             - name: ความสำคัญของตัวดำเนินการ X++
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: พื้นฐาน
           items:
             - name: การกำหนดการบุกรุก
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: พื้นที่ทำงานรายการการตรวจสอบความถูกต้องของข้อมูล
       href: user-interface/data-validation-workspace.md
+    - name: คำอธิบายข้อผิดพลาดการจัดการข้อมูล
+      href: data-entities/dm-error-descriptions.md
 - name: การจัดส่งแบบต่อเนื่อง
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: อัพเกรดการวางแผนงบประมาณ
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: การย้าย AX 2009 - ติดตั้งเครื่องมือการย้ายข้อมูล
+          href: migration-upgrade/install-dmt.md
+        - name: การย้าย AX 2009 - สร้างแผนที่
+          href: migration-upgrade/generate-maps.md
+        - name: การย้าย AX 2009 - สร้างเท็มเพลต
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: การย้าย AX 2009 - สร้างกลุ่มการย้าย
+          href: migration-upgrade/create-definition.md
+        - name: การย้าย AX 2009 - ส่งออกแพคเกจ
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: การย้าย AX 2009 - นำเข้าแพคเกจ
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: การย้ายและการอัพเกรดโค้ด
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: เตรียมการเพื่อย้ายโค้ด
           href: migration-upgrade/prepare-migration.md
-        - name: ตั้งค่าคอนฟิกการแม็ป Visual Studio Team Services
+        - name: ตั้งค่าคอนฟิกการแม็ป Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: การแบ่งแบบจำลอง
           href: dev-tools/model-split.md
@@ -1124,9 +1147,11 @@
       items:
         - name: กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด
           href: migration-upgrade/upgrade-latest-update.md
+        - name: อัพเดตสภาพแวดล้อมจากรุ่น 8.0 เป็น 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
           href: migration-upgrade/versions-update-policy.md
-        - name: ใช้ Platform update ล่าสุดกับสภาพแวดล้อม
+        - name: ใช้การอัพเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อม
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: อัพเกรดแพลตฟอร์ม Dynamics AX เป็นการนำออกใช้เดือนสิงหาคม 2016
           href: migration-upgrade/update-platform-each-release.md
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: ทำงานกับแผนผังกิจกรรมในไลบรารี BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: ซิงโครไนส์ไลบรารี BPM กับ Visual Studio Team Services
+    - name: ซิงโครไนส์ไลบรารี BPM กับ Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: สร้างไลบรารีการทดสอบการยอมรับโดยใช้คู่มืองานและ BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: ไลบรารีแอสเซท
       href: lifecycle-services/asset-library.md
+    - name: การแก้ไขปัญหาประสิทธิภาพโดยใช้เครื่องมือใน LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: คู่มือการสอบถาม
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
