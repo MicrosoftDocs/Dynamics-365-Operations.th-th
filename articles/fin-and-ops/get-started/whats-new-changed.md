@@ -3,7 +3,7 @@ title: "มีอะไรใหม่หรือมีการเปลี่
 description: "หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Finance and Operations เวอร์ชันล่าสุดของคุณ"
 author: josaw1
 manager: AnnBe
-ms.date: 06/22/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 02d66063f721357b354f7959a46ec94d617f55a2
-ms.openlocfilehash: 2a608355718509c90e766825113f386b163ee4fd
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: 201068db3b1bd27438b16ff3f1f51f8a1eb972c5
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/02/2018
 
 ---
 
@@ -39,6 +39,8 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="application-releases"></a>การนำออกใช้ของแอพลิเคชัน
 
+ตารางนี้แสดงรายการรุ่นหลักของแอพลิเคชัน ดูการปรับปรุงระบบคลาวด์รายเดือน ดู [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์](../../dev-itpro/migration-upgrade/versions-update-policy.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -50,7 +52,7 @@ ms.lasthandoff: 08/09/2018
 <thead>
 <tr class="header">
 <th>นำออกใช้</th>
-<th>เวอร์ชัน</th>
+<th>รุ่น</th>
 <th>หมายเลขรุ่น</th>
 <th>ความพร้อมใช้งาน</th>
 <th>เรียนรู้เพิ่มเติม</th>
@@ -58,9 +60,14 @@ ms.lasthandoff: 08/09/2018
 </thead>
 <tbody>
 <tr class="even">
-
 </tr>
 <tr class="even">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>8.1</td>
+<td>8.1.136  </td>
+<td>2018 ตุลาคม</td>
+  <td><a href="whats-new-changed-8-1-October-2018.md">มีอะไร&#39;ใหม่หรือมีการเปลี่ยนแปลงใดใน Dynamics 365 for Finance and Operations รุ่น 8.1 (ตุลาคม 2018)</a></td>
+</tr>
 <tr class="even">
 <td>icrosoft Dynamics 365 for Finance and Operations</td>
 <td>8.0</td>
@@ -125,6 +132,12 @@ ms.lasthandoff: 08/09/2018
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>แพลตฟอร์ม update 20</td>
+<td>7.0.5030</td>
+<td>2018 กันยายน</td>
+<td><a href="whats-new-platform-update-20.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงในการอัพเดตแพลตฟอร์มของ Dynamics 365 for Finance and Operations 20 (กันยายน 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>แพลตฟอร์ม update 15</td>

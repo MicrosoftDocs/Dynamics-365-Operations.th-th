@@ -3,7 +3,7 @@ title: "BOM เท็มเพลต"
 description: "สูตรการผลิตของเท็มเพลต (BOM) ให้รายการของส่วนประกอบที่เป็นมาตรฐานสำหรับวัตถุที่ให้บริการที่มีการให้บริการอย่างสม่ำเสมอ"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6e3a16b9938f6d4222e0a95078356f457e71a1bb
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
 ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -105,7 +105,7 @@ ms.lasthandoff: 05/08/2018
 
 
 > [!NOTE]
-> <P>มีการใช้ลำดับหมายเลขทั่วทั้ง Microsoft Dynamics AX เพื่อปันส่วนตัวระบุให้กับเรกคอร์ดที่ต้องการรายการเหล่านั้น ก่อนที่คุณจะสามารถกำหนดลำดับหมายเลขให้กับ BOM เท็มเพลตหรือหมายเลขรายการประวัติ BOM ได้ คุณต้องตั้งค่ารหัสลำดับหมายเลข</P>
+> <P>มีการใช้ลำดับหมายเลขเพื่อปันส่วนตัวระบุให้กับเรกคอร์ดที่ต้องการรายการเหล่านั้น ก่อนที่คุณจะสามารถกำหนดลำดับหมายเลขให้กับ BOM เท็มเพลตหรือหมายเลขรายการประวัติ BOM ได้ คุณต้องตั้งค่ารหัสลำดับหมายเลข</P>
 
 
 ## <a name="set-up-number-sequences"></a>ตั้งค่าลำดับหมายเลข

@@ -3,36 +3,31 @@ title: "สร้างและส่งรายงาน VAT"
 description: "กระบวนงานนี้จะอธิบายการสร้างและการส่งรายงาน VAT ไปยังหน่วยงานของเยอรมัน"
 author: mrolecki
 manager: AnnBe
-ms.date: 02/17/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 56a4f884cf93ae6d4dbe90a1e881839654f5db82
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b678e6bc8c5f077e17a5f8df868ea771336e25d7
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
+
 # <a name="create-and-submit-vat-report"></a>สร้างและส่งรายงาน VAT
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้จะอธิบายการสร้างและการส่งรายงาน VAT ไปยังหน่วยงานของเยอรมัน
-
-กระบวนงานนี้ถูกสร้างขึ้นโดยใช้ข้อมูลบริษัทสาธิต DEMF 
-
-ฟังก์ชันนี้พร้อมใช้งานสำหรับนิติบุคคลที่มีที่อยู่หลักอยู่ในเยอรมัน
-
-
+กระบวนงานนี้จะอธิบายการสร้างและการส่งรายงาน VAT ไปยังหน่วยงานของเยอรมัน กระบวนงานนี้ถูกสร้างขึ้นโดยใช้ข้อมูลบริษัทสาธิต DEMF ฟังก์ชันนี้พร้อมใช้งานสำหรับนิติบุคคลที่มีที่อยู่หลักอยู่ในเยอรมัน
 
 1. ไปที่ ภาษี > การประกาศ > ภาษีขาย > รายงานภาษีขายสำหรับรอบระยะเวลาการชำระ
 2. ในฟิลด์รอบระยะเวลาการจ่ายเงิน ให้ป้อนหรือเลือกค่า

@@ -1,29 +1,30 @@
----
+--- 
 title: "สร้างและรักษาการบล็อคสินค้าคงคลัง"
 description: "ขั้นตอนนี้แสดงวิธีการป้องกันสินค้าคงคลังคงเหลือทางกายภาพจากการสำรองไว้โดยเอกสารต้นทางขาออกอื่น ๆ โดยใช้การบล็อคสินค้าคงคลัง "
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>สร้างและรักษาการบล็อคสินค้าคงคลัง
+# <a name="create-and-maintain-an-inventory-blocking"></a>สร้างและรักษาการบล็อคสินค้าคงคลัง
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 1. ไปยังการบริหารสินค้าคงคลัง > งานประจำงวด > การบล็อคสินค้าคงคลัง
 2. คลิก สร้าง
 3. ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
-4. ในรายการ ให้เลือกสินค้าที่คุณต้องการเลือก
+4. ในรายการ ให้เลือกสินค้าที่คุณต้องการเลือก 
     * เลือกหมายเลขสินค้ากับสินค้าคงคลังคงเหลือที่มีอยู่จริงที่คุณต้องการบล็อค  ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกสินค้า M9201  
 5. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
     * ถ้าคุณกำลังใช้สินค้า M9201 คุณต้องเลือกน้อยกว่า 200  
@@ -55,4 +56,5 @@ ms.lasthandoff: 09/29/2017
 1. คลิก ลบ
 2. คลิก ใช่
 3. ปิดหน้า
+
 

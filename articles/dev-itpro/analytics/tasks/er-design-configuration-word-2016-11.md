@@ -1,25 +1,26 @@
 --- 
 title: "ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word"
-description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word"
+description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word"
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
@@ -30,9 +31,9 @@ ms.lasthandoff: 08/09/2018
 
 เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในคู่มืองาน "สร้างการตั้งค่าคอนฟิก ER สำหรับการสร้างรายงานในรูปแบบ OPENXML" ก่อน นอกจากนี้คุณยังต้องดาวน์โหลดและบันทึกเท็มเพลตต่อไปนี้ล่วงหน้าไว้ภายในเครื่องสำหรับรายงานตัวอย่าง:
 
-[เท็มเพลตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
+- [เท็มเพลตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
+- [เท็มเพลตที่กำหนดขอบเขตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[เท็มเพลตที่กำหนดขอบเขตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
 
 กระบวนงานนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Microsoft Dynamics 365 for Operations รุ่น 1611
 
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="replace-the-excel-template-with-the-word-template"></a>แทนที่เท็มเพลต Excel ด้วยเท็มเพลต Word
     * ปัจจุบัน เอกสาร Excel จะใช้เป็นเท็มเพลตเพื่อสร้างเอาท์พุทในรูปแบบ OPENXML เราจะนำเข้าเท็มเพลตของรายงานในรูปแบบ Word  
 1. คลิกสิ่งที่แนบ
-    * แทนที่เท็มเพลต Excel ที่มีอยู่ด้วยเท็มเพลต Word ที่คุณดาวน์โหลดมาก่อนหน้านี้ เท็มเพลตของรายงานการชำระเงิน หมายเหตุ เท็มเพลตนี้ประกอบด้วยโครงร่างของเอกสารที่เราต้องการสร้างเป็นเอาท์พุท ER เท่านั้น  
+    * แทนที่เท็มเพลต Excel ที่มีอยู่ด้วยเท็มเพลต Word ที่คุณดาวน์โหลดมาก่อนหน้านี้ SampleVendPaymDocReport.docx หมายเหตุ เท็มเพลตนี้ประกอบด้วยโครงร่างของเอกสารที่เราต้องการสร้างเป็นเอาท์พุท ER เท่านั้น  
 2. คลิก ลบ
 3. คลิก ใช่
 4. คลิก สร้าง

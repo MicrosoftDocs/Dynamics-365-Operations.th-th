@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,10 +37,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>เปลี่ยนชื่อโฟลเดอร์หรือบล็อคส่วนประกอบใน Report Designer
 คุณจะสามารถเปลี่ยนชื่อโฟลเดอร์ ข้อกำหนดของรายงาน คำนิยามแถว คำนิยามคอลัมน์ และคำนิยามลำดับการรายงานใน Report Designer
 
-> [!NOTE]
-> เมื่อคุณเปลี่ยนชื่อบล็อคส่วนประกอบ คุณต้องอัพเดตข้อกำหนดของรายงานใดๆ ที่ใช้บล็อคส่วนประกอบนั้น มิฉะนั้นจะไม่สามารถสร้างรายงานใหม่ได้
-
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>เปลี่ยนชื่อโฟลเดอร์หรือบล็อคส่วนประกอบใน Report Designer
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>การเปลี่ยนชื่อโฟลเดอร์หรือบล็อคส่วนประกอบใน Report Designer
 
 1. ใน Report Designer ใช้บานหน้าต่างนำทางเพื่อค้นหาโฟลเดอร์หรือออบเจ็กต์ที่ต้องการเปลี่ยนชื่อ
 2. คลิกขวาโฟลเดอร์หรือออบเจ็กต์ และจากนั้น คลิก **เปลี่ยนชื่อ** ฟิลด์ **ชื่อ** ในบานหน้าต่างนำทางกลายเป็นพร้อมใช้งาน

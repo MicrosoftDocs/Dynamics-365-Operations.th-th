@@ -1,29 +1,30 @@
----
-title: "ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการ"
+--- 
+title: "ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการความไม่สอดคล้องกัน"
 description: "ใช้กระบวนงานนี้เพื่อเปิดใช้งานกระบวนการการจัดการความไม่สอดคล้องกัน"
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 9b5b05a3c00f093066a2714964bb99146427c3bc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
 ms.contentlocale: th-th
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-prerequisites-for-management"></a>ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการ
+# <a name="set-up-prerequisites-for-nonconformance-management"></a>ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการความไม่สอดคล้องกัน
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/02/2017
 4. ในฟิลด์อัตราต่อชั่วโมง ให้ป้อนตัวเลข
     * ใช้ฟิลด์อัตราต่อชั่วโมง เพื่อป้อนอัตราแรงงานต่อชั่วโมงในในสกุลเงินท้องถิ่น  อัตราต่อชั่วโมงจะถูกใช้ในการคำนวณต้นทุนสำหรับการดำเนินงานที่เกี่ยวข้องกับความไม่สอดคล้อง และไม่ได้สัมพันธ์กับฟังก์ชันอื่น  
 5. คลิกการตั้งค่ารายงาน
-    * หน้านี้อนุญาตให้คุณกำหนดชนิดบันทึกย่อของรายงานตรวจสอบคุณภาพที่จะใช้ในรายงานการจัดการคุณภาพชนิดต่างๆ  
+    * หน้านี้อนุญาตให้คุณกำหนดชนิดหมายเหตุรายงานตรวจสอบคุณภาพที่จะใช้ในรายงานการจัดการคุณภาพชนิดต่างๆ  
 6. ปิดหน้า
 7. ปิดหน้า
 
@@ -101,4 +102,5 @@ ms.lasthandoff: 11/02/2017
 3. ในฟิลด์เขตการตรวจสอบสินค้า ให้พิมพ์ค่า
 4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
 5. ปิดหน้า
+
 

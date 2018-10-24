@@ -3,7 +3,7 @@ title: "โฮมเพจการปรับใช้ On-premises"
 description: "หัวข้อนี้แสดงข้อมูลและลิงค์ไปยังเนื้อหาเกี่ยวกับการปรับใช้ในองค์กร"
 author: kfend
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>โฮมเพจการปรับใช้ On-premises
@@ -58,7 +58,8 @@ ms.lasthandoff: 08/09/2018
 - [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>ทรัพยากรอื่นๆ
-- [แก้ไขปัญหา Dynamics 365 for Finance and Operations ในองค์กร](troubleshoot-on-prem.md)
+- [แก้ไขปัญหา Dynamics 365 for Finance and Operations รุ่นในสถานที่](troubleshoot-on-prem.md)
+- [การวินิจฉัยแบบในสถานที่](on-premises-diagnostics.md)
 - [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](../migration-upgrade/deprecated-features.md)
 - [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../migration-upgrade/on-prem-version-update-policy.md)

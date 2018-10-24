@@ -1,31 +1,32 @@
 --- 
-title: "โปรแกรมความต่อเนื่องของการขายและการประมวลผลใบสั่งขายที่เกี่ยวข้อง"
+title: "การใช้โปรแกรมความต่อเนื่อง"
 description: "กระบวนงานนี้แนะนำการขายโปรแกรมความต่อเนื่อง และการประมวลผลใบสั่งขายที่เกี่ยวข้อง "
 author: scott-tucker
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a>โปรแกรมความต่อเนื่องของการขายและการประมวลผลใบสั่งขายที่เกี่ยวข้อง
+# <a name="using-continuity-program"></a>การใช้โปรแกรมความต่อเนื่อง
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 กระบวนงานนี้แนะนำการขายโปรแกรมความต่อเนื่อง และการประมวลผลใบสั่งขายที่เกี่ยวข้อง  เมื่อต้องการดำเนินกระบวนงานนี้ให้เสร็จสมบูรณ์ จะต้องตั้งค่าผู้ใช้เป็นผู้ใช้ศูนย์บริการ  ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT
 
@@ -58,7 +59,7 @@ ms.lasthandoff: 08/09/2018
 19. ในฟิลด์สินค้าที่ต่อเนื่อง พิมพ์ '88000' จากนั้น กดคีย์ Tab
     * สินค้า '88000' คือสินค้าที่ต่อเนื่องในข้อมูลสาธิต USRT  
 20. ในฟิลด์ใบสั่งขาย ให้ป้อนหรือเลือกค่า
-    * ป้อนหมายเลขใบสั่งขายที่คุณบันทึกไว้ก่อนหน้านี้ในกระบวนงาน  ซึ่งจะทำให้ใช้เวลาในการประมวลผลสำหรับกระบวนงานนี้น้อยที่สุด  ฟิลด์ใบสั่งขายไม่จำเป็นต้องระบุ--คุณสามารถประมวลผลใบสั่งทั้งหมดสำหรับโปรแกรมหนึ่งๆ ได้  
+    * ป้อนหมายเลขใบสั่งขายที่คุณบันทึกไว้ก่อนหน้านี้ในกระบวนงาน  ซึ่งจะทำให้ใช้เวลาในการประมวลผลสำหรับกระบวนงานนี้น้อยที่สุด  ฟิลด์ใบสั่งขายไม่จำเป็นต้องระบุ คุณสามารถประมวลผลใบสั่งทั้งหมดสำหรับโปรแกรมหนึ่งๆ ได้  
 21. คลิก ตกลง
 
 
