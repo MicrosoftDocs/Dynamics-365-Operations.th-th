@@ -3,7 +3,7 @@ title: "การจับคู่ธุรกรรมระหว่างร
 description: "กระบวนงานนี้แสดงวิธีการชำระธุรกรรมระหว่างบัญชีแยกประเภท และการยกเลิกการชำระบัญชีแยกประเภท "
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,35 +17,36 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 27064331191f3de35bd3c77dc0c8aeca6d4b9edb
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
 ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 10/03/2018
 
 ---
-# <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="9b412-103">การจับคู่ธุรกรรมระหว่างรหัสบัญชี</span><span class="sxs-lookup"><span data-stu-id="9b412-103">Settle transactions between ledger accounts</span></span>
+# <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="a802d-103">การจับคู่ธุรกรรมระหว่างรหัสบัญชี</span><span class="sxs-lookup"><span data-stu-id="a802d-103">Settle transactions between ledger accounts</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9b412-104">กระบวนงานนี้แสดงวิธีการชำระธุรกรรมระหว่างบัญชีแยกประเภท และการยกเลิกการชำระบัญชีแยกประเภท </span><span class="sxs-lookup"><span data-stu-id="9b412-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="9b412-105">กระบวนงานนี้ใช้บริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="9b412-105">This procedure uses the USMF demo data company.</span></span>
+<span data-ttu-id="a802d-104">กระบวนงานนี้แสดงวิธีการชำระธุรกรรมระหว่างบัญชีแยกประเภท และการยกเลิกการชำระบัญชีแยกประเภท </span><span class="sxs-lookup"><span data-stu-id="a802d-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="a802d-105">กระบวนงานนี้ใช้บริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="a802d-105">This procedure uses the USMF demo data company.</span></span>
 
 
-## <a name="settle-transaction-between-ledger-accounts"></a><span data-ttu-id="9b412-106">ชำระธุรกรรมระหว่างบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="9b412-106">Settle transaction between ledger accounts</span></span>
-1. <span data-ttu-id="9b412-107">ไปที่บัญชีแยกประเภททั่วไป > งานประจำงวด > การชำระบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="9b412-107">Go to General ledger > Periodic tasks > Ledger settlements.</span></span>
-2. <span data-ttu-id="9b412-108">ในรายการ ให้หาธุรกรรมที่คุณต้องการชำระ</span><span class="sxs-lookup"><span data-stu-id="9b412-108">In the list, find the transaction that you want to settle.</span></span>
-    * <span data-ttu-id="9b412-109">จำนวนยอดดุลต้องมากกว่าศูนย์</span><span class="sxs-lookup"><span data-stu-id="9b412-109">The amount balance must be zero.</span></span>  
-3. <span data-ttu-id="9b412-110">คลิกรวม</span><span class="sxs-lookup"><span data-stu-id="9b412-110">Click Include.</span></span>
-4. <span data-ttu-id="9b412-111">คลิกยอมรับ</span><span class="sxs-lookup"><span data-stu-id="9b412-111">Click Accept.</span></span>
+## <a name="settle-transaction-between-ledger-accounts"></a><span data-ttu-id="a802d-106">ชำระธุรกรรมระหว่างบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="a802d-106">Settle transaction between ledger accounts</span></span>
+1. <span data-ttu-id="a802d-107">ไปที่บัญชีแยกประเภททั่วไป > งานประจำงวด > การชำระบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="a802d-107">Go to General ledger > Periodic tasks > Ledger settlements.</span></span>
+2. <span data-ttu-id="a802d-108">ในรายการ ให้หาธุรกรรมที่คุณต้องการชำระ</span><span class="sxs-lookup"><span data-stu-id="a802d-108">In the list, find the transaction that you want to settle.</span></span>
+   > [!NOTE]
+   > <span data-ttu-id="a802d-109">จำนวนยอดดุลต้องมากกว่าศูนย์</span><span class="sxs-lookup"><span data-stu-id="a802d-109">The amount balance must be zero.</span></span>  
+3. <span data-ttu-id="a802d-110">คลิกรวม</span><span class="sxs-lookup"><span data-stu-id="a802d-110">Click Include.</span></span>
+4. <span data-ttu-id="a802d-111">คลิกยอมรับ</span><span class="sxs-lookup"><span data-stu-id="a802d-111">Click Accept.</span></span>
 
-## <a name="cancel-a-ledger-settlement"></a><span data-ttu-id="9b412-112">การยกเลิกการชำระตามบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="9b412-112">Cancel a ledger settlement</span></span>
-1. <span data-ttu-id="9b412-113">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="9b412-113">Close the page.</span></span>
-2. <span data-ttu-id="9b412-114">ไปที่บัญชีแยกประเภททั่วไป > การสอบถามและการรายงาน > งบทดลอง</span><span class="sxs-lookup"><span data-stu-id="9b412-114">Go to General ledger > Inquiries and reports > Trial balance.</span></span>
-3. <span data-ttu-id="9b412-115">คลิกพารามิเตอร์เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="9b412-115">Click Parameters to open the drop dialog.</span></span>
-4. <span data-ttu-id="9b412-116">คลิก อัพเดต ข้อมูลเพิ่มเติมจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="9b412-116">Click Update.</span></span>
-5. <span data-ttu-id="9b412-117">ในรายการ ให้หาบัญชีที่ได้มีการชำระธุรกรรมแล้ว</span><span class="sxs-lookup"><span data-stu-id="9b412-117">In the list, find the account that has the settled transaction.</span></span>
-6. <span data-ttu-id="9b412-118">คลิกธุรกรรมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="9b412-118">Click All transactions.</span></span>
-7. <span data-ttu-id="9b412-119">ใช้ตัวกรองข้อมูลเพื่อค้นหาธุรกรรมในรายการได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="9b412-119">Use a filter to easily find the transaction in the list.</span></span>
-8. <span data-ttu-id="9b412-120">คลิกการชำระบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="9b412-120">Click Ledger settlements.</span></span>
-9. <span data-ttu-id="9b412-121">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="9b412-121">In the list, mark the selected row.</span></span>
+## <a name="cancel-a-ledger-settlement"></a><span data-ttu-id="a802d-112">การยกเลิกการชำระตามบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="a802d-112">Cancel a ledger settlement</span></span>
+
+1. <span data-ttu-id="a802d-113">ไปที่บัญชีแยกประเภททั่วไป > การสอบถามและการรายงาน > งบทดลอง</span><span class="sxs-lookup"><span data-stu-id="a802d-113">Go to General ledger > Inquiries and reports > Trial balance.</span></span>
+2. <span data-ttu-id="a802d-114">คลิกพารามิเตอร์เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="a802d-114">Click Parameters to open the drop dialog.</span></span>
+3. <span data-ttu-id="a802d-115">คลิก อัพเดต ข้อมูลเพิ่มเติมจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="a802d-115">Click Update.</span></span>
+4. <span data-ttu-id="a802d-116">ในรายการ ให้หาบัญชีที่ได้มีการชำระธุรกรรมแล้ว</span><span class="sxs-lookup"><span data-stu-id="a802d-116">In the list, find the account that has the settled transaction.</span></span>
+5. <span data-ttu-id="a802d-117">คลิกธุรกรรมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="a802d-117">Click All transactions.</span></span>
+6. <span data-ttu-id="a802d-118">ใช้ตัวกรองข้อมูลเพื่อค้นหาธุรกรรมในรายการได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="a802d-118">Use a filter to easily find the transaction in the list.</span></span>
+7. <span data-ttu-id="a802d-119">คลิกการชำระบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="a802d-119">Click Ledger settlements.</span></span>
+8. <span data-ttu-id="a802d-120">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="a802d-120">In the list, mark the selected row.</span></span>
 
 

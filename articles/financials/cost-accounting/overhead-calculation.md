@@ -3,7 +3,7 @@ title: "การคำนวณค่าโสหุ้ย"
 description: "หัวข้อนี้อธิบายกระบวนการทั่วไปสำหรับการคำนวณและการปันส่วนต้นทุนค่าโสหุ้ย"
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,1399 +20,1399 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: be548959985a6fcaabf482f1e5951024633283cf
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 10/05/2018
 
 ---
 
-# <a name="overhead-calculation"></a><span data-ttu-id="8ad56-103">การคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="8ad56-103">Overhead calculation</span></span>
+# <a name="overhead-calculation"></a><span data-ttu-id="afddf-103">การคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="afddf-103">Overhead calculation</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8ad56-104">หัวข้อนี้อธิบายกระบวนการทั่วไปสำหรับการคำนวณและการปันส่วนต้นทุนค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="8ad56-104">This topic describes the typical processes for calculating and allocating overhead costs.</span></span>
+<span data-ttu-id="afddf-104">หัวข้อนี้อธิบายกระบวนการทั่วไปสำหรับการคำนวณและการปันส่วนต้นทุนค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="afddf-104">This topic describes the typical processes for calculating and allocating overhead costs.</span></span>
 
-<a name="term-definition"></a><span data-ttu-id="8ad56-105">คำนิยามข้อความ</span><span class="sxs-lookup"><span data-stu-id="8ad56-105">Term definition</span></span>
+<a name="term-definition"></a><span data-ttu-id="afddf-105">คำนิยามข้อความ</span><span class="sxs-lookup"><span data-stu-id="afddf-105">Term definition</span></span>
 ---------------
 
-<span data-ttu-id="8ad56-106">ต้นทุนค่าโสหุ้ยคือต้นทุนที่จะเกิดขึ้นเมื่อต้องการรันธุรกิจ แต่ที่ไม่สามารถจัดสรรให้กับกิจกรรมทางธุรกิจเฉพาะ ผลิตภัณฑ์ หรือการบริการได้โดยตรง</span><span class="sxs-lookup"><span data-stu-id="8ad56-106">Overhead costs are the costs that are incurred in order to run a business, but that can't be directly attributed to any specific business activity, product, or service.</span></span> <span data-ttu-id="8ad56-107">ต้นทุนค่าโสหุ้ยให้การสนับสนุนที่สำคัญสำหรับการสร้างกิจกรรมที่ทำกำไร</span><span class="sxs-lookup"><span data-stu-id="8ad56-107">Overhead costs provide critical support for the generation of profit-making activities.</span></span> <span data-ttu-id="8ad56-108">ต่อไปนี้เป็นตัวอย่างบางรายการของต้นทุนค่าโสหุ้ย:</span><span class="sxs-lookup"><span data-stu-id="8ad56-108">Here are some examples of overhead costs:</span></span>
+<span data-ttu-id="afddf-106">ต้นทุนค่าโสหุ้ยคือต้นทุนที่จะเกิดขึ้นเมื่อต้องการรันธุรกิจ แต่ที่ไม่สามารถจัดสรรให้กับกิจกรรมทางธุรกิจเฉพาะ ผลิตภัณฑ์ หรือการบริการได้โดยตรง</span><span class="sxs-lookup"><span data-stu-id="afddf-106">Overhead costs are the costs that are incurred in order to run a business, but that can't be directly attributed to any specific business activity, product, or service.</span></span> <span data-ttu-id="afddf-107">ต้นทุนค่าโสหุ้ยให้การสนับสนุนที่สำคัญสำหรับการสร้างกิจกรรมที่ทำกำไร</span><span class="sxs-lookup"><span data-stu-id="afddf-107">Overhead costs provide critical support for the generation of profit-making activities.</span></span> <span data-ttu-id="afddf-108">ต่อไปนี้เป็นตัวอย่างบางรายการของต้นทุนค่าโสหุ้ย:</span><span class="sxs-lookup"><span data-stu-id="afddf-108">Here are some examples of overhead costs:</span></span>
 
--   <span data-ttu-id="8ad56-109">ค่าเช่า</span><span class="sxs-lookup"><span data-stu-id="8ad56-109">Rent</span></span>
--   <span data-ttu-id="8ad56-110">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-110">Electricity</span></span>
--   <span data-ttu-id="8ad56-111">เงินเดือนในการจัดการ</span><span class="sxs-lookup"><span data-stu-id="8ad56-111">Administrative salaries</span></span>
+-   <span data-ttu-id="afddf-109">ค่าเช่า</span><span class="sxs-lookup"><span data-stu-id="afddf-109">Rent</span></span>
+-   <span data-ttu-id="afddf-110">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-110">Electricity</span></span>
+-   <span data-ttu-id="afddf-111">เงินเดือนในการจัดการ</span><span class="sxs-lookup"><span data-stu-id="afddf-111">Administrative salaries</span></span>
 
-## <a name="overhead-calculation-overview"></a><span data-ttu-id="8ad56-112">ภาพรวมการคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="8ad56-112">Overhead calculation overview</span></span>
-<span data-ttu-id="8ad56-113">การคำนวณค่าโสหุ้ยรันนโยบายการบัญชีต้นทุนในลำดับที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="8ad56-113">Overhead calculation runs the cost accounting policies in the correct order.</span></span> <span data-ttu-id="8ad56-114">คุณสามารถรันการคำนวณโสหุ้ยได้หลายครั้งสำหรับรอบระยะเวลาทางบัญชีเดียวกัน ถ้ามีการเปลี่ยนแปลงนโยบายการบัญชีต้นทุนหรือมีการตรวจพบข้อผิดพลาดเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="8ad56-114">You can run overhead calculation multiple times for the same fiscal period if cost accounting policies have been changed or specific errors have been detected.</span></span> <span data-ttu-id="8ad56-115">การรันการคำนวณโสหุ้ยแต่ละครั้งจะถูกเก็บไว้ และรับรหัสเวอร์ชันที่ไม่ซ้ำกันที่จะช่วยให้คุณสามารถเปรียบเทียบการคำนวณในเวอร์ชันต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="8ad56-115">Each run of the overhead calculation is stored and receives a unique version ID that lets you compare the calculations in various versions.</span></span> <span data-ttu-id="8ad56-116">รายการต้นทุนที่การคำนวณค่าโสหุ้ยที่สร้างขึ้นได้รับวันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-116">The cost entries that the overhead calculation generates receive an accounting date.</span></span> <span data-ttu-id="8ad56-117">วันที่ลงบัญชีนี้ตรงกับวันที่สิ้นสุดของรอบระยะเวลาทางบัญชีที่ใช้ในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="8ad56-117">This accounting date matches the end date of the fiscal period that is used in the calculation.</span></span> <span data-ttu-id="8ad56-118">รหัสเวอร์ชันที่ไม่ซ้ำกันประกอบด้วยองค์ประกอบต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8ad56-118">The unique version ID consists of the following elements:</span></span>
+## <a name="overhead-calculation-overview"></a><span data-ttu-id="afddf-112">ภาพรวมการคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="afddf-112">Overhead calculation overview</span></span>
+<span data-ttu-id="afddf-113">การคำนวณค่าโสหุ้ยรันนโยบายการบัญชีต้นทุนในลำดับที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="afddf-113">Overhead calculation runs the cost accounting policies in the correct order.</span></span> <span data-ttu-id="afddf-114">คุณสามารถรันการคำนวณโสหุ้ยได้หลายครั้งสำหรับรอบระยะเวลาทางบัญชีเดียวกัน ถ้ามีการเปลี่ยนแปลงนโยบายการบัญชีต้นทุนหรือมีการตรวจพบข้อผิดพลาดเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="afddf-114">You can run overhead calculation multiple times for the same fiscal period if cost accounting policies have been changed or specific errors have been detected.</span></span> <span data-ttu-id="afddf-115">การรันการคำนวณโสหุ้ยแต่ละครั้งจะถูกเก็บไว้ และรับรหัสเวอร์ชันที่ไม่ซ้ำกันที่จะช่วยให้คุณสามารถเปรียบเทียบการคำนวณในเวอร์ชันต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="afddf-115">Each run of the overhead calculation is stored and receives a unique version ID that lets you compare the calculations in various versions.</span></span> <span data-ttu-id="afddf-116">รายการต้นทุนที่การคำนวณค่าโสหุ้ยที่สร้างขึ้นได้รับวันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-116">The cost entries that the overhead calculation generates receive an accounting date.</span></span> <span data-ttu-id="afddf-117">วันที่ลงบัญชีนี้ตรงกับวันที่สิ้นสุดของรอบระยะเวลาทางบัญชีที่ใช้ในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="afddf-117">This accounting date matches the end date of the fiscal period that is used in the calculation.</span></span> <span data-ttu-id="afddf-118">รหัสเวอร์ชันที่ไม่ซ้ำกันประกอบด้วยองค์ประกอบต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="afddf-118">The unique version ID consists of the following elements:</span></span>
 
--   <span data-ttu-id="8ad56-119">ชนิดของเวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-119">Version type</span></span>
--   <span data-ttu-id="8ad56-120">วันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="8ad56-120">Date and time</span></span>
--   <span data-ttu-id="8ad56-121">บัญชีแยกประเภทสำหรับการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-121">Cost accounting ledger</span></span>
--   <span data-ttu-id="8ad56-122">ปีบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-122">Fiscal year</span></span>
--   <span data-ttu-id="8ad56-123">รอบระยะเวลาทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-123">Fiscal period</span></span>
+-   <span data-ttu-id="afddf-119">ชนิดของเวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="afddf-119">Version type</span></span>
+-   <span data-ttu-id="afddf-120">วันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="afddf-120">Date and time</span></span>
+-   <span data-ttu-id="afddf-121">บัญชีแยกประเภทสำหรับการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-121">Cost accounting ledger</span></span>
+-   <span data-ttu-id="afddf-122">ปีบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-122">Fiscal year</span></span>
+-   <span data-ttu-id="afddf-123">รอบระยะเวลาทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-123">Fiscal period</span></span>
 
-<span data-ttu-id="8ad56-124">การคำนวณค่าโสหุ้ยได้รับการรันโดยอิสระจากเวอร์ชันต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="8ad56-124">Overhead calculation is run independently of the version.</span></span> <span data-ttu-id="8ad56-125">ดังนั้น คุณสามารถคำนวณเวอร์ชันงบประมาณก่อนเวอร์ชันจริง</span><span class="sxs-lookup"><span data-stu-id="8ad56-125">Therefore, you can calculate the Budget version before the Actual version.</span></span> <span data-ttu-id="8ad56-126">การคำนวณค่าโสหุ้ยประกอบด้วยขั้นตอน 4 รายการดังที่แสดงในภาพประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="8ad56-126">Overhead calculation consists of four steps, as shown in the following illustration.</span></span> <span data-ttu-id="8ad56-127">ในแต่ละขั้นตอน ส่วนหัวของสมุดรายวันจะถูกสร้างขึ้นโดยมีรายการสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-127">In each step, a journal header is created that has journal entries.</span></span> <span data-ttu-id="8ad56-128">ส่วนหัวของสมุดรายวันนี้จะเก็บข้อมูลป้อนเข้าสำหรับแต่ละขั้นตอนการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="8ad56-128">This journal header keeps the input data for each calculation step.</span></span> <span data-ttu-id="8ad56-129">นโยบายและกฎจะใช้กับแต่ละบรรทัดสมุดรายวัน และรายการต้นทุนจะถูกสร้างเป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-129">Policies and rules are applied to each journal line, and cost entries are generated as output.</span></span> <span data-ttu-id="8ad56-130">ดังนั้น คุณจึงมีความสามารถในการติดตามเสมอ</span><span class="sxs-lookup"><span data-stu-id="8ad56-130">Therefore, you always have full traceability.</span></span> 
+<span data-ttu-id="afddf-124">การคำนวณค่าโสหุ้ยได้รับการรันโดยอิสระจากเวอร์ชันต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="afddf-124">Overhead calculation is run independently of the version.</span></span> <span data-ttu-id="afddf-125">ดังนั้น คุณสามารถคำนวณเวอร์ชันงบประมาณก่อนเวอร์ชันจริง</span><span class="sxs-lookup"><span data-stu-id="afddf-125">Therefore, you can calculate the Budget version before the Actual version.</span></span> <span data-ttu-id="afddf-126">การคำนวณค่าโสหุ้ยประกอบด้วยขั้นตอน 4 รายการดังที่แสดงในภาพประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="afddf-126">Overhead calculation consists of four steps, as shown in the following illustration.</span></span> <span data-ttu-id="afddf-127">ในแต่ละขั้นตอน ส่วนหัวของสมุดรายวันจะถูกสร้างขึ้นโดยมีรายการสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-127">In each step, a journal header is created that has journal entries.</span></span> <span data-ttu-id="afddf-128">ส่วนหัวของสมุดรายวันนี้จะเก็บข้อมูลป้อนเข้าสำหรับแต่ละขั้นตอนการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="afddf-128">This journal header keeps the input data for each calculation step.</span></span> <span data-ttu-id="afddf-129">นโยบายและกฎจะใช้กับแต่ละบรรทัดสมุดรายวัน และรายการต้นทุนจะถูกสร้างเป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="afddf-129">Policies and rules are applied to each journal line, and cost entries are generated as output.</span></span> <span data-ttu-id="afddf-130">ดังนั้น คุณจึงมีความสามารถในการติดตามเสมอ</span><span class="sxs-lookup"><span data-stu-id="afddf-130">Therefore, you always have full traceability.</span></span> 
 
-<span data-ttu-id="8ad56-131">[![การคำนวณค่าโสหุ้ย](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span><span class="sxs-lookup"><span data-stu-id="8ad56-131">[![Overhead calculation](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span></span>
+<span data-ttu-id="afddf-131">[![การคำนวณค่าโสหุ้ย](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span><span class="sxs-lookup"><span data-stu-id="afddf-131">[![Overhead calculation](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span></span>
 
-## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a><span data-ttu-id="8ad56-132">คำนวณและปันส่วนต้นทุนค่าโสหุ้ยไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-132">Calculate and allocate the Electricity overhead cost</span></span>
-<span data-ttu-id="8ad56-133">ในการบัญชีทางการเงิน ต้นทุนบางอย่าง เช่น ไฟฟ้า จะถูกลงทะเบียนเป็นจำนวนเงินรวมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8ad56-133">In Financial accounting, some costs, such as electricity, are registered as a lump sum.</span></span> <span data-ttu-id="8ad56-134">ดังนั้น รายละเอียดข้อมูลเชิงลึกเชิงจัดการจึงไม่ได้มีไว้สำหรับการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-134">Therefore, detailed managerial insight isn't provided for Cost accounting.</span></span> <span data-ttu-id="8ad56-135">ในการบัญชีต้นทุน เพื่อให้ข้อมูลเชิงลึกเชิงจัดการที่ถูกต้องระหว่างหน่วยงานและระดับทั้งหมด ต้นทุนต้องไหลผ่านหน่วยงานต่างๆ</span><span class="sxs-lookup"><span data-stu-id="8ad56-135">In Cost accounting, to provide correct managerial insight across all organizational units and levels, costs must flow through the organizational units.</span></span> <span data-ttu-id="8ad56-136">ขั้นตอนนี้ต้องยึดตามเรกคอร์ดที่ถูกต้องของปริมาณการใช้วัสดุหรือการประเมินที่ยุติธรรม</span><span class="sxs-lookup"><span data-stu-id="8ad56-136">This flow must be based on either an accurate record of the consumption or a fair assessment.</span></span> <span data-ttu-id="8ad56-137">ในบัญชีแยกประเภททั่วไป ต้นทุนไฟฟ้าสามารถลงรายการดังที่แสดงในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="8ad56-137">In the general ledger, an electricity cost can be posted as shown in the following table.</span></span>
+## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a><span data-ttu-id="afddf-132">คำนวณและปันส่วนต้นทุนค่าโสหุ้ยไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-132">Calculate and allocate the Electricity overhead cost</span></span>
+<span data-ttu-id="afddf-133">ในการบัญชีทางการเงิน ต้นทุนบางอย่าง เช่น ไฟฟ้า จะถูกลงทะเบียนเป็นจำนวนเงินรวมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="afddf-133">In Financial accounting, some costs, such as electricity, are registered as a lump sum.</span></span> <span data-ttu-id="afddf-134">ดังนั้น รายละเอียดข้อมูลเชิงลึกเชิงจัดการจึงไม่ได้มีไว้สำหรับการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-134">Therefore, detailed managerial insight isn't provided for Cost accounting.</span></span> <span data-ttu-id="afddf-135">ในการบัญชีต้นทุน เพื่อให้ข้อมูลเชิงลึกเชิงจัดการที่ถูกต้องระหว่างหน่วยงานและระดับทั้งหมด ต้นทุนต้องไหลผ่านหน่วยงานต่างๆ</span><span class="sxs-lookup"><span data-stu-id="afddf-135">In Cost accounting, to provide correct managerial insight across all organizational units and levels, costs must flow through the organizational units.</span></span> <span data-ttu-id="afddf-136">ขั้นตอนนี้ต้องยึดตามเรกคอร์ดที่ถูกต้องของปริมาณการใช้วัสดุหรือการประเมินที่ยุติธรรม</span><span class="sxs-lookup"><span data-stu-id="afddf-136">This flow must be based on either an accurate record of the consumption or a fair assessment.</span></span> <span data-ttu-id="afddf-137">ในบัญชีแยกประเภททั่วไป ต้นทุนไฟฟ้าสามารถลงรายการดังที่แสดงในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="afddf-137">In the general ledger, an electricity cost can be posted as shown in the following table.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-138">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-138">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-139">ศูนย์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-139">Cost center</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-140">บัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ad56-140">Main account</span></span></th>
-<th><span data-ttu-id="8ad56-141">ยอดเงินในสกุลเงินทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-141">Amount in the accounting currency</span></span></th>
+<th><span data-ttu-id="afddf-138">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-138">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-139">ศูนย์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-139">Cost center</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-140">บัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="afddf-140">Main account</span></span></th>
+<th><span data-ttu-id="afddf-141">ยอดเงินในสกุลเงินทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-141">Amount in the accounting currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-142">3 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-142">January 3, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-143">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-143">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-144">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-144">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-145">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-145">10001</span></span></td>
-<td><span data-ttu-id="8ad56-146">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-146">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-147">10,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-147">10,000.00</span></span></td>
+<td><span data-ttu-id="afddf-142">3 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-142">January 3, 2017</span></span></td>
+<td><span data-ttu-id="afddf-143">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-143">CC099</span></span></td>
+<td><span data-ttu-id="afddf-144">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-144">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-145">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-145">10001</span></span></td>
+<td><span data-ttu-id="afddf-146">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-146">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-147">10,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-147">10,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="step-1-process-the-cost-behavior-calculation"></a><span data-ttu-id="8ad56-148">ขั้นตอนที่ 1: ดำเนินการคำนวณพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-148">Step 1: Process the cost behavior calculation</span></span>
+### <a name="step-1-process-the-cost-behavior-calculation"></a><span data-ttu-id="afddf-148">ขั้นตอนที่ 1: ดำเนินการคำนวณพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-148">Step 1: Process the cost behavior calculation</span></span>
 
-<span data-ttu-id="8ad56-149">โดยค่าเริ่มต้น เมื่อมีการนำเข้ารายการต้นทุนจากข้อมูลแหล่งที่มา จะได้รับการจัดประเภทของพฤติกรรมต้นทุน **ไม่ได้จัดประเภท** ในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-149">By default, when cost entries are imported from the source data, they receive the **Unclassified** cost behavior classification in Cost accounting.</span></span> <span data-ttu-id="8ad56-150">โดยการใช้กฎนโยบายพฤติกรรมต้นทุน คุณสามารถจัดประเภทรายการต้นทุนเป็น **ต้นทุนคงที่** หรือ **ต้นทุนผันแปร**ได้</span><span class="sxs-lookup"><span data-stu-id="8ad56-150">By applying cost behavior policy rules, you can reclassify cost entries as either **Fixed cost** or **Variable cost**.</span></span>
+<span data-ttu-id="afddf-149">โดยค่าเริ่มต้น เมื่อมีการนำเข้ารายการต้นทุนจากข้อมูลแหล่งที่มา จะได้รับการจัดประเภทของพฤติกรรมต้นทุน **ไม่ได้จัดประเภท** ในการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-149">By default, when cost entries are imported from the source data, they receive the **Unclassified** cost behavior classification in Cost accounting.</span></span> <span data-ttu-id="afddf-150">โดยการใช้กฎนโยบายพฤติกรรมต้นทุน คุณสามารถจัดประเภทรายการต้นทุนเป็น **ต้นทุนคงที่** หรือ **ต้นทุนผันแปร**ได้</span><span class="sxs-lookup"><span data-stu-id="afddf-150">By applying cost behavior policy rules, you can reclassify cost entries as either **Fixed cost** or **Variable cost**.</span></span>
 
-#### <a name="define-the-cost-behavior-rule"></a><span data-ttu-id="8ad56-151">กำหนดกฎพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-151">Define the cost behavior rule</span></span>
+#### <a name="define-the-cost-behavior-rule"></a><span data-ttu-id="afddf-151">กำหนดกฎพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-151">Define the cost behavior rule</span></span>
 
-<span data-ttu-id="8ad56-152">ในบางกรณี ส่วนหนึ่งของต้นทุนจะเป็นค่าธรรมเนียมคงที่ และต้นทุนที่เหลือจะขึ้นอยู่กับปริมาณการใช้วัสดุ</span><span class="sxs-lookup"><span data-stu-id="8ad56-152">In some cases, part of the cost is a fixed fee, and the remaining cost is based on consumption.</span></span> <span data-ttu-id="8ad56-153">บิลไฟฟ้ามักจะตรงกับคำนิยามนี้</span><span class="sxs-lookup"><span data-stu-id="8ad56-153">Electricity bills often match this definition.</span></span> <span data-ttu-id="8ad56-154">หลังจากที่คุณชำระเงินค่าธรรมเนียมคงที่เฉพาะเจาะจง คุณจะต้องชำระเงินสำหรับปริมาณการใช้วัสดุต่อชั่วโมงเป็นกิโลวัตต์ (Kwh)</span><span class="sxs-lookup"><span data-stu-id="8ad56-154">After you pay a specific fixed fee, you pay for consumption per kilowatt hour (Kwh).</span></span> <span data-ttu-id="8ad56-155">ตัวอย่างเช่น ถ้าค่าธรรมเนียมต้นทุนคงที่คือ 1, 000.00 นี่เป็นวิธีกำหนดกฎพฤติกรรมต้นทุน:</span><span class="sxs-lookup"><span data-stu-id="8ad56-155">For example, if the fixed cost fee is 1,000.00, here is how the cost behavior rule is defined:</span></span>
+<span data-ttu-id="afddf-152">ในบางกรณี ส่วนหนึ่งของต้นทุนจะเป็นค่าธรรมเนียมคงที่ และต้นทุนที่เหลือจะขึ้นอยู่กับปริมาณการใช้วัสดุ</span><span class="sxs-lookup"><span data-stu-id="afddf-152">In some cases, part of the cost is a fixed fee, and the remaining cost is based on consumption.</span></span> <span data-ttu-id="afddf-153">บิลไฟฟ้ามักจะตรงกับคำนิยามนี้</span><span class="sxs-lookup"><span data-stu-id="afddf-153">Electricity bills often match this definition.</span></span> <span data-ttu-id="afddf-154">หลังจากที่คุณชำระเงินค่าธรรมเนียมคงที่เฉพาะเจาะจง คุณจะต้องชำระเงินสำหรับปริมาณการใช้วัสดุต่อชั่วโมงเป็นกิโลวัตต์ (Kwh)</span><span class="sxs-lookup"><span data-stu-id="afddf-154">After you pay a specific fixed fee, you pay for consumption per kilowatt hour (Kwh).</span></span> <span data-ttu-id="afddf-155">ตัวอย่างเช่น ถ้าค่าธรรมเนียมต้นทุนคงที่คือ 1, 000.00 นี่เป็นวิธีกำหนดกฎพฤติกรรมต้นทุน:</span><span class="sxs-lookup"><span data-stu-id="afddf-155">For example, if the fixed cost fee is 1,000.00, here is how the cost behavior rule is defined:</span></span>
 
--   <span data-ttu-id="8ad56-156">ยอดคงที่ 1,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-156">Fixed amount 1,000.00</span></span>
-    -   <span data-ttu-id="8ad56-157">0 &lt;= 1,000.00 = คงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-157">0 &lt;= 1,000.00 = Fixed</span></span>
-    -   <span data-ttu-id="8ad56-158">1000,01 &lt; N = ผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-158">1000,01 &lt; N = Variable</span></span>
+-   <span data-ttu-id="afddf-156">ยอดคงที่ 1,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-156">Fixed amount 1,000.00</span></span>
+    -   <span data-ttu-id="afddf-157">0 &lt;= 1,000.00 = คงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-157">0 &lt;= 1,000.00 = Fixed</span></span>
+    -   <span data-ttu-id="afddf-158">1000,01 &lt; N = ผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-158">1000,01 &lt; N = Variable</span></span>
 
-##### <a name="journal"></a><span data-ttu-id="8ad56-159">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-159">Journal</span></span>
+##### <a name="journal"></a><span data-ttu-id="afddf-159">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-159">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-160">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-160">Journal</span></span></th>
-<th><span data-ttu-id="8ad56-161">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-161">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="8ad56-162">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-162">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="8ad56-163">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-163">Version</span></span></th>
+<th><span data-ttu-id="afddf-160">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-160">Journal</span></span></th>
+<th><span data-ttu-id="afddf-161">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-161">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="afddf-162">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-162">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="afddf-163">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="afddf-163">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-164">00001</span><span class="sxs-lookup"><span data-stu-id="8ad56-164">00001</span></span></td>
-<td><span data-ttu-id="8ad56-165">สมุดรายวันของพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-165">Cost behavior calculation journal</span></span></td>
-<td><span data-ttu-id="8ad56-166">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-166">Fiscal</span></span></td>
-<td><span data-ttu-id="8ad56-167">2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-167">2017</span></span></td>
-<td><span data-ttu-id="8ad56-168">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-168">Period 1</span></span></td>
-<td><span data-ttu-id="8ad56-169">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-169">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+<td><span data-ttu-id="afddf-164">00001</span><span class="sxs-lookup"><span data-stu-id="afddf-164">00001</span></span></td>
+<td><span data-ttu-id="afddf-165">สมุดรายวันของพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-165">Cost behavior calculation journal</span></span></td>
+<td><span data-ttu-id="afddf-166">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-166">Fiscal</span></span></td>
+<td><span data-ttu-id="afddf-167">2017</span><span class="sxs-lookup"><span data-stu-id="afddf-167">2017</span></span></td>
+<td><span data-ttu-id="afddf-168">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-168">Period 1</span></span></td>
+<td><span data-ttu-id="afddf-169">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-169">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="8ad56-170">รายการสมุดรายวัน (รายการสมุดรายวันของยอดดุลออบเจ็กต์ต้นทุน)</span><span class="sxs-lookup"><span data-stu-id="8ad56-170">Journal entries (Cost object balance journal entries)</span></span>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="afddf-170">รายการสมุดรายวัน (รายการสมุดรายวันของยอดดุลออบเจ็กต์ต้นทุน)</span><span class="sxs-lookup"><span data-stu-id="afddf-170">Journal entries (Cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-171">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-171">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-172">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-172">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-173">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-173">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-174">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-174">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-175">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-175">Amount</span></span></th>
+<th><span data-ttu-id="afddf-171">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-171">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-172">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-172">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-173">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-173">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-174">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-174">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-175">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-175">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-176">3 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-176">January 3, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-177">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-177">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-178">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-178">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-179">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-179">10001</span></span></td>
-<td><span data-ttu-id="8ad56-180">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-180">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-181">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="8ad56-181">Unclassified</span></span></td>
-<td><span data-ttu-id="8ad56-182">10,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-182">10,000.00</span></span></td>
+<td><span data-ttu-id="afddf-176">3 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-176">January 3, 2017</span></span></td>
+<td><span data-ttu-id="afddf-177">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-177">CC099</span></span></td>
+<td><span data-ttu-id="afddf-178">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-178">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-179">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-179">10001</span></span></td>
+<td><span data-ttu-id="afddf-180">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-180">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-181">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="afddf-181">Unclassified</span></span></td>
+<td><span data-ttu-id="afddf-182">10,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-182">10,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a><span data-ttu-id="8ad56-183">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-183">Cost entries</span></span>
+##### <a name="cost-entries"></a><span data-ttu-id="afddf-183">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-183">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-184">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-184">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-185">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-185">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-186">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-186">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-187">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-187">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-188">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-188">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-184">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-184">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-185">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-185">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-186">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-186">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-187">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-187">Amount</span></span></th>
+<th><span data-ttu-id="afddf-188">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-188">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-189">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-189">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-190">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-190">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-191">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-191">10001</span></span></td>
-<td><span data-ttu-id="8ad56-192">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-192">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-193">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="8ad56-193">Unclassified</span></span></td>
-<td><span data-ttu-id="8ad56-194">10,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-194">10,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-195">3 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-195">January 3, 2017</span></span></td>
+<td><span data-ttu-id="afddf-189">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-189">CC099</span></span></td>
+<td><span data-ttu-id="afddf-190">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-190">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-191">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-191">10001</span></span></td>
+<td><span data-ttu-id="afddf-192">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-192">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-193">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="afddf-193">Unclassified</span></span></td>
+<td><span data-ttu-id="afddf-194">10,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-194">10,000.00</span></span></td>
+<td><span data-ttu-id="afddf-195">3 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-195">January 3, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-196">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-196">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-197">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-197">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-198">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-198">10001</span></span></td>
-<td><span data-ttu-id="8ad56-199">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-199">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-200">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="8ad56-200">Unclassified</span></span></td>
-<td><span data-ttu-id="8ad56-201">-10,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-201">-10,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-202">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-202">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-196">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-196">CC099</span></span></td>
+<td><span data-ttu-id="afddf-197">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-197">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-198">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-198">10001</span></span></td>
+<td><span data-ttu-id="afddf-199">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-199">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-200">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="afddf-200">Unclassified</span></span></td>
+<td><span data-ttu-id="afddf-201">-10,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-201">-10,000.00</span></span></td>
+<td><span data-ttu-id="afddf-202">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-202">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-203">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-203">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-204">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-204">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-205">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-205">10001</span></span></td>
-<td><span data-ttu-id="8ad56-206">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-206">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-207">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-207">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-208">1,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-208">1,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-209">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-209">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-203">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-203">CC099</span></span></td>
+<td><span data-ttu-id="afddf-204">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-204">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-205">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-205">10001</span></span></td>
+<td><span data-ttu-id="afddf-206">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-206">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-207">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-207">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-208">1,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-208">1,000.00</span></span></td>
+<td><span data-ttu-id="afddf-209">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-209">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-210">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-210">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-211">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-211">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-212">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-212">10001</span></span></td>
-<td><span data-ttu-id="8ad56-213">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-213">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-214">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-214">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-215">9,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-215">9,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-216">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-216">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-210">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-210">CC099</span></span></td>
+<td><span data-ttu-id="afddf-211">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-211">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-212">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-212">10001</span></span></td>
+<td><span data-ttu-id="afddf-213">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-213">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-214">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-214">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-215">9,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-215">9,000.00</span></span></td>
+<td><span data-ttu-id="afddf-216">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-216">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-217">สำหรับข้อมูลรายละเอียดเกี่ยวกับพฤติกรรมต้นทุน ดูนโยบายพฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-217">For detailed information about cost behavior, see Cost behavior policy.</span></span> <span data-ttu-id="8ad56-218">(หมายเหตุว่าหัวข้อนี้ยังไม่เสร็จสมบูรณ์ แต่ในไม่ช้านี้)</span><span class="sxs-lookup"><span data-stu-id="8ad56-218">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+<span data-ttu-id="afddf-217">สำหรับข้อมูลเพิ่มเติม ดู [สร้างและกำหนดนโยบายพฤติกรรมต้นทุนไปยังหน่วยการควบคุมต้นทุน](tasks/create-assign-cost-behavior-policy-cost-control-unit.md)</span><span class="sxs-lookup"><span data-stu-id="afddf-217">For more information, see [Create and assign a cost behavior policy to a cost control unit](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).</span></span>
+### <a name="step-2-process-the-cost-distribution-calculation"></a><span data-ttu-id="afddf-218">ขั้นตอนที่ 2: ดำเนินการคำนวณการกระจายต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-218">Step 2: Process the cost distribution calculation</span></span>
 
-### <a name="step-2-process-the-cost-distribution-calculation"></a><span data-ttu-id="8ad56-219">ขั้นตอนที่ 2: ดำเนินการคำนวณการกระจายต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-219">Step 2: Process the cost distribution calculation</span></span>
+<span data-ttu-id="afddf-219">การกระจายต้นทุนจะใช้ในการกระจายต้นทุนจากออบเจ็กต์ต้นทุนหนึ่งไปยังออบเจ็กต์ต้นทุนอื่นอย่างน้อยหนึ่งรายการโดยใช้ฐานการปันส่วนที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="afddf-219">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="afddf-220">การกระจายต้นทุนและการปันส่วนต้นทุนแตกต่างกันในแง่ที่ว่าการกระจายต้นทุนจะเกิดขึ้นในระดับขององค์ประกอบต้นทุนหลักของต้นทุนเดิมเสมอ</span><span class="sxs-lookup"><span data-stu-id="afddf-220">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
 
-<span data-ttu-id="8ad56-220">การกระจายต้นทุนจะใช้ในการกระจายต้นทุนจากออบเจ็กต์ต้นทุนหนึ่งไปยังออบเจ็กต์ต้นทุนอื่นอย่างน้อยหนึ่งรายการโดยใช้ฐานการปันส่วนที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="8ad56-220">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="8ad56-221">การกระจายต้นทุนและการปันส่วนต้นทุนแตกต่างกันในแง่ที่ว่าการกระจายต้นทุนจะเกิดขึ้นในระดับขององค์ประกอบต้นทุนหลักของต้นทุนเดิมเสมอ</span><span class="sxs-lookup"><span data-stu-id="8ad56-221">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
+#### <a name="define-the-cost-distribution-rule"></a><span data-ttu-id="afddf-221">กำหนดกฎการกระจายต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-221">Define the cost distribution rule</span></span>
 
-#### <a name="define-the-cost-distribution-rule"></a><span data-ttu-id="8ad56-222">กำหนดกฎการกระจายต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-222">Define the cost distribution rule</span></span>
-
-<span data-ttu-id="8ad56-223">ในการบัญชีทางการเงิน ต้นทุนไฟฟ้ามักจะลงทะเบียนเป็นจำนวนเงินรวมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8ad56-223">In Financial accounting, electricity costs are often registered as a lump sum.</span></span> <span data-ttu-id="8ad56-224">ในการบัญชีต้นทุน วิธีการนี้ยังให้รายละเอียดไม่เพียงพอ</span><span class="sxs-lookup"><span data-stu-id="8ad56-224">In Cost accounting, this approach isn't detailed enough.</span></span> <span data-ttu-id="8ad56-225">ควรกระจายต้นทุนผันแปรไปยังแต่ละออบเจ็กต์ต้นทุนตามปกติ</span><span class="sxs-lookup"><span data-stu-id="8ad56-225">The variable cost should be distributed to the individual cost objects on a fair basis.</span></span> <span data-ttu-id="8ad56-226">เกณฑ์การปันส่วนทางตรรกะมากที่สุดคือปริมาณการใช้พลังงานไฟฟ้า (Kwh)</span><span class="sxs-lookup"><span data-stu-id="8ad56-226">The most logical allocation basis is the consumption of electricity (Kwh).</span></span> <span data-ttu-id="8ad56-227">สมาชิกมิติทางสถิติที่มีชื่อว่าไฟฟ้าถูกสร้างขึ้น และมีการบันทึกปริมาณการใช้ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-227">A statistical dimension member that is named Electricity is created, and electricity consumption is recorded.</span></span> <span data-ttu-id="8ad56-228">โดยค่าเริ่มต้น สมาชิกมิติทางสถิติทั้งหมดจะพร้อมใช้งานเป็นฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-228">By default, all statistical dimension members become available as allocation bases.</span></span>
+<span data-ttu-id="afddf-222">ในการบัญชีทางการเงิน ต้นทุนไฟฟ้ามักจะลงทะเบียนเป็นจำนวนเงินรวมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="afddf-222">In Financial accounting, electricity costs are often registered as a lump sum.</span></span> <span data-ttu-id="afddf-223">ในการบัญชีต้นทุน วิธีการนี้ยังให้รายละเอียดไม่เพียงพอ</span><span class="sxs-lookup"><span data-stu-id="afddf-223">In Cost accounting, this approach isn't detailed enough.</span></span> <span data-ttu-id="afddf-224">ควรกระจายต้นทุนผันแปรไปยังแต่ละออบเจ็กต์ต้นทุนตามปกติ</span><span class="sxs-lookup"><span data-stu-id="afddf-224">The variable cost should be distributed to the individual cost objects on a fair basis.</span></span> <span data-ttu-id="afddf-225">เกณฑ์การปันส่วนทางตรรกะมากที่สุดคือปริมาณการใช้พลังงานไฟฟ้า (Kwh)</span><span class="sxs-lookup"><span data-stu-id="afddf-225">The most logical allocation basis is the consumption of electricity (Kwh).</span></span> <span data-ttu-id="afddf-226">สมาชิกมิติทางสถิติที่มีชื่อว่าไฟฟ้าถูกสร้างขึ้น และมีการบันทึกปริมาณการใช้ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-226">A statistical dimension member that is named Electricity is created, and electricity consumption is recorded.</span></span> <span data-ttu-id="afddf-227">โดยค่าเริ่มต้น สมาชิกมิติทางสถิติทั้งหมดจะพร้อมใช้งานเป็นฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-227">By default, all statistical dimension members become available as allocation bases.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-229">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-229">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-230">Kwh</span><span class="sxs-lookup"><span data-stu-id="8ad56-230">Kwh</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-228">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-228">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-229">Kwh</span><span class="sxs-lookup"><span data-stu-id="afddf-229">Kwh</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-231">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-231">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-232">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-232">HR</span></span></td>
-<td><span data-ttu-id="8ad56-233">1,000</span><span class="sxs-lookup"><span data-stu-id="8ad56-233">1,000</span></span></td>
+<td><span data-ttu-id="afddf-230">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-230">CC001</span></span></td>
+<td><span data-ttu-id="afddf-231">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-231">HR</span></span></td>
+<td><span data-ttu-id="afddf-232">1,000</span><span class="sxs-lookup"><span data-stu-id="afddf-232">1,000</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-234">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-234">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-235">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-235">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-236">6,000</span><span class="sxs-lookup"><span data-stu-id="8ad56-236">6,000</span></span></td>
+<td><span data-ttu-id="afddf-233">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-233">CC002</span></span></td>
+<td><span data-ttu-id="afddf-234">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-234">Finance</span></span></td>
+<td><span data-ttu-id="afddf-235">6,000</span><span class="sxs-lookup"><span data-stu-id="afddf-235">6,000</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-237">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-237">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-238">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-238">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-239">0</span><span class="sxs-lookup"><span data-stu-id="8ad56-239">0</span></span></td>
+<td><span data-ttu-id="afddf-236">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-236">CC003</span></span></td>
+<td><span data-ttu-id="afddf-237">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-237">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-238">0</span><span class="sxs-lookup"><span data-stu-id="afddf-238">0</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-240">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้ปริมาณการใช้ไฟฟ้าเป็นฐานการปันส่วนสำหรับต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-240">The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
+<span data-ttu-id="afddf-239">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้ปริมาณการใช้ไฟฟ้าเป็นฐานการปันส่วนสำหรับต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-239">The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-241">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-241">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-242">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-242">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-243">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-243">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-244">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-244">Amount</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-240">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-240">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-241">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-241">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-242">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-242">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-243">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-243">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-245">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-245">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-246">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-246">HR</span></span></td>
-<td><span data-ttu-id="8ad56-247">1,000</span><span class="sxs-lookup"><span data-stu-id="8ad56-247">1,000</span></span></td>
-<td><span data-ttu-id="8ad56-248">(1,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-248">(1,000 ÷ 7,000) × 9,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-249">1,285.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-249">1,285.71</span></span></td>
+<td><span data-ttu-id="afddf-244">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-244">CC001</span></span></td>
+<td><span data-ttu-id="afddf-245">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-245">HR</span></span></td>
+<td><span data-ttu-id="afddf-246">1,000</span><span class="sxs-lookup"><span data-stu-id="afddf-246">1,000</span></span></td>
+<td><span data-ttu-id="afddf-247">(1,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-247">(1,000 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="afddf-248">1,285.71</span><span class="sxs-lookup"><span data-stu-id="afddf-248">1,285.71</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-250">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-250">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-251">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-251">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-252">6,000</span><span class="sxs-lookup"><span data-stu-id="8ad56-252">6,000</span></span></td>
-<td><span data-ttu-id="8ad56-253">(6,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-253">(6,000 ÷ 7,000) × 9,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-254">7,714.29</span><span class="sxs-lookup"><span data-stu-id="8ad56-254">7,714.29</span></span></td>
+<td><span data-ttu-id="afddf-249">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-249">CC002</span></span></td>
+<td><span data-ttu-id="afddf-250">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-250">Finance</span></span></td>
+<td><span data-ttu-id="afddf-251">6,000</span><span class="sxs-lookup"><span data-stu-id="afddf-251">6,000</span></span></td>
+<td><span data-ttu-id="afddf-252">(6,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-252">(6,000 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="afddf-253">7,714.29</span><span class="sxs-lookup"><span data-stu-id="afddf-253">7,714.29</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-255">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-255">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-256">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-256">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-257">0</span><span class="sxs-lookup"><span data-stu-id="8ad56-257">0</span></span></td>
-<td><span data-ttu-id="8ad56-258">(0 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-258">(0 ÷ 7,000) × 9,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-259">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-259">0.00</span></span></td>
+<td><span data-ttu-id="afddf-254">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-254">CC003</span></span></td>
+<td><span data-ttu-id="afddf-255">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-255">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-256">0</span><span class="sxs-lookup"><span data-stu-id="afddf-256">0</span></span></td>
+<td><span data-ttu-id="afddf-257">(0 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-257">(0 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="afddf-258">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-258">0.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-260">ควรกระจายต้นทุนคงที่เท่ากันกับแต่ละออบเจ็กต์ต้นทุนที่มีการใช้ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-260">The fixed cost should be distributed evenly to the individual cost objects that have consumed electricity.</span></span> <span data-ttu-id="8ad56-261">คุณสามารถใช้ผลลัพธ์นี้โดยใช้สมาชิกของมิติทางสถิติไฟฟ้าในฐานการปันส่วนตามสูตร: (ไฟฟ้า &gt; 0.00) ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้ปริมาณการใช้ไฟฟ้าเป็นฐานการปันส่วนสำหรับต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-261">You can achieve this result by using the Electricity statistical dimension member in a formula allocation base: (Electricity &gt; 0.00) The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
+<span data-ttu-id="afddf-259">ควรกระจายต้นทุนคงที่เท่ากันกับแต่ละออบเจ็กต์ต้นทุนที่มีการใช้ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-259">The fixed cost should be distributed evenly to the individual cost objects that have consumed electricity.</span></span> <span data-ttu-id="afddf-260">คุณสามารถใช้ผลลัพธ์นี้โดยใช้สมาชิกของมิติทางสถิติไฟฟ้าในฐานการปันส่วนตามสูตร: (ไฟฟ้า &gt; 0.00) ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้ปริมาณการใช้ไฟฟ้าเป็นฐานการปันส่วนสำหรับต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-260">You can achieve this result by using the Electricity statistical dimension member in a formula allocation base: (Electricity &gt; 0.00) The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-262">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-262">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-263">สูตร</span><span class="sxs-lookup"><span data-stu-id="8ad56-263">Formula</span></span></th>
-<th><span data-ttu-id="8ad56-264">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-264">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-265">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-265">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-266">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-266">Amount</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-261">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-261">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-262">สูตร</span><span class="sxs-lookup"><span data-stu-id="afddf-262">Formula</span></span></th>
+<th><span data-ttu-id="afddf-263">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-263">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-264">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-264">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-265">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-265">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-267">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-267">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-268">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-268">HR</span></span></td>
-<td><span data-ttu-id="8ad56-269">(1,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-269">(1,000 &gt; 0.00)</span></span></td>
-<td><span data-ttu-id="8ad56-270">1</span><span class="sxs-lookup"><span data-stu-id="8ad56-270">1</span></span></td>
-<td><span data-ttu-id="8ad56-271">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-271">(1 ÷ 2) × 1,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-272">500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-272">500.00</span></span></td>
+<td><span data-ttu-id="afddf-266">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-266">CC001</span></span></td>
+<td><span data-ttu-id="afddf-267">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-267">HR</span></span></td>
+<td><span data-ttu-id="afddf-268">(1,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-268">(1,000 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="afddf-269">1</span><span class="sxs-lookup"><span data-stu-id="afddf-269">1</span></span></td>
+<td><span data-ttu-id="afddf-270">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-270">(1 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="afddf-271">500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-271">500.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-273">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-273">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-274">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-274">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-275">(6,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-275">(6,000 &gt; 0.00)</span></span></td>
-<td><span data-ttu-id="8ad56-276">1</span><span class="sxs-lookup"><span data-stu-id="8ad56-276">1</span></span></td>
-<td><span data-ttu-id="8ad56-277">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-277">(1 ÷ 2) × 1,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-278">500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-278">500.00</span></span></td>
+<td><span data-ttu-id="afddf-272">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-272">CC002</span></span></td>
+<td><span data-ttu-id="afddf-273">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-273">Finance</span></span></td>
+<td><span data-ttu-id="afddf-274">(6,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-274">(6,000 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="afddf-275">1</span><span class="sxs-lookup"><span data-stu-id="afddf-275">1</span></span></td>
+<td><span data-ttu-id="afddf-276">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-276">(1 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="afddf-277">500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-277">500.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-279">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-279">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-280">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-280">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-281">(0 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-281">(0 &gt; 0.00)</span></span></td>
-<td><span data-ttu-id="8ad56-282">0</span><span class="sxs-lookup"><span data-stu-id="8ad56-282">0</span></span></td>
-<td><span data-ttu-id="8ad56-283">(0 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-283">(0 ÷ 2) × 1,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-284">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-284">0.00</span></span></td>
+<td><span data-ttu-id="afddf-278">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-278">CC003</span></span></td>
+<td><span data-ttu-id="afddf-279">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-279">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-280">(0 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-280">(0 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="afddf-281">0</span><span class="sxs-lookup"><span data-stu-id="afddf-281">0</span></span></td>
+<td><span data-ttu-id="afddf-282">(0 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-282">(0 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="afddf-283">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-283">0.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal"></a><span data-ttu-id="8ad56-285">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-285">Journal</span></span>
+##### <a name="journal"></a><span data-ttu-id="afddf-284">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-284">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-286">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-286">Journal</span></span></th>
-<th><span data-ttu-id="8ad56-287">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-287">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="8ad56-288">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-288">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="8ad56-289">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-289">Version</span></span></th>
+<th><span data-ttu-id="afddf-285">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-285">Journal</span></span></th>
+<th><span data-ttu-id="afddf-286">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-286">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="afddf-287">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-287">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="afddf-288">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="afddf-288">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-290">00002</span><span class="sxs-lookup"><span data-stu-id="8ad56-290">00002</span></span></td>
-<td><span data-ttu-id="8ad56-291">สมุดรายวันการคำนวณการกระจายต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-291">Cost distribution calculation journal</span></span></td>
-<td><span data-ttu-id="8ad56-292">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-292">Fiscal</span></span></td>
-<td><span data-ttu-id="8ad56-293">2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-293">2017</span></span></td>
-<td><span data-ttu-id="8ad56-294">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-294">Period 1</span></span></td>
-<td><span data-ttu-id="8ad56-295">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-295">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+<td><span data-ttu-id="afddf-289">00002</span><span class="sxs-lookup"><span data-stu-id="afddf-289">00002</span></span></td>
+<td><span data-ttu-id="afddf-290">สมุดรายวันการคำนวณการกระจายต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-290">Cost distribution calculation journal</span></span></td>
+<td><span data-ttu-id="afddf-291">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-291">Fiscal</span></span></td>
+<td><span data-ttu-id="afddf-292">2017</span><span class="sxs-lookup"><span data-stu-id="afddf-292">2017</span></span></td>
+<td><span data-ttu-id="afddf-293">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-293">Period 1</span></span></td>
+<td><span data-ttu-id="afddf-294">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-294">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="8ad56-296">รายการสมุดรายวัน (รายการสมุดรายวันของยอดดุลออบเจ็กต์ต้นทุน)</span><span class="sxs-lookup"><span data-stu-id="8ad56-296">Journal entries (Cost object balance journal entries)</span></span>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="afddf-295">รายการสมุดรายวัน (รายการสมุดรายวันของยอดดุลออบเจ็กต์ต้นทุน)</span><span class="sxs-lookup"><span data-stu-id="afddf-295">Journal entries (Cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-297">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-297">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-298">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-298">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-299">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-299">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-300">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-300">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-301">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-301">Amount</span></span></th>
+<th><span data-ttu-id="afddf-296">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-296">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-297">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-297">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-298">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-298">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-299">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-299">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-300">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-300">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-302">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-302">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-303">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-303">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-304">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-304">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-305">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-305">10001</span></span></td>
-<td><span data-ttu-id="8ad56-306">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-306">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-307">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-307">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-308">1,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-308">1,000.00</span></span></td>
+<td><span data-ttu-id="afddf-301">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-301">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-302">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-302">CC099</span></span></td>
+<td><span data-ttu-id="afddf-303">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-303">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-304">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-304">10001</span></span></td>
+<td><span data-ttu-id="afddf-305">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-305">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-306">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-306">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-307">1,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-307">1,000.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-309">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-309">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-310">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-310">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-311">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-311">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-312">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-312">10001</span></span></td>
-<td><span data-ttu-id="8ad56-313">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-313">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-314">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-314">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-315">9,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-315">9,000.00</span></span></td>
+<td><span data-ttu-id="afddf-308">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-308">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-309">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-309">CC099</span></span></td>
+<td><span data-ttu-id="afddf-310">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-310">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-311">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-311">10001</span></span></td>
+<td><span data-ttu-id="afddf-312">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-312">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-313">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-313">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-314">9,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-314">9,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a><span data-ttu-id="8ad56-316">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-316">Cost entries</span></span>
+##### <a name="cost-entries"></a><span data-ttu-id="afddf-315">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-315">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-317">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-317">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-318">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-318">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-319">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-319">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-320">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-320">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-321">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-321">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-316">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-316">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-317">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-317">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-318">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-318">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-319">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-319">Amount</span></span></th>
+<th><span data-ttu-id="afddf-320">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-320">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-322">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-322">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-323">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-323">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-324">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-324">10001</span></span></td>
-<td><span data-ttu-id="8ad56-325">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-325">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-326">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-326">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-327">-1,000.00.</span><span class="sxs-lookup"><span data-stu-id="8ad56-327">-1,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-328">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-328">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-321">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-321">CC099</span></span></td>
+<td><span data-ttu-id="afddf-322">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-322">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-323">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-323">10001</span></span></td>
+<td><span data-ttu-id="afddf-324">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-324">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-325">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-325">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-326">-1,000.00.</span><span class="sxs-lookup"><span data-stu-id="afddf-326">-1,000.00</span></span></td>
+<td><span data-ttu-id="afddf-327">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-327">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-329">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-329">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-330">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-330">HR</span></span></td>
-<td><span data-ttu-id="8ad56-331">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-331">10001</span></span></td>
-<td><span data-ttu-id="8ad56-332">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-332">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-333">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-333">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-334">500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-334">500.00</span></span></td>
-<td><span data-ttu-id="8ad56-335">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-335">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-328">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-328">CC001</span></span></td>
+<td><span data-ttu-id="afddf-329">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-329">HR</span></span></td>
+<td><span data-ttu-id="afddf-330">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-330">10001</span></span></td>
+<td><span data-ttu-id="afddf-331">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-331">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-332">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-332">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-333">500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-333">500.00</span></span></td>
+<td><span data-ttu-id="afddf-334">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-334">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-336">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-336">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-337">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-337">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-338">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-338">10001</span></span></td>
-<td><span data-ttu-id="8ad56-339">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-339">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-340">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-340">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-341">500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-341">500.00</span></span></td>
-<td><span data-ttu-id="8ad56-342">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-342">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-335">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-335">CC002</span></span></td>
+<td><span data-ttu-id="afddf-336">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-336">Finance</span></span></td>
+<td><span data-ttu-id="afddf-337">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-337">10001</span></span></td>
+<td><span data-ttu-id="afddf-338">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-338">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-339">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-339">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-340">500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-340">500.00</span></span></td>
+<td><span data-ttu-id="afddf-341">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-341">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-343">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-343">CC099</span></span></td>
-<td><span data-ttu-id="8ad56-344">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8ad56-344">Default cost center</span></span></td>
-<td><span data-ttu-id="8ad56-345">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-345">10001</span></span></td>
-<td><span data-ttu-id="8ad56-346">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-346">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-347">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-347">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-348">-9,000.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-348">-9,000.00</span></span></td>
-<td><span data-ttu-id="8ad56-349">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-349">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-342">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-342">CC099</span></span></td>
+<td><span data-ttu-id="afddf-343">ศูนย์ต้นทุนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="afddf-343">Default cost center</span></span></td>
+<td><span data-ttu-id="afddf-344">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-344">10001</span></span></td>
+<td><span data-ttu-id="afddf-345">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-345">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-346">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-346">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-347">-9,000.00</span><span class="sxs-lookup"><span data-stu-id="afddf-347">-9,000.00</span></span></td>
+<td><span data-ttu-id="afddf-348">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-348">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-350">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-350">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-351">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-351">HR</span></span></td>
-<td><span data-ttu-id="8ad56-352">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-352">10001</span></span></td>
-<td><span data-ttu-id="8ad56-353">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-353">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-354">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-354">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-355">1,285.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-355">1,285.71</span></span></td>
-<td><span data-ttu-id="8ad56-356">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-356">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-349">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-349">CC001</span></span></td>
+<td><span data-ttu-id="afddf-350">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-350">HR</span></span></td>
+<td><span data-ttu-id="afddf-351">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-351">10001</span></span></td>
+<td><span data-ttu-id="afddf-352">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-352">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-353">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-353">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-354">1,285.71</span><span class="sxs-lookup"><span data-stu-id="afddf-354">1,285.71</span></span></td>
+<td><span data-ttu-id="afddf-355">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-355">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-357">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-357">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-358">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-358">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-359">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-359">10001</span></span></td>
-<td><span data-ttu-id="8ad56-360">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-360">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-361">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-361">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-362">7,714.29</span><span class="sxs-lookup"><span data-stu-id="8ad56-362">7,714.29</span></span></td>
-<td><span data-ttu-id="8ad56-363">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-363">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-356">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-356">CC002</span></span></td>
+<td><span data-ttu-id="afddf-357">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-357">Finance</span></span></td>
+<td><span data-ttu-id="afddf-358">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-358">10001</span></span></td>
+<td><span data-ttu-id="afddf-359">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-359">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-360">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-360">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-361">7,714.29</span><span class="sxs-lookup"><span data-stu-id="afddf-361">7,714.29</span></span></td>
+<td><span data-ttu-id="afddf-362">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-362">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-364">สำหรับรายละเอียดเกี่ยวกับการกระจายต้นทุนและฐานการปันส่วน ให้ดูนโยบายการกระจายต้นทุนและฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-364">For detailed information about cost distribution and allocation bases, see Cost distribution policy and Allocation bases.</span></span> <span data-ttu-id="8ad56-365">(หมายเหตุว่าหัวข้อนี้ยังไม่เสร็จสมบูรณ์ แต่ในไม่ช้านี้)</span><span class="sxs-lookup"><span data-stu-id="8ad56-365">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+<span data-ttu-id="afddf-363">สำหรับข้อมูลเพิ่มเติม ดู [สร้างและกำหนดนโยบายการกระจายต้นทุนไปยังหน่วยการควบคุมต้นทุน](tasks/create-assign-cost-distribution-policy-cost-control-unit.md)</span><span class="sxs-lookup"><span data-stu-id="afddf-363">For more information, see [Create and assign a cost distribution policy to a cost control unit](tasks/create-assign-cost-distribution-policy-cost-control-unit.md).</span></span> 
 
-### <a name="step-3-process-the-overhead-rate-calculation"></a><span data-ttu-id="8ad56-366">ขั้นตอนที่ 3: ดำเนินการคำนวณอัตราค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="8ad56-366">Step 3: Process the overhead rate calculation</span></span>
+### <a name="step-3-process-the-overhead-rate-calculation"></a><span data-ttu-id="afddf-364">ขั้นตอนที่ 3: ดำเนินการคำนวณอัตราค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="afddf-364">Step 3: Process the overhead rate calculation</span></span>
 
-<span data-ttu-id="8ad56-367">อัตราค่าโสหุ้ยจะถูกใช้ในการเรียกเก็บออบเจ็กต์ต้นทุนเฉพาะอย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="8ad56-367">The overhead rate is used to charge one or more specific cost objects.</span></span> <span data-ttu-id="8ad56-368">ค่าธรรมเนียมจะขึ้นอยู่กับอัตราต้นทุนที่กำหนดไว้ล่วงหน้าและขนาดจากฐานการปันส่วนที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="8ad56-368">The charge is based on a predetermined cost rate and the magnitude from the assigned allocation base.</span></span> 
+<span data-ttu-id="afddf-365">อัตราค่าโสหุ้ยจะถูกใช้ในการเรียกเก็บออบเจ็กต์ต้นทุนเฉพาะอย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="afddf-365">The overhead rate is used to charge one or more specific cost objects.</span></span> <span data-ttu-id="afddf-366">ค่าธรรมเนียมจะขึ้นอยู่กับอัตราต้นทุนที่กำหนดไว้ล่วงหน้าและขนาดจากฐานการปันส่วนที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="afddf-366">The charge is based on a predetermined cost rate and the magnitude from the assigned allocation base.</span></span> 
 
-#### <a name="define-the-overhead-rate"></a><span data-ttu-id="8ad56-369">กำหนดอัตราค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="8ad56-369">Define the overhead rate</span></span>
+#### <a name="define-the-overhead-rate"></a><span data-ttu-id="afddf-367">กำหนดอัตราค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="afddf-367">Define the overhead rate</span></span>
 
-<span data-ttu-id="8ad56-370">ออบเจ็กต์ต้นทุน CC001 HR จัดสรรสำหรับชุดของโครงการภายใน</span><span class="sxs-lookup"><span data-stu-id="8ad56-370">Cost object CC001 HR contributes to a set of internal projects.</span></span> <span data-ttu-id="8ad56-371">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าโครงการ HR เพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8ad56-371">A statistical dimension member that is named HR projects is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="afddf-368">ออบเจ็กต์ต้นทุน CC001 HR จัดสรรสำหรับชุดของโครงการภายใน</span><span class="sxs-lookup"><span data-stu-id="afddf-368">Cost object CC001 HR contributes to a set of internal projects.</span></span> <span data-ttu-id="afddf-369">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าโครงการ HR เพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="afddf-369">A statistical dimension member that is named HR projects is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-372">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-372">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-373">ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="8ad56-373">Hours</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-370">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-370">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-371">ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="afddf-371">Hours</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-374">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-374">Proj 1</span></span></td>
-<td><span data-ttu-id="8ad56-375">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-375">Project 1</span></span></td>
-<td><span data-ttu-id="8ad56-376">3</span><span class="sxs-lookup"><span data-stu-id="8ad56-376">3</span></span></td>
+<td><span data-ttu-id="afddf-372">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-372">Proj 1</span></span></td>
+<td><span data-ttu-id="afddf-373">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-373">Project 1</span></span></td>
+<td><span data-ttu-id="afddf-374">3</span><span class="sxs-lookup"><span data-stu-id="afddf-374">3</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-377">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-377">Proj 2</span></span></td>
-<td><span data-ttu-id="8ad56-378">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-378">Project 2</span></span></td>
-<td><span data-ttu-id="8ad56-379">1</span><span class="sxs-lookup"><span data-stu-id="8ad56-379">1</span></span></td>
+<td><span data-ttu-id="afddf-375">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-375">Proj 2</span></span></td>
+<td><span data-ttu-id="afddf-376">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-376">Project 2</span></span></td>
+<td><span data-ttu-id="afddf-377">1</span><span class="sxs-lookup"><span data-stu-id="afddf-377">1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-380">มีการกำหนดอัตราต้นทุนที่กำหนดไว้ล่วงหน้าสำหรับการกระจายโครงการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-380">A predetermined cost rate for the cost projects contribution has been defined.</span></span>
+<span data-ttu-id="afddf-378">มีการกำหนดอัตราต้นทุนที่กำหนดไว้ล่วงหน้าสำหรับการกระจายโครงการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-378">A predetermined cost rate for the cost projects contribution has been defined.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-381">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-381">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-382">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-382">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-383">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-383">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-384">หน่วย</span><span class="sxs-lookup"><span data-stu-id="8ad56-384">Units</span></span></th>
-<th><span data-ttu-id="8ad56-385">อัตรา</span><span class="sxs-lookup"><span data-stu-id="8ad56-385">Rate</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-379">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-379">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-380">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-380">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-381">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-381">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-382">หน่วย</span><span class="sxs-lookup"><span data-stu-id="afddf-382">Units</span></span></th>
+<th><span data-ttu-id="afddf-383">อัตรา</span><span class="sxs-lookup"><span data-stu-id="afddf-383">Rate</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-386">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-386">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-387">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-387">HR</span></span></td>
-<td><span data-ttu-id="8ad56-388">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-388">10001</span></span></td>
-<td><span data-ttu-id="8ad56-389">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-389">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-390">1</span><span class="sxs-lookup"><span data-stu-id="8ad56-390">1</span></span></td>
-<td><span data-ttu-id="8ad56-391">10</span><span class="sxs-lookup"><span data-stu-id="8ad56-391">10</span></span></td>
+<td><span data-ttu-id="afddf-384">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-384">CC001</span></span></td>
+<td><span data-ttu-id="afddf-385">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-385">HR</span></span></td>
+<td><span data-ttu-id="afddf-386">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-386">10001</span></span></td>
+<td><span data-ttu-id="afddf-387">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-387">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-388">1</span><span class="sxs-lookup"><span data-stu-id="afddf-388">1</span></span></td>
+<td><span data-ttu-id="afddf-389">10</span><span class="sxs-lookup"><span data-stu-id="afddf-389">10</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-392">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้โครงการ HR เป็นฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-392">The following table shows the result when the HR projects are applied as an allocation base.</span></span>
+<span data-ttu-id="afddf-390">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้โครงการ HR เป็นฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-390">The following table shows the result when the HR projects are applied as an allocation base.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-393">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-393">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-394">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-394">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-395">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-395">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-396">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-396">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-397">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-397">Amount</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-391">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-391">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-392">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-392">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-393">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-393">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-394">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-394">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-395">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-395">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-398">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-398">Proj 1</span></span></td>
-<td><span data-ttu-id="8ad56-399">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-399">Project 1</span></span></td>
-<td><span data-ttu-id="8ad56-400">3</span><span class="sxs-lookup"><span data-stu-id="8ad56-400">3</span></span></td>
-<td><span data-ttu-id="8ad56-401">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-401">10001</span></span></td>
-<td><span data-ttu-id="8ad56-402">(3 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-402">(3 ÷ 1) × 10.00</span></span></td>
-<td><span data-ttu-id="8ad56-403">30.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-403">30.00</span></span></td>
+<td><span data-ttu-id="afddf-396">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-396">Proj 1</span></span></td>
+<td><span data-ttu-id="afddf-397">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-397">Project 1</span></span></td>
+<td><span data-ttu-id="afddf-398">3</span><span class="sxs-lookup"><span data-stu-id="afddf-398">3</span></span></td>
+<td><span data-ttu-id="afddf-399">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-399">10001</span></span></td>
+<td><span data-ttu-id="afddf-400">(3 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="afddf-400">(3 ÷ 1) × 10.00</span></span></td>
+<td><span data-ttu-id="afddf-401">30.00</span><span class="sxs-lookup"><span data-stu-id="afddf-401">30.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-404">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-404">Proj 2</span></span></td>
-<td><span data-ttu-id="8ad56-405">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-405">Project 2</span></span></td>
-<td><span data-ttu-id="8ad56-406">1</span><span class="sxs-lookup"><span data-stu-id="8ad56-406">1</span></span></td>
-<td><span data-ttu-id="8ad56-407">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-407">10001</span></span></td>
-<td><span data-ttu-id="8ad56-408">(1 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-408">(1 ÷ 1) × 10.00</span></span></td>
-<td><span data-ttu-id="8ad56-409">10.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-409">10.00</span></span></td>
+<td><span data-ttu-id="afddf-402">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-402">Proj 2</span></span></td>
+<td><span data-ttu-id="afddf-403">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-403">Project 2</span></span></td>
+<td><span data-ttu-id="afddf-404">1</span><span class="sxs-lookup"><span data-stu-id="afddf-404">1</span></span></td>
+<td><span data-ttu-id="afddf-405">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-405">10001</span></span></td>
+<td><span data-ttu-id="afddf-406">(1 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="afddf-406">(1 ÷ 1) × 10.00</span></span></td>
+<td><span data-ttu-id="afddf-407">10.00</span><span class="sxs-lookup"><span data-stu-id="afddf-407">10.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal"></a><span data-ttu-id="8ad56-410">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-410">Journal</span></span>
+##### <a name="journal"></a><span data-ttu-id="afddf-408">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-408">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-411">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-411">Journal</span></span></th>
-<th><span data-ttu-id="8ad56-412">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-412">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="8ad56-413">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-413">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="8ad56-414">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-414">Version</span></span></th>
+<th><span data-ttu-id="afddf-409">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-409">Journal</span></span></th>
+<th><span data-ttu-id="afddf-410">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-410">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="afddf-411">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-411">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="afddf-412">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="afddf-412">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-415">00003</span><span class="sxs-lookup"><span data-stu-id="8ad56-415">00003</span></span></td>
-<td><span data-ttu-id="8ad56-416">สมุดรายวันการคำนวณอัตราโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="8ad56-416">Overhead rate calculation journal</span></span></td>
-<td><span data-ttu-id="8ad56-417">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-417">Fiscal</span></span></td>
-<td><span data-ttu-id="8ad56-418">2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-418">2017</span></span></td>
-<td><span data-ttu-id="8ad56-419">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-419">Period 1</span></span></td>
-<td><span data-ttu-id="8ad56-420">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-420">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+<td><span data-ttu-id="afddf-413">00003</span><span class="sxs-lookup"><span data-stu-id="afddf-413">00003</span></span></td>
+<td><span data-ttu-id="afddf-414">สมุดรายวันการคำนวณอัตราโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="afddf-414">Overhead rate calculation journal</span></span></td>
+<td><span data-ttu-id="afddf-415">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-415">Fiscal</span></span></td>
+<td><span data-ttu-id="afddf-416">2017</span><span class="sxs-lookup"><span data-stu-id="afddf-416">2017</span></span></td>
+<td><span data-ttu-id="afddf-417">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-417">Period 1</span></span></td>
+<td><span data-ttu-id="afddf-418">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-418">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a><span data-ttu-id="8ad56-421">รายการสมุดรายวัน (รายการสมุดรายวันสำหรับการคำนวณอัตราโสหุ้ย)</span><span class="sxs-lookup"><span data-stu-id="8ad56-421">Journal entries (Journal entries for overhead rate calculation)</span></span>
+##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a><span data-ttu-id="afddf-419">รายการสมุดรายวัน (รายการสมุดรายวันสำหรับการคำนวณอัตราโสหุ้ย)</span><span class="sxs-lookup"><span data-stu-id="afddf-419">Journal entries (Journal entries for overhead rate calculation)</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="8ad56-422">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-422">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-423">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-423">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-424">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-424">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-420">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-420">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-421">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-421">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-422">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-422">Magnitude</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-425">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-425">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-426">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-426">Proj 1</span></span></td>
-<td><span data-ttu-id="8ad56-427">โครงการภายใน 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-427">Internal Proj 1</span></span></td>
-<td><span data-ttu-id="8ad56-428">3.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-428">3.00</span></span></td>
+<td><span data-ttu-id="afddf-423">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-423">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-424">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-424">Proj 1</span></span></td>
+<td><span data-ttu-id="afddf-425">โครงการภายใน 1</span><span class="sxs-lookup"><span data-stu-id="afddf-425">Internal Proj 1</span></span></td>
+<td><span data-ttu-id="afddf-426">3.00</span><span class="sxs-lookup"><span data-stu-id="afddf-426">3.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-429">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-429">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-430">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-430">Proj 2</span></span></td>
-<td><span data-ttu-id="8ad56-431">โครงการภายใน 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-431">Internal Proj 2</span></span></td>
-<td><span data-ttu-id="8ad56-432">1.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-432">1.00</span></span></td>
+<td><span data-ttu-id="afddf-427">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-427">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-428">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-428">Proj 2</span></span></td>
+<td><span data-ttu-id="afddf-429">โครงการภายใน 2</span><span class="sxs-lookup"><span data-stu-id="afddf-429">Internal Proj 2</span></span></td>
+<td><span data-ttu-id="afddf-430">1.00</span><span class="sxs-lookup"><span data-stu-id="afddf-430">1.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a><span data-ttu-id="8ad56-433">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-433">Cost entries</span></span>
+##### <a name="cost-entries"></a><span data-ttu-id="afddf-431">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-431">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-434">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-434">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-435">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-435">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-436">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-436">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-437">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-437">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-438">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-438">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-432">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-432">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-433">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-433">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-434">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-434">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-435">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-435">Amount</span></span></th>
+<th><span data-ttu-id="afddf-436">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-436">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-439">CC0001</span><span class="sxs-lookup"><span data-stu-id="8ad56-439">CC0001</span></span></td>
-<td><span data-ttu-id="8ad56-440">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-440">HR</span></span></td>
-<td><span data-ttu-id="8ad56-441">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-441">10001</span></span></td>
-<td><span data-ttu-id="8ad56-442">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-442">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-443">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-443">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-444">-30.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-444">-30.00</span></span></td>
-<td><span data-ttu-id="8ad56-445">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-445">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-437">CC0001</span><span class="sxs-lookup"><span data-stu-id="afddf-437">CC0001</span></span></td>
+<td><span data-ttu-id="afddf-438">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-438">HR</span></span></td>
+<td><span data-ttu-id="afddf-439">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-439">10001</span></span></td>
+<td><span data-ttu-id="afddf-440">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-440">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-441">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-441">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-442">-30.00</span><span class="sxs-lookup"><span data-stu-id="afddf-442">-30.00</span></span></td>
+<td><span data-ttu-id="afddf-443">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-443">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-446">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-446">Proj 1</span></span></td>
-<td><span data-ttu-id="8ad56-447">โครงการภายใน 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-447">Internal Proj 1</span></span></td>
-<td><span data-ttu-id="8ad56-448">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-448">10001</span></span></td>
-<td><span data-ttu-id="8ad56-449">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-449">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-450">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-450">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-451">30.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-451">30.00</span></span></td>
-<td><span data-ttu-id="8ad56-452">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-452">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-444">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-444">Proj 1</span></span></td>
+<td><span data-ttu-id="afddf-445">โครงการภายใน 1</span><span class="sxs-lookup"><span data-stu-id="afddf-445">Internal Proj 1</span></span></td>
+<td><span data-ttu-id="afddf-446">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-446">10001</span></span></td>
+<td><span data-ttu-id="afddf-447">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-447">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-448">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-448">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-449">30.00</span><span class="sxs-lookup"><span data-stu-id="afddf-449">30.00</span></span></td>
+<td><span data-ttu-id="afddf-450">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-450">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-453">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-453">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-454">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-454">HR</span></span></td>
-<td><span data-ttu-id="8ad56-455">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-455">10001</span></span></td>
-<td><span data-ttu-id="8ad56-456">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-456">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-457">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-457">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-458">-10.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-458">-10.00</span></span></td>
-<td><span data-ttu-id="8ad56-459">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-459">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-451">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-451">CC001</span></span></td>
+<td><span data-ttu-id="afddf-452">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-452">HR</span></span></td>
+<td><span data-ttu-id="afddf-453">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-453">10001</span></span></td>
+<td><span data-ttu-id="afddf-454">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-454">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-455">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-455">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-456">-10.00</span><span class="sxs-lookup"><span data-stu-id="afddf-456">-10.00</span></span></td>
+<td><span data-ttu-id="afddf-457">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-457">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-460">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-460">Proj 2</span></span></td>
-<td><span data-ttu-id="8ad56-461">โครงการภายใน 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-461">Internal Proj 2</span></span></td>
-<td><span data-ttu-id="8ad56-462">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-462">10001</span></span></td>
-<td><span data-ttu-id="8ad56-463">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-463">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-464">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-464">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-465">10.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-465">10.00</span></span></td>
-<td><span data-ttu-id="8ad56-466">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-466">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-458">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-458">Proj 2</span></span></td>
+<td><span data-ttu-id="afddf-459">โครงการภายใน 2</span><span class="sxs-lookup"><span data-stu-id="afddf-459">Internal Proj 2</span></span></td>
+<td><span data-ttu-id="afddf-460">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-460">10001</span></span></td>
+<td><span data-ttu-id="afddf-461">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-461">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-462">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-462">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-463">10.00</span><span class="sxs-lookup"><span data-stu-id="afddf-463">10.00</span></span></td>
+<td><span data-ttu-id="afddf-464">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-464">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-467">สำหรับข้อมูลรายละเอียดเกี่ยวกับนโยบายอัตราค่าโสหุ้ย ให้ดูนโยบายอัตราค่าโสหุ้ยและฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-467">For detailed information about overhead rate policy, see Overhead rate policy and Allocation bases.</span></span> <span data-ttu-id="8ad56-468">(หมายเหตุว่าหัวข้อนี้ยังไม่เสร็จสมบูรณ์ แต่ในไม่ช้านี้)</span><span class="sxs-lookup"><span data-stu-id="8ad56-468">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+<span data-ttu-id="afddf-465">สำหรับข้อมูลเพิ่มเติม โปรดดู [ทำการคำนวณค่าโสหุ้ย](cost-rollup.md#perform-overhead-calculation)</span><span class="sxs-lookup"><span data-stu-id="afddf-465">For more information, see [Perform overhead calculation](cost-rollup.md#perform-overhead-calculation).</span></span>
 
-### <a name="step-4-process-the-cost-allocation-calculation"></a><span data-ttu-id="8ad56-469">ขั้นตอนที่ 4: ดำเนินการคำนวณการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-469">Step 4: Process the cost allocation calculation</span></span>
+### <a name="step-4-process-the-cost-allocation-calculation"></a><span data-ttu-id="afddf-466">ขั้นตอนที่ 4: ดำเนินการคำนวณการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-466">Step 4: Process the cost allocation calculation</span></span>
 
-<span data-ttu-id="8ad56-470">การปันส่วนถูกนำมาใช้ในการปันส่วนยอดดุลของออบเจ็กต์ต้นทุนหนึ่งกับออบเจ็กต์ต้นทุนอื่นโดยใช้ฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-470">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="8ad56-471">Finance and Operations สนับสนุนวิธีการปันส่วนต่างตอบแทน</span><span class="sxs-lookup"><span data-stu-id="8ad56-471">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="8ad56-472">ในวิธีการปันส่วนต่างตอบแทน มีการรับรู้การบริการที่มีร่วมกันที่ออบเจ็กต์ต้นทุนเสริมแลกเปลี่ยนทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8ad56-472">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="8ad56-473">ระบบกำหนดลำดับที่ถูกต้องในการดำเนินการปันส่วนโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="8ad56-473">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="8ad56-474">ยอดดุลของออบเจ็กต์ต้นทุนมีการปันส่วนโดยฐานการปันส่วนเดียว</span><span class="sxs-lookup"><span data-stu-id="8ad56-474">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="8ad56-475">การปันส่วนในมิติออบเจ็กต์ต้นทุนและสมาชิกที่เกี่ยวข้องได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-475">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="8ad56-476">ลำดับการปันส่วนจะถูกควบคุมโดยหน่วยควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-476">The allocation order is controlled by the cost control unit.</span></span> 
+<span data-ttu-id="afddf-467">การปันส่วนถูกนำมาใช้ในการปันส่วนยอดดุลของออบเจ็กต์ต้นทุนหนึ่งกับออบเจ็กต์ต้นทุนอื่นโดยใช้ฐานการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-467">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="afddf-468">Finance and Operations สนับสนุนวิธีการปันส่วนต่างตอบแทน</span><span class="sxs-lookup"><span data-stu-id="afddf-468">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="afddf-469">ในวิธีการปันส่วนต่างตอบแทน มีการรับรู้การบริการที่มีร่วมกันที่ออบเจ็กต์ต้นทุนเสริมแลกเปลี่ยนทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="afddf-469">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="afddf-470">ระบบกำหนดลำดับที่ถูกต้องในการดำเนินการปันส่วนโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="afddf-470">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="afddf-471">ยอดดุลของออบเจ็กต์ต้นทุนมีการปันส่วนโดยฐานการปันส่วนเดียว</span><span class="sxs-lookup"><span data-stu-id="afddf-471">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="afddf-472">การปันส่วนในมิติออบเจ็กต์ต้นทุนและสมาชิกที่เกี่ยวข้องได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="afddf-472">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="afddf-473">ลำดับการปันส่วนจะถูกควบคุมโดยหน่วยควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-473">The allocation order is controlled by the cost control unit.</span></span> 
 
-<span data-ttu-id="8ad56-477">[![วิธีการต่างตอบแทน](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span><span class="sxs-lookup"><span data-stu-id="8ad56-477">[![Reciprocal method](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span></span>
+<span data-ttu-id="afddf-474">[![วิธีการต่างตอบแทน](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span><span class="sxs-lookup"><span data-stu-id="afddf-474">[![Reciprocal method](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span></span>
 
-#### <a name="define-the-cost-allocation"></a><span data-ttu-id="8ad56-478">กำหนดการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-478">Define the cost allocation</span></span>
+#### <a name="define-the-cost-allocation"></a><span data-ttu-id="afddf-475">กำหนดการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-475">Define the cost allocation</span></span>
 
-<span data-ttu-id="8ad56-479">นี่คือตัวอย่างง่าย ๆ ที่อธิบายวิธีที่คุณสามารถติดตามกระแสต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-479">Here is a simple example that explains how you can trace the flow of cost.</span></span> <span data-ttu-id="8ad56-480">ออบเจ็กต์ต้นทุน CC001 HR จัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="8ad56-480">Cost object CC001 HR contributes to several cost objects.</span></span> <span data-ttu-id="8ad56-481">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการ HR เพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8ad56-481">A statistical dimension member that is named HR services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="afddf-476">นี่คือตัวอย่างง่าย ๆ ที่อธิบายวิธีที่คุณสามารถติดตามกระแสต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-476">Here is a simple example that explains how you can trace the flow of cost.</span></span> <span data-ttu-id="afddf-477">ออบเจ็กต์ต้นทุน CC001 HR จัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="afddf-477">Cost object CC001 HR contributes to several cost objects.</span></span> <span data-ttu-id="afddf-478">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการ HR เพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="afddf-478">A statistical dimension member that is named HR services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-482">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-482">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-483">บริการ HR</span><span class="sxs-lookup"><span data-stu-id="8ad56-483">HR services</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-479">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-479">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-480">บริการ HR</span><span class="sxs-lookup"><span data-stu-id="afddf-480">HR services</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-484">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-484">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-485">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-485">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-486">35</span><span class="sxs-lookup"><span data-stu-id="8ad56-486">35</span></span></td>
+<td><span data-ttu-id="afddf-481">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-481">CC002</span></span></td>
+<td><span data-ttu-id="afddf-482">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-482">Finance</span></span></td>
+<td><span data-ttu-id="afddf-483">35</span><span class="sxs-lookup"><span data-stu-id="afddf-483">35</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-487">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-487">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-488">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-488">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-489">55</span><span class="sxs-lookup"><span data-stu-id="8ad56-489">55</span></span></td>
+<td><span data-ttu-id="afddf-484">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-484">CC003</span></span></td>
+<td><span data-ttu-id="afddf-485">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-485">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-486">55</span><span class="sxs-lookup"><span data-stu-id="afddf-486">55</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-490">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-490">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-491">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-491">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-492">10</span><span class="sxs-lookup"><span data-stu-id="8ad56-492">10</span></span></td>
+<td><span data-ttu-id="afddf-487">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-487">CC004</span></span></td>
+<td><span data-ttu-id="afddf-488">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-488">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-489">10</span><span class="sxs-lookup"><span data-stu-id="afddf-489">10</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-493">ออบเจ็กต์ต้นทุน CC002 การเงินจัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="8ad56-493">Cost object CC002 Finance contributes to several cost objects.</span></span> <span data-ttu-id="8ad56-494">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการการเงินเพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8ad56-494">A statistical dimension member that is named Finance services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="afddf-490">ออบเจ็กต์ต้นทุน CC002 การเงินจัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="afddf-490">Cost object CC002 Finance contributes to several cost objects.</span></span> <span data-ttu-id="afddf-491">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการการเงินเพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="afddf-491">A statistical dimension member that is named Finance services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-495">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-495">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-496">บริการการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-496">Finance services</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-492">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-492">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-493">บริการการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-493">Finance services</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-497">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-497">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-498">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-498">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-499">65</span><span class="sxs-lookup"><span data-stu-id="8ad56-499">65</span></span></td>
+<td><span data-ttu-id="afddf-494">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-494">CC003</span></span></td>
+<td><span data-ttu-id="afddf-495">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-495">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-496">65</span><span class="sxs-lookup"><span data-stu-id="afddf-496">65</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-500">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-500">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-501">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-501">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-502">35</span><span class="sxs-lookup"><span data-stu-id="8ad56-502">35</span></span></td>
+<td><span data-ttu-id="afddf-497">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-497">CC004</span></span></td>
+<td><span data-ttu-id="afddf-498">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-498">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-499">35</span><span class="sxs-lookup"><span data-stu-id="afddf-499">35</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-503">ออบเจ็กต์ต้นทุน CC003 ส่วนประกอบจัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="8ad56-503">Cost object CC003 Assembly contributes to several cost objects.</span></span> <span data-ttu-id="8ad56-504">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการส่วนประกอบเพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8ad56-504">A statistical dimension member that is named Assembly services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="afddf-500">ออบเจ็กต์ต้นทุน CC003 ส่วนประกอบจัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="afddf-500">Cost object CC003 Assembly contributes to several cost objects.</span></span> <span data-ttu-id="afddf-501">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการส่วนประกอบเพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="afddf-501">A statistical dimension member that is named Assembly services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-505">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-505">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-506">บริการส่วนประกอบ (ชั่วโมง)</span><span class="sxs-lookup"><span data-stu-id="8ad56-506">Assembly services (hours)</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-502">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-502">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-503">บริการส่วนประกอบ (ชั่วโมง)</span><span class="sxs-lookup"><span data-stu-id="afddf-503">Assembly services (hours)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-507">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-507">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-508">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-508">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-509">60</span><span class="sxs-lookup"><span data-stu-id="8ad56-509">60</span></span></td>
+<td><span data-ttu-id="afddf-504">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-504">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-505">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-505">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-506">60</span><span class="sxs-lookup"><span data-stu-id="afddf-506">60</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-510">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-510">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-511">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-511">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-512">20</span><span class="sxs-lookup"><span data-stu-id="8ad56-512">20</span></span></td>
+<td><span data-ttu-id="afddf-507">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-507">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-508">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-508">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-509">20</span><span class="sxs-lookup"><span data-stu-id="afddf-509">20</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="8ad56-513">ออบเจ็กต์ต้นทุน CC004 บรรจุภัณฑ์จัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="8ad56-513">Cost object CC004 Packaging contributes to several cost objects.</span></span> <span data-ttu-id="8ad56-514">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการบรรจุภัณฑ์เพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8ad56-514">A statistical dimension member that is named Packaging services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="afddf-510">ออบเจ็กต์ต้นทุน CC004 บรรจุภัณฑ์จัดสรรไปยังออบเจ็กต์ต้นทุนหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="afddf-510">Cost object CC004 Packaging contributes to several cost objects.</span></span> <span data-ttu-id="afddf-511">มีการสร้างสมาชิกมิติทางสถิติที่มีชื่อว่าบริการบรรจุภัณฑ์เพื่อวัดขนาดที่ใช้แล้ว</span><span class="sxs-lookup"><span data-stu-id="afddf-511">A statistical dimension member that is named Packaging services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="8ad56-515">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-515">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-516">บริการบรรจุภัณฑ์ (ชั่วโมง)</span><span class="sxs-lookup"><span data-stu-id="8ad56-516">Packaging services (hours)</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-512">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-512">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-513">บริการบรรจุภัณฑ์ (ชั่วโมง)</span><span class="sxs-lookup"><span data-stu-id="afddf-513">Packaging services (hours)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="8ad56-517">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-517">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-518">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-518">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-519">80</span><span class="sxs-lookup"><span data-stu-id="8ad56-519">80</span></span></td>
+<td><span data-ttu-id="afddf-514">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-514">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-515">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-515">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-516">80</span><span class="sxs-lookup"><span data-stu-id="afddf-516">80</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="8ad56-520">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-520">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-521">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-521">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-522">วันที่ 15 ก.ย.</span><span class="sxs-lookup"><span data-stu-id="8ad56-522">15</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="8ad56-523">**หมายเหตุ:** ใน Finance and Operations การประเมินทางสถิติ เช่น จำนวนชั่วโมงการผลิตที่ใช้กับผลิตภัณฑ์สามารถได้รับมาจากแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8ad56-523">**Note:** In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="8ad56-524">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวให้บริการการประเมินทางสถิติ ให้ดูเท็มเพลตตัวให้บริการการประเมินทางสถิติ</span><span class="sxs-lookup"><span data-stu-id="8ad56-524">For more detailed information about statistical measure providers, see Statistical measure provider template.</span></span> <span data-ttu-id="8ad56-525">(หมายเหตุว่าหัวข้อนี้ยังไม่เสร็จสมบูรณ์ แต่ในอีกไม่ช้านี้) ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการ HR เป็นฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="8ad56-525">(Note that this topic isn't completed yet but is coming soon.) The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="8ad56-526">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-526">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-527">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-527">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-528">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-528">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-529">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-529">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-530">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-530">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-531">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-531">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-532">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-532">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-533">35</span><span class="sxs-lookup"><span data-stu-id="8ad56-533">35</span></span></td>
-<td><span data-ttu-id="8ad56-534">(35 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-534">(35 ÷ 100) × 500.00</span></span></td>
-<td><span data-ttu-id="8ad56-535">175.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-535">175.00</span></span></td>
-<td><span data-ttu-id="8ad56-536">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-536">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-537">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-537">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-538">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-538">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-539">55</span><span class="sxs-lookup"><span data-stu-id="8ad56-539">55</span></span></td>
-<td><span data-ttu-id="8ad56-540">(55 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-540">(55 ÷ 100) × 500.00</span></span></td>
-<td><span data-ttu-id="8ad56-541">275.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-541">275.00</span></span></td>
-<td><span data-ttu-id="8ad56-542">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-542">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-543">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-543">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-544">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-544">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-545">10</span><span class="sxs-lookup"><span data-stu-id="8ad56-545">10</span></span></td>
-<td><span data-ttu-id="8ad56-546">(10 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-546">(10 ÷ 100) × 500.00</span></span></td>
-<td><span data-ttu-id="8ad56-547">50.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-547">50.00</span></span></td>
-<td><span data-ttu-id="8ad56-548">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-548">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-549">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-549">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-550">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-550">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-551">35</span><span class="sxs-lookup"><span data-stu-id="8ad56-551">35</span></span></td>
-<td><span data-ttu-id="8ad56-552">(35 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-552">(35 ÷ 100) × 1,245.71</span></span></td>
-<td><span data-ttu-id="8ad56-553">436.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-553">436.00</span></span></td>
-<td><span data-ttu-id="8ad56-554">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-554">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-555">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-555">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-556">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-556">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-557">55</span><span class="sxs-lookup"><span data-stu-id="8ad56-557">55</span></span></td>
-<td><span data-ttu-id="8ad56-558">(55 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-558">(55 ÷ 100) × 1,245.71</span></span></td>
-<td><span data-ttu-id="8ad56-559">685.14</span><span class="sxs-lookup"><span data-stu-id="8ad56-559">685.14</span></span></td>
-<td><span data-ttu-id="8ad56-560">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-560">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-561">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-561">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-562">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-562">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-563">10</span><span class="sxs-lookup"><span data-stu-id="8ad56-563">10</span></span></td>
-<td><span data-ttu-id="8ad56-564">(10 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-564">(10 ÷ 100) × 1,245.71</span></span></td>
-<td><span data-ttu-id="8ad56-565">124.57</span><span class="sxs-lookup"><span data-stu-id="8ad56-565">124.57</span></span></td>
-<td><span data-ttu-id="8ad56-566">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-566">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="8ad56-567">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการการเงินกับฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="8ad56-567">The following table shows the result when the Finance services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="8ad56-568">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-568">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-569">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-569">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-570">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-570">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-571">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-571">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-572">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-572">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-573">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-573">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-574">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-574">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-575">65</span><span class="sxs-lookup"><span data-stu-id="8ad56-575">65</span></span></td>
-<td><span data-ttu-id="8ad56-576">(65 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-576">(65 ÷ 100) × (500.00 + 175.00)</span></span></td>
-<td><span data-ttu-id="8ad56-577">438.75</span><span class="sxs-lookup"><span data-stu-id="8ad56-577">438.75</span></span></td>
-<td><span data-ttu-id="8ad56-578">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-578">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-579">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-579">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-580">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-580">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-581">35</span><span class="sxs-lookup"><span data-stu-id="8ad56-581">35</span></span></td>
-<td><span data-ttu-id="8ad56-582">(35 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-582">(35 ÷ 100) × (500.00 + 175.00)</span></span></td>
-<td><span data-ttu-id="8ad56-583">236.25</span><span class="sxs-lookup"><span data-stu-id="8ad56-583">236.25</span></span></td>
-<td><span data-ttu-id="8ad56-584">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-584">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-585">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-585">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-586">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-586">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-587">65</span><span class="sxs-lookup"><span data-stu-id="8ad56-587">65</span></span></td>
-<td><span data-ttu-id="8ad56-588">(65 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-588">(65 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
-<td><span data-ttu-id="8ad56-589">5,297.69</span><span class="sxs-lookup"><span data-stu-id="8ad56-589">5,297.69</span></span></td>
-<td><span data-ttu-id="8ad56-590">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-590">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-591">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-591">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-592">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-592">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-593">35</span><span class="sxs-lookup"><span data-stu-id="8ad56-593">35</span></span></td>
-<td><span data-ttu-id="8ad56-594">(35 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="8ad56-594">(35 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
-<td><span data-ttu-id="8ad56-595">2,852.60</span><span class="sxs-lookup"><span data-stu-id="8ad56-595">2,852.60</span></span></td>
-<td><span data-ttu-id="8ad56-596">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-596">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="8ad56-597">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการส่วนประกอบกับฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="8ad56-597">The following table shows the result when the Assembly services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="8ad56-598">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-598">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-599">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-599">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-600">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-600">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-601">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-601">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-602">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-602">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-603">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-603">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-604">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-604">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-605">60</span><span class="sxs-lookup"><span data-stu-id="8ad56-605">60</span></span></td>
-<td><span data-ttu-id="8ad56-606">(60 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="8ad56-606">(60 ÷ 80) × (275.00 + 438.75)</span></span></td>
-<td><span data-ttu-id="8ad56-607">535.31</span><span class="sxs-lookup"><span data-stu-id="8ad56-607">535.31</span></span></td>
-<td><span data-ttu-id="8ad56-608">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-608">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-609">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-609">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-610">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-610">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-611">20</span><span class="sxs-lookup"><span data-stu-id="8ad56-611">20</span></span></td>
-<td><span data-ttu-id="8ad56-612">(20 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="8ad56-612">(20 ÷ 80) × (275.00 + 438.75)</span></span></td>
-<td><span data-ttu-id="8ad56-613">178.44</span><span class="sxs-lookup"><span data-stu-id="8ad56-613">178.44</span></span></td>
-<td><span data-ttu-id="8ad56-614">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-614">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-615">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-615">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-616">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-616">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-617">60</span><span class="sxs-lookup"><span data-stu-id="8ad56-617">60</span></span></td>
-<td><span data-ttu-id="8ad56-618">(60 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="8ad56-618">(60 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
-<td><span data-ttu-id="8ad56-619">4,487.12</span><span class="sxs-lookup"><span data-stu-id="8ad56-619">4,487.12</span></span></td>
-<td><span data-ttu-id="8ad56-620">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-620">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-621">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-621">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-622">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-622">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-623">20</span><span class="sxs-lookup"><span data-stu-id="8ad56-623">20</span></span></td>
-<td><span data-ttu-id="8ad56-624">(20 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="8ad56-624">(20 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
-<td><span data-ttu-id="8ad56-625">1,495.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-625">1,495.71</span></span></td>
-<td><span data-ttu-id="8ad56-626">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-626">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="8ad56-627">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการบรรจุภัณฑ์กับฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="8ad56-627">The following table shows the result when the Packaging services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="8ad56-628">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-628">Cost object</span></span></th>
-<th><span data-ttu-id="8ad56-629">ขนาด</span><span class="sxs-lookup"><span data-stu-id="8ad56-629">Magnitude</span></span></th>
-<th><span data-ttu-id="8ad56-630">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="8ad56-630">Allocation factor</span></span></th>
-<th><span data-ttu-id="8ad56-631">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-631">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-632">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-632">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-633">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-633">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-634">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-634">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-635">80</span><span class="sxs-lookup"><span data-stu-id="8ad56-635">80</span></span></td>
-<td><span data-ttu-id="8ad56-636">(80 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="8ad56-636">(80 ÷ 95) × (50.00 + 236.25)</span></span></td>
-<td><span data-ttu-id="8ad56-637">241.05</span><span class="sxs-lookup"><span data-stu-id="8ad56-637">241.05</span></span></td>
-<td><span data-ttu-id="8ad56-638">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-638">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-639">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-639">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-640">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-640">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-641">วันที่ 15 ก.ย.</span><span class="sxs-lookup"><span data-stu-id="8ad56-641">15</span></span></td>
-<td><span data-ttu-id="8ad56-642">(15 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="8ad56-642">(15 ÷ 95) × (50.00 + 236.25)</span></span></td>
-<td><span data-ttu-id="8ad56-643">45.20</span><span class="sxs-lookup"><span data-stu-id="8ad56-643">45.20</span></span></td>
-<td><span data-ttu-id="8ad56-644">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-644">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-645">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-645">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-646">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-646">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-647">80</span><span class="sxs-lookup"><span data-stu-id="8ad56-647">80</span></span></td>
-<td><span data-ttu-id="8ad56-648">(80 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="8ad56-648">(80 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
-<td><span data-ttu-id="8ad56-649">2,507.09</span><span class="sxs-lookup"><span data-stu-id="8ad56-649">2,507.09</span></span></td>
-<td><span data-ttu-id="8ad56-650">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-650">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-651">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-651">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-652">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-652">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-653">วันที่ 15 ก.ย.</span><span class="sxs-lookup"><span data-stu-id="8ad56-653">15</span></span></td>
-<td><span data-ttu-id="8ad56-654">(15 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="8ad56-654">(15 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
-<td><span data-ttu-id="8ad56-655">470.08</span><span class="sxs-lookup"><span data-stu-id="8ad56-655">470.08</span></span></td>
-<td><span data-ttu-id="8ad56-656">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-656">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="8ad56-657">รายการสมุดรายวัน (รายการสมุดรายวันของยอดดุลออบเจ็กต์ต้นทุน)</span><span class="sxs-lookup"><span data-stu-id="8ad56-657">Journal entries (cost object balance journal entries)</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="8ad56-658">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-658">Journal</span></span></th>
-<th><span data-ttu-id="8ad56-659">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-659">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="8ad56-660">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-660">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="8ad56-661">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-661">Version</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-662">00004</span><span class="sxs-lookup"><span data-stu-id="8ad56-662">00004</span></span></td>
-<td><span data-ttu-id="8ad56-663">สมุดรายวันการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-663">Cost allocation journal</span></span></td>
-<td><span data-ttu-id="8ad56-664">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-664">Fiscal</span></span></td>
-<td><span data-ttu-id="8ad56-665">2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-665">2017</span></span></td>
-<td><span data-ttu-id="8ad56-666">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-666">Period 1</span></span></td>
-<td><span data-ttu-id="8ad56-667">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-667">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
-</tr>
-</tbody>
-</table>
-
-##### <a name="journal-lines"></a><span data-ttu-id="8ad56-668">รายการสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="8ad56-668">Journal lines</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="8ad56-669">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-669">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-670">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-670">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-671">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-671">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-672">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-672">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-673">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-673">Amount</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-674">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-674">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-675">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-675">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-676">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-676">HR</span></span></td>
-<td><span data-ttu-id="8ad56-677">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-677">10001</span></span></td>
-<td><span data-ttu-id="8ad56-678">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-678">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-679">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-679">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-680">500.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-680">500.00</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-681">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-681">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-682">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-682">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-683">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-683">HR</span></span></td>
-<td><span data-ttu-id="8ad56-684">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-684">10001</span></span></td>
-<td><span data-ttu-id="8ad56-685">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-685">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-686">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-686">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-687">1,245.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-687">1,245.71</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-688">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-688">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-689">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-689">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-690">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-690">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-691">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-691">10001</span></span></td>
-<td><span data-ttu-id="8ad56-692">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-692">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-693">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-693">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-694">675.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-694">675.00</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-695">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-695">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-696">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-696">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-697">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-697">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-698">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-698">10001</span></span></td>
-<td><span data-ttu-id="8ad56-699">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-699">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-700">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-700">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-701">8,150.29</span><span class="sxs-lookup"><span data-stu-id="8ad56-701">8,150.29</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-702">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-702">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-703">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-703">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-704">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-704">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-705">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-705">10001</span></span></td>
-<td><span data-ttu-id="8ad56-706">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-706">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-707">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-707">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-708">713.75</span><span class="sxs-lookup"><span data-stu-id="8ad56-708">713.75</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-709">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-709">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-710">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-710">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-711">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-711">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-712">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-712">10001</span></span></td>
-<td><span data-ttu-id="8ad56-713">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-713">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-714">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-714">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-715">5,982.83</span><span class="sxs-lookup"><span data-stu-id="8ad56-715">5,982.83</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-716">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-716">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-717">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-717">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-718">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-718">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-719">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-719">10001</span></span></td>
-<td><span data-ttu-id="8ad56-720">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-720">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-721">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-721">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-722">286.25</span><span class="sxs-lookup"><span data-stu-id="8ad56-722">286.25</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-723">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-723">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-724">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-724">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-725">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-725">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-726">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-726">10001</span></span></td>
-<td><span data-ttu-id="8ad56-727">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-727">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-728">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-728">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-729">2,977.17</span><span class="sxs-lookup"><span data-stu-id="8ad56-729">2,977.17</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-730">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-730">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-731">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-731">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-732">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-732">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-733">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-733">10001</span></span></td>
-<td><span data-ttu-id="8ad56-734">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-734">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-735">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-735">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-736">776.36</span><span class="sxs-lookup"><span data-stu-id="8ad56-736">776.36</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-737">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-737">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-738">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-738">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-739">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-739">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-740">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-740">10001</span></span></td>
-<td><span data-ttu-id="8ad56-741">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-741">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-742">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-742">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-743">6,994.21</span><span class="sxs-lookup"><span data-stu-id="8ad56-743">6,994.21</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-744">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-744">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-745">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-745">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-746">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-746">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-747">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-747">10001</span></span></td>
-<td><span data-ttu-id="8ad56-748">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-748">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-749">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-749">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-750">223.64</span><span class="sxs-lookup"><span data-stu-id="8ad56-750">223.64</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-751">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-751">January 31, 2017</span></span></td>
-<td><span data-ttu-id="8ad56-752">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-752">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-753">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-753">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-754">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-754">10001</span></span></td>
-<td><span data-ttu-id="8ad56-755">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-755">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-756">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-756">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-757">1,965.79</span><span class="sxs-lookup"><span data-stu-id="8ad56-757">1,965.79</span></span></td>
-</tr>
-</tbody>
-</table>
-
-##### <a name="cost-entries"></a><span data-ttu-id="8ad56-758">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-758">Cost entries</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="8ad56-759">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-759">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="8ad56-760">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-760">Cost element</span></span></th>
-<th><span data-ttu-id="8ad56-761">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-761">Cost behavior</span></span></th>
-<th><span data-ttu-id="8ad56-762">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-762">Amount</span></span></th>
-<th><span data-ttu-id="8ad56-763">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ad56-763">Accounting date</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="8ad56-764">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-764">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-765">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-765">HR</span></span></td>
-<td><span data-ttu-id="8ad56-766">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-766">10001</span></span></td>
-<td><span data-ttu-id="8ad56-767">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-767">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-768">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-768">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-769">-500.00.</span><span class="sxs-lookup"><span data-stu-id="8ad56-769">-500.00</span></span></td>
-<td><span data-ttu-id="8ad56-770">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-770">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-771">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-771">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-772">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-772">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-773">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-773">10001</span></span></td>
-<td><span data-ttu-id="8ad56-774">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-774">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-775">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-775">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-776">175.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-776">175.00</span></span></td>
-<td><span data-ttu-id="8ad56-777">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-777">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-778">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-778">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-779">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-779">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-780">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-780">10001</span></span></td>
-<td><span data-ttu-id="8ad56-781">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-781">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-782">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-782">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-783">275.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-783">275.00</span></span></td>
-<td><span data-ttu-id="8ad56-784">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-784">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-785">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-785">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-786">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-786">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-787">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-787">10001</span></span></td>
-<td><span data-ttu-id="8ad56-788">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-788">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-789">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-789">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-790">50,00</span><span class="sxs-lookup"><span data-stu-id="8ad56-790">50,00</span></span></td>
-<td><span data-ttu-id="8ad56-791">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-791">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-792">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-792">CC001</span></span></td>
-<td><span data-ttu-id="8ad56-793">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="8ad56-793">HR</span></span></td>
-<td><span data-ttu-id="8ad56-794">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-794">10001</span></span></td>
-<td><span data-ttu-id="8ad56-795">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-795">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-796">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-796">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-797">-1,245.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-797">-1,245.71</span></span></td>
-<td><span data-ttu-id="8ad56-798">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-798">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-799">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-799">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-800">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-800">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-801">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-801">10001</span></span></td>
-<td><span data-ttu-id="8ad56-802">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-802">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-803">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-803">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-804">436.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-804">436.00</span></span></td>
-<td><span data-ttu-id="8ad56-805">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-805">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-806">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-806">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-807">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-807">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-808">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-808">10001</span></span></td>
-<td><span data-ttu-id="8ad56-809">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-809">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-810">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-810">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-811">685.14</span><span class="sxs-lookup"><span data-stu-id="8ad56-811">685.14</span></span></td>
-<td><span data-ttu-id="8ad56-812">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-812">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-813">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-813">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-814">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-814">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-815">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-815">10001</span></span></td>
-<td><span data-ttu-id="8ad56-816">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-816">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-817">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-817">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-818">124.57</span><span class="sxs-lookup"><span data-stu-id="8ad56-818">124.57</span></span></td>
-<td><span data-ttu-id="8ad56-819">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-819">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-820">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-820">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-821">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-821">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-822">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-822">10001</span></span></td>
-<td><span data-ttu-id="8ad56-823">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-823">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-824">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-824">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-825">-675.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-825">-675.00</span></span></td>
-<td><span data-ttu-id="8ad56-826">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-826">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-827">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-827">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-828">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-828">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-829">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-829">10001</span></span></td>
-<td><span data-ttu-id="8ad56-830">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-830">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-831">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-831">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-832">438.75</span><span class="sxs-lookup"><span data-stu-id="8ad56-832">438.75</span></span></td>
-<td><span data-ttu-id="8ad56-833">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-833">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-834">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-834">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-835">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-835">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-836">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-836">10001</span></span></td>
-<td><span data-ttu-id="8ad56-837">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-837">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-838">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-838">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-839">236.25</span><span class="sxs-lookup"><span data-stu-id="8ad56-839">236.25</span></span></td>
-<td><span data-ttu-id="8ad56-840">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-840">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-841">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-841">CC002</span></span></td>
-<td><span data-ttu-id="8ad56-842">การเงิน</span><span class="sxs-lookup"><span data-stu-id="8ad56-842">Finance</span></span></td>
-<td><span data-ttu-id="8ad56-843">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-843">10001</span></span></td>
-<td><span data-ttu-id="8ad56-844">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-844">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-845">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-845">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-846">-8,150.29</span><span class="sxs-lookup"><span data-stu-id="8ad56-846">-8,150.29</span></span></td>
-<td><span data-ttu-id="8ad56-847">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-847">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-848">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-848">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-849">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-849">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-850">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-850">10001</span></span></td>
-<td><span data-ttu-id="8ad56-851">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-851">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-852">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-852">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-853">5,297.69</span><span class="sxs-lookup"><span data-stu-id="8ad56-853">5,297.69</span></span></td>
-<td><span data-ttu-id="8ad56-854">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-854">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-855">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-855">CC004</span></span></td>
-<td><span data-ttu-id="8ad56-856">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="8ad56-856">Packaging</span></span></td>
-<td><span data-ttu-id="8ad56-857">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-857">10001</span></span></td>
-<td><span data-ttu-id="8ad56-858">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-858">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-859">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-859">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-860">2,852.60</span><span class="sxs-lookup"><span data-stu-id="8ad56-860">2,852.60</span></span></td>
-<td><span data-ttu-id="8ad56-861">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-861">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-862">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-862">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-863">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-863">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-864">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-864">10001</span></span></td>
-<td><span data-ttu-id="8ad56-865">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-865">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-866">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-866">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-867">-713.75</span><span class="sxs-lookup"><span data-stu-id="8ad56-867">-713.75</span></span></td>
-<td><span data-ttu-id="8ad56-868">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-868">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-869">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-869">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-870">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-870">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-871">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-871">10001</span></span></td>
-<td><span data-ttu-id="8ad56-872">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-872">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-873">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-873">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-874">535.31</span><span class="sxs-lookup"><span data-stu-id="8ad56-874">535.31</span></span></td>
-<td><span data-ttu-id="8ad56-875">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-875">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-876">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-876">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-877">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-877">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-878">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-878">10001</span></span></td>
-<td><span data-ttu-id="8ad56-879">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-879">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-880">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-880">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-881">178.44</span><span class="sxs-lookup"><span data-stu-id="8ad56-881">178.44</span></span></td>
-<td><span data-ttu-id="8ad56-882">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-882">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-883">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-883">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-884">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-884">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-885">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-885">10001</span></span></td>
-<td><span data-ttu-id="8ad56-886">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-886">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-887">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-887">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-888">-5,982.83</span><span class="sxs-lookup"><span data-stu-id="8ad56-888">-5,982.83</span></span></td>
-<td><span data-ttu-id="8ad56-889">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-889">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-890">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-890">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-891">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-891">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-892">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-892">10001</span></span></td>
-<td><span data-ttu-id="8ad56-893">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-893">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-894">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-894">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-895">4,487.12</span><span class="sxs-lookup"><span data-stu-id="8ad56-895">4,487.12</span></span></td>
-<td><span data-ttu-id="8ad56-896">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-896">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-897">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-897">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-898">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-898">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-899">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-899">10001</span></span></td>
-<td><span data-ttu-id="8ad56-900">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-900">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-901">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-901">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-902">1,495.71</span><span class="sxs-lookup"><span data-stu-id="8ad56-902">1,495.71</span></span></td>
-<td><span data-ttu-id="8ad56-903">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-903">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-904">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-904">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-905">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-905">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-906">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-906">10001</span></span></td>
-<td><span data-ttu-id="8ad56-907">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-907">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-908">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-908">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-909">-286.25</span><span class="sxs-lookup"><span data-stu-id="8ad56-909">-286.25</span></span></td>
-<td><span data-ttu-id="8ad56-910">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-910">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-911">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-911">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-912">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-912">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-913">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-913">10001</span></span></td>
-<td><span data-ttu-id="8ad56-914">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-914">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-915">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-915">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-916">241.05</span><span class="sxs-lookup"><span data-stu-id="8ad56-916">241.05</span></span></td>
-<td><span data-ttu-id="8ad56-917">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-917">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-918">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-918">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-919">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-919">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-920">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-920">10001</span></span></td>
-<td><span data-ttu-id="8ad56-921">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-921">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-922">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-922">Fixed cost</span></span></td>
-<td><span data-ttu-id="8ad56-923">45.20</span><span class="sxs-lookup"><span data-stu-id="8ad56-923">45.20</span></span></td>
-<td><span data-ttu-id="8ad56-924">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-924">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-925">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-925">CC003</span></span></td>
-<td><span data-ttu-id="8ad56-926">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="8ad56-926">Assembly</span></span></td>
-<td><span data-ttu-id="8ad56-927">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-927">10001</span></span></td>
-<td><span data-ttu-id="8ad56-928">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-928">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-929">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-929">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-930">-2,977.17</span><span class="sxs-lookup"><span data-stu-id="8ad56-930">-2,977.17</span></span></td>
-<td><span data-ttu-id="8ad56-931">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-931">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-932">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-932">Prod 1</span></span></td>
-<td><span data-ttu-id="8ad56-933">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-933">Product 1</span></span></td>
-<td><span data-ttu-id="8ad56-934">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-934">10001</span></span></td>
-<td><span data-ttu-id="8ad56-935">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-935">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-936">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-936">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-937">2,507.09</span><span class="sxs-lookup"><span data-stu-id="8ad56-937">2,507.09</span></span></td>
-<td><span data-ttu-id="8ad56-938">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-938">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="8ad56-939">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-939">Prod 2</span></span></td>
-<td><span data-ttu-id="8ad56-940">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-940">Product 2</span></span></td>
-<td><span data-ttu-id="8ad56-941">10001</span><span class="sxs-lookup"><span data-stu-id="8ad56-941">10001</span></span></td>
-<td><span data-ttu-id="8ad56-942">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-942">Electricity</span></span></td>
-<td><span data-ttu-id="8ad56-943">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-943">Variable cost</span></span></td>
-<td><span data-ttu-id="8ad56-944">470.08</span><span class="sxs-lookup"><span data-stu-id="8ad56-944">470.08</span></span></td>
-<td><span data-ttu-id="8ad56-945">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="8ad56-945">January 31, 2017</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="conclusion"></a><span data-ttu-id="8ad56-946">บทสรุป</span><span class="sxs-lookup"><span data-stu-id="8ad56-946">Conclusion</span></span>
-<span data-ttu-id="8ad56-947">ในการบัญชีทางการเงิน ต้นทุน 10,000.00 สำหรับไฟฟ้าจะถูกลงรายการบัญชีไปยังรหัสศูนย์ต้นทุนดัมมี</span><span class="sxs-lookup"><span data-stu-id="8ad56-947">In Financial accounting, a cost of 10,000.00 for Electricity is posted to a dummy cost center ID.</span></span> <span data-ttu-id="8ad56-948">ดังนั้น ผู้จัดทำบัญชีต้นทุนจะทราบว่าต้องปันส่วนต้นทุนนี้</span><span class="sxs-lookup"><span data-stu-id="8ad56-948">Therefore, cost accountants will know that this cost must be allocated.</span></span> <span data-ttu-id="8ad56-949">ในการบัญชีต้นทุน ขั้นตอนของต้นทุนระหว่างหน่วยงานและระดับต่าง ๆ ขึ้นอยู่กับนโยบายและกฎที่ใช้</span><span class="sxs-lookup"><span data-stu-id="8ad56-949">In Cost accounting, the costs flow across organizational units and levels, based on the policies and rules that are applied.</span></span> <span data-ttu-id="8ad56-950">ต้นทุนแต่ละรายการถูกเชื่อมโยงกับฐานการปันส่วนที่แสดงการประเมินที่ดีที่สุดสำหรับการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-950">Each cost has been associated with an allocation base that provides the best assessment for the allocation of costs.</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2"><span data-ttu-id="8ad56-951">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-951">Cost element</span></span></th>
-<th colspan="9"><span data-ttu-id="8ad56-952">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-952">Cost object</span></span></th>
-<th rowspan="2"><span data-ttu-id="8ad56-953">ผลรวม</span><span class="sxs-lookup"><span data-stu-id="8ad56-953">Total</span></span></th>
-</tr>
-<tr>
-<th><span data-ttu-id="8ad56-954">CC099</span><span class="sxs-lookup"><span data-stu-id="8ad56-954">CC099</span></span></th>
-<th><span data-ttu-id="8ad56-955">CC001</span><span class="sxs-lookup"><span data-stu-id="8ad56-955">CC001</span></span></th>
-<th><span data-ttu-id="8ad56-956">CC002</span><span class="sxs-lookup"><span data-stu-id="8ad56-956">CC002</span></span></th>
-<th><span data-ttu-id="8ad56-957">CC003</span><span class="sxs-lookup"><span data-stu-id="8ad56-957">CC003</span></span></th>
-<th><span data-ttu-id="8ad56-958">CC004</span><span class="sxs-lookup"><span data-stu-id="8ad56-958">CC004</span></span></th>
-<th><span data-ttu-id="8ad56-959">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-959">Proj 1</span></span></th>
-<th><span data-ttu-id="8ad56-960">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-960">Proj 2</span></span></th>
-<th><span data-ttu-id="8ad56-961">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="8ad56-961">Prod 1</span></span></th>
-<th><span data-ttu-id="8ad56-962">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="8ad56-962">Prod 2</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2"><span data-ttu-id="8ad56-963">10001 ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="8ad56-963">10001 Electricity</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-964"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-964"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-965"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-965"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-966"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-966"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-967"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-967"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-968"><strong>30.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-968"><strong>30.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-969"><strong>10.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-969"><strong>10.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-970"><strong>7,770.57</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-970"><strong>7,770.57</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-971"><strong>2,189.43</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-971"><strong>2,189.43</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-972"><strong>10,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-972"><strong>10,000.00</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;"><span data-ttu-id="8ad56-973">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="8ad56-973">Unclassified</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-974">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-974">0.00</span></span></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;"><span data-ttu-id="8ad56-975">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="8ad56-975">Fixed cost</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-976">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-976">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-977">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-977">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-978">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-978">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-979">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-979">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-980">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-980">0.00</span></span></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-981">776.36</span><span class="sxs-lookup"><span data-stu-id="8ad56-981">776.36</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-982">223.64</span><span class="sxs-lookup"><span data-stu-id="8ad56-982">223.64</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-983"><strong>1,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-983"><strong>1,000.00</strong></span></span></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;"><span data-ttu-id="8ad56-984">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="8ad56-984">Variable cost</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-985">000</span><span class="sxs-lookup"><span data-stu-id="8ad56-985">000</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-986">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-986">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-987">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-987">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-988">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-988">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-989">0.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-989">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-990">30.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-990">30.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-991">10.00</span><span class="sxs-lookup"><span data-stu-id="8ad56-991">10.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-992">6,994.21</span><span class="sxs-lookup"><span data-stu-id="8ad56-992">6,994.21</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-993">1,965.79</span><span class="sxs-lookup"><span data-stu-id="8ad56-993">1,965.79</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="8ad56-994"><strong>9,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="8ad56-994"><strong>9,000.00</strong></span></span></td>
+<td><span data-ttu-id="afddf-517">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-517">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-518">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-518">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-519">วันที่ 15 ก.ย.</span><span class="sxs-lookup"><span data-stu-id="afddf-519">15</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="8ad56-995">หัวข้อนี้อธิบายวิธีการไหลขององค์ประกอบต้นทุนหลัก 10001 ไฟฟ้า 10001 ผ่านออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-995">This topic shows how a primary cost element, 10001 Electricity, flows through the cost objects.</span></span> <span data-ttu-id="8ad56-996">ดังนั้น ต้นทุนค่าโสหุ้ยนี้จึงมีการปันส่วนไปยังระดับต่ำสุดในองค์กร</span><span class="sxs-lookup"><span data-stu-id="8ad56-996">Therefore, this overhead cost is allocated to the lowest level in the organization.</span></span> <span data-ttu-id="8ad56-997">กล่าวคือ ออบเจ็กต์ต้นทุนในระดับต่ำสุดเป็นผู้รับผิดชอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-997">In other words, the cost objects at the lowest level bear the cost.</span></span> <span data-ttu-id="8ad56-998">ถ้าคุณต้องการขั้นตอนที่เป็นภาพของต้นทุนระหว่างออบเจ็กต์ต้นทุนต่าง ๆ คุณสามารถใช้กฎนโยบายการรวบรวมต้นทุนเพื่อแสดงภาพของกระแสต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-998">If you require a visual flow of the cost between the cost objects, you can use the cost roll-up policy rules to visualize the flow of the cost.</span></span> <span data-ttu-id="8ad56-999">สำหรับข้อมูลเพิ่มเติม ให้ดูที่นโยบายการรวบรวมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="8ad56-999">For more detailed information, see Cost roll-up policy.</span></span> <span data-ttu-id="8ad56-1000">(หมายเหตุว่าหัวข้อนี้ยังไม่เสร็จสมบูรณ์ แต่ในไม่ช้านี้)</span><span class="sxs-lookup"><span data-stu-id="8ad56-1000">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+> <span data-ttu-id="afddf-520">ใน Finance and Operations การประเมินทางสถิติ เช่น จำนวนชั่วโมงการผลิตที่ผลิตภัณฑ์ใช้ สามารถได้รับมาจากแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="afddf-520">In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="afddf-521">สำหรับข้อมูลเพิ่มเติม ดู [เท็มเพลตผู้ให้บริการการประเมินทางสถิติ](statistical-measure-provider-template.md#statistical-measure-provider-template)</span><span class="sxs-lookup"><span data-stu-id="afddf-521">For more information, see [Statistical measure provider template](statistical-measure-provider-template.md#statistical-measure-provider-template).</span></span> <span data-ttu-id="afddf-522">ตารางต่อไปนี้แสดงผลลัพธ์ เมื่อมีการใช้บริการ HR เป็นฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="afddf-522">The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="afddf-523">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-523">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-524">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-524">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-525">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-525">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-526">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-526">Amount</span></span></th>
+<th><span data-ttu-id="afddf-527">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-527">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-528">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-528">CC002</span></span></td>
+<td><span data-ttu-id="afddf-529">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-529">Finance</span></span></td>
+<td><span data-ttu-id="afddf-530">35</span><span class="sxs-lookup"><span data-stu-id="afddf-530">35</span></span></td>
+<td><span data-ttu-id="afddf-531">(35 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-531">(35 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="afddf-532">175.00</span><span class="sxs-lookup"><span data-stu-id="afddf-532">175.00</span></span></td>
+<td><span data-ttu-id="afddf-533">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-533">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-534">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-534">CC003</span></span></td>
+<td><span data-ttu-id="afddf-535">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-535">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-536">55</span><span class="sxs-lookup"><span data-stu-id="afddf-536">55</span></span></td>
+<td><span data-ttu-id="afddf-537">(55 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-537">(55 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="afddf-538">275.00</span><span class="sxs-lookup"><span data-stu-id="afddf-538">275.00</span></span></td>
+<td><span data-ttu-id="afddf-539">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-539">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-540">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-540">CC004</span></span></td>
+<td><span data-ttu-id="afddf-541">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-541">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-542">10</span><span class="sxs-lookup"><span data-stu-id="afddf-542">10</span></span></td>
+<td><span data-ttu-id="afddf-543">(10 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-543">(10 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="afddf-544">50.00</span><span class="sxs-lookup"><span data-stu-id="afddf-544">50.00</span></span></td>
+<td><span data-ttu-id="afddf-545">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-545">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-546">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-546">CC002</span></span></td>
+<td><span data-ttu-id="afddf-547">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-547">Finance</span></span></td>
+<td><span data-ttu-id="afddf-548">35</span><span class="sxs-lookup"><span data-stu-id="afddf-548">35</span></span></td>
+<td><span data-ttu-id="afddf-549">(35 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="afddf-549">(35 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="afddf-550">436.00</span><span class="sxs-lookup"><span data-stu-id="afddf-550">436.00</span></span></td>
+<td><span data-ttu-id="afddf-551">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-551">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-552">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-552">CC003</span></span></td>
+<td><span data-ttu-id="afddf-553">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-553">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-554">55</span><span class="sxs-lookup"><span data-stu-id="afddf-554">55</span></span></td>
+<td><span data-ttu-id="afddf-555">(55 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="afddf-555">(55 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="afddf-556">685.14</span><span class="sxs-lookup"><span data-stu-id="afddf-556">685.14</span></span></td>
+<td><span data-ttu-id="afddf-557">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-557">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-558">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-558">CC004</span></span></td>
+<td><span data-ttu-id="afddf-559">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-559">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-560">10</span><span class="sxs-lookup"><span data-stu-id="afddf-560">10</span></span></td>
+<td><span data-ttu-id="afddf-561">(10 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="afddf-561">(10 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="afddf-562">124.57</span><span class="sxs-lookup"><span data-stu-id="afddf-562">124.57</span></span></td>
+<td><span data-ttu-id="afddf-563">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-563">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="afddf-564">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการการเงินกับฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="afddf-564">The following table shows the result when the Finance services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="afddf-565">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-565">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-566">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-566">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-567">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-567">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-568">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-568">Amount</span></span></th>
+<th><span data-ttu-id="afddf-569">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-569">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-570">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-570">CC003</span></span></td>
+<td><span data-ttu-id="afddf-571">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-571">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-572">65</span><span class="sxs-lookup"><span data-stu-id="afddf-572">65</span></span></td>
+<td><span data-ttu-id="afddf-573">(65 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-573">(65 ÷ 100) × (500.00 + 175.00)</span></span></td>
+<td><span data-ttu-id="afddf-574">438.75</span><span class="sxs-lookup"><span data-stu-id="afddf-574">438.75</span></span></td>
+<td><span data-ttu-id="afddf-575">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-575">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-576">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-576">CC004</span></span></td>
+<td><span data-ttu-id="afddf-577">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-577">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-578">35</span><span class="sxs-lookup"><span data-stu-id="afddf-578">35</span></span></td>
+<td><span data-ttu-id="afddf-579">(35 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-579">(35 ÷ 100) × (500.00 + 175.00)</span></span></td>
+<td><span data-ttu-id="afddf-580">236.25</span><span class="sxs-lookup"><span data-stu-id="afddf-580">236.25</span></span></td>
+<td><span data-ttu-id="afddf-581">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-581">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-582">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-582">CC003</span></span></td>
+<td><span data-ttu-id="afddf-583">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-583">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-584">65</span><span class="sxs-lookup"><span data-stu-id="afddf-584">65</span></span></td>
+<td><span data-ttu-id="afddf-585">(65 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-585">(65 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
+<td><span data-ttu-id="afddf-586">5,297.69</span><span class="sxs-lookup"><span data-stu-id="afddf-586">5,297.69</span></span></td>
+<td><span data-ttu-id="afddf-587">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-587">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-588">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-588">CC004</span></span></td>
+<td><span data-ttu-id="afddf-589">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-589">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-590">35</span><span class="sxs-lookup"><span data-stu-id="afddf-590">35</span></span></td>
+<td><span data-ttu-id="afddf-591">(35 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="afddf-591">(35 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
+<td><span data-ttu-id="afddf-592">2,852.60</span><span class="sxs-lookup"><span data-stu-id="afddf-592">2,852.60</span></span></td>
+<td><span data-ttu-id="afddf-593">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-593">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="afddf-594">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการส่วนประกอบกับฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="afddf-594">The following table shows the result when the Assembly services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="afddf-595">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-595">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-596">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-596">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-597">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-597">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-598">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-598">Amount</span></span></th>
+<th><span data-ttu-id="afddf-599">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-599">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-600">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-600">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-601">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-601">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-602">60</span><span class="sxs-lookup"><span data-stu-id="afddf-602">60</span></span></td>
+<td><span data-ttu-id="afddf-603">(60 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="afddf-603">(60 ÷ 80) × (275.00 + 438.75)</span></span></td>
+<td><span data-ttu-id="afddf-604">535.31</span><span class="sxs-lookup"><span data-stu-id="afddf-604">535.31</span></span></td>
+<td><span data-ttu-id="afddf-605">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-605">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-606">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-606">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-607">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-607">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-608">20</span><span class="sxs-lookup"><span data-stu-id="afddf-608">20</span></span></td>
+<td><span data-ttu-id="afddf-609">(20 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="afddf-609">(20 ÷ 80) × (275.00 + 438.75)</span></span></td>
+<td><span data-ttu-id="afddf-610">178.44</span><span class="sxs-lookup"><span data-stu-id="afddf-610">178.44</span></span></td>
+<td><span data-ttu-id="afddf-611">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-611">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-612">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-612">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-613">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-613">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-614">60</span><span class="sxs-lookup"><span data-stu-id="afddf-614">60</span></span></td>
+<td><span data-ttu-id="afddf-615">(60 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="afddf-615">(60 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
+<td><span data-ttu-id="afddf-616">4,487.12</span><span class="sxs-lookup"><span data-stu-id="afddf-616">4,487.12</span></span></td>
+<td><span data-ttu-id="afddf-617">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-617">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-618">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-618">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-619">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-619">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-620">20</span><span class="sxs-lookup"><span data-stu-id="afddf-620">20</span></span></td>
+<td><span data-ttu-id="afddf-621">(20 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="afddf-621">(20 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
+<td><span data-ttu-id="afddf-622">1,495.71</span><span class="sxs-lookup"><span data-stu-id="afddf-622">1,495.71</span></span></td>
+<td><span data-ttu-id="afddf-623">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-623">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="afddf-624">ตารางต่อไปนี้แสดงผลลัพธ์เมื่อมีการใช้บริการบรรจุภัณฑ์กับฐานการปันส่วนสำหรับต้นทุนรวม (ต้นทุนคงที่และต้นทุนผันแปร)</span><span class="sxs-lookup"><span data-stu-id="afddf-624">The following table shows the result when the Packaging services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="afddf-625">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-625">Cost object</span></span></th>
+<th><span data-ttu-id="afddf-626">ขนาด</span><span class="sxs-lookup"><span data-stu-id="afddf-626">Magnitude</span></span></th>
+<th><span data-ttu-id="afddf-627">ตัวคูณการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="afddf-627">Allocation factor</span></span></th>
+<th><span data-ttu-id="afddf-628">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-628">Amount</span></span></th>
+<th><span data-ttu-id="afddf-629">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-629">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-630">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-630">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-631">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-631">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-632">80</span><span class="sxs-lookup"><span data-stu-id="afddf-632">80</span></span></td>
+<td><span data-ttu-id="afddf-633">(80 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="afddf-633">(80 ÷ 95) × (50.00 + 236.25)</span></span></td>
+<td><span data-ttu-id="afddf-634">241.05</span><span class="sxs-lookup"><span data-stu-id="afddf-634">241.05</span></span></td>
+<td><span data-ttu-id="afddf-635">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-635">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-636">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-636">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-637">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-637">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-638">วันที่ 15 ก.ย.</span><span class="sxs-lookup"><span data-stu-id="afddf-638">15</span></span></td>
+<td><span data-ttu-id="afddf-639">(15 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="afddf-639">(15 ÷ 95) × (50.00 + 236.25)</span></span></td>
+<td><span data-ttu-id="afddf-640">45.20</span><span class="sxs-lookup"><span data-stu-id="afddf-640">45.20</span></span></td>
+<td><span data-ttu-id="afddf-641">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-641">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-642">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-642">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-643">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-643">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-644">80</span><span class="sxs-lookup"><span data-stu-id="afddf-644">80</span></span></td>
+<td><span data-ttu-id="afddf-645">(80 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="afddf-645">(80 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
+<td><span data-ttu-id="afddf-646">2,507.09</span><span class="sxs-lookup"><span data-stu-id="afddf-646">2,507.09</span></span></td>
+<td><span data-ttu-id="afddf-647">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-647">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-648">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-648">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-649">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-649">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-650">วันที่ 15 ก.ย.</span><span class="sxs-lookup"><span data-stu-id="afddf-650">15</span></span></td>
+<td><span data-ttu-id="afddf-651">(15 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="afddf-651">(15 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
+<td><span data-ttu-id="afddf-652">470.08</span><span class="sxs-lookup"><span data-stu-id="afddf-652">470.08</span></span></td>
+<td><span data-ttu-id="afddf-653">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-653">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="afddf-654">รายการสมุดรายวัน (รายการสมุดรายวันของยอดดุลออบเจ็กต์ต้นทุน)</span><span class="sxs-lookup"><span data-stu-id="afddf-654">Journal entries (cost object balance journal entries)</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="afddf-655">สมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-655">Journal</span></span></th>
+<th><span data-ttu-id="afddf-656">ชนิดสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-656">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="afddf-657">รอบระยะเวลาปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-657">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="afddf-658">เวอร์ชัน</span><span class="sxs-lookup"><span data-stu-id="afddf-658">Version</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-659">00004</span><span class="sxs-lookup"><span data-stu-id="afddf-659">00004</span></span></td>
+<td><span data-ttu-id="afddf-660">สมุดรายวันการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-660">Cost allocation journal</span></span></td>
+<td><span data-ttu-id="afddf-661">ทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-661">Fiscal</span></span></td>
+<td><span data-ttu-id="afddf-662">2017</span><span class="sxs-lookup"><span data-stu-id="afddf-662">2017</span></span></td>
+<td><span data-ttu-id="afddf-663">รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-663">Period 1</span></span></td>
+<td><span data-ttu-id="afddf-664">การคำนวณค่าโสหุ้ย / 01-02-2017 11:51:00 PM / บัญชีแยกประเภท /2017 / รอบระยะเวลา 1</span><span class="sxs-lookup"><span data-stu-id="afddf-664">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+</tr>
+</tbody>
+</table>
+
+##### <a name="journal-lines"></a><span data-ttu-id="afddf-665">รายการสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="afddf-665">Journal lines</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="afddf-666">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-666">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-667">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-667">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-668">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-668">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-669">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-669">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-670">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-670">Amount</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-671">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-671">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-672">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-672">CC001</span></span></td>
+<td><span data-ttu-id="afddf-673">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-673">HR</span></span></td>
+<td><span data-ttu-id="afddf-674">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-674">10001</span></span></td>
+<td><span data-ttu-id="afddf-675">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-675">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-676">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-676">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-677">500.00</span><span class="sxs-lookup"><span data-stu-id="afddf-677">500.00</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-678">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-678">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-679">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-679">CC001</span></span></td>
+<td><span data-ttu-id="afddf-680">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-680">HR</span></span></td>
+<td><span data-ttu-id="afddf-681">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-681">10001</span></span></td>
+<td><span data-ttu-id="afddf-682">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-682">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-683">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-683">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-684">1,245.71</span><span class="sxs-lookup"><span data-stu-id="afddf-684">1,245.71</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-685">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-685">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-686">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-686">CC002</span></span></td>
+<td><span data-ttu-id="afddf-687">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-687">Finance</span></span></td>
+<td><span data-ttu-id="afddf-688">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-688">10001</span></span></td>
+<td><span data-ttu-id="afddf-689">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-689">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-690">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-690">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-691">675.00</span><span class="sxs-lookup"><span data-stu-id="afddf-691">675.00</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-692">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-692">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-693">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-693">CC002</span></span></td>
+<td><span data-ttu-id="afddf-694">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-694">Finance</span></span></td>
+<td><span data-ttu-id="afddf-695">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-695">10001</span></span></td>
+<td><span data-ttu-id="afddf-696">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-696">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-697">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-697">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-698">8,150.29</span><span class="sxs-lookup"><span data-stu-id="afddf-698">8,150.29</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-699">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-699">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-700">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-700">CC003</span></span></td>
+<td><span data-ttu-id="afddf-701">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-701">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-702">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-702">10001</span></span></td>
+<td><span data-ttu-id="afddf-703">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-703">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-704">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-704">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-705">713.75</span><span class="sxs-lookup"><span data-stu-id="afddf-705">713.75</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-706">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-706">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-707">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-707">CC003</span></span></td>
+<td><span data-ttu-id="afddf-708">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-708">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-709">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-709">10001</span></span></td>
+<td><span data-ttu-id="afddf-710">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-710">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-711">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-711">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-712">5,982.83</span><span class="sxs-lookup"><span data-stu-id="afddf-712">5,982.83</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-713">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-713">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-714">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-714">CC003</span></span></td>
+<td><span data-ttu-id="afddf-715">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-715">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-716">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-716">10001</span></span></td>
+<td><span data-ttu-id="afddf-717">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-717">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-718">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-718">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-719">286.25</span><span class="sxs-lookup"><span data-stu-id="afddf-719">286.25</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-720">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-720">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-721">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-721">CC003</span></span></td>
+<td><span data-ttu-id="afddf-722">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-722">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-723">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-723">10001</span></span></td>
+<td><span data-ttu-id="afddf-724">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-724">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-725">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-725">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-726">2,977.17</span><span class="sxs-lookup"><span data-stu-id="afddf-726">2,977.17</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-727">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-727">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-728">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-728">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-729">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-729">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-730">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-730">10001</span></span></td>
+<td><span data-ttu-id="afddf-731">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-731">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-732">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-732">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-733">776.36</span><span class="sxs-lookup"><span data-stu-id="afddf-733">776.36</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-734">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-734">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-735">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-735">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-736">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-736">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-737">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-737">10001</span></span></td>
+<td><span data-ttu-id="afddf-738">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-738">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-739">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-739">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-740">6,994.21</span><span class="sxs-lookup"><span data-stu-id="afddf-740">6,994.21</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-741">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-741">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-742">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-742">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-743">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-743">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-744">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-744">10001</span></span></td>
+<td><span data-ttu-id="afddf-745">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-745">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-746">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-746">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-747">223.64</span><span class="sxs-lookup"><span data-stu-id="afddf-747">223.64</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-748">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-748">January 31, 2017</span></span></td>
+<td><span data-ttu-id="afddf-749">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-749">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-750">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-750">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-751">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-751">10001</span></span></td>
+<td><span data-ttu-id="afddf-752">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-752">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-753">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-753">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-754">1,965.79</span><span class="sxs-lookup"><span data-stu-id="afddf-754">1,965.79</span></span></td>
+</tr>
+</tbody>
+</table>
+
+##### <a name="cost-entries"></a><span data-ttu-id="afddf-755">รายการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-755">Cost entries</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="afddf-756">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-756">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="afddf-757">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-757">Cost element</span></span></th>
+<th><span data-ttu-id="afddf-758">พฤติกรรมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-758">Cost behavior</span></span></th>
+<th><span data-ttu-id="afddf-759">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-759">Amount</span></span></th>
+<th><span data-ttu-id="afddf-760">วันที่ลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="afddf-760">Accounting date</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="afddf-761">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-761">CC001</span></span></td>
+<td><span data-ttu-id="afddf-762">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-762">HR</span></span></td>
+<td><span data-ttu-id="afddf-763">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-763">10001</span></span></td>
+<td><span data-ttu-id="afddf-764">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-764">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-765">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-765">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-766">-500.00.</span><span class="sxs-lookup"><span data-stu-id="afddf-766">-500.00</span></span></td>
+<td><span data-ttu-id="afddf-767">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-767">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-768">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-768">CC002</span></span></td>
+<td><span data-ttu-id="afddf-769">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-769">Finance</span></span></td>
+<td><span data-ttu-id="afddf-770">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-770">10001</span></span></td>
+<td><span data-ttu-id="afddf-771">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-771">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-772">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-772">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-773">175.00</span><span class="sxs-lookup"><span data-stu-id="afddf-773">175.00</span></span></td>
+<td><span data-ttu-id="afddf-774">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-774">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-775">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-775">CC003</span></span></td>
+<td><span data-ttu-id="afddf-776">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-776">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-777">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-777">10001</span></span></td>
+<td><span data-ttu-id="afddf-778">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-778">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-779">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-779">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-780">275.00</span><span class="sxs-lookup"><span data-stu-id="afddf-780">275.00</span></span></td>
+<td><span data-ttu-id="afddf-781">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-781">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-782">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-782">CC004</span></span></td>
+<td><span data-ttu-id="afddf-783">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-783">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-784">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-784">10001</span></span></td>
+<td><span data-ttu-id="afddf-785">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-785">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-786">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-786">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-787">50,00</span><span class="sxs-lookup"><span data-stu-id="afddf-787">50,00</span></span></td>
+<td><span data-ttu-id="afddf-788">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-788">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-789">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-789">CC001</span></span></td>
+<td><span data-ttu-id="afddf-790">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="afddf-790">HR</span></span></td>
+<td><span data-ttu-id="afddf-791">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-791">10001</span></span></td>
+<td><span data-ttu-id="afddf-792">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-792">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-793">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-793">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-794">-1,245.71</span><span class="sxs-lookup"><span data-stu-id="afddf-794">-1,245.71</span></span></td>
+<td><span data-ttu-id="afddf-795">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-795">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-796">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-796">CC002</span></span></td>
+<td><span data-ttu-id="afddf-797">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-797">Finance</span></span></td>
+<td><span data-ttu-id="afddf-798">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-798">10001</span></span></td>
+<td><span data-ttu-id="afddf-799">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-799">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-800">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-800">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-801">436.00</span><span class="sxs-lookup"><span data-stu-id="afddf-801">436.00</span></span></td>
+<td><span data-ttu-id="afddf-802">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-802">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-803">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-803">CC003</span></span></td>
+<td><span data-ttu-id="afddf-804">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-804">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-805">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-805">10001</span></span></td>
+<td><span data-ttu-id="afddf-806">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-806">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-807">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-807">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-808">685.14</span><span class="sxs-lookup"><span data-stu-id="afddf-808">685.14</span></span></td>
+<td><span data-ttu-id="afddf-809">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-809">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-810">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-810">CC004</span></span></td>
+<td><span data-ttu-id="afddf-811">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-811">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-812">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-812">10001</span></span></td>
+<td><span data-ttu-id="afddf-813">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-813">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-814">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-814">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-815">124.57</span><span class="sxs-lookup"><span data-stu-id="afddf-815">124.57</span></span></td>
+<td><span data-ttu-id="afddf-816">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-816">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-817">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-817">CC002</span></span></td>
+<td><span data-ttu-id="afddf-818">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-818">Finance</span></span></td>
+<td><span data-ttu-id="afddf-819">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-819">10001</span></span></td>
+<td><span data-ttu-id="afddf-820">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-820">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-821">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-821">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-822">-675.00</span><span class="sxs-lookup"><span data-stu-id="afddf-822">-675.00</span></span></td>
+<td><span data-ttu-id="afddf-823">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-823">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-824">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-824">CC003</span></span></td>
+<td><span data-ttu-id="afddf-825">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-825">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-826">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-826">10001</span></span></td>
+<td><span data-ttu-id="afddf-827">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-827">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-828">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-828">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-829">438.75</span><span class="sxs-lookup"><span data-stu-id="afddf-829">438.75</span></span></td>
+<td><span data-ttu-id="afddf-830">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-830">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-831">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-831">CC004</span></span></td>
+<td><span data-ttu-id="afddf-832">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-832">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-833">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-833">10001</span></span></td>
+<td><span data-ttu-id="afddf-834">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-834">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-835">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-835">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-836">236.25</span><span class="sxs-lookup"><span data-stu-id="afddf-836">236.25</span></span></td>
+<td><span data-ttu-id="afddf-837">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-837">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-838">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-838">CC002</span></span></td>
+<td><span data-ttu-id="afddf-839">การเงิน</span><span class="sxs-lookup"><span data-stu-id="afddf-839">Finance</span></span></td>
+<td><span data-ttu-id="afddf-840">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-840">10001</span></span></td>
+<td><span data-ttu-id="afddf-841">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-841">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-842">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-842">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-843">-8,150.29</span><span class="sxs-lookup"><span data-stu-id="afddf-843">-8,150.29</span></span></td>
+<td><span data-ttu-id="afddf-844">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-844">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-845">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-845">CC003</span></span></td>
+<td><span data-ttu-id="afddf-846">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-846">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-847">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-847">10001</span></span></td>
+<td><span data-ttu-id="afddf-848">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-848">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-849">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-849">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-850">5,297.69</span><span class="sxs-lookup"><span data-stu-id="afddf-850">5,297.69</span></span></td>
+<td><span data-ttu-id="afddf-851">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-851">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-852">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-852">CC004</span></span></td>
+<td><span data-ttu-id="afddf-853">บรรจุภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="afddf-853">Packaging</span></span></td>
+<td><span data-ttu-id="afddf-854">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-854">10001</span></span></td>
+<td><span data-ttu-id="afddf-855">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-855">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-856">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-856">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-857">2,852.60</span><span class="sxs-lookup"><span data-stu-id="afddf-857">2,852.60</span></span></td>
+<td><span data-ttu-id="afddf-858">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-858">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-859">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-859">CC003</span></span></td>
+<td><span data-ttu-id="afddf-860">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-860">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-861">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-861">10001</span></span></td>
+<td><span data-ttu-id="afddf-862">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-862">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-863">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-863">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-864">-713.75</span><span class="sxs-lookup"><span data-stu-id="afddf-864">-713.75</span></span></td>
+<td><span data-ttu-id="afddf-865">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-865">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-866">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-866">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-867">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-867">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-868">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-868">10001</span></span></td>
+<td><span data-ttu-id="afddf-869">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-869">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-870">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-870">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-871">535.31</span><span class="sxs-lookup"><span data-stu-id="afddf-871">535.31</span></span></td>
+<td><span data-ttu-id="afddf-872">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-872">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-873">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-873">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-874">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-874">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-875">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-875">10001</span></span></td>
+<td><span data-ttu-id="afddf-876">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-876">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-877">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-877">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-878">178.44</span><span class="sxs-lookup"><span data-stu-id="afddf-878">178.44</span></span></td>
+<td><span data-ttu-id="afddf-879">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-879">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-880">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-880">CC003</span></span></td>
+<td><span data-ttu-id="afddf-881">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-881">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-882">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-882">10001</span></span></td>
+<td><span data-ttu-id="afddf-883">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-883">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-884">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-884">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-885">-5,982.83</span><span class="sxs-lookup"><span data-stu-id="afddf-885">-5,982.83</span></span></td>
+<td><span data-ttu-id="afddf-886">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-886">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-887">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-887">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-888">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-888">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-889">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-889">10001</span></span></td>
+<td><span data-ttu-id="afddf-890">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-890">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-891">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-891">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-892">4,487.12</span><span class="sxs-lookup"><span data-stu-id="afddf-892">4,487.12</span></span></td>
+<td><span data-ttu-id="afddf-893">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-893">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-894">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-894">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-895">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-895">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-896">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-896">10001</span></span></td>
+<td><span data-ttu-id="afddf-897">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-897">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-898">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-898">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-899">1,495.71</span><span class="sxs-lookup"><span data-stu-id="afddf-899">1,495.71</span></span></td>
+<td><span data-ttu-id="afddf-900">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-900">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-901">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-901">CC003</span></span></td>
+<td><span data-ttu-id="afddf-902">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-902">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-903">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-903">10001</span></span></td>
+<td><span data-ttu-id="afddf-904">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-904">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-905">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-905">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-906">-286.25</span><span class="sxs-lookup"><span data-stu-id="afddf-906">-286.25</span></span></td>
+<td><span data-ttu-id="afddf-907">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-907">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-908">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-908">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-909">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-909">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-910">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-910">10001</span></span></td>
+<td><span data-ttu-id="afddf-911">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-911">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-912">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-912">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-913">241.05</span><span class="sxs-lookup"><span data-stu-id="afddf-913">241.05</span></span></td>
+<td><span data-ttu-id="afddf-914">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-914">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-915">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-915">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-916">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-916">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-917">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-917">10001</span></span></td>
+<td><span data-ttu-id="afddf-918">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-918">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-919">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-919">Fixed cost</span></span></td>
+<td><span data-ttu-id="afddf-920">45.20</span><span class="sxs-lookup"><span data-stu-id="afddf-920">45.20</span></span></td>
+<td><span data-ttu-id="afddf-921">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-921">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-922">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-922">CC003</span></span></td>
+<td><span data-ttu-id="afddf-923">ชิ้นส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="afddf-923">Assembly</span></span></td>
+<td><span data-ttu-id="afddf-924">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-924">10001</span></span></td>
+<td><span data-ttu-id="afddf-925">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-925">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-926">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-926">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-927">-2,977.17</span><span class="sxs-lookup"><span data-stu-id="afddf-927">-2,977.17</span></span></td>
+<td><span data-ttu-id="afddf-928">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-928">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-929">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-929">Prod 1</span></span></td>
+<td><span data-ttu-id="afddf-930">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-930">Product 1</span></span></td>
+<td><span data-ttu-id="afddf-931">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-931">10001</span></span></td>
+<td><span data-ttu-id="afddf-932">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-932">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-933">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-933">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-934">2,507.09</span><span class="sxs-lookup"><span data-stu-id="afddf-934">2,507.09</span></span></td>
+<td><span data-ttu-id="afddf-935">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-935">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="afddf-936">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-936">Prod 2</span></span></td>
+<td><span data-ttu-id="afddf-937">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-937">Product 2</span></span></td>
+<td><span data-ttu-id="afddf-938">10001</span><span class="sxs-lookup"><span data-stu-id="afddf-938">10001</span></span></td>
+<td><span data-ttu-id="afddf-939">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-939">Electricity</span></span></td>
+<td><span data-ttu-id="afddf-940">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-940">Variable cost</span></span></td>
+<td><span data-ttu-id="afddf-941">470.08</span><span class="sxs-lookup"><span data-stu-id="afddf-941">470.08</span></span></td>
+<td><span data-ttu-id="afddf-942">31 มกราคม 2017</span><span class="sxs-lookup"><span data-stu-id="afddf-942">January 31, 2017</span></span></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="conclusion"></a><span data-ttu-id="afddf-943">บทสรุป</span><span class="sxs-lookup"><span data-stu-id="afddf-943">Conclusion</span></span>
+<span data-ttu-id="afddf-944">ในการบัญชีทางการเงิน ต้นทุน 10,000.00 สำหรับไฟฟ้าจะถูกลงรายการบัญชีไปยังรหัสศูนย์ต้นทุนดัมมี</span><span class="sxs-lookup"><span data-stu-id="afddf-944">In Financial accounting, a cost of 10,000.00 for Electricity is posted to a dummy cost center ID.</span></span> <span data-ttu-id="afddf-945">ดังนั้น ผู้จัดทำบัญชีต้นทุนจะทราบว่าต้องปันส่วนต้นทุนนี้</span><span class="sxs-lookup"><span data-stu-id="afddf-945">Therefore, cost accountants will know that this cost must be allocated.</span></span> <span data-ttu-id="afddf-946">ในการบัญชีต้นทุน ขั้นตอนของต้นทุนระหว่างหน่วยงานและระดับต่าง ๆ ขึ้นอยู่กับนโยบายและกฎที่ใช้</span><span class="sxs-lookup"><span data-stu-id="afddf-946">In Cost accounting, the costs flow across organizational units and levels, based on the policies and rules that are applied.</span></span> <span data-ttu-id="afddf-947">ต้นทุนแต่ละรายการถูกเชื่อมโยงกับฐานการปันส่วนที่แสดงการประเมินที่ดีที่สุดสำหรับการปันส่วนต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-947">Each cost has been associated with an allocation base that provides the best assessment for the allocation of costs.</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2"><span data-ttu-id="afddf-948">องค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-948">Cost element</span></span></th>
+<th colspan="9"><span data-ttu-id="afddf-949">ออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-949">Cost object</span></span></th>
+<th rowspan="2"><span data-ttu-id="afddf-950">ผลรวม</span><span class="sxs-lookup"><span data-stu-id="afddf-950">Total</span></span></th>
+</tr>
+<tr>
+<th><span data-ttu-id="afddf-951">CC099</span><span class="sxs-lookup"><span data-stu-id="afddf-951">CC099</span></span></th>
+<th><span data-ttu-id="afddf-952">CC001</span><span class="sxs-lookup"><span data-stu-id="afddf-952">CC001</span></span></th>
+<th><span data-ttu-id="afddf-953">CC002</span><span class="sxs-lookup"><span data-stu-id="afddf-953">CC002</span></span></th>
+<th><span data-ttu-id="afddf-954">CC003</span><span class="sxs-lookup"><span data-stu-id="afddf-954">CC003</span></span></th>
+<th><span data-ttu-id="afddf-955">CC004</span><span class="sxs-lookup"><span data-stu-id="afddf-955">CC004</span></span></th>
+<th><span data-ttu-id="afddf-956">โครงการ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-956">Proj 1</span></span></th>
+<th><span data-ttu-id="afddf-957">โครงการ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-957">Proj 2</span></span></th>
+<th><span data-ttu-id="afddf-958">ผลิตภัณฑ์ 1</span><span class="sxs-lookup"><span data-stu-id="afddf-958">Prod 1</span></span></th>
+<th><span data-ttu-id="afddf-959">ผลิตภัณฑ์ 2</span><span class="sxs-lookup"><span data-stu-id="afddf-959">Prod 2</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><span data-ttu-id="afddf-960">10001 ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="afddf-960">10001 Electricity</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-961"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-961"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-962"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-962"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-963"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-963"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-964"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-964"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-965"><strong>30.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-965"><strong>30.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-966"><strong>10.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-966"><strong>10.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-967"><strong>7,770.57</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-967"><strong>7,770.57</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-968"><strong>2,189.43</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-968"><strong>2,189.43</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-969"><strong>10,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-969"><strong>10,000.00</strong></span></span></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;"><span data-ttu-id="afddf-970">ไม่ได้จัดประเภท</span><span class="sxs-lookup"><span data-stu-id="afddf-970">Unclassified</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-971">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-971">0.00</span></span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><span data-ttu-id="afddf-972">ต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="afddf-972">Fixed cost</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-973">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-973">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-974">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-974">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-975">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-975">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-976">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-976">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-977">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-977">0.00</span></span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-978">776.36</span><span class="sxs-lookup"><span data-stu-id="afddf-978">776.36</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-979">223.64</span><span class="sxs-lookup"><span data-stu-id="afddf-979">223.64</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-980"><strong>1,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-980"><strong>1,000.00</strong></span></span></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><span data-ttu-id="afddf-981">ต้นทุนผันแปร</span><span class="sxs-lookup"><span data-stu-id="afddf-981">Variable cost</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-982">000</span><span class="sxs-lookup"><span data-stu-id="afddf-982">000</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-983">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-983">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-984">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-984">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-985">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-985">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-986">0.00</span><span class="sxs-lookup"><span data-stu-id="afddf-986">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-987">30.00</span><span class="sxs-lookup"><span data-stu-id="afddf-987">30.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-988">10.00</span><span class="sxs-lookup"><span data-stu-id="afddf-988">10.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-989">6,994.21</span><span class="sxs-lookup"><span data-stu-id="afddf-989">6,994.21</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-990">1,965.79</span><span class="sxs-lookup"><span data-stu-id="afddf-990">1,965.79</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="afddf-991"><strong>9,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="afddf-991"><strong>9,000.00</strong></span></span></td>
+</tr>
+</tbody>
+</table>
+
+> [!NOTE]
+> <span data-ttu-id="afddf-992">หัวข้อนี้อธิบายวิธีการไหลขององค์ประกอบต้นทุนหลัก 10001 ไฟฟ้า 10001 ผ่านออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-992">This topic shows how a primary cost element, 10001 Electricity, flows through the cost objects.</span></span> <span data-ttu-id="afddf-993">ดังนั้น ต้นทุนค่าโสหุ้ยนี้จึงมีการปันส่วนไปยังระดับต่ำสุดในองค์กร</span><span class="sxs-lookup"><span data-stu-id="afddf-993">Therefore, this overhead cost is allocated to the lowest level in the organization.</span></span> <span data-ttu-id="afddf-994">กล่าวคือ ออบเจ็กต์ต้นทุนในระดับต่ำสุดเป็นผู้รับผิดชอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-994">In other words, the cost objects at the lowest level bear the cost.</span></span> <span data-ttu-id="afddf-995">ถ้าคุณต้องการขั้นตอนที่เป็นภาพของต้นทุนระหว่างออบเจ็กต์ต้นทุนต่าง ๆ คุณสามารถใช้กฎนโยบายการรวบรวมต้นทุนเพื่อแสดงภาพของกระแสต้นทุน</span><span class="sxs-lookup"><span data-stu-id="afddf-995">If you require a visual flow of the cost between the cost objects, you can use the cost roll-up policy rules to visualize the flow of the cost.</span></span> <span data-ttu-id="afddf-996">สำหรับข้อมูลเพิ่มเติม ให้ดู [การรวบรวมต้นทุน](cost-rollup.md)</span><span class="sxs-lookup"><span data-stu-id="afddf-996">For more information, see [Cost roll-up](cost-rollup.md).</span></span>
 
 
 

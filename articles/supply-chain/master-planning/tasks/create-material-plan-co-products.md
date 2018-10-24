@@ -3,68 +3,112 @@ title: "สร้างแผนวัสดุสำหรับผลิตภ
 description: "ผู้วางแผนการผลิตจะวางแผนความต้องการวัสดุสำหรับสินค้าที่เป็นสูตรผลิตภัณฑ์ร่วม "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: adc1e520ce9ec705555939f29008d7fc4494999a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="56b36-103">สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="56b36-103">Create a material plan for co-products</span></span>
+# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="16f2a-103">สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-103">Create a material plan for co products</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="56b36-104">ผู้วางแผนการผลิตจะวางแผนความต้องการวัสดุสำหรับสินค้าที่เป็นสูตรผลิตภัณฑ์ร่วม </span><span class="sxs-lookup"><span data-stu-id="56b36-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="56b36-105">บริษัทข้อมูลสาธิตที่เคยสร้างขั้นตอนนี้คือ USP2</span><span class="sxs-lookup"><span data-stu-id="56b36-105">The demo data company used to create this procedure is USP2.</span></span>
+<span data-ttu-id="16f2a-104">ผู้วางแผนการผลิตจะวางแผนความต้องการวัสดุสำหรับสินค้าที่เป็นสูตรผลิตภัณฑ์ร่วม </span><span class="sxs-lookup"><span data-stu-id="16f2a-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="16f2a-105">บริษัทข้อมูลสาธิตที่เคยสร้างขั้นตอนนี้คือ USP2</span><span class="sxs-lookup"><span data-stu-id="16f2a-105">The demo data company used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="56b36-106">สร้างความต้องการสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="56b36-106">Create requirement for a co-product</span></span>
-1. <span data-ttu-id="56b36-107">ไปที่แดชบอร์ดเริ่มต้น </span><span class="sxs-lookup"><span data-stu-id="56b36-107">Go to Default dashboard.</span></span>
-2. <span data-ttu-id="56b36-108">คลิกที่การประมวลผลและการสอบถามใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="56b36-108">Click Sales order processing and inquiry.</span></span>
-3. <span data-ttu-id="56b36-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="56b36-109">Click New.</span></span>
-4. <span data-ttu-id="56b36-110">คลิกที่ใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="56b36-110">Click Sales order.</span></span>
-5. <span data-ttu-id="56b36-111">ในฟิลด์บัญชีลูกค้า ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="56b36-111">In the Customer account field, type a value.</span></span>
-    * <span data-ttu-id="56b36-112">ตัวอย่าง: US-001</span><span class="sxs-lookup"><span data-stu-id="56b36-112">Example: US-001</span></span>  
-6. <span data-ttu-id="56b36-113">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="56b36-113">Click OK.</span></span>
-7. <span data-ttu-id="56b36-114">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="56b36-114">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="56b36-115">ตัวอย่าง : P6003</span><span class="sxs-lookup"><span data-stu-id="56b36-115">Example: P6003</span></span>  
-8. <span data-ttu-id="56b36-116">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="56b36-116">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="56b36-117">ตัวอย่าง : 50000</span><span class="sxs-lookup"><span data-stu-id="56b36-117">Example: 50000</span></span>  
-9. <span data-ttu-id="56b36-118">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="56b36-118">Click Save.</span></span>
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="16f2a-106">สร้างความต้องการสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-106">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="16f2a-107">ไปที่แดชบอร์ดเริ่มต้น </span><span class="sxs-lookup"><span data-stu-id="16f2a-107">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="16f2a-108">คลิกที่การประมวลผลและการสอบถามใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="16f2a-108">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="16f2a-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="16f2a-109">Click New.</span></span>
+4. <span data-ttu-id="16f2a-110">คลิกที่ใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="16f2a-110">Click Sales order.</span></span>
+5. <span data-ttu-id="16f2a-111">ในฟิลด์บัญชีลูกค้า ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="16f2a-111">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="16f2a-112">ตัวอย่าง: US-001</span><span class="sxs-lookup"><span data-stu-id="16f2a-112">Example: US-001</span></span>  
+6. <span data-ttu-id="16f2a-113">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="16f2a-113">Click OK.</span></span>
+7. <span data-ttu-id="16f2a-114">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="16f2a-114">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="16f2a-115">ตัวอย่าง : P6003</span><span class="sxs-lookup"><span data-stu-id="16f2a-115">Example: P6003</span></span>  
+8. <span data-ttu-id="16f2a-116">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="16f2a-116">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="16f2a-117">ตัวอย่าง : 50000</span><span class="sxs-lookup"><span data-stu-id="16f2a-117">Example: 50000</span></span>  
+9. <span data-ttu-id="16f2a-118">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="16f2a-118">Click Save.</span></span>
 
-## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="56b36-119">สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="56b36-119">Create a material plan for co-products</span></span>
-1. <span data-ttu-id="56b36-120">คลิกที่งานการวางแผนหลัก </span><span class="sxs-lookup"><span data-stu-id="56b36-120">Click Master planning.</span></span>
-2. <span data-ttu-id="56b36-121">ในฟิลด์แผน ให้คลิกที่ปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="56b36-121">In the Plan field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="56b36-122">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="56b36-122">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="56b36-123">ตัวอย่าง: แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="56b36-123">Example: MasterPlan</span></span>  
-4. <span data-ttu-id="56b36-124">คลิก เรียกใช้</span><span class="sxs-lookup"><span data-stu-id="56b36-124">Click Run.</span></span>
-5. <span data-ttu-id="56b36-125">ขยายหรือยุบส่วนของเรกคอร์ดที่จะรวม </span><span class="sxs-lookup"><span data-stu-id="56b36-125">Expand or collapse the Records to include section.</span></span>
-6. <span data-ttu-id="56b36-126">คลิกที่ตัวกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="56b36-126">Click Filter.</span></span>
-7. <span data-ttu-id="56b36-127">ในรายการ ให้เลือกแถวสำหรับฟิลด์ = หมายเลขสินค้า </span><span class="sxs-lookup"><span data-stu-id="56b36-127">In the list, select the row for Field = Item number.</span></span>
-8. <span data-ttu-id="56b36-128">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="56b36-128">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="56b36-129">ตัวอย่าง : P6003</span><span class="sxs-lookup"><span data-stu-id="56b36-129">Example: P6003</span></span>  
-9. <span data-ttu-id="56b36-130">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="56b36-130">Click OK.</span></span>
-10. <span data-ttu-id="56b36-131">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="56b36-131">Click OK.</span></span>
-11. <span data-ttu-id="56b36-132">คลิกที่แผนการใบสั่ง </span><span class="sxs-lookup"><span data-stu-id="56b36-132">Click Planned orders.</span></span>
-12. <span data-ttu-id="56b36-133">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="56b36-133">Use the Quick Filter to find records.</span></span> <span data-ttu-id="56b36-134">ตัวอย่างเช่น กรองฟิลด์หมายเลขสินค้าด้วยค่า 'P6000'</span><span class="sxs-lookup"><span data-stu-id="56b36-134">For example, filter on the Item number field with a value of 'P6000'.</span></span>
-    * <span data-ttu-id="56b36-135">กรองด้วยสูตรสินค้าที่เป็นผลิตภัณฑ์ร่วมของสินค้าที่คุณได้สร้างใบสั่งขายให้ </span><span class="sxs-lookup"><span data-stu-id="56b36-135">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
-13. <span data-ttu-id="56b36-136">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="56b36-136">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="56b36-137">เลือกแถวใดๆที่ถูกตีกลับโดยตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="56b36-137">Select any of the rows returned by the filter.</span></span>  
-14. <span data-ttu-id="56b36-138">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="56b36-138">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="56b36-139">ขยายหรือยุบส่วนความเชื่อมโยงความต้องการกับการจัดซื้อ </span><span class="sxs-lookup"><span data-stu-id="56b36-139">Expand or collapse the Pegging section.</span></span>
-16. <span data-ttu-id="56b36-140">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="56b36-140">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="56b36-141">คำสั่งซื้อที่วางแผนไว้จะเชื่อมโยงกับใบสั่งขายสำหรับสินค้าร่วม</span><span class="sxs-lookup"><span data-stu-id="56b36-141">The planned order is pegged to the sales order for the co-product.</span></span>  
-17. <span data-ttu-id="56b36-142">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="56b36-142">Close the page.</span></span>
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="16f2a-119">สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-119">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="16f2a-120">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="16f2a-120">Close the page.</span></span>
+2. <span data-ttu-id="16f2a-121">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="16f2a-121">Close the page.</span></span>
+3. <span data-ttu-id="16f2a-122">คลิกที่งานการวางแผนหลัก </span><span class="sxs-lookup"><span data-stu-id="16f2a-122">Click Master planning.</span></span>
+4. <span data-ttu-id="16f2a-123">ในฟิลด์แผน ให้คลิกที่ปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="16f2a-123">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="16f2a-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="16f2a-125">ตัวอย่าง: แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="16f2a-125">Example: MasterPlan</span></span>  
+6. <span data-ttu-id="16f2a-126">คลิก เรียกใช้</span><span class="sxs-lookup"><span data-stu-id="16f2a-126">Click Run.</span></span>
+7. <span data-ttu-id="16f2a-127">ขยายหรือยุบส่วนของเรกคอร์ดที่จะรวม </span><span class="sxs-lookup"><span data-stu-id="16f2a-127">Expand or collapse the Records to include section.</span></span>
+8. <span data-ttu-id="16f2a-128">คลิกที่ตัวกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="16f2a-128">Click Filter.</span></span>
+9. <span data-ttu-id="16f2a-129">ในรายการ ให้เลือกแถวสำหรับฟิลด์ = หมายเลขสินค้า </span><span class="sxs-lookup"><span data-stu-id="16f2a-129">In the list, select the row for Field = Item number.</span></span>
+10. <span data-ttu-id="16f2a-130">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="16f2a-130">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="16f2a-131">ตัวอย่าง : P6003</span><span class="sxs-lookup"><span data-stu-id="16f2a-131">Example: P6003</span></span>  
+11. <span data-ttu-id="16f2a-132">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="16f2a-132">Click OK.</span></span>
+12. <span data-ttu-id="16f2a-133">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="16f2a-133">Click OK.</span></span>
+13. <span data-ttu-id="16f2a-134">คลิกที่แผนการใบสั่ง </span><span class="sxs-lookup"><span data-stu-id="16f2a-134">Click Planned orders.</span></span>
+14. <span data-ttu-id="16f2a-135">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="16f2a-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="16f2a-136">ตัวอย่างเช่น กรองฟิลด์หมายเลขสินค้าด้วยค่า 'P6000'</span><span class="sxs-lookup"><span data-stu-id="16f2a-136">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="16f2a-137">กรองด้วยสูตรสินค้าที่เป็นผลิตภัณฑ์ร่วมของสินค้าที่คุณได้สร้างใบสั่งขายให้ </span><span class="sxs-lookup"><span data-stu-id="16f2a-137">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+15. <span data-ttu-id="16f2a-138">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-138">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="16f2a-139">เลือกแถวใดๆที่ถูกตีกลับโดยตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="16f2a-139">Select any of the rows returned by the filter.</span></span>  
+16. <span data-ttu-id="16f2a-140">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-140">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="16f2a-141">ขยายหรือยุบส่วนความเชื่อมโยงความต้องการกับการจัดซื้อ </span><span class="sxs-lookup"><span data-stu-id="16f2a-141">Expand or collapse the Pegging section.</span></span>
+18. <span data-ttu-id="16f2a-142">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-142">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="16f2a-143">คำสั่งซื้อที่วางแผนไว้จะเชื่อมโยงกับใบสั่งขายสำหรับสินค้าร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-143">The planned order is pegged to the sales order for the co-product.</span></span>  
+19. <span data-ttu-id="16f2a-144">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="16f2a-144">Close the page.</span></span>
+
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="16f2a-145">สร้างความต้องการสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-145">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="16f2a-146">ไปที่แดชบอร์ดเริ่มต้น </span><span class="sxs-lookup"><span data-stu-id="16f2a-146">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="16f2a-147">คลิกที่การประมวลผลและการสอบถามใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="16f2a-147">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="16f2a-148">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="16f2a-148">Click New.</span></span>
+4. <span data-ttu-id="16f2a-149">คลิกที่ใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="16f2a-149">Click Sales order.</span></span>
+5. <span data-ttu-id="16f2a-150">ในฟิลด์บัญชีลูกค้า ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="16f2a-150">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="16f2a-151">ตัวอย่าง: US-001</span><span class="sxs-lookup"><span data-stu-id="16f2a-151">Example: US-001</span></span>  
+6. <span data-ttu-id="16f2a-152">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="16f2a-152">Click OK.</span></span>
+7. <span data-ttu-id="16f2a-153">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="16f2a-153">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="16f2a-154">ตัวอย่าง : P6003</span><span class="sxs-lookup"><span data-stu-id="16f2a-154">Example: P6003</span></span>  
+8. <span data-ttu-id="16f2a-155">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="16f2a-155">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="16f2a-156">ตัวอย่าง : 50000</span><span class="sxs-lookup"><span data-stu-id="16f2a-156">Example: 50000</span></span>  
+9. <span data-ttu-id="16f2a-157">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="16f2a-157">Click Save.</span></span>
+
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="16f2a-158">สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-158">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="16f2a-159">ในฟิลด์แผน ให้คลิกที่ปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="16f2a-159">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="16f2a-160">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-160">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="16f2a-161">ตัวอย่าง: แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="16f2a-161">Example: MasterPlan</span></span>  
+3. <span data-ttu-id="16f2a-162">คลิก เรียกใช้</span><span class="sxs-lookup"><span data-stu-id="16f2a-162">Click Run.</span></span>
+4. <span data-ttu-id="16f2a-163">ขยายหรือยุบส่วนของเรกคอร์ดที่จะรวม </span><span class="sxs-lookup"><span data-stu-id="16f2a-163">Expand or collapse the Records to include section.</span></span>
+5. <span data-ttu-id="16f2a-164">คลิกที่ตัวกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="16f2a-164">Click Filter.</span></span>
+6. <span data-ttu-id="16f2a-165">ในรายการ ให้เลือกแถวสำหรับฟิลด์ = หมายเลขสินค้า </span><span class="sxs-lookup"><span data-stu-id="16f2a-165">In the list, select the row for Field = Item number.</span></span>
+7. <span data-ttu-id="16f2a-166">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="16f2a-166">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="16f2a-167">ตัวอย่าง : P6003</span><span class="sxs-lookup"><span data-stu-id="16f2a-167">Example: P6003</span></span>  
+8. <span data-ttu-id="16f2a-168">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="16f2a-168">Click OK.</span></span>
+9. <span data-ttu-id="16f2a-169">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="16f2a-169">Click OK.</span></span>
+10. <span data-ttu-id="16f2a-170">คลิกที่แผนการใบสั่ง </span><span class="sxs-lookup"><span data-stu-id="16f2a-170">Click Planned orders.</span></span>
+11. <span data-ttu-id="16f2a-171">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="16f2a-171">Use the Quick Filter to find records.</span></span> <span data-ttu-id="16f2a-172">ตัวอย่างเช่น กรองฟิลด์หมายเลขสินค้าด้วยค่า 'P6000'</span><span class="sxs-lookup"><span data-stu-id="16f2a-172">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="16f2a-173">กรองด้วยสูตรสินค้าที่เป็นผลิตภัณฑ์ร่วมของสินค้าที่คุณได้สร้างใบสั่งขายให้ </span><span class="sxs-lookup"><span data-stu-id="16f2a-173">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+12. <span data-ttu-id="16f2a-174">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-174">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="16f2a-175">เลือกแถวใดๆที่ถูกตีกลับโดยตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="16f2a-175">Select any of the rows returned by the filter.</span></span>  
+13. <span data-ttu-id="16f2a-176">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-176">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="16f2a-177">ขยายหรือยุบส่วนความเชื่อมโยงความต้องการกับการจัดซื้อ </span><span class="sxs-lookup"><span data-stu-id="16f2a-177">Expand or collapse the Pegging section.</span></span>
+15. <span data-ttu-id="16f2a-178">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="16f2a-178">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="16f2a-179">คำสั่งซื้อที่วางแผนไว้จะเชื่อมโยงกับใบสั่งขายสำหรับสินค้าร่วม</span><span class="sxs-lookup"><span data-stu-id="16f2a-179">The planned order is pegged to the sales order for the co-product.</span></span>  
+16. <span data-ttu-id="16f2a-180">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="16f2a-180">Close the page.</span></span>
+17. <span data-ttu-id="16f2a-181">คลิกที่งานการวางแผนหลัก </span><span class="sxs-lookup"><span data-stu-id="16f2a-181">Click Master planning.</span></span>
+18. <span data-ttu-id="16f2a-182">ไปที่การวางแผนหลัก > การตั้งค่า > การวางแผนหลัก > พารามิเตอร์</span><span class="sxs-lookup"><span data-stu-id="16f2a-182">Go to Master planning > Setup > Master planning parameters.</span></span>
+19. <span data-ttu-id="16f2a-183">เลือก ไม่ ในฟิลด์การปิดใช้งานกระบวนการวางแผนทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="16f2a-183">Select No in the Disable all planning processes field.</span></span>
+20. <span data-ttu-id="16f2a-184">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="16f2a-184">Close the page.</span></span>
 
 
