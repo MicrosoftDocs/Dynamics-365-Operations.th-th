@@ -12,6 +12,8 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: ตัวเลือกการปรับใช้
       href: dev-itpro/choose-deployment.md
+    - name: รับการสนับสนุนสำหรับ Retail
+      href: retail-support.md
 - name: ทำความเข้าใจวงจรการใช้งาน
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -35,9 +37,9 @@
       href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
     - name: ใช้งานโครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure Active Directory เดียวกัน
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
-    - name: ดำเนินโครงการ Retail ใน Finance and Operations
+    - name: ดำเนินโครงการ Finance and Operations Retail
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'ตั้งค่าสภาพแวดล้อมใหม่, VSTS และสาขาสำหรับโครงการ Retail'
+    - name: 'ตั้งค่าสภาพแวดล้อมใหม่, Azure DevOps และสาขาสำหรับโครงการ Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: อัพเดตรหัสและสภาพแวดล้อมสำหรับโครงการ Retail
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: คุณลักษณะการทำงานเฉพาะและบังคับ
   items:
+    - name: ยุโรปตะวันออก
+      items:
+        - name: ใบแจ้งหนี้การชำระเงินล่วงหน้าของ Retail สำหรับยุโรปตะวันออก
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: การจัดการเงินสดย่อยของ Retail สำหรับยุโรปตะวันออก
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของ Retail สำหรับประเทศในยุโรปตะวันออก
+          href: localizations/emea-eeu-retail-invoices.md
     - name: ฝรั่งเศส
       items:
         - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -317,6 +327,8 @@
           href: localizations/apac-ind-cash-registers.md
         - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: การสนับสนุนสำหรับการอัพเกรดและ N-1 สำหรับอินเดีย
+          href: localizations/apac-ind-n-1-for-india.md
     - name: นอร์เวย์
       items:
         - name: ฟังก์ชันเครื่องบันทึกเงินสด

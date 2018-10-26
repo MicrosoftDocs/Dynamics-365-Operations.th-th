@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
+ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
+ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
 ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 08/29/2018
 - [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [การตั้งค่าสาขาการพัฒนาและการสร้าง](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [การตั้งค่าเครื่องจักรในการพัฒนา](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [การรวม Visual Studio Team Services กับ Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [การรวม Azure DevOps กับ Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>สำรวจอินเทอร์เฟซผู้ใช้
 - [เพิ่มฟิลด์ที่กำหนดเอง](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
@@ -159,9 +159,9 @@ ms.lasthandoff: 08/29/2018
 - [เครื่องมือการย้าย SFDC AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การอัพเกรด AX 2012 เป็น Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การตั้งค่า Visual Studio Team Services (VSTS) (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [การติดตั้ง Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="warehouse-management"></a>การบริหารคลังสินค้า
+#### <a name="warehouse-management"></a>การจัดการคลังสินค้า
 - [การเพิ่มไปยังการรับป้ายทะเบียนแบบผสม (DYN331PAL)](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การเพิ่มเติมสินค้าตามความต้องการสำหรับการเบิกวัตถุดิบ (DYN333PAL2)](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [กระบวนการย้ายสินค้าและคลังสินค้าที่จะใช้การบริหารคลังสินค้าขั้นสูง (DYN316PAL)](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)

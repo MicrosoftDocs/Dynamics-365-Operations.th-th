@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
-            - name: คุณสมบัติที่ลบหรือไม่ได้รับการสนับสนุน
+            - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
+            - name: คุณลักษณะที่เอาออกหรือไม่ได้รับการสนับสนุน
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
-            - name: ลักษณะการทำงานของ AX 2012 ที่เลื่อนออกไป
+            - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร
+            - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations รุ่น 8.1 (ตุลาคม 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (กันยายน 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations รุ่น 8.0 (เมษายน 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (มีนาคม 2018)
@@ -454,9 +460,13 @@
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
-            - name: การจับคู่ใบแจ้งหนี้และใบสั่งสื่อระหว่างบริษัท
+            - name: การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
-            - name: ภาพรวมของ Positive pay
+            - name: ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
+            - name: ภาพรวมของ Positive Pay
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: ตั้งค่าและสร้างไฟล์ Positve Pay
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: ประมวลผลดอกเบี้ย
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: สร้างใบแจ้งหนี้ของลูกค้า
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: นำฝากการชำระเงินของลูกค้า
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: คัดลอกลูกค้าโดยใช้ลำดับหมายเลขที่ใช้ร่วมกัน
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: ลำดับงานของลูกค้า
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: การชำระเงินและการตัดจ่าย
@@ -1543,8 +1551,6 @@
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศ
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: สร้างรายงานรายการขายใน EU
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: ส่วนขยายฟังก์ชันการทำงานการตัดจำหน่ายสินทรัพย์ถาวร
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศ
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: บรรจุภัณฑ์ที่สามารถส่งคืนได้
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: รายงานภาษีขาย
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: รายงานยอดขายและยอดดุล
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: รัสเซีย
+          href: ../financials/localizations/russia.md
+          items:
+            - name: ผู้ถือครองเงินทดรองจ่าย
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: สร้างผู้ถือครองเงินทดรองจ่าย
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: การดำเนินงานประจำวันสำหรับผู้ถือครองเงินทดรองจ่าย
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: สินทรัพย์ถาวร
+              items:
+                - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: สร้างและลงรายการบัญชีสมุดรายวันงบประมาณสำหรับการซื้อสินทรัพย์ถาวร
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: การตรวจนับสินทรัพย์ถาวร
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: การประเมินค่าใหม่ตามสกุลเงินสำหรับสินทรัพย์ถาวร
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: การแยกสินทรัพย์ถาวรบางส่วน (การชำระบัญชี)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: ตั้งค่าและดำเนินการกับใบสั่งการชำระเงิน
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: ตั้งค่าอัตราแลกเปลี่ยนสำหรับธุรกรรมสกุลเงิน
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: แสดงตัวอย่างธุรกรรมบัญชีแยกประเภท
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: ตั้งค่าความเป็นทางการ
+              href: ../financials/localizations/rus-officials.md
+            - name: ตั้งค่าบัญชีธนาคาร
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: ภาษีมูลค่าเพิ่ม (VAT) สำหรับสำนักงานบัญชีตัวแทนภาษี
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: ตั้งค่าการควบคุมมิติสำหรับการชำระเงิน
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: ซาอุดีอาระเบีย
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: ตัวเลือกตั๋วแลกเงิน
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: คำนวณวันที่ครบกำหนดและรายงานในรอบระยะเวลาเฉลี่ยของการชำระเงิน
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: ภาษีขายแบบมีเงื่อนไข
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: การออกใบแจ้งหนี้เงินเชื่อ
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: แอพบนมือถือ Dynamics 365 for Unified Operations
+    - name: แอพ Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: พื้นที่ทำงานแบบเคลื่อนที่ที่มีอยู่

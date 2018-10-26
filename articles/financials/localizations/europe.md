@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้มีข้อมูลและการเชื่อมโยงไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่า Dynamics 365 for Finance and Operations สำหรับนิติบุคคลที่มีที่อยู่หลักในบราซิล 
+หัวข้อนี้มีข้อมูลและการเชื่อมโยงไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่า Dynamics 365 for Finance and Operations สำหรับนิติบุคคลที่มีที่อยู่หลักในยุโรป 
 
 - [ผู้ถือครองเงินทดรองจ่าย](emea-advance-holders.md)
  - [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](emea-advance-holders-transactions.md)
@@ -44,9 +44,7 @@ ms.lasthandoff: 08/13/2018
 - [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](emea-select-file-formats-for-the-method-of-payments.md)
 - [การรวมบริการทางการเงิน (ESR)](emea-fiscal-service-integration.md)
 - [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](emea-credit-note-reverse-fixed-asset-sale.md)
-- [การประเมินค่าใหม่ตามสกุลเงินต่างประเทศ](emea-foreign-currency-revaluation.md)
 - [สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน](tasks/transfer-document-internal-inventory-transfer.md)
-- [สร้างการรายงานภาษีอินทราสแทตใน EU](tasks/eur-00002-eu-intrastat-declaration.md)
 - [สร้างรายงานรายการขายใน EU](tasks/eur-00011-eu-sales-list-report.md)
 - ไฟล์ ISO20022
   - [นำเข้าไฟล์ ISO20022](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ ms.lasthandoff: 08/13/2018
   - [สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [อินทราสแทต](emea-intrastat.md)
   - [โอนย้ายธุรกรรมไปยังอินทราสแทต](tasks/transfer-transactions-intrastat.md)
+  - [ระบุที่อยู่ในใบตราส่งสำหรับธุรกรรมภายในประชาคม](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [สร้างการรายงานภาษีอินทราสแทตใน EU](tasks/eur-00002-eu-intrastat-declaration.md)
 - [รายงานสมุดรายวันสินค้าคงคลัง](emea-set-up-report-inventory-journal-names.md)
 - [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](emea-invoice-issue-deadline.md)
 - [การประมวลผลใบแจ้งหนี้](emea-invoice-processing.md)
@@ -82,10 +82,8 @@ ms.lasthandoff: 08/13/2018
 - [ตั้งค่ารายงานรายการขายใน EU](tasks/eur-00011-eu-sales-list-reporting.md)
 - [ตั้งค่ารูปแบบการบันทึกการชำระเงินสำหรับใบแจ้งหนี้โครงการ](tasks/set-up-payment-slip-format-project-invoices.md)
 - [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](emea-set-up-signers-for-printing-forms.md)
-- [ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [ระบุที่อยู่ในใบตราส่งสำหรับธุรกรรม Intra-community](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [การกลับรายการบัญชี](emea-storno.md)
-- [คำชี้แนะด้านภาษี](emea-tax-directives.md)
+- [คำสั่งภาษี](emea-tax-directives.md)
 - [อัพเดตวิธีแสดงยอดเงินในรายงานและเอกสาร](emea-amount-printing-forms.md)
 - ภาษีมูลค่าเพิ่ม (VAT)
   - [ชื่อ: ตั้งค่ารหัส VAT](tasks/eur-00015-vat-id.md)

@@ -6,6 +6,14 @@
       items:
         - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
           items:
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (1 ตุลาคม 2018)
+              href: whats-new-talent-october-01.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)
+              href: whats-new-talent-september-24.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (17 กันยายน 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (10 กันยายน 2018)
+              href: whats-new-talent-september-10.md
             - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (สิงหาคม 2018)
               href: whats-new-talent-august2018.md
             - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: ฝังแอป PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR และ Common Data Service สำหรับแอป
+          href: CoreHREntities.md
         - name: เข้าถึงคุณลักษณะตัวอย่าง
           href: access-preview-feature.md
         - name: ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce
           href: configure-payroll-integration.md
+        - name: รับการสนับสนุนสำหรับ Talent
+          href: talent-support.md
     - name: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
       href: departments-jobs-positions.md
       items:
@@ -41,8 +53,13 @@
           href: formalize-business-processes.md
         - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
           href: workflow-manage-employee-information.md
-        - name: การจัดการการลางานและการขาดงาน
-          href: leave-absence-overview.md
+    - name: จัดการกับการลางานและการหยุดงาน
+      href: leave-absence-overview.md
+      items:
+        - name: เวลาหยุดพักที่ยกยอดตามชั่วโมงที่ทำงาน
+          href: leave-accrue-hours-worked.md
+        - name: ปฏิทินเวลาทำงาน
+          href: working-time-calendars.md
     - name: จัดหาพนักงานในองค์กรของคุณ
       items:
         - name: คุณลักษณะและความสามารถของ Attract
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: ประมวลผลค่าตอบแทน
           href: process-compensation.md
+        - name: ตั้งค่าส่วนประกอบของงาน
+          href: create-job.md
     - name: พัฒนาและฝึกอบรมพนักงาน
       items:
         - name: การบริหารประสิทธิภาพ
