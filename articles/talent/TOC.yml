@@ -1,11 +1,20 @@
-- name: ยินดีต้อนรับสู่ Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: เริ่มต้นใช้งาน
       href: talent-get-started.md
       items:
         - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
+          href: whats-new.md
           items:
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (31 ตุลาคม 2018)
+              href: whats-new-talent-october-31.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (19 ตุลาคม 2018)
+              href: whats-new-talent-october-19.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 ตุลาคม 2018)
+              href: whats-new-talent-october-11.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (8 ตุลาคม 2018)
+              href: whats-new-talent-october-8.md
             - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (1 ตุลาคม 2018)
               href: whats-new-talent-october-01.md
             - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR และ Common Data Service สำหรับแอป
           href: CoreHREntities.md
+        - name: การรวม
+          href: talent-financeandoperations-integration.md
         - name: เข้าถึงคุณลักษณะตัวอย่าง
           href: access-preview-feature.md
         - name: ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce
@@ -64,6 +75,34 @@
       items:
         - name: คุณลักษณะและความสามารถของ Attract
           href: attract-overview.md
+        - name: การสร้างเท็มเพลตกระบวนการใน Attract
+          href: Process-templates-Attract.md
+        - name: การสร้าง การอนุมัติ และการลงรายการบัญชีงานใน Attract
+          href: Creating-jobs-Attract.md
+        - name: แหล่งข้อมูลที่มีกลุ่มผู้มีความสามารถพิเศษ
+          href: attract-talent-pools.md
+        - name: แหล่งข้อมูลที่มี LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: กิจกรรมกระบวนการจ้างงานใน Attract
+          href: activities-attract.md
+        - name: ความสามารถในการเพิ่มฟังก์ชัน
+          href: extensibility-attract.md
+        - name: ไซต์อาชีพและประสบการณ์ของผู้สมัคร
+          href: career-site.md
+        - name: การตั้งค่าการจัดการข้อเสนอ
+          href: offer-setup.md
+        - name: การสร้าง การอนุมัติ และการลงชื่อข้อเสนอ
+          href: creating-offers.md
+        - name: การสร้างและการจัดการเท็มเพลตอีเมล
+          href: email-templates.md
+        - name: การรายงานและการวิเคราะห์
+          href: Reporting-Analytics-Attract.md
+        - name: การจัดการความปลอดภัยและบทบาทใน Attract
+          href: security-attract.md
+        - name: การตั้งค่าการดูแลระบบใน Attract
+          href: Admin-Settings-Attract.md
+        - name: คำแนะนำอัจฉริยะ
+          href: Intelligent-Recommendations.md
         - name: สร้างประสบการณ์การเตรียมพร้อมที่ต้องตาต้องใจ
           href: create-onboarding-experience.md
     - name: จูงใจพนักงาน

@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: พื้นฐาน
           items:
             - name: การกำหนดการบุกรุก
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: แก้ไขคุณสมบัติการควบคุมแบบฟอร์ม
               href: extensibility/modify-control-properties.md
-            - name: เปลี่ยนแปลงป้ายชื่อโดยใช้ไฟล์ส่วนขยายป้ายชื่อ
-              href: extensibility/change-label.md
             - name: ขยายขอบข่ายของลำดับหมายเลข
               href: extensibility/extend-number-sequence-scope.md
             - name: เพิ่มมิติสินค้าคงคลังใหม่
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: ขยายแผนผังตารางที่ใช้สำหรับการกำหนดรุ่น
               href: extensibility/maps-with-versioning.md
+            - name: การขยายความแม่นยำของจุดทศนิยมสำหรับชนิดข้อมูลที่เลือก
+              href: extensibility/decimal-point-precision.md
         - name: การสร้างโซลูชันที่ขยายได้
           items:
             - name: เขียนโค้ดที่ขยายได้
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: ความสามารถในการเพิ่มฟังก์ชันตัวควบคุม
       items:
-        - name: สร้างตัวควบคุม aextensible
+        - name: สร้างตัวควบคุมที่ขยายได้
           href: user-interface/build-extensible-control.md
         - name: แป้นพิมพ์ลัดสำหรับตัวควบคุมที่ขยายได้
           href: user-interface/keyboard-shortcuts-controls.md
@@ -758,155 +762,19 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
             - name: ชนิดของแถว
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-            - name: ชนิดของค่า
+            - name: ชนิดค่า
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
             - name: ชนิดของ ValueDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ชนิดของ ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: การรวมข้อมูล
+- name: ข้อบังคับทั่วไปเกี่ยวกับการคุ้มครองข้อมูล (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: เลือกกลยุทธ์การรวมข้อมูล (นำเข้า/ส่งออก)
-      href: data-entities/integration-overview.md
-    - name: API การรวมข้อมูล
-      items:
-        - name: REST API แพคการจัดการข้อมูล
-          href: data-entities/data-management-api.md
-        - name: ตำแหน่งข้อมูลบริการ
-          href: data-entities/services-home-page.md
-          items:
-            - name: แก้ไขปัญหาการรับรองความถูกต้องของบริการ
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: การพัฒนาบริการแบบกำหนดเอง
-          href: data-entities/custom-services.md
-        - name: การรวมที่เกิดซ้ำ
-          href: data-entities/recurring-integrations.md
-        - name: ทดสอบบริการโดยใช้ยูทิลิตีของบุคคลภายนอก
-          href: data-entities/third-party-service-test.md
-    - name: การพัฒนาสำหรับการรวม
-      items:
-        - name: การจัดการและการรวมข้อมูลโดยใช้เอนทิตี้ข้อมูล
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: พัฒนาเอนทิตี้สำหรับการย้ายข้อมูล
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: พัฒนาเอนทิตี้ข้อมูลแบบรวม
-              href: data-entities/develop-composite-data-entities.md
-            - name: ตั้งค่าคอนฟิกการใช้ข้อมูลทางการเงินร่วมกันข้ามบริษัท
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: สร้างเรกคอร์ดโดยใช้เท็มเพลตเรกคอร์ด
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: การรวมข้อมูลโดยใช้ Common Data Service
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: ตั้งค่าคอนฟิกผู้ที่มีแนวโน้มจะเป็นลูกค้าไปยังสถานการณ์เงินสด
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: พารามิเตอร์การรวม Project Service Automation
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: ซิงโครไนส์สัญญาของโครงการและโครงการ
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: ซิงโครไนส์งานโครงการ
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: ซิงโครไนส์ประเภทของค่าใช้จ่ายในโครงการ
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: ซิงโครไนส์การประเมินโครงการจาก/ไปยังการคาดการณ์โครงการ
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: ซิงโครไนส์ข้อมูลจริงของโครงการไปยังสมุดรายวันการรวมโครงการ
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: การใช้บริการเว็บภายนอก
-          href: data-entities/consume-external-web-service.md
-- name: การจัดการข้อมูล
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: เอนทิตี้ข้อมูล
-      href: data-entities/data-entities.md
-      items:
-        - name: โครงการข้อมูลการตั้งค่าคอนฟิก
-          href: data-entities/configuration-data-projects.md
-        - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
-          href: data-entities/configuration-data-packages.md
-        - name: คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทต่างๆ
-          href: data-entities/copy-configuration.md
-        - name: เท็มเพลตข้อมูลการตั้งค่าคอนฟิก
-          href: data-entities/configuration-data-templates.md
-        - name: เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ
-          href: data-entities/excel-template-multiple.md
-        - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
-          href: data-entities/entity-change-track.md
-        - name: คีย์การตั้งค่าคอนฟิกและเอนทิตี้ข้อมูล
-          href: data-entities/config-key-entities.md
-        - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
-          href: data-entities/data-entities-report.md
-    - name: งานการนำเข้าและส่งออกข้อมูล
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: การพัฒนาเอนทิตี้ข้อมูล
-      items:
-        - name: หลักการออกแบบและแนวทางปฏิบัติสำหรับเอนทิตี้ข้อมูล
-          href: dev-tools/design-best-practices.md
-        - name: สร้างเอนทิตี้ข้อมูลใหม่
-          href: data-entities/build-consuming-data-entities.md
-        - name: คุณสมบัติด้านลักษณะการทำงานของเอนทิตี้ข้อมูล
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: สร้างคอลัมน์ที่คำนวณและฟิลด์เสมือน
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: ลักษณะการทำงานข้ามบริษัท
-          href: data-entities/cross-company-behavior.md
-        - name: รหัสประเทศ/ภูมิภาคและคีย์การตั้งค่าคอนฟิก
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: รูปแบบการสืบทอด
-          href: data-entities/support-super-type-sub-type.md
-        - name: กฎของวิซาร์ดเอนทิตี้ข้อมูล
-          href: data-entities/data-entity-wizard-rules.md
-        - name: คุณสมบัติของข้อมูลเมตา
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แม็ป
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: การรักษาความปลอดภัยและเอนทิตี้ข้อมูล
-          href: data-entities/security-data-entities.md
-        - name: สร้างเอนทิตี้แบบอ่านอย่างเดียวที่แสดงมิติทางการเงิน
-          href: financial/read-only-entity-financial.md
-    - name: ใช้ฐานข้อมูลของคุณเอง
-      href: analytics/export-entities-to-your-own-database.md
-    - name: ระบบอัตโนมัติของงานข้อมูล
-      href: data-entities/data-task-automation.md
     - name: ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR
       href: gdpr/gdpr-home-page.md
       items:
-        - name: แนวทางของ GDPR สำหรับ Finance and Operations
-          href: gdpr/gdpr-guide.md
-        - name: การจัดประเภทต้นทุน
+        - name: การจัดประเภทสินทรัพย์
           href: gdpr/gdpr-asset-classification-values.md
         - name: รายงานการค้นหาบุคคล
           href: gdpr/gdpr-person-search-report.md
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: คำขอข้อมูล GDPR สำหรับ LCS
           href: gdpr/gdpr-lcs.md
-    - name: พื้นที่ทำงานรายการการตรวจสอบความถูกต้องของข้อมูล
-      href: user-interface/data-validation-workspace.md
-    - name: คำอธิบายข้อผิดพลาดการจัดการข้อมูล
-      href: data-entities/dm-error-descriptions.md
 - name: การจัดส่งแบบต่อเนื่อง
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: ปรับใช้สภาพแวดล้อมในสถานที่ใน Platform update 12
+            - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 และรุ่นที่ใหม่กว่า)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: ปรับใช้สภาพแวดล้อมในสถานที่ใน Platform update 8 และ 11
+            - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 8 และ 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทางการขายปลีกในสภาพแวดล้อมในสถานที่
+              href: deployment/deploy-retail-onprem.md
         - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมในสถานที่
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: อัพเดตเครื่องมือการพัฒนา
           href: dev-tools/update-development-tools.md
+        - name: วางแผนและเตรียมพร้อมรหัสคอมไพล์สำหรับการอัพเดตล่าสุด
+          href: migration-upgrade/compile-considerations.md
     - name: อัพเกรดเป็นการอัพเดตล่าสุด (ในสถานที่)
       items:
         - name: ใช้การอัพเดตกับการปรับใช้ในสถานที่
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: สร้างชุดงาน
           href: sysadmin/tasks/create-batch-job.md
+        - name: คัดลอกชุดงาน
+          href: sysadmin/copy-batch-job.md
+        - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
+          href: sysadmin/activeperiod.md
+        - name: บทบาทความปลอดภัยสำหรับผู้จัดการชุดงาน
+          href: sysadmin/runby.md
     - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
       href: sysadmin/optimization-advisor-overview.md
       items:

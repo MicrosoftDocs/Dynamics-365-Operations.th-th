@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: รับการสนับสนุนสำหรับ Retail
       href: retail-support.md
+    - name: FAQ เกี่ยวกับการอัพเดตบริการแบบหนึ่งเวอร์ชัน
+      href: ../fin-and-ops/get-started/one-version.md
 - name: ทำความเข้าใจวงจรการใช้งาน
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: อุปกรณ์ต่อพ่วงของการขายปลีก
           href: retail-peripherals-overview.md
-        - name: อุปกรณ์ต่อพ่วงฮาร์ดแวร์ POS ที่ได้รับการทดสอบจาก Microsoft
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: โปรแกรมจำลองอุปกรณ์ต่อพ่วงของการขายปลีก
           href: dev-itpro/retail-peripheral-simulator.md
         - name: เชื่อมต่ออุปกรณ์ต่อพ่วงกับ POS
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: ส่วนลดและการปรับปรุงราคา
   items:
-    - name: การจัดการราคาขายของ Retail
+    - name: ส่วนลดการขายปลีก
+      href: retail-discounts-overview.md
+    - name: การจัดการราคาขายของการขายปลีก
       href: price-management.md
     - name: การปรับปรุงราคาและส่วนลด
       href: price-adjustments-discounts.md
@@ -271,7 +273,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: สมาชิก
   items:
-    - name: ตั้งค่าโปรแกรมตอบแทนลูกค้าสมาชิก
+    - name: ภาพรวมสมาชิก
       href: set-up-customer-loyalty-program.md
 - name: สินค้าคงคลัง
   items:
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: คุณลักษณะการทำงานเฉพาะและบังคับ
   items:
+    - name: การรวมทางการเงินสำหรับช่องทางการขายปลีก
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: ยุโรปตะวันออก
       items:
         - name: ใบแจ้งหนี้การชำระเงินล่วงหน้าของ Retail สำหรับยุโรปตะวันออก
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของ Retail สำหรับประเทศในยุโรปตะวันออก
           href: localizations/emea-eeu-retail-invoices.md
+        - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
+          href: localizations/emea-eeu-deployment.md
     - name: ฝรั่งเศส
       items:
         - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: การสนับสนุนสำหรับการอัพเกรดและ N-1 สำหรับอินเดีย
           href: localizations/apac-ind-n-1-for-india.md
+    - name: อิตาลี
+      items:
+        - name: การรวมเครื่องพิมพ์ทางการเงิน
+          href: localizations/emea-ita-fpi-sample.md
     - name: นอร์เวย์
       items:
         - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: เพิ่มการดำเนินการ POS ไปยังโครงร่าง POS โดยใช้ตัวออกแบบกริดปุ่ม
           href: dev-itpro/add-POS-operations.md
+        - name: API สำหรับ Retail POS
+          href: dev-itpro/POS-APIs.md
         - name: ส่วนขยายการชำระเงิน POS
           href: dev-itpro/pos-payment-extension.md
         - name: การรองรับบัตรของขวัญภายนอก

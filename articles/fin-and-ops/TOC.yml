@@ -29,11 +29,13 @@
               href: get-started/public-preview-releases.md
             - name: ซื้อ Finance and Operations
               items:
-                - name: ซื้อ Finance and Operations (ในสถานที่)
+                - name: ซื้อ Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
           href: get-started/whats-new-changed.md
           items:
+            - name: FAQ เกี่ยวกับการอัพเดตบริการแบบหนึ่งเวอร์ชัน
+              href: get-started/one-version.md
             - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (พฤศจิกายน 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations รุ่น 8.1.2 (พฤศจิกายน 2018)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations รุ่น 8.1.1 (ตุลาคม 2018)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations รุ่น 8.1 (ตุลาคม 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (ตุลาคม 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (กันยายน 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations รุ่น 8.0 (เมษายน 2018)
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: API การรวมข้อมูล
           items:
-            - name: API แพคเกจการจัดการข้อมูล
+            - name: REST API แพคเกจการจัดการข้อมูล
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: ตำแหน่งข้อมูลบริการ
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: บริการลูกค้า
+            - name: การพัฒนาบริการแบบกำหนดเอง
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: การรวมที่เกิดซ้ำ
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: ทดสอบบริการโดยใช้ยูทิลิตีของบุคคลภายนอก
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: การพัฒนาสำหรับการรวม
           items:
             - name: การรวมข้อมูลโดยใช้เอนทิตี้ข้อมูล
@@ -326,7 +338,7 @@
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
                 - name: สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: ใช้เท็มเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
+                - name: สร้างเรกคอร์ดโดยใช้เท็มเพลตเรกคอร์ด
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: การรวมข้อมูลโดยใช้ Common Data Service
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทหรือนิติบุคคล
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: เท็มเพลตข้อมูลการตั้งค่าคอนฟิก
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: คีย์การตั้งค่าคอนฟิกและเอนทิตี้ข้อมูล
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: การพัฒนาเอนทิตี้ข้อมูล
           items:
+            - name: หลักการออกแบบและแนวทางปฏิบัติสำหรับเอนทิตี้ข้อมูล
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: สร้างเอนทิตี้ข้อมูลใหม่
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: คุณสมบัติเอนทิตี้ข้อมูล
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: ใช้บริการของบุคคลภายนอกที่ทดสอบยูทิลิตี
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: สร้างเอนทิตี้แบบอ่านอย่างเดียวที่แสดงมิติทางการเงิน
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: ใช้ฐานข้อมูลของคุณเอง
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: ระบบอัตโนมัติของงานข้อมูล
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: พื้นที่ทำงานการตรวจสอบความถูกต้องของข้อมูล
+        - name: พื้นที่ทำงานรายการการตรวจสอบความถูกต้องของข้อมูล
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: คำอธิบายข้อผิดพลาดการจัดการข้อมูล
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: การจัดการทางการเงิน
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: ตั้งค่าคอนฟิกโครงสร้างทางบัญชี
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: สกุลเงินแบบคู่
+                  href: ../financials/general-ledger/dual-currency.md
             - name: สมุดรายวันและบัญชีแยกประเภท
               items:
                 - name: การประมวลผลสมุดรายวันทั่วไป
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: ใบสำคัญหนึ่งใบ
                   href: ../financials/general-ledger/one-voucher.md
+                - name: การชำระบัญชีแยกประเภท
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: การปิดบัญชีสิ้นสุดรอบระยะเวลา
               items:
                 - name: ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
@@ -1799,6 +1827,10 @@
             - name: ภาพรวมกลไกจัดการภาษี
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: นำเข้าการตั้งค่าคอนฟิก
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: การใช้งานกลไกจัดการภาษี
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: การรวมกลไกจัดการภาษี
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: การขยายกลไกจัดการภาษี
@@ -2100,6 +2132,8 @@
         - name: โปแลนด์
           href: ../financials/localizations/poland.md
           items:
+            - name: เปิดใช้งานการกลับรายการบัญชี
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: หมายเหตุการแก้ไข
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: รายงานภาษีขาย
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: ตั้งค่าลำดับหมายเลขตามคลังสินค้า
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: ไฟล์การตรวจสอบมาตรฐาน
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: ดอกเบี้ยภาษีและดอกเบี้ยฟรีแฮนด์
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: การดำเนินงานประจำวันสำหรับผู้ถือครองเงินทดรองจ่าย
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: รายงานเงินทดรองจ่ายที่มีการควบคุมงบประมาณ
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: ประเมินค่าอัตราแลกเปลี่ยนต่างประเทศสำหรับผู้ถือครองเงินทดรองจ่าย
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: รายงานผู้ถือครองเงินทดรองจ่าย
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: ธนาคาร
+              items:
+                - name: ตั้งค่าบัญชีธนาคาร
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: ตั้งค่าและดำเนินการกับใบสั่งการชำระเงิน
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: สินทรัพย์ถาวร
               items:
                 - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: ลงทะเบียนการซื้อสินทรัพย์ถาวร
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: สร้างและลงรายการบัญชีสมุดรายวันงบประมาณสำหรับการซื้อสินทรัพย์ถาวร
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: การตรวจนับสินทรัพย์ถาวร
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: การประเมินค่าใหม่ตามสกุลเงินสำหรับสินทรัพย์ถาวร
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: ประเมินต้นทุนและค่าเสื่อมราคาของสินทรัพย์ถาวร
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: การแยกสินทรัพย์ถาวรบางส่วน (การชำระบัญชี)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: ตั้งค่าและดำเนินการกับใบสั่งการชำระเงิน
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: ขาย ตัดจำหน่าย และตัดจ่ายสินทรัพย์
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: ตั้งค่าที่ตั้งและการกำหนดหมายเลขของสินทรัพย์ถาวร
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: ตั้งค่าค่าเสื่อมราคา
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: วิธีการคิดค่าเสื่อมราคา
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: ค่าเสื่อมราคาพิเศษ
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: คำนวณค่าเสื่อมราคา
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: ส่วนงานในบริษัท
+              href: ../financials/localizations/rus-company-divisions.md
             - name: ตั้งค่าอัตราแลกเปลี่ยนสำหรับธุรกรรมสกุลเงิน
               href: ../financials/localizations/rus-exchange-difference.md
             - name: แสดงตัวอย่างธุรกรรมบัญชีแยกประเภท
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: ตั้งค่าความเป็นทางการ
               href: ../financials/localizations/rus-officials.md
-            - name: ตั้งค่าบัญชีธนาคาร
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: ภาษีมูลค่าเพิ่ม (VAT) สำหรับสำนักงานบัญชีตัวแทนภาษี
               href: ../financials/localizations/rus-tax-agent.md
             - name: ตั้งค่าการควบคุมมิติสำหรับการชำระเงิน
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: ใบแจ้งหนี้สำหรับการชำระเงิน
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: ซาอุดีอาระเบีย
           href: ../financials/localizations/saudi-arabia.md
           items:
