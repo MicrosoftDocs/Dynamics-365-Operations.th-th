@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 06ab745d9df9b095b861cf7bc79aba6d1361eeb0
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
 ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -50,11 +50,12 @@ ms.lasthandoff: 08/07/2018
 | <span data-ttu-id="235aa-128">ลำดับงานการเพิ่มใบสมัครของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="235aa-128">Vendor add application workflow</span></span>  | <span data-ttu-id="235aa-129">สร้างการทบทานและลำดับงานการอนุมัติสำหรับการเพิ่มผู้จัดจำหน่ายใหม่ โดยใช้คำขอของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="235aa-129">Create review and approval workflows for adding new vendors via vendor requests.</span></span> |
 
 ## <a name="creating-a-workflow"></a><span data-ttu-id="235aa-130">การสร้างแผนงาน</span><span class="sxs-lookup"><span data-stu-id="235aa-130">Creating a workflow</span></span>
+
 <span data-ttu-id="235aa-131">เมื่อต้องการสร้างลำดับงาน ให้ไปที่การจัดซื้อและการจัดหา &gt; การตั้งค่า &gt; การจัดซื้อและการจัดหาลำดับงาน และสร้างลำดับงานใหม่โดยการเลือกชนิดของลำดับงานที่คุณต้องการสร้าง</span><span class="sxs-lookup"><span data-stu-id="235aa-131">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
 <span data-ttu-id="235aa-132">ในผืนผ้าใบลำดับงาน คุณสามารถลากองค์ประกอบลำดับงานลงในโปรแกรมออกแบบ และลิงค์องค์ประกอบไปยังขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="235aa-132">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="235aa-133">ควรตั้งค่าคอนฟิกองค์ประกอบลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="235aa-133">The workflow elements should be configured.</span></span> <span data-ttu-id="235aa-134">สำหรับการอนุมัติและองค์ประกอบลำดับงาน คุณสามารถตั้งค่าคอนฟิกที่ผู้เข้าร่วมควรดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="235aa-134">For approval and task workflow elements you can configure which participant should take action.</span></span>
-<span data-ttu-id="235aa-135">ชนิดของผู้เข้าร่วม</span><span class="sxs-lookup"><span data-stu-id="235aa-135">Types of participants</span></span>
-----------------------
+
+## <a name="types-of-participants"></a><span data-ttu-id="235aa-135">ชนิดของผู้เข้าร่วม</span><span class="sxs-lookup"><span data-stu-id="235aa-135">Types of participants</span></span>
 
 <span data-ttu-id="235aa-136">คุณสามารถกำหนดขั้นตอนการอนุมัติให้กลุ่มหรือผู้เข้าร่วมต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="235aa-136">You can assign an approval step to the following groups of participants.</span></span>
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 08/07/2018
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="235aa-149">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="235aa-149">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="235aa-149">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="235aa-149">Additional resources</span></span>
 
-[<span data-ttu-id="235aa-150">การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ</span><span class="sxs-lookup"><span data-stu-id="235aa-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [<span data-ttu-id="235aa-150">การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ</span><span class="sxs-lookup"><span data-stu-id="235aa-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[<span data-ttu-id="235aa-151">เวิร์กโฟลว์การขอเสนอซื้อ</span><span class="sxs-lookup"><span data-stu-id="235aa-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
+- [<span data-ttu-id="235aa-151">เวิร์กโฟลว์การขอเสนอซื้อ</span><span class="sxs-lookup"><span data-stu-id="235aa-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
-[<span data-ttu-id="235aa-152">การเตรียมความพร้อมของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="235aa-152">Onboarding vendors</span></span>](vendor-onboarding.md)
+- [<span data-ttu-id="235aa-152">การเตรียมความพร้อมของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="235aa-152">Onboarding vendors</span></span>](vendor-onboarding.md)
 
 
