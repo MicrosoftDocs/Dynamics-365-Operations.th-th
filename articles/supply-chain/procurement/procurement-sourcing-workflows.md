@@ -50,11 +50,12 @@ ms.lasthandoff: 05/08/2018
 | ลำดับงานการเพิ่มใบสมัครของผู้จัดจำหน่าย  | สร้างการทบทานและลำดับงานการอนุมัติสำหรับการเพิ่มผู้จัดจำหน่ายใหม่ โดยใช้คำขอของผู้จัดจำหน่าย |
 
 ## <a name="creating-a-workflow"></a>การสร้างแผนงาน
+
 เมื่อต้องการสร้างลำดับงาน ให้ไปที่การจัดซื้อและการจัดหา &gt; การตั้งค่า &gt; การจัดซื้อและการจัดหาลำดับงาน และสร้างลำดับงานใหม่โดยการเลือกชนิดของลำดับงานที่คุณต้องการสร้าง  
 
 ในผืนผ้าใบลำดับงาน คุณสามารถลากองค์ประกอบลำดับงานลงในโปรแกรมออกแบบ และลิงค์องค์ประกอบไปยังขั้นตอน ควรตั้งค่าคอนฟิกองค์ประกอบลำดับงาน สำหรับการอนุมัติและองค์ประกอบลำดับงาน คุณสามารถตั้งค่าคอนฟิกที่ผู้เข้าร่วมควรดำเนินการ
-ชนิดของผู้เข้าร่วม
-----------------------
+
+## <a name="types-of-participants"></a>ชนิดของผู้เข้าร่วม
 
 คุณสามารถกำหนดขั้นตอนการอนุมัติให้กลุ่มหรือผู้เข้าร่วมต่อไปนี้
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 05/08/2018
 
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[เวิร์กโฟลว์การขอเสนอซื้อ](purchase-requisitions-workflow.md)
+- [เวิร์กโฟลว์การขอเสนอซื้อ](purchase-requisitions-workflow.md)
 
-[การเตรียมความพร้อมของผู้จัดจำหน่าย](vendor-onboarding.md)
+- [การเตรียมความพร้อมของผู้จัดจำหน่าย](vendor-onboarding.md)
 
 
