@@ -3,7 +3,7 @@ title: "โฮมเพจการปรับใช้ On-premises"
 description: "หัวข้อนี้แสดงข้อมูลและลิงค์ไปยังเนื้อหาเกี่ยวกับการปรับใช้ในองค์กร"
 author: kfend
 manager: AnnBe
-ms.date: 09/11/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
-ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
+ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
+ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
 ms.contentlocale: th-th
-ms.lasthandoff: 09/17/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>โฮมเพจการปรับใช้ On-premises
@@ -31,37 +31,44 @@ ms.lasthandoff: 09/17/2018
 คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations (ในองค์กร) ได้ เมื่อคุณเลือกชนิดของการปรับใช้ในองค์กร ความต้องการระบบ การกำหนดฮาร์ดแวร์และฟังก์ชันการทำงานจะแตกต่างจากการปรับใช้บริการระบบคลาวด์ หัวข้อนี้แสดงลิงค์ไปยังเนื้อหาที่มีข้อมูลเฉพาะเกี่ยวกับการปรับใช้ในองค์กร
 
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
-- [มีอะไรใหม่หรือที่เปลี่ยนแปลงในการปรับใช้ในสถานที่ของ Dynamics 365 for Finance and Operations, Enterprise edition 7.2 ที่มีการอัพเดตแพลตฟอร์ม 12 (มีนาคม 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [ภาพรวม Dynamics 365 for Finance and Operations (ในองค์กร)](on-premises-overview.md)
-- [การวางแผนสำหรับการปรับใช้ในสถานที่ของคุณ](plan-onprem-deployment.md)
+- [ตัวเลือกการปรับใช้ในองค์กร](on-premises-overview.md)
+- [วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่](plan-onprem-deployment.md)
 - [ความต้องการของระบบสำหรับการปรับใช้ในองค์กร](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [การกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [ซื้อ Dynamics 365 for Finance and Operations (ในองค์กร)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [ซื้อ Finance and Operations (ในสถานที่)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในสถานที่](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
-## <a name="onboard"></a>แบบ Onboard
-- [สร้างโครงการสำหรับใช้งานในองค์กรใน Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร (การอัพเดต Platform 12)](setup-deploy-on-premises-pu12.md)
+## <a name="onboard"></a>เตรียมความพร้อม
+- [ตั้งค่าโครงการ on-premises ใน Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [ตั้งค่าและปรับใช้สภาพแวดล้อม on-premises (การอัพเดตแพลตฟอร์ม 12 และรุ่นที่ใหม่กว่า)](setup-deploy-on-premises-pu12.md)
 - [ตั้งค่าและปรับใช้สภาพแวดล้อมในองค์กร (การอัพเดต Platform 8 และ 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่](../analytics/install-network-printer-onprem.md)
-- [ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้ในองค์กร](../analytics/configure-ssrs-on-premises.md)
+- [ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises](../analytics/configure-ssrs-on-premises.md)
 - [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>งานในการปรับใช้ในองค์กรของคุณ
 - [ตั้งค่าคอนฟิกการจัดการเอกสาร](../../fin-and-ops/organization-administration/configure-document-management.md)
-- [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-import-ger-configurations.md)
-- [ความสามารถในการสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร](../analytics/printing-capabilities-on-premises.md)
-- [ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมของคุณในสถานที่](onprem-reverseproxy.md)
-- [ตั้งค่าการสนับสนุนทางเทคนิค](../lifecycle-services/support-experience.md)
-- [การแก้ไขปัญหาการเชื่อมต่ออินเทอร์เน็ตไคลเอนต์](../user-interface/client-disconnected.md)
+- [นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+- [การสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร](../analytics/printing-capabilities-on-premises.md)
+- [ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมในสถานที่](onprem-reverseproxy.md)
+- [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับ Finance and Operations](../lifecycle-services/support-experience.md)
+- [การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์](../user-interface/client-disconnected.md)
 - [ใช้การอัพเดตกับการปรับใช้ในสถานที่](apply-updates-on-premises.md)
-- [ปรับใช้การปรับใช้ในสถานที่อีกครั้ง](redeploy-on-prem.md)
+- [ปรับใช้สภาพแวดล้อม on-premises อีกครั้ง](redeploy-on-prem.md)
+
+## <a name="retail"></a>Retail
+- [ความสามารถของ Retail ที่มีอยู่ในการปรับใช้ on-premises](../../retail/retail-onprem.md)
+- [ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทาง Retail ในสภาพแวดล้อม on-premises](deploy-retail-onprem.md)
+- [ตั้งค่าคอนฟิก ติดตั้ง และเรียกใช้ Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
+- [ตั้งค่าคอนฟิกและติดตั้ง Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+
+
 
 ## <a name="other-resources"></a>ทรัพยากรอื่นๆ
-- [แก้ไขปัญหา Dynamics 365 for Finance and Operations รุ่นในสถานที่](troubleshoot-on-prem.md)
+- [แก้ไขปัญหาการปรับใช้ในสถานที่](troubleshoot-on-prem.md)
 - [การวินิจฉัยแบบในสถานที่](on-premises-diagnostics.md)
-- [คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
-- [ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน](../migration-upgrade/deprecated-features.md)
+- [คุณสมบัติที่ยังไม่มีการนำมาใช้ในการปรับใช้ on-premises](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
+- [คุณสมบัติที่ลบหรือไม่ได้รับการสนับสนุน](../migration-upgrade/deprecated-features.md)
 - [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../migration-upgrade/on-prem-version-update-policy.md)
  
 

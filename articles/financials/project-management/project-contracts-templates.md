@@ -3,7 +3,7 @@ title: "ซิงโครไนส์สัญญาโครงการแล
 description: "หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 for Project Service Automation ไปยัง Microsoft Dynamics 365 for Finance and Operations"
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ ms.lasthandoff: 08/09/2018
 ## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแม็ปและข้อกำหนดเบื้องต้น
 
 - ก่อนที่การซิงโครไนส์ของสัญญาโครงการและโครงการจะสามารถเกิดขึ้นได้ คุณต้องซิงโครไนส์บัญชี
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_ชื่อ \[ชื่อ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคีย์การรวม ดู [การรวมข้อมูล Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration)
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_โครงการ** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคีย์การรวม ดู [การรวมข้อมูล Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_ชื่อ \[ชื่อ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลไว้ใน Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_โครงการ** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลไว้ใน Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
 - **SourceDataID** สำหรับสัญญาโครงการและโครงการ สามารถปรับปรุงเป็นค่าอื่น หรือลบออกจากการแม็ปได้ ค่าเท็มเพลตเริ่มต้นคือ **Project Service Automation**
 - การแม็ป **PaymentTerms** ต้องถูกปรับปรุง เพื่อให้สะท้อนถึงเงื่อนไขที่ถูกต้องของการชำระเงินใน Finance and Operations คุณยังสามารถลบการแม็ปจากภารกิจของโครงการได้ด้วย แม็ปค่าเริ่มต้นมีค่าเริ่มต้นสำหรับข้อมูลสาธิต ตารางต่อไปนี้แสดงค่าใน Project Service Automation
 

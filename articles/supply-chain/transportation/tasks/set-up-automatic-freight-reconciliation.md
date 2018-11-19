@@ -3,7 +3,7 @@ title: "ตั้งค่าการกระทบยอดค่าขนส
 description: "กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลสำหรับการกระทบยอดการขนส่งโดยอัตโนมัติ "
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>ตั้งค่าการกระทบยอดค่าขนส่งโดยอัตโนมัติ
@@ -36,9 +36,9 @@ ms.lasthandoff: 09/29/2017
     * ชนิดบิลการขนส่งจะกำหนดว่าควรจับคู่บิลการขนส่งและใบแจ้งหนี้ของผู้ขนส่งอย่างไร  
 2. คลิก สร้าง
 3. ในฟิลด์ชนิดบิลการขนส่ง ให้พิมพ์ค่า
-4. ในฟิลด์แอสเซมบลีกลไกจัดการ พิมพ์ 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'
+4. ในฟิลด์แอสเซมบลีกลไกจัดการ พิมพ์ 'Microsoft.Dynamics.Ax.Tms.dll'
     * นี่คือไลบรารีรหัสกลไกการจับคู่การจัดการการขนส่งมาตรฐาน  
-5. ในฟิลด์คลาสกลไกจัดการ พิมพ์ 'Microsoft.Dynamics.Ax.Tms.dll'
+5. ในคลาสแอสเซมบลีกลไกจัดการ พิมพ์ 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'
     * นี่คือคลาสกลไกการจับคู่การจัดการการขนส่งมาตรฐาน  
 6. คลิก สร้าง
 7. ในฟิลด์คำอธิบาย เลือกค่าที่ควรตรงกับในบิลการขนส่งและใบแจ้งหนี้ของผู้ขนส่ง  
