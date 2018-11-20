@@ -3,7 +3,7 @@ title: "มีอะไรใหม่หรือมีการเปลี่
 description: "หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ใน Microsoft Dynamics 365 for Finance and Operations เวอร์ชันล่าสุดของคุณ"
 author: josaw1
 manager: AnnBe
-ms.date: 08/27/2018
+ms.date: 11/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
-ms.openlocfilehash: 201068db3b1bd27438b16ff3f1f51f8a1eb972c5
+ms.sourcegitcommit: 9b72fe490601d474c54c8bee556719608f4379d3
+ms.openlocfilehash: cd5403a5ab5a4be06b5565528ced30fa0be3cee0
 ms.contentlocale: th-th
-ms.lasthandoff: 10/02/2018
+ms.lasthandoff: 11/03/2018
 
 ---
 
@@ -61,6 +61,18 @@ ms.lasthandoff: 10/02/2018
 <tbody>
 <tr class="even">
 </tr>
+<tr class="even">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>8.1.2</td>
+<td>8.1.195  </td>
+<td>พฤศจิกายน 2018</td>
+  <td><a href="whats-new-changed-8-1-2.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงใดใน Dynamics 365 for Finance and Operations รุ่น 8.1.2 (พฤศจิกายน 2018)</a></td>
+<tr class="even">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>8.1.1</td>
+<td>8.1.170  </td>
+<td>2018 ตุลาคม</td>
+  <td><a href="whats-new-changed-8-1-1.md">มีอะไร&#39;ใหม่หรือมีการเปลี่ยนแปลงใดใน Dynamics 365 for Finance and Operations รุ่น 8.1.1 (ตุลาคม 2018)</a></td>
 <tr class="even">
 <td>icrosoft Dynamics 365 for Finance and Operations</td>
 <td>8.1</td>
@@ -134,10 +146,22 @@ ms.lasthandoff: 10/02/2018
 <tbody>
 <tr class="odd">
 <td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>แพลตฟอร์ม update 22</td>
+<td>7.0.5095</td>
+<td>2018 ตุลาคม</td>
+<td><a href="whats-new-platform-update-22.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงใดในแพลตฟอร์มของ Dynamics 365 for Finance and Operations การอัพเดต 22 (พฤศจิกายน 2018)</a></td><tbody><tr class="odd">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
+<td>แพลตฟอร์ม update 21</td>
+<td>7.0.5073</td>
+<td>2018 ตุลาคม</td>
+<td><a href="whats-new-platform-update-21.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงใดในแพลตฟอร์มของ Dynamics 365 for Finance and Operations การอัพเดต 21 (ตุลาคม 2018)</a></td><tbody>
+<tr class="odd">
+<td>icrosoft Dynamics 365 for Finance and Operations</td>
 <td>แพลตฟอร์ม update 20</td>
 <td>7.0.5030</td>
 <td>2018 กันยายน</td>
-<td><a href="whats-new-platform-update-20.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงในการอัพเดตแพลตฟอร์มของ Dynamics 365 for Finance and Operations 20 (กันยายน 2018)</a></td><tbody>
+<td><a href="whats-new-platform-update-20.md">มีอะไรใหม่หรือมีการเปลี่ยนแปลงในการอัพเดตแพลตฟอร์มของ Dynamics 365 for Finance and Operations 20 (กันยายน 2018)</a></td>
+<tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>แพลตฟอร์ม update 15</td>
