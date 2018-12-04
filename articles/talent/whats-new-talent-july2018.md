@@ -1,0 +1,63 @@
+---
+title: "มีอะไรใหม่ หรือที่เปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)"
+description: "หัวข้อนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent Core HR"
+author: josaw1
+manager: AnnBe
+ms.date: 07/31/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-365-talent
+ms.technology: 
+ms.search.form: 
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Talent
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.author: kherr
+ms.search.validFrom: 2018-07-31
+ms.dyn365.ops.version: Talent July 2018 update
+ms.translationtype: HT
+ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
+ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
+ms.contentlocale: th-th
+ms.lasthandoff: 08/09/2018
+
+---
+
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>มีอะไรใหม่ หรือที่เปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)
+
+[!include [banner](includes/banner.md)]
+
+หัวข้อนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent Core HR
+
+## <a name="powerapps-personalization"></a>การกำหนดเป็นแบบส่วนบุคคลของ PowerApps
+
+Microsoft Dynamics 365 for Talent สนับสนุนการรวมกับบริการ Microsoft PowerApps PowerApps อนุญาตให้ทั้งนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิคสามารถสร้างแอปทางธุรกิจที่กำหนดเองได้บนอุปกรณ์เคลื่อนที่ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส แอปที่คุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้นที่พัฒนาโดยใช้ PowerApps สามารถถูกฝังได้ในไคลเอนต์ Talent เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้างแอปที่เสริม Talent ด้วยข้อมูลที่ถูกดึงมาจากระบบอื่น
+
+สำหรับข้อมูลเพิ่มเติมแอพ ดู [ฝังแอป PowerApps](../fin-and-ops/get-started/embed-power-apps.md)
+
+## <a name="ceridian-payroll-integration"></a>การรวมระบบค่าจ้าง Ceridian
+
+การรวมระหว่าง Talent และ Ceridian Dayforce พร้อมใช้งานแล้วในขณะนี้ สำหรับสหรัฐอเมริกา แคนาดา และเม็กซิโกรวม การรวมใช้ประเภทที่กว้างของข้อมูล ยกตัวอย่างเช่น
+
+- ข้อมูลทรัพยากรบุคคล
+- ข้อมูลค่าตอบแทน
+- ข้อมูลค่าจ้าง เช่น รอบการชำระค่าจ้าง รอบระยะเวลาการชำระค่าจ้าง และรหัสรายได้
+- ข้อมูลของผู้ปฏิบัติงาน
+
+สำหรับข้อมูลเพิ่มเติม ดู [ตั้งค่าคอนฟิกการรวมค่าจ้างของคุณ](configure-payroll-integration.md)
+
+## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>ภูมิภาคการเก็บภาษีของผู้ปฏิบัติงานถูกขยายไปนอกเหนือจากสหรัฐอเมริกา
+
+มีการเพิ่มการสนับสนุนสำหรับภูมิภาคการเก็บภาษีภายนอกสหรัฐอเมริกา เมื่อภูมิภาคการเก็บภาษีถูกกำหนดให้กับผู้ปฏิบัติงาน จะสามารถไดรฟ์การคำนวณภาษี และสามารถถูกใช้ในการรวมกับโซลูชันระบบค่าจ้างภายนอกได้
+
+## <a name="the-title-field-has-been-expanded-in-talent"></a>ฟิลด์ชื่อได้ถูกขยายใน Talent
+
+ชื่อเรื่องถูกขยายในการอัพเดตนี้ ขณะนี้ฟิลด์คือ 65 อักขระ การเปลี่ยนแปลงนี้มีการใช้งานทุกที่ ที่ชื่อเรื่องถูกเลือกไว้ เช่น ผู้ปฏิบัติงาน ตำแหน่งงาน และงาน
+
+## <a name="benefit-enrollment-status-report"></a>รายงานสถานะการลงทะเบียนสวัสดิการ
+
+การรายงานภายในเกี่ยวกับการเปิดการลงทะเบียนสำหรับสวัสดิการ จะช่วยให้คุณเข้าใจที่ซึ่งพนักงานของคุณอยู่ในกระบวนการเปิดลงทะเบียนได้ง่าย คุณสามารถเรียนรู้จำนวนพนักงานที่เสร็จสิ้นกระบวนการ ขณะนี้จะอยู่ในกำลังดำเนินการให้สำเร็จ และยังไม่ได้เริ่มต้น นอกจากนี้ คุณสามารถดูปัญหาใดๆ ที่เกิดขึ้นในระหว่างการลงทะเบียนสำหรับพนักงาน และบันทึกเต็มของการส่งซ้ำของพนักงานทั้งหมด ดังนั้น คุณสามารถตรวจสอบ และตรวจสอบการส่งซ้ำของพนักงานได้อย่างง่ายดาย
+
