@@ -29,7 +29,7 @@
               href: get-started/public-preview-releases.md
             - name: ซื้อ Finance and Operations
               items:
-                - name: ซื้อ Finance and Operations (on-premises)
+                - name: ซื้อ Finance and Operations (ในสถานที่)
                   href: get-started/purchase-on-premises.md
         - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
           href: get-started/whats-new-changed.md
@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กร
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations รุ่น 8.1.3 (ธันวาคม 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (ธันวาคม 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (พฤศจิกายน 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations รุ่น 8.1.2 (พฤศจิกายน 2018)
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: เชื่อมต่อระบบวิธีใช้
               href: get-started/help-connect.md
+            - name: เชื่อมต่อไซต์วิธีใช้แบบกำหนดเอง
+              href: get-started/help-custom.md
             - name: ดูและส่งออกคำอธิบายฟิลด์
               href: get-started/view-export-field-descriptions.md
             - name: คู่มืองานและตัวบันทึกงาน
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: รีเซ็ต Data Mart การรายงานทางการเงิน
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: การส่งข้อความทางอิเล็กทรอนิกส์
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: คุณลักษณะการทำงานเฉพาะและบังคับ
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: ใบแจ้งหนี้สำหรับการชำระเงิน
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: การรายงานทางการเงิน
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: สร้างสมุดบัญชีการซื้อ
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: ซาอุดีอาระเบีย
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์จากบริการการตั้งค่าคอนฟิกที่เป็นระเบียบบังคับ (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: นำเข้าการตั้งค่าคอนฟิก
@@ -4149,6 +4163,8 @@
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: กรอบงานคู่มือกระบวนการ
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: การอัพเกรดและการย้าย
           items:
             - name: อัพเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
