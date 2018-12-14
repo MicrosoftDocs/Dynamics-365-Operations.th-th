@@ -3,7 +3,7 @@ title: "โฮมเพจการวางแผนหลัก"
 description: "การวางแผนหลักช่วยให้บริษัทสามารถกำหนด และรักษาดุลความต้องการในอนาคตสำหรับวัตถุดิบและกำลังการผลิตให้เป็นไปตามเป้าหมายของบริษัทได้"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: th-th
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ ms.lasthandoff: 02/13/2018
 
 ## <a name="quick-links"></a>ลิงค์ด่วน
 
-|      |   |
-|------|---|
-|        [แผนหลัก](master-plans.md)       |     [จัดทำแผนที่มีข้อจำกัด](./tasks/constrained-plan.md)  |
-| [สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม](./tasks/create-material-plan-co-products.md)   |  [การวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)  |
-| [จัดทำแผนระหว่างบริษัท](./tasks/create-intercompany-plan.md) | [ภาพรวมการคาดการณ์ความต้องการ](introduction-demand-forecasting.md)  | 
-|[คีย์การลด](reduction-keys.md)| [สิ่งจำเป็นสำหรับการวางแผนหลัก](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (ต้องการบัญชี CustomerSource)     |
-|  [การวางแผนหลักสำหรับประมวลผลการผลิต](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (ต้องการบัญชี CustomerSource) | [การวางแผนหลักระหว่างบริษัท](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (ต้องการบัญชี CustomerSource)|
+- [แผนหลัก](master-plans.md)  
+- [จัดทำแผนที่มีข้อจำกัด](./tasks/constrained-plan.md)
+- [สร้างแผนวัสดุสำหรับผลิตภัณฑ์ร่วม](./tasks/create-material-plan-co-products.md)
+- [การวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)
+- [จัดทำแผนระหว่างบริษัท](./tasks/create-intercompany-plan.md)
+- [ภาพรวมการคาดการณ์ความต้องการ](introduction-demand-forecasting.md)
+- [คีย์การลด](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

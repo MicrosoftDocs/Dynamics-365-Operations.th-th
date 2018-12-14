@@ -47,14 +47,18 @@
       href: dev-itpro/updating-environments.md
     - name: ปัญหาการทดสอบและประสิทธิภาพ
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: การจัดการใบสั่งแบบกระจาย (DOM)
+  href: dom.md
 - name: การชำระเงิน
   items:
     - name: วิธีการชำระเงิน
       href: payment-methods.md
     - name: การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับ POS
+    - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับขายหน้าร้าน
       href: cash-denominations.md
+    - name: การตั้งค่าสถานการณ์จำลองเกี่ยวกับชำระเงินตามใบแจ้งหนี้
+      href: payinvoice.md
     - name: FAQ เกี่ยวกับการชำระเงิน
       href: dev-itpro/payments-retail.md
 - name: ใบสั่งซื้อ
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: แสดงการแจ้งเตือนใบสั่งใน POS
       href: Notifications-POS.md
+- name: ตั้งค่าคอนฟิกและประมวลผลการแลกเปลี่ยนในใบสั่งส่งคืนสินค้า
+  href: orderexchanges.md
 - name: การตรวจสอบและการวิเคราะห์
   items:
     - name: ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: การปรับปรุงราคาและส่วนลด
       href: price-adjustments-discounts.md
+    - name: ใช้ส่วนลดการขายปลีกหลายรายการกับผลิตภัณฑ์
+      href: Apply-multiple-retail-discounts.md
     - name: กำหนดชุดของส่วนลดที่ซ้อนทับกันที่ดีที่สุด
       href: optimal-combination-overlapping-discounts.md
     - name: กำหนดส่วนลดเฉพาะช่องทาง
@@ -488,6 +496,8 @@
       items:
         - name: โครงร่างหน้าจอ Retail POS
           href: pos-screen-layouts.md
+        - name: เปิด URL ใน POS
+          href: Open-URL-in-POS.md
         - name: ติดตั้งตัวออกแบบโครงร่าง POS
           href: install-pos-layout-designer.md
         - name: Retail Modern POS ในโหมดออฟไลน์
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: สร้างและใช้การสร้างแบรนด์กับแอพ Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: ตั้งค่าแอป POS Hybrid ใน Android และ iOS
+          href: dev-itpro/hybridApp.md
+        - name: แทนที่ตัวจัดการคำขอ POS
+          href: dev-itpro/pos-handler.md
     - name: Hardware Station และความสามารถในการเพิ่มฟังก์ชัน
       href: dev-itpro/hardware-station-extensibility.md
     - name: ความสามารถในการเพิ่มฟังก์ชันของ Retail Server
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: การใช้ข้อมูลการชำระเงิน
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: การเปลี่ยนแปลงที่จะมาถึงใน Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: ผสานระบบบิลด์สำหรับ Retail และ Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: ตัวอย่างความสามารถในการเพิ่มฟังก์ชันของ Retail SDK

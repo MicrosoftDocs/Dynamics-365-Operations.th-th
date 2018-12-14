@@ -3,7 +3,7 @@ title: "เชื่อมต่อระบบวิธีใช้"
 description: "หัวข้อนี้อธิบายถึงส่วนประกอบของระบบวิธีใช้สำหรับ Microsoft Dynamics 365 for Finance and Operations และให้ภาพรวมของวิธีการเชื่อมต่อและสรุปของวิธีการสร้างวิธีใช้ที่กำหนดเอง"
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ ms.lasthandoff: 08/09/2018
 > -   ถ้าคู่มืองานยังไม่ได้รับการแปล เมื่อคุณเปิดคู่มืองานนั้น จะปรากฏข้อความเพียงบางส่วน (ข้อความของการควบคุม) ในภาษาที่คุณเลือก
 
 ## <a name="creating-custom-help"></a>การสร้างวิธีใช้ที่กำหนดเอง
+คุณสามารถใช้คู่มืองานเพื่อสร้างวิธีใช้แบบกำหนดเอง หรือเชื่อมต่อเว็บไซต์ไปยังบานหน้าต่างวิธีใช้ 
+
+### <a name="create-custom-help-with-task-guides"></a>สร้างวิธีใช้แบบกำหนดเองด้วยคู่มืองาน
 คุณสามารถสร้างวิธีใช้ที่กำหนดเองสำหรับการใช้งาน Finance and Operations และสำหรับ Retail โดยการสร้างบันทึกงานที่สะท้อนถึงการใช้งาน และบันทึกวิธีใช้เหล่านั้นลงในไลบรารีกระบวนการทางธุรกิจมี LCS คุณไม่สามารถสร้างคู่มืองานแบบกำหนดเองสำหรับ Talent 
 
 สำหรับคู่ค้า ถ้าคุณเลื่อนลำดับเป็นไลบรารีของบริษัท และรวมอยู่ในโซลูชัน ไลบรารีนั้นจะพร้อมใช้งานสำหรับลูกค้าของคุณ คุณสามารถทำสำเนาสากล APQC และจากนั้นเปิดสำเนาของคุณ เปิดบันทึกงานจากไลบรารีนั้น ปรับเปลี่ยน และบันทึกบันทึกงานที่ึคุณทำการเปลี่ยนแปลง สำหรับข้อมูลเพิ่มเติม ดู [วิธีการสร้างบันทึกงานเพื่อใช้เป็นเอกสารหรือการฝึกอบรม](../../dev-itpro/user-interface/task-recorder.md)
+
+### <a name="connect-a-custom-site"></a>เชื่อมต่อไซต์แบบกำหนดเอง
+Microsoft มีเอกสารและรหัสตัวอย่างที่อธิบายถึงวิธีการสร้างและการเชื่อมโยงไซต์วิธีใช้แบบกำหนดเองไปยังบานหน้าต่างวิธีใช้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่  
+- [สร้างวิธีใช้แบบกำหนดเองสำหรับ Finance and Operations (เอกสาร)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [ที่เก็บ GitHub วิธีใช้แบบกำหนดเอง](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
