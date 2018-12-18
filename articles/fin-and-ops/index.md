@@ -51,7 +51,7 @@ ms.lasthandoff: 08/09/2018
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">เตรียมความพร้อมสำหรับโครงการ</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">การจัดเตรียมสำหรับการเริ่มใช้งานจริง</a></p>
-  
+
 <h3><a href="../financials/index.md">การจัดการทางการเงิน</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">บัญชีลูกหนี้</a></p>
@@ -65,7 +65,7 @@ ms.lasthandoff: 08/09/2018
 <p><a href="../financials/public-sector/public-sector-functionality.md">ภาครัฐ</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></p>
 
-<H3><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></h3>
+<h3><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></h3>
 <p><a href="../talent/manage-benefit-program.md">สวัสดิการ</a></p>
 <p><a href="../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
 <p><a href="../talent/questionnaires.md">แบบสอบถาม</a></p>
