@@ -59,4 +59,3 @@ ms.lasthandoff: 08/09/2018
 
 ![กล่องโต้ตอบการปรับปรุงผลิตภัณฑ์](media/NewUpdateProductsEnhancedView.PNG)
 
-
