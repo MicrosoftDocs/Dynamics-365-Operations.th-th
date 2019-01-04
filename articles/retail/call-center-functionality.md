@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,25 +42,30 @@ ms.lasthandoff: 08/09/2018
 <span data-ttu-id="aba15-112">หน้านี้แสดงลิงค์ไปยังเอกสารที่เกี่ยวข้องซึ่งเกี่ยวข้องกับการตั้งค่า การตั้งค่าคอนฟิก และการใช้ด้านการทำงานของคุณลักษณะศูนย์บริการใน Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="aba15-112">This page provides links to relevant documentation related to the setup, configuration, and functional use of the call center features in Dynamics 365 for Retail.</span></span>
 
 ## <a name="configure-the-call-center"></a><span data-ttu-id="aba15-113">ตั้งค่าคอนฟิกศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="aba15-113">Configure the call center</span></span>
+
 [<span data-ttu-id="aba15-114">ตั้งค่าตัวเลือกการประมวลผลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="aba15-114">Set up order processing options</span></span>](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a><span data-ttu-id="aba15-115">ตั้งค่าคอนฟิกการประมวลผลใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="aba15-115">Configure order processing</span></span>
+
 [<span data-ttu-id="aba15-116">ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง</span><span class="sxs-lookup"><span data-stu-id="aba15-116">Set up fraud alerts</span></span>](set-up-fraud-alerts.md)
 
 [<span data-ttu-id="aba15-117">ระงับใบสั่งด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="aba15-117">Manual Order Holds</span></span>](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a><span data-ttu-id="aba15-118">ตั้งค่าคอนฟิกการประมวลผลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="aba15-118">Configure payment processing</span></span>
+
 [<span data-ttu-id="aba15-119">วิธีการชำระเงินในศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="aba15-119">Payment methods in a call center</span></span>](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a><span data-ttu-id="aba15-120">ตั้งค่าคอนฟิกโหมดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="aba15-120">Configure delivery modes</span></span>
+
 [<span data-ttu-id="aba15-121">ตั้งค่าคอนฟิกศูนย์บริการ โหมดการจัดส่ง และค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="aba15-121">Configure call center delivery modes and charges</span></span>](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a><span data-ttu-id="aba15-122">ตั้งค่าคอนฟิกการตลาดโดยตรง</span><span class="sxs-lookup"><span data-stu-id="aba15-122">Configure direct marketing</span></span>
+
 [<span data-ttu-id="aba15-123">แค็ตตาล็อกของศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="aba15-123">Call center catalogs</span></span>](call-center-catalogs.md)
 
 [<span data-ttu-id="aba15-124">ตั้งค่าการวิเคราะห์ RFM</span><span class="sxs-lookup"><span data-stu-id="aba15-124">Set up RFM analysis</span></span>](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a><span data-ttu-id="aba15-125">ตั้งค่าคอนฟิกโปรแกรมความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="aba15-125">Configure continuity programs</span></span>
-[<span data-ttu-id="aba15-126">ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์</span><span class="sxs-lookup"><span data-stu-id="aba15-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 
+[<span data-ttu-id="aba15-126">ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์</span><span class="sxs-lookup"><span data-stu-id="aba15-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 

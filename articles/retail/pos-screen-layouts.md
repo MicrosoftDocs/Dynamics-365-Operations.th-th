@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: th-th
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![เอนทิตีโครงร่างหน้าจอ POS](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="2175c-108">โพรไฟล์ภาพ</span><span class="sxs-lookup"><span data-stu-id="2175c-108">Visual profile</span></span>
+
 <span data-ttu-id="2175c-109">โพรไฟล์ภาพจะถูกกำหนดให้กับเครื่องบันทึกเงินสด และจะระบุองค์ประกอบภาพที่เฉพาะเจาะจงกับเครื่องบันทึกเงินสด และถูกใช้ร่วมกันระหว่างผู้ใช้หลายราย</span><span class="sxs-lookup"><span data-stu-id="2175c-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="2175c-110">ผู้ใช้ทุกรายที่ลงชื่อเข้าใช้ในเครื่องบันทึกเงินสดจะเห็นชุดรูปแบบ สี และรูปภาพเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="2175c-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![หน้าจอยินดีต้อนรับของ POS พร้อมด้วยชุดรูปแบบสีอ่อน](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="2175c-123">**พื้นหลังแอพลิเคชัน** – คุณสามารถระบุรูปภาพพื้นหลังที่ใช้แทนสีชุดรูปแบบทึบทั่วทั้งแอพลิเคชันได้</span><span class="sxs-lookup"><span data-stu-id="2175c-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="2175c-124">ในกรณีของพื้นหลังของล็อกอิน ขนาดไฟล์ควรทำให้มีขนาดเล็กที่สุด</span><span class="sxs-lookup"><span data-stu-id="2175c-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="2175c-125">โครงร่างหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="2175c-125">Screen layouts</span></span>
+
 <span data-ttu-id="2175c-126">การตั้งค่าคอนฟิกโครงร่างหน้าจอจะกำหนดการดำเนินการ เนื้อหา และการจัดวางของตัวควบคุม UI ในหน้าจอต้อนรับของ POS และหน้าจอ **ธุรกรรม**</span><span class="sxs-lookup"><span data-stu-id="2175c-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![มุมมองโครงร่างหน้าจอ POS](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![ขนาดโครงร่าง POS](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="2175c-163">กริดปุ่ม</span><span class="sxs-lookup"><span data-stu-id="2175c-163">Button grids</span></span>
+
 <span data-ttu-id="2175c-164">สำหรับขนาดโครงร่างแต่ละขนาดในโครงร่างหน้าจอ คุณสามารถตั้งค่าคอนฟิก และกำหนดกริดปุ่มสำหรับหน้าจอต้อนรับของ POS และหน้าจอ **ธุรกรรม** ได้</span><span class="sxs-lookup"><span data-stu-id="2175c-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="2175c-165">กริดปุ่มสำหรับหน้าจอต้อนรับถูกวางจากซ้ายไปขวาโดยอัตโนมัติ จากหมายเลขต่ำสุด (หน้าจอต้อนรับ 1) ไปยังหมายเลขสูงสุด</span><span class="sxs-lookup"><span data-stu-id="2175c-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="2175c-166">ในโครงร่าง POS แบบเต็ม การจัดวางของกริดปุ่มถูกระบุในโปรแกรมออกแบบโครงร่างหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="2175c-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![กริดปุ่มเค้าโครงแบบย่อ](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="2175c-170">รูป</span><span class="sxs-lookup"><span data-stu-id="2175c-170">Images</span></span>
+
 <span data-ttu-id="2175c-171">สำหรับขนาดโครงร่างแต่ละขนาดในโครงร่างหน้าจอ คุณสามารถระบุรูปที่จะรวมไว้ใน POS UI ได้</span><span class="sxs-lookup"><span data-stu-id="2175c-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="2175c-172">สำหรับโครงร่าง POS แบบเต็ม คุณสามารถระบุรูปเดี่ยวสำหรับหน้าจอต้อนรับได้</span><span class="sxs-lookup"><span data-stu-id="2175c-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="2175c-173">รูปภาพนี้ปรากฏขึ้นเป็นองค์ประกอบ UI แรกทางด้านซ้าย</span><span class="sxs-lookup"><span data-stu-id="2175c-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="2175c-174">บนหน้าจอ **ธุรกรรม** คุณสามารถใช้รูปภาพเป็นรูปภาพของแท็บหรือเป็นโลโก้ได้</span><span class="sxs-lookup"><span data-stu-id="2175c-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="2175c-175">โครงร่าง POS แบบย่อไม่ต้องใช้รูปเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="2175c-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="2175c-176">ตัวออกแบบโครงร่างหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="2175c-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="2175c-222">**ตัวควบคุมแบบกำหนดเอง** – ตัวควบคุมแบบกำหนดเองทำหน้าที่เป็นตัวยึดในโครงร่างหน้าจอ และทำให้ผู้ใช้สามารถจองพื้นที่ว่างสำหรับเนื้อหาแบบกำหนดเองได้</span><span class="sxs-lookup"><span data-stu-id="2175c-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="2175c-223">ตัวควบคุมแบบกำหนดเองจะพร้อมใช้งานสำหรับโครงร่างแบบเต็มเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="2175c-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="2175c-224">โปรแกรมออกแบบโครงร่างหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="2175c-224">Compact layout designer</span></span>
+
 <span data-ttu-id="2175c-225">เช่นเดียวกับโปรแกรมออกแบบโครงร่างแบบเต็ม โปรแกรมออกแบบโครงร่างแบบย่อจะช่วยให้คุณสามารถตั้งค่าคอนฟิกโครงร่างหน้าจอ POS สำหรับโทรศัพท์และแท็บเล็ตขนาดเล็กได้</span><span class="sxs-lookup"><span data-stu-id="2175c-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="2175c-226">อย่างไรก็ตาม ในกรณีนี้ โครงร่างเองได้รับการแก้ไข</span><span class="sxs-lookup"><span data-stu-id="2175c-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="2175c-227">คุณสามารถตั้งค่าคอนฟิกตัวควบคุมในโครงร่างได้ โดยการคลิกขวาและการใช้เมนูทางลัด</span><span class="sxs-lookup"><span data-stu-id="2175c-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="2175c-228">อย่างไรก็ตาม คุณไม่สามารถใช้การดำเนินงานลากและปล่อยสำหรับเนื้อหาเพิ่มเติมได้</span><span class="sxs-lookup"><span data-stu-id="2175c-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![โปรแกรมออกแบบโครงร่างแบบย่อ](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="2175c-230">โปรแกรมออกแบบกริดปุ่ม</span><span class="sxs-lookup"><span data-stu-id="2175c-230">Button grid designer</span></span>
+
 <span data-ttu-id="2175c-231">โปรแกรมออกแบบกริดปุ่มช่วยให้คุณสามารถตั้งค่าคอนฟิกกริดปุ่มที่สามารถใช้บนหน้าจอต้อนรับ POS และหน้าจอ **ธุรกรรม** สำหรับทั้งโครงร่างแบบเต็มและแบบย่อ</span><span class="sxs-lookup"><span data-stu-id="2175c-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="2175c-232">กริดปุ่มเดียวกันสามารถใช้ได้ในโครงร่างและชนิดโครงร่างทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="2175c-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="2175c-233">เช่นเดียวกับโปรแกรมออกแบบโครงร่างหน้าจอ โปรแกรมออกแบบกริดปุ่มใช้เทคโนโลยีการปรับใช้ ClickOnce เพื่อดาวน์โหลด ติดตั้ง และเริ่มใช้งานแอพลิเคชันรุ่นล่าสุดทุกครั้งที่ผู้ใช้เข้าถึง</span><span class="sxs-lookup"><span data-stu-id="2175c-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="2175c-234">ต้องแน่ใจว่าได้ตรวจสอบข้อกำหนดของเบราเซอร์สำหรับ ClickOnce</span><span class="sxs-lookup"><span data-stu-id="2175c-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="2175c-235">เบราเซอร์บางรายการ เช่น Google Chrome ต้องมีนามสกุล</span><span class="sxs-lookup"><span data-stu-id="2175c-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![โปรแกรมออกแบบกริดปุ่ม](../retail/media/Button-Grid-Designer.png)
