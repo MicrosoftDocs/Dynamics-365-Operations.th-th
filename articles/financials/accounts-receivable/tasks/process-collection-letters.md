@@ -3,69 +3,82 @@ title: "ดำเนินการจดหมายเรียกเก็บ
 description: "กระบวนงานนี้แสดงวิธีการสร้าง การพิมพ์ และการลงรายการบัญชีจดหมายเรียกเก็บเงิน "
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 12/04/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CustPosting, SysQueryForm, CustCollectionLetterNote
+ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: a1bdf9528b52daa7bb719ea5a751a01e56a8c963
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
 ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/06/2018
 
 ---
-# <a name="process-collection-letters"></a><span data-ttu-id="7251a-103">ดำเนินการจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-103">Process collection letters</span></span>
+# <a name="process-collection-letters"></a><span data-ttu-id="98b5c-103">ดำเนินการจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-103">Process collection letters</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="7251a-104">กระบวนงานนี้แสดงวิธีการสร้าง การพิมพ์ และการลงรายการบัญชีจดหมายเรียกเก็บเงิน </span><span class="sxs-lookup"><span data-stu-id="7251a-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="7251a-105">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="7251a-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="98b5c-104">กระบวนงานนี้แสดงวิธีการสร้าง การพิมพ์ และการลงรายการบัญชีจดหมายเรียกเก็บเงิน </span><span class="sxs-lookup"><span data-stu-id="98b5c-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="98b5c-105">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="98b5c-105">This task uses the USMF demo company.</span></span>
 
+## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a><span data-ttu-id="98b5c-106">ตั้งค่าลำดับจดหมายเรียกเก็บเงินบนโพรไฟล์การลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="98b5c-106">Set up a collection letter sequence on the posting profile</span></span>
+1. <span data-ttu-id="98b5c-107">ไปที่ **สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > โพรไฟล์การลงรายการบัญชีลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="98b5c-107">Go to **Credit and collections > Setup > Customer posting profiles**.</span></span>
+2. <span data-ttu-id="98b5c-108">คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="98b5c-108">Click **Edit**.</span></span>
+3. <span data-ttu-id="98b5c-109">เลือกลำดับจดหมายเรียกเก็บเงินจากรายการแบบหล่นลง </span><span class="sxs-lookup"><span data-stu-id="98b5c-109">Select a collection letter sequence from the drop-down list.</span></span> <span data-ttu-id="98b5c-110">ถ้าคุณไม่ต้องการสร้างจดหมายเรียกเก็บเงินสำหรับธุรกรรมโดยใช้โพรไฟล์การลงบัญชีนี้ ให้ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="98b5c-110">If you do not want to generate collection letters for transactions using this posting profile, leave the field blank.</span></span>  
+4. <span data-ttu-id="98b5c-111">ขยายแท็บข้อจำกัดตารางเพื่อเปลี่ยนวิธีการประมวลผลจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-111">Expand the table restriction tab to change the way that collection letters are processed.</span></span> <span data-ttu-id="98b5c-112">ถ้าฟิลด์นี้ถูกตั้งค่าเป็น **ใช่** แล้วจดหมายเรียกเก็บเงินจะถูกสร้างสำหรับโพรไฟล์การลงบัญชีนี้</span><span class="sxs-lookup"><span data-stu-id="98b5c-112">If this field is set to **Yes**, then collection letters will be created for this posting profile.</span></span>  
 
-## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a><span data-ttu-id="7251a-106">ตั้งค่าลำดับจดหมายเรียกเก็บเงินบนโพรไฟล์การลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="7251a-106">Set up a collection letter sequence on the posting profile</span></span>
-1. <span data-ttu-id="7251a-107">ไปที่สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > โพรไฟล์การลงรายการบัญชีลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7251a-107">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
-2. <span data-ttu-id="7251a-108">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="7251a-108">Click Edit.</span></span>
-    * <span data-ttu-id="7251a-109">เลือกลำดับจดหมายเรียกเก็บเงินจากรายการแบบหล่นลง </span><span class="sxs-lookup"><span data-stu-id="7251a-109">Select a collection letter sequence from the drop-down list.</span></span> <span data-ttu-id="7251a-110">ถ้าคุณไม่ต้องการสร้างจดหมายเรียกเก็บเงินสำหรับธุรกรรมโดยใช้โพรไฟล์การลงบัญชีนี้ ให้ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="7251a-110">If you do not want generate collection letters for transactions using this posting profile, leave the field blank.</span></span>  
-    * <span data-ttu-id="7251a-111">แท็บข้อจำกัดตารางช่วยให้คุณสามารถเปลี่ยนวิธีการประมวลผลจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-111">The table restriction tab allows you to change the way that collection letters are processed.</span></span> <span data-ttu-id="7251a-112">ถ้าฟิลด์นี้ถูกตั้งค่าเป็น ใช่ แล้วจดหมายเรียกเก็บเงินจะถูกสร้างสำหรับโพรไฟล์การลงบัญชีนี้</span><span class="sxs-lookup"><span data-stu-id="7251a-112">If this field is set to Yes, then collection letters will be created for this posting profile.</span></span>  
-3. <span data-ttu-id="7251a-113">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7251a-113">Close the page.</span></span>
+## <a name="create-collection-letters"></a><span data-ttu-id="98b5c-113">สร้างจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-113">Create collection letters</span></span>
+1. <span data-ttu-id="98b5c-114">ไปที่ **สินเชื่อและการเรียกเก็บเงิน > จดหมายเรียกเก็บเงิน > สร้างจดหมายเรียกเก็บเงิน**</span><span class="sxs-lookup"><span data-stu-id="98b5c-114">Go to **Credit and collections > Collection letter > Create collection letters**.</span></span>
+2. <span data-ttu-id="98b5c-115">เลือกชนิดธุรกรรมซึ่งคุณจะเรียกเก็บจดหมาย</span><span class="sxs-lookup"><span data-stu-id="98b5c-115">Select the transaction types for which you will collect letters.</span></span> <span data-ttu-id="98b5c-116">ธุรกรรมที่ค้างอยู่ทั้งหมดของชนิดนี้ทั้งหมดจะถูกรวมในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="98b5c-116">All of the open transactions for these types will be included in the calculation.</span></span>  
+2. <span data-ttu-id="98b5c-117">ในฟิลด์ **จดหมายเรียกเก็บเงิน** เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="98b5c-117">In the **Collection letter** field, select an option.</span></span>
+3. <span data-ttu-id="98b5c-118">ป้อนวันที่ของจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-118">Enter the date of the collection letter.</span></span>
+4. <span data-ttu-id="98b5c-119">เลือกโพรไฟล์การลงรายการบัญชี ถ้าคุณเปลี่ยน **ใช้โพรไฟล์การลงรายการบัญชีจาก** เป็น **เลือก**</span><span class="sxs-lookup"><span data-stu-id="98b5c-119">Select a posting profile if you changed **Use posting profile from** to **Select**.</span></span> <span data-ttu-id="98b5c-120">มีตัวเลือกโพรไฟล์การลงรายการบัญชี 2 ตัวเลือก:</span><span class="sxs-lookup"><span data-stu-id="98b5c-120">There are two posting profile options:</span></span>   
+   - <span data-ttu-id="98b5c-121">**บัญชี** – ใช้โพรไฟล์การลงรายการบัญชีที่ถูกกำหนดให้กับบัญชีลูกค้าสำหรับดอกเบี้ยตั๋วเงินแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="98b5c-121">**Account** – Use the posting profile that is assigned to the customer account for each interest note.</span></span>   
+   - <span data-ttu-id="98b5c-122">**เลือก** – ใช้โพรไฟล์การลงบัญชีที่คุณเลือกในฟิลด์ **โพรไฟล์การลงรายการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="98b5c-122">**Select** – Use the posting profile that you select in the **Posting profile** field.</span></span>  
+5. <span data-ttu-id="98b5c-123">ขยายส่วน **เรกคอร์ดที่จะรวม**</span><span class="sxs-lookup"><span data-stu-id="98b5c-123">Expand the **Records to include** section.</span></span>
+6. <span data-ttu-id="98b5c-124">คลิก **ตัวกรอง**</span><span class="sxs-lookup"><span data-stu-id="98b5c-124">Click **Filter**.</span></span>
+7. <span data-ttu-id="98b5c-125">ในฟิลด์ **เงื่อนไข** ป้อนรหัสลูกค้า</span><span class="sxs-lookup"><span data-stu-id="98b5c-125">In the **Criteria** field, enter a Customer ID.</span></span> <span data-ttu-id="98b5c-126">ตัวอย่างเช่น ป้อน 'US-001'</span><span class="sxs-lookup"><span data-stu-id="98b5c-126">For example, enter 'US-001'.</span></span>
+8. <span data-ttu-id="98b5c-127">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="98b5c-127">Click **OK**.</span></span>
+9. <span data-ttu-id="98b5c-128">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="98b5c-128">Click **OK**.</span></span>
 
-## <a name="create-collection-letters"></a><span data-ttu-id="7251a-114">สร้างจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-114">Create collection letters</span></span>
-1. <span data-ttu-id="7251a-115">ไปที่สินเชื่อและการเรียกเก็บเงิน > จดหมายเรียกเก็บเงิน > สร้างจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-115">Go to Credit and collections > Collection letter > Create collection letters.</span></span>
-    * <span data-ttu-id="7251a-116">คุณต้องเลือกชนิดของธุรกรรมซึ่งคุณจะเรียกเก็บจดหมาย </span><span class="sxs-lookup"><span data-stu-id="7251a-116">You must select the transaction types for which you will collect letters.</span></span> <span data-ttu-id="7251a-117">ธุรกรรมที่ค้างอยู่ทั้งหมดของชนิดนี้ทั้งหมดจะถูกรวมในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="7251a-117">All of the open transactions for these types will be included in the calculation.</span></span>  
-2. <span data-ttu-id="7251a-118">ในฟิลด์จดหมายเรียกเก็บเงิน เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="7251a-118">In the Collection letter field, select an option.</span></span>
-3. <span data-ttu-id="7251a-119">ป้อนวันที่ของจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-119">Enter the date of the collection letter.</span></span>
-    * <span data-ttu-id="7251a-120">ตัวเลือกโพรไฟล์การลงรายการบัญชีมี 2 ตัวเลือก:   บัญชี - ใช้โพรไฟล์การลงบัญชีที่ถูกกำหนดให้กับบัญชีลูกค้าสำหรับดอกเบี้ยตั๋วเงินแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="7251a-120">There are two posting profile options:   Account – Use the posting profile that is assigned to the customer account for each interest note.</span></span>   <span data-ttu-id="7251a-121">เลือก - ใช้โพรไฟล์การลงบัญชีที่คุณเลือกในฟิลด์โพรไฟล์การลงรายการบัญชี </span><span class="sxs-lookup"><span data-stu-id="7251a-121">Select – Use the posting profile that you select in the Posting profile field.</span></span>  
-    * <span data-ttu-id="7251a-122">เลือกโพรไฟล์การลงรายการบัญชีถ้าคุณเปลี่ยน "ใช้โพรไฟล์ลงบัญชีจาก" เป็น "เลือก"</span><span class="sxs-lookup"><span data-stu-id="7251a-122">Select a posting profile if you changed "Use posting profile from" to "Select".</span></span>  
-4. <span data-ttu-id="7251a-123">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="7251a-123">Expand the Records to include section.</span></span>
-5. <span data-ttu-id="7251a-124">คลิกตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="7251a-124">Click Filter.</span></span>
-6. <span data-ttu-id="7251a-125">ในฟิลด์เกณฑ์ ในฟิลด์เกณฑ์ ให้ป้อนรหัสลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7251a-125">In the Criteria field, In the Criteria field, enter a Customer ID.</span></span> <span data-ttu-id="7251a-126">ตัวอย่างเช่น ป้อน 'US-001'..</span><span class="sxs-lookup"><span data-stu-id="7251a-126">For example, enter 'US-001'..</span></span>
-7. <span data-ttu-id="7251a-127">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="7251a-127">Click OK.</span></span>
-8. <span data-ttu-id="7251a-128">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="7251a-128">Click OK.</span></span>
+## <a name="print-collection-letters"></a><span data-ttu-id="98b5c-129">พิมพ์จดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-129">Print collection letters</span></span>
+1. <span data-ttu-id="98b5c-130">ไปที่ **สินเชื่อและการเรียกเก็บเงิน > จดหมายเรียกเก็บเงิน > ตรวจทานและดำเนินการจดหมายเรียกเก็บเงิน**</span><span class="sxs-lookup"><span data-stu-id="98b5c-130">Go to **Credit and collections > Collection letter > Review and process collection letters**.</span></span>
+2. <span data-ttu-id="98b5c-131">ในฟิลด์ **สถานะ** เลือก **สร้างแล้ว**</span><span class="sxs-lookup"><span data-stu-id="98b5c-131">In the **Status** field, select **Created**.</span></span>
+3. <span data-ttu-id="98b5c-132">ในฟิลด์ **พิมพ์แล้ว** เลือก **ไม่มีการพิมพ์**</span><span class="sxs-lookup"><span data-stu-id="98b5c-132">In the **Printed** field, select **Not printed**.</span></span>
+4. <span data-ttu-id="98b5c-133">คลิก **พิมพ์**</span><span class="sxs-lookup"><span data-stu-id="98b5c-133">Click **Print**.</span></span>
+5. <span data-ttu-id="98b5c-134">คลิก **บันทึกจดหมายเรียกเก็บเงิน**</span><span class="sxs-lookup"><span data-stu-id="98b5c-134">Click **Collection letter note**.</span></span>
+6. <span data-ttu-id="98b5c-135">ขยายส่วน **เรกคอร์ดที่จะรวม**</span><span class="sxs-lookup"><span data-stu-id="98b5c-135">Expand the **Records to include** section.</span></span>
+7. <span data-ttu-id="98b5c-136">ป้อนวันที่ตัดยอดสำหรับการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="98b5c-136">Enter the cutoff date for postings.</span></span>
+8. <span data-ttu-id="98b5c-137">คลิก **ตกลง** เพื่อพิมพ์จดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-137">Click **OK** to print the collection letter.</span></span>
+9. <span data-ttu-id="98b5c-138">ลงรายการบัญชีจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-138">Post the collection letter.</span></span>
+   1. <span data-ttu-id="98b5c-139">คลิก **ลงรายการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="98b5c-139">Click **Post**.</span></span>
+   2. <span data-ttu-id="98b5c-140">ป้อนวันที่ลงรายการบัญชีสำหรับจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-140">Enter the posting date for the collection letter.</span></span>
+   3. <span data-ttu-id="98b5c-141">ขยายส่วน **เรกคอร์ดที่จะรวม**</span><span class="sxs-lookup"><span data-stu-id="98b5c-141">Expand the **Records to include** section.</span></span>
+   4. <span data-ttu-id="98b5c-142">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="98b5c-142">Click **OK**.</span></span>
+   5. <span data-ttu-id="98b5c-143">ในฟิลด์ **สถานะ** เลือก **ลงรายการบัญชีแล้ว**</span><span class="sxs-lookup"><span data-stu-id="98b5c-143">In the **Status** field, select **Posted**.</span></span>
+   6. <span data-ttu-id="98b5c-144">ในฟิลด์ **พิมพ์แล้ว** ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="98b5c-144">In the **Printed** field, select an option.</span></span>
 
-## <a name="print-collection-letters"></a><span data-ttu-id="7251a-129">พิมพ์จดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-129">Print collection letters</span></span>
-1. <span data-ttu-id="7251a-130">ไปที่สินเชื่อและการเรียกเก็บเงิน > จดหมายเรียกเก็บเงิน > ตรวจทานและดำเนินการจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-130">Go to Credit and collections > Collection letter > Review and process collection letters.</span></span>
-2. <span data-ttu-id="7251a-131">ในฟิลด์สถานะ เลือก 'สร้างแล้ว'</span><span class="sxs-lookup"><span data-stu-id="7251a-131">In the Status field, select 'Created'.</span></span>
-3. <span data-ttu-id="7251a-132">ในฟิลด์พิมพ์ เลือก 'ไม่มีการพิมพ์'</span><span class="sxs-lookup"><span data-stu-id="7251a-132">In the Printed field, select 'Not printed'.</span></span>
-4. <span data-ttu-id="7251a-133">คลิก พิมพ์</span><span class="sxs-lookup"><span data-stu-id="7251a-133">Click Print.</span></span>
-5. <span data-ttu-id="7251a-134">คลิกบันทึกจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-134">Click Collection letter note.</span></span>
-6. <span data-ttu-id="7251a-135">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="7251a-135">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="7251a-136">ป้อนวันที่ตัดยอดสำหรับการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="7251a-136">Enter the cutoff date for postings</span></span>
-8. <span data-ttu-id="7251a-137">คลิกตกลงเพื่อพิมพ์จดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-137">Click OK to print the collection letter.</span></span>
+## <a name="control-collection-letters-at-the-customer-level"></a><span data-ttu-id="98b5c-145">ควบคุมจดหมายเรียกเก็บเงินที่ระดับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="98b5c-145">Control collection letters at the customer level</span></span>
+<span data-ttu-id="98b5c-146">นอกจากนี้ คุณยังสามารถตั้งค่าจดหมายเรียกเก็บเงินที่ระดับลูกค้า เพื่อให้มีการติดตามรหัสจดหมายเรียกเก็บเงินสำหรับแต่ละธุรกรรม แต่การประมวลผลจดหมายเรียกเก็บเงินจะยึดตามระดับจดหมายเรียกเก็บเงินเดียวที่ถูกจัดเก็บสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="98b5c-146">You can also set up collection letters at the customer level so that the collection letter code for each transaction is tracked, but the collection letter processing will be based on a single collection letter level that is stored for the customer.</span></span> <span data-ttu-id="98b5c-147">จดหมายเรียกเก็บเงินเดียวจะประกอบด้วยธุรกรรมทั้งหมดที่พ้นกำหนดสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="98b5c-147">The single collection letter will contain all transactions that are overdue for the customer.</span></span> <span data-ttu-id="98b5c-148">เนื่องจากขณะนี้มีการติดตามจำนวนวันปลอดหนี้ในระดับลูกค้า จดหมายเรียกเก็บเงินถัดไปจะไม่ถูกส่งจนกว่าจะมีการส่งผ่านจำนวนวันปลอดหนี้สำหรับจดหมายเรียกเก็บเงินถัดไปตามลำดับ ถึงแม้ว่าธุรกรรมจะกลายเป็นพ้นกำหนด หลังจากจดหมายเรียกเก็บเงินล่าสุดถูกส่งไป</span><span class="sxs-lookup"><span data-stu-id="98b5c-148">Because the grace days are now tracked on the customer level, the next collection letter will not be sent until the number of grace days has passed for the next collection letter in the sequence, even though transactions become overdue after the last collection letter was sent.</span></span> <span data-ttu-id="98b5c-149">ตัวเลือกนี้ช่วยลดจำนวนของจดหมายเรียกเก็บเงินที่คุณจะส่งให้ลูกค้าแต่ละราย</span><span class="sxs-lookup"><span data-stu-id="98b5c-149">This option reduces the number of collection letters you will send per customer.</span></span> 
 
-## <a name="post-the-collection-letter"></a><span data-ttu-id="7251a-138">ลงรายการบัญชีจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-138">Post the collection letter</span></span>
-1. <span data-ttu-id="7251a-139">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="7251a-139">Click Post.</span></span>
-2. <span data-ttu-id="7251a-140">ป้อนวันที่ลงรายการบัญชีสำหรับจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="7251a-140">Enter the posting date for the collection letter.</span></span>
-3. <span data-ttu-id="7251a-141">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="7251a-141">Expand the Records to include section.</span></span>
-4. <span data-ttu-id="7251a-142">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="7251a-142">Click OK.</span></span>
-5. <span data-ttu-id="7251a-143">ในฟิลด์สถานะ เลือก 'ลงรายการบัญชีแล้ว'</span><span class="sxs-lookup"><span data-stu-id="7251a-143">In the Status field, select 'Posted'.</span></span>
-6. <span data-ttu-id="7251a-144">ในฟิลด์พิมพ์แล้ว ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="7251a-144">In the Printed field, select an option.</span></span>
+### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a><span data-ttu-id="98b5c-150">ตั้งค่าลูกค้าเพื่อควบคุมจดหมายเรียกเก็บเงินที่ระดับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="98b5c-150">Set up the customer to control collection letters at the customer level</span></span>
+1.  <span data-ttu-id="98b5c-151">ไปยัง **สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > พารามิเตอร์ลูกหนี้** และคลิกแท็บ **คอลเลกชัน**</span><span class="sxs-lookup"><span data-stu-id="98b5c-151">Go to **Credit and collections > Setup > Accounts receivable parameters** and click the **Collections** tab.</span></span> 
+2.  <span data-ttu-id="98b5c-152">เปลี่ยนค่าของ **สร้างจดหมายเรียกเก็บเงินสำหรับแต่ละ** เป็น **ลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="98b5c-152">Change the value of **Create collection letter per** to **Customer**.</span></span> 
+3.  <span data-ttu-id="98b5c-153">ไปที่ **สินเชื่อและการเรียกเก็บเงิน > จดหมายเรียกเก็บเงิน > ตรวจทานและดำเนินการจดหมายเรียกเก็บเงิน**</span><span class="sxs-lookup"><span data-stu-id="98b5c-153">Go to **Credit and collections > Collection letter > Review and process collection letters**.</span></span> <span data-ttu-id="98b5c-154">ระบบจะสร้างจดหมายเรียกเก็บเงินรายการเดียวเท่านั้นสำหรับลูกค้าที่มีธุรกรรมที่พ้นกำหนดชำระทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="98b5c-154">Only one collection letter will be generated for a customer with all the overdue transactions.</span></span>
 
+## <a name="ignore-payments-and-credit-memos-when-calculating-the-collection-letter-code"></a><span data-ttu-id="98b5c-155">ละเว้นการชำระเงินและใบลดหนี้ เมื่อมีการคำนวณรหัสจดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-155">Ignore payments and credit memos when calculating the collection letter code</span></span>
+<span data-ttu-id="98b5c-156">ถ้าคุณรวมการชำระเงินและใบลดหนี้ในธุรกรรมที่จะรวมอยู่ในจดหมายเรียกเก็บเงิน คุณอาจมีการชำระเงินหรือใบลดหนี้ที่จะทริกเกอร์จดหมายเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="98b5c-156">If you include payments and credit memos in the transactions that will be included in the collection letters, you may have payments or credit memos that will trigger a collection letter.</span></span> <span data-ttu-id="98b5c-157">คุณสามารถควบคุมวิธีการที่การชำระเงินและใบลดหนี้ควบคุมรหัสจดหมายเรียกเก็บเงินโดยการเปลี่ยนค่าของพารามิเตอร์ **ละเว้นการชำระเงินและใบลดหนี้ เมื่อคำนวณรหัสจดหมายเรียกเก็บเงิน** ได้</span><span class="sxs-lookup"><span data-stu-id="98b5c-157">You can control how payments and credit memos control the collection letter code by changing the value of the **Ignore payments and credit memos when calculating the collection letter code** parameter.</span></span> 
+
+<span data-ttu-id="98b5c-158">ในการละเว้นการชำระเงินและใบลดหนี้ เมื่อมีการคำนวณรหัสจดหมายเรียกเก็บเงิน ทำการดำเนินการต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="98b5c-158">To ignore payments and credit memos when calculating the collection letter code, do the following.</span></span>
+1. <span data-ttu-id="98b5c-159">ไปยัง **สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > พารามิเตอร์ลูกหนี้** และคลิกแท็บ **คอลเลกชัน**</span><span class="sxs-lookup"><span data-stu-id="98b5c-159">Go to **Credit and collections > Setup > Accounts receivable parameters** and click the **Collections** tab.</span></span> 
+2. <span data-ttu-id="98b5c-160">เปลี่ยนค่าของ **ละเว้นการชำระเงินและใบลดหนี้ เมื่อมีการคำนวณรหัสจดหมายเรียกเก็บเงิน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="98b5c-160">Change the value of **Ignore payments and credit memos when calculating the collection letter code** to **Yes**.</span></span>
 
