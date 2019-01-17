@@ -7,6 +7,10 @@
         - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
           href: whats-new.md
           items:
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
+              href: whats-new-talent-december-14.md
+            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
+              href: whats-new-talent-december-6.md
             - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (27 พฤศจิกายน 2018)
               href: whats-new-talent-november-27.md
             - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 พฤศจิกายน 2018)
@@ -71,6 +75,8 @@
     - name: จัดการกับการลางานและการหยุดงาน
       href: leave-absence-overview.md
       items:
+        - name: แนวคิดการลางานและการหยุดงาน
+          href: leave-absence-concepts.md
         - name: เวลาหยุดพักที่ยกยอดตามชั่วโมงที่ทำงาน
           href: leave-accrue-hours-worked.md
         - name: ปฏิทินเวลาทำงาน
@@ -128,10 +134,13 @@
         - name: ตั้งค่าหลักสูตรการฝึกอบรม
           href: courses.md
     - name: กำหนดและจัดการโปรแกรมสวัสดิการ
-      href: manage-benefit-program.md
-    - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
-      href: benefit-eligibility-policies.md
       items:
+        - name: จัดการโปรแกรมสวัสดิการ
+          href: manage-benefit-program.md
+        - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
+          href: benefit-eligibility-policies.md
+        - name: สร้างรายงานกฎหมายประกันสุขภาพ (Affordable Care Act (ACA))
+          href: generate-aca-reports.md
         - name: จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
           href: loan-items.md
     - name: รวบรวมข้อมูลโดยใช้แบบสอบถาม
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: ไคลเอนต์ Talent ยกเลิกการเชื่อมต่อ
           href: client-disconnects.md
-        - name: วิธีจัดการการสำรองฐานข้อมูล
-          href: database-backups.md
         - name: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: รันกระบวนการค่าตอบแทน

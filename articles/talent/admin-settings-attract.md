@@ -3,7 +3,7 @@ title: "การตั้งค่าผู้ดูแลระบบใน At
 description: "หัวข้อนี้อธิบายวิธีการเปิดใช้งานฟังก์ชันคุณลักษณะสำหรับองค์กรและผู้ใช้ใน Attract"
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 52b48d5daab985c43d59f29ad7b80dda99a7fcef
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
 ms.contentlocale: th-th
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 10/22/2018
 
 ## <a name="linkedin-integration"></a>การรวม LinkedIn
 
-ตั้งค่าการรวมกับ LinkedIn Recruiter System Connect (RSC) หลังจากที่คุณเชื่อมต่อกับ LinkedIn โดยใช้ข้อมูลประจำตัว LinkedIn ของคุณ คุณสามารถซิงค์โพรไฟล์ LinkedIn ของผู้สมัคร แอพลิเคชัน ผลป้อนกลับการสัมภาษณ์ และหมายเหตุของทีมการจ้างงาน ต้องมีใบอนุญาตผู้สรรหาของ LinkedIn ฉบับสมบูรณ์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ RSC ดู [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483)
+ตั้งค่าการรวมกับ LinkedIn Recruiter System Connect (RSC) หลังจากที่คุณเชื่อมต่อกับ LinkedIn โดยใช้ข้อมูลประจำตัว LinkedIn ของคุณ คุณสามารถซิงค์โพรไฟล์ LinkedIn ของผู้สมัคร แอพลิเคชัน ผลป้อนกลับการสัมภาษณ์ และหมายเหตุของทีมการจ้างงาน ต้องมีใบอนุญาตผู้สรรหาของ LinkedIn ฉบับสมบูรณ์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ LinkedIn Recruiter ดู [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483)
 
 ## <a name="user-permissions"></a>สิทธิ์ของผู้ใช้
 

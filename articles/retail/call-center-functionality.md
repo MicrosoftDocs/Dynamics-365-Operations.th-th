@@ -42,25 +42,30 @@ ms.lasthandoff: 08/09/2018
 หน้านี้แสดงลิงค์ไปยังเอกสารที่เกี่ยวข้องซึ่งเกี่ยวข้องกับการตั้งค่า การตั้งค่าคอนฟิก และการใช้ด้านการทำงานของคุณลักษณะศูนย์บริการใน Dynamics 365 for Retail
 
 ## <a name="configure-the-call-center"></a>ตั้งค่าคอนฟิกศูนย์บริการ
+
 [ตั้งค่าตัวเลือกการประมวลผลใบสั่ง](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>ตั้งค่าคอนฟิกการประมวลผลใบสั่ง
+
 [ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง](set-up-fraud-alerts.md)
 
 [ระงับใบสั่งด้วยตนเอง](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>ตั้งค่าคอนฟิกการประมวลผลการชำระเงิน
+
 [วิธีการชำระเงินในศูนย์บริการ](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>ตั้งค่าคอนฟิกโหมดการจัดส่ง
+
 [ตั้งค่าคอนฟิกศูนย์บริการ โหมดการจัดส่ง และค่าธรรมเนียม](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>ตั้งค่าคอนฟิกการตลาดโดยตรง
+
 [แค็ตตาล็อกของศูนย์บริการ](call-center-catalogs.md)
 
 [ตั้งค่าการวิเคราะห์ RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>ตั้งค่าคอนฟิกโปรแกรมความต่อเนื่อง
-[ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์](set-up-continuity-program.md)
 
+[ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์](set-up-continuity-program.md)
 

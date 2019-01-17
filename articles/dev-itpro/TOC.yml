@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: พื้นฐาน
           items:
             - name: การกำหนดการบุกรุก
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: การปรับใช้ระบบคลาวด์
       items:
+        - name: การปรับใช้แบบบริการตนเอง
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: ปรับใช้สภาพแวดล้อมใหม่
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: คำถามที่พบบ่อยเกี่ยวกับการปรับใช้
+              href: deployment/deploymentFAQ.md
+            - name: ปัญหาที่ทราบเกี่ยวกับการปรับใช้แบบบริการตนเอง
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: การดำเนินการบำรุงรักษาสำหรับการปรับใช้
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: อัพเดตสภาพแวดล้อม
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: แก้ไขปัญหาสภาพแวดล้อมที่ปรับใช้ผ่านการปรับใช้แบบบริการตนเอง
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: ทำให้การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure เสร็จสมบูรณ์
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute และ Finance and Operations
           href: deployment/expressroute.md
         - name: สถาปัตยกรรม Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์
+          href: deployment/apply-deployable-package-system.md
+        - name: ใช้การอัพเดตและส่วนขยายกับส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
+          href: deployment/Update-retail-channel.md
+        - name: เริ่มต้นส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
+          href: deployment/Initialize-Retail-Channels.md
     - name: การปรับใช้ในองค์กร
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -931,8 +954,6 @@
       items:
         - name: สร้างแพคเกจที่สามารถปรับใช้ได้ของแบบจำลอง
           href: deployment/create-apply-deployable-package.md
-        - name: ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์
-          href: deployment/apply-deployable-package-system.md
         - name: ติดตั้งแพคเกจที่ปรับใช้ได้จากบรรทัดคำสั่ง
           href: deployment/install-deployable-package.md
         - name: ถอนการติดตั้งแพคเกจ
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: อัพเกรดแพลตฟอร์ม Dynamics AX เป็นการนำออกใช้เดือนสิงหาคม 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: อัพเกรดสภาพแวดล้อม Sandbox
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนา การสาธิต หรือ Sandbox
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: อัพเดตเครื่องมือการพัฒนา

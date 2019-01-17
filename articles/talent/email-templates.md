@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 85581968d9d242460117693174acbf906463997f
+ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
+ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
 ms.contentlocale: th-th
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,6 +30,9 @@ ms.lasthandoff: 10/22/2018
 [!include[banner](../includes/banner.md)]
 
 โดยใช้ไลบรารีเท็มเพลตอีเมล ผู้ดูแลระบบสามารถสร้างชุดรูปแบบเหมือนกันและการสร้างแบรนด์สำหรับอีเมลทั้งหมดที่ถูกส่งผ่าน Microsoft Dynamics 365 for Talent: Attract นอกจากนี้ ผู้ดูแลระบบยังสามารถทำหน้าที่ดูแลคอลเลกชันเท็มเพลตเนื้อหาอีเมลที่ผู้ใช้รายอื่นสามารถใช้ได้ ทีมงานว่าจ้างสามารถใช้เท็มเพลตเหล่านี้ในลำดับงานของพวกเขาเพื่อส่งอีเมลได้อย่างมีประสิทธิภาพมากขึ้น มีการตั้งค่าคอนฟิกอีเมลบางอีเมลใน Attract ให้ถูกส่งโดยอัตโนมัติ และผู้ดูแลระบบสามารถใช้ไลบรารีเท็มเพลตอีเมลในกากำหนดเนื้อหาของอีเมลเหล่านั้นได้
+
+> [!NOTE]
+> ในการใช้เท็มเพลตอีเมล องค์กรของคุณต้องมี add-on การว่าจ้างที่ครอบคลุม
 
 ## <a name="global-template-configurations"></a>การตั้งค่าคอนฟิกเท็มเพลตส่วนกลาง
 
