@@ -17,10 +17,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
+ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 6fa5023a29c95ab9f10d8aacd51edc1a06c3c152
 ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
+ms.lasthandoff: 02/06/2019
 
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="dcba4-103">สร้างการตั้งค่าคอนฟิกรูปแบบของ ER (พฤศจิกายน 2016)</span><span class="sxs-lookup"><span data-stu-id="dcba4-103">ER Create a format configuration (November 2016)</span></span>
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. <span data-ttu-id="dcba4-109">คลิก **การตั้งค่าคอนฟิกการรายงาน**</span><span class="sxs-lookup"><span data-stu-id="dcba4-109">Click **Reporting configurations**.</span></span>
 3. <span data-ttu-id="dcba4-110">ในแผนภูมิ เลือก **การชำระเงิน (แบบจำลองอย่างง่าย)**</span><span class="sxs-lookup"><span data-stu-id="dcba4-110">In the tree, select **Payments (simplified model)**.</span></span>
 4. <span data-ttu-id="dcba4-111">คลิก **สร้างการตั้งค่าคอนฟิก** เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="dcba4-111">Click **Create configuration** to open the drop dialog.</span></span>
+
  > [!NOTE]
  > <span data-ttu-id="dcba4-112">ถ้าคุณไม่เห็น **สร้างการตั้งค่าคอนฟิก** คุณต้องเปิดใช้งานโหมดการออกแบบในหน้า **พารามิเตอร์การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="dcba4-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ 
 5. <span data-ttu-id="dcba4-113">ในฟิลด์ **สร้าง** ป้อน **รูปแบบตามแบบจำลองข้อมูล PaymentModel**</span><span class="sxs-lookup"><span data-stu-id="dcba4-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
 6. <span data-ttu-id="dcba4-114">ในฟิลด์ **ชื่อ** พิมพ์ **BACS (UK แบบสมมติ)**</span><span class="sxs-lookup"><span data-stu-id="dcba4-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
 7. <span data-ttu-id="dcba4-115">ในฟิลด์ **คำอธิบาย** พิมพ์ **รูปแบบการชำระเงินของผู้จัดจำหน่าย BACS (UK แบบสมมติ)**</span><span class="sxs-lookup"><span data-stu-id="dcba4-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
@@ -44,6 +46,7 @@ ms.lasthandoff: 12/18/2018
     * <span data-ttu-id="dcba4-119">รูปแบบเฉพาะของเอกสารทางอิเล็กทรอนิกส์สามารถถูกกำหนด</span><span class="sxs-lookup"><span data-stu-id="dcba4-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="dcba4-120">ปล่อยฟิลด์นี้ว่างเปล่า ถ้าคุณต้องการเลือกรูปแบบที่ตรงกับเวลาที่ใช้ในการผลิต</span><span class="sxs-lookup"><span data-stu-id="dcba4-120">Leave this field blank if you want to select a format at run-time.</span></span>  
 8. <span data-ttu-id="dcba4-121">ในฟิลด์ **คำนิยามแบบจำลองข้อมูล** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="dcba4-121">In the **Data model definition** field, enter or select a value.</span></span>
 9. <span data-ttu-id="dcba4-122">คลิก **สร้างการตั้งค่าคอนฟิก**</span><span class="sxs-lookup"><span data-stu-id="dcba4-122">Click **Create configuration**.</span></span> <span data-ttu-id="dcba4-123">การตั้งค่าคอนฟิกใหม่ถูกสร้างขึ้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="dcba4-123">A new configuration has been created.</span></span> <span data-ttu-id="dcba4-124">รุ่นแบบร่างสามารถใช้เพื่อจัดเก็บรูปแบบการออกแบบสำหรับเอกสารการจัดการทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="dcba4-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+
  > [!NOTE]
  > <span data-ttu-id="dcba4-125">ถ้าคุณไม่เห็น **สร้างการตั้งค่าคอนฟิก** คุณต้องเปิดใช้งานโหมดการออกแบบในหน้า **พารามิเตอร์การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="dcba4-125">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span>
 
