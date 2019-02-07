@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="e73ea-104">หัวข้อนี้อธิบายถึงองค์ประกอบแนวคิดสามารถรวมงาน และแสดงตัวอย่างของวิธีการที่คุณสามารถใช้องค์ประกอบเหล่านั้นในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="e73ea-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="job-titles"></a><span data-ttu-id="e73ea-115">ตำแหน่งงาน</span><span class="sxs-lookup"><span data-stu-id="e73ea-115">Job titles</span></span>
 <span data-ttu-id="e73ea-116">ก่อนที่คุณจะสร้างงาน คุณต้องตั้งชื่อสำหรับงานเหล่านั้น </span><span class="sxs-lookup"><span data-stu-id="e73ea-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="e73ea-117">โดยตำแหน่งจะสืบทอดตำแหน่งงานจากงานที่เชื่อมโยงกับตำแหน่งนั้น</span><span class="sxs-lookup"><span data-stu-id="e73ea-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="e73ea-118">รักษาตำแหน่งงานได้ที่หน้า **ตำแหน่ง** ซึ่งคุณสามารถเปิดได้โดยใช้ฟังก์ชันการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e73ea-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="e73ea-119">บนหน้า **ตำแหน่ง** ป้อนตำแหน่งที่คุณวางแผนที่จะใช้สำหรับงานของคุณ</span><span class="sxs-lookup"><span data-stu-id="e73ea-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="e73ea-118">รักษาตำแหน่งงานได้ที่หน้า **ตำแหน่ง** ซึ่งคุณสามารถเปิดได้โดยใช้ฟังก์ชันการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e73ea-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="e73ea-119">บนหน้า **ตำแหน่ง** ป้อนตำแหน่งที่คุณวางแผนที่จะใช้สำหรับงานของคุณ</span><span class="sxs-lookup"><span data-stu-id="e73ea-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="e73ea-120">ชนิดงาน</span><span class="sxs-lookup"><span data-stu-id="e73ea-120">Job types</span></span>
 <span data-ttu-id="e73ea-121">คุณใช้ชนิดงานเพื่อจัดกลุ่มงานที่คล้ายกันเป็นประเภทต่างๆ</span><span class="sxs-lookup"><span data-stu-id="e73ea-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="e73ea-122">ไม่จำเป็นต้องใช้ชนิดงาน </span><span class="sxs-lookup"><span data-stu-id="e73ea-122">Job types aren't required.</span></span> <span data-ttu-id="e73ea-123">อย่างไรก็ตาม ถ้าคุณวางแผนที่จะใช้ชนิดงานเมื่อคุณตั้งค่ากฎการมีสิทธิ์สำหรับการจัดการค่าตอบแทน คุณควรตั้งค่าชนิดงานก่อนที่คุณตั้งค่างาน </span><span class="sxs-lookup"><span data-stu-id="e73ea-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="e73ea-124">ตัวอย่างของชนิดงาน เช่น แบบเต็มเวลาและแบบชั่วคราว หรือแบบชำระค่าจ้างรายเดือนและรายชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="e73ea-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="e73ea-125">คุณสามารถรักษาชนิดของงานได้ที่หน้า **ชนิดของงาน**</span><span class="sxs-lookup"><span data-stu-id="e73ea-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="e73ea-126">บนหน้า **ชนิดของงาน** ป้อนชื่อและคำอธิบายโดยย่อของชนิดของงาน</span><span class="sxs-lookup"><span data-stu-id="e73ea-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="e73ea-127">ในฟิลด์ **สถานะยกเว้น** เลือกตัวเลือกใดตัวเลือกหนึ่งต่อไปนี้เพื่อบ่งชี้สถานะยกเว้นของ ฎหมายมาตรฐานแรงงานที่เป็นธรรม (FLSA) ของงานที่มีงานชนิดนี้:</span><span class="sxs-lookup"><span data-stu-id="e73ea-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
