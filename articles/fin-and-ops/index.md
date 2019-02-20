@@ -1,37 +1,32 @@
 ---
-title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations"
-description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations"
+# required metadata
+title: เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
+description: เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
-ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
 ---
 
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a><span data-ttu-id="60d71-103">เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="60d71-103">Microsoft Dynamics 365 for Finance and Operations documentation</span></span>
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a><span data-ttu-id="8749e-103">เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="8749e-103">Microsoft Dynamics 365 for Finance and Operations documentation</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="60d71-104">เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT</span><span class="sxs-lookup"><span data-stu-id="60d71-104">Learn how to make Microsoft Dynamics 365 for Finance and Operations work for your business, using the resources below to find great content for end users, developers, and IT professionals.</span></span> 
+<span data-ttu-id="8749e-104">เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT</span><span class="sxs-lookup"><span data-stu-id="8749e-104">Learn how to make Microsoft Dynamics 365 for Finance and Operations work for your business, using the resources below to find great content for end users, developers, and IT professionals.</span></span> 
 
-<span data-ttu-id="60d71-105">เนื้อหานี้ส่วนใหญ่ยังนำไปใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Microsoft Dynamics 365 for Retail และ Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="60d71-105">Much of this content also applies to the related products: Microsoft Dynamics 365 for Retail and Microsoft Dynamics 365 for Talent.</span></span> 
+<span data-ttu-id="8749e-105">เนื้อหาส่วนมากนี้ยังนำมาใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Microsoft Dynamics 365 for Retail และ Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="8749e-105">Much of this content also applies to the related products: Microsoft Dynamics 365 for Retail and Microsoft Dynamics 365 for Talent.</span></span> 
 
 <table>
 <colgroup>
@@ -42,93 +37,92 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr class="odd">
 <td>
-<h3><span data-ttu-id="60d71-106"><a href="get-started/before-you-buy.md">ก่อนที่คุณจะซื้อ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-106"><a href="get-started/before-you-buy.md">Before you buy</a></span></span></h3>
-<p><span data-ttu-id="60d71-107"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง</a></span><span class="sxs-lookup"><span data-stu-id="60d71-107"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Sign up for a preview subscription</a></span></span></p>
- <p><span data-ttu-id="60d71-108"><a href="../dev-itpro/deployment/choose-deployment-type.md">เลือกตัวเลือกการปรับใช้</a></span><span class="sxs-lookup"><span data-stu-id="60d71-108"><a href="../dev-itpro/deployment/choose-deployment-type.md">Choose a deployment option</a></span></span></p>
- <p><span data-ttu-id="60d71-109"><a href="get-started/purchase-on-premises.md">ซื้อ Finance and Operations (ในสถานที่)</a></span><span class="sxs-lookup"><span data-stu-id="60d71-109"><a href="get-started/purchase-on-premises.md">Buy Finance and Operations (on-premises)</a></span></span></p>
+<h3><span data-ttu-id="8749e-106"><a href="get-started/before-you-buy.md">ก่อนที่คุณจะซื้อ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-106"><a href="get-started/before-you-buy.md">Before you buy</a></span></span></h3>
+<p><span data-ttu-id="8749e-107"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง</a></span><span class="sxs-lookup"><span data-stu-id="8749e-107"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Sign up for a preview subscription</a></span></span></p>
+ <p><span data-ttu-id="8749e-108"><a href="../dev-itpro/deployment/choose-deployment-type.md">เลือกตัวเลือกการปรับใช้</a></span><span class="sxs-lookup"><span data-stu-id="8749e-108"><a href="../dev-itpro/deployment/choose-deployment-type.md">Choose a deployment option</a></span></span></p>
+ <p><span data-ttu-id="8749e-109"><a href="get-started/purchase-on-premises.md">ซื้อ Finance and Operations (ในสถานที่)</a></span><span class="sxs-lookup"><span data-stu-id="8749e-109"><a href="get-started/purchase-on-premises.md">Buy Finance and Operations (on-premises)</a></span></span></p>
 
-<h3><span data-ttu-id="60d71-110"><a href="imp-lifecycle/implementation-lifecycle.md">วงจรการใช้งาน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-110"><a href="imp-lifecycle/implementation-lifecycle.md">Implementation lifecycle</a></span></span></h3>
-<p><span data-ttu-id="60d71-111"><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></span><span class="sxs-lookup"><span data-stu-id="60d71-111"><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></span></span></p>
-<p><span data-ttu-id="60d71-112"><a href="imp-lifecycle/onboard.md">เตรียมความพร้อมสำหรับโครงการ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-112"><a href="imp-lifecycle/onboard.md">Onboarding a project</a></span></span></p>
-<p><span data-ttu-id="60d71-113"><a href="imp-lifecycle/prepare-go-live.md">การจัดเตรียมสำหรับการเริ่มใช้งานจริง</a></span><span class="sxs-lookup"><span data-stu-id="60d71-113"><a href="imp-lifecycle/prepare-go-live.md">Preparing for go-live</a></span></span></p>
+<h3><span data-ttu-id="8749e-110"><a href="imp-lifecycle/implementation-lifecycle.md">วงจรการใช้งาน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-110"><a href="imp-lifecycle/implementation-lifecycle.md">Implementation lifecycle</a></span></span></h3>
+<p><span data-ttu-id="8749e-111"><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></span><span class="sxs-lookup"><span data-stu-id="8749e-111"><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></span></span></p>
+<p><span data-ttu-id="8749e-112"><a href="imp-lifecycle/onboard.md">เตรียมความพร้อมสำหรับโครงการ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-112"><a href="imp-lifecycle/onboard.md">Onboarding a project</a></span></span></p>
+<p><span data-ttu-id="8749e-113"><a href="imp-lifecycle/prepare-go-live.md">การจัดเตรียมสำหรับการเริ่มใช้งานจริง</a></span><span class="sxs-lookup"><span data-stu-id="8749e-113"><a href="imp-lifecycle/prepare-go-live.md">Preparing for go-live</a></span></span></p>
 
-<h3><span data-ttu-id="60d71-114"><a href="../financials/index.md">การจัดการทางการเงิน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-114"><a href="../financials/index.md">Financial management</a></span></span></h3>
-<p><span data-ttu-id="60d71-115"><a href="../financials/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></span><span class="sxs-lookup"><span data-stu-id="60d71-115"><a href="../financials/accounts-payable/accounts-payable.md">Accounts payable</a></span></span></p>
-<p><span data-ttu-id="60d71-116"><a href="../financials/accounts-receivable/accounts-receivable.md">บัญชีลูกหนี้</a></span><span class="sxs-lookup"><span data-stu-id="60d71-116"><a href="../financials/accounts-receivable/accounts-receivable.md">Accounts receivable</a></span></span></p>
-<p><span data-ttu-id="60d71-117"><a href="../financials/budgeting/budgeting-overview.md">การจัดงบประมาณ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-117"><a href="../financials/budgeting/budgeting-overview.md">Budgeting</a></span></span></p>
-<p><span data-ttu-id="60d71-118"><a href="../financials/cash-bank-management/cash-bank-management.md">การจัดการเงินสดและธนาคาร</a></span><span class="sxs-lookup"><span data-stu-id="60d71-118"><a href="../financials/cash-bank-management/cash-bank-management.md">Cash and bank management</a></span></span></p>
-<p><span data-ttu-id="60d71-119"><a href="../financials/general-ledger/audit-policy-rules.md">การปฏิบัติตาม</a></span><span class="sxs-lookup"><span data-stu-id="60d71-119"><a href="../financials/general-ledger/audit-policy-rules.md">Compliance</a></span></span></p>
-<p><span data-ttu-id="60d71-120"><a href="../financials/cost-accounting/cost-accounting-home-page.md">การบัญชีต้นทุน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-120"><a href="../financials/cost-accounting/cost-accounting-home-page.md">Cost accounting</a></span></span></p>
-<p><span data-ttu-id="60d71-121"><a href="../financials/fixed-assets/fixed-assets.md">สินทรัพย์ถาวร</a></span><span class="sxs-lookup"><span data-stu-id="60d71-121"><a href="../financials/fixed-assets/fixed-assets.md">Fixed assets</a></span></span></p>
-<p><span data-ttu-id="60d71-122"><a href="../financials/general-ledger/general-ledger.md">บัญชีแยกประเภททั่วไป</a></span><span class="sxs-lookup"><span data-stu-id="60d71-122"><a href="../financials/general-ledger/general-ledger.md">General ledger</a></span></span></p>
-<p><span data-ttu-id="60d71-123"><a href="../financials/project-management/overview-project-management-accounting.md">การจัดการโครงการ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-123"><a href="../financials/project-management/overview-project-management-accounting.md">Project management</a></span></span></p>
-<p><span data-ttu-id="60d71-124"><a href="../financials/public-sector/public-sector-functionality.md">ภาครัฐ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-124"><a href="../financials/public-sector/public-sector-functionality.md">Public sector</a></span></span></p>
-<p><span data-ttu-id="60d71-125"><a href="../dev-itpro/lcs-solutions/country-region.md">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></span><span class="sxs-lookup"><span data-stu-id="60d71-125"><a href="../dev-itpro/lcs-solutions/country-region.md">Regional regulatory features</a></span></span></p>
+<h3><span data-ttu-id="8749e-114"><a href="../financials/index.md">การจัดการทางการเงิน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-114"><a href="../financials/index.md">Financial management</a></span></span></h3>
+<p><span data-ttu-id="8749e-115"><a href="../financials/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></span><span class="sxs-lookup"><span data-stu-id="8749e-115"><a href="../financials/accounts-payable/accounts-payable.md">Accounts payable</a></span></span></p>
+<p><span data-ttu-id="8749e-116"><a href="../financials/accounts-receivable/accounts-receivable.md">บัญชีลูกหนี้</a></span><span class="sxs-lookup"><span data-stu-id="8749e-116"><a href="../financials/accounts-receivable/accounts-receivable.md">Accounts receivable</a></span></span></p>
+<p><span data-ttu-id="8749e-117"><a href="../financials/budgeting/budgeting-overview.md">การจัดงบประมาณ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-117"><a href="../financials/budgeting/budgeting-overview.md">Budgeting</a></span></span></p>
+<p><span data-ttu-id="8749e-118"><a href="../financials/cash-bank-management/cash-bank-management.md">การจัดการเงินสดและธนาคาร</a></span><span class="sxs-lookup"><span data-stu-id="8749e-118"><a href="../financials/cash-bank-management/cash-bank-management.md">Cash and bank management</a></span></span></p>
+<p><span data-ttu-id="8749e-119"><a href="../financials/general-ledger/audit-policy-rules.md">การปฏิบัติตาม</a></span><span class="sxs-lookup"><span data-stu-id="8749e-119"><a href="../financials/general-ledger/audit-policy-rules.md">Compliance</a></span></span></p>
+<p><span data-ttu-id="8749e-120"><a href="../financials/cost-accounting/cost-accounting-home-page.md">การบัญชีต้นทุน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-120"><a href="../financials/cost-accounting/cost-accounting-home-page.md">Cost accounting</a></span></span></p>
+<p><span data-ttu-id="8749e-121"><a href="../financials/fixed-assets/fixed-assets.md">สินทรัพย์ถาวร</a></span><span class="sxs-lookup"><span data-stu-id="8749e-121"><a href="../financials/fixed-assets/fixed-assets.md">Fixed assets</a></span></span></p>
+<p><span data-ttu-id="8749e-122"><a href="../financials/general-ledger/general-ledger.md">บัญชีแยกประเภททั่วไป</a></span><span class="sxs-lookup"><span data-stu-id="8749e-122"><a href="../financials/general-ledger/general-ledger.md">General ledger</a></span></span></p>
+<p><span data-ttu-id="8749e-123"><a href="../financials/project-management/overview-project-management-accounting.md">การจัดการโครงการ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-123"><a href="../financials/project-management/overview-project-management-accounting.md">Project management</a></span></span></p>
+<p><span data-ttu-id="8749e-124"><a href="../financials/public-sector/public-sector-functionality.md">ภาครัฐ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-124"><a href="../financials/public-sector/public-sector-functionality.md">Public sector</a></span></span></p>
+<p><span data-ttu-id="8749e-125"><a href="../dev-itpro/lcs-solutions/country-region.md">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></span><span class="sxs-lookup"><span data-stu-id="8749e-125"><a href="../dev-itpro/lcs-solutions/country-region.md">Regional regulatory features</a></span></span></p>
 
-<h3><span data-ttu-id="60d71-126"><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></span><span class="sxs-lookup"><span data-stu-id="60d71-126"><a href="hr/hr-landing-page.md">Human resources</a></span></span></h3>
-<p><span data-ttu-id="60d71-127"><a href="../talent/manage-benefit-program.md">สวัสดิการ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-127"><a href="../talent/manage-benefit-program.md">Benefits</a></span></span></p>
-<p><span data-ttu-id="60d71-128"><a href="../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-128"><a href="../talent/performance-management-overview.md">Employee development and training</a></span></span></p>
-<p><span data-ttu-id="60d71-129"><a href="../talent/questionnaires.md">แบบสอบถาม</a></span><span class="sxs-lookup"><span data-stu-id="60d71-129"><a href="../talent/questionnaires.md">Questionnaire</a></span></span></p>
-<p><span data-ttu-id="60d71-130"><a href="hr/manage-recruiting-process.md">การสรรหา</a></span><span class="sxs-lookup"><span data-stu-id="60d71-130"><a href="hr/manage-recruiting-process.md">Recruiting</a></span></span></p>
-<p><span data-ttu-id="60d71-131"><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></span><span class="sxs-lookup"><span data-stu-id="60d71-131"><a href="hr/localizations/noam-usa-payroll.md">US payroll</a></span></span></p>
+<h3><span data-ttu-id="8749e-126"><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></span><span class="sxs-lookup"><span data-stu-id="8749e-126"><a href="hr/hr-landing-page.md">Human resources</a></span></span></h3>
+<p><span data-ttu-id="8749e-127"><a href="../talent/manage-benefit-program.md">สวัสดิการ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-127"><a href="../talent/manage-benefit-program.md">Benefits</a></span></span></p>
+<p><span data-ttu-id="8749e-128"><a href="../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-128"><a href="../talent/performance-management-overview.md">Employee development and training</a></span></span></p>
+<p><span data-ttu-id="8749e-129"><a href="../talent/questionnaires.md">แบบสอบถาม</a></span><span class="sxs-lookup"><span data-stu-id="8749e-129"><a href="../talent/questionnaires.md">Questionnaire</a></span></span></p>
+<p><span data-ttu-id="8749e-130"><a href="hr/manage-recruiting-process.md">การสรรหา</a></span><span class="sxs-lookup"><span data-stu-id="8749e-130"><a href="hr/manage-recruiting-process.md">Recruiting</a></span></span></p>
+<p><span data-ttu-id="8749e-131"><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></span><span class="sxs-lookup"><span data-stu-id="8749e-131"><a href="hr/localizations/noam-usa-payroll.md">US payroll</a></span></span></p>
 
-<h3><span data-ttu-id="60d71-132"><a href="../supply-chain/index.md">การบริหารห่วงโซ่อุปทาน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-132"><a href="../supply-chain/index.md">Supply chain management</a></span></span></h3>
-<p><span data-ttu-id="60d71-133"><a href="../supply-chain/cost-management/costing-sheets.md">การจัดการต้นทุน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-133"><a href="../supply-chain/cost-management/costing-sheets.md">Cost management</a></span></span></p>
-<p><span data-ttu-id="60d71-134"><a href="../supply-chain/inventory/inventory-home-page.md">การบริหารสินค้าคงคลัง</a></span><span class="sxs-lookup"><span data-stu-id="60d71-134"><a href="../supply-chain/inventory/inventory-home-page.md">Inventory management</a></span></span></p>
-<p><span data-ttu-id="60d71-135"><a href="../supply-chain/master-planning/master-plans.md">การวางแผนหลัก</a></span><span class="sxs-lookup"><span data-stu-id="60d71-135"><a href="../supply-chain/master-planning/master-plans.md">Master planning</a></span></span></p>
-<p><span data-ttu-id="60d71-136"><a href="../supply-chain/procurement/procurement-sourcing-overview.md">การจัดซื้อและการจัดหา</a></span><span class="sxs-lookup"><span data-stu-id="60d71-136"><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Procurement and sourcing</a></span></span></p>
-<p><span data-ttu-id="60d71-137"><a href="../supply-chain/pim/product-information.md">การจัดการข้อมูลผลิตภัณฑ์</a></span><span class="sxs-lookup"><span data-stu-id="60d71-137"><a href="../supply-chain/pim/product-information.md">Product information management</a></span></span></p>
-<p><span data-ttu-id="60d71-138"><a href="../supply-chain/production-control/production-process-overview.md">การควบคุมการผลิต</a></span><span class="sxs-lookup"><span data-stu-id="60d71-138"><a href="../supply-chain/production-control/production-process-overview.md">Production control</a></span></span></p>
-<p><span data-ttu-id="60d71-139"><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">การขายและการตลาด</a></span><span class="sxs-lookup"><span data-stu-id="60d71-139"><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">Sales and marketing</a></span></span></p>
-<p><span data-ttu-id="60d71-140"><a href="../supply-chain/transportation/transportation-management-overview.md">การจัดการการขนส่ง</a></span><span class="sxs-lookup"><span data-stu-id="60d71-140"><a href="../supply-chain/transportation/transportation-management-overview.md">Transportation management</a></span></span></p>
-<p><span data-ttu-id="60d71-141"><a href="../supply-chain/warehousing/warehouse-configuration.md">การจัดการคลังสินค้า</a></span><span class="sxs-lookup"><span data-stu-id="60d71-141"><a href="../supply-chain/warehousing/warehouse-configuration.md">Warehouse management</a></span></span></p>
+<h3><span data-ttu-id="8749e-132"><a href="../supply-chain/index.md">การบริหารห่วงโซ่อุปทาน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-132"><a href="../supply-chain/index.md">Supply chain management</a></span></span></h3>
+<p><span data-ttu-id="8749e-133"><a href="../supply-chain/cost-management/costing-sheets.md">การจัดการต้นทุน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-133"><a href="../supply-chain/cost-management/costing-sheets.md">Cost management</a></span></span></p>
+<p><span data-ttu-id="8749e-134"><a href="../supply-chain/inventory/inventory-home-page.md">การบริหารสินค้าคงคลัง</a></span><span class="sxs-lookup"><span data-stu-id="8749e-134"><a href="../supply-chain/inventory/inventory-home-page.md">Inventory management</a></span></span></p>
+<p><span data-ttu-id="8749e-135"><a href="../supply-chain/master-planning/master-plans.md">การวางแผนหลัก</a></span><span class="sxs-lookup"><span data-stu-id="8749e-135"><a href="../supply-chain/master-planning/master-plans.md">Master planning</a></span></span></p>
+<p><span data-ttu-id="8749e-136"><a href="../supply-chain/procurement/procurement-sourcing-overview.md">การจัดซื้อและการจัดหา</a></span><span class="sxs-lookup"><span data-stu-id="8749e-136"><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Procurement and sourcing</a></span></span></p>
+<p><span data-ttu-id="8749e-137"><a href="../supply-chain/pim/product-information.md">การจัดการข้อมูลผลิตภัณฑ์</a></span><span class="sxs-lookup"><span data-stu-id="8749e-137"><a href="../supply-chain/pim/product-information.md">Product information management</a></span></span></p>
+<p><span data-ttu-id="8749e-138"><a href="../supply-chain/production-control/production-process-overview.md">การควบคุมการผลิต</a></span><span class="sxs-lookup"><span data-stu-id="8749e-138"><a href="../supply-chain/production-control/production-process-overview.md">Production control</a></span></span></p>
+<p><span data-ttu-id="8749e-139"><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">การขายและการตลาด</a></span><span class="sxs-lookup"><span data-stu-id="8749e-139"><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">Sales and marketing</a></span></span></p>
+<p><span data-ttu-id="8749e-140"><a href="../supply-chain/transportation/transportation-management-overview.md">การจัดการการขนส่ง</a></span><span class="sxs-lookup"><span data-stu-id="8749e-140"><a href="../supply-chain/transportation/transportation-management-overview.md">Transportation management</a></span></span></p>
+<p><span data-ttu-id="8749e-141"><a href="../supply-chain/warehousing/warehouse-configuration.md">การจัดการคลังสินค้า</a></span><span class="sxs-lookup"><span data-stu-id="8749e-141"><a href="../supply-chain/warehousing/warehouse-configuration.md">Warehouse management</a></span></span></p>
 
 </td>
 <td>
-<h3><span data-ttu-id="60d71-142"><a href="../dev-itpro/analytics/bi-reporting-home-page.md">ข่าวกรอง</a></span><span class="sxs-lookup"><span data-stu-id="60d71-142"><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Intelligence</a></span></span></h3>
-<p><span data-ttu-id="60d71-143"><a href="../dev-itpro/analytics/analytics.md">การวิเคราะห์</a></span><span class="sxs-lookup"><span data-stu-id="60d71-143"><a href="../dev-itpro/analytics/analytics.md">Analytics</a></span></span></p>
- <p><span data-ttu-id="60d71-144"><a href="../dev-itpro/analytics/document-reporting-services.md">เอกสารทางธุรกิจ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-144"><a href="../dev-itpro/analytics/document-reporting-services.md">Business documents</a></span></span></p>
-<p><span data-ttu-id="60d71-145"><a href="../dev-itpro/analytics/financial-reporting-intro.md">การรายงานทางการเงิน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-145"><a href="../dev-itpro/analytics/financial-reporting-intro.md">Financial reporting</a></span></span></p>
-<p><span data-ttu-id="60d71-146"><a href="../dev-itpro/analytics/general-electronic-reporting.md">การรายงานที่เป็นข้อบังคับ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-146"><a href="../dev-itpro/analytics/general-electronic-reporting.md">Regulatory reporting</a></span></span></p>
+<h3><span data-ttu-id="8749e-142"><a href="../dev-itpro/analytics/bi-reporting-home-page.md">ข่าวกรอง</a></span><span class="sxs-lookup"><span data-stu-id="8749e-142"><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Intelligence</a></span></span></h3>
+<p><span data-ttu-id="8749e-143"><a href="../dev-itpro/analytics/analytics.md">การวิเคราะห์</a></span><span class="sxs-lookup"><span data-stu-id="8749e-143"><a href="../dev-itpro/analytics/analytics.md">Analytics</a></span></span></p>
+ <p><span data-ttu-id="8749e-144"><a href="../dev-itpro/analytics/document-reporting-services.md">เอกสารทางธุรกิจ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-144"><a href="../dev-itpro/analytics/document-reporting-services.md">Business documents</a></span></span></p>
+<p><span data-ttu-id="8749e-145"><a href="../dev-itpro/analytics/financial-reporting-intro.md">การรายงานทางการเงิน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-145"><a href="../dev-itpro/analytics/financial-reporting-intro.md">Financial reporting</a></span></span></p>
+<p><span data-ttu-id="8749e-146"><a href="../dev-itpro/analytics/general-electronic-reporting.md">การรายงานที่เป็นข้อบังคับ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-146"><a href="../dev-itpro/analytics/general-electronic-reporting.md">Regulatory reporting</a></span></span></p>
 
 
 
-<h3><span data-ttu-id="60d71-147"><a href="../dev-itpro/dev-tools/developer-home-page.md">การพัฒนา</span><span class="sxs-lookup"><span data-stu-id="60d71-147"><a href="../dev-itpro/dev-tools/developer-home-page.md">Development</span></span></h3>
-<p><span data-ttu-id="60d71-148"><a href="../dev-itpro/extensibility/extensibility-home-page.md">ความสามารถในการเพิ่มฟังก์ชัน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-148"><a href="../dev-itpro/extensibility/extensibility-home-page.md">Extensibility</a></span></span></p>
+<h3><span data-ttu-id="8749e-147"><a href="../dev-itpro/dev-tools/developer-home-page.md">การพัฒนา</span><span class="sxs-lookup"><span data-stu-id="8749e-147"><a href="../dev-itpro/dev-tools/developer-home-page.md">Development</span></span></h3>
+<p><span data-ttu-id="8749e-148"><a href="../dev-itpro/extensibility/extensibility-home-page.md">ความสามารถในการเพิ่มฟังก์ชัน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-148"><a href="../dev-itpro/extensibility/extensibility-home-page.md">Extensibility</a></span></span></p>
 
-<p><span data-ttu-id="60d71-149"><a href="../dev-itpro/data-entities/integration-overview.md">การรวมข้อมูล</a></span><span class="sxs-lookup"><span data-stu-id="60d71-149"><a href="../dev-itpro/data-entities/integration-overview.md">Data integration</a></span></span></p>
-<p><span data-ttu-id="60d71-150"><a href="../dev-itpro/data-entities/data-entities.md">การจัดการข้อมูล</a></span><span class="sxs-lookup"><span data-stu-id="60d71-150"><a href="../dev-itpro/data-entities/data-entities.md">Data management</a></span></span></p>
+<p><span data-ttu-id="8749e-149"><a href="../dev-itpro/data-entities/integration-overview.md">การรวมข้อมูล</a></span><span class="sxs-lookup"><span data-stu-id="8749e-149"><a href="../dev-itpro/data-entities/integration-overview.md">Data integration</a></span></span></p>
+<p><span data-ttu-id="8749e-150"><a href="../dev-itpro/data-entities/data-entities.md">การจัดการข้อมูล</a></span><span class="sxs-lookup"><span data-stu-id="8749e-150"><a href="../dev-itpro/data-entities/data-entities.md">Data management</a></span></span></p>
 
-<p><span data-ttu-id="60d71-151"><a href="../dev-itpro/office-integration/office-integration.md">การรวม Office</a></span><span class="sxs-lookup"><span data-stu-id="60d71-151"><a href="../dev-itpro/office-integration/office-integration.md">Office integration</a></span></span></p>
-<p><span data-ttu-id="60d71-152"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">การจัดส่งแบบต่อเนื่อง</a></span><span class="sxs-lookup"><span data-stu-id="60d71-152"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Continuous delivery</a></span></span></p>
-<p><span data-ttu-id="60d71-153"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">แพลตฟอร์มเคลื่อนที่</a></span><span class="sxs-lookup"><span data-stu-id="60d71-153"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobile platform</a></span></span></p>
-<p><span data-ttu-id="60d71-154"><a href="get-started/demo-data.md">ข้อมูลสาธิต</a></span><span class="sxs-lookup"><span data-stu-id="60d71-154"><a href="get-started/demo-data.md">Demo data</a></span></span></p>
+<p><span data-ttu-id="8749e-151"><a href="../dev-itpro/office-integration/office-integration.md">การรวม Office</a></span><span class="sxs-lookup"><span data-stu-id="8749e-151"><a href="../dev-itpro/office-integration/office-integration.md">Office integration</a></span></span></p>
+<p><span data-ttu-id="8749e-152"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">การจัดส่งแบบต่อเนื่อง</a></span><span class="sxs-lookup"><span data-stu-id="8749e-152"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Continuous delivery</a></span></span></p>
+<p><span data-ttu-id="8749e-153"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">แพลตฟอร์มเคลื่อนที่</a></span><span class="sxs-lookup"><span data-stu-id="8749e-153"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobile platform</a></span></span></p>
+<p><span data-ttu-id="8749e-154"><a href="get-started/demo-data.md">ข้อมูลสาธิต</a></span><span class="sxs-lookup"><span data-stu-id="8749e-154"><a href="get-started/demo-data.md">Demo data</a></span></span></p>
 
-<h3><span data-ttu-id="60d71-155"><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</span><span class="sxs-lookup"><span data-stu-id="60d71-155"><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administration</span></span></h3>
-<p><span data-ttu-id="60d71-156"><a href="../dev-itpro/deployment/cloud-deployment-overview.md">การปรับใช้ระบบคลาวด์</a></span><span class="sxs-lookup"><span data-stu-id="60d71-156"><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Cloud deployment</a></span></span></p>
-<p><span data-ttu-id="60d71-157"><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">การปรับใช้ในองค์กร</a></span><span class="sxs-lookup"><span data-stu-id="60d71-157"><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">On-premises deployment</a></span></span></p>
-<p><span data-ttu-id="60d71-158"><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัพเกรด</a></span><span class="sxs-lookup"><span data-stu-id="60d71-158"><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgrade</a></span></span></p>
-<p><span data-ttu-id="60d71-159"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-159"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Servicing</a></span></span></p>
-<p><span data-ttu-id="60d71-160"><a href="../dev-itpro/data-entities/data-entities.md">กรอบงานการจัดการข้อมูล</a></span><span class="sxs-lookup"><span data-stu-id="60d71-160"><a href="../dev-itpro/data-entities/data-entities.md">Data management framework</a></span></span></p>
-<p><span data-ttu-id="60d71-161"><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></span><span class="sxs-lookup"><span data-stu-id="60d71-161"><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></span></span></p>
-<p><span data-ttu-id="60d71-162"><a href="organization-administration/organization-administration-home-page.md">การจัดการองค์กร</a></span><span class="sxs-lookup"><span data-stu-id="60d71-162"><a href="organization-administration/organization-administration-home-page.md">Organization administration</a></span></span></p>
+<h3><span data-ttu-id="8749e-155"><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</span><span class="sxs-lookup"><span data-stu-id="8749e-155"><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administration</span></span></h3>
+<p><span data-ttu-id="8749e-156"><a href="../dev-itpro/deployment/cloud-deployment-overview.md">การปรับใช้ระบบคลาวด์</a></span><span class="sxs-lookup"><span data-stu-id="8749e-156"><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Cloud deployment</a></span></span></p>
+<p><span data-ttu-id="8749e-157"><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">การปรับใช้ในองค์กร</a></span><span class="sxs-lookup"><span data-stu-id="8749e-157"><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">On-premises deployment</a></span></span></p>
+<p><span data-ttu-id="8749e-158"><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัปเกรด</a></span><span class="sxs-lookup"><span data-stu-id="8749e-158"><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgrade</a></span></span></p>
+<p><span data-ttu-id="8749e-159"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-159"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Servicing</a></span></span></p>
+<p><span data-ttu-id="8749e-160"><a href="../dev-itpro/data-entities/data-entities.md">กรอบงานการจัดการข้อมูล</a></span><span class="sxs-lookup"><span data-stu-id="8749e-160"><a href="../dev-itpro/data-entities/data-entities.md">Data management framework</a></span></span></p>
+<p><span data-ttu-id="8749e-161"><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></span><span class="sxs-lookup"><span data-stu-id="8749e-161"><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></span></span></p>
+<p><span data-ttu-id="8749e-162"><a href="organization-administration/organization-administration-home-page.md">การจัดการองค์กร</a></span><span class="sxs-lookup"><span data-stu-id="8749e-162"><a href="organization-administration/organization-administration-home-page.md">Organization administration</a></span></span></p>
 </td>
 <td>
-<h3><span data-ttu-id="60d71-163">ผลิตภัณฑ์ที่สัมพันธ์กัน</span><span class="sxs-lookup"><span data-stu-id="60d71-163">Related products</span></span></h3>
-<h4><span data-ttu-id="60d71-164"><a href="../retail/index.md">Dynamics 365 for Retail</a></span><span class="sxs-lookup"><span data-stu-id="60d71-164"><a href="../retail/index.md">Dynamics 365 for Retail</a></span></span></h4>
-<p><span data-ttu-id="60d71-165"><a href="../retail/call-center-functionality.md">ศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="60d71-165"><a href="../retail/call-center-functionality.md">Call center</span></span></p>
-<p><span data-ttu-id="60d71-166"><a href="../retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</span><span class="sxs-lookup"><span data-stu-id="60d71-166"><a href="../retail/define-maintain-retail-channels.md">Channel setup and management</span></span></p>
-<p><span data-ttu-id="60d71-167"><a href="../retail/retail-peripherals-overview.md">MPOS และ Cloud POS</span><span class="sxs-lookup"><span data-stu-id="60d71-167"><a href="../retail/retail-peripherals-overview.md">MPOS and Cloud POS</span></span></p>
-<p><span data-ttu-id="60d71-168"><a href="../retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Retail</span><span class="sxs-lookup"><span data-stu-id="60d71-168"><a href="../retail/dev-itpro/dev-retail-home-page.md">Retail developer and administration</span></span></p>
+<h3><span data-ttu-id="8749e-163">ผลิตภัณฑ์ที่สัมพันธ์กัน</span><span class="sxs-lookup"><span data-stu-id="8749e-163">Related products</span></span></h3>
+<h4><span data-ttu-id="8749e-164"><a href="../retail/index.md">Dynamics 365 for Retail</a></span><span class="sxs-lookup"><span data-stu-id="8749e-164"><a href="../retail/index.md">Dynamics 365 for Retail</a></span></span></h4>
+<p><span data-ttu-id="8749e-165"><a href="../retail/call-center-functionality.md">ศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="8749e-165"><a href="../retail/call-center-functionality.md">Call center</span></span></p>
+<p><span data-ttu-id="8749e-166"><a href="../retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</span><span class="sxs-lookup"><span data-stu-id="8749e-166"><a href="../retail/define-maintain-retail-channels.md">Channel setup and management</span></span></p>
+<p><span data-ttu-id="8749e-167"><a href="../retail/retail-peripherals-overview.md">MPOS และ POS ระบบคลาวด์</span><span class="sxs-lookup"><span data-stu-id="8749e-167"><a href="../retail/retail-peripherals-overview.md">MPOS and Cloud POS</span></span></p>
+<p><span data-ttu-id="8749e-168"><a href="../retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Retail</span><span class="sxs-lookup"><span data-stu-id="8749e-168"><a href="../retail/dev-itpro/dev-retail-home-page.md">Retail developer and administration</span></span></p>
 
-<h4><span data-ttu-id="60d71-169"><a href="../talent/index.md">Dynamics 365 for Talent</a></span><span class="sxs-lookup"><span data-stu-id="60d71-169"><a href="../talent/index.md">Dynamics 365 for Talent</a></span></span></h4>
-<p><span data-ttu-id="60d71-170"><a href="../talent/manage-benefit-program.md">สวัสดิการ</a></span><span class="sxs-lookup"><span data-stu-id="60d71-170"><a href="../talent/manage-benefit-program.md">Benefits</a></span></span></p>
-<p><span data-ttu-id="60d71-171"><a href="../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></span><span class="sxs-lookup"><span data-stu-id="60d71-171"><a href="../talent/performance-management-overview.md">Employee development and training</a></span></span></p>
-<p><span data-ttu-id="60d71-172"><a href="../talent/questionnaires.md">แบบสอบถาม</a></span><span class="sxs-lookup"><span data-stu-id="60d71-172"><a href="../talent/questionnaires.md">Questionnaire</a></span></span></p>
+<h4><span data-ttu-id="8749e-169"><a href="../talent/index.md">Dynamics 365 for Talent</a></span><span class="sxs-lookup"><span data-stu-id="8749e-169"><a href="../talent/index.md">Dynamics 365 for Talent</a></span></span></h4>
+<p><span data-ttu-id="8749e-170"><a href="../talent/manage-benefit-program.md">สวัสดิการ</a></span><span class="sxs-lookup"><span data-stu-id="8749e-170"><a href="../talent/manage-benefit-program.md">Benefits</a></span></span></p>
+<p><span data-ttu-id="8749e-171"><a href="../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></span><span class="sxs-lookup"><span data-stu-id="8749e-171"><a href="../talent/performance-management-overview.md">Employee development and training</a></span></span></p>
+<p><span data-ttu-id="8749e-172"><a href="../talent/questionnaires.md">แบบสอบถาม</a></span><span class="sxs-lookup"><span data-stu-id="8749e-172"><a href="../talent/questionnaires.md">Questionnaire</a></span></span></p>
 
 </td>
 </tr>
 
 </tbody>
 </table>
-
