@@ -1,13 +1,13 @@
 ---
-title: "โฮมเพจสินทรัพย์ถาวร"
-description: "สินทรัพย์ถาวรคือสินค้าที่มีมูลค่า เช่น อาคาร พาหนะ ที่ดิน และเครื่องมือ ที่เป็นของบุคคลหรือองค์กร"
+title: โฮมเพจสินทรัพย์ถาวร
+description: สินทรัพย์ถาวรคือสินค้าที่มีมูลค่า เช่น อาคาร พาหนะ ที่ดิน และเครื่องมือ ที่เป็นของบุคคลหรือองค์กร
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302939"
 ---
-
 # <a name="fixed-assets-home-page"></a>โฮมเพจสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ ms.lasthandoff: 02/07/2018
 
 
 
-### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+### <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
@@ -46,9 +45,9 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับสินทรัพย์ถาวรและการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับสินทรัพย์ถาวรและโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 
-มีโพสต์ต่างๆ เกี่ยวกับสินทรัพย์ถาวรใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับเวอร์ชันก่อนหน้านี้ของบัญชีเจ้าหนี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
+มีโพสต์ต่างๆ เกี่ยวกับสินทรัพย์ถาวรใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของบัญชีเจ้าหนี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 
@@ -58,7 +57,6 @@ ms.lasthandoff: 02/07/2018
 #### <a name="videos"></a>วิดีโอ
 
 ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
-
 
 
 

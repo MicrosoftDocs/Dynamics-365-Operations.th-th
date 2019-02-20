@@ -1,301 +1,330 @@
+items:
 - name: Dynamics 365 for Talent
   href: index.md
   items:
-    - name: เริ่มต้นใช้งาน
-      href: talent-get-started.md
+  - name: เริ่มต้นใช้งาน
+    href: talent-get-started.md
+    items:
+    - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
+      href: whats-new.md
       items:
-        - name: มีอะไรใหม่หรือมีการเปลี่ยนแปลง
-          href: whats-new.md
-          items:
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
-              href: whats-new-talent-december-14.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
-              href: whats-new-talent-december-6.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (27 พฤศจิกายน 2018)
-              href: whats-new-talent-november-27.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 พฤศจิกายน 2018)
-              href: whats-new-talent-november-15.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (31 ตุลาคม 2018)
-              href: whats-new-talent-october-31.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (19 ตุลาคม 2018)
-              href: whats-new-talent-october-19.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 ตุลาคม 2018)
-              href: whats-new-talent-october-11.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (8 ตุลาคม 2018)
-              href: whats-new-talent-october-8.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (1 ตุลาคม 2018)
-              href: whats-new-talent-october-01.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)
-              href: whats-new-talent-september-24.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (17 กันยายน 2018)
-              href: whats-new-talent-september-17-2018.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (10 กันยายน 2018)
-              href: whats-new-talent-september-10.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (สิงหาคม 2018)
-              href: whats-new-talent-august2018.md
-            - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)
-              href: whats-new-talent-july2018.md
-        - name: ความต้องการของระบบและนโยบายการอัพเดต
-          href: talent-versions-update-policy.md
-        - name: เตรียมใช้งาน Talent
-          href: provisioning-talent.md
-        - name: เอาสภาพแวดล้อม Talent ออก
-          href: remove-talent-environment.md
-        - name: การเตรียมใช้งานแอปหน่วยย่อย Talent
-          href: modular-app-tech-faq.md
-        - name: ฝังแอป PowerApps
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR และ Common Data Service สำหรับแอป
-          href: CoreHREntities.md
-        - name: การรวม
-          href: talent-financeandoperations-integration.md
-        - name: เข้าถึงคุณลักษณะตัวอย่าง
-          href: access-preview-feature.md
-        - name: ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce
-          href: configure-payroll-integration.md
-        - name: รับการสนับสนุนสำหรับ Talent
-          href: talent-support.md
-    - name: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
-      href: departments-jobs-positions.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (31 มกราคม 2019)
+        href: whats-new-talent-january-29.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (23 มกราคม 2019)
+        href: whats-new-talent-january-23.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (17 มกราคม 2019)
+        href: whats-new-talent-january-17.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (11 มกราคม 2019)
+        href: whats-new-talent-january-11.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
+        href: whats-new-talent-december-14.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
+        href: whats-new-talent-december-6.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (27 พฤศจิกายน 2018)
+        href: whats-new-talent-november-27.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 พฤศจิกายน 2018)
+        href: whats-new-talent-november-15.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (31 ตุลาคม 2018)
+        href: whats-new-talent-october-31.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (19 ตุลาคม 2018)
+        href: whats-new-talent-october-19.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 ตุลาคม 2018)
+        href: whats-new-talent-october-11.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (8 ตุลาคม 2018)
+        href: whats-new-talent-october-8.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (1 ตุลาคม 2018)
+        href: whats-new-talent-october-01.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)
+        href: whats-new-talent-september-24.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (17 กันยายน 2018)
+        href: whats-new-talent-september-17-2018.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (10 กันยายน 2018)
+        href: whats-new-talent-september-10.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (สิงหาคม 2018)
+        href: whats-new-talent-august2018.md
+      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (กรกฏาคม 2018)
+        href: whats-new-talent-july2018.md
+    - name: ความต้องการของระบบและนโยบายการอัปเดต
+      href: talent-versions-update-policy.md
+    - name: เตรียมใช้งาน Talent
+      href: provisioning-talent.md
+    - name: เอาสภาพแวดล้อม Talent ออก
+      href: remove-talent-environment.md
+    - name: การเตรียมใช้งานแอปหน่วยย่อย Talent
+      href: modular-app-tech-faq.md
+    - name: ฝังแอป PowerApps
+      href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Core HR และ Common Data Service สำหรับแอป
+      href: CoreHREntities.md
+    - name: เข้าถึงคุณลักษณะตัวอย่าง
+      href: access-preview-feature.md
+    - name: รับการสนับสนุนสำหรับ Talent
+      href: talent-support.md
+  - name: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
+    href: departments-jobs-positions.md
+    items:
+    - name: ตั้งค่าส่วนประกอบของงาน
+      href: create-job.md
+    - name: สร้างแผนกและรวมไว้ในลำดับชั้นของแผนก
+      href: create-department-add-department-hierarchy.md
+    - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
+      href: set-up-hr-parameters-across-legal-entities.md
+    - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
+      href: set-up-company-specific-hr-parameters.md
+    - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
+      href: personnel-actions-faq.md
+    - name: ทำให้กระบวนการทางธุรกิจเป็นทางการ
+      href: formalize-business-processes.md
+    - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
+      href: workflow-manage-employee-information.md
+  - name: จัดการกับการลางานและการหยุดงาน
+    href: leave-absence-overview.md
+    items:
+    - name: แนวคิดการลางานและการหยุดงาน
+      href: leave-absence-concepts.md
+    - name: เวลาหยุดพักที่ยกยอดตามชั่วโมงที่ทำงาน
+      href: leave-accrue-hours-worked.md
+    - name: ปฏิทินเวลาทำงาน
+      href: working-time-calendars.md
+  - name: จัดหาพนักงานในองค์กรของคุณ
+    items:
+    - name: คุณลักษณะและความสามารถของ Attract
+      href: attract-overview.md
+    - name: การสร้างเท็มเพลตกระบวนการใน Attract
+      href: Process-templates-Attract.md
+    - name: การสร้าง การอนุมัติ และการลงรายการบัญชีงานใน Attract
+      href: Creating-jobs-Attract.md
+    - name: แหล่งข้อมูลที่มีกลุ่มผู้มีความสามารถพิเศษ
+      href: attract-talent-pools.md
+    - name: การจัดหาด้วย LinkedIn Recruiter
+      href: attract-linked-in-recruiter.md
+    - name: กิจกรรมกระบวนการจ้างงานใน Attract
+      href: activities-attract.md
+    - name: การจัดกำหนดการการสัมภาษณ์และคำติชม
+      href: interview-scheduling-feedback.md
+    - name: ความสามารถในการเพิ่มฟังก์ชัน
+      href: extensibility-attract.md
+    - name: ไซต์อาชีพและประสบการณ์ของผู้สมัคร
+      href: career-site.md
+    - name: การตั้งค่าการจัดการข้อเสนอ
+      href: offer-setup.md
+    - name: การสร้าง การอนุมัติ และการลงชื่อข้อเสนอ
+      href: creating-offers.md
+    - name: การสร้างและการจัดการเท็มเพลตอีเมล
+      href: email-templates.md
+    - name: การจัดการความปลอดภัยและบทบาทใน Attract
+      href: security-attract.md
+    - name: การตั้งค่าการดูแลระบบใน Attract
+      href: Admin-Settings-Attract.md
+    - name: คำแนะนำอัจฉริยะ
+      href: Intelligent-Recommendations.md
+    - name: สร้างประสบการณ์การเตรียมพร้อมที่ต้องตาต้องใจ
+      href: create-onboarding-experience.md
+    - name: ความสามารถเพิ่มเติมเพื่อการจ้างงานที่ครอบคลุมของ Attract
+      href: attract-comprehensive-hiring.md
+  - name: จูงใจพนักงาน
+    items:
+    - name: แผนค่าตอบแทน
+      href: compensation-plans.md
+    - name: สร้างแผนค่าตอบแทนคงที่
+      href: create-fixed-compensation-plans.md
+    - name: สร้างแผนค่าตอบแทนผันแปร
+      href: create-variable-compensation-plans.md
+    - name: ประมวลผลค่าตอบแทน
+      href: process-compensation.md
+    - name: ตั้งค่าส่วนประกอบของงาน
+      href: create-job.md
+  - name: พัฒนาและฝึกอบรมพนักงาน
+    items:
+    - name: การบริหารประสิทธิภาพ
+      href: performance-management-overview.md
+    - name: จัดทักษะแรงงานกับความต้องการทางธุรกิจ
+      href: skills.md
+    - name: ตั้งค่าหลักสูตรการฝึกอบรม
+      href: courses.md
+  - name: กำหนดและจัดการโปรแกรมสวัสดิการ
+    items:
+    - name: จัดการโปรแกรมสวัสดิการ
+      href: manage-benefit-program.md
+    - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
+      href: benefit-eligibility-policies.md
+    - name: สร้างรายงานกฎหมายประกันสุขภาพ (Affordable Care Act (ACA))
+      href: generate-aca-reports.md
+    - name: จัดการสิ่งของที่ให้ยืมแก่ผู้ปฏิบัติงาน
+      href: loan-items.md
+  - name: รวบรวมข้อมูลโดยใช้แบบสอบถาม
+    href: questionnaires.md
+    items:
+    - name: ออกแบบแบบสอบถาม
+      href: design-questionnaires.md
+    - name: แจกจ่ายและจัดกำหนดการแบบสอบถาม
+      href: distribute-questionnaires.md
+    - name: ดูและประเมินผลลัพธ์ของแบบสอบถาม
+      href: evaluate-questionnaire-results.md
+  - name: ความปลอดภัยที่ทำงานและการปฏิบัติตามกฎระเบียบ (สหรัฐอเมริกา)
+    items:
+    - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
+      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: การตรวจสอบความถูกต้องของการทำงานตามแบบฟอร์ม I-9
+      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: เป็นไปตาม ADA
+      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+  - name: ข่าวกรอง
+    items:
+    - name: Power BI ที่ฝังในพื้นที่ทำงาน
+      href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+  - name: แอปสำหรับอุปกรณ์เคลื่อนที่
+    items:
+    - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
       items:
-        - name: ตั้งค่าส่วนประกอบของงาน
-          href: create-job.md
-        - name: สร้างแผนกและรวมไว้ในลำดับชั้นของแผนก
-          href: create-department-add-department-hierarchy.md
-        - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
-          href: set-up-company-specific-hr-parameters.md
-        - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
-          href: personnel-actions-faq.md
-        - name: ทำให้กระบวนการทางธุรกิจเป็นทางการ
-          href: formalize-business-processes.md
-        - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
-          href: workflow-manage-employee-information.md
-    - name: จัดการกับการลางานและการหยุดงาน
-      href: leave-absence-overview.md
+      - name: ไดเรกทอรีบริษัท
+        href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: ทีมงานของฉัน
+        href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: เผยแพร่พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
+      href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+  - name: การรวม
+    items:
+    - name: รวมกับ Dynamics 365 for Finance and Operations
+      href: talent-financeandoperations-integration.md
+    - name: ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce
+      href: configure-payroll-integration.md
+    - name: คำแนะนำการรวมข้อมูลสำหรับ Dynamics 365 for Talent
+      href: data-integration.md
+    - name: FAQ เกี่ยวกับการรวม
+      href: talent-fo-integration.md
+  - name: การรวม Office
+    items:
+    - name: บทสอนการรวม Office
+      href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: ใช้ Add-in ของ Excel
+      href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: สร้างประสบการณ์เปิดใน Excel
+      href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: แก้ไขปัญหาการรวมกับ Office
+      href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+  - name: การจัดการองค์กร
+    items:
+    - name: ลำดับหมายเลข
+      href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
       items:
-        - name: แนวคิดการลางานและการหยุดงาน
-          href: leave-absence-concepts.md
-        - name: เวลาหยุดพักที่ยกยอดตามชั่วโมงที่ทำงาน
-          href: leave-accrue-hours-worked.md
-        - name: ปฏิทินเวลาทำงาน
-          href: working-time-calendars.md
-    - name: จัดหาพนักงานในองค์กรของคุณ
+      - name: ตั้งค่าลำดับหมายเลขแต่ละตัว
+        href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
+        href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: องค์กรและลำดับชั้นขององค์กร
+      href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
       items:
-        - name: คุณลักษณะและความสามารถของ Attract
-          href: attract-overview.md
-        - name: การสร้างเท็มเพลตกระบวนการใน Attract
-          href: Process-templates-Attract.md
-        - name: การสร้าง การอนุมัติ และการลงรายการบัญชีงานใน Attract
-          href: Creating-jobs-Attract.md
-        - name: แหล่งข้อมูลที่มีกลุ่มผู้มีความสามารถพิเศษ
-          href: attract-talent-pools.md
-        - name: แหล่งข้อมูลที่มีผู้สรรหาบุคลากร LinkedIn
-          href: attract-linked-in-recruiter.md
-        - name: กิจกรรมกระบวนการจ้างงานใน Attract
-          href: activities-attract.md
-        - name: ความสามารถในการเพิ่มฟังก์ชัน
-          href: extensibility-attract.md
-        - name: ไซต์อาชีพและประสบการณ์ของผู้สมัคร
-          href: career-site.md
-        - name: การตั้งค่าการจัดการข้อเสนอ
-          href: offer-setup.md
-        - name: การสร้าง การอนุมัติ และการลงชื่อข้อเสนอ
-          href: creating-offers.md
-        - name: การสร้างและการจัดการเท็มเพลตอีเมล
-          href: email-templates.md
-        - name: การจัดการความปลอดภัยและบทบาทใน Attract
-          href: security-attract.md
-        - name: การตั้งค่าการดูแลระบบใน Attract
-          href: Admin-Settings-Attract.md
-        - name: คำแนะนำอัจฉริยะ
-          href: Intelligent-Recommendations.md
-        - name: สร้างประสบการณ์การเตรียมพร้อมที่ต้องตาต้องใจ
-          href: create-onboarding-experience.md
-    - name: จูงใจพนักงาน
+      - name: วางแผนลำดับชั้นขององค์กรของคุณ
+        href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: สร้างลำดับชั้นขององค์กร
+        href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: สร้างนิติบุคคล
+        href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: สร้างหน่วยปฏิบัติงาน
+        href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: สมุดที่อยู่สากล
+      href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
       items:
-        - name: แผนค่าตอบแทน
-          href: compensation-plans.md
-        - name: สร้างแผนค่าตอบแทนคงที่
-          href: create-fixed-compensation-plans.md
-        - name: สร้างแผนค่าตอบแทนผันแปร
-          href: create-variable-compensation-plans.md
-        - name: ประมวลผลค่าตอบแทน
-          href: process-compensation.md
-        - name: ตั้งค่าส่วนประกอบของงาน
-          href: create-job.md
-    - name: พัฒนาและฝึกอบรมพนักงาน
+      - name: วางแผนวิธีตั้งค่าคอนฟิกสมุดที่อยู่สากล
+        href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
+        href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: FAQ เกี่ยวกับสมุดที่อยู่
+        href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: ลำดับงาน
+      href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
       items:
-        - name: การบริหารประสิทธิภาพ
-          href: performance-management-overview.md
-        - name: จัดทักษะแรงงานกับความต้องการทางธุรกิจ
-          href: skills.md
-        - name: ตั้งค่าหลักสูตรการฝึกอบรม
-          href: courses.md
-    - name: กำหนดและจัดการโปรแกรมสวัสดิการ
+      - name: องค์ประกอบลำดับงาน
+        href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: การดำเนินการลำดับงาน
+        href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: สร้างลำดับงาน
+        href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        items:
+        - name: ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน
+          href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเอง
+          href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกงานอัตโนมัติ
+          href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกกระบวนการอนุมัติ
+          href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ
+          href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง
+          href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข
+          href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกกิจกรรมคู่ขนาน
+          href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกสาขาคู่ขนาน
+          href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
+          href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: ตั้งค่าคอนฟิกชุดงานการประมวลผลข้อความ
+        href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: มอบหมายรายการงานในลำดับงาน
+        href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: ดูประวัติลำดับงาน
+        href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: ให้ผู้ใช้สามารถรับข้อความอีเมลที่เกี่ยวข้องกับลำดับงาน
+        href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: การแจ้งเตือน
+      href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
       items:
-        - name: จัดการโปรแกรมสวัสดิการ
-          href: manage-benefit-program.md
-        - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
-          href: benefit-eligibility-policies.md
-        - name: สร้างรายงานกฎหมายประกันสุขภาพ (Affordable Care Act (ACA))
-          href: generate-aca-reports.md
-        - name: จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
-          href: loan-items.md
-    - name: รวบรวมข้อมูลโดยใช้แบบสอบถาม
-      href: questionnaires.md
+      - name: สร้างการแจ้งเตือน
+        href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+      - name: การประมวลผลชุดงานสำหรับการแจ้งเตือน
+        href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: การจัดการกรณี
+      href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
       items:
-        - name: ออกแบบแบบสอบถาม
-          href: design-questionnaires.md
-        - name: แจกจ่ายและจัดกำหนดการแบบสอบถาม
-          href: distribute-questionnaires.md
-        - name: ดูและประเมินผลลัพธ์ของแบบสอบถาม
-          href: evaluate-questionnaire-results.md
-    - name: ความปลอดภัยที่ทำงานและการปฏิบัติตามกฎระเบียบ (สหรัฐอเมริกา)
-      items:
-        - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: การตรวจสอบความถูกต้องของการทำงานตามแบบฟอร์ม I-9
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: เป็นไปตาม ADA
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: ข่าวกรอง
-      items:
-        - name: Power BI ที่ฝังในพื้นที่ทำงาน
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: แอพบนมือถือ
-      items:
-        - name: พื้นที่ทำงานแบบเคลื่อนที่
-          items:
-            - name: ไดเรกทอรีบริษัท
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ทีมงานของฉัน
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: การรวม Office
-      items:
-        - name: บทสอนการรวม Office
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: ใช้ Add-in ของ Excel
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: สร้างประสบการณ์เปิดใน Excel
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: แก้ไขปัญหาการรวมกับ Office
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: การจัดการองค์กร
-      items:
-        - name: ลำดับหมายเลข
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: ตั้งค่าลำดับหมายเลขแต่ละตัว
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: องค์กรและลำดับชั้นขององค์กร
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: วางแผนลำดับชั้นขององค์กรของคุณ
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: สร้างลำดับชั้นขององค์กร
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: สร้างนิติบุคคล
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: สร้างหน่วยปฏิบัติงาน
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: สมุดที่อยู่สากล
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: วางแผนวิธีตั้งค่าคอนฟิกสมุดที่อยู่สากล
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: FAQ เกี่ยวกับสมุดที่อยู่
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: ลำดับงาน
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: องค์ประกอบลำดับงาน
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: การดำเนินการลำดับงาน
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: สร้างลำดับงาน
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเอง
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกงานอัตโนมัติ
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกกระบวนการอนุมัติ
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกกิจกรรมคู่ขนาน
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกสาขาคู่ขนาน
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ตั้งค่าคอนฟิกชุดงานการประมวลผลข้อความ
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: มอบหมายรายการงานในลำดับงาน
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ดูประวัติลำดับงาน
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ให้ผู้ใช้สามารถรับข้อความอีเมลที่เกี่ยวข้องกับลำดับงาน
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: การแจ้งเตือน
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: สร้างการแจ้งเตือน
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: การประมวลผลชุดงานสำหรับการแจ้งเตือน
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: การจัดการกรณี
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: ตั้งค่าคอนฟิกความปลอดภัยของกรณี กระบวนการ และประเภท
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: ตั้งค่าคอนฟิกการจัดการเอกสาร
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: ตั้งค่าคอนฟิกและส่งอีเมล
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: ข้อมูลวันที่/เวลาและโซนเวลา
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: งานทรัพยากรบุคคล
-      items:
-        - name: เพิ่มลงในสมุดรายวันประสิทธิภาพของคุณ และส่งการชมเชยให้แก่บุคคลอื่น
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: สร้างเป้าหมาย
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: สร้างการตรวจสอบประสิทธิภาพ
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: แก้ไขปัญหา Talent
-      items:
-        - name: ไม่ได้อัพเดตรายงานการวิเคราะห์
-          href: analytic-reports-not-updated.md
-        - name: ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ PowerApps
-          href: create-envi-powerapps-admin-ctr.md
-        - name: ไคลเอนต์ Talent ยกเลิกการเชื่อมต่อ
-          href: client-disconnects.md
-        - name: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: รันกระบวนการค่าตอบแทน
-          href: run-compensation-process.md
-        - name: บันทึกคู่มืองานไปยัง LCS แล้วเล่นซ้ำ
-          href: save-play-task-guides-LCS.md
-        - name: เข้าถึงที่อยู่ส่วนตัวตามบทบาทความปลอดภัย
-          href: security-roles-addresses.md
-        - name: Talent ไม่ปรากฏขึ้นในแอป Microsoft Dynamics 365 (CDS1.0)
-          href: talent-not-in-home-CDS.md
-        - name: ผู้ใช้สามารถเข้าถึง Core HR ได้ แต่ไม่สามารถเข้าถึงแอป Onboard หรือ Attract ได้
-          href: user-access-core-hr.md
-        - name: ตัวเลือกการรายงานใน Talent
-          href: talent-reporting-options.md
+      - name: ตั้งค่าคอนฟิกความปลอดภัยของกรณี กระบวนการ และประเภท
+        href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: ตั้งค่าคอนฟิกการจัดการเอกสาร
+      href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: ตั้งค่าคอนฟิกและส่งอีเมล
+      href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: ข้อมูลวันที่/เวลาและโซนเวลา
+      href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+  - name: งานทรัพยากรบุคคล
+    items:
+    - name: เพิ่มลงในสมุดรายวันประสิทธิภาพของคุณ และส่งการชมเชยให้แก่บุคคลอื่น
+      href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: สร้างเป้าหมาย
+      href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: สร้างการทบทวนประสิทธิภาพการทำงาน
+      href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+  - name: แก้ไขปัญหา Talent
+    items:
+    - name: ไม่ได้อัปเดตรายงานการวิเคราะห์
+      href: analytic-reports-not-updated.md
+    - name: ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ PowerApps
+      href: create-envi-powerapps-admin-ctr.md
+    - name: ไคลเอนต์ Talent ยกเลิกการเชื่อมต่อ
+      href: client-disconnects.md
+    - name: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
+      href: avoid-text-truncation-position-hierarchy-visio.md
+    - name: รันกระบวนการค่าตอบแทน
+      href: run-compensation-process.md
+    - name: บันทึกคู่มืองานไปยัง LCS แล้วเล่นซ้ำ
+      href: save-play-task-guides-LCS.md
+    - name: เข้าถึงที่อยู่ส่วนตัวตามบทบาทความปลอดภัย
+      href: security-roles-addresses.md
+    - name: Talent ไม่ปรากฏขึ้นในแอป Microsoft Dynamics 365 (CDS1.0)
+      href: talent-not-in-home-CDS.md
+    - name: ผู้ใช้สามารถเข้าถึง Core HR ได้ แต่ไม่สามารถเข้าถึงแอป Onboard หรือ Attract ได้
+      href: user-access-core-hr.md
+    - name: ตัวเลือกการรายงานใน Talent
+      href: talent-reporting-options.md
+    - name: FAQ เกี่ยวกับการรวม
+      href: talent-FO-integration.md
+    - name: ไม่พบผู้ใช้ Azure Active Directory ในตัวเลือกบุคคล
+      href: people-picker-user-not-found.md
+ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374838"

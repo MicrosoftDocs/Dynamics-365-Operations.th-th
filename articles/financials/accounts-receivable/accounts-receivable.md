@@ -1,13 +1,13 @@
 ---
-title: "โฮมเพจบัญชีลูกหนี้"
-description: "ใช้บัญชีลูกหนี้เพื่อติดตามใบแจ้งหนี้ของลูกค้าและการชำระเงินขาเข้า"
+title: โฮมเพจบัญชีลูกหนี้
+description: ใช้บัญชีลูกหนี้เพื่อติดตามใบแจ้งหนี้ของลูกค้าและการชำระเงินขาเข้า
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302965"
 ---
-
 # <a name="accounts-receivable-home-page"></a>โฮมเพจบัญชีลูกหนี้
 
 [!include [banner](../includes/banner.md)]
@@ -46,19 +45,19 @@ ms.lasthandoff: 08/09/2018
 :::row:::
     :::column:::
         - [การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [โพรไฟล์การลงรายการบัญชีของลูกค้า](customer-posting-profiles.md)
+        - [โพรไฟล์การลงรายการบัญชีลูกค้า](customer-posting-profiles.md)
         - [การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต](credit-card-authorizations.md)
         - [สร้างใบแจ้งหนี้ของลูกค้า](configure-customer-invoices.md)
-        - [ตั้งค่าและประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ](set-up-process-recurring-invoices.md)
+        - [ตั้งค่า และประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ](set-up-process-recurring-invoices.md)
         - [แก้ไขใบแจ้งหนี้ข้อความอิสระ](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
         - [ตั้งค่าตั๋วแลกเงิน](set-up-bills-exchange.md)
-        - [ตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย](set-up-interest-rates-interest-code.md)
+        - [การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย](set-up-interest-rates-interest-code.md)
         - [ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย](waive-reinstate-reverse-interest-fees.md)
         - [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](sepa-direct-debit-overview.md)
         - [ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA](sepa-direct-debit-mandate.md)
-        - [ปิดบัญชีลูกหนี้](close-accounts-receivable.md)
+        - [การปิดบัญชีลูกหนี้](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
 
@@ -80,12 +79,12 @@ ms.lasthandoff: 08/09/2018
 :::row:::
     :::column:::
         - [ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้ชำระเงินบางส่วนของลูกค้า](centralized-payments-accounts-receivable.md)
+        - [การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้](centralized-payments-accounts-receivable.md)
         - [ชำระเงินบางส่วนของลูกค้า และการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [ชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+        - [การชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
     :::column:::
-        - [ชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [การชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้](settle-partial-customer-payment-discounts-credit-notes.md)
         - [ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ](settle-partial-customer-payment-multiple-discount-periods.md)
         - [ชำระเงินคืนลูกค้า](reimburse-customers.md)
         - [การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน](customer-payments-partial-amount.md)
@@ -93,7 +92,7 @@ ms.lasthandoff: 08/09/2018
 :::row-end:::
 
 
-### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+### <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
@@ -101,7 +100,7 @@ ms.lasthandoff: 08/09/2018
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีลูกหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีลูกหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 
 มีโพสต์ต่างๆ เกี่ยวกับบัญชีลูกหนี้ใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้ถูกเขียนขึ้นสำหรับบัญชีลูกหนี้ในรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และขั้นตอนจะเหมือนกันในรุ่นปัจจุบัน
 
@@ -112,8 +111,7 @@ ms.lasthandoff: 08/09/2018
 
 #### <a name="videos"></a>วิดีโอ
 
-ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
-
+ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
 
 
 

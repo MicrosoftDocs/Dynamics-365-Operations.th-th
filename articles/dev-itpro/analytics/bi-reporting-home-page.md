@@ -1,13 +1,13 @@
 ---
-title: "โฮมเพจ Business intelligence (BI) และการรายงาน"
-description: "หัวข้อนี้นำคุณไปยังแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations"
+title: โฮมเพจ Business intelligence (BI) และการรายงาน
+description: หัวข้อนี้นำคุณไปยังแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302935"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>โฮมเพจ Business intelligence (BI) และการรายงาน
 
 [!include [banner](../includes/banner.md)]
@@ -37,9 +36,9 @@ ms.lasthandoff: 08/09/2018
 - [Finance and Operations: ข่าวกรองธุรกิจ](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (บล็อก)
 
 ## <a name="analytical-workspaces"></a>พื้นที่ทำงานการวิเคราะห์
-Finance and Operations มอบรายงานแบบโต้ตอบที่รวมเข้ากับพื้นที่ทำงานของแอพลิเคชันได้อย่างราบรื่น พื้นที่ทำงานสามารถใช้กราฟิกข้อมูลและภาพที่หลากหลายที่ได้รับการสนับสนุนโดย Microsoft Power BI กราฟิกข้อมูลและภาพเหล่านี้ประกอบด้วยตัวควบคุมจำนวนมากที่ระบุโดยบุคคลที่สาม ดังนั้น พื้นที่ทำงานจึงสามารถให้ประสบการณ์แบบโต้ตอบให้ผู้ให้เห็นภาพได้อย่างดี
+Finance and Operations มอบรายงานแบบโต้ตอบที่รวมเข้ากับพื้นที่ทำงานของแอปพลิเคชันได้อย่างราบรื่น พื้นที่ทำงานสามารถใช้กราฟิกข้อมูลและภาพที่หลากหลายที่ได้รับการสนับสนุนโดย Microsoft Power BI กราฟิกข้อมูลและภาพเหล่านี้ประกอบด้วยตัวควบคุมจำนวนมากที่เป็นของบุคคลที่สาม ดังนั้น พื้นที่ทำงานจึงสามารถให้ประสบการณ์แบบโต้ตอบให้ผู้ให้เห็นภาพได้อย่างดี
 
-ผู้ใช้สามารถโต้ตอบกับข้อมูลโดยการคลิก หรือแตะที่ภาพบนเพจ ผู้ใช้สามารถเห็นสาเหตุและผลกระทบ และทำการดำเนินการ what-if แบบง่ายโดยไม่ต้องออกจากพื้นที่ทำงาน ขอขอบคุณภาพแบบโต้ตอบอันน่าตื่นเต้นที่ผู้ใช้ของคุณจะสนุกกับการสำรวจข้อมูลและค้นพบแนวโน้มที่ซ่อนอยู่
+ผู้ใช้สามารถโต้ตอบกับข้อมูลโดยการคลิก หรือแตะที่ภาพบนเพจ ผู้ใช้สามารถเห็นสาเหตุและผลกระทบ และทำการดำเนินการ what-if แบบง่ายโดยไม่ต้องออกจากพื้นที่ทำงาน ด้วยภาพแบบโต้ตอบอันน่าตื่นเต้น ผู้ใช้ของคุณจะสนุกกับการสำรวจข้อมูลและค้นพบแนวโน้มที่ซ่อนอยู่
 
 ![ตัวอย่างของ Power BI ในพื้นที่ทำงาน](./media/Power-BI-in-D365-Workspace.png)
 
@@ -47,9 +46,9 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 
 - [Power BI ที่ฝังในพื้นที่ทำงาน](embed-power-bi-workspaces.md)
 - [การรวม Power BI Embedded](power-bi-embedded-integration.md)
-- [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI Embedded](add-analytics-tab-workspaces.md)
-- [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยการใช้ Power BI Embedded](secure-analytical-workspaces.md)
-- [เนื้อหา Power BI สำหรับ Finance and Operations](power-bi-home-page.md)
+- [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded](add-analytics-tab-workspaces.md)
+- [ช่วยรักษาความปลอดภัยให้กับพื้นที่ทำงานและรายงานเชิงวิเคราะห์โดยใช้ Power BI Embedded](secure-analytical-workspaces.md)
+- [เนื้อหาของ Power BI สำหรับ Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>เอกสารทางธุรกิจและการพิมพ์
 โซลูชันการรายงานมักใช้สำหรับเก็บบันทึกและสื่อสารรายละเอียดของธุรกรรมทางธุรกิจ ดังนั้นโซลูชันการรายงานจึงต้องสามารถสร้างการแสดงรายการข้อมูลทางธุรกิจจริงโดยใช้อุปกรณ์ที่มีอยู่ เช่นเครื่องพิมพ์บนเครือข่าย ตัวอย่างของเอกสารทางธุรกิจได้แก่ใบแจ้งหนี้การขาย รายงานสรุปยอดบัญชีลูกค้า และเช็ค
@@ -59,7 +58,7 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
 - [ภาพรวมของ Document Reporting Services](document-reporting-services.md)
-- [การพิมพ์ในแอพลิเคชัน Finance and Operations](print-documents.md)
+- [การพิมพ์ในแอปพลิเคชัน Finance and Operations](print-documents.md)
 - [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานอุปกรณ์เครื่องพิมพ์เครือข่าย](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
@@ -91,4 +90,3 @@ Finance and Operations มอบรายงานแบบโต้ตอบท
 - [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](../sysadmin/license-codes-configuration-keys-report.md)
 - [รายงานเกี่ยวกับรายงานของ SQL Server Reporting Services](SSRS-report.md)
 - [รายงานชนิดลำดับงาน](../../fin-and-ops/organization-administration/workflow-types-report.md)
-
