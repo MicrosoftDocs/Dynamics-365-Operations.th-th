@@ -1,59 +1,57 @@
 ---
-title: "ย้ายรายการใบสั่งบริการ"
-description: "ย้ายรายการใบสั่งบริการ"
+title: ย้ายรายการใบสั่งบริการ
+description: ย้ายรายการใบสั่งบริการ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 1ae467efc273e112ea9330d8578d57ae3e22240f
-ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312841"
 ---
-
-# <a name="move-service-order-lines"></a><span data-ttu-id="ffea2-103">ย้ายรายการใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="ffea2-103">Move service order lines</span></span> 
+# <a name="move-service-order-lines"></a><span data-ttu-id="b423c-103">ย้ายรายการใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="b423c-103">Move service order lines</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="ffea2-104">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="ffea2-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="b423c-104">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="b423c-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="ffea2-105">คลิกสองครั้งที่ใบสั่งบริการที่มีรายการที่คุณต้องการย้ายไปยังใบสั่งบริการอื่น</span><span class="sxs-lookup"><span data-stu-id="ffea2-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
+2.  <span data-ttu-id="b423c-105">คลิกสองครั้งที่ใบสั่งบริการที่มีรายการที่คุณต้องการย้ายไปยังใบสั่งบริการอื่น</span><span class="sxs-lookup"><span data-stu-id="b423c-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
 
-3.  <span data-ttu-id="ffea2-106">ในฟอร์ม **ใบสั่งบริการ** บนบานหน้าต่างการดำเนินการ คลิกปุ่ม **ย้ายรายการ**</span><span class="sxs-lookup"><span data-stu-id="ffea2-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
+3.  <span data-ttu-id="b423c-106">ในฟอร์ม **ใบสั่งบริการ** บนบานหน้าต่างการดำเนินการ คลิกปุ่ม **ย้ายรายการ**</span><span class="sxs-lookup"><span data-stu-id="b423c-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
 
-4.  <span data-ttu-id="ffea2-107">ในฟอร์ม **ย้ายรายการใบสั่งบริการ** ในฟิลด์ **ใบสั่งบริการ** เลือกใบสั่งบริการที่คุณต้องการย้ายบรรทัดไป</span><span class="sxs-lookup"><span data-stu-id="ffea2-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
+4.  <span data-ttu-id="b423c-107">ในฟอร์ม **ย้ายรายการใบสั่งบริการ** ในฟิลด์ **ใบสั่งบริการ** เลือกใบสั่งบริการที่คุณต้องการย้ายบรรทัดไป</span><span class="sxs-lookup"><span data-stu-id="b423c-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
 
-5.  <span data-ttu-id="ffea2-108">เลือกกล่องกาเครื่องหมาย **ลบใบสั่งบริการที่ว่าง** ถ้าคุณต้องการลบใบสั่งบริการที่คุณย้ายรายการใบสั่งบริการมา</span><span class="sxs-lookup"><span data-stu-id="ffea2-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
+5.  <span data-ttu-id="b423c-108">เลือกกล่องกาเครื่องหมาย **ลบใบสั่งบริการที่ว่าง** ถ้าคุณต้องการลบใบสั่งบริการที่คุณย้ายรายการใบสั่งบริการมา</span><span class="sxs-lookup"><span data-stu-id="b423c-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
 
-6.  <span data-ttu-id="ffea2-109">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="ffea2-109">Click **OK**.</span></span>
+6.  <span data-ttu-id="b423c-109">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="b423c-109">Click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="ffea2-110">คุณสามารถย้ายรายการใบสั่งบริการได้เฉพาะระหว่างใบสั่งบริการที่แนบกับข้อตกลงการให้บริการเดียวกันเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="ffea2-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
+> <P><span data-ttu-id="b423c-110">คุณสามารถย้ายรายการใบสั่งบริการได้เฉพาะระหว่างใบสั่งบริการที่แนบกับข้อตกลงการให้บริการเดียวกันเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="b423c-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ffea2-111">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="ffea2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b423c-111">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="b423c-111">See also</span></span>
 
-[<span data-ttu-id="ffea2-112">ใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="ffea2-112">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="b423c-112">ใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="b423c-112">Service orders</span></span>](service-orders.md)
 
   
-
 
 

@@ -1,13 +1,13 @@
---- 
-title: "สร้างการคาดการณ์พื้นฐาน"
-description: "ผู้วางแผนการผลิตสามารถสร้างการคาดการณ์พื้นฐาน โดยใช้แบบจำลองการคาดการณ์อนุกรมเวลา หรือ โดยการคัดลอกประวัติความต้องการ "
+---
+title: สร้างการคาดการณ์พื้นฐาน
+description: 'ผู้วางแผนการผลิตสามารถสร้างการคาดการณ์พื้นฐาน โดยใช้แบบจำลองการคาดการณ์อนุกรมเวลา หรือ โดยการคัดลอกประวัติความต้องการ '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,70 +16,69 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0d23e245ed1c084c26554ef3f859fdadaef9990d
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310058"
 ---
-# <a name="create-a-baseline-forecast"></a><span data-ttu-id="da7be-103">สร้างการคาดการณ์พื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="da7be-103">Create a baseline forecast</span></span>
+# <a name="create-a-baseline-forecast"></a><span data-ttu-id="87768-103">สร้างการคาดการณ์พื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="87768-103">Create a baseline forecast</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="da7be-104">ผู้วางแผนการผลิตสามารถสร้างการคาดการณ์พื้นฐาน โดยใช้แบบจำลองการคาดการณ์อนุกรมเวลา หรือ โดยการคัดลอกประวัติความต้องการ </span><span class="sxs-lookup"><span data-stu-id="da7be-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="da7be-105">กระบวนงานนี้แสดงวิธีการคัดลอกความต้องการในอดีตเพื่อสร้างการคาดการณ์พื้นฐานสำหรับผลิตภัณฑ์ทั้งหมดโดยใช้คีย์การปันส่วนสินค้า</span><span class="sxs-lookup"><span data-stu-id="da7be-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
+<span data-ttu-id="87768-104">ผู้วางแผนการผลิตสามารถสร้างการคาดการณ์พื้นฐาน โดยใช้แบบจำลองการคาดการณ์อนุกรมเวลา หรือ โดยการคัดลอกประวัติความต้องการ </span><span class="sxs-lookup"><span data-stu-id="87768-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="87768-105">กระบวนงานนี้แสดงวิธีการคัดลอกความต้องการในอดีตเพื่อสร้างการคาดการณ์พื้นฐานสำหรับผลิตภัณฑ์ทั้งหมดโดยใช้คีย์การปันส่วนสินค้า</span><span class="sxs-lookup"><span data-stu-id="87768-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
 
 
-## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="da7be-106">การตั้งค่าคีย์การปันส่วนสินค้า</span><span class="sxs-lookup"><span data-stu-id="da7be-106">Set up an item allocation key</span></span>
-1. <span data-ttu-id="da7be-107">ไปที่ การวางแผนหลัก > การตั้งค่า > กลุ่มการวางแผนระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="da7be-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
-2. <span data-ttu-id="da7be-108">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="da7be-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="da7be-109">เช่น กรองข้อมูลในฟิลด์รายชื่อด้วยค่า 10</span><span class="sxs-lookup"><span data-stu-id="da7be-109">For example, filter on the Name field with a value of '10'.</span></span>
-    * <span data-ttu-id="da7be-110">การคาดการณ์ความต้องการรันระหว่างนิติบุคคล </span><span class="sxs-lookup"><span data-stu-id="da7be-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="da7be-111">นั่นคือเหตุผลที่คุณต้องตั้งค่าบริษัททั้งหมดที่คุณต้องการสร้างการคาดการณ์ในระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="da7be-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
-3. <span data-ttu-id="da7be-112">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="da7be-112">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="da7be-113">คลิก คีย์การปันส่วนสินค้า</span><span class="sxs-lookup"><span data-stu-id="da7be-113">Click Item allocation keys.</span></span>
-    * <span data-ttu-id="da7be-114">เลือกคีย์การปันส่วนสินค้าทั้งหมดที่คุณต้องการสร้างการคาดการณ์ </span><span class="sxs-lookup"><span data-stu-id="da7be-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
-5. <span data-ttu-id="da7be-115">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="da7be-115">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="da7be-116">เลือกคีย์การปันส่วนสินค้า D_Aloc </span><span class="sxs-lookup"><span data-stu-id="da7be-116">Select D_Aloc item allocation key.</span></span>  
-6. <span data-ttu-id="da7be-117">คลิก ></span><span class="sxs-lookup"><span data-stu-id="da7be-117">Click >.</span></span>
-7. <span data-ttu-id="da7be-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="da7be-118">Close the page.</span></span>
-8. <span data-ttu-id="da7be-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="da7be-119">Close the page.</span></span>
+## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="87768-106">การตั้งค่าคีย์การปันส่วนสินค้า</span><span class="sxs-lookup"><span data-stu-id="87768-106">Set up an item allocation key</span></span>
+1. <span data-ttu-id="87768-107">ไปที่ การวางแผนหลัก > การตั้งค่า > กลุ่มการวางแผนระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="87768-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
+2. <span data-ttu-id="87768-108">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="87768-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="87768-109">เช่น กรองข้อมูลในฟิลด์รายชื่อด้วยค่า 10</span><span class="sxs-lookup"><span data-stu-id="87768-109">For example, filter on the Name field with a value of '10'.</span></span>
+    * <span data-ttu-id="87768-110">การคาดการณ์ความต้องการรันระหว่างนิติบุคคล </span><span class="sxs-lookup"><span data-stu-id="87768-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="87768-111">นั่นคือเหตุผลที่คุณต้องตั้งค่าบริษัททั้งหมดที่คุณต้องการสร้างการคาดการณ์ในระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="87768-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
+3. <span data-ttu-id="87768-112">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="87768-112">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="87768-113">คลิก คีย์การปันส่วนสินค้า</span><span class="sxs-lookup"><span data-stu-id="87768-113">Click Item allocation keys.</span></span>
+    * <span data-ttu-id="87768-114">เลือกคีย์การปันส่วนสินค้าทั้งหมดที่คุณต้องการสร้างการคาดการณ์ </span><span class="sxs-lookup"><span data-stu-id="87768-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
+5. <span data-ttu-id="87768-115">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="87768-115">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="87768-116">เลือกคีย์การปันส่วนสินค้า D_Aloc </span><span class="sxs-lookup"><span data-stu-id="87768-116">Select D_Aloc item allocation key.</span></span>  
+6. <span data-ttu-id="87768-117">คลิก ></span><span class="sxs-lookup"><span data-stu-id="87768-117">Click >.</span></span>
+7. <span data-ttu-id="87768-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="87768-118">Close the page.</span></span>
+8. <span data-ttu-id="87768-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="87768-119">Close the page.</span></span>
 
-## <a name="set-up-the-demand-forecasting-paramters"></a><span data-ttu-id="da7be-120">ตั้งค่าพารามิเตอร์การคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="da7be-120">Set up the demand forecasting paramters</span></span>
-1. <span data-ttu-id="da7be-121">ไปที่ การวางแผนหลัก >การตั้งค่า > การคาดการณ์ความต้องการ > พารามิเตอร์การคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="da7be-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
-2. <span data-ttu-id="da7be-122">ขยายส่วนพารามิเตอร์อัลกอริทึมการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="da7be-122">Expand the Forecast algorithm parameters section.</span></span>
-3. <span data-ttu-id="da7be-123">ในฟิลด์กลยุทธ์การสร้างการคาดการณ์ เลือก 'คัดลอกความต้องการในอดีต' </span><span class="sxs-lookup"><span data-stu-id="da7be-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
-4. <span data-ttu-id="da7be-124">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="da7be-124">Click Save.</span></span>
+## <a name="set-up-the-demand-forecasting-paramters"></a><span data-ttu-id="87768-120">ตั้งค่าพารามิเตอร์การคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="87768-120">Set up the demand forecasting paramters</span></span>
+1. <span data-ttu-id="87768-121">ไปที่ การวางแผนหลัก >การตั้งค่า > การคาดการณ์ความต้องการ > พารามิเตอร์การคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="87768-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
+2. <span data-ttu-id="87768-122">ขยายส่วนพารามิเตอร์อัลกอริทึมการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="87768-122">Expand the Forecast algorithm parameters section.</span></span>
+3. <span data-ttu-id="87768-123">ในฟิลด์กลยุทธ์การสร้างการคาดการณ์ เลือก 'คัดลอกความต้องการในอดีต' </span><span class="sxs-lookup"><span data-stu-id="87768-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
+4. <span data-ttu-id="87768-124">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="87768-124">Click Save.</span></span>
 
-## <a name="create-a-baseline-forecast"></a><span data-ttu-id="da7be-125">สร้างการคาดการณ์พื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="da7be-125">Create a baseline forecast</span></span>
-1. <span data-ttu-id="da7be-126">ไปที่ การวางแผนหลัก > การคาดการณ์ > การคาดการณ์ความต้องการ > การสร้างการคาดการณ์พื้นฐานทางสถิติ</span><span class="sxs-lookup"><span data-stu-id="da7be-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
-2. <span data-ttu-id="da7be-127">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="da7be-127">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="da7be-128">ถ้าคุณมีใบสั่งขายที่เริ่มต้นจากวันที่ 1 มกราคม 2015 ให้ป้อนวันที่นี้ </span><span class="sxs-lookup"><span data-stu-id="da7be-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="da7be-129">ถ้าหากคุณไม่มี ให้ป้อนวันที่แรกสุดของใบสั่งขายของคุณ</span><span class="sxs-lookup"><span data-stu-id="da7be-129">If you don't, enter the earliest date of your sales orders.</span></span>  
-3. <span data-ttu-id="da7be-130">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="da7be-130">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="da7be-131">ป้อนวันที่ล่าสุดของใบสั่งขายของคุณ ตัวอย่างเช่น 31 มีนาคม 2015</span><span class="sxs-lookup"><span data-stu-id="da7be-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
-4. <span data-ttu-id="da7be-132">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="da7be-132">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="da7be-133">ป้อน 1 เมษายน 2015 </span><span class="sxs-lookup"><span data-stu-id="da7be-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="da7be-134">วันที่นี้จะสามารถคำนวณโดยอัตโนมัติเหมือนเป็นวันเริ่มต้นของกลุ่มการคาดการณ์กลุ่มถัดไป </span><span class="sxs-lookup"><span data-stu-id="da7be-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
-5. <span data-ttu-id="da7be-135">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="da7be-135">Expand the Records to include section.</span></span>
-6. <span data-ttu-id="da7be-136">คลิกตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="da7be-136">Click Filter.</span></span>
-7. <span data-ttu-id="da7be-137">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="da7be-137">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="da7be-138">ทำเครื่องหมายในฟิลด์แถว = กลุ่มการวางแผนระหว่างบริษัท </span><span class="sxs-lookup"><span data-stu-id="da7be-138">Mark the row where Field = Intercompany planning group.</span></span>  
-8. <span data-ttu-id="da7be-139">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="da7be-139">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="da7be-140">พิมพ์กลุ่มการวางแผนระหว่างบริษัท ตัวอย่างเช่น 10 ที่คุณใช้ในงานแรก</span><span class="sxs-lookup"><span data-stu-id="da7be-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
-9. <span data-ttu-id="da7be-141">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="da7be-141">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="da7be-142">เลือกฟิลด์แถว = คีย์การปันส่วนสินค้า </span><span class="sxs-lookup"><span data-stu-id="da7be-142">Select the row where Field = Item allocation key.</span></span>  
-10. <span data-ttu-id="da7be-143">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="da7be-143">In the Criteria field, type a value.</span></span>
-11. <span data-ttu-id="da7be-144">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="da7be-144">Click OK.</span></span>
-12. <span data-ttu-id="da7be-145">ขยายส่วนพารามิเตอร์ขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="da7be-145">Expand the Advanced parameters section.</span></span>
-13. <span data-ttu-id="da7be-146">ในฟิลด์กลุ่มการคาดการณ์ เลือก 'เดือน'</span><span class="sxs-lookup"><span data-stu-id="da7be-146">In the Forecast bucket field, select 'Month'.</span></span>
-14. <span data-ttu-id="da7be-147">ในฟิลด์ระดับการคาดการณ์ ให้ป้อน '3'</span><span class="sxs-lookup"><span data-stu-id="da7be-147">In the Forecast horizon field, enter '3'.</span></span>
-15. <span data-ttu-id="da7be-148">ในฟิลด์กรอบการหยุดเวลา ให้ป้อน '1'</span><span class="sxs-lookup"><span data-stu-id="da7be-148">In the Freeze time fence field, enter '1'.</span></span>
-16. <span data-ttu-id="da7be-149">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="da7be-149">Click OK.</span></span>
+## <a name="create-a-baseline-forecast"></a><span data-ttu-id="87768-125">สร้างการคาดการณ์พื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="87768-125">Create a baseline forecast</span></span>
+1. <span data-ttu-id="87768-126">ไปที่ การวางแผนหลัก > การคาดการณ์ > การคาดการณ์ความต้องการ > การสร้างการคาดการณ์พื้นฐานทางสถิติ</span><span class="sxs-lookup"><span data-stu-id="87768-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
+2. <span data-ttu-id="87768-127">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="87768-127">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="87768-128">ถ้าคุณมีใบสั่งขายที่เริ่มต้นจากวันที่ 1 มกราคม 2015 ให้ป้อนวันที่นี้ </span><span class="sxs-lookup"><span data-stu-id="87768-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="87768-129">ถ้าหากคุณไม่มี ให้ป้อนวันที่แรกสุดของใบสั่งขายของคุณ</span><span class="sxs-lookup"><span data-stu-id="87768-129">If you don't, enter the earliest date of your sales orders.</span></span>  
+3. <span data-ttu-id="87768-130">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="87768-130">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="87768-131">ป้อนวันที่ล่าสุดของใบสั่งขายของคุณ ตัวอย่างเช่น 31 มีนาคม 2015</span><span class="sxs-lookup"><span data-stu-id="87768-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
+4. <span data-ttu-id="87768-132">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="87768-132">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="87768-133">ป้อน 1 เมษายน 2015 </span><span class="sxs-lookup"><span data-stu-id="87768-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="87768-134">วันที่นี้จะสามารถคำนวณโดยอัตโนมัติเหมือนเป็นวันเริ่มต้นของกลุ่มการคาดการณ์กลุ่มถัดไป </span><span class="sxs-lookup"><span data-stu-id="87768-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
+5. <span data-ttu-id="87768-135">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="87768-135">Expand the Records to include section.</span></span>
+6. <span data-ttu-id="87768-136">คลิกตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="87768-136">Click Filter.</span></span>
+7. <span data-ttu-id="87768-137">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="87768-137">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="87768-138">ทำเครื่องหมายในฟิลด์แถว = กลุ่มการวางแผนระหว่างบริษัท </span><span class="sxs-lookup"><span data-stu-id="87768-138">Mark the row where Field = Intercompany planning group.</span></span>  
+8. <span data-ttu-id="87768-139">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="87768-139">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="87768-140">พิมพ์กลุ่มการวางแผนระหว่างบริษัท ตัวอย่างเช่น 10 ที่คุณใช้ในงานแรก</span><span class="sxs-lookup"><span data-stu-id="87768-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
+9. <span data-ttu-id="87768-141">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="87768-141">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="87768-142">เลือกฟิลด์แถว = คีย์การปันส่วนสินค้า </span><span class="sxs-lookup"><span data-stu-id="87768-142">Select the row where Field = Item allocation key.</span></span>  
+10. <span data-ttu-id="87768-143">ในฟิลด์กรณี ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="87768-143">In the Criteria field, type a value.</span></span>
+11. <span data-ttu-id="87768-144">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="87768-144">Click OK.</span></span>
+12. <span data-ttu-id="87768-145">ขยายส่วนพารามิเตอร์ขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="87768-145">Expand the Advanced parameters section.</span></span>
+13. <span data-ttu-id="87768-146">ในฟิลด์กลุ่มการคาดการณ์ เลือก 'เดือน'</span><span class="sxs-lookup"><span data-stu-id="87768-146">In the Forecast bucket field, select 'Month'.</span></span>
+14. <span data-ttu-id="87768-147">ในฟิลด์ระดับการคาดการณ์ ให้ป้อน '3'</span><span class="sxs-lookup"><span data-stu-id="87768-147">In the Forecast horizon field, enter '3'.</span></span>
+15. <span data-ttu-id="87768-148">ในฟิลด์กรอบการหยุดเวลา ให้ป้อน '1'</span><span class="sxs-lookup"><span data-stu-id="87768-148">In the Freeze time fence field, enter '1'.</span></span>
+16. <span data-ttu-id="87768-149">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="87768-149">Click OK.</span></span>
 
-## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="da7be-150">แสดงการคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="da7be-150">Visualize the demand forecast</span></span>
-1. <span data-ttu-id="da7be-151">ไปที่ การวางแผนหลัก > การคาดการณ์ > การคาดการณ์ความต้องการ > การคาดการณ์ความต้องการที่ปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="da7be-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
-2. <span data-ttu-id="da7be-152">ในตาราง มุมมองแบบรวม ให้เลือกเซลล์ในแถว 1 , คอลัมน์ 2</span><span class="sxs-lookup"><span data-stu-id="da7be-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="da7be-153">นี่คือเดือนที่สองที่คุณได้สร้างการคาดการณ์ไว้</span><span class="sxs-lookup"><span data-stu-id="da7be-153">This is the second month for which you have created forecast.</span></span>
-3. <span data-ttu-id="da7be-154">ตั้งค่าเซลล์ปริมาณ เป็น '400'</span><span class="sxs-lookup"><span data-stu-id="da7be-154">Set QtyCell to '400'.</span></span>
-    * <span data-ttu-id="da7be-155">ในเซลล์ ป้อนหมายเลขที่แตกต่างกันจากหมายเลขที่มีการคาดการณ์ ตัวอย่างเช่น 400</span><span class="sxs-lookup"><span data-stu-id="da7be-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
-4. <span data-ttu-id="da7be-156">คุณได้ทำการปรับปรุงการคาดการณ์ด้วยตนเอง </span><span class="sxs-lookup"><span data-stu-id="da7be-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="da7be-157">โปรดสังเกตการบ่งชี้ที่แสดงเป็นรูปภาพในขั้นตอนถัดไป</span><span class="sxs-lookup"><span data-stu-id="da7be-157">Notice the graphical indication in the next step.</span></span>
-5. <span data-ttu-id="da7be-158">คลิก รายละเอียดรายการการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="da7be-158">Click Forecast line details.</span></span>
-    * <span data-ttu-id="da7be-159">ในหน้านี้ คุณสามารถดูค่าความถูกต้อง ความต้องการในอดีต และการคาดการณ์ </span><span class="sxs-lookup"><span data-stu-id="da7be-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="da7be-160">คุณสามารถทำการเปลี่ยนแปลงการคาดการณ์ได้ด้วยเช่นกัน</span><span class="sxs-lookup"><span data-stu-id="da7be-160">You can make changes to the forecast as well.</span></span>  
-
+## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="87768-150">แสดงการคาดการณ์ความต้องการ</span><span class="sxs-lookup"><span data-stu-id="87768-150">Visualize the demand forecast</span></span>
+1. <span data-ttu-id="87768-151">ไปที่ การวางแผนหลัก > การคาดการณ์ > การคาดการณ์ความต้องการ > การคาดการณ์ความต้องการที่ปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="87768-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
+2. <span data-ttu-id="87768-152">ในตาราง มุมมองแบบรวม ให้เลือกเซลล์ในแถว 1 , คอลัมน์ 2</span><span class="sxs-lookup"><span data-stu-id="87768-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="87768-153">นี่คือเดือนที่สองที่คุณได้สร้างการคาดการณ์ไว้</span><span class="sxs-lookup"><span data-stu-id="87768-153">This is the second month for which you have created forecast.</span></span>
+3. <span data-ttu-id="87768-154">ตั้งค่าเซลล์ปริมาณ เป็น '400'</span><span class="sxs-lookup"><span data-stu-id="87768-154">Set QtyCell to '400'.</span></span>
+    * <span data-ttu-id="87768-155">ในเซลล์ ป้อนหมายเลขที่แตกต่างกันจากหมายเลขที่มีการคาดการณ์ ตัวอย่างเช่น 400</span><span class="sxs-lookup"><span data-stu-id="87768-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
+4. <span data-ttu-id="87768-156">คุณได้ทำการปรับปรุงการคาดการณ์ด้วยตนเอง </span><span class="sxs-lookup"><span data-stu-id="87768-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="87768-157">โปรดสังเกตการบ่งชี้ที่แสดงเป็นรูปภาพในขั้นตอนถัดไป</span><span class="sxs-lookup"><span data-stu-id="87768-157">Notice the graphical indication in the next step.</span></span>
+5. <span data-ttu-id="87768-158">คลิก รายละเอียดรายการการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="87768-158">Click Forecast line details.</span></span>
+    * <span data-ttu-id="87768-159">ในหน้านี้ คุณสามารถดูค่าความถูกต้อง ความต้องการในอดีต และการคาดการณ์ </span><span class="sxs-lookup"><span data-stu-id="87768-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="87768-160">คุณสามารถทำการเปลี่ยนแปลงการคาดการณ์ได้ด้วยเช่นกัน</span><span class="sxs-lookup"><span data-stu-id="87768-160">You can make changes to the forecast as well.</span></span>  
 

@@ -1,13 +1,13 @@
 ---
-title: "ใช้การติดตามสำหรับการกระจาย"
-description: "บทความนี้อธิบายวิธีที่คุณสามารถใช้สืบค้นการสำรวจสาเหตุของผลลัพธ์ของการกระจายใบสั่ง"
+title: ใช้การติดตามสำหรับการกระจาย
+description: บทความนี้อธิบายวิธีที่คุณสามารถใช้สืบค้นการสำรวจสาเหตุของผลลัพธ์ของการกระจายใบสั่ง
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: josaw
@@ -19,34 +19,32 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d4a6123d7443cce51e95aa6d1fdb1fdc19d001d1
-ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309460"
 ---
-
-# <a name="use-tracing-for-explosion"></a><span data-ttu-id="387b1-103">ใช้การติดตามสำหรับการกระจาย</span><span class="sxs-lookup"><span data-stu-id="387b1-103">Use tracing for explosion</span></span>
+# <a name="use-tracing-for-explosion"></a><span data-ttu-id="8e648-103">ใช้การติดตามสำหรับการกระจาย</span><span class="sxs-lookup"><span data-stu-id="8e648-103">Use tracing for explosion</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="387b1-104">บทความนี้อธิบายวิธีที่คุณสามารถใช้สืบค้นการสำรวจสาเหตุของผลลัพธ์ของการกระจายใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="387b1-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
+<span data-ttu-id="8e648-104">บทความนี้อธิบายวิธีที่คุณสามารถใช้สืบค้นการสำรวจสาเหตุของผลลัพธ์ของการกระจายใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8e648-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 
-<span data-ttu-id="387b1-105">เปิดใช้งานการติดตาม คุณสามารถดูข้อมูลเกี่ยวกับปัจจัยที่จัดสรรให้กับผลลัพธ์ของการกระจายของใบสั่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="387b1-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="387b1-106">ตัวอย่างต่อไปนี้จะแสดงวิธีการใช้งานข้อมูลการติดตาม</span><span class="sxs-lookup"><span data-stu-id="387b1-106">The following examples show how you can use the tracing information:</span></span>
+<span data-ttu-id="8e648-105">เปิดใช้งานการติดตาม คุณสามารถดูข้อมูลเกี่ยวกับปัจจัยที่จัดสรรให้กับผลลัพธ์ของการกระจายของใบสั่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="8e648-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="8e648-106">ตัวอย่างต่อไปนี้จะแสดงวิธีการใช้งานข้อมูลการติดตาม</span><span class="sxs-lookup"><span data-stu-id="8e648-106">The following examples show how you can use the tracing information:</span></span>
 
--   <span data-ttu-id="387b1-107">ดูความสัมพันธ์ระหว่างการดำเนินการบนแผนการใบสั่งเพื่อเพิ่มประสิทธิภาพห่วงโซ่อุปทานและการจองสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="387b1-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
--   <span data-ttu-id="387b1-108">ดูความสัมพันธ์กับใบสั่งที่ได้รับการอนุมัติแล้ว</span><span class="sxs-lookup"><span data-stu-id="387b1-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="387b1-109">คุณสามารถโฟกัสการยืนยันความต้องการที่ได้รับมาโดยอัตโนมัติ และจัดระดับความสำคัญของใบสั่งได้แม่นยำมากขึ้นอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="387b1-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
--   <span data-ttu-id="387b1-110">จำลองผลการวางแผนเพื่อตรวจสอบว่าพารามิเตอร์การวางแผนงานมีประสิทธิภาพหรือไม่</span><span class="sxs-lookup"><span data-stu-id="387b1-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
--   <span data-ttu-id="387b1-111">ระบุวิธีกำหนดข้อมูล เช่น วันที่ผลิต ปริมาณ และระดับความสำคัญสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="387b1-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
+-   <span data-ttu-id="8e648-107">ดูความสัมพันธ์ระหว่างการดำเนินการบนแผนการใบสั่งเพื่อเพิ่มประสิทธิภาพห่วงโซ่อุปทานและการจองสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="8e648-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
+-   <span data-ttu-id="8e648-108">ดูความสัมพันธ์กับใบสั่งที่ได้รับการอนุมัติแล้ว</span><span class="sxs-lookup"><span data-stu-id="8e648-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="8e648-109">คุณสามารถโฟกัสการยืนยันความต้องการที่ได้รับมาโดยอัตโนมัติ และจัดระดับความสำคัญของใบสั่งได้แม่นยำมากขึ้นอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="8e648-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
+-   <span data-ttu-id="8e648-110">จำลองผลการวางแผนเพื่อตรวจสอบว่าพารามิเตอร์การวางแผนงานมีประสิทธิภาพหรือไม่</span><span class="sxs-lookup"><span data-stu-id="8e648-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
+-   <span data-ttu-id="8e648-111">ระบุวิธีกำหนดข้อมูล เช่น วันที่ผลิต ปริมาณ และระดับความสำคัญสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8e648-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
 
-<span data-ttu-id="387b1-112">คุณสามารถดูรายละเอียดเกี่ยวกับแผนล่วงหน้าและการดำเนินการสำหรับใบสั่งที่เลือก</span><span class="sxs-lookup"><span data-stu-id="387b1-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="387b1-113">บนหน้า **การกระจาย** รายละเอียดการติดตามจะพร้อมใช้งานบนแท็บ **คำอธิบาย** ในบานหน้าต่างด้านบน</span><span class="sxs-lookup"><span data-stu-id="387b1-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="387b1-114">การติดตามเกิดขึ้นเมื่อคุณขยายใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="387b1-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="387b1-115">เมื่อต้องการเริ่มต้นการติดตามสำหรับใบสั่ง คลิก **อัพเดต**และเลือกกล่องกาเครื่องหมาย **เปิดใช้งานการติดตาม**</span><span class="sxs-lookup"><span data-stu-id="387b1-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="387b1-116">คุณสามารถใช้ฟิลด์ **ค้นหาข้อความ** เพื่อค้นหาล็อกสำหรับข้อมูลเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="387b1-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="387b1-117">ผลการค้นหาจะถูกเน้นในแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="387b1-117">Search results are highlighted in the tree.</span></span>
+<span data-ttu-id="8e648-112">คุณสามารถดูรายละเอียดเกี่ยวกับแผนล่วงหน้าและการดำเนินการสำหรับใบสั่งที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8e648-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="8e648-113">บนหน้า **การกระจาย** รายละเอียดการติดตามจะพร้อมใช้งานบนแท็บ **คำอธิบาย** ในบานหน้าต่างด้านบน</span><span class="sxs-lookup"><span data-stu-id="8e648-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="8e648-114">การติดตามเกิดขึ้นเมื่อคุณขยายใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8e648-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="8e648-115">เมื่อต้องการเริ่มต้นการติดตามสำหรับใบสั่ง คลิก **อัพเดต**และเลือกกล่องกาเครื่องหมาย **เปิดใช้งานการติดตาม**</span><span class="sxs-lookup"><span data-stu-id="8e648-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="8e648-116">คุณสามารถใช้ฟิลด์ **ค้นหาข้อความ** เพื่อค้นหาล็อกสำหรับข้อมูลเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="8e648-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="8e648-117">ผลการค้นหาจะถูกเน้นในแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="8e648-117">Search results are highlighted in the tree.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="387b1-118">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="387b1-118">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="8e648-118">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="8e648-118">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="387b1-119">แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="387b1-119">Master plans</span></span>](master-plans.md)
-
+[<span data-ttu-id="8e648-119">แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="8e648-119">Master plans</span></span>](master-plans.md)
 
 
 
