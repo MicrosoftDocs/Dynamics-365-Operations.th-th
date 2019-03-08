@@ -1,13 +1,13 @@
 ---
-title: "คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)"
-description: "บทความนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่"
+title: คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)
+description: บทความนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341361"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -33,14 +32,14 @@ ms.lasthandoff: 12/18/2018
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>คู่มืองานใน (พฤษภาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX
 
-(พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดต Microsoft Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานที่ถูกนำออกใช้ใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC จะมีอยู่ในไลบรารี่นี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
+(พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีไว้เพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดต Microsoft Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานที่ถูกนำออกใช้ใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC จะมีอยู่ในไลบรารี่นี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
 
 > [!NOTE]
 > เครื่องหมายดอกจัน (\*) ที่อยู่ถัดจากชื่อเรื่องของรายการตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บ่งชี้ว่าคู่มืองานสำหรับกระบวนการทางธุรกิจถูกสร้างขึ้นสำหรับการอัพเดต Dynamics AX พฤษภาคม 2016 และไม่ได้รับการสนับสนุนในเวอร์ชันก่อนหน้านี้ของ Microsoft Dynamics AX
 
 ### <a name="countryregion-functionality"></a>ฟังก์ชันประเทศ/ภูมิภาค
 
-| รายการ BPM                                                                 | ประเทศ/ภูมิภาค                    |
+| บรรทัด BPM                                                                 | ประเทศ/ภูมิภาค                    |
 |--------------------------------------------------------------------------|-----------------------------------|
 | ตั้งค่าการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ OIOUBL                                       | เดนมาร์ก                           |
 | EUR-00002 สร้างการรายงานอินทราสแทตใน EU                           | ยุโรป                            |
@@ -195,4 +194,3 @@ ms.lasthandoff: 12/18/2018
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)](new-updated-task-guides-available-august-2016.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)](new-task-guides-november-2016.md)
-

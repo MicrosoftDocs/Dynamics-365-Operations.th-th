@@ -1,13 +1,13 @@
---- 
-title: "การตั้งค่าสมุดบัญชีค่าเสื่อมราคา (พฤษภาคม 2016)"
-description: "คำแนะนำของงานนี้จะสร้างสมุดค่าเสื่อมราคาใหม่และเชื่อมโยงกับสินทรัพย์ถาวร "
+---
+title: การตั้งค่าสมุดบัญชีค่าเสื่อมราคา (พฤษภาคม 2016)
+description: 'คำแนะนำของงานนี้จะสร้างสมุดค่าเสื่อมราคาใหม่และเชื่อมโยงกับสินทรัพย์ถาวร '
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1fd53ea1dff9b116d19c525c5d6967ece0993b6f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355575"
 ---
 # <a name="set-up-depreciation-books-may-2016"></a>การตั้งค่าสมุดบัญชีค่าเสื่อมราคา (พฤษภาคม 2016)
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/14/2018
 5. ในฟิลด์การประชุมการเสื่อมราคา ให้เลือกหนึ่งตัวเลือก
 6. ในฟิลด์อายุการใช้งาน ป้อนจำนวน
     * สังเกตมูลค่าของฟิลด์รอบระยะเวลาการคิดค่าเสื่อมราคาหลังจากการตั้งค่าอายุการใช้งาน  
-
 

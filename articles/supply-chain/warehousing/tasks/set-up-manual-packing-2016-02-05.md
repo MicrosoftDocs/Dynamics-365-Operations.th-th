@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่าการบรรจุด้วยตนเอง (กุมภาพันธ์ 2016 และ พฤษภาคม 2016)"
-description: "กระบวนการบรรจุสินค้าอนุญาตให้คุณตรวจสอบความถูกต้องและบรรจุผลิตภัณฑ์ลงในตู้บรรจุสินค้า "
+---
+title: ตั้งค่าการบรรจุด้วยตนเอง (กุมภาพันธ์ 2016 และ พฤษภาคม 2016)
+description: 'กระบวนการบรรจุสินค้าอนุญาตให้คุณตรวจสอบความถูกต้องและบรรจุผลิตภัณฑ์ลงในตู้บรรจุสินค้า '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347732"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>ตั้งค่าการบรรจุด้วยตนเอง (กุมภาพันธ์ 2016 และ พฤษภาคม 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนการบรรจุสินค้าอนุญาตให้คุณตรวจสอบความถูกต้องและบรรจุผลิตภัณฑ์ลงในตู้บรรจุสินค้า  ในกระบวนการนี้ ผู้ปฏิบัติงานสำหรับคลังสินค้าบรรจุผลิตภัณฑ์จากสถานที่จัดเก็บ และย้ายไปยังสถานีบรรจุที่พวกเขาตรวจสอบปริมาณและชนิดของสินค้า และมอบหมายให้กับตู้บรรจุสินค้าที่เหมาะสม เมื่อตู้บรรจุสินค้าถูกบรรจุจนเต็ม พวกเขาสามารถปิดและย้ายไปยังท่าสินค้าขาออกได้ และผลิตภัณฑ์พร้อมในการจัดส่ง กระบวนงานนี้ใช้บริษัทสาธิต USMF ขั้นตอนนี้ได้ สำหรับ Dynamics 365 for Operations รุ่นกุมภาพันธ์ 2016 & พฤษภาคม 2016 เท่านั้น
+กระบวนการบรรจุสินค้าอนุญาตให้คุณตรวจสอบความถูกต้องและบรรจุผลิตภัณฑ์ลงในตู้บรรจุสินค้า  ในกระบวนการนี้ ผู้ปฏิบัติงานสำหรับคลังสินค้าบรรจุผลิตภัณฑ์จากสถานที่จัดเก็บ และย้ายไปยังสถานีบรรจุที่พวกเขาตรวจสอบปริมาณและชนิดของสินค้า และมอบหมายให้กับตู้บรรจุสินค้าที่เหมาะสม เมื่อตู้บรรจุสินค้าถูกบรรจุจนเต็ม พวกเขาสามารถปิดและย้ายไปยังท่าสินค้าขาออกได้ และผลิตภัณฑ์พร้อมในการจัดส่ง กระบวนงานนี้ใช้บริษัทสาธิต USMF กระบวนงานนี้ใช้สำหรับรุ่นกุมภาพันธ์ 2016 และพฤษภาคม 2016 ของ Dynamics 365 for Operations เท่านั้น
 
 
 ## <a name="set-up-location-profiles"></a>ตั้งค่าโพรไฟล์สถานที่
@@ -94,5 +94,4 @@ ms.lasthandoff: 09/14/2018
     * นี่จะเป็นสถานที่ให้กับผลิตภัณฑ์ที่จะถูกย้ายหลังจากการปิดตู้บรรจุสินค้า สถานที่นี้ต้องมีโพรไฟล์สถานที่ที่กำหนดในพารามิเตอร์คลังสินค้า  
 8. ในฟิลด์หน่วยน้ำหนัก ให้ป้อนหรือเลือกค่า
 9. คลิก บันทึก
-
 

@@ -1,13 +1,13 @@
 ---
-title: "บัญชีแยกประเภททั่วไปและโฮมเพจการรายงานทางการเงิน"
-description: "ใช้บัญชีแยกประเภททั่วไปเพื่อกำหนด และจัดการเรกคอร์ดทางการเงินของนิติบุคคล "
+title: บัญชีแยกประเภททั่วไปและโฮมเพจการรายงานทางการเงิน
+description: 'ใช้บัญชีแยกประเภททั่วไปเพื่อกำหนด และจัดการเรกคอร์ดทางการเงินของนิติบุคคล '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: th-th
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363372"
 ---
-
 # <a name="general-ledger"></a>บัญชีแยกประเภททั่วไป 
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/25/2018
  - [วางแผนชื่อผังบัญชีของคุณ](plan-chart-of-accounts.md)
  - [ประเถทชนิดบัญชีหลัก](main-account-types.md)
 
-คุณสามารถปันส่วนหรือกระจายยอดเงินอย่างน้อยหนึ่งบัญชีหรือชุดบัญชีและมิติตามกฎการปันส่วน  มีอยู่สองชนิดของการปันส่วน: คงที่ และผันแปร นอกจากนี้คุณยังสามารถชำระธุรกรรมระหว่างบัญชีแยกประเภท และการประเมินค่ายอดเงินสกุลเงินใหม่ เมื่อสิ้นสุดปีบัญชี คุณต้องสร้างธุรกรรมปิดปี และจัดเตรียมบัญชีสำหรับปีบัญชีถัดไป คุณสามารถใช้ฟังก์ชันการรวมบัญชีเพื่อรวมผลลัพธ์ทางการเงินสำหรับนิติบุคคลบริษัทในเครือหลายรายเป็นผลลัพธ์สำหรับองค์กรรวมเดียว บริษัทในเครืออาจอยู่ภายในฐานข้อมูล Microsoft Dynamics 365 for Finance and Operations เดียวกันหรือในฐานข้อมูลที่แยกต่างจากกันก็ได้
+คุณสามารถปันส่วนหรือกระจายยอดเงินอย่างน้อยหนึ่งบัญชีหรือชุดบัญชีและมิติตามกฎการปันส่วน  มีอยู่สองชนิดของการปันส่วน: คงที่ และผันแปร นอกจากนี้คุณยังสามารถชำระธุรกรรมระหว่างบัญชีแยกประเภท และการประเมินค่ายอดเงินสกุลเงินใหม่ เมื่อสิ้นสุดปีบัญชี คุณต้องสร้างธุรกรรมปิดปี และจัดเตรียมบัญชีสำหรับปีบัญชีถัดไป คุณสามารถใช้ฟังก์ชันการรวมบัญชีเพื่อรวมผลลัพธ์ทางการเงินสำหรับนิติบุคคลบริษัทในเครือหลายรายเป็นผลลัพธ์สำหรับองค์กรรวมเดียว บริษัทในเครือสามารถอยู่ในฐานข้อมูล Microsoft Dynamics 365 for Finance and Operations เดียวกันหรือต่างฐานข้อมูล
 
 - [ภาพรวมของการรวมบัญชีและการตัดออก](../budgeting/consolidation-elimination-overview.md)
 - [ยอดดุลบัญชีแยกประเภททั่วไป](general-ledger-account-balances.md)
@@ -64,14 +63,13 @@ ms.lasthandoff: 06/25/2018
 
 ### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+คุณสามารถค้นหาความคิดเห็น ข่าว หรือข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 
-มีโพสต์ต่างๆ เกี่ยวกับบัญชีแยกประเภททั่วไปใน [บล็อกทีมผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับเวอร์ชันก่อนหน้านี้ของบัญชีแยกประเภททั่วไป แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
+มีโพสต์หลายรายการเกี่ยวกับบัญชีแยกประเภททั่วไปใน [ทีมบล็อกผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับเวอร์ชันก่อนหน้านี้ของบัญชีแยกประเภททั่วไป แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 
 #### <a name="community-blogs"></a>บล็อกของชุมชน
 
 - [สิ่งที่คุณควรทราบเกี่ยวกับบัญชีแยกประเภทใน Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
 

@@ -1,13 +1,13 @@
 ---
-title: "โฮมเพจการจัดการองค์กร"
-description: "หัวข้อนี้ชี้ไปที่ทรัพยากรที่จะช่วยให้คุณใช้ Microsoft Dynamics 365 for Finance and Operations ในองค์กรของคุณ"
+title: โฮมเพจการจัดการองค์กร
+description: หัวข้อนี้ชี้ไปยังทรัพยากรที่จะช่วยให้คุณสามารถใช้ Microsoft Dynamics 365 for Finance and Operations ในองค์กรของคุณ
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332828"
 ---
-
 # <a name="organization-administration-home-page"></a>โฮมเพจการจัดการองค์กร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้ชี้ไปที่เนื้อหาที่จะช่วยให้ผู้ใช้ที่มีความชำนาญและผู้ดูแลระบบสามารถตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations ได้ เนื้อหานี้จะช่วยในการตั้งค่าคอนฟิกระบบให้ทำงานได้อย่างราบรื่นและอย่างมีประสิทธิภาพสำหรับธุรกิจและองค์กรของคุณ
+หัวข้อนี้ชี้ไปยังเนื้อหาที่จะช่วยให้ผู้ใช้และผู้ดูแลที่มีศักยภาพสามารถตั้งค่าคอนฟิก Microsoft Dynamics 365 for Finance and Operations เนื้อหานี้จะช่วยในการตั้งค่าคอนฟิกระบบให้ทำงานได้อย่างราบรื่นและอย่างมีประสิทธิภาพสำหรับธุรกิจและองค์กรของคุณ
 
 เนื้อหาส่วนใหญ่ที่แสดงรายการไว้ที่นี่ใช้กับลักษณะการทำงานในโมดูล **การจัดการองค์กร** อย่างไรก็ตาม มีงานสองอย่าง เช่น การสร้างและการใช้เท็มเพลตเรกคอร์ดที่สามารถดำเนินการในโมดูลต่าง ๆ เพื่อช่วยให้องค์กรของคุณทำงานได้อย่างมีประสิทธิภาพ
 
@@ -103,4 +102,3 @@ ms.lasthandoff: 03/26/2018
 - [ตั้งค่าคอนฟิกการจัดการเอกสาร](configure-document-management.md)
 - [ตั้งค่าคอนฟิกและส่งอีเมล](configure-email.md)
 - [ข้อมูลวันที่/เวลาและโซนเวลา](date-time-zones.md)
-

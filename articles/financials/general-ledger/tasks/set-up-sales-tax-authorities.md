@@ -1,13 +1,13 @@
---- 
-title: "การตั้งค่าหน่วยงานจัดเก็บภาษี"
-description: "หน่วยงานจัดเก็บภาษีขายเป็นองค์กรอิสระที่เก็บรวบรวมภาษีขายที่จะต้องถูกรายงานและชำระ "
+---
+title: การตั้งค่าหน่วยงานจัดเก็บภาษี
+description: 'หน่วยงานจัดเก็บภาษีขายเป็นองค์กรอิสระที่เก็บรวบรวมภาษีขายที่จะต้องถูกรายงานและชำระ '
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 909433a04c1185039938f6233b30c235e7b8ed8b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f75ee28343161026a73dd889b345d65ecc345884
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366362"
 ---
 # <a name="set-up-sales-tax-authorities"></a>การตั้งค่าหน่วยงานจัดเก็บภาษี
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
 9. ป้อนค่าในแบบฟอร์มการปัดเศษและฟิลด์การปัดเศษเพื่อระบุวิธีการชำระยอดเงินภาษีรวมว่าควรจะมีการปัดเศษอย่างไร  ผลต่างจากการปัดเศษใด ๆ จะถูกลงรายการบัญชีสำหรับธุรกรรมอัตโนมัติที่ตั้งค่าไว้ในบัญชีแยกประเภททั่วไป
 10. ในฟิลด์การปัดเศษ ให้ป้อนตัวเลข
 11. คลิก บันทึก
-
 

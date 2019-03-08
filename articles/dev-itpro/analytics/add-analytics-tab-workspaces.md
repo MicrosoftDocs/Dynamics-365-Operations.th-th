@@ -1,13 +1,13 @@
 ---
-title: "เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI ที่ฝัง"
-description: "หัวข้อนี้แสดงวิธีการฝังรายงาน Power BI บนแท็บการวิเคราะห์ของพื้นที่ทำงาน"
+title: เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
+description: หัวข้อนี้แสดงวิธีการฝังรายงาน Power BI ในแท็บการวิเคราะห์ของพื้นที่ทำงาน
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355230"
 ---
-
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยการใช้ Power BI ที่ฝัง
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> คุณลักษณะนี้ได้รับการสนับสนุนใน Dynamics 365 for Finance and Operations (เวอร์ชัน 7.2 และเวอร์ชันหลังจากนั้น)
+> คุณลักษณะนี้ได้รับการสนับสนุนใน Dynamics 365 for Finance and Operations (รุ่น 7.2 และรุ่นที่ใหม่กว่า)
 
 ## <a name="introduction"></a>คำนำ
-หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI บนแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
+หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI ในแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 + เข้าถึงสภาพแวดล้อมนักพัฒนาที่รันการอัพเดตแพลตฟอร์ม 8 หรือรุ่นที่ใหม่กว่า
-+ รายงานเชิงวิเคราะห์ (ไฟล์ .pbix) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และที่มีแบบจำลองข้อมูลที่ต้นทางมาจากฐานข้อมูลร้านค้าเอนทิตี้
++ รายงานการวิเคราะห์ (.pbix file) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และที่มีแบบจำลองข้อมูลที่มีแหล่งที่มาจากฐานข้อมูลที่จัดเก็บเอนทิตี
 
 ## <a name="overview"></a>ภาพรวม
 ไม่ว่าคุณจะขยายพื้นที่ทำงานของแอพลิเคชันที่มีอยู่ หรือใช้พื้นที่ทำงานใหม่ของคุณเอง คุณสามารถใช้มุมมองการวิเคราะห์แบบฝังเพื่อจัดส่งมุมมองที่ชาญฉลาดและเชิงโต้ตอบของข้อมูลธุรกิจของคุณ กระบวนการสำหรับการเพิ่มแท็บพื้นที่ทำงานเชิงวิเคราะห์มีสี่ขั้นตอน
@@ -46,12 +45,12 @@ ms.lasthandoff: 08/13/2018
 4. ตัวเลือก: เพิ่มส่วนขยายเพื่อกำหนดมุมมองเอง
 
 > [!NOTE]
-> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
+> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานการวิเคราะห์ ดู [เริ่มต้นใช้งาน Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>เพิ่มไฟล์ .pbix เป็นทรัพยากร
-ก่อนที่คุณจะเริ่มต้น คุณจะต้องสร้างหรือดูรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานเชิงวิเคราะห์ ให้ดูที่ [เริ่มต้นใช้งานด้วย Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)
+ก่อนที่คุณจะเริ่มต้น คุณต้องสร้างหรือได้รับรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานการวิเคราะห์ ดู [เริ่มต้นใช้งาน Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)
 
-ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มไฟล์ .pbix เป็นวัตถุโครงการ Visual Studio
+ให้ปฏิบัติตามขั้นตอนเหล่านี้ เพื่อเพิ่มไฟล์ .pbix เป็นอาร์ทิแฟกต์โครงการ Visual Studio
 
 1. สร้างโครงการใหม่ในแบบจำลองที่เหมาะสม
 2. ใน Solution Explorer เลือกโครงการ คลิกขวา และจากนั้นเลือก **เพิ่ม** \> **รายการใหม่**
@@ -69,7 +68,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>เพิ่มตัวควบคุมแท็บไปยังพื้นที่ทำงานของแอพลิเคชัน
 ในตัวอย่างนี้ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแบบจำลองการจัดการยานพาหนะโดยการเพิ่มแท็บ **การวิเคราะห์** ไปยังคำนิยามของแบบฟอร์ม **FMClerkWorkspace**
 
-ภาพประกอบต่อไปนี้แสดงลักษณะแบบฟอร์ม **FMClerkWorkspace** ในตัวออกแบบใน Microsoft Visual Studio
+ภาพประกอบต่อไปนี้แสดงลักษณะของฟอร์ม **FMClerkWorkspace** ในตัวออกแบบใน Microsoft Visual Studio
 
 ![แบบฟอร์ม FMClerkWorkspace ก่อนที่จะเปลี่ยนแปลง](media/analytical-workspace-definition-before.png)
 
@@ -154,7 +153,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="reference"></a>ข้อมูลอ้างอิง
 
 ### <a name="pbireporthelperinitializereportcontrol-method"></a>วิธีการ PBIReportHelper.initializeReportControl
-ส่วนนี้แสดงข้อมูลเกี่ยวกับคลาสตัวช่วยที่ใช้ในการฝังรายงาน Power BI (ทรัพยากร .pbix) ในการควบคุมกลุ่มแบบฟอร์ม
+ส่วนนี้ให้ช้อมูลเกี่ยวกับคลาสตัวช่วยเหลือที่ถูกใช้เพื่อฝังรายงาน Power BI (ทรัพยากร .pbix) ในการควบคุมกลุ่มฟอร์ม
 
 #### <a name="syntax"></a>ไวยากรณ์
 ```
@@ -172,9 +171,8 @@ public static void initializeReportControl(
 | ชื่อ             | คำอธิบาย                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------|
 | ชื่อทรัพยากร     | ชื่อของทรัพยากร .pbix                                                                              |
-| formGroupControl | การควบคุมกลุ่มแบบฟอร์มเพื่อใช้กับการควบคุมรายงาน Power BI                                              |
+| formGroupControl | การควบคุมกลุ่มฟอร์มที่จะนำการควบคุมรายงาน Power BI ไปใช้                                              |
 | defaultPageName  | ชื่อหน้าเริ่มต้น                                                                                       |
 | showFilterPane   | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างตัวกรอง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่     |
 | showNavPane      | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างนำทาง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่ |
 | defaultFilters   | ตัวกรองเริ่มต้นสำหรับรายงาน Power BI                                                                 |
-

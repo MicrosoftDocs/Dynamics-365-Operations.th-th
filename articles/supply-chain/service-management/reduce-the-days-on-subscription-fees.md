@@ -1,32 +1,30 @@
 ---
-title: "การลดจำนวนวันของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิก"
-description: "ถ้าต้องการลดจำนวนวันของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิกปัจจุบัน คุณสามารถสร้างธุรกรรมใหม่ซึ่งคุณลบรอบระยะเวลาที่ไม่ควรอยู่ในช่วงเวลาของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิก"
+title: การลดจำนวนวันของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิก
+description: ถ้าต้องการลดจำนวนวันของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิกปัจจุบัน คุณสามารถสร้างธุรกรรมใหม่ซึ่งคุณลบรอบระยะเวลาที่ไม่ควรอยู่ในช่วงเวลาของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิก
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04b183d8fc8083c630bcb4e0e69fb755f8a50f95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c70e393c125eecef85e8711d1635250f5ff408d9
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362015"
 ---
-
-
 # <a name="reduce-the-days-on-subscription-fees"></a>การลดจำนวนวันของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิก 
 
 [!include [banner](../includes/banner.md)]
@@ -55,6 +53,5 @@ ms.lasthandoff: 05/08/2018
 [ตัวอย่างวันในการลด](reduction-days-example.md)
 
   
-
 
 

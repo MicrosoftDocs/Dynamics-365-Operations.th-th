@@ -1,13 +1,13 @@
 ---
-title: "ทรัพยากรของ Operations"
-description: "ทรัพยากรการดำเนินงานดำเนินกิจกรรมของโครงการหรือกระบวนการผลิต  พวกเขาสามารถมีชนิดแตกต่างกัน และมีความสามารถที่แตกต่างกัน"
+title: ทรัพยากรของ Operations
+description: ทรัพยากรการดำเนินงานดำเนินกิจกรรมของโครงการหรือกระบวนการผลิต  พวกเขาสามารถมีชนิดแตกต่างกัน และมีความสามารถที่แตกต่างกัน
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366615"
 ---
-
 # <a name="operations-resources"></a>ทรัพยากรของ Operations
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="costing-resources"></a>ทรัพยากรการคิดต้นทุน
 เมื่อคุณกำหนดกิจกรรม เช่น นตอนของกระบวนการผลิตหรือการคาดการณ์ชั่วโมงทำงานของโครงการ คุณสามารถระบุความต้องการสำหรับทรัพยากรการดำเนินงานหรือกลุ่มทรัพยากร อย่างไรก็ตาม คุณยังสามารถระบุความต้องการชนิดเฉพาะทรัพยากรการดำเนินงาน หรือทรัพยากรการดำเนินงานที่มีความสามารถเฉพาะหรือความสามารถ ด้วยเหตุผลนี้ การมอบกมายทรัพยากรจริงจะไม่ทำจนกว่าจะมีการจัดกำหนดการกิจกรรมและจองกำลังการผลิต ดังนั้น ในขั้นตอนของกระบวนการผลิต คุณสามารถระบุว่า การประเมินและการคำนวณ BOM ต้องยึดตามทรัพยากรการดำเนินงาน ทรัพยากรดำเนินงานนี้จะถูกอ้างเป็นทรัพยากรการคิดต้นทุน คุณยังสามารถโอนย้ายประเภทต้นทุนและเวลาดำเนินการจากทรัพยากรการคิดต้นทุนให้กับกิจกรรม เมื่อมีการจัดตารางการผลิต การประเมินและการคำนวณ BOM จะทำโดยการใช้ทรัพยากรการดำเนินงานที่ถูกจัดกำหนดการไว้จริง
-
 
 
 

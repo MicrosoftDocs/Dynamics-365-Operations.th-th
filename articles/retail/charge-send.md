@@ -1,36 +1,35 @@
 ---
-title: "จัดส่งสินค้าจากร้านค้าอื่นโดยใช้คุณลักษณะค่าธรรมเนียมการส่ง"
-description: "หัวข้อนี้อธิบายถึงลักษณะการทำงานค่าธรรมเนียมการส่ง"
+title: จัดส่งสินค้าจากร้านค้าอื่นโดยใช้คุณลักษณะค่าธรรมเนียมการส่ง
+description: หัวข้อนี้อธิบายถึงลักษณะการทำงานค่าธรรมเนียมการส่ง
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354080"
 ---
-
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>จัดส่งสินค้าจากร้านค้าอื่นโดยใช้คุณลักษณะค่าธรรมเนียมการส่ง
 
 [!include [banner](includes/banner.md)]
 
-ด้วยคุณลักษณะค่าธรรมเนียมการส่งใน Dynamics 365 for Retail ใบสั่งของลูกค้าสามารถถูกสั่งในร้านค้าหนึ่ง และถูกจัดส่งจากร้านค้าอื่นได้
+ด้วยคุณลักษณะชาร์จส่งใน Dynamics 365 for Retail ใบสั่งลูกค้าสามารถวางได้ในร้านค้าหนึ่ง และจัดส่งจากอีกร้านค้าหนึ่ง
 
 ใบสั่งของลูกค้าในการขายหน้าร้าน (POS) ไคลเอนต์สนับสนุนตัวเลือกการเติมสินค้าหลายรายการ ตัวอย่างบางรายการของตัวเลือกการเติมสินค้าประกอบด้วย:
 
@@ -43,4 +42,3 @@ ms.lasthandoff: 01/04/2019
 ความสามารถในการการเลือกที่อยู่ "จัดส่งไปยัง" ยังคงไม่เปลี่ยนแปลง
 
 วิธีการจัดส่งที่สามารถใช้ในกาเติมเต็มรายการใบสั่ง เป็นไปตามการตั้งค่าคอนฟิกโหมดการจัดส่งสำหรับผลิตภัณฑ์และที่อยู่ที่ถูกต้อง เนื่องจากมีการรักษากฎเกี่ยวกับโหมดการจัดส่งถูกในศูนย์ควบคุมการขายปลีก (HQ) เท่านั้น ไคลเอนต์ POS ทำให้การเรียกแบบเรียลไทม์จะนำโหมดการจัดส่งสำหรับรายการการจัดส่งที่ถูกต้องมาใช้
-

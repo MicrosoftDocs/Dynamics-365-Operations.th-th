@@ -1,32 +1,31 @@
 ---
-title: "กำหนดสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน"
+title: กำหนดสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355552"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>สิทธิ์การเข้าถึงของตัวควบคุมออบเจ็กต์ต้นทุน
 
 [!include [banner](../includes/banner.md)]
@@ -95,11 +94,11 @@ ms.lasthandoff: 05/08/2018
 
 - Microsoft Power BI:
 
-    - ข้อมูลที่แสดงในการแสดงภาพ Power BI
-    - การแสดงภาพ Data Power BI ที่ฝังอยู่ในไคลเอนต์ Microsoft Dynamics 365 for Finance and Operations
+    - ข้อมูลที่แสดงในการจัดรูปแบบการแสดง Power BI
+    - การจัดรูปแบบการแสดง Power BI ของข้อมูลที่ถูกฝังในไคลเอ็นต์ Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
-> - ก่อนที่ลำดับชั้นรายการการเข้าถึงจะมีผลต่อข้อมูลใน Power BI จะต้องมีการจับคู่ลำดับชั้นรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 > - หัวข้อนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีอยู่ในตำแหน่งก่อนที่คุณสามารถใช้การพื้นที่ทำงาน **ควบคุมต้นทุน**
 
 ทรัพยากรเพิ่มเติม
@@ -107,4 +106,3 @@ ms.lasthandoff: 05/08/2018
 - [พื้นที่ทำงานการควบคุมต้นทุน](cost-control-workspace.md)
 - [ลำดับชั้นของมิติ](dimension-hierarchy.md)
 - [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

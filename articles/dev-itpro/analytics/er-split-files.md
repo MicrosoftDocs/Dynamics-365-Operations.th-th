@@ -1,13 +1,13 @@
 ---
-title: "แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการแบ่งไฟล์ที่สร้างตามขนาดไฟล์และปริมาณสินค้าในเนื้อหา"
+title: แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการแบ่งไฟล์ที่สร้างตามขนาดไฟล์และปริมาณสินค้าในเนื้อหา
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 8c3899d5c6602b3afe13b447b40f0b4dcc701448
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 0f13194575e2f19f585f09ffad99144c9a9fc3b1
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347111"
 ---
-
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
 
 [!include[banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ ms.lasthandoff: 08/09/2018
 [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
 
 [ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
-

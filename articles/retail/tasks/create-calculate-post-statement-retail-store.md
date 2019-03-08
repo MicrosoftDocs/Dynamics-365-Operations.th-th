@@ -1,13 +1,13 @@
---- 
+---
 title: " สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก"
-description: "กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง "
+description: 'กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง '
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354402"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง  อีกทั้งยังมีชุดงานที่สามารถตั้งค่าคอนฟิกสำหรับงานเดียวกัน  คุณจะพบขั้นตอนสำหรับการตั้งค่าคอนฟิกและการรันชุดงานในหัวข้ออื่น  การทำงานนี้ให้สำเร็จ คุณต้องมีธุรกรรมที่เสร็จสมบูรณ์ใน POS และจากนั้นดึงมาไว้ใน Dynamics AX  การบันทึกข้อมูลนี้ใช้บริษัท USRT ในข้อมูลสาธิต  กระบวนงานนี้อาจอ้างถึง Microsoft Dynamics AX  โปรดทราบว่าปัจจุบัน Dynamics AX เรียกว่า Microsoft Dynamics 365 for Operations
+กระบวนการนี้นำไปสู่ขั้นตอนการสร้าง, การคำนวณ, และการลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าด้วยตนเอง  อีกทั้งยังมีชุดงานที่สามารถตั้งค่าคอนฟิกสำหรับงานเดียวกัน  คุณจะพบขั้นตอนสำหรับการตั้งค่าคอนฟิกและการรันชุดงานในหัวข้ออื่น  เพื่อทำให้กระบวนงานนี้เสร็จสมบูรณ์ คุณต้องมีธุรกรรมที่เสร็จสมบูรณ์แล้วใน POS และจากนั้นถูกดึงเข้าสู่ Dynamics AX การบันทึกข้อมูลนี้ใช้บริษัท USRT ในข้อมูลสาธิต  กระบวนงานนี้อาจอ้างอิงถึง Microsoft Dynamics AX โปรดทราบว่า Dynamics AX ขณะนี้เรียกว่า Microsoft Dynamics 365 for Operations
 
 1. ไปที่ พื้นที่ทำงานทั้งหมด > .. > การเงินของร้านค้าปลีก
 2. คลิก สร้างใบแจ้งยอดใหม่
@@ -47,5 +47,4 @@ ms.lasthandoff: 02/07/2018
 10. คลิก ปิด
 11. ไปที่การขายปลีกและการค้า > ช่องทาง > การเงินของร้านค้าปลีก
 12. คลิกแท็บใบแจ้งยอดที่ลงรายการบัญชี
-
 

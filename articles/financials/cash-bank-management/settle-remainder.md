@@ -1,13 +1,13 @@
 ---
-title: "ส่วนที่เหลือที่ต้องชำระบัญชี"
-description: "คุณสามารถจับคู่ยอดเงินที่เหลือจากกิจกรรมการชำระเงิน โดยนำยอดเงินนั้นไปใช้กับบัญชีแยกประเภท"
+title: ส่วนที่เหลือที่ต้องชำระบัญชี
+description: คุณสามารถจับคู่ยอดเงินที่เหลือจากกิจกรรมการชำระเงิน โดยนำยอดเงินนั้นไปใช้กับบัญชีแยกประเภท
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: th-th
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367213"
 ---
-
 # <a name="settle-remainder"></a>ส่วนที่เหลือที่ต้องชำระบัญชี
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ ms.lasthandoff: 12/06/2018
 7)  นอกจากนี้ คุณยังสามารถเลือกที่จะสร้างสมุดรายวันการชำระเงินที่มียอดค้างชำระ หรือเพียงแค่ลงรายการบัญชีโดยไม่มีสมุดรายวัน เลือก **ใช่** สำหรับ **แก้ไขในสมุดรายวัน** เพื่อสร้างสมุดรายวันการชำระเงิน คุณจะสามารถแก้ไขสมุดรายวันการชำระเงินที่คุณสร้างขึ้น
 8)  คลิก **ส่วนที่เหลือที่ต้องชำระบัญชี** ถ้าคุณเลือกที่จะสร้างสมุดรายวัน ปุ่มจะเปลี่ยนเป็น **สร้างสมุดรายวัน** คลิก **สร้างสมุดรายวัน** แทน
 9)  ถ้าคุณสร้างสมุดรายวันการชำระเงิน หน้าสมุดรายวันจะเปิด หลังจากที่คุณคลิก **ส่วนที่เหลือที่ต้องชำระบัญชี** รายการสมุดรายวันจะถูกเพิ่มในสมุดรายวันพร้อมกับยอดเงินส่วนที่เหลือที่ต้องชำระบัญชีเป็นยอดเงิน และพร้อมกับบัญชีส่วนที่เหลือที่ต้องชำระบัญชีเป็นบัญชีตรงข้าม ถ้าคุณเพิ่มลูกค้าหรือผู้จัดจำหน่าย เพื่อให้คุณสามารถย้ายยอดการชำระเงินให้กับลูกค้าหรือผู้จัดจำหน่ายอื่น จากนั้นรายการเพิ่มเติมจะถูกเพิ่มในสมุดรายวันเพื่อย้ายยอดการชำระเงินไปยังลูกค้าหรือผู้จัดจำหน่ายนั้น
-

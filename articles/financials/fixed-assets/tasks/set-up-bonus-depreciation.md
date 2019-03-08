@@ -1,13 +1,13 @@
---- 
-title: "การตั้งค่าการคิดค่าเสื่อมราคาพิเศษ"
-description: "กระบวนงานนี้จะแสดงวิธีการสร้างการหักค่าเสื่อมราคาพิเศษและเชื่อมโยงกับสมุดบัญชีสินทรัพย์ถาวร "
+---
+title: การตั้งค่าการคิดค่าเสื่อมราคาพิเศษ
+description: 'กระบวนงานนี้จะแสดงวิธีการสร้างการหักค่าเสื่อมราคาพิเศษและเชื่อมโยงกับสมุดบัญชีสินทรัพย์ถาวร '
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6bbd6b78d05fcc9d95f6e6409db2619a210ad760
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e6ebb13084626b477b6e0b24acdc09e2c0d3d6d
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339222"
 ---
 # <a name="set-up-bonus-depreciation"></a>การตั้งค่าการคิดค่าเสื่อมราคาพิเศษ
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
 7. ในฟิลด์โพรไฟล์การหักค่าเสื่อมราคาพิเศษ ให้ป้อนหรือเลือกค่า
     * ค่าเริ่มต้นของเปอร์เซ็นต์หรือยอดเงินมาจากการตั้งค่าการหักค่าเสื่อมราคาพิเศษ  
 8. ในฟิลด์ระดับความสำคัญ ให้ป้อนตัวเลข
-
 

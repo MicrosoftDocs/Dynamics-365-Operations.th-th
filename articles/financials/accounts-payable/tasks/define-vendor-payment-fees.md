@@ -1,13 +1,13 @@
---- 
-title: "กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย"
-description: "ตั้งค่าค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย "
+---
+title: กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย
+description: 'ตั้งค่าค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย '
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363211"
 ---
 # <a name="define-vendor-payment-fees"></a>กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 17. ในฟิลด์สกุลเงินของค่าธรรมเนียม เลือกสกุลเงินที่จะประเมินค่าธรรมเนียม
     * สกุลเงินนี้ใช้สำหรับค่าธรรมเนียม  สกุลเงินการชำระเงินใช้เพื่อกำหนดว่าค่าธรรมเนียมจะถูกประเมินโดยอาศัยสกุลเงินของการชำระเงิน  ตัวอย่างเช่น ธนาคารของคุณอาจเรียกเก็บค่าธรรมเนียมเมื่อการชำระเงินเป็น EUR แต่การชำระเงินอื่นๆ ทั้งหมดจะไม่ถูกประเมิน  
 18. คลิก บันทึก
-
 

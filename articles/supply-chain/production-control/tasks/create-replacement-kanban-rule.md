@@ -1,13 +1,13 @@
---- 
-title: "สร้างกฎคัมบังการแทนที่"
-description: "กระบวนงานนี้มุ่งเน้นการแทนที่กฎคัมบังที่มีอยู่ด้วยกฎคัมบังที่ใหม่ในวันที่เฉพาะ "
+---
+title: สร้างกฎคัมบังการแทนที่
+description: 'กระบวนงานนี้มุ่งเน้นการแทนที่กฎคัมบังที่มีอยู่ด้วยกฎคัมบังที่ใหม่ในวันที่เฉพาะ '
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c8a9367d4796999857e473bcbe36a709d534f3b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362291"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>สร้างกฎคัมบังการแทนที่
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a>แก้ไขขีดจำกัดสูงสุดสำหรับกฎคัมบังการแทนที่
 1. ตั้งค่าปริมาณสูงสุดเป็น '100'
     * ขยาย FastTab ปริมาณ เพื่อดูฟิลด์ปริมาณสูงสุด  การเปลี่ยนปริมาณสูงสุดเป็น 100 จะอนุญาตให้สูงสุด 100 คัมบังถูกประมวลผลได้     นี่คือขั้นตอนสุดท้ายในงานนี้  
-
 

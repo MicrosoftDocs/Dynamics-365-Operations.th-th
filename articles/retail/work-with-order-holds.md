@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกและทำงานกับการระงับใบสั่งของศูนย์บริการ"
-description: "หัวข้อนี้อธิบายวิธีการทำงานกับการระงับใบสั่ง โดยใช้ Microsoft Dynamics 365 for Retail"
+title: ตั้งค่าคอนฟิกและทำงานกับการระงับใบสั่งของศูนย์บริการ
+description: หัวข้อนี้อธิบายวิธีการทำงานกับใบสั่งที่ระงับโดยใช้ Microsoft Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335312"
 ---
-
 # <a name="configure-and-work-with-call-center-order-holds"></a>ตั้งค่าคอนฟิกและทำงานกับการระงับใบสั่งของศูนย์บริการ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายคุณลักษณะการระงับใบสั่งที่ Microsoft Dynamics 365 for Retail มีสำหรับใบสั่งของศูนย์บริการ
+หัวข้อนี้อธิบายคุณลักษณะการระงับใบสั่งที่ Microsoft Dynamics 365 for Retail มีสำหรับใบสั่งศูนย์บริการ
 
 ## <a name="configuring-call-center-order-holds"></a>การตั้งค่าคอนฟิกการระงับใบสั่งของศูนย์บริการ
 
@@ -104,4 +103,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="reporting-options"></a>ตัวเลือกในการรายงาน
 
 ไปยัง **การขายปลีก** \> **การสอบถามและรายงาน** \> **รายงานศูนย์บริการ** \> **รายงานการระงับใบสั่ง** เพื่อรันรายงานเกี่ยวกับการระงับใบสั่งตามช่วงวันที่ รหัสการระงับ หรือเงื่อนไขอื่นๆ ที่เกี่ยวข้อง
-

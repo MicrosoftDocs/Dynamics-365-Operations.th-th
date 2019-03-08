@@ -1,13 +1,13 @@
---- 
-title: "ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน"
-description: "หน้าต่างใบสำคัญที่เกี่ยวข้องแสดงใบสำคัญจากบริษัทตรงข้าม เมื่อมีการลงรายการบัญชีธุรกรรมระหว่างบริษัทจากสมุดรายวันทั่วไป"
+---
+title: ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
+description: หน้าต่างใบสำคัญที่เกี่ยวข้องแสดงใบสำคัญจากบริษัทตรงข้าม เมื่อมีการลงรายการบัญชีธุรกรรมระหว่างบริษัทจากสมุดรายวันทั่วไป
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fe2590b43a4399c3935906c8ab67a91883bbf094
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366040"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/14/2018
 2. คลิกใบสำคัญที่เกี่ยวข้อง
 3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
 4. คลิกใบสำคัญ
-
 

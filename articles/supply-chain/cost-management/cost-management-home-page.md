@@ -1,32 +1,31 @@
 ---
-title: "โฮมเพจการจัดการต้นทุน"
-description: "การจัดการต้นทุนช่วยให้คุณสามารถจัดการวิธีการประเมินค่าและการบัญชีของวัตถุดิบ สินค้ากึ่งสำเร็จรูป สินค้าสำเร็จรูป และสินทรัพย์ที่อยู่ระหว่างดำเนินการ"
+title: โฮมเพจการจัดการต้นทุน
+description: การจัดการต้นทุนช่วยให้คุณสามารถจัดการวิธีการประเมินค่าและการบัญชีของวัตถุดิบ สินค้ากึ่งสำเร็จรูป สินค้าสำเร็จรูป และสินทรัพย์ที่อยู่ระหว่างดำเนินการ
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: th-th
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333955"
 ---
-
 # <a name="cost-management-home-page"></a>โฮมเพจการจัดการต้นทุน
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ ms.lasthandoff: 02/21/2018
 
 การบัญชีการผลิตช่วยให้คุณสามารถจัดการกับ [การคิดต้นทุนตามใบสั่งงาน](production-order-cost-analysis.md) ในใบสั่งผลิตและใบสั่งชุดงานได้ รวมทั้ง [การคิดต้นทุนแบบย้อนกลับ](backflush-costing.md) ใน lean manufacturing
 
-[เนื้อหา Power BI ของการจัดการต้นทุน](../../dev-itpro/analytics/cost-management-content-pack.md) ให้ข้อมูลเชิงลึกเชิงจัดการเกี่ยวกับสินค้าคงคลัง และสินค้าคงคลังของงานระหว่างทำ (WIP) และวิธีการที่ต้นทุนไหลผ่านตามประเภทในช่วงเวลา นอกจากนี้ยังสามารถใช้ข้อมูลเป็นรายละเอียดภาคผนวกสำหรับงบการเงิน
+[เนื้อหา Power BI ของการจัดการต้นทุน](../../dev-itpro/analytics/cost-management-content-pack.md) ให้ข้อมูลเชิงลึกด้านการจัดการลงในคลังสินค้าและคลังสินค้างานที่กำลังดำเนินการ (WIP) และวิธีการที่เงินสดไหลเวียนผ่านตามประเภทตามเวลา นอกจากนี้ยังสามารถใช้ข้อมูลเป็นรายละเอียดภาคผนวกสำหรับงบการเงิน
 
 ### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -67,9 +66,8 @@ ms.lasthandoff: 02/21/2018
 
 
 #### <a name="blogs"></a>บล็อก
-คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นๆ เกี่ยวกับการจัดการต้นทุนได้ใน [บล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [การบริหารห่วงโซ่อุปทานในบล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) แม้ว่าโพสต์เหล่านี้บางโพสต์ถูกเขียนขึ้นสำหรับการจัดการต้นทุนเวอร์ชันก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงคล้ายกันในเวอร์ชันปัจจุบันอีกด้วย
+คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการต้นทุนใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [การจัดการห่วงโซ่อุปทานในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) แม้ว่าโพสต์เหล่านี้บางโพสต์ถูกเขียนขึ้นสำหรับการจัดการต้นทุนเวอร์ชันก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงคล้ายกันในเวอร์ชันปัจจุบันอีกด้วย
 
 #### <a name="task-guides"></a>คู่มืองาน
 วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ
-
 

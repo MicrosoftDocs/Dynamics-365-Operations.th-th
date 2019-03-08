@@ -1,13 +1,13 @@
 ---
-title: "การจัดตารางการผลิตระดับงาน"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับการจัดกำหนดการงาน ซึ่งเป็นแบบฟอร์มที่มีรายละเอียดการจัดตารางการผลิตระดับการดำเนินงานมากกว่า คุณสามารถใช้การจัดตารางการผลิตระดับงานเพื่อจัดกำหนดการงานหรือใบสั่งซื้อสินค้า และเพื่อควบคุมสภาพแวดล้อมในการผลิต"
+title: การจัดตารางการผลิตระดับงาน
+description: บทความนี้แสดงข้อมูลเกี่ยวกับการจัดกำหนดการงาน ซึ่งเป็นแบบฟอร์มที่มีรายละเอียดการจัดตารางการผลิตระดับการดำเนินงานมากกว่า คุณสามารถใช้การจัดตารางการผลิตระดับงานเพื่อจัดกำหนดการงานหรือใบสั่งซื้อสินค้า และเพื่อควบคุมสภาพแวดล้อมในการผลิต
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339544"
 ---
-
 # <a name="job-scheduling"></a>การจัดตารางการผลิตระดับงาน
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="resource-efficiency"></a>ประสิทธิภาพของทรัพยากร
 การจัดตารางการผลิตระดับงานพิจารณาเปอร์เซ็นต์ประสิทธิภาพที่ระบุไว้สำหรับทรัพยากร เปอร์เซ็นต์ประสิทธิภาพจะลดหรือเพิ่มเวลาที่ถูกจองไว้สำหรับทรัพยากร ดังนั้น ระยะเวลารอคอยสินค้าก็จะเพิ่มขึ้นหรือลดลงด้วย สูตรคำนวณดังต่อไปนี้จะใช้ในการคำนวณ: เวลาการจัดกำหนดการ = เวลา x 100 ÷ เปอร์เซ็นต์ประสิทธิภาพ ในสูตรคำนวณนี้ *เวลา* ประกอบด้วยเวลาในการรันและเวลาการในการตั้งค่า
-
 
 
 

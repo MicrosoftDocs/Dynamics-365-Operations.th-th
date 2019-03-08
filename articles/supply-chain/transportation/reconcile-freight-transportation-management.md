@@ -1,13 +1,13 @@
 ---
-title: "กระทบยอดการขนส่งในการจัดการการขนส่ง"
-description: "บทความนี้อธิบายถึงกระบวนการกระทบยอดการขนส่ง"
+title: กระทบยอดการขนส่งในการจัดการการขนส่ง
+description: บทความนี้อธิบายถึงกระบวนการกระทบยอดการขนส่ง
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344788"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>กระทบยอดการขนส่งในการจัดการการขนส่ง
 
 [!include [banner](../includes/banner.md)]
@@ -41,11 +40,10 @@ ms.lasthandoff: 11/03/2017
 [![กระบวนการกระทบยอดการขนส่ง](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>การกระทบยอดด้วยตนเอง
-ถ้าคุณกำลังกระทบยอดการขนส่งด้วยตนเอง คุณต้องจับคู่แต่ละบรรทัดในใบแจ้งหนี้กับบรรทัดในบิลค่าขนส่งของโหลดที่มีการออกใบแจ้งหนี้ คุณทำการจับคู่นี้ได้ที่หน้า **การจับคู่บิลค่าขนส่งและใบแจ้งหนี้** ถ้าจำนวนเงินในบรรทัดในใบแจ้งหนี้ไม่ตรงกับจำนวนเงินในบิลค่าขนส่ง คุณต้องเลือกเหตุผลการกระทบยอดของจำนวนเงินที่ต่างกัน ถ้ามีเหตุผลของการกระทบยอดหลายเหตุผล คุณสามารถแบ่งจำนวนเงินที่ไม่ตรงกันสำหรับแต่ละเหตุผลได้ เหตุผลของการกระทบยอดเป็นตัวกำหนดวิธีการลงรายการบัญชียอดผลต่างในบัญชีแยกประเภททั่วไป เมื่อมีการพิจารณาการกระทบยอดของจำนวนเงินทั้งหมดในใบแจ้งหนี้ จะถูกส่งเพื่อขอการอนุมัติ และจากนั้นจะมีการลงรายการบัญชีสมุดรายวัน ภาพประกอบต่อไปนี้แสดงวิธีการสร้างใบแจ้งหนี้ค่าขนส่งและดำเนินการกระทบยอดการขนส่งใน Microsoft Dynamics 365 for Finance and Operations 
-[![งานการกระทบยอดการขนส่งใน Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+ถ้าคุณกำลังกระทบยอดการขนส่งด้วยตนเอง คุณต้องจับคู่แต่ละบรรทัดในใบแจ้งหนี้กับบรรทัดในบิลค่าขนส่งของโหลดที่มีการออกใบแจ้งหนี้ คุณทำการจับคู่นี้ได้ที่หน้า **การจับคู่บิลค่าขนส่งและใบแจ้งหนี้** ถ้าจำนวนเงินในบรรทัดในใบแจ้งหนี้ไม่ตรงกับจำนวนเงินในบิลค่าขนส่ง คุณต้องเลือกเหตุผลการกระทบยอดของจำนวนเงินที่ต่างกัน ถ้ามีเหตุผลของการกระทบยอดหลายเหตุผล คุณสามารถแบ่งจำนวนเงินที่ไม่ตรงกันสำหรับแต่ละเหตุผลได้ เหตุผลของการกระทบยอดเป็นตัวกำหนดวิธีการลงรายการบัญชียอดผลต่างในบัญชีแยกประเภททั่วไป เมื่อมีการพิจารณาการกระทบยอดของจำนวนเงินทั้งหมดในใบแจ้งหนี้ จะถูกส่งเพื่อขอการอนุมัติ และจากนั้นจะมีการลงรายการบัญชีสมุดรายวัน ภาพประกอบต่อไปนี้แสดงวิธีการสร้างใบแจ้งหนี้ค่าขนส่ง และการทำการกระทบยอดค่าขนส่งใน Microsoft Dynamics 365 for Finance and Operations 
+[![งานการกระทบยอดค่าขนส่งใน Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>การกระทบยอดอัตโนมัติ
 เมื่อต้องการใช้การกระทบยอดอัตโนมัติ คุณต้องระบุกำหนดการสำหรับการกระทบยอด และใบแจ้งหนี้และผู้ขนส่งสินค้าที่จะใช้ การจับคู่รายการใบแจ้งหนี้และบิลค่าขนส่งจะเสร็จสิ้นตามการตั้งค่าของชนิดต้นแบบการตรวจสอบและบิลค่าขนส่ง หลังจากที่คุณรันการกระทบยอดอัตโนมัติ คุณต้องจัดการกับใบแจ้งหนี้ใดๆ ที่ระบบไม่สามารถจับคู่ได้ จากนั้นคุณต้องประมวลผลใบแจ้งหนี้เหล่านี้ด้วยตนเองก่อนที่คุณจะสามารถลงรายการบัญชีใบแจ้งหนี้ทั้งหมดสำหรับการชำระเงิน
-
 
 
 

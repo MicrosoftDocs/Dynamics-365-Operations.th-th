@@ -1,13 +1,13 @@
 ---
-title: "พารามิเตอร์การจัดการค่าใช้จ่าย"
-description: "พารามิเตอร์ต่อไปนี้ควบคุมลักษณะการทำงานในการจัดการค่าใช้จ่าย"
+title: พารามิเตอร์การจัดการค่าใช้จ่าย
+description: พารามิเตอร์ต่อไปนี้ควบคุมลักษณะการทำงานในการจัดการค่าใช้จ่าย
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355943"
 ---
-
 # <a name="expense-management-parameters"></a>พารามิเตอร์การจัดการค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ ms.lasthandoff: 04/13/2018
 |  <strong>แสดงการรับรองการป้องกันการทุจริต</strong>  | เลือกตัวเลือกนี้เพื่อแสดงข้อความการป้องกันการทุจริตเมื่อมีการสร้างรายงานค่าใช้จ่ายใหม่ คุณสามารถเปิดใช้งานประเภทค่าใช้จ่ายเฉพาะที่จะกำหนดให้ต้องเลือกการรับรองการป้องกันการทุจริตในรายงานค่าใช้จ่าย ตัวอย่างเช่น ประเภทของขวัญที่เกี่ยวข้องกับค่าใช้จ่ายอย่างเป็นทางการของรัฐบาลอาจกำหนดให้พนักงานยืนยันว่าค่าใช้จ่ายตรงกับนโยบายของบริษัทที่เกี่ยวข้องกับเจ้าหน้าที่รัฐบาล |
 | <strong>ข้อความการป้องกันการทุจริตสำหรับผู้ส่ง</strong> |                                                                                             ป้อนข้อความที่จะแสดงแก่พนักงานเมื่อมีการสร้างรายงานค่าใช้จ่ายใหม่ คลิกปุ่ม <strong>การแปล</strong> เพื่อป้อนข้อความเฉพาะภาษาที่จะแสดงตามภาษาของผู้ใช้                                                                                             |
 | <strong>ข้อความการป้องกันการทุจริตสำหรับผู้อนุมัติ</strong>  |                                                                                             ป้อนข้อความที่จะแสดงแก่ผู้อนุมติเมื่อมีการสร้างรายงานค่าใช้จ่ายใหม่ คลิกปุ่ม <strong>การแปล</strong> เพื่อป้อนข้อความเฉพาะภาษาที่จะแสดงตามภาษาของผู้ใช้                                                                                             |
-
 

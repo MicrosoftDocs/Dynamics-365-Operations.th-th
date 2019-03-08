@@ -1,13 +1,13 @@
---- 
-title: "เรียกใช้เวอร์ชันขั้นตอนการผลิต"
-description: "ก่อนที่จะสามารถสร้างงานคัมบังและสามารถประมวลผลกิจกรรมสำหรับเวอร์ชันขั้นตอนการผลิต คุณควรเรียกใช้เวอร์ชัน "
+---
+title: เรียกใช้เวอร์ชันขั้นตอนการผลิต
+description: 'ก่อนที่จะสามารถสร้างงานคัมบังและสามารถประมวลผลกิจกรรมสำหรับเวอร์ชันขั้นตอนการผลิต คุณควรเรียกใช้เวอร์ชัน '
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 909ed89cfd498f69ed99cd9642bbd9fab698dbb7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f081d9d591c71cbe02e25bbdb50aa999b558ffa
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339107"
 ---
 # <a name="activate-a-production-flow-version"></a>เรียกใช้เวอร์ชันขั้นตอนการผลิต
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
     * เลือกเวอร์ชันขั้นตอนการผลิตที่มีแบบร่างในฟิลด์สถานะของแผน  
 5. คลิกเรียกใช้
 6. คลิก ตกลง
-
 

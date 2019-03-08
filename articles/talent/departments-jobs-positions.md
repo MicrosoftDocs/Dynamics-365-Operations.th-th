@@ -1,13 +1,13 @@
 ---
-title: "จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง"
-description: "แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล หัวข้อนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้"
+title: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
+description: แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล หัวข้อนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374408"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
 
 [!include [banner](includes/banner.md)]
@@ -164,7 +163,6 @@ ms.lasthandoff: 08/09/2018
 </table>
 
 คุณสามารถปรับเปลี่ยนข้อมูลที่ระบุไว้ในตารางก่อนหน้านี้สำหรับตำแหน่งหรืองาน และระบุวันที่มีผลในการปรับเปลี่ยนตำแหน่งหรืองาน ตัวอย่างเช่น ตำแหน่งสามารถถูกกำหนดให้กับผู้ปฏิบัติงานหนึ่งคนเท่านั้น แต่ Sanjay Patel ถูกกำหนดให้ในตำแหน่งงานนักบัญชี-A จะลาออกในอีกสองสัปดาห์ Joe Healy จะเข้ามาแทน Sanjay Patel เมื่อเขาลาออก ถึงแม้ว่า Sanjay จะยังถูกกำหนดตำแหน่งของเขาอยู่ คุณสามารถกำหนดให้ Healy joe อยู่ในตำแหน่งเดียวกัน เพื่อให้การกำหนดนั้นผลบังคับหลังจากวันที่สุดท้ายของการทำงานของ Sanjay เท่านั้น
-
 
 
 

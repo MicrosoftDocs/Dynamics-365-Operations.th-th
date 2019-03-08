@@ -1,13 +1,13 @@
---- 
-title: "กำหนดกลุ่มกำหนดการแบบลีน"
-description: "กลุ่มกำหนดการแบบ lean ถูกกำหนดเป็นกลุ่ม และแยกแยะผลิตภัณฑ์ในการจัดกำหนดการคัมบัง "
+---
+title: กำหนดกลุ่มกำหนดการแบบลีน
+description: 'กลุ่มกำหนดการแบบ lean ถูกกำหนดเป็นกลุ่ม และแยกแยะผลิตภัณฑ์ในการจัดกำหนดการคัมบัง '
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350538"
 ---
 # <a name="define-lean-schedule-groups"></a>กำหนดกลุ่มกำหนดการแบบลีน
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 2. ในฟิลด์ความสัมพัทธ์สินค้า ให้เลือก กลุ่ม
 3. ในฟิลด์คีย์การปันส่วนสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 4. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-
 

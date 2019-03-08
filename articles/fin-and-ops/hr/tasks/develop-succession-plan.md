@@ -1,13 +1,13 @@
---- 
-title: "พัฒนาแผนการสืบทอด"
-description: "เมื่อองค์กรของคุณขยายตัว และคุณพิจารณาการวางแผนการสืบทอด คุณอาจต้องการค้นหาบุคคลที่มีทักษะที่คล้ายกันกับอีกบุคคลหนึ่ง "
+---
+title: พัฒนาแผนการสืบทอด
+description: 'เมื่อองค์กรของคุณขยายตัว และคุณพิจารณาการวางแผนการสืบทอด คุณอาจต้องการค้นหาบุคคลที่มีทักษะที่คล้ายกันกับอีกบุคคลหนึ่ง '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339199"
 ---
 # <a name="develop-succession-plan"></a>พัฒนาแผนการสืบทอด
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/14/2018
 27. คลิกผลลัพธ์
 28. คลิกรายงาน
     * รายงานจะแสดงรายการการจับคู่ที่ดีที่สุดที่ด้านบนของรายงาน   คุณสามารถเห็นว่ามีองค์ประกอบช่องว่างอยู่ในรายการ   นี่คือความแตกต่างระหว่างระดับที่มีการแสดงรายการอยู่ในการแม็ปทักษะ และระดับของทักษะที่กำหนดให้กับบุคคล  
-
 

@@ -1,33 +1,32 @@
 ---
-title: "ลักษณะการทำงานเกี่ยวกับความสามารถในการเข้าถึง"
-description: "หัวข้อนี้อธิบายฟังก์ชันที่มีวัตถุประสงค์ เพื่อช่วยเหลือผู้ใช้ที่มีความบกพร่องต่างๆ ในการใช้ Dynamics 365 for Finance and Operations, Enterprise edition Dynamics 365 for Retail และ Dynamics 365 for Talent"
+title: ลักษณะการทำงานเกี่ยวกับความสามารถในการเข้าถึง
+description: หัวข้อนี้อธิบายฟังก์ชันที่ถูกออกแบบเพื่อช่วยผู้ใช้ที่มีความบกพร่องทางร่างกายหลายด้าน ใช้ Dynamics 365 for Finance and Operations Dynamics 365 for Retail และ Dynamics 365 for Talent
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363418"
 ---
-
-# <a name="accessibility-features"></a>ลักษณะการทำงานสำหรับความสามารถในการเข้าถึง
+# <a name="accessibility-features"></a>คุณสมบัติความสามารถในการเข้าถึง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายฟังก์ชันที่มีวัตถุประสงค์ เพื่อช่วยเหลือผู้ใช้ที่มีความบกพร่องต่างๆ ในการใช้ Dynamics 365 for Finance and Operations, Enterprise edition Dynamics 365 for Retail และ Dynamics 365 for Talent ตัวอย่างเช่น มีลักษณะการทำงานสำหรับผู้ที่ใช้เทคโนโลยีเพื่อผู้พิการทางการมองเห็น เช่น ผู้บรรยาย Microsoft Windows
+หัวข้อนี้อธิบายฟังก์ชันที่ถูกออกแบบเพื่อช่วยผู้ใช้ที่มีความบกพร่องทางร่างกายหลายด้าน ใช้ Dynamics 365 for Finance and Operations Dynamics 365 for Retail และ Dynamics 365 for Talent ตัวอย่างเช่น มีคุณลักษณะสำหรับผู้ที่ใช้เทคโนโลยีที่ช่วยด้านการมองเห็นเช่น Microsoft Windows Narrator
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>ผู้บรรยาย Windows และการเข้าถึงแป้นพิมพ์อย่างเดียว
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>คำแนะนำเพื่อช่วยให้นักพัฒนาและลูกค้ารวมความคิดที่สามารถเข้าถึงได้ในแบบกำหนดเองของพวกเขา
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับแนวทางที่พึงปฏิบัติที่ดีที่สุดของ Microsoft สำหรับการเปิดใช้งานการเข้าถึง ดู [การเข้าถึงในแบบฟอร์ม ผลิตภัณฑ์ และการควบคุม](../../dev-itpro/user-interface/enable-accessibility.md)
-

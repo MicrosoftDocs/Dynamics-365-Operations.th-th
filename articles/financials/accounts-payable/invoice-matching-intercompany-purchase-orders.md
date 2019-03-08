@@ -1,13 +1,13 @@
 ---
-title: "การจับคู่ใบแจ้งหนี้และใบสั่งสื่อระหว่างบริษัท"
-description: "อาจมีการจัดตั้งนิติบุคคลจัดซื้อที่เกี่ยวข้องในธุรกรรมการค้าระหว่างบริษัทเพื่อใช้บัญชีการจับคู่ใบแจ้งหนี้ของเจ้าหนี้ ในกรณีนี้ จะต้องทำตามเงื่อนไขในการลงรายการบัญชีใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทและการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้ก่อนที่จะสามารถลงรายการใบแจ้งหนี้ของผู้จัดจำหน่ายระหว่างบริษัทได้"
+title: การจับคู่ใบแจ้งหนี้และใบสั่งสื่อระหว่างบริษัท
+description: อาจมีการจัดตั้งนิติบุคคลจัดซื้อที่เกี่ยวข้องในธุรกรรมการค้าระหว่างบริษัทเพื่อใช้บัญชีการจับคู่ใบแจ้งหนี้ของเจ้าหนี้ ในกรณีนี้ จะต้องทำตามเงื่อนไขในการลงรายการบัญชีใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทและการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้ก่อนที่จะสามารถลงรายการใบแจ้งหนี้ของผู้จัดจำหน่ายระหว่างบริษัทได้
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357576"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>การจับคู่ใบแจ้งหนี้และใบสั่งสื่อระหว่างบริษัท
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ ms.lasthandoff: 11/03/2017
 2.  ใน Fabrikam Sales ดำเนินการอัพเดตใบแจ้งหนี้สำหรับ ICSO999 ลงรายการบัญชีไม่สำเร็จ เนื่องจากไม่มีสินค้าในสิ้นค้าคงคลังและยังไม่ได้รับสินค้า ดังนั้น ข้อมูลทางการเงินไม่สามารถอัพเดตได้
 3.  ใน Fabrikam Sales ลงทะเบียนการได้รับสินค้าและลงรายการบัญชีบันทึกการจัดส่งสำหรับ ICSO999 ใบรับสินค้าสำหรับ ICPO333 จะถูกลงบัญชีโดยอัตโนมัติ ใน Fabrikam Purchase ใน Fabrikam Purchase ปริมาณที่ได้รับสำหรับสินค้า B-R14 เปลี่ยนเป็น 100
 4.  ใน Fabrikam Sales ดำเนินการอัพเดตใบแจ้งหนี้สำหรับ ICSO999 ลงรายการบัญชีเสร็จสมบูรณ์แล้วทั้งสองในนิติบุคคล ใน Fabrikam Purchase ปริมาณของสินค้าที่ซื้อสำหรับ B-R14 เปลี่ยนเป็น 100
-
 
 
 

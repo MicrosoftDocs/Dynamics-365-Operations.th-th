@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าประสบการณ์ผู้ใช้"
-description: "หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถกำหนด Microsoft Dynamics 365 for Finance and Operations ให้เป็นส่วนตัวได้"
+title: ตั้งค่าประสบการณ์ผู้ใช้
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถตั้งค่าส่วนบุคคล Microsoft Dynamics 365 for Finance and Operations
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363487"
 ---
-
 # <a name="personalize-the-user-experience"></a>ตั้งค่าประสบการณ์ผู้ใช้
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถกำหนด Microsoft Dynamics 365 for Finance and Operations ให้เป็นส่วนตัวได้
+หัวข้อนี้อธิบายวิธีการที่คุณสามารถตั้งค่าส่วนบุคคล Microsoft Dynamics 365 for Finance and Operations
 
 มีคลาสพื้นฐานของการตั้งค่าส่วนบุคคลสามคลาสใน Finance and Operations
 
@@ -115,7 +114,7 @@ ms.lasthandoff: 09/28/2018
 - ใช้ปุ่ม **แทรก** เพื่อดูรายการขององค์ประกอบที่สามารถแทรกในหน้าได้
 
     - เลือกเครื่องมือ **ฟิลด์** ภายใต้ **แทรก** เพื่อเพิ่มฟิลด์ไปยังเพจของคุณ เมื่อคุณใช้เครื่องมือ **ฟิลด์** คุณสามารถเพิ่มเฉพาะฟิลด์ที่เป็นส่วนหนึ่งของคำนิยามหน้า แต่ที่ไม่ได้แสดงอยู่บนหน้าในขณะนี้ สำหรับข้อมูลเกี่ยวกับวิธีการสร้างฟิลด์ใหม่ที่ไม่ใช่ส่วนหนึ่งของคำนิยามหน้าปัจจุบัน ดู [ฟิลด์แบบกำหนดเอง](user-defined-fields.md) หลังจากคุณเลือกเครื่องมือ **ฟิลด์** อันดับแรกคุณต้องเลือกกลุ่มหรือบริเวณที่คุณต้องการเพิ่มฟิลด์ กล่องโต้ตอบจะแสดงรายการของฟิลด์ที่เกี่ยวข้องกับกลุ่มหรือบริเวณที่คุณเลือก ในกล่องโต้ตอบ เลือกฟิลด์อย่างน้อยหนึ่งฟิลด์เพื่อเพิ่ม และจากนั้น เลือก **แทรก** ในการลบฟิลด์ที่คุณเพิ่มก่อนหน้านี้ ทำซ้ำกระบวนการ แต่ยกเลิกการเลือกฟิลด์ในกล่องโต้ตอบ
-    - เลือกเครื่องมือ **PowerApp** ภายใต้ **แทรก** เพื่อฝังมีแอปที่สร้างโดยใช้ Microsoft PowerApps ลงในหน้า สำหรับข้อมูลโดยละเอียดเกี่ยวกับวิธีการฝังแอป PowerApps ลงในหน้า ดู [ฝัง PowerApps](embed-power-apps.md)
+    - เลือกเครื่องมือ **PowerApp** ภายใต้ **แทรก** เพื่อฝังแอปที่ถูกสร้างโดยใช้ Microsoft PowerApps สำหรับข้อมูลโดยละเอียดเกี่ยวกับวิธีการฝังแอป PowerApps ลงในหน้า ดู [ฝัง PowerApps](embed-power-apps.md)
 
 - เลือกปุ่ม **จัดการ** เพื่อดูรายการของตัวเลือกการจัดการที่เกี่ยวข้องกับการตั้งค่าส่วนบุคคลทั้งหมดสำหรับหน้าปัจจุบัน
 
@@ -171,4 +170,3 @@ ms.lasthandoff: 09/28/2018
 การตั้งค่า **การแสดงมิติ** ใช้กับหน้าทุกหน้า และแทนที่การตั้งค่าที่เป็นแบบส่วนบุคคลใดๆ ของฟิลด์มิติสินค้าคงคลังในหน้าแต่ละหน้า
 
 ดังนั้น ในตัวอย่างก่อนหน้านี้ ถ้าคุณไม่ต้องการให้คอลัมน์สำหรับมิติสินค้าคงคลังหมายเลขชุดงานปรากฏขึ้น คุณต้องล้างมิตินั้น เนื่องจากเป็นส่วนหนึ่งของตัวเลือก **แสดงมิติ** สำหรับตาราง ในท้ายที่สุด การเปลี่ยนแปลงนี้จะไม่ได้ใช้กับเพียงหน้าเฉพาะหน้าหนึ่งเท่านั้น แต่จะใช้กับหน้าทั้งหมด
-

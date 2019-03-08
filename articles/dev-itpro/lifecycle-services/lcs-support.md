@@ -1,13 +1,13 @@
 ---
-title: "รับการสนับสนุนสำหรับ Finance and Operations หรือ Lifecycle Services (LCS)"
-description: "บทความนี้อธิบายวิธีการรับความช่วยเหลือเกี่ยวกับ Microsoft Dynamics 365 for Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS)"
+title: รับการสนับสนุนสำหรับ Finance and Operations หรือ Lifecycle Services (LCS)
+description: บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Microsoft Dynamics 365 for Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS)
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: th-th
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334783"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>รับการสนับสนุนสำหรับ Finance and Operations หรือ Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการรับความช่วยเหลือเกี่ยวกับ Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS) 
+บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS) 
 
 ## <a name="contact-support"></a>ติดต่อฝ่ายสนับสนุน
 
-ใช้ข้อมูลในบทความนี้เพื่อติดต่อ Microsoft ถ้าคุณมีคำถามทางเทคนิคเกี่ยวกับ Finance and Operations หรือถ้าคุณต้องการความช่วยเหลือในการเข้าถึง Microsoft Dynamics Lifecycle Services (LCS)
+ใช้ข้อมูลในบทความนี้เพื่อติดต่อ Microsoft ถ้าคุณมีคำถามทางเทคนิคเกี่ยวกับ Finance and Operations หรือถ้าคุณต้องการวิธีใช้ในการเข้าถึง Microsoft Dynamics Lifecycle Services (LCS)
 
 ### <a name="finance-and-operations-support"></a>การสนับสนุน Finance and Operations
 
@@ -53,7 +52,7 @@ ms.lasthandoff: 09/22/2018
 <tbody>
 <tr class="odd">
 <td>สอบถามชุมชน</td>
-<td>ไปที่หน้า <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">ชุมชน Dynamics 365 for Finance and Operations</span></a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics</td>
+<td>ไปยังหน้า <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Dynamics 365 for Finance and Operations ชุมชน</span></a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics</td>
 </tr>
 <tr class="even">
 <td>ใช้เครื่องมือค้นหาปัญหา</td>
@@ -70,12 +69,12 @@ ms.lasthandoff: 09/22/2018
 </tr>
 <tr class="even">
 <td>เปิดบัตรผ่านการสนับสนุนด้วยทีมสนับสนุน Finance and Operations</td>
-<td>ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งบัตรไปยัง Microsoft จากไทล์ <strong>สนับสนุน</strong> ใน LCS โปรดดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">ติดต่อ Microsoft Business Solutions Support</span></a> สำหรับข้อมูลการติดต่อของ Microsoft Dynamics Regional Operations Center ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:
+<td>ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งตั๋วไปยัง Microsoft จากไทล์ <strong>การสนับสนุน</strong> ใน LCS ดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">ติดต่อ Microsoft Business Solutions Support</span></a> สำหรับข้อมูลเกี่ยวกับการติดต่อศูนย์การดำเนินการทางภูมิภาค Microsoft Dynamics ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:
 <ul>
 <li>ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ LCS หรือปัญหาที่เกิดขึ้นเมื่อคุณพยายามเข้าถึง LCS</li>
 <li>ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ Finance and Operations</li>
 </ul>
-สำหรับคำถามทางเทคนิคที่เกี่ยวข้องกับการเข้าสู่ระบบและการเข้าถึง CustomerSource, การเรียนรู้ทางอิเล็กทรอนิกส์ การค้นหา ฐานความรู้ การดาวน์โหลดไฟล์ และข้อผิดพลาดของหน้าระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">การสนับสนุนเว็บไซต์</span></a></td>
+สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">การสนับสนุนเว็บไซต์</span></a></td>
 </tr>
 <tr class="odd">
 <td>รับความช่วยเหลือเกี่ยวกับคำถามเกี่ยวกับการให้สิทธิ์ใช้งาน Finance and Operations</td>
@@ -92,6 +91,5 @@ ms.lasthandoff: 09/22/2018
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 - [รับการสนับสนุนสำหรับ Dynamics 365 for Retail](../../retail/retail-support.md)
 - [รับการสนับสนุนสำหรับ Dynamics 365 for Talent](../../talent/talent-support.md)
-- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอของการสนับสนุน Microsoft Dynamics โปรดดู [การสนับสนุนออนไลน์ของ Microsoft Dynamics](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx)
-
+- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอบริการ Microsoft Dynamics ดู [Microsoft Dynamics การสนับสนุนออนไลน์](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx)
 

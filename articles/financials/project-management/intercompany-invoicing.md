@@ -1,13 +1,13 @@
 ---
-title: "การออกใบแจ้งหนี้ระหว่างบริษัท"
-description: "บทความนี้มีรายละเอียดและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการใน Microsoft Dynamics 365 for Finance and Operations"
+title: การออกใบแจ้งหนี้ระหว่างบริษัท
+description: บทความนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการใน Microsoft Dynamics 365 for Finance and Operations
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 857aee796db2a4743cdbd91da3eb1cf6f996f9d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333495"
 ---
-
 # <a name="intercompany-invoicing"></a>การออกใบแจ้งหนี้ระหว่างบริษัท
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้มีรายละเอียดและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการใน Microsoft Dynamics 365 for Finance and Operations
+บทความนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการใน Microsoft Dynamics 365 for Finance and Operations
 
 องค์กรของคุณอาจมีแผนก บริษัทในเครือ และนิติบุคคลจำนวนมากที่โอนย้ายผลิตภัณฑ์และบริการให้กันและกันสำหรับโครงการ นิติบุคคลที่ให้บริการหรือผลิตภัณฑ์จะเรียกว่า *นิติบุคคลที่ให้ยืม* และนิติบุคคลที่ได้รับบริการหรือผลิตภัณฑ์จะเรียกว่า *นิติบุคคลที่ขอยืม* 
 
@@ -112,6 +111,5 @@ USSI นิติบุคคลที่ให้ยืมต้องสร้
 
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกการออกใบแจ้งหนี้โครงการระหว่างบริษัท](tasks/configure-intercompany-project-invoicing.md)
-
 
 

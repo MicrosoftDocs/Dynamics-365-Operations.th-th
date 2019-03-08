@@ -1,13 +1,13 @@
 ---
-title: "สร้าง และทำงานร่วมกับฟิลด์ที่กำหนดเอง"
-description: "หัวข้อนี้แสดงวิธีการที่ Microsoft Dynamics 365 for Finance and Operations อนุญาตให้ผู้ใช้บางรายสามารถสร้างฟิลด์แบบกำหนดเองได้ เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของตน"
+title: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
+description: หัวข้อนี้แสดงวิธีการที่ Microsoft Dynamics 365 for Finance and Operations อนุญาตให้ผู้ใช้บางรายสามารถสร้างฟิลด์แบบกำหนดเองได้ เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของตน
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348031"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>สร้าง และทำงานร่วมกับฟิลด์ที่กำหนดเอง
+# <a name="create-and-work-with-custom-fields"></a>สร้างและทำงานกับฟิลด์ที่กำหนดเอง
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +31,7 @@ ms.lasthandoff: 12/18/2018
 
 ความสามารถในการเพิ่มฟิลด์ที่กำหนดเองจะพร้อมใช้งานในการปรับปรุงแพลตฟอร์ม 13 และรุ่นที่ใหม่กว่า
 
-วิดีโอนี้แสดงความง่ายดายในการเพิ่มฟิลด์ที่กำหนดเองไปยังหน้า: [การเพิ่มฟิลด์ที่กำหนดเองใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
+วิดีโอนี้แสดงความง่ายดายในการเพิ่มฟิลด์ที่กำหนดเองลงในหน้า: [การเพิ่มฟิลด์ที่กำหนดเองใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 
 ## <a name="creating-custom-fields"></a>การสร้างฟิลด์ที่กำหนดเอง
 
@@ -160,4 +159,3 @@ ms.lasthandoff: 12/18/2018
 - ตารางไม่สามารถขยายตารางอีกตารางได้
 - ตารางไม่สามารถถูกทำเครื่องหมายเป็นตารางระบบได้
 - ตารางไม่สามารถเป็นตารางชั่วคราวได้
-

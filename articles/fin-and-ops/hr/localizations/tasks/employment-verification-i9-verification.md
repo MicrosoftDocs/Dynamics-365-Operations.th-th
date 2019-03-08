@@ -1,13 +1,13 @@
---- 
-title: "การตรวจสอบการจ้างงาน การตรวจสอบ i9"
-description: "การปฏิรูปการอพยพและบัญญัติควบคุมกำหนดให้นายจ้างของสหรัฐอเมริกาต้องตรวจสอบสถานะสิทธิ์การจ้างงานของพนักงานที่เพิ่งจ้างมาใหม่ "
+---
+title: การตรวจสอบการจ้างงาน การตรวจสอบ i9
+description: 'การปฏิรูปการอพยพและบัญญัติควบคุมกำหนดให้นายจ้างของสหรัฐอเมริกาต้องตรวจสอบสถานะสิทธิ์การจ้างงานของพนักงานที่เพิ่งจ้างมาใหม่ '
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333334"
 ---
 # <a name="employment-verification-i9-verification"></a>การตรวจสอบการจ้างงาน การตรวจสอบ i9
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 09/14/2018
 21. ในฟิลด์ชนิดของเอกสาร I-9 ให้เลือกชนิดของเอกสารที่พนักงานให้ไว้
 22. ในฟิลด์หมายเลขเอกสาร ให้ป้อนหรือเลือกค่า
 23. คลิก บันทึก
-
 

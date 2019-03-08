@@ -1,13 +1,13 @@
 ---
-title: "เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI"
-description: "หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI ในการพัฒนา"
+title: เนื้อหา Power BI ของการพัฒนาและความสามารถของพนักงาน
+description: หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI ของการพัฒนาและความสามารถของพนักงาน
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352930"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>เนื้อหาความสามารถและการพัฒนาของพนักงานใน Power BI
+# <a name="employee-competencies-and-development-power-bi-content"></a>เนื้อหา Power BI ของการพัฒนาและความสามารถของพนักงาน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึง Finance and Operations - ความสามารถของพนักงานและเนื้อหา Power BI ในการพัฒนา 
+หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI ของการพัฒนาและความสามารถของพนักงาน 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
@@ -40,7 +39,7 @@ ms.lasthandoff: 08/13/2018
 | โพรไฟล์ทักษะ                     | โพรไฟล์ทักษะสำหรับพนักงานที่เลือก                |
 | การวิเคราะห์ทักษะ                    | ทักษะโดยเรียงตามชนิดและการจัดอันดับ                              |
 
-คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 ใช้ข้อมูล Finance and Operations เพื่อรวบรวมรายงานในชุดเนื้อหาความสามารถของพนักงานและการพัฒนา ตารางต่อไปนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม
@@ -71,4 +70,3 @@ ms.lasthandoff: 08/13/2018
 | บุคลากร\_ชื่อผู้ปฏิบัติงาน             | ชื่อจริง นามสกุล และชื่อเต็ม                                                                       | |
 | บุคลากร\_ตำแหน่งผู้ปฏิบัติงาน            | ตำแหน่งงานและวันที่อายุงาน                                                                                   | |
 | บุคลากร\_แนวโน้มของผู้ปฏิบัติงาน             | ผู้ปฏิบัติงานล่วงเวลา จำนวนพนักงาน บริษัท และตำแหน่ง                                                        | บุคลากร\_บริษัท บุคลากร\_ค่าตอบแทน บุคลากร\_ที่ตั้งทางภูมิศาสตร์ บุคลากร\_ประสิทธิภาพการทำงาน บุคลากร\_ชื่อผู้ปฏิบัติงาน บุคลากร\_รายงานไปยังชื่อผู้ปฏิบัติงาน บุคลากร\_CalendarOffset บุคลากร\_วันที่ บุคลากร\_ตำแหน่งผู้ปฏิบัติงาน บุคลากร\_ข้อมูลประชากร บุคลากร\_การจ้างงาน บุคลากร\_งาน |
-

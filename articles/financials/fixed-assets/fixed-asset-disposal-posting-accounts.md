@@ -1,13 +1,13 @@
 ---
-title: "บัญชีการลงรายการการตัดจำหน่ายสินทรัพย์ถาวร"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าการลงรายการบัญชีของบัญชีแยกประเภททั่วไปสำหรับการตัดจำหน่ายสินทรัพย์"
+title: บัญชีการลงรายการการตัดจำหน่ายสินทรัพย์ถาวร
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าการลงรายการบัญชีของบัญชีแยกประเภททั่วไปสำหรับการตัดจำหน่ายสินทรัพย์
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8e00c00b0cb7058858fde3774941911ce20fb6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfed7657649f938c3d436468891d40d4194b555d
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367190"
 ---
-
 # <a name="fixed-asset-disposal-posting-accounts"></a>บัญชีการลงรายการการตัดจำหน่ายสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 11/03/2017
 คลิกการตัดจำหน่าย และจากนั้นคลิกการขายหรือเศษซาก และจากนั้นตั้งค่ารายละเอียดของบัญชีเพื่อกลับรายการมูลค่าตามบัญชีสุทธิของสินทรัพย์ถาวร คุณยังสามารถป้อนข้อมูลในฟิลด์มูลค่าการลงรายการบัญชีและมูลค่าการขาย ในหน้าพารามิเตอร์การตัดจำหน่าย 
 
 ธุรกรรมการตัดจำหน่ายสำหรับสินทรัพย์ในกลุ่มสินทรัพย์มูลค่าต่ำ ลดมูลค่าตามบัญชีสุทธิของกลุ่มสินทรัพย์มูลค่าต่ำตามยอดเงินที่ตัดจำหน่ายเท่านั้น อย่างไรก็ตาม เมื่อการขายสินทรัพย์นั้นเกินมูลค่าตามบัญชีสุทธิของกลุ่มสินทรัพย์มูลค่าต่ำ มูลค่าตามบัญชีสุทธิจะถูกลดลงเป็นศูนย์
-
 
 
 

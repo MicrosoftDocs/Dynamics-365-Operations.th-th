@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกร้านค้าออนไลน์"
-description: "บทความนี้แสดงลิงค์ไปยังหัวข้อที่จะช่วยให้คุณในการตั้งค่าคอนฟิกและจัดการจากส่วนกลางและร้านค้าออนไลน์"
+title: ตั้งค่าคอนฟิกร้านค้าออนไลน์
+description: บทความนี้แสดงลิงค์ไปยังหัวข้อที่จะช่วยให้คุณในการตั้งค่าคอนฟิกและจัดการจากส่วนกลางและร้านค้าออนไลน์
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations, Retail
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354379"
 ---
-
 # <a name="configure-online-stores"></a>ตั้งค่าคอนฟิกร้านค้าออนไลน์
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ ms.lasthandoff: 08/09/2018
 | งาน                                 | รายละเอียด                                                                                                                               | เบ็ดเตล็ด                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ตั้งค่าโพรไฟล์การรวมช่องทาง | โพรไฟล์ทำให้ส่วนประกอบของการขายปลีกสามารถสื่อสารกับผู้อื่นได้ ตั้งค่าโพรไฟล์ก่อนที่คุณจะตั้งค่าคอนฟิกการตั้งค่าการแลกเปลี่ยนข้อมูล | [ตั้งค่าโพรไฟล์บริการแบบเรียลไทม์](https://technet.microsoft.com/en-us/library/hh580631.aspx) (เนื้อหา TechNet สำหรับ AX 2012) [ตั้งค่าโพรไฟล์ช่องทาง](https://technet.microsoft.com/en-us/library/jj677402.aspx) (เนื้อหา TechNet สำหรับ AX 2012) |
-
 
 
 

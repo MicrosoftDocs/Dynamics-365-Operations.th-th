@@ -1,14 +1,14 @@
 ---
-title: "การรวมบัญชีทางการเงินและการแปลงสกุลเงิน"
-description: "หัวข้อนี้อธิบายการรวมบัญชีทางการเงินและการแปลงสกุลเงินในบัญชีแยกประเภททั่วไป"
+title: การรวมบัญชีทางการเงินและการแปลงสกุลเงิน
+description: หัวข้อนี้อธิบายการรวมบัญชีทางการเงินและการแปลงสกุลเงินในบัญชีแยกประเภททั่วไป
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354011"
 ---
-
 # <a name="financial-consolidations-and-currency-translation"></a>การรวมบัญชีทางการเงินและการแปลงสกุลเงิน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้นำคุณผ่านวิธีการซึ่งทั้ง Microsoft Dynamics 365 for Finance and Operations และการรายงานทางการเงิน ใช้สำหรับการรวมบัญชี ซึ่งอธิบายถึงสถานการณ์จำลองที่เกี่ยวข้องกับการรายงานแบบหลายบริษัท การรวม การตัดออก และดอกเบี้ยเล็กน้อย และยังอธิบายถึงวิธีการจัดการกับสถานการณ์พิเศษ เช่น สถานการณ์จำลองที่ซึ่งนิติบุคคลมีรอบระยะเวลาทางบัญชีอื่นหรือผังบัญชีที่แตกต่างกัน
+บทความนี้พาคุณไปสู่วิธีการที่ทั้ง Microsoft Dynamics 365 for Finance and Operations และการรายงานทางการเงินใช้สำหรับการรวม ซึ่งอธิบายถึงสถานการณ์จำลองที่เกี่ยวข้องกับการรายงานแบบหลายบริษัท การรวม การตัดออก และดอกเบี้ยเล็กน้อย และยังอธิบายถึงวิธีการจัดการกับสถานการณ์พิเศษ เช่น สถานการณ์จำลองที่ซึ่งนิติบุคคลมีรอบระยะเวลาทางบัญชีอื่นหรือผังบัญชีที่แตกต่างกัน
 
 หัวข้อนี้ถูกบันทึกสำหรับผู้ใช้และที่ปรึกษาด้านการทำงาน และถือว่าผู้อ่านมีความเข้าใจใน Finance and Operations และการรายงานทางการเงิน การตั้งค่าพื้นฐานไม่ถูกครอบคลุม
 
@@ -181,4 +180,3 @@ Finance and Operations ใช้นิติบุคคลแยกต่าง
 
 ## <a name="generating-consolidated-financial-statements"></a>การสร้างงบการเงินที่รวมบัญชี
 สำหรับข้อมูลเกี่ยวกับสถานการณ์ที่คุณอาจสร้างการรวมบัญชีงบการเงิน ดู [สร้างงบการเงินที่รวมบัญชี](./generating-consolidated-financial-statements.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "ลงรายการบัญชีสมุดรายวันประจำงวด"
-description: "สมุดรายวันประจำงวดในบางครั้งจะเรียกว่าสมุดรายวันที่เกิดซ้ำ เนื่องจากยอดเงิน ข้อความ และข้อมูลอื่นๆได้ถูกทำซ้ำแต่ละครั้งที่มีการดึงข้อมูลสมุดรายวันประจำงวด "
+---
+title: ลงรายการบัญชีสมุดรายวันประจำงวด
+description: 'สมุดรายวันประจำงวดในบางครั้งจะเรียกว่าสมุดรายวันที่เกิดซ้ำ เนื่องจากยอดเงิน ข้อความ และข้อมูลอื่นๆได้ถูกทำซ้ำแต่ละครั้งที่มีการดึงข้อมูลสมุดรายวันประจำงวด '
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: deae523d922e1d6a4f7bb05433e9b1568c9c1ee9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8eae11e0501db78e467e517b29a2bc19f5765e75
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351320"
 ---
 # <a name="post-periodic-journals"></a>ลงรายการบัญชีสมุดรายวันประจำงวด
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 29. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 30. คลิก ตกลง
     * สมุดรายวันรอบระยะเวลาในขณะนี้สามารถได้รับการตรวจทาน ได้รับการอนุมัติ หรือได้รับการลงรายการบัญชีขึ้นอยู่กับความต้องการและการตั้งค่า  
-
 

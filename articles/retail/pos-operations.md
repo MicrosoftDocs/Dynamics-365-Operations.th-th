@@ -1,40 +1,39 @@
 ---
-title: "การดำเนินงานการขายหน้าร้าน (POS) แบบออนไลน์และออฟไลน์"
-description: "หัวข้อนี้ให้รายละเอียดเกี่ยวกับการดำเนินงานขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 for Retail ซึ่งระบุตำแหน่งที่การดำเนินงานสามารถถูกเรียกได้ในแอพลิเคชัน และพร้อมใช้งานในโหมดออฟไลน์หรือไม่"
+title: การดำเนินงานการขายหน้าร้าน (POS) แบบออนไลน์และออฟไลน์
+description: หัวข้อนี้ให้รายละเอียดเกี่ยวกับการดำเนินงานขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 for Retail ซึ่งระบุตำแหน่งที่การดำเนินงานสามารถถูกเรียกได้ในแอพลิเคชัน และพร้อมใช้งานในโหมดออฟไลน์หรือไม่
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353827"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>การดำเนินงานการขายหน้าร้าน (POS) แบบออนไลน์และออฟไลน์
 
 [!include [banner](includes/banner.md)]
 
 การดำเนินการส่วนใหญ่ที่ผู้ใช้ทำในการขายหน้าร้าน (POS) เป็นการดำเนินงานที่พิจารณาแล้ว การดำเนินงานถูกตั้งค่าคอนฟิก และจัดการในฝ่ายสนับสนุน Microsoft Dynamics 365 for Retail การดำเนินการจำนวนมากสามารถถูกเพิ่มไปยังปุ่มต่างๆ ในกริดปุ่ม POS จากนั้น ผู้ใช้สามารถเลือกปุ่มเพื่อเรียกการดำเนินงาน และดำเนินการทำงานนั้นได้ การดำเนินการอื่นเป็นส่วนหนึ่งของแอพลิเคชัน POS หลัก และถูกเรียกจากปุ่มบนหน้าจอ หรือเป็นส่วนหนึ่งของเวิร์กโฟลว์หรือกระบวนการอื่นๆ
 
-ตารางต่อไปนี้แสดงรายละเอียดเกี่ยวกับการดำเนินการที่พร้อมใช้งานใน Retail Modern POS และ Cloud POS for Dynamics 365 for Retail ตารางยังระบุตำแหน่งที่การดำเนินงานสามารถถูกเรียกได้ในแอพลิเคชัน และพร้อมใช้งานหรือไม่ เมื่อ POS อยู่ในโหมดออฟไลน์
+ตารางต่อไปนี้แสดงรายละเอียดเกี่ยวกับการดำเนินการที่พร้อมใช้งานใน Retail Modern POS และ Cloud POS สำหรับ Dynamics 365 for Retail ตารางยังระบุตำแหน่งที่การดำเนินงานสามารถถูกเรียกได้ในแอพลิเคชัน และพร้อมใช้งานหรือไม่ เมื่อ POS อยู่ในโหมดออฟไลน์
 
-ขณะนี้การดำเนินการบางอย่างไม่พร้อมใช้งานใน Retail Modern POS หรือ Cloud POS for Dynamics 365 for Retail การดำเนินงานเหล่านี้บางอย่างเป็นการดำเนินเฉพาะตำแหน่งที่ตั้งที่ต้องการส่วนขยายเพิ่มเติมและการตั้งค่าคอนฟิก อื่นๆ เป็นลักษณะการทำงานจาก Microsoft Dynamics AX 2012 ที่ไม่ได้รับการสนับสนุนในปัจจุบัน
+ขณะนี้การดำเนินการบางอย่างไม่พร้อมใช้งานใน Retail Modern POS หรือ Cloud POS สำหรับ Dynamics 365 for Retail การดำเนินงานเหล่านี้บางอย่างเป็นการดำเนินเฉพาะตำแหน่งที่ตั้งที่ต้องการส่วนขยายเพิ่มเติมและการตั้งค่าคอนฟิก อื่นๆ เป็นลักษณะการทำงานจาก Microsoft Dynamics AX 2012 ที่ไม่ได้รับการสนับสนุนในปัจจุบัน
 
 คอลัมน์ต่อไปนี้ระบุตำแหน่งที่สามารถเรียกการดำเนินงานได้:
 
@@ -199,4 +198,3 @@ ms.lasthandoff: 01/04/2019
 § เมื่อ POS เป็นแบบออฟไลน์ สามารถเรียกคืนได้เฉพาะธุรกรรมในฐานข้อมูลออฟไลน์ปัจจุบันสำหรับการส่งคืน
 
 \*\* เมื่อ POS เป็นแบบออฟไลน์ สามารถแสดงได้เฉพาะธุรกรรมในช่องทางออฟไลน์ปัจจุบันในสมุดรายวัน
-

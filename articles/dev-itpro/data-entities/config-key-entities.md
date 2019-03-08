@@ -1,13 +1,13 @@
 ---
-title: "คีย์การตั้งค่าคอนฟิกและเอนทิตีข้อมูล"
-description: "หัวข้อนี้อธิบายความสัมพันธ์ระหว่างคีย์การตั้งค่าคอนฟิกและเอนทิตีข้อมูลใน Microsoft Dynamics 365 for Finance and Operations"
+title: คีย์การตั้งค่าคอนฟิกและเอนทิตีข้อมูล
+description: หัวข้อนี้อธิบายความสัมพันธ์ระหว่างคีย์การตั้งค่าคอนฟิกและเอนทิตีข้อมูลใน Microsoft Dynamics 365 for Finance and Operations
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336485"
 ---
-
-# <a name="configuration-keys-and-data-entities"></a>คีย์การตั้งค่าคอนฟิกและเอนทิตีข้อมูล
+# <a name="configuration-keys-and-data-entities"></a>คีย์การตั้งค่าคอนฟิกและเอนทิตี้ข้อมูล
 
 [!include [banner](../includes/banner.md)]
 
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/13/2018
 เวลาใดก็ได้ที่คุณอัพเดตคีย์การตั้งค่าคอนฟิกที่เอนทิตี้ ระดับตารางหรือฟิลด์ รายการเอนทิตี้ในกรอบงานการจัดการข้อมูลต้องถูกรีเฟรช กระบวนการนี้ช่วยให้มั่นใจว่า กรอบงานจะใช้การตั้งค่าคีย์การตั้งค่าคอนฟิกล่าสุด จนกระทั่งมีการรีเฟรชรายการเอนทิตี้ การเตือนต่อไปนี้จะถูกแสดงในหน้ารายการของเอนทิตี้ การเปลี่ยนแปลงคีย์การตั้งค่าคอนฟิกที่อัพเดตแล้วจะมีผลทันที หลังจากที่มีการรีเฟรชรายการเอนทิตี้ เราขอแนะนำให้คุณตรวจสอบโครงการข้อมูลที่มีอยู่และงานเพื่อให้แน่ใจว่าจะทำงานตามที่คาดไว้ หลังจากที่การเปลี่ยนแปลงคีย์การตั้งค่าคอนฟิกมีผลบังคับใช้
 
 ![ฟิลด์เป้าหมาย](./media/Target_fields_3.png)
-

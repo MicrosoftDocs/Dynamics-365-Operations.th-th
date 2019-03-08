@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA"
-description: "ระบบการชำระเงินของสหภาพยุโรป (SEPA) การหักบัญชีเงินฝากอัตโนมัติช่วยให้เจ้าหนี้เรียกเก็บเงินจากบัญชีธนาคารของลูกค้า ได้รับว่าลูกค้าได้อนุญาตให้มีการลงชื่อข้อตกลงกับเจ้าหนี้"
+title: ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA
+description: ระบบการชำระเงินของสหภาพยุโรป (SEPA) การหักบัญชีเงินฝากอัตโนมัติช่วยให้เจ้าหนี้เรียกเก็บเงินจากบัญชีธนาคารของลูกค้า ได้รับว่าลูกค้าได้อนุญาตให้มีการลงชื่อข้อตกลงกับเจ้าหนี้
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 757f3f6e0c5443054d2d6bd21381d9f692e1b9a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 242d6d3d517ad5190b96ace36bd585a5769ae994
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334829"
 ---
-
 # <a name="set-up-sepa-direct-debit-mandate"></a>ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -54,5 +53,4 @@ ms.lasthandoff: 05/08/2018
 [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ](sepa-direct-debit-overview.md) 
 
 [สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า](tasks/create-direct-debit-mandate-customer.md) 
-
 

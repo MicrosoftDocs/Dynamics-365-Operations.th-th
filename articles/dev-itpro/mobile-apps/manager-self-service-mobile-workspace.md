@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของทีมของฉัน ซึ่งช่วยให้ผู้จัดการสามารถดูรายงานโดยตรงและพนักงานโดยรวมได้ ผู้ใช้สามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้"
+title: พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของทีมของฉัน ซึ่งช่วยให้ผู้จัดการสามารถดูรายงานโดยตรงและพนักงานโดยรวมได้ ผู้ใช้สามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346927"
 ---
-
 # <a name="my-team-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ทีมงานของฉัน** พื้นที่ทำงานนี้จะทำให้ผู้จัดการดูรายงานโดยตรงและพนักงานโดยรวมได้ คุณสามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
 
-พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
 
 ## <a name="overview"></a>ภาพรวม 
 พื้นที่ทำงานบนมือถือ **ทีมงานของฉัน** ช่วยให้ผู้จัดการทำงานเหล่านี้ได้:
@@ -53,12 +52,12 @@ ms.lasthandoff: 04/13/2018
 <tbody>
 <tr class="odd">
 <td>จะต้องนำผลิตภัณฑ์ต่อไปนี้อย่างใดอย่างหนึ่งไปใช้ในองค์กรของคุณ:
-<ul><li>icrosoft Dynamics 365 for Finance and Operations</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณยังไม่&#39;มี Finance and Operations ที่นำไปใช้ในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณยังไม่&#39;มี Talent ที่นำไปใช้ในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองใช้ได้จาก <a href="https://www.microsoft.com/en-us/dynamics365/talent">เว็บเพจ Talent</a>.
+<td>ถ้าคุณไม่&#39;มี Finance and Operations ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มี Talent ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://www.microsoft.com/en-us/dynamics365/talent">เว็บเพจ Talent</a>
 </td>
 </tr>
 <tr class="even">
@@ -78,7 +77,7 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
 1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2.  ป้อน URL ของ Microsoft Dynamics 365 ของคุณ
+2.  ใส่ URL Microsoft Dynamics 365 ของคุณ
 3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
 
@@ -99,4 +98,3 @@ ms.lasthandoff: 04/13/2018
 1.  เลือก **ส่งคำชมเชย** 
 1. ป้อนข้อความของการชมเชยที่คุณต้องการส่ง 
 1. เลือก **เสร็จสิ้น**
-

@@ -1,31 +1,30 @@
 ---
-title: "ขายและส่งคืนผลิตภัณฑ์ที่ไม่ใช่ส่วนหนึ่งของการจัดประเภทสำหรับร้านค้า"
-description: "ด้วย Dynamics 365 for Retail คุณสามารถขายสินค้าและส่งคืนผลิตภัณฑ์ภายนอกการจัดประเภท"
+title: ขายและส่งคืนผลิตภัณฑ์ที่ไม่ใช่ส่วนหนึ่งของการจัดประเภทสำหรับร้านค้า
+description: ด้วย Dynamics 365 for Retail คุณสามารถขายและส่งคืนผลิตภัณฑ์ภายนอกการจัดประเภท
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352309"
 ---
-
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>ขายและส่งคืนผลิตภัณฑ์ที่ไม่ใช่ส่วนหนึ่งของการจัดประเภทสำหรับร้านค้า
 
 [!include [banner](includes/banner.md)]
@@ -38,7 +37,7 @@ ms.lasthandoff: 01/04/2019
 + ผู้ค้าปลีกไม่มีผลิตภัณฑ์เฉพาะในร้านค้า หรือไม่มีในสินค้าคงคลังที่ร้านที่ลูกค้าเยี่ยมชม แต่ผลิตภัณฑ์มีอยู่ในร้านค้าอื่นๆ พนักงานขายประจำร้านสามารถช่วยลูกค้าโดยการค้นหา หรือเรียกดูผลิตภัณฑ์ในร้านค้าอื่น ๆ เพิ่มสินค้าลงในรถเข็น และเช็คเอาท์ให้เสร็จสมบูรณ์โดยการเลือกวิธีการจัดส่งสินค้า
 + ผู้ค้าปลีกมีร้านค้าหลายร้านในและรอบเมืองหรือรหัสไปรษณีย์ที่ระบุ และไม่ต้องการบังคับให้ลูกค้าที่ส่งคืนผลิตภัณฑ์ไปยังร้านเดิมที่พวกเขาซื้อสินค้า แทนที่จะทำเช่นนั้น ลูกค้าอาจส่งคืนผลิตภัณฑ์ไปยังร้านค้าใดๆก็ได้
 
-สถานการณ์เหล่านั้นจะพร้อมใช้งานสำหรับผู้ค้าปลีกโดยการใช้ Dynamics 365 for Retail ด้วยการค้าปลีก คุณสามารถทำงานกับสิ่งต่อไปนี้ได้:
+สถานการณ์จำลองทั่วไปพร้อมใช้งานสำหรับผู้ขายปลีกโดยใช้ Dynamics 365 for Retail ด้วยการค้าปลีก คุณสามารถทำงานกับสิ่งต่อไปนี้ได้:
 
 + ค้นหา หรือเรียกดูผลิตภัณฑ์ในร้านค้าอื่น ๆ
 + ค้นหา หรือเรียกดูผลิตภัณฑ์ที่นำออกใช้ทั้งหมด
@@ -47,4 +46,3 @@ ms.lasthandoff: 01/04/2019
 + เบิกผลิตภัณฑ์ในร้านค้าปัจจุบันหรือร้านค้าอื่น
 + ยกเลิกใบสั่งผลิตภัณฑ์ในร้านค้าปัจจุบันหรือร้านค้าอื่น
 + ส่งใบสั่งส่งคืนสินค้าหรือไม่มีใบเสร็จของร้านค้าปัจจุบันหรือร้านค้าอื่น
-

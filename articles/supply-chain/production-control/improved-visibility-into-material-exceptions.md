@@ -1,13 +1,13 @@
 ---
-title: "การมองเห็นได้ในข้อยกเว้นของวัสดุ"
-description: "หัวข้อนี้อธิบายวิธีการที่คุณจะมีการมองเห็นที่ดีขึ้นในข้อยกเว้น สำหรับวัตถุดิบสำหรับใบสั่งผลิตและใบสั่งชุดงาน"
+title: การมองเห็นได้ในข้อยกเว้นของวัสดุ
+description: หัวข้อนี้อธิบายวิธีการที่คุณจะมีการมองเห็นที่ดีขึ้นในข้อยกเว้น สำหรับวัตถุดิบสำหรับใบสั่งผลิตและใบสั่งชุดงาน
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344765"
 ---
 # <a name="visibility-into-material-exceptions"></a>การมองเห็นได้ในข้อยกเว้นของวัสดุ
 
@@ -67,4 +67,3 @@ ms.lasthandoff: 03/08/2018
 ไทล์ **งานคลังสินค้าแบบเปิดที่ต้องการการพิจารณา** แสดงหมายเลขของรายการ BOM และรายการสูตรที่ได้มีการออกนำใช้ไปยังคลังสินค้า ซึ่งมีงานที่ไม่ได้ประมวลผล และซึ่งมีวันที่ในการจัดหาวัตถุดิบที่เป็นวันก่อนหน้าหรือวันเดียวกับวันที่ในพื้นที่ทำงาน รายการยังต้องมีการใช้โดยทรัพยากรการดำเนินงานที่ใช้กับตัวกรองข้อมูลของพื้นที่ทำงาน
 
 เมื่อมีเลือกไทล์ หน้า **งานทั้งหมด** จะเปิด หน้านี้จะถูกกรองตามจำนวนหัวข้องานแบบเปิด ซึ่งประกอบด้วยรายการงานจากรายการ BOM และรายการสูตรที่นำออกใช้ซึ่งตรงกับเงื่อนไขสำหรับไทล์ จากหน้า **งานทั้งหมด** คุณสามารถประมวลผลงานด้วยตนเองได้
-

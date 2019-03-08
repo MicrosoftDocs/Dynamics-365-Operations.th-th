@@ -1,13 +1,13 @@
 ---
-title: "การรวมแผนงบประมาณกับโมดูลอื่นๆ"
-description: "แผนงบประมาณสามารถถูกสร้างได้จากทรัพยากรที่หลากหลายและแตกต่างกัน: องค์ประกอบพื้นฐานของกระบวนการเป็นครั้งคราวจะเหมือนกับทรัพยากรทั้งหมด"
+title: การรวมแผนงบประมาณกับโมดูลอื่นๆ
+description: 'แผนงบประมาณสามารถถูกสร้างได้จากทรัพยากรที่หลากหลายและแตกต่างกัน: องค์ประกอบพื้นฐานของกระบวนการเป็นครั้งคราวจะเหมือนกับทรัพยากรทั้งหมด'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353045"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>การรวมแผนงบประมาณกับโมดูลอื่นๆ
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ ms.lasthandoff: 05/08/2018
 ใช้ปุ่ม **การคาดการณ์การจัดหาวัสดุ** และปุ่ม **การคาดการณ์ความต้องการ** เพื่อรันการสอบถามเหล่านี้ ในทั้งสองกรณี แบบสอบถามค้นหารายการการคาดการณ์ที่น่าจะสร้างรายการแผนงบประมาณ 
 
 รายงานเพิ่มเติมที่มีอยู่ประกอบด้วยรายงาน **ตำแหน่งตามการคาดการณ์ตามแผนงบประมาณ** รายงานนี้จะมีประโยชน์เป็นอย่างยิ่งเมื่อคุณต้องการตรวจสอบว่าตำแหน่งนั้นได้รับการจัดสรรอย่างถูกต้องไปยังแผนงบประมาณ
-
 
 
 

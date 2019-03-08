@@ -1,13 +1,13 @@
 ---
-title: "สมุดรายวันสินค้าคงคลัง"
-description: "หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถใช้สมุดรายวันสินค้าคงคลัง เพื่อลงรายบัญชีธุรกรรมสินค้าคงคลังทางกายภาพชนิดต่างๆ"
+title: สมุดรายวันสินค้าคงคลัง
+description: หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถใช้สมุดรายวันสินค้าคงคลัง เพื่อลงรายบัญชีธุรกรรมสินค้าคงคลังทางกายภาพชนิดต่างๆ
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361693"
 ---
-
 # <a name="inventory-journals"></a>สมุดรายวันสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถใช้สมุดรายวันสินค้าคงคลัง เพื่อลงรายบัญชีธุรกรรมสินค้าคงคลังทางกายภาพชนิดต่างๆ
 
-สมุดรายวันสินค้าคงคลังใน Microsoft Dynamics 365 for Finance and Operations จะใช้ในการลงรายบัญชีธุรกรรมสินค้าคงคลังที่มีอยู่จริงของชนิดต่างๆ เช่นการลงรายการบัญชีการตัดสินค้าจากคลัง และการรับสินค้า ความเคลื่อนไหวของสินค้าคงคลัง การสร้างของสูตรการผลิต (BOM) และการกระทบยอดของสินค้าคงคลังที่มีอยู่จริง สมุดรายวันสินค้าคงคลังเหล่านี้ทั้งหมดจะใช้ในลักษณะคล้ายกัน แต่จะแบ่งออกเป็นประเภทต่าง ๆ
+สมุดรายวันสินค้าคงคลังใน Microsoft Dynamics 365 for Finance and Operations ถูกใช้เพื่อลงรายการบัญชีธุรกรรมสินค้าคงคลังทางกายภาพของชนิดที่หลากหลาย เช่น การลงรายการบัญชีของใบออกและใบรับ การเคลื่อนไหวของสินค้าคงคลัง และการสร้าง bills of materials (BOMs) และการกระทบยอดของสินค้าคงคลังทางกายภาพ สมุดรายวันสินค้าคงคลังเหล่านี้ทั้งหมดจะใช้ในลักษณะคล้ายกัน แต่จะแบ่งออกเป็นประเภทต่าง ๆ
 
 ## <a name="types-of-inventory-journals"></a>ชนิดของสมุดรายวันสินค้าคงคลัง
 ชนิดต่อไปนี้ของสมุดรายวันสินค้าคงคลังที่พร้อมใช้งาน
@@ -104,7 +103,7 @@ ms.lasthandoff: 04/13/2018
 สำหรับข้อมูลเพิ่มเติม ให้ดู [เอนทิตีข้อมูล](../../dev-itpro/data-entities/data-entities.md)
 
 > [!NOTE]
-> ไม่ใช่สมุดรายวันสินค้าคงคลังทั้งหมดจะถูกเปิดใช้งาน OData ดังนั้นคุณจึงไม่สามารถใช้ตัวเชื่อมต่อข้อมูล Excel เพื่อรับข้อมูลที่เผยแพร่ อัพเดต และนำเข้ากลับไปยัง Dynamics 365 for Finance and Operations ได้ 
+> ไม่ใช่สมุดรายวันสินค้าคงคลังทั้งหมดที่ถูกเปิดใช้งานด้วย OData ดังนั้นคุณจึงไม่สามารถใช้ตัวเชื่อมต่อข้อมูล Excel เพื่อรับข้อมูลที่เผยแพร่ ปรับปรุง และนำเข้า กลับไปยัง Dynamics 365 for Finance and Operations 
 
 ความแตกต่างอื่นระหว่างเอนทิตีข้อมูลสมุดรายวันคือ ความสามารถในการใช้เอนทิตี้โดยรวมที่รวมทั้งหัวข้อและข้อมูลรายการ ในปัจจุบัน คุณสามารถใช้เอนทิตี้โดยรวมสำหรับ:
 -   สมุดรายวันการปรับปรุงสินค้าคงคลัง
@@ -120,4 +119,3 @@ ms.lasthandoff: 04/13/2018
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [เอนทิตี้ข้อมูล](../../dev-itpro/data-entities/data-entities.md)
-

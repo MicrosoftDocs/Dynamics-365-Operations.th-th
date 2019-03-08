@@ -1,13 +1,13 @@
 ---
-title: "กลับสถานะใบสั่งผลิต"
-description: "หัวข้อนี้อธิบายวิธีการกลับรายการสถานะของใบสั่งผลิต"
+title: กลับสถานะใบสั่งผลิต
+description: หัวข้อนี้อธิบายวิธีการกลับรายการสถานะของใบสั่งผลิต
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367328"
 ---
-
 # <a name="reverse-the-production-order-status"></a>กลับสถานะใบสั่งผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="from-started-to-released"></a>จาก เริ่มต้นแล้ว เป็น นำออกใช้แล้ว
 เมื่อคุณย้อนกลับสถานะของใบสั่งผลิตจาก **เริ่มต้นแล้ว** ไปเป็น **นำออกใช้แล้ว** สินค้าทั้งหมดที่ถูกรายงานการเสร็จงานจะถูกแปลงกลับ ถ้ามีการเบิกวัสดุ หรือมีการจัดส่งสินค้าขาเข้าหรือขาออกสำหรับการผลิต การตั้งค่าเหล่านั้นจะถูกย้อนกลับด้วย ฟิลด์ **สถานะคงเหลือ** ในรายการ BOM ของใบสั่งผลิตจะถูกเปลี่ยนจาก **สิ้นสุดแล้ว** เป็น **ปริมาณการใช้วัสดุ** ถ้ามีการลงทะเบียนเวลาหรือปริมาณได้ถูกรายงานว่าเสร็จสมบูรณ์แล้วสำหรับการดำเนินงานในกระบวนการผลิต การตั้งค่าเหล่านั้นจะถูกย้อนกลับ ฟิลด์ **สถานะคงเหลือ** จะถูกเปลี่ยนจาก **สิ้นสุดแล้ว** เป็น **ปริมาณการใช้วัสดุในเส้นทาง** ในกระบวนการผลิต การตั้งค่าสำหรับสินค้าทั้งหมดที่ลงรายการบัญชีในกระบวนการหรืองานระหว่างทำจะถูกกลับรายการ ในหน้า **รายละเอียดของใบสั่งผลิต** ฟิลด์ที่แสดงปริมาณที่เริ่มต้นหรือรายงานการเสร็จงานจะถูกรีเซ็ต วันที่สำหรับธุรกรรมดังกล่าวจะถูกรีเซ็ตด้วย
-
 
 
 

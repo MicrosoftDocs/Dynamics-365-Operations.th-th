@@ -1,13 +1,13 @@
 ---
-title: "ภาษีหัก ณ ที่จ่ายในประเทศไทย"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย ฟังก์ชันการทำงานของภาษีหัก ณ ที่จ่ายได้รับการปรับปรุงสำหรับทั้งธุรกรรมของผู้จัดจำหน่ายและลูกค้า เพื่อให้มีการคำนวณภาษีหัก ณ ที่จ่ายและมีการสร้างรายงานภาษีหัก ณ ที่จ่าย"
+title: ภาษีหัก ณ ที่จ่ายในประเทศไทย
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย ฟังก์ชันการทำงานของภาษีหัก ณ ที่จ่ายได้รับการปรับปรุงสำหรับทั้งธุรกรรมของผู้จัดจำหน่ายและลูกค้า เพื่อให้มีการคำนวณภาษีหัก ณ ที่จ่ายและมีการสร้างรายงานภาษีหัก ณ ที่จ่าย
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 04ac271e6d1cc6cad93c164791f54e338a151576
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f79f0c0fc7854595f049501f857e82302625ff5
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371863"
 ---
-
 # <a name="withholding-tax-in-thailand"></a>ภาษีหัก ณ ที่จ่ายในประเทศไทย
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ ms.lasthandoff: 11/03/2017
 ### <a name="generate-the-withholding-tax-special-report"></a>สร้างรายงานพิเศษภาษีหัก ณ ที่จ่าย
 
 เมื่อคุณส่งรายงาน **ภาษีหัก ณ ที่จ่าย (ภงด. 53)** หรือ **ภาษีหัก ณ ที่จ่าย (ภงด. 3)** และคุณชำระภาษีที่หัก ณ ที่จ่ายไปยังกรมสรรพากรของประเทศไทย กรมสรรพากรจะออกหมายเลขใบเสร็จ คุณต้องป้อนหมายเลขใบเสร็จนี้ในฟิลด์ **หมายเลขใบเสร็จ** บนหน้า **ภาษีหัก ณ ที่จ่ายที่ลงรายการบัญชี** จากนั้น เมื่อสิ้นเดือน คุณต้องสร้างรายงาน **ภาษีหัก ณ ที่จ่ายพิเศษ** และส่งไปยังกรมสรรพากรของประเทศไทย รายงานนี้ถูกสร้างขึ้นในรูปแบบที่กำหนดไว้โดยกรมสรรพากรของประเทศไทย
-
 
 
 

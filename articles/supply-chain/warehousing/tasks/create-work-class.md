@@ -1,13 +1,13 @@
---- 
-title: "การสร้างคลาสการผลิต"
-description: "ขั้นตอนนี้แสดงวิธีการตั้งค่าคลาสงาน "
+---
+title: การสร้างคลาสการผลิต
+description: 'ขั้นตอนนี้แสดงวิธีการตั้งค่าคลาสงาน '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5def9be0966d65728ffb0897229c0d749e7e13a0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a775366bdaecb59a375f245f7a4d17a659cab11
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356035"
 ---
 # <a name="create-a-work-class"></a>การสร้างคลาสการผลิต
 
@@ -38,5 +38,4 @@ ms.lasthandoff: 09/29/2017
 7. ในฟิลด์ชนิดสถานที่ ให้พิมพ์ค่าใดค่าหนึ่ง
     * ถ้าคุณเลือกชนิดสถานที่ มันจะเป็นการตั้งข้อจำกัดสำหรับสถานที่ที่สามารถจัดเก็บสินค้าหลังจากที่ได้เบิกสินค้าไป  การตั้งค่านี้จะใช้เมื่อคำสั่งสถานที่พยายามแก้ไขที่ตั้ง หรือถ้าผู้ปฏิบัติงานคลังสินค้าระบุสถานที่จัดเก็บสินค้าในอุปกรณ์เคลื่อนที่ด้วยตนเอง  
 8. ปิดหน้า
-
 

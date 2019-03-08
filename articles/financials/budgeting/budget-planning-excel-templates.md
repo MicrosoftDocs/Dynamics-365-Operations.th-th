@@ -1,13 +1,13 @@
 ---
-title: "เท็มเพลตการวางแผนงบประมาณสำหรับ Excel"
-description: "หัวข้อนี้อธิบายวิธีการสร้างเท็มเพลต Microsoft Excel ที่สามารถใช้ได้กับแผนงบประมาณ"
+title: เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
+description: หัวข้อนี้อธิบายวิธีการสร้างเท็มเพลต Microsoft Excel ที่สามารถใช้ได้กับแผนงบประมาณ
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337060"
 ---
-
 # <a name="budget-planning-templates-for-excel"></a>เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ ms.lasthandoff: 03/26/2018
 [![ตัวอย่าง](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> เมื่อต้องการหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นกับการดูและแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรเข้าสู่ระบบไปยังทั้ง Microsoft Dynamics 365 for Finance and Operations และ Add-in ของ Office สำหรับ Microsoft Dynamics
+> เพื่อหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นกับการดูและการแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรถูกลงชื่อเข้าใช้ในทั้ง Microsoft Dynamics 365 for Finance and Operations และตัวเชื่อมต่อข้อมูล Add-in ของสำนักงาน Microsoft Dynamics
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>เพิ่มหัวข้อลงในเท็มเพลตเอกสารแผนงบประมาณ
 เมื่อต้องการเพิ่มข้อมูลหัวข้อ เลือกแถวบนสุดในไฟล์ Excel และแทรกแถวที่ว่าง คลิก **ออกแบบ** ใน **ตัวเชื่อมต่อข้อมูล** เพื่อเพิ่มฟิลด์หัวข้อไปยังไฟล์ Excel
@@ -136,7 +135,6 @@ ms.lasthandoff: 03/26/2018
 นอกจากนี้คุณยังสามารถสร้างและใช้ไพว็อทเทเบิลและแผนภูมิสำหรับการจัดกลุ่มและการแสดงภาพข้อมูลเพิ่มเติมของข้อมูลงบประมาณ บนแท็บ **ข้อมูล** ในกลุ่ม **การเชื่อมต่อ** คลิก **รีเฟรชทั้งหมด** แล้วคลิก **คุณสมบัติการเชื่อมต่อ** คลิกแท็บ **การใช้** ภายใต้ **รีเฟรช** เลือกกล่องกาเครื่องหมาย **รีเฟรชข้อมูลเมื่อเปิดไฟล์** 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

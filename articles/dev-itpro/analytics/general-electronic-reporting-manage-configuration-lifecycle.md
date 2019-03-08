@@ -1,13 +1,13 @@
 ---
-title: "จัดการวงจรชีวิตการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)"
-description: "หัวข้อนี้อธิบายวิธีการจัดการวัฏจักรของการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ (ER) สำหรับโซลูชัน Microsoft Dynamics 365 for Finance and Operations"
+title: จัดการวงจรชีวิตการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)
+description: หัวข้อนี้อธิบายวิธีการจัดการการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) สำหรับโซลูชัน Microsoft Dynamics 365 for Finance and Operations Lifecycle Services (LCS)
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5724ba62bfb2c6e75ae895dc9285966c25f387a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 76ea412a3c10bf33fc06603bab8b94b2eadb9803
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344811"
 ---
-
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>จัดการวงจรชีวิตการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการจัดการวัฏจักรของการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ (ER) สำหรับโซลูชัน Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้อธิบายวิธีการจัดการการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) สำหรับโซลูชัน Microsoft Dynamics 365 for Finance and Operations Lifecycle Services (LCS)
 
 ## <a name="overview"></a>ภาพรวม
 
-การรายงานทางอิเล็กทรอนิกส์ (ER) คือกลไกจัดการที่สนับสนุนเอกสารอิเล็กทรอนิกส์เฉพาะประเทศที่จำเป็นตามกฎหมายใน Microsoft Dynamics 365 for Finance and Operations โดยทั่วไป ER ถือว่ามีความสามารถในการทำงานต่อไปนี้ สำหรับเอกสารอิเล็กทรอนิกส์เดี่ยว  สำหรับรายละเอียดเพิ่มเติม ดู [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
+การรายงานทางอิเล็กทรอนิกส์ (ER) เป็นกลไกที่สนับสนุนตามกฎหมายที่ต้องการและเอกสารทางอิเล็กทรอนิกส์เฉพาะประเทศใน Microsoft Dynamics 365 for Finance and Operations โดยทั่วไป ER ถือว่ามีความสามารถในการทำงานต่อไปนี้ สำหรับเอกสารอิเล็กทรอนิกส์เดี่ยว  สำหรับรายละเอียดเพิ่มเติม ดู [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 
 - ออกแบบเท็มเพลตสำหรับเอกสารอิเล็กทรอนิกส์:
 
@@ -89,4 +88,3 @@ ms.lasthandoff: 08/09/2018
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
-

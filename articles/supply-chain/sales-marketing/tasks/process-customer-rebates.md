@@ -1,13 +1,13 @@
---- 
-title: "สร้างและประมวลผลเงินคืนของลูกค้า"
-description: "ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้ "
+---
+title: สร้างและประมวลผลเงินคืนของลูกค้า
+description: 'ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้ '
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336462"
 ---
 # <a name="generate-and-process-customer-rebates"></a>สร้างและประมวลผลเงินคืนของลูกค้า
 
@@ -83,5 +83,4 @@ ms.lasthandoff: 09/29/2017
 9. ในฟิลด์ลูกค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 10. คลิก ตกลง
     * ข้อความแสดงว่ามีการประมวลผลเงินคืนเสร็จเรียบร้อยแล้วและมีการเปลี่ยนแปลงสถานะของการอ้างสิทธิ์ที่จะทำเครื่องหมาย  ซึ่งหมายความว่า ผลลัพธ์ของสมุดรายวันคงค้างเงินคืนกำลังลงรายการบัญชี: a) อ้างสิทธิ์ขณะนี้ถูกโอนย้ายไปเป็นยอดดุลลูกค้าชั่วคราวเป็นการหักลด; b) เงินคืนคงค้างบัญชีถูกเครดิตเพื่อแสดงถึงหนี้สินในอนาคตไปยังลูกค้า; และ c) บัญชีค่าใช้จ่ายเงินคืนได้ถูกเดบิต ในการรับรู้ของต้นทุนที่ถูกใช้จ่ายในการเชื่อมต่อกับการขาย   
-
 

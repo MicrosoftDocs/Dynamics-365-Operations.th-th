@@ -1,13 +1,13 @@
 ---
-title: "การปรับสมดุลแบบกลุ่ม"
-description: "หัวข้อนี้อธิบายถึงกระบวนการปรับสมดุลแบบกลุ่ม"
+title: การปรับสมดุลแบบกลุ่ม
+description: หัวข้อนี้อธิบายถึงกระบวนการปรับสมดุลแบบกลุ่ม
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358634"
 ---
-
 # <a name="batch-balancing"></a>การปรับสมดุลแบบกลุ่ม
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงวิธีการที่กระบวนการปรับสมดุลแบบกลุ่มได้รับการสนับสนุน 
 
-ดู [วิดีโอในการปรับสมดุลแบบกลุ่มใน Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+ดู [วิดีโอในการปรับสมดุลชุดงานใน Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 
 ในกระบวนการปรับสมดุลแบบกลุ่ม ยอดเงินของส่วนประกอบที่จะใช้ในชุดงานการผลิตจะถูกคำนวณจากความเข้มข้นของสารออกฤทธิ์ในชุดผลิตภัณฑ์ที่เลือก
 
@@ -194,4 +193,3 @@ ms.lasthandoff: 04/13/2018
 ถ้าสูตรประกอบด้วยสารออกฤทธิ์สำหรับผลิตภัณฑ์ที่ถูกเปิดใช้งานสำหรับกระบวนการจัดการคลังสินค้า แต่หมายเลขชุดงานต่ำกว่าตำแหน่งในลำดับชั้นการจอง ใบสั่งชุดงานไม่สามารถใช้ได้สำหรับการปรับสมดุลแบบกลุ่ม
 
 ใบสั่งชุดงานที่ไม่เกี่ยวข้องสำหรับการปรับสมดุลแบบกลุ่ม จะผ่านวงจรกระบวนการทั่วไปสำหรับใบสั่งชุดงาน
-

@@ -1,13 +1,13 @@
 ---
-title: "สร้างรายงานทางการเงิน"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน"
+title: สร้างรายงานทางการเงิน
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: th-th
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340901"
 ---
-
 # <a name="generate-financial-reports"></a>สร้างรายงานทางการเงิน
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ ms.lasthandoff: 09/27/2018
 
 ## <a name="generate-a-financial-report"></a>สร้างรายงานทางการเงิน
 
-เมื่อต้องการสร้างรายงานทางการเงินด้วย Microsoft Dynamics 365 for Finance and Operations ไปที่ **บัญชีแยกประเภททั่วไป** \> **การสอบถามและรายงาน** \> **รายงานทางการเงิน**
+เพื่อสร้างรายงานทางการเงินด้วย Microsoft Dynamics 365 for Finance and Operations ไปยัง **บัญชีแยกประเภททั่วไป** \> **การสอบถามและรายงาน** \> **รายงานทางการเงิน**
 
 - เลือกรายงานที่จะสร้าง และคลิก **สร้าง**
 - เติมข้อมูลในฟิลด์ **วันที่รายงาน** และคลิก **ตกลง**
@@ -115,7 +114,7 @@ ms.lasthandoff: 09/27/2018
 > [!TIP]
 > เพื่อวัตถุประสงค์ในการตรวจสอบความถูกต้อง ควรรันกระบวนการนี้ก่อนที่คุณจะสร้างรายงานประจำเดือน และเมื่อคุณสร้างบล็อคส่วนประกอบใหม่
 
-รายงานที่มีช่วงของค่าน้อยจะไม่พบในบัญชีสูญหาย เมื่อเป็นไปได้ ใช้ช่วงในบล็อกส่วนประกอบซึ่งจะถูกรวมเมื่อสร้างบัญชีใหม่ ถ้ามีการตั้งค่าข้อกำหนดของรายงานใด ๆ เป็นบริษัท @ANY จากนั้นคุณสามารถเข้าสู่ระบบไปยังบริษัทเฉพาะ และดำเนินการวิเคราะห์บัญชีที่ขาดหายไปสำหรับบริษัทนั้น
+รายงานที่มีช่วงของค่าน้อยจะไม่พบในบัญชีสูญหาย เมื่อเป็นไปได้ ใช้ช่วงในบล็อกส่วนประกอบซึ่งจะถูกรวมเมื่อสร้างบัญชีใหม่ หากข้อกำหนดของรายงานใดๆ ถูกตั้งค่าเป็นบริษัท @ANY จากนั้นคุณจะสามารถล็อกออนไปยังบริษัทที่เฉพาะเจาะจงและรันการวิเคราะห์บัญชีที่ขาดไปสำหรับบริษัทนั้นได้
 
 > [!NOTE]
 > ถ้ามีการเพิ่มบริษัทใหม่ คุณต้องเพิ่มบริษัทใหม่เป็นแผนภูมิรายงานในรายงานใด ๆ ที่มีอยู่ หรือบริษัทจะไม่ถูกรวมในการวิเคราะห์บัญชีที่ขาดหายไป
@@ -158,4 +157,3 @@ ms.lasthandoff: 09/27/2018
 [การรายงานทางการเงิน](financial-reporting-intro.md)
 
 [อินเทอร์เฟสใน Report Designer](report-designer-interface.md)
-

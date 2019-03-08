@@ -1,13 +1,13 @@
---- 
-title: "สร้างการตั้งค่าคอนฟิกรูปแบบของ ER (พฤศจิกายน 2016)"
-description: "ขั้นตอนต่อไปนี้อธิบายถึงผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)"
+---
+title: สร้างการตั้งค่าคอนฟิกรูปแบบของ ER (พฤศจิกายน 2016)
+description: ขั้นตอนต่อไปนี้อธิบายถึงผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่สามารถสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377560"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>สร้างการตั้งค่าคอนฟิกรูปแบบของ ER (พฤศจิกายน 2016)
 
@@ -46,10 +46,6 @@ ms.lasthandoff: 12/18/2018
     * รูปแบบเฉพาะของเอกสารทางอิเล็กทรอนิกส์สามารถถูกกำหนด ปล่อยฟิลด์นี้ว่างเปล่า ถ้าคุณต้องการเลือกรูปแบบที่ตรงกับเวลาที่ใช้ในการผลิต  
 8. ในฟิลด์ **คำนิยามแบบจำลองข้อมูล** ให้ป้อนหรือเลือกค่า
 9. คลิก **สร้างการตั้งค่าคอนฟิก** การตั้งค่าคอนฟิกใหม่ถูกสร้างขึ้นแล้ว รุ่นแบบร่างสามารถใช้เพื่อจัดเก็บรูปแบบการออกแบบสำหรับเอกสารการจัดการทางอิเล็กทรอนิกส์  
-
- > [!NOTE]
- > ถ้าคุณไม่เห็น **สร้างการตั้งค่าคอนฟิก** คุณต้องเปิดใช้งานโหมดการออกแบบในหน้า **พารามิเตอร์การรายงานทางอิเล็กทรอนิกส์**
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>ออกแบบรูปแบบของเอกสารทางอิเล็กทรอนิกส์
 1. คลิก **ตัวออกแบบ**
@@ -162,5 +158,4 @@ ms.lasthandoff: 12/18/2018
 41. คลิก **ตกลง** 
 42. คลิก **บันทึก**
 43. ปิดหน้า
-
 

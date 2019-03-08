@@ -1,13 +1,13 @@
---- 
-title: "รันรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในผลลัพธ์ ER"
-description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ที่ถูกกำหนดให้กับบทบาทผู้ดูแลระบบหรือบทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ให้ใช้ไฟล์การจัดการเอกสารได้ในผลลัพธ์ ER "
+---
+title: รันรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในผลลัพธ์ ER
+description: 'ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ที่ถูกกำหนดให้กับบทบาทผู้ดูแลระบบหรือบทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ให้ใช้ไฟล์การจัดการเอกสารได้ในผลลัพธ์ ER '
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364798"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>รันรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในผลลัพธ์ ER
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/14/2018
 
 เพื่อทำตามขั้นตอนเหล่านี้ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "ER ใช้ไฟล์การจัดการเอกสารในผลลัพธ์รูปแบบ (ส่วนที่ 3: สร้างรูปแบบ)"
 
-กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
+กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
 
 
 ## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>เพิ่มสิ่งที่แนบที่จำเป็นสำหรับใบสั่งขายของใบแจ้งหนี้ใบเดียว
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/14/2018
 10. คลิก ตกลง
 11. คลิก ตกลง
     * ตรวจทานผลลัพธ์ที่สร้างขึ้น  โปรดทราบว่าสำหรับแต่ละเอกสารแนบจะมีการสร้างโหนด XML เดียว  ระบบจะเติมเนื้อหาของเอกสารแนบกับผลลัพธ์ XML ในรูปแบบข้อความ MIME (base64)  
-
 

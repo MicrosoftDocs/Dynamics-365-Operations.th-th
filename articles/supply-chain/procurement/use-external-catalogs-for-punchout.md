@@ -1,13 +1,13 @@
 ---
-title: "ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement"
-description: "หัวข้อนี้อธิบายวิธีการใช้แค็ตตาล็อกภายนอกเพื่อสร้างและส่งใบขอซื้อ"
+title: ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
+description: หัวข้อนี้อธิบายวิธีการใช้แค็ตตาล็อกภายนอกเพื่อสร้างและส่งใบขอซื้อ
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
-ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342810"
 ---
-
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
@@ -45,10 +44,9 @@ ms.lasthandoff: 03/08/2018
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีตั้งค่านโยบาย ให้ดูที่ [นโยบายการจัดซื้อ](../procurement/purchase-policies.md)
 
 - หากต้องการค้นหาแค็ตตาล็อกภายนอกสำหรับประเภทการจัดซื้อเฉพาะ ให้ป้อนข้อความในฟิลด์การค้นหาแค็ตตาล็อก
-- เมื่อต้องการเพิ่มผลิตภัณฑ์จากผู้จัดจำหน่ายแค็ตตาล็อกภายนอกบนเว็บไซต์ของผู้จัดจำหน่าย ให้คลิกแค็ตตาล็อกภายนอก จากนั้นเพิ่มผลิตภัณฑ์ลงในรถเข็นซื้อของและเช็คเอาท์ รายการในรถเข็นซื้อของจะถูกโอนย้ายไปที่ Microsoft Dynamics 365
+- เมื่อต้องการเพิ่มผลิตภัณฑ์จากผู้จัดจำหน่ายแค็ตตาล็อกภายนอกบนเว็บไซต์ของผู้จัดจำหน่าย ให้คลิกแค็ตตาล็อกภายนอก จากนั้น เพิ่มผลิตภัณฑ์ไปยังรถเข็นซื้อของ และเช็คเอาท์ รายการรถเข็นซื้อของจะถูกโอนย้ายไปยัง Microsoft Dynamics 365
 
 ถ้ามีตัวเลือกสำหรับประเภทการจัดซื้อหลายตัวเลือก ให้เลือกประเภทการจัดซื้อที่ถูกต้องก่อนที่คุณจะเพิ่มรายการในใบขอซื้อ
 หลังจากที่มีการเพิ่มรายการไปยังใบขอซื้อ คุณสามารถเพิ่มรายการเพิ่มเติมโดยไม่ใช้แค็ตตาล็อกภายนอก หรือคุณยังคงสามารถใช้แค็ตตาล็อกภายนอกเพื่อเพิ่มรายการได้
 
 เมื่อใบขอซื้อพร้อมแล้ว ให้ใช้การดำเนินการ **ลำดับงาน** > **ส่ง** เพื่อที่จะส่งสำหรับการอนุมัติ
-

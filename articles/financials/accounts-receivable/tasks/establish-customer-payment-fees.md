@@ -1,13 +1,13 @@
---- 
-title: "จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า"
-description: "สร้างค่าธรรมเนียมในการชำระเงินสำหรับการชำระเงินของลูกค้า "
+---
+title: จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า
+description: 'สร้างค่าธรรมเนียมในการชำระเงินสำหรับการชำระเงินของลูกค้า '
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5acb202d46ef39376a01ca592f60926786d11186
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 659f4560747cea73c61a9b748a980946ca252bd6
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354839"
 ---
 # <a name="establish-customer-payment-fees"></a>จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/29/2017
 18. ในฟิลด์สกุลเงินค่าธรรมเนียม เลือกสกุลเงินของค่าธรรมเนียม
     * นี่คือสกุลเงินที่จะมีการสร้างค่าธรรมเนียม  
 19. คลิก บันทึก
-
 

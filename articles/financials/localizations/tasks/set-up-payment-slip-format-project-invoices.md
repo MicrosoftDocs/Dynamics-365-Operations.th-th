@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่ารูปแบบการบันทึกการชำระเงินสำหรับใบแจ้งหนี้โครงการ"
-description: "ธุรกิจมักจะแนบบันทึกการชำระเงินที่ถูกพิมพ์ เพื่อออกใบแจ้งหนี้เพื่อช่วยเหลือลูกค้าและให้ข้อมูลอ้างอิงการชำระเงินสำหรับการชำระเงินและการลงรายการบัญชี"
+---
+title: ตั้งค่ารูปแบบการบันทึกการชำระเงินสำหรับใบแจ้งหนี้โครงการ
+description: ธุรกิจมักจะแนบบันทึกการชำระเงินที่ถูกพิมพ์ เพื่อออกใบแจ้งหนี้เพื่อช่วยเหลือลูกค้าและให้ข้อมูลอ้างอิงการชำระเงินสำหรับการชำระเงินและการลงรายการบัญชี
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b365585e884749bb73f8ba9054e446f210e10f37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345616"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>ตั้งค่ารูปแบบการบันทึกการชำระเงินสำหรับใบแจ้งหนี้โครงการ
 
@@ -65,5 +65,4 @@ ms.lasthandoff: 09/29/2017
     * ไม่มี - ห้ามพิมพ์บันทึกการชำระเงิน เลือกตัวเลือกนี้เมื่อยอดการชำระเงินอยู่ในสกุลเงินอื่นนอกเหนือจากโครเนอร์เดนมาร์ก (DKK)   FIK 751 - พิมพ์บันทึกการชำระเงิน FIK 751 ถ้าคุณต้องการเขียนยอดการชำระเงินและวันครบกำหนดในบันทึกการชำระเงินด้วยตนเอง    FIK 752 - พิมพ์บันทึกการชำระเงิน FIK 752 ถ้าคุณต้องการใช้ บันทึกการชำระเงินที่ถูกสร้างขึ้นโดยคอมพิวเตอร์ซึ่งมียอดการชำระเงินที่พิมพ์ล่วงหน้าและวันครบกำหนดชำระ  
 16. คลิก บันทึก
 17. ปิดหน้า
-
 

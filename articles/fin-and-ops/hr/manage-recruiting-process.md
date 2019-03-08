@@ -1,13 +1,13 @@
 ---
-title: "จัดการกระบวนการสรรหาบุคลากร"
-description: "บทความนี้อธิบายแนวคิดที่ผู้คัดเลือกพนักงานสามารถใช้เพื่อติดตามขั้นตอนในกระบวนการสรรหาบุคลากร รวมทั้งความพยายามด้านการโฆษณาตำแหน่งที่เปิดรับสมัคร และสรรหาผู้สมัคร ข้อมูลผู้สมัครและแอพลิเคชันการติดตาม interviewing ผู้สมัคร และเลือกผู้สมัครหนึ่งรายการ ขึ้นไปเพื่อเติมตำแหน่งที่ว่างอยู่ในองค์กรของคุณ"
+title: จัดการกระบวนการสรรหาบุคลากร
+description: บทความนี้อธิบายแนวคิดที่ผู้คัดเลือกพนักงานสามารถใช้เพื่อติดตามขั้นตอนในกระบวนการสรรหาบุคลากร รวมทั้งความพยายามด้านการโฆษณาตำแหน่งที่เปิดรับสมัคร และสรรหาผู้สมัคร ข้อมูลผู้สมัครและแอพลิเคชันการติดตาม interviewing ผู้สมัคร และเลือกผู้สมัครหนึ่งรายการ ขึ้นไปเพื่อเติมตำแหน่งที่ว่างอยู่ในองค์กรของคุณ
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345685"
 ---
-
 # <a name="manage-recruiting-processes"></a>จัดการกระบวนการสรรหาบุคลากร
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="hiring-applicants"></a>การจ้างงานผู้สมัคร
 
 ใช้หน้า **แอพลิเคชัน** เพื่อจ้างงานผู้สมัคร เมื่อคุณจ้างงานผู้สมัคร เรกคอร์ดใบสมัครจะมีสถานะเป็น **จ้างงานแล้ว** และเรกคอร์ดบุคคลในสมุดที่อยู่สากลของผู้สมัครจะสัมพันธ์กับเรกคอร์ดผู้ปฏิบัติงานใหม่ ปรับเปลี่ยนข้อมูลสมุดที่อยู่สากลสำหรับเรกคอร์ดผู้ปฏิบัติงานใหม่จะแสดงอยู่ในเรกคอร์ดผู้สมัคร ซึ่งจะช่วยลดการป้อนข้อมูลถ้าผู้ปฏิบัติงานใหม่จะสมัครงานอื่นภายในองค์กรของคุณ การว่าจ้างผู้ปฏิบัติงานที่มีอยู่ลงในตำแหน่งใหม่ คลิก **เปลี่ยนตำแหน่ง** ในดร็อปดาวน์ **สถานะการใช้งาน** เพื่อเริ่มต้นกระบวนการโอนย้าย
-

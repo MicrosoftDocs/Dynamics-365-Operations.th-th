@@ -1,13 +1,13 @@
 ---
-title: "การปันส่วนข้อมูลของการวางแผนงบประมาณ"
-description: "บทความนี้อธิบายถึงวิธีการปันส่วนต่างๆ ที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้"
+title: การปันส่วนข้อมูลของการวางแผนงบประมาณ
+description: บทความนี้อธิบายวิธีการปันส่วนต่างๆ ที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations และวิธีใช้งาน
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352516"
 ---
-
 # <a name="budget-planning-data-allocation"></a>การปันส่วนข้อมูลของการวางแผนงบประมาณ
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายถึงวิธีการปันส่วนต่างๆ ที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้  
+บทความนี้อธิบายวิธีการปันส่วนต่างๆ ที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations และวิธีใช้งาน  
 
 คุณสามารถกระจายข้อมูลในแผนงบประมาณได้หลายวิธี เพื่อที่จะแสดงยอดเงินที่นำเสนอไว้ได้อย่างถูกต้อง
 
@@ -72,7 +71,6 @@ ms.lasthandoff: 03/26/2018
 ในตอนท้าย เพิ่มงานอัตโนมัติสำหรับการปันส่วนระยะการวางแผนงบประมาณ ที่ระยะของลำดับงานที่ต้องการ ในตัวอย่างต่อไปนี้ การปันส่วนระยะการวางแผนงบประมาณสองแบบ (ถูกล้อมรอบด้วยสีแดง) ได้ถูกแทรกลงในลำดับงาน
 
 [![การปันส่วนขั้นการวางแผนงบประมาณ](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

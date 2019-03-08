@@ -1,13 +1,13 @@
 ---
-title: "การบล็อคสินค้าคงคลัง"
-description: "บทความนี้แสดงภาพรวมของการบล็อคสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้"
+title: การบล็อคสินค้าคงคลัง
+description: บทความนี้ให้ภาพรวมของการบล็อกสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b7c788f4b054c7d20df69459c31bb16994d8a9ec
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352056"
 ---
-
 # <a name="inventory-blocking"></a>การบล็อคสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้แสดงภาพรวมของการบล็อคสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้
+บทความนี้ให้ภาพรวมของการบล็อกสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้
 
 คุณสามารถบล็อคสินค้าคงคลังได้ดังวิธีต่อไปนี้:
 -   ด้วยตนเอง
@@ -68,4 +67,3 @@ ms.lasthandoff: 05/08/2018
 [กระบวนการการจัดการคุณภาพ](quality-management-processes.md)
 
 [ตรวจสอบคุณภาพของสินค้า (คู่มืองาน)](tasks/inspect-quality-goods.md)
-

@@ -1,37 +1,36 @@
 ---
-title: "โครงร่างหน้าจอข้อมูลสาธิตใน Retail Modern POS (MPOS) และ Cloud POS"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับโครงร่างหน้าจอ ที่มาพร้อมกับชุดข้อมูลสาธิตสำหรับประสบการณ์การขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 for Retail"
+title: โครงร่างหน้าจอข้อมูลสาธิตใน Retail Modern POS (MPOS) และ Cloud POS
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับโครงร่างหน้าจอที่ถูกรวมกับชุดข้อมูลสาธิตสำหรับประสบการณ์ point of sale (POS) ใน Microsoft Dynamics 365 for Retail
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352493"
 ---
-
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>โครงร่างหน้าจอข้อมูลสาธิตใน Retail Modern POS (MPOS) และ Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับโครงร่างหน้าจอ ที่มาพร้อมกับชุดข้อมูลสาธิตสำหรับประสบการณ์การขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 for Retail
+หัวข้อนี้ให้ข้อมูลเกี่ยวกับโครงร่างหน้าจอที่ถูกรวมกับชุดข้อมูลสาธิตสำหรับประสบการณ์ point of sale (POS) ใน Microsoft Dynamics 365 for Retail
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -108,7 +107,7 @@ F3MGR
 \* ขนาดของโครงร่างเพิ่มเติมเหล่านี้จะพร้อมใช้งานเฉพาะใน Adventure Works และโครงร่างของ Fabrikam
 
 > [!TIP]
-> POS เลือกขนาดของโครงร่างโดยอัตโนมัติ ตามขนาดใกล้เคียงที่สุดที่พร้อมใช้งานสำหรับความละเอียดของหน้าจอของหน้าต่างแอพลิเคชันปัจจุบัน เพื่อค้นหารหัสโครงร่างหน้าจอและความละเอียดโครงร่างที่ใช้อยู่ในปัจจุบัน ใน Retail Modern POS (MPOS) หรือ Retail Cloud POS (CPOS) เปิดหน้า **การตั้งค่า** และค้นหาในส่วน **ข้อมูลรอบเวลา** คุณยังสามารถดูความละเอียดหน้าต่างจริงสำหรับแอพลิเคชันหรือเฟรมของเบราเซอร์ปัจจุบันของคุณได้ด้วย หลังจากที่คุณมีข้อมูลนี้ คุณสามารถค้นหาแหล่งที่มาของเนื้อหาโครงร่างได้ในการขายปลีก โดยการไปที่ **การตั้งค่าช่องทาง** \> **การตั้งค่า POS** \> **POS** \> **โครงร่างหน้าจอ**
+> POS เลือกขนาดของโครงร่างโดยอัตโนมัติ ตามขนาดใกล้เคียงที่สุดที่พร้อมใช้งานสำหรับความละเอียดของหน้าจอของหน้าต่างแอพลิเคชันปัจจุบัน เพื่อค้นหารหัสโครงร่างหน้าจอและความละเอียดโครงร่างที่ถูกใช้ในปัจจุบัน ใน Retail Modern POS (MPOS) หรือ Retail Cloud POS (CPOS) เปิดหน้า **การตั้งค่า** และดูในส่วน **ข้อมูลเซสชั่น** คุณยังสามารถดูความละเอียดหน้าต่างจริงสำหรับแอพลิเคชันหรือเฟรมของเบราเซอร์ปัจจุบันของคุณได้ด้วย หลังจากที่คุณมีข้อมูลนี้ คุณสามารถค้นหาแหล่งที่มาของเนื้อหาโครงร่างได้ในการขายปลีก โดยการไปที่ **การตั้งค่าช่องทาง** \> **การตั้งค่า POS** \> **POS** \> **โครงร่างหน้าจอ**
 
 ![โครงร่างหน้าจอและความละเอียด/ขนาดโครงร่างในการขายปลีกและ POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ F3MGR
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

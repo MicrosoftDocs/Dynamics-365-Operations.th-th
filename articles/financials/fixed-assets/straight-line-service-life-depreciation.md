@@ -1,13 +1,13 @@
 ---
-title: "การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง"
-description: "บทความนี้แสดงภาพรวมอายุบริการคงเหลือแบบเส้นตรงของค่าเสื่อมราคา"
+title: การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง
+description: บทความนี้แสดงภาพรวมอายุบริการคงเหลือแบบเส้นตรงของค่าเสื่อมราคา
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b48cf3970379f8dd2ea529cd8a434c0bdc196a1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb5715855c7e240cddf4fd264a4b26ca09a2f6c4
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365695"
 ---
-
 # <a name="straight-line-service-life-depreciation"></a>การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง
 
 [!include [banner](../includes/banner.md)]
@@ -101,10 +100,9 @@ ms.lasthandoff: 11/03/2017
 | ปีที่ 3 | 14,000 / 5 = 2,800                        | 10,200 - 2,800 = 7,400                |
 | ปีที่ 4 | 14,000 / 5 = 2,800                        | 7,400 - 2,800 = 4,600                 |
 | ปีที่ 5 | 14,000 / 5 = 2,800                        | 4,600 - 2,800 = 1,800                 |
-| ปีที่ 6 | คงเหลือ 800*\*                           | 1,800 - 800 = 1,000                   |
+| ปีที่ 6 | คงเหลือ 800\*                           | 1,800 - 800 = 1,000                   |
 
 \*เนื่องจากยอดคงเหลือน้อยกว่ายอดค่าเสื่อมราคา จะใช้เฉพาะยอดคงเหลือหักด้วยมูลค่าซากเท่านั้น
-
 
 
 

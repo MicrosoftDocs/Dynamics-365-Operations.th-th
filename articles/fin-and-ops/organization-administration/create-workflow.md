@@ -1,13 +1,13 @@
 ---
-title: "สร้างลำดับงาน"
-description: "หัวข้อนี้อธิบายวิธีการสร้างลำดับงาน"
+title: สร้างลำดับงาน
+description: หัวข้อนี้อธิบายวิธีการสร้างลำดับงาน
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353367"
 ---
-
 # <a name="create-workflows"></a>สร้างลำดับงาน
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="open-the-workflow-editor"></a>เปิดโปรแกรมแก้ไขลำดับงาน
 
-โมดูล Microsoft Dynamics 365 for Finance and Operations ที่คุณกำลังทำงานอยู่กำหนดชนิดของลำดับงานที่คุณสามารถสร้างได้ ทำตามขั้นตอนเหล่านี้เพื่อเลือกชนิดของลำดับงานที่จะสร้างและเปิดโปรแกรมแก้ไขลำดับงาน
+โมดูล Microsoft Dynamics 365 for Finance and Operations ที่คุณกำลังทำงานอยู่ กำหนดประเภทของเวิร์กโฟลว์ที่คุณสามารถสร้างได้ ทำตามขั้นตอนเหล่านี้เพื่อเลือกชนิดของลำดับงานที่จะสร้างและเปิดโปรแกรมแก้ไขลำดับงาน
 
 1. เปิดโมดูลที่คุณต้องการสร้างลำดับงานใหม่ ตัวอย่างเช่น ถ้าต้องการสร้างลำดับงานสำหรับใบขอซื้อ คลิก **การจัดซื้อและการจัดหา**
 2. คลิก **การตั้งค่า** &gt; **ลำดับงาน\[ชื่อโมดูล]\]**
@@ -85,4 +84,3 @@ ms.lasthandoff: 08/09/2018
 
     - เมื่อต้องการเรียกใช้เวอร์ชันนี้ของลำดับงาน คลิก **เรียกใช้เวอร์ชันใหม่** เมื่อลำดับงานทำงานอยู่ ผู้ใช้สามารถส่งเอกสารเพื่อการประมวลผลได้
     - ถ้าคุณไม่ต้องการเรียกใช้เวอร์ชันนี้ คลิก **ไม่เรียกใช้เวอร์ชันใหม่** คุณสามารถเรียกใช้ลำดับงานได้ในภายหลัง 
-

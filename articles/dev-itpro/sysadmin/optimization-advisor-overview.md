@@ -1,37 +1,36 @@
 ---
-title: "ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ"
-description: "หัวข้อนี้อธิบายวิธีการใช้โปรแกรมช่วยแนะนำการปรับให้เหมาะสม เพื่อช่วยในการรับรองการตั้งค่าคอนฟิกที่ดีที่สุดของ Microsoft Dynamics 365 Finance and Operations"
+title: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยรับประกันการตั้งค่าคอนฟิกสูงสุดของ Microsoft Dynamics 365 Finance and Operations
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335634"
 ---
-
-# <a name="optimization-advisor"></a>ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
+# <a name="optimization-advisor"></a>ที่ปรึกษาการเพิ่มประสิทธิภาพ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการใช้โปรแกรมช่วยแนะนำการปรับให้เหมาะสม เพื่อช่วยในการรับรองการตั้งค่าคอนฟิกที่ดีที่สุดของ Microsoft Dynamics 365 Finance and Operations
+หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยรับประกันการตั้งค่าคอนฟิกสูงสุดของ Microsoft Dynamics 365 Finance and Operations
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 08/09/2018
 
 พื้นที่ทำงาน **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** เป็นเครื่องมือที่ช่วยผู้ใช้ที่มีความชำนาญ นักวิเคราะห์ธุรกิจ ที่ปรึกษาฟังก์ชัน และฟังก์ชันฝ่ายสนับสนุน IT ในการระบุปัญหาในการตั้งค่าคอนฟิกโมดูลและข้อมูลธุรกิจ โปรแกรมช่วยแนะนำการปรับให้เหมาะสมแนะนำวิธีปฏิบัติที่ดีที่สุดสำหรับการตั้งค่าคอนฟิกโมดูล และระบุถึงข้อมูลธุรกิจที่ล้าสมัยหรือไม่ถูกต้อง
 
-โปรแกรมช่วยแนะนำการปรับให้เหมาะสมรันชุดของกฎแนวทางปฏิบัติเป็นระยะๆ ชุดค่าเริ่มต้นของกฎถูกนำออกใช้ร่วมกับ Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018) อย่างไรก็ตาม ผู้ใช้ยังสามารถสร้างกฎที่เฉพาะเจาะจงต่อการเลือกกำหนดของตนเอง โซลูชันจากผู้จำหน่ายซอฟต์แวร์อิสระ (ISVs) และข้อมูลธุรกิจได้อีกด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างกฎ โปรดดู [สร้างกฎใหม่](./create-rules-optimization-advisor.md)
+โปรแกรมช่วยแนะนำการปรับให้เหมาะสมรันชุดของกฎแนวทางปฏิบัติเป็นระยะๆ ชุดเริ่มต้นของกฎถูกนำออกใช้พร้อมกับ Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018) อย่างไรก็ตาม ผู้ใช้ยังสามารถสร้างกฎที่เฉพาะเจาะจงต่อการเลือกกำหนดของตนเอง โซลูชันจากผู้จำหน่ายซอฟต์แวร์อิสระ (ISVs) และข้อมูลธุรกิจได้อีกด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างกฎ โปรดดู [สร้างกฎใหม่](./create-rules-optimization-advisor.md)
 
 เมื่อมีการตรวจพบการละเมิดกฎ โอกาสในการปรับให้เหมาะสมจะถูกสร้างขึ้น และปรากฏในพื้นที่ทำงาน **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** ผู้ใช้สามารถดำเนินการเชิงแก้ไขที่เหมาะสมโดยตรงจากพื้นที่ทำงาน **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** ได้
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 08/09/2018
 
 เมื่อคุณดำเนินการโอกาสในการปรับให้เหมาะสมบางอย่าง ระบบจะคำนวณผลของโอกาสในแง่ของการลดในรันไทม์ของกระบวนการทางธุรกิจ ขออภัย คุณลักษณะนี้ไม่พร้อมใช้งานสำหรับโอกาสในการปรับให้เหมาะสมทั้งหมด
 
-หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม ให้ดูวิดีโอ [โปรแกรมช่วยแนะนำการปรับให้เหมาะสมใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ) แบบย่อ
+เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับผู้แนะนำการเพิ่มประสิทธิภาพ ดูวิดีโอสั้นๆ [ผู้แนะนำการเพิ่มประสิทธิภาพใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 ## <a name="optimization-rules"></a>กฎการปรับให้เหมาะสม
 
@@ -95,5 +94,4 @@ ms.lasthandoff: 08/09/2018
 
 [สร้างกฎใหม่](./create-rules-optimization-advisor.md)
 
-[โปรแกรมช่วยแนะนำการปรับให้เหมาะสมใน Dynamics 365 for Finance and Operations (วิดีโอ)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[ผู้แนะนำการเพิ่มประสิทธิภาพใน Dynamics 365 for Finance and Operations (วิดีโอ)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

@@ -1,13 +1,13 @@
 ---
-title: "เปิดข้อมูลเอนทิตี้ใน Excel และปรับปรุงโดยใช้ add-in ของ Excel"
-description: "หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel"
+title: เปิดข้อมูลเอนทิตี้ใน Excel และปรับปรุงโดยใช้ add-in ของ Excel
+description: หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,26 +17,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340648"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>เปิดข้อมูลเอนทิตี้ใน Excel และปรับปรุงโดยใช้ add-in ของ Excel
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel เมื่อต้องการเปิดเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือ Microsoft Dynamics 365 for Finance and Operations อย่างใดอย่างหนึ่ง
+หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel เมื่อต้องการเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือ Microsoft Dynamics 365 for Finance and Operations
 
 โดยการเปิดข้อมูลเอนทิตีใน Excel คุณสามารถดูและแก้ไขข้อมูลได้อย่างรวดเร็วและอย่างง่ายดายโดยใช้ Add-in ของ Excel Add-in นี้จำเป็นต้องมี Microsoft Excel 2016
 
 > [!NOTE]
-> หากผู้เช่า Microsoft Azure Active Directory (Azure AD) ของคุณถูกตั้งค่าคอนฟิกให้ใช้ Active Directory Federation Services (AD FS) คุณต้องแน่ใจว่ามีการใช้การอัพเดตเดือนพฤษภาคม 2016 สำหรับ Office เพื่อให้ Add-in ของ Excel สามารถนำคุณเข้าสู่ระบบได้อย่างถูกต้อง
+> หากผู้เช่า Microsoft Azure Active Directory (Azure AD) ของคุณถูกตั้งค่าคอนฟิกให้ใช้ Active Directory Federation Services (AD FS) คุณต้องแน่ใจว่ามีการใช้การอัพเดตเดือนพฤษภาคม 2016 สำหรับ Office เพื่อให้ Add-in ของ Excel สามารถนำคุณเข้าสู่ระบบได้อย่างถูกต้อง
 
-เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการใช้ add-in ของ Excel ให้ดูวิดีโอ [สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบรายการใน Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) แบบย่อ
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการใช้ add-in ของ Excel ให้ดูวิดีโอ [สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบรายการในDynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) แบบย่อ
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>เปิดข้อมูลเอนทิตีใน Excel เมื่อคุณเริ่มการทำงานจาก Finance and Operations
 1. ในหน้าใน Finance and Operations เลือก **เปิดใน Microsoft Office**
@@ -52,7 +51,7 @@ Add-in ของ Excel จะอ่านข้อมูลสำหรับเ
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>เปิดข้อมูลเอนทิตีใน Excel เมื่อคุณเริ่มการทำงานจาก Excel
 1. ใน Excel บนแท็บ **แทรก** ในกลุ่ม **Add-in** เลือก **ร้านค้า** เพื่อเปิด Office Store
-2. ใน Office Store ค้นหาโดยใช้คำสำคัญ **ไดนามิก** และเลือก **เพิ่ม** ถัดจาก **Microsoft Dynamics Office Add-in** (the Excel add-in)
+2. ใน Office Store ค้นหาโดยใช้คำสำคัญ **Dynamics** และเลือก **เพิ่ม** ถัดจาก **Add-in ของ Microsoft Dynamics Office** (the Excel add-in)
 3. ถ้าคุณกำลังเรียกใช้ Add-in ของ Excel เป็นครั้งแรก เลือก **เชื่อถือ Add-in นี้** เพื่อเปิดใช้งาน Add-in ของ Excel เพื่อให้รัน Add-in ของ Excel จะทำงานในบานหน้าต่างด้านขวาของหน้าต่าง Excel
 4. เลือก **เพิ่มข้อมูลเซิร์ฟเวอร์** เพื่อเปิดบานหน้าต่าง **ตัวเลือก**
 5. ในเบราเซอร์ของคุณ คัดลอก URL ของอินสแตนซ์ Finance and Operations เป้าหมายของคุณ วางลงในฟิลด์ **URL ของเซิร์ฟเวอร์** และจากนั้นลบทุกอย่างหลังชื่อโฮสต์ URL ที่เป็นผลลัพธ์ควรมีเพียงชื่อโฮสต์เดียว
@@ -125,4 +124,3 @@ Add-in ของ Excel จะอ่านข้อมูลสำหรับเ
 - **มีการแสดงปุ่มโหลดแอปเพล็ต** – ถ้า Add-in ของ Excel มีปุ่ม **โหลดแอปเพล็ต** หลังจากที่คุณเข้าสู่ระบบ คุณอาจไม่ได้เข้าสู่ระบบในฐานะผู้ใช้ที่ถูกต้อง เมื่อต้องการแก้ไขปัญหานี้ โปรดตรวจสอบว่าชื่อผู้ใช้ที่ถูกต้องปรากฏอยู่ในมุมขวาด้านบนของ Add-in ของ Excel หรือไม่ ถ้าชื่อผู้ใช้ที่ไม่ถูกต้องปรากฏขึ้น ให้เลือก ลงชื่อออก และจากนั้นลงชื่อเข้าใช้กลับเข้าไป
 - **คุณได้รับข้อความ "ไม่ได้รับอนุญาต"** – ถ้าคุณได้รับข้อความ "ไม่ได้รับอนุญาต" ในขณะที่ Add-in ของ Excel กำลังโหลดข้อมูลเมตา บัญชีผู้ใช้ที่มีการลงชื่อเข้าใช้ไปยัง Add-in ของ Excel จะไม่มีสิทธิ์ในการใช้บริการ อินสแตนซ์ หรือฐานข้อมูลที่เป็นเป้าหมาย เมื่อต้องการแก้ไขปัญหานี้ โปรดตรวจสอบว่าชื่อผู้ใช้ที่ถูกต้องปรากฏอยู่ในมุมขวาด้านบนของ Add-in ของ Excel หรือไม่ ถ้าชื่อผู้ใช้ที่ไม่ถูกต้องปรากฏขึ้น ให้เลือก ลงชื่อออก และจากนั้นลงชื่อเข้าใช้กลับเข้าไป
 - **เว็บเพจที่ว่างเปล่าที่ถูกแสดงขึ้นเหนือ Excel** – ถ้าเว็บเพจที่ว่างเปล่าถูกเปิดขึ้นในระหว่างกระบวนการเข้าสู่ระบบ บัญชีนั้นจำเป็นต้องมี AD FS แต่รุ่นของ Excel ที่กำลังเรียกใช้ Add-in ของ Excel ไม่ใช่รุ่นที่ใหม่พอที่จะโหลดกล่องโต้ตอบการเข้าสู่ระบบได้ เมื่อต้องการแก้ไขปัญหานี้ ให้อัพเดตรุ่นของ Excel ที่คุณใช้อยู่ เมื่อต้องการอัพเดตรุ่นของ Excel เมื่อคุณอยู่ในองค์กรที่อยู่ในช่องทางรอการตัดบัญชี ใช้ [เครื่องมือการปรับใช้ Office](https://technet.microsoft.com/library/jj219422.aspx) เพื่อ [ย้ายจากช่องทางรอการตัดบัญชีไปยังช่องทางปัจจุบัน](https://technet.microsoft.com/library/mt455210.aspx)
-

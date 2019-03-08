@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าส่วนประกอบของงาน"
-description: "หัวข้อนี้อธิบายถึงองค์ประกอบแนวคิดสามารถรวมงาน และแสดงตัวอย่างของวิธีการที่คุณสามารถใช้องค์ประกอบเหล่านั้นในองค์กรของคุณ"
+title: ตั้งค่าส่วนประกอบของงาน
+description: หัวข้อนี้อธิบายถึงองค์ประกอบแนวคิดสามารถรวมงาน และแสดงตัวอย่างของวิธีการที่คุณสามารถใช้องค์ประกอบเหล่านั้นในองค์กรของคุณ
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,14 +18,13 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377170"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>ตั้งค่าส่วนประกอบของงาน
 
 [!include [banner](includes/banner.md)]
@@ -73,8 +72,8 @@ ms.lasthandoff: 08/09/2018
 <tr class="odd">
 <td>ผู้จัดการฝ่ายขาย</td>
 <td><ul>
-<li><strong>การตรวจทานประสิทธิภาพการทำงาน</strong> – ตรวจทานประสิทธิภาพการทำงานของ&#39;พนักงานขายแต่ละคน</li>
-<li><strong>การตรวจทาน abs</strong> – อนุมัติ หรือปฏิเสธ คำขอขาดงานหรือการลงทะเบียนของ&#39;พนักงานขายแต่ละคน</li>
+<li><strong>Perf-ตรวจสอบ</strong> – ตรวจสอบประสิทธิภาพ&#39;ของพนักงานขายแต่ละราย</li>
+<li><strong>Abs-ตรวจสอบ</strong> – อนุมัติหรือปฏิเสธคำขอขาดงานหรือการลงทะเบียน&#39;ของพนักงานขายแต่ละราย</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="steps-for-creating-a-job"></a>ขั้นตอนสำหรับการสร้างงาน
 อ้างอิงถึงหัวข้อ [กำหนดงานใหม่](../fin-and-ops/hr/tasks/define-new-jobs.md) สำหรับกระบวนงานแบบเป็นขั้นตอนสำหรับการสร้างงานใหม่ 
-

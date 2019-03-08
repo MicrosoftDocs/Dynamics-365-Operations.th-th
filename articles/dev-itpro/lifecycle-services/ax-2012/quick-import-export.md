@@ -1,13 +1,13 @@
 ---
-title: "นำเข้า-ส่งออกด่วน"
-description: "วัตถุประสงค์ของการนำเข้าส่งออกด่วนคือเพื่อช่วยให้คุณสามารถนำเข้าและส่งออกโดยมีขั้นตอนที่น้อยลง"
+title: นำเข้า-ส่งออกด่วน
+description: วัตถุประสงค์ของการนำเข้าส่งออกด่วนคือเพื่อช่วยให้คุณสามารถนำเข้าและส่งออกโดยมีขั้นตอนที่น้อยลง
 author: margoc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
-ms.service: 
-ms.technology: 
+ms.service: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: AX 2012
@@ -15,16 +15,15 @@ ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 
+ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357737"
 ---
-
 # <a name="quick-import-export"></a>นำเข้า-ส่งออกด่วน
 
 [!include [banner](../../includes/banner.md)]
@@ -35,11 +34,10 @@ ms.lasthandoff: 08/09/2018
 
 - คุณลักษณะนี้สนับสนุนการทำงานกับเอนทิตีแบบนอกกรอบและแบบกำหนดเอง
 - คุณสามารถนำเข้าจากแฟ้ม และถ้าคุณกำลังใช้แหล่งข้อมูล ODBC คุณสามารถเลือกแบบสอบถามเพื่อใช้ในการกำหนดการนำเข้าของคุณได้
-- คุณจะต้องกำหนดรูปแบบของข้อมูลต้นทางสำหรับ AX หรือไฟล์ไว้แล้ว และทราบว่าเก็บไว้ที่ใด
+- คุณต้องกำหนดรูปแบบข้อมูลแหล่งที่มาไว้ก่อนหน้าสำหรับ AX หรือไฟล์ อย่างใดอย่างหนึ่ง และรู้สถานที่ที่ตั้งอยู่
 - คุณไม่จำเป็นต้องสร้างกลุ่มการประมวลผลเพื่อใช้การนำเข้า/ส่งออกด่วน ระบบจะสร้างรายการหนึ่ง ๆ ขึ้นโดยอัตโนมัติเมื่อมีการดำเนินการนำเข้าหรือส่งออกงาน คุณยังสามารถเลือกเก็บประวัติของข้อมูลที่นำเข้าโดยการนำเข้า/ส่งออกด่วนได้
 
   โปรดทราบว่าการนำเข้าส่งออกด่วนจะถือว่าคุณคุ้นเคยกับแนวคิดของ DIXF
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "ใบแจ้งหนี้โครงการ"
-description: "บทความนี้แสดงภาพรวมของโครงการที่ออกใบแจ้งหนี้สำหรับเวลา และวัสดุโครงการ และโครงการที่มีราคาคงที่ รวมข้อมูลเกี่ยวกับข้อเสนอใบแจ้งหนี้ (ใบแจ้งหนี้เบื้องต้น), การควบคุมใบแจ้งหนี้, การออกใบแจ้งหนี้, การออกใบแจ้งหนี้ของผู้จัดจำหน่าย และบันทึกสินเชื่อ"
+title: ใบแจ้งหนี้โครงการ
+description: บทความนี้แสดงภาพรวมของโครงการที่ออกใบแจ้งหนี้สำหรับเวลา และวัสดุโครงการ และโครงการที่มีราคาคงที่ รวมข้อมูลเกี่ยวกับข้อเสนอใบแจ้งหนี้ (ใบแจ้งหนี้เบื้องต้น), การควบคุมใบแจ้งหนี้, การออกใบแจ้งหนี้, การออกใบแจ้งหนี้ของผู้จัดจำหน่าย และบันทึกสินเชื่อ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346329"
 ---
-
 # <a name="project-invoicing"></a>ใบแจ้งหนี้โครงการ
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ ms.lasthandoff: 11/03/2017
 เมื่อต้องการลดหนี้ในยอดเงินที่ออกใบแจ้งหนี้ คุณเลือกยอดเงินที่ออกใบแจ้งหนี้เพื่อทำการลดหนี้ก่อนน จากนั้นจึงสร้างใบลดหนี้ คุณจะสร้างใบลดหนี้ได้โดยใช้วิธีเดียวกันกับที่คุณจะใช้ในการสร้างใบแจ้งหนี้ทั่วไปของลูกค้า 
 
 คุณสามารถสร้างใบแจ้งหนี้ที่มียอดเงินติดลบ ซึ่งจะกลายเป็นใบแจ้งหนี้ที่ถูกจัดประเภทเป็นใบลดหนี้ เมื่อต้องการสร้างและพิมพ์ใบลดหนี้ คุณต้องเลือกธุรกรรมที่ลงรายการในใบแจ้งหนี้ลูกค้าแล้วก่อนหน้านี้ จากนั้นปรับปรุงธุรกรรม เว้นแต่ที่อยู่หลักของนิติบุคคลจะอยู่ในเยอรมนี ชื่อเรื่องของใบแจ้งหนี้จะเป็น "ใบแจ้งหนี้ที่มีการแก้ไข"
-
 
 
 

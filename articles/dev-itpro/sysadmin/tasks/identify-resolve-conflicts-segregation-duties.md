@@ -1,13 +1,13 @@
---- 
-title: "ระบุและแก้ไขความขัดแย้งการแบ่งแยกหน้าที่"
-description: "คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ "
+---
+title: ระบุและแก้ไขความขัดแย้งการแบ่งแยกหน้าที่
+description: 'คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ '
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353114"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>ระบุและแก้ไขความขัดแย้งการแบ่งแยกหน้าที่
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * เลือกกฎ  
 2. คลิกตรวจสอบความถูกต้องของหน้าที่และบทบาท
     * ถ้าบทบาทใดๆที่มีอยู่ละเมิดกฎที่ถูกเลือกไว้ ข้อความจะปรากฏขึ้นซึ่งจะประกอบด้วยชื่อของบทบาทและชื่อของการแบ่งแยกหน้าที่ที่ขัดแย้งกัน  ผู้ดูแลระบบต้องบ่งชี้การลดปัญหาสำหรับความเสี่ยงด้านความปลอดภัยหรือแก้ไขบทบาทอย่างใดอย่างหนึ่ง เพื่อจะได้ไม่เกิดการละเมิดกฎการแบ่งแยกหน้าที่      ถ้าไม่มีบทบาทใดละเมิดกฎที่เลือก ข้อความจะบ่งชี้ว่าบทบาททั้งหมดอยู่ในการปฏิบัติตามกฎระเบียบ  
-
 

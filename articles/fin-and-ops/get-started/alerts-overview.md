@@ -1,13 +1,13 @@
 ---
-title: "การแจ้งเตือน"
-description: "หัวข้อนี้มีข้อมูลทั่วไปเกี่ยวกับการแจ้งเตือนใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน"
+title: การแจ้งเตือน
+description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับการแจ้งเตือนใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367466"
 ---
-
 # <a name="alerts"></a>การแจ้งเตือน
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>เกี่ยวกับข้อความแจ้งเตือน
-การแจ้งเตือนก่อตั้งระบบการแจ้งเตือนสำหรับเหตุการณ์สำคัญใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน คุณสามารถสร้างชุดกฎของตนเองได้อย่างง่ายดาย เพื่อให้ได้รับการแจ้งเตือนเกี่ยวกับการจัดส่งที่เกินกำหนด ใบสั่งที่ถูกลบ ราคาที่เปลี่ยนแปลง หรือเหตุการณ์อื่นๆ ที่คุณจำเป็นต้องตอบสนอง
+การแจ้งเตือนสร้างระบบการแจ้งเตือนในเหตุการณ์สำคัญใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน คุณสามารถสร้างชุดกฎของตนเองได้อย่างง่ายดาย เพื่อให้ได้รับการแจ้งเตือนเกี่ยวกับการจัดส่งที่เกินกำหนด ใบสั่งที่ถูกลบ ราคาที่เปลี่ยนแปลง หรือเหตุการณ์อื่นๆ ที่คุณจำเป็นต้องตอบสนอง
 
 ในการวางแผนทรัพยากรองค์กร (ERP) มีสถานการณ์ทั่วไปมากมายที่สามารถใช้ลักษณะการทำงานการแจ้งเตือนใน Finance and Operations ได้ ยกตัวอย่างเช่น
 
@@ -78,4 +77,3 @@ ms.lasthandoff: 08/09/2018
 ## <a name="email-notifications-from-alerts"></a>การแจ้งเตือนทางอีเมลจากการแจ้งเตือน
 
 ยังไม่ได้เปิดการแจ้งเตือนทางอีเมลจากการแจ้งเตือน นี่จะถูกเปิดใช้งานการปรับปรุงในอนาคต
-

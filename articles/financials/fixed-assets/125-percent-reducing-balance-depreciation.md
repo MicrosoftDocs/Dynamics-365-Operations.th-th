@@ -1,13 +1,13 @@
 ---
-title: "การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125%"
-description: "บทความนี้แสดงภาพรวมยอดดุลที่ลดลง 125% ของค่าเสื่อมราคา"
+title: การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125%
+description: บทความนี้แสดงภาพรวมยอดดุลที่ลดลง 125% ของค่าเสื่อมราคา
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ec88d799c44e035b6490861383557f8c3beda41
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362728"
 ---
-
 # <a name="125-percent-reducing-balance-depreciation"></a>การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125%
 
 [!include [banner](../includes/banner.md)]
@@ -85,8 +84,7 @@ ms.lasthandoff: 11/03/2017
 | ปีที่ 3 | 5,625 × 25% = 1,406.25                        | (6,625 – 1,406.25) = 5,218.75 | (5,625 – 1,406.25) = 4,218.75         |
 
 > [!NOTE] 
-> โดยทั่วไป เมื่อยอดเงินถูกคำนวณโดยใช้วิธีค่าเสื่อมราคายอดดุลที่ลดลง 125% มีน้อยกว่ายอดเงินที่จะถูกคำนวณโดยใช้วิธีเส้นตรง จะมีการแปลงไปยังวิธีเส้นตรงสำหรับอายุที่เหลือ
-
+> โดยทั่วไป เมื่อจำนวนเงินที่ถูกคำนวณโดยใช้วิธีการคิดค่าเสื่อมราคายอดดุลที่ลดลง 125% กลายเป็นน้อยกว่าจำนวนเงินที่จะถูกคำนวณโดยใช้วิธีแบบเส้นตรง มีการแปลงเป็นวิธีแบบเส้นตรงสำหรับชีวิตที่เหลือ
 
 
 

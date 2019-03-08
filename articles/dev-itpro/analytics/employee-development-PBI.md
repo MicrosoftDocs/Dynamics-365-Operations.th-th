@@ -1,13 +1,13 @@
 ---
-title: "เนื้อหาการพัฒนาพนักงานใน Power BI"
-description: "หัวข้อนี้อธิบายถึงเนื้อหาการพัฒนาพนักงานใน Power BI"
+title: เนื้อหา Power BI ของการพัฒนาพนักงาน
+description: หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI ของการพัฒนาพนักงาน
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347180"
 ---
-
-# <a name="employee-development-power-bi-content"></a>เนื้อหาการพัฒนาพนักงานใน Power BI
+# <a name="employee-development-power-bi-content"></a>เนื้อหา Power BI ของการพัฒนาพนักงาน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงเนื้อหา **การพัฒนาพนักงาน** ใน Microsoft Power BI
+หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI **ของการพัฒนาพนักงาน**
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
-รายงานที่รวมอยู่ในเนื้อหา **การพัฒนาพนักงาน** มีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
+รายงานที่ถูกรวมในเนื้อหา Power BI ของ **การพัฒนาพนักงาน** มีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
 
 | รายงาน                        | เนื้อหา |
 |-------------------------------|----------|
@@ -42,7 +41,7 @@ ms.lasthandoff: 08/13/2018
 | การวิเคราะห์การจัดอันดับประสิทธิภาพ   | พนักงานโดยจัดลำดับสูงสุดและต่ำสุดเรียงตามงาน การจัดลำดับพนักงานโดยเรียงตามแผนก พนักงานโดยเรียงตามการจัดลำดับและชนิดของตำแหน่ง และการจัดอันดับสูงสุดและต่ำสุดโดยเรียงตามตำแหน่ง |
 | การวิเคราะห์ประสิทธิของพนักงาน | การจัดลำดับพนักงานสำหรับการจัดลำดับที่เลือกโดยผู้จัดการ |
 
-คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
@@ -70,4 +69,3 @@ ms.lasthandoff: 08/13/2018
 | การวิเคราะห์ทักษะของพนักงาน  | การได้รับการรับรอง ระดับ วันที่ของระดับ และทักษะ                                                                    | ชื่อพนักงาน ทักษะ |
 | ประสิทธิภาพ              | การจัดอันดับ คำอธิบาย และแบบจำลองการจัดอันดับ                                                                      | พนักงานปัจจุบัน ตำแหน่งงานปัจจุบัน แนวโน้มของพนักงาน ทักษะที่ต้องการของงาน การกำหนดตำแหน่งงานที่ผ่านมา แนวโน้มของตำแหน่ง พนักงานที่สิ้นสุดการจ้างงาน |
 | ทักษะ                    | ทักษะ ชนิดของทักษะ และการจัดอันดับ                                                                              | การวิเคราะห์ทักษะของพนักงาน ทักษะที่ต้องการของงาน |
-

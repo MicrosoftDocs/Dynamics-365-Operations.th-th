@@ -1,13 +1,13 @@
---- 
-title: "สร้างการตรวจสอบประสิทธิภาพ"
-description: "กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน "
+---
+title: สร้างการตรวจสอบประสิทธิภาพ
+description: 'กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: th-th
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338486"
 ---
 # <a name="create-a-performance-review"></a>สร้างการตรวจสอบประสิทธิภาพ
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน  กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF  กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
+กระบวนงานนี้แสดงวิธีการสร้างการตรวจสอบประสิทธิภาพและอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน  กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF  กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
 
 1. คลิก การบริการตนเองของพนักงาน
 2. คลิก การตรวจทานใหม่ เพื่อสร้างการตรวจทานใหม่
@@ -79,5 +79,4 @@ ms.lasthandoff: 09/13/2018
     * เมื่อการตรวจทานเปลี่ยนเป็นสถานะต่างๆ พนักงานและผู้จัดการสามารถเพิ่มข้อคิดเห็นสำหรับแต่ละเป้าหมายหรือความสามารถได้  
 42. คลิกแท็บการลงชื่ออนุมัติ
     * ผู้ปฏิบัติงานและผู้จัดการสามารถลงชื่ออนุมัติการตรวจทาน  เมื่อการลงชื่ออนุมัติที่จำเป็นทั้งหมดเสร็จสมบูรณ์ สถานะจะเปลี่ยนเป็นเสร็จสมบูรณ์ และจะไม่สามารถเปลี่ยนแปลงเพิ่มเติมได้อีก  
-
 

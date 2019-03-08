@@ -1,13 +1,13 @@
 ---
-title: "เช็คลงวันที่ล่วงหน้า"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับการสนับสนุนสำหรับเช็คลงวันที่ล่วงหน้าใน Microsoft Dynamics 365 for Finance and Operations เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต  ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ"
+title: เช็คลงวันที่ล่วงหน้า
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการสนับสนุนสำหรับสำหรับการตรวจสอบที่ลงวันที่ช้ากว่าวันจริงใน Microsoft Dynamics 365 for Finance and Operations เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต  ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362935"
 ---
-
 # <a name="postdated-checks"></a>เช็คลงวันที่ล่วงหน้า
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้แสดงข้อมูลเกี่ยวกับการสนับสนุนสำหรับเช็คลงวันที่ล่วงหน้าใน Microsoft Dynamics 365 for Finance and Operations เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต  ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ
+บทความนี้ให้ข้อมูลเกี่ยวกับการสนับสนุนสำหรับสำหรับการตรวจสอบที่ลงวันที่ช้ากว่าวันจริงใน Microsoft Dynamics 365 for Finance and Operations เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต  ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ
 
-Microsoft Dynamics 365 for Finance and Operations สนับสนุนวงจรการจัดการแบบเต็มสำหรับเช็คลงวันที่ล่วงหน้าทั้งในบัญชีลูกหนี้และบัญชีเจ้าหนี้ ดังที่แสดงในตารางต่อไปนี้
+Microsoft Dynamics 365 for Finance and Operations สนับสนุนวงจรการจัดการทั้งหมดสำหรับการตรวจสอบที่ลงวันที่ช้ากว่าวันจริงในทั้งบัญชีลูกหนี้และบัญชีเจ้าหนี้ ดังที่แสดงในตารางต่อไปนี้
 <table>
 <colgroup>
 <col width="50%" />
@@ -97,7 +96,6 @@ Microsoft Dynamics 365 for Finance and Operations สนับสนุนวง
 [ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย](tasks/register-post-postdated-check-vendor.md) 
 
 [ชำระเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย](tasks/settle-postdated-check-vendor.md)
-
 
 
 

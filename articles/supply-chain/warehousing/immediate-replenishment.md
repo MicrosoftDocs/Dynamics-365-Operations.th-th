@@ -1,13 +1,13 @@
 ---
-title: "การเติมสินค้าทันที"
-description: "หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การเติมสินค้าในทันที เพื่อเติมสินค้าในสินค้าคงคลังเมื่อคำสั่งสถานที่ล้มเหลวในการปันส่วนสินค้าคงคลัง"
+title: การเติมสินค้าทันที
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การเติมสินค้าในทันที เพื่อเติมสินค้าในสินค้าคงคลังเมื่อคำสั่งสถานที่ล้มเหลวในการปันส่วนสินค้าคงคลัง
 author: Mirzaab
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: ab1f06951d5daceaf002b2cc23236dd818457985
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a11a26df85647aa36cd30c42f81be4ec2af4409b
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348606"
 ---
-
 # <a name="immediate-replenishment"></a>การเติมสินค้าทันที
 
 [!include [banner](../includes/banner.md)]
@@ -58,4 +57,3 @@ ms.lasthandoff: 04/13/2018
 
 - ให้แน่ใจว่า เท็มเพลตการเติมสินค้าตามความต้องการที่จะใช้ ถูกตั้งค่าเพื่อใช้เท็มเพลตสถานที่ที่ถูกต้อง และเท็มเพลตของงานของชนิด **การเติมสินค้า**
 - ตรวจสอบให้แน่ใจว่า มีปริมาณคงคลังคงเหลือเพียงพอที่สถานที่ที่เท็มเพลตการเติมสินค้าความต้องการค้นหาสินค้าคงคลังคงเหลือสำหรับการเติมสินค้า
-

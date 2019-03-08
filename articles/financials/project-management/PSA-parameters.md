@@ -1,13 +1,13 @@
 ---
-title: "พารามิเตอร์การรวม Project Service Automation"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกวิธีป้อนข้อมูลเริ่มต้น เมื่อคุณรวม Microsoft Dynamics 365 for Project Service Automation กับ Microsoft Dynamics 365 for Finance and Operations"
+title: พารามิเตอร์การรวม Project Service Automation
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกวิธีป้อนข้อมูลเริ่มต้น เมื่อคุณรวม Microsoft Dynamics 365 for Project Service Automationกับ Microsoft Dynamics 365 for Finance and Operations
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347065"
 ---
-
 # <a name="project-service-automation-integration-parameters"></a>พารามิเตอร์การรวม Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ ms.lasthandoff: 08/09/2018
 
 > [!NOTE]
 > - การรวมงานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประเมินชั่วโมง การประเมินค่าใช้จ่าย และการล็อคฟังก์ชัน พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0
-> - การรวมรายการจริงพร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.01 หรือใหม่กว่า
-> - ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3.0 หลังจากที่คุณติดตั้ง KB 4132657 และ KB 4132660 คุณจะสามารถใช้เท็มเพลตเพื่อรวมงานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประเมินชั่วโมง การประเมินค่าใช้จ่าย และค่าที่เกิดขึ้นจริงได้ และสามารถตั้งค่าคอนฟิกการล็อคฟังก์ชันได้ ถ้าคุณต้องรีเซ็ตการกระจายการลงบัญชี เราขอแนะนำให้ คุณติดตั้ง KB 4131710 ด้วย
+> - การรวมรายการจริงพร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0.1 หรือรุ่นที่ใหม่กว่า
+> - ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0 หลังจากที่คุณติดตั้ง KB 4132657 และ KB 4132660 คุณจะสามารถใช้เท็มเพลตเพื่อรวมงานโครงการ ค่าใช้จ่ายประเภทธุรกรรม การประเมินชั่วโมง การประเมินค่าใช้จ่าย และค่าที่เกิดขึ้นจริงได้ และสามารถตั้งค่าคอนฟิกการล็อคฟังก์ชันได้ ถ้าคุณต้องรีเซ็ตการกระจายการลงบัญชี เราขอแนะนำให้ คุณติดตั้ง KB 4131710 ด้วย
 
 | แท็บ                    | ฟิลด์                | คำอธิบาย |
 |------------------------|----------------------|-------------|
@@ -46,4 +45,3 @@ ms.lasthandoff: 08/09/2018
 | ค่าเริ่มต้นชนิดการเรียกเก็บเงิน  | ชนิดการเรียกเก็บเงิน         | คลิก **สร้าง** เพื่อเพิ่มแถวที่คุณสามารถเลือกชนิดการเรียกเก็บเงินที่คุณต้องการตั้งค่าลักษณะของรายการเริ่มต้นให้ได้ สามารถเลือกชนิดการเรียกเก็บเงินที่เฉพาะเจาะจงได้เพียงครั้งเดียวในการตั้งค่าคอนฟิก |
 |                        | คุณสมบัติของรายการ        | เลือกลักษณะของรายการเริ่มต้นสำหรับชนิดการเรียกเก็บเงินที่เลือก เมื่อการประเมินชั่วโมงใหม่ การประเมินค่าใช้จ่ายใหม่ หรือยอดจริง ถูกซิงโครไนส์จาก Project Service Automation ฟิลด์ **ลักษณะของรายการ** จะถูกตั้งเป็นค่าเริ่มต้นสำหรับชนิดการเรียกเก็บเงิน |
 | การล็อกฟังก์ชันการทำงาน  | ใช้ไม่ได้       | เลือกฟังก์ชันเพื่อปิดใช้งานใน Finance and Operations สำหรับโครงการและสัญญาที่สร้างขึ้นจาก Project Service Automation ตัวอย่างเช่น คุณสามารถปิดใช้งานความสามารถในการแก้ไขสัญญาและโครงการ สร้างโครงสร้างการแบ่งงาน และป้อนแผ่นเวลาใน Finance and Operations ฟิลด์ที่เกี่ยวข้องกับการลงบัญชีจะยังคงเปิดใช้งานต่อไป แม้ว่าถูกทำให้ไม่พร้อมใช้งานโดยการตั้งค่าพารามิเตอร์ โดยค่าเริ่มต้น ฟังก์ชันทั้งหมดถูกเปิดใช้งาน |
-

@@ -1,13 +1,13 @@
 ---
-title: "ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS"
-description: "หัวข้อนี้อธิบายวิธีการใช้ตัวบันทึกงานใน Retail Modern POS และ Cloud POS"
+title: ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
+description: หัวข้อนี้อธิบายวิธีการใช้ตัวบันทึกงานใน Retail Modern POS และ Cloud POS
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346007"
 ---
-
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -139,7 +138,7 @@ ms.lasthandoff: 01/04/2019
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>วิธีใช้ใน Retail Modern POS และ Cloud POS
 
-เพื่อแสดงการบันทึกงานแบบกำหนดเองของคุณเองในบานหน้าต่างวิธีใช้ของ Retail Modern POS และ Cloud POS เพื่อให้สามารถดูเป็นข้อความได้ คุณต้องบันทึกการบันทึกงานของคุณไปยังไลบรารี BPM ของคุณเอง และจากนั้น ปรับปรุงพารามิเตอร์ระบบวิธีใช้ของคุณเพื่อชี้ไปยังไลบรารี BPM สำหรับข้อมูลเพิ่มเติมให้ดูที่ [การติดต่อระบบช่วยเหลือ](../fin-and-ops/get-started/help-connect.md) วิธีใช้ของ Retail Modern POS และ Cloud POS ค้นหา LCS ในเวลาจริง โดยจะค้นหาจากไลบรารี BPM ทั้งหมดที่เลือกไว้ในพารามิเตอร์ระบบวิธีใช้ Microsoft Dynamics 365 for Retail และแสดงผลที่เกี่ยวข้อง เมื่อต้องการเข้าถึงเมนู **วิธีใช้** คลิกปุ่ม **วิธีใช้** (เครื่องหมายคำถาม) ที่ด้านบนของหน้าจอ และจากนั้น ในกล่องค้นหา ให้พิมพ์ชื่อกระบวนการของคุณ และกดปุ่มค้นหา
+เพื่อแสดงการบันทึกงานแบบกำหนดเองของคุณเองในบานหน้าต่างวิธีใช้ของ Retail Modern POS และ Cloud POS เพื่อให้สามารถดูเป็นข้อความได้ คุณต้องบันทึกการบันทึกงานของคุณไปยังไลบรารี BPM ของคุณเอง และจากนั้น ปรับปรุงพารามิเตอร์ระบบวิธีใช้ของคุณเพื่อชี้ไปยังไลบรารี BPM สำหรับข้อมูลเพิ่มเติมให้ดูที่ [การติดต่อระบบช่วยเหลือ](../fin-and-ops/get-started/help-connect.md) Retail Modern POS และวิธีใช้ของ Cloud POS ค้นหา LCS ในเวลาจริง โดยจะค้นหาจากไลบรารี BPM ทั้งหมดที่เลือกไว้ในพารามิเตอร์ระบบวิธีใช้ Microsoft Dynamics 365 for Retail และแสดงผลที่เกี่ยวข้อง เมื่อต้องการเข้าถึงเมนู **วิธีใช้** คลิกปุ่ม **วิธีใช้** (เครื่องหมายคำถาม) ที่ด้านบนของหน้าจอ และจากนั้น ในกล่องค้นหา ให้พิมพ์ชื่อกระบวนการของคุณ และกดปุ่มค้นหา
 
 [![ปุ่มวิธีใช้](./media/help.jpg)](./media/help.jpg)
 
@@ -147,4 +146,3 @@ ms.lasthandoff: 01/04/2019
 
 > [!NOTE]
 > วิธีใช้ใน Retail Modern POS และ Cloud POS จะไม่เรียกคู่มืองานตามแบบฟอร์มที่คุณกำลังทำหรือการดำเนินงานที่คุณกำลังทำอยู่ คุณต้องพิมพ์ชื่อกระบวนการในกล่องค้นหา และคลิก **ค้นหา**
-

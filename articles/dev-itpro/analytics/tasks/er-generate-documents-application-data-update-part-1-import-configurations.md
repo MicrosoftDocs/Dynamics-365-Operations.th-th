@@ -1,13 +1,13 @@
---- 
-title: "นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน"
-description: "เพื่อทำตามขั้นตอนเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำกระบวนงาน “สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER ให้เสร็จเรียบร้อยก่อน“"
+---
+title: นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
+description: เพื่อทำตามขั้นตอนเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำกระบวนงาน “สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER ให้เสร็จเรียบร้อยก่อน“
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340809"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 
@@ -75,5 +75,4 @@ ms.lasthandoff: 08/09/2018
 29. ในแผนภูมิ ให้เลือก 'ไฟล์'
     * ตรวจทานโครงสร้างของรูปแบบที่ใช้ในการสร้างรายงานอินทราสแทต หมายเหตุว่าสิ่งนี้ได้รับการออกแบบมาเพื่อสร้างไฟล์ XML ด้วยการเติมข้อมูลจากแบบจำลองข้อมูลซึ่งขึ้นอยู่กับรายการราก 'สำหรับเอกสารขาออก' ตรวจสอบว่ามีการกำหนดชื่อสำหรับไฟล์ที่สร้างขึ้นบนแบบฟอร์มกล่องโต้ตอบผู้ใช้ (มีการใช้แหล่งข้อมูล 'fn' สำหรับรายการดังกล่าว)   
 30. ปิดหน้า
-
 

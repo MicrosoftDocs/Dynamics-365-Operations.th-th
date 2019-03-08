@@ -1,13 +1,13 @@
---- 
-title: "สร้างและรันรายงานนอกกล่อง"
-description: "ใช้คำแนะนำของงานนี้เพื่อรันรายงานนอกกล่องในศูนย์ควบคุมจากพื้นที่ทำงานต่างๆและการสอบถาม & รายงานการขายภายใต้การขายปลีก & การค้า"
+---
+title: สร้างและรันรายงานนอกกล่อง
+description: ใช้คำแนะนำของงานนี้เพื่อรันรายงานนอกกล่องในศูนย์ควบคุมจากพื้นที่ทำงานต่างๆและการสอบถาม & รายงานการขายภายใต้การขายปลีก & การค้า
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365258"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>สร้างและรันรายงานนอกกล่อง
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 09/14/2018
 4. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
 5. คลิก ส่งออก
 6. คลิก PDF
-
 

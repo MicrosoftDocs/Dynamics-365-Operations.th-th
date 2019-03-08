@@ -1,13 +1,13 @@
 ---
-title: "กฎการปันส่วนบัญชีแยกประเภท"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับกฎการปันส่วนบัญชีแยกประเภท โดยจะอธิบายส่วนประกอบต่างๆ ของกฎการปันส่วนและวิธีการปันส่วนที่สามารถใช้สำหรับอุปกรณ์เหล่านี้"
+title: กฎการปันส่วนบัญชีแยกประเภท
+description: บทความนี้แสดงข้อมูลเกี่ยวกับกฎการปันส่วนบัญชีแยกประเภท โดยจะอธิบายส่วนประกอบต่างๆ ของกฎการปันส่วนและวิธีการปันส่วนที่สามารถใช้สำหรับอุปกรณ์เหล่านี้
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365741"
 ---
-
 # <a name="ledger-allocation-rules"></a>กฎการปันส่วนบัญชีแยกประเภท
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 -   **ปลายทาง** - คอมโพเนนต์นี้จะกำหนดการกระจายและนำผลลัพธ์ที่ได้จากการคำนวณการปันส่วนมาพิจารณาที่ควรจะเป็น ตัวอย่างเช่น อาจมีปลายทางหนึ่งรายการสำหรับแต่ละแผนก
 -   **ออฟเซ็ต**– คอมโพเนนต์นี้กำหนดว่าบัญชีหลักและมิติควรถูกกำหนดสำหรับรายการออฟเซ็ตที่ยอดดุลรายการปลายทาง ตัวเลือกที่ผู้ใช้กำหนดโดยทั่วไปจะใช้แทนบัญชีและมิติที่ยึดตามแหล่งที่มา เมื่อ **แหล่งข้อมูล** ถูกตั้งค่าเป็น **ค่าคงที่**, **แหล่งที่มา** ไม่สามารถใช้เป็นตัวเลือกได้
 -   **กฎพื้นฐานการปันส่วนบัญชีแยกประเภท**– กฎเหล่านี้ใช้เงื่อนไขตัวกรองข้อมูลต้นทางของตนเองเพื่อกำหนดยอดดุลบัญชีแยกประเภทที่ควรจะใช้สำหรับการปันส่วน (ตัวอย่างเช่น รายได้ต่อแผนก) แต่ละกฎพื้นฐานการปันส่วนสามารถใช้กับกฎการปันส่วนต่าง ๆ หลายกฎ
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "แป้นพิมพ์ลัด"
-description: "ใช้แป้นพิมพ์ลัดต่อไปนี้ได้ในทุกส่วนของ Dynamics 365 for Finance and Operations"
+title: แป้นพิมพ์ลัด
+description: 'ทางลัดของแป้นพิมพ์ต่อไปนี้จะใช้ทั่วทั้ง Dynamics 365 for Finance and Operations '
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335956"
 ---
-
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
 [!include [banner](../includes/banner.md)]
 
-ใช้แป้นพิมพ์ลัดต่อไปนี้ได้ในทุกส่วนของ Dynamics 365 for Finance and Operations
+ทางลัดของแป้นพิมพ์ต่อไปนี้จะใช้ทั่วทั้ง Dynamics 365 for Finance and Operations 
 
 > [!NOTE]
 > แป้นพิมพ์ลัดที่อธิบายไว้ที่นี่อ้างอิงถึงโครงร่างแป้นพิมพ์ของสหรัฐอเมริกา คีย์ในโครงร่างคีย์บอร์ดอื่นๆอาจไม่ตรงกับคีย์บนแป้นพิมพ์ของสหรัฐอเมริกาทุกประการ
@@ -233,4 +232,3 @@ ms.lasthandoff: 12/18/2018
 | ย้ายขึ้น/ลงหนึ่งแถวในการค้นหา                                                                                        | ลูกศรขึ้น / ลูกศรลง            |
 | ย้ายขึ้น/ลงหนึ่งหน้าในการค้นหา                                                                                       | เลื่อนหน้าขึ้น / เลื่อนหน้าลง              |
 | ย้ายไปด้านบน/ด้านล่างของการค้นหา                                                                                    | หน้าหลัก / สิ้นสุด                       |
-

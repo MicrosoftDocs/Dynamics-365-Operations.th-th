@@ -1,30 +1,29 @@
 ---
-title: "เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI"
-description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้"
+title: เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI
+description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367811"
 ---
-
 # <a name="practice-manager-power-bi-content"></a>เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 
-เนื้อหา Power BI **ผู้จัดการแนวทางปฏิบัติ** จะปรากฏในพื้นที่ทำงาน **การจัดการโครงการ**
+เนื้อหาเกี่ยวกับ **ผู้จัดการแนวทางปฏิบัติ** ใน Power BI จะปรากฏในพื้นที่ทำงาน **การจัดการโครงการ**
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 
@@ -59,7 +58,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
-ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกข้อมูลหน้ารายงานในเนื้อหา Power BI **ผู้จัดการแนวทางปฏิบัติ** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูลเซิร์ฟเวอร์ Microsoft SQL ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
+ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกข้อมูลหน้ารายงานในเนื้อหา **ผู้จัดการแนวทางปฏิบัติ** ใน Power BI ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
 ส่วนต่อไปนี้อธิบายถึงการวัดแบบรวมที่ใช้ในแต่ละเอนทิตี้
 
@@ -119,4 +118,3 @@ ms.lasthandoff: 08/13/2018
 | การวัดแบบรวมหลัก       | ฟิลด์               | คำอธิบาย |
 |---------------------------------|---------------------|-------------|
 | ต้นทุนที่วางแผนไว้สำหรับกิจกรรมเสร็จสมบูรณ์ | Sum(TotalCostPrice) | ราคาต้นทุนรวมในการประเมินสำหรับชนิดธุรกรรมของโครงการทั้งหมดที่มีงานที่เสร็จสมบูรณ์ |
-

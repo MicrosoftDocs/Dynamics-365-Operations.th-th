@@ -1,13 +1,13 @@
---- 
-title: "ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word"
-description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word"
+---
+title: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
+description: ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ อย่างใดอย่างหนึ่ง สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362360"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัท GBSI
+ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ อย่างใดอย่างหนึ่ง สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัท GBSI
 
 เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องทำขั้นตอนอย่างแรกให้เสร็จสมบูรณ์ในคู่มืองาน "สร้างการตั้งค่าคอนฟิก ER สำหรับการสร้างรายงานในรูปแบบ OPENXML" ก่อน นอกจากนี้คุณยังต้องดาวน์โหลดและบันทึกเท็มเพลตต่อไปนี้ล่วงหน้าไว้ภายในเครื่องสำหรับรายงานตัวอย่าง:
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/14/2018
 - [เท็มเพลตที่กำหนดขอบเขตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
-กระบวนงานนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Microsoft Dynamics 365 for Operations รุ่น 1611
+กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Microsoft Dynamics 365 for Operations รุ่น 1611
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>เลือกการตั้งค่าคอนฟิกรายงาน ER ที่มีอยู่
@@ -99,5 +99,4 @@ ms.lasthandoff: 09/14/2018
 16. คลิก ตกลง
 17. คลิก ตกลง
     * วิเคราะห์ผลลัพธ์ที่สร้างขึ้น โปรดทราบว่าผลลัพธ์ที่สร้างขึ้นจะแสดงในรูปแบบ Word และประกอบด้วยรายละเอียดเกี่ยวกับการชำระเงินที่ประมวลผลแล้ว  
-
 

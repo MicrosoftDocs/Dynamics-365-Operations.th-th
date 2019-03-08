@@ -1,13 +1,13 @@
 ---
-title: "ใบสั่งซื้อสำหรับโครงการ"
-description: "บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ"
+title: ใบสั่งซื้อสำหรับโครงการ
+description: บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 767a1805e7a2609c5c28bed891b42f7c8c3aaffc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: dae65394a2180ccbf3317a41b635ba97034e541b
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348698"
 ---
-
 # <a name="purchase-orders-for-a-project"></a>ใบสั่งซื้อสำหรับโครงการ
 
 [!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ
 
-ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้วิธีการต่างๆ เพื่อสร้างใบสั่งซื้อสำหรับโครงการ วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ
+ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้วิธีที่หลากหลายในการสร้างใบสั่งซื้อสำหรับโครงการ วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ
 
 ### <a name="methods-for-creating-a-purchase-order"></a>วิธีการสร้างใบสั่งซื้อ
 
@@ -78,5 +77,4 @@ ms.lasthandoff: 03/26/2018
 > เมื่อคุณอัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายหรือบันทึกการจัดส่ง คุณจะได้รับข้อความเตือนให้อัพเดตบันทึกการจัดส่งสำหรับความต้องการสินค้า
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า](tasks/receive-items-purchase-order-item-requirement.md)
-
 

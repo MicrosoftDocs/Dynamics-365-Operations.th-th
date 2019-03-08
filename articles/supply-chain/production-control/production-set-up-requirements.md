@@ -1,13 +1,13 @@
 ---
-title: "ข้อกำหนดของการตั้งค่าการผลิต"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการตั้งค่าก่อนที่คุณจะสามารถดำเนินการควบคุมการผลิต"
+title: ข้อกำหนดของการตั้งค่าการผลิต
+description: บทความนี้แสดงข้อมูลเกี่ยวกับข้อกำหนดการตั้งค่าก่อนที่คุณจะสามารถดำเนินการควบคุมการผลิต
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366638"
 ---
-
 # <a name="production-setup-requirements"></a>ข้อกำหนดของการตั้งค่าการผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ ms.lasthandoff: 11/03/2017
 1.  **กลุ่มการผลิต** – ตั้งค่ากลุ่มการผลิตเพื่อสร้างความสัมพันธ์ระหว่างใบสั่งผลิตบัญชีแยกประเภท บัญชีแยกประเภทจะถูกใช้ในการลงรายการบัญชีหรือการจัดกลุ่มใบสั่งสำหรับการรายงาน
 2.  **ประเภทการผลิต** - สร้างประเภทการผลิตเพื่อจัดกลุ่มใบสั่งผลิต เพื่อดำเนินการใบสั่งผลิตด่วน หรือเพื่อลบและการลงรายการบัญชีกลุ่มของใบสั่ง
 3.  **คุณสมบัติ**– กำหนดคุณสมบัติเพื่อสร้างแอททริบิวต์พิเศษซึ่งคุณสามารถมอบหมายให้กับทรัพยากรของคุณเพื่อควบคุมใบสั่งผลิต แอททริบิวต์เหล่านี้มีความเกี่ยวข้องกับเท็มเพลตเวลาการทำงาน 
-
 
 
 
