@@ -1,13 +1,13 @@
 ---
-title: "รักษาแผนการใบสั่ง"
-description: "หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับวิธีการจัดการใบสั่งที่วางแผนไว้ โดยอธิบายวิธีการปรับปรุงสถานะของแผนการใบสั่ง ยืนยัน และกรองข้อมูลสำหรับแผนการใบสั่งที่มีสถานะเดียวกันเป็นแผนการใบสั่งที่เลือก"
+title: รักษาแผนการใบสั่ง
+description: หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับวิธีการจัดการใบสั่งที่วางแผนไว้ โดยอธิบายวิธีการปรับปรุงสถานะของแผนการใบสั่ง ยืนยัน และกรองข้อมูลสำหรับแผนการใบสั่งที่มีสถานะเดียวกันเป็นแผนการใบสั่งที่เลือก
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 10/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo
 audience: Application User
 ms.reviewer: josaw
@@ -19,39 +19,37 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 657c19896b20a514dc5308bf7fb086085b482fec
 ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.contentlocale: th-th
-ms.lasthandoff: 10/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360474"
 ---
-
-# <a name="maintain-planned-orders"></a><span data-ttu-id="78f78-104">รักษาแผนการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="78f78-104">Maintain planned orders</span></span>
+# <a name="maintain-planned-orders"></a><span data-ttu-id="a359b-104">รักษาแผนการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="a359b-104">Maintain planned orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="78f78-105">หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับวิธีการจัดการใบสั่งที่วางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="78f78-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="78f78-106">โดยอธิบายวิธีการปรับปรุงสถานะของแผนการใบสั่ง ยืนยัน และกรองข้อมูลสำหรับแผนการใบสั่งที่มีสถานะเดียวกันเป็นแผนการใบสั่งที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78f78-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
+<span data-ttu-id="a359b-105">หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับวิธีการจัดการใบสั่งที่วางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="a359b-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="a359b-106">โดยอธิบายวิธีการปรับปรุงสถานะของแผนการใบสั่ง ยืนยัน และกรองข้อมูลสำหรับแผนการใบสั่งที่มีสถานะเดียวกันเป็นแผนการใบสั่งที่เลือก</span><span class="sxs-lookup"><span data-stu-id="a359b-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-<span data-ttu-id="78f78-107">คุณสามารถจัดการแผนการใบสั่งจากพื้นที่ทำงาน **การวางแผนหลัก** รายการ **แผนการใบสั่ง** หรือ **แผนการใบสั่งผลิต**, **แผนการใบสั่งซื้อ**และรายการ **แผนการโอนย้าย**</span><span class="sxs-lookup"><span data-stu-id="78f78-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="78f78-108">คุณสามารถใช้ฟิลด์ **สถานะ** เพื่อช่วยติดตามความคืบหน้าของคุณ</span><span class="sxs-lookup"><span data-stu-id="78f78-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="78f78-109">ใช้ค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="78f78-109">The following values are used:</span></span>
+<span data-ttu-id="a359b-107">คุณสามารถจัดการแผนการใบสั่งจากพื้นที่ทำงาน **การวางแผนหลัก** รายการ **แผนการใบสั่ง** หรือ **แผนการใบสั่งผลิต**, **แผนการใบสั่งซื้อ**และรายการ **แผนการโอนย้าย**</span><span class="sxs-lookup"><span data-stu-id="a359b-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="a359b-108">คุณสามารถใช้ฟิลด์ **สถานะ** เพื่อช่วยติดตามความคืบหน้าของคุณ</span><span class="sxs-lookup"><span data-stu-id="a359b-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="a359b-109">ใช้ค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="a359b-109">The following values are used:</span></span>
 
--   <span data-ttu-id="78f78-110">เมื่อการวางแผนหลักสร้างแผนการใบสั่ง แผนการใบสั่งมีสถานะเป็น **ยังไม่ได้ดำเนินการ**</span><span class="sxs-lookup"><span data-stu-id="78f78-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
--   <span data-ttu-id="78f78-111">ถ้าคุณเลือกที่จะไม่ยืนยันแผนการใบสั่ง คุณสามารถกำหนดสถานะให้กับแผนการใบสั่งนั้นเป็น **เสร็จสมบูรณ์**</span><span class="sxs-lookup"><span data-stu-id="78f78-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
--   <span data-ttu-id="78f78-112">เมื่อคุณเลือกที่จะยืนยันแผนการใบสั่ง คุณสามารถกำหนดสถานะให้กับแผนการใบสั่งนั้นเป็น **อนุมัติแล้ว**.</span><span class="sxs-lookup"><span data-stu-id="78f78-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="78f78-113">สถานะนี้บ่งชี้ว่าคุณอนุมัติการยืนยันแผนการใบสั่ง แต่ยังไม่ได้ทำการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="78f78-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
+-   <span data-ttu-id="a359b-110">เมื่อการวางแผนหลักสร้างแผนการใบสั่ง แผนการใบสั่งมีสถานะเป็น **ยังไม่ได้ดำเนินการ**</span><span class="sxs-lookup"><span data-stu-id="a359b-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="a359b-111">ถ้าคุณเลือกที่จะไม่ยืนยันแผนการใบสั่ง คุณสามารถกำหนดสถานะให้กับแผนการใบสั่งนั้นเป็น **เสร็จสมบูรณ์**</span><span class="sxs-lookup"><span data-stu-id="a359b-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="a359b-112">เมื่อคุณเลือกที่จะยืนยันแผนการใบสั่ง คุณสามารถกำหนดสถานะให้กับแผนการใบสั่งนั้นเป็น **อนุมัติแล้ว**.</span><span class="sxs-lookup"><span data-stu-id="a359b-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="a359b-113">สถานะนี้บ่งชี้ว่าคุณอนุมัติการยืนยันแผนการใบสั่ง แต่ยังไม่ได้ทำการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="a359b-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-<span data-ttu-id="78f78-114">**หมายเหตุ:** แผนการใบสั่งที่อนุมัติแล้วจะถูกโอนย้าย ในสถานะปัจจุบัน ไปยังการคำนวณการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="78f78-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="78f78-115">คุณสามารถยืนยันแผนการใบสั่ง โดยการคลิก **ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="78f78-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="78f78-116">คุณสามารถยืนยันแผนการใบสั่งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="78f78-116">You can firm the following planned orders:</span></span>
+<span data-ttu-id="a359b-114">**หมายเหตุ:** แผนการใบสั่งที่อนุมัติแล้วจะถูกโอนย้าย ในสถานะปัจจุบัน ไปยังการคำนวณการวางแผนหลัก</span><span class="sxs-lookup"><span data-stu-id="a359b-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="a359b-115">คุณสามารถยืนยันแผนการใบสั่ง โดยการคลิก **ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="a359b-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="a359b-116">คุณสามารถยืนยันแผนการใบสั่งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a359b-116">You can firm the following planned orders:</span></span>
 
--   <span data-ttu-id="78f78-117">แผนการใบสั่งที่เลือก</span><span class="sxs-lookup"><span data-stu-id="78f78-117">The planned order that is selected.</span></span>
--   <span data-ttu-id="78f78-118">แผนการใบสั่งหลายใบ</span><span class="sxs-lookup"><span data-stu-id="78f78-118">Multiple planned orders.</span></span>
--   <span data-ttu-id="78f78-119">แผนการใบสั่งที่สร้างโดยการกระจายจากหน้า **การกระจาย**</span><span class="sxs-lookup"><span data-stu-id="78f78-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="78f78-120">คลิก **แผนการใบสั่ง** เลือกแผนการใบสั่ง แล้วคลิก **ยืนยัน**.</span><span class="sxs-lookup"><span data-stu-id="78f78-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
+-   <span data-ttu-id="a359b-117">แผนการใบสั่งที่เลือก</span><span class="sxs-lookup"><span data-stu-id="a359b-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="a359b-118">แผนการใบสั่งหลายใบ</span><span class="sxs-lookup"><span data-stu-id="a359b-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="a359b-119">แผนการใบสั่งที่สร้างโดยการกระจายจากหน้า **การกระจาย**</span><span class="sxs-lookup"><span data-stu-id="a359b-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="a359b-120">คลิก **แผนการใบสั่ง** เลือกแผนการใบสั่ง แล้วคลิก **ยืนยัน**.</span><span class="sxs-lookup"><span data-stu-id="a359b-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-<span data-ttu-id="78f78-121">เมื่อมียืนยันแผนการใบสั่ง แผนการใบสั่งจะถูกย้ายไปยังส่วนของใบสั่งของโมดูลที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="78f78-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
+<span data-ttu-id="a359b-121">เมื่อมียืนยันแผนการใบสั่ง แผนการใบสั่งจะถูกย้ายไปยังส่วนของใบสั่งของโมดูลที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="a359b-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
 
-<a name="additional-resources"></a><span data-ttu-id="78f78-122">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="78f78-122">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="a359b-122">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="a359b-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="78f78-123">แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="78f78-123">Master plans</span></span>](master-plans.md)
-
+[<span data-ttu-id="a359b-123">แผนหลัก</span><span class="sxs-lookup"><span data-stu-id="a359b-123">Master plans</span></span>](master-plans.md)
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่"
-description: "ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ถูกกำหนดให้รับบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์ที่สามารถสร้างตัวให้บริการการตั้งค่าคอนฟิกสำหรับการรายงานอิเล็กทรอนิกส์ (ER) "
+---
+title: สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่
+description: 'ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ถูกกำหนดให้รับบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์ที่สามารถสร้างตัวให้บริการการตั้งค่าคอนฟิกสำหรับการรายงานอิเล็กทรอนิกส์ (ER) '
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,34 +16,33 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362245"
 ---
-# <a name="create-configuration-providers-and-mark-them-as-active"></a><span data-ttu-id="4c299-103">สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="4c299-103">Create configuration providers and mark them as active</span></span>
+# <a name="create-configuration-providers-and-mark-them-as-active"></a><span data-ttu-id="5d301-103">สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="5d301-103">Create configuration providers and mark them as active</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4c299-104">ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ถูกกำหนดให้รับบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์ที่สามารถสร้างตัวให้บริการการตั้งค่าคอนฟิกสำหรับการรายงานอิเล็กทรอนิกส์ (ER) </span><span class="sxs-lookup"><span data-stu-id="4c299-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="4c299-105">การตั้งค่าคอนฟิก ER แต่ละครั้ง จะอ้างถึงตัวให้บริการให้เป็นผู้สร้างการตั้งค่าคอนฟิก </span><span class="sxs-lookup"><span data-stu-id="4c299-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="4c299-106">ในตัวอย่างนี้ คุณจะสร้างตัวให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, inc ขั้นตอนเหล่านี้สามารถได้ในบริษัทอื่นใด ในฐานะตัวให้บริการการตั้งค่าคอนฟิก ER ที่ใช้ร่วมกันระหว่างบริษัททั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4c299-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
+<span data-ttu-id="5d301-104">ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ถูกกำหนดให้รับบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์ที่สามารถสร้างตัวให้บริการการตั้งค่าคอนฟิกสำหรับการรายงานอิเล็กทรอนิกส์ (ER) </span><span class="sxs-lookup"><span data-stu-id="5d301-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="5d301-105">การตั้งค่าคอนฟิก ER แต่ละครั้ง จะอ้างถึงตัวให้บริการให้เป็นผู้สร้างการตั้งค่าคอนฟิก </span><span class="sxs-lookup"><span data-stu-id="5d301-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="5d301-106">ในตัวอย่างนี้ คุณจะสร้างตัวให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, inc ขั้นตอนเหล่านี้สามารถได้ในบริษัทอื่นใด ในฐานะตัวให้บริการการตั้งค่าคอนฟิก ER ที่ใช้ร่วมกันระหว่างบริษัททั้งหมด</span><span class="sxs-lookup"><span data-stu-id="5d301-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
 
 
-## <a name="create-a-provider"></a><span data-ttu-id="4c299-107">สร้างผู้ให้บริการ</span><span class="sxs-lookup"><span data-stu-id="4c299-107">Create a provider</span></span>
-1. <span data-ttu-id="4c299-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="4c299-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="4c299-109">คลิก ผู้ให้บริการการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="4c299-109">Click Configuration providers.</span></span>
-3. <span data-ttu-id="4c299-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="4c299-110">Click New.</span></span>
-    * <span data-ttu-id="4c299-111">เรกคอร์ดของผู้ให้บริการมีชื่อและ URL ที่ไม่ซ้ำกัน </span><span class="sxs-lookup"><span data-stu-id="4c299-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="4c299-112">ตรวจทานเนื้อหาของหน้านี้ และข้ามกระบวนงานนี้ ถ้าเรกคอร์ดสำหรับ Litware, Inc. (http://www.litware.com) มีอยู่แล้ว</span><span class="sxs-lookup"><span data-stu-id="4c299-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
-4. <span data-ttu-id="4c299-113">ในฟิลด์ชื่อ พิมพ์ 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="4c299-113">In the Name field, type 'Litware, Inc.'.</span></span>
-    * <span data-ttu-id="4c299-114">Litware, inc</span><span class="sxs-lookup"><span data-stu-id="4c299-114">Litware, Inc.</span></span>  
-5. <span data-ttu-id="4c299-115">ในฟิลด์ที่อยู่อินเทอร์เน็ต ให้พิมพ์ 'http://www.litware.com'</span><span class="sxs-lookup"><span data-stu-id="4c299-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
+## <a name="create-a-provider"></a><span data-ttu-id="5d301-107">สร้างผู้ให้บริการ</span><span class="sxs-lookup"><span data-stu-id="5d301-107">Create a provider</span></span>
+1. <span data-ttu-id="5d301-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="5d301-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="5d301-109">คลิก ผู้ให้บริการการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="5d301-109">Click Configuration providers.</span></span>
+3. <span data-ttu-id="5d301-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="5d301-110">Click New.</span></span>
+    * <span data-ttu-id="5d301-111">เรกคอร์ดของผู้ให้บริการมีชื่อและ URL ที่ไม่ซ้ำกัน </span><span class="sxs-lookup"><span data-stu-id="5d301-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="5d301-112">ตรวจทานเนื้อหาของหน้านี้ และข้ามกระบวนงานนี้ ถ้าเรกคอร์ดสำหรับ Litware, Inc. (http://www.litware.com) มีอยู่แล้ว</span><span class="sxs-lookup"><span data-stu-id="5d301-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
+4. <span data-ttu-id="5d301-113">ในฟิลด์ชื่อ พิมพ์ 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="5d301-113">In the Name field, type 'Litware, Inc.'.</span></span>
+    * <span data-ttu-id="5d301-114">Litware, inc</span><span class="sxs-lookup"><span data-stu-id="5d301-114">Litware, Inc.</span></span>  
+5. <span data-ttu-id="5d301-115">ในฟิลด์ที่อยู่อินเทอร์เน็ต ให้พิมพ์ 'http://www.litware.com'</span><span class="sxs-lookup"><span data-stu-id="5d301-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
     * http://www.litware.com  
-6. <span data-ttu-id="4c299-116">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4c299-116">Click Save.</span></span>
-7. <span data-ttu-id="4c299-117">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4c299-117">Close the page.</span></span>
+6. <span data-ttu-id="5d301-116">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="5d301-116">Click Save.</span></span>
+7. <span data-ttu-id="5d301-117">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="5d301-117">Close the page.</span></span>
 
-## <a name="select-as-an-active-provider"></a><span data-ttu-id="4c299-118">เลือกเป็นผู้ให้บริการที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="4c299-118">Select as an active provider</span></span>
-1. <span data-ttu-id="4c299-119">เลือกผู้ให้บริการ Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="4c299-119">Select the Litware, Inc. provider.</span></span>
-2. <span data-ttu-id="4c299-120">คลิก กำหนดเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="4c299-120">Click Set active.</span></span>
-
+## <a name="select-as-an-active-provider"></a><span data-ttu-id="5d301-118">เลือกเป็นผู้ให้บริการที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="5d301-118">Select as an active provider</span></span>
+1. <span data-ttu-id="5d301-119">เลือกผู้ให้บริการ Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="5d301-119">Select the Litware, Inc. provider.</span></span>
+2. <span data-ttu-id="5d301-120">คลิก กำหนดเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="5d301-120">Click Set active.</span></span>
 

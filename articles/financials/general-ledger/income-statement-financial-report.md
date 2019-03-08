@@ -1,13 +1,13 @@
 ---
-title: "รายงานงทางการเงินใบแจ้งยอดรายได้"
-description: "บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้"
+title: รายงานงทางการเงินใบแจ้งยอดรายได้
+description: บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,58 +18,56 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 9105e1de86ed2834b04f75c7d08c4021402bcfda
-ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364016"
 ---
-
-# <a name="income-statement-financial-report"></a><span data-ttu-id="12a6e-104">รายงานงทางการเงินใบแจ้งยอดรายได้</span><span class="sxs-lookup"><span data-stu-id="12a6e-104">Income statement financial report</span></span>
+# <a name="income-statement-financial-report"></a><span data-ttu-id="fedcb-104">รายงานงทางการเงินใบแจ้งยอดรายได้</span><span class="sxs-lookup"><span data-stu-id="fedcb-104">Income statement financial report</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="12a6e-105">บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล</span><span class="sxs-lookup"><span data-stu-id="12a6e-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="12a6e-106">นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="12a6e-106">It also describes the building blocks that are associated with this report.</span></span> 
+<span data-ttu-id="fedcb-105">บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล</span><span class="sxs-lookup"><span data-stu-id="fedcb-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="fedcb-106">นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="fedcb-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a><span data-ttu-id="12a6e-107">รายงานใบแจ้งยอดรายได้เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-107">Default income statement report</span></span>
+<a name="default-income-statement-report"></a><span data-ttu-id="fedcb-107">รายงานใบแจ้งยอดรายได้เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-107">Default income statement report</span></span>
 -------------------------------
 
-| <span data-ttu-id="12a6e-108">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-108">Default report</span></span>             | <span data-ttu-id="12a6e-109">สิ่งที่ทำ</span><span class="sxs-lookup"><span data-stu-id="12a6e-109">What it does</span></span>                                                                                              |
+| <span data-ttu-id="fedcb-108">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-108">Default report</span></span>             | <span data-ttu-id="fedcb-109">สิ่งที่ทำ</span><span class="sxs-lookup"><span data-stu-id="fedcb-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="12a6e-110">งบกำไรขาดทุน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-110">Income Statement – Default</span></span> | <span data-ttu-id="12a6e-111">ให้ภาพรวมของผลกำไรขององค์กรสำหรับรอบระยะเวลาปัจจุบันและสำหรับตั้งแต่ต้นปีจนถึงปัจจุบันด้วย</span><span class="sxs-lookup"><span data-stu-id="12a6e-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
+| <span data-ttu-id="fedcb-110">งบกำไรขาดทุน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-110">Income Statement – Default</span></span> | <span data-ttu-id="fedcb-111">ให้ภาพรวมของผลกำไรขององค์กรสำหรับรอบระยะเวลาปัจจุบันและสำหรับตั้งแต่ต้นปีจนถึงปัจจุบันด้วย</span><span class="sxs-lookup"><span data-stu-id="fedcb-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="12a6e-112">ส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="12a6e-112">Building blocks</span></span>
-<span data-ttu-id="12a6e-113">รายงานทางการเงินของใบแจ้งยอดรายได้ใช้ส่วนประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="12a6e-113">The income statement financial report uses the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="fedcb-112">ส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="fedcb-112">Building blocks</span></span>
+<span data-ttu-id="fedcb-113">รายงานทางการเงินของใบแจ้งยอดรายได้ใช้ส่วนประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fedcb-113">The income statement financial report uses the following building blocks.</span></span>
 
-| <span data-ttu-id="12a6e-114">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-114">Default report</span></span>             | <span data-ttu-id="12a6e-115">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="12a6e-115">Row definition</span></span>                     | <span data-ttu-id="12a6e-116">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="12a6e-116">Column definition</span></span>          |
+| <span data-ttu-id="fedcb-114">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-114">Default report</span></span>             | <span data-ttu-id="fedcb-115">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="fedcb-115">Row definition</span></span>                     | <span data-ttu-id="fedcb-116">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="fedcb-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| <span data-ttu-id="12a6e-117">ใบแจ้งยอดรายได้ – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-117">Income Statement - Default</span></span> | <span data-ttu-id="12a6e-118">สรุปใบแจ้งยอดรายได้ – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="12a6e-119">งานประจำงวด และ YTD - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a6e-119">Periodic and YTD - Default</span></span> |
+| <span data-ttu-id="fedcb-117">ใบแจ้งยอดรายได้ – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-117">Income Statement - Default</span></span> | <span data-ttu-id="fedcb-118">สรุปใบแจ้งยอดรายได้ – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="fedcb-119">งานประจำงวด และ YTD - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="fedcb-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="12a6e-120">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="12a6e-120">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="fedcb-120">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="fedcb-120">Row definition</span></span>
 
-<span data-ttu-id="12a6e-121">คำนิยามของแถว สรุปใบแจ้งยอดรายได้ – ค่าเริ่มต้น ประกอบด้วยส่วนสำหรับแต่ละส่วนของใบแจ้งยอดรายได้ดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="12a6e-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="12a6e-122">มิติประเภทบัญชีหลักถูกใช้ในการสร้างคำนิยามของแถวนี้</span><span class="sxs-lookup"><span data-stu-id="12a6e-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="12a6e-123">ดังนั้น ใครก็ตามสามารถสร้างรายงาน โดยไม่ต้องทำการปรับเปลี่ยนใด ๆ</span><span class="sxs-lookup"><span data-stu-id="12a6e-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
+<span data-ttu-id="fedcb-121">คำนิยามของแถว สรุปใบแจ้งยอดรายได้ – ค่าเริ่มต้น ประกอบด้วยส่วนสำหรับแต่ละส่วนของใบแจ้งยอดรายได้ดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="fedcb-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="fedcb-122">มิติประเภทบัญชีหลักถูกใช้ในการสร้างคำนิยามของแถวนี้</span><span class="sxs-lookup"><span data-stu-id="fedcb-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="fedcb-123">ดังนั้น ใครก็ตามสามารถสร้างรายงาน โดยไม่ต้องทำการปรับเปลี่ยนใด ๆ</span><span class="sxs-lookup"><span data-stu-id="fedcb-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="12a6e-124">คำนิยามของคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="12a6e-124">Column Definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="fedcb-124">คำนิยามของคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="fedcb-124">Column Definition</span></span>
 
-<span data-ttu-id="12a6e-125">คำนิยามของคอลัมน์ประกอบด้วย ชนิดที่แตกต่างกันของคอลัมน์เพื่อให้ระดับที่แตกต่างกันของรายละเอียดและข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="12a6e-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="fedcb-125">คำนิยามของคอลัมน์ประกอบด้วย ชนิดที่แตกต่างกันของคอลัมน์เพื่อให้ระดับที่แตกต่างกันของรายละเอียดและข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="fedcb-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="12a6e-126">**งานประจำงวดและ YTD – ชนิดของคอลัมน์เริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="12a6e-126">**Periodic and YTD – Default column types:**</span></span>
-    -   <span data-ttu-id="12a6e-127">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="12a6e-127">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="12a6e-128">**FD** – ข้อมูลทางการเงินสำหรับรอบระยะเวลาปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="12a6e-128">**FD** – Financial data for the current period</span></span>
-    -   <span data-ttu-id="12a6e-129">**FD** – ข้อมูลทางการเงินสำหรับตั้งแต่ต้นปีจนถึงปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="12a6e-129">**FD** – Financial data for the year to date</span></span>
+-   <span data-ttu-id="fedcb-126">**งานประจำงวดและ YTD – ชนิดของคอลัมน์เริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="fedcb-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="fedcb-127">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="fedcb-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="fedcb-128">**FD** – ข้อมูลทางการเงินสำหรับรอบระยะเวลาปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fedcb-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="fedcb-129">**FD** – ข้อมูลทางการเงินสำหรับตั้งแต่ต้นปีจนถึงปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fedcb-129">**FD** – Financial data for the year to date</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="12a6e-130">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="12a6e-130">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="fedcb-130">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="fedcb-130">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="12a6e-131">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="12a6e-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="fedcb-131">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="fedcb-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="12a6e-132">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="12a6e-132">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="fedcb-132">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="fedcb-132">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="12a6e-133">บล็อกการรายงานทางการเงิน Dynamics</span><span class="sxs-lookup"><span data-stu-id="12a6e-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
+[<span data-ttu-id="fedcb-133">บล็อกการรายงานทางการเงิน Dynamics</span><span class="sxs-lookup"><span data-stu-id="fedcb-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

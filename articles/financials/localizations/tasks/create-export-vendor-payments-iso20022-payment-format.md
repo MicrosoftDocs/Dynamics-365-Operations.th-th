@@ -1,13 +1,13 @@
---- 
-title: "สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022"
-description: "กระบวนงานนี้แสดงวิธีการสร้างบรรทัดการชำระเงินในสมุดรายวันการชำระเงินของผู้จัดจำหน่ายและการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้าย ISO2022 "
+---
+title: สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022
+description: 'กระบวนงานนี้แสดงวิธีการสร้างบรรทัดการชำระเงินในสมุดรายวันการชำระเงินของผู้จัดจำหน่ายและการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้าย ISO2022 '
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/17/2019
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,41 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 032f1f09fd017a2ae8cf5973d9f5c6ee99ca797f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340556"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="ff83b-103">สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022</span><span class="sxs-lookup"><span data-stu-id="ff83b-103">Create and export vendor payments using ISO20022 payment format</span></span>
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="bc205-103">สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022</span><span class="sxs-lookup"><span data-stu-id="bc205-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ff83b-104">กระบวนงานนี้แสดงวิธีการสร้างบรรทัดการชำระเงินในสมุดรายวันการชำระเงินของผู้จัดจำหน่ายและการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้าย ISO2022 </span><span class="sxs-lookup"><span data-stu-id="ff83b-104">This procedure shows how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span> 
+<span data-ttu-id="bc205-104">หัวข้อนี้อธิบายวิธีการสร้างรายการการชำระเงินในสมุดรายวันการชำระเงินผู้จัดจำหน่าย และสร้างไฟล์การชำระเงินผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้ายเครดิต ISO2022</span><span class="sxs-lookup"><span data-stu-id="bc205-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
 
-<span data-ttu-id="ff83b-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ DEMF</span><span class="sxs-lookup"><span data-stu-id="ff83b-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="bc205-105">นี่คือกระบวนงานที่ห้าจากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="bc205-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="bc205-106">ใช้ข้อมูลสาธิต DEMF เพื่อทำให้ตัวอย่างนี้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="bc205-106">Use the DEMF demo data to complete this example.</span></span>
 
-<span data-ttu-id="ff83b-106">นี่คือกระบวนงานที่ห้าจากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ff83b-106">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="ff83b-107">กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="ff83b-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+## <a name="example"></a><span data-ttu-id="bc205-107">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="bc205-107">Example</span></span>
 
-
-## <a name="create-payment-lines"></a><span data-ttu-id="ff83b-108">สร้างบรรทัดรายการการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="ff83b-108">Create payment lines</span></span>
-1. <span data-ttu-id="ff83b-109">ไปที่ > บัญชีเจ้าหนี้ > การชำระเงิน > สมุดรายวันการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="ff83b-109">Go to Accounts payable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="ff83b-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ff83b-110">Click New.</span></span>
-3. <span data-ttu-id="ff83b-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ff83b-111">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="ff83b-112">ในฟิลด์ชื่อ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ff83b-112">In the Name field, enter or select a value.</span></span>
-5. <span data-ttu-id="ff83b-113">คลิก รายการ</span><span class="sxs-lookup"><span data-stu-id="ff83b-113">Click Lines.</span></span>
-6. <span data-ttu-id="ff83b-114">คลิก ข้อเสนอการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="ff83b-114">Click Payment proposal.</span></span>
-7. <span data-ttu-id="ff83b-115">คลิกสร้างข้อเสนอการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="ff83b-115">Click Create payment proposal.</span></span>
-8. <span data-ttu-id="ff83b-116">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="ff83b-116">Expand the Records to include section.</span></span>
-9. <span data-ttu-id="ff83b-117">คลิกตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="ff83b-117">Click Filter.</span></span>
-10. <span data-ttu-id="ff83b-118">ในรายการ เลือกแถวสำหรับตารางผู้จัดจำหน่ายและฟิลด์บัญชีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="ff83b-118">In the list, select the row for Vendors table and Vendor account field.</span></span>
-11. <span data-ttu-id="ff83b-119">ในฟิลด์เงื่อนไข ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ff83b-119">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="ff83b-120">คุณสามารถใช้เกณฑ์ใดๆ สำหรับการเลือกธุรกรรมของผู้จัดจำหน่ายที่จะชำระเงิน สำหรับตัวอย่างนี้จะใช้ DE-001 เป็นบัญชีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="ff83b-120">You can apply any criteria for selecting vendor transactions to pay, for this example use DE-001 as a vendor account.</span></span>  
-12. <span data-ttu-id="ff83b-121">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff83b-121">Click OK.</span></span>
-13. <span data-ttu-id="ff83b-122">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ff83b-122">Click OK.</span></span>
-14. <span data-ttu-id="ff83b-123">คลิกสร้างการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="ff83b-123">Click Create payments.</span></span>
-
-## <a name="generate-an-iso20022-payment-file"></a><span data-ttu-id="ff83b-124">สร้างไฟล์การชำระเงิน ISO20022</span><span class="sxs-lookup"><span data-stu-id="ff83b-124">Generate an ISO20022 payment file</span></span>
-
+1.  <span data-ttu-id="bc205-108">ไปที่ **บัญชีเจ้าหนี้ > การชำระเงิน > สมุดรายวันการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="bc205-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
+2.  <span data-ttu-id="bc205-109">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="bc205-109">Click **New**.</span></span>
+3.  <span data-ttu-id="bc205-110">ในฟิลด์ **ชื่อ** ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="bc205-110">In the **Name** field, enter or select a value.</span></span>
+4.  <span data-ttu-id="bc205-111">คลิก **รายการ > การประชุมข้อเสนอการชำระเงิน > สร้างการประชุมข้อเสนอการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="bc205-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
+5.  <span data-ttu-id="bc205-112">ขยายส่วน **เรกคอร์ดที่จะรวม**</span><span class="sxs-lookup"><span data-stu-id="bc205-112">Expand the **Records to include** section.</span></span>
+6.  <span data-ttu-id="bc205-113">คลิก **ตัวกรอง**</span><span class="sxs-lookup"><span data-stu-id="bc205-113">Click **Filter**.</span></span>
+7.  <span data-ttu-id="bc205-114">ในรายการ เลือกแถวสำหรับ **ตารางผู้จัดจำหน่าย** และ **ฟิลด์ลูกค้าองค์กรของผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="bc205-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
+8.  <span data-ttu-id="bc205-115">ในฟิลด์ **เกณฑ์** ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="bc205-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="bc205-116">คุณสามารถเลือกเกณฑ์ใดๆ สำหรับการเลือกธุรกรรมผู้จัดจำหน่ายเพื่อจ่าย สำหรับตัวอย่างนี้ ใช้ DE-001 เป็นลูกค้าองค์กรของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="bc205-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
+12. <span data-ttu-id="bc205-117">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="bc205-117">Click **OK**.</span></span>
+13. <span data-ttu-id="bc205-118">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="bc205-118">Click **OK**.</span></span>
+14. <span data-ttu-id="bc205-119">คลิก **สร้างการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="bc205-119">Click **Create payments**.</span></span>
+15. <span data-ttu-id="bc205-120">สร้างไฟล์การชำระเงิน ISO20022</span><span class="sxs-lookup"><span data-stu-id="bc205-120">Generate an ISO20022 payment file.</span></span>
+    1.  <span data-ttu-id="bc205-121">คลิก **สร้างการชำระเงิน**</span><span class="sxs-lookup"><span data-stu-id="bc205-121">Click **Generate payments**.</span></span>
+    2.  <span data-ttu-id="bc205-122">ในฟิลด์ **วิธีการชำระเงิน** ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="bc205-122">In the **Method of payment** field, enter or select a value.</span></span>
+    3.  <span data-ttu-id="bc205-123">ในฟิลด์ **ชื่อไฟล์** พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="bc205-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="bc205-124">สำหรับตัวอย่างนี้ เนื่องจากการชำระเงิน EUR ไฟล์ที่สร้างจะเป็นไปตาม SEPA</span><span class="sxs-lookup"><span data-stu-id="bc205-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="bc205-125">การโอนย้ายเครดิต ISO20022 พร้อมกับรูปแบบการชำระเงินของผู้จัดจำหน่ายอื่นๆ ยังสามารถใช้สำหรับการสร้างการชำระเงินในสกุลเงินอื่นๆ ได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="bc205-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
+    4.  <span data-ttu-id="bc205-126">ในฟิลด์ **บัญชีธนาคาร** ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="bc205-126">In the **Bank account** field, enter or select a value.</span></span>
 

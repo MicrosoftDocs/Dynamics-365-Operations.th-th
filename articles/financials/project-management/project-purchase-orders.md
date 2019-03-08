@@ -1,13 +1,13 @@
 ---
-title: "ใบสั่งซื้อสำหรับโครงการ"
-description: "บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ"
+title: ใบสั่งซื้อสำหรับโครงการ
+description: บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้  วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 767a1805e7a2609c5c28bed891b42f7c8c3aaffc
-ms.contentlocale: th-th
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348698"
 ---
-
-# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="cd47a-104">ใบสั่งซื้อสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-104">Purchase orders for a project</span></span>
+# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="ac417-104">ใบสั่งซื้อสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-104">Purchase orders for a project</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cd47a-105">บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้ </span><span class="sxs-lookup"><span data-stu-id="cd47a-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="cd47a-106">วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
+<span data-ttu-id="ac417-105">บทความนี้อธิบายวิธีที่หลากหลายที่คุณสามารถใช้เพื่อสร้างใบสั่งซื้อสำหรับโครงการได้ </span><span class="sxs-lookup"><span data-stu-id="ac417-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="ac417-106">วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ และเมื่อมีการใช้สินค้าที่ซื้อ และถูกคิดค่าธรรมเนียมไปยังโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 
-<span data-ttu-id="cd47a-107">ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้วิธีการต่างๆ เพื่อสร้างใบสั่งซื้อสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-107">In Microsoft Dynamics 365 for Finance and Operations, you can use multiple methods to create purchase orders for a project.</span></span> <span data-ttu-id="cd47a-108">วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-108">The method that you use depends on the purpose of the purchase order, when the purchased items are consumed, and when the purchased items are charged to a project.</span></span>
+<span data-ttu-id="ac417-107">ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถใช้วิธีที่หลากหลายในการสร้างใบสั่งซื้อสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-107">In Microsoft Dynamics 365 for Finance and Operations, you can use multiple methods to create purchase orders for a project.</span></span> <span data-ttu-id="ac417-108">วิธีการที่คุณใช้ขึ้นอยู่กับวัตถุประสงค์ของใบสั่งซื้อ เมื่อมีการใช้สินค้าที่ซื้อ และเมื่อสินค้าที่ซื้อถูกคิดค่าธรรมเนียมไปยังโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-108">The method that you use depends on the purpose of the purchase order, when the purchased items are consumed, and when the purchased items are charged to a project.</span></span>
 
-### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="cd47a-109">วิธีการสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="cd47a-109">Methods for creating a purchase order</span></span>
+### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="ac417-109">วิธีการสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="ac417-109">Methods for creating a purchase order</span></span>
 
-<span data-ttu-id="cd47a-110">คุณสามารถใช้หนึ่งในวิธีต่อไปนี้ เพื่อสร้างใบสั่งซื้อในการจัดการโครงการและการบัญชีได้</span><span class="sxs-lookup"><span data-stu-id="cd47a-110">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="cd47a-111">วัตถุประสงค์ของใบสั่งซื้อจะเป็นตัวกำหนดว่าจะมีการใช้ใบสั่งซื้อเมื่อใดและคิดค่าใช้จ่ายสำหรับสินค้าในโครงการเมื่อใด</span><span class="sxs-lookup"><span data-stu-id="cd47a-111">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
+<span data-ttu-id="ac417-110">คุณสามารถใช้หนึ่งในวิธีต่อไปนี้ เพื่อสร้างใบสั่งซื้อในการจัดการโครงการและการบัญชีได้</span><span class="sxs-lookup"><span data-stu-id="ac417-110">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="ac417-111">วัตถุประสงค์ของใบสั่งซื้อจะเป็นตัวกำหนดว่าจะมีการใช้ใบสั่งซื้อเมื่อใดและคิดค่าใช้จ่ายสำหรับสินค้าในโครงการเมื่อใด</span><span class="sxs-lookup"><span data-stu-id="ac417-111">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
 
 <table>
 <colgroup>
@@ -46,37 +45,36 @@ ms.lasthandoff: 08/07/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cd47a-112">วิธีการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-112">Method</span></span></th>
-<th><span data-ttu-id="cd47a-113">วัตถุประสงค์</span><span class="sxs-lookup"><span data-stu-id="cd47a-113">Purpose</span></span></th>
-<th><span data-ttu-id="cd47a-114">ปริมาณการใช้ของสินค้า</span><span class="sxs-lookup"><span data-stu-id="cd47a-114">Consumption of items</span></span></th>
+<th><span data-ttu-id="ac417-112">วิธีการ</span><span class="sxs-lookup"><span data-stu-id="ac417-112">Method</span></span></th>
+<th><span data-ttu-id="ac417-113">วัตถุประสงค์</span><span class="sxs-lookup"><span data-stu-id="ac417-113">Purpose</span></span></th>
+<th><span data-ttu-id="ac417-114">ปริมาณการใช้ของสินค้า</span><span class="sxs-lookup"><span data-stu-id="ac417-114">Consumption of items</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="cd47a-115">สร้างใบสั่งซื้อโดยตรงจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-115">Create a purchase order directly from a project.</span></span></td>
-<td><span data-ttu-id="cd47a-116">ใช้วิธีการนี้เพื่อซื้อสินค้าจากผู้จัดจำหน่ายภายนอก สำหรับการใช้วัสดุในโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-116">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="cd47a-117">คุณสามารถสร้างใบสั่งซื้อได้ในสองลักษณะ:</span><span class="sxs-lookup"><span data-stu-id="cd47a-117">You can create the purchase order in two ways:</span></span>
+<td><span data-ttu-id="ac417-115">สร้างใบสั่งซื้อโดยตรงจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-115">Create a purchase order directly from a project.</span></span></td>
+<td><span data-ttu-id="ac417-116">ใช้วิธีการนี้เพื่อซื้อสินค้าจากผู้จัดจำหน่ายภายนอก สำหรับการใช้วัสดุในโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-116">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="ac417-117">คุณสามารถสร้างใบสั่งซื้อได้ในสองลักษณะ:</span><span class="sxs-lookup"><span data-stu-id="ac417-117">You can create the purchase order in two ways:</span></span>
 <ul>
-<li><span data-ttu-id="cd47a-118">จากตัวโครงการเอง</span><span class="sxs-lookup"><span data-stu-id="cd47a-118">From the project itself.</span></span> <span data-ttu-id="cd47a-119">ในกรณีนี้ จะมีการกำหนดโครงการไว้แล้วสำหรับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="cd47a-119">In this case, the project is already defined for the purchase order.</span></span></li>
-<li><span data-ttu-id="cd47a-120">โดยการนำทางไปยังโครงการใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="cd47a-120">By navigating to the project purchase order.</span></span> <span data-ttu-id="cd47a-121">คุณต้องเลือกทั้งผู้จัดจำหน่ายและโครงการที่จะสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="cd47a-121">You must select both the vendor and the project to create the purchase order for.</span></span></li>
+<li><span data-ttu-id="ac417-118">จากตัวโครงการเอง</span><span class="sxs-lookup"><span data-stu-id="ac417-118">From the project itself.</span></span> <span data-ttu-id="ac417-119">ในกรณีนี้ จะมีการกำหนดโครงการไว้แล้วสำหรับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="ac417-119">In this case, the project is already defined for the purchase order.</span></span></li>
+<li><span data-ttu-id="ac417-120">โดยการนำทางไปยังโครงการใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="ac417-120">By navigating to the project purchase order.</span></span> <span data-ttu-id="ac417-121">คุณต้องเลือกทั้งผู้จัดจำหน่ายและโครงการที่จะสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="ac417-121">You must select both the vendor and the project to create the purchase order for.</span></span></li>
 </ul></td>
-<td><span data-ttu-id="cd47a-122">สินค้ามีการใช้เมื่อมีการอัพเดตใบแจ้งหนี้จากผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="cd47a-122">Items are consumed when the vendor invoice is updated.</span></span></td>
+<td><span data-ttu-id="ac417-122">สินค้ามีการใช้เมื่อมีการอัพเดตใบแจ้งหนี้จากผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="ac417-122">Items are consumed when the vendor invoice is updated.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="cd47a-123">สร้างใบสั่งซื้อจากใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="cd47a-123">Create a purchase order from a sales order.</span></span></td>
-<td><span data-ttu-id="cd47a-124">ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างใบสั่งขายจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-124">Use this method to purchase items when you create a sales order from a project.</span></span></td>
-<td><span data-ttu-id="cd47a-125">สินค้าจะถูกใช้เมื่อมีการออกอินวอยซ์ใบสั่งขายให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="cd47a-125">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
+<td><span data-ttu-id="ac417-123">สร้างใบสั่งซื้อจากใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="ac417-123">Create a purchase order from a sales order.</span></span></td>
+<td><span data-ttu-id="ac417-124">ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างใบสั่งขายจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-124">Use this method to purchase items when you create a sales order from a project.</span></span></td>
+<td><span data-ttu-id="ac417-125">สินค้าจะถูกใช้เมื่อมีการออกอินวอยซ์ใบสั่งขายให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="ac417-125">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="cd47a-126">สร้างใบสั่งซื้อจากความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="cd47a-126">Create a purchase order from an item requirement.</span></span></td>
-<td><span data-ttu-id="cd47a-127">ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างความต้องการสินค้าจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="cd47a-127">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
-<td><span data-ttu-id="cd47a-128">สินค้ามีการใช้เมื่อมีการอัพเดตบันทึกการจัดส่งตามความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="cd47a-128">Items are consumed when the item requirement packing slip is updated.</span></span></td>
+<td><span data-ttu-id="ac417-126">สร้างใบสั่งซื้อจากความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="ac417-126">Create a purchase order from an item requirement.</span></span></td>
+<td><span data-ttu-id="ac417-127">ใช้วิธีนี้เพื่อซื้อสินค้า เมื่อคุณสร้างความต้องการสินค้าจากโครงการ</span><span class="sxs-lookup"><span data-stu-id="ac417-127">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
+<td><span data-ttu-id="ac417-128">สินค้ามีการใช้เมื่อมีการอัพเดตบันทึกการจัดส่งตามความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="ac417-128">Items are consumed when the item requirement packing slip is updated.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE] 
-> <span data-ttu-id="cd47a-129">เมื่อคุณอัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายหรือบันทึกการจัดส่ง คุณจะได้รับข้อความเตือนให้อัพเดตบันทึกการจัดส่งสำหรับความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="cd47a-129">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
+> <span data-ttu-id="ac417-129">เมื่อคุณอัพเดตใบแจ้งหนี้ของผู้จัดจำหน่ายหรือบันทึกการจัดส่ง คุณจะได้รับข้อความเตือนให้อัพเดตบันทึกการจัดส่งสำหรับความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="ac417-129">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
 
-<span data-ttu-id="cd47a-130">สำหรับข้อมูลเพิ่มเติม โปรดดู [รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า](tasks/receive-items-purchase-order-item-requirement.md)</span><span class="sxs-lookup"><span data-stu-id="cd47a-130">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
-
+<span data-ttu-id="ac417-130">สำหรับข้อมูลเพิ่มเติม โปรดดู [รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า](tasks/receive-items-purchase-order-item-requirement.md)</span><span class="sxs-lookup"><span data-stu-id="ac417-130">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
 
