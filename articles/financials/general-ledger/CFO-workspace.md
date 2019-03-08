@@ -1,14 +1,14 @@
 ---
-title: "เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO"
-description: "หัวข้อนี้อธิบายวิธีการเพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO เพื่อให้สามารถใช้สำหรับการรายงานบัญชีแยกประเภทและงบประมาณ"
+title: เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
+description: หัวข้อนี้อธิบายวิธีการเพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO เพื่อให้สามารถใช้สำหรับการรายงานบัญชีแยกประเภทและงบประมาณ
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332690"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของประธานคณะผู้บริหารด้านการเงิน (CFO) เพื่อให้สามารถใช้สำหรับการรายงานบัญชีแยกประเภทและงบประมาณ พื้นที่ทำงานของ CFO มีแท็บ **ภาพรวม** และแท็บ **การเงิน** รายงานบนสองแท็บนี้มีข้อมูลสำรองโดยหน่วยวัดสองแบบ: LedgerActivityMeasure และ BudgetActivityMeasure ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017) มีความสัมพันธ์ระหว่างหน่วยวัดสองแบบนั้นและเอนทิตี้ DimensionCombinationEntity ดังนั้น คุณสามารถเลือกมิติได้
+หัวข้อนี้อธิบายวิธีการเพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของประธานคณะผู้บริหารด้านการเงิน (CFO) เพื่อให้สามารถใช้สำหรับการรายงานบัญชีแยกประเภทและงบประมาณ พื้นที่ทำงานของ CFO มีแท็บ **ภาพรวม** และแท็บ **การเงิน** รายงานบนสองแท็บนี้มีข้อมูลสำรองโดยหน่วยวัดสองแบบ: LedgerActivityMeasure และ BudgetActivityMeasure ใน Microsoft Dynamics 365 for Finance and Operations Enterprise edition (กรกฏาคม 2017) มีความสัมพันธ์ระหว่างวิธีสองวิธีเหล่านั้นและเอนทิตี DimensionCombinationEntity ดังนั้น คุณสามารถเลือกมิติได้
 
 1. ใน Finance and Operations ในหน้า **ที่จัดเก็บเอนทิตี้** อัพเดตหน่วยวัด **LedgerActivityMeasure** และ **BudgetActivityMeasure**
-2. ใน Microsoft Visual Studio เปิดแอพลิเคชัน Application Explorer และค้นหา **LedgerCFO**
+2. ใน Microsoft Visual Studio เปิด Application Explorer และค้นหา **LedgerCFO**
 3. ภายใต้ **ทรัพยากร** เปิด **LedgerCFOWorkspacePBIX**
-4. เมื่อทรัพยากรถูกเปิดขึ้นในเดสก์ท็อป Microsoft Power BI เลือก **รับข้อมูล** เลือก**ฐานข้อมูล SQL Server** แล้วเลือก **เชื่อมต่อ**
+4. เมื่อทรัพยากรเปิดขึ้นในเดสก์ท็อป Microsoft Power BI เลือก **รับข้อมูล** เลือก **ฐานข้อมูล SQL Server** และจากนั้น เลือก **เชื่อมต่อ**
 5. ป้อนชื่อเซิร์ฟเวอร์ แล้วป้อน **AxDW** เป็นฐานข้อมูล เลือก **DirectQuery** แล้วเลือก **ตกลง**
 6. ค้นหาและเลือก **LedgerActivityMeasure\_DimensionCombination** แล้วเลือก **โหลด**
 
@@ -57,4 +56,3 @@ ms.lasthandoff: 11/03/2017
 16. สร้างโครงการของคุณ และจากนั้นเปิดแอพลิเคชันเพื่อดูผลลัพธ์
 
     [![พื้นที่ทำงานที่เสร็จสมบูรณ์](./media/workspace.png)](./media/workspace.png)
-

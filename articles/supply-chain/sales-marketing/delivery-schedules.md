@@ -1,13 +1,13 @@
 ---
-title: "กำหนดการจัดส่ง"
-description: "กำหนดการจัดส่งช่วยให้คุณสามารถติดตามปริมาณในบรรทัดใบสั่งเมื่อคุณใช้การจัดส่งหลายครั้ง สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อเดียว"
+title: กำหนดการจัดส่ง
+description: กำหนดการจัดส่งช่วยให้คุณสามารถติดตามปริมาณในบรรทัดใบสั่งเมื่อคุณใช้การจัดส่งหลายครั้ง สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อเดียว
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 068a881a7fa9b19198bd3ad22988465be49c1fa3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ceb568cc223a631f704caf2417f1a3bd56b56288
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325146"
 ---
-
 # <a name="delivery-schedules"></a>กำหนดการจัดส่ง
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ ms.lasthandoff: 11/03/2017
 -   เลือกดูหน้ารายการและรายงาน
 
 เมื่อคุณยืนยันใบเสนอราคาขาย ผลลัพธ์ใบสั่งขายจะแสดงกำหนดการจัดส่งทั้งหมด แม้แต่รายการใบสั่งที่มีการจัดส่งหลายครั้ง นอกจากนี้ กำหนดการจัดส่งทั้งหมดจะแสดงขึ้นในหน้าทั้งหมดหลัก เช่น ใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ
-
 
 
 

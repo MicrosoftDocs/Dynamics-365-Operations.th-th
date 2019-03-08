@@ -1,13 +1,13 @@
 ---
-title: "สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – Warehousing"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่า Dynamics 365 for Finance and Operations – Warehousing เพื่อสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่"
+title: สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – คลังสินค้า
+description: หัวข้อนี้อธิบายวิธีการตั้งค่า Dynamics 365 for Finance and Operations – คลังสินค้าที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์มือถือ
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
 ms.reviewer: josaw
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
-ms.contentlocale: th-th
-ms.lasthandoff: 03/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319442"
 ---
-
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – Warehousing
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – คลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่า Dynamics 365 for Finance and Operations – Warehousing เพื่อสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่ 
+หัวข้อนี้อธิบายวิธีการตั้งค่า Dynamics 365 for Finance and Operations – คลังสินค้าที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์มือถือ 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ในการใช้คุณลักษณะนี้ คุณต้องมี Warehousing รุ่น 1.2.0.0 ที่ติดตั้งอยู่ และอุปกรณ์ของคุณต้องมีกล้อง เมื่อคุณเปิดแอพลิเคชันหลังจากการอัพเดต คุณจะได้รับการพร้อมท์เพื่ออนุญาตให้แอพลิเคชัน Dynamics 365 for Finance and Operations – Warehousing สามารถใช้กล้องได้ ถ้าอุปกรณ์ของคุณไม่มีกล้อง จะไม่มีการแสดงข้อความเตือน และคุณจะไม่สามารถใช้กล้องเป็นสแกนเนอร์ได้ 
+ในการใช้คุณลักษณะนี้ คุณต้องมี Warehousing รุ่น 1.2.0.0 ที่ติดตั้งอยู่ และอุปกรณ์ของคุณต้องมีกล้อง เมื่อคุณเปิดแอปหลังจากการปรับปรุง คุณจะได้รับการพร้อมท์ให้อนุญาต Dynamics 365 for Finance and Operations – แอพลิเคชันคลังสินค้าที่จะใช้กล้อง ถ้าอุปกรณ์ของคุณไม่มีกล้อง จะไม่มีการแสดงข้อความเตือน และคุณจะไม่สามารถใช้กล้องเป็นสแกนเนอร์ได้ 
 
 ## <a name="setup"></a>การตั้งค่า
 ในการตั้งค่าการแสดงของแอพลิเคชัน Warehousing คุณสามารถเลือกได้ว่า กล้องควรจะใช้สำหรับการสแกนบาร์โค้ดหรือไม่ ถ้าคุณเปิดใช้งาน **ใช้กล้องเป็นสแกนเนอร์** คุณสามารถใช้กล้องในทุกฟิลด์อินพุทที่มีโหมดอินพุทที่ต้องการ ซึ่งตั้งค่าเป็น **การสแกน** ได้ 
 
-เพื่อควบคุมว่าฟิลด์ข้อมูลอินพุทควรสามารถสแกนได้หรือไม่ บนหน้า **ชื่อฟิลด์ที่แอพลิเคชันของคลังสินค้า** ใน Dynamics 365 for Finance and Operations ตั้งค่า **โหมดอินพุทที่ต้องการ** เป็น **การสแกน** เมื่อมีการเลือกตัวเลือกนี้ คุณสามารถใช้กล้องสำหรับการสแกนในแอพลิเคชัน Warehousing ได้ สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันใน Warehousing ดู [ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse)
+เพื่อควบคุมว่าฟิลด์ป้อนเข้าควรสามารถสแกนได้หรือไม่ ในหน้า **ชื่อฟิลด์แอปคลังสินค้า** ใน Dynamics 365 for Finance and Operations ตั้งค่า **โหมดขาเข้าที่ต้องการ** เป็น **การสแกน** เมื่อมีการเลือกตัวเลือกนี้ คุณสามารถใช้กล้องสำหรับการสแกนในแอพลิเคชัน Warehousing ได้ สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันใน Warehousing ดู [ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse)
 
 ## <a name="supported-bar-code-formats"></a>รูปแบบบาร์โค้ดที่สนับสนุน
 รูปบาร์โค้ดทั่วไปส่วนใหญ่ได้รับการสนับสนุน ซึ่งรวมถึงรหัส 128 รหัส 39 รหัส 93 EAN-8 EAN-13 UPC-E UPC-A และรหัส QR 
@@ -55,5 +54,4 @@ ms.lasthandoff: 03/09/2018
 บนหน้ากล้อง เมื่อคุณคลิกปุ่มกล้อง จะปรากฏเป็นจางลง ขณะที่พยายามระบุบาร์โค้ด ถ้าไม่มีการระบุบาร์โค้ดภายใน 5 วินาที กระบวนการจะหมดเวลา และปุ่มกล้องจะกลายเป็นพร้อมใช้งานอีกครั้ง จากนั้น คุณจะสามารถลองสแกนบาร์โค้ดได้อีกครั้ง
 
 เมื่อคุณหันกล้องไปที่บาร์โค้ด รักษาให้บาร์โค้ดอยู่ในระดับภายในเครื่องหมายวงเล็บเพื่อผลลัพธ์ที่ดีที่สุด เมื่อมีการสแกนบาร์โค้ดเสร็จเรียบร้อยแล้ว ผลลัพธ์จะถูกประมวลผล และคุณจะถูกนำไปยังขั้นตอนถัดไป ถ้าขั้นตอนถัดไปประกอบด้วย ฟิลด์อินพุทอีกฟิลด์หนึ่งที่มีโหมดอินพุทที่ต้องการซึ่งถูกตั้งค่าเป็น การสแกน หน้ากล้องจะเริ่มต้นอีกครั้ง ถ้าขั้นตอนถัดไปไม่ใช่ฟิลด์การสแกน จากนั้นหน้ากล้องจะไม่มีการเริ่มต้น
-
 

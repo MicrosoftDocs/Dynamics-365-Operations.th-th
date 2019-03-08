@@ -1,13 +1,13 @@
 ---
-title: "การรายงานทางการเงิน"
-description: "การรายงานทางการเงินสำหรับ Finance and Operations ช่วยให้ผู้เชี่ยวชาญทางการเงิน และผู้เชี่ยวชาญทางธุรกิจสามารถสร้าง รักษา ปรับใช้ และดูงบการเงินได้ ซึ่งสามารถใช้งานได้เกินกว่าข้อจำกัดการรายงานดั้งเดิมเพื่อช่วยให้คุณสามารถออกแบบรายงานชนิดต่างๆ ได้อย่างมีประสิทธิภาพ"
+title: การรายงานทางการเงิน
+description: การรายงานทางการเงินสำหรับ Finance and Operations ช่วยให้ผู้เชี่ยวชาญทางการเงิน และผู้เชี่ยวชาญทางธุรกิจสามารถสร้าง รักษา ปรับใช้ และดูงบการเงินได้ ซึ่งสามารถใช้งานได้เกินกว่าข้อจำกัดการรายงานดั้งเดิมเพื่อช่วยให้คุณสามารถออกแบบรายงานชนิดต่างๆ ได้อย่างมีประสิทธิภาพ
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323789"
 ---
-
 # <a name="financial-reporting"></a>การรายงานทางการเงิน
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ ms.lasthandoff: 08/13/2018
 <ul>
 <li>กำหนดการรายงานเพื่อสร้างอยู่บนพื้นฐานรายวัน รายสัปดาห์ รายเดือน หรือรายปี โดยอัตโนมัติ</li>
 <li>ส่งออกไปยังรูปแบบอ่านอย่างเดียว XPS ซึ่งให้ความปลอดภัยของเอกสารมากขึ้น ด้วยลายเซ็นดิจิทัล</li>
-<li>ส่งออกไปที่แผ่นงาน Microsoft Excel</li>
+<li>ส่งออกไปยังเวิร์กชีต Microsoft Excel</li>
 <li>เพื่อแบ่งปันรายงาน คุณสามารถสร้างข้อความอีเมล์ที่ประกอบด้วยลิงค์ไปที่รายงาน</li>
 </ul>
 </td>
@@ -98,4 +97,3 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 [สร้างรายงานทางการเงิน](generate-financial-report.md)
-

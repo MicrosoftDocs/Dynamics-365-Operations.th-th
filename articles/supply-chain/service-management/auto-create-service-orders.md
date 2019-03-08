@@ -1,31 +1,30 @@
 ---
-title: "สร้างใบสั่งบริการโดยอัตโนมัติ"
-description: "คุณสามารถสร้างใบสั่งบริการที่ขึ้นกับข้อตกลงการให้บริการได้ สำหรับรอบระยะเวลาที่มีผลบังคับใช้ของข้อตกลงการให้บริการ"
+title: สร้างใบสั่งบริการโดยอัตโนมัติ
+description: คุณสามารถสร้างใบสั่งบริการที่ขึ้นกับข้อตกลงการให้บริการได้ สำหรับรอบระยะเวลาที่มีผลบังคับใช้ของข้อตกลงการให้บริการ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331195"
 ---
-
 # <a name="automatically-create-service-orders"></a>สร้างใบสั่งบริการโดยอัตโนมัติ 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ ms.lasthandoff: 05/08/2018
 ข้อตกลงการให้บริการมีผลตั้งแต่วันที่ 1 มกราคม 2012 จนถึงวันที่ 31 ธันวาคม 2012 รายการข้อตกลงการให้บริการสองรายการถูกแนบไปยังข้อตกลงการให้บริการ รายการข้อตกลงการให้บริการแรกมีวันที่เริ่มต้นเมื่อวันที่ 2 มกราคม 2012 และวันที่สิ้นสุดเมื่อวันที่ 1 มีนาคม 2012 รายการข้อตกลงการให้บริการที่สองมีวันที่เริ่มต้นเมื่อวันที่ 1 เมษายน 2012 และวันที่สิ้นสุดเมื่อวันที่ 31 ธันวาคม 2012 คุณระบุรอบระยะเวลาในแบบฟอร์ม **สร้างใบสั่งบริการ** ที่เริ่มตั้งแต่วันที่ 1 ตุลาคม 2012 จนถึงวันที่ 31 ธันวาคม 2012 ดังนั้น ใบสั่งบริการจะถูกสร้างสำหรับรายการข้อตกลงที่สองเท่านั้น เนื่องจากวันที่เริ่มต้นและวันที่สิ้นสุดของรายการข้อตกลงแรกสิ้นสุดก่อนรอบระยะเวลาที่คุณระบุไว้สำหรับใบสั่งบริการ
 
   
-
 
 

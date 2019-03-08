@@ -1,13 +1,13 @@
---- 
-title: "สร้างใบแจ้งหนี้ข้อความอิสระ"
-description: "หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ"
+---
+title: สร้างใบแจ้งหนี้ข้อความอิสระ
+description: หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332253"
 ---
-
 # <a name="create-free-text-invoices"></a>สร้างใบแจ้งหนี้ข้อความอิสระ
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ ms.lasthandoff: 09/05/2018
 คุณสามารถสร้างใบแจ้งหนี้ข้อความอิสระจากเท็มเพลตได้ เมื่อคุณเลือก **สร้างจากเท็มเพลต** ในแท็บ **ใบแจ้งหนี้** คุณสามารถเลือกชื่อเท็มเพลตและบัญชีลูกค้าสำหรับใบแจ้งหนี้ข้อความอิสระใหม่ได้ ค่าเริ่มต้น เช่น เงื่อนไขในการชำระเงิน และวิธีของการชำระเงิน สามารถถูกเติมข้อมูลโดยอัตโนมัติได้จากลูกค้า หรือคุณสามารถใช้ค่าที่ถูกบันทึกไว้ในเท็มเพลตได้
 
 ใบแจ้งหนี้ข้อความอิสระใหม่จะถูกสร้างขึ้น และคุณสามารถแก้ไขค่าตามที่คุณต้องการได้
-

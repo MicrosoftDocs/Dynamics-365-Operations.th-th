@@ -1,13 +1,13 @@
 ---
-title: "เกี่ยวกับการปรับปรุงข้อมูลทางการเงินตามจริง"
-description: "ในหัวข้อนี้จะแสดงภาพรวมของชนิดธุรกรรมที่เพิ่มหรือลดปริมาณสินค้าคงคลัง"
+title: เกี่ยวกับการปรับปรุงข้อมูลทางการเงินตามจริง
+description: ในหัวข้อนี้จะแสดงภาพรวมของชนิดธุรกรรมที่เพิ่มหรือลดปริมาณสินค้าคงคลัง
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e62bdbfb7b88f66ea1f6e4d57b6150c8b0bffb04
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322593"
 ---
-
 # <a name="physical-and-financial-updates"></a>เกี่ยวกับการปรับปรุงข้อมูลทางการเงินตามจริง
 
 [!include [banner](../includes/banner.md)]
 
 ในหัวข้อนี้จะแสดงภาพรวมของชนิดธุรกรรมที่เพิ่มหรือลดปริมาณสินค้าคงคลัง 
 
-รายการสินค้าคงเหลือสามารถตรวจนับจากจำนวนสอนค้าคงเหลือจริงและจากงบการเงินที่อัพเดตใน Microsoft Dynamics 365 for Finance and Operations ธุรกรรมทางกายภาพ และทางการเงินบางอย่างเพิ่มปริมาณสินค้าคงคลัง ในขณะที่ธุรกรรมบางอย่างจะลดปริมาณสินค้าคงเหลือลง
+ธุรกรรมสินค้าคงคลังสามารถถูกปรับปรุงทางกายภาพและถูกปรับปรุงทางการเงินได้ใน Microsoft Dynamics 365 for Finance and Operations ธุรกรรมทางกายภาพ และทางการเงินบางอย่างเพิ่มปริมาณสินค้าคงคลัง ในขณะที่ธุรกรรมบางอย่างจะลดปริมาณสินค้าคงเหลือลง
 
 ## <a name="physical-increases"></a>การเพิ่มขึ้นทางกายภาพ
 เมื่อมีการลงบัญชีธุรกรรมนั้นแล้ว สถานะของบันทึกธุรกรรมจะเป็น **ได้รับแล้ว** ธุรกรรมต่อไปนี้จะถือว่าเป็นการเพิ่มขึ้นทางกายภาพ
@@ -72,7 +71,6 @@ Finance and Operations ใช้การคำนวณราคาต้นท
 -   ยอดของสินค้าคงเหลือในสมุดบันชีรายวัน บอกความเคลื่นไหว กำไรและขาดทุน การนับจำนวน รายการวัสดุและส่วนประกอบ   และการโอนย้าย
 
 รายการค้าที่ทำให้สินค้าลดลง ถูกโอนไปที่เป็นต้นทุนโดยวิธีการเฉลี่ย กระบวนการตรวจนับสินค้าคงคลัง คือ จับคู่ธุรกรรมการค้าที่เกิดขึ้นกับใบเสร็จ ขึ้นอยู่กับวิธีการที่ใช่้ในการจัดการสินค้าคงเหลือ
-
 
 
 

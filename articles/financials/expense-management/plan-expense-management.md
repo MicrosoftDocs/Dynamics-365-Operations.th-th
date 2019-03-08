@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย"
-description: "บทความนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผน ก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations"
+title: ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย
+description: บทความนี้อธิบายการพิจารณาและการตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผน ก่อนที่คุณจะตั้งค่าและตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322041"
 ---
-
 # <a name="configure-expense-management"></a>ตั้งค่าคอนฟิก การจัดการค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงการพิจารณาและตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผน ก่อนที่คุณจะตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations ในการจัดการค่าใช้จ่าย คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง รายงานค่าใช้จ่าย และนโยบายต่างๆ
+หัวข้อนี้อธิบายการพิจารณาและการตัดสินใจที่คุณต้องทำในระหว่างกระบวนการวางแผน ก่อนที่คุณจะตั้งค่าและตั้งค่าคอนฟิกการจัดการค่าใช้จ่ายใน Microsoft Dynamics 365 for Finance and Operations ในการจัดการค่าใช้จ่าย คุณสามารถจัดเก็บข้อมูลเกี่ยวกับวิธีการชำระเงิน ใบเบิกค่าเดินทาง รายงานค่าใช้จ่าย และนโยบายต่างๆ
 
 เนื่องจากหลายการตัดสินใจที่คุณเลือกเมื่อคุณวางแผนการตั้งค่าคอนฟิกของคุณสำหรับการจัดการค่าใช้จ่าย ตามลำดับชั้นขององค์กรของคุณและโครงสร้างทางการเงิน คุณต้องอ้างอิงเอกสารการวางแผนสำหรับพื้นที่เหล่านั้น
 
@@ -163,4 +162,3 @@ ms.lasthandoff: 03/26/2018
 - เมื่อใดโยบายจะหมดอายุ
 - กฎนโยบายคืออะไร
 - ผลลัพธ์ของกฎนโยบายคืออะไร
-

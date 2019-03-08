@@ -1,13 +1,13 @@
 ---
-title: "ตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต"
-description: "ต้นทุนคงที่ของสินค้าที่ผลิตจะสะท้อนเวลาเซ็ตอัพของการดำเนินการและส่วนประกอบที่มีปริมาณคงที่หรือยอดของเสียแบบคงที่"
+title: ตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต
+description: ต้นทุนคงที่ของสินค้าที่ผลิตจะสะท้อนเวลาเซ็ตอัพของการดำเนินการและส่วนประกอบที่มีปริมาณคงที่หรือยอดของเสียแบบคงที่
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329470"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>ตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ ms.lasthandoff: 11/03/2017
 -   ปริมาณการคำนวณที่ระบุในการคำนวณ BOM เฉพาะใบสั่ง− การคำนวณ BOM เฉพาะใบสั่งสามารถดำเนินกับบรรทัดสินค้าบนใบสั่งขาย ใบเสนอราคาขาย หรือใบสั่งบริการ  ปริมาณการคำนวณที่ระบุจะใช้ปริมาณของบรรทัดสินค้าดั้งเดิม แต่ปริมาณเริ่มต้นสามารถแทนที่ได้ คุณสามารถเลือกว่าการคำนวณ BOM เฉพาะใบสั่งจะใช้โหมดการกระจายตามสั่งหรือหลายระดับ
 
 ยอดเงินที่คำนวณของต้นทุนคงที่ของสินค้าที่ผลิตที่ตัดจำหน่ายจะเรียกว่าค่าธรรมเนียม
-
 
 
 

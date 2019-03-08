@@ -1,50 +1,49 @@
 ---
-title: "วิดีโอสำหรับ Finance and Operations"
-description: "หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น"
+title: วิดีโอสำหรับ Finance and Operations
+description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: th-th
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317832"
 ---
-
 # <a name="videos-for-finance-and-operations"></a>วิดีโอสำหรับ Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 
-## <a name="dynamics-365-youtube-channel"></a>ช่องทาง Dynamics 365 YouTube
+## <a name="dynamics-365-youtube-channel"></a>ช่อง Dynamics 365 YouTube
 
-ใน [ช่องทาง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) คุณสามารถค้นหาวิดีโอที่สร้างโดย Microsoft ที่สาธิตโซลูชันทางธุรกิจที่หลากหลายสำหรับผลิตภัณฑ์ Dynamics 365 ได้ ส่วนนี้แสดงรายการวิดีโอ "วิธีใช้" สำหรับ Dynamics 365 for Finance and Operations ที่โฮสต์บนช่องทาง
+ใน [ช่อง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) คุณสามารถค้นหาวิดีโอที่สร้างโดย Microsoft ที่สาธิตโซลูชันทางธุรกิจที่หลากหลายสำหรับผลิตภัณฑ์ Dynamics 365 ได้ ส่วนนี้แสดงรายการวิดีโอ "วิธีใช้" สำหรับ Dynamics 365 for Finance and Operations ที่โฮสต์บนช่องทาง
 
 วิดีโอจะถูกแสดงรายการตามคุณลักษณะ ดังนั้นให้เลื่อนลงเพื่อดูรายการทั้งหมดของเนื้อหาวิดีโอ
 
 #### <a name="data-integration"></a>การรวมข้อมูล
 
 - [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg)
-- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และ Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับ Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>การจัดการข้อมูล
 
-- [ใช้ข้อมูลเอนทิตีและแพคเกจข้อมูลใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [ใช้เอนทิตี้ข้อมูลและแพคเกจข้อมูลใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
 #### <a name="development"></a>การพัฒนา
 
@@ -67,7 +66,7 @@ ms.lasthandoff: 09/17/2018
 
 #### <a name="intelligence"></a>ข่าวกรอง
 
-- [นำฐานข้อมูลของคุณเอง (BYOD) ไปยัง Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [ใช้ฐานข้อมูลของคุณเอง (BYOD) ไปยัง Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -85,7 +84,7 @@ ms.lasthandoff: 09/17/2018
 - [ระเบียบวิธีใน Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
 - [ร้องขอสภาพแวดล้อมการผลิต Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [การรีเฟรชข้อมูลในสภาพแวดล้อมการผลิต](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [ใช้การนำออกใช้แพลตฟอร์ม Dynamics 365 for Finance and Operations ใหม่ หลังจากการปรับปรุงแพลตฟอร์ม 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [ใช้การนำออกใช้แพลตฟอร์ม Dynamics 365 for Finance and Operations ใหม่หลังการปรับปรุงแพลตฟอร์ม 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [ใช้การตรวจวัดระยะไกลเพื่อตรวจสอบตัวนับประสิทธิภาพหลักใน Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>การรวม Office
@@ -151,7 +150,7 @@ ms.lasthandoff: 09/17/2018
 
 - [ตัวรวมข้อมูล CDS (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การรวม (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การรวมระหว่าง Dynamics 365 for Sales and Dynamics 365 for Finance & Operations ผ่านทาง CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [การรวมระหว่าง Dynamics 365 for Sales และ Dynamics 365 for Finance & Operations ผ่าน CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [กรอบงานการรวมภายใน Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [กรอบงานแบบอัตโนมัติของงานสำหรับการจัดการข้อมูล (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
@@ -172,9 +171,9 @@ ms.lasthandoff: 09/17/2018
 
 #### <a name="retail"></a>Retail
 
-- [ความสามารถในการขยาย Dynamics 365 for Retail POS: สำรวจดูรายละเอียด (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [สถาปัตยกรรมของการขายปลีก & Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [มีอะไรใหม่ในความสามารถในการขยาย Dynamics 365 for Retail POS (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Retail การเพิ่มความสามารถของ POS: สำรวจดูรายละเอียด (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [สถาปัตยกรรมการขายปลีก & Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [มีอะไรใหม่ในการเพิ่มความสามารถของ POS ใน Dynamics 365 for Retail (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>การสนับสนุน
 
@@ -182,8 +181,8 @@ ms.lasthandoff: 09/17/2018
 
 #### <a name="upgrade-and-migration"></a>การอัพเกรดและการย้าย
 
-- [เครื่องมือการย้าย AX 2009 ไปยัง Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [เครื่องมือการย้าย SFDC AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [เครือข่ายการย้าย AX 2009 ไปยัง Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [AX เครื่องมือการย้าย 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การอัพเกรด AX 2012 เป็น Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การติดตั้ง Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -196,4 +195,3 @@ ms.lasthandoff: 09/17/2018
 - [กระบวนการเบิกสินค้าชิ้นต่อชิ้น (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การจัดกำหนดการแบบภาพสำหรับใบสั่งผลิตและคัมบัง (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การรวมคลังสินค้ากับการผลิต (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [แอปมือถือของคลังสินค้า (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

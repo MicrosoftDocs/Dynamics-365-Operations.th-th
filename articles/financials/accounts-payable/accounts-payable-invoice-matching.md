@@ -1,13 +1,13 @@
 ---
-title: "การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้"
-description: "การจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้เป็นกระบวนการจับคู่ใบแจ้งหนี้ของผู้จัดจำหน่าย ใบสั่งซื้อ และข้อมูลการรับสินค้า "
+title: การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้
+description: 'การจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้เป็นกระบวนการจับคู่ใบแจ้งหนี้ของผู้จัดจำหน่าย ใบสั่งซื้อ และข้อมูลการรับสินค้า '
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dc5e072f23cbb0dcc2d3d1d390070bb11a2d2f06
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310288"
 ---
-
 # <a name="accounts-payable-invoice-matching"></a>การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้
 
 [!include [banner](../includes/banner.md)]
@@ -191,7 +190,6 @@ ms.lasthandoff: 11/03/2017
 -   ดูและอนุมัติราคาความขัดแย้งการจับคู่ราคาระหว่างใบแจ้งหนี้ราคาสุทธิต่อหน่วยและใบสั่งซื้อราคาสุทธิต่อหน่วย คุณสามารถตั้งค่าเปอร์เซ็นต์ค่าเผื่อราคาสำหรับนิติบุคคล สินค้า และผู้จัดจำหน่าย หากราคาของรายการใบแจ้งหนี้ของผู้จัดจำหน่ายไม่อยู่ในค่าเผื่อของราคาที่ยอมรับได้ คุณสามารถเก็บใบแจ้งหนี้ไว้ได้จนกว่าจะได้รับการอนุมัติให้มีการลงรายการบัญชี หรือจนกว่าคุณจะได้รับการแก้ไขจากผู้จัดจำหน่าย
 
 ดูข้อมูลเพิ่มเติมได้ที่ [นโยบายการจับคู่แบบสามทาง](three-way-matching-policies.md) และ [ตั้งค่าการตรวจสอบการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้](tasks/set-up-accounts-payable-invoice-matching-validation.md) 
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า"
-description: "บทความนี้มีข้อมูลทั่วไปเกี่ยวกับเลตเตอร์ออฟเครดิตและคอลเลกชันของการนำเข้า เอกสารธนาคารทั้งสองชนิดมักใช้สำหรับการซื้อและการขายสินค้าข้ามพรมแดนประเทศ"
+title: เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า
+description: บทความนี้มีข้อมูลทั่วไปเกี่ยวกับเลตเตอร์ออฟเครดิตและคอลเลกชันของการนำเข้า เอกสารธนาคารทั้งสองชนิดมักใช้สำหรับการซื้อและการขายสินค้าข้ามพรมแดนประเทศ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323053"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ ms.lasthandoff: 11/03/2017
 การเรียกเก็บเงินสำหรับการนำเข้าคือข้อตกลงระหว่างธนาคารและที่ผู้ส่งออก (ผู้ขาย) ธนาคารตกลงเพื่อส่งเอกสารการจัดส่งไปยังผู้นำเข้าระหว่างประเทศ (ผู้ซื้อ) ธนาคารคาดว่าจะจัดส่งเอกสารการจัดส่งเมื่อได้รับการชำระเงินสำหรับสินค้าจัดส่งเป็นเงินสด หรือเมื่อมีการรับแบบร่างที่มีลายเซ็นในการชำระเงิน 
 
 การเรียกเก็บเงินสำหรับการนำเข้าช่วยรับประกันว่าจะมีการชำระผู้ขายเมื่อผู้ซื้อรวบรวมเอกสารการจัดส่งเพื่อจัดส่งสินค้านำเข้า
-
 
 
 

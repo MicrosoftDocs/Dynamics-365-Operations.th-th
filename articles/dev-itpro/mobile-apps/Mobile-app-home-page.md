@@ -1,13 +1,13 @@
 ---
-title: "โฮมเพจ Dynamics 365 for Unified Operations mobile app"
-description: "หัวข้อนี้อธิบายถึงแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ"
+title: โฮมเพจ Dynamics 365 for Unified Operations mobile app
+description: หัวข้อนี้อธิบายถึงแอป Microsoft Dynamics 365 for Unified Operations mobile และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: th-th
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321397"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>โฮมเพจ Dynamics 365 for Unified Operations mobile app
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
+หัวข้อนี้อธิบายถึงแอป Microsoft Dynamics 365 for Unified Operations mobile และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 
 > [!NOTE]
 > แอพบนมือถือก่อนหน้านี้มีชื่อว่า *Microsoft Dynamics 365 for Finance and Operations*
@@ -39,7 +38,7 @@ ms.lasthandoff: 10/26/2018
 
 แอพบนมือถือช่วยให้องค์กรของคุณสามารถทำให้กระบวนการทางธุรกิจพร้อมใช้งานบนอุปกรณ์เคลื่อนที่ หลังจากที่ผู้ดูแลระบบไอทีของคุณเปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่สำหรับองค์กรของคุณแล้ว ผู้ใช้สามารถเข้าสู่ในแอพลิเคชันและเริ่มต้นรันกระบวนการทางธุรกิจจากอุปกรณ์เคลื่อนที่ของตนได้ทันที แอพบนมือถือมีคุณลักษณะซึ่งจะช่วยให้เพิ่มประสิทธิภาพได้ ดังต่อไปนี้:
 
-- ผู้ใช้สามารถดู แก้ไข และดำเนินการกับข้อมูลทางธุรกิจ แม้ว่าจะมีการเชื่อมต่อเครือข่ายเป็นช่วง ๆ หรืออุปกรณ์เคลื่อนที่ทำงานแบบออฟไลน์โดยสิ้นเชิงก็ตาม เมื่ออุปกรณ์สร้างการเชื่อมต่อเครือข่ายอีกครั้ง การดำเนินงานข้อมูลแบบออฟไลน์จะซิงโครไนส์กับ Dynamics 365 for Finance and Operations โดยอัตโนมัติ
+- ผู้ใช้สามารถดู แก้ไข และดำเนินการกับข้อมูลทางธุรกิจ แม้ว่าจะมีการเชื่อมต่อเครือข่ายเป็นช่วง ๆ หรืออุปกรณ์เคลื่อนที่ทำงานแบบออฟไลน์โดยสิ้นเชิงก็ตาม เมื่ออุปกรณ์สร้างการเชื่อมต่อเครือข่ายใหม่ การดำเนินงานข้อมูลแบบออฟไลน์จะซิงโครไนส์กับ Dynamics 365 for Finance and Operations โดยอัตโนมัติ
 - ผู้ดูแลระบบไอทีหรือนักพัฒนาสามารถสร้างและเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ที่ได้รับการออกแบบมาเพื่อองค์กรของตน แอพลิเคชันใช้สินทรัพย์ของรหัสที่มีอยู่ของคุณ ดังนั้น คุณไม่จำเป็นต้องนำกระบวนการตรวจสอบ ตรรกะทางธุรกิจ หรือการตั้งค่าคอนฟิกความปลอดภัยของคุณไปใช้อีกครั้ง
 - ผู้ดูแลระบบไอทีหรือนักพัฒนาสามารถออกแบบพื้นที่ทำงานแบบเคลื่อนที่ได้อย่างง่ายดายโดยใช้โปรแกรมพื้นที่ทำงานแบบชี้และคลิกซึ่งรวมอยู่ในเว็บไคลเอนต์
 - ผู้ดูแลระบบไอทีหรือนักพัฒนาสามารถเลือกที่จะเพิ่มประสิทธิภาพความสามารถของพื้นที่ทำงานแบบออฟไลน์ได้โดยใช้กรอบงานความสามารถในการขยายตรรกะทางธุรกิจ เนื่องจากข้อมูลจะยังคงถูกประมวลผลในขณะที่อุปกรณ์อยู่ในโหมดออฟไลน์ สถานการณ์จำลองการเคลื่อนที่ของคุณจะยังคงหลากหลายและเป็นของเหลว แม้ว่าอุปกรณ์จะไม่ได้เชื่อมต่อเครือข่ายอย่างต่อเนื่อง
@@ -85,12 +84,12 @@ ms.lasthandoff: 10/26/2018
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
 <td>นำ Finance and Operations ไปใช้ในองค์กรของคุณ</td>
-<td><ul><li>ถ้าคุณยังไม่ได้&#39;ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
+<td><ul><li>ถ้าคุณยังไม่ได้ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>ผู้ดูแลระบบ</td>
-<td><strong>ถ้าคุณกำลัง&#39;ใช้ Microsoft Dynamics 365 For Operations เวอร์ชัน 1611:</strong> ดาวน์โหลดและติดตั้ง KBs ที่เปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่ที่จัดเตรียมให้โดย Microsoft</td>
+<td><strong>ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Operations รุ่น 1611:</strong> ดาวน์โหลด และติดตั้ง KB ที่เปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้บน Microsoft</td>
 <td>ให้ดูที่หัวข้อต่อไปนี้ สำหรับข้อมูลเพิ่มเติม:
 <ul>
 
@@ -153,4 +152,3 @@ ms.lasthandoff: 10/26/2018
 </tr>
 </tbody>
 </table>
-

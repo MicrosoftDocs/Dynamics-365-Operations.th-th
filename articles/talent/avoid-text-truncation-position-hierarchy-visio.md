@@ -1,37 +1,36 @@
 ---
-title: "หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio"
-description: "หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อของแต่ละบุคคลและแต่ละตำแหน่งถูกตัดให้สั้นลง เมื่อลูกค้าดูลำดับชั้นของตำแหน่งใน Microsoft Dynamics 365 for Talent การตัดข้อความสามารถทำให้ยากในการจับภาพหน้าจอหรือพิมพ์ลำดับชั้น"
+title: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 for Talent การตัดข้อความสามารถทำให้ยากในการจับภาพหน้าจอหรือพิมพ์ลำดับชั้น
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: th-th
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306390"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio
 
 [!include [banner](includes/banner.md)]
 
-**ออก**
+**ออกใช้**
 
-เมื่อลูกค้าดูลำดับชั้นของตำแหน่งใน Microsoft Dynamics 365 for Talent ชื่อของแต่ละบุคคลและแต่ละตำแหน่งถูกตัดให้สั้นลง ดังนั้น จึงอาจจะยากในการจับภาพหน้าจอ หรือในการพิมพ์และเผยแพร่ลำดับชั้น
+เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 for Talent ชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด ดังนั้น จึงอาจจะยากในการจับภาพหน้าจอ หรือในการพิมพ์และเผยแพร่ลำดับชั้น
 
 ![ลำดับชั้นของตำแหน่งงาน](media/position-h.png)
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 12/04/2018
 
 **การแก้ปัญหา**
 
-โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจาก Talent และจากนั้นนำเข้าไปยัง Microsoft Visio ถึงแม้ว่าบทความต่อไปนี้ถูกเขียนขึ้นสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงใช้กับ Talent: [ส่งออกลำดับชั้นของตำแหน่งไปยัง Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)
+โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจาก Talent และจากนั้นนำเข้าไปยัง Microsoft Visio ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับ Talent: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)
 
 ทำตามขั้นตอนเหล่านี้เพื่อส่งออกไปยัง Visio
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 12/04/2018
 
     เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้วิซาร์ดนี้ภายหลังในกระบวนงานนี้
 
-2. บนบานหน้าต่างการดำเนินการ เลือกปุ่ม **เปิดใน Microsoft Office** และจากนั้น ภายใต้ **ส่งออกไปที่ Excel** เลือก **ตำแหน่ง** อีกทางหนึ่งคือ กด Ctrl+T
+2. บนบานหน้าต่างการดำเนินการ เลือกปุ่ม **เปิดใน Microsoft Office** และจากนั้น ภายใต้ **ส่งออกไปยัง Excel** เลือก **ตำแหน่ง** อีกทางหนึ่งคือ กด Ctrl+T
 
     ![ส่งออกหน้ารายการตำแหน่งไปยัง Excel](media/org-admin.png)
 
@@ -107,4 +106,3 @@ ms.lasthandoff: 12/04/2018
 **ตัวเลือกเพิ่มเติม**
 
 ใน Talent คุณยังอาจจะสามารถใช้พื้นที่ทำงาน **ผู้คน** เพื่อดูข้อมูลบางอย่างที่เกี่ยวข้องกับลำดับชั้น
-

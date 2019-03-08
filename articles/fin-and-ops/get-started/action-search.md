@@ -1,13 +1,13 @@
 ---
-title: "การดำเนินการค้นหา"
-description: "บทความนี้อธิบายถึงฟังก์ชันการดำเนินการค้นหาใน Microsoft Dynamics 365 for Finance and Operations การดำเนินการค้นหาจะช่วยคุณค้นหาและดำเนินการที่เรียกใช้บนหน้า"
+title: การดำเนินการค้นหา
+description: บทความนี้อธิบายฟังก์ชันการค้นหาการดำเนินการใน Microsoft Dynamics 365 for Finance and Operations การดำเนินการค้นหาจะช่วยคุณค้นหาและดำเนินการที่เรียกใช้บนหน้า
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317510"
 ---
-
-# <a name="action-search"></a>การดำเนินการค้นหา
+# <a name="action-search"></a>การค้นหาการดำเนินการ
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายถึงฟังก์ชันการดำเนินการค้นหาใน Microsoft Dynamics 365 for Finance and Operations การดำเนินการค้นหาจะช่วยคุณค้นหาและดำเนินการที่เรียกใช้บนหน้า
+บทความนี้อธิบายฟังก์ชันการค้นหาการดำเนินการใน Microsoft Dynamics 365 for Finance and Operations การดำเนินการค้นหาจะช่วยคุณค้นหาและดำเนินการที่เรียกใช้บนหน้า
 
 ## <a name="introduction"></a>คำนำ
 
-หน้าใน Microsoft Dynamics 365 for Finance and Operations โดยหลักๆ แล้วจะแสดงคำสั่งในบานหน้าต่างการดำเนินการ ทั้งบานหน้าต่างการดำเนินการมาตรฐานที่ปรากฏขึ้นที่ด้านบนของหน้าและแถบเครื่องมือที่ปรากฏในส่วนต่างๆ ของหน้า ในเวอร์ชันก่อนหน้า คุณลักษณะคำแนะนำของคีย์ช่วยให้คุณสามารถเข้าถึงปุ่มใดๆ บนหน้าต่างการดำเนินการได้อย่างรวดเร็ว โดยการกดคีย์ Alt แล้วกดชุดของตัวอักษร
+หน้าใน Microsoft Dynamics 365 for Finance and Operations แสดงคำสั่งเป็นหลักในหน้าต่างการดำเนินการ ทั้งหน้าต่างการดำเนินการมาตรฐานที่ปรากฏที่ด้านบนของหน้าและแถบเครื่องมือที่ปรากฏในส่วนต่างๆ ของหน้า ในเวอร์ชันก่อนหน้า คุณลักษณะคำแนะนำของคีย์ช่วยให้คุณสามารถเข้าถึงปุ่มใดๆ บนหน้าต่างการดำเนินการได้อย่างรวดเร็ว โดยการกดคีย์ Alt แล้วกดชุดของตัวอักษร
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 

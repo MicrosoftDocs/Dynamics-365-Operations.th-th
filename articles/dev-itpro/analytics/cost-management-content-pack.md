@@ -1,13 +1,13 @@
 ---
-title: "เนื้อหาการจัดการต้นทุนใน Power BI"
-description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI"
+title: ชุดเนื้อหาการจัดการต้นทุน Power BI
+description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327814"
 ---
-
-# <a name="cost-management-power-bi-content"></a>เนื้อหาการจัดการต้นทุนใน Power BI
+# <a name="cost-management-power-bi-content"></a>ชุดเนื้อหาการจัดการต้นทุน Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +35,7 @@ ms.lasthandoff: 08/13/2018
 เนื้อหา Microsoft Power BI ของ **การจัดการต้นทุน** มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลังหรือบุคคลในองค์กรที่รับผิดชอบ หรือสนใจสถานะของสินค้าคงคลังหรืองานระหว่างทำ (WIP) หรือผู้ที่รับผิดชอบ หรือสนใจในการวิเคราะห์ผลต่างต้นทุนมาตรฐาน
 
 > [!NOTE]
-> เนื้อหา Power BI ของ **การจัดการต้นทุน** ที่อธิบายไว้ในหัวข้อนี้ จะนำไปใช้กับ Dynamics 365 for Finance and Operations 8.0
+> เนื้อหา **การจัดการต้นทุน** Power BI ที่อธิบายไว้ในนี้ใช้ได้กับ Dynamics 365 for Finance and Operations 8.0
 > 
 > ชุดเนื้อหา Power BI ของ **การจัดการต้นทุน** พร้อมใช้งานในไซต์ AppSource ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับค่าเสื่อมราคา ดู [ชุดเนื้อหา Power BI พร้อมใช้งานใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 
-เนื้อหา Power BI **การจัดการต้นทุน** จะปรากฏในพื้นที่ทำงาน **การจัดการต้นทุน** และ **การวิเคราะห์ต้นทุน**
+เนื้อหา Power BI ของ **การจัดการต้นทุน** จะปรากฏในพื้นที่ทำงาน **การจัดการต้นทุน** และ **การวิเคราะห์ต้นทุน**
 
 พื้นที่ทำงาน **การจัดการต้นทุน** ประกอบด้วยแท็บต่อไปนี้:
 
@@ -63,9 +62,9 @@ ms.lasthandoff: 08/13/2018
 - **การวิเคราะห์การบัญชีการผลิต** – แท็บนี้แสดงเนื้อหา Power BI
 - **การวิเคราะห์ผลต่างต้นทุนมาตรฐาน** – แท็บนี้แสดงเนื้อหา Power BI
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>หน้ารายงานที่รวมอยู่ในเนื้อหา Power BI
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>หน้ารายงานที่รวมอยู่ในชุดเนื้อหา Power BI
 
-เนื้อหา Power BI **การจัดการต้นทุน** มีชุดของหน้ารายงานที่ประกอบด้วยชุดของเมตริก เมตริกเหล่านี้จะถูกแสดงภาพข้อมูลโดยเป็นแผนภูมิ ไทล์ และตาราง 
+เนื้อหา Power BI ของ **การจัดการต้นทุน** มีชุดของหน้ารายงานที่ประกอบด้วยชุดของเมตริก เมตริกเหล่านี้จะถูกแสดงภาพข้อมูลโดยเป็นแผนภูมิ ไทล์ และตาราง 
 
 ตารางต่อไปนี้แสดงภาพรวมของการแสดงภาพประกอบในเนื้อหา Power BI ของ **การจัดการต้นทุน**
 
@@ -173,7 +172,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
-ข้อมูลจาก Microsoft Dynamics 365 for Finance and Operations ถูกใช้ในการกรอกข้อมูลหน้ารายงานในเนื้อหา Power BI ของ **การจัดการต้นทุน** ข้อมูลนี้จะถูกแสดงเป็นการวัดแบบรวมที่มีการแบ่งระยะในร้านค้าเอนทิตี ซึ่งเป็นฐานข้อมูล Microsoft SQL Server ที่ปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
+ข้อมูลจาก Microsoft Dynamics 365 for Finance and Operations ถูกใช้ในการกรอกข้อมูลหน้ารายงานในชุดเนื้อหา Power BI ของ **ผู้จัดการแนวทางปฏิบัติ** ข้อมูลนี้จะถูกแสดงเป็นการวัดแบบรวมที่มีการแบ่งระยะในร้านค้าเอนทิตี ซึ่งเป็นฐานข้อมูล Microsoft SQL Server ที่ปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
 การวัดแบบรวมหลักของออบเจ็กต์ต่อไปนี้ ถูกใช้เป็นข้อมูลพื้นฐานของเนื้อหา Power BI
 
@@ -186,7 +185,7 @@ ms.lasthandoff: 08/13/2018
 
 ตารางต่อไปนี้แสดงการวัดที่คำนวณได้หลักในเนื้อหา Power BI
 
-| การประเมิน                            | การคำนวณ |
+| หน่วยวัด                            | การคำนวณ |
 |------------------------------------|-------------|
 | ยอดดุลต้นงวด                  | ยอดดุลต้นงวด = \[ยอดดุลสิ้นงวด\]-\[การเปลี่ยนแปลงสุทธิ\] |
 | ปริมาณยอดดุลต้นงวด             | ปริมาณยอดดุลต้นงวด = \[ปริมาณยอดดุลสิ้นงวด\]-\[ปริมาณการเปลี่ยนแปลงสุทธิ\] |
@@ -209,4 +208,3 @@ ms.lasthandoff: 08/13/2018
 | นิติบุคคล                                          | ชื่อนิติบุคคล                              |
 | ปฏิทินทางการเงิน                                        | ปฏิทินทางการเงิน ปี ไตรมาส รอบระยะเวลา เดือน   |
 | ไซต์                                                    | รหัส ชื่อ ที่อยู่ รัฐ ประเทศ               |
-

@@ -1,28 +1,27 @@
 ---
-title: "แนวคิดการลางานและการหยุดงาน"
-description: "หัวข้อนี้อธิบายแนวคิดของการลางานและการขาดงาน และวิธีการกำหนดยอดดุลเวลาหยุดพัก"
+title: แนวคิดการลางานและการหยุดงาน
+description: หัวข้อนี้อธิบายแนวคิดของการลางานและการขาดงาน และวิธีการกำหนดยอดดุลเวลาหยุดพัก
 author: jcart
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: a388e0efe6c19a3aabe04e7fff039ce11ae023c4
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 563593d6c93b0488c681f5b43004f5c0d22cc004
-ms.contentlocale: th-th
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306489"
 ---
-
 # <a name="leave-and-absence-concepts"></a>แนวคิดการลางานและการหยุดงาน
 
 [!include[banner](../includes/banner.md)]
@@ -297,4 +296,3 @@ ms.lasthandoff: 01/07/2019
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0.00              | วันที่ 6/1/2018        | วันที่ 6/1/2018   | 1.00           | วันที่ 9/1/2018        | 3.00    |
 | Jay Norman          | 0.00              | วันที่ 6/15/2018       | วันที่ 6/15/2018  | 1.00           | วันที่ 9/1/2018        | 2.00    |
-

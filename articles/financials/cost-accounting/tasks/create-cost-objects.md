@@ -1,13 +1,13 @@
---- 
-title: "สร้างออบเจ็กต์ต้นทุน  "
-description: "กระบวนงานนี้แสดงวิธีการสร้างออบเจ็กต์ต้นทุนโดยการนำเข้ามิติทางการเงินของศูนย์ต้นทุน Dynamics 365 for Finance and Operations, Enterprise Edition ลงในการลงบัญชีต้นทุนสินค้าผ่านตัวเชื่อมต่อข้อมูล"
+---
+title: 'สร้างออบเจ็กต์ต้นทุน  '
+description: กระบวนงานนี้แสดงวิธีการสร้างออบเจ็กต์ต้นทุนโดยการนำเข้ามิติทางการเงินต้นทุน Dynamics 365 for Finance and Operations Enterprise edition ลงในการบัญชีต้นทุนผ่านทางตัวเชื่อมต่อข้อมูล
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMAXFinancialDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1e12de1d51658092fb19f652cef7c1cc78b255b5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d43274aed2edbb91fd4e399cb8d45e91646b055
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322685"
 ---
 # <a name="create-cost-objects"></a>สร้างออบเจ็กต์ต้นทุน   
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการสร้างออบเจ็กต์ต้นทุนโดยการนำเข้ามิติทางการเงินของศูนย์ต้นทุน Dynamics 365 for Finance and Operations, Enterprise Edition ลงในการลงบัญชีต้นทุนสินค้าผ่านตัวเชื่อมต่อข้อมูล บริษัทสาธิต USMF ถูกนำมาใช้เพื่อสร้างกระบวนงานนี้  ขั้นตอนนี้ใช้สำหรับคุณลักษณะการบัญชีต้นทุนที่ถูกเพิ่มเข้ามาใน Dynamics 365 for Operations รุ่น 1611
+กระบวนงานนี้แสดงวิธีการสร้างออบเจ็กต์ต้นทุนโดยการนำเข้ามิติทางการเงินต้นทุน Dynamics 365 for Finance and Operations Enterprise edition ลงในการบัญชีต้นทุนผ่านทางตัวเชื่อมต่อข้อมูล บริษัทสาธิต USMF ถูกนำมาใช้เพื่อสร้างกระบวนงานนี้  กระบวนงานนี้มีไว้สำหรับคุณลักษณะการลงบัญชีต้นทุนที่ถูกเพิ่มใน Dynamics 365 for Operations รุ่น 1611
 
 
 ## <a name="create-new-cost-objects"></a>สร้างออบเจ็กต์ต้นทุนใหม่
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="view-the-imported-cost-centers"></a>ดูศูนย์ต้นทุนที่นำเข้า
 1. คลิก ดูสมาชิกมิติ
-
 

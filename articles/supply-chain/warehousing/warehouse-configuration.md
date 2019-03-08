@@ -1,13 +1,13 @@
 ---
-title: "การตั้งค่าคอนฟิกคลังสินค้า"
-description: "บทความนี้อธิบายวิธีการตั้งค่าคลังสินค้า โดยจะมีข้อมูลเกี่ยวกับวิธีการเปิดใช้งานเค้าโครงคลังสินค้าและกระบวนการคลังสินค้า"
+title: การตั้งค่าคอนฟิกคลังสินค้า
+description: บทความนี้อธิบายวิธีการตั้งค่าคลังสินค้า โดยจะมีข้อมูลเกี่ยวกับวิธีการเปิดใช้งานเค้าโครงคลังสินค้าและกระบวนการคลังสินค้า
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318453"
 ---
-
 # <a name="warehouse-configuration"></a>การตั้งค่าคอนฟิกคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 **หมายเหตุ:** บทความนี้ใช้กับลักษณะการทำงานในโมดูล**การบริหารคลังสินค้า** (คลังสินค้าขั้นสูง) ไม่นำไปใช้กับลักษณะคลังสินค้าในโมดูล**การบริหารคลังสินค้า**
 
 ## <a name="warehouse-layout"></a>โครงร่างคลังสินค้า
-ระบบการจัดการคลังสินค้าใน Microsoft Dynamics 365 for Finance and Operations ให้คุณมีวิธีที่ยืดหยุ่นในการกำหนดโครงร่างของคลังสินค้าของคุณ เพื่อให้ตรงกับความต้องการในการเปลี่ยนแปลง เพื่อให้คุณสามารถบรรลุประสิทธิภาพสูงสุดของคลังสินค้า
+ระบบการจัดการคลังสินค้าใน Microsoft Dynamics 365 for Finance and Operations ให้คุณมีวิธีที่ยืดหยุ่นได้ในการกำหนดโครงร่างคลังสินค้าของคุณเพื่อให้ตรงกับความต้องการที่เปลี่ยนแปลง เพื่อให้คุณสามารถได้รับประสิทธิภาพคลังสินค้าสูงสุด
 
 -   คุณสามารถกำหนดพื้นที่จัดเก็บของคลังสินค้าที่มีระดับความสำคัญสูง และระดับความสำคัญต่ำ เพื่อการจัดวางสินค้าที่ดีที่สุด
 -   คุณสามารถแบ่งคลังสินค้าออกเป็นโซนเพื่อรองรับความต้องการต่าง ๆ ในการจัดเก็บได้ เช่น ข้อกำหนดอุณหภูมิ หรืออัตราหมุนเวียนต่าง ๆ สำหรับสินค้า
@@ -116,7 +115,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [ตั้งค่าคอนฟิกของสถานที่ในคลังสินค้า WMS ที่เปิดใช้งาน (คู่มืองาน)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

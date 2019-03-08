@@ -1,13 +1,13 @@
---- 
-title: "ER ตั้งค่าคอนฟิกปลายทาง"
-description: "กระบวนงานนี้สาธิตวิธีการตั้งค่าและการใช้ปลายทางที่ต่างกัน สำหรับส่วนประกอบเอาท์พุทของการรายงานทางอิเล็กทรอนิกส์ (ER) เช่น โฟลเดอร์ หรือไฟล์ "
+---
+title: ER ตั้งค่าคอนฟิกปลายทาง
+description: 'กระบวนงานนี้สาธิตวิธีการตั้งค่าและการใช้ปลายทางที่ต่างกัน สำหรับส่วนประกอบเอาท์พุทของการรายงานทางอิเล็กทรอนิกส์ (ER) เช่น โฟลเดอร์ หรือไฟล์ '
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309874"
 ---
 # <a name="er-configure-destinations"></a>ER ตั้งค่าคอนฟิกปลายทาง
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/14/2018
 
 กระบวนงานนี้สาธิตวิธีการตั้งค่าและการใช้ปลายทางที่ต่างกัน สำหรับส่วนประกอบเอาท์พุทของการรายงานทางอิเล็กทรอนิกส์ (ER) เช่น โฟลเดอร์ หรือไฟล์  บริษัทข้อมูลสาธิตที่ใช้สร้างกระบวนการนี้คือ DEMF ประเทศเยอรมนีเป็นประเทศ/ภูมิภาคของที่อยู่หลักของนิติบุคคล อย่างไรก็ตาม คุณสามารถใช้นิติบุคคลใดๆ สำหรับกระบวนงานนี้  
 
-รูปแบบที่ใช้ในตัวอย่างนี้คือ การโอนย้ายเครดิต (DE) ISO20022 แต่คุณสามารถใช้รูปแบบใดๆ ที่คุณได้นำเข้ามาแล้วได้  โปรดทราบว่า กระบวนงานนี้เป็นตัวอย่างของไฟล์เดี่ยวและการตั้งค่าปลายทางเดี่ยว  ข้อมูลเพิ่มเติมเกี่ยวกับการจัดการปลายทางของการรายงานทางอิเล็กทรอนิกส์ สามารถพบได้ในวิธีใช้ของ Dynamics 365 for Finance and Operations
+รูปแบบที่ใช้ในตัวอย่างนี้คือ การโอนย้ายเครดิต (DE) ISO20022 แต่คุณสามารถใช้รูปแบบใดๆ ที่คุณได้นำเข้ามาแล้วได้  โปรดทราบว่า กระบวนงานนี้เป็นตัวอย่างของไฟล์เดี่ยวและการตั้งค่าปลายทางเดี่ยว  ข้อมูลเพิ่มเติมเกี่ยวกับการจัดการปลายทางการรายงานทางอิเล็กทรอนิกส์สามารถพบได้ในวิธีใช้ Dynamics 365 for Finance and Operations
 
 1. ไปที่ การจัดการองค์กร > การรายงานทางอิเล็กทรอนิกส์ > ปลายทางการรายงานทางอิเล็กทรอนิกส์
 2. คลิก ใหม่ เพื่อสร้างชุดใหม่ของปลายทางสำหรับรูปแบบ
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/14/2018
 20. คลิก ตกลง
 21. ในฟิลด์ชื่อเรื่อง ให้พิมพ์ค่า
 22. คลิก ตกลง
-
 

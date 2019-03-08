@@ -1,13 +1,13 @@
 ---
-title: "รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์"
-description: "รายงานเมื่อเสร็จสมบุรณ์เป็นขั้นการผลิต ในขั้นนี้ ผลิตภัณฑ์สำเร็จรูปจะได้รับการรายงานและย้ายออกจากใบสั่งผลิตไปยังสินค้าคงคลัง"
+title: รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์
+description: รายงานเมื่อเสร็จสมบุรณ์เป็นขั้นการผลิต ในขั้นนี้ ผลิตภัณฑ์สำเร็จรูปจะได้รับการรายงานและย้ายออกจากใบสั่งผลิตไปยังสินค้าคงคลัง
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 61c12ee3a831abcb46af18645eba55fe100c99c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 80a882e51332d87835bdfb41a1bb1fcda2471f02
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315831"
 ---
-
 # <a name="report-production-orders-as-finished"></a>รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>รายงานการการผลิตสินค้าที่เสร็จสิ้น
 คุณสามารถตั้งค่าใบสั่งผลิตเป็น **รายงานการเสร็จงาน** ผ่านทาง ฟังก์ชันการอัพเดทใบสั่งผลิตมาตรฐาน หรือผ่าน ทางสมุดรายวันและบัตรกระบวนการผลิตตลอดจน บันทึกรายวัน **เมื่องานเสร็จสิ้น** คุณยังสามารถอัพเดทระยะสำหรับ **รายงานการเสร็จงาน** รวมถึงบัตรงานและหน้าอุปกรณ์บัตรงาน เมื่อรายงานงานล่าสุดของใบสั่งผลิตได้ ท้ายนี้ คุณสามารถใช้ **รายงานการเสร็จงาน** อันเป็นกระบวนการสำหรับบริการตอบคำถามที่เป็นอุปกรณ์บนมือถือคลังสินค้าได้  
-
 
 
 

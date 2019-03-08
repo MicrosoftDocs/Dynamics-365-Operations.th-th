@@ -1,13 +1,13 @@
 ---
-title: "ข้อตกลงการซื้อ"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับข้อตกลงการซื้อ  ข้อตกลงการซื้อคือสัญญาที่กำหนดให้องค์กรซื้อในปริมาณหรือยอดเงินที่ระบุโดยใช้ใบสั่งซื้อตามช่วงเวลา ในการแลกเปลี่ยนข้อผูกมัดนี้ ผู้ซื้อจะได้รับราคาและส่วนลดพิเศษ"
+title: ข้อตกลงการซื้อ
+description: บทความนี้แสดงข้อมูลเกี่ยวกับข้อตกลงการซื้อ  ข้อตกลงการซื้อคือสัญญาที่กำหนดให้องค์กรซื้อในปริมาณหรือยอดเงินที่ระบุโดยใช้ใบสั่งซื้อตามช่วงเวลา ในการแลกเปลี่ยนข้อผูกมัดนี้ ผู้ซื้อจะได้รับราคาและส่วนลดพิเศษ
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314543"
 ---
-
 # <a name="purchase-agreements"></a>ข้อตกลงการซื้อ
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ ms.lasthandoff: 05/08/2018
 [สร้างข้อตกลงการซื้อใหม่ (คู่มืองาน)](tasks/create-purchase-agreement.md)
 
 [สร้างใบสั่งซื้อที่นำออกใช้จากข้อตกลงการซื้อ (คู่มืองาน)](tasks/create-purchase-release-order-purchase-agreement.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "เอาสภาพแวดล้อม Talent ออก"
-description: "หัวข้อนี้นำคุณไปสู่กระบวนการของการลบไดรฟ์ทดสอบ หรือสภาพแวดล้อมในการผลิตสำหรับ Microsoft Dynamics 365 for Talent"
+title: เอาสภาพแวดล้อม Talent ออก
+description: หัวข้อนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 for Talent
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306503"
 ---
 # <a name="remove-talent-environments"></a>เอาสภาพแวดล้อม Talent ออก
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้นำคุณไปสู่กระบวนการของการลบไดรฟ์ทดสอบ หรือสภาพแวดล้อมในการผลิตสำหรับ Microsoft Dynamics 365 for Talent
+หัวข้อนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 for Talent
 
 ## <a name="removing-a-test-drive-environment"></a>การลบสภาพแวดล้อมไดรฟ์ทดสอบ
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 08/09/2018
 
 1. นำทางไปยัง [ศูนย์การจัดการ PowerApps](https://admin.businessplatform.microsoft.com/)
 2. เลือก **สภาพแวดล้อม**
-3. เลือกสภาพแวดล้อมไดรฟ์ทดสอบ ซึ่งมีรูปแบบการตั้งชื่อที่คล้ายกับแบบนี้: TestDrive - alias@domain
+3. เลือกสภาพแวดล้อม Test Drive ซึ่งมีรูปแบบการตั้งชื่อที่คล้ายกับรายการนี้: TestDrive - alias@domain
 4. เลือก **ลบ** และยืนยันการตัดสินใจ 
 
 สภาพแวดล้อมไดรฟ์ทดสอบที่มีอยู่จะถูกลบออก เมื่อถูกลบออก คุณสามารถลงชื่อสมัครสภาพแวดล้อมไดรฟ์ทดสอบใหม่ได้ 
@@ -73,5 +73,4 @@ ms.lasthandoff: 08/09/2018
 6. ในโครงการ LCS ของคุณ เลือกไทล์ **การจัดการแอป Talent** 
 7. เลือกอินสแตนซ์ที่คุณต้องการลบ ซึ่งควรถูกทำเครื่องหมายด้วยสถานะการปรับใช้เป็น **ล้มเหลว**
 8. เลือก **ลบอินสแตนซ์** และยืนยันการตัดสินใจของคุณ 
-
 

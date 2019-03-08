@@ -1,30 +1,29 @@
 ---
-title: "ฝังแอป PowerApps ใน Core HR"
-description: "หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งรายการเมนู PowerApps หายไปจากโมดูลการดูแลระบบ"
+title: ฝังแอป PowerApps ใน Core HR
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งรายการเมนู PowerApps หายไปจากโมดูลการดูแลระบบ
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 197b553f0b202ee29ad42274e2c0e03446ec782c
-ms.contentlocale: th-th
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306451"
 ---
-
 # <a name="embed-powerapps-apps-in-core-hr"></a>ฝังแอป PowerApps ใน Core HR
 
 [!include [banner](includes/banner.md)]
@@ -35,11 +34,11 @@ ms.lasthandoff: 12/04/2018
 
 **สาเหตุ**
 
-มีการเปลี่ยนแปลงการออกแบบอินเทอร์เฟสผู้ใช้ (UI) และขณะนี้ Microsoft PowerApps ถูกรวมอยู่ในแบบจำลองการตั้งค่าส่วนบุคคลมาตรฐาน
+การออกแบบส่วนติดต่อผู้ใช้ (UI) ได้ถูกเปลี่ยนแปลง และขณะนี้ Microsoft PowerApps ถูกรวมในแบบจำลองการตั้งค่าส่วนบุคคลมาตรฐาน
 
-**การแก้ปัญหา**
+**ความละเอียด**
 
-มีการเปลี่ยนแปลงวิธีการที่แอป PowerApps ถูกฝัง ขณะนี้มีการเพิ่มแอป PowerApps โดยใช้แบบจำลองการตั้งค่าส่วนบุคคล คุณสามารถเพิ่มแอป PowerApps ไปยังหน้าเกือบทุกหน้าใน Microsoft Dynamics 365 for Talent
+มีการเปลี่ยนแปลงวิธีการที่แอป PowerApps ถูกฝัง ขณะนี้มีการเพิ่มแอป PowerApps โดยใช้แบบจำลองการตั้งค่าส่วนบุคคล คุณสามารถเพิ่มแอป PowerApps ไปยังหน้าได้เกือบทั้งหมดใน Microsoft Dynamics 365 for Talent
 
 สำหรับข้อมูลเกี่ยวกับวิธีการฝังแอป PowerApps ใน Talent ดู [ฝังแอป PowerApps](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)
 
@@ -69,4 +68,3 @@ ms.lasthandoff: 12/04/2018
 2. บนแถบเครื่องมือ เลือก **แทรก \> PowerApp**
 
     ![แทรกแอป PowerApps โดยใช้แถบเครื่องมือการตั้งค่าส่วนบุคคล](media/powerapp-bar.png)
-

@@ -1,13 +1,13 @@
 ---
-title: "เริ่มต้นใช้งานด้วย Talent"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้อินเทอร์เฟสผู้ใช้กับการกำหนดลักษณะของคุณ ตลอดจนเชื่อมต่อกับทรัพยากรวิธีใช้ที่พร้อมใช้งานภายในผลิตภัณฑ์ และบนไซต์ docs.microsoft.com"
+title: เริ่มต้นใช้งานด้วย Talent
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้อินเทอร์เฟสผู้ใช้กับการกำหนดลักษณะของคุณ ตลอดจนเชื่อมต่อกับทรัพยากรวิธีใช้ที่พร้อมใช้งานภายในผลิตภัณฑ์ และบนไซต์ docs.microsoft.com
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306491"
 ---
 # <a name="get-started-with-talent"></a>เริ่มต้นใช้งานด้วย Talent
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 ใน Microsoft Dynamics 365 for Talent จะง่ายในการปรับเปลี่ยนอินเทอร์เฟสผู้ใช้ และการตั้งค่าตัวเลือกที่ทำให้ซอฟต์แวร์สะดวกสำหรับความต้องการของคุณมากขึ้น หัวข้อนี้มีการเชื่อมโยงไปยังหัวข้อที่แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้อินเทอร์เฟสผู้ใช้กับการกำหนดลักษณะของคุณ หัวข้อยังรวมถึงการเชื่อมโยงไปยังข้อมูล ที่สามารถช่วยคุณในการค้นหาข้อมูลในระบบได้อย่างมีประสิทธิภาพและอย่างถูกต้อง 
 
 > [!NOTE] 
-> ผลิตภัณฑ์ต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับการขายปลีกเป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ในหัวข้อที่เกี่ยวข้องกับ Talent หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent และหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้
+> ผลิตภัณฑ์สามอย่างต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับ Retail เป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ส่วนในหัวข้อที่เกี่ยวข้องกับ Talent ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent; และในหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้
 
 ## <a name="personalizing-talent"></a>Talent ที่เป็นแบบส่วนบุคคล 
 หัวข้อต่อไปนี้แสดงวิธีการตั้งค่าคุณลักษณะหลายอย่างใน Dynamics 365 for Talent ที่ทำให้ง่ายสำหรับคุณในการทำงานของคุณให้เสร็จสิ้นในเวลาที่เหมาะสมได้ 
@@ -61,9 +61,8 @@ ms.lasthandoff: 08/09/2018
 ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา
 
 ### <a name="blogs"></a>บล็อก
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) 
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) 
 
 ### <a name="videos"></a>วิดีโอ
 ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
-
 

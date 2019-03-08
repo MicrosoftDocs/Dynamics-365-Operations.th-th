@@ -1,13 +1,13 @@
 ---
-title: "ประเมินความสามารถในการทำกำไรของลูกค้าและผลิตภัณฑ์"
-description: "บทความนี้อธิบายวิธีใช้การวิเคราะห์ในหน่วยความจำแบบเรียลไทม์เพื่อเข้าถึง สำรวจ และรับความช่วยเหลือเกี่ยวกับลูกค้าและกำไรจากสินค้าจากข้อมูลของ Microsoft Dynamics 365 for Retail"
+title: ประเมินความสามารถในการทำกำไรของลูกค้าและผลิตภัณฑ์
+description: บทความนี้อธิบายวิธีที่คุณสามารถใช้การวิเคราะห์แบบในหน่วยความจำหรือแบบเรียลไทม์เพื่อเข้าถึง สำรวจ และรับข้อมูลเชิงลึกเกี่ยวกับลูกค้าและความสามารถในการทำกำไรของผลิตภัณฑ์จากข้อมูล Microsoft Dynamics 365 for Retail ของคุณ
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04ebc624212e6909eda7589b71cd84a22010e721
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326020"
 ---
-
 # <a name="assess-customer-and-product-profitability"></a>ประเมินความสามารถในการทำกำไรของลูกค้าและผลิตภัณฑ์
 
 [!include [banner](includes/banner.md)]
 
-บทความนี้อธิบายวิธีใช้การวิเคราะห์ในหน่วยความจำแบบเรียลไทม์เพื่อเข้าถึง สำรวจ และรับความช่วยเหลือเกี่ยวกับลูกค้าและกำไรจากสินค้าจากข้อมูลของ Microsoft Dynamics 365 for Retail
+บทความนี้อธิบายวิธีที่คุณสามารถใช้การวิเคราะห์แบบในหน่วยความจำหรือแบบเรียลไทม์เพื่อเข้าถึง สำรวจ และรับข้อมูลเชิงลึกเกี่ยวกับลูกค้าและความสามารถในการทำกำไรของผลิตภัณฑ์จากข้อมูล Microsoft Dynamics 365 for Retail ของคุณ
 
-เนื่องจากเป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถศึกษาผลกำไรสำหรับลูกค้าอันดับแรก (10 ถึง 100) ระหว่างระดับต่างๆของลำดับชั้นขององค์กร ที่ขึ้นอยู่กับเงื่อนไขข้อใดข้อหนึ่งต่อไปนี้:
+ในฐานะที่เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถศึกษาความสามารถในการทำกำไรสำหรับลูกค้าอันดับบน (10 ถึง 100) ในระดับต่างๆ ของลำดับชั้นองค์กร ตามหนึ่งในเกณฑ์ต่อไปนี้:
 
 - ยอดขาย
 - ปริมาณ
@@ -57,4 +56,3 @@ ms.lasthandoff: 11/03/2017
 - **การจัดการร้านค้าปลีก** พื้นที่ทำงาน&gt; **Retail** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **Reports** &gt; **รายงานผลิตภัณฑ์อันดับแรก**
 - **การจัดการประเภทและผลิตภัณฑ์** พื้นที่ทำงาน &gt; **การขายปลีก** &gt; **ผลิตภัณฑ์และประเภท** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน** &gt; **รายงานผลิตภัณฑ์อันดับแรก**
 - **การสอบถามและรายงาน** ส่วน &gt; **การขายปลีก** &gt; **การสอบถามและรายงาน** &gt; **รายงานการขาย** &gt; **รายงานผลิตภัณฑ์อันดับแรก**
-

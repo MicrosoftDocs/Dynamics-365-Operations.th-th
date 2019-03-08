@@ -1,13 +1,13 @@
 ---
-title: "ติดตามผลรายงานที่สร้างและเปรียบเทียบกับค่าพื้นฐาน"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีที่คุณสามารถเปรียบเทียบผลลัพธ์ของรายงาน ER ที่สร้างขึ้นกับค่ารายงานพื้นฐานได้"
+title: ติดตามผลรายงานที่สร้างและเปรียบเทียบกับค่าพื้นฐาน
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีที่คุณสามารถเปรียบเทียบผลลัพธ์ของรายงาน ER ที่สร้างขึ้นกับค่ารายงานพื้นฐานได้
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 7f7877ccaa0c45ab5f0032d6808280e3c47a43ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317947"
 ---
-
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>ติดตามผลรายงานที่สร้างและเปรียบเทียบกับค่าพื้นฐาน
 
 [!include[banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ ms.lasthandoff: 08/09/2018
 คุณสามารถประเมินการติดตามเพื่อวิเคราะห์ว่า เอกสารทางอิเล็กทรอนิกส์ที่ถูกสร้างขึ้นรวมเนื้อหาที่คาดไว้หรือไม่ คุณสามารถทำการประเมินนี้ในสภาพแวดล้อมการทดสอบการยอมรับของผู้ใช้ (UAT) เมื่อมีการเปลี่ยนแปลงพื้นฐานรหัส (ตัวอย่างเช่น เมื่อคุณย้ายไปที่อินสแตนซ์ใหม่ของแอพลิเคชัน ติดตั้งแพคเกจโปรแกรมแก้ไขด่วน หรือปรับใช้การปรับเปลี่ยนรหัส) ด้วยวิธีนี้ คุณสามารถมั่นใจได้ว่า การประเมินจะไม่มีผลกับการดำเนินการของรายงาน ER ที่ใช้ สำหรับรายงาน ER มากมาย การประเมินสามารถทำได้ในโหมดแบบอัตโนมัติ
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะนี้ เล่นคู่มืองาน **ER สร้างรายงานและเปรียบเทียบผลลัพธ์ (ส่วนที่ 1)** และ **ER สร้างรายงานและเปรียบเทียบผลลัพธ์ (ส่วนที่ 2)** ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **7.5.4.3 ทดสอบบริการ/โซลูชันด้านไอที ( 10679)** และคุณสามารถดาวน์โหลดได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=874684) คู่มืองานเหล่านี้อธิบายถึงคุณกระบวนการในการตั้งค่าคอนฟิกกรอบงาน ER ที่จะใช้แฟ้มพื้นฐานในการประเมินสร้างเอกสารอิเล็กทรอนิกส์
-

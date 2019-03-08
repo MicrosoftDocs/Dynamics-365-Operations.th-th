@@ -1,13 +1,13 @@
 ---
-title: "เริ่มต้นข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่"
-description: "บทความนี้อธิบายข้อมูลที่ถูกสร้างขึ้นเป็นส่วนหนึ่งของกระบวนการเริ่มต้นสำหรับ Microsoft Dynamics 365 for Retail"
+title: เริ่มต้นข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่
+description: บทความนี้อธิบายข้อมูลที่ถูกสร้างเป็นส่วนหนึ่งของกระบวนการการเริ่มต้นสำหรับ Microsoft Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327906"
 ---
-
-# <a name="initialize-seed-data-in-new-retail-environments"></a>เริ่มต้นข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่
+# <a name="initialize-seed-data-in-new-retail-environments"></a>เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่
 
 [!include [banner](includes/banner.md)]
 
-บทความนี้อธิบายข้อมูลที่ถูกสร้างขึ้นเป็นส่วนหนึ่งของกระบวนการเริ่มต้นสำหรับ Microsoft Dynamics 365 for Retail
+บทความนี้อธิบายข้อมูลที่ถูกสร้างเป็นส่วนหนึ่งของกระบวนการการเริ่มต้นสำหรับ Microsoft Dynamics 365 for Retail
 
-หลังจากโซลูชันการขายปลีกได้ถูกจัดวางแล้วโดยใช้ Microsoft Dynamics Lifecycle Services (LCS) คุณต้องเริ่มการตั้งค่าคอนฟิกการขายปลีกเพื่อสร้างข้อมูลการตั้งค่าคอนฟิกพื้นฐาน
+หลังจากโซลูชัน Retail ได้ถูกปรับใช้ผ่าน Microsoft Dynamics Lifecycle Services (LCS) คุณต้องเริ่มการตั้งค่าคอนฟิกการขายปลีกเพื่อสร้างข้อมูลการตั้งค่าคอนฟิกพื้นฐาน
 
 > [!IMPORTANT]
 > ก่อนที่คุณจะเริ่มต้นการตั้งค่าคอนฟิกการขายปลีก ให้ตรวจสอบให้แน่ใจว่าคุณได้ระบุภาษาและที่อยู่ทางไปรษณีย์สำหรับนิติบุคคลแต่ละรายที่คุณจะตั้งค่าร้านค้าปลีก ขั้นตอนนี้ต้องมีการดำเนินงานให้เสร็จสมบูรณ์สำหรับนิติบุคคลแต่ละรายที่คุณใช้สำหรับการขายปลีก
 
 เพื่อเริ่มการตั้งค่าคอนฟิกการขายปลึก ให้ปฏิบัติตามขั้นตอนเหล่านี้
 
-1. เริ่มต้นใช้งานไคลเอนต์ Dynamics 365 for Retail
+1. เริ่มต้นไคลเอ็นต์ Dynamics 365 for Retail
 2. คลิก **การขายปลีก** &gt; **การตั้งค่าศูนย์ควบคุม** &gt; **พารามิเตอร์** &gt; **พารามิเตอร์การขายปลีก**
 3. คลิก **เริ่มต้น**
 
@@ -56,9 +55,9 @@ ms.lasthandoff: 01/04/2019
 - รายงานของช่องทาง
 - ข้อมูลเมตาของแอททริบิวต์
 - เท็มเพลตการตรวจสอบเอนทิตี้
-- ชุดงานที่จะล้างข้อมูลประวัติรอบเวลาการแลกเปลี่ยนข้อมูลทางการค้า
+- ชุดงานที่จะล้างประวัติเซสชัน Commerce Data Exchange
 
-นอกจากนี้ การล็อกที่เกี่ยวข้องกับอุตสาหกรรมบัตรชำระเงิน (PCI) จะถูกเปิดใช้งานสำหรับฐานข้อมูล Dynamics 365 for Retail
+นอกจากนี้ การบันทึกที่สัมพันธ์กับอุตสาหกรรมการ์ดการชำระเงิน (PCI) ถูกเปิดใช้งานสำหรับฐานข้อมูล Dynamics 365 for Retail
 
 > [!NOTE]
 > มีตัวเลือกเพื่อตั้งค่าคอนฟิกตัวจัดกำหนดการการขายปลีกโดยแยกต่างหาก ตัวเลือกนี้ช่วยให้คุณรีเซ็ตการตั้งค่าคอนฟิกตัวกำหนดตารางทำงานการขายปลีกไปเป็นการตั้งค่าเริ่มต้น
@@ -70,4 +69,3 @@ ms.lasthandoff: 01/04/2019
 - ช่องทางการขายปลีก
 - เครื่องบันทึกเงินสดและอุปกรณ์ต่างๆ
 - การจัดประเภท
-

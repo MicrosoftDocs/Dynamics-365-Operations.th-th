@@ -1,13 +1,13 @@
 ---
-title: "การคาดการณ์โครงการและงบประมาณ"
-description: "Microsoft Dynamics 365 for Finance and Operations มีการคาดการณ์โครงการและงบประมาณโครงการเพื่อจัดการและควบคุมโครงการของคุณ "
+title: การคาดการณ์โครงการและงบประมาณ
+description: Microsoft Dynamics 365 for Finance and Operations ให้การคาดการณ์โครงการและงบประมาณโครงการเพื่อจัดการและควบคุมโครงการของคุณ
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310403"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>การคาดการณ์โครงการและงบประมาณ
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations มีสองวิธีในการจัดการและควบคุมโครงการของคุณ: การคาดการณ์โครงการ และงบประมาณโครงการ 
+Microsoft Dynamics 365 for Finance and Operations ให้วิธีสองวิธีในการจัดการและควบคุมโครงการของคุณ: การคาดการณ์โครงการและงบประมาณโครงการ 
 
 ใช้การคาดการณ์โครงการถ้าองค์กรของคุณมีมุมมองที่มีการดำเนินงาน และมุ่งเน้นรายได้และต้นทุนที่ได้รับมาจากธุรกรรมเฉพาะ ใช้การจัดงบประมาณโครงการถ้าองค์กรของคุณมุ่งเน้นยอดเงินทางการเงินมากกว่า 
 
@@ -80,7 +79,6 @@ Microsoft Dynamics 365 for Finance and Operations มีสองวิธีใ
 แบบจำลองการคาดการณ์มีลำดับชั้นชั้นเดียวกัน ซึ่งหมายความว่าการคาดการณ์โครงการหนึ่งต้องเชื่อมโยงกับแบบจำลองการคาดการณ์หนึ่ง
 
 ถ้าคุณใช้การคาดการณ์โครงการ คุณสามารถระบุแบบจำลองเป็นโมเดลย่อย จากนั้นคุณสามารถสร้างการคาดการณ์ตามแผนก รอบระยะเวลา หรือภูมิภาค ตัวอย่างเช่น คุณสามารถสร้างแบบจำลองการคาดการณ์สำหรับปี และจากนั้นสร้างแบบจำลองย่อยสำหรับการคาดการณ์ภูมิภาค Northeast, Southeast, Northwest และ Southwest ที่หัวภูมิภาคส่ง โดยการเลือกตัวเลือกต่างๆ ในรายงานที่มีอยู่ คุณสามารถดูข้อมูลโดยการคาดการณ์รวมหรือโมเดลย่อย
-
 
 
 

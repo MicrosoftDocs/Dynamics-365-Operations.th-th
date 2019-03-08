@@ -1,13 +1,13 @@
 ---
-title: "ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน"
-description: "หัวข้อนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์"
+title: ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน
+description: หัวข้อนี้อธิบายวิธีการทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน และวิธีการดูรายละเอียดของการคาดการณ์
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 543a88a8df4252e5bf1b6b27b5209650c1ceca0b
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315900"
 ---
-
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,7 @@ ms.lasthandoff: 05/08/2018
 **หมายเหตุ:**
 
 -   ช่วงเวลาความเชื่อมั่นที่ปรากฏในส่วน **การคาดการณ์** ของหน้า แสดงถึงความแตกต่างระหว่างขีดจำกัดบนของช่วงเวลาความน่าเชื่อถือและขีดจำกัดล่างของช่วงเวลาความน่าเชื่อถือ เมื่อต้องการดูค่าสำหรับขีดจำกัดบนและล่าง ให้วางเมาส์ไว้เหนือแผนภูมิในส่วน **ความต้องการและการคาดการณ์ในอดีตแบบกราฟิก**
--   ถ้าคุณใช้บริการ Machine Learning ของ Microsoft Azure ของการคาดการณ์ความต้องการใน Dynamics 365 for Finance and Operations คุณสามารถระบุเปอร์เซ็นต์ระดับความน่าเชื่อถือที่ควรในการคาดการณ์ที่ถูกสร้างขึ้น ช่วงเวลาความเชื่อมั่นประกอบด้วยช่วงของค่าที่ทำหน้าที่เป็นการประเมินที่ดีสำหรับการคาดการณ์ความต้องการ เปอร์เซ็นต์ระดับความเชื่อมั่น 95% บ่งชี้ว่ามีความเสี่ยง 5% ที่การคาดการณ์ความต้องการจะอยู่นอกช่วงเวลาความเชื่อมั่น
+-   ถ้าคุณใช้ Finance and Operations Demand forecasting Microsoft Azure Machine Learning service คุณสามารถระบุเปอร์เซนต์ระดับความมั่นใจที่การคาดการณ์ที่ถูกสร้างควรมี ช่วงเวลาความเชื่อมั่นประกอบด้วยช่วงของค่าที่ทำหน้าที่เป็นการประเมินที่ดีสำหรับการคาดการณ์ความต้องการ เปอร์เซ็นต์ระดับความเชื่อมั่น 95% บ่งชี้ว่ามีความเสี่ยง 5% ที่การคาดการณ์ความต้องการจะอยู่นอกช่วงเวลาความเชื่อมั่น
 
 คุณยังสามารถทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์ในหน้า **รายละเอียดการคาดการณ์ความต้องการ** ด้วยการปรับเปลี่ยนค่าในแถว **การคาดการณ์** ในส่วน **การคาดการณ์** ได้อีกด้วย
 
@@ -82,7 +81,6 @@ ms.lasthandoff: 05/08/2018
 [การตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
 
 [การสร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
-
 
 
 

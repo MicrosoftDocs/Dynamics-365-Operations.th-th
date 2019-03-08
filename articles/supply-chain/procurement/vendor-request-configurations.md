@@ -1,13 +1,13 @@
 ---
-title: "การตั้งค่าคอนฟิกคำขอของผู้จัดจำหน่าย"
-description: "หัวข้อนี้อธิบายถึงฟิลด์ที่จำเป็นต้องถูกเติมข้อมูลในคำขอของผู้จัดจำหน่ายใหม่"
+title: การตั้งค่าคอนฟิกคำขอของผู้จัดจำหน่าย
+description: หัวข้อนี้อธิบายถึงฟิลด์ที่จำเป็นต้องถูกเติมข้อมูลในคำขอของผู้จัดจำหน่ายใหม่
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: d238e0dbb754e88dcffa171456aa0a2336238cab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
-ms.contentlocale: th-th
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332529"
 ---
-
 # <a name="vendor-request-configurations"></a>การตั้งค่าคอนฟิกคำขอของผู้จัดจำหน่าย
 [!include [banner](../includes/banner.md)]
 
@@ -54,5 +53,4 @@ ms.lasthandoff: 02/08/2018
 3.  คลิก **บันทึก**
 4.  เปิดแท็บ **ประเทศ/ภูมิภาค** เพื่อเลือกประเทศ/ภูมิภาคที่ควรใช้สำหรับการตั้งค่าคอนฟิก
 5.  ตั้งค่าคอนฟิกให้เสร็จสมบูรณ์ โดยทำตามคำแนะนำสำหรับการตั้งค่าคอนฟิกเริ่มต้น
-
 

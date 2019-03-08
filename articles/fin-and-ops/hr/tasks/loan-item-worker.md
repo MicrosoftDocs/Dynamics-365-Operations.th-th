@@ -1,13 +1,13 @@
---- 
-title: "สินค้าที่ให้กู้ยืมแก่ผู้ปฏิบัติงาน"
-description: "ขั้นตอนนี้แสดงวิธีการยืมสินค้ากับผู้ปฏิบัติงาน และบันทึกการส่งสินค้าคืนของผู้ปฏิบัติงาน "
+---
+title: สินค้าที่ให้กู้ยืมแก่ผู้ปฏิบัติงาน
+description: 'ขั้นตอนนี้แสดงวิธีการยืมสินค้ากับผู้ปฏิบัติงาน และบันทึกการส่งสินค้าคืนของผู้ปฏิบัติงาน '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9041a24a7197c350a38339408197f643f2b9b6dd
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332230"
 ---
 # <a name="loan-item-to-a-worker"></a>สินค้าที่ให้กู้ยืมแก่ผู้ปฏิบัติงาน
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/14/2018
 1. ไปที่ฝ่ายทรัพยากรบุคคล > ผู้ปฏิบัติงาน > ให้กู้ยืมสินค้า > อุปกรณ์ที่ให้ยืม
 2. คลิก แก้ไข
 3. ในฟิลด์การส่งคืนจริง ให้ป้อนวันที่และเวลา
-
 

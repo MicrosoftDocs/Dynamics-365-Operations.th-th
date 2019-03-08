@@ -1,13 +1,13 @@
---- 
-title: "สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ"
-description: "กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ "
+---
+title: สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ
+description: 'กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ '
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d3e33008d04ea8bb7d145c7b63cec23a4a45dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315509"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ  นอกจากนี้ยังแสดงวิธีการบันทึกการรับผลิตภัณฑ์เพื่อลงทะเบียนสินค้าคงคลังที่มีการส่งมอบเป็นปริมาณคงคลังคงเหลือที่ผู้จัดจำหน่ายเป็นเจ้าของ โดยทั่วไป กระบวนงานนี้จะกระทำโดยผู้เชี่ยวชาญด้านการจัดซื้อ คุณสามารถใช้คู่มือนี้ในบริษัทข้อมูลสาธิต USMF ขั้นตอนนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Dynamics 365 for Operations version 1611
+กระบวนงานนี้แสดงวิธีการสร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบซึ่งคุณสามารถติดตามการจัดส่งที่คาดไว้จากผู้จัดจำหน่ายไปยังสินค้าคงคลังที่มีการส่งมอบของคุณ  นอกจากนี้ยังแสดงวิธีการบันทึกการรับผลิตภัณฑ์เพื่อลงทะเบียนสินค้าคงคลังที่มีการส่งมอบเป็นปริมาณคงคลังคงเหลือที่ผู้จัดจำหน่ายเป็นเจ้าของ โดยทั่วไป กระบวนงานนี้จะกระทำโดยผู้เชี่ยวชาญด้านการจัดซื้อ คุณสามารถใช้คำแนะนำนี้ในบริษัทข้อมูลสาธิต USMF  กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มใน Dynamics 365 for Operations รุ่น 1611
 
 
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 09/29/2017
     * สินค้าที่ได้รับเป็นสินค้าคงคลังที่มีการส่งมอบที่ผู้จัดจำหน่ายเป็นเจ้าของเป็นปริมาณคงคลังคงเหลือที่พร้อมใช้งาน  ปริมาณคงเหลือในใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบจะแสดงอยู่ในฟิลด์ผลรวมที่สั่ง  
 4. ปิดหน้า
 5. คลิก ปิด
-
 

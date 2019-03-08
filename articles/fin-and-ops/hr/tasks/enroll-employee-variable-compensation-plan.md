@@ -1,13 +1,13 @@
---- 
-title: "การลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร"
-description: "ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการสามารถลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปรเพื่อคำนวณรางวัลที่เป็นเงินสดและที่ไม่ใช่เงินสดให้กับพนักงาน "
+---
+title: การลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร
+description: 'ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการสามารถลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปรเพื่อคำนวณรางวัลที่เป็นเงินสดและที่ไม่ใช่เงินสดให้กับพนักงาน '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: th-th
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329585"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>การลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/17/2018
     * ถ้าพนักงานควรจะได้รับยอดเงินคงที่สำหรับรางวัล ยอดเงินสามารถกำหนดได้ที่นี่  
 8. เปิดปิดการขยายของส่วนแทนที่ประจำองค์กร
     * ถ้าประสิทธิภาพของพนักงานควรนำมาพิจารณา ประสิทธิภาพของแผนกต่างๆ หรือแผนกอื่นนอกเหนือจากที่กำหนดให้กับตำแหน่งงานของพนักงาน แผนกสามารถถูกแทนที่ได้  คอลัมน์เปอร์เซ็นต์ควรมีผลรวมเป็น 100  
-
 

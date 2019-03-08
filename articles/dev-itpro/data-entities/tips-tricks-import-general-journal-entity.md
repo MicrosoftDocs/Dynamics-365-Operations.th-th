@@ -1,13 +1,13 @@
 ---
-title: "แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป"
-description: "หัวข้อนี้มีคำแนะนำสำหรับการนำเข้าข้อมูลลงในสมุดรายวันทั่วไปโดยใช้เอนทิตีสมุดรายวันทั่วไป"
+title: แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
+description: หัวข้อนี้มีคำแนะนำสำหรับการนำเข้าข้อมูลลงในสมุดรายวันทั่วไปโดยใช้เอนทิตีสมุดรายวันทั่วไป
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322524"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ ms.lasthandoff: 08/13/2018
 - ถ้าฟิลด์ **หมายเลขใบสำคัญ** ถูกตั้งค่าเป็น **สร้างโดยอัตโนมัติ** การนำเข้าจะไม่สำเร็จ การตั้งค่า **สร้างโดยอัตโนมัติ** สำหรับฟิลด์ **หมายเลขใบสำคัญ** จะไม่ได้รับการสนับสนุน
 
 โดยค่าเริ่มต้น เอนทิตีสมุดรายวันทั่วไปใช้การประมวลผลตามการตั้งค่า หลังจากที่คุณประเมินความต้องการทางธุรกิจสำหรับองค์กรของคุณแล้ว คุณสามารถเปลี่ยนการตั้งค่า **การประมวลผลตามการตั้งค่า** ได้โดยการคลิก **เอนทิตีข้อมูล** ในพื้นที่ทำงาน **การจัดการข้อมูล** การประมวลผลตามการตั้งค่าถูกใช้เพื่อเร่งความเร็วกระบวนการนำเข้า ถ้าคุณไม่ได้ใช้การประมวลผลตามการตั้งค่า การนำเข้าของการนำเข้าเอนทิตีสมุดรายวันทั่วไปจะช้าลง
-

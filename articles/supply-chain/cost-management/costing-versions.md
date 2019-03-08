@@ -1,13 +1,13 @@
 ---
-title: "เวอร์ชันการคิดต้นทุน"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับเวอร์ชันการคิดต้นทุน วิธีการรักษา และชนิดของข้อมูลที่คุณสามารถรวมไว้ วัตถุประสงค์หลักของเวอร์ชันการคำนวณต้นทุนคือเพื่อจัดเก็บเรกคอร์ดต้นทุนที่เกี่ยวกับสินค้า ประเภทของต้นทุน และสูตรการคำนวณต้นทุนทางอ้อม"
+title: เวอร์ชันการคิดต้นทุน
+description: บทความนี้แสดงข้อมูลเกี่ยวกับเวอร์ชันการคิดต้นทุน วิธีการรักษา และชนิดของข้อมูลที่คุณสามารถรวมไว้ วัตถุประสงค์หลักของเวอร์ชันการคำนวณต้นทุนคือเพื่อจัดเก็บเรกคอร์ดต้นทุนที่เกี่ยวกับสินค้า ประเภทของต้นทุน และสูตรการคำนวณต้นทุนทางอ้อม
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330160"
 ---
-
 # <a name="costing-versions"></a>เวอร์ชันการคิดต้นทุน
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ ms.lasthandoff: 11/03/2017
 เมื่อต้องการเปิดใช้เนื้อหาราคาซื้อ คุณต้องกำหนดกลุ่มการคำนวณ BOM ที่ประกอบด้วยแบบจำลองราคาต้นทุนสำหรับราคาซื้อของสินค้าก่อน และกำหนดกลุ่มการคำนวณ BOM เพื่อซื้อสินค้า จากนั้นคุณสามารถใช้แบบจำลองราคาต้นทุนสำหรับกลุ่มการคำนวณ BOM เมื่อคุณทำการคำนวณ BOM ที่ใช้ต้นทุนที่วางแผนไว้เพื่อคำนวณราคาขายของสินค้าที่ผลิต 
 
 เรกคอร์ดราคาซื้อสำหรับสินค้าจะถูกใช้เป็นข้อมูลอ้างอิงด้วย โดยการเปลี่ยนสถานะของเรกคอร์ดราคาซื้อของสินค้า **รอดำเนินการ** เป็น **ใช้งานอยู่**คุณสามารถอัพเดตราคาซื้อพื้นฐานของสินค้าได้ อย่างไรก็ตาม ราคาซื้อพื้นฐานไม่ใช่เฉพาะไซต์ และสามารถแทนที่ด้วยตนเองได้ ราคาซื้อพื้นฐานของสินค้าจะใช้เป็นราคาซื้อเริ่มต้นบนใบสั่งซื้อ
-
 
 
 

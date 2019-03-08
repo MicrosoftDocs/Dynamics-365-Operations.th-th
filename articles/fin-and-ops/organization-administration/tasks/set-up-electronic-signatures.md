@@ -1,13 +1,13 @@
---- 
-title: "การตั้งค่าลายเซ็นอิเล็กทรอนิกส์"
-description: "ใช้ขั้นตอนนี้เพื่อตั้งค่าลายเซ็นอิเล็กทรอนิกส์ "
+---
+title: การตั้งค่าลายเซ็นอิเล็กทรอนิกส์
+description: 'ใช้ขั้นตอนนี้เพื่อตั้งค่าลายเซ็นอิเล็กทรอนิกส์ '
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318591"
 ---
 # <a name="set-up-electronic-signatures"></a>การตั้งค่าลายเซ็นอิเล็กทรอนิกส์
 
@@ -77,5 +77,4 @@ ms.lasthandoff: 09/29/2017
     * ระบุว่าเมื่อใดที่ต้องใช้ลายเซ็น     เลือก เสมอ ถ้าต้องการให้ใช้ลายเซ็นเมื่อข้อมูลในฟิลด์มีการเปลี่ยนแปลง      เลือก เท่านั้น ถ้าต้องการให้ใช้ลายเซ็นภายใต้เงื่อนไขบางอย่างเท่านั้น  ถ้าคุณเลือก เท่านั้น คุณยังจะต้องเลือกหนึ่งในตัวเลือกต่อไปนี้ด้วย: เมื่อมีการแทรกเรกคอร์ด เมื่อมีการอัพเดตเรกคอร์ด หรือเมื่อมีการลบเรกคอร์ด  
 10. คลิก บันทึก
 11. ปิดหน้า
-
 

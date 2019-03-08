@@ -1,13 +1,13 @@
 ---
-title: "กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย"
-description: "บทความนี้อธิบายถึงความแตกต่างระหว่างการกลับ ลบ โมฆะ และการปฏิเสธการชำระเงิน นอกจากนี้ ยังอธิบายวิธีการกลับรายการการตรวจสอบผู้จัดจำหน่ายสองวิธี"
+title: กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย
+description: บทความนี้อธิบายถึงความแตกต่างระหว่างการกลับ ลบ โมฆะ และการปฏิเสธการชำระเงิน นอกจากนี้ ยังอธิบายวิธีการกลับรายการการตรวจสอบผู้จัดจำหน่ายสองวิธี
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329631"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ ms.lasthandoff: 11/03/2017
 
 -   ธุรกรรมถูกลงรายการบัญชีในบัญชีของลูกค้าสำหรับการกลับรายการการชำระเงิน และการชำระเงินระหว่างการชำระดั้งเดิมและเอกสารที่ดั้งเดิมถูกจับคู่ไว้จะถูกกลับรายการ (การชำระเงินจะเป็นลบ)
 -   การกลับรายการการชำระเงินจะใช้กับการชำระเงินดั้งเดิม ฟิลด์ **ใบสำคัญการชำระเงินครั้งล่าสุด** ในหน้า **ธุรกรรมลูกค้า** สำหรับการชำระเงินของลูกค้าดั้งเดิมจะถูกอัพเดตเพื่อสะท้อนเลขที่ใบสำคัญของธุรกรรมที่กลับรายการ
-
 
 
 

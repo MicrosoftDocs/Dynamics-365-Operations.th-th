@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่ ซึ่งช่วยให้ผู้ใช้สามารถดูและติดต่อกับพนักงานคนอื่นๆ ในองค์กรของพวกเขาได้"
+title: พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่ ซึ่งช่วยให้ผู้ใช้สามารถดูและติดต่อกับพนักงานคนอื่นๆ ในองค์กรของพวกเขาได้
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: th-th
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308632"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ไดเรกทอรีบริษัท** พื้นที่ทำงานนี้ช่วยให้ผู้ใช้ดูและติดต่อพนักงานคนอื่นในองค์กร
 
-สามารถใช้พื้นที่ทำงานนี้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้สามารถใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
 
 ## <a name="overview"></a>ภาพรวม
 พื้นที่ทำงานบนมือถือ **ไดเรกทอรีบริษัท** ช่วยให้ผู้ใช้ทำงานเหล่านี้ได้:
@@ -53,12 +52,12 @@ ms.lasthandoff: 08/29/2018
 <tbody>
 <tr class="odd">
 <td>จะต้องนำผลิตภัณฑ์ต่อไปนี้อย่างใดอย่างหนึ่งไปใช้ในองค์กรของคุณ:
-<ul><li>icrosoft Dynamics 365 for Finance and Operations</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณยังไม่&#39;มี Finance and Operations ที่นำไปใช้ในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณยังไม่&#39;มี Talent ที่นำไปใช้ในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองใช้ได้จาก <a href="https://www.microsoft.com/en-us/dynamics365/talent">เว็บเพจ Talent</a>.
+<td>ถ้าคุณไม่&#39;มี Finance and Operations ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มี Talent ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://www.microsoft.com/en-us/dynamics365/talent">เว็บเพจ Talent</a>
 </td>
 </tr>
 <tr class="even">
@@ -72,12 +71,12 @@ ms.lasthandoff: 08/29/2018
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
 
--   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [สำหรับโทรศัพท์ Android ](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
 1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2.  ป้อน URL ของ Microsoft Dynamics 365 ของคุณ
+2.  ใส่ URL Microsoft Dynamics 365 ของคุณ
 3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
 
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/29/2018
 1.  ในแอพบนมือถือ เลือกพื้นที่ทำงาน **ไดเรกทอรี่ของบริษัท**
 2.  ในฟิลด์ **ค้นหา** ป้อนชื่อ นามสกุล ตำแหน่ง หรือแผนกของพนักงานเพื่อเริ่มต้นการค้นหา
 3.  เลือกพนักงาน หน้า **โพรไฟล์พนักงาน** ปรากฏขึ้น ข้อมูลบนหน้านี้ประกอบด้วยชื่อ นามสกุล ตำแหน่ง และแผนกของพนักงาน
-

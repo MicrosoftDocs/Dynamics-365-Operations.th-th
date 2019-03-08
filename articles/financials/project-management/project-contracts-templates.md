@@ -1,13 +1,13 @@
 ---
-title: "ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations"
-description: "หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 for Project Service Automation ไปยัง Microsoft Dynamics 365 for Finance and Operations"
+title: ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลสัญญาโครงการและโครงการจาก Microsoft Dynamics 365 for Project Service Automation ไปยัง Microsoft Dynamics 365 for Finance and Operations ตรงกันโดยตรง
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: th-th
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312128"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 for Project Service Automation ไปยัง Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลสัญญาโครงการและโครงการจาก Microsoft Dynamics 365 for Project Service Automation ไปยัง Microsoft Dynamics 365 for Finance and Operations ตรงกันโดยตรง
 
 > [!NOTE] 
-> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.0 คุณต้องติดตั้ง KB 4074835
+> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3.0 คุณต้องติดตั้ง KB 4074835
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>โฟลว์ข้อมูลสำหรับ Project Service Automation ไปยัง Finance and Operations
 
 > [!NOTE]
-> ก่อนที่คุณสามารถใช้โซลูชันการรวม Project Service Automation ไปยัง Finance and Operations ได้ คุณควรจะคุ้นเคยกับลักษณะการทำงานการรวมข้อมูลของ Microsoft Dynamics 365
+> ก่อนที่คุณจะสามารถใช้โซลูชันการรวม Project Service Automation ไปยัง Finance and Operations ได้ คุณควรคุ้นเคยกับคุณลักษณะการรวมข้อมูลของ Microsoft Dynamics 365
 
 โซลูชันการรวม Project Service Automation ไปยัง Finance and Operations ใช้คุณลักษณะการรวมข้อมูล เพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Project Service Automation และ Finance and Operations เท็มเพลตการรวมที่พร้อมใช้งานกับคุณลักษณะการรวมเปิดใช้งานโฟลว์เกี่ยวกับสัญญาโครงการ โครงการ รายการสัญญาโครงการ และเหตุการณ์สำคัญของรายการสัญญาโครงการจาก Project Service Automation ไปยัง Finance and Operations
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 11/01/2018
 
 ## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
-เมื่อต้องการเข้าถึงเท็มเพลตที่พร้อมใช้งาน ในศูนย์การจัดการ Microsoft PowerApps เลือก **โครงการ** และจากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
+เพื่อเข้าถึงเท็มเพลตที่พร้อมใช้งาน ในศูนย์การจัดการ Microsoft PowerApps เลือก **โครงการ** และจากนั้น ที่มุมขวาบน เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
 
 เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์สัญญาโครงการและโครงการจาก Project Service Automation ไปยัง Finance and Operations:
 
@@ -95,8 +94,8 @@ ms.lasthandoff: 11/01/2018
 ## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแม็ปและข้อกำหนดเบื้องต้น
 
 - ก่อนที่การซิงโครไนส์ของสัญญาโครงการและโครงการจะสามารถเกิดขึ้นได้ คุณต้องซิงโครไนส์บัญชี
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_ชื่อ \[ชื่อ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลไว้ใน Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_โครงการ** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลไว้ใน Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_ชื่อ \[ชื่อ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์รวมสำหรับ **msdyn\_โครงการ** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** อันดับแรก คุณอาจต้องเพิ่มโครงการไปยังชุดของการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
 - **SourceDataID** สำหรับสัญญาโครงการและโครงการ สามารถปรับปรุงเป็นค่าอื่น หรือลบออกจากการแม็ปได้ ค่าเท็มเพลตเริ่มต้นคือ **Project Service Automation**
 - การแม็ป **PaymentTerms** ต้องถูกปรับปรุง เพื่อให้สะท้อนถึงเงื่อนไขที่ถูกต้องของการชำระเงินใน Finance and Operations คุณยังสามารถลบการแม็ปจากภารกิจของโครงการได้ด้วย แม็ปค่าเริ่มต้นมีค่าเริ่มต้นสำหรับข้อมูลสาธิต ตารางต่อไปนี้แสดงค่าใน Project Service Automation
 
@@ -135,4 +134,3 @@ ms.lasthandoff: 11/01/2018
 [![การแม็ปเท็มเพลต](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![การแม็ปเท็มเพลต](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

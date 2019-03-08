@@ -1,13 +1,13 @@
 ---
-title: "ออกแบบแบบสอบถาม"
-description: "หัวข้อนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม ขั้นตอนแรกคือการ ออกแบบแบบสอบถาม เมื่อคุณออกแบบแบบสอบถาม คุณไม่เพียงเขียนคำถามและคำตอบ แต่ยังสร้างโครงสร้างที่คำตอบที่สามารถบันทึก และจัดทำตารางคำตอบได้"
+title: ออกแบบแบบสอบถาม
+description: หัวข้อนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม ขั้นตอนแรกคือการ ออกแบบแบบสอบถาม เมื่อคุณออกแบบแบบสอบถาม คุณไม่เพียงเขียนคำถามและคำตอบ แต่ยังสร้างโครงสร้างที่คำตอบที่สามารถบันทึก และจัดทำตารางคำตอบได้
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306430"
 ---
-
 # <a name="design-questionnaires"></a>ออกแบบแบบสอบถาม
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ ms.lasthandoff: 08/09/2018
 คุณควรกำหนดพารามิเตอร์ทั้งหมดก่อนที่คุณจะเริ่มสร้างข้อมูลของคุณ คุณสามารถปรับเปลี่ยนการตั้งค่าพารามิเตอร์แบบสอบถามได้ตลอดเวลา
 
 ## <a name="questionnaire-components"></a>ส่วนประกอบของแบบสอบถาม
-แบบสอบถามประกอบด้วยสามองค์ประกอบหลัก: กลุ่มคำตอบที่ประกอบด้วยคำตอบสำหรับคำถามเลือกตอบหลายตัวเลือก คำถาม และแบบสอบถามเอง อีกทางหนึ่งคือคุณสามารถจัดกลุ่มคำถามในแบบสอบถามลงในกลุ่มผลคะแนน กลุ่มผลคะแนนช่วยให้คุณสามารถจัดประเภทคำถาม และให้การวิเคราะห์เพิ่มเติมในแบบสอบถาม 
+แบบสอบถามประกอบด้วยสามองค์ประกอบหลัก: กลุ่มคำตอบที่ประกอบด้วยคำตอบสำหรับคำถามเลือกตอบหลายตัวเลือก คำถาม และแบบสอบถามเอง คุณสามารถเลือกจัดกลุ่มคำถามในแบบสอบถามเป็นกลุ่มผลลัพธ์ได้ กลุ่มผลคะแนนช่วยให้คุณสามารถจัดประเภทคำถาม และให้การวิเคราะห์เพิ่มเติมในแบบสอบถาม 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -238,5 +237,4 @@ ms.lasthandoff: 08/09/2018
 [การแจกจ่ายและการตอบแบบสอบถาม](distribute-questionnaires.md)
 
 [การดูและการประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)
-
 

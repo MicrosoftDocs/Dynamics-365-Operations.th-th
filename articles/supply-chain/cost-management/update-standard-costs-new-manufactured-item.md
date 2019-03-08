@@ -1,13 +1,13 @@
 ---
-title: "อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่"
-description: "บทความนี้ให้คำแนะนำสำหรับการอัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตใหม่"
+title: อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่
+description: บทความนี้ให้คำแนะนำสำหรับการอัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตใหม่
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325514"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>อัพเดตต้นทุนมาตรฐานสำหรับสินค้าที่ผลิตขึ้นใหม่
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ ms.lasthandoff: 11/03/2017
 5.  ใช้หน้า **การตั้งค่าเวอร์ชันการคิดต้นทุน** เพื่อเปลี่ยนแฟล็กการบล็อค เพื่ออนุญาตให้เปิดใช้งานเรกคอร์ดต้นทุนที่เปิดค้างไว้ในเวอร์ชันการคำนวณต้นทุนที่สอง
 6.  ใช้หน้า **เรียกใช้งานราคา** (ซึ่งคุณสามารถเปิดได้จากหน้า **การรักษาเวอร์ชันการคิดต้นทุน** ) เพื่อเปิดใช้งานเรกคอร์ดต้นทุนสินค้าที่ค้างอยู่ทั้งหมดภายในเวอร์ชันการคำนวณต้นทุนที่สอง คุณยังสามารถเปิดใช้งานเรกคอร์ดต้นทุนสินค้าที่ค้างอยู่สำหรับสินค้าแต่ละรายการ โดยการคลิกปุ่ม **เรียกใช้งาน** ในหน้า **ราคาสินค้า** ได้
 7.  ใช้หน้า **การตั้งค่าเวอร์ชันการคิดต้นทุน** เพื่อเปลี่ยนแฟล็กการบล็อคในเวอร์ชันการคำนวณต้นทุนสอง เพื่อป้องกันการบำรุงรักษาข้อมูลเพิ่มเติม นโยบายการบล็อคป้องกันรายการของต้นทุนใหม่ที่ค้างอยู่และการเรียกใช้ต้นทุนที่ค้างอยู่
-
 
 
 

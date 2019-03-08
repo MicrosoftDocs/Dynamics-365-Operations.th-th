@@ -1,13 +1,13 @@
 ---
-title: "สร้างรายงานโดยการเพิ่มเนื้อหาใน XML ดิบ"
-description: "คุณสามารถออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างเอกสารขาออกในรูปแบบ XML ได้"
+title: สร้างรายงานโดยการเพิ่มเนื้อหาใน XML ดิบ
+description: คุณสามารถออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างเอกสารขาออกในรูปแบบ XML ได้
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312197"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>สร้างรายงานโดยเพิ่มเนื้อหาใน XML ดิบ
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ ms.lasthandoff: 08/09/2018
 > โปรดทราบว่า กรอบงานไม่ควบคุมว่า XML เนื้อหาที่อยู่กับเอกสารที่สร้างขึ้นโดยใช้องค์ประกอบรูปแบบ **XML ดิบ** ถูกต้องหรือไม่
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะนี้ เล่น **ER ใช้ข้อมูล XML ดิบในการสร้างรายงาน XML (ส่วนที่ 1: ออกแบบแบบจำลองข้อมูล)** และ **ER ใช้ข้อมูล XML ดิบในการสร้างรายงาน XML (ส่วนที่ 2: ออกแบบและรันรายงาน)** คู่มืองาน ซึ่งเป็นส่วนหนึ่งของ **7.5.4.3 IT จัดหา/พัฒนาส่วนประกอบของบริการ/โซลูชันด้านไอที (10677)** กระบวนการทางธุรกิจ และคุณสามารถดาวน์โหลดได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=874684) คู่มืองานเหล่านี้อธิบายถึงกระบวนการในการตั้งค่าคอนฟิกรูปแบบ ER เพื่อแทรกข้อมูล XML ดิบลงในไฟล์ที่สร้างขึ้น
-

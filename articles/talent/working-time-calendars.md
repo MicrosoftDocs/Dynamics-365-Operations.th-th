@@ -1,31 +1,30 @@
 ---
-title: "ปฏิทินเวลาทำงาน"
-description: "หัวข้อนี้อธิบายปฏิทินเวลาทำงานใน Dynamics 365 for Talent -- Core HR เช่นเดียวกับวิธีการตั้งค่าปฏิทิน"
+title: ปฏิทินเวลาทำงาน
+description: หัวข้อนี้อธิบายปฏิทินเวลาทำงานใน Dynamics 365 for Talent -- Core HR พร้อมกับวิธีการตั้งค่าปฏิทิน
 author: jcart1106
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 2465065d7db18a5468d7c979e0d6cb9c7e76f969
-ms.contentlocale: th-th
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306379"
 ---
-
 # <a name="working-time-calendars"></a>ปฏิทินเวลาทำงาน
 
 [!include [banner](includes/banner.md)]
@@ -59,4 +58,3 @@ ms.lasthandoff: 09/27/2018
 10. เมื่อต้องการกำหนดปฏิทินให้กับพนักงาน เลือก **กำหนดให้กับพนักงาน** ในบานหน้าต่างการดำเนินการ เลือกพนักงานที่คุณต้องการกำหนดปฏิทินนี้ให้ และจากนั้น คลิก **กำหนด**
 
 พนักงานไม่จำเป็นต้องมีปฏิทินที่กำหนดให้ ถ้าไม่มีการกำหนดปฏิทินเวลาทำงาน วันหยุดจะถูกแยกออกจากคำขอโดยอัตโนมัติ ยอดเงิน ในหน่วยชั่วโมงหรือวัน ค่าเริ่มต้นเป็นเวลาทำงานที่กำหนดไว้ในปฏิทิน ถ้าพนักงานไม่มีปฏิทินที่กำหนดให้ วันทั้งหมดจะพร้อมใช้งานสำหรับเวลาหยุด และระยะเวลาที่หยุดไม่ใช่ค่าเริ่มต้นสำหรับคำขอ 
-

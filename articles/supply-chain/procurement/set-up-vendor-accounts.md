@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าบัญชีผู้จัดจำหน่าย"
-description: "หัวข้อนี้อธิบายถึงชนิดของข้อมูลที่คุณต้องระบุเมื่อคุณสร้างบัญชีผู้จัดจำหน่ายใหม่"
+title: ตั้งค่าบัญชีผู้จัดจำหน่าย
+description: หัวข้อนี้อธิบายถึงชนิดของข้อมูลที่คุณต้องระบุเมื่อคุณสร้างบัญชีผู้จัดจำหน่ายใหม่
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329148"
 ---
-
 # <a name="set-up-vendor-accounts"></a>ตั้งค่าบัญชีผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ ms.lasthandoff: 11/03/2017
 คุณสามารถระบุบัญชีเริ่มต้นที่ปรากฏในสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับผู้จัดจำหน่ายที่ระบุโดยอัตโนมัติ ฟังก์ชั้นนี้จะเป็นประโยชน์ถ้าคุณชำระค่าจ้างสำหรับชนิดของสินค้าหรือบริการเดียวกันจากผู้จัดจำหน่ายเดียวกันตามช่วงเวลา เมื่อคุณระบุบัญชีเริ่มต้น คุณสามารถป้อนรายการสมุดรายวันในสมุดรายวันใบแจ้งหนี้ได้อย่างรวดเร็วและมีประสิทธิภาพ บัญชีเริ่มต้นที่คุณระบุจะไม่ถูกนำมาใช้สำหรับใบสั่งซื้อหรือสำหรับใบแจ้งหนี้ของผู้จัดจำหน่ายที่ถูกป้อนในหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่าย**  
 
 คุณสามารถเลือกบัญชีเริ่มต้นได้ในหน้า **การตั้งค่าบัญชีเริ่มต้น** ซึ่งคุณสามารถเปิดได้จากแท็บ **ใบแจ้งหนี้** บนเรกคอร์ดผู้จัดจำหน่าย บัญชีที่คุณเลือกที่นี่จะปรากฏในรายการบัญชีสำหรับบัญชีผู้จัดจำหน่ายที่มีการกรองข้อมูลเมื่อคุณป้อนรายการสมุดรายวัน คุณสามารถใช้บัญชีใดบัญชีหนึ่งเป็นบัญชีเริ่มต้น
-
 
 
 

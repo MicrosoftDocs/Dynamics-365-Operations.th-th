@@ -1,13 +1,13 @@
 ---
-title: "การรายงานทางการเงิน"
-description: "หัวข้อนี้อธิบายถึงตำแหน่งที่สามารถเข้าถึงรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถในการรายงานทางการเงิน ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้"
+title: การรายงานทางการเงิน
+description: หัวข้อนี้อธิบายที่จะเข้าถึงการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถการรายงานทางการเงิน ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.contentlocale: th-th
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316981"
 ---
-
 # <a name="financial-reporting"></a>การรายงานทางการเงิน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงตำแหน่งที่สามารถเข้าถึงรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถในการรายงานทางการเงิน ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
+หัวข้อนี้อธิบายที่จะเข้าถึงการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถการรายงานทางการเงิน ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
 
 <a name="accessing-financial-reporting"></a>การเข้าถึงรายงานทางการเงิน
 -----------------------------
@@ -118,11 +117,10 @@ ms.lasthandoff: 09/27/2018
 คุณสามารถสร้างรายงานใหม่ หรือแก้ไขรายงานที่มีอยู่จากรายการรายงานทางการเงิน ถ้าคุณมีสิทธิ์ที่เหมาะสม คุณสามารถสร้างรายงานทางการเงินใหม่ด้วยการคลิก **สร้าง** บนบานหน้าต่างการดำเนินการ โปรแกรมออกแบบรายงานจะถูกดาวน์โหลดไปยังอุปกรณ์ของคุณ หลังจากที่โปรแกรมออกแบบรายงานเริ่มทำงาน คุณสามารถสร้างรายงานใหม่ หลังจากคุณบันทึกรายงานใหม่ จะปรากฏอยู่ในรายการรายงานทางการเงิน รายการจะแสดงเฉพาะรายงานที่สร้างขึ้นสำหรับบริษัทที่คุณกำลังใช้อยู่ใน Finance and Operations 
 
 > [!NOTE] 
-> คอมพิวเตอร์ที่คุณกำลังดาวน์โหลดไคลเอ็นต์ตัวออกแบบรายงานจะต้องมี Microsoft .NET Framework รุ่น 4.6.2 ติดตั้งอยู่ในนั้น สามารถดาวน์โหลดและติดตั้ง Microsoft .NET Framework รุ่นนี้ได้จาก [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53345) ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว คุณยังสามารถแก้ไขรายงานที่ปรากฏอยู่ในรายการรายงานทางการเงิน เลือกพื้นที่โดยรอบชื่อรายงานถูก คลิก **แก้ไข** บนบานหน้าต่างการดำเนินการ เริ่มต้นโปรแกรมออกแบบรายงาน
+> คอมพิวเตอร์ที่คุณกำลังดาวน์โหลดไคลเอ็นต์ตัวออกแบบรายงาน ต้องมีรุ่น 4.6.2 ของกรอบงาน Microsoft .NET ที่ติดตั้งอยู่ รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345) ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว คุณยังสามารถแก้ไขรายงานที่ปรากฏอยู่ในรายการรายงานทางการเงิน เลือกพื้นที่โดยรอบชื่อรายงานถูก คลิก **แก้ไข** บนบานหน้าต่างการดำเนินการ เริ่มต้นโปรแกรมออกแบบรายงาน
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 - [ดูรายงานทางการเงิน](view-financial-reports.md)
-
 
 
 

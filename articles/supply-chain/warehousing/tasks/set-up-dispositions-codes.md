@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่ารหัสการโอนการครอบครอง"
-description: "ขั้นตอนนี้มุ่งเน้นการตั้งค่ารหัสการโอนการครอบครองที่สามารถใช้บนอุปกรณ์เคลื่อนที่สำหรับกระบวนการการได้รับสินค้าส่งคืนที่ "
+---
+title: ตั้งค่ารหัสการโอนการครอบครอง
+description: 'ขั้นตอนนี้มุ่งเน้นการตั้งค่ารหัสการโอนการครอบครองที่สามารถใช้บนอุปกรณ์เคลื่อนที่สำหรับกระบวนการการได้รับสินค้าส่งคืนที่ '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324134"
 ---
 # <a name="set-up-dispositions-codes"></a>ตั้งค่ารหัสการโอนการครอบครอง
 
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
     * ไม่จำเป็นต้องระบุ: เลือกรหัสเท็มเพลงานที่เชื่อมโยงกับใบสั่งส่งคืนสินค้า ถ้าไม่ระบุค่า เท็มเพลตงานจะถูกแก้ไขตามกฎมาตรฐานที่กำหนดค่าไว้ในระบบของคุณ การเลือกเท็มเพลตงานจะจำกัดรหัสการโอนการครอบครองที่สามารถใช้ได้ ตัวอย่างเช่น ถ้ารหัสการโอนการครอบครองมีเท็มเพลตงานของใบสั่งงานระบุชนิดของใบสั่งซื้อ  มันจะไม่สามารถใช้เพื่อลงทะเบียนสินค้าที่ถูกส่งคืนโดยลูกค้า  
 6. ในฟิลด์รหัสการโอนการครอบครองสินค้ารับคืน ให้พิมพ์ค่าใดค่าหนึ่ง
     * รหัสการโอนการครอบครองการส่งคืนกำหนดส่วนที่เหลือของกระบวนการใบสั่งส่งคืนสำหรับสินค้าลงทะเบียน  ในตัวอย่างนี้ ลูกค้าควรได้รับใบลดหนี้ เพิ่มรหัสการจัดการส่งคืนสินค้าที่ประกอบด้วยเครดิตการดำเนินการ  
-
 

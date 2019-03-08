@@ -1,13 +1,13 @@
 ---
-title: "กฎนโยบายการตรวจสอบ"
-description: "คุณสามารถใช้นโยบายการตรวจสอบเพื่อประเมินรายงานค่าใช้จ่าย ใบแจ้งหนี้ของผู้จัดจำหน่าย และใบสั่งซื้อ เพื่อตรวจสอบให้แน่ใจว่าจะสอดคล้องกับกฎนโยบายที่คุณสร้าง  กฎทั้งหมดที่เชื่อมโยงกับนโยบายการตรวจสอบกำลังถูกรันในโหมดชุดงาน ตามกำหนดการที่คุณระบุ   กฎนโยบายแต่ละกฎเป็นอินสแตนซ์ของชนิดกฎนโยบาย  สำหรับแต่ละชนิดกฎนโยบาย กฎนโยบายเดียวเท่านั้นสามารถทำงานได้ในแต่ละครั้ง"
+title: กฎนโยบายการตรวจสอบ
+description: คุณสามารถใช้นโยบายการตรวจสอบเพื่อประเมินรายงานค่าใช้จ่าย ใบแจ้งหนี้ของผู้จัดจำหน่าย และใบสั่งซื้อ เพื่อตรวจสอบให้แน่ใจว่าจะสอดคล้องกับกฎนโยบายที่คุณสร้าง  กฎทั้งหมดที่เชื่อมโยงกับนโยบายการตรวจสอบกำลังถูกรันในโหมดชุดงาน ตามกำหนดการที่คุณระบุ   กฎนโยบายแต่ละกฎเป็นอินสแตนซ์ของชนิดกฎนโยบาย  สำหรับแต่ละชนิดกฎนโยบาย กฎนโยบายเดียวเท่านั้นสามารถทำงานได้ในแต่ละครั้ง
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 18b8a1649a26ebacc34b828ed25ec9646dd438a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310242"
 ---
-
 # <a name="audit-policy-rules"></a>กฎนโยบายการตรวจสอบ
 
 [!include [banner](../includes/banner.md)]
@@ -100,6 +99,5 @@ ms.lasthandoff: 05/08/2018
 
 [ตรวจสอบการละเมิดนโยบายและกรณี](audit-policy-violations-cases.md)
 [กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง](tasks/define-audit-policies-source-documents.md)
-
 
 

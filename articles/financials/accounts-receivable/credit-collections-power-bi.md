@@ -1,13 +1,13 @@
 ---
-title: "เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน"
-description: "หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
+title: เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
+description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: th-th
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325192"
 ---
-
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ ms.lasthandoff: 03/07/2018
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 
-เนื้อหา Power BI **CustCollectionsBICrossCompany** มีรายงานที่ประกอบด้วยชุดของเมตริก เมตริกเหล่านี้จะถูกแสดงภาพข้อมูลโดยเป็นแผนภูมิ ไทล์ และตาราง ตารางต่อไปนี้แสดงภาพรวมของการแสดงภาพประกอบในเนื้อหา Power BI **CustCollectionsBICrossCompany**
+เนื้อหา Power BI **CustCollectionsBICrossCompany** มีรายงานที่ประกอบด้วยชุดของเมตริก เมตริกเหล่านี้จะถูกแสดงภาพข้อมูลโดยเป็นแผนภูมิ ไทล์ และตาราง ตารางต่อไปนี้แสดงภาพรวมของการแสดงภาพประกอบในเนื้อหา **CustCollectionsBICrossCompany** ใน Power BI
 
 | หน้ารายงาน                 | การแสดงภาพ |
 |-----------------------------|---------------|
@@ -67,7 +66,7 @@ ms.lasthandoff: 03/07/2018
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
-ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกรายงานในเนื้อหา Power BI **การจัดการสินเชื่อและการเรียกเก็บเงิน** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูลเซิร์ฟเวอร์ Microsoft SQL ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
+ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกรายงานในเนื้อหา Power BI เกี่ยวกับ **การจัดการสินเชื่อและการเรียกเก็บเงิน** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
 
 
 |                   เอนทิตี้                    |      การวัดแบบรวมหลัก      |             แหล่งข้อมูล              |                           ฟิลด์                            |                                    คำอธิบาย                                     |
@@ -88,5 +87,4 @@ ms.lasthandoff: 03/07/2018
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                จำนวนของดอกเบี้ยตั๋วเงินที่ได้มีการสร้าง                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 จำนวนของใบสั่งขายรวมที่ระงับ                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                ผลรวมของธุรกรรมที่มีการตัดบัญชี                 |
-
 

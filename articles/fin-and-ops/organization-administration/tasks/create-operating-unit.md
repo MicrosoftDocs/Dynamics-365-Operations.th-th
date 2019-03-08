@@ -1,13 +1,13 @@
---- 
-title: "สร้างหน่วยปฏิบัติงาน"
-description: "หน่วยปฏิบัติงานเป็นองค์กรที่ใช้ในการแบ่งการควบคุมทรัพยากรทางเศรษฐกิจและกระบวนการในการดำเนินงานในธุรกิจหนึ่ง ๆ"
+---
+title: สร้างหน่วยปฏิบัติงาน
+description: หน่วยปฏิบัติงานเป็นองค์กรที่ใช้ในการแบ่งการควบคุมทรัพยากรทางเศรษฐกิจและกระบวนการในการดำเนินงานในธุรกิจหนึ่ง ๆ
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332644"
 ---
 # <a name="create-an-operating-unit"></a>สร้างหน่วยปฏิบัติงาน
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
     * ขยายส่วนของข้อมูลผู้ติดต่อ ถ้าจำเป็น  
     * ป้อนข้อมูลเกี่ยวกับวิธีการสื่อสารเช่น ที่อยู่อีเมล URLs และหมายเลขโทรศัพท์  เพื่อป้อนเรกคอร์ดการสื่อสารใหม่ ให้คลิกที่ ใหม่  เพื่อปรับเปลี่ยนเรกคอร์ดการติดต่อสื่อสารที่มีอยู่ ให้คลิกตัวเลือกเพิ่มเติม > ขั้นสูง   
 6. คลิก บันทึก
-
 

@@ -1,31 +1,31 @@
 ---
-title: "มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)"
-description: "หัวข้อนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent Core HR"
+title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
+description: หัวข้อนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 for Talent Core HR
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306348"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -59,9 +59,9 @@ ms.lasthandoff: 12/18/2018
 
 มีการทำการเปลี่ยนแปลงที่แก้ไขข้อผิดพลาด "การอ้างอิง Null" เมื่อใช้ตัวยึดตำแหน่ง %Reviews.PerfPeriod% ในคำแนะนำการส่ง
 
-### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>รายงาน Power BI ของบุคลากรแสดงข้อผิดพลาด เมื่อวันที่อายุงานของผู้ปฏิบัติงานคือวันที่ 29 กุมภาพันธ์
+### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>รายงาน Power BI ของพนักงานแสดงข้อผิดพลาด เมื่อวันที่อาวุโสของพนักงานคือวันอธิกสุรทิน
 
-ด้วยการเปลี่ยนแปลงนี้ ขณะนี้ วันที่ 29 กุมภาพันธ์ได้รับการสนับสนุนใน Power BI
+ด้วยการเปลี่ยนแปลงนี้ ขณะนี้วันอธิกสุรทินได้รับการสนับสนุนใน Power BI
 
 ### <a name="integration-between-core-hr-and-attract"></a>การรวมระหว่าง Core HR และ Attract
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 12/18/2018
 | ฟิลด์แหล่งข้อมูลที่มีอยู่          | ฟิลด์ต้นทางใหม่                   |
 | -------------------------------|------------------------------------|
 | cdm_name (ชื่อ)                | cdm_description (คำอธิบาย)      |
-| cdm_name (คำอธิบาย)         | cdm_jobdescription(คำอธิบายงาน)|
+| ชื่อ (คำอธิบาย)         | cdm_jobdescription(คำอธิบายงาน)|
 
 
 การแม็ปที่ปรับปรุงแล้วควรมีลักษณะดังภาพด้านล่าง
@@ -151,4 +151,3 @@ ms.lasthandoff: 12/18/2018
 ![ผู้ปฏิบัติงานไปยังงานของผู้ปฏิบัติงาน](./media/WorkerMapping.png)
 
 ![การแปลงฟิลด์เพศ](./media/WorkerTransform.png)
-

@@ -1,13 +1,13 @@
 ---
-title: "มิติทางการเงินและการลงรายการบัญชี"
-description: "เมื่อคุณวางแผนและตั้งค่าผังบัญชีของคุณ คุณต้องพิจารณาว่าส่วนประกอบต่าง ๆ จะทำงานร่วมกันอย่างไรเมื่อคุณลงรายการบัญชีเอกสารหรือสมุดรายวัน ส่วนประกอบเหล่านี้รวมถึงโครงสร้างทางบัญชี กฎขั้นสูง และมิติยอดดุลและถาวร หัวข้อนี้อธิบายว่าแต่ละส่วนประกอบคืออะไรและวิธีการทำงานร่วมกันของส่วนประกอบ"
+title: มิติทางการเงินและการลงรายการบัญชี
+description: เมื่อคุณวางแผนและตั้งค่าผังบัญชีของคุณ คุณต้องพิจารณาว่าส่วนประกอบต่าง ๆ จะทำงานร่วมกันอย่างไรเมื่อคุณลงรายการบัญชีเอกสารหรือสมุดรายวัน ส่วนประกอบเหล่านี้รวมถึงโครงสร้างทางบัญชี กฎขั้นสูง และมิติยอดดุลและถาวร หัวข้อนี้อธิบายว่าแต่ละส่วนประกอบคืออะไรและวิธีการทำงานร่วมกันของส่วนประกอบ
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327952"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>มิติทางการเงินและการลงรายการบัญชี 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>ส่วนประกอบผังบัญชีและมิติทางการเงิน
 
-Microsoft Dynamics 365 for Finance and Operations มีระบบตามกฎที่หลากหลายสำหรับการกำหนดชุดที่ถูกต้องของบัญชีหลักและค่ามิติทางการเงิน ส่วนนี้ให้ภาพรวมโดยย่อของฟังก์ชันของแต่ละส่วนประกอบ และอธิบายว่าคุณสามารถค้นหาส่วนประกอบได้ที่ใด
+Microsoft Dynamics 365 for Finance and Operations มีระบบที่เป็นไปตามกฎแบบครบถ้วนสำหรับการกำหนดการรวมที่ถูกต้องของบัญชีหลักและค่ามิติทางการเงิน ส่วนนี้ให้ภาพรวมโดยย่อของฟังก์ชันของแต่ละส่วนประกอบ และอธิบายว่าคุณสามารถค้นหาส่วนประกอบได้ที่ใด
 
 ### <a name="account-structures"></a>โครงสร้างทางบัญชี
 
@@ -57,7 +56,7 @@ Microsoft Dynamics 365 for Finance and Operations มีระบบตามก
 บุคลากรมักจะมีคำถามเกี่ยวกับลำดับที่รันส่วนประกอบต่าง ๆ จำเป็นอย่างยิ่งที่คุณจะต้องเข้าใจถึงลำดับที่มีการใช้มิติเริ่มต้น เนื่องจากลักษณะการทำงานนี้มีผลกับวิธีที่คุณใช้ในการตั้งค่า
 
 > [!NOTE]
-> ข้อมูลนี้ใช้เฉพาะกับแอพลิเคชันของมิติเริ่มต้นในแอพลิเคชัน ถ้าคุณนำเข้าข้อมูลโดยใช้กรอบงานการจัดการข้อมูลหรือ Microsoft Excel ลักษณะการทำงานจะแตกต่างกัน
+> ข้อมูลนี้ใช้เฉพาะกับแอพลิเคชันของมิติเริ่มต้นในแอพลิเคชัน ถ้าคุณนำเข้าข้อมูลโดยใช้ Microsoft Excel หรือกรอบงานการจัดการข้อมูล ลักษณะการทำงานจะแตกต่างกัน
 
 ### <a name="example-1"></a>ตัวอย่างที่ 1
 
@@ -123,9 +122,8 @@ Microsoft Dynamics 365 for Finance and Operations มีระบบตามก
 
 [วางแผนชื่อผังบัญชีของคุณ](plan-chart-of-accounts.md) 
 
-[การวางแผนผังบัญชีของคุณในบล็อก AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – การเชื่อมโยงนี้ไปยังส่วนที่ 1 ของชุดเจ็ดส่วน
+[บล็อกการวางแผนแผนภูมิของบัญชีของคุณใน AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – ลิงค์นี้ไปยังส่วนที่ 1 ของชุดข้อมูลเจ็ดส่วน
 
 [มิติที่กำหนดค่าเริ่มต้นในการกระจายการลงบัญชี](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [มิติที่กำหนดค่าเริ่มต้นในกรอบงานมิติ](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

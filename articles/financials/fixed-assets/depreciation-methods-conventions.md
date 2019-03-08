@@ -1,13 +1,13 @@
 ---
-title: "วิธีการคิดค่าเสื่อมราคาและแบบแผนการคิดค่าเสื่อมราคา"
-description: "บทความนี้แสดงภาพรวมของแบบแผนการคิดค่าเสื่อมราคาและวิธีการคิดค่าเสื่อมราคาที่ได้รับการสนับสนุนโดย Microsoft Dynamics 365 for Finance and Operations"
+title: วิธีการคิดค่าเสื่อมราคาและแบบแผนการคิดค่าเสื่อมราคา
+description: บทความนี้ให้ภาพรวมของข้อตกลงการคิดค่าเสื่อมราคาและวิธีการคิดค่าเสื่อมราคาที่ได้รับการสนับสนุนโดย Microsoft Dynamics 365 for Finance and Operations
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be8e05a386178b9172a906109e015269dc72b32e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f545b0a9abbd7c797afead67917cf80f4cbe0dae
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331126"
 ---
-
 # <a name="depreciation-methods-and-conventions"></a>วิธีการคิดค่าเสื่อมราคาและแบบแผนการคิดค่าเสื่อมราคา
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้แสดงภาพรวมของแบบแผนการคิดค่าเสื่อมราคาและวิธีการคิดค่าเสื่อมราคาที่ได้รับการสนับสนุนโดย Microsoft Dynamics 365 for Finance and Operations
+บทความนี้ให้ภาพรวมของข้อตกลงการคิดค่าเสื่อมราคาและวิธีการคิดค่าเสื่อมราคาที่ได้รับการสนับสนุนโดย Microsoft Dynamics 365 for Finance and Operations
 
 คุณสามารถเลือกวิธีการและแบบแผนการคิดค่าเสื่อมราคาต่างๆ ได้  วัตถุประสงค์ของวิธีคือเพื่อ ปันส่วนค่าเสื่อมราคาของสินทรัพย์ถาวรในรอบระยะเวลาทางบัญชี ค่าเสื่อมราคาของสินทรัพย์ถาวรคือ ราคาการซื้อสินทรัพย์ ลบด้วยมูลค่าซาก ถ้ามี 
 
@@ -89,7 +88,6 @@ ms.lasthandoff: 05/08/2018
 [การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 175%](175-percent-reducing-balance-depreciation.md)
 
 [การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 200%](200-percent-reducing-balance-depreciation.md)
-
 
 
 

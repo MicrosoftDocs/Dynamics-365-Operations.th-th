@@ -1,13 +1,13 @@
---- 
-title: "สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์"
-description: "ขั้นตอนนี้แสดงวิธีการสร้างแอททริบิวต์ของชุดงาน กำหนดช่วงของค่าเริ่มต้น และรวมแอททริบิวต์ในกลุ่ม "
+---
+title: สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์
+description: 'ขั้นตอนนี้แสดงวิธีการสร้างแอททริบิวต์ของชุดงาน กำหนดช่วงของค่าเริ่มต้น และรวมแอททริบิวต์ในกลุ่ม '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 65153dbcfa69046e4f38eb6ffa013bb6fb87ebd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5694ac4ec47b446c19681bfb5c6b07ff82f4575f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330666"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * แอททริบิวต์สามารถรวมอยู่ในกลุ่มใดก็ได้  
 22. คลิก บันทึก
 23. ปิดหน้า
-
 

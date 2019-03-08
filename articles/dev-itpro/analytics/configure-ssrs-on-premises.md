@@ -1,34 +1,34 @@
 ---
-title: "ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ในองค์กร"
+title: ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ในองค์กร
 author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315141"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises
 
 [!include [banner](../includes/banner.md)]
 
-ใช้ขั้นตอนในหัวข้อนี้ในการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ Microsoft Dynamics 365 for Finance and Operations (ในองค์กร) ของคุณ
+ใช้ขั้นตอนในหัวข้อนี้เพื่อตั้งค่าคอนฟิก SQL Server Reporting Services (SSRS) สำหรับการปรับใช้ Microsoft Dynamics 365 for Finance and Operations (on-premises) ของคุณ
 
 1. เปิดแอพลิเคชัน Reporting Services Configuration Manager
 2. ทิ้ง **ชื่อเซิร์ฟเวอร์** เริ่มต้น ซึ่งควรเป็นชื่อของเครื่องปัจจุบัน และ **อินสแตนซ์ของเซิร์ฟเวอร์รายงาน** **MSSQLSERVER**
@@ -87,11 +87,10 @@ ms.lasthandoff: 08/13/2018
 
     [![แท็บการปรับใช้ Scale-out](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
 
-    อย่าเปลี่ยนการตั้งค่าเริ่มต้นบนแท็บ **การรวม Power BI**
+    ห้ามเปลี่ยนการตั้งค่าเริ่มต้นบนแท็บ **การรวม Power BI**
 
     [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. คลิก **ออก** เพื่อปิด **Reporting Services Configuration Manager**
 
     [![ปิด Reporting Services Configuration Manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

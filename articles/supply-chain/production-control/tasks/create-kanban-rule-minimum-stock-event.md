@@ -1,13 +1,13 @@
---- 
-title: "สร้างกฏคัมบังโดยใช้อีเว้นท์ของสินค้าคงคลังต่ำสุด"
-description: "กระบวนงานนี้มุ่งเน้นการตั้งค่าที่จำเป็นสำหรับการสร้างกฎคัมบังโดยใช้เหตุการณ์ของสินค้าคงคลังต่ำสุดเพื่อให้แน่ใจว่าผลิตภัณฑ์เฉพาะจะพร้อมใช้งานเสมอที่สถานที่เฉพาะ "
+---
+title: สร้างกฏคัมบังโดยใช้อีเว้นท์ของสินค้าคงคลังต่ำสุด
+description: 'กระบวนงานนี้มุ่งเน้นการตั้งค่าที่จำเป็นสำหรับการสร้างกฎคัมบังโดยใช้เหตุการณ์ของสินค้าคงคลังต่ำสุดเพื่อให้แน่ใจว่าผลิตภัณฑ์เฉพาะจะพร้อมใช้งานเสมอที่สถานที่เฉพาะ '
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2a9ba8ec2abb26e3b9ee7e14bdf882c1ffcb205b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c480b518925a8536ebb77d60fcf1f1a548b097f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311093"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>สร้างกฏคัมบังโดยใช้อีเว้นท์ของสินค้าคงคลังต่ำสุด
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
     * เลือกกฎคัมบังที่คุณสร้างก่อนหน้า  
 5. ขยายส่วนคัมบัง
     * โปรดสังเกตว่ามีการสร้างคัมบังเพื่อโอนย้ายวัสดุที่จำเป็นไปยังคลังสินค้า 12  
-
 

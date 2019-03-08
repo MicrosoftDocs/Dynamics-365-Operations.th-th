@@ -1,13 +1,13 @@
---- 
-title: "ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2 - การแม็ปแบบจำลอง)"
-description: "ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER "
+---
+title: ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2 - การแม็ปแบบจำลอง)
+description: 'ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER '
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319603"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2: การแม็ปแบบจำลอง)
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/14/2018
 8. ในฟิลด์คำนิยาม ให้พิมพ์ 'การแม็ปข้อมูลมิติ'
 9. คลิก บันทึก
 10. คลิก ตัวออกแบบ
-11. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table'
+11. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\ตาราง'
 12. คลิก เพิ่มราก
 13. ในฟิลด์ชื่อ พิมพ์ 'บริษัท'
 14. ในฟิลด์ตาราง พิมพ์ 'CompanyInfo'
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/14/2018
 21. เลือก ใช่ ในฟิลด์ขอข้อมูลบัญชีหลัก
     * ตั้งค่า 'ขอข้อมูลบัญชีหลัก' เป็น 'ใช่' เพื่ออนุญาตให้ผู้ใช้สามารถเลือกบัญชีหลักเป็นส่วนหนึ่งของรายการของมิติ    ถ้าตั้งค่าเป็น ไม่ บัญชีหลักจะไม่ถูกรวมเข้าในรายการของมิติ และตัวเลือก 'บัญชีหลักเป็นข้อมูลบังคับ' จะถูกเปิดใช้งาน  ถ้า "บัญชีหลักเป็นข้อมูลบังคับ ' ถูกตั้งค่าเป็น ใช่ ให้รวมบัญชีหลักในรายการของมิติโดยไม่คำนึงถึงการเลือกของผู้ใช้  
 22. คลิก ตกลง
-23. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table records'
+23. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 24. คลิก เพิ่มราก
 25. ในฟิลด์ชื่อ ให้พิมพ์ 'LedgerJournal'
 26. เลือก ใช่ในการขอฟิลด์การสอบถาม
@@ -143,5 +143,4 @@ ms.lasthandoff: 09/14/2018
 3. คลิก เปลี่ยนแปลงสถานะ
 4. คลิกเสร็จสมบูรณ์
 5. คลิก ตกลง
-
 
