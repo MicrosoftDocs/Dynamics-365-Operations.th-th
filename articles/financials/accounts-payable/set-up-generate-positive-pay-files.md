@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าและสร้างไฟล์ Positve Pay"
-description: "บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay"
+title: ตั้งค่าและสร้างไฟล์ Positve Pay
+description: บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346099"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>ตั้งค่าและสร้างไฟล์ Positve Pay
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 03/26/2018
 ตั้งค่า Positive Pay เพื่อสร้างรายการอิเล็กทรอนิกส์ของเช็คที่ได้รับไปยังธนาคาร  จากนั้น เมื่อเช็คถูกนำเสนอให้แก่ธนาคารแล้ว ธนาคารจะเปรียบเทียบเช็คกับรายการของเช็ค  ถ้าเช็คตรงกับเช็คในรายการ ธนาคารจะเคลียร์เช็ค  ถ้าเช็คไม่ตรงกัน ธนาคารจะระงับเช็คไว้เพื่อตรวจสอบ
 
 ## <a name="security-for-positive-pay-files"></a>ความปลอดภัยสำหรับไฟล์ positive pay
-ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ positive pay ถูกดาวน์โหลดไปยังตำแหน่งที่ระบุโดยเว็บเบราเซอร์ของคุณ  เนื่องจากไฟล์ positive pay อาจประกอบด้วยข้อมูลที่อ่อนไหว เป็นเรื่องสำคัญว่าเฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่มีการเข้าถึงเพือสร้างและดูข้อมูลนี้ใน Microsoft Dynamics 365 for Finance and Operations ใช้ตารางต่อไปนี้เพื่อช่วยให้คุณกำหนดสิทธิ์ที่จำเป็นได้
+ไฟล์ positive pay สามารถประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับผู้จ่าย และยอดเงินเช็ค  ดังนั้นตรวจสอบให้แน่ใจว่า คุณใช้มาตรการด้านความปลอดภัยที่เหมาะสมจากเวลาที่มีการสร้างไฟล์ จนกระทั่งได้รับโดยธนาคาร  ไฟล์ positive pay ถูกดาวน์โหลดไปยังตำแหน่งที่ระบุโดยเว็บเบราเซอร์ของคุณ  เนื่องจากไฟล์ค่าจ้างเชิงบวกสามารถประกอบด้วยข้อมูลสำคัญ เป็นสิ่งสำคัญที่เฉพาะผู้ใช้ที่ได้รับการรับรองจะมีการเข้าถึงเพื่อสร้างและดูข้อมูลนี้ใน Microsoft Dynamics 365 for Finance and Operations ใช้ตารางต่อไปนี้เพื่อช่วยให้คุณกำหนดสิทธิ์ที่จำเป็นได้
 
 <table>
 <colgroup>
@@ -160,7 +159,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="recall-a-positive-pay-file"></a>เรียกคืนไฟล์ Positive Pay
 ถ้าคุณต้องเปลี่ยนไฟล์ positive pay คุณสามารถเรียกคืนได้  ในหน้า **สรุปไฟล์ Positive pay** เลือกไฟล์ Positive pay ที่มีสถานะเป็น **สร้างแล้ว** และจากนั้นเลือกการดำเนินการ **เรียกคืน** สำหรับเช็คแต่ละรายการในไฟล์ positive pay ฟิลด์จะบ่งชี้ว่า เช็คที่ได้ถูกรวมในไฟล์ positive pay จะถูกรีเซ็ตหรือไม่  จากนั้นคุณสามารถสร้างไฟล์ positive pay ใหม่ที่รวมเช็คที่ถูกเรียกคืน
-
 
 
 

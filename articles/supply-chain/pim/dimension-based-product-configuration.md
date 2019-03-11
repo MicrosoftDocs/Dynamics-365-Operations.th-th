@@ -1,13 +1,13 @@
 ---
-title: "การจัดโครงแบบของผลิตภัณฑ์ตามมิติ"
-description: "การจัดโครงแบบของผลิตภัณฑ์ตามมิติแสดงโซลูชันแบบง่ายสำหรับการสร้างผลิตภัณฑ์ย่อยจำนวนมากจากผลิตภัณฑ์หลักเดียวและสูตรการผลิต"
+title: การจัดโครงแบบของผลิตภัณฑ์ตามมิติ
+description: การจัดโครงแบบของผลิตภัณฑ์ตามมิติแสดงโซลูชันแบบง่ายสำหรับการสร้างผลิตภัณฑ์ย่อยจำนวนมากจากผลิตภัณฑ์หลักเดียวและสูตรการผลิต
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb2690ec5296f65430268a211108551348a4a060
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 297e60e63b88b610d0886ad16667c4f99cc74ccb
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317027"
 ---
-
 # <a name="dimension-based-product-configuration"></a>การจัดโครงแบบของผลิตภัณฑ์ตามมิติ
 
 [!include [banner](../includes/banner.md)]
@@ -88,5 +87,4 @@ BOM แสดงส่วนประกอบตัวจัดโครงแ�
 6.  [กำหนดเส้นทางการปรับเปลี่ยน (คู่มืองาน)](tasks/define-configuration-route.md)
 7.  [สร้างกฎโครงแบบ (คู่มืองาน)](tasks/create-configuration-rules.md)
 8.  [สร้างการจัดโครงแบบตามมิติ (คู่มืองาน)](tasks/create-dimension-based-configurations.md)
-
 

@@ -1,13 +1,13 @@
 ---
-title: "สัญญาโครงการ"
-description: "หัวข้อนี้แสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations"
+title: สัญญาโครงการ
+description: หัวข้อนี้ให้ตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างได้สำหรับชนิดต่างๆ ของโครงการและแหล่งเงินทุน และวิธีการที่คุณสามารถจัดการสัญญาและลูกค้าโครงการใบแจ้งหนี้ใน Microsoft Dynamics 365 for Finance and Operations
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310380"
 ---
-
 # <a name="project-contracts"></a>สัญญาโครงการ
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้แสดงตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างสำหรับโครงการและแหล่งเงินทุนชนิดต่างๆ และวิธีการจัดการสัญญาและการออกใบแจ้งหนี้แก่ลูกค้าโครงการใน Microsoft Dynamics 365 for Finance and Operations
+บทความนี้ให้ตัวอย่างของสัญญาโครงการที่คุณสามารถสร้างได้สำหรับชนิดต่างๆ ของโครงการและแหล่งเงินทุน และวิธีการที่คุณสามารถจัดการสัญญาและลูกค้าโครงการใบแจ้งหนี้ใน Microsoft Dynamics 365 for Finance and Operations
 
 ชนิดของโครงการที่คุณสร้างขึ้นสำหรับสัญญาโครงการ จะเป็นตัวกำหนดวิธีการที่ใช้ในการออกใบแจ้งหนี้แก่ลูกค้าโครงการ คุณสามารถแก้ไขสัญญาโครงการและโครงการที่เกี่ยวข้อง แต่คุณไม่สามารถเปลี่ยนชนิดของโครงการได้ 
 
@@ -342,7 +341,6 @@ ms.lasthandoff: 03/26/2018
 -   คุณสร้างใบแจ้งหนี้ของลูกค้าที่สิ้นสุดแต่ละเดือนปฏิทินในระหว่างโครงการ
 
 ในระหว่างเดือนแรก ทั้งหมด 800 ชั่วโมงถูกบันทึกไว้โดยที่ปรึกษาในโครงการ ต้นทุนของวัสดุสำนักงานที่คิดกับโครงการคือ 2000 ดังนั้น เมื่อสิ้นสุดเดือน คุณสร้างใบแจ้งหนี้สำหรับ 122,000 ซึ่งจะคำนวณจาก 800 ชั่วโมง เมื่อคิด 150 ต่อชั่วโมง บวกด้วย 2000 สำหรับวัสดุสำนักงาน
-
 
 
 

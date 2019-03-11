@@ -1,13 +1,13 @@
---- 
-title: "เปลี่ยนกลุ่มสินทรัพย์ถาวร"
-description: "ควรจะกำหนดสินทรัพย์ถาวรในกลุ่มสินทรัพย์ถาวรที่ถูกต้อง "
+---
+title: เปลี่ยนกลุ่มสินทรัพย์ถาวร
+description: 'ควรจะกำหนดสินทรัพย์ถาวรในกลุ่มสินทรัพย์ถาวรที่ถูกต้อง '
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 32f1daa6de6034d123b1f2cf732059759f6c10ae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 91dcefe92370733f6558292b195881993f1b71be
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358266"
 ---
 # <a name="change-a-fixed-asset-group"></a>เปลี่ยนกลุ่มสินทรัพย์ถาวร
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
     * ฟิลด์หมายเลขสินทรัพย์ถาวรจะพร้อมใช้งานถ้าคุณเลือกตัวเลือกหมายเลขสินทรัพย์ถาวรใหม่    ถ้าการกำหนดหมายเลขอัตโนมัติถูกตั้งค่าสำหรับสินทรัพย์ถาวร ฟิลด์นี้จะแสดงหมายเลขสินทรัพย์ถาวรที่พร้อมใช้งานถัดไป  คุณสามารถเปลี่ยนหมายเลขได้    ถ้ามีการตั้งค่าการกำหนดหมายเลขด้วยตนเอง ฟิลด์นี้จะว่างและคุณต้องป้อนหมายเลขสินทรัพย์ถาวรใหม่     
 6. คลิก ตกลง
 7. คลิก ใช่
-
 

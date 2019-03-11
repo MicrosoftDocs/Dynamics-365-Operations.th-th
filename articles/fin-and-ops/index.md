@@ -1,28 +1,23 @@
 ---
-title: "เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations"
-description: "เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations"
+# required metadata
+title: เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
+description: เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
@@ -31,7 +26,7 @@ ms.lasthandoff: 08/09/2018
 
 เรียนรู้วิธีการทำให้ Microsoft Dynamics 365 for Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลด้านล่างเพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
 
-เนื้อหานี้ส่วนใหญ่ยังนำไปใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Microsoft Dynamics 365 for Retail และ Microsoft Dynamics 365 for Talent 
+เนื้อหาส่วนมากนี้ยังนำมาใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Microsoft Dynamics 365 for Retail และ Microsoft Dynamics 365 for Talent 
 
 <table>
 <colgroup>
@@ -107,7 +102,7 @@ ms.lasthandoff: 08/09/2018
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">การปรับใช้ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">การปรับใช้ในองค์กร</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัพเกรด</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัปเกรด</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">กรอบงานการจัดการข้อมูล</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
@@ -118,7 +113,7 @@ ms.lasthandoff: 08/09/2018
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">ศูนย์บริการ</p>
 <p><a href="../retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</p>
-<p><a href="../retail/retail-peripherals-overview.md">MPOS และ Cloud POS</p>
+<p><a href="../retail/retail-peripherals-overview.md">MPOS และ POS ระบบคลาวด์</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Retail</p>
 
 <h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
@@ -131,4 +126,3 @@ ms.lasthandoff: 08/09/2018
 
 </tbody>
 </table>
-

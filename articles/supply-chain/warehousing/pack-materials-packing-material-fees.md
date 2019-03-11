@@ -1,13 +1,13 @@
 ---
-title: "วัสดุและค่าธรรมเนียมบรรจุภัณฑ์"
-description: "จะมีการชำระค่าธรรมเนียมบรรจุภัณฑ์ให้กับบริษัทรีไซเคิลในช่วงเวลาหนึ่งๆ  ชำระเงินต่อหน่วยของน้ำหนักสำหรับวัสดุแต่ละรายการอยู่ในหน่วยบรรจุ จะมีการคำนวณและรายงานค่าธรรมเนียมบรรจุภัณฑ์ แต่ไม่มีการลงรายการบัญชีธุรกรรมบัญชีแยกประเภท เนื่องจากค่าธรรมเนียมนี้ไม่ถือเป็นภาษีที่ต้องชำระให้แก่หน่วยงานจัดเก็บภาษี"
+title: วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
+description: จะมีการชำระค่าธรรมเนียมบรรจุภัณฑ์ให้กับบริษัทรีไซเคิลในช่วงเวลาหนึ่งๆ  ชำระเงินต่อหน่วยของน้ำหนักสำหรับวัสดุแต่ละรายการอยู่ในหน่วยบรรจุ จะมีการคำนวณและรายงานค่าธรรมเนียมบรรจุภัณฑ์ แต่ไม่มีการลงรายการบัญชีธุรกรรมบัญชีแยกประเภท เนื่องจากค่าธรรมเนียมนี้ไม่ถือเป็นภาษีที่ต้องชำระให้แก่หน่วยงานจัดเก็บภาษี
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312312"
 ---
-
 # <a name="packing-materials-and-fees"></a>วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>การพิมพ์น้ำหนักบรรจุภัณฑ์บนใบแจ้งหนี้
 คุณสามารถพิมพ์น้ำหนักบรรจุภัณฑ์บนใบแจ้งหนี้ และระบุว่าใครคือผู้ชำระค่าธรรมเนียมบรรจุภัณฑ์ จะมีการสรุปน้ำหนักโดยรหัสบรรจุภัณฑ์
-
 
 
 

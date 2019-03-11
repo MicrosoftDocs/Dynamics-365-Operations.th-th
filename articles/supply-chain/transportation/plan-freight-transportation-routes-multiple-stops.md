@@ -1,13 +1,13 @@
 ---
-title: "วางแผนเส้นทางสำหรับการขนส่งค่าขนส่งที่มีจุดหยุดหลายแห่ง"
-description: "บทความนี้อธิบายถึงองค์ประกอบต่าง ๆ ที่คุณใช้ในการวางแผนเส้นทางการขนส่งใน Dynamics 365 for Finance and Operations"
+title: วางแผนเส้นทางสำหรับการขนส่งค่าขนส่งที่มีจุดหยุดหลายแห่ง
+description: บทความนี้อธิบายองค์ประกอบต่างๆ ที่คุณใช้วางแผนเส้นทางการเดินทางใน Dynamics 365 for Finance and Operations
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328320"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>วางแผนเส้นทางสำหรับการขนส่งค่าขนส่งที่มีจุดหยุดหลายแห่ง
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายถึงองค์ประกอบต่างๆ ที่คุณใช้ในการวางแผนเส้นทางการขนส่งใน Microsoft Dynamics 365 for Finance and Operations
+บทความนี้อธิบายองค์ประกอบต่างๆ ที่คุณใช้วางแผนเส้นทางการเดินทางใน Microsoft Dynamics 365 for Finance and Operations
 
 คุณสามารถใช้แผนการกระบวนการผลิตและคู่มือกระบวนการผลิตสำหรับเส้นทางการขนส่งที่ซับซ้อนที่มีจุดหยุดหลายแห่ง ถ้าเส้นทางเดียวกันจะถูกนำมาใช้เป็นประจำ คุณสามารถตั้งค่ากระบวนการผลิตที่จัดกำหนดการ
 
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="load-building-workbench"></a>เวิร์กเบนช์การสร้างการบรรทุก
 เวิร์กเบนช์การสร้างการบรรทุกใช้ที่อยู่ของลูกค้าและวันจัดส่งจากใบสั่งขาย และกระบวนการผลิตที่จัดกำหนดการที่พร้อมใช้งานในการเสนอการบรรทุก โดยค่าเริ่มต้น ค่าจากกระบวนการผลิตจะถูกป้อนในเวิร์กเบนช์ อย่างไรก็ตาม คุณสามารถเลือก "จาก" วันที่ที่อยู่ก่อนหน้า "จาก" วันที่ในกระบวนการผลิต เมื่อมีการเสนอการบรรทุก ที่อยู่ที่จัดส่งและวันที่จัดส่งของใบสั่งขายที่เปิดอยู่ทั้งหมดจะถูกตรวจสอบ ถ้ารหัสไปรษณีย์ของที่อยู่ที่จัดส่งตรงกับรหัสไปรษณีย์ของฮับในแผนการกระบวนการผลิต และถ้าวันที่จัดส่งอยู่ภายในช่วงที่เลือกในเกณฑ์ ใบสั่งขายจะถูกเสนอสำหรับการบรรทุก นอกจากนี้ยังพิจารณากำลังของเท็มเพลตการบรรทุกอีกด้วย มีการเสนอการบรรทุกเพียงครั้งเดียวเท่านั้นในแต่ละครั้ง ถ้าคุณมีใบสั่งขายที่ไม่ได้รวมอยู่ด้วย คุณอาจจำเป็นต้องใช้เท็มเพลตการบรรทุกอื่น (ตัวอย่างเช่น เท็มเพลตการบรรทุกสำหรับรถบรรทุกหรือคอนเทนเนอร์ที่มีขนาดใหญ่ขึ้น) หรือวางแผนการจัดส่งพิเศษ
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้"
-description: "คู่มือนี้จะช่วยคุณตั้งค่าข้อกำหนดรอบระยะเวลาอายุหนี้ ยอดดุลลูกค้าตามอายุหนี้ และดูยอดดุลในรายการยอดดุลตามอายุหนี้และหน้าการเรียกเก็บเงิน "
+---
+title: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
+description: 'คู่มือนี้จะช่วยคุณตั้งค่าข้อกำหนดรอบระยะเวลาอายุหนี้ ยอดดุลลูกค้าตามอายุหนี้ และดูยอดดุลในรายการยอดดุลตามอายุหนี้และหน้าการเรียกเก็บเงิน '
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fd8738cfd3466464c9fec1760e9a369ff3a4a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334645"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 09/29/2017
 2. เลือกลูกค้าที่มียอดดุล
 3. ขยายพื้นที่กล่องแสดงข้อมูลย่ออายุหนี้เพื่อดูยอดดุลตามอายุหนี้
     * การกำหนดรอบระยะเวลาอายุหนี้สำหรับกล่องแสดงข้อมูลย่อจะนำมาจากค่าเริ่มต้นของข้อกำหนดรอบระยะเวลาอายุหนี้ที่ระบุในพารามิเตอร์  คุณสามารถเปลี่ยนโดยใช้เมนูการรวบรวม  
-
 

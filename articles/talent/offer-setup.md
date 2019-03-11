@@ -1,34 +1,34 @@
 ---
-title: "ตั้งค่าการจัดการข้อเสนอ"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าข้อเสนอใน Talent"
+title: ตั้งค่าการจัดการข้อเสนอ
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าข้อเสนอใน Talent
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: th-th
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376518"
 ---
 # <a name="set-up-offer-management"></a>ตั้งค่าการจัดการข้อเสนอ 
 
 [!include [banner](includes/banner.md)]
 
-เมื่อผู้สมัครถูกย้ายไปยังระยะข้อเสนอใน Dynamics 365 for Talent: Attract คุณจำเป็นต้องแน่ใจว่า ข้อเสนอสามารถถูกสร้างได้อย่างรวดเร็วสำหรับผู้สมัคร ได้รับอนุมัติตามความจำเป็น และถูกส่งไปที่ผู้สมัคร เนื่องจากข้อเสนอส่วนใหญ่เป็นมาตรฐาน สามารถสร้างรายการเหล่านั้นได้จากเท็มเพลตที่สามารถนำกลับมาใช้ใหม่ ใน Attract ข้อเสนอทั้งหมดถูกย้อนไปยังแพคเกจข้อเสนอ ซึ่งเป็นชุดของเอกสารข้อเสนออย่างน้อยหนึ่งรายการ 
+เมื่อผู้สมัครถูกย้ายไปยังลำดับขั้นข้อเสนอใน Dynamics 365 for Talent: Attract คุณต้องแน่ใจว่าข้อเสนอสามารถถูกสร้างได้อย่างรวดเร็วสำหรับผู้สมัคร ได้รับอนุมัติตามความจำเป็น และถูกส่งออกไปยังผู้สมัคร เนื่องจากข้อเสนอส่วนใหญ่เป็นมาตรฐาน สามารถสร้างรายการเหล่านั้นได้จากเท็มเพลตที่สามารถนำกลับมาใช้ใหม่ ใน Attract ข้อเสนอทั้งหมดถูกย้อนไปยังแพคเกจข้อเสนอ ซึ่งเป็นชุดของเอกสารข้อเสนออย่างน้อยหนึ่งรายการ 
 
 หัวข้อนี้แสดงรายการขั้นตอนทั้งหมดที่ผู้ดูแลระบบ Attract จะปฏิบัติตาม เพื่อตั้งค่าเท็มเพลตแพคเกจข้อเสนอต่างๆ เป็นส่วนหนึ่งของความสามารถในการจัดการข้อเสนอใน Attract ผู้ใช้ที่มีบทบาทที่ไม่ใช่ผู้ดูแลระบบจะไม่สามารถเข้าถึงความสามารถเหล่านี้ได้
 
@@ -203,5 +203,7 @@ ms.lasthandoff: 12/07/2018
 
     - ESign - นี่เป็นตัวเลือกเริ่มต้น ที่ให้แบบสำเร็จรูป ที่ซึ่งผู้ใช้สามารถลงชื่อข้อเสนอได้โดยการพิมพ์ชื่อและคำนำหน้าชื่อของพวกเขา
 
-เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการสร้างข้อเสนอ ดู [การสร้าง การอนุมัติ และการรับรองข้อเสนอ](./creating-offers.md)
+>[!NOTE]
+> สำหรับสิทธิ์การใช้งาน Adobe Sign และการทดลองใช้งานฟรี โปรดเยี่ยมชม [ลิงค์](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html) นี้
 
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการสร้างข้อเสนอ ดู [การสร้าง การอนุมัติ และการรับรองข้อเสนอ](./creating-offers.md)

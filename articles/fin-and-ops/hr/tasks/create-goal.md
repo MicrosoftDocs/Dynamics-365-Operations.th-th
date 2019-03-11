@@ -1,13 +1,13 @@
---- 
-title: "สร้างเป้าหมาย"
-description: "คุณสามารถสร้างเป้าหมาย เพิ่มกิจกรรมให้กับเป้าหมาย ติดตามการวัด และเชื่อมโยงเป้าหมายกับการตรวจทาน "
+---
+title: สร้างเป้าหมาย
+description: 'คุณสามารถสร้างเป้าหมาย เพิ่มกิจกรรมให้กับเป้าหมาย ติดตามการวัด และเชื่อมโยงเป้าหมายกับการตรวจทาน '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: th-th
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350722"
 ---
 # <a name="create-a-goal"></a>สร้างเป้าหมาย
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-คุณสามารถสร้างเป้าหมาย เพิ่มกิจกรรมให้กับเป้าหมาย ติดตามการวัด และเชื่อมโยงเป้าหมายกับการตรวจทาน  กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF  ขั้นตอนนี้ใช้สำหรับคุณลักษณะที่ถูกเพิ่มเข้ามาใน Dynamics 365 for Operations version 1611
+คุณสามารถสร้างเป้าหมาย เพิ่มกิจกรรมให้กับเป้าหมาย ติดตามการวัด และเชื่อมโยงเป้าหมายกับการตรวจทาน  กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF  กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มใน Dynamics 365 for Operations รุ่น 1611
 
 1. ไปที่ พื้นที่ทำงานทั้งหมด > ระบบลูกค้าบริการตนเอง
 2. คลิก ดูเป้าหมายทั้งหมด
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/13/2018
     * มักมีเป้าหมายที่เหมือนกันหรือคล้ายกันสำหรับสมาชิกทีมหรือพนักงานทั้งหมด      ผู้ดูแลระบบ HR หรือผู้จัดการของคุณสามารถสร้างเท็มเพลตเป้าหมายสำหรับเป้าหมายเหล่านั้น  คุณสามารถเพิ่มเป้าหมายจากเท็มเพลต แล้วปรับเปลี่ยนให้ตรงกับกำหนดเวลาของคุณ  
     * มักมีหลายเป้าหมายที่เหมือนกันหรือคล้ายกันสำหรับสมาชิกทีมหรือพนักงานทั้งหมด      ผู้ดูแลระบบ HR หรือผู้จัดการของคุณสามารถสร้างกลุ่มเป้าหมายที่มีเท็มเพลตเป้าหมายอย่างน้อยหนึ่งรายการ  คุณสามารถเพิ่มเป้าหมายจากกลุ่มเป้าหมาย แล้วปรับเปลี่ยนให้ตรงกับกำหนดเวลาของคุณ  
     * เมื่อคุณสร้างการตรวจทาน คุณสามารถเพิ่มเป้าหมายให้กับการตรวจทานนั้น  อ้างอิงคู่มืองานสำหรับการตรวจทานเพื่อดูวิธีการเพิ่มเป้าหมายให้กับการตรวจทานของคุณ  
-
 

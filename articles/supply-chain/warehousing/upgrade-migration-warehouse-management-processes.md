@@ -1,13 +1,13 @@
 ---
-title: "อัพเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations"
-description: "หัวข้อนี้แสดงภาพรวมของตัวเลือกการย้ายการจัดการผลิตภัณฑ์และคลังสินค้า"
+title: อัปเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็น Finance and Operations
+description: หัวข้อนี้แสดงภาพรวมของตัวเลือกการย้ายการจัดการผลิตภัณฑ์และคลังสินค้า
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324479"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>อัพเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>อัปเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็น Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของกระบวนการในการอัพเกรดจาก Microsoft Dynamics AX 2012 R3 ซึ่งรันโมดูล WMSII เป็น Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้แสดงภาพรวมของกระบวนการปรับรุ่นจาก Microsoft DynamicsAX 2012 R3 ซึ่งรันโมดูล WMSII เป็น Microsoft Dynamics 365 for Finance and Operations
 
-การเงินและการดำเนินงาน ไม่สนับสนุนโมดูล **WMSII** แบบดั้งเดิมจาก Microsoft Dynamics AX 2012 อีกต่อไป คุณสามารถใช้โมดูล **การบริหารคลังสินค้า** แทนได้ ในโมดูล WMSII ไม่สามารถเลือกมิติสินค้าคงคลังของสถานที่เก็บและรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินได้ อย่างไรก็ตาม ไม่สามารถใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินใน Finance and Operations ได้
+Finance and Operations ไม่สนับสนุนโมดูล **WMSII** แบบดั้งเดิมจาก Microsoft Dynamics AX 2012 อีกต่อไป คุณสามารถใช้โมดูล **การบริหารคลังสินค้า** แทนได้ ในโมดูล WMSII ไม่สามารถเลือกมิติสินค้าคงคลังของสถานที่เก็บและรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินได้ อย่างไรก็ตาม ไม่สามารถใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินใน Finance and Operations ได้
 
 ในระหว่างการอัพเกรด ผลิตภัณฑ์ทั้งหมดที่เชื่อมโยงกับกลุ่มมิติการจัดเก็บที่ใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าจะถูกระบุ ซึ่งถูกทำเครื่องหมายเป็นถูกบล็อค และไม่ถูกประมวลผลสำหรับการอัพเกรด
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>การอัพเกรดเป็นทางการเงินและการดำเนินงาน เมื่อมีการใช้ AX 2012 R3 WMSII
+## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>การอัพเกรดเป็น Finance and Operations เมื่อมีการใช้ AX 2012 R3 WMSII
 หลังจากการอัพเกรด คุณสามารถใช้ชุดของตัวเลือกในแบบฟอร์ม **เปลี่ยนกลุ่มมิติการจัดเก็บสำหรับสินค้า** เพื่อยกเลิกการบล็อคผลิตภัณฑ์ที่ถูกบล็อกในระหว่างการอัพเกรดได้ และจากนั้นดำเนินการธุรกรรมสำหรับผลิตภัณฑ์เหล่านั้น
 
 ### <a name="enabling-items-in-finance-and-operations"></a>การเปิดใช้งานสินค้าในการเงินและการดำเนินงาน
@@ -84,4 +83,3 @@ ms.lasthandoff: 05/08/2018
 6.  ในหน้า **เปลี่ยนกลุ่มมิติการจัดเก็บสำหรับสินค้า** เพิ่มหมายเลขสินค้า กลุ่มมิติการจัดเก็บ และกลุ่มลำดับหน่วย คุณสามารถทำขั้นตอนนี้ให้เสร็จสมบูรณ์ได้โดยตรงในหน้า โดยใช้การรวม Microsoft Office หรือโดยใช้กระบวนการเอนทิตี้ข้อมูลใน [การจัดการข้อมูล](../../dev-itpro/data-entities/data-entities.md)
 7.  ตรวจสอบความถูกต้องของการเปลี่ยนแปลง ในฐานะที่เป็นส่วนหนึ่งของกระบวนการตรวจสอบ การตรวจสอบความถูกต้องต่าง ๆของข้อมูลเกิดขึ้น ในฐานะที่เป็นส่วนหนึ่งของกระบวนการอัพเกรดที่ใหญ่ขึ้น ปัญหาที่เกิดขึ้นอาจต้องถูกปรับปรุงในการใช้งานต้นทาง ในกรณีนี้ การอัพเกรดข้อมูลเพิ่มเติมจะจำเป็น
 8.  ประมวลผลการเปลี่ยนแปลง การอัพเดตของมิติสินค้าคงคลังทั้งหมดอาจใช้เวลาชั่วขณะ คุณสามารถติดตามความคืบหน้าได้ โดยใช้งานชุดงาน
-

@@ -1,32 +1,31 @@
 ---
-title: "การเติมสินค้าที่มีคัมบังการเบิกถอน"
-description: "หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต"
+title: การเติมสินค้าที่มีคัมบังการเบิกถอน
+description: หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320937"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>การเติมสินค้าที่มีคัมบังการเบิกถอน
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ ms.lasthandoff: 11/03/2017
 6.  กระบวนการผลิต
 
 หลังจากมีการใช้คัมบังที่สถานที่ตั้งอินพุทการผลิต คัมบังจะถูกรายงานเป็นว่างเปล่า และมีการเพิ่มคัมบังใหม่ลงในขั้นตอน เมื่อมีการสร้างคัมบัง รายการเวฟถูกเพิ่มไปยังเวฟคัมบัง เมื่อมีการประมวลผลเวฟคัมบัง มีการสร้างงานของคลังสินค้าสำหรับการเบิกสินค้าคัมบัง ผู้ปฏิบัติงานคลังสินค้าประมวลผลงานสำหรับการเบิกสินค้าคัมบัง และถูกนำทางโดยงานเพื่อเบิกวัสดุสำหรับคัมบังในสถานที่ตั้งคลังสินค้า เนื่องจากผู้ปฏิบัติงานคลังสินค้านี้ยืนยันการเบิกของ คัมบังจะเสร็จสมบูรณ์โดยอัตโนมัติ และมีการแนะนำผู้ปฏิบัติงานคลังสินค้าให้วางวัสดุในสถานที่ตั้งอินพุทการผลิต
-
 

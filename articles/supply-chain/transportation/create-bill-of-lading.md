@@ -1,13 +1,13 @@
 ---
-title: "สร้างใบตราส่ง"
-description: "หัวข้อนี้อธิบายวิธีการสร้างใบตราส่งเมื่อใช้กระบวนการจัดการคลังสินค้า"
+title: สร้างใบตราส่ง
+description: หัวข้อนี้อธิบายวิธีการสร้างใบตราส่งเมื่อใช้กระบวนการจัดการคลังสินค้า
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8d5caed5553ad1c7aec5db83591024129aab1264
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ab5aa60198e442237fd85bb295589ae0ebe9c5f5
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352608"
 ---
-
 # <a name="create-a-bill-of-lading"></a>สร้างใบตราส่ง
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="master-bill-of-lading"></a>ใบตราส่งหลัก
 ถ้าการจัดส่งมากกว่าหนึ่งรายการในการบรรทุก คุณสามารถสร้างใบตราส่งหลักได้ ซึ่งมีโครงร่างและข้อมูลเช่นเดียวกับใบตราส่ง แต่ประกอบด้วยเนื้อหาสรุปสำหรับการจัดส่งทั้งหมด ถ้าตัวเลือก **สร้างใบตราส่งหลักเมื่อมีการจัดส่งมากกว่าหนึ่งรายการในการบรรทุก** เป็น **ใช่** ในหน้า **พารามิเตอร์การจัดการขนส่ง** ใบตราส่งหลักจะสร้างขึ้นโดยอัตโนมัติถ้าคุณสร้างใบตราส่งจาก **เวิร์กเบนช์การวางแผนการบรรทุก**และมีการจัดส่งมากกว่าหนึ่งรายการ นอกจากนี้คุณยังสามารถดูรายการของใบตราส่งได้โดยคลิกที่ **ข้อมูลที่เกี่ยวข้อง** &gt; **ใบตราส่ง** ถ้าคุณกำลังสร้างใบตราส่งด้วยตนเอง คุณสามารถสร้างใบตราส่งหลักได้ที่หน้า **ใบตราส่ง**
-
 
 
 

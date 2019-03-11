@@ -1,13 +1,13 @@
 ---
-title: "ค่าเฉลี่ยเคลื่อนที่"
-description: "ค่าเฉลี่ยเคลื่อนที่เป็นวิธีการคิดต้นทุนแบบไม่จำกัดเวลาที่ยึดตามหลักการถัวเฉลี่ย ที่ต้นทุนสำหรับการตัดสินค้าจากคลังของสินค้าคงคลังไม่เปลี่ยน เมื่อต้นทุนการซื้อเปลี่ยน ผลต่างถูกบันทึก และจะขึ้นอยู่กับการคำนวณตามสัดส่วน จำนวนที่คงเหลือถูกใช้"
+title: ค่าเฉลี่ยเคลื่อนที่
+description: ค่าเฉลี่ยเคลื่อนที่เป็นวิธีการคิดต้นทุนแบบไม่จำกัดเวลาที่ยึดตามหลักการถัวเฉลี่ย ที่ต้นทุนสำหรับการตัดสินค้าจากคลังของสินค้าคงคลังไม่เปลี่ยน เมื่อต้นทุนการซื้อเปลี่ยน ผลต่างถูกบันทึก และจะขึ้นอยู่กับการคำนวณตามสัดส่วน จำนวนที่คงเหลือถูกใช้
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348077"
 ---
-
 # <a name="moving-average"></a>ค่าเฉลี่ยเคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ ms.lasthandoff: 11/03/2017
 | 8 ตุลาคม        | 8 ตุลาคม    | การประเมินค่าใหม่ค่าเฉลี่ยเคลื่อนที่ |          | 4.00   | 16.00             |
 |                  | 31 ตุลาคม   | ผลรวม                      | 2        | 32.00  | 16.00             |
 
- **หมายเหตุ:** คุณไม่สามารถกระทบยอดบัญชีแยกประเภททั่วไปกับสินค้าคงคลังโดยการใช้ตัวเลือก **การเรียงลำดับเวลาธุรกรรม** ได้ รายงานต้องถูกพิมพ์โดยการใช้ตัวเลือก **วันที่ลงรายการบัญชี**
-
+ **หมายเหตุ:** คุณไม่สามารถกระทบยอดบัญชีแยกประเภททั่วไปกับสินค้าคงคลังโดยการใช้ตัวเลือก **การเรียงลำดับเวลาธุรกรรม** ได้ รายงานต้องถูกพิมพ์โดยการใช้ตัวเลือก **วันที่ลงรายการบัญชี**
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่ากฎเพื่อแจ้งเตือนพนักงานฝ่ายบริการลูกค้าถึงข้อมูลการฉ้อโกงที่อาจเป็นไปได้เมื่อมีการดำเนินการกับใบสั่ง  คุณสามารถกำหนดรหัสเฉพาะที่ถูกใช้ระงับใบสั่งที่น่าสงสัยโดยอัตโนมัติหรือด้วยตนเอง"
+title: ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ
+description: หัวข้อนี้อธิบายวิธีการตั้งค่ากฎเพื่อแจ้งเตือนพนักงานฝ่ายบริการลูกค้าถึงข้อมูลการฉ้อโกงที่อาจเป็นไปได้เมื่อมีการดำเนินการกับใบสั่ง  คุณสามารถกำหนดรหัสเฉพาะที่ถูกใช้ระงับใบสั่งที่น่าสงสัยโดยอัตโนมัติหรือด้วยตนเอง
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361509"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ ms.lasthandoff: 01/04/2019
 เมื่อต้องการดูและจัดการใบสั่งที่ถูกระงับเพื่อการตรวจทานการฉ้อโกง ไปที่ **การขายปลีก** \> **ลูกค้า** \> **การระงับใบสั่ง** ในหน้า **การระงับใบสั่ง** เลือกการป้อนข้อมูลในรายการ และจากนั้น คลิก **การระงับใบสั่ง** เพื่อดูมุมมองโดยละเอียดเพิ่มเติมที่มีข้อมูลเกี่ยวกับเหตุผลสำหรับการระงับ บน FastTab **รายละเอียดการฉ้อโกง** คุณสามารถดูเกณฑ์การฉ้อโกงเป็นระบบที่ถูกพบซึ่งจะตรงกับใบสั่งและคะแนนที่นำไปใช้ ถ้าใบสั่งถูกระงับด้วยตนเอง คุณสามารถทบทวนข้อคิดเห็นใดๆ ที่ป้อนโดยผู้ใช้ที่ระงับใบสั่ง โดยดูที่ส่วน **หมายเหตุการฉ้อโกง** บน FastTab **หมายเหตุ** ได้
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการทำงานกับใบสั่งที่ระงับ โปรดดูที่ [การระงับใบสั่ง](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)
-

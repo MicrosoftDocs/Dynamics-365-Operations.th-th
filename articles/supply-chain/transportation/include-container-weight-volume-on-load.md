@@ -1,13 +1,13 @@
 ---
-title: "รวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้า"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าและใช้ฟังก์ชันในการรวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้า"
+title: รวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้า
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าและใช้ฟังก์ชันในการรวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้า
 author: pjacobse
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: adbaa379889d373d597b2f6882b78f82bd71ae57
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4190b5cb05cccc3d762d8ad153ecbd467fa0a332
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356610"
 ---
-
 # <a name="include-container-weight-and-volume-on-load"></a>รวมน้ำหนักตู้บรรจุสินค้าและปริมาตรของสินค้า
 
 [!include [banner](../includes/banner.md)]
@@ -46,4 +45,3 @@ ms.lasthandoff: 11/03/2017
 -   เมื่อต้องการกำหนดน้ำหนักและปริมาตรสำหรับตู้บรรจุสินค้า ให้คลิก **การจัดการคลังสินค้า** \> **การตั้งค่า** \> **ตู้บรรจุสินค้า** \> **ชนิดของตู้บรรจุสินค้า**
 
 -   เมื่อต้องการตั้งค่าเปอร์เซ็นต์การใช้ประโยชน์ของตู้บรรจุสินค้า คลิก **การจัดการคลังสินค้า** \> **การตั้งค่า** \> **ตู้บรรจุสินค้า** \> **กลุ่มตู้บรรจุสินค้า** แล้วป้อนค่าในฟิลด์ **เปอร์เซ็นต์การใช้ประโยชน์ของตู้บรรจุสินค้า**
-

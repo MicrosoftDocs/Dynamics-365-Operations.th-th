@@ -1,13 +1,13 @@
 ---
-title: "เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS"
-description: "หัวข้อนี้อธิบายวิธีการเพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ขายหน้าร้าน (POS) ที่ใช้ตัวออกแบบโครงร่างหน้าจอใน Microsoft Dynamics 365 for Retail"
+title: เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS
+description: หัวข้อนี้อธิบายวิธีการเพิ่มการควบคุมคำแนะนำไปยังหน้าจอธุรกรรมบนอุปกรณ์ point of sale (POS) โดยใช้ตัวออกแบบโครงร่างหน้าจอใน Microsoft Dynamics 365 for Retail
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320454"
 ---
-
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS
 
 [!include [banner](includes/banner.md)]
@@ -34,9 +33,9 @@ ms.lasthandoff: 01/04/2019
 > [!NOTE]
 > เราจะลบเวอร์ชันปัจจุบันของบริการแนะนำผลิตภัณฑ์ เนื่องจากเราได้ออกแบบคุณลักษณะนี้ใหม่พร้อมกับอัลกอริทึมที่ดีขึ้นและความสามารถที่เกี่ยวข้องกับการขายปลีกที่ใหม่กว่า สำหรับข้อมูลเพิ่มเติม ให้ดู [ลบหรือเลิกใช้คุณลักษณะ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)
 
-หัวข้อนี้อธิบายวิธีการเพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ขายหน้าร้าน (POS) ที่ใช้ตัวออกแบบโครงร่างหน้าจอใน Microsoft Dynamics 365 for Retail
+หัวข้อนี้อธิบายวิธีการเพิ่มการควบคุมคำแนะนำไปยังหน้าจอธุรกรรมบนอุปกรณ์ point of sale (POS) โดยใช้ตัวออกแบบโครงร่างหน้าจอใน Microsoft Dynamics 365 for Retail
 
-คุณสามารถแสดงคำแนะนำผลิตภัณฑ์บนอุปกรณ์ POS ของคุณเมื่อคุณใช้ Microsoft Dynamics 365 for Retail *รายการแนะนำ* คือสินค้าที่ลูกค้าของคุณอาจสนใจโดยยึดตามของประวัติการซื้อของพวกเขา สินค้าในรายการสิ่งที่ต้องการของพวกเขา และสินค้าที่ลูกค้ารายอื่นซื้อแบบออนไลน์และในร้านค้าจริง เมื่อต้องการแสดงคำแนะนำผลิตภัณฑ์ คุณต้องเพิ่มตัวควบคุมไปยังหน้าจอธุรกรรมโดยใช้ตัวออกแบบโครงร่างหน้าจอ
+คุณสามารถแสดงคำแนะนำผลิตภัณฑ์บนอุปกรณ์ POS ของคุณได้ เมื่อคุณใช้ Microsoft Dynamics 365 for Retail *รายการแนะนำ* คือสินค้าที่ลูกค้าของคุณอาจสนใจโดยยึดตามของประวัติการซื้อของพวกเขา สินค้าในรายการสิ่งที่ต้องการของพวกเขา และสินค้าที่ลูกค้ารายอื่นซื้อแบบออนไลน์และในร้านค้าจริง เมื่อต้องการแสดงคำแนะนำผลิตภัณฑ์ คุณต้องเพิ่มตัวควบคุมไปยังหน้าจอธุรกรรมโดยใช้ตัวออกแบบโครงร่างหน้าจอ
 
 ## <a name="open-layout-designer"></a>เปิดตัวออกแบบโครงร่าง
 
@@ -67,7 +66,7 @@ ms.lasthandoff: 01/04/2019
     [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. คลิก **X** เพื่อบันทึกและออกจากตัวออกแบบโครงร่าง
-4. ใน Dynamics 365 for Retail ไปที่ **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
+4. ใน Dynamics 365 for Retail ไปยัง **Retail** &gt; **Retail IT** &gt; **กำหนดการการกระจาย**
 5. ในรายการ เลือก  **1090 เครื่องบันทึกเงินสด**
 6. คลิก **รันทันที**
 
@@ -88,11 +87,10 @@ ms.lasthandoff: 01/04/2019
 7. ในฟิลด์ **รูปภาพ** ให้เลือกรูปภาพที่จะให้ปรากฏบนแท็บ
 8. คลิก **ตกลง** แท็บใหม่จะปรากฏในกริดปุ่ม
 9. คลิก **X** เพื่อบันทึกและออกจากตัวออกแบบโครงร่าง
-10. ใน Dynamics 365 for Retail ไปที่ **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
+10. ใน Dynamics 365 for Retail ไปยัง **Retail** &gt; **Retail IT** &gt; **กำหนดการการกระจาย**
 11. ในรายการ เลือก **1090 เครื่องบันทึกเงินสด**
 12. คลิก **รันทันที**
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมคำแนะนำผลิตภัณฑ์แบบส่วนบุคคล](personalized-product-recommendations.md)
-

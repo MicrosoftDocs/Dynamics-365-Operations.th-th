@@ -1,13 +1,13 @@
 ---
-title: "การแก้ไขปัญหาการนำเข้าไฟล์ใบแจ้งยอดจากธนาคาร"
-description: "ไฟล์ใบแจ้งยอดจากธนาคารจำเป็นต้องตรงกับโครงร่างที่ Microsoft Dynamics 365 for Finance and Operations รองรับ เนื่องด้วยมาตรฐานที่เข้มงวดของใบแจ้งยอดจากธนาคาร การรวมส่วนใหญ่จะทำงานอย่างถูกต้อง อย่างไรก็ตาม บางครั้งไม่สามารถนำเข้าไฟล์ใบแจ้งยอดได้ หรือมีผลลัพธ์ที่ไม่ถูกต้อง โดยทั่วไป ปัญหาเหล่านี้มีสาเหตุมาจากความแตกต่างเล็ก ๆ น้อย ๆ ในไฟล์ใบแจ้งยอดจากธนาคาร บทความนี้อธิบายวิธีการแก้ไขความแตกต่างเหล่านี้ และวิธีการแก้ไขปัญหา"
+title: การแก้ไขปัญหาการนำเข้าไฟล์ใบแจ้งยอดจากธนาคาร
+description: เป็นสิ่งสำคัญที่ไฟล์ใบแจ้งยอดของธนาคารจากธนาคารตรงกับเค้าโครงที่ Microsoft Dynamics 365 for Finance and Operations สนับสนุน เนื่องด้วยมาตรฐานที่เข้มงวดของใบแจ้งยอดจากธนาคาร การรวมส่วนใหญ่จะทำงานอย่างถูกต้อง อย่างไรก็ตาม บางครั้งไม่สามารถนำเข้าไฟล์ใบแจ้งยอดได้ หรือมีผลลัพธ์ที่ไม่ถูกต้อง โดยทั่วไป ปัญหาเหล่านี้มีสาเหตุมาจากความแตกต่างเล็ก ๆ น้อย ๆ ในไฟล์ใบแจ้งยอดจากธนาคาร บทความนี้อธิบายวิธีการแก้ไขความแตกต่างเหล่านี้ และวิธีการแก้ไขปัญหา
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a4006bf35673e3bb61bcf11619ecc68d295f29eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324456"
 ---
-
 # <a name="bank-statement-file-import-troubleshooting"></a>การแก้ไขปัญหาการนำเข้าไฟล์ใบแจ้งยอดจากธนาคาร
 
 [!include [banner](../includes/banner.md)]
 
-ไฟล์ใบแจ้งยอดจากธนาคารจำเป็นต้องตรงกับโครงร่างที่ Microsoft Dynamics 365 for Finance and Operations รองรับ เนื่องด้วยมาตรฐานที่เข้มงวดของใบแจ้งยอดจากธนาคาร การรวมส่วนใหญ่จะทำงานอย่างถูกต้อง อย่างไรก็ตาม บางครั้งไม่สามารถนำเข้าไฟล์ใบแจ้งยอดได้ หรือมีผลลัพธ์ที่ไม่ถูกต้อง โดยทั่วไป ปัญหาเหล่านี้มีสาเหตุมาจากความแตกต่างเล็ก ๆ น้อย ๆ ในไฟล์ใบแจ้งยอดจากธนาคาร บทความนี้อธิบายวิธีการแก้ไขความแตกต่างเหล่านี้ และวิธีการแก้ไขปัญหา
+เป็นสิ่งสำคัญที่ไฟล์ใบแจ้งยอดของธนาคารจากธนาคารตรงกับเค้าโครงที่ Microsoft Dynamics 365 for Finance and Operations สนับสนุน เนื่องด้วยมาตรฐานที่เข้มงวดของใบแจ้งยอดจากธนาคาร การรวมส่วนใหญ่จะทำงานอย่างถูกต้อง อย่างไรก็ตาม บางครั้งไม่สามารถนำเข้าไฟล์ใบแจ้งยอดได้ หรือมีผลลัพธ์ที่ไม่ถูกต้อง โดยทั่วไป ปัญหาเหล่านี้มีสาเหตุมาจากความแตกต่างเล็ก ๆ น้อย ๆ ในไฟล์ใบแจ้งยอดจากธนาคาร บทความนี้อธิบายวิธีการแก้ไขความแตกต่างเหล่านี้ และวิธีการแก้ไขปัญหา
 
 <a name="what-is-the-error"></a>อะไรคือข้อผิดพลาด
 ------------------
@@ -76,7 +75,7 @@ ms.lasthandoff: 03/26/2018
 
 ### <a name="format-the-xslt-output"></a>จัดรูปแบบเอาท์พุท XSLT
 
-เมื่อรันการแปลงข้อมูล ระบบจะสร้างไฟล์เอาท์พุทที่คุณสามารถดูใน Visual Studio ได้ ใช้ Ctrl+A, Ctrl+K และ Ctrl+D ในการจัดรูปแบบไฟล์เอาท์พุทอย่างรวดเร็ว
+เมื่อการแปลงรัน จะสร้างไฟล์เอาต์พุตที่คุณสามารถดูได้ใน Visual Studio ใช้ Ctrl+A, Ctrl+K และ Ctrl+D ในการจัดรูปแบบไฟล์เอาท์พุทอย่างรวดเร็ว
 
 ### <a name="adjust-the-transformation"></a>ปรับปรุงการแปลงข้อมูล
 
@@ -99,7 +98,6 @@ ms.lasthandoff: 03/26/2018
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "การปิดบัญชีลูกหนี้"
-description: "หัวข้อต่อไปนี้แสดงรายการหน้าที่สนับสนุนกระบวนการทางธุรกิจการปิดบัญชีลูกหนี้"
+title: การปิดบัญชีลูกหนี้
+description: หัวข้อต่อไปนี้แสดงรายการหน้าที่สนับสนุนกระบวนการทางธุรกิจการปิดบัญชีลูกหนี้
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ce3081127e942efb8a5eef560cfd78eb5ddb88e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8532b778c89c972a833ac9ffe28243f15f01426c
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312795"
 ---
-
 # <a name="close-accounts-receivable"></a>การปิดบัญชีลูกหนี้
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ ms.lasthandoff: 11/03/2017
 | ชื่อหน้า                            | การใช้                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |รายการขายใน EU                         | รายงานการขายในสหภาพยุโรป (EU) ไปยังหน่วยงานจัดเก็บภาษีสำหรับวัตถุประสงค์การรายงานภาษีมูลค่าเพิ่ม (VAT)                                                                                                                           |
-
 
 
 

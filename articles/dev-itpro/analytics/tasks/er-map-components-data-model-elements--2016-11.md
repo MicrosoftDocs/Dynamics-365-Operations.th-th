@@ -1,13 +1,13 @@
---- 
-title: "แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)"
-description: "กระบวนงานต่อไปนี้แสดงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถแม็ปองค์ประกอบแบบจำลองข้อมูลไปยังส่วนประกอบของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้น ซึ่งจะกำหนดรูปแบบเอกสารอิเล็กทรอนิกส์สำหรับโดเมนธุรกิจการชำระเงิน"
+---
+title: แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)
+description: กระบวนงานต่อไปนี้แสดงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถแม็ปองค์ประกอบแบบจำลองข้อมูลไปยังส่วนประกอบของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้น ซึ่งจะกำหนดรูปแบบเอกสารอิเล็กทรอนิกส์สำหรับโดเมนธุรกิจการชำระเงิน
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323559"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)
 
@@ -113,5 +113,4 @@ ms.lasthandoff: 09/14/2018
 ## <a name="restrict-access-to-created-format-from-companies"></a>จำกัดการเข้าถึงรูปแบบที่สร้างขึ้นจากบริษัท
 1. ขยายส่วนรหัสประเทศ/ภูมิภาค ISO
     * การเข้าถึงแต่ละรูปแบบสามารถถูกจำกัด โดยการระบุประเทศ/ภูมิภาคเฉพาะที่ซึ่งมีรูปแบบที่เกี่ยวข้อง เมื่อรายการของประเทศ/ภูมิภาคสำหรับรูปแบบเฉพาะว่างเปล่า รูปแบบนี้จะถูกใช้ในบริษัทใดๆ ก็ได้ เมื่อรหัส ISO ของประเทศ/ภูมิภาคถูกแทรกเข้าไปในรายการของประเทศ/ภูมิภาค รูปแบบดังกล่าวสามารถใช้ในบริษัทที่มีที่อยู่หลักในประเทศ/ภูมิภาคนั้นๆ เท่านั้น  
-
 

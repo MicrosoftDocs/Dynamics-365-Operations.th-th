@@ -1,13 +1,13 @@
 ---
-title: "เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่"
-description: "หัวข้อนี้อธิบายวิธีตั้งค่าและใช้ตัวเลือกการเลือกชุดงานที่เก่าที่สุดจากอุปกรณ์เคลื่อนที่"
+title: เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่
+description: หัวข้อนี้อธิบายวิธีตั้งค่าและใช้ตัวเลือกการเลือกชุดงานที่เก่าที่สุดจากอุปกรณ์เคลื่อนที่
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a592425ed28f591783ec45bdfd61574bb889557
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 929c55559f1eac9681e632572ffee71bf83158de
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320615"
 ---
-
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 11/03/2017
 **เตือน** และ **บังคับ**: รายการของชุดงานที่มีวันหมดอายุที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมชุดงานเมื่อผู้ปฏิบัติงานเลือกชุดงาน ถ้าสถานที่มีการควบคุมป้ายทะเบียน รายการของป้ายทะเบียนที่มีชุดงานที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมป้ายทะเบียน 
 -   **เตือน**: ถ้าผู้ปฏิบัติงานเลือกป้ายทะเบียนหรือชุดงานที่ไม่ได้อยู่ในรายการที่แสดง การควบคุมจะว่างเปล่า และจะมีการแสดงคำเตือนว่าไม่มีชุดงานที่เก่ากว่าที่จะเลือกได้ เมื่อต้องการให้สามารถดำเนินการงานต่อไป ผู้ปฏิบัติงานสามารถเลือกป้ายทะเบียนหรือชุดงานเดิมอีกครั้งได้  
 -   **หน่วยงาน**: ผู้ปฏิบัติงานจะได้รับข้อความว่ามีชุดงานที่เก่ากว่าที่จะเลือกต่อไป
-

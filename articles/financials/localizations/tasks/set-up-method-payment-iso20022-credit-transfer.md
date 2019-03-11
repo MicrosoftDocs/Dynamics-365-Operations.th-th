@@ -1,13 +1,13 @@
---- 
-title: "การตั้งค่าวิธีการชำระเงินสำหรับการโอนย้ายเครดิต ISO20022"
-description: "กระบวนงานนี้แสดงวิธีการตั้งค่าวิธีการชำระเงินของผู้จัดจำหน่ายการโอนย้ายเครดิต ISO20022 หรือชนิดการชำระเงินอื่นๆ โดยใช้การรายงานทางอิเล็กทรอนิกส์ในการสร้างไฟล์ "
+---
+title: การตั้งค่าวิธีการชำระเงินสำหรับการโอนย้ายเครดิต ISO20022
+description: 'กระบวนงานนี้แสดงวิธีการตั้งค่าวิธีการชำระเงินของผู้จัดจำหน่ายการโอนย้ายเครดิต ISO20022 หรือชนิดการชำระเงินอื่นๆ โดยใช้การรายงานทางอิเล็กทรอนิกส์ในการสร้างไฟล์ '
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c9209006074fb9da2c3c2ffaa2af4adecfcc1aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311829"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>การตั้งค่าวิธีการชำระเงินสำหรับการโอนย้ายเครดิต ISO20022
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 การทำงานนี้ถูกสร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต DEMF
 
-นี่คือกระบวนงานที่สามจากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ กระบวนงานนี้ใช้สำหรับลักษณะการทำงานที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
+นี่คือกระบวนงานที่สามจากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611
 
 1. ไปที่บัญชีเจ้าหนี้ > การตั้งค่าการชำระเงิน > วิธีการชำระเงิน
 2. ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด  เช่น กรองข้อมูลขั้นตอนการชำระเงินในฟิลด์ ด้วยค่า 'SEPA CT'
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 9. ในประเภทบัญชี เลือก 'ธนาคาร'
 10. ในฟิลด์บัญชีการชำระเงิน ให้ระบุค่า 'DEMF OPER'
 11. คลิก บันทึก
-
 

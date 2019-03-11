@@ -1,13 +1,13 @@
---- 
-title: "จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร"
-description: "บางครั้งตำแหน่งที่เปิดสามารถให้ผู้ที่เป็นพนักงานในองค์กรของคุณอยู่แล้วสมัครได้ "
+---
+title: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
+description: 'บางครั้งตำแหน่งที่เปิดสามารถให้ผู้ที่เป็นพนักงานในองค์กรของคุณอยู่แล้วสมัครได้ '
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365396"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 08/09/2018
 8. อีกทางเลือกหนึ่งคือ คุณสามารถเลือกรหัสเหตุผล  ตัวอย่าง: Reorganization
 9. คลิก เปลี่ยนตำแหน่ง
     * คุณอาจจะเปลี่ยนค่าตอบแทน ณ เวลานี้ ถ้าคุณไม่ได้กำหนดค่าตอบแทน ณ เวลานี้ คุณยังสามารถเปลี่ยนค่าได้ โดยไปที่แบบฟอร์มผู้ปฏิบัติงาน เลือกแท็บค่าตอบแทน และเลือก 'แผนคงที่'  หลังจากที่คุณเลือก 'เปลี่ยนตำแหน่ง' สถานะในใบสมัครจะถูกอัพเดตเป็น 'จ้างแล้ว'  
-
 

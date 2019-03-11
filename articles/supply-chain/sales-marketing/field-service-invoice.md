@@ -1,37 +1,36 @@
 ---
-title: "ซิงโครไนส์ใบแจ้งหนี้ข้อตกลงใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Finance and Operations"
-description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบแจ้งหนี้ข้อตกลงใน Microsoft Dynamics 365 for Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Microsoft Dynamics 365 for Finance and Operations"
+title: ซิงโครไนส์ใบแจ้งหนี้ข้อตกลงใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Microsoft Dynamics 365 for Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Microsoft Dynamics 365 for Finance and Operations ตรงกัน
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333265"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>ซิงโครไนส์ใบแจ้งหนี้ข้อตกลงใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบแจ้งหนี้ข้อตกลงใน Microsoft Dynamics 365 for Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Microsoft Dynamics 365 for Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Microsoft Dynamics 365 for Finance and Operations ตรงกัน
 
 ## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
@@ -59,7 +58,7 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 
-ใบแจ้งหนี้ที่สร้างขึ้นจากข้อตกลงใน Field Service สามารถซิงโครไนส์กับ Finance and Operations ได้ ผ่านทางโครงการรวมข้อมูล Common Data Service (CDS) การปรับปรุงไปยังใบแจ้งหนี้เหล่านี้จะซิงโครไนส์กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations ถ้าสถานะการบัญชีของใบแจ้งหนี้ข้อความอิสระเป็น **อยู่ระหว่างดำเนินการ** หลังจากใบแจ้งหนี้ข้อความอิสระถูกลงรายการบัญชีใน Finance and Operations และสถานะการบัญชีถูกอัพเดตเป็น **เสร็จสมบูรณ์** คุณไม่สามารถซิงโครไนส์การอัพเดตจาก Field Service ได้อีกต่อไป
+ใบแจ้งหนี้ที่ถูกสร้างจากข้อตกลงใน Field Service สามารถทำข้อมูลให้ตรงกันกับ Finance and Operations ผ่านทางโครงการการรวมข้อมูล Common Data Service (CDS) การปรับปรุงไปยังใบแจ้งหนี้เหล่านี้จะซิงโครไนส์กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations ถ้าสถานะการบัญชีของใบแจ้งหนี้ข้อความอิสระเป็น **อยู่ระหว่างดำเนินการ** หลังจากใบแจ้งหนี้ข้อความอิสระถูกลงรายการบัญชีใน Finance and Operations และสถานะการบัญชีถูกอัพเดตเป็น **เสร็จสมบูรณ์** คุณไม่สามารถซิงโครไนส์การอัพเดตจาก Field Service ได้อีกต่อไป
 
 ## <a name="field-service-crm-solution"></a>โซลูชัน CRM ของ Field Service
 
@@ -107,4 +106,3 @@ ms.lasthandoff: 05/08/2018
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>ใบแจ้งหนี้ข้อตกลง (Field Service ไปยัง Fin และ Ops): รายการใบแจ้งหนี้
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

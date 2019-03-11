@@ -1,13 +1,13 @@
 ---
-title: "การจัดกลุ่มระบบในรายการงานที่เปิด"
-description: "หัวข้อนี้อธิบายวิธีการกรองรายการงานที่เปิดบนอุปกรณ์เคลื่อนที่"
+title: การจัดกลุ่มระบบในรายการงานที่เปิด
+description: หัวข้อนี้อธิบายวิธีการกรองรายการงานที่เปิดบนอุปกรณ์เคลื่อนที่
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 73e1da37c354eecf1ef5d44e68d814664fe2be99
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331977"
 ---
-
 # <a name="system-grouping-on-an-open-work-list"></a>การจัดกลุ่มระบบในรายการงานที่เปิด
 
 [!include [banner](../includes/banner.md)]
@@ -42,5 +41,4 @@ ms.lasthandoff: 04/13/2018
 | อนุญาตการจัดกลุ่มของระบบ |                                                                                                                                                                                                                                                 เปิดใช้งานระบบการจัดกลุ่มสำหรับรายการเมนูของรายการงานที่เลือก                                                                                                                                                                                                                                                  |
 | ฟิลด์การจัดกลุ่มระบบ | พร้อมใช้งานได้ก็ต่อเมื่อ <strong>อนุญาตงานของระบบ</strong> ตั้งค่าเป็น <strong>ใช่</strong> เลือกฟิลด์ที่จะกำหนดวิธีการจัดกลุ่มงานการเบิกสินค้าสำหรับผู้ปฏิบัติงาน  ตัวอย่างเช่น ถ้าคุณเลือกฟิลด์ <strong>ShipmentId</strong> ผู้ปฏิบัติงานจะสแกนรหัสการจัดส่งเพื่อจัดกลุ่มงานการเบิกสินค้า งานทั้งหมดสำหรับการจัดส่งนั้นถูกกำหนดให้กับผู้ปฏิบัติงาน ฟิลด์นี้ต้องระบุว่าคุณสร้างรายการเมนูที่ใช้งานที่มีอยู่ที่ถูกจัดกลุ่มโดยระบบ ใช้ฟิลด์ <strong>ป้ายชื่อการจัดกลุ่มระบบ</strong> เพื่อแจ้งให้ผู้ปฏิบัติงานทราบถึงสิ่งที่ต้องสแกน |
 | ป้ายชื่อการจัดกลุ่มระบบ |                       พร้อมใช้งานได้ก็ต่อเมื่อ <strong>อนุญาตงานของระบบ</strong> ตั้งค่าเป็น <strong>ใช่</strong> ป้อนข้อมูลสำหรับผู้ปฏิบัติงานเกี่ยวกับสิ่งที่ต้องสแกนเมื่อทำการเบิกสินค้าจะจัดกลุ่ม ตัวอย่างเช่น ถ้าคุณใช้ฟิลด์ <strong>ShipmentId</strong> เพื่อจัดกลุ่มงานการเบิกสินค้าโดยการจัดส่ง คุณอาจป้อน Shipment ID ในฟิลด์ ฟิลด์นี้ต้องระบุว่าคุณสร้างรายการเมนูที่ใช้งานที่มีอยู่ที่ถูกจัดกลุ่มโดยระบบ คุณต้องเลือกฟิลด์เพื่อจัดกลุ่มตามฟิลด์ <strong>การจัดกลุ่มระบบ</strong>                       |
-
 

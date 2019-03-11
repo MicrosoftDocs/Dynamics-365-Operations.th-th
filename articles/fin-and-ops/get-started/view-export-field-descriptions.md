@@ -1,13 +1,13 @@
 ---
-title: "ดูและส่งออกคำอธิบายฟิลด์"
-description: "บทความนี้อธิบายวิธีการดูคำอธิบายฟิลด์และวิธีการใช้หน้าคำอธิบายฟิลด์เพื่อส่งออกคำอธิบาย"
+title: ดูและส่งออกคำอธิบายฟิลด์
+description: บทความนี้อธิบายวิธีการดูคำอธิบายฟิลด์และวิธีการใช้หน้าคำอธิบายฟิลด์เพื่อส่งออกคำอธิบาย
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359347"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>ดูและส่งออกคำอธิบายฟิลด์
 
 [!include [banner](../includes/banner.md)]
 
 บทความนี้อธิบายวิธีการดูคำอธิบายฟิลด์และวิธีการใช้หน้าคำอธิบายฟิลด์เพื่อส่งออกคำอธิบาย
 
-มีการระบุคำอธิบายสำหรับฟิลด์บางฟิลด์ที่ซับซ้อนมากขึ้นใน Microsoft Dynamics 365 for Finance and Operations คำอธิบายเหล่านี้ปรากฏเมื่อคุณวางเมาส์เหนือฟิลด์ นอกจากนี้คุณสามารถดู และส่งออกคำอธิบายบนหน้า **ฟิลด์คำอธิบาย**
+Microsoft Dynamics 365 for Finance and Operations มี Description ของฟิลด์ที่ซับซ้อนมากขึ้นบางรายการ คำอธิบายเหล่านี้ปรากฏเมื่อคุณวางเมาส์เหนือฟิลด์ นอกจากนี้คุณสามารถดู และส่งออกคำอธิบายบนหน้า **ฟิลด์คำอธิบาย**
 
 ไม่ใช่ทุกหน้าที่มีคำอธิบายฟิลด์ เราเพียงต้องการแสดงคำอธิบายสำหรับฟิลด์ที่ซับซ้อนมากขึ้น ไม่ใช้ตำแหน่งที่มีการใช้ฟิลด์ที่ชัดเจน ดังนั้นบางหน้าจะไม่มีคำอธิบายใดๆ บางหน้ามีคำอธิบายสองสามรายการ และบางหน้าที่ซับซ้อนมากขึ้น เช่น หน้าพารามิเตอร์ส่วนใหญ่ มีคำอธิบายหลายรายการ
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 12/18/2018
 คุณสามารถดูคำอธิบายฟิลด์ได้โดยวางเมาส์เหนือฟิลด์ ถ้าไม่มีคำอธิบาย คุณจะเห็นชื่อฟิลด์เมื่อคุณวางเมาส์เหนือฟิลด์
 
 > [!NOTE]
-> ใน Dynamics AX 7.0 (กุมภาพันธ์ 2016) คุณสามารถดูคำอธิบายฟิลด์ได้เฉพาะในหน้า **คำอธิบายฟิลด์**
+> ใน In Dynamics AX 7.0 (กุมภาพันธ์ 2016) สามารถดูได้บนหน้า **Description ของฟิลด์** เท่านั้น
 
 ภาพประกอบต่อไปนี้แสดงคำอธิบายฟิลด์ที่ปรากฏขึ้นเมื่อคุณวางเมาส์เหนือฟิลด์ **ล็อคสินค้าในระหว่างตรวจนับ**
 
@@ -70,7 +69,7 @@ ms.lasthandoff: 12/18/2018
 หากต้องการส่งออกคำอธิบายสำหรับหน้า ให้ทำตามขั้นตอนเหล่านี้
 
 1. ในฟิลด์ **เลือกหน้า** เลือกหน้า
-2. คลิกปุ่ม **เปิดใน Microsoft Office** ที่มุมบนขวา จากนั้นเลือก **FieldDescriptionTmp**
+2. คลิกปุ่ม **เปิดใน Microsoft Office** ที่มุมบนด้านขวา และจากนั้นคลิก **FieldDescriptionTmp**
 
 ### <a name="searching-for-a-page"></a>กำลังค้นหาหน้า
 
@@ -109,4 +108,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [เลือกกำหนดวิธีใช้ฟิลด์](../../dev-itpro/user-interface/customize-field-help.md)
-

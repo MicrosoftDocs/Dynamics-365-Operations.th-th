@@ -1,13 +1,13 @@
---- 
-title: "เลือกข้อกำหนดแบบจำลองข้อมูล เมื่อคุณสร้างรูปแบบ"
-description: "เพื่อทำตามขั้นตอนเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำกระบวนงาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER ให้เสร็จเรียบร้อยก่อน"
+---
+title: เลือกข้อกำหนดแบบจำลองข้อมูล เมื่อคุณสร้างรูปแบบ
+description: เพื่อทำตามขั้นตอนเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำกระบวนงาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER ให้เสร็จเรียบร้อยก่อน
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334507"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>เลือกข้อกำหนดแบบจำลองข้อมูล เมื่อคุณสร้างรูปแบบ
 
@@ -81,7 +81,7 @@ ms.lasthandoff: 08/09/2018
     * ใช้โปรแกรมออกแบบ ER เพื่อระบุการแม็ปแบบจำลองสำหรับรายการรากที่กำหนด  
 2. คลิก ตัวออกแบบ
     * จำลองการตั้งค่าการแม็ปแบบจำลองที่เลือกสำหรับรายการหลักของแบบจำลองที่เลือก  
-3. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table records'
+3. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 4. คลิก เพิ่มราก
 5. ในฟิลด์ชื่อ ให้พิมพ์ 'บัญชีแยกประเภท'
 6. ในฟิลด์ตาราง พิมพ์ 'LedgerJournalTrans'
@@ -98,5 +98,4 @@ ms.lasthandoff: 08/09/2018
 4. ในฟิลด์คำนิยามแบบจำลองข้อมูล ให้ป้อนหรือเลือกค่า
     * หมายเหตุว่าในขณะนี้มีรายการรากเดียวเท่านั้นที่พร้อมใช้งานในการแม็ปกับแหล่งข้อมูลแอพลิเคชัน เมื่อมีการนำการแม็ปแบบจำลองอย่างน้อยหนึ่งรายการมาใช้เป็นครั้งแรก คุณสามารถเลือกได้เฉพาะรายการรากของแบบจำลองที่ได้รับการแม็ปไปยังแหล่งข้อมูลแอพลิเคชันเป็นคำนิยามแบบจำลองในขณะที่มีการเพิ่มรูปแบบ ER   
 5. ปิดหน้า
-
 

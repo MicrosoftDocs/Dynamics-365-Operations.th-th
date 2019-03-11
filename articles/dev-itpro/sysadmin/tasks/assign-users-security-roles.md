@@ -1,13 +1,13 @@
---- 
-title: "กำหนดผู้ใช้ให้กับบทบาทความปลอดภัย"
-description: "เพื่อเข้าถึง Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition ผู้ใช้ต้องถูกมอบหมายให้กับบทบาทความปลอดภัย"
+---
+title: กำหนดผู้ใช้ให้กับบทบาทความปลอดภัย
+description: เพื่อเข้าถึง Microsoft Dynamics 365 for Finance and Operations Enterprise edition ผู้ใช้ต้องได้รับมอบหมายไปยัง Security role
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349963"
 ---
 # <a name="assign-users-to-security-roles"></a>กำหนดผู้ใช้ให้กับบทบาทความปลอดภัย
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-เพื่อเข้าถึง Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition ผู้ใช้ต้องถูกมอบหมายให้กับบทบาทความปลอดภัย กระบวนงานนี้อธิบายวิธีที่ผู้ดูแลระบบสามารถมอบหมายผู้ใช้ให้กับบทบาทโดยอัตโนมัติ ตามข้อมูลทางธุรกิจ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
+เพื่อเข้าถึง Microsoft Dynamics 365 for Finance and Operations Enterprise edition ผู้ใช้ต้องได้รับมอบหมายไปยัง Security role กระบวนงานนี้อธิบายวิธีที่ผู้ดูแลระบบสามารถมอบหมายผู้ใช้ให้กับบทบาทโดยอัตโนมัติ ตามข้อมูลทางธุรกิจ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 
 
 ## <a name="automatically-assign-users-to-roles"></a>กำหนดผู้ใช้ให้กับบทบาทโดยอัตโนมัติ
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
     * เลือกผู้ใช้  
 6. คลิกแยกออกจากบทบาท
     * คลิกการแยกออกจากบทบาท เพื่อแยกผู้ใช้ที่เลือกออกจากบทบาท  เพื่อลบการแยก ให้เลือกผู้ใช้ที่คุณต้องการลบการแยก แล้วคลิกสถานะรีเซ็ต  เมื่อคุณลบการแยกโดยการรีเซ็ตสถานะของผู้ใช้ บทบาทของผู้ใช้จะถูกมอบหมายโดยอัตโนมัติอีกครั้ง  อย่างไรก็ตาม ผู้ใช้จะไม่ถูกมอบหมายในทันทีให้กับบทบาท หรือถูกแยกจากบทบาทเมื่อคุณรีเซ็ตสถานะ  ผู้ใช้จะถูกมอบหมายให้กับบทบาทหรือถูกลบออกจากบทบาทในครั้งต่อไป อย่างใดอย่างหนึ่งแทน ซึ่งกฎสำหรับการมอบหมายบทบาทโดยอัตโนมัติจะถูกรัน  
-
 

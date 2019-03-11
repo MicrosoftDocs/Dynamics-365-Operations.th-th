@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ"
-description: "บทความนี้อธิบายวิธีการตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์"
+title: ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ
+description: บทความนี้อธิบายวิธีการตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 369856f33c6da49b6c6b3f51f42c99a8f07fe777
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320983"
 ---
-
 # <a name="set-up-continuity-programs-for-call-centers"></a>ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ
 
 [!include [banner](includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/09/2018
 - **ขยายรายการที่ต่อเนื่อง** (ถ้าจำเป็น) – ขยายจำนวนครั้งของเหตุการณ์ที่ความต่อเนื่องนี้สามารถทำซ้ำ การทำซ้ำการจัดส่งสามารถขยายเกินข้อจำกัดที่ได้ตั้งค่าไว้ใน **ฟิลด์ความต่อเนื่องขีดจำกัดซ้ำ** ในพารามิเตอร์ศูนย์บริการได้
 - **ดำเนินการอัพเดตความต่อเนื่อง** (ถ้าจำเป็น) – ซิงโครไนส์การเปลี่ยนแปลงระหว่างโปรแกรมความต่อเนื่องกับใบสั่งขายหลักต่อเนื่อง
 - **ปิดรายการและใบสั่งหลักที่มีความต่อเนื่อง** – ปิดใบสั่งที่มีความต่อเนื่อง
-

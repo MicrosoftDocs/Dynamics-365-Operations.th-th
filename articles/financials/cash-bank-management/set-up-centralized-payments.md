@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าการชำระเงินจากส่วนกลาง"
-description: "ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อจัดเตรียมการประมวลผลการชำระเงินในนิติบุคคลหนึ่งราย ในนามของนิติบุคคลอื่นๆในองค์กรของคุณ"
+title: ตั้งค่าการชำระเงินจากส่วนกลาง
+description: ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อจัดเตรียมการประมวลผลการชำระเงินในนิติบุคคลหนึ่งราย ในนามของนิติบุคคลอื่นๆในองค์กรของคุณ
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361923"
 ---
-
 # <a name="set-up-centralized-payments"></a>ตั้งค่าการชำระเงินจากส่วนกลาง
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="set-up-default-descriptions"></a>ตั้งค่าคำอธิบายเริ่มต้น
 คุณสามารถกำหนดคำอธิบายเริ่มต้นสำหรับใบสำคัญการชำระเงินระหว่างบริษัทได้ คำอธิบายเริ่มต้นจะรวมอยู่ในธุรกรรมกำหนดเวลาเริ่มต้นและกำหนดเวลาสิ้นสุด ระหว่างกระบวนการชำระเงินระหว่างบริษัท ในหน้า **คำอธิบายเริ่มต้น** คุณสามารถสร้างคำอธิบายใหม่สำหรับทั้ง **การชำระบัญชีลูกค้าระหว่างบริษัท**และ **การชำระบัญชีผู้จัดจำหน่ายระหว่างบริษัท** โดยการเลือกภาษา และจากนั้นโดยการป้อนข้อความ
-
 
 
 

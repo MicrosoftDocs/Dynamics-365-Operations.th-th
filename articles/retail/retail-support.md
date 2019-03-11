@@ -1,35 +1,34 @@
 ---
-title: "รับการสนับสนุนสำหรับ Dynamics 365 for Retail"
-description: "บทความนี้อธิบายวิธีการรับความช่วยเหลือเกี่ยวกับ Microsoft Dynamics 365 for Retail"
+title: รับการสนับสนุนสำหรับ Dynamics 365 for Retail
+description: บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Microsoft Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364062"
 ---
-
 # <a name="get-support-for-dynamics-365-for-retail"></a>รับการสนับสนุนสำหรับ Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการรับความช่วยเหลือเกี่ยวกับ Dynamics 365 for Retail
+บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Dynamics 365 for Retail
 
 ## <a name="contact-support"></a>ติดต่อฝ่ายสนับสนุน
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 01/04/2019
 <tbody>
 <tr>
 <td>สอบถามชุมชน</td>
-<td>ไปที่หน้าชุมชน <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> เพื่อค้นหาความช่วยเหลือด้วยคำถามของคุณจากชุมชน Dynamics</td>
+<td>ไปยังหน้าชุมชน <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics</td>
 </tr>
 <tr>
 <td>ใช้เครื่องมือค้นหาปัญหา</td>
@@ -67,12 +66,12 @@ ms.lasthandoff: 01/04/2019
 </tr>
 <tr>
 <td>เปิดบัตรที่มีทีมงานสนับสนุน</td>
-<td>ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งบัตรไปยัง Microsoft จากไทล์ <strong>การสนับสนุน</strong> ใน LCS โปรดดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">ติดต่อ Microsoft Business Solutions Support</a> สำหรับข้อมูลในการติดต่อ Microsoft Dynamics Regional Operations Center ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:
+<td>ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งตั๋วไปยัง Microsoft จากไทล์ <strong>การสนับสนุน</strong> ใน LCS ดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">ติดต่อ Microsoft Business Solutions Support</a> สำหรับข้อมูลเกี่ยวกับการติดต่อศูนย์การดำเนินการทางภูมิภาค Microsoft Dynamics ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:
 <ul>
 <li>ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ LCS หรือปัญหาที่เกิดขึ้นเมื่อคุณพยายามเข้าถึง LCS</li>
 <li>ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ Retail</li>
 </ul>
-สำหรับคำถามทางเทคนิคที่เกี่ยวข้องกับการเข้าสู่ระบบและการเข้าถึง CustomerSource การเรียนรู้ทางอิเล็กทรอนิกส์ การค้นหา ฐานความรู้ การดาวน์โหลดไฟล์ และข้อผิดพลาดของหน้าระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">การสนับสนุนเว็บไซต์</a></td>
+สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">การสนับสนุนเว็บไซต์</a></td>
 </tr>
 <tr>
 <td>รับความช่วยเหลือเกี่ยวกับคำถามเกี่ยวกับ Retail หรือการให้สิทธิ์ใช้งาน Finance and Operations</td>
@@ -85,5 +84,4 @@ ms.lasthandoff: 01/04/2019
 </tbody>
 </table>
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอของการสนับสนุน Microsoft Dynamics โปรดดู [การสนับสนุนออนไลน์ของ Microsoft Dynamics](https://www.microsoft.com/dynamics/dynamics-online-support.aspx)
-
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอบริการ Microsoft Dynamics ดู [Microsoft Dynamics การสนับสนุนออนไลน์](https://dynamics.microsoft.com/en-us/support/)

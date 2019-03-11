@@ -1,13 +1,13 @@
 ---
-title: "จัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)"
-description: "หัวข้อนี้อธิบายวิธีการจัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)"
+title: จัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)
+description: หัวข้อนี้อธิบายวิธีการจัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
 ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
-ms.contentlocale: th-th
-ms.lasthandoff: 10/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360014"
 ---
-
 # <a name="manage-international-bank-account-number-iban-validation"></a>จัดการการตรวจสอบ International Bank Account Number (IBAN)
 
 [!include [banner](../includes/banner.md)]
 
 การตรวจสอบ International Bank Account Number (IBAN) เพิ่มจำนวนการตรวจสอบที่เสร็จสิ้นแล้ว เมื่อคุณเพิ่ม IBAN ไปยังบัญชีธนาคาร
 
-ข้อมูลเกี่ยวกับโครงสร้างของ IBAN ถูกเก็บไว้ใน Microsoft Dynamics 365 for Finance and Operations ข้อมูลดังกล่าวถูกโหลดโดยอัตโนมัติ เมื่อคุณใช้ IBAN สำหรับบัญชีธนาคารเป็นครั้งแรก ประกอบด้วยความยาวของ IBAN ตำแหน่งเริ่มต้นของหมายเลขบัญชีธนาคาร และหมายเลขเส้นทาง และความยาวของหมายเลขบัญชีธนาคารและหมายเลขเส้นทาง
+ข้อมูลเกี่ยวกับโครงสร้างของ IBAN ถูกจัดเก็บใน Microsoft Dynamics 365 for Finance and Operations ข้อมูลดังกล่าวถูกโหลดโดยอัตโนมัติ เมื่อคุณใช้ IBAN สำหรับบัญชีธนาคารเป็นครั้งแรก ประกอบด้วยความยาวของ IBAN ตำแหน่งเริ่มต้นของหมายเลขบัญชีธนาคาร และหมายเลขเส้นทาง และความยาวของหมายเลขบัญชีธนาคารและหมายเลขเส้นทาง
 
 ## <a name="set-up-iban-structures"></a>ตั้งค่าโครงสร้าง IBAN
 
@@ -49,4 +48,3 @@ ms.lasthandoff: 10/12/2018
     การตรวจสอบจะยังสามารถตรวจสอบว่า หมายเลขบัญชีธนาคารให้ตรงกับส่วนของ IBAN ที่แสดงถึงหมายเลขบัญชีธนาคาร ถ้าหมายเลขบัญชีธนาคารไม่ตรงกัน คุณจะได้รับข้อความแจ้งเตือน ข้อความนี้เป็นเพียงคำเตือนเท่านั้น คุณสามารถดำเนินต่อไปได้ แม้ว่าหมายเลขบัญชีธนาคารจะไม่ตรงกัน
 
     การตรวจสอบจะยังตรวจสอบว่า หมายเลขการกำหนดเส้นทางธนาคารตรงกับส่วนของ IBAN ที่แสดงถึงหมายเลขการกำหนดเส้นทางธนาคารอีกด้วย หมายเลขการกำหนดเส้นทางรวมหมายเลขธนาคาร และมักจะมีสาขาธนาคารเพิ่มเติม ถ้าหมายเลขการกำหนดเส้นทางธนาคารไม่ตรงกัน คุณจะได้รับข้อความแจ้งเตือน ข้อความนี้เป็นเพียงคำเตือนเท่านั้น คุณสามารถดำเนินต่อไปได้ แม้ว่าหมายเลขการกำหนดเส้นทางธนาคารจะไม่ตรงกัน
-

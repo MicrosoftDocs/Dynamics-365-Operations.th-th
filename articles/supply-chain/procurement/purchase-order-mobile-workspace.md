@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการอนุมัติใบสั่งซื้อแบบเคลื่อนที่ ที่ให้คุณดูใบสั่งซื้อและตอบสนองได้โดยใช้การดำเนินการ ตัวอย่างเช่น คุณสามารถอนุมัติ หรือปฏิเสธใบสั่งซื้อ"
+title: พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการอนุมัติใบสั่งซื้อแบบเคลื่อนที่ ที่ให้คุณดูใบสั่งซื้อและตอบสนองได้โดยใช้การดำเนินการ ตัวอย่างเช่น คุณสามารถอนุมัติ หรือปฏิเสธใบสั่งซื้อ
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348859"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
 
 [!include [banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ ms.lasthandoff: 03/26/2018
 ## <a name="overview"></a>ภาพรวม 
 ใบสั่งซื้อที่ต้องมีการอนุมัติเพื่อเข้าถึงลำดับงานการอนุมัติ ลำดับงานอาจรวมถึงขั้นตอนต่าง ๆ ที่จำเป็นที่บุคคลหนึ่งคนหรือมากกว่านั้นต้องดำเนินการ ตัวอย่างเช่น บุคคลอาจต้องทำงานหรืออนุมัติใบสั่งซื้อให้เสร็จสมบูรณ์ 
 
-พื้นที่ทำงานแบบเคลื่อนที่ของ **อนุมัติใบสั่งซื้อ** ช่วยให้คุณสามารถดูและตอบสนองใบสั่งจากอุปกรณ์เคลื่อนซื้อได้ง่ายขึ้น พื้นที่ทำงานนี้ยังช่วยให้คุณสามารถใช้การดำเนินเกี่ยวกับการลำดับงาน เช่นเดียวกันกับที่คุณสามารถได้รับจากเว็บไคลเอนต์ Microsoft Dynamics 365 for Finance and Operations อีกด้วย
+พื้นที่ทำงานแบบเคลื่อนที่ของ **อนุมัติใบสั่งซื้อ** ช่วยให้คุณสามารถดูและตอบสนองใบสั่งจากอุปกรณ์เคลื่อนซื้อได้ง่ายขึ้น พื้นที่ทำงานนี้ยังอนุญาตให้คุณใช้การดำเนินการเวิร์กโฟลว์เดียวกันกับที่คุณใช้จาก Microsoft Dynamics 365 for Finance and Operations เว็บไคลเอ็นต์
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นเปลี่ยนแปลง โดยขึ้นอยู่กับเวอร์ชันของ Finance and Operations ที่นำไปใช้งานสำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น หากคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
-ถ้า Microsoft Dynamics 365 for Finance and Operations ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การอนุมัติใบสั่งซื้อ** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
+ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Finance and Operations สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การอนุมัติใบสั่งซื้อ** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
-ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
+ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
 
 <table>
 <thead>
@@ -61,7 +60,7 @@ ms.lasthandoff: 03/26/2018
 <td>ผู้ดูแลระบบ</td>
 <td>KB 4017918 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การอนุมัติใบสั่งซื้อ</strong> เมื่อต้องการใช้ KB 4017918 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
@@ -76,16 +75,16 @@ ms.lasthandoff: 03/26/2018
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+ดาวน์โหลดและติดตั้งแอป Microsoft Dynamics 365 for Unified Operations mobile:
 
-- [สำหรับโทรศัพท์ Androids](https://go.microsoft.com/fwlink/?linkid=850662)
+- [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
 ## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
 
 1. เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2. ป้อน URL ของ Microsoft Dynamics 365 ของคุณ
+2. ใส่ URL Microsoft Dynamics 365 ของคุณ
 3. ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4. หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
 
@@ -116,4 +115,3 @@ ms.lasthandoff: 03/26/2018
 5. เลือกการดำเนินการที่เหมาะสม
 6. ในหน้า **งานที่เสร็จสมบูรณ์** ให้ป้อนข้อคิดเห็น โปรดจำไว้ว่า ถ้าคุณเลือกการดำเนินการ **การมอบหมาย** คุณต้องเลือกผู้ใช้ที่จะมอบหมายงานให้
 7. เลือก **เสร็จสิ้น** หลังจากที่คุณรีเฟรชพื้นที่ทำงานของคุณ ใบสั่งซื้อจะไม่อยู่ในรายการของคุณอีกต่อไป 
-

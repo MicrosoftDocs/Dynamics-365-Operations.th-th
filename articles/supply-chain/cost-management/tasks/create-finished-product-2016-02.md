@@ -1,13 +1,13 @@
---- 
-title: "สร้างผลิตภัณฑ์สำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)"
-description: "งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์สำเร็จรูป"
+---
+title: สร้างผลิตภัณฑ์สำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)
+description: งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์สำเร็จรูป
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 44f9693e04160ffe9307de5e454d8269ca883679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 19cba700a2c96a09e0444c17323b8b2d4bf43f7d
-ms.contentlocale: th-th
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339038"
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>สร้างผลิตภัณฑ์สำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 01/17/2018
 14. ในฟิลด์ ไซต์การขาย ให้ป้อนหรือเลือกค่า
     * สำหรับตัวอย่างนี้ ให้เลือก ไซต์ 1  
 15. ปิดหน้า
-
 

@@ -1,13 +1,13 @@
 ---
-title: "ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา"
-description: "บทความนี้อธิบายปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา และวิธีการใช้ข้อมูลเหล่านั้นสำหรับนิติบุคคล สินทรัพย์ถาวร และงบประมาณ"
+title: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
+description: บทความนี้อธิบายปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา และวิธีการใช้ข้อมูลเหล่านั้นสำหรับนิติบุคคล สินทรัพย์ถาวร และงบประมาณ
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 431d654aaffc27d54fd590dc7d5d2ab6c2313908
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361670"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="maintain-periods-for-your-organization"></a>รักษารอบระยะเวลาสำหรับองค์กรของคุณ
 คุณสามารถใช้หน้าปฏิทินบัญชีแยกประเภทเพื่อดูรายละเอียดของปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลาที่ใช้โดยองค์กรของคุณ นอกจากนี้คุณยังสามารถเปลี่ยนสถานะของรอบระยะเวลา และเลือกผู้ใช้ที่สามารถลงรายบัญชีธุรกรรมการลงบัญชีกับรอบระยะเวลา  ตัวอย่างเช่น เมื่อเริ่มต้นรอบระยะเวลาใหม่ คุณอาจต้องการให้กลุ่มผู้ใช้ลงรายการบัญชีธุรกรรมทางการเงินในรอบระยะเวลาก่อนหน้านี้ให้เสร็จเรียบร้อย ในขณะที่กลุ่มอื่นๆ ดำเนินการเฉพาะในรอบระยะเวลาใหม่
-
 
 
 

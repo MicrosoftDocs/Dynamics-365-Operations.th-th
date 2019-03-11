@@ -1,32 +1,31 @@
 ---
-title: "ตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า"
+title: ตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: th-th
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338072"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>ตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ ms.lasthandoff: 05/23/2018
 
 ล็อก **ดูการดำเนินการ** แสดงข้อมูลโดยละเอียดเกี่ยวกับเอนทิตี้ข้อมูลแต่ละรายการที่ถูกนำเข้า คุณสามารถใช้มุมมองข้อมูลการแบ่งระยะเพื่อไปยังข้อมูลเป้าหมายอย่างรวดเร็ว ในวิธีนี้ คุณสามารถดูว่าข้อมูลนำเข้ามีลักษณะเป็นอย่างไรในหน้าที่เกี่ยวข้องในแอพลิเคชัน เมื่อคุณใช้เท็มเพลตข้อมูลเริ่มต้น ลำดับการนำเข้าสำหรับเอนทิตี้ข้อมูลแต่ละรายการทำงานในลักษณะที่กำหนดไว้ล่วงหน้า เพื่อช่วยรับประกันว่า ข้อมูลอ้างอิงทั้งหมดจะถูกนำเข้าก่อน ถ้าเอนทิตีข้อมูลที่กำหนดเองเป็นส่วนหนึ่งของโครงการ คุณต้องตรวจสอบให้แน่ใจว่า มีกำหนดลำดับที่ถูกต้อง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้เท็มเพลคลังสินค้า เพื่อคัดลอกการตั้งค่าคอนฟิกของคลังสินค้าจากบริษัทหนึ่งไปยังบริษัทใหม่ภายในอินสแตนซ์เดียวกัน ดูวิดีโอยาว 3 นาทีนี้ใน YouTube: [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs)
+เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิกของคลังสินค้าจากบริษัทหนึ่งไปยังบริษัทใหม่ภายในอินสแตนซ์เดียวกัน ดูวิดีโอยาว 3 นาทีนี้ใน YouTube: [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs)
 
 ## <a name="related-topic"></a>หัวข้อที่เกี่ยวข้อง
 
 [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](../../dev-itpro/data-entities/configuration-data-templates.md)
-

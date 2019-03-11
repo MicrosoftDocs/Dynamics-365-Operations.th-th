@@ -1,12 +1,12 @@
 ---
-title: "ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย"
-description: "หัวข้อนี้ให้ข้อมูลเกี่ยวกับคุณลักษณะของใบกำกับภาษีการปรับปรุง/เงินทดแทน คุณลักษณะนี้ช่วยให้คุณสามารถติดตามการพิมพ์สำเนาของใบกำกับภาษี นอกจากนี้คุณยังสามารถติดตามการปรับปรุงที่กระทำกับข้อมูลลูกค้าในส่วนหัวของใบกำกับภาษีอีกด้วย"
+title: ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับคุณลักษณะของใบกำกับภาษีการปรับปรุง/เงินทดแทน คุณลักษณะนี้ช่วยให้คุณสามารถติดตามการพิมพ์สำเนาของใบกำกับภาษี นอกจากนี้คุณยังสามารถติดตามการปรับปรุงที่กระทำกับข้อมูลลูกค้าในส่วนหัวของใบกำกับภาษีอีกด้วย
 author: EvgenyPopovMBS
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 manager: vastrup
 ms.search.form: CustInvoiceJournal, CustInvoiceJourAdjustment, ProjInvoiceListPage, CustParameters
 audience: Application User
@@ -16,14 +16,13 @@ ms.search.region: Thailand
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 77969410f838516990cf8256df641a99f7abbe65
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 86659933803718c4bd676412b1a082b53da216a5
-ms.contentlocale: th-th
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "371867"
 ---
-
 # <a name="substitutionadjustment-tax-invoice-for-thailand"></a>ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
 
 [!include [banner](../includes/banner.md)]
@@ -88,4 +87,3 @@ ms.lasthandoff: 03/05/2018
 ใบกำกับภาษีที่ปรับปรุงรวมถึงหมายเลขใบกำกับภาษีใหม่ และข้อมูลของลูกค้าที่ปรับปรุง ข้อมูลอื่น ๆ ทั้งหมดจะเหมือนกับข้อมูลในใบกำกับภาษีเดิม ข้อคิดเห็นจะถูกเพิ่มที่ด้านล่างของใบกำกับภาษีที่ปรับปรุง ข้อคิดเห็นนี้มีการอ้างอิงถึงใบกำกับภาษีเดิม เหตุผลสำหรับการปรับปรุง และวันที่ของการปรับปรุง
 
 คุณสามารถปรับปรุงใบกำกับภาษีได้หลายครั้ง สำหรับการปรับปรุงแต่ละครั้ง จะมีการปันส่วนหมายเลขใบกำกับภาษีใหม่ และใบแจ้งหนี้ที่ปรับปรุงจะอ้างอิงถึงการปรับปรุงก่อนหน้านี้หรือใบกำกับภาษีเดิม
-

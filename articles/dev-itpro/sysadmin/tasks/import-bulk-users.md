@@ -1,13 +1,13 @@
---- 
-title: "นำเข้าผู้ใช้จำนวนมาก"
-description: "ผู้ดูแลระบบใช้กระบวนงานนี้ในการนำเข้าผู้ใช้จำนวนมากจาก Azure Active Directory"
+---
+title: นำเข้าผู้ใช้จำนวนมาก
+description: กระบวนงานนี้สามารถใช้โดยผู้ดูแลระบบเพื่อนำเข้าจำนวนผู้ใช้ปริมาณมากจาก Azure Active Directory
 author: maertenm
 manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 339cc1d3bcdc1dc93b796c385d2165f45f8f7ecf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 54af656c040486f7de718ce589973a6ebe005850
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338739"
 ---
 # <a name="import-users-in-bulk"></a>นำเข้าผู้ใช้จำนวนมาก
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-ผู้ดูแลระบบใช้กระบวนงานนี้ในการนำเข้าผู้ใช้จำนวนมากจาก Azure Active Directory
+กระบวนงานนี้สามารถใช้โดยผู้ดูแลระบบเพื่อนำเข้าจำนวนผู้ใช้ปริมาณมากจาก Azure Active Directory
 
 
 ## <a name="run-as-a-batch-job"></a>รันเป็นชุดงาน
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="run-in-a-sandbox-environment"></a>รันในสภาพแวดล้อม Sandbox
 1. คลิก การนำเข้าชุดงาน
 2. คลิก ตกลง
-
 

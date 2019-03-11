@@ -1,31 +1,30 @@
 ---
-title: "การอัพเดตบันทึกการจัดส่งสำหรับการส่งคืนสินค้า"
-description: "ก่อนที่สามารถรับสินค้าที่ส่งคืนเข้าไว้ในสินค้าคงคลังได้ ต้องอัพเดตบันทึกการจัดส่งสำหรับใบสั่งที่สินค้านั้นเป็นส่วนประกอบอยู่ "
+title: การอัพเดตบันทึกการจัดส่งสำหรับการส่งคืนสินค้า
+description: 'ก่อนที่สามารถรับสินค้าที่ส่งคืนเข้าไว้ในสินค้าคงคลังได้ ต้องอัพเดตบันทึกการจัดส่งสำหรับใบสั่งที่สินค้านั้นเป็นส่วนประกอบอยู่ '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4aba61e6acf5fb959917da9ddea94c21fe1460d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7532c5b1debdb498c2d6bab129208a412387c8fa
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344880"
 ---
-
 # <a name="packing-slip-updates-for-returns"></a>การอัพเดตบันทึกการจัดส่งสำหรับการส่งคืนสินค้า  
 
 [!include [banner](../includes/banner.md)]
@@ -48,6 +47,5 @@ ms.lasthandoff: 05/08/2018
 [ทำการอัพเดตใบแจ้งหนี้สำหรับการส่งคืนสินค้า](perform-invoice-updates-for-returns.md)
 
   
-
 
 

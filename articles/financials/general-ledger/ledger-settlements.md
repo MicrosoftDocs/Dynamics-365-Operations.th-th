@@ -1,13 +1,13 @@
 ---
-title: "การชำระบัญชีแยกประเภท"
-description: "หัวข้อนี้อธิบายวิธีการใช้หน้าการชำระบัญชีแยกประเภท เพื่อชำระธุรกรรมบัญชีแยกประเภท และกลับรายการการชำระ"
+title: การชำระบัญชีแยกประเภท
+description: หัวข้อนี้อธิบายวิธีการใช้หน้าการชำระบัญชีแยกประเภท เพื่อชำระธุรกรรมบัญชีแยกประเภท และกลับรายการการชำระ
 author: mikefalkner
 manager: aolson
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b02a1a066913c9959e9a55e78789e5ff1a175c56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: ec659a53c187b1bdfd81565d6e2f20a59e08834c
-ms.contentlocale: th-th
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308494"
 ---
-
 # <a name="ledger-settlements"></a>การชำระบัญชีแยกประเภท
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ ms.lasthandoff: 10/12/2018
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>อัพเดตรายการของบัญชีที่รวมอยู่ในรายการของธุรกรรม
 
 เลือก **บัญชีการชำระบัญชีแยกประเภท** เพื่อเปิดกล่องโต้ตอบที่ซึ่งคุณสามารถแก้ไขบัญชีที่รวมอยู่ในรายการธุรกรรมได้ เลือก **สร้าง** เพื่อเพิ่มบัญชีใหม่ลงในรายการ รายการนี้จะใช้เพื่อกรองข้อมูลรายการธุรกรรมที่ปรากฏในหน้า **การชำระบัญชีแยกประเภท**
-

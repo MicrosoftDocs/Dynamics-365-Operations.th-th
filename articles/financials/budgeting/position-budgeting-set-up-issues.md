@@ -1,13 +1,13 @@
 ---
-title: "การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง"
-description: "บทความนี้ให้คำตอบแก่คำถามที่คุณอาจมี เมื่อคุณตั้งค่าคอนฟิกการจัดทำงบประมาณของตำแหน่ง  จะเน้นคำถามที่ถูกถามบ่อยเกี่ยวกับวิธีการสร้างองค์ประกอบต้นทุนงบประมาณ กลุ่มค่าตอบแทน และกริดค่าตอบแทน"
+title: การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง
+description: บทความนี้ให้คำตอบแก่คำถามที่คุณอาจมี เมื่อคุณตั้งค่าคอนฟิกการจัดทำงบประมาณของตำแหน่ง  จะเน้นคำถามที่ถูกถามบ่อยเกี่ยวกับวิธีการสร้างองค์ประกอบต้นทุนงบประมาณ กลุ่มค่าตอบแทน และกริดค่าตอบแทน
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0800a4a7c92a1a5f4d4f66bb37032eacccc4cb4e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f2ef04008a5e6339a2193f9fcc77f2e0e6643557
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367121"
 ---
-
 # <a name="position-budgeting-troubleshooting"></a>การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ ms.lasthandoff: 11/03/2017
 -   วันเปิดใช้งานและพ้นจากตำแหน่ง
 -   วันเปิดใช้งานและหมดอายุขององค์ประกอบต้นทุนงบประมาณ
 -   วันที่เริ่มต้นและสิ้นสุดของวงจรงบประมาณ ที่เชื่อมโยงกับกระบวนการการวางแผนงบประมาณของตำแหน่งตามการคาดการณ์
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการคำนวณรวมที่ระดับฐานข้อมูล"
-description: "กระบวนงานนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการแม็ปแบบจำลอง (ER) ของการรายงานทางอิเล็กทรอนิกส์ใหม่ และใช้ฟังก์ชัน ER ภายในสำหรับการคำนวณรวมที่มีประสิทธิภาพ"
+---
+title: ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการคำนวณรวมที่ระดับฐานข้อมูล
+description: กระบวนงานนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการแม็ปแบบจำลอง (ER) ของการรายงานทางอิเล็กทรอนิกส์ใหม่ และใช้ฟังก์ชัน ER ภายในสำหรับการคำนวณรวมที่มีประสิทธิภาพ
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313646"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>ใช้การตั้งค่าคอนฟิกการแม็ปแบบจำลองสำหรับการคำนวณรวมที่ระดับฐานข้อมูล
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 08/09/2018
 3. ในแผนภูมิ เลือก 'แบบจำลองอินทราสแทต\การแม็ปตัวอย่างอินทราสแทต'
 4. คลิก ตัวออกแบบ
 5. คลิก ตัวออกแบบ
-6. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table records'
+6. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 7. คลิก เพิ่มราก
     * เพิ่มแหล่งข้อมูลใหม่ซึ่งแสดงเรกคอร์ดที่คุณต้องการจัดกลุ่ม  
 8. ในฟิลด์ชื่อ พิมพ์ 'ธุรกรรม'
@@ -116,5 +116,4 @@ ms.lasthandoff: 08/09/2018
 67. ในแผนภูมิ ขยาย 'เรกคอร์ดสินค้าที่ซื้อขายกัน(Iอินทราสแทต)'
 68. คลิก บันทึก
     * หมายเหตุว่า ฟิลด์ 'ดำเนินการเมื่อ' บ่งชี้ว่า การจัดกลุ่มนี้จะสามารถทำได้ในขณะทำงานในหน่วยความจำ แม้ว่าจะไม่มีการรวมที่กำหนดและแหล่งข้อมูลที่เลือกของชนิด 'เรกคอร์ดตาราง' อ้างอิงถึงตาราง 'อินทราสแทต' เดียวกัน ทั้งนี้เนื่องจากแหล่งข้อมูลประกอบด้วยฟิลด์ที่คำนวณบางฟิลด์ซึ่งไม่สามารถแปลเป็นระดับฐานข้อมูล SQL ได้  
-
 

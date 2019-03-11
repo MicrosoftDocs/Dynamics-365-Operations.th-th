@@ -1,13 +1,13 @@
 ---
-title: "ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง"
-description: "กลุ่มมิติสินค้าคงคลังถูกแนบกับทุกๆสินค้าในสินค้าคงคลัง ดังนั้นระบบจะคำนวณราคาต้นทุนเฉลี่ยสืบเนื่องโดยยึดตามมิติสินค้าคงคลังที่เลือกไว้และมีการติดตามการเปลี่ยนแปลงข้อมูลทางการเงิน"
+title: ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
+description: กลุ่มมิติสินค้าคงคลังถูกแนบกับทุกๆสินค้าในสินค้าคงคลัง ดังนั้นระบบจะคำนวณราคาต้นทุนเฉลี่ยสืบเนื่องโดยยึดตามมิติสินค้าคงคลังที่เลือกไว้และมีการติดตามการเปลี่ยนแปลงข้อมูลทางการเงิน
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventOnhandItem
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f8ade2981056e9e4f49726a8c01c45f77b8e151b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 48db7ff047a50343bd473d2c71f878e4ee2201e5
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313508"
 ---
-
 # <a name="track-running-average-cost-per-inventory-dimension"></a>ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ ms.lasthandoff: 05/08/2018
 -   ระบบได้ออกใบแจ้งหนี้สำหรับใบสั่งซื้อปริมาณ 2 หน่วย ที่ราคาต่อหน่วย USD 15.00 ออกใบแจ้งหนี้สำหรับคลังสินค้า GW และชุดงาน BBB
 
 ราคาต้นทุนเฉลี่ยสืบเนื่องสำหรับคลังสินค้า GW และชุดงาน AAA คือ USD 11.20 และราคาต้นทุนเฉลี่ยสืบเนื่องสำหรับคลังสินค้า GW และชุดงาน BBB คือ USD 15.00
-
 
 
 

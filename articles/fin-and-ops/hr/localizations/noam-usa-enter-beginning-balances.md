@@ -1,13 +1,13 @@
 ---
-title: "ป้อนยอดดุลต้นงวดของค่าจ้าง"
-description: "หัวข้ออธิบายขั้นตอนสำหรับการป้อนยอดดุลต้นงวดสำหรับรหัสรายได้ การหักลด สวัสดิการ และภาษี ข้อมูลนี้มีประโยชน์สำหรับคู่ค้าเพื่อย้ายหรือโอนย้ายข้อมูลสำหรับการใช้งานค่าจ้างใหม่จากระบบอื่น"
+title: ป้อนยอดดุลต้นงวดของค่าจ้าง
+description: หัวข้ออธิบายขั้นตอนสำหรับการป้อนยอดดุลต้นงวดสำหรับรหัสรายได้ การหักลด สวัสดิการ และภาษี ข้อมูลนี้มีประโยชน์สำหรับคู่ค้าเพื่อย้ายหรือโอนย้ายข้อมูลสำหรับการใช้งานค่าจ้างใหม่จากระบบอื่น
 author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313002"
 ---
-
 # <a name="enter-payroll-beginning-balances"></a>ป้อนยอดดุลต้นงวดของค่าจ้าง
 
 [!include [banner](../../includes/banner.md)]
@@ -168,4 +167,3 @@ ms.lasthandoff: 04/13/2018
 2. คลิก **ใช่** เมื่อข้อความ "เมื่อคุณกลับรายการใบแจ้งยอดการชำระเงินนี้ ใบแจ้งยอดการชำระเงินกลับบัญชีจะถูกสร้างเพื่อออฟเซ็ตใบแจ้งยอดการชำระค่าจ้างนี้ ใบแจ้งยอดค่าจ้างไม่สามารถถูกแก้ไขได้ คุณต้องการกลับรายการใบแจ้งยอดการชำระค่าจ้างนี้หรือไม่" การแสดง 
 
 หลังจากที่คุณกลับรายการใบแจ้งยอดค่าจ้าง คุณสามารถสร้างใบแจ้งยอดการชำระค่าจ้างใหม่สำหรับผู้ปฏิบัติงานจากใบแจ้งยอดรายได้ที่คุณสร้างไว้ก่อนหน้านี้ ตรวจสอบให้แน่ใจว่าได้ทำการแก้ไขบรรทัดที่ไม่ถูกต้องในใบแจ้งยอดรายได้ก่อนที่คุณจะสร้างใบแจ้งยอดค่าจ้างใหม่ จากนั้นให้สร้างใบแจ้งยอดค่าจ้างใหม่ที่มียอดเงินที่ถูกต้อง 
-

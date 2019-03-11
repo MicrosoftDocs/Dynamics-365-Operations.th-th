@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของขั้นตอนการอนุมัติ"
+title: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของขั้นตอนการอนุมัติ
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368064"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
@@ -278,4 +277,3 @@ ms.lasthandoff: 08/09/2018
 
 5. ทำซ้ำขั้นตอนที่ 3 ถึง 4 สำหรับแต่ละผู้ใช้ที่ควรจะเพิ่มในพาธการเลื่อนระดับ คุณสามารถเปลี่ยนลำดับของผู้ใช้ได้
 6. ถ้าผู้ใช้ในพาธการเลื่อนระดับไม่ตอบสนองในเวลาที่กำหนด ระบบจะดำเนินการกับเอกสารโดยอัตโนมัติ เมื่อต้องการระบุการดำเนินการที่ระบบจะทำ เลือกแถว **การดำเนินการ** จากนั้น บนแท็บ **สิ้นสุดการดำเนินการ** เลือกการดำเนินการ
-

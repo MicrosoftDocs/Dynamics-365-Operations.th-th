@@ -1,13 +1,13 @@
 ---
-title: "การจัดการค่าใช้จ่าย"
-description: "ใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจ"
+title: การจัดการค่าใช้จ่าย
+description: ใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313416"
 ---
-
 # <a name="expense-management"></a>การจัดการค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีลูกหนี้และการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีลูกหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 
 มีโพสต์ต่างๆ เกี่ยวกับบัญชีลูกหนี้ใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้ถูกเขียนขึ้นสำหรับบัญชีลูกหนี้ในรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และขั้นตอนจะเหมือนกันในรุ่นปัจจุบัน
 
@@ -54,7 +53,6 @@ ms.lasthandoff: 02/07/2018
 #### <a name="videos"></a>วิดีโอ
 
 ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "การจัดส่งสินค้าโดยตรง"
-description: "บทความนี้มีข้อมูลเกี่ยวกับการจัดส่งสินค้าโดยตรง การจัดส่งสินค้าโดยตรงคือการจัดส่งที่ส่งโดยตรงจากผู้จัดจำหน่ายให้ลูกค้าของคุณ"
+title: การจัดส่งสินค้าโดยตรง
+description: บทความนี้มีข้อมูลเกี่ยวกับการจัดส่งสินค้าโดยตรง การจัดส่งสินค้าโดยตรงคือการจัดส่งที่ส่งโดยตรงจากผู้จัดจำหน่ายให้ลูกค้าของคุณ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f2cdae674dc88a4d533258e24b1ecf7ec4cf55b
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312289"
 ---
-
 # <a name="direct-deliveries"></a>การจัดส่งสินค้าโดยตรง
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="warehouse"></a>คลังสินค้า
 เมื่อคุณสร้างการจัดส่งสินค้าโดยตรง สินค้าที่คุณขายไม่มีทางที่จะมาถึงที่คลังสินค้าของคุณทางกายภาพ อย่างไรก็ตาม คุณยังต้องระบุคลังสินค้าบนรายการใบสั่งขาย ในลักษณะคล้ายกัน ข้อกำหนดการเบิกสินค้าอาจระบุบนกลุ่มแบบจำลองสินค้าสำหรับสินค้า อย่างไรก็ตาม สินค้าไม่มีทางที่จะมาถึงที่คลังสินค้าของคุณทางกายภาพ ข้อกำหนดเหล่านี้จะถูกละเว้นเมื่อใบสั่งขายมีการจัดส่งสินค้าโดยตรง
-
 
 
 

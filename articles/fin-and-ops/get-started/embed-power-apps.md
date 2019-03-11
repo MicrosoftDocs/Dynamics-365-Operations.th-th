@@ -1,13 +1,13 @@
 ---
-title: "แอป PowerApps แบบฝัง"
-description: "หัวข้อนี้อธิบายวิธีการฝัง PowerApps ไปยังไคลเอนต์ Finance and Operations เพื่อเสริมฟังก์ชันของผลิตภัณฑ์"
+title: แอป PowerApps แบบฝัง
+description: หัวข้อนี้อธิบายวิธีการฝัง PowerApps ไปยังไคลเอนต์ Finance and Operations เพื่อเสริมฟังก์ชันของผลิตภัณฑ์
 author: jasongre
 manager: AnnBe
 ms.date: 09/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.search.scope: Operations, Core
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 262d34cbc50251595d22c27387fbd3f1045d1fbb
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334162"
 ---
-
-# <a name="embed-powerapps-apps"></a>แอป PowerApps แบบฝัง
+# <a name="embed-powerapps-apps"></a>ฝังแอป PowerApps
 
 [!include [banner](../includes/banner.md)]
 
-ในแพลตฟอร์ม การอัพเดต 14 Microsoft Dynamics 365 for Finance and Operations สนับสนุนการรวมกับ Microsoft PowerApps บริการสำหรับนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิคในการสร้างแอพทางธุรกิจที่กำหนดเองสำหรับอุปกรณ์เคลื่อนที่ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส จากนั้น PowerApps ที่พัฒนาโดยคุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้นในไคลเอนต์ สามารถถูกฝังได้ในไคลเอนต์ Finance and Operations เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้าง PowerApp เพื่อสนับสนุน Finance and Operations พร้อมด้วยข้อมูลที่ดึงมาจากระบบอื่น
+ในการปรับปรุงแพลตฟอร์ม 14 Microsoft Dynamics 365 for Finance and Operations สนับสนุนการรวมกับ Microsoft PowerApps บริการสำหรับนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิค เพื่อสร้างแอปธุรกิจแบบกำหนดเองสำหรับอุปกรณ์มือถือ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส จากนั้น PowerApps ที่พัฒนาโดยคุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้นในไคลเอนต์ สามารถถูกฝังได้ในไคลเอนต์ Finance and Operations เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้าง PowerApp เพื่อสนับสนุน Finance and Operations พร้อมด้วยข้อมูลที่ดึงมาจากระบบอื่น
 
-เพื่อทราบข้อมูลเพิ่มเติมเกี่ยวกับ PowerApps ที่ฝัง ให้ดูวิดีโอ [วิธีการฝัง PowerApps ใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY) แบบย่อ
+เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ PowerApps ที่ฝัง ดูวิดีโอสั้นๆ [วิธีการฝัง PowerApps ใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>การเพิ่ม PowerApp ที่ฝังตัวไปยังหน้า
 
@@ -132,4 +131,3 @@ public final class ClassTest_Extension
     }
 }
 ```
-

@@ -1,13 +1,13 @@
 ---
-title: "นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์"
-description: "หัวข้อนี้อธิบายการใช้ข้อจำกัดนิพจน์และข้อจำกัดตาราง  ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต คุณสามารถใช้ข้อจำกัดนิพจน์หรือข้อจำกัดตาราง ขึ้นอยู่กับวิธีที่คุณต้องการสร้างข้อจำกัด"
+title: นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
+description: หัวข้อนี้อธิบายการใช้ข้อจำกัดนิพจน์และข้อจำกัดตาราง  ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต คุณสามารถใช้ข้อจำกัดนิพจน์หรือข้อจำกัดตาราง ขึ้นอยู่กับวิธีที่คุณต้องการสร้างข้อจำกัด
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356656"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ ms.lasthandoff: 05/08/2018
 </tr>
 <tr class="even">
 <td>กำลัง</td>
-<td>นำเลขชี้กำลัง มีเลขยกกำลังจากขวาไปซ้าย (กล่าวอีกอย่างหนึ่งคือ เป็น&#39;แบบสัมพันธ์ทางขวา) ดังนั้น <strong>กำลัง[a, b, c]</strong> เท่ากับ <strong>กำลัง[a, กำลัง [b, c]]</strong> <strong>กำลัง</strong> สามารถใช้ได้เมื่อการยกกำลังมีค่าเป็นค่าบวกเท่านั้น</td>
+<td>นำเลขชี้กำลัง มีเลขยกกำลังจากขวาไปซ้าย (หรืออีกนัยหนึ่ง นั่นคือ&#39;การเชื่อมโยงสิทธิ์) ดังนั้น <strong>Power[a, b, c]</strong> เทียบเท่ากับ <strong>Power[a, Power[b, c]]</strong> <strong>กำลัง</strong> สามารถใช้ได้เมื่อการยกกำลังมีค่าเป็นค่าบวกเท่านั้น</td>
 <td>กำลัง[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>ตัวดำเนินการ:</strong> กำลัง[x, 2] == y</li>
@@ -223,7 +222,7 @@ ms.lasthandoff: 05/08/2018
 |        (x)        |                           วงเล็บแทนที่ความสำคัญเริ่มต้น                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>เหตุใดข้อจำกัดนิพจน์ของฉันจึงถูกตรวจสอบไม่ถูกต้อง
-คุณไม่สามารถใช้คำสำคัญที่สำรองไว้เป็นชื่อโปรแกรมแก้ปัญหาแอททริบิวต์ ส่วนประกอบ หรือส่วนประกอบย่อยในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์  นี่คือรายการของคำสำคัญที่สำรองไว้ที่คุณไม่สามารถใช้:
+คุณไม่สามารถใช้คำสำคัญที่สำรองไว้เป็นชื่อโปรแกรมแก้ปัญหาแอททริบิวต์ ส่วนประกอบ หรือส่วนประกอบย่อยในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์  นี่คือรายการของคำสำคัญที่สงวนไว้ซึ่งคุณไม่สามารถใช้ได้:
 
 -   เพดานเงิน
 -   องค์ประกอบ
@@ -252,7 +251,6 @@ ms.lasthandoff: 05/08/2018
 [สร้างข้อจำกัดนิพจน์ (คู่มืองาน)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์ (คู่มืองาน)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

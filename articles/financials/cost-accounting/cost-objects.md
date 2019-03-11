@@ -1,13 +1,13 @@
 ---
-title: "มิติออบเจ็กต์ต้นทุน"
-description: "เมื่อคุณวิเคราะห์ต้นทุน คุณสามารถใช้มิติองค์ประกอบต้นทุนเพื่อกำหนดว่าจะให้ต้นทุนไปที่ใด คุณสามารถใช้มิติออบเจ็กต์ต้นทุนเพื่อกำหนดตำแหน่งที่คุณควรกำหนดต้นทุน หัวข้อนี้แสดงข้อมูลเกี่ยวกับมิติออบเจ็กต์ต้นทุน"
+title: มิติออบเจ็กต์ต้นทุน
+description: เมื่อคุณวิเคราะห์ต้นทุน คุณสามารถใช้มิติองค์ประกอบต้นทุนเพื่อกำหนดว่าจะให้ต้นทุนไปที่ใด คุณสามารถใช้มิติออบเจ็กต์ต้นทุนเพื่อกำหนดตำแหน่งที่คุณควรกำหนดต้นทุน หัวข้อนี้แสดงข้อมูลเกี่ยวกับมิติออบเจ็กต์ต้นทุน
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 60a6575387a6ebe3b349a61368a7561d78dc69f3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8195b776e5d46485172c9f5550ab4ed6d8623dfc
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310357"
 ---
-
 # <a name="cost-object-dimensions"></a>มิติออบเจ็กต์ต้นทุน
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>นำเข้าสมาชิกของมิติออบเจ็กต์ต้นทุนผ่านตัวเชื่อมต่อข้อมูล
 เมื่อต้องการทำให้การนำเข้าสมาชิกของมิติออบเจ็กต์ต้นทุนง่ายขึ้น คุณสามารถใช้ตัวเชื่อมต่อข้อมูลเพื่อดึงค่าจากเอนทิตี้ที่คุณต้องการใช้เป็นมิติออบเจ็กต์ต้นทุน คุณสามารถใช้ตัวเชื่อมต่อข้อมูลที่สร้างไว้ล่วงหน้าหรือตัวเชื่อมต่อข้อมูลที่กำหนดเองที่คุณสร้างขึ้น
-
 
 
 

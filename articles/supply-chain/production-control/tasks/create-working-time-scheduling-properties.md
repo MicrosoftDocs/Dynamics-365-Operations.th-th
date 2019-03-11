@@ -1,13 +1,13 @@
---- 
-title: "สร้างคุณสมบัติการจัดกำหนดการเวลาการทำงาน"
-description: "คุณสมบัติการจัดกำหนดการของเวลาทำงาน จะใช้เพื่อจัดประเภทช่วงเวลาการทำงานและกำหนดการตั้งค่าที่ผู้ปฏิบัติงานต้องคำนึงถึง "
+---
+title: สร้างคุณสมบัติการจัดกำหนดการเวลาการทำงาน
+description: 'คุณสมบัติการจัดกำหนดการของเวลาทำงาน จะใช้เพื่อจัดประเภทช่วงเวลาการทำงานและกำหนดการตั้งค่าที่ผู้ปฏิบัติงานต้องคำนึงถึง '
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 699ba33a766f5bbb6c03a41821a3eb809e3a3e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eef5844ade45b0c7fdd38624d842c1a96efcd639
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351021"
 ---
 # <a name="create-working-time-scheduling-properties"></a>สร้างคุณสมบัติการจัดกำหนดการเวลาการทำงาน
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/29/2017
 2. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
 3. ในฟิลด์ค่า ให้พิมพ์ค่าใดค่าหนึ่ง 
 4. คลิก บันทึก
-
 

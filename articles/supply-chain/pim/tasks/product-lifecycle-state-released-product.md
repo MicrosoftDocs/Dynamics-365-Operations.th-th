@@ -1,13 +1,13 @@
---- 
-title: "มอบหมายสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้"
-description: "กระบวนงานนี้แสดงวิธีการกำหนดสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้"
+---
+title: มอบหมายสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้
+description: กระบวนงานนี้แสดงวิธีการกำหนดสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: e082092ec959658c9509578d95fd32ca3e5e9bd9
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348652"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>มอบหมายสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 02/07/2018
 4. คลิก แก้ไข
 5. ในฟิลด์สถานะรอบการขายของผลิตภัณฑ์ ให้ป้อนหรือเลือกค่า
 6. คลิก บันทึก
-
 

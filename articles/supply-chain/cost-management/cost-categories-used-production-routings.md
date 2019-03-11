@@ -1,13 +1,13 @@
 ---
-title: "ประเภทต้นทุนที่ใช้ในกระบวนการผลิต"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่ใช้กับสภาพแวดล้อมการผลิตที่ใช้กระบวนการผลิต"
+title: ประเภทต้นทุนที่ใช้ในกระบวนการผลิต
+description: บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่ใช้กับสภาพแวดล้อมการผลิตที่ใช้กระบวนการผลิต
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315808"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>ประเภทต้นทุนที่ใช้ในกระบวนการผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ ms.lasthandoff: 11/03/2017
 โดยทั่วไปของการดำเนินการผลิตจะสืบทอดประเภทต้นทุน ที่ถูกกำหนดให้กับทรัพยากรการดำเนินงานหรือการดำเนินงานหลัก  เมื่อมีการสร้างใบสั่งผลิต การดำเนินการผลิตในกระบวนการผลิตจะสะท้อนเวอร์ชันกระบวนการผลิตที่เลือก  คุณสามารถแทนที่ประเภทต้นทุนที่ถูกกำหนดให้กับการดำเนินงานในกระบวนการผลิตได้  
 
 งานการผลิตบางประเภทอาจใช้กับการประเมินเวลาและการรายงาน  ในกรณีนี้ ประเภทต้นทุนเป็นสิ่งจำเป็นสำหรับการผลิตและวัตถุประสงค์ของโครงการ  คุณต้องกำหนดข้อมูลเกี่ยวกับโครงการเพิ่มเติม เมื่อมีการแฟล็กประเภทต้นทุนเพื่อใช้ในโครงการ
-
 
 
 

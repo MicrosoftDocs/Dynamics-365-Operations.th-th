@@ -1,37 +1,36 @@
 ---
-title: "การรวมกับ Microsoft Dynamics 365 for Field Service"
-description: "หัวข้อนี้แสดงภาพรวมของการรวมกับ Microsoft Dynamics 365 for Field Service"
+title: การรวมกับ Microsoft Dynamics 365 for Field Service
+description: หัวข้อนี้แสดงภาพรวมของการรวมกับ Microsoft Dynamics 365 for Field Service
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/25/2018
+ms.date: 02/05/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
+ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
 ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
-ms.openlocfilehash: 673ab2a101cee1a3dbbb1249f582d959cecc7f7f
-ms.contentlocale: th-th
-ms.lasthandoff: 12/23/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377889"
 ---
-
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>การรวมกับ Microsoft Dynamics 365 for Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations เปิดใช้งานการซิงโครไนส์กระบวนการทางธุรกิจระหว่าง Finance and Operations และ Microsoft Dynamics 365 for Field Service สถานการณ์จำลองการรวมถูกตั้งค่าคอนฟิกโดยใช้เท็มเพลตตัวรวมข้อมูลที่ขยายได้ และ Common Data Service (CDS) เพื่อเปิดใช้งานการซิงโครไนส์ของกระบวนการทางธุรกิจ
+Microsoft Dynamics 365 for Finance and Operations เปิดใช้งานการซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Finance and Operations และ Microsoft Dynamics 365 for Field Service สถานการณ์จำลองการรวมถูกตั้งค่าคอนฟิกโดยใช้เท็มเพลตตัวรวมข้อมูลที่ขยายได้ และ Common Data Service (CDS) เพื่อเปิดใช้งานการซิงโครไนส์ของกระบวนการทางธุรกิจ
 เท็มเพลตมาตรฐานสามารถใช้เพื่อสร้างโครงการที่มีการรวมแบบกำหนดเอง ที่ซึ่งฟิลด์มาตรฐานและแบบกำหนดเองเพิ่มเติมและเอนทิตี สามารถถูกแม็ปเพื่อปรับปรุงการรวม และให้ตรงตามความต้องการทางธุรกิจเฉพาะ 
 
 สร้างการรวมบริการฟิลด์ด้านบนสุดฟังก์ชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่มีอยู่
@@ -48,23 +47,7 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 
 เมื่อต้องการดูตัวอย่างของวิธีการที่คุณสามารถซิงโครไนส์ใบสั่งงานระหว่าง Field Service และ Finance and Operations ดูวิดีโอ YouTube แบบย่อ [วิธีการซิงโครไนส์ใบสั่งงานกับการรวม Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo)
 
-## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
-การรวม Field Service สนับสนุนเวอร์ชันต่อไปนี้:
-
-### <a name="dynamics-365-for-finance-and-operations-version-80-april-2018-or-later"></a>Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018) หรือรุ่นที่ใหม่กว่า
-
-- Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018) ถูกนำออกใช้ในเดือนเมษายน 2018 และได้สร้างแอพลิเคชันหมายเลข 8.0.30.8020 ที่มีการอัพเดแพลตฟอร์ม 15 (7.0.4841.35234) 
-
-## <a name="system-requirements-for-field-service"></a>ข้อกำหนดของระบบสำหรับ Field Service
-เมื่อต้องการใช้โซลูชันการรวม Field Service คุณต้องติดตั้งส่วนประกอบต่อไปนี้:
-
-### <a name="microsoft-dynamics-365-for-field-service-90-or-later"></a>Microsoft Dynamics 365 สำหรับ Field Service 9.0 หรือรุ่นที่ใหม่กว่า
-
-- Dynamics 365 for Field Service รุ่น 1612 (9.0.1.733) (DB 9.0.1.733) ออนไลน์ หรือรุ่นที่ใหม่กว่า
-- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด (P2C) สำหรับ Dynamics 365 รุ่น 1.15.0.1 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
-- โซลูชันการรวม Field Service สำหรับ Dynamics 365 รุ่น 1.0.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegration)
-
-# <a name="integration-with-microsoft-dynamics-365-for-field-service-including-inventory-and-project-information"></a>การรวมกับ Microsoft Dynamics 365 for Field Service ซึ่งรวมทั้งข้อมูลสินค้าคงคลังและโครงการ
+## <a name="integration-with-microsoft-dynamics-365-for-field-service-including-inventory-and-project-information"></a>การรวมกับ Microsoft Dynamics 365 for Field Service รวมถึงสินค้าคงคลังและข้อมูลโครงการ
 
 ฟังก์ชันเพิ่มเติมในขั้นตอนที่สองนี้ มุ่งเน้นในการให้ข้อมูลเชิงลึกแก่ช่างเทคนิคภาคสนามเกี่ยวกับข้อมูลสินค้าคงคลังจาก Finance and Operations ซึ่งอนุญาตให้รายการเหล่านั้นปรับปรุงระดับสินค้าคงคลังและทำการโอนย้ายวัสดุ นอกจากนี้ บริษัทที่ติดตั้งหรือให้บริการซ่อมบำรุงสินค้าที่ขายไปแล้วจะได้รับประโยชน์จากการควบคุมที่ดีขึ้นและการมองเห็นการขายและกระบวนการบริการทั้งหมดพร้อมกับการรวมจากโครงการ
 
@@ -73,7 +56,7 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 - ข้อมูลปริมาณสินค้าคงคลังคงเหลือ
 - การโอนย้ายสินค้าคงคลัง
 - การปรับปรุงสินค้าคงคลัง
-- Dynamics 365 for Finance and Operations ที่เชื่อมโยงกับใบสั่งงาน Dynamics 365 for Field Service
+- โครงการ Dynamics 365 for Finance and Operations ที่เชื่อมโยงกับใบสั่งงาน Dynamics 365 for Field Service
 - ใบสั่งงาน Dynamics 365 for Field Service ที่มีลิงค์ไปยังโครงการ Dynamics 365 for Finance and Operations นำหมายเลขโครงการนี้ไปใช้กับใบสั่งขาย Dynamics 365 for Finance and Operations เพื่ออนุญาตให้มีการออกใบแจ้งหนี้จากโครงการ 
 
 ![การซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Finance and Operations และ Field Service](./media/FSv2overview.png)
@@ -87,15 +70,16 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 - ใบสั่งงานพร้อมกับโครงการ (Field Service ไปยัง Fin and Ops) - ใบสั่งงานใน Field Service ไปยัง Sales orders ใน Finance and Operations ที่มีการสนับสนุนสำหรับโครงการ [การสอบถามขั้นสูง] 
 - ผลิตภัณฑ์ Field Service ที่มีหน่วยสินค้าคงคลัง (Fin and Ops ไปยัง Sales) - Finance and Operations 'ผลิตภัณฑ์ที่นำออกใช้ที่สามารถขายได้' ไปยัง 'ผลิตภัณฑ์' Sales สำหรับ Field Service ซึ่งรวมถึงหน่วยสินค้าคงคลัง 
 
-## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
+## <a name="system-requirements"></a>ความต้องการของระบบ
+
+### <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
 การรวม Field Service สนับสนุนเวอร์ชันต่อไปนี้:
 
-- Dynamics 365 for Finance and Operations รุ่น 8.1.2 (ธันวาคม 2019) ถูกนำออกใช้ในเดือนธันวาคม 2019 และมีการสร้างแอพลิเคชันหมายเลข 8.1.195 ที่มีการอัพเดแพลตฟอร์ม 22 (7.0.5095) 
+- Dynamics 365 for Finance and Operations รุ่น 8.1.2 (ธันวาคม 2019) นำออกใช้ในเดือนธันวาคม 2019 และมีรุ่นของแอพลิเคชันหมายเลข 8.1.195 ที่มี Platform Update 22 (7.0.5095) 
 
-## <a name="system-requirements-for-field-service"></a>ข้อกำหนดของระบบสำหรับ Field Service
+### <a name="system-requirements-for-field-service"></a>ข้อกำหนดของระบบสำหรับ Field Service
 เมื่อต้องการใช้โซลูชันการรวม Field Service คุณต้องติดตั้งส่วนประกอบต่อไปนี้:
 
-- Field Service for Dynamics 365 (รุ่น 8.2.0.286) หรือรุ่นที่ใหม่กว่าบน Dynamics 365 9.1.x - ที่นำออกใช้ในเดือนพฤศจิกายน 2018
-- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด (P2C) สำหรับ Dynamics 365 รุ่น 1.15.0.1 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
-- โซลูชัน 'การรวม Field Service โครงการและสินค้าคงคลัง' สำหรับ Dynamics 365 รุ่น 2.0.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2)
-
+- Field Service for Dynamics 365 (รุ่น 8.2.0.286) หรือรุ่นที่ใหม่กว่าใน Dynamics 365 9.1.x - นำออกใช้ในเดือนพฤศจิกายน 2018
+- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด (P2C) สำหรับ Dynamics 365 รุ่น 1.15.0.1 หรือรุ่นที่ใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
+- โซลูชัน 'การรวม Field Service โครงการและสินค้าคงคลัง' สำหรับ Dynamics 365 รุ่น 2.0.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2)

@@ -1,13 +1,13 @@
 ---
-title: "ภาพรวมของ Positive pay"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับ positive pay ซึ่งถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคารได้"
+title: ภาพรวมของ Positive pay
+description: บทความนี้แสดงข้อมูลเกี่ยวกับ positive pay ซึ่งถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคารได้
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePaySummary
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: a7af2fc0e2c9915c4267f60e27dbddac320af6a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315187"
 ---
-
 # <a name="positive-pay-overview"></a>ภาพรวมของ Positive pay
 
 [!include [banner](../includes/banner.md)]
@@ -42,12 +41,11 @@ Positive pay ถูกเรียกอีกอย่างว่า SafePay
 
 สำหรับแต่ละบัญชีธนาคารที่คุณต้องการสร้างข้อมูล Positive pay ให้ คุณต้องกำหนดรูปแบบ Positive pay  หลังจากที่คุณได้สร้างการชำระเงิน คุณสามารถสร้างไฟ Positive pay สำหรับนิติบุคคลเดี่ยวและบัญชีธนาคารเดี่ยวได้  อีกทางหนึ่งคือ คุณสามารถสร้างไฟล์ Positive pay สำหรับหลายนิติบุคคลและหลายบัญชีธนาคารในเวลาเดียวกันได้  
 
-หลังจากที่เช็คที่ถูกรายการในไฟล์ positive pay ได้ถูกชำระ คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ  จากนั้นคุณจะสามารถยืนยันไฟล์ Positive Pay ได้ใน Microsoft Dynamics 365 for Finance and Operations 
+หลังจากที่เช็คที่ถูกรายการในไฟล์ positive pay ได้ถูกชำระ คุณจะได้รับหมายเลขการยืนยันจากธนาคารของคุณ  จากนั้น คุณสามารถยืนยันไฟล์ค่าจ้างเชิงบวกได้ใน Microsoft Dynamics 365 for Finance and Operations 
 
 ถ้าคุณต้องเปลี่ยนไฟล์ positive pay คุณสามารถเรียกคืนได้  จากนั้นสำหรับเช็คแต่ละรายการในไฟล์ Positive pay ฟิลด์ที่บ่งชี้ว่าเช็คได้ถูกรวมอยู่ในไฟล์ Positive pay หรือไม่ จะถูกรีเซ็ต
 
 สำหรับข้อมูลเพิ่มเติม ดู [ตั้งค่าและสร้างไฟล์ Positive Pay](set-up-generate-positive-pay-files.md)
-
 
 
 

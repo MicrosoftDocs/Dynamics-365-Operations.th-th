@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่ากฎค่าส่งเสริมการขายให้แก่ผู้ขาย"
-description: "กระบวนงานนี้แสดงวิธีการตั้งค่าและการเปิดใช้งานการคำนวณค่าคอมมิชชันการขายและการติดตาม "
+---
+title: ตั้งค่ากฎค่าส่งเสริมการขายให้แก่ผู้ขาย
+description: 'กระบวนงานนี้แสดงวิธีการตั้งค่าและการเปิดใช้งานการคำนวณค่าคอมมิชชันการขายและการติดตาม '
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0ed7ec4ca74e4b6863ab2feff7f20de319789038
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334231"
 ---
 # <a name="set-up-sales-commission-rules"></a>ตั้งค่ากฎค่าส่งเสริมการขายให้แก่ผู้ขาย
 
@@ -97,5 +97,4 @@ ms.lasthandoff: 09/29/2017
 15. ขยายส่วนการขาย
 16. ในฟิลด์กลุ่มค่าคอมมิชชัน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 17. ในรายการ ให้เลือกกลุ่มค่าคอมมชชันที่คุณสร้างก่อนหน้า
-
 

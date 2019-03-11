@@ -1,13 +1,13 @@
---- 
-title: "สร้างรหัสดอกเบี้ยด้วยช่วงดอกเบี้ย"
-description: "รหัสดอกเบี้ยสามารถตั้งค่าในการคำนวณยอดดอกเบี้ยที่แตกต่างกันตามช่วง "
+---
+title: สร้างรหัสดอกเบี้ยด้วยช่วงดอกเบี้ย
+description: 'รหัสดอกเบี้ยสามารถตั้งค่าในการคำนวณยอดดอกเบี้ยที่แตกต่างกันตามช่วง '
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367650"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>สร้างรหัสดอกเบี้ยด้วยช่วงดอกเบี้ย
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 20. ป้อนค่าถัดไปเป็น 7 ซึ่งจะเป็นเดือนแรกที่คุณสามารถคำนวณอัตราดอกเบี้ยใหม่ได้
 21. ป้อนเปอร์เซ็นต์ดอกเบี้ยสำหรับแต่ละเดือนที่จะใช้ในการคำนวณดอกเบี้ยซึ่งเริ่มต้นในเดือนที่ 7 สำหรับตัวอย่างนี้คือ 2.5
 22. คลิก "ปิด" เพื่อสิ้นสุดการติดตั้ง
-
 

@@ -1,13 +1,13 @@
 ---
-title: "ค่าเสื่อมราคาพิเศษ"
-description: "บทความนี้แสดงภาพรวมของฟังก์ชันการคิดค่าเสื่อมราคาพิเศษ"
+title: ค่าเสื่อมราคาพิเศษ
+description: บทความนี้แสดงภาพรวมของฟังก์ชันการคิดค่าเสื่อมราคาพิเศษ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d50cbba648beb9831e186cd160853abe79c4e4
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323329"
 ---
-
 # <a name="bonus-depreciation"></a>ค่าเสื่อมราคาพิเศษ
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ ms.lasthandoff: 11/03/2017
 คุณสามารถสร้างเรกคอร์ดค่าเสื่อมราคาพิเศษได้ไม่จำกัดจำนวน หลังจากที่คุณกำหนดเรกคอร์ดเหล่านั้นให้กับสมุดบัญชีกลุ่มสินทรัพย์ จะถูกนำไปใช้กับสมุดบัญชีสินทรัพย์ 
 
 ค่าเสื่อมราคาพิเศษจะถูกป้อนเป็นเปอร์เซ็นต์หรือเป็นจำนวนเงินคงที่ เมื่อคุณลงรายการบัญชีข้อเสนอค่าเสื่อมราคา จะมีการลงรายการบัญชีธุรกรรมค่าเสื่อมราคาพิเศษที่สมุดบัญชีโดยเป็นธุรกรรมที่แยกต่างหากจากธุรกรรมค่าเสื่อมราคา
-
 
 
 

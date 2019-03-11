@@ -1,13 +1,13 @@
 ---
-title: "ชนิดสมุดรายวันบัญชีแยกประเภท"
-description: "หัวข้อนี้อธิบายถึงชนิดของสมุดรายวันที่คุณสามารถตั้งค่าสำหรับสมุดรายวันทางการเงิน "
+title: ชนิดสมุดรายวันบัญชีแยกประเภท
+description: 'หัวข้อนี้อธิบายถึงชนิดของสมุดรายวันที่คุณสามารถตั้งค่าสำหรับสมุดรายวันทางการเงิน '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 61f737edea3af5281b6d2fd7c3c0899082782067
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: th-th
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308678"
 ---
-
 # <a name="ledger-journal-types"></a>ชนิดสมุดรายวันบัญชีแยกประเภท
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงชนิดของสมุดรายวันที่คุณสามารถตั้งค่าสำหรับสมุดรายวันทางการเงิน  ใช้หน้า **ชื่อสมุดรายวัน** เพื่อตั้งค่าสมุดรายวันที่คุณสามารถใช้ทั่วทั้ง Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้อธิบายถึงชนิดของสมุดรายวันที่คุณสามารถตั้งค่าสำหรับสมุดรายวันทางการเงิน  ใช้หน้า **ชื่อสมุดรายวัน** เพื่อตั้งค่าสมุดรายวันที่คุณสามารถใช้ตลอดทั้ง Microsoft Dynamics 365 for Finance and Operations
 
 | ชนิดสมุดรายวัน                      | วัตถุประสงค์                       | ป้อนธุรกรรมบนหน้านี้                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ ms.lasthandoff: 10/17/2018
 | การจัดทำเรกคอร์ดใบแจ้งหนี้ของผู้จัดจำหน่าย          | การลงรายการบัญชีใบแจ้งหนี้ของผู้จัดจำหน่ายที่อยู่ในสมุดรายวัน                                                                                                                                                                                                                                                                                                                 | สมุดรายวันใบแจ้งหนี้                                                |
 | ตั๋วสัญญาใช้เงินที่ออกให้แก่ผู้จัดจำหน่ายอีกครั้ง     | ออกตั๋วสัญญาใช้เงินที่ได้ชำระเงินแล้วก่อนหน้านี้โดยธนาคารขององค์กรคุณใหม่                                                                                                                                                                                                                                                                      | สมุดรายวันการออกตั๋วสัญญาใช้เงินใหม่                                 |
 | ตั๋วสัญญาใช้เงินที่จ่ายให้แก่ผู้จัดจำหน่าย     | สร้างธุรกรรมตั๋วสัญญาใช้เงินชำระแก่ผู้จัดจำหน่าย                                                                                                                                                                                                                                                                                                          | จ่ายเงินตามสมุดรายวันตั๋วสัญญาใช้เงิน                                 |
-
 
 
 

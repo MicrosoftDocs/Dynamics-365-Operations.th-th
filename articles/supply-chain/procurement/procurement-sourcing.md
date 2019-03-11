@@ -1,13 +1,13 @@
 ---
-title: "โฮมเพจการจัดซื้อและการจัดหา"
-description: "หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ ที่พร้อมใช้งานสำหรับการจัดซื้อและการจัดหา"
+title: โฮมเพจการจัดซื้อและการจัดหา
+description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ ที่พร้อมใช้งานสำหรับการจัดซื้อและการจัดหา
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338601"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
 [!include [banner](../includes/banner.md)]
@@ -56,11 +55,11 @@ ms.lasthandoff: 11/03/2017
 -   [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](manage-vendor-collaboration-users.md)
 -   [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](set-up-maintain-vendor-collaboration.md)
--   [สคริปต์สาธิตสินค้าคงคลังที่มีการส่งมอบขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(เอกสารทางเทคนิค)
+-   [สคริปต์สาธิตของสินค้าคงคลังการฝากขายขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(เอกสารทางเทคนิค)
 -   [ตรวจสอบสินค้าคงคลังที่มีการส่งมอบโดยใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [การทำงานร่วมกันกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)  (Dynamics AX เวอร์ชัน กุมภาพันธ์ 2016 และ พฤษภาคม 2016 เท่านั้น)
+-   [การทำงานร่วมกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)  (รุ่นเดือนกุมภาพันธ์ 2016 และเดือนพฤษภาคม 2016 ของ Dynamics AX เท่านั้น)
 -   [การตั้งค่าคอนฟิกความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Finance and Operations เวอร์ชัน 2016 และ พ.ค. 2016 เท่านั้น)
--   [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่ายสำหรับแอพ Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกับผู้จัดจำหน่ายสำหรับแอป Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>การจัดการผลิตภัณฑ์สำหรับการจัดซื้อ
 -   [แค็ตตาล็อกการจัดซื้อ](procurement-catalogs.md)
@@ -102,7 +101,6 @@ ms.lasthandoff: 11/03/2017
 -   [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (เอกสาร)
 -   [นโยบายการจัดซื้อ](purchase-policies.md)
 -   [สร้างนโยบายการจัดซื้อ](tasks/create-purchasing-policies.md)
-
 
 
 

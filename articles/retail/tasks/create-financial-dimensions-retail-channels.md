@@ -1,13 +1,13 @@
---- 
-title: "สร้างมิติทางการเงินสำหรับช่องทางการค้าปลีก และตั้งค่าคอนฟิกค่ามิติบนร้านค้า"
-description: "กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินของช่องทางการขายปลีกด้วยและค่ามิติและขั้นตอนต่างๆเพื่อตั้งค่าคอนฟิกค่ามิติทางการเงินในร้านค้าปลีก "
+---
+title: สร้างมิติทางการเงินสำหรับช่องทางการค้าปลีก และตั้งค่าคอนฟิกค่ามิติบนร้านค้า
+description: 'กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินของช่องทางการขายปลีกด้วยและค่ามิติและขั้นตอนต่างๆเพื่อตั้งค่าคอนฟิกค่ามิติทางการเงินในร้านค้าปลีก '
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: cf32d17a36fd699141ce697d23e20b2eb5cbfa54
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354540"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>สร้างมิติทางการเงินสำหรับช่องทางการค้าปลีก และตั้งค่าคอนฟิกค่ามิติบนร้านค้า
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 08/09/2018
 23. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 24. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 25. คลิก บันทึก
-
 

@@ -1,32 +1,31 @@
 ---
-title: "นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการกำหนดระดับความถูกต้องขององค์ประกอบต้นทุนรอง และสร้างกฎการรวบรวมต้นทุนที่พอดีกับการรายงานขององค์กรและความสามารถในการติดตามต้นทุน"
+title: นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการกำหนดระดับความถูกต้องขององค์ประกอบต้นทุนรอง และสร้างกฎการรวบรวมต้นทุนที่พอดีกับการรายงานขององค์กรและความสามารถในการติดตามต้นทุน
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356150"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย 
 
 [!include [banner](../includes/banner.md)]
@@ -251,13 +250,13 @@ ms.lasthandoff: 05/08/2018
 | CC003       | ชิ้นส่วนประกอบ     | SC-CC002 | การเงิน         | 11.527,75   | วันที่ 31-01-2017 |
 | CC004       | บรรจุภัณฑ์    | SC-CC002 | การเงิน         | 6.207,25    | วันที่ 31-01-2017 |
 
-หลังจาก **การคำนวณค่าโสหุ้ย** เสร็จสมบูรณ์ คุณสามารถรายงานผลลัพธ์ได้โดยใช้เครื่องมือต่าง ๆ เช่น Microsoft SharePoint Workspace Excel หรือ Power BI
+หลังจาก **การคำนวณค่าโส่หุ้ย** เสร็จสิ้น คุณสามารถรายงานผลโดยใช้เครื่องมือ เช่น Microsoft SharePoint Workspace Excel หรือ Power BI
 
 ## <a name="view-reporting-in-excel"></a>ดูการรายงานใน Excel 
 
 ลำดับชั้นของมิติอนุญาตให้คุณสามารถดูข้อมูลในระดับการรวมค่าที่แตกต่างกันได้
 
-นี่เป็นตัวอย่างของ Power Pivot ที่รายงานใน Excel
+นี่เป็นตัวอย่างของการรายงาน Power Pivot ใน Excel
 
 | **งบกำไรขาดทุน** | **ออบเจ็กต์ต้นทุน** |                |               |               |  **ยอดรวม**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ ms.lasthandoff: 05/08/2018
 -  [มิติองค์ประกอบต้นทุน](cost-elements.md)
 -  [ลำดับชั้นของมิติ](dimension-hierarchy.md)
 -  [การคำนวณค่าโสหุ้ย](overhead-calculation.md)
-

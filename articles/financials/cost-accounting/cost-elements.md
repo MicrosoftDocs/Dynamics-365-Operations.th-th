@@ -1,13 +1,13 @@
 ---
-title: "มิติองค์ประกอบต้นทุน"
-description: "หนึ่งในหลักของการลงบัญชีต้นทุนคือมิติองค์ประกอบต้นทุนจะถูกใช้ในการจัดประเภทและติดตามขั้นตอนของต้นทุน"
+title: มิติองค์ประกอบต้นทุน
+description: หนึ่งในหลักของการลงบัญชีต้นทุนคือมิติองค์ประกอบต้นทุนจะถูกใช้ในการจัดประเภทและติดตามขั้นตอนของต้นทุน
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f47c75b6f6f4533501070f78698de82cf70f9bd
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366086"
 ---
-
 # <a name="cost-element-dimensions"></a>มิติองค์ประกอบต้นทุน
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="implementation-considerations"></a>ข้อควรพิจารณาการใช้งาน
 เนื่องจากองค์ประกอบต้นทุนแสดงถึงระดับต่ำสุดของรายละเอียดต้นทุน คุณควรตรวจสอบให้แน่ใจว่ามีการรวมองค์ประกอบต้นทุนทั้งหมดที่จำเป็นในการสร้างการรายงานการจัดการเมื่อคุณใช้งานโครงสร้างองค์ประกอบต้นทุน การค้นหาจำนวนองค์ประกอบต้นทุนที่เหมาะสมสำหรับการควบคุมต้นทุนอาจทำได้ยาก การมีองค์ประกอบต้นทุนนับพันรายการอาจทำให้การควบคุมแต่ละองค์ประกอบต้นทุนทำได้ยาก อีกวิธีหนึ่งคือ คุณสามารถจัดกลุ่มองค์ประกอบต้นทุนและจัดการการควบคุมต้นทุนในระดับรวม
-
 
 
 

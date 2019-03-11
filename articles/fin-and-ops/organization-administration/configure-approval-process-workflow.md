@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน"
-description: "ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ"
+title: ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน
+description: ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325652"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
@@ -128,7 +127,7 @@ ms.lasthandoff: 12/18/2018
     <td>
     <ol>
     <li>หลังจากที่คุณเลือก <strong>ผู้ใช้</strong>คลิกแท็บ <strong>ผู้ใช้</strong></li>
-    <li>รายการ <strong>ผู้ใช้ที่พร้อมใช้งาน</strong> ประกอบด้วยผู้ใช้ Microsoft Dynamics 365 for Finance and Operations ทั้งหมด เลือกผู้ใช้ที่จะส่งการแจ้งเตือนให้ และจากนั้นย้ายผู้ใช้เหล่านี้ไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong> :</li>
+    <li><strong>ผู้ใช้ที่พร้อมใช้งาน</strong>: รายการรวมผู้ใช้ Microsoft Dynamics 365 for Finance and Operations ทั้งหมด เลือกผู้ใช้ที่จะส่งการแจ้งเตือนให้ และจากนั้นย้ายผู้ใช้เหล่านี้ไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong> :</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/18/2018
 1. ในโปรแกรมแก้ไขลำดับงาน ดับเบิลคลิกที่กระบวนการอนุมัติ โปรแกรมแก้ไขลำดับงานแสดงขั้นตอนกระบวนการอนุมัติ
 2. เมื่อต้องการเพิ่มขั้นตอนการอนุมัติ ลากขั้นตอนจากพื้นที่ **องค์ประกอบลำดับงาน** ไปที่ผืนผ้าใบ
 3. เมื่อต้องการตั้งค่าคอนฟิกขั้นตอนการอนุมัติ ให้ดูที่ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ](configure-approval-step-workflow.md)
-

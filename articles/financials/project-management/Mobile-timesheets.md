@@ -1,13 +1,13 @@
 ---
-title: "แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่"
-description: "แผ่นเวลาของฉัน (ปรับให้เหมาะกับมือถือ) ช่วยให้พนักงานสามารถสร้างและส่งแผ่นเวลาโครงการได้ เพื่อบันทึกชั่วโมงของพวกเขาสำหรับโครงการหนึ่งๆ บนอุปกรณ์เคลื่อนที่"
+title: แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
+description: แผ่นเวลาของฉัน (ปรับให้เหมาะกับมือถือ) ช่วยให้พนักงานสามารถสร้างและส่งแผ่นเวลาโครงการได้ เพื่อบันทึกชั่วโมงของพวกเขาสำหรับโครงการหนึ่งๆ บนอุปกรณ์เคลื่อนที่
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360957"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ ms.lasthandoff: 04/13/2018
 
 **แผ่นเวลาสำหรับการตรวจทานของฉัน (ปรับให้เหมาะกับมือถือ)** ช่วยให้ผู้จัดการ ที่มีสิทธิ์ในการอนุมัติแผ่นเวลา สามารถตรวจทานและอนุมัติแผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่ได้ การแก้ไขหรือการดูข้อมูลมิติทางการเงิน ไม่ได้รับการสนับสนุนจากแอปบนมือถือ **แผ่นเวลาสำหรับการตรวจทานของฉัน (ปรับให้เหมาะกับมือถือ)** สามารถเข้าถึงได้ผ่านเว็บเบราเซอร์บนอุปกรณ์เคลื่อนที่ของคุณ
 
-แอพลิเคชันสำหรับอุปกรณ์เคลื่อนที่เข้ากันได้สำหรับ iPhone ที่มี Dynamics 365 for Finance and Operations การอัพเดตแพลตฟอร์ม 15
-Android จะเข้ากันได้กับการอัพเดตแพลตฟอร์ม 16 เมื่อพร้อมใช้งาน
+แอพลิเคชันบนมือถือนี้เข้ากันได้สำหรับ iPhone กับ Dynamics 365 for Finance and Operations การปรับปรุงแพลตฟอร์ม 15
+Android จะเข้ากันได้กับการปรับปรุงแพลตฟอร์ม 16 เมื่อกลายเป็นพร้อมใช้งาน
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>สร้างแผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่ของคุณ
 ------------------------------------------------
@@ -66,4 +65,3 @@ Android จะเข้ากันได้กับการอัพเดต
 13. ไม่จำเป็นต้องระบุ: ป้อนรายการแผ่นเวลาเพิ่มเติม
 
 14. หลังจากที่คุณป้อนรายการแผ่นเวลาเสร็จสมบูรณ์ เลือกการดำเนินการ **ลำดับงาน** \> **ส่ง** เพื่อส่งแผ่นเวลาของคุณไปยังกระบวนการอนุมัติลำดับงาน
-

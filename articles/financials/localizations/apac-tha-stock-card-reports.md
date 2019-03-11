@@ -1,13 +1,13 @@
 ---
-title: "รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย"
-description: "หัวข้อนี้ให้ข้อมูลเกี่ยวกับรายงานบัตรสินค้าคงคลังสำหรับนิติบุคคลในประเทศไทย"
+title: รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับรายงานบัตรสินค้าคงคลังสำหรับนิติบุคคลในประเทศไทย
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Thailand
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d95108fd9c275a9f1fa0bff79db31f941f0bbbf2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 554c350961baed8be8f37854dd1b095d4342ae0e
-ms.openlocfilehash: 1ee58e08579aba2378cd9120e7b3d146897dc8e0
-ms.contentlocale: th-th
-ms.lasthandoff: 03/21/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371861"
 ---
-
 # <a name="stock-card-report-for-thailand"></a>รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ ms.lasthandoff: 03/21/2018
 
 ## <a name="generate-the-stock-card-report"></a>สร้างรายงานบัตรสินค้าคงคลัง
 คุณสามารถจัดกลุ่มสินค้าต่างๆ ตามไซต์ คลังสินค้า สถานที่เก็บ หมายเลขสินค้า หรือกลุ่มสินค้า และสร้างรายงานบัตรสินค้าคงคลัง ใช้รายงาน **บัตรสินค้าคงคลัง – ตามจริง** ในการสร้างรายงานบัตรสินค้าคงคลังตามจริง ใช้รายงาน **บัตรสินค้าคงคลัง – ทางการเงิน** ในการสร้างรายงานบัตรสินค้าคงคลังทางการเงิน คุณสามารถสร้างรายงานบัตรสินค้าคงคลังโดยละเอียดหรือโดยสรุป
-

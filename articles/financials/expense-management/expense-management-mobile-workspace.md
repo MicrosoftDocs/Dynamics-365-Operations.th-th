@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานแบบเคลื่อนที่การจัดการค่าใช้จ่าย"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้สามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยการใช้ใบเสร็จรับเงินที่แนบและสร้างและจัดการรายงานค่าใช้จ่ายของตน"
+title: พื้นที่ทำงานแบบเคลื่อนที่การจัดการค่าใช้จ่าย
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการจัดการค่าใช้จ่าย พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้สามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยการใช้ใบเสร็จรับเงินที่แนบและสร้างและจัดการรายงานค่าใช้จ่ายของตน
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344351"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย** พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถเก็บบันทึกและอัพโหลดใบเสร็จรับเงิน เพื่อให้สามารถแนบกับรายงานค่าใช้จ่ายในภายหลังได้ ผู้ใช้สามารถสร้างรายการค่าใช้จ่ายได้อย่างรวดเร็วโดยการใช้ใบเสร็จรับเงินที่แนบและสร้างและจัดการรายงานค่าใช้จ่ายของตน นอกจากนี้ ผู้อนุมัติสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ **การจัดการค่าใช้จ่าย** เพื่อดูรายงานค่าใช้จ่ายที่กำหนดไว้ให้ และอนุมัติหรือปฏิเสธรายงานค่าใช้จ่ายเหล่านั้นอย่างใดอย่างหนึ่ง
 
 
-พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
 
 
 ## <a name="overview"></a>ภาพรวม
@@ -42,11 +41,11 @@ ms.lasthandoff: 03/26/2018
 
 โดยเฉพาะอย่างยิ่ง พื้นที่ทำงานเคลื่อนที่ **การจัดการค่าใช้จ่าย** ช่วยให้ผู้ใช้สามารถทำงานเหล่านี้ได้:
 
-- ถ่ายรูปภาพของใบเสร็จรับเงิน และอัพโหลดไปยัง Microsoft Dynamics 365 for Finance and Operations จากนั้นคุณสามารถแนบรูปถ่ายนั้นกับรายงานค่าใช้จ่ายในภายหลัง
+- ถ่ายภาพใบเสร็จ และอัปโหลดไปยัง Microsoft Dynamics 365 for Finance and Operations จากนั้นคุณสามารถแนบรูปถ่ายนั้นกับรายงานค่าใช้จ่ายในภายหลัง
 - อัพโหลดไฟล์เป็นใบเสร็จรับเงินที่เก็บบันทึก จากนั้นคุณสามารถแนบไฟล์นั้นกับรายงานค่าใช้จ่ายในภายหลัง
 - สร้างรายการค่าใช้จ่ายใหม่โดยใช้ใบเสร็จรับเงินที่แนบ คุณสามารถเพิ่มสินค้าในรายการไปยังรายงานค่าใช้จ่ายในภายหลัง แล้วส่งเพื่อขอการอนุมัติและการชำระเงินคืน
 
-ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations คุณยังสามารถใช้คุณลักษณะเหล่านี้ได้อีกด้วย:
+ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations คุณยังสามารถใช้คุณลักษณะเหล่านี้ได้ด้วย:
 
 - สร้างรายงานค่าใช้จ่ายใหม่
 - แนบธุรกรรมบัตรเครดิตและค่าใช้จ่ายที่สร้างขึ้นก่อนหน้านี้อื่น ๆ กับรายงานค่าใช้จ่าย
@@ -58,13 +57,13 @@ ms.lasthandoff: 03/26/2018
 - อนุมัติหรือปฏิเสธรายงานค่าใช้จ่ายที่คุณได้รับมอบหมายให้เป็นผู้อนุมัติ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ
+ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น หากคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
-ถ้า Microsoft Dynamics 365 for Finance and Operations ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการค่าใช้จ่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
+ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Finance and Operations สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การจัดการค่าใช้จ่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
-ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
+ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ ms.lasthandoff: 03/26/2018
 <td>ผู้ดูแลระบบ</td>
 <td>KB 4019015 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การจัดการค่าใช้จ่าย</strong> เมื่อต้องการใช้ KB 4019015 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ExpenseMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
@@ -94,7 +93,7 @@ ms.lasthandoff: 03/26/2018
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Operations
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือของ Dynamics 365 for Operations
 ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
 
 - [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ ms.lasthandoff: 03/26/2018
 22. เลือก **ส่ง**
 23. ป้อนข้อคิดเห็นใด ๆ สำหรับผู้อนุมัติ
 24. เลือก **เสร็จสิ้น**
-

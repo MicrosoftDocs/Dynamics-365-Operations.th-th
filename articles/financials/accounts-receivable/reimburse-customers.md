@@ -1,13 +1,13 @@
 ---
-title: "การชำระเงินคืนลูกค้า"
-description: "บทความนี้อธิบายวิธีการสร้างธุรกรรมการชำระเงินคืนสำหรับกลุ่มลูกค้า  ถ้าลูกค้ามียอดดุลเครดิต คุณสามารถชำระเงินคืนลูกค้าเป็นจำนวนยอดดุล"
+title: การชำระเงินคืนลูกค้า
+description: บทความนี้อธิบายวิธีการสร้างธุรกรรมการชำระเงินคืนสำหรับกลุ่มลูกค้า  ถ้าลูกค้ามียอดดุลเครดิต คุณสามารถชำระเงินคืนลูกค้าเป็นจำนวนยอดดุล
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36e7e684e207e13baffa7eefd13e8e4a29d99914
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01c9dcebe82544624c6dd0feb3672d1c5bdfe2d1
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325238"
 ---
-
 # <a name="reimburse-customers"></a>การชำระเงินคืนลูกค้า
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 11/03/2017
     จำนวนเครดิตมีการโอนไปยังบัญชีผู้ขายของลูกค้าและดำเนินการเป็นการชำระเงินแบบปกติ ถ้าลูกค้าไม่มีบัญชีผู้ขาย โปรแกรมจะสร้างบัญชีผู้ขายครั้งเดียวสำหรับลูกค้าโดยอัตโนมัติ
 3.  ดูธุรกรรมการจ่ายคืนเงินที่สร้างขึ้น ใช้หน้า **การจ่ายคืนเงิน** ได้
 4.  ในบัญชีเจ้าหนี้ ให้สร้างการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่ายที่สร้างขึ้นจากกระบวนการชำระคืนเงิน
-
 
 
 

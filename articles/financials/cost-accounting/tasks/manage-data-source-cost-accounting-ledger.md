@@ -1,13 +1,13 @@
---- 
-title: "จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน"
-description: "ใช้กระบวนงานนี้ในการจัดการแหล่งข้อมูลบัญชีแยกประเภททั่วไปสำหรับบัญชีแยกประเภทสำหรับการลงบัญชีต้นทุน"
+---
+title: จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน
+description: ใช้กระบวนงานนี้ในการจัดการแหล่งข้อมูลบัญชีแยกประเภททั่วไปสำหรับบัญชีแยกประเภทสำหรับการลงบัญชีต้นทุน
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319327"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/29/2017
 6. คลิก สร้าง
 7. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
 8. ในฟิลด์ตัวให้บริการข้อมูล ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
-    * สำหรับตัวอย่างนี้ เลือก Dynamics 365 for Finance and Operations - รายการบัญชีแยกประเภททั่วไป  
+    * ตัวอย่างนี้ เลือก Dynamics 365 for Finance and Operations - รายการบัญชีแยกประเภททั่วไป  
 9. ในฟิลด์มิติองค์ประกอบต้นทุน ให้ป้อนหรือเลือกค่า
     * สำหรับตัวอย่างนี้ ให้เลือก องค์ประกอบต้นทุน  
 10. คลิก บันทึก
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 13. คลิก สร้าง
 14. ในฟิลด์ ชั้นของการลงรายการบัญชี เลือกปัจจุบัน
 15. คลิก ตกลง
-
 

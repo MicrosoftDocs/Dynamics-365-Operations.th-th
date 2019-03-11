@@ -1,13 +1,13 @@
 ---
-title: "ดูรายงานทางการเงิน"
-description: "บทความนี้อธิบายวิธีการดูและสำรวจรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations ซึ่งจะรวมถึงข้อมูลเกี่ยวกับตัวเลือกต่าง ๆ ที่คุณสามารถนำไปใช้กับการรายงานทางการเงินเพื่อเปลี่ยนลักษณะที่ปรากฏของพวกเขาและข้อมูลที่จะรวมไว้"
+title: ดูรายงานทางการเงิน
+description: บทความนี้อธิบายวิธีการดูและสำรวจรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations ซึ่งจะรวมถึงข้อมูลเกี่ยวกับตัวเลือกต่าง ๆ ที่คุณสามารถนำไปใช้กับการรายงานทางการเงินเพื่อเปลี่ยนลักษณะที่ปรากฏของพวกเขาและข้อมูลที่จะรวมไว้
 author: kweekley
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312956"
 ---
-
 # <a name="view-financial-reports"></a>ดูรายงานทางการเงิน
 
 [!include [banner](../includes/banner.md)]
@@ -82,13 +81,12 @@ ms.lasthandoff: 05/08/2018
 หลังจากที่คุณเสร็จสิ้นการตั้งค่าตัวเลือกการพิมพ์, คลิก **พิมพ์** เพื่อพิมพ์รายงาน ถ้าคุณตัดสินใจว่า คุณไม่ต้องการใช้ตัวเลือกที่เลือกนั้น, คลิก **ยกเลิก** แทน การแสดงตัวอย่างของรายงานที่พิมพ์จะแสดงขึ้น คุณสามารถเลือกเครื่องพิมพ์เพื่อส่งรายงานไป, และคุณยังสามารถปรับตัวเลือกการพิมพ์
 
 ## <a name="export-a-financial-report"></a>ส่งออกรายงานทางการเงิน
-เมื่อต้องการส่งออกรายงานทางการเงิน, บนบานหน้าต่างการดำเนินการ, คลิก **ส่งออก** รายงานถูกส่งออกยัง Microsoft Excel และเบราเซอร์ของคุณแจ้งให้คุณเปิด หรือบันทึกไฟล์ส่งออก การตั้งค่าการส่งออกที่กำหนดไว้ในการออกแบบรายงานจะใช้กับรายงานส่งออก    
+เมื่อต้องการส่งออกรายงานทางการเงิน, บนบานหน้าต่างการดำเนินการ, คลิก **ส่งออก** มีการส่งออกข้อความไปยัง Microsoft Excel และเบราเซอร์ของคุณจะพร้อมท์ให้คุณเปิดหรือบันทึกไฟล์ที่ส่งออก การตั้งค่าการส่งออกที่กำหนดไว้ในการออกแบบรายงานจะใช้กับรายงานส่งออก    
 
 <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
-[การรายงานทางการเงินของ Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
-
+[การรายงานทางการเงินสำหรับ Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

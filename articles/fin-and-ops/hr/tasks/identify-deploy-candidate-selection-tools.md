@@ -1,13 +1,13 @@
---- 
-title: "ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร"
-description: "การค้นหากลุ่มผู้สมัครที่เข้าเกณฑ์เพื่อบรรจุลงในตำแหน่งว่างอาจเป็นเรื่องยาก โดยเฉพาะอย่างยิ่งเมื่อตำแหน่งต้องการชุดของทักษะเฉพาะ "
+---
+title: ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
+description: 'การค้นหากลุ่มผู้สมัครที่เข้าเกณฑ์เพื่อบรรจุลงในตำแหน่งว่างอาจเป็นเรื่องยาก โดยเฉพาะอย่างยิ่งเมื่อตำแหน่งต้องการชุดของทักษะเฉพาะ '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332736"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/29/2017
     * รายงานจะแสดงรายการการจับคู่ที่ดีที่สุดที่ด้านบนของรายงาน   คุณสามารถเห็นว่ามีองค์ประกอบช่องว่างอยู่ในรายการ   นี่คือความแตกต่างระหว่างระดับที่มีการแสดงรายการอยู่ในการแม็ปทักษะ และระดับของทักษะที่กำหนดให้กับบุคคล  
 24. ปิดหน้า
 25. คลิก บันทึก
-
 

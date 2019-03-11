@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งาน"
-description: "หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งานสำหรับการใช้"
+title: พื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งาน
+description: หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งานสำหรับการใช้
 author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354977"
 ---
-
 # <a name="available-mobile-workspaces"></a>พื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งาน
 
 [!include [banner](../includes/banner.md)]
@@ -44,5 +43,4 @@ ms.lasthandoff: 08/09/2018
 | [ปริมาณสินค้าคงคลังคงเหลือ](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | รับข้อมูลเชิงลึกในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้                                                                                                    |   2017 มกราคม       |
 | [ใบสั่งขาย](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้                                                                                                                          |  2017 มกราคม                  |
 | [การทำงานร่วมกันกับผู้จัดจำหน่าย](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | ผู้จัดจำหน่ายสามารถคอยติดตามสถานการณ์ปัจจุบันในใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว |2017 มกราคม    |
-
 

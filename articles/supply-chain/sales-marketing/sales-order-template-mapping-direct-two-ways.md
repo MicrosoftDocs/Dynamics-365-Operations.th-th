@@ -1,37 +1,36 @@
 ---
-title: "การซิงโครไนส์ของใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations"
-description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations"
+title: การซิงโครไนส์ของใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการรันการทำให้ข้อมูลของใบสั่งขายตรงกันโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
 ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.contentlocale: th-th
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339130"
 ---
-
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>การซิงโครไนส์ของใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการรันการทำให้ข้อมูลของใบสั่งขายตรงกันโดยตรงระหว่าง Microsoft Dynamics 365 for Sales และ Microsoft Dynamics 365 for Finance and Operations
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
@@ -198,4 +197,3 @@ Sales ไม่สนับสนุนภาษีที่ระดับส�
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](prospect-to-cash.md)
-

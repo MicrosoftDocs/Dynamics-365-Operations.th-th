@@ -1,13 +1,13 @@
 ---
-title: "นำเข้าและรักษาธุรกรรมบัตรเครดิต"
-description: "หัวข้อนี้อธิบายวิธีการนำเข้าและรักษาธุรกรรมบัตรเครดิตที่เกี่ยวข้องกับค่าใช้จ่าย คุณสามารถตั้งค่าธุรกรรมเหล่านี้เพื่อให้ถูกนำเข้าตามกำหนดการที่เกิดซ้ำโดยอัตโนมัติ หรือคุณสามารถนำเข้าด้วยตนเองตามที่จำเป็น"
+title: นำเข้าและรักษาธุรกรรมบัตรเครดิต
+description: หัวข้อนี้อธิบายวิธีการนำเข้าและรักษาธุรกรรมบัตรเครดิตที่เกี่ยวข้องกับค่าใช้จ่าย คุณสามารถตั้งค่าธุรกรรมเหล่านี้เพื่อให้ถูกนำเข้าตามกำหนดการที่เกิดซ้ำโดยอัตโนมัติ หรือคุณสามารถนำเข้าด้วยตนเองตามที่จำเป็น
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322662"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>นำเข้าและรักษาธุรกรรมบัตรเครดิต
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ ms.lasthandoff: 11/03/2017
 หลังจากที่เรกคอร์ดพนักงานสิ้นสุด บัญชี Active Directory Domain Services (AD DS) ของพนักงานจะถูกปิดใช้งาน อย่างไรก็ตาม อาจมีธุรกรรมบัตรเครดิตที่ใช้งานอยู่ที่ยังคงมีค่าใช้จ่ายและต้องชำระเงินคืน จากหน้า **ธุรกรรมบัตรเครดิต** คุณสามารถกำหนดพนักงานสำหรับธุรกรรมบัตรเครดิตโดยพนักงานที่เกี่ยวข้องนั้นถูกเลิกจ้างพนักงานแล้วใหม่ได้
 
 เลือกธุรกรรมบัตรเครดิตอย่างน้อยหนึ่งรายการ และจากนั้น เลือก **กำหนดธุรกรรมใหม่** คุณสามารถเลือกพนักงานคนอื่นเพื่อกำหนดธุรกรรมบัตรเครดิตให้ หลังจากที่คุณกำหนดธุรกรรมบัตรเครดิตใหม่แล้ว คุณสามารถเลือกรายการเหล่านั้นสำหรับรายงานค่าใช้จ่าย และทำการชำระผ่านกระบวนการปกติสำหรับการชำระเงินคืนตามรายงานค่าใช้จ่าย
-

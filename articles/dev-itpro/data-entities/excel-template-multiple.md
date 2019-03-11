@@ -1,35 +1,34 @@
 ---
-title: "นำเข้าข้อมูลจากเท็มเพลตเอนทิตีข้อมูล Excel ที่มีแผ่นงานหลายแผ่น"
-description: "หัวข้อนี้อธิบายวิธีการนำเข้าข้อมูลโดยใช้เท็มเพลตเอนทิตี้ข้อมูล Excel ไปยัง Microsoft Dynamics 365 for Finance and Operations"
+title: นำเข้าข้อมูลจากเท็มเพลตเอนทิตีข้อมูล Excel ที่มีแผ่นงานหลายแผ่น
+description: หัวข้อนี้อธิบายวิธีการนำเข้าข้อมูลโดยใช้เท็มเพลตเอนทิตีข้อมูล Excel ลงใน Microsoft Dynamics 365 for Finance and Operations
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351274"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>นำเข้าข้อมูลจากเท็มเพลตเอนทิตีข้อมูล Excel ที่มีแผ่นงานหลายแผ่น
 
 [!include [banner](../includes/banner.md)]
 
-การจัดการข้อมูลใน Microsoft Dynamics 365 for Finance and Operations สนับสนุนเท็มเพลตตาม Microsoft Excel สำหรับเอนทิตีข้อมูล เท็มเพลตเหล่านี้ประกอบด้วยแผ่นงานอย่างน้อยหนึ่งแผ่น เท็มเพลตที่มีแผ่นงานหลายแผ่นมักถูกใช้ เมื่อสะดวกในการจัดการข้อมูลในแฟ้มเดียว และในการนำเข้าไปยังเอนทิตีข้อมูลหลายรายการ ตัวอย่างอาจเป็นไซต์และคลังสินค้า
+การจัดการข้อมูลใน Microsoft Dynamics 365 for Finance and Operations สนับสนุน Microsoft Excel-ซึ่งขึ้นกับเท็มเพลตสำหรับเอนทิตีข้อมูล เท็มเพลตเหล่านี้ประกอบด้วยแผ่นงานอย่างน้อยหนึ่งแผ่น เท็มเพลตที่มีแผ่นงานหลายแผ่นมักถูกใช้ เมื่อสะดวกในการจัดการข้อมูลในแฟ้มเดียว และในการนำเข้าไปยังเอนทิตีข้อมูลหลายรายการ ตัวอย่างอาจเป็นไซต์และคลังสินค้า
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>อัพโหลดไฟล์ครั้งเดียว และแม็ปกับเอนทิตีทั้งหมด
 ลองดูตัวอย่างที่มีไฟล์ Excel หนึ่งไฟล์ซึ่งมีแผ่นงานที่เรียกว่า **ไซต์** และ **คลังสินค้า** ในการตั้งค่าโครงการนำเข้าข้อมูล คุณก็จะสามารถเพิ่มเอนทิตี้ข้อมูลแรก **ไซต์** แล้วจากนั้น อัพโหลดไฟล์ คุณจะสามารถเลือก **ไซต์** เป็นแผ่นงานที่จะใช้สำหรับเอนทิตี้นี้ได้
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="upload-a-file-using-run-project"></a>อัพโหลดไฟล์โดยใช้ รันโครงการ
 
 คุณสามารถอัปโหลดไฟล์ Excel ได้ในขณะที่ใช้ตัวเลือก **รันโครงการ** เพื่อดำเนินการโครงการที่นำเข้าได้ คุณต้องระมัดระวังในการอัพโหลดเฉพาะไฟล์ที่มีแผ่นงานเหมือนกับการแม็ปที่มีอยู่ในเอนทิตี้ข้อมูลในโครงการข้อมูล ถ้าไม่พบแผ่นงานในไฟล์ที่เพิ่งอัพโหลด ระบบจะแสดงข้อผิดพลาด และจะหยุดการนำเข้า ถ้าต้องเปลี่ยนการแม็ปไปยังแผ่นงานสำหรับเอนทิตี้ การแม็ปในโครงการข้อมูลจึงต้องมีการอัพเดตจากภายในโครงการข้อมูลเป็นอันดับแรก ก่อนที่จะใช้ไฟล์ในประสบการณ์ **รันโครงการ**
-

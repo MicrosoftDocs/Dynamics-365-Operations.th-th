@@ -1,13 +1,13 @@
 ---
-title: "ระงับและดำเนินการธุรกรรมต่อในจุดขายหน้าร้าน (POS)"
-description: "หัวข้อนี้อธิบายวิธีที่ผู้ใช้สามารถระงับธุรกรรมที่อยู่ระหว่างดำเนินการ และจากนั้นดำเนินการต่อในภายหลัง หรือบนเครื่องบันทึกเงินสดอื่น โดยใช้ Microsoft Dynamics 365 for Retail"
+title: ระงับและดำเนินการธุรกรรมต่อในจุดขายหน้าร้าน (POS)
+description: หัวข้อนี้อธิบายวิธีการที่ผู้ใช้สามารถระงับธุรกรรมที่กำลังดำเนินการ และจากนั้นดำเนินการต่อในภายหลัง หรือในการลงทะเบียนที่แตกต่างกันโดยการใช้ Microsoft Dynamics 365 for Retail
 author: jblucher
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ffb04609318c7de4b9ef729a8e03a7f9395806b8
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333909"
 ---
-
 # <a name="suspend-and-resume-transactions-in-the-point-of-sale-pos"></a>ระงับและดำเนินการธุรกรรมต่อในจุดขายหน้าร้าน (POS)
 
 [!include [banner](includes/banner.md)]
@@ -83,4 +82,3 @@ ms.lasthandoff: 01/04/2019
 ### <a name="void-a-suspended-transaction"></a>ยกเลิกธุรกรรมที่ระงับ
 
 คุณสามารถยกเลิกธุรกรรมที่ระงับได้ โดยการเรียกคืนธุรกรรม และจากนั้น ดำเนินการดำเนินงาน **ยกเลิกธุรกรรม** หรือโดยการเลือกธุรกรรมในรายการ **เรียกคืนธุรกรรม** และเลือก **ยกเลิก** บนแถบแอป อีกทางหนึ่งคือ คุณสามารถตั้งค่าคอนฟิกร้านค้าเพื่อพร้อมท์ผู้ใช้ให้ยกเลิกธุรกรรมที่ระงับ เมื่อพวกเขาปิดกะของพวกเขา
-

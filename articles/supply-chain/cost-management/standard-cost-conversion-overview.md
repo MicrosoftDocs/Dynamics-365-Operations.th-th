@@ -1,13 +1,13 @@
 ---
-title: "ภาพรวมของการแปลงต้นทุนมาตรฐาน"
-description: "บทความนี้แสดงภาพรวมของกระบวนการ เพื่อช่วยคุณในการตั้งค่าและรันการแปลงต้นทุนมาตรฐาน  ขั้นตอนต่างๆที่แสดงรายการมีวัตถุประสงค์เพื่อให้ถูกดำเนินการให้เสร็จหลังจากที่คุณได้ดำเนินการข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐานเสร็จแล้ว"
+title: ภาพรวมของการแปลงต้นทุนมาตรฐาน
+description: บทความนี้แสดงภาพรวมของกระบวนการ เพื่อช่วยคุณในการตั้งค่าและรันการแปลงต้นทุนมาตรฐาน  ขั้นตอนต่างๆที่แสดงรายการมีวัตถุประสงค์เพื่อให้ถูกดำเนินการให้เสร็จหลังจากที่คุณได้ดำเนินการข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐานเสร็จแล้ว
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5818bcf55cd7efc2d62f7b382a85653eb8bcbad6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313692"
 ---
-
 # <a name="standard-cost-conversion-overview"></a>ภาพรวมของการแปลงต้นทุนมาตรฐาน
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน](prerequisites-standard-cost-conversion.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย"
-description: "นายจ้างจำเป็นต้องทราบเมื่อพนักงานได้รับบาดเจ็บหรือมีการเจ็บป่วยที่เป็นผลมาจากอันตรายในสถานที่ทำงาน "
+---
+title: ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
+description: 'นายจ้างจำเป็นต้องทราบเมื่อพนักงานได้รับบาดเจ็บหรือมีการเจ็บป่วยที่เป็นผลมาจากอันตรายในสถานที่ทำงาน '
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316038"
 ---
 # <a name="set-up-injury-and-illness-information"></a>ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
 
@@ -64,5 +64,4 @@ ms.lasthandoff: 09/14/2018
 22. คลิกแท็บหน่วยงานรายงาน
     * หน่วยงานรายงานคือหน่วยงานที่ต้องได้รับการรายงานเหตุการณ์ เลือกกล่องกาเครื่องหมายค่าเริ่มต้นสำหรับหน่วยงานที่เป็นหน่วยงานค่าเริ่มต้นสำหรับการรายงานการบาดเจ็บและการเจ็บป่วย  
 23. คลิก บันทึก
-
 

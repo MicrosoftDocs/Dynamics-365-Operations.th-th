@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกบัญชีเจ้าหนี้"
-description: "บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย"
+title: ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
+description: บทความนี้อธิบายหน้าที่คุณใช้ในการตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันตัวเลือกสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6a832a30870f77578503bae6eea17ad1d0881d91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326710"
 ---
-
 # <a name="configure-accounts-payable"></a>ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายถึงหน้าต่างๆ ที่คุณใช้เพื่อตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันที่ไม่จำเป็นสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
+บทความนี้อธิบายหน้าที่คุณใช้ในการตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันตัวเลือกสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 
 <a name="prerequisites-for-accounts-payable-setup"></a>ข้อกำหนดเบื้องต้นสำหรับการตั้งค่าบัญชีเจ้าหนี้
 ----------------------------------------
@@ -144,7 +143,6 @@ ms.lasthandoff: 03/26/2018
 **การจัดการเงินสดและธนาคาร**
 
 -   ในหน้ารหัสวัตถุประสงค์การชำระเงิน ตั้งค่ารหัสวัตถุประสงค์ธนาคารกลาง
-
 
 
 

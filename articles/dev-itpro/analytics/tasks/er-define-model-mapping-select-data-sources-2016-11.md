@@ -1,13 +1,13 @@
---- 
-title: "กำหนดการแม็ปแบบจำลอง ER และเลือกแหล่งข้อมูลสำหรับรายการเหล่านั้น"
-description: "ขั้นตอนต่อไปนี้อธิบายถึงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถเลือกแหล่งข้อมูลสำหรับแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ได้"
+---
+title: กำหนดการแม็ปแบบจำลอง ER และเลือกแหล่งข้อมูลสำหรับรายการเหล่านั้น
+description: ขั้นตอนต่อไปนี้อธิบายถึงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถเลือกแหล่งข้อมูลสำหรับแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ได้
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348882"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>กำหนดการแม็ปแบบจำลอง ER และเลือกแหล่งข้อมูลสำหรับรายการเหล่านั้น
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/14/2018
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>กำหนดแหล่งข้อมูลที่ต้องระบุสำหรับการแม็ปแบบจำลองปัจจุบัน
 1. คลิก ตัวออกแบบ
-2. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table records'
+2. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 3. คลิก เพิ่มราก
     * ป้อนแหล่งข้อมูลนี้เพื่อเข้าถึงธุรกรรมการชำระเงิน  
 4. ในฟิลด์ชื่อ พิมพ์ 'ธุรกรรม'
@@ -110,7 +110,7 @@ ms.lasthandoff: 09/14/2018
 41. ในแผนภูมิ ขยาย 'ธุรกรรม'
 42. ในแผนภูมิ ขยายหรือยุบ 'Transactions\$Amount'
 43. ในแผนภูมิ ขยายหรือยุบ 'ธุรกรรม'
-44. ในแผนภูมิ เลือก 'Dynamics 365 for Operations\Table records'
+44. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 45. คลิก เพิ่มราก
     * ป้อนแหล่งข้อมูลนี้เพื่อเข้าถึงรายละเอียดบัญชีธนาคารของบริษัท  
 46. ในฟิลด์ชื่อ พิมพ์ 'บัญชีธนาคาร'
@@ -157,5 +157,4 @@ ms.lasthandoff: 09/14/2018
 70. ปิดหน้า
 71. ปิดหน้า
 72. ปิดหน้า
-
 

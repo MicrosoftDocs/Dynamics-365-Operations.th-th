@@ -1,32 +1,31 @@
 ---
-title: "การเติมสินค้าสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า"
-description: "หัวข้อนี้อธิบายการเติมสินค้าสินค้าคงคลังที่ปลอดภัยและวิธีการตั้งค่าปริมาณสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า"
+title: การเติมสินค้าสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า
+description: หัวข้อนี้อธิบายการเติมสินค้าสินค้าคงคลังที่ปลอดภัยและวิธีการตั้งค่าปริมาณสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: th-th
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341545"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>การเติมสินค้าสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ ms.lasthandoff: 12/14/2017
 ในระหว่างขั้นตอนความครอบคลุมของการวางแผนหลัก ไม่มีการลดระดับความสำคัญการเติมสินค้าคงคลังที่ปลอดภัยอีกต่อไป สามารถใช้สินค้าคงคลังคงเหลือ ก่อนชนิดความต้องการอื่นๆ ได้ สินค้าคงคลังในระหว่างการคำนวณความล่าช้า ตรรกะใหม่จะถูกเพิ่มไปที่บรรทัดการขายที่ล่าช้า ข้อกำหนดของบรรทัด BOM และทั้งหมดความต้องการ ชนิดอื่น ๆ เพื่อกำหนดว่า จะไม่สามารถส่งข้อความในเวลา ถ้ามีการใช้สินค้าคงคลังที่ปลอดภัย ถ้าระบบระบุว่า จะสามารถลดความล่าช้าได้โดยใช้สินค้าคงคลังที่ปลอดภัย จากนั้น รายการขายหรือรายการ BOM จะแทนที่ความครอบคลุมเริ่มต้นของพวกเขาด้วยสินค้าคงคลังที่ปลอดภัย แล้วระบบจะทริกเกอร์การเติมสินค้าสำหรับสินค้าคงคลังปลอดภัยแทน
 
 ถ้าแผนหรือสินค้าไม่ได้ถูกตั้งค่าสำหรับการคำนวณที่ล่าช้า จากนั้นข้อจำกัดสินค้าคงคลังด้านความปลอดภัยจะมีระดับความสำคัญเดียวกันกับชนิดความต้องการอื่นๆ ซึ่งหมายความว่า ไม่มีการสำรองของสินค้าคงคลังคงเหลือและสินค้าคงคลังอื่นๆ ก่อนความต้องการชนิดอื่นๆ
-

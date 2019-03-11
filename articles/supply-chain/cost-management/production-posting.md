@@ -1,13 +1,13 @@
 ---
-title: "การผลิตที่ลงรายการบัญชีแล้ว"
-description: "บทความนี้แสดงข้อมูลเกี่ยวกับชนิดของการลงรายการบัญชีในกระบวนการผลิต"
+title: การผลิตที่ลงรายการบัญชีแล้ว
+description: บทความนี้แสดงข้อมูลเกี่ยวกับชนิดของการลงรายการบัญชีในกระบวนการผลิต
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332414"
 ---
-
 # <a name="production-posting"></a>การผลิตที่ลงรายการบัญชีแล้ว
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ ms.lasthandoff: 11/03/2017
 -   **กลุ่มการผลิต**– ใช้บัญชีแยกประเภทที่ตั้งค่าบนกลุ่มการผลิตสำหรับปริมาณการใช้วัสดุ และการใช้เวลา กลุ่มการผลิตจะเชื่อมโยงกับผลิตภัณฑ์นำออกใช้ และคัดลอกไปยังใบสั่งผลิตเมื่อสร้างใบสั่งเหล่านั้น การลงรายการบัญชีในใบสั่งผลิตจะทำตามกลุ่มการผลิตที่เชื่อมโยงกับใบสั่งผลิต
 
 **หมายเหตุ:** ถ้ามีใช้วิธีการมาตรฐานสำหรับการคำนวณต้นทุนของสินค้าเสร็จสมบูรณ์ ธุรกรรมขั้นสุดท้ายจะสะท้อนถึงข้อเท็จจริงนี้ ถ้าต้นทุนจริงและต้นทุนที่คำนวณ ที่ใช้วิธีการมาตรฐานแตกต่างกัน ผลต่างนี้จะลงในบัญชีที่แสดงกำไรหรือขาดทุน
-
 
 
 

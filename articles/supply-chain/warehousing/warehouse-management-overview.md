@@ -1,13 +1,13 @@
 ---
-title: "การบริหารคลังสินค้า"
-description: "ใช้การบริหารคลังสินค้าเพื่อตรวจสอบและดำเนินกระบวนการคลังสินค้าแบบอัตโนมัติ "
+title: การบริหารคลังสินค้า
+description: 'ใช้การบริหารคลังสินค้าเพื่อตรวจสอบและดำเนินกระบวนการคลังสินค้าแบบอัตโนมัติ '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335266"
 ---
-# <a name="warehouse-management"></a>การบริหารคลังสินค้า
+# <a name="warehouse-management"></a>การจัดการคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
-โมดูลการบริหารคลังสินค้าสำหรับ Dynamics 365 for Finance and Operations ช่วยให้คุณสามารถจัดการกระบวนการคลังสินค้าในการผลิต การกระจาย และบริษัทขายปลีกได้ โมดูลนี้มีลักษณะการทำงานที่หลากหลายเพื่อรองรับสถานที่ตั้งคลังสินค้าในระดับที่ดีที่สุดได้ตลอดเวลา การจัดการคลังสินค้าถูกรวมเข้ากับกระบวนการทางธุรกิจอื่น ๆ ทั้งหมดใน Finance and Operations เช่น ค่าขนส่ง การผลิต การควบคุมคุณภาพ การซื้อ การโอนย้าย การขาย และการส่งคืน
+โมดูลการบริหารคลังสินค้าสำหรับ Dynamics 365 for Finance and Operations ช่วยให้คุณสามารถจัดการกระบวนการคลังสินค้าในการผลิต การกระจาย และบริษัทขายปลีก  โมดูลนี้มีลักษณะการทำงานที่หลากหลายเพื่อรองรับสถานที่ตั้งคลังสินค้าในระดับที่ดีที่สุดได้ตลอดเวลา การจัดการคลังสินค้าถูกรวมเข้ากับกระบวนการทางธุรกิจอื่น ๆ ทั้งหมดใน Finance and Operations เช่น ค่าขนส่ง การผลิต การควบคุมคุณภาพ การซื้อ การโอนย้าย การขาย และการส่งคืน
 
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
 เมื่อต้องการเริ่มการทำงานกับการจัดการคลังสินค้า คุณต้องดำเนินการตั้งค่าพารามิเตอร์คลังสินค้าทั่วไปเพื่อสนับสนุนกระบวนการทางธุรกิจของบริษัทของคุณ
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/26/2018
 - ชนิดแท่นวางสินค้า/คอนเทนเนอร์สำหรับกระบวนการคลังสินค้า
 - ความสามารถในการตรวจนับขั้นสูง
 - การพิมพ์ป้ายชื่อและการกำหนดเส้นทางป้ายชื่อด้วยการสนับสนุน Zebra ZPL
-- การรวมข่าวกรองธุรกิจไปยัง Power BI
+- การรวม Business Intelligence ลงใน Power BI
 - ความเคลื่อนไหวของสินค้าคงคลังแบบด้วยตนเองและโดยอัตโนมัติ
 - การควบคุมคุณภาพแบบรวมทั้งหมด (QMS)
 - ความสามารถในการติดตามของการจัดการวัสดุของผู้ปฏิบัติงานแบบเต็มรูปแบบ
@@ -69,9 +69,8 @@ ms.lasthandoff: 03/26/2018
 ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา
 
 ### <a name="blogs"></a>บล็อก
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับการจัดการคลังสินค้าและการแก้ไขปัญหาอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog)
+คุณสามารถค้นหาความคิดเห็น ข่าว หรือข้อมูลอื่นๆ เกี่ยวกับการจัดการคลังสินค้าและโซลูชันอื่นใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog)
 
 
  
-
 

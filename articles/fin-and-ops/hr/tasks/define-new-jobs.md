@@ -1,13 +1,13 @@
---- 
-title: "กำหนดงานใหม่"
-description: "งานนี้มุ่งเน้นการสร้างงานใหม่ "
+---
+title: กำหนดงานใหม่
+description: 'งานนี้มุ่งเน้นการสร้างงานใหม่ '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347939"
 ---
 # <a name="define-new-jobs"></a>กำหนดงานใหม่
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/14/2018
 21. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 22. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 23. สลับการขยายของส่วนทักษะ
-    * หมายเหตุว่า ฟิลด์ต่างๆใน FastTabs ทักษะ การศึกษา และประกาศนียบัตร จะว่างเปล่า  หลังจากการคัดลอกข้อมูลจากเท็มเพลตงาน จะมีการป้อนข้อมูลในฟิลด์เหล่านี้ในขั้นตอนเดียว   
+    * หมายเหตุว่า ฟิลด์ต่างๆใน FastTabs ทักษะ การศึกษา และประกาศนียบัตร จะว่างเปล่า  หลังจากการคัดลอกข้อมูลจากเท็มเพลตงาน จะมีการป้อนข้อมูลในฟิลด์เหล่านี้ในขั้นตอนเดียว   
 24. คลิก บันทึก
 25. คลิกที่คัดลอกจาก
 26. คลิกคัดลอกจากเท็มเพลต
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 32. สลับการขยายของส่วนใบรับรอง
 33. สลับการขยายของส่วนการศึกษา
 34. คลิก บันทึก
-
 

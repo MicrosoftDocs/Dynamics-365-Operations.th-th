@@ -1,13 +1,13 @@
 ---
-title: "การอัพเดตสินทรัพย์ถาวรโดยรวม"
-description: "ถ้าคุณใช้สมุดบัญชี คุณสามารถเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับกลุ่มของสินทรัพย์ที่เป็นส่วนหนึ่งของสมุดบัญชีเดียวกัน"
+title: การอัพเดตสินทรัพย์ถาวรโดยรวม
+description: ถ้าคุณใช้สมุดบัญชี คุณสามารถเปลี่ยนแบบแผนการคิดค่าเสื่อมราคาสำหรับกลุ่มของสินทรัพย์ที่เป็นส่วนหนึ่งของสมุดบัญชีเดียวกัน
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b740f1fe710c2278bd5ac5f8d615f0e305cd7df1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348813"
 ---
-
 # <a name="fixed-asset-mass-update"></a>การอัพเดตสินทรัพย์ถาวรโดยรวม
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ ms.lasthandoff: 11/03/2017
 ถ้าต้องการอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ซึ่งตัดจำหน่ายแล้ว คุณต้องลบธุรกรรมการตัดจำหน่ายที่มีอยู่ออกก่อน คุณต้องลบธุรกรรมทั้งหมดที่สร้างขึ้นเนื่องจากกระบวนการตัดจำหน่ายออกด้วย 
 
 หลังจากคุณอัพเดตแบบแผนการคิดค่าเสื่อมราคาสำหรับสินทรัพย์ คุณสามารถดำเนินการในส่วนของค่าเสื่อมราคาและค่าเสื่อมราคาพิเศษของสินทรัพย์แต่ละรายการได้ คุณยังสามารถทำการปรับปรุงค่าเสื่อมราคาด้วยตนเอง ถ้าจำเป็นต้องมีการปรับปรุงใด ๆ
-
 
 
 

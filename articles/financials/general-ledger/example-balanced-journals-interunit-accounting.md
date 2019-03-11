@@ -1,13 +1,13 @@
 ---
-title: "สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย"
-description: "บทความนี้แสดงวิธีที่สมุดรายวันกำหนดยอดดุลโดยอัตโนมัติ เมื่อเลือกมิติทางการเงินยอดดุลในหน้าบัญชีแยกประเภท"
+title: สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย
+description: บทความนี้แสดงวิธีที่สมุดรายวันกำหนดยอดดุลโดยอัตโนมัติ เมื่อเลือกมิติทางการเงินยอดดุลในหน้าบัญชีแยกประเภท
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b596a2332a9ada01df7b4e718a79eb624ee52fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5b1d788ebd5617a1d3f1c8ca36f5ae3c29b534c5
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326779"
 ---
-
 # <a name="balanced-journals-for-interunit-accounting"></a>สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 |-----------------------------------|-----------|
 | (ระหว่างหน่วยเดบิต) – MSP – OU\_256 | 100.00 DR |
 | (ระหว่างหน่วยเครดิต) – NY – OU\_249 | 100.00 CR |
-
 
 
 

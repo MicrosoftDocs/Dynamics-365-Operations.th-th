@@ -1,13 +1,13 @@
 ---
-title: "ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น"
-description: "คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรขั้นต้นในเวลาจริงใน Microsoft Dynamics 365 for Retail"
+title: ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
+description: คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรได้แบบเรียลไทม์โดยใช้ Microsoft Dynamics 365 for Retail
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e1d4f693fa9712585593b9d3de43c3603588531c
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357277"
 ---
-
 # <a name="monitor-sales-and-margin-performance"></a>ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
 
 [!include [banner](includes/banner.md)]
 
-คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรขั้นต้นในเวลาจริงใน Microsoft Dynamics 365 for Retail
+คุณสามารถตรวจสอบประสิทธิภาพการขายและกำไรได้แบบเรียลไทม์โดยใช้ Microsoft Dynamics 365 for Retail
 
-เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถติดตามการขายและกำไรขั้นต้นในแบบเรียลไทม์ระหว่างระดับต่างๆ ในลำดับชั้นขององค์กรสำหรับมิติต่อไปนี้:
+ในฐานะที่เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถตรวจสอบประสิทธิภาพการขายและกำไรได้แบบเรียลไทม์ลูกค้าในระดับต่างๆ ของลำดับชั้นองค์กร สำหรับมิติต่อไปนี้:
 
 - ผลิตภัณฑ์
 - ประเภท
@@ -50,4 +49,3 @@ ms.lasthandoff: 11/03/2017
 - **การจัดการประเภทและผลิตภัณฑ์** พื้นที่ทำงาน &gt; **การขายปลีก** &gt; **ผลิตภัณฑ์และประเภท** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**
 - **การจัดการราคาและส่วนลด** พื้นที่ทำงาน &gt; **Retail** &gt; **การจัดการราคาและส่วนลด** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน**
 - **การสอบถามและรายงาน** ส่วน &gt; **การขายปลีก** &gt; **การสอบถามและรายงาน** &gt; **รายงานการขาย**
-

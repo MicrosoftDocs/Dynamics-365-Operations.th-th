@@ -1,13 +1,13 @@
 ---
-title: "การกระจายในรายงานค่าใช้จ่าย"
-description: "เมื่อคุณป้อนค่าใช้จ่ายในรายงานค่าใช้จ่าย คุณสามารถกระจายค่าใช้จ่ายระหว่างโครงการ นิติบุคคล หรือบัญชีหลายรายการในองค์กรของคุณ"
+title: การกระจายในรายงานค่าใช้จ่าย
+description: เมื่อคุณป้อนค่าใช้จ่ายในรายงานค่าใช้จ่าย คุณสามารถกระจายค่าใช้จ่ายระหว่างโครงการ นิติบุคคล หรือบัญชีหลายรายการในองค์กรของคุณ
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
 ms.openlocfilehash: 00d051a8f644a6a0bedb0acc3eaac9a3dd1109e7
-ms.contentlocale: th-th
-ms.lasthandoff: 08/15/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356771"
 ---
-
 # <a name="distributions-on-an-expense-report"></a>การกระจายในรายงานค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
@@ -39,5 +38,4 @@ ms.lasthandoff: 08/15/2018
 |ค่าโดยสารรถไฟ   |578 โครเนอร์เดนมาร์ก              |405 โครเนอร์เดนมาร์ก                        |173 โครเนอร์เดนมาร์ก                          |
 |โรงแรม         |725 ยูโร              |557 ยูโร                        |168 ยูโร                          |
 |มื้ออาหาร         |346 ยูโร              |284 ยูโร                        |62 ยูโร                           |
-
 

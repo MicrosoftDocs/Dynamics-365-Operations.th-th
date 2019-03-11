@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย"
+title: พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327009"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของ **การอนุมัติใบแจ้งหนี้** แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย 
 
-พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 03/26/2018
 </thead>
 <tbody>
 <tr class="odd">
-<td>ต้องปรับใช้ Microsoft Dynamics 365 for Finance and Operations ในองค์กรของคุณ</td>
+<td>Microsoft Dynamics 365 for Finance and Operations ต้องถูกปรับใช้ในองค์กรของคุณ</td>
 <td>ผู้ดูแลระบบ</td>
 <td>ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a>
 </td>
@@ -72,7 +71,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
 
 1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
-2.  ป้อน URL ของ Microsoft Dynamics 365 ของคุณ
+2.  ใส่ URL Microsoft Dynamics 365 ของคุณ
 3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
 
@@ -88,4 +87,3 @@ ms.lasthandoff: 03/26/2018
 7.  เลือก **สิ่งที่แนบ** เพื่อดูบันทึกหรือไฟล์ใดๆ ที่แนบไปกับใบแจ้งหนี้
 8.  ในหน้า **รายละเอียกใบแจ้งหนี้** เลือกการดำเนินการลำดับงานที่เหมาะสม เพื่อดำเนินการกระบวนการตรวจทานให้เสร็จสมบูรณ์
 9.  เลือก **เสร็จสิ้น**
-

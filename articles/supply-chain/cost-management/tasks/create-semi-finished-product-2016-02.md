@@ -1,13 +1,13 @@
---- 
-title: "สร้างผลิตภัณฑ์กึ่งสำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)"
-description: "งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์กึ่งสำเร็จรูป"
+---
+title: สร้างผลิตภัณฑ์กึ่งสำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)
+description: งานนี้มุ่งเน้นการสร้างผลิตภัณฑ์กึ่งสำเร็จรูป
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 76fcba3732879f85c9bf0faa6d2481b9c5313a17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1311e27b4080832c6e1aa2b879308f518d2ab001
-ms.contentlocale: th-th
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358956"
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>สร้างผลิตภัณฑ์กึ่งสำเร็จรูป (กุมภาพันธ์ 2016 เท่านั้น)
 
@@ -72,5 +72,4 @@ ms.lasthandoff: 04/13/2018
     * สำหรับตัวอย่างนี้ ให้เลือก กลุ่มต้นทุน M1  
 30. ใช้ทางลัดนี้สำหรับการบันทึกเรกคอร์ด
 31. ปิดหน้า
-
 

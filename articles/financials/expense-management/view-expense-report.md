@@ -1,13 +1,13 @@
 ---
-title: "ดูรายงานค่าใช้จ่ายจากบัญชีแยกประเภททั่วไป หรือการจัดซื้อและการจัดหา"
-description: "หัวข้อนี้อธิบายวิธีการดูรายงานค่าใช้จ่ายต้นฉบับที่มีธุรกรรมปรากฏขึ้น"
+title: ดูรายงานค่าใช้จ่ายจากบัญชีแยกประเภททั่วไป หรือการจัดซื้อและการจัดหา
+description: หัวข้อนี้อธิบายวิธีการดูรายงานค่าใช้จ่ายต้นฉบับที่มีธุรกรรมปรากฏขึ้น
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e88af5a815803d20cf97f21f6ae50bcf98539b83
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
-ms.contentlocale: th-th
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316406"
 ---
-
 # <a name="view-an-expense-report"></a>ดูรายงานค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ ms.lasthandoff: 03/13/2018
 เพื่อดูรายละเอียดแนวลึกลงในรายงานค่าใช้จ่ายต้นฉบับที่ธุรกรรมที่มีปรากฏ เลือกธุรกรรม และจากนั้นเลือก **เอกสารต้นฉบับ**
 
 เมื่อคุณดูธุรกรรมแต่ละรายการ คุณยังสามารถดูข้อมูลเพิ่มเติมใดๆ ที่แนบกับธุรกรรมได้ด้วย ตัวอย่างเช่น สำหรับค่าใช้จ่ายโรงแรมที่แสดงรายการ คุณสามารถดูรายการค่าใช้จ่ายโดยละเอียดได้ เช่น การเข้าถึงอินเทอร์เน็ต โทรศัพท์ และบริการห้องพัก
-

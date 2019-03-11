@@ -1,37 +1,36 @@
 ---
-title: "เพิ่มที่อยู่ลงในใบสั่งบริการ"
-description: "หัวข้อนี้อธิบายวิธีการเพิ่มที่อยู่ของลูกค้าไปยังใบสั่งบริการ "
+title: เพิ่มที่อยู่ลงในใบสั่งบริการ
+description: 'หัวข้อนี้อธิบายวิธีการเพิ่มที่อยู่ของลูกค้าไปยังใบสั่งบริการ '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e6dfa27b2101e84fbab678e781c26126cf1db898
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311921"
 ---
-
 # <a name="add-an-address-to-a-service-order"></a>เพิ่มที่อยู่ลงในใบสั่งบริการ    
 
 [!include [banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการเพิ่มที่อยู่ของลูกค้าไปยังใบสั่งบริการ  เมื่อคุณสร้างใบสั่งบริการ ข้อมูลที่อยู่จะถูกโอนย้ายจากโครงการที่แนบใบสั่งบริการไว้  อย่างไรก็ตาม คุณสามารถเลือกสถานที่เก็บอื่นจากที่อยู่ที่ป้อนไว้แล้วได้ใน Microsoft Dynamics AX สำหรับลูกค้า ผู้จัดจำหน่าย ไซต์ คลังสินค้า ใบสั่งบริการ และโครงการ
+หัวข้อนี้อธิบายวิธีการเพิ่มที่อยู่ของลูกค้าไปยังใบสั่งบริการ  เมื่อคุณสร้างใบสั่งบริการ ข้อมูลที่อยู่จะถูกโอนย้ายจากโครงการที่แนบใบสั่งบริการไว้  อย่างไรก็ตาม คุณสามารถเลือกตำแหน่งที่ตั้งทางเลือกได้จากที่อยู่ที่ถูกป้อนไว้แล้วใน Microsoft Dynamics AX สำหรับลูกค้า ผู้จัดจำหน่าย ไซต์ คลังสินค้า ใบสั่งบริการ และโครงการ
 
 คุณยังสามารถสร้างที่อยู่ใหม่โดยค่าเริ่มต้น  ที่อยู่ใหม่จะถูกโอนย้ายไปยังโครงการ  อย่างไรก็ตาม คุณสามารถระบุว่าที่อยู่ใหม่จะเกี่ยวข้องกับอินสแตนซ์นี้ของบริการเท่านั้น  หากคุณทำที่อยู่ใหม่จะไม่มีการโอนย้ายไปยังโครงการ
 
@@ -74,6 +73,5 @@ ms.lasthandoff: 05/08/2018
 
 
   
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "การทดแทนวัตถุดิบในการผลิต"
-description: "หัวข้อนี้อธิบายวิธีการทดแทนของวัตถุดิบในระหว่างกระบวนการผลิต"
+title: การทดแทนวัตถุดิบในการผลิต
+description: หัวข้อนี้อธิบายวิธีการทดแทนของวัตถุดิบในระหว่างกระบวนการผลิต
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327630"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>การทดแทนวัตถุดิบในการผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="substituting-material-during-production"></a>วัตถุดิบทดแทนระหว่างการผลิต
 พิจารณาสถานการณ์สมมติต่อไปนี้: ส่วนของป้ายโลหะจำเป็นสำหรับการดำเนินงาน welding ระหว่างการดำเนินงาน ผู้ปฏิบัติงานคลังสินค้าจะแจ้งพนักงานควบคุมเครื่องจักรว่าป้ายไม่มีในสินค้าคงคลัง อย่างไรก็ตาม จึงตัดสินใจว่าสามารถทดแทนป้ายด้วยป้ายที่หนากว่าเล็กน้อย ด้วยวิธีนี้ การดำเนินงานสามารถเป็นขั้นสุดท้าย วัตถุดิบสามารถถูกเพิ่มไปยัง BOM สำหรับใบสั่งผลิตที่เปิดไว้ ถ้าใบสั่งผลิตมีสถานะเป็น **เริ่มต้นแล้ว**ผู้ใช้ระบบจะถูกขอให้ประเมินใบสั่งอีกครั้งเมื่อพวกเขาเพิ่มสินค้าใหม่ไปยัง BOM การผลิต หลังจากเพิ่มวัตถุดิบ รายการเบิกสินค้าใหม่สามารถสร้างได้สำหรับสินค้าใหม่ คุณไม่ต้องเพิ่มวัตถุดิบใหม่ใน BOM การผลิต แต่คุณสามารถเพิ่มได้โดยตรงกับรายการเบิกสินค้าการผลิต จากนั้น เมื่อลงรายการเบิกสินค้า ระบบจะเพิ่มวัตถุดิบไปยัง BOM การผลิต
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง"
-description: "ขั้นตอนนี้มุ่งเน้นการสร้างนโยบายการคำนวณปริมาณตามระบบคัมบังและการเพิ่มเติมให้กฎคัมบังเพื่อปรับประสิทธิภาพของขนาดและปริมาณระบบคัมบัง "
+---
+title: เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง
+description: 'ขั้นตอนนี้มุ่งเน้นการสร้างนโยบายการคำนวณปริมาณตามระบบคัมบังและการเพิ่มเติมให้กฎคัมบังเพื่อปรับประสิทธิภาพของขนาดและปริมาณระบบคัมบัง '
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fffd623104dc403e230128c9234521ad1e39c7bb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352148"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง
 
@@ -62,5 +62,4 @@ ms.lasthandoff: 09/29/2017
 7. ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 8. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
     * เลือก Speaker2016 ของนโยบายที่คุณเพิ่งสร้างในงานย่อยก่อนหน้านี้  
-
 

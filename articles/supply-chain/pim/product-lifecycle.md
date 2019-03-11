@@ -1,32 +1,31 @@
 ---
-title: "สถานะรอบการขายของผลิตภัณฑ์"
-description: "เอกสารสถานะรอบการขายของผลิตภัณฑ์ สถานะรอบการขายของผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้"
+title: สถานะรอบการขายของผลิตภัณฑ์
+description: เอกสารสถานะรอบการขายของผลิตภัณฑ์ สถานะรอบการขายของผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้
 author: cvocph
 manager: AnnBe
 ms.date: 12/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: bf9e8fe828cae0f643bfb89c34f1d545e3993619
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
-ms.contentlocale: th-th
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364844"
 ---
-
 # <a name="product-lifecycle-state"></a>สถานะรอบการขายของผลิตภัณฑ์ 
 
 [!include [banner](../includes/banner.md)]
@@ -114,4 +113,3 @@ ms.lasthandoff: 02/08/2018
 -  [มอบหมายสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้ (คู่มืองาน)](tasks/product-lifecycle-state-released-product.md)
 -  [ค้นหาผลิตภัณฑ์ย่อยที่ล้าสมัย และกำหนดสถานะรอบการขายของผลิตภัณฑ์ (คู่มืองาน)](tasks/obsolete-product-variants.md)
 -  [สร้างสถานะรอบการขายของผลิตภัณฑ์เพื่อแยกผลิตภัณฑ์ออกจากการวางแผนหลัก (คู่มืองาน)](tasks/exclude-products-master-planning.md)
-

@@ -1,39 +1,38 @@
 ---
-title: "นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย"
-description: "หัวข้อนี้อธิบายกระบวนการในการนำเข้าข้อมูลแค็ตตาล็อกของผู้จัดจำหน่าย"
+title: นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
+description: หัวข้อนี้อธิบายกระบวนการในการนำเข้าข้อมูลแค็ตตาล็อกของผู้จัดจำหน่าย
 author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: th-th
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362038"
 ---
-
 # <a name="import-vendor-catalogs"></a>นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>การนำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
 
-ใน Microsoft Dynamics 365 for Finance and Operations ผู้เชี่ยวชาญด้านการจัดซื้อสามารถสร้างและรักษาแค็ตตาล็อกสำหรับพนักงานของบริษัทที่จะใช้ เมื่อพวกเขาสั่งสินค้าและบริการสำหรับใช้ภายในได้ เพื่อสร้างแค็ตตาล็อกการจัดซื้อ คุณสามารถเพิ่มสินค้าและบริการที่คุณต้องการให้พร้อมใช้งานสำหรับพนักงานได้ โดยการนำเข้าข้อมูลแค็ตตาล็อกผลิตภัณฑ์หรือ โดยการเพิ่มข้อมูลแค็ตตาล็อกผลิตภัณฑ์ไปยังผลิตภัณฑ์หลักด้วยตนเอง อย่างใดอย่างหนึ่ง 
+Microsoft Dynamics 365 for Finance and Operations ผู้เชี่ยวชาญการซื้อสามารถสร้างและรักษาแค็ตตาล็อกสำหรับพนักงานบริษัทเพื่อใช้ เมื่อพวกเขาสั่งสินค้าและบริการสำหรับการใช้ภายใน เพื่อสร้างแค็ตตาล็อกการจัดซื้อ คุณสามารถเพิ่มสินค้าและบริการที่คุณต้องการให้พร้อมใช้งานสำหรับพนักงานได้ โดยการนำเข้าข้อมูลแค็ตตาล็อกผลิตภัณฑ์หรือ โดยการเพิ่มข้อมูลแค็ตตาล็อกผลิตภัณฑ์ไปยังผลิตภัณฑ์หลักด้วยตนเอง อย่างใดอย่างหนึ่ง 
 
-คุณสามารถอัปโหลดข้อมูลแค็ตตาล็อกที่ส่งโดยผู้จัดจำหน่ายจากไคลเอนต์ Microsoft Dynamics 365 ได้
+คุณสามารถอัปโหลดข้อมูลแค็ตตาล็อกที่ส่งโดยผู้จัดจำหน่ายจากไคลเอ็นต์ Microsoft Dynamics 365
 
 ข้อมูลผลิตภัณฑ์ที่ผู้จัดจำหน่ายที่ส่งถึงคุณ ในรูปของไฟล์คำขอบำรุงรักษาแค็ตตาล็อก (CMR) ต้องอยู่ในรูปแบบไฟล์ XML ไฟล์ CMR ควรประกอบด้วยรายละเอียดสำหรับผลิตภัณฑ์ที่ผู้จัดจำหน่ายให้กับบริษัทของคุณ
 
@@ -53,7 +52,7 @@ ms.lasthandoff: 04/26/2018
 
 6.  อัปโหลดไฟล์ CMR
 
-7.  ตรวจทาน อนุมัติ หรือปฏิเสธผลิตภัณฑ์ในแค็ตตาล็อกของผู้จัดจำหน่าย ผลิตภัณฑ์ถูกแม็ปกับประเภทการจัดซื้อโดยอัตโนมัติใน Dynamics 365 for Finance and Operations 
+7.  ตรวจทาน อนุมัติ หรือปฏิเสธผลิตภัณฑ์ในแค็ตตาล็อกของผู้จัดจำหน่าย ผลิตภัณฑ์ถูกแม็ปโดยอัตโนมัติไปยังประเภทแผนกจัดซื้อใน Dynamics 365 for Finance and Operations 
     
 ซึ่งผลิตภัณฑ์ที่คุณอนุมัติจะถูกรวมเข้ากับผลิตภัณฑ์หลักและนำออกใช้ไปยังนิติบุคคลที่เลือก ผลิตภัณฑ์ที่ได้รับอนุมัติเท่านั้นที่สามารถถูกเพิ่มไปยังแค็ตตาล็อกการจัดซื้อได้
 
@@ -69,5 +68,4 @@ ms.lasthandoff: 04/26/2018
 
 3. ในกล่องโต้ตอบ **บันทึกเป็น** ให้เลือกที่ตั้งที่คุณต้องการจัดเก็บเท็มเพลตไฟล์แค็ตตาล็อก และบันทึกไฟล์
 
-สำหรับข้อมูลเพิ่มเติม และสำหรับตัวอย่าง ให้อ้างอิงถึงประกาศบล็อกนี้: [แค็ตตาล็อกของผู้จัดจำหน่ายใน Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)
-
+สำหรับข้อมูลเพิ่มเติมและตัวอย่าง อ้างอิงถึงโพสต์บล็อกนี้: [แค็ตตาล็อกของผู้จัดจำหน่ายใน Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)

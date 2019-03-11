@@ -1,13 +1,13 @@
---- 
-title: "สร้างผลิตภัณฑ์นำออกใช้สำหรับบริษัทเดียว"
-description: "ขั้นตอนนี้แนะนำวิธีการสร้างผลิตภัณฑ์เดี่ยวที่นำออกใช้ในบริบทของหน่วยกฎหมายเดี่ยว "
+---
+title: สร้างผลิตภัณฑ์นำออกใช้สำหรับบริษัทเดียว
+description: 'ขั้นตอนนี้แนะนำวิธีการสร้างผลิตภัณฑ์เดี่ยวที่นำออกใช้ในบริบทของหน่วยกฎหมายเดี่ยว '
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9265ee4311ac89ae88ff7dd089519251828b1e3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 042eafc29e377e0ad6fb8dc1499daf8eb105b7ed
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315969"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>สร้างผลิตภัณฑ์นำออกใช้สำหรับบริษัทเดียว
 
@@ -102,5 +102,4 @@ ms.lasthandoff: 09/29/2017
 11. ในฟิลด์กลุ่มสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 12. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 13. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-
 

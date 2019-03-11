@@ -1,13 +1,13 @@
 ---
-title: "การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย"
-description: "รหัสดอกเบี้ยที่ประกอบด้วยการตั้งค่าที่กำหนดเมื่อมีการเรียกเก็บดอกเบี้ยและวิธีที่คำนวณในบัญชีที่พ้นกำหนดชำระ "
+title: การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย
+description: 'รหัสดอกเบี้ยที่ประกอบด้วยการตั้งค่าที่กำหนดเมื่อมีการเรียกเก็บดอกเบี้ยและวิธีที่คำนวณในบัญชีที่พ้นกำหนดชำระ '
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 665c58fd29fb986bf51e10f5814c4793940c0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317786"
 ---
-
 # <a name="set-up-interest-rates-for-an-interest-code"></a>การตั้งค่าอัตราดอกเบี้ยสำหรับรหัสดอกเบี้ย
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ ms.lasthandoff: 05/08/2018
 รหัสดอกเบี้ยคือวันที่มีผลบังคับใช้  ถ้าคุณต้องการแก้ไขอัตราดอกเบี้ย คุณสามารถสร้าง **เวอร์ชันใหม่** ที่จะมีผลบังคับใช้ ณ วันในอนาคตได้
 
 เพื่อดูเวอร์ชันอื่น คุณสามารถใช้ตัวเลือกเมนู **ณ วันที่** เพื่อเลือกวันที่ตัดยอด คุณยังสามารถเลือก **แสดงเรกคอร์ดทั้งหมด** เพื่อดูรหัสดอกเบี้ยทั้งหมดในหน้านั้น
-
 
 
 

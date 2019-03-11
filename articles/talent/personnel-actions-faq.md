@@ -1,13 +1,13 @@
 ---
-title: "FAQ การดำเนินการด้านบุคลากร"
-description: "หัวข้อนี้ประกอบด้วยคำตอบของคำถามที่คุณมี ถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร"
+title: FAQ การดำเนินการด้านบุคลากร
+description: หัวข้อนี้ประกอบด้วยคำตอบของคำถามที่คุณมี ถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306420"
 ---
-
 # <a name="personnel-actions-faq"></a>FAQ การดำเนินการด้านบุคลากร
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ ms.lasthandoff: 08/09/2018
 - วันที่มีผลบังคับใช้ในส่วนหัวของการดำเนินการ **เลิกจ้างผู้ปฏิบัติงาน** คือ วันที่คุณป้อนในฟิลด์ **วันที่สิ้นสุดการจ้างงาน**
 - วันที่มีผลบังคับใช้ของการดำเนินการ **จ้างผู้ปฏิบัติงาน** คือ วันที่คุณป้อนในฟิลด์ **วันที่เริ่มต้นการจ้างงาน**
 - วันที่มีผลบังคับใช้ของการดำเนินการ **โอนย้ายผู้ปฏิบัติงาน** คือ วันที่คุณป้อนในฟิลด์ **การกำหนดวันที่เริ่มต้นการจ้างงาน** สำหรับผู้ปฏิบัติงาน
-
 

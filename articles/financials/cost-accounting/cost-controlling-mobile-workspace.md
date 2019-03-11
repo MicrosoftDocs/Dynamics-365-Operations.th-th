@@ -1,13 +1,13 @@
 ---
-title: "พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการควบคุมต้นทุน พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้"
+title: พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการควบคุมต้นทุน พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317579"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้
 
-พื้นที่ทำงานนี้จัดทำขึ้นสำหรับใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
 
 ## <a name="overview"></a>ภาพรวม
 พื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** แสดงมุมมองโต้ตอบแบบทันทีของประสิทธิภาพการทำงานปัจจุบันของศูนย์ต้นทุน โดยการเปรียบเทียบต้นทุนจริงกับต้นทุนที่จัดงบประมาณ คุณสามารถดูรายละเอียดแนวลึกของสถานะขององค์ประกอบต้นทุนแต่ละรายการได้
@@ -63,7 +62,7 @@ ms.lasthandoff: 03/26/2018
     -   ยอดเงินจริงเทียบกับงบประมาณ (ปีถึงปัจจุบัน)
     -   งบประมาณจริงเทียบกับงบประมาณที่ปรับปรุงแล้ว (ปีถึงปัจจุบัน)
 
-    ยอดต่อไปนี้จะถูกแสดงในบัตรทุกรายการ: ยอดเงินจริง งบประมาณ ผลต่าง และ % ผลต่าง
+    จำนวนต่อไปนี้ถูกแสดงในทุกๆ การ์ด: ข้อมูลจริง งบประมาณ ผลต่าง และผลต่าง %
 
 -   **ลิงก์:**
 
@@ -71,18 +70,18 @@ ms.lasthandoff: 03/26/2018
     -   รายละเอียดสำหรับรอบระยะเวลาก่อนหน้านี้
     -   รายละเอียดสำหรับปีถึงปัจจุบัน
 
-    เมื่อคุณเลือกลิงก์ บัตรจะแสดงขึ้นสำหรับแต่ละองค์ประกอบต้นทุน ยอดเงินต่อไปนี้จะถูกแสดงในบัตรทุกรายการ: ยอดเงินจริง งบประมาณ ผลต่างงบประมาณ % ผลต่างงบประมาณ งบประมาณที่ปรับปรุงแล้ว ผลต่างงบประมาณที่ปรับปรุงแล้ว และ % ผลต่างงบประมาณที่ปรับปรุงแล้ว
+    เมื่อคุณเลือกลิงก์ บัตรจะแสดงขึ้นสำหรับแต่ละองค์ประกอบต้นทุน จำนวนต่อไปนี้ถูกแสดงในทุกๆ การ์ด: ข้อมูลจริง งบประมาณ ผลต่างงบประมาณ ผลต่างงบประมาณ % งบประมาณที่ถูกแก้ไข ผลต่างงบประมาณที่ถูกแก้ไข และงบประมาณที่ถูกแก้ไข %
     
     [![บัตรสำหรับองค์ประกอบต้นทุน ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ข้อกำหนดเบื้องต้นที่แตกต่างกันขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่นำไปใช้งานสำหรับองค์กรของคุณ
+ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น หากคุณใช้ Microsoft Dynamics 365 for Finance and Operations
-ถ้า Microsoft Dynamics 365 for Finance and Operations ได้ถูกปรับใช้สำหรับองค์กรของคุณแล้ว ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Finance and Operations
+ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Finance and Operations สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่า
-ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการอัพเดตแพลตฟอร์ม 3 หรือรุ่นที่ใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
+ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์
 
 <table>
 <thead>
@@ -99,7 +98,7 @@ ms.lasthandoff: 03/26/2018
 
 <td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การควบคุมต้นทุน</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
@@ -144,5 +143,4 @@ ms.lasthandoff: 03/26/2018
 10. เลือกลิงก์ **รายละเอียดสำหรับรอบระยะเวลาปัจจุบัน**
 11. ดูประสิทธิภาพการทำงานขององค์ประกอบต้นทุนแต่ละรายการ
 12. คุณยังสามารถค้นหาองค์ประกอบต้นทุนเฉพาะได้อีกด้วย
-
 

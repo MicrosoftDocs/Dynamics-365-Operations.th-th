@@ -1,13 +1,13 @@
 ---
-title: "อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต"
-description: "บทความนี้ให้คำแนะนำสำหรับวิธีการอัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต"
+title: อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
+description: บทความนี้ให้คำแนะนำสำหรับวิธีการอัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323030"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 11/03/2017
 4.  ใช้หน้า **การบำรุงรักษาเวอร์ชันการคิดต้นทุน** เพื่อเปลี่ยนแฟล็กการบล็อค เพื่ออนุญาตการเปิดใช้งานของเรกคอร์ดต้นทุนที่เปิดค้างไว้ที่ถูกแนบอยู่ในเวอร์ชันการคิดต้นทุนที่สอง
 5.  ใช้หน้า **เรียกใช้งานราคา** (ซึ่งคุณสามารถเปิดได้จากหน้า **การบำรุงรักษาเวอร์ชันการคิดต้นทุน** ) เพื่อเปิดใช้งานเรกคอร์ดต้นทุนสินค้าที่ค้างอยู่ทั้งหมดที่ถูกแนบอยู่ในเวอร์ชันการคิดต้นทุนที่สอง คุณยังสามารถเรียกใช้งานเรกคอร์ดต้นทุนสินค้าที่ค้างอยู่สำหรับสินค้าแต่ละรายการ โดยการคลิกปุ่ม **เปิดใช้งานราคาที่ค้างอยู่** ในหน้า **ราคาสินค้า** ได้
 6.  เพื่อป้องกันการบำรุงรักษาข้อมูลเพิ่มเติม ใช้หน้า **การตั้งค่าเวอร์ชันการคิดต้นทุน** เพื่อเปลี่ยนแฟล็กการบล็อคที่ถูกแนบอยู่ในเวอร์ชันการคิดต้นทุนที่สอง นโยบายการบล็อคจะป้องกันการป้อนรายการของต้นทุนที่เปิดค้างไว้ใหม่และการเรียกใช้งานต้นทุนที่เปิดค้างไว้
-
 
 
 

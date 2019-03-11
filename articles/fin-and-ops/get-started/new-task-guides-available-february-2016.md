@@ -1,13 +1,13 @@
 ---
-title: "คู่มืองานใหม่ (กุมภาพันธ์ 2016)"
-description: "หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน"
+title: คู่มืองานใหม่ (กุมภาพันธ์ 2016)
+description: หัวข้อนี้แสดงรายการคู่มืองานที่ถูกนำออกใช้ไปยังไลบรารี Microsoft BPM ณ เดือนกุมภาพันธ์ 2016  ไลบรารีที่ได้รับการเผยแพร่ประกอบด้วย (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations (กุมภาพันธ์ 2016) การเริ่มต้นใช้งาน
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366454"
 ---
-
 # <a name="new-task-guides-february-2016"></a>คู่มืองานใหม่ (กุมภาพันธ์ 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -632,8 +631,8 @@ ms.lasthandoff: 12/18/2018
 | จัดซื้อสินค้ามีผลบังคับใช้                            | ส่วนกลาง         |
 | การรายงานทางอิเล็กทรอนิกส์                               | ส่วนกลาง         |
 | การบริการตนเองของพนักงาน                              | ส่วนกลาง         |
-| วิธีการลดระยะเวลาการเก็บหนี้ถัวเฉลี่ย          | ส่วนกลาง         |
-| บทนำเกี่ยวกับฟังก์ชันแปล AX      | ส่วนกลาง         |
+| วิธีการลดระยะเวลาการเก็บหนี้ถัวเฉลี่ย          | สากล         |
+| บทนำเกี่ยวกับฟังก์ชันแปล AX      | สากล         |
 | บทนำเกี่ยวกับลักษณะการทำงานเฉพาะประเทศกับภาษาญี่ปุ่น | ญี่ปุ่น          |
 | จัดการการกำหนดราคาและโปรโมชัน                      | ส่วนกลาง         |
 | ระบบบริการตนเองของผู้จัดการ                               | ส่วนกลาง         |
@@ -647,4 +646,3 @@ ms.lasthandoff: 12/18/2018
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)](new-updated-task-guides-available-august-2016.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)](new-task-guides-november-2016.md)
-

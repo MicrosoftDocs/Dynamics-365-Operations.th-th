@@ -1,13 +1,13 @@
 ---
-title: "นโยบายการจับคู่แบบสามทาง"
-description: "หัวข้อนี้แสดงตัวอย่างของการจับคู่แบบสามทาง"
+title: นโยบายการจับคู่แบบสามทาง
+description: หัวข้อนี้แสดงตัวอย่างของการจับคู่แบบสามทาง
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318959"
 ---
-
 # <a name="three-way-matching-policies"></a>นโยบายการจับคู่แบบสามทาง
 
 [!include [banner](../includes/banner.md)]
@@ -143,7 +142,6 @@ Fabrikam ดำเนินงานร่วมกับนิติบุค�
 
 
 สำหรับข้อมูลเพิ่มเติม ดู [การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้](accounts-payable-invoice-matching.md)
-
 
 
 

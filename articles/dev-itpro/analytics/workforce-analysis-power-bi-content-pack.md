@@ -1,13 +1,13 @@
 ---
-title: "เนื้อหาเมตริกบุคลากรใน Power BI"
-description: "หัวข้อนี้อธิบายถึงเนื้อหาเมตริกบุคลากรใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้"
+title: เนื้อหา Power BI ของการวัดของพนักงาน
+description: หัวข้อนี้อธิบายเนื้อหา Power BI ของการวัดของพนักงาน และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345800"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>เนื้อหาเมตริกบุคลากรใน Power BI
+# <a name="workforce-metrics-power-bi-content"></a>เนื้อหา Power BI ของการวัดของพนักงาน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงเนื้อหา **เมตริกบุคลากร** ใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI ของ **การวัดของพนักงาน** และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-เนื้อหา **เมตริกบุคลากร** ใน Power BI จะปรากฏในพื้นที่ทำงาน **การจัดการบุคคลากร** ถ้าคุณใช้งานหนึ่งในผลิตภัณฑ์ต่อไปนี้:
+เนื้อหา Power BI ของ **การวัดของพนักงาน** ปรากฎในพื้นที่ทำงาน **การจัดการส่วนบุคคล** ถ้าคุณใช้หนึ่งในผลิตภัณฑ์เหล่านี้
 
-- icrosoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>เมตริกที่รวมอยู่ในเนื้อหา Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>เมตริกที่รวมอยู่ในชุดเนื้อหา Power BI
 ตารางต่อไปนี้แสดงรายการเมตริกซ์ที่แสดงอยู่ในแต่ละหน้ารายงาน
 
 | รายงาน                                           | เมตริก |
@@ -57,9 +56,9 @@ ms.lasthandoff: 08/13/2018
 | วันเกิดของพนักงาน                               | วันเกิดในเดือนนี้ วันเกิดเดือนถัดไป วันเกิดของพนักงาน และวันเกิดโดยเรียงตามเดือนและแผนก |
 | โครงการจ้างงานโดยรวม                               | โครงการจ้างงานโดยรวมรวม โครงการจ้างงานโดยรวมโดยเรียงตามสถานะ โครงการจ้างงานโดยรวมโดยเรียงตามแผนกและเจ้าของ โครงการจ้างงานโดยเรียงตามงาน และโครงการจ้างงานโดยรวม |
 
-คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
-ตรวจสอบให้แน่ใจว่าได้ดาวน์โหลดเนื้อหา Power BI **เมตริกบุคลากร** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
+ต้องแน่ใจว่าดาวน์โหลดเนื้อหา Power BI ของ **การวัดของพนักงาน** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 
 > [!NOTE]
 > ไฟล์ .pbix พร้อมใช้งานใน Lifecycle Services นำไปใช้ได้กับ Finance and Operations เท่านั้น
@@ -88,4 +87,3 @@ ms.lasthandoff: 08/13/2018
 | แนวโน้มของพนักงาน           | ผู้ปฏิบัติงานล่วงเวลา จำนวนพนักงาน บริษัท และตำแหน่ง                                 | บริษัท ที่ตั้งทางภูมิศาสตร์ ชื่อพนักงาน รายงานไปยัง ออฟเซ็ตของปฏิทิน วันที่ ชื่อพนักงาน ข้อมูลประชากร การจ้างงาน งาน |
 | โครงการจ้างงานโดยรวม        | หมายเลขโครงการจ้างงานโดยรวม เจ้าของโครงการ และสถานะของโครงการ                     | บริษัท การจ้างงานโดยรวม |
 | รายการจ้างงานโดยรวม           | แผนก ชนิดการจ้างงาน และตำแหน่ง                                           | วันที่ งาน โครงการจ้างงานโดยรวม |
-

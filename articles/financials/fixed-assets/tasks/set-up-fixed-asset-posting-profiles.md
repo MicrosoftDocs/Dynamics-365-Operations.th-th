@@ -1,13 +1,13 @@
---- 
-title: "การตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร"
-description: "คำแนะนำของงานนี้จะตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร "
+---
+title: การตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
+description: 'คำแนะนำของงานนี้จะตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร '
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 286c8732c1f2c92d0f16582b0b9de41990280e5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9766d96d16429d0ce0864695a3157f54cad4054
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351113"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>การตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
 
@@ -132,5 +132,4 @@ ms.lasthandoff: 09/29/2017
 87. ในฟิลด์มูลค่าการลงรายบัญชี เลือก 'มูลค่าตามบัญชีสุทธิ'
 88. ในฟิลด์บัญชีหลัก ระบุมูลค่าที่ต้องการ
 89. ในฟิลด์บัญชีตรงข้าม ให้ระบุค่าที่ต้องการ
-
 

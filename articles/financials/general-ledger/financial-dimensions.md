@@ -1,13 +1,13 @@
 ---
-title: "มิติทางการเงิน"
-description: "หัวข้อนี้อธิบายมิติทางการเงินชนิดต่างๆ และวิธีการตั้งค่า"
+title: มิติทางการเงิน
+description: หัวข้อนี้อธิบายมิติทางการเงินชนิดต่างๆ และวิธีการตั้งค่า
 author: aprilolson
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
-ems.prod: 
+ems.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
 ms.reviewer: shylaw
@@ -16,15 +16,14 @@ ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
-ms.contentlocale: th-th
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317556"
 ---
-
 # <a name="financial-dimensions"></a>มิติทางการเงิน
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 01/03/2019
 
 หลังจากที่คุณได้สร้างมิติทางการเงินแล้ว ใช้หน้า **ค่ามิติทางการเงิน** เพื่อกำหนดคุณสมบัติเพิ่มเติมให้กับแต่ละมิติทางการเงิน
 
-คุณสามารถใช้มิติทางการเงินเพื่อที่จะแสดงถึงนิติบุคคล คุณไม่จำเป็นต้องสร้างนิติบุคคลใน Microsoft Dynamics 365 for Finance and Operations อย่างไรก็ตาม มิติทางการเงินไม่ได้ถูกออกแบบมาเพื่อระบุความต้องการของการดำเนินการหรือความต้องการทางธุรกิจของนิติบุคคล ฟังก์ชันการบัญชีระหว่างหน่วยใน Finance and Operations ได้รับการออกแบบมาเพื่อจัดการเฉพาะรายการบัญชีที่สร้างขึ้นโดยธุรกรรมแต่ละรายการ
+คุณสามารถใช้มิติทางการเงินเพื่อที่จะแสดงถึงนิติบุคคล คุณไม่ต้องสร้างเอนทิตีทางกฎหมายใน Microsoft Dynamics 365 for Finance and Operations อย่างไรก็ตาม มิติทางการเงินไม่ได้ถูกออกแบบมาเพื่อระบุความต้องการของการดำเนินการหรือความต้องการทางธุรกิจของนิติบุคคล ฟังก์ชันการบัญชีระหว่างหน่วยใน Finance and Operations ได้รับการออกแบบมาเพื่อจัดการเฉพาะรายการบัญชีที่สร้างขึ้นโดยธุรกรรมแต่ละรายการ
 
 ก่อนที่คุณจะตั้งค่ามิติทางการเงินเป็นนิติบุคคล ให้ประเมินกระบวนการทางธุรกิจของคุณในขอบเขตต่อไปนี้เพื่อกำหนดว่าการตั้งค่านี้จะเหมาะกับองค์กรของคุณหรือไม่:
 
@@ -141,4 +140,3 @@ ms.lasthandoff: 01/03/2019
 
 - [กำหนดมิติทางการเงิน](tasks/define-financial-dimensions.md)
 - [รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน](tasks/maintain-financial-dimension-default-templates.md)
-

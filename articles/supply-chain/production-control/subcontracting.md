@@ -1,33 +1,32 @@
 ---
-title: "การรับเหมารายย่อย"
-description: "หัวข้อนี้จะช่วยคุณสร้างคำแนะนำการใช้งานของการรับเหมารายย่อยในการผลิตใน Microsoft Dynamics 365 for Finance and Operations"
+title: การรับเหมารายย่อย
+description: หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Microsoft Dynamics 365 for Finance and Operations
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: ade3f4ad9878c9e885afc5034334e41897512871
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336715"
 ---
-
 # <a name="subcontracting"></a>การรับเหมารายย่อย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะช่วยคุณสร้างคำแนะนำการใช้งานของการรับเหมารายย่อยในการผลิตใน Microsoft Dynamics 365 for Finance and Operations ส่วนแรกของหัวข้อนี้อธิบายถึงการตั้งค่าของข้อมูล ส่วนที่สองจะนำคุณผ่านขั้นตอนต่างๆ ในการฝึกปฏิบัตินี้
+หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Microsoft Dynamics 365 for Finance and Operations ส่วนแรกของหัวข้อนี้อธิบายถึงการตั้งค่าของข้อมูล ส่วนที่สองจะนำคุณผ่านขั้นตอนต่างๆ ในการฝึกปฏิบัตินี้
 
 ## <a name="target-audience"></a>ผู้ชมเป้าหมาย
 
@@ -304,4 +303,3 @@ ms.lasthandoff: 09/29/2018
     ![แผนภูมิการเปรียบเทียบต้นทุน](./media/subcontract35_cost-comparison-charts.png)
 
 การตั้งค่าที่ขาดหายไปในข้อมูล
-

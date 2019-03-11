@@ -1,39 +1,38 @@
 ---
-title: "ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด"
-description: "หัวข้อนี้แสดงภาพรวมของโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดระหว่าง Microsoft Dynamics 365 for Finance and Operations และ Microsoft Dynamics 365 for Sales"
+title: ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
+description: หัวข้อนี้แสดงภาพรวมของโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดระหว่าง Microsoft Dynamics 365 for Finance and Operations และ Microsoft Dynamics 365 for Sales
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309506"
 ---
-
 # <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
 [!include [banner](../includes/banner.md)]
 
-โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดให้การซิงโครไนส์โดยตรงระหว่าง Dynamics 365 for Finance and Operations และ Microsoft Dynamics 365 for Sales เท็มเพลตผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Finance and Operations และ Sales ขณะที่มีการถ่ายโอนข้อมูลระหว่าง Finance and Operations และ Sales คุณสามารถดำเนินกิจกรรมการขายและการตลาดใน Sales และคุณสามารถจัดการการเติมสินค้าตามใบสั่งโดยใช้การบริหารสินค้าคงคลัง Finance and Operations ได้ 
+โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดให้การซิงโครไนส์โดยตรงระหว่าง Dynamics 365 for Finance and Operations และ Dynamics 365 for Sales เท็มเพลตผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Finance and Operations และ Sales ขณะที่มีการถ่ายโอนข้อมูลระหว่าง Finance and Operations และ Sales คุณสามารถดำเนินกิจกรรมการขายและการตลาดใน Sales และคุณสามารถจัดการการเติมสินค้าตามใบสั่งโดยใช้การบริหารสินค้าคงคลัง Finance and Operations ได้ 
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ให้ดูวิดีโอ YouTube แบบย่อ [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://www.youtube.com/watch?v=AVV9x5x-XCg)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ให้ดูวิดีโอ YouTube แบบย่อ [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://www.youtube.com/watch?v=AVV9x5x-XCg)
 
 ในเวอร์ชันปัจจุบัน โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดแสดงชนิดของการซิงโครไนส์โดยตรงต่อไปนี้:
 
@@ -47,13 +46,13 @@ ms.lasthandoff: 08/13/2018
 ## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
 การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดได้รับการสนับสนุนในรุ่นต่อไปนี้:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (ธันวาคม 2017)
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (ธันวาคม 2017) - การสร้างแอพลิเคชัน 7.3.11971.56116 พร้อมกับการอัพเดตแพลตฟอร์ม 12 (7.0.4709.41129)
+- Dynamics 365 for Finance and Operations, Enterprise Edition (ธันวาคม 2017) - รุ่นของแอพลิเคชัน 7.3.11971.56116 กับการอัพเดแพลตฟอร์ม 12 (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (กรกฎาคม 2017) - พร้อมกับการอัพเดตแพลตฟอร์ม 8 (การสร้างแอพลิเคชัน 7.2.11792.56024 พร้อมกับการสร้างแพลตฟอร์ม 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017) - ที่มีการอัพเดตแพลตฟอร์ม 8 (รุ่นของแอพลิเคชัน 7.2.11792.56024 ที่มีบิลด์ของแพลตฟอร์ม 7.0.4565.16212)
 - จำเป็นต้องมีโปรแกรมแก้ไขด่วนต่อไปนี้:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Sales ไปยัง Finance and Operations ผ่านทางคุณลักษณะการรวมข้อมูล ยังมีการปรับปรุงอื่นๆ อีกหลายส่วน
@@ -82,5 +81,4 @@ ms.lasthandoff: 08/13/2018
 เมื่อต้องการใช้โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด คุณต้องติดตั้งส่วนประกอบต่อไปนี้:
 
 - Dynamics 365 for Sales รุ่น 1612 (8.2.1.207) (DB 8.2.1.207) ออนไลน์ หรือรุ่นที่ใหม่กว่า
-- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Dynamics 365 for Sales รุ่น 1.15.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้จะพร้อมใช้งานสำหรับการดาวน์โหลดจาก AppSource [ดาวน์โหลด Dynamics 365 ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
-
+- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Dynamics 365 for Sales รุ่น 1.15.0.0 หรือใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก AppSource [ดาวน์โหลด Dynamics 365 ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)

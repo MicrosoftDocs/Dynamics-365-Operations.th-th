@@ -1,31 +1,30 @@
 ---
-title: "ราคาขายสำหรับการบอกรับเป็นสมาชิก"
-description: "เมื่อคุณสร้างการบอกรับเป็นสมาชิก คุณจะได้รับราคาขายจากการตั้งค่าราคาขายซึ่งถูกสร้างในแบบฟอร์มราคาขาย (การบอกรับเป็นสมาชิก)"
+title: ราคาขายสำหรับการบอกรับเป็นสมาชิก
+description: เมื่อคุณสร้างการบอกรับเป็นสมาชิก คุณจะได้รับราคาขายจากการตั้งค่าราคาขายซึ่งถูกสร้างในแบบฟอร์มราคาขาย (การบอกรับเป็นสมาชิก)
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e18690f7e9b790ecbd0ac0de1955fc95ab1f082
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d9d462121915ce3f800581a9540dc1ef8f6e785f
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352171"
 ---
-
 # <a name="subscription-sales-prices"></a>ราคาขายสำหรับการบอกรับเป็นสมาชิก   
 
 [!include [banner](../includes/banner.md)]
@@ -379,6 +378,5 @@ ms.lasthandoff: 05/08/2018
 [การอัพเดตและการจัดดัชนีราคาขายของการสั่งซื้อโดยบอกรับเป็นสมาชิก](update-and-index-subscription-sales-prices.md)
 
   
-
 
 

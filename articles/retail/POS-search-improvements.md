@@ -1,31 +1,30 @@
 ---
-title: "การค้นหาผลิตภัณฑ์และการค้นหาลูกค้าในการขายหน้าร้าน (POS)"
-description: "หัวข้อนี้แสดงภาพรวมของการปรับปรุงที่ดำเนินการไปยังฟังก์ชันการค้นหาผลิตภัณฑ์และลูกค้าใน Microsoft Dynamics 365 for Retail"
+title: การค้นหาผลิตภัณฑ์และการค้นหาลูกค้าในการขายหน้าร้าน (POS)
+description: หัวข้อนี้ให้ภาพรวมของการพัฒนาที่ได้ถูกทำไปยังผลิตภัณฑ์และฟังก์ชันการค้นหาลูกค้าใน Microsoft Dynamics 365 for Retail
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313600"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>การค้นหาผลิตภัณฑ์และการค้นหาลูกค้าในการขายหน้าร้าน (POS)
 
 [!include [banner](includes/banner.md)]
@@ -91,7 +90,7 @@ ms.lasthandoff: 08/09/2018
 
 ![ทางลัดในการค้นหาลูกค้า](./media/SearchShortcutsPOS.png "ทางลัดในการค้นหาลูกค้า")
 
-ในการกำหนดเงื่อนไขการค้นหาให้เป็นทางลัด ผู้ดูแลระบบต้องเปิดหน้า **พารามิเตอร์การขายปลีก** ใน Microsoft Dynamics 365 or Finance and Operations และจากนั้น บนแท็บ **เกณฑ์การค้นหา POS** เลือกเงื่อนไขทั้งหมดที่ควรจะแสดงเป็นทางลัด
+เพื่อตั้งค่าเกณฑ์การค้นหาเป็นทางลัด ผู้ดูแลต้องเปิดหน้า **พารามิเตอร์ Retail** ใน Microsoft Dynamics 365 for Finance and Operations และจากนั้นบนแท็บ **เกณฑ์การค้นหา POS** เลือกเกณฑ์ทั้งหมดที่ควรถูกแสดงเป็นทางลัด
 
 ![ตั้งค่าคอนฟิกทางลัดในการค้นหา](./media/ConfigureShortcutsAX.png "ตั้งค่าคอนฟิกทางลัดในการค้นหา")
 
@@ -102,4 +101,3 @@ ms.lasthandoff: 08/09/2018
 
 > [!NOTE]
 > คุณสมบัติแบบกำหนดเองที่ถูกเพิ่มเข้าใน enum ไม่มีผลต่ออัลกอริทึมการค้นหาลูกค้ามาตรฐาน กล่าวอีกอย่างหนึ่งคือ อัลกอริทึมการค้นหาลูกค้าจะไม่ค้นหาในคุณสมบัติแบบกำหนดเอง ผู้ใช้สามารถใช้คุณสมบัติแบบกำหนดเองสำหรับการค้นหาได้ ก็ต่อเมื่อมีการเพิ่มคุณสมบัติแบบกำหนดเองนั้นเป็นทางลัด หรือหากอัลกอริทึมการค้นหาเริ่มต้นถูกแทนที่
-

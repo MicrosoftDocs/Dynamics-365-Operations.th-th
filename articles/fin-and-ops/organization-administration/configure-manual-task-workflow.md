@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง"
+title: ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309759"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
@@ -383,4 +382,3 @@ ms.lasthandoff: 12/18/2018
 5. เลือกกล่องกาเครื่องหมาย **มอบหมาย** หากผู้ใช้ควรสามารถกำหนดงานนี้ให้ผู้ใช้รายอื่นได้
 6. เลือกกล่องกาเครื่องหมาย **กำหนดใหม่** หากผู้ใช้ควรสามารถกำหนดงานนี้ใหม่ให้ผู้ใช้รายอื่นในคิวรายการงานได้
 7. เลือกกล่องกาเครื่องหมาย **นำออกใช้** หากผู้ใช้ควรสามารถกำหนดงานนี้ใหม่ในคิวรายการงานได้ จากนั้นผู้ใช้รายอื่นจึงจะสามารถทำงานให้เสร็จสมบูรณ์ได้
-

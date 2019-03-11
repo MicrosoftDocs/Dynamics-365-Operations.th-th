@@ -1,13 +1,13 @@
---- 
-title: "กำหนดกระบวนการตรวจนับสินค้าคงคลัง"
-description: "ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ "
+---
+title: กำหนดกระบวนการตรวจนับสินค้าคงคลัง
+description: 'ขั้นตอนนี้นำคุณผ่านการตั้งค่าคอนฟิกของกระบวนการตรวจนับสินค้าคงคลังพื้นฐาน ด้วยการสร้างกลุ่มการตรวจนับและสมุดรายวันการตรวจนับ '
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 707d4fab58a9c689f32d9e881ecacbe8e64b517c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345340"
 ---
 # <a name="define-inventory-counting-processes"></a>กำหนดกระบวนการตรวจนับสินค้าคงคลัง
 
@@ -85,5 +85,4 @@ ms.lasthandoff: 09/29/2017
 7. ในรายการ เลือกกลุ่มการตรวจนับ
     * ที่นี่คุณสามารถเลือกกลุ่มการตรวจนับเฉพาะที่ควรใช้กับสินค้าในคลังสินค้าเฉพาะที่คุณเลือก  เมื่อการตรวจนับได้ดำเนินการในคลังสินค้า นโยบายการตรวจนับนี้จะแทนที่นโยบายการตรวจนับทั่วไปสำหรับสินค้า  
 8. คลิก บันทึก
-
 

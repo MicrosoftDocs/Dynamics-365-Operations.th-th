@@ -1,31 +1,31 @@
 ---
-title: "มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)"
-description: "หัวข้อนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent Core HR"
+title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
+description: หัวข้อนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 for Talent Core HR
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 09936c7161a7e303a0ada2f48ef3281b81a67295
 ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.contentlocale: th-th
-ms.lasthandoff: 12/10/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306492"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 12/10/2018
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>ตั้งค่าคอนฟิกการรวมระบบค่าจ้าง UK ระหว่าง Talent และ Dayforce
 
-การรวมระหว่าง Microsoft Dynamics 365 for Talent และ Ceridian Dayforce จะพร้อมใช้งานในการแสดงตัวอย่างสำหรับ UK ให้อ้างอิงถึงหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติม [ตั้งค่าคอนฟิกการรวมค่าจ้างระหว่าง Talent และ Dayforce](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration)
+การรวมระหว่าง Microsoft Dynamics 365 for Talent และ Ceridian Dayforce พร้อมใช้งานในการแสดงตัวอย่างสำหรับ UK ให้อ้างอิงถึงหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติม [ตั้งค่าคอนฟิกการรวมค่าจ้างระหว่าง Talent และ Dayforce](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -142,5 +142,4 @@ ms.lasthandoff: 12/10/2018
 ![ผู้ปฏิบัติงานไปยังงานของผู้ปฏิบัติงาน](./media/WorkerMapping.png)
 
 ![การแปลงฟิลด์เพศ](./media/WorkerTransform.png)
-
 

@@ -1,31 +1,30 @@
 ---
-title: "การสร้าง BOM เท็มเพลต"
-description: "คุณสามารถสร้าง BOM เท็มเพลตได้โดยใช้วิธีที่หลากหลายต่อไปนี้"
+title: การสร้าง BOM เท็มเพลต
+description: คุณสามารถสร้าง BOM เท็มเพลตได้โดยใช้วิธีที่หลากหลายต่อไปนี้
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 89c5d45ac27a8678c51fb63c0326c2802a094596
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a80cf596a3e7c7f08d493a0fb7350fad62d38c3e
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321006"
 ---
-
 # <a name="create-a-template-bom"></a>การสร้าง BOM เท็มเพลต   
 
 [!include [banner](../includes/banner.md)]
@@ -110,6 +109,5 @@ BOM เท็มเพลตใหม่จะถูกสร้างขึ้�
 [BOM เท็มเพลต](template-boms.md)
 
   
-
 
 

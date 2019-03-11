@@ -1,13 +1,13 @@
 ---
-title: "แอททริบิวต์ของชุดงาน"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับแอททริบิวต์ของชุดงาน แอททริบิวต์ของชุดงานมีลักษณะของวัตถุดิบและผลิตภัณฑ์สำเร็จรูปที่สร้างชุดงานสินค้าคงคลัง หัวข้อนี้ยังอธิบายวิธีการกำหนดแอททริบิวต์ของชุดงาน และวิธีที่คุณสามารถค้นหาเมื่อคุณจองชุดงานอีกด้วย"
+title: แอททริบิวต์ของชุดงาน
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับแอททริบิวต์ของชุดงาน แอททริบิวต์ของชุดงานมีลักษณะของวัตถุดิบและผลิตภัณฑ์สำเร็จรูปที่สร้างชุดงานสินค้าคงคลัง หัวข้อนี้ยังอธิบายวิธีการกำหนดแอททริบิวต์ของชุดงาน และวิธีที่คุณสามารถค้นหาเมื่อคุณจองชุดงานอีกด้วย
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 325e647185e3eb4c0eacdfd00c320804e31ddb48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347640"
 ---
-
 # <a name="batch-attributes"></a>แอททริบิวต์ของชุดงาน
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="reserve-batches"></a>จองชุดงาน
 คุณสามารถค้นหาแอททริบิวต์ของชุดงาน เมื่อคุณทำการจองชุดงานสำหรับใบสั่งขายเพื่อเติมเต็มใบสั่งของลูกค้า หรือเมื่อคุณเบิกสินค้าและจองชุดงานสำหรับใบสั่งผลิต การค้นหาช่วยระบุตำแหน่งชุดงานสินค้าคงคลัง ที่ประกอบด้วยผลิตภัณฑ์ที่มีแอททริบิวต์ของชุดงานที่คุณต้องการ หลังจากที่คุณระบุตำแหน่งชุดงานหรือชุดงานต่างๆ คุณสามารถจองผลิตภัณฑ์ไปยังรายการธุรกรรมสินค้าคงคลังเริ่มต้น
-
 
 
 

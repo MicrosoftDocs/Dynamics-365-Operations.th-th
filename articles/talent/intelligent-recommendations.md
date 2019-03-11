@@ -1,14 +1,14 @@
 ---
-title: "คำแนะนำอัจฉริยะ"
-description: "หัวข้อนี้อธิบายวิธีการใช้ machine learning เพื่อให้คำแนะนำสำหรับงานและผู้สมัครงาน"
+title: คำแนะนำอัจฉริยะ
+description: หัวข้อนี้อธิบายวิธีการใช้ machine learning เพื่อให้คำแนะนำสำหรับงานและผู้สมัครงาน
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: th-th
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306429"
 ---
-
 # <a name="intelligent-recommendations"></a>คำแนะนำอัจฉริยะ
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Machine learning สามารถช่วยให้ผู้สรรหา
 ## <a name="job-recommendations"></a>คำแนะนำสำหรับงาน 
 
 เมื่อผู้ที่มีแนวโน้มจะเป็นพนักงานใช้ไซต์การทำงานกับงาน มีการแนะนำตำแหน่งที่เปิดอื่นๆ ที่องค์กร คำแนะนำเหล่านี้ขึ้นอยู่กับใบสมัครในอดีตของผู้ที่มีแนวโน้มจะเป็นลูกค้า และขึ้นอยู่กับประวัติย่อของเขาหรือเธอ หรือโพรไฟล์ของผู้สมัคร ดังนั้น คำแนะนำเกี่ยวกับงานช่วยให้ผู้ที่มีแนวโน้มจะเป็นลูกค้าสามารถระบุงานที่เหมาะสมที่สุดสำหรับพวกเขาอย่างรวดเร็ว คำแนะนำเกี่ยวกับงานจะให้แก่ผู้ที่มีแนวโน้มจะเป็นลูกค้า ถ้ามีการลงรายการบัญชีงานมากกว่าสิบงานบนไซต์การทำงาน ผู้ที่มีแนวโน้มจะเป็นลูกค้าสามารถเปิดรายละเอียดของการลงรายการบัญชีงานได้จากบัตรคำแนะนำ นอกจากนี้ พวกเขายังสามารถให้ผลป้อนกลับเกี่ยวกับคำแนะนำเพื่อช่วยปรับปรุงคำแนะนำในอนาคตได้
-

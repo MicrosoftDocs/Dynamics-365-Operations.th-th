@@ -1,13 +1,13 @@
---- 
-title: "รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน"
+---
+title: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
 description: "ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่ "
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332621"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
 
@@ -92,5 +92,4 @@ ms.lasthandoff: 09/14/2018
     * ตัวอย่าง Xray ยืนยันการแตกร้าว เข้าเฝือก  
 36. คลิก บันทึก
     * สถานะกรณีสามารถอัพเดตได้ตลอดเวลา  ตั้งค่ากรณีเป็น อยู่ระหว่างดำเนินการ หากระหว่างการประมวลผลการบาดเจ็บหรือการเจ็บป่วยอยู่ระหว่างการดำเนินการ   เมื่อคุณปิดเหตุการณ์ คุณสามารถเพิ่มเท่านั้นหรือลบต้นทุน การรักษาพยาบาลหรือการยื่นเอกสารแจ้งที่เกี่ยวข้องกับเหตุการณ์ได้เท่านั้น   เพื่อปรับเปลี่ยนข้อมูลอื่น ให้เปิดกรณีอีกครั้ง  
-
 

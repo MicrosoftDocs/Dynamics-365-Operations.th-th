@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด"
-description: "ลำดับหมายเลขถูกใช้ในการสร้างรหัสที่สามารถอ่านได้ รหัสเฉพาะสำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่ต้องการ "
+---
+title: ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
+description: 'ลำดับหมายเลขถูกใช้ในการสร้างรหัสที่สามารถอ่านได้ รหัสเฉพาะสำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่ต้องการ '
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328251"
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 09/29/2017
     * อย่าเลือกตัวเลือกต่อเนื่องถ้าคุณต้องปันส่วนหมายเลขล่วงหน้าสำหรับลำดับหมายเลข      เมื่อต้องการเพิ่มเซ็กเมนต์ขอบเขตในรูปแบบลำดับหมายเลขให้เลือกรูปแบบในรายการจากนั้นคลิก รวมขอบเขตในรูปแบบ      การลบเซ็กเมนต์ขอบเขตออกจากรูปแบบของลำดับหมายเลขให้เลือกรูปแบบในรายการ จากนั้นคลิกลบขอบเขตออกจากรูปแบบ      การไม่รวมลำดับหมายเลขจากการสร้างโดยอัตโนมัติ ให้เลือกลำดับหมายเลขในรายการจากนั้นคลิกลบ  
 4. คลิก ถัดไป
 5. คลิก Finish
-
 

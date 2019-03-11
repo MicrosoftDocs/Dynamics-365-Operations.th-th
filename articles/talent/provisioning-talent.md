@@ -1,13 +1,13 @@
 ---
-title: "เตรียมใช้งาน Talent"
-description: "หัวข้อนี้นำคุณไปสู่กระบวนการของการเตรียมใช้งานสภาพแวดล้อมใหม่สำหรับ Microsoft Dynamics 365 for Talent"
+title: เตรียมใช้งาน Talent
+description: หัวข้อนี้นำคุณไปสู่กระบวนการของการเตรียมใช้งานสภาพแวดล้อมใหม่สำหรับ Microsoft Dynamics 365 for Talent
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: th-th
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306470"
 ---
 # <a name="provision-talent"></a>เตรียมใช้งาน Talent
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้นำคุณไปสู่กระบวนการของการเตรียมใช้งานสภาพแวดล้อมในการผลิตใหม่สำหรับ Microsoft Dynamics 365 for Talent หัวข้อนี้สันนิษฐานว่า คุณได้ซื้อ Talent ผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) ถ้าคุณมีลิขสิทธิ์ Microsoft Dynamics 365 ที่มีอยู่ ซึ่งรวมแผนบริการ Talent และคุณไม่สามารถทำตามขั้นตอนในหัวข้อนี้ให้เสร็จสิ้นได้ ให้ติดต่อฝ่ายสนับสนุน
+หัวข้อนี้นำคุณไปสู่กระบวนการของการเตรียมใช้งานสภาพแวดล้อมการผลิตใหม่สำหรับ Microsoft Dynamics 365 for Talent หัวข้อนี้สันนิษฐานว่า คุณได้ซื้อ Talent ผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) ถ้าคุณมีลิขสิทธิ์ Microsoft Dynamics 365 มีอยู่ ซึ่งรวมแผนบริการ Talent และคุณไม่สามารถทำตามขั้นตอนในหัวข้อนี้ให้เสร็จสิ้นได้ ให้ติดต่อฝ่ายสนับสนุน
 
 เพื่อเริ่มต้น ผู้ดูแลระบบส่วนกลางควรลงชื่อเข้าใช้ [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) และสร้างโครงการ Talent ใหม่ ถ้ามีปัญหาการให้ลิขสิทธิ์ไม่ป้องกันคุณจากการเตรียมใช้งาน Talent ความช่วยเหลือจากเจ้าหน้าที่ฝ่ายสนับสนุนหรือตัวแทน Dynamics Service Engineering ก็ไม่จำเป็น
 
@@ -79,7 +79,7 @@ ms.lasthandoff: 11/01/2018
  
    **สภาพแวดล้อม Power Apps เริ่มต้น** แม้ว่าผู้เช่าแต่ละรายถูกเตรียมใช้งานกับสภาพแวดล้อม PowerApps เริ่มต้นโดยอัตโนมัติ เราไม่แนะนำให้ใช้กับ Talent เนื่องจากผู้ใช้ที่เป็นผู้เช่าทั้งหมดสามารถเข้าถึงสภาพแวดล้อม PowerApps ได้และอาจทำให้ข้อมูลการผลิตเสียหายโดยไม่ได้ตั้งใจ เมื่อมีการทดสอบและการค้นหาด้วย PowerApps หรือการรวมขั้นตอน
    
-   <strong>สภาพแวดล้อม Test Drive</strong> สภาพแวดล้อมที่มีเป็น 'TestDrive – alias@domain' ถูกสร้างขึ้นโดยมีช่วงวันหมดอายุ 60 วัน และจะหมดอายุหลังจากเวลานั้น ซึ่งทำให้สภาพแวดล้อมของคุณถูกเอาออกโดยอัตโนมัติ
+   สภาพแวดล้อม <strong>Test Drive สภาพแวดล้อม</strong> ที่มีชื่อเป็น ‘TestDrive – alias@domain’ ถูกสร้างขึ้นโดยมีช่วงวันหมดอายุ 60 วัน และจะหมดอายุหลังจากเวลานั้น ซึ่งทำให้สภาพแวดล้อมของคุณถูกเอาออกโดยอัตโนมัติ
    
    **ภูมิภาคที่ไม่ได้รับการสนับสนุน** ในขณะนี้ Talent ได้รับการสนับสนุนเฉพาะในภูมิภาคดังต่อไปนี้: สหรัฐอเมริกา ยุโรป หรือออสเตรเลีย
   
@@ -87,5 +87,4 @@ ms.lasthandoff: 11/01/2018
  
 ## <a name="grant-access-to-the-environment"></a>ได้รับสิทธิ์ในการเข้าถึงสภาพแวดล้อม
 ตามค่าเริ่มต้น ผู้ดูแลระบบส่วนกลางที่เว็บไซต์จะมีสิทธิ์ในการเข้าถึง อย่างไรก็ตาม ผู้ใช้แอพลิเคชันเพิ่มเติมต้องได้รับสิทธิ์ในการเข้าถึงอย่างชัดแจ้ง เมื่อต้องการให้สิทธิการเข้าถึง คุณ [เพิ่มผู้ใช้](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) และ [กำหนดบทบาทเหมาะสมกับพวกเขา](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) ในสภาพแวดล้อม HR หลัก ผู้ดูแลระบบสากลที่ปรับใช้ Talent ต้องเปิดใช้แอพลิเคชัน Attract และ Onboard อีกด้วย เพื่อดำเนินการเริ่มต้นและเปิดใช้งานการเข้าถึงสำหรับผู้ใช้ที่เป็นผู้เช่าอื่น  จนกว่าจะเกิดขึ้น ผู้ใช้รายอื่นจะไม่สามารถเข้าถึงแอพลิเคชัน Attract และ Onboard ได้ และจะได้รับการเข้าถึงข้อผิดพลาดการละเมิด
-
 

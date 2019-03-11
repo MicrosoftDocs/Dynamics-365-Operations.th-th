@@ -1,13 +1,13 @@
 ---
-title: "ตัวเลือกธุรกรรมสินทรัพย์ถาวร"
-description: "บทความนี้อธิบายวิธีการต่างๆ ที่พร้อมใช้งานเพื่อสร้างธุรกรรมสินทรัพย์ถาวร"
+title: ตัวเลือกธุรกรรมสินทรัพย์ถาวร
+description: หัวข้อนี้อธิบายวิธีที่แตกต่างกันที่พร้อมที่จะสร้างธุรกรรมสินทรัพย์ถาวร
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377193"
 ---
-
 # <a name="fixed-asset-transaction-options"></a>ตัวเลือกธุรกรรมสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการต่างๆ ที่พร้อมใช้งานเพื่อสร้างธุรกรรมสินทรัพย์ถาวร
+หัวข้อนี้อธิบายวิธีที่แตกต่างกันที่พร้อมที่จะสร้างธุรกรรมสินทรัพย์ถาวร
 
 คุณสามารถตั้งค่าสินทรัพย์ถาวรเพื่อรวมกับบัญชีเจ้าหนี้ ลูกหนี้ จัดซื้อ และการจัดหา และบัญชีแยกประเภททั่วไป  นอกจากนี้ คุณยังสามารถโอนย้ายสินค้าในการบริหารสินค้าคงคลังเป็นสินทรัพย์ถาวรถ้าคุณต้องการใช้สินค้าเป็นการภายใน
 
@@ -66,9 +65,6 @@ ms.lasthandoff: 11/03/2017
 | ** **                               | บัญชีลูกหนี้      | ใบแจ้งหนี้ข้อความอิสระ                         |
 
 
+ค่าที่เหลือของระยะเวลาการคิดค่าเสื่อมราคาของสินทรัพย์ถาวรไม่ไดัรับการปรับปรุง เมื่อบรรทัดสมุดรายวันของชนิดธุรกรรมการคิดค่าเสื่อมราคาถูกสร้างหรือนำเข้าด้วยตนเองผ่านเอนทิตีข้อมูล ค่านี้ถูกปรับปรุงเมื่อกระบวนการการประชุมข้อเสนอการคิดค่าเสื่อมราคาถูกใช้เพื่อสร้างบรรทัดสมุดรายวัน
 
 สำหรับข้อมูลเพิ่มเติม ดู [การรวมสินทรัพย์ถาวร](fixed-asset-integration.md)
-
-
-
-

@@ -1,13 +1,13 @@
 ---
-title: "อนุมัติการคาดการณ์ที่ปรับปรุง"
-description: "ไม่ใช่ข้อมูลการคาดการณ์ทั้งหมดจะต้องได้รับการอนุมัติในทันที บทความนี้อธิบายวิธีการที่คุณสามารถระบุรอบระยะเวลาที่การคาดการณ์ได้รับอนุมัติ ยังอธิบายถึงวิธีการอนุมัติการคาดการณ์สำหรับบริษัทที่ระบุและแบบจำลองการคาดการณ์อีกด้วย"
+title: อนุมัติการคาดการณ์ที่ปรับปรุง
+description: ไม่ใช่ข้อมูลการคาดการณ์ทั้งหมดจะต้องได้รับการอนุมัติในทันที บทความนี้อธิบายวิธีการที่คุณสามารถระบุรอบระยะเวลาที่การคาดการณ์ได้รับอนุมัติ ยังอธิบายถึงวิธีการอนุมัติการคาดการณ์สำหรับบริษัทที่ระบุและแบบจำลองการคาดการณ์อีกด้วย
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c397329993bd3014b608cdc50d5002dcd5ed6a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 64838fd20349c21bf3c0a3b9a3c68d4f19f60745
-ms.contentlocale: th-th
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313485"
 ---
-
 # <a name="authorize-an-adjusted-forecast"></a>อนุมัติการคาดการณ์ที่ปรับปรุง
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 05/08/2018
 [การทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
 
 [การตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
-
 
 
 

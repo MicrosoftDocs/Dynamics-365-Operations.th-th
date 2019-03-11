@@ -1,13 +1,13 @@
 ---
-title: "เนื้อหาการฝึกอบรมขององค์กรใน Power BI"
-description: "หัวข้อนี้อธิบายถึงเนื้อหา Power BI ของการฝึกอบรม Finance and Operations - เชิงองค์กร"
+title: เนื้อหา Power BI การฝึกเชิงองค์กร
+description: หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI การฝึกเชิงองค์กร
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.contentlocale: th-th
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367535"
 ---
-
-# <a name="organizational-training-power-bi-content"></a>เนื้อหาการฝึกอบรมขององค์กรใน Power BI
+# <a name="organizational-training-power-bi-content"></a>เนื้อหา Power BI การฝึกเชิงองค์กร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงเนื้อหา Power BI ของการฝึกอบรม Finance and Operations - เชิงองค์กร
+หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI การฝึกเชิงองค์กร
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
@@ -39,7 +38,7 @@ ms.lasthandoff: 08/13/2018
 | การวิเคราะห์หลักสูตร | การลงทะเบียนตามสถานที่ ผู้เข้าร่วมหลักสูตรตามสถานะ และรายการลงทะเบียน |
 | ชนิดของหลักสูตร    | ชนิดของหลักสูตรตามทักษะ                                                       |
 
-คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 มีการใช้ข้อมูล Finance and Operations เพื่อรวบรวมรายงานในชุดเนื้อหาการฝึกอบรมขององค์กร ตารางต่อไปนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม
@@ -59,4 +58,3 @@ ms.lasthandoff: 08/13/2018
 | การฝึกอบรม\_ตำแหน่ง        | ตำแหน่งงาน ชื่อ และเทียบเท่าเต็มเวลา (FTE)                  | การฝึกอบรม\_CourseAgenda การฝึกอบรม\_CourseAttendees |
 | การฝึกอบรม\_WorkerName      | ชื่อจริง นามสกุล และชื่อเต็ม                             | การฝึกอบรม\_CourseAttendees |
 | การฝึกอบรม\_WorkerTitle     | ตำแหน่งงานและวันที่อายุงาน                                         | การฝึกอบรม\_CourseAttendees |
-

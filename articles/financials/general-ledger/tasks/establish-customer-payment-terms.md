@@ -1,13 +1,13 @@
---- 
-title: "จัดทำเงื่อนไขการชำระเงินของลูกค้า"
-description: "กระบวนงานนี้กำหนดส่วนลดเงินสดและการตั้งค่าวันที่ครบกำหนด "
+---
+title: จัดทำเงื่อนไขการชำระเงินของลูกค้า
+description: 'กระบวนงานนี้กำหนดส่วนลดเงินสดและการตั้งค่าวันที่ครบกำหนด '
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: th-th
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312496"
 ---
 # <a name="establish-customer-payment-terms"></a>จัดทำเงื่อนไขการชำระเงินของลูกค้า
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 09/29/2017
     * ถ้าคุณเลือก 'บัญชีผู้ใช้บนรายการใบแจ้งหนี้' ส่วนลดเงินสดจะลงรายการบัญชีเดียวกับบัญชีหลักสินทรัพย์/ค่าใช้จ่ายในรายการของใบแจ้งหนี้ของผู้จัดจำหน่าย  ถ้าคุณเลือก 'ใช้บัญชีหลักสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย' ส่วนลดเงินสดจะลงรายการบัญชีไปยังบัญชีหลักที่คุณกำหนดใน 'บัญชีหลักสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย'  สำหรับตัวอย่างนี้ เลือก 'ใช้บัญชีหลักสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย'  
 26. ป้อนบัญชีหลักที่ส่วนลดเงินสดที่จะลงรายการบัญชีสำหรับใบแจ้งหนี้ของลูกค้า
 27. คลิก บันทึก
-
 

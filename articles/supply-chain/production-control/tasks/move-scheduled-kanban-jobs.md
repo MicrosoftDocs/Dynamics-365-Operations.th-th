@@ -1,13 +1,13 @@
---- 
-title: "ย้ายงานคัมบังที่จัดกำหนด"
-description: "ขั้นตอนนี้มุ่งเน้นไปที่การย้ายกระบวนงานคัมบังที่วางแผนไว้แล้วไปยังรอบระยะเวลาอื่น "
+---
+title: ย้ายงานคัมบังที่จัดกำหนด
+description: 'ขั้นตอนนี้มุ่งเน้นไปที่การย้ายกระบวนงานคัมบังที่วางแผนไว้แล้วไปยังรอบระยะเวลาอื่น '
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/07/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: f791c9048ef6efe1585c991f998099cd1fc12df7
-ms.contentlocale: th-th
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310863"
 ---
-
 # <a name="move-scheduled-kanban-jobs"></a>ย้ายงานคัมบังที่จัดกำหนด
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -63,4 +62,3 @@ ms.lasthandoff: 12/04/2018
 2. คลิก **ไปข้างหน้า** ให้สังเกตว่างานถูกย้ายลงไปหนึ่งบรรทัดในรายการ 
 
 3. คลิก **ย้อนหลัง** ให้สังเกตว่างานถูกย้ายขึ้นไปหนึ่งบรรทัดในรายการ
-

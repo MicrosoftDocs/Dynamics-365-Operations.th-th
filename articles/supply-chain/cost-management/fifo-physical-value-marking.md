@@ -1,13 +1,13 @@
 ---
-title: "FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย"
-description: "เข้าก่อนออกก่อน (FIFO) เป็นแบบจำลองสินค้าคงคลังที่สินค้าที่ได้รับเข้ามาแรกสุดจะถูกนำออกใช้ก่อน  ในทางการเงิน ปัญหาที่อัพเดตจากสินค้าคงคลังจะถูกจับคู่กับการรับสินค้าเข้าในคลังสินค้ารายการแรกที่ได้รับการอัพเดต ตามวันที่ทางการเงินของรายการความเคลื่อนไหวของสินค้าคงคลัง"
+title: FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
+description: เข้าก่อนออกก่อน (FIFO) เป็นแบบจำลองสินค้าคงคลังที่สินค้าที่ได้รับเข้ามาแรกสุดจะถูกนำออกใช้ก่อน  ในทางการเงิน ปัญหาที่อัพเดตจากสินค้าคงคลังจะถูกจับคู่กับการรับสินค้าเข้าในคลังสินค้ารายการแรกที่ได้รับการอัพเดต ตามวันที่ทางการเงินของรายการความเคลื่อนไหวของสินค้าคงคลัง
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348836"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ ms.lasthandoff: 11/03/2017
 - แต่ละลูกศรในแนวตั้งจะมีป้ายชื่อกำกับพร้อมตัวบ่งชี้ลำดับ เช่น *1a* ตัวระบุบ่งชี้ถึงลำดับของการลงรายการบัญชีธุรกรรมของสินค้าคงคลังในเส้นเวลา
 - การปิดสินค้าคงคลังจะแสดงโดยใช้เส้นประสีแดงแนวตั้งและป้ายชื่อ *การปิดสินค้าคงคลัง*
 - การจับคู่ที่ดำเนินการโดยการปิดสินค้าคงคลังจะถูกแสดงโดยใช้ลูกศรสีแดงเป็นเส้นประ ในลักษณะทแยงมุมจากการรับสินค้าไปยังการตัดสินค้าออกจากคลัง
-
 
 
 

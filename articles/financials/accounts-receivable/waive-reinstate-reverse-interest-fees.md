@@ -1,13 +1,13 @@
 ---
-title: "ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย"
-description: "บทความนี้อธิบายวิธีการยกเว้น กลับมาคิดใหม่ และกลับรายการค่าธรรมเนียมสำหรับดอกเบี้ยและค่าธรรมเนียม"
+title: ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย
+description: บทความนี้อธิบายวิธีการยกเว้น กลับมาคิดใหม่ และกลับรายการค่าธรรมเนียมสำหรับดอกเบี้ยและค่าธรรมเนียม
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cfeab6f393b63b25d595067de3eb90fc899c508b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ae4a84f0e2823d1e7686696eae72e050a320e3f1
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319097"
 ---
-
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>ยกเว้น กลับมาคิด หรือย้อนกลับรายการค่าธรรมเนียมดอกเบี้ย
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ ms.lasthandoff: 02/07/2018
 คุณสามารถดูประวัติโดยละเอียดของการปรับปรุงที่มีการดำเนินการสำหรับดอกเบี้ยตั๋วเงิน เช่น ผู้ใช้ที่ป้อนการปรับปรุง ชนิดของการปรับปรุง ยอดเงิน และเมื่อมีการป้อนการปรับปรุง ตัวอย่างเช่น คุณอาจต้องการดูการปรับปรุงก่อนหน้านี้ที่ถูกป้อนสำหรับดอกเบี้ยตั๋วเงิน ก่อนที่คุณจะสร้างดอกเบี้ยตั๋วเงินใหม่ 
 
 คุณสามารถย้อนกลับรายการธุรกรรมดอกเบี้ยได้ โดยการใช้ปุ่ม **ประวัติ**บนแท็บ **รวบรวม**ของหน้า**ลูกค้า**ได้
-
 
 
 

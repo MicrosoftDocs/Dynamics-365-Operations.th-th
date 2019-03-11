@@ -1,13 +1,13 @@
---- 
+---
 title: " กำหนดการความต่อเนื่อง"
-description: "หัวข้อนี้แนะนำเกี่ยวกับการตั้งค่าโปรแกรมความต่อเนื่อง (หรือเรียกว่าใบสั่งที่เกิดซ้ำ) "
+description: 'หัวข้อนี้แนะนำเกี่ยวกับการตั้งค่าโปรแกรมความต่อเนื่อง (หรือเรียกว่าใบสั่งที่เกิดซ้ำ) '
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: dd70780927bb9aaa19c196705d6e8fa1c247ea66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ac333989dd987fd3cb1d2b2769fbcdb93bdb4bd
-ms.contentlocale: th-th
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330528"
 ---
 # <a name="define-continuity-schedules"></a> กำหนดการความต่อเนื่อง
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 02/07/2018
 6. ที่นี่คุณจะป้อนโปรแกรมความต่อเนื่องที่แสดงโดยสินค้านี้  พิมพ์รหัสกำหนดการที่คุณสร้างไว้ก่อนหน้านี้
     * เมื่อมีการขายสินค้านี้ในศูนย์บริการ ตรรกะทางธุรกิจเพิ่มเติมจะถูกนำไปใช้จากโปรแกรมความต่อเนื่องที่เลือก  
 7. คลิก บันทึก
-
 

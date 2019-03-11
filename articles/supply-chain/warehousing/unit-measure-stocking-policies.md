@@ -1,13 +1,13 @@
 ---
-title: "หน่วยการวัดและนโยบายการเก็บสต็อก"
-description: "บทความนี้อธิบายวิธีใช้หน่วยเริ่มต้น ลำดับหน่วย และการแปลงหน่วยในกระบวนการคลังสินค้า"
+title: หน่วยการวัดและนโยบายการเก็บสต็อก
+description: บทความนี้อธิบายวิธีใช้หน่วยเริ่มต้น ลำดับหน่วย และการแปลงหน่วยในกระบวนการคลังสินค้า
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318108"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>หน่วยการวัดและนโยบายการเก็บสต็อก
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="default-order-settings"></a>การตั้งค่าใบสั่งเริ่มต้น
 เป็นส่วนหนึ่งของการสร้างผลิตภัณฑ์ที่นำออกใช้ คุณต้องเลือกหน่วยเริ่มต้นสำหรับการซื้อ การขาย และสินค้าคงคลังเพื่อประมวลผลใบสั่งต่างๆ คุณสามารถตั้งค่าหน่วยเริ่มต้นและปริมาณสำหรับเอกสารต้นทางต่างๆ โดยการใช้ **การตั้งค่าใบสั่งเริ่มต้น** และหน้า **การตั้งค่าใบสั่งเฉพาะไซต์** คุณสามารถเข้าถึงหน้าเหล่านี้จากหน้า **ผลิตภัณฑ์ที่นำออกใช้**
-
 
 
 

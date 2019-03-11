@@ -1,13 +1,13 @@
---- 
-title: "สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ"
-description: "กระบวนงานนี้สาธิตวิธีการสร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ"
+---
+title: สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
+description: กระบวนงานนี้สาธิตวิธีการสร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 91f2ec2f8ab21616c6a1b886ee89d6faf84023e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 9b7ce8ba180f67c4a52439f4e03b59f07a71323d
-ms.contentlocale: th-th
-ms.lasthandoff: 06/28/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310794"
 ---
 # <a name="create-a-free-text-invoice-template"></a>สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
 
@@ -68,4 +68,3 @@ ms.lasthandoff: 06/28/2018
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>บันทึกใบแจ้งหนี้ข้อความอิสระเป็นเท็มเพลต
 คุณยังสามารถบันทึกใบแจ้งหนี้ข้อความอิสระที่มีอยู่เป็นเท็มเพลตได้ด้วย เมื่อคุณเลือกบันทึกไปยังเท็มเพลตจากแท็บใบแจ้งหนี้ ใส่ชื่อและคำอธิบายสำหรับเท็มเพลต ถ้ามีเท็มเพลตที่มีชื่ออยู่แล้ว คุณจะเห็นการแจ้งเตือนว่า มีเท็มเพลตที่มีชื่อนั้นอยู่แล้ว คุณยังสามารถคลิกตกลงเพื่อแทนที่ได้ 
-

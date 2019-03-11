@@ -1,32 +1,31 @@
 ---
-title: "สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม"
-description: "หัวข้อนี้อธิบายวิธีการเพิ่มกฎใหม่ในโปรแกรมช่วยแนะนำการปรับให้เหมาะสม"
+title: สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
+description: หัวข้อนี้อธิบายวิธีการเพิ่มกฎใหม่ในโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: th-th
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354172"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
 
 [!include [banner](../includes/banner.md)]
@@ -103,11 +102,11 @@ private container findRFQCasesWithEmptyTitle()
 
 ชื่อเรื่องที่ส่งคืนโดย **opportunityTitle** ปรากฏอยู่ภายใต้คอลัมน์ **โอกาสในการปรับให้เหมาะสม** ในพื้นที่ทำงาน **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** นอกจากนี้ยังปรากฏเป็นส่วนหัวของบานหน้าต่างด้านข้างที่แสดงข้อมูลเพิ่มเติมเกี่ยวกับโอกาสด้วย ตามแบบแผน วิธีการนี้ถูกปรับปรุงด้วยแอตทริบิวต์ **DiagnosticRuleSubscription** ซึ่งใช้อาร์กิวเมนต์ดังต่อไปนี้: 
 
-* **พื้นที่การวินิจฉัย** – การแจงนับของชนิด **DiagnosticArea** ที่อธิบายว่าพื้นที่ใดของแอพลิเคชันที่มีกฎอยู่ เช่น **DiagnosticArea::SCM** 
+* **พื้นที่วินิจฉัย** – enum ของชนิด **DiagnosticArea** ที่อธิบายว่าพื้นที่ใดของแอพลิเคชันที่มีกฎอยู่ เช่น **DiagnosticArea::SCM** 
 
 * **ชื่อกฎ** – สตริงที่มีชื่อกฎ นี่จะปรากฏขึ้นภายใต้คอลัมน์ **ชื่อกฎ** ในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** (**DiagnosticsValidationRuleMaintain**) 
 
-* **ความถี่ในการรัน** – การแจงนับของชนิด **DiagnosticRunFrequency** ที่อธิบายความถี่ที่ควรรันกฎ เช่น **DiagnosticRunFrequency::Daily** 
+* **ความถี่ในการรัน** – enum ของชนิด **DiagnosticRunFrequency** ที่อธิบายความถี่ที่กฎควรถูกรัน เช่น **DiagnosticRunFrequency::รายวัน** 
 
 * **คำอธิบายกฎ** – สตริงที่มีคำอธิบายโดยละเอียดมากขึ้นของกฎ นี่จะปรากฏขึ้นภายใต้คอลัมน์ **คำอธิบายกฎ** ในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** (**DiagnosticsValidationRuleMaintain**) 
 
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 กฎจะแสดงในแบบฟอร์ม **กฎการตรวจสอบความถูกต้องของการวิเคราะห์** ที่พร้อมใช้งานจาก **การดูแลระบบ** > **งานประจำงวด** > **รักษากฎการตรวจสอบความถูกต้องของการวิเคราะห์** เพื่อการให้มีการประเมิน ไปที่ **การดูแลระบบ** > **งานประจำงวด** > **กฎการตรวจสอบความถูกต้องของการวิเคราะห์ของกำหนดการ** เลือกความถี่ของกฎ เช่น **รายวัน** คลิก **ตกลง**  ไปยัง **การดูแลระบบ** > **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** เพื่อดูโอกาสใหม่ 
 
-ตัวอย่างต่อไปนี้คือ ส่วนเล็กๆ ของโค้ดที่มีโครงสร้างของกฎซึ่งรวมถึงวิธีและแอททริบิวต์ที่จำเป็นทั้งหมด จะช่วยคุณในการเริ่มต้นใช้งานด้วยการเขียนกฎใหม่ ป้ายชื่อและรายการเมนูการดำเนินการที่ใช้ในตัวอย่าง ใช้สำหรับวัตถุประสงค์ในการสาธิตเท่านั้น
+ตัวอย่างต่อไปนี้คือ ส่วนเล็กๆ ของโค้ดที่มีโครงสร้างของกฎซึ่งรวมถึงวิธีและแอททริบิวต์ที่จำเป็นทั้งหมด จะช่วยคุณในการเริ่มต้นใช้งานด้วยการเขียนกฎใหม่ ฉลากและรายการเมนูการดำเนินการที่ถูกใช้ในตัวอย่าง ถูกใช้เพื่อวัตถุประสงค์การสาธิตเท่านั้น
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูวิดีโอ YouTube แบบย่อ: [โปรแกรมช่วยแนะนำการปรับให้เหมาะสมใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+สำหรับข้อมูลเพิ่มเติม ดูวิดีโอ YouTube แบบสั้น: [ผู้แนะนำการเพิ่มประสิทธิภาพใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

@@ -1,13 +1,13 @@
 ---
-title: "ลำดับงานค่าใช้จ่าย"
-description: "หัวข้อนี้อธิบายวิธีที่คุณสามารถใช้ระบบลำดับงานใน Microsoft Dynamics 365 for Finance and Operations เพื่อตั้งค่ากระบวนการตรวจทานสำหรับรายงานค่าใช้จ่ายในการจัดการค่าใช้จ่าย"
+title: ลำดับงานค่าใช้จ่าย
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ระบบเวิร์กโฟลว์ใน Microsoft Dynamics 365 for Finance and Operations เพื่อตั้งค่ากระบวนการตรวจทานสำหรับรายงานค่าใช้จ่ายในการจัดการค่าใช้จ่าย
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310127"
 ---
-
 # <a name="expense-workflow"></a>ลำดับงานค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
 
-คุณสามารถใช้ระบบลำดับงานใน Microsoft Dynamics 365 for Finance and Operations เพื่อตั้งค่ากระบวนการตรวจทานสำหรับรายงานค่าใช้จ่ายในการจัดการค่าใช้จ่ายได้ คุณสามารถตั้งค่าลำดับงานที่ใช้เงื่อนไขต่อไปนี้เพื่อกำหนดผู้อนุมัติรายงานค่าใช้จ่าย:
+คุณสามารถใช้ระบบเวิร์กโฟลว์ใน Microsoft Dynamics 365 for Finance and Operations เพื่อตั้งค่ากระบวนการตรวจทานสำหรับรายงานค่าใช้จ่ายในการจัดการค่าใช้จ่าย คุณสามารถตั้งค่าลำดับงานที่ใช้เงื่อนไขต่อไปนี้เพื่อกำหนดผู้อนุมัติรายงานค่าใช้จ่าย:
 
 - พนักงานที่รายงานลำดับชั้นและขีดจำกัดการอนุมัติที่กำหนดไว้ล่วงหน้า
 - การอนุมัติแบบหลายระดับที่สนับสนุนผู้อนุมัติชั่วคราวและผู้อนุมัติขั้นสุดท้าย
@@ -58,4 +57,3 @@ ms.lasthandoff: 03/26/2018
 หลังจากที่มีการตรวจสอบข้อกำหนดเหล่านี้ จะมีการลงรายการรายงานค่าใช้จ่าย
 
 หลังจากที่ลงรายการบัญชีรายงานค่าใช้จ่าย การชำระเงินจะได้รับอนุมัติสำหรับรายงานค่าใช้จ่าย และพนักงานจะได้รับการชำระเงินคืน
-

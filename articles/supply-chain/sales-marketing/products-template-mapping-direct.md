@@ -1,40 +1,39 @@
 ---
-title: "ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales"
-description: "หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ผลิตภัณฑ์จาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales"
+title: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลผลิตภัณฑ์จาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales ตรงกัน
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.contentlocale: th-th
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348261"
 ---
-
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> ก่อนที่คุณจะสามารถใช้โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดได้ คุณควรทำความคุ้นเคยกับ [รวมข้อมูลลงใน Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Common Data Service สำหรับแอป](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
 
-หัวข้อนี้กล่าวถึงเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Microsoft Dynamics 365 for Sales ไปยัง Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลผลิตภัณฑ์จาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales ตรงกันโดยตรง
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
@@ -79,7 +78,7 @@ ms.lasthandoff: 11/01/2018
 
 > [!NOTE]
 > - การซิงโครไนส์ผลิตภัณฑ์จะไม่สำเร็จ เว้นแต่จะมีรายการราคาที่มีสกุลเงินที่ตรงกัน
-> - คุณสามารถควบคุมรายการราคาที่ใช้กับการรวม โดยการแม็ป pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] ได้ในโครงการรวมข้อมูล การป้อนข้อมูลต้องเป็นอักษรตัวพิมพ์เล็กทั้งหมด ตัวอย่างเช่น ค่าเริ่มต้นสำหรับรายการราคาในการขายที่มีชื่อว่า 'มาตรฐาน' จะเป็น: ฟิลด์ปลายทาง: pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] และชนิดแผนผัง: [ { "transformType": "เริ่มต้น" "ค่าเริ่มต้น": "มาตรฐาน" } ]
+> - คุณสามารถควบคุมรายการราคาที่ใช้กับการรวม โดยการแม็ป pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] ได้ในโครงการรวมข้อมูล การป้อนข้อมูลต้องเป็นอักษรตัวพิมพ์เล็กทั้งหมด ตัวอย่างเช่น ค่าเริ่มต้นสำหรับราคาตลาดในการขายที่มีชื่อว่า 'มาตรฐาน' จะเป็น: ฟิลด์ปลายทาง: pricelevelid.name [Default Price List (Name)] and Map type: [ { "transformType": "Default", "defaultValue": "standard" } ]
 
 ## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแม็ป
 
@@ -120,7 +119,6 @@ ms.lasthandoff: 11/01/2018
 [ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales](sales-invoice-template-mapping-direct.md)
-
 
 
 

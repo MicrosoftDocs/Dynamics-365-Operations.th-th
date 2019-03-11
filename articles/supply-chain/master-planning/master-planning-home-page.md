@@ -1,32 +1,31 @@
 ---
-title: "โฮมเพจการวางแผนหลัก"
-description: "การวางแผนหลักช่วยให้บริษัทสามารถกำหนด และรักษาดุลความต้องการในอนาคตสำหรับวัตถุดิบและกำลังการผลิตให้เป็นไปตามเป้าหมายของบริษัทได้"
+title: โฮมเพจการวางแผนหลัก
+description: การวางแผนหลักช่วยให้บริษัทสามารถกำหนด และรักษาดุลความต้องการในอนาคตสำหรับวัตถุดิบและกำลังการผลิตให้เป็นไปตามเป้าหมายของบริษัทได้
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: th-th
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314796"
 ---
-
 # <a name="master-planning-home-page"></a>โฮมเพจการวางแผนหลัก
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,7 @@ ms.lasthandoff: 12/04/2018
 ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา
 
 ### <a name="blogs"></a>บล็อก
-คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นๆ เกี่ยวกับการวางแผนหลักและโซลูชันอื่นๆ ได้ใน [บล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [การบริหารห่วงโซ่อุปทานในบล็อกทีมวิจัยและพัฒนาการผลิต Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)
+คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการวางแผนหลักและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [การจัดการห่วงโซ่อุปทานในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)
 
 ### <a name="task-guides"></a>คู่มืองาน
 วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ
@@ -84,7 +83,6 @@ ms.lasthandoff: 12/04/2018
 -  [ขยายฟังก์ชันการคาดการณ์ความต้องการ](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา](https://youtu.be/7v8BPmEs9Dg)
 -  [ช่วยด้วย MRP ทำงานช้า](https://youtu.be/RLXybx20B5o)
-
 
 
 

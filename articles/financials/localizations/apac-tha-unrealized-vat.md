@@ -1,13 +1,13 @@
 ---
-title: "VAT ที่ยังไม่รับรู้ของประเทศไทย"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับ VAT ที่ยังไม่รับรู้ และวิธีการตั้งค่า ซึ่งยังอธิบายวิธีการคำนวณและลงรายการบัญชีใบสั่งซื้อที่มี VAT ซื้อที่ยังไม่รับรู้ และใบสั่งขายที่มี VAT ของการขายที่ยังไม่รับรู้ และสร้างรายงาน"
+title: VAT ที่ยังไม่รับรู้ของประเทศไทย
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับ VAT ที่ยังไม่รับรู้ และวิธีการตั้งค่า ซึ่งยังอธิบายวิธีการคำนวณและลงรายการบัญชีใบสั่งซื้อที่มี VAT ซื้อที่ยังไม่รับรู้ และใบสั่งขายที่มี VAT ของการขายที่ยังไม่รับรู้ และสร้างรายงาน
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fa1ec33c50f83e43a7c35a855f1f4d8238348e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e18610814b0e64b4b74b654fd2ac8b4cf5cf4a11
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371865"
 ---
-
 # <a name="thailand-unrealized-vat"></a>VAT ที่ยังไม่รับรู้ของประเทศไทย
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ ms.lasthandoff: 11/03/2017
 1.  **สร้างและลงรายการบัญชีใบสั่งขายที่มี VAT ขายที่ยังไม่รับรู้** ใบสั่งขายอาจมีไว้สำหรับสินค้าของชนิด **สินค้า** หรือชนิด **บริการ** เมื่อคุณลงรายการบัญชีใบสั่งขายก่อนที่คุณจะได้รับการชำระเงินจากลูกค้า VAT ขายที่ยังไม่รับรู้จะถูกลงรายการบัญชีไปยังบัญชี VAT ขายที่ยังไม่รับรู้
 2.  **กลับรายการ VAT ขายที่ยังไม่รับรู้ที่ถูกลงรายการบัญชี** หลังจากที่คุณได้รับและทำการชำระเงิน จะมีการกลับรายการ VAT ขายที่ยังไม่รับรู้ และมีการลงรายการบัญชี VAT ขาย คุณสามารถใช้หน้า **การชำระเงิน** เพื่อสร้างใบกำกับภาษีหรือใบเสร็จรับเงิน/ใบกำกับภาษีสำหรับธุรกรรม จากนั้นคุณสามารถส่งใบกำกับภาษีหรือใบเสร็จรับเงิน/ใบกำกับภาษีให้กับลูกค้า
 3.  **สร้างรายงานภาษีขาย** รายงานนี้รวมธุรกรรมที่มี VAT ขายที่รับรู้แล้ว และรวมรายละเอียดของ VAT ที่นิติบุคคลได้รับสำหรับการขายสินค้าและบริการ
-
 
 
 

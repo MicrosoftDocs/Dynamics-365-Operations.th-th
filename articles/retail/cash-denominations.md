@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)"
-description: "คุณสามารถกำหนดหน่วยเงินของเงินสดสำหรับธนบัตรและเหรียญได้ที่ฝ่ายสนับสนุนให้ถูกนำไปใช้โดยพนักงานเก็บเงิน สมาคมการขาย และผู้จัดการที่ร้านค้าจากภายใน POS"
+title: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)
+description: คุณสามารถกำหนดหน่วยเงินของเงินสดสำหรับธนบัตรและเหรียญได้ที่ฝ่ายสนับสนุนให้ถูกนำไปใช้โดยพนักงานเก็บเงิน สมาคมการขาย และผู้จัดการที่ร้านค้าจากภายใน POS
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343523"
 ---
-
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)
 
 [!include [banner](includes/banner.md)]
@@ -53,4 +52,3 @@ ms.lasthandoff: 01/04/2019
 
 - **มากกว่าหรือเท่ากับจำนวนที่ครบกำหนด** – โดยค่าเริ่มต้น POS จะแสดงเฉพาะหน่วยเงินของธนบัตรที่มีมูลค่ามากกว่าจำนวนที่ครบกำหนด ซึ่งอนุญาตให้การชำระเงินแบบสัมผัสเดียว ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $7.50 POS จะแสดงหน่วยต่อไปนี้: $10, $20, $50 และ $100 การสัมผัสจำนวนใด ๆ เหล่านี้จะเป็นการชำระเงินการขายสำหรับจำนวนนั้นโดยอัตโนมัติ ธนบัตร $1 และ $5 จะไม่ถูกแสดงเนื่องจากจำนวนเหล่านี้มีค่าน้อยกว่าจำนวนที่ครบกำหนด
 - **หน่วยเงินทั้งหมด** – เลือกตัวเลือกนี้เพื่อแสดงหน่วยเงินของธนบัตรทั้งหมดใน POS โดยไม่คำนึงถึงจำนวนที่ครบกำหนด ซึ่งหมายความว่าผู้ใช้สามารถใช้ชุดของธนบัตรเพื่อไปถึงจำนวนที่ครบกำหนดได้ ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $25.00 ผู้ใช้สามารถเลือก $20 และ $5 เพื่อทำให้การขายเสร็จสมบูรณ์
-

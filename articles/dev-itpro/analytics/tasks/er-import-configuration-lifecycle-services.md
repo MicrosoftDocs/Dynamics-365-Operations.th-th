@@ -1,13 +1,13 @@
---- 
-title: "ER นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services"
-description: "ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) รุ่นใหม่จาก Microsoft Lifecycle Services (LCS)"
+---
+title: ER นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
+description: ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) รุ่นใหม่จาก Microsoft Lifecycle Services (LCS)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 036d7e7e3f79e0945d6fef866a30edd41e688c07
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337267"
 ---
-
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>ER นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -70,5 +69,4 @@ ms.lasthandoff: 09/14/2018
 11. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
     * เลือกเวอร์ชันของการตั้งค่าคอนฟิกนี้ ซึ่งมีสถานะเป็น 'ใช้ร่วมกัน'  
     * หมายเหตุว่า เวอร์ชันที่ใช้ร่วมกัน 1 ของการตั้งค่าคอนฟิกแบบจำลองข้อมูลที่เลือก พร้อมใช้งานด้วย ในขณะนี้  
-
 

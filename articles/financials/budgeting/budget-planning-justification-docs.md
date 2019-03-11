@@ -1,13 +1,13 @@
 ---
-title: "เอกสารเหตุผลการวางแผนงบประมาณ"
-description: "เอกสารเหตุผลให้ข้อมูลสำหรับผู้ที่ร้องของบประมาณเพื่ออธิบายว่าเหตุใดงบประมาณที่ระบุจึงเป็นสิ่งจำเป็น"
+title: เอกสารเหตุผลการวางแผนงบประมาณ
+description: เอกสารเหตุผลให้ข้อมูลสำหรับผู้ที่ร้องของบประมาณเพื่ออธิบายว่าเหตุใดงบประมาณที่ระบุจึงเป็นสิ่งจำเป็น
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,35 +18,34 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333587"
 ---
-
 # <a name="budget-planning-justification-documents"></a>เอกสารเหตุผลการวางแผนงบประมาณ
 
 [!include [banner](../includes/banner.md)]
 
 เอกสารเหตุผลให้ข้อมูลสำหรับผู้ที่ร้องของบประมาณเพื่ออธิบายว่าเหตุใดงบประมาณที่ระบุจึงเป็นสิ่งจำเป็น 
 
-เท็มเพลตแผนงบประมาณถูกสร้างขึ้นโดยผู้จัดการงบประมาณใน Microsoft Word และกำหนดให้กับกระบวนการวางแผนงบประมาณปัจจุบัน จากนั้นเจ้าของงบประมาณสามารถเปิดเท็มเพลต และกรอกข้อมูลโดยอัตโนมัติใน Word โดยยึดตามคำของบประมาณของพวกเขา แล้วจึงสามารถเพิ่มข้อความเพิ่มเติมหรือข้อมูลก่อนที่จะบันทึกและแนบเอกสารเหตุผลส่วนบุคคลของตนไปยังแผนงบประมาณของพวกเขา
+เท็มเพลตแผนงบประมาณถูกสร้างโดยผู้จัดการงบประมาณใน Microsoft Word และถูกมอบหมายไปยังกระบวนการวางแผนงบประมาณปัจจุบัน จากนั้นเจ้าของงบประมาณสามารถเปิดเท็มเพลต และกรอกข้อมูลโดยอัตโนมัติใน Word โดยยึดตามคำของบประมาณของพวกเขา แล้วจึงสามารถเพิ่มข้อความเพิ่มเติมหรือข้อมูลก่อนที่จะบันทึกและแนบเอกสารเหตุผลส่วนบุคคลของตนไปยังแผนงบประมาณของพวกเขา
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>ติดตั้ง Add-in ของ Microsoft Dynamics Office สำหรับ Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>ตั้งค่า Add-in ของสำนักงาน Microsoft Dynamics สำหรับ Microsoft Word
 
 1.  เปิดเอกสาร Microsoft Word ใหม่
 2.  คลิก **แทรก** บน ribbon แล้วคลิก **ร้านค้า**
-3.  ค้นหา Add-in ของ Microsoft Dynamics Office และคลิก **เพิ่ม**
+3.  ค้นหา Add-in ของสำนักงาน Microsoft Dynamics และคลิก **เพิ่ม**
 4.  ใน Word ในบานหน้าต่างด้านขวา คลิก **เพิ่มข้อมูลเซิร์ฟเวอร์**
 5.  พิมพ์หรือวาง URL ของเซิร์ฟเวอร์ และคลิก **ตกลง**
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>กำหนดเท็มเพลตเหตุผลใน Microsoft Word
+##### <a name="define-the-justification-template-in-microsoft-word"></a>กำหนดเท็มเพลตการจัดเต็มแนวของย่อหน้าใน Microsoft Word
 
-1.  คลิก **ออกแบบ**ใน Add-in ของ Microsoft Dynamics Office หลังจากที่คุณได้เข้าสู่ระบบ
+1.  คลิก **ออกแบบ** ใน Add-in ของสำนักงาน Microsoft Dynamics หลังจากที่คุณได้ลงชื่อเข้าใช้
 2.  สำหรับข้อมูลส่วนหัว ใช้ปุ่ม **เพิ่มฟิลด์**
-3.  เลือกแหล่งข้อมูลเอนทิตี BudgetPlanJustification และคลิก **ถัดไป** **หมายเหตุ:** เอนทิตี้นี้เป็นสิ่งจำเป็นสำหรับเอกสารเหตุผลใด ๆ คุณสามารถใช้เอนทิตีอื่นได้ แต่การอัปโหลดกลับไปยัง Microsoft Dynamics 365 for Finance and Operations จะล้มเหลว ถ้าไม่มีเอนทิตีนี้รวมอยู่ด้วย
+3.  เลือกแหล่งข้อมูลเอนทิตี BudgetPlanJustification และคลิก **ถัดไป** **หมายเหตุ:** เอนทิตี้นี้เป็นสิ่งจำเป็นสำหรับเอกสารเหตุผลใด ๆ เอนทิตีอื่นๆ สามารถถูกใช้ได้ แต่การอัปโหลดกลับไปยัง Microsoft Dynamics 365 for Finance and Operations จะล้มเหลว ถ้าเอนทิตีนี้ไม่ได้ถูกรวม
 4.  เพิ่มป้ายชื่อ BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter และ DocumentNumber และค่าในเอกสาร Word **หมายเหตุ:** คุณสามารถใช้ป้ายชื่อแบบกำหนดเองของคุณเอง แทนป้ายชื่อมาตรฐานได้ ถ้าจำเป็น
 5.  คลิก **ทำ** เพื่อทำให้ส่วนหัวเสร็จสมบูรณ์
 6.  สำหรับรายละเอียดระดับรายการของยอดเงินในแผนงบประมาณ คลิก **เพิ่มตาราง**
@@ -58,7 +57,7 @@ ms.lasthandoff: 03/26/2018
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>ตั้งค่าระบวนการวางแผนงบประมาณที่จะใช้เท็มเพลตเหตุผล
 
 1.  ใน Finance and Operations ไปที่ **การจัดทำงบประมาณ** &gt; **ตั้งค่า** &gt; **การวางแผนงบประมาณ** &gt; **เท็มเพลตเอกสารเหตุผล**
-2.  คลิก **สร้าง** และเรียกดูเอกสาร Microsoft Word ที่สร้างขึ้นใหม่ของคุณ
+2.  คลิก **ใหม่** และเรียกดูเอกสาร Microsoft Word ที่สร้างใหม่ของคุณ
 3.  ป้อนชื่อที่แสดงและคำอธิบายเท็มเพลต คลิก **ตกลง**
 4.  ไปที่ **การจัดทำงบประมาณ** &gt; **การตั้งค่า** &gt; **งบประมาณ** **การวางแผน** &gt; **กระบวนการวางแผนงบประมาณ**
 5.  เลือกกระบวนการที่เท็มเพลตเหตุผลควรจะใช้ และคลิก **แก้ไข**
@@ -69,7 +68,6 @@ ms.lasthandoff: 03/26/2018
 1.  ใน Finance and Operations สร้างแผนงบประมาณใหม่ หรือเปิดแผนงบประมาณที่มีอยู่
 2.  ในเมนูแบบหล่นลง **เหตุผล** เลือก **สร้างเหตุผลใหม่**
 3.  หลังจากกรอกข้อมูลลงในรายละเอียด เลือกเพื่ออัปโหลดเอกสารส่วนบุคคลจากเมนูแบบหล่นลง **เหตุผล**
-
 
 
 

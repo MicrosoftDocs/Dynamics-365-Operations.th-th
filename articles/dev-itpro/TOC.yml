@@ -1,3 +1,4 @@
+items:
 - name: การพัฒนาและการดูแลระบบสำหรับ Finance and Operations
   href: index.md
 - name: ความต้องการของระบบสำหรับการปรับใช้ระบบคลาวด์
@@ -7,1221 +8,1229 @@
 - name: ข้อมูลสาธิต
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: สร้างข้อมูลสาธิตโดยใช้แพคเกจข้อมูล
-      href: data-entities/generate-demo-data-packages.md
+  - name: สร้างข้อมูลสาธิตโดยใช้แพคเกจข้อมูล
+    href: data-entities/generate-demo-data-packages.md
 - name: พัฒนาและเลือกกำหนด
   href: dev-tools/developer-home-page.md
   items:
-    - name: สแต็คแอปพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
-      href: dev-tools/application-stack-server-architecture.md
-    - name: รับสำเนาการประเมิน
-      href: dev-tools/get-evaluation-copy.md
-    - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง
-      href: dev-tools/sign-up-preview-subscription.md
-    - name: ปรับใช้และเข้าถึงสภาพแวดล้อมการปรับใช้
-      href: dev-tools/access-instances.md
+  - name: สแต็คแอปพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
+    href: dev-tools/application-stack-server-architecture.md
+  - name: รับสำเนาการประเมิน
+    href: dev-tools/get-evaluation-copy.md
+  - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง
+    href: dev-tools/sign-up-preview-subscription.md
+  - name: ปรับใช้และเข้าถึงสภาพแวดล้อมการปรับใช้
+    href: dev-tools/access-instances.md
+    items:
+    - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการปรับใช้แบบ One-Box
+      href: dev-tools/configure-developer-vm.md
+    - name: สร้างผู้ใช้ใหม่ในเครื่องสำหรับการพัฒนา
+      href: dev-tools/enable-development-machine.md
+    - name: FAQ เกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
+      href: sysadmin/VMs-no-admin-access.md
+    - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Azure DevOps
+      href: migration-upgrade/vso-machine-renaming.md
+    - name: ความต้องการของระบบการพัฒนา
+      href: dev-tools/development-system-requirements.md
+  - name: การควบคุมรุ่น การค้นหาข้อมูลเมตา และการนำทาง
+    href: dev-tools/version-control-metadata-navigation.md
+  - name: แอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
+    items:
+    - name: สถานการณ์จำลองแบบครอบคลุมสำหรับแอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
+      href: dev-tools/fleet-management-sample.md
+    - name: แอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
+      href: dev-tools/introduction-fleet-management-sample.md
+  - name: เครื่องมือของ Visual Studio
+    items:
+    - name: เครื่องมือการพัฒนา
+      href: dev-tools/development-tools-overview.md
+    - name: บทสอนเครื่องมือการพัฒนา
+      href: dev-tools/introduction-visual-studio.md
+    - name: ตัวสำรวจแอปพลิเคชัน
+      href: dev-tools/application-explorer.md
+    - name: สร้างและดีบักโครงการ
+      href: dev-tools/build-debug-project.md
+    - name: การดำเนินงานของบิลด์
+      href: dev-tools/build-operations.md
+    - name: คุณลักษณะของโปรแกรมแก้ไขโค้ด
+      href: dev-tools/code-editor.md
+    - name: สร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล
+      href: dev-tools/create-data-model-elements.md
       items:
-        - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการปรับใช้แบบ One-Box
-          href: dev-tools/configure-developer-vm.md
-        - name: สร้างผู้ใช้ใหม่ในเครื่องสำหรับการพัฒนา
-          href: dev-tools/enable-development-machine.md
-        - name: FAQ เกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
-          href: sysadmin/VMs-no-admin-access.md
-        - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Azure DevOps
-          href: migration-upgrade/vso-machine-renaming.md
-        - name: ความต้องการของระบบการพัฒนา
-          href: dev-tools/development-system-requirements.md
-    - name: การควบคุมรุ่น การค้นหาข้อมูลเมตา และการนำทาง
-      href: dev-tools/version-control-metadata-navigation.md
-    - name: แอพลิเคชันตัวอย่างการจัดการยานพาหนะ
+      - name: แนวทางการตั้งชื่อสำหรับส่วนขยาย
+        href: extensibility/NamingGuidelines.md
+      - name: ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน
+        href: dev-tools/lock-models.md
+    - name: รายงานการวิเคราะห์การกำหนดเอง
+      href: dev-tools/customization-analysis-report.md
+    - name: ตัวออกแบบองค์ประกอบ
+      href: dev-tools/element-designers.md
+    - name: คำสั่งสำหรับการกำหนดการใช้องค์ประกอบ
+      href: dev-tools/element-usage.md
+    - name: ส่งออกและนำเข้าแบบจำลอง
+      href: dev-tools/models-export-import.md
+    - name: การค้นหาข้อมูลเมตาใน Visual Studio
+      href: dev-tools/metadata-search-visual-studio.md
+    - name: แบบจำลองและแพคเกจ
+      href: dev-tools/models.md
+    - name: ชนิดโครงการใน Finance and Operations
+      href: dev-tools/projects.md
+    - name: Add-in ของเครื่องมือสำหรับ Visual Studio
+      href: dev-tools/developer-tools-add-ins.md
+    - name: อัปเดตเครื่องมือการพัฒนา Visual Studio
+      href: dev-tools/update-development-tools.md
+  - name: ภาษาการสร้างโปรแกรม X++
+    items:
+    - name: X++ และคุณสมบัติของดีบักเกอร์
+      href: dev-tools/new-x-debugger-features.md
+    - name: ดีบัก X++ กับสำเนาของฐานข้อมูลการผลิต
+      href: dev-tools/debug-x-issue-against-copy-of-production.md
+    - name: ดีบักโค้ด X++
+      href: dev-tools/debug-xpp.md
+    - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
+      href: dev-tools/event-handler-result-class.md
+    - name: เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++
+      href: dev-tools/write-business-logic.md
+    - name: การเปลี่ยนแปลงใน X++ และคอมไพเลอร์ X++
+      href: dev-tools/programming-language-support.md
+    - name: ผู้ให้บริการ LINQ สำหรับ C#
+      href: dev-tools/linq-provider-c.md
+    - name: เขียนกฎแนวทางปฏิบัติ
+      href: dev-tools/author-best-practice-rules.md
+    - name: คุณสมบัติของตัวสำรวจแอปพลิเคชัน
+      href: dev-ref/application-explorer-aot-properties.md
+    - name: การอ้างอิงภาษาของ X++
       items:
-        - name: สถานการณ์จำลองแบบครอบคลุมสำหรับแอพลิเคชันตัวอย่างการจัดการยานพาหนะ
-          href: dev-tools/fleet-management-sample.md
-        - name: แอพลิเคชันตัวอย่างการจัดการยานพาหนะ
-          href: dev-tools/introduction-fleet-management-sample.md
-    - name: เครื่องมือ Visual Studio
+      - name: การอ้างอิงภาษาของ X++
+        href: dev-ref/xpp-language-reference.md
+      - name: ตัวแปร X++ และชนิดข้อมูล
+        href: dev-ref/xpp-variables-data-types.md
+      - name: คำสั่ง X++, การวนซ้ำ และการจัดการข้อยกเว้น
+        href: dev-ref/xpp-statements-loops.md
+      - name: ข้อยกเว้น X++ ของข้อผิดพลาดในการเชื่อมต่อ SQL
+        href: dev-ref/sql-connection-error.md
+      - name: ตัวดำเนินการ X++
+        href: dev-ref/xpp-operators.md
+      - name: ความสำคัญของตัวดำเนินการ X++
+        href: dev-ref/xpp-operator-precedence.md
+      - name: คลาสและวิธีการ X++
+        href: dev-ref/xpp-classes-methods.md
+      - name: การเลือกและการจัดการข้อมูล X++
+        href: dev-ref/xpp-data-query.md
+      - name: แมโคร X++
+        href: dev-ref/xpp-macros.md
+      - name: คลาสแอททริบิวต์ X++
+        href: dev-ref/xpp-attribute-classes.md
+      - name: การเปรียบเทียบ X++ และ C#
+        href: dev-ref/xpp-cs-comparison.md
+      - name: ไวยากรณ์ของ X++
+        href: dev-ref/xpp-syntax.md
+  - name: API, คลาส และการอ้างอิงตาราง
+    href: dev-ref/api-reference.md
+    items:
+    - name: ฟังก์ชันเวลาคอมไพล์ของ X++
+      href: dev-ref/xpp-compile-time-functions.md
+    - name: ฟังก์ชันเวลาที่รันของ X++
+      href: dev-ref/xpp-run-time-functions.md
       items:
-        - name: เครื่องมือการพัฒนา
-          href: dev-tools/development-tools-overview.md
-        - name: บทสอนเครื่องมือการพัฒนา
-          href: dev-tools/introduction-visual-studio.md
-        - name: ตัวสำรวจแอพลิเคชัน
-          href: dev-tools/application-explorer.md
-        - name: สร้างและดีบักโครงการ
-          href: dev-tools/build-debug-project.md
-        - name: การดำเนินงานของบิลด์
-          href: dev-tools/build-operations.md
-        - name: คุณลักษณะของโปรแกรมแก้ไขโค้ด
-          href: dev-tools/code-editor.md
-        - name: สร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล
-          href: dev-tools/create-data-model-elements.md
-          items:
-            - name: แนวทางการตั้งชื่อสำหรับส่วนขยาย
-              href: extensibility/NamingGuidelines.md
-            - name: ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน
-              href: dev-tools/lock-models.md
-        - name: รายงานการวิเคราะห์การกำหนดเอง
-          href: dev-tools/customization-analysis-report.md
-        - name: ตัวออกแบบองค์ประกอบ
-          href: dev-tools/element-designers.md
-        - name: คำสั่งสำหรับการการกำหนดการใช้องค์ประกอบ
-          href: dev-tools/element-usage.md
-        - name: ส่งออกและนำเข้าแบบจำลอง
-          href: dev-tools/models-export-import.md
-        - name: การค้นหาข้อมูลเมตาใน Visual Studio
-          href: dev-tools/metadata-search-visual-studio.md
-        - name: แบบจำลองและแพคเกจ
-          href: dev-tools/models.md
-        - name: ชนิดโครงการใน Finance and Operations
-          href: dev-tools/projects.md
-        - name: Add-in ของเครื่องมือสำหรับ Visual Studio
-          href: dev-tools/developer-tools-add-ins.md
-        - name: อัพเดตเครื่องมือการพัฒนา Visual Studio
-          href: dev-tools/update-development-tools.md
-    - name: ภาษาการสร้างโปรแกรม X++
+      - name: ฟังก์ชันเวลาที่รันธุรกิจของ X++
+        href: dev-ref/xpp-business-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันคอนเทนเนอร์ของ X++
+        href: dev-ref/xpp-container-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันการแปลงของ X++
+        href: dev-ref/xpp-conversion-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันวันที่ของ X++
+        href: dev-ref/xpp-date-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันคณิตศาสตร์ของ X++
+        href: dev-ref/xpp-math-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันการสะท้อนของ X++
+        href: dev-ref/xpp-reflection-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันเซสชันของ X++
+        href: dev-ref/xpp-session-run-time-functions.md
+      - name: ฟังก์ชันเวลาที่รันสตริงของ X++
+        href: dev-ref/xpp-string-run-time-functions.md
+    - name: ตารางระบบ
+      href: dev-ref/system-tables.md
+    - name: คลาสระบบ
       items:
-        - name: X++ และคุณสมบัติของดีบักเกอร์
-          href: dev-tools/new-x-debugger-features.md
-        - name: ดีบัก X++ กับสำเนาของฐานข้อมูลการผลิต
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
-        - name: ดีบักโค้ด X++
-          href: dev-tools/debug-xpp.md
-        - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
-          href: dev-tools/event-handler-result-class.md
-        - name: 'เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++'
-          href: dev-tools/write-business-logic.md
-        - name: การเปลี่ยนแปลงใน X++ และคอมไพเลอร์ X++
-          href: dev-tools/programming-language-support.md
-        - name: 'ผู้ให้บริการ LINQ สำหรับ C#'
-          href: dev-tools/linq-provider-c.md
-        - name: เขียนกฎแนวทางปฏิบัติ
-          href: dev-tools/author-best-practice-rules.md
-        - name: คุณสมบัติของตัวสำรวจแอพลิเคชัน
-          href: dev-ref/application-explorer-aot-properties.md
-        - name: การอ้างอิงภาษาของ X++
-          items:
-            - name: การอ้างอิงภาษาของ X++
-              href: dev-ref/xpp-language-reference.md
-            - name: ตัวแปร X++ และชนิดข้อมูล
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'คำสั่ง X++, การวนซ้ำ และการจัดการข้อยกเว้น'
-              href: dev-ref/xpp-statements-loops.md
-            - name: ข้อยกเว้น X++ ของข้อผิดพลาดในการเชื่อมต่อ SQL
-              href: dev-ref/sql-connection-error.md
-            - name: ตัวดำเนินการ X++
-              href: dev-ref/xpp-operators.md
-            - name: ความสำคัญของตัวดำเนินการ X++
-              href: dev-ref/xpp-operator-precedence.md
-            - name: คลาสและวิธีการ X++
-              href: dev-ref/xpp-classes-methods.md
-            - name: การเลือกและการจัดการข้อมูล X++
-              href: dev-ref/xpp-data-query.md
-            - name: แมโคร X++
-              href: dev-ref/xpp-macros.md
-            - name: คลาสแอททริบิวต์ X++
-              href: dev-ref/xpp-attribute-classes.md
-            - name: 'การเปรียบเทียบ X++ และ C#'
-              href: dev-ref/xpp-cs-comparison.md
-            - name: ไวยากรณ์ของ X++
-              href: dev-ref/xpp-syntax.md
-    - name: 'API, คลาส และการอ้างอิงตาราง'
-      href: dev-ref/api-reference.md
+      - name: คลาส A
+        href: dev-ref/a-classes.md
+      - name: คลาส B
+        href: dev-ref/b-classes.md
+      - name: คลาส C
+        href: dev-ref/c-classes.md
+      - name: คลาส D
+        href: dev-ref/d-classes.md
+      - name: คลาส E
+        href: dev-ref/e-classes.md
+      - name: คลาส F (FieldBinding ถึง FormBuildAnimateControl)
+        href: dev-ref/fieldbinding-classes.md
+      - name: คลาส F (FormBuildButtonControl ถึง FormBuildFastTabSummarySeparator)
+        href: dev-ref/formbuildbuttoncontrol-classes.md
+      - name: คลาส F (FormBuildFilterPaneControl ถึง FormBuildRealControl)
+        href: dev-ref/formbuildfilterpanecontrol-classes.md
+      - name: คลาส F (FormBuildReferenceControl ถึง FormButtonSeparatorControl)
+        href: dev-ref/formbuildreferencecontrol-classes.md
+      - name: คลาส F (FormChangeTracker ถึง FormControlEventArgs)
+        href: dev-ref/formchangetracker-classes.md
+      - name: คลาส F (FormDataObject ถึง FormFastTabHeaderControl)
+        href: dev-ref/formdataobject-classes.md
+      - name: คลาส F (FormFastTabSummarySeparator ถึง FormGridControl)
+        href: dev-ref/formfasttabsummaryseparator-classes.md
+      - name: คลาส F (FormGroupControl ถึง FormIntControl)
+        href: dev-ref/formgroupcontrol-classes.md
+      - name: คลาส F (FormListBoxControl ถึง FormNotifyEventArgs)
+        href: dev-ref/formlistboxcontrol-classes.md
+      - name: คลาส F (FormObject ถึง FormRealControl)
+        href: dev-ref/formobject-classes.md
+      - name: คลาส F (FormReferenceControl ถึง FormStringControl)
+        href: dev-ref/formreferencecontrol-classes.md
+      - name: คลาส F (FormTabControl ถึง FormWindowControl)
+        href: dev-ref/formtabcontrol-classes.md
+      - name: คลาส G
+        href: dev-ref/g-classes.md
+      - name: คลาส H
+        href: dev-ref/h-classes.md
+      - name: คลาส I
+        href: dev-ref/i-classes.md
+      - name: คลาส J
+        href: dev-ref/j-classes.md
+      - name: คลาส K
+        href: dev-ref/k-classes.md
+      - name: คลาส L
+        href: dev-ref/l-classes.md
+      - name: คลาส M
+        href: dev-ref/m-classes.md
+      - name: คลาส N
+        href: dev-ref/n-classes.md
+      - name: คลาส O
+        href: dev-ref/o-classes.md
+      - name: คลาส P
+        href: dev-ref/p-classes.md
+      - name: คลาส Q
+        href: dev-ref/q-classes.md
+      - name: คลาส R
+        href: dev-ref/r-classes.md
+      - name: คลาส S
+        href: dev-ref/s-classes.md
+      - name: คลาส T
+        href: dev-ref/t-classes.md
+      - name: คลาส U
+        href: dev-ref/u-classes.md
+      - name: คลาส V
+        href: dev-ref/v-classes.md
+      - name: คลาส W
+        href: dev-ref/w-classes.md
+      - name: คลาส X
+        href: dev-ref/x-classes.md
+  - name: ความสามารถในการเพิ่มฟังก์ชัน
+    href: extensibility/extensibility-home-page.md
+    items:
+    - name: บทนำและการเริ่มต้นใช้งาน
       items:
-        - name: ฟังก์ชันเวลาคอมไพล์ของ X++
-          href: dev-ref/xpp-compile-time-functions.md
-        - name: ฟังก์ชันเวลาที่รันของ X++
-          href: dev-ref/xpp-run-time-functions.md
-          items:
-            - name: ฟังก์ชันเวลาที่รันธุรกิจของ X++
-              href: dev-ref/xpp-business-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันคอนเทนเนอร์ของ X++
-              href: dev-ref/xpp-container-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันการแปลงของ X++
-              href: dev-ref/xpp-conversion-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันวันที่ของ X++
-              href: dev-ref/xpp-date-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันคณิตศาสตร์ของ X++
-              href: dev-ref/xpp-math-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันการสะท้อนของ X++
-              href: dev-ref/xpp-reflection-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันเซสชันของ X++
-              href: dev-ref/xpp-session-run-time-functions.md
-            - name: ฟังก์ชันเวลาที่รันสตริงของ X++
-              href: dev-ref/xpp-string-run-time-functions.md
-        - name: ตารางระบบ
-          href: dev-ref/system-tables.md
-        - name: คลาสระบบ
-          items:
-            - name: คลาส A
-              href: dev-ref/a-classes.md
-            - name: คลาส B
-              href: dev-ref/b-classes.md
-            - name: คลาส C
-              href: dev-ref/c-classes.md
-            - name: คลาส D
-              href: dev-ref/d-classes.md
-            - name: คลาส E
-              href: dev-ref/e-classes.md
-            - name: คลาส F (FieldBinding ถึง FormBuildAnimateControl)
-              href: dev-ref/fieldbinding-classes.md
-            - name: คลาส F (FormBuildButtonControl ถึง FormBuildFastTabSummarySeparator)
-              href: dev-ref/formbuildbuttoncontrol-classes.md
-            - name: คลาส F (FormBuildFilterPaneControl ถึง FormBuildRealControl)
-              href: dev-ref/formbuildfilterpanecontrol-classes.md
-            - name: คลาส F (FormBuildReferenceControl ถึง FormButtonSeparatorControl)
-              href: dev-ref/formbuildreferencecontrol-classes.md
-            - name: คลาส F (FormChangeTracker ถึง FormControlEventArgs)
-              href: dev-ref/formchangetracker-classes.md
-            - name: คลาส F (FormDataObject ถึง FormFastTabHeaderControl)
-              href: dev-ref/formdataobject-classes.md
-            - name: คลาส F (FormFastTabSummarySeparator ถึง FormGridControl)
-              href: dev-ref/formfasttabsummaryseparator-classes.md
-            - name: คลาส F (FormGroupControl ถึง FormIntControl)
-              href: dev-ref/formgroupcontrol-classes.md
-            - name: คลาส F (FormListBoxControl ถึง FormNotifyEventArgs)
-              href: dev-ref/formlistboxcontrol-classes.md
-            - name: คลาส F (FormObject ถึง FormRealControl)
-              href: dev-ref/formobject-classes.md
-            - name: คลาส F (FormReferenceControl ถึง FormStringControl)
-              href: dev-ref/formreferencecontrol-classes.md
-            - name: คลาส F (FormTabControl ถึง FormWindowControl)
-              href: dev-ref/formtabcontrol-classes.md
-            - name: คลาส G
-              href: dev-ref/g-classes.md
-            - name: คลาส H
-              href: dev-ref/h-classes.md
-            - name: คลาส I
-              href: dev-ref/i-classes.md
-            - name: คลาส J
-              href: dev-ref/j-classes.md
-            - name: คลาส K
-              href: dev-ref/k-classes.md
-            - name: คลาส L
-              href: dev-ref/l-classes.md
-            - name: คลาส M
-              href: dev-ref/m-classes.md
-            - name: คลาส N
-              href: dev-ref/n-classes.md
-            - name: คลาส O
-              href: dev-ref/o-classes.md
-            - name: คลาส P
-              href: dev-ref/p-classes.md
-            - name: คลาส Q
-              href: dev-ref/q-classes.md
-            - name: คลาส R
-              href: dev-ref/r-classes.md
-            - name: คลาส S
-              href: dev-ref/s-classes.md
-            - name: คลาส T
-              href: dev-ref/t-classes.md
-            - name: คลาส U
-              href: dev-ref/u-classes.md
-            - name: คลาส V
-              href: dev-ref/v-classes.md
-            - name: คลาส W
-              href: dev-ref/w-classes.md
-            - name: คลาส X
-              href: dev-ref/x-classes.md
-    - name: ความสามารถในการเพิ่มฟังก์ชัน
-      href: extensibility/extensibility-home-page.md
+      - name: แผนความสามารถในการเพิ่มฟังก์ชันของแอปพลิเคชัน
+        href: extensibility/extensibility-roadmap.md
+      - name: คำขอความสามารถในการเพิ่มฟังก์ชัน
+        href: extensibility/extensibility-requests.md
+      - name: FAQ เกี่ยวกับความสามารถในการเพิ่มฟังก์ชัน
+        href: extensibility/app-sealing-faq.md
+      - name: ย้ายจากการโอเวอร์เลย์ไปยังส่วนขยาย
+        href: extensibility/migrate-overlayer-extension.md
+      - name: เลือกกำหนดองค์ประกอบแบบจำลองด้วยส่วนขยาย (บทสอน)
+        href: extensibility/customize-model-elements-extensions.md
+      - name: เลือกกำหนดด้วยส่วนขยายและการโอเวอร์เลย์
+        href: extensibility/customization-overlayering-extensions.md
+    - name: มีอะไรใหม่
       items:
-        - name: บทนำและการเริ่มต้นใช้งาน
-          items:
-            - name: แผนความสามารถในการเพิ่มฟังก์ชันของแอพลิเคชัน
-              href: extensibility/extensibility-roadmap.md
-            - name: คำขอความสามารถในการเพิ่มฟังก์ชัน
-              href: extensibility/extensibility-requests.md
-            - name: FAQ เกี่ยวกับความสามารถในการเพิ่มฟังก์ชัน
-              href: extensibility/app-sealing-faq.md
-            - name: ย้ายจากการโอเวอร์เลย์ไปยังส่วนขยาย
-              href: extensibility/migrate-overlayer-extension.md
-            - name: เลือกกำหนดองค์ประกอบแบบจำลองด้วยส่วนขยาย (บทสอน)
-              href: extensibility/customize-model-elements-extensions.md
-            - name: เลือกกำหนดด้วยส่วนขยายและการโอเวอร์เลย์
-              href: extensibility/customization-overlayering-extensions.md
-        - name: มีอะไรใหม่
-          items:
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชัน กรกฎาคม 2017
-              href: extensibility/changes-july-2017.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 8.0
-              href: extensibility/changes-80.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.3
-              href: extensibility/extensibility-changes-813.md
-        - name: พื้นฐาน
-          items:
-            - name: การกำหนดการบุกรุก
-              href: extensibility/intrusive-customizations.md
-            - name: แบบจำลองส่วนขยายคลาส
-              href: extensibility/class-extensions.md
-            - name: ส่วนขยายของคลาสด้วยเมธอด wrapping และ Chain of Command
-              href: extensibility/method-wrapping-coc.md
-            - name: แนวทางการตั้งชื่อสำหรับส่วนขยายแบบจำลอง
-              href: extensibility/naming-guidelines-extensions.md
-            - name: ผ่อนปรนข้อจำกัดของแบบจำลองเพื่อปรับโครงสร้างการโอเวอร์เลย์เป็นส่วนขยาย
-              href: extensibility/refactoring-over-layering.md
-        - name: การสร้างส่วนขยาย
-          items:
-            - name: เพิ่มค่าไปยัง Enum
-              href: extensibility/add-enum-value.md
-            - name: แก้ไขชนิดข้อมูลแบบขยาย
-              href: extensibility/modify-edt.md
-            - name: ลงทะเบียนคลาสย่อยสำหรับวิธีโรงงาน
-              href: extensibility/register-subclass-factory-methods.md
-            - name: ตอบกลับโดยใช้ EventHandlerResult
-              href: extensibility/respond-event-handler-result.md
-            - name: ขยายคลาส RunBase
-              href: extensibility/extend-runbase-class.md
-            - name: กำหนดการเริ่มต้นแอพลิเคชันเองโดยใช้การมอบหมาย
-              href: extensibility/startup-customizations.md
-            - name: แก้ไขฟิลด์ที่มีอยู่ในตาราง
-              href: extensibility/modify-existing-field.md
-            - name: เพิ่มฟิลด์ลงในตาราง
-              href: extensibility/add-field-extension.md
-            - name: เพิ่มดัชนีลงในตาราง
-              href: extensibility/add-index.md
-            - name: เพิ่มความสัมพันธ์ลงในตาราง
-              href: extensibility/add-relation.md
-            - name: แก้ไขคุณสมบัติตาราง
-              href: extensibility/modify-properties.md
-            - name: เพิ่มวิธีการลงในตาราง
-              href: extensibility/add-method-table.md
-            - name: ดำเนินการการดำเนินการทางธุรกิจทั่วทั้งวงจรของเรกคอร์ดตาราง
-              href: extensibility/subscribe-table-events.md
-            - name: เพิ่มแหล่งข้อมูลลงในแบบฟอร์ม
-              href: extensibility/add-datasource.md
-            - name: เปลี่ยนคำอธิบายในแบบฟอร์ม
-              href: extensibility/change-caption-form.md
-            - name: แก้ไขคุณสมบัติการควบคุมแบบฟอร์ม
-              href: extensibility/modify-control-properties.md
-            - name: ขยายขอบข่ายของลำดับหมายเลข
-              href: extensibility/extend-number-sequence-scope.md
-            - name: เพิ่มมิติสินค้าคงคลังใหม่
-              href: extensibility/inventory-dimensions.md
-            - name: ความสามารถในการเพิ่มฟังก์ชันราคาและส่วนลด
-              href: extensibility/pricing-app73.md
-            - name: ส่วนขยายแผนผังตาราง
-              href: extensibility/map-extensions.md
-            - name: ขยายแผนผังตารางที่ใช้เป็นอินเทอร์เฟส
-              href: extensibility/maps-as-interfaces.md
-            - name: ขยายแผนผังตารางที่ใช้สำหรับการกำหนดรุ่น
-              href: extensibility/maps-with-versioning.md
-            - name: การขยายความแม่นยำของจุดทศนิยมสำหรับชนิดข้อมูลที่เลือก
-              href: extensibility/decimal-point-precision.md
-        - name: การสร้างโซลูชันที่ขยายได้
-          items:
-            - name: เขียนโค้ดที่ขยายได้
-              href: extensibility/writing-extensible-code.md
-            - name: คลาส
-              href: extensibility/extensible-classes.md
-            - name: วิธีการ
-              href: extensibility/extensible-methods.md
-            - name: แบบฟอร์ม
-              href: extensibility/extensible-forms.md
-            - name: ชนิดข้อมูลแบบขยาย
-              href: extensibility/extensible-edts.md
-            - name: Enum ที่ขยายได้
-              href: extensibility/extensible-enums.md
-            - name: ผู้รับมอบสิทธิ์
-              href: extensibility/extensible-code-delegates.md
-            - name: ตาราง
-              href: extensibility/extensible-tables.md
-            - name: แอททริบิวต์ความสามารถในการเพิ่มฟังก์ชันสำหรับวิธีการ
-              href: extensibility/extensibility-attributes.md
-            - name: การจำแนกการเปลี่ยนแปลง
-              href: extensibility/breaking-changes.md
-    - name: ประสิทธิภาพ
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชัน กรกฎาคม 2017
+        href: extensibility/changes-july-2017.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 7.3
+        href: extensibility/extensibility-changes-73.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 8.0
+        href: extensibility/changes-80.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.1
+        href: extensibility/extensibility-changes-801.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.2
+        href: extensibility/extensibility-changes-802.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.3
+        href: extensibility/extensibility-changes-803.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.4
+        href: extensibility/extensibility-changes-804.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1
+        href: extensibility/extensibility-changes-81.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.1
+        href: extensibility/extensibility-changes-811.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.2
+        href: extensibility/extensibility-changes-812.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.3
+        href: extensibility/extensibility-changes-813.md
+    - name: พื้นฐาน
       items:
-        - name: ติดตามโดยใช้ตัวแยกวิเคราะห์ Trace
-          href: perf-test/trace-trace-tutorial.md
-        - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ด้วย Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
-        - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ในสภาพแวดล้อมแบบในสถานที่
-          href: perf-test/perfsdk-tutorial-lbd.md
-        - name: วินิจฉัยปัญหาและวิเคราะห์ปัญหาประสิทธิภาพโดยใช้ตัวแยกวิเคราะห์ Trace
-          href: perf-test/trace-parser.md
-        - name: ระบบจับเวลาของประสิทธิภาพ
-          href: perf-test/performance-timer.md
-    - name: การสนับสนุนการทดสอบใน Visual Studio
+      - name: การกำหนดการบุกรุก
+        href: extensibility/intrusive-customizations.md
+      - name: แบบจำลองส่วนขยายคลาส
+        href: extensibility/class-extensions.md
+      - name: ส่วนขยายของคลาสด้วยเมธอด wrapping และ Chain of Command
+        href: extensibility/method-wrapping-coc.md
+      - name: แนวทางการตั้งชื่อสำหรับส่วนขยายแบบจำลอง
+        href: extensibility/naming-guidelines-extensions.md
+      - name: ผ่อนปรนข้อจำกัดของแบบจำลองเพื่อปรับโครงสร้างการโอเวอร์เลย์เป็นส่วนขยาย
+        href: extensibility/refactoring-over-layering.md
+    - name: การสร้างส่วนขยาย
       items:
-        - name: การทดสอบและการตรวจสอบความถูกต้อง
-          href: perf-test/testing-validation.md
-        - name: ทดสอบโครงการใน Visual Studio
-          href: perf-test/testing-support.md
-        - name: ปรับใช้โทโพโลยีที่รองรับระบบอัตโนมัติของบิลด์และการทดสอบแบบต่อเนื่อง
-          href: perf-test/continuous-build-test-automation.md
-    - name: วันที่มีผลบังคับใช้
-      href: dev-tools/date-effectivity.md
-    - name: การให้สิทธิ์ใช้งาน ISV
-      href: dev-tools/isv-licensing.md
-    - name: การให้สิทธิ์ ISV ในสถานที่
-      href: dev-tools/isv-licensing-on-prem.md
+      - name: เพิ่มค่าไปยัง Enum
+        href: extensibility/add-enum-value.md
+      - name: แก้ไขชนิดข้อมูลแบบขยาย
+        href: extensibility/modify-edt.md
+      - name: ลงทะเบียนคลาสย่อยสำหรับวิธีโรงงาน
+        href: extensibility/register-subclass-factory-methods.md
+      - name: ตอบกลับโดยใช้ EventHandlerResult
+        href: extensibility/respond-event-handler-result.md
+      - name: ขยายคลาส RunBase
+        href: extensibility/extend-runbase-class.md
+      - name: กำหนดการเริ่มต้นแอปพลิเคชันเองโดยใช้การมอบหมาย
+        href: extensibility/startup-customizations.md
+      - name: แก้ไขฟิลด์ที่มีอยู่ในตาราง
+        href: extensibility/modify-existing-field.md
+      - name: เพิ่มฟิลด์ลงในตาราง
+        href: extensibility/add-field-extension.md
+      - name: เพิ่มดัชนีลงในตาราง
+        href: extensibility/add-index.md
+      - name: เพิ่มความสัมพันธ์ลงในตาราง
+        href: extensibility/add-relation.md
+      - name: แก้ไขคุณสมบัติตาราง
+        href: extensibility/modify-properties.md
+      - name: เพิ่มวิธีการลงในตาราง
+        href: extensibility/add-method-table.md
+      - name: ดำเนินการการดำเนินการทางธุรกิจทั่วทั้งวงจรของเรกคอร์ดตาราง
+        href: extensibility/subscribe-table-events.md
+      - name: เพิ่มแหล่งข้อมูลลงในแบบฟอร์ม
+        href: extensibility/add-datasource.md
+      - name: เปลี่ยนคำอธิบายในแบบฟอร์ม
+        href: extensibility/change-caption-form.md
+      - name: แก้ไขคุณสมบัติการควบคุมแบบฟอร์ม
+        href: extensibility/modify-control-properties.md
+      - name: ขยายขอบข่ายของลำดับหมายเลข
+        href: extensibility/extend-number-sequence-scope.md
+      - name: เพิ่มมิติสินค้าคงคลังใหม่
+        href: extensibility/inventory-dimensions.md
+      - name: ความสามารถในการเพิ่มฟังก์ชันราคาและส่วนลด
+        href: extensibility/pricing-app73.md
+      - name: ส่วนขยายแผนผังตาราง
+        href: extensibility/map-extensions.md
+      - name: ขยายแผนผังตารางที่ใช้เป็นอินเทอร์เฟส
+        href: extensibility/maps-as-interfaces.md
+      - name: ขยายแผนผังตารางที่ใช้สำหรับการกำหนดรุ่น
+        href: extensibility/maps-with-versioning.md
+      - name: การขยายความแม่นยำของจุดทศนิยมสำหรับชนิดข้อมูลที่เลือก
+        href: extensibility/decimal-point-precision.md
+    - name: การสร้างโซลูชันที่ขยายได้
+      items:
+      - name: เขียนโค้ดที่ขยายได้
+        href: extensibility/writing-extensible-code.md
+      - name: คลาส
+        href: extensibility/extensible-classes.md
+      - name: วิธีการ
+        href: extensibility/extensible-methods.md
+      - name: แบบฟอร์ม
+        href: extensibility/extensible-forms.md
+      - name: ชนิดข้อมูลแบบขยาย
+        href: extensibility/extensible-edts.md
+      - name: Enum ที่ขยายได้
+        href: extensibility/extensible-enums.md
+      - name: ผู้รับมอบสิทธิ์
+        href: extensibility/extensible-code-delegates.md
+      - name: ตาราง
+        href: extensibility/extensible-tables.md
+      - name: แอททริบิวต์ความสามารถในการเพิ่มฟังก์ชันสำหรับวิธีการ
+        href: extensibility/extensibility-attributes.md
+      - name: การจำแนกการเปลี่ยนแปลง
+        href: extensibility/breaking-changes.md
+  - name: ประสิทธิภาพ
+    items:
+    - name: ติดตามโดยใช้ Trace parser
+      href: perf-test/trace-trace-tutorial.md
+    - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ด้วย Visual Studio Online
+      href: perf-test/perfsdk-tutorial.md
+    - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ในสภาพแวดล้อมแบบในสถานที่
+      href: perf-test/perfsdk-tutorial-lbd.md
+    - name: วินิจฉัยปัญหาและวิเคราะห์ปัญหาประสิทธิภาพโดยใช้ Trace parser
+      href: perf-test/trace-parser.md
+    - name: ระบบจับเวลาของประสิทธิภาพ
+      href: perf-test/performance-timer.md
+  - name: การทดสอบการสนับสนุนใน Visual Studio
+    items:
+    - name: การทดสอบและการตรวจสอบความถูกต้อง
+      href: perf-test/testing-validation.md
+    - name: ทดสอบโครงการใน Visual Studio
+      href: perf-test/testing-support.md
+    - name: ปรับใช้โทโพโลยีที่รองรับระบบอัตโนมัติของบิลด์และการทดสอบแบบต่อเนื่อง
+      href: perf-test/continuous-build-test-automation.md
+    - name: การกรอง SysTest โดยใช้แอททริบิวต์ของคลาสและเมธอด
+      href: perf-test/systest-filtering.md
+  - name: วันที่มีผลบังคับใช้
+    href: dev-tools/date-effectivity.md
+  - name: การให้สิทธิ์ใช้งาน ISV
+    href: dev-tools/isv-licensing.md
+  - name: การให้สิทธิ์ ISV แบบในสถานที่
+    href: dev-tools/isv-licensing-on-prem.md
 - name: การพัฒนาอินเทอร์เฟสผู้ใช้
   href: user-interface/user-interface-development-home-page.md
   items:
-    - name: บทสอน
-      items:
-        - name: สร้างแบบฟอร์มชนิดค่าธรรมเนียมการเช่า
-          href: user-interface/build-rental-charge-type-form.md
-        - name: สร้างแบบฟอร์มลูกค้า
-          href: user-interface/build-customer-form.md
-        - name: สร้างการนำทาง
-          href: user-interface/build-navigation.md
-        - name: สร้างพื้นที่ทำงาน
-          href: user-interface/build-workspace.md
-    - name: แบบฟอร์ม
-      items:
-        - name: แนวคิดการนำทาง
-          href: user-interface/page-navigation.md
-        - name: โครงร่างเพจในเว็บไคลเอ็นต์
-          href: user-interface/page-layout.md
-        - name: แบบอักษรสัญลักษณ์ Dynamics
-          href: user-interface/symbol-font.md
-        - name: ทดสอบแบบฟอร์มที่ใช้รูปแบบที่กำหนดเอง
-          href: user-interface/testing-forms-custom-patterns.md
-        - name: สร้าง URL ที่ปลอดภัยและสามารถใช้ร่วมกันได้ (ลิงก์เฉพาะ)
-          href: user-interface/create-deep-links.md
-        - name: ความสามารถในการเข้าถึงในแบบฟอร์ม ผลิตภัณฑ์ และตัวควบคุม
-          href: user-interface/enable-accessibility.md
-        - name: กำหนดคำอธิบายฟิลด์เอง
-          href: user-interface/customize-field-help.md
-    - name: ตัวควบคุม
-      items:
-        - name: ตัวควบคุมการดำเนินการ
-          href: user-interface/action-controls.md
-        - name: ตัวควบคุมการป้อนข้อมูลและขนาดคอลัมน์กริด
-          href: user-interface/sizing-input-controls-grid-columns.md
-        - name: การสนับสนุนกล่องกาเครื่องหมายในตัวควบคุมแผนภูมิ
-          href: user-interface/check-box-tree-controls.md
-        - name: ตัวเลือกการกรอง
-          href: user-interface/filtering.md
-        - name: ตัวควบคุมโฮสต์ PowerApps
-          href: user-interface/powerapps-host-control.md
-    - name: การจัดการหน้าต่าง
-      items:
-        - name: ย้ายโค้ดเมนูบริบท
-          href: migration-upgrade/code-migration-context-menus.md
-        - name: ย้ายตรรกะการดับเบิลคลิกเมาส์
-          href: migration-upgrade/code-migration-double-click.md
-        - name: การป้อนข้อมูลบริบทสำหรับการค้นหา
-          href: user-interface/contextual-data-entry-lookups.md
-        - name: ตัวควบคุม HierarchyViewer
-          href: user-interface/hierarchy-viewer-control.md
-        - name: ตัวควบคุมการค้นหา
-          href: user-interface/lookups-controls.md
-        - name: ตัวควบคุมการอัพโหลดไฟล์
-          href: user-interface/file-upload-control.md
-        - name: ปุ่มที่ระบบกำหนด
-          href: user-interface/system-defined-buttons.md
-        - name: รูปภาพในเพจหรือในกริด
-          href: user-interface/images-form-grid.md
-        - name: สีของแบบอักษรและพื้นหลังสำหรับการป้อนข้อมูล และตัวควบคุมกริด
-          href: user-interface/specify-color-font-background-controls.md
-        - name: การสนับสนุนภาษาแบบขวาไปซ้ายและข้อความแบบสองทิศทาง
-          href: user-interface/bidirectional-support.md
-        - name: สร้างไอคอนสำหรับไทล์พื้นที่ทำงาน
-          href: user-interface/create-icons-workspace-tiles.md
-        - name: Public JavaScript APIs สำหรับตัวควบคุมที่ขยายได้
-          href: user-interface/public-javascript-apis.md
-        - name: รายการตรวจสอบตัวควบคุม
-          href: user-interface/control-checklist.md
-    - name: ข้อความ
-      items:
-        - name: ตัวเลื่อนและกล่องโต้ตอบ MessageBox
-          href: user-interface/slider-messagebox.md
-        - name: ศูนย์ข้อความ แถบข้อความ และ API รายละเอียดข้อความ
-          href: user-interface/messaging-api-center-bar-details.md
-        - name: FAQ เกี่ยวกับศูนย์ข้อความ แถบข้อความ และรายละเอียดข้อความ
-          href: user-interface/messaging-user.md
-    - name: คำแนะนำรูปแบบของฟอร์มหลัก
-      items:
-        - name: รูปแบบของฟอร์มสำหรับฟอร์มที่ย้าย
-          href: user-interface/select-form-pattern.md
-        - name: สไตล์และรูปแบบของแบบฟอร์ม
-          href: user-interface/form-styles-patterns.md
-        - name: Add-in ของ Visual Studio ที่รองรับรูปแบบของแบบฟอร์ม
-          href: user-interface/form-pattern-add-ins.md
-    - name: รูปแบบของแบบฟอร์ม
-      items:
-        - name: คำแนะนำแบบฟอร์มทั่วไป
-          href: user-interface/general-form-guidelines.md
-        - name: รูปแบบของแบบฟอร์มรายละเอียดต้นแบบ
-          href: user-interface/details-master-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มรายละเอียดธุรกรรม
-          href: user-interface/details-transaction-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มรายการส่วนของแบบฟอร์ม
-          href: user-interface/section-list-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มหน้ารายการ
-          href: user-interface/list-page-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มรายละเอียดแบบง่าย
-          href: user-interface/simple-details-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มรายการและรายละเอียดแบบง่าย
-          href: user-interface/simple-list-details-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มรายการแบบง่าย
-          href: user-interface/simple-list-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มสารบัญ
-          href: user-interface/table-of-contents-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มสองงาน
-          href: user-interface/task-double-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มงานเดี่ยว
-          href: user-interface/task-single-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มวิซาร์ด
-          href: user-interface/wizard-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มพื้นที่ทำงาน
-          href: user-interface/workspace-form-pattern.md
-    - name: รูปแบบของแบบฟอร์มรายการรอง
-      items:
-        - name: รูปแบบของแบบฟอร์มการเลือกขั้นสูง
-          href: user-interface/advanced-selection-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มกล่องโต้ตอบ
-          href: user-interface/dialog-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มกล่องโต้ตอบการวาง
-          href: user-interface/drop-dialog-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มการค้นหา
-          href: user-interface/lookup-form-pattern.md
-        - name: รูปแบบของแบบฟอร์มกล่องแสดงข้อมูลย่อ
-          href: user-interface/factbox-form-patterns.md
-    - name: รูปแบบย่อย
-      items:
-        - name: รูปแบบย่อยของกลุ่มตัวกรองที่กำหนดเอง
-          href: user-interface/custom-filter-group-subpattern.md
-        - name: รูปแบบย่อยของตัวควบคุมการป้อนมิติ
-          href: financial/dimension-entry-control-subpattern.md
-        - name: รูปแบบย่อยของตัวสร้างนิพจน์มิติ
-          href: financial/dimension-expression-builder-subpattern.md
-        - name: รูปแบบย่อยของฟิลด์และกลุ่มฟิลด์
-          href: user-interface/fields-field-groups-subpattern.md
-        - name: รูปแบบย่อยของตัวกรองและแถบเครื่องมือ
-          href: user-interface/filters-toolbar-subpattern.md
-        - name: รูปแบบย่อยของข้อความเติม
-          href: user-interface/fill-text-subpattern.md
-        - name: รูปแบบย่อยของฟิลด์และปุ่มแนวนอน
-          href: user-interface/horizontal-fields-buttons-group-subpattern.md
-        - name: รูปแบบย่อยของการแสดงตัวอย่างรูปภาพ
-          href: user-interface/image-preview-subpattern.md
-        - name: รูปแบบของแผงรายการ
-          href: user-interface/list-panel-subpattern.md
-        - name: รูปแบบย่อยของรายการและรายละเอียดแบบง่ายที่ซ้อนกัน
-          href: user-interface/nested-simple-list-details-subpattern.md
-        - name: รูปแบบของแบบฟอร์มแผนภูมิส่วน
-          href: user-interface/section-chart-form-pattern.md
-        - name: รูปแบบย่อยของ Power BI ของส่วน
-          href: user-interface/section-powerbi-subpattern.md
-        - name: รูปแบบย่อยของลิงก์ที่เกี่ยวข้องกับส่วน
-          href: user-interface/section-related-links-subpattern.md
-        - name: รูปแบบย่อยของแผนภูมิที่ซ้อนกันของส่วน
-          href: user-interface/section-stacked-chart-subpattern.md
-        - name: รูปแบบย่อยของรายการแท็บของส่วน
-          href: user-interface/section-tabbed-list-subpattern.md
-        - name: รูปแบบย่อยของไทล์ของส่วน
-          href: user-interface/section-tiles-subpattern.md
-        - name: รูปแบบย่อยของฟิลด์ตาราง
-          href: user-interface/tabular-fields-subpattern.md
-        - name: รูปแบบย่อยของแถบเครื่องมือและฟิลด์
-          href: user-interface/toolbar-fields-subpattern.md
-        - name: รูปแบบย่อยของแถบเครื่องมือและรายการ
-          href: user-interface/toolbar-list-subpattern.md
-        - name: รูปแบบย่อยของกลุ่มตัวกรองหน้าพื้นที่ทำงาน
-          href: user-interface/workspace-filter-group-subpattern.md
-    - name: ความสามารถในการเพิ่มฟังก์ชันตัวควบคุม
-      items:
-        - name: สร้างตัวควบคุมที่ขยายได้
-          href: user-interface/build-extensible-control.md
-        - name: แป้นพิมพ์ลัดสำหรับตัวควบคุมที่ขยายได้
-          href: user-interface/keyboard-shortcuts-controls.md
-        - name: การอ้างอิงการเขียนโปรแกรมตัวควบคุมที่ขยายได้
-          href: user-interface/extensible-control-programming-reference.md
-        - name: ความสามารถในการเพิ่มฟังก์ชันตัวควบคุม
-          href: user-interface/control-extensibility.md
-        - name: สร้างป้ายชื่อที่แปลเป็นภาษาท้องถิ่นได้
-          href: user-interface/create-localizable-labels-client.md
-        - name: คำแนะนำโครงร่างตัวควบคุมที่ขยายได้
-          href: user-interface/extensible-controls-layout.md
-        - name: ควบคุมข้อความที่ตัวบันทึกงานสร้างสำหรับตัวควบคุม
-          href: user-interface/task-recorder-control-text.md
+  - name: บทสอน
+    items:
+    - name: สร้างแบบฟอร์มชนิดค่าธรรมเนียมการเช่า
+      href: user-interface/build-rental-charge-type-form.md
+    - name: สร้างแบบฟอร์มลูกค้า
+      href: user-interface/build-customer-form.md
+    - name: สร้างการนำทาง
+      href: user-interface/build-navigation.md
     - name: สร้างพื้นที่ทำงาน
-      items:
-        - name: สร้างพื้นที่ทำงานในการดำเนินงาน
-          href: user-interface/build-workspaces.md
-        - name: การแคชไทล์และรายการสำหรับพื้นที่ทำงาน
-          href: user-interface/tile-list-caching-workspaces.md
-    - name: ตัวบันทึกงาน
-      href: user-interface/task-recorder.md
-      items:
-        - name: การอ้างอิงด่วนของตัวบันทึกงาน
-          href: user-interface/task-recorder-quick-reference.md
-        - name: สร้างเอกสารหรือการฝึกอบรมด้วยตัวบันทึกงาน
-          href: user-interface/task-recorder-training-docs.md
+      href: user-interface/build-workspace.md
+  - name: แบบฟอร์ม
+    items:
+    - name: แนวคิดการนำทาง
+      href: user-interface/page-navigation.md
+    - name: โครงร่างเพจในเว็บไคลเอ็นต์
+      href: user-interface/page-layout.md
+    - name: แบบอักษรสัญลักษณ์ Dynamics
+      href: user-interface/symbol-font.md
+    - name: ทดสอบแบบฟอร์มที่ใช้รูปแบบที่กำหนดเอง
+      href: user-interface/testing-forms-custom-patterns.md
+    - name: สร้าง URL ที่ปลอดภัยและสามารถใช้ร่วมกันได้ (ลิงก์เฉพาะ)
+      href: user-interface/create-deep-links.md
+    - name: ความสามารถในการเข้าถึงในแบบฟอร์ม ผลิตภัณฑ์ และตัวควบคุม
+      href: user-interface/enable-accessibility.md
+    - name: กำหนดคำอธิบายฟิลด์เอง
+      href: user-interface/customize-field-help.md
+  - name: ตัวควบคุม
+    items:
+    - name: ตัวควบคุมการดำเนินการ
+      href: user-interface/action-controls.md
+    - name: ตัวควบคุมการป้อนข้อมูลและขนาดคอลัมน์กริด
+      href: user-interface/sizing-input-controls-grid-columns.md
+    - name: การสนับสนุนกล่องกาเครื่องหมายในตัวควบคุมแผนภูมิ
+      href: user-interface/check-box-tree-controls.md
+    - name: ตัวเลือกการกรอง
+      href: user-interface/filtering.md
+    - name: ตัวควบคุมโฮสต์ PowerApps
+      href: user-interface/powerapps-host-control.md
+  - name: การจัดการหน้าต่าง
+    items:
+    - name: ย้ายโค้ดเมนูบริบท
+      href: migration-upgrade/code-migration-context-menus.md
+    - name: ย้ายตรรกะการดับเบิลคลิกเมาส์
+      href: migration-upgrade/code-migration-double-click.md
+    - name: การป้อนข้อมูลบริบทสำหรับการค้นหา
+      href: user-interface/contextual-data-entry-lookups.md
+    - name: ตัวควบคุม HierarchyViewer
+      href: user-interface/hierarchy-viewer-control.md
+    - name: ตัวควบคุมการค้นหา
+      href: user-interface/lookups-controls.md
+    - name: ตัวควบคุมการอัพโหลดไฟล์
+      href: user-interface/file-upload-control.md
+    - name: ปุ่มที่ระบบกำหนด
+      href: user-interface/system-defined-buttons.md
+    - name: รูปภาพในเพจหรือในกริด
+      href: user-interface/images-form-grid.md
+    - name: สีของแบบอักษรและพื้นหลังสำหรับการป้อนข้อมูล และตัวควบคุมกริด
+      href: user-interface/specify-color-font-background-controls.md
+    - name: การสนับสนุนภาษาแบบขวาไปซ้ายและข้อความแบบสองทิศทาง
+      href: user-interface/bidirectional-support.md
+    - name: สร้างไอคอนสำหรับไทล์พื้นที่ทำงาน
+      href: user-interface/create-icons-workspace-tiles.md
+    - name: Public JavaScript APIs สำหรับตัวควบคุมที่ขยายได้
+      href: user-interface/public-javascript-apis.md
+    - name: รายการตรวจสอบตัวควบคุม
+      href: user-interface/control-checklist.md
+  - name: ข้อความ
+    items:
+    - name: ตัวเลื่อนและกล่องโต้ตอบ MessageBox
+      href: user-interface/slider-messagebox.md
+    - name: ศูนย์ข้อความ แถบข้อความ และ API รายละเอียดข้อความ
+      href: user-interface/messaging-api-center-bar-details.md
+    - name: FAQ เกี่ยวกับศูนย์ข้อความ แถบข้อความ และรายละเอียดข้อความ
+      href: user-interface/messaging-user.md
+  - name: คำแนะนำรูปแบบของฟอร์มหลัก
+    items:
+    - name: รูปแบบของฟอร์มสำหรับฟอร์มที่ย้าย
+      href: user-interface/select-form-pattern.md
+    - name: สไตล์และรูปแบบของแบบฟอร์ม
+      href: user-interface/form-styles-patterns.md
+    - name: Add-in ของ Visual Studio ที่รองรับรูปแบบของแบบฟอร์ม
+      href: user-interface/form-pattern-add-ins.md
+  - name: รูปแบบของแบบฟอร์ม
+    items:
+    - name: คำแนะนำแบบฟอร์มทั่วไป
+      href: user-interface/general-form-guidelines.md
+    - name: รูปแบบของแบบฟอร์มรายละเอียดต้นแบบ
+      href: user-interface/details-master-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มรายละเอียดธุรกรรม
+      href: user-interface/details-transaction-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มรายการส่วนของแบบฟอร์ม
+      href: user-interface/section-list-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มหน้ารายการ
+      href: user-interface/list-page-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มรายละเอียดแบบง่าย
+      href: user-interface/simple-details-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มรายการและรายละเอียดแบบง่าย
+      href: user-interface/simple-list-details-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มรายการแบบง่าย
+      href: user-interface/simple-list-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มสารบัญ
+      href: user-interface/table-of-contents-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มสองงาน
+      href: user-interface/task-double-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มงานเดี่ยว
+      href: user-interface/task-single-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มวิซาร์ด
+      href: user-interface/wizard-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มพื้นที่ทำงาน
+      href: user-interface/workspace-form-pattern.md
+  - name: รูปแบบของแบบฟอร์มรายการรอง
+    items:
+    - name: รูปแบบของแบบฟอร์มการเลือกขั้นสูง
+      href: user-interface/advanced-selection-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มกล่องโต้ตอบ
+      href: user-interface/dialog-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มกล่องโต้ตอบการวาง
+      href: user-interface/drop-dialog-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มการค้นหา
+      href: user-interface/lookup-form-pattern.md
+    - name: รูปแบบของแบบฟอร์มกล่องแสดงข้อมูลย่อ
+      href: user-interface/factbox-form-patterns.md
+  - name: รูปแบบย่อย
+    items:
+    - name: รูปแบบย่อยของกลุ่มตัวกรองที่กำหนดเอง
+      href: user-interface/custom-filter-group-subpattern.md
+    - name: รูปแบบย่อยของตัวควบคุมการป้อนมิติ
+      href: financial/dimension-entry-control-subpattern.md
+    - name: รูปแบบย่อยของตัวสร้างนิพจน์มิติ
+      href: financial/dimension-expression-builder-subpattern.md
+    - name: รูปแบบย่อยของฟิลด์และกลุ่มฟิลด์
+      href: user-interface/fields-field-groups-subpattern.md
+    - name: รูปแบบย่อยของตัวกรองและแถบเครื่องมือ
+      href: user-interface/filters-toolbar-subpattern.md
+    - name: รูปแบบย่อยของข้อความเติม
+      href: user-interface/fill-text-subpattern.md
+    - name: รูปแบบย่อยของฟิลด์และปุ่มแนวนอน
+      href: user-interface/horizontal-fields-buttons-group-subpattern.md
+    - name: รูปแบบย่อยของการแสดงตัวอย่างรูปภาพ
+      href: user-interface/image-preview-subpattern.md
+    - name: รูปแบบของแผงรายการ
+      href: user-interface/list-panel-subpattern.md
+    - name: รูปแบบย่อยของรายการและรายละเอียดแบบง่ายที่ซ้อนกัน
+      href: user-interface/nested-simple-list-details-subpattern.md
+    - name: รูปแบบของแบบฟอร์มแผนภูมิส่วน
+      href: user-interface/section-chart-form-pattern.md
+    - name: รูปแบบย่อย Power BI ของส่วน
+      href: user-interface/section-powerbi-subpattern.md
+    - name: รูปแบบย่อยของลิงก์ที่เกี่ยวข้องกับส่วน
+      href: user-interface/section-related-links-subpattern.md
+    - name: รูปแบบย่อยของแผนภูมิที่ซ้อนกันของส่วน
+      href: user-interface/section-stacked-chart-subpattern.md
+    - name: รูปแบบย่อยของรายการแท็บของส่วน
+      href: user-interface/section-tabbed-list-subpattern.md
+    - name: รูปแบบย่อยของไทล์ของส่วน
+      href: user-interface/section-tiles-subpattern.md
+    - name: รูปแบบย่อยของฟิลด์ตาราง
+      href: user-interface/tabular-fields-subpattern.md
+    - name: รูปแบบย่อยของแถบเครื่องมือและฟิลด์
+      href: user-interface/toolbar-fields-subpattern.md
+    - name: รูปแบบย่อยของแถบเครื่องมือและรายการ
+      href: user-interface/toolbar-list-subpattern.md
+    - name: รูปแบบย่อยของกลุ่มตัวกรองหน้าพื้นที่ทำงาน
+      href: user-interface/workspace-filter-group-subpattern.md
+  - name: ความสามารถในการเพิ่มฟังก์ชันตัวควบคุม
+    items:
+    - name: สร้างตัวควบคุมที่ขยายได้
+      href: user-interface/build-extensible-control.md
+    - name: แป้นพิมพ์ลัดสำหรับตัวควบคุมที่ขยายได้
+      href: user-interface/keyboard-shortcuts-controls.md
+    - name: การอ้างอิงการเขียนโปรแกรมตัวควบคุมที่ขยายได้
+      href: user-interface/extensible-control-programming-reference.md
+    - name: ความสามารถในการเพิ่มฟังก์ชันตัวควบคุม
+      href: user-interface/control-extensibility.md
+    - name: สร้างป้ายชื่อที่แปลเป็นภาษาท้องถิ่นได้
+      href: user-interface/create-localizable-labels-client.md
+    - name: คำแนะนำโครงร่างตัวควบคุมที่ขยายได้
+      href: user-interface/extensible-controls-layout.md
+    - name: ควบคุมข้อความที่ตัวบันทึกงานสร้างสำหรับตัวควบคุม
+      href: user-interface/task-recorder-control-text.md
+  - name: สร้างพื้นที่ทำงาน
+    items:
+    - name: สร้างพื้นที่ทำงานในการดำเนินงาน
+      href: user-interface/build-workspaces.md
+    - name: การแคชไทล์และรายการสำหรับพื้นที่ทำงาน
+      href: user-interface/tile-list-caching-workspaces.md
+  - name: ตัวบันทึกงาน
+    href: user-interface/task-recorder.md
+    items:
+    - name: การอ้างอิงด่วนของตัวบันทึกงาน
+      href: user-interface/task-recorder-quick-reference.md
+    - name: สร้างเอกสารหรือการฝึกอบรมด้วยตัวบันทึกงาน
+      href: user-interface/task-recorder-training-docs.md
 - name: แพลตฟอร์มเคลื่อนที่
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: เริ่มต้นใช้งาน
-      href: mobile-apps/platform/mobile-platform-getting-started.md
+  - name: เริ่มต้นใช้งาน
+    href: mobile-apps/platform/mobile-platform-getting-started.md
+    items:
+    - name: ข้อควรพิจารณาเกี่ยวกับสถาปัตยกรรมและการออกแบบ
+      href: mobile-apps/platform/mobile-platform-architecture.md
+    - name: เหตุการณ์ตรรกะทางธุรกิจ
+      href: mobile-apps/platform/business-logic-events-overview.md
+    - name: แนวทางการออกแบบหน้า
+      href: mobile-apps/platform/page-design-guidelines.md
+    - name: แนวทางการออกแบบการดำเนินการ
+      href: mobile-apps/platform/action-design-guidelines.md
+    - name: แนวทางการออกแบบแบบฟอร์ม
+      href: mobile-apps/platform/form-design-requirements.md
+  - name: งานทั่วไป
+    items:
+    - name: ตั้งค่าคอนฟิกพื้นที่ทำงานโดยใช้คลาส SysAppWorkspace
+      href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+    - name: กำหนดฟิลด์เป็นแบบคลิกได้ในหน้าของแอปสำหรับอุปกรณ์เคลื่อนที่
+      href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+    - name: แสดงจำนวนในฟิลด์
+      href: mobile-apps/platform/scenarios/display-count-workspace.md
+    - name: ช่วยรักษาความปลอดภัยของพื้นที่ทำงานบนมือถือ
+      href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+    - name: แปลพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่เป็นภาษาท้องถิ่น
+      href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+    - name: ทำให้เป็นฟิลด์บังคับโดยใช้คลาสของพื้นที่ทำงาน
+      href: mobile-apps/platform/scenarios/make-field-mandatory.md
+  - name: การอ้างอิงของการพัฒนาฝั่งเซิร์ฟเวอร์
+    items:
+    - name: การพัฒนาฝั่งเซิร์ฟเวอร์ (พื้นที่ทำงาน X++ API)
+      href: mobile-apps/platform/mobile-workspace-server-apis.md
+  - name: การอ้างอิงของการพัฒนาฝั่งไคลเอนต์
+    items:
+    - name: API การออกแบบฝั่งไคลเอนต์
+      href: mobile-apps/platform/scenarios/client-api-design-overview.md
+    - name: API ของไคลเอนต์
+      href: mobile-apps/platform/client-apis/client-apis-reference.md
       items:
-        - name: ข้อควรพิจารณาเกี่ยวกับสถาปัตยกรรมและการออกแบบ
-          href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: เหตุการณ์ตรรกะทางธุรกิจ
-          href: mobile-apps/platform/business-logic-events-overview.md
-        - name: แนวทางการออกแบบหน้า
-          href: mobile-apps/platform/page-design-guidelines.md
-        - name: แนวทางการออกแบบการดำเนินการ
-          href: mobile-apps/platform/action-design-guidelines.md
-        - name: แนวทางการออกแบบแบบฟอร์ม
-          href: mobile-apps/platform/form-design-requirements.md
-    - name: งานทั่วไป
-      items:
-        - name: ตั้งค่าคอนฟิกพื้นที่ทำงานโดยใช้คลาส SysAppWorkspace
-          href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-        - name: กำหนดฟิลด์เป็นแบบคลิกได้ในหน้าของแอพบนมือถือ
-          href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
-        - name: แสดงจำนวนในฟิลด์
-          href: mobile-apps/platform/scenarios/display-count-workspace.md
-        - name: ช่วยรักษาความปลอดภัยของพื้นที่ทำงานบนมือถือ
-          href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-        - name: แปลพื้นที่ทำงานแบบเคลื่อนที่เป็นภาษาท้องถิ่น
-          href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-        - name: ทำให้เป็นฟิลด์บังคับโดยใช้คลาสของพื้นที่ทำงาน
-          href: mobile-apps/platform/scenarios/make-field-mandatory.md
-    - name: การอ้างอิงของการพัฒนาฝั่งเซิร์ฟเวอร์
-      items:
-        - name: การพัฒนาฝั่งเซิร์ฟเวอร์ (พื้นที่ทำงาน X++ API)
-          href: mobile-apps/platform/mobile-workspace-server-apis.md
-    - name: การอ้างอิงของการพัฒนาฝั่งไคลเอนต์
-      items:
-        - name: API การออกแบบฝั่งไคลเอนต์
-          href: mobile-apps/platform/scenarios/client-api-design-overview.md
-        - name: API ของไคลเอนต์
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
-          items:
-            - name: การแจงนับ PageState
-              href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
-            - name: โมดูลแอพลิเคชัน
-              href: mobile-apps/platform/client-apis/modules/services-application.md
-            - name: โมดูลเลื่อนเวลา
-              href: mobile-apps/platform/client-apis/modules/defer.md
-            - name: โมดูลเหตุการณ์
-              href: mobile-apps/platform/client-apis/modules/event-ievent.md
-            - name: โมดูลการควบคุม
-              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-            - name: โมดูลคอนเทนเนอร์
-              href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
-            - name: โมดูลฟิลด์
-              href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
-            - name: โมดูลตัวอัพโหลดไฟล์
-              href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
-            - name: โมดูลกลุ่ม
-              href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
-            - name: โมดูลไฮเปอร์ลิงก์
-              href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
-            - name: โมดูลรูปภาพ
-              href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
-            - name: โมดูลป้อนข้อมูล
-              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
-            - name: โมดูลรายการ
-              href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
-            - name: โมดูลค้นหา
-              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
-            - name: โมดูลค้นหาหลายรายการ
-              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
-            - name: โมดูลหน้า
-              href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
-            - name: โมดูล Pagelink
-              href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
-            - name: โมดูลส่วนประกอบ
-              href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
-            - name: โมดูลบริการ
-              href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
-            - name: โมดูลค่า
-              href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
-            - name: ชนิดของแอพลิเคชัน
-              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
-            - name: ชนิดของ ApplicationMetadata
-              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
-            - name: ชนิดของ AsyncService
-              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
-            - name: ชนิดของ CacheService
-              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
-            - name: ชนิดของ CompleteEventArgs
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
-            - name: ชนิดของ ContainerControl
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
-            - name: ชนิดของ ContainerControlDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
-            - name: ชนิดของ ContainerControlMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
-            - name: ชนิดของ ControlMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
-            - name: ชนิดของ DataService
-              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-            - name: ชนิดของการรอการตัดบัญชี<T>
-              href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
-            - name: ชนิดของการออกแบบ
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-            - name: ชนิดของ EventHook<T>
-              href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
-            - name: ชนิดของฟิลด์
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
-            - name: ชนิดของ FieldDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
-            - name: ชนิดของ FieldMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
-            - name: ชนิดของ FileUploader
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
-            - name: ชนิดของ FileUploaderDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
-            - name: ชนิดของ FileUploaderMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
-            - name: ชนิดของ GenericValue
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
-            - name: ชนิดของ getDataSource
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
-            - name: ชนิดของกลุ่ม
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
-            - name: ชนิดของ GroupDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
-            - name: ชนิดของ GroupMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
-            - name: ชนิดของ HyperLink
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
-            - name: ชนิดของ HyperLinkDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
-            - name: ชนิดของ HyperLinkMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
-            - name: ชนิดของรูปภาพ
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
-            - name: ชนิดของ ImageDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
-            - name: ชนิดของ ImageMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
-            - name: ชนิดของ InputControl
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
-            - name: ชนิดของ InputControlDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
-            - name: ชนิดของ InputControlMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
-            - name: ชนิดของรายการ
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
-            - name: ชนิดของ ListDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
-            - name: ชนิดของ ListMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
-            - name: ชนิดการค้นหา
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
-            - name: ชนิดของ LookupDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
-            - name: ชนิดของ LookupMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
-            - name: ชนิดของ MetadataService
-              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
-            - name: ชนิดของ MultiLookup
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
-            - name: ชนิดของ MultiLookupDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
-            - name: ชนิดของ MultiLookupMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
-            - name: ชนิดของ NavigationArgs
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
-            - name: ชนิดของ NumberSequenceConfig
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
-            - name: ชนิดหน้า
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
-            - name: ชนิดของ PageData
-              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
-            - name: ชนิดของ PageLink
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
-            - name: ชนิดของ PageLinkDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
-            - name: ชนิดของ PageLinkMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
-            - name: ชนิดของ PageMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
-            - name: ชนิดของ PageOptions
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
-            - name: ชนิดของ PageSubmitArgs
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
-            - name: ชนิดของ PageTarget
-              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
-            - name: ชนิดของส่วนประกอบ
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
-            - name: ชนิดของ PartDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
-            - name: ชนิดของ PartMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-            - name: ชนิดของแถว
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-            - name: ชนิดค่า
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
-            - name: ชนิดของ ValueDesign
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
-            - name: ชนิดของ ValueMetadata
-              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+      - name: การแจงนับ PageState
+        href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+      - name: โมดูลแอปพลิเคชัน
+        href: mobile-apps/platform/client-apis/modules/services-application.md
+      - name: โมดูลเลื่อนเวลา
+        href: mobile-apps/platform/client-apis/modules/defer.md
+      - name: โมดูลเหตุการณ์
+        href: mobile-apps/platform/client-apis/modules/event-ievent.md
+      - name: โมดูลการควบคุม
+        href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+      - name: โมดูลคอนเทนเนอร์
+        href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+      - name: โมดูลฟิลด์
+        href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+      - name: โมดูลตัวอัพโหลดไฟล์
+        href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+      - name: โมดูลกลุ่ม
+        href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+      - name: โมดูลไฮเปอร์ลิงก์
+        href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+      - name: โมดูลรูปภาพ
+        href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+      - name: โมดูลป้อนข้อมูล
+        href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+      - name: โมดูลรายการ
+        href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+      - name: โมดูลค้นหา
+        href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+      - name: โมดูลค้นหาหลายรายการ
+        href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+      - name: โมดูลหน้า
+        href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+      - name: โมดูล Pagelink
+        href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+      - name: โมดูลส่วนประกอบ
+        href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+      - name: โมดูลบริการ
+        href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+      - name: โมดูลค่า
+        href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+      - name: ชนิดของแอปพลิเคชัน
+        href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+      - name: ชนิดของ ApplicationMetadata
+        href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+      - name: ชนิดของ AsyncService
+        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+      - name: ชนิดของ CacheService
+        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+      - name: ชนิดของ CompleteEventArgs
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+      - name: ชนิดของ ContainerControl
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+      - name: ชนิดของ ContainerControlDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+      - name: ชนิดของ ContainerControlMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+      - name: ชนิดของ ControlMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+      - name: ชนิดของ DataService
+        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+      - name: ชนิดของการรอการตัดบัญชี<T>
+        href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+      - name: ชนิดของการออกแบบ
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+      - name: ชนิดของ EventHook<T>
+        href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+      - name: ชนิดของฟิลด์
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+      - name: ชนิดของ FieldDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+      - name: ชนิดของ FieldMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+      - name: ชนิดของ FileUploader
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+      - name: ชนิดของ FileUploaderDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+      - name: ชนิดของ FileUploaderMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+      - name: ชนิดของ GenericValue
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+      - name: ชนิดของ getDataSource
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+      - name: ชนิดของกลุ่ม
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+      - name: ชนิดของ GroupDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+      - name: ชนิดของ GroupMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+      - name: ชนิดของ HyperLink
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+      - name: ชนิดของ HyperLinkDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+      - name: ชนิดของ HyperLinkMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+      - name: ชนิดของรูปภาพ
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+      - name: ชนิดของ ImageDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+      - name: ชนิดของ ImageMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+      - name: ชนิดของ InputControl
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+      - name: ชนิดของ InputControlDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+      - name: ชนิดของ InputControlMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+      - name: ชนิดของรายการ
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+      - name: ชนิดของ ListDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+      - name: ชนิดของ ListMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+      - name: ชนิดการค้นหา
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+      - name: ชนิดของ LookupDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+      - name: ชนิดของ LookupMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+      - name: ชนิดของ MetadataService
+        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+      - name: ชนิดของ MultiLookup
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+      - name: ชนิดของ MultiLookupDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+      - name: ชนิดของ MultiLookupMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+      - name: ชนิดของ NavigationArgs
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+      - name: ชนิดของ NumberSequenceConfig
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+      - name: ชนิดหน้า
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+      - name: ชนิดของ PageData
+        href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+      - name: ชนิดของ PageLink
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+      - name: ชนิดของ PageLinkDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+      - name: ชนิดของ PageLinkMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+      - name: ชนิดของ PageMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+      - name: ชนิดของ PageOptions
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+      - name: ชนิดของ PageSubmitArgs
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+      - name: ชนิดของ PageTarget
+        href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+      - name: ชนิดของส่วนประกอบ
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+      - name: ชนิดของ PartDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+      - name: ชนิดของ PartMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+      - name: ชนิดของแถว
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+      - name: ชนิดค่า
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+      - name: ชนิดของ ValueDesign
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+      - name: ชนิดของ ValueMetadata
+        href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: ข้อบังคับทั่วไปเกี่ยวกับการคุ้มครองข้อมูล (GDPR)
   href: gdpr/gdpr-guide.md
   items:
-    - name: ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR
-      href: gdpr/gdpr-home-page.md
-      items:
-        - name: การจัดประเภทสินทรัพย์
-          href: gdpr/gdpr-asset-classification-values.md
-        - name: รายงานการค้นหาบุคคล
-          href: gdpr/gdpr-person-search-report.md
-        - name: ขยายรายงานการค้นหาบุคคล
-          href: gdpr/gdpr-extend-person-search-report.md
-        - name: จัดการการเข้าถึงข้อมูลที่สำคัญ
-          href: gdpr/gdpr-auditing-sensitive-data.md
-        - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
-          href: gdpr/respond-dsr-request-talent.md
-        - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใน AX 2012
-          href: gdpr/gdpr-ax2012.md
-        - name: คำขอข้อมูล GDPR สำหรับ LCS
-          href: gdpr/gdpr-lcs.md
+  - name: ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR
+    href: gdpr/gdpr-home-page.md
+    items:
+    - name: การจัดประเภทสินทรัพย์
+      href: gdpr/gdpr-asset-classification-values.md
+    - name: รายงานการค้นหาบุคคล
+      href: gdpr/gdpr-person-search-report.md
+    - name: ขยายรายงานการค้นหาบุคคล
+      href: gdpr/gdpr-extend-person-search-report.md
+    - name: จัดการการเข้าถึงข้อมูลที่สำคัญ
+      href: gdpr/gdpr-auditing-sensitive-data.md
+    - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
+      href: gdpr/respond-dsr-request-talent.md
+    - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใน AX 2012
+      href: gdpr/gdpr-ax2012.md
+    - name: คำขอข้อมูล GDPR สำหรับ LCS
+      href: gdpr/gdpr-lcs.md
 - name: การจัดส่งแบบต่อเนื่อง
   href: dev-tools/continuous-delivery-home-page.md
   items:
-    - name: FAQ เกี่ยวกับการพัฒนาและการจัดส่งแบบต่อเนื่อง
-      href: dev-tools/continuous-delivery-faq.md
-    - name: ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์
-      href: dev-tools/exclude-test-packages.md
-    - name: จัดการแบบจำลองของบุคคลที่สามและแพคเกจรันไทม์โดยใช้การควบคุมต้นทาง
-      href: dev-tools/manage-runtime-packages.md
-    - name: อัพเดตรุ่นของแบบจำลองในบิลด์แบบอัตโนมัติ
-      href: dev-tools/version-models-build.md
+  - name: FAQ เกี่ยวกับการพัฒนาและการจัดส่งแบบต่อเนื่อง
+    href: dev-tools/continuous-delivery-faq.md
+  - name: ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์
+    href: dev-tools/exclude-test-packages.md
+  - name: จัดการแบบจำลองของบุคคลที่สามและแพคเกจรันไทม์โดยใช้การควบคุมต้นทาง
+    href: dev-tools/manage-runtime-packages.md
+  - name: อัปเดตรุ่นของแบบจำลองในบิลด์แบบอัตโนมัติ
+    href: dev-tools/version-models-build.md
 - name: นำโซลูชันออกใช้โดยใช้ Lifecycle Services
   items:
-    - name: พัฒนาและนำออกใช้
-      href: lcs-solutions/lcs-solutions-app-source.md
-    - name: ขั้นและการเผยแพร่
-      href: lcs-solutions/marketing-content-lcs-solutions.md
-    - name: เพิ่มระเบียบวิธี
-      href: lcs-solutions/methodologies-lcs-solutions.md
-    - name: ตั้งค่าไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
-    - name: ย้ายโค้ด
-      href: lcs-solutions/code-migration-lcs-solutions.md
-    - name: ตรวจสอบความถูกต้องของแอพพลิเคชัน
-      href: lcs-solutions/app-validation-lcs-solutions.md
-    - name: ประมวลผลและใช้แพคเกจข้อมูล
-      href: lcs-solutions/process-data-packages-lcs-solutions.md
-    - name: ทำสำเนาสำรองฐานข้อมูลโซลูชัน
-      href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: คุณลักษณะการทำงานเฉพาะและบังคับ
-      href: lcs-solutions/country-region.md
-      items:
-        - name: การจัดประเภทคุณลักษณะการทำงานเฉพาะ
-          href: lcs-solutions/classify-localization-features.md
-        - name: ใช้บริบทประเทศ/ภูมิภาค
-          href: lcs-solutions/apply-country-context.md
-        - name: ข้อมูลการรับรองที่เป็นระเบียบบังคับในชื่อคุณสมบัติ
-          href: lcs-solutions/regulatory-certifications.md
-        - name: การอัพเดตที่เป็นระเบียบบังคับ
-          href: lcs-solutions/regulatory-watch-communication.md
-        - name: การแยกแบบจำลองการแปลเป็นภาษาท้องถิ่น
-          href: lcs-solutions/separate-localization-models.md
-        - name: ส่งการแจ้งเตือนที่เป็นระเบียบข้อบังคับ
-          href: lcs-solutions/submit-localization-alerts.md
+  - name: พัฒนาและนำออกใช้
+    href: lcs-solutions/lcs-solutions-app-source.md
+  - name: ขั้นและการเผยแพร่
+    href: lcs-solutions/marketing-content-lcs-solutions.md
+  - name: เพิ่มระเบียบวิธี
+    href: lcs-solutions/methodologies-lcs-solutions.md
+  - name: ตั้งค่าไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+  - name: ย้ายโค้ด
+    href: lcs-solutions/code-migration-lcs-solutions.md
+  - name: ตรวจสอบความถูกต้องของแอปพลิเคชัน
+    href: lcs-solutions/app-validation-lcs-solutions.md
+  - name: ประมวลผลและใช้แพคเกจข้อมูล
+    href: lcs-solutions/process-data-packages-lcs-solutions.md
+  - name: ทำสำเนาสำรองฐานข้อมูลโซลูชัน
+    href: lcs-solutions/database-backup-lcs-solutions.md
+  - name: คุณลักษณะการทำงานเฉพาะและบังคับ
+    href: lcs-solutions/country-region.md
+    items:
+    - name: การจัดประเภทคุณลักษณะการทำงานเฉพาะ
+      href: lcs-solutions/classify-localization-features.md
+    - name: ใช้บริบทประเทศ/ภูมิภาค
+      href: lcs-solutions/apply-country-context.md
+    - name: ข้อมูลการรับรองที่เป็นระเบียบบังคับในชื่อคุณสมบัติ
+      href: lcs-solutions/regulatory-certifications.md
+    - name: การอัปเดตที่เป็นระเบียบบังคับ
+      href: lcs-solutions/regulatory-watch-communication.md
+    - name: การแยกแบบจำลองการแปลเป็นภาษาท้องถิ่น
+      href: lcs-solutions/separate-localization-models.md
+    - name: ส่งการแจ้งเตือนที่เป็นระเบียบข้อบังคับ
+      href: lcs-solutions/submit-localization-alerts.md
 - name: การพัฒนาทางการเงิน
   href: financial/financial-dev-home-page.md
   items:
-    - name: การสนับสนุนสำหรับรูปแบบมิติที่แตกต่างกัน
-      href: financial/dimensions.md
-    - name: เพิ่มมิติในเท็มเพลต Excel
-      href: financial/dimensions-overview.md
-    - name: การสนับสนุนสำหรับตัวควบคุมการป้อนมิติในกล่องโต้ตอบ
-      href: financial/dimension-entry-control-dialog-support.md
-    - name: ย้ายตัวควบคุมมิติค่าเริ่มต้นไปยังiตัวควบคุมการป้อนมิติ
-      href: financial/dimension-entry-control-migration.md
-    - name: การใช้ตัวควบคุมการป้อนมิติ
-      href: financial/dimension-entry-control-uptake.md
-    - name: รูปแบบย่อยของตัวสร้างนิพจน์มิติ
-      href: financial/dimension-expression-builder-subpattern.md
-    - name: การตั้งค่าคอนฟิกมิติทางการเงิน
-      href: financial/financial-dimension-configuration-integration.md
-    - name: การเปิดใช้งานมิติทางการเงิน
-      href: financial/activate-financial-dimensions.md
-    - name: มิติทางการเงินและบัญชีหลักในภาษาที่เรียงจากขวาไปซ้าย
-      href: financial/financial-dimensions-main-accounts-right-left-language.md
-    - name: ทำให้ตารางสนับสนุนใช้เป็นมิติทางการเงินได้
-      href: financial/dimensionable-entities.md
-    - name: ย้ายตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
-      href: financial/segmented-entry-control-conversion.md
-    - name: การสนับสนุนสำหรับตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์ในกล่องโต้ตอบ
-      href: financial/segmented-entry-control-dialog-support.md
-    - name: ข้อมูลเมตาเวลาการออกแบบสำหรับตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
-      href: financial/segmented-entry-control-metadata-specification.md
-    - name: คำแนะนำการย้ายของตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
-      href: financial/segmented-entry-control-migration-guidance.md
-    - name: วิธีการ parm สำหรับตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
-      href: financial/segmented-entry-control-parm-method-specification.md
-    - name: เพิ่มการค้นหาค่าสำหรับมิติทางการเงินไปยังเท็มเพลต Excel
-      href: financial/add-dimensions-excel-templates.md
-    - name: สร้างตัวให้บริการอัตราแลกเปลี่ยน
-      href: financial/create-exchange-rate-providers.md
-    - name: สร้างตัวให้บริการอัตราแลกเปลี่ยนใน Finance and Operations รุ่น 8.0
-      href: financial/create-exchange-rate-8.md
+  - name: การสนับสนุนสำหรับรูปแบบมิติที่แตกต่างกัน
+    href: financial/dimensions.md
+  - name: เพิ่มมิติในเท็มเพลต Excel
+    href: financial/dimensions-overview.md
+  - name: การสนับสนุนสำหรับตัวควบคุมการป้อนมิติในกล่องโต้ตอบ
+    href: financial/dimension-entry-control-dialog-support.md
+  - name: ย้ายตัวควบคุมมิติค่าเริ่มต้นไปยังiตัวควบคุมการป้อนมิติ
+    href: financial/dimension-entry-control-migration.md
+  - name: การใช้ตัวควบคุมการป้อนมิติ
+    href: financial/dimension-entry-control-uptake.md
+  - name: รูปแบบย่อยของตัวสร้างนิพจน์มิติ
+    href: financial/dimension-expression-builder-subpattern.md
+  - name: การตั้งค่าคอนฟิกมิติทางการเงิน
+    href: financial/financial-dimension-configuration-integration.md
+  - name: การเปิดใช้งานมิติทางการเงิน
+    href: financial/activate-financial-dimensions.md
+  - name: มิติทางการเงินและบัญชีหลักในภาษาที่เรียงจากขวาไปซ้าย
+    href: financial/financial-dimensions-main-accounts-right-left-language.md
+  - name: ทำให้ตารางสนับสนุนใช้เป็นมิติทางการเงินได้
+    href: financial/dimensionable-entities.md
+  - name: ย้ายตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
+    href: financial/segmented-entry-control-conversion.md
+  - name: การสนับสนุนสำหรับตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์ในกล่องโต้ตอบ
+    href: financial/segmented-entry-control-dialog-support.md
+  - name: ข้อมูลเมตาเวลาการออกแบบสำหรับตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
+    href: financial/segmented-entry-control-metadata-specification.md
+  - name: คำแนะนำการย้ายของตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
+    href: financial/segmented-entry-control-migration-guidance.md
+  - name: วิธีการ parm สำหรับตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
+    href: financial/segmented-entry-control-parm-method-specification.md
+  - name: เพิ่มการค้นหาค่าสำหรับมิติทางการเงินไปยังเท็มเพลต Excel
+    href: financial/add-dimensions-excel-templates.md
+  - name: สร้างตัวให้บริการอัตราแลกเปลี่ยน
+    href: financial/create-exchange-rate-providers.md
+  - name: สร้างตัวให้บริการอัตราแลกเปลี่ยนใน Finance and Operations รุ่น 8.0
+    href: financial/create-exchange-rate-8.md
 - name: การพัฒนาห่วงโซ่อุปทาน
   items:
-    - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt
-      href: user-interface/gantt-development-guide.md
-    - name: สร้างกลไกจัดการการจัดการขนส่งใหม่
-      href: ../supply-chain/transportation/create-new-transportation-management-engine.md
+  - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt
+    href: user-interface/gantt-development-guide.md
+  - name: สร้างกลไกจัดการการจัดการขนส่งใหม่
+    href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: การปรับใช้
   items:
-    - name: ปรับใช้สภาพแวดล้อมสาธิต
-      href: deployment/deploy-demo-environment.md
-    - name: การปรับใช้ระบบคลาวด์
+  - name: ปรับใช้สภาพแวดล้อมสาธิต
+    href: deployment/deploy-demo-environment.md
+  - name: การปรับใช้ระบบคลาวด์
+    items:
+    - name: การปรับใช้แบบบริการตนเอง
+      href: deployment/infrastructure-stack.md
       items:
-        - name: การปรับใช้แบบบริการตนเอง
-          href: deployment/infrastructure-stack.md
-          items:
-            - name: ปรับใช้สภาพแวดล้อมใหม่
-              href: deployment/deployenvironment-newinfrastructure.md
-            - name: คำถามที่พบบ่อยเกี่ยวกับการปรับใช้
-              href: deployment/deploymentFAQ.md
-            - name: ปัญหาที่ทราบเกี่ยวกับการปรับใช้แบบบริการตนเอง
-              href: deployment/known-issues-new-deployment-experience.md
-            - name: การดำเนินการบำรุงรักษาสำหรับการปรับใช้
-              href: deployment/maintenanceoperationsguide-newinfrastructure.md
-            - name: อัพเดตสภาพแวดล้อม
-              href: deployment/updateenvironment-newinfrastructure.md
-            - name: แก้ไขปัญหาสภาพแวดล้อมที่ปรับใช้ผ่านการปรับใช้แบบบริการตนเอง
-              href: deployment/troubleshoot-newinfrastructure.md
-        - name: ทำให้การเตรียมความพร้อมสำหรับผู้จัดการทรัพยากร Azure เสร็จสมบูรณ์
-          href: deployment/arm-onboarding.md
-        - name: Azure ExpressRoute และ Finance and Operations
-          href: deployment/expressroute.md
-        - name: สถาปัตยกรรม Finance and Operations
-          href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
-        - name: ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์
-          href: deployment/apply-deployable-package-system.md
-        - name: ใช้การอัพเดตและส่วนขยายกับส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
-          href: deployment/Update-retail-channel.md
-        - name: เริ่มต้นส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
-          href: deployment/Initialize-Retail-Channels.md
-    - name: การปรับใช้ในองค์กร
-      href: deployment/on-premises-deployment-landing-page.md
+      - name: ปรับใช้สภาพแวดล้อมใหม่
+        href: deployment/deployenvironment-newinfrastructure.md
+      - name: คำถามที่พบบ่อยเกี่ยวกับการปรับใช้
+        href: deployment/deploymentFAQ.md
+      - name: ปัญหาที่ทราบเกี่ยวกับการปรับใช้แบบบริการตนเอง
+        href: deployment/known-issues-new-deployment-experience.md
+      - name: การดำเนินการบำรุงรักษาสำหรับการปรับใช้
+        href: deployment/maintenanceoperationsguide-newinfrastructure.md
+      - name: อัปเดตสภาพแวดล้อม
+        href: deployment/updateenvironment-newinfrastructure.md
+      - name: แก้ไขปัญหาสภาพแวดล้อมที่ปรับใช้ผ่านการปรับใช้แบบบริการตนเอง
+        href: deployment/troubleshoot-newinfrastructure.md
+    - name: ทำให้การเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
+      href: deployment/arm-onboarding.md
+    - name: Azure ExpressRoute และ Finance and Operations
+      href: deployment/expressroute.md
+    - name: สถาปัตยกรรม Finance and Operations
+      href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+    - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
+      href: deployment/apply-deployable-package-system.md
+    - name: ใช้การอัปเดตและส่วนขยายกับส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
+      href: deployment/Update-retail-channel.md
+    - name: เริ่มต้นส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
+      href: deployment/Initialize-Retail-Channels.md
+  - name: การปรับใช้ในองค์กร
+    href: deployment/on-premises-deployment-landing-page.md
+    items:
+    - name: ตัวเลือกการปรับใช้ในองค์กร
+      href: deployment/on-premises-overview.md
+    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
+      href: deployment/plan-onprem-deployment.md
+    - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
+      href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+    - name: ตั้งค่าโครงการแบบในสถานที่
+      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
+      href: deployment/setup-deploy-on-premises-environments.md
       items:
-        - name: ตัวเลือกการปรับใช้ในองค์กร
-          href: deployment/on-premises-overview.md
-        - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
-          href: deployment/plan-onprem-deployment.md
-        - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
-          href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: ตั้งค่าโครงการแบบในสถานที่
-          href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-        - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
-          href: deployment/setup-deploy-on-premises-environments.md
-          items:
-            - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 และรุ่นที่ใหม่กว่า)
-              href: deployment/setup-deploy-on-premises-pu12.md
-            - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 8 และ 11)
-              href: deployment/setup-deploy-on-premises-pu8-pu11.md
-            - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทางการขายปลีกในสภาพแวดล้อมในสถานที่
-              href: deployment/deploy-retail-onprem.md
-        - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
-          href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมในสถานที่
-          href: deployment/onprem-reverseproxy.md
-        - name: ใช้การอัพเดตกับการปรับใช้ในสถานที่
-          href: deployment/apply-updates-on-premises.md
-        - name: การวินิจฉัยแบบในสถานที่
-          href: deployment/on-premises-diagnostics.md
-        - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
-          href: deployment/redeploy-on-prem.md
-        - name: อัพเดตเอเจนต์ภายในเครื่อง
-          href: lifecycle-services/update-local-agent.md
-        - name: ตั้งค่าคอนฟิกสภาพแวดล้อมใหม่
-          href: lifecycle-services/reconfigure-environment.md
-        - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์
-          href: user-interface/client-disconnected.md
-        - name: แก้ไขปัญหาการปรับใช้ในสถานที่
-          href: deployment/troubleshoot-on-prem.md
-    - name: ปรับใช้โค้ดที่กำหนดเอง
-      items:
-        - name: สร้างแพคเกจที่สามารถปรับใช้ได้ของแบบจำลอง
-          href: deployment/create-apply-deployable-package.md
-        - name: ติดตั้งแพคเกจที่ปรับใช้ได้จากบรรทัดคำสั่ง
-          href: deployment/install-deployable-package.md
-        - name: ถอนการติดตั้งแพคเกจ
-          href: deployment/uninstall-deployable-package.md
-        - name: แก้ไขปัญหาแอพพลิเคชันของแพคเกจ
-          href: deployment/deployable-package-troubleshooting.md
-- name: การอัพเกรด การอัพเดต และโปรแกรมแก้ไขด่วน
+      - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 และรุ่นที่ใหม่กว่า)
+        href: deployment/setup-deploy-on-premises-pu12.md
+      - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 8 และ 11)
+        href: deployment/setup-deploy-on-premises-pu8-pu11.md
+      - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทางการขายปลีกในสภาพแวดล้อมในสถานที่
+        href: deployment/deploy-retail-onprem.md
+    - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
+      href: deployment/develop-deploy-custom-models-on-premises.md
+    - name: ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมในสถานที่
+      href: deployment/onprem-reverseproxy.md
+    - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
+      href: deployment/apply-updates-on-premises.md
+    - name: การวินิจฉัยแบบในสถานที่
+      href: deployment/on-premises-diagnostics.md
+    - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
+      href: deployment/redeploy-on-prem.md
+    - name: อัปเดตเอเจนต์ภายในเครื่อง
+      href: lifecycle-services/update-local-agent.md
+    - name: ตั้งค่าคอนฟิกสภาพแวดล้อมใหม่
+      href: lifecycle-services/reconfigure-environment.md
+    - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์
+      href: user-interface/client-disconnected.md
+    - name: แก้ไขปัญหาการปรับใช้ในสถานที่
+      href: deployment/troubleshoot-on-prem.md
+  - name: ปรับใช้โค้ดที่กำหนดเอง
+    items:
+    - name: สร้างแพคเกจที่สามารถปรับใช้ได้ของแบบจำลอง
+      href: deployment/create-apply-deployable-package.md
+    - name: ติดตั้งแพคเกจที่ปรับใช้ได้จากบรรทัดคำสั่ง
+      href: deployment/install-deployable-package.md
+    - name: ถอนการติดตั้งแพคเกจ
+      href: deployment/uninstall-deployable-package.md
+    - name: แก้ไขปัญหาแอปพลิเคชันของแพคเกจ
+      href: deployment/deployable-package-troubleshooting.md
+- name: การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
   href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: อัพเกรดจาก AX 2012 เป็น Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+  - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
+    href: migration-upgrade/upgrade-overview-2012.md
+    items:
+    - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
+      href: migration-upgrade/upgrade-analyzer-tool.md
+    - name: การอัปเกรด AX 2012 – ประเมินการดำเนินการโดยใช้บริการอัปเกรดโค้ด
+      href: migration-upgrade/analyze-code-upgrade.md
+    - name: การอัปเกรด AX 2012 - ปรับใช้สภาพแวดล้อมสาธิตสำหรับการวิเคราะห์
+      href: migration-upgrade/analysis-sandbox.md
+    - name: การอัปเกรด AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อมการพัฒนา
+      href: migration-upgrade/data-upgrade-2012.md
+    - name: การอัปเกรด AX 2012 - รายการตรวจสอบก่อนการอัปเกรดสำหรับการอัปเกรดข้อมูล
+      href: migration-upgrade/prepare-data-upgrade.md
+    - name: การอัปเกรด AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อม Sandbox
+      href: migration-upgrade/upgrade-data-sandbox.md
+    - name: การอัปเกรด AX 2012 - การทดสอบการโยกย้าย
+      href: migration-upgrade/upgrade-cutover-testing.md
+    - name: การอัปเกรด AX 2012 - งานหลังการอัปเกรด
+      href: migration-upgrade/app-validation-process.md
+    - name: การอัปเกรด AX 2012 - ผ่านการทดสอบการทำงาน
+      href: migration-upgrade/upgrade-functional-validation.md
+    - name: การอัปเกรด AX 2012 - เตรียมพร้อมสำหรับการเริ่มใช้งานจริง
+      href: migration-upgrade/upgrade-go-live-prep.md
+    - name: การอัปเกรด AX 2012 - เริ่มใช้งานจริง
+      href: migration-upgrade/2012-upgrade-cutover.md
+    - name: การเปลี่ยนแปลงที่มีผลต่อการอัปเกรดจาก AX 2012
       items:
-        - name: การอัพเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัพเกรด
-          href: migration-upgrade/upgrade-analyzer-tool.md
-        - name: การอัพเกรด AX 2012 – ประเมินการดำเนินการโดยใช้บริการอัพเกรดโค้ด
-          href: migration-upgrade/analyze-code-upgrade.md
-        - name: การอัพเกรด AX 2012 - ปรับใช้สภาพแวดล้อมสาธิตสำหรับการวิเคราะห์
-          href: migration-upgrade/analysis-sandbox.md
-        - name: การอัพเกรด AX 2012 - การอัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนา
-          href: migration-upgrade/data-upgrade-2012.md
-        - name: การอัพเกรด AX 2012 - รายการตรวจสอบก่อนการอัพเกรดสำหรับการอัพเกรดข้อมูล
-          href: migration-upgrade/prepare-data-upgrade.md
-        - name: การอัพเกรด AX 2012 - การอัพเกรดข้อมูลในสภาพแวดล้อม Sandbox
-          href: migration-upgrade/upgrade-data-sandbox.md
-        - name: การอัพเกรด AX 2012 - การทดสอบการโยกย้าย
-          href: migration-upgrade/upgrade-cutover-testing.md
-        - name: การอัพเกรด AX 2012 - งานหลังการอัพเกรด
-          href: migration-upgrade/app-validation-process.md
-        - name: การอัพเกรด AX 2012 - ผ่านการทดสอบการทำงาน
-          href: migration-upgrade/upgrade-functional-validation.md
-        - name: การอัพเกรด AX 2012 - เตรียมพร้อมสำหรับการเริ่มใช้งานจริง
-          href: migration-upgrade/upgrade-go-live-prep.md
-        - name: การอัพเกรด AX 2012 - เริ่มใช้งานจริง
-          href: migration-upgrade/2012-upgrade-cutover.md
-        - name: การเปลี่ยนแปลงที่มีผลต่อการอัพเกรดจาก AX 2012
-          items:
-            - name: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
-              href: migration-upgrade/chart-accounts-delimiter-unique.md
-            - name: อัพเกรดสมุดรายวันใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน
-              href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
-            - name: แบบจำลองข้อมูลการจัดกำหนดการทรัพยากรของโครงการ
-              href: migration-upgrade/data-model-changes-resource-management.md
-            - name: การเปลี่ยนแปลงระบบย่อยของลำดับงาน
-              href: migration-upgrade/workflow-subsystem.md
-            - name: รวมแบบจำลองที่ใช้แทนคิวบ์สำหรับการวิเคราะห์
-              href: migration-upgrade/in-memory-real-time-aggregate-models.md
-            - name: ย้ายคิวบ์การขายที่อัพเกรดแล้วไปยังที่จัดเก็บเอนทิตี้
-              href: migration-upgrade/migrate-upgraded-cube-entity-store.md
-            - name: อัพเกรดการวางแผนงบประมาณ
-              href: migration-upgrade/upgrade-budget-planning.md
-    - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
-      items:
-        - name: การย้าย AX 2009 - ติดตั้งเครื่องมือการย้ายข้อมูล
-          href: migration-upgrade/install-dmt.md
-        - name: การย้าย AX 2009 - สร้างแผนที่
-          href: migration-upgrade/generate-maps.md
-        - name: การย้าย AX 2009 - สร้างเท็มเพลต
-          href: migration-upgrade/create-package-templates-dmt.md
-        - name: การย้าย AX 2009 - สร้างกลุ่มการย้าย
-          href: migration-upgrade/create-definition.md
-        - name: การย้าย AX 2009 - ส่งออกแพคเกจ
-          href: migration-upgrade/ax2009-upgrade-export-package.md
-        - name: การย้าย AX 2009 - นำเข้าแพคเกจ
-          href: migration-upgrade/ax2009-upgrade-import-package.md
-    - name: การย้ายและการอัพเกรดโค้ด
-      href: migration-upgrade/code-migration-home-page.md
-      items:
-        - name: เตรียมการเพื่อย้ายโค้ด
-          href: migration-upgrade/prepare-migration.md
-        - name: ตั้งค่าคอนฟิกการแม็ป Azure DevOps
-          href: migration-upgrade/configure-vso-solution.md
-        - name: การแบ่งแบบจำลอง
-          href: dev-tools/model-split.md
-        - name: แก้ไขการอ้างอิงระหว่างแบบจำลองโดยใช้ผู้รับมอบสิทธิ์
-          href: migration-upgrade/delegates-migration.md
-    - name: อัพเกรดเป็นการอัพเดตล่าสุด (ระบบคลาวด์)
-      items:
-        - name: กระบวนการสำหรับการย้ายเข้าสู่การอัพเดตล่าสุด
-          href: migration-upgrade/upgrade-latest-update.md
-        - name: อัพเดตสภาพแวดล้อมจากรุ่น 8.0 เป็น 8.1
-          href: migration-upgrade/appupdate-80-81.md
-        - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
-          href: migration-upgrade/versions-update-policy.md
-        - name: ใช้การอัพเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อม
-          href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: อัพเกรดแพลตฟอร์ม Dynamics AX เป็นการนำออกใช้เดือนสิงหาคม 2016
-          href: migration-upgrade/update-platform-each-release.md
-        - name: อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนา การสาธิต หรือ Sandbox
-          href: migration-upgrade/upgrade-data-to-latest-update.md
-        - name: อัพเดตเครื่องมือการพัฒนา
-          href: dev-tools/update-development-tools.md
-        - name: วางแผนและเตรียมพร้อมรหัสคอมไพล์สำหรับการอัพเดตล่าสุด
-          href: migration-upgrade/compile-considerations.md
-    - name: อัพเกรดเป็นการอัพเดตล่าสุด (ในสถานที่)
-      items:
-        - name: ใช้การอัพเดตกับการปรับใช้ในสถานที่
-          href: deployment/apply-updates-on-premises.md
-        - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
-          href: deployment/redeploy-on-prem.md
-    - name: โปรแกรมแก้ไขด่วน
-      items:
-        - name: ดาวน์โหลดโปรแกรมแก้ไขด่วนจาก Lifecycle Services
-          href: migration-upgrade/download-hotfix-lcs.md
-        - name: ใช้การอัพเดตกับสภาพแวดล้อมระบบคลาวด์
-          href: deployment/apply-deployable-package-system.md
-        - name: ติดตั้งโปรแกรมแก้ไขด่วนข้อมูลเมตาในสภาพแวดล้อมการพัฒนา
-          href: migration-upgrade/install-metadata-hotfix-package.md
-        - name: Reporting Services ในสภาพแวดล้อมแบบ One-Box
-          href: migration-upgrade/patch-reporting-service-environment.md
-        - name: อัพเดตเครื่องมือการพัฒนา Visual Studio
-          href: dev-tools/update-development-tools.md
-    - name: เลิกสนับสนุน
-      items:
-        - name: API ที่ไม่สนับสนุน
-          href: migration-upgrade/deprecated-apis.md
-        - name: ลักษณะการทำงานที่ไม่ได้รับการสนับสนุน
-          href: migration-upgrade/deprecated-features.md
+      - name: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
+        href: migration-upgrade/chart-accounts-delimiter-unique.md
+      - name: อัปเกรดสมุดรายวันใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน
+        href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+      - name: แบบจำลองข้อมูลการจัดกำหนดการทรัพยากรของโครงการ
+        href: migration-upgrade/data-model-changes-resource-management.md
+      - name: การเปลี่ยนแปลงระบบย่อยของลำดับงาน
+        href: migration-upgrade/workflow-subsystem.md
+      - name: รวมแบบจำลองที่ใช้แทนคิวบ์สำหรับการวิเคราะห์
+        href: migration-upgrade/in-memory-real-time-aggregate-models.md
+      - name: ย้ายคิวบ์การขายที่อัปเกรดแล้วไปยังที่จัดเก็บเอนทิตี้
+        href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+      - name: อัปเกรดการวางแผนงบประมาณ
+        href: migration-upgrade/upgrade-budget-planning.md
+  - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
+    href: migration-upgrade/data-migration-tool.md
+    items:
+    - name: การย้าย AX 2009 - ติดตั้งเครื่องมือการย้ายข้อมูล
+      href: migration-upgrade/install-dmt.md
+    - name: การย้าย AX 2009 - สร้างแผนที่
+      href: migration-upgrade/generate-maps.md
+    - name: การย้าย AX 2009 - สร้างเท็มเพลต
+      href: migration-upgrade/create-package-templates-dmt.md
+    - name: การย้าย AX 2009 - สร้างกลุ่มการย้าย
+      href: migration-upgrade/create-definition.md
+    - name: การย้าย AX 2009 - ส่งออกแพคเกจ
+      href: migration-upgrade/ax2009-upgrade-export-package.md
+    - name: การย้าย AX 2009 - นำเข้าแพคเกจ
+      href: migration-upgrade/ax2009-upgrade-import-package.md
+  - name: การย้ายและการอัปเกรดโค้ด
+    href: migration-upgrade/code-migration-home-page.md
+    items:
+    - name: เตรียมการเพื่อย้ายโค้ด
+      href: migration-upgrade/prepare-migration.md
+    - name: ตั้งค่าคอนฟิกการแม็ป Azure DevOps
+      href: migration-upgrade/configure-vso-solution.md
+    - name: การแบ่งแบบจำลอง
+      href: dev-tools/model-split.md
+    - name: แก้ไขการอ้างอิงระหว่างแบบจำลองโดยใช้ผู้รับมอบสิทธิ์
+      href: migration-upgrade/delegates-migration.md
+  - name: อัปเกรดเป็นการอัปเดตล่าสุด (ระบบคลาวด์)
+    items:
+    - name: กระบวนการสำหรับการย้ายเข้าสู่การอัปเดตล่าสุด
+      href: migration-upgrade/upgrade-latest-update.md
+    - name: อัปเดตสภาพแวดล้อมจากรุ่น 8.0 เป็น 8.1
+      href: migration-upgrade/appupdate-80-81.md
+    - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
+      href: migration-upgrade/versions-update-policy.md
+    - name: ใช้การอัปเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อม
+      href: migration-upgrade/upgrade-latest-platform-update.md
+    - name: อัปเกรดแพลตฟอร์ม Dynamics AX เป็นรุ่นที่นำออกใช้เดือนสิงหาคม 2016
+      href: migration-upgrade/update-platform-each-release.md
+    - name: อัปเกรดข้อมูลในสภาพแวดล้อมการพัฒนา การสาธิต หรือ Sandbox
+      href: migration-upgrade/upgrade-data-to-latest-update.md
+    - name: อัปเดตเครื่องมือการพัฒนา
+      href: dev-tools/update-development-tools.md
+    - name: วางแผนและเตรียมพร้อมรหัสคอมไพล์สำหรับการอัปเดตล่าสุด
+      href: migration-upgrade/compile-considerations.md
+  - name: อัปเกรดเป็นการอัปเดตล่าสุด (ในสถานที่)
+    items:
+    - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
+      href: deployment/apply-updates-on-premises.md
+    - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
+      href: deployment/redeploy-on-prem.md
+    - name: การอัปเกรดที่ใช้งานสำหรับ 7.x เป็น 8.1 แบบในสถานที่
+      href: migration-upgrade/on-prem-upgrade.md
+  - name: โปรแกรมแก้ไขด่วน
+    items:
+    - name: ดาวน์โหลดโปรแกรมแก้ไขด่วนจาก Lifecycle Services
+      href: migration-upgrade/download-hotfix-lcs.md
+    - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
+      href: deployment/apply-deployable-package-system.md
+    - name: ติดตั้งโปรแกรมแก้ไขด่วนข้อมูลเมตาในสภาพแวดล้อมการพัฒนา
+      href: migration-upgrade/install-metadata-hotfix-package.md
+    - name: Reporting Services ในสภาพแวดล้อมแบบ One-Box
+      href: migration-upgrade/patch-reporting-service-environment.md
+    - name: อัปเดตเครื่องมือการพัฒนา Visual Studio
+      href: dev-tools/update-development-tools.md
+  - name: การเลิกสนับสนุน
+    items:
+    - name: API ที่เลิกสนับสนุน
+      href: migration-upgrade/deprecated-apis.md
+    - name: คุณสมบัติที่เลิกสนับสนุน
+      href: migration-upgrade/deprecated-features.md
 - name: การจัดการระบบ
   href: sysadmin/system-administration-home-page.md
   items:
-    - name: FAQ เกี่ยวกับการอัพเดตรายเดือนของแพลตฟอร์มระบบคลาวด์
-      href: sysadmin/faq-platform-monthly-updates.md
-    - name: เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลของคุณ
-      href: sysadmin/legal-terms-privacy-statement.md
-    - name: รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก
-      href: sysadmin/license-codes-configuration-keys-report.md
-    - name: การใช้ข้อมูลร่วมกันข้ามบริษัท
-      href: sysadmin/cross-company-data-sharing.md
-    - name: โหมดการบำรุงรักษา
-      href: sysadmin/maintenance-mode.md
-    - name: บัญชีระบบที่ตั้งค่าคอนฟิกล่วงหน้า
-      href: sysadmin/pre-configured-system-accounts.md
-    - name: ส่งออกผู้ใช้ B2B ไปยัง Azure AD
-      href: sysadmin/implement-b2b.md
-    - name: ความปลอดภัยตามบทบาท
-      href: sysadmin/role-based-security.md
-      items:
-        - name: สถาปัตยกรรมความปลอดภัย
-          href: sysadmin/security-architecture.md
-        - name: รายงานความปลอดภัยแบบสำเร็จรูป
-          href: sysadmin/security-reports.md
-        - name: การสร้างผู้ใช้ใหม่
-          href: sysadmin/tasks/create-new-users.md
-        - name: นำเข้าผู้ใช้จำนวนมาก
-          href: sysadmin/tasks/import-bulk-users.md
-        - name: ตั้งค่าการแบ่งแยกหน้าที่
-          href: sysadmin/tasks/set-up-segregation-duties.md
-        - name: ระบุและแก้ไขความขัดแย้งในการแบ่งแยกหน้าที่
-          href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
-        - name: กำหนดผู้ใช้ให้กับบทบาทความปลอดภัย
-          href: sysadmin/tasks/assign-users-security-roles.md
-    - name: การประมวลผลชุดงาน
-      href: sysadmin/batch-processing-overview.md
-      items:
-        - name: การประมวลผลชุดงานและเซิร์ฟเวอร์ชุดงาน
-          href: sysadmin/batch-server-overview.md
-        - name: สร้างชุดงาน
-          href: sysadmin/tasks/create-batch-job.md
-        - name: คัดลอกชุดงาน
-          href: sysadmin/copy-batch-job.md
-        - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
-          href: sysadmin/activeperiod.md
-        - name: บทบาทความปลอดภัยสำหรับผู้จัดการชุดงาน
-          href: sysadmin/runby.md
-    - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
-      href: sysadmin/optimization-advisor-overview.md
-      items:
-        - name: สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
-          href: sysadmin/create-rules-optimization-advisor.md
-    - name: รายงานความขัดข้องในการผลิต
-      href: lifecycle-services/report-production-outage.md
+  - name: เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลของคุณ
+    href: sysadmin/legal-terms-privacy-statement.md
+  - name: รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก
+    href: sysadmin/license-codes-configuration-keys-report.md
+  - name: การใช้ข้อมูลร่วมกันข้ามบริษัท
+    href: sysadmin/cross-company-data-sharing.md
+  - name: โหมดการบำรุงรักษา
+    href: sysadmin/maintenance-mode.md
+  - name: บัญชีระบบที่ตั้งค่าคอนฟิกล่วงหน้า
+    href: sysadmin/pre-configured-system-accounts.md
+  - name: ส่งออกผู้ใช้ B2B ไปยัง Azure AD
+    href: sysadmin/implement-b2b.md
+  - name: ความปลอดภัยตามบทบาท
+    href: sysadmin/role-based-security.md
+    items:
+    - name: สถาปัตยกรรมความปลอดภัย
+      href: sysadmin/security-architecture.md
+    - name: รายงานความปลอดภัยแบบสำเร็จรูป
+      href: sysadmin/security-reports.md
+    - name: การสร้างผู้ใช้ใหม่
+      href: sysadmin/tasks/create-new-users.md
+    - name: นำเข้าผู้ใช้จำนวนมาก
+      href: sysadmin/tasks/import-bulk-users.md
+    - name: ตั้งค่าการแบ่งแยกหน้าที่
+      href: sysadmin/tasks/set-up-segregation-duties.md
+    - name: ระบุและแก้ไขความขัดแย้งในการแบ่งแยกหน้าที่
+      href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+    - name: กำหนดผู้ใช้ให้กับบทบาทความปลอดภัย
+      href: sysadmin/tasks/assign-users-security-roles.md
+  - name: การประมวลผลชุดงาน
+    href: sysadmin/batch-processing-overview.md
+    items:
+    - name: การประมวลผลชุดงานและเซิร์ฟเวอร์ชุดงาน
+      href: sysadmin/batch-server-overview.md
+    - name: สร้างชุดงาน
+      href: sysadmin/tasks/create-batch-job.md
+    - name: คัดลอกชุดงาน
+      href: sysadmin/copy-batch-job.md
+    - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
+      href: sysadmin/activeperiod.md
+    - name: บทบาทความปลอดภัยสำหรับผู้จัดการชุดงาน
+      href: sysadmin/runby.md
+  - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
+    href: sysadmin/optimization-advisor-overview.md
+    items:
+    - name: สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
+      href: sysadmin/create-rules-optimization-advisor.md
+  - name: รายงานความขัดข้องในการผลิต
+    href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
-    - name: ทรัพยากรสำหรับ Lifecycle Services
-      href: lifecycle-services/lcs.md
-      items:
-        - name: LCS สำหรับลูกค้า
-          href: lifecycle-services/lcs-works-lcs.md
-        - name: LCS สำหรับคู่ค้า
-          href: lifecycle-services/getting-started-lcs.md
-        - name: มีอะไรใหม่
-          href: lifecycle-services/whats-new-lcs.md
-        - name: ปัญหาที่ทราบ
-          href: lifecycle-services/known-issues.md
-    - name: คู่มือผู้ใช้ Lifecycle Services
-      href: lifecycle-services/lcs-user-guide.md
-    - name: ตัวประมาณการสมัครใช้งาน
-      href: lifecycle-services/subscription-estimator.md
-    - name: ตั้งค่าคอนฟิกความปลอดภัย
-      href: lifecycle-services/configure-lcs-security.md
-    - name: การค้นหาปัญหา
-      href: lifecycle-services/issue-search-lcs.md
-    - name: ตัวจัดการการตั้งค่าคอนฟิก
-      href: lifecycle-services/configuration-manager-lcs.md
-      items:
-        - name: ตั้งค่าตัวจัดการการตั้งค่าคอนฟิก
-          href: lifecycle-services/set-up-configuration-manager-lcs.md
-    - name: ตั้งค่าคอนฟิกบริการอัพเกรดโค้ด
-      href: lifecycle-services/configure-execute-code-upgrade.md
-    - name: สร้างหรืออัพเดตระเบียบวิธี
-      href: lifecycle-services/create-methodology.md
-    - name: ตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lifecycle-services/bpm-overview.md
-    - name: ไลบรารีกระบวนการทางธุรกิจในตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lifecycle-services/business-process-libraries-business-process-modeler.md
-    - name: สร้าง แก้ไข และเรียกดูไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lifecycle-services/creating-editing-browsing.md
-    - name: ทำงานให้เสร็จสมบูรณ์ในตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lifecycle-services/complete-tasks-bpm.md
-    - name: ทำงานกับแผนผังกิจกรรมในไลบรารี BPM
-      href: lifecycle-services/using-activity-diagrams.md
-    - name: ซิงโครไนส์ไลบรารี BPM กับ Azure DevOps
-      href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: สร้างไลบรารีการทดสอบการยอมรับโดยใช้คู่มืองานและ BPM
-      href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-    - name: แผนผังลำดับงานในตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเองไปยังตัวทำแบบจำลองกระบวนการทางธุรกิจ
-      href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-    - name: การตรวจสอบและการวินิจฉัย
-      href: lifecycle-services/monitoring-diagnostics.md
-    - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
-      href: lifecycle-services/restart-environment-services.md
-    - name: รายงานความขัดข้องในการผลิต
-      href: lifecycle-services/report-production-outage.md
-    - name: ติดตามการลงชื่อเข้าใช้ของผู้ใช้
-      href: lifecycle-services/user-logins.md
-    - name: ไลบรารีแอสเซท
-      href: lifecycle-services/asset-library.md
-    - name: การแก้ไขปัญหาประสิทธิภาพโดยใช้เครื่องมือใน LCS
-      href: lifecycle-services/performancetroubleshooting.md
-    - name: คู่มือการสอบถาม
-      href: lifecycle-services/querycookbook.md
-    - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
-      items:
-        - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
-          href: lifecycle-services/use-translation-service.md
-        - name: แปลไฟล์เอกสารประกอบ
-          href: lifecycle-services/use-translation-service-ua.md
-        - name: ไฟล์หน่วยความจำคำแปล
-          href: lifecycle-services/use-translation-service-tm.md
+  - name: ทรัพยากรสำหรับ Lifecycle Services
+    href: lifecycle-services/lcs.md
+    items:
+    - name: LCS สำหรับลูกค้า
+      href: lifecycle-services/lcs-works-lcs.md
+    - name: LCS สำหรับคู่ค้า
+      href: lifecycle-services/getting-started-lcs.md
+    - name: มีอะไรใหม่
+      href: lifecycle-services/whats-new-lcs.md
+    - name: ปัญหาที่ทราบ
+      href: lifecycle-services/known-issues.md
+  - name: คู่มือผู้ใช้ Lifecycle Services
+    href: lifecycle-services/lcs-user-guide.md
+  - name: ตัวประมาณการสมัครใช้งาน
+    href: lifecycle-services/subscription-estimator.md
+  - name: ตั้งค่าคอนฟิกความปลอดภัย
+    href: lifecycle-services/configure-lcs-security.md
+  - name: การค้นหาปัญหา
+    href: lifecycle-services/issue-search-lcs.md
+  - name: ตัวจัดการการตั้งค่าคอนฟิก
+    href: lifecycle-services/configuration-manager-lcs.md
+    items:
+    - name: ตั้งค่าตัวจัดการการตั้งค่าคอนฟิก
+      href: lifecycle-services/set-up-configuration-manager-lcs.md
+  - name: ตั้งค่าคอนฟิกบริการอัปเกรดโค้ด
+    href: lifecycle-services/configure-execute-code-upgrade.md
+  - name: สร้างหรืออัปเดตระเบียบวิธี
+    href: lifecycle-services/create-methodology.md
+  - name: ตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lifecycle-services/bpm-overview.md
+  - name: ไลบรารีกระบวนการทางธุรกิจในตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lifecycle-services/business-process-libraries-business-process-modeler.md
+  - name: สร้าง แก้ไข และเรียกดูไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lifecycle-services/creating-editing-browsing.md
+  - name: ทำงานให้เสร็จสมบูรณ์ในตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lifecycle-services/complete-tasks-bpm.md
+  - name: ทำงานกับแผนผังกิจกรรมในไลบรารี BPM
+    href: lifecycle-services/using-activity-diagrams.md
+  - name: ซิงโครไนส์ไลบรารี BPM กับ Azure DevOps
+    href: lifecycle-services/synchronize-bpm-vsts.md
+  - name: สร้างไลบรารีการทดสอบการยอมรับโดยใช้คู่มืองานและ BPM
+    href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+  - name: แผนผังลำดับงานในตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lifecycle-services/flowcharts-business-process-modeler.md
+  - name: อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเองไปยังตัวทำแบบจำลองกระบวนการทางธุรกิจ
+    href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+  - name: การตรวจสอบและการวินิจฉัย
+    href: lifecycle-services/monitoring-diagnostics.md
+  - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
+    href: lifecycle-services/restart-environment-services.md
+  - name: รายงานความขัดข้องในการผลิต
+    href: lifecycle-services/report-production-outage.md
+  - name: ติดตามการลงชื่อเข้าใช้ของผู้ใช้
+    href: lifecycle-services/user-logins.md
+  - name: ไลบรารีแอสเซท
+    href: lifecycle-services/asset-library.md
+  - name: การแก้ไขปัญหาประสิทธิภาพโดยใช้เครื่องมือใน LCS
+    href: lifecycle-services/performancetroubleshooting.md
+  - name: คู่มือการสอบถาม
+    href: lifecycle-services/querycookbook.md
+  - name: Microsoft Dynamics 365 Translation Service
+    href: lifecycle-services/translation-service-overview.md
+    items:
+    - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
+      href: lifecycle-services/use-translation-service.md
+    - name: แปลไฟล์เอกสารประกอบ
+      href: lifecycle-services/use-translation-service-ua.md
+    - name: ไฟล์หน่วยความจำคำแปล
+      href: lifecycle-services/use-translation-service-tm.md
 - name: การจัดการฐานข้อมูล
   items:
-    - name: คัดลอกฐานข้อมูลจาก Azure SQL Database ไปยังสภาพแวดล้อม SQL Server
-      href: database/copy-database-from-azure-sql-to-sql-server.md
-    - name: คัดลอกฐานข้อมูลจาก SQL Server ไปยังสภาพแวดล้อม Azure SQL Database ที่ใช้งานจริง
-      href: database/copy-database-from-sql-server-to-azure-sql.md
-    - name: คืนค่าฐานข้อมูลในสภาพแวดล้อมที่ไม่ใช้งานจริง
-      href: database/request-point-in-time-restore.md
-    - name: ส่งออกสำเนาฐานข้อมูลเพื่อคืนค่าในภายหลัง
-      href: database/copy-operations-database.md
-    - name: คำขอสำหรับการรีเฟรชฐานข้อมูล Sandbox
-      href: database/database-refresh.md
+  - name: คัดลอกฐานข้อมูลจาก Azure SQL Database ไปยังสภาพแวดล้อม SQL Server
+    href: database/copy-database-from-azure-sql-to-sql-server.md
+  - name: คัดลอกฐานข้อมูลจาก SQL Server ไปยังสภาพแวดล้อม Azure SQL Database ที่ใช้งานจริง
+    href: database/copy-database-from-sql-server-to-azure-sql.md
+  - name: คืนค่าฐานข้อมูลในสภาพแวดล้อมที่ไม่ใช้งานจริง
+    href: database/request-point-in-time-restore.md
+  - name: ส่งออกสำเนาฐานข้อมูลเพื่อคืนค่าในภายหลัง
+    href: database/copy-operations-database.md
+  - name: คำขอสำหรับการรีเฟรชฐานข้อมูล Sandbox
+    href: database/database-refresh.md
 - name: การสนับสนุน
   items:
-    - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
-      href: lifecycle-services/lcs-support.md
-    - name: บันทึกบัตรผ่านการสนับสนุนพรีเมียร์
-      href: lifecycle-services/premier-support.md
-    - name: ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service
-      href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-    - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับ Finance and Operations
-      href: lifecycle-services/support-experience.md
-    - name: FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน
-      href: lifecycle-services/planned-maintenance-window-faq.md
-    - name: การดำเนินงานและการให้บริการระบบคลาวด์
-      href: lifecycle-services/cloud-operations-servicing.md
-    - name: จัดการประสบการณ์การสนับสนุนของ Finance and Operations
-      href: lifecycle-services/cloud-powered-support-lcs.md
+  - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
+    href: lifecycle-services/lcs-support.md
+  - name: บันทึกบัตรผ่านการสนับสนุนพรีเมียร์
+    href: lifecycle-services/premier-support.md
+  - name: ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service
+    href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+  - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับ Finance and Operations
+    href: lifecycle-services/support-experience.md
+  - name: FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน
+    href: lifecycle-services/planned-maintenance-window-faq.md
+  - name: การดำเนินงานและการให้บริการระบบคลาวด์
+    href: lifecycle-services/cloud-operations-servicing.md
+  - name: จัดการประสบการณ์การสนับสนุนของ Finance and Operations
+    href: lifecycle-services/cloud-powered-support-lcs.md
+ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373334"

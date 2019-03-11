@@ -1,13 +1,13 @@
 ---
-title: "การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์"
-description: "หัวข้อนี้อธิบายวิธีตั้งค่าการตรวจสอบสินค้าพร้อมทั้งการเบิกสินค้าคลัสเตอร์"
+title: การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์
+description: หัวข้อนี้อธิบายวิธีตั้งค่าการตรวจสอบสินค้าพร้อมทั้งการเบิกสินค้าคลัสเตอร์
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2d2ce787e6a7d677bc997bff363f34850ff9899b
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
-ms.contentlocale: th-th
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338118"
 ---
-
 [!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์
@@ -40,5 +39,4 @@ ms.lasthandoff: 02/13/2018
 |        ตัวเลือก        |                                    คำอธิบาย                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | การยืนยันผลิตภัณฑ์ | ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน |
-
 

@@ -1,13 +1,13 @@
 ---
-title: "กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง"
-description: "คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด"
+title: กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง
+description: คุณลักษณะการกระทบยอดธนาคารขั้นสูงอนุญาตให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ได้ และกระทบยอดกับธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364982"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง
 
 [!include [banner](../includes/banner.md)]
 
-คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงจะช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ และกระทบยอดด้วยธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด  
+คุณลักษณะการกระทบยอดธนาคารขั้นสูงอนุญาตให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ได้ และกระทบยอดกับธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 for Finance and Operations หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด  
 
 <a name="import-an-electronic-bank-statement"></a>นำเข้าใบแจ้งยอดจากธนาคารทางอิเล็กทรอนิกส์
 -----------------------------------
@@ -94,7 +93,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>ลงรายการบัญชีธุรกรรมใหม่ที่สัมพันธ์กับการกระทบยอด
 ธุรกรรมใบแจ้งยอดจากธนาคารที่คุณทำเครื่องหมายเป็น **ใหม่** ในแผ่นงานการกระทบยอด จะถูกลงรายการบัญชีในหน้า **ใบแจ้งยอดจากธนาคาร** ในหน้า **ใบแจ้งยอดจากธนาคาร** เลือกรหัสใบแจ้งยอดเพื่อดูรายละเอียดใบแจ้งยอด ในเมนู **การบัญชี** คุณสามารถใช้ตัวเลือก **ดูการกระจาย** และ **ดูบัญชี** เพื่อดูรายละเอียดที่อยู่เบื้องหลังธุรกรรมใหม่และรายการบัญชีแยกประเภทที่เกี่ยวข้องได้ เลือกตัวเลือก **ลงรายการบัญชี** เพื่อลงรายการบัญชีรายการในใบแจ้งยอดจากธนาคารที่ทำเครื่องหมายไว้เป็น **ใหม่** ในบัญชีแยกประเภททั่วไป โปรดทราบว่าการลงรายการบัญชีจะเสร็จเพียงครั้งเดียวต่อใบแจ้งยอดจากธนาคารหนึ่งรายการเท่านั้น
-
 
 
 

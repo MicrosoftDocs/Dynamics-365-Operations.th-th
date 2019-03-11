@@ -1,13 +1,13 @@
 ---
-title: "คุณลักษณะและความสามารถของ Attract"
-description: "หัวข้อนี้อธิบายถึงลักษณะการทำงานที่ Attract มีสำหรับการจัดการกระบวนการ talent ใหม่ทีว่าจ้าง"
+title: คุณลักษณะและความสามารถของ Attract
+description: หัวข้อนี้อธิบายถึงลักษณะการทำงานที่ Attract มีสำหรับการจัดการกระบวนการ talent ใหม่ทีว่าจ้าง
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: th-th
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306424"
 ---
 # <a name="attract-features-and-capabilities"></a>คุณลักษณะและความสามารถของ Attract
 
@@ -33,7 +33,7 @@ Attract ให้ความสามารถสำหรับการจั
 หัวข้อนี้อธิบายถึงลักษณะการทำงานที่ Attract มีให้
 
 ## <a name="attract-dashboard"></a>แดชบอร์ด Attract
-บนแดชบอร์ด สมาชิกในทีมการว่าจ้างสามารถดูรายละเอียดของงานที่พวกเขาเข้าร่วมได้ แดชบอร์ดซึ่งเป็นที่ที่ผู้จัดการหรือผู้สรรหาว่าจ้างสามารถเพิ่มงานใหม่ไปยัง Attract ได้ โดยการสร้างทีละรายการ หรือโดยการนำเข้าจำนวนมากพร้อมกันจากแผ่นตาราง Microsoft Excel
+บนแดชบอร์ด สมาชิกในทีมการว่าจ้างสามารถดูรายละเอียดของงานที่พวกเขาเข้าร่วมได้ แดชบอร์ดที่ซึ่งผู้จัดการว่าจ้างหรือผู้สรรหาสามารถเพิ่มงานใหม่ไปยัง Attract ได้ โดยการสร้างแต่ละรายการ หรือโดยการนำเข้าหลายรายการพร้อมกันจากสเปรดชีต Microsoft Excel
 
 ## <a name="jobs"></a>งาน
 ในหน้า **งาน** คุณสามารถดูและแก้ไขรายละเอียด เช่น คำอธิบายงาน และสถานที่ของงานได้ หน้า **งาน** ยังเป็นที่ที่รวบรวมทีมว่าจ้าง และที่ที่คุณสามารถเพิ่มหรือเปลี่ยนผู้สรรหาและผู้สัมภาษณ์ในทีมงานได้ คุณสามารถเพิ่มผู้สมัครใหม่ได้ในหน้า **งาน**
@@ -46,4 +46,3 @@ Attract มีกระบวนการว่าจ้างที่กำห
 
 ## <a name="candidate-app"></a>ใบสมัครของผู้สมัคร
 ทันทีที่ผู้สมัครได้ถูกเพิ่มไปยังงาน ผู้สมัครจะได้รับอีเมลที่มีลิงก์เพื่อเรียกแอปเว็บ แอปนี้แสดงรายละเอียดงานและถูกใช้ในการสื่อสารกับทีมงานว่าจ้าง ผู้สมัครยังสามารถใช้เพื่อแจ้งวันเวลาที่ว่างสำหรับการสัมภาษณ์ของพวกเขาได้อีกด้วย
-

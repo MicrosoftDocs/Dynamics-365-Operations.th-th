@@ -1,13 +1,13 @@
---- 
-title: "ป้อนข้อมูลผู้ปฏิบัติงาน"
-description: "หลังจากที่ผู้สรรหาได้สร้างโครงการจ้างงานโดยรวมและสร้างตำแหน่งงานแล้ว ขั้นตอนถัดไปคือ การป้อนข้อมูลผู้ปฏิบัติงานของบุคลากรที่กำลังถูกจ้างงาน "
+---
+title: ป้อนข้อมูลผู้ปฏิบัติงาน
+description: 'หลังจากที่ผู้สรรหาได้สร้างโครงการจ้างงานโดยรวมและสร้างตำแหน่งงานแล้ว ขั้นตอนถัดไปคือ การป้อนข้อมูลผู้ปฏิบัติงานของบุคลากรที่กำลังถูกจ้างงาน '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339567"
 ---
 # <a name="enter-worker-information"></a>ป้อนข้อมูลผู้ปฏิบัติงาน
 
@@ -44,5 +44,4 @@ ms.lasthandoff: 09/14/2018
 7. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 8. ในรายการนี้ ให้ยกเลิกการทำเครื่องหมายแถวที่เลือก
     * เลือกตำแหน่งงานของโครงการถัดไป และทำการป้อนข้อมูลผู้ปฏิบัติงานของแต่ละบุคคลที่คุณกำลังว่าจ้าง  
-
 

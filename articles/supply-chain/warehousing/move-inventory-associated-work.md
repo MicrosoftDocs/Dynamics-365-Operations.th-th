@@ -1,13 +1,13 @@
 ---
-title: "การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า"
-description: "หัวข้อนี้อธิบายวิธีการตั้งค่าและใช้การยืนยันการเบิกสินค้าเป็นรายชิ้นจากอุปกรณ์เคลื่อนที่"
+title: การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าและใช้การยืนยันการเบิกสินค้าเป็นรายชิ้นจากอุปกรณ์เคลื่อนที่
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 618942ff22b6a81c75bd472955e4add14e6f4d84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7b330d6aa8e972d3c35bb7783ec0a39f09775011
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347663"
 ---
-
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="backported"></a>Backported
 
-คุณลักษณะนี้ยังได้รับการสนับสนุนโดย Microsoft Dynamics AX 2012 R3 และจะพร้อมใช้งานเป็นส่วนหนึ่งของ CU12
+คุณลักษณะนี้ยังได้ถูกส่งกลับไปยัง Microsoft Dynamics AX 2012 R3 และจะพร้อมใช้งานเป็นส่วนหนึ่งของ CU12
 และยังสามารถดาวน์โหลดทีละรายการโดยใช้หมายเลข KB 3192548 
-
 

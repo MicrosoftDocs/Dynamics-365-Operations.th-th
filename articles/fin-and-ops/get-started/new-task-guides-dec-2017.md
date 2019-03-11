@@ -1,33 +1,32 @@
 ---
-title: "คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (ธันวาคม 2017)"
-description: "หัวข้อนี้แสดงรายการคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (ธันวาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่"
+title: คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (ธันวาคม 2017)
+description: หัวข้อนี้แสดงรายการคู่มืองานใหม่หรือที่ปรับปรุงที่ถูกนำออกใช้ไปยัง Microsoft (ธันวาคม 2016 - ภาษาทั้งหมด) APQC Unified Library สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 101eb8fd03303eb590dfef6f598ca507dc8f5548
-ms.contentlocale: th-th
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319649"
 ---
-
 # <a name="new-or-updated-task-guides-december-2017"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (ธันวาคม 2017)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (ธันวาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations
+หัวข้อนี้แสดงรายการคู่มืองานใหม่หรือที่ปรับปรุงที่ถูกนำออกใช้ไปยัง Microsoft (ธันวาคม 2016 - ภาษาทั้งหมด) APQC Unified Library สำหรับ Microsoft Dynamics 365 for Operations
 
 ## <a name="new-task-guides"></a>คู่มืองานใหม่
 
@@ -370,4 +369,3 @@ ms.lasthandoff: 12/18/2018
 **ลบรายการ BPM แล้ว**
 
 - ย้ายงานคัมบังที่จัดกำหนด
-

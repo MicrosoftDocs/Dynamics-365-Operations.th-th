@@ -1,13 +1,13 @@
---- 
-title: "กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระของลูกค้า"
-description: "การทำงานนี้จะแสดงวิธีการกำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระให้กับลูกค้า "
+---
+title: กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระของลูกค้า
+description: 'การทำงานนี้จะแสดงวิธีการกำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระให้กับลูกค้า '
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318936"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระของลูกค้า
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 10. เลือกรูปแบบการเกิดซ้ำ 
     * รายวัน - เลือกตัวเลือกนี้และป้อนจำนวนวันในฟิลด์ ต่อ  ตัวอย่างเช่น ถ้าคุณป้อนเลข 15 ใบแจ้งหนี้จะถูกสร้างทุกๆ 15 วันสำหรับลูกค้ารายนี้   รายสัปดาห์ - เลือกตัวเลือกนี้และป้อนจำนวนสัปดาห์ในฟิลด์ ต่อ  ตัวอย่างเช่น ถ้าคุณป้อนเลข 2 ใบแจ้งหนี้จะถูกสร้างทุกๆสองสัปดาห์สำหรับลูกค้ารายนี้   รายเดือน - เลือกตัวเลือกนี้ แล้วป้อนจำนวนเดือนในฟิลด์ ต่อ  ตัวอย่างเช่น ถ้าคุณป้อนเลข 6 ใบแจ้งหนี้จะถูกสร้างทุกๆหกเดือนสำหรับลูกค้ารายนี้   รายปี - เลือกตัวเลือกนี้และป้อนจำนวนปีในฟิลด์ ต่อ  ตัวอย่างเช่น ถ้าคุณป้อนเลข 2 ใบแจ้งหนี้จะถูกสร้างทุกๆสองปีสำหรับลูกค้ารายนี้  
 11. ในฟิลด์ ต่อ ให้ป้อนตัวเลข 
-
 

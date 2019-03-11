@@ -1,13 +1,13 @@
---- 
-title: "พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน"
-description: "คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม "
+---
+title: พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน
+description: 'คู่มือของงานนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการทำให้พนักงานสามารถลงทะเบียนในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332782"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 09/14/2018
     * เลือกเกณฑ์ที่พนักงานต้องปฏิบัติตามเพื่อให้มีสิทธิ์ในแผนค่าตอบแทน  เกณฑ์รวมถึงแผนก สหภาพแรงงาน สถานที่เก็บ (ภูมิภาคของค่าตอบแทน) งาน ฟังก์ชัน ชนิดงาน หรือระดับค่าตอบแทน พนักงานต้องปฏิบัติตรงตามเกณฑ์ที่ระบุทั้งหมดเพื่อให้มีสิทธิ์ในแผนค่าตอบแทน  ถ้าไม่ได้ระบุเกณฑ์ไว้ พนักงานทั้งหมดมีสิทธิ์ในแผนค่าตอบแทน  ถ้าพนักงานไม่ตรงปฏิบัติตามเกณฑ์ที่ระบุในกฎการมีคุณสมบัติเหมาะสม หรือไม่ได้ระบุกฎการมีคุณสมบัติเหมาะสมสำหรับแผนค่าตอบแทน แผนค่าตอบแทนจะไม่ปรากฏในการค้นหาเมื่อมีการสร้างเรกคอร์ดเกี่ยวกับค่าตอบแทนคงที่สำหรับพนักงาน  
 7. ปิดหน้า
 8. ปิดหน้า
-
 

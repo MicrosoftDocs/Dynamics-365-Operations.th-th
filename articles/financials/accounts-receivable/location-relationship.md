@@ -1,14 +1,14 @@
 ---
-title: "เพิ่มสถานที่และชนิดความสัมพันธ์ของฝ่าย"
-description: "หัวข้อนี้อธิบายวิธีการเพิ่มสถานที่ใหม่และชนิดความสัมพันธ์ของฝ่าย"
+title: เพิ่มสถานที่และชนิดความสัมพันธ์ของฝ่าย
+description: หัวข้อนี้อธิบายวิธีการเพิ่มสถานที่ใหม่และชนิดความสัมพันธ์ของฝ่าย
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: th-th
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357507"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>เพิ่มบทบาทสถานที่และชนิดความสัมพันธ์ของฝ่าย 
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ ms.lasthandoff: 06/12/2018
 
         ![การเติมข้อมูล](media/Dirdata.PNG)
 
-    4.  เมื่อต้องการทดสอบการเติมข้อมูลสำหรับบทบาทสถานที่ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertLogisticsLocationRoles() ใน Main() หลังจากกระบวนการนี้เสร็จสมบูรณ์ คุณควรเห็นบทบาทใหม่ที่เติมข้อมูลในตาราง **LogisticsLocationRole** ที่มีชนิด \> 0 บทบาทใหม่จะแสดงบนหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลผู้ติดต่อ**
+    4.  เพื่อทดสอบการนำเข้าข้อมูลบทบาทสถานที่ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertLogisticsLocationRoles() ใน Main() หลังจากกระบวนการนี้เสร็จสมบูรณ์ คุณควรเห็นบทบาทใหม่ที่เติมข้อมูลในตาราง **LogisticsLocationRole** ที่มีชนิด \> 0 บทบาทใหม่จะแสดงบนหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลผู้ติดต่อ**
 
         ![แทรกสถานที่ใหม่](media/InsertNewLocation.PNG)
 
@@ -72,7 +71,6 @@ ms.lasthandoff: 06/12/2018
     
     ![DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  เมื่อต้องการทดสอบการเติมข้อมูลชนิดความสัมพันธ์ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertDirRelationshipTypes() ใน Main() คุณควรเห็นชนิดความสัมพันธ์ใหม่ใน **DirRelationshipTypeTable** และชนิดความสัมพันธ์ใหม่จะพร้อมใช้งานบนหน้า **ชนิดของความสัมพันธ์**
+    3.  เพื่อทดสอบการนำเข้าข้อมูลชนิดความสัมพันธ์ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertDirRelationshipTypes() ใน Main() คุณควรเห็นชนิดความสัมพันธ์ใหม่ใน **DirRelationshipTypeTable** และชนิดความสัมพันธ์ใหม่จะพร้อมใช้งานบนหน้า **ชนิดของความสัมพันธ์**
 
         ![คลาสที่สามารถรันได้](media/Runnable.PNG)
-

@@ -1,13 +1,13 @@
---- 
-title: "สร้างคำถามปลายเปิดแบบสิ้นสุด"
-description: "คำถามปลายเปิดช่วยให้ผู้ตอบให้ตอบแสดงการตอบสนองของตนเอง "
+---
+title: สร้างคำถามปลายเปิดแบบสิ้นสุด
+description: 'คำถามปลายเปิดช่วยให้ผู้ตอบให้ตอบแสดงการตอบสนองของตนเอง '
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMQuestion
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 51d238e41e1c89211d158bd4aee958a85bec772d
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347916"
 ---
 # <a name="create-an-open-ended-question"></a>สร้างคำถามปลายเปิดแบบสิ้นสุด
 
@@ -37,5 +37,4 @@ ms.lasthandoff: 09/14/2018
 5. ในฟิลด์ชนิดของข้อมูลป้อนเข้า ให้เลือกตัวเลือกหนึ่งตัวเลือก
     * ชนิดของการป้อนข้อมูลของข้อความหรือหมายเหตุสำหรับคำถามปลายเปิด  
 6. ในฟิลด์ข้อความ ให้ป้อนคำถามของคุณ
-
 

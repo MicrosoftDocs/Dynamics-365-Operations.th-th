@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าคอนฟิกโครงสร้างทางบัญชี"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับโครงสร้างทางบัญชีและมิติทางการเงิน"
+title: ตั้งค่าคอนฟิกโครงสร้างทางบัญชี
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับโครงสร้างทางบัญชีและมิติทางการเงิน
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351734"
 ---
-
 # <a name="configure-account-structures"></a>ตั้งค่าคอนฟิกโครงสร้างทางบัญชี
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ ms.lasthandoff: 08/09/2018
 เมื่อคุณพอใจกับการตั้งค่าใหม่ของคุณหรือการเปลี่ยนแปลงไปยังโครงสร้างทางบัญชี คุณต้องเปิดใช้งาน ถ้ามีการกำหนดโครงสร้างทางบัญชีให้กับบัญชีแยกประเภท การเปิดใช้งานนี้อาจเป็นกระบวนการที่รันเป็นเวลานาน เนื่องจากธุรกรรมที่ไม่ลงรายการบัญชีทั้งหมดในระบบต้องถูกซิงค์กับโครงสร้างใหม่ ธุรกรรมที่ลงรายการบัญชีไม่ได้รับผลกระทบกับการเปลี่ยนแปลงโครงสร้างทางบัญชี
 
 สำหรับข้อมูลเพิ่มเติม ดู [วางแผนผังบัญชีของคุณ](plan-chart-of-accounts.md) [มิติทางการเงิน](financial-dimensions.md) และ [ป้อนชุดบัญชีและมิติ (ตัวควบคุมรายการที่มีการแบ่งส่วน)](enter-account-dimension-combinations-segmented-entry-control.md)
-

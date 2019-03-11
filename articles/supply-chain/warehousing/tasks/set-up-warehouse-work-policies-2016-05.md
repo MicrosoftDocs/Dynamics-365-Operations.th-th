@@ -1,13 +1,13 @@
---- 
-title: "ตั้งค่านโยบายงานของคลังสินค้า (ใบสมัคร พฤษภาคม 2016)"
-description: "กระบวนการคลังสินค้าไม่รวมงานคลังสินค้าเสมอไป"
+---
+title: ตั้งค่านโยบายงานของคลังสินค้า (ใบสมัคร พฤษภาคม 2016)
+description: กระบวนการคลังสินค้าไม่รวมงานคลังสินค้าเสมอไป
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.contentlocale: th-th
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335335"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>ตั้งค่านโยบายงานของคลังสินค้า (ใบสมัคร พฤษภาคม 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-กระบวนการคลังสินค้าไม่รวมงานคลังสินค้าเสมอไป โดยการกำหนดนโยบายงาน คุณสามารถป้องกันการสร้างงานสำหรับการเบิกวัตถุดิบและการสำรองสินค้าสำเร็จรูป สำหรับชุดของผลิตภัณฑ์ที่ตำแหน่งเฉพาะได้ บริษัทข้อมูลสาธิต USMF ถูกนำมาใช้เพื่อสร้างการบันทึกนี้ คู่มืองานนี้ต้องการแอพพลิเคชัน Dynamics AX 7.0.1 ขึ้นไป
+กระบวนการคลังสินค้าไม่รวมงานคลังสินค้าเสมอไป โดยการกำหนดนโยบายงาน คุณสามารถป้องกันการสร้างงานสำหรับการเบิกวัตถุดิบและการสำรองสินค้าสำเร็จรูป สำหรับชุดของผลิตภัณฑ์ที่ตำแหน่งเฉพาะได้ บริษัทข้อมูลสาธิต USMF ถูกนำมาใช้เพื่อสร้างการบันทึกนี้ คำแนะนำงานนี้ต้องการแอพลิเคชัน Dynamics AX 7.0.1 หรือใหม่กว่า
 
 1. ไปที่การจัดการคลังสินค้า > ตั้งค่า > งาน > นโยบายงาน
 2. คลิก สร้าง
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/14/2018
 19. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
 20. ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือก 'L0101'
 21. คลิก บันทึก
-
 

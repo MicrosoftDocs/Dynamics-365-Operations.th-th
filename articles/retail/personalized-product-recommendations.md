@@ -1,13 +1,13 @@
 ---
-title: "คำแนะนำผลิตภัณฑ์แบบส่วนบุคคล"
-description: "หัวข้อนี้มีข้อมูลเกี่ยวกับคำแนะนำผลิตภัณฑ์ Dynamics 365 for Retail ที่สามารถถูกแสดงได้บนอุปกรณ์ขายหน้าร้าน (POS)"
+title: คำแนะนำผลิตภัณฑ์แบบส่วนบุคคล
+description: หัวข้อนี้มีข้อมูลเกี่ยวกับคำแนะนำผลิตภัณฑ์ Dynamics 365 for Retail ที่สามารถแสดงได้บนอุปกรณ์ point of sale (POS)
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.contentlocale: th-th
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326480"
 ---
-
 # <a name="personalized-product-recommendations"></a>คำแนะนำผลิตภัณฑ์แบบส่วนบุคคล
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 > [!NOTE]
 > เราจะลบเวอร์ชันปัจจุบันของบริการแนะนำผลิตภัณฑ์ เนื่องจากเราได้ออกแบบคุณลักษณะนี้ใหม่พร้อมกับอัลกอริทึมที่ดีขึ้นและความสามารถที่เกี่ยวข้องกับการขายปลีกที่ใหม่กว่า สำหรับข้อมูลเพิ่มเติม ให้ดู [ลบหรือเลิกใช้คุณลักษณะ](../dev-itpro/migration-upgrade/deprecated-features.md)
 
-ใน Dynamics 365 for Retail สามารถแสดงคำแนะนำผลิตภัณฑ์บนอุปกรณ์ขายหน้าร้าน (POS) รายการแนะนำคือสินค้าที่ลูกค้าอาจสนใจโดยยึดตามของประวัติการซื้อของพวกเขา สินค้าในรายการสิ่งที่ต้องการของพวกเขา และสินค้าที่ลูกค้ารายอื่นซื้อแบบออนไลน์และในร้านค้าจริง สำหรับผู้ค้าปลีกที่มีแค็ตตาล็อกขนาดใหญ่ รายการแนะนำจะช่วยลูกค้าในการค้นหาผลิตภัณฑ์ โดยการแสดงผลิตภัณฑ์ที่ตรงกับความสนใจและพฤติกรรมการซื้อของลูกค้า คำแนะนำผลิตภัณฑ์สามารถช่วยผู้ค้าปลีกในการเพิ่มการขายและการขายสินค้าชนิดอื่น และสามารถเพิ่มเงินวางประกันของลูกค้าได้ ใน Dynamics 365 for Operations for Retail คำแนะนำผลิตภัณฑ์ได้รับการจัดการโดยบริการที่มีการรับรู้และ Machine Learning ของ Microsoft Azure
+ใน Dynamics 365 for Retail คำแนะนำผลิตภัณฑ์สามารถแสดงได้บนอุปกรณ์ point of sale (POS) รายการแนะนำคือสินค้าที่ลูกค้าอาจสนใจโดยยึดตามของประวัติการซื้อของพวกเขา สินค้าในรายการสิ่งที่ต้องการของพวกเขา และสินค้าที่ลูกค้ารายอื่นซื้อแบบออนไลน์และในร้านค้าจริง สำหรับผู้ค้าปลีกที่มีแค็ตตาล็อกขนาดใหญ่ รายการแนะนำจะช่วยลูกค้าในการค้นหาผลิตภัณฑ์ โดยการแสดงผลิตภัณฑ์ที่ตรงกับความสนใจและพฤติกรรมการซื้อของลูกค้า คำแนะนำผลิตภัณฑ์สามารถช่วยผู้ค้าปลีกในการเพิ่มการขายและการขายสินค้าชนิดอื่น และสามารถเพิ่มเงินวางประกันของลูกค้าได้ ใน Dynamics 365 for Retail คำแนะนำผลิตภัณฑ์ได้รับการสนับสนุนโดย cognitive services และ Microsoft Azure machine learning
 
 ## <a name="scenarios"></a>สถานการณ์จำลอง
 
@@ -53,7 +52,7 @@ ms.lasthandoff: 01/04/2019
     - ถ้าการเชื่อมโยงของร้านค้าเพิ่มลูกค้าลงในธุรกรรม กลไกคำแนะนำจะให้คำแนะนำแบบส่วนบุคคลโดยใช้ประวัติธุรกรรมของลูกค้าและรายการของสินค้าในตะกร้า
 
     > [!NOTE]
-    > เมื่อต้องการแสดงคำแนะนำในหน้า **ธุรกรรม** ผู้ค้าปลีกจะต้องอัพเดตโครงร่างหน้าจอใน Dynamics 365 for Retail จะต้องปล่อยการควบคุม **คำแนะนำ** ลงในหน้า **ธุรกรรม**
+    > เพื่อแสดงคำแนะนำในหน้า **ธุรกรรม** ผู้ขายปลีกต้องปรับปรุงโครงร่างหน้าจอใน Dynamics 365 for Retail จะต้องปล่อยการควบคุม **คำแนะนำ** ลงในหน้า **ธุรกรรม**
 
     [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 01/04/2019
 
     [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>ตั้งค่าคอนฟิก Dynamics 365 for Retail เพื่อเปิดใช้งานคำแนะนำของ POS
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>ตั้งค่าคอนฟิก Dynamics 365 for Retail เพื่อเปิดใช้งานคำแนะนำ POS
 
 ถ้าต้องการตั้งค่าคำแนะนำผลิตภัณฑ์ คุณต้องตั้งค่าต่อไปนี้
 
@@ -77,13 +76,13 @@ ms.lasthandoff: 01/04/2019
 
 เมื่อคุณรีเฟรชเอนทิตี **ที่จัดเก็บเอนทิตี** การดำเนินการต่อไปนี้จะเกิดขึ้น
 
-- ข้อมูลในรูปแบบที่กำหนดโดยบริการที่มีการรับรู้จะถูกแยกออกจาก Dynamics 365 for Retail สำหรับฐานข้อมูลในการดำเนินงาน และถูกส่งไปยังที่จัดเก็บเอนทิตี
+- ข้อมูลในรูปแบบที่ต้องการโดย Cognitive services ถูกแยกจากฐานข้อมูลด้านการดำเนินการของ Dynamics 365 for Retail และถูกส่งไปยังร้านค้าเอนทิตี
 - ข้อมูลจะถูกใช้โดย Azure Data Factory (ADF) เพื่อลบข้อมูลโดยใช้สคริปต์ Hive โดยเป็นส่วนหนึ่งของกิจกรรม ADF ข้อมูลที่ถูกลบข้อมูลแล้วจะถูกเก็บไว้ใน Blob Storage
 - ข้อมูลจาก Blob Storage จะถูกใช้โดย API บริการที่มีการรับรู้เพื่อฝึกแบบจำลองคำแนะนำ
 
 เมื่อคุณเปิดใช้ **เปิดใช้งานคำแนะนำ** และเรียกใช้งานการตั้งค่าคอนฟิก การดำเนินการต่อไปนี้จะเกิดขึ้น
 
-- ข้อมูลประจำตัวและรหัสแบบจำลองจะได้รับมาจาก API และจะถูกเก็บไว้ในฐานข้อมูลในการดำเนินการ Dynamics 365 for Retail ใน web.config สำหรับ AOS และในเซิร์ฟเวอร์การขายปลีก
+- ข้อมูลประจำตัวแบบจำลองและรหัสถูกเลือกจาก API และถูกจัดเก็บในฐานข้อมูลด้านการดำเนินการของ Dynamics 365 for Retail ใน web.config สำหรับ AOS และในเซิร์ฟเวอร์การขายปลีกด้วย
 - ข้อมูลประจำตัวและรหัสแบบจำลองจะพร้อมใช้งานสำหรับ CRT เพื่อให้สามารถจ่ายการเรียกใช้คำแนะนำผลิตภัณฑ์จาก Cloud POS and MPOS ในโหมดออนไลน์ได้
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>แก้ไขปัญหาที่ซึ่งคุณมีคำแนะนำผลิตภัณฑ์ที่เปิดใช้งานอยู่แล้ว
@@ -94,4 +93,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [เพิ่มตัวควบคุมคำแนะนำในหน้าธุรกรรมบนอุปกรณ์ POS](add-recommendations-control-pos-screen.md)
-

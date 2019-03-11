@@ -1,13 +1,13 @@
 ---
-title: "ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) เฉพาะบริษัท"
-description: "การตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) บางรายการมีการใช้ร่วมกันระหว่างบริษัท ในขณะที่การตั้งค่าของพารามิเตอร์อื่นๆ ใช้เฉพาะบริษัท บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท"
+title: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) เฉพาะบริษัท
+description: การตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) บางรายการมีการใช้ร่วมกันระหว่างบริษัท ในขณะที่การตั้งค่าของพารามิเตอร์อื่นๆ ใช้เฉพาะบริษัท บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: th-th
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306486"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) เฉพาะบริษัท
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 08/09/2018
 สองหน้าจะถูกใช้เพื่อตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) สำหรับพารามิเตอร์ที่ถูกใช้ร่วมกันระหว่างบริษัท คุณใช้หน้า **พารามิเตอร์ที่ใช้ร่วมกันของฝ่ายทรัพยากรบุคคล** สำหรับพารามิเตอร์ที่เฉพาะบริษัท (กล่าวคือ การตั้งค่าจะนำไปใช้กับบริษัทเดียว) คุณใช้หน้า **พารามิเตอร์ทรัพยากรบุคคล** ในหน้า **พารามิเตอร์ทรัพยากรบุคคล** การตั้งค่าถูกแบ่งเป็นหกแท็บ:
 
 -   ทั่วไป
--   การสรรหาบุคลากร - ไม่รวมอยู่ใน Dynamics 365 for Talent
+-   การสรรหาบุคลากร - รายการนี้ไม่ถูกรวมอยู่ใน Dynamics 365 for Talent
 -   ค่าตอบแทน
 -   ลำดับหมายเลข
 -   การลาครอบครัวและลาป่วย (FMLA)
@@ -61,7 +60,6 @@ ms.lasthandoff: 08/09/2018
 --------
 
 [ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

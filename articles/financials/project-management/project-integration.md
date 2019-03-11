@@ -1,13 +1,13 @@
 ---
-title: "การรวม Microsoft Project client"
-description: "การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้ การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ"
+title: การรวม Microsoft Project client
+description: การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้ การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: th-th
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317487"
 ---
-
 # <a name="microsoft-project-client-integration"></a>การรวม Microsoft Project client
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 03/26/2018
 การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้ การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ ผู้จัดการโครงการสามารถประกาศการเปลี่ยนแปลงใดๆ กลับไปยังโครงสร้างการแบ่งงานของโครงการ Finance and Operations
 
 > [!NOTE]
-> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations การอัพเดตเดือนกรกฎาคม 2017 คุณต้องติดตั้ง KB 4054797 และ 4055884
+> ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations การอัพเดตเดือนกรกฎาคม คุณต้องติดตั้ง KB 4054797 และ 4055884
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>ตั้งค่าคอนฟิก add-in ของไคลเอนต์ Microsoft Project
 ในการเปิดใช้งานการรวมกับ Microsoft Project Client จะต้องติดตั้ง add-in ของ Microsoft Dynamics 365 ในแอพลิเคชัน Microsoft Project ของไคลเอนต์ของผู้ใช้ ซึ่งทำได้โดยการเปิด **พื้นที่ทำงานการจัดการโครงการ**
@@ -83,7 +82,7 @@ ms.lasthandoff: 03/26/2018
 
 1.  เปิด Microsoft Project Client
 
-2.  ในแท็บ **Microsoft Dynamics 365** คลิก **เปิด**
+2.  บนแท็บ **Microsoft Dynamics 365** ให้คลิก **เปิด**
 
 3.  เลือก **นิติบุคคล** สำหรับโครงการ
 
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 8.  เลือก **ปฏิทิน** ที่จะใช้สำหรับการจัดหาทรัพยากร
 
 11. คลิก **ตกลง** 
-

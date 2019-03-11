@@ -1,32 +1,31 @@
 ---
-title: "สูตรและเวอร์ชันสูตร"
-description: "หัวข้อนี้แสดงข้อมูลเกี่ยวกับสูตรและเวอร์ชันสูตร สูตรเป็นตัวกำหนดวัสดุ ส่วนประกอบ และผลลัพธ์ของกระบวนการที่ระบุในกระบวนการผลิต สูตรจะถูกใช้ในการวางแผนและสร้างผลิตภัณฑ์ในกระบวนการผลิต"
+title: สูตรและเวอร์ชันสูตร
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสูตรและเวอร์ชันสูตร สูตรเป็นตัวกำหนดวัสดุ ส่วนประกอบ และผลลัพธ์ของกระบวนการที่ระบุในกระบวนการผลิต สูตรจะถูกใช้ในการวางแผนและสร้างผลิตภัณฑ์ในกระบวนการผลิต
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: th-th
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350124"
 ---
-
 # <a name="formulas-and-formula-versions"></a>สูตรและเวอร์ชันสูตร
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="use-step-consumption"></a>ใช้ปริมาณการใช้ขั้นตอน
 ปริมาณการใช้ขั้นตอนช่วยให้คุณไม่จำต้องป้อนปริมาณในแท็บ **รายการสูตร** สำหรับส่วนผสม แต่ปริมาณการใช้ขั้นตอนจะถูกตั้งค่าคอนฟิกเพื่อให้มีค่า **จากชุด** และค่า **ปริมาณ** มีการเลือกข้อมูลจากปริมาณการใช้ขั้นตอนต่อเรกคอร์ดชุดที่ทำให้ได้ปริมาณตามใบสั่งชุดงาน ปริมาณการใช้ขั้นตอนมีประโยชน์เมื่ออัตราปริมาณการใช้ไม่ใช่แบบเชิงเส้นโดยอ้างอิงขนาดใบสั่งชุดงาน และจะเพิ่มความต้องการเฉพาะเมื่อตรงตามปริมาณขีดจำกัดเฉพาะ เมื่อต้องการเปิดใช้งานคุณลักษณะนี้สำหรับสูตรใหม่ ภายใต้กลุ่ม **การคำนวณปริมาณการใช้** เปลี่ยนการตั้งค่าสูตรสำหรับส่วนผสมที่เกี่ยวข้องจาก **มาตรฐาน** เป็น **ขั้นตอน** คุณระบุวิธีปริมาณการใช้นี้ในแท็บ **ตั้งค่า** ของหน้า **รายการสูตร**
-

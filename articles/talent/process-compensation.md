@@ -1,13 +1,13 @@
 ---
-title: "ประมวลผลค่าตอบแทน"
-description: "การประมวลผลค่าตอบแทนช่วยให้คุณสามารถคำนวณยอดเงินค่าตอบแทนพื้นฐานใหม่ สำหรับพนักงานของคุณตามการปรับปรุงของผู้ถือหุ้น เป้าหมายการขึ้นค่าตอบแทนตามผลงาน และประสิทธิภาพการทำงาน"
+title: ประมวลผลค่าตอบแทน
+description: การประมวลผลค่าตอบแทนช่วยให้คุณสามารถคำนวณยอดเงินค่าตอบแทนพื้นฐานใหม่ สำหรับพนักงานของคุณตามการปรับปรุงของผู้ถือหุ้น เป้าหมายการขึ้นค่าตอบแทนตามผลงาน และประสิทธิภาพการทำงาน
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: th-th
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306442"
 ---
-
 # <a name="process-compensation"></a>ประมวลผลค่าตอบแทน
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ ms.lasthandoff: 03/08/2018
 หลังจากที่เหตุการณ์ของพนักงานอย่างน้อยหนึ่งรายการได้อัพเดตสถานะเป็นอนุมัติแล้ว จึงสามารถโหลดไปยังเรกคอร์ดค่าตอบแทนคงที่ของพนักงานได้ ซึ่งสามารถทำได้โดย การเลือกแต่ละเหตุการณ์ของพนักงานหนึ่งเหตุการณ์ต่อครั้ง และการคลิกปุ่ม **โหลดค่าตอบแทนของพนักงาน** บนหน้า **ผลลัพธ์ของพนักงาน** หรือโดยการคลิก **โหลดค่าตอบแทน** ในหน้า **ผลลัพธ์ของกระบวนการ** เพื่อโหลดเหตุการณ์ของพนักงานที่ได้อนุมัติทั้งหมดในคราวเดียวกัน
 
 การคลิก **ตกลง** ในกล่องโต้ตอบ **โหลดค่าตอบแทน** จะเพิ่มรายการการดำเนินการเกี่ยวกับค่าตอบแทนที่ไม่ใช่ศูนย์ไปยังหน้า **ค่าตอบแทนคงที่ของพนักงาน**
-

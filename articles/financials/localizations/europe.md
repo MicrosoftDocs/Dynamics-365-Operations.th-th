@@ -1,13 +1,13 @@
 ---
-title: "ยุโรป"
-description: "หัวข้อนี้แสดงลิงก์ไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 for Finance and Operations สำหรับยุโรป"
+title: ยุโรป
+description: หัวข้อนี้แสดงการเชื่อมโยงไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 for Finance and Operations สำหรับยุโรป
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: th-th
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321742"
 ---
-
 # <a name="europe"></a>ยุโรป 
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้มีข้อมูลและการเชื่อมโยงไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่า Dynamics 365 for Finance and Operations สำหรับนิติบุคคลที่มีที่อยู่หลักในยุโรป 
+หัวข้อนี้รวมข้อมูลและลิงค์ไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่า Dynamics 365 for Finance and Operations สำหรับเอนทิตีทางกฎหมายที่มีที่อยู่หลักในยุโรป 
 
 - [ผู้ถือครองเงินทดรองจ่าย](emea-advance-holders.md)
  - [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](emea-advance-holders-transactions.md)
@@ -99,5 +98,4 @@ ms.lasthandoff: 09/17/2018
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 
