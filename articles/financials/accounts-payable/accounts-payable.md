@@ -3,7 +3,7 @@ title: โฮมเพจบัญชีเจ้าหนี้
 description: หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302947"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403296"
 ---
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
@@ -123,15 +123,17 @@ ms.locfileid: "302947"
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา 
+ไปที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-
-มีโพสต์ต่างๆ เกี่ยวกับบัญชีเจ้าหนี้ใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของบัญชีเจ้าหนี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
+
+#### <a name="community-blogs"></a>บล็อกคอมมูนิตี
+
+[วิธีการจัดการบัญชีเจ้าหนี้ใน Dynamics 365 for Finance and Operations](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>คู่มืองาน
 วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ
