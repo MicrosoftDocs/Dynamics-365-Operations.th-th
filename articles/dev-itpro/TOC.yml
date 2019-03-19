@@ -46,6 +46,10 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: บทสอนเครื่องมือการพัฒนา
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: ติดตั้ง BaseX สำหรับ AppChecker
+        href: dev-tools/install-basex.md
     - name: ตัวสำรวจแอปพลิเคชัน
       href: dev-tools/application-explorer.md
     - name: สร้างและดีบักโครงการ
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: พื้นฐาน
       items:
       - name: การกำหนดการบุกรุก
@@ -887,6 +893,7 @@ items:
   - name: ปรับใช้สภาพแวดล้อมสาธิต
     href: deployment/deploy-demo-environment.md
   - name: การปรับใช้ระบบคลาวด์
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: การปรับใช้แบบบริการตนเอง
       href: deployment/infrastructure-stack.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: การเลิกสนับสนุน
     items:
-    - name: API ที่เลิกสนับสนุน
-      href: migration-upgrade/deprecated-apis.md
-    - name: คุณสมบัติที่เลิกสนับสนุน
+    - name: คุณสมบัติที่เอาออกหรือเลิกสนับสนุน
       href: migration-upgrade/deprecated-features.md
+    - name: การเลิกใช้วิธีการและองค์ประกอบข้อมูลเมตา
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: API ที่เลิกสนับสนุน (มิถุนายน 2017)
+      href: migration-upgrade/deprecated-apis.md
 - name: การจัดการระบบ
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1122,6 +1131,8 @@ items:
       href: sysadmin/activeperiod.md
     - name: บทบาทความปลอดภัยสำหรับผู้จัดการชุดงาน
       href: sysadmin/runby.md
+    - name: ชุดงานสำหรับการจัดการการจัดเรียงข้อมูลดัชนี SQL
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: ไฟล์หน่วยความจำคำแปล
       href: lifecycle-services/use-translation-service-tm.md
-- name: การจัดการฐานข้อมูล
+- name: การดำเนินการย้ายฐานข้อมูล
   items:
-  - name: คัดลอกฐานข้อมูลจาก Azure SQL Database ไปยังสภาพแวดล้อม SQL Server
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: คัดลอกฐานข้อมูลจาก SQL Server ไปยังสภาพแวดล้อม Azure SQL Database ที่ใช้งานจริง
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: คืนค่าฐานข้อมูลในสภาพแวดล้อมที่ไม่ใช้งานจริง
-    href: database/request-point-in-time-restore.md
-  - name: ส่งออกสำเนาฐานข้อมูลเพื่อคืนค่าในภายหลัง
-    href: database/copy-operations-database.md
-  - name: คำขอสำหรับการรีเฟรชฐานข้อมูล Sandbox
-    href: database/database-refresh.md
+  - name: ภาพรวม
+    href: database/dbmovement-operations.md
+  - name: คู่มือการเริ่มต้นแบบด่วน
+    items:
+    - name: รีเฟรชฐานข้อมูล
+      href: database/database-refresh.md
+    - name: ส่งออกฐานข้อมูล
+      href: database/export-database.md
+    - name: นำเข้าฐานข้อมูล
+      href: database/import-database.md
+    - name: การคืนค่าฐานข้อมูล ณ จุดใดจุดหนึ่งของเวลา
+      href: database/database-point-in-time-restore.md
+  - name: บทสอน
+    items:
+    - name: รีเฟรชเพื่อวัตถุประสงค์ในการฝึกอบรม
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: การดีบักและการวินิจฉัย
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: โปรโมชันการจัดโครงแบบ Golden
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: การทดสอบแบบทำลาย
+      href: database/dbmovement-scenario-destructivetests.md
 - name: การสนับสนุน
   items:
   - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: จัดการประสบการณ์การสนับสนุนของ Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373334"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773813"

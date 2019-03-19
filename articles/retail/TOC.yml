@@ -5,6 +5,10 @@ items:
   items:
   - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
     href: get-started/whats-new.md
+  - name: คุณลักษณะตัวอย่างใน Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: มีอะไรใหม่และเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail (เมษายน 2019)
+    href: get-started/april-whats-new.md
   - name: ก่อนที่คุณจะซื้อ Retail
     href: get-started/before-you-buy.md
   - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง
@@ -109,7 +113,11 @@ items:
   - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni
-  href: omni-auto-charges.md
+  items:
+  - name: ตั้งค่าคอนฟิกและใช้ค่าธรรมเนียมอัตโนมัติขั้นสูง
+    href: omni-auto-charges.md
+  - name: การแบ่งตามสัดส่วนและการจัดกลุ่มค่าธรรมเนียมอัตโนมัติสำหรับหัวข้อ
+    href: pro-rate-charges-matching-lines.md
 - name: ศูนย์บริการ
   items:
   - name: ฟังก์ชันการขายของศูนย์บริการ
@@ -387,7 +395,7 @@ items:
     - name: ฟังก์ชันเครื่องบันทึกเงินสด
       href: localizations/emea-swe-cash-registers.md
     - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: งาน Retail
   items:
   - name: สร้างผลิตภัณฑ์
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: แทนที่ตัวจัดการคำขอ POS
       href: dev-itpro/pos-handler.md
+    - name: ดูข้อมูลแพคเกจส่วนขยาย POS
+      href: view-pos-extension-package-details.md
   - name: Hardware Station และความสามารถในการเพิ่มฟังก์ชัน
     href: dev-itpro/hardware-station-extensibility.md
   - name: ความสามารถในการเพิ่มฟังก์ชันของ Retail Server
@@ -659,9 +669,9 @@ items:
     items:
     - name: ส่วนขยายของสมาชิก
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377262"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791649"
