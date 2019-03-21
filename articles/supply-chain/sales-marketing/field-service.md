@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377889"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770904"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>การรวมกับ Microsoft Dynamics 365 for Field Service
 
@@ -75,7 +75,7 @@ Microsoft Dynamics 365 for Finance and Operations เปิดใช้งาน
 ### <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
 การรวม Field Service สนับสนุนเวอร์ชันต่อไปนี้:
 
-- Dynamics 365 for Finance and Operations รุ่น 8.1.2 (ธันวาคม 2019) นำออกใช้ในเดือนธันวาคม 2019 และมีรุ่นของแอพลิเคชันหมายเลข 8.1.195 ที่มี Platform Update 22 (7.0.5095) 
+- Dynamics 365 for Finance and Operations รุ่น 8.1.2 (ธันวาคม 2018) นำออกใช้ในเดือนธันวาคม 2018 และมีรุ่นของแอพลิเคชันหมายเลข 8.1.195 ที่มี Platform Update 22 (7.0.5095) 
 
 ### <a name="system-requirements-for-field-service"></a>ข้อกำหนดของระบบสำหรับ Field Service
 เมื่อต้องการใช้โซลูชันการรวม Field Service คุณต้องติดตั้งส่วนประกอบต่อไปนี้:

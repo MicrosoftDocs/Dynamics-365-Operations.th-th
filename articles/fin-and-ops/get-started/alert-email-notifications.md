@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373833"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775075"
 ---
 # <a name="client-alert-notifications-by-email"></a>การแจ้งเตือนลูกค้าทางอีเมล
 
@@ -48,7 +48,7 @@ ms.locfileid: "373833"
 
 ## <a name="alert-notification-email-templates"></a>เท็มเพลตอีเมลการแจ้งเตือน
 
-บริการส่งการแจ้งเตือนอีเมลโดยใช้เท็มเพลตอีเมลที่กำหนดไว้ล่วงหน้า ซึ่งจัดส่งรายละเอียดพื้นฐานของการแจ้งเตือน รายละเอียดเหล่านี้รวมลิงค์ตรงไปยังหน้าที่ซึ่งกฎการแจ้งเตือนถูกกำหนด
+บริการส่งการแจ้งเตือนอีเมลโดยใช้เท็มเพลตอีเมลที่กำหนดไว้ล่วงหน้า ซึ่งจัดส่งรายละเอียดพื้นฐานของการแจ้งเตือน
 
 ภาพต่อไปนี้แสดงโครงสร้างของการแจ้งเตือน เมื่อได้รับทางอีเมล
 

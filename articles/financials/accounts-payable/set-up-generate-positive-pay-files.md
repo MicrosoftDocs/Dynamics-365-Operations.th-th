@@ -1,9 +1,9 @@
 ---
 title: ตั้งค่าและสร้างไฟล์ Positve Pay
-description: บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay
+description: หัวข้อนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346099"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778189"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>ตั้งค่าและสร้างไฟล์ Positve Pay
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay 
+หัวข้อนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay 
 
 ตั้งค่า Positive Pay เพื่อสร้างรายการอิเล็กทรอนิกส์ของเช็คที่ได้รับไปยังธนาคาร  จากนั้น เมื่อเช็คถูกนำเสนอให้แก่ธนาคารแล้ว ธนาคารจะเปรียบเทียบเช็คกับรายการของเช็ค  ถ้าเช็คตรงกับเช็คในรายการ ธนาคารจะเคลียร์เช็ค  ถ้าเช็คไม่ตรงกัน ธนาคารจะระงับเช็คไว้เพื่อตรวจสอบ
 
@@ -94,7 +94,7 @@ ms.locfileid: "346099"
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />
