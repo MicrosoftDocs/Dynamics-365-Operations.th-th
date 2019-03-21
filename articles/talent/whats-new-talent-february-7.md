@@ -1,0 +1,62 @@
+---
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (7 กุมภาพันธ์ 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+author: Darinkramer
+manager: AnnBe
+ms.date: 02/07/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-02-07
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 23386d04fac5a41682d3ced448ce07e6729def3c
+ms.sourcegitcommit: b3b21795f36e5852ffe18200d6fe0b93363b1cbd
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377761"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-7-2019"></a><span data-ttu-id="31901-103">มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (7 กุมภาพันธ์ 2019)</span><span class="sxs-lookup"><span data-stu-id="31901-103">What's new or changed in Dynamics 365 for Talent (February 7, 2019)</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="31901-104">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Talent</span><span class="sxs-lookup"><span data-stu-id="31901-104">This topic describes features that are either new or changed in Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="31901-105">การเปลี่ยนแปลงใน Attract</span><span class="sxs-lookup"><span data-stu-id="31901-105">Changes in Attract</span></span>
+
+### <a name="interview-scheduling-enhancements"></a><span data-ttu-id="31901-106">การปรับปรุงการจัดกำหนดการสัมภาษณ์</span><span class="sxs-lookup"><span data-stu-id="31901-106">Interview scheduling enhancements</span></span>
+<span data-ttu-id="31901-107">มีการทำการปรับปรุงไปยังประสบการณ์ในการจัดกำหนดการสัมภาษณ์ตั้งแต่ต้นจนจบ</span><span class="sxs-lookup"><span data-stu-id="31901-107">Improvements have been made to the end-to-end interview scheduling experience.</span></span> <span data-ttu-id="31901-108">ขณะนี้คุณสามารถดูความพร้อมใช้งานของปฏิทินของผู้สมัครภายใน และใช้ปฏิทินของผู้สมัครภายในสำหรับคำแนะนำในการจัดกำหนดการได้</span><span class="sxs-lookup"><span data-stu-id="31901-108">You can now see the calendar availability of an internal candidate and use the internal candidate’s calendar for schedule recommendations.</span></span> <span data-ttu-id="31901-109">สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการสัมภาษณ์และข้อคิดเห็น](interview-scheduling-feedback.md)</span><span class="sxs-lookup"><span data-stu-id="31901-109">For more information, see [Interview scheduling and feedback](interview-scheduling-feedback.md).</span></span>
+
+### <a name="job-posting-to-linkedin--company-mismatch-issue-fixed"></a><span data-ttu-id="31901-110">การโพสต์งานลงใน LinkedIn – ปัญหาที่ไม่ตรงกันของบริษัทได้รับการแก้ไขแล้ว</span><span class="sxs-lookup"><span data-stu-id="31901-110">Job posting to LinkedIn – company mismatch issue fixed</span></span>
+<span data-ttu-id="31901-111">ปัญหาได้ถูกแก้ไขที่ซึ่งงานที่โพสต์ลงใน LinkedIn จาก Attract ปรากฏอยู่ภายใต้ชื่อบริษัทที่ไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="31901-111">An issue has been fixed where jobs posted to LinkedIn from Attract were appearing under the wrong company name.</span></span> <span data-ttu-id="31901-112">สำหรับข้อมูลเพิ่มเติม ดู [สร้าง อนุมัติ และโพสต์งานใน Attract](creating-jobs-attract.md)</span><span class="sxs-lookup"><span data-stu-id="31901-112">For more information, see [Create, approve, and post jobs in Attract](creating-jobs-attract.md).</span></span>
+
+### <a name="career-site-url-displayed-in-admin-settings"></a><span data-ttu-id="31901-113">URL ของไซต์ทำงานที่แสดงในการตั้งค่าผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="31901-113">Career site URL displayed in Admin settings</span></span>
+<span data-ttu-id="31901-114">URL โฮมเพจของไซต์การทำงานถูกแสดงอยู่ในขณะนี้ใน **การตั้งค่าผู้ดูแลระบบ** ภายใต้ **การจัดการไซต์การทำงาน**</span><span class="sxs-lookup"><span data-stu-id="31901-114">The career site home page URL is now displayed in **Admin Settings** under **Career Site management**.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="31901-115">การเปลี่ยนแปลงใน Core HR</span><span class="sxs-lookup"><span data-stu-id="31901-115">Changes in Core HR</span></span>
+
+<span data-ttu-id="31901-116">**สร้าง 8.1.2134**</span><span class="sxs-lookup"><span data-stu-id="31901-116">**Build 8.1.2134**</span></span>
+
+### <a name="multiple-compensation-levels-supported-on-jobs"></a><span data-ttu-id="31901-117">ระดับค่าตอบแทนต่างๆ ที่ได้รับการสนับสนุนในงาน</span><span class="sxs-lookup"><span data-stu-id="31901-117">Multiple compensation levels supported on jobs</span></span>
+<span data-ttu-id="31901-118">การเปลี่ยนแปลงนี้อนุญาตให้ระดับค่าตอบแทนมากกว่าหนึ่งระดับถูกกำหนดในงาน ซึ่งเปิดใช้งานช่วงค่าตอบแทนคงที่ของพนักงาน ซึ่งอาจแตกต่างกันระหว่างแผนงานเมื่อใช้งานเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="31901-118">This change allows for more than one compensation level to be defined on a job, enabling employee fixed compensation ranges which may differ between plans when using the same job.</span></span> 
+
+<span data-ttu-id="31901-119">ตัวอย่างเช่น:</span><span class="sxs-lookup"><span data-stu-id="31901-119">For example:</span></span>    
+<span data-ttu-id="31901-120">*งาน* - ผู้จัดการฝ่ายบัญชี *ระดับค่าตอบแทนที่เกี่ยวข้อง:* B1 และ B2 - ระดับแต่ละระดับมีช่วงของค่าที่กำหนด</span><span class="sxs-lookup"><span data-stu-id="31901-120">*Job* - Account Manager *Associated compensation levels:* B1 and B2 - Each level has a defined range of values.</span></span> <span data-ttu-id="31901-121">B1 = ต่ำสุด 50,000 ปานกลาง 60,000 สูงสุด 75,000 and B2 = ต่ำสุด 65,000 ปานกลาง 74,000 สูงสุด 85,000</span><span class="sxs-lookup"><span data-stu-id="31901-121">B1 = Min 50,000, Mid 60,000, Max 75,000 and B2 = Min 65,000, Mid 74,000, Max 85,000.</span></span> <span data-ttu-id="31901-122">เมื่อสร้างค่าตอบแทนคงที่สำหรับพนักงาน ตามกฎการมีสิทธิ์ที่กำหนดไว้ ในขณะนี้ แผนถาวรแต่ละแผนสามารถชี้ไปที่งานเดียวกัน และที่ระดับต่างๆ ในงาน</span><span class="sxs-lookup"><span data-stu-id="31901-122">When creating fixed compensation for employees, based on the eligibility rules defined, each fixed plan can now point to the same job and to different levels on the job.</span></span> <span data-ttu-id="31901-123">นี่อนุญาตให้แผนถูกกำหนดในภูมิภาค/บริษัทต่างๆ และชี้ไปที่งานเดียวกันแต่ช่วงที่แตกต่างกันโดยไม่ทำซ้ำงานไปยังบัญชีสำหรับความแตกต่างเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="31901-123">This allows for plans to be defined in different regions/companies and point to the same job but different ranges without duplicating jobs to account for these differences.</span></span>
+
+### <a name="compensation-level-field-has-been-added-to-the-employee-fixed-compensation-entity"></a><span data-ttu-id="31901-124">มีการเพิ่มฟิลด์ระดับค่าตอบแทนไปยังเอนทิตีค่าตอบแทนคงที่ของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="31901-124">Compensation level field has been added to the Employee fixed compensation entity</span></span> 
+<span data-ttu-id="31901-125">ด้วยการอัพเดตนี้ ได้มีการอัพเดตเอนทิตีค่าตอบแทนคงที่ของพนักงานเพื่อรวมฟิลด์ **ระดับค่าตอบแทน**</span><span class="sxs-lookup"><span data-stu-id="31901-125">With this update, the employee fixed compensation entity has been updated to include the **Compensation level** field.</span></span> <span data-ttu-id="31901-126">ส่วนเพิ่มเติมนี้ทำให้ปรับปรุงแผนค่าตอบแทนคงที่ของพนักงานง่ายขึ้น</span><span class="sxs-lookup"><span data-stu-id="31901-126">This addition makes it easier to update employee fixed compensation plans.</span></span> 
+
+### <a name="update-job-family-when-updating-and-creating-new-positions"></a><span data-ttu-id="31901-127">ปรับปรุงตระกูลงาน เมื่อปรับปรุงและสร้างตำแหน่งใหม่</span><span class="sxs-lookup"><span data-stu-id="31901-127">Update Job family when updating and creating new positions</span></span>
+<span data-ttu-id="31901-128">เมื่อเปลี่ยนงานในตำแหน่ง **ตระกูลงาน** จะเป็นค่าเริ่มต้นที่ขึ้นอยู่กับงานที่เลือกในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="31901-128">When changing the job on a position, **Job family** will now default based on the job selected.</span></span>
+
+### <a name="performance-improvements-when-rendering-workspaces"></a><span data-ttu-id="31901-129">การปรับปรุงประสิทธิภาพ เมื่อแสดงพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="31901-129">Performance improvements when rendering workspaces</span></span>
+<span data-ttu-id="31901-130">ในขณะนี้ แท็บการวิเคราะห์ในพื้นที่ทำงานจะโหลดเฉพาะเมื่อเข้าถึงเพจเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="31901-130">Analytics tabs on workspaces will now load only when accessing those pages.</span></span> <span data-ttu-id="31901-131">ตัวบ่งชี้จะแสดงขึ้นในระหว่างการแสดงผลเริ่มต้นของหน้าในมุมซ้ายด้านบนของหน้า</span><span class="sxs-lookup"><span data-stu-id="31901-131">An indicator will display during the initial rendering of the page in the upper-left corner of the page.</span></span>
