@@ -5,44 +5,52 @@ items:
   - name: เริ่มต้นใช้งาน
     href: talent-get-started.md
     items:
-    - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
+    - name: Talent มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
       href: whats-new.md
       items:
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (31 มกราคม 2019)
+      - name: 5 มีนาคม 2019
+        href: whats-new-talent-march-5.md
+      - name: 27 กุมภาพันธ์ 2019
+        href: whats-new-talent-feb-27.md
+      - name: 14 กุมภาพันธ์ 2019
+        href: whats-new-talent-feb14.md
+      - name: 7 กุมภาพันธ์ 2019
+        href: whats-new-talent-february-7.md
+      - name: 31 มกราคม 2019
         href: whats-new-talent-january-29.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (23 มกราคม 2019)
+      - name: 23 มกราคม 2019
         href: whats-new-talent-january-23.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (17 มกราคม 2019)
+      - name: 17 มกราคม 2019
         href: whats-new-talent-january-17.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (11 มกราคม 2019)
+      - name: 11 มกราคม 2019
         href: whats-new-talent-january-11.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
+      - name: 14 ธันวาคม 2018
         href: whats-new-talent-december-14.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
+      - name: 6 ธันวาคม 2018
         href: whats-new-talent-december-6.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (27 พฤศจิกายน 2018)
+      - name: 27 พฤศจิกายน 2018
         href: whats-new-talent-november-27.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 พฤศจิกายน 2018)
+      - name: 15 พฤศจิกายน 2018
         href: whats-new-talent-november-15.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (31 ตุลาคม 2018)
+      - name: 31 ตุลาคม 2018
         href: whats-new-talent-october-31.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (19 ตุลาคม 2018)
+      - name: 19 ตุลาคม 2018
         href: whats-new-talent-october-19.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (15 ตุลาคม 2018)
+      - name: 15 ตุลาคม 2018
         href: whats-new-talent-october-11.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (8 ตุลาคม 2018)
+      - name: 8 ตุลาคม 2018
         href: whats-new-talent-october-8.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (1 ตุลาคม 2018)
+      - name: 1 ตุลาคม 2018
         href: whats-new-talent-october-01.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)
+      - name: 24 กันยายน 2018
         href: whats-new-talent-september-24.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (17 กันยายน 2018)
+      - name: 17 กันยายน 2018
         href: whats-new-talent-september-17-2018.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (10 กันยายน 2018)
+      - name: 10 กันยายน 2018
         href: whats-new-talent-september-10.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (สิงหาคม 2018)
+      - name: สิงหาคม 2018
         href: whats-new-talent-august2018.md
-      - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (กรกฏาคม 2018)
+      - name: กรกฎาคม 2018
         href: whats-new-talent-july2018.md
     - name: ความต้องการของระบบและนโยบายการอัปเดต
       href: talent-versions-update-policy.md
@@ -193,6 +201,8 @@ items:
       href: data-integration.md
     - name: FAQ เกี่ยวกับการรวม
       href: talent-fo-integration.md
+    - name: ทำซ้ำการส่งออกข้อมูลโดยใช้ Azure Logic Apps
+      href: tutorial-integration-recurring-export.md
   - name: การรวม Office
     items:
     - name: บทสอนการรวม Office
@@ -322,9 +332,9 @@ items:
       href: talent-FO-integration.md
     - name: ไม่พบผู้ใช้ Azure Active Directory ในตัวเลือกบุคคล
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
+ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374838"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "782763"

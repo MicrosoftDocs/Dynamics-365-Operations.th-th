@@ -3,7 +3,7 @@ title: นำเข้าเลตเตอร์ออฟเครดิต
 description: 'กระบวนงานนี้นำไปสู่กระบวนการการนำเข้าเลตเตอร์ออฟเครดิต '
 author: kweekley
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3d5539fbd17c880d8bbadd47444c9cc53fce039c
+ms.sourcegitcommit: 0c1deb100d0bf6dacd14b328968bbc7a9d92583a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313577"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "771242"
 ---
 # <a name="import-letter-of-credit"></a>นำเข้าเลตเตอร์ออฟเครดิต
 
@@ -111,8 +111,7 @@ ms.locfileid: "313577"
 1. ไปที่การจัดการเงินสดและธนาคาร > เลตเตอร์ออฟเครดิต > นำเข้าเลตเตอร์ออฟเครดิตและการเรียกเก็บเงิน
 2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 3. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-    * ตรวจสอบสถานะเลตเตอร์ออฟเครดิตการนำเข้า    
-    *   
+    * ตรวจสอบสถานะเลตเตอร์ออฟเครดิตการนำเข้า     
 4. ปิดหน้า
 5. ปิดหน้า
 

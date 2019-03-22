@@ -3,7 +3,7 @@ title: คีย์การลด
 description: บทความนี้แสดงตัวอย่างที่แสดงวิธีการตั้งค่าเงื่อนไขสำคัญของการลด โดยมีข้อมูลเกี่ยวกับการตั้งค่าเงื่อนไขสำคัญของการลดต่างๆ และผลลัพธ์แต่ละครั้ง คุณสามารถใช้เงื่อนไขสำคัญของการลดเพื่อกำหนดวิธีการลดความต้องการการคาดการณ์
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e62431a1fdbeb81dda68297f034ee00adece079
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364821"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770927"
 ---
 # <a name="reduction-keys"></a>คีย์การลด
 
@@ -98,6 +98,7 @@ ms.locfileid: "364821"
 
    ในการคาดการณ์นี้ ไม่มีรอบระยะเวลาที่ชัดเจนระหว่างวันคาดการณ์: ระหว่างวันที่หนึ่ง และวันที่สอง มีช่วงสี่วัน และระหว่างวันที่สอง และวันที่สาม มีช่วงเจ็ดวัน ระยะเวลาต่างๆเหล่านี้คือรอบระยะเวลาแบบไดนามิก
 2. สร้างรายการใบสั่งขายดังต่อไปนี้
+
    | วันที่                             | ปริมาณในใบสั่งขาย |
    |----------------------------------|----------------------|
    | 15 ธันวาคมในปีก่อนหน้านี้ | 500                  |

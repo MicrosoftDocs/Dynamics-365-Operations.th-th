@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363372"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403248"
 ---
 # <a name="general-ledger"></a>บัญชีแยกประเภททั่วไป 
 
@@ -51,23 +51,21 @@ ms.locfileid: "363372"
  - [การชำระภาษีขายและกฎการปัดเศษ](round-sales-tax-payments.md)
 
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-### <a name="whats-new"></a>มีอะไรใหม่
+#### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [บันทึกย่อประจำรุ่น](https://docs.microsoft.com/en-us/business-applications-release-notes/) เพื่อดูว่ามีการนำออกใช้ลักษณะการทำงานใหม่ใด 
+ไปที่ [บันทึกย่อประจำรุ่น Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีการวางแผนคุณลักษณะใหม่ใด 
+
+#### <a name="blogs"></a>บล็อก
+
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [Microsoft Dynamics 365 Finance and Operations - บล็อกข้อมูลทางการเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
+
+[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 
 ### <a name="videos"></a>วิดีโอ
 
 ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
-
-### <a name="blogs"></a>บล็อก
-
-คุณสามารถค้นหาความคิดเห็น ข่าว หรือข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-
-มีโพสต์หลายรายการเกี่ยวกับบัญชีแยกประเภททั่วไปใน [ทีมบล็อกผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับเวอร์ชันก่อนหน้านี้ของบัญชีแยกประเภททั่วไป แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
-
-[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 
 #### <a name="community-blogs"></a>บล็อกของชุมชน
 

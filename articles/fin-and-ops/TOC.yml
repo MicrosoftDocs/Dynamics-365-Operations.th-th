@@ -35,12 +35,6 @@ items:
     - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
       href: get-started/whats-new-changed.md
       items:
-      - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
-        href: get-started/one-version.md
-      - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: คุณสมบัติที่เอาออกหรือเลิกสนับสนุน
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้แบบในสถานที่
         href: get-started/features-not-implemented-on-prem.md
+      - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations รุ่น 10.0.1 (เมษายน 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations รุ่น 10.0 (เมษายน 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations รุ่น 8.1.3 (มกราคม 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations platform update 25 (เมษายน 2019)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (มีนาคม 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (มกราคม 2019)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: การอัปเดตบริการแบบหนึ่งเวอร์ชัน
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
+      href: get-started/one-version.md
+    - name: นโยบายวงจรการใช้งานซอฟต์แวร์ -  ระบบคลาวด์
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: นโยบายวงจรการใช้งานซอฟต์แวร์ - ในสถานที่
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: การอัปเดตบริการรีลีสครั้งแรกและมาตรฐาน
+      href: get-started/public-preview-releases.md
+    - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: ตั้งค่าคอนฟิกการอัปเดตบริการ
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: หยุดการอัปเดตบริการชั่วคราว
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: ระบบอัตโนมัติของงานข้อมูล
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: เหตุการณ์ทางธุรกิจ
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: ซิงโครไนส์ใบสั่งงานจาก Finance and Operations ไปยัง Field Service
+          - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: ตั้งค่าพารามิเตอร์ NF-e สำหรับการจัดทำในภาครัฐ
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: รายงานภาษี SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: พารามิเตอร์สำหรับนิติบุคคล
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: สินทรัพย์ถาวร
         items:
+        - name: ตั้งค่าสินทรัพย์ถาวร
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: ลงทะเบียนการซื้อสินทรัพย์ถาวร
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: คำนวณค่าเสื่อมราคา
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: บัญชีเจ้าหนี้และบัญชีลูกหนี้
+        items:
+        - name: ใบแจ้งหนี้สำหรับการชำระเงิน
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: ตั้งค่าการควบคุมมิติสำหรับการชำระเงิน
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: การจัดการกระแสเงินสด
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: การรายงาน
+        items:
+        - name: การรายงานทางการเงิน
+          href: ../financials/localizations/rus-financial-reports.md
       - name: ส่วนงานในบริษัท
         href: ../financials/localizations/rus-company-divisions.md
       - name: ตั้งค่าอัตราแลกเปลี่ยนสำหรับธุรกรรมสกุลเงิน
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: การรายงานทางการเงิน
         href: ../financials/localizations/rus-financial-reports.md
-      - name: สร้างสมุดบัญชีการซื้อ
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: การรายงานการบัญชีในรูปแบบอิเล็กทรอนิกส์
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: การจัดการกระแสเงินสด
+        href: ../financials/localizations/rus-cash-flow.md
     - name: ซาอุดีอาระเบีย
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,7 +2406,9 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-    - name: สหรัฐ
+      - name: การทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
+    - name: สหรัฐอเมริกา
       href: ../financials/localizations/united-states.md
       items:
       - name: การรายงาน 1099 สิ้นปีสำหรับสหรัฐอเมริกา
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์สำหรับ Application update 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: ระบุที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่สร้าง
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: โซลูชันเชิงวิเคราะห์ที่ฝัง
       items:
       - name: Power BI ที่ฝังในพื้นที่ทำงาน
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: รายงานชนิดลำดับงาน
         href: organization-administration/workflow-types-report.md
+      - name: FAQ เกี่ยวกับลำดับงาน
+        href: organization-administration/workflow-FAQ.md
     - name: การแจ้งเตือน
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: ปฏิบัติตามข้อตกลงการขาย
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: สร้างข้อตกลงทางการค้าใหม่
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: สร้างและประมวลผลเงินคืนของลูกค้า
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: กระบวนการเงินคืนสำหรับการชำระเงิน
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: การให้ส่วนลดทางการค้า
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: สร้างข้อตกลงทางการค้าใหม่
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: การจัดการงานบริการ
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376929"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836407"

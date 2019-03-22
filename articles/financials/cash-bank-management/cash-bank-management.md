@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d15ff8add8a77c27a9f0153c9e881ecae3d9da78
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302969"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403319"
 ---
 # <a name="cash-and-bank-management-home-page"></a>โฮมเพจการจัดการเงินสดและธนาคาร
 
@@ -86,13 +86,11 @@ ms.locfileid: "302969"
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา 
+ไปที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับการจัดการเงินสดและธนาคารและโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-
-มีโพสต์ต่างๆ เกี่ยวกับการจัดการเงินสดและธนาคารใน [บล็อกทีมงานผลิตภัณฑ์ Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) แม้ว่าโพสต์เหล่านี้บางอย่างถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของการจัดการเงินสดและธนาคาร ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงเหมือนกันในเวอร์ชันปัจจุบัน
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 

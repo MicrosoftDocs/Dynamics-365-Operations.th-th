@@ -3,7 +3,7 @@ title: ซิงโครไนส์ใบสั่งงานที่มี�
 description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ใบสั่งงานที่มีหมายเลขโครงการตรงกันจาก Microsoft Dynamics 365 for Field Service ไปยัง Microsoft Dynamics 365 for Finance and Operations
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ca01b085315d916a18c512af28fc7534ce76ee8
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329861"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836453"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
 
@@ -34,9 +34,11 @@ ms.locfileid: "329861"
 
 [![การซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Finance and Operations และ Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-เท็มเพลต **ผลิตภัณฑ์ Field Service (Finance and Operations ไปยัง Field Service)** ที่ใช้ เป็นไปตามเท็มเพลต **ผลิตภัณฑ์ (Finance and Operations ไปยัง Sales) – โดยตรง** จากผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด สำหรับข้อมูลเพิ่มเติม ดู [ผลิตภัณฑ์ (Finance and Operations ไปยัง Sales) – โดยตรง](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)
+เท็มเพลต **ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops)** ที่ใช้ เป็นไปตามเท็มเพลต **ใบสั่งงาน (Field Service ไปยัง Fin and Ops)** สำหรับข้อมูลเพิ่มเติม ดู [ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)
 
-หัวข้อนี้อธิบายเฉพาะความแตกต่างระหว่างเท็มเพลต **ผลิตภัณฑ์ Field Service (Finance and Operations ไปยัง Field Service)** และ **ผลิตภัณฑ์ Field Service (Finance and Operations ไปยัง Field Service)**
+หัวข้อนี้อธิบายความแตกต่างระหว่างสองเท็มเพลตเท่านั้น:
+- **ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops)**
+- **ใบสั่งงาน (Field Service ไปยัง Fin and Ops)**
 
 ความแตกต่างหลักที่ว่า เท็มเพลตนี้รวมการแม็ปของหมายเลขโครงการที่มอบหมายไปยังใบสั่งงานใน Field Service ซึ่งทำให้มั่นใจว่าใบสั่งขายที่สร้างใน Finance and Operations รวมหมายเลขโครงการและการออกใบแจ้งหนี้สามารถเกิดขึ้นได้ในโครงการที่เกี่ยวข้อง นอกจากนี้ เท็มเพลตที่ใช้การกรองและการสอบถามขั้นสูง
 
@@ -44,7 +46,7 @@ ms.locfileid: "329861"
 
 **ชื่อของเท็มเพลตในการรวมข้อมูล:**
 
-- ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Finance and Operations)
+- ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops)
 
 **ชื่อของงานในโครงการการรวมข้อมูล:**
 
@@ -60,18 +62,18 @@ ms.locfileid: "329861"
 
 ภาพประกอบต่อไปนี้แสดงการแม็ปเท็มเพลตในการรวมข้อมูล
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderheader"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Finance and Operations): WorkOrderHeader
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheader"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops): WorkOrderHeader
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWOP1.png)](./media/FSWOP1.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderheaderproject"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Finance and Operations): WorkOrderHeaderProject
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheaderproject"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops): WorkOrderHeaderProject
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWOP2.png)](./media/FSWOP2.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderproduct"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Finance and Operations): WorkOrderProduct
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderproduct"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops): WorkOrderProduct
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWOP3.png)](./media/FSWOP3.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Finance and Operations): WorkOrderService
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderservice"></a>ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Fin and Ops): WorkOrderService
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWOP4.png)](./media/FSWOP4.png)

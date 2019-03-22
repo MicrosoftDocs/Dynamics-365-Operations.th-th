@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 64362ae9e4ebb63ca6da2cd2f41376d1d9047694
+ms.sourcegitcommit: c6af2de37309b574dcb69c9caad436b55136600f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306347"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768496"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>ความต้องการของระบบ Talent และนโยบายการอัพเดต
 
@@ -36,8 +36,8 @@ ms.locfileid: "306347"
 
 *   Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10
 *   Internet Explorer 11 บน Windows 10, Windows 8.1 หรือ Windows 7
-*   Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus แท็บเล็ต 10
-*   Apple Safari (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) หรือ 10.12 (Sierra) หรือ Apple iPad
+*   Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป)
+*   Apple Safari (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป)
 
 เมื่อต้องการค้นหารุ่นล่าสุดของแต่ละเว็บเบราเซอร์ ไปที่เว็บไซต์ของผู้ผลิตซอฟต์แวร์ 
 
