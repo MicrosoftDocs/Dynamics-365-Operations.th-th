@@ -3,7 +3,7 @@ title: โฮมเพจ Business intelligence (BI) และการราย
 description: หัวข้อนี้นำคุณไปยังแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจ และเครื่องมือการรายงานที่มีอยู่ใน Microsoft Dynamics 365 for Finance and Operations
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302935"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902853"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>โฮมเพจ Business intelligence (BI) และการรายงาน
 
@@ -33,7 +33,7 @@ ms.locfileid: "302935"
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
 - [การเข้าถึงข้อมูลและการรายงาน](information-access-reporting.md)
 - [การพูดคุยเกี่ยวกับเทคโนโลยี: ตัวเลือกในการรายงาน](https://www.youtube.com/watch?v=NzZONjKs5xA) (วิดีโอ)
-- [Finance and Operations: ข่าวกรองธุรกิจ](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (บล็อก)
+- [Finance and Operations: บล็อกบริการการวิเคราะห์และการรายงาน Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (บล็อก)
 
 ## <a name="analytical-workspaces"></a>พื้นที่ทำงานการวิเคราะห์
 Finance and Operations มอบรายงานแบบโต้ตอบที่รวมเข้ากับพื้นที่ทำงานของแอปพลิเคชันได้อย่างราบรื่น พื้นที่ทำงานสามารถใช้กราฟิกข้อมูลและภาพที่หลากหลายที่ได้รับการสนับสนุนโดย Microsoft Power BI กราฟิกข้อมูลและภาพเหล่านี้ประกอบด้วยตัวควบคุมจำนวนมากที่เป็นของบุคคลที่สาม ดังนั้น พื้นที่ทำงานจึงสามารถให้ประสบการณ์แบบโต้ตอบให้ผู้ให้เห็นภาพได้อย่างดี
