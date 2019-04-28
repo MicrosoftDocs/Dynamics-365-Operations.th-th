@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,28 +18,28 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1d48bc4bad795611ce322b5f09b78886a50c415c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a50819d579c0ea42aac3f9a18fbcbf0d2cb9ca26
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306369"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856703"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a><span data-ttu-id="3e8a5-103">มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (15 ตุลาคม 2018)</span><span class="sxs-lookup"><span data-stu-id="3e8a5-103">What's new or changed in Dynamics 365 for Talent Core HR (October 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a><span data-ttu-id="17654-103">มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (15 ตุลาคม 2018)</span><span class="sxs-lookup"><span data-stu-id="17654-103">What's new or changed in Dynamics 365 for Talent Core HR (October 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="3e8a5-104">**สร้าง 8.1.1056**</span><span class="sxs-lookup"><span data-stu-id="3e8a5-104">**Build 8.1.1056**</span></span>
+<span data-ttu-id="17654-104">**สร้าง 8.1.1056**</span><span class="sxs-lookup"><span data-stu-id="17654-104">**Build 8.1.1056**</span></span>
 
-<span data-ttu-id="3e8a5-105">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR</span><span class="sxs-lookup"><span data-stu-id="3e8a5-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="17654-105">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR</span><span class="sxs-lookup"><span data-stu-id="17654-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
 
-## <a name="changes"></a><span data-ttu-id="3e8a5-106">การเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="3e8a5-106">Changes</span></span>
-<span data-ttu-id="3e8a5-107">นอกจากการแก้ไขเบ็ดเตล็ด มีการทำการปรับปรุงต่อไปนี้ในรุ่นนี้:</span><span class="sxs-lookup"><span data-stu-id="3e8a5-107">In addition to miscellanous fixes, the following updates have been made in this release:</span></span>
-- <span data-ttu-id="3e8a5-108">ขณะนี้วันสุดท้ายที่ทำงานถูกตั้งค่า เมื่อมีการจ้างงานหรือการตั้งค่าวันที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="3e8a5-108">Last Day worked now set when hiring or setting an employment end date.</span></span>
-- <span data-ttu-id="3e8a5-109">การอ้างอิงการปฏิบัติตามกฎระเบียบของสหรัฐอเมริกาถูกลบออก เมื่ออยู่ในบริษัทที่ไม่ใช่สหรัฐอเมริกา (ACA ADA และ I9)</span><span class="sxs-lookup"><span data-stu-id="3e8a5-109">US compliance references removed when in non US companies (ACA, ADA, and I9).</span></span>
-- <span data-ttu-id="3e8a5-110">วันที่ไม่ถูกต้อง (1/1/1900) จะถูกซ่อนบนหน้าการวิเคราะห์ในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="3e8a5-110">Invalid dates (1/1/1900) are now hidden on analytics pages.</span></span>
+## <a name="changes"></a><span data-ttu-id="17654-106">การเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="17654-106">Changes</span></span>
+<span data-ttu-id="17654-107">นอกจากการแก้ไขเบ็ดเตล็ด มีการทำการปรับปรุงต่อไปนี้ในรุ่นนี้:</span><span class="sxs-lookup"><span data-stu-id="17654-107">In addition to miscellanous fixes, the following updates have been made in this release:</span></span>
+- <span data-ttu-id="17654-108">ขณะนี้วันสุดท้ายที่ทำงานถูกตั้งค่า เมื่อมีการจ้างงานหรือการตั้งค่าวันที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="17654-108">Last Day worked now set when hiring or setting an employment end date.</span></span>
+- <span data-ttu-id="17654-109">การอ้างอิงการปฏิบัติตามกฎระเบียบของสหรัฐอเมริกาถูกลบออก เมื่ออยู่ในบริษัทที่ไม่ใช่สหรัฐอเมริกา (ACA ADA และ I9)</span><span class="sxs-lookup"><span data-stu-id="17654-109">US compliance references removed when in non US companies (ACA, ADA, and I9).</span></span>
+- <span data-ttu-id="17654-110">วันที่ไม่ถูกต้อง (1/1/1900) จะถูกซ่อนบนหน้าการวิเคราะห์ในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="17654-110">Invalid dates (1/1/1900) are now hidden on analytics pages.</span></span>
 
-## <a name="known-issue"></a><span data-ttu-id="3e8a5-111">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="3e8a5-111">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="17654-111">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="17654-111">Known issue</span></span>
 
-<span data-ttu-id="3e8a5-112">**ปัญหา:** เมื่อเพิ่มสิ่งที่แนบมาใหม่ไปยังผู้ปฏิบัติงาน ปุ่ม **สร้าง** และ **แก้ไข** ถูกแรเงา **วิธีการแก้ไขปัญหา:** ก่อนที่จะเปิดหน้าเอกสารแนบ ให้แน่ใจว่า FactBoxes ในหน้า **ผู้ปฏิบัติงาน** ถูกปิดแล้ว</span><span class="sxs-lookup"><span data-stu-id="3e8a5-112">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="3e8a5-113">ถ้า FactBoxes ถูกปิด เมื่อหน้า **ผู้ปฏิบัติงาน** ถูกโหลด ปุ่มเอกสารแนบจะถูกเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="3e8a5-113">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="3e8a5-114">(ปัญหานี้จะได้รับการแก้ไขในการปรับปรุงแพลตฟอร์มถัดไป)</span><span class="sxs-lookup"><span data-stu-id="3e8a5-114">(This issue will be fixed in the next platform update.)</span></span>
+<span data-ttu-id="17654-112">**ปัญหา:** เมื่อเพิ่มสิ่งที่แนบมาใหม่ไปยังผู้ปฏิบัติงาน ปุ่ม **สร้าง** และ **แก้ไข** ถูกแรเงา **วิธีการแก้ไขปัญหา:** ก่อนที่จะเปิดหน้าเอกสารแนบ ให้แน่ใจว่า FactBoxes ในหน้า **ผู้ปฏิบัติงาน** ถูกปิดแล้ว</span><span class="sxs-lookup"><span data-stu-id="17654-112">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="17654-113">ถ้า FactBoxes ถูกปิด เมื่อหน้า **ผู้ปฏิบัติงาน** ถูกโหลด ปุ่มเอกสารแนบจะถูกเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="17654-113">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="17654-114">(ปัญหานี้จะได้รับการแก้ไขในการปรับปรุงแพลตฟอร์มถัดไป)</span><span class="sxs-lookup"><span data-stu-id="17654-114">(This issue will be fixed in the next platform update.)</span></span>

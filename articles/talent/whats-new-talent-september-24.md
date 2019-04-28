@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: aeb75fe4c775b9003c6429de536498f495224098
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 24526a5884c6c5d30d1f49077b88a24364aa4365
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306433"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856172"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a><span data-ttu-id="aefdc-103">มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)</span><span class="sxs-lookup"><span data-stu-id="aefdc-103">What's new or changed in Dynamics 365 for Talent Core HR (September 24, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a><span data-ttu-id="08844-103">มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (24 กันยายน 2018)</span><span class="sxs-lookup"><span data-stu-id="08844-103">What's new or changed in Dynamics 365 for Talent Core HR (September 24, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="aefdc-104">**สร้าง 8.1.1015.0**</span><span class="sxs-lookup"><span data-stu-id="aefdc-104">**Build 8.1.1015.0**</span></span>
+<span data-ttu-id="08844-104">**สร้าง 8.1.1015.0**</span><span class="sxs-lookup"><span data-stu-id="08844-104">**Build 8.1.1015.0**</span></span>
 
-<span data-ttu-id="aefdc-105">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR</span><span class="sxs-lookup"><span data-stu-id="aefdc-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="08844-105">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR</span><span class="sxs-lookup"><span data-stu-id="08844-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="currency-added-to-benefits"></a><span data-ttu-id="aefdc-106">สกุลเงินที่เพิ่มในสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="aefdc-106">Currency added to Benefits</span></span>
+## <a name="currency-added-to-benefits"></a><span data-ttu-id="08844-106">สกุลเงินที่เพิ่มในสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="08844-106">Currency added to Benefits</span></span>
 
-<span data-ttu-id="aefdc-107">แผนสวัสดิการได้รับการปรับปรุงเพื่อรวมสกุลเงินของสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="aefdc-107">Benefit plans have been updated to include the currency of the benefit.</span></span> <span data-ttu-id="aefdc-108">นอกจากนี้ ฟิลด์ใหม่นี้จะพร้อมใช้งานในสวัสดิการของผู้ปฏิบัติงานลงทะเบียนไว้</span><span class="sxs-lookup"><span data-stu-id="aefdc-108">This new field is also available on worker enrolled benefits.</span></span> <span data-ttu-id="aefdc-109">ฟิลด์นี้ใหม่เป็นส่วนหนึ่งของการรักษาสวัสดิการ และการดูรายการของสิทธิ์ความปลอดภัยของผลประโยชน์</span><span class="sxs-lookup"><span data-stu-id="aefdc-109">This new field is part of the Maintain benefits and View a list of benefits security privilege.</span></span>
+<span data-ttu-id="08844-107">แผนสวัสดิการได้รับการปรับปรุงเพื่อรวมสกุลเงินของสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="08844-107">Benefit plans have been updated to include the currency of the benefit.</span></span> <span data-ttu-id="08844-108">นอกจากนี้ ฟิลด์ใหม่นี้จะพร้อมใช้งานในสวัสดิการของผู้ปฏิบัติงานลงทะเบียนไว้</span><span class="sxs-lookup"><span data-stu-id="08844-108">This new field is also available on worker enrolled benefits.</span></span> <span data-ttu-id="08844-109">ฟิลด์นี้ใหม่เป็นส่วนหนึ่งของการรักษาสวัสดิการ และการดูรายการของสิทธิ์ความปลอดภัยของผลประโยชน์</span><span class="sxs-lookup"><span data-stu-id="08844-109">This new field is part of the Maintain benefits and View a list of benefits security privilege.</span></span>
 
-## <a name="update-proration-process--leave-and-absence"></a><span data-ttu-id="aefdc-110">ปรับปรุงกระบวนการการแบ่งตามสัดส่วน – การลางานและการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="aefdc-110">Update proration process – Leave and Absence</span></span>
+## <a name="update-proration-process--leave-and-absence"></a><span data-ttu-id="08844-110">ปรับปรุงกระบวนการการแบ่งตามสัดส่วน – การลางานและการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="08844-110">Update proration process – Leave and Absence</span></span>
 
-<span data-ttu-id="aefdc-111">องค์กรให้รางวัลเวลาหยุดพักแตกต่างกัน ตามเวลาที่พนักงานเข้า และออกจากบริษัท</span><span class="sxs-lookup"><span data-stu-id="aefdc-111">Organizations award time off differently based on when employees join and leave the company.</span></span> <span data-ttu-id="aefdc-112">สำหรับพนักงานที่ออกจากองค์กร บางรายอาจต้องการสิ้นสุดรางวัลในวันที่สิ้นสุดการจ้างงาน ในขณะที่ผู้อื่นขึ้นอยู่กับวันที่สุดท้ายที่ทำงานเพื่อหยุดกระบวนการค้างรับค้างจ่าย</span><span class="sxs-lookup"><span data-stu-id="aefdc-112">For employees leaving the organization, some may need to end the award on the termination date, while others rely on the last day worked to stop the accrual process.</span></span> <span data-ttu-id="aefdc-113">การเปลี่ยนแปลงเหล่านี้ทำให้องค์กรสามารถเลือกเวลาสิ้นสุดการลงทะเบียนในระหว่างกระบวนการสิ้นสุดการจ้างงานได้</span><span class="sxs-lookup"><span data-stu-id="aefdc-113">These changes provide organizations the ability to choose when to end enrollment during the termination process.</span></span> <span data-ttu-id="aefdc-114">ตัวเลือกใหม่เหล่านี้เป็นส่วนหนึ่งของสิทธิ์การใช้งานสำหรับการเลิกจ้างผู้ปฏิบัติงาน และการเลิกจ้างผู้ปฏิบัติงานจากระบบบริการตนเองของผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="aefdc-114">These new options are part of the privileges for Terminate a worker and Terminate a worker from manager self service.</span></span> 
+<span data-ttu-id="08844-111">องค์กรให้รางวัลเวลาหยุดพักแตกต่างกัน ตามเวลาที่พนักงานเข้า และออกจากบริษัท</span><span class="sxs-lookup"><span data-stu-id="08844-111">Organizations award time off differently based on when employees join and leave the company.</span></span> <span data-ttu-id="08844-112">สำหรับพนักงานที่ออกจากองค์กร บางรายอาจต้องการสิ้นสุดรางวัลในวันที่สิ้นสุดการจ้างงาน ในขณะที่ผู้อื่นขึ้นอยู่กับวันที่สุดท้ายที่ทำงานเพื่อหยุดกระบวนการค้างรับค้างจ่าย</span><span class="sxs-lookup"><span data-stu-id="08844-112">For employees leaving the organization, some may need to end the award on the termination date, while others rely on the last day worked to stop the accrual process.</span></span> <span data-ttu-id="08844-113">การเปลี่ยนแปลงเหล่านี้ทำให้องค์กรสามารถเลือกเวลาสิ้นสุดการลงทะเบียนในระหว่างกระบวนการสิ้นสุดการจ้างงานได้</span><span class="sxs-lookup"><span data-stu-id="08844-113">These changes provide organizations the ability to choose when to end enrollment during the termination process.</span></span> <span data-ttu-id="08844-114">ตัวเลือกใหม่เหล่านี้เป็นส่วนหนึ่งของสิทธิ์การใช้งานสำหรับการเลิกจ้างผู้ปฏิบัติงาน และการเลิกจ้างผู้ปฏิบัติงานจากระบบบริการตนเองของผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="08844-114">These new options are part of the privileges for Terminate a worker and Terminate a worker from manager self service.</span></span> 
 
-## <a name="other-changes"></a><span data-ttu-id="aefdc-115">การเปลี่ยนแปลงอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="aefdc-115">Other changes</span></span>
+## <a name="other-changes"></a><span data-ttu-id="08844-115">การเปลี่ยนแปลงอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="08844-115">Other changes</span></span>
 
-<span data-ttu-id="aefdc-116">รุ่นนี้ประกอบด้วยการแก้ไขบักเพิ่มเติมหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="aefdc-116">This release includes several additional bug fixes.</span></span>
+<span data-ttu-id="08844-116">รุ่นนี้ประกอบด้วยการแก้ไขบักเพิ่มเติมหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="08844-116">This release includes several additional bug fixes.</span></span>
 
-## <a name="known-issue"></a><span data-ttu-id="aefdc-117">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="aefdc-117">Known Issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="08844-117">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="08844-117">Known Issue</span></span>
 
--   <span data-ttu-id="aefdc-118">**ปัญหา:** เมื่อเพิ่มสิ่งที่แนบมาใหม่กับผู้ปฏิบัติงาน ปุ่ม **สร้าง** และ **แก้ไข** ถูกแรเงา **วิธีการแก้ไขปัญหา:** ก่อนที่จะเปิดหน้าเอกสารแนบ ให้แน่ใจว่ากล่องแสดงข้อมูลย่อในหน้า **ผู้ปฏิบัติงาน** ถูกปิดแล้ว</span><span class="sxs-lookup"><span data-stu-id="aefdc-118">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the fact boxes on the **Worker** page are closed.</span></span> <span data-ttu-id="aefdc-119">ถ้ากล่องแสดงข้อมูลย่อถูกปิด เมื่อหน้า **ผู้ปฏิบัติงาน** ถูกโหลด ปุ่มเอกสารแนบจะถูกเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="aefdc-119">If the fact boxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="aefdc-120">(ปัญหานี้จะได้รับการแก้ไขในการปรับปรุงแพลตฟอร์มถัดไป)</span><span class="sxs-lookup"><span data-stu-id="aefdc-120">(This issue will be fixed in the next platform update.)</span></span>
+-   <span data-ttu-id="08844-118">**ปัญหา:** เมื่อเพิ่มสิ่งที่แนบมาใหม่กับผู้ปฏิบัติงาน ปุ่ม **สร้าง** และ **แก้ไข** ถูกแรเงา **วิธีการแก้ไขปัญหา:** ก่อนที่จะเปิดหน้าเอกสารแนบ ให้แน่ใจว่ากล่องแสดงข้อมูลย่อในหน้า **ผู้ปฏิบัติงาน** ถูกปิดแล้ว</span><span class="sxs-lookup"><span data-stu-id="08844-118">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the fact boxes on the **Worker** page are closed.</span></span> <span data-ttu-id="08844-119">ถ้ากล่องแสดงข้อมูลย่อถูกปิด เมื่อหน้า **ผู้ปฏิบัติงาน** ถูกโหลด ปุ่มเอกสารแนบจะถูกเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="08844-119">If the fact boxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="08844-120">(ปัญหานี้จะได้รับการแก้ไขในการปรับปรุงแพลตฟอร์มถัดไป)</span><span class="sxs-lookup"><span data-stu-id="08844-120">(This issue will be fixed in the next platform update.)</span></span>
