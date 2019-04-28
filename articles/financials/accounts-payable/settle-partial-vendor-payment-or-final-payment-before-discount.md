@@ -1,7 +1,7 @@
 ---
 title: ชำระการชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันลดราคา
 description: บทความนี้แนะนำคุณผ่านสถานการณ์สมมติการชำระเงินบางส่วนสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และใช้ส่วนลดเงินสด
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ada8331e0ddac9fd0aaf8e2c75b6b64ede1d5cd9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6189d5de80a4b0b157797c1fdd072a8ee86857f3
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361118"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897005"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>ชำระการชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันลดราคา
 

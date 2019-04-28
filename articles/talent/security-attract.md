@@ -1,7 +1,7 @@
 ---
 title: การจัดการความปลอดภัยและบทบาทใน Attract
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับความปลอดภัยบทบาทใน Microsoft Dynamics 365 for Talent - Attract
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789708"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993702"
 ---
 # <a name="security-and-role-management-in-attract"></a>การจัดการความปลอดภัยและบทบาทใน Attract
 
@@ -70,6 +70,16 @@ Attract แสดงบทบาทของผู้ใช้พื้นฐา
 
 ผู้ใช้ที่ถูกกำหนดให้กับบทบาทแบบอ่านอย่างเดียว มีการเข้าถึงแบบอ่านอย่างเดียวไปยังข้อมูลทั้งหมดในสภาพแวดล้อม Attract อย่างไรก็ตาม พวกเขาจะไม่สามารถสร้าง หรือแก้ไขข้อมูลใดๆ ได้
 
+## <a name="find-out-which-roles-you-have"></a>ค้นหาบทบาทที่คุณมี
+
+1.  ใน Attract คลิกเครื่องหมายคำถาม (**?**) ที่มุมบนขวาของหน้า
+
+2.  คลิก **เกี่ยวกับ**
+
+    คุณจะเห็นบทบาทที่คุณมีสำหรับ Attract ในหน้าต่างที่ปรากฏขึ้น:
+
+    ![ดูประเภทลิขสิทธิ์ Attract ของคุณ](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>บทบาทที่ได้รับมอบหมาย
 
 สำหรับงานแต่ละงานที่พวกเขาต้องอยู่ในทีมงานว่าจ้าง ผู้สรรหาและผู้จัดการว่าจ้างสามารถกำหนดผู้รับมอบสิทธิ์ได้อย่างน้อยหนึ่งรายสำหรับพวกเขาเอง อย่างไรก็ตาม พวกเขาไม่สามารถกำหนดผู้รับมอบสิทธิ์สำหรับบุคคลอื่นในทีมงานว่าจ้างได้

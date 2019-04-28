@@ -1,7 +1,7 @@
 ---
 title: สร้างเป้าหมาย
 description: 'คุณสามารถสร้างเป้าหมาย เพิ่มกิจกรรมให้กับเป้าหมาย ติดตามการวัด และเชื่อมโยงเป้าหมายกับการตรวจทาน '
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0bb08b422f52002c0551093e17d2d51fc8a2367d
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350722"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856266"
 ---
 # <a name="create-a-goal"></a>สร้างเป้าหมาย
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "783026"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949908"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (27 กุมภาพันธ์ 2019)
 
@@ -87,7 +87,7 @@ ms.locfileid: "783026"
 
 ## <a name="known-issues"></a>ปัญหาที่ทราบ
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>การเปลี่ยนแปลงไปยังเท็มเพลตการรวม Core HR (Talent Common Data Service for Apps ไปยัง Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>การเปลี่ยนแปลงไปยังเท็มเพลตการรวม Core HR (Talent Common Data Service ไปยัง Finance and Operations)
 เท็มเพลตสำหรับ Core HR ได้มีการอัพเดตเป็น "เท็มเพลตการสอบถามขั้นสูง" ดังนั้น ตามค่าเริ่มต้น การสอบถามขั้นสูงจะพร้อมใช้งานสำหรับโครงการที่สร้างขึ้นโดยใช้เท็มเพลตนี้ นอกจากนี้ ฟังก์ชันการแม็ปเริ่มต้นใดๆ จะมองเห็นได้เฉพาะในโปรแกรมแก้ไขการสอบถามขั้นสูง (ฟังก์ชันการแม็ปค่าเริ่มต้นปรากฏเป็น "FN" ในการแม็ป)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อผิดพลาดในการแม็ป ดู [มีอะไรใหม่ หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14)
@@ -100,19 +100,19 @@ ms.locfileid: "783026"
 
     - **ตำแหน่งงานไปยังตำแหน่ง:** ลบการแม็ปนี้
     - **การกำหนดงานหลักของตำแหน่งงานไปยังตำแหน่ง:** ลบการแม็ปนี้
-    - **ตำแหน่งงานไปยังตำแหน่งฐาน:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service for Apps ไปยังเอนทิตี Finance and Operations **ตำแหน่งฐาน** ย้ายไปที่ตำแหน่ง 7 ในลำดับ
+    - **ตำแหน่งงานไปยังตำแหน่งฐาน:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service ไปยังเอนทิตี Finance and Operations **ตำแหน่งฐาน** ย้ายไปที่ตำแหน่ง 7 ในลำดับ
 
         [![การแม็ปตำแหน่งงานไปยังตำแหน่งฐาน](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **รายละเอียดตำแหน่งงานไปยังตำแหน่ง:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service for Apps ไปยังเอนทิตี Finance and Operations **รายละเอียดตำแหน่ง** ย้ายไปที่ตำแหน่ง 8 ในลำดับ
+    - **รายละเอียดตำแหน่งงานไปยังตำแหน่ง:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service ไปยังเอนทิตี Finance and Operations **รายละเอียดตำแหน่ง** ย้ายไปที่ตำแหน่ง 8 ในลำดับ
 
         [![การแม็ปรายละเอียดตำแหน่งงานไปยังตำแหน่ง](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **ระยะเวลาตำแหน่งงานไปยังตำแหน่ง:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service for Apps ไปยังเอนทิตี Finance and Operations **ระยะเวลาตำแหน่ง**
+    - **ระยะเวลาตำแหน่งงานไปยังตำแหน่ง:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service ไปยังเอนทิตี Finance and Operations **ระยะเวลาตำแหน่ง**
 
         [![การแม็ประยะเวลาตำแหน่งงานไปยังตำแหน่ง](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **ลำดับชั้นตำแหน่งงานไปยังตำแหน่ง:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service for Apps ไปยังเอนทิตี Finance and Operations **ลำดับชั้นตำแหน่ง** เลือก **การสอบถามขั้นสูง** เพื่อทำการสอบถามขั้นสูงของคุณให้พร้อมใช้งานสำหรับโครงการของคุณ
+    - **ลำดับชั้นตำแหน่งงานไปยังตำแหน่ง:** เพิ่มการแม็ปใหม่จากเอนทิตี **ตำแหน่งงาน** Common Data Service ไปยังเอนทิตี Finance and Operations **ลำดับชั้นตำแหน่ง** เลือก **การสอบถามขั้นสูง** เพื่อทำการสอบถามขั้นสูงของคุณให้พร้อมใช้งานสำหรับโครงการของคุณ
 
        [![ปุ่มการสอบถามขั้นสูง](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

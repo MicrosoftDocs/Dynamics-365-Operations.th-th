@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306348"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949862"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
 
@@ -65,7 +65,7 @@ ms.locfileid: "306348"
 
 ### <a name="integration-between-core-hr-and-attract"></a>การรวมระหว่าง Core HR และ Attract
 
-มีการทำการเปลี่ยนแปลงเพื่อปรับปรุงการรวมระหว่าง Core HR และ Attract ที่เกี่ยวข้องกับผู้สมัครที่จะจ้างงาน สำหรับผู้สมัครที่จะจ้างงานจะปรากฏให้เห็นในพื้นที่ทำงาน **การจัดการบุคลากร** เอนทิตี CDS for Apps (CDS 2.0) ต่อไปนี้จะถูกใช้:
+มีการทำการเปลี่ยนแปลงเพื่อปรับปรุงการรวมระหว่าง Core HR และ Attract ที่เกี่ยวข้องกับผู้สมัครที่จะจ้างงาน สำหรับผู้สมัครที่จะจ้างงานที่จะปรากฏให้เห็นในพื้นที่ทำงาน **การจัดการบุคลากร** เอนทิตี Common Data Service ต่อไปนี้จะถูกใช้:
 
 ใบสมัครงาน
 - เหตุผลของสถานะต้องถูกตั้งค่าเป็น มีการยอมรับข้อเสนอ
@@ -139,7 +139,7 @@ ms.locfileid: "306348"
 
 การแปลงฟิลด์เพศยังจำเป็นต้องได้รับการอัพเดตด้วย เลือกชนิดแม็ป **fn** (ฟังก์ชัน) สำหรับเพศ และปรับปรุงการแม็ปค่าต่อไปนี้
 
-| ค่า CDS                   | ค่า Finance and Operations                     |
+| ค่า Common Data Service                   | ค่า Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | เพศชาย                                             |
 | 75440001                    | เพศหญิง                                           |

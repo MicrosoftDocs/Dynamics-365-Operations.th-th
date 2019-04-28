@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306492"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949954"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
 
@@ -135,7 +135,7 @@ ms.locfileid: "306492"
 
 การแปลงฟิลด์เพศยังจำเป็นต้องได้รับการอัพเดตด้วย เลือกชนิดแม็ป **fn** (ฟังก์ชัน) สำหรับเพศ และปรับปรุงการแม็ปค่าต่อไปนี้
 
-| ค่า CDS | มูลค่า Finance and Operations || ------------|------------------ -----------| | 75440000 | บุรุษ || 75440001 | สตรี || 75440002 | ไม่มี || 75440003 | ไม่เจาะจง |
+| ค่า Common Data Service   | มูลค่า Finance and Operations | | ------------|------------------ -----------| | 75440000    | บุรุษ                         | | 75440001    | สตรี                       | | 75440002    | ไม่มี                         | | 75440003    | ไม่เจาะจง                  |
 
 แม็ปที่ปรับปรุงแล้วควรมีลักษณะดังนี้
 

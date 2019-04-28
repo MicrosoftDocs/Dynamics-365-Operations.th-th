@@ -1,7 +1,7 @@
 ---
 title: ใบแจ้งหนี้การชำระเงินล่วงหน้าเปรียบเทียบกับการชำระเงินล่วงหน้า
 description: หัวข้อนี้อธิบายถึงและเปรียบเทียบสองวิธีที่องค์กรสามารถใช้สำหรับการชำระเงินล่วงหน้า (การชำระเงินล่วงหน้า) สำหรับวิธีการที่หนึ่ง สร้างใบแจ้งหนี้สำหรับการชำระเงินล่วงหน้าที่เชื่อมโยงกับใบสั่งซื้อ สำหรับอีกวิธี สร้างใบสำคัญสมุดรายวันการชำระเงินล่วงหน้า โดยการสร้างรายการสมุดรายวันและทำเครื่องหมายเป็นใบสำคัญสมุดรายวันการชำระเงินล่วงหน้า
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0f97eba8831e96b43f7fe7d5ea58359cab47315c
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310150"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897143"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>ใบแจ้งหนี้การชำระเงินล่วงหน้าเปรียบเทียบกับการชำระเงินล่วงหน้า
 

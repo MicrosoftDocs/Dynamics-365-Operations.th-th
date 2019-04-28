@@ -3,7 +3,7 @@ title: ซิงโครไนส์คลังสินค้าจาก Fin
 description: หัวข้อนี้อธิบายเกี่ยวกับเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์คลังสินค้าจาก Microsoft Dynamics 365 for Finance and Operations เป็น Microsoft Dynamics 365 for Field Service
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340326"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842544"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
 
@@ -38,7 +38,7 @@ ms.locfileid: "340326"
 เท็มเพลตและงานพื้นฐานต่อไปนี้ถูกใช้ในการรันการซิงโครไนส์คลังสินค้าจาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Field Service
 
 **เท็มเพลตในการรวมข้อมูล**
-- คลังสินค้า (Finance and Operations ไปยัง Field Service)
+- คลังสินค้า (Fin and Ops ไปยัง Field Service)
 
 **งานในโครงการการรวมข้อมูล**
 - คลังสินค้า
@@ -76,6 +76,6 @@ ms.locfileid: "340326"
 
 ภาพประกอบต่อไปนี้แสดงการแม็ปเท็มเพลตในการรวมข้อมูล
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>คลังสินค้าจาก (Finance and Operations ไปยัง Field Service): คลังสินค้า
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>คลังสินค้า (Fin and Ops ไปยัง Field Service): คลังสินค้า
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/Warehouse1.png)](./media/Warehouse1.png)

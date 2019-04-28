@@ -1,7 +1,7 @@
 ---
 title: จัดการกระบวนการสรรหาบุคลากร
 description: บทความนี้อธิบายแนวคิดที่ผู้คัดเลือกพนักงานสามารถใช้เพื่อติดตามขั้นตอนในกระบวนการสรรหาบุคลากร รวมทั้งความพยายามด้านการโฆษณาตำแหน่งที่เปิดรับสมัคร และสรรหาผู้สมัคร ข้อมูลผู้สมัครและแอพลิเคชันการติดตาม interviewing ผู้สมัคร และเลือกผู้สมัครหนึ่งรายการ ขึ้นไปเพื่อเติมตำแหน่งที่ว่างอยู่ในองค์กรของคุณ
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dfdc1295e0b82672576acdf8e2756dbb36612f8b
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345685"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "858824"
 ---
 # <a name="manage-recruiting-processes"></a>จัดการกระบวนการสรรหาบุคลากร
 

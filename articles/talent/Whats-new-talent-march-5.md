@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "783025"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949816"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (5 มีนาคม 2019)
 
@@ -35,7 +35,7 @@ ms.locfileid: "783025"
 
 ### <a name="extending-option-sets-in-attract"></a>การขยายชุดตัวเลือกใน Attract
 
-ใน Attract มีฟิลด์หลายฟิลด์ที่เป็นชุดตัวเลือกภายใน Common Data Service (CDS) ความสามารถใหม่ได้ถูกนำมาใช้ในการขยายชุดตัวเลือก โดยเริ่มต้นด้วยฟิลด์เหตุผล **การปฏิเสธ** ฟิลด์ **ชนิดการจ้างงาน** และฟิลด์ **ชนิดของอายุงาน**
+ใน Attract มีฟิลด์หลายฟิลด์ที่เป็นชุดตัวเลือกภายใน Common Data Service ความสามารถใหม่ได้ถูกนำมาใช้ในการขยายชุดตัวเลือก โดยเริ่มต้นด้วยฟิลด์เหตุผล **การปฏิเสธ** ฟิลด์ **ชนิดการจ้างงาน** และฟิลด์ **ชนิดของอายุงาน**
 
 > [!IMPORTANT]
 > ฟังก์ชันการโพสต์งานไปยัง LinkedIn จำเป็นต้องมีการใช้ฟิลด์ **ชนิดการจ้างงาน** และฟิลด์ **ชนิดของอายุงาน** ในหน้า **รายละเอียดงาน** ค่าเริ่มต้นในฟิลด์เหล่านี้ได้รับการสนับสนุน โดย LinkedIn และจะแสดงขึ้นเมื่อมีการโพสต์งาน ถ้าคุณกำลังโพสต์งานไปยัง LinkedIn และคุณปรับเปลี่ยนค่าชุดตัวเลือกที่มีอยู่สำหรับฟิลด์เหล่านี้ งานจะยังคงโพสต์ แต่ LinkedIn จะไม่แสดงค่า **ชนิดการจ้างงาน** และ **ชนิดของอายุงาน** แบบกำหนดเอง
@@ -70,8 +70,8 @@ ms.locfileid: "783025"
 ### <a name="other-miscellaneous-bug-fixes"></a>การแก้ไขปัญหาบักเบ็ดเตล็ดอื่นๆ
 การแก้ไขบักรองอื่นๆ ถูกรวมอยู่กับรุ่นนี้
 
-### <a name="upgrade-to-cds-for-apps"></a>อัพเกรดไปยัง CDS for Apps
-กำหนดเวลาสิ้นสุดการอัพเกรดเป็น CDS for Apps ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)
+### <a name="upgrade-to-common-data-service"></a>อัพเกรดเป็น Common Data Service
+เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
