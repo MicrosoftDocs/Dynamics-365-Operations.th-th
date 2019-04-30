@@ -3,7 +3,7 @@ title: ซิงโครไนส์รายการโครงการจ�
 description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้โครงการจาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Field Service
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312519"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842615"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>ซิงโครไนส์รายการโครงการจาก Finance and Operations ไปยัง Field Service
 
@@ -38,13 +38,13 @@ ms.locfileid: "312519"
 เท็มเพลตและงานพื้นฐานต่อไปนี้ถูกใช้ในการรันการทำให้ข้อมูลตรงกันของโครงการจาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Field Service
 
 **เท็มเพลตในการรวมข้อมูล**
-- โครงการ (Finance and Operations ไปยัง Field Service)
+- โครงการ (Fin and Ops ไปยัง Field Service)
 
 **งานในโครงการการรวมข้อมูล**
 - โครงการ
 
 จำเป็นต้องทำงานการซิงโครไนส์ต่อไปนี้ ก่อนที่การซิงโครไนส์ขอโครงการจะเกิดขึ้นได้:
-- บัญชี (Sales ไปยัง Finance and Operations) 
+- บัญชี (Sales ไปยัง Fin and Ops) 
 
 ## <a name="entity-set"></a>การตั้งค่าเอนทิตี้
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ ms.locfileid: "312519"
 ## <a name="template-mapping-in-data-integration"></a>การแม็ปเท็มเพลตในการรวมข้อมูล
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>โครงการ (Finance and Operations ไปยัง Field Service): โครงการ
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>โครงการ (Fin and Ops ไปยัง Field Service): โครงการ
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSProject1.png)](./media/FSProject1.png)

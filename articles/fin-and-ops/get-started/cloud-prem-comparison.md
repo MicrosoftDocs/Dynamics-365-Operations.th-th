@@ -1,28 +1,28 @@
 ---
 title: การเปรียบเทียบของคุณลักษณะแบบระบบคลาวด์ และแบบ on-premises
 description: หัวข้อแสดงลักษณะการทำงานที่ได้รับการสนับสนุนใน Cloud และ On-Premises
-author: robinarh
+author: sericks007
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 04/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: robinr
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
-ms.author: robinr
+ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 18f668bdc49da1022230278f1de8494150e8a5f9
+ms.sourcegitcommit: bdcdcdddcb0517f0c64d541258ccbd119b960719
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313991"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "977217"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>การเปรียบเทียบของคุณลักษณะแบบระบบคลาวด์ และแบบ on-premises
 
@@ -56,8 +56,11 @@ ms.locfileid: "313991"
 | วิธีใช้ | | ใช่ | หมายเลข |
 | ทรัพยากรบุคคล | | ใช่ | ใช่ |
 | ข่าวกรอง | | ใช่ | ใช่ |
-| | การรายงานทางอิเล็กทรอนิกส์ (ER) - การรวมด้วย LCS | ใช่ | ไม่ใช่ |
-| | การรายงานทางอิเล็กทรอนิกส์ (ER) - การรวมกับ SharePoint | ใช่ | ไม่ใช่ |
+| | การรายงานทางอิเล็กทรอนิกส์ (ER) | ใช่ | ใช่ |
+| | ER: การรวมกับ LCS | ใช่ | ไม่ใช่ |
+| | ER: การรวมกับ SharePoint | ใช่ | ไม่ใช่ |
+| | ER: การรวมกับบริการการตั้งค่าคอนฟิกที่เป็นระเบียบบังคับ (RCS) | ใช่ | ไม่ใช่ |
+| | ER: ใช้ระบบไฟล์เฉพาะที่เป็นที่จัดเก็บการตั้งค่าคอนฟิกของ ER ที่สามารถเข้าถึงได้ผ่านทางที่เก็บ ER | ไม่ใช่ | ใช่ |
 | | การรวมด้วย PowerBI.com | ใช่ | ไม่ใช่ |
 | | พื้นที่ทำงานการวิเคราะห์ | ใช่ | หมายเลข |
 | | กระบวนการทางธุรกิจอัจฉริยะ: คำแนะนำ | ใช่ | ไม่ใช่ |

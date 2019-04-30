@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: ส่วนขยายของคลาสด้วยเมธอด wrapping และ Chain of Command
         href: extensibility/method-wrapping-coc.md
-      - name: แนวทางการตั้งชื่อสำหรับส่วนขยายแบบจำลอง
+      - name: แนวทางการตั้งชื่อสำหรับส่วนขยาย
         href: extensibility/naming-guidelines-extensions.md
       - name: ผ่อนปรนข้อจำกัดของแบบจำลองเพื่อปรับโครงสร้างการโอเวอร์เลย์เป็นส่วนขยาย
         href: extensibility/refactoring-over-layering.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: การกรอง SysTest โดยใช้แอททริบิวต์ของคลาสและเมธอด
       href: perf-test/systest-filtering.md
+    - name: ไลบรารีการทดสอบการยอมรับ
+      href: perf-test/acceptance-test-library.md
+    - name: แนวคิดการนำทาง
+      href: perf-test/concepts-navigation.md
+    - name: วิธีการข้อมูลของการทดสอบ
+      href: perf-test/test-data-methods.md
+    - name: เอนทิตี้ในไลบรารีการทดสอบการยอมรับ
+      href: perf-test/concepts-entities.md
+    - name: คำสั่งในไลบรารีการทดสอบการยอมรับ
+      href: perf-test/concepts-commands.md
+    - name: ผู้สร้างในไลบรารีการทดสอบการยอมรับ
+      href: perf-test/concepts-creators.md
+    - name: การสอบถามในไลบรารีการทดสอบการยอมรับ
+      href: perf-test/concepts-queries.md
+    - name: คลาสข้อมูลจำเพาะ
+      href: perf-test/concepts-specifications.md
+    - name: วิซาร์ดการสร้างรหัสในไลบรารีการทดสอบการยอมรับ
+      href: perf-test/code-generation-wizard.md
+    - name: แนวทางปฏิบัติสำหรับไลบรารีการทดสอบการยอมรับ
+      href: perf-test/atl-best-practices.md
+    - name: คำถามที่ถามบ่อย
+      href: perf-test/atl-faq.md
   - name: วันที่มีผลบังคับใช้
     href: dev-tools/date-effectivity.md
   - name: การให้สิทธิ์ใช้งาน ISV
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: ข้อความ
     items:
+    - name: คำบรรยายคุณลักษณะ
+      href: user-interface/feature-callouts.md
     - name: ตัวเลื่อนและกล่องโต้ตอบ MessageBox
       href: user-interface/slider-messagebox.md
     - name: ศูนย์ข้อความ แถบข้อความ และ API รายละเอียดข้อความ
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: ใช้การอัปเดตและส่วนขยายกับส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
       href: deployment/Update-retail-channel.md
-    - name: เริ่มต้นส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
+    - name: เริ่มต้น Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: การปรับใช้ในองค์กร
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: กระบวนการสำหรับการย้ายเข้าสู่การอัปเดตล่าสุด
       href: migration-upgrade/upgrade-latest-update.md
-    - name: อัปเดตสภาพแวดล้อมจากรุ่น 8.0 เป็น 8.1
+    - name: อัปเดตสภาพแวดล้อมจากรุ่น 8.0 เป็น 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: ชุดงานสำหรับการจัดการการจัดเรียงข้อมูลดัชนี SQL
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: ตั้งค่าคอนฟิกการแจ้งเตือนชุดงาน
+      href: sysadmin/alerts.md
+    - name: แบบฟอร์มชุดงานขั้นสูง
+      href: sysadmin/enhanced-forms.md
+    - name: ล้างข้อมูลประวัติชุดงาน
+      href: sysadmin/batch-history-cleanup.md
   - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: รีเฟรชเพื่อวัตถุประสงค์ในการฝึกอบรม
       href: database/dbmovement-scenario-general-refresh.md
-    - name: การดีบักและการวินิจฉัย
+    - name: ดีบักสำเนาของฐานข้อมูลการผลิต
       href: database/dbmovement-scenario-debugdiag.md
+    - name: ส่งออกสำเนาฐานข้อมูลการทดสอบการยอมรับของผู้ใช้มาตรฐาน (UAT)
+      href: database/dbmovement-scenario-exportuat.md
     - name: โปรโมชันการจัดโครงแบบ Golden
       href: database/dbmovement-scenario-goldenconfig.md
     - name: การทดสอบแบบทำลาย
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: จัดการประสบการณ์การสนับสนุนของ Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773813"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976023"
