@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
 description: เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507600"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
@@ -57,9 +61,14 @@ ms.dyn365.ops.version: AX 7.0.0
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">ตั้งค่าคอนฟิกการอัปเดตบริการ</a></p>
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">หยุดการอัปเดตบริการชั่วคราว</a></p>
-<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">รับการแจ้งเตือนเกี่ยวกับการอัพเดตบริการ</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">ระบบอัตโนมัติของงานข้อมูล</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">การรวม</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">เหตุการณ์ทางธุรกิจ</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">เอนทิตี้ข้อมูล</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">การใช้การรวม Microsoft Flow</a></p>
 
 <h3><a href="../financials/index.md">การจัดการทางการเงิน</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></p>
@@ -105,10 +114,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">การพัฒนา</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">ความสามารถในการเพิ่มฟังก์ชัน</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">การรวมข้อมูล</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">การจัดการข้อมูล</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">การรวม Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">การจัดส่งแบบต่อเนื่อง</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">แพลตฟอร์มเคลื่อนที่</a></p>
@@ -117,14 +122,13 @@ ms.dyn365.ops.version: AX 7.0.0
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">การปรับใช้ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">การปรับใช้ในองค์กร</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัปเกรด</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัพเกรด</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">กรอบงานการจัดการข้อมูล</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">การจัดการองค์กร</a></p>
 </td>
 <td>
-<h3>ผลิตภัณฑ์ที่สัมพันธ์กัน</h3>
+<h3>ผลิตภัณฑ์ที่เกี่ยวข้อง</h3>
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">ศูนย์บริการ</p>
 <p><a href="../retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</p>
