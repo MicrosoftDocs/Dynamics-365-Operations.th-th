@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="fe5bb-101">ขณะนี้คุณลักษณะนี้มีให้ใช้งานตามการเชิญเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="fe5bb-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="fe5bb-102">หากต้องการเสนอชื่อองค์กรของคุณเพื่อเข้าร่วม โปรดกรอก [แบบสำรวจนี้](https://aka.ms/ax2012upgrade)</span><span class="sxs-lookup"><span data-stu-id="fe5bb-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
