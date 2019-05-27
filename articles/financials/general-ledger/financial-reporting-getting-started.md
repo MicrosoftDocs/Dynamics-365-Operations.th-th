@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316981"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550316"
 ---
 # <a name="financial-reporting"></a>การรายงานทางการเงิน
 
@@ -34,7 +34,7 @@ ms.locfileid: "316981"
 <a name="accessing-financial-reporting"></a>การเข้าถึงรายงานทางการเงิน
 -----------------------------
 
-คุณสามารถค้นหาเมนู **รายงานทางการเงิน** ได้ในที่ต่อไปนี้ใน Dynamics 365 for Finance and Operations:
+คุณสามารถค้นหาเมนู **รายงานทางการเงิน** ได้ในที่ต่อไปนี้ใน Finance and Operations:
 
 -   **บัญชีแยกประเภททั่วไป** &gt; **การสอบถามและรายงาน**
 -   **การจัดงบประมาณ** &gt; **การสอบถามและรายงาน** &gt; **การจัดงบประมาณพื้นฐาน**

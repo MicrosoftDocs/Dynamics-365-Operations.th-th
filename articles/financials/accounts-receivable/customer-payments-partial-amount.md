@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 510fda7bf35e459e0da5595b083e041bb708c873
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341384"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556361"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินเป็นบางส่วน
 

@@ -17,12 +17,12 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ac271e6d1cc6cad93c164791f54e338a151576
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 40e568da2be5ee5c0f894002a95788bbcb4e25c0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371863"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538399"
 ---
 # <a name="withholding-tax-in-thailand"></a>ภาษีหัก ณ ที่จ่ายในประเทศไทย
 
