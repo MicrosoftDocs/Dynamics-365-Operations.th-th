@@ -19,111 +19,111 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "317487"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556586"
 ---
-# <a name="microsoft-project-client-integration"></a><span data-ttu-id="7ff42-104">การรวม Microsoft Project client</span><span class="sxs-lookup"><span data-stu-id="7ff42-104">Microsoft Project client integration</span></span>
+# <a name="microsoft-project-client-integration"></a><span data-ttu-id="ff8e0-104">การรวม Microsoft Project client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-104">Microsoft Project client integration</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7ff42-105">การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้</span><span class="sxs-lookup"><span data-stu-id="7ff42-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="7ff42-106">การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ</span><span class="sxs-lookup"><span data-stu-id="7ff42-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="7ff42-107">ผู้จัดการโครงการสามารถประกาศการเปลี่ยนแปลงใดๆ กลับไปยังโครงสร้างการแบ่งงานของโครงการ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="7ff42-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
+<span data-ttu-id="ff8e0-105">การวางแผนและการรักษากำหนดการโครงการอาจซับซ้อน ดังนั้นผู้จัดการโครงการต้องใช้เครื่องมือที่ช่วยในการจัดการงานนี้</span><span class="sxs-lookup"><span data-stu-id="ff8e0-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="ff8e0-106">การรวมกับ Microsoft Project Client ให้การสนับสนุนในการเปิดและจัดการโครงสร้างการแบ่งงานของโครงการ</span><span class="sxs-lookup"><span data-stu-id="ff8e0-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="ff8e0-107">ผู้จัดการโครงการสามารถประกาศการเปลี่ยนแปลงใดๆ กลับไปยังโครงสร้างการแบ่งงานของโครงการ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ff8e0-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7ff42-108">ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations การอัพเดตเดือนกรกฎาคม คุณต้องติดตั้ง KB 4054797 และ 4055884</span><span class="sxs-lookup"><span data-stu-id="7ff42-108">If you are using Microsoft Dynamics 365 for Finance and Operations, July update, you must install KB 4054797 and 4055884.</span></span>
+> <span data-ttu-id="ff8e0-108">ถ้าคุณกำลังใช้ Microsoft Dynamics 365 for Finance and Operations การอัพเดตเดือนกรกฎาคม คุณต้องติดตั้ง KB 4054797 และ 4055884</span><span class="sxs-lookup"><span data-stu-id="ff8e0-108">If you are using Microsoft Dynamics 365 for Finance and Operations, July update, you must install KB 4054797 and 4055884.</span></span>
 
-## <a name="configure-the-microsoft-project-client-add-in"></a><span data-ttu-id="7ff42-109">ตั้งค่าคอนฟิก add-in ของไคลเอนต์ Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="7ff42-109">Configure the Microsoft Project Client add-in</span></span>
-<span data-ttu-id="7ff42-110">ในการเปิดใช้งานการรวมกับ Microsoft Project Client จะต้องติดตั้ง add-in ของ Microsoft Dynamics 365 ในแอพลิเคชัน Microsoft Project ของไคลเอนต์ของผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="7ff42-110">To enable the integration with Microsoft Project Client, a Microsoft Dynamics 365 add-in is required to be installed in the user’s client Microsoft Project application.</span></span> <span data-ttu-id="7ff42-111">ซึ่งทำได้โดยการเปิด **พื้นที่ทำงานการจัดการโครงการ**</span><span class="sxs-lookup"><span data-stu-id="7ff42-111">This is done by opening the **Project management workspace**.</span></span>
+## <a name="configure-the-microsoft-project-client-add-in"></a><span data-ttu-id="ff8e0-109">ตั้งค่าคอนฟิก add-in ของไคลเอนต์ Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="ff8e0-109">Configure the Microsoft Project Client add-in</span></span>
+<span data-ttu-id="ff8e0-110">ในการเปิดใช้งานการรวมกับ Microsoft Project Client จะต้องติดตั้ง add-in ของ Microsoft Dynamics 365 ในแอพลิเคชัน Microsoft Project ของไคลเอนต์ของผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="ff8e0-110">To enable the integration with Microsoft Project Client, a Microsoft Dynamics 365 add-in is required to be installed in the user’s client Microsoft Project application.</span></span> <span data-ttu-id="ff8e0-111">ซึ่งทำได้โดยการเปิด **พื้นที่ทำงานการจัดการโครงการ**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-111">This is done by opening the **Project management workspace**.</span></span>
 
-<span data-ttu-id="7ff42-112">•   คลิก **ตั้งค่าคอนฟิกadd-in ไคลเอนต์ของโครงการ** จากส่วน **ลิงค์** > **การตั้งค่า** ของพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="7ff42-112">•   Click **Configure project client add-in** from the **Links** > **Setup** section of the workspace.</span></span>
+<span data-ttu-id="ff8e0-112">•   คลิก **ตั้งค่าคอนฟิกadd-in ไคลเอนต์ของโครงการ** จากส่วน **ลิงค์** > **การตั้งค่า** ของพื้นที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="ff8e0-112">•   Click **Configure project client add-in** from the **Links** > **Setup** section of the workspace.</span></span>
 
-<span data-ttu-id="7ff42-113">•   คลิก **เปิด** แล้วคลิก **รัน** เมื่อได้รับการพร้อมท์</span><span class="sxs-lookup"><span data-stu-id="7ff42-113">•   Click **Open**, then click **Run** when prompted.</span></span>
+<span data-ttu-id="ff8e0-113">•   คลิก **เปิด** แล้วคลิก **รัน** เมื่อได้รับการพร้อมท์</span><span class="sxs-lookup"><span data-stu-id="ff8e0-113">•   Click **Open**, then click **Run** when prompted.</span></span>
 
-## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a><span data-ttu-id="7ff42-114">เปิดและแก้ไขโครงสร้างการแบ่งงานแบบร่างที่มีอยู่ใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-114">Open and edit an existing draft work breakdown structure in Microsoft Project Client</span></span>
-<span data-ttu-id="7ff42-115">ถ้าโครงการใน Finance and Operations ได้สร้างโครงสร้างการแบ่งงานขึ้นแล้ว โครงสร้างการแบ่งงานสามารถถูกเปิดได้ในแอพลิเคชัน Microsoft Project Client ถ้าโครงสร้างการแบ่งงานอยู่ในสถานะร่าง</span><span class="sxs-lookup"><span data-stu-id="7ff42-115">If a project in Finance and Operations already has a work breakdown structure created, the work breakdown structure can be opened in the Microsoft Project Client application if the work breakdown structure is in a draft status.</span></span> <span data-ttu-id="7ff42-116">เมื่อต้องการเปิดจากหน้า **โครงการ** คลิกลิงค์ **เปิดใน Microsoft Project** จากแท็บ **แผน** หน้านี้ยังสามารถเปิดได้จากภายในแอพลิเคชัน Microsoft Project Client โดยการคลิก **เปิด** ในแท็บ **Microsoft Dynamics 365** เลือก **นิติบุคคล** และ **โครงการ** จากรายการ</span><span class="sxs-lookup"><span data-stu-id="7ff42-116">To open from the **Project** page, click **Open in Microsoft Project** link from the **Plan** tab. This page can also be opened from within the Microsoft Project Client application by clicking **Open** in the **Microsoft Dynamics 365** tab. Select the **Legal entity** and **Project** from the list.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="7ff42-117">ถ้าคุณกำลังใช้ Internet Explorer เป็นเบราเซอร์ของคุณ คุณจะต้องคลิก **บันทึก** เพื่อเปิดจากตำแหน่งที่มีการดาวน์โหลดแฟ้มด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="7ff42-117">If you're using Internet Explorer as your browser, you will need to click **Save** to manually open from the location that the file is downloaded to.</span></span> <span data-ttu-id="7ff42-118">หรือ คลิก **บันทึก และเปิด** เพื่อเปิดไฟล์ใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-118">Or, click **Save and open** to open the file in Microsoft Project Client.</span></span> <span data-ttu-id="7ff42-119">ห้ามเปลี่ยนชื่อแฟ้ม เมื่อบันทึก</span><span class="sxs-lookup"><span data-stu-id="7ff42-119">Do not rename the file name when saving.</span></span>
-
-<span data-ttu-id="7ff42-120">ก่อนที่จะทำการแก้ไขใดๆ ไปยังไฟล์โดยใช้ Microsoft Project Client คุณจำเป็นต้องตรวจสอบ คลิก **ตรวจสอบ** ในแท็บ **Microsoft Dynamics 365** นี่จะป้องกันไม่ให้ผู้ใช้คนอื่นแก้ไขโครงสร้างการแบ่งจากภายใน Finance and Operations ได้ในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="7ff42-120">Before making any edits to the file using Microsoft Project Client, you need to check it out. Click **Check out** in the **Microsoft Dynamics 365** tab. This will prevent other users from editing the work breakdown structure from within Finance and Operations at the same time.</span></span> <span data-ttu-id="7ff42-121">ในการเผยแพร่โครงสร้างการแบ่งงานหลังจากเสร็จสิ้นการแก้ไขใดๆ คลิก **เช็คอิน** ในแท็บ **Microsoft Dynamics 365**</span><span class="sxs-lookup"><span data-stu-id="7ff42-121">To publish the work breakdown structure after completing any edits, click **Check in** on the **Microsoft Dynamics 365** tab.</span></span>
-
-<span data-ttu-id="7ff42-122">ถ้ามีการเพิ่มทีมโครงการกับโครงการไปยัง Finance and Operations เรียบร้อยแล้ว รายการทรัพยากรจะถูกเติมด้วยสมาชิกทีมงาน</span><span class="sxs-lookup"><span data-stu-id="7ff42-122">If a project team has already been added to the project in Finance and Operations, the resource list will be populated with the team members.</span></span> <span data-ttu-id="7ff42-123">ถ้าทีมโครงการยังไม่ได้ถูกเพิ่มไปยังโครงการ คุณสามารถเลือกทรัพยากรและสร้างทีมงานภายใน Microsoft Project Client ได้โดยการคลิกที่ปุ่ม **ทรัพยากร** บนแท็บ **Microsoft Dynamics 365** ได้</span><span class="sxs-lookup"><span data-stu-id="7ff42-123">If a project team has not yet been added to the project, you can select resources and build the team within Microsoft Project Client by clicking the **Resources** button on the **Microsoft Dynamics 365** tab.</span></span> 
-
-<span data-ttu-id="7ff42-124">ข้อมูลต่อไปนี้จะถูกซิงค์กลับไปยัง Finance and Operations โดยเป็นส่วนหนึ่งของกระบวนการเช็คอิน:</span><span class="sxs-lookup"><span data-stu-id="7ff42-124">The following data will be synced back to Finance and Operations as part of the check in process:</span></span>
-
-<span data-ttu-id="7ff42-125">•   ชื่องาน</span><span class="sxs-lookup"><span data-stu-id="7ff42-125">•   Task name</span></span>
-
-<span data-ttu-id="7ff42-126">•   วันที่เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="7ff42-126">•   Start date</span></span>
-
-<span data-ttu-id="7ff42-127">•   วันที่เสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="7ff42-127">•   Finish date</span></span>
-
-<span data-ttu-id="7ff42-128">•   รายการก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="7ff42-128">•   Predecessors</span></span>
-
-<span data-ttu-id="7ff42-129">•   ชื่อทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="7ff42-129">•   Resource names</span></span>
-
-<span data-ttu-id="7ff42-130">•   ประเภท</span><span class="sxs-lookup"><span data-stu-id="7ff42-130">•   Category</span></span>
-
-<span data-ttu-id="7ff42-131">•   ประเภททรัพยากร</span><span class="sxs-lookup"><span data-stu-id="7ff42-131">•   Resource category</span></span>
-
-<span data-ttu-id="7ff42-132">•   ชั่วโมงทำงาน</span><span class="sxs-lookup"><span data-stu-id="7ff42-132">•   Work hours</span></span>
-
-<span data-ttu-id="7ff42-133">•   บันทึก</span><span class="sxs-lookup"><span data-stu-id="7ff42-133">•   Notes</span></span>
-
-<span data-ttu-id="7ff42-134">•   ระดับความสำคัญ</span><span class="sxs-lookup"><span data-stu-id="7ff42-134">•   Priority</span></span>
+## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a><span data-ttu-id="ff8e0-114">เปิดและแก้ไขโครงสร้างการแบ่งงานแบบร่างที่มีอยู่ใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-114">Open and edit an existing draft work breakdown structure in Microsoft Project Client</span></span>
+<span data-ttu-id="ff8e0-115">ถ้าโครงการใน Finance and Operations ได้สร้างโครงสร้างการแบ่งงานขึ้นแล้ว โครงสร้างการแบ่งงานสามารถถูกเปิดได้ในแอพลิเคชัน Microsoft Project Client ถ้าโครงสร้างการแบ่งงานอยู่ในสถานะร่าง</span><span class="sxs-lookup"><span data-stu-id="ff8e0-115">If a project in Finance and Operations already has a work breakdown structure created, the work breakdown structure can be opened in the Microsoft Project Client application if the work breakdown structure is in a draft status.</span></span> <span data-ttu-id="ff8e0-116">เมื่อต้องการเปิดจากหน้า **โครงการ** คลิกลิงค์ **เปิดใน Microsoft Project** จากแท็บ **แผน** หน้านี้ยังสามารถเปิดได้จากภายในแอพลิเคชัน Microsoft Project Client โดยการคลิก **เปิด** ในแท็บ **Microsoft Dynamics 365** เลือก **นิติบุคคล** และ **โครงการ** จากรายการ</span><span class="sxs-lookup"><span data-stu-id="ff8e0-116">To open from the **Project** page, click **Open in Microsoft Project** link from the **Plan** tab. This page can also be opened from within the Microsoft Project Client application by clicking **Open** in the **Microsoft Dynamics 365** tab. Select the **Legal entity** and **Project** from the list.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7ff42-135">ถ้าคุณเพิ่มคอลัมน์อื่นใดๆ ไปยังแฟ้ม Microsoft Project Client ของคุณ รายการเหล่านั้นจะไม่ถูกบันทึกในไฟล์ และจะไม่ถูกแสดงเมื่อมีการเปิดไฟล์อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="7ff42-135">If you add any other columns to your Microsoft Project Client file, they will not be saved to the file and will not be displayed when the file is opened again.</span></span>
+> <span data-ttu-id="ff8e0-117">ถ้าคุณกำลังใช้ Internet Explorer เป็นเบราเซอร์ของคุณ คุณจะต้องคลิก **บันทึก** เพื่อเปิดจากตำแหน่งที่มีการดาวน์โหลดแฟ้มด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="ff8e0-117">If you're using Internet Explorer as your browser, you will need to click **Save** to manually open from the location that the file is downloaded to.</span></span> <span data-ttu-id="ff8e0-118">หรือ คลิก **บันทึก และเปิด** เพื่อเปิดไฟล์ใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-118">Or, click **Save and open** to open the file in Microsoft Project Client.</span></span> <span data-ttu-id="ff8e0-119">ห้ามเปลี่ยนชื่อแฟ้ม เมื่อบันทึก</span><span class="sxs-lookup"><span data-stu-id="ff8e0-119">Do not rename the file name when saving.</span></span>
 
-## <a name="create-the-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a><span data-ttu-id="7ff42-136">สร้างโครงสร้างการแบ่งงานสำหรับโครงการที่มีอยู่โดยใช้ Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-136">Create the work breakdown structure for an existing project using Microsoft Project Client</span></span>
-<span data-ttu-id="7ff42-137">ในการสร้างโครงสร้างการแบ่งงานใหม่โดยใช้ Microsoft Project Client ให้ดำเนินการตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="7ff42-137">To create a new work breakdown structure using Microsoft Project Client, follow these steps:</span></span>
+<span data-ttu-id="ff8e0-120">ก่อนที่จะทำการแก้ไขใดๆ ไปยังไฟล์โดยใช้ Microsoft Project Client คุณจำเป็นต้องตรวจสอบ คลิก **ตรวจสอบ** ในแท็บ **Microsoft Dynamics 365** นี่จะป้องกันไม่ให้ผู้ใช้คนอื่นแก้ไขโครงสร้างการแบ่งจากภายใน Finance and Operations ได้ในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="ff8e0-120">Before making any edits to the file using Microsoft Project Client, you need to check it out. Click **Check out** in the **Microsoft Dynamics 365** tab. This will prevent other users from editing the work breakdown structure from within Finance and Operations at the same time.</span></span> <span data-ttu-id="ff8e0-121">ในการเผยแพร่โครงสร้างการแบ่งงานหลังจากเสร็จสิ้นการแก้ไขใดๆ คลิก **เช็คอิน** ในแท็บ **Microsoft Dynamics 365**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-121">To publish the work breakdown structure after completing any edits, click **Check in** on the **Microsoft Dynamics 365** tab.</span></span>
+
+<span data-ttu-id="ff8e0-122">ถ้ามีการเพิ่มทีมโครงการกับโครงการไปยัง Finance and Operations เรียบร้อยแล้ว รายการทรัพยากรจะถูกเติมด้วยสมาชิกทีมงาน</span><span class="sxs-lookup"><span data-stu-id="ff8e0-122">If a project team has already been added to the project in Finance and Operations, the resource list will be populated with the team members.</span></span> <span data-ttu-id="ff8e0-123">ถ้าทีมโครงการยังไม่ได้ถูกเพิ่มไปยังโครงการ คุณสามารถเลือกทรัพยากรและสร้างทีมงานภายใน Microsoft Project Client ได้โดยการคลิกที่ปุ่ม **ทรัพยากร** บนแท็บ **Microsoft Dynamics 365** ได้</span><span class="sxs-lookup"><span data-stu-id="ff8e0-123">If a project team has not yet been added to the project, you can select resources and build the team within Microsoft Project Client by clicking the **Resources** button on the **Microsoft Dynamics 365** tab.</span></span> 
+
+<span data-ttu-id="ff8e0-124">ข้อมูลต่อไปนี้จะถูกซิงค์กลับไปยัง Finance and Operations โดยเป็นส่วนหนึ่งของกระบวนการเช็คอิน:</span><span class="sxs-lookup"><span data-stu-id="ff8e0-124">The following data will be synced back to Finance and Operations as part of the check in process:</span></span>
+
+<span data-ttu-id="ff8e0-125">•   ชื่องาน</span><span class="sxs-lookup"><span data-stu-id="ff8e0-125">•   Task name</span></span>
+
+<span data-ttu-id="ff8e0-126">•   วันที่เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="ff8e0-126">•   Start date</span></span>
+
+<span data-ttu-id="ff8e0-127">•   วันที่เสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="ff8e0-127">•   Finish date</span></span>
+
+<span data-ttu-id="ff8e0-128">•   รายการก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="ff8e0-128">•   Predecessors</span></span>
+
+<span data-ttu-id="ff8e0-129">•   ชื่อทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="ff8e0-129">•   Resource names</span></span>
+
+<span data-ttu-id="ff8e0-130">•   ประเภท</span><span class="sxs-lookup"><span data-stu-id="ff8e0-130">•   Category</span></span>
+
+<span data-ttu-id="ff8e0-131">•   ประเภททรัพยากร</span><span class="sxs-lookup"><span data-stu-id="ff8e0-131">•   Resource category</span></span>
+
+<span data-ttu-id="ff8e0-132">•   ชั่วโมงทำงาน</span><span class="sxs-lookup"><span data-stu-id="ff8e0-132">•   Work hours</span></span>
+
+<span data-ttu-id="ff8e0-133">•   บันทึก</span><span class="sxs-lookup"><span data-stu-id="ff8e0-133">•   Notes</span></span>
+
+<span data-ttu-id="ff8e0-134">•   ระดับความสำคัญ</span><span class="sxs-lookup"><span data-stu-id="ff8e0-134">•   Priority</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ff8e0-135">ถ้าคุณเพิ่มคอลัมน์อื่นใดๆ ไปยังแฟ้ม Microsoft Project Client ของคุณ รายการเหล่านั้นจะไม่ถูกบันทึกในไฟล์ และจะไม่ถูกแสดงเมื่อมีการเปิดไฟล์อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="ff8e0-135">If you add any other columns to your Microsoft Project Client file, they will not be saved to the file and will not be displayed when the file is opened again.</span></span>
+
+## <a name="create-the-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a><span data-ttu-id="ff8e0-136">สร้างโครงสร้างการแบ่งงานสำหรับโครงการที่มีอยู่โดยใช้ Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-136">Create the work breakdown structure for an existing project using Microsoft Project Client</span></span>
+<span data-ttu-id="ff8e0-137">ในการสร้างโครงสร้างการแบ่งงานใหม่โดยใช้ Microsoft Project Client ให้ดำเนินการตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="ff8e0-137">To create a new work breakdown structure using Microsoft Project Client, follow these steps:</span></span>
 
 
-1.  <span data-ttu-id="7ff42-138">เปิด Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-138">Open Microsoft Project Client.</span></span>
+1.  <span data-ttu-id="ff8e0-138">เปิด Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-138">Open Microsoft Project Client.</span></span>
 
-2.  <span data-ttu-id="7ff42-139">บนแท็บ **Microsoft Dynamics 365** ให้คลิก **เปิด**</span><span class="sxs-lookup"><span data-stu-id="7ff42-139">On the **Microsoft Dynamics 365** tab, click **Open**.</span></span>
+2.  <span data-ttu-id="ff8e0-139">บนแท็บ **Microsoft Dynamics 365** ให้คลิก **เปิด**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-139">On the **Microsoft Dynamics 365** tab, click **Open**.</span></span>
 
-3.  <span data-ttu-id="7ff42-140">เลือก **นิติบุคคล** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="7ff42-140">Select the **Legal entity** for the project.</span></span>
+3.  <span data-ttu-id="ff8e0-140">เลือก **นิติบุคคล** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="ff8e0-140">Select the **Legal entity** for the project.</span></span>
 
-4.  <span data-ttu-id="7ff42-141">เลือก **โครงการ**</span><span class="sxs-lookup"><span data-stu-id="7ff42-141">Select the **Project**.</span></span>
+4.  <span data-ttu-id="ff8e0-141">เลือก **โครงการ**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-141">Select the **Project**.</span></span>
 
-5.  <span data-ttu-id="7ff42-142">คลิก **ตรวจสอบ** บนแท็บ **Microsoft Dynamics 365**</span><span class="sxs-lookup"><span data-stu-id="7ff42-142">Click **Check out** on the **Microsoft Dynamics 365** tab.</span></span>
+5.  <span data-ttu-id="ff8e0-142">คลิก **ตรวจสอบ** บนแท็บ **Microsoft Dynamics 365**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-142">Click **Check out** on the **Microsoft Dynamics 365** tab.</span></span>
 
-6.  <span data-ttu-id="7ff42-143">เมื่อพร้อมที่จะเผยแพร่ไปยัง Finance and Operations คลิก **เช็คอิน** บนแท็บ **Microsoft Dynamics 365**</span><span class="sxs-lookup"><span data-stu-id="7ff42-143">When ready to publish to Finance and Operations, click **Check in** on the **Microsoft Dynamics 365** tab.</span></span>
+6.  <span data-ttu-id="ff8e0-143">เมื่อพร้อมที่จะเผยแพร่ไปยัง Finance and Operations คลิก **เช็คอิน** บนแท็บ **Microsoft Dynamics 365**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-143">When ready to publish to Finance and Operations, click **Check in** on the **Microsoft Dynamics 365** tab.</span></span>
 
-## <a name="replace-the-existing-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a><span data-ttu-id="7ff42-144">แทนที่โครงสร้างการแบ่งงานที่มีอยู่สำหรับโครงการที่มีอยู่โดยใช้ Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-144">Replace the existing work breakdown structure for an existing project using Microsoft Project Client</span></span>
-<span data-ttu-id="7ff42-145">ในการสร้างโครงสร้างการแบ่งงานใหม่โดยใช้ Microsoft Project Client และแทนที่โครงสร้างการแบ่งงานที่มีอยู่สำหรับโครงการที่มีอยู่ ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="7ff42-145">To create a new work breakdown structure using Microsoft Project Client and replace an existing work breakdown structure for an existing project, follow these steps:</span></span>
+## <a name="replace-the-existing-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a><span data-ttu-id="ff8e0-144">แทนที่โครงสร้างการแบ่งงานที่มีอยู่สำหรับโครงการที่มีอยู่โดยใช้ Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-144">Replace the existing work breakdown structure for an existing project using Microsoft Project Client</span></span>
+<span data-ttu-id="ff8e0-145">ในการสร้างโครงสร้างการแบ่งงานใหม่โดยใช้ Microsoft Project Client และแทนที่โครงสร้างการแบ่งงานที่มีอยู่สำหรับโครงการที่มีอยู่ ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="ff8e0-145">To create a new work breakdown structure using Microsoft Project Client and replace an existing work breakdown structure for an existing project, follow these steps:</span></span>
 
-1.  <span data-ttu-id="7ff42-146">เปิด Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-146">Open the Microsoft Project Client.</span></span>
+1.  <span data-ttu-id="ff8e0-146">เปิด Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-146">Open the Microsoft Project Client.</span></span>
 
-2.  <span data-ttu-id="7ff42-147">สร้างกำหนดการใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-147">Create the schedule in Microsoft Project Client.</span></span>
+2.  <span data-ttu-id="ff8e0-147">สร้างกำหนดการใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-147">Create the schedule in Microsoft Project Client.</span></span>
 
-3.  <span data-ttu-id="7ff42-148">บนแท็บ **Microsoft Dynamics 365** คลิก **บันทึกการเปลี่ยนแปลง** > **แทนที่โครงการที่มีอยู่**</span><span class="sxs-lookup"><span data-stu-id="7ff42-148">On the **Microsoft Dynamics 365** tab, click **Save changes** > **Replace existing project**.</span></span>
+3.  <span data-ttu-id="ff8e0-148">บนแท็บ **Microsoft Dynamics 365** คลิก **บันทึกการเปลี่ยนแปลง** > **แทนที่โครงการที่มีอยู่**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-148">On the **Microsoft Dynamics 365** tab, click **Save changes** > **Replace existing project**.</span></span>
 
-4.  <span data-ttu-id="7ff42-149">เลือก **นิติบุคคล** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="7ff42-149">Select the **Legal entity** for the project.</span></span>
+4.  <span data-ttu-id="ff8e0-149">เลือก **นิติบุคคล** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="ff8e0-149">Select the **Legal entity** for the project.</span></span>
 
-5.  <span data-ttu-id="7ff42-150">เลือก **โครงการ**</span><span class="sxs-lookup"><span data-stu-id="7ff42-150">Select the **Project**.</span></span>
+5.  <span data-ttu-id="ff8e0-150">เลือก **โครงการ**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-150">Select the **Project**.</span></span>
 
-6.  <span data-ttu-id="7ff42-151">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="7ff42-151">Click **OK**.</span></span>
+6.  <span data-ttu-id="ff8e0-151">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="ff8e0-151">Click **OK**.</span></span>
 
-## <a name="create-a-new-project-from-within-microsoft-project-client"></a><span data-ttu-id="7ff42-152">สร้างโครงการใหม่จากภายใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-152">Create a new project from within Microsoft Project Client</span></span>
+## <a name="create-a-new-project-from-within-microsoft-project-client"></a><span data-ttu-id="ff8e0-152">สร้างโครงการใหม่จากภายใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-152">Create a new project from within Microsoft Project Client</span></span>
 
 
-1.  <span data-ttu-id="7ff42-153">เปิด Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-153">Open the Microsoft Project Client.</span></span>
+1.  <span data-ttu-id="ff8e0-153">เปิด Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-153">Open the Microsoft Project Client.</span></span>
 
-2.  <span data-ttu-id="7ff42-154">สร้างกำหนดการใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="7ff42-154">Create the schedule in Microsoft Project Client.</span></span>
+2.  <span data-ttu-id="ff8e0-154">สร้างกำหนดการใน Microsoft Project Client</span><span class="sxs-lookup"><span data-stu-id="ff8e0-154">Create the schedule in Microsoft Project Client.</span></span>
 
-3.  <span data-ttu-id="7ff42-155">บนแท็บ **Microsoft Dynamics 365** คลิก **บันทึกการเปลี่ยนแปลง** > **บันทึกไปยังโครงการใหม่**</span><span class="sxs-lookup"><span data-stu-id="7ff42-155">On the **Microsoft Dynamics 365** tab, click **Save changes** > **Save to new Project**.</span></span>
+3.  <span data-ttu-id="ff8e0-155">บนแท็บ **Microsoft Dynamics 365** คลิก **บันทึกการเปลี่ยนแปลง** > **บันทึกไปยังโครงการใหม่**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-155">On the **Microsoft Dynamics 365** tab, click **Save changes** > **Save to new Project**.</span></span>
 
-4.  <span data-ttu-id="7ff42-156">เลือก **นิติบุคคล** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="7ff42-156">Select the **Legal entity** for the project.</span></span>
+4.  <span data-ttu-id="ff8e0-156">เลือก **นิติบุคคล** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="ff8e0-156">Select the **Legal entity** for the project.</span></span>
 
-5.  <span data-ttu-id="7ff42-157">ป้อน **รหัสโครงการ** ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="7ff42-157">Enter the **Project ID**, if necessary.</span></span>
+5.  <span data-ttu-id="ff8e0-157">ป้อน **รหัสโครงการ** ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="ff8e0-157">Enter the **Project ID**, if necessary.</span></span>
 
-6.  <span data-ttu-id="7ff42-158">ป้อน **ชื่อโครงการ**</span><span class="sxs-lookup"><span data-stu-id="7ff42-158">Enter the **Project name**.</span></span>
+6.  <span data-ttu-id="ff8e0-158">ป้อน **ชื่อโครงการ**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-158">Enter the **Project name**.</span></span>
 
-7.  <span data-ttu-id="7ff42-159">เลือก **ชนิดโครงการ** **กลุ่มโครงการ** และ **รหัสสัญญาโครงการ**</span><span class="sxs-lookup"><span data-stu-id="7ff42-159">Select the **Project type**, **Project group** and the **Project contract ID**.</span></span> <span data-ttu-id="7ff42-160">อีกทางหนึ่งคือ คุณสามารถสร้างสัญญาโครงการใหม่ได้ โดยการคลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="7ff42-160">Alternatively, you can create a new project contract by clicking **New**.</span></span>
+7.  <span data-ttu-id="ff8e0-159">เลือก **ชนิดโครงการ** **กลุ่มโครงการ** และ **รหัสสัญญาโครงการ**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-159">Select the **Project type**, **Project group** and the **Project contract ID**.</span></span> <span data-ttu-id="ff8e0-160">อีกทางหนึ่งคือ คุณสามารถสร้างสัญญาโครงการใหม่ได้ โดยการคลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="ff8e0-160">Alternatively, you can create a new project contract by clicking **New**.</span></span>
 
-8.  <span data-ttu-id="7ff42-161">เลือก **ปฏิทิน** ที่จะใช้สำหรับการจัดหาทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="7ff42-161">Select the **Calendar** to be used for resourcing.</span></span>
+8.  <span data-ttu-id="ff8e0-161">เลือก **ปฏิทิน** ที่จะใช้สำหรับการจัดหาทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="ff8e0-161">Select the **Calendar** to be used for resourcing.</span></span>
 
-11. <span data-ttu-id="7ff42-162">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="7ff42-162">Click **OK**.</span></span>
+11. <span data-ttu-id="ff8e0-162">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="ff8e0-162">Click **OK**.</span></span>

@@ -19,24 +19,24 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 84410a0fd112907bf821710c15a8f261c7d9f1ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315072"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546052"
 ---
-# <a name="service-activities"></a><span data-ttu-id="1ef12-103">กิจกรรมการบริการ</span><span class="sxs-lookup"><span data-stu-id="1ef12-103">Service activities</span></span>        
+# <a name="service-activities"></a><span data-ttu-id="67440-103">กิจกรรมการบริการ</span><span class="sxs-lookup"><span data-stu-id="67440-103">Service activities</span></span>        
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="1ef12-104">สร้างกิจกรรมการบริการเพื่อกำหนดและรักษางานตามที่อธิบายไว้ในใบสั่งบริการ </span><span class="sxs-lookup"><span data-stu-id="1ef12-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="1ef12-105">ใบสั่งบริการหนึ่งฉบับสามารถมีกิจกรรมการบริการหนึ่งอย่างขึ้นไปที่จะดำเนินการโดยผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="1ef12-105">A service order can include one or more service activities to be performed by a worker.</span></span>
+<span data-ttu-id="67440-104">สร้างกิจกรรมการบริการเพื่อกำหนดและรักษางานตามที่อธิบายไว้ในใบสั่งบริการ </span><span class="sxs-lookup"><span data-stu-id="67440-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="67440-105">ใบสั่งบริการหนึ่งฉบับสามารถมีกิจกรรมการบริการหนึ่งอย่างขึ้นไปที่จะดำเนินการโดยผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="67440-105">A service order can include one or more service activities to be performed by a worker.</span></span>
 
-<span data-ttu-id="1ef12-106">กิจกรรมการบริการถูกกำหนดไว้ในแบบฟอร์ม **ชนิดของกิจกรรม**</span><span class="sxs-lookup"><span data-stu-id="1ef12-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="1ef12-107">(คลิก **การขายและการตลาด** \> **การตั้งค่า** \> **กิจกรรม** \> **ชนิดของกิจกรรม**) หลังจากที่คุณตั้งค่ากิจกรรม คุณสามารถเพิ่มไปยังใบสั่งบริการได้โดยอัตโนมัติตามข้อตกลงการให้บริการที่เกี่ยวข้อง หรือคุณสามารถเพิ่มกิจกรรมด้วยตนเองได้ เมื่อคุณเพิ่มรายการไปยังใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="1ef12-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
+<span data-ttu-id="67440-106">กิจกรรมการบริการถูกกำหนดไว้ในแบบฟอร์ม **ชนิดของกิจกรรม**</span><span class="sxs-lookup"><span data-stu-id="67440-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="67440-107">(คลิก **การขายและการตลาด** \> **การตั้งค่า** \> **กิจกรรม** \> **ชนิดของกิจกรรม**) หลังจากที่คุณตั้งค่ากิจกรรม คุณสามารถเพิ่มไปยังใบสั่งบริการได้โดยอัตโนมัติตามข้อตกลงการให้บริการที่เกี่ยวข้อง หรือคุณสามารถเพิ่มกิจกรรมด้วยตนเองได้ เมื่อคุณเพิ่มรายการไปยังใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="67440-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
 
-<span data-ttu-id="1ef12-108">คุณสามารถดูสถานะของกิจกรรมการบริการได้ในแบบฟอร์ม **บอร์ดการจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="1ef12-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="1ef12-109">คุณสามารถดำเนินงานกิจกรรมจากผู้ปฏิบัติงานหนึ่งไปยังผู้ปฏิบัติงานอื่นในแบบฟอร์มนั้น</span><span class="sxs-lookup"><span data-stu-id="1ef12-109">You can also reassign activities from one worker to another worker in that form.</span></span>
+<span data-ttu-id="67440-108">คุณสามารถดูสถานะของกิจกรรมการบริการได้ในแบบฟอร์ม **บอร์ดการจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="67440-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="67440-109">คุณสามารถดำเนินงานกิจกรรมจากผู้ปฏิบัติงานหนึ่งไปยังผู้ปฏิบัติงานอื่นในแบบฟอร์มนั้น</span><span class="sxs-lookup"><span data-stu-id="67440-109">You can also reassign activities from one worker to another worker in that form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1ef12-110">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="1ef12-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="67440-110">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="67440-110">See also</span></span>
 
-<span data-ttu-id="1ef12-111">[บอร์ดการจัดส่ง (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="1ef12-111">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="67440-111">[บอร์ดการจัดส่ง (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="67440-111">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
 

@@ -17,198 +17,198 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0debb7276c4f3e41c2e85ce6bc63b8df5bc159f8
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "348422"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551542"
 ---
-# <a name="er-design-domain-specific-data-model"></a><span data-ttu-id="37650-103">ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER</span><span class="sxs-lookup"><span data-stu-id="37650-103">ER Design domain specific data model</span></span>
+# <a name="er-design-domain-specific-data-model"></a><span data-ttu-id="6a2d8-103">ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER</span><span class="sxs-lookup"><span data-stu-id="6a2d8-103">ER Design domain specific data model</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="37650-104">ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์สามารถสร้างอิเล็กทรอนิกส์ใหม่การตั้งค่าคอนฟิก (ER) ที่ประกอบด้วยแบบจำลองข้อมูลสำหรับเอกสารการชำระเงินทางอิเล็กทรอนิกส์ในการรายงาน</span><span class="sxs-lookup"><span data-stu-id="37650-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="37650-105">ในภายหลังแบบจำลองข้อมูลนี้จะสามารถใช้เป็นแหล่งข้อมูลเมื่อคุณสร้างรูปแบบของเอกสารการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-105">This data model will later be used as a data source when you create the format of the payment documents.</span></span>
+<span data-ttu-id="6a2d8-104">ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์สามารถสร้างอิเล็กทรอนิกส์ใหม่การตั้งค่าคอนฟิก (ER) ที่ประกอบด้วยแบบจำลองข้อมูลสำหรับเอกสารการชำระเงินทางอิเล็กทรอนิกส์ในการรายงาน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="6a2d8-105">ในภายหลังแบบจำลองข้อมูลนี้จะสามารถใช้เป็นแหล่งข้อมูลเมื่อคุณสร้างรูปแบบของเอกสารการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-105">This data model will later be used as a data source when you create the format of the payment documents.</span></span>
 
 
 
-<span data-ttu-id="37650-106">ในตัวอย่างนี้ คุณจะสร้างโครงแบบสำหรับบริษัทตัวอย่าง Litware, inc ขั้นตอนเหล่านี้สามารถดำเนินการในบริษัทใด ๆ ตามที่ตั้งค่าคอนฟิก ER ใช้ร่วมกันระหว่างบริษัท </span><span class="sxs-lookup"><span data-stu-id="37650-106">In this example, you will create a configuration for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="37650-107">เพื่อทำตามขั้นตอนเหล่านี้ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่"</span><span class="sxs-lookup"><span data-stu-id="37650-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
+<span data-ttu-id="6a2d8-106">ในตัวอย่างนี้ คุณจะสร้างโครงแบบสำหรับบริษัทตัวอย่าง Litware, inc ขั้นตอนเหล่านี้สามารถดำเนินการในบริษัทใด ๆ ตามที่ตั้งค่าคอนฟิก ER ใช้ร่วมกันระหว่างบริษัท </span><span class="sxs-lookup"><span data-stu-id="6a2d8-106">In this example, you will create a configuration for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="6a2d8-107">เพื่อทำตามขั้นตอนเหล่านี้ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่"</span><span class="sxs-lookup"><span data-stu-id="6a2d8-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
 
-1. <span data-ttu-id="37650-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="37650-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="37650-109">เลือกผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง ‘Litware, Inc.‘</span><span class="sxs-lookup"><span data-stu-id="37650-109">Select the configuration provider for sample company, ‘Litware, Inc.’</span></span> <span data-ttu-id="37650-110">ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ ก่อนอื่นคุณต้องดำเนินขั้นตอนต่างๆ ให้สำเร็จในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่"</span><span class="sxs-lookup"><span data-stu-id="37650-110">If you don’t see this configuration provider, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>  
-2. <span data-ttu-id="37650-111">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="37650-111">Click Reporting configurations.</span></span>
-    * <span data-ttu-id="37650-112">คุณจะสร้างการตั้งค่าคอนฟิกที่ประกอบด้วยแบบจำลองข้อมูลสำหรับเอกสารการชำระเงินทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="37650-112">You will create a configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="37650-113">รูปแบบข้อมูลนี้จะถูกใช้ในภายหลัง เมื่อคุณสร้างรูปแบบสำหรับเอกสารการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-113">This data model will be used later as a data source when you create the format for the payment documents.</span></span>  
+1. <span data-ttu-id="6a2d8-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="6a2d8-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="6a2d8-109">เลือกผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง ‘Litware, Inc.‘</span><span class="sxs-lookup"><span data-stu-id="6a2d8-109">Select the configuration provider for sample company, ‘Litware, Inc.’</span></span> <span data-ttu-id="6a2d8-110">ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ ก่อนอื่นคุณต้องดำเนินขั้นตอนต่างๆ ให้สำเร็จในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่"</span><span class="sxs-lookup"><span data-stu-id="6a2d8-110">If you don’t see this configuration provider, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>  
+2. <span data-ttu-id="6a2d8-111">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-111">Click Reporting configurations.</span></span>
+    * <span data-ttu-id="6a2d8-112">คุณจะสร้างการตั้งค่าคอนฟิกที่ประกอบด้วยแบบจำลองข้อมูลสำหรับเอกสารการชำระเงินทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="6a2d8-112">You will create a configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="6a2d8-113">รูปแบบข้อมูลนี้จะถูกใช้ในภายหลัง เมื่อคุณสร้างรูปแบบสำหรับเอกสารการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-113">This data model will be used later as a data source when you create the format for the payment documents.</span></span>  
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="37650-114">สร้างแบบจำลองการจัดโครงแบบข้อมูลใหม่</span><span class="sxs-lookup"><span data-stu-id="37650-114">Create a new data model configuration</span></span>
-1. <span data-ttu-id="37650-115">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-115">Click Create configuration to open the drop dialog.</span></span>
-2. <span data-ttu-id="37650-116">ในฟิลด์ชื่อ พิมพ์ 'การชำระเงิน (แบบอย่างง่าย)'</span><span class="sxs-lookup"><span data-stu-id="37650-116">In the Name field, type 'Payments (simplified model)'.</span></span>
-    * <span data-ttu-id="37650-117">การชำระเงิน (แบบอย่างง่าย)</span><span class="sxs-lookup"><span data-stu-id="37650-117">Payments (simplified model)</span></span>  
-3. <span data-ttu-id="37650-118">ในฟิลด์คำอธิบาย พิมพ์ 'การตั้งค่าคอนฟิกรูปแบบการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-118">In the Description field, type 'Payment model configuration'.</span></span>
-    * <span data-ttu-id="37650-119">การตั้งค่าคอนฟิกรูปแบบการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-119">Payment model configuration</span></span>  
-    * <span data-ttu-id="37650-120">ผู้ให้บริการการตั้งค่าคอนฟิกที่ใช้งานอยู่จะถูกป้อนไว้ที่นี่โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="37650-120">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="37650-121">ผู้ให้บริการนี้จะสามารถรักษาการตั้งค่าคอนฟิกนี้</span><span class="sxs-lookup"><span data-stu-id="37650-121">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="37650-122">ผู้ให้บริการอื่นๆสามารถใช้การตั้งค่าคอนฟิกนี้ แต่จะไม่สามารถรักษาค่าคอนฟิกได้</span><span class="sxs-lookup"><span data-stu-id="37650-122">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-4. <span data-ttu-id="37650-123">คลิกปุ่ม 'สร้างการตั้งค่าคอนฟลิก' เพื่อดำเนินงานการสร้างการตั้งค่าคอนฟิกให้เสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="37650-123">Click ‘Create configuration’ button to complete the configuration creation task</span></span>
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="6a2d8-114">สร้างแบบจำลองการจัดโครงแบบข้อมูลใหม่</span><span class="sxs-lookup"><span data-stu-id="6a2d8-114">Create a new data model configuration</span></span>
+1. <span data-ttu-id="6a2d8-115">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-115">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="6a2d8-116">ในฟิลด์ชื่อ พิมพ์ 'การชำระเงิน (แบบอย่างง่าย)'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-116">In the Name field, type 'Payments (simplified model)'.</span></span>
+    * <span data-ttu-id="6a2d8-117">การชำระเงิน (แบบอย่างง่าย)</span><span class="sxs-lookup"><span data-stu-id="6a2d8-117">Payments (simplified model)</span></span>  
+3. <span data-ttu-id="6a2d8-118">ในฟิลด์คำอธิบาย พิมพ์ 'การตั้งค่าคอนฟิกรูปแบบการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-118">In the Description field, type 'Payment model configuration'.</span></span>
+    * <span data-ttu-id="6a2d8-119">การตั้งค่าคอนฟิกรูปแบบการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-119">Payment model configuration</span></span>  
+    * <span data-ttu-id="6a2d8-120">ผู้ให้บริการการตั้งค่าคอนฟิกที่ใช้งานอยู่จะถูกป้อนไว้ที่นี่โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-120">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="6a2d8-121">ผู้ให้บริการนี้จะสามารถรักษาการตั้งค่าคอนฟิกนี้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-121">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="6a2d8-122">ผู้ให้บริการอื่นๆสามารถใช้การตั้งค่าคอนฟิกนี้ แต่จะไม่สามารถรักษาค่าคอนฟิกได้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-122">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+4. <span data-ttu-id="6a2d8-123">คลิกปุ่ม 'สร้างการตั้งค่าคอนฟลิก' เพื่อดำเนินงานการสร้างการตั้งค่าคอนฟิกให้เสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="6a2d8-123">Click ‘Create configuration’ button to complete the configuration creation task</span></span>
 
-## <a name="create-a-data-model"></a><span data-ttu-id="37650-124">สร้างแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="37650-124">Create a data model</span></span>
-    * <span data-ttu-id="37650-125">คุณกำลังสร้างแบบจำลองข้อมูลใหม่สำหรับการตั้งค่าคอนฟิกที่เลือก</span><span class="sxs-lookup"><span data-stu-id="37650-125">You're creating a new data model for the selected configuration.</span></span> <span data-ttu-id="37650-126">เวอร์ชันการตั้งค่าคอนฟิกนี้จะมีสถานะเป็นฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="37650-126">This configuration version will have a status of Draft.</span></span>  
-1. <span data-ttu-id="37650-127">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="37650-127">Click Designer.</span></span>
+## <a name="create-a-data-model"></a><span data-ttu-id="6a2d8-124">สร้างแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="6a2d8-124">Create a data model</span></span>
+    * <span data-ttu-id="6a2d8-125">คุณกำลังสร้างแบบจำลองข้อมูลใหม่สำหรับการตั้งค่าคอนฟิกที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6a2d8-125">You're creating a new data model for the selected configuration.</span></span> <span data-ttu-id="6a2d8-126">เวอร์ชันการตั้งค่าคอนฟิกนี้จะมีสถานะเป็นฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-126">This configuration version will have a status of Draft.</span></span>  
+1. <span data-ttu-id="6a2d8-127">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-127">Click Designer.</span></span>
 
-## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a><span data-ttu-id="37650-128">กำหนดโครงสร้างของฝ่ายที่เข้าร่วมในกระบวนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-128">Define the structure of a party participating in a payment process</span></span>
-1. <span data-ttu-id="37650-129">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-129">Click New to open the drop dialog.</span></span>
-2. <span data-ttu-id="37650-130">ในฟิลด์ชื่อ ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="37650-130">In the Name field, type 'Party'.</span></span>
-    * <span data-ttu-id="37650-131">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="37650-131">Party</span></span>  
-3. <span data-ttu-id="37650-132">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-132">Click Add.</span></span>
-4. <span data-ttu-id="37650-133">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-133">Click New to open the drop dialog.</span></span>
-5. <span data-ttu-id="37650-134">ในฟิลด์ชื่อ พิมพ์ 'ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="37650-134">In the Name field, type 'Name'.</span></span>
-    * <span data-ttu-id="37650-135">ชื่อ</span><span class="sxs-lookup"><span data-stu-id="37650-135">Name</span></span>  
-6. <span data-ttu-id="37650-136">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="37650-136">In the Item type field, select 'String'.</span></span>
-7. <span data-ttu-id="37650-137">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-137">Click Add.</span></span>
-8. <span data-ttu-id="37650-138">ในฟิลด์ค้นหา ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="37650-138">In the Find field, type 'Party'.</span></span>
-    * <span data-ttu-id="37650-139">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="37650-139">Party</span></span>  
-9. <span data-ttu-id="37650-140">คลิก ค้นหาก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="37650-140">Click Find previous.</span></span>
+## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a><span data-ttu-id="6a2d8-128">กำหนดโครงสร้างของฝ่ายที่เข้าร่วมในกระบวนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-128">Define the structure of a party participating in a payment process</span></span>
+1. <span data-ttu-id="6a2d8-129">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-129">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="6a2d8-130">ในฟิลด์ชื่อ ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-130">In the Name field, type 'Party'.</span></span>
+    * <span data-ttu-id="6a2d8-131">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="6a2d8-131">Party</span></span>  
+3. <span data-ttu-id="6a2d8-132">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-132">Click Add.</span></span>
+4. <span data-ttu-id="6a2d8-133">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-133">Click New to open the drop dialog.</span></span>
+5. <span data-ttu-id="6a2d8-134">ในฟิลด์ชื่อ พิมพ์ 'ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-134">In the Name field, type 'Name'.</span></span>
+    * <span data-ttu-id="6a2d8-135">ชื่อ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-135">Name</span></span>  
+6. <span data-ttu-id="6a2d8-136">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-136">In the Item type field, select 'String'.</span></span>
+7. <span data-ttu-id="6a2d8-137">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-137">Click Add.</span></span>
+8. <span data-ttu-id="6a2d8-138">ในฟิลด์ค้นหา ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-138">In the Find field, type 'Party'.</span></span>
+    * <span data-ttu-id="6a2d8-139">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="6a2d8-139">Party</span></span>  
+9. <span data-ttu-id="6a2d8-140">คลิก ค้นหาก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="6a2d8-140">Click Find previous.</span></span>
 
-## <a name="define-the-bank-structure-for-this-model"></a><span data-ttu-id="37650-141">กำหนดโครงสร้างของธนาคารสำหรับแบบจำลองนี้</span><span class="sxs-lookup"><span data-stu-id="37650-141">Define the bank structure for this model</span></span>
-1. <span data-ttu-id="37650-142">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-142">Click New to open the drop dialog.</span></span>
-2. <span data-ttu-id="37650-143">ในฟิลด์ชื่อ พิมพ์ 'ตัวแทน'</span><span class="sxs-lookup"><span data-stu-id="37650-143">In the Name field, type 'Agent'.</span></span>
-    * <span data-ttu-id="37650-144">ตัวแทน</span><span class="sxs-lookup"><span data-stu-id="37650-144">Agent</span></span>  
-3. <span data-ttu-id="37650-145">ในฟิลด์ประเภทสินค้า ให้เลือก 'บันทึก'</span><span class="sxs-lookup"><span data-stu-id="37650-145">In the Item type field, select 'Record'.</span></span>
-4. <span data-ttu-id="37650-146">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-146">Click Add.</span></span>
-5. <span data-ttu-id="37650-147">ในฟิลด์คำอธิบาย ให้ป้อน 'สถาบันการเงิน (เช่น ธนาคาร) ที่ให้บริการบัญชีสำหรับฝ่าย (ลูกหนี้/เจ้าหนี้)'</span><span class="sxs-lookup"><span data-stu-id="37650-147">In the Description field, enter 'Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).'.</span></span>
-    * <span data-ttu-id="37650-148">สถาบันการเงิน (เช่น ธนาคาร) ที่ให้บริการบัญชีสำหรับฝ่าย (ลูกหนี้/เจ้าหนี้)</span><span class="sxs-lookup"><span data-stu-id="37650-148">Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).</span></span>  
-6. <span data-ttu-id="37650-149">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-149">Click New to open the drop dialog.</span></span>
-7. <span data-ttu-id="37650-150">ในฟิลด์ชื่อ พิมพ์ 'ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="37650-150">In the Name field, type 'Name'.</span></span>
-    * <span data-ttu-id="37650-151">ชื่อ</span><span class="sxs-lookup"><span data-stu-id="37650-151">Name</span></span>  
-8. <span data-ttu-id="37650-152">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="37650-152">In the Item type field, select 'String'.</span></span>
-9. <span data-ttu-id="37650-153">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-153">Click Add.</span></span>
-10. <span data-ttu-id="37650-154">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-154">Click New to open the drop dialog.</span></span>
-11. <span data-ttu-id="37650-155">ในฟิลด์ชื่อ พิมพ์ 'SWIFT'</span><span class="sxs-lookup"><span data-stu-id="37650-155">In the Name field, type 'SWIFT'.</span></span>
-    * <span data-ttu-id="37650-156">SWIFT</span><span class="sxs-lookup"><span data-stu-id="37650-156">SWIFT</span></span>  
-12. <span data-ttu-id="37650-157">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-157">Click Add.</span></span>
-13. <span data-ttu-id="37650-158">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสการระบุของธนาคาร'</span><span class="sxs-lookup"><span data-stu-id="37650-158">In the Description field, enter 'Bank identification code'.</span></span>
-    * <span data-ttu-id="37650-159">รหัสการระบุของธนาคาร</span><span class="sxs-lookup"><span data-stu-id="37650-159">Bank identification code</span></span>  
-14. <span data-ttu-id="37650-160">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-160">Click New to open the drop dialog.</span></span>
-15. <span data-ttu-id="37650-161">ในฟิลด์ชื่อ พิมพ์ 'หมายเลขการกำหนดเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="37650-161">In the Name field, type 'RoutingNumber'.</span></span>
-    * <span data-ttu-id="37650-162">หมายเลขการกำหนดเส้นทาง</span><span class="sxs-lookup"><span data-stu-id="37650-162">RoutingNumber</span></span>  
-16. <span data-ttu-id="37650-163">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-163">Click Add.</span></span>
-17. <span data-ttu-id="37650-164">ในฟิลด์คำอธิบาย ให้ป้อน 'หมายเลขเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="37650-164">In the Description field, enter 'Routing number'.</span></span>
-    * <span data-ttu-id="37650-165">หมายเลขกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="37650-165">Routing number</span></span>  
-18. <span data-ttu-id="37650-166">คลิก ค้นหาก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="37650-166">Click Find previous.</span></span>
+## <a name="define-the-bank-structure-for-this-model"></a><span data-ttu-id="6a2d8-141">กำหนดโครงสร้างของธนาคารสำหรับแบบจำลองนี้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-141">Define the bank structure for this model</span></span>
+1. <span data-ttu-id="6a2d8-142">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-142">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="6a2d8-143">ในฟิลด์ชื่อ พิมพ์ 'ตัวแทน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-143">In the Name field, type 'Agent'.</span></span>
+    * <span data-ttu-id="6a2d8-144">ตัวแทน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-144">Agent</span></span>  
+3. <span data-ttu-id="6a2d8-145">ในฟิลด์ประเภทสินค้า ให้เลือก 'บันทึก'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-145">In the Item type field, select 'Record'.</span></span>
+4. <span data-ttu-id="6a2d8-146">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-146">Click Add.</span></span>
+5. <span data-ttu-id="6a2d8-147">ในฟิลด์คำอธิบาย ให้ป้อน 'สถาบันการเงิน (เช่น ธนาคาร) ที่ให้บริการบัญชีสำหรับฝ่าย (ลูกหนี้/เจ้าหนี้)'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-147">In the Description field, enter 'Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).'.</span></span>
+    * <span data-ttu-id="6a2d8-148">สถาบันการเงิน (เช่น ธนาคาร) ที่ให้บริการบัญชีสำหรับฝ่าย (ลูกหนี้/เจ้าหนี้)</span><span class="sxs-lookup"><span data-stu-id="6a2d8-148">Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).</span></span>  
+6. <span data-ttu-id="6a2d8-149">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-149">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="6a2d8-150">ในฟิลด์ชื่อ พิมพ์ 'ชื่อ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-150">In the Name field, type 'Name'.</span></span>
+    * <span data-ttu-id="6a2d8-151">ชื่อ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-151">Name</span></span>  
+8. <span data-ttu-id="6a2d8-152">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-152">In the Item type field, select 'String'.</span></span>
+9. <span data-ttu-id="6a2d8-153">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-153">Click Add.</span></span>
+10. <span data-ttu-id="6a2d8-154">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-154">Click New to open the drop dialog.</span></span>
+11. <span data-ttu-id="6a2d8-155">ในฟิลด์ชื่อ พิมพ์ 'SWIFT'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-155">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="6a2d8-156">SWIFT</span><span class="sxs-lookup"><span data-stu-id="6a2d8-156">SWIFT</span></span>  
+12. <span data-ttu-id="6a2d8-157">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-157">Click Add.</span></span>
+13. <span data-ttu-id="6a2d8-158">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสการระบุของธนาคาร'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-158">In the Description field, enter 'Bank identification code'.</span></span>
+    * <span data-ttu-id="6a2d8-159">รหัสการระบุของธนาคาร</span><span class="sxs-lookup"><span data-stu-id="6a2d8-159">Bank identification code</span></span>  
+14. <span data-ttu-id="6a2d8-160">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-160">Click New to open the drop dialog.</span></span>
+15. <span data-ttu-id="6a2d8-161">ในฟิลด์ชื่อ พิมพ์ 'หมายเลขการกำหนดเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-161">In the Name field, type 'RoutingNumber'.</span></span>
+    * <span data-ttu-id="6a2d8-162">หมายเลขการกำหนดเส้นทาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-162">RoutingNumber</span></span>  
+16. <span data-ttu-id="6a2d8-163">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-163">Click Add.</span></span>
+17. <span data-ttu-id="6a2d8-164">ในฟิลด์คำอธิบาย ให้ป้อน 'หมายเลขเส้นทาง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-164">In the Description field, enter 'Routing number'.</span></span>
+    * <span data-ttu-id="6a2d8-165">หมายเลขกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="6a2d8-165">Routing number</span></span>  
+18. <span data-ttu-id="6a2d8-166">คลิก ค้นหาก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="6a2d8-166">Click Find previous.</span></span>
 
-## <a name="define-the-bank-account-structure-for-this-model"></a><span data-ttu-id="37650-167">กำหนดโครงสร้างของบัญชีสำหรับแบบจำลองนี้</span><span class="sxs-lookup"><span data-stu-id="37650-167">Define the bank account structure for this model</span></span>
-1. <span data-ttu-id="37650-168">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-168">Click New to open the drop dialog.</span></span>
-2. <span data-ttu-id="37650-169">ในฟิลด์ชื่อ ให้พิมพ์ 'บัญชี'</span><span class="sxs-lookup"><span data-stu-id="37650-169">In the Name field, type 'Account'.</span></span>
-    * <span data-ttu-id="37650-170">บัญชี</span><span class="sxs-lookup"><span data-stu-id="37650-170">Account</span></span>  
-3. <span data-ttu-id="37650-171">ในฟิลด์ประเภทสินค้า ให้เลือก 'บันทึก'</span><span class="sxs-lookup"><span data-stu-id="37650-171">In the Item type field, select 'Record'.</span></span>
-4. <span data-ttu-id="37650-172">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-172">Click Add.</span></span>
-5. <span data-ttu-id="37650-173">ในฟิลด์คำอธิบาย ให้ป้อน 'การระบุของบัญชีของฝ่ายในสถาบันการเงิน (เช่น ธนาคาร)'</span><span class="sxs-lookup"><span data-stu-id="37650-173">In the Description field, enter 'Identification of an account of a party in a financial institution (for instance, a bank).'.</span></span>
-    * <span data-ttu-id="37650-174">การระบุของบัญชีของฝ่ายในสถาบันการเงิน (ตัวอย่างเช่น ธนาคาร)</span><span class="sxs-lookup"><span data-stu-id="37650-174">Identification of an account of a party in a financial institution (for instance, a bank).</span></span>  
-6. <span data-ttu-id="37650-175">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-175">Click New to open the drop dialog.</span></span>
-7. <span data-ttu-id="37650-176">ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-176">In the Name field, type 'Currency'.</span></span>
-    * <span data-ttu-id="37650-177">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-177">Currency</span></span>  
-8. <span data-ttu-id="37650-178">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="37650-178">In the Item type field, select 'String'.</span></span>
-9. <span data-ttu-id="37650-179">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-179">Click Add.</span></span>
-10. <span data-ttu-id="37650-180">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสสกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-180">In the Description field, enter 'Currency code'.</span></span>
-    * <span data-ttu-id="37650-181">รหัสสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-181">Currency code</span></span>  
-11. <span data-ttu-id="37650-182">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-182">Click New to open the drop dialog.</span></span>
-12. <span data-ttu-id="37650-183">ในฟิลด์ชื่อ ให้พิมพ์ 'หมายเลข'</span><span class="sxs-lookup"><span data-stu-id="37650-183">In the Name field, type 'Number'.</span></span>
-    * <span data-ttu-id="37650-184">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="37650-184">Number</span></span>  
-13. <span data-ttu-id="37650-185">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-185">Click Add.</span></span>
-14. <span data-ttu-id="37650-186">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-186">Click New to open the drop dialog.</span></span>
-15. <span data-ttu-id="37650-187">ในฟิลด์ชื่อ ให้พิมพ์ 'IBAN'</span><span class="sxs-lookup"><span data-stu-id="37650-187">In the Name field, type 'IBAN'.</span></span>
-    * <span data-ttu-id="37650-188">IBAN</span><span class="sxs-lookup"><span data-stu-id="37650-188">IBAN</span></span>  
-16. <span data-ttu-id="37650-189">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-189">Click Add.</span></span>
-17. <span data-ttu-id="37650-190">ในฟิลด์คำอธิบาย ให้ป้อน 'เลขที่บัญชีธนาคารระหว่างประเทศ'</span><span class="sxs-lookup"><span data-stu-id="37650-190">In the Description field, enter 'International bank account number'.</span></span>
-    * <span data-ttu-id="37650-191">หมายเลขบัญชีธนาคารระหว่างประเทศ</span><span class="sxs-lookup"><span data-stu-id="37650-191">International bank account number</span></span>  
+## <a name="define-the-bank-account-structure-for-this-model"></a><span data-ttu-id="6a2d8-167">กำหนดโครงสร้างของบัญชีสำหรับแบบจำลองนี้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-167">Define the bank account structure for this model</span></span>
+1. <span data-ttu-id="6a2d8-168">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-168">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="6a2d8-169">ในฟิลด์ชื่อ ให้พิมพ์ 'บัญชี'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-169">In the Name field, type 'Account'.</span></span>
+    * <span data-ttu-id="6a2d8-170">บัญชี</span><span class="sxs-lookup"><span data-stu-id="6a2d8-170">Account</span></span>  
+3. <span data-ttu-id="6a2d8-171">ในฟิลด์ประเภทสินค้า ให้เลือก 'บันทึก'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-171">In the Item type field, select 'Record'.</span></span>
+4. <span data-ttu-id="6a2d8-172">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-172">Click Add.</span></span>
+5. <span data-ttu-id="6a2d8-173">ในฟิลด์คำอธิบาย ให้ป้อน 'การระบุของบัญชีของฝ่ายในสถาบันการเงิน (เช่น ธนาคาร)'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-173">In the Description field, enter 'Identification of an account of a party in a financial institution (for instance, a bank).'.</span></span>
+    * <span data-ttu-id="6a2d8-174">การระบุของบัญชีของฝ่ายในสถาบันการเงิน (ตัวอย่างเช่น ธนาคาร)</span><span class="sxs-lookup"><span data-stu-id="6a2d8-174">Identification of an account of a party in a financial institution (for instance, a bank).</span></span>  
+6. <span data-ttu-id="6a2d8-175">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-175">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="6a2d8-176">ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-176">In the Name field, type 'Currency'.</span></span>
+    * <span data-ttu-id="6a2d8-177">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-177">Currency</span></span>  
+8. <span data-ttu-id="6a2d8-178">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-178">In the Item type field, select 'String'.</span></span>
+9. <span data-ttu-id="6a2d8-179">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-179">Click Add.</span></span>
+10. <span data-ttu-id="6a2d8-180">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสสกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-180">In the Description field, enter 'Currency code'.</span></span>
+    * <span data-ttu-id="6a2d8-181">รหัสสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-181">Currency code</span></span>  
+11. <span data-ttu-id="6a2d8-182">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-182">Click New to open the drop dialog.</span></span>
+12. <span data-ttu-id="6a2d8-183">ในฟิลด์ชื่อ ให้พิมพ์ 'หมายเลข'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-183">In the Name field, type 'Number'.</span></span>
+    * <span data-ttu-id="6a2d8-184">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="6a2d8-184">Number</span></span>  
+13. <span data-ttu-id="6a2d8-185">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-185">Click Add.</span></span>
+14. <span data-ttu-id="6a2d8-186">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-186">Click New to open the drop dialog.</span></span>
+15. <span data-ttu-id="6a2d8-187">ในฟิลด์ชื่อ ให้พิมพ์ 'IBAN'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-187">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="6a2d8-188">IBAN</span><span class="sxs-lookup"><span data-stu-id="6a2d8-188">IBAN</span></span>  
+16. <span data-ttu-id="6a2d8-189">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-189">Click Add.</span></span>
+17. <span data-ttu-id="6a2d8-190">ในฟิลด์คำอธิบาย ให้ป้อน 'เลขที่บัญชีธนาคารระหว่างประเทศ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-190">In the Description field, enter 'International bank account number'.</span></span>
+    * <span data-ttu-id="6a2d8-191">หมายเลขบัญชีธนาคารระหว่างประเทศ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-191">International bank account number</span></span>  
 
-## <a name="define-the-payment-message-structure-for-credit-transfer-payment-type"></a><span data-ttu-id="37650-192">กำหนดโครงสร้างของข้อความการชำระเงินสำหรับชนิดการชำระเงินแบบการโอนย้ายเครดิต</span><span class="sxs-lookup"><span data-stu-id="37650-192">Define the payment message structure for credit transfer payment type</span></span>
-1. <span data-ttu-id="37650-193">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-193">Click New to open the drop dialog.</span></span>
-2. <span data-ttu-id="37650-194">ในฟิลด์สร้างโหนดใหม่เป็น ให้ป้อน 'รากแบบจำลอง'</span><span class="sxs-lookup"><span data-stu-id="37650-194">In the New node as a field, enter 'Model root'.</span></span>
-3. <span data-ttu-id="37650-195">ในฟิลด์ชื่อ ให้พิมพ์ 'การเริ่มต้นการโอนย้ายเครดิตของลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="37650-195">In the Name field, type 'CustomerCreditTransferInitiation'.</span></span>
-    * <span data-ttu-id="37650-196">เลือก การเริ่มต้นการโอนย้ายเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="37650-196">CustomerCreditTransferInitiation</span></span>  
-4. <span data-ttu-id="37650-197">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-197">Click Add.</span></span>
-5. <span data-ttu-id="37650-198">ในฟิลด์ค้นหา ให้พิมพ์ 'CustomerCreditTransferInitiation'</span><span class="sxs-lookup"><span data-stu-id="37650-198">In the Find field, type 'CustomerCreditTransferInitiation'.</span></span>
-    * <span data-ttu-id="37650-199">เลือก การเริ่มต้นการโอนย้ายเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="37650-199">CustomerCreditTransferInitiation</span></span>  
-6. <span data-ttu-id="37650-200">คลิก ค้นหาก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="37650-200">Click Find previous.</span></span>
-7. <span data-ttu-id="37650-201">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-201">Click New to open the drop dialog.</span></span>
-8. <span data-ttu-id="37650-202">ในฟิลด์ชื่อ ให้พิมพ์ 'รหัสข้อความ'</span><span class="sxs-lookup"><span data-stu-id="37650-202">In the Name field, type 'MessageIdentification'.</span></span>
-    * <span data-ttu-id="37650-203">รหัสข้อความ</span><span class="sxs-lookup"><span data-stu-id="37650-203">MessageIdentification</span></span>  
-9. <span data-ttu-id="37650-204">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-204">Click Add.</span></span>
-10. <span data-ttu-id="37650-205">ในฟิลด์คำอธิบาย ให้ป้อน 'การอ้างอิงแบบจุดต่อจุดตามที่กำหนดโดยฝ่ายที่ให้การแนะนำ (และส่งไปยังฝ่ายถัดไป) เพื่อระบุข้อความอย่างชัดเจน'</span><span class="sxs-lookup"><span data-stu-id="37650-205">In the Description field, enter 'The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.'.</span></span>
-    * <span data-ttu-id="37650-206">การอ้างอิงแบบจุดต่อจุดตามที่กำหนดโดยฝ่ายที่ให้การแนะนำ (และส่งไปยังฝ่ายถัดไป) เพื่อระบุข้อความอย่างชัดเจน</span><span class="sxs-lookup"><span data-stu-id="37650-206">The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.</span></span>  
-11. <span data-ttu-id="37650-207">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-207">Click New to open the drop dialog.</span></span>
-12. <span data-ttu-id="37650-208">ในฟิลด์ชื่อ ให้พิมพ์ 'ระยะเวลาประมวลผลข้อมูล'</span><span class="sxs-lookup"><span data-stu-id="37650-208">In the Name field, type 'ProcessingDateTime'.</span></span>
-    * <span data-ttu-id="37650-209">ระยะเวลาการประมวลผลข้อมูล</span><span class="sxs-lookup"><span data-stu-id="37650-209">ProcessingDateTime</span></span>  
-13. <span data-ttu-id="37650-210">ในฟิลด์ประเภทสินค้า ให้เลือก 'วันที่เวลา'</span><span class="sxs-lookup"><span data-stu-id="37650-210">In the Item type field, select 'DateTime'.</span></span>
-14. <span data-ttu-id="37650-211">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-211">Click Add.</span></span>
-15. <span data-ttu-id="37650-212">ในฟิลด์คำอธิบาย ให้ป้อน 'วันและเวลาที่ข้อความการชำระเงินถูกสร้างขึ้น'</span><span class="sxs-lookup"><span data-stu-id="37650-212">In the Description field, enter 'Date and time at which the payment message was created.'.</span></span>
-    * <span data-ttu-id="37650-213">วันที่และเวลาที่ข้อความการชำระเงินถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="37650-213">Date and time at which the payment message was created.</span></span>  
-16. <span data-ttu-id="37650-214">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-214">Click New to open the drop dialog.</span></span>
-    * <span data-ttu-id="37650-215">กำหนดโครงสร้างของธุรกรรมการชำระเงินสำหรับแบบจำลองนี้</span><span class="sxs-lookup"><span data-stu-id="37650-215">Define the payment transaction structure for this model.</span></span>  
-17. <span data-ttu-id="37650-216">ในฟิลด์ชื่อ ให้พิมพ์ 'การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-216">In the Name field, type 'Payments'.</span></span>
-    * <span data-ttu-id="37650-217">การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-217">Payments</span></span>  
-18. <span data-ttu-id="37650-218">ในฟิลด์ประเภทสินค้า ให้เลือก 'รายการบันทึก'</span><span class="sxs-lookup"><span data-stu-id="37650-218">In the Item type field, select 'Record list'.</span></span>
-19. <span data-ttu-id="37650-219">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-219">Click Add.</span></span>
-20. <span data-ttu-id="37650-220">ในฟิลด์คำอธิบาย ให้ป้อน 'รายการการชำระเงินของเอกสารปัจจุบัน'</span><span class="sxs-lookup"><span data-stu-id="37650-220">In the Description field, enter 'Payment lines of the current message'.</span></span>
-    * <span data-ttu-id="37650-221">รายการการชำระเงินของเอกสารปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="37650-221">Payment lines of the current message</span></span>  
-21. <span data-ttu-id="37650-222">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-222">Click New to open the drop dialog.</span></span>
-22. <span data-ttu-id="37650-223">ในฟิลด์ชื่อ ให้พิมพ์ 'เจ้าหนี้'</span><span class="sxs-lookup"><span data-stu-id="37650-223">In the Name field, type 'Creditor'.</span></span>
-    * <span data-ttu-id="37650-224">เจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="37650-224">Creditor</span></span>  
-23. <span data-ttu-id="37650-225">ในฟิลด์ประเภทสินค้า ให้เลือก 'บันทึก'</span><span class="sxs-lookup"><span data-stu-id="37650-225">In the Item type field, select 'Record'.</span></span>
-24. <span data-ttu-id="37650-226">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-226">Click Add.</span></span>
-25. <span data-ttu-id="37650-227">ในฟิลด์คำอธิบาย ให้ป้อน 'ฝ่ายที่มียอดเงินถึงเวลาครบกำหนดชำระ'</span><span class="sxs-lookup"><span data-stu-id="37650-227">In the Description field, enter 'Party to which an amount of money is due.'.</span></span>
-    * <span data-ttu-id="37650-228">ฝ่ายที่มียอดเงินถึงเวลาครบกำหนดชำระ</span><span class="sxs-lookup"><span data-stu-id="37650-228">Party to which an amount of money is due.</span></span>  
-26. <span data-ttu-id="37650-229">คลิก สลับการอ้างอิงรายการ</span><span class="sxs-lookup"><span data-stu-id="37650-229">Click Switch item reference.</span></span>
-27. <span data-ttu-id="37650-230">ในฟิลด์ค้นหา ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="37650-230">In the Find field, type 'Party'.</span></span>
-    * <span data-ttu-id="37650-231">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="37650-231">Party</span></span>  
-28. <span data-ttu-id="37650-232">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="37650-232">Click Find next.</span></span>
-29. <span data-ttu-id="37650-233">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="37650-233">Click OK.</span></span>
-30. <span data-ttu-id="37650-234">ในฟิลด์ค้นหา ให้พิมพ์ 'การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-234">In the Find field, type 'Payments'.</span></span>
-    * <span data-ttu-id="37650-235">การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-235">Payments</span></span>  
-31. <span data-ttu-id="37650-236">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="37650-236">Click Find next.</span></span>
-32. <span data-ttu-id="37650-237">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-237">Click New to open the drop dialog.</span></span>
-33. <span data-ttu-id="37650-238">ในฟิลด์ชื่อ ให้พิมพ์ 'ลูกหนี้'</span><span class="sxs-lookup"><span data-stu-id="37650-238">In the Name field, type 'Debtor'.</span></span>
-    * <span data-ttu-id="37650-239">ลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="37650-239">Debtor</span></span>  
-34. <span data-ttu-id="37650-240">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-240">Click Add.</span></span>
-35. <span data-ttu-id="37650-241">ในฟิลด์คำอธิบาย ให้ป้อน 'ฝ่ายที่ค้างชำระยอดเงินกับเจ้าหนี้ (ลำดับสุดท้าย)'</span><span class="sxs-lookup"><span data-stu-id="37650-241">In the Description field, enter 'Party that owes an amount of money to the (ultimate) creditor.'.</span></span>
-    * <span data-ttu-id="37650-242">ฝ่ายที่ค้างชำระยอดเงินกับเจ้าหนี้ (ลำดับสุดท้าย)</span><span class="sxs-lookup"><span data-stu-id="37650-242">Party that owes an amount of money to the (ultimate) creditor.</span></span>  
-36. <span data-ttu-id="37650-243">คลิก สลับการอ้างอิงรายการ</span><span class="sxs-lookup"><span data-stu-id="37650-243">Click Switch item reference.</span></span>
-37. <span data-ttu-id="37650-244">ในฟิลด์ค้นหา ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="37650-244">In the Find field, type 'Party'.</span></span>
-    * <span data-ttu-id="37650-245">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="37650-245">Party</span></span>  
-38. <span data-ttu-id="37650-246">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="37650-246">Click Find next.</span></span>
-39. <span data-ttu-id="37650-247">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="37650-247">Click OK.</span></span>
-40. <span data-ttu-id="37650-248">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="37650-248">Click Find next.</span></span>
-41. <span data-ttu-id="37650-249">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-249">Click New to open the drop dialog.</span></span>
-42. <span data-ttu-id="37650-250">ในฟิลด์ชื่อ ให้พิมพ์ 'คำอธิบาย'</span><span class="sxs-lookup"><span data-stu-id="37650-250">In the Name field, type 'Description'.</span></span>
-    * <span data-ttu-id="37650-251">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="37650-251">Description</span></span>  
-43. <span data-ttu-id="37650-252">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="37650-252">In the Item type field, select 'String'.</span></span>
-44. <span data-ttu-id="37650-253">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-253">Click Add.</span></span>
-45. <span data-ttu-id="37650-254">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-254">Click New to open the drop dialog.</span></span>
-46. <span data-ttu-id="37650-255">ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-255">In the Name field, type 'Currency'.</span></span>
-    * <span data-ttu-id="37650-256">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-256">Currency</span></span>  
-47. <span data-ttu-id="37650-257">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-257">Click Add.</span></span>
-48. <span data-ttu-id="37650-258">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสสกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-258">In the Description field, enter 'Currency code'.</span></span>
-    * <span data-ttu-id="37650-259">รหัสสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-259">Currency code</span></span>  
-49. <span data-ttu-id="37650-260">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-260">Click New to open the drop dialog.</span></span>
-50. <span data-ttu-id="37650-261">ในฟิลด์ชื่อ ให้พิมพ์ 'วันที่ทำธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="37650-261">In the Name field, type 'TransactionDate'.</span></span>
-    * <span data-ttu-id="37650-262">วันที่ทำธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="37650-262">TransactionDate</span></span>  
-51. <span data-ttu-id="37650-263">ในฟิลด์ประเภทสินค้า ให้เลือก 'วันที่'</span><span class="sxs-lookup"><span data-stu-id="37650-263">In the Item type field, select 'Date'.</span></span>
-52. <span data-ttu-id="37650-264">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-264">Click Add.</span></span>
-53. <span data-ttu-id="37650-265">ในฟิลด์คำอธิบาย ให้ป้อน 'วันที่ทำธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="37650-265">In the Description field, enter 'Transaction date'.</span></span>
-    * <span data-ttu-id="37650-266">วันที่ธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="37650-266">Transaction date</span></span>  
-54. <span data-ttu-id="37650-267">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-267">Click New to open the drop dialog.</span></span>
-55. <span data-ttu-id="37650-268">ในฟิลด์ชื่อ ให้พิมพ์ 'ยอดเงินที่แนะนำ'</span><span class="sxs-lookup"><span data-stu-id="37650-268">In the Name field, type 'InstructedAmount'.</span></span>
-    * <span data-ttu-id="37650-269">ยอดเงินที่แนะนำ</span><span class="sxs-lookup"><span data-stu-id="37650-269">InstructedAmount</span></span>  
-56. <span data-ttu-id="37650-270">ในฟิลด์ประเภทสินค้า ให้เลือก 'จำนวนจริง'</span><span class="sxs-lookup"><span data-stu-id="37650-270">In the Item type field, select 'Real'.</span></span>
-57. <span data-ttu-id="37650-271">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-271">Click Add.</span></span>
-58. <span data-ttu-id="37650-272">ในฟิลด์คำอธิบาย ให้ป้อน 'ยอดเงินที่เคลื่อนไหวระหว่างลูกหนี้กับเจ้าหนี้ ก่อนที่จะมีการหักลดค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="37650-272">In the Description field, enter 'The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="37650-273">ยอดเงินควรจะถูกแสดงในสกุลเงินตามที่มีการสั่งโดยฝ่ายผู้สร้างข้อความ'</span><span class="sxs-lookup"><span data-stu-id="37650-273">The amount should be expressed in the currency as ordered by the initiating party.'.</span></span>
-    * <span data-ttu-id="37650-274">ยอดเงินที่เคลื่อนไหวระหว่างลูกหนี้กับเจ้าหนี้ ก่อนที่จะมีการหักลดค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="37650-274">The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="37650-275">ยอดเงินควรจะถูกแสดงในสกุลเงินตามที่มีการสั่งโดยฝ่ายผู้สร้างข้อความ</span><span class="sxs-lookup"><span data-stu-id="37650-275">The amount should be expressed in the currency as ordered by the initiating party.</span></span>  
-59. <span data-ttu-id="37650-276">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="37650-276">Click New to open the drop dialog.</span></span>
-60. <span data-ttu-id="37650-277">ในฟิลด์ชื่อ ให้พิมพ์'End2EndID'</span><span class="sxs-lookup"><span data-stu-id="37650-277">In the Name field, type 'End2EndID'.</span></span>
-    * <span data-ttu-id="37650-278">รหัสแบบครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="37650-278">End2EndID</span></span>  
-61. <span data-ttu-id="37650-279">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="37650-279">In the Item type field, select 'String'.</span></span>
-62. <span data-ttu-id="37650-280">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="37650-280">Click Add.</span></span>
-63. <span data-ttu-id="37650-281">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสแบบเฉพาะตามที่กำหนดโดยฝ่ายผู้สร้างข้อความ'</span><span class="sxs-lookup"><span data-stu-id="37650-281">In the Description field, enter 'The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="37650-282">การระบุรหัสนี้มีการส่งผ่านโดยไม่มีการเปลี่ยนแปลงตลอดห่วงโซ่ตั้งแต่ต้นจนจบ'</span><span class="sxs-lookup"><span data-stu-id="37650-282">This identification is passed on, unchanged, throughout the entire end-to-end chain.'.</span></span>
-    * <span data-ttu-id="37650-283">การระบุรหัสแบบเฉพาะตามที่กำหนดโดยฝ่ายผู้สร้างข้อความ</span><span class="sxs-lookup"><span data-stu-id="37650-283">The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="37650-284">การระบุรหัสนี้ถูกส่งผ่านโดยไม่มีการเปลี่ยนแปลงตลอดห่วงโซตั้งแต่ต้นจนจบ</span><span class="sxs-lookup"><span data-stu-id="37650-284">This identification is passed on, unchanged, throughout the entire end-to-end chain.</span></span>  
-64. <span data-ttu-id="37650-285">ในฟิลด์ชื่อ พิมพ์ 'รูปแบบการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="37650-285">In the Name field, type 'PaymentModel'.</span></span>
-    * <span data-ttu-id="37650-286">ชื่อของ PaymentModel จัดเรียงตามอินเทอเฟสที่ถูกกำหนดไว้ก่อนหน้าของแบบชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="37650-286">The PaymentModel name aligns with predefined interfaces of payment forms.</span></span>  
-65. <span data-ttu-id="37650-287">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="37650-287">Click Save.</span></span>
-66. <span data-ttu-id="37650-288">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="37650-288">Close the page.</span></span>
+## <a name="define-the-payment-message-structure-for-credit-transfer-payment-type"></a><span data-ttu-id="6a2d8-192">กำหนดโครงสร้างของข้อความการชำระเงินสำหรับชนิดการชำระเงินแบบการโอนย้ายเครดิต</span><span class="sxs-lookup"><span data-stu-id="6a2d8-192">Define the payment message structure for credit transfer payment type</span></span>
+1. <span data-ttu-id="6a2d8-193">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-193">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="6a2d8-194">ในฟิลด์สร้างโหนดใหม่เป็น ให้ป้อน 'รากแบบจำลอง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-194">In the New node as a field, enter 'Model root'.</span></span>
+3. <span data-ttu-id="6a2d8-195">ในฟิลด์ชื่อ ให้พิมพ์ 'การเริ่มต้นการโอนย้ายเครดิตของลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-195">In the Name field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="6a2d8-196">เลือก การเริ่มต้นการโอนย้ายเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="6a2d8-196">CustomerCreditTransferInitiation</span></span>  
+4. <span data-ttu-id="6a2d8-197">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-197">Click Add.</span></span>
+5. <span data-ttu-id="6a2d8-198">ในฟิลด์ค้นหา ให้พิมพ์ 'CustomerCreditTransferInitiation'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-198">In the Find field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="6a2d8-199">เลือก การเริ่มต้นการโอนย้ายเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="6a2d8-199">CustomerCreditTransferInitiation</span></span>  
+6. <span data-ttu-id="6a2d8-200">คลิก ค้นหาก่อนหน้า</span><span class="sxs-lookup"><span data-stu-id="6a2d8-200">Click Find previous.</span></span>
+7. <span data-ttu-id="6a2d8-201">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-201">Click New to open the drop dialog.</span></span>
+8. <span data-ttu-id="6a2d8-202">ในฟิลด์ชื่อ ให้พิมพ์ 'รหัสข้อความ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-202">In the Name field, type 'MessageIdentification'.</span></span>
+    * <span data-ttu-id="6a2d8-203">รหัสข้อความ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-203">MessageIdentification</span></span>  
+9. <span data-ttu-id="6a2d8-204">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-204">Click Add.</span></span>
+10. <span data-ttu-id="6a2d8-205">ในฟิลด์คำอธิบาย ให้ป้อน 'การอ้างอิงแบบจุดต่อจุดตามที่กำหนดโดยฝ่ายที่ให้การแนะนำ (และส่งไปยังฝ่ายถัดไป) เพื่อระบุข้อความอย่างชัดเจน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-205">In the Description field, enter 'The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.'.</span></span>
+    * <span data-ttu-id="6a2d8-206">การอ้างอิงแบบจุดต่อจุดตามที่กำหนดโดยฝ่ายที่ให้การแนะนำ (และส่งไปยังฝ่ายถัดไป) เพื่อระบุข้อความอย่างชัดเจน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-206">The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.</span></span>  
+11. <span data-ttu-id="6a2d8-207">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-207">Click New to open the drop dialog.</span></span>
+12. <span data-ttu-id="6a2d8-208">ในฟิลด์ชื่อ ให้พิมพ์ 'ระยะเวลาประมวลผลข้อมูล'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-208">In the Name field, type 'ProcessingDateTime'.</span></span>
+    * <span data-ttu-id="6a2d8-209">ระยะเวลาการประมวลผลข้อมูล</span><span class="sxs-lookup"><span data-stu-id="6a2d8-209">ProcessingDateTime</span></span>  
+13. <span data-ttu-id="6a2d8-210">ในฟิลด์ประเภทสินค้า ให้เลือก 'วันที่เวลา'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-210">In the Item type field, select 'DateTime'.</span></span>
+14. <span data-ttu-id="6a2d8-211">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-211">Click Add.</span></span>
+15. <span data-ttu-id="6a2d8-212">ในฟิลด์คำอธิบาย ให้ป้อน 'วันและเวลาที่ข้อความการชำระเงินถูกสร้างขึ้น'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-212">In the Description field, enter 'Date and time at which the payment message was created.'.</span></span>
+    * <span data-ttu-id="6a2d8-213">วันที่และเวลาที่ข้อความการชำระเงินถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="6a2d8-213">Date and time at which the payment message was created.</span></span>  
+16. <span data-ttu-id="6a2d8-214">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-214">Click New to open the drop dialog.</span></span>
+    * <span data-ttu-id="6a2d8-215">กำหนดโครงสร้างของธุรกรรมการชำระเงินสำหรับแบบจำลองนี้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-215">Define the payment transaction structure for this model.</span></span>  
+17. <span data-ttu-id="6a2d8-216">ในฟิลด์ชื่อ ให้พิมพ์ 'การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-216">In the Name field, type 'Payments'.</span></span>
+    * <span data-ttu-id="6a2d8-217">การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-217">Payments</span></span>  
+18. <span data-ttu-id="6a2d8-218">ในฟิลด์ประเภทสินค้า ให้เลือก 'รายการบันทึก'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-218">In the Item type field, select 'Record list'.</span></span>
+19. <span data-ttu-id="6a2d8-219">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-219">Click Add.</span></span>
+20. <span data-ttu-id="6a2d8-220">ในฟิลด์คำอธิบาย ให้ป้อน 'รายการการชำระเงินของเอกสารปัจจุบัน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-220">In the Description field, enter 'Payment lines of the current message'.</span></span>
+    * <span data-ttu-id="6a2d8-221">รายการการชำระเงินของเอกสารปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-221">Payment lines of the current message</span></span>  
+21. <span data-ttu-id="6a2d8-222">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-222">Click New to open the drop dialog.</span></span>
+22. <span data-ttu-id="6a2d8-223">ในฟิลด์ชื่อ ให้พิมพ์ 'เจ้าหนี้'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-223">In the Name field, type 'Creditor'.</span></span>
+    * <span data-ttu-id="6a2d8-224">เจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-224">Creditor</span></span>  
+23. <span data-ttu-id="6a2d8-225">ในฟิลด์ประเภทสินค้า ให้เลือก 'บันทึก'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-225">In the Item type field, select 'Record'.</span></span>
+24. <span data-ttu-id="6a2d8-226">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-226">Click Add.</span></span>
+25. <span data-ttu-id="6a2d8-227">ในฟิลด์คำอธิบาย ให้ป้อน 'ฝ่ายที่มียอดเงินถึงเวลาครบกำหนดชำระ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-227">In the Description field, enter 'Party to which an amount of money is due.'.</span></span>
+    * <span data-ttu-id="6a2d8-228">ฝ่ายที่มียอดเงินถึงเวลาครบกำหนดชำระ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-228">Party to which an amount of money is due.</span></span>  
+26. <span data-ttu-id="6a2d8-229">คลิก สลับการอ้างอิงรายการ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-229">Click Switch item reference.</span></span>
+27. <span data-ttu-id="6a2d8-230">ในฟิลด์ค้นหา ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-230">In the Find field, type 'Party'.</span></span>
+    * <span data-ttu-id="6a2d8-231">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="6a2d8-231">Party</span></span>  
+28. <span data-ttu-id="6a2d8-232">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="6a2d8-232">Click Find next.</span></span>
+29. <span data-ttu-id="6a2d8-233">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-233">Click OK.</span></span>
+30. <span data-ttu-id="6a2d8-234">ในฟิลด์ค้นหา ให้พิมพ์ 'การชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-234">In the Find field, type 'Payments'.</span></span>
+    * <span data-ttu-id="6a2d8-235">การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-235">Payments</span></span>  
+31. <span data-ttu-id="6a2d8-236">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="6a2d8-236">Click Find next.</span></span>
+32. <span data-ttu-id="6a2d8-237">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-237">Click New to open the drop dialog.</span></span>
+33. <span data-ttu-id="6a2d8-238">ในฟิลด์ชื่อ ให้พิมพ์ 'ลูกหนี้'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-238">In the Name field, type 'Debtor'.</span></span>
+    * <span data-ttu-id="6a2d8-239">ลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="6a2d8-239">Debtor</span></span>  
+34. <span data-ttu-id="6a2d8-240">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-240">Click Add.</span></span>
+35. <span data-ttu-id="6a2d8-241">ในฟิลด์คำอธิบาย ให้ป้อน 'ฝ่ายที่ค้างชำระยอดเงินกับเจ้าหนี้ (ลำดับสุดท้าย)'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-241">In the Description field, enter 'Party that owes an amount of money to the (ultimate) creditor.'.</span></span>
+    * <span data-ttu-id="6a2d8-242">ฝ่ายที่ค้างชำระยอดเงินกับเจ้าหนี้ (ลำดับสุดท้าย)</span><span class="sxs-lookup"><span data-stu-id="6a2d8-242">Party that owes an amount of money to the (ultimate) creditor.</span></span>  
+36. <span data-ttu-id="6a2d8-243">คลิก สลับการอ้างอิงรายการ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-243">Click Switch item reference.</span></span>
+37. <span data-ttu-id="6a2d8-244">ในฟิลด์ค้นหา ให้พิมพ์ 'ฝ่าย'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-244">In the Find field, type 'Party'.</span></span>
+    * <span data-ttu-id="6a2d8-245">ฝ่าย</span><span class="sxs-lookup"><span data-stu-id="6a2d8-245">Party</span></span>  
+38. <span data-ttu-id="6a2d8-246">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="6a2d8-246">Click Find next.</span></span>
+39. <span data-ttu-id="6a2d8-247">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-247">Click OK.</span></span>
+40. <span data-ttu-id="6a2d8-248">คลิก ค้นหาถัดไป</span><span class="sxs-lookup"><span data-stu-id="6a2d8-248">Click Find next.</span></span>
+41. <span data-ttu-id="6a2d8-249">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-249">Click New to open the drop dialog.</span></span>
+42. <span data-ttu-id="6a2d8-250">ในฟิลด์ชื่อ ให้พิมพ์ 'คำอธิบาย'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-250">In the Name field, type 'Description'.</span></span>
+    * <span data-ttu-id="6a2d8-251">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="6a2d8-251">Description</span></span>  
+43. <span data-ttu-id="6a2d8-252">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-252">In the Item type field, select 'String'.</span></span>
+44. <span data-ttu-id="6a2d8-253">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-253">Click Add.</span></span>
+45. <span data-ttu-id="6a2d8-254">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-254">Click New to open the drop dialog.</span></span>
+46. <span data-ttu-id="6a2d8-255">ในฟิลด์ชื่อ ให้พิมพ์ 'สกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-255">In the Name field, type 'Currency'.</span></span>
+    * <span data-ttu-id="6a2d8-256">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-256">Currency</span></span>  
+47. <span data-ttu-id="6a2d8-257">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-257">Click Add.</span></span>
+48. <span data-ttu-id="6a2d8-258">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสสกุลเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-258">In the Description field, enter 'Currency code'.</span></span>
+    * <span data-ttu-id="6a2d8-259">รหัสสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-259">Currency code</span></span>  
+49. <span data-ttu-id="6a2d8-260">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-260">Click New to open the drop dialog.</span></span>
+50. <span data-ttu-id="6a2d8-261">ในฟิลด์ชื่อ ให้พิมพ์ 'วันที่ทำธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-261">In the Name field, type 'TransactionDate'.</span></span>
+    * <span data-ttu-id="6a2d8-262">วันที่ทำธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-262">TransactionDate</span></span>  
+51. <span data-ttu-id="6a2d8-263">ในฟิลด์ประเภทสินค้า ให้เลือก 'วันที่'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-263">In the Item type field, select 'Date'.</span></span>
+52. <span data-ttu-id="6a2d8-264">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-264">Click Add.</span></span>
+53. <span data-ttu-id="6a2d8-265">ในฟิลด์คำอธิบาย ให้ป้อน 'วันที่ทำธุรกรรม'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-265">In the Description field, enter 'Transaction date'.</span></span>
+    * <span data-ttu-id="6a2d8-266">วันที่ธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-266">Transaction date</span></span>  
+54. <span data-ttu-id="6a2d8-267">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-267">Click New to open the drop dialog.</span></span>
+55. <span data-ttu-id="6a2d8-268">ในฟิลด์ชื่อ ให้พิมพ์ 'ยอดเงินที่แนะนำ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-268">In the Name field, type 'InstructedAmount'.</span></span>
+    * <span data-ttu-id="6a2d8-269">ยอดเงินที่แนะนำ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-269">InstructedAmount</span></span>  
+56. <span data-ttu-id="6a2d8-270">ในฟิลด์ประเภทสินค้า ให้เลือก 'จำนวนจริง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-270">In the Item type field, select 'Real'.</span></span>
+57. <span data-ttu-id="6a2d8-271">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-271">Click Add.</span></span>
+58. <span data-ttu-id="6a2d8-272">ในฟิลด์คำอธิบาย ให้ป้อน 'ยอดเงินที่เคลื่อนไหวระหว่างลูกหนี้กับเจ้าหนี้ ก่อนที่จะมีการหักลดค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-272">In the Description field, enter 'The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="6a2d8-273">ยอดเงินควรจะถูกแสดงในสกุลเงินตามที่มีการสั่งโดยฝ่ายผู้สร้างข้อความ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-273">The amount should be expressed in the currency as ordered by the initiating party.'.</span></span>
+    * <span data-ttu-id="6a2d8-274">ยอดเงินที่เคลื่อนไหวระหว่างลูกหนี้กับเจ้าหนี้ ก่อนที่จะมีการหักลดค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-274">The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="6a2d8-275">ยอดเงินควรจะถูกแสดงในสกุลเงินตามที่มีการสั่งโดยฝ่ายผู้สร้างข้อความ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-275">The amount should be expressed in the currency as ordered by the initiating party.</span></span>  
+59. <span data-ttu-id="6a2d8-276">คลิกที่สร้างเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="6a2d8-276">Click New to open the drop dialog.</span></span>
+60. <span data-ttu-id="6a2d8-277">ในฟิลด์ชื่อ ให้พิมพ์'End2EndID'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-277">In the Name field, type 'End2EndID'.</span></span>
+    * <span data-ttu-id="6a2d8-278">รหัสแบบครอบคลุม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-278">End2EndID</span></span>  
+61. <span data-ttu-id="6a2d8-279">ในฟิลด์ประเภทสินค้า ให้เลือก 'สตริง'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-279">In the Item type field, select 'String'.</span></span>
+62. <span data-ttu-id="6a2d8-280">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6a2d8-280">Click Add.</span></span>
+63. <span data-ttu-id="6a2d8-281">ในฟิลด์คำอธิบาย ให้ป้อน 'รหัสแบบเฉพาะตามที่กำหนดโดยฝ่ายผู้สร้างข้อความ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-281">In the Description field, enter 'The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="6a2d8-282">การระบุรหัสนี้มีการส่งผ่านโดยไม่มีการเปลี่ยนแปลงตลอดห่วงโซ่ตั้งแต่ต้นจนจบ'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-282">This identification is passed on, unchanged, throughout the entire end-to-end chain.'.</span></span>
+    * <span data-ttu-id="6a2d8-283">การระบุรหัสแบบเฉพาะตามที่กำหนดโดยฝ่ายผู้สร้างข้อความ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-283">The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="6a2d8-284">การระบุรหัสนี้ถูกส่งผ่านโดยไม่มีการเปลี่ยนแปลงตลอดห่วงโซตั้งแต่ต้นจนจบ</span><span class="sxs-lookup"><span data-stu-id="6a2d8-284">This identification is passed on, unchanged, throughout the entire end-to-end chain.</span></span>  
+64. <span data-ttu-id="6a2d8-285">ในฟิลด์ชื่อ พิมพ์ 'รูปแบบการชำระเงิน'</span><span class="sxs-lookup"><span data-stu-id="6a2d8-285">In the Name field, type 'PaymentModel'.</span></span>
+    * <span data-ttu-id="6a2d8-286">ชื่อของ PaymentModel จัดเรียงตามอินเทอเฟสที่ถูกกำหนดไว้ก่อนหน้าของแบบชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6a2d8-286">The PaymentModel name aligns with predefined interfaces of payment forms.</span></span>  
+65. <span data-ttu-id="6a2d8-287">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="6a2d8-287">Click Save.</span></span>
+66. <span data-ttu-id="6a2d8-288">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6a2d8-288">Close the page.</span></span>
 
