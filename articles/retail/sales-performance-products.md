@@ -20,27 +20,27 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "343983"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546397"
 ---
-# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="bdedf-103">ประเมินประสิทธิภาพการขายตามผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="bdedf-103">Assess sales performance by product</span></span>
+# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="076b7-103">ประเมินประสิทธิภาพการขายตามผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="076b7-103">Assess sales performance by product</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="bdedf-104">คุณสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="bdedf-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="076b7-104">คุณสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="076b7-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span>
 
-<span data-ttu-id="bdedf-105">ในฐานะที่เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้ยังสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์สูงสุด (10 ถึง 100) ในระดับต่างๆ ของลำดับชั้นองค์กร ตามหนึ่งในเกณฑ์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="bdedf-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="076b7-105">ในฐานะที่เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้ยังสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์สูงสุด (10 ถึง 100) ในระดับต่างๆ ของลำดับชั้นองค์กร ตามหนึ่งในเกณฑ์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="076b7-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
-- <span data-ttu-id="bdedf-106">ยอดขาย</span><span class="sxs-lookup"><span data-stu-id="bdedf-106">Sales amount</span></span>
-- <span data-ttu-id="bdedf-107">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="bdedf-107">Quantity</span></span>
-- <span data-ttu-id="bdedf-108">อัตรากำไรขั้นต้น</span><span class="sxs-lookup"><span data-stu-id="bdedf-108">Gross profit margin</span></span>
-- <span data-ttu-id="bdedf-109">เปอร์เซ็นต์กำไร</span><span class="sxs-lookup"><span data-stu-id="bdedf-109">Margin percentage</span></span>
+- <span data-ttu-id="076b7-106">ยอดขาย</span><span class="sxs-lookup"><span data-stu-id="076b7-106">Sales amount</span></span>
+- <span data-ttu-id="076b7-107">ปริมาณ</span><span class="sxs-lookup"><span data-stu-id="076b7-107">Quantity</span></span>
+- <span data-ttu-id="076b7-108">อัตรากำไรขั้นต้น</span><span class="sxs-lookup"><span data-stu-id="076b7-108">Gross profit margin</span></span>
+- <span data-ttu-id="076b7-109">เปอร์เซ็นต์กำไร</span><span class="sxs-lookup"><span data-stu-id="076b7-109">Margin percentage</span></span>
 
-<span data-ttu-id="bdedf-110">สำหรับการประเมินนี้ คุณสามารถใช้รายงาน **ผลิตภัณฑ์อันดับแรก**แบบ out-of-box ซึ่งคุณสามารถเปิดได้จากตำแหน่งที่ตั้งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="bdedf-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="076b7-110">สำหรับการประเมินนี้ คุณสามารถใช้รายงาน **ผลิตภัณฑ์อันดับแรก**แบบ out-of-box ซึ่งคุณสามารถเปิดได้จากตำแหน่งที่ตั้งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="076b7-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
-- <span data-ttu-id="bdedf-111">**การจัดการร้านค้าปลีก** พื้นที่ทำงาน&gt; **Retail** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **Reports** &gt; **รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="bdedf-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="bdedf-112">**การจัดการประเภทและผลิตภัณฑ์** พื้นที่ทำงาน &gt; **การขายปลีก** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน** &gt; **รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="bdedf-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="bdedf-113">**การสอบถามและรายงาน** ส่วน &gt; **การขายปลีก** &gt; **การสอบถามและรายงาน** &gt; **รายงานการขาย** &gt; **รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="bdedf-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="076b7-111">**การจัดการร้านค้าปลีก** พื้นที่ทำงาน&gt; **Retail** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **Reports** &gt; **รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="076b7-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="076b7-112">**การจัดการประเภทและผลิตภัณฑ์** พื้นที่ทำงาน &gt; **การขายปลีก** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน** &gt; **รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="076b7-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="076b7-113">**การสอบถามและรายงาน** ส่วน &gt; **การขายปลีก** &gt; **การสอบถามและรายงาน** &gt; **รายงานการขาย** &gt; **รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="076b7-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>

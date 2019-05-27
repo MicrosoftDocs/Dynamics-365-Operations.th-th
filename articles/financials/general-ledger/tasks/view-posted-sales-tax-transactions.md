@@ -17,28 +17,28 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f18f2ab02af571f81149ec3564bbac0f98b1d2c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356380"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550812"
 ---
-# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="1824f-103">ดูธุรกรรมภาษีขายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="1824f-103">View posted sales tax transactions</span></span>
+# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="03287-103">ดูธุรกรรมภาษีขายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="03287-103">View posted sales tax transactions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1824f-104">คุณสามารถดูธุรกรรมภาษีขายที่ลงรายการบัญชีไว้แล้วจากหน้าต่างๆโดยขึ้นอยู่กับสิ่งที่คุณต้องการดู </span><span class="sxs-lookup"><span data-stu-id="1824f-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="1824f-105">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="1824f-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="03287-104">คุณสามารถดูธุรกรรมภาษีขายที่ลงรายการบัญชีไว้แล้วจากหน้าต่างๆโดยขึ้นอยู่กับสิ่งที่คุณต้องการดู </span><span class="sxs-lookup"><span data-stu-id="03287-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="03287-105">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="03287-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="1824f-106">ไปที่ ภาษี > การสอบถามและรายงาน > การสอบถามภาษีขาย > ภาษีขายที่ลงรายการบัญชีแล้ว</span><span class="sxs-lookup"><span data-stu-id="1824f-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
-2. <span data-ttu-id="1824f-107">คลิกแสดงตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="1824f-107">Click Show filters.</span></span>
-3. <span data-ttu-id="1824f-108">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1824f-108">Close the page.</span></span>
-4. <span data-ttu-id="1824f-109">ไปที่ภาษี > ภาษีทางอ้อม > ภาษีขาย > ระยะเวลาการชำระภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="1824f-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
-5. <span data-ttu-id="1824f-110">ขยายช่วงรอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="1824f-110">Expand the Period intervals section.</span></span>
-6. <span data-ttu-id="1824f-111">เลือกช่วงเวลาที่คุณสนใจ</span><span class="sxs-lookup"><span data-stu-id="1824f-111">Select the interval you are interested in.</span></span>
-7. <span data-ttu-id="1824f-112">แสดงธุรกรรมภาษีขายที่ลงรายการบัญชีแล้วสำหรับช่วงรอบระยะเวลาการชำระเงินที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1824f-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
-8. <span data-ttu-id="1824f-113">คุณยังสามารถกรองรายการธุรกรรมภาษีขายที่ลงรายการบัญชีไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="1824f-113">You can further filter the list of posted sales tax transactions.</span></span>
-9. <span data-ttu-id="1824f-114">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1824f-114">Close the page.</span></span>
-10. <span data-ttu-id="1824f-115">ไปที่ภาษี > ภาษีทางอ้อม > ภาษีขาย > รหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="1824f-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
-11. <span data-ttu-id="1824f-116">ในบานหน้าต่างการดำเนินการ คลิกที่รหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="1824f-116">On the Action Pane, click Sales tax code.</span></span>
-12. <span data-ttu-id="1824f-117">คลิกที่ภาษีขายที่ลงรายการบัญชีแล้ว</span><span class="sxs-lookup"><span data-stu-id="1824f-117">Click Posted sales tax.</span></span>
+1. <span data-ttu-id="03287-106">ไปที่ ภาษี > การสอบถามและรายงาน > การสอบถามภาษีขาย > ภาษีขายที่ลงรายการบัญชีแล้ว</span><span class="sxs-lookup"><span data-stu-id="03287-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
+2. <span data-ttu-id="03287-107">คลิกแสดงตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="03287-107">Click Show filters.</span></span>
+3. <span data-ttu-id="03287-108">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="03287-108">Close the page.</span></span>
+4. <span data-ttu-id="03287-109">ไปที่ภาษี > ภาษีทางอ้อม > ภาษีขาย > ระยะเวลาการชำระภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="03287-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+5. <span data-ttu-id="03287-110">ขยายช่วงรอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="03287-110">Expand the Period intervals section.</span></span>
+6. <span data-ttu-id="03287-111">เลือกช่วงเวลาที่คุณสนใจ</span><span class="sxs-lookup"><span data-stu-id="03287-111">Select the interval you are interested in.</span></span>
+7. <span data-ttu-id="03287-112">แสดงธุรกรรมภาษีขายที่ลงรายการบัญชีแล้วสำหรับช่วงรอบระยะเวลาการชำระเงินที่เลือก</span><span class="sxs-lookup"><span data-stu-id="03287-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
+8. <span data-ttu-id="03287-113">คุณยังสามารถกรองรายการธุรกรรมภาษีขายที่ลงรายการบัญชีไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="03287-113">You can further filter the list of posted sales tax transactions.</span></span>
+9. <span data-ttu-id="03287-114">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="03287-114">Close the page.</span></span>
+10. <span data-ttu-id="03287-115">ไปที่ภาษี > ภาษีทางอ้อม > ภาษีขาย > รหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="03287-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
+11. <span data-ttu-id="03287-116">ในบานหน้าต่างการดำเนินการ คลิกที่รหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="03287-116">On the Action Pane, click Sales tax code.</span></span>
+12. <span data-ttu-id="03287-117">คลิกที่ภาษีขายที่ลงรายการบัญชีแล้ว</span><span class="sxs-lookup"><span data-stu-id="03287-117">Click Posted sales tax.</span></span>
 

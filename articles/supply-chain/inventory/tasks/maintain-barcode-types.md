@@ -18,31 +18,31 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a0d7092228f078f528ec1cb9ac56d7034c44bccf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "349710"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567894"
 ---
-# <a name="maintain-barcode-types"></a><span data-ttu-id="fb3a9-103">รักษาประเภทของบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="fb3a9-103">Maintain barcode types</span></span>
+# <a name="maintain-barcode-types"></a><span data-ttu-id="fb8d0-103">รักษาประเภทของบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="fb8d0-103">Maintain barcode types</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fb3a9-104">กระบวนงานนี้แสดงวิธีการตั้งค่าข้อกำหนดบาร์โค้ดใหม่ ซึ่งสามารถนำไปใช้เป็นส่วนหนึ่งของรายงานรายการเบิกสินค้า </span><span class="sxs-lookup"><span data-stu-id="fb3a9-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="fb3a9-105">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="fb3a9-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="fb3a9-106">ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่</span><span class="sxs-lookup"><span data-stu-id="fb3a9-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="fb3a9-107">งานเหล่านี้อาจจะเกิดขึ้นทั่วไปโดยผู้จัดการคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="fb3a9-107">These tasks would typically be carried out by a warehouse manager.</span></span>
+<span data-ttu-id="fb8d0-104">กระบวนงานนี้แสดงวิธีการตั้งค่าข้อกำหนดบาร์โค้ดใหม่ ซึ่งสามารถนำไปใช้เป็นส่วนหนึ่งของรายงานรายการเบิกสินค้า </span><span class="sxs-lookup"><span data-stu-id="fb8d0-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="fb8d0-105">คุณสามารถศึกษากระบวนงานนี้ได้ในบริษัทข้อมูลสาธิต USMF หรือใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="fb8d0-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="fb8d0-106">ถ้าคุณกำลังใช้ USMF คุณสามารถใช้ตัวอย่างมูลค่าที่แสดงอยู่</span><span class="sxs-lookup"><span data-stu-id="fb8d0-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="fb8d0-107">งานเหล่านี้อาจจะเกิดขึ้นทั่วไปโดยผู้จัดการคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="fb8d0-107">These tasks would typically be carried out by a warehouse manager.</span></span>
 
-1. <span data-ttu-id="fb3a9-108">ไปที่ บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="fb3a9-108">Go to Bar codes.</span></span>
-2. <span data-ttu-id="fb3a9-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="fb3a9-109">Click New.</span></span>
-3. <span data-ttu-id="fb3a9-110">ในฟิลด์การตั้งค่าบาร์โค้ด ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fb3a9-110">In the Barcode setup field, type a value.</span></span>
-4. <span data-ttu-id="fb3a9-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="fb3a9-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="fb3a9-112">ในฟิลด์ชนิดของบาร์โค้ด ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="fb3a9-112">In the Bar code type field, select an option.</span></span>
-    * <span data-ttu-id="fb3a9-113">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือก 'รหัส 39' ได้</span><span class="sxs-lookup"><span data-stu-id="fb3a9-113">If you're using USMF, you can select 'Code 39'.</span></span>  
-6. <span data-ttu-id="fb3a9-114">ในฟิลด์ขนาด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="fb3a9-114">In the Size field, enter a number.</span></span>
-7. <span data-ttu-id="fb3a9-115">ในฟิลด์ความยาวสูงสุด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="fb3a9-115">In the Maximum length field, enter a number.</span></span>
-8. <span data-ttu-id="fb3a9-116">คลิกบันทึก</span><span class="sxs-lookup"><span data-stu-id="fb3a9-116">Click Save.</span></span>
-9. <span data-ttu-id="fb3a9-117">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fb3a9-117">Close the page.</span></span>
-10. <span data-ttu-id="fb3a9-118">ไปที่ สินค้าคงคลังและพารามิเตอร์การจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="fb3a9-118">Go to Inventory and warehouse management parameters.</span></span>
-11. <span data-ttu-id="fb3a9-119">ในฟิลด์การตั้งค่าบาร์โค้ด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fb3a9-119">In the Barcode setup field, enter or select a value.</span></span>
-    * <span data-ttu-id="fb3a9-120">เลือกการตั้งค่าบาร์โค้ดที่คุณสร้างขึ้นก่อนหน้า แต่ให้ระวังว่าบาร์โค้ดต้องตรงกับรูปแบบของตัวระบุเฉพาะสำหรับชนิดของเรกคอร์ดที่ใช้ในกระบวนการ </span><span class="sxs-lookup"><span data-stu-id="fb3a9-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="fb3a9-121">ตัวอย่างเช่น สำหรับเส้นทางการเบิกสินค้า รูปแบบบาร์โค้ดควรตรงกับรูปแบบของการอ้างอิงเส้นทางการเบิกสินค้า ซึ่งโดยปกติจะเป็นลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="fb3a9-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
-12. <span data-ttu-id="fb3a9-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="fb3a9-122">Click Save.</span></span>
-13. <span data-ttu-id="fb3a9-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fb3a9-123">Close the page.</span></span>
+1. <span data-ttu-id="fb8d0-108">ไปที่ บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="fb8d0-108">Go to Bar codes.</span></span>
+2. <span data-ttu-id="fb8d0-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="fb8d0-109">Click New.</span></span>
+3. <span data-ttu-id="fb8d0-110">ในฟิลด์การตั้งค่าบาร์โค้ด ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fb8d0-110">In the Barcode setup field, type a value.</span></span>
+4. <span data-ttu-id="fb8d0-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="fb8d0-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="fb8d0-112">ในฟิลด์ชนิดของบาร์โค้ด ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="fb8d0-112">In the Bar code type field, select an option.</span></span>
+    * <span data-ttu-id="fb8d0-113">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือก 'รหัส 39' ได้</span><span class="sxs-lookup"><span data-stu-id="fb8d0-113">If you're using USMF, you can select 'Code 39'.</span></span>  
+6. <span data-ttu-id="fb8d0-114">ในฟิลด์ขนาด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="fb8d0-114">In the Size field, enter a number.</span></span>
+7. <span data-ttu-id="fb8d0-115">ในฟิลด์ความยาวสูงสุด ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="fb8d0-115">In the Maximum length field, enter a number.</span></span>
+8. <span data-ttu-id="fb8d0-116">คลิกบันทึก</span><span class="sxs-lookup"><span data-stu-id="fb8d0-116">Click Save.</span></span>
+9. <span data-ttu-id="fb8d0-117">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fb8d0-117">Close the page.</span></span>
+10. <span data-ttu-id="fb8d0-118">ไปที่ สินค้าคงคลังและพารามิเตอร์การจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="fb8d0-118">Go to Inventory and warehouse management parameters.</span></span>
+11. <span data-ttu-id="fb8d0-119">ในฟิลด์การตั้งค่าบาร์โค้ด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fb8d0-119">In the Barcode setup field, enter or select a value.</span></span>
+    * <span data-ttu-id="fb8d0-120">เลือกการตั้งค่าบาร์โค้ดที่คุณสร้างขึ้นก่อนหน้า แต่ให้ระวังว่าบาร์โค้ดต้องตรงกับรูปแบบของตัวระบุเฉพาะสำหรับชนิดของเรกคอร์ดที่ใช้ในกระบวนการ </span><span class="sxs-lookup"><span data-stu-id="fb8d0-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="fb8d0-121">ตัวอย่างเช่น สำหรับเส้นทางการเบิกสินค้า รูปแบบบาร์โค้ดควรตรงกับรูปแบบของการอ้างอิงเส้นทางการเบิกสินค้า ซึ่งโดยปกติจะเป็นลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="fb8d0-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
+12. <span data-ttu-id="fb8d0-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="fb8d0-122">Click Save.</span></span>
+13. <span data-ttu-id="fb8d0-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fb8d0-123">Close the page.</span></span>
 

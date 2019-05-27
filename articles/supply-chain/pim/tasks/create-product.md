@@ -17,25 +17,25 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d6c92ee7e5f9beb34c8818d9f885a2624afa48f4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "366822"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571501"
 ---
-# <a name="create-a-product"></a><span data-ttu-id="c1121-103">สร้างผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c1121-103">Create a product</span></span>
+# <a name="create-a-product"></a><span data-ttu-id="3e370-103">สร้างผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="3e370-103">Create a product</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c1121-104">ขั้นตอนนี้จะแนะนำวิธีการสร้างผลิตภัณฑ์ใหม่ในลำดับชั้นของผลิตภัณฑ์ขายปลีก </span><span class="sxs-lookup"><span data-stu-id="c1121-104">This procedure walks through creating a new product in the retail product hierarchy.</span></span> <span data-ttu-id="c1121-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c1121-105">The demo data company used to create this task is USRT, and this task is intended for the Merchandising Manager and Product Designer.</span></span>
+<span data-ttu-id="3e370-104">ขั้นตอนนี้จะแนะนำวิธีการสร้างผลิตภัณฑ์ใหม่ในลำดับชั้นของผลิตภัณฑ์ขายปลีก </span><span class="sxs-lookup"><span data-stu-id="3e370-104">This procedure walks through creating a new product in the retail product hierarchy.</span></span> <span data-ttu-id="3e370-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT และงานนี้มีไว้สำหรับผู้จัดการฝ่ายจัดซื้อสินค้าและผู้ออกแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="3e370-105">The demo data company used to create this task is USRT, and this task is intended for the Merchandising Manager and Product Designer.</span></span>
 
-1. <span data-ttu-id="c1121-106">ไปที่ การขายปลีกและการค้า > ..</span><span class="sxs-lookup"><span data-stu-id="c1121-106">Go to Retail and commerce > ..</span></span> <span data-ttu-id="c1121-107">> ผลิตภัณฑ์ตามประเภท</span><span class="sxs-lookup"><span data-stu-id="c1121-107">> Products by category.</span></span>
-2. <span data-ttu-id="c1121-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="c1121-108">Click New.</span></span>
-3. <span data-ttu-id="c1121-109">ในฟิลด์ชื่อของผลิตภัณฑ์ ให้พิมพ์ชื่อสำหรับผลิตภัณฑ์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="c1121-109">In the Product name field, type a name for your product..</span></span>
-4. <span data-ttu-id="c1121-110">ในฟิลด์ประเภทการขายปลีก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c1121-110">In the Retail category field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="c1121-111">ในแผนภูมิ ให้ขยาย 'ALL (ALL)\Fashion (Fashion)'</span><span class="sxs-lookup"><span data-stu-id="c1121-111">In the tree, expand 'ALL (ALL)\Fashion (Fashion)'.</span></span>
-6. <span data-ttu-id="c1121-112">ในแผนภูมิ เลือก 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'</span><span class="sxs-lookup"><span data-stu-id="c1121-112">In the tree, select 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'.</span></span>
-7. <span data-ttu-id="c1121-113">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="c1121-113">Click OK.</span></span>
-8. <span data-ttu-id="c1121-114">ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c1121-114">In the Product number field, type a value.</span></span>
-9. <span data-ttu-id="c1121-115">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c1121-115">Click OK.</span></span>
+1. <span data-ttu-id="3e370-106">ไปที่ การขายปลีกและการค้า > ..</span><span class="sxs-lookup"><span data-stu-id="3e370-106">Go to Retail and commerce > ..</span></span> <span data-ttu-id="3e370-107">> ผลิตภัณฑ์ตามประเภท</span><span class="sxs-lookup"><span data-stu-id="3e370-107">> Products by category.</span></span>
+2. <span data-ttu-id="3e370-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="3e370-108">Click New.</span></span>
+3. <span data-ttu-id="3e370-109">ในฟิลด์ชื่อของผลิตภัณฑ์ ให้พิมพ์ชื่อสำหรับผลิตภัณฑ์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="3e370-109">In the Product name field, type a name for your product..</span></span>
+4. <span data-ttu-id="3e370-110">ในฟิลด์ประเภทการขายปลีก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3e370-110">In the Retail category field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="3e370-111">ในแผนภูมิ ให้ขยาย 'ALL (ALL)\Fashion (Fashion)'</span><span class="sxs-lookup"><span data-stu-id="3e370-111">In the tree, expand 'ALL (ALL)\Fashion (Fashion)'.</span></span>
+6. <span data-ttu-id="3e370-112">ในแผนภูมิ เลือก 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'</span><span class="sxs-lookup"><span data-stu-id="3e370-112">In the tree, select 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'.</span></span>
+7. <span data-ttu-id="3e370-113">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="3e370-113">Click OK.</span></span>
+8. <span data-ttu-id="3e370-114">ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="3e370-114">In the Product number field, type a value.</span></span>
+9. <span data-ttu-id="3e370-115">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="3e370-115">Click OK.</span></span>
 
