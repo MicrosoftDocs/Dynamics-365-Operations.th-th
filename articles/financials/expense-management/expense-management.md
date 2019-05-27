@@ -1,9 +1,9 @@
 ---
 title: การจัดการค่าใช้จ่าย
-description: ใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจ
+description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับการจัดการค่าใช้จ่าย และลิงค์ไปยังทรัพยากรเพิ่มเติม คุณสามารถใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ที่ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจของคุณ
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403225"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538620"
 ---
 # <a name="expense-management"></a>การจัดการค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-ใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจ คุณยังสามารถกำหนดนโยบายค่าใช้จ่ายและทำให้การชำระคืนเงินค่าเดินทางเป็นระบบอัตโนมัติได้  
+คุณสามารถใช้การจัดการค่าใช้จ่ายเพื่อสร้างลำดับงานรวม ที่ซึ่งคุณสามารถจัดเก็บข้อมูลวิธีการชำระเงิน นำเข้าธุรกรรมบัตรเครดิต และติดตามเงินที่พนักงานจ่ายไปสำหรับค่าใช้จ่ายที่เกิดขึ้นสำหรับธุรกิจของคุณ คุณยังสามารถกำหนดนโยบายค่าใช้จ่ายและทำให้การชำระคืนเงินค่าเดินทางเป็นระบบอัตโนมัติได้ 
 
-[การวางแผนการจัดการค่าใช้จ่าย](plan-expense-management.md) 
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกการจัดการค่าใช้จ่าย](plan-expense-management.md)
 
-### <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-#### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
+### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [บันทึกย่อประจำรุ่น Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีการวางแผนคุณลักษณะใหม่ใด 
+เพื่อดูว่ามีคุณสมบัติใหม่ใดถูกวางแผนไว้ ดูที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158)
 
-#### <a name="blogs"></a>บล็อก
+#### <a name="expense-report-entry"></a>รายการในรายงานค่าใช้จ่าย
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [Microsoft Dynamics 365 Finance and Operations - บล็อกข้อมูลทางการเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
+รายการในรายงานค่าใช้จ่ายได้รับการออกแบบใหม่เพื่อทำให้ประสบการณ์ง่ายขึ้น และลดเวลาที่จำเป็นในการทำให้รายงานค่าใช้จ่ายเสร็จสมบูรณ์ คุณสามารถเปิดฟังก์ชันนี้ได้ในการจัดการคุณลักษณะ คุณสามารถเพิ่มหน้าการตั้งค่าใหม่เพื่อตั้งค่าคอนฟิกการมองเห็นได้ของฟิลด์ค่าใช้จ่าย และระบุว่าข้อมูลใดที่ต้องการ ไม่จำเป็นต้องระบุ หรือไม่พร้อมใช้งาน เมื่อป้อนรายงานค่าใช้จ่าย เมื่อมีการเปิดใช้งานฟังก์ชันนี้ พื้นที่ทำงานค่าใช้จ่ายใหม่จะพร้อมใช้งาน พื้นที่ทำงานนี้จะแทนที่พื้นที่ทำงานค่าใช้จ่ายก่อนหน้านี้ และเป็นเพจเริ่มต้นสำหรับประสบการณ์การป้อนข้อมูลที่ดีขึ้น
 
-[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations 
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คิดรูปแบบรายงานค่าใช้จ่ายใหม่แล้ว](ExpenseWorkspaceNew.md)
 
-#### <a name="task-guides"></a>คู่มืองาน
-วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ
+### <a name="blogs"></a>บล็อก
 
-#### <a name="videos"></a>วิดีโอ
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
 
-ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
+[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics ที่ซึ่งพวกเขาจะเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations
 
+### <a name="task-guides"></a>คู่มืองาน
 
+วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงานภายใน Microsoft Dynamics 365 for Finance and Operations ในการเข้าถึงคู่มืองาน ให้เลือกปุ่ม **วิธีใช้** บนหน้าใดๆ
 
+### <a name="videos"></a>วิดีโอ
 
-
+ตรวจดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)

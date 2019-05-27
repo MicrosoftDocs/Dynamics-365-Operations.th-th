@@ -1,12 +1,12 @@
 ---
 title: เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent
 description: หัวข้อนี้อธิบายวิธีการที่ทำให้ผู้ดูแลระบบสามารถเปิดใช้งานคุณลักษณะการแสดงตัวอย่างได้ และแสดงรายการคุณลักษณะที่ถูกเปิดใช้งานสำหรับการแสดงตัวอย่างในขณะนี้
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856335"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519252"
 ---
 # <a name="access-preview-features-in-talent"></a>เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent
 
@@ -72,6 +72,7 @@ ms.locfileid: "856335"
 
 - **การใช้งานของผู้สมัคร** – ทั้งผู้สมัครภายในและภายนอกสามารถนำไปใช้โดยตรงจากหน้างานบนไซต์การทำงานได้ในขณะนี้
 - **การจัดการข้อเสนอ** – ผู้ใช้สามารถสร้างจดหมายข้อเสนอจากเท็มเพลตที่มีตัวยึดตำแหน่งได้ในขณะนี้ เป็นผู้สมัครล่วงหน้าไปยังขั้นตอนข้อเสนอ ผู้สรรหาและผู้จัดการการว่าจ้างสามารถใช้เครื่องมือข้อเสนอเพื่อจัดเตรียมข้อเสนออย่างเป็นทางการของผู้สมัครโดยใช้เท็มเพลต ส่งข้อเสนอสำหรับการอนุมัติภายใน และในขั้นสุดท้าย นำส่งข้อเสนอไปยังผู้สมัครสำหรับลายเซ็น ความสามารถใหม่หลายรายการจะถูกเพิ่มเข้าในเครื่องมือข้อเสนอตามช่วงเวลา และจะปรับปรุงลักษณะการทำงานพร้อมด้วยความสามารถในการแสดงตัวอย่างเหล่านี้ เมื่อเราพร้อมที่จะนำออกใช้เพื่อแสดงตัวอย่าง
+- **[รายงานการวิเคราะห์](analytic-reports.md)** – ทีมการจ้างงานสามารถดูการวัดที่สำคัญสำหรับงานหนึ่งๆ ที่มีการวิเคราะห์งานหรือการวัดรวมในงานทั้งหมดในฮับการวิเคราะห์
 
 ### <a name="core-hr"></a>HR หลัก
 
