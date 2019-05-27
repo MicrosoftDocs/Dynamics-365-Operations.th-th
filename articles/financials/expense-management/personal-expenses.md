@@ -17,21 +17,21 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a6b6c505e7dc5e6544658b00d9f59e6062353608
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "344903"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564750"
 ---
-# <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="dffff-103">ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="dffff-103">Personal expenses on an expense report</span></span>
+# <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="d6039-103">ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="d6039-103">Personal expenses on an expense report</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dffff-104">ระหว่างการเดินทางเพื่อไปทำธุรกิจของบริษัท บางครั้งพนักงานอาจชำระค่าใช้จ่ายส่วนตัวโดยใช้บัตรเครดิตของบริษัทของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="dffff-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="dffff-105">ถ้าคุณไม่กำหนดกระบวนการสำหรับการจัดการค่าใช้จ่ายส่วนบุคคล กระบวนการอนุมัติสำหรับรายงานค่าใช้จ่ายอาจจะหยุดชะงัก เมื่อพนักงานส่งรายงานค่าใช้จ่ายที่แสดงรายการของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="dffff-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
+<span data-ttu-id="d6039-104">ระหว่างการเดินทางเพื่อไปทำธุรกิจของบริษัท บางครั้งพนักงานอาจชำระค่าใช้จ่ายส่วนตัวโดยใช้บัตรเครดิตของบริษัทของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="d6039-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="d6039-105">ถ้าคุณไม่กำหนดกระบวนการสำหรับการจัดการค่าใช้จ่ายส่วนบุคคล กระบวนการอนุมัติสำหรับรายงานค่าใช้จ่ายอาจจะหยุดชะงัก เมื่อพนักงานส่งรายงานค่าใช้จ่ายที่แสดงรายการของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="d6039-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
 
-<span data-ttu-id="dffff-106">ใน Microsoft Dynamics 365 for Finance and Operations มีวิธีสองวิธีในการจัดการค่าใช้จ่ายส่วนบุคคลของผู้ปฏิบัติงาน:</span><span class="sxs-lookup"><span data-stu-id="dffff-106">In Microsoft Dynamics 365 for Finance and Operations, there are two methods for handling a worker's personal expenses:</span></span>
+<span data-ttu-id="d6039-106">ใน Microsoft Dynamics 365 for Finance and Operations มีวิธีสองวิธีในการจัดการค่าใช้จ่ายส่วนบุคคลของผู้ปฏิบัติงาน:</span><span class="sxs-lookup"><span data-stu-id="d6039-106">In Microsoft Dynamics 365 for Finance and Operations, there are two methods for handling a worker's personal expenses:</span></span>
 
-- <span data-ttu-id="dffff-107">**ชำระโดยพนักงาน** – องค์กรของคุณไม่ชำระค่าใช้จ่ายส่วนบุคคลที่ปรากฏในบิลสำหรับบัตรเครดิตของบริษัท</span><span class="sxs-lookup"><span data-stu-id="dffff-107">**Paid by employee** – Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="dffff-108">จะสร้างรายงานที่แสดงรายจ่ายส่วนตัวร่วมกับรายจ่ายของบริษัท ซึ่งถูกเรียกเก็บไปยังบัตรเครดิตของบริษัทแทน</span><span class="sxs-lookup"><span data-stu-id="dffff-108">Instead, it creates a report that shows personal expenses together with the corporate expenses that were charged to the corporate credit card.</span></span>
-- <span data-ttu-id="dffff-109">**ชำระโดยบริษัท** – บริษัทของคุณชำระบิลทั้งหมดสำหรับบัตรเครดิตของบริษัท และจากนั้นหักบัญชีของพนักงานในส่วนที่เป็นรายจ่ายส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="dffff-109">**Paid by company** – Your organization pays the whole bill for the corporate credit card and then debits the worker's account for the personal expenses.</span></span>
+- <span data-ttu-id="d6039-107">**ชำระโดยพนักงาน** – องค์กรของคุณไม่ชำระค่าใช้จ่ายส่วนบุคคลที่ปรากฏในบิลสำหรับบัตรเครดิตของบริษัท</span><span class="sxs-lookup"><span data-stu-id="d6039-107">**Paid by employee** – Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="d6039-108">จะสร้างรายงานที่แสดงรายจ่ายส่วนตัวร่วมกับรายจ่ายของบริษัท ซึ่งถูกเรียกเก็บไปยังบัตรเครดิตของบริษัทแทน</span><span class="sxs-lookup"><span data-stu-id="d6039-108">Instead, it creates a report that shows personal expenses together with the corporate expenses that were charged to the corporate credit card.</span></span>
+- <span data-ttu-id="d6039-109">**ชำระโดยบริษัท** – บริษัทของคุณชำระบิลทั้งหมดสำหรับบัตรเครดิตของบริษัท และจากนั้นหักบัญชีของพนักงานในส่วนที่เป็นรายจ่ายส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="d6039-109">**Paid by company** – Your organization pays the whole bill for the corporate credit card and then debits the worker's account for the personal expenses.</span></span>
 
-<span data-ttu-id="dffff-110">คุณสามารถเลือกวิธีการที่องค์กรของคุณใช้ในหน้า **พารามิเตอร์การจัดการค่าใช้จ่าย** ได้</span><span class="sxs-lookup"><span data-stu-id="dffff-110">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+<span data-ttu-id="d6039-110">คุณสามารถเลือกวิธีการที่องค์กรของคุณใช้ในหน้า **พารามิเตอร์การจัดการค่าใช้จ่าย** ได้</span><span class="sxs-lookup"><span data-stu-id="d6039-110">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
