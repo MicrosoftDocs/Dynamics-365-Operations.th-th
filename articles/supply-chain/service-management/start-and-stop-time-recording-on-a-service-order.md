@@ -19,48 +19,48 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 16d9f48ed38a5033fab94d45821f0ed6f7f1f011
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321558"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558399"
 ---
-# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="209d6-103">การเริ่มต้นและหยุดการบันทึกเวลาของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="209d6-103">Start and stop time recording on a service order</span></span> 
+# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="21d92-103">การเริ่มต้นและหยุดการบันทึกเวลาของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="21d92-103">Start and stop time recording on a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="209d6-104">ใช้ขั้นตอนนี้เพื่อเริ่มต้น และหยุดการบันทึกเวลาสำหรับใบสั่งบริการที่มีกำหนดข้อตกลงระดับการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="209d6-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
+<span data-ttu-id="21d92-104">ใช้ขั้นตอนนี้เพื่อเริ่มต้น และหยุดการบันทึกเวลาสำหรับใบสั่งบริการที่มีกำหนดข้อตกลงระดับการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="21d92-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
 
-## <a name="start-time-recording"></a><span data-ttu-id="209d6-105">เริ่มการจัดทำเรกคอร์ดเวลา</span><span class="sxs-lookup"><span data-stu-id="209d6-105">Start time recording</span></span>
+## <a name="start-time-recording"></a><span data-ttu-id="21d92-105">เริ่มการจัดทำเรกคอร์ดเวลา</span><span class="sxs-lookup"><span data-stu-id="21d92-105">Start time recording</span></span>
 
-1.  <span data-ttu-id="209d6-106">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="209d6-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="21d92-106">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="21d92-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="209d6-107">คลิกแท็บ **ใบสั่งบริการ** บน **บานหน้าต่างการดำเนินการ** ในกลุ่ม **ข้อตกลงระดับการบริการ** คลิก **เริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="209d6-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
+2.  <span data-ttu-id="21d92-107">คลิกแท็บ **ใบสั่งบริการ** บน **บานหน้าต่างการดำเนินการ** ในกลุ่ม **ข้อตกลงระดับการบริการ** คลิก **เริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="21d92-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
 
-3.  <span data-ttu-id="209d6-108">ป้อนวันที่และเวลาที่ควรเริ่มต้นการบันทึกเวลา</span><span class="sxs-lookup"><span data-stu-id="209d6-108">Enter the date and time that the time recording should be started.</span></span>
+3.  <span data-ttu-id="21d92-108">ป้อนวันที่และเวลาที่ควรเริ่มต้นการบันทึกเวลา</span><span class="sxs-lookup"><span data-stu-id="21d92-108">Enter the date and time that the time recording should be started.</span></span>
 
-## <a name="stop-time-recording"></a><span data-ttu-id="209d6-109">หยุดการจัดทำเรกคอร์ดเวลา</span><span class="sxs-lookup"><span data-stu-id="209d6-109">Stop time recording</span></span>
+## <a name="stop-time-recording"></a><span data-ttu-id="21d92-109">หยุดการจัดทำเรกคอร์ดเวลา</span><span class="sxs-lookup"><span data-stu-id="21d92-109">Stop time recording</span></span>
 
-1.  <span data-ttu-id="209d6-110">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="209d6-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="21d92-110">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="21d92-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="209d6-111">คลิกแท็บ **ใบสั่งบริการ** บน **บานหน้าต่างการดำเนินการ** ในกลุ่ม **ข้อตกลงระดับการบริการ** คลิก **หยุด**</span><span class="sxs-lookup"><span data-stu-id="209d6-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
+2.  <span data-ttu-id="21d92-111">คลิกแท็บ **ใบสั่งบริการ** บน **บานหน้าต่างการดำเนินการ** ในกลุ่ม **ข้อตกลงระดับการบริการ** คลิก **หยุด**</span><span class="sxs-lookup"><span data-stu-id="21d92-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
 
-3.  <span data-ttu-id="209d6-112">ป้อนวันที่และเวลาที่ควรหยุดการจัดทำเรกคอร์ดเวลา</span><span class="sxs-lookup"><span data-stu-id="209d6-112">Enter the date and time that the time recording should be stopped.</span></span>
+3.  <span data-ttu-id="21d92-112">ป้อนวันที่และเวลาที่ควรหยุดการจัดทำเรกคอร์ดเวลา</span><span class="sxs-lookup"><span data-stu-id="21d92-112">Enter the date and time that the time recording should be stopped.</span></span>
 
-4.  <span data-ttu-id="209d6-113">เลือก **เพิ่มเหตุผลการเพิกถอน** และเลือกรหัสเหตุผลในรายการ **รหัสเหตุผลของขั้นตอน** เพื่อระบุเหตุผลในการหยุดการบันทึกเวลา</span><span class="sxs-lookup"><span data-stu-id="209d6-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
+4.  <span data-ttu-id="21d92-113">เลือก **เพิ่มเหตุผลการเพิกถอน** และเลือกรหัสเหตุผลในรายการ **รหัสเหตุผลของขั้นตอน** เพื่อระบุเหตุผลในการหยุดการบันทึกเวลา</span><span class="sxs-lookup"><span data-stu-id="21d92-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="209d6-114">ถ้า <STRONG>รหัสเหตุผลที่เกินเวลา</STRONG> ถูกเลือกไว้ในแบบฟอร์ม <STRONG>พารามิเตอร์การจัดการบริการ</STRONG> คุณต้องระบุรหัสเหตุผล ก่อนที่คุณจะสามารถหยุดการบันทึกเวลาได้</span><span class="sxs-lookup"><span data-stu-id="209d6-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
+> <P><span data-ttu-id="21d92-114">ถ้า <STRONG>รหัสเหตุผลที่เกินเวลา</STRONG> ถูกเลือกไว้ในแบบฟอร์ม <STRONG>พารามิเตอร์การจัดการบริการ</STRONG> คุณต้องระบุรหัสเหตุผล ก่อนที่คุณจะสามารถหยุดการบันทึกเวลาได้</span><span class="sxs-lookup"><span data-stu-id="21d92-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="209d6-115">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="209d6-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21d92-115">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="21d92-115">See also</span></span>
 
-<span data-ttu-id="209d6-116">[การเริ่มต้นการจัดทำเรกคอร์ดเวลา SLA (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="209d6-116">[Start SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span></span>
+<span data-ttu-id="21d92-116">[การเริ่มต้นการจัดทำเรกคอร์ดเวลา SLA (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="21d92-116">[Start SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span></span>
 
-<span data-ttu-id="209d6-117">[หยุดการจัดทำเรกคอร์ดเวลา SLA (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="209d6-117">[Stop SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span></span>
+<span data-ttu-id="21d92-117">[หยุดการจัดทำเรกคอร์ดเวลา SLA (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="21d92-117">[Stop SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span></span>
 
   
 

@@ -19,36 +19,36 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 05664236d696818b120757ce78037c6bd7c491ea
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310886"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567112"
 ---
-# <a name="delete-a-service-bom"></a><span data-ttu-id="b34ca-103">การลบ BOM การบริการ</span><span class="sxs-lookup"><span data-stu-id="b34ca-103">Delete a service BOM</span></span> 
+# <a name="delete-a-service-bom"></a><span data-ttu-id="151e8-103">การลบ BOM การบริการ</span><span class="sxs-lookup"><span data-stu-id="151e8-103">Delete a service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="b34ca-104">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="b34ca-104">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="b34ca-105">เลือกข้อตกลงการให้บริการที่คุณต้องการลบสูตรการผลิตบริการ (BOM)</span><span class="sxs-lookup"><span data-stu-id="b34ca-105">Select the service agreement that you want to delete a service bill of materials (BOM) from.</span></span>
+1.  <span data-ttu-id="151e8-104">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="151e8-104">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="151e8-105">เลือกข้อตกลงการให้บริการที่คุณต้องการลบสูตรการผลิตบริการ (BOM)</span><span class="sxs-lookup"><span data-stu-id="151e8-105">Select the service agreement that you want to delete a service bill of materials (BOM) from.</span></span>
 
-2.  <span data-ttu-id="b34ca-106">ใน **บานหน้าต่างการดำเนินการ** ให้คลิก **วัตถุที่ให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="b34ca-106">On the **Action Pane**, click **Service objects**.</span></span>
+2.  <span data-ttu-id="151e8-106">ใน **บานหน้าต่างการดำเนินการ** ให้คลิก **วัตถุที่ให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="151e8-106">On the **Action Pane**, click **Service objects**.</span></span>
 
-3.  <span data-ttu-id="b34ca-107">ในแบบฟอร์ม **วัตถุที่ให้บริการ** ให้เลือกวัตถุที่ให้บริการที่คุณต้องการลบ BOM บริการออก</span><span class="sxs-lookup"><span data-stu-id="b34ca-107">In the **Service objects** form, select the service object that you want to delete a service BOM from.</span></span> <span data-ttu-id="b34ca-108">คลิก **ฟังก์ชัน** และจากนั้นเลือก **ลบ BOM บริการ**</span><span class="sxs-lookup"><span data-stu-id="b34ca-108">Click **Functions**, and then select **Delete service BOM**.</span></span>
+3.  <span data-ttu-id="151e8-107">ในแบบฟอร์ม **วัตถุที่ให้บริการ** ให้เลือกวัตถุที่ให้บริการที่คุณต้องการลบ BOM บริการออก</span><span class="sxs-lookup"><span data-stu-id="151e8-107">In the **Service objects** form, select the service object that you want to delete a service BOM from.</span></span> <span data-ttu-id="151e8-108">คลิก **ฟังก์ชัน** และจากนั้นเลือก **ลบ BOM บริการ**</span><span class="sxs-lookup"><span data-stu-id="151e8-108">Click **Functions**, and then select **Delete service BOM**.</span></span>
 
-4.  <span data-ttu-id="b34ca-109">คลิก **ใช่** </span><span class="sxs-lookup"><span data-stu-id="b34ca-109">Click **Yes**.</span></span>
+4.  <span data-ttu-id="151e8-109">คลิก **ใช่** </span><span class="sxs-lookup"><span data-stu-id="151e8-109">Click **Yes**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="b34ca-110">หากคุณไม่ได้ใช้ BOM เท็มเพลต คุณก็สามารถลบ BOM บริการจากแบบฟอร์ม <STRONG>BOMs เท็มเพลต</STRONG> ได้ </span><span class="sxs-lookup"><span data-stu-id="b34ca-110">If you have not applied a template BOM, the service BOM can be deleted from the <STRONG>Template BOMs</STRONG> form.</span></span> <span data-ttu-id="b34ca-111">หากคุณใช้ BOM เท็มเพลต คุณก็ไม่สามารถลบ BOM บริการโดยใช้วิธีนี้ได้</span><span class="sxs-lookup"><span data-stu-id="b34ca-111">If you have applied a template BOM, the service BOM cannot be deleted by using this method.</span></span></P>
+> <P><span data-ttu-id="151e8-110">หากคุณไม่ได้ใช้ BOM เท็มเพลต คุณก็สามารถลบ BOM บริการจากแบบฟอร์ม <STRONG>BOMs เท็มเพลต</STRONG> ได้ </span><span class="sxs-lookup"><span data-stu-id="151e8-110">If you have not applied a template BOM, the service BOM can be deleted from the <STRONG>Template BOMs</STRONG> form.</span></span> <span data-ttu-id="151e8-111">หากคุณใช้ BOM เท็มเพลต คุณก็ไม่สามารถลบ BOM บริการโดยใช้วิธีนี้ได้</span><span class="sxs-lookup"><span data-stu-id="151e8-111">If you have applied a template BOM, the service BOM cannot be deleted by using this method.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="b34ca-112">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="b34ca-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="151e8-112">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="151e8-112">See also</span></span>
 
-[<span data-ttu-id="b34ca-113">BOM เท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="b34ca-113">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="151e8-113">BOM เท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="151e8-113">Template BOMs</span></span>](template-boms.md)
 
-[<span data-ttu-id="b34ca-114">การจัดการ BOM เท็มเพลตสำหรับความสัมพันธ์ของออบเจ็กต์</span><span class="sxs-lookup"><span data-stu-id="b34ca-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
+[<span data-ttu-id="151e8-114">การจัดการ BOM เท็มเพลตสำหรับความสัมพันธ์ของออบเจ็กต์</span><span class="sxs-lookup"><span data-stu-id="151e8-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
 
   
 

@@ -18,20 +18,20 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.openlocfilehash: f1b9be6c3a0c8f96b98e2705c4d98516812702e3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324318"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561725"
 ---
-# <a name="websearchax-page-has-been-retired"></a><span data-ttu-id="2bb77-104">มีการถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="2bb77-104">WebSearchAX page has been retired</span></span>
+# <a name="websearchax-page-has-been-retired"></a><span data-ttu-id="b9dfc-104">มีการถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="b9dfc-104">WebSearchAX page has been retired</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2bb77-105">เราต้องถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="2bb77-105">We've had to retire the WebSearchAX page.</span></span> <span data-ttu-id="2bb77-106">เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่</span><span class="sxs-lookup"><span data-stu-id="2bb77-106">We recommend that you use site search from your favorite search engine to replace it.</span></span> <span data-ttu-id="2bb77-107">ตัวอย่างเช่น </span><span class="sxs-lookup"><span data-stu-id="2bb77-107">For example:</span></span>
+<span data-ttu-id="b9dfc-105">เราต้องถอนหน้า WebSearchAX</span><span class="sxs-lookup"><span data-stu-id="b9dfc-105">We've had to retire the WebSearchAX page.</span></span> <span data-ttu-id="b9dfc-106">เราขอแนะนำให้ คุณใช้การค้นหาไซต์จากกลไกจัดการค้นหารายการโปรดของคุณ เพื่อแทนที่</span><span class="sxs-lookup"><span data-stu-id="b9dfc-106">We recommend that you use site search from your favorite search engine to replace it.</span></span> <span data-ttu-id="b9dfc-107">ตัวอย่างเช่น </span><span class="sxs-lookup"><span data-stu-id="b9dfc-107">For example:</span></span>
 
-<span data-ttu-id="2bb77-108">ไซต์:technet.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="2bb77-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="b9dfc-108">ไซต์:technet.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="b9dfc-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
 
-<span data-ttu-id="2bb77-109">หรือ</span><span class="sxs-lookup"><span data-stu-id="2bb77-109">–or–</span></span>
+<span data-ttu-id="b9dfc-109">หรือ</span><span class="sxs-lookup"><span data-stu-id="b9dfc-109">–or–</span></span>
 
-<span data-ttu-id="2bb77-110">ไซต์:msdn.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="2bb77-110">site:msdn.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="b9dfc-110">ไซต์:msdn.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"</span><span class="sxs-lookup"><span data-stu-id="b9dfc-110">site:msdn.microsoft.com dynamics ax 2012 "search term"</span></span>
