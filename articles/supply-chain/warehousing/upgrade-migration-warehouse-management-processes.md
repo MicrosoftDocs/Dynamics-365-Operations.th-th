@@ -19,18 +19,18 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324479"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554057"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>อัปเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็น Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของกระบวนการปรับรุ่นจาก Microsoft DynamicsAX 2012 R3 ซึ่งรันโมดูล WMSII เป็น Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้แสดงภาพรวมของกระบวนการปรับรุ่นจาก Microsoft Dynamics AX 2012 R3 ซึ่งรันโมดูล WMSII เป็น Microsoft Dynamics 365 for Finance and Operations
 
 Finance and Operations ไม่สนับสนุนโมดูล **WMSII** แบบดั้งเดิมจาก Microsoft Dynamics AX 2012 อีกต่อไป คุณสามารถใช้โมดูล **การบริหารคลังสินค้า** แทนได้ ในโมดูล WMSII ไม่สามารถเลือกมิติสินค้าคงคลังของสถานที่เก็บและรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินได้ อย่างไรก็ตาม ไม่สามารถใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินใน Finance and Operations ได้
 

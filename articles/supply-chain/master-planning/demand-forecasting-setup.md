@@ -20,11 +20,11 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330459"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551970"
 ---
 # <a name="demand-forecasting-setup"></a>การตั้งค่าการคาดการณ์ความต้องการ
 
@@ -70,7 +70,7 @@ ms.locfileid: "330459"
 -   ชื่อบัญชีการจัดเก็บของ Azure
 -   คีย์บัญชีการจัดเก็บของ Azure
 
-**หมายเหตุ:** จำเป็นต้องมีชื่อบัญชีและคีย์บัญชีการจัดเก็บของ Azure เฉพาะเมื่อคุณใช้บัญชีจัดเก็บแบบกำหนดเอง ถ้าคุณปรับใช้ในเวอร์ชันแบบในสถานที่ของ Dynamics 365 for Operations คุณต้องมีบัญชีการจัดเก็บข้อมูลที่กำหนดเองใน Azure เพื่อให้บริการ Machine Learning สามารถเข้าถึงข้อมูลในอดีตได้ 
+**หมายเหตุ:** จำเป็นต้องมีชื่อบัญชีและคีย์บัญชีการจัดเก็บของ Azure เฉพาะเมื่อคุณใช้บัญชีจัดเก็บแบบกำหนดเอง ถ้าคุณปรับใช้ในเวอร์ชันแบบในสถานที่ คุณต้องมีบัญชีการจัดเก็บข้อมูลที่กำหนดเองใน Azure เพื่อให้บริการ Machine Learning สามารถเข้าถึงข้อมูลในอดีตได้ 
 
 เมื่อต้องการสร้างการคาดการณ์ความต้องการ คุณสามารถปรับใช้บริการของคุณเองโดยการใช้ Machine Learning Studio หรือการทดลองการคาดการณ์ความต้องการใน Finance and Operations คำแนะนำสำหรับการปรับใช้การทดลองการคาดการณ์ความต้องการใน Finance and Operations ให้เป็นบริการเว็บจะพร้อมใช้งานใน Finance and Operations ในหน้า **พารามิเตอร์การคาดการณ์ความต้องการ** ให้คลิกแท็บ **Azure Machine Learning**
 

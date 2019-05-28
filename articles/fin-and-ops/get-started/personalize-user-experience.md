@@ -3,7 +3,7 @@ title: ตั้งค่าประสบการณ์ผู้ใช้
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถตั้งค่าส่วนบุคคล Microsoft Dynamics 365 for Finance and Operations
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975862"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528855"
 ---
 # <a name="personalize-the-user-experience"></a>ตั้งค่าประสบการณ์ผู้ใช้
 
@@ -75,7 +75,7 @@ ms.locfileid: "975862"
 
 นอกจากนี้ ชนิดพื้นฐานที่สุดของการตั้งค่าส่วนบุคคลที่ชัดแจ้งจะพร้อมใช้งาน โดยการคลิกขวาที่องค์ประกอบ และจากนั้นเลือก **กำหนดเป็นแบบส่วนบุคคล** (โปรดทราบว่า ไม่ใช่องค์ประกอบบนหน้าของคุณทั้งหมดจะสามารถตั้งค่าส่วนบุคคลได้) เมื่อคุณใช้วิธีการทำให้เป็นแบบส่วนบุคคลนี้ หน้าต่างคุณสมบัติขององค์ประกอบจะปรากฏขึ้น
 
-[![การตั้งค่าคุณสมบัติขององค์ประกอบ](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![การตั้งค่าคุณสมบัติขององค์ประกอบ](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 คุณสามารถใช้หน้าต่างคุณสมบัติเพื่อปรับแต่งองค์ประกอบในวิธีต่อไปนี้:
 
@@ -91,7 +91,7 @@ ms.locfileid: "975862"
 
 ถ้าคุณต้องการทำการเปลี่ยนแปลงหลายรายการไปยังหน้า หรือทำการเปลี่ยนแปลงที่ไม่พร้อมใช้งานโดยใช้กลไกอื่นๆ (เช่น องค์ประกอบการสั่งซ้ำ) คุณสามารถใช้แถบเครื่องมือ **การตั้งค่าส่วนบุคคล** เพื่อเปิดแถบเครื่องมือ **การทำให้เป็นแบบส่วนบุคคล** เลือก **ตั้งค่าแบบฟอร์มนี้ให้เป็นแบบส่วนบุคคล** ในหน้าต่างคุณสมบัติขององค์ประกอบ คุณยังสามารถเลือก **ตั้งค่าแบบฟอร์มนี้ให้เป็นแบบส่วนบุคคล** ในกลุ่ม **ตั้งค่าส่วนบุคคล** บนแท็บ **ตัวเลือก** ของบานหน้าต่างการดำเนินการของหน้าแต่ละหน้าได้
 
-[![แถบเครื่องมือการกำหนดเป็นแบบส่วนบุคคล](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![แถบเครื่องมือการกำหนดเป็นแบบส่วนบุคคล](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>การนำทางไปยังหน้า
 

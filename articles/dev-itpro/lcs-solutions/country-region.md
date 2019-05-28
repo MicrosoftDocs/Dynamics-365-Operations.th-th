@@ -1,9 +1,9 @@
 ---
-title: คุณลักษณะการทำงานเฉพาะและบังคับ
-description: หัวข้อนี้มีรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค
+title: โลกาภิวัตน์
+description: หัวข้อนี้มีรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาคและข้อเสนอ
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2018
+ms.date: 04/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,21 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b9815ee404981719888e4fdf637bd81f1744d7fb
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302967"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517184"
 ---
-# <a name="localization-and-regulatory-features"></a>คุณลักษณะการทำงานเฉพาะและบังคับ
+# <a name="globalization"></a>โลกาภิวัตน์
+
+## <a name="local-and-regional-deployments"></a>การปรับใช้ในท้องถิ่นและภูมิภาค
+หากรัฐบาลของคุณมีข้อบังคับในการจัดเก็บหรือบริการข้อมูลแตกต่างจากข้อกำหนดของประเทศ/ภูมิภาคอื่น คุณต้องพิจารณาข้อกำหนดของประเทศ/ภูมิภาคเมื่อปรับใช้ Finance and Operations พิจารณาทรัพยากรต่อไปนี้ที่อาจเกี่ยวข้องกับคุณ:
+
+[Microsoft Dynamics 365 for Finance and Operations - ดำเนินงานโดย 21Vianet ในจีน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+
+## <a name="localization-and-regulatory-features"></a>คุณลักษณะการทำงานเฉพาะและบังคับ
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,11 +39,11 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 
 หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณทำสิ่งต่อไปนี้: 
 - เรียนรู้เพิ่มเติมเกี่ยวกับการพัฒนาโซลูชันเฉพาะประเทศ/ภูมิภาค
-- การรับการอัปเดตเฉพาะประเทศ/ภูมิภาค
+- รับการอัปเดตเฉพาะประเทศ/ภูมิภาค
 - ส่งและตรวจสอบการแจ้งเตือนที่เป็นระเบียบข้อบังคับ
-- เรียนรู้วิธีใช้ฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค 
+- เรียนรู้วิธีใช้ฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาค
 
-## <a name="developing-localized-solutions"></a>การพัฒนาโซลูชันสำหรับใช้ในท้องถิ่น
+### <a name="developing-localized-solutions"></a>การพัฒนาโซลูชันสำหรับใช้ในท้องถิ่น
 ทรัพยากรต่อไปนี้ให้คำแนะนำและข้อมูลที่สามารถช่วยเหลือนักพัฒนาและ ISV ที่กำลังสร้างการกำหนดเองเฉพาะประเทศ/ภูมิภาค หรือสร้างโซลูชันสำหรับประเทศที่ Microsoft ไม่ได้ให้การสนับสนุน
 -   [แบบจำลองเฉพาะที่แยกต่างหาก](separate-localization-models.md)
 -   [ใช้บริบทประเทศ/ภูมิภาค](apply-country-context.md)
@@ -44,22 +51,25 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [จัดประเภทคุณลักษณะการทำงานเฉพาะ](classify-localization-features.md)
 -   [รหัสประเทศ - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="regulatory-updates-and-communication"></a>การอัปเดตและการสื่อสารที่เป็นระเบียบบังคับ
+### <a name="regulatory-updates-and-communication"></a>การอัปเดตและการสื่อสารที่เป็นระเบียบบังคับ
 ทรัพยากรต่อไปนี้ให้ข้อมูลเกี่ยวกับคุณลักษณะที่วางแผนไว้และคุณลักษณะการทำงานเฉพาะใหม่ 
 
-### <a name="regulatory-updates"></a>การอัปเดตที่เป็นระเบียบบังคับ
+#### <a name="regulatory-updates"></a>การอัปเดตที่เป็นระเบียบบังคับ
 -   [การอัปเดตที่เป็นระเบียบบังคับ](../../financials/localizations/regulatory-updates.md)
 -   [พอร์ทัลเฉพาะ](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (อัปเดตรายสัปดาห์)
 -   [การค้นหาปัญหา LCS](../lifecycle-services/issue-search-lcs.md) (อัปเดตรายวัน)
 
-### <a name="communication-and-alerts"></a>การสื่อสารและการแจ้งเตือน
+#### <a name="communication-and-alerts"></a>การสื่อสารและการแจ้งเตือน
 -   [การดูข้อบังคับและการสื่อสารการอัปเดตตามข้อบังคับ](regulatory-watch-communication.md)
 -   [แจ้งให้ Microsoft ทราบเกี่ยวกับการแจ้งเตือนข้อบังคับของประเทศ/ภูมิภาค และติดตามสถานะของคุณลักษณะตามข้อบังคับ](submit-localization-alerts.md)
 
-### <a name="dynamics-365-release-notes"></a>บันทึกย่อประจำรุ่น Dynamics 365
-[บันทึกย่อประจำรุ่น Dynamics 365 (ดาวน์โหลด PDF)](https://aka.ms/businessappsreleasenotes) มีคำอธิบายความสามารถใหม่ๆ และความสามารถที่ีมีการปรับปรุงล่าสุดในแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
+#### <a name="dynamics-365-release-notes"></a>บันทึกย่อประจำรุ่น Dynamics 365
+[บันทึกย่อประจำรุ่น Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
 
-## <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
+#### <a name="finance-and-operations-whats-new"></a>มีอะไรใหม่ใน Finance and Operations
+[เนื้อหามีอะไรใหม่](../../fin-and-ops/get-started/whats-new-changed.md) จะระบุคุณสมบัติที่รวมอยู่ในรีลีสที่เกี่ยวข้องของ Finance and Operations
+
+### <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:
 -   [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../analytics/general-electronic-reporting.md)
 -   [จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
@@ -71,7 +81,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 -   [ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชันโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../analytics/generate-electronic-documents-update-application-data.md)
 
-## <a name="task-guides"></a>คู่มืองาน
+### <a name="task-guides"></a>คู่มืองาน
 คุณสามารถอ่านคู่มืองานจากบานหน้าต่างวิธีใช้ผลิตภัณฑ์ ซึ่งจะมีหัวข้อที่แนะนำกระบวนการทางธุรกิจที่สำคัญต่างๆ คุณสามารถเปิดคู่มืองานเพื่ออ่านขั้นตอนของกระบวนการทางธุรกิจ หรือคุณสามารถเลือกเล่นคู่มืองานเพื่อทราบรายละเอียดเกี่ยวกับกระบวนการทางธุรกิจและการป้อนข้อมูลได้
 
 หากต้องการค้นหาคู่มืองาน ให้ไปที่หน้าใน Microsoft Dynamics 365 for Finance and Operations และคลิกวิธีใช้ คู่มืองานที่ใช้หน้าจะแสดงรายการอยู่ในบานหน้าต่างวิธีใช้ คุณยังสามารถใช้บานหน้าต่างวิธีใช้เพื่อค้นหาคู่มืองานตามชื่อได้
@@ -79,7 +89,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
 เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [คู่มืองาน](../../fin-and-ops/get-started/help-overview.md#task-guides)
 
 
-## <a name="countryregion-specific-help-content"></a>เนื้อหาวิธีใช้เฉพาะประเทศ/ภูมิภาค
+### <a name="countryregion-specific-help-content"></a>เนื้อหาวิธีใช้เฉพาะประเทศ/ภูมิภาค
 :::row:::
     :::column:::
         - [ออสเตรเลีย](../../financials/localizations/australia.md)

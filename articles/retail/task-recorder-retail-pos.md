@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346007"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548565"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
 
@@ -34,7 +34,7 @@ ms.locfileid: "346007"
 
 ## <a name="overview"></a>ภาพรวม
 
-ตัวบันทึกงานใน Retail Modern POS หรือ Cloud POS คือโซลูชันใหม่ที่ถูกสร้างขึ้นโดยเน้นที่การตอบสนองสูง ซึ่งเป็น Application Programming Interface (API) ที่ยืดหยุ่นสำหรับการเพิ่มความสามารถและการรวมที่ต่อเนื่องสำหรับผู้บริโภคในการบันทึกกระบวนการทางธุรกิจ นอกจากนี้ การรวมตัวบันทึกงานด้วยเครื่องมือตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บน Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) ยังถูกเลื่อนออกไปอีกด้วย ดังนั้น ผู้ใช้สามารถผลิตไดอะแกรมกระบวนการทางธุรกิจที่หลากหลายจากการบันทึกเพื่อวิเคราะห์และออกแบบแอพลิเคชันของตนต่อไปได้
+ตัวบันทึกงานใน Retail Modern POS หรือ Cloud POS คือโซลูชันใหม่ที่ถูกสร้างขึ้นโดยเน้นที่การตอบสนองสูง ซึ่งเป็น Application Programming Interface (API) ที่ยืดหยุ่นสำหรับการเพิ่มความสามารถและการรวมที่ต่อเนื่องสำหรับผู้บริโภคในการบันทึกกระบวนการทางธุรกิจ นอกจากนี้ การรวมตัวบันทึกงานด้วยเครื่องมือตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บน Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) ยังถูกเลื่อนออกไปอีกด้วย ดังนั้น ผู้ใช้สามารถผลิตไดอะแกรมกระบวนการทางธุรกิจที่หลากหลายจากการบันทึกเพื่อวิเคราะห์และออกแบบแอพลิเคชันของตนต่อไปได้
 
 ## <a name="architecture"></a>สถาปัตยกรรม
 

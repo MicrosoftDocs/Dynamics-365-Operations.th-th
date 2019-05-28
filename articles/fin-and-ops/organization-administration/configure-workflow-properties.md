@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328481"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571323"
 ---
 # <a name="configure-workflow-properties"></a>ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน
 
@@ -166,7 +166,7 @@ ms.locfileid: "328481"
     <td>
     <ol>
     <li>บนแท็บ <strong>ผู้รับ</strong> คลิก <strong>ผู้ใช้</strong></li>
-    <li>บนแท็บ <strong>ผู้ใช้</strong> รายการ <strong>ผู้ใช้ที่พร้อมใช้งาน</strong> ประกอบด้วยผู้ใช้ Dynamics 365 for Finance and Operations ทั้งหมด เลือกผู้ใช้ที่จะส่งการแจ้งเตือน แล้วย้ายผู้ใช้เหล่านั้นไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong></li>
+    <li>บนแท็บ <strong>ผู้ใช้</strong> รายการ <strong>ผู้ใช้ที่พร้อมใช้งาน</strong> ประกอบด้วยผู้ใช้ Finance and Operations ทั้งหมด เลือกผู้ใช้ที่จะส่งการแจ้งเตือน แล้วย้ายผู้ใช้เหล่านั้นไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong></li>
     </ol>
     </td>
     </tr>

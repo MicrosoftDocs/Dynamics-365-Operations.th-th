@@ -16,17 +16,17 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354977"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560629"
 ---
 # <a name="available-mobile-workspaces"></a>พื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งาน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งานสำหรับการใช้กับแอพบนมือถือ Microsoft Dynamics 365 for Unified Operations
+หัวข้อนี้แสดงรายการพื้นที่ทำงานแบบเคลื่อนที่ที่พร้อมใช้งานสำหรับการใช้กับแอพบนมือถือ Dynamics 365 for Unified Operations mobile
 
 > [!NOTE]
 > แอพบนมือถือก่อนหน้านี้มีชื่อว่า *Microsoft Dynamics 365 for Finance and Operations*
