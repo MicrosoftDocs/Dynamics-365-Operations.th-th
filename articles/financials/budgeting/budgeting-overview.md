@@ -1,73 +1,165 @@
----
-title: โฮมเพจของการจัดงบประมาณ
-description: หัวข้อนี้แสดงภาพรวมเกี่ยวกับส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ เครื่องมือการจัดทำงบประมาณ และความสามารถด้านการรายงานใน Microsoft Dynamics 365 for Finance and Operations
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: BudgetPlanningWorkspace
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 106043
-ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7e755e9cbcce332bf2a010083be438a8aeb9e2f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512109"
----
-# <a name="budgeting-home-page"></a><span data-ttu-id="d9ec6-103">โฮมเพจของการจัดงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-103">Budgeting home page</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="d9ec6-104">หัวข้อนี้แสดงภาพรวมเกี่ยวกับส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ เครื่องมือการจัดทำงบประมาณ และความสามารถด้านการรายงานใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="d9ec6-104">This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Finance and Operations.</span></span> 
-
-<a name="components-of-budgeting-functionality"></a><span data-ttu-id="d9ec6-105">ส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-105">Components of budgeting functionality</span></span>
--------------------------------------
-
-<span data-ttu-id="d9ec6-106">วงจรการวางแผนทรัพยากรสำหรับบริษัทที่โดยทั่วไปจะประกอบด้วยการวางแผน การจัดงบประมาณ และกิจกรรมการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="d9ec6-106">The resource planning cycle for a company typically consists of planning, budgeting, and forecasting activities.</span></span>
-
-<span data-ttu-id="d9ec6-107">[![ส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</span><span class="sxs-lookup"><span data-stu-id="d9ec6-107">[![Budgeting functionality components](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</span></span>
-
-<span data-ttu-id="d9ec6-108">กระบวนการสำหรับการวางแผนเชิงกลยุทธ์ระยะยาวและการวางแผนงบประมาณประจำปีได้รับการสนับสนุนโดยเอกสารแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-108">The processes for both long-term strategic planning and annual budget planning are supported through a budget plan document.</span></span> <span data-ttu-id="d9ec6-109">เอกสารแผนงบประมาณรวมเข้ากับ Microsoft Excel โดยสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="d9ec6-109">Budget plan documents are tightly integrated with Microsoft Excel.</span></span> <span data-ttu-id="d9ec6-110">ผู้ใช้สามารถตั้งค่าคอนฟิกสถานการณ์เชิงปริมาณและยอดเงินที่ไม่จำกัด และยังสามารถกำหนดลำดับชั้นขององค์กรการจัดทำงบประมาณ เพื่อสนับสนุนวิธีการจัดทำงบประมาณทั้งแบบบนลงล่างและล่างขึ้นบน</span><span class="sxs-lookup"><span data-stu-id="d9ec6-110">Users can configure unlimited monetary and quantitative scenarios, and can also define a budgeting organizational hierarchy to both support top-down and bottom-up budgeting methods.</span></span> <span data-ttu-id="d9ec6-111">หลังจากงบประมาณถูกสร้างและอนุมัติใน Finance and Operations แล้ว คุณสามารถแปลงแผนงบประมาณเป็นรายการทะเบียนงบประมาณได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-111">After a budget is established and approved in Finance and Operations, you convert the budget plan to a budget register entry.</span></span> <span data-ttu-id="d9ec6-112">รายการทะเบียนงบประมาณมีเครื่องมือสำหรับการรักษางบประมาณ และการเก็บยอดเงินที่สามารถติดตามโดยใช้รหัสงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-112">Budget register entries provide tools for maintaining the budget and for keeping amounts traceable through budget codes.</span></span> <span data-ttu-id="d9ec6-113">รายการทะเบียนงบประมาณให้คุณตรวจทานงบประมาณเดิม ดำเนินการโอนย้าย และยกยอดงบประมาณจากปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-113">Budget register entries let you revise original budgets, perform transfers, and carry forward budget amounts from the previous year.</span></span> <span data-ttu-id="d9ec6-114">บริษัทสามารถเปิดใช้งานการควบคุมงบประมาณตามงบประมาณที่สร้างไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="d9ec6-114">Based on the established budget, a company can enable budget control.</span></span> <span data-ttu-id="d9ec6-115">ระดับของการควบคุมขึ้นอยู่กับวัฒนธรรมขององค์กรและระดับขององค์กรที่ครบกำหนด</span><span class="sxs-lookup"><span data-stu-id="d9ec6-115">The level of control depends on the organizational culture and the organization's level of maturity.</span></span> <span data-ttu-id="d9ec6-116">องค์กรที่มีวันครบกำหนดต่ำอาจปล่อยให้งบประมาณเป็น "ตามที่เป็นอยู่" และอาจเป็นแบบปฏิกิริยามากกว่าแบบเชิงรุก ถ้างบประมาณไม่ตรงกับความคาดหวังไว้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-116">Organizations that have low maturity might leave the budget “as is” and might be more reactive than proactive if a budget doesn't meet expectations.</span></span> <span data-ttu-id="d9ec6-117">องค์กรอื่น ๆ อาจเปิดใช้งานนโยบายการควบคุมงบประมาณที่ป้องกันไม่ให้ผู้ใช้จากการซื้อถ้าเงินงบประมาณไม่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="d9ec6-117">Other organizations might enable budget control policies that prevent users from purchasing if budget funds aren't available.</span></span>
-
-<span data-ttu-id="d9ec6-118">ในตอนท้าย องค์กรที่มีการเติบโตมากๆ อาจสร้างวัฒนธรรมขององค์กรที่พนักงานได้รับการศึกษาเกี่ยวกับเป้าหมายขององค์กร และทำตามเป้าหมายดังกล่าวผ่านนโยบาย เช่น "ให้พิจารณาการประชุมแบบออนไลน์แทนการเดินทาง"</span><span class="sxs-lookup"><span data-stu-id="d9ec6-118">Finally, very mature organizations might establish an organizational culture where employees are educated about organizational targets and follow those targets through policies such as “Consider online meeting instead of a travel.”</span></span> <span data-ttu-id="d9ec6-119">Finance and Operations ประกอบด้วย กรอบงานการควบคุมงบประมาณที่ช่วยให้การจัดการของบริษัทสามารถเลือกตัวควบคุมแบบตายตัว (ซึ่งป้องกันการลงรายการบัญชีที่จะเกินงบประมาณ) หรือตัวควบคุมแบบผ่อนปรน (ซึ่งผู้ใช้จะได้รับการเตือนว่า พวกเขาจะเกินเงินงบประมาณที่มีอยู่ แต่สามารถตัดสินใจวิธีการดำเนินการได้เอง) อย่างใดอย่างหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="d9ec6-119">Finance and Operations includes a budget control framework that lets the company's management select either hard control (which prevents postings that would go over the budget) or soft control (where users are warned that they will exceed the available budget funds but can decide for themselves how to proceed).</span></span> <span data-ttu-id="d9ec6-120">ในตอนท้าย คุณสามารถใช้การคาดการณ์ย้อนหลังได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-120">Finally, you can use rolling forecasts.</span></span> <span data-ttu-id="d9ec6-121">การคาดการณ์ย้อนหลังคือการเปรียบเทียบงบประมาณปกติกับงบประมาณที่เกิดขึ้นจริง และใช้เพื่อกำหนดว่าบริษัทดำเนินงานได้ดีเพียงใด</span><span class="sxs-lookup"><span data-stu-id="d9ec6-121">A rolling forecast is a regular comparison of budget to actuals and is used to define how well the company operates against the budget.</span></span> <span data-ttu-id="d9ec6-122">การคาดการณ์ย้อนหลังยังสามารถใช้เพื่อระบุแนวโน้มได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-122">A rolling forecast is also used to identify trends.</span></span> <span data-ttu-id="d9ec6-123">ใน Finance and Operations การคาดการณ์ย้อนหลังได้รับการสนับสนุนผ่านเอกสารแผนงบประมาณเป็นกิจกรรมการวางแผนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="d9ec6-123">In Finance and Operations, rolling forecasts are supported, through a budget plan document, as initial planning activities.</span></span> <span data-ttu-id="d9ec6-124">การคาดการณ์ย้อนหลังยังสามารถดำเนินการพร้อมกันกับการวางแผนสำหรับวงจรงบประมาณที่กำลังมาถึง</span><span class="sxs-lookup"><span data-stu-id="d9ec6-124">Rolling forecasts can be done in parallel with the planning for the upcoming budget cycle.</span></span>
-
--   [<span data-ttu-id="d9ec6-125">การจัดงบประมาณพื้นฐาน: ภาพรวมและการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="d9ec6-125">Basic budgeting: Overview and configuration</span></span>](basic-budgeting-overview-configuration.md)
--   [<span data-ttu-id="d9ec6-126">การควบคุมงบประมาณ: ภาพรวมและการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="d9ec6-126">Budget control: Overview and configuration</span></span>](budget-control-overview-configuration.md)
--   [<span data-ttu-id="d9ec6-127">การวางแผนงบประมาณ: ภาพรวมและการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="d9ec6-127">Budget planning: Overview and configuration</span></span>](budget-planning-overview-configuration.md)
--   [<span data-ttu-id="d9ec6-128">การคาดการณ์ตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="d9ec6-128">Position forecasting</span></span>](position-forecasting.md)
--   [<span data-ttu-id="d9ec6-129">เอกสารเหตุผลการวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-129">Budget planning justification documents</span></span>](budget-planning-justification-docs.md)
--   [<span data-ttu-id="d9ec6-130">เท็มเพลต Microsoft Excel สำหรับการวางแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-130">Microsoft Excel templates for budget planning</span></span>](budget-planning-excel-templates.md)
-
-## <a name="budgeting-tools-in-finance-and-operations"></a><span data-ttu-id="d9ec6-131">เครื่องมือการจัดทำงบประมาณใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="d9ec6-131">Budgeting tools in Finance and Operations</span></span>
-<span data-ttu-id="d9ec6-132">[![เครื่องมือการจัดงบประมาณ](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</span><span class="sxs-lookup"><span data-stu-id="d9ec6-132">[![Budgeting tools](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</span></span> 
-
-<span data-ttu-id="d9ec6-133">ความสามารถในการวางแผนและจัดทำงบประมาณเพิ่มเติมจะพร้อมใช้งานทั่วทั้ง Finance and Operations และจะรวมกับงบประมาณบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="d9ec6-133">Additional planning and budgeting capabilities are available across Finance and Operations and are integrated with ledger budgets.</span></span>
-
--   <span data-ttu-id="d9ec6-134">**งบประมาณบุคลากร**– บุคลากรที่จัดงบประมาณรวมถึงรายละเอียดส่วนประกอบของต้นทุนงบประมาณที่วางแผนสำหรับตำแหน่ง กลุ่มค่าตอบแทน และอื่น ๆ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-134">**Workforce budgets** – Workforce budgeting includes detailed budget cost component planning for positions, compensation groups, and so on.</span></span>
--   <span data-ttu-id="d9ec6-135">**งบประมาณสินทรัพย์ถาวร**– ยึดตามข้อมูลสินทรัพย์ถาวร คุณสามารถคำนวณค่าเสื่อมราคาที่วางแผนไว้ และบันทึกธุรกรรมที่วางแผนไว้อื่นๆ ที่เกี่ยวข้องกับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="d9ec6-135">**Fixed assets budgets** – Based on fixed asset information, you can calculate planned depreciation and record other planned transactions that are related to fixed assets.</span></span>
--   <span data-ttu-id="d9ec6-136">**งบประมาณโครงการ**– ในโมดูลโครงการ คุณสามารถสร้างการคาดการณ์โครงการโดยละเอียดได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-136">**Project budgets** – In the projects module, you can create detailed project forecasts.</span></span> <span data-ttu-id="d9ec6-137">การคาดการณ์โครงการจะรวมรายละเอียดเกี่ยวกับชั่วโมง ค่าใช้จ่าย ค่าธรรมเนียม และสินค้าที่วางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-137">The projects forecasts will include details about the planned hours, expenses, fees, and items.</span></span>
--   <span data-ttu-id="d9ec6-138">**การคาดการณ์ความต้องการ** – คุณสามารถประเมินความต้องการสินค้าคงคลังในอนาคต และสร้างการคาดการณ์ความต้องการตามข้อมูลธุรกรรมในอดีตได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-138">\*\*Demand forecasting \*\*– Based on historical transaction data, you can estimate future inventory demand and create demand forecasts.</span></span>
-
-<span data-ttu-id="d9ec6-139">สำหรับข้อมูลเกี่ยวกับวิธีการนำข้อมูลการวางแผนจากโมดูลอื่นเข้าไปในแผนงบประมาณ ให้ดู [การรวมการวางแผนงบประมาณกับโมดูลอื่น](budget-planning-integration-other-modules.md)</span><span class="sxs-lookup"><span data-stu-id="d9ec6-139">For information about how to bring planning data from other modules into budget plans, see [Budget planning integration with other modules](budget-planning-integration-other-modules.md).</span></span>
-
-## <a name="user-interface-and-reporting-capabilities"></a><span data-ttu-id="d9ec6-140">อินเทอร์เฟสผู้ใช้และความสามารถในการรายงาน</span><span class="sxs-lookup"><span data-stu-id="d9ec6-140">User interface and reporting capabilities</span></span>
-<span data-ttu-id="d9ec6-141">ใน Finance and Operations ผู้ใช้สามารถสร้างแผนงบประมาณทั้งในไคลเอนต์ Finance and Operations โดยตรง (โดยใช้หน้าเอกสารแผนงบประมาณที่สามารถกำหนดค่าได้) หรือผ่าน Excel ได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-141">In Finance and Operations, users can create budget plans either directly in the Finance and Operations client (by using a configurable budget plan document page) or through Excel.</span></span> <span data-ttu-id="d9ec6-142">Excel มีความสามารถในการเพิ่มเติมต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-142">Excel provides several additional capabilities.</span></span> <span data-ttu-id="d9ec6-143">ตัวอย่างเช่น คุณสามารถใช้ข้อมูลภายนอกเป็นแหล่งข้อมูลสำหรับแผนงบประมาณ ทำการคำนวณที่กำหนดเอง และใช้ Microsoft PivotTable และแผนภูมิ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-143">For example, you can use external data as a source for a budget plan, do custom calculations, and use Microsoft PivotTable and charts.</span></span> <span data-ttu-id="d9ec6-144">คุณสามารถกำหนดค่าตัวแปรส่วนใหญ่ในกระบวนการวางแผนงบประมาณได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-144">Most of the variables in the budget planning process can be configured.</span></span> 
-
-<span data-ttu-id="d9ec6-145">ตัวอย่างเช่น คุณสามารถกำหนดผู้จัดทำงบประมาณ สิ่งที่จะนำมาจัดทำงบประมาณ และกระบวนการในการจัดทำงบประมาณได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-145">For example, you can define who does budgeting, what is budgeted, and what the process looks like.</span></span> <span data-ttu-id="d9ec6-146">แม้ว่าคุณจะสามารถใช้ Excel สำหรับวางแผนงบประมาณได้ แต่ Finance and Operations จะถูกเก็บไว้เป็นแหล่งข้อมูลหนึ่งเดียว และช่วยป้องกันปัญหาการควบคุมงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-146">Although you can use Excel for budget planning, Finance and Operations is kept as a single source of truth and helps prevent budget control issues.</span></span> <span data-ttu-id="d9ec6-147">คุณสามารถใช้การประมวลผลรอบระยะเวลาเพื่อนำเข้าข้อมูลเริ่มต้นสำหรับการจัดงบประมาณเข้ามาไว้ในแผนงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-147">Periodic processes can be used to bring initial data for budgeting into the budget plan.</span></span> <span data-ttu-id="d9ec6-148">สำหรับการรายงาน Finance and Operations เสนอชุดของหน้าที่การสอบถามมาตรฐานซึ่งช่วยให้คุณสามารถดู และวิเคราะห์ข้อมูลที่จัดทำงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="d9ec6-148">For reporting, Finance and Operations offers a set of standard inquiry pages that let you view and analyze budgeting data.</span></span> <span data-ttu-id="d9ec6-149">คุณสามารถเข้าถึงแผนงบประมาณผ่าน Management Reporter และแสดงสถานการณ์จำลองแผนงบประมาณแยกเป็นคอลัมน์ในรายงาน Management Reporter ได้</span><span class="sxs-lookup"><span data-stu-id="d9ec6-149">Budget plan data can be accessed through Management Reporter, and separate budget plan scenarios can be displayed as columns on the Management Reporter report.</span></span>
-
-
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="budgeting-overview.md" target-language="th-TH">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>budgeting-overview.a0e130.84321b78c9869a4920c3488373876bb56bcb3a29.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>84321b78c9869a4920c3488373876bb56bcb3a29</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\budgeting\budgeting-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Budgeting home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจของการจัดงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้แสดงภาพรวมเกี่ยวกับส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ เครื่องมือการจัดทำงบประมาณ และความสามารถด้านการรายงานใน Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Budgeting home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจของการจัดงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้แสดงภาพรวมเกี่ยวกับส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ เครื่องมือการจัดทำงบประมาณ และความสามารถด้านการรายงานใน Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Components of budgeting functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The resource planning cycle for a company typically consists of planning, budgeting, and forecasting activities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วงจรการวางแผนทรัพยากรสำหรับบริษัทที่โดยทั่วไปจะประกอบด้วยการวางแผน การจัดงบประมาณ และกิจกรรมการคาดการณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Budgeting functionality components<ept id="p1">](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>ส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ<ept id="p1">](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>The processes for both long-term strategic planning and annual budget planning are supported through a budget plan document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กระบวนการสำหรับการวางแผนเชิงกลยุทธ์ระยะยาวและการวางแผนงบประมาณประจำปีได้รับการสนับสนุนโดยเอกสารแผนงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Budget plan documents are tightly integrated with Microsoft Excel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เอกสารแผนงบประมาณรวมเข้ากับ Microsoft Excel โดยสมบูรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Users can configure unlimited monetary and quantitative scenarios, and can also define a budgeting organizational hierarchy to both support top-down and bottom-up budgeting methods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ใช้สามารถตั้งค่าคอนฟิกสถานการณ์เชิงปริมาณและยอดเงินที่ไม่จำกัด และยังสามารถกำหนดลำดับชั้นขององค์กรการจัดทำงบประมาณ เพื่อสนับสนุนวิธีการจัดทำงบประมาณทั้งแบบบนลงล่างและล่างขึ้นบน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>After a budget is established and approved in Finance and Operations, you convert the budget plan to a budget register entry.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากงบประมาณถูกสร้างและอนุมัติใน Finance and Operations แล้ว คุณสามารถแปลงแผนงบประมาณเป็นรายการทะเบียนงบประมาณได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Budget register entries provide tools for maintaining the budget and for keeping amounts traceable through budget codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายการทะเบียนงบประมาณมีเครื่องมือสำหรับการรักษางบประมาณ และการเก็บยอดเงินที่สามารถติดตามโดยใช้รหัสงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Budget register entries let you revise original budgets, perform transfers, and carry forward budget amounts from the previous year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายการทะเบียนงบประมาณให้คุณตรวจทานงบประมาณเดิม ดำเนินการโอนย้าย และยกยอดงบประมาณจากปีก่อนหน้านี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Based on the established budget, a company can enable budget control.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บริษัทสามารถเปิดใช้งานการควบคุมงบประมาณตามงบประมาณที่สร้างไว้แล้ว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The level of control depends on the organizational culture and the organization's level of maturity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระดับของการควบคุมขึ้นอยู่กับวัฒนธรรมขององค์กรและระดับขององค์กรที่ครบกำหนด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Organizations that have low maturity might leave the budget “as is” and might be more reactive than proactive if a budget doesn't meet expectations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">องค์กรที่มีวันครบกำหนดต่ำอาจปล่อยให้งบประมาณเป็น "ตามที่เป็นอยู่" และอาจเป็นแบบปฏิกิริยามากกว่าแบบเชิงรุก ถ้างบประมาณไม่ตรงกับความคาดหวังไว้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Other organizations might enable budget control policies that prevent users from purchasing if budget funds aren't available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">องค์กรอื่น ๆ อาจเปิดใช้งานนโยบายการควบคุมงบประมาณที่ป้องกันไม่ให้ผู้ใช้จากการซื้อถ้าเงินงบประมาณไม่มีอยู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Finally, very mature organizations might establish an organizational culture where employees are educated about organizational targets and follow those targets through policies such as “Consider online meeting instead of a travel.”</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในตอนท้าย องค์กรที่มีการเติบโตมากๆ อาจสร้างวัฒนธรรมขององค์กรที่พนักงานได้รับการศึกษาเกี่ยวกับเป้าหมายขององค์กร และทำตามเป้าหมายดังกล่าวผ่านนโยบาย เช่น "ให้พิจารณาการประชุมแบบออนไลน์แทนการเดินทาง"</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Finance and Operations includes a budget control framework that lets the company's management select either hard control (which prevents postings that would go over the budget) or soft control (where users are warned that they will exceed the available budget funds but can decide for themselves how to proceed).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations ประกอบด้วย กรอบงานการควบคุมงบประมาณที่ช่วยให้การจัดการของบริษัทสามารถเลือกตัวควบคุมแบบตายตัว (ซึ่งป้องกันการลงรายการบัญชีที่จะเกินงบประมาณ) หรือตัวควบคุมแบบผ่อนปรน (ซึ่งผู้ใช้จะได้รับการเตือนว่า พวกเขาจะเกินเงินงบประมาณที่มีอยู่ แต่สามารถตัดสินใจวิธีการดำเนินการได้เอง) อย่างใดอย่างหนึ่ง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Finally, you can use rolling forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในตอนท้าย คุณสามารถใช้การคาดการณ์ย้อนหลังได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>A rolling forecast is a regular comparison of budget to actuals and is used to define how well the company operates against the budget.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การคาดการณ์ย้อนหลังคือการเปรียบเทียบงบประมาณปกติกับงบประมาณที่เกิดขึ้นจริง และใช้เพื่อกำหนดว่าบริษัทดำเนินงานได้ดีเพียงใด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>A rolling forecast is also used to identify trends.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การคาดการณ์ย้อนหลังยังสามารถใช้เพื่อระบุแนวโน้มได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In Finance and Operations, rolling forecasts are supported, through a budget plan document, as initial planning activities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน Finance and Operations การคาดการณ์ย้อนหลังได้รับการสนับสนุนผ่านเอกสารแผนงบประมาณเป็นกิจกรรมการวางแผนเริ่มต้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Rolling forecasts can be done in parallel with the planning for the upcoming budget cycle.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การคาดการณ์ย้อนหลังยังสามารถดำเนินการพร้อมกันกับการวางแผนสำหรับวงจรงบประมาณที่กำลังมาถึง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Basic budgeting: Overview and configuration<ept id="p1">](basic-budgeting-overview-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดงบประมาณพื้นฐาน: ภาพรวมและการตั้งค่าคอนฟิก<ept id="p1">](basic-budgeting-overview-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Budget control: Overview and configuration<ept id="p1">](budget-control-overview-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การควบคุมงบประมาณ: ภาพรวมและการตั้งค่าคอนฟิก<ept id="p1">](budget-control-overview-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Budget planning: Overview and configuration<ept id="p1">](budget-planning-overview-configuration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การวางแผนงบประมาณ: ภาพรวมและการตั้งค่าคอนฟิก<ept id="p1">](budget-planning-overview-configuration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">[</bpt>Position forecasting<ept id="p1">](position-forecasting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การคาดการณ์ตำแหน่ง<ept id="p1">](position-forecasting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Budget planning justification documents<ept id="p1">](budget-planning-justification-docs.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เอกสารเหตุผลการวางแผนงบประมาณ<ept id="p1">](budget-planning-justification-docs.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Microsoft Excel templates for budget planning<ept id="p1">](budget-planning-excel-templates.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เท็มเพลต Microsoft Excel สำหรับการวางแผนงบประมาณ<ept id="p1">](budget-planning-excel-templates.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Budgeting tools in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องมือการจัดทำงบประมาณใน Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Budgeting tools<ept id="p1">](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>เครื่องมือการจัดงบประมาณ<ept id="p1">](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Additional planning and budgeting capabilities are available across Finance and Operations and are integrated with ledger budgets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความสามารถในการวางแผนและจัดทำงบประมาณเพิ่มเติมจะพร้อมใช้งานทั่วทั้ง Finance and Operations และจะรวมกับงบประมาณบัญชีแยกประเภท</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Workforce budgets<ept id="p1">**</ept> – Workforce budgeting includes detailed budget cost component planning for positions, compensation groups, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>งบประมาณบุคลากร<ept id="p1">**</ept>– บุคลากรที่จัดงบประมาณรวมถึงรายละเอียดส่วนประกอบของต้นทุนงบประมาณที่วางแผนสำหรับตำแหน่ง กลุ่มค่าตอบแทน และอื่น ๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">**</bpt>Fixed assets budgets<ept id="p1">**</ept> – Based on fixed asset information, you can calculate planned depreciation and record other planned transactions that are related to fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>งบประมาณสินทรัพย์ถาวร<ept id="p1">**</ept>– ยึดตามข้อมูลสินทรัพย์ถาวร คุณสามารถคำนวณค่าเสื่อมราคาที่วางแผนไว้ และบันทึกธุรกรรมที่วางแผนไว้อื่นๆ ที่เกี่ยวข้องกับสินทรัพย์ถาวร</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Project budgets<ept id="p1">**</ept> – In the projects module, you can create detailed project forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>งบประมาณโครงการ<ept id="p1">**</ept>– ในโมดูลโครงการ คุณสามารถสร้างการคาดการณ์โครงการโดยละเอียดได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The projects forecasts will include details about the planned hours, expenses, fees, and items.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การคาดการณ์โครงการจะรวมรายละเอียดเกี่ยวกับชั่วโมง ค่าใช้จ่าย ค่าธรรมเนียม และสินค้าที่วางแผนไว้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>**Demand forecasting **– Based on historical transaction data, you can estimate future inventory demand and create demand forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">**การคาดการณ์ความต้องการ** – คุณสามารถประเมินความต้องการสินค้าคงคลังในอนาคต และสร้างการคาดการณ์ความต้องการตามข้อมูลธุรกรรมในอดีตได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>For information about how to bring planning data from other modules into budget plans, see <bpt id="p1">[</bpt>Budget planning integration with other modules<ept id="p1">](budget-planning-integration-other-modules.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเกี่ยวกับวิธีการนำข้อมูลการวางแผนจากโมดูลอื่นเข้าไปในแผนงบประมาณ ให้ดู <bpt id="p1">[</bpt>การรวมการวางแผนงบประมาณกับโมดูลอื่น<ept id="p1">](budget-planning-integration-other-modules.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>User interface and reporting capabilities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟสผู้ใช้และความสามารถในการรายงาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>In Finance and Operations, users can create budget plans either directly in the Finance and Operations client (by using a configurable budget plan document page) or through Excel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน Finance and Operations ผู้ใช้สามารถสร้างแผนงบประมาณทั้งในไคลเอนต์ Finance and Operations โดยตรง (โดยใช้หน้าเอกสารแผนงบประมาณที่สามารถกำหนดค่าได้) หรือผ่าน Excel ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Excel provides several additional capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Excel มีความสามารถในการเพิ่มเติมต่าง ๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>For example, you can use external data as a source for a budget plan, do custom calculations, and use Microsoft PivotTable and charts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น คุณสามารถใช้ข้อมูลภายนอกเป็นแหล่งข้อมูลสำหรับแผนงบประมาณ ทำการคำนวณที่กำหนดเอง และใช้ Microsoft PivotTable และแผนภูมิ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Most of the variables in the budget planning process can be configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถกำหนดค่าตัวแปรส่วนใหญ่ในกระบวนการวางแผนงบประมาณได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>For example, you can define who does budgeting, what is budgeted, and what the process looks like.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น คุณสามารถกำหนดผู้จัดทำงบประมาณ สิ่งที่จะนำมาจัดทำงบประมาณ และกระบวนการในการจัดทำงบประมาณได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Although you can use Excel for budget planning, Finance and Operations is kept as a single source of truth and helps prevent budget control issues.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แม้ว่าคุณจะสามารถใช้ Excel สำหรับวางแผนงบประมาณได้ แต่ Finance and Operations จะถูกเก็บไว้เป็นแหล่งข้อมูลหนึ่งเดียว และช่วยป้องกันปัญหาการควบคุมงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Periodic processes can be used to bring initial data for budgeting into the budget plan.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้การประมวลผลรอบระยะเวลาเพื่อนำเข้าข้อมูลเริ่มต้นสำหรับการจัดงบประมาณเข้ามาไว้ในแผนงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>For reporting, Finance and Operations offers a set of standard inquiry pages that let you view and analyze budgeting data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับการรายงาน Finance and Operations เสนอชุดของหน้าที่การสอบถามมาตรฐานซึ่งช่วยให้คุณสามารถดู และวิเคราะห์ข้อมูลที่จัดทำงบประมาณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Budget plan data can be accessed through Management Reporter, and separate budget plan scenarios can be displayed as columns on the Management Reporter report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถเข้าถึงแผนงบประมาณผ่าน Management Reporter และแสดงสถานการณ์จำลองแผนงบประมาณแยกเป็นคอลัมน์ในรายงาน Management Reporter ได้</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

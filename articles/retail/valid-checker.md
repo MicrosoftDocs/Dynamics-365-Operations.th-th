@@ -1,66 +1,150 @@
----
-title: ตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก
-description: หัวข้อนี้อธิบายฟังก์ชันการทำงานของตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีกใน Microsoft Dynamics 365 for Retail
-author: josaw1
-manager: AnnBe
-ms.date: 01/08/2019
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
-ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: josaw
-ms.search.validFrom: 2019-01-15
-ms.dyn365.ops.version: 10
-ms.openlocfilehash: 972c4d6b244eebc85cc801353ce8fb25ecbc0655
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517180"
----
-# <a name="retail-transaction-consistency-checker"></a><span data-ttu-id="1c9ff-103">ตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1c9ff-103">Retail transaction consistency checker</span></span>
-
-
-[!include [banner](includes/banner.md)]
-[!include [preview banner](includes/preview-banner.md)]
-
-<span data-ttu-id="1c9ff-104">หัวข้อนี้อธิบายฟังก์ชันการทำงานของตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีกที่นำเสนอใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.1.3</span><span class="sxs-lookup"><span data-stu-id="1c9ff-104">This topic describes the retail transaction consistency checker functionality introduced in Microsoft Dynamics 365 for Finance and Operations version 8.1.3.</span></span> <span data-ttu-id="1c9ff-105">ตัวตรวจสอบความสอดคล้องกันจะระบุและจำแนกธุรกรรมที่ไม่สอดคล้องกันก่อนที่จะมีการจัดการต่อโดยกระบวนการลงรายการบัญชีใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="1c9ff-105">The consistency checker identifies and isolates inconsistent transactions before they are picked up by the statement posting process.</span></span>
-
-<span data-ttu-id="1c9ff-106">เมื่อมีการลงรายการบัญชีใบแจ้งยอดใน Retail การลงรายการบัญชีอาจล้มเหลวเนื่องจากข้อมูลที่ไม่สอดคล้องกันในตารางธุรกรรมการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1c9ff-106">When a statement is posted in Retail, posting can fail due to inconsistent data in the retail transaction tables.</span></span> <span data-ttu-id="1c9ff-107">ปัญหาข้อมูลอาจเกิดมาจากปัญหาที่ไม่คาดคิดในแอปพลิเคชันการขายหน้าร้าน (POS) หรือหากธุรกรรมมีการนำเข้าอย่างไม่ถูกต้องจากระบบ POS ของบริษัทอื่น</span><span class="sxs-lookup"><span data-stu-id="1c9ff-107">The data issue may be caused by by unforeseen issues in the point of sale (POS) application, or if transactions were incorrectly imported from third-party POS systems.</span></span> <span data-ttu-id="1c9ff-108">ตัวอย่างของลักษณะความไม่สอดคล้องกันเหล่านี้ที่อาจปรากฏขึ้นได้แก่:</span><span class="sxs-lookup"><span data-stu-id="1c9ff-108">Examples of how these inconsistencies may appear include:</span></span> 
-
-  - <span data-ttu-id="1c9ff-109">ยอดรวมของธุรกรรมในตารางส่วนหัวไม่ตรงกับยอดรวมของธุรกรรมในรายการ</span><span class="sxs-lookup"><span data-stu-id="1c9ff-109">The transaction total on the header table does not match the transaction total on the lines.</span></span>
-  - <span data-ttu-id="1c9ff-110">จำนวนรายการในตารางส่วนหัวไม่ตรงกับจำนวนของรายการในตารางธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="1c9ff-110">The line count on the header table does not match with the number of lines in the transaction table.</span></span>
-  - <span data-ttu-id="1c9ff-111">ภาษีในตารางส่วนหัวไม่ตรงกับยอดเงินภาษีในรายการ</span><span class="sxs-lookup"><span data-stu-id="1c9ff-111">Taxes on the header table do not match the tax amount on the lines.</span></span> 
-  
-<span data-ttu-id="1c9ff-112">เมื่อธุรกรรมที่ไม่สอดคล้องกันถูกจัดการต่อโดยกระบวนการลงรายการบัญชีใบแจ้งยอด จะมีการสร้างใบแจ้งหนี้การขายและสมุดรายวันการชำระเงินที่ไม่สอดคล้องกัน และทำให้กระบวนการลงรายการบัญชีใบแจ้งยอดทั้งหมดล้มเหลว</span><span class="sxs-lookup"><span data-stu-id="1c9ff-112">When inconsistent transactions are picked up by the statement posting process, inconsistent sales invoices and payment journals are created, and the entire statement posting process fails as a result.</span></span> <span data-ttu-id="1c9ff-113">การกู้คืนใบแจ้งยอดจากสถานะดังกล่าวเป็นการแก้ไขข้อมูลที่มีความซับซ้อนในตารางธุรกรรมหลายตาราง</span><span class="sxs-lookup"><span data-stu-id="1c9ff-113">Recovering the statements from such a state involves complex data fixes across multiple transaction tables.</span></span> <span data-ttu-id="1c9ff-114">ตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีกจะป้องกันปัญหาดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="1c9ff-114">The retail transaction consistency checker prevents such issues.</span></span>
-
-<span data-ttu-id="1c9ff-115">ตารางต่อไปนี้แสดงกระบวนการลงรายการบัญชีที่มีตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="1c9ff-115">The following chart illustrates the posting process with the transaction consistency checker.</span></span>
-
-<span data-ttu-id="1c9ff-116">![กระบวนการลงรายการบัญชีใบแจ้งยอดที่มีตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก](./media/validchecker.png "กระบวนการลงรายการบัญชีใบแจ้งยอดที่มีตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก")</span><span class="sxs-lookup"><span data-stu-id="1c9ff-116">![Statement posting process with retail transaction consistency checker](./media/validchecker.png "Statement posting process with retail transaction consistency checker")</span></span>
-
-<span data-ttu-id="1c9ff-117">กระบวนการชุดงาน **ตรวจสอบความถูกต้องของธุรกรรมของร้านค้า** จะตรวจสอบความสอดคล้องกันของตารางธุรกรรมการขายปลีกในสถานการณ์ต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="1c9ff-117">The **Validate store transactions** batch process checks the consistency of the retail transaction tables for the following scenarios.</span></span>
-
-- <span data-ttu-id="1c9ff-118">บัญชีลูกค้า - ตรวจสอบว่าบัญชีลูกค้าในตารางธุรกรรมการขายปลีกมีอยู่ในข้อมูลหลักของลูกค้า HQ หรือไม่</span><span class="sxs-lookup"><span data-stu-id="1c9ff-118">Customer account - Validates that the customer account in the retail transaction tables exists in the HQ customer master.</span></span>
-- <span data-ttu-id="1c9ff-119">จำนวนรายการ - ตรวจสอบว่าจำนวนของรายการตามที่บันทึกไว้ในตารางส่วนหัวของธุรกรรมตรงกับจำนวนรายการในตารางธุรกรรมการขายหรือไม่</span><span class="sxs-lookup"><span data-stu-id="1c9ff-119">Line count - Validates that the number of lines, as captured on the transaction header table, matches the number of lines in the sales transaction tables.</span></span>
-
-## <a name="set-up-the-consistency-checker"></a><span data-ttu-id="1c9ff-120">ตั้งค่าตัวตรวจสอบความสอดคล้องกัน</span><span class="sxs-lookup"><span data-stu-id="1c9ff-120">Set up the consistency checker</span></span>
-<span data-ttu-id="1c9ff-121">ตั้งค่าคอนฟิกกระบวนการชุดงาน "ตรวจสอบความถูกต้องของธุรกรรมของร้านค้า" ที่ **การขายปลีก \> ฝ่ายไอทีระบบขายปลีก \> การลงรายการบัญชี POS** สำหรับการดำเนินการประจำงวด</span><span class="sxs-lookup"><span data-stu-id="1c9ff-121">Configure the "Validate store transactions" batch process, at **Retail \> Retail IT \> POS posting**, for periodic runs.</span></span> <span data-ttu-id="1c9ff-122">ชุดงานสามารถจัดกำหนดการตามลำดับชั้นขององค์กร เช่นเดียวกับวิธีการตั้งค่ากระบวนการ "คำนวณใบแจ้งยอดเป็นชุดงาน" และ "ลงรายการบัญชีใบแจ้งยอดเป็นชุดงาน"</span><span class="sxs-lookup"><span data-stu-id="1c9ff-122">The batch job can be scheduled based on store organization hierarchy, similar to how the "Calculate statement in batch" and "Post statement in batch" processes are set up.</span></span> <span data-ttu-id="1c9ff-123">เราขอแนะนำให้คุณตั้งค่าคอนฟิกกระบวนการชุดงานนี้เพื่อเรียกใช้วันละหลายครั้ง และจัดกำหนดการเพื่อให้ดำเนินการในตอนสิ้นสุดการดำเนินการของงาน P ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="1c9ff-123">We recommend that you configure this batch process to run multiple times in a day and schedule it so that it runs at the end of every P-job execution.</span></span>
-
-## <a name="results-of-validation-process"></a><span data-ttu-id="1c9ff-124">ผลลัพธ์ของกระบวนการตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="1c9ff-124">Results of validation process</span></span>
-<span data-ttu-id="1c9ff-125">ผลลัพธ์ของการตรวจสอบความถูกต้องตามกระบวนการชุดงานได้รับการติดแท็กเป็นธุรกรรมการขายปลีกที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="1c9ff-125">The results of the validation check by the batch process are tagged on the appropriate retail transaction.</span></span> <span data-ttu-id="1c9ff-126">ฟิลด์ **สถานะการตรวจสอบความถูกต้อง** ในเรกคอร์ดธุรกรรมการขายปลีกได้รับการตั้งค่าเป็น **สำเร็จ** หรือ **ผิดพลาด** และวันที่ของการดำเนินการตรวจสอบความถูกต้องครั้งล่าสุดจะปรากฏในฟิลด์ **เวลาที่ตรวจสอบความถูกต้องล่าสุด**</span><span class="sxs-lookup"><span data-stu-id="1c9ff-126">The **Validation status** field on the retail transaction record is either set to **Successful** or **Error**, and the date of the last validation run appears on the **Last validation time** field.</span></span>
-
-<span data-ttu-id="1c9ff-127">หากต้องการดูข้อความคำอธิบายข้อผิดพลาดเพิ่มเติมที่เกี่ยวข้องกับความล้มเหลวในการตรวจสอบความถูกต้อง เลือกเรกคอร์ดธุรกรรมของร้านค้าการขายปลีกที่เกี่ยวข้องและคลิกปุ่ม **ข้อผิดพลาดในการตรวจสอบความถูกต้อง**</span><span class="sxs-lookup"><span data-stu-id="1c9ff-127">To view more descriptive error text relating to a validation failure, select the relevant retail store transaction record and click the **Validation errors** button.</span></span>
-
-<span data-ttu-id="1c9ff-128">ธุรกรรมที่ล้มเหลวในการตรวจสอบความถูกต้องและธุรกรรมที่ยังไม่ได้ตรวจสอบความถูกต้องจะไม่ถูกดึงลงในใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="1c9ff-128">Transactions that fail the validation check and transactions that have not yet been validated will not be pulled into statements.</span></span> <span data-ttu-id="1c9ff-129">ระหว่างกระบวนการ "คำนวณใบแจ้งยอด" ผู้ใช้จะได้รับแจ้งหากมีธุรกรรมที่น่าจะรวมอยู่ในใบแจ้งยอดแต่ไม่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="1c9ff-129">During the "Calculate statement" process, users will be notified if there are transactions that could have been included in the statement but weren't.</span></span>
-
-<span data-ttu-id="1c9ff-130">หากพบข้อผิดพลาดในการตรวจสอบความถูกต้อง วิธีเดียวในการแก้ไขข้อผิดพลาดคือการติดต่อฝ่ายสนับสนุนของ Microsoft</span><span class="sxs-lookup"><span data-stu-id="1c9ff-130">If a validation error is found, the only way to fix the error is to contact Microsoft Support.</span></span> <span data-ttu-id="1c9ff-131">ในรุ่นที่นำออกใช้ในอนาคต จะมีการเพิ่มความสามารถเพื่อให้ผู้ใช้สามารถแก้ไขเรกคอร์ดที่ล้มเหลวผ่านทางอินเทอร์เฟสผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="1c9ff-131">In a future release, capability will be added so that users can fix the records that failed through the user interface.</span></span> <span data-ttu-id="1c9ff-132">ความสามารถในการลงบันทึกและการตรวจสอบยังสามารถใช้ในการติดตามประวัติการแก้ไขได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="1c9ff-132">Logging and auditing capabilities will also be made available to trace the history of the modifications.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="1c9ff-133">กฎการตรวจสอบความถูกต้องเพิ่มเติมที่จะรองรับสถานการณ์อื่นๆ จะได้รับการเพิ่มลงในรุ่นที่นำออกใช้ในอนาคต</span><span class="sxs-lookup"><span data-stu-id="1c9ff-133">Additional validation rules to support more scenarios will be added in a future release.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="valid-checker.md" target-language="th-TH">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>valid-checker.125a66.1fc894206f9d90fce1e2eab292ac241e9d943e23.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>1fc894206f9d90fce1e2eab292ac241e9d943e23</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>aec1dcd44274e9b8d0770836598fde5533b7b569</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/03/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\valid-checker.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Retail transaction consistency checker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes the retail transaction consistency checker functionality in Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายฟังก์ชันการทำงานของตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีกใน Microsoft Dynamics 365 for Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Retail transaction consistency checker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic describes the retail transaction consistency checker functionality introduced in Microsoft Dynamics 365 for Finance and Operations version 8.1.3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายฟังก์ชันการทำงานของตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีกที่นำเสนอใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.1.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The consistency checker identifies and isolates inconsistent transactions before they are picked up by the statement posting process.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">ตัวตรวจสอบความสอดคล้องกันจะระบุและจำแนกธุรกรรมที่ไม่สอดคล้องกันก่อนที่จะมีการจัดการต่อโดยกระบวนการลงรายการบัญชีใบแจ้งยอด</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>When a statement is posted in Microsoft Dynamics 365 for Retail, posting can fail due to inconsistent data in the retail transaction tables.</source><target logoport:matchpercent="0" state="translated">เมื่อมีการลงรายการบัญชีใบแจ้งยอดใน Microsoft Dynamics 365 for Retail การลงรายการบัญชีอาจล้มเหลวเนื่องจากข้อมูลที่ไม่สอดคล้องกันในตารางธุรกรรมการขายปลีก</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The data issue may be caused by unforeseen issues in the point of sale (POS) application, or if transactions were incorrectly imported from third-party POS systems.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited">ปัญหาข้อมูลอาจเกิดมาจากปัญหาที่ไม่คาดคิดในแอปพลิเคชันการขายหน้าร้าน (POS) หรือหากธุรกรรมมีการนำเข้าอย่างไม่ถูกต้องจากระบบ POS ของบริษัทอื่น</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Examples of how these inconsistencies may appear include:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างของลักษณะความไม่สอดคล้องกันเหล่านี้ที่อาจปรากฏขึ้นได้แก่:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The transaction total on the header table does not match the transaction total on the lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ยอดรวมของธุรกรรมในตารางส่วนหัวไม่ตรงกับยอดรวมของธุรกรรมในรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>The line count on the header table does not match with the number of lines in the transaction table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำนวนรายการในตารางส่วนหัวไม่ตรงกับจำนวนของรายการในตารางธุรกรรม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Taxes on the header table do not match the tax amount on the lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภาษีในตารางส่วนหัวไม่ตรงกับยอดเงินภาษีในรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>When inconsistent transactions are picked up by the statement posting process, inconsistent sales invoices and payment journals are created, and the entire statement posting process fails as a result.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อธุรกรรมที่ไม่สอดคล้องกันถูกจัดการต่อโดยกระบวนการลงรายการบัญชีใบแจ้งยอด จะมีการสร้างใบแจ้งหนี้การขายและสมุดรายวันการชำระเงินที่ไม่สอดคล้องกัน และทำให้กระบวนการลงรายการบัญชีใบแจ้งยอดทั้งหมดล้มเหลว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Recovering the statements from such a state involves complex data fixes across multiple transaction tables.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การกู้คืนใบแจ้งยอดจากสถานะดังกล่าวเป็นการแก้ไขข้อมูลที่มีความซับซ้อนในตารางธุรกรรมหลายตาราง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>The retail transaction consistency checker prevents such issues.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีกจะป้องกันปัญหาดังกล่าว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The following chart illustrates the posting process with the transaction consistency checker.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตารางต่อไปนี้แสดงกระบวนการลงรายการบัญชีที่มีตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">![</bpt>Statement posting process with retail transaction consistency checker<ept id="p1">]</ept><bpt id="p2">(./media/validchecker.png "</bpt>Statement posting process with retail transaction consistency checker<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>กระบวนการลงรายการบัญชีใบแจ้งยอดที่มีตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก<ept id="p1">]</ept><bpt id="p2">(./media/validchecker.png "</bpt>กระบวนการลงรายการบัญชีใบแจ้งยอดที่มีตัวตรวจสอบความสอดคล้องกันสำหรับธุรกรรมการขายปลีก<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>The <bpt id="p1">**</bpt>Validate store transactions<ept id="p1">**</ept> batch process checks the consistency of the retail transaction tables for the following scenarios.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">กระบวนการชุดงาน <bpt id="p1">**</bpt>ตรวจสอบความถูกต้องของธุรกรรมของร้านค้า<ept id="p1">**</ept> จะตรวจสอบความสอดคล้องกันของตารางธุรกรรมการขายปลีกในสถานการณ์ต่อไปนี้</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">**</bpt>Customer account<ept id="p1">**</ept> – Validates that the customer account in the retail transaction tables exists in the HQ customer master.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>บัญชีลูกค้า<ept id="p1">**</ept> – ตรวจสอบว่าบัญชีลูกค้าในตารางธุรกรรมการขายปลีกมีอยู่ในข้อมูลหลักของลูกค้า HQ หรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">**</bpt>Line count<ept id="p1">**</ept> – Validates that the number of lines, as captured on the transaction header table, matches the number of lines in the sales transaction tables.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>จำนวนรายการ<ept id="p1">**</ept> – ตรวจสอบว่าจำนวนของรายการตามที่บันทึกไว้ในตารางส่วนหัวของธุรกรรมตรงกับจำนวนรายการในตารางธุรกรรมการขายหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">**</bpt>Price includes tax<ept id="p1">**</ept> – Validates that the <bpt id="p2">**</bpt>Price includes tax<ept id="p2">**</ept> parameter is consistent across transaction lines.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>ราคารวมภาษี<ept id="p1">**</ept> – ตรวจสอบว่าพารามิเตอร์ <bpt id="p2">**</bpt>ราคารวมภาษี<ept id="p2">**</ept> สอดคล้องกันกับรายการธุรกรรมหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">**</bpt>Gross amount<ept id="p1">**</ept> – Validates that the gross amount on the header is the sum of the net amounts on the lines plus the tax amount.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>ยอดเงินรวม<ept id="p1">**</ept> – ตรวจสอบว่ายอดเงินรวมในส่วนหัวเป็นผลรวมของยอดเงินสุทธิในรายการบวกกับยอดเงินภาษีหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept> – Validates that the net amount on the header is the sum of the net amounts on the lines.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>ยอดเงินสุทธิ<ept id="p1">**</ept> – ตรวจสอบว่ายอดเงินสุทธิในส่วนหัวเป็นผลรวมของยอดเงินสุทธิในรายการหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">**</bpt>Under / Over payment<ept id="p1">**</ept> – Validates that the difference between the gross amount on the header and the payment amount doesn't exceed the maximum underpayment/overpayment configuration.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>การชำระเงินน้อยเกิน/การชำระเงินมากเกิน<ept id="p1">**</ept> – ตรวจสอบว่าความแตกต่างระหว่างยอดเงินรวมในส่วนหัวและยอดการชำระเงินไม่เกินกว่าการตั้งค่าคอนฟิกการชำระเงินน้อยเกิน/การชำระเงินมากเกินสูงสุดหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">**</bpt>Discount amount<ept id="p1">**</ept> – Validates that the discount amount on the discount tables and the discount amount on the retail transaction line tables are consistent, and that the discount amount on the header is the sum of the discount amounts on the lines.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>ยอดส่วนลด<ept id="p1">**</ept> – ตรวจสอบว่ายอดส่วนลดในตารางส่วนลดและยอดส่วนลดในตารางรายการธุรกรรมการขายปลีกสอดคล้องกันหรือไม่ และยอดส่วนลดในส่วนหัวเป็นผลรวมของยอดส่วนลดในรายการหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">**</bpt>Line discount<ept id="p1">**</ept> – Validates that the line discount on the transaction line is the sum of all the lines in the discount table that corresponds to the transaction line.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>ส่วนลดต่อรายการสินค้า<ept id="p1">**</ept> – ตรวจสอบว่าส่วนลดต่อรายการสินค้าในรายการธุรกรรมเป็นผลรวมของรายการทั้งหมดในตารางส่วนลดที่สัมพันธ์กับรายการธุรกรรมหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">**</bpt>Gift card item<ept id="p1">**</ept> – Retail doesn't support the return of gift card items.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>สินค้าจากบัตรของขวัญ<ept id="p1">**</ept> – Retail ไม่รองรับการคืนสินค้าจากบัตรของขวัญ</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>However, the balance on a gift card can be cashed out. Any gift card item that is processed as a return line instead of a cash-out line fails the statement posting process.</source><target logoport:matchpercent="0" state="translated">อย่างไรก็ตาม ยอดดุลในบัตรของขวัญไม่สามารถแลกเป็นเงินสด สินค้าจากบัตรของขวัญที่ดำเนินการเป็นรายการส่งคืนแทนรายการแลกเป็นเงินสดไม่สามารถดำเนินกระบวนการลงรายการบัญชีใบแจ้งยอด</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>The validation process for gift card items helps guarantee that the only return gift card line items on the retail transaction tables are gift card cash-out lines.</source><target logoport:matchpercent="0" state="translated">กระบวนการตรวจสอบความถูกต้องของสินค้าจากบัตรของขวัญจะช่วยรับประกันว่ามีเฉพาะสินค้าในรายการบัตรของขวัญในตารางธุรกรรมการขายปลีกเท่านั้นที่เป็นรายการแลกเป็นเงินสดของบัตรของขวัญ</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">**</bpt>Negative price<ept id="p1">**</ept> – Validates that there are no negative price transaction lines.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>ราคาค่าลบ<ept id="p1">**</ept> – ตรวจสอบว่าไม่มีรายการธุรกรรมราคาค่าลบ</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">**</bpt>Item &amp; Variant<ept id="p1">**</ept> – Validates that items and variants on the transaction lines exist in the item and variant master file.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>สินค้าและสินค้าย่อย<ept id="p1">**</ept> – ตรวจสอบว่าสินค้าและสินค้าย่อยในรายการธุรกรรมมีอยู่ในไฟล์หลักสินค้าและสินค้าย่อยหรือไม่</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Set up the consistency checker</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">ตั้งค่าตัวตรวจสอบความสอดคล้องกัน</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Configure the "Validate store transactions" batch process, at <bpt id="p1">**</bpt>Retail <ph id="ph1">\&gt;</ph> Retail IT <ph id="ph2">\&gt;</ph> POS posting<ept id="p1">**</ept>, for periodic runs.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">ตั้งค่าคอนฟิกกระบวนการชุดงาน "ตรวจสอบความถูกต้องของธุรกรรมของร้านค้า" ที่ <bpt id="p1">**</bpt>การขายปลีก <ph id="ph1">\&gt;</ph> ฝ่ายไอทีระบบขายปลีก <ph id="ph2">\&gt;</ph> การลงรายการบัญชี POS<ept id="p1">**</ept> สำหรับการดำเนินการประจำงวด</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The batch job can be scheduled based on store organization hierarchy, similar to how the "Calculate statement in batch" and "Post statement in batch" processes are set up.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชุดงานสามารถจัดกำหนดการตามลำดับชั้นขององค์กร เช่นเดียวกับวิธีการตั้งค่ากระบวนการ "คำนวณใบแจ้งยอดเป็นชุดงาน" และ "ลงรายการบัญชีใบแจ้งยอดเป็นชุดงาน"</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>We recommend that you configure this batch process to run multiple times in a day and schedule it so that it runs at the end of every P-job execution.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เราขอแนะนำให้คุณตั้งค่าคอนฟิกกระบวนการชุดงานนี้เพื่อเรียกใช้วันละหลายครั้ง และจัดกำหนดการเพื่อให้ดำเนินการในตอนสิ้นสุดการดำเนินการของงาน P ทั้งหมด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Results of validation process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผลลัพธ์ของกระบวนการตรวจสอบความถูกต้อง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The results of the validation check by the batch process are tagged on the appropriate retail transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผลลัพธ์ของการตรวจสอบความถูกต้องตามกระบวนการชุดงานได้รับการติดแท็กเป็นธุรกรรมการขายปลีกที่เหมาะสม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The <bpt id="p1">**</bpt>Validation status<ept id="p1">**</ept> field on the retail transaction record is either set to <bpt id="p2">**</bpt>Successful<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Error<ept id="p3">**</ept>, and the date of the last validation run appears on the <bpt id="p4">**</bpt>Last validation time<ept id="p4">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ฟิลด์ <bpt id="p1">**</bpt>สถานะการตรวจสอบความถูกต้อง<ept id="p1">**</ept> ในเรกคอร์ดธุรกรรมการขายปลีกได้รับการตั้งค่าเป็น <bpt id="p2">**</bpt>สำเร็จ<ept id="p2">**</ept> หรือ <bpt id="p3">**</bpt>ผิดพลาด<ept id="p3">**</ept> และวันที่ของการดำเนินการตรวจสอบความถูกต้องครั้งล่าสุดจะปรากฏในฟิลด์ <bpt id="p4">**</bpt>เวลาที่ตรวจสอบความถูกต้องล่าสุด<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>To view more descriptive error text relating to a validation failure, select the relevant retail store transaction record and click the <bpt id="p1">**</bpt>Validation errors<ept id="p1">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากต้องการดูข้อความคำอธิบายข้อผิดพลาดเพิ่มเติมที่เกี่ยวข้องกับความล้มเหลวในการตรวจสอบความถูกต้อง เลือกเรกคอร์ดธุรกรรมของร้านค้าการขายปลีกที่เกี่ยวข้องและคลิกปุ่ม <bpt id="p1">**</bpt>ข้อผิดพลาดในการตรวจสอบความถูกต้อง<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Transactions that fail the validation check and transactions that have not yet been validated will not be pulled into statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ธุรกรรมที่ล้มเหลวในการตรวจสอบความถูกต้องและธุรกรรมที่ยังไม่ได้ตรวจสอบความถูกต้องจะไม่ถูกดึงลงในใบแจ้งยอด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>During the "Calculate statement" process, users will be notified if there are transactions that could have been included in the statement but weren't.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระหว่างกระบวนการ "คำนวณใบแจ้งยอด" ผู้ใช้จะได้รับแจ้งหากมีธุรกรรมที่น่าจะรวมอยู่ในใบแจ้งยอดแต่ไม่มีอยู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>If a validation error is found, the only way to fix the error is to contact Microsoft Support.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากพบข้อผิดพลาดในการตรวจสอบความถูกต้อง วิธีเดียวในการแก้ไขข้อผิดพลาดคือการติดต่อฝ่ายสนับสนุนของ Microsoft</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>In a future release, capability will be added so that users can fix the records that failed through the user interface.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในรุ่นที่นำออกใช้ในอนาคต จะมีการเพิ่มความสามารถเพื่อให้ผู้ใช้สามารถแก้ไขเรกคอร์ดที่ล้มเหลวผ่านทางอินเทอร์เฟสผู้ใช้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Logging and auditing capabilities will also be made available to trace the history of the modifications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความสามารถในการลงบันทึกและการตรวจสอบยังสามารถใช้ในการติดตามประวัติการแก้ไขได้อีกด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Additional validation rules to support more scenarios will be added in a future release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กฎการตรวจสอบความถูกต้องเพิ่มเติมที่จะรองรับสถานการณ์อื่นๆ จะได้รับการเพิ่มลงในรุ่นที่นำออกใช้ในอนาคต</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

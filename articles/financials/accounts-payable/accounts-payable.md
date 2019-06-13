@@ -1,147 +1,210 @@
----
-title: โฮมเพจบัญชีเจ้าหนี้
-description: หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้
-author: ShylaThompson
-manager: AnnBe
-ms.date: 02/15/2019
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendInvoiceWorkspace
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 21901
-ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 39187cf900624c5fbc7e811f0ee9632355688ba4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507484"
----
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="1d117-103">โฮมเพจบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-103">Accounts payable home page</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="1d117-104">หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-104">This topic provides an overview of Accounts payable.</span></span> 
-
-<span data-ttu-id="1d117-105">คุณสามารถป้อนใบแจ้งหนี้ของผู้จัดจำหน่ายด้วยตนเอง หรือได้รับทางอิเล็กทรอนิกส์ผ่านทางเอนทิตี้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="1d117-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="1d117-106">หลังจากที่ใบแจ้งหนี้ถูกป้อนหรือได้รับแล้ว คุณสามารถตรวจทานและอนุมัติใบแจ้งหนี้ โดยการใช้สมุดรายวันการอนุมัติใบแจ้งหนี้ หรือหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="1d117-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="1d117-107">คุณสามารถใช้การจับคู่ใบแจ้งหนี้ นโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย และลำดับงานในการดำเนินกระบวนการตรวจทานโดยอัตโนมัติ เพื่อให้ใบแจ้งหนี้ที่ตรงกับเกณฑ์บางอย่างได้รับการอนุมัติโดยอัตโนมัติ และตั้งค่าสถานะใบแจ้งหนี้ที่เหลือสำหรับการตรวจทานโดยผู้ใช้ที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="1d117-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
-
-<span data-ttu-id="1d117-108">**กระบวนการทางธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="1d117-108">**Business processes**</span></span>
-
-<span data-ttu-id="1d117-109">[![กระบวนการทางธุรกิจ](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="1d117-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
-
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="1d117-110">ตั้งค่าบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-110">Set up Accounts payable</span></span>
-
-<span data-ttu-id="1d117-111">ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น</span><span class="sxs-lookup"><span data-stu-id="1d117-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
-
-[<span data-ttu-id="1d117-112">ตั้งค่าคอนฟิกบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
-
-[<span data-ttu-id="1d117-113">การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
-
-[<span data-ttu-id="1d117-114">การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
-
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="1d117-115">ตั้งค่าคอนฟิกใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-115">Configure vendor invoices</span></span>
-
-<span data-ttu-id="1d117-116">ใช้บัญชีเจ้าหนี้เพื่อติดตามใบแจ้งหนี้และค่าใช้จ่ายทั้งหมดที่จ่ายให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
-
-[<span data-ttu-id="1d117-117">การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
-
-[<span data-ttu-id="1d117-118">โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
-
-[<span data-ttu-id="1d117-119">ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
-
-[<span data-ttu-id="1d117-120">นโยบายการจับคู่สามทาง</span><span class="sxs-lookup"><span data-stu-id="1d117-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
-
-[<span data-ttu-id="1d117-121">การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="1d117-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
-
-[<span data-ttu-id="1d117-122">แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
-
-[<span data-ttu-id="1d117-123">บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
-
-[<span data-ttu-id="1d117-124">การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="1d117-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
-
-[<span data-ttu-id="1d117-125">พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
-
-[<span data-ttu-id="1d117-126">ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
-
-## <a name="configure-vendor-payments"></a><span data-ttu-id="1d117-127">ตั้งค่าคอนฟิกการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-127">Configure vendor payments</span></span> 
-
-<span data-ttu-id="1d117-128">กำหนดชนิดของการชำระเงินที่ระบบกำหนด เช่นเช็ค การชำระเงินทางอิเล็กทรอนิกส์ หรือตั๋วสัญญาใช้เงิน ให้กับวิธีการชำระเงินที่ผู้ใช้กำหนดได้</span><span class="sxs-lookup"><span data-stu-id="1d117-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="1d117-129">ชนิดของการชำระเงินเป็นตัวเลือกที่ไม่บังคับ แต่จะมีประโยชน์เมื่อคุณตรวจสอบความถูกต้องของการชำระเงินทางอิเล็กทรอนิกส์ และต้องการให้สามารถตัดสินใจอย่างรวดเร็วว่าการชำระเงินนั้นใช้ชนิดของการชำระเงินแบบใด</span><span class="sxs-lookup"><span data-stu-id="1d117-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
-
-[<span data-ttu-id="1d117-130">พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
-
-[<span data-ttu-id="1d117-131">กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
-
-[<span data-ttu-id="1d117-132">กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
-
-[<span data-ttu-id="1d117-133">ภาพรวมของ Positive pay</span><span class="sxs-lookup"><span data-stu-id="1d117-133">Positive pay overview</span></span>](positive-pay-overview.md)
-
-[<span data-ttu-id="1d117-134">ตั้งค่าและสร้างไฟล์ Positve Pay</span><span class="sxs-lookup"><span data-stu-id="1d117-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
-
-[<span data-ttu-id="1d117-135">สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="1d117-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
-
-[<span data-ttu-id="1d117-136">การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน</span><span class="sxs-lookup"><span data-stu-id="1d117-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
-
-[<span data-ttu-id="1d117-137">ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
-
-[<span data-ttu-id="1d117-138">ใช้ส่วนลดเงินสดนอกรอบระยะเวลาส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="1d117-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
-
-[<span data-ttu-id="1d117-139">การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
-
-[<span data-ttu-id="1d117-140">กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
-
-[<span data-ttu-id="1d117-141">ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="1d117-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
-
-[<span data-ttu-id="1d117-142">การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
-
-## <a name="settlements"></a><span data-ttu-id="1d117-143">การตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-143">Settlements</span></span>
-
-<span data-ttu-id="1d117-144">หัวข้อต่อไปนี้แสดงข้อมูลเกี่ยวกับการตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="1d117-145">การตัดจ่ายคือกระบวนการในการชำระเงินใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="1d117-145">Settlement is the process of settling payments with invoices.</span></span> 
-
-[<span data-ttu-id="1d117-146">ตั้งค่าคอนฟิกการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="1d117-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
-
-[<span data-ttu-id="1d117-147">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="1d117-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
-
-[<span data-ttu-id="1d117-148">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="1d117-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
-
-[<span data-ttu-id="1d117-149">ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ</span><span class="sxs-lookup"><span data-stu-id="1d117-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
-
-[<span data-ttu-id="1d117-150">ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด</span><span class="sxs-lookup"><span data-stu-id="1d117-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
-
-[<span data-ttu-id="1d117-151">ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="1d117-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
-
-
-
-### <a name="additional-resources"></a><span data-ttu-id="1d117-152">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="1d117-152">Additional resources</span></span>
-
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="1d117-153">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="1d117-153">What's new and in development</span></span>
-
-<span data-ttu-id="1d117-154">ไปที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="1d117-154">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
-
-#### <a name="blogs"></a><span data-ttu-id="1d117-155">บล็อก</span><span class="sxs-lookup"><span data-stu-id="1d117-155">Blogs</span></span>
-
-<span data-ttu-id="1d117-156">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)</span><span class="sxs-lookup"><span data-stu-id="1d117-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
-
-<span data-ttu-id="1d117-157">[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</span><span class="sxs-lookup"><span data-stu-id="1d117-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
-
-#### <a name="community-blogs"></a><span data-ttu-id="1d117-158">บล็อกคอมมูนิตี</span><span class="sxs-lookup"><span data-stu-id="1d117-158">Community blogs</span></span>
-
-[<span data-ttu-id="1d117-159">วิธีการจัดการบัญชีเจ้าหนี้ใน Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1d117-159">How to manage payables in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
-
-#### <a name="task-guides"></a><span data-ttu-id="1d117-160">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="1d117-160">Task guides</span></span>
-<span data-ttu-id="1d117-161">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1d117-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="1d117-162">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="1d117-162">To access task guides, click the Help button on any page.</span></span>
-
-#### <a name="videos"></a><span data-ttu-id="1d117-163">วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="1d117-163">Videos</span></span>
-
-<span data-ttu-id="1d117-164">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</span><span class="sxs-lookup"><span data-stu-id="1d117-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="accounts-payable.md" target-language="th-TH">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>accounts-payable.199fb9.f1acf2bade2bb279a35fdf4689bbbcc49e64101f.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>f1acf2bade2bb279a35fdf4689bbbcc49e64101f</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\accounts-payable.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Accounts payable home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจบัญชีเจ้าหนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides an overview of Accounts payable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Accounts payable home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจบัญชีเจ้าหนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides an overview of Accounts payable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>You can enter vendor invoices manually or receive them electronically through a data entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถป้อนใบแจ้งหนี้ของผู้จัดจำหน่ายด้วยตนเอง หรือได้รับทางอิเล็กทรอนิกส์ผ่านทางเอนทิตี้ข้อมูล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the <bpt id="p1">**</bpt>Vendor invoice<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่ใบแจ้งหนี้ถูกป้อนหรือได้รับแล้ว คุณสามารถตรวจทานและอนุมัติใบแจ้งหนี้ โดยการใช้สมุดรายวันการอนุมัติใบแจ้งหนี้ หรือหน้า <bpt id="p1">**</bpt>ใบแจ้งหนี้ของผู้จัดจำหน่าย<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้การจับคู่ใบแจ้งหนี้ นโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย และลำดับงานในการดำเนินกระบวนการตรวจทานโดยอัตโนมัติ เพื่อให้ใบแจ้งหนี้ที่ตรงกับเกณฑ์บางอย่างได้รับการอนุมัติโดยอัตโนมัติ และตั้งค่าสถานะใบแจ้งหนี้ที่เหลือสำหรับการตรวจทานโดยผู้ใช้ที่ได้รับอนุญาต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>กระบวนการทางธุรกิจ<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/AP-process.PNG)](./media/AP-process.PNG)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>กระบวนการทางธุรกิจ<ept id="p1">](./media/AP-process.PNG)](./media/AP-process.PNG)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Set up Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าบัญชีเจ้าหนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Configure Accounts payable<ept id="p1">](accounts-payable-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าคอนฟิกบัญชีเจ้าหนี้<ept id="p1">](accounts-payable-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Accounting distributions and subledger journal entries for vendor invoices<ept id="p1">](accounting-distributions-subledger-journal-entries-vendor-invoices.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย<ept id="p1">](accounting-distributions-subledger-journal-entries-vendor-invoices.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้<ept id="p1">](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Configure vendor invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าคอนฟิกใบแจ้งหนี้ของผู้จัดจำหน่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Use Accounts payable to track invoices and outgoing expenditures to vendors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช้บัญชีเจ้าหนี้เพื่อติดตามใบแจ้งหนี้และค่าใช้จ่ายทั้งหมดที่จ่ายให้แก่ผู้จัดจำหน่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">[</bpt>Accounts payable invoice matching<ept id="p1">](accounts-payable-invoice-matching.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้<ept id="p1">](accounts-payable-invoice-matching.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Vendor posting profiles<ept id="p1">](vendor-posting-profiles.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย<ept id="p1">](vendor-posting-profiles.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">[</bpt>Set up accounts payable invoice matching validation<ept id="p1">](tasks/set-up-accounts-payable-invoice-matching-validation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้<ept id="p1">](tasks/set-up-accounts-payable-invoice-matching-validation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Three-way matching policies<ept id="p1">](three-way-matching-policies.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>นโยบายการจับคู่สามทาง<ept id="p1">](three-way-matching-policies.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">[</bpt>Invoice matching and intercompany purchase orders<ept id="p1">](invoice-matching-intercompany-purchase-orders.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท<ept id="p1">](invoice-matching-intercompany-purchase-orders.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">[</bpt>Resolve discrepancies during invoice totals matching<ept id="p1">](resolve-invoice-totals-invoice-matching-discrepancies.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้<ept id="p1">](resolve-invoice-totals-invoice-matching-discrepancies.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">[</bpt>Default offset accounts for vendor invoice journals and invoice approval journals<ept id="p1">](default-offset-accounts-vendor-invoice-journals.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้<ept id="p1">](default-offset-accounts-vendor-invoice-journals.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Mobile invoice approvals<ept id="p1">](mobile-invoice-approvals.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่<ept id="p1">](mobile-invoice-approvals.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Vendor collaboration invoicing workspace<ept id="p1">](vendor-portal-invoicing-workspace.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย<ept id="p1">](vendor-portal-invoicing-workspace.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Vendor invoice automation<ept id="p1">](vendor-invoice-automation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย<ept id="p1">](vendor-invoice-automation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Configure vendor payments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าคอนฟิกการชำระเงินให้แก่ผู้จัดจำหน่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดชนิดของการชำระเงินที่ระบบกำหนด เช่นเช็ค การชำระเงินทางอิเล็กทรอนิกส์ หรือตั๋วสัญญาใช้เงิน ให้กับวิธีการชำระเงินที่ผู้ใช้กำหนดได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชนิดของการชำระเงินเป็นตัวเลือกที่ไม่บังคับ แต่จะมีประโยชน์เมื่อคุณตรวจสอบความถูกต้องของการชำระเงินทางอิเล็กทรอนิกส์ และต้องการให้สามารถตัดสินใจอย่างรวดเร็วว่าการชำระเงินนั้นใช้ชนิดของการชำระเงินแบบใด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Vendor payments workspace<ept id="p1">](vendor-payments-workspace.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย<ept id="p1">](vendor-payments-workspace.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><bpt id="p1">[</bpt>Define vendor payment fees<ept id="p1">](tasks/define-vendor-payment-fees.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย<ept id="p1">](tasks/define-vendor-payment-fees.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Define vendor payment terms<ept id="p1">](tasks/define-vendor-payment-terms.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย<ept id="p1">](tasks/define-vendor-payment-terms.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Positive pay overview<ept id="p1">](positive-pay-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมของ Positive pay<ept id="p1">](positive-pay-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Set up and generate positive pay files<ept id="p1">](set-up-generate-positive-pay-files.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าและสร้างไฟล์ Positve Pay<ept id="p1">](set-up-generate-positive-pay-files.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">[</bpt>Create vendor payments by using a payment proposal<ept id="p1">](create-vendor-payments-payment-proposal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน<ept id="p1">](create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](vendor-payments-partial-amount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน<ept id="p1">](vendor-payments-partial-amount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินของผู้จัดจำหน่าย<ept id="p1">](take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Take a cash discount outside the cash discount period<ept id="p1">](take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้ส่วนลดเงินสดนอกรอบระยะเวลาส่วนลดเงินสด<ept id="p1">](take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Electronic reporting for vendor checks<ept id="p1">](electronic-reporting-sample-vendor-checks.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย<ept id="p1">](electronic-reporting-sample-vendor-checks.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](reverse-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย<ept id="p1">](reverse-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](prepayments-invoices-vs-prepayments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า<ept id="p1">](prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](centralized-payments-accounts-payable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้<ept id="p1">](centralized-payments-accounts-payable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Settlements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตัดจ่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>The following topics provide information about settlements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อต่อไปนี้แสดงข้อมูลเกี่ยวกับการตัดจ่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Settlement is the process of settling payments with invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตัดจ่ายคือกระบวนการในการชำระเงินใบแจ้งหนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](../cash-bank-management/configure-settlement.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าคอนฟิกการชำระเงิน<ept id="p1">](../cash-bank-management/configure-settlement.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment before the discount date<ept id="p1">](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลด<ept id="p1">](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย<ept id="p1">](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment that has multiple discount periods<ept id="p1">](settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ<ept id="p1">](settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment or final payment before discount<ept id="p1">](settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด<ept id="p1">](settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source><bpt id="p1">[</bpt>Single voucher with multiple customer or vendor records<ept id="p1">](single-voucher-multiple-customer-vendor-records.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ<ept id="p1">](single-voucher-multiple-customer-vendor-records.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แหล่งข้อมูลเพิ่มเติม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>What's new and in development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีอะไรใหม่และอะไรที่กำลังพัฒนา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features are planned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">[</bpt>บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บล็อก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>You can find opinions, news, and other information about Accounts payable and other solutions on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept>and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน <bpt id="p1">[</bpt>บล็อก Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept>และ <bpt id="p2">[</bpt>บล็อก Microsoft Dynamics 365 Finance and Operations - Financials<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Community blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บล็อกคอมมูนิตี</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">[</bpt>How to manage payables in Dynamics 365 for Finance and Operations<ept id="p1">](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการจัดการบัญชีเจ้าหนี้ใน Dynamics 365 for Finance and Operations<ept id="p1">](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Task guides</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Additional help is available as task guides inside Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>To access task guides, click the Help button on any page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Videos</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน <bpt id="p1">[</bpt>ช่อง YouTube ของ Microsoft Dynamics 365<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
