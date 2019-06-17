@@ -1,893 +1,2610 @@
----
-title: อุปกรณ์ต่อพ่วง Retail
-description: หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก
-author: rubencdelgado
-manager: AnnBe
-ms.date: 01/16/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
-audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 268444
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: rubendel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571569"
----
-# <a name="retail-peripherals"></a><span data-ttu-id="b283c-103">อุปกรณ์ต่อพ่วง Retail</span><span class="sxs-lookup"><span data-stu-id="b283c-103">Retail peripherals</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="b283c-104">หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="b283c-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="b283c-105">ซึ่งจะอธิบายวิธีการต่าง ๆ ที่สามารถเชื่อมต่ออุปกรณ์ต่อพ่วงกับการขายหน้าร้าน (POS) และส่วนประกอบต่าง ๆ ที่มีหน้าที่ในการจัดการการเชื่อมต่อกับ POS</span><span class="sxs-lookup"><span data-stu-id="b283c-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
-
-## <a name="concepts"></a><span data-ttu-id="b283c-106">แนวคิด</span><span class="sxs-lookup"><span data-stu-id="b283c-106">Concepts</span></span>
-
-### <a name="pos-registers"></a><span data-ttu-id="b283c-107">เครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="b283c-107">POS registers</span></span>
-
-<span data-ttu-id="b283c-108">การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="b283c-108">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="b283c-109">เครื่องบันทึกเงินสดแบบขายหน้าร้าน POS คือเอนทิตีที่ใช้ในการกำหนดลักษณะของอินสแตนซ์ที่ระบุของ POS</span><span class="sxs-lookup"><span data-stu-id="b283c-109">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="b283c-110">ลักษณะเหล่านี้รวมถึงโพรไฟล์ฮาร์ดแวร์หรือการตั้งค่าสำหรับอุปกรณ์ต่อพ่วงขายปลีกที่จะใช้ที่เครื่องบันทึกเงินสด ร้านค้าที่แม็ปไว้กับที่เครื่องบันทึกเงินสด และประสบการณ์ทางภาพสำหรับผู้ใช้ที่ลงชื่อเข้าสู่เครื่องบันทึกเงินสดนั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-110">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
-
-### <a name="devices"></a><span data-ttu-id="b283c-111">อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-111">Devices</span></span>
-
-<span data-ttu-id="b283c-112">การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **อุปกรณ์**</span><span class="sxs-lookup"><span data-stu-id="b283c-112">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="b283c-113">อุปกรณ์คือเอนทิตีที่แสดงถึงอินสแตนซ์ที่มีอยู่จริงของอุปกรณ์ที่ถูกแม็ปไปยังเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="b283c-113">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="b283c-114">เมื่อมีการสร้างอุปกรณ์ อุปกรณ์นั้นจะถูกแม็ปไปยังเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="b283c-114">When a device is created, it's mapped to a POS register.</span></span> <span data-ttu-id="b283c-115">เอนทิตีอุปกรณ์จะติดตามข้อมูลเกี่ยวกับเวลาที่เครื่องบันทึกเงินสด POS ถูกเรียกใช้ ชนิดของไคลเอนต์ที่ถูกใช้ และแพคเกจของแอพลิเคชันที่มีการปรับใช้กับอุปกรณ์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="b283c-115">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="b283c-116">คุณสามารถแม็ปอุปกรณ์ไปยังชนิดของแอพลิเคชันต่อไปนี้: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android และ Retail Modern POS – iOS ได้</span><span class="sxs-lookup"><span data-stu-id="b283c-116">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
-
-### <a name="retail-modern-pos"></a><span data-ttu-id="b283c-117">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="b283c-117">Retail Modern POS</span></span>
-
-<span data-ttu-id="b283c-118">Modern POS คือ โปรแกรม POS สำหรับ Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-118">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="b283c-119">สามารถปรับใช้ได้บนระบบปฏิบัติการ Windows 10 (OS)</span><span class="sxs-lookup"><span data-stu-id="b283c-119">It can be deployed on Windows 10 operating systems (OSs).</span></span>
-
-### <a name="cloud-pos"></a><span data-ttu-id="b283c-120">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b283c-120">Cloud POS</span></span>
-
-<span data-ttu-id="b283c-121">Cloud POS คือโปรแกรม Modern POS รุ่นที่ใช้เบราว์เซอร์ที่สามารถเข้าถึงได้ในเว็บเบราว์เซอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-121">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
-
-### <a name="modern-pos-for-ios"></a><span data-ttu-id="b283c-122">Modern POS สำหรับ iOS</span><span class="sxs-lookup"><span data-stu-id="b283c-122">Modern POS for iOS</span></span>
-
-<span data-ttu-id="b283c-123">Modern POS สำหรับ iOS คือโปรแกรม Modern POS รุ่นที่ใช้ iOS ที่สามารถปรับใช้บนอุปกรณ์ iOS</span><span class="sxs-lookup"><span data-stu-id="b283c-123">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
-
-### <a name="modern-pos-for-android"></a><span data-ttu-id="b283c-124">Modern POS สำหรับ Android</span><span class="sxs-lookup"><span data-stu-id="b283c-124">Modern POS for Android</span></span>
-
-<span data-ttu-id="b283c-125">Modern POS สำหรับ Android คือโปรแกรม Modern POS รุ่นที่ใช้ Android ที่สามารถปรับใช้บนอุปกรณ์ Android</span><span class="sxs-lookup"><span data-stu-id="b283c-125">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
-
-### <a name="pos-peripherals"></a><span data-ttu-id="b283c-126">อุปกรณ์ต่อพ่วง POS</span><span class="sxs-lookup"><span data-stu-id="b283c-126">POS peripherals</span></span>
-
-<span data-ttu-id="b283c-127">อุปกรณ์ต่อพ่วง POS คืออุปกรณ์ที่ได้รับการสนับสนุนอย่างชัดเจนสำหรับฟังก์ชัน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-127">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="b283c-128">โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วงเหล่านี้ออกเป็นคลาสเฉพาะต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="b283c-128">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="b283c-129">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคลาสเหล่านี้ ดูส่วน "คลาสของอุปกรณ์" ของหัวข้อนี้</span><span class="sxs-lookup"><span data-stu-id="b283c-129">For more information about these classes, see the "Device classes" section of this topic.</span></span>
-
-### <a name="hardware-station"></a><span data-ttu-id="b283c-130">Hardware Station</span><span class="sxs-lookup"><span data-stu-id="b283c-130">Hardware station</span></span>
-
-<span data-ttu-id="b283c-131">การนำทาง: คลิก **การขายปลีก** &gt; **ช่องทาง** &gt; **ร้านค้าปลีก** &gt; **ร้านค้าปลีกทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="b283c-131">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="b283c-132">เลือกร้านค้า และคลิก FastTab **สถานีฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="b283c-132">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="b283c-133">การตั้งค่า **สถานีฮาร์ดแวร์** เป็นการตั้งค่าระดับช่องทางที่จะใช้ในการกำหนดอินสแตนซ์ที่จะปรับใช้ตรรกะการต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="b283c-133">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="b283c-134">การตั้งค่าในระดับช่องทางนี้จะใช้เพื่อระบุลักษณะของสถานีฮาร์ดแวร์ดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="b283c-134">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="b283c-135">นอกจากนี้ยังใช้ในการแสดงรายการของสถานีฮาร์ดแวร์ที่พร้อมใช้งานสำหรับอินสแตนซ์ Modern POS ในร้านค้าที่กำหนดอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="b283c-135">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="b283c-136">สถานีฮาร์ดแวร์ถูกสร้างขึ้นในโปรแกรม Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-136">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="b283c-137">สามารถปรับใช้สถานีฮาร์ดแวร์โดยไม่ขึ้นอยู่กับโปรแกรม Microsoft Internet Information Services (IIS) แบบสแตนด์อโลนได้</span><span class="sxs-lookup"><span data-stu-id="b283c-137">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="b283c-138">ในกรณีนี้ จะสามารถเข้าถึงผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-138">In this case, it can be accessed via a network.</span></span>
-
-### <a name="hardware-profile"></a><span data-ttu-id="b283c-139">โพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-139">Hardware profile</span></span>
-
-<span data-ttu-id="b283c-140">การนำทาง: คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="b283c-140">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="b283c-141">โพรไฟล์ฮาร์ดแวร์คือรายการของอุปกรณ์ที่มีการตั้งค่าคอนฟิกสำหรับเครื่องบันทึกเงินสด POS หรือสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-141">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="b283c-142">คุณสามารถแม็ปโพรไฟล์ฮาร์ดแวร์โดยตรงไปยังเครื่องบันทึกเงินสด POS หรือไปยังสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-142">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
-
-## <a name="devices-classes"></a><span data-ttu-id="b283c-143">คลาสของอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-143">Devices classes</span></span>
-<span data-ttu-id="b283c-144">โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วง POS ออกเป็นคลาสต่าง ๆ</span><span class="sxs-lookup"><span data-stu-id="b283c-144">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="b283c-145">ส่วนนี้อธิบายและให้ภาพรวมของอุปกรณ์ที่ Modern POS สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-145">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
-
-### <a name="printer"></a><span data-ttu-id="b283c-146">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-146">Printer</span></span>
-
-<span data-ttu-id="b283c-147">เครื่องพิมพ์รวมถึงเครื่องพิมพ์ใบเสร็จ POS ดั้งเดิมและเครื่องพิมพ์แบบเต็มหน้า</span><span class="sxs-lookup"><span data-stu-id="b283c-147">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="b283c-148">เครื่องพิมพ์ได้รับการสนับสนุนผ่าน Object Linking และ Embedding for Retail POS (OPOS) และอินเทอร์เฟซการโปรแกรมควบคุม Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-148">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="b283c-149">สามารถใช้เครื่องพิมพ์ได้สูงสุดสองเครื่องในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-149">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="b283c-150">ความสามารถนี้สนับสนุนสถานการณ์จำลองที่มีการพิมพ์ใบเสร็จของลูกค้าแบบรับเงินสดและรับของกลับบนเครื่องพิมพ์ใบเสร็จ ในขณะที่ใบสั่งของลูกค้าซึ่งมีข้อมูลเพิ่มเติมถูกพิมพ์บนเครื่องพิมพ์แบบเต็มหน้า</span><span class="sxs-lookup"><span data-stu-id="b283c-150">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="b283c-151">สามารถเชื่อมต่อเครื่องพิมพ์ใบเสร็จโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่ายผ่านอีเทอร์เน็ต หรือเชื่อมต่อผ่านบลูทูธ</span><span class="sxs-lookup"><span data-stu-id="b283c-151">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
-
-### <a name="scanner"></a><span data-ttu-id="b283c-152">สแกนเนอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-152">Scanner</span></span>
-
-<span data-ttu-id="b283c-153">สามารถใช้สแกนเนอร์บาร์โค้ดได้สูงสุดสองเครื่องในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-153">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="b283c-154">ความสามารถนี้สนับสนุนสถานการณ์จำลองที่จำเป็นต้องใช้สแกนเนอร์ที่สามารถเคลื่อนที่ได้มากขึ้นเพื่อสแกนสินค้าจำนวนมาก หรือที่มีขนาดใหญ่ ในขณะที่สแกนเนอร์แบบฝังตัวคงที่จะใช้สำหรับสินค้าที่มีขนาดมาตรฐานส่วนใหญ่เพื่อเร่งความเร็วของเวลาเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="b283c-154">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="b283c-155">สแกนเนอร์สามารถได้รับการสนับสนุนผ่าน OPOS แพลตฟอร์ม Universal Windows (UWP) หรืออินเทอร์เฟซของเครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-155">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="b283c-156">สามารถใช้ USB หรือบลูทูธเพื่อเชื่อมต่อสแกนเนอร์กับคอมพิวเตอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-156">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
-
-### <a name="msr"></a><span data-ttu-id="b283c-157">MSR</span><span class="sxs-lookup"><span data-stu-id="b283c-157">MSR</span></span>
-
-<span data-ttu-id="b283c-158">สามารถตั้งค่าเครื่องอ่านแถบแม่เหล็ก (MSR) USB ได้โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-158">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="b283c-159">ถ้าคุณต้องการใช้ MSR แบบสแตนด์อโลนสำหรับธุรกรรมการชำระเงินการโอนเงินทางอิเล็กทรอนิกส์ (EFT) จะต้องจัดการ MSR โดยตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-159">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="b283c-160">สามารถใช้ MSR แบบสแตนด์อโลนสำหรับการป้อนข้อมูลลูกค้าสมาชิก การเข้าระบบของพนักงาน และการป้อนข้อมูลบัตรของขวัญ โดยไม่ขึ้นอยู่กับตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-160">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
-
-### <a name="cash-drawer"></a><span data-ttu-id="b283c-161">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-161">Cash drawer</span></span>
-
-<span data-ttu-id="b283c-162">ลิ้นชักเงินสดสองรายการสามารถได้รับการสนับสนุนสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-162">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="b283c-163">ความสามารถนี้ช่วยให้สามารถมีกะที่ใช้งานอยู่สองรายการสำหรับแต่ละเครื่องบันทึกเงินสดที่พร้อมใช้งานในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-163">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="b283c-164">ในกรณีของกะที่ใช้ร่วมกันหรือลิ้นชักเงินสดที่ถูกใช้โดยอุปกรณ์ POS แบบเคลื่อนที่หลายเครื่องในเวลาเดียวกัน ระบบจะอนุญาตให้ใช้เพียงลิ้นชักเงินสดเดียวสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-164">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="b283c-165">สามารถเชื่อมต่อลิ้นชักเงินสดโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่าย หรือเชื่อมต่อกับเครื่องพิมพ์ใบเสร็จผ่านอินเทอร์เฟส RJ12</span><span class="sxs-lookup"><span data-stu-id="b283c-165">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="b283c-166">ในบางกรณี ลิ้นชักเงินสดยังสามารถเชื่อมต่อผ่านบลูทูธได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="b283c-166">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
-
-### <a name="line-display"></a><span data-ttu-id="b283c-167">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-167">Line display</span></span>
-
-<span data-ttu-id="b283c-168">จอแสดงผลรายการจะใช้เพื่อแสดงผลิตภัณฑ์ ยอดดุลของธุรกรรม และข้อมูลอื่น ๆ ที่เป็นประโยชน์ให้กับลูกค้าในระหว่างธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="b283c-168">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="b283c-169">สามารถเชื่อมต่อจอแสดงผลรายการหนึ่งไปยังคอมพิวเตอร์ได้โดยใช้ USB โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-169">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
-
-### <a name="signature-capture"></a><span data-ttu-id="b283c-170">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="b283c-170">Signature capture</span></span>
-
-<span data-ttu-id="b283c-171">สามารถเชื่อมต่ออุปกรณ์เก็บบันทึกลายเซ็นกับคอมพิวเตอร์ได้โดยตรงผ่าน USB โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-171">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="b283c-172">เมื่อมีการตั้งค่าคอนฟิกการเก็บบันทึกลายเซ็น ระบบจะพร้อมท์ให้ลูกค้าลงชื่อเข้าสู่อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-172">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="b283c-173">หลังจากที่ให้ลายเซ็นแล้ว ลายเซ็นนั้นจะถูกแสดงขึ้นให้กับพนักงานเก็บเงินเพื่อยอมรับ</span><span class="sxs-lookup"><span data-stu-id="b283c-173">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
-
-### <a name="scale"></a><span data-ttu-id="b283c-174">สเกล</span><span class="sxs-lookup"><span data-stu-id="b283c-174">Scale</span></span>
-
-<span data-ttu-id="b283c-175">สามารถเชื่อมต่อสเกลไปยังคอมพิวเตอร์ผ่าน USP โดยใช้โปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-175">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="b283c-176">เมื่อมีการเพิ่มผลิตภัณฑ์ที่ถูกทำเครื่องหมายเป็นผลิตภัณฑ์ "ที่ชั่งน้ำหนัก" ลงในธุรกรรม POS จะอ่านน้ำหนักจากสเกล เพิ่มผลิตภัณฑ์ลงในธุรกรรม และใช้ปริมาณที่สเกลระบุ</span><span class="sxs-lookup"><span data-stu-id="b283c-176">When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
-
-### <a name="pin-pad"></a><span data-ttu-id="b283c-177">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="b283c-177">PIN pad</span></span>
-
-<span data-ttu-id="b283c-178">แป้นหเลขที่ประจำตัวประชาชน (PIN) ได้รับการสนับสนุนผ่าน OPOS แต่จะถูกจัดการผ่านทางตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-178">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
-
-### <a name="secondary-display"></a><span data-ttu-id="b283c-179">จอแสดงผลรอง</span><span class="sxs-lookup"><span data-stu-id="b283c-179">Secondary display</span></span>
-
-<span data-ttu-id="b283c-180">เมื่อมีการตั้งค่าคอนฟิกจอแสดงผลรอง จอแสดงผล Windows หมายเลข 2 จะถูกใช้เพื่อแสดงข้อมูลพื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="b283c-180">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="b283c-181">วัตถุประสงค์ของจอแสดงผลรองคือเพื่อสนับสนุนส่วนขยายของผู้ขายซอฟต์แวร์อิสระ (ISV) เนื่องจากหากไม่ได้อยู่กล่องแล้ว จอแสดงผลรองจะไม่สามารถตั้งค่าคอนฟิกได้และจะแสดงเนื้อหาที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="b283c-181">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
-
-### <a name="payment-device"></a><span data-ttu-id="b283c-182">อุปกรณ์การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-182">Payment device</span></span>
-
-<span data-ttu-id="b283c-183">การสนับสนุนอุปกรณ์การชำระเงินถูกนำมาใช้ผ่านตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-183">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="b283c-184">อุปกรณ์การชำระเงินสามารถทำหน้าที่อย่างหนึ่งหรือหลายอย่างที่คลาสของอุปกรณ์อื่น ๆ มีได้</span><span class="sxs-lookup"><span data-stu-id="b283c-184">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="b283c-185">ตัวอย่างเช่น อุปกรณ์การชำระเงินสามารถทำหน้าที่เป็นตัวอ่านบัตร/MSR จอแสดงผลรายการ อุปกรณ์เก็บบันทึกลายเซ็น หรือแป้น PIN</span><span class="sxs-lookup"><span data-stu-id="b283c-185">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="b283c-186">การสนับสนุนสำหรับอุปกรณ์การชำระเงินถูกนำมาใช้อย่างเป็นอิสระจากการสนับสนุนของอุปกรณ์แบบสแตนด์อโลนที่ให้ไว้สำหรับอุปกรณ์อื่น ๆ ที่รวมอยู่ในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-186">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
-
-## <a name="supported-interfaces"></a><span data-ttu-id="b283c-187">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-187">Supported interfaces</span></span>
-
-### <a name="opos"></a><span data-ttu-id="b283c-188">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-188">OPOS</span></span>
-
-<span data-ttu-id="b283c-189">เมื่อต้องการช่วยรับประกันว่าจะสามารถใช้อุปกรณ์ได้หลายประเภทกับ Microsoft Dynamics 365 for Retail OLE สำหรับมาตรฐานอุตสาหกรรม POS คือแพลตฟอร์มอุปกรณ์ต่อพ่วงขายปลีกหลักที่ได้รับการสนับสนุนใน Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="b283c-189">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="b283c-190">OLE สำหรับมาตรฐาน POS ถูกผลิตโดย National Retail Federation (NRF) ซึ่งสร้างโพรโทคอลการติดต่อสื่อสารมาตรฐานอุตสาหกรรมสำหรับอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="b283c-190">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="b283c-191">OPOS คือการดำเนินการที่ถูกนำมาใช้อย่างกว้างขวางของ OLE สำหรับมาตรฐาน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-191">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="b283c-192">ซึ่งได้รับการพัฒนาในช่วงกลางทศวรรษที่ 1990 และได้รับการอัพเดตหลายครั้งหลังจากนั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-192">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="b283c-193">OPOS แสดงสถาปัตยกรรมของโปรแกรมควบคุมอุปกรณ์ที่ช่วยให้การรวมฮาร์ดแวร์ POS กับระบบ POS ที่ใช้ Windows ทำได้โดยง่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-193">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="b283c-194">ตัวควบคุม OPOS จัดการการติดต่อสื่อสารระหว่างฮาร์ดแวร์ที่เข้ากันได้กับซอฟต์แวร์ POS</span><span class="sxs-lookup"><span data-stu-id="b283c-194">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="b283c-195">ตัวควบคุม OPOS ประกอบด้วยสองส่วน:</span><span class="sxs-lookup"><span data-stu-id="b283c-195">An OPOS control consists of two parts:</span></span>
-
-- <span data-ttu-id="b283c-196">**วัตถุควบคุม** – วัตถุควบคุมสำหรับคลาสของอุปกรณ์ (เช่น จอแสดงผลรายการ) ให้อินเทอร์เฟซสำหรับโปรแกรมซอฟต์แวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-196">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="b283c-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) แสดงชุดมาตรฐานของวัตถุควบคุม OPOS ที่เรียกว่าวัตถุควบคุมทั่วไป (CCO)</span><span class="sxs-lookup"><span data-stu-id="b283c-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="b283c-198">CCO จะใช้ในการทดสอบส่วนประกอบ POS ของ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="b283c-198">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="b283c-199">ดังนั้น การทดสอบจะช่วยรับประกันว่า ถ้า Microsoft Dynamics 365 for Retail สนับสนุนคลาสของอุปกรณ์ผ่าน OPOS จะสามารถสนับสนุนชนิดของอุปกรณ์หลายชนิด ถ้าผู้ผลิตมีวัตถุที่ให้บริการที่มีอยู่สำหรับ OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-199">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="b283c-200">คุณไม่จำเป็นต้องทดสอบแต่ละชนิดของอุปกรณ์อย่างชัดเจน</span><span class="sxs-lookup"><span data-stu-id="b283c-200">You don't have to explicitly test each device type.</span></span>
-- <span data-ttu-id="b283c-201">**วัตถุที่ให้บริการ** – วัตถุที่ให้บริการให้การสื่อสารระหว่างวัตถุควบคุม (CCO) และอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-201">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="b283c-202">โดยปกติ วัตถุที่ให้บริการสำหรับอุปกรณ์มีไว้ให้โดยผู้ผลิตอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-202">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="b283c-203">อย่างไรก็ตาม ในบางกรณี คุณอาจจำเป็นต้องดาวน์โหลดวัตถุที่ให้บริการจากเว็บไซต์ของผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-203">However, in some cases, you might have to download the service object from the manufacturer's website.</span></span> <span data-ttu-id="b283c-204">ตัวอย่างเช่น มีวัตถุที่ให้บริการที่ใหม่กว่าพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="b283c-204">For example, a more recent service object might be available.</span></span> <span data-ttu-id="b283c-205">เมื่อต้องการค้นหาที่อยู่ของเว็บไซต์ของผู้ผลิต ให้ดูเอกสารประกอบฮาร์ดแวร์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="b283c-205">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
-
-<span data-ttu-id="b283c-206">[![วัตถุควบคุมและวัตถุที่ให้บริการ](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span><span class="sxs-lookup"><span data-stu-id="b283c-206">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span></span>
-
-<span data-ttu-id="b283c-207">สนับสนุนการใช้งาน OPOS ของ OLE เพื่อใช้ POS ช่วยรับประกันว่า หากผู้ผลิตอุปกรณ์และผู้เผยแพร่ POS ใช้มาตรฐานอย่างถูกต้อง ระบบ POS และอุปกรณ์ที่สนับสนุนจะสามารถทำงานร่วมกันได้แม้ว่าจะไม่ได้รับการทดสอบก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="b283c-207">Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-208">การสนับสนุน OPOS ไม่ได้รับประกันการสนับสนุนสำหรับอุปกรณ์ทั้งหมดที่มีโปรแกรมควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-208">OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="b283c-209">ก่อนอื่น Microsoft Dynamics 365 for Retail ต้องสนับสนุนชนิดหรือคลาสของอุปกรณ์นั้นๆ ผ่าน OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="b283c-210">นอกจากนี้ วัตถุที่ให้บริการอาจไม่เป็นปัจจุบันที่มี CCO รุ่นล่าสุดอยู่เสมอ</span><span class="sxs-lookup"><span data-stu-id="b283c-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="b283c-211">นอกจากนี้คุณยังควรตระหนักว่าโดยทั่วไปคุณภาพของวัตถุที่ให้บริการจะแตกต่างกันไป</span><span class="sxs-lookup"><span data-stu-id="b283c-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="b283c-212">Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-212">Windows</span></span>
-
-<span data-ttu-id="b283c-213">การพิมพ์ใบเสร็จที่ POS ได้รับการปรับให้เหมาะสมสำหรับ OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="b283c-214">OPOS มีแนวโน้มที่จะเร็วกว่าการพิมพ์ผ่าน Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="b283c-215">ดังนั้น จึงเป็นความคิดที่ดีที่จะใช้ OPOS โดยเฉพาะในสภาพแวดล้อมการขายปลีกที่มีการพิมพ์ใบเสร็จรับเงิน 40 คอลัมน์ และเวลาธุรกรรมจะต้องรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="b283c-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="b283c-216">สำหรับอุปกรณ์ส่วนใหญ่ คุณจะใช้ตัวควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="b283c-217">อย่างไรก็ตาม เครื่องพิมพ์ใบเสร็จ OPOS บางรุ่นยังสนับสนุนโปรแกรมควบคุมของ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="b283c-218">เมื่อใช้โปรแกรมควบคุม Windows คุณจะสามารถเข้าถึงแบบอักษรล่าสุดและวางเครือข่ายเครื่องพิมพ์หนึ่งสำหรับเครื่องบันทึกเงินสดหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="b283c-219">อย่างไรก็ตาม มีข้อเสียของการใช้โปรแกรมควบคุมของ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="b283c-220">ต่อไปนี้เป็นตัวอย่างของข้อเสียเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-220">Here are some examples of these drawbacks:</span></span>
-
-- <span data-ttu-id="b283c-221">เมื่อใช้โปรแกรมควบคุมของ Windows รูปภาพจะแสดงก่อนที่จะเกิดการพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="b283c-222">ดังนั้น การพิมพ์จึงมีแนวโน้มที่จะช้ากว่าเครื่องพิมพ์ที่ใช้ตัวควบคุม OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
-- <span data-ttu-id="b283c-223">อุปกรณ์ที่เชื่อมต่อผ่านเครื่องพิมพ์ ("สายโซ่เดซี่") อาจทำงานไม่ถูกต้อง เมื่อมีการใช้โปรแกรมควบคุมของ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-223">Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="b283c-224">ตัวอย่างเช่น ลิ้นชักเงินสดอาจไม่เปิดหรือเครื่องพิมพ์สลิปอาจทำงานไม่ได้ตามที่คุณคาดหวัง</span><span class="sxs-lookup"><span data-stu-id="b283c-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
-- <span data-ttu-id="b283c-225">OPOS ยังสนับสนุนชุดที่ขยายขอบเขตมากขึ้นของตัวแปรที่เฉพาะสำหรับเครื่องพิมพ์ใบเสร็จการขายปลีก เช่น การตัดกระดาษหรือการพิมพ์สลิป</span><span class="sxs-lookup"><span data-stu-id="b283c-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
-
-<span data-ttu-id="b283c-226">ถ้าตัวควบคุม OPOS พร้อมใช้งานสำหรับเครื่องพิมพ์ของ Windows ที่คุณกำลังใช้อยู่ เครื่องพิมพ์ควรที่จะยังคงทำงานได้อย่างถูกต้องกับ Microsoft Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="b283c-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
-
-### <a name="universal-windows-platform"></a><span data-ttu-id="b283c-227">แพลตฟอร์ม Universal Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-227">Universal Windows Platform</span></span>
-
-<span data-ttu-id="b283c-228">ในกรณีของอุปกรณ์ต่อพ่วงขายปลีก UWP เกี่ยวข้องกับการสนับสนุนของ Windows สำหรับอุปกรณ์ Plug and Play</span><span class="sxs-lookup"><span data-stu-id="b283c-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="b283c-229">เมื่ออุปกรณ์ Plug and Play เชื่อมต่อกับรุ่นระบบปฏิบัติการ Windows ที่สนับสนุนชนิดของอุปกรณ์นั้น ไม่จำเป็นต้องใช้โปรแกรมควบคุมสำหรับอุปกรณ์เพื่อที่จะใช้ตามที่ตั้งใจไว้</span><span class="sxs-lookup"><span data-stu-id="b283c-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="b283c-230">ตัวอย่างเช่น ถ้า Windows ตรวจพบอุปกรณ์ลำโพงบลูทูธ ระบบปฏิบัติการจะรู้ว่าอุปกรณ์มีชนิดของคลาส **ลำโพง**</span><span class="sxs-lookup"><span data-stu-id="b283c-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="b283c-231">ดังนั้น ระบบจะถือว่าอุปกรณ์นั้นเป็นลำโพง</span><span class="sxs-lookup"><span data-stu-id="b283c-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="b283c-232">ไม่ต้องตั้งค่าเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="b283c-232">No additional setup is required.</span></span> <span data-ttu-id="b283c-233">ในกรณีของอุปกรณ์ POS สามารถต่ออุปกรณ์ USB ได้หลายรายการ และ Windows จะจดจำรายการเหล่านั้นเป็นอุปกรณ์อินเทอร์เฟสบุคคล (HID)</span><span class="sxs-lookup"><span data-stu-id="b283c-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="b283c-234">อย่างไรก็ตาม อาจไม่สามารถตรวจสอบความสามารถที่อุปกรณ์มีได้ เนื่องจากอุปกรณ์ไม่ได้ระบุคลาสหรือชนิดของอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="b283c-235">ใน Windows 10 มีการเพิ่มคลาสของอุปกรณ์สำหรับสแกนเนอร์บาร์โค้ดและ MSR</span><span class="sxs-lookup"><span data-stu-id="b283c-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="b283c-236">ดังนั้น ถ้าอุปกรณ์ประกาศต่อ Windows 10 ว่าเป็นอุปกรณ์ของคลาสใดคลาสหนึ่งเหล่านี้ Windows จะฟังเหตุการณ์จากอุปกรณ์ในช่วงเวลาที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="b283c-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="b283c-237">Modern POS สนับสนุน MSR และสแกนเนอร์ของ UWP</span><span class="sxs-lookup"><span data-stu-id="b283c-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="b283c-238">ดังนั้น เมื่อพร้อมสำหรับการป้อนข้อมูลจากอุปกรณ์ใดอุปกรณ์หนึ่งเหล่านี้ และมีการเชื่อมต่ออุปกรณ์ที่เป็นของคลาสใดคลาสหนึ่งเหล่านี้ จะสามารถใช้อุปกรณ์ได้</span><span class="sxs-lookup"><span data-stu-id="b283c-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="b283c-239">ตัวอย่างเช่น ถ้าสแกนเนอร์บาร์โค้ด UWP เสียบเข้ากับเครื่องคอมพิวเตอร์ Windows 10 และมีการตั้งค่าคอนฟิกบาร์โค้ดสำหรับ Modern POS สแกนเนอร์บาร์โค้ดจะเปิดใช้งานบนหน้าจอการเข้าสู่ระบบ</span><span class="sxs-lookup"><span data-stu-id="b283c-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="b283c-240">ไม่ต้องตั้งค่าเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="b283c-240">No additional setup is required.</span></span> <span data-ttu-id="b283c-241">ขณะนี้มีการเพิ่มคลาสของอุปกรณ์ UWP จุดบริการลงใน Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="b283c-242">คลาสเหล่านี้รวมถึงคลาสสำหรับลิ้นชักเงินสดและเครื่องพิมพ์ใบเสร็จ</span><span class="sxs-lookup"><span data-stu-id="b283c-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="b283c-243">การสนับสนุนสำหรับคลาสของอุปกรณ์ใหม่เหล่านี้ใน Modern POS ยังค้างอยู่</span><span class="sxs-lookup"><span data-stu-id="b283c-243">Support for these new device classes in Modern POS is pending.</span></span>
-
-### <a name="keyboard-wedge"></a><span data-ttu-id="b283c-244">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-244">Keyboard wedge</span></span>
-
-<span data-ttu-id="b283c-245">อุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์จะส่งข้อมูลไปยังคอมพิวเตอร์ราวกับว่าข้อมูลนั้นถูกพิมพ์บนแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="b283c-246">ดังนั้น โดยค่าเริ่มต้น ฟิลด์ที่ใช้งานอยู่ที่ POS จะได้รับข้อมูลที่ถูกสแกนหรือรูด</span><span class="sxs-lookup"><span data-stu-id="b283c-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="b283c-247">ในบางกรณี ลักษณะการทำงานนี้อาจทำให้มีการสแกนชนิดของข้อมูลที่ไม่ถูกต้องลงในฟิลด์ที่ไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="b283c-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="b283c-248">ตัวอย่างเช่น อาจมีการสแกนบาร์โค้ดลงในฟิลด์ที่มีไว้สำหรับการป้อนข้อมูลบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="b283c-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="b283c-249">ในหลายกรณี มีตรรกะที่ POS ที่กำหนดว่าข้อมูลที่ถูกสแกนหรือรูดเป็นบาร์โค้ดหรือการรูดบัตรหรือไม่</span><span class="sxs-lookup"><span data-stu-id="b283c-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="b283c-250">ดังนั้น ข้อมูลจะถูกจัดการอย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="b283c-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="b283c-251">อย่างไรก็ตาม เมื่ออุปกรณ์ถูกตั้งค่าเป็น OPOS แทนอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ จะมีการควบคุมวิธีการใช้ข้อมูลจากอุปกรณ์เหล่านั้นมากขึ้น เนื่องจากส่วนใหญ่ "ทราบ" เกี่ยวกับอุปกรณ์ที่เป็นจุดเริ่มของข้อมูล</span><span class="sxs-lookup"><span data-stu-id="b283c-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</span></span> <span data-ttu-id="b283c-252">ตัวอย่างเช่น ข้อมูลจากสแกนเนอร์บาร์โค้ดจะถูกจดจำเป็นบาร์โค้ดโดยอัตโนมัติ และสามารถพบเรกคอร์ดที่เชื่อมโยงในฐานข้อมูลได้อย่างง่ายดายและรวดเร็วขึ้นถ้าใช้การค้นหาสายอักขระทั่วไป ดังเช่นในกรณีของอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
-
-### <a name="native-printer"></a><span data-ttu-id="b283c-253">เครื่องพิมพ์เดิม</span><span class="sxs-lookup"><span data-stu-id="b283c-253">Native printer</span></span>
-
-<span data-ttu-id="b283c-254">คุณสามารถตั้งค่าคอนฟิกเดิม (หรือ "อุปกรณ์" เมื่อชนิดถูกตั้งชื่อในโพรไฟล์ฮาร์ดแวร์) เพื่อพร้อมท์ให้ผู้ใช้เลือกเครื่องพิมพ์ที่จะถูกตั้งค่าคอนฟิกสำหรับคอมพิวเตอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="b283c-255">เมื่อเครื่องพิมพ์ของชนิด **อุปกรณ์** มีการตั้งค่าคอนฟิก ถ้า Modern POS พบคำสั่งพิมพ์ ระบบจะพร้อมต์ให้ผู้ใช้เลือกเครื่องพิมพ์ในรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="b283c-256">ลักษณะการทำงานนี้แตกต่างจากลักษณะการทำงานสำหรับโปรแกรมควบคุมของ Windows เนื่องจากชนิดของเครื่องพิมพ์ **Windows** ในโพรไฟล์ฮาร์ดแวร์ไม่แสดงรายการของเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="b283c-257">แต่จำเป็นต้องมีการระบุเครื่องพิมพ์ที่มีชื่อในฟิลด์ **ชื่ออุปกรณ์**</span><span class="sxs-lookup"><span data-stu-id="b283c-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="b283c-258">Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-258">Windows</span></span>
-
-<span data-ttu-id="b283c-259">ชนิดของอุปกรณ์ **Windows** ใช้สำหรับเครื่องพิมพ์เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="b283c-260">เมื่อมีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows ในโพรไฟล์ฮาร์ดแวร์ ต้องมีการระบุชื่อเครื่องพิมพ์เฉพาะ</span><span class="sxs-lookup"><span data-stu-id="b283c-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="b283c-261">เมื่อ Modern POS พบเหตุการณ์การพิมพ์ ถ้ามีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows เหตุการณ์จะถูกส่งผ่านไปยังเครื่องพิมพ์ Windows ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="b283c-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="b283c-262">ผู้ใช้จะไม่ได้รับพร้อมท์ให้เลือกเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-262">The user won't be prompted to select a printer.</span></span>
-
-### <a name="network"></a><span data-ttu-id="b283c-263">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-263">Network</span></span>
-
-<span data-ttu-id="b283c-264">สามารถใช้ลิ้นชักเงินสดที่ระบุเครือข่ายได้ เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านเครือข่าย ทั้งโดยผ่านสถานีฮาร์ดแวร์ Interprocess Communications (IPC) ที่มีอยู่ใน Modern POS สำหรับแอพลิเคชัน Windows โดยตรง หรือโดยผ่านสถานีฮาร์ดแวร์ของ IIS สำหรับไคลเอนต์ Modern POS อื่น ๆ</span><span class="sxs-lookup"><span data-stu-id="b283c-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
-
-## <a name="hardware-station-deployment-options"></a><span data-ttu-id="b283c-265">ตัวเลือกการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-265">Hardware station deployment options</span></span>
-
-### <a name="ipc-built-in"></a><span data-ttu-id="b283c-266">IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="b283c-266">IPC (built-in)</span></span>
-
-<span data-ttu-id="b283c-267">สถานีฮาร์ดแวร์ Interprocess Communications (IPC) ถูกสร้างขึ้นใน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="b283c-268">เมื่อต้องการใช้สถานีฮาร์ดแวร์ IPC ให้กำหนดโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสดที่จะใช้ Modern POS สำหรับแอพลิเคชัน Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="b283c-269">จากนั้น สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าที่จะใช้เครื่องบันทึกเงินสดนั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="b283c-270">เมื่อคุณเริ่มใช้งาน Modern POS สถานีฮาร์ดแวร์ IPC จะเปิดใช้งาน และอุปกรณ์ต่อพ่วง POS ที่ได้รับการตั้งค่าคอนฟิกจะพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="b283c-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="b283c-271">ถ้าคุณไม่ต้องการฮาร์ดแวร์ในพื้นที่ชั่วคราวด้วยเหตุผลบางประการ ให้ใช้การดำเนินงาน **จัดการสถานีฮาร์ดแวร์** เพื่อปิดความสามารถของสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="b283c-272">Modern POS ยังสามารถใช้สถานีฮาร์ดแวร์ IPC เพื่อสื่อสารโดยตรงกับอุปกรณ์ต่อพ่วงของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
-
-### <a name="iis"></a><span data-ttu-id="b283c-273">IIS</span><span class="sxs-lookup"><span data-stu-id="b283c-273">IIS</span></span>
-
-<span data-ttu-id="b283c-274">คุณสามารถใช้ IIS หรือสถานีฮาร์ดแวร์รุ่นสแตนด์อะโลนได้สองวิธี</span><span class="sxs-lookup"><span data-stu-id="b283c-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="b283c-275">ตัวอธิบาย "IIS" บ่งชี้ว่า แอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ผ่านทาง Microsoft Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="b283c-275">The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="b283c-276">แอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ IIS ผ่านทางบริการเว็บที่รันบนคอมพิวเตอร์ที่อุปกรณ์เชื่อมต่ออยู่</span><span class="sxs-lookup"><span data-stu-id="b283c-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="b283c-277">เมื่อมีการใช้ IIS จะสามารถใช้อุปกรณ์ต่อพ่วงขายปลีกที่เชื่อมต่อไปยังสถานีฮาร์ดแวร์ได้โดยเครื่องบันทึกเงินสด POS ที่อยู่บนเครือข่ายเดียวกันโดยเป็นสถานีฮาร์ดแวร์ IIS</span><span class="sxs-lookup"><span data-stu-id="b283c-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="b283c-278">เนื่องจากเฉพาะ Modern POS สำหรับ Windows มีการสนับสนุนในตัวสำหรับอุปกรณ์ต่อพ่วงขายปลีก แอพลิเคชัน Modern POS อื่น ๆ ทั้งหมดจะต้องใช้สถานีฮาร์ดแวร์ IIS ในการสื่อสารกับอุปกรณ์ต่อพ่วง POS ที่มีการตั้งค่าคอนฟิกในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="b283c-279">ดังนั้น แต่ละอินสแตนซ์ของสถานีฮาร์ดแวร์ IIS กำหนดให้คอมพิวเตอร์รันบริการเว็บและแอพลิเคชันที่สื่อสารกับอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="b283c-280">จำเป็นต้องใช้สถานีฮาร์ดแวร์ IIS สำหรับแอพลิเคชันที่ไม่ใช่ Modern POS ของ Windows ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="b283c-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
-
-#### <a name="dedicated"></a><span data-ttu-id="b283c-281">เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="b283c-281">Dedicated</span></span>
-
-<span data-ttu-id="b283c-282">Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เฉพาะเจาะจง** เพื่อตรวจสอบว่าอุปกรณ์ต่อพ่วงเชื่อมต่อโดยตรงไปยังคอมพิวเตอร์ที่กำลังใช้แอพอยู่</span><span class="sxs-lookup"><span data-stu-id="b283c-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="b283c-283">อย่างไรก็ตาม ชนิด **เฉพาะเจาะจง** ยังอาจถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ได้</span><span class="sxs-lookup"><span data-stu-id="b283c-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="b283c-284">ในสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวรที่ใช้ Cloud POS เป็นแอพลิเคชัน POS ชนิดของสถานีฮาร์ดแวร์ **เฉพาะเจาะจง** จะถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ที่มีการปรับใช้บนคอมพิวเตอร์เดียวกันที่กำลังรัน Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b283c-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="b283c-285">จากมุมมองอุปกรณ์ต่อพ่วงขายปลีก สถานีฮาร์ดแวร์เฉพาะเจาะจงของ IIS มีการสนับสนุนของอุปกรณ์ต่อพ่วงขายปลีกที่ดีกว่าสำหรับสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวร</span><span class="sxs-lookup"><span data-stu-id="b283c-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="b283c-286">สถานีฮาร์ดแวร์เฉพาะเจาะจงสนับสนุนอุปกรณ์ต่อพ่วงทั้งหมดที่ได้รับการสนับสนุนในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
-
-#### <a name="shared"></a><span data-ttu-id="b283c-287">ที่มีส่วนแบ่ง</span><span class="sxs-lookup"><span data-stu-id="b283c-287">Shared</span></span>
-
-<span data-ttu-id="b283c-288">สถานีฮาร์ดแวร์ที่ใช้ร่วมกันมีไว้เพื่อให้ใช้โดยอุปกรณ์ POS หลายรายการผ่านหลักสูตรของวัน</span><span class="sxs-lookup"><span data-stu-id="b283c-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="b283c-289">สถานีฮาร์ดแวร์ที่ใช้ร่วมกันจะได้รับการปรับให้เหมาะสมเพื่อสนับสนุนเฉพาะลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="b283c-290">คุณไม่สามารถเชื่อมต่อกับสแกนเนอร์บาร์โค้ดแบบสแตนด์อโลน MSR จอแสดงผลรายการ สเกล หรืออุปกรณ์อื่น ๆ ได้โดยตรง</span><span class="sxs-lookup"><span data-stu-id="b283c-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="b283c-291">มิฉะนั้น ความขัดแย้งจะเกิดขึ้นเมื่ออุปกรณ์ POS หลายรายการพยายามอ้างสิทธิ์อุปกรณ์ต่อพ่วงเหล่านั้นในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="b283c-292">ต่อไปนี้เป็นวิธีจัดการความขัดแย้งของอุปกรณ์ที่ได้รับการสนับสนุน:</span><span class="sxs-lookup"><span data-stu-id="b283c-292">Here is how conflicts are managed for supported devices:</span></span>
-
-- <span data-ttu-id="b283c-293">**ลิ้นชักเงินสด** – เปิดลิ้นชักเงินสดผ่านเหตุการณ์ที่จะถูกส่งไปยังอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="b283c-294">ปัญหาเดียวที่อาจเกิดขึ้นเมื่อมีการเรียกลิ้นชักเงินสดจะเกิดขึ้นถ้าลิ้นชักเงินสดถูกเปิดไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="b283c-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="b283c-295">ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ลิ้นชักเงินสดควรถูกตั้งค่าเป็น **ที่ใช้ร่วมกัน** ในโพรไฟล์ฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="b283c-296">การตั้งค่านี้ป้องกันไม่ให้ POS ตรวจสอบว่าลิ้นชักเงินสดถูกเปิดอยู่แล้วหรือไม่เมื่อส่งคำสั่งเปิด</span><span class="sxs-lookup"><span data-stu-id="b283c-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
-- <span data-ttu-id="b283c-297">**เครื่องพิมพ์ใบเสร็จ** – ถ้ามีคำสั่งการพิมพ์ใบเสร็จสองรายการถูกส่งไปยังสถานีฮาร์ดแวร์พร้อมกัน คำสั่งใดคำสั่งหนึ่งอาจสูญหาย ขึ้นอยู่กับอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="b283c-298">อุปกรณ์บางอย่างมีหน่วยความจำภายในหรือการรวมที่สามารถป้องกันไม่ให้เกิดปัญหานี้</span><span class="sxs-lookup"><span data-stu-id="b283c-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="b283c-299">ถ้าคำสั่งพิมพ์ไม่เสร็จเรียบร้อย พนักงานเก็บเงินจะได้รับข้อความแสดงข้อผิดพลาดและสามารถลองคำสั่งพิมพ์จาก POS อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="b283c-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
-- <span data-ttu-id="b283c-300">**เทอร์มินัลการชำระเงิน** – ถ้าพนักงานเก็บเงินพยายามที่จะชำระเงินธุรกรรมในเทอร์มินัลการชำระเงินที่ถูกใช้แล้ว จะมีข้อความแจ้งพนักงานเก็บเงินให้ทราบว่ากำลังมีการใช้เทอร์มินัลและจะขอให้พนักงานเก็บเงินลองอีกครั้งในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="b283c-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="b283c-301">โดยปกติ พนักงานเก็บเงินจะสามารถเห็นว่าเทอร์มินัลกำลังถูกใช้แล้ว และจะรอจนกว่าธุรกรรมอื่น ๆ เสร็จสมบูรณ์ก่อนที่จะพยายามชำระเงินอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="b283c-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
-
-<span data-ttu-id="b283c-302">มีการวางแผนการตรวจสอบสำหรับรุ่นต่อไป เพื่อตรวจสอบว่าอุปกรณ์ที่ไม่ได้รับการสนับสนุนจะถูกตั้งค่าสำหรับโพรไฟล์ฮาร์ดแวร์ที่ถูกแม็ปไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="b283c-303">ถ้าตรวจพบอุปกรณ์ใด ๆ ที่ไม่ได้รับการสนับสนุน ผู้ใช้จะได้รับข้อความที่แจ้งว่าอุปกรณ์ไม่ได้รับการสนับสนุนสำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="b283c-304">ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ตัวเลือก **เลือกเมื่อมีการชำระเงิน** จะถูกตั้งค่าเป็น **ใช่** ในระดับเครื่องบันทึกเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="b283c-305">จากนั้นระบบจะพร้อมต์ให้ผู้ใช้ POS เลือกสถานีฮาร์ดแวร์เมื่อมีการเลือกการชำระเงินสำหรับธุรกรรมที่ POS</span><span class="sxs-lookup"><span data-stu-id="b283c-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="b283c-306">เมื่อมีการเลือกสถานีฮาร์ดแวร์ในเวลาที่มีการชำระเงินเท่านั้น การเลือกสถานีฮาร์ดแวร์จะถูกเพิ่มโดยตรงไปยังลำดับงาน POS สำหรับสถานการณ์จำลองแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="b283c-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="b283c-307">จอแสดงผลรายการบนเทอร์มินัลการชำระเงินไม่ได้ถูกใช้สำหรับสถานการณ์จำลองที่ใช้ร่วมกันโดยเป็นผลประโยชน์เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="b283c-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="b283c-308">ถ้ามีการใช้เทอร์มินัลการชำระเงินเป็นจอแสดงผลรายการ ผู้ใช้รายอื่นอาจถูกบล็อกไม่ให้ใช้เทอร์มินัลดังกล่าวจนกว่าธุรกรรมจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="b283c-309">ในสถานการณ์จำลองแบบเคลื่อนที่ อาจมีการเพิ่มรายการลงในธุรกรรมในรอบระยะเวลาที่นานขึ้น</span><span class="sxs-lookup"><span data-stu-id="b283c-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="b283c-310">ดังนั้นจึงจำเป็นต้องใช้ตัวเลือก **เลือกเมื่อมีการชำระเงิน** เพื่อรับประกันถึงความพร้อมใช้งานของอุปกรณ์ที่ดีที่สุด</span><span class="sxs-lookup"><span data-stu-id="b283c-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
-
-### <a name="network-peripherals"></a><span data-ttu-id="b283c-311">อุปกรณ์ต่อพ่วงของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-311">Network peripherals</span></span>
-
-<span data-ttu-id="b283c-312">การกำหนดเครือข่ายสำหรับอุปกรณ์ในโพรไฟล์ฮาร์ดแวร์ช่วยให้สามารถเชื่อมต่อลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านการเชื่อมต่อเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
-
-#### <a name="modern-pos-for-windows"></a><span data-ttu-id="b283c-313">Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-313">Modern POS for Windows</span></span>
-
-<span data-ttu-id="b283c-314">คุณสามารถระบุที่อยู่ IP สำหรับอุปกรณ์ต่อพ่วงของเครือข่ายได้สองตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="b283c-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="b283c-315">ถ้าไคลเอนต์ Modern POS Windows ใช้อุปกรณ์ต่อพ่วงของเครือข่ายชุดเดียว คุณควรตั้งค่าที่อยู่ IP สำหรับอุปกรณ์เหล่านั้นโดยใช้ตัวเลือก **การตั้งค่าคอนฟิก IP** ในบานหน้าต่างการดำเนินการสำหรับเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="b283c-316">ในกรณีของอุปกรณ์เครือข่ายที่จะใช้ร่วมกันระหว่างเครื่องบันทึกเงินสด POS ต่าง ๆ สามารถแม็ปโพรไฟล์ฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายที่กำหนดไว้ได้โดยตรงไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกันได้</span><span class="sxs-lookup"><span data-stu-id="b283c-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="b283c-317">เมื่อต้องการกำหนดที่อยู่ IP ให้เลือกสถานีฮาร์ดแวร์บนหน้า **ร้านค้าปลีก** และจากนั้น ใช้ตัวเลือก **การตั้งค่าคอนฟิก IP** ในส่วน **สถานีฮาร์ดแวร์** เพื่อระบุอุปกรณ์เครือข่ายที่ถูกกำหนดให้กับสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="b283c-318">สำหรับสถานีฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายเพียงอย่างเดียว คุณไม่จำเป็นต้องปรับใช้สถานีฮาร์ดแวร์เอง</span><span class="sxs-lookup"><span data-stu-id="b283c-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="b283c-319">ในกรณีนี้ จำเป็นต้องใช้สถานีฮาร์ดแวร์เพื่อจัดกลุ่มอุปกรณ์ที่ระบุเครือข่ายได้ตามแนวคิดตามตำแหน่งที่ตั้งในร้านค้าปลีกเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
-
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="b283c-320">Cloud POS, Modern POS สำหรับ iOS และ Modern POS สำหรับ Android</span><span class="sxs-lookup"><span data-stu-id="b283c-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
-
-<span data-ttu-id="b283c-321">มีตรรกะที่กระตุ้นอุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อจริงหรือที่ระบุเครือข่ายได้อยู่ในสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="b283c-322">ดังนั้น สำหรับไคลเอนต์ POS ทั้งหมดยกเว้น Modern POS สำหรับ Windows สถานีฮาร์ดแวร์ IIS จะต้องถูกปรับใช้และใช้งานเพื่อเปิดใช้งาน POS เพื่อสื่อสารกับอุปกรณ์ต่อพ่วง โดยไม่คำนึงว่าอุปกรณ์ต่อพ่วงเหล่านั้นมีการเชื่อมต่อไปยังสถานีฮาร์ดแวร์หรือมีการระบุผ่านเครือข่ายจริงหรือไม่</span><span class="sxs-lookup"><span data-stu-id="b283c-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
-
-## <a name="setup-and-configuration"></a><span data-ttu-id="b283c-323">การตั้งค่าและการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="b283c-323">Setup and configuration</span></span>
-
-### <a name="hardware-station-installation"></a><span data-ttu-id="b283c-324">การติดตั้งสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-324">Hardware station installation</span></span>
-
-<span data-ttu-id="b283c-325">สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-
-### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="b283c-326">การตั้งค่าและการตั้งค่าคอนฟิก Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-326">Modern POS for Windows setup and configuration</span></span>
-
-<span data-ttu-id="b283c-327">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-
-### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="b283c-328">การตั้งค่าและการตั้งค่าคอนฟิกอุปกรณ์ OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-328">OPOS device setup and configuration</span></span>
-
-<span data-ttu-id="b283c-329">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบ OPOS ให้ดูส่วน "อินเทอร์เฟซที่ได้รับการสนับสนุน" ของเอกสารนี้</span><span class="sxs-lookup"><span data-stu-id="b283c-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="b283c-330">โดยทั่วไปแล้ว โปรแกรมควบคุม OPOS มีไว้ให้โดยผู้ผลิตอุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="b283c-331">เมื่อมีการติดตั้งโปรแกรมควบคุมอุปกรณ์ OPOS ระบบจะเพิ่มคีย์ไปยังรีจิสทรีของ Windows ในตำแหน่งใดตำแหน่งหนึ่งต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
-
-- <span data-ttu-id="b283c-332">**ระบบ 32 บิต:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
-- <span data-ttu-id="b283c-333">**ระบบ 64 บิต:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
-
-<span data-ttu-id="b283c-334">ภายในตำแหน่งรีจิสทรีของ ServiceOPOS อุปกรณ์ที่มีการตั้งค่าคอนฟิกจะถูกจัดการตามคลาสของอุปกรณ์ OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="b283c-335">โปรแกรมควบคุมอุปกรณ์หลายรายการจะถูกบันทึก</span><span class="sxs-lookup"><span data-stu-id="b283c-335">Multiple device drivers are saved.</span></span>
-
-## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="b283c-336">สถานการณ์จำลองที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-336">Supported scenarios by hardware station type</span></span>
-
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="b283c-337">การสนับสนุนไคลเอนต์ – สถานีฮาร์ดแวร์ของ IPC เทียบกับสถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="b283c-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
-
-<span data-ttu-id="b283c-338">ตารางต่อไปนี้แสดงโทโพโลยีและสถานการณ์จำลองการปรับใช้ที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
-
-| <span data-ttu-id="b283c-339">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-339">Client</span></span>      | <span data-ttu-id="b283c-340">สถานีฮาร์ดแวร์ของ IPC</span><span class="sxs-lookup"><span data-stu-id="b283c-340">IPC hardware station</span></span> | <span data-ttu-id="b283c-341">สถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="b283c-341">IIS hardware station</span></span> |
-|-------------|----------------------|----------------------|
-| <span data-ttu-id="b283c-342">แอพของ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-342">Windows app</span></span> | <span data-ttu-id="b283c-343">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-343">Yes</span></span>                  | <span data-ttu-id="b283c-344">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-344">Yes</span></span>                  |
-| <span data-ttu-id="b283c-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b283c-345">Cloud POS</span></span>   | <span data-ttu-id="b283c-346">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-346">No</span></span>                   | <span data-ttu-id="b283c-347">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-347">Yes</span></span>                  |
-| <span data-ttu-id="b283c-348">Android</span><span class="sxs-lookup"><span data-stu-id="b283c-348">Android</span></span>     | <span data-ttu-id="b283c-349">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-349">No</span></span>                   | <span data-ttu-id="b283c-350">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-350">Yes</span></span>                  |
-| <span data-ttu-id="b283c-351">iOS</span><span class="sxs-lookup"><span data-stu-id="b283c-351">iOS</span></span>         | <span data-ttu-id="b283c-352">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-352">No</span></span>                   | <span data-ttu-id="b283c-353">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-353">Yes</span></span>                  |
-
-### <a name="network-peripherals"></a><span data-ttu-id="b283c-354">อุปกรณ์ต่อพ่วงของเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-354">Network peripherals</span></span>
-
-<span data-ttu-id="b283c-355">สามารถสนับสนุนอุปกรณ์ต่อพ่วงของเครือข่ายได้โดยตรงโดยใช้สถานีฮาร์ดแวร์ที่มีอยู่ในแอพลิเคชัน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="b283c-356">สำหรับไคลเอนต์อื่น ๆ ทั้งหมด คุณต้องปรับใช้สถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="b283c-356">For all other clients, you must deploy an IIS hardware station.</span></span>
-
-| <span data-ttu-id="b283c-357">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-357">Client</span></span>      | <span data-ttu-id="b283c-358">สถานีฮาร์ดแวร์ของ IPC</span><span class="sxs-lookup"><span data-stu-id="b283c-358">IPC hardware station</span></span> | <span data-ttu-id="b283c-359">สถานีฮาร์ดแวร์ของ IIS</span><span class="sxs-lookup"><span data-stu-id="b283c-359">IIS hardware station</span></span> |
-|-------------|----------------------|----------------------|
-| <span data-ttu-id="b283c-360">แอพของ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-360">Windows app</span></span> | <span data-ttu-id="b283c-361">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-361">Yes</span></span>                  | <span data-ttu-id="b283c-362">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-362">Yes</span></span>                  |
-| <span data-ttu-id="b283c-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b283c-363">Cloud POS</span></span>   | <span data-ttu-id="b283c-364">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-364">No</span></span>                   | <span data-ttu-id="b283c-365">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-365">Yes</span></span>                  |
-| <span data-ttu-id="b283c-366">Android</span><span class="sxs-lookup"><span data-stu-id="b283c-366">Android</span></span>     | <span data-ttu-id="b283c-367">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-367">No</span></span>                   | <span data-ttu-id="b283c-368">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-368">Yes</span></span>                  |
-| <span data-ttu-id="b283c-369">iOS</span><span class="sxs-lookup"><span data-stu-id="b283c-369">iOS</span></span>         | <span data-ttu-id="b283c-370">ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-370">No</span></span>                   | <span data-ttu-id="b283c-371">ใช่</span><span class="sxs-lookup"><span data-stu-id="b283c-371">Yes</span></span>                  |
-
-## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="b283c-372">ชนิดของอุปกรณ์ที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-372">Supported device types by hardware station type</span></span>
-
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="b283c-373">Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="b283c-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="b283c-374">คลาสของอุปกรณ์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-374">Supported device class</span></span></th>
-<th><span data-ttu-id="b283c-375">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-375">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="b283c-376">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-376">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-377">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-378">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-378">Windows driver</span></span></li>
-<li><span data-ttu-id="b283c-379">อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-379">Device</span></span></li>
-<li><span data-ttu-id="b283c-380">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-380">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-381">เครื่องพิมพ์ 2</span><span class="sxs-lookup"><span data-stu-id="b283c-381">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-382">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-383">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-383">Windows driver</span></span></li>
-<li><span data-ttu-id="b283c-384">อุปกรณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-384">Device</span></span></li>
-<li><span data-ttu-id="b283c-385">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-385">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-386">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-386">Line display</span></span></td>
-<td><span data-ttu-id="b283c-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-387">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-388">จอแสดงผลแบบคู่</span><span class="sxs-lookup"><span data-stu-id="b283c-388">Dual display</span></span></td>
-<td><span data-ttu-id="b283c-389">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-389">Windows driver</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-390">MSR</span><span class="sxs-lookup"><span data-stu-id="b283c-390">MSR</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-391">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-392">UWP (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="b283c-392">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="b283c-393">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="b283c-393">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-394">ผู้ออกตั๋วเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-394">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-395">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-396">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-396">Network</span></span>
-<blockquote><span data-ttu-id="b283c-397">หมายเหตุ: สามารถตั้งค่าได้เพียงลิ้นชักเดียว ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="b283c-397">NOTE: Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-398">ลิ้นชัก 2</span><span class="sxs-lookup"><span data-stu-id="b283c-398">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-399">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-399">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-400">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-400">Network</span></span>
-<blockquote><span data-ttu-id="b283c-401">หมายเหตุ: สามารถตั้งค่าได้เพียงลิ้นชักเดียว ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="b283c-401">NOTE: Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-402">สแกนเนอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-402">Scanner</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-403">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-403">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-404">UWP (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="b283c-404">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="b283c-405">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="b283c-405">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-406">สแกนเนอร์ 2</span><span class="sxs-lookup"><span data-stu-id="b283c-406">Scanner 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-407">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-407">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-408">UWP (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="b283c-408">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="b283c-409">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</span><span class="sxs-lookup"><span data-stu-id="b283c-409">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-410">สเกล</span><span class="sxs-lookup"><span data-stu-id="b283c-410">Scale</span></span></td>
-<td><span data-ttu-id="b283c-411">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-411">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-412">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="b283c-412">PIN pad</span></span></td>
-<td><span data-ttu-id="b283c-413">OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="b283c-413">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-414">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="b283c-414">Signature capture</span></span></td>
-<td><span data-ttu-id="b283c-415">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-415">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-416">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-416">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-417">การสนับสนุนอุปกรณ์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-417">Custom device support</span></span></li>
-<li><span data-ttu-id="b283c-418">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="b283c-418">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="b283c-419">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="b283c-419">All Modern POS clients that have a dedicated IIS hardware station</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-420">เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "เฉพาะเจาะจง" จะมีความสัมพันธ์แบบหนึ่งต่อหนึ่งระหว่างไคลเอนต์ POS และสถานีฮาร์ดแวร์นี้</span><span class="sxs-lookup"><span data-stu-id="b283c-420">When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="b283c-421">คลาสของอุปกรณ์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-421">Supported device class</span></span></th>
-<th><span data-ttu-id="b283c-422">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-422">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="b283c-423">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-423">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-424">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-424">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-425">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-425">Windows driver</span></span>
-<blockquote><span data-ttu-id="b283c-426">หมายเหตุ: สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้ของสถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-426">NOTE: For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></blockquote>
-</li>
-<li><span data-ttu-id="b283c-427">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-427">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-428">เครื่องพิมพ์ 2</span><span class="sxs-lookup"><span data-stu-id="b283c-428">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-429">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-429">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-430">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-430">Windows driver</span></span></li>
-<li><span data-ttu-id="b283c-431">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-431">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-432">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-432">Line display</span></span></td>
-<td><span data-ttu-id="b283c-433">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-433">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-434">MSR</span><span class="sxs-lookup"><span data-stu-id="b283c-434">MSR</span></span></td>
-<td><span data-ttu-id="b283c-435">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-435">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-436">ผู้ออกตั๋วเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-436">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-437">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-438">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-438">Network</span></span>
-<blockquote><span data-ttu-id="b283c-439">หมายเหตุ: สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับแต่ละโพร์ไฟล์ฮาร์ดแวร์ ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="b283c-439">NOTE: Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-440">ลิ้นชัก 2</span><span class="sxs-lookup"><span data-stu-id="b283c-440">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-441">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-441">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-442">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-442">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-443">สแกนเนอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-443">Scanner</span></span></td>
-<td><span data-ttu-id="b283c-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-444">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-445">สแกนเนอร์ 2</span><span class="sxs-lookup"><span data-stu-id="b283c-445">Scanner 2</span></span></td>
-<td><span data-ttu-id="b283c-446">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-446">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-447">สเกล</span><span class="sxs-lookup"><span data-stu-id="b283c-447">Scale</span></span></td>
-<td><span data-ttu-id="b283c-448">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-448">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-449">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="b283c-449">PIN pad</span></span></td>
-<td><span data-ttu-id="b283c-450">OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="b283c-450">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-451">Sig</span><span class="sxs-lookup"><span data-stu-id="b283c-451">Sig.</span></span> <span data-ttu-id="b283c-452">เก็บบันทึก</span><span class="sxs-lookup"><span data-stu-id="b283c-452">capture</span></span></td>
-<td><span data-ttu-id="b283c-453">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-453">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-454">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-454">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-455">การสนับสนุนอุปกรณ์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-455">Custom device support</span></span></li>
-<li><span data-ttu-id="b283c-456">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="b283c-456">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="b283c-457">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-457">All Modern POS clients that have a shared IIS hardware station</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-458">เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "ใช้ร่วมกัน" อุปกรณ์หลายรายการสามารถใช้สถานีฮาร์ดแวร์พร้อมกันได้</span><span class="sxs-lookup"><span data-stu-id="b283c-458">When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="b283c-459">สำหรับสถานการณ์จำลองนี้ คุณควรใช้เฉพาะอุปกรณ์ที่ระบุอยู่ในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="b283c-459">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="b283c-460">ถ้าคุณพยายามที่จะใช้อุปกรณ์ที่ไม่ได้แสดงรายการไว้ที่นี่ เช่นสแกนเนอร์บาร์โค้ดและ MSR ร่วมกัน ข้อผิดพลาดจะเกิดขึ้นเมื่ออุปกรณ์หลายรายการพยายามที่จะอ้างสิทธิ์ของอุปกรณ์ต่อพ่วงเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-460">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="b283c-461">ในอนาคต จะมีการป้องกันการตั้งค่าคอนฟิกดังกล่าวอย่างชัดเจน</span><span class="sxs-lookup"><span data-stu-id="b283c-461">In the future, such a configuration will be explicitly prevented.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="b283c-462">คลาสของอุปกรณ์ที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-462">Supported device class</span></span></th>
-<th><span data-ttu-id="b283c-463">อินเทอร์เฟสที่สนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-463">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="b283c-464">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-464">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-465">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-466">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-466">Windows driver</span></span>
-<blockquote><span data-ttu-id="b283c-467">หมายเหตุ: สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้ของสถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-467">NOTE: For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></blockquote>
-</li>
-<li><span data-ttu-id="b283c-468">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-468">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-469">เครื่องพิมพ์ 2</span><span class="sxs-lookup"><span data-stu-id="b283c-469">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-470">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-470">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-471">โปรแกรมควบคุม Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-471">Windows driver</span></span></li>
-<li><span data-ttu-id="b283c-472">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-472">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-473">ผู้ออกตั๋วเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-473">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-474">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-474">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-475">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-475">Network</span></span>
-<blockquote><span data-ttu-id="b283c-476">หมายเหตุ: สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับแต่ละโพร์ไฟล์ฮาร์ดแวร์ ถ้า <strong>ใช้กะที่ใช้ร่วมกัน</strong> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</span><span class="sxs-lookup"><span data-stu-id="b283c-476">NOTE: Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-477">ลิ้นชัก 2</span><span class="sxs-lookup"><span data-stu-id="b283c-477">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-478">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-478">OPOS</span></span></li>
-<li><span data-ttu-id="b283c-479">เครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-479">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="b283c-480">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-480">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="b283c-481">การสนับสนุนอุปกรณ์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-481">Custom device support</span></span></li>
-<li><span data-ttu-id="b283c-482">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="b283c-482">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="b283c-483">การตั้งค่าคอนฟิกสำหรับสถานการณ์จำลองที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="b283c-483">Configuration for supported scenarios</span></span>
-
-<span data-ttu-id="b283c-484">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างโพรไฟล์ฮาร์ดแวร์ ให้ดู [กำหนดและรักษาไคลเอนต์ช่องทาง รวมถึงเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์](define-maintain-channel-clients-registers-hw-stations.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-484">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-485">สำหรับ Microsoft Dynamics 365 for Retail รุ่น 1611 โพรไฟล์ของสถานีฮาร์ดแวร์จะไม่สามารถใช้ได้อีกต่อไป</span><span class="sxs-lookup"><span data-stu-id="b283c-485">For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="b283c-486">ในขณะนี้ แอตทริบิวต์ที่คุณตั้งค่าไว้ในโพรไฟล์สถานีฮาร์ดแวร์ก่อนหน้านี้จะเป็นส่วนหนึ่งของสถานีฮาร์ดแวร์เอง</span><span class="sxs-lookup"><span data-stu-id="b283c-486">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
-
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="b283c-487">Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="b283c-487">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
-
-<span data-ttu-id="b283c-488">การตั้งค่าคอนฟิกนี้เป็นการตั้งค่าคอนฟิกทั่วไปที่สุดสำหรับเครื่องบันทึกเงินสด POS ดั้งเดิมแบบถาวร</span><span class="sxs-lookup"><span data-stu-id="b283c-488">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="b283c-489">สำหรับสถานการณ์จำลองนี้ ข้อมูลโพรไฟล์ฮาร์ดแวร์จะถูกแม็ปโดยตรงไปยังเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-489">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="b283c-490">หมายเลขเทอร์มินัล EFT ควรถูกตั้งค่าในเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-490">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="b283c-491">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="b283c-491">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="b283c-492">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="b283c-492">Create a hardware profile where all the required peripherals are configured.</span></span>
-2. <span data-ttu-id="b283c-493">แม็ปโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสด POS</span><span class="sxs-lookup"><span data-stu-id="b283c-493">Map the hardware profile to the POS register.</span></span>
-3. <span data-ttu-id="b283c-494">สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-494">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="b283c-495">ไม่จำเป็นต้องมีคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="b283c-495">A description is optional.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="b283c-496">คุณไม่จำเป็นต้องตั้งค่าคุณสมบัติอื่นๆ บนสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-496">You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="b283c-497">ข้อมูลที่จำเป็นอื่นๆ ทั้งหมด เช่น โพรไฟล์ฮาร์ดแวร์ จะมาจากเครื่องบันทึกเงินสดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-497">All other required information, such as the hardware profile, will come from the register itself.</span></span>
-
-4. <span data-ttu-id="b283c-498">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="b283c-498">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-5. <span data-ttu-id="b283c-499">เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-499">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="b283c-500">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-500">Click **Run now** to sync changes to the POS.</span></span>
-6. <span data-ttu-id="b283c-501">เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-501">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="b283c-502">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-502">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="b283c-503">ติดตั้งและเปิดใช้งาน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-503">Install and activate Modern POS for Windows.</span></span>
-8. <span data-ttu-id="b283c-504">เริ่มการทำงานของ Modern POS สำหรับ Windows และเริ่มต้นการใช้อุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อ</span><span class="sxs-lookup"><span data-stu-id="b283c-504">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="b283c-505">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="b283c-505">All Modern POS clients that have a dedicated IIS hardware station</span></span>
-
-<span data-ttu-id="b283c-506">สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ที่ใช้โดยเครื่องบันทึกเงินสด POS หนึ่งโดยเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="b283c-506">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="b283c-507">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="b283c-507">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="b283c-508">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="b283c-508">Create a hardware profile where all the required peripherals are configured.</span></span>
-2. <span data-ttu-id="b283c-509">สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-509">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
-3. <span data-ttu-id="b283c-510">บนสถานีฮาร์ดแวร์เฉพาะเจาะจง ให้ตั้งค่าคุณสมบัติต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-510">On the dedicated hardware station, set the following properties:</span></span>
-
-    - <span data-ttu-id="b283c-511">**ชื่อโฮสต์** – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน</span><span class="sxs-lookup"><span data-stu-id="b283c-511">**Host name** – The name of the host computer where the hardware station will run.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="b283c-512">Cloud POS สามารถแก้ไข **localhost** เพื่อตรวจสอบเครื่องคอมพิวเตอร์เฉพาะที่ที่ซึ่ง Cloud POS ทำงานได้</span><span class="sxs-lookup"><span data-stu-id="b283c-512">Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="b283c-513">อย่างไรก็ตาม ใบรับรองที่จำเป็นในการซ่อมแซม Cloud POS กับสถานีฮาร์ดแวร์จะต้องมี "Localhost" เป็นชื่อคอมพิวเตอร์</span><span class="sxs-lookup"><span data-stu-id="b283c-513">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="b283c-514">เมื่อต้องการหลีกเลี่ยงปัญหา เราขอแนะนำให้คุณทำรายการอินสแตนซ์ของแต่ละสถานีฮาร์ดแวร์เฉพาะเจาะจงไว้สำหรับร้านค้าตามความจำเป็น</span><span class="sxs-lookup"><span data-stu-id="b283c-514">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="b283c-515">สำหรับแต่ละสถานีฮาร์ดแวร์ ชื่อโฮสต์ควรเป็นชื่อคอมพิวเตอร์ที่เฉพาะเจาะจงที่จะมีการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-515">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
-
-    - <span data-ttu-id="b283c-516">**พอร์ต** – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS</span><span class="sxs-lookup"><span data-stu-id="b283c-516">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
-    - <span data-ttu-id="b283c-517">**โพรไฟล์ฮาร์ดแวร์** – ถ้าโพรไฟล์ฮาร์ดแวร์ที่ไม่ได้มีให้ไว้บนสถานีฮาร์ดแวร์เอง จะใช้โพรไฟล์ฮาร์ดแวร์ที่กำหนดให้กับเครื่องบันทึกเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-517">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
-    - <span data-ttu-id="b283c-518">**หมายเลข EFT POS** – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT</span><span class="sxs-lookup"><span data-stu-id="b283c-518">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="b283c-519">รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="b283c-519">This ID is provided by the credit card processor.</span></span>
-    - <span data-ttu-id="b283c-520">**ชื่อบรรจุภัณฑ์** – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-520">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
-
-4. <span data-ttu-id="b283c-521">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="b283c-521">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-5. <span data-ttu-id="b283c-522">เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-522">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="b283c-523">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-523">Click **Run now** to sync changes to the POS.</span></span>
-6. <span data-ttu-id="b283c-524">เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-524">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="b283c-525">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-525">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="b283c-526">ติดตั้งสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-526">Install the hardware station.</span></span> <span data-ttu-id="b283c-527">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-527">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-8. <span data-ttu-id="b283c-528">ติดตั้งและเปิดใช้งาน Modern POS</span><span class="sxs-lookup"><span data-stu-id="b283c-528">Install and activate Modern POS.</span></span> <span data-ttu-id="b283c-529">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-529">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-9. <span data-ttu-id="b283c-530">ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก **ดำเนินงานโดยไม่มีลิ้นชัก**</span><span class="sxs-lookup"><span data-stu-id="b283c-530">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
-10. <span data-ttu-id="b283c-531">เริ่มการดำเนินงาน **จัดการสถานีฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="b283c-531">Start the **Manage hardware stations** operation.</span></span>
-11. <span data-ttu-id="b283c-532">คลิก **จัดการ**</span><span class="sxs-lookup"><span data-stu-id="b283c-532">Click **Manage**.</span></span>
-12. <span data-ttu-id="b283c-533">บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-533">On the hardware station management page, set the option to turn on the hardware station.</span></span>
-13. <span data-ttu-id="b283c-534">เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก **คู่**</span><span class="sxs-lookup"><span data-stu-id="b283c-534">Select the hardware station to use, and then click **Pair**.</span></span>
-14. <span data-ttu-id="b283c-535">หลังจากที่จับคู่สถานีฮาร์ดแวร์แล้ว คลิก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="b283c-535">After the hardware station is paired, click **Close**.</span></span>
-15. <span data-ttu-id="b283c-536">บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="b283c-536">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
-
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="b283c-537">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-537">All Modern POS clients that have a shared IIS hardware station</span></span>
-
-<span data-ttu-id="b283c-538">สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่ใช้สถานีฮาร์ดแวร์ร่วมกันกับอุปกรณ์อื่น</span><span class="sxs-lookup"><span data-stu-id="b283c-538">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="b283c-539">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="b283c-539">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="b283c-540">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็น</span><span class="sxs-lookup"><span data-stu-id="b283c-540">Create a hardware profile where the required peripherals are configured.</span></span>
-2. <span data-ttu-id="b283c-541">สร้างสถานีฮาร์ดแวร์ของชนิด **ที่ใช้ร่วมกัน** สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</span><span class="sxs-lookup"><span data-stu-id="b283c-541">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
-3. <span data-ttu-id="b283c-542">บนสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ให้ตั้งค่าคุณสมบัติต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-542">On the shared hardware station, set the following properties:</span></span>
-
-    - <span data-ttu-id="b283c-543">**ชื่อโฮสต์** – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน</span><span class="sxs-lookup"><span data-stu-id="b283c-543">**Host name** – The name of the host computer where the hardware station will run.</span></span>
-    - <span data-ttu-id="b283c-544">**คำอธิบาย** – ข้อความที่จะช่วยระบุสถานีฮาร์ดแวร์ เช่น **การส่งคืนสินค้า** หรือ **หน้าร้านค้า**</span><span class="sxs-lookup"><span data-stu-id="b283c-544">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
-    - <span data-ttu-id="b283c-545">**พอร์ต** – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS</span><span class="sxs-lookup"><span data-stu-id="b283c-545">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
-    - <span data-ttu-id="b283c-546">**โพรไฟล์ฮาร์ดแวร์** – สำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน แต่ละสถานีฮาร์ดแวร์ควรมีโพรไฟล์ฮาร์ดแวร์หนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-546">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="b283c-547">สามารถใช้โพรไฟล์ฮาร์ดแวร์ร่วมกันระหว่างสถานีฮาร์ดแวร์ต่าง ๆ แต่จะต้องมีการแม็ปสถานีฮาร์ดแวร์แต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-547">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="b283c-548">นอกจากนั้น เราขอแนะนำให้คุณใช้กะที่ใช้ร่วมกันเมื่ออุปกรณ์หลายรายการใช้สถานีฮาร์ดแวร์ที่ใช้ร่วมกันเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-548">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="b283c-549">เมื่อต้องการตั้งค่ากะที่ใช้ร่วมกัน คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **โพรไฟล์ POS** &gt; **โพรไฟล์ฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="b283c-549">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="b283c-550">สำหรับแต่ละโพรไฟล์ของฮาร์ดแวร์ที่ใช้ร่วมกัน เลือกลิ้นชักเงินสด และตั้งค่าตัวเลือก **ลิ้นชักของกะที่ใช้ร่วมกัน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="b283c-550">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
-    - <span data-ttu-id="b283c-551">**หมายเลข EFT POS** – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT</span><span class="sxs-lookup"><span data-stu-id="b283c-551">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="b283c-552">รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="b283c-552">This ID is provided by the credit card processor.</span></span>
-    - <span data-ttu-id="b283c-553">**ชื่อบรรจุภัณฑ์** – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-553">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
-
-4. <span data-ttu-id="b283c-554">ทำซ้ำขั้นตอนที่ 2 และ 3 สำหรับสถานีฮาร์ดแวร์เพิ่มเติมแต่ละรายการที่ต้องใช้ในร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-554">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
-5. <span data-ttu-id="b283c-555">คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**</span><span class="sxs-lookup"><span data-stu-id="b283c-555">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-6. <span data-ttu-id="b283c-556">เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-556">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="b283c-557">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-557">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="b283c-558">เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</span><span class="sxs-lookup"><span data-stu-id="b283c-558">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="b283c-559">คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</span><span class="sxs-lookup"><span data-stu-id="b283c-559">Click **Run now** to sync changes to the POS.</span></span>
-8. <span data-ttu-id="b283c-560">ติดตั้งสถานีฮาร์ดแวร์บนคอมพิวเตอร์โฮสต์แต่ละเครื่องที่คุณตั้งค่าไว้ในขั้นตอนที่ 2 และ 3</span><span class="sxs-lookup"><span data-stu-id="b283c-560">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="b283c-561">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู [การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก](retail-hardware-station-configuration-installation.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-561">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-9. <span data-ttu-id="b283c-562">ติดตั้งและเปิดใช้งาน Modern POS</span><span class="sxs-lookup"><span data-stu-id="b283c-562">Install and activate Modern POS.</span></span> <span data-ttu-id="b283c-563">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู [การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-563">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-10. <span data-ttu-id="b283c-564">ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก **ดำเนินงานโดยไม่มีลิ้นชัก**</span><span class="sxs-lookup"><span data-stu-id="b283c-564">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
-11. <span data-ttu-id="b283c-565">เริ่มการดำเนินงาน **จัดการสถานีฮาร์ดแวร์**</span><span class="sxs-lookup"><span data-stu-id="b283c-565">Start the **Manage hardware stations** operation.</span></span>
-12. <span data-ttu-id="b283c-566">คลิก **จัดการ**</span><span class="sxs-lookup"><span data-stu-id="b283c-566">Click **Manage**.</span></span>
-13. <span data-ttu-id="b283c-567">บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-567">On the hardware station management page, set the option to turn on the hardware station.</span></span>
-14. <span data-ttu-id="b283c-568">เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก **คู่**</span><span class="sxs-lookup"><span data-stu-id="b283c-568">Select the hardware station to use, and then click **Pair**.</span></span>
-15. <span data-ttu-id="b283c-569">ทำซ้ำขั้นตอนที่ 14 สำหรับสถานีฮาร์ดแวร์แต่ละเครื่องที่ Modern POS จะใช้</span><span class="sxs-lookup"><span data-stu-id="b283c-569">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
-16. <span data-ttu-id="b283c-570">หลังจากที่มีการจับคู่สถานีฮาร์ดแวร์ที่จำเป็นทั้งหมดแล้ว คลิก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="b283c-570">After all the required hardware stations are paired, click **Close**.</span></span>
-17. <span data-ttu-id="b283c-571">บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="b283c-571">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="b283c-572">ถ้าอุปกรณ์มักจะใช้สถานีฮาร์ดแวร์ที่แตกต่างกัน เราขอแนะนำให้คุณตั้งค่าคอนฟิก Modern POS เพื่อพร้อมท์ให้พนักงานเก็บเงินเลือกสถานีฮาร์ดแวร์ เมื่อพวกเขาเริ่มต้นกระบวนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-572">If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="b283c-573">คลิก **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **การลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="b283c-573">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="b283c-574">เลือกเครื่องบันทึกเงินสด และจากนั้น ตั้งค่าตัวเลือก **เลือกเมื่อมีการชำระเงิน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="b283c-574">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="b283c-575">ใช้กำหนดการกระจาย **1090** เพื่อซิงค์การเปลี่ยนแปลงไปยังฐานข้อมูลช่องทาง</span><span class="sxs-lookup"><span data-stu-id="b283c-575">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
-
-## <a name="extensibility"></a><span data-ttu-id="b283c-576">เพิ่มความสามารถ</span><span class="sxs-lookup"><span data-stu-id="b283c-576">Extensibility</span></span>
-
-<span data-ttu-id="b283c-577">สำหรับข้อมูลเกี่ยวกับสถานการณ์จำลองของความสามารถในการขยายสำหรับสถานีฮาร์ดแวร์ ให้ดู [ความสามารถในการขยายของสถานีฮาร์ดแวร์](dev-itpro/hardware-station-extensibility.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-577">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
-
-## <a name="security"></a><span data-ttu-id="b283c-578">ความปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="b283c-578">Security</span></span>
-
-<span data-ttu-id="b283c-579">ตามมาตรฐานด้านความปลอดภัยปัจจุบัน การตั้งค่าต่อไปนี้ควรจะใช้ในสภาพแวดล้อมการผลิต:</span><span class="sxs-lookup"><span data-stu-id="b283c-579">According to current security standards, the following settings should be used in a production environment:</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-580">โปรแกรมติดตั้งสถานีฮาร์ดแวร์จะทำการแก้ไขรีจิสทรีเหล่านี้เป็นส่วนหนึ่งของการติดตั้งผ่านระบบบริการตนเองโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="b283c-580">The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
-
-- <span data-ttu-id="b283c-581">ควรปิดใช้งาน Secure Sockets Layer (SSL)</span><span class="sxs-lookup"><span data-stu-id="b283c-581">Secure Sockets Layer (SSL) should be disabled.</span></span>
-- <span data-ttu-id="b283c-582">ควรเปิดใช้งานและใช้เฉพาะ Transport Layer Security (TLS) รุ่น 1.2 (หรือรุ่นสูงสุดปัจจุบัน)</span><span class="sxs-lookup"><span data-stu-id="b283c-582">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="b283c-583">โดยค่าเริ่มต้น SSL และ TLS ทุกรุ่น ยกเว้น TLS 1.2 จะถูกปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="b283c-583">By default, SSL and all versions of TLS except TLS 1.2 are disabled.</span></span>
-
-    <span data-ttu-id="b283c-584">เมื่อต้องการแก้ไขหรือเปิดใช้งานค่าเหล่านี้ ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-584">To edit or enable these values, follow these steps:</span></span>
-
-    1. <span data-ttu-id="b283c-585">กดคีย์ โลโก้ Windows + R เพื่อเปิดหน้าต่าง **รัน**</span><span class="sxs-lookup"><span data-stu-id="b283c-585">Press the Windows logo key+R to open a **Run** window.</span></span>
-    2. <span data-ttu-id="b283c-586">ในฟิลด์ **เปิด** พิมพ์ **Regedit** และจากนั้น คลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="b283c-586">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
-    3. <span data-ttu-id="b283c-587">ถ้ากล่องข้อความ **การควบคุมบัญชีผู้ใช้** ปรากฏขึ้น คลิก **ใช่**</span><span class="sxs-lookup"><span data-stu-id="b283c-587">If a **User Account Control** message box appears, click **Yes**.</span></span>
-    4. <span data-ttu-id="b283c-588">ในหน้าต่าง **ตัวแก้ไขรีจิสทรี** นำทางไปยัง **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**</span><span class="sxs-lookup"><span data-stu-id="b283c-588">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="b283c-589">คีย์ต่อไปนี้ได้ถูกป้อนโดยอัตโนมัติเพื่ออนุญาตสำหรับ TLS 1.2 เท่านั้น:</span><span class="sxs-lookup"><span data-stu-id="b283c-589">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
-
-        - <span data-ttu-id="b283c-590">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="b283c-590">TLS 1.2Server:Enabled=1</span></span>
-        - <span data-ttu-id="b283c-591">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="b283c-591">TLS 1.2Server:DisabledByDefault=0</span></span>
-        - <span data-ttu-id="b283c-592">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="b283c-592">TLS 1.2Client:Enabled=1</span></span>
-        - <span data-ttu-id="b283c-593">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="b283c-593">TLS 1.2Client:DisabledByDefault=0</span></span>
-        - <span data-ttu-id="b283c-594">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-594">TLS 1.1Server:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-595">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-595">TLS 1.1Client:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-596">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-596">TLS 1.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-597">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-597">TLS 1.0Client:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-598">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-598">SSL 3.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-599">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-599">SSL 3.0Client:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-600">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-600">SSL 2.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="b283c-601">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b283c-601">SSL 2.0Client:Enabled=0</span></span>
-
-- <span data-ttu-id="b283c-602">ไม่มีพอร์ตเครือข่ายเพิ่มเติมใดที่ควรเปิดอยู่ เว้นแต่ว่ามีความจำเป็นเนื่องด้วยเหตุผลที่เฉพาะเจาะจงที่รับทราบ</span><span class="sxs-lookup"><span data-stu-id="b283c-602">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
-- <span data-ttu-id="b283c-603">ต้องปิดใช้งานการใช้ทรัพยากรข้ามจุดเริ่มต้นร่วมกัน และต้องระบุจุดเริ่มต้นที่อนุญาตที่ได้รับการยอมรับ</span><span class="sxs-lookup"><span data-stu-id="b283c-603">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
-- <span data-ttu-id="b283c-604">ควรใช้เฉพาะหน่วยงานที่ออกใบรับรองที่เชื่อถือได้เท่านั้นในการขอรับใบรับรองที่จะใช้บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-604">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-605">คุณจำเป็นอย่างยิ่งที่จะต้องตรวจสอบคำแนะนำด้านความปลอดภัยสำหรับ IIS และข้อกำหนดของอุตสาหกรรมบัตรชำระเงิน (PCI)</span><span class="sxs-lookup"><span data-stu-id="b283c-605">It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
-
-## <a name="peripheral-simulator"></a><span data-ttu-id="b283c-606">โปรแกรมจำลองอุปกรณ์ต่อพ่วง</span><span class="sxs-lookup"><span data-stu-id="b283c-606">Peripheral simulator</span></span>
-
-<span data-ttu-id="b283c-607">สำหรับข้อมูล ให้ดู [โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก](dev-itpro/retail-peripheral-simulator.md)</span><span class="sxs-lookup"><span data-stu-id="b283c-607">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
-
-## <a name="microsoft-tested-peripheral-devices"></a><span data-ttu-id="b283c-608">อุปกรณ์ต่อพ่วงที่ทดสอบโดย Microsoft</span><span class="sxs-lookup"><span data-stu-id="b283c-608">Microsoft-tested peripheral devices</span></span>
-
-### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="b283c-609">สถานีฮาร์ดแวร์ IPC (ในตัว)</span><span class="sxs-lookup"><span data-stu-id="b283c-609">IPC (built-in) hardware station</span></span>
-
-<span data-ttu-id="b283c-610">อุปกรณ์ต่อพ่วงต่อไปนี้ได้รับการทดสอบโดยใช้สถานีฮาร์ดแวร์ของ IPC ที่มีอยู่ใน Modern POS สำหรับ Windows</span><span class="sxs-lookup"><span data-stu-id="b283c-610">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="b283c-611">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-611">Printer</span></span>
-
-| <span data-ttu-id="b283c-612">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-612">Manufacturer</span></span> | <span data-ttu-id="b283c-613">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-613">Model</span></span>    | <span data-ttu-id="b283c-614">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-614">Interface</span></span> | <span data-ttu-id="b283c-615">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-615">Comments</span></span>                |
-|--------------|----------|-----------|-------------------------|
-| <span data-ttu-id="b283c-616">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-616">Epson</span></span>        | <span data-ttu-id="b283c-617">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="b283c-617">Tm-T88IV</span></span> | <span data-ttu-id="b283c-618">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-618">OPOS</span></span>      |                         |
-| <span data-ttu-id="b283c-619">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-619">Epson</span></span>        | <span data-ttu-id="b283c-620">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="b283c-620">TM-T88V</span></span>  | <span data-ttu-id="b283c-621">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-621">OPOS</span></span>      |                         |
-| <span data-ttu-id="b283c-622">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-622">Star</span></span>         | <span data-ttu-id="b283c-623">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b283c-623">TSP650II</span></span> | <span data-ttu-id="b283c-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-624">OPOS</span></span>      |                         |
-| <span data-ttu-id="b283c-625">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-625">Star</span></span>         | <span data-ttu-id="b283c-626">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b283c-626">TSP650II</span></span> | <span data-ttu-id="b283c-627">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-627">Custom</span></span>    | <span data-ttu-id="b283c-628">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-628">Connected via network</span></span>   |
-| <span data-ttu-id="b283c-629">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-629">Star</span></span>         | <span data-ttu-id="b283c-630">mPOP</span><span class="sxs-lookup"><span data-stu-id="b283c-630">mPOP</span></span>     | <span data-ttu-id="b283c-631">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-631">OPOS</span></span>      | <span data-ttu-id="b283c-632">เชื่อมต่อผ่านบลูทูธ</span><span class="sxs-lookup"><span data-stu-id="b283c-632">Connected via Bluetooth</span></span> |
-| <span data-ttu-id="b283c-633">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-633">HP</span></span>           | <span data-ttu-id="b283c-634">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="b283c-634">F7M67AA</span></span>  | <span data-ttu-id="b283c-635">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-635">OPOS</span></span>      | <span data-ttu-id="b283c-636">USB ที่มีการจัดการ</span><span class="sxs-lookup"><span data-stu-id="b283c-636">Powered USB</span></span>             |
-
-#### <a name="bar-code-scanner"></a><span data-ttu-id="b283c-637">สแกนเนอร์บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="b283c-637">Bar code scanner</span></span>
-
-| <span data-ttu-id="b283c-638">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-638">Manufacturer</span></span>  | <span data-ttu-id="b283c-639">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-639">Model</span></span>         | <span data-ttu-id="b283c-640">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-640">Interface</span></span> | <span data-ttu-id="b283c-641">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-641">Comments</span></span> |
-|---------------|---------------|-----------|----------|
-| <span data-ttu-id="b283c-642">Motorola</span><span class="sxs-lookup"><span data-stu-id="b283c-642">Motorola</span></span>      | <span data-ttu-id="b283c-643">DS9208</span><span class="sxs-lookup"><span data-stu-id="b283c-643">DS9208</span></span>        | <span data-ttu-id="b283c-644">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-644">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-645">Honeywell</span><span class="sxs-lookup"><span data-stu-id="b283c-645">Honeywell</span></span>     | <span data-ttu-id="b283c-646">1900</span><span class="sxs-lookup"><span data-stu-id="b283c-646">1900</span></span>          | <span data-ttu-id="b283c-647">UWP</span><span class="sxs-lookup"><span data-stu-id="b283c-647">UWP</span></span>       |          |
-| <span data-ttu-id="b283c-648">สัญลักษณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-648">Symbol</span></span>        | <span data-ttu-id="b283c-649">LS2208</span><span class="sxs-lookup"><span data-stu-id="b283c-649">LS2208</span></span>        | <span data-ttu-id="b283c-650">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-650">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-651">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="b283c-651">HP Integrated</span></span> | <span data-ttu-id="b283c-652">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="b283c-652">E1L07AA</span></span>       | <span data-ttu-id="b283c-653">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-653">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-654">Datalogic</span><span class="sxs-lookup"><span data-stu-id="b283c-654">Datalogic</span></span>     | <span data-ttu-id="b283c-655">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="b283c-655">Magellan 8400</span></span> | <span data-ttu-id="b283c-656">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-656">OPOS</span></span>      |          |
-
-#### <a name="pin-pad"></a><span data-ttu-id="b283c-657">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="b283c-657">PIN pad</span></span>
-
-| <span data-ttu-id="b283c-658">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-658">Manufacturer</span></span> | <span data-ttu-id="b283c-659">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-659">Model</span></span>  | <span data-ttu-id="b283c-660">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-660">Interface</span></span> | <span data-ttu-id="b283c-661">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-661">Comments</span></span>                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| <span data-ttu-id="b283c-662">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-662">VeriFone</span></span>     | <span data-ttu-id="b283c-663">1000SE</span><span class="sxs-lookup"><span data-stu-id="b283c-663">1000SE</span></span> | <span data-ttu-id="b283c-664">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-664">OPOS</span></span>      | <span data-ttu-id="b283c-665">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-665">Requires customization of the payment connector</span></span> |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="b283c-666">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-666">Payment terminal</span></span>
-
-| <span data-ttu-id="b283c-667">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-667">Manufacturer</span></span> | <span data-ttu-id="b283c-668">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-668">Model</span></span> | <span data-ttu-id="b283c-669">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-669">Interface</span></span> | <span data-ttu-id="b283c-670">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-670">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="b283c-671">Equinox</span><span class="sxs-lookup"><span data-stu-id="b283c-671">Equinox</span></span>      | <span data-ttu-id="b283c-672">L5300</span><span class="sxs-lookup"><span data-stu-id="b283c-672">L5300</span></span> | <span data-ttu-id="b283c-673">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-673">Custom</span></span>    | <span data-ttu-id="b283c-674">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-674">Requires customization of the payment connector</span></span>                                |
-| <span data-ttu-id="b283c-675">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-675">VeriFone</span></span>     | <span data-ttu-id="b283c-676">MX925</span><span class="sxs-lookup"><span data-stu-id="b283c-676">MX925</span></span> | <span data-ttu-id="b283c-677">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-677">Custom</span></span>    | <span data-ttu-id="b283c-678">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="b283c-678">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="b283c-679">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-679">VeriFone</span></span>     | <span data-ttu-id="b283c-680">MX915</span><span class="sxs-lookup"><span data-stu-id="b283c-680">MX915</span></span> | <span data-ttu-id="b283c-681">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-681">Custom</span></span>    | <span data-ttu-id="b283c-682">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="b283c-682">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="b283c-683">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-683">Cash drawer</span></span>
-
-| <span data-ttu-id="b283c-684">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-684">Manufacturer</span></span> | <span data-ttu-id="b283c-685">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-685">Model</span></span>     | <span data-ttu-id="b283c-686">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-686">Interface</span></span> | <span data-ttu-id="b283c-687">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-687">Comments</span></span>                |
-|--------------|-----------|-----------|-------------------------|
-| <span data-ttu-id="b283c-688">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-688">Star</span></span>         | <span data-ttu-id="b283c-689">mPOP</span><span class="sxs-lookup"><span data-stu-id="b283c-689">mPOP</span></span>      | <span data-ttu-id="b283c-690">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-690">OPOS</span></span>      | <span data-ttu-id="b283c-691">เชื่อมต่อผ่านบลูทูธ</span><span class="sxs-lookup"><span data-stu-id="b283c-691">Connected via Bluetooth</span></span> |
-| <span data-ttu-id="b283c-692">APG</span><span class="sxs-lookup"><span data-stu-id="b283c-692">APG</span></span>          | <span data-ttu-id="b283c-693">Atwood</span><span class="sxs-lookup"><span data-stu-id="b283c-693">Atwood</span></span>    | <span data-ttu-id="b283c-694">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-694">Custom</span></span>    | <span data-ttu-id="b283c-695">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-695">Connected via network</span></span>   |
-| <span data-ttu-id="b283c-696">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-696">Star</span></span>         | <span data-ttu-id="b283c-697">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="b283c-697">SMD2-1317</span></span> | <span data-ttu-id="b283c-698">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-698">OPOS</span></span>      |                         |
-| <span data-ttu-id="b283c-699">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-699">HP</span></span>           | <span data-ttu-id="b283c-700">QT457AA</span><span class="sxs-lookup"><span data-stu-id="b283c-700">QT457AA</span></span>   | <span data-ttu-id="b283c-701">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-701">OPOS</span></span>      |                         |
-
-#### <a name="line-display"></a><span data-ttu-id="b283c-702">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-702">Line display</span></span>
-
-| <span data-ttu-id="b283c-703">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-703">Manufacturer</span></span>  | <span data-ttu-id="b283c-704">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-704">Model</span></span>   | <span data-ttu-id="b283c-705">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-705">Interface</span></span> | <span data-ttu-id="b283c-706">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-706">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="b283c-707">HP integrated</span><span class="sxs-lookup"><span data-stu-id="b283c-707">HP integrated</span></span> | <span data-ttu-id="b283c-708">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="b283c-708">G6U79AA</span></span> | <span data-ttu-id="b283c-709">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-709">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-710">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-710">Epson</span></span>         | <span data-ttu-id="b283c-711">M58DC</span><span class="sxs-lookup"><span data-stu-id="b283c-711">M58DC</span></span>   | <span data-ttu-id="b283c-712">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-712">OPOS</span></span>      |          |
-
-#### <a name="signature-capture"></a><span data-ttu-id="b283c-713">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="b283c-713">Signature capture</span></span>
-
-| <span data-ttu-id="b283c-714">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-714">Manufacturer</span></span> | <span data-ttu-id="b283c-715">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-715">Model</span></span>  | <span data-ttu-id="b283c-716">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-716">Interface</span></span> | <span data-ttu-id="b283c-717">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-717">Comments</span></span> |
-|--------------|--------|-----------|----------|
-| <span data-ttu-id="b283c-718">Scriptel</span><span class="sxs-lookup"><span data-stu-id="b283c-718">Scriptel</span></span>     | <span data-ttu-id="b283c-719">ST1550</span><span class="sxs-lookup"><span data-stu-id="b283c-719">ST1550</span></span> | <span data-ttu-id="b283c-720">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-720">OPOS</span></span>      |          |
-
-#### <a name="scale"></a><span data-ttu-id="b283c-721">สเกล</span><span class="sxs-lookup"><span data-stu-id="b283c-721">Scale</span></span>
-
-| <span data-ttu-id="b283c-722">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-722">Manufacturer</span></span> | <span data-ttu-id="b283c-723">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-723">Model</span></span>         | <span data-ttu-id="b283c-724">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-724">Interface</span></span> | <span data-ttu-id="b283c-725">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-725">Comments</span></span> |
-|--------------|---------------|-----------|----------|
-| <span data-ttu-id="b283c-726">Datalogic</span><span class="sxs-lookup"><span data-stu-id="b283c-726">Datalogic</span></span>    | <span data-ttu-id="b283c-727">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="b283c-727">Magellan 8400</span></span> | <span data-ttu-id="b283c-728">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-728">OPOS</span></span>      |          |
-
-#### <a name="msr"></a><span data-ttu-id="b283c-729">MSR</span><span class="sxs-lookup"><span data-stu-id="b283c-729">MSR</span></span>
-
-| <span data-ttu-id="b283c-730">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-730">Manufacturer</span></span> | <span data-ttu-id="b283c-731">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-731">Model</span></span>       | <span data-ttu-id="b283c-732">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-732">Interface</span></span> | <span data-ttu-id="b283c-733">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-733">Comments</span></span> |
-|--------------|-------------|-----------|----------|
-| <span data-ttu-id="b283c-734">Magtek</span><span class="sxs-lookup"><span data-stu-id="b283c-734">Magtek</span></span>       | <span data-ttu-id="b283c-735">21073075</span><span class="sxs-lookup"><span data-stu-id="b283c-735">21073075</span></span>    | <span data-ttu-id="b283c-736">UWP</span><span class="sxs-lookup"><span data-stu-id="b283c-736">UWP</span></span>       |          |
-| <span data-ttu-id="b283c-737">Magtek</span><span class="sxs-lookup"><span data-stu-id="b283c-737">Magtek</span></span>       | <span data-ttu-id="b283c-738">21073062</span><span class="sxs-lookup"><span data-stu-id="b283c-738">21073062</span></span>    | <span data-ttu-id="b283c-739">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-739">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-740">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-740">HP</span></span>           | <span data-ttu-id="b283c-741">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="b283c-741">IDRA-334133</span></span> | <span data-ttu-id="b283c-742">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-742">OPOS</span></span>      |          |
-
-### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="b283c-743">สถานีฮาร์ดแวร์ของ IIS เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="b283c-743">Dedicated IIS hardware station</span></span>
-
-<span data-ttu-id="b283c-744">อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS เฉพาะเจาะจง (ไม่ใช่ที่ใช้ร่วมกัน) กับ Modern POS สำหรับ Windows และ Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b283c-744">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="b283c-745">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-745">Printer</span></span>
-
-| <span data-ttu-id="b283c-746">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-746">Manufacturer</span></span> | <span data-ttu-id="b283c-747">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-747">Model</span></span>    | <span data-ttu-id="b283c-748">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-748">Interface</span></span> | <span data-ttu-id="b283c-749">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-749">Comments</span></span>                  |
-|--------------|----------|-----------|---------------------------|
-| <span data-ttu-id="b283c-750">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-750">Epson</span></span>        | <span data-ttu-id="b283c-751">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="b283c-751">Tm-T88IV</span></span> | <span data-ttu-id="b283c-752">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-752">OPOS</span></span>      |                           |
-| <span data-ttu-id="b283c-753">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-753">Epson</span></span>        | <span data-ttu-id="b283c-754">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="b283c-754">TM-T88V</span></span>  | <span data-ttu-id="b283c-755">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-755">OPOS</span></span>      |                           |
-| <span data-ttu-id="b283c-756">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-756">Star</span></span>         | <span data-ttu-id="b283c-757">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b283c-757">TSP650II</span></span> | <span data-ttu-id="b283c-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-758">OPOS</span></span>      |                           |
-| <span data-ttu-id="b283c-759">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-759">Star</span></span>         | <span data-ttu-id="b283c-760">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b283c-760">TSP650II</span></span> | <span data-ttu-id="b283c-761">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-761">Custom</span></span>    | <span data-ttu-id="b283c-762">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-762">Connected via network</span></span>     |
-| <span data-ttu-id="b283c-763">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-763">HP</span></span>           | <span data-ttu-id="b283c-764">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="b283c-764">F7M67AA</span></span>  | <span data-ttu-id="b283c-765">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-765">OPOS</span></span>      | <span data-ttu-id="b283c-766">USB ที่มีการจัดการ</span><span class="sxs-lookup"><span data-stu-id="b283c-766">Powered USB</span></span>               |
-
-#### <a name="bar-code-scanner"></a><span data-ttu-id="b283c-767">สแกนเนอร์บาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="b283c-767">Bar code scanner</span></span>
-
-| <span data-ttu-id="b283c-768">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-768">Manufacturer</span></span>  | <span data-ttu-id="b283c-769">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-769">Model</span></span>   | <span data-ttu-id="b283c-770">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-770">Interface</span></span> | <span data-ttu-id="b283c-771">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-771">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="b283c-772">Motorola</span><span class="sxs-lookup"><span data-stu-id="b283c-772">Motorola</span></span>      | <span data-ttu-id="b283c-773">DS9208</span><span class="sxs-lookup"><span data-stu-id="b283c-773">DS9208</span></span>  | <span data-ttu-id="b283c-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-774">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-775">สัญลักษณ์</span><span class="sxs-lookup"><span data-stu-id="b283c-775">Symbol</span></span>        | <span data-ttu-id="b283c-776">LS2208</span><span class="sxs-lookup"><span data-stu-id="b283c-776">LS2208</span></span>  | <span data-ttu-id="b283c-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-777">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-778">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="b283c-778">HP Integrated</span></span> | <span data-ttu-id="b283c-779">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="b283c-779">E1L07AA</span></span> | <span data-ttu-id="b283c-780">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-780">OPOS</span></span>      |          |
-
-#### <a name="pin-pad"></a><span data-ttu-id="b283c-781">แป้นกดรหัส</span><span class="sxs-lookup"><span data-stu-id="b283c-781">PIN pad</span></span>
-
-| <span data-ttu-id="b283c-782">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-782">Manufacturer</span></span> | <span data-ttu-id="b283c-783">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-783">Model</span></span>  | <span data-ttu-id="b283c-784">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-784">Interface</span></span> | <span data-ttu-id="b283c-785">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-785">Comments</span></span>                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| <span data-ttu-id="b283c-786">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-786">VeriFone</span></span>     | <span data-ttu-id="b283c-787">1000SE</span><span class="sxs-lookup"><span data-stu-id="b283c-787">1000SE</span></span> | <span data-ttu-id="b283c-788">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-788">OPOS</span></span>      | <span data-ttu-id="b283c-789">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-789">Requires customization of the payment connector</span></span> |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="b283c-790">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-790">Payment terminal</span></span>
-
-| <span data-ttu-id="b283c-791">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-791">Manufacturer</span></span> | <span data-ttu-id="b283c-792">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-792">Model</span></span> | <span data-ttu-id="b283c-793">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-793">Interface</span></span> | <span data-ttu-id="b283c-794">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-794">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="b283c-795">Equinox</span><span class="sxs-lookup"><span data-stu-id="b283c-795">Equinox</span></span>      | <span data-ttu-id="b283c-796">L5300</span><span class="sxs-lookup"><span data-stu-id="b283c-796">L5300</span></span> | <span data-ttu-id="b283c-797">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-797">Custom</span></span>    | <span data-ttu-id="b283c-798">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="b283c-798">Requires customization of the payment connector</span></span>                                |
-| <span data-ttu-id="b283c-799">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-799">VeriFone</span></span>     | <span data-ttu-id="b283c-800">MX925</span><span class="sxs-lookup"><span data-stu-id="b283c-800">MX925</span></span> | <span data-ttu-id="b283c-801">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-801">Custom</span></span>    | <span data-ttu-id="b283c-802">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="b283c-802">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="b283c-803">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-803">VeriFone</span></span>     | <span data-ttu-id="b283c-804">MX915</span><span class="sxs-lookup"><span data-stu-id="b283c-804">MX915</span></span> | <span data-ttu-id="b283c-805">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-805">Custom</span></span>    | <span data-ttu-id="b283c-806">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="b283c-806">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="b283c-807">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-807">Cash drawer</span></span>
-
-| <span data-ttu-id="b283c-808">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-808">Manufacturer</span></span> | <span data-ttu-id="b283c-809">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-809">Model</span></span>     | <span data-ttu-id="b283c-810">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-810">Interface</span></span> | <span data-ttu-id="b283c-811">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-811">Comments</span></span>              |
-|--------------|-----------|-----------|-----------------------|
-| <span data-ttu-id="b283c-812">APG</span><span class="sxs-lookup"><span data-stu-id="b283c-812">APG</span></span>          | <span data-ttu-id="b283c-813">Atwood</span><span class="sxs-lookup"><span data-stu-id="b283c-813">Atwood</span></span>    | <span data-ttu-id="b283c-814">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-814">Custom</span></span>    | <span data-ttu-id="b283c-815">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-815">Connected via network</span></span> |
-| <span data-ttu-id="b283c-816">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-816">Star</span></span>         | <span data-ttu-id="b283c-817">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="b283c-817">SMD2-1317</span></span> | <span data-ttu-id="b283c-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-818">OPOS</span></span>      |                       |
-| <span data-ttu-id="b283c-819">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-819">HP</span></span>           | <span data-ttu-id="b283c-820">QT457AA</span><span class="sxs-lookup"><span data-stu-id="b283c-820">QT457AA</span></span>   | <span data-ttu-id="b283c-821">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-821">OPOS</span></span>      |                       |
-
-#### <a name="line-display"></a><span data-ttu-id="b283c-822">จอแสดงผลรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-822">Line display</span></span>
-
-| <span data-ttu-id="b283c-823">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-823">Manufacturer</span></span>  | <span data-ttu-id="b283c-824">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-824">Model</span></span>   | <span data-ttu-id="b283c-825">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-825">Interface</span></span> | <span data-ttu-id="b283c-826">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-826">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="b283c-827">HP integrated</span><span class="sxs-lookup"><span data-stu-id="b283c-827">HP integrated</span></span> | <span data-ttu-id="b283c-828">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="b283c-828">G6U79AA</span></span> | <span data-ttu-id="b283c-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-829">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-830">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-830">Epson</span></span>         | <span data-ttu-id="b283c-831">M58DC</span><span class="sxs-lookup"><span data-stu-id="b283c-831">M58DC</span></span>   | <span data-ttu-id="b283c-832">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-832">OPOS</span></span>      |          |
-
-#### <a name="signature-capture"></a><span data-ttu-id="b283c-833">การเก็บบันทึกลายเซ็น</span><span class="sxs-lookup"><span data-stu-id="b283c-833">Signature capture</span></span>
-
-| <span data-ttu-id="b283c-834">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-834">Manufacturer</span></span> | <span data-ttu-id="b283c-835">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-835">Model</span></span>  | <span data-ttu-id="b283c-836">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-836">Interface</span></span> | <span data-ttu-id="b283c-837">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-837">Comments</span></span> |
-|--------------|--------|-----------|----------|
-| <span data-ttu-id="b283c-838">Scriptel</span><span class="sxs-lookup"><span data-stu-id="b283c-838">Scriptel</span></span>     | <span data-ttu-id="b283c-839">ST1550</span><span class="sxs-lookup"><span data-stu-id="b283c-839">ST1550</span></span> | <span data-ttu-id="b283c-840">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-840">OPOS</span></span>      |          |
-
-#### <a name="scale"></a><span data-ttu-id="b283c-841">สเกล</span><span class="sxs-lookup"><span data-stu-id="b283c-841">Scale</span></span>
-
-| <span data-ttu-id="b283c-842">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-842">Manufacturer</span></span> | <span data-ttu-id="b283c-843">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-843">Model</span></span>         | <span data-ttu-id="b283c-844">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-844">Interface</span></span> | <span data-ttu-id="b283c-845">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-845">Comments</span></span> |
-|--------------|---------------|-----------|----------|
-| <span data-ttu-id="b283c-846">Datalogic</span><span class="sxs-lookup"><span data-stu-id="b283c-846">Datalogic</span></span>    | <span data-ttu-id="b283c-847">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="b283c-847">Magellan 8400</span></span> | <span data-ttu-id="b283c-848">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-848">OPOS</span></span>      |          |
-
-#### <a name="msr"></a><span data-ttu-id="b283c-849">MSR</span><span class="sxs-lookup"><span data-stu-id="b283c-849">MSR</span></span>
-
-| <span data-ttu-id="b283c-850">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-850">Manufacturer</span></span> | <span data-ttu-id="b283c-851">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-851">Model</span></span>       | <span data-ttu-id="b283c-852">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-852">Interface</span></span> | <span data-ttu-id="b283c-853">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-853">Comments</span></span> |
-|--------------|-------------|-----------|----------|
-| <span data-ttu-id="b283c-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="b283c-854">Magtek</span></span>       | <span data-ttu-id="b283c-855">21073075</span><span class="sxs-lookup"><span data-stu-id="b283c-855">21073075</span></span>    | <span data-ttu-id="b283c-856">UWP</span><span class="sxs-lookup"><span data-stu-id="b283c-856">UWP</span></span>       |          |
-| <span data-ttu-id="b283c-857">Magtek</span><span class="sxs-lookup"><span data-stu-id="b283c-857">Magtek</span></span>       | <span data-ttu-id="b283c-858">21073062</span><span class="sxs-lookup"><span data-stu-id="b283c-858">21073062</span></span>    | <span data-ttu-id="b283c-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-859">OPOS</span></span>      |          |
-| <span data-ttu-id="b283c-860">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-860">HP</span></span>           | <span data-ttu-id="b283c-861">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="b283c-861">IDRA-334133</span></span> | <span data-ttu-id="b283c-862">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-862">OPOS</span></span>      |          |
-
-### <a name="shared-iis-hardware-station"></a><span data-ttu-id="b283c-863">สถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="b283c-863">Shared IIS hardware station</span></span>
-
-<span data-ttu-id="b283c-864">อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS ที่ใช้ร่วมกันกับ Modern POS สำหรับ Windows และ Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b283c-864">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b283c-865">มีการสนับสนุนเฉพาะเครื่องพิมพ์ เทอร์มินัลการชำระเงิน และลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-865">Only a printer, payment terminal, and cash drawer are supported.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="b283c-866">เครื่องพิมพ์</span><span class="sxs-lookup"><span data-stu-id="b283c-866">Printer</span></span>
-
-| <span data-ttu-id="b283c-867">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-867">Manufacturer</span></span> | <span data-ttu-id="b283c-868">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-868">Model</span></span>    | <span data-ttu-id="b283c-869">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-869">Interface</span></span> | <span data-ttu-id="b283c-870">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-870">Comments</span></span>                  |
-|--------------|----------|-----------|---------------------------|
-| <span data-ttu-id="b283c-871">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-871">Epson</span></span>        | <span data-ttu-id="b283c-872">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="b283c-872">Tm-T88IV</span></span> | <span data-ttu-id="b283c-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-873">OPOS</span></span>      |                           |
-| <span data-ttu-id="b283c-874">Epson</span><span class="sxs-lookup"><span data-stu-id="b283c-874">Epson</span></span>        | <span data-ttu-id="b283c-875">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="b283c-875">TM-T88V</span></span>  | <span data-ttu-id="b283c-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-876">OPOS</span></span>      |                           |
-| <span data-ttu-id="b283c-877">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-877">Star</span></span>         | <span data-ttu-id="b283c-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b283c-878">TSP650II</span></span> | <span data-ttu-id="b283c-879">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-879">OPOS</span></span>      |                           |
-| <span data-ttu-id="b283c-880">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-880">Star</span></span>         | <span data-ttu-id="b283c-881">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b283c-881">TSP650II</span></span> | <span data-ttu-id="b283c-882">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-882">Custom</span></span>    | <span data-ttu-id="b283c-883">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-883">Connected via network</span></span>     |
-| <span data-ttu-id="b283c-884">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-884">HP</span></span>           | <span data-ttu-id="b283c-885">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="b283c-885">F7M67AA</span></span>  | <span data-ttu-id="b283c-886">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-886">OPOS</span></span>      | <span data-ttu-id="b283c-887">USB ที่มีการจัดการ</span><span class="sxs-lookup"><span data-stu-id="b283c-887">Powered USB</span></span>               |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="b283c-888">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-888">Payment terminal</span></span>
-
-| <span data-ttu-id="b283c-889">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-889">Manufacturer</span></span> | <span data-ttu-id="b283c-890">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-890">Model</span></span> | <span data-ttu-id="b283c-891">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-891">Interface</span></span> | <span data-ttu-id="b283c-892">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-892">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="b283c-893">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-893">VeriFone</span></span>     | <span data-ttu-id="b283c-894">MX925</span><span class="sxs-lookup"><span data-stu-id="b283c-894">MX925</span></span> | <span data-ttu-id="b283c-895">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-895">Custom</span></span>    | <span data-ttu-id="b283c-896">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="b283c-896">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="b283c-897">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b283c-897">VeriFone</span></span>     | <span data-ttu-id="b283c-898">MX915</span><span class="sxs-lookup"><span data-stu-id="b283c-898">MX915</span></span> | <span data-ttu-id="b283c-899">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-899">Custom</span></span>    | <span data-ttu-id="b283c-900">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</span><span class="sxs-lookup"><span data-stu-id="b283c-900">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="b283c-901">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-901">Cash drawer</span></span>
-
-| <span data-ttu-id="b283c-902">ผู้ผลิต</span><span class="sxs-lookup"><span data-stu-id="b283c-902">Manufacturer</span></span> | <span data-ttu-id="b283c-903">รุ่น</span><span class="sxs-lookup"><span data-stu-id="b283c-903">Model</span></span>     | <span data-ttu-id="b283c-904">อินเทอร์เฟส</span><span class="sxs-lookup"><span data-stu-id="b283c-904">Interface</span></span> | <span data-ttu-id="b283c-905">ข้อคิดเห็น</span><span class="sxs-lookup"><span data-stu-id="b283c-905">Comments</span></span>              |
-|--------------|-----------|-----------|-----------------------|
-| <span data-ttu-id="b283c-906">APG</span><span class="sxs-lookup"><span data-stu-id="b283c-906">APG</span></span>          | <span data-ttu-id="b283c-907">Atwood</span><span class="sxs-lookup"><span data-stu-id="b283c-907">Atwood</span></span>    | <span data-ttu-id="b283c-908">กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="b283c-908">Custom</span></span>    | <span data-ttu-id="b283c-909">เชื่อมต่อผ่านเครือข่าย</span><span class="sxs-lookup"><span data-stu-id="b283c-909">Connected via network</span></span> |
-| <span data-ttu-id="b283c-910">Star</span><span class="sxs-lookup"><span data-stu-id="b283c-910">Star</span></span>         | <span data-ttu-id="b283c-911">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="b283c-911">SMD2-1317</span></span> | <span data-ttu-id="b283c-912">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-912">OPOS</span></span>      |                       |
-| <span data-ttu-id="b283c-913">HP</span><span class="sxs-lookup"><span data-stu-id="b283c-913">HP</span></span>           | <span data-ttu-id="b283c-914">QT457AA</span><span class="sxs-lookup"><span data-stu-id="b283c-914">QT457AA</span></span>   | <span data-ttu-id="b283c-915">OPOS</span><span class="sxs-lookup"><span data-stu-id="b283c-915">OPOS</span></span>      |                       |
-
-## <a name="troubleshooting"></a><span data-ttu-id="b283c-916">การแก้ไขปัญหา</span><span class="sxs-lookup"><span data-stu-id="b283c-916">Troubleshooting</span></span>
-
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="b283c-917">Modern POS สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการสำหรับการเลือก แต่จะไม่สามารถทำการจับคู่ให้เสร็จสมบูรณ์ได้</span><span class="sxs-lookup"><span data-stu-id="b283c-917">Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</span></span>
-
-<span data-ttu-id="b283c-918">**โซลูชัน:** ตรวจสอบรายการจุดข้อผิดพลาดที่อาจมีได้ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-918">**Solution:** Verify the following list of potential failure points:</span></span>
-
-- <span data-ttu-id="b283c-919">คอมพิวเตอร์ที่กำลังรัน Modern POS เชื่อถือใบรับรองที่ใช้บนคอมพิวเตอร์ที่รันในสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-919">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
-
-    - <span data-ttu-id="b283c-920">เมื่อต้องการตรวจสอบการตั้งค่านี้ ในเว็บเบราเซอร์ ไปที่ URL ต่อไปนี้: `https://<Computer Name>:<Port Number>/HardwareStation/ping`</span><span class="sxs-lookup"><span data-stu-id="b283c-920">To verify this setup, in a web browser, go to the following URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span></span>
-    - <span data-ttu-id="b283c-921">URL นี้ใช้ ping เพื่อตรวจสอบว่าสามารถเข้าถึงคอมพิวเตอร์ได้หรือไม่ และเบราว์เซอร์จะบ่งชี้ว่าใบรับรองเชื่อถือได้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="b283c-921">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="b283c-922">(ตัวอย่างเช่น ใน Internet Explorer ไอคอนล็อกจะปรากฏในแถบที่อยู่</span><span class="sxs-lookup"><span data-stu-id="b283c-922">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="b283c-923">เมื่อคุณคลิกไอคอนนี้ Internet Explorer จะตรวจสอบว่าใบรับรองนั้น ๆ ได้รับการเชื่อถือในขณะนี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="b283c-923">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="b283c-924">คุณสามารถติดตั้งใบรับรองบนคอมพิวเตอร์เฉพาะที่ได้โดยการดูรายละเอียดของใบรับรองที่แสดงอยู่)</span><span class="sxs-lookup"><span data-stu-id="b283c-924">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
-
-- <span data-ttu-id="b283c-925">บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์ พอร์ตที่จะถูกใช้โดยสถานีฮาร์ดแวร์จะถูกเปิดในไฟร์วอลล์</span><span class="sxs-lookup"><span data-stu-id="b283c-925">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
-- <span data-ttu-id="b283c-926">สถานีฮาร์ดแวร์ได้ติดตั้งข้อมูลบัญชีร้านค้าอย่างถูกต้องผ่านเครื่องมือติดตั้งข้อมูลร้านค้าที่รันเมื่อสิ้นสุดการทำงานของโปรแกรมติดตั้งสถานีฮาร์ดแวร์</span><span class="sxs-lookup"><span data-stu-id="b283c-926">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
-
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="b283c-927">Modern POS ไม่สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการสำหรับการเลือก</span><span class="sxs-lookup"><span data-stu-id="b283c-927">Modern POS can't detect the hardware station in its list for selection</span></span>
-
-<span data-ttu-id="b283c-928">**โซลูชัน:** ปัจจัยใดปัจจัยหนึ่งต่อไปนี้อาจทำให้เกิดปัญหานี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-928">**Solution:** Either of the following factors can cause this issue:</span></span>
-
-- <span data-ttu-id="b283c-929">สถานีฮาร์ดแวร์ไม่ได้ถูกตั้งค่าอย่างถูกต้องในสำนักงานใหญ่</span><span class="sxs-lookup"><span data-stu-id="b283c-929">The hardware station hasn't been set up correctly in headquarters.</span></span> <span data-ttu-id="b283c-930">ใช้ขั้นตอนก่อนหน้านี้ในหัวข้อนี้เพื่อตรวจสอบว่ามีการป้อนโพรไฟล์สถานีฮาร์ดแวร์และสถานีฮาร์ดแวร์อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="b283c-930">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
-- <span data-ttu-id="b283c-931">ไม่มีการรันงานเพื่ออัพเดตการตั้งค่าคอนฟิกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="b283c-931">The jobs haven't been run to update the channel configuration.</span></span> <span data-ttu-id="b283c-932">ในกรณีนี้ ให้รันงาน 1070 สำหรับการตั้งค่าคอนฟิกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="b283c-932">In this case, run the 1070 job for channel configuration.</span></span>
-
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="b283c-933">Modern POS ไม่ได้แสดงการตั้งค่าลิ้นชักเงินสดใหม่</span><span class="sxs-lookup"><span data-stu-id="b283c-933">Modern POS doesn't reflect new cash drawer settings</span></span>
-
-<span data-ttu-id="b283c-934">**โซลูชัน:** ปิดชุดงานปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="b283c-934">**Solution:** Close the current batch.</span></span> <span data-ttu-id="b283c-935">ไม่มีการอัพเดตการเปลี่ยนแปลงของลิ้นชักเงินสดไปยัง Modern POS จนกว่าชุดงานปัจจุบันจะถูกปิด</span><span class="sxs-lookup"><span data-stu-id="b283c-935">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
-
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="b283c-936">Modern POS จะรายงานปัญหาเกี่ยวกับอุปกรณ์ต่อพ่วงขายปลีก</span><span class="sxs-lookup"><span data-stu-id="b283c-936">Modern POS is reporting an issue with a retail peripheral</span></span>
-
-<span data-ttu-id="b283c-937">**โซลูชัน:** ต่อไปนี้คือสาเหตุทั่วไปของปัญหานี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-937">**Solution:** Here are some typical causes of this issue:</span></span>
-
-- <span data-ttu-id="b283c-938">ตรวจสอบให้แน่ใจว่าได้ปิดยูทิลิตีการตั้งค่าคอนฟิกโปรแกรมควบคุมอุปกรณ์อื่น ๆ แล้ว</span><span class="sxs-lookup"><span data-stu-id="b283c-938">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="b283c-939">ถ้ายูทิลิตีเหล่านี้เปิดอยู่ อาจป้องกันไม่ให้ Modern POS หรือสถานีฮาร์ดแวร์อ้างสิทธิ์ของอุปกรณ์ดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="b283c-939">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
-- <span data-ttu-id="b283c-940">ถ้าอุปกรณ์ต่อพ่วงขายปลีกถูกใช้ร่วมกันกับอุปกรณ์ POS หลายรายการ ให้ตรวจสอบให้แน่ใจว่าอุปกรณ์เหล่านั้นเป็นของหนึ่งในประเภทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-940">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
-
-    - <span data-ttu-id="b283c-941">ลิ้นชักเงินสด</span><span class="sxs-lookup"><span data-stu-id="b283c-941">Cash drawer</span></span>
-    - <span data-ttu-id="b283c-942">เครื่องพิมพ์ใบเสร็จ</span><span class="sxs-lookup"><span data-stu-id="b283c-942">Receipt printer</span></span>
-    - <span data-ttu-id="b283c-943">เทอร์มินัลการชำระเงิน </span><span class="sxs-lookup"><span data-stu-id="b283c-943">Payment terminal</span></span>
-
-    <span data-ttu-id="b283c-944">ถ้าอุปกรณ์ต่อพ่วงไม่ได้เป็นของหนึ่งในประเภทเหล่านี้ แสดงว่าสถานีฮาร์ดแวร์ไม่ได้รับการออกแบบมาเพื่อทำให้สามารถใช้อุปกรณ์ต่อพ่วงร่วมกันระหว่างอุปกรณ์ POS หลายรายการ</span><span class="sxs-lookup"><span data-stu-id="b283c-944">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
-
-- <span data-ttu-id="b283c-945">บางครั้ง โปรแกรมควบคุมอุปกรณ์อาจทำให้วัตถุควบคุมทั่วไป (CCO) ทำงานไม่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="b283c-945">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="b283c-946">หากอุปกรณ์ถูกติดตั้งเมื่อเร็ว ๆ นี้ แต่ทำงานไม่ถูกต้อง หรือหากคุณสังเกตเห็นปัญหาอื่น ๆ คุณมักจะสามารถแก้ไขปัญหานี้โดยการติดตั้ง CCO ใหม่</span><span class="sxs-lookup"><span data-stu-id="b283c-946">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="b283c-947">เมื่อต้องการดาวน์โหลด CCOs ให้เยี่ยมชม <http://monroecs.com/oposccos_current.htm></span><span class="sxs-lookup"><span data-stu-id="b283c-947">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
-- <span data-ttu-id="b283c-948">ถ้าคุณทำการเปลี่ยนแปลงอุปกรณ์ต่อพ่วงบ่อยในระหว่างการทดสอบหรือการแก้ไขปัญหาเบื้องต้น คุณอาจต้องรีเซ็ต IIS แทนการรอการรีเฟรชตัวเองของแคช</span><span class="sxs-lookup"><span data-stu-id="b283c-948">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="b283c-949">เมื่อต้องการรีเซ็ต IIS ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-949">To reset IIS, follow these steps:</span></span>
-
-    1. <span data-ttu-id="b283c-950">จากเมนู **เริ่มต้น** พิมพ์ **CMD**</span><span class="sxs-lookup"><span data-stu-id="b283c-950">From the **Start** menu, type **CMD**.</span></span>
-    2. <span data-ttu-id="b283c-951">ในผลลัพธ์การค้นหา คลิกขวา **พร้อมต์คำสั่ง** แล้วคลิก **รันในฐานะผู้ดูแลระบบ**</span><span class="sxs-lookup"><span data-stu-id="b283c-951">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
-    3. <span data-ttu-id="b283c-952">ในหน้าต่าง **พร้อมต์คำสั่ง** พิมพ์ **iisreset /Restart** แล้วกด Enter</span><span class="sxs-lookup"><span data-stu-id="b283c-952">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
-    4. <span data-ttu-id="b283c-953">หลังจาก IIS เริ่มการทำงานใหม่แล้ว ให้เริ่มการทำงานของ Modern POS ใหม่</span><span class="sxs-lookup"><span data-stu-id="b283c-953">After IIS has restarted, restart Modern POS.</span></span>
-
-- <span data-ttu-id="b283c-954">ในขณะที่คุณกำลังทำการเปลี่ยนแปลงบ่อยครั้งกับอุปกรณ์ต่อพ่วง ถ้าคุณมักจะเริ่มต้นและสิ้นสุดการทำงานของไคลเอนต์ POS กระบวนการ dllhost จากเซสชันก่อนหน้าของ POS อาจรบกวนเซสชันปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="b283c-954">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="b283c-955">ในกรณีนี้ อุปกรณ์อาจไม่สามารถใช้งานได้จนกว่าคุณจะปิดโฮสต์ไลบรารีแบบไดนามิกลิงค์ (DLL) ที่มีการจัดการเซสชันก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="b283c-955">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="b283c-956">เมื่อต้องการปิดโฮสต์ DLL ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="b283c-956">To close the DLL host, follow these steps:</span></span>
-
-    1. <span data-ttu-id="b283c-957">จากเมนู **เริ่มต้น** พิมพ์ **ตัวจัดการงาน**</span><span class="sxs-lookup"><span data-stu-id="b283c-957">From the **Start** menu, type **Task manager**.</span></span>
-    2. <span data-ttu-id="b283c-958">ในผลลัพธ์การค้นหา คลิก **ตัวจัดการงาน**</span><span class="sxs-lookup"><span data-stu-id="b283c-958">In the search results, click **Task manager**.</span></span>
-    3. <span data-ttu-id="b283c-959">ในตัวจัดการงาน บนแท็บ **รายละเอียด** คลิกที่ส่วนหัวคอลัมน์ที่มีป้ายชื่อว่า **ชื่อ** เพื่อเรียงลำดับตารางตามลำดับอักษรตามชื่อ</span><span class="sxs-lookup"><span data-stu-id="b283c-959">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
-    4. <span data-ttu-id="b283c-960">เลื่อนลงมาจนกว่าคุณจะพบ dllhost.exe</span><span class="sxs-lookup"><span data-stu-id="b283c-960">Scroll down until you find dllhost.exe.</span></span>
-    5. <span data-ttu-id="b283c-961">เลือกโฮสต์ DLL แต่ละรายการ และจากนั้นคลิก **สิ้นสุดงาน**</span><span class="sxs-lookup"><span data-stu-id="b283c-961">Select each DLL host, and then click **End task**.</span></span>
-    6. <span data-ttu-id="b283c-962">หลังจากที่โฮสต์ DLL ถูกปิดแล้ว ให้เริ่มการทำงานของ Modern POS ใหม่</span><span class="sxs-lookup"><span data-stu-id="b283c-962">After the DLL hosts have been closed, restart Modern POS.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="b283c-963">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="b283c-963">Additional resources</span></span>
-
-[<span data-ttu-id="b283c-964">โปรแกรมจำลองอุปกรณ์ต่อพ่วงของ Retail</span><span class="sxs-lookup"><span data-stu-id="b283c-964">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="retail-peripherals-overview.md" target-language="th-TH">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>retail-peripherals-overview.3a1cbf.a9fa49d0b3553ae70547aeea19d14bc6e6e08983.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a9fa49d0b3553ae70547aeea19d14bc6e6e08983</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>ffc37f7c2a63bada3055f37856a30424040bc9a3</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\retail-peripherals-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Retail peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วง Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains the concepts that are related to retail peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Retail peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วง Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains the concepts that are related to retail peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งจะอธิบายวิธีการต่าง ๆ ที่สามารถเชื่อมต่ออุปกรณ์ต่อพ่วงกับการขายหน้าร้าน (POS) และส่วนประกอบต่าง ๆ ที่มีหน้าที่ในการจัดการการเชื่อมต่อกับ POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Concepts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แนวคิด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>POS registers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องบันทึกเงินสด POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การนำทาง: คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การตั้งค่า POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>การลงทะเบียน<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องบันทึกเงินสดแบบขายหน้าร้าน POS คือเอนทิตีที่ใช้ในการกำหนดลักษณะของอินสแตนซ์ที่ระบุของ POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลักษณะเหล่านี้รวมถึงโพรไฟล์ฮาร์ดแวร์หรือการตั้งค่าสำหรับอุปกรณ์ต่อพ่วงขายปลีกที่จะใช้ที่เครื่องบันทึกเงินสด ร้านค้าที่แม็ปไว้กับที่เครื่องบันทึกเงินสด และประสบการณ์ทางภาพสำหรับผู้ใช้ที่ลงชื่อเข้าสู่เครื่องบันทึกเงินสดนั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Devices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Devices<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การนำทาง: คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การตั้งค่า POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>อุปกรณ์<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>A device is an entity that represents a physical instance of a device that is mapped to a POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์คือเอนทิตีที่แสดงถึงอินสแตนซ์ที่มีอยู่จริงของอุปกรณ์ที่ถูกแม็ปไปยังเครื่องบันทึกเงินสด POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>When a device is created, it's mapped to a POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการสร้างอุปกรณ์ อุปกรณ์นั้นจะถูกแม็ปไปยังเครื่องบันทึกเงินสด POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เอนทิตีอุปกรณ์จะติดตามข้อมูลเกี่ยวกับเวลาที่เครื่องบันทึกเงินสด POS ถูกเรียกใช้ ชนิดของไคลเอนต์ที่ถูกใช้ และแพคเกจของแอพลิเคชันที่มีการปรับใช้กับอุปกรณ์เฉพาะ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถแม็ปอุปกรณ์ไปยังชนิดของแอพลิเคชันต่อไปนี้: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android และ Retail Modern POS – iOS ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Retail Modern POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Modern POS is the POS program for Microsoft Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS คือ โปรแกรม POS สำหรับ Microsoft Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>It can be deployed on Windows 10 operating systems (OSs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถปรับใช้ได้บนระบบปฏิบัติการ Windows 10 (OS)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS คือโปรแกรม Modern POS รุ่นที่ใช้เบราว์เซอร์ที่สามารถเข้าถึงได้ในเว็บเบราว์เซอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Modern POS for iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ iOS คือโปรแกรม Modern POS รุ่นที่ใช้ iOS ที่สามารถปรับใช้บนอุปกรณ์ iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Modern POS for Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ Android คือโปรแกรม Modern POS รุ่นที่ใช้ Android ที่สามารถปรับใช้บนอุปกรณ์ Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>POS peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วง POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>POS peripherals are devices that are explicitly supported for POS functions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วง POS คืออุปกรณ์ที่ได้รับการสนับสนุนอย่างชัดเจนสำหรับฟังก์ชัน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>These peripherals are typically divided into specific classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วงเหล่านี้ออกเป็นคลาสเฉพาะต่าง ๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>For more information about these classes, see the "Device classes" section of this topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคลาสเหล่านี้ ดูส่วน "คลาสของอุปกรณ์" ของหัวข้อนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channels<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail stores<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>All retail stores<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การนำทาง: คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>ช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ร้านค้าปลีก<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>ร้านค้าปลีกทั้งหมด<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Select a store, and then click the <bpt id="p1">**</bpt>Hardware stations<ept id="p1">**</ept> FastTab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกร้านค้า และคลิก FastTab <bpt id="p1">**</bpt>สถานีฮาร์ดแวร์<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The <bpt id="p1">**</bpt>Hardware station<ept id="p1">**</ept> setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่า <bpt id="p1">**</bpt>สถานีฮาร์ดแวร์<ept id="p1">**</ept> เป็นการตั้งค่าระดับช่องทางที่จะใช้ในการกำหนดอินสแตนซ์ที่จะปรับใช้ตรรกะการต่อพ่วงขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>This setting at the channel level is used to determine characteristics of the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าในระดับช่องทางนี้จะใช้เพื่อระบุลักษณะของสถานีฮาร์ดแวร์ดังกล่าว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>It's also used to list hardware stations that are available for a Modern POS instance in a given store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ยังใช้ในการแสดงรายการของสถานีฮาร์ดแวร์ที่พร้อมใช้งานสำหรับอินสแตนซ์ Modern POS ในร้านค้าที่กำหนดอีกด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The hardware station is built into the Modern POS program for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ถูกสร้างขึ้นในโปรแกรม Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถปรับใช้สถานีฮาร์ดแวร์โดยไม่ขึ้นอยู่กับโปรแกรม Microsoft Internet Information Services (IIS) แบบสแตนด์อโลนได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In this case, it can be accessed via a network.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีนี้ จะสามารถเข้าถึงผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Hardware profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การนำทาง: คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การตั้งค่า POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>โพรไฟล์ POS<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>โพรไฟล์ฮาร์ดแวร์<ept id="p5">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>The hardware profile is a list of devices that are configured for a POS register or a hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โพรไฟล์ฮาร์ดแวร์คือรายการของอุปกรณ์ที่มีการตั้งค่าคอนฟิกสำหรับเครื่องบันทึกเงินสด POS หรือสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The hardware profile can be mapped directly to a POS register or a hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถแม็ปโพรไฟล์ฮาร์ดแวร์โดยตรงไปยังเครื่องบันทึกเงินสด POS หรือไปยังสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Devices classes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลาสของอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>POS peripherals are typically divided into classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยทั่วไปจะแบ่งอุปกรณ์ต่อพ่วง POS ออกเป็นคลาสต่าง ๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>This section describes and gives an overview of the devices that Modern POS supports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วนนี้อธิบายและให้ภาพรวมของอุปกรณ์ที่ Modern POS สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Printers include traditional POS receipt printers and full-page printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์รวมถึงเครื่องพิมพ์ใบเสร็จ POS ดั้งเดิมและเครื่องพิมพ์แบบเต็มหน้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์ได้รับการสนับสนุนผ่าน Object Linking และ Embedding for Retail POS (OPOS) และอินเทอร์เฟซการโปรแกรมควบคุม Microsoft Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Up to two printers can be used at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้เครื่องพิมพ์ได้สูงสุดสองเครื่องในเวลาเดียวกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความสามารถนี้สนับสนุนสถานการณ์จำลองที่มีการพิมพ์ใบเสร็จของลูกค้าแบบรับเงินสดและรับของกลับบนเครื่องพิมพ์ใบเสร็จ ในขณะที่ใบสั่งของลูกค้าซึ่งมีข้อมูลเพิ่มเติมถูกพิมพ์บนเครื่องพิมพ์แบบเต็มหน้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถเชื่อมต่อเครื่องพิมพ์ใบเสร็จโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่ายผ่านอีเทอร์เน็ต หรือเชื่อมต่อผ่านบลูทูธ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Up to two bar code scanners can be used at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้สแกนเนอร์บาร์โค้ดได้สูงสุดสองเครื่องในเวลาเดียวกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความสามารถนี้สนับสนุนสถานการณ์จำลองที่จำเป็นต้องใช้สแกนเนอร์ที่สามารถเคลื่อนที่ได้มากขึ้นเพื่อสแกนสินค้าจำนวนมาก หรือที่มีขนาดใหญ่ ในขณะที่สแกนเนอร์แบบฝังตัวคงที่จะใช้สำหรับสินค้าที่มีขนาดมาตรฐานส่วนใหญ่เพื่อเร่งความเร็วของเวลาเช็คเอาท์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์สามารถได้รับการสนับสนุนผ่าน OPOS แพลตฟอร์ม Universal Windows (UWP) หรืออินเทอร์เฟซของเครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>USB or Bluetooth can be used to connect a scanner to a computer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้ USB หรือบลูทูธเพื่อเชื่อมต่อสแกนเนอร์กับคอมพิวเตอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MSR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถตั้งค่าเครื่องอ่านแถบแม่เหล็ก (MSR) USB ได้โดยใช้โปรแกรมควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณต้องการใช้ MSR แบบสแตนด์อโลนสำหรับธุรกรรมการชำระเงินการโอนเงินทางอิเล็กทรอนิกส์ (EFT) จะต้องจัดการ MSR โดยตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้ MSR แบบสแตนด์อโลนสำหรับการป้อนข้อมูลลูกค้าสมาชิก การเข้าระบบของพนักงาน และการป้อนข้อมูลบัตรของขวัญ โดยไม่ขึ้นอยู่กับตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชักเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Two cash drawers can be supported per hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชักเงินสดสองรายการสามารถได้รับการสนับสนุนสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>This capability enables two active shifts per register to be available at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความสามารถนี้ช่วยให้สามารถมีกะที่ใช้งานอยู่สองรายการสำหรับแต่ละเครื่องบันทึกเงินสดที่พร้อมใช้งานในเวลาเดียวกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีของกะที่ใช้ร่วมกันหรือลิ้นชักเงินสดที่ถูกใช้โดยอุปกรณ์ POS แบบเคลื่อนที่หลายเครื่องในเวลาเดียวกัน ระบบจะอนุญาตให้ใช้เพียงลิ้นชักเงินสดเดียวสำหรับแต่ละโพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถเชื่อมต่อลิ้นชักเงินสดโดยตรงกับคอมพิวเตอร์ผ่าน USB ซึ่งเชื่อมต่อกับเครือข่าย หรือเชื่อมต่อกับเครื่องพิมพ์ใบเสร็จผ่านอินเทอร์เฟส RJ12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In some cases, cash drawers can also be connected via Bluetooth.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในบางกรณี ลิ้นชักเงินสดยังสามารถเชื่อมต่อผ่านบลูทูธได้อีกด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการจะใช้เพื่อแสดงผลิตภัณฑ์ ยอดดุลของธุรกรรม และข้อมูลอื่น ๆ ที่เป็นประโยชน์ให้กับลูกค้าในระหว่างธุรกรรม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>One line display can be connected to the computer via USB by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถเชื่อมต่อจอแสดงผลรายการหนึ่งไปยังคอมพิวเตอร์ได้โดยใช้ USB โดยใช้โปรแกรมควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การเก็บบันทึกลายเซ็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถเชื่อมต่ออุปกรณ์เก็บบันทึกลายเซ็นกับคอมพิวเตอร์ได้โดยตรงผ่าน USB โดยใช้โปรแกรมควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>When signature capture is configured, the customer is prompted to sign on the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการตั้งค่าคอนฟิกการเก็บบันทึกลายเซ็น ระบบจะพร้อมท์ให้ลูกค้าลงชื่อเข้าสู่อุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>After the signature is provided, it's shown to the cashier for acceptance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่ให้ลายเซ็นแล้ว ลายเซ็นนั้นจะถูกแสดงขึ้นให้กับพนักงานเก็บเงินเพื่อยอมรับ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สเกล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Scales can be connected to the computer via USP by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถเชื่อมต่อสเกลไปยังคอมพิวเตอร์ผ่าน USP โดยใช้โปรแกรมควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการเพิ่มผลิตภัณฑ์ที่ถูกทำเครื่องหมายเป็นผลิตภัณฑ์ "ที่ชั่งน้ำหนัก" ลงในธุรกรรม POS จะอ่านน้ำหนักจากสเกล เพิ่มผลิตภัณฑ์ลงในธุรกรรม และใช้ปริมาณที่สเกลระบุ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แป้นกดรหัส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แป้นหเลขที่ประจำตัวประชาชน (PIN) ได้รับการสนับสนุนผ่าน OPOS แต่จะถูกจัดการผ่านทางตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Secondary display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>When a secondary display is configured, the number 2 Windows display is used to show basic information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการตั้งค่าคอนฟิกจอแสดงผลรอง จอแสดงผล Windows หมายเลข 2 จะถูกใช้เพื่อแสดงข้อมูลพื้นฐาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วัตถุประสงค์ของจอแสดงผลรองคือเพื่อสนับสนุนส่วนขยายของผู้ขายซอฟต์แวร์อิสระ (ISV) เนื่องจากหากไม่ได้อยู่กล่องแล้ว จอแสดงผลรองจะไม่สามารถตั้งค่าคอนฟิกได้และจะแสดงเนื้อหาที่จำกัด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Payment device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์การชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Payment device support is implemented through the payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนอุปกรณ์การชำระเงินถูกนำมาใช้ผ่านตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Payment devices can perform one or many of the functions that other device classes provide.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์การชำระเงินสามารถทำหน้าที่อย่างหนึ่งหรือหลายอย่างที่คลาสของอุปกรณ์อื่น ๆ มีได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น อุปกรณ์การชำระเงินสามารถทำหน้าที่เป็นตัวอ่านบัตร/MSR จอแสดงผลรายการ อุปกรณ์เก็บบันทึกลายเซ็น หรือแป้น PIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนสำหรับอุปกรณ์การชำระเงินถูกนำมาใช้อย่างเป็นอิสระจากการสนับสนุนของอุปกรณ์แบบสแตนด์อโลนที่ให้ไว้สำหรับอุปกรณ์อื่น ๆ ที่รวมอยู่ในโพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟสที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการช่วยรับประกันว่าจะสามารถใช้อุปกรณ์ได้หลายประเภทกับ Microsoft Dynamics 365 for Retail OLE สำหรับมาตรฐานอุตสาหกรรม POS คือแพลตฟอร์มอุปกรณ์ต่อพ่วงขายปลีกหลักที่ได้รับการสนับสนุนใน Microsoft Dynamics 365 for Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OLE สำหรับมาตรฐาน POS ถูกผลิตโดย National Retail Federation (NRF) ซึ่งสร้างโพรโทคอลการติดต่อสื่อสารมาตรฐานอุตสาหกรรมสำหรับอุปกรณ์ต่อพ่วงขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>OPOS is a widely adopted implementation of the OLE for POS standard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS คือการดำเนินการที่ถูกนำมาใช้อย่างกว้างขวางของ OLE สำหรับมาตรฐาน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>It was developed in the mid-1990s and has been updated several times since then.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งได้รับการพัฒนาในช่วงกลางทศวรรษที่ 1990 และได้รับการอัพเดตหลายครั้งหลังจากนั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS แสดงสถาปัตยกรรมของโปรแกรมควบคุมอุปกรณ์ที่ช่วยให้การรวมฮาร์ดแวร์ POS กับระบบ POS ที่ใช้ Windows ทำได้โดยง่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>OPOS controls handle communication between compatible hardware and the POS software.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวควบคุม OPOS จัดการการติดต่อสื่อสารระหว่างฮาร์ดแวร์ที่เข้ากันได้กับซอฟต์แวร์ POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>An OPOS control consists of two parts:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวควบคุม OPOS ประกอบด้วยสองส่วน:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source><bpt id="p1">**</bpt>Control object<ept id="p1">**</ept> – The control object for a device class (such as line displays) provides the interface for the software program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>วัตถุควบคุม<ept id="p1">**</ept> – วัตถุควบคุมสำหรับคลาสของอุปกรณ์ (เช่น จอแสดงผลรายการ) ให้อินเทอร์เฟซสำหรับโปรแกรมซอฟต์แวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) แสดงชุดมาตรฐานของวัตถุควบคุม OPOS ที่เรียกว่าวัตถุควบคุมทั่วไป (CCO)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CCO จะใช้ในการทดสอบส่วนประกอบ POS ของ Microsoft Dynamics 365 for Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น การทดสอบจะช่วยรับประกันว่า ถ้า Microsoft Dynamics 365 for Retail สนับสนุนคลาสของอุปกรณ์ผ่าน OPOS จะสามารถสนับสนุนชนิดของอุปกรณ์หลายชนิด ถ้าผู้ผลิตมีวัตถุที่ให้บริการที่มีอยู่สำหรับ OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>You don't have to explicitly test each device type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณไม่จำเป็นต้องทดสอบแต่ละชนิดของอุปกรณ์อย่างชัดเจน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source><bpt id="p1">**</bpt>Service object<ept id="p1">**</ept> – The service object provides communication between the control object (CCO) and the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>วัตถุที่ให้บริการ<ept id="p1">**</ept> – วัตถุที่ให้บริการให้การสื่อสารระหว่างวัตถุควบคุม (CCO) และอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Typically, the service object for a device is provided by the device manufacturer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยปกติ วัตถุที่ให้บริการสำหรับอุปกรณ์มีไว้ให้โดยผู้ผลิตอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>However, in some cases, you might have to download the service object from the manufacturer's website.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม ในบางกรณี คุณอาจจำเป็นต้องดาวน์โหลดวัตถุที่ให้บริการจากเว็บไซต์ของผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>For example, a more recent service object might be available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น มีวัตถุที่ให้บริการที่ใหม่กว่าพร้อมใช้งาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>To find the address of the manufacturer's website, see your hardware documentation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการค้นหาที่อยู่ของเว็บไซต์ของผู้ผลิต ให้ดูเอกสารประกอบฮาร์ดแวร์ของคุณ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Control object and service object<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>วัตถุควบคุมและวัตถุที่ให้บริการ<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สนับสนุนการใช้งาน OPOS ของ OLE เพื่อใช้ POS ช่วยรับประกันว่า หากผู้ผลิตอุปกรณ์และผู้เผยแพร่ POS ใช้มาตรฐานอย่างถูกต้อง ระบบ POS และอุปกรณ์ที่สนับสนุนจะสามารถทำงานร่วมกันได้แม้ว่าจะไม่ได้รับการทดสอบก่อนหน้านี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>OPOS support doesn't guarantee support for all devices that have OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุน OPOS ไม่ได้รับประกันการสนับสนุนสำหรับอุปกรณ์ทั้งหมดที่มีโปรแกรมควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ก่อนอื่น Microsoft Dynamics 365 for Retail ต้องสนับสนุนชนิดหรือคลาสของอุปกรณ์นั้นๆ ผ่าน OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>In addition, service objects might not always be up to date with the latest version of the CCOs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ วัตถุที่ให้บริการอาจไม่เป็นปัจจุบันที่มี CCO รุ่นล่าสุดอยู่เสมอ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>You should also be aware that, in general, the quality of service objects varies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้คุณยังควรตระหนักว่าโดยทั่วไปคุณภาพของวัตถุที่ให้บริการจะแตกต่างกันไป</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Receipt printing at the POS is optimized for OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การพิมพ์ใบเสร็จที่ POS ได้รับการปรับให้เหมาะสมสำหรับ OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>OPOS tends to be much faster than printing through Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS มีแนวโน้มที่จะเร็วกว่าการพิมพ์ผ่าน Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น จึงเป็นความคิดที่ดีที่จะใช้ OPOS โดยเฉพาะในสภาพแวดล้อมการขายปลีกที่มีการพิมพ์ใบเสร็จรับเงิน 40 คอลัมน์ และเวลาธุรกรรมจะต้องรวดเร็ว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>For most devices, you will use OPOS controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับอุปกรณ์ส่วนใหญ่ คุณจะใช้ตัวควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>However, some OPOS receipt printers also support Windows drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม เครื่องพิมพ์ใบเสร็จ OPOS บางรุ่นยังสนับสนุนโปรแกรมควบคุมของ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อใช้โปรแกรมควบคุม Windows คุณจะสามารถเข้าถึงแบบอักษรล่าสุดและวางเครือข่ายเครื่องพิมพ์หนึ่งสำหรับเครื่องบันทึกเงินสดหลายรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>However, there are drawbacks to using Windows drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม มีข้อเสียของการใช้โปรแกรมควบคุมของ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Here are some examples of these drawbacks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ต่อไปนี้เป็นตัวอย่างของข้อเสียเหล่านี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>When Windows drivers are used, images are rendered before printing occurs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อใช้โปรแกรมควบคุมของ Windows รูปภาพจะแสดงก่อนที่จะเกิดการพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Therefore, printing tends to be slower than it is on printers that use OPOS controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น การพิมพ์จึงมีแนวโน้มที่จะช้ากว่าเครื่องพิมพ์ที่ใช้ตัวควบคุม OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ที่เชื่อมต่อผ่านเครื่องพิมพ์ ("สายโซ่เดซี่") อาจทำงานไม่ถูกต้อง เมื่อมีการใช้โปรแกรมควบคุมของ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>For example, the cash drawer might not open, or the slip printer might not word as you expect.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น ลิ้นชักเงินสดอาจไม่เปิดหรือเครื่องพิมพ์สลิปอาจทำงานไม่ได้ตามที่คุณคาดหวัง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS ยังสนับสนุนชุดที่ขยายขอบเขตมากขึ้นของตัวแปรที่เฉพาะสำหรับเครื่องพิมพ์ใบเสร็จการขายปลีก เช่น การตัดกระดาษหรือการพิมพ์สลิป</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าตัวควบคุม OPOS พร้อมใช้งานสำหรับเครื่องพิมพ์ของ Windows ที่คุณกำลังใช้อยู่ เครื่องพิมพ์ควรที่จะยังคงทำงานได้อย่างถูกต้องกับ Microsoft Dynamics 365 for Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Universal Windows Platform</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แพลตฟอร์ม Universal Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีของอุปกรณ์ต่อพ่วงขายปลีก UWP เกี่ยวข้องกับการสนับสนุนของ Windows สำหรับอุปกรณ์ Plug and Play</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่ออุปกรณ์ Plug and Play เชื่อมต่อกับรุ่นระบบปฏิบัติการ Windows ที่สนับสนุนชนิดของอุปกรณ์นั้น ไม่จำเป็นต้องใช้โปรแกรมควบคุมสำหรับอุปกรณ์เพื่อที่จะใช้ตามที่ตั้งใจไว้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the <bpt id="p1">**</bpt>Speaker<ept id="p1">**</ept> class type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น ถ้า Windows ตรวจพบอุปกรณ์ลำโพงบลูทูธ ระบบปฏิบัติการจะรู้ว่าอุปกรณ์มีชนิดของคลาส <bpt id="p1">**</bpt>ลำโพง<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Therefore, and it treats that device as a speaker.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น ระบบจะถือว่าอุปกรณ์นั้นเป็นลำโพง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>No additional setup is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ต้องตั้งค่าเพิ่มเติม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีของอุปกรณ์ POS สามารถต่ออุปกรณ์ USB ได้หลายรายการ และ Windows จะจดจำรายการเหล่านั้นเป็นอุปกรณ์อินเทอร์เฟสบุคคล (HID)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม อาจไม่สามารถตรวจสอบความสามารถที่อุปกรณ์มีได้ เนื่องจากอุปกรณ์ไม่ได้ระบุคลาสหรือชนิดของอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>In Windows 10, device classes for bar code scanners and MSRs have been added.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน Windows 10 มีการเพิ่มคลาสของอุปกรณ์สำหรับสแกนเนอร์บาร์โค้ดและ MSR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น ถ้าอุปกรณ์ประกาศต่อ Windows 10 ว่าเป็นอุปกรณ์ของคลาสใดคลาสหนึ่งเหล่านี้ Windows จะฟังเหตุการณ์จากอุปกรณ์ในช่วงเวลาที่เหมาะสม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Modern POS supports UWP MSRs and scanners.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สนับสนุน MSR และสแกนเนอร์ของ UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น เมื่อพร้อมสำหรับการป้อนข้อมูลจากอุปกรณ์ใดอุปกรณ์หนึ่งเหล่านี้ และมีการเชื่อมต่ออุปกรณ์ที่เป็นของคลาสใดคลาสหนึ่งเหล่านี้ จะสามารถใช้อุปกรณ์ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น ถ้าสแกนเนอร์บาร์โค้ด UWP เสียบเข้ากับเครื่องคอมพิวเตอร์ Windows 10 และมีการตั้งค่าคอนฟิกบาร์โค้ดสำหรับ Modern POS สแกนเนอร์บาร์โค้ดจะเปิดใช้งานบนหน้าจอการเข้าสู่ระบบ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>No additional setup is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ต้องตั้งค่าเพิ่มเติม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Additional classes of point of service UWP devices are being added to Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขณะนี้มีการเพิ่มคลาสของอุปกรณ์ UWP จุดบริการลงใน Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>These classes include classes for cash drawers and receipt printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลาสเหล่านี้รวมถึงคลาสสำหรับลิ้นชักเงินสดและเครื่องพิมพ์ใบเสร็จ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Support for these new device classes in Modern POS is pending.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนสำหรับคลาสของอุปกรณ์ใหม่เหล่านี้ใน Modern POS ยังค้างอยู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Keyboard wedge</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์จะส่งข้อมูลไปยังคอมพิวเตอร์ราวกับว่าข้อมูลนั้นถูกพิมพ์บนแป้นพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น โดยค่าเริ่มต้น ฟิลด์ที่ใช้งานอยู่ที่ POS จะได้รับข้อมูลที่ถูกสแกนหรือรูด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในบางกรณี ลักษณะการทำงานนี้อาจทำให้มีการสแกนชนิดของข้อมูลที่ไม่ถูกต้องลงในฟิลด์ที่ไม่ถูกต้อง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>For example, a bar code might be scanned into a field that is intended for input of credit card data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น อาจมีการสแกนบาร์โค้ดลงในฟิลด์ที่มีไว้สำหรับการป้อนข้อมูลบัตรเครดิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในหลายกรณี มีตรรกะที่ POS ที่กำหนดว่าข้อมูลที่ถูกสแกนหรือรูดเป็นบาร์โค้ดหรือการรูดบัตรหรือไม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Therefore, the data is handled correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น ข้อมูลจะถูกจัดการอย่างถูกต้อง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม เมื่ออุปกรณ์ถูกตั้งค่าเป็น OPOS แทนอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ จะมีการควบคุมวิธีการใช้ข้อมูลจากอุปกรณ์เหล่านั้นมากขึ้น เนื่องจากส่วนใหญ่ "ทราบ" เกี่ยวกับอุปกรณ์ที่เป็นจุดเริ่มของข้อมูล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น ข้อมูลจากสแกนเนอร์บาร์โค้ดจะถูกจดจำเป็นบาร์โค้ดโดยอัตโนมัติ และสามารถพบเรกคอร์ดที่เชื่อมโยงในฐานข้อมูลได้อย่างง่ายดายและรวดเร็วขึ้นถ้าใช้การค้นหาสายอักขระทั่วไป ดังเช่นในกรณีของอุปกรณ์เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Native printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์เดิม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถตั้งค่าคอนฟิกเดิม (หรือ "อุปกรณ์" เมื่อชนิดถูกตั้งชื่อในโพรไฟล์ฮาร์ดแวร์) เพื่อพร้อมท์ให้ผู้ใช้เลือกเครื่องพิมพ์ที่จะถูกตั้งค่าคอนฟิกสำหรับคอมพิวเตอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>When a printer of the <bpt id="p1">**</bpt>Device<ept id="p1">**</ept> type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อเครื่องพิมพ์ของชนิด <bpt id="p1">**</bpt>อุปกรณ์<ept id="p1">**</ept> มีการตั้งค่าคอนฟิก ถ้า Modern POS พบคำสั่งพิมพ์ ระบบจะพร้อมต์ให้ผู้ใช้เลือกเครื่องพิมพ์ในรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>This behavior differs from the behavior for Windows drivers, because the <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> printer type in the hardware profile doesn't show a list of printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลักษณะการทำงานนี้แตกต่างจากลักษณะการทำงานสำหรับโปรแกรมควบคุมของ Windows เนื่องจากชนิดของเครื่องพิมพ์ <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> ในโพรไฟล์ฮาร์ดแวร์ไม่แสดงรายการของเครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Instead, it requires that a named printer be provided in the <bpt id="p1">**</bpt>Device name<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แต่จำเป็นต้องมีการระบุเครื่องพิมพ์ที่มีชื่อในฟิลด์ <bpt id="p1">**</bpt>ชื่ออุปกรณ์<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>The <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> device type is used for printers only.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชนิดของอุปกรณ์ <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> ใช้สำหรับเครื่องพิมพ์เท่านั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows ในโพรไฟล์ฮาร์ดแวร์ ต้องมีการระบุชื่อเครื่องพิมพ์เฉพาะ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อ Modern POS พบเหตุการณ์การพิมพ์ ถ้ามีการตั้งค่าคอนฟิกเครื่องพิมพ์ของ Windows เหตุการณ์จะถูกส่งผ่านไปยังเครื่องพิมพ์ Windows ที่ระบุ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>The user won't be prompted to select a printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ใช้จะไม่ได้รับพร้อมท์ให้เลือกเครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้ลิ้นชักเงินสดที่ระบุเครือข่ายได้ เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านเครือข่าย ทั้งโดยผ่านสถานีฮาร์ดแวร์ Interprocess Communications (IPC) ที่มีอยู่ใน Modern POS สำหรับแอพลิเคชัน Windows โดยตรง หรือโดยผ่านสถานีฮาร์ดแวร์ของ IIS สำหรับไคลเอนต์ Modern POS อื่น ๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Hardware station deployment options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวเลือกการปรับใช้สถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>IPC (built-in)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC (ในตัว)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ Interprocess Communications (IPC) ถูกสร้างขึ้นใน Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการใช้สถานีฮาร์ดแวร์ IPC ให้กำหนดโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสดที่จะใช้ Modern POS สำหรับแอพลิเคชัน Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Then create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the store where the register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากนั้น สร้างสถานีฮาร์ดแวร์ของชนิด <bpt id="p1">**</bpt>เฉพาะเจาะจง<ept id="p1">**</ept> สำหรับร้านค้าที่จะใช้เครื่องบันทึกเงินสดนั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณเริ่มใช้งาน Modern POS สถานีฮาร์ดแวร์ IPC จะเปิดใช้งาน และอุปกรณ์ต่อพ่วง POS ที่ได้รับการตั้งค่าคอนฟิกจะพร้อมใช้งาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>If you temporarily don't require the local hardware for some reason, use the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation to turn off the hardware station capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณไม่ต้องการฮาร์ดแวร์ในพื้นที่ชั่วคราวด้วยเหตุผลบางประการ ให้ใช้การดำเนินงาน <bpt id="p1">**</bpt>จัดการสถานีฮาร์ดแวร์<ept id="p1">**</ept> เพื่อปิดความสามารถของสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS ยังสามารถใช้สถานีฮาร์ดแวร์ IPC เพื่อสื่อสารโดยตรงกับอุปกรณ์ต่อพ่วงของเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>IIS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>You can use the IIS or stand-alone version of the hardware station in two ways.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้ IIS หรือสถานีฮาร์ดแวร์รุ่นสแตนด์อะโลนได้สองวิธี</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอธิบาย "IIS" บ่งชี้ว่า แอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ผ่านทาง Microsoft Internet Information Services</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอพลิเคชันของ POS เชื่อมต่อกับสถานีฮาร์ดแวร์ IIS ผ่านทางบริการเว็บที่รันบนคอมพิวเตอร์ที่อุปกรณ์เชื่อมต่ออยู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการใช้ IIS จะสามารถใช้อุปกรณ์ต่อพ่วงขายปลีกที่เชื่อมต่อไปยังสถานีฮาร์ดแวร์ได้โดยเครื่องบันทึกเงินสด POS ที่อยู่บนเครือข่ายเดียวกันโดยเป็นสถานีฮาร์ดแวร์ IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เนื่องจากเฉพาะ Modern POS สำหรับ Windows มีการสนับสนุนในตัวสำหรับอุปกรณ์ต่อพ่วงขายปลีก แอพลิเคชัน Modern POS อื่น ๆ ทั้งหมดจะต้องใช้สถานีฮาร์ดแวร์ IIS ในการสื่อสารกับอุปกรณ์ต่อพ่วง POS ที่มีการตั้งค่าคอนฟิกในโพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น แต่ละอินสแตนซ์ของสถานีฮาร์ดแวร์ IIS กำหนดให้คอมพิวเตอร์รันบริการเว็บและแอพลิเคชันที่สื่อสารกับอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>The IIS hardware station is required for all non-Windows Modern POS applications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องใช้สถานีฮาร์ดแวร์ IIS สำหรับแอพลิเคชันที่ไม่ใช่ Modern POS ของ Windows ทั้งหมด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Dedicated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เฉพาะเจาะจง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Modern POS uses hardware stations of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type to detect that peripherals are directly connected to the computer where the app is being used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS ใช้สถานีฮาร์ดแวร์ชนิด <bpt id="p1">**</bpt>เฉพาะเจาะจง<ept id="p1">**</ept> เพื่อตรวจสอบว่าอุปกรณ์ต่อพ่วงเชื่อมต่อโดยตรงไปยังคอมพิวเตอร์ที่กำลังใช้แอพอยู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>However, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type can also be used for IIS hardware stations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม ชนิด <bpt id="p1">**</bpt>เฉพาะเจาะจง<ept id="p1">**</ept> ยังอาจถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวรที่ใช้ Cloud POS เป็นแอพลิเคชัน POS ชนิดของสถานีฮาร์ดแวร์ <bpt id="p1">**</bpt>เฉพาะเจาะจง<ept id="p1">**</ept> จะถูกใช้สำหรับสถานีฮาร์ดแวร์ IIS ที่มีการปรับใช้บนคอมพิวเตอร์เดียวกันที่กำลังรัน Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากมุมมองอุปกรณ์ต่อพ่วงขายปลีก สถานีฮาร์ดแวร์เฉพาะเจาะจงของ IIS มีการสนับสนุนของอุปกรณ์ต่อพ่วงขายปลีกที่ดีกว่าสำหรับสถานการณ์จำลองของ POS ดั้งเดิมแบบถาวร</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Dedicated hardware stations support all peripherals that are supported in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์เฉพาะเจาะจงสนับสนุนอุปกรณ์ต่อพ่วงทั้งหมดที่ได้รับการสนับสนุนในโพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Shared</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ที่มีส่วนแบ่ง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ที่ใช้ร่วมกันมีไว้เพื่อให้ใช้โดยอุปกรณ์ POS หลายรายการผ่านหลักสูตรของวัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ที่ใช้ร่วมกันจะได้รับการปรับให้เหมาะสมเพื่อสนับสนุนเฉพาะลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณไม่สามารถเชื่อมต่อกับสแกนเนอร์บาร์โค้ดแบบสแตนด์อโลน MSR จอแสดงผลรายการ สเกล หรืออุปกรณ์อื่น ๆ ได้โดยตรง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มิฉะนั้น ความขัดแย้งจะเกิดขึ้นเมื่ออุปกรณ์ POS หลายรายการพยายามอ้างสิทธิ์อุปกรณ์ต่อพ่วงเหล่านั้นในเวลาเดียวกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Here is how conflicts are managed for supported devices:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ต่อไปนี้เป็นวิธีจัดการความขัดแย้งของอุปกรณ์ที่ได้รับการสนับสนุน:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source><bpt id="p1">**</bpt>Cash drawer<ept id="p1">**</ept> – The cash drawer is opened via an event that is sent to the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ลิ้นชักเงินสด<ept id="p1">**</ept> – เปิดลิ้นชักเงินสดผ่านเหตุการณ์ที่จะถูกส่งไปยังอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ปัญหาเดียวที่อาจเกิดขึ้นเมื่อมีการเรียกลิ้นชักเงินสดจะเกิดขึ้นถ้าลิ้นชักเงินสดถูกเปิดไว้แล้ว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>In the case of shared hardware stations, the cash drawer should be set to <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ลิ้นชักเงินสดควรถูกตั้งค่าเป็น <bpt id="p1">**</bpt>ที่ใช้ร่วมกัน<ept id="p1">**</ept> ในโพรไฟล์ฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่านี้ป้องกันไม่ให้ POS ตรวจสอบว่าลิ้นชักเงินสดถูกเปิดอยู่แล้วหรือไม่เมื่อส่งคำสั่งเปิด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source><bpt id="p1">**</bpt>Receipt printer<ept id="p1">**</ept> – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>เครื่องพิมพ์ใบเสร็จ<ept id="p1">**</ept> – ถ้ามีคำสั่งการพิมพ์ใบเสร็จสองรายการถูกส่งไปยังสถานีฮาร์ดแวร์พร้อมกัน คำสั่งใดคำสั่งหนึ่งอาจสูญหาย ขึ้นอยู่กับอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Some devices have internal memory or pooling that can prevent this issue.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์บางอย่างมีหน่วยความจำภายในหรือการรวมที่สามารถป้องกันไม่ให้เกิดปัญหานี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคำสั่งพิมพ์ไม่เสร็จเรียบร้อย พนักงานเก็บเงินจะได้รับข้อความแสดงข้อผิดพลาดและสามารถลองคำสั่งพิมพ์จาก POS อีกครั้ง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source><bpt id="p1">**</bpt>Payment terminal<ept id="p1">**</ept> – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>เทอร์มินัลการชำระเงิน<ept id="p1">**</ept> – ถ้าพนักงานเก็บเงินพยายามที่จะชำระเงินธุรกรรมในเทอร์มินัลการชำระเงินที่ถูกใช้แล้ว จะมีข้อความแจ้งพนักงานเก็บเงินให้ทราบว่ากำลังมีการใช้เทอร์มินัลและจะขอให้พนักงานเก็บเงินลองอีกครั้งในภายหลัง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยปกติ พนักงานเก็บเงินจะสามารถเห็นว่าเทอร์มินัลกำลังถูกใช้แล้ว และจะรอจนกว่าธุรกรรมอื่น ๆ เสร็จสมบูรณ์ก่อนที่จะพยายามชำระเงินอีกครั้ง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีการวางแผนการตรวจสอบสำหรับรุ่นต่อไป เพื่อตรวจสอบว่าอุปกรณ์ที่ไม่ได้รับการสนับสนุนจะถูกตั้งค่าสำหรับโพรไฟล์ฮาร์ดแวร์ที่ถูกแม็ปไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าตรวจพบอุปกรณ์ใด ๆ ที่ไม่ได้รับการสนับสนุน ผู้ใช้จะได้รับข้อความที่แจ้งว่าอุปกรณ์ไม่ได้รับการสนับสนุนสำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>In the case of shared hardware stations, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> at the register level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีของสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ตัวเลือก <bpt id="p1">**</bpt>เลือกเมื่อมีการชำระเงิน<ept id="p1">**</ept> จะถูกตั้งค่าเป็น <bpt id="p2">**</bpt>ใช่<ept id="p2">**</ept> ในระดับเครื่องบันทึกเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากนั้นระบบจะพร้อมต์ให้ผู้ใช้ POS เลือกสถานีฮาร์ดแวร์เมื่อมีการเลือกการชำระเงินสำหรับธุรกรรมที่ POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการเลือกสถานีฮาร์ดแวร์ในเวลาที่มีการชำระเงินเท่านั้น การเลือกสถานีฮาร์ดแวร์จะถูกเพิ่มโดยตรงไปยังลำดับงาน POS สำหรับสถานการณ์จำลองแบบเคลื่อนที่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการบนเทอร์มินัลการชำระเงินไม่ได้ถูกใช้สำหรับสถานการณ์จำลองที่ใช้ร่วมกันโดยเป็นผลประโยชน์เพิ่มเติม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้ามีการใช้เทอร์มินัลการชำระเงินเป็นจอแสดงผลรายการ ผู้ใช้รายอื่นอาจถูกบล็อกไม่ให้ใช้เทอร์มินัลดังกล่าวจนกว่าธุรกรรมจะเสร็จสมบูรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>In mobile scenarios, lines might be added to a transaction over a longer period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในสถานการณ์จำลองแบบเคลื่อนที่ อาจมีการเพิ่มรายการลงในธุรกรรมในรอบระยะเวลาที่นานขึ้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Therefore, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is required in order to ensure optimum device availability.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้นจึงจำเป็นต้องใช้ตัวเลือก <bpt id="p1">**</bpt>เลือกเมื่อมีการชำระเงิน<ept id="p1">**</ept> เพื่อรับประกันถึงความพร้อมใช้งานของอุปกรณ์ที่ดีที่สุด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Network peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วงของเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การกำหนดเครือข่ายสำหรับอุปกรณ์ในโพรไฟล์ฮาร์ดแวร์ช่วยให้สามารถเชื่อมต่อลิ้นชักเงินสด เครื่องพิมพ์ใบเสร็จ และเทอร์มินัลการชำระเงินผ่านการเชื่อมต่อเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Modern POS for Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>You can specify IP addresses for network peripherals in two places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถระบุที่อยู่ IP สำหรับอุปกรณ์ต่อพ่วงของเครือข่ายได้สองตำแหน่ง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the <bpt id="p1">**</bpt>IP configuration<ept id="p1">**</ept> option on the Action Pane for the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าไคลเอนต์ Modern POS Windows ใช้อุปกรณ์ต่อพ่วงของเครือข่ายชุดเดียว คุณควรตั้งค่าที่อยู่ IP สำหรับอุปกรณ์เหล่านั้นโดยใช้ตัวเลือก <bpt id="p1">**</bpt>การตั้งค่าคอนฟิก IP<ept id="p1">**</ept> ในบานหน้าต่างการดำเนินการสำหรับเครื่องบันทึกเงินสดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีของอุปกรณ์เครือข่ายที่จะใช้ร่วมกันระหว่างเครื่องบันทึกเงินสด POS ต่าง ๆ สามารถแม็ปโพรไฟล์ฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายที่กำหนดไว้ได้โดยตรงไปยังสถานีฮาร์ดแวร์ที่ใช้ร่วมกันได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>To assign IP addresses, select that hardware station on the <bpt id="p1">**</bpt>Retail stores<ept id="p1">**</ept> page, and then use the <bpt id="p2">**</bpt>IP configuration<ept id="p2">**</ept> option in the <bpt id="p3">**</bpt>Hardware stations<ept id="p3">**</ept> section to specify the network devices that are assigned to that hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการกำหนดที่อยู่ IP ให้เลือกสถานีฮาร์ดแวร์บนหน้า <bpt id="p1">**</bpt>ร้านค้าปลีก<ept id="p1">**</ept> และจากนั้น ใช้ตัวเลือก <bpt id="p2">**</bpt>การตั้งค่าคอนฟิก IP<ept id="p2">**</ept> ในส่วน <bpt id="p3">**</bpt>สถานีฮาร์ดแวร์<ept id="p3">**</ept> เพื่อระบุอุปกรณ์เครือข่ายที่ถูกกำหนดให้กับสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับสถานีฮาร์ดแวร์ที่มีอุปกรณ์เครือข่ายเพียงอย่างเดียว คุณไม่จำเป็นต้องปรับใช้สถานีฮาร์ดแวร์เอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีนี้ จำเป็นต้องใช้สถานีฮาร์ดแวร์เพื่อจัดกลุ่มอุปกรณ์ที่ระบุเครือข่ายได้ตามแนวคิดตามตำแหน่งที่ตั้งในร้านค้าปลีกเท่านั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>Cloud POS, Modern POS for iOS, and Modern POS for Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS, Modern POS สำหรับ iOS และ Modern POS สำหรับ Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีตรรกะที่กระตุ้นอุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อจริงหรือที่ระบุเครือข่ายได้อยู่ในสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น สำหรับไคลเอนต์ POS ทั้งหมดยกเว้น Modern POS สำหรับ Windows สถานีฮาร์ดแวร์ IIS จะต้องถูกปรับใช้และใช้งานเพื่อเปิดใช้งาน POS เพื่อสื่อสารกับอุปกรณ์ต่อพ่วง โดยไม่คำนึงว่าอุปกรณ์ต่อพ่วงเหล่านั้นมีการเชื่อมต่อไปยังสถานีฮาร์ดแวร์หรือมีการระบุผ่านเครือข่ายจริงหรือไม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าและการตั้งค่าคอนฟิก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Hardware station installation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การติดตั้งสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>For information, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม ดู <bpt id="p1">[</bpt>การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Modern POS for Windows setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าและการตั้งค่าคอนฟิก Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>For information, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ <bpt id="p1">[</bpt>การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS<ept id="p1">](retail-modern-pos-device-activation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>OPOS device setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าและการตั้งค่าคอนฟิกอุปกรณ์ OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>For more information about OPOS components, see the "Supported interfaces" section of this document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบ OPOS ให้ดูส่วน "อินเทอร์เฟซที่ได้รับการสนับสนุน" ของเอกสารนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>Typically, OPOS drivers are provided by the device manufacturer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยทั่วไปแล้ว โปรแกรมควบคุม OPOS มีไว้ให้โดยผู้ผลิตอุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อมีการติดตั้งโปรแกรมควบคุมอุปกรณ์ OPOS ระบบจะเพิ่มคีย์ไปยังรีจิสทรีของ Windows ในตำแหน่งใดตำแหน่งหนึ่งต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source><bpt id="p1">**</bpt>32-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ระบบ 32 บิต:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source><bpt id="p1">**</bpt>64-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ระบบ 64 บิต:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภายในตำแหน่งรีจิสทรีของ ServiceOPOS อุปกรณ์ที่มีการตั้งค่าคอนฟิกจะถูกจัดการตามคลาสของอุปกรณ์ OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>Multiple device drivers are saved.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุมอุปกรณ์หลายรายการจะถูกบันทึก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>Supported scenarios by hardware station type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานการณ์จำลองที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source>Client support – IPC hardware station vs. IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนไคลเอนต์ – สถานีฮาร์ดแวร์ของ IPC เทียบกับสถานีฮาร์ดแวร์ของ IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>The following table shows the topologies and deployment scenarios that are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตารางต่อไปนี้แสดงโทโพโลยีและสถานการณ์จำลองการปรับใช้ที่ได้รับการสนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>Client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลูกค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>IPC hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ของ IPC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ของ IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>Windows app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอพของ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>Network peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วงของเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถสนับสนุนอุปกรณ์ต่อพ่วงของเครือข่ายได้โดยตรงโดยใช้สถานีฮาร์ดแวร์ที่มีอยู่ในแอพลิเคชัน Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>For all other clients, you must deploy an IIS hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับไคลเอนต์อื่น ๆ ทั้งหมด คุณต้องปรับใช้สถานีฮาร์ดแวร์ของ IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>Client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลูกค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>IPC hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ของ IPC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ของ IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>Windows app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอพของ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source>Supported device types by hardware station type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชนิดของอุปกรณ์ที่ได้รับการสนุบสนุนโดยชนิดของสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลาสของอุปกรณ์ที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟสที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>Device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์ 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>Device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>Dual display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลแบบคู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MSR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (ไม่จำเป็นต้องตั้งค่า)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">ผู้ออกตั๋วเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>หมายเหตุ:<ept id="p1">&lt;/strong&gt;</ept> สามารถตั้งค่าได้เพียงลิ้นชักเดียว ถ้า <bpt id="p2">&lt;strong&gt;</bpt>ใช้กะที่ใช้ร่วมกัน<ept id="p2">&lt;/strong&gt;</ept> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">ลิ้นชัก 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
+        <target logoport:matchpercent="90" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>หมายเหตุ:<ept id="p1">&lt;/strong&gt;</ept> สามารถตั้งค่าได้เพียงลิ้นชักเดียว ถ้า <bpt id="p2">&lt;strong&gt;</bpt>ใช้กะที่ใช้ร่วมกัน<ept id="p2">&lt;/strong&gt;</ept> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (ไม่จำเป็นต้องตั้งค่า)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source>Scanner 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์ 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (ไม่จำเป็นต้องตั้งค่า)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์ (ไม่จำเป็นต้องตั้งค่า)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สเกล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แป้นกดรหัส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>OPOS (Support is provided through customization of the payment connector.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การเก็บบันทึกลายเซ็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนอุปกรณ์แบบกำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "เฉพาะเจาะจง" จะมีความสัมพันธ์แบบหนึ่งต่อหนึ่งระหว่างไคลเอนต์ POS และสถานีฮาร์ดแวร์นี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">คลาสของอุปกรณ์ที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟสที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>Printer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>หมายเหตุ:<ept id="p1">&lt;/strong&gt;</ept> สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้ของสถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์ 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>Line display</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>MSR</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">MSR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">ผู้ออกตั๋วเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>หมายเหตุ:<ept id="p1">&lt;/strong&gt;</ept> สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับโพร์ไฟล์ฮาร์ดแวร์แต่ละรายการ ถ้า <bpt id="p2">&lt;strong&gt;</bpt>ใช้กะที่ใช้ร่วมกัน<ept id="p2">&lt;/strong&gt;</ept> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชัก 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>Scanner 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์ 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สเกล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แป้นกดรหัส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source>OPOS (Support is provided through customization of the payment connector.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (มีการสนับสนุนผ่านการเลือกกำหนดของตัวเชื่อมต่อการชำระเงิน)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>Sig.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sig</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เก็บบันทึก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนอุปกรณ์แบบกำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>All Modern POS clients that have a shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source>When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อสถานีฮาร์ดแวร์ของ IIS เป็นแบบ "ใช้ร่วมกัน" อุปกรณ์หลายรายการสามารถใช้สถานีฮาร์ดแวร์พร้อมกันได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source>For this scenario, you should use only the devices that are listed in the following table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับสถานการณ์จำลองนี้ คุณควรใช้เฉพาะอุปกรณ์ที่ระบุอยู่ในตารางต่อไปนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source>If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณพยายามที่จะใช้อุปกรณ์ที่ไม่ได้แสดงรายการไว้ที่นี่ เช่นสแกนเนอร์บาร์โค้ดและ MSR ร่วมกัน ข้อผิดพลาดจะเกิดขึ้นเมื่ออุปกรณ์หลายรายการพยายามที่จะอ้างสิทธิ์ของอุปกรณ์ต่อพ่วงเดียวกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>In the future, such a configuration will be explicitly prevented.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในอนาคต จะมีการป้องกันการตั้งค่าคอนฟิกดังกล่าวอย่างชัดเจน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">คลาสของอุปกรณ์ที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟสที่สนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Printer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source>
+        <target logoport:matchpercent="91" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>หมายเหตุ:<ept id="p1">&lt;/strong&gt;</ept> สำหรับเครื่องพิมพ์ของ Windows บนเครือข่าย ผู้ใช้ของสถานีฮาร์ดแวร์จะต้องมีสิทธิ์ในการเข้าถึงเครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์ 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">โปรแกรมควบคุม Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">ผู้ออกตั๋วเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
+        <target logoport:matchpercent="91" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>หมายเหตุ:<ept id="p1">&lt;/strong&gt;</ept> สามารถตั้งค่าได้เพียงลิ้นชักเดียวสำหรับโพร์ไฟล์ฮาร์ดแวร์แต่ละรายการ ถ้า <bpt id="p2">&lt;strong&gt;</bpt>ใช้กะที่ใช้ร่วมกัน<ept id="p2">&lt;/strong&gt;</ept> ถูกตั้งค่าคอนฟิกไว้ในลิ้นชัก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชัก 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุนอุปกรณ์แบบกำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครือข่าย (สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารตัวเชื่อมต่อการชำระเงิน)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>Configuration for supported scenarios</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าคอนฟิกสำหรับสถานการณ์จำลองที่ได้รับการสนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source>For more information about how to create hardware profiles, see <bpt id="p1">[</bpt>Define and maintain channel clients, including registers and hardware stations<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างโพรไฟล์ฮาร์ดแวร์ ให้ดู <bpt id="p1">[</bpt>กำหนดและรักษาไคลเอนต์ช่องทาง รวมถึงเครื่องบันทึกเงินสดและสถานีฮาร์ดแวร์<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับ Microsoft Dynamics 365 for Retail รุ่น 1611 โพรไฟล์ของสถานีฮาร์ดแวร์จะไม่สามารถใช้ได้อีกต่อไป</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source>Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในขณะนี้ แอตทริบิวต์ที่คุณตั้งค่าไว้ในโพรไฟล์สถานีฮาร์ดแวร์ก่อนหน้านี้จะเป็นส่วนหนึ่งของสถานีฮาร์ดแวร์เอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สำหรับ Windows ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source>This configuration is the most typical configuration for traditional, fixed POS registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าคอนฟิกนี้เป็นการตั้งค่าคอนฟิกทั่วไปที่สุดสำหรับเครื่องบันทึกเงินสด POS ดั้งเดิมแบบถาวร</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>For this scenario, the hardware profile information is mapped directly to the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับสถานการณ์จำลองนี้ ข้อมูลโพรไฟล์ฮาร์ดแวร์จะถูกแม็ปโดยตรงไปยังเครื่องบันทึกเงินสดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>The EFT terminal number should also be set on the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หมายเลขเทอร์มินัล EFT ควรถูกตั้งค่าในเครื่องบันทึกเงินสดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>Create a hardware profile where all the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>Map the hardware profile to the POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แม็ปโพรไฟล์ฮาร์ดแวร์ให้กับเครื่องบันทึกเงินสด POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างสถานีฮาร์ดแวร์ของชนิด <bpt id="p1">**</bpt>เฉพาะเจาะจง<ept id="p1">**</ept> สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source>A description is optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่จำเป็นต้องมีคำอธิบาย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source>You don't have to set any other properties on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณไม่จำเป็นต้องตั้งค่าคุณสมบัติอื่นๆ บนสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source>All other required information, such as the hardware profile, will come from the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลที่จำเป็นอื่นๆ ทั้งหมด เช่น โพรไฟล์ฮาร์ดแวร์ จะมาจากเครื่องบันทึกเงินสดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>ไอทีการขายปลีก<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>กำหนดการกระจาย<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกกำหนดการกระจาย <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="500">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>รันเดี๋ยวนี้<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="501">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกกำหนดการกระจาย <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="502">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>รันเดี๋ยวนี้<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="503">
+          <source>Install and activate Modern POS for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ติดตั้งและเปิดใช้งาน Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="504">
+          <source>Start Modern POS for Windows, and begin to use the connected peripheral devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เริ่มการทำงานของ Modern POS สำหรับ Windows และเริ่มต้นการใช้อุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="505">
+          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่เฉพาะเจาะจง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="506">
+          <source>This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ที่ใช้โดยเครื่องบันทึกเงินสด POS หนึ่งโดยเฉพาะ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="507">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="508">
+          <source>Create a hardware profile where all the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็นทั้งหมด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="509">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างสถานีฮาร์ดแวร์ของชนิด <bpt id="p1">**</bpt>เฉพาะเจาะจง<ept id="p1">**</ept> สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="510">
+          <source>On the dedicated hardware station, set the following properties:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนสถานีฮาร์ดแวร์เฉพาะเจาะจง ให้ตั้งค่าคุณสมบัติต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="511">
+          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ชื่อโฮสต์<ept id="p1">**</ept> – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="512">
+          <source>Cloud POS can resolve <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept> to determine the local computer where Cloud POS is running.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS สามารถแก้ไข <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept> เพื่อตรวจสอบเครื่องคอมพิวเตอร์เฉพาะที่ที่ซึ่ง Cloud POS ทำงานได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="513">
+          <source>However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม ใบรับรองที่จำเป็นในการซ่อมแซม Cloud POS กับสถานีฮาร์ดแวร์จะต้องมี "Localhost" เป็นชื่อคอมพิวเตอร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="514">
+          <source>To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการหลีกเลี่ยงปัญหา เราขอแนะนำให้คุณทำรายการอินสแตนซ์ของแต่ละสถานีฮาร์ดแวร์เฉพาะเจาะจงไว้สำหรับร้านค้าตามความจำเป็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="515">
+          <source>For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับแต่ละสถานีฮาร์ดแวร์ ชื่อโฮสต์ควรเป็นชื่อคอมพิวเตอร์ที่เฉพาะเจาะจงที่จะมีการปรับใช้สถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="516">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>พอร์ต<ept id="p1">**</ept> – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="517">
+          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>โพรไฟล์ฮาร์ดแวร์<ept id="p1">**</ept> – ถ้าโพรไฟล์ฮาร์ดแวร์ที่ไม่ได้มีให้ไว้บนสถานีฮาร์ดแวร์เอง จะใช้โพรไฟล์ฮาร์ดแวร์ที่กำหนดให้กับเครื่องบันทึกเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="518">
+          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>หมายเลข EFT POS<ept id="p1">**</ept> – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="519">
+          <source>This ID is provided by the credit card processor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="520">
+          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ชื่อบรรจุภัณฑ์<ept id="p1">**</ept> – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="521">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>ไอทีการขายปลีก<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>กำหนดการกระจาย<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="522">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกกำหนดการกระจาย <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="523">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>รันเดี๋ยวนี้<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="524">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกกำหนดการกระจาย <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="525">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>รันเดี๋ยวนี้<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="526">
+          <source>Install the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ติดตั้งสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="527">
+          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู <bpt id="p1">[</bpt>การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="528">
+          <source>Install and activate Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ติดตั้งและเปิดใช้งาน Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="529">
+          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู <bpt id="p1">[</bpt>การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS<ept id="p1">](retail-modern-pos-device-activation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="530">
+          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก <bpt id="p1">**</bpt>ดำเนินงานโดยไม่มีลิ้นชัก<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="531">
+          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เริ่มการดำเนินงาน <bpt id="p1">**</bpt>จัดการสถานีฮาร์ดแวร์<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="532">
+          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>จัดการ<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="533">
+          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="534">
+          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก <bpt id="p1">**</bpt>คู่<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="535">
+          <source>After the hardware station is paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่จับคู่สถานีฮาร์ดแวร์แล้ว คลิก <bpt id="p1">**</bpt>ปิด<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="536">
+          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="537">
+          <source>All Modern POS clients that have a shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไคลเอนต์ Modern POS ทั้งหมดที่มีสถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="538">
+          <source>This configuration can be used for all Modern POS clients that share hardware stations with other devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้การตั้งค่าคอนฟิกนี้สำหรับไคลเอนต์ Modern POS ทั้งหมดที่ใช้สถานีฮาร์ดแวร์ร่วมกันกับอุปกรณ์อื่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="539">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากต้องการตั้งค่าการตั้งค่าคอนฟิกนี้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="540">
+          <source>Create a hardware profile where the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างโพรไฟล์ฮาร์ดแวร์ที่มีการตั้งค่าคอนฟิกอุปกรณ์ต่อพ่วงที่จำเป็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="541">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างสถานีฮาร์ดแวร์ของชนิด <bpt id="p1">**</bpt>ที่ใช้ร่วมกัน<ept id="p1">**</ept> สำหรับร้านค้าปลีกที่จะใช้เครื่องบันทึกเงินสด POS นั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="542">
+          <source>On the shared hardware station, set the following properties:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ให้ตั้งค่าคุณสมบัติต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="543">
+          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ชื่อโฮสต์<ept id="p1">**</ept> – ชื่อของคอมพิวเตอร์โฮสต์ที่สถานีฮาร์ดแวร์จะทำงาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="544">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Text that will help identify the hardware station, such as <bpt id="p2">**</bpt>Returns<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Front of store<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>คำอธิบาย<ept id="p1">**</ept> – ข้อความที่จะช่วยระบุสถานีฮาร์ดแวร์ เช่น <bpt id="p2">**</bpt>การส่งคืนสินค้า<ept id="p2">**</ept> หรือ <bpt id="p3">**</bpt>หน้าร้านค้า<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="545">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>พอร์ต<ept id="p1">**</ept> – พอร์ตที่ใช้สำหรับสถานีฮาร์ดแวร์เพื่อสื่อสารกับไคลเอนต์ Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="546">
+          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – For shared hardware stations, each hardware station should have a hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>โพรไฟล์ฮาร์ดแวร์<ept id="p1">**</ept> – สำหรับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน แต่ละสถานีฮาร์ดแวร์ควรมีโพรไฟล์ฮาร์ดแวร์หนึ่งรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="547">
+          <source>Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถใช้โพรไฟล์ฮาร์ดแวร์ร่วมกันระหว่างสถานีฮาร์ดแวร์ต่าง ๆ แต่จะต้องมีการแม็ปสถานีฮาร์ดแวร์แต่ละรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="548">
+          <source>In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนั้น เราขอแนะนำให้คุณใช้กะที่ใช้ร่วมกันเมื่ออุปกรณ์หลายรายการใช้สถานีฮาร์ดแวร์ที่ใช้ร่วมกันเดียวกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="549">
+          <source>To set up a shared shift, click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการตั้งค่ากะที่ใช้ร่วมกัน คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การตั้งค่า POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>โพรไฟล์ POS<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>โพรไฟล์ฮาร์ดแวร์<ept id="p5">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="550">
+          <source>For each shared hardware profile, select the cash drawer, and set the <bpt id="p1">**</bpt>Shared shift drawer<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับแต่ละโพรไฟล์ของฮาร์ดแวร์ที่ใช้ร่วมกัน เลือกลิ้นชักเงินสด และตั้งค่าตัวเลือก <bpt id="p1">**</bpt>ลิ้นชักของกะที่ใช้ร่วมกัน<ept id="p1">**</ept> เป็น <bpt id="p2">**</bpt>ใช่<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="551">
+          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>หมายเลข EFT POS<ept id="p1">**</ept> – รหัสเทอร์มินัล EFT ที่จะใช้เมื่อมีการตรวจสอบ EFT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="552">
+          <source>This ID is provided by the credit card processor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รหัสนี้ได้มาจากตัวประมวลผลบัตรเครดิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="553">
+          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ชื่อบรรจุภัณฑ์<ept id="p1">**</ept> – บรรจุภัณฑ์สถานีฮาร์ดแวร์ที่จะใช้เมื่อมีการปรับใช้สถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="554">
+          <source>Repeat steps 2 and 3 for each additional hardware station that is required in the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทำซ้ำขั้นตอนที่ 2 และ 3 สำหรับสถานีฮาร์ดแวร์เพิ่มเติมแต่ละรายการที่ต้องใช้ในร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="555">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>ไอทีการขายปลีก<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>กำหนดการกระจาย<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="556">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกกำหนดการกระจาย <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="557">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>รันเดี๋ยวนี้<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="558">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกกำหนดการกระจาย <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="559">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>รันเดี๋ยวนี้<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงลงใน POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="560">
+          <source>Install the hardware station on each host computer that you set up in steps 2 and 3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ติดตั้งสถานีฮาร์ดแวร์บนคอมพิวเตอร์โฮสต์แต่ละเครื่องที่คุณตั้งค่าไว้ในขั้นตอนที่ 2 และ 3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="561">
+          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งสถานีฮาร์ดแวร์ ให้ดู <bpt id="p1">[</bpt>การตั้งค่าคอนฟิกและการติดตั้งสถานีฮาร์ดแวร์การขายปลีก<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="562">
+          <source>Install and activate Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ติดตั้งและเปิดใช้งาน Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="563">
+          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง Modern POS ให้ดู <bpt id="p1">[</bpt>การตั้งค่าคอนฟิกและการติดตั้ง Retail Modern POS<ept id="p1">](retail-modern-pos-device-activation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="564">
+          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไปยัง Modern POS และเลือก <bpt id="p1">**</bpt>ดำเนินงานโดยไม่มีลิ้นชัก<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="565">
+          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เริ่มการดำเนินงาน <bpt id="p1">**</bpt>จัดการสถานีฮาร์ดแวร์<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="566">
+          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>จัดการ<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="567">
+          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนหน้าการจัดการสถานีฮาร์ดแวร์ ตั้งค่าตัวเลือกเพื่อเปิดสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="568">
+          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกสถานีฮาร์ดแวร์ที่จะใช้ และจากนั้น คลิก <bpt id="p1">**</bpt>คู่<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="569">
+          <source>Repeat step 14 for each hardware station that Modern POS will use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทำซ้ำขั้นตอนที่ 14 สำหรับสถานีฮาร์ดแวร์แต่ละเครื่องที่ Modern POS จะใช้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="570">
+          <source>After all the required hardware stations are paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่มีการจับคู่สถานีฮาร์ดแวร์ที่จำเป็นทั้งหมดแล้ว คลิก <bpt id="p1">**</bpt>ปิด<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="571">
+          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนหน้าการเลือกสถานีฮาร์ดแวร์ คลิกสถานีฮาร์ดแวร์ที่เพิ่งเลือกเพื่อเปิดใช้งาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="572">
+          <source>If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าอุปกรณ์มักจะใช้สถานีฮาร์ดแวร์ที่แตกต่างกัน เราขอแนะนำให้คุณตั้งค่าคอนฟิก Modern POS เพื่อพร้อมท์ให้พนักงานเก็บเงินเลือกสถานีฮาร์ดแวร์ เมื่อพวกเขาเริ่มต้นกระบวนการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="573">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การตั้งค่า POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>การลงทะเบียน<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="574">
+          <source>Select the register, and then set the <bpt id="p1">**</bpt>Select upon tender<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกเครื่องบันทึกเงินสด และจากนั้น ตั้งค่าตัวเลือก <bpt id="p1">**</bpt>เลือกเมื่อมีการชำระเงิน<ept id="p1">**</ept> เป็น <bpt id="p2">**</bpt>ใช่<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="575">
+          <source>Use the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช้กำหนดการกระจาย <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> เพื่อซิงค์การเปลี่ยนแปลงไปยังฐานข้อมูลช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="576">
+          <source>Extensibility</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เพิ่มความสามารถ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="577">
+          <source>For information about extensibility scenarios for the hardware station, see <bpt id="p1">[</bpt>Hardware Station extensibility<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเกี่ยวกับสถานการณ์จำลองของความสามารถในการขยายสำหรับสถานีฮาร์ดแวร์ ให้ดู <bpt id="p1">[</bpt>ความสามารถในการขยายของสถานีฮาร์ดแวร์<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="578">
+          <source>Security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความปลอดภัย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="579">
+          <source>According to current security standards, the following settings should be used in a production environment:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตามมาตรฐานด้านความปลอดภัยปัจจุบัน การตั้งค่าต่อไปนี้ควรจะใช้ในสภาพแวดล้อมการผลิต:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="580">
+          <source>The hardware station installer will automatically make these registry edits as part of the installation through self-service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมติดตั้งสถานีฮาร์ดแวร์จะทำการแก้ไขรีจิสทรีเหล่านี้เป็นส่วนหนึ่งของการติดตั้งผ่านระบบบริการตนเองโดยอัตโนมัติ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="581">
+          <source>Secure Sockets Layer (SSL) should be disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ควรปิดใช้งาน Secure Sockets Layer (SSL)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="582">
+          <source>Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ควรเปิดใช้งานและใช้เฉพาะ Transport Layer Security (TLS) รุ่น 1.2 (หรือรุ่นสูงสุดปัจจุบัน)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="583">
+          <source>By default, SSL and all versions of TLS except TLS 1.2 are disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยค่าเริ่มต้น SSL และ TLS ทุกรุ่น ยกเว้น TLS 1.2 จะถูกปิดใช้งาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="584">
+          <source>To edit or enable these values, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการแก้ไขหรือเปิดใช้งานค่าเหล่านี้ ให้ทำตามขั้นตอนเหล่านี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="585">
+          <source>Press the Windows logo key+R to open a <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กดคีย์ โลโก้ Windows + R เพื่อเปิดหน้าต่าง <bpt id="p1">**</bpt>รัน<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="586">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในฟิลด์ <bpt id="p1">**</bpt>เปิด<ept id="p1">**</ept> พิมพ์ <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept> และจากนั้น คลิก <bpt id="p3">**</bpt>ตกลง<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="587">
+          <source>If a <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept> message box appears, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้ากล่องข้อความ <bpt id="p1">**</bpt>การควบคุมบัญชีผู้ใช้<ept id="p1">**</ept> ปรากฏขึ้น คลิก <bpt id="p2">**</bpt>ใช่<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="588">
+          <source>In the <bpt id="p1">**</bpt>Registry Editor<ept id="p1">**</ept> window, navigate to <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในหน้าต่าง <bpt id="p1">**</bpt>ตัวแก้ไขรีจิสทรี<ept id="p1">**</ept> นำทางไปยัง <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="589">
+          <source>The following keys have been automatically entered to allow for TLS 1.2 only:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คีย์ต่อไปนี้ได้ถูกป้อนโดยอัตโนมัติเพื่ออนุญาตสำหรับ TLS 1.2 เท่านั้น:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="590">
+          <source>TLS 1.2Server:Enabled=1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:Enabled=1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="591">
+          <source>TLS 1.2Server:DisabledByDefault=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:DisabledByDefault=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="592">
+          <source>TLS 1.2Client:Enabled=1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:Enabled=1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="593">
+          <source>TLS 1.2Client:DisabledByDefault=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:DisabledByDefault=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="594">
+          <source>TLS 1.1Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="595">
+          <source>TLS 1.1Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="596">
+          <source>TLS 1.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="597">
+          <source>TLS 1.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="598">
+          <source>SSL 3.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="599">
+          <source>SSL 3.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="600">
+          <source>SSL 2.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="601">
+          <source>SSL 2.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="602">
+          <source>No additional network ports should be open, unless they are required for known, specified reasons.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่มีพอร์ตเครือข่ายเพิ่มเติมใดที่ควรเปิดอยู่ เว้นแต่ว่ามีความจำเป็นเนื่องด้วยเหตุผลที่เฉพาะเจาะจงที่รับทราบ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="603">
+          <source>Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ต้องปิดใช้งานการใช้ทรัพยากรข้ามจุดเริ่มต้นร่วมกัน และต้องระบุจุดเริ่มต้นที่อนุญาตที่ได้รับการยอมรับ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="604">
+          <source>Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ควรใช้เฉพาะหน่วยงานที่ออกใบรับรองที่เชื่อถือได้เท่านั้นในการขอรับใบรับรองที่จะใช้บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="605">
+          <source>It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณจำเป็นอย่างยิ่งที่จะต้องตรวจสอบคำแนะนำด้านความปลอดภัยสำหรับ IIS และข้อกำหนดของอุตสาหกรรมบัตรชำระเงิน (PCI)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="606">
+          <source>Peripheral simulator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมจำลองอุปกรณ์ต่อพ่วง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="607">
+          <source>For information, see <bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูล ให้ดู <bpt id="p1">[</bpt>โปรแกรมจำลองอุปกรณ์ต่อพ่วงขายปลีก<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="608">
+          <source>Microsoft-tested peripheral devices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วงที่ทดสอบโดย Microsoft</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="609">
+          <source>IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ IPC (ในตัว)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="610">
+          <source>The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วงต่อไปนี้ได้รับการทดสอบโดยใช้สถานีฮาร์ดแวร์ของ IPC ที่มีอยู่ใน Modern POS สำหรับ Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="611">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="612">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="613">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="614">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="615">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="616">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="617">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="618">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="619">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="620">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="621">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="622">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="623">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="624">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="625">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="626">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="627">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="628">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="629">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="630">
+          <source>mPOP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="631">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="632">
+          <source>Connected via Bluetooth</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านบลูทูธ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="633">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="634">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="635">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="636">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">USB ที่มีการจัดการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="637">
+          <source>Bar code scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์บาร์โค้ด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="638">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="639">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="640">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="641">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="642">
+          <source>Motorola</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="643">
+          <source>DS9208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="644">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="645">
+          <source>Honeywell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Honeywell</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="646">
+          <source>1900</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1900</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="647">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="648">
+          <source>Symbol</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สัญลักษณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="649">
+          <source>LS2208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="650">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="651">
+          <source>HP Integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="652">
+          <source>E1L07AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="653">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="654">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="655">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="656">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="657">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แป้นกดรหัส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="658">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="659">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="660">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="661">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="662">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="663">
+          <source>1000SE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="664">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="665">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="666">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="667">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="668">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="669">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="670">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="671">
+          <source>Equinox</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="672">
+          <source>L5300</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="673">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="674">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="675">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="676">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="677">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="678">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="679">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="680">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="681">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="682">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="683">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชักเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="684">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="685">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="686">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="687">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="688">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="689">
+          <source>mPOP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="690">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="691">
+          <source>Connected via Bluetooth</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านบลูทูธ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="692">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="693">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="694">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="695">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="696">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="697">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="698">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="699">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="700">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="701">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="702">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="703">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="704">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="705">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="706">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="707">
+          <source>HP integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="708">
+          <source>G6U79AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="709">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="710">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="711">
+          <source>M58DC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="712">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="713">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การเก็บบันทึกลายเซ็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="714">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="715">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="716">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="717">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="718">
+          <source>Scriptel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="719">
+          <source>ST1550</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="720">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="721">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สเกล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="722">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="723">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="724">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="725">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="726">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="727">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="728">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="729">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MSR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="730">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="731">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="732">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="733">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="734">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="735">
+          <source>21073075</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="736">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="737">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="738">
+          <source>21073062</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="739">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="740">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="741">
+          <source>IDRA-334133</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="742">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="743">
+          <source>Dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ของ IIS เฉพาะเจาะจง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="744">
+          <source>The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS เฉพาะเจาะจง (ไม่ใช่ที่ใช้ร่วมกัน) กับ Modern POS สำหรับ Windows และ Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="745">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="746">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="747">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="748">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="749">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="750">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="751">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="752">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="753">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="754">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="755">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="756">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="757">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="758">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="759">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="760">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="761">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="762">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="763">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="764">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="765">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="766">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">USB ที่มีการจัดการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="767">
+          <source>Bar code scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สแกนเนอร์บาร์โค้ด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="768">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="769">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="770">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="771">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="772">
+          <source>Motorola</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="773">
+          <source>DS9208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="774">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="775">
+          <source>Symbol</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สัญลักษณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="776">
+          <source>LS2208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="777">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="778">
+          <source>HP Integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="779">
+          <source>E1L07AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="780">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="781">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แป้นกดรหัส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="782">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="783">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="784">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="785">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="786">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="787">
+          <source>1000SE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="788">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="789">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="790">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="791">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="792">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="793">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="794">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="795">
+          <source>Equinox</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="796">
+          <source>L5300</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="797">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="798">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="799">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="800">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="801">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="802">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="803">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="804">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="805">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="806">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="807">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชักเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="808">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="809">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="810">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="811">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="812">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="813">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="814">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="815">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="816">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="817">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="818">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="819">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="820">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="821">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="822">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จอแสดงผลรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="823">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="824">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="825">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="826">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="827">
+          <source>HP integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="828">
+          <source>G6U79AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="829">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="830">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="831">
+          <source>M58DC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="832">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="833">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การเก็บบันทึกลายเซ็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="834">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="835">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="836">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="837">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="838">
+          <source>Scriptel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="839">
+          <source>ST1550</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="840">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="841">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สเกล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="842">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="843">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="844">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="845">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="846">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="847">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="848">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="849">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MSR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="850">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="851">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="852">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="853">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="854">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="855">
+          <source>21073075</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="856">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="857">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="858">
+          <source>21073062</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="859">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="860">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="861">
+          <source>IDRA-334133</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="862">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="863">
+          <source>Shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ของ IIS ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="864">
+          <source>The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อุปกรณ์ต่อพ่วงต่อไปนี้ได้ถูกทดสอบโดยใช้สถานีฮาร์ดแวร์สถานีของ IIS ที่ใช้ร่วมกันกับ Modern POS สำหรับ Windows และ Cloud POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="865">
+          <source>Only a printer, payment terminal, and cash drawer are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีการสนับสนุนเฉพาะเครื่องพิมพ์ เทอร์มินัลการชำระเงิน และลิ้นชักเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="866">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="867">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="868">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="869">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="870">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="871">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="872">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="873">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="874">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="875">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="876">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="877">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="878">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="879">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="880">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="881">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="882">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="883">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="884">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="885">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="886">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="887">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">USB ที่มีการจัดการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="888">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="889">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="890">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="891">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="892">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="893">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="894">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="895">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="896">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="897">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="898">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="899">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="900">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จำเป็นต้องมีการกำหนดเองของตัวเชื่อมต่อการชำระเงิน ที่มีการเชื่อมต่อผ่านเครือข่ายและ USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="901">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชักเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="902">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="903">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="904">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินเทอร์เฟส</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="905">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อคิดเห็น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="906">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="907">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="908">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดเอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="909">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อผ่านเครือข่าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="910">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="911">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="912">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="913">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="914">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="915">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="916">
+          <source>Troubleshooting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การแก้ไขปัญหา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="917">
+          <source>Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการสำหรับการเลือก แต่จะไม่สามารถทำการจับคู่ให้เสร็จสมบูรณ์ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="918">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Verify the following list of potential failure points:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>โซลูชัน:<ept id="p1">**</ept> ตรวจสอบรายการจุดข้อผิดพลาดที่อาจมีได้ต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="919">
+          <source>The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คอมพิวเตอร์ที่กำลังรัน Modern POS เชื่อถือใบรับรองที่ใช้บนคอมพิวเตอร์ที่รันในสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="920">
+          <source>To verify this setup, in a web browser, go to the following URL: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการตรวจสอบการตั้งค่านี้ ในเว็บเบราเซอร์ ไปที่ URL ต่อไปนี้: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="921">
+          <source>This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">URL นี้ใช้ ping เพื่อตรวจสอบว่าสามารถเข้าถึงคอมพิวเตอร์ได้หรือไม่ และเบราว์เซอร์จะบ่งชี้ว่าใบรับรองเชื่อถือได้หรือไม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="922">
+          <source>(For example, in Internet Explorer, a lock icon appears in the address bar.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(ตัวอย่างเช่น ใน Internet Explorer ไอคอนล็อกจะปรากฏในแถบที่อยู่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="923">
+          <source>When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณคลิกไอคอนนี้ Internet Explorer จะตรวจสอบว่าใบรับรองนั้น ๆ ได้รับการเชื่อถือในขณะนี้หรือไม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="924">
+          <source>You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถติดตั้งใบรับรองบนคอมพิวเตอร์เฉพาะที่ได้โดยการดูรายละเอียดของใบรับรองที่แสดงอยู่)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="925">
+          <source>On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนคอมพิวเตอร์ที่รันสถานีฮาร์ดแวร์ พอร์ตที่จะถูกใช้โดยสถานีฮาร์ดแวร์จะถูกเปิดในไฟร์วอลล์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="926">
+          <source>The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ได้ติดตั้งข้อมูลบัญชีร้านค้าอย่างถูกต้องผ่านเครื่องมือติดตั้งข้อมูลร้านค้าที่รันเมื่อสิ้นสุดการทำงานของโปรแกรมติดตั้งสถานีฮาร์ดแวร์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="927">
+          <source>Modern POS can't detect the hardware station in its list for selection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS ไม่สามารถตรวจพบสถานีฮาร์ดแวร์ในรายการสำหรับการเลือก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="928">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Either of the following factors can cause this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>โซลูชัน:<ept id="p1">**</ept> ปัจจัยใดปัจจัยหนึ่งต่อไปนี้อาจทำให้เกิดปัญหานี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="929">
+          <source>The hardware station hasn't been set up correctly in headquarters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานีฮาร์ดแวร์ไม่ได้ถูกตั้งค่าอย่างถูกต้องในสำนักงานใหญ่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="930">
+          <source>Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช้ขั้นตอนก่อนหน้านี้ในหัวข้อนี้เพื่อตรวจสอบว่ามีการป้อนโพรไฟล์สถานีฮาร์ดแวร์และสถานีฮาร์ดแวร์อย่างถูกต้อง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="931">
+          <source>The jobs haven't been run to update the channel configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่มีการรันงานเพื่ออัพเดตการตั้งค่าคอนฟิกช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="932">
+          <source>In this case, run the 1070 job for channel configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีนี้ ให้รันงาน 1070 สำหรับการตั้งค่าคอนฟิกช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="933">
+          <source>Modern POS doesn't reflect new cash drawer settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS ไม่ได้แสดงการตั้งค่าลิ้นชักเงินสดใหม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="934">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Close the current batch.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>โซลูชัน:<ept id="p1">**</ept> ปิดชุดงานปัจจุบัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="935">
+          <source>Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่มีการอัพเดตการเปลี่ยนแปลงของลิ้นชักเงินสดไปยัง Modern POS จนกว่าชุดงานปัจจุบันจะถูกปิด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="936">
+          <source>Modern POS is reporting an issue with a retail peripheral</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS จะรายงานปัญหาเกี่ยวกับอุปกรณ์ต่อพ่วงขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="937">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Here are some typical causes of this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>โซลูชัน:<ept id="p1">**</ept> ต่อไปนี้คือสาเหตุทั่วไปของปัญหานี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="938">
+          <source>Make sure that other device driver configuration utilities are closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตรวจสอบให้แน่ใจว่าได้ปิดยูทิลิตีการตั้งค่าคอนฟิกโปรแกรมควบคุมอุปกรณ์อื่น ๆ แล้ว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="939">
+          <source>If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้ายูทิลิตีเหล่านี้เปิดอยู่ อาจป้องกันไม่ให้ Modern POS หรือสถานีฮาร์ดแวร์อ้างสิทธิ์ของอุปกรณ์ดังกล่าว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="940">
+          <source>If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าอุปกรณ์ต่อพ่วงขายปลีกถูกใช้ร่วมกันกับอุปกรณ์ POS หลายรายการ ให้ตรวจสอบให้แน่ใจว่าอุปกรณ์เหล่านั้นเป็นของหนึ่งในประเภทต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="941">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลิ้นชักเงินสด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="942">
+          <source>Receipt printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เครื่องพิมพ์ใบเสร็จ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="943">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เทอร์มินัลการชำระเงิน </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="944">
+          <source>If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าอุปกรณ์ต่อพ่วงไม่ได้เป็นของหนึ่งในประเภทเหล่านี้ แสดงว่าสถานีฮาร์ดแวร์ไม่ได้รับการออกแบบมาเพื่อทำให้สามารถใช้อุปกรณ์ต่อพ่วงร่วมกันระหว่างอุปกรณ์ POS หลายรายการ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="945">
+          <source>Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บางครั้ง โปรแกรมควบคุมอุปกรณ์อาจทำให้วัตถุควบคุมทั่วไป (CCO) ทำงานไม่ถูกต้อง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="946">
+          <source>If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากอุปกรณ์ถูกติดตั้งเมื่อเร็ว ๆ นี้ แต่ทำงานไม่ถูกต้อง หรือหากคุณสังเกตเห็นปัญหาอื่น ๆ คุณมักจะสามารถแก้ไขปัญหานี้โดยการติดตั้ง CCO ใหม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="947">
+          <source>To download the CCOs, visit <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการดาวน์โหลด CCOs ให้เยี่ยมชม <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="948">
+          <source>If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณทำการเปลี่ยนแปลงอุปกรณ์ต่อพ่วงบ่อยในระหว่างการทดสอบหรือการแก้ไขปัญหาเบื้องต้น คุณอาจต้องรีเซ็ต IIS แทนการรอการรีเฟรชตัวเองของแคช</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="949">
+          <source>To reset IIS, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการรีเซ็ต IIS ให้ทำตามขั้นตอนเหล่านี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="950">
+          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากเมนู <bpt id="p1">**</bpt>เริ่มต้น<ept id="p1">**</ept> พิมพ์ <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="951">
+          <source>In the search results, right-click <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Run as administrator<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในผลลัพธ์การค้นหา คลิกขวา <bpt id="p1">**</bpt>พร้อมต์คำสั่ง<ept id="p1">**</ept> แล้วคลิก <bpt id="p2">**</bpt>รันในฐานะผู้ดูแลระบบ<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="952">
+          <source>In the <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept> window, type <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> and then press Enter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในหน้าต่าง <bpt id="p1">**</bpt>พร้อมต์คำสั่ง<ept id="p1">**</ept> พิมพ์ <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> แล้วกด Enter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="953">
+          <source>After IIS has restarted, restart Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจาก IIS เริ่มการทำงานใหม่แล้ว ให้เริ่มการทำงานของ Modern POS ใหม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="954">
+          <source>While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในขณะที่คุณกำลังทำการเปลี่ยนแปลงบ่อยครั้งกับอุปกรณ์ต่อพ่วง ถ้าคุณมักจะเริ่มต้นและสิ้นสุดการทำงานของไคลเอนต์ POS กระบวนการ dllhost จากเซสชันก่อนหน้าของ POS อาจรบกวนเซสชันปัจจุบัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="955">
+          <source>In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีนี้ อุปกรณ์อาจไม่สามารถใช้งานได้จนกว่าคุณจะปิดโฮสต์ไลบรารีแบบไดนามิกลิงค์ (DLL) ที่มีการจัดการเซสชันก่อนหน้านี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="956">
+          <source>To close the DLL host, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการปิดโฮสต์ DLL ให้ทำตามขั้นตอนเหล่านี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="957">
+          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>Task manager<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากเมนู <bpt id="p1">**</bpt>เริ่มต้น<ept id="p1">**</ept> พิมพ์ <bpt id="p2">**</bpt>ตัวจัดการงาน<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="958">
+          <source>In the search results, click <bpt id="p1">**</bpt>Task manager<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในผลลัพธ์การค้นหา คลิก <bpt id="p1">**</bpt>ตัวจัดการงาน<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="959">
+          <source>In Task manager, on the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> tab, click the column header that is labeled <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> to sort the table alphabetically by name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในตัวจัดการงาน บนแท็บ <bpt id="p1">**</bpt>รายละเอียด<ept id="p1">**</ept> คลิกที่ส่วนหัวคอลัมน์ที่มีป้ายชื่อว่า <bpt id="p2">**</bpt>ชื่อ<ept id="p2">**</ept> เพื่อเรียงลำดับตารางตามลำดับอักษรตามชื่อ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="960">
+          <source>Scroll down until you find dllhost.exe.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลื่อนลงมาจนกว่าคุณจะพบ dllhost.exe</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="961">
+          <source>Select each DLL host, and then click <bpt id="p1">**</bpt>End task<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโฮสต์ DLL แต่ละรายการ และจากนั้นคลิก <bpt id="p1">**</bpt>สิ้นสุดงาน<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="962">
+          <source>After the DLL hosts have been closed, restart Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่โฮสต์ DLL ถูกปิดแล้ว ให้เริ่มการทำงานของ Modern POS ใหม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="963">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทรัพยากรเพิ่มเติม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="964">
+          <source><bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>โปรแกรมจำลองอุปกรณ์ต่อพ่วงของ Retail<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

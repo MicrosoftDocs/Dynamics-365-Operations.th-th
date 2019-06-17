@@ -1,258 +1,699 @@
----
-title: แอททริบิวต์และกลุ่มแอททริบิวต์
-description: หัวข้อนี้อธิบายวิธีการใช้แอททริบิวต์ เพื่อช่วยให้มีวิธีในการอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด
-author: ashishmsft
-manager: AnnBe
-ms.date: 04/28/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: asharchw
-ms.search.validFrom: 2018-03-30
-ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552728"
----
-# <a name="attributes-and-attribute-groups"></a><span data-ttu-id="1cd8b-103">แอททริบิวต์และกลุ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-103">Attributes and attribute groups</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="1cd8b-104">*แอททริบิวต์* จะกำหนดวิธีการอธิบายผลิตภัณฑ์และลักษณะเพิ่มเติมผ่านทางฟิลด์ที่กำหนดโดยผู้ใช้ (เช่น **ขนาดหน่วยความจำ** **กำลังการผลิตฮาร์ดดิสก์** **เป็นความสอดคล้องกันของ Energy star** ฯลฯ)</span><span class="sxs-lookup"><span data-stu-id="1cd8b-104">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="1cd8b-105">ใน Microsoft Dynamics 365 for Finance and Operations แอตทริบิวต์สามารถเชื่อมโยงกับเอนทิตี Retail ที่หลากหลายได้ เช่น ประเภทผลิตภัณฑ์ และช่องทางการขายปลีก และค่าเริ่มต้นสามารถถูกตั้งค่าให้รายการเหล่านั้นได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-105">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="1cd8b-106">จากนั้น ผลิตภัณฑ์จะสืบทอดแอททริบิวต์และค่าเริ่มต้น เมื่อได้ถูกเชื่อมโยงกับประเภทผลิตภัณฑ์และช่องทางการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-106">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="1cd8b-107">ค่าเริ่มต้นสามารถถูกแทนที่ได้ในระดับผลิตภัณฑ์แต่ละรายการ ที่ระดับช่องทางการขายปลีก หรือในแค็ตตาล็อกการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-107">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
-
-<span data-ttu-id="1cd8b-108">ตัวอย่างเช่น ผลิตภัณฑ์โทรทัศน์ทั่วไปอาจมีแอททริบิวต์ต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-108">For example, a typical television product might have the following attributes.</span></span>
-
-| <span data-ttu-id="1cd8b-109">ประเภท</span><span class="sxs-lookup"><span data-stu-id="1cd8b-109">Category</span></span>   | <span data-ttu-id="1cd8b-110">ลักษณะเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-110">Attribute</span></span>                | <span data-ttu-id="1cd8b-111">ค่าที่ได้รับอนุญาต</span><span class="sxs-lookup"><span data-stu-id="1cd8b-111">Permissible values</span></span>          | <span data-ttu-id="1cd8b-112">ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="1cd8b-112">Default value</span></span> |
-|------------|--------------------------|-----------------------------|---------------|
-| <span data-ttu-id="1cd8b-113">โทรทัศน์ & วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-113">TV & Video</span></span> | <span data-ttu-id="1cd8b-114">ยี่ห้อ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-114">Brand</span></span>                    | <span data-ttu-id="1cd8b-115">ค่ายี่ห้อที่ถูกต้องใดๆ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-115">Any valid brand value</span></span>       | <span data-ttu-id="1cd8b-116">None</span><span class="sxs-lookup"><span data-stu-id="1cd8b-116">None</span></span>          |
-| <span data-ttu-id="1cd8b-117">โทรทัศน์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-117">TV</span></span>         | <span data-ttu-id="1cd8b-118">ขนาดหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-118">Screen Size</span></span>              | <span data-ttu-id="1cd8b-119">20–80 นิ้ว</span><span class="sxs-lookup"><span data-stu-id="1cd8b-119">20–80 inches</span></span>                | <span data-ttu-id="1cd8b-120">None</span><span class="sxs-lookup"><span data-stu-id="1cd8b-120">None</span></span>          |
-|            | <span data-ttu-id="1cd8b-121">vertical solution / ชุดซอฟต์แวร์ในแนวตั้ง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-121">Vertical Resolution</span></span>      | <span data-ttu-id="1cd8b-122">480i, 720p, 1080iหรือ 1080p</span><span class="sxs-lookup"><span data-stu-id="1cd8b-122">480i, 720p, 1080i, or 1080p</span></span> | <span data-ttu-id="1cd8b-123">1080p</span><span class="sxs-lookup"><span data-stu-id="1cd8b-123">1080p</span></span>         |
-|            | <span data-ttu-id="1cd8b-124">อัตราการรีเฟรชหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-124">Screen Refresh Rate</span></span>      | <span data-ttu-id="1cd8b-125">60 เฮิรตซ์, 120 เฮิรตซ์หรือ 240 เฮิรตซ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-125">60hz, 120hz, or 240hz</span></span>       | <span data-ttu-id="1cd8b-126">60 เฮิรตซ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-126">60hz</span></span>          |
-|            | <span data-ttu-id="1cd8b-127">อินพุต HDMI</span><span class="sxs-lookup"><span data-stu-id="1cd8b-127">HDMI Inputs</span></span>              | <span data-ttu-id="1cd8b-128">0–10</span><span class="sxs-lookup"><span data-stu-id="1cd8b-128">0–10</span></span>                        | <span data-ttu-id="1cd8b-129">3</span><span class="sxs-lookup"><span data-stu-id="1cd8b-129">3</span></span>             |
-|            | <span data-ttu-id="1cd8b-130">อินพุต DVI</span><span class="sxs-lookup"><span data-stu-id="1cd8b-130">DVI Inputs</span></span>               | <span data-ttu-id="1cd8b-131">0–10</span><span class="sxs-lookup"><span data-stu-id="1cd8b-131">0–10</span></span>                        | <span data-ttu-id="1cd8b-132">1</span><span class="sxs-lookup"><span data-stu-id="1cd8b-132">1</span></span>             |
-|            | <span data-ttu-id="1cd8b-133">ข้อมูลโดยรวม</span><span class="sxs-lookup"><span data-stu-id="1cd8b-133">Composite Inputs</span></span>         | <span data-ttu-id="1cd8b-134">0–10</span><span class="sxs-lookup"><span data-stu-id="1cd8b-134">0–10</span></span>                        | <span data-ttu-id="1cd8b-135">2</span><span class="sxs-lookup"><span data-stu-id="1cd8b-135">2</span></span>             |
-|            | <span data-ttu-id="1cd8b-136">อินพุตส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-136">Component Inputs</span></span>         | <span data-ttu-id="1cd8b-137">0–10</span><span class="sxs-lookup"><span data-stu-id="1cd8b-137">0–10</span></span>                        | <span data-ttu-id="1cd8b-138">1</span><span class="sxs-lookup"><span data-stu-id="1cd8b-138">1</span></span>             |
-| <span data-ttu-id="1cd8b-139">LCD</span><span class="sxs-lookup"><span data-stu-id="1cd8b-139">LCD</span></span>        | <span data-ttu-id="1cd8b-140">3D พร้อมแล้ว</span><span class="sxs-lookup"><span data-stu-id="1cd8b-140">3D Ready</span></span>                 | <span data-ttu-id="1cd8b-141">ใช่ หรือ ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="1cd8b-141">Yes or No</span></span>                   | <span data-ttu-id="1cd8b-142">ใช่</span><span class="sxs-lookup"><span data-stu-id="1cd8b-142">Yes</span></span>           |
-|            | <span data-ttu-id="1cd8b-143">3D เปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-143">3D Enabled</span></span>               | <span data-ttu-id="1cd8b-144">ใช่ หรือ ไม่ใช่</span><span class="sxs-lookup"><span data-stu-id="1cd8b-144">Yes or No</span></span>                   | <span data-ttu-id="1cd8b-145">หมายเลข</span><span class="sxs-lookup"><span data-stu-id="1cd8b-145">No</span></span>            |
-| <span data-ttu-id="1cd8b-146">พลาสมา</span><span class="sxs-lookup"><span data-stu-id="1cd8b-146">Plasma</span></span>     | <span data-ttu-id="1cd8b-147">การดำเนินงานชั่วคราวจาก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-147">Operating Temp From</span></span>      | <span data-ttu-id="1cd8b-148">32–110 ระดับการศึกษา</span><span class="sxs-lookup"><span data-stu-id="1cd8b-148">32–110 degrees</span></span>              | <span data-ttu-id="1cd8b-149">32</span><span class="sxs-lookup"><span data-stu-id="1cd8b-149">32</span></span>            |
-|            | <span data-ttu-id="1cd8b-150">การดำเนินงานชั่วคราวไปที่</span><span class="sxs-lookup"><span data-stu-id="1cd8b-150">Operating Temp To</span></span>        | <span data-ttu-id="1cd8b-151">32–110 ระดับการศึกษา</span><span class="sxs-lookup"><span data-stu-id="1cd8b-151">32–110 degrees</span></span>              | <span data-ttu-id="1cd8b-152">100</span><span class="sxs-lookup"><span data-stu-id="1cd8b-152">100</span></span>           |
-| <span data-ttu-id="1cd8b-153">โปรเจคชัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-153">Projection</span></span> | <span data-ttu-id="1cd8b-154">การรับประกันท่อโปรเจคชัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-154">Projection Tube Warranty</span></span> | <span data-ttu-id="1cd8b-155">6, 12หรือ 18 เดือน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-155">6, 12, or 18 months</span></span>         | <span data-ttu-id="1cd8b-156">12</span><span class="sxs-lookup"><span data-stu-id="1cd8b-156">12</span></span>            |
-|            | <span data-ttu-id="1cd8b-157">\# ของท่อโปรเจคชัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-157">\# of Projection Tubes</span></span>   | <span data-ttu-id="1cd8b-158">1–5</span><span class="sxs-lookup"><span data-stu-id="1cd8b-158">1–5</span></span>                         | <span data-ttu-id="1cd8b-159">3</span><span class="sxs-lookup"><span data-stu-id="1cd8b-159">3</span></span>             |
-
-## <a name="attributes-and-attribute-types"></a><span data-ttu-id="1cd8b-160">แอททริบิวต์และชนิดแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-160">Attributes and attribute types</span></span>
-
-<span data-ttu-id="1cd8b-161">แอททริบิวต์จะขึ้นอยู่กับ *ชนิดแอททริบิวต์*</span><span class="sxs-lookup"><span data-stu-id="1cd8b-161">Attributes are based on *attribute types*.</span></span> <span data-ttu-id="1cd8b-162">ชนิดของแอททริบิวต์จะระบุชนิดของข้อมูลที่สามารถป้อนให้กับแอททริบิวต์เฉพาะ </span><span class="sxs-lookup"><span data-stu-id="1cd8b-162">The attribute type identifies the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="1cd8b-163">Finance and Operations ในปัจจุบันสนับสนุนชนิดแอททริบิวต์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-163">Finance and Operations currently supports the following attribute types:</span></span>
-
-- <span data-ttu-id="1cd8b-164">**สกุลเงิน** – ชนิดนี้สนับสนุนค่าสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-164">**Currency** – This type supports a currency value.</span></span> <span data-ttu-id="1cd8b-165">ซึ่งสามารถถูกกำหนดขอบเขต (นั่นคือ สามารถสนับสนุนช่วงของค่า) หรือสามารถเปิดทิ้งไว้ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-165">It can be bounded (that is, it can support a range of values), or it can be left open.</span></span>
-- <span data-ttu-id="1cd8b-166">**วันที่และเวลา** – ชนิดนี้สนับสนุนค่าวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="1cd8b-166">**DateTime** – This type supports a date and time value.</span></span> <span data-ttu-id="1cd8b-167">ซึ่งสามารถถูกกำหนดขอบเขตหรือเปิดทิ้งไว้ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-167">It can be bounded or left open.</span></span>
-- <span data-ttu-id="1cd8b-168">**ทศนิยม** – ชนิดนี้สนับสนุนค่าตัวเลขที่รวมถึงตำแหน่งทศนิยม</span><span class="sxs-lookup"><span data-stu-id="1cd8b-168">**Decimal** – This type supports a numerical value that includes decimal places.</span></span> <span data-ttu-id="1cd8b-169">นอกจากนี้ ยังสนับสนุนหน่วยวัดอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="1cd8b-169">It also supports a unit of measure.</span></span> <span data-ttu-id="1cd8b-170">ซึ่งสามารถถูกกำหนดขอบเขตหรือเปิดทิ้งไว้ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-170">It can be bounded or left open.</span></span>
-- <span data-ttu-id="1cd8b-171">**เลขจำนวนเต็ม** – ชนิดนี้สนับสนุนค่าตัวเลข</span><span class="sxs-lookup"><span data-stu-id="1cd8b-171">**Integer** – This type supports a numerical value.</span></span> <span data-ttu-id="1cd8b-172">นอกจากนี้ ยังสนับสนุนหน่วยวัดอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="1cd8b-172">It also supports a unit of measure.</span></span> <span data-ttu-id="1cd8b-173">ซึ่งสามารถถูกกำหนดขอบเขตหรือเปิดทิ้งไว้ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-173">It can be bounded or left open.</span></span>
-- <span data-ttu-id="1cd8b-174">**ข้อความ** – ชนิดนี้สนับสนุนค่าข้อความ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-174">**Text** – This type supports a text value.</span></span> <span data-ttu-id="1cd8b-175">ซึ่งสนับสนุนชุดที่กำหนดไว้ล่วงหน้าของค่าที่เป็นไปได้ (ซึ่งคือ *การแจงนับ*)</span><span class="sxs-lookup"><span data-stu-id="1cd8b-175">It also supports a predefined set of possible values (that is, an *enumeration*).</span></span>
-- <span data-ttu-id="1cd8b-176">**บูลีน** – ชนิดนี้สนับสนุนค่าไบนารี (**จริง** หรือ **เท็จ**)</span><span class="sxs-lookup"><span data-stu-id="1cd8b-176">**Boolean** – This type supports a binary value (**true** or **false**).</span></span>
-- <span data-ttu-id="1cd8b-177">**การอ้างอิง** – ชนิดนี้อ้างอิงแอททริบิวต์อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-177">**Reference** – This type references other attributes.</span></span>
-
-### <a name="set-up-attribute-types-in-finance-and-operations"></a><span data-ttu-id="1cd8b-178">ตั้งค่าชนิดแอททริบิวต์ใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1cd8b-178">Set up attribute types in Finance and Operations</span></span>
-
-1. <span data-ttu-id="1cd8b-179">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนของ Finance and Operations เป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-179">Sign in to the Finance and Operations back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-180">ไปที่ **การจัดการข้อมูลผลิตภัณฑ์** &gt; **การตั้งค่า** &gt; **ประเภทและแอททริบิวต์** &gt; **ชนิดแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-180">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute types**.</span></span>
-3. <span data-ttu-id="1cd8b-181">สร้างชนิดแอททริบิวต์สองชนิดของชนิด **ข้อความ** ตั้งค่าตัวเลือก **รายการคงที่** เป็น **ใช่** แล้วเพิ่มรายการของค่า:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-181">Create two attribute types of the **Text** type, set the **Fixed list** option to **Yes**, and then add a list of values:</span></span>
-
-    - <span data-ttu-id="1cd8b-182">ตั้งชื่อชนิดแอททริบิวต์หนึ่งชนิด **รูปร่างเลนส์** และเพิ่มค่าต่อไปนี้: **วงรี** **สี่เหลี่ยม** และ **สามเหลี่ยม**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-182">Name one attribute type **Lens shape**, and add the following values: **Oval**, **Square**, and **Rectangle**.</span></span>
-    - <span data-ttu-id="1cd8b-183">ตั้งชื่อชนิดแอททริบิวต์อื่นๆ **แบรนด์แว่นกันแดด** และเพิ่มค่าต่อไปนี้: **Ray ban** **Aviator** และ **Oakley**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-183">Name the other attribute type **Sunglass brand**, and add the following values: **Ray ban**, **Aviator**, and **Oakley**.</span></span>
-
-![ชนิดแอททริบิวต์](media/AttributeType.png)
-
-### <a name="set-up-an-attribute-in-finance-and-operations"></a><span data-ttu-id="1cd8b-185">ตั้งค่าแอททริบิวต์ใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1cd8b-185">Set up an attribute in Finance and Operations</span></span>
-
-1. <span data-ttu-id="1cd8b-186">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-186">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-187">ไปที่ **การจัดการข้อมูลผลิตภัณฑ์** &gt; **การตั้งค่า** &gt; **ประเภทและแอททริบิวต์** &gt; **แอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-187">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attributes**.</span></span>
-3. <span data-ttu-id="1cd8b-188">สร้างแอททริบิวต์ที่มีชื่อว่า **เลนส์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-188">Create an attribute that is named **Lens**.</span></span>
-4. <span data-ttu-id="1cd8b-189">ตั้งค่าฟิลด์ **ชนิดแอตทริบิวต์** เป็น **รูปร่างเลนส์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-189">Set the **Attribute type** field to **Lens shape**.</span></span>
-
-![ลักษณะเฉพาะ](media/Attribute.png)
-
-## <a name="attribute-metadata"></a><span data-ttu-id="1cd8b-191">ข้อมูลเมตาของแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-191">Attribute metadata</span></span>
-
-<span data-ttu-id="1cd8b-192">*ข้อมูลเมตาของแอททริบิวต์* อนุญาตให้คุณเลือกตัวเลือกเพื่อระบุว่า แอททริบิวต์สำหรับผลิตภัณฑ์แต่ละรายการควรทำงานอย่างไร</span><span class="sxs-lookup"><span data-stu-id="1cd8b-192">*Attribute metadata* lets you select options to specify how the attributes for each product should behave.</span></span> <span data-ttu-id="1cd8b-193">ตัวอย่างเช่น คุณสามารถระบุว่าแอททริบิวต์จำเป็นหรือไม่ สามารถใช้สำหรับการค้นหาได้หรือไม่ และสามารถใช้เป็นตัวกรองข้อมูลได้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="1cd8b-193">For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</span></span>
-
-<span data-ttu-id="1cd8b-194">สำหรับผลิตภัณฑ์ขายปลีก การตั้งค่าข้อมูลเมตาของแอททริบิวต์สามารถถูกแทนที่ได้ที่ระดับช่องทาง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-194">For retail products, the attribute metadata settings can be overridden at the channel level.</span></span> <span data-ttu-id="1cd8b-195">ความสามารถนี้จะถูกกล่าวถึงในหัวข้อนี้ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-195">This capability will be discussed later in this topic.</span></span>
-
-<span data-ttu-id="1cd8b-196">ตามที่คุณอาจสังเกตเห็น หน้า **แอททริบิวต์** ประกอบด้วยตัวเลือกที่เกี่ยวข้องกับข้อมูลเมตาของแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-196">As you might notice, the **Attributes** page includes options that are related to attribute metadata.</span></span> <span data-ttu-id="1cd8b-197">ภายใต้ **ข้อมูลเมตาของแอททริบิวต์สำหรับ POS** ตัวเลือกหนึ่งตัวเลือกที่ชื่อ **สามารถถูกจำกัดได้** มีผลต่อลักษณะการทำงานของค่าแอททริบิวต์ในการขายหน้าร้านแบบขายปลีก (POS) หรือวิธีที่ระบบจัดการกับค่าแอททริบิวต์เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="1cd8b-197">Under **Attribute metadata for POS**, one option that is named **Can be refined** affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</span></span> <span data-ttu-id="1cd8b-198">เฉพาะแอททริบิวต์สำหรับรายการซึ่งคุณอาจตั้งค่าตัวเลือก **สามารถถูกจำกัดได้** เป็น **ใช่** จะแสดงขึ้นสำหรับการปรับปรุง หรือการกรองข้อมูลของผลิตภัณฑ์ใน Retail POS ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-198">Only attributes for which you may set the **Can be refined** option to **Yes**, will show up for refinement or filtering of products in the retail POS.</span></span>
-
-<span data-ttu-id="1cd8b-199">ต่อไปนี้เป็นตัวเลือกข้อมูลเมตาของแอททริบิวต์ที่เหลือในหน้า **แอททริบิวต์** :</span><span class="sxs-lookup"><span data-stu-id="1cd8b-199">Here are the remaining attribute metadata options on the **Attributes** page:</span></span>
-
-- <span data-ttu-id="1cd8b-200">สามารถค้นหาได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-200">Searchable</span></span>
-- <span data-ttu-id="1cd8b-201">สามารถดึงข้อมูลได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-201">Retrievable</span></span>
-- <span data-ttu-id="1cd8b-202">สามารถสอบถามได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-202">Can be queried</span></span>
-- <span data-ttu-id="1cd8b-203">สามารถเรียงลำดับได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-203">Sortable</span></span>
-- <span data-ttu-id="1cd8b-204">อนุญาตให้ใช้หลายค่า</span><span class="sxs-lookup"><span data-stu-id="1cd8b-204">Allow multiple values</span></span>
-- <span data-ttu-id="1cd8b-205">ละเว้นตัวพิมพ์และรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-205">Ignore case and format</span></span>
-- <span data-ttu-id="1cd8b-206">การจับคู่เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-206">Complete match</span></span>
-
-<span data-ttu-id="1cd8b-207">ในตอนแรก ตัวเลือกเหล่านี้มีเป้าหมายเพื่อปรับปรุงฟังก์ชันการค้นหาสำหรับ storefront ออนไลน์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-207">These options were originally intended to improve the search functionality for the online storefront.</span></span> <span data-ttu-id="1cd8b-208">ถึงแม้ว่า Finance and Operations ไม่มี storefront ออนไลน์แบบใช้ได้ทันที ซึ่งรวมถึง eCommerce Publishing Software Development Kit (SDK)</span><span class="sxs-lookup"><span data-stu-id="1cd8b-208">Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</span></span> <span data-ttu-id="1cd8b-209">ลูกค้าสามารถใช้ SDK นี้เพื่อใส่ผลิตภัณฑ์ลงในดัชนีการค้นหาที่พวกเขาเลือก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-209">Customers can use this SDK to put products into a search index of their choice.</span></span> <span data-ttu-id="1cd8b-210">ถึงแม้ว่าจะมีการนำเข้าข้อมูลผลิตภัณฑ์ ลูกค้ายังควรสามารถแยกแยะข้อมูลที่สามารถค้นหาได้ ข้อมูลที่สามารถสอบถามได้ และอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="1cd8b-210">Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</span></span> <span data-ttu-id="1cd8b-211">ในวิธีนั้น พวกเขาสามารถสร้างดัชนีที่ดีที่สุดเพื่อให้แน่ใจว่า พวกเขาจัดดัชนีเฉพาะแอททริบิวต์ที่ *ในความคิดเห็นของพวกเขา* ควรจะถูกจัดทำดัชนี</span><span class="sxs-lookup"><span data-stu-id="1cd8b-211">In that way, they can build an optimal index to make sure that they index only attributes that, *in their opinion*, should be indexed.</span></span>
-
-<span data-ttu-id="1cd8b-212">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวัตถุประสงค์ของตัวเลือกที่เหลือเหล่านี้ ดู [ภาพรวมของ Schema การค้นหาในเซิร์ฟเวอร์ SharePoint 2013](https://technet.microsoft.com/library/jj219669.aspx)</span><span class="sxs-lookup"><span data-stu-id="1cd8b-212">For information about the purpose of these remaining options, see [Overview of the search schema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).</span></span>
-
-## <a name="filter-settings-for-attributes"></a><span data-ttu-id="1cd8b-213">การตั้งค่าตัวกรองสำหรับแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-213">Filter settings for attributes</span></span>
-
-<span data-ttu-id="1cd8b-214">การตั้งค่าตัวกรองสำหรับแอททริบิวต์ช่วยให้คุณสามารถกำหนดวิธีการแสดงตัวกรองสำหรับแอททริบิวต์ใน retail POS</span><span class="sxs-lookup"><span data-stu-id="1cd8b-214">Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</span></span> <span data-ttu-id="1cd8b-215">ในการเข้าถึงการตั้งค่าตัวกรองสำหรับแอททริบิวต์ บนหน้า **แอททริบิวต์** ใน Finance and Operations เลือกแอททริบิวต์ และจากนั้น บนบานหน้าต่างการดำเนินการ เลือก **การตั้งค่าตัวกรอง**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-215">To access the filter settings for an attribute, on the **Attributes** page in Finance and Operations, select the attribute, and then, on the Action Pane, select **Filter settings**.</span></span>
-
-<span data-ttu-id="1cd8b-216">หน้า **การกำหนดลักษณะการแสดงผลตัวกรอง** รวมฟิลด์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-216">The **Filter display preferences** page includes the following fields:</span></span>
-
-- <span data-ttu-id="1cd8b-217">**ชื่อ** – ตามค่าเริ่มต้น ฟิลด์นี้ถูกกำหนดเป็นชื่อของแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-217">**Name** – By default, this field is set to the name of the attribute.</span></span> <span data-ttu-id="1cd8b-218">อย่างไรก็ตาม คุณสามารถเปลี่ยนค่าได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-218">However, you can change the value.</span></span>
-- <span data-ttu-id="1cd8b-219">**ตัวเลือกการแสดงผล** – ตัวเลือกต่อไปนี้พร้อมใช้งาน:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-219">**Display option** – The following options are available:</span></span>
-
-    - <span data-ttu-id="1cd8b-220">**ค่าเดี่ยว** – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: **บูลีน** **สกุลเงิน** **ทศนิยม** **จำนวนเต็ม** และ **ข้อความ**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-220">**Single value** – This option is available for the following attribute types: **Boolean**, **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="1cd8b-221">ตัวเลือกนี้เปิดใช้งานการเลือกค่าเดียวสำหรับแอททริบิวต์เหล่านี้ในไคลเอนต์สำหรับการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-221">This option enables single value selection for these attributes in the client for refinement.</span></span>
-    - <span data-ttu-id="1cd8b-222">**ค่าที่หลากหลาย** – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: **สกุลเงิน** **ทศนิยม** **จำนวนเต็ม** และ **ข้อความ**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-222">**Multi value** – This option is available for the following attribute types: **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="1cd8b-223">ตัวเลือกนี้เปิดใช้งานการเลือกค่าที่หลากหลายสำหรับแอททริบิวต์นี้ในไคลเอนต์สำหรับการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-223">This option enables multi-value selection for this attribute in the client for refinement.</span></span>
-
-- <span data-ttu-id="1cd8b-224">**การควบคุมการแสดงผล** – ตัวเลือกต่อไปนี้พร้อมใช้งาน:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-224">**Display control** – The following options are available:</span></span>
-
-    - <span data-ttu-id="1cd8b-225">**รายการ** – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="1cd8b-225">**List** – This option is available for the all attribute types.</span></span>
-    - <span data-ttu-id="1cd8b-226">**ช่วง** – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: **สกุลเงิน** **ทศนิยม** และ **จำนวนเต็ม**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-226">**Range** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-    - <span data-ttu-id="1cd8b-227">**ตัวเลื่อน** – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: **สกุลเงิน** **ทศนิยม** และ **จำนวนเต็ม**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-227">**Slider** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-    - <span data-ttu-id="1cd8b-228">**ตัวเลื่อนที่มีแถบ** – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: **สกุลเงิน** **ทศนิยม** และ **จำนวนเต็ม**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-228">**Slider with bars** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-
-- <span data-ttu-id="1cd8b-229">**ค่าขีดจำกัด** – การตั้งค่านี้จำเป็น ถ้าคุณเลือก **ช่วง** เป็นชนิดการควบคุมการแสดงผล</span><span class="sxs-lookup"><span data-stu-id="1cd8b-229">**Threshold value** – This setting is required if you selected **Range** as the display control type.</span></span> <span data-ttu-id="1cd8b-230">คุณสามารถกำหนดค่าได้โดยใช้เครื่องหมายอัฒภาค (;) เป็นตัวกำหนดเขต</span><span class="sxs-lookup"><span data-stu-id="1cd8b-230">You can define values by using a semicolon (;) as a delimiter.</span></span>
-
-    <span data-ttu-id="1cd8b-231">ตัวอย่างเช่น สำหรับตัวกรองเช่น **ปริมาตรถุง** ค่าขีดจำกัดอาจเป็น **10; 20; 50; 100; 200; 500; 1000; 5000**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-231">For example, for the filter like **Bag Volume**, a threshold value can be **10; 20; 50; 100; 200; 500; 1000; 5000**.</span></span> <span data-ttu-id="1cd8b-232">ในกรณีนี้ retail POS จะแสดงช่วงต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-232">In this case, the retail POS will show the following ranges.</span></span> <span data-ttu-id="1cd8b-233">ช่วงใดๆ ที่ไม่มีผลิตภัณฑ์ใดๆ ในผลลัพธ์ ชุดจะปรากฏเป็นจางลง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-233">Any ranges that don't have any products in the result set will appear dimmed.</span></span>
-
-    - <span data-ttu-id="1cd8b-234">น้อยกว่า 10</span><span class="sxs-lookup"><span data-stu-id="1cd8b-234">Less than 10</span></span>
-    - <span data-ttu-id="1cd8b-235">10 – 20</span><span class="sxs-lookup"><span data-stu-id="1cd8b-235">10 – 20</span></span>
-    - <span data-ttu-id="1cd8b-236">20 – 50</span><span class="sxs-lookup"><span data-stu-id="1cd8b-236">20 – 50</span></span>
-    - <span data-ttu-id="1cd8b-237">50 – 100</span><span class="sxs-lookup"><span data-stu-id="1cd8b-237">50 – 100</span></span>
-    - <span data-ttu-id="1cd8b-238">100 – 200</span><span class="sxs-lookup"><span data-stu-id="1cd8b-238">100 – 200</span></span>
-    - <span data-ttu-id="1cd8b-239">200 – 500</span><span class="sxs-lookup"><span data-stu-id="1cd8b-239">200 – 500</span></span>
-    - <span data-ttu-id="1cd8b-240">500 ครั้งขึ้นไป</span><span class="sxs-lookup"><span data-stu-id="1cd8b-240">500 or more</span></span>
-
-![การตั้งค่าตัวกรองแอททริบิวต์](media/AttributeFilterSettings.PNG)
-
-## <a name="attribute-groups"></a><span data-ttu-id="1cd8b-242">กลุ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-242">Attribute groups</span></span>
-
-<span data-ttu-id="1cd8b-243">หลังจากที่มีการกำหนดแอททริบิวต์ จะสามารถถูกกำหนดให้กลุ่มแอททริบิวต์ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-243">After attributes have been defined, they can be assigned to attribute groups.</span></span> <span data-ttu-id="1cd8b-244">*กลุ่มแอททริบิวต์* ถูกใช้เพื่อจัดกลุ่มแอททริบิวต์แต่ละรายการสำหรับส่วนประกอบหรือส่วนประกอบย่อยในแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-244">An *attribute group* is used to group the individual attributes for a component or subcomponent in a product configuration model.</span></span> <span data-ttu-id="1cd8b-245">คุณสามารถใส่แอททริบิวต์ในกลุ่มของแอททริบิวต์มากกว่าหนึ่งกลุ่มได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-245">An attribute can be included in more than one attribute group.</span></span> <span data-ttu-id="1cd8b-246">กลุ่มแอททริบิวต์สามารถช่วยให้ผู้ใช้สามารถจัดโครงแบบผลิตภัณฑ์ได้ เนื่องจากการเลือกต่างๆ จะถูกจัดเรียงอยู่ในบริบทเฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-246">Attribute groups can help users configure products, because the various selections are arranged in a specific context.</span></span> <span data-ttu-id="1cd8b-247">คุณสามารถกำหนดกลุ่มของแอททริบิวต์ให้กับประเภทการขายปลีกหรือช่องทางการขายปลีกได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-247">Attribute groups can be assigned to retail categories or retail channels.</span></span>
-
-<span data-ttu-id="1cd8b-248">คุณยังสามารถตั้งค่าเริ่มต้นสำหรับแอตทริบิวต์ที่รวมอยู่ในกลุ่มแอททริบิวต์ได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="1cd8b-248">You can also set default values for attributes that are included in an attribute group.</span></span> <span data-ttu-id="1cd8b-249">ตัวอย่างเช่น คุณเพิ่มแอททริบิวต์สำหรับสีไปยังกลุ่มแอททริบิวต์ และเลือก **สีน้ำเงิน** เป็นค่าแอททริบิวต์เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="1cd8b-249">For example, you add an attribute for color to an attribute group and select **Blue** as the default attribute value.</span></span> <span data-ttu-id="1cd8b-250">ในกรณีนี้ เมื่อกลุ่มแอททริบิวต์ถูกเพิ่มไปยังผลิตภัณฑ์ขายปลีกที่มีสีเป็นหนึ่งในแอททริบิวต์ **สีน้ำเงิน** จะปรากฏเป็นสีเริ่มต้นสำหรับผลิตภัณฑ์นั้น</span><span class="sxs-lookup"><span data-stu-id="1cd8b-250">In this case, when the attribute group is added to a retail product that includes color as one of its attributes, **Blue** appears as the default color for that product.</span></span>
-
-![กลุ่มแอททริบิวต์](media/AttributeGroup.png)
-
-### <a name="create-an-attribute-group"></a><span data-ttu-id="1cd8b-252">สร้างกลุ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-252">Create an attribute group</span></span>
-
-1. <span data-ttu-id="1cd8b-253">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-253">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-254">ไปที่ **การจัดการข้อมูลผลิตภัณฑ์** &gt; **การตั้งค่า** &gt; **ประเภทและแอททริบิวต์** &gt; **กลุ่มแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-254">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute groups**.</span></span>
-3. <span data-ttu-id="1cd8b-255">สร้างกลุ่มแอททริบิวต์ที่มีชื่อว่า **แว่นกันแดดแฟชั่น**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-255">Create an attribute group that is named **Fashion Sunglasses**.</span></span>
-4. <span data-ttu-id="1cd8b-256">เพิ่มแอททริบิวต์ต่อไปนี้: **รูปร่างเลนส์** และ **แบรนด์แว่นกันแดด**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-256">Add the following attributes: **Lens shape** and **Sunglass brand**.</span></span>
-
-### <a name="assign-attribute-groups-to-retail-categories"></a><span data-ttu-id="1cd8b-257">กำหนดกลุ่มแอททริบิวต์ให้กับประเภทการขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-257">Assign attribute groups to retail categories</span></span>
-
-<span data-ttu-id="1cd8b-258">กลุ่มแอททริบิวต์หนึ่งรายการขึ้นไปสามารถเชื่อมโยงกับโหนดประเภทในชนิดต่อไปนี้ของลำดับชั้นประเภทการขายปลีก: ลำดับชั้นของผลิตภัณฑ์ขายปลีก ลำดับชั้นประเภทการนำทางช่องทาง และลำดับชั้นประเภทผลิตภัณฑ์เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="1cd8b-258">One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</span></span> <span data-ttu-id="1cd8b-259">จากนั้น เมื่อมีการจัดประเภทผลิตภัณฑ์ จะสืบทอดแอททริบิวต์ที่รวมอยู่ในกลุ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-259">Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</span></span>
-
-![ลำดับชั้นของผลิตภัณฑ์ขายปลีก – กลุ่มแอททริบิวต์ผลิตภัณฑ์](media/AGRetailProdHierarchy.PNG)
-
-<span data-ttu-id="1cd8b-261">ทำตามขั้นตอนเหล่านี้เพื่อกำหนดกลุ่มแอททริบิวต์ให้กับประเภทในลำดับชั้นของผลิตภัณฑ์ขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-261">Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</span></span>
-
-1. <span data-ttu-id="1cd8b-262">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-262">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-263">ไปยัง **Retail** &gt; **การจัดการประเภทและผลิตภัณฑ์** &gt; **ลำดับชั้นของผลิตภัณฑ์ขายปลีก**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-263">Go to **Retail** &gt; **Category and product management** &gt; **Retail product hierarchy**.</span></span>
-3. <span data-ttu-id="1cd8b-264">เลือก **ลำดับชั้นการนำทางแฟชั่น**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-264">Select **Fashion navigation hierarchy**.</span></span>
-4. <span data-ttu-id="1cd8b-265">ภายใต้ **Menswear** เลือกประเภท **Pants** และจากนั้นบน FastTab **กลุ่มแอททริบิวต์ผลิตภัณฑ์** เพิ่มกลุ่มที่มีแอททริบิวต์ที่ชื่อ **เข็มขัดของผู้ชาย**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-265">Under **Menswear**, select the **Pants** category, and then, on the **Product attribute groups** FastTab, add an attribute group that is named **Men's belt**.</span></span>
-5. <span data-ttu-id="1cd8b-266">เลือกประเภท **แว่นกันแดดแฟชั่น** และตรวจสอบแอททริบิวต์ใหม่ในกลุ่มแอททริบิวต์ **แว่นกันแดดแฟชั่น** โดยการเลือก **ดูแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-266">Select the **Fashion sunglasses** category, and verify the new attributes in the **Fashion Sunglasses** attribute group by selecting **View attributes**.</span></span>
-
-    <span data-ttu-id="1cd8b-267">กลุ่มแอททริบิวต์ควรแสดง**รูปร่างเลนส์** ใหม่ และแอตทริบิวต์ **แบรนด์แว่นกันแดด**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-267">The attribute group should show the new **Lens shape** and **Sunglass brand** attributes.</span></span>
-
-6. <span data-ttu-id="1cd8b-268">ภายใต้ **Menswear** เลือกประเภท **กางเกง** และตรวจสอบแอททริบิวต์สำหรับกลุ่มแอททริบิวต์ **เข็มขัดของผู้ชาย** โดยการเลือก **ดูแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-268">Under **Menswear**, select the **Pants** category, and verify the attributes for the **Men's belt** attribute group by selecting **View attributes**.</span></span>
-
-    <span data-ttu-id="1cd8b-269">กลุ่มแอททริบิวต์ควรแสดงแอตทริบิวต์ของ **แบรนด์เข็มขัดของผู้ชาย** **เนื้อผ้าของเข็มขัด** และ **ขนาดเข็มขัด**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-269">The attribute group should show the **Men's belt brand**, **Belt fabric**, and **Belt size** attributes.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="1cd8b-270">ยังสามารถใช้กระบวนงานนี้เพื่อกำหนดกลุ่มแอททริบิวต์ให้กับประเภทในลำดับชั้นประเภทการนำทางของช่อง และลำดับชั้นประเภทผลิตภัณฑ์เพิ่มเติมได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="1cd8b-270">This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</span></span> <span data-ttu-id="1cd8b-271">ในขั้นตอนที่ 2 ใช้พาธการนำทางต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-271">In step 2, use the following navigation paths:</span></span>
->
-> - <span data-ttu-id="1cd8b-272">**การขายปลีก** &gt; **การจัดการประเภทและผลิตภัณฑ์** &gt; **ประเภทการนำทางช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-272">**Retail** &gt; **Category and product management** &gt; **Channel navigation categories**</span></span>
-> - <span data-ttu-id="1cd8b-273">**Retail** &gt; **การจัดการประเภทและผลิตภัณฑ์** &gt; **ประเภทของผลิตภัณฑ์เพิ่มเติม**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-273">**Retail** &gt; **Category and product management** &gt; **Supplemental product categories**</span></span>
-
-### <a name="assign-attribute-groups-to-retail-stores"></a><span data-ttu-id="1cd8b-274">กำหนดกลุ่มแอททริบิวต์ให้กับร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-274">Assign attribute groups to retail stores</span></span>
-
-<span data-ttu-id="1cd8b-275">กลุ่มแอททริบิวต์หนึ่งกลุ่มขึ้นไป สามารถถูกเชื่อมโยงกับร้านค้าปลีกหนึ่งร้านขึ้นไปได้ในลำดับชั้นของร้านค้าปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-275">One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</span></span> <span data-ttu-id="1cd8b-276">จากนั้น เมื่อผลิตภัณฑ์ถูกทำให้สมบูรณ์สำหรับร้านค้าปลีกเฉพาะ จะมีการสืบทอดแอททริบิวต์ที่รวมอยู่ในกลุ่มแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-276">Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</span></span>
-
-1. <span data-ttu-id="1cd8b-277">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-277">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-278">ไปที่ **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-278">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
-3. <span data-ttu-id="1cd8b-279">กำหนดกลุ่มแอททริบิวต์ไปยังช่อง Houston:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-279">Assign attribute groups to the Houston channel:</span></span>
-
-    1. <span data-ttu-id="1cd8b-280">เลือกช่อง **Houston**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-280">Select the **Houston** channel.</span></span>
-    2. <span data-ttu-id="1cd8b-281">บน FastTab **กลุ่มแอททริบิวต์** เลือก **เพิ่ม** และจากนั้น ในฟิลด์ **ชื่อ** เลือก **SharePointProvisionedProductAttributeGroup**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-281">On the **Attribute group** FastTab, select **Add**, and then, in the **Name** field, select **SharePointProvisionedProductAttributeGroup**.</span></span>
-    3. <span data-ttu-id="1cd8b-282">เลือก **เพิ่ม** อีกครั้ง และจากนั้น ในฟิลด์ **ชื่อ** เลือก **เข็มขัดของผู้ชาย**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-282">Select **Add** again, and then, in the **Name** field, select **Men's belt**.</span></span>
-    4. <span data-ttu-id="1cd8b-283">เลือก **เพิ่ม** อีกครั้ง และจากนั้น ในฟิลด์ **ชื่อ** เลือก **แว่นกันแดดแฟชั่น**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-283">Select **Add** again, and then, in the **Name** field, select **Fashion Sunglasses**.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="1cd8b-284">ตัวเลือกช่วยให้คุณสามารถระบุว่า ช่องทางนี้ควรสืบทอดกลุ่มแอททริบิวต์จากช่องทางของข้อมูลหลักในลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="1cd8b-284">An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</span></span> <span data-ttu-id="1cd8b-285">ถ้าคุณตั้งค่าตัวเลือก **สืบทอด** เป็น **ใช่**โหนดช่องสัญญาณรองจะสืบทอดกลุ่มแอททริบิวต์ทั้งหมด และแอททริบิวต์ในกลุ่มแอททริบิวต์เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="1cd8b-285">If you set the **Inherit** option to **Yes**, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</span></span>
-
-4. <span data-ttu-id="1cd8b-286">เปิดใช้งานแอททริบิวต์เพื่อให้พร้อมใช้งานในช่อง Houston:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-286">Enable the attributes so that they are available in the Houston channel:</span></span>
-
-    1. <span data-ttu-id="1cd8b-287">ในบานหน้าต่างการดำเนินการ เลือก **ตั้งค่าข้อมูลเมตาของแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-287">On the Action Pane, select **Set attribute metadata**.</span></span>
-    2. <span data-ttu-id="1cd8b-288">เลือกโหนดประเภท **แฟชั่น** และจากนั้น บน FastTab **คุณลักษณะของผลิตภัณฑ์ในช่องทาง** เลือก **รวมแอททริบิวต์** สำหรับแต่ละแอตทริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-288">Select the **Fashion** category node, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-    3. <span data-ttu-id="1cd8b-289">เลือกโหนดประเภท **เครื่องประดับแฟชั่น** เลือกประเภท **แว่นกันแดดแฟชั่น** และจากนั้น บน FastTab **คุณลักษณะของผลิตภัณฑ์ในช่องทาง** เลือก **รวมแอททริบิวต์** สำหรับแต่ละแอตทริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-289">Select the **Fashion Accessories** category node, select the **Fashion Sunglasses** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-    4. <span data-ttu-id="1cd8b-290">เลือกโหนดประเภท **Menswear** เลือกประเภท **กางเกง** และจากนั้น บน FastTab **คุณลักษณะของผลิตภัณฑ์ในช่องทาง** เลือก **รวมแอททริบิวต์** สำหรับแต่ละแอตทริบิวต์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-290">Select the **Menswear** category node, select the **Pants** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-
-![ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์ – กลุ่มแอตทริบิวต์](media/CCPAttrGrp.png)
-
-## <a name="overriding-attribute-values"></a><span data-ttu-id="1cd8b-292">ค่าแอททริบิวต์ที่แทนที่</span><span class="sxs-lookup"><span data-stu-id="1cd8b-292">Overriding attribute values</span></span>
-
-<span data-ttu-id="1cd8b-293">สามารถแทนที่ค่าเริ่มต้นของแอททริบิวต์สำหรับผลิตภัณฑ์แต่ละรายการที่ระดับผลิตภัณฑ์ได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-293">The default values of attributes can be overridden for individual products at the product level.</span></span> <span data-ttu-id="1cd8b-294">นอกจากนี้ ยังสามารถแทนค่าเริ่มต้นสำหรับผลิตภัณฑ์แต่ละรายการในแค็ตตาล็อกเฉพาะ ซึ่งถูกกำหนดเป้าหมายที่ช่องทางการขายปลีกเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="1cd8b-294">Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</span></span>
-
-### <a name="override-the-attribute-values-of-an-individual-product"></a><span data-ttu-id="1cd8b-295">แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์แต่ละผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-295">Override the attribute values of an individual product</span></span>
-
-1. <span data-ttu-id="1cd8b-296">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-296">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-297">ไปยัง **Retail** &gt; **การจัดการประเภทและผลิตภัณฑ์** &gt; **ผลิตภัณฑ์ที่นำออกใช้ตามประเภท**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-297">Go to **Retail** &gt; **Category and product management** &gt; **Released products by category**.</span></span>
-3. <span data-ttu-id="1cd8b-298">เลือกโหนดประเภท **แฟชั่น** &gt; **เครื่องประดับแฟชั่น** &gt; **แว่นกันแดดแฟชั่น**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-298">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
-4. <span data-ttu-id="1cd8b-299">เลือกผลิตภัณฑ์จำเป็นในกริด</span><span class="sxs-lookup"><span data-stu-id="1cd8b-299">Select the required product in the grid.</span></span> <span data-ttu-id="1cd8b-300">จากนั้น บนบานหน้าต่างการดำเนินการ บนแท็บ **ผลิตภัณฑ์** ในกลุ่ม **การตั้งค่า** ให้เลือก **คุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-300">Then, on the Action Pane, on the **Product** tab, in the **Set up** group, select **Product attributes**.</span></span>
-5. <span data-ttu-id="1cd8b-301">เลือกแอททริบิวต์ในบานหน้าต่างด้านซ้าย และจากนั้น ปรับปรุงค่าในบานหน้าต่างด้านขวา</span><span class="sxs-lookup"><span data-stu-id="1cd8b-301">Select an attribute in the left pane, and then update its value in the right pane.</span></span>
-
-![หน้ารายละเอียดผลิตภัณฑ์ – กลุ่มคุณลักษณะของผลิตภัณฑ์](media/ProdDetailsProdAttrValues.png)
-
-### <a name="override-the-attribute-values-of-products-in-a-catalog"></a><span data-ttu-id="1cd8b-303">แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์ในแค็ตตาล็อก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-303">Override the attribute values of products in a catalog</span></span>
-
-1. <span data-ttu-id="1cd8b-304">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-304">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-305">ไปยัง **Retail** &gt; **การจัดการแค็ตตาล็อก** &gt; **แค็ตตาล็อกทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-305">Go to **Retail** &gt; **Catalog management** &gt; **All catalogs**.</span></span>
-3. <span data-ttu-id="1cd8b-306">เลือกแค็ตตาล็อก **แค็ตตาล็อกฐานของ Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-306">Select the **Fabrikam Base Catalog** catalog.</span></span>
-4. <span data-ttu-id="1cd8b-307">เลือกโหนดประเภท **แฟชั่น** &gt; **เครื่องประดับแฟชั่น** &gt; **แว่นกันแดดแฟชั่น**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-307">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
-5. <span data-ttu-id="1cd8b-308">บน FastTab **ผลิตภัณฑ์** เลือกผลิตภัณฑ์ที่จำเป็น และจากนั้นเลือก **แอททริบิวต์** เหนือกริดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-308">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
-6. <span data-ttu-id="1cd8b-309">บน FastTab ต่อไปนี้ อัพเดตค่าของแอททริบิวต์ที่จำเป็น:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-309">On the following FastTabs, update the values of the required attributes:</span></span>
-
-    - <span data-ttu-id="1cd8b-310">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-310">Shared product media</span></span>
-    - <span data-ttu-id="1cd8b-311">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-311">Shared product attributes</span></span>
-    - <span data-ttu-id="1cd8b-312">สื่อที่เป็นช่องทาง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-312">Channel media</span></span>
-    - <span data-ttu-id="1cd8b-313">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-313">Channel product attributes</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="1cd8b-314">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="1cd8b-314">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
-
-![กลุ่มคุณลักษณะของผลิตภัณฑ์ในแค็ตตาล็อก](media/CatalogProdAttrValues.png)
-
-### <a name="override-the-attribute-values-of-products-in-a-channel"></a><span data-ttu-id="1cd8b-316">แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-316">Override the attribute values of products in a channel</span></span>
-
-1. <span data-ttu-id="1cd8b-317">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</span><span class="sxs-lookup"><span data-stu-id="1cd8b-317">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="1cd8b-318">ไปที่ **การขายปลีก** &gt; **การตั้งค่าช่องทาง** &gt; **ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-318">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
-3. <span data-ttu-id="1cd8b-319">เลือกช่อง **Houston**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-319">Select the **Houston** channel.</span></span>
-4. <span data-ttu-id="1cd8b-320">บน FastTab **ผลิตภัณฑ์** เลือกผลิตภัณฑ์ที่จำเป็น และจากนั้นเลือก **แอททริบิวต์** เหนือกริดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="1cd8b-320">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="1cd8b-321">ถ้าไม่มีผลิตภัณฑ์ที่พร้อมใช้งาน เพิ่มผลิตภัณฑ์โดยการเลือก  **เพิ่ม** บน FastTab **ผลิตภัณฑ์** และจากนั้นเลือกผลิตภัณฑ์ที่จำเป็นในกล่องโต้ตอบ **เพิ่มผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="1cd8b-321">If no products are available, add products by selecting **Add** on the **Products** FastTab and then selecting the required products in the **Add products** dialog box.</span></span>
-
-5. <span data-ttu-id="1cd8b-322">บน FastTab ต่อไปนี้ อัพเดตค่าของแอททริบิวต์ที่จำเป็น:</span><span class="sxs-lookup"><span data-stu-id="1cd8b-322">On the following FastTabs, update the values of the required attributes:</span></span>
-
-    - <span data-ttu-id="1cd8b-323">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-323">Shared product media</span></span>
-    - <span data-ttu-id="1cd8b-324">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="1cd8b-324">Shared product attributes</span></span>
-    - <span data-ttu-id="1cd8b-325">สื่อที่เป็นช่องทาง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-325">Channel media</span></span>
-    - <span data-ttu-id="1cd8b-326">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</span><span class="sxs-lookup"><span data-stu-id="1cd8b-326">Channel product attributes</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="1cd8b-327">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="1cd8b-327">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="attribute-attributegroups-lifecycle.md" target-language="th-TH">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>attribute-attributegroups-lifecycle.90dcb9.7c722c311048258ce75170ac4276d397fe2828fe.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>7c722c311048258ce75170ac4276d397fe2828fe</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\attribute-attributegroups-lifecycle.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Attributes and attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์และกลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes how to use attributes to provide a way to describe a product and its characteristics through user-defined fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายวิธีการใช้แอททริบิวต์ เพื่อช่วยให้มีวิธีในการอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Attributes and attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์และกลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source><bpt id="p1">*</bpt>Attributes<ept id="p1">*</ept> provide a way to further describe a product and its characteristics through user-defined fields (such as <bpt id="p2">**</bpt>Memory size<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Hard disk capacity<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Is Energy star compliant<ept id="p4">**</ept>, and so on).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>แอททริบิวต์<ept id="p1">*</ept> จะกำหนดวิธีการอธิบายผลิตภัณฑ์และลักษณะเพิ่มเติมผ่านทางฟิลด์ที่กำหนดโดยผู้ใช้ (เช่น <bpt id="p2">**</bpt>ขนาดหน่วยความจำ<ept id="p2">**</ept> <bpt id="p3">**</bpt>กำลังการผลิตฮาร์ดดิสก์<ept id="p3">**</ept> <bpt id="p4">**</bpt>เป็นความสอดคล้องกันของ Energy star<ept id="p4">**</ept> ฯลฯ)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน Microsoft Dynamics 365 for Finance and Operations แอตทริบิวต์สามารถเชื่อมโยงกับเอนทิตี Retail ที่หลากหลายได้ เช่น ประเภทผลิตภัณฑ์ และช่องทางการขายปลีก และค่าเริ่มต้นสามารถถูกตั้งค่าให้รายการเหล่านั้นได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากนั้น ผลิตภัณฑ์จะสืบทอดแอททริบิวต์และค่าเริ่มต้น เมื่อได้ถูกเชื่อมโยงกับประเภทผลิตภัณฑ์และช่องทางการขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค่าเริ่มต้นสามารถถูกแทนที่ได้ในระดับผลิตภัณฑ์แต่ละรายการ ที่ระดับช่องทางการขายปลีก หรือในแค็ตตาล็อกการขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>For example, a typical television product might have the following attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น ผลิตภัณฑ์โทรทัศน์ทั่วไปอาจมีแอททริบิวต์ต่อไปนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Category</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ประเภท</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Attribute</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลักษณะเฉพาะ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Permissible values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค่าที่ได้รับอนุญาต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Default value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค่าเริ่มต้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>TV &amp; Video</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โทรทัศน์ &amp; วิดีโอ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Brand</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ยี่ห้อ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Any valid brand value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค่ายี่ห้อที่ถูกต้องใดๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>None</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">None</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>TV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โทรทัศน์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Screen Size</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขนาดหน้าจอ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>20–80 inches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20–80 นิ้ว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>None</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">None</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Vertical Resolution</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">vertical solution / ชุดซอฟต์แวร์ในแนวตั้ง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>480i, 720p, 1080i, or 1080p</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">480i, 720p, 1080iหรือ 1080p</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>1080p</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1080p</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Screen Refresh Rate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อัตราการรีเฟรชหน้าจอ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>60hz, 120hz, or 240hz</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60 เฮิรตซ์, 120 เฮิรตซ์หรือ 240 เฮิรตซ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>60hz</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60 เฮิรตซ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>HDMI Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินพุต HDMI</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>DVI Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินพุต DVI</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Composite Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลโดยรวม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Component Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อินพุตส่วนประกอบ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>LCD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>3D Ready</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D พร้อมแล้ว</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Yes or No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่ หรือ ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>3D Enabled</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D เปิดใช้งาน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Yes or No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช่ หรือ ไม่ใช่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หมายเลข</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Plasma</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">พลาสมา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Operating Temp From</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การดำเนินงานชั่วคราวจาก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>32–110 degrees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 ระดับการศึกษา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>32</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Operating Temp To</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การดำเนินงานชั่วคราวไปที่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>32–110 degrees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 ระดับการศึกษา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>100</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Projection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรเจคชัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Projection Tube Warranty</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรับประกันท่อโปรเจคชัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>6, 12, or 18 months</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6, 12หรือ 18 เดือน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><ph id="ph1">\#</ph> of Projection Tubes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\#</ph> ของท่อโปรเจคชัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>1–5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1–5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Attributes and attribute types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์และชนิดแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Attributes are based on <bpt id="p1">*</bpt>attribute types<ept id="p1">*</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์จะขึ้นอยู่กับ <bpt id="p1">*</bpt>ชนิดแอททริบิวต์<ept id="p1">*</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>The attribute type identifies the type of data that can be entered for a specific attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชนิดของแอททริบิวต์จะระบุชนิดของข้อมูลที่สามารถป้อนให้กับแอททริบิวต์เฉพาะ </target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Finance and Operations currently supports the following attribute types:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations ในปัจจุบันสนับสนุนชนิดแอททริบิวต์ต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> – This type supports a currency value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>สกุลเงิน<ept id="p1">**</ept> – ชนิดนี้สนับสนุนค่าสกุลเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>It can be bounded (that is, it can support a range of values), or it can be left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งสามารถถูกกำหนดขอบเขต (นั่นคือ สามารถสนับสนุนช่วงของค่า) หรือสามารถเปิดทิ้งไว้ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> – This type supports a date and time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>วันที่และเวลา<ept id="p1">**</ept> – ชนิดนี้สนับสนุนค่าวันที่และเวลา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งสามารถถูกกำหนดขอบเขตหรือเปิดทิ้งไว้ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">**</bpt>Decimal<ept id="p1">**</ept> – This type supports a numerical value that includes decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ทศนิยม<ept id="p1">**</ept> – ชนิดนี้สนับสนุนค่าตัวเลขที่รวมถึงตำแหน่งทศนิยม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>It also supports a unit of measure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ ยังสนับสนุนหน่วยวัดอีกด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งสามารถถูกกำหนดขอบเขตหรือเปิดทิ้งไว้ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source><bpt id="p1">**</bpt>Integer<ept id="p1">**</ept> – This type supports a numerical value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>เลขจำนวนเต็ม<ept id="p1">**</ept> – ชนิดนี้สนับสนุนค่าตัวเลข</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>It also supports a unit of measure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ ยังสนับสนุนหน่วยวัดอีกด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งสามารถถูกกำหนดขอบเขตหรือเปิดทิ้งไว้ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">**</bpt>Text<ept id="p1">**</ept> – This type supports a text value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ข้อความ<ept id="p1">**</ept> – ชนิดนี้สนับสนุนค่าข้อความ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>It also supports a predefined set of possible values (that is, an <bpt id="p1">*</bpt>enumeration<ept id="p1">*</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งสนับสนุนชุดที่กำหนดไว้ล่วงหน้าของค่าที่เป็นไปได้ (ซึ่งคือ <bpt id="p1">*</bpt>การแจงนับ<ept id="p1">*</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source><bpt id="p1">**</bpt>Boolean<ept id="p1">**</ept> – This type supports a binary value (<bpt id="p2">**</bpt>true<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>บูลีน<ept id="p1">**</ept> – ชนิดนี้สนับสนุนค่าไบนารี (<bpt id="p2">**</bpt>จริง<ept id="p2">**</ept> หรือ <bpt id="p3">**</bpt>เท็จ<ept id="p3">**</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> – This type references other attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การอ้างอิง<ept id="p1">**</ept> – ชนิดนี้อ้างอิงแอททริบิวต์อื่นๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Set up attribute types in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าชนิดแอททริบิวต์ใน Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Sign in to the Finance and Operations back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนของ Finance and Operations เป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute types<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>การจัดการข้อมูลผลิตภัณฑ์<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่า<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ประเภทและแอททริบิวต์<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>ชนิดแอททริบิวต์<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Create two attribute types of the <bpt id="p1">**</bpt>Text<ept id="p1">**</ept> type, set the <bpt id="p2">**</bpt>Fixed list<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>, and then add a list of values:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างชนิดแอททริบิวต์สองชนิดของชนิด <bpt id="p1">**</bpt>ข้อความ<ept id="p1">**</ept> ตั้งค่าตัวเลือก <bpt id="p2">**</bpt>รายการคงที่<ept id="p2">**</ept> เป็น <bpt id="p3">**</bpt>ใช่<ept id="p3">**</ept> แล้วเพิ่มรายการของค่า:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Name one attribute type <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Oval<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Square<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Rectangle<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งชื่อชนิดแอททริบิวต์หนึ่งชนิด <bpt id="p1">**</bpt>รูปร่างเลนส์<ept id="p1">**</ept> และเพิ่มค่าต่อไปนี้: <bpt id="p2">**</bpt>วงรี<ept id="p2">**</ept> <bpt id="p3">**</bpt>สี่เหลี่ยม<ept id="p3">**</ept> และ <bpt id="p4">**</bpt>สามเหลี่ยม<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Name the other attribute type <bpt id="p1">**</bpt>Sunglass brand<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งชื่อชนิดแอททริบิวต์อื่นๆ <bpt id="p1">**</bpt>แบรนด์แว่นกันแดด<ept id="p1">**</ept> และเพิ่มค่าต่อไปนี้: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept> <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept> และ <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Attribute types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชนิดแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Set up an attribute in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าแอททริบิวต์ใน Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attributes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>การจัดการข้อมูลผลิตภัณฑ์<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่า<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ประเภทและแอททริบิวต์<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>แอททริบิวต์<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create an attribute that is named <bpt id="p1">**</bpt>Lens<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างแอททริบิวต์ที่มีชื่อว่า <bpt id="p1">**</bpt>เลนส์<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Set the <bpt id="p1">**</bpt>Attribute type<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Lens shape<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าฟิลด์ <bpt id="p1">**</bpt>ชนิดแอตทริบิวต์<ept id="p1">**</ept> เป็น <bpt id="p2">**</bpt>รูปร่างเลนส์<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลักษณะเฉพาะ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Attribute metadata</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลเมตาของแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">*</bpt>Attribute metadata<ept id="p1">*</ept> lets you select options to specify how the attributes for each product should behave.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>ข้อมูลเมตาของแอททริบิวต์<ept id="p1">*</ept> อนุญาตให้คุณเลือกตัวเลือกเพื่อระบุว่า แอททริบิวต์สำหรับผลิตภัณฑ์แต่ละรายการควรทำงานอย่างไร</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น คุณสามารถระบุว่าแอททริบิวต์จำเป็นหรือไม่ สามารถใช้สำหรับการค้นหาได้หรือไม่ และสามารถใช้เป็นตัวกรองข้อมูลได้หรือไม่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>For retail products, the attribute metadata settings can be overridden at the channel level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับผลิตภัณฑ์ขายปลีก การตั้งค่าข้อมูลเมตาของแอททริบิวต์สามารถถูกแทนที่ได้ที่ระดับช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>This capability will be discussed later in this topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความสามารถนี้จะถูกกล่าวถึงในหัวข้อนี้ในภายหลัง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>As you might notice, the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page includes options that are related to attribute metadata.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตามที่คุณอาจสังเกตเห็น หน้า <bpt id="p1">**</bpt>แอททริบิวต์<ept id="p1">**</ept> ประกอบด้วยตัวเลือกที่เกี่ยวข้องกับข้อมูลเมตาของแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Under <bpt id="p1">**</bpt>Attribute metadata for POS<ept id="p1">**</ept>, one option that is named <bpt id="p2">**</bpt>Can be refined<ept id="p2">**</ept> affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภายใต้ <bpt id="p1">**</bpt>ข้อมูลเมตาของแอททริบิวต์สำหรับ POS<ept id="p1">**</ept> ตัวเลือกหนึ่งตัวเลือกที่ชื่อ <bpt id="p2">**</bpt>สามารถถูกจำกัดได้<ept id="p2">**</ept> มีผลต่อลักษณะการทำงานของค่าแอททริบิวต์ในการขายหน้าร้านแบบขายปลีก (POS) หรือวิธีที่ระบบจัดการกับค่าแอททริบิวต์เหล่านั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Only attributes for which you may set the <bpt id="p1">**</bpt>Can be refined<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, will show up for refinement or filtering of products in the retail POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เฉพาะแอททริบิวต์สำหรับรายการซึ่งคุณอาจตั้งค่าตัวเลือก <bpt id="p1">**</bpt>สามารถถูกจำกัดได้<ept id="p1">**</ept> เป็น <bpt id="p2">**</bpt>ใช่<ept id="p2">**</ept> จะแสดงขึ้นสำหรับการปรับปรุง หรือการกรองข้อมูลของผลิตภัณฑ์ใน Retail POS ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Here are the remaining attribute metadata options on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ต่อไปนี้เป็นตัวเลือกข้อมูลเมตาของแอททริบิวต์ที่เหลือในหน้า <bpt id="p1">**</bpt>แอททริบิวต์<ept id="p1">**</ept> :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Searchable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถค้นหาได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Retrievable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถดึงข้อมูลได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Can be queried</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถสอบถามได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Sortable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถเรียงลำดับได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Allow multiple values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อนุญาตให้ใช้หลายค่า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Ignore case and format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ละเว้นตัวพิมพ์และรูปแบบ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Complete match</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจับคู่เสร็จสมบูรณ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>These options were originally intended to improve the search functionality for the online storefront.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในตอนแรก ตัวเลือกเหล่านี้มีเป้าหมายเพื่อปรับปรุงฟังก์ชันการค้นหาสำหรับ storefront ออนไลน์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถึงแม้ว่า Finance and Operations ไม่มี storefront ออนไลน์แบบใช้ได้ทันที ซึ่งรวมถึง eCommerce Publishing Software Development Kit (SDK)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Customers can use this SDK to put products into a search index of their choice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลูกค้าสามารถใช้ SDK นี้เพื่อใส่ผลิตภัณฑ์ลงในดัชนีการค้นหาที่พวกเขาเลือก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถึงแม้ว่าจะมีการนำเข้าข้อมูลผลิตภัณฑ์ ลูกค้ายังควรสามารถแยกแยะข้อมูลที่สามารถค้นหาได้ ข้อมูลที่สามารถสอบถามได้ และอื่นๆ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In that way, they can build an optimal index to make sure that they index only attributes that, <bpt id="p1">*</bpt>in their opinion<ept id="p1">*</ept>, should be indexed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในวิธีนั้น พวกเขาสามารถสร้างดัชนีที่ดีที่สุดเพื่อให้แน่ใจว่า พวกเขาจัดดัชนีเฉพาะแอททริบิวต์ที่ <bpt id="p1">*</bpt>ในความคิดเห็นของพวกเขา<ept id="p1">*</ept> ควรจะถูกจัดทำดัชนี</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>For information about the purpose of these remaining options, see <bpt id="p1">[</bpt>Overview of the search schema in SharePoint Server 2013<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวัตถุประสงค์ของตัวเลือกที่เหลือเหล่านี้ ดู <bpt id="p1">[</bpt>ภาพรวมของ Schema การค้นหาในเซิร์ฟเวอร์ SharePoint 2013<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Filter settings for attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าตัวกรองสำหรับแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าตัวกรองสำหรับแอททริบิวต์ช่วยให้คุณสามารถกำหนดวิธีการแสดงตัวกรองสำหรับแอททริบิวต์ใน retail POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>To access the filter settings for an attribute, on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page in Finance and Operations, select the attribute, and then, on the Action Pane, select <bpt id="p2">**</bpt>Filter settings<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในการเข้าถึงการตั้งค่าตัวกรองสำหรับแอททริบิวต์ บนหน้า <bpt id="p1">**</bpt>แอททริบิวต์<ept id="p1">**</ept> ใน Finance and Operations เลือกแอททริบิวต์ และจากนั้น บนบานหน้าต่างการดำเนินการ เลือก <bpt id="p2">**</bpt>การตั้งค่าตัวกรอง<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>The <bpt id="p1">**</bpt>Filter display preferences<ept id="p1">**</ept> page includes the following fields:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้า <bpt id="p1">**</bpt>การกำหนดลักษณะการแสดงผลตัวกรอง<ept id="p1">**</ept> รวมฟิลด์ต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – By default, this field is set to the name of the attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ชื่อ<ept id="p1">**</ept> – ตามค่าเริ่มต้น ฟิลด์นี้ถูกกำหนดเป็นชื่อของแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>However, you can change the value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อย่างไรก็ตาม คุณสามารถเปลี่ยนค่าได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source><bpt id="p1">**</bpt>Display option<ept id="p1">**</ept> – The following options are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ตัวเลือกการแสดงผล<ept id="p1">**</ept> – ตัวเลือกต่อไปนี้พร้อมใช้งาน:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source><bpt id="p1">**</bpt>Single value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Boolean<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Decimal<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Integer<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Text<ept id="p6">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ค่าเดี่ยว<ept id="p1">**</ept> – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: <bpt id="p2">**</bpt>บูลีน<ept id="p2">**</ept> <bpt id="p3">**</bpt>สกุลเงิน<ept id="p3">**</ept> <bpt id="p4">**</bpt>ทศนิยม<ept id="p4">**</ept> <bpt id="p5">**</bpt>จำนวนเต็ม<ept id="p5">**</ept> และ <bpt id="p6">**</bpt>ข้อความ<ept id="p6">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>This option enables single value selection for these attributes in the client for refinement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวเลือกนี้เปิดใช้งานการเลือกค่าเดียวสำหรับแอททริบิวต์เหล่านี้ในไคลเอนต์สำหรับการปรับปรุง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source><bpt id="p1">**</bpt>Multi value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Text<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ค่าที่หลากหลาย<ept id="p1">**</ept> – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: <bpt id="p2">**</bpt>สกุลเงิน<ept id="p2">**</ept> <bpt id="p3">**</bpt>ทศนิยม<ept id="p3">**</ept> <bpt id="p4">**</bpt>จำนวนเต็ม<ept id="p4">**</ept> และ <bpt id="p5">**</bpt>ข้อความ<ept id="p5">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>This option enables multi-value selection for this attribute in the client for refinement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวเลือกนี้เปิดใช้งานการเลือกค่าที่หลากหลายสำหรับแอททริบิวต์นี้ในไคลเอนต์สำหรับการปรับปรุง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source><bpt id="p1">**</bpt>Display control<ept id="p1">**</ept> – The following options are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การควบคุมการแสดงผล<ept id="p1">**</ept> – ตัวเลือกต่อไปนี้พร้อมใช้งาน:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source><bpt id="p1">**</bpt>List<ept id="p1">**</ept> – This option is available for the all attribute types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>รายการ<ept id="p1">**</ept> – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ทั้งหมด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source><bpt id="p1">**</bpt>Range<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ช่วง<ept id="p1">**</ept> – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: <bpt id="p2">**</bpt>สกุลเงิน<ept id="p2">**</ept> <bpt id="p3">**</bpt>ทศนิยม<ept id="p3">**</ept> และ <bpt id="p4">**</bpt>จำนวนเต็ม<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source><bpt id="p1">**</bpt>Slider<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ตัวเลื่อน<ept id="p1">**</ept> – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: <bpt id="p2">**</bpt>สกุลเงิน<ept id="p2">**</ept> <bpt id="p3">**</bpt>ทศนิยม<ept id="p3">**</ept> และ <bpt id="p4">**</bpt>จำนวนเต็ม<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source><bpt id="p1">**</bpt>Slider with bars<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ตัวเลื่อนที่มีแถบ<ept id="p1">**</ept> – ตัวเลือกนี้จะพร้อมใช้งานสำหรับชนิดแอททริบิวต์ต่อไปนี้: <bpt id="p2">**</bpt>สกุลเงิน<ept id="p2">**</ept> <bpt id="p3">**</bpt>ทศนิยม<ept id="p3">**</ept> และ <bpt id="p4">**</bpt>จำนวนเต็ม<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source><bpt id="p1">**</bpt>Threshold value<ept id="p1">**</ept> – This setting is required if you selected <bpt id="p2">**</bpt>Range<ept id="p2">**</ept> as the display control type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ค่าขีดจำกัด<ept id="p1">**</ept> – การตั้งค่านี้จำเป็น ถ้าคุณเลือก <bpt id="p2">**</bpt>ช่วง<ept id="p2">**</ept> เป็นชนิดการควบคุมการแสดงผล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>You can define values by using a semicolon (;) as a delimiter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถกำหนดค่าได้โดยใช้เครื่องหมายอัฒภาค (;) เป็นตัวกำหนดเขต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>For example, for the filter like <bpt id="p1">**</bpt>Bag Volume<ept id="p1">**</ept>, a threshold value can be <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น สำหรับตัวกรองเช่น <bpt id="p1">**</bpt>ปริมาตรถุง<ept id="p1">**</ept> ค่าขีดจำกัดอาจเป็น <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>In this case, the retail POS will show the following ranges.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีนี้ retail POS จะแสดงช่วงต่อไปนี้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Any ranges that don't have any products in the result set will appear dimmed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ช่วงใดๆ ที่ไม่มีผลิตภัณฑ์ใดๆ ในผลลัพธ์ ชุดจะปรากฏเป็นจางลง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Less than 10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">น้อยกว่า 10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>10 – 20</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 – 20</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>20 – 50</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 – 50</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>50 – 100</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">50 – 100</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>100 – 200</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100 – 200</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>200 – 500</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">200 – 500</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>500 or more</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">500 ครั้งขึ้นไป</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Attribute filter settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตั้งค่าตัวกรองแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>After attributes have been defined, they can be assigned to attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่มีการกำหนดแอททริบิวต์ จะสามารถถูกกำหนดให้กลุ่มแอททริบิวต์ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>An <bpt id="p1">*</bpt>attribute group<ept id="p1">*</ept> is used to group the individual attributes for a component or subcomponent in a product configuration model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>กลุ่มแอททริบิวต์<ept id="p1">*</ept> ถูกใช้เพื่อจัดกลุ่มแอททริบิวต์แต่ละรายการสำหรับส่วนประกอบหรือส่วนประกอบย่อยในแบบจำลองการจัดโครงแบบผลิตภัณฑ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>An attribute can be included in more than one attribute group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใส่แอททริบิวต์ในกลุ่มของแอททริบิวต์มากกว่าหนึ่งกลุ่มได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Attribute groups can help users configure products, because the various selections are arranged in a specific context.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์สามารถช่วยให้ผู้ใช้สามารถจัดโครงแบบผลิตภัณฑ์ได้ เนื่องจากการเลือกต่างๆ จะถูกจัดเรียงอยู่ในบริบทเฉพาะเจาะจง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Attribute groups can be assigned to retail categories or retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถกำหนดกลุ่มของแอททริบิวต์ให้กับประเภทการขายปลีกหรือช่องทางการขายปลีกได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>You can also set default values for attributes that are included in an attribute group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณยังสามารถตั้งค่าเริ่มต้นสำหรับแอตทริบิวต์ที่รวมอยู่ในกลุ่มแอททริบิวต์ได้ด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>For example, you add an attribute for color to an attribute group and select <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> as the default attribute value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น คุณเพิ่มแอททริบิวต์สำหรับสีไปยังกลุ่มแอททริบิวต์ และเลือก <bpt id="p1">**</bpt>สีน้ำเงิน<ept id="p1">**</ept> เป็นค่าแอททริบิวต์เริ่มต้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In this case, when the attribute group is added to a retail product that includes color as one of its attributes, <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> appears as the default color for that product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในกรณีนี้ เมื่อกลุ่มแอททริบิวต์ถูกเพิ่มไปยังผลิตภัณฑ์ขายปลีกที่มีสีเป็นหนึ่งในแอททริบิวต์ <bpt id="p1">**</bpt>สีน้ำเงิน<ept id="p1">**</ept> จะปรากฏเป็นสีเริ่มต้นสำหรับผลิตภัณฑ์นั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Create an attribute group</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างกลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute groups<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>การจัดการข้อมูลผลิตภัณฑ์<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่า<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ประเภทและแอททริบิวต์<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>กลุ่มแอททริบิวต์<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Create an attribute group that is named <bpt id="p1">**</bpt>Fashion Sunglasses<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างกลุ่มแอททริบิวต์ที่มีชื่อว่า <bpt id="p1">**</bpt>แว่นกันแดดแฟชั่น<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Add the following attributes: <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เพิ่มแอททริบิวต์ต่อไปนี้: <bpt id="p1">**</bpt>รูปร่างเลนส์<ept id="p1">**</ept> และ <bpt id="p2">**</bpt>แบรนด์แว่นกันแดด<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Assign attribute groups to retail categories</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดกลุ่มแอททริบิวต์ให้กับประเภทการขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์หนึ่งรายการขึ้นไปสามารถเชื่อมโยงกับโหนดประเภทในชนิดต่อไปนี้ของลำดับชั้นประเภทการขายปลีก: ลำดับชั้นของผลิตภัณฑ์ขายปลีก ลำดับชั้นประเภทการนำทางช่องทาง และลำดับชั้นประเภทผลิตภัณฑ์เพิ่มเติม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากนั้น เมื่อมีการจัดประเภทผลิตภัณฑ์ จะสืบทอดแอททริบิวต์ที่รวมอยู่ในกลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Retail product hierarchy – Product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลำดับชั้นของผลิตภัณฑ์ขายปลีก – กลุ่มแอททริบิวต์ผลิตภัณฑ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทำตามขั้นตอนเหล่านี้เพื่อกำหนดกลุ่มแอททริบิวต์ให้กับประเภทในลำดับชั้นของผลิตภัณฑ์ขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail product hierarchy<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปยัง <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การจัดการประเภทและผลิตภัณฑ์<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ลำดับชั้นของผลิตภัณฑ์ขายปลีก<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Select <bpt id="p1">**</bpt>Fashion navigation hierarchy<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>ลำดับชั้นการนำทางแฟชั่น<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Product attribute groups<ept id="p3">**</ept> FastTab, add an attribute group that is named <bpt id="p4">**</bpt>Men's belt<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภายใต้ <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> เลือกประเภท <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> และจากนั้นบน FastTab <bpt id="p3">**</bpt>กลุ่มแอททริบิวต์ผลิตภัณฑ์<ept id="p3">**</ept> เพิ่มกลุ่มที่มีแอททริบิวต์ที่ชื่อ <bpt id="p4">**</bpt>เข็มขัดของผู้ชาย<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Select the <bpt id="p1">**</bpt>Fashion sunglasses<ept id="p1">**</ept> category, and verify the new attributes in the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> attribute group by selecting <bpt id="p3">**</bpt>View attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกประเภท <bpt id="p1">**</bpt>แว่นกันแดดแฟชั่น<ept id="p1">**</ept> และตรวจสอบแอททริบิวต์ใหม่ในกลุ่มแอททริบิวต์ <bpt id="p2">**</bpt>แว่นกันแดดแฟชั่น<ept id="p2">**</ept> โดยการเลือก <bpt id="p3">**</bpt>ดูแอททริบิวต์<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The attribute group should show the new <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept> attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์ควรแสดง<bpt id="p1">**</bpt>รูปร่างเลนส์<ept id="p1">**</ept> ใหม่ และแอตทริบิวต์ <bpt id="p2">**</bpt>แบรนด์แว่นกันแดด<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and verify the attributes for the <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept> attribute group by selecting <bpt id="p4">**</bpt>View attributes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภายใต้ <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> เลือกประเภท <bpt id="p2">**</bpt>กางเกง<ept id="p2">**</ept> และตรวจสอบแอททริบิวต์สำหรับกลุ่มแอททริบิวต์ <bpt id="p3">**</bpt>เข็มขัดของผู้ชาย<ept id="p3">**</ept> โดยการเลือก <bpt id="p4">**</bpt>ดูแอททริบิวต์<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>The attribute group should show the <bpt id="p1">**</bpt>Men's belt brand<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Belt fabric<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Belt size<ept id="p3">**</ept> attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์ควรแสดงแอตทริบิวต์ของ <bpt id="p1">**</bpt>แบรนด์เข็มขัดของผู้ชาย<ept id="p1">**</ept> <bpt id="p2">**</bpt>เนื้อผ้าของเข็มขัด<ept id="p2">**</ept> และ <bpt id="p3">**</bpt>ขนาดเข็มขัด<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ยังสามารถใช้กระบวนงานนี้เพื่อกำหนดกลุ่มแอททริบิวต์ให้กับประเภทในลำดับชั้นประเภทการนำทางของช่อง และลำดับชั้นประเภทผลิตภัณฑ์เพิ่มเติมได้อีกด้วย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>In step 2, use the following navigation paths:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในขั้นตอนที่ 2 ใช้พาธการนำทางต่อไปนี้:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Channel navigation categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">การขายปลีก <ph id="ph1">&amp;gt;</ph> การจัดการประเภทและผลิตภัณฑ์ <ph id="ph2">&amp;gt;</ph> ประเภทการนำทางช่องทาง</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Supplemental product categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">การขายปลีก <ph id="ph1">&amp;gt;</ph> การจัดการประเภทและผลิตภัณฑ์ <ph id="ph2">&amp;gt;</ph> ประเภทของผลิตภัณฑ์เพิ่มเติม</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Assign attribute groups to retail stores</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดกลุ่มแอททริบิวต์ให้กับร้านค้าปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มแอททริบิวต์หนึ่งกลุ่มขึ้นไป สามารถถูกเชื่อมโยงกับร้านค้าปลีกหนึ่งร้านขึ้นไปได้ในลำดับชั้นของร้านค้าปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากนั้น เมื่อผลิตภัณฑ์ถูกทำให้สมบูรณ์สำหรับร้านค้าปลีกเฉพาะ จะมีการสืบทอดแอททริบิวต์ที่รวมอยู่ในกลุ่มแอททริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Assign attribute groups to the Houston channel:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำหนดกลุ่มแอททริบิวต์ไปยังช่อง Houston:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกช่อง <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>On the <bpt id="p1">**</bpt>Attribute group<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and then, in the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บน FastTab <bpt id="p1">**</bpt>กลุ่มแอททริบิวต์<ept id="p1">**</ept> เลือก <bpt id="p2">**</bpt>เพิ่ม<ept id="p2">**</ept> และจากนั้น ในฟิลด์ <bpt id="p3">**</bpt>ชื่อ<ept id="p3">**</ept> เลือก <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>เพิ่ม<ept id="p1">**</ept> อีกครั้ง และจากนั้น ในฟิลด์ <bpt id="p2">**</bpt>ชื่อ<ept id="p2">**</ept> เลือก <bpt id="p3">**</bpt>เข็มขัดของผู้ชาย<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>เพิ่ม<ept id="p1">**</ept> อีกครั้ง และจากนั้น ในฟิลด์ <bpt id="p2">**</bpt>ชื่อ<ept id="p2">**</ept> เลือก <bpt id="p3">**</bpt>แว่นกันแดดแฟชั่น<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวเลือกช่วยให้คุณสามารถระบุว่า ช่องทางนี้ควรสืบทอดกลุ่มแอททริบิวต์จากช่องทางของข้อมูลหลักในลำดับชั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>If you set the <bpt id="p1">**</bpt>Inherit<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณตั้งค่าตัวเลือก <bpt id="p1">**</bpt>สืบทอด<ept id="p1">**</ept> เป็น <bpt id="p2">**</bpt>ใช่<ept id="p2">**</ept>โหนดช่องสัญญาณรองจะสืบทอดกลุ่มแอททริบิวต์ทั้งหมด และแอททริบิวต์ในกลุ่มแอททริบิวต์เหล่านั้น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Enable the attributes so that they are available in the Houston channel:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เปิดใช้งานแอททริบิวต์เพื่อให้พร้อมใช้งานในช่อง Houston:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>On the Action Pane, select <bpt id="p1">**</bpt>Set attribute metadata<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในบานหน้าต่างการดำเนินการ เลือก <bpt id="p1">**</bpt>ตั้งค่าข้อมูลเมตาของแอททริบิวต์<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> category node, and then, on the <bpt id="p2">**</bpt>Channel product attributes<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Include attribute<ept id="p3">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโหนดประเภท <bpt id="p1">**</bpt>แฟชั่น<ept id="p1">**</ept> และจากนั้น บน FastTab <bpt id="p2">**</bpt>คุณลักษณะของผลิตภัณฑ์ในช่องทาง<ept id="p2">**</ept> เลือก <bpt id="p3">**</bpt>รวมแอททริบิวต์<ept id="p3">**</ept> สำหรับแต่ละแอตทริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Select the <bpt id="p1">**</bpt>Fashion Accessories<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโหนดประเภท <bpt id="p1">**</bpt>เครื่องประดับแฟชั่น<ept id="p1">**</ept> เลือกประเภท <bpt id="p2">**</bpt>แว่นกันแดดแฟชั่น<ept id="p2">**</ept> และจากนั้น บน FastTab <bpt id="p3">**</bpt>คุณลักษณะของผลิตภัณฑ์ในช่องทาง<ept id="p3">**</ept> เลือก <bpt id="p4">**</bpt>รวมแอททริบิวต์<ept id="p4">**</ept> สำหรับแต่ละแอตทริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Select the <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโหนดประเภท <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> เลือกประเภท <bpt id="p2">**</bpt>กางเกง<ept id="p2">**</ept> และจากนั้น บน FastTab <bpt id="p3">**</bpt>คุณลักษณะของผลิตภัณฑ์ในช่องทาง<ept id="p3">**</ept> เลือก <bpt id="p4">**</bpt>รวมแอททริบิวต์<ept id="p4">**</ept> สำหรับแต่ละแอตทริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Channel categories and product attributes – Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์ – กลุ่มแอตทริบิวต์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Overriding attribute values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค่าแอททริบิวต์ที่แทนที่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>The default values of attributes can be overridden for individual products at the product level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สามารถแทนที่ค่าเริ่มต้นของแอททริบิวต์สำหรับผลิตภัณฑ์แต่ละรายการที่ระดับผลิตภัณฑ์ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ ยังสามารถแทนค่าเริ่มต้นสำหรับผลิตภัณฑ์แต่ละรายการในแค็ตตาล็อกเฉพาะ ซึ่งถูกกำหนดเป้าหมายที่ช่องทางการขายปลีกเฉพาะได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>Override the attribute values of an individual product</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์แต่ละผลิตภัณฑ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Released products by category<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปยัง <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การจัดการประเภทและผลิตภัณฑ์<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ผลิตภัณฑ์ที่นำออกใช้ตามประเภท<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโหนดประเภท <bpt id="p1">**</bpt>แฟชั่น<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>เครื่องประดับแฟชั่น<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>แว่นกันแดดแฟชั่น<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Select the required product in the grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกผลิตภัณฑ์จำเป็นในกริด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>Then, on the Action Pane, on the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Set up<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากนั้น บนบานหน้าต่างการดำเนินการ บนแท็บ <bpt id="p1">**</bpt>ผลิตภัณฑ์<ept id="p1">**</ept> ในกลุ่ม <bpt id="p2">**</bpt>การตั้งค่า<ept id="p2">**</ept> ให้เลือก <bpt id="p3">**</bpt>คุณลักษณะของผลิตภัณฑ์<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Select an attribute in the left pane, and then update its value in the right pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกแอททริบิวต์ในบานหน้าต่างด้านซ้าย และจากนั้น ปรับปรุงค่าในบานหน้าต่างด้านขวา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Product details page – Product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้ารายละเอียดผลิตภัณฑ์ – กลุ่มคุณลักษณะของผลิตภัณฑ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>Override the attribute values of products in a catalog</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์ในแค็ตตาล็อก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Catalog management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All catalogs<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปยัง <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การจัดการแค็ตตาล็อก<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>แค็ตตาล็อกทั้งหมด<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>Select the <bpt id="p1">**</bpt>Fabrikam Base Catalog<ept id="p1">**</ept> catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกแค็ตตาล็อก <bpt id="p1">**</bpt>แค็ตตาล็อกฐานของ Fabrikam<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโหนดประเภท <bpt id="p1">**</bpt>แฟชั่น<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>เครื่องประดับแฟชั่น<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>แว่นกันแดดแฟชั่น<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บน FastTab <bpt id="p1">**</bpt>ผลิตภัณฑ์<ept id="p1">**</ept> เลือกผลิตภัณฑ์ที่จำเป็น และจากนั้นเลือก <bpt id="p2">**</bpt>แอททริบิวต์<ept id="p2">**</ept> เหนือกริดของผลิตภัณฑ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>On the following FastTabs, update the values of the required attributes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บน FastTab ต่อไปนี้ อัพเดตค่าของแอททริบิวต์ที่จำเป็น:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Shared product media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Shared product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>Channel media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สื่อที่เป็นช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Channel product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>Catalog product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลุ่มคุณลักษณะของผลิตภัณฑ์ในแค็ตตาล็อก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>Override the attribute values of products in a channel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์ในช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงชื่อเข้าใช้ไคลเอนต์ฝ่ายสนับสนุนเป็นผู้จัดการฝ่ายจัดซื้อสินค้าขายปลีก</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>การขายปลีก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การตั้งค่าช่องทาง<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกช่อง <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บน FastTab <bpt id="p1">**</bpt>ผลิตภัณฑ์<ept id="p1">**</ept> เลือกผลิตภัณฑ์ที่จำเป็น และจากนั้นเลือก <bpt id="p2">**</bpt>แอททริบิวต์<ept id="p2">**</ept> เหนือกริดของผลิตภัณฑ์</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>If no products are available, add products by selecting <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Products<ept id="p2">**</ept> FastTab and then selecting the required products in the <bpt id="p3">**</bpt>Add products<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าไม่มีผลิตภัณฑ์ที่พร้อมใช้งาน เพิ่มผลิตภัณฑ์โดยการเลือก  <bpt id="p1">**</bpt>เพิ่ม<ept id="p1">**</ept> บน FastTab <bpt id="p2">**</bpt>ผลิตภัณฑ์<ept id="p2">**</ept> และจากนั้นเลือกผลิตภัณฑ์ที่จำเป็นในกล่องโต้ตอบ <bpt id="p3">**</bpt>เพิ่มผลิตภัณฑ์<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>On the following FastTabs, update the values of the required attributes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บน FastTab ต่อไปนี้ อัพเดตค่าของแอททริบิวต์ที่จำเป็น:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Shared product media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สื่อผลิตภัณฑ์ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Shared product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์ผลิตภัณฑ์ที่ใช้ร่วมกัน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Channel media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สื่อที่เป็นช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Channel product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แอททริบิวต์ผลิตภัณฑ์ในช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกันใน Finance and Operations จะนำไปใช้กับผลิตภัณฑ์ขายปลีกทั้งหมด</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
