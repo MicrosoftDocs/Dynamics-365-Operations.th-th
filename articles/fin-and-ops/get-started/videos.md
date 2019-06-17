@@ -1,197 +1,369 @@
----
-title: วิดีโอสำหรับ Finance and Operations
-description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
-author: josaw1
-manager: AnnBe
-ms.date: 05/11/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User, IT Pro, Developer
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.author: josaw
-ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561679"
----
-# <a name="videos-for-finance-and-operations"></a>วิดีโอสำหรับ Finance and Operations
-
-[!include [banner](../includes/banner.md)]
-
-หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
-
-## <a name="dynamics-365-youtube-channel"></a>ช่อง Dynamics 365 YouTube
-
-ใน [ช่อง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) คุณสามารถค้นหาวิดีโอที่สร้างโดย Microsoft ที่สาธิตโซลูชันทางธุรกิจที่หลากหลายสำหรับผลิตภัณฑ์ Dynamics 365 ได้ ส่วนนี้แสดงรายการวิดีโอ "วิธีใช้" สำหรับ Dynamics 365 for Finance and Operations ที่โฮสต์บนช่องทาง
-
-วิดีโอจะถูกแสดงรายการตามคุณลักษณะ ดังนั้นให้เลื่อนลงเพื่อดูรายการทั้งหมดของเนื้อหาวิดีโอ
-
-#### <a name="data-integration"></a>การรวมข้อมูล
-
-- [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg)
-- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับ Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
-
-#### <a name="data-management"></a>การจัดการข้อมูล
-
-- [ใช้เอนทิตี้ข้อมูลและแพคเกจข้อมูลใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
-
-#### <a name="development"></a>การพัฒนา
-
-- [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [การตั้งค่าสาขาการพัฒนาและการสร้าง](https://www.youtube.com/watch?v=qXLd-NMx9OY)
-- [การตั้งค่าเครื่องจักรในการพัฒนา](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [การรวม Azure DevOps กับ Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
-
-#### <a name="explore-the-user-interface"></a>สำรวจอินเทอร์เฟซผู้ใช้
-
-- [เพิ่มฟิลด์ที่กำหนดเอง](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [ฝัง PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-#### <a name="financial-management"></a>การจัดการทางการเงิน
-
-- [ค้นหารุ่นของตัวออกแบบรายงาน](https://www.youtube.com/embed/icfA5Q3kp4w)
-- [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)
-- [เริ่มต้นใช้งานการบัญชีต้นทุน](https://youtu.be/1pUDtJQZ8FU)
-- [ใช้ Excel สำหรับการวิเคราะห์ต้นทุน](https://youtu.be/-HKHYdClvx8)
-
-#### <a name="intelligence"></a>ข่าวกรอง
-
-- [ใช้ฐานข้อมูลของคุณเอง (BYOD) ไปยัง Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
-
-#### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
-
-- [ไลบรารีแอสเซทใน Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
-- [สภาพแวดล้อมที่ใช้ Cloud](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [การสร้างตั๋วสนับสนุนจาก Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
-- [การปรับใช้สภาพแวดล้อม](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
-- [การเริ่มต้นใช้งาน Lifecycle Services:](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
-- [การปรับใช้รหัสไปยังสภาพแวดล้อม Sandbox](https://www.youtube.com/watch?v=5azLeOO078k)
-- [การปรับใช้รหัสไปยังสภาพแวดล้อมการผลิต](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
-- [โครงการสำหรับการใช้งานใน Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [จัดการการอัพเกรดรหัสและกระบวนการเครื่องมือใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
-- [การจัดการไลบรารีของกระบวนการทางธุรกิจใน Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
-- [ระเบียบวิธีใน Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [ร้องขอสภาพแวดล้อมการผลิต Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
-- [การรีเฟรชข้อมูลในสภาพแวดล้อมการผลิต](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [ใช้การนำออกใช้แพลตฟอร์ม Dynamics 365 for Finance and Operations ใหม่หลังการปรับปรุงแพลตฟอร์ม 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
-- [ใช้การตรวจวัดระยะไกลเพื่อตรวจสอบตัวนับประสิทธิภาพหลักใน Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
-
-#### <a name="office-integration"></a>การรวม Office
-
-- [สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบของรายการใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
-
-#### <a name="organization-administration"></a>การจัดการองค์กร
-
-- [การจัดการเอกสาร](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
-
-#### <a name="procurement-and-sourcing"></a>การจัดซื้อและการจัดหา
-
-- [อนุมัติใบสั่งซื้อบนอุปกรณ์เคลื่อนที่](https://youtu.be/gZ-gOlJe7H8)
-- [เตรียมความพร้อมผู้จัดจำหน่ายรายใหม่](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
-
-#### <a name="production-control"></a>การควบคุมการผลิต
-
-- [การปรับสมดุลแบบกลุ่ม](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
-- [การปรับปรุงไปยังกระบวนการนำออกใช้ของใบสั่งผลิต](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
-- [การกำหนดการแบบภาพด้วยแผนภูมิแกนต์สำหรับใบสั่งผลิตและใบสั่งชุดงาน](https://youtu.be/BtbuShkGj4I)
-
-#### <a name="tax-engine"></a>กลไกจัดการภาษี
-
-- [ภาพรวมกลไกจัดการภาษี](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
-
-#### <a name="warehouse-management"></a>การจัดการคลังสินค้า
-
-- [นำการเบิกสินค้าการผลิตไปใช้ยังคลังสินค้าในชุดงาน](https://youtu.be/8urAJn50dQ8)
-- [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
-
-## <a name="fasttrack-tech-talks"></a>การพูดคุยเกี่ยวกับเทคโนโลยี FastTrack
-
-[FastTrack สำหรับการพูดคุยเกี่ยวกับเทคโนโลยี Dynamics 365](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl) มุ่งเน้นในการให้ความลึกทางเทคนิคและแนวทางปฏิบัติที่ดีที่สุดที่ให้ลูกค้าและคู่ค้ามีความรู้อย่างละเอียดที่เฉพาะเจาะจงต่อพื้นที่ชื่อเรื่อง ส่วนต่อไปนี้แสดงรายการการบันทึกการพูดคุยเกี่ยวกับเทคโนโลยี FastTrack ที่พร้อมใช้งานในการสตรีมหรือดาวน์โหลด คุณยังสามารถดาวน์โหลดสำเนา PDF ของชุดงานนำเสนอจากไซต์การพูดคุยเกี่ยวกับเทคโนโลยี 
-
-#### <a name="data-management"></a>การจัดการข้อมูล
-
-- [คัดลอกไปยังนิติบุคคล (DYN383PAL)](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การจัดการข้อมูล (DYN445PAL2)](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [ลดการนำเข้าข้อมูล และเวลาของการส่งออก โดยใช้การตั้งค่าคอนฟิก (DYN315PAL)](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="demo-data"></a>ข้อมูลสาธิต
-
-- [แพคเกจข้อมูลสาธิต (DYN443PAL)](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="deployment"></a>การปรับใช้
-
-- [การปรับใช้ในองค์กร (DYN382PAL2)](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="develop-and-customize"></a>พัฒนาและเลือกกำหนด
-
-- [เครื่องมือการรวม Azure สำหรับ Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [ความสามารถในการเพิ่ม (DYN384PAL2)](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [วิธีการขยาย หรือสร้างพื้นที่ทำงานเชิงวิเคราะห์ใหม่ (DYN321PAL)](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [วิธีการทดสอบประสิทธิภาพ (DYN449PAL2)](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [วิธีการทดสอบประสิทธิภาพ (DYN449PAL)](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="financial-reporting"></a>การรายงานทางการเงิน
-
-- [การรายงานทางการเงิน (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [ตัวเลือกในการรายงานใน Dynamics 365 for Finance and Operations (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="integration"></a>การรวม
-
-- [ตัวรวมข้อมูล CDS (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การรวม (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การรวมระหว่าง Dynamics 365 for Sales และ Dynamics 365 for Finance & Operations ผ่าน CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [กรอบงานการรวมภายใน Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [กรอบงานแบบอัตโนมัติของงานสำหรับการจัดการข้อมูล (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
-
-#### <a name="intelligence"></a>ข่าวกรอง
-
-- [ตัวเลือกการวิเคราะห์ & การรายงาน การพิมพ์ และตัวแทนการกำหนดเส้นทางเอกสาร (DYN442PAL)](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การแนะนำพื้นที่ทำงานเชิงวิเคราะห์ (DYN317PAL)](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="mobile"></a>เคลื่อนที่
-
-- [ค่าใช้จ่าย & พื้นที่ทำงานแบบเคลื่อนที่สำหรับโครงการ (DYN379PAL2)](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [กรอบงานแบบเคลื่อนที่ (VIR824PAL)](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="procurement-and-sourcing"></a>การจัดซื้อและการจัดหา
-
-- [ตอกบัตรออก (DYN332PAL2)](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การทำงานร่วมกันกับผู้จัดจำหน่าย (DYN327PAL)](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="retail"></a>Retail
-
-- [Dynamics 365 for Retail การเพิ่มความสามารถของ POS: สำรวจดูรายละเอียด (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [สถาปัตยกรรมการขายปลีก & Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [มีอะไรใหม่ในการเพิ่มความสามารถของ POS ใน Dynamics 365 for Retail (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="support"></a>การสนับสนุน
-
-- [การบริการ (VIR805PAL)](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="upgrade-and-migration"></a>การอัพเกรดและการย้าย
-
-- [เครือข่ายการย้าย AX 2009 ไปยัง Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [AX เครื่องมือการย้าย 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การอัพเกรด AX 2012 เป็น Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การติดตั้ง Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-
-#### <a name="warehouse-management"></a>การจัดการคลังสินค้า
-
-- [การเพิ่มไปยังการรับป้ายทะเบียนแบบผสม (DYN331PAL)](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การเพิ่มเติมสินค้าตามความต้องการสำหรับการเบิกวัตถุดิบ (DYN333PAL2)](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [กระบวนการย้ายสินค้าและคลังสินค้าที่จะใช้การบริหารคลังสินค้าขั้นสูง (DYN316PAL)](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [กระบวนการเบิกสินค้าชิ้นต่อชิ้น (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การจัดกำหนดการแบบภาพสำหรับใบสั่งผลิตและคัมบัง (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การรวมคลังสินค้ากับการผลิต (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [แอปมือถือของคลังสินค้า (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="videos.md" target-language="th-TH">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>videos.8bd24e.1b828382f9f81d796fcfaef0e9c7dc9450a97992.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>1b828382f9f81d796fcfaef0e9c7dc9450a97992</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>2bbc0eeca6826c529fb729b82d16f287c1ce05bb</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\videos.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Videos for Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอสำหรับ Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This page lists Microsoft-created "how-to" and Tech talk videos relating to Dynamics 365 for Finance and Operations that are available on YouTube and other sites.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Videos for Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอสำหรับ Finance and Operations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This page lists Microsoft-created "how-to" and Tech talk videos relating to Dynamics 365 for Finance and Operations that are available on YouTube and other sites.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Dynamics 365 YouTube channel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ช่อง Dynamics 365 YouTube</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>On the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>, you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน <bpt id="p1">[</bpt>ช่อง Microsoft Dynamics 365 YouTube<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept> คุณสามารถค้นหาวิดีโอที่สร้างโดย Microsoft ที่สาธิตโซลูชันทางธุรกิจที่หลากหลายสำหรับผลิตภัณฑ์ Dynamics 365 ได้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>This section lists the "how-to" videos for Dynamics 365 for Finance and Operations that are hosted on the channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วนนี้แสดงรายการวิดีโอ "วิธีใช้" สำหรับ Dynamics 365 for Finance and Operations ที่โฮสต์บนช่องทาง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Videos are listed by feature, so scroll down to see the entire list of video content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอจะถูกแสดงรายการตามคุณลักษณะ ดังนั้นให้เลื่อนลงเพื่อดูรายการทั้งหมดของเนื้อหาวิดีโอ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Data integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรวมข้อมูล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>Prospect to cash integration<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">[</bpt>Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=46ylO7raZAo&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับ Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=46ylO7raZAo&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Data management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดการข้อมูล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Use data entities and data packages in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=UCyzbA41j8g&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้เอนทิตี้ข้อมูลและแพคเกจข้อมูลใน Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=UCyzbA41j8g&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การพัฒนา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Optimization advisor<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Setting up a development branch and build<ept id="p1">](https://www.youtube.com/watch?v=qXLd-NMx9OY)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การตั้งค่าสาขาการพัฒนาและการสร้าง<ept id="p1">](https://www.youtube.com/watch?v=qXLd-NMx9OY)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">[</bpt>Setting up a development machine<ept id="p1">](https://www.youtube.com/watch?v=cqp9MetfiyM)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การตั้งค่าเครื่องจักรในการพัฒนา<ept id="p1">](https://www.youtube.com/watch?v=cqp9MetfiyM)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Azure DevOps integration with Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=0QyyyUp1zHQ&amp;t=1s)</ept></source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>การรวม Azure DevOps กับ Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=0QyyyUp1zHQ&amp;t=1s)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Explore the user interface</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">สำรวจอินเทอร์เฟซผู้ใช้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Add custom fields<ept id="p1">](https://www.youtube.com/watch?v=gWSGZI9Vtnc)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เพิ่มฟิลด์ที่กำหนดเอง<ept id="p1">](https://www.youtube.com/watch?v=gWSGZI9Vtnc)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">[</bpt>Embed PowerApps<ept id="p1">](https://www.youtube.com/watch?v=x3qyA1bH-NY)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ฝัง PowerApps<ept id="p1">](https://www.youtube.com/watch?v=x3qyA1bH-NY)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Financial management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดการทางการเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">[</bpt>Find the version of Report designer<ept id="p1">](https://www.youtube.com/embed/icfA5Q3kp4w)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ค้นหารุ่นของตัวออกแบบรายงาน<ept id="p1">](https://www.youtube.com/embed/icfA5Q3kp4w)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Cost control mobile workspace<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Get started with Cost accounting<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เริ่มต้นใช้งานการบัญชีต้นทุน<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Use Excel for cost analysis<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้ Excel สำหรับการวิเคราะห์ต้นทุน<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Expense experience<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept></source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>ประสบการณ์ค่าใช้จ่าย<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Intelligence</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">ข่าวกรอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Bring your own database (BYOD) to Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=-MaxtBJu2_o&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้ฐานข้อมูลของคุณเอง (BYOD) ไปยัง Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=-MaxtBJu2_o&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>How to use cost management Power BI content in Dynamics 365<ept id="p1">](https://www.youtube.com/watch?v=5jWHnM_C7WM&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365<ept id="p1">](https://www.youtube.com/watch?v=5jWHnM_C7WM&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Lifecycle Services (LCS)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lifecycle Services (LCS)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Asset library in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=z-2xMRa1nOs)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ไลบรารีแอสเซทใน Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=z-2xMRa1nOs)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Cloud-hosted environments<ept id="p1">](https://www.youtube.com/watch?v=igjVt1lbyLQ&amp;t=17s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สภาพแวดล้อมที่ใช้ Cloud<ept id="p1">](https://www.youtube.com/watch?v=igjVt1lbyLQ&amp;t=17s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Creating support tickets from Dynamics 365 for Operations<ept id="p1">](https://www.youtube.com/watch?v=avENUYBTBlA&amp;t=2s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การสร้างตั๋วสนับสนุนจาก Dynamics 365 for Operations<ept id="p1">](https://www.youtube.com/watch?v=avENUYBTBlA&amp;t=2s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">[</bpt>Deploying environments<ept id="p1">](https://www.youtube.com/watch?v=FUROjGuhQEA&amp;t=68s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การปรับใช้สภาพแวดล้อม<ept id="p1">](https://www.youtube.com/watch?v=FUROjGuhQEA&amp;t=68s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Getting started with Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=qLBjKAPaqN4&amp;t=24s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การเริ่มต้นใช้งาน Lifecycle Services:<ept id="p1">](https://www.youtube.com/watch?v=qLBjKAPaqN4&amp;t=24s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Deploying code to a sandbox environment<ept id="p1">](https://www.youtube.com/watch?v=5azLeOO078k)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การปรับใช้รหัสไปยังสภาพแวดล้อม Sandbox<ept id="p1">](https://www.youtube.com/watch?v=5azLeOO078k)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Deploying code to a production environment<ept id="p1">](https://www.youtube.com/watch?v=ogXo-saZkmE&amp;t=2s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การปรับใช้รหัสไปยังสภาพแวดล้อมการผลิต<ept id="p1">](https://www.youtube.com/watch?v=ogXo-saZkmE&amp;t=2s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Implementation projects in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=V1vVOgcTuw4&amp;t=18s)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>โครงการสำหรับการใช้งานใน Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=V1vVOgcTuw4&amp;t=18s)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Manage the code upgrade and tool process in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=M-AtR6ocYM8&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>จัดการการอัพเกรดรหัสและกระบวนการเครื่องมือใน Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=M-AtR6ocYM8&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Managing business process libraries in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=S5msxj-2-x0)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการไลบรารีของกระบวนการทางธุรกิจใน Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=S5msxj-2-x0)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>Methodologies in Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=YRMJ15DvgZ8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ระเบียบวิธีใน Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=YRMJ15DvgZ8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Request a Dynamics 365 for Finance and Operations production environment<ept id="p1">](https://www.youtube.com/watch?v=5j1GapLr3MY&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ร้องขอสภาพแวดล้อมการผลิต Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=5j1GapLr3MY&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">[</bpt>Refreshing data in a production environment<ept id="p1">](https://www.youtube.com/watch?v=VCd5SgkYPTw)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรีเฟรชข้อมูลในสภาพแวดล้อมการผลิต<ept id="p1">](https://www.youtube.com/watch?v=VCd5SgkYPTw)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Uptake a new Dynamics 365 for Finance and Operations platform release after Platform update 3<ept id="p1">](https://www.youtube.com/watch?v=nkiKP2Au6OQ&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้การนำออกใช้แพลตฟอร์ม Dynamics 365 for Finance and Operations ใหม่หลังการปรับปรุงแพลตฟอร์ม 3<ept id="p1">](https://www.youtube.com/watch?v=nkiKP2Au6OQ&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Use telemetry to monitor key performance counters in Dynamics Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=18u6SC8GeFY&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้การตรวจวัดระยะไกลเพื่อตรวจสอบตัวนับประสิทธิภาพหลักใน Dynamics Lifecycle Services<ept id="p1">](https://www.youtube.com/watch?v=18u6SC8GeFY&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Office integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรวม Office</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">[</bpt>Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=RTicLb-6dbI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบของรายการใน Dynamics 365 for Finance and Operations<ept id="p1">](https://www.youtube.com/watch?v=RTicLb-6dbI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Organization administration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดการองค์กร</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt>Document management<ept id="p1">](https://www.youtube.com/watch?v=p4rl1CkiLN4&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการเอกสาร<ept id="p1">](https://www.youtube.com/watch?v=p4rl1CkiLN4&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Procurement and sourcing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดซื้อและการจัดหา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">[</bpt>Approve purchase orders on a mobile device<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>อนุมัติใบสั่งซื้อบนอุปกรณ์เคลื่อนที่<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">[</bpt>Onboard a new vendor<ept id="p1">](https://www.youtube.com/watch?v=0KUc3AGaTKk&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เตรียมความพร้อมผู้จัดจำหน่ายรายใหม่<ept id="p1">](https://www.youtube.com/watch?v=0KUc3AGaTKk&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Production control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การควบคุมการผลิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source><bpt id="p1">[</bpt>Batch balancing<ept id="p1">](https://www.youtube.com/watch?v=4SNLWsU9KyI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การปรับสมดุลแบบกลุ่ม<ept id="p1">](https://www.youtube.com/watch?v=4SNLWsU9KyI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source><bpt id="p1">[</bpt>Enhancements to the production order release process<ept id="p1">](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การปรับปรุงไปยังกระบวนการนำออกใช้ของใบสั่งผลิต<ept id="p1">](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><bpt id="p1">[</bpt>Visual scheduling with Gantt chart for production and batch orders<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การกำหนดการแบบภาพด้วยแผนภูมิแกนต์สำหรับใบสั่งผลิตและใบสั่งชุดงาน<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Tax engine</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กลไกจัดการภาษี</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">[</bpt>Tax engine overview<ept id="p1">](https://www.youtube.com/watch?v=jAFpEBOtNWI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมกลไกจัดการภาษี<ept id="p1">](https://www.youtube.com/watch?v=jAFpEBOtNWI&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Warehouse management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดการคลังสินค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">[</bpt>Release production picking to the warehouse in batch<ept id="p1">](https://youtu.be/8urAJn50dQ8)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>นำการเบิกสินค้าการผลิตไปใช้ยังคลังสินค้าในชุดงาน<ept id="p1">](https://youtu.be/8urAJn50dQ8)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source><bpt id="p1">[</bpt>Use warehouse template to copy configuration<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>FastTrack Tech Talks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การพูดคุยเกี่ยวกับเทคโนโลยี FastTrack</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">[</bpt>FastTrack for Dynamics 365 Tech Talks<ept id="p1">](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl)</ept> focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>FastTrack สำหรับการพูดคุยเกี่ยวกับเทคโนโลยี Dynamics 365<ept id="p1">](https://infopedia.eventbuilder.com/index?landingpageid=92tzhl)</ept> มุ่งเน้นในการให้ความลึกทางเทคนิคและแนวทางปฏิบัติที่ดีที่สุดที่ให้ลูกค้าและคู่ค้ามีความรู้อย่างละเอียดที่เฉพาะเจาะจงต่อพื้นที่ชื่อเรื่อง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>The following section lists FastTrack Tech talk recordings that are available to stream or download.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วนต่อไปนี้แสดงรายการการบันทึกการพูดคุยเกี่ยวกับเทคโนโลยี FastTrack ที่พร้อมใช้งานในการสตรีมหรือดาวน์โหลด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>You can also download a PDF copy of the presentation deck from the Tech Talk site.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณยังสามารถดาวน์โหลดสำเนา PDF ของชุดงานนำเสนอจากไซต์การพูดคุยเกี่ยวกับเทคโนโลยี</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Data management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดการข้อมูล</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">[</bpt>Copy into legal entity (DYN383PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>คัดลอกไปยังนิติบุคคล (DYN383PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q3h0m7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source><bpt id="p1">[</bpt>Data management (DYN445PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการข้อมูล (DYN445PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=a7n1v0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source><bpt id="p1">[</bpt>Reduce data import and export time using configurations (DYN315PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ลดการนำเข้าข้อมูล และเวลาของการส่งออก โดยใช้การตั้งค่าคอนฟิก (DYN315PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s6v1q3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Demo data</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลสาธิต</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source><bpt id="p1">[</bpt>Demo data packages (DYN443PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>แพคเกจข้อมูลสาธิต (DYN443PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m2r4o6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Deployment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การปรับใช้</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">[</bpt>On-premises deployment (DYN382PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การปรับใช้ในองค์กร (DYN382PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Develop and customize</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">พัฒนาและเลือกกำหนด</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source><bpt id="p1">[</bpt>Azure Integration tools for Dynamics 365 for Finance and Operations (DYN386PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เครื่องมือการรวม Azure สำหรับ Dynamics 365 for Finance and Operations (DYN386PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">[</bpt>Extensibility (DYN384PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ความสามารถในการเพิ่ม (DYN384PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source><bpt id="p1">[</bpt>How to extend or build new analytical workspaces (DYN321PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการขยาย หรือสร้างพื้นที่ทำงานเชิงวิเคราะห์ใหม่ (DYN321PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source><bpt id="p1">[</bpt>Performance testing approach (DYN449PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการทดสอบประสิทธิภาพ (DYN449PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source><bpt id="p1">[</bpt>Performance testing approach (DYN449PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการทดสอบประสิทธิภาพ (DYN449PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Financial reporting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรายงานทางการเงิน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source><bpt id="p1">[</bpt>Financial reporting (DYN305PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรายงานทางการเงิน (DYN305PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source><bpt id="p1">[</bpt>Reporting options in Dynamics 365 for Finance and Operations (VIR810PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตัวเลือกในการรายงานใน Dynamics 365 for Finance and Operations (VIR810PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรวม</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source><bpt id="p1">[</bpt>CDS data integrator (DYN451PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตัวรวมข้อมูล CDS (DYN451PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source><bpt id="p1">[</bpt>Integration (VIR806PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรวม (VIR806PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source><bpt id="p1">[</bpt>Integration between Dynamics 365 for Sales and Dynamics 365 for Finance &amp; Operations via CDS (DYN340PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรวมระหว่าง Dynamics 365 for Sales และ Dynamics 365 for Finance &amp; Operations ผ่าน CDS (DYN340PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source><bpt id="p1">[</bpt>Integration framework within Dynamics 365 for Finance &amp; Operations (DYN385PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กรอบงานการรวมภายใน Dynamics 365 for Finance &amp; Operations (DYN385PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source><bpt id="p1">[</bpt>Task automation framework for Data management (DYN447PAL2)<ept id="p1">](https://youtu.be/KqnXjNpR4AY)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กรอบงานแบบอัตโนมัติของงานสำหรับการจัดการข้อมูล (DYN447PAL2)<ept id="p1">](https://youtu.be/KqnXjNpR4AY)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Intelligence</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข่าวกรอง</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source><bpt id="p1">[</bpt>Analytics &amp; reporting options, printing, and the Document Routing Agent (DYN442PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตัวเลือกการวิเคราะห์ &amp; การรายงาน การพิมพ์ และตัวแทนการกำหนดเส้นทางเอกสาร (DYN442PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=r6d9a6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">[</bpt>Introducing analytical workspaces (DYN317PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การแนะนำพื้นที่ทำงานเชิงวิเคราะห์ (DYN317PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h6e1a7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Mobile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เคลื่อนที่</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source><bpt id="p1">[</bpt>Expense &amp; project mobile workspace (DYN379PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ค่าใช้จ่าย &amp; พื้นที่ทำงานแบบเคลื่อนที่สำหรับโครงการ (DYN379PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u0g9h5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source><bpt id="p1">[</bpt>Mobile framework (VIR824PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กรอบงานแบบเคลื่อนที่ (VIR824PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=p2o7n7&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Procurement and sourcing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การจัดซื้อและการจัดหา</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source><bpt id="p1">[</bpt>Punch out (DYN332PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตอกบัตรออก (DYN332PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source><bpt id="p1">[</bpt>Vendor collaboration (DYN327PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การทำงานร่วมกันกับผู้จัดจำหน่าย (DYN327PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Retail</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source><bpt id="p1">[</bpt>Dynamics 365 for Retail POS extensibility: Deep dive (DYN342PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamics 365 for Retail การเพิ่มความสามารถของ POS: สำรวจดูรายละเอียด (DYN342PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source><bpt id="p1">[</bpt>Retail architecture &amp; Retail Store Scale Unit (DYN307PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถาปัตยกรรมการขายปลีก &amp; Retail Store Scale Unit (DYN307PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source><bpt id="p1">[</bpt>What's new in Dynamics 365 for Retail POS extensibility (DYN339PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>มีอะไรใหม่ในการเพิ่มความสามารถของ POS ใน Dynamics 365 for Retail (DYN339PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสนับสนุน</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source><bpt id="p1">[</bpt>Servicing (VIR805PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การบริการ (VIR805PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Upgrade and migration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การอัพเกรดและการย้าย</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source><bpt id="p1">[</bpt>AX 2009 to Dynamics 365 for Operations migration tools (VIR809PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เครือข่ายการย้าย AX 2009 ไปยัง Dynamics 365 for Operations (VIR809PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source><bpt id="p1">[</bpt>AX 2009 migration tools (DYN306PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>AX เครื่องมือการย้าย 2009 (DYN306PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source><bpt id="p1">[</bpt>AX 2012 to Dynamics 365 for Operations upgrade (VIR817PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การอัพเกรด AX 2012 เป็น Dynamics 365 for Operations (VIR817PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source><bpt id="p1">[</bpt>How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source><bpt id="p1">[</bpt>Azure DevOps setup (VIR782PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Azure DevOps การตั้งค่า (VIR782PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Warehouse management</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">การจัดการคลังสินค้า</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source><bpt id="p1">[</bpt>Additions to mixed license plate receiving (DYN331PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การเพิ่มไปยังการรับป้ายทะเบียนแบบผสม (DYN331PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source><bpt id="p1">[</bpt>Demand replenishment for raw material picking (DYN333PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การเพิ่มเติมสินค้าตามความต้องการสำหรับการเบิกวัตถุดิบ (DYN333PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=i5p9d2&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source><bpt id="p1">[</bpt>Item and warehouse migration process to use advanced warehouse management (DYN316PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กระบวนการย้ายสินค้าและคลังสินค้าที่จะใช้การบริหารคลังสินค้าขั้นสูง (DYN316PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=w0k4b4&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source><bpt id="p1">[</bpt>Piece by piece picking process (DYN330PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กระบวนการเบิกสินค้าชิ้นต่อชิ้น (DYN330PAL2)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source><bpt id="p1">[</bpt>Visual scheduling for Production orders and kanbans (DYN328PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดกำหนดการแบบภาพสำหรับใบสั่งผลิตและคัมบัง (DYN328PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">[</bpt>Warehouse integration with Production (DYN344PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept><ph id="ph1"> - </ph><bpt id="p2">[</bpt>Warehousing mobile app (VIR816PAL)<ept id="p2">](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรวมคลังสินค้ากับการผลิต (DYN344PAL)<ept id="p1">](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept><ph id="ph1"> - </ph><bpt id="p2">[</bpt>แอปมือถือของคลังสินค้า (VIR816PAL)<ept id="p2">](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&amp;source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
