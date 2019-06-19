@@ -1,471 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="financial-reporting-getting-started.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>financial-reporting-getting-started.2bf0de.b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>06c8dc5bc4e1c41f68e1cda141d61529768be958</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\general-ledger\financial-reporting-getting-started.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Financial reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายที่จะเข้าถึงการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถการรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>It includes a description of the default financial reports that are provided.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Financial reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายที่จะเข้าถึงการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถการรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>It includes a description of the default financial reports that are provided.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Accessing financial reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การเข้าถึงรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>You can find the <bpt id="p1">**</bpt>Financial reporting<ept id="p1">**</ept> menu in the following places in Finance and Operations:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถค้นหาเมนู <bpt id="p1">**</bpt>รายงานทางการเงิน<ept id="p1">**</ept> ได้ในที่ต่อไปนี้ใน Finance and Operations:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">**</bpt>General Ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>บัญชีแยกประเภททั่วไป<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การสอบถามและรายงาน<ept id="p2">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">**</bpt>Budgeting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquires and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Basic budgeting<ept id="p3">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดงบประมาณ<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การสอบถามและรายงาน<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การจัดงบประมาณพื้นฐาน<ept id="p3">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">**</bpt>Budgeting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Budget planning<ept id="p3">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดงบประมาณ<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การสอบถามและรายงาน<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การวางแผนงบประมาณ<ept id="p3">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">**</bpt>Budgeting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Budget control<ept id="p3">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดงบประมาณ<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การสอบถามและรายงาน<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>การควบคุมงบประมาณ<ept id="p3">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Consolidations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรวมบัญชี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>To create and generate financial reports for a legal entity, you must set up the following information for that legal entity:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการสร้างรายงานทางการเงินสำหรับนิติบุคคล คุณต้องตั้งค่าข้อมูลต่อไปนี้สำหรับนิติบุคคลนั้น:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Fiscal calendar</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ปฏิทินทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บัญชีแยกประเภท</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Chart of accounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผังบัญชี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Currency</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สกุลเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The financial reporting functions are available to users who have the appropriate privileges and duties assigned to them through their security roles.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ฟังก์ชันการรายงานทางการเงินพร้อมใช้งานสำหรับผู้ใช้ที่มีสิทธิ์ที่เหมาะสม และถูกกำหนดหน้าที่ให้โดยบทบาทความปลอดภัย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>The following sections list these privileges and duties, together with the associated roles.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วนต่อไป แสดงรายการสิทธิ์และหน้าที่เหล่านี้ ร่วมกับบทบาทเกี่ยวข้อง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Duties</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้าที่</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Duty label</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ป้ายชื่อหน้าที่</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำอธิบาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>AOT name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชื่อ AOT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Maintain financial reporting security</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษาความปลอดภัยของรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Maintain financial reporting security and perform administrative tasks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษาความปลอดภัยของรายงานทางการเงินและทำงานการดูแล</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>FinancialReportsSecurityMaintain</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรักษาความปลอดภัยของรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Maintain financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Design and maintain financial reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การออกแบบและรักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>FinancialReportsMaintain</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การรักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Generate financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Generate and refresh financial reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสร้างและรีเฟรชรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>FinancialReportsGenerate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสร้างรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Review financial performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตรวจทานประสิทธิภาพทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Review and analyze financial performance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตรวจทานและวิเคราะห์ประสิทธิภาพทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>FinancialReportsPerfReview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตรวจสอบประสิทธิภาพการทำงานของรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Privileges</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สิทธิ์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Privilege label</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ป้ายชื่อสิทธิ์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำอธิบาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>AOT name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ชื่อ AOT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Maintain financial reporting security</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษาความปลอดภัยของรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Maintain financial reporting security and perform administrative tasks.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">รักษาความปลอดภัยของรายงานทางการเงินและทำงานการดูแล</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>FinancialReportsSecuritySystemMaintain</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match">FinancialReportsSecuritySystemMaintain</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Maintain financial reports</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">รักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Design and maintain financial reports.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">การออกแบบและรักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>FinancialReportsMaintainReports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsMaintain</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Generate financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Generate and refresh financial reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสร้างและรีเฟรชรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>FinancialReportsGenerateReports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsGenerate</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>View financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>View financial reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>FinancialReportsView</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การดูรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Roles</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บทบาท</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Privilege label</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ป้ายชื่อสิทธิ์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Duty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภาษี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Roles</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บทบาท</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Maintain financial reporting security</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษาความปลอดภัยของรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Maintain financial reporting security</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษาความปลอดภัยของรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Security administrator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ดูแลระบบความปลอดภัย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Maintain financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Maintain financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รักษารายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Accounting Manager, Accounting Supervisor, Financial Controller, Budget Manager</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้จัดการฝ่ายบัญชี หัวหน้างานฝ่ายบัญชี ผู้ควบคุมทางการเงิน ผู้จัดการงบประมาณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Generate financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Generate financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สร้างรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>CEO, CFO, Accountant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CEO CFO นักบัญชี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>View financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Review financial performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตรวจทานประสิทธิภาพทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>None assigned</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่ได้รับมอบหมาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>After a user is added or a role is changed, the user should be able to access financial reporting within a few minutes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่มีการเพิ่มผู้ใช้ หรือมีการเปลี่ยนแปลงบทบาท ผู้ใช้ควรจะสามารถเข้าถึงรายงานทางการเงินได้ภายในสองสามนาที</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The sysadmin role is added to all roles in financial reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>หมายเหตุ:<ept id="p1">**</ept> มีการเพิ่มบทบาทของ sysadmin ไปยังบทบาททั้งหมดในรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Default reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Financial reporting provides 22 default financial reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานทางการเงินแสดง 22 รายงานทางการเงินเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Every report uses the default main account categories in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานทั้งหมดใช้ประเภทบัญชีหลักเริ่มต้นใน Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>You can use these reports as is or as a starting point for your financial reporting needs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้รายงานเหล่านี้ตามที่เป็น หรือเป็นจุดเริ่มต้นสำหรับการรายงานทางการเงินที่คุณต้องการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>In addition to the traditional financial statements, such as Income statement and Balance sheet, these default reports include reports that show the different types of financial reports that you can create.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกเหนือจากงบการเงินแบบดั้งเดิม เช่น งบกำไรขาดทุนและงบดุล รายงานเริ่มต้นเหล่านี้รวมรายงานที่แสดงรายงานทางการเงินชนิดต่าง ๆ ที่คุณสามารถสร้างได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Default report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำอธิบาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>12 Month Rolling Single Column Income Statement – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">งบกำไรขาดทุนใน 12 เดือนในคอลัมน์เดียว – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>View an organization’s profitability for the past 12 months in a single column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูผลกำไรขององค์กรสำหรับ 12 เดือนที่ผ่านมาในคอลัมน์เดียว</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>12 Month Trend Income Statement – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แนวโน้มงบกำไรขาดทุนใน 12 เดือน – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>View an organization’s profitability for each of the last 12 months.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูผลกำไรขององค์กรสำหรับ 12 เดือนที่ผ่านมาในคอลัมน์เดียว</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>These 12 months can span more than one fiscal year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12 เดือนเหล่านี้จะครอบคลุมมากกว่าหนึ่งปีบัญชี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Actual vs Budget – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลจริงจริงเปรียบเทียบกับงบประมาณ – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>View detailed balance information for all accounts for the original budget, and compare the revised budget to actuals that have a variance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลรายละเอียดยอดดุลสำหรับบัญชีทั้งหมดสำหรับงบประมาณเดิม และเปรียบเทียบกับงบประมาณที่ปรับปรุงตามผลต่างที่เกิดขึ้นจริง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Audit Details – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายละเอียดการตรวจสอบ – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>View detailed balance information for all accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลยอดดุลโดยละเอียดสำหรับบัญชีทั้งหมด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>This report shows debit and credit balances in the reporting currency and the local currency, together with additional transaction information, such as the user ID, the user who last modified the data, the date of the last modification, and the journal ID.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานนี้แสดงยอดดุลเดบิตและเครดิตในสกุลเงินที่ใช้รายงานและสกุลเงินท้องถิ่น พร้อมด้วยข้อมูลธุรกรรมเพิ่มเติม เช่น รหัสผู้ใช้ ผู้ใช้ที่ปรับเปลี่ยนข้อมูลครั้งล่าสุด วันที่ของการปรับเปลี่ยนครั้งล่าสุด และรหัสสมุดรายวัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Balance List – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายการยอดดุล – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>View detailed balance information for all accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลยอดดุลโดยละเอียดสำหรับบัญชีทั้งหมด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>This report shows opening and closing balances, and debit and credit balances for the current period and year to date, together with additional transaction information, such as the voucher.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานนี้แสดงยอดดุลยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิตสำหรับรอบระยะเวลาปัจจุบันและปีปัจจุบัน พร้อมข้อมูลธุรกรรมเพิ่มเติม เช่นใบสำคัญ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Balance Sheet – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">งบดุล – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>View the organization's financial position for the year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูตำแหน่งทางการเงินขององค์กรต่อปี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Balance Sheet and Income Statement Side by Side - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">งบดุลและงบกำไรขาดทุนควบคู่กัน - เริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>View the organization’s financial position and profitability for the year side by side.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูตำแหน่งทางการเงินและผลกำไรขององค์กรต่อปีควบคู่กัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Cash Flow – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กระแสเงินสด – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Gain insight into the cash that is coming in to and going out of the organization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ได้รับข้อมูลเชิงลึกในเงินสดที่เข้ามาและออกจากองค์กร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Detailed JE and TB Review – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การตรวจทาน JE และ TB อย่างละเอียด – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>View opening balance and activity information for all accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูยอดดุลยกมาและข้อมูลกิจกรรมสำหรับบัญชีทั้งหมด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">งบทดลองโดยละเอียด – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>View balance information for all accounts that have debit and credit balances, and the net of these balances, together with the transaction date, voucher, and journal description.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลยอดดุลสำหรับบัญชีทั้งหมดที่มียอดดุลเดบิตและเครดิต และมูลค่าสุทธิของยอดดุลเหล่านี้ พร้อมด้วยวันที่ทำธุรกรรม ใบสำคัญ และคำอธิบายเกี่ยวกับสมุดรายวัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Expenses Three Year Quarterly Trend – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แนวโน้มค่าใช้จ่ายรายไตรมาสเป็นเวลาสามปี – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Gain insight into expenses for the past 12 quarters over the previous three years.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ได้รับข้อมูลเชิงลึกเกี่ยวกับค่าใช้จ่ายสำหรับ 12 ไตรมาสที่ผ่านมา ในช่วงสามปีก่อนหน้านี้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Financial Captions JE and TB Review – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำอธิบายทางการเงินของการตรวจทาน JE และ TB – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>See an overview of the balances and activity for the asset, liability, owner’s equity, revenue, expense, gain, or loss financial captions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูภาพรวมของยอดดุลและกิจกรรมสำหรับคำอธิบายเฉพาะทางการเงินของสินทรัพย์ หนี้สิน ส่วนของผู้ถือหุ้นของเจ้าของ รายได้ ค่าใช้จ่าย กำไร หรือขาดทุน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Income Statement – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">งบกำไรขาดทุน – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>View the organization’s profitability for the current period and the year to date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูผลกำไรขององค์กรสำหรับรอบระยะเวลาปัจจุบันและปีปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Ledger Transaction List – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายการธุรกรรมบัญชีแยกประเภท – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>View detailed balance information for all accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลยอดดุลโดยละเอียดสำหรับบัญชีทั้งหมด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>This report shows debit and credit balances, together with additional transaction information, such as the transaction date, journal number, voucher, posting type, and trace number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานนี้แสดงยอดดุลเดบิตและเครดิต พร้อมด้วยข้อมูลธุรกรรมเพิ่มเติม เช่นวันที่ของธุรกรรม หมายเลขสมุดรายวัน ใบสำคัญ การลงรายการบัญชี ชนิดและหมายเลขการติดตาม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Ratios – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อัตราส่วน – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>View the solvency, profitability, and efficiency ratios for the organization for the year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูผลสภาพคล่อง ความสามารถในการทำกำไร และอัตราประสิทธิภาพขององค์กรสำหรับปี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Rolling 12 Month Expenses – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำลังย้อนค่าใช้จ่าย 12 เดือน – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Gain insight into expenses for each of the last 12 months.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ได้รับข้อมูลเชิงลึกเกี่ยวกับค่าใช้จ่ายสำหรับแต่ละค่าในช่วง 12 เดือนล่าสุด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>These 12 months can span more than one fiscal year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12 เดือนเหล่านี้จะครอบคลุมมากกว่าหนึ่งปีบัญชี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Rolling Quarter Income Statement – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กำลังย้อนงบกำไรขาดทุนไตรมาส – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>View the organization’s profitability on a quarterly basis for the past year and the year to date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูผล ความสามารถในการทำกำไรขององค์กรรายไตรมาสสำหรับปีผ่านมา และปีปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Side by Side Balance Sheet – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>View the organization's financial position for the year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูตำแหน่งทางการเงินขององค์กรต่อปี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>This report shows assets and liability, and shareholder equity side by side.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานนี้แสดงสินทรัพย์และหนี้สิน และส่วนของผู้ถือหุ้นเคียงข้างกัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Summary Trial Balance – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สรุปงบทดลอง – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลยอดดุลสำหรับบัญชีทั้งหมดที่มียอดยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิตพร้อมกับผลต่างสุทธิ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Summary Trial Balance Year Over Year – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference for the current year and the past year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูข้อมูลยอดดุลสำหรับบัญชีทั้งหมดที่มียอดยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิตพร้อมกับผลต่างสุทธิสำหรับปีปัจจุบันและปีที่ผ่านมา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Weekly Sales and Discounts - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ยอดขายและส่วนลดรายสัปดาห์ - เริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Gain insight into sales and discounts for each week in a month.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ได้รับข้อมูลเชิงลึกเกี่ยวกับยอดขายและส่วนลดสำหรับแต่ละสัปดาห์ในเดือน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>This report includes a four-week total.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายงานนี้มีทั้งหมดสี่สัปดาห์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Budget Funds Available - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เงินงบประมาณที่มีอยู่ - ค่าเริ่มต้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>View a detailed comparison of revised budget, actual expenditures, budget reservations, and budget funds available for all accounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูการเปรียบเทียบโดยละเอียดของงบประมาณที่ปรับปรุงแล้ว ค่าใช้จ่ายที่เกิดขึ้นจริง การจองงบประมาณ และเงินงบประมาณที่พร้อมใช้งานสำหรับบัญชีทั้งหมด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Opening financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การเปิดรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>When you click the <bpt id="p1">**</bpt>Financial reporting<ept id="p1">**</ept> menu, the list of default financial reports for the company is shown.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณคลิกเมนู <bpt id="p1">**</bpt>รายงานทางการเงิน<ept id="p1">**</ept> รายการเริ่มต้นรายงานทางการเงินสำหรับบริษัทจะปรากฏขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>You can then open or modify a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถเปิด หรือปรับเปลี่ยนรายงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>To open one of the default reports, select the report name.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการเปิดหนึ่งในรายงานเริ่มต้น เลือกชื่อรายงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>The first time that a report is opened, it's automatically generated for the previous month.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในครั้งแรกที่มีการเปิดรายงาน รายงานจะถูกสร้างโดยอัตโนมัติสำหรับเดือนก่อนหน้านี้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>For example, if you open a report for the first time in August 2016, the report is generated for July 31, 2016.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวอย่างเช่น ถ้าคุณเปิดการรายงานเป็นครั้งแรกในเดือน 2016 สิงหาคม รายงานถูกสร้างขึ้นสำหรับวันที่ 31 กรกฎาคม 2016</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>After a report is opened, you can start exploring it by drilling down on specific pieces of data and changing report options.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่มีการเปิดรายงาน คุณสามารถเริ่มสำรวจ โดยการดูรายละเอียดแนวลึกในส่วนของข้อมูลเฉพาะเจาะจง และการเปลี่ยนตัวเลือกรายงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Creating and modifying financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสร้างและแก้ไขรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>From the financial reports list, you can create a new report or modify an existing report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถสร้างรายงานใหม่ หรือแก้ไขรายงานที่มีอยู่จากรายการรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>If you have the appropriate permissions, you can create a new financial report by clicking <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the Action Pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณมีสิทธิ์ที่เหมาะสม คุณสามารถสร้างรายงานทางการเงินใหม่ด้วยการคลิก <bpt id="p1">**</bpt>สร้าง<ept id="p1">**</ept> บนบานหน้าต่างการดำเนินการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>A report designer program is downloaded to your device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โปรแกรมออกแบบรายงานจะถูกดาวน์โหลดไปยังอุปกรณ์ของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>After the report designer starts you can then create the new report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่โปรแกรมออกแบบรายงานเริ่มทำงาน คุณสามารถสร้างรายงานใหม่</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>After you save the new report, it appears in the financial reports list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากคุณบันทึกรายงานใหม่ จะปรากฏอยู่ในรายการรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>The list shows only reports that were created for the company that you're using in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รายการจะแสดงเฉพาะรายงานที่สร้างขึ้นสำหรับบริษัทที่คุณกำลังใช้อยู่ใน Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>The computer that you are downloading the report designer client on must have version 4.6.2 of the Microsoft .NET Framework installed on it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คอมพิวเตอร์ที่คุณกำลังดาวน์โหลดไคลเอ็นต์ตัวออกแบบรายงาน ต้องมีรุ่น 4.6.2 ของกรอบงาน Microsoft .NET ที่ติดตั้งอยู่</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>This version of the Microsoft .NET Framework can be downloaded and installed from the <bpt id="p1">[</bpt>Microsoft Download Center<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=53345)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก <bpt id="p1">[</bpt>ศูนย์ดาวน์โหลด Microsoft<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=53345)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>If you are using Chrome, you must install a ClickOnce extension in order to download the report designer client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>If you are running in incognito mode, make sure the ClickOnce extension is enabled for incognito mode.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณกำลังทำงานในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>You can also modify a report that appears in the financial reports list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณยังสามารถแก้ไขรายงานที่ปรากฏอยู่ในรายการรายงานทางการเงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>When the area around the report name is selected, click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> on the Action Pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกพื้นที่โดยรอบชื่อรายงานถูก คลิก <bpt id="p1">**</bpt>แก้ไข<ept id="p1">**</ept> บนบานหน้าต่างการดำเนินการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>The report designer program starts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เริ่มต้นโปรแกรมออกแบบรายงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทรัพยากรเพิ่มเติม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source><bpt id="p1">[</bpt>View financial reports<ept id="p1">](view-financial-reports.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ดูรายงานทางการเงิน<ept id="p1">](view-financial-reports.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: การรายงานทางการเงิน
+description: หัวข้อนี้อธิบายที่จะเข้าถึงการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถการรายงานทางการเงิน ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
+author: aprilolson
+manager: AnnBe
+ms.date: 05/22/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: FinancialReports
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 10444
+ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594971"
+---
+# <a name="financial-reporting"></a><span data-ttu-id="852ab-104">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-104">Financial reporting</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="852ab-105">หัวข้อนี้อธิบายที่จะเข้าถึงการรายงานทางการเงินใน Microsoft Dynamics 365 for Finance and Operations และวิธีการใช้ความสามารถการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-105">This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</span></span> <span data-ttu-id="852ab-106">ซึ่งประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้</span><span class="sxs-lookup"><span data-stu-id="852ab-106">It includes a description of the default financial reports that are provided.</span></span>
+
+<a name="accessing-financial-reporting"></a><span data-ttu-id="852ab-107">การเข้าถึงรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-107">Accessing financial reporting</span></span>
+-----------------------------
+
+<span data-ttu-id="852ab-108">คุณสามารถค้นหาเมนู **รายงานทางการเงิน** ได้ในที่ต่อไปนี้ใน Finance and Operations:</span><span class="sxs-lookup"><span data-stu-id="852ab-108">You can find the **Financial reporting** menu in the following places in Finance and Operations:</span></span>
+
+-   <span data-ttu-id="852ab-109">**บัญชีแยกประเภททั่วไป** &gt; **การสอบถามและรายงาน**</span><span class="sxs-lookup"><span data-stu-id="852ab-109">**General Ledger** &gt; **Inquiries and reports**</span></span>
+-   <span data-ttu-id="852ab-110">**การจัดงบประมาณ** &gt; **การสอบถามและรายงาน** &gt; **การจัดงบประมาณพื้นฐาน**</span><span class="sxs-lookup"><span data-stu-id="852ab-110">**Budgeting** &gt; **Inquires and reports** &gt; **Basic budgeting**</span></span>
+-   <span data-ttu-id="852ab-111">**การจัดงบประมาณ** &gt; **การสอบถามและรายงาน** &gt; **การวางแผนงบประมาณ**</span><span class="sxs-lookup"><span data-stu-id="852ab-111">**Budgeting** &gt; **Inquiries and reports** &gt; **Budget planning**</span></span>
+-   <span data-ttu-id="852ab-112">**การจัดงบประมาณ** &gt; **การสอบถามและรายงาน** &gt; **การควบคุมงบประมาณ**</span><span class="sxs-lookup"><span data-stu-id="852ab-112">**Budgeting** &gt; **Inquiries and reports** &gt; **Budget control**</span></span>
+-   <span data-ttu-id="852ab-113">การรวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="852ab-113">Consolidations</span></span>
+
+<span data-ttu-id="852ab-114">เมื่อต้องการสร้างรายงานทางการเงินสำหรับนิติบุคคล คุณต้องตั้งค่าข้อมูลต่อไปนี้สำหรับนิติบุคคลนั้น:</span><span class="sxs-lookup"><span data-stu-id="852ab-114">To create and generate financial reports for a legal entity, you must set up the following information for that legal entity:</span></span>
+
+-   <span data-ttu-id="852ab-115">ปฏิทินทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-115">Fiscal calendar</span></span>
+-   <span data-ttu-id="852ab-116">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="852ab-116">Ledger</span></span>
+-   <span data-ttu-id="852ab-117">ผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="852ab-117">Chart of accounts</span></span>
+-   <span data-ttu-id="852ab-118">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-118">Currency</span></span>
+
+<span data-ttu-id="852ab-119">ฟังก์ชันการรายงานทางการเงินพร้อมใช้งานสำหรับผู้ใช้ที่มีสิทธิ์ที่เหมาะสม และถูกกำหนดหน้าที่ให้โดยบทบาทความปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="852ab-119">The financial reporting functions are available to users who have the appropriate privileges and duties assigned to them through their security roles.</span></span> <span data-ttu-id="852ab-120">ส่วนต่อไป แสดงรายการสิทธิ์และหน้าที่เหล่านี้ ร่วมกับบทบาทเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="852ab-120">The following sections list these privileges and duties, together with the associated roles.</span></span>
+
+### <a name="duties"></a><span data-ttu-id="852ab-121">หน้าที่</span><span class="sxs-lookup"><span data-stu-id="852ab-121">Duties</span></span>
+
+| <span data-ttu-id="852ab-122">ป้ายชื่อหน้าที่</span><span class="sxs-lookup"><span data-stu-id="852ab-122">Duty label</span></span>                            | <span data-ttu-id="852ab-123">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="852ab-123">Description</span></span>                                                             | <span data-ttu-id="852ab-124">ชื่อ AOT</span><span class="sxs-lookup"><span data-stu-id="852ab-124">AOT name</span></span>                         |
+|---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
+| <span data-ttu-id="852ab-125">รักษาความปลอดภัยของรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-125">Maintain financial reporting security</span></span> | <span data-ttu-id="852ab-126">รักษาความปลอดภัยของรายงานทางการเงินและทำงานการดูแล</span><span class="sxs-lookup"><span data-stu-id="852ab-126">Maintain financial reporting security and perform administrative tasks.</span></span> | <span data-ttu-id="852ab-127">การรักษาความปลอดภัยของรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-127">FinancialReportsSecurityMaintain</span></span> |
+| <span data-ttu-id="852ab-128">รักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-128">Maintain financial reports</span></span>            | <span data-ttu-id="852ab-129">การออกแบบและรักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-129">Design and maintain financial reports.</span></span>                                  | <span data-ttu-id="852ab-130">การรักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-130">FinancialReportsMaintain</span></span>         |
+| <span data-ttu-id="852ab-131">สร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-131">Generate financial reports</span></span>            | <span data-ttu-id="852ab-132">การสร้างและรีเฟรชรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-132">Generate and refresh financial reports.</span></span>                                 | <span data-ttu-id="852ab-133">การสร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-133">FinancialReportsGenerate</span></span>         |
+| <span data-ttu-id="852ab-134">ตรวจทานประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-134">Review financial performance</span></span>          | <span data-ttu-id="852ab-135">ตรวจทานและวิเคราะห์ประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-135">Review and analyze financial performance.</span></span>                               | <span data-ttu-id="852ab-136">การตรวจสอบประสิทธิภาพการทำงานของรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-136">FinancialReportsPerfReview</span></span>       |
+
+### <a name="privileges"></a><span data-ttu-id="852ab-137">สิทธิ์</span><span class="sxs-lookup"><span data-stu-id="852ab-137">Privileges</span></span>
+
+| <span data-ttu-id="852ab-138">ป้ายชื่อสิทธิ์</span><span class="sxs-lookup"><span data-stu-id="852ab-138">Privilege label</span></span>                       | <span data-ttu-id="852ab-139">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="852ab-139">Description</span></span>                                                             | <span data-ttu-id="852ab-140">ชื่อ AOT</span><span class="sxs-lookup"><span data-stu-id="852ab-140">AOT name</span></span>                         |
+|---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
+| <span data-ttu-id="852ab-141">รักษาความปลอดภัยของรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-141">Maintain financial reporting security</span></span> | <span data-ttu-id="852ab-142">รักษาความปลอดภัยของรายงานทางการเงินและทำงานการดูแล</span><span class="sxs-lookup"><span data-stu-id="852ab-142">Maintain financial reporting security and perform administrative tasks.</span></span> | <span data-ttu-id="852ab-143">FinancialReportsSecuritySystemMaintain</span><span class="sxs-lookup"><span data-stu-id="852ab-143">FinancialReportsSecuritySystemMaintain</span></span> |
+| <span data-ttu-id="852ab-144">รักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-144">Maintain financial reports</span></span>            | <span data-ttu-id="852ab-145">การออกแบบและรักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-145">Design and maintain financial reports.</span></span>                                  | <span data-ttu-id="852ab-146">FinancialReportsMaintain</span><span class="sxs-lookup"><span data-stu-id="852ab-146">FinancialReportsMaintainReports</span></span>  |
+| <span data-ttu-id="852ab-147">สร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-147">Generate financial reports</span></span>            | <span data-ttu-id="852ab-148">การสร้างและรีเฟรชรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-148">Generate and refresh financial reports.</span></span>                                 | <span data-ttu-id="852ab-149">FinancialReportsGenerate</span><span class="sxs-lookup"><span data-stu-id="852ab-149">FinancialReportsGenerateReports</span></span>  |
+| <span data-ttu-id="852ab-150">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-150">View financial reports</span></span>                | <span data-ttu-id="852ab-151">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-151">View financial reports.</span></span>                                                 | <span data-ttu-id="852ab-152">การดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-152">FinancialReportsView</span></span>             |
+
+### <a name="roles"></a><span data-ttu-id="852ab-153">บทบาท</span><span class="sxs-lookup"><span data-stu-id="852ab-153">Roles</span></span>
+
+| <span data-ttu-id="852ab-154">ป้ายชื่อสิทธิ์</span><span class="sxs-lookup"><span data-stu-id="852ab-154">Privilege label</span></span>                       | <span data-ttu-id="852ab-155">ภาษี</span><span class="sxs-lookup"><span data-stu-id="852ab-155">Duty</span></span>                                  | <span data-ttu-id="852ab-156">บทบาท</span><span class="sxs-lookup"><span data-stu-id="852ab-156">Roles</span></span>                                                                           |
+|---------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
+| <span data-ttu-id="852ab-157">รักษาความปลอดภัยของรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-157">Maintain financial reporting security</span></span> | <span data-ttu-id="852ab-158">รักษาความปลอดภัยของรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-158">Maintain financial reporting security</span></span> | <span data-ttu-id="852ab-159">ผู้ดูแลระบบความปลอดภัย</span><span class="sxs-lookup"><span data-stu-id="852ab-159">Security administrator</span></span>                                                          |
+| <span data-ttu-id="852ab-160">รักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-160">Maintain financial reports</span></span>            | <span data-ttu-id="852ab-161">รักษารายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-161">Maintain financial reports</span></span>            | <span data-ttu-id="852ab-162">ผู้จัดการฝ่ายบัญชี หัวหน้างานฝ่ายบัญชี ผู้ควบคุมทางการเงิน ผู้จัดการงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="852ab-162">Accounting Manager, Accounting Supervisor, Financial Controller, Budget Manager</span></span> |
+| <span data-ttu-id="852ab-163">สร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-163">Generate financial reports</span></span>            | <span data-ttu-id="852ab-164">สร้างรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-164">Generate financial reports</span></span>            | <span data-ttu-id="852ab-165">CEO CFO นักบัญชี</span><span class="sxs-lookup"><span data-stu-id="852ab-165">CEO, CFO, Accountant</span></span>                                                            |
+| <span data-ttu-id="852ab-166">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-166">View financial reports</span></span>                | <span data-ttu-id="852ab-167">ตรวจทานประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-167">Review financial performance</span></span>          | <span data-ttu-id="852ab-168">ไม่ได้รับมอบหมาย</span><span class="sxs-lookup"><span data-stu-id="852ab-168">None assigned</span></span>                                                                   |
+
+<span data-ttu-id="852ab-169">หลังจากที่มีการเพิ่มผู้ใช้ หรือมีการเปลี่ยนแปลงบทบาท ผู้ใช้ควรจะสามารถเข้าถึงรายงานทางการเงินได้ภายในสองสามนาที</span><span class="sxs-lookup"><span data-stu-id="852ab-169">After a user is added or a role is changed, the user should be able to access financial reporting within a few minutes.</span></span> <span data-ttu-id="852ab-170">**หมายเหตุ:** มีการเพิ่มบทบาทของ sysadmin ไปยังบทบาททั้งหมดในรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-170">**Note:** The sysadmin role is added to all roles in financial reporting.</span></span>
+
+## <a name="default-reports"></a><span data-ttu-id="852ab-171">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-171">Default reports</span></span>
+<span data-ttu-id="852ab-172">รายงานทางการเงินแสดง 22 รายงานทางการเงินเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-172">Financial reporting provides 22 default financial reports.</span></span> <span data-ttu-id="852ab-173">รายงานทั้งหมดใช้ประเภทบัญชีหลักเริ่มต้นใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="852ab-173">Every report uses the default main account categories in Finance and Operations.</span></span> <span data-ttu-id="852ab-174">คุณสามารถใช้รายงานเหล่านี้ตามที่เป็น หรือเป็นจุดเริ่มต้นสำหรับการรายงานทางการเงินที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="852ab-174">You can use these reports as is or as a starting point for your financial reporting needs.</span></span> <span data-ttu-id="852ab-175">นอกเหนือจากงบการเงินแบบดั้งเดิม เช่น งบกำไรขาดทุนและงบดุล รายงานเริ่มต้นเหล่านี้รวมรายงานที่แสดงรายงานทางการเงินชนิดต่าง ๆ ที่คุณสามารถสร้างได้</span><span class="sxs-lookup"><span data-stu-id="852ab-175">In addition to the traditional financial statements, such as Income statement and Balance sheet, these default reports include reports that show the different types of financial reports that you can create.</span></span> 
+
+<!--Each report in the following table links to an Office Mix presentation about the report.-->
+
+| <span data-ttu-id="852ab-176">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-176">Default report</span></span>                                                                                         | <span data-ttu-id="852ab-177">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="852ab-177">Description</span></span>                                                                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="852ab-178">งบกำไรขาดทุนใน 12 เดือนในคอลัมน์เดียว – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-178">12 Month Rolling Single Column Income Statement – Default</span></span> | <span data-ttu-id="852ab-179">ดูผลกำไรขององค์กรสำหรับ 12 เดือนที่ผ่านมาในคอลัมน์เดียว</span><span class="sxs-lookup"><span data-stu-id="852ab-179">View an organization’s profitability for the past 12 months in a single column.</span></span>                                                                                                                                                                                                                                      |
+| <span data-ttu-id="852ab-180">แนวโน้มงบกำไรขาดทุนใน 12 เดือน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-180">12 Month Trend Income Statement – Default</span></span>                 | <span data-ttu-id="852ab-181">ดูผลกำไรขององค์กรสำหรับ 12 เดือนที่ผ่านมาในคอลัมน์เดียว</span><span class="sxs-lookup"><span data-stu-id="852ab-181">View an organization’s profitability for each of the last 12 months.</span></span> <span data-ttu-id="852ab-182">12 เดือนเหล่านี้จะครอบคลุมมากกว่าหนึ่งปีบัญชี</span><span class="sxs-lookup"><span data-stu-id="852ab-182">These 12 months can span more than one fiscal year.</span></span>                                                                                                                                                                                             |
+| <span data-ttu-id="852ab-183">ข้อมูลจริงจริงเปรียบเทียบกับงบประมาณ – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-183">Actual vs Budget – Default</span></span>                                | <span data-ttu-id="852ab-184">ดูข้อมูลรายละเอียดยอดดุลสำหรับบัญชีทั้งหมดสำหรับงบประมาณเดิม และเปรียบเทียบกับงบประมาณที่ปรับปรุงตามผลต่างที่เกิดขึ้นจริง</span><span class="sxs-lookup"><span data-stu-id="852ab-184">View detailed balance information for all accounts for the original budget, and compare the revised budget to actuals that have a variance.</span></span>                                                                                                                                                                          |
+| <span data-ttu-id="852ab-185">รายละเอียดการตรวจสอบ – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-185">Audit Details – Default</span></span>                                  | <span data-ttu-id="852ab-186">ดูข้อมูลยอดดุลโดยละเอียดสำหรับบัญชีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="852ab-186">View detailed balance information for all accounts.</span></span> <span data-ttu-id="852ab-187">รายงานนี้แสดงยอดดุลเดบิตและเครดิตในสกุลเงินที่ใช้รายงานและสกุลเงินท้องถิ่น พร้อมด้วยข้อมูลธุรกรรมเพิ่มเติม เช่น รหัสผู้ใช้ ผู้ใช้ที่ปรับเปลี่ยนข้อมูลครั้งล่าสุด วันที่ของการปรับเปลี่ยนครั้งล่าสุด และรหัสสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="852ab-187">This report shows debit and credit balances in the reporting currency and the local currency, together with additional transaction information, such as the user ID, the user who last modified the data, the date of the last modification, and the journal ID.</span></span> |
+| <span data-ttu-id="852ab-188">รายการยอดดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-188">Balance List – Default</span></span>                                   | <span data-ttu-id="852ab-189">ดูข้อมูลยอดดุลโดยละเอียดสำหรับบัญชีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="852ab-189">View detailed balance information for all accounts.</span></span> <span data-ttu-id="852ab-190">รายงานนี้แสดงยอดดุลยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิตสำหรับรอบระยะเวลาปัจจุบันและปีปัจจุบัน พร้อมข้อมูลธุรกรรมเพิ่มเติม เช่นใบสำคัญ</span><span class="sxs-lookup"><span data-stu-id="852ab-190">This report shows opening and closing balances, and debit and credit balances for the current period and year to date, together with additional transaction information, such as the voucher.</span></span>                                                                    |
+| <span data-ttu-id="852ab-191">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-191">Balance Sheet – Default</span></span>                                   | <span data-ttu-id="852ab-192">ดูตำแหน่งทางการเงินขององค์กรต่อปี</span><span class="sxs-lookup"><span data-stu-id="852ab-192">View the organization's financial position for the year.</span></span>                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="852ab-193">งบดุลและงบกำไรขาดทุนควบคู่กัน - เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-193">Balance Sheet and Income Statement Side by Side - Default</span></span> | <span data-ttu-id="852ab-194">ดูตำแหน่งทางการเงินและผลกำไรขององค์กรต่อปีควบคู่กัน</span><span class="sxs-lookup"><span data-stu-id="852ab-194">View the organization’s financial position and profitability for the year side by side.</span></span>                                                                                                                                                                                                                              |
+| <span data-ttu-id="852ab-195">กระแสเงินสด – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-195">Cash Flow – Default</span></span>                                       | <span data-ttu-id="852ab-196">ได้รับข้อมูลเชิงลึกในเงินสดที่เข้ามาและออกจากองค์กร</span><span class="sxs-lookup"><span data-stu-id="852ab-196">Gain insight into the cash that is coming in to and going out of the organization.</span></span>                                                                                                                                                                                                                                   |
+| <span data-ttu-id="852ab-197">การตรวจทาน JE และ TB อย่างละเอียด – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-197">Detailed JE and TB Review – Default</span></span>                      | <span data-ttu-id="852ab-198">ดูยอดดุลยกมาและข้อมูลกิจกรรมสำหรับบัญชีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="852ab-198">View opening balance and activity information for all accounts.</span></span>                                                                                                                                                                                                                                                      |
+| <span data-ttu-id="852ab-199">งบทดลองโดยละเอียด – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-199">Detailed Trial Balance - Default</span></span>                         | <span data-ttu-id="852ab-200">ดูข้อมูลยอดดุลสำหรับบัญชีทั้งหมดที่มียอดดุลเดบิตและเครดิต และมูลค่าสุทธิของยอดดุลเหล่านี้ พร้อมด้วยวันที่ทำธุรกรรม ใบสำคัญ และคำอธิบายเกี่ยวกับสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="852ab-200">View balance information for all accounts that have debit and credit balances, and the net of these balances, together with the transaction date, voucher, and journal description.</span></span>                                                                                                                                  |
+| <span data-ttu-id="852ab-201">แนวโน้มค่าใช้จ่ายรายไตรมาสเป็นเวลาสามปี – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-201">Expenses Three Year Quarterly Trend – Default</span></span>             | <span data-ttu-id="852ab-202">ได้รับข้อมูลเชิงลึกเกี่ยวกับค่าใช้จ่ายสำหรับ 12 ไตรมาสที่ผ่านมา ในช่วงสามปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="852ab-202">Gain insight into expenses for the past 12 quarters over the previous three years.</span></span>                                                                                                                                                                                                                                   |
+| <span data-ttu-id="852ab-203">คำอธิบายทางการเงินของการตรวจทาน JE และ TB – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-203">Financial Captions JE and TB Review – Default</span></span>            | <span data-ttu-id="852ab-204">ดูภาพรวมของยอดดุลและกิจกรรมสำหรับคำอธิบายเฉพาะทางการเงินของสินทรัพย์ หนี้สิน ส่วนของผู้ถือหุ้นของเจ้าของ รายได้ ค่าใช้จ่าย กำไร หรือขาดทุน</span><span class="sxs-lookup"><span data-stu-id="852ab-204">See an overview of the balances and activity for the asset, liability, owner’s equity, revenue, expense, gain, or loss financial captions.</span></span>                                                                                                                                                                           |
+| <span data-ttu-id="852ab-205">งบกำไรขาดทุน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-205">Income Statement – Default</span></span>                                | <span data-ttu-id="852ab-206">ดูผลกำไรขององค์กรสำหรับรอบระยะเวลาปัจจุบันและปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="852ab-206">View the organization’s profitability for the current period and the year to date.</span></span>                                                                                                                                                                                                                                   |
+| <span data-ttu-id="852ab-207">รายการธุรกรรมบัญชีแยกประเภท – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-207">Ledger Transaction List – Default</span></span>                        | <span data-ttu-id="852ab-208">ดูข้อมูลยอดดุลโดยละเอียดสำหรับบัญชีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="852ab-208">View detailed balance information for all accounts.</span></span> <span data-ttu-id="852ab-209">รายงานนี้แสดงยอดดุลเดบิตและเครดิต พร้อมด้วยข้อมูลธุรกรรมเพิ่มเติม เช่นวันที่ของธุรกรรม หมายเลขสมุดรายวัน ใบสำคัญ การลงรายการบัญชี ชนิดและหมายเลขการติดตาม</span><span class="sxs-lookup"><span data-stu-id="852ab-209">This report shows debit and credit balances, together with additional transaction information, such as the transaction date, journal number, voucher, posting type, and trace number.</span></span>                                                                            |
+| <span data-ttu-id="852ab-210">อัตราส่วน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-210">Ratios – Default</span></span>                                          | <span data-ttu-id="852ab-211">ดูผลสภาพคล่อง ความสามารถในการทำกำไร และอัตราประสิทธิภาพขององค์กรสำหรับปี</span><span class="sxs-lookup"><span data-stu-id="852ab-211">View the solvency, profitability, and efficiency ratios for the organization for the year.</span></span>                                                                                                                                                                                                                           |
+| <span data-ttu-id="852ab-212">กำลังย้อนค่าใช้จ่าย 12 เดือน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-212">Rolling 12 Month Expenses – Default</span></span>                       | <span data-ttu-id="852ab-213">ได้รับข้อมูลเชิงลึกเกี่ยวกับค่าใช้จ่ายสำหรับแต่ละค่าในช่วง 12 เดือนล่าสุด</span><span class="sxs-lookup"><span data-stu-id="852ab-213">Gain insight into expenses for each of the last 12 months.</span></span> <span data-ttu-id="852ab-214">12 เดือนเหล่านี้จะครอบคลุมมากกว่าหนึ่งปีบัญชี</span><span class="sxs-lookup"><span data-stu-id="852ab-214">These 12 months can span more than one fiscal year.</span></span>                                                                                                                                                                                                       |
+| <span data-ttu-id="852ab-215">กำลังย้อนงบกำไรขาดทุนไตรมาส – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-215">Rolling Quarter Income Statement – Default</span></span>               | <span data-ttu-id="852ab-216">ดูผล ความสามารถในการทำกำไรขององค์กรรายไตรมาสสำหรับปีผ่านมา และปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="852ab-216">View the organization’s profitability on a quarterly basis for the past year and the year to date.</span></span>                                                                                                                                                                                                                   |
+| <span data-ttu-id="852ab-217">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-217">Side by Side Balance Sheet – Default</span></span>                      | <span data-ttu-id="852ab-218">ดูตำแหน่งทางการเงินขององค์กรต่อปี</span><span class="sxs-lookup"><span data-stu-id="852ab-218">View the organization's financial position for the year.</span></span> <span data-ttu-id="852ab-219">รายงานนี้แสดงสินทรัพย์และหนี้สิน และส่วนของผู้ถือหุ้นเคียงข้างกัน</span><span class="sxs-lookup"><span data-stu-id="852ab-219">This report shows assets and liability, and shareholder equity side by side.</span></span>                                                                                                                                                                                |
+| <span data-ttu-id="852ab-220">สรุปงบทดลอง – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-220">Summary Trial Balance – Default</span></span>                          | <span data-ttu-id="852ab-221">ดูข้อมูลยอดดุลสำหรับบัญชีทั้งหมดที่มียอดยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิตพร้อมกับผลต่างสุทธิ</span><span class="sxs-lookup"><span data-stu-id="852ab-221">View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference.</span></span>                                                                                                                                                                  |
+| <span data-ttu-id="852ab-222">สรุปงบทดลองปีต่อปี – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-222">Summary Trial Balance Year Over Year – Default</span></span>           | <span data-ttu-id="852ab-223">ดูข้อมูลยอดดุลสำหรับบัญชีทั้งหมดที่มียอดยกมาและยอดดุลปิดบัญชี และยอดดุลเดบิตและเครดิตพร้อมกับผลต่างสุทธิสำหรับปีปัจจุบันและปีที่ผ่านมา</span><span class="sxs-lookup"><span data-stu-id="852ab-223">View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference for the current year and the past year.</span></span>                                                                                                                           |
+| <span data-ttu-id="852ab-224">ยอดขายและส่วนลดรายสัปดาห์ - เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-224">Weekly Sales and Discounts - Default</span></span>                     | <span data-ttu-id="852ab-225">ได้รับข้อมูลเชิงลึกเกี่ยวกับยอดขายและส่วนลดสำหรับแต่ละสัปดาห์ในเดือน</span><span class="sxs-lookup"><span data-stu-id="852ab-225">Gain insight into sales and discounts for each week in a month.</span></span> <span data-ttu-id="852ab-226">รายงานนี้มีทั้งหมดสี่สัปดาห์</span><span class="sxs-lookup"><span data-stu-id="852ab-226">This report includes a four-week total.</span></span>                                                                                                                                                                                                              |
+| <span data-ttu-id="852ab-227">เงินงบประมาณที่มีอยู่ - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="852ab-227">Budget Funds Available - Default</span></span>                         | <span data-ttu-id="852ab-228">ดูการเปรียบเทียบโดยละเอียดของงบประมาณที่ปรับปรุงแล้ว ค่าใช้จ่ายที่เกิดขึ้นจริง การจองงบประมาณ และเงินงบประมาณที่พร้อมใช้งานสำหรับบัญชีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="852ab-228">View a detailed comparison of revised budget, actual expenditures, budget reservations, and budget funds available for all accounts</span></span>                                                                                                                                                                                  |
+
+## <a name="opening-financial-reports"></a><span data-ttu-id="852ab-229">การเปิดรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-229">Opening financial reports</span></span>
+<span data-ttu-id="852ab-230">เมื่อคุณคลิกเมนู **รายงานทางการเงิน** รายการเริ่มต้นรายงานทางการเงินสำหรับบริษัทจะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="852ab-230">When you click the **Financial reporting** menu, the list of default financial reports for the company is shown.</span></span> <span data-ttu-id="852ab-231">คุณสามารถเปิด หรือปรับเปลี่ยนรายงาน</span><span class="sxs-lookup"><span data-stu-id="852ab-231">You can then open or modify a report.</span></span> <span data-ttu-id="852ab-232">เมื่อต้องการเปิดหนึ่งในรายงานเริ่มต้น เลือกชื่อรายงาน</span><span class="sxs-lookup"><span data-stu-id="852ab-232">To open one of the default reports, select the report name.</span></span> <span data-ttu-id="852ab-233">ในครั้งแรกที่มีการเปิดรายงาน รายงานจะถูกสร้างโดยอัตโนมัติสำหรับเดือนก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="852ab-233">The first time that a report is opened, it's automatically generated for the previous month.</span></span> <span data-ttu-id="852ab-234">ตัวอย่างเช่น ถ้าคุณเปิดการรายงานเป็นครั้งแรกในเดือน 2016 สิงหาคม รายงานถูกสร้างขึ้นสำหรับวันที่ 31 กรกฎาคม 2016</span><span class="sxs-lookup"><span data-stu-id="852ab-234">For example, if you open a report for the first time in August 2016, the report is generated for July 31, 2016.</span></span> <span data-ttu-id="852ab-235">หลังจากที่มีการเปิดรายงาน คุณสามารถเริ่มสำรวจ โดยการดูรายละเอียดแนวลึกในส่วนของข้อมูลเฉพาะเจาะจง และการเปลี่ยนตัวเลือกรายงาน</span><span class="sxs-lookup"><span data-stu-id="852ab-235">After a report is opened, you can start exploring it by drilling down on specific pieces of data and changing report options.</span></span>
+
+## <a name="creating-and-modifying-financial-reports"></a><span data-ttu-id="852ab-236">การสร้างและแก้ไขรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-236">Creating and modifying financial reports</span></span>
+<span data-ttu-id="852ab-237">คุณสามารถสร้างรายงานใหม่ หรือแก้ไขรายงานที่มีอยู่จากรายการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-237">From the financial reports list, you can create a new report or modify an existing report.</span></span> <span data-ttu-id="852ab-238">ถ้าคุณมีสิทธิ์ที่เหมาะสม คุณสามารถสร้างรายงานทางการเงินใหม่ด้วยการคลิก **สร้าง** บนบานหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="852ab-238">If you have the appropriate permissions, you can create a new financial report by clicking **New** on the Action Pane.</span></span> <span data-ttu-id="852ab-239">โปรแกรมออกแบบรายงานจะถูกดาวน์โหลดไปยังอุปกรณ์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="852ab-239">A report designer program is downloaded to your device.</span></span> <span data-ttu-id="852ab-240">หลังจากที่โปรแกรมออกแบบรายงานเริ่มทำงาน คุณสามารถสร้างรายงานใหม่</span><span class="sxs-lookup"><span data-stu-id="852ab-240">After the report designer starts you can then create the new report.</span></span> <span data-ttu-id="852ab-241">หลังจากคุณบันทึกรายงานใหม่ จะปรากฏอยู่ในรายการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-241">After you save the new report, it appears in the financial reports list.</span></span> <span data-ttu-id="852ab-242">รายการจะแสดงเฉพาะรายงานที่สร้างขึ้นสำหรับบริษัทที่คุณกำลังใช้อยู่ใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="852ab-242">The list shows only reports that were created for the company that you're using in Finance and Operations.</span></span> 
+
+> [!NOTE] 
+> <span data-ttu-id="852ab-243">คอมพิวเตอร์ที่คุณกำลังดาวน์โหลดไคลเอ็นต์ตัวออกแบบรายงาน ต้องมีรุ่น 4.6.2 ของกรอบงาน Microsoft .NET ที่ติดตั้งอยู่</span><span class="sxs-lookup"><span data-stu-id="852ab-243">The computer that you are downloading the report designer client on must have version 4.6.2 of the Microsoft .NET Framework installed on it.</span></span> <span data-ttu-id="852ab-244">รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345)</span><span class="sxs-lookup"><span data-stu-id="852ab-244">This version of the Microsoft .NET Framework can be downloaded and installed from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53345).</span></span> <span data-ttu-id="852ab-245">ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน</span><span class="sxs-lookup"><span data-stu-id="852ab-245">If you are using Chrome, you must install a ClickOnce extension in order to download the report designer client.</span></span> <span data-ttu-id="852ab-246">ถ้าคุณกำลังทำงานในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว</span><span class="sxs-lookup"><span data-stu-id="852ab-246">If you are running in incognito mode, make sure the ClickOnce extension is enabled for incognito mode.</span></span> <span data-ttu-id="852ab-247">คุณยังสามารถแก้ไขรายงานที่ปรากฏอยู่ในรายการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-247">You can also modify a report that appears in the financial reports list.</span></span> <span data-ttu-id="852ab-248">เลือกพื้นที่โดยรอบชื่อรายงานถูก คลิก **แก้ไข** บนบานหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="852ab-248">When the area around the report name is selected, click **Edit** on the Action Pane.</span></span> <span data-ttu-id="852ab-249">เริ่มต้นโปรแกรมออกแบบรายงาน</span><span class="sxs-lookup"><span data-stu-id="852ab-249">The report designer program starts.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="852ab-250">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="852ab-250">Additional resources</span></span>
+- [<span data-ttu-id="852ab-251">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="852ab-251">View financial reports</span></span>](view-financial-reports.md)
+
+
+

@@ -1,186 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="cash-bank-management.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>cash-bank-management.bc9b73.d15ff8add8a77c27a9f0153c9e881ecae3d9da78.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>d15ff8add8a77c27a9f0153c9e881ecae3d9da78</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\cash-bank-management\cash-bank-management.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Cash and bank management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจการจัดการเงินสดและธนาคาร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Cash and bank management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจการจัดการเงินสดและธนาคาร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>These instruments include deposit slips, checks, bills of exchange, and promissory notes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตราสารเหล่านี้รวมถึงใบนำฝาก เช็ค ตั๋วแลกเงิน และตั๋วสัญญาใช้เงิน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can also reconcile bank statements and print bank data on standard reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณยังสามารถกระทบยอดใบแจ้งยอดจากธนาคาร และพิมพ์ข้อมูลธนาคารบนรายงานมาตรฐานต่างๆ ได้ด้วย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>กระบวนการทางธุรกิจ<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>กระบวนการทางธุรกิจ<ept id="p1">](./media/Cash-process.PNG)](./media/Cash-process.PNG)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">[</bpt>Cash discounts<ept id="p1">](cash-discounts.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ส่วนลดเงินสด<ept id="p1">](cash-discounts.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">[</bpt>Settlement overview<ept id="p1">](settlement-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมของการชำระเงิน<ept id="p1">](settlement-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](configure-settlement.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าคอนฟิกการชำระเงิน<ept id="p1">](configure-settlement.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้<ept id="p1">](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Letters of credit<ept id="p1">](letters-of-credit.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เลตเตอร์ออฟเครดิต<ept id="p1">](letters-of-credit.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>Letters of credit and import collections<ept id="p1">](letters-of-credit-import-collections.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า<ept id="p1">](letters-of-credit-import-collections.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Letter of guarantee<ept id="p1">](letters-of-guarantee.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>หนังสือค้ำประกัน<ept id="p1">](letters-of-guarantee.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Set up centralized payments<ept id="p1">](set-up-centralized-payments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าการชำระเงินจากส่วนกลาง<ept id="p1">](set-up-centralized-payments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Bank reconciliation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การกระทบยอดบัญชีธนาคาร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>Advanced bank reconciliation overview<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง<ept id="p1">](advanced-bank-reconciliation-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Configure advanced bank reconciliation<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าคอนฟิกการกระทบยอดบัญชีธนาคารขั้นสูง<ept id="p1">](configure-advanced-bank-reconciliation.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Set up the advanced bank reconciliation import<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่าการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง<ept id="p1">](set-up-advanced-bank-reconciliation-import-process.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Reconcile bank statements using advanced bank reconciliation<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง<ept id="p1">](reconcile-bank-statements-advanced-bank-reconciliation.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Set up bank reconciliation matching rules<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตั้งค่ากฎการจับคู่การกระทบยอดบัญชีธนาคาร<ept id="p1">](set-up-bank-reconciliation-matching-rules.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Accounts payable payments and settlements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การชำระเงินบัญชีเจ้าหนี้และการตัดจ่าย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้<ept id="p1">](../accounts-payable/centralized-payments-accounts-payable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt>Create vendor invoices using a payment proposal<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สร้างใบแจ้งหนี้ของผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน<ept id="p1">](../accounts-payable/create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย<ept id="p1">](../accounts-payable/reverse-vendor-payment.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน<ept id="p1">](../accounts-payable/vendor-payments-partial-amount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า<ept id="p1">](../accounts-payable/prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่าย และชำระการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลดพร้อมกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial vendor payment that has multiple discount periods<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระการชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีรอบระยะเวลาส่วนลดหลายรอบ<ept id="p1">](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">[</bpt>Scenario: Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินให้แก่ผู้จัดจำหน่าย<ept id="p1">](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source><bpt id="p1">[</bpt>Scenario: Take a cash discount outside the cash discount period<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ใช้ส่วนลดเงินสดนอกเหนือจากรอบระยะเวลาการใช้ส่วนลดเงินสด<ept id="p1">](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Accounts receivable payments and settlements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การชำระเงินบัญชีลูกหนี้และการตัดจ่าย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">[</bpt>Centralized payments for Accounts receivable<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้<ept id="p1">](../accounts-receivable/centralized-payments-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">[</bpt>Customer payments for a partial amount<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน<ept id="p1">](../accounts-receivable/customer-payments-partial-amount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">[</bpt>Reimburse customers<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ชำระเงินคืนลูกค้า<ept id="p1">](../accounts-receivable/reimburse-customers.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">[</bpt>Scenario: Automatic settlement and prioritization<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: การชำระเงินอัตโนมัติและจัดระดับความสำคัญ<ept id="p1">](../accounts-receivable/automatic-settlement-prioritization.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">[</bpt>Scenario: Handling cash discount for overpayments<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน<ept id="p1">](../cash-bank-management/cash-discount-handling-overpayments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment and settle the final payment in full before the discount date<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้า และชำระการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด<ept id="p1">](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้าก่อนวันที่ให้ส่วนลดพร้อมกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has discounts on credit notes<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้าที่มีส่วนลดบนใบลดหนี้ของลูกค้า<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source><bpt id="p1">[</bpt>Scenario: Settle a partial customer payment that has multiple discount periods<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ชำระการชำระเงินบางส่วนของลูกค้าที่มีรอบระยะเวลาส่วนลดหลายรอบ<ept id="p1">](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">[</bpt>Scenario: Use one customer payment to settle multiple invoice that span multiple discount periods<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สถานการณ์จำลอง: ใช้ชำระเงินของลูกค้าหนึ่งรายการเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ<ept id="p1">](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แหล่งข้อมูลเพิ่มเติม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>What's new and in development</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีอะไรใหม่และอะไรที่กำลังพัฒนา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features have been planned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">[</bpt>บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บล็อก</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>You can find opinions, news, and other information on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน <bpt id="p1">[</bpt>บล็อก Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> และ <bpt id="p2">[</bpt>บล็อก Microsoft Dynamics 365 Finance and Operations - Financials<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365] (<ph id="ph1">https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ph></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: โฮมเพจการจัดการเงินสดและธนาคาร
+description: คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/26/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: BankTreasurerWorkspace
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 21941
+ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d15ff8add8a77c27a9f0153c9e881ecae3d9da78
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570937"
+---
+# <a name="cash-and-bank-management-home-page"></a><span data-ttu-id="afb60-103">โฮมเพจการจัดการเงินสดและธนาคาร</span><span class="sxs-lookup"><span data-stu-id="afb60-103">Cash and bank management home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="afb60-104">คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="afb60-104">You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</span></span> 
+
+<span data-ttu-id="afb60-105">ตราสารเหล่านี้รวมถึงใบนำฝาก เช็ค ตั๋วแลกเงิน และตั๋วสัญญาใช้เงิน</span><span class="sxs-lookup"><span data-stu-id="afb60-105">These instruments include deposit slips, checks, bills of exchange, and promissory notes.</span></span> <span data-ttu-id="afb60-106">คุณยังสามารถกระทบยอดใบแจ้งยอดจากธนาคาร และพิมพ์ข้อมูลธนาคารบนรายงานมาตรฐานต่างๆ ได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="afb60-106">You can also reconcile bank statements and print bank data on standard reports.</span></span>
+
+<span data-ttu-id="afb60-107">**กระบวนการทางธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="afb60-107">**Business processes**</span></span>
+
+<span data-ttu-id="afb60-108">[![กระบวนการทางธุรกิจ](./media/Cash-process.PNG)](./media/Cash-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="afb60-108">[![Business process](./media/Cash-process.PNG)](./media/Cash-process.PNG)</span></span>
+
+-   [<span data-ttu-id="afb60-109">ส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="afb60-109">Cash discounts</span></span>](cash-discounts.md)
+-   [<span data-ttu-id="afb60-110">ภาพรวมของการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="afb60-110">Settlement overview</span></span>](settlement-overview.md)
+-   [<span data-ttu-id="afb60-111">ตั้งค่าคอนฟิกการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="afb60-111">Configure settlement</span></span>](configure-settlement.md)
+-   [<span data-ttu-id="afb60-112">การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="afb60-112">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [<span data-ttu-id="afb60-113">เลตเตอร์ออฟเครดิต</span><span class="sxs-lookup"><span data-stu-id="afb60-113">Letters of credit</span></span>](letters-of-credit.md)
+-   [<span data-ttu-id="afb60-114">เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า</span><span class="sxs-lookup"><span data-stu-id="afb60-114">Letters of credit and import collections</span></span>](letters-of-credit-import-collections.md)
+-   [<span data-ttu-id="afb60-115">หนังสือค้ำประกัน</span><span class="sxs-lookup"><span data-stu-id="afb60-115">Letter of guarantee</span></span>](letters-of-guarantee.md)
+-   [<span data-ttu-id="afb60-116">ตั้งค่าการชำระเงินจากส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="afb60-116">Set up centralized payments</span></span>](set-up-centralized-payments.md)
+
+### <a name="bank-reconciliation"></a><span data-ttu-id="afb60-117">การกระทบยอดบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="afb60-117">Bank reconciliation</span></span>
+
+-   [<span data-ttu-id="afb60-118">ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="afb60-118">Advanced bank reconciliation overview</span></span>](advanced-bank-reconciliation-overview.md)
+-   [<span data-ttu-id="afb60-119">ตั้งค่าคอนฟิกการกระทบยอดบัญชีธนาคารขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="afb60-119">Configure advanced bank reconciliation</span></span>](configure-advanced-bank-reconciliation.md)
+-   [<span data-ttu-id="afb60-120">ตั้งค่าการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="afb60-120">Set up the advanced bank reconciliation import</span></span>](set-up-advanced-bank-reconciliation-import-process.md)
+-   [<span data-ttu-id="afb60-121">กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="afb60-121">Reconcile bank statements using advanced bank reconciliation</span></span>](reconcile-bank-statements-advanced-bank-reconciliation.md)
+-   [<span data-ttu-id="afb60-122">ตั้งค่ากฎการจับคู่การกระทบยอดบัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="afb60-122">Set up bank reconciliation matching rules</span></span>](set-up-bank-reconciliation-matching-rules.md)
+
+
+## <a name="accounts-payable-payments-and-settlements"></a><span data-ttu-id="afb60-123">การชำระเงินบัญชีเจ้าหนี้และการตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="afb60-123">Accounts payable payments and settlements</span></span>
+-   [<span data-ttu-id="afb60-124">การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="afb60-124">Centralized payments for Accounts payable</span></span>](../accounts-payable/centralized-payments-accounts-payable.md)
+-   [<span data-ttu-id="afb60-125">สร้างใบแจ้งหนี้ของผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="afb60-125">Create vendor invoices using a payment proposal</span></span>](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [<span data-ttu-id="afb60-126">กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="afb60-126">Reverse a vendor payment</span></span>](../accounts-payable/reverse-vendor-payment.md)
+-   [<span data-ttu-id="afb60-127">การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน</span><span class="sxs-lookup"><span data-stu-id="afb60-127">Vendor payments for a partial amount</span></span>](../accounts-payable/vendor-payments-partial-amount.md)
+-   [<span data-ttu-id="afb60-128">ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="afb60-128">Prepayment invoices and prepayments overview</span></span>](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [<span data-ttu-id="afb60-129">สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่าย และชำระการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="afb60-129">Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [<span data-ttu-id="afb60-130">สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลดพร้อมกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="afb60-130">Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [<span data-ttu-id="afb60-131">สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="afb60-131">Scenario: Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [<span data-ttu-id="afb60-132">สถานการณ์จำลอง: ชำระการชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีรอบระยะเวลาส่วนลดหลายรอบ</span><span class="sxs-lookup"><span data-stu-id="afb60-132">Scenario: Settle a partial vendor payment that has multiple discount periods</span></span>](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [<span data-ttu-id="afb60-133">สถานการณ์จำลอง: ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="afb60-133">Scenario: Take a discount that is more than the calculated discount for a vendor payment</span></span>](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [<span data-ttu-id="afb60-134">สถานการณ์จำลอง: ใช้ส่วนลดเงินสดนอกเหนือจากรอบระยะเวลาการใช้ส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="afb60-134">Scenario: Take a cash discount outside the cash discount period</span></span>](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+
+## <a name="accounts-receivable-payments-and-settlements"></a><span data-ttu-id="afb60-135">การชำระเงินบัญชีลูกหนี้และการตัดจ่าย</span><span class="sxs-lookup"><span data-stu-id="afb60-135">Accounts receivable payments and settlements</span></span>
+-   [<span data-ttu-id="afb60-136">การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="afb60-136">Centralized payments for Accounts receivable</span></span>](../accounts-receivable/centralized-payments-accounts-receivable.md)
+-   [<span data-ttu-id="afb60-137">การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน</span><span class="sxs-lookup"><span data-stu-id="afb60-137">Customer payments for a partial amount</span></span>](../accounts-receivable/customer-payments-partial-amount.md)
+-   [<span data-ttu-id="afb60-138">ชำระเงินคืนลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afb60-138">Reimburse customers</span></span>](../accounts-receivable/reimburse-customers.md)
+-   [<span data-ttu-id="afb60-139">สถานการณ์จำลอง: การชำระเงินอัตโนมัติและจัดระดับความสำคัญ</span><span class="sxs-lookup"><span data-stu-id="afb60-139">Scenario: Automatic settlement and prioritization</span></span>](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [<span data-ttu-id="afb60-140">สถานการณ์จำลอง: การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน</span><span class="sxs-lookup"><span data-stu-id="afb60-140">Scenario: Handling cash discount for overpayments</span></span>](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [<span data-ttu-id="afb60-141">สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้า และชำระการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="afb60-141">Scenario: Settle a partial customer payment and settle the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [<span data-ttu-id="afb60-142">สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้าก่อนวันที่ให้ส่วนลดพร้อมกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด</span><span class="sxs-lookup"><span data-stu-id="afb60-142">Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [<span data-ttu-id="afb60-143">สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้าที่มีส่วนลดบนใบลดหนี้ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="afb60-143">Scenario: Settle a partial customer payment that has discounts on credit notes</span></span>](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [<span data-ttu-id="afb60-144">สถานการณ์จำลอง: ชำระการชำระเงินบางส่วนของลูกค้าที่มีรอบระยะเวลาส่วนลดหลายรอบ</span><span class="sxs-lookup"><span data-stu-id="afb60-144">Scenario: Settle a partial customer payment that has multiple discount periods</span></span>](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [<span data-ttu-id="afb60-145">สถานการณ์จำลอง: ใช้ชำระเงินของลูกค้าหนึ่งรายการเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="afb60-145">Scenario: Use one customer payment to settle multiple invoice that span multiple discount periods</span></span>](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
+
+### <a name="additional-resources"></a><span data-ttu-id="afb60-146">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="afb60-146">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="afb60-147">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="afb60-147">What's new and in development</span></span>
+
+<span data-ttu-id="afb60-148">ไปที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้</span><span class="sxs-lookup"><span data-stu-id="afb60-148">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="afb60-149">บล็อก</span><span class="sxs-lookup"><span data-stu-id="afb60-149">Blogs</span></span>
+
+<span data-ttu-id="afb60-150">คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)</span><span class="sxs-lookup"><span data-stu-id="afb60-150">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="afb60-151">[บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน MBS Operations</span><span class="sxs-lookup"><span data-stu-id="afb60-151">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+#### <a name="task-guides"></a><span data-ttu-id="afb60-152">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="afb60-152">Task guides</span></span>
+<span data-ttu-id="afb60-153">วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="afb60-153">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="afb60-154">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="afb60-154">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="afb60-155">วิดีโอ</span><span class="sxs-lookup"><span data-stu-id="afb60-155">Videos</span></span>
+
+<span data-ttu-id="afb60-156">ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</span><span class="sxs-lookup"><span data-stu-id="afb60-156">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>

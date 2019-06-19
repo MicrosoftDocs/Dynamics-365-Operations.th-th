@@ -1,132 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="customer-workflow.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>customer-workflow.e24678.1b0e1621b256e6bbb42f97134b87dd65fa146193.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>1b0e1621b256e6bbb42f97134b87dd65fa146193</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\accounts-receivable\customer-workflow.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Customer workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลำดับงานของลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about the customer workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับลำดับงานของลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>You change specific fields for a customer and then send those changes for approval by using the workflow before they are added to the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณจะเปลี่ยนฟิลด์เฉพาะสำหรับลูกค้าแล้วส่งการเปลี่ยนแปลงเหล่านั้นเพื่อขอการอนุมัติโดยใช้ลำดับงานก่อนที่จะมีการเพิ่มไปยังลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Customer workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลำดับงานของลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The customer workflow has been added to Microsoft Dynamics 365 for Finance and Operations version 8.0.4.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลำดับงานของลูกค้าได้รับการเพิ่มลงใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0.4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can change specific fields for a customer and then send those changes for approval by using the workflow before they are added to the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถเปลี่ยนฟิลด์เฉพาะสำหรับลูกค้าแล้วส่งการเปลี่ยนแปลงเหล่านั้นเพื่อขอการอนุมัติโดยใช้ลำดับงานก่อนที่จะมีการเพิ่มไปยังลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Set up the customer workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าลำดับงานของลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Before you can use the customer workflow feature, you must enable it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณต้องเปิดใช้งานลำดับงานของลูกค้าก่อนจึงจะสามารถใช้งานได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Accounts receivable parameters<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>บัญชีลูกหนี้ <ph id="ph1">\&gt;</ph> การตั้งค่า <ph id="ph2">\&gt;</ph> พารามิเตอร์บัญชีลูกหนี้<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, on the <bpt id="p2">**</bpt>Customer approval<ept id="p2">**</ept> FastTab, set the <bpt id="p3">**</bpt>Enable customer approvals<ept id="p3">**</ept> option to <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept> to enable the feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนแท็บ <bpt id="p1">**</bpt>ทั่วไป<ept id="p1">**</ept> บนแท็บด่วน <bpt id="p2">**</bpt>การอนุมัติของลูกค้า<ept id="p2">**</ept> ตั้งค่าตัวเลือก <bpt id="p3">**</bpt>เปิดใช้งานการอนุมัติของลูกค้า<ept id="p3">**</ept> เป็น <bpt id="p4">**</bpt>ใช่<ept id="p4">**</ept> เพื่อเปิดใช้งานคุณลักษณะ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the <bpt id="p1">**</bpt>Data entity behavior<ept id="p1">**</ept> field, select the behavior that the data entities should use when data is imported:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในฟิลด์ <bpt id="p1">**</bpt>ลักษณะการทำงานของเอนทิตี้ข้อมูล<ept id="p1">**</ept> ให้เลือกลักษณะการทำงานที่เอนทิตี้ข้อมูลควรใช้เมื่อมีการนำเข้าข้อมูล:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">**</bpt>Allow changes without approval<ept id="p1">**</ept> – An entity can update the customer record without processing it through the workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>อนุญาตการเปลี่ยนแปลงโดยไม่ต้องมีการอนุมัติ<ept id="p1">**</ept> – เอนทิตี้สามารถอัปเดตเรกคอร์ดลูกค้าได้โดยไม่ต้องดำเนินการผ่านลำดับงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">**</bpt>Reject changes<ept id="p1">**</ept> – Changes can't be made to the customer record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ปฏิเสธการเปลี่ยนแปลง<ept id="p1">**</ept> – ไม่สามารถทำการเปลี่ยนแปลงกับเรกคอร์ดลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>The import will fail for the fields that are enabled for the workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การนำเข้าจะล้มเหลวในฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">**</bpt>Create change proposals<ept id="p1">**</ept> – All fields will be changed except the fields that are enabled for the workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>สร้างข้อเสนอการเปลี่ยนแปลง<ept id="p1">**</ept> – ฟิลด์ทั้งหมดจะมีการเปลี่ยนแปลงยกเว้นฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The new values for those fields will be added to the customer as proposed changes, and the workflow will be started automatically.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค่าใหม่สำหรับฟิลด์เหล่านั้นจะมีการเพิ่มไปยังลูกค้าเป็นการเปลี่ยนแปลงที่นำเสนอ และลำดับงานจะเริ่มต้นโดยอัตโนมัติ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>In the list of customer fields, select then <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> check box for every field that must be approved before the changes can be made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในรายการของฟิลด์ลูกค้า ให้เลือกกล่องกาเครื่องหมาย <bpt id="p1">**</bpt>เปิดใช้งาน<ept id="p1">**</ept> สำหรับทุกฟิลด์ที่ต้องได้รับการอนุมัติก่อนที่จะทำการเปลี่ยนแปลง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Accounts receivable workflows<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>บัญชีลูกหนี้ <ph id="ph1">\&gt;</ph> การตั้งค่า <ph id="ph2">\&gt;</ph> ลำดับงานบัญชีลูกหนี้<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>ใหม่<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Select <bpt id="p1">**</bpt>Proposed customer change workflow<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>ลำดับงานการเปลี่ยนแปลงที่นำเสนอของลูกค้า<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Set up the workflow so that it matches your approval process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าลำดับงานเพื่อให้ตรงกันกับกระบวนการอนุมัติของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The <bpt id="p1">**</bpt>Workflow approval for proposed customer change<ept id="p1">**</ept> workflow approval element will apply the changes to the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">องค์ประกอบการอนุมัติลำดับงาน <bpt id="p1">**</bpt>การอนุมัติลำดับงานสำหรับการเปลี่ยนแปลงที่นำเสนอของลูกค้า<ept id="p1">**</ept> จะใช้การเปลี่ยนแปลงกับลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Change customer information and submit the changes to the workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เปลี่ยนแปลงข้อมูลลูกค้าและส่งการเปลี่ยนแปลงไปยังลำดับงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>When you change a field that is enabled for the workflow, the <bpt id="p1">**</bpt>Proposed changes<ept id="p1">**</ept> page appears.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณเปลี่ยนแปลงฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน หน้า <bpt id="p1">**</bpt>การเปลี่ยนแปลงที่นำเสนอ<ept id="p1">**</ept> จะปรากฏขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>This page shows the original value of the field and the new value that you entered.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้านี้จะแสดงค่าเดิมของฟิลด์และค่าใหม่ที่คุณป้อน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>The field that you changed is reverted to its original value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ฟิลด์ที่คุณเปลี่ยนแปลงจะคืนกลับเป็นค่าเดิม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>A status message on the page informs you that your changes haven't been submitted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อความแสดงสถานะในหน้าจะแจ้งให้คุณทราบว่ายังไม่มีการส่งการเปลี่ยนแปลงของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Every time that you change a field that is enabled for the workflow, that field is added to the list of proposed changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทุกครั้งที่คุณเปลี่ยนแปลงฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน ระบบจะเพิ่มฟิลด์นั้นลงในรายการของการเปลี่ยนแปลงที่นำเสนอ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>To discard the proposed value for a field, use the <bpt id="p1">**</bpt>Discard<ept id="p1">**</ept> button next to the field in the list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากต้องการยกเลิกค่าที่นำเสนอสำหรับฟิลด์ ให้ใช้ปุ่ม <bpt id="p1">**</bpt>ละทิ้ง<ept id="p1">**</ept> ที่อยู่ถัดจากฟิลด์ในรายการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>To discard all changes, use the <bpt id="p1">**</bpt>Discard all change<ept id="p1">**</ept> button at the bottom of the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากต้องการยกเลิกการเปลี่ยนแปลงทั้งหมด ให้ใช้ปุ่ม <bpt id="p1">**</bpt>ละทิ้งการเปลี่ยนแปลงทั้งหมด<ept id="p1">**</ept> ที่ด้านล่างของหน้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>ตกลง<ept id="p1">**</ept> เพื่อปิดหน้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>After you have at least one proposed change, two additional menus appear on the Action Pane: <bpt id="p1">**</bpt>Proposed changes<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Workflow<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่คุณมีการเปลี่ยนแปลงที่นำเสนออย่างน้อยหนึ่งรายการ จะปรากฏเมนูเพิ่มเติมสองเมนูบนบานหน้าต่างการดำเนินการ: <bpt id="p1">**</bpt>การเปลี่ยนแปลงที่นำเสนอ<ept id="p1">**</ept> และ <bpt id="p2">**</bpt>ลำดับงาน<ept id="p2">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Select <bpt id="p1">**</bpt>Proposed changes<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Proposed changes<ept id="p2">**</ept> page and review your changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>การเปลี่ยนแปลงที่นำเสนอ<ept id="p1">**</ept> เพื่อเปิดหน้า <bpt id="p2">**</bpt>การเปลี่ยนแปลงที่นำเสนอ<ept id="p2">**</ept> และตรวจสอบการเปลี่ยนแปลงของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Select <bpt id="p1">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Submit<ept id="p1">**</ept> to submit the changes to the workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือก <bpt id="p1">**</bpt>ลำดับงาน <ph id="ph1">\&gt;</ph> ส่ง<ept id="p1">**</ept> เพื่อส่งการเปลี่ยนแปลงไปยังลำดับงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>The status on the page is changed to <bpt id="p1">**</bpt>Changes pending approval<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สถานะในหน้าเปลี่ยนเป็น <bpt id="p1">**</bpt>การอนุมัติการเปลี่ยนแปลงที่ค้างอยู่<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The workflow follows the standard workflow process in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลำดับงานจะดำเนินการตามกระบวนการของลำดับงานมาตรฐานใน Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The approver is directed to the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> page, where he or she can review the changes on the <bpt id="p2">**</bpt>Proposed changes<ept id="p2">**</ept> page and then select <bpt id="p3">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Approve<ept id="p3">**</ept> to approve the workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระบบจะนำผู้อนุมัติไปยังหน้า <bpt id="p1">**</bpt>ลูกค้า<ept id="p1">**</ept> ซึ่งเขาหรือเธอสามารถตรวจสอบการเปลี่ยนแปลงในหน้า <bpt id="p2">**</bpt>การเปลี่ยนแปลงที่นำเสนอ<ept id="p2">**</ept> แล้วเลือก <bpt id="p3">**</bpt>ลำดับงาน <ph id="ph1">\&gt;</ph> อนุมัติ<ept id="p3">**</ept> เพื่ออนุมัติลำดับงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>After all approvals are completed, the fields are updated with the values that you proposed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากการอนุมัติทั้งหมดเสร็จสมบูรณ์ ฟิลด์จะได้รับการอัปเดตเป็นค่าที่คุณนำเสนอ</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: ลำดับงานของลูกค้า
+description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับลำดับงานของลูกค้า คุณจะเปลี่ยนฟิลด์เฉพาะสำหรับลูกค้าแล้วส่งการเปลี่ยนแปลงเหล่านั้นเพื่อขอการอนุมัติโดยใช้ลำดับงานก่อนที่จะมีการเพิ่มไปยังลูกค้า
+author: mikefalkner
+manager: aolson
+ms.date: 08/24/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: Customer
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: mikefalkner
+ms.search.validFrom: 2018-08-30
+ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554885"
+---
+# <a name="customer-workflow"></a><span data-ttu-id="20492-104">ลำดับงานของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="20492-104">Customer workflow</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="20492-105">ลำดับงานของลูกค้าได้รับการเพิ่มลงใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0.4</span><span class="sxs-lookup"><span data-stu-id="20492-105">The customer workflow has been added to Microsoft Dynamics 365 for Finance and Operations version 8.0.4.</span></span> <span data-ttu-id="20492-106">คุณสามารถเปลี่ยนฟิลด์เฉพาะสำหรับลูกค้าแล้วส่งการเปลี่ยนแปลงเหล่านั้นเพื่อขอการอนุมัติโดยใช้ลำดับงานก่อนที่จะมีการเพิ่มไปยังลูกค้า</span><span class="sxs-lookup"><span data-stu-id="20492-106">You can change specific fields for a customer and then send those changes for approval by using the workflow before they are added to the customer.</span></span>
+
+## <a name="set-up-the-customer-workflow"></a><span data-ttu-id="20492-107">ตั้งค่าลำดับงานของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="20492-107">Set up the customer workflow</span></span>
+
+<span data-ttu-id="20492-108">คุณต้องเปิดใช้งานลำดับงานของลูกค้าก่อนจึงจะสามารถใช้งานได้</span><span class="sxs-lookup"><span data-stu-id="20492-108">Before you can use the customer workflow feature, you must enable it.</span></span>
+
+1. <span data-ttu-id="20492-109">ไปที่ **บัญชีลูกหนี้ \> การตั้งค่า \> พารามิเตอร์บัญชีลูกหนี้**</span><span class="sxs-lookup"><span data-stu-id="20492-109">Go to **Accounts receivable \> Setup \> Accounts receivable parameters**.</span></span>
+2. <span data-ttu-id="20492-110">บนแท็บ **ทั่วไป** บนแท็บด่วน **การอนุมัติของลูกค้า** ตั้งค่าตัวเลือก **เปิดใช้งานการอนุมัติของลูกค้า** เป็น **ใช่** เพื่อเปิดใช้งานคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="20492-110">On the **General** tab, on the **Customer approval** FastTab, set the **Enable customer approvals** option to **Yes** to enable the feature.</span></span>
+3. <span data-ttu-id="20492-111">ในฟิลด์ **ลักษณะการทำงานของเอนทิตี้ข้อมูล** ให้เลือกลักษณะการทำงานที่เอนทิตี้ข้อมูลควรใช้เมื่อมีการนำเข้าข้อมูล:</span><span class="sxs-lookup"><span data-stu-id="20492-111">In the **Data entity behavior** field, select the behavior that the data entities should use when data is imported:</span></span>
+
+    - <span data-ttu-id="20492-112">**อนุญาตการเปลี่ยนแปลงโดยไม่ต้องมีการอนุมัติ** – เอนทิตี้สามารถอัปเดตเรกคอร์ดลูกค้าได้โดยไม่ต้องดำเนินการผ่านลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="20492-112">**Allow changes without approval** – An entity can update the customer record without processing it through the workflow.</span></span>
+    - <span data-ttu-id="20492-113">**ปฏิเสธการเปลี่ยนแปลง** – ไม่สามารถทำการเปลี่ยนแปลงกับเรกคอร์ดลูกค้า</span><span class="sxs-lookup"><span data-stu-id="20492-113">**Reject changes** – Changes can't be made to the customer record.</span></span> <span data-ttu-id="20492-114">การนำเข้าจะล้มเหลวในฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="20492-114">The import will fail for the fields that are enabled for the workflow.</span></span>
+    - <span data-ttu-id="20492-115">**สร้างข้อเสนอการเปลี่ยนแปลง** – ฟิลด์ทั้งหมดจะมีการเปลี่ยนแปลงยกเว้นฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="20492-115">**Create change proposals** – All fields will be changed except the fields that are enabled for the workflow.</span></span> <span data-ttu-id="20492-116">ค่าใหม่สำหรับฟิลด์เหล่านั้นจะมีการเพิ่มไปยังลูกค้าเป็นการเปลี่ยนแปลงที่นำเสนอ และลำดับงานจะเริ่มต้นโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="20492-116">The new values for those fields will be added to the customer as proposed changes, and the workflow will be started automatically.</span></span>
+
+4. <span data-ttu-id="20492-117">ในรายการของฟิลด์ลูกค้า ให้เลือกกล่องกาเครื่องหมาย **เปิดใช้งาน** สำหรับทุกฟิลด์ที่ต้องได้รับการอนุมัติก่อนที่จะทำการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="20492-117">In the list of customer fields, select then **Enable** check box for every field that must be approved before the changes can be made.</span></span>
+5. <span data-ttu-id="20492-118">ไปที่ **บัญชีลูกหนี้ \> การตั้งค่า \> ลำดับงานบัญชีลูกหนี้**</span><span class="sxs-lookup"><span data-stu-id="20492-118">Go to **Accounts receivable \> Setup \> Accounts receivable workflows**.</span></span>
+6. <span data-ttu-id="20492-119">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="20492-119">Select **New**.</span></span>
+7. <span data-ttu-id="20492-120">เลือก **ลำดับงานการเปลี่ยนแปลงที่นำเสนอของลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="20492-120">Select **Proposed customer change workflow**.</span></span> 
+8. <span data-ttu-id="20492-121">ตั้งค่าลำดับงานเพื่อให้ตรงกันกับกระบวนการอนุมัติของคุณ</span><span class="sxs-lookup"><span data-stu-id="20492-121">Set up the workflow so that it matches your approval process.</span></span> <span data-ttu-id="20492-122">องค์ประกอบการอนุมัติลำดับงาน **การอนุมัติลำดับงานสำหรับการเปลี่ยนแปลงที่นำเสนอของลูกค้า** จะใช้การเปลี่ยนแปลงกับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="20492-122">The **Workflow approval for proposed customer change** workflow approval element will apply the changes to the customer.</span></span>
+
+## <a name="change-customer-information-and-submit-the-changes-to-the-workflow"></a><span data-ttu-id="20492-123">เปลี่ยนแปลงข้อมูลลูกค้าและส่งการเปลี่ยนแปลงไปยังลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="20492-123">Change customer information and submit the changes to the workflow</span></span>
+
+<span data-ttu-id="20492-124">เมื่อคุณเปลี่ยนแปลงฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน หน้า **การเปลี่ยนแปลงที่นำเสนอ** จะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="20492-124">When you change a field that is enabled for the workflow, the **Proposed changes** page appears.</span></span> <span data-ttu-id="20492-125">หน้านี้จะแสดงค่าเดิมของฟิลด์และค่าใหม่ที่คุณป้อน</span><span class="sxs-lookup"><span data-stu-id="20492-125">This page shows the original value of the field and the new value that you entered.</span></span> <span data-ttu-id="20492-126">ฟิลด์ที่คุณเปลี่ยนแปลงจะคืนกลับเป็นค่าเดิม</span><span class="sxs-lookup"><span data-stu-id="20492-126">The field that you changed is reverted to its original value.</span></span> <span data-ttu-id="20492-127">ข้อความแสดงสถานะในหน้าจะแจ้งให้คุณทราบว่ายังไม่มีการส่งการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="20492-127">A status message on the page informs you that your changes haven't been submitted.</span></span>
+
+<span data-ttu-id="20492-128">ทุกครั้งที่คุณเปลี่ยนแปลงฟิลด์ที่เปิดใช้งานสำหรับลำดับงาน ระบบจะเพิ่มฟิลด์นั้นลงในรายการของการเปลี่ยนแปลงที่นำเสนอ</span><span class="sxs-lookup"><span data-stu-id="20492-128">Every time that you change a field that is enabled for the workflow, that field is added to the list of proposed changes.</span></span> <span data-ttu-id="20492-129">หากต้องการยกเลิกค่าที่นำเสนอสำหรับฟิลด์ ให้ใช้ปุ่ม **ละทิ้ง** ที่อยู่ถัดจากฟิลด์ในรายการ</span><span class="sxs-lookup"><span data-stu-id="20492-129">To discard the proposed value for a field, use the **Discard** button next to the field in the list.</span></span> <span data-ttu-id="20492-130">หากต้องการยกเลิกการเปลี่ยนแปลงทั้งหมด ให้ใช้ปุ่ม **ละทิ้งการเปลี่ยนแปลงทั้งหมด** ที่ด้านล่างของหน้า</span><span class="sxs-lookup"><span data-stu-id="20492-130">To discard all changes, use the **Discard all change** button at the bottom of the page.</span></span> <span data-ttu-id="20492-131">เลือก **ตกลง** เพื่อปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="20492-131">Select **OK** to close the page.</span></span>
+
+<span data-ttu-id="20492-132">หลังจากที่คุณมีการเปลี่ยนแปลงที่นำเสนออย่างน้อยหนึ่งรายการ จะปรากฏเมนูเพิ่มเติมสองเมนูบนบานหน้าต่างการดำเนินการ: **การเปลี่ยนแปลงที่นำเสนอ** และ **ลำดับงาน**</span><span class="sxs-lookup"><span data-stu-id="20492-132">After you have at least one proposed change, two additional menus appear on the Action Pane: **Proposed changes** and **Workflow**.</span></span>
+
+1. <span data-ttu-id="20492-133">เลือก **การเปลี่ยนแปลงที่นำเสนอ** เพื่อเปิดหน้า **การเปลี่ยนแปลงที่นำเสนอ** และตรวจสอบการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="20492-133">Select **Proposed changes** to open the **Proposed changes** page and review your changes.</span></span>
+2. <span data-ttu-id="20492-134">เลือก **ลำดับงาน \> ส่ง** เพื่อส่งการเปลี่ยนแปลงไปยังลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="20492-134">Select **Workflow \> Submit** to submit the changes to the workflow.</span></span>
+
+    <span data-ttu-id="20492-135">สถานะในหน้าเปลี่ยนเป็น **การอนุมัติการเปลี่ยนแปลงที่ค้างอยู่**</span><span class="sxs-lookup"><span data-stu-id="20492-135">The status on the page is changed to **Changes pending approval**.</span></span>
+
+<span data-ttu-id="20492-136">ลำดับงานจะดำเนินการตามกระบวนการของลำดับงานมาตรฐานใน Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="20492-136">The workflow follows the standard workflow process in Finance and Operations.</span></span> <span data-ttu-id="20492-137">ระบบจะนำผู้อนุมัติไปยังหน้า **ลูกค้า** ซึ่งเขาหรือเธอสามารถตรวจสอบการเปลี่ยนแปลงในหน้า **การเปลี่ยนแปลงที่นำเสนอ** แล้วเลือก **ลำดับงาน \> อนุมัติ** เพื่ออนุมัติลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="20492-137">The approver is directed to the **Customer** page, where he or she can review the changes on the **Proposed changes** page and then select **Workflow \> Approve** to approve the workflow.</span></span> <span data-ttu-id="20492-138">หลังจากการอนุมัติทั้งหมดเสร็จสมบูรณ์ ฟิลด์จะได้รับการอัปเดตเป็นค่าที่คุณนำเสนอ</span><span class="sxs-lookup"><span data-stu-id="20492-138">After all approvals are completed, the fields are updated with the values that you proposed.</span></span>
