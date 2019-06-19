@@ -1,192 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="before-you-buy.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>before-you-buy.c34dda.dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\before-you-buy.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Before you buy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ก่อนที่คุณจะซื้อ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Step-by-step guidance to use when you're considering purchasing Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำแนะนำทีละขั้นตอนในการใช้ เมื่อคุณกำลังพิจารณาการซื้อ Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Before you buy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ก่อนที่คุณจะซื้อ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>New to Dynamics 365 for Finance and Operations?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไม่คุ้นเคยกับ Dynamics 365 for Finance and Operationsใช่หรือไม่?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>We've put together step-by-step guidance whether you're still evaluating Finance and Operations or ready to make a purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เราได้รวมคำแนะนำทีละขั้นตอนไว้ ไม่ว่าคุณจะยังคงกำลังประเมิน Finance and Operations อยู่ หรือพร้อมที่จะทำการซื้อก็ตาม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Step one: Try out Finance and Operations free for 30 days</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขั้นตอนที่หนึ่ง: ทดลอง Finance and Operations ฟรีเป็นเวลา 30 วัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can try Dynamics 365 for Finance and Operations for 30 days through a simple email signup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถลอง Dynamics 365 for Finance and Operations ได้นาน 30 วันผ่านการลงทะเบียนอีเมลที่ง่ายดาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>The trial version of Finance and Operations includes Getting started task guides that provide step-by-step instructions that allow you to view specific scenarios in action.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">รุ่นทดลองใช้ของ Finance and Operations ประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอนซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The product is available to explore and exercise scenarios, but cannot be customized.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Demo data is included to ease the use of the product and to make the experience more meaningful.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>A reminder email will be sent 3 days prior to the trial expiration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Get details at <bpt id="p1">[</bpt>www.microsoft.com/dynamics365/operations<ept id="p1">](https://www.microsoft.com/dynamics365/operations)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดูรายละเอียดใน <bpt id="p1">[</bpt>www.microsoft.com/dynamics365/operations<ept id="p1">](https://www.microsoft.com/dynamics365/operations)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Step two: Choose a deployment option</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>You can now deploy Microsoft Dynamics 365 for Finance and Operations in the cloud or on-premises.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขณะนี้ คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations ในระบบคลาวด์หรือ On-Premises</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Cloud deployments offer an ERP service that is fully managed by Microsoft, while on-premises deployments are deployed locally within a customer's data center.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The following considerations must be taken when you choose on-premises as a deployment option:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อควรพิจารณาต่อไปนี้ต้องใช้ เมื่อคุณเลือกแบบในองค์กรเป็นตัวเลือกการปรับใช้:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Regulatory and compliance needs that are not available in the <bpt id="p1">[</bpt>cloud certifications<ept id="p1">](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ความต้องการตามข้อบังคับและการปฏิบัติตามกฎระเบียบที่ไม่พร้อมใช้งานใน <bpt id="p1">[</bpt>ใบรับรอง cloud<ept id="p1">](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Disconnected business process with intermittent internet connectivity required to access Microsoft Dynamics Lifecycle Services (LCS) for application lifecycle management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">กระบวนการทางธุรกิจที่ไม่ต่อเนื่องที่มีการเชื่อมต่ออินเตอร์เน็ตแบบครั้งคราวที่ต้องการเข้าถึงการจัดการวงจรชีวิต Microsoft Dynamics Lifecycle Services (LCS) สำหรับแอพลิเคชัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Features currently not implemented in on-premises deployments<ept id="p1">](features-not-implemented-on-prem.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>คุณสมบัติที่ยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กรในขณะนี้<ept id="p1">](features-not-implemented-on-prem.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Minimum infrastructure requirements<ept id="p1">](system-requirements-on-prem.md#minimum-infrastructure-requirements)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ข้อกำหนดโครงสร้างพื้นฐานต่ำสุด<ept id="p1">](system-requirements-on-prem.md#minimum-infrastructure-requirements)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>On-premises deployments of Microsoft Dynamics 365 for Finance and Operations are not supported on any public cloud infrastructure, including Azure.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การปรับใช้แบบ On-premises ของ Microsoft Dynamics 365 for Finance and Operations ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐานระบบคลาวด์สาธารณะใดๆ ซึ่งรวมถึง Azure</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>For more information, see <bpt id="p1">[</bpt>Deployment options<ept id="p1">](../../dev-itpro/deployment/choose-deployment-type.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ <bpt id="p1">[</bpt>ตัวเลือกการปรับใช้<ept id="p1">](../../dev-itpro/deployment/choose-deployment-type.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Step three: Buy and manage a subscription</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขั้นตอนที่สาม: ซื้อและจัดการการบอกรับเป็นสมาชิก</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>To explore subscription options, go to the <bpt id="p1">[</bpt>Dynamics 365<ept id="p1">](https://www.microsoft.com/dynamics365/pricing)</ept> pricing page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการสำรวจตัวเลือกการบอกรับเป็นสมาชิก ไปที่หน้าการกำหนดราคา <bpt id="p1">[</bpt>Dynamics 365<ept id="p1">](https://www.microsoft.com/dynamics365/pricing)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>This page includes several different plans to fit your organization's needs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้านี้ประกอบด้วยแผนต่างๆ จำนวนมากเพื่อให้เหมาะสมกับความต้องการขององค์กรของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>There are many ways to buy a subscription of Dynamics 365 for Finance and Operations:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีวิธีหลายวิธีในการซื้อการสมัครใช้งานของ Dynamics 365 for Finance and Operations:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Buy through a partner, and use volume licensing (cloud or on-premises)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซื้อผ่านคู่ค้าและใช้การให้สิทธิ์ใช้งานปริมาตร (ระบบ Cloud หรือในองค์กร)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Buy through a Cloud solution provider (cloud only)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซื้อผ่านผู้ให้บริการโซลูชัน Cloud (Cloud เท่านั้น)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Buy through a partner from the Dynamics price list (on-premises only)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซื้อผ่านคู่ค้าจากรายการราคา Dynamics (ในองค์กรเท่านั้น)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>There are two ways to buy a subscription for an on-premises deployment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีวิธีการซื้อการบอกรับเป็นสมาชิกสำหรับการปรับใช้ในองค์กรสองวิธี</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Buy through volume licensing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซื้อผ่านการให้สิทธิ์ใช้งานปริมาตร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>If your organization has 250 or more Dynamics 365 users, you may be interested in a <bpt id="p1">[</bpt>Volume licensing agreement<ept id="p1">](https://www.microsoft.com/Licensing/product-licensing/dynamics365)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หากองค์กรของคุณมีผู้ใช้ Dynamics 365 อย่างน้อย 250 คน คุณอาจสนใจ <bpt id="p1">[</bpt>ข้อตกลงการให้สิทธิ์ใช้งานปริมาตร<ept id="p1">](https://www.microsoft.com/Licensing/product-licensing/dynamics365)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In Volume Licensing, Finance and Operations is available through:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในการให้สิทธิ์ใช้งานปริมาตร สามารถใช้งาน Finance and Operations ได้ผ่าน:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Enterprise Agreement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อตกลงขององค์กร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Enterprise Agreement Subscription</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การบอกรับเป็นสมาชิกข้อตกลงขององค์กร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Enrollment for Education Solutions (under the Campus and School Agreement)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การลงทะเบียนสำหรับโซลูชันการศึกษา (ภายใต้ข้อตกลงของสถาบันและโรงเรียน)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Microsoft Products and Services Agreement (MPSA)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อตกลงของผลิตภัณฑ์และการบริการของ Microsoft</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Buy through a Cloud Solution Provider (cloud-only)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซื้อผ่านผู้ให้บริการโซลูชัน Cloud (Cloud เท่านั้น)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>A Microsoft Cloud Solution Provider can work closely with you to understand the needs of your business or organization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผู้ให้บริการโซลูชัน Cloud ของ Microsoft สามารถทำงานกับคุณอย่างใกล้ชิดเพื่อทำความเข้าใจถึงความต้องการของธุรกิจหรือองค์กรของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">[</bpt>Use the Microsoft Partner Center portal to find a partner to fit your needs<ept id="p1">](https://partnercenter.microsoft.com/partner/home)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้พอร์ทัลศูนย์คู่ค้าของ Microsoft เพื่อค้นหาคู่ค้าให้ตรงกับความต้องการของคุณ<ept id="p1">](https://partnercenter.microsoft.com/partner/home)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Buy through a Dynamics partner (on-premises)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซื้อผ่านคู่ค้า Dynamics (ในองค์กร)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>You must work with a partner to purchase Finance and Operations on-premises.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณต้องทำงานกับคู่ค้าเพื่อซื้อ Finance and Operations ในองค์กร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>For more information, see <bpt id="p1">[</bpt>Purchase Dynamics 365 for Finance and Operations (on-premises)<ept id="p1">](purchase-on-premises.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม ดู <bpt id="p1">[</bpt>ซื้อ Dynamics 365 for Finance and Operations (on-premises)<ept id="p1">](purchase-on-premises.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Choose your support option</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกตัวเลือกการสนับสนุนของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your Dynamics 365 investment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft ให้การสนับสนุนแบบยืดหยุ่นและเป็นผู้นำทางอุตสาหกรรม การบริการ และทรัพยากรที่ช่วยให้ผู้ใช้สามารถระบุปัญหาทางเทคนิคและส่งคืนการลงทุน Dynamics 365 ของคุณให้มากที่สุดได้อย่างรวดเร็ว</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Choose a plan that best meets your business requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกแผนที่ตรงกับความต้องการทางธุรกิจของคุณมากที่สุด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>More information:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลเพิ่มเติม:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">[</bpt>Dynamics 365 Support<ept id="p1">](https://www.microsoft.com/dynamics365/support)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การสนับสนุน Dynamics 365<ept id="p1">](https://www.microsoft.com/dynamics365/support)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source><bpt id="p1">[</bpt>Quick Start Guide for Microsoft Dynamics Cloud Service Support Benefits<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=530335)</ept> (PDF)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>คู่มือเริ่มต้นอย่างรวดเร็วสำหรับ Microsoft Dynamics ประโยชน์ของการสนับสนุนบริการระบบคลาวด์<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=530335)</ept> (PDF)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Step four: Learn about FastTrack and plan your deployment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ขั้นตอนที่สี่: เรียนรู้เกี่ยวกับ FastTrack และแผนการปรับใช้ของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Microsoft FastTrack for Dynamics 365 is our customer success service designed to help you move to Dynamics 365 smoothly and confidently, so you can realize business value faster.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft FastTrack สำหรับ Dynamics 365 คือ บริการความสำเร็จของบริษัทลูกค้าที่ได้รับการออกแบบมาเพื่อช่วยให้คุณสามารถย้าย Dynamics 365 ได้อย่างราบรื่น และมั่นใจ เพื่อให้คุณสามารถรับรู้มูลค่าทางธุรกิจได้เร็วขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>When you participate in the FastTrack program, you will receive guidance on best practices and how to plan for successful rollouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณเข้าร่วมในโปรแกรม FastTrack คุณจะได้รับคำแนะนำเกี่ยวกับแนวทางที่พึงปฏิบัติและวิธีการวางแผนสำหรับการเปิดตัวที่ประสบความสำเร็จ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>You will also learn ways to enable new users and expand capabilities – all at your own pace.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณจะได้เรียนรู้เกี่ยวกับวิธีการเปิดใช้งานผู้ใช้ใหม่และการขยายความสามารถ – ทั้งหมดตามความเร็วของคุณเอง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Additionally, you will have access to Microsoft engineering resources committed to make your experience with Dynamics 365 a success.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ คุณจะสามารถเข้าถึงทรัพยากรวิศวกรรม Microsoft ที่ถูกกำหนดให้ทำให้ประสบการณ์ Dynamics 365 ของคุณประสบความสำเร็จ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>More information: <bpt id="p1">[</bpt>Microsoft FastTrack for Dynamics 365 overview<ept id="p1">](fasttrack-dynamics-365-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลเพิ่มเติม: <bpt id="p1">[</bpt>Microsoft FastTrack สำหรับภาพรวม Dynamics 365<ept id="p1">](fasttrack-dynamics-365-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>If you are upgrading from Dynamics AX 2012 or migrating from AX 2009</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณกำลังอัพเกรดจาก Dynamics AX 2012 หรือกำลังย้ายจาก AX 2009</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>If you are a customer who is upgrading from Microsoft Dynamics AX 2012 or migrating from Microsoft Dynamics AX 2009, you may be eligible for a longer trial.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณเป็นลูกค้าที่กำลังอัพเกรดจาก Microsoft Dynamics AX 2012 หรือกำลังย้ายจาก Microsoft Dynamics AX 2009 คุณอาจมีสิทธิ์ได้รับการทดลองใช้งานที่นานขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Contact <ph id="ph1">&lt;daxcf@microsoft.com&gt;</ph> for more information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม ให้ติดต่อ <ph id="ph1">&lt;daxcf@microsoft.com&gt;</ph></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: ก่อนที่คุณจะซื้อ
+description: คำแนะนำทีละขั้นตอนในการใช้ เมื่อคุณกำลังพิจารณาการซื้อ Dynamics 365 for Finance and Operations
+author: kfend
+manager: AnnBe
+ms.date: 01/04/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
+ms.custom: 21761
+ms.search.region: Global
+ms.author: kfend
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: AX 7.0.0, Operations
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595696"
+---
+# <a name="before-you-buy"></a>ก่อนที่คุณจะซื้อ
+
+[!include [banner](../includes/banner.md)]
+
+ไม่คุ้นเคยกับ Dynamics 365 for Finance and Operationsใช่หรือไม่? เราได้รวมคำแนะนำทีละขั้นตอนไว้ ไม่ว่าคุณจะยังคงกำลังประเมิน Finance and Operations อยู่ หรือพร้อมที่จะทำการซื้อก็ตาม
+
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>ขั้นตอนที่หนึ่ง: ทดลอง Finance and Operations ฟรีเป็นเวลา 30 วัน
+
+คุณสามารถลอง Dynamics 365 for Finance and Operations ได้นาน 30 วันผ่านการลงทะเบียนอีเมลที่ง่ายดาย รุ่นทดลองใช้ของ Finance and Operations ประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอนซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้ มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ ดูรายละเอียดใน [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations)
+
+## <a name="step-two-choose-a-deployment-option"></a>ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้
+
+ขณะนี้ คุณสามารถปรับใช้ Microsoft Dynamics 365 for Finance and Operations ในระบบคลาวด์หรือ On-Premises การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
+
+ข้อควรพิจารณาต่อไปนี้ต้องใช้ เมื่อคุณเลือกแบบในองค์กรเป็นตัวเลือกการปรับใช้:
+
+- ความต้องการตามข้อบังคับและการปฏิบัติตามกฎระเบียบที่ไม่พร้อมใช้งานใน [ใบรับรอง cloud](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- กระบวนการทางธุรกิจที่ไม่ต่อเนื่องที่มีการเชื่อมต่ออินเตอร์เน็ตแบบครั้งคราวที่ต้องการเข้าถึงการจัดการวงจรชีวิต Microsoft Dynamics Lifecycle Services (LCS) สำหรับแอพลิเคชัน
+- [คุณสมบัติที่ยังไม่มีการนำมาใช้ในการปรับใช้ในองค์กรในขณะนี้](features-not-implemented-on-prem.md)
+- [ข้อกำหนดโครงสร้างพื้นฐานต่ำสุด](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> การปรับใช้แบบ On-premises ของ Microsoft Dynamics 365 for Finance and Operations ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐานระบบคลาวด์สาธารณะใดๆ ซึ่งรวมถึง Azure
+
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตัวเลือกการปรับใช้](../../dev-itpro/deployment/choose-deployment-type.md)
+
+## <a name="step-three-buy-and-manage-a-subscription"></a>ขั้นตอนที่สาม: ซื้อและจัดการการบอกรับเป็นสมาชิก
+
+เมื่อต้องการสำรวจตัวเลือกการบอกรับเป็นสมาชิก ไปที่หน้าการกำหนดราคา [Dynamics 365](https://www.microsoft.com/dynamics365/pricing) หน้านี้ประกอบด้วยแผนต่างๆ จำนวนมากเพื่อให้เหมาะสมกับความต้องการขององค์กรของคุณ
+
+มีวิธีหลายวิธีในการซื้อการสมัครใช้งานของ Dynamics 365 for Finance and Operations:
+
+- ซื้อผ่านคู่ค้าและใช้การให้สิทธิ์ใช้งานปริมาตร (ระบบ Cloud หรือในองค์กร)
+- ซื้อผ่านผู้ให้บริการโซลูชัน Cloud (Cloud เท่านั้น)
+- ซื้อผ่านคู่ค้าจากรายการราคา Dynamics (ในองค์กรเท่านั้น)
+
+มีวิธีการซื้อการบอกรับเป็นสมาชิกสำหรับการปรับใช้ในองค์กรสองวิธี
+
+### <a name="buy-through-volume-licensing"></a>ซื้อผ่านการให้สิทธิ์ใช้งานปริมาตร
+
+หากองค์กรของคุณมีผู้ใช้ Dynamics 365 อย่างน้อย 250 คน คุณอาจสนใจ [ข้อตกลงการให้สิทธิ์ใช้งานปริมาตร](https://www.microsoft.com/Licensing/product-licensing/dynamics365)
+
+ในการให้สิทธิ์ใช้งานปริมาตร สามารถใช้งาน Finance and Operations ได้ผ่าน:
+
+- ข้อตกลงขององค์กร
+- การบอกรับเป็นสมาชิกข้อตกลงขององค์กร
+- การลงทะเบียนสำหรับโซลูชันการศึกษา (ภายใต้ข้อตกลงของสถาบันและโรงเรียน)
+- ข้อตกลงของผลิตภัณฑ์และการบริการของ Microsoft
+
+### <a name="buy-through-a-cloud-solution-provider-cloud-only"></a>ซื้อผ่านผู้ให้บริการโซลูชัน Cloud (Cloud เท่านั้น)
+
+ผู้ให้บริการโซลูชัน Cloud ของ Microsoft สามารถทำงานกับคุณอย่างใกล้ชิดเพื่อทำความเข้าใจถึงความต้องการของธุรกิจหรือองค์กรของคุณ [ใช้พอร์ทัลศูนย์คู่ค้าของ Microsoft เพื่อค้นหาคู่ค้าให้ตรงกับความต้องการของคุณ](https://partnercenter.microsoft.com/partner/home)
+
+### <a name="buy-through-a-dynamics-partner-on-premises"></a>ซื้อผ่านคู่ค้า Dynamics (ในองค์กร)
+
+คุณต้องทำงานกับคู่ค้าเพื่อซื้อ Finance and Operations ในองค์กร สำหรับข้อมูลเพิ่มเติม ดู [ซื้อ Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md)
+
+### <a name="choose-your-support-option"></a>เลือกตัวเลือกการสนับสนุนของคุณ
+
+Microsoft ให้การสนับสนุนแบบยืดหยุ่นและเป็นผู้นำทางอุตสาหกรรม การบริการ และทรัพยากรที่ช่วยให้ผู้ใช้สามารถระบุปัญหาทางเทคนิคและส่งคืนการลงทุน Dynamics 365 ของคุณให้มากที่สุดได้อย่างรวดเร็ว เลือกแผนที่ตรงกับความต้องการทางธุรกิจของคุณมากที่สุด
+
+ข้อมูลเพิ่มเติม:
+
+- [การสนับสนุน Dynamics 365](https://www.microsoft.com/dynamics365/support)
+- [คู่มือเริ่มต้นอย่างรวดเร็วสำหรับ Microsoft Dynamics ประโยชน์ของการสนับสนุนบริการระบบคลาวด์](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+
+## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>ขั้นตอนที่สี่: เรียนรู้เกี่ยวกับ FastTrack และแผนการปรับใช้ของคุณ
+
+Microsoft FastTrack สำหรับ Dynamics 365 คือ บริการความสำเร็จของบริษัทลูกค้าที่ได้รับการออกแบบมาเพื่อช่วยให้คุณสามารถย้าย Dynamics 365 ได้อย่างราบรื่น และมั่นใจ เพื่อให้คุณสามารถรับรู้มูลค่าทางธุรกิจได้เร็วขึ้น เมื่อคุณเข้าร่วมในโปรแกรม FastTrack คุณจะได้รับคำแนะนำเกี่ยวกับแนวทางที่พึงปฏิบัติและวิธีการวางแผนสำหรับการเปิดตัวที่ประสบความสำเร็จ คุณจะได้เรียนรู้เกี่ยวกับวิธีการเปิดใช้งานผู้ใช้ใหม่และการขยายความสามารถ – ทั้งหมดตามความเร็วของคุณเอง นอกจากนี้ คุณจะสามารถเข้าถึงทรัพยากรวิศวกรรม Microsoft ที่ถูกกำหนดให้ทำให้ประสบการณ์ Dynamics 365 ของคุณประสบความสำเร็จ ข้อมูลเพิ่มเติม: [Microsoft FastTrack สำหรับภาพรวม Dynamics 365](fasttrack-dynamics-365-overview.md)
+
+## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>ถ้าคุณกำลังอัพเกรดจาก Dynamics AX 2012 หรือกำลังย้ายจาก AX 2009
+
+ถ้าคุณเป็นลูกค้าที่กำลังอัพเกรดจาก Microsoft Dynamics AX 2012 หรือกำลังย้ายจาก Microsoft Dynamics AX 2009 คุณอาจมีสิทธิ์ได้รับการทดลองใช้งานที่นานขึ้น สำหรับข้อมูลเพิ่มเติม ให้ติดต่อ <daxcf@microsoft.com>

@@ -1,54 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="multireturn.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>multireturn.eabb2c.c201311028b11121d626e93859a2b98497c047d1.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c201311028b11121d626e93859a2b98497c047d1</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\multireturn.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Return items across multiple customer orders and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes the functionality enabling returns across multiple customer orders and invoices in Microsoft Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้อธิบายถึงฟังก์ชันที่จะช่วยให้สามารถส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบใน Microsoft Dynamics 365 for Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Return items across multiple customer orders and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>In Dynamics 365 for Finance and Operations version 10.0, returns can be made across multiple orders and invoices, whereas in releases prior to 10.0, returns could only be processed by a single invoice at a time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน Dynamics 365 for Finance and Operations รุ่น 10.0 การส่งคืนสินค้าสามารถดำเนินการกับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ ขณะที่รุ่นที่นำออกใช้ก่อนรุ่น 10.0 การส่งคืนสินค้าสามารถดำเนินการกับใบแจ้งหนี้ได้ครั้งละหนึ่งใบเท่านั้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Configure Retail to support returns across multiple customer order and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าคอนฟิก Retail ให้รองรับการส่งคืนสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Go to <bpt id="p1">**</bpt>Retail parameters <ph id="ph1">\&gt;</ph> Customer orders<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">**</bpt>พารามิเตอร์ Retail <ph id="ph1">\&gt;</ph> ใบสั่งของลูกค้า<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Turn on the <bpt id="p1">**</bpt>Enable returns for multiple orders<ept id="p1">**</ept> parameter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เปิดพารามิเตอร์ <bpt id="p1">**</bpt>เปิดใช้งานการส่งคืนสำหรับใบสั่งหลายใบ<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Process returns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดำเนินการส่งคืนสินค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากเปิดพารามิเตอร์และทำข้อมูลการเปลี่ยนแปลงให้ตรงกับร้านค้า แคชเชียร์ในร้านค้าสามารถเลือกใบสั่งขายหลายใบของลูกค้าสำหรับการส่งคืนสินค้าของพวกเขา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อเลือกใบสั่งแล้ว รายการของผลิตภัณฑ์ที่สามารถส่งคืนทั้งหมดในใบแจ้งหนี้ทั้งหมดสำหรับใบสั่งนั้นจะปรากฏขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>The cashier can then select the products to return.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แคชเชียร์สามารถเลือกผลิตภัณฑ์ที่จะส่งคืนได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>A single return order will be created for all the selected products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โดยจะมีการสร้างใบสั่งส่งคืนสินค้าใบเดียวสำหรับผลิตภัณฑ์ที่เลือกทั้งหมด</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: ส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
+description: หัวข้อนี้อธิบายถึงฟังก์ชันที่จะช่วยให้สามารถส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบใน Microsoft Dynamics 365 for Retail
+author: josaw1
+manager: AnnBe
+ms.date: 03/05/2019
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2019-01-15
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565311"
+---
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>ส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
+
+[!include [banner](includes/banner.md)]
+
+
+ใน Dynamics 365 for Finance and Operations รุ่น 10.0 การส่งคืนสินค้าสามารถดำเนินการกับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ ขณะที่รุ่นที่นำออกใช้ก่อนรุ่น 10.0 การส่งคืนสินค้าสามารถดำเนินการกับใบแจ้งหนี้ได้ครั้งละหนึ่งใบเท่านั้น 
+
+## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>ตั้งค่าคอนฟิก Retail ให้รองรับการส่งคืนสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
+
+1. ไปที่ **พารามิเตอร์ Retail \> ใบสั่งของลูกค้า**
+1. เปิดพารามิเตอร์ **เปิดใช้งานการส่งคืนสำหรับใบสั่งหลายใบ** 
+
+## <a name="process-returns"></a>ดำเนินการส่งคืนสินค้า
+
+หลังจากเปิดพารามิเตอร์และทำข้อมูลการเปลี่ยนแปลงให้ตรงกับร้านค้า แคชเชียร์ในร้านค้าสามารถเลือกใบสั่งขายหลายใบของลูกค้าสำหรับการส่งคืนสินค้าของพวกเขา
+
+เมื่อเลือกใบสั่งแล้ว รายการของผลิตภัณฑ์ที่สามารถส่งคืนทั้งหมดในใบแจ้งหนี้ทั้งหมดสำหรับใบสั่งนั้นจะปรากฏขึ้น แคชเชียร์สามารถเลือกผลิตภัณฑ์ที่จะส่งคืนได้ โดยจะมีการสร้างใบสั่งส่งคืนสินค้าใบเดียวสำหรับผลิตภัณฑ์ที่เลือกทั้งหมด
