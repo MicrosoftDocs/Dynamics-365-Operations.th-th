@@ -1,204 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="index.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>index.fa071c.391f63fba2916b613f66bfd36cfbd3a052cbc8fe.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>391f63fba2916b613f66bfd36cfbd3a052cbc8fe</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\supply-chain\index.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Supply chain management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจการบริหารห่วงโซ่อุปทาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This page provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Supply chain management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮมเพจการบริหารห่วงโซ่อุปทาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>What's new and in development</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีอะไรใหม่และอะไรที่กำลังพัฒนา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Go to the <bpt id="p1">&lt;a href="https://roadmap.dynamics.com/"&gt;</bpt>Dynamics 365 Roadmap<ept id="p1">&lt;/a&gt;</ept> to see what new features are released and what new features are in development.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไปที่ <bpt id="p1">&lt;a href="https://roadmap.dynamics.com/"&gt;</bpt>แผนการทำงาน Dynamics 365<ept id="p1">&lt;/a&gt;</ept> เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Core concepts and tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แนวคิดหลักและงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Select a feature area to learn more about it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกส่วนคุณสมบัติที่จะเรียนรู้เพิ่มเติม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">[</bpt>Cost accounting<ept id="p1">](../financials/cost-accounting/cost-accounting-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การบัญชีต้นทุน<ept id="p1">](../financials/cost-accounting/cost-accounting-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">[</bpt>Cost management<ept id="p1">](cost-management/cost-management-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการต้นทุน<ept id="p1">](cost-management/cost-management-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt>Inventory management<ept id="p1">](inventory/inventory-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การบริหารสินค้าคงคลัง<ept id="p1">](inventory/inventory-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">[</bpt>Master planning<ept id="p1">](master-planning/master-planning-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การวางแผนหลัก<ept id="p1">](master-planning/master-planning-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Procurement and sourcing<ept id="p1">](procurement/procurement-sourcing-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดซื้อและการจัดหา<ept id="p1">](procurement/procurement-sourcing-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>Product information management<ept id="p1">](pim/product-information.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการข้อมูลผลิตภัณฑ์<ept id="p1">](pim/product-information.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Production control<ept id="p1">](production-control/production-process-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การควบคุมการผลิต<ept id="p1">](production-control/production-process-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Sales and marketing<ept id="p1">](sales-marketing/overview-sales-marketing.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การขายและการตลาด<ept id="p1">](sales-marketing/overview-sales-marketing.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt>Service management<ept id="p1">](service-management/service-management-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการงานบริการ<ept id="p1">](service-management/service-management-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>Transportation management<ept id="p1">](transportation/transportation-management-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการการขนส่ง<ept id="p1">](transportation/transportation-management-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Warehouse management<ept id="p1">](warehousing/warehouse-configuration.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการคลังสินค้า<ept id="p1">](warehousing/warehouse-configuration.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Synchronize a work order between Field Service and Finance and Operations<ept id="p1">](https://youtu.be/hAB4TDVMjxU)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ซิงโครไนส์ใบสั่งงานระหว่าง Field Service กับ Finance and Operations<ept id="p1">](https://youtu.be/hAB4TDVMjxU)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">[</bpt>Prospect to cash integration<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด<ept id="p1">](https://youtu.be/AVV9x5x-XCg)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt>Optimization advisor<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ<ept id="p1">](https://www.youtube.com/watch?v=MRsAzgFCUSQ&amp;t=4s)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">[</bpt>Use warehouse template to copy configuration<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก<ept id="p1">](https://www.youtube.com/watch?v=K2WIfFlqJYs&amp;feature=youtu.be)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>These short videos help you learn about the new features that are in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">[</bpt>Get started with Cost accounting<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>เริ่มต้นใช้งานการบัญชีต้นทุน<ept id="p1">](https://youtu.be/1pUDtJQZ8FU)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">[</bpt>Cost control mobile workspace<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการควบคุมต้นทุน<ept id="p1">](https://youtu.be/imsuTg8rUVk)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source><bpt id="p1">[</bpt>Use Excel for cost analysis<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ใช้ Excel สำหรับการวิเคราะห์ต้นทุน<ept id="p1">](https://youtu.be/-HKHYdClvx8)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">[</bpt>Approve purchase orders on a mobile device<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>อนุมัติใบสั่งซื้อบนอุปกรณ์เคลื่อนที่<ept id="p1">](https://youtu.be/gZ-gOlJe7H8)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">[</bpt>Visual scheduling with Gantt chart for production and batch orders<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การกำหนดการแบบภาพด้วยแผนภูมิแกนต์สำหรับใบสั่งผลิตและใบสั่งชุดงาน<ept id="p1">](https://youtu.be/BtbuShkGj4I)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>These tech conference recordings discuss product functionality in the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บันทึกการประชุมด้านเทคนิคเหล่านี้มีเนื้อหาเกี่ยวกับฟังก์ชันการทำงานของผลิตภัณฑ์ในรุ่นก่อนหน้าของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source><bpt id="p1">**</bpt>Cost management<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดการต้นทุน<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source><bpt id="p1">[</bpt>Overview of Cost management<ept id="p1">](https://www.youtube.com/watch?v=vXzlC-mOBcg&amp;feature=youtu.be)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ภาพรวมของการจัดการต้นทุน<ept id="p1">](https://www.youtube.com/watch?v=vXzlC-mOBcg&amp;feature=youtu.be)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">**</bpt>Master planning<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การวางแผนหลัก<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">[</bpt>Extend the demand forecasting functionality<ept id="p1">](https://www.youtube.com/watch?v=4OIKIXLiNjI&amp;feature=youtu.be)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ขยายฟังก์ชันการคาดการณ์ความต้องการ<ept id="p1">](https://www.youtube.com/watch?v=4OIKIXLiNjI&amp;feature=youtu.be)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">[</bpt>Master planning - tips and tricks for troubleshooting performance<ept id="p1">](https://youtu.be/7v8BPmEs9Dg)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา<ept id="p1">](https://youtu.be/7v8BPmEs9Dg)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">[</bpt>Help! MRP is slow!<ept id="p1">](https://youtu.be/RLXybx20B5o)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ช่วยด้วย MRP ทำงานช้า<ept id="p1">](https://youtu.be/RLXybx20B5o)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดการข้อมูลผลิตภัณฑ์<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">[</bpt>Product configurator in Microsoft Dynamics AX<ept id="p1">](https://youtu.be/zotrj3SbCl4)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX<ept id="p1">](https://youtu.be/zotrj3SbCl4)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">**</bpt>Warehouse management<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดการคลังสินค้า<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">[</bpt>Get the best out of your warehouse management system<ept id="p1">](https://www.youtube.com/watch?v=--_didmZKHo&amp;t=10s)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด<ept id="p1">](https://www.youtube.com/watch?v=--_didmZKHo&amp;t=10s)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source><bpt id="p1">[</bpt>Advanced R3 Warehouse management - Inbound processing and min/max replenishment<ept id="p1">](https://www.youtube.com/watch?v=z5_V5Eqlf5M&amp;t=48s)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการคลังสินค้าขั้นสูง R3 - การดำเนินการขาเข้าและการเติมสินค้าต่ำสุด/สูงสุด<ept id="p1">](https://www.youtube.com/watch?v=z5_V5Eqlf5M&amp;t=48s)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">[</bpt>Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment<ept id="p1">](https://youtu.be/Og0gLlVp7jA)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการคลังสินค้าขั้นสูง R3 - หนึ่งวันในชีวิตกับการดำเนินการขาออกและการเติมสินค้าตามความต้องการ<ept id="p1">](https://youtu.be/Og0gLlVp7jA)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source><bpt id="p1">[</bpt>Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management<ept id="p1">](https://youtu.be/5w1MngVchBA)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่<ept id="p1">](https://youtu.be/5w1MngVchBA)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source><bpt id="p1">[</bpt>Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing<ept id="p1">](https://www.youtube.com/embed/QUxXUrN-7n4)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในชีวิตกับการผลิตตามกระบวนการ<ept id="p1">](https://www.youtube.com/embed/QUxXUrN-7n4)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">**</bpt>Production control<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การควบคุมการผลิต<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source><bpt id="p1">[</bpt>Subcontracting operations and activities in manufacturing<ept id="p1">](https://youtu.be/y1jrd3A_k70)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต<ept id="p1">](https://youtu.be/y1jrd3A_k70)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><bpt id="p1">**</bpt>Transportation management<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การจัดการการขนส่ง<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">[</bpt>Transportation management (TMS) in the new Microsoft Dynamics AX<ept id="p1">](https://youtu.be/jgmTgJIgEFQ)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>การจัดการการขนส่ง (TMS) ในรูปแบบใหม่ Microsoft Dynamics AX<ept id="p1">](https://youtu.be/jgmTgJIgEFQ)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บล็อก</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>There are many topics about manufacturing and supply chain management on the <bpt id="p1">&lt;a href="https://blogs.msdn.microsoft.com/axmfg/"&gt;</bpt>Dynamics AX Manufacturing R&amp;D Team Blog<ept id="p1">&lt;/a&gt;</ept> and <bpt id="p2">&lt;a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/"&gt;</bpt>Supply Chain Management in Dynamics AX R&amp;D Team Blog <ept id="p2">&lt;/a&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <bpt id="p1">&lt;a href="https://blogs.msdn.microsoft.com/axmfg/"&gt;</bpt>บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX<ept id="p1">&lt;/a&gt;</ept> และ <bpt id="p2">&lt;a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/"&gt;</bpt>การบริหารห่วงโซ่อุปทานในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX<ept id="p2">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Most of these were written for the previous version of Finance and Operations, but the same concepts still apply, and the procedures are similar in the current version.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>White papers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เอกสาร</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/"&gt;</bpt>Cost accounting hands-on labs<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/"&gt;</bpt>ห้องปฏิบัติการในเชิงปฏิบัติเกี่ยวกับการบัญชีต้นทุน<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/"&gt;</bpt>Lean manufacturing: Capable to promise and kanban job scheduling<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/"&gt;</bpt>Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/"&gt;</bpt>BOM calculation by using a costing sheet<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/"&gt;</bpt>การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/"&gt;</bpt>Mobility in the Warehouse facilitated by Microsoft Dynamics 365 for Finance and Operations<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/"&gt;</bpt>การเคลื่อนย้ายในคลังสินค้าที่อำนวยความสะดวกโดยใช้ Microsoft Dynamics 365 for Finance and Operations<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>eLearning courses</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลักสูตรอีเลิร์นนิ่ง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>For information about Microsoft Dynamics 365 for Finance and Operations training, see <bpt id="p1">&lt;a href="https://mbspartner.microsoft.com/AX/LearningPlans/"&gt;</bpt> Microsoft Dynamics Learning Portal<ept id="p1">&lt;/a&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการฝึกอบรม Microsoft Dynamics 365 for Finance and Operations ดูที่ <bpt id="p1">&lt;a href="https://mbspartner.microsoft.com/AX/LearningPlans/"&gt;</bpt>เว็บไซต์การเรียนรู้ Microsoft Dynamics<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>(requires CustomerSource account)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(ต้องมีบัญชี CustomerSource)</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: โฮมเพจการบริหารห่วงโซ่อุปทาน
+description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations
+author: ShylaThompson
+manager: AnnBe
+ms.date: 05/09/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
+ms.search.region: global
+ms.search.industry: ''
+ms.author: shylaw
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557603"
+---
+# <a name="supply-chain-management-home-page"></a>โฮมเพจการบริหารห่วงโซ่อุปทาน
+
+[!include [banner](includes/banner.md)]
+
+หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations 
+
+## <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
+ไปที่ <a href="https://roadmap.dynamics.com/">แผนการทำงาน Dynamics 365</a> เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา 
+
+## <a name="core-concepts-and-tasks"></a>แนวคิดหลักและงาน
+
+เลือกส่วนคุณสมบัติที่จะเรียนรู้เพิ่มเติม
+
+- [การบัญชีต้นทุน](../financials/cost-accounting/cost-accounting-home-page.md)
+- [การจัดการต้นทุน](cost-management/cost-management-home-page.md)  
+- [การบริหารสินค้าคงคลัง](inventory/inventory-home-page.md)
+- [การวางแผนหลัก](master-planning/master-planning-home-page.md)
+- [การจัดซื้อและการจัดหา](procurement/procurement-sourcing-overview.md)
+- [การจัดการข้อมูลผลิตภัณฑ์](pim/product-information.md)
+- [การควบคุมการผลิต](production-control/production-process-overview.md)
+- [การขายและการตลาด](sales-marketing/overview-sales-marketing.md)
+- [การจัดการงานบริการ](service-management/service-management-home-page.md)
+- [การจัดการการขนส่ง](transportation/transportation-management-overview.md)
+- [การจัดการคลังสินค้า](warehousing/warehouse-configuration.md)
+
+## <a name="videos"></a>วิดีโอ
+
+วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018)
+
+- [ซิงโครไนส์ใบสั่งงานระหว่าง Field Service กับ Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+
+วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)
+
+-  [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg) 
+-  [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+
+วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)
+
+-  [เริ่มต้นใช้งานการบัญชีต้นทุน](https://youtu.be/1pUDtJQZ8FU)
+-  [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)
+-  [ใช้ Excel สำหรับการวิเคราะห์ต้นทุน](https://youtu.be/-HKHYdClvx8)
+-  [อนุมัติใบสั่งซื้อบนอุปกรณ์เคลื่อนที่](https://youtu.be/gZ-gOlJe7H8)
+-  [การกำหนดการแบบภาพด้วยแผนภูมิแกนต์สำหรับใบสั่งผลิตและใบสั่งชุดงาน](https://youtu.be/BtbuShkGj4I)
+
+บันทึกการประชุมด้านเทคนิคเหล่านี้มีเนื้อหาเกี่ยวกับฟังก์ชันการทำงานของผลิตภัณฑ์ในรุ่นก่อนหน้าของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
+
+**การจัดการต้นทุน**
+
+-  [ภาพรวมของการจัดการต้นทุน](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**การวางแผนหลัก**
+
+-  [ขยายฟังก์ชันการคาดการณ์ความต้องการ](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา](https://youtu.be/7v8BPmEs9Dg)
+-  [ช่วยด้วย MRP ทำงานช้า](https://youtu.be/RLXybx20B5o)
+
+**การจัดการข้อมูลผลิตภัณฑ์**
+
+-  [ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**การจัดการคลังสินค้า** 
+
+<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
+-  [สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [การจัดการคลังสินค้าขั้นสูง R3 - การดำเนินการขาเข้าและการเติมสินค้าต่ำสุด/สูงสุด](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [การจัดการคลังสินค้าขั้นสูง R3 - หนึ่งวันในชีวิตกับการดำเนินการขาออกและการเติมสินค้าตามความต้องการ](https://youtu.be/Og0gLlVp7jA)
+-  [ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในชีวิตกับการผลิตตามกระบวนการ](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**การควบคุมการผลิต**
+
+-  [การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต](https://youtu.be/y1jrd3A_k70)
+
+**การจัดการการขนส่ง**
+
+-  [การจัดการการขนส่ง (TMS) ในรูปแบบใหม่ Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
+
+## <a name="blogs"></a>บล็อก
+มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX</a> หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
+
+## <a name="white-papers"></a>เอกสาร
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">ห้องปฏิบัติการในเชิงปฏิบัติเกี่ยวกับการบัญชีต้นทุน</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">การเคลื่อนย้ายในคลังสินค้าที่อำนวยความสะดวกโดยใช้ Microsoft Dynamics 365 for Finance and Operations</a>
+
+## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการฝึกอบรม Microsoft Dynamics 365 for Finance and Operations ดูที่ <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">เว็บไซต์การเรียนรู้ Microsoft Dynamics</a> (ต้องมีบัญชี CustomerSource) 
+
+
