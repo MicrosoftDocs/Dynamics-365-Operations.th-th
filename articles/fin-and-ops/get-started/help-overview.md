@@ -1,450 +1,199 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="help-overview.md" target-language="th-TH">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>help-overview.81e3b7.7c74ff55e0a9a81c058de802d70365d13d34c8ff.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7c74ff55e0a9a81c058de802d70365d13d34c8ff</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\help-overview.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Finance and Operations Help system</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระบบวิธีใช้ Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้ให้ภาพรวมขององค์ประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Finance and Operations Help system</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระบบวิธีใช้ Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อนี้ให้ภาพรวมขององค์ประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ผลิตภัณฑ์สามอย่างต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; และ Dynamics 365 for Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The same functionality may appear in all 3 products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น ในหัวข้อที่เกี่ยวข้องกับ Retail เป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ส่วนในหัวข้อที่เกี่ยวข้องกับ Talent ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent; และในหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Topics that are written for one product may apply to the same functionality in a related product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The Help system is shared by the following products:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระบบวิธีใช้จะแบ่งตามผลิตภัณฑ์ต่อไปนี้ทั้งหมด:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Dynamics 365 for Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Finance and Operations includes a Help system that is based on two main components:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations ประกอบด้วยระบบวิธีใช้ที่ขึ้นอยู่กับประกอบหลักสองส่วน:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A documentation site</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์เอกสารประกอบ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>You can access help from the Help pane in whichever product you are using.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถเข้าถึงวิธีใช้จากบานหน้าต่างวิธีใช้ในผลิตภัณฑ์ใดก็ตามที่คุณใช้อยู่</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>The following screenshot shows Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภาพหน้าจอต่อไปนี้จะแสดง Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บานหน้าต่างวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">**</bpt>Task guides<ept id="p1">**</ept> are not currently available for Retail, or in the Help pane for Talent (a few task guides are available in the Getting Started pane for Talent).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>คำแนะนำของงาน<ept id="p1">**</ept> ไม่มีอยู่ในปัจจุบันสำหรับ Retail หรือในบานหน้าต่างวิธีใช้สำหรับ Talent (คู่มืองานสองสามฉบับพร้อมใช้งานในบานหน้าต่างการเริ่มต้นใช้งานสำหรับ Talent)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Procedural help is available on the docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) for both Retail and Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิธีใช้ตามขั้นตอนพร้อมใช้งานบนไซต์ docs.microsoft.com (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) สำหรับทั้ง Retail และ Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Help on docs.microsoft.com</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิธีใช้เกี่ยวกับ docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) is the primary source of product documentation for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์ docs.microsoft.com (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) เป็นแหล่งข้อมูลหลักของเอกสารประกอบผลิตภัณฑ์สำหรับ Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>The site offers the following features:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์มีลักษณะการทำงานดังต่อไปนี้:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">**</bpt>Access to the most up-to-date content<ept id="p1">**</ept> – The site gives us a faster and more flexible way to create, deliver, and update product documentation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>เข้าถึงเนื้อหาล่าสุด<ept id="p1">**</ept> – ไซต์ทำให้เราสร้าง จัดส่ง และอัพเดตเอกสารผลิตภัณฑ์รวดเร็วและมีความยืดหยุ่นมากขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Therefore, it helps to ensure that you have access to the latest technical information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ดังนั้น จึงจะช่วยให้แน่ใจว่าคุณมีสิทธิ์เข้าถึงข้อมูลทางเทคนิคล่าสุด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">**</bpt>Content that is written by experts<ept id="p1">**</ept> – The site provides a richer set of product documentation that can be enhanced by community members both inside and outside Microsoft.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>เนื้อหาที่เขียนโดยผู้เชี่ยวชาญ<ept id="p1">**</ept> – ไซต์แสดงชุดของเอกสารผลิตภัณฑ์ที่สมบูรณ์กว่า ซึ่งสามารถเพิ่มเติมโดยสมาชิกของชุมชนทั้งภายใน และภาย นอก Microsoft</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">**</bpt>Access to different types of content<ept id="p1">**</ept> – The site lets you quickly access different types of content about Finance and Operations, such as task guides, videos, and topics.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>การเข้าถึงเนื้อหาชนิดต่างๆ<ept id="p1">**</ept> – ไซต์ช่วยให้คุณสามารถเข้าถึงเนื้อหาชนิดต่างๆ เกี่ยวกับ Finance and Operations ได้อย่างรวดเร็ว ตัวอย่างเช่น คู่มืองาน วิดีโอ และหัวข้อ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">**</bpt>Content that supports your business processes<ept id="p1">**</ept> – The site includes business process–focused content that takes advantage of the Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>เนื้อหาที่สนับสนุนกระบวนการทางธุรกิจของคุณ<ept id="p1">**</ept> – ไซต์รวมเนื้อหาที่มุ่งเน้นกระบวนการทางธุรกิจที่ใช้ประโยชน์จาก Business Process Modeler (BPM) ใน Microsoft Dynamics Lifecycle Services (LCS)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Searching on docs.microsoft.com</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การค้นหาบน docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>We get a lot of questions about how to search for our content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เราได้รับคำถามจำนวนมากเกี่ยวกับวิธีการค้นหาเนื้อหาของเรา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>On our site, if you start from a page about Finance and Operations, we scope your search to just be for Finance and Operations content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บนไซต์ของเรา ถ้าคุณเริ่มต้นจากหน้าเกี่ยวกับ Finance and Operations เรากำหนดขอบเขตการค้นหาของคุณเป็นเฉพาะสำหรับเนื้อหาของ Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>You can remove the scoping by clicking the X next to Unified Operations in the search box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถลบการกำหนดขอบเขตได้โดยการคลิก X ที่อยู่ถัดจาก Unified Operation ในกล่องค้นหา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Search</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ค้นหาใบสั่ง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>You can also find our content with any search engine.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณยังสามารถค้นหาเนื้อหาของเราโดยใช้กลไกจัดการค้นหาใด ๆ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>We recommend that for best results, you use a site search, such as site:docs.microsoft.com dynamics 365 "search term".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เราขอแนะนำว่า เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดคุณควรใช้การค้นหาไซต์ เช่น site:docs.microsoft.com dynamics 365 "คำค้นหา"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The docs.microsoft.com table of contents</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตาราง docs.microsoft.com ของเนื้อหา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Finance and Operations and Retail all share a single table of contents on the docs site, which enables customers to see the context of the topic they are in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations และ Retail ทั้งหมดใช้ตารางเนื้อหาเดี่ยวร่วมกันบนไซต์เอกสาร ซึ่งช่วยให้ลูกค้าสามารถดูบริบทของหัวข้อที่พวกเขาใช้งานอยู่ได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>It also enables you to use the Filter control above the table of contents to find topics that you are looking for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ ยังช่วยให้คุณสามารถใช้ตัวควบคุมตัวกรองข้อมูลที่อยู่เหนือตารางเนื้อหา เพื่อค้นหาหัวข้อที่คุณกำลังค้นหา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You can get help on other Dynamics 365 products by searching for them, or by clicking Dynamics 365 in the site breadcrumb to get to our hub page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถขอความช่วยเหลือเกี่ยวกับผลิตภัณฑ์ Dynamics 365 อื่นๆ โดยการค้นหา หรือโดยการคลิกที่ Dynamics 365 ในการแสดงเส้นทางไซต์เพื่อไปยังหน้าฮับของเรา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Use an RSS feed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใช้ตัวดึงข้อมูล RSS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>To subscribe to an RSS feed of all updates to the Unified Operations content, use the following link from a browser that supports RSS feeds, such as Internet Explorer, or an RSS feed manager:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เพื่อสมัครรับข้อมูลฟีด RSS ของการปรับปรุงทั้งหมดไปยังเนื้อหาการดำเนินการรวม ใช้ลิงค์ต่อไปนี้จากเบราเซอร์ที่สนับสนุนฟีด RSS เช่น Internet Explorer หรือตัวจัดการฟีด RSS:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>RSS feed<ept id="p1">](https://docs.microsoft.com/api/search/rss?locale=en-us&amp;$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตัวดึงข้อมูล RSS<ept id="p1">](https://docs.microsoft.com/api/search/rss?locale=en-us&amp;$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Give feedback</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ให้ความคิดเห็น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>We really like customer feedback.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เราชอบความคิดเห็นของลูกค้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>You can either comment or suggest changes to our content through GitHub.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถแสดงข้อคิดเห็น หรือแนะนำการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ต่อเนื้อหาของเราได้ผ่าน GitHub</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>For more information about our feedback system, see <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับระบบคำติชมของเรา ดู <bpt id="p1">[</bpt>ประกาศบล็อกนี้<ept id="p1">](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Leave us feedback</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ฝากคำติชมให้พวกเรา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>If you have feedback or questions about a topic, leave us a comment at the bottom of the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณมีความคิดเห็นหรือคำถามเกี่ยวกับหัวข้อ ฝากความคิดเห็นให้พวกเราที่ด้านล่างของหน้า</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click <bpt id="p1">**</bpt>Feedback<ept id="p1">**</ept> to get to the comments at the bottom of the page, and then click either <bpt id="p2">**</bpt>Product feedback<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Sign in to give documentation feedback<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คลิก <bpt id="p1">**</bpt>ความคิดเห็น<ept id="p1">**</ept> เพื่อเข้าถึงข้อคิดเห็นที่ด้านล่างของหน้า และจากนั้น คลิก <bpt id="p2">**</bpt>ความคิดเห็นต่อผลิตภัณฑ์<ept id="p2">**</ept> หรือ <bpt id="p3">**</bpt>ลงชื่อเข้าใช้เพื่อให้ความคิดเห็นเกี่ยวกับเอกสาร<ept id="p3">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Start typing your comments, and then click <bpt id="p1">**</bpt>Submit feedback<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เริ่มพิมพ์ข้อคิดเห็นของคุณ แล้วคลิก <bpt id="p1">**</bpt>ส่งความคิดเห็น<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Post comment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ลงรายการข้อคิดเห็น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Suggest a change or contribute content through GitHub</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แนะนำการเปลี่ยนแปลงหรือจัดสรรเนื้อหาผ่าน GitHub</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>To suggest a change, you'll need to have a GitHub account, and sign a Contributor License Agreement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เพื่อแนะนำการเปลี่ยนแปลง คุณจะต้องมีบัญชี GitHub และลงชื่อในข้อตกลงลิขสิทธิ์ผู้สนับสนุน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>After you submit a pull request, we'll review your proposed changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่คุณส่งคำขอดึง เราจะตรวจทานการเปลี่ยนแปลงที่นำเสนอของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>If necessary, we'll discuss them internally, and then get back to you.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าจำเป็น เราจะอภิปรายภายใน และจากนั้นจะติดต่อกลับไปหาคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>To get started, click the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> (pencil) button on a topic, or go to our repo at <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อต้องการเริ่มต้นใช้งาน คลิกปุ่ม <bpt id="p1">**</bpt>แก้ไข<ept id="p1">**</ept> (ดินสอ) บนหัวข้อ หรือไปที่ repo ของเราที่ <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>For more information, please refer to our contributor's guide: <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม โปรดอ้างอิงคู่มือผู้สนับสนุนของเรา: <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>We only accept contributions to our English content set at this time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เรายอมรับการจัดสรรไปยังชุดเนื้อหาภาษาอังกฤษของเราในขณะนี้เท่านั้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>A Task guide is a controlled, guided, interactive experience that leads you through the steps of a task, or business process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองานคือคู่มือในการควบคุม ประสบการณ์การโต้ตอบ ที่นำคุณผ่านขั้นตอนของงานหรือกระบวนการทางธุรกิจ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>You can open (play) a Task guide from the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถเปิด (เล่น) คู่มืองานจากบานหน้าต่าง วิธีใช้ ได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>When you first click a Task guide, the Help pane will show the step-by-step instructions for the task.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณคลิกคู่มืองานเป็นครั้งแรก บานหน้าต่าง วิธีใช้ จะแสดงคำแนะนำทีละขั้นตอนสำหรับงานนั้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Localized Task guides are now available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองานที่เป็นภาษาท้องถิ่นพร้อมใช้งานแล้วในขณะนี้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Microsoft shipped task guide libraries for releases through December 2017 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft จัดส่งไลบรารีคู่มืองานสำหรับการนำออกใช้ในเดือนธันวาคม 2017 สำหรับ Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>The section <bpt id="p1">[</bpt>Accessing Task guides from the Help pane<ept id="p1">](help-overview.md#accessing-task-guides-from-the-help-pane)</ept> describes how to find the correct task guides for your product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วน <bpt id="p1">[</bpt>การเข้าถึงคู่มืองานจากบานหน้าต่างวิธีใช้<ept id="p1">](help-overview.md#accessing-task-guides-from-the-help-pane)</ept> จะอธิบายวิธีการค้นหาคู่มืองานที่ถูกต้องสำหรับผลิตภัณฑ์ของคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Task guide reading view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มุมมองการอ่านคู่มืองาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>To begin the guided, interactive experience, click <bpt id="p1">**</bpt>Start task guide<ept id="p1">**</ept> at the bottom of the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เพื่อเริ่มการแนะนำ ประสบการณ์โต้ตอบ คลิก <bpt id="p1">**</bpt>เริ่มต้นคู่มืองาน<ept id="p1">**</ept> ที่ด้านล่างของบานหน้าต่างวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>A black pointer opens and indicates the action that you must perform.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตัวชี้สีดำเปิดขึ้น และบ่งชี้ถึงการดำเนินการที่คุณจำเป็นต้องทำ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Follow the directions that appear in the UI, and enter data as directed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทำตามคำแนะนำที่ปรากฏใน UI และป้อนข้อมูลตามที่กำหนด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Task guide step instruction</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำแนะนำตามขั้นตอนของคู่มืองาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>The data that you enter when you play a task guide is real.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ข้อมูลที่คุณป้อนเมื่อคุณเล่นคู่มืองานเป็นจริง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>If you're in a production environment, the data will be entered in the company that you're currently using.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคุณอยู่ในสภาพแวดล้อมการผลิต ข้อมูลจะถูกป้อนในบริษัทที่คุณกำลังใช้อยู่ในปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>You can use Task recorder to create your own custom task guides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถใช้ตัวบันทึกงานเพื่อสร้างคำแนะนำของงานแบบกำหนดเองของคุณเอง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>For more information, see <bpt id="p1">[</bpt>Create documentation or training by using task recordings<ept id="p1">](../../dev-itpro/user-interface/task-recorder-training-docs.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับข้อมูลเพิ่มเติม ดู <bpt id="p1">[</bpt>สร้างเอกสารหรือการฝึกอบรมโดยใช้การบันทึกงาน<ept id="p1">](../../dev-itpro/user-interface/task-recorder-training-docs.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>In-product Help</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">วิธีใช้ภายในผลิตภัณฑ์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>To access Help content within Finance and Operations, either click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> (<bpt id="p2">**</bpt>?<ept id="p2">**</ept>) icon and then choose Help or press Ctrl+Shift+?.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในการเข้าถึงเนื้อหาวิธีการใช้ภายใน Finance and Operations คลิกไอคอน <bpt id="p1">**</bpt>วิธีใช้<ept id="p1">**</ept> (<bpt id="p2">**</bpt>?<ept id="p2">**</ept>) และจากนั้นเลือก วิธีใช้ หรือกด Ctrl+Shift+? อย่างใดอย่างหนึ่งก็ได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>In both cases, the Help pane opens.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในทั้งสองกรณี บานหน้าต่าง วิธีใช้ จะเปิดขึ้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>From the Help pane, you can access articles or task guides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากบานหน้าต่าง วิธีใช้ คุณสามารถเข้าถึงบทความหรือคู่มืองานได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บานหน้าต่างวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Accessing help topics from the Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เข้าถึงหัวข้อวิธีการใช้จากบานหน้าต่างวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>From the Help pane, you can access articles that apply to the Finance and Operations client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">จากบานหน้าต่าง วิธีใช้ คุณสามารถเข้าถึงบทความที่ใช้ไปยังไคลเอนต์ Finance and Operations ได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>When you first open the Help pane and click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> tab, you'll see the articles that apply to the page that you're currently on in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณเปิดบานหน้าต่างวิธีใช้ และคลิกแท็บ <bpt id="p1">**</bpt>วิธีใช้<ept id="p1">**</ept> เป็นครั้งแรก คุณจะเห็นบทความที่ใช้กับหน้าที่คุณกำลังอยู่ใน Finance and Operations ในปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>If no articles are found, you can enter keywords to refine your search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าไม่พบบทความ คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>When you click an article in the Help pane, a new tab opens in your browser and displays the article.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เมื่อคุณคลิกบทความในบานหน้าต่าง วิธีใช้ เบราเซอร์ของคุณแท็บจะเปิดแท็บใหม่ และแสดงบทความนั้น</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>This section does not apply to Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ส่วนนี้ไม่ได้ใช้กับ Dynamics 365 for Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>The Help system for Talent is automatically connected to Task guides for the product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ระบบวิธีใช้สำหรับ Talent ได้รับการเชื่อมต่อกับคู่มืองานสำหรับผลิตภัณฑ์โดยอัตโนมัติ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Also, you cannot create custom Task guides for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">นอกจากนี้ คุณไม่สามารถสร้างคู่มืองานแบบกำหนดเองสำหรับ Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Accessing Task guides from the Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เข้าถึงคู่มืองานจากบานหน้าต่างวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Before you can access Task guides from the Help pane, a System administrator has to go to the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page in Finance and Operations and configure some settings.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ก่อนที่คุณจะสามารถเข้าถึงคู่มืองานจากบานหน้าต่าง ผู้ดูแลระบบต้องไปยังหน้า <bpt id="p1">**</bpt>พารามิเตอร์ระบบ<ept id="p1">**</ept> ใน Finance and Operations และตั้งค่าคอนฟิกบางอย่าง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>In order to configure help, you must be signed in with an account in the same tenant as the tenant in which Finance and Operations is deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เพื่อกำหนดค่าวิธีใช้ คุณต้องเข้าสู่ระบบด้วยบัญชีผู้ใช้ในผู้เช่าเดียวกันกับผู้เช่าที่ใช้ใน Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>It is not possible to connect to an LCS library from an instance of Finance and Operations running in a local virtual hard drive (VHD).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งจะไม่สามารถเชื่อมต่อไปยังไลบรารี LCS จากอินสแตนซ์ของ Finance and Operations ที่ติดตั้งในฮาร์ดไดรฟ์เสมือนเฉพาะที่ (VHD)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>System Parameters form with Help settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แบบฟอร์มพารามิเตอร์ระบบพร้อมการตั้งค่าวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>On the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page, follow these steps:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ในหน้า <bpt id="p1">**</bpt>พารามิเตอร์ระบบ<ept id="p1">**</ept> ให้ปฏิบัติตามขั้นตอนต่อไปนี้:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> The first time that you open the Help tab, you must connect to Lifecycle Services.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>สิ่งสำคัญ<ept id="p1">**</ept> ในครั้งแรกที่คุณเปิดแท็บวิธีใช้ คุณต้องเชื่อมต่อกับ Lifecycle Services</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to get to the parameters form.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตรวจสอบให้แน่ใจว่าคลิกลิงค์ในกึ่งกลางของแบบฟอร์ม รอสำหรับการเชื่อมต่อ ปิดกล่องโต้ตอบและคลิก <bpt id="p1">**</bpt>ตกลง<ept id="p1">**</ept> เพื่อเข้าถึงแบบฟอร์มพารามิเตอร์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Connect to LCS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เชื่อมต่อกับ LCS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Select the Lifecycle Services project to connect to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกโครงการ Lifecycle Services เพื่อเชื่อมต่อ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Select BPM libraries (within the selected project) to retrieve task recordings from.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เลือกไลบรารี BPM (ภายในโครงการที่เลือก) เพื่อดึงข้อมูลการบันทึกงาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>For Finance and Operations, for Microsoft content, select the February 2017 QPC Unified Library for Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับ Finance and Operations สำหรับเนื้อหา Microsoft เลือก QPC Unified Library เดือนกุมภาพันธ์ 2017 สำหรับ Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>For Retail, we will be releasing a library in July.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับ Retail เราจะนำออกใช้ไลบรารีในเดือนกรกฎาคม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>You do not need to select a library for Talent—the connection to the correct library is established for you.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณไม่ต้องเลือกไลบรารีสำหรับ Talent — มีการสร้างการเชื่อมต่อกับไลบรารีที่ถูกต้องให้กับคุณ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set the display order of the BPM libraries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตั้งค่าลำดับการแสดงผลของไลบรารี BPM</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>This determines the order in which task recordings from the libraries will appear in the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ซึ่งจะกำหนดลำดับว่าบันทึกงานใดจะปรากฏขึ้นในบานหน้าต่าง วิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>After a System administrator has completed these steps, you can open the Help pane and click the <bpt id="p1">**</bpt>Task guides<ept id="p1">**</ept> tab. You'll now see the Task guides that apply to the page that you're currently on in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่ผู้ดูแลระบบเสร็จสิ้นขั้นตอนเหล่านี้ คุณสามารถเปิดบานหน้าต่างวิธีใช้ และคลิกแท็บ <bpt id="p1">**</bpt>คู่มืองาน<ept id="p1">**</ept> ขณะนี้คุณจะเห็นคู่มืองานที่ใช้กับหน้าที่คุณกำลังอยู่ใน Finance and Operations ในปัจจุบัน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>If no Task guides are found, you can enter keywords to refine your search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าไม่พบคู่มืองาน คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>After you click a Task guide in the Help pane, the Help pane shows the step-by-step instructions, and you can play the task guide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">หลังจากที่คุณคลิกคู่มืองานในบานหน้าต่าง วิธีใช้ บานหน้าต่าง วิธีใช้ จะแสดงคำแนะนำทีละขั้นตอน และคุณสามารถเล่นคู่มืองานได้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Task guide reading view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">มุมมองการอ่านคู่มืองาน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Where are the translated Task guides for Microsoft libraries?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองานที่แปลสำหรับไลบรารี Microsoft อยู่ที่ใด?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Translated Task guides are released in libraries with "All languages" in the title.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คู่มืองานที่แปลแล้วจะถูกนำออกใช้ในไลบรารี "ภาษาทั้งหมด" ในชื่อเรื่อง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>In Finance and Operations, to see localized Task guide help, make sure that you are connected to an appropriate library.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ใน Finance and Operations เมื่อต้องการดูวิธีใช้ของคู่มืองานที่เป็นภาษาท้องถิ่น ให้ตรวจสอบให้แน่ใจว่าคุณได้เชื่อมต่อไปยังไลบรารีที่เหมาะสมแล้ว</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>The language that a Task guide appears in is controlled for each user by the Language settings under <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Preferences<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ภาษาที่ปรากฏในคู่มืองานมีการควบคุมสำหรับผู้ใช้แต่ละรายโดยการตั้งค่าภาษาภายใต้ <bpt id="p1">**</bpt>ตัวเลือก<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>การกำหนดลักษณะ<ept id="p2">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>If a Task guide has been translated, when you open that Task guide all the text of the Task guide will appear in your selected language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคู่มืองานได้รับการแปลแล้ว เมื่อคุณเปิดคู่มืองานนั้น ข้อความทั้งหมดของคู่มืองานจะปรากฏในภาษาที่คุณเลือก</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>If a Task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ถ้าคู่มืองานยังไม่ได้รับการแปล เมื่อคุณเปิดคู่มืองานนั้น จะปรากฏข้อความเพียงบางส่วน (ข้อความของการควบคุม) ในภาษาที่คุณเลือก</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Creating custom help</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">การสร้างวิธีใช้ที่กำหนดเอง</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>You can create help for your users by creating custom task guides, or connect your own website to the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คุณสามารถสร้างวิธีใช้สำหรับผู้ใช้ของคุณได้ โดยการสร้างคู่มืองานแบบกำหนดเอง หรือเชื่อมต่อเว็บไซต์ของคุณไปยังบานหน้าต่างวิธีใช้</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>For details, see:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">สำหรับรายละเอียด ให้ดูที่:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source><bpt id="p1">[</bpt>How to create a task recording to use as documentation or training<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>วิธีการสร้างการบันทึกงานเพื่อใช้เป็นเอกสารหรือการฝึกอบรม<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source><bpt id="p1">[</bpt>Create Custom Help for Finance and Operations (white paper)<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2041185)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สร้างวิธีใช้แบบกำหนดเองสำหรับ Finance and Operations (เอกสาร)<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2041185)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ทรัพยากรเพิ่มเติม</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source><bpt id="p1">[</bpt>Finance and Operations help system (downloadable fact sheet)<ept id="p1">](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ระบบวิธีใช้ Finance and Operations (เอกสารข้อเท็จจริงที่สามารถดาวน์โหลดได้)<ept id="p1">](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source><bpt id="p1">[</bpt>Task Recorder<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ตัวบันทึกงาน<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source><bpt id="p1">[</bpt>Create documentation or training using Task recordings<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>สร้างเอกสารหรือการใช้งานการบันทึกข้อมูลการฝึกอบรม<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>The following table lists our websites.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ตารางต่อไปนี้แสดงรายการเว็บไซต์ของเรา</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Sites that have an asterisk (<ph id="ph1">\*</ph>) next to the name require that you sign in by using an account that is associated with a service plan.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์ที่มีเครื่องหมายดอกจัน (<ph id="ph1">\*</ph>) ถัดจากชื่อ จำเป็นต้องให้คุณลงชื่อเข้าใช้ โดยใช้บัญชีที่เชื่อมโยงกับแผนการบริการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Site</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">คำอธิบาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source><bpt id="p1">[</bpt>Docs.microsoft.com<ept id="p1">](/dynamics365/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Docs.microsoft.com<ept id="p1">](/dynamics365/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Hosts or links to all product documentation for Dynamics 365.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮสต์หรือลิงค์เชื่อมโยงเอกสารประกอบผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source><bpt id="p1">[</bpt>Microsoft Learn<ept id="p1">](https://docs.microsoft.com/learn/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft Learn<ept id="p1">](https://docs.microsoft.com/learn/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Microsoft's free eLearning site.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์ eLearning ฟรีของ Microsoft</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source><bpt id="p1">[</bpt>Lifecycle Services<ept id="p1">](https://lcs.dynamics.com/)</ept><ph id="ph1">\*</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Lifecycle Services<ept id="p1">](https://lcs.dynamics.com/)</ept><ph id="ph1">\*</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Provides a cloud-based collaborative workspace that customers and partners can use to manage Dynamics 365 for Finance and Operations projects from pre-sales to implementation and operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ให้พื้นที่ทำงานร่วมกันตามระบบคลาวด์ที่ลูกค้าและคู่ค้าสามารถใช้เพื่อจัดการโครงการ Dynamics 365 for Finance and Operations จากการขายล่วงหน้าไปยังการนำไปใช้และการดำเนินการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>This site is useful in all phases of an implementation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ไซต์นี้มีประโยชน์ในขั้นตอนการใช้งานทั้งหมด</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source><bpt id="p1">[</bpt>Support blog<ept id="p1">](https://aka.ms/AXSupportBlog)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>บล็อกสนับสนุน<ept id="p1">](https://aka.ms/AXSupportBlog)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Provides tips and tricks that are posted by the Dynamics 365 for Finance and Operations Support team.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ให้เคล็ดลับและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source><bpt id="p1">[</bpt>Docs.microsoft.com/previous versions<ept id="p1">](https://docs.microsoft.com/previous-versions/dynamics/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Docs.microsoft.com/previous versions<ept id="p1">](https://docs.microsoft.com/previous-versions/dynamics/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Hosts content from previous releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">เนื้อหาโฮสต์จากรุ่นก่อน</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source><bpt id="p1">[</bpt>Dynamics Community<ept id="p1">](https://community.dynamics.com/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>ชุมชน Dynamics<ept id="p1">](https://community.dynamics.com/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Hosts blogs, forums, and videos.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">บล็อกโฮสต์ ฟอรัม และวิดีโอ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source><bpt id="p1">[</bpt>Microsoft.com/dynamics365/<ept id="p1">](https://www.microsoft.com/dynamics365/home)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft.com/dynamics365/<ept id="p1">](https://www.microsoft.com/dynamics365/home)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Provides evaluation and sales information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">แสดงข้อมูลการประเมินและการขาย</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source><bpt id="p1">[</bpt>CustomerSource<ept id="p1">](https://mbs.microsoft.com/customersource/)</ept><ph id="ph1">\*</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>CustomerSource<ept id="p1">](https://mbs.microsoft.com/customersource/)</ept><ph id="ph1">\*</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Hosts some training resources for Finance and Operations, downloadable reports and white papers, and is the primary support site for service plan holders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">โฮสต์ทรัพยากรการฝึกอบรมบางอย่างสำหรับ Finance and Operations รายงานและเอกสารที่สามารถดาวน์โหลดได้ และเป็นไซต์สนับสนุนหลักสำหรับผู้ถือครองแผนการบริการ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>May require a service plan to access some resources on the site.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">อาจกำหนดแผนการบริการในการเข้าถึงทรัพยากรบางรายการบนไซต์ได้</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: ระบบวิธีใช้ Finance and Operations
+description: หัวข้อนี้ให้ภาพรวมขององค์ประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations
+author: margoc
+manager: AnnBe
+ms.date: 11/13/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: SystemParameters
+audience: Application User, Developer, IT Pro
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
+ms.custom: 16381
+ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.search.region: Global
+ms.author: margoc
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595650"
+---
+# <a name="finance-and-operations-help-system"></a>ระบบวิธีใช้ Finance and Operations
+
+[!include [banner](../includes/banner.md)]
+
+หัวข้อนี้ให้ภาพรวมขององค์ประกอบของระบบวิธีใช้ Microsoft Dynamics 365 for Finance and Operations
+
+> [!NOTE]
+> ผลิตภัณฑ์สามอย่างต่อไปนี้มีความเกี่ยวข้องกันอย่างใกล้ชิด: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; และ Dynamics 365 for Talent ฟังก์ชันเดียวกันอาจปรากฏในผลิตภัณฑ์ทั้ง 3 ผลิตภัณฑ์ ดังนั้น ในหัวข้อที่เกี่ยวข้องกับ Retail เป็นหลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Retail ส่วนในหัวข้อที่เกี่ยวข้องกับ Talent ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Talent; และในหัวข้อที่เกี่ยวข้องกับผลิตภัณฑ์หลัก ชื่อผลิตภัณฑ์จะเป็น Dynamics 365 for Finance and Operations หัวข้อที่เขียนขึ้นสำหรับหนึ่งผลิตภัณฑ์อาจนำไปใช้กับฟังก์ชันเดียวกันในผลิตภัณฑ์ที่เกี่ยวข้องได้
+
+ระบบวิธีใช้จะแบ่งตามผลิตภัณฑ์ต่อไปนี้ทั้งหมด:
+
+- Dynamics 365 for Finance and Operations
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
+
+Finance and Operations ประกอบด้วยระบบวิธีใช้ที่ขึ้นอยู่กับประกอบหลักสองส่วน:
+
+- ไซต์เอกสารประกอบ
+- คู่มืองาน
+
+คุณสามารถเข้าถึงวิธีใช้จากบานหน้าต่างวิธีใช้ในผลิตภัณฑ์ใดก็ตามที่คุณใช้อยู่ ภาพหน้าจอต่อไปนี้จะแสดง Finance and Operations
+
+![บานหน้าต่างวิธีใช้](./media/help-pane-ops-task-guides.png)
+
+> [!IMPORTANT]
+> **คำแนะนำของงาน** ไม่มีอยู่ในปัจจุบันสำหรับ Retail หรือในบานหน้าต่างวิธีใช้สำหรับ Talent (คู่มืองานสองสามฉบับพร้อมใช้งานในบานหน้าต่างการเริ่มต้นใช้งานสำหรับ Talent) วิธีใช้ตามขั้นตอนพร้อมใช้งานบนไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) สำหรับทั้ง Retail และ Talent
+
+## <a name="help-on-docsmicrosoftcom"></a>วิธีใช้เกี่ยวกับ docs.microsoft.com
+
+ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) เป็นแหล่งข้อมูลหลักของเอกสารประกอบผลิตภัณฑ์สำหรับ Finance and Operations ไซต์มีลักษณะการทำงานดังต่อไปนี้:
+
+- **เข้าถึงเนื้อหาล่าสุด** – ไซต์ทำให้เราสร้าง จัดส่ง และอัพเดตเอกสารผลิตภัณฑ์รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น จึงจะช่วยให้แน่ใจว่าคุณมีสิทธิ์เข้าถึงข้อมูลทางเทคนิคล่าสุด
+- **เนื้อหาที่เขียนโดยผู้เชี่ยวชาญ** – ไซต์แสดงชุดของเอกสารผลิตภัณฑ์ที่สมบูรณ์กว่า ซึ่งสามารถเพิ่มเติมโดยสมาชิกของชุมชนทั้งภายใน และภาย นอก Microsoft
+- **การเข้าถึงเนื้อหาชนิดต่างๆ** – ไซต์ช่วยให้คุณสามารถเข้าถึงเนื้อหาชนิดต่างๆ เกี่ยวกับ Finance and Operations ได้อย่างรวดเร็ว ตัวอย่างเช่น คู่มืองาน วิดีโอ และหัวข้อ
+- **เนื้อหาที่สนับสนุนกระบวนการทางธุรกิจของคุณ** – ไซต์รวมเนื้อหาที่มุ่งเน้นกระบวนการทางธุรกิจที่ใช้ประโยชน์จาก Business Process Modeler (BPM) ใน Microsoft Dynamics Lifecycle Services (LCS)
+
+### <a name="searching-on-docsmicrosoftcom"></a>การค้นหาบน docs.microsoft.com
+
+เราได้รับคำถามจำนวนมากเกี่ยวกับวิธีการค้นหาเนื้อหาของเรา บนไซต์ของเรา ถ้าคุณเริ่มต้นจากหน้าเกี่ยวกับ Finance and Operations เรากำหนดขอบเขตการค้นหาของคุณเป็นเฉพาะสำหรับเนื้อหาของ Finance and Operations คุณสามารถลบการกำหนดขอบเขตได้โดยการคลิก X ที่อยู่ถัดจาก Unified Operation ในกล่องค้นหา
+
+![ค้นหาใบสั่ง](./media/search-scope-2.png)
+
+คุณยังสามารถค้นหาเนื้อหาของเราโดยใช้กลไกจัดการค้นหาใด ๆ เราขอแนะนำว่า เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดคุณควรใช้การค้นหาไซต์ เช่น site:docs.microsoft.com dynamics 365 "คำค้นหา"
+
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>ตาราง docs.microsoft.com ของเนื้อหา
+
+Finance and Operations และ Retail ทั้งหมดใช้ตารางเนื้อหาเดี่ยวร่วมกันบนไซต์เอกสาร ซึ่งช่วยให้ลูกค้าสามารถดูบริบทของหัวข้อที่พวกเขาใช้งานอยู่ได้ นอกจากนี้ ยังช่วยให้คุณสามารถใช้ตัวควบคุมตัวกรองข้อมูลที่อยู่เหนือตารางเนื้อหา เพื่อค้นหาหัวข้อที่คุณกำลังค้นหา
+
+คุณสามารถขอความช่วยเหลือเกี่ยวกับผลิตภัณฑ์ Dynamics 365 อื่นๆ โดยการค้นหา หรือโดยการคลิกที่ Dynamics 365 ในการแสดงเส้นทางไซต์เพื่อไปยังหน้าฮับของเรา
+
+### <a name="use-an-rss-feed"></a>ใช้ตัวดึงข้อมูล RSS
+
+เพื่อสมัครรับข้อมูลฟีด RSS ของการปรับปรุงทั้งหมดไปยังเนื้อหาการดำเนินการรวม ใช้ลิงค์ต่อไปนี้จากเบราเซอร์ที่สนับสนุนฟีด RSS เช่น Internet Explorer หรือตัวจัดการฟีด RSS:
+
+[ตัวดึงข้อมูล RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+
+### <a name="give-feedback"></a>ให้ความคิดเห็น
+
+เราชอบความคิดเห็นของลูกค้า คุณสามารถแสดงข้อคิดเห็น หรือแนะนำการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ต่อเนื้อหาของเราได้ผ่าน GitHub สำหรับข้อมูลเพิ่มเติมเกี่ยวกับระบบคำติชมของเรา ดู [ประกาศบล็อกนี้](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)
+
+#### <a name="leave-us-feedback"></a>ฝากคำติชมให้พวกเรา
+
+ถ้าคุณมีความคิดเห็นหรือคำถามเกี่ยวกับหัวข้อ ฝากความคิดเห็นให้พวกเราที่ด้านล่างของหน้า
+
+1. คลิก **ความคิดเห็น** เพื่อเข้าถึงข้อคิดเห็นที่ด้านล่างของหน้า และจากนั้น คลิก **ความคิดเห็นต่อผลิตภัณฑ์** หรือ **ลงชื่อเข้าใช้เพื่อให้ความคิดเห็นเกี่ยวกับเอกสาร**
+
+2. เริ่มพิมพ์ข้อคิดเห็นของคุณ แล้วคลิก **ส่งความคิดเห็น**
+
+    ![ลงรายการข้อคิดเห็น](./media/feedback.png)
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>แนะนำการเปลี่ยนแปลงหรือจัดสรรเนื้อหาผ่าน GitHub
+
+เพื่อแนะนำการเปลี่ยนแปลง คุณจะต้องมีบัญชี GitHub และลงชื่อในข้อตกลงลิขสิทธิ์ผู้สนับสนุน หลังจากที่คุณส่งคำขอดึง เราจะตรวจทานการเปลี่ยนแปลงที่นำเสนอของคุณ ถ้าจำเป็น เราจะอภิปรายภายใน และจากนั้นจะติดต่อกลับไปหาคุณ
+
+เมื่อต้องการเริ่มต้นใช้งาน คลิกปุ่ม **แก้ไข** (ดินสอ) บนหัวข้อ หรือไปที่ repo ของเราที่ <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>
+
+สำหรับข้อมูลเพิ่มเติม โปรดอ้างอิงคู่มือผู้สนับสนุนของเรา: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>
+
+> [!NOTE]
+> เรายอมรับการจัดสรรไปยังชุดเนื้อหาภาษาอังกฤษของเราในขณะนี้เท่านั้น
+
+## <a name="task-guides"></a>คู่มืองาน
+
+คู่มืองานคือคู่มือในการควบคุม ประสบการณ์การโต้ตอบ ที่นำคุณผ่านขั้นตอนของงานหรือกระบวนการทางธุรกิจ คุณสามารถเปิด (เล่น) คู่มืองานจากบานหน้าต่าง วิธีใช้ ได้ เมื่อคุณคลิกคู่มืองานเป็นครั้งแรก บานหน้าต่าง วิธีใช้ จะแสดงคำแนะนำทีละขั้นตอนสำหรับงานนั้น คู่มืองานที่เป็นภาษาท้องถิ่นพร้อมใช้งานแล้วในขณะนี้
+
+Microsoft จัดส่งไลบรารีคู่มืองานสำหรับการนำออกใช้ในเดือนธันวาคม 2017 สำหรับ Finance and Operations ส่วน [การเข้าถึงคู่มืองานจากบานหน้าต่างวิธีใช้](help-overview.md#accessing-task-guides-from-the-help-pane) จะอธิบายวิธีการค้นหาคู่มืองานที่ถูกต้องสำหรับผลิตภัณฑ์ของคุณ
+
+![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops.png)
+
+เพื่อเริ่มการแนะนำ ประสบการณ์โต้ตอบ คลิก **เริ่มต้นคู่มืองาน** ที่ด้านล่างของบานหน้าต่างวิธีใช้ ตัวชี้สีดำเปิดขึ้น และบ่งชี้ถึงการดำเนินการที่คุณจำเป็นต้องทำ ทำตามคำแนะนำที่ปรากฏใน UI และป้อนข้อมูลตามที่กำหนด
+
+![คำแนะนำตามขั้นตอนของคู่มืองาน](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT]
+> ข้อมูลที่คุณป้อนเมื่อคุณเล่นคู่มืองานเป็นจริง ถ้าคุณอยู่ในสภาพแวดล้อมการผลิต ข้อมูลจะถูกป้อนในบริษัทที่คุณกำลังใช้อยู่ในปัจจุบัน
+
+คุณสามารถใช้ตัวบันทึกงานเพื่อสร้างคำแนะนำของงานแบบกำหนดเองของคุณเอง สำหรับข้อมูลเพิ่มเติม ดู [สร้างเอกสารหรือการฝึกอบรมโดยใช้การบันทึกงาน](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+
+## <a name="in-product-help"></a>วิธีใช้ภายในผลิตภัณฑ์
+
+ในการเข้าถึงเนื้อหาวิธีการใช้ภายใน Finance and Operations คลิกไอคอน **วิธีใช้** (**?**) และจากนั้นเลือก วิธีใช้ หรือกด Ctrl+Shift+? อย่างใดอย่างหนึ่งก็ได้ ในทั้งสองกรณี บานหน้าต่าง วิธีใช้ จะเปิดขึ้น จากบานหน้าต่าง วิธีใช้ คุณสามารถเข้าถึงบทความหรือคู่มืองานได้
+
+![บานหน้าต่างวิธีใช้](./media/help-pane-wiki.png)
+
+### <a name="accessing-help-topics-from-the-help-pane"></a>เข้าถึงหัวข้อวิธีการใช้จากบานหน้าต่างวิธีใช้
+
+จากบานหน้าต่าง วิธีใช้ คุณสามารถเข้าถึงบทความที่ใช้ไปยังไคลเอนต์ Finance and Operations ได้ เมื่อคุณเปิดบานหน้าต่างวิธีใช้ และคลิกแท็บ **วิธีใช้** เป็นครั้งแรก คุณจะเห็นบทความที่ใช้กับหน้าที่คุณกำลังอยู่ใน Finance and Operations ในปัจจุบัน ถ้าไม่พบบทความ คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา เมื่อคุณคลิกบทความในบานหน้าต่าง วิธีใช้ เบราเซอร์ของคุณแท็บจะเปิดแท็บใหม่ และแสดงบทความนั้น
+
+> [!IMPORTANT]
+> ส่วนนี้ไม่ได้ใช้กับ Dynamics 365 for Talent ระบบวิธีใช้สำหรับ Talent ได้รับการเชื่อมต่อกับคู่มืองานสำหรับผลิตภัณฑ์โดยอัตโนมัติ นอกจากนี้ คุณไม่สามารถสร้างคู่มืองานแบบกำหนดเองสำหรับ Talent
+
+### <a name="accessing-task-guides-from-the-help-pane"></a>เข้าถึงคู่มืองานจากบานหน้าต่างวิธีใช้
+
+ก่อนที่คุณจะสามารถเข้าถึงคู่มืองานจากบานหน้าต่าง ผู้ดูแลระบบต้องไปยังหน้า **พารามิเตอร์ระบบ** ใน Finance and Operations และตั้งค่าคอนฟิกบางอย่าง
+
+> [!NOTE]
+> - เพื่อกำหนดค่าวิธีใช้ คุณต้องเข้าสู่ระบบด้วยบัญชีผู้ใช้ในผู้เช่าเดียวกันกับผู้เช่าที่ใช้ใน Finance and Operations
+> - ซึ่งจะไม่สามารถเชื่อมต่อไปยังไลบรารี LCS จากอินสแตนซ์ของ Finance and Operations ที่ติดตั้งในฮาร์ดไดรฟ์เสมือนเฉพาะที่ (VHD)
+
+![แบบฟอร์มพารามิเตอร์ระบบพร้อมการตั้งค่าวิธีใช้](./media/system-parameters_ops-1024x437.png)
+
+ในหน้า **พารามิเตอร์ระบบ** ให้ปฏิบัติตามขั้นตอนต่อไปนี้:
+
+1. **สิ่งสำคัญ** ในครั้งแรกที่คุณเปิดแท็บวิธีใช้ คุณต้องเชื่อมต่อกับ Lifecycle Services ตรวจสอบให้แน่ใจว่าคลิกลิงค์ในกึ่งกลางของแบบฟอร์ม รอสำหรับการเชื่อมต่อ ปิดกล่องโต้ตอบและคลิก **ตกลง** เพื่อเข้าถึงแบบฟอร์มพารามิเตอร์
+
+    ![เชื่อมต่อกับ LCS](./media/connect-to-lcs-crop-1024x365.png)
+
+2. เลือกโครงการ Lifecycle Services เพื่อเชื่อมต่อ
+3. เลือกไลบรารี BPM (ภายในโครงการที่เลือก) เพื่อดึงข้อมูลการบันทึกงาน
+
+    - สำหรับ Finance and Operations สำหรับเนื้อหา Microsoft เลือก QPC Unified Library เดือนกุมภาพันธ์ 2017 สำหรับ Microsoft Dynamics 365 for Finance and Operations
+    - สำหรับ Retail เราจะนำออกใช้ไลบรารีในเดือนกรกฎาคม
+    - คุณไม่ต้องเลือกไลบรารีสำหรับ Talent — มีการสร้างการเชื่อมต่อกับไลบรารีที่ถูกต้องให้กับคุณ
+
+4. ตั้งค่าลำดับการแสดงผลของไลบรารี BPM ซึ่งจะกำหนดลำดับว่าบันทึกงานใดจะปรากฏขึ้นในบานหน้าต่าง วิธีใช้
+
+หลังจากที่ผู้ดูแลระบบเสร็จสิ้นขั้นตอนเหล่านี้ คุณสามารถเปิดบานหน้าต่างวิธีใช้ และคลิกแท็บ **คู่มืองาน** ขณะนี้คุณจะเห็นคู่มืองานที่ใช้กับหน้าที่คุณกำลังอยู่ใน Finance and Operations ในปัจจุบัน ถ้าไม่พบคู่มืองาน คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา หลังจากที่คุณคลิกคู่มืองานในบานหน้าต่าง วิธีใช้ บานหน้าต่าง วิธีใช้ จะแสดงคำแนะนำทีละขั้นตอน และคุณสามารถเล่นคู่มืองานได้
+
+![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops.png)
+
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>คู่มืองานที่แปลสำหรับไลบรารี Microsoft อยู่ที่ใด?
+
+คู่มืองานที่แปลแล้วจะถูกนำออกใช้ในไลบรารี "ภาษาทั้งหมด" ในชื่อเรื่อง ใน Finance and Operations เมื่อต้องการดูวิธีใช้ของคู่มืองานที่เป็นภาษาท้องถิ่น ให้ตรวจสอบให้แน่ใจว่าคุณได้เชื่อมต่อไปยังไลบรารีที่เหมาะสมแล้ว ภาษาที่ปรากฏในคู่มืองานมีการควบคุมสำหรับผู้ใช้แต่ละรายโดยการตั้งค่าภาษาภายใต้ **ตัวเลือก** &gt; **การกำหนดลักษณะ**
+
+- ถ้าคู่มืองานได้รับการแปลแล้ว เมื่อคุณเปิดคู่มืองานนั้น ข้อความทั้งหมดของคู่มืองานจะปรากฏในภาษาที่คุณเลือก
+- ถ้าคู่มืองานยังไม่ได้รับการแปล เมื่อคุณเปิดคู่มืองานนั้น จะปรากฏข้อความเพียงบางส่วน (ข้อความของการควบคุม) ในภาษาที่คุณเลือก
+
+## <a name="creating-custom-help"></a>การสร้างวิธีใช้ที่กำหนดเอง
+
+คุณสามารถสร้างวิธีใช้สำหรับผู้ใช้ของคุณได้ โดยการสร้างคู่มืองานแบบกำหนดเอง หรือเชื่อมต่อเว็บไซต์ของคุณไปยังบานหน้าต่างวิธีใช้ สำหรับรายละเอียด ให้ดูที่:
+
+- [วิธีการสร้างการบันทึกงานเพื่อใช้เป็นเอกสารหรือการฝึกอบรม](../../dev-itpro/user-interface/task-recorder.md)
+- [สร้างวิธีใช้แบบกำหนดเองสำหรับ Finance and Operations (เอกสาร)](https://go.microsoft.com/fwlink/?linkid=2041185)
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+- [ระบบวิธีใช้ Finance and Operations (เอกสารข้อเท็จจริงที่สามารถดาวน์โหลดได้)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [ตัวบันทึกงาน](../../dev-itpro/user-interface/task-recorder.md)
+- [สร้างเอกสารหรือการใช้งานการบันทึกข้อมูลการฝึกอบรม](../../dev-itpro/user-interface/task-recorder.md)
+
+ตารางต่อไปนี้แสดงรายการเว็บไซต์ของเรา ไซต์ที่มีเครื่องหมายดอกจัน (\*) ถัดจากชื่อ จำเป็นต้องให้คุณลงชื่อเข้าใช้ โดยใช้บัญชีที่เชื่อมโยงกับแผนการบริการ
+
+| ไซต์                                                                                           | คำอธิบาย |
+|------------------------------------------------------------------------------------------------|-------------|
+| [Docs.microsoft.com](/dynamics365/)                                                            | โฮสต์หรือลิงค์เชื่อมโยงเอกสารประกอบผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365 |
+| [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | ไซต์ eLearning ฟรีของ Microsoft |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | ให้พื้นที่ทำงานร่วมกันตามระบบคลาวด์ที่ลูกค้าและคู่ค้าสามารถใช้เพื่อจัดการโครงการ Dynamics 365 for Finance and Operations จากการขายล่วงหน้าไปยังการนำไปใช้และการดำเนินการ ไซต์นี้มีประโยชน์ในขั้นตอนการใช้งานทั้งหมด |
+| [บล็อกสนับสนุน](https://aka.ms/AXSupportBlog)                                                    | ให้เคล็ดลับและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน Dynamics 365 for Finance and Operations |
+| [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | เนื้อหาโฮสต์จากรุ่นก่อน |
+| [ชุมชน Dynamics](https://community.dynamics.com/)                                          | บล็อกโฮสต์ ฟอรัม และวิดีโอ |
+| [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | แสดงข้อมูลการประเมินและการขาย |
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | โฮสต์ทรัพยากรการฝึกอบรมบางอย่างสำหรับ Finance and Operations รายงานและเอกสารที่สามารถดาวน์โหลดได้ และเป็นไซต์สนับสนุนหลักสำหรับผู้ถือครองแผนการบริการ อาจกำหนดแผนการบริการในการเข้าถึงทรัพยากรบางรายการบนไซต์ได้ |
