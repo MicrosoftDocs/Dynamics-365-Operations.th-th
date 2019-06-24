@@ -227,8 +227,9 @@
             - name: คลาส X
               href: dev-ref/x-classes.md
     - name: ความสามารถในการเพิ่มฟังก์ชัน
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: หน้าแรกของความสามารถในการเพิ่มฟังก์ชัน
+          href: extensibility/extensibility-home-page.md
         - name: บทนำและการเริ่มต้นใช้งาน
           items:
             - name: แผนความสามารถในการเพิ่มฟังก์ชันของแอปพลิเคชัน
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: มีอะไรใหม่
           items:
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชัน กรกฎาคม 2017
-              href: extensibility/changes-july-2017.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 8.0
-              href: extensibility/changes-80.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างสำหรับความสามารถในการเพิ่มฟังก์ชัน
+              href: extensibility/extensibility-new.md
             - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 8.0
+              href: extensibility/changes-80.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชัน กรกฎาคม 2017
+              href: extensibility/changes-july-2017.md
         - name: พื้นฐาน
           items:
             - name: การกำหนดการบุกรุก
@@ -361,8 +364,14 @@
       items:
         - name: ติดตามโดยใช้ Trace parser
           href: perf-test/trace-trace-tutorial.md
-        - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ด้วย Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
+        - name: การทดสอบแบบผู้ใช้รายเดียวด้วยตัวบันทึกงานและ Performance SDK
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: การทดสอบแบบหลายผู้ใช้ด้วย Performance SDK และตัวควบคุมการทดสอบแบบเฉพาะที่
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: การทดสอบแบบหลายผู้ใช้ด้วย Performance SDK และ Azure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: คู่มือการแก้ไขปัญหาสำหรับการทดสอบแบบผู้ใช้รายเดียวหรือแบบหลายผู้ใช้ด้วย Performance SDK
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ในสภาพแวดล้อมแบบในสถานที่
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: วินิจฉัยปัญหาและวิเคราะห์ปัญหาประสิทธิภาพโดยใช้ Trace parser
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: สร้างตัวให้บริการอัตราแลกเปลี่ยนใน Finance and Operations รุ่น 8.0
           href: financial/create-exchange-rate-8.md
+    - name: 'ชำระเงินธุรกรรมโดยใช้ CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: การพัฒนาห่วงโซ่อุปทาน
   items:
     - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt
@@ -1080,7 +1091,7 @@
           href: migration-upgrade/configure-vso-solution.md
         - name: การแบ่งแบบจำลอง
           href: dev-tools/model-split.md
-        - name: แก้ไขการอ้างอิงระหว่างแบบจำลองโดยใช้ผู้รับมอบสิทธิ์
+        - name: แก้ไขการอ้างอิงระหว่างแบบจำลองโดยใช้การมอบหมาย
           href: migration-upgrade/delegates-migration.md
     - name: อัพเกรดเป็นการอัพเดตล่าสุด (ระบบคลาวด์)
       items:

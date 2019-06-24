@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544460"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595451"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น
 
@@ -36,7 +36,7 @@ ms.locfileid: "1544460"
 
 ## <a name="select-format-configuration-for-customization"></a>เลือกการตั้งค่าคอนฟิกรูปแบบสำหรับการเลือกกำหนด
 1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
-    * ในตัวอย่างนี้ บริษัทตัวอย่าง Litware, Inc. (http://www.litware.com) จะทำหน้าที่เป็นผู้ให้บริการการตั้งค่าคอนฟิก ซึ่งสนับสนุนการตั้งค่าคอนฟิกรูปแบบสำหรับการชำระเงินทางอิเล็กทรอนิกส์สำหรับประเทศเฉพาะ    บริษัทตัวอย่าง Proseware, Inc. (http://www.proseware.com) จะทำหน้าที่เป็นลูกค้าของการตั้งค่าคอนฟิกรูปแบบที่ Litware, Inc. จัดให้ Proseware, Inc. ใช้รูปแบบในภูมิภาคบางแห่งของประเทศนั้น  
+    * ในตัวอย่างนี้ บริษัทตัวอย่าง Litware, Inc. (https://www.litware.com) จะทำหน้าที่เป็นผู้ให้บริการการตั้งค่าคอนฟิก ซึ่งสนับสนุนการตั้งค่าคอนฟิกรูปแบบสำหรับการชำระเงินทางอิเล็กทรอนิกส์สำหรับประเทศเฉพาะ    บริษัทตัวอย่าง Proseware, Inc. (http://www.proseware.com) จะทำหน้าที่เป็นลูกค้าของการตั้งค่าคอนฟิกรูปแบบที่ Litware, Inc. จัดให้ Proseware, Inc. ใช้รูปแบบในภูมิภาคบางแห่งของประเทศนั้น  
 2. คลิก การตั้งค่าคอนฟิกการรายงาน
 3. คลิกแสดงตัวกรอง
 4. ใช้ตัวกรองต่อไปนี้: ป้อนค่าตัวกรอง "BACS (แบบสมมติของ UK)" ในฟิลด์ "ชื่อ" โดยใช้ตัวดำเนินการตัวกรอง "เริ่มต้นด้วย"

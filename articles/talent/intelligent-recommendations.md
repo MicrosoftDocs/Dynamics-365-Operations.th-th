@@ -3,7 +3,7 @@ title: คำแนะนำอัจฉริยะ
 description: หัวข้อนี้อธิบายวิธีการใช้ machine learning เพื่อให้คำแนะนำสำหรับงานและผู้สมัครงาน
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519197"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620631"
 ---
 # <a name="intelligent-recommendations"></a>คำแนะนำอัจฉริยะ
 
@@ -33,7 +33,7 @@ Machine learning สามารถช่วยให้ผู้สรรหา
 
 > [!NOTE] 
 > - คุณลักษณะคำแนะนำอัจฉริยะพร้อมใช้งานเฉพาะกับ [add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring)
-> - ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **การตั้งค่าผู้ดูแลระบบ** ใน Attract ตั้งค่า **คำแนะนำสำหรับผู้สมัคร**, **คำแนะนำเกี่ยวกับงาน** และ **คำแนะนำสำหรับผู้สมัครงาน** เป็น **เปิด** ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature) 
+> - ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **ศูนย์ผู้ดูแลระบบ** ใน Attract ตั้งค่า **คำแนะนำสำหรับผู้สมัคร**, **คำแนะนำเกี่ยวกับงาน** และ **คำแนะนำสำหรับผู้สมัครงาน** เป็น **เปิด** ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](./access-preview-feature.md) 
 
 
 ## <a name="candidate-recommendations"></a>คำแนะนำสำหรับผู้สมัคร

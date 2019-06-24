@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519263"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617354"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>FAQ เกี่ยวกับการรวม Dynamics 365 for Talent ไปยัง Dynamics 365 for Finance and Operations
 
@@ -46,7 +46,7 @@ ms.locfileid: "1519263"
 
 สำหรับข้อมูลที่อยู่ใน Finance and Operations แต่ไม่มีอยู่ใน Talent ให้เชื่อมโยงสองระบบเข้าด้วยกันโดยใช้ **ตั้งค่าคอนฟิกลิงค์** ใน Talent สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการเชื่อมโยงระหว่าง Talent และ Finance and Operations ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (31 ตุลาคม 2018)](whats-new-talent-october-31.md)
 
-![](media/MapFinancialDimensions.png)
+![แม็ปมิติทางการเงิน](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>ในบางครั้งเมื่อฉันนำเข้าพนักงาน รายการจะไปอยู่ที่พนักงานที่ไม่ได้ใช้งานใน Finance and Operations เพราะเหตุใด?
 
@@ -60,14 +60,14 @@ ms.locfileid: "1519263"
 
 ด้วยการใช้ "การสอบถามขั้นสูง" คุณสามารถกรองและปรับรูปร่างแหล่งข้อมูลก่อนที่จะส่งผ่านไปยังปลายทาง
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![การสอบถามขั้นสูงของผู้ปฏิบัติงานที่ใช้งานอยู่](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>ฉันสามารถระบุฟิลด์ที่จะส่งไปยัง Finance and Operations สำหรับเอนทิตี้ที่เฉพาะเจาะจงได้หรือไม่
 
 คุณสามารถเพิ่มหรือลบฟิลด์ออกจากงานรวม ไม่ใช่ฟิลด์ข้อมูลทั้งหมดที่มีอยู่ในเอนทิตี้ Common Data Service ที่จะถูกเติมข้อมูลจาก Core HR
 คุณสามารถเติมข้อมูลเพิ่มเติมได้ผ่าน PowerApps
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![เพิ่มหรือลบฟิลด์ไปยังและออกจากงานการรวม](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>ฉันตั้งค่าการรวมเป็นชุดงาน แต่ Talent สูญเสียการเชื่อมต่อไปกับระบบปลายทาง ฉันจะส่งชุดการเปลี่ยนแปลงเดียวกันไปยังระบบปลายทางได้อย่างไร
 

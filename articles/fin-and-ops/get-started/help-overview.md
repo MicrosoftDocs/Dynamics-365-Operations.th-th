@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538967"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595650"
 ---
 # <a name="finance-and-operations-help-system"></a>ระบบวิธีใช้ Finance and Operations
 
@@ -192,7 +192,7 @@ Microsoft จัดส่งไลบรารีคู่มืองานส�
 | [Docs.microsoft.com](/dynamics365/)                                                            | โฮสต์หรือลิงค์เชื่อมโยงเอกสารประกอบผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365 |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | ไซต์ eLearning ฟรีของ Microsoft |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | ให้พื้นที่ทำงานร่วมกันตามระบบคลาวด์ที่ลูกค้าและคู่ค้าสามารถใช้เพื่อจัดการโครงการ Dynamics 365 for Finance and Operations จากการขายล่วงหน้าไปยังการนำไปใช้และการดำเนินการ ไซต์นี้มีประโยชน์ในขั้นตอนการใช้งานทั้งหมด |
-| [บล็อกสนับสนุน](http://aka.ms/AXSupportBlog)                                                    | ให้เคล็ดลับและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน Dynamics 365 for Finance and Operations |
+| [บล็อกสนับสนุน](https://aka.ms/AXSupportBlog)                                                    | ให้เคล็ดลับและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน Dynamics 365 for Finance and Operations |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | เนื้อหาโฮสต์จากรุ่นก่อน |
 | [ชุมชน Dynamics](https://community.dynamics.com/)                                          | บล็อกโฮสต์ ฟอรัม และวิดีโอ |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | แสดงข้อมูลการประเมินและการขาย |

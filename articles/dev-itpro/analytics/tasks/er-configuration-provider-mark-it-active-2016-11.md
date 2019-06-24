@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544920"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595406"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่
 
@@ -34,11 +34,11 @@ ms.locfileid: "1544920"
 1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
 2. คลิก ผู้ให้บริการการตั้งค่าคอนฟิก
 3. คลิก สร้าง
-    * เรกคอร์ดของผู้ให้บริการมีชื่อและ URL ที่ไม่ซ้ำกัน  ตรวจทานเนื้อหาของหน้านี้ และข้ามกระบวนงานนี้ ถ้าเรกคอร์ดสำหรับ Litware, Inc. (http://www.litware.com) มีอยู่แล้ว  
+    * เรกคอร์ดของผู้ให้บริการมีชื่อและ URL ที่ไม่ซ้ำกัน  ตรวจทานเนื้อหาของหน้านี้ และข้ามกระบวนงานนี้ ถ้าเรกคอร์ดสำหรับ Litware, Inc. (https://www.litware.com) มีอยู่แล้ว  
 4. ในฟิลด์ชื่อ พิมพ์ 'Litware, Inc.'
     * Litware, inc  
-5. ในฟิลด์ที่อยู่อินเทอร์เน็ต ให้พิมพ์ 'http://www.litware.com'
-    * http://www.litware.com  
+5. ในฟิลด์ที่อยู่อินเทอร์เน็ต ให้พิมพ์ 'https://www.litware.com'
+    * https://www.litware.com  
 6. คลิก บันทึก
 7. ปิดหน้า
 

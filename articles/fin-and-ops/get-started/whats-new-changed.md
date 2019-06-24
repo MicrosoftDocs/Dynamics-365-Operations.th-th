@@ -3,7 +3,7 @@ title: มีอะไรใหม่หรือมีการเปลี่�
 description: หน้านี้นำคุณไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในรุ่นล่าสุดของ Microsoft Dynamics 365 for Finance and Operations
 author: josaw1
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 06/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2b6884165c6f0811a649e8fd5db831260ed1508e
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
+ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538990"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1619203"
 ---
 # <a name="whats-new-or-changed"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลง
 
@@ -53,6 +53,13 @@ ms.locfileid: "1538990"
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0.4</td>
+<td>10.0.136</td>
+<td>กรกฎาคม 2019</td>
+<td><a href="whats-new-changed-10-0-4.md">คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations รุ่น 10.0.4 (กรกฎาคม 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019 มิถุนายน</td>
@@ -62,7 +69,7 @@ ms.locfileid: "1538990"
 <td>10.0.2</td>
 <td>10.0.80</td>
 <td>พฤษภาคม 2019</td>
-<td><a href="whats-new-changed-10-0-2.md">คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations รุ่น 10.0.2 (พฤษภาคม 2019)</a></td>
+<td><a href="whats-new-changed-10-0-2.md">มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations รุ่น 10.0.2 (พฤษภาคม 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
@@ -166,6 +173,13 @@ ms.locfileid: "1538990"
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>แพลตฟอร์ม update 28</td>
+<td>7.0.5314</td>
+<td>กรกฎาคม 2019</td>
+<td><a href="whats-new-platform-update-28.md">คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations การปรับปรุงแพลตฟอร์ม 28 (กรกฎาคม 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>แพลตฟอร์ม update 27</td>
 <td>7.0.5286</td>
 <td>2019 มิถุนายน</td>
@@ -175,7 +189,7 @@ ms.locfileid: "1538990"
 <td>แพลตฟอร์ม update 26</td>
 <td>7.0.5257</td>
 <td>พฤษภาคม 2019</td>
-<td><a href="whats-new-platform-update-26.md">คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations การปรับปรุงแพลตฟอร์ม 26 (พฤษภาคม 2019)</a></td>
+<td><a href="whats-new-platform-update-26.md">มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์ม Dynamics 365 for Finance and Operations 26 (พฤษภาคม 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>

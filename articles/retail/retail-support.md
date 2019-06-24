@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567987"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577855"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>รับการสนับสนุนสำหรับ Dynamics 365 for Retail
 
@@ -61,7 +61,7 @@ ms.locfileid: "1567987"
 <li>ในแท็บ <strong>ปัญหาที่ใช้งานอยู่</strong> เลือกปัญหาของคุณ และจากนั้นคลิก <strong>ส่งไปยัง Microsoft</strong></li>
 <li>ในแท็บ <strong>ส่งไปยัง Microsoft</strong> คลิก <strong>ส่งเหตุการณ์ใหม่</strong> เพื่อแจ้งปัญหา</li>
 </ul>
-<blockquote>[!NOTE] นอกจากนี้ ลูกค้าและคู่ค้า Microsoft Premier ยังสามารถส่งบัตรการสนับสนุนพรีเมียร์ได้โดยใช้ขั้นตอนข้างต้น</blockquote>
+<p><strong>หมายเหตุ:</strong> นอกจากนี้ ลูกค้าและคู่ค้า Microsoft Premier ยังสามารถส่งบัตรการสนับสนุนพรีเมียร์ได้โดยใช้ขั้นตอนข้างต้น</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ ms.locfileid: "1567987"
 </tbody>
 </table>
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอบริการ Microsoft Dynamics ดู [Microsoft Dynamics การสนับสนุนออนไลน์](https://dynamics.microsoft.com/en-us/support/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอบริการ Microsoft Dynamics ดู [Microsoft Dynamics การสนับสนุนออนไลน์](https://dynamics.microsoft.com/support/)

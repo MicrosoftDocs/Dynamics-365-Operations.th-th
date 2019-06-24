@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559569"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607021"
 ---
 # <a name="personalized-product-recommendations"></a>คำแนะนำผลิตภัณฑ์แบบส่วนบุคคล
 
@@ -44,7 +44,7 @@ ms.locfileid: "1559569"
     - ถ้าการเชื่อมโยงของร้านค้าเยี่ยมชมหน้า **รายละเอียดผลิตภัณฑ์** เมื่อดูที่ธุรกรรมก่อนหน้านี้ผ่านช่องทางต่าง ๆ กลไกจัดการคำแนะนำจะแนะนำสินค้าเพิ่มเติมที่มีแนวโน้มที่จะถูกซื้อพร้อมกัน
     - ถ้าการเชื่อมโยงของร้านค้าเพิ่มลูกค้าลงในธุรกรรม และจากนั้น เยี่ยมชมหน้า **รายละเอียดผลิตภัณฑ์** กลไกจัดการคำแนะนำจะให้คำแนะนำแบบส่วนบุคคลโดยใช้ประวัติธุรกรรมของลูกค้า
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![คำแนะนำเกี่ยวกับหน้ารายละเอียดผลิตภัณฑ์](./media/proddetails.png)](./media/proddetails.png)
 
 2. ในหน้า **ธุรกรรม** :
 
@@ -54,13 +54,11 @@ ms.locfileid: "1559569"
     > [!NOTE]
     > เพื่อแสดงคำแนะนำในหน้า **ธุรกรรม** ผู้ขายปลีกต้องปรับปรุงโครงร่างหน้าจอใน Dynamics 365 for Retail จะต้องปล่อยการควบคุม **คำแนะนำ** ลงในหน้า **ธุรกรรม**
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![คำแนะนำเกี่ยวกับหน้าธุรกรรม](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. ในหน้า **รายละเอียดลูกค้า** :
+3. บนหน้า **รายละเอียดลูกค้า** กลไกคำแนะนำจะแนะนำสินค้าตามรหัสผู้ใช้ และสินค้าในรายการสิ่งที่ต้องการของลูกค้า
 
-    - กลไกคำแนะนำจะแนะนำสินค้าตามรหัสผู้ใช้และสินค้าในรายการสิ่งที่ต้องการของลูกค้า
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![คำแนะนำเกี่ยวกับหน้ารายละเอียดลูกค้า](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>ตั้งค่าคอนฟิก Dynamics 365 for Retail เพื่อเปิดใช้งานคำแนะนำ POS
 
@@ -83,7 +81,7 @@ ms.locfileid: "1559569"
 เมื่อคุณเปิดใช้ **เปิดใช้งานคำแนะนำ** และเรียกใช้งานการตั้งค่าคอนฟิก การดำเนินการต่อไปนี้จะเกิดขึ้น
 
 - ข้อมูลประจำตัวแบบจำลองและรหัสถูกเลือกจาก API และถูกจัดเก็บในฐานข้อมูลด้านการดำเนินการของ Dynamics 365 for Retail ใน web.config สำหรับ AOS และในเซิร์ฟเวอร์การขายปลีกด้วย
-- ข้อมูลประจำตัวและรหัสแบบจำลองจะพร้อมใช้งานสำหรับ CRT เพื่อให้สามารถจ่ายการเรียกใช้คำแนะนำผลิตภัณฑ์จาก Cloud POS and MPOS ในโหมดออนไลน์ได้
+- ข้อมูลประจำตัวและรหัสแบบจำลองถูกทำให้พร้อมใช้งานสำหรับ CRT เพื่อให้สามารถจ่ายการเรียกใช้คำแนะนำผลิตภัณฑ์จาก Cloud POS and MPOS ในโหมดออนไลน์ได้
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>แก้ไขปัญหาที่ซึ่งคุณมีคำแนะนำผลิตภัณฑ์ที่เปิดใช้งานอยู่แล้ว
 

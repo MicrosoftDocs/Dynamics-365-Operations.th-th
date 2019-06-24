@@ -1,9 +1,9 @@
 ---
 title: ตั้งค่าประสบการณ์ผู้ใช้
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถตั้งค่าส่วนบุคคล Microsoft Dynamics 365 for Finance and Operations
-author: TLeforMicrosoft
+author: jasongre
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 05/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,19 @@ ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
-ms.author: tlefor
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
+ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1528855"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620025"
 ---
 # <a name="personalize-the-user-experience"></a>ตั้งค่าประสบการณ์ผู้ใช้
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการที่คุณสามารถตั้งค่าส่วนบุคคล Microsoft Dynamics 365 for Finance and Operations
 
@@ -75,7 +74,7 @@ ms.locfileid: "1528855"
 
 นอกจากนี้ ชนิดพื้นฐานที่สุดของการตั้งค่าส่วนบุคคลที่ชัดแจ้งจะพร้อมใช้งาน โดยการคลิกขวาที่องค์ประกอบ และจากนั้นเลือก **กำหนดเป็นแบบส่วนบุคคล** (โปรดทราบว่า ไม่ใช่องค์ประกอบบนหน้าของคุณทั้งหมดจะสามารถตั้งค่าส่วนบุคคลได้) เมื่อคุณใช้วิธีการทำให้เป็นแบบส่วนบุคคลนี้ หน้าต่างคุณสมบัติขององค์ประกอบจะปรากฏขึ้น
 
-[![การตั้งค่าคุณสมบัติขององค์ประกอบ](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
+![การทำให้คุณสมบัติขององค์ประกอบเป็นแบบส่วนบุคคล](./media/personalization-element-properties.png)
 
 คุณสามารถใช้หน้าต่างคุณสมบัติเพื่อปรับแต่งองค์ประกอบในวิธีต่อไปนี้:
 

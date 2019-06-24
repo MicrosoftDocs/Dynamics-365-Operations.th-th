@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552380"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595557"
 ---
 # <a name="demand-forecasting-overview"></a>ภาพรวมการคาดการณ์ความต้องการ
 
@@ -52,7 +52,7 @@ ms.locfileid: "1552380"
     -   คุณสามารถดาวน์โหลดการทดลองการคาดการณ์ความต้องการ Finance and Operations เปลี่ยนแปลงเพื่อให้ตรงกับความต้องการทางธุรกิจของคุณ เผยแพร่เป็นบริการทางเว็บใน Azure และใช้ในการสร้างการคาดการณ์ความต้องการ การทดลองจะสามารถดาวน์โหลดได้ถ้าคุณได้ซื้อการบอกรับเป็นสมาชิก Finance and Operations สำหรับผู้วางแผนการผลิตเป็นผู้ใช้ระดับองค์กร
     -   คุณสามารถดาวน์โหลดข้อมูลใดๆของการทดลองการคาดการณ์ความต้องการที่พร้อมใช้งานในปัจจุบันจาก [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)ได้ ในขณะที่การทดลองการคาดการณ์ความต้องการ Finance and Operations จะถูกรวมกับ Finance and Operations โดยอัตโนมัติ ลูกค้าและคู่ค้าต้องจัดการรวมการทดลองที่ดาวน์โหลดมาจาก [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) ดังนั้น การทดลองจาก [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) จะไม่ตรงตามที่จะใช้เป็นการทดลองการคาดการณ์ความต้องการ Finance and Operations คุณต้องแก้ไขรหัสของการทดลองเพื่อให้พวกเขาใช้ Finance and Operations Application Program Interface (API)
     -   คุณสามารถสร้างการทดลองของคุณเองได้ใน Microsoft Azure Machine Learning Studio เผยแพร่เป็นการบริการบน Azure และใช้เพื่อสร้างการคาดการณ์ความต้องการ
-    -   ถ้าคุณไม่ต้องการประสิทธิภาพสูง หรือถ้าคุณไม่ต้องการให้มีการประมวลผลข้อมูลจำนวนมาก คุณสามารถใช้ระดับอิสระของ Machine Learning เราขอแนะนำให้คุณเริ่มต้นจากระดับนี้เสมอ โดยเฉพาะอย่างยิ่งในระหว่างการใช้งานและระยะของการทดสอบ หากคุณต้องการประสิทธิภาพที่สูงขึ้นและที่จัดเก็บข้อมูลเพิ่มเติม คุณสามารถใช้ระดับมาตรฐานของ Machine Learning ได้ ระดับนี้จำเป็นต้องมีการบอกรับเป็นสมาชิกของ Azure และเกี่ยวข้องกับต้นทุนเพิ่มเติม สำหรับรายละเอียดเกี่ยวกับการกำหนดราคา Machine Learning ดู <http://aka.ms/machine-learning-price-info>
+    -   ถ้าคุณไม่ต้องการประสิทธิภาพสูง หรือถ้าคุณไม่ต้องการให้มีการประมวลผลข้อมูลจำนวนมาก คุณสามารถใช้ระดับอิสระของ Machine Learning เราขอแนะนำให้คุณเริ่มต้นจากระดับนี้เสมอ โดยเฉพาะอย่างยิ่งในระหว่างการใช้งานและระยะของการทดสอบ หากคุณต้องการประสิทธิภาพที่สูงขึ้นและที่จัดเก็บข้อมูลเพิ่มเติม คุณสามารถใช้ระดับมาตรฐานของ Machine Learning ได้ ระดับนี้จำเป็นต้องมีการบอกรับเป็นสมาชิกของ Azure และเกี่ยวข้องกับต้นทุนเพิ่มเติม สำหรับรายละเอียดเกี่ยวกับการกำหนดราคาของ Machine Learning ให้ดู [การกำหนดราคาของ Machine Learning Studio](https://aka.ms/machine-learning-price-info)
 -   **การลดการคาดการณ์ที่จุดที่มีการแยกใดๆ** – ความต้องการการคาดการณ์ใน Finance and Operations จะสร้างขึ้นในฟังก์ชันนี้ ซึ่งช่วยให้คุณสามารถคาดการณ์ทั้งความต้องการแบบอิสระและแบบไม่อิสระที่จุดที่มีการแยกใดๆ
 
 ## <a name="basic-flow-in-demand-forecasting"></a>ขั้นตอนพื้นฐานในการคาดการณ์ความต้องการ

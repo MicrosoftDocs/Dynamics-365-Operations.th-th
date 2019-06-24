@@ -2,15 +2,15 @@
   href: index.md
 - name: เริ่มต้นใช้งาน
   items:
-    - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
+    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
       href: get-started/whats-new.md
     - name: คุณลักษณะตัวอย่างใน Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
-    - name: คุณลักษณะตัวอย่างใน Dynamics 365 for Retail 10.0.2
+    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
-    - name: มีอะไรใหม่และเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail (เมษายน 2019)
+    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail (เมษายน 2019)
       href: get-started/april-whats-new.md
     - name: ก่อนที่คุณจะซื้อ Retail
       href: get-started/before-you-buy.md
@@ -51,22 +51,28 @@
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
     - name: 'ตั้งค่าสภาพแวดล้อมใหม่, Azure DevOps และสาขาสำหรับโครงการ Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-    - name: อัปเดตรหัสและสภาพแวดล้อมสำหรับโครงการ Retail
+    - name: อัพเดตรหัสและสภาพแวดล้อมสำหรับโครงการ Retail
       href: dev-itpro/updating-environments.md
     - name: ปัญหาการทดสอบและประสิทธิภาพ
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: การจัดการใบสั่งแบบกระจาย (DOM)
-  href: dom.md
+  items:
+    - name: ภาพรวมของ DOM
+      href: dom.md
+    - name: การตั้งค่าคอนฟิกต้นทุน
+      href: cost.md
 - name: การชำระเงิน
   items:
     - name: วิธีการชำระเงิน
       href: payment-methods.md
     - name: การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับขายหน้าร้าน
+    - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับ POS
       href: cash-denominations.md
     - name: ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen
       href: dev-itpro/adyen-connector.md
+    - name: การบันทึกเครื่องมือการชำระเงินออนไลน์ด้วยตัวเชื่อมต่อ Adyen
+      href: dev-itpro/adyen-connector-listPI.md
     - name: ตั้งค่าสถานการณ์เกี่ยวกับชำระเงินตามใบแจ้งหนี้
       href: payinvoice.md
     - name: FAQ เกี่ยวกับการชำระเงิน
@@ -95,7 +101,9 @@
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: การปรับปรุงฟังก์ชันการลงรายการบัญชีใบแจ้งยอด
       href: statement-posting-EOD.md
-    - name: ตั้งค่าคอนฟิกพารามิเตอร์ Retail ที่มีผลกับใบแจ้งยอดการขายปลีก
+    - name: การปรับปรุงให้มีการจัดการสินค้าที่มีการติดตามแบบชุดงาน
+      href: batch.md
+    - name: ตั้งค่าคอนฟิกพารามิเตอร์การขายปลีกที่มีผลกับใบแจ้งยอดการขายปลีก
       href: tasks/parameter-configurations-retail-statements.md
     - name: ตั้งค่าคอนฟิกการกำหนดวิธีการชำระเงินที่มีผลกับใบแจ้งยอดการขายปลีก
       href: tasks/payment-configurations-retail-statements.md
@@ -115,6 +123,8 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: ภาพรวมของการชำระเงินผ่านช่องทาง Omni
+  href: omni-channel-payments.md
 - name: ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni
   items:
     - name: ตั้งค่าคอนฟิกและใช้ค่าธรรมเนียมอัตโนมัติขั้นสูง
@@ -159,12 +169,14 @@
       href: MPOS-or-CPOS.md
     - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
       href: pos-operations.md
-    - name: การเรียกใช้อุปกรณ์ของ Retail Modern POS ที่กำหนดเอง
+    - name: การเรียกใช้อุปกรณ์ของ Retail MPOS ที่กำหนดเอง
       href: dev-itpro/retail-POS-activation-changes.md
     - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ POS ระบบคลาวด์
       href: demo-data.md
     - name: การค้นหาผลิตภัณฑ์และลูกค้าใน POS
       href: POS-search-improvements.md
+    - name: การปรับปรุงการจัดการเงินสด
+      href: cash-mgmt.md
     - name: การค้นหาสินค้าคงคลังใน POS
       href: product-variants-POS.md
     - name: ต้องการระงับและดำเนินการธุรกรรมต่อใน POS หรือไม่
@@ -279,7 +291,7 @@
       href: price-adjustments-discounts.md
     - name: ใช้ส่วนลดหลายรายการกับผลิตภัณฑ์
       href: Apply-multiple-retail-discounts.md
-    - name: กำหนดชุดของส่วนลดที่ซ้อนทับกันที่ดีที่สุด
+    - name: กำหนดชุดข้อมูลของส่วนลดที่ซ้อนทับกันที่ดีที่สุด
       href: optimal-combination-overlapping-discounts.md
     - name: กำหนดส่วนลดเฉพาะช่องทาง
       href: define-channel-specific-discounts.md
@@ -596,13 +608,13 @@
           href: dev-itpro/commerce-runtime-overview.md
         - name: การบริการ CRT
           href: dev-itpro/crt-services.md
-        - name: CRT และความสามารถในการเพิ่มฟังก์ชันของ Retail Server
+        - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และ Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
         - name: เพิ่มข้อมูลการกำหนดลักษณะของลูกค้าในฐานข้อมูลช่องทาง
           href: dev-itpro/add-customer-preference-channel.md
         - name: เพิ่มคุณสมบัติในใบสั่งขาย
           href: dev-itpro/add-properties-sales-order.md
-        - name: ความสามารถในการเพิ่มฟังก์ชัน CRT และทริกเกอร์
+        - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และทริกเกอร์
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
         - name: บล็อคธุรกรรมโดยใช้ทริกเกอร์
           href: dev-itpro/trigger-example-blocking-transaction.md

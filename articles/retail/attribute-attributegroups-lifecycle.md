@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552728"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606906"
 ---
 # <a name="attributes-and-attribute-groups"></a>แอททริบิวต์และกลุ่มแอททริบิวต์
 
@@ -176,8 +176,8 @@ ms.locfileid: "1552728"
 > [!NOTE]
 > ยังสามารถใช้กระบวนงานนี้เพื่อกำหนดกลุ่มแอททริบิวต์ให้กับประเภทในลำดับชั้นประเภทการนำทางของช่อง และลำดับชั้นประเภทผลิตภัณฑ์เพิ่มเติมได้อีกด้วย ในขั้นตอนที่ 2 ใช้พาธการนำทางต่อไปนี้:
 >
-> - **การขายปลีก** &gt; **การจัดการประเภทและผลิตภัณฑ์** &gt; **ประเภทการนำทางช่องทาง**
-> - **Retail** &gt; **การจัดการประเภทและผลิตภัณฑ์** &gt; **ประเภทของผลิตภัณฑ์เพิ่มเติม**
+> - การขายปลีก &gt; การจัดการประเภทและผลิตภัณฑ์ &gt; ประเภทการนำทางช่องทาง
+> - การขายปลีก &gt; การจัดการประเภทและผลิตภัณฑ์ &gt; ประเภทของผลิตภัณฑ์เพิ่มเติม
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>กำหนดกลุ่มแอททริบิวต์ให้กับร้านค้าปลีก
 

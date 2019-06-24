@@ -16,12 +16,12 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 75ceffd0aaeb4eca8ae37b3eddfc5dd660602138
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 387ec85e99a212977e30b455cfa0fab3e3a77f98
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538398"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557342"
 ---
 # <a name="thailand"></a>ไทย 
 

@@ -3,7 +3,7 @@ title: วิดีโอสำหรับ Finance and Operations
 description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับ Dynamics 365 for Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561679"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591559"
 ---
 # <a name="videos-for-finance-and-operations"></a>วิดีโอสำหรับ Finance and Operations
 
@@ -63,6 +63,7 @@ ms.locfileid: "1561679"
 - [พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)
 - [เริ่มต้นใช้งานการบัญชีต้นทุน](https://youtu.be/1pUDtJQZ8FU)
 - [ใช้ Excel สำหรับการวิเคราะห์ต้นทุน](https://youtu.be/-HKHYdClvx8)
+- [ประสบการณ์ค่าใช้จ่าย](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>ข่าวกรอง
 
@@ -185,7 +186,7 @@ ms.locfileid: "1561679"
 - [AX เครื่องมือการย้าย 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [การอัพเกรด AX 2012 เป็น Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [การติดตั้ง Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Azure DevOps การตั้งค่า (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>การจัดการคลังสินค้า
 

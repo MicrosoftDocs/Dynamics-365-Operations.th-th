@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519194"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577806"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
 
@@ -115,7 +115,7 @@ ms.locfileid: "1519194"
 
 แอป PowerApps นี้ใช้ความสัมพันธ์แบบกลุ่มต่อกลุ่ม ดังนั้นคุณจึงสามารถใช้เป็นเท็มเพลตสำหรับสถานการณ์อื่นๆ ที่คุณจำเป็นต้องแยกเรกคอร์ดที่มีความสัมพันธ์แบบกลุ่มต่อกลุ่ม
 
-เมื่อต้องการดาวน์โหลดเท็มเพลต **คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent** ไปยัง [คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) ใน Microsoft Download Center
+เมื่อต้องการดาวน์โหลดเท็มเพลต **คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent** ไปยัง [คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) ใน Microsoft Download Center
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

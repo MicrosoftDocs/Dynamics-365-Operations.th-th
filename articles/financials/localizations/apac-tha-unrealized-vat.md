@@ -18,12 +18,12 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3cf2ff79e8ed911596bce330bba2d363a38b038f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7fa1ec33c50f83e43a7c35a855f1f4d8238348e7
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538400"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547875"
 ---
 # <a name="thailand-unrealized-vat"></a>VAT ที่ยังไม่รับรู้ของประเทศไทย
 

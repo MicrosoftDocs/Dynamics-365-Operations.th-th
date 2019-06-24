@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558584"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606767"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)
 
@@ -34,9 +34,9 @@ ms.locfileid: "1558584"
 
 ## <a name="define-denominations"></a>กำหนดหน่วยเงิน
 
-หน่วยเงินจะถูกตั้งค่าสำหรับแต่ละร้านค้าในหน้า **ตั้งค่า** \> **ตัวเลือกการตรวจนับเงินสดจากคุณสมบัติร้านค้า**
+หน่วยเงินจะถูกตั้งค่าสำหรับแต่ละร้านค้าในตัวเลือก **ตั้งค่า** \> **การตรวจนับเงินสด** จากหน้าคุณสมบัติร้านค้า
 
-![หน่วยเงินของเงินสด](./media/image1-denomination.png)
+![ตัวเลือกการตรวจนับเงินสด](./media/image1-denomination.png)
 
 เมื่อต้องการกำหนดหน่วยเงิน:
 
@@ -44,7 +44,7 @@ ms.locfileid: "1558584"
 1. ระบุชนิด (เหรียญหรือธนบัตร)
 1. ระบุจำนวนเงิน (ค่า)
 
-![หน่วยเงินของเงินสด](./media/image2-denomination.png)
+![หน้าหน่วยเงินของการตรวจนับเงินสด](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชัน
 

@@ -33,7 +33,7 @@
               items:
                 - name: ซื้อ Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
-        - name: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
+        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
           href: get-started/whats-new-changed.md
           items:
             - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
@@ -42,11 +42,13 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: คุณสมบัติของ AX 2012 ที่เลื่อนออกไป
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: คุณสมบัติยังไม่มีการนำมาใช้ในการปรับใช้แบบในสถานที่
+            - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้แบบในสถานที่
               href: get-started/features-not-implemented-on-prem.md
+            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations รุ่น 10.0.4 (กรกฏาคม 2019)
+              href: get-started/whats-new-changed-10-0-4.md
             - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations รุ่น 10.0.3 (มิถุนายน 2019)
               href: get-started/whats-new-changed-10-0-3.md
-            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations รุ่น 10.0.2 (พฤษภาคม 2019)
+            - name: Finance and Operations รุ่น 10.0.2 (พฤษภาคม 2019)
               href: get-started/whats-new-changed-10-0-2.md
             - name: Finance and Operations รุ่น 10.0.1 (เมษายน 2019)
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations รุ่น 8.1.3 (มกราคม 2019)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations platform update 28 (กรกฎาคม 2019)
+              href: get-started/whats-new-platform-update-28.md
             - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations platform update 27 (มิถุนายน 2019)
               href: get-started/whats-new-platform-update-27.md
-            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations platform update 26 (พฤษภาคม 2019)
+            - name: Platform update 26 (พฤษภาคม 2019)
               href: get-started/whats-new-platform-update-26.md
             - name: Platform update 25 (เมษายน 2019)
               href: get-started/whats-new-platform-25.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: สร้างงบประมาณเบื้องต้นสำหรับภาครัฐ
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: รายงานการวิเคราะห์งบประมาณ
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: การวิเคราะห์งบประมาณในภาครัฐ
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: งบประมาณเบื้องต้นและการแบ่งตามส่วนในภาครัฐ
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: ตั้งค่าอัตราแลกเปลี่ยนสำหรับธุรกรรมสกุลเงิน
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: นำเข้าอัตราแลกเปลี่ยนสกุลเงินจาก CBRF ../financials/general-ledger/import-currency-exchange-rates.md
             - name: ผู้ถือครองเงินทดรองจ่าย
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: ตั้งค่าสวัสดิการ
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: ความถี่และรอบ
             - name: ตั้งค่ารอบการชำระค่าจ้างและรอบระยะเวลาการชำระค่าจ้าง
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: ตั้งค่าความถี่ในการคำนวณค่าจ้าง
@@ -2918,10 +2924,12 @@
                   href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
             - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงในรูปแบบ Excel
               href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงเพื่ออัปเดตข้อมูลแอปพลิเคชัน
+            - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงเพื่ออัพเดตข้อมูลแอปพลิเคชัน
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงในรูปแบบ CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3875,8 +3883,12 @@
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: แอพมือถือของแผ่นเวลาโครงการ
+        - name: แอปสำหรับอุปกรณ์เคลื่อนที่แผ่นเวลาโครงการ
           href: ../financials/project-management/project-timesheet.md
+        - name: แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: ใช้งานฟิลด์ที่กำหนดเองสำหรับแผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: การขายและการตลาด
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

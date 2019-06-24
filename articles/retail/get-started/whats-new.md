@@ -1,5 +1,5 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Retail
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร และ Dynamics 365 for Retail
 description: หน้านี้นำคุณไปยังทรัพยากรที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในการนำออกใช้ล่าสุดของ Microsoft Dynamics 365 for Retail
 author: sericks007
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 50ad2f4bdc2709815ebed564c3fd24ac204dec17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2f6d3d466b7e8a51cb997a7fc63fc61c804f63e6
+ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572231"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1619227"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Retail
+# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>มีอะไรใหม่และการเปลี่ยนแปลงอะไรใน Dynamics 365 for Retail
 
 [!include [banner](../../includes/banner.md)]
 
