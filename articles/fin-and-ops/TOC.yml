@@ -42,11 +42,11 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: คุณสมบัติของ AX 2012 ที่เลื่อนออกไป
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้แบบในสถานที่
+            - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่
               href: get-started/features-not-implemented-on-prem.md
-            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations รุ่น 10.0.4 (กรกฏาคม 2019)
+            - name: Finance and Operations รุ่น 10.0.4 (กรกฎาคม 2019)
               href: get-started/whats-new-changed-10-0-4.md
-            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations รุ่น 10.0.3 (มิถุนายน 2019)
+            - name: Finance and Operations รุ่น 10.0.3 (มิถุนายน 2019)
               href: get-started/whats-new-changed-10-0-3.md
             - name: Finance and Operations รุ่น 10.0.2 (พฤษภาคม 2019)
               href: get-started/whats-new-changed-10-0-2.md
@@ -56,9 +56,9 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations รุ่น 8.1.3 (มกราคม 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations platform update 28 (กรกฎาคม 2019)
+            - name: Platform update 28 (กรกฎาคม 2019)
               href: get-started/whats-new-platform-update-28.md
-            - name: ดูตัวอย่างคุณลักษณะใน Finance and Operations platform update 27 (มิถุนายน 2019)
+            - name: Platform update 27 (มิถุนายน 2019)
               href: get-started/whats-new-platform-update-27.md
             - name: Platform update 26 (พฤษภาคม 2019)
               href: get-started/whats-new-platform-update-26.md
@@ -238,8 +238,14 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: การมอบโซลูชัน ISV โดยใช้ รุ่นหนึ่ง
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Regression Suite Automation Tool
-          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+        - name: ทดสอบระบบอัตโนมัติ
+          items:
+            - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
+              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: ตั้งค่าบทช่วยสอน Regression Suite Automation Tool
+              href: get-started/hol-set-up-regression-suite-automation-tool.md
+            - name: ใช้บทช่วยสอน Regression Suite Automation Tool
+              href: get-started/hol-use-regression-suite-automation-tool.md
     - name: เหตุการณ์ทางธุรกิจ
       href: ../dev-itpro/business-events/home-page.md
       items:
@@ -257,6 +263,10 @@
           href: ../dev-itpro/business-events/troubleshooting.md
         - name: ใช้กรณีสำหรับเหตุการณ์ทางธุรกิจ
           href: ../dev-itpro/business-events/potential-use-cases.md
+        - name: บทช่วยสอน
+          items:
+            - name: ใช้เหตุการณ์ทางธุรกิจกับ Microsoft Flow
+              href: ../dev-itpro/business-events/how-to/how-to-flow.md
     - name: การปฏิบัติตาม
       items:
         - name: กฎนโยบายการตรวจสอบ
@@ -334,7 +344,7 @@
               href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
             - name: การปิดบัญชีสินค้าคงคลัง
               href: ../supply-chain/cost-management/inventory-close.md
-            - name: การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ
+            - name: การปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
         - name: การบัญชีการผลิต
           items:
@@ -849,7 +859,7 @@
               href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
             - name: มิติทางการเงิน
               href: ../financials/general-ledger/financial-dimensions.md
-            - name: โครงสร้างทางบัญชี
+            - name: มิติทางการเงินและการลงรายการบัญชี
               href: ../financials/general-ledger/Default-dimensions.md
             - name: เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
               href: ../financials/general-ledger/CFO-workspace.md
@@ -1080,6 +1090,8 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: สร้างโครงสร้างทางบัญชี
                   href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: มิติทางการเงินและการลงรายการบัญชี
+                  href: ../financials/general-ledger/default-dimensions.md
                 - name: สร้างแบบแผนการรับรู้
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
                 - name: การรวมบัญชีทางการเงินและการแปลงสกุลเงิน
@@ -1936,10 +1948,144 @@
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: ซื้อสินค้าที่ต้องเสียภาษีจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
-                  href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
-            - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
-              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+                - name: การตั้งค่าข้อมูลหลัก
+                  items:
+                    - name: สร้างรูปแบบแนวดิ่งของธุรกิจ
+                      href: ../financials/localizations/apac-ind-GST-create-business-vertical.md
+                    - name: อัปเดตรหัสรัฐและดินแดนสหภาพของรัฐบาลกลาง
+                      href: ../financials/localizations/apac-ind-GST-update-state-code-union-territory.md
+                    - name: สร้างข้อมูลหลัก GSTIN
+                      href: ../financials/localizations/apac-ind-GST-create-gstin-master.md
+                    - name: กำหนด GSTIN และลำดับหมายเลขการอ้างอิง
+                      href: ../financials/localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                    - name: กำหนดรหัส HSN และรหัสการบัญชีบริการ
+                      href: ../financials/localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                    - name: สร้างบัญชีหลักสำหรับชนิดการลงรายการบัญชี GST
+                      href: ../financials/localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                    - name: สร้างรอบระยะเวลาการชำระภาษี
+                      href: ../financials/localizations/apac-ind-GST-create-tax-settlement-period.md
+                    - name: แนบ GSTIN กับกลุ่มทะเบียนภาษี
+                      href: ../financials/localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                - name: การตั้งค่าภาษี
+                  items:
+                    - name: กำหนดการตั้งค่าคอนฟิกภาษีและปรับใช้กับนิติบุคคล
+                      href: ../financials/localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                    - name: แมปชนิดภาษีของการตั้งค่าคอนฟิก - ศุลกากร
+                      href: ../financials/localizations/apac-ind-GST-map-configuration-tax-types.md
+                    - name: ตั้งค่าตารางอัตราและเปอร์เซ็นต์
+                      href: ../financials/localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                    - name: ตั้งค่าลำดับชั้นภาษีขายและกฎการตัดบัญชี
+                      href: ../financials/localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                - name: ธุรกรรมการซื้อ
+                  items:
+                    - name: การซื้อจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
+                      href: ../financials/localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                    - name: ซื้อสินค้าที่ต้องเสียภาษีจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
+                      href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                    - name: การซื้อจากผู้จัดจำหน่ายที่ลงทะเบียน
+                      href: ../financials/localizations/apac-ind-GST-purchases-registered-vendor.md
+                    - name: การซื้อสินค้าที่ลดราคา
+                      href: ../financials/localizations/apac-ind-GST-purchase-discounted-goods.md
+                    - name: การซื้อสินค้าที่ยกเว้นภาษี
+                      href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
+                    - name: การซื้อสินค้าที่มีอัตราศูนย์
+                      href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                    - name: การซื้อสินค้าที่ไม่ใช่ GST
+                      href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
+                    - name: การซื้อจากผู้จัดจำหน่ายแบบส่วนร่วม
+                      href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                    - name: การซื้อสินค้าที่ต้องเสียภาษีที่มีค่าธรรมเนียมการจัดส่ง
+                      href: ../financials/localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                    - name: ปรับปรุงใบแจ้งหนี้การซื้อของสินค้าที่ต้องเสียภาษี
+                      href: ../financials/localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                    - name: การซื้อสินทรัพย์ถาวร
+                      href: ../financials/localizations/apac-ind-GST-purchase-fixed-asset.md
+                    - name: สร้างใบลดหนี้สำหรับใบแจ้งหนี้การซื้อ
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                    - name: สร้างใบเพิ่มหนี้สำหรับใบแจ้งหนี้การซื้อ
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                    - name: ใบสั่งตรวจสอบคุณภาพที่เกี่ยวข้องกับการทำลายสินค้าตัวอย่าง
+                      href: ../financials/localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                    - name: ใบสั่งส่งคืนสินค้าที่ซื้อ
+                      href: ../financials/localizations/apac-ind-GST-purchase-return-order.md
+                    - name: การชำระเงินล่วงหน้าของผู้จัดจำหน่ายที่มีการเก็บภาษีย้อนกลับ
+                      href: ../financials/localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                - name: ธุรกรรมการขาย
+                  items:
+                    - name: การขายสินค้าที่ต้องเสียภาษีให้ผู้บริโภค
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                    - name: การขายให้ลูกค้าที่ลงทะเบียน
+                      href: ../financials/localizations/apac-ind-GST-sell-registered-customer.md
+                    - name: ใบแจ้งหนี้ข้อความอิสระ
+                      href: ../financials/localizations/apac-ind-GST-free-text-invoices.md
+                    - name: การขายสินค้าที่ต้องเสียภาษีที่มีการเก็บภาษีย้อนกลับ
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                    - name: การขายสินค้าที่ได้รับยกเว้นภาษี
+                      href: ../financials/localizations/apac-ind-GST-sales-exempted-item.md
+                    - name: การขายสินค้าที่มีอัตราศูนย์
+                      href: ../financials/localizations/apac-ind-GST-sell-zero-rated-goods.md
+                    - name: การขายสินค้าที่ไม่ใช่ GST
+                      href: ../financials/localizations/apac-ind-GST-sell-non-gst-goods.md
+                    - name: การขายสินค้าที่ต้องเสียภาษีที่มีส่วนลดและการประเมินสำรอง
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                    - name: การขายสินค้าที่ต้องเสียภาษีที่คิดภาษีสำหรับค่าธรรมเนียมการจัดส่ง
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                    - name: การขายที่มีราคารวมภาษีและไม่รวมภาษี
+                      href: ../financials/localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                    - name: สร้างใบเพิ่มหนี้สำหรับใบแจ้งหนี้การขาย
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                    - name: สร้างใบลดหนี้สำหรับใบแจ้งหนี้การขาย
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                    - name: ใบแจ้งหนี้การขายที่แบ่งตามที่อยู่ที่จัดส่ง
+                      href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                    - name: ใบสั่งส่งคืนสินค้า
+                      href: ../financials/localizations/apac-ind-GST-return-order-form.md
+                - name: ธุรกรรมต่างประเทศ
+                  items:
+                    - name: นำเข้าสินค้าที่มี GST
+                      href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
+                    - name: นำเข้าบริการที่มี GST
+                      href: ../financials/localizations/apac-ind-import-services-gst.md
+                    - name: ส่งออกสินค้าที่มีภาษีอัตราศูนย์
+                      href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                    - name: ส่งออกบริการที่มีภาษีอัตราศูนย์
+                      href: ../financials/localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                - name: ธุรกรรมสินค้าคงคลัง
+                  items:
+                    - name: ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน
+                      href: ../financials/localizations/apac-ind-GST-stock-transfer-transactions.md
+                - name: ธุรกรรมการชำระเงินของลูกค้า
+                  items:
+                    - name: การชำระเงินล่วงหน้าที่มีรวมภาษี
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-includes-tax.md
+                    - name: การชำระเงินล่วงหน้าที่มีการชำระในระหว่างการลงรายการบัญชีใบแจ้งหนี้
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                    - name: การชำระบัญชีด้วยตนเองสำหรับการชำระเงินล่วงหน้าและใบแจ้งหนี้ที่รวมภาษี
+                      href: ../financials/localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                    - name: การชำระเงินสำหรับใบแจ้งหนี้ที่รวมภาษี
+                      href: ../financials/localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                    - name: ปรับปรุงการชำระเงินล่วงหน้าที่รวมภาษี
+                      href: ../financials/localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                    - name: การขอคืนเงินสำหรับการชำระเงินของลูกค้า
+                      href: ../financials/localizations/apac-ind-GST-customer-payment-refund.md
+                - name: ธุรกรรมภาษีทางตรง
+                  items:
+                    - name: รวม GST เมื่อคำนวณการหักลดภาษี
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                    - name: รวม GST เมื่อคำนวณการจัดเก็บภาษี
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                - name: การปรับปรุงยอดเงินภาษี
+                  href: ../financials/localizations/apac-ind-GST-tax-adjustments.md
+                - name: การชำระภาษีตามกฎ
+                  href: ../financials/localizations/apac-ind-GST-tax-settlement.md
+                - name: สร้างสมุดรายวันภาษี
+                  href: ../financials/localizations/apac-ind-GST-tax-journal.md
+                - name: สร้างข้อมูลรายงาน GSTR สำหรับการคืนภาษี
+                  href: ../financials/localizations/apac-ind-GST-tax-returns.md
+                - name: การสอบถามข้อมูลภาษี
+                  href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
+                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: ภาพรวมกลไกจัดการภาษี
               href: ../financials/general-ledger/tax-engine.md
               items:
@@ -2377,6 +2523,10 @@
                   href: ../financials/localizations/rus-accounting-reporting.md
                 - name: การรายงานภาษีที่ประเมิน
                   href: ../financials/localizations/rus-assessed-tax-declaration.md
+                - name: การรายงานภาษีการขนส่ง
+                  href: ../financials/localizations/rus-transport-tax-declaration.md
+                - name: การรายงานภาษีที่ดิน
+                  href: ../financials/localizations/rus-land-tax-declaration.md
             - name: การจัดการองค์กร
               items:
                 - name: ข้อมูลทะเบียนภาษีที่เกี่ยวข้องกับที่อยู่
@@ -2797,160 +2947,222 @@
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
             - name: สร้างการออกแบบแบบกำหนดเองสำหรับเอกสารทางธุรกิจ
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
-        - name: การรายงานทางอิเล็กทรอนิกส์
+            - name: แสดงตัวอย่างเอกสาร PDF ด้วยโปรแกรมดูที่ฝังไว้
+              href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
+    - name: การรายงานทางอิเล็กทรอนิกส์
+      items:
+        - name: ภาพรวมการรายงานทางอิเล็กทรอนิกส์
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+        - name: การตั้งค่าคอนฟิก
           items:
-            - name: ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์
-              href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
             - name: สร้างการตั้งค่าคอนฟิก
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+            - name: จัดเตรียมส่วนประกอบของโซลูชันการรายงานทางอิเล็กทรอนิกส์
               items:
-                - name: สร้างผู้ให้บริการการตั้งค่าคอนฟิกและทำเครื่องหมายว่าใช้งานอยู่
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจง
+                - name: ออกแบบแบบจำลองข้อมูลเฉพาะโดเมน
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: กำหนดการแม็ปแบบจำลองและเลือกแหล่งข้อมูล
+                - name: จัดเตรียมข้อมูลเมตาเฉพาะแอปพลิเคชัน
+                  items:
+                    - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
+                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                - name: กำหนดการแมปแบบจำลองและเลือกแหล่งข้อมูล
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: แม็ปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือก
+                - name: แมปแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เลือก
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
                 - name: สร้างการตั้งค่าคอนฟิกรูปแบบ
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: แม็ปส่วนประกอบของรูปแบบกับองค์ประกอบแบบจำลองข้อมูล
+                - name: แมปส่วนประกอบของรูปแบบที่สร้างกับองค์ประกอบแบบจำลองข้อมูล
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: สร้างเอกสารทางอิเล็กทรอนิกส์สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
+            - name: ทดสอบโซลูชัน ER ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
+              items:
+                - name: (ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                - name: จัดทำเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: อัพเกรดรูปแบบโดยการใช้รุ่นพื้นฐานใหม่
-                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-                - name: ออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อกรอกข้อมูลในเท็มเพลต PDF
-                  href: ../dev-itpro/analytics/er-fillable-pdf.md
-            - name: ตัวออกแบบสูตรในรายงานทางอิเล็กทรอนิกส์
-              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI
-              href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: ปลายทาง
-              href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: ตั้งค่าคอนฟิกปลายทาง
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ OpenXML
+            - name: อัปเกรดรูปแบบของคุณโดยการใช้รุ่นพื้นฐานใหม่ของรูปแบบนั้น
+              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+        - name: ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
+          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+        - name: จัดการการแมปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
+          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
+          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: สร้างรายงานโดยเพิ่มเนื้อหาใน XML ดิบ
+          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+        - name: (ER) แหล่งข้อมูลข้ามบริษัทในการรายงานทางอิเล็กทรอนิกส์
+          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+        - name: ออกแบบรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
+          items:
+            - name: (ER) ออกแบบการตั้งค่าคอนฟิกสำหรับการจัดทำรายงานในรูปแบบ OPENXML
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
-              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: เลือกข้อกำหนดแบบจำลองข้อมูลขณะสร้างรูปแบบ
-              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกในส่วนประกอบอื่นๆ
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: แมปแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: เรียกใช้รายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: สร้างรูปแบบเพื่อทำการตรวจนับและการรวม
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-                - name: ตั้งค่าคอนฟิกการคำนวณเพื่อทำการตรวจนับและการรวม
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: ใช้การคำนวณเพื่อสร้างผลลัพธ์สำหรับการตรวจนับและการรวม
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: เรียกใช้รูปแบบเพื่อทำการตรวจนับและการรวม
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: ออกแบบรูปแบบเพื่อเพิ่มคอลัมน์ในแบบไดนามิกเป็นช่วงขยายในแนวนอน
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: เรียกใช้รูปแบบเพื่อเพิ่มคอลัมน์แบบไดนามิกเป็นช่วงขยายในแนวนอน
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: จัดเตรียมแบบจำลองข้อมูลที่จะใช้ไฟล์การจัดการเอกสารในผลลัพธ์
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: ขยายแบบจำลองข้อมูลที่จะใช้ไฟล์การจัดการเอกสารในผลลัพธ์
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารในผลลัพธ์
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: เรียกใช้รูปแบบที่จะใช้ไฟล์การจัดการเอกสารในผลลัพธ์
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: แก้ไขและเรียกใช้รูปแบบที่จะใช้ไฟล์การจัดการเอกสารในผลลัพธ์
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: ตรวจสอบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: สร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-            - name: สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลใบสมัคร
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลใบสมัคร
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลใบสมัคร
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: แก้ไขแบบจำลองและการแมปเพื่อสร้างเอกสารที่มีข้อมูลใบสมัคร
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: แก้ไขรูปแบบเพื่อสร้างเอกสารที่มีข้อมูลใบสมัคร
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: สร้างเอกสารที่มีข้อมูลใบสมัคร
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: สร้างแบบฟอร์ม FTI ที่สามารถพิมพ์ได้
-              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: สร้างรายงานโดยเพิ่มเนื้อหาใน XML ดิบ
-              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: ติดตามผลรายงานที่สร้างและเปรียบเทียบกับค่าพื้นฐาน
-              href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-            - name: แหล่งข้อมูลข้ามบริษัทในการรายงานทางอิเล็กทรอนิกส์
-              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้าง
+            - name: (ER) ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
+              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: ออกแบบการตั้งค่าคอนฟิกเพื่อกรอกข้อมูลในเท็มเพลต PDF
+              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+        - name: ฝังรูปภาพและรูปร่าง
+          items:
+            - name: (ER) ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้าง
               href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+            - name: ตัวอย่างของการฝังรูปภาพและรูปร่าง
+              items:
+                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
+                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                - name: ตรวจสอบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
+                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                - name: จัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
+                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+        - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
+          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+        - name: การตั้งค่าคอนฟิก ER ที่ขึ้นอยู่กับรุ่นของ Finance and Operations
+          items:
+            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: ออกแบบโซลูชัน ER เพื่อใช้มิติทางการเงิน
+          items:
+            - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+            - name: แมปแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+            - name: ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+            - name: เรียกใช้รายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูล
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+        - name: ออกแบบรูปแบบ ER ที่จะทำการตรวจนับและการรวมโดยใช้ข้อมูลจากผลลัพธ์ที่จัดทำไว้
+          items:
+            - name: สร้างรูปแบบเพื่อทำการตรวจนับและการรวม
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+            - name: ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวม
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+            - name: ใช้การคำนวณเพื่อสร้างผลลัพธ์สำหรับการตรวจนับและการรวม
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+            - name: เรียกใช้รูปแบบเพื่อทำการตรวจนับและการรวม
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+        - name: เพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
+          items:
+            - name: ออกแบบรูปแบบเพื่อเพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
+              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+            - name: เรียกใช้รูปแบบเพื่อเพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
+              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+        - name: ใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของรูปแบบ
+          items:
+            - name: จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+            - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+            - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+            - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+            - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+        - name: อัปเดตข้อมูลแอปพลิเคชันโดยใช้การรายงานทางอิเล็กทรอนิกส์
+          items:
+            - name: สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชัน
+              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+            - name: นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอปพลิเคชัน
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+            - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอปพลิเคชัน
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+            - name: แก้ไขแบบจำลองและการแมปเพื่อจัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+            - name: แก้ไขรูปแบบเพื่อจัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+            - name: จัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+        - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชัน ER
+          items:
+            - name: แยกวิเคราะห์เอกสารขาเข้าในรูปแบบที่แตกต่างกัน
+              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+            - name: ตั้งค่าคอนฟิกการนำเข้าข้อมูลจากไฟล์ที่เลือกด้วยตนเอง
+              items:
+                - name: สร้างการตั้งค่าคอนฟิกเพื่อนำเข้าข้อมูลจากไฟล์ XML ภายนอก
+                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+            - name: ตั้งค่าคอนฟิกการนำเข้าข้อมูลในโหมดชุดงานจากไฟล์ที่อยู่ใน SharePoint
+              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+            - name: นำเข้าไฟล์ในรูปแบบ XML
+              items:
+                - name: นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
+                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
+                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+            - name: แบ่งไฟล์ XML ที่จัดทำตามขนาดไฟล์และปริมาณเนื้อหา
+              href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
+        - name: วงจรการใช้งานการตั้งค่าคอนฟิก
+          items:
             - name: จัดการวงจรการใช้งานการตั้งค่าคอนฟิก
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+            - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services
+              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+            - name: นำเข้าการตั้งค่าคอนฟิก
+              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+            - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
               items:
-                - name: อัพโหลดการตั้งค่าคอนฟิกไปยัง Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์จากบริการการตั้งค่าคอนฟิกที่เป็นระเบียบบังคับ (RCS)
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services
-                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิก
-                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: จัดการการตั้งค่าคอนฟิกการแม็ปแบบจำลอง
-              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+                - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บ ER สำหรับชนิด RCS
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+        - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
+          items:
+            - name: ตั้งค่าคอนฟิกกรอบงาน
               items:
-                - name: สร้างการตั้งค่าคอนฟิกที่จะนำเข้าข้อมูลจากไฟล์ภายนอก
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-                - name: ตั้งค่าคอนฟิกการนำเข้าข้อมูลจาก SharePoint
-                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงในรูปแบบ Excel
-              href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงเพื่ออัพเดตข้อมูลแอปพลิเคชัน
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: แยกวิเคราะห์เอกสารที่กำลังจะมาถึงในรูปแบบ CSV
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+                - name: ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์
+                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                - name: สร้างผู้ให้บริการการตั้งค่าคอนฟิกและทำเครื่องหมายว่าใช้งานอยู่
+                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: ปลายทาง
+              items:
+                - name: ภาพรวมของปลายทาง
+                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                - name: ตั้งค่าคอนฟิกปลายทาง
+                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
+              items:
+                - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                - name: การปรับปรุงการติดตามผลของรายงาน ER ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                - name: ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
+                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+            - name: ดำเนินกระบวนการทางธุรกิจอัตโนมัติโดยใช้การตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์
+              items:
+                - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI
+                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
+                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
             - name: ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
-            - name: แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
-              href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
-                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์สำหรับ Application update 7.3
-                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-                - name: ระบุที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่สร้าง
-                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+        - name: API กรอบงาน ER
+          items:
+            - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
+              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+            - name: การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์สำหรับ Application update 7.3
+              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+            - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
+              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: โซลูชันเชิงวิเคราะห์ที่ฝัง
           items:
             - name: Power BI ที่ฝังในพื้นที่ทำงาน
               href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
             - name: การรวม Power BI Embedded
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
+            - name: เลือกพื้นที่ทำงานเชิงวิเคราะห์จาก PowerBI.com
+              href: ../dev-itpro/analytics/select-analytical-workspace.md
         - name: ตัวเลือกการกำหนดเป็นแบบส่วนบุคคลด้วย PowerBI.com
           items:
             - name: คุณสมบัติและบริการที่สามารถใช้ได้ผ่านการรวม Power BI
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: ตรึงรายงาน Power BI ไปยังพื้นที่ทำงาน
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
+            - name: ปรับแต่งรายงานที่ฝังในพื้นที่ทำงานเชิงวิเคราะห์
+              href: ../dev-itpro/analytics/customize-analytical-workspace.md
         - name: เครื่องมือสำหรับการสร้างและการขยายโซลูชัน
           items:
             - name: การวิเคราะห์ การวัดแบบรวม และการสร้างแบบจำลอง KPI
@@ -3063,16 +3275,20 @@
               href: ../supply-chain/cost-management/inventory-close.md
             - name: ราคาต้นทุนถัวเฉลี่ย
               href: ../supply-chain/cost-management/running-average-cost-price.md
-            - name: การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ
+            - name: ปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
             - name: การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+    - name: ห่วงโซ่อุปทาน
+      href: ../supply-chain/index.md
     - name: การวางแผนหลัก
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: แผนหลัก
           href: ../supply-chain/master-planning/master-plans.md
           items:
+            - name: ตั้งค่าแผนหลัก
+              href: ../supply-chain/master-planning/master-planning-setup.md
             - name: การตั้งค่าความครอบคลุม
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: กำหนดกฎความครอบคลุมสำหรับสินค้า
@@ -3099,6 +3315,8 @@
               href: ../supply-chain/master-planning/tasks/create-plan-site.md
             - name: ปฏิทินและการวางแผนหลัก
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
+            - name: ปรับปรุงประสิทธิภาพของการวางแผนหลัก
+              href: ../supply-chain/master-planning/master-planning-performance.md
             - name: แผนหลักและฟังก์ชันหลายไซต์
               href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
@@ -3110,10 +3328,12 @@
                   href: ../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
                 - name: การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า
                   href: ../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                - name: กำหนดเวอร์ชัน BOM
+                - name: กำหนดเวอร์ชันสูตรการผลิต
                   href: ../supply-chain/master-planning/master-plan-bom-version-determined.md
-                - name: การกระจายเวอร์ชัน BOM
+                - name: การกระจายเวอร์ชันสูตรการผลิต
                   href: ../supply-chain/master-planning/master-plan-explosion-bom-version.md
+            - name: จำนวนวันที่ติดลบและจำนวนวันที่ติดลบแบบไม่คงที่
+              href: ../supply-chain/master-planning/more-about-dynamic-negative-days.md
             - name: จัดทำแผนระหว่างบริษัท
               href: ../supply-chain/master-planning/tasks/create-intercompany-plan.md
             - name: ดูความต้องการระหว่างบริษัทที่วางแผนไว้ขาออก
@@ -3178,7 +3398,7 @@
     - name: การรวม Office
       href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
-        - name: บทสอนการรวม Office
+        - name: บทช่วยสอนการรวม Office
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: เปิดข้อมูลเอนทิตี้ใน Excel และอัปเดตโดยใช้ Add-in ของ Excel
           href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/fin-and-ops/toc.json

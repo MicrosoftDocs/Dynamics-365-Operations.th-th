@@ -43,7 +43,7 @@
       items:
         - name: เครื่องมือการพัฒนา
           href: dev-tools/development-tools-overview.md
-        - name: บทสอนเครื่องมือการพัฒนา
+        - name: บทช่วยสอนเครื่องมือการพัฒนา
           href: dev-tools/introduction-visual-studio.md
         - name: ตัวตรวจสอบแอพลิเคชัน
           items:
@@ -240,7 +240,7 @@
               href: extensibility/app-sealing-faq.md
             - name: ย้ายจากการโอเวอร์เลย์ไปยังส่วนขยาย
               href: extensibility/migrate-overlayer-extension.md
-            - name: เลือกกำหนดองค์ประกอบแบบจำลองด้วยส่วนขยาย (บทสอน)
+            - name: เลือกกำหนดองค์ประกอบแบบจำลองด้วยส่วนขยาย (บทช่วยสอน)
               href: extensibility/customize-model-elements-extensions.md
             - name: เลือกกำหนดด้วยส่วนขยายและการโอเวอร์เลย์
               href: extensibility/customization-overlayering-extensions.md
@@ -420,7 +420,7 @@
 - name: การพัฒนาอินเทอร์เฟสผู้ใช้
   href: user-interface/user-interface-development-home-page.md
   items:
-    - name: บทสอน
+    - name: บทช่วยสอน
       items:
         - name: สร้างแบบฟอร์มชนิดค่าธรรมเนียมการเช่า
           href: user-interface/build-rental-charge-type-form.md
@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: การรวม PowerBI.com กับสภาพแวดล้อมในสถานที่
+          href: analytics/entity-store-on-prem.md
         - name: ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมในสถานที่
           href: deployment/onprem-reverseproxy.md
         - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: แก้ไขปัญหาการปรับใช้ในสถานที่
           href: deployment/troubleshoot-on-prem.md
+        - name: การหมุนเวียนใบรับรอง
+          href: deployment/certificate-rotation-on-prem.md
     - name: ปรับใช้โค้ดที่กำหนดเอง
       items:
         - name: สร้างแพคเกจที่สามารถปรับใช้ได้ของแบบจำลอง
@@ -1290,7 +1294,7 @@
           href: database/import-database.md
         - name: การคืนค่าฐานข้อมูล ณ จุดใดจุดหนึ่งของเวลา
           href: database/database-point-in-time-restore.md
-    - name: บทสอน
+    - name: บทช่วยสอน
       items:
         - name: รีเฟรชเพื่อวัตถุประสงค์ในการฝึกอบรม
           href: database/dbmovement-scenario-general-refresh.md
