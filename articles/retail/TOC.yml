@@ -4,7 +4,7 @@
   items:
     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
       href: get-started/whats-new.md
-    - name: คุณลักษณะตัวอย่างใน Dynamics 365 for Retail 10.0.3
+    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
@@ -407,6 +407,10 @@
       items:
         - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
           href: localizations/emea-ita-fpi-sample.md
+    - name: เม็กซิโก
+      items:
+        - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ CFDI สากลสำหรับเม็กซิโก
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: นอร์เวย์
       items:
         - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -602,7 +606,7 @@
           href: dev-itpro/extend-metadata.md
         - name: เรียกใช้บริการ CRT ในโหมดออฟไลน์
           href: dev-itpro/call-crt-service-offline.md
-    - name: ความสามารถในการเพิ่มฟังก์ชันของ Commerce Runtime (CRT)
+    - name: ความสามารถในการเพิ่มฟังก์ชัน Commerce Runtime (CRT)
       items:
         - name: สถาปัตยกรรมและการตั้งค่าคอนฟิก CRT
           href: dev-itpro/commerce-runtime-overview.md
