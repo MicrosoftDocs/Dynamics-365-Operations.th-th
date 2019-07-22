@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592671"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625883"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (หมายเลข รูปแบบ)</td>
 <td>ส่งคืนการแสดงสตริงของหมายเลขที่ระบุในรูปแบบที่ระบุ (สำหรับข้อมูลเกี่ยวกับรูปแบบที่ได้รับการสนับสนุน ให้ดูที่ <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">มาตรฐาน</a> และ <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">กำหนดเอง</a>) บริบทที่จะรันฟังก์ชันนี้กำหนดภาษาที่จะใช้ในการจัดรูปแบบตัวเลข</td>
 <td>สำหรับวัฒนธรรม EN-US <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> ส่งกลับค่า <strong>&quot;45.00 %&quot;</strong> <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> ส่งกลับค่า <strong>&quot;10&quot;</strong></td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (หมายเลข รูปแบบ วัฒนธรรม)</td>
+<td>ส่งคืนการแสดงสตริงของหมายเลขที่ระบุในรูปแบบเฉพาะและวัฒนธรรมที่ระบุ (สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">มาตรฐาน</a> และ <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">กำหนดเอง</a>)</td>
+<td><strong>NUMBERFORMAT (10/3, "F2", "de")</strong> ส่งคืน <strong>3,33</strong> ขณะที่ <strong>NUMBERFORMAT (10/3, "F2", "en-us"</strong>) ส่งคืน <strong>3.33</strong></td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (หมายเลข ภาษา สกุลเงิน แฟล็กพิมพ์ชื่อสกุลเงิน จุดทศนิยม)</td>

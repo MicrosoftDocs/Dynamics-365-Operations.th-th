@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519190"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624592"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (23 เมษายน 2019)
 
@@ -46,7 +46,7 @@ ms.locfileid: "1519190"
 ### <a name="additional-odata-entities-302992"></a>เอนทิตี OData เพิ่มเติม (302992)
 ขณะนี้ มีการสนับสนุนเอนทิตีต่อไปนี้ภายใน OData: ประสบการณ์การทำงานของผู้ปฏิบัติงาน และการศึกษาผู้ปฏิบัติงาน
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>เอกสารแนบสมุดรายวันประสิทธิภาพสำหรับผู้จัดการและพนักงาน (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>เอกสารแนบของสมุดรายวันประสิทธิภาพสำหรับผู้จัดการและพนักงาน (308248)
 ด้วยการนำออกใช้นี้ ขณะนี้ไฟล์แนบพร้อมใช้งานสำหรับทั้งผู้จัดการและพนักงาน เมื่อสร้างและอัพเดตรายการสมุดรายวันประสิทธิภาพการทำงาน
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>แฟล็กการจ้างงานพนักงานอีกครั้งพร้อมใช้งานเสมอ (310047)
