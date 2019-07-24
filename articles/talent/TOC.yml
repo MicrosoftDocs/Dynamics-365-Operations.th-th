@@ -8,6 +8,16 @@
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
+            - name: 2 กรกฎาคม 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25 มิถุนายน 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18 มิถุนายน 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11 มิถุนายน 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4 มิถุนายน 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28 พฤษภาคม 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21 พฤษภาคม 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6 พฤษภาคม 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30 เมษายน 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 เมษายน 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 เมษายน 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 เมษายน 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 เมษายน 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 มีนาคม 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 มีนาคม 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 มีนาคม 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 มีนาคม 2019
-              href: whats-new-talent-march-5.md
             - name: ข้อมูลเก็บถาวร 2019 มีอะไรใหม่
               items:
+                - name: 30 เมษายน 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 เมษายน 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 เมษายน 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 เมษายน 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 เมษายน 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 มีนาคม 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 มีนาคม 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14 มีนาคม 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5 มีนาคม 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27 กุมภาพันธ์ 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14 กุมภาพันธ์ 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: คุณลักษณะและความสามารถของ Attract
           href: attract-overview.md
+        - name: FAQ เกี่ยวกับ LinkedIn
+          href: attract-linkedin-faq.md
+        - name: ตั้งค่าคอนฟิกการตั้งค่าอีเมล
+          href: attract-configure-email-settings.md
         - name: สร้างเท็มเพลตกระบวนการใน Attract
           href: Process-templates-Attract.md
-        - name: สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract
+        - name: สร้างและลงประกาศงาน
           href: Creating-jobs-Attract.md
-        - name: ลงประกาศงานลงในไซต์การทำงานภายนอกจาก Attract
+        - name: ตั้งค่าการรวมกับ LinkedIn
+          href: attract-admin-linkedin.md
+        - name: ลงประกาศงานใน LinkedIn จาก Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: ลงประกาศงานใน Broadbean จาก Attract
           href: posting-jobs-external.md
         - name: จัดหาผู้สมัครโดยใช้กลุ่มผู้มีความสามารถพิเศษ
           href: attract-talent-pools.md
-        - name: การจัดหาด้วย LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: จัดหาผู้สมัครด้วย LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: กิจกรรมในกระบวนการว่าจ้าง
           href: activities-attract.md
         - name: การจัดกำหนดการการสัมภาษณ์และคำติชม
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: คำแนะนำอัจฉริยะ
           href: Intelligent-Recommendations.md
-        - name: สร้างประสบการณ์การเตรียมพร้อมที่ต้องตาต้องใจ
-          href: create-onboarding-experience.md
         - name: ติดตามแหล่งที่มาของโพรไฟล์ผู้สมัครและใบสมัคร
           href: source-tracking.md
         - name: ใช้รายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการว่าจ้าง
           href: analytic-reports.md
+    - name: ต้อนรับพนักงานใหม่ด้วย Onboard
+      items:
+        - name: เริ่มต้นใช้งาน Onboard
+          href: create-onboarding-experience.md
+        - name: รับแอป Onboard
+          href: onboard-get-app.md
+        - name: สร้างและส่งคู่มือการเตรียมความพร้อม
+          href: onboard-create-guide.md
+        - name: สร้างเท็มเพลตการเตรียมความพร้อม
+          href: onboard-create-template.md
+        - name: แก้ไขคู่มือและเท็มเพลต
+          href: onboard-edit-guides-templates.md
+        - name: ใช้เนื้อหาร่วมกัน
+          href: onboard-share-template.md
+        - name: ดูสถานะ
+          href: onboard-view-status.md
+        - name: สร้างทีมงานการจ้างงาน
+          href: onboard-create-team.md
     - name: จัดการบุคลากรของคุณด้วย Core HR
       items:
         - name: จัดระเบียบบุคลากรของคุณ
@@ -325,7 +359,7 @@
           href: tutorial-integration-recurring-export.md
         - name: การรวม Office
           items:
-            - name: บทสอนการรวม Office
+            - name: บทช่วยสอนการรวม Office
               href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: อัพเดตข้อมูลเอนทิตี้ใน Excel
               href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -357,7 +391,9 @@
           href: corehr-custom-fields.md
     - name: แก้ไขปัญหา Talent
       items:
-        - name: ไม่ได้อัพเดตรายงานการวิเคราะห์
+        - name: แก้ไขปัญหาการลงประกาศงานใน LinkedIn
+          href: attract-troubleshoot-linkedin.md
+        - name: ไม่ได้อัปเดตรายงานการวิเคราะห์
           href: analytic-reports-not-updated.md
         - name: ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ PowerApps
           href: create-envi-powerapps-admin-ctr.md

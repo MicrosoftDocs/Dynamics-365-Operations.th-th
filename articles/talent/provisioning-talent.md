@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576932"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624618"
 ---
 # <a name="provision-talent"></a>เตรียมใช้งาน Talent
 
@@ -48,6 +48,8 @@ ms.locfileid: "1576932"
 
 1. ในโครงการ LCS ของคุณ เลือกไทล์ **การจัดการแอป Talent**
 2. บ่งชี้ว่านี่เป็นอินสแตนซ์ Sandbox หรืออินสแตนซ์การผลิตของ Talent คุณลักษณะการแสดงตัวอย่างก่อนหน้านี้อาจมีอยู่ในอินสแตนซ์ Sandbox เพื่ออนุญาตให้มีผลป้อนกลับและการทดสอบก่อนกำหนด 
+    > [!NOTE]
+    > ชนิดของอินสแตนซ์ Talent แยกต่างหากจากชนิดอินสแตนซ์ของสภาพแวดล้อม PowerApps ซึ่งคุณตั้งค่าไว้ในศูนย์ดูแล PowerApps
 3. เลือกตัวเลือก **รวมข้อมูลสาธิต** ถ้าคุณต้องการให้สภาพแวดล้อมของคุณรวมชุดข้อมูลสาธิตเดียวกัน ที่ใช้ในประสบการณ์ไดรฟ์ทดสอบ Talent นี่เป็นประโยชน์สำหรับการสาธิตระยะยาวหรือสภาพแวดล้อมการฝึกอบรม และไม่ควรใช้สำหรับสภาพแวดล้อมการผลิต  หมายเหตุว่าคุณต้องเลือกตัวเลือกนี้เมื่อมีการปรับใช้เริ่มต้น คุณไม่สามารถปรับปรุงการใช้งานที่มีอยู่ในภายหลังได้
 4. Talent ถูกเตรียมใช้งานลงในสภาพแวดล้อม Microsoft PowerApps เสมอ เพื่อเปิดใช้งานการรวม PowerApps และความสามารถในการขยาย อ่านส่วน "การเลือกสภาพแวดล้อม PowerApps" ของหัวข้อนี้ ก่อนที่คุณจะดำเนินการต่อ ถ้าคุณยังไม่มีสภาพแวดล้อม PowerApps เลือกจัดการสภาพแวดล้อมใน LCS หรือนำทางไปยังศูนย์การจัดการ PowerApps จากนั้น ทำตามขั้นตอนเพื่อ [สร้างสภาพแวดล้อม PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)
 

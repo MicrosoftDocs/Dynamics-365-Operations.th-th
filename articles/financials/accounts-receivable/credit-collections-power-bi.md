@@ -3,7 +3,7 @@ title: เนื้อหา Power BI เกี่ยวกับการจั
 description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547243"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702783"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
@@ -42,7 +42,17 @@ ms.locfileid: "1547243"
 
 โดยค่าเริ่มต้น ข้อมูลสินเชื่อและการเรียกเก็บเงินสำหรับบริษัทปัจจุบันจะปรากฏขึ้น เมื่อต้องการดูข้อมูลระหว่างบริษัททั้งหมด มอบหมายหน้าที่ **CustCollectionsBICrossCompany** ให้กับบทบาท
 
+## <a name="setup-needed-to-view-power-bi-content"></a>จำเป็นต้องตั้งค่าเพื่อดูเนื้อหา Power BI
+
+การตั้งค่าต่อไปนี้จำเป็นต้องถูกดำเนินการให้เสร็จสมบูรณ์สำหรับข้อมูลที่จะแสดงในภาพ **เครดิตของลูกค้าและการเรียกเก็บเงิน** Power BI
+
+1. ไปที่ **การจัดการระบบ > การตั้งค่า > พารามิเตอร์ระบบ** เพื่อตั้งค่า **สกุลเงินของระบบ** และ **อัตราแลกเปลี่ยนของระบบ**
+2. ไปที่ **บัญชีแยกประเภททั่วไป > การตั้งค่า > บัญชีแยกประเภท** และตั้งค่า **กุลเงินทางบัญชี** และ **ชนิดอัตราแลกเปลี่ยน**
+3. กำหนดอัตราแลกเปลี่ยนระหว่างสกุลเงินของธุรกรรมและสกุลเงินทางบัญชี สกุลเงินทางบัญชีและสกุลเงินของระบบ เมื่อต้องการทำเช่นนี้ ไปที่ **บัญชีแยกประเภททั่วไป > สกุลเงิน > อัตราแลกเปลี่ยนสกุลเงิน**
+4. ไปที่ **การจัดการระบบ > การตั้งค่า > ที่จัดเก็บเอนทิตี** เพื่อรีเฟรชการวัดรวม **CustCollectionsBIMeasurements**
+
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
+
 เนื้อหา Power BI **การจัดการสินเชื่อและการเรียกเก็บเงิน** จะปรากฏในพื้นที่ทำงาน **สินเชื่อของลูกค้าและการเรียกเก็บเงิน**
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
@@ -63,28 +73,3 @@ ms.locfileid: "1547243"
 | จดหมายเรียกเก็บเงิน         | <ul><li>ยอดเงินสำหรับรหัสการเรียกเก็บเงิน</li><li>รายละเอียดยอดเงินสำหรับรหัสการเรียกเก็บเงิน</li><li>จำนวนจดหมายเรียกเก็บเงินสำหรับแต่ละบริษัท</li><li>จำนวนจดหมายเรียกเก็บเงินสำหรับกลุ่มลูกค้าแต่ละกลุ่ม</li><li>จำนวนจดหมายเรียกเก็บเงินตามภูมิภาค</li></ul> |
 
 สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันส่งออกข้อมูลพื้นฐาน เพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปในการแสดงภาพ
-
-## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
-
-ข้อมูลดังต่อไปนี้ถูกใช้ในการกรอกรายงานในเนื้อหา Power BI เกี่ยวกับ **การจัดการสินเชื่อและการเรียกเก็บเงิน** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
-
-
-|                   เอนทิตี้                    |      การวัดแบบรวมหลัก      |             แหล่งข้อมูล              |                           ฟิลด์                            |                                    คำอธิบาย                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     จำนวนกิจกรรมที่ปิดและเวลาเฉลี่ยที่จะปิดกิจกรรมเหล่านั้น     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           จำนวนของกิจกรรมที่เปิด                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             ผลรวมของยอดดุลตามอายุหนี้                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           ยอดเงินที่พ้นกำหนดชำระ                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        จำนวนกิจกรรมที่ปิดและเวลาเฉลี่ยที่จะปิดกิจกรรมเหล่านั้น        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              จำนวนของกรณีที่เปิด                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       จำนวนของจดหมายเรียกเก็บเงินที่เปิด                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     ยอดดุลของจดหมายเรียกเก็บเงินที่ลงรายการบัญชีแล้ว                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                ยอดดุลของธุรกรรมที่มีสถานะการเรียกเก็บเงิน                 |
-|           CustCollectionsBICredit           | CreditExposed AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed) Sum(AmountOverCreditLimit)       | ผลรวมของความเสี่ยงเครดิตและยอดเงินที่ลูกค้าเกินวงเงินสินเชื่อ |
-|         CustCollectionsBICustOnHold         |               บล็อค                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     จำนวนของลูกค้าที่ระงับ                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        ระยะเวลาการเก็บหนี้ถัวเฉลี่ยนาน 30 วัน                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 ผลรวมของการชำระเงินที่คาดไว้ภายในปีถัดไป                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                จำนวนของดอกเบี้ยตั๋วเงินที่ได้มีการสร้าง                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 จำนวนของใบสั่งขายรวมที่ระงับ                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                ผลรวมของธุรกรรมที่มีการตัดบัญชี                 |
-
