@@ -4,6 +4,8 @@
   items:
     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
       href: get-started/whats-new.md
+    - name: คุณลักษณะตัวอย่างใน Dynamics 365 for Retail 10.0.5
+      href: get-started/whats-new-10-0-5.md
     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Retail 10.0.2
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: การส่งคืนสินค้า
   items:
+    - name: การขอคืนเงินที่เชื่อมโยง
+      href: dev-itpro/linked-refunds.md
     - name: ขายและส่งคืนผลิตภัณฑ์ที่ไม่รวมอยู่ในการจัดประเภทของร้านค้า
       href: sell-return-outside-assortments.md
     - name: ตั้งค่าคอนฟิกและดำเนินการแลกเปลี่ยนในใบสั่งส่งคืนสินค้า

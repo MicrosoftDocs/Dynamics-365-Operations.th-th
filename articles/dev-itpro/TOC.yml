@@ -106,10 +106,28 @@
           items:
             - name: การอ้างอิงภาษาของ X++
               href: dev-ref/xpp-language-reference.md
-            - name: ตัวแปร X++ และชนิดข้อมูล
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'คำสั่ง X++, การวนซ้ำ และการจัดการข้อยกเว้น'
-              href: dev-ref/xpp-statements-loops.md
+            - name: ตัวแปรและชนิดข้อมูล
+              items:
+                - name: ตัวแปร
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: ชนิดข้อมูลพื้นฐาน
+                  href: dev-ref/xpp-data-primitive.md
+                - name: ชนิดข้อมูลแบบรวม
+                  href: dev-ref/xpp-data-composite.md
+                - name: คลาสคอลเลกชัน
+                  href: dev-ref/xpp-data-collection.md
+                - name: ชนิดข้อมูลแบบขยาย
+                  href: dev-ref/xpp-data-edt.md
+            - name: คำสั่ง การวนซ้ำ และการจัดการข้อยกเว้น
+              items:
+                - name: ข้อคิดเห็น และการใช้งาน และการพิมพ์
+                  href: dev-ref/xpp-statements-loops.md
+                - name: คำสั่งแบบมีเงื่อนไข
+                  href: dev-ref/xpp-conditional.md
+                - name: คำสั่งการวนซ้ำ
+                  href: dev-ref/xpp-loops.md
+                - name: การจัดการข้อยกเว้น
+                  href: dev-ref/xpp-exceptions.md
             - name: ข้อยกเว้น X++ ของข้อผิดพลาดในการเชื่อมต่อ SQL
               href: dev-ref/sql-connection-error.md
             - name: ตัวดำเนินการ X++
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: การเลือกและการจัดการข้อมูล X++
               href: dev-ref/xpp-data-query.md
+            - name: การเข้าถึงข้อมูลโดยใช้ SysDa API
+              href: dev-ref/sysda.md
             - name: แมโคร X++
               href: dev-ref/xpp-macros.md
             - name: คลาสแอททริบิวต์ X++
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: แบบอักษรสัญลักษณ์ Dynamics
           href: user-interface/symbol-font.md
+        - name: มุมมองที่บันทึก
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: สร้างแบบฟอร์มที่ใช้มุมมองที่บันทึกไว้ทั้งหมด
+          href: user-interface/understanding-saved-views.md
         - name: ทดสอบแบบฟอร์มที่ใช้รูปแบบที่กำหนดเอง
           href: user-interface/testing-forms-custom-patterns.md
         - name: สร้าง URL ที่ปลอดภัยและสามารถใช้ร่วมกันได้ (ลิงก์เฉพาะ)
@@ -496,9 +520,9 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: FAQ เกี่ยวกับศูนย์ข้อความ แถบข้อความ และรายละเอียดข้อความ
           href: user-interface/messaging-user.md
-    - name: คำแนะนำรูปแบบของฟอร์มหลัก
+    - name: คำแนะนำรูปแบบของแบบฟอร์ม
       items:
-        - name: รูปแบบของฟอร์มสำหรับฟอร์มที่ย้าย
+        - name: รูปแบบของแบบฟอร์มสำหรับแบบฟอร์มที่ย้าย
           href: user-interface/select-form-pattern.md
         - name: สไตล์และรูปแบบของแบบฟอร์ม
           href: user-interface/form-styles-patterns.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: โปรแกรมแก้ไขด่วน
       items:
-        - name: ดาวน์โหลดโปรแกรมแก้ไขด่วนจาก Lifecycle Services
+        - name: รับอัปเดตจาก Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: ส่งออกผู้ใช้ B2B ไปยัง Azure AD
       href: sysadmin/implement-b2b.md
+    - name: ตั้งค่าการหมดเวลาเมื่อเซสชันไม่ทำงาน
+      href: sysadmin/session-idle-timeout.md
     - name: ความปลอดภัยตามบทบาท
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: ภาพรวมของการสนับสนุน Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
       href: lifecycle-services/21vianet-support.md
     - name: บันทึกบัตรผ่านการสนับสนุนพรีเมียร์

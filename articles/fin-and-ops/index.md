@@ -1,7 +1,7 @@
 ---
 title: เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
 description: เอกสารประกอบสำหรับ Microsoft Dynamics 365 for Finance and Operations
-author: margoc
+author: robinarh
 manager: AnnBe
 ms.date: 04/11/2019
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507600"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856316"
 ---
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>เอกสารประกอบ Microsoft Dynamics 365 for Finance and Operations
 
@@ -56,7 +56,7 @@ ms.locfileid: "1507600"
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ในสถานที่</a></p>
 <p><a href="get-started/public-preview-releases.md">การอัปเดตบริการรีลีสครั้งแรกและมาตรฐาน</a></p>
-<p><a href="get-started/whats-new-changed.md">มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร</a></p>
+<p><a href="get-started/whats-new-changed.md">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">ตั้งค่าคอนฟิกการอัปเดตบริการ</a></p>
