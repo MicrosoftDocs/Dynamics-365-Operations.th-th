@@ -8,6 +8,12 @@
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
+            - name: 23 กรกฎาคม 2019
+              href: whats-new-talent-july-24-2019.md
+            - name: 16 กรกฎาคม 2019
+              href: whats-new-talent-july-16-2019.md
+            - name: 9 กรกฎาคม 2019
+              href: whats-new-talent-july-9-2019.md
             - name: 2 กรกฎาคม 2019
               href: whats-new-talent-july-2-2019.md
             - name: 25 มิถุนายน 2019
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR และ Common Data Service
           href: CoreHREntities.md
-        - name: เข้าถึงคุณลักษณะตัวอย่าง
-          href: access-preview-feature.md
         - name: รับการสนับสนุนสำหรับ Talent
           href: talent-support.md
     - name: จัดหาพนักงานในองค์กรของคุณด้วย Attract
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: คุณลักษณะและความสามารถของ Attract
           href: attract-overview.md
-        - name: FAQ เกี่ยวกับ LinkedIn
-          href: attract-linkedin-faq.md
-        - name: ตั้งค่าคอนฟิกการตั้งค่าอีเมล
-          href: attract-configure-email-settings.md
-        - name: สร้างเท็มเพลตกระบวนการใน Attract
-          href: Process-templates-Attract.md
+        - name: คำถามที่ถามบ่อย
+          items:
+            - name: FAQ เกี่ยวกับการรวม LinkedIn
+              href: attract-linkedin-faq.md
+        - name: ตั้งค่าคอนฟิกการตั้งค่าระบบ
+          items:
+            - name: ตั้งค่าคอนฟิกข้อมูลบริษัท
+              href: admin-settings-attract.md
+            - name: ตั้งค่าสิทธิ์ของผู้ใช้
+              href: security-attract.md
+            - name: จัดการคุณลักษณะ
+              href: access-preview-feature.md
+            - name: ตั้งค่าไซต์รับสมัครงานของคุณ
+              href: career-site.md
+            - name: เปิดใช้งานการรวม Broadbean
+              href: attract-admin-job-board-settings.md
+            - name: ตั้งค่าคอนฟิกการตั้งค่าอีเมล
+              href: attract-configure-email-settings.md
+            - name: ตั้งค่าการรวม LinkedIn
+              href: attract-admin-linkedin.md
+        - name: สร้างกระบวนการจ้างงาน
+          items:
+            - name: สร้างเท็มเพลตกระบวนการ
+              href: process-templates-attract.md
+            - name: กิจกรรมในกระบวนการจ้างงาน
+              href: activities-attract.md
+            - name: เท็มเพลตอีเมล
+              href: email-templates.md
+            - name: ใช้รายงานการวิเคราะห์
+              href: analytic-reports.md
         - name: สร้างและลงประกาศงาน
-          href: Creating-jobs-Attract.md
-        - name: ตั้งค่าการรวมกับ LinkedIn
-          href: attract-admin-linkedin.md
-        - name: ลงประกาศงานใน LinkedIn จาก Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: ลงประกาศงานใน Broadbean จาก Attract
-          href: posting-jobs-external.md
-        - name: จัดหาผู้สมัครโดยใช้กลุ่มผู้มีความสามารถพิเศษ
-          href: attract-talent-pools.md
-        - name: จัดหาผู้สมัครด้วย LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: กิจกรรมในกระบวนการว่าจ้าง
-          href: activities-attract.md
-        - name: การจัดกำหนดการการสัมภาษณ์และคำติชม
-          href: interview-scheduling-feedback.md
+          items:
+            - name: สร้างงาน
+              href: creating-jobs-attract.md
+            - name: ลงประกาศงานใน LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: ลงประกาศงานใน Broadbean
+              href: posting-jobs-external.md
+            - name: ปิดงาน
+              href: attract-close-job.md
+        - name: จัดหาผู้สมัคร
+          items:
+            - name: จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษ
+              href: attract-talent-pools.md
+            - name: จัดหาผู้สมัครด้วย LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: ติดตามการจัดหาผู้สมัคร
+              href: source-tracking.md
+            - name: คำแนะนำอัจฉริยะ
+              href: Intelligent-Recommendations.md
+        - name: ตั้งค่าการสัมภาษณ์
+          items:
+            - name: การจัดกำหนดการการสัมภาษณ์และคำติชม
+              href: interview-scheduling-feedback.md
+        - name: จัดทำข้อเสนอ
+          items:
+            - name: ตั้งค่าการจัดการข้อเสนอ
+              href: offer-setup.md
+            - name: สร้าง อนุมัติ และลงชื่อข้อเสนอ
+              href: creating-offers.md
         - name: ความสามารถในการเพิ่มฟังก์ชันใน Attract
           href: extensibility-attract.md
-        - name: ฟังก์ชันไซต์การทำงานใน Attract
-          href: career-site.md
-        - name: ตั้งค่าการจัดการข้อเสนอ
-          href: offer-setup.md
-        - name: สร้าง อนุมัติ และลงชื่อข้อเสนอ
-          href: creating-offers.md
-        - name: เท็มเพลตอีเมล
-          href: email-templates.md
-        - name: การจัดการความปลอดภัยและบทบาทใน Attract
-          href: security-attract.md
-        - name: การตั้งค่าการดูแลระบบใน Attract
-          href: Admin-Settings-Attract.md
-        - name: คำแนะนำอัจฉริยะ
-          href: Intelligent-Recommendations.md
-        - name: ติดตามแหล่งที่มาของโพรไฟล์ผู้สมัครและใบสมัคร
-          href: source-tracking.md
-        - name: ใช้รายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการว่าจ้าง
-          href: analytic-reports.md
     - name: ต้อนรับพนักงานใหม่ด้วย Onboard
       items:
         - name: เริ่มต้นใช้งาน Onboard
@@ -186,6 +210,8 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท
               href: set-up-company-specific-hr-parameters.md
+            - name: ฟิลด์วันที่และเวลาใน Talent
+              href: date-time-fields-in-talent.md
             - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
               href: personnel-actions-faq.md
             - name: ทำให้กระบวนการทางธุรกิจเป็นทางการ
@@ -365,7 +391,7 @@
               href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: สร้างประสบการณ์เปิดใน Excel
               href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: แก้ไขปัญหาการรวมกับ Office
+            - name: แก้ไขปัญหาการรวม Office
               href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: ความสามารถในการเพิ่มฟังก์ชัน
       items:
