@@ -10,38 +10,38 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e46c7c86b93a3471ba10ec7ae6789f227bc9779c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e33df434b6a4361872bad10250fe3547d7c4affa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545450"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834817"
 ---
-# <a name="set-up-main-account-categories"></a><span data-ttu-id="fe1d8-103">ตั้งค่าประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-103">Set up main account categories</span></span>
+# <a name="set-up-main-account-categories"></a><span data-ttu-id="8ebea-103">ตั้งค่าประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-103">Set up main account categories</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fe1d8-104">ประเภทลูกค้าองค์กรหลักถูกใช้สำหรับรายงานเริ่มต้นในการรายงานทางการเงินและใน Power BI</span><span class="sxs-lookup"><span data-stu-id="fe1d8-104">Main account categories are used for the default reports in financial reporting and in Power BI.</span></span> <span data-ttu-id="fe1d8-105">ประเภทบัญชีหลักที่ถูกสร้างขึ้น ตามค่าเริ่มต้นสามารถเปลี่ยนชื่อ แต่จะไม่ถูกไม่ลบ </span><span class="sxs-lookup"><span data-stu-id="fe1d8-105">Main account categories that are created by default can be renamed but not deleted.</span></span> <span data-ttu-id="fe1d8-106">ประเภทบัญชีหลักเพิ่มเติมสามารถสร้างขึ้นได้และใช้เพื่อการรายงานและการวิเคราะห์วัตถุประสงค์ </span><span class="sxs-lookup"><span data-stu-id="fe1d8-106">Additional account categories can be created and used for reporting and analysis purposes.</span></span> <span data-ttu-id="fe1d8-107">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="fe1d8-107">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="8ebea-104">ประเภทลูกค้าองค์กรหลักถูกใช้สำหรับรายงานเริ่มต้นในการรายงานทางการเงินและใน Power BI</span><span class="sxs-lookup"><span data-stu-id="8ebea-104">Main account categories are used for the default reports in financial reporting and in Power BI.</span></span> <span data-ttu-id="8ebea-105">ประเภทบัญชีหลักที่ถูกสร้างขึ้น ตามค่าเริ่มต้นสามารถเปลี่ยนชื่อ แต่จะไม่ถูกไม่ลบ </span><span class="sxs-lookup"><span data-stu-id="8ebea-105">Main account categories that are created by default can be renamed but not deleted.</span></span> <span data-ttu-id="8ebea-106">ประเภทบัญชีหลักเพิ่มเติมสามารถสร้างขึ้นได้และใช้เพื่อการรายงานและการวิเคราะห์วัตถุประสงค์ </span><span class="sxs-lookup"><span data-stu-id="8ebea-106">Additional account categories can be created and used for reporting and analysis purposes.</span></span> <span data-ttu-id="8ebea-107">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="8ebea-107">This task uses the USMF demo company.</span></span>
 
 
-## <a name="create-a-main-account-category"></a><span data-ttu-id="fe1d8-108">สร้างประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-108">Create a main account category</span></span>
-1. <span data-ttu-id="fe1d8-109">ไปที่ บัญชีแยกประเภททั่วไป > ผังบัญชี > บัญชี > ประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-109">Go to General ledger > Chart of accounts > Accounts > Main account categories.</span></span>
-2. <span data-ttu-id="fe1d8-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="fe1d8-110">Click New.</span></span>
-3. <span data-ttu-id="fe1d8-111">ในฟิล์ประเภทบัญชีหลัก ให้ป้อนชื่อเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="fe1d8-111">In the Main account category field, enter a unique name.</span></span>
-4. <span data-ttu-id="fe1d8-112">ในฟิลด์คำอธิบาย ให้ป้อนคำอธิบายสำหรับประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-112">In the Description field, enter a description for the main account category.</span></span>
-5. <span data-ttu-id="fe1d8-113">ในชนิดบัญชีหลัก ให้เลือกชนิดบัญชีหลักที่จะเชื่อมโยงกับประเภท</span><span class="sxs-lookup"><span data-stu-id="fe1d8-113">In the Main account type field, select the main account type that will be linked to the category.</span></span>
+## <a name="create-a-main-account-category"></a><span data-ttu-id="8ebea-108">สร้างประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-108">Create a main account category</span></span>
+1. <span data-ttu-id="8ebea-109">ไปที่ บัญชีแยกประเภททั่วไป > ผังบัญชี > บัญชี > ประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-109">Go to General ledger > Chart of accounts > Accounts > Main account categories.</span></span>
+2. <span data-ttu-id="8ebea-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="8ebea-110">Click New.</span></span>
+3. <span data-ttu-id="8ebea-111">ในฟิล์ประเภทบัญชีหลัก ให้ป้อนชื่อเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="8ebea-111">In the Main account category field, enter a unique name.</span></span>
+4. <span data-ttu-id="8ebea-112">ในฟิลด์คำอธิบาย ให้ป้อนคำอธิบายสำหรับประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-112">In the Description field, enter a description for the main account category.</span></span>
+5. <span data-ttu-id="8ebea-113">ในชนิดบัญชีหลัก ให้เลือกชนิดบัญชีหลักที่จะเชื่อมโยงกับประเภท</span><span class="sxs-lookup"><span data-stu-id="8ebea-113">In the Main account type field, select the main account type that will be linked to the category.</span></span>
 
-## <a name="link-main-accounts-to-account-category"></a><span data-ttu-id="fe1d8-114">เชื่อมโยงบัญชีหลักกับประเภทบัญชี</span><span class="sxs-lookup"><span data-stu-id="fe1d8-114">Link main accounts to account category</span></span>
-1. <span data-ttu-id="fe1d8-115">คลิก เชื่อมโยงบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-115">Click Link main accounts.</span></span>
-2. <span data-ttu-id="fe1d8-116">ในรายการนี้ เลือกบัญชีหลักที่จะกำหนดประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-116">In the list, select the main accounts to assign to the main account category.</span></span>
-    * <span data-ttu-id="fe1d8-117">การกำหนดบัญชีหลักให้กับประเภทบัญชีหลักจะรวมยอดดุลของบัญชีเมื่อใช้ประเภทสำหรับการวิเคราะห์และการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="fe1d8-117">Assigning main accounts to a main account category will aggregate the balances of the accounts when that category is used for financial reporting and analysis.</span></span>  
-3. <span data-ttu-id="fe1d8-118">ให้เลือก หรือล้างตัวเลือกการเชื่อมโยงเพื่อเลือกบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="fe1d8-118">Select or clear the Linked option to choose the main accounts.</span></span>
-4. <span data-ttu-id="fe1d8-119">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="fe1d8-119">Click OK.</span></span>
-5. <span data-ttu-id="fe1d8-120">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="fe1d8-120">Click Yes.</span></span>
+## <a name="link-main-accounts-to-account-category"></a><span data-ttu-id="8ebea-114">เชื่อมโยงบัญชีหลักกับประเภทบัญชี</span><span class="sxs-lookup"><span data-stu-id="8ebea-114">Link main accounts to account category</span></span>
+1. <span data-ttu-id="8ebea-115">คลิก เชื่อมโยงบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-115">Click Link main accounts.</span></span>
+2. <span data-ttu-id="8ebea-116">ในรายการนี้ เลือกบัญชีหลักที่จะกำหนดประเภทบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-116">In the list, select the main accounts to assign to the main account category.</span></span>
+    * <span data-ttu-id="8ebea-117">การกำหนดบัญชีหลักให้กับประเภทบัญชีหลักจะรวมยอดดุลของบัญชีเมื่อใช้ประเภทสำหรับการวิเคราะห์และการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="8ebea-117">Assigning main accounts to a main account category will aggregate the balances of the accounts when that category is used for financial reporting and analysis.</span></span>  
+3. <span data-ttu-id="8ebea-118">ให้เลือก หรือล้างตัวเลือกการเชื่อมโยงเพื่อเลือกบัญชีหลัก</span><span class="sxs-lookup"><span data-stu-id="8ebea-118">Select or clear the Linked option to choose the main accounts.</span></span>
+4. <span data-ttu-id="8ebea-119">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="8ebea-119">Click OK.</span></span>
+5. <span data-ttu-id="8ebea-120">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="8ebea-120">Click Yes.</span></span>
 

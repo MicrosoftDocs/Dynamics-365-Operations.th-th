@@ -18,56 +18,56 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553426"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743336"
 ---
-# <a name="create-item-requirements-for-service-orders"></a><span data-ttu-id="f2c51-103">การสร้างความต้องการสินค้าสำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="f2c51-103">Create item requirements for service orders</span></span> 
+# <a name="create-item-requirements-for-service-orders"></a><span data-ttu-id="e0a9b-103">การสร้างความต้องการสินค้าสำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="e0a9b-103">Create item requirements for service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="f2c51-104">คุณสามารถสร้างใบสั่งบริการเพื่อติดตาม และจัดการบริการซึ่งคุณนำเสนอให้แก่ลูกค้าของคุณได้</span><span class="sxs-lookup"><span data-stu-id="f2c51-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="f2c51-105">ถ้าคุณต้องการจองสินค้าเฉพาะสำหรับใบสั่งบริการ คุณสามารถสร้างความต้องการสินค้าคงคลังได้</span><span class="sxs-lookup"><span data-stu-id="f2c51-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="f2c51-106">ความต้องการสินค้าอาจถูกใช้ทันทีจากสินค้าคงคลัง หรือจะสามารถเริ่มต้นใบสั่งผลิตสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="f2c51-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
+<span data-ttu-id="e0a9b-104">คุณสามารถสร้างใบสั่งบริการเพื่อติดตาม และจัดการบริการซึ่งคุณนำเสนอให้แก่ลูกค้าของคุณได้</span><span class="sxs-lookup"><span data-stu-id="e0a9b-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="e0a9b-105">ถ้าคุณต้องการจองสินค้าเฉพาะสำหรับใบสั่งบริการ คุณสามารถสร้างความต้องการสินค้าคงคลังได้</span><span class="sxs-lookup"><span data-stu-id="e0a9b-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="e0a9b-106">ความต้องการสินค้าอาจถูกใช้ทันทีจากสินค้าคงคลัง หรือจะสามารถเริ่มต้นใบสั่งผลิตสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="e0a9b-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
 
-<span data-ttu-id="f2c51-107">โดยการใช้ข้อกำหนดรายการแทนธุรกรรมรายการ คุณสามารถวางแผนให้กับการส่งมอบก่อนการใช้รายการจริง สร้างใบสั่งซื้อ รวมรายการในโครงงานข้อตกลงการค้า และรวมในข้อกำหนดรายการในการวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="f2c51-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
+<span data-ttu-id="e0a9b-107">โดยการใช้ข้อกำหนดรายการแทนธุรกรรมรายการ คุณสามารถวางแผนให้กับการส่งมอบก่อนการใช้รายการจริง สร้างใบสั่งซื้อ รวมรายการในโครงงานข้อตกลงการค้า และรวมในข้อกำหนดรายการในการวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="e0a9b-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
 
-<span data-ttu-id="f2c51-108">ข้อกำหนดรายการสำหรับใบสั่งรายการมีการประมวลผลผ่านโครงการ </span><span class="sxs-lookup"><span data-stu-id="f2c51-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="f2c51-109">เมื่อต้องการสร้างความต้องการสินค้าในใบสั่งบริการ ใบสั่งบริการต้องกำหนดให้กับโครงการ </span><span class="sxs-lookup"><span data-stu-id="f2c51-109">To create an item requirement on a service order, the service order must be assigned to a project.</span></span> <span data-ttu-id="f2c51-110">หลังจากที่คุณสร้างความต้องการสินค้าสำหรับใบสั่งบริการ คุณสามารถดูความต้องการสินค้าได้ในแบบฟอร์ม **โครงการ** สำหรับโครงการที่เลือก</span><span class="sxs-lookup"><span data-stu-id="f2c51-110">After you create an item requirement for a service order, you can view the item requirement in the **Projects** form for the selected project.</span></span>
+<span data-ttu-id="e0a9b-108">ข้อกำหนดรายการสำหรับใบสั่งรายการมีการประมวลผลผ่านโครงการ </span><span class="sxs-lookup"><span data-stu-id="e0a9b-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="e0a9b-109">เมื่อต้องการสร้างความต้องการสินค้าในใบสั่งบริการ ใบสั่งบริการต้องกำหนดให้กับโครงการ </span><span class="sxs-lookup"><span data-stu-id="e0a9b-109">To create an item requirement on a service order, the service order must be assigned to a project.</span></span> <span data-ttu-id="e0a9b-110">หลังจากที่คุณสร้างความต้องการสินค้าสำหรับใบสั่งบริการ คุณสามารถดูความต้องการสินค้าได้ในแบบฟอร์ม **โครงการ** สำหรับโครงการที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e0a9b-110">After you create an item requirement for a service order, you can view the item requirement in the **Projects** form for the selected project.</span></span>
 
-## <a name="create-an-item-requirement-for-a-service-order"></a><span data-ttu-id="f2c51-111">สร้างความต้องการสินค้าสำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="f2c51-111">Create an item requirement for a service order</span></span>
+## <a name="create-an-item-requirement-for-a-service-order"></a><span data-ttu-id="e0a9b-111">สร้างความต้องการสินค้าสำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="e0a9b-111">Create an item requirement for a service order</span></span>
 
-1.  <span data-ttu-id="f2c51-112">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="f2c51-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="e0a9b-112">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="e0a9b-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="f2c51-113">เลือกใบสั่งบริการที่คุณต้องการสร้างความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="f2c51-113">Select the service order that you want to create an item requirement for.</span></span>
+2.  <span data-ttu-id="e0a9b-113">เลือกใบสั่งบริการที่คุณต้องการสร้างความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="e0a9b-113">Select the service order that you want to create an item requirement for.</span></span>
 
-3.  <span data-ttu-id="f2c51-114">ใน **บานหน้าต่างการดำเนินการ** บนแท็บ **การจัดส่ง** คลิก **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="f2c51-114">On the **Action Pane**, on the **Dispatch** tab, click **Item requirement**.</span></span>
+3.  <span data-ttu-id="e0a9b-114">ใน **บานหน้าต่างการดำเนินการ** บนแท็บ **การจัดส่ง** คลิก **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="e0a9b-114">On the **Action Pane**, on the **Dispatch** tab, click **Item requirement**.</span></span>
 
-4.  <span data-ttu-id="f2c51-115">ในแบบฟอร์ม **ความต้องการสินค้า** ป้อนข้อมูลสำหรับสินค้าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="f2c51-115">In the **Item requirements** form, enter information for the required item.</span></span> <span data-ttu-id="f2c51-116">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่ระบุ ดู [ความต้องการสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="f2c51-116">For more information about the specific fields, see [Item requirements (form)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).</span></span>
+4.  <span data-ttu-id="e0a9b-115">ในแบบฟอร์ม **ความต้องการสินค้า** ป้อนข้อมูลสำหรับสินค้าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="e0a9b-115">In the **Item requirements** form, enter information for the required item.</span></span> <span data-ttu-id="e0a9b-116">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่ระบุ ดู [ความต้องการสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e0a9b-116">For more information about the specific fields, see [Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span></span>
 
-## <a name="create-an-item-requirement-for-a-service-agreement"></a><span data-ttu-id="f2c51-117">สร้างความต้องการสินค้าสำหรับข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="f2c51-117">Create an item requirement for a service agreement</span></span>
+## <a name="create-an-item-requirement-for-a-service-agreement"></a><span data-ttu-id="e0a9b-117">สร้างความต้องการสินค้าสำหรับข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="e0a9b-117">Create an item requirement for a service agreement</span></span>
 
-1.  <span data-ttu-id="f2c51-118">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="f2c51-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="e0a9b-118">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="e0a9b-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="f2c51-119">เปิดข้อตกลงการให้บริการที่คุณต้องการสร้างความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="f2c51-119">Open the service agreement for which you want to create an item requirement.</span></span>
+2.  <span data-ttu-id="e0a9b-119">เปิดข้อตกลงการให้บริการที่คุณต้องการสร้างความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="e0a9b-119">Open the service agreement for which you want to create an item requirement.</span></span>
 
-3.  <span data-ttu-id="f2c51-120">บน FastTab **รายการ** คลิก **เพิ่ม** เพื่อสร้างรายการใหม่</span><span class="sxs-lookup"><span data-stu-id="f2c51-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
+3.  <span data-ttu-id="e0a9b-120">บน FastTab **รายการ** คลิก **เพิ่ม** เพื่อสร้างรายการใหม่</span><span class="sxs-lookup"><span data-stu-id="e0a9b-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
 
-4.  <span data-ttu-id="f2c51-121">ในฟิลด์ **ชนิดของธุรกรรม** เลือก **รายการ**</span><span class="sxs-lookup"><span data-stu-id="f2c51-121">In the **Transaction type** field, select **Item**.</span></span>
+4.  <span data-ttu-id="e0a9b-121">ในฟิลด์ **ชนิดของธุรกรรม** เลือก **รายการ**</span><span class="sxs-lookup"><span data-stu-id="e0a9b-121">In the **Transaction type** field, select **Item**.</span></span>
 
-5.  <span data-ttu-id="f2c51-122">ในฟิลด์ **การตั้งค่าสินค้า** เลือก **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="f2c51-122">In the **Item setup** field, select **Item requirement**.</span></span>
+5.  <span data-ttu-id="e0a9b-122">ในฟิลด์ **การตั้งค่าสินค้า** เลือก **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="e0a9b-122">In the **Item setup** field, select **Item requirement**.</span></span>
 
-6.  <span data-ttu-id="f2c51-123">ในฟิลด์ **หมายเลขสินค้า** เลือกสินค้าที่จำเป็นสำหรับข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="f2c51-123">In the **Item number** field, select the item that is required for the service agreement.</span></span>
+6.  <span data-ttu-id="e0a9b-123">ในฟิลด์ **หมายเลขสินค้า** เลือกสินค้าที่จำเป็นสำหรับข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="e0a9b-123">In the **Item number** field, select the item that is required for the service agreement.</span></span>
 
-7.  <span data-ttu-id="f2c51-124">บน FastTab **รายละเอียดรายการ** บนแท็บ **มิติของผลิตภัณฑ์** ในฟิลด์ **ไซต์** เลือกไซต์สินค้าคงคลังสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="f2c51-124">On the **Line details** FastTab, on the **Product dimensions** tab, in the **Site** field, select the inventory site for the item.</span></span>
+7.  <span data-ttu-id="e0a9b-124">บน FastTab **รายละเอียดรายการ** บนแท็บ **มิติของผลิตภัณฑ์** ในฟิลด์ **ไซต์** เลือกไซต์สินค้าคงคลังสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="e0a9b-124">On the **Line details** FastTab, on the **Product dimensions** tab, in the **Site** field, select the inventory site for the item.</span></span>
 
-8.  <span data-ttu-id="f2c51-125">เมื่อต้องการสร้างใบสั่งบริการจากรายการข้อตกลง บน FastTab **รายการ** คลิก **สร้างใบสั่งบริการ** แล้วป้อนข้อมูลที่เกี่ยวข้องในแบบฟอร์ม **สร้างใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="f2c51-125">To create a service order from the agreement line, on the **Lines** FastTab, click **Create service orders**, and then enter the relevant information in the **Create service orders** form.</span></span> 
+8.  <span data-ttu-id="e0a9b-125">เมื่อต้องการสร้างใบสั่งบริการจากรายการข้อตกลง บน FastTab **รายการ** คลิก **สร้างใบสั่งบริการ** แล้วป้อนข้อมูลที่เกี่ยวข้องในแบบฟอร์ม **สร้างใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="e0a9b-125">To create a service order from the agreement line, on the **Lines** FastTab, click **Create service orders**, and then enter the relevant information in the **Create service orders** form.</span></span> 
 
 
-## <a name="see-also"></a><span data-ttu-id="f2c51-126">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="f2c51-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e0a9b-126">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="e0a9b-126">See also</span></span>
 
-<span data-ttu-id="f2c51-127">[สร้างใบสั่งบริการโดยอัตโนมัติ](create-service-orders-automatically.md)</span><span class="sxs-lookup"><span data-stu-id="f2c51-127">[Create service orders automatically](create-service-orders-automatically.md).</span></span>
+<span data-ttu-id="e0a9b-127">[สร้างใบสั่งบริการโดยอัตโนมัติ](create-service-orders-automatically.md)</span><span class="sxs-lookup"><span data-stu-id="e0a9b-127">[Create service orders automatically](create-service-orders-automatically.md).</span></span>
 
   
 

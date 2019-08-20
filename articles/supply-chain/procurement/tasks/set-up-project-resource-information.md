@@ -10,45 +10,45 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 180b806a80d373626c3f3a2bb43a3049a43618d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a543d9091ffecbb0cdd52acb527de971ee768823
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559592"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843948"
 ---
-# <a name="set-up-project-resource-information"></a><span data-ttu-id="14429-103">ตั้งค่าข้อมูลทรัพยากรโครงการ</span><span class="sxs-lookup"><span data-stu-id="14429-103">Set up project resource information</span></span>
+# <a name="set-up-project-resource-information"></a><span data-ttu-id="ccf06-103">ตั้งค่าข้อมูลทรัพยากรโครงการ</span><span class="sxs-lookup"><span data-stu-id="ccf06-103">Set up project resource information</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="14429-104">กระบวนงานนี้แสดงให้เห็นถึงวิธีการตั้งค่าทรัพยากรโครงการ</span><span class="sxs-lookup"><span data-stu-id="14429-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="14429-105">งานนี้ใช้ชุดข้อมูล USMF</span><span class="sxs-lookup"><span data-stu-id="14429-105">This task uses the USMF data set.</span></span>
+<span data-ttu-id="ccf06-104">กระบวนงานนี้แสดงให้เห็นถึงวิธีการตั้งค่าทรัพยากรโครงการ</span><span class="sxs-lookup"><span data-stu-id="ccf06-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="ccf06-105">งานนี้ใช้ชุดข้อมูล USMF</span><span class="sxs-lookup"><span data-stu-id="ccf06-105">This task uses the USMF data set.</span></span>
 
-1. <span data-ttu-id="14429-106">ไปที่ การจัดการและการบัญชีโครงการ > ทรัพยากรโครงการ > รายการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="14429-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
-2. <span data-ttu-id="14429-107">คลิก ทรัพยากรใหม่</span><span class="sxs-lookup"><span data-stu-id="14429-107">Click New resource.</span></span>
-3. <span data-ttu-id="14429-108">ในฟิลด์ผู้ปฏิบัติงาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="14429-108">In the Worker field, enter or select a value.</span></span>
-4. <span data-ttu-id="14429-109">ในฟิลด์ปฏิทิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="14429-109">In the Calendar field, enter or select a value.</span></span>
-5. <span data-ttu-id="14429-110">ในฟิลด์รหัสรอบระยะเวลา ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="14429-110">In the Period code field, enter or select a value.</span></span>
-6. <span data-ttu-id="14429-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="14429-111">Click Create.</span></span>
-7. <span data-ttu-id="14429-112">คลิก ราคาต้นทุน</span><span class="sxs-lookup"><span data-stu-id="14429-112">Click Cost prices.</span></span>
-8. <span data-ttu-id="14429-113">คลิก ราคาต้นทุน - ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="14429-113">Click Cost price - hour.</span></span>
-9. <span data-ttu-id="14429-114">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="14429-114">Click New.</span></span>
-10. <span data-ttu-id="14429-115">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="14429-115">In the Effective date field, enter a date.</span></span>
-11. <span data-ttu-id="14429-116">ในฟิลด์ราคาต้นทุน ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="14429-116">In the Cost price field, enter a number.</span></span>
-12. <span data-ttu-id="14429-117">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="14429-117">Click Save.</span></span>
-13. <span data-ttu-id="14429-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="14429-118">Close the page.</span></span>
-14. <span data-ttu-id="14429-119">คลิก ราคาขาย</span><span class="sxs-lookup"><span data-stu-id="14429-119">Click Sales prices.</span></span>
-15. <span data-ttu-id="14429-120">คลิก ราคาขาย - ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="14429-120">Click Sales price - hour.</span></span>
-16. <span data-ttu-id="14429-121">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="14429-121">Click New.</span></span>
-17. <span data-ttu-id="14429-122">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="14429-122">In the Effective date field, enter a date.</span></span>
-18. <span data-ttu-id="14429-123">ในฟิลด์การกำหนดราคา ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="14429-123">In the Pricing field, enter a number.</span></span>
-19. <span data-ttu-id="14429-124">ในฟิลด์ มีผลบังคับใช้สำหรับ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="14429-124">In the Valid for field, select an option.</span></span>
-20. <span data-ttu-id="14429-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="14429-125">Click Save.</span></span>
-21. <span data-ttu-id="14429-126">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="14429-126">Close the page.</span></span>
+1. <span data-ttu-id="ccf06-106">ไปที่ การจัดการและการบัญชีโครงการ > ทรัพยากรโครงการ > รายการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="ccf06-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
+2. <span data-ttu-id="ccf06-107">คลิก ทรัพยากรใหม่</span><span class="sxs-lookup"><span data-stu-id="ccf06-107">Click New resource.</span></span>
+3. <span data-ttu-id="ccf06-108">ในฟิลด์ผู้ปฏิบัติงาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ccf06-108">In the Worker field, enter or select a value.</span></span>
+4. <span data-ttu-id="ccf06-109">ในฟิลด์ปฏิทิน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ccf06-109">In the Calendar field, enter or select a value.</span></span>
+5. <span data-ttu-id="ccf06-110">ในฟิลด์รหัสรอบระยะเวลา ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ccf06-110">In the Period code field, enter or select a value.</span></span>
+6. <span data-ttu-id="ccf06-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ccf06-111">Click Create.</span></span>
+7. <span data-ttu-id="ccf06-112">คลิก ราคาต้นทุน</span><span class="sxs-lookup"><span data-stu-id="ccf06-112">Click Cost prices.</span></span>
+8. <span data-ttu-id="ccf06-113">คลิก ราคาต้นทุน - ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="ccf06-113">Click Cost price - hour.</span></span>
+9. <span data-ttu-id="ccf06-114">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ccf06-114">Click New.</span></span>
+10. <span data-ttu-id="ccf06-115">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="ccf06-115">In the Effective date field, enter a date.</span></span>
+11. <span data-ttu-id="ccf06-116">ในฟิลด์ราคาต้นทุน ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ccf06-116">In the Cost price field, enter a number.</span></span>
+12. <span data-ttu-id="ccf06-117">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ccf06-117">Click Save.</span></span>
+13. <span data-ttu-id="ccf06-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ccf06-118">Close the page.</span></span>
+14. <span data-ttu-id="ccf06-119">คลิก ราคาขาย</span><span class="sxs-lookup"><span data-stu-id="ccf06-119">Click Sales prices.</span></span>
+15. <span data-ttu-id="ccf06-120">คลิก ราคาขาย - ชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="ccf06-120">Click Sales price - hour.</span></span>
+16. <span data-ttu-id="ccf06-121">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ccf06-121">Click New.</span></span>
+17. <span data-ttu-id="ccf06-122">ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="ccf06-122">In the Effective date field, enter a date.</span></span>
+18. <span data-ttu-id="ccf06-123">ในฟิลด์การกำหนดราคา ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="ccf06-123">In the Pricing field, enter a number.</span></span>
+19. <span data-ttu-id="ccf06-124">ในฟิลด์ มีผลบังคับใช้สำหรับ ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ccf06-124">In the Valid for field, select an option.</span></span>
+20. <span data-ttu-id="ccf06-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ccf06-125">Click Save.</span></span>
+21. <span data-ttu-id="ccf06-126">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ccf06-126">Close the page.</span></span>
 

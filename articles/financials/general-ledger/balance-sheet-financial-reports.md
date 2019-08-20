@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
@@ -18,67 +18,67 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d54748daa27011e0222123ee2b9a19b9288734c
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: d9dcac902118c643b9a9d783c12f02fa5c90827b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595327"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839580"
 ---
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="eed93-104">รายงานทางการเงินของงบดุล</span><span class="sxs-lookup"><span data-stu-id="eed93-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="78ac5-104">รายงานทางการเงินของงบดุล</span><span class="sxs-lookup"><span data-stu-id="78ac5-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eed93-105">บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล</span><span class="sxs-lookup"><span data-stu-id="eed93-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="eed93-106">นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="eed93-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="78ac5-105">บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล</span><span class="sxs-lookup"><span data-stu-id="78ac5-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="78ac5-106">นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="78ac5-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="eed93-107">รายงานงบดุลเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="78ac5-107">รายงานงบดุลเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="eed93-108">มีรายงานงบดุลเริ่มต้นสองฉบับ</span><span class="sxs-lookup"><span data-stu-id="eed93-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="eed93-109">ในรายงานหนึ่งฉบับ ส่วนต่างๆจะถูกซ้อนกัน</span><span class="sxs-lookup"><span data-stu-id="eed93-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="eed93-110">ในรายงานฉบับอื่น ส่วนจะอยู่เคียงข้างกัน</span><span class="sxs-lookup"><span data-stu-id="eed93-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="78ac5-108">มีรายงานงบดุลเริ่มต้นสองฉบับ</span><span class="sxs-lookup"><span data-stu-id="78ac5-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="78ac5-109">ในรายงานหนึ่งฉบับ ส่วนต่างๆจะถูกซ้อนกัน</span><span class="sxs-lookup"><span data-stu-id="78ac5-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="78ac5-110">ในรายงานฉบับอื่น ส่วนจะอยู่เคียงข้างกัน</span><span class="sxs-lookup"><span data-stu-id="78ac5-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="eed93-111">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-111">Default report</span></span>                       | <span data-ttu-id="eed93-112">สิ่งที่ทำ</span><span class="sxs-lookup"><span data-stu-id="eed93-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="78ac5-111">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-111">Default report</span></span>                       | <span data-ttu-id="78ac5-112">สิ่งที่ทำ</span><span class="sxs-lookup"><span data-stu-id="78ac5-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="eed93-113">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="eed93-114">แสดงมุมมองของตำแหน่งทางการเงินขององค์กรต่อปี</span><span class="sxs-lookup"><span data-stu-id="eed93-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="eed93-115">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="eed93-116">แสดงมุมมองของตำแหน่งทางการเงินขององค์กรต่อปี</span><span class="sxs-lookup"><span data-stu-id="eed93-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="eed93-117">สินทรัพย์และหนี้สินและส่วนของผู้ถือหุ้นเคียงข้างกัน</span><span class="sxs-lookup"><span data-stu-id="eed93-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="78ac5-113">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="78ac5-114">แสดงมุมมองของตำแหน่งทางการเงินขององค์กรต่อปี</span><span class="sxs-lookup"><span data-stu-id="78ac5-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="78ac5-115">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="78ac5-116">แสดงมุมมองของตำแหน่งทางการเงินขององค์กรต่อปี</span><span class="sxs-lookup"><span data-stu-id="78ac5-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="78ac5-117">สินทรัพย์และหนี้สินและส่วนของผู้ถือหุ้นเคียงข้างกัน</span><span class="sxs-lookup"><span data-stu-id="78ac5-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="eed93-118">ส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="eed93-118">Building blocks</span></span>
-<span data-ttu-id="eed93-119">รายงานทางการเงินของงบดุลใช้ส่วนประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="eed93-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="78ac5-118">ส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="78ac5-118">Building blocks</span></span>
+<span data-ttu-id="78ac5-119">รายงานทางการเงินของงบดุลใช้ส่วนประกอบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="78ac5-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="eed93-120">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-120">Default report</span></span>                       | <span data-ttu-id="eed93-121">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="eed93-121">Row definition</span></span>                       | <span data-ttu-id="eed93-122">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="eed93-122">Column definition</span></span>             |
+| <span data-ttu-id="78ac5-120">รายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-120">Default report</span></span>                       | <span data-ttu-id="78ac5-121">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="78ac5-121">Row definition</span></span>                       | <span data-ttu-id="78ac5-122">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="78ac5-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="eed93-123">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="eed93-124">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="eed93-125">YTD และผลต่าง - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="eed93-126">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="eed93-127">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="eed93-128">คอลัมน์ ตั้งแต่ต้นปีจนถึงปัจจุบัน - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eed93-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="78ac5-123">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="78ac5-124">งบดุล – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="78ac5-125">YTD และผลต่าง - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="78ac5-126">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="78ac5-127">งบดุลเคียงข้างกัน – ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="78ac5-128">คอลัมน์ ตั้งแต่ต้นปีจนถึงปัจจุบัน - ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="78ac5-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="eed93-129">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="eed93-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="78ac5-129">คำนิยามแถว</span><span class="sxs-lookup"><span data-stu-id="78ac5-129">Row definition</span></span>
 
-<span data-ttu-id="eed93-130">คำนิยามของแถวสำหรับรายงานงบดุลทั้งสองฉบับประกอบด้วย ส่วนสำหรับส่วนของงบดุลแบบดั้งเดิมแต่ละส่วน</span><span class="sxs-lookup"><span data-stu-id="eed93-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="eed93-131">รายงานที่อยู่เคียงข้างกันรวมตัวแบ่งคอลัมน์ เพื่อให้หนี้สินและส่วนของผู้ถือหุ้นของเจ้าของปรากฏอยู่ติดกับสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="eed93-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="eed93-132">มิติประเภทบัญชีหลักถูกใช้ในการสร้างคำนิยามของแถวทั้งสองแถว</span><span class="sxs-lookup"><span data-stu-id="eed93-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="eed93-133">ดังนั้น ใครก็ตามสามารถสร้างรายงานได้โดยไม่ต้องทำการปรับเปลี่ยนใดๆ</span><span class="sxs-lookup"><span data-stu-id="eed93-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="78ac5-130">คำนิยามของแถวสำหรับรายงานงบดุลทั้งสองฉบับประกอบด้วย ส่วนสำหรับส่วนของงบดุลแบบดั้งเดิมแต่ละส่วน</span><span class="sxs-lookup"><span data-stu-id="78ac5-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="78ac5-131">รายงานที่อยู่เคียงข้างกันรวมตัวแบ่งคอลัมน์ เพื่อให้หนี้สินและส่วนของผู้ถือหุ้นของเจ้าของปรากฏอยู่ติดกับสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="78ac5-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="78ac5-132">มิติประเภทบัญชีหลักถูกใช้ในการสร้างคำนิยามของแถวทั้งสองแถว</span><span class="sxs-lookup"><span data-stu-id="78ac5-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="78ac5-133">ดังนั้น ใครก็ตามสามารถสร้างรายงานได้โดยไม่ต้องทำการปรับเปลี่ยนใดๆ</span><span class="sxs-lookup"><span data-stu-id="78ac5-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="eed93-134">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="eed93-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="78ac5-134">คำนิยามคอลัมน์</span><span class="sxs-lookup"><span data-stu-id="78ac5-134">Column definition</span></span>
 
-<span data-ttu-id="eed93-135">คำนิยามของคอลัมน์ประกอบด้วย ชนิดที่แตกต่างกันของคอลัมน์เพื่อให้ระดับที่แตกต่างกันของรายละเอียดและข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="eed93-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="78ac5-135">คำนิยามของคอลัมน์ประกอบด้วย ชนิดที่แตกต่างกันของคอลัมน์เพื่อให้ระดับที่แตกต่างกันของรายละเอียดและข้อมูลทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="78ac5-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="eed93-136">**YTD และผลต่าง – ชนิดของคอลัมน์เริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="eed93-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="eed93-137">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="eed93-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="eed93-138">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="eed93-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="eed93-139">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีที่ผ่านมา</span><span class="sxs-lookup"><span data-stu-id="eed93-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="eed93-140">**CALC**– ผลต่างจากการลบปีที่ผ่านมาออกจากปีนี้</span><span class="sxs-lookup"><span data-stu-id="eed93-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="78ac5-136">**YTD และผลต่าง – ชนิดของคอลัมน์เริ่มต้น:**</span><span class="sxs-lookup"><span data-stu-id="78ac5-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="78ac5-137">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="78ac5-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="78ac5-138">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="78ac5-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="78ac5-139">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีที่ผ่านมา</span><span class="sxs-lookup"><span data-stu-id="78ac5-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="78ac5-140">**CALC**– ผลต่างจากการลบปีที่ผ่านมาออกจากปีนี้</span><span class="sxs-lookup"><span data-stu-id="78ac5-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="eed93-141">**คอลัมน์ตั้งแต่ต้นปีจนถึงปัจจุบัน - ค่าเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="eed93-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="eed93-142">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="eed93-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="eed93-143">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="eed93-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="78ac5-141">**คอลัมน์ตั้งแต่ต้นปีจนถึงปัจจุบัน - ค่าเริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="78ac5-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="78ac5-142">**DESC** – คำอธิบายจากคำนิยามของแถว</span><span class="sxs-lookup"><span data-stu-id="78ac5-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="78ac5-143">**FD** – ข้อมูลทางการเงินตั้งแต่ต้นปีจนถึงปัจจุบันสำหรับปีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="78ac5-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="eed93-144">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="eed93-144">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="78ac5-144">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="78ac5-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="eed93-145">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="eed93-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="78ac5-145">การรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="78ac5-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="eed93-146">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="eed93-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="78ac5-146">ดูรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="78ac5-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="eed93-147">บล็อกการรายงานทางการเงิน Dynamics</span><span class="sxs-lookup"><span data-stu-id="eed93-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="78ac5-147">บล็อกการรายงานทางการเงิน Dynamics</span><span class="sxs-lookup"><span data-stu-id="78ac5-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

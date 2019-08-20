@@ -10,49 +10,49 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1fd53ea1dff9b116d19c525c5d6967ece0993b6f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566926"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839868"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a><span data-ttu-id="ad32c-103">การตั้งค่าสมุดบัญชีค่าเสื่อมราคา (พฤษภาคม 2016)</span><span class="sxs-lookup"><span data-stu-id="ad32c-103">Set up depreciation books (May 2016)</span></span>
+# <a name="set-up-depreciation-books-may-2016"></a><span data-ttu-id="c18ba-103">การตั้งค่าสมุดบัญชีค่าเสื่อมราคา (พฤษภาคม 2016)</span><span class="sxs-lookup"><span data-stu-id="c18ba-103">Set up depreciation books (May 2016)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ad32c-104">คำแนะนำของงานนี้จะสร้างสมุดค่าเสื่อมราคาใหม่และเชื่อมโยงกับสินทรัพย์ถาวร </span><span class="sxs-lookup"><span data-stu-id="ad32c-104">This task guide will create a new depreciation book and associate it with a fixed asset group.</span></span>  <span data-ttu-id="ad32c-105">ใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="ad32c-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="c18ba-104">คำแนะนำของงานนี้จะสร้างสมุดค่าเสื่อมราคาใหม่และเชื่อมโยงกับสินทรัพย์ถาวร </span><span class="sxs-lookup"><span data-stu-id="c18ba-104">This task guide will create a new depreciation book and associate it with a fixed asset group.</span></span>  <span data-ttu-id="c18ba-105">ใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="c18ba-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="create-a-depreciation-book"></a><span data-ttu-id="ad32c-106">สร้างสมุดบัญชีค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="ad32c-106">Create a depreciation book</span></span>
-1. <span data-ttu-id="ad32c-107">ไปที่สินทรัพย์ถาวร > การติดตั้ง > สมุดบัญชีค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="ad32c-107">Go to Fixed assets > Setup > Depreciation books.</span></span>
-2. <span data-ttu-id="ad32c-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ad32c-108">Click New.</span></span>
-3. <span data-ttu-id="ad32c-109">ในฟิลด์สมุดบัญชีค่าเสื่อมราคา พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ad32c-109">In the Depreciation book field, type a value.</span></span>
-4. <span data-ttu-id="ad32c-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ad32c-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="ad32c-111">เลือกหรือยกเลิกกล่องกาเครื่องหมายการคำนวณค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="ad32c-111">Check or uncheck the Calculate depreciation checkbox.</span></span>
-6. <span data-ttu-id="ad32c-112">คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหาในฟิลด์โพรไฟล์ค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="ad32c-112">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="ad32c-113">ในรายการนี้ ให้ค้นหาและเลือกโพรไฟล์ค่าเสื่อมราคาที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="ad32c-113">In the list, find and select the desired depreciation profile.</span></span>
-8. <span data-ttu-id="ad32c-114">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ad32c-114">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="ad32c-115">ในฟิลด์โพรไฟล์ค่าเสื่อมราคาสำรอง คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="ad32c-115">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="ad32c-116">ในรายการนี้ ให้เลือกโพรไฟล์ค่าเสื่อมราคาที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="ad32c-116">In the list, select the desired depreciation profile.</span></span>
-11. <span data-ttu-id="ad32c-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ad32c-117">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="ad32c-118">โพรไฟล์ค่าเสื่อมราคาพิเศษใช้สำหรับค่าเสื่อมราคาเพิ่มเติมของสินทรัพย์ในสถานการณ์ที่ผิดปกติ </span><span class="sxs-lookup"><span data-stu-id="ad32c-118">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="ad32c-119">ตัวอย่างเช่น คุณอาจใช้สิ่งนี้เพื่อบันทึกการคิดค่าเสื่อมราคาซึ่งเป็นผลมาจากภัยพิบัติธรรมชาติ</span><span class="sxs-lookup"><span data-stu-id="ad32c-119">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
-12. <span data-ttu-id="ad32c-120">เลือกหรือยกเลิกการสร้างการปรับปรุงค่าเสื่อมราคาที่มีการปรับปรุงช่องกาเครื่องหมายพื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="ad32c-120">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
-13. <span data-ttu-id="ad32c-121">ในฟิลด์ปฏิทิน คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="ad32c-121">In the Calendar field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="ad32c-122">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ad32c-122">In the list, click the link in the selected row.</span></span>
+## <a name="create-a-depreciation-book"></a><span data-ttu-id="c18ba-106">สร้างสมุดบัญชีค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="c18ba-106">Create a depreciation book</span></span>
+1. <span data-ttu-id="c18ba-107">ไปที่สินทรัพย์ถาวร > การติดตั้ง > สมุดบัญชีค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="c18ba-107">Go to Fixed assets > Setup > Depreciation books.</span></span>
+2. <span data-ttu-id="c18ba-108">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="c18ba-108">Click New.</span></span>
+3. <span data-ttu-id="c18ba-109">ในฟิลด์สมุดบัญชีค่าเสื่อมราคา พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c18ba-109">In the Depreciation book field, type a value.</span></span>
+4. <span data-ttu-id="c18ba-110">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c18ba-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c18ba-111">เลือกหรือยกเลิกกล่องกาเครื่องหมายการคำนวณค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="c18ba-111">Check or uncheck the Calculate depreciation checkbox.</span></span>
+6. <span data-ttu-id="c18ba-112">คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหาในฟิลด์โพรไฟล์ค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="c18ba-112">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="c18ba-113">ในรายการนี้ ให้ค้นหาและเลือกโพรไฟล์ค่าเสื่อมราคาที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c18ba-113">In the list, find and select the desired depreciation profile.</span></span>
+8. <span data-ttu-id="c18ba-114">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c18ba-114">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="c18ba-115">ในฟิลด์โพรไฟล์ค่าเสื่อมราคาสำรอง คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="c18ba-115">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="c18ba-116">ในรายการนี้ ให้เลือกโพรไฟล์ค่าเสื่อมราคาที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c18ba-116">In the list, select the desired depreciation profile.</span></span>
+11. <span data-ttu-id="c18ba-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c18ba-117">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="c18ba-118">โพรไฟล์ค่าเสื่อมราคาพิเศษใช้สำหรับค่าเสื่อมราคาเพิ่มเติมของสินทรัพย์ในสถานการณ์ที่ผิดปกติ </span><span class="sxs-lookup"><span data-stu-id="c18ba-118">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="c18ba-119">ตัวอย่างเช่น คุณอาจใช้สิ่งนี้เพื่อบันทึกการคิดค่าเสื่อมราคาซึ่งเป็นผลมาจากภัยพิบัติธรรมชาติ</span><span class="sxs-lookup"><span data-stu-id="c18ba-119">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+12. <span data-ttu-id="c18ba-120">เลือกหรือยกเลิกการสร้างการปรับปรุงค่าเสื่อมราคาที่มีการปรับปรุงช่องกาเครื่องหมายพื้นฐาน</span><span class="sxs-lookup"><span data-stu-id="c18ba-120">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
+13. <span data-ttu-id="c18ba-121">ในฟิลด์ปฏิทิน คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c18ba-121">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="c18ba-122">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c18ba-122">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="ad32c-123">เชื่อมโยงสมุดบัญชีค่าเสื่อมราคากับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="ad32c-123">Associate the depreciation book with a fixed asset group</span></span>
-1. <span data-ttu-id="ad32c-124">คลิกสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="ad32c-124">Click Fixed asset groups.</span></span>
-2. <span data-ttu-id="ad32c-125">ในฟิลด์สินทรัพย์ถาวร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="ad32c-125">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="ad32c-126">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="ad32c-126">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="ad32c-127">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ad32c-127">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="ad32c-128">ในฟิลด์การประชุมการเสื่อมราคา ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ad32c-128">In the Depreciation convention field, select an option.</span></span>
-6. <span data-ttu-id="ad32c-129">ในฟิลด์อายุการใช้งาน ป้อนจำนวน</span><span class="sxs-lookup"><span data-stu-id="ad32c-129">In the Service life field, enter a number.</span></span>
-    * <span data-ttu-id="ad32c-130">สังเกตมูลค่าของฟิลด์รอบระยะเวลาการคิดค่าเสื่อมราคาหลังจากการตั้งค่าอายุการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="ad32c-130">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
+## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="c18ba-123">เชื่อมโยงสมุดบัญชีค่าเสื่อมราคากับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="c18ba-123">Associate the depreciation book with a fixed asset group</span></span>
+1. <span data-ttu-id="c18ba-124">คลิกสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="c18ba-124">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="c18ba-125">ในฟิลด์สินทรัพย์ถาวร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c18ba-125">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="c18ba-126">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c18ba-126">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="c18ba-127">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c18ba-127">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="c18ba-128">ในฟิลด์การประชุมการเสื่อมราคา ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="c18ba-128">In the Depreciation convention field, select an option.</span></span>
+6. <span data-ttu-id="c18ba-129">ในฟิลด์อายุการใช้งาน ป้อนจำนวน</span><span class="sxs-lookup"><span data-stu-id="c18ba-129">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="c18ba-130">สังเกตมูลค่าของฟิลด์รอบระยะเวลาการคิดค่าเสื่อมราคาหลังจากการตั้งค่าอายุการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c18ba-130">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
 

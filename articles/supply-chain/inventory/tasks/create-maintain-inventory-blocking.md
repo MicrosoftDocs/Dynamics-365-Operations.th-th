@@ -10,50 +10,50 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 845d517ad10245df3b208874df61e235c199c7fe
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549782"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836419"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="26955-103">สร้างและรักษาการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="26955-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="0f52c-103">สร้างและรักษาการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="0f52c-103">Create and maintain an inventory blocking</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="26955-104">ขั้นตอนนี้แสดงวิธีการป้องกันสินค้าคงคลังคงเหลือทางกายภาพจากการสำรองไว้โดยเอกสารต้นทางขาออกอื่น ๆ โดยใช้การบล็อคสินค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="26955-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="26955-105">คุณสามารถรันกระบวนการในข้อมูลสาธิตบริษัท USMF โดยใช้ค่าตัวอย่างที่จะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="26955-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="26955-106">คุณต้องมีสินค้าคงคลังคงเหลือทางกายภาพพร้อมใช้งานก่อนที่คุณเริ่มกระบวนการนี้</span><span class="sxs-lookup"><span data-stu-id="26955-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="0f52c-104">ขั้นตอนนี้แสดงวิธีการป้องกันสินค้าคงคลังคงเหลือทางกายภาพจากการสำรองไว้โดยเอกสารต้นทางขาออกอื่น ๆ โดยใช้การบล็อคสินค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="0f52c-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="0f52c-105">คุณสามารถรันกระบวนการในข้อมูลสาธิตบริษัท USMF โดยใช้ค่าตัวอย่างที่จะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="0f52c-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="0f52c-106">คุณต้องมีสินค้าคงคลังคงเหลือทางกายภาพพร้อมใช้งานก่อนที่คุณเริ่มกระบวนการนี้</span><span class="sxs-lookup"><span data-stu-id="0f52c-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
 
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="26955-107">สร้างการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="26955-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="26955-108">ไปยังการบริหารสินค้าคงคลัง > งานประจำงวด > การบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="26955-108">Go to Inventory management > Periodic tasks > Inventory blocking.</span></span>
-2. <span data-ttu-id="26955-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="26955-109">Click New.</span></span>
-3. <span data-ttu-id="26955-110">ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="26955-110">In the Item number field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="26955-111">ในรายการ ให้เลือกสินค้าที่คุณต้องการเลือก</span><span class="sxs-lookup"><span data-stu-id="26955-111">In the list, select the item you want to choose.</span></span> 
-    * <span data-ttu-id="26955-112">เลือกหมายเลขสินค้ากับสินค้าคงคลังคงเหลือที่มีอยู่จริงที่คุณต้องการบล็อค </span><span class="sxs-lookup"><span data-stu-id="26955-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="26955-113">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกสินค้า M9201</span><span class="sxs-lookup"><span data-stu-id="26955-113">If you’re using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="26955-114">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="26955-114">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="26955-115">ถ้าคุณกำลังใช้สินค้า M9201 คุณต้องเลือกน้อยกว่า 200</span><span class="sxs-lookup"><span data-stu-id="26955-115">If you’re using item M9201, you need to select less than 200.</span></span>  
-6. <span data-ttu-id="26955-116">สลับการขยายของส่วนมิติสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="26955-116">Toggle the expansion of the Inventory dimensions section.</span></span>
-7. <span data-ttu-id="26955-117">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="26955-117">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="26955-118">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="26955-118">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="26955-119">ถ้าคุณกำลังใช้สินค้า M9201 คุณสามารถเลือกคลังสินค้า 51 ได้</span><span class="sxs-lookup"><span data-stu-id="26955-119">If you’re using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="26955-120">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="26955-120">Click Save.</span></span>
+## <a name="create-an-inventory-blocking"></a><span data-ttu-id="0f52c-107">สร้างการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="0f52c-107">Create an inventory blocking</span></span>
+1. <span data-ttu-id="0f52c-108">ไปยังการบริหารสินค้าคงคลัง > งานประจำงวด > การบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="0f52c-108">Go to Inventory management > Periodic tasks > Inventory blocking.</span></span>
+2. <span data-ttu-id="0f52c-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="0f52c-109">Click New.</span></span>
+3. <span data-ttu-id="0f52c-110">ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="0f52c-110">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="0f52c-111">ในรายการ ให้เลือกสินค้าที่คุณต้องการเลือก</span><span class="sxs-lookup"><span data-stu-id="0f52c-111">In the list, select the item you want to choose.</span></span> 
+    * <span data-ttu-id="0f52c-112">เลือกหมายเลขสินค้ากับสินค้าคงคลังคงเหลือที่มีอยู่จริงที่คุณต้องการบล็อค </span><span class="sxs-lookup"><span data-stu-id="0f52c-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="0f52c-113">ถ้าคุณกำลังใช้ USMF คุณสามารถเลือกสินค้า M9201</span><span class="sxs-lookup"><span data-stu-id="0f52c-113">If you’re using USMF you can select item M9201.</span></span>  
+5. <span data-ttu-id="0f52c-114">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="0f52c-114">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="0f52c-115">ถ้าคุณกำลังใช้สินค้า M9201 คุณต้องเลือกน้อยกว่า 200</span><span class="sxs-lookup"><span data-stu-id="0f52c-115">If you’re using item M9201, you need to select less than 200.</span></span>  
+6. <span data-ttu-id="0f52c-116">สลับการขยายของส่วนมิติสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="0f52c-116">Toggle the expansion of the Inventory dimensions section.</span></span>
+7. <span data-ttu-id="0f52c-117">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="0f52c-117">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="0f52c-118">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="0f52c-118">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0f52c-119">ถ้าคุณกำลังใช้สินค้า M9201 คุณสามารถเลือกคลังสินค้า 51 ได้</span><span class="sxs-lookup"><span data-stu-id="0f52c-119">If you’re using item M9201, you can select warehouse 51.</span></span>  
+9. <span data-ttu-id="0f52c-120">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="0f52c-120">Click Save.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="26955-121">ปรับปรุงเงื่อนไขของการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="26955-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="26955-122">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="26955-122">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="26955-123">อัพเดตฟิลด์ปริมาณสินค้าคงคลังเพื่อสะท้อนปริมาณการบล็อค</span><span class="sxs-lookup"><span data-stu-id="26955-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="26955-124">ในฟิลด์วันที่คาดหวังไว้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="26955-124">In the Expected date field, enter a date.</span></span>
-    * <span data-ttu-id="26955-125">คุณอาจต้องการที่จะระบุเมื่อสินค้าคงคลังที่ถูกบล็อคถูกคาดว่าจะพร้อมใช้งานสำหรับการจอง โดยการกำหนดวันที่คาดไว้ </span><span class="sxs-lookup"><span data-stu-id="26955-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="26955-126">ถ้าตัวเลือกใบเสร็จรับเงินที่คาดไว้ถูกเลือกสำหรับสินค้าคงคลังการที่ถูกบล็อค ซึ่งเป็นตามค่าเริ่มต้นเมื่อคุณสร้างการบล็อค วันที่วันนี้จะปรากฏบนธุรกรรมที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="26955-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="26955-127">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="26955-127">Click Save.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="0f52c-121">ปรับปรุงเงื่อนไขของการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="0f52c-121">Update the conditions of the inventory blocking</span></span>
+1. <span data-ttu-id="0f52c-122">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="0f52c-122">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="0f52c-123">อัพเดตฟิลด์ปริมาณสินค้าคงคลังเพื่อสะท้อนปริมาณการบล็อค</span><span class="sxs-lookup"><span data-stu-id="0f52c-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
+2. <span data-ttu-id="0f52c-124">ในฟิลด์วันที่คาดหวังไว้ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="0f52c-124">In the Expected date field, enter a date.</span></span>
+    * <span data-ttu-id="0f52c-125">คุณอาจต้องการที่จะระบุเมื่อสินค้าคงคลังที่ถูกบล็อคถูกคาดว่าจะพร้อมใช้งานสำหรับการจอง โดยการกำหนดวันที่คาดไว้ </span><span class="sxs-lookup"><span data-stu-id="0f52c-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="0f52c-126">ถ้าตัวเลือกใบเสร็จรับเงินที่คาดไว้ถูกเลือกสำหรับสินค้าคงคลังการที่ถูกบล็อค ซึ่งเป็นตามค่าเริ่มต้นเมื่อคุณสร้างการบล็อค วันที่วันนี้จะปรากฏบนธุรกรรมที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="0f52c-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
+3. <span data-ttu-id="0f52c-127">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="0f52c-127">Click Save.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="26955-128">ลบการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="26955-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="26955-129">คลิก ลบ</span><span class="sxs-lookup"><span data-stu-id="26955-129">Click Delete.</span></span>
-2. <span data-ttu-id="26955-130">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="26955-130">Click Yes.</span></span>
-3. <span data-ttu-id="26955-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="26955-131">Close the page.</span></span>
+## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="0f52c-128">ลบการบล็อคสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="0f52c-128">Remove the inventory blocking</span></span>
+1. <span data-ttu-id="0f52c-129">คลิก ลบ</span><span class="sxs-lookup"><span data-stu-id="0f52c-129">Click Delete.</span></span>
+2. <span data-ttu-id="0f52c-130">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="0f52c-130">Click Yes.</span></span>
+3. <span data-ttu-id="0f52c-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="0f52c-131">Close the page.</span></span>
 

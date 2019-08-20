@@ -10,53 +10,53 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 330ebacf4a036b2df6ca22728477cae5b347354d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 450e95d8a4d5a216b84a3c944c6c63b4a8ad10c5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550104"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838834"
 ---
-# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="63b7f-103">ปรับปรุงระดับปริมาณสินค้าคงคลังในคลังสินค้า (คลังสินค้าพื้นฐาน)</span><span class="sxs-lookup"><span data-stu-id="63b7f-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="2d280-103">ปรับปรุงระดับปริมาณสินค้าคงคลังในคลังสินค้า (คลังสินค้าพื้นฐาน)</span><span class="sxs-lookup"><span data-stu-id="2d280-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="63b7f-104">กระบวนงานนี้นำคุณผ่านกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการปรับปรุงสินค้าคงคลังเพื่อปรับปรุงระดับสินค้าคงคลังของผลิตภัณฑ์ในคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="63b7f-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="63b7f-105">คุณจำเป็นต้องมีชื่อสมุดรายวันสินค้าคงคลังที่ตั้งค่าสำหรับการปรับปรุงสินค้าคงคลัง ก่อนที่คุณจะเริ่มต้นนี้ </span><span class="sxs-lookup"><span data-stu-id="63b7f-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="63b7f-106">คุณสามารถดำเนินการขั้นตอนนี้ได้ในข้อมูลสาธิตของบริษัท USMF หรือการใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="63b7f-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="63b7f-107">งานเหล่านี้จะปกติจะดำเนินการโดยพนักงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="63b7f-107">These tasks would normally be carried out by a warehouse employee.</span></span>
+<span data-ttu-id="2d280-104">กระบวนงานนี้นำคุณผ่านกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการปรับปรุงสินค้าคงคลังเพื่อปรับปรุงระดับสินค้าคงคลังของผลิตภัณฑ์ในคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="2d280-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="2d280-105">คุณจำเป็นต้องมีชื่อสมุดรายวันสินค้าคงคลังที่ตั้งค่าสำหรับการปรับปรุงสินค้าคงคลัง ก่อนที่คุณจะเริ่มต้นนี้ </span><span class="sxs-lookup"><span data-stu-id="2d280-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="2d280-106">คุณสามารถดำเนินการขั้นตอนนี้ได้ในข้อมูลสาธิตของบริษัท USMF หรือการใช้ข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="2d280-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="2d280-107">งานเหล่านี้จะปกติจะดำเนินการโดยพนักงานคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="2d280-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-adjustment-journal"></a><span data-ttu-id="63b7f-108">สร้างสมุดรายวันการปรับปรุงสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="63b7f-108">Create an inventory adjustment journal</span></span>
-1. <span data-ttu-id="63b7f-109">ไปที่ การบริหารสินค้าคงคลัง > รายการสมุดบันทึกรายวัน > สินค้า > การปรับปรุงสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="63b7f-109">Go to Inventory management > Journal entries > Items > Inventory adjustment.</span></span>
-2. <span data-ttu-id="63b7f-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="63b7f-110">Click New.</span></span>
-3. <span data-ttu-id="63b7f-111">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="63b7f-111">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="63b7f-112">ในรายการ คลิก ชื่อสมุดรายวันการปรับปรุงสินค้าคงคลังที่คุณต้องการใช้</span><span class="sxs-lookup"><span data-stu-id="63b7f-112">In the list, click on the inventory adjustment journal name you want to use.</span></span>
-    * <span data-ttu-id="63b7f-113">บางฟิลด์อื่นๆ จะถูกเติมข้อมูลตามการตั้งค่าของชื่อสมุดรายวันการปรับปรุงสินค้าคงคลังที่คุณเลือก</span><span class="sxs-lookup"><span data-stu-id="63b7f-113">Some other fields will be populated based on the setup of the inventory adjustment journal name you select.</span></span>  
-5. <span data-ttu-id="63b7f-114">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="63b7f-114">Click OK.</span></span>
+## <a name="create-an-inventory-adjustment-journal"></a><span data-ttu-id="2d280-108">สร้างสมุดรายวันการปรับปรุงสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2d280-108">Create an inventory adjustment journal</span></span>
+1. <span data-ttu-id="2d280-109">ไปที่ การบริหารสินค้าคงคลัง > รายการสมุดบันทึกรายวัน > สินค้า > การปรับปรุงสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2d280-109">Go to Inventory management > Journal entries > Items > Inventory adjustment.</span></span>
+2. <span data-ttu-id="2d280-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="2d280-110">Click New.</span></span>
+3. <span data-ttu-id="2d280-111">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2d280-111">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="2d280-112">ในรายการ คลิก ชื่อสมุดรายวันการปรับปรุงสินค้าคงคลังที่คุณต้องการใช้</span><span class="sxs-lookup"><span data-stu-id="2d280-112">In the list, click on the inventory adjustment journal name you want to use.</span></span>
+    * <span data-ttu-id="2d280-113">บางฟิลด์อื่นๆ จะถูกเติมข้อมูลตามการตั้งค่าของชื่อสมุดรายวันการปรับปรุงสินค้าคงคลังที่คุณเลือก</span><span class="sxs-lookup"><span data-stu-id="2d280-113">Some other fields will be populated based on the setup of the inventory adjustment journal name you select.</span></span>  
+5. <span data-ttu-id="2d280-114">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="2d280-114">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a><span data-ttu-id="63b7f-115">สร้างรายการสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="63b7f-115">Create journal lines</span></span>
-1. <span data-ttu-id="63b7f-116">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="63b7f-116">Click New.</span></span>
-2. <span data-ttu-id="63b7f-117">ในรายการ ทำเครื่องหมายที่ฟิลด์หมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="63b7f-117">In the list, mark the item number field.</span></span>
-3. <span data-ttu-id="63b7f-118">ในฟิลด์หมายเลขสินค้า เลือกสินค้า </span><span class="sxs-lookup"><span data-stu-id="63b7f-118">In the Item number field, Select an item.</span></span> <span data-ttu-id="63b7f-119">ถ้าคุณกำลังใช้ข้อมูลสาธิตของบริษัท USMF ชนิด 'D0001'</span><span class="sxs-lookup"><span data-stu-id="63b7f-119">If you are using demo data company USMF, type 'D0001'.</span></span>
-4. <span data-ttu-id="63b7f-120">ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="63b7f-120">In the Site field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="63b7f-121">ในรายการ เลือก ไซต์</span><span class="sxs-lookup"><span data-stu-id="63b7f-121">In the list, select a site.</span></span>
-6. <span data-ttu-id="63b7f-122">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="63b7f-122">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="63b7f-123">ในรายการ เลือก คลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="63b7f-123">In the list, select a warehouse.</span></span>
-    * <span data-ttu-id="63b7f-124">ถ้าคุณได้เลือกสินค้าทีมีตำแหน่งที่ตั้งเป็นมิติบังคับ คุณจะต้องระบุตำแหน่งที่ตั้งที่นี่</span><span class="sxs-lookup"><span data-stu-id="63b7f-124">If you have selected an item with Location as a mandatory dimension, you would have to specify the location here.</span></span>  
-8. <span data-ttu-id="63b7f-125">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="63b7f-125">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="63b7f-126">ฟิลด์ราคาต้นทุนระบุต้นทุนต่อหน่วยสำหรับการรับสต็อก </span><span class="sxs-lookup"><span data-stu-id="63b7f-126">The cost price field specifies the cost per unit for inventory receipts.</span></span> <span data-ttu-id="63b7f-127">ถ้าไม่ระบุต้นทุนสำหรับหมายเลขสินค้า หรือถ้าคุณต้องการเปลี่ยนแปลงต้นทุนด้วยตนเอง คุณควรทำ ณ ที่นี่</span><span class="sxs-lookup"><span data-stu-id="63b7f-127">If the cost is not specified for the item number or if you wanted to change it manually, you would do this here.</span></span>  
+## <a name="create-journal-lines"></a><span data-ttu-id="2d280-115">สร้างรายการสมุดรายวัน</span><span class="sxs-lookup"><span data-stu-id="2d280-115">Create journal lines</span></span>
+1. <span data-ttu-id="2d280-116">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="2d280-116">Click New.</span></span>
+2. <span data-ttu-id="2d280-117">ในรายการ ทำเครื่องหมายที่ฟิลด์หมายเลขสินค้า</span><span class="sxs-lookup"><span data-stu-id="2d280-117">In the list, mark the item number field.</span></span>
+3. <span data-ttu-id="2d280-118">ในฟิลด์หมายเลขสินค้า เลือกสินค้า </span><span class="sxs-lookup"><span data-stu-id="2d280-118">In the Item number field, Select an item.</span></span> <span data-ttu-id="2d280-119">ถ้าคุณกำลังใช้ข้อมูลสาธิตของบริษัท USMF ชนิด 'D0001'</span><span class="sxs-lookup"><span data-stu-id="2d280-119">If you are using demo data company USMF, type 'D0001'.</span></span>
+4. <span data-ttu-id="2d280-120">ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2d280-120">In the Site field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="2d280-121">ในรายการ เลือก ไซต์</span><span class="sxs-lookup"><span data-stu-id="2d280-121">In the list, select a site.</span></span>
+6. <span data-ttu-id="2d280-122">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="2d280-122">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="2d280-123">ในรายการ เลือก คลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="2d280-123">In the list, select a warehouse.</span></span>
+    * <span data-ttu-id="2d280-124">ถ้าคุณได้เลือกสินค้าทีมีตำแหน่งที่ตั้งเป็นมิติบังคับ คุณจะต้องระบุตำแหน่งที่ตั้งที่นี่</span><span class="sxs-lookup"><span data-stu-id="2d280-124">If you have selected an item with Location as a mandatory dimension, you would have to specify the location here.</span></span>  
+8. <span data-ttu-id="2d280-125">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="2d280-125">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="2d280-126">ฟิลด์ราคาต้นทุนระบุต้นทุนต่อหน่วยสำหรับการรับสต็อก </span><span class="sxs-lookup"><span data-stu-id="2d280-126">The cost price field specifies the cost per unit for inventory receipts.</span></span> <span data-ttu-id="2d280-127">ถ้าไม่ระบุต้นทุนสำหรับหมายเลขสินค้า หรือถ้าคุณต้องการเปลี่ยนแปลงต้นทุนด้วยตนเอง คุณควรทำ ณ ที่นี่</span><span class="sxs-lookup"><span data-stu-id="2d280-127">If the cost is not specified for the item number or if you wanted to change it manually, you would do this here.</span></span>  
 
-## <a name="validate-and-post-the-inventory-adjustment-journal"></a><span data-ttu-id="63b7f-128">ตรวจสอบความถูกต้องและลงรายการบัญชีสมุดการปรับปรุงสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="63b7f-128">Validate and post the inventory adjustment journal</span></span>
-1. <span data-ttu-id="63b7f-129">คลิก ตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="63b7f-129">Click Validate.</span></span>
-2. <span data-ttu-id="63b7f-130">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="63b7f-130">Click OK.</span></span>
-3. <span data-ttu-id="63b7f-131">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="63b7f-131">Click Post.</span></span>
-    * <span data-ttu-id="63b7f-132">เมื่อคุณลงรายการบัญชีสมุดรายวันชนิดนี้ การรับสินค้าคงคลังหรือการตัดสินค้าจากคลังจะถูกลงรายการบัญชี มีการเปลี่ยนแปลงระดับและมูลค่าสินค้าคงคลัง และมีการสร้างธุรกรรมบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="63b7f-132">When you post this kind of journal, an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
-4. <span data-ttu-id="63b7f-133">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="63b7f-133">Click OK.</span></span>
-5. <span data-ttu-id="63b7f-134">ปิดแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="63b7f-134">Close the form.</span></span>
-6. <span data-ttu-id="63b7f-135">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="63b7f-135">Close the page.</span></span>
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a><span data-ttu-id="2d280-128">ตรวจสอบความถูกต้องและลงรายการบัญชีสมุดการปรับปรุงสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="2d280-128">Validate and post the inventory adjustment journal</span></span>
+1. <span data-ttu-id="2d280-129">คลิก ตรวจสอบความถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="2d280-129">Click Validate.</span></span>
+2. <span data-ttu-id="2d280-130">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="2d280-130">Click OK.</span></span>
+3. <span data-ttu-id="2d280-131">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="2d280-131">Click Post.</span></span>
+    * <span data-ttu-id="2d280-132">เมื่อคุณลงรายการบัญชีสมุดรายวันชนิดนี้ การรับสินค้าคงคลังหรือการตัดสินค้าจากคลังจะถูกลงรายการบัญชี มีการเปลี่ยนแปลงระดับและมูลค่าสินค้าคงคลัง และมีการสร้างธุรกรรมบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="2d280-132">When you post this kind of journal, an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
+4. <span data-ttu-id="2d280-133">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="2d280-133">Click OK.</span></span>
+5. <span data-ttu-id="2d280-134">ปิดแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="2d280-134">Close the form.</span></span>
+6. <span data-ttu-id="2d280-135">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="2d280-135">Close the page.</span></span>
 

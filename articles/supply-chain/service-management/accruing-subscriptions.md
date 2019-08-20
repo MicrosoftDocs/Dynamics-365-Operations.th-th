@@ -18,63 +18,63 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a183e17749c04b407eb17155ecb1363e96ade18a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27908e2852f3f28264f83e0118eb4be79c9e03bc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546651"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742297"
 ---
-# <a name="accruing-subscriptions"></a><span data-ttu-id="71ffc-103">การตั้งค้างรับการสั่งซื้อโดยบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-103">Accruing subscriptions</span></span> 
+# <a name="accruing-subscriptions"></a><span data-ttu-id="8368d-103">การตั้งค้างรับการสั่งซื้อโดยบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-103">Accruing subscriptions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="71ffc-104">ด้วยการสั่งซื้อโดยบอกรับเป็นสมาชิกการบริการ คุณจะรับรู้รายได้ในรอบเวลาที่ตามหลังวันที่เมื่อคุณออกใบแจ้งหนี้ธุรกรรมค่าธรรมเนียมได้ด้วยตัวเอง</span><span class="sxs-lookup"><span data-stu-id="71ffc-104">With service subscriptions, you manually accrue revenue in the periods following the date when you invoiced a fee transaction.</span></span>
+<span data-ttu-id="8368d-104">ด้วยการสั่งซื้อโดยบอกรับเป็นสมาชิกการบริการ คุณจะรับรู้รายได้ในรอบเวลาที่ตามหลังวันที่เมื่อคุณออกใบแจ้งหนี้ธุรกรรมค่าธรรมเนียมได้ด้วยตัวเอง</span><span class="sxs-lookup"><span data-stu-id="8368d-104">With service subscriptions, you manually accrue revenue in the periods following the date when you invoiced a fee transaction.</span></span>
 
-<span data-ttu-id="71ffc-105">รอบระยะเวลาการรับรู้รายได้มีการสร้างขึ้นสำหรับรอบใบแจ้งหนี้ที่คุณตั้งค่าให้กับค่าธรรมเนียมการบอกรับเป็นสมาชิก และรอบระยะเวลาการรับรู้รายได้มีพื้นฐานตามรหัสช่วงเวลาของการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-105">Accrual periods are created for the invoice period that you set up for the subscription fee, and the accrual periods are based on the period code of the subscription.</span></span>
+<span data-ttu-id="8368d-105">รอบระยะเวลาการรับรู้รายได้มีการสร้างขึ้นสำหรับรอบใบแจ้งหนี้ที่คุณตั้งค่าให้กับค่าธรรมเนียมการบอกรับเป็นสมาชิก และรอบระยะเวลาการรับรู้รายได้มีพื้นฐานตามรหัสช่วงเวลาของการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-105">Accrual periods are created for the invoice period that you set up for the subscription fee, and the accrual periods are based on the period code of the subscription.</span></span>
 
-<span data-ttu-id="71ffc-106">คุณสามารถรับรู้รายได้และย้อนกลับรายได้ที่ค้างรับ</span><span class="sxs-lookup"><span data-stu-id="71ffc-106">You can accrue and reverse accrued revenue.</span></span>
+<span data-ttu-id="8368d-106">คุณสามารถรับรู้รายได้และย้อนกลับรายได้ที่ค้างรับ</span><span class="sxs-lookup"><span data-stu-id="8368d-106">You can accrue and reverse accrued revenue.</span></span>
 
-## <a name="reverse-accruals-of-credit-amounts"></a><span data-ttu-id="71ffc-107">กลับรายการการรับรู้ของยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="71ffc-107">Reverse accruals of credit amounts</span></span>
+## <a name="reverse-accruals-of-credit-amounts"></a><span data-ttu-id="8368d-107">กลับรายการการรับรู้ของยอดเครดิต</span><span class="sxs-lookup"><span data-stu-id="8368d-107">Reverse accruals of credit amounts</span></span>
 
-<span data-ttu-id="71ffc-108">ถ้าคุณให้เครดิตจำนวนเงินที่ออกใบแจ้งหนี้ คุณสามารถใช้วิธีได้สองวิธีในการย้อนกลับรายได้ที่รับรู้:</span><span class="sxs-lookup"><span data-stu-id="71ffc-108">If you credit invoiced subscription amounts, you can use two methods to reverse the accrual amounts:</span></span>
+<span data-ttu-id="8368d-108">ถ้าคุณให้เครดิตจำนวนเงินที่ออกใบแจ้งหนี้ คุณสามารถใช้วิธีได้สองวิธีในการย้อนกลับรายได้ที่รับรู้:</span><span class="sxs-lookup"><span data-stu-id="8368d-108">If you credit invoiced subscription amounts, you can use two methods to reverse the accrual amounts:</span></span>
 
-  - <span data-ttu-id="71ffc-109">คุณสามารถกลับรายการธุรกรรมรายได้ค้างรับแต่ละธุรกรรมได้ ก่อนที่คุณจะสร้างข้อเสนอใบลดหนี้สำหรับธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="71ffc-109">You can reverse each accrued revenue transaction individually before you create the credit note proposal for the transaction.</span></span> <span data-ttu-id="71ffc-110">นี่เป็นวิธีแบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="71ffc-110">This is the manual method.</span></span> <span data-ttu-id="71ffc-111">(แบบกำหนดเอง)</span><span class="sxs-lookup"><span data-stu-id="71ffc-111">(manual)</span></span>
+  - <span data-ttu-id="8368d-109">คุณสามารถกลับรายการธุรกรรมรายได้ค้างรับแต่ละธุรกรรมได้ ก่อนที่คุณจะสร้างข้อเสนอใบลดหนี้สำหรับธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="8368d-109">You can reverse each accrued revenue transaction individually before you create the credit note proposal for the transaction.</span></span> <span data-ttu-id="8368d-110">นี่เป็นวิธีแบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8368d-110">This is the manual method.</span></span> <span data-ttu-id="8368d-111">(แบบกำหนดเอง)</span><span class="sxs-lookup"><span data-stu-id="8368d-111">(manual)</span></span>
 
-  - <span data-ttu-id="71ffc-112">คุณสามารถย้อนกลับจำนวนเงินค้างรับในวันที่ที่มีการลงรายการบัญชีใบลดหนี้ หรือในวันที่ที่ลงรายการบัญชีเดิมของการรับรู้ได้</span><span class="sxs-lookup"><span data-stu-id="71ffc-112">You can have the accrued amounts reversed on the date where the credit note is posted or on the original posting date of the accrual.</span></span>
+  - <span data-ttu-id="8368d-112">คุณสามารถย้อนกลับจำนวนเงินค้างรับในวันที่ที่มีการลงรายการบัญชีใบลดหนี้ หรือในวันที่ที่ลงรายการบัญชีเดิมของการรับรู้ได้</span><span class="sxs-lookup"><span data-stu-id="8368d-112">You can have the accrued amounts reversed on the date where the credit note is posted or on the original posting date of the accrual.</span></span>
 
-<span data-ttu-id="71ffc-113">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [พารามิเตอร์การบอกรับเป็นสมาชิก (ฟอร์ม)](https://technet.microsoft.com/en-us/library/aa619615.aspx)</span><span class="sxs-lookup"><span data-stu-id="71ffc-113">For more information, see [Subscription parameters (form)](https://technet.microsoft.com/en-us/library/aa619615.aspx).</span></span>
+<span data-ttu-id="8368d-113">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [พารามิเตอร์การบอกรับเป็นสมาชิก (ฟอร์ม)](https://technet.microsoft.com/library/aa619615.aspx)</span><span class="sxs-lookup"><span data-stu-id="8368d-113">For more information, see [Subscription parameters (form)](https://technet.microsoft.com/library/aa619615.aspx).</span></span>
 
-## <a name="setup-requirements"></a><span data-ttu-id="71ffc-114">ตั้งค่าความต้องการ</span><span class="sxs-lookup"><span data-stu-id="71ffc-114">Setup requirements</span></span>
+## <a name="setup-requirements"></a><span data-ttu-id="8368d-114">ตั้งค่าความต้องการ</span><span class="sxs-lookup"><span data-stu-id="8368d-114">Setup requirements</span></span>
 
-<span data-ttu-id="71ffc-115">เมื่อต้องการรับรู้รายได้ ให้ตรวจสอบให้แน่ใจว่าข้อกำหนดข้อมูลต่อไปนี้ตรงกับเงื่อนไข:</span><span class="sxs-lookup"><span data-stu-id="71ffc-115">To accrue revenue, make sure that the following data requirements are met:</span></span>
+<span data-ttu-id="8368d-115">เมื่อต้องการรับรู้รายได้ ให้ตรวจสอบให้แน่ใจว่าข้อกำหนดข้อมูลต่อไปนี้ตรงกับเงื่อนไข:</span><span class="sxs-lookup"><span data-stu-id="8368d-115">To accrue revenue, make sure that the following data requirements are met:</span></span>
 
-## <a name="account-setup"></a><span data-ttu-id="71ffc-116">การตั้งค่าบัญชี</span><span class="sxs-lookup"><span data-stu-id="71ffc-116">Account setup</span></span>
+## <a name="account-setup"></a><span data-ttu-id="8368d-116">การตั้งค่าบัญชี</span><span class="sxs-lookup"><span data-stu-id="8368d-116">Account setup</span></span>
 
-<span data-ttu-id="71ffc-117">**WIP - การบอกรับเป็นสมาชิก** และบัญชี **รายได้ค้างรับ - การบอกรับเป็นสมาชิก** ต้องถูกตั้งค่าในโมดูล **โครงการ**</span><span class="sxs-lookup"><span data-stu-id="71ffc-117">The **WIP - subscription** and the **Accrued revenue - subscription** accounts must be set up in the **Project** module.</span></span>
+<span data-ttu-id="8368d-117">**WIP - การบอกรับเป็นสมาชิก** และบัญชี **รายได้ค้างรับ - การบอกรับเป็นสมาชิก** ต้องถูกตั้งค่าในโมดูล **โครงการ**</span><span class="sxs-lookup"><span data-stu-id="8368d-117">The **WIP - subscription** and the **Accrued revenue - subscription** accounts must be set up in the **Project** module.</span></span>
 
-<span data-ttu-id="71ffc-118">เมื่อคุณลงรายการบัญชีรายได้ค้างรับ บัญชี **WIP - การบอกรับเป็นสมาชิก** ถูกเดบิตด้วยยอดเงินคงค้าง และบัญชี **รายได้ค้างรับ - การบอกรับเป็นสมาชิก** จะถูกเครดิตด้วยยอดเงินคงค้าง</span><span class="sxs-lookup"><span data-stu-id="71ffc-118">When you post accrued revenue, the **WIP - subscription** account is debited with the accrual amount, and the **Accrued revenue - subscription** account is credited with the accrual amount.</span></span>
+<span data-ttu-id="8368d-118">เมื่อคุณลงรายการบัญชีรายได้ค้างรับ บัญชี **WIP - การบอกรับเป็นสมาชิก** ถูกเดบิตด้วยยอดเงินคงค้าง และบัญชี **รายได้ค้างรับ - การบอกรับเป็นสมาชิก** จะถูกเครดิตด้วยยอดเงินคงค้าง</span><span class="sxs-lookup"><span data-stu-id="8368d-118">When you post accrued revenue, the **WIP - subscription** account is debited with the accrual amount, and the **Accrued revenue - subscription** account is credited with the accrual amount.</span></span>
 
-## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a><span data-ttu-id="71ffc-119">การตั้งค่าบัญชีให้กับรายการคงค้างของการสั่งซื้อโดยบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-119">Set up accounts for accrual of subscription revenue</span></span>
+## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a><span data-ttu-id="8368d-119">การตั้งค่าบัญชีให้กับรายการคงค้างของการสั่งซื้อโดยบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-119">Set up accounts for accrual of subscription revenue</span></span>
 
-1.  <span data-ttu-id="71ffc-120">คลิก **การจัดการและการบัญชีโครงการ** \> **การตั้งค่า** \> **การลงรายการบัญชี** \> **การตั้งค่าการลงรายการบัญชีแยกประเภท**</span><span class="sxs-lookup"><span data-stu-id="71ffc-120">Click **Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**.</span></span>
+1.  <span data-ttu-id="8368d-120">คลิก **การจัดการและการบัญชีโครงการ** \> **การตั้งค่า** \> **การลงรายการบัญชี** \> **การตั้งค่าการลงรายการบัญชีแยกประเภท**</span><span class="sxs-lookup"><span data-stu-id="8368d-120">Click **Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**.</span></span>
 
-2.  <span data-ttu-id="71ffc-121">คลิกแท็บ **บัญชีรายได้** และเลือก **WIP - การบอกรับเป็นสมาชิก** หรือ **รายได้ค้างรับ - การบอกรับเป็นสมาชิก** เพื่อตั้งค่าบัญชี</span><span class="sxs-lookup"><span data-stu-id="71ffc-121">Click the **Revenue accounts** tab, and select **WIP - subscription** or **Accrued revenue - subscription** to set up the accounts.</span></span>
+2.  <span data-ttu-id="8368d-121">คลิกแท็บ **บัญชีรายได้** และเลือก **WIP - การบอกรับเป็นสมาชิก** หรือ **รายได้ค้างรับ - การบอกรับเป็นสมาชิก** เพื่อตั้งค่าบัญชี</span><span class="sxs-lookup"><span data-stu-id="8368d-121">Click the **Revenue accounts** tab, and select **WIP - subscription** or **Accrued revenue - subscription** to set up the accounts.</span></span>
 
-## <a name="subscription-group-setup"></a><span data-ttu-id="71ffc-122">การตั้งค่ากลุ่มการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-122">Subscription group setup</span></span>
+## <a name="subscription-group-setup"></a><span data-ttu-id="8368d-122">การตั้งค่ากลุ่มการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-122">Subscription group setup</span></span>
 
-<span data-ttu-id="71ffc-123">เพื่อให้สามารถรับรู้รายได้สำหรับการบอกรับเป็นสมาชิก ต้องมีการเลือกกล่องกาเครื่องหมาย **รายได้ค้างรับ**</span><span class="sxs-lookup"><span data-stu-id="71ffc-123">To be able to accrue revenue for subscriptions, the **Accrue revenue** check box must be selected.</span></span> <span data-ttu-id="71ffc-124">นี่จะพบในแบบฟอร์ม **กลุ่มการบอกรับเป็นสมาชิก** สำหรับกลุ่มที่ถูกแนบกับการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-124">This is found on the **Subscription groups** form for the group that is attached to the subscription.</span></span> <span data-ttu-id="71ffc-125">คลิก **การจัดการงานบริการ** \> **การตั้งค่า** \> **การบอกรับเป็นสมาชิกการบริการ** \> **กลุ่มการบอกรับเป็นสมาชิก**</span><span class="sxs-lookup"><span data-stu-id="71ffc-125">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+<span data-ttu-id="8368d-123">เพื่อให้สามารถรับรู้รายได้สำหรับการบอกรับเป็นสมาชิก ต้องมีการเลือกกล่องกาเครื่องหมาย **รายได้ค้างรับ**</span><span class="sxs-lookup"><span data-stu-id="8368d-123">To be able to accrue revenue for subscriptions, the **Accrue revenue** check box must be selected.</span></span> <span data-ttu-id="8368d-124">นี่จะพบในแบบฟอร์ม **กลุ่มการบอกรับเป็นสมาชิก** สำหรับกลุ่มที่ถูกแนบกับการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-124">This is found on the **Subscription groups** form for the group that is attached to the subscription.</span></span> <span data-ttu-id="8368d-125">คลิก **การจัดการงานบริการ** \> **การตั้งค่า** \> **การบอกรับเป็นสมาชิกการบริการ** \> **กลุ่มการบอกรับเป็นสมาชิก**</span><span class="sxs-lookup"><span data-stu-id="8368d-125">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-## <a name="enable-revenue-accrual-on-a-subscription-group"></a><span data-ttu-id="71ffc-126">การเปิดใช้งานรายได้ค้างรับบนกลุ่มการบอกรับการสมัครสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-126">Enable revenue accrual on a subscription group</span></span>
+## <a name="enable-revenue-accrual-on-a-subscription-group"></a><span data-ttu-id="8368d-126">การเปิดใช้งานรายได้ค้างรับบนกลุ่มการบอกรับการสมัครสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-126">Enable revenue accrual on a subscription group</span></span>
 
-1.  <span data-ttu-id="71ffc-127">คลิก **การจัดการงานบริการ** \> **การตั้งค่า** \> **การบอกรับเป็นสมาชิกการบริการ** \> **กลุ่มการบอกรับเป็นสมาชิก**</span><span class="sxs-lookup"><span data-stu-id="71ffc-127">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="8368d-127">คลิก **การจัดการงานบริการ** \> **การตั้งค่า** \> **การบอกรับเป็นสมาชิกการบริการ** \> **กลุ่มการบอกรับเป็นสมาชิก**</span><span class="sxs-lookup"><span data-stu-id="8368d-127">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-## <a name="periods"></a><span data-ttu-id="71ffc-128">รอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="71ffc-128">Periods</span></span>
+## <a name="periods"></a><span data-ttu-id="8368d-128">รอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="8368d-128">Periods</span></span>
 
-<span data-ttu-id="71ffc-129">คุณต้องตั้งค่ารหัสช่วงเวลาการออกใบแจ้งหนี้ </span><span class="sxs-lookup"><span data-stu-id="71ffc-129">You must set up an invoicing period code.</span></span> <span data-ttu-id="71ffc-130">นอกจากว่าคุณต้องการรับรู้รายได้ในช่วงเวลาเดียวกันกับที่คุณใช้สำหรับการออกใบแจ้งหนี้ คุณต้องตั้งค่าช่วงเวลาคงค้างด้วยเช่นเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="71ffc-130">Unless you want to accrue revenue in the same time intervals as you use for invoicing, you must also set up an accrual period.</span></span>
+<span data-ttu-id="8368d-129">คุณต้องตั้งค่ารหัสช่วงเวลาการออกใบแจ้งหนี้ </span><span class="sxs-lookup"><span data-stu-id="8368d-129">You must set up an invoicing period code.</span></span> <span data-ttu-id="8368d-130">นอกจากว่าคุณต้องการรับรู้รายได้ในช่วงเวลาเดียวกันกับที่คุณใช้สำหรับการออกใบแจ้งหนี้ คุณต้องตั้งค่าช่วงเวลาคงค้างด้วยเช่นเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="8368d-130">Unless you want to accrue revenue in the same time intervals as you use for invoicing, you must also set up an accrual period.</span></span>
 
-<span data-ttu-id="71ffc-131">ตารางต่อไปนี้ให้ภาพรวมของช่วงเวลาคงค้างใดที่สามารถถูกตั้งค่าได้สำหรับช่วงเวลาในการออกใบแจ้งหนี้แต่ละช่วง:</span><span class="sxs-lookup"><span data-stu-id="71ffc-131">The following table provides an overview of which accrual periods can be set up for each invoicing period:</span></span>
+<span data-ttu-id="8368d-131">ตารางต่อไปนี้ให้ภาพรวมของช่วงเวลาคงค้างใดที่สามารถถูกตั้งค่าได้สำหรับช่วงเวลาในการออกใบแจ้งหนี้แต่ละช่วง:</span><span class="sxs-lookup"><span data-stu-id="8368d-131">The following table provides an overview of which accrual periods can be set up for each invoicing period:</span></span>
 
 <table>
 <colgroup>
@@ -83,71 +83,71 @@ ms.locfileid: "1546651"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="71ffc-132">รอบระยะเวลาการออกใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="71ffc-132">Invoicing period</span></span></p></th>
-<th><p><span data-ttu-id="71ffc-133">ช่วงเวลาคงค้าง</span><span class="sxs-lookup"><span data-stu-id="71ffc-133">Accrual period</span></span></p></th>
+<th><p><span data-ttu-id="8368d-132">รอบระยะเวลาการออกใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="8368d-132">Invoicing period</span></span></p></th>
+<th><p><span data-ttu-id="8368d-133">ช่วงเวลาคงค้าง</span><span class="sxs-lookup"><span data-stu-id="8368d-133">Accrual period</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="71ffc-134"><strong>ปี</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-134"><strong>Years</strong></span></span></p></td>
+<td><p><span data-ttu-id="8368d-134"><strong>ปี</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-134"><strong>Years</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="71ffc-135"><strong>ปี</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-135"><strong>Years</strong></span></span></p></li>
-<li><p><span data-ttu-id="71ffc-136"><strong>ไตรมาส</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-136"><strong>Quarter</strong></span></span></p></li>
-<li><p><span data-ttu-id="71ffc-137"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-137"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="71ffc-138"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-138"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-135"><strong>ปี</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-135"><strong>Years</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-136"><strong>ไตรมาส</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-136"><strong>Quarter</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-137"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-137"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-138"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-138"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71ffc-139"><strong>ไตรมาส</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-139"><strong>Quarter</strong></span></span></p></td>
+<td><p><span data-ttu-id="8368d-139"><strong>ไตรมาส</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-139"><strong>Quarter</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="71ffc-140"><strong>ไตรมาส</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-140"><strong>Quarter</strong></span></span></p></li>
-<li><p><span data-ttu-id="71ffc-141"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-141"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="71ffc-142"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-142"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-140"><strong>ไตรมาส</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-140"><strong>Quarter</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-141"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-141"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-142"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-142"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="71ffc-143"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-143"><strong>Month</strong></span></span></p></td>
+<td><p><span data-ttu-id="8368d-143"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-143"><strong>Month</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="71ffc-144"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-144"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="71ffc-145"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-145"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-144"><strong>เดือน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-144"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-145"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-145"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71ffc-146"><strong>สัปดาห์</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-146"><strong>Week</strong></span></span></p></td>
+<td><p><span data-ttu-id="8368d-146"><strong>สัปดาห์</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-146"><strong>Week</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="71ffc-147"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-147"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-147"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-147"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="71ffc-148"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-148"><strong>Day</strong></span></span></p></td>
+<td><p><span data-ttu-id="8368d-148"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-148"><strong>Day</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="71ffc-149"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="71ffc-149"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="8368d-149"><strong>วัน</strong></span><span class="sxs-lookup"><span data-stu-id="8368d-149"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="71ffc-150">การตั้งค่ารอบระยะเวลาการออกใบแจ้งหนี้เป็นส่วนบังคับในการตั้งค่ากลุ่มการบอกรับเป็นสมาชิกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="71ffc-150">Setting up the invoicing period is a mandatory part of the overall subscription group setup.</span></span> <span data-ttu-id="71ffc-151">คุณสามารถตัดสินใจได้ว่า จะตั้งค่าระยะเวลาค้างรับค้างจ่ายสำหรับกลุ่มการบอกรับเป็นสมาชิกด้วยหรือไม่</span><span class="sxs-lookup"><span data-stu-id="71ffc-151">You can decide whether to also set up an accrual period for the subscription group.</span></span> <span data-ttu-id="71ffc-152">ถ้าคุณตั้งค่ารอบระยะเวลาคงค้างสำหรับกลุ่มการบอกรับสมาชิก รอบระยะเวลานี้ได้รับการแนะนำในฟิลด์ **รหัสรอบระยะเวลา**</span><span class="sxs-lookup"><span data-stu-id="71ffc-152">If you set up an accrual period for the subscription group, this period is suggested in the **Period code** field.</span></span> <span data-ttu-id="71ffc-153">ฟิลด์นี้ถูกพบในแบบฟอร์ม **รับรู้รายได้การบอกรับเป็นสมาชิก** เมื่อคุณทำการรับรู้รายได้การบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-153">This field is found in the **Accrue subscription revenue** form, when you accrue subscription revenue.</span></span> <span data-ttu-id="71ffc-154">แต่รอบระยะเวลาคงค้างเป็นข้อมูลที่เลือกได้เกี่ยวกับกลุ่มการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-154">However, the accrual period is optional information about the subscription group.</span></span>
+<span data-ttu-id="8368d-150">การตั้งค่ารอบระยะเวลาการออกใบแจ้งหนี้เป็นส่วนบังคับในการตั้งค่ากลุ่มการบอกรับเป็นสมาชิกทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8368d-150">Setting up the invoicing period is a mandatory part of the overall subscription group setup.</span></span> <span data-ttu-id="8368d-151">คุณสามารถตัดสินใจได้ว่า จะตั้งค่าระยะเวลาค้างรับค้างจ่ายสำหรับกลุ่มการบอกรับเป็นสมาชิกด้วยหรือไม่</span><span class="sxs-lookup"><span data-stu-id="8368d-151">You can decide whether to also set up an accrual period for the subscription group.</span></span> <span data-ttu-id="8368d-152">ถ้าคุณตั้งค่ารอบระยะเวลาคงค้างสำหรับกลุ่มการบอกรับสมาชิก รอบระยะเวลานี้ได้รับการแนะนำในฟิลด์ **รหัสรอบระยะเวลา**</span><span class="sxs-lookup"><span data-stu-id="8368d-152">If you set up an accrual period for the subscription group, this period is suggested in the **Period code** field.</span></span> <span data-ttu-id="8368d-153">ฟิลด์นี้ถูกพบในแบบฟอร์ม **รับรู้รายได้การบอกรับเป็นสมาชิก** เมื่อคุณทำการรับรู้รายได้การบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-153">This field is found in the **Accrue subscription revenue** form, when you accrue subscription revenue.</span></span> <span data-ttu-id="8368d-154">แต่รอบระยะเวลาคงค้างเป็นข้อมูลที่เลือกได้เกี่ยวกับกลุ่มการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-154">However, the accrual period is optional information about the subscription group.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="71ffc-155">ใช้เส้นทางต่อไปนี้เพื่อเปิดแบบฟอร์ม <STRONG>รับรู้รายได้การบอกรับเป็นสมาชิก</STRONG></span><span class="sxs-lookup"><span data-stu-id="71ffc-155">Use the following path to open the <STRONG>Accrue subscription revenue</STRONG> form.</span></span> <span data-ttu-id="71ffc-156">คลิก <STRONG>การจัดการงานบริการ</STRONG> &gt; <STRONG>งานประจำงวด</STRONG> &gt; <STRONG>การบอกรับเป็นสมาชิกการบริการ</STRONG> &gt; <STRONG>ตั้งรายการค้างรับของรายได้จากการบอกรับเป็นสมาชิก</STRONG></span><span class="sxs-lookup"><span data-stu-id="71ffc-156">Click <STRONG>Service management</STRONG> &gt; <STRONG>Periodic</STRONG> &gt; <STRONG>Service subscriptions</STRONG> &gt; <STRONG>Accrue subscription revenue</STRONG>.</span></span></P>
+> <P><span data-ttu-id="8368d-155">ใช้เส้นทางต่อไปนี้เพื่อเปิดแบบฟอร์ม <STRONG>รับรู้รายได้การบอกรับเป็นสมาชิก</STRONG></span><span class="sxs-lookup"><span data-stu-id="8368d-155">Use the following path to open the <STRONG>Accrue subscription revenue</STRONG> form.</span></span> <span data-ttu-id="8368d-156">คลิก <STRONG>การจัดการงานบริการ</STRONG> &gt; <STRONG>งานประจำงวด</STRONG> &gt; <STRONG>การบอกรับเป็นสมาชิกการบริการ</STRONG> &gt; <STRONG>ตั้งรายการค้างรับของรายได้จากการบอกรับเป็นสมาชิก</STRONG></span><span class="sxs-lookup"><span data-stu-id="8368d-156">Click <STRONG>Service management</STRONG> &gt; <STRONG>Periodic</STRONG> &gt; <STRONG>Service subscriptions</STRONG> &gt; <STRONG>Accrue subscription revenue</STRONG>.</span></span></P>
 
 
-## <a name="transactions"></a><span data-ttu-id="71ffc-157">ธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="71ffc-157">Transactions</span></span>
+## <a name="transactions"></a><span data-ttu-id="8368d-157">ธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="8368d-157">Transactions</span></span>
 
-<span data-ttu-id="71ffc-158">คุณสามารถควบคุมจำนวนของธุรกรรมบัญชีแยกประเภทที่สร้างขึ้นได้ เมื่อคุณลงรายการบัญชีรายได้ค้างรับ</span><span class="sxs-lookup"><span data-stu-id="71ffc-158">You can control the number of ledger transactions that are created when you post accrued revenue.</span></span> <span data-ttu-id="71ffc-159">ในการบอกรับเป็นสมาชิก กำหนดว่าควรสร้างธุรกรรมบัญชีแยกประเภทเป็นยอดรวม หรือต่อรายการ</span><span class="sxs-lookup"><span data-stu-id="71ffc-159">On subscriptions, define if the ledger transactions should be created as a total or per line.</span></span>
+<span data-ttu-id="8368d-158">คุณสามารถควบคุมจำนวนของธุรกรรมบัญชีแยกประเภทที่สร้างขึ้นได้ เมื่อคุณลงรายการบัญชีรายได้ค้างรับ</span><span class="sxs-lookup"><span data-stu-id="8368d-158">You can control the number of ledger transactions that are created when you post accrued revenue.</span></span> <span data-ttu-id="8368d-159">ในการบอกรับเป็นสมาชิก กำหนดว่าควรสร้างธุรกรรมบัญชีแยกประเภทเป็นยอดรวม หรือต่อรายการ</span><span class="sxs-lookup"><span data-stu-id="8368d-159">On subscriptions, define if the ledger transactions should be created as a total or per line.</span></span>
 
-## <a name="specify-the-level-of-posting-details-to-display-for-accrued-transactions"></a><span data-ttu-id="71ffc-160">การระบุระดับรายละเอียดการลงรายการบัญชีเพื่อแสดงให้กับธุรกรรมคงค้าง</span><span class="sxs-lookup"><span data-stu-id="71ffc-160">Specify the level of posting details to display for accrued transactions</span></span>
+## <a name="specify-the-level-of-posting-details-to-display-for-accrued-transactions"></a><span data-ttu-id="8368d-160">การระบุระดับรายละเอียดการลงรายการบัญชีเพื่อแสดงให้กับธุรกรรมคงค้าง</span><span class="sxs-lookup"><span data-stu-id="8368d-160">Specify the level of posting details to display for accrued transactions</span></span>
 
-1.  <span data-ttu-id="71ffc-161">คลิก **การจัดการและการบัญชีโครงการ** \> **การตั้งค่า** \> **พารามิเตอร์การจัดการและการบัญชีโครงการ**</span><span class="sxs-lookup"><span data-stu-id="71ffc-161">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
+1.  <span data-ttu-id="8368d-161">คลิก **การจัดการและการบัญชีโครงการ** \> **การตั้งค่า** \> **พารามิเตอร์การจัดการและการบัญชีโครงการ**</span><span class="sxs-lookup"><span data-stu-id="8368d-161">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
 
-2.  <span data-ttu-id="71ffc-162">บนแท็บ **การเงิน** ในฟิลด์ **ใบแจ้งหนี้** เลือก **ยอดรวม** หรือ **รายการ**</span><span class="sxs-lookup"><span data-stu-id="71ffc-162">On the **Financial** tab, in the **Invoice** field, select **Total** or **Line**.</span></span>
+2.  <span data-ttu-id="8368d-162">บนแท็บ **การเงิน** ในฟิลด์ **ใบแจ้งหนี้** เลือก **ยอดรวม** หรือ **รายการ**</span><span class="sxs-lookup"><span data-stu-id="8368d-162">On the **Financial** tab, in the **Invoice** field, select **Total** or **Line**.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="71ffc-163">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="71ffc-163">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8368d-163">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="8368d-163">See also</span></span>
 
-[<span data-ttu-id="71ffc-164">ตั้งรายการค้างรับของรายได้จากการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="71ffc-164">Accrue subscription revenue</span></span>](accrue-subscription-revenue.md)
+[<span data-ttu-id="8368d-164">ตั้งรายการค้างรับของรายได้จากการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="8368d-164">Accrue subscription revenue</span></span>](accrue-subscription-revenue.md)
 
   
 

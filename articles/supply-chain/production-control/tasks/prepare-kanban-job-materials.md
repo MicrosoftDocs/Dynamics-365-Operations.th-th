@@ -10,35 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 714196ba92fe3f57c80809930ed54705a4e75078
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 011c542d360309fdeb539c85a68f2a5691022e37
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552566"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836176"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="2958e-103">จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งานสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="2958e-103">Prepare a process kanban job when materials are available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="e2a5c-103">จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งานสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="e2a5c-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2958e-104">งานนี้มุ่งเน้นการเตรียมกระบวนการงานคัมบังเมื่อวัสดุทั้งหมดจะพร้อมใช้งานสำหรับเซลล์ทำงาน </span><span class="sxs-lookup"><span data-stu-id="2958e-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="2958e-105">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="2958e-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="2958e-106">งานนี้มีไว้สำหรับผู้ปฏิบัติงานเครื่องจักร</span><span class="sxs-lookup"><span data-stu-id="2958e-106">This task is intended for the machine operator.</span></span>
+<span data-ttu-id="e2a5c-104">งานนี้มุ่งเน้นการเตรียมกระบวนการงานคัมบังเมื่อวัสดุทั้งหมดจะพร้อมใช้งานสำหรับเซลล์ทำงาน </span><span class="sxs-lookup"><span data-stu-id="e2a5c-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="e2a5c-105">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="e2a5c-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="e2a5c-106">งานนี้มีไว้สำหรับผู้ปฏิบัติงานเครื่องจักร</span><span class="sxs-lookup"><span data-stu-id="e2a5c-106">This task is intended for the machine operator.</span></span>
 
-1. <span data-ttu-id="2958e-107">ไปที่บอร์ดคัมบังสำหรับงานกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="2958e-107">Go to Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="2958e-108">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="2958e-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="2958e-109">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2958e-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="2958e-110">เลือกเซลล์ทำงาน 1250 และคลิกตกลง </span><span class="sxs-lookup"><span data-stu-id="2958e-110">Select work cell 1250 and click OK.</span></span>  
-4. <span data-ttu-id="2958e-111">ในรายการ ให้เลือกแถว 4</span><span class="sxs-lookup"><span data-stu-id="2958e-111">In the list, select row 4.</span></span>
-    * <span data-ttu-id="2958e-112">ในบริษัทสาธิตสะอาด คัมบัง 000329 ในแถว 4 คืองานแรกที่ยังไม่เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="2958e-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
-5. <span data-ttu-id="2958e-113">สลับการขยายของส่วนรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="2958e-113">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="2958e-114">ตรวจสอบว่าสถานะการจัดหาวัสดุพร้อมใช้งานสำหรับสินค้าทั้งหมดในรายการเบิกสินค้า </span><span class="sxs-lookup"><span data-stu-id="2958e-114">Verify that the supply status is available for all items in the picking list.</span></span>  
-    * <span data-ttu-id="2958e-115">ถ้ามีงานหลายงานให้เลือก รายการเบิกสินค้าจะแสดงผลรวมของรายการทั้งหมดที่จำเป็นสำหรับงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2958e-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
-6. <span data-ttu-id="2958e-116">คลิกจัดเตรียม </span><span class="sxs-lookup"><span data-stu-id="2958e-116">Click Prepare.</span></span>
-    * <span data-ttu-id="2958e-117">กระบวนการจัดเตรียมตอนนี้เสร็จสมบูรณ์แล้ว </span><span class="sxs-lookup"><span data-stu-id="2958e-117">The preparation process is now completed.</span></span> <span data-ttu-id="2958e-118">กล่องกาเครื่องหมายที่เลือกสำหรับแถวทั้งหมดในรายการเบิกสินค้าบ่งชี้ว่า มีการเบิกตามสถานะการจัดหาวัสดุ</span><span class="sxs-lookup"><span data-stu-id="2958e-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
+1. <span data-ttu-id="e2a5c-107">ไปที่บอร์ดคัมบังสำหรับงานกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="e2a5c-107">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="e2a5c-108">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="e2a5c-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="e2a5c-109">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e2a5c-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="e2a5c-110">เลือกเซลล์ทำงาน 1250 และคลิกตกลง </span><span class="sxs-lookup"><span data-stu-id="e2a5c-110">Select work cell 1250 and click OK.</span></span>  
+4. <span data-ttu-id="e2a5c-111">ในรายการ ให้เลือกแถว 4</span><span class="sxs-lookup"><span data-stu-id="e2a5c-111">In the list, select row 4.</span></span>
+    * <span data-ttu-id="e2a5c-112">ในบริษัทสาธิตสะอาด คัมบัง 000329 ในแถว 4 คืองานแรกที่ยังไม่เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="e2a5c-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
+5. <span data-ttu-id="e2a5c-113">สลับการขยายของส่วนรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="e2a5c-113">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="e2a5c-114">ตรวจสอบว่าสถานะการจัดหาวัสดุพร้อมใช้งานสำหรับสินค้าทั้งหมดในรายการเบิกสินค้า </span><span class="sxs-lookup"><span data-stu-id="e2a5c-114">Verify that the supply status is available for all items in the picking list.</span></span>  
+    * <span data-ttu-id="e2a5c-115">ถ้ามีงานหลายงานให้เลือก รายการเบิกสินค้าจะแสดงผลรวมของรายการทั้งหมดที่จำเป็นสำหรับงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e2a5c-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
+6. <span data-ttu-id="e2a5c-116">คลิกจัดเตรียม </span><span class="sxs-lookup"><span data-stu-id="e2a5c-116">Click Prepare.</span></span>
+    * <span data-ttu-id="e2a5c-117">กระบวนการจัดเตรียมตอนนี้เสร็จสมบูรณ์แล้ว </span><span class="sxs-lookup"><span data-stu-id="e2a5c-117">The preparation process is now completed.</span></span> <span data-ttu-id="e2a5c-118">กล่องกาเครื่องหมายที่เลือกสำหรับแถวทั้งหมดในรายการเบิกสินค้าบ่งชี้ว่า มีการเบิกตามสถานะการจัดหาวัสดุ</span><span class="sxs-lookup"><span data-stu-id="e2a5c-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
 

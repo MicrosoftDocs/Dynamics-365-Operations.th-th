@@ -1,9 +1,9 @@
 ---
-title: วางแผนการบรรทุกโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก
-description: 'กระบวนงานนี้แสดงวิธีการใช้เวิร์กเบนช์การวางแผนการบรรทุกเพื่อสร้างจำนวนงานในศูนย์การผลิตสำหรับใบสั่งขาย '
+title: วางแผนการบรรทุกและการจัดส่งโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก
+description: หัวข้อนี้แสดงวิธีการใช้เวิร์กเบนช์การวางแผนการบรรทุกเพื่อสร้างจำนวนงานในศูนย์การผลิตสำหรับใบสั่งขาย
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564818"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739076"
 ---
-# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="80745-103">วางแผนการบรรทุกโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก</span><span class="sxs-lookup"><span data-stu-id="80745-103">Plan loads and shipments using the Load planning workbench</span></span>
+# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="3aa48-103">วางแผนการบรรทุกและการจัดส่งโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก</span><span class="sxs-lookup"><span data-stu-id="3aa48-103">Plan loads and shipments using the Load planning workbench</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="80745-104">กระบวนงานนี้แสดงวิธีการใช้เวิร์กเบนช์การวางแผนการบรรทุกเพื่อสร้างจำนวนงานในศูนย์การผลิตสำหรับใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="80745-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="80745-105">เป็นข้อกำหนดเบื้องต้น เราจะสร้างใบสั่งขายเป็นอย่างแรก</span><span class="sxs-lookup"><span data-stu-id="80745-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="80745-106">กระบวนงานนี้เป็นส่วนหนึ่งของงานประจำวันสำหรับผู้ประสานงานด้านการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="80745-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="80745-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="80745-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="3aa48-104">หัวข้อนี้แสดงวิธีการใช้เวิร์กเบนช์การวางแผนการบรรทุกเพื่อสร้างจำนวนงานในศูนย์การผลิตสำหรับใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="3aa48-104">This topic shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="3aa48-105">เป็นข้อกำหนดเบื้องต้น เราจะสร้างใบสั่งขายเป็นอย่างแรก</span><span class="sxs-lookup"><span data-stu-id="3aa48-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="3aa48-106">กระบวนงานนี้เป็นส่วนหนึ่งของงานประจำวันสำหรับผู้ประสานงานด้านการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="3aa48-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="3aa48-107">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="3aa48-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="80745-108">สร้างใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="80745-108">Create a sales order</span></span>
-1. <span data-ttu-id="80745-109">ไปที่บัญชีลูกหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="80745-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="80745-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="80745-110">Click New.</span></span>
-3. <span data-ttu-id="80745-111">ในฟิลด์บัญชีลูกค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="80745-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="80745-112">เลือก บัญชี US-004</span><span class="sxs-lookup"><span data-stu-id="80745-112">Select account US-004.</span></span>
-5. <span data-ttu-id="80745-113">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="80745-113">Click OK.</span></span>
-6. <span data-ttu-id="80745-114">ในฟิลด์หมายเลขสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="80745-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="80745-115">เลือก สินค้า A0001</span><span class="sxs-lookup"><span data-stu-id="80745-115">Select item A0001.</span></span>
-    * <span data-ttu-id="80745-116">A0001 เปิดใช้งานสำหรับการจัดการการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="80745-116">A0001 is enabled for transportation management.</span></span>  
-8. <span data-ttu-id="80745-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="80745-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="80745-118">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="80745-118">In the Quantity field, enter a number.</span></span>
-10. <span data-ttu-id="80745-119">ในฟิลด์คลังสินค้า พิมพ์ '24'</span><span class="sxs-lookup"><span data-stu-id="80745-119">In the Warehouse field, type '24'.</span></span>
-    * <span data-ttu-id="80745-120">ในตัวอย่างนี้ เลือกคลังสินค้า 24</span><span class="sxs-lookup"><span data-stu-id="80745-120">In this example select warehouse 24.</span></span> <span data-ttu-id="80745-121">คลังสินค้านี้เปิดใช้งานสำหรับการจัดการการขนส่งและการจัดการคลังสินค้าขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="80745-121">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
-11. <span data-ttu-id="80745-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="80745-122">Click Save.</span></span>
-12. <span data-ttu-id="80745-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="80745-123">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="3aa48-108">สร้างใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="3aa48-108">Create a sales order</span></span>
+1. <span data-ttu-id="3aa48-109">ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีลูกหนี้ > ใบสั่ง > ใบสั่งขายทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="3aa48-109">Go to the **Navigation pane > Modules > Accounts receivable > Orders > All sales orders**.</span></span>
+2. <span data-ttu-id="3aa48-110">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="3aa48-110">Select **New**.</span></span>
+3. <span data-ttu-id="3aa48-111">ในฟิลด์ **บัญชีลูกค้า** ให้เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3aa48-111">In the **Customer account** field, select the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="3aa48-112">เลือกบัญชี **US-004**</span><span class="sxs-lookup"><span data-stu-id="3aa48-112">Select account **US-004**.</span></span>
+5. <span data-ttu-id="3aa48-113">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3aa48-113">Select **OK**.</span></span>
+6. <span data-ttu-id="3aa48-114">ในฟิลด์ **หมายเลขสินค้า** ให้เลือกปุ่มรายการแบบหล่นลงเพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3aa48-114">In the **Item number** field, select the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="3aa48-115">เลือกสินค้า **A0001**</span><span class="sxs-lookup"><span data-stu-id="3aa48-115">Select item **A0001**.</span></span> <span data-ttu-id="3aa48-116">**A0001** ถูกเปิดใช้งานสำหรับการจัดการการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="3aa48-116">**A0001** is enabled for transportation management.</span></span>  
+8. <span data-ttu-id="3aa48-117">ในฟิลด์ **ไซต์** ให้เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา และจากนั้น เลือกสินค้า</span><span class="sxs-lookup"><span data-stu-id="3aa48-117">In the **Site** field, select the drop-down button to open the lookup, then select an item.</span></span>
+9. <span data-ttu-id="3aa48-118">ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="3aa48-118">In the **Quantity** field, enter a number.</span></span>
+10. <span data-ttu-id="3aa48-119">ในฟิลด์ **คลังสินค้า** ให้พิมพ์ '24' สำหรับตัวอย่างนี้</span><span class="sxs-lookup"><span data-stu-id="3aa48-119">In the **Warehouse** field, type '24' for this example.</span></span> <span data-ttu-id="3aa48-120">คลังสินค้านี้เปิดใช้งานสำหรับการจัดการการขนส่งและการจัดการคลังสินค้าขั้นสูง</span><span class="sxs-lookup"><span data-stu-id="3aa48-120">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
+11. <span data-ttu-id="3aa48-121">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="3aa48-121">Select **Save**.</span></span>
+12. <span data-ttu-id="3aa48-122">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="3aa48-122">Close the page.</span></span>
 
-## <a name="create-a-new-load"></a><span data-ttu-id="80745-124">สร้างจำนวนงานในศูนย์การผลิตใหม่</span><span class="sxs-lookup"><span data-stu-id="80745-124">Create a new load</span></span>
-1. <span data-ttu-id="80745-125">ไปที่ การจัดการการขนส่ง > การวางแผน > เวิร์กเบนช์การวางแผนการบรรทุก</span><span class="sxs-lookup"><span data-stu-id="80745-125">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="80745-126">คลิก แท็บรายการขาย</span><span class="sxs-lookup"><span data-stu-id="80745-126">Click the Sales lines tab.</span></span>
-    * <span data-ttu-id="80745-127">ขณะนี้ คุณจะสร้างจำนวนงานในศูนย์การผลิตสำหรับใบสั่งขายที่คุณเพิ่งสร้างขึ้น </span><span class="sxs-lookup"><span data-stu-id="80745-127">Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="80745-128">จำนวนงานในศูนย์การผลิตสามารถสร้างตามการจัดหาวัสดุและความต้องการจากใบสั่งซื้อ ใบสั่งโอนย้าย และใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="80745-128">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
-3. <span data-ttu-id="80745-129">บนบานหน้าต่างการดำเนินการ คลิก การจัดหาและความต้องการ</span><span class="sxs-lookup"><span data-stu-id="80745-129">On the Action Pane, click Supply and demand.</span></span>
-4. <span data-ttu-id="80745-130">คลิก ไปยังจำนวนงานในศูนย์การผลิตใหม่</span><span class="sxs-lookup"><span data-stu-id="80745-130">Click To new load.</span></span>
-5. <span data-ttu-id="80745-131">ในฟิลด์รหัสเท็มเพลตจำนวนงานในศูนย์การผลิต คลิก ปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="80745-131">In the Load template ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="80745-132">เท็มเพลตจำนวนงานในศูนย์การผลิตกำหนดหน่วยวัดสูงสุดสำหรับน้ำหนักและปริมาตรของจำนวนงานในศูนย์การผลิตทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="80745-132">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="80745-133">ตัวอย่างเช่น เท็มเพลตจำนวนงานในศูนย์การผลิตอาจแสดงถึงขนาดของตู้บรรจุสินค้าหรือรถบรรทุก</span><span class="sxs-lookup"><span data-stu-id="80745-133">For example, the load template might represent the size of a container or truck.</span></span>  
-6. <span data-ttu-id="80745-134">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="80745-134">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="80745-135">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="80745-135">Click OK.</span></span>
+## <a name="create-a-new-load"></a><span data-ttu-id="3aa48-123">สร้างจำนวนงานในศูนย์การผลิตใหม่</span><span class="sxs-lookup"><span data-stu-id="3aa48-123">Create a new load</span></span>
+1. <span data-ttu-id="3aa48-124">ไปที่ **บานหน้าต่างนำทาง > โมดูล > การจัดการการขนส่ง > การวางแผน > เวิร์กเบนช์การวางแผนการบรรทุก**</span><span class="sxs-lookup"><span data-stu-id="3aa48-124">Go to the **Navigation pane > Modules > Transportation management > Planning > Load planning workbench**.</span></span>
+2. <span data-ttu-id="3aa48-125">เลือกแท็บ **รายการขาย** ขณะนี้คุณจะสร้างจำนวนงานในศูนย์การผลิตสำหรับใบสั่งขายที่คุณเพิ่งสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="3aa48-125">Select the **Sales lines** tab. Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="3aa48-126">จำนวนงานในศูนย์การผลิตสามารถสร้างตามการจัดหาวัสดุและความต้องการจากใบสั่งซื้อ ใบสั่งโอนย้าย และใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="3aa48-126">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
+3. <span data-ttu-id="3aa48-127">บนบานหน้าต่างการดำเนินการ เลือก **การจัดหาวัสดุและความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="3aa48-127">On the Action Pane, select **Supply and demand**.</span></span>
+4. <span data-ttu-id="3aa48-128">เลือก **ไปยังจำนวนงานในศูนย์การผลิตใหม่**</span><span class="sxs-lookup"><span data-stu-id="3aa48-128">Select **To new load**.</span></span>
+5. <span data-ttu-id="3aa48-129">ในฟิลด์ **รหัสเท็มเพลตจำนวนงานในศูนย์การผลิต** เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="3aa48-129">In the **Load template ID** field, select the drop-down button to open the lookup.</span></span> <span data-ttu-id="3aa48-130">เท็มเพลตจำนวนงานในศูนย์การผลิตกำหนดหน่วยวัดสูงสุดสำหรับน้ำหนักและปริมาตรของจำนวนงานในศูนย์การผลิตทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="3aa48-130">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="3aa48-131">ตัวอย่างเช่น เท็มเพลตจำนวนงานในศูนย์การผลิตอาจแสดงถึงขนาดของตู้บรรจุสินค้าหรือรถบรรทุก</span><span class="sxs-lookup"><span data-stu-id="3aa48-131">For example, the load template might represent the size of a container or truck.</span></span> <span data-ttu-id="3aa48-132">เลือกสินค้า</span><span class="sxs-lookup"><span data-stu-id="3aa48-132">Select an item.</span></span>
+6. <span data-ttu-id="3aa48-133">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3aa48-133">Select **OK**.</span></span>
 
-## <a name="rate-and-route-the-load"></a><span data-ttu-id="80745-136">อัตราและกระบวนการผลิตจำนวนงานในศูนย์การผลิต</span><span class="sxs-lookup"><span data-stu-id="80745-136">Rate and route the load</span></span>
-1. <span data-ttu-id="80745-137">คลิก การจัดอันดับและการกำหนดเส้นทาง</span><span class="sxs-lookup"><span data-stu-id="80745-137">Click Rating and routing.</span></span>
-2. <span data-ttu-id="80745-138">คลิก จัดอันดับเวิร์กเบนช์กระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="80745-138">Click Rate route workbench.</span></span>
-3. <span data-ttu-id="80745-139">คลิก จัดอันดับร้านค้า</span><span class="sxs-lookup"><span data-stu-id="80745-139">Click Rate shop.</span></span>
-4. <span data-ttu-id="80745-140">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="80745-140">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="80745-141">คลิก มอบหมาย</span><span class="sxs-lookup"><span data-stu-id="80745-141">Click Assign.</span></span>
-6. <span data-ttu-id="80745-142">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="80745-142">Close the page.</span></span>
-7. <span data-ttu-id="80745-143">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="80745-143">Close the page.</span></span>
+## <a name="rate-and-route-the-load"></a><span data-ttu-id="3aa48-134">อัตราและกระบวนการผลิตจำนวนงานในศูนย์การผลิต</span><span class="sxs-lookup"><span data-stu-id="3aa48-134">Rate and route the load</span></span>
+1. <span data-ttu-id="3aa48-135">เลือก **การจัดอันดับและการกำหนดเส้นทาง**</span><span class="sxs-lookup"><span data-stu-id="3aa48-135">Select **Rating and routing**.</span></span>
+2. <span data-ttu-id="3aa48-136">เลือก **จัดอันดับเวิร์กเบนช์กระบวนการผลิต**</span><span class="sxs-lookup"><span data-stu-id="3aa48-136">Select **Rate route workbench**.</span></span>
+3. <span data-ttu-id="3aa48-137">เลือก **จัดอันดับร้านค้า**</span><span class="sxs-lookup"><span data-stu-id="3aa48-137">Select **Rate shop**.</span></span>
+4. <span data-ttu-id="3aa48-138">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="3aa48-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="3aa48-139">เลือก **กำหนด**</span><span class="sxs-lookup"><span data-stu-id="3aa48-139">Select **Assign**.</span></span>
+6. <span data-ttu-id="3aa48-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="3aa48-140">Close the page.</span></span>
 

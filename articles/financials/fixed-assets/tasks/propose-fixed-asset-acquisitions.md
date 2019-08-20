@@ -1,49 +1,46 @@
 ---
 title: นำเสนอการซื้อสินทรัพย์ถาวร
-description: กระบวนงานนี้แสดงวิธีการรับสินทรัพย์ถาวรโดยใช้ข้อเสนอการซื้อสินทรัพย์ในสมุดรายวันสินทรัพย์ถาวร
+description: หัวข้อนี้อธิบายวิธีการได้รับสินทรัพย์ถาวรโดยใช้ข้อเสนอการซื้อสินทรัพย์ในสมุดรายวันสินทรัพย์ถาวร
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1891206bb266b126eccfa789b8c8062c9bfa688b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4b35b13dc266fd5bccde437526400832d394b9aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570891"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839916"
 ---
-# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="6c9ef-103">นำเสนอการซื้อสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="6c9ef-103">Propose fixed asset acquisitions</span></span>
+# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="16beb-103">นำเสนอการซื้อสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="16beb-103">Propose fixed asset acquisitions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="6c9ef-104">กระบวนงานนี้แสดงวิธีการรับสินทรัพย์ถาวรโดยใช้ข้อเสนอการซื้อสินทรัพย์ในสมุดรายวันสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="6c9ef-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="6c9ef-105">ซึ่งจะใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="6c9ef-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="16beb-104">หัวข้อนี้อธิบายวิธีการได้รับสินทรัพย์ถาวรโดยใช้ข้อเสนอการซื้อสินทรัพย์ในสมุดรายวันสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="16beb-104">This topic describes how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="16beb-105">ซึ่งจะใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="16beb-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
-1. <span data-ttu-id="6c9ef-106">ไปที่สินทรัพย์ถาวร > รายการสมุดรายวัน > สมุดรายวันสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="6c9ef-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="6c9ef-107">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="6c9ef-107">Click New.</span></span>
-3. <span data-ttu-id="6c9ef-108">ในฟิลด์ชื่อ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="6c9ef-108">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="6c9ef-109">คลิก รายการ</span><span class="sxs-lookup"><span data-stu-id="6c9ef-109">Click Lines.</span></span>
-5. <span data-ttu-id="6c9ef-110">คลิกข้อเสนอ</span><span class="sxs-lookup"><span data-stu-id="6c9ef-110">Click Proposals.</span></span>
-6. <span data-ttu-id="6c9ef-111">คลิกที่ข้อเสนอการซื้อสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="6c9ef-111">Click Acquisition proposal.</span></span>
-7. <span data-ttu-id="6c9ef-112">คลิกตัวกรอง </span><span class="sxs-lookup"><span data-stu-id="6c9ef-112">Click Filter.</span></span>
-8. <span data-ttu-id="6c9ef-113">คลิกรีเซ็ตเพื่อล้างค่าก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="6c9ef-113">Click Reset to clear out previous values.</span></span>
-9. <span data-ttu-id="6c9ef-114">เลือกแถวจำนวนสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="6c9ef-114">Select the Fixed asset number row.</span></span>
-10. <span data-ttu-id="6c9ef-115">ในฟิลด์เงื่อนไข ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="6c9ef-115">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c9ef-116">กำหนดเงื่อนไขที่เหลือสำหรับสินทรัพย์ถาวรที่คุณต้องการได้รับกับข้อเสนอนี้</span><span class="sxs-lookup"><span data-stu-id="6c9ef-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
-11. <span data-ttu-id="6c9ef-117">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="6c9ef-117">Click OK.</span></span>
-12. <span data-ttu-id="6c9ef-118">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="6c9ef-118">Click OK.</span></span>
-    * <span data-ttu-id="6c9ef-119">ตรวจสอบการทำธุรกรรมที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="6c9ef-119">Verify the transaction lines created.</span></span>  
-    * <span data-ttu-id="6c9ef-120">เฉพาะสินทรัพย์ถาวรที่มีวันที่ซื้อสินทรัพย์ และราคาทุนของสินทรัพย์ที่ตั้งค่าไว้ในสมุดบัญชีจะรวมอยู่ในข้อเสนอการซื้อสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="6c9ef-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
-13. <span data-ttu-id="6c9ef-121">คลิกแท็บสมุดบัญชี</span><span class="sxs-lookup"><span data-stu-id="6c9ef-121">Click the Books tab.</span></span>
-14. <span data-ttu-id="6c9ef-122">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="6c9ef-122">Click Post.</span></span>
+1. <span data-ttu-id="16beb-106">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > รายการสมุดรายวัน > สมุดรายวันของสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="16beb-106">In the Navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="16beb-107">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="16beb-107">Select **New**.</span></span>
+3. <span data-ttu-id="16beb-108">ในฟิลด์ **ชื่อ** ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="16beb-108">In the **Name** field, enter or select a value.</span></span>
+4. <span data-ttu-id="16beb-109">ในบานหน้าต่างการดำเนินการ เลือก **รายการ**</span><span class="sxs-lookup"><span data-stu-id="16beb-109">In the action pane, select **Lines**.</span></span>
+5. <span data-ttu-id="16beb-110">เลือก **ข้อเสนอ**</span><span class="sxs-lookup"><span data-stu-id="16beb-110">Select **Proposals**.</span></span>
+6. <span data-ttu-id="16beb-111">เลือก **ข้อเสนอการซื้อสินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="16beb-111">Select **Acquisition proposal**.</span></span>
+7. <span data-ttu-id="16beb-112">เลือก **ตัวกรอง**</span><span class="sxs-lookup"><span data-stu-id="16beb-112">Select **Filter**.</span></span> <span data-ttu-id="16beb-113">เลือก **รีเซ็ต** เพื่อล้างค่าก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="16beb-113">Select **Reset** to clear out previous values.</span></span>
+8. <span data-ttu-id="16beb-114">เลือกแถว **จำนวนสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="16beb-114">Select the **Fixed asset number** row.</span></span>
+9. <span data-ttu-id="16beb-115">ในฟิลด์ **เกณฑ์** ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="16beb-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="16beb-116">กำหนดเงื่อนไขที่เหลือสำหรับสินทรัพย์ถาวรที่คุณต้องการได้รับกับข้อเสนอนี้</span><span class="sxs-lookup"><span data-stu-id="16beb-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+10. <span data-ttu-id="16beb-117">เลือก **ตกลง** สองครั้ง เพื่อออกจากบานหน้าต่าง</span><span class="sxs-lookup"><span data-stu-id="16beb-117">Select **OK** twice to exit out of the pane.</span></span>
+- <span data-ttu-id="16beb-118">ตรวจสอบการทำธุรกรรมที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="16beb-118">Verify the transaction lines created.</span></span>  
+- <span data-ttu-id="16beb-119">เฉพาะสินทรัพย์ถาวรที่มีวันที่ซื้อสินทรัพย์ และราคาทุนของสินทรัพย์ที่ตั้งค่าไว้ในสมุดบัญชีจะรวมอยู่ในข้อเสนอการซื้อสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="16beb-119">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+11. <span data-ttu-id="16beb-120">บนหน้า เลือกแท็บ **สมุดบัญชี**</span><span class="sxs-lookup"><span data-stu-id="16beb-120">On the page, select the **Books** tab.</span></span>
+12. <span data-ttu-id="16beb-121">เลือก **ลงรายการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="16beb-121">Select **Post**.</span></span>
 
