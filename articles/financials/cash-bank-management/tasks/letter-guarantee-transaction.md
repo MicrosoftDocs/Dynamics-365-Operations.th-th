@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566121"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842004"
 ---
 # <a name="letter-of-guarantee-transaction"></a>ธุรกรรมของหนังสือค้ำประกัน
 
@@ -61,7 +61,7 @@ ms.locfileid: "1566121"
 15. ในฟิลด์วันที่จัดส่งที่ร้องขอ ให้ป้อนวันที่
 16. ในฟิลด์วันที่จัดส่งที่ยืนยัน ให้ป้อนวันที่
 
-## <a name="process-letter-of-guaranteerequest"></a>กระบวนการสร้างคำขอหนังสือค้ำประกัน
+## <a name="process-letter-of-guarantee_request"></a>กระบวนการสร้างคำขอหนังสือค้ำประกัน
 1. ในบานหน้าต่างการดำเนินการ คลิก จัดการ
 2. คลิกหนังสือค้ำประกัน
 3. บนบานหน้าต่างดำเนินการ ให้คลิกหนังสือค้ำประกัน 
@@ -73,7 +73,7 @@ ms.locfileid: "1566121"
 9. คลิก ตกลง
 10. ปิดหน้า
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>กระบวนการส่งหนังสือค้ำประกันไปที่ธนาคาร
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>กระบวนการส่งหนังสือค้ำประกันไปที่ธนาคาร
 1. ไปที่ การจัดการบัญชีเงินสดและธนาคาร > หนังสือค้ำประกัน > หนังสือค้ำประกัน
 2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 3. คลิกส่งไปที่ธนาคาร เพื่อเปิดกล่องโต้ตอบการวาง
@@ -81,7 +81,7 @@ ms.locfileid: "1566121"
 5. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 6. คลิก ตกลง
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>กระบวนรับหนังสือค้ำประกันจากธนาคาร
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>กระบวนรับหนังสือค้ำประกันจากธนาคาร
 1. คลิกรับจากธนาคาร เพื่อเปิดกล่องโต้ตอบการวาง
 2. ในฟิลด์หมายเลขธนาคาร ให้พิมพ์ค่าใดค่าหนึ่ง
     * ตรวจสอบมูลค่าในฟิลด์การคำนวณกำไรและค่าใช้จ่าย  
@@ -93,7 +93,7 @@ ms.locfileid: "1566121"
     * ตรวจสอบการลงบัญชีรายการสมุดรายวัน  
 7. ปิดหน้า
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>กระบวนการมอบหนังสือค้ำประกันให้แก่ผู้รับผลประโยชน์
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>กระบวนการมอบหนังสือค้ำประกันให้แก่ผู้รับผลประโยชน์
 1. ไปที่บัญชีลูกหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
 2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 3. ในบานหน้าต่างการดำเนินการ คลิก จัดการ
@@ -108,7 +108,7 @@ ms.locfileid: "1566121"
 12. ขยายส่วนการดำเนินการ
     * ตรวจสอบความถูกต้องของเรกคอร์ดว่า 'มอบให้แก่ผู้รับผลประโยชน์' หรือไม่  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>กระบวนการเพิ่มมูลค่าของหนังสือค้ำประกัน
+## <a name="process-letter-of-guarantee_increase-value"></a>กระบวนการเพิ่มมูลค่าของหนังสือค้ำประกัน
 1. ไปที่บัญชีลูกหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
 2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 3. ในบานหน้าต่างการดำเนินการ คลิก จัดการ
@@ -128,7 +128,7 @@ ms.locfileid: "1566121"
 16. คลิก รายการ
     * ตรวจสอบการลงบัญชีรายการสมุดรายวันที่ลงรายการแล้ว  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>กระบวนการชำระบัญชีของหนังสือค้ำประกัน
+## <a name="process-letter-of-guarantee_liquidate"></a>กระบวนการชำระบัญชีของหนังสือค้ำประกัน
 1. ไปที่บัญชีลูกหนี้ > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด
 2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 3. ในบานหน้าต่างการดำเนินการ คลิก จัดการ

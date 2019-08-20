@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551534"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850314"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
 
@@ -64,7 +64,7 @@ ms.locfileid: "1551534"
     * นอกจากจะเก็บข้อมูลการเปลี่ยนแปลงการตั้งค่าคอนฟิก การดำเนินการบันทึกยังเป็นการอัพเดตเท็มเพลต Word ที่แนบอีกด้วย โครงสร้างของรูปแบบที่ได้รับการออกแบบมาถูกนำไปยังเอกสาร Word ที่แนบเป็นส่วน XML แบบกำหนดเองใหม่ด้วยชื่อ 'รายงาน' โปรดทราบว่า เท็มเพลต Word ที่แนบไม่ได้มีเฉพาะโครงร่างของเอกสารที่เราต้องการสร้างเป็นเอาท์พุท ER แต่ยังประกอบด้วยโครงสร้างของข้อมูลที่ ER จะเติมลงในเท็มเพลตนี้ขณะรันไทม์  
 2. คลิกสิ่งที่แนบ
     * ขณะนี้ คุณจำเป็นต้องเชื่อมโยงองค์ประกอบของส่วน XML แบบกำหนดเอง 'รายงาน' กับส่วนเอกสาร Word  
-    * ถ้าคุณคุ้นเคยกับเอกสาร Word ที่สามารถออกแบบให้เป็นแบบฟอร์มที่มีตัวควบคุมเนื้อหา ซึ่งถูกกำหนดขอบเขตด้วยองค์ประกอบของส่วน XML แบบกำหนดเอง – เล่นขั้นตอนทั้งหมดของงานย่อยถัดไปเพื่อสร้างเอกสารดังกล่าว สำหรับข้อมูลเพิ่มเติม ดูลิงก์นี้ https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US หรือข้ามขั้นตอนทั้งหมดในงานย่อยถัดไป  
+    * ถ้าคุณคุ้นเคยกับเอกสาร Word ที่สามารถออกแบบให้เป็นแบบฟอร์มที่มีตัวควบคุมเนื้อหา ซึ่งถูกกำหนดขอบเขตด้วยองค์ประกอบของส่วน XML แบบกำหนดเอง – เล่นขั้นตอนทั้งหมดของงานย่อยถัดไปเพื่อสร้างเอกสารดังกล่าว สำหรับข้อมูลเพิ่มเติม ดูลิงก์นี้ https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US หรือข้ามขั้นตอนทั้งหมดในงานย่อยถัดไป  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>เรียกดู Word ด้วยส่วน XML แบบกำหนดเองเพื่อดำเนินการเชื่อมโยงข้อมูล
     * เปิดเอกสารนี้ใน Word และดำเนินการต่อไปนี้:  - เปิดแท็บนักพัฒนา Word (เลือกกำหนด Ribbon ถ้ายังไม่ได้เปิดใช้งาน)  - เลือกบานหน้าต่างการแม็ป XML  - เลือกส่วน XML แบบกำหนดเอง 'รายงาน' ในการค้นหา  - ทำการแม็ปองค์ประกอบของส่วน XML แบบกำหนดเองที่เลือกและตัวควบคุมเนื้อหาของเอกสาร Word  - บันทึกเอกสาร Word ที่อัพเดตแล้วบนไดรฟ์ในเครื่อง  

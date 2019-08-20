@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555393"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743267"
 ---
 # <a name="service-orders"></a>ใบสั่งบริการ   
 
@@ -76,7 +76,7 @@ ms.locfileid: "1555393"
 
 ## <a name="post-from-projects"></a>ลงรายการบัญชีจากโครงการ
 
-เมื่อสิ้นสุดแต่ละสัปดาห์ ผู้จัดส่งต้องการลงรายการบัญชีใบสั่งบริการทั้งหมดที่ถูกแนบอยู่กับโครงการเฉพาะ ดังนั้น ผู้จัดส่งจะค้นหาโครงการที่เกี่ยวข้องในแบบฟอร์ม **โครงการ** และลงรายการบัญชีใบสั่งบริการที่เสร็จสมบูรณ์แล้ว สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ลงรายการบัญชีใบสั่งบริการ (แบบฟอร์มคลาส)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\))
+เมื่อสิ้นสุดแต่ละสัปดาห์ ผู้จัดส่งต้องการลงรายการบัญชีใบสั่งบริการทั้งหมดที่ถูกแนบอยู่กับโครงการเฉพาะ ดังนั้น ผู้จัดส่งจะค้นหาโครงการที่เกี่ยวข้องในแบบฟอร์ม **โครงการ** และลงรายการบัญชีใบสั่งบริการที่เสร็จสมบูรณ์แล้ว สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ลงรายการบัญชีใบสั่งบริการ (แบบฟอร์มคลาส)](https://technet.microsoft.com/library/aa574685\(v=ax.60\))
 
 ## <a name="delete-service-orders"></a>ลบใบสั่งบริการ
 
@@ -84,7 +84,7 @@ ms.locfileid: "1555393"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ใบสั่งบริการ (แบบฟอร์ม)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[ใบสั่งบริการ (แบบฟอร์ม)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 
