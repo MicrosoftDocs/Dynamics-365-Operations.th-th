@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624823"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742644"
 ---
 # <a name="retail-peripherals"></a>อุปกรณ์ต่อพ่วง Retail
 
@@ -192,7 +192,7 @@ Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เ
 
 #### <a name="modern-pos-for-android"></a>Modern POS สำหรับ Android
 
-ในฐานะ Dynamics 365 for Retail รุ่น 8.1.3 POS แอพลิเคชัน Modern POS for Android รวมถึงสถานีฮาร์ดแวร์ IPC ในตัว สถานีฮาร์ดแวร์นี้สนับสนุนการสื่อสารกับเครื่องพิมพ์บนเครือข่ายและตัวเชื่อมต่อการชำระเงิน สำหรับข้อมูลเพิ่มเติม โปรดไปที่ [แอปไฮบริดสำหรับบทความเอกสาร Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app) 
+ในฐานะ Dynamics 365 for Retail รุ่น 8.1.3 POS แอพลิเคชัน Modern POS for Android รวมถึงสถานีฮาร์ดแวร์ IPC ในตัว สถานีฮาร์ดแวร์นี้สนับสนุนการสื่อสารกับเครื่องพิมพ์บนเครือข่ายและตัวเชื่อมต่อการชำระเงิน สำหรับข้อมูลเพิ่มเติม โปรดไปที่ [แอปไฮบริดสำหรับบทความเอกสาร Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app) 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS และ Modern POS สำหรับ iOS
 
@@ -541,7 +541,7 @@ Modern POS ใช้สถานีฮาร์ดแวร์ชนิด **เ
 
 4. คลิก **การขายปลีก** &gt; **ไอทีการขายปลีก** &gt; **กำหนดการกระจาย**
 5. เลือกกำหนดการกระจาย **1090** เพื่อซิงค์โพรไฟล์ฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
-6. เลือกกำหนดการกระจาย **1040** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
+6. เลือกกำหนดการกระจาย **1070** เพื่อซิงค์สถานีฮาร์ดแวร์ใหม่ไปยังร้านค้า คลิก **รันเดี๋ยวนี้** เพื่อซิงค์การเปลี่ยนแปลงลงใน POS
 7. ติดตั้งและเปิดใช้งาน Modern POS สำหรับ Windows
 8. เริ่มการทำงานของ Modern POS สำหรับ Windows และเริ่มต้นการใช้อุปกรณ์ต่อพ่วงที่มีการเชื่อมต่อ
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553211"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846911"
 ---
 # <a name="one-voucher"></a>ใบสำคัญหนึ่งใบ
 
@@ -51,7 +51,7 @@ ms.locfileid: "1553211"
 
 ## <a name="issues-with-one-voucher"></a>ปัญหาเกี่ยวกับใบสำคัญหนึ่งใบ
 
-ฟังก์ชันใบสำคัญหนึ่งใบทำให้เกิดปัญหาในระหว่างการชำระเงิน การคำนวณภาษี การกลับรายการธุรกรรม การกระทบยอดของบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป การรายงานทางการเงิน และอื่นๆ (สำหรับข้อมูลเพิ่มเติมเกี่ยวกับปัญหาที่อาจเกิดขึ้นระหว่างการชำระเงิน โปรดดู ตัวอย่างเช่น [ใบสำคัญเดียวที่มีเรกคอร์ดลูกค้าหรือผู้จัดจำหน่ายหลายราย](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records)) ในการทำงานและการรายงานอย่างถูกต้อง กระบวนการและรายงานเหล่านี้จำเป็นต้องมีรายละเอียดของธุรกรรม ถึงแม้ว่าบางสถานการณ์อาจยังคงทำงานได้อย่างถูกต้อง โดยขึ้นอยู่กับการตั้งค่าองค์กรของคุณ แต่มักจะมีปัญหาเมื่อมีการป้อนธุรกรรมต่างๆ ในใบสำคัญหนึ่งใบ
+ฟังก์ชันใบสำคัญหนึ่งใบทำให้เกิดปัญหาในระหว่างการชำระเงิน การคำนวณภาษี การกลับรายการธุรกรรม การกระทบยอดของบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป การรายงานทางการเงิน และอื่นๆ (สำหรับข้อมูลเพิ่มเติมเกี่ยวกับปัญหาที่อาจเกิดขึ้นระหว่างการชำระเงิน โปรดดู ตัวอย่างเช่น [ใบสำคัญเดียวที่มีเรกคอร์ดลูกค้าหรือผู้จัดจำหน่ายหลายราย](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records)) ในการทำงานและการรายงานอย่างถูกต้อง กระบวนการและรายงานเหล่านี้จำเป็นต้องมีรายละเอียดของธุรกรรม ถึงแม้ว่าบางสถานการณ์อาจยังคงทำงานได้อย่างถูกต้อง โดยขึ้นอยู่กับการตั้งค่าองค์กรของคุณ แต่มักจะมีปัญหาเมื่อมีการป้อนธุรกรรมต่างๆ ในใบสำคัญหนึ่งใบ
 
 ตัวอย่างเช่น คุณลงรายการบัญชีใบสำคัญหลายรายการ
 

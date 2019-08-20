@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fad076ae61da4845b65518f75747fec791b3b78c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548708"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848434"
 ---
 # <a name="compensation-power-bi-content"></a>เนื้อหา Power BI ของค่าตอบแทน
 
@@ -45,7 +45,7 @@ ms.locfileid: "1548708"
 | การวิเคราะห์การจ่ายเงินประจำตำแหน่ง      | การจ่ายเงินเดือนรายเดือนและรายชั่วโมงสูงที่สุดและต่ำที่สุด ตำแหน่งที่มีการจ่ายเงินเดือนสูงที่สุดและต่ำที่สุด และตำแหน่งแบบเต็มเวลาและชั่วคราว |
 | การวิเคราะห์แผนค่าตอบแทน | การลงทะเบียนพนักงานโดยเรียงตามสวัสดิการที่เลือก |
 
-คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมรายงานในเนื้อหา Power BI ของ **ค่าตอบแทน** ตารางนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม

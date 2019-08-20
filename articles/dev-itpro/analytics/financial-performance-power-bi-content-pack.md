@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35db2b51274afa6dae4cb5f75b4ba5390b167a49
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553963"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849599"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน
 
@@ -70,7 +70,7 @@ ms.locfileid: "1553963"
 | การวิเคราะห์ค่าใช้จ่าย            | ค่าใช้จ่ายรวม ค่าใช้จ่ายรวมที่เกิดขึ้นจริงและงบประมาณโดยเรียงตามนิติบุคคล ค่าใช้จ่ายรวมที่เกิดขึ้นจริงและงบประมาณโดยเรียงตามไตรมาส ผลรวมค่าใช้จ่ายโดยเรียงตามประเภทบัญชี และอัตราส่วนค่าใช้จ่ายการดำเนินงาน |
 | การวิเคราะห์รายได้ที่เรียกเก็บ     | บัญชีลูกหนี้รวม บัญชีลูกหนี้รวมโดยเรียงตามนิติบุคคล บัญชีลูกหนี้รวมโดยเรียงตามไตรมาส และยอดดุลสำหรับบัญชีของบัญชีลูกหนี้<blockquote>[!NOTE] ข้อมูลที่ไม่รวมกับยอดดุลต้นงวดสำหรับบัญชีลูกหนี้แบบแยกประเภท ซึ่งจะแสดงผลรวมของธุรกรรมใหม่ที่ถูกลงรายการบัญชีไปยังบัญชีลูกหนี้</blockquote> |
 
-สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 เอนทิตีต่อไปนี้ถูกนำมาใช้เป็นข้อมูลพื้นฐานของโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน**

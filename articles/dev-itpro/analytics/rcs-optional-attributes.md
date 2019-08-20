@@ -1,5 +1,5 @@
 ---
-title: จัดเตรียมข้อมูลเมตาเฉพาะของแอพลิเคชันสำหรับ RCS และ ER
+title: นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการออกแบบรูปแบบ ER ซึ่งระบุแอททริบิวต์ XML เพื่อแยกเอกสารอิเล็กทรอนิกส์ขาเข้าในรูปแบบ XML
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726586"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850006"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>จัดเตรียมข้อมูลเมตาเฉพาะของแอพลิเคชันสำหรับ RCS และ ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
 
 คุณสามารถออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อแยกเอกสารอิเล็กทรอนิกส์ขาเข้าในรูปแบบ XML ได้ สามารถระบุแอททริบิวต์บางอย่างขององค์ประกอบ XML ในรูปแบบ ER เป็นแบบไม่จำเป็นต้องระบุ ซึ่งจะช่วยให้คุณสามารถจัดการกับไฟล์ขาเข้าที่มีและที่ไม่มีแอททริบิวต์ XML ดังกล่าวได้อย่างถูกต้อง จากนั้นคุณสามารถใช้เนื้อหาจากไฟล์เหล่านี้เพื่ออัพเดตข้อมูลแอพลิเคชันได้
 
@@ -101,7 +101,7 @@ ms.locfileid: "1726586"
 9.  ในแผนภูมิ เลือก **format\root: XML Element(root)\document: XML Element 1..* (เอกสาร)**
 10. คลิก **ผูก**
 11. ในแผนภูมิ ขยาย **format\root: XML Element(root)\document: XML Element 1..* (เอกสาร)**
-12. ในแผนภูมิ เลือก **format\root: XML Element(root)\document: XML Element 1..* (เอกสาร)\id**
+12. ในแผนภูมิ เลือก **format\root: XML Element(root)\document: XML Element 1..* (เอกสาร)\รหัส**
 13. ในแผนภูมิ ให้ขยาย **List = format.root.document**
 14. ในแผนภูมิ ให้เลือก **List = format.root.document\Code**
 15. คลิก **ผูก**

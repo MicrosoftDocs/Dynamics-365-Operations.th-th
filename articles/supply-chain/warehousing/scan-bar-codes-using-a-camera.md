@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559059"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742945"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – คลังสินค้า
 
@@ -36,7 +36,7 @@ ms.locfileid: "1559059"
 ## <a name="setup"></a>การตั้งค่า
 ในการตั้งค่าการแสดงของแอพลิเคชัน Warehousing คุณสามารถเลือกได้ว่า กล้องควรจะใช้สำหรับการสแกนบาร์โค้ดหรือไม่ ถ้าคุณเปิดใช้งาน **ใช้กล้องเป็นสแกนเนอร์** คุณสามารถใช้กล้องในทุกฟิลด์อินพุทที่มีโหมดอินพุทที่ต้องการ ซึ่งตั้งค่าเป็น **การสแกน** ได้ 
 
-เพื่อควบคุมว่าฟิลด์ป้อนเข้าควรสามารถสแกนได้หรือไม่ ในหน้า **ชื่อฟิลด์แอปคลังสินค้า** ใน Dynamics 365 for Finance and Operations ตั้งค่า **โหมดขาเข้าที่ต้องการ** เป็น **การสแกน** เมื่อมีการเลือกตัวเลือกนี้ คุณสามารถใช้กล้องสำหรับการสแกนในแอพลิเคชัน Warehousing ได้ สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันใน Warehousing ดู [ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse)
+เพื่อควบคุมว่าฟิลด์ป้อนเข้าควรสามารถสแกนได้หรือไม่ ในหน้า **ชื่อฟิลด์แอปคลังสินค้า** ใน Dynamics 365 for Finance and Operations ตั้งค่า **โหมดขาเข้าที่ต้องการ** เป็น **การสแกน** เมื่อมีการเลือกตัวเลือกนี้ คุณสามารถใช้กล้องสำหรับการสแกนในแอพลิเคชัน Warehousing ได้ สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันใน Warehousing ดู [ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse)
 
 ## <a name="supported-bar-code-formats"></a>รูปแบบบาร์โค้ดที่สนับสนุน
 รูปบาร์โค้ดทั่วไปส่วนใหญ่ได้รับการสนับสนุน ซึ่งรวมถึงรหัส 128 รหัส 39 รหัส 93 EAN-8 EAN-13 UPC-E UPC-A และรหัส QR 

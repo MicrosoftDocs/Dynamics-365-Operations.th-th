@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703886"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741514"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพการทำงาน
 
@@ -104,7 +104,7 @@ ms.locfileid: "1703886"
 ### <a id='import-configuration'></a>นำเข้าการตั้งค่าคอนฟิก ER จาก RCS ไปยัง Finance and Operations
 
 1. ลงชื่อเข้าใช้อินสแตนซ์การเงินและการดำเนินงานของคุณ
-2. สำหรับบทช่วยสอนนี้ คุณจะนำเข้าการตั้งค่าคอนฟิกจากอินสแตนซ์ RCS ของคุณ (ที่ซึ่งคุณออกแบบส่วนประกอบ ER ของคุณ) ลงในอินสแตนซ์ Finance and Operations ของคุณ (ที่ซึ่งคุณทดสอบและใช้งานในที่สุด) ดังนั้น คุณต้องตรวจสอบให้แน่ใจว่ามีการจัดเตรียมอาร์ทิแฟกต์ที่จำเป็นทั้งหมดแล้ว สำหรับคำแนะนำ โปรดดูกระบวนงาน [นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จาก Regulatory Configuration Services (RCS)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)
+2. สำหรับบทช่วยสอนนี้ คุณจะนำเข้าการตั้งค่าคอนฟิกจากอินสแตนซ์ RCS ของคุณ (ที่ซึ่งคุณออกแบบส่วนประกอบ ER ของคุณ) ลงในอินสแตนซ์ Finance and Operations ของคุณ (ที่ซึ่งคุณทดสอบและใช้งานในที่สุด) ดังนั้น คุณต้องตรวจสอบให้แน่ใจว่ามีการจัดเตรียมอาร์ทิแฟกต์ที่จำเป็นทั้งหมดแล้ว สำหรับคำแนะนำ โปรดดูกระบวนงาน [นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จาก Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)
 3. ทำตามขั้นตอนต่อไปนี้เพื่อนำเข้าการตั้งค่าคอนฟิกจาก RCS ไปยัง Finance and Operations:
 
     1. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** บนไทล์สำหรับผู้ให้บริการ การตั้งค่าคอนฟิก **Litware, Inc.** เลือก **ที่เก็บ**

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551494"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741366"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อแยกวิเคราะห์เอกสารขาเข้า
 
@@ -30,7 +30,7 @@ ms.locfileid: "1551494"
 
 กระบวนงานนี้ถูกสร้างขึ้นสำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ที่ได้รับมอบหมาย 
 
-ขั้นตอนเหล่านี้สามารถเสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูลใดๆ ก่อนที่คุณเริ่มต้น ดาวน์โหลด และบันทึกแฟ้มที่แสดงรายการอยู่ในหัวข้อ "แยกวิเคราะห์เอกสารขาเข้าเพื่ออัพเดตข้อมูลแอพลิเคชัน" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) แฟ้ม ได้แก่: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml
+ขั้นตอนเหล่านี้สามารถเสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูลใดๆ ก่อนที่คุณเริ่มต้น ดาวน์โหลด และบันทึกแฟ้มที่แสดงรายการอยู่ในหัวข้อ "แยกวิเคราะห์เอกสารขาเข้าเพื่ออัพเดตข้อมูลแอพลิเคชัน" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) แฟ้ม ได้แก่: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml
 
 1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์
     * ตรวจสอบให้แน่ใจว่าผู้ให้บริการการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง Litware, Inc. พร้อมใช้งาน และทำเครื่องหมายเป็น ใช้งานอยู่ ถ้าคุณไม่เห็นผู้ให้บริการการตั้งค่าคอนฟิกนี้ จะต้องดำเนินขั้นตอนต่างๆ ในกระบวนงานให้เสร็จสมบูรณ์ “สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่”  

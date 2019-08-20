@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0f7d63fa0566cfc2a23b3228d687d7f85d848c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549594"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840756"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>รายงานการกระทบยอดสินทรัพย์ถาวร
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549594"
 
 รายงาน **โรลฟอร์เวิร์ดสินทรัพย์ถาวร** ให้ ในรูปแบบ Microsoft Excel ที่ง่ายต่อการอ่าน ข้อมูลสินทรัพย์ถาวรโดยละเอียดที่คุณต้องการสำหรับการปิดระยะเวลา ใบแจ้งยอดทางการเงิน และการรายงานภาษี รายงานรวมยอดดุลเริ่มต้นและยอดดุลสิ้นสุดสำหรับสินทรัพย์ถาวร รวมทั้งความเคลื่อนไหวของการประเมินค่าสำหรับรอบระยะเวลา และการซื้อสินทรัพย์ใหม่ และการตัดจำหน่ายใดๆ ที่เกิดขึ้นในระหว่างรอบระยะเวลา มีการรายงานข้อมูลสำหรับสินทรัพย์ถาวรแต่ละรายการ และยังมีการสรุปค่าสำหรับกลุ่มสินทรัพย์ถาวรและนิติบุคคลอีกด้วย
 
-รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 รายงานนี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 หรือโปรแกรมแก้ไขด่วนสำหรับ Microsoft Dynamics 365 for Finance and Operations Enterprise edition (กรกฎาคม 2017) ต้องใช้โปรแกรมแก้ไขด่วนสามโปรแกรมกับสภาพแวดล้อมที่มีการนำออกใช้เดือนกรกฎาคม 2017:
 

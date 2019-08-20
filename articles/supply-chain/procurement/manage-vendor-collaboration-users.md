@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555072"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742481"
 ---
 # <a name="manage-vendor-collaboration-users"></a>จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย
 
@@ -65,7 +65,7 @@ ms.locfileid: "1555072"
 4. ในส่วน **กำหนดบทบาทผู้ใช้** เลือกกล่องกาเครื่องหมาย **กำหนด** สำหรับบทบาทความปลอดภัยที่ผู้ใช้ใหม่ควรมี
 5. คลิก **ส่ง**
 
-เมื่อมีการส่งคำขอของผู้ใช้ที่เป็นผู้จัดจำหน่าย ฟิลด์ **อนุญาตการเข้าถึงการทำงานร่วมกันกับผู้จัดจำหน่ายแล้ว** จะถูกตั้งค่าเป็น **ใช่** สำหรับบัญชีผู้จัดจำหน่ายที่เลือกและลำดับงานคำขอของผู้ใช้จะเริ่มต้น จะมีการสร้างผู้ใช้ใหม่ใน Finance and Operations และมีการกำหนดบทบาทความปลอดภัยโดยเป็นส่วนหนึ่งของลำดับงาน นอกจากนี้ บริการแบบ Azure B2B จะถูกเรียกใช้งานซึ่งจะเริ่มต้นการโต้ตอบกับพอร์ทัล Azure และ เชื่อมโยงกับบัญชี AAD ใหม่หรือบัญชีที่มีอยู่กับบัญชีผู้ใช้ Finance and Operations สำหรับข้อมูลเพิ่มเติม ดูที่ [การทำงานร่วมกันแบบ B2B ของ Azure AD คืออะไร?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)
+เมื่อมีการส่งคำขอของผู้ใช้ที่เป็นผู้จัดจำหน่าย ฟิลด์ **อนุญาตการเข้าถึงการทำงานร่วมกันกับผู้จัดจำหน่ายแล้ว** จะถูกตั้งค่าเป็น **ใช่** สำหรับบัญชีผู้จัดจำหน่ายที่เลือกและลำดับงานคำขอของผู้ใช้จะเริ่มต้น จะมีการสร้างผู้ใช้ใหม่ใน Finance and Operations และมีการกำหนดบทบาทความปลอดภัยโดยเป็นส่วนหนึ่งของลำดับงาน นอกจากนี้ บริการแบบ Azure B2B จะถูกเรียกใช้งานซึ่งจะเริ่มต้นการโต้ตอบกับพอร์ทัล Azure และ เชื่อมโยงกับบัญชี AAD ใหม่หรือบัญชีที่มีอยู่กับบัญชีผู้ใช้ Finance and Operations สำหรับข้อมูลเพิ่มเติม ดูที่ [การทำงานร่วมกันแบบ B2B ของ Azure AD คืออะไร?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)
 
 ### <a name="inactivate-a-user"></a>ยกเลิกการเรียกใช้ผู้ใช้
 

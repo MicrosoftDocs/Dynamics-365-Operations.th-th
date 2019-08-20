@@ -3,7 +3,7 @@ title: แป้นพิมพ์ลัด
 description: 'ทางลัดของแป้นพิมพ์ต่อไปนี้จะใช้ทั่วทั้ง Dynamics 365 for Finance and Operations '
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561844"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780069"
 ---
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
@@ -138,9 +138,13 @@ ms.locfileid: "1561844"
 | เพิ่มช่วงของแถวในชุดที่เลือก<blockquote>[!NOTE] ทางลัดนี้ใช้กับสถานการณ์จำลองที่มีหลายการเลือกเท่านั้น</blockquote>         | Shift + คลิก                     |
 | ไปที่หน้าข้อมูลถัดไป/ก่อนหน้า                                                                                   | เลื่อนหน้าขึ้น / เลื่อนหน้าลง             |
 | สร้างแถวใหม่ที่ด้านล่างของกริด                                                                             | เลื่อนลูกศรลง (จากแถวสุดท้าย)  |
-| เลือกหรือล้างข้อมูลแถวทั้งหมด                                                                                               | Ctrl + Shift + M                    |
 | ไปที่เรกคอร์ดแรก                                                                                               | Ctrl + Home                       |
 | ไปที่เรกคอร์ดสุดท้าย                                                                                                | Ctrl + End                        |
+| เลือกหรือล้างข้อมูลแถวทั้งหมด                                                                                               | Ctrl + Shift + M                    |
+| ย้ายไปที่แถวแรกที่ทำเครื่องหมาย                                                                                           | Alt+Shift+M, F                    |
+| ย้ายไปที่แถวถัดไปที่ทำเครื่องหมาย                                                                                            | Alt+Shift+M, L                    |
+| ย้ายไปที่แถวก่อนหน้าที่ทำเครื่องหมาย                                                                                        | Alt+Shift+M, P                    |
+| ย้ายไปที่แถวสุดท้ายที่ทำเครื่องหมาย                                                                                           | Alt+Shift+M, N                    |
 | เรียกใช้การดำเนินการเริ่มต้นในกริด<blockquote>[!NOTE] ทางลัดนี้ถูกเปิดใช้งานเมื่อโฟกัสอยู่บนเซลล์ที่มีไฮเปอร์ลิงก์ และเซลล์ทั้งหมดในคอลัมน์มีไฮเปอร์ลิงก์</blockquote> | ป้อน                           |
 | สลับโฟกัสระหว่างแถวที่เลือกและแถวส่วนหัว                                                               | Alt+Shift+H                     |
 | ทำให้คอลัมน์ปัจจุบันใหญ่ขึ้น/เล็กลง (พร้อมกับโฟกัสในแถวส่วนหัว)                                                  | ลูกศรทางขวา / ลูกศรทางซ้าย        |

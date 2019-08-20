@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: robinr
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5cfb2377ad290bff9c50819876d79a9d4b2a73d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548196"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848608"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
@@ -45,10 +45,10 @@ ms.locfileid: "1548196"
 4. ตัวเลือก: เพิ่มส่วนขยายเพื่อกำหนดมุมมองเอง
 
 > [!NOTE]
-> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานการวิเคราะห์ ดู [เริ่มต้นใช้งาน Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
+> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานการวิเคราะห์ ดู [เริ่มต้นใช้งาน Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/) หน้านี้คือแหล่งข้อมูลเชิงลึกที่ดีเยี่ยมที่สามารถช่วยคุณในการสร้างโซลูชันการรายงานเชิงวิเคราะห์ที่น่าสนใจ
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>เพิ่มไฟล์ .pbix เป็นทรัพยากร
-ก่อนที่คุณจะเริ่มต้น คุณต้องสร้างหรือได้รับรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานการวิเคราะห์ ดู [เริ่มต้นใช้งาน Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)
+ก่อนที่คุณจะเริ่มต้น คุณต้องสร้างหรือได้รับรายงาน Power BI ที่คุณจะฝังในพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างรายงานการวิเคราะห์ ดู [เริ่มต้นใช้งาน Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/)
 
 ให้ปฏิบัติตามขั้นตอนเหล่านี้ เพื่อเพิ่มไฟล์ .pbix เป็นอาร์ทิแฟกต์โครงการ Visual Studio
 

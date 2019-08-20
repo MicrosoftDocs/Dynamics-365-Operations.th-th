@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adcc9bbc422a3fddfd51d248daf95c0da6d4c9bb
-ms.sourcegitcommit: 8cf77e9171d6cad8ae6c8bfad9e4f9a46fef6d23
+ms.openlocfilehash: 7ca04433937d0d7a16b450f190cd3814533e270d
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "1689011"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741067"
 ---
 # <a name="workflow-faq"></a>FAQ เกี่ยวกับลำดับงาน
 
@@ -48,6 +48,6 @@ ms.locfileid: "1689011"
     - ในการปรับปรุงในอนาคต เราจะเพิ่มข้อความของศูนย์ปฏิบัติการ เพื่อให้ผู้ใช้ได้รับการกำหนดรายการงานของลำดับงาน 
 - การเพิ่มการแจ้งเตือนไปยังลำดับงาน
     - สามารถสร้างข้อความของศูนย์ปฏิบัติการสำหรับผู้ใช้เฉพาะ เช่น ข้อความที่สร้างขึ้นจากลำดับงานใน X++
-    - [ลำดับงานมีเหตุการณ์ทางธุรกิจ](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่ลูกค้าสามารถใช้เพื่อทริกเกอร์โฟลว์ให้มีการแจ้งเตือนที่พวกเขากำลังค้นหา   
+    - [ลำดับงานมีเหตุการณ์ทางธุรกิจ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่ลูกค้าสามารถใช้เพื่อทริกเกอร์โฟลว์ให้มีการแจ้งเตือนที่พวกเขากำลังค้นหา   
 
-โดยสรุป ถ้าผู้ใช้ไม่ได้รับการแจ้งเตือนที่เหมาะสมจากศูนย์ปฏิบัติการ เมื่อมีการกำหนดรายการงานของลำดับงาน ใช้ [เหตุการณ์ทางธุรกิจของลำดับงาน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่มี Microsoft Flow เพื่อให้การแจ้งเตือนเพิ่มเติมหรือการแจ้งเตือนที่แตกต่างกัน
+โดยสรุป ถ้าผู้ใช้ไม่ได้รับการแจ้งเตือนที่เหมาะสมจากศูนย์ปฏิบัติการ เมื่อมีการกำหนดรายการงานของลำดับงาน ใช้ [เหตุการณ์ทางธุรกิจของลำดับงาน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่มี Microsoft Flow เพื่อให้การแจ้งเตือนเพิ่มเติมหรือการแจ้งเตือนที่แตกต่างกัน
