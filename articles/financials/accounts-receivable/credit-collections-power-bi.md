@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702783"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835153"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
@@ -72,4 +72,4 @@ ms.locfileid: "1702783"
 | สถานะการเรียกเก็บเงิน          | <ul><li>มีข้อโต้แย้ง</li><li>ผิดสัญญาว่าจะชำระ</li><li>สัญญาว่าจะชำระ</li><li>รายละเอียดสถานะการเรียกเก็บเงิน</li><li>ยอดเงินในสถานะการเรียกเก็บเงิน</li><li>กรณีที่เปิด</li><li>กิจกรรมที่เปิด</li></ul> |
 | จดหมายเรียกเก็บเงิน         | <ul><li>ยอดเงินสำหรับรหัสการเรียกเก็บเงิน</li><li>รายละเอียดยอดเงินสำหรับรหัสการเรียกเก็บเงิน</li><li>จำนวนจดหมายเรียกเก็บเงินสำหรับแต่ละบริษัท</li><li>จำนวนจดหมายเรียกเก็บเงินสำหรับกลุ่มลูกค้าแต่ละกลุ่ม</li><li>จำนวนจดหมายเรียกเก็บเงินตามภูมิภาค</li></ul> |
 
-สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันส่งออกข้อมูลพื้นฐาน เพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปในการแสดงภาพ
+สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันส่งออกข้อมูลพื้นฐาน เพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปในการแสดงภาพ

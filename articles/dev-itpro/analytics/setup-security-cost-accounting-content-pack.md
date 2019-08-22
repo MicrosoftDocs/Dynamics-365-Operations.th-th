@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9b9533ae650c05f57a45be25aec6cbe2e3db76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551471"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849878"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน
 
@@ -63,4 +63,4 @@ ms.locfileid: "1551471"
 เราสมมติว่าองค์กรของคุณต้องการจำกัดการเข้าถึงข้อมูล ถ้า ด้วยเหตุผลบางอย่าง พารามิเตอร์ความปลอดภัยถูกปิดใช้งาน เมื่อคุณรันการบัญชีต้นทุน เจ้าของต้องเพิ่มผู้ใช้บทบาท **นักบัญชีต้นทุน** ใน Power BI แทน ถ้าคุณเปลี่ยนความปลอดภัยจากสถานะที่เปิดใช้งานไปเป็นสถานะที่ปิดใช้งาน คุณควรลบผู้ใช้ออกจากบทบาท **ตัวควบคุมออบเจ็กต์ต้นทุน** และในทางกลับกัน ถ้าคุณเปิดใช้งานความปลอดภัยอีกครั้ง ผู้ใช้อาจเป็นสมาชิกของทั้งสองบทบาท การเข้าถึงร่วมกันคือการรวมทั้งสองบทบาท ในกรณีของเนื้อหา Power BI ของ **การวิเคราะห์การบัญชีต้นทุน** ผู้ใช้ที่มีการเข้าถึงการเข้าร่วมมีการเข้าถึงข้อมูลที่ไม่จำกัด ถ้าเป้าหมายของคุณคือการจำกัดการเข้าถึง จะต้องกำหนดผู้ใช้ไปยังบทบาท **ตัวควบคุมออบเจ็กต์ต้นทุน** เท่านั้น การอัพเดตความปลอดภัยระดับแถวเหล่านี้จะมีผลทันที ผู้ใช้ที่ได้รับผลกระทบควรรีเฟรชเบราว์เซอร์ของตน
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับแถวของ Power BI ดู [จัดการความปลอดภัยในแบบจำลองของคุณใน Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model)
+เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับแถวของ Power BI ดู [จัดการความปลอดภัยในแบบจำลองของคุณใน Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model)

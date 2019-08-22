@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 265184
 ms.assetid: 1ce8c70b-c6af-4171-98d2-2aa8e9563c5b
@@ -18,12 +18,12 @@ ms.search.region: Thailand
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d95108fd9c275a9f1fa0bff79db31f941f0bbbf2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f18488a43dc7b0a88e5d435d2811b18e6d09ce08
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572870"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850717"
 ---
 # <a name="stock-card-report-for-thailand"></a>รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย
 

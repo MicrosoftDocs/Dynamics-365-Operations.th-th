@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbba70db569423f7aac258eab12cd7f1cd504bc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545087"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849826"
 ---
 # <a name="organizational-training-power-bi-content"></a>เนื้อหา Power BI การฝึกเชิงองค์กร
 
@@ -31,14 +31,14 @@ ms.locfileid: "1545087"
 หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI การฝึกเชิงองค์กร
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
-หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
+หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูล Finance and Operations ของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
 
 | รายงาน          | เนื้อหา                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
 | การวิเคราะห์หลักสูตร | การลงทะเบียนตามสถานที่ ผู้เข้าร่วมหลักสูตรตามสถานะ และรายการลงทะเบียน |
 | ชนิดของหลักสูตร    | ชนิดของหลักสูตรตามทักษะ                                                       |
 
-คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
+คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 มีการใช้ข้อมูล Finance and Operations เพื่อรวบรวมรายงานในชุดเนื้อหาการฝึกอบรมขององค์กร ตารางต่อไปนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม

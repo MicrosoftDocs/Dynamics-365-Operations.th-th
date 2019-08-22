@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557742"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863711"
 ---
 # <a name="generate-consolidated-financial-statements"></a>สร้างงบการเงินที่รวมบัญชี
 
@@ -49,11 +49,11 @@ ms.locfileid: "1557742"
 
 คุณยังสามารถสร้างแผนภูมิรายงานหลายระดับซึ่งรวมระดับมากเท่าที่คุณต้องการได้ด้วย ภาพต่อไปนี้แสดงคำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามภูมิภาคทั่วโลก
 
-![คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามภูมิภาค](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามภูมิภาค")
+![คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามภูมิภาค](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามภูมิภาค")
 
 ภาพต่อไปนี้แสดงคำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามฟังก์ชัน
 
-![คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามฟังก์ชัน](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามฟังก์ชัน")
+![คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามฟังก์ชัน](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "คำนิยามแผนภูมิรายงานแบบหลายระดับซึ่งมีการรวบรวมโดยเรียงตามฟังก์ชัน")
 
 ### <a name="viewing-companies-side-by-side"></a>ดูบริษัทเคียงข้างกัน
 ลูกค้าจำนวนมากต้องรายงานที่บริษัทปรากฏอยู่เคียงข้าง และซึ่งคอลัมน์แสดงผลรวมที่รวมบัญชี รูปแบบนี้ทำให้เสร็จสิ้นได้ง่าย หลังจากที่คุณสร้างแผนภูมิรายงาน ต่อไปนี้เป็นขั้นตอนระดับสูงเพื่อดูบริษัทเคียงข้างกันในงบการเงินที่รวมบัญชี
@@ -98,7 +98,7 @@ ms.locfileid: "1557742"
 > [!NOTE]
 > คุณสามารถใช้เปอร์เซ็นต์ความเป็นเจ้าของนี้กับหน่วยการรายงานใดๆ ได้ ไม่ใช่แค่ในระดับบริษัท 
 
-![การใช้เปอร์เซ็นต์นิยามแผนภูมิรายงาน](./media/Using-reporting%20tree-definition-percentage.png "การใช้เปอร์เซ็นต์นิยามแผนภูมิรายงาน")
+![การใช้เปอร์เซ็นต์นิยามแผนภูมิรายงาน](./media/Using-reporting-tree-definition-percentage.png "การใช้เปอร์เซ็นต์นิยามแผนภูมิรายงาน")
 
 เมื่อมีการสร้างรายงาน รายงาน Contoso Germany จะแสดง 100 เปอร์เซ็นต์ของยอดขาย และ 80 เปอร์เซ็นต์ของยอดเงินจะถูกปันส่วนและสะสมให้กับระดับที่รวมบัญชีสำหรับการขาย
 

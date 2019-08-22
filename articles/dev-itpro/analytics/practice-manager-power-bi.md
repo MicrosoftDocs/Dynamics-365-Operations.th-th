@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551682"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850108"
 ---
 # <a name="practice-manager-power-bi-content"></a>เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "1551682"
 | EVM               | ดัชนีประสิทธิภาพต้นทุนและกำหนดการโดยเรียงตามโครงการ |
 | ชั่วโมง             | <ul><li>ชั่วโมงที่ใช้เรียกเก็บเงินได้จริงเทียบกับชั่วโมงภาระงานที่เรียกเก็บเงินได้จริงเทียบกับจำนวนชั่วโมงของงบประมาณ</li><li>ชั่วโมงที่ใช้เรียกเก็บเงินได้จริงเทียบกับชั่วโมงภาระงานที่เรียกเก็บเงินได้จริงโดยเรียงตามโครงการ</li><li>ชั่วโมงที่ใช้เรียกเก็บเงินได้จริงเทียบกับชั่วโมงภาระงานที่เรียกเก็บเงินได้จริงโดยเรียงตามทรัพยากร</li><li>อัตราส่วนชั่วโมงที่เรียกเก็บเงินได้จริงโดยเรียงตามโครงการ</li><li>อัตราส่วนชั่วโมงที่เรียกเก็บเงินได้จริงโดยเรียงตามทรัพยากร</li></ul> |
 
-สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันการส่งออกข้อมูลพื้นฐานเพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปโดยใช้การแสดงภาพ
+สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันการส่งออกข้อมูลพื้นฐานเพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปโดยใช้การแสดงภาพ
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 
@@ -62,7 +62,7 @@ ms.locfileid: "1551682"
 
 ส่วนต่อไปนี้อธิบายถึงการวัดแบบรวมที่ใช้ในแต่ละเอนทิตี้
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>เอนทิตี: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>เอนทิตี: ProjectAccountingCube\_ActualHourUtilization
 **แหล่งข้อมูล** ProjEmplTrans
 
 | การวัดแบบรวมหลัก      | ฟิลด์                              | คำอธิบาย |
@@ -70,7 +70,7 @@ ms.locfileid: "1551682"
 | ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริง | Sum(ActualUtilizationBillableRate) | จำนวนรวมของชั่วโมงที่ใช้เรียกเก็บเงินได้จริง |
 | ชั่วโมงภาระงานที่เรียกเก็บเงินได้จริง   | Sum(ActualBurdenBillableRate)      | จำนวนรวมของอัตราภาระงานจริง |
 
-### <a name="entity-projectaccountingcubeactuals"></a>เอนทิตี: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>เอนทิตี: ProjectAccountingCube\_Actuals
 **แหล่งข้อมูล** ProjTransPosting
 
 | การวัดแบบรวมหลัก | ฟิลด์              | คำอธิบาย |
@@ -78,14 +78,14 @@ ms.locfileid: "1551682"
 | รายได้จริง            | Sum(ActualRevenue) | จำนวนรวมของรายได้ที่ลงรายการบัญชีสำหรับธุรกรรมทั้งหมด |
 | ต้นทุนจริง               | Sum(ActualCost)    | จำนวนรวมของต้นทุนที่ลงรายการบัญชีสำหรับชนิดธุรกรรมทั้งหมด |
 
-### <a name="entity-projectaccountingcubecustomer"></a>เอนทิตี: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>เอนทิตี: ProjectAccountingCube\_Customer
 **แหล่งข้อมูล** CustTable
 
 | การวัดแบบรวมหลัก | ฟิลด์                                             | คำอธิบาย |
 |---------------------------|---------------------------------------------------|-------------|
 | จำนวนของโครงการ        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | จำนวนของโครงการที่มีอยู่ |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>เอนทิตี: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>เอนทิตี: ProjectAccountingCube\_Forecasts
 **แหล่งข้อมูล** ProjTransBudget
 
 | การวัดแบบรวมหลัก | ฟิลด์                  | คำอธิบาย |
@@ -94,14 +94,14 @@ ms.locfileid: "1551682"
 | รายได้ตามงบประมาณ            | Sum(BudgetRevenue)     | จำนวนรวมของรายได้ค้างรับ/ที่ออกใบแจ้งหนี้ที่คาดการณ์ |
 | กำไรขั้นต้นตามงบประมาณ       | Sum(BudgetGrossMargin) | ผลต่างระหว่างผลรวมของรายได้ที่คาดการณ์ไว้รวมและผลรวมของต้นทุนที่คาดการณ์ไว้รวม |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>เอนทิตี: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>เอนทิตี: ProjectAccountingCube\_ProjectPlanCostsView
 **แหล่งข้อมูล** โครงการ
 
 | การวัดแบบรวมหลัก | ฟิลด์                    | คำอธิบาย |
 |---------------------------|--------------------------|-------------|
 | ต้นทุนที่วางแผนไว้              | Sum(SumOfTotalCostPrice) | ราคาต้นทุนรวมในการประเมินสำหรับธุรกรรมของโครงการทุกชนิดที่มีงานที่ได้วางแผนไว้ |
 
-### <a name="entity-projectaccountingcubeprojects"></a>เอนทิตี: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>เอนทิตี: ProjectAccountingCube\_Projects
 **แหล่งข้อมูล** โครงการ
 
 | การวัดแบบรวมหลัก    | ฟิลด์ | คำอธิบาย |
@@ -112,7 +112,7 @@ ms.locfileid: "1551682"
 | อัตราส่วนชั่วโมงที่เรียกเก็บเงินได้จริง  | ProjectAccountingCube\_โครงการ\[ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริงรวมของโครงการ\] ÷ (ProjectAccountingCube\_โครงการ\[ชั่วโมงที่ใช้ที่เรียกเก็บเงินได้จริงรวมของโครงการ\] + ProjectAccountingCube\_โครงการ\[ชั่วโมงภาระงานที่เรียกเก็บเงินได้จริงรวมของโครงการ\]) | ชั่วโมงที่เรียกเก็บเงินได้จริงรวม ขึ้นอยู่กับจำนวนชั่วโมงใช้งานและชั่วโมงภาระงาน |
 | มูลค่าที่ได้มา                 | ProjectAccountingCube\_โครงการ\[ต้นทุนที่วางแผนไว้รวมของโครงการ\] × ProjectAccountingCube\_โครงการ\[เปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์\] | ต้นทุนที่วางแผนไว้รวมที่คูณด้วยเปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์ |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>เอนทิตี: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>เอนทิตี: ProjectAccountingCube\_TotalEstimatedCosts 
 **แหล่งข้อมูล** ProjTable
 
 | การวัดแบบรวมหลัก       | ฟิลด์               | คำอธิบาย |

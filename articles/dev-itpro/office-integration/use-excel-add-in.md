@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555001"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741121"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>เปิดข้อมูลเอนทิตี้ใน Excel และปรับปรุงโดยใช้ add-in ของ Excel
 
@@ -60,7 +60,7 @@ Add-in ของ Excel จะอ่านข้อมูลสำหรับเ
 
 6. เลือก **ตกลง** แล้วเลือก **ใช่** เพื่อยืนยันการเปลี่ยนแปลง Add-in ของ Excel ถูกรีสตาร์ทและโหลดข้อมูลเมตา
 
-    ปุ่ม **การออกแบบ** พร้อมใช้งานแล้วในขณะนี้ ถ้า Add-in ของ Excel มีปุ่ม **โหลดแอปเพล็ต** คุณอาจไม่ได้เข้าสู่ระบบในฐานะผู้ใช้ที่ถูกต้อง สำหรับข้อมูลเพิ่มเติม ดู "มีการแสดงปุ่มโหลดแอปเพล็ต" ในส่วน [การแก้ไขปัญหาเบื้องต้น](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) ของหัวข้อนี้
+    ปุ่ม **การออกแบบ** พร้อมใช้งานแล้วในขณะนี้ ถ้า Add-in ของ Excel มีปุ่ม **โหลดแอปเพล็ต** คุณอาจไม่ได้เข้าสู่ระบบในฐานะผู้ใช้ที่ถูกต้อง สำหรับข้อมูลเพิ่มเติม ดู "มีการแสดงปุ่มโหลดแอปเพล็ต" ในส่วน [การแก้ไขปัญหาเบื้องต้น](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) ของหัวข้อนี้
 
 7. เลือก **การออกแบบ** Add-in ของ Excel ดึงข้อมูลเมตาของเอนทิตี
 8. เลือก **เพิ่มตาราง** รายการของเอนทิตีปรากฏขึ้น เอนทิตีจะแสดงรายการในรูปแบบ "ชื่อ - ป้ายชื่อ"

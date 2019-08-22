@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625340"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850884"
 ---
 # <a name="finance-and-operations-help-system"></a>ระบบวิธีใช้ Finance and Operations
 
@@ -99,7 +99,7 @@ Finance and Operations และ Retail ทั้งหมดใช้ตาร�
 
 คุณสามารถจัดสรรและทำการแก้ไขเอกสาร Finance and Operations ได้ เมื่อต้องการเริ่มต้นใช้งาน คลิกปุ่ม **แก้ไข** (ดินสอ) บนหัวข้อ หรือไปที่ repo ของเราที่ <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public> วิดีโอต่อไปนี้แสดงวิธีการที่คุณสามารถจัดสรรเอกสารของเรา
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 วิดีโอ [วิธีการจัดสรรให้กับเอกสาร Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (ซึ่งแสดงไว้ข้างบน) จะรวมอยู่ใน [มีอะไรใหม่ในรายการที่จะเล่นของ Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) ที่พร้อมใช้งานใน YouTube
 

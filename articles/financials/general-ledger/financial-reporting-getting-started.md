@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594971"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839218"
 ---
 # <a name="financial-reporting"></a>การรายงานทางการเงิน
 
@@ -117,7 +117,7 @@ ms.locfileid: "1594971"
 คุณสามารถสร้างรายงานใหม่ หรือแก้ไขรายงานที่มีอยู่จากรายการรายงานทางการเงิน ถ้าคุณมีสิทธิ์ที่เหมาะสม คุณสามารถสร้างรายงานทางการเงินใหม่ด้วยการคลิก **สร้าง** บนบานหน้าต่างการดำเนินการ โปรแกรมออกแบบรายงานจะถูกดาวน์โหลดไปยังอุปกรณ์ของคุณ หลังจากที่โปรแกรมออกแบบรายงานเริ่มทำงาน คุณสามารถสร้างรายงานใหม่ หลังจากคุณบันทึกรายงานใหม่ จะปรากฏอยู่ในรายการรายงานทางการเงิน รายการจะแสดงเฉพาะรายงานที่สร้างขึ้นสำหรับบริษัทที่คุณกำลังใช้อยู่ใน Finance and Operations 
 
 > [!NOTE] 
-> คอมพิวเตอร์ที่คุณกำลังดาวน์โหลดไคลเอ็นต์ตัวออกแบบรายงาน ต้องมีรุ่น 4.6.2 ของกรอบงาน Microsoft .NET ที่ติดตั้งอยู่ รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345) ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว คุณยังสามารถแก้ไขรายงานที่ปรากฏอยู่ในรายการรายงานทางการเงิน เลือกพื้นที่โดยรอบชื่อรายงานถูก คลิก **แก้ไข** บนบานหน้าต่างการดำเนินการ เริ่มต้นโปรแกรมออกแบบรายงาน
+> คอมพิวเตอร์ที่คุณกำลังดาวน์โหลดไคลเอ็นต์ตัวออกแบบรายงาน ต้องมีรุ่น 4.6.2 ของกรอบงาน Microsoft .NET ที่ติดตั้งอยู่ รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/download/details.aspx?id=53345) ถ้าคุณใช้ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว คุณยังสามารถแก้ไขรายงานที่ปรากฏอยู่ในรายการรายงานทางการเงิน เลือกพื้นที่โดยรอบชื่อรายงานถูก คลิก **แก้ไข** บนบานหน้าต่างการดำเนินการ เริ่มต้นโปรแกรมออกแบบรายงาน
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 - [ดูรายงานทางการเงิน](view-financial-reports.md)
