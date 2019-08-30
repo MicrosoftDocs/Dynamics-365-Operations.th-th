@@ -5,22 +5,25 @@
 - name: ความต้องการของระบบสำหรับการปรับใช้ในสถานที่
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: ข้อมูลสาธิต
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: ภาพรวมของข้อมูลสาธิต
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: สร้างข้อมูลสาธิตโดยใช้แพคเกจข้อมูล
       href: data-entities/generate-demo-data-packages.md
 - name: พัฒนาและเลือกกำหนด
-  href: dev-tools/developer-home-page.md
   items:
-    - name: สแต็คแอปพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
+    - name: โฮมเพจการพัฒนาและเลือกกำหนด
+      href: dev-tools/developer-home-page.md
+    - name: สแตกแอปพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
       href: dev-tools/application-stack-server-architecture.md
     - name: รับสำเนาการประเมิน
       href: dev-tools/get-evaluation-copy.md
     - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง
       href: dev-tools/sign-up-preview-subscription.md
     - name: ปรับใช้และเข้าถึงสภาพแวดล้อมการปรับใช้
-      href: dev-tools/access-instances.md
       items:
+        - name: สภาพแวดล้อมการพัฒนา
+          href: dev-tools/access-instances.md
         - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการปรับใช้แบบ One-Box
           href: dev-tools/configure-developer-vm.md
         - name: สร้างผู้ใช้ใหม่ในเครื่องสำหรับการพัฒนา
@@ -58,8 +61,9 @@
         - name: คุณลักษณะของโปรแกรมแก้ไขโค้ด
           href: dev-tools/code-editor.md
         - name: สร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: ภาพรวมของการสร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล
+              href: dev-tools/create-data-model-elements.md
             - name: แนวทางการตั้งชื่อสำหรับส่วนขยาย
               href: extensibility/NamingGuidelines.md
             - name: ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน
@@ -86,8 +90,6 @@
       items:
         - name: X++ และคุณสมบัติของดีบักเกอร์
           href: dev-tools/new-x-debugger-features.md
-        - name: ดีบัก X++ กับสำเนาของฐานข้อมูลการผลิต
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: ดีบักโค้ด X++
           href: dev-tools/debug-xpp.md
         - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: การอ้างอิงภาษาของ X++
           items:
-            - name: การอ้างอิงภาษาของ X++
+            - name: ภาพรวมของการอ้างอิงภาษาของ X++
               href: dev-ref/xpp-language-reference.md
             - name: ตัวแปรและชนิดข้อมูล
               items:
@@ -135,7 +137,19 @@
             - name: ความสำคัญของตัวดำเนินการ X++
               href: dev-ref/xpp-operator-precedence.md
             - name: คลาสและวิธีการ X++
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: คลาสและวิธีการ
+                  href: dev-ref/xpp-classes-methods.md
+                - name: การสืบทอด
+                  href: dev-ref/xpp-inheritance.md
+                - name: สมาชิกคลาสคงที่
+                  href: dev-ref/xpp-static-classes.md
+                - name: อินเทอร์เฟส
+                  href: dev-ref/xpp-interfaces.md
+                - name: ไลบรารี
+                  href: dev-ref/xpp-library-objects.md
+                - name: เหตุการณ์
+                  href: dev-ref/xpp-events.md
             - name: การเลือกและการจัดการข้อมูล X++
               href: dev-ref/xpp-data-query.md
             - name: การเข้าถึงข้อมูลโดยใช้ SysDa API
@@ -149,13 +163,15 @@
             - name: ไวยากรณ์ของ X++
               href: dev-ref/xpp-syntax.md
     - name: 'API, คลาส และการอ้างอิงตาราง'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'API, คลาส และทรัพยากรตาราง'
+          href: dev-ref/api-reference.md
         - name: ฟังก์ชันเวลาคอมไพล์ของ X++
           href: dev-ref/xpp-compile-time-functions.md
         - name: ฟังก์ชันเวลาที่รันของ X++
-          href: dev-ref/xpp-run-time-functions.md
           items:
+            - name: ทรัพยากรฟังก์ชันเวลาที่รันของ X++
+              href: dev-ref/xpp-run-time-functions.md
             - name: ฟังก์ชันเวลาที่รันธุรกิจของ X++
               href: dev-ref/xpp-business-run-time-functions.md
             - name: ฟังก์ชันเวลาที่รันคอนเทนเนอร์ของ X++
@@ -409,8 +425,9 @@
         - name: การกรอง SysTest โดยใช้แอททริบิวต์ของคลาสและเมธอด
           href: perf-test/systest-filtering.md
         - name: ไลบรารีการทดสอบการยอมรับ
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: ทรัพยากรในไลบรารีการทดสอบการยอมรับ
+              href: perf-test/acceptance-test-library.md
             - name: แนวคิดการนำทาง
               href: perf-test/concepts-navigation.md
             - name: วิธีการข้อมูลของการทดสอบ
@@ -438,8 +455,9 @@
     - name: การให้สิทธิ์ ISV แบบในสถานที่
       href: dev-tools/isv-licensing-on-prem.md
 - name: การพัฒนาอินเทอร์เฟสผู้ใช้
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: โฮมเพจการพัฒนาอินเทอร์เฟสผู้ใช้
+      href: user-interface/user-interface-development-home-page.md
     - name: บทช่วยสอน
       items:
         - name: สร้างแบบฟอร์มชนิดค่าธรรมเนียมการเช่า
@@ -633,18 +651,21 @@
         - name: การแคชไทล์และรายการสำหรับพื้นที่ทำงาน
           href: user-interface/tile-list-caching-workspaces.md
     - name: ตัวบันทึกงาน
-      href: user-interface/task-recorder.md
       items:
+        - name: ทรัพยากรตัวบันทึกงาน
+          href: user-interface/task-recorder.md
         - name: การอ้างอิงด่วนของตัวบันทึกงาน
           href: user-interface/task-recorder-quick-reference.md
-        - name: สร้างเอกสารหรือการฝึกอบรมด้วยตัวบันทึกงาน
+        - name: สร้างเอกสารหรือการฝึกอบรมด้วยการบันทึกงาน
           href: user-interface/task-recorder-training-docs.md
 - name: แพลตฟอร์มเคลื่อนที่
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
+    - name: ทรัพยากรแพลตฟอร์มเคลื่อนที่
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: เริ่มต้นใช้งาน
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
+        - name: เริ่มต้นใช้งานแพลตฟอร์มเคลื่อนที่
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: ข้อควรพิจารณาเกี่ยวกับสถาปัตยกรรมและการออกแบบ
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: เหตุการณ์ตรรกะทางธุรกิจ
@@ -678,8 +699,9 @@
         - name: API การออกแบบฝั่งไคลเอนต์
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: API ของไคลเอนต์
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: โฮมเพจ API ของไคลเอนต์
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: การแจงนับ PageState
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: โมดูลแอปพลิเคชัน
@@ -843,11 +865,13 @@
             - name: ชนิดของ ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: ข้อบังคับทั่วไปเกี่ยวกับการคุ้มครองข้อมูล (GDPR)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: ทรัพยากรสำหรับการตอบสนองต่อคำขอข้อมูล GDPR
-      href: gdpr/gdpr-home-page.md
+    - name: ภาพรวมของข้อบังคับทั่วไปเกี่ยวกับการคุ้มครองข้อมูล
+      href: gdpr/gdpr-guide.md
+    - name: ตอบสนองต่อคำขอข้อมูล GDPR
       items:
+        - name: ทรัพยากรการตอบสนองต่อคำขอข้อมูล GDPR
+          href: gdpr/gdpr-home-page.md
         - name: การจัดประเภทสินทรัพย์
           href: gdpr/gdpr-asset-classification-values.md
         - name: รายงานการค้นหาบุคคล
@@ -863,8 +887,9 @@
         - name: คำขอข้อมูล GDPR สำหรับ LCS
           href: gdpr/gdpr-lcs.md
 - name: การจัดส่งแบบต่อเนื่อง
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: โฮมเพจการจัดส่งแบบต่อเนื่อง
+      href: dev-tools/continuous-delivery-home-page.md
     - name: FAQ เกี่ยวกับการพัฒนาและการจัดส่งแบบต่อเนื่อง
       href: dev-tools/continuous-delivery-faq.md
     - name: ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์
@@ -873,6 +898,24 @@
       href: dev-tools/manage-runtime-packages.md
     - name: อัปเดตรุ่นของแบบจำลองในบิลด์แบบอัตโนมัติ
       href: dev-tools/version-models-build.md
+- name: Regression Suite Automation Tool
+  items:
+    - name: ภาพรวมของ Regression Suite Automation Tool
+      href: perf-test/rsat/rsat-overview.md
+    - name: การติดตั้งและการตั้งค่าคอนฟิก
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: รันกรณีทดสอบ
+      href: perf-test/rsat/rsat-run.md
+    - name: ตรวจสอบความถูกต้องตรวจสอบค่าที่คาดไว้
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: กรณีทดสอบลำดับ
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: กรณีทดสอบที่ได้รับมา
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: แนวทางปฏิบัติ
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: การแก้ไขปัญหา
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: นำโซลูชันออกใช้โดยใช้ Lifecycle Services
   items:
     - name: พัฒนาและนำออกใช้
@@ -892,8 +935,9 @@
     - name: ทำสำเนาสำรองฐานข้อมูลโซลูชัน
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: คุณลักษณะการทำงานเฉพาะและบังคับ
-      href: lcs-solutions/country-region.md
       items:
+        - name: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+          href: lcs-solutions/country-region.md
         - name: การจัดประเภทคุณลักษณะการทำงานเฉพาะ
           href: lcs-solutions/classify-localization-features.md
         - name: ใช้บริบทประเทศ/ภูมิภาค
@@ -907,8 +951,9 @@
         - name: ส่งการแจ้งเตือนที่เป็นระเบียบข้อบังคับ
           href: lcs-solutions/submit-localization-alerts.md
 - name: การพัฒนาทางการเงิน
-  href: financial/financial-dev-home-page.md
   items:
+    - name: โฮมเพจการพัฒนาทางการเงิน
+      href: financial/financial-dev-home-page.md
     - name: กรอบงานมิติทางการเงิน
       items:
         - name: ชุดข้อมูลบัญชีแยกประเภท
@@ -968,14 +1013,16 @@
     - name: ปรับใช้สภาพแวดล้อมสาธิต
       href: deployment/deploy-demo-environment.md
     - name: การปรับใช้ระบบคลาวด์
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: ภาพรวมของการปรับใช้ระบบคลาวด์
+          href: deployment/cloud-deployment-overview.md
         - name: การปรับใช้แบบบริการตนเอง
-          href: deployment/infrastructure-stack.md
           items:
+            - name: ภาพรวมของการปรับใช้แบบบริการตนเอง
+              href: deployment/infrastructure-stack.md
             - name: ปรับใช้สภาพแวดล้อมใหม่
               href: deployment/deployenvironment-newinfrastructure.md
-            - name: คำถามที่พบบ่อยเกี่ยวกับการปรับใช้
+            - name: FAQ เกี่ยวกับการปรับใช้
               href: deployment/deploymentFAQ.md
             - name: ปัญหาที่ทราบเกี่ยวกับการปรับใช้แบบบริการตนเอง
               href: deployment/known-issues-new-deployment-experience.md
@@ -999,20 +1046,22 @@
           href: deployment/Initialize-Retail-Channels.md
         - name: ถิ่นที่อยู่ของข้อมูล Retail
           href: deployment/retail-data-residency.md
-    - name: การปรับใช้ในองค์กร
-      href: deployment/on-premises-deployment-landing-page.md
+    - name: การปรับใช้ในสถานที่
       items:
-        - name: ตัวเลือกการปรับใช้ในองค์กร
+        - name: โฮมเพจตัวเลือกการปรับใช้ในสถานที่
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
           href: deployment/on-premises-overview.md
-        - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในองค์กร
+        - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
           href: deployment/plan-onprem-deployment.md
         - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
         - name: ตั้งค่าโครงการแบบในสถานที่
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
-          href: deployment/setup-deploy-on-premises-environments.md
           items:
+            - name: โฮมเพจการตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
+              href: deployment/setup-deploy-on-premises-environments.md
             - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 และรุ่นที่ใหม่กว่า)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 8 และ 11)
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
           href: deployment/redeploy-on-prem.md
-        - name: อัปเดตเอเจนต์ภายในเครื่อง
-          href: lifecycle-services/update-local-agent.md
+        - name: เอเจนต์ภายในเครื่อง
+          items:
+            - name: ความเข้ากันได้ของ AD FS Office 365
+              href: deployment/onprem-adfscompatibility.md
+            - name: สคริปต์ก่อนการปรับใช้และหลักการปรับใช้เอเจนต์ภายในเครื่อง
+              href: lifecycle-services/pre-post-scripts.md
+            - name: อัปเดตเอเจนต์ภายในเครื่อง
+              href: lifecycle-services/update-local-agent.md
         - name: ตั้งค่าคอนฟิกสภาพแวดล้อมใหม่
           href: lifecycle-services/reconfigure-environment.md
         - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์
@@ -1052,11 +1107,13 @@
         - name: แก้ไขปัญหาแอปพลิเคชันของแพคเกจ
           href: deployment/deployable-package-troubleshooting.md
 - name: การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: ทรัพยากรการอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
+      href: migration-upgrade/upgrade-home-page.md
+    - name: การอัปเกรดจาก AX 2012
       items:
+        - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: การอัปเกรด AX 2012 – ประเมินการดำเนินการโดยใช้บริการอัปเกรดโค้ด
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: อัปเกรดการวางแผนงบประมาณ
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: ย้ายข้อมูลจาก AX 2009
       items:
+        - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: การย้าย AX 2009 - ติดตั้งเครื่องมือการย้ายข้อมูล
           href: migration-upgrade/install-dmt.md
         - name: การย้าย AX 2009 - สร้างแผนที่
@@ -1111,8 +1169,9 @@
         - name: การย้าย AX 2009 - นำเข้าแพคเกจ
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: การย้ายและการอัปเกรดโค้ด
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: โฮมเพจการย้ายและการอัปเกรดโค้ด
+          href: migration-upgrade/code-migration-home-page.md
         - name: เตรียมการเพื่อย้ายโค้ด
           href: migration-upgrade/prepare-migration.md
         - name: ตั้งค่าคอนฟิกการแม็ป Azure DevOps
@@ -1135,9 +1194,7 @@
           href: migration-upgrade/versions-update-policy.md
         - name: ใช้การอัปเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อม
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: อัปเกรดแพลตฟอร์ม Dynamics AX เป็นรุ่นที่นำออกใช้เดือนสิงหาคม 2016
-          href: migration-upgrade/update-platform-each-release.md
-        - name: อัพเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต
+        - name: อัปเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: อัปเดตเครื่องมือการพัฒนา
           href: dev-tools/update-development-tools.md
@@ -1172,8 +1229,9 @@
         - name: API ที่เลิกสนับสนุน (มิถุนายน 2017)
           href: migration-upgrade/deprecated-apis.md
 - name: การจัดการระบบ
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: โฮมเพจการดูแลระบบ
+      href: sysadmin/system-administration-home-page.md
     - name: เพิ่มลิงก์ไปยังข้อกำหนดทางกฎหมายและคำชี้แจงสิทธิ์ส่วนบุคคลของคุณ
       href: sysadmin/legal-terms-privacy-statement.md
     - name: รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก
@@ -1186,16 +1244,17 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: ส่งออกผู้ใช้ B2B ไปยัง Azure AD
       href: sysadmin/implement-b2b.md
-    - name: ตั้งค่าการหมดเวลาเมื่อเซสชันไม่ทำงาน
-      href: sysadmin/session-idle-timeout.md
-    - name: ความปลอดภัยตามบทบาท
-      href: sysadmin/role-based-security.md
+    - name: ความปลอดภัย
       items:
+        - name: ความปลอดภัยตามบทบาท
+          href: sysadmin/role-based-security.md
         - name: สถาปัตยกรรมความปลอดภัย
           href: sysadmin/security-architecture.md
+        - name: ตั้งค่าการหมดเวลาเมื่อเซสชันไม่ทำงาน
+          href: sysadmin/session-idle-timeout.md
         - name: รายงานความปลอดภัยแบบสำเร็จรูป
           href: sysadmin/security-reports.md
-        - name: การสร้างผู้ใช้ใหม่
+        - name: สร้างผู้ใช้ใหม่
           href: sysadmin/tasks/create-new-users.md
         - name: นำเข้าผู้ใช้จำนวนมาก
           href: sysadmin/tasks/import-bulk-users.md
@@ -1203,11 +1262,12 @@
           href: sysadmin/tasks/set-up-segregation-duties.md
         - name: ระบุและแก้ไขความขัดแย้งในการแบ่งแยกหน้าที่
           href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
-        - name: กำหนดผู้ใช้ให้กับบทบาทความปลอดภัย
+        - name: กำหนดบทบาทความปลอดภัยให้กับผู้ใช้
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: การประมวลผลชุดงาน
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: ภาพรวมของการประมวลผลชุดงาน
+          href: sysadmin/batch-processing-overview.md
         - name: การประมวลผลชุดงานและเซิร์ฟเวอร์ชุดงาน
           href: sysadmin/batch-server-overview.md
         - name: สร้างชุดงาน
@@ -1229,8 +1289,9 @@
         - name: ยกเลิกชุดงานที่กำลังดำเนินการ
           href: sysadmin/batch-abort.md
     - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
+          href: sysadmin/optimization-advisor-overview.md
         - name: สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
           href: sysadmin/create-rules-optimization-advisor.md
     - name: รายงานความขัดข้องในการผลิต
@@ -1238,8 +1299,9 @@
 - name: Lifecycle Services
   items:
     - name: ทรัพยากรสำหรับ Lifecycle Services
-      href: lifecycle-services/lcs.md
       items:
+        - name: ทรัพยากร Lifecycle Services
+          href: lifecycle-services/lcs.md
         - name: LCS สำหรับลูกค้า
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS สำหรับคู่ค้า
@@ -1257,8 +1319,9 @@
     - name: การค้นหาปัญหา
       href: lifecycle-services/issue-search-lcs.md
     - name: ตัวจัดการการตั้งค่าคอนฟิก
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: ภาพรวมของตัวจัดการการตั้งค่าคอนฟิก
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: ตั้งค่าตัวจัดการการตั้งค่าคอนฟิก
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: ตั้งค่าคอนฟิกบริการอัปเกรดโค้ด
@@ -1298,8 +1361,9 @@
     - name: คู่มือการสอบถาม
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: ภาพรวมของ Dynamics 365 Translation Service
+          href: lifecycle-services/translation-service-overview.md
         - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
           href: lifecycle-services/use-translation-service.md
         - name: แปลไฟล์เอกสารประกอบ

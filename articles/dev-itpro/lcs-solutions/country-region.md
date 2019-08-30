@@ -1,9 +1,9 @@
 ---
-title: โลกาภิวัตน์
+title: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
 description: หัวข้อนี้มีรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาคและข้อเสนอ
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850626"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864977"
 ---
-# <a name="globalization"></a>โลกาภิวัตน์
+# <a name="globalization-resources"></a>ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
 
 ## <a name="local-and-regional-deployments"></a>การปรับใช้ในท้องถิ่นและภูมิภาค
 หากรัฐบาลของคุณมีข้อบังคับในการจัดเก็บหรือบริการข้อมูลแตกต่างจากข้อกำหนดของประเทศ/ภูมิภาคอื่น คุณต้องพิจารณาข้อกำหนดของประเทศ/ภูมิภาคเมื่อปรับใช้ Finance and Operations พิจารณาทรัพยากรต่อไปนี้ที่อาจเกี่ยวข้องกับคุณ:
@@ -125,7 +125,7 @@ Microsoft Dynamics 365 for Finance and Operations ประกอบด้วย
         - [สวิตเซอร์แลนด์](../../financials/localizations/switzerland.md)
         - [ไทย](../../financials/localizations/thailand.md)
         - [สหราชอาณาจักร](../../financials/localizations/united-kingdom.md)
-        - [สหรัฐ](../../financials/localizations/united-states.md)
+        - [สหรัฐอเมริกา](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
 

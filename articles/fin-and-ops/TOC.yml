@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
+    - name: เอกสารประกอบ Dynamics 365 for Finance and Operations
+      href: index.md
     - name: เริ่มต้นใช้งาน
       items:
         - name: ก่อนที่คุณจะซื้อ
-          href: get-started/before-you-buy.md
           items:
+            - name: โฮมเพจก่อนที่คุณจะซื้อ
+              href: get-started/before-you-buy.md
             - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นตัวอย่าง
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: ปรับใช้สภาพแวดล้อมสาธิต
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในสถานที่
               href: get-started/cloud-prem-comparison.md
-            - name: ตัวเลือกการปรับใช้
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: ข้อควรพิจารณาในการปรับใช้
               items:
+                - name: ตัวเลือกการปรับใช้
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: การปรับใช้ระบบคลาวด์
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: ความต้องการของระบบสำหรับการปรับใช้ระบบคลาวด์
@@ -36,8 +39,9 @@
                 - name: ซื้อ Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
-          href: get-started/whats-new-changed.md
           items:
+            - name: โอมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+              href: get-started/whats-new-changed.md
             - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: คุณสมบัติที่เอาออกหรือเลิกสนับสนุน
@@ -140,9 +144,11 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: สำรวจอินเทอร์เฟซผู้ใช้
           items:
+            - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
+              href: get-started/user-interface-elements.md
             - name: คุณสมบัติความสามารถในการเข้าถึง
               href: get-started/accessibility-features.md
-            - name: ภาพรวมการจัดการคุณลักษณะ
+            - name: ภาพรวมของการจัดการคุณลักษณะ
               href: get-started/feature-management/feature-management-overview.md
             - name: FAQ เกี่ยวกับไคลเอนต์
               href: get-started/client-faq.md
@@ -197,8 +203,9 @@
         - name: วิดีโอสำหรับ Finance and Operations
           href: get-started/videos.md
     - name: การใช้การจัดการรอบการใช้งาน
-      href: imp-lifecycle/implementation-lifecycle.md
       items:
+        - name: โฮมเพจการใช้การจัดการรอบการใช้งาน
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: สถาปัตยกรรม Finance and Operations
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: การอัปเดตบริการแบบหนึ่งเวอร์ชัน
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: ภาพรวมของการอัปเดตบริการแบบหนึ่งเวอร์ชัน
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
           href: get-started/one-version.md
         - name: นโยบายวงจรการใช้งานซอฟต์แวร์ - ระบบคลาวด์
@@ -246,17 +254,12 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: การมอบโซลูชัน ISV โดยใช้ รุ่นหนึ่ง
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: ทดสอบระบบอัตโนมัติ
-          items:
-            - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: ตั้งค่าบทช่วยสอน Regression Suite Automation Tool
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: ใช้บทช่วยสอน Regression Suite Automation Tool
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: เหตุการณ์ทางธุรกิจ
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
+          href: ../dev-itpro/business-events/home-page.md
         - name: เหตุการณ์ทางธุรกิจของแอปพลิเคชัน
           href: ../dev-itpro/business-events/app-business-events.md
         - name: เหตุการณ์ทางธุรกิจของลำดับงาน
@@ -273,22 +276,34 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: บทช่วยสอน
           items:
-            - name: ใช้เหตุการณ์ทางธุรกิจกับ Microsoft Flow
+            - name: เหตุการณ์ทางธุรกิจและ Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: ใช้เหตุการณ์ทางธุรกิจโดยการใช้กริดเหตุการณ์ของ Azure
+            - name: ตารางเหตุการณ์ทางธุรกิจและกริดเหตุการณ์ Azure
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: ใช้เหตุการณ์ทางธุรกิจโดยการใช้ Azure Service Bus
+            - name: เหตุการณ์ทางธุรกิจและ Azure Service Bus
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: ใช้เหตุการณ์ทางธุรกิจการอนุมัติลำดับงาน
+            - name: เหตุการณ์ทางธุรกิจและการอนุมัติลำดับงาน
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: ใช้ Microsoft Forms Pro กับเหตุการณ์ทางธุรกิจ
+            - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: การจัดการต้นทุน
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: เหตุการณ์ทางธุรกิจและ Azure Event Hubs
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: การปฏิบัติตาม
       items:
+        - name: กฎนโยบายการตรวจสอบ
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: กรณีและการละเมิดนโยบายการตรวจสอบ
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: การจัดการต้นทุน
+      items:
+        - name: โฮมเพจการจัดการต้นทุน
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: ข้อกำหนดเบื้องต้นสำหรับต้นทุนมาตรฐาน
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
+            - name: ภาพรวมของข้อกำหนดเบื้องต้นสำหรับต้นทุนมาตรฐาน
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: ภาพรวมของการแปลงต้นทุนมาตรฐาน
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน
@@ -307,12 +322,13 @@
               href: ../supply-chain/cost-management/update-standard-costs-non-manufacturing-environment.md
             - name: เตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
-        - name: เวอร์ชันการคำนวณต้นทุน
-          href: ../supply-chain/cost-management/costing-versions.md
+        - name: เวอร์ชันการคิดต้นทุน
           items:
+            - name: ภาพรวมของเวอร์ชันการคิดต้นทุน
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: แผ่นงานการคิดต้นทุน
               href: ../supply-chain/cost-management/costing-sheets.md
-            - name: จำลองการเปลี่ยนแปลงของต้นทุนโดยการใช้เวอร์ชันการคำนวณต้นทุนสำหรับต้นทุนที่วางแผนไว้
+            - name: จำลองการเปลี่ยนแปลงของต้นทุนโดยการใช้เวอร์ชันการคิดต้นทุนสำหรับต้นทุนที่วางแผนไว้
               href: ../supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs.md
         - name: การบัญชีสินค้าคงคลัง
           items:
@@ -397,8 +413,9 @@
             - name: REST API แพคเกจการจัดการข้อมูล
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: ตำแหน่งข้อมูลบริการ
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: ภาพรวมของปลายทางของบริการ
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: การแก้ไขปัญหาการรับรองความถูกต้องของบริการ
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: การพัฒนาสำหรับการรวม
           items:
             - name: การรวมข้อมูลโดยใช้เอนทิตี้ข้อมูล
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: ภาพรวมของการรวมข้อมูลโดยใช้เอนทิตี้ข้อมูล
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: พัฒนาเอนทิตี้สำหรับการย้ายข้อมูล
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: พัฒนาเอนทิตี้ข้อมูลแบบรวม
@@ -428,7 +446,7 @@
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: การรวมข้อมูลโดยใช้ Common Data Service
               items:
-                - name: ภาพรวมของการรวมข้อมูล
+                - name: ภาพรวมของการรวมข้อมูลโดยใช้ Common Data Service
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: การรวมสองทิศทางแบบซิงโครนัส
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: การรวมสองทิศทางแบบอะซิงโครนัส
                   items:
-                    - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
+                    - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
                       items:
-                        - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
+                        - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าใน Finance and Operations
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                       items:
-                        - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
+                        - name: ภาพรวมของการตั้งค่าคอนฟิกการรวมกับ Field Service
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                       items:
-                        - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
+                        - name: ภาพรวมของ Project Service Automation
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: พารามิเตอร์การรวม Project Service Automation
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: การส่งข้อความทางอิเล็กทรอนิกส์
           href: ../financials/general-ledger/electronic-messaging.md
     - name: การจัดการข้อมูล
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: ภาพรวมของการจัดการข้อมูล
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: เอนทิตี้ข้อมูล
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
+            - name: ภาพรวมของเอนทิตี้ข้อมูล
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
             - name: โครงการข้อมูลการตั้งค่าคอนฟิก
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทหรือนิติบุคคล
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: ภาพรวมของการคัดลอกข้อมูลการตั้งค่าคอนฟิก
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)
@@ -538,8 +559,9 @@
             - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: งานการนำเข้าและส่งออกข้อมูล
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: ภาพรวมของงานการนำเข้าและส่งออกข้อมูล
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: การพัฒนาเอนทิตี้ข้อมูล
@@ -581,16 +603,19 @@
         - name: คำอธิบายข้อผิดพลาดการจัดการข้อมูล
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: การจัดการทางการเงิน
-      href: ../financials/index.md
       items:
+        - name: โฮมเพจการจัดการทางการเงิน
+          href: ../financials/index.md
         - name: บัญชีเจ้าหนี้
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
-            - name: ภาพรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
+            - name: โฮมเพจบัญชีเจ้าหนี้
+              href: ../financials/accounts-payable/accounts-payable.md
+            - name: ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้สมุดรายวันการอนุมัติ
@@ -601,11 +626,12 @@
                   href: ../financials/accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: ตรวจสอบใบแจ้งหนี้และข้อมูลสำคัญในบัญชีเจ้าหนี้
               href: ../financials/general-ledger/tasks/audit-invoices-key-data-ap-system.md
-            - name: นโยบายการจับคู่แบบสามทาง
+            - name: นโยบายการจับคู่สามทาง
               href: ../financials/accounts-payable/three-way-matching-policies.md
             - name: การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
               items:
+                - name: ภาพรวมของการจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
                 - name: ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
@@ -625,13 +651,14 @@
             - name: ลำดับงานของผู้จัดจำหน่าย
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: ภาพรวมของการแก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: ศึกษาหรือแก้ไขข้อยกเว้น
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย
               href: ../financials/accounts-payable/vendor-posting-profiles.md
-            - name: การประเมินค่าตามสกุลเงินต่างประเทศใหม่สำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้
+            - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้
               href: ../financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
               href: ../financials/accounts-payable/mobile-invoice-approvals.md
@@ -688,8 +715,9 @@
                 - name: หน้ารายการธุรกรรมผู้จัดจำหน่าย
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: บัญชีลูกหนี้
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: โฮมเพจบัญชีลูกหนี้
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: สินเชื่อและการเรียกเก็บเงินในบัญชีลูกหนี้
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: ตั้งค่าคอนฟิกบัญชีลูกหนี้และสินเชื่อและการเรียกเก็บเงิน
@@ -783,8 +811,9 @@
                 - name: หน้ารายการธุรกรรมลูกค้า
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: การจัดงบประมาณ
-          href: ../financials/budgeting/budgeting-overview.md
           items:
+            - name: โฮมเพจของการจัดงบประมาณ
+              href: ../financials/budgeting/budgeting-overview.md
             - name: ภาพรวมของการวางแผนงบประมาณ
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: ภาพรวมของการควบคุมงบประมาณ
@@ -808,8 +837,9 @@
             - name: การรวมแผนงบประมาณกับโมดูลอื่นๆ
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: การจัดการเงินสดและธนาคาร
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: โฮมเพจการจัดการเงินสดและธนาคาร
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: การคาดการณ์กระแสเงินสด
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: พื้นที่ทำงานการจัดการธนาคาร
@@ -885,8 +915,9 @@
                 - name: อัปเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: การบัญชีต้นทุน
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: โฮมเพจการบัญชีต้นทุน
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: คำศัพท์การบัญชีต้นทุน
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
@@ -958,8 +989,9 @@
             - name: ใช้พื้นที่ทำงานการควบคุมต้นทุนสำหรับแอปพลิเคชัน Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: การจัดการค่าใช้จ่าย
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: ภาพรวมของการจัดการค่าใช้จ่าย
+              href: ../financials/expense-management/expense-management.md
             - name: คิดรูปแบบรายงานค่าใช้จ่ายใหม่แล้ว
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: การจัดการวางแผนค่าใช้จ่าย
@@ -995,8 +1027,9 @@
             - name: ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย
               href: ../financials/expense-management/personal-expenses.md
         - name: สินทรัพย์ถาวร
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: โฮมเพจสินทรัพย์ถาวร
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: สร้างสินทรัพย์ถาวร
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: ป้อนสินทรัพย์ถาวรที่ได้มาเพิ่มลงในสินทรัพย์ถาวร
@@ -1100,15 +1133,187 @@
                 - name: การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: บัญชีแยกประเภททั่วไป
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: ภาพรวมของบัญชีแยกประเภททั่วไป
+              href: ../financials/general-ledger/general-ledger.md
+            - name: บัญชี
+              items:
+                - name: ภาพรวมของรายการค้างรับค้างจ่าย
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: กฎการตัดออก
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: ชุดบัญชีและมิติ
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: สมุดรายวันสมดุลสำหรับการบัญชี interunit
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: ข้อกำหนดการลงรายการบัญชี
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: ตัวอย่างข้อกำหนดการลงรายการบัญชี
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: ยอดดุลบัญชีแยกประเภททั่วไป
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: กำหนดมิติทางการเงิน
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: สร้างโครงสร้างทางบัญชี
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: มิติทางการเงินและการลงรายการบัญชี
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: สร้างแบบแผนการรับรู้
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: การรวมบัญชีทางการเงินและการแปลงสกุลเงิน
+                  items:
+                    - name: ภาพรวมของการรวมบัญชีทางการเงินและการแปลงสกุลเงิน
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: รวมบัญชีออนไลน์
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: สร้างงบการเงินที่รวมบัญชี
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: สร้างกลุ่มการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: ประเภทชนิดบัญชีหลัก
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: สร้างบัญชีหลัก
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: วางแผนชื่อผังบัญชีของคุณ
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: การจับคู่ธุรกรรมระหว่างรหัสบัญชี
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: ตั้งค่านามแฝงของบัญชีแยกประเภท
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: ตั้งค่าประเภทบัญชีหลัก
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: โปรแกรมตรวจดูบัญชีต้นทาง
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: การกระจายการลงบัญชี
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: ดำเนินการกับการปันส่วน
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: มิติทางการเงิน
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: แปลงบัญชีหรือการรายงานสกุลเงิน
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: กลุ่มและบัญชีบัญชีหลักในการรวมบัญชี
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: ภาพรวมของการรวมบัญชีและการตัดออก
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: ปฏิทินทางการเงิน ปีบัญชี และรอบระยะเวลา
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: ตั้งค่าคอนฟิกโครงสร้างทางบัญชี
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: สกุลเงินแบบคู่
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: สมุดรายวันและบัญชีแยกประเภท
+              items:
+                - name: การประมวลผลสมุดรายวันทั่วไป
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: ลงรายการบัญชีสมุดรายวันประจำงวด
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: ประมวลผลสมุดรายวันการปันส่วนบัญชีแยกประเภท
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: การตั้งค่าการบัญชีระหว่างบริษัท
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: กฎการปันส่วนบัญชีแยกประเภท
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: สร้างกฎขั้นสูงสำหรับสมุดรายวัน
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: สร้างและกำหนดโครงสร้างกฎขั้นสูง
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: ชนิดสมุดรายวันบัญชีแยกประเภท
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: สร้างตรวจสอบความถูกต้องของสมุดรายวัน
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: ดูรายการสมุดรายวันหรือธุรกรรม
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: สร้างรายการสมุดรายวันโดยใช้เท็มเพลต
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: การสร้างธุรกรรมค้างรับค้างจ่ายในบัญชีแยกประเภท
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: ดูรายการสมุดรายวันและธุรกรรม
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: บันทึกบัญชีในสมุดรายวันเกี่ยวกับรายการสมุดรายวันที่ลงรายการบัญชี
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภททั่วไป
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: นำเข้าอัตราแลกเปลี่ยนสกุลเงิน
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: ใบสำคัญหนึ่งใบ
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: การชำระบัญชีแยกประเภท
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: การปิดบัญชีสิ้นสุดรอบระยะเวลา
+              items:
+                - name: ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: การปิดบัญชีสิ้นปี
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: ปิดปีบัญชี
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: การปิดรอบระยะเวลาทางการเงินโดยรวม
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: ภาษีขาย
+              items:
+                - name: ภาพรวมของภาษีขาย
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: การชำระภาษีขายและกฎการปัดเศษ
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: การสร้างการชำระเงินภาษีขาย
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: ตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: ตั้งค่าหน่วยงานจัดเก็บภาษี
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: ตั้งค่ารหัสภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: ตั้งค่ากลุ่มภาษีขายและกลุ่มภาษีขายตามประเภทสินค้า
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: ตั้งค่ารหัสการรายงานภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: ตั้งค่ารอบระยะเวลาการชำระภาษีขาย
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: ตั้งค่าภาษีหัก ณ ที่จ่าย
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: ดูธุรกรรมภาษีขายที่ลงรายการบัญชี
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: เวิร์กเบนช์การตรวจสอบบัญชี
+              items:
+                - name: กฎนโยบายการตรวจสอบ
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: กรณีและการละเมิดนโยบายการตรวจสอบ
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: ภาครัฐ
+          items:
+            - name: โฮมเพจภาครัฐ
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: แผนสำหรับฟังก์ชันการทำงานของภาครัฐ
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: สร้างหน้าใบปะหน้าและลายเซ็นสำหรับรายงานการชำระเงินสำหรับภาครัฐ
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: บัญชีเจ้าหนี้ในภาครัฐ
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: ภาพรวมของบัญชีเจ้าหนี้ในภาครัฐ
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: รหัสใบสั่งซื้อในภาครัฐ
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: สร้างและกำหนดรหัสคู่ค้าสำหรับภาครัฐ
@@ -1130,8 +1335,9 @@
                 - name: ตั้งค่าการจัดประเภทข้อตกลงการซื้อในภาครัฐ
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: บัญชีลูกหนี้ในภาครัฐ
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: ภาพรวมของบัญชีลูกหนี้ในภาครัฐ
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: การจัดประเภทการเรียกเก็บเงินและรหัสการเรียกเก็บเงินในภาครัฐ
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: สร้างการจัดประเภทการเรียกเก็บเงินในภาครัฐ
@@ -1145,8 +1351,9 @@
                 - name: การจ่ายคืนเงินในภาครัฐ
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: การจัดงบประมาณในภาครัฐ
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: ภาพรวมของการจัดงบประมาณในภาครัฐ
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: สร้างงบประมาณตั้งต้น และกลับการเข้ารายการงบประมาณเบื้องต้นในภาครัฐ
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: สร้างงบประมาณเบื้องต้นสำหรับภาครัฐ
@@ -1172,8 +1379,9 @@
             - name: สินทรัพย์ถาวรในภาครัฐ
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: บัญชีแยกประเภททั่วไปในภาครัฐ
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: ภาพรวมของบัญชีแยกประเภททั่วไปในภาครัฐ
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: รายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: สร้างรายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
@@ -1199,9 +1407,10 @@
             - name: เพิ่มชนิดใบรับรองไปยังผู้จัดจำหน่ายในภาครัฐ
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: การรายงานทางการเงิน
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
-            - name: ภาพรวมการรายงานทางการเงิน
+            - name: ภาพรวมของการรายงานทางการเงิน
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
+            - name: ภาพรวมของการรายงานทางการเงิน
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: ส่วนประกอบของรายงานทางการเงิน
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
@@ -1235,14 +1444,16 @@
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
         - name: การส่งข้อความทางอิเล็กทรอนิกส์
           href: ../financials/general-ledger/electronic-messaging.md
-    - name: โลกาภิวัตน์
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
+    - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
       items:
+        - name: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: การอัปเดตที่เป็นระเบียบบังคับ
           href: ../financials/localizations/regulatory-updates.md
         - name: ออสเตรเลีย
-          href: ../financials/localizations/australia.md
           items:
+            - name: ภาพรวมของออสเตรเลีย
+              href: ../financials/localizations/australia.md
             - name: แบบรายงานกิจกรรมทางธุรกิจ (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: เพิ่มกล่องรายงานและสร้าง BAS
@@ -1252,8 +1463,9 @@
             - name: ตั้งค่ารหัสเหตุผลสำหรับ BAS
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: ออสเตรีย
-          href: ../financials/localizations/austria.md
           items:
+            - name: ภาพรวมของออสเตรีย
+              href: ../financials/localizations/austria.md
             - name: ค่าเสื่อมราคาครึ่งปีสำหรับการซื้อสินทรัพย์เพิ่มเติม
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: ค่าธรรมเนียมบรรจุภัณฑ์
@@ -1261,8 +1473,9 @@
             - name: งบ VAT
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: เบลเยียม
-          href: ../financials/localizations/belgium.md
           items:
+            - name: ภาพรวมของเบลเยียม
+              href: ../financials/localizations/belgium.md
             - name: ใบแจ้งยอดจากธนาคาร CODA
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: การสร้างและโอนย้ายธุรกรรมไปยัง BLWI
@@ -1276,13 +1489,15 @@
             - name: ตั้งค่าและรักษา PRODCOM
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: บราซิล
-          href: ../financials/localizations/brazil.md
           items:
+            - name: ภาพรวมของบราซิล
+              href: ../financials/localizations/brazil.md
             - name: ขอบเขตของการแปลเป็นภาษาท้องถิ่น
               href: ../financials/localizations/latam-bra-scope.md
             - name: สมุดการเงิน
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: ภาพรวมของสมุดการเงินของบราซิล
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: ตั้งค่าคอนฟิกสมุดการเงิน
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: เอกสารทางการเงินภาษี ICMS
@@ -1350,8 +1565,9 @@
                 - name: ใบเพิ่มหนี้ของโครงการ
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: กระบวนการ NF-e
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: ภาพรวมของกระบวนการ NF-e ของบราซิล
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: การส่งผ่านอัตโนมัติของเอกสารทางการเงิน NF-e
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: สร้างอีเมลสำหรับ NF-e ที่อนุมัติแล้วและแนบไฟล์ DANFE PDF และไฟล์ NF-e XML ไปกับอีเมล
@@ -1397,8 +1613,9 @@
             - name: คำนวณดอกเบี้ยและค่าปรับในการชำระเงินให้ลูกค้า
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: ภาษี
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: ภาพรวมของภาษีบราซิล
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: คำนวณภาษีสำหรับใบเสนอราคาซื้อ
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: สร้างการประเมินภาษี - ICMS
@@ -1444,8 +1661,9 @@
                 - name: ภาษีหัก ณ ที่จ่ายสำหรับการชำระเงินของผู้จัดจำหน่าย
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: จีน
-          href: ../financials/localizations/china.md
           items:
+            - name: ภาพรวมของจีน
+              href: ../financials/localizations/china.md
             - name: Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: การเปรียบเทียบสูตรการผลิต
@@ -1485,8 +1703,9 @@
             - name: FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: สาธารณรัฐเช็ก
-          href: ../financials/localizations/czech-republic.md
           items:
+            - name: สาธารณรัฐเช็ก
+              href: ../financials/localizations/czech-republic.md
             - name: ใบลดหนี้ในส่วนลดเงินสด
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: สินทรัพย์ถาวร
@@ -1514,8 +1733,9 @@
             - name: การปิดบัญชีสิ้นปี
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: เดนมาร์ก
-          href: ../financials/localizations/denmark.md
           items:
+            - name: ภาพรวมของเดนมาร์ก
+              href: ../financials/localizations/denmark.md
             - name: กำหนดรูปแบบบันทึกการชำระเงินให้กับบัญชีลูกค้า
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: สร้างและลงรายการบัญชีใบแจ้งหนี้ของลูกค้าสำหรับลูกค้าภาครัฐ
@@ -1539,18 +1759,21 @@
             - name: ตั้งค่ารูปแบบบันทึกการชำระเงิน
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: เอสโตเนีย
-          href: ../financials/localizations/estonia.md
           items:
+            - name: ภาพรวมของเอสโตเนีย
+              href: ../financials/localizations/estonia.md
             - name: คำขอข้อมูลส่วนตัว
               href: ../financials/localizations/emea-est-personal-info.md
             - name: งบ VAT
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: ยุโรป
-          href: ../financials/localizations/europe.md
           items:
+            - name: ภาพรวมของยุโรป
+              href: ../financials/localizations/europe.md
             - name: ผู้ถือครองเงินทดรองจ่าย
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: ภาพรวมของผู้ถือครองเงินทดรองจ่าย
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: ธุรกรรมของผู้ถือครองเงินทดรองจ่าย
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: การชำระเงินล่วงหน้าให้พนักงาน (ยุโรปตะวันออก)
@@ -1606,8 +1829,9 @@
                 - name: สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: อินทราสแทต
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: ภาพรวมของอินทราสแทต
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: โอนย้ายธุรกรรมไปยังอินทราสแทต
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: ระบุที่อยู่ในใบตราส่งสำหรับธุรกรรมภายในประชาคม
@@ -1685,8 +1909,9 @@
             - name: ดูธุรกรรมในการจ่ายเงิน
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: ฝรั่งเศส
-          href: ../financials/localizations/france.md
           items:
+            - name: ภาพรวมของฝรั่งเศส
+              href: ../financials/localizations/france.md
             - name: ภาครัฐ
               items:
                 - name: การบัญชีภาครัฐ
@@ -1740,13 +1965,15 @@
                 - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: เยอรมนี
-          href: ../financials/localizations/germany.md
           items:
+            - name: ภาพรวมของเยอรมนี
+              href: ../financials/localizations/germany.md
             - name: ค่าเสื่อมราคาการซื้อสินทรัพย์เพิ่มเติม
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: ไฟล์การตรวจสอบ
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: ภาพรวมของไฟล์การตรวจสอบภาษาเยอรมัน
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: เลือกกำหนดการตั้งค่าไฟล์การตรวจสอบ
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: สร้างไฟล์การตรวจสอบ
@@ -1762,8 +1989,9 @@
             - name: ตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: ฮังการี
-          href: ../financials/localizations/hungary.md
           items:
+            - name: ภาพรวมของฮังการี
+              href: ../financials/localizations/hungary.md
             - name: การคำนวณอัตราแลกเปลี่ยน
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
@@ -1777,8 +2005,9 @@
             - name: การปิดบัญชีสิ้นปี
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: ไอซ์แลนด์
-          href: ../financials/localizations/iceland.md
           items:
+            - name: ภาพรวมของไอซ์แลนด์
+              href: ../financials/localizations/iceland.md
             - name: สร้างบัญชีผู้จัดจำหน่ายและแนบประเภทการประกาศใบแจ้งหนี้
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: ตั้งค่าการรายงานใบแจ้งหนี้สำหรับผู้จัดจำหน่าย
@@ -1788,11 +2017,15 @@
             - name: อัปเดตใบแจ้งหนี้ของผู้จัดจำหน่ายและสร้างรายงาน
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: อินเดีย
-          href: ../financials/localizations/india.md
           items:
+            - name: ภาพรวมของอินเดีย
+              href: ../financials/localizations/india.md
+            - name: ขอบเขตของการแปลเป็นภาษาอินเดีย
+              href: ../financials/localizations/apac-ind-scope.md
             - name: สินทรัพย์ถาวร
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: ภาพรวมของสินทรัพย์ถาวรของอินเดีย
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: แนบปฏิทินตามวันกับสมุดบัญชีสินทรัพย์ถาวร
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: คำนวณค่าเสื่อมราคาตามกะการทำงาน
@@ -1816,8 +2049,9 @@
                 - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
             - name: GST อินเดีย
-              href: ../financials/localizations/apac-ind-gst.md
               items:
+                - name: ภาพรวมของ GST อินเดีย
+                  href: ../financials/localizations/apac-ind-gst.md
                 - name: กลุ่มการอ้างอิง GST อินเดีย
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: ภาพรวมกลไกจัดการภาษี
-              href: ../financials/general-ledger/tax-engine.md
+            - name: กลไกจัดการภาษี
               items:
-                - name: นำเข้าการตั้งค่าคอนฟิก
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: การใช้งานกลไกจัดการภาษี
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: การรวมกลไกจัดการภาษี
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: การขยายกลไกจัดการภาษี
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: ภาพรวมของกลไกจัดการภาษี
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: นำเข้าการตั้งค่าคอนฟิก
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: การใช้งานกลไกจัดการภาษี
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: การรวมกลไกจัดการภาษี
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: การขยายกลไกจัดการภาษี
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: FAQ เกี่ยวกับขีดจำกัดภาษี
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: การโอนย้ายสินค้าคงคลัง
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: อิตาลี
-          href: ../financials/localizations/italy.md
           items:
+            - name: ภาพรวมของอิตาลี
+              href: ../financials/localizations/italy.md
             - name: รายละเอียดงบ VAT
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: รายงานรายชื่อบัญชีดำ
@@ -1997,8 +2236,9 @@
             - name: ภาษีหัก ณ ที่จ่าย
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: ญี่ปุ่น
-          href: ../financials/localizations/japan.md
           items:
+            - name: ภาพรวมของญี่ปุ่น
+              href: ../financials/localizations/japan.md
             - name: ได้รับสินทรัพย์ถาวรและการอ้างสิทธิ์สำหรับเงินช่วยเหลือรัฐบาล
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: ได้รับสินทรัพย์ถาวรที่มีข้อผูกมัดการตัดจำหน่ายสินทรัพย์
@@ -2156,8 +2396,9 @@
             - name: ใช้รายการแยกของสินทรัพย์ถาวร
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: ลัตเวีย
-          href: ../financials/localizations/latvia.md
           items:
+            - name: ภาพรวมของลัตเวีย
+              href: ../financials/localizations/latvia.md
             - name: การบัญชีสินทรัพย์ถาวร
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: การติดตามการเปลี่ยนแปลงตำแหน่งที่ตั้งของสินทรัพย์ถาวร
@@ -2169,8 +2410,9 @@
             - name: รายละเอียดงบ VAT
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: ลิทัวเนีย
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: ภาพรวมของลิทัวเนีย
+              href: ../financials/localizations/lithuania.md
             - name: รายงานซ่อมแซมสินทรัพย์ถาวร
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: สร้างเอกสารคลังสินค้าระหว่างการโอนย้ายสินทรัพย์ถาวร
@@ -2180,8 +2422,9 @@
             - name: รายละเอียดงบ VAT
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: มาเลเซีย
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: ภาพรวมของมาเลเซีย
+              href: ../financials/localizations/malaysia.md
             - name: สร้างสินเชื่อลูกค้าสำหรับการขายของโครงการ
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: สร้างการหักบัญชีเงินฝากอัตโนมัติของลูกค้าสำหรับการขายของโครงการ
@@ -2203,8 +2446,9 @@
             - name: ตั้งค่าข้อกำหนดการลดหย่อนภาษี GST
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: เม็กซิโก
-          href: ../financials/localizations/mexico.md
           items:
+            - name: ภาพรวมของเม็กซิโก
+              href: ../financials/localizations/mexico.md
             - name: ขอบเขตของการแปลเป็นภาษาท้องถิ่น
               href: ../financials/localizations/latam-mex-scope.md
             - name: การรายงานการปรับปรุงเงินเฟ้อ
@@ -2242,15 +2486,17 @@
             - name: รหัสการลงทะเบียนผู้จัดจำหน่าย
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: เนเธอร์แลนด์
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: ภาพรวมของเนเธอร์แลนด์
+              href: ../financials/localizations/netherlands.md
             - name: การรายงานภาษีทางอิเล็กทรอนิกส์ (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: การรวม Semansys XBRL
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: นอร์เวย์
-          href: ../financials/localizations/norway.md
           items:
+            - name: ภาพรวมของนอร์เวย์
+              href: ../financials/localizations/norway.md
             - name: รูปแบบการชำระเงินของลูกค้าและการชำระเงินให้แก่ผู้จัดจำหน่าย
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: การชำระเงินของลูกค้าขึ้นอยู่กับรหัสการชำระเงิน
@@ -2264,8 +2510,9 @@
             - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: โปแลนด์
-          href: ../financials/localizations/poland.md
           items:
+            - name: ภาพรวมของโปแลนด์
+              href: ../financials/localizations/poland.md
             - name: เปิดใช้งานการกลับรายการบัญชี
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: คำนวณส่วนลดต่อรายการสินค้าจากราคาต่อหน่วย
@@ -2293,8 +2540,9 @@
             - name: รายงานยอดขายและยอดดุล
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: รัสเซีย
-          href: ../financials/localizations/russia.md
           items:
+            - name: ภาพรวมของรัสเซีย
+              href: ../financials/localizations/russia.md
             - name: บัญชีแยกประเภททั่วไป
               items:
                 - name: การโต้ตอบทางบัญชี
@@ -2306,8 +2554,9 @@
                 - name: นำเข้าอัตราแลกเปลี่ยนสกุลเงินจาก CBRF
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: ผู้ถือครองเงินทดรองจ่าย
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: ภาพรวมของผู้ถือครองเงินทดรองจ่ายของรัสเซีย
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: สร้างผู้ถือครองเงินทดรองจ่าย
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: การดำเนินงานประจำวันสำหรับผู้ถือครองเงินทดรองจ่าย
@@ -2318,18 +2567,26 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: รายงานผู้ถือครองเงินทดรองจ่าย
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: ธนาคาร
+            - name: เงินสดและธนาคาร
               items:
                 - name: ตั้งค่าบัญชีธนาคาร
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: ตั้งค่าและดำเนินการกับใบสั่งการชำระเงิน
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: การปรับปรุงอัตราแลกเปลี่ยน
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: การขาย การซื้อ และการโอนสกุลเงินต่างประเทศ
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: เงินสดย่อย
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: VAT
               items:
                 - name: การลงรายการบัญชี VAT ขายเฉพาะท้องถิ่น
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: การประมวลผลและการพิมพ์ใบเรียกเก็บเงินสำหรับใบแจ้งหนี้
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: ใบเรียกเก็บเงินที่มีการปรับปรุงและใบเรียกเก็บเงินที่มีการแก้ไข
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: ภาษีมูลค่าเพิ่ม (VAT) สำหรับสำนักงานบัญชีตัวแทนภาษี
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: การรายงานภาษี VAT
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: บัญชีเจ้าหนี้และบัญชีลูกหนี้
               items:
+                - name: การแก้ไขใบลดหนี้ (รัสเซีย)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: ใบแจ้งหนี้สำหรับการชำระเงิน
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: ตั้งค่าการควบคุมมิติสำหรับการชำระเงิน
@@ -2416,7 +2675,7 @@
               items:
                 - name: ตั้งค่ารายการยืดเวลา
                   href: ../financials/localizations/rus-set-up-deferrals.md
-                - name: สร้างหรือจัดทำการอ้างอิง
+                - name: สร้างหรือจัดทำรายการยืดเวลา
                   href: ../financials/localizations/rus-create-generate-deferrals.md
                 - name: การรับรายการยืดเวลา
                   href: ../financials/localizations/rus-deferral-transactions.md
@@ -2429,20 +2688,23 @@
                 - name: การรายงานสำหรับรายการยืดเวลา
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: ซาอุดีอาระเบีย
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: ภาพรวมของซาอุดีอาระเบีย
+              href: ../financials/localizations/saudi-arabia.md
             - name: ภาษีขาย
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: การรายงาน Zakat สำหรับซาอุดีอาระเบีย
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: สิงคโปร์
-          href: ../financials/localizations/singapore.md
           items:
+            - name: ภาพรวมของสิงคโปร์
+              href: ../financials/localizations/singapore.md
             - name: สร้างรายงาน GST-05
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: สเปน
-          href: ../financials/localizations/spain.md
           items:
+            - name: ภาพรวมของสเปน
+              href: ../financials/localizations/spain.md
             - name: ใช้ส่วนลดเงินสดในใบแจ้งหนี้
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: ตัวเลือกตั๋วแลกเงิน
@@ -2472,8 +2734,9 @@
             - name: รายการพิเศษและแผ่นงานการเปิด
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: สวีเดน
-          href: ../financials/localizations/sweden.md
           items:
+            - name: ภาพรวมของสวีเดน
+              href: ../financials/localizations/sweden.md
             - name: ส่งออกข้อมูลทางการเงินสำหรับผู้ตรวจสอบบัญชีในสวีเดน
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: นำเข้ารูปแบบการชำระเงิน
@@ -2481,13 +2744,15 @@
             - name: เครื่องบันทึกเงินสด
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: สวิตเซอร์แลนด์
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: ภาพรวมของสวิตเซอร์แลนด์
+              href: ../financials/localizations/switzerland.md
             - name: นำเข้าการชำระเงินของลูกค้าใน ESR
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: ไทย
-          href: ../financials/localizations/thailand.md
           items:
+            - name: ภาพรวมของไทย
+              href: ../financials/localizations/thailand.md
             - name: รายงานบัตรสินค้าคงคลัง
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: หมายเลขของใบกำกับภาษีการปรับปรุง/ใบแทน
@@ -2497,8 +2762,9 @@
             - name: ภาษีหัก ณ ที่จ่าย
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: สหราชอาณาจักร
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: ภาพรวมของสหราชอาณาจักร
+              href: ../financials/localizations/united-kingdom.md
             - name: แผนงานอุตสาหกรรมก่อสร้าง
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: สร้างสินเชื่อในส่วนลดการชำระเงิน
@@ -2516,15 +2782,17 @@
             - name: การทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: สหรัฐอเมริกา
-          href: ../financials/localizations/united-states.md
           items:
+            - name: ภาพรวมของสหรัฐอเมริกา
+              href: ../financials/localizations/united-states.md
             - name: การรายงาน 1099 สิ้นปีสำหรับสหรัฐอเมริกา
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: แบบฟอร์ม 1099 สำหรับภาครัฐ
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: ทรัพยากรบุคคล
-      href: hr/hr-landing-page.md
       items:
+        - name: ภาพรวมของทรัพยากรบุคคล
+          href: hr/hr-landing-page.md
         - name: พัฒนากลยุทธ์ด้านทรัพยากรบุคคล
           items:
             - name: สร้างเป้าหมาย
@@ -2676,9 +2944,10 @@
             - name: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: ค่าจ้างของสหรัฐอเมริกา
-          href: hr/localizations/noam-usa-payroll.md
           items:
-            - name: การตั้งค่าบัญชีค่าจ้าง
+            - name: ภาพรวมของค่าจ้างของสหรัฐอเมริกา
+              href: hr/localizations/noam-usa-payroll.md
+            - name: การตั้งค่าบัญชีเงินเดือน
               items:
                 - name: ตั้งค่าบัญชีเงินเดือนสำหรับผู้ปฏิบัติงาน
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
@@ -2743,13 +3012,15 @@
                 - name: รายงานบัญชีเงินเดือนมาตรฐาน
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: ข่าวกรอง
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
+        - name: โฮมเพจข่าวกรอง
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
         - name: การเข้าถึงข้อมูลและการรายงาน
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: เนื้อหาของ Power BI
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: โฮมเพจเนื้อหาของ Power BI
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: ที่เกิดขึ้นจริงเทียบกับงบประมาณ
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: สวัสดิการ
@@ -2763,8 +3034,9 @@
             - name: ค่าตอบแทนและสวัสดิการ
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: การวิเคราะห์การบัญชีต้นทุน
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: เนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: ตั้งค่าความปลอดภัยสำหรับเนื้อหาของ Power BI เกี่ยวกับการบัญชีต้นทุน
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: การจัดการต้นทุน
@@ -2795,7 +3067,7 @@
               href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
             - name: การสรรหา
               href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 'ประสิทธิภาพของช่องทางการขายปลีก '
+            - name: ประสิทธิภาพของช่องทางการขายปลีก
               href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
             - name: ประสิทธิภาพการขายและความสามารถในการทำกำไร
               href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2807,13 +3079,14 @@
               href: ../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
         - name: การรายงานและการพิมพ์เอกสาร
           items:
-            - name: ภาพรวมของ Document Reporting Services
+            - name: ภาพรวมของบริการจัดทำรายงานเอกสาร
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
             - name: ตั้งค่าคอนฟิก SSRS สำหรับการปรับใช้ในสถานที่
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: การพิมพ์
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: ภาพรวมของการพิมพ์เอกสาร
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานการพิมพ์ผ่านเครือข่าย
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: อัปเกรดเอเจนต์การกำหนดเส้นทางเอกสาร
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: การตั้งค่าคอนฟิก ER ที่ขึ้นอยู่กับรุ่นของ Finance and Operations
-              items:
-                - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: ออกแบบโซลูชัน ER เพื่อใช้มิติทางการเงิน
               items:
                 - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: API กรอบงาน ER
               items:
                 - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
@@ -3081,19 +3354,22 @@
             - name: ใช้ฐานข้อมูลของคุณเอง
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: การบริหารสินค้าคงคลัง
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: ภาพรวมของการมาถึง
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: ภาพรวมของการบริหารสินค้าคงคลัง
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: การมาถึง
           items:
+            - name: ภาพรวมของการมาถึง
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: ตั้งค่าโพรไฟล์ภาพรวมของการมาถึงของสินค้า
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: การจัดการคุณภาพ
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: ภาพรวมของการจัดการคุณภาพ
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: กระบวนการการจัดการคุณภาพ
               href: ../supply-chain/inventory/quality-management-processes.md
-            - name: การจัดการความไม่สอดคล้อง
+            - name: การจัดการความไม่สอดคล้องกัน
               href: ../supply-chain/inventory/enable-nonconformance-management.md
             - name: ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการ
               href: ../supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management.md
@@ -3153,14 +3429,15 @@
               href: ../supply-chain/inventory/tasks/correct-inventory-tracking-information.md
             - name: ลงทะเบียนหมายเลขลำดับประจำสินค้าในกระบวนการขาย
               href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
-            - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของปริมาณคงคลังคงเหลือ
+            - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของปริมาณสินค้าคงคลังคงเหลือ
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: กระบวนการขาออก
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: ภาพรวมของกระบวนการขาออก
+              href: ../supply-chain/inventory/outbound-process.md
             - name: สำรองปริมาณสินค้าคงคลัง
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
-            - name: จองชุดงานเดียวกันสำหรับใบสั่งขาย
+            - name: สำรองชุดงานเดียวกันสำหรับใบสั่งขาย
               href: ../supply-chain/sales-marketing/reserve-same-batch-sales-order.md
         - name: การควบคุมสินค้าคงคลัง
           items:
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: รายงานคำขอการบำรุงรักษา
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: การวางแผนหลัก
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: แผนหลัก
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: ตั้งค่าสำหรับใบสั่งงาน
           items:
+            - name: 'ประเภทของชนิดงานบำรุงรักษาและชนิดงานบำรุงรักษา, ตัวแปรชนิดงานบำรุงรักษา และการค้าของชนิดงานบำรุงรักษา และรายการตรวจสอบการบำรุงรักษา'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: สถานะของวงจรการใช้ของใบสั่งงาน
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: ชนิดใบสั่งงาน
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: การตั้งค่าโครงการของใบสั่งงาน
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: ระดับและคำอธิบายของบริการ
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: การดำเนินการที่จัดกำหนดการไว้
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: การจัดการข้อบกพร่อง
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: ใบสั่งงาน
+          items:
+            - name: บทนำเกี่ยวกับใบสั่งงาน
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: ใบสั่งงานที่สร้างด้วยตนเอง
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: การคาดการณ์ในการบำรุงรักษา
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: การจัดซื้อ
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: การอัปเดตตัวนับสินทรัพย์ด้วยตนเอง
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: การอัปเดตตัวนับสินทรัพย์อัตโนมัติ
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: รายการตรวจสอบการบำรุงรักษา
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: การหยุดทำงานของการบำรุงรักษา
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: เพิ่มข้อบกพร่องลงในใบสั่งงาน
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: รายงานใบสั่งงาน
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: กลุ่มใบสั่งงาน
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: งานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: ใบสั่งงานและสินทรัพย์ถาวร
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: การรวมกับการจัดการและการบัญชีโครงการ
+          items:
+            - name: การคาดการณ์ ใบสั่งงาน และโครงการ
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: การบำรุงรักษาเชิงป้องกันและเชิงรับ
+          items:
+            - name: การบำรุงรักษาเชิงป้องกัน
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: แผนการบำรุงรักษา
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: จัดกำหนดการแผนการบำรุงรักษา
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: รอบการบำรุงรักษา
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: กำหนดการบำรุงรักษา
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: ต้นทุนกำหนดการบำรุงรักษา
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: สร้างใบสั่งงาน
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: การหยุดทำงานของการบำรุงรักษา
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: การวางแผนกำลังการผลิต
+          items:
+            - name: คำนวณการใช้กำลังการผลิต
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: คำนวณการคาดการณ์สินค้า
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: การจัดกำหนดการใบสั่งงาน
+          items:
+            - name: ปฏิทินและการจัดกำหนดการเจ้าหน้าที่บำรุงรักษา
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: เจ้าหน้าที่บำรุงรักษาที่ต้องการ
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: จัดกำหนดการใบสั่งงาน
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: จัดส่งใบสั่งงาน
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: จัดกำหนดการใบสั่งงานในวันที่และเวลาเฉพาะ
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: งานบำรุงรักษาของใบสั่งงานที่จัดกำหนดการ
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: คำนวณการใช้กำลังการผลิตในใบสั่งงานที่จัดกำหนดการไว้
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: ปริมาณการใช้
+          items:
+            - name: ลงทะเบียนปริมาณการใช้
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: สร้างรายงานปริมาณการใช้
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: การรับประกัน
+          items:
+            - name: ข้อตกลงการรับประกัน
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: การรับประกันสำหรับสินทรัพย์และชนิดสินทรัพย์
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: งบประมาณการบำรุงรักษา
+          items:
+            - name: งบประมาณการบำรุงรักษา
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: อัปเดตงบประมาณการบำรุงรักษา
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: การควบคุมและการรายงาน
+          items:
+            - name: การควบคุมต้นทุนและวันที่
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: การควบคุมชั่วโมงการทำงาน
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: การควบคุมต้นทุนข้อบกพร่องของสินทรัพย์
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: การวิเคราะห์ข้อบกพร่องของสินทรัพย์
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: KPI สินทรัพย์
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: สินค้าที่ใช้
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: สถานะการบำรุงรักษา
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: การจัดการข้อมูล
+          items:
+            - name: เอนทิตี้เป้าหมาย
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: การวางแผนหลัก
+      items:
+        - name: โฮมเพจการวางแผนหลัก
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: แผนหลัก
+          items:
+            - name: ภาพรวมของแผนหลัก
+              href: ../supply-chain/master-planning/master-plans.md
             - name: ตั้งค่าแผนหลัก
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: วิซาร์ดการตั้งค่าการวางแผนหลัก
@@ -3304,8 +3709,9 @@
             - name: ปรับปรุงประสิทธิภาพของการวางแผนหลัก
               href: ../supply-chain/master-planning/master-planning-performance.md
             - name: แผนหลักและฟังก์ชันหลายไซต์
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
+                - name: ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าไม่บังคับ
@@ -3327,8 +3733,9 @@
             - name: ร่วมมือกับลูกค้าของห่วงโซ่อุปทานภายใน
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: การคาดการณ์ความต้องการ
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: ภาพรวมของการคาดการณ์ความต้องการ
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: การตั้งค่าการคาดการณ์ความต้องการ
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: แอปสำหรับอุปกรณ์เคลื่อนที่
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: แอป Dynamics 365 for Unified Operations สำหรับอุปกรณ์เคลื่อนที่
       items:
-        - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ที่มีอยู่
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: โฮมเพจแอป Dynamics 365 for Unified Operations สำหรับอุปกรณ์เคลื่อนที่
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
           items:
+            - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ที่มีอยู่
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: ไดเรกทอรีบริษัท
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: การควบคุมต้นทุน
@@ -3367,11 +3776,11 @@
               href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: ทีมงานของฉัน
               href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: ภาพรวมแอพลิเคชันมือถือของโครงการ
+            - name: ภาพรวมของแอปพลิเคชันสำหรับอุปกรณ์เคลื่อนที่ของโครงการ
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: รายการข้อมูลเวลาของโครงการ
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: แผ่นเวลาโครงการ
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: การอนุมัติใบสั่งซื้อ
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: เผยแพร่พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: การรวม Office
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: ภาพรวมของการรวม Office
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: บทช่วยสอนการรวม Office
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: เปิดข้อมูลเอนทิตี้ใน Excel และอัปเดตโดยใช้ Add-in ของ Excel
@@ -3398,28 +3808,32 @@
           href: organization-administration/configure-email.md
         - name: พัฒนาประสบการณ์ใช้งานอีเมล
           href: ../dev-itpro/dev-tools/sysmailer-develop.md
-        - name: แก้ไขปัญหาการรวมกับ Office
+        - name: แก้ไขปัญหาการรวม Office
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
     - name: การจัดซื้อและการจัดหา
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
       items:
+        - name: ภาพรวมของการจัดซื้อและการจัดหา
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
         - name: ลำดับงานการจัดซื้อและการจัดหา
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: แค็ตตาล็อกการจัดซื้อ
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: ภาพรวมของแค็ตตาล็อกการจัดซื้อ
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: สร้างแค็ตตาล็อกการจัดซื้อ
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: ใบขอซื้อ
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
-            - name: เวิร์กโฟลว์การขอเสนอซื้อ
+            - name: ภาพรวมของใบขอซื้อ
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
+            - name: ลำดับงานของใบขอซื้อ
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: คำขอใบเสนอราคา (RFQ)
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: ภาพรวมของคำขอใบเสนอราคา (RFQ)
+              href: ../supply-chain/procurement/request-quotations.md
             - name: สร้างคำขอใบเสนอราคา
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: สร้างใบขอซื้อที่ใช้ RFQ
@@ -3471,11 +3885,12 @@
             - name: เงินคืนของผู้จัดจำหน่าย
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: นโยบายการจัดซื้อ
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: ภาพรวมของนโยบายการจัดซื้อ
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: สร้างนโยบายการจัดซื้อ
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
-            - name: ตั้งค่านโยบายสำหรับการจัดประเภทการจัดซื้อตามลำดับชั้น
+            - name: ตั้งค่านโยบายสำหรับประเภทการจัดซื้อตามลำดับชั้น
               href: ../supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies.md
         - name: ใบรับสินค้าและการออกใบแจ้งหนี้
           items:
@@ -3530,18 +3945,21 @@
             - name: ส่งและอนุมัติการปรับปรุงงบประมาณโครงการ
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: การจัดการองค์กร
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: โฮมเพจการจัดการองค์กร
+          href: organization-administration/organization-administration-home-page.md
         - name: ลำดับหมายเลข
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: ภาพรวมของลำดับหมายเลข
+              href: organization-administration/number-sequence-overview.md
             - name: ตั้งค่าลำดับหมายเลขแต่ละตัว
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: องค์กรและลำดับชั้นขององค์กร
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: ภาพรวมขององค์กรและลำดับชั้นขององค์กร
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: วางแผนลำดับชั้นขององค์กรของคุณ
               href: organization-administration/plan-organizational-hierarchy.md
             - name: สร้างลำดับชั้นขององค์กร
@@ -3551,8 +3969,9 @@
             - name: สร้างหน่วยปฏิบัติงาน
               href: organization-administration/tasks/create-operating-unit.md
         - name: สมุดที่อยู่สากล
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: ภาพรวมของสมุดที่อยู่สากล
+              href: organization-administration/overview-global-address-book.md
             - name: แผนงานสำหรับค่าสมุดที่อยู่สากลและสมุดที่อยู่อื่นๆ
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
@@ -3562,8 +3981,9 @@
             - name: ตั้งค่าคอนฟิกสมุดที่อยู่
               href: organization-administration/tasks/address-books.md
         - name: ระบบลำดับงาน
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: ภาพรวมของระบบลำดับงาน
+              href: organization-administration/overview-workflow-system.md
             - name: สถาปัตยกรรมระบบลำดับงาน
               href: organization-administration/workflow-system-architecture.md
             - name: องค์ประกอบลำดับงาน
@@ -3571,8 +3991,9 @@
             - name: การดำเนินการลำดับงาน
               href: organization-administration/workflow-actions.md
             - name: สร้างลำดับงาน
-              href: organization-administration/create-workflow.md
               items:
+                - name: ภาพรวมของการสร้างลำดับงาน
+                  href: organization-administration/create-workflow.md
                 - name: ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน
                   href: organization-administration/configure-workflow-properties.md
                 - name: ตั้งค่าคอนฟิกงานด้วยตนเอง
@@ -3624,8 +4045,9 @@
             - name: FAQ เกี่ยวกับลำดับงาน
               href: organization-administration/workflow-FAQ.md
         - name: การแจ้งเตือน
-          href: get-started/alerts-overview.md
           items:
+            - name: ภาพรวมของการแจ้งเตือน
+              href: get-started/alerts-overview.md
             - name: สร้างกฎการแจ้งเตือน
               href: get-started/create-alerts.md
             - name: การประมวลผลชุดงานของการแจ้งเตือน
@@ -3633,18 +4055,21 @@
             - name: การแจ้งเตือนลูกค้าทางอีเมล
               href: get-started/alert-email-notifications.md
         - name: ลายเซ็นอิเล็กทรอนิกส์
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
+              href: organization-administration/electronic-signature-overview.md
             - name: ตั้งค่าลายเซ็นอิเล็กทรอนิกส์
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: การจัดการกรณี
-          href: organization-administration/cases.md
           items:
+            - name: ภาพรวมของการจัดการกรณี
+              href: organization-administration/cases.md
             - name: วางแผนความปลอดภัยของกรณี กระบวนการ และประเภท
               href: organization-administration/plan-case-management.md
         - name: เท็มเพลตสำหรับเรกคอร์ด
-          href: organization-administration/record-templates.md
           items:
+            - name: ภาพรวมของเท็มเพลตของเรกคอร์ด
+              href: organization-administration/record-templates.md
             - name: สร้างเท็มเพลตเรกคอร์ด
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: ใช้เท็มเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
@@ -3656,8 +4081,9 @@
         - name: ข้อมูลวันที่/เวลาและโซนเวลา
           href: organization-administration/date-time-zones.md
     - name: การควบคุมการผลิต
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: ภาพรวมของกระบวนการผลิต
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'การวางแผนโหมดผสม: รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: จัดการงานที่รับเหมารายย่อยในการผลิต
@@ -3720,9 +4146,10 @@
                   href: ../supply-chain/production-control/tasks/schedule-production-order-operations-job-scheduling.md
             - name: ดำเนินงานการผลิต
               items:
-                - name: จัดการวงจรชีวิตของใบสั่งผลิต
-                  href: ../supply-chain/production-control/create-production-orders.md
+                - name: จัดการวงจรการใช้งานใบสั่งผลิต
                   items:
+                    - name: ภาพรวมของการจัดการวงจรการใช้งานใบสั่งผลิต
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: สร้างใบสั่งผลิต
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: ประเมินใบสั่งผลิต
@@ -3782,8 +4209,9 @@
                 - name: การผลิตที่ลงรายการบัญชีแล้ว
                   href: ../supply-chain/cost-management/production-posting.md
             - name: การลงทะเบียนเวลาและการเข้างาน
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: ภาพรวมของการลงทะเบียนเวลาและการเข้างาน
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: ชำระค่าจ้างตามการลงทะเบียน
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: การลงทะเบียนการขาดงานในเวลาและการเข้างาน
@@ -3945,13 +4373,14 @@
                 - name: การผลิตที่ลงรายการบัญชีแล้ว
                   href: ../supply-chain/cost-management/production-posting.md
     - name: การจัดการข้อมูลผลิตภัณฑ์
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: ภาพรวมของข้อมูลผลิตภัณฑ์
+          href: ../supply-chain/pim/product-information.md
         - name: ข้อมูลผลิตภัณฑ์
           items:
             - name: ตัวระบุผลิตภัณฑ์
               href: ../supply-chain/pim/product-identifiers.md
-            - name: สร้างลำดับขั้นของการจัดประภทผลิตภัณฑ์
+            - name: สร้างลำดับขั้นของการจัดประเภทผลิตภัณฑ์
               href: ../supply-chain/pim/tasks/create-hierarchy-product-classification.md
             - name: จัดประเภทผลิตภัณฑ์โดยใช้ลำดับชั้นประเภท
               href: ../supply-chain/pim/tasks/classify-product-category-hierarchies.md
@@ -3971,12 +4400,13 @@
               href: ../supply-chain/pim/uom-conversion-per-product-variant.md
             - name: สร้างผลิตภัณฑ์ที่นำออกใช้สำหรับบริษัทเดียว
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
-            - name: สถานะรอบการขายของผลิตภัณฑ์
-              href: ../supply-chain/pim/product-lifecycle.md
+            - name: สถานะของวงจรการใช้ผลิตภัณฑ์
               items:
-                - name: สร้างสถานะรอบการขายของผลิตภัณฑ์ใหม่
+                - name: ภาพรวมของสถานะของวงจรการใช้ผลิตภัณฑ์
+                  href: ../supply-chain/pim/product-lifecycle.md
+                - name: สร้างสถานะของวงจรการใช้ผลิตภัณฑ์ใหม่
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
-                - name: สร้างสถานะรอบการขายของผลิตภัณฑ์เริ่มต้น
+                - name: สร้างสถานะของวงจรการใช้ผลิตภัณฑ์เริ่มต้น
                   href: ../supply-chain/pim/tasks/default-product-lifecycle-state.md
                 - name: กำหนดสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์หลักที่นำออกใช้
                   href: ../supply-chain/pim/tasks/product-lifecycle-state-released-product-master.md
@@ -4017,11 +4447,13 @@
             - name: การคำนวณ BOM
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: การจัดโครงแบบผลิตภัณฑ์
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: ภาพรวมของการจัดโครงแบบผลิตภัณฑ์
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: สร้างการจัดโครงแบบตามมิติ
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: ภาพรวมของการจัดโครงแบบผลิตภัณฑ์ตามมิติ
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: มิติของผลิตภัณฑ์
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: สร้างผลิตภัณฑ์หลักที่ใช้มิติ
@@ -4041,8 +4473,9 @@
                 - name: สร้างการจัดโครงแบบตามมิติ
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: สร้างการจัดโครงแบบตามข้อจำกัด
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: ตั้งค่าแบบจำลองการจัดโครงแบบผลิตภัณฑ์
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: FAQ เกี่ยวกับการคำนวณแบบจำลองการจัดโครงแบบผลิตภัณฑ์
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: กฎโครงแบบ
@@ -4072,8 +4505,9 @@
                 - name: โอนย้ายข้อมูลสำหรับรุ่นผลิตภัณฑ์
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: การจัดการและการบัญชีโครงการ
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: ภาพรวมของการจัดการและการบัญชีโครงการ
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: การออกใบแจ้งหนี้ระหว่างบริษัท
           href: ../financials/project-management/intercompany-invoicing.md
         - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้โครงการระหว่างบริษัท
@@ -4099,23 +4533,25 @@
         - name: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: โครงสร้างการแบ่งงาน
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: การรวมไคลเอนต์ Microsoft Project
+            - name: ภาพรวมของโครงสร้างการแบ่งงาน
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: การรวม Microsoft Project Client
               href: ../financials/project-management/project-integration.md
-        - name: ภาพรวมแอพลิเคชันมือถือของโครงการ
+        - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: แอปสำหรับอุปกรณ์เคลื่อนที่แผ่นเวลาโครงการ
+        - name: แอป Project Timesheet สำหรับอุปกรณ์เคลื่อนที่
           href: ../financials/project-management/project-timesheet.md
         - name: แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
           href: ../financials/project-management/mobile-timesheets.md
-        - name: ใช้งานฟิลด์ที่กำหนดเองสำหรับแผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
+        - name: ใช้งานฟิลด์ที่กำหนดเองสำหรับแอป Project Timesheet บนอุปกรณ์เคลื่อนที่
           href: ../financials/project-management/custom-fields-mobile.md
     - name: การขายและการตลาด
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: ภาพรวมของการขายและการตลาด
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: ใบสั่งขาย
           items:
             - name: สัญญาใบสั่ง
@@ -4149,8 +4585,9 @@
             - name: ยืนยันใบสั่งขาย
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: ข้อตกลงการขาย
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: ภาพรวมของข้อตกลงการขาย
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: ป้อนข้อตกลงการขาย
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: ปฏิบัติตามข้อตกลงการขาย
@@ -4184,13 +4621,15 @@
         - name: สร้างข้อตกลงทางการค้าใหม่
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: การจัดการงานบริการ
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: ภาพรวมของการจัดการงานบริการ
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: ตั้งค่าการบริการลูกค้า
           items:
             - name: ตั้งค่าข้อตกลงการให้บริการ
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: ภาพรวมของข้อตกลงการให้บริการ
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: สร้างข้อตกลงการให้บริการ
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: ช่วงการบริการ
@@ -4204,13 +4643,15 @@
                 - name: สร้างกลุ่มเท็มเพลตการบริการ
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: ตั้งค่างานบริการ
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: ภาพรวมของงานบริการ
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: การสร้างความสัมพันธ์ของงานการให้บริการ
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: ตั้งค่าวัตถุที่ให้บริการ
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: ภาพรวมของวัตถุที่ให้บริการ
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: สร้างวัตถุที่ให้บริการ
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: แนบสินค้าในสินค้าคงคลังกับวัตถุที่ให้บริการ
@@ -4230,22 +4671,24 @@
                 - name: แนบเท็มเพลตกับวัตถุที่ให้บริการ
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: กำหนดรหัสเหตุผลสำหรับใบสั่งบริการ
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: รหัสเหตุผลสำหรับใบสั่งบริการ
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: ขั้นใบสั่งบริการ
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: ตั้งค่าขั้นใบสั่งบริการ
                   href: ../supply-chain/service-management/set-up-service-order-stages.md
                 - name: สร้างรหัสเหตุผล
                   href: ../supply-chain/service-management/create-reason-codes.md
-            - name: ตั้งค่าข้อตกลงและการบอกรับเป็นสมาชิกการบริการ
-              href: ../supply-chain/service-management/service-level-agreements.md
+            - name: ตั้งค่าข้อตกลงและการสมัครใช้งานการบริการ
               items:
-                - name: ราคาขายสำหรับการบอกรับเป็นสมาชิก
+                - name: ภาพรวมของข้อตกลงระดับการให้บริการ
+                  href: ../supply-chain/service-management/service-level-agreements.md
+                - name: ราคาขายสำหรับการสมัครใช้งาน
                   href: ../supply-chain/service-management/subscription-sales-prices.md
-                - name: กลุ่มการบอกรับเป็นสมาชิก
+                - name: กลุ่มการสมัครใช้งาน
                   href: ../supply-chain/service-management/subscription-groups.md
-                - name: ตั้งค่ากลุ่มการบอกรับเป็นสมาชิก
+                - name: ตั้งค่ากลุ่มการสมัครใช้งาน
                   href: ../supply-chain/service-management/set-up-subscription-groups.md
                 - name: ใช้รหัสเหตุผลของขั้น
                   href: ../supply-chain/service-management/use-stage-reason-codes.md
@@ -4254,8 +4697,9 @@
             - name: ตั้งค่าการจัดการการซ่อมแซม
               href: ../supply-chain/service-management/repair-management.md
             - name: ตั้งค่าการส่งคืนของลูกค้า
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: ภาพรวมของการส่งคืนของลูกค้า
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: ตั้งค่ารหัสการโอนการครอบครอง
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: ตั้งค่ารหัสเหตุผลการส่งคืน
@@ -4263,17 +4707,20 @@
                 - name: ระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: ทำงานกับการบริการลูกค้า
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: ภาพรวมของการทำงานกับการบริการลูกค้า
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: เติมเต็มข้อตกลงการให้บริการ
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: ภาพรวมของการเติมเต็มข้อตกลงการให้บริการ
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: พัฒนาและจัดทำข้อตกลง
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
+                    - name: ภาพรวมของการพัฒนาและจัดทำข้อตกลงการให้บริการ
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: สร้างข้อตกลงการให้บริการ
                       href: ../supply-chain/service-management/create-service-agreements.md
-                    - name: การบอกรับเป็นสมาชิกการบริการ
+                    - name: การสมัครใช้งานการบริการ
                       href: ../supply-chain/service-management/service-subscriptions.md
                     - name: เท็มเพลตการบริการ
                       href: ../supply-chain/service-management/service-template.md
@@ -4296,8 +4743,9 @@
                     - name: อัปเดตและจัดดัชนีราคาขายของการสั่งซื้อโดยบอกรับเป็นสมาชิก
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: จัดการการสอบถามของลูกค้า
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: ภาพรวมของการเติมเต็มข้อตกลงการให้บริการ
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: เริ่มต้นและหยุดการบันทึกเวลาของใบสั่งบริการ
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: ดูเวลาเริ่มต้นและช่วงเวลาของใบสั่งบริการ
@@ -4404,11 +4852,12 @@
                       href: ../supply-chain/service-management/accrue-subscription-revenue.md
                     - name: ลบใบสั่งบริการ
                       href: ../supply-chain/service-management/delete-service-orders.md
-                    - name: ออกใบแจ้งหนี้ธุรกรรมการบอกรับเป็นสมาชิก
+                    - name: ออกใบแจ้งหนี้ธุรกรรมการสมัครใช้งาน
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: การจัดการการขนส่ง
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: ภาพรวมของการจัดการการขนส่ง
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: กลไกจัดการการจัดการการขนส่ง
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: สร้างกลไกจัดการการจัดการขนส่งใหม่
@@ -4420,8 +4869,9 @@
         - name: วางแผนกระบวนการผลิตการขนส่งค่าขนส่ง
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: วางแผนจำนวนงานโดยใช้การรวมบัญชีฮับ
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: ภาพรวมของการวางแผนจำนวนงานโดยใช้การรวมบัญชีฮับ
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: วางแผนการบรรทุกและการจัดส่งโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: รวมน้ำหนักคอนเทนเนอร์และปริมาตรของสินค้า
@@ -4451,11 +4901,13 @@
         - name: ตั้งค่าข้อจำกัดในการขนส่งสำหรับสินค้า
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: การจัดการคลังสินค้า
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: ภาพรวมของการจัดการคลังสินค้า
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: การตั้งค่าคอนฟิกคลังสินค้า
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: ตั้งค่าคลังสินค้าโดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
               href: ../supply-chain/inventory/warehouse-template.md
             - name: ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่
@@ -4485,8 +4937,9 @@
             - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: นโยบายงานของคลังสินค้า
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: ภาพรวมของนโยบายงานของคลังสินค้า
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: ตั้งค่านโยบายงานของคลังสินค้า
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า
@@ -4531,11 +4984,11 @@
               href: ../supply-chain/inventory/inventory-blocking.md
             - name: การตรวจนับตามรอบ
               href: ../supply-chain/warehousing/cycle-counting.md
-            - name: 'กำหนดการตรวจนับตามรอบ '
+            - name: กำหนดการตรวจนับตามรอบ
               href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
             - name: การตรวจนับตามรอบของสถานที่บางส่วน
               href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-            - name: 'กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง '
+            - name: กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง
               href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process.md
             - name: สมุดรายวันสินค้าคงคลัง
               href: ../supply-chain/inventory/inventory-journals.md
@@ -4546,8 +4999,9 @@
             - name: การตรวจนับป้ายสินค้าคงคลัง
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: การเติมสินค้า
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: ภาพรวมของการเติมสินค้า
+              href: ../supply-chain/warehousing/replenishment.md
             - name: การเติมสินค้าทันที
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: การเติมสินค้าที่มีคัมบังการเบิกถอน
@@ -4555,8 +5009,9 @@
             - name: ตั้งค่ากระบวนการการเติมสินค้าต่ำสุด-สูงสุด
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: ติดตั้งและตั้งค่าคอนฟิกในแอปพลิเคชัน Warehousing
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: ภาพรวมของการติดตั้งและตั้งค่าคอนฟิก
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปพลิเคชัน Warehousing
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า

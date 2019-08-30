@@ -26,9 +26,10 @@
       href: retail-support.md
     - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
       href: ../fin-and-ops/get-started/one-version.md
-- name: ทำความเข้าใจวงจรการใช้งาน
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: การใช้การจัดการรอบการใช้งาน
   items:
+    - name: โฮมเพจการใช้การจัดการรอบการใช้งาน
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: การเตรียมความพร้อม
@@ -121,7 +122,7 @@
       href: ../financials/general-ledger/indirect-taxes-overview.md
     - name: วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
       href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-    - name: ' การกำหนดและการแทนที่ภาษีขาย'
+    - name: การกำหนดและการแทนที่ภาษีขาย
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
@@ -165,15 +166,17 @@
       href: retail-hardware-station-configuration-installation.md
     - name: เวลาและการเข้างานใน Retail
       href: retail-time-attendance.md
-- name: Modern Point of Sale (MPOS) และ POS ระบบคลาวด์
+    - name: สร้างและเปลี่ยนแปลงชั่วโมงทำการของร้านค้า
+      href: dev-itpro/store-hours.md
+- name: การขายหน้าร้านแบบโมเดิร์น (MPOS) และ Cloud POS
   items:
-    - name: เลือกระหว่าง MPOS และ POS ระบบคลาวด์
+    - name: เลือกระหว่าง MPOS และ Cloud POS
       href: MPOS-or-CPOS.md
     - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
       href: pos-operations.md
     - name: การเรียกใช้อุปกรณ์ของ Retail MPOS ที่กำหนดเอง
       href: dev-itpro/retail-POS-activation-changes.md
-    - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ POS ระบบคลาวด์
+    - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ Cloud POS
       href: demo-data.md
     - name: การค้นหาผลิตภัณฑ์และลูกค้าใน POS
       href: POS-search-improvements.md
@@ -237,7 +240,7 @@
       items:
         - name: ตั้งค่าคอนฟิก ติดตั้ง และเรียกใช้ MPOS
           href: retail-modern-pos-device-activation.md
-        - name: ตั้งค่าฟังก์ชันการล็อกออนแบบขยายสำหรับ MPOS และ POS ระบบคลาวด์
+        - name: ตั้งค่าฟังก์ชันการล็อกออนแบบขยายสำหรับ MPOS และ Cloud POS
           href: extended-logon.md
         - name: จัดการบัญชีการเรียกใช้ Retail และตรวจสอบความถูกต้องของอุปกรณ์
           href: set-up-activation-accounts-validate-devices-hq.md
@@ -247,7 +250,7 @@
           href: receipt-templates-printing.md
         - name: ส่งใบเสร็จทางอีเมลจาก MPOS
           href: email-receipts.md
-    - name: ตัวบันทึกงานและวิธีใช้สำหรับ MPOS และ POS ระบบคลาวด์
+    - name: ตัวบันทึกงานและวิธีใช้สำหรับ MPOS และ Cloud POS
       href: task-recorder-retail-pos.md
 - name: การเติมสินค้าของใบสั่ง
   items:
@@ -307,7 +310,7 @@
       href: retail-coupons.md
 - name: ผลิตภัณฑ์และการจัดซื้อสินค้า
   items:
-    - name: ภาพรวมข้อมูลผลิตภัณฑ์
+    - name: ภาพรวมของข้อมูลผลิตภัณฑ์
       href: ../supply-chain/pim/product-information.md
     - name: ลำดับชั้นของ Retail
       href: retail-hierarchies.md
@@ -317,8 +320,10 @@
       href: create-manage-attributes.md
     - name: ตั้งค่าผลิตภัณฑ์ขายปลีก
       href: set-up-retail-products.md
-    - name: จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์ของ Retail
+    - name: จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์ขายปลีก
       href: category-management-product-creation.md
+    - name: เปลี่ยนลำดับการจัดเรียงสำหรับรายการที่จัดซื้อ
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: มิติของผลิตภัณฑ์
       href: ../supply-chain/pim/product-dimensions.md
     - name: ตั้งค่าบาร์โค้ด
@@ -471,11 +476,11 @@
       href: tasks/define-channel-attributes.md
     - name: กำหนดการความต่อเนื่อง
       href: tasks/define-continuity-schedules.md
-    - name: ' กำหนดโปรแกรมตอบแทนลูกค้าสมาชิก'
+    - name: กำหนดโปรแกรมตอบแทนลูกค้าสมาชิก
       href: tasks/define-loyalty-programs.md
-    - name: ' กำหนดคะแนนรางวัลสำหรับสมาชิก'
+    - name: กำหนดคะแนนรางวัลสำหรับสมาชิก
       href: tasks/define-loyalty-reward-points.md
-    - name: ' กำหนดแผนงานตอบแทนลูกค้าสมาชิก'
+    - name: กำหนดแผนงานตอบแทนลูกค้าสมาชิก
       href: tasks/define-loyalty-schemes.md
     - name: ออกแบบความสัมพันธ์ระหว่างหน่วยงานขององค์กร
       href: tasks/design-relationships-between-organizational-units.md
@@ -497,11 +502,12 @@
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
     - name: การขายโปรแกรมความต่อเนื่องและการประมวลผลใบสั่งขาย
       href: tasks/use-continuity-program.md
-    - name: ตั้งค่าคอนฟิกผู้ปฏิบัติงานการขายปลีก
+    - name: ตั้งค่าคอนฟิกผู้ปฏิบัติงานขายปลีก
       href: tasks/worker.md
-- name: การพัฒนาและการจัดการการขายปลีก
-  href: dev-itpro/dev-retail-home-page.md
+- name: การพัฒนาและการจัดการ Retail
   items:
+    - name: Retail สำหรับผู้เชี่ยวชาญด้าน IT และนักพัฒนา
+      href: dev-itpro/dev-retail-home-page.md
     - name: สถาปัตยกรรม
       items:
         - name: ส่วนประกอบของ Retail
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station และความสามารถในการเพิ่มฟังก์ชัน
       href: dev-itpro/hardware-station-extensibility.md
+    - name: รวม POS กับอุปกรณ์ฮาร์ดแวร์ใหม่
+      href: dev-itpro/hardware-device-extension.md
     - name: ความสามารถในการเพิ่มฟังก์ชันของ Retail Server
       items:
         - name: ขยายตัวควบคุม Retail Server OData
@@ -655,8 +663,9 @@
         - name: เปิดใช้งานการป้องกันการชำระเงินซ้ำสำหรับตัวเชื่อมต่อการชำระเงิน
           href: dev-itpro/duplicate-payment-protection.md
     - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: สถาปัตยกรรมของ Retail SDK
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: การเปลี่ยนแปลงที่จะมาถึงใน Retail SDK
           href: dev-itpro/UpcomingSDKChanges.md
         - name: ผสานระบบบิลด์สำหรับ Retail และ Finance and Operations
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: ตัวอย่าง Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: จุดขยายสำหรับบันทึกการจัดส่ง
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: จุดขยายสำหรับบันทึกการจัดส่ง
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: ส่วนขยายฐานข้อมูลช่องทาง
           href: dev-itpro/channel-db-extensions.md
         - name: เปิดใช้งานการซิงโครไนส์ CDX แบบกำหนดเองโดยใช้ส่วนขยาย

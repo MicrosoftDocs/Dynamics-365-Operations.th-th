@@ -8,6 +8,14 @@
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
+            - name: 22 สิงหาคม 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 สิงหาคม 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 สิงหาคม 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 กรกฎาคม 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 กรกฎาคม 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 กรกฎาคม 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 มิถุนายน 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 พฤษภาคม 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 พฤษภาคม 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 พฤษภาคม 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 พฤษภาคม 2019
-              href: whats-new-talent-may-6-2019.md
             - name: ข้อมูลเก็บถาวร 2019 มีอะไรใหม่
               items:
+                - name: 28 พฤษภาคม 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 พฤษภาคม 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 พฤษภาคม 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 พฤษภาคม 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 เมษายน 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 เมษายน 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: ตั้งค่าส่วนประกอบของงาน
               href: create-job.md
+            - name: การป้อนข้อมูลและการนำทางของพนักงานที่มีประสิทธิภาพ
+              href: streamlined-employee-entry.md
             - name: สร้างแผนกและรวมไว้ในลำดับชั้นของแผนก
               href: create-department-add-department-hierarchy.md
             - name: ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
@@ -289,7 +299,7 @@
                   href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: ตั้งค่าการแจ้งเตือน
               items:
-                - name: ภาพรวมการแจ้งเตือน
+                - name: ภาพรวมของการแจ้งเตือน
                   href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: สร้างกฎการแจ้งเตือน
                   href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
