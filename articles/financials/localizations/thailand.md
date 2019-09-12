@@ -1,9 +1,9 @@
 ---
-title: ไทย
+title: ภาพรวมของประเทศไทย
 description: หัวข้อนี้แสดงลิงก์ไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 for Finance and Operations สำหรับประเทศไทย
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/03/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d02506e2c5f44fa0dc88931d487463bd1bf9bf48
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: c73f503a87fec87e3eee4791306700881c74e915
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852512"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865642"
 ---
-# <a name="thailand"></a>ไทย 
+# <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
 [!include [banner](../includes/banner.md)]
 

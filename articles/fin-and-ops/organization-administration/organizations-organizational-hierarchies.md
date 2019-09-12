@@ -1,9 +1,9 @@
 ---
-title: องค์กรและลำดับชั้นขององค์กร
+title: ภาพรวมขององค์กรและลำดับชั้นขององค์กร
 description: องค์กร คือ กลุ่มของบุคคลที่ทำงานร่วมกันเพื่อดำเนินกระบวนการทางธุรกิจหรือบรรลุเป้าหมาย  ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ
 author: sericks007
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e35abeef2ef79dd994fac7d0ee0578591427b595
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545844"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864779"
 ---
-# <a name="organizations-and-organizational-hierarchies"></a>องค์กรและลำดับชั้นขององค์กร
+# <a name="organizations-and-organizational-hierarchies-overview"></a>ภาพรวมขององค์กรและลำดับชั้นขององค์กร
 
 [!include [banner](../includes/banner.md)]
 

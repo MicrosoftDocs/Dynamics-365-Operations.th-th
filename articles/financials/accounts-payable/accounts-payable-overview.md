@@ -1,9 +1,9 @@
 ---
-title: ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
+title: ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 description: บทความนี้อธิบายหน้าที่คุณใช้ในการตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันตัวเลือกสำหรับบัญชีเจ้าหนี้ใน Microsoft Dynamics 365 for Finance and Operations นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 author: abruer
 manager: AnnBe
-ms.date: 08/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8642b27f222ed080539e63b0608a52aefbe64e8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ce2caf8df871ee8f577b3a1af9d71244a1dc4694
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837481"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865001"
 ---
-# <a name="configure-accounts-payable"></a>ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
+# <a name="configure-accounts-payable-overview"></a>ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
 [!include [banner](../includes/banner.md)]
 

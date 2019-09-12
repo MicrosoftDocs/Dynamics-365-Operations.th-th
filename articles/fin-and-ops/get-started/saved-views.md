@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863071"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870844"
 ---
 # <a name="saved-views"></a>มุมมองที่บันทึก
 
@@ -153,11 +153,13 @@ ms.locfileid: "1863071"
 
 1.  **เปิดใช้งานเที่ยวบิน**: ดำเนินการคำสั่ง SQL ต่อไปนี้: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **ค้นหาคุณลักษณะ**: นำทางไปยังพื้นที่ทำงาน **การจัดการคุณลักษณะ** ถ้า **มุมมองที่บันทึกไว้** ไม่ปรากฏในรายการ ให้เลือกปุ่ม **ตรวจสอบการปรับปรุง**   
+2. **รีเซ็ต IIS** เพื่อล้างแคชการสลับแบบคงที่ 
 
-3.  **เปิดใช้งานคุณลักษณะ**: ค้นหาคุณลักษณะ **มุมมองที่บันทึกไว้** ในรายการของคุณลักษณะ และคลิกปุ่ม **เปิดใช้งานเดี๋ยวนี้** บนบานหน้าต่างรายละเอียด
+3.  **ค้นหาคุณลักษณะ**: ไปยังพื้นที่ทำงาน **การจัดการคุณลักษณะ** ถ้า **มุมมองที่บันทึกไว้** ไม่ปรากฏในรายการ ให้เลือก **ตรวจสอบการปรับปรุง**   
+
+4.  **เปิดใช้งานคุณลักษณะ**: ค้นหาคุณลักษณะ **มุมมองที่บันทึกไว้** ในรายการของคุณลักษณะ และเลือก **เปิดใช้งานเดี๋ยวนี้** บนบานหน้าต่างรายละเอียด
 
 เซสชันผู้ใช้ที่ตามมาทั้งหมดจะเริ่มต้นด้วยมุมมองที่บันทึกไว้ที่เปิดใช้งาน  
 

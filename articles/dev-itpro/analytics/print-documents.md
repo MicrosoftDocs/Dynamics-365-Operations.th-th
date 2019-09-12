@@ -1,9 +1,9 @@
 ---
-title: การพิมพ์เอกสาร
+title: ภาพรวมของการพิมพ์เอกสาร
 description: ใน Microsoft Dynamics 365 for Finance and Operations คุณสามารถพิมพ์เอกสารได้โดยใช้เครื่องพิมพ์ภายใน หรืออุปกรณ์ที่เชื่อมต่อเครือข่าย อย่างใดอย่างหนึ่ง บทความนี้แสดงภาพรวมของวิธีการพิมพ์เอกสาร
 author: TJVass
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc45865b55b4794202408ca19a0776440382fdd
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 779931a779cdb8fcbc8e85c3d6c2a4e123d8ec47
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850082"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864675"
 ---
-# <a name="document-printing"></a>การพิมพ์เอกสาร
+# <a name="document-printing-overview"></a>ภาพรวมของการพิมพ์เอกสาร
 
 [!include [banner](../includes/banner.md)]
 
