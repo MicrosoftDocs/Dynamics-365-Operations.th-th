@@ -19,50 +19,55 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b74bc2d3133af7e87663a4e6bafb8780e0a6a66f
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 1473c3bad55734d5f83ee3e4c1654921b872f3bb
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797309"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873139"
 ---
-# <a name="execution-order-for-initial-sychronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="9c474-103">ลำดับการดำเนินการสำหรับการซิงโครไนส์เริ่มต้นของ Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="9c474-103">Execution order for initial sychronization of Finance and Operations and Common Data Service</span></span>
+# <a name="execution-order-for-initial-synchronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="abe8c-103">ลำดับการดำเนินการสำหรับการซิงโครไนส์เริ่มต้นของ Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="abe8c-103">Execution order for initial synchronization of Finance and Operations and Common Data Service</span></span>
 
-<span data-ttu-id="9c474-104">ก่อนที่คุณจะใช้การรวมข้อมูล คุณต้องสร้างข้อมูลเริ่มต้นที่จำเป็นสำหรับลูกค้า ผู้จัดจำหน่าย และผู้ติดต่อ</span><span class="sxs-lookup"><span data-stu-id="9c474-104">Before you use data integration, you must create the initial data required for customers, vendors and contacts.</span></span> <span data-ttu-id="9c474-105">ตัวอย่างเช่น ถ้าคุณต้องการสร้างรายการของ **กลุ่มผู้จัดจำหน่าย** ใหม่ และตั้งค่า **เงื่อนไขของการชำระเงิน** เป็น **Net30** จากนั้น ก่อนที่คุณจะพยายามสร้างรายการ **กลุ่มผู้จัดจำหน่าย** คุณต้องตรวจสอบให้แน่ใจว่า **Net30** พร้อมใช้งานในทั้ง Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="9c474-105">For example, if you want to create a new **Vendor group** item and set its **Terms of Payment** as **Net30**, then before you attempt to create the **Vendor group** item you need to make sure that **Net30** exists in both Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="9c474-106">(ในอนาคต เราจะนำออกใช้ฟังก์ชันแพลตฟอร์มการเขียนแบบคู่ที่เรียกว่า **การซิงค์ครั้งแรก** จะทำให้การซิงโครไนส์ข้อมูลแบบครั้งเดียวระหว่าง Finance and Operations และ Common Data Service เป็นส่วนหนึ่งของการตั้งค่าการเขียนแบบคู่)</span><span class="sxs-lookup"><span data-stu-id="9c474-106">(In the future, we will release a  dual-write platform functionality called **Initial Sync**. It will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9c474-107">เคล็ดลับ: เรากำลังนำออกใช้แผนผังการเขียนแบบคู่สำหรับข้อมูลอ้างอิงทั้งหมด ซึ่งรวมถึง **เงื่อนไขของการชำระเงิน** (เงื่อนไขการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="9c474-107">Tips: We are releasing a dual-write map for all reference data including **Terms of Payment** (Payment Terms).</span></span> <span data-ttu-id="9c474-108">ถ้าคุณมีข้อมูลเริ่มต้นในระบบหนึ่งแล้ว การดำเนินการปรับปรุงขนาดเล็กบนเรกคอร์ดสามารถทริกเกอร์การเขียนแบบคู่บนเรกคอร์ดนั้นได้</span><span class="sxs-lookup"><span data-stu-id="9c474-108">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span> 
+[!include [preview](../includes/preview-banner.md)]
 
-<span data-ttu-id="9c474-109">คุณต้องทำตามลำดับความสำคัญต่อไปนี้และตรวจสอบให้แน่ใจว่าข้อมูลเริ่มต้นพร้อมใช้งานในทั้ง Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="9c474-109">You must follow the following order of precedence and make sure that the initial data is available on both Finance and Operations and Common Data Service.</span></span>   
+<span data-ttu-id="abe8c-104">ก่อนที่คุณจะใช้การรวมข้อมูล คุณต้องสร้างข้อมูลเริ่มต้นที่จำเป็นสำหรับลูกค้า ผู้จัดจำหน่าย และผู้ติดต่อ</span><span class="sxs-lookup"><span data-stu-id="abe8c-104">Before you use data integration, you must create the initial data that is required for customers, vendors, and contacts.</span></span> <span data-ttu-id="abe8c-105">ตัวอย่างเช่น คุณต้องการสร้างสินค้าใน **กลุ่มผู้จัดจำหน่าย** ใหม่ และตั้งค่า **เงื่อนไขของการชำระเงิน** เป็น **Net30**</span><span class="sxs-lookup"><span data-stu-id="abe8c-105">For example, you want to create a new **Vendor group** item and set its **Terms of Payment** value to **Net30**.</span></span> <span data-ttu-id="abe8c-106">ในกรณีนี้ ก่อนที่คุณจะพยายามสร้างสินค้า **กลุ่มผู้จัดจำหน่าย** คุณต้องตรวจสอบให้แน่ใจว่า **Net30** มีอยู่ในทั้ง Microsoft Dynamics 365 for Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="abe8c-106">In this case, before you try to create the **Vendor group** item, you must make sure that **Net30** exists in both Microsoft Dynamics 365 for Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="abe8c-107">(ในอนาคต Microsoft จะนำออกใช้ฟังก์ชันแพลตฟอร์มการเขียนแบบคู่ที่เรียกว่า การซิงค์ครั้งแรก ฟังก์ชันนี้จะทำให้การซิงโครไนส์ข้อมูลแบบครั้งเดียวระหว่าง Finance and Operations และ Common Data Service เป็นส่วนหนึ่งของการตั้งค่าการเขียนแบบคู่)</span><span class="sxs-lookup"><span data-stu-id="abe8c-107">(In the future, Microsoft will release dual-write platform functionality that is named Initial Sync. This functionality will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
 
-## <a name="vendor"></a><span data-ttu-id="9c474-110">ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="9c474-110">Vendor</span></span>
+> [!TIP]
+> <span data-ttu-id="abe8c-108">Microsoft กำลังนำออกใช้แผนผังการเขียนแบบคู่สำหรับข้อมูลอ้างอิงทั้งหมด ซึ่งรวมถึง **เงื่อนไขของการชำระเงิน** (เงื่อนไขการชำระเงิน)</span><span class="sxs-lookup"><span data-stu-id="abe8c-108">Microsoft is releasing a dual-write map for all reference data, including **Terms of Payment** (payment terms).</span></span> <span data-ttu-id="abe8c-109">ถ้าคุณมีข้อมูลเริ่มต้นในระบบหนึ่งแล้ว การดำเนินการปรับปรุงขนาดเล็กบนเรกคอร์ดสามารถทริกเกอร์การเขียนแบบคู่บนเรกคอร์ดนั้นได้</span><span class="sxs-lookup"><span data-stu-id="abe8c-109">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span>
 
-<span data-ttu-id="9c474-111">ลำดับของการดำเนินการสำหรับผู้จัดจำหน่ายคือ:</span><span class="sxs-lookup"><span data-stu-id="9c474-111">The order of execution for Vendor is:</span></span>
+<span data-ttu-id="abe8c-110">คุณต้องทำตามลำดับของความสำคัญต่อไปนี้ และตรวจสอบให้แน่ใจว่าข้อมูลเริ่มต้นพร้อมใช้งานในทั้ง Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="abe8c-110">You must follow the following order of precedence and make sure that the initial data is available in both Finance and Operations and Common Data Service.</span></span>
 
-```
-Vendor Group
-    Terms of payment
-        Payment day & lines
-        Payment schedule
-Vendor payment method
-```
+## <a name="vendor"></a><span data-ttu-id="abe8c-111">ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="abe8c-111">Vendor</span></span>
 
-## <a name="customer-organization"></a><span data-ttu-id="9c474-112">ลูกค้า (องค์กร)</span><span class="sxs-lookup"><span data-stu-id="9c474-112">Customer (Organization)</span></span>
+<span data-ttu-id="abe8c-112">นี่คือลำดับของการดำเนินการสำหรับเอนทิตี้ **ผู้จัดจำหน่าย** :</span><span class="sxs-lookup"><span data-stu-id="abe8c-112">Here is the order of execution for the **Vendor** entity:</span></span>
 
-<span data-ttu-id="9c474-113">ลำดับของการดำเนินการสำหรับลูกค้าคือ:</span><span class="sxs-lookup"><span data-stu-id="9c474-113">The order of execution for Customer is:</span></span>
+1. <span data-ttu-id="abe8c-113">กลุ่มผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="abe8c-113">Vendor group</span></span>
 
-```
-Customer Group
-    Terms of payment
-        Payment day & lines
-        Payment 
-Customer payment method
-```
+    1. <span data-ttu-id="abe8c-114">เงื่อนไขการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="abe8c-114">Terms of payment</span></span>
 
-## <a name="contact-person"></a><span data-ttu-id="9c474-114">ผู้ติดต่อ (บุคคล)</span><span class="sxs-lookup"><span data-stu-id="9c474-114">Contact (Person)</span></span>
+        1. <span data-ttu-id="abe8c-115">วันที่ชำระเงินและรายการ</span><span class="sxs-lookup"><span data-stu-id="abe8c-115">Payment day and lines</span></span>
+        2. <span data-ttu-id="abe8c-116">กำหนดการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="abe8c-116">Payment schedule</span></span>
 
-<span data-ttu-id="9c474-115">ลำดับของการดำเนินการสำหรับผู้ติดต่อคือ:</span><span class="sxs-lookup"><span data-stu-id="9c474-115">The order of execution for Contact is:</span></span>
+2. <span data-ttu-id="abe8c-117">วิธีการชำระเงินของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="abe8c-117">Vendor payment method</span></span>
 
-```
-Customer
-Vendor               
-```
+## <a name="customer-organization"></a><span data-ttu-id="abe8c-118">ลูกค้า (องค์กร)</span><span class="sxs-lookup"><span data-stu-id="abe8c-118">Customer (Organization)</span></span>
+
+<span data-ttu-id="abe8c-119">นี่คือลำดับของการดำเนินการสำหรับเอนทิตี **ลูกค้า** :</span><span class="sxs-lookup"><span data-stu-id="abe8c-119">Here is the order of execution for the **Customer** entity:</span></span>
+
+1. <span data-ttu-id="abe8c-120">กลุ่มลูกค้า</span><span class="sxs-lookup"><span data-stu-id="abe8c-120">Customer group</span></span>
+
+    1. <span data-ttu-id="abe8c-121">เงื่อนไขการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="abe8c-121">Terms of payment</span></span>
+
+        1. <span data-ttu-id="abe8c-122">วันที่ชำระเงินและรายการ</span><span class="sxs-lookup"><span data-stu-id="abe8c-122">Payment day and lines</span></span>
+        2. <span data-ttu-id="abe8c-123">การชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="abe8c-123">Payment</span></span> 
+
+2. <span data-ttu-id="abe8c-124">วิธีการชำระเงินของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="abe8c-124">Customer payment method</span></span>
+
+## <a name="contact-person"></a><span data-ttu-id="abe8c-125">ผู้ติดต่อ (บุคคล)</span><span class="sxs-lookup"><span data-stu-id="abe8c-125">Contact (Person)</span></span>
+
+<span data-ttu-id="abe8c-126">นี่คือลำดับของการดำเนินการสำหรับเอนทิตี **ผู้ติดต่อ** :</span><span class="sxs-lookup"><span data-stu-id="abe8c-126">Here is the order of execution for the **Contact** entity:</span></span>
+
+1. <span data-ttu-id="abe8c-127">ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="abe8c-127">Customer</span></span>
+2. <span data-ttu-id="abe8c-128">ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="abe8c-128">Vendor</span></span>

@@ -1,0 +1,60 @@
+---
+title: จัดส่งใบสั่งงาน
+description: หัวข้อนี้อธิบายวิธีการจัดส่งใบสั่งงานในการจัดการสินทรัพย์
+author: josaw1
+manager: AnnBe
+ms.date: 08/19/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 3b1621cf0f1e47d7bd5fe2fa0b41fbcd61f14def
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887216"
+---
+# <a name="dispatch-work-order"></a><span data-ttu-id="50785-103">จัดส่งใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="50785-103">Dispatch work order</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="50785-104">คุณสามารถจัดกำหนดการใบสั่งงาน หรืองานใบสั่งงานให้กับผู้ปฏิบัติงานหนึ่งคนใช้ฟังก์ชัน **จัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="50785-104">You can schedule one work order or work order jobs to one worker using the **Dispatch** functionality.</span></span>
+
+1. <span data-ttu-id="50785-105">คลิก **การจัดการสินทรัพย์** > **ทั่วไป** > **ใบสั่งงาน** > **ใบสั่งงานทั้งหมด** หรือ **ใบสั่งงานที่ใช้งานอยู่**</span><span class="sxs-lookup"><span data-stu-id="50785-105">Click **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
+
+2. <span data-ttu-id="50785-106">เลือกใบสั่งงานในรายการ</span><span class="sxs-lookup"><span data-stu-id="50785-106">Select the work order in the list.</span></span>
+
+3. <span data-ttu-id="50785-107">ในแท็บ **ทั่วไป** คลิก **จัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="50785-107">On the **General** tab, click **Dispatch**.</span></span>
+
+4. <span data-ttu-id="50785-108">N กล่องโต้ตอบ **จัดกำหนดการใบสั่งงาน** เลือกผู้ปฏิบัติงานในฟิลด์ **ผู้ปฏิบัติงาน**</span><span class="sxs-lookup"><span data-stu-id="50785-108">n the **Schedule work order** dialog, select the worker in the **Worker** field.</span></span>
+
+5. <span data-ttu-id="50785-109">ในฟิลด์ **กำหนดการชั่วโมง** คุณสามารถแทรกชั่วโมงทำงานที่คาดไว้ในกรณีเวลาทำงานที่คาดไว้ซึ่งแตกต่างจากชั่วโมงการคาดการณ์</span><span class="sxs-lookup"><span data-stu-id="50785-109">In the **Schedule hours** field, you can insert expected work hours in case expected work hours differ from forecast hours.</span></span>
+
+6. <span data-ttu-id="50785-110">ในฟิลด์ **เริ่มต้นตามกำหนดการ** คุณสามารถแก้ไขวันที่ และเวลาเริ่มต้นได้ ถ้าจำเป็น</span><span class="sxs-lookup"><span data-stu-id="50785-110">In the **Scheduled start** field, you can edit start date and time, if required.</span></span>
+
+7. <span data-ttu-id="50785-111">หากกระบวนการจัดกำหนดการควรคำนึงถึงข้อจำกัดของกำลังการผลิตที่เกี่ยวข้องกับทรัพยากรที่จัดกำหนดการไว้ในงานอื่นๆ โปรดทำให้แน่ใจว่าปุ่มสลับ **สินทรัพย์** **เครื่องมือ** และ **ผู้ปฏิบัติงาน** ได้ตั้งค่าเป็น "ใช่" แล้ว</span><span class="sxs-lookup"><span data-stu-id="50785-111">If the scheduling process should observe capacity limitations regarding resources already scheduled on other jobs, make sure that the **Asset**, **Tool**, and **Worker** toggle buttons are set to "Yes".</span></span> <span data-ttu-id="50785-112">ถ้าต้องการดูรายละเอียดเกี่ยวกับกระบวนการจัดกำหนดการให้เลือก "ใช่" บนปุ่มสลับ **Verbose**</span><span class="sxs-lookup"><span data-stu-id="50785-112">If you want to see detailed information about the scheduling process, select "Yes" on the **Verbose** toggle button.</span></span> <span data-ttu-id="50785-113">ซึ่งหมายความว่าข้อมูลรายละเอียดเกี่ยวกับคะแนนที่คำนวณได้ในใบสั่งงานจะแสดงอยู่ใน Infolog</span><span class="sxs-lookup"><span data-stu-id="50785-113">This means detailed information about the calculated scores on the work order is shown in the Infolog.</span></span>
+
+8. <span data-ttu-id="50785-114">เลือก "ใช่" บนปุ่มสลับ **ละเว้นกำหนดการ** เพื่อละเว้นวันที่ปิดในปฏิทิน (ใช้กับสินทรัพย์ ผู้ปฏิบัติงาน และเครื่องมือ)</span><span class="sxs-lookup"><span data-stu-id="50785-114">Select "Yes" on the **Ignore schedule** toggle button to ignore closed days in the calendar (applies to asset, worker, and tools).</span></span> <span data-ttu-id="50785-115">เลือก "ใช่" บนปุ่มสลับ **ละเว้นการดำเนินการที่จัดกำหนดการไว้** เพื่อละเว้นข้อจำกัดที่อาจเลือกบนใบสั่งงานที่เกี่ยวข้องกับการจัดตารางการผลิต</span><span class="sxs-lookup"><span data-stu-id="50785-115">Select "Yes" on the **Ignore scheduled execution** toggle button to ignore limitations that may have been selected on the work order regarding scheduling.</span></span> <span data-ttu-id="50785-116">อ้างอิงถึงส่วน [การดำเนินการที่จัดกำหนดการไว้](../setup-for-work-orders/scheduled-execution.md) สำหรับข้อมูลเกี่ยวกับการตั้งค่าการดำเนินการที่จัดกำหนดการไว้</span><span class="sxs-lookup"><span data-stu-id="50785-116">Refer to the [Scheduled execution](../setup-for-work-orders/scheduled-execution.md) section for information on the setup of scheduled execution.</span></span>
+
+9. <span data-ttu-id="50785-117">คลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="50785-117">Click **OK**.</span></span> <span data-ttu-id="50785-118">สถานะวงจรการใช้ใบสั่งงานจะได้รับการอัพเดตโดยอัตโนมัติต่อ "จัดกำหนดการ" สถานะของวงจรการใช้เเบบเจาะจง **การจัดการสินทรัพย์** > **การตั้งค่า** > **ใบสั่งงาน** > **แบบจำลองวงจรการใช้งาน**</span><span class="sxs-lookup"><span data-stu-id="50785-118">The work order lifecycle state is automatically updated to the "Scheduled" lifecycle state specified **Asset management** > **Setup** > **Work orders** > **Lifecycle models**.</span></span>
+
+<span data-ttu-id="50785-119">รูปด้านล่างเเสดงตัวอย่างของการเลือกการจัดส่งในกล่องโต้ตอบ **จัดกำหนดการใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="50785-119">The figure below shows an example of dispatch selections in the **Schedule work order** dialog.</span></span>
+
+![รูปที่ 1](media/04-work-order-scheduling.png)
+
+>[!NOTE]
+><span data-ttu-id="50785-121">ถ้าคุณต้องการลบกำหนดการในใบสั่งงาน ซึ่งทำได้โดยการเลือกใบสั่งงานใน **ใบสั่งงานทั้งหมด** เเล้วคลิก **ลบกำหนดการ** บนเเท็บ **ทั่วไป** อย่าลืมอัพเดตใบสั่งงานสถานะของวงจรการใช้ด้วยตนเอง ถ้าคุณลบกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="50785-121">If you want to delete the schedule on a work order, this is done by selecting the work order in **All work orders** and clicking **Delete schedule** on the **General** tab. Remember to manually update the work order lifecycle state if you delete the schedule.</span></span>
+

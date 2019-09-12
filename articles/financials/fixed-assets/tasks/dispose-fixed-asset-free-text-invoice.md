@@ -1,9 +1,9 @@
 ---
 title: ตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ
-description: กระบวนงานนี้แสดงวิธีการรับสินทรัพย์ถาวรโดยใช้ข้อเสนอการซื้อสินทรัพย์ในสมุดรายวันสินทรัพย์ถาวร
+description: หัวข้อนี้อธิบายวิธีการได้รับสินทรัพย์ถาวรโดยใช้ข้อเสนอการซื้อสินทรัพย์ในสมุดรายวันสินทรัพย์ถาวร
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26446df21a3b55abcdd5f163ae84f8e35d853965
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 179a6e45d57baf810068cb5c14aed670ebb94706
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847002"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914664"
 ---
-# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="cfd41-103">ตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="cfd41-103">Dispose of a fixed asset using a free text invoice</span></span>
+# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="398bb-103">ตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="398bb-103">Dispose of a fixed asset using a free text invoice</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cfd41-104">กระบวนงานนี้แสดงวิธีการตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="cfd41-104">This procedure shows how to dispose of a fixed asset using the free text invoice.</span></span>
+<span data-ttu-id="398bb-104">หัวข้อนี้อธิบายวิธีการตัดจำหน่ายสินทรัพย์ถาวรโดยใช้ใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="398bb-104">This topic explains how to dispose of a fixed asset using the free text invoice.</span></span>
 
-1. <span data-ttu-id="cfd41-105">ไปที่บัญชีลูกหนี้ > ใบแจ้งหนี้ > ใบแจ้งหนี้ข้อความอิสระทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="cfd41-105">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
-2. <span data-ttu-id="cfd41-106">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cfd41-106">Click New.</span></span>
-3. <span data-ttu-id="cfd41-107">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="cfd41-107">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="cfd41-108">ตรวจสอบวันที่ในใบแจ้งหนี้เริ่มต้น และแก้ไข ถ้าเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="cfd41-108">Validate the default Invoice date and edit if applicable.</span></span>
-5. <span data-ttu-id="cfd41-109">ตรวจสอบฟิลด์ส่วนหัวค่าเริ่มต้นที่เหลือ เช่น สกุลเงิน และแก้ไข ถ้าเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="cfd41-109">Validate remaining default header fields, such as Currency and edit if applicable.</span></span>
-6. <span data-ttu-id="cfd41-110">ป้อนคำอธิบายลงในรายการใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="cfd41-110">Enter a Description into the invoice line.</span></span>
-7. <span data-ttu-id="cfd41-111">ป้อนหรือเลือกบัญชีหลักสำหรับรายการใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="cfd41-111">Enter or select the Main account for the invoice line.</span></span>
-8. <span data-ttu-id="cfd41-112">ตรวจสอบกลุ่มภาษีขายและกลุ่มภาษีขายตามประเภทสินค้าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="cfd41-112">Validate the default Sales tax group and Item sales tax group.</span></span>
-9. <span data-ttu-id="cfd41-113">ป้อนราคาต่อหน่วย หรือยอดของการขายของสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="cfd41-113">Enter the Unit price or hte Amount of the sale of the fixed asset.</span></span>
-10. <span data-ttu-id="cfd41-114">คลิกรายละเอียดรายการ</span><span class="sxs-lookup"><span data-stu-id="cfd41-114">Click Line details.</span></span>  
-11. <span data-ttu-id="cfd41-115">เลือกหมายเลขสินทรัพย์ถาวรที่จะขาย</span><span class="sxs-lookup"><span data-stu-id="cfd41-115">Select the Fixed asset number to be sold.</span></span>
-12. <span data-ttu-id="cfd41-116">คลิก ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="cfd41-116">Click Post.</span></span>
+1. <span data-ttu-id="398bb-105">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > บัญชีลูกหนี้ > ใบแจ้งหนี้ > ใบแจ้งหนี้ข้อความอิสระทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="398bb-105">In the navigation pane, go to **Modules > Accounts receivable > Invoices > All free text invoices**.</span></span>
+2. <span data-ttu-id="398bb-106">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="398bb-106">Select **New**.</span></span>
+3. <span data-ttu-id="398bb-107">ในฟิลด์ **บัญชีลูกค้า** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="398bb-107">In the **Customer account** field, enter or select a value.</span></span>
+4. <span data-ttu-id="398bb-108">ตรวจสอบวันที่ใน **ใบแจ้งหนี้** เริ่มต้น และแก้ไข ถ้าเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="398bb-108">Validate the default **Invoice** date and edit if applicable.</span></span>
+5. <span data-ttu-id="398bb-109">ตรวจสอบฟิลด์ส่วนหัวค่าเริ่มต้นที่เหลือ เช่น **สกุลเงิน** และแก้ไข ถ้าเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="398bb-109">Validate remaining default header fields, such as **Currency** and edit if applicable.</span></span>
+6. <span data-ttu-id="398bb-110">ในส่วน **รายการใบแจ้งหนี้** ตรวจสอบฟิลด์ **คำอธิบาย** และ **บัญชีหลัก**</span><span class="sxs-lookup"><span data-stu-id="398bb-110">In the **Invoice lines** section, validate the **Description** and **Main account** fields.</span></span>
+7. <span data-ttu-id="398bb-111">ตรวจสอบ **กลุ่มภาษีขาย** และ **กลุ่มภาษีขายตามประเภทสินค้า** เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="398bb-111">Validate the default **Sales tax group** and **Item sales tax group** fields.</span></span>
+8. <span data-ttu-id="398bb-112">ป้อน **ราคาต่อหน่วย** หรือ **ยอด** ของการขายของสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="398bb-112">Enter the **Unit price** or the **Amount** of the sale of the fixed asset.</span></span>
+9. <span data-ttu-id="398bb-113">เลือกส่วน **รายละเอียดรายการ**</span><span class="sxs-lookup"><span data-stu-id="398bb-113">Select the **Line details** section.</span></span>  
+10. <span data-ttu-id="398bb-114">ป้อนหรือเลือกค่าในฟิลด์ **สินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="398bb-114">Enter or select a value in the **Fixed asset** field.</span></span>
+11. <span data-ttu-id="398bb-115">เลือก **ลงรายการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="398bb-115">Select **Post**.</span></span> 
 

@@ -1,9 +1,9 @@
 ---
-title: ทำงานกับการบริการลูกค้า
+title: ภาพรวมของการทำงานกับการบริการลูกค้า
 description: การบริการลูกค้าช่วยสนับสนุนบริษัทที่ให้บริการแบบมืออาชีพ และองค์กรที่ให้บริการด้านการผลิต
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f51b749cc9527cb3e86352b0373babd6c524dbe7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a73852bf6163a887c7bab954a61581fd8e0a8ded
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550479"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865811"
 ---
-# <a name="work-with-customer-service"></a><span data-ttu-id="ca463-103">ทำงานกับการบริการลูกค้า</span><span class="sxs-lookup"><span data-stu-id="ca463-103">Work with customer service</span></span> 
+# <a name="work-with-customer-service-overview"></a><span data-ttu-id="3aeaa-103">ภาพรวมของการทำงานกับการบริการลูกค้า</span><span class="sxs-lookup"><span data-stu-id="3aeaa-103">Work with customer service overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ca463-104">การบริการลูกค้าช่วยสนับสนุนบริษัทที่ให้บริการแบบมืออาชีพ และองค์กรที่ให้บริการด้านการผลิต</span><span class="sxs-lookup"><span data-stu-id="ca463-104">Customer service supports professional, service-based companies and manufacturing service organizations.</span></span>
+<span data-ttu-id="3aeaa-104">การบริการลูกค้าช่วยสนับสนุนบริษัทที่ให้บริการแบบมืออาชีพ และองค์กรที่ให้บริการด้านการผลิต</span><span class="sxs-lookup"><span data-stu-id="3aeaa-104">Customer service supports professional, service-based companies and manufacturing service organizations.</span></span>
 
-<span data-ttu-id="ca463-105">การบริการลูกค้ามีฟังก์ชันต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="ca463-105">Customer service includes the following functionality:</span></span>
+<span data-ttu-id="3aeaa-105">การบริการลูกค้ามีฟังก์ชันต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="3aeaa-105">Customer service includes the following functionality:</span></span>
 
-  - <span data-ttu-id="ca463-106">กระบวนการที่สำคัญสำหรับการจัดการงานบริการ เช่น ข้อตกลงการให้บริการ ใบสั่งบริการ และการจัดการการส่งคืน</span><span class="sxs-lookup"><span data-stu-id="ca463-106">Key processes for service management, such as service agreements, service orders, and return management</span></span>
+  - <span data-ttu-id="3aeaa-106">กระบวนการที่สำคัญสำหรับการจัดการงานบริการ เช่น ข้อตกลงการให้บริการ ใบสั่งบริการ และการจัดการการส่งคืน</span><span class="sxs-lookup"><span data-stu-id="3aeaa-106">Key processes for service management, such as service agreements, service orders, and return management</span></span>
 
-  - <span data-ttu-id="ca463-107">การตั้งค่าขั้นสูงสำหรับการจัดการการซ่อมแซม ที่มีการติดตามการซ่อมแซมและการกำหนดเวอร์ชันสำหรับสูตรการผลิต (BOMs)</span><span class="sxs-lookup"><span data-stu-id="ca463-107">An advanced setup for repair management that includes tracking of repairs and versioning for bills of materials (BOMs)</span></span>
+  - <span data-ttu-id="3aeaa-107">การตั้งค่าขั้นสูงสำหรับการจัดการการซ่อมแซม ที่มีการติดตามการซ่อมแซมและการกำหนดเวอร์ชันสำหรับสูตรการผลิต (BOMs)</span><span class="sxs-lookup"><span data-stu-id="3aeaa-107">An advanced setup for repair management that includes tracking of repairs and versioning for bills of materials (BOMs)</span></span>
 
-  - <span data-ttu-id="ca463-108">การสนับสนุนสำหรับบทบาทพนักงาน เช่น ผู้จัดการฝ่ายบริการ ผู้จัดส่ง และช่างเทคนิคการบริการ หรือที่ปรึกษาการบริการ</span><span class="sxs-lookup"><span data-stu-id="ca463-108">Support for employee roles, such as service manager, dispatcher, and service technician or service consultant</span></span>
+  - <span data-ttu-id="3aeaa-108">การสนับสนุนสำหรับบทบาทพนักงาน เช่น ผู้จัดการฝ่ายบริการ ผู้จัดส่ง และช่างเทคนิคการบริการ หรือที่ปรึกษาการบริการ</span><span class="sxs-lookup"><span data-stu-id="3aeaa-108">Support for employee roles, such as service manager, dispatcher, and service technician or service consultant</span></span>
 
-  - <span data-ttu-id="ca463-109">การบอกรับเป็นสมาชิกการบริการ ซึ่งสามารถสร้างสตรีมรายได้ประจำงวดได้โดยไม่ขึ้นอยู่กับความถี่ในการบริการ</span><span class="sxs-lookup"><span data-stu-id="ca463-109">Service subscriptions, which can generate periodic streams of revenue that are independent of the frequency of service</span></span>
+  - <span data-ttu-id="3aeaa-109">การบอกรับเป็นสมาชิกการบริการ ซึ่งสามารถสร้างสตรีมรายได้ประจำงวดได้โดยไม่ขึ้นอยู่กับความถี่ในการบริการ</span><span class="sxs-lookup"><span data-stu-id="3aeaa-109">Service subscriptions, which can generate periodic streams of revenue that are independent of the frequency of service</span></span>
 
-  - <span data-ttu-id="ca463-110">ข้อตกลงระดับการบริการ ซึ่งจะสนับสนุนฐานลูกค้าที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="ca463-110">Service-level agreements that support a differentiated customer base</span></span>
+  - <span data-ttu-id="3aeaa-110">ข้อตกลงระดับการบริการ ซึ่งจะสนับสนุนฐานลูกค้าที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="3aeaa-110">Service-level agreements that support a differentiated customer base</span></span>
 
-<span data-ttu-id="ca463-111">หัวข้อในส่วนนี้แสดงภาพรวมของกระบวนการทางธุรกิจบริการลูกค้าและคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="ca463-111">The topics in this section provide an overview of the Customer service business process and each business process component.</span></span> <span data-ttu-id="ca463-112">นอกจากนี้ ยังแสดงรายการแบบฟอร์มต่างๆ ที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ และอธิบายภารกิจที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="ca463-112">They also list the forms that are associated with each business process component, and they discuss the tasks that are associated with each business process component.</span></span>
+<span data-ttu-id="3aeaa-111">หัวข้อในส่วนนี้แสดงภาพรวมของกระบวนการทางธุรกิจบริการลูกค้าและคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="3aeaa-111">The topics in this section provide an overview of the Customer service business process and each business process component.</span></span> <span data-ttu-id="3aeaa-112">นอกจากนี้ ยังแสดงรายการแบบฟอร์มต่างๆ ที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ และอธิบายภารกิจที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="3aeaa-112">They also list the forms that are associated with each business process component, and they discuss the tasks that are associated with each business process component.</span></span>
 
 
 
