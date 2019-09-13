@@ -1,9 +1,9 @@
 ---
-title: งานการนำเข้าและส่งออกข้อมูล
+title: ภาพรวมของงานการนำเข้าและส่งออกข้อมูล
 description: ใช้พื้นที่ทำงานการจัดการข้อมูลเพื่อสร้าง และจัดการการนำเข้าข้อมูล และงานการส่งออก
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 07/19/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: cbd8d305920262ed48c62f13aa86f903a6b16d0a
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862915"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875331"
 ---
-# <a name="data-import-and-export-jobs"></a>งานการนำเข้าและส่งออกข้อมูล
+# <a name="data-import-and-export-jobs-overview"></a>ภาพรวมของงานการนำเข้าและส่งออกข้อมูล
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
@@ -184,7 +184,7 @@ ms.locfileid: "1862915"
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-สามารถเข้าถึงฟังก์ชันการทำงานจาก **การจัดการข้อมูล \> การล้างข้อมูลประวัติงาน**
+การทำงานต้องเปิดใช้งานในการจัดการลักษณะการทำงาน จากนั้นคุณจึงสามารถเข้าถึงได้จาก **การจัดการข้อมูล \> การล้างข้อมูลประวัติงาน**
 
 ### <a name="scheduling-parameters"></a>พารามิเตอร์การจัดกำหนดการ
 

@@ -1,9 +1,9 @@
 ---
-title: แค็ตตาล็อกการจัดซื้อ
+title: ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 description: บทความนี้อธิบายถึง วิธีที่ผู้เชี่ยวชาญด้านการจัดซื้อสามารถตั้งค่าและรักษาแค็ตตาล็อกการจัดซื้อในระดับสูง แค็ตตาล็อกการจัดซื้อกำหนดสินค้าและบริการที่พนักงานบริษัทสามารถสั่งสำหรับใช้ภายใน
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f49c25e8d653219c9a2e5bead0c25f09898e27b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 06713d4f1ca1fe1c3feafe314da3a155fa7cd126
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559914"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865315"
 ---
-# <a name="procurement-catalogs"></a>แค็ตตาล็อกการจัดซื้อ
+# <a name="procurement-catalogs-overview"></a>ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 
 [!include [banner](../includes/banner.md)]
 
