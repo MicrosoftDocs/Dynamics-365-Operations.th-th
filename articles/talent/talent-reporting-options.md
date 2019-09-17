@@ -17,35 +17,35 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519232"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741809"
 ---
-# <a name="reporting-options-in-talent"></a><span data-ttu-id="c4700-103">ตัวเลือกการรายงานใน Talent</span><span class="sxs-lookup"><span data-stu-id="c4700-103">Reporting options in Talent</span></span>
+# <a name="reporting-options-in-talent"></a><span data-ttu-id="bbfa9-103">ตัวเลือกการรายงานใน Talent</span><span class="sxs-lookup"><span data-stu-id="bbfa9-103">Reporting options in Talent</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="c4700-104">**รายละเอียดสภาพแวดล้อม**</span><span class="sxs-lookup"><span data-stu-id="c4700-104">**Environment details**</span></span>
+<span data-ttu-id="bbfa9-104">**รายละเอียดสภาพแวดล้อม**</span><span class="sxs-lookup"><span data-stu-id="bbfa9-104">**Environment details**</span></span>
 
-<span data-ttu-id="c4700-105">ปัญหานี้ใช้กับสภาพแวดล้อมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c4700-105">This issue applies to all environments.</span></span>
+<span data-ttu-id="bbfa9-105">ปัญหานี้ใช้กับสภาพแวดล้อมทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="bbfa9-105">This issue applies to all environments.</span></span>
 
-<span data-ttu-id="c4700-106">**อาการ**</span><span class="sxs-lookup"><span data-stu-id="c4700-106">**Symptom**</span></span>
+<span data-ttu-id="bbfa9-106">**อาการ**</span><span class="sxs-lookup"><span data-stu-id="bbfa9-106">**Symptom**</span></span>
 
-<span data-ttu-id="c4700-107">ลูกค้าต้องการกำหนดค่ารายงาน Microsoft Dynamics 365 for Talent หรือสร้างรายงานใหม่</span><span class="sxs-lookup"><span data-stu-id="c4700-107">The customer wants to customize Microsoft Dynamics 365 for Talent reports or create new reports.</span></span>
+<span data-ttu-id="bbfa9-107">ลูกค้าต้องการกำหนดค่ารายงาน Microsoft Dynamics 365 for Talent หรือสร้างรายงานใหม่</span><span class="sxs-lookup"><span data-stu-id="bbfa9-107">The customer wants to customize Microsoft Dynamics 365 for Talent reports or create new reports.</span></span>
 
-<span data-ttu-id="c4700-108">**ออกใช้**</span><span class="sxs-lookup"><span data-stu-id="c4700-108">**Issue**</span></span>
+<span data-ttu-id="bbfa9-108">**ออกใช้**</span><span class="sxs-lookup"><span data-stu-id="bbfa9-108">**Issue**</span></span>
 
-<span data-ttu-id="c4700-109">ผู้ใช้ไม่สามารถกำหนดค่ารายงาน Microsoft Power BI ที่ฝังอยู่ได้</span><span class="sxs-lookup"><span data-stu-id="c4700-109">The user can't customize the embedded Microsoft Power BI reports.</span></span>
+<span data-ttu-id="bbfa9-109">ผู้ใช้ไม่สามารถกำหนดค่ารายงาน Microsoft Power BI ที่ฝังอยู่ได้</span><span class="sxs-lookup"><span data-stu-id="bbfa9-109">The user can't customize the embedded Microsoft Power BI reports.</span></span>
 
-<span data-ttu-id="c4700-110">**โซลูชัน**</span><span class="sxs-lookup"><span data-stu-id="c4700-110">**Solution**</span></span>
+<span data-ttu-id="bbfa9-110">**โซลูชัน**</span><span class="sxs-lookup"><span data-stu-id="bbfa9-110">**Solution**</span></span>
 
-- <span data-ttu-id="c4700-111">ข้อมูล Core HR ที่ไหลไปยัง Common Data Service สามารถถูกรายงานได้ ผ่านตัวเชื่อมต่อ PowerApps Common Data Service ไปยัง Power BI Desktop</span><span class="sxs-lookup"><span data-stu-id="c4700-111">The Core HR data that flows to Common Data Service can be reported on via the PowerApps Common Data Service connector to Power BI Desktop.</span></span> <span data-ttu-id="c4700-112">โปรดทราบว่า Common Data Service ประกอบด้วยชุดย่อยของข้อมูล Core HR</span><span class="sxs-lookup"><span data-stu-id="c4700-112">Note that Common Data Service contains a subset of Core HR data.</span></span> <span data-ttu-id="c4700-113">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และแดชบอร์ด ดู [สร้างรายงานและแดชบอร์ด Power BI ด้วย PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi)</span><span class="sxs-lookup"><span data-stu-id="c4700-113">For more information about Power BI and dashboards, see [Create Power BI reports and dashboards with PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).</span></span>
-- <span data-ttu-id="c4700-114">การรายงานทางอิเล็กทรอนิกส์ (ER) พร้อมใช้งานสำหรับรายงานบางรายงานใน Talent</span><span class="sxs-lookup"><span data-stu-id="c4700-114">Electronic reporting (ER) is available for some reports in Talent.</span></span> <span data-ttu-id="c4700-115">สามารถทำการกำหนดค่าที่ควบคุมโดยลูกค้าได้โดยใช้ตัวเลือกการตั้งค่าคอนฟิก ER</span><span class="sxs-lookup"><span data-stu-id="c4700-115">Customer-driven customizations can be done via the ER configuration options.</span></span>
-- <span data-ttu-id="c4700-116">ข้อมูลถูกส่งออกไปยัง Microsoft Excel หรือ Microsoft Word โดยใช้เอนทิตีข้อมูลต่างๆ ที่ Talent ให้ ผ่านทางการรวม Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="c4700-116">Data can be exported to Microsoft Excel or Microsoft Word by using the various data entities that Talent provides through the Microsoft Office integration.</span></span>
+- <span data-ttu-id="bbfa9-111">ข้อมูล Core HR ที่ไหลไปยัง Common Data Service สามารถถูกรายงานได้ ผ่านตัวเชื่อมต่อ PowerApps Common Data Service ไปยัง Power BI Desktop</span><span class="sxs-lookup"><span data-stu-id="bbfa9-111">The Core HR data that flows to Common Data Service can be reported on via the PowerApps Common Data Service connector to Power BI Desktop.</span></span> <span data-ttu-id="bbfa9-112">โปรดทราบว่า Common Data Service ประกอบด้วยชุดย่อยของข้อมูล Core HR</span><span class="sxs-lookup"><span data-stu-id="bbfa9-112">Note that Common Data Service contains a subset of Core HR data.</span></span> <span data-ttu-id="bbfa9-113">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และแดชบอร์ด ดู [สร้างรายงานและแดชบอร์ด Power BI ด้วย PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)</span><span class="sxs-lookup"><span data-stu-id="bbfa9-113">For more information about Power BI and dashboards, see [Create Power BI reports and dashboards with PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).</span></span>
+- <span data-ttu-id="bbfa9-114">การรายงานทางอิเล็กทรอนิกส์ (ER) พร้อมใช้งานสำหรับรายงานบางรายงานใน Talent</span><span class="sxs-lookup"><span data-stu-id="bbfa9-114">Electronic reporting (ER) is available for some reports in Talent.</span></span> <span data-ttu-id="bbfa9-115">สามารถทำการกำหนดค่าที่ควบคุมโดยลูกค้าได้โดยใช้ตัวเลือกการตั้งค่าคอนฟิก ER</span><span class="sxs-lookup"><span data-stu-id="bbfa9-115">Customer-driven customizations can be done via the ER configuration options.</span></span>
+- <span data-ttu-id="bbfa9-116">ข้อมูลถูกส่งออกไปยัง Microsoft Excel หรือ Microsoft Word โดยใช้เอนทิตีข้อมูลต่างๆ ที่ Talent ให้ ผ่านทางการรวม Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="bbfa9-116">Data can be exported to Microsoft Excel or Microsoft Word by using the various data entities that Talent provides through the Microsoft Office integration.</span></span>
 
-<span data-ttu-id="c4700-117">**วิธีแก้ปัญหาระยะยาว**</span><span class="sxs-lookup"><span data-stu-id="c4700-117">**Long-term solution**</span></span>
+<span data-ttu-id="bbfa9-117">**วิธีแก้ปัญหาระยะยาว**</span><span class="sxs-lookup"><span data-stu-id="bbfa9-117">**Long-term solution**</span></span>
 
-<span data-ttu-id="c4700-118">ตัวเลือก Power BI เพิ่มเติมจะพร้อมใช้งาน และข้อมูลและเอนทิตีเพิ่มเติมจะเป็นส่วนหนึ่งของ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="c4700-118">Additional Power BI options will be available, and more data and entities will be part of Common Data Service.</span></span>
+<span data-ttu-id="bbfa9-118">ตัวเลือก Power BI เพิ่มเติมจะพร้อมใช้งาน และข้อมูลและเอนทิตีเพิ่มเติมจะเป็นส่วนหนึ่งของ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="bbfa9-118">Additional Power BI options will be available, and more data and entities will be part of Common Data Service.</span></span>
