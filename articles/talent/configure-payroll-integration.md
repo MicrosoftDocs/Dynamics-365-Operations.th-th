@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702829"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742932"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce
 
@@ -52,8 +52,8 @@ ms.locfileid: "1702829"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบัญชีการจัดเก็บ Azure และสตริงการเชื่อมต่อการจัดเก็บ Azure ดูหัวข้อ Azure ต่อไปนี้:
 
-- [เกี่ยวกับบัญชีการจัดเก็บ Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [ตั้งค่าคอนฟิกสตริงการเชื่อมต่อการจัดเก็บ Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+- [เกี่ยวกับบัญชีการจัดเก็บ Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [ตั้งค่าคอนฟิกสตริงการเชื่อมต่อการจัดเก็บ Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>รายละเอียดทางเทคนิค เมื่อเปิดใช้งานการรวมค่าจ้าง
 
@@ -123,10 +123,10 @@ Dayforce สร้างการหักลดต่อไปนี้ โด�
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกำหนด และจัดการโปรแกรมสวัสดิการ ดูหัวข้อต่อไปนี้:
 
-- [นำเสนอโปรแกรมสวัสดิการของพนักงาน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [สร้างสวัสดิการใหม่](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [ลงทะเบียนและลบสวัสดิการจากผู้ปฏิบัติงาน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [นำเสนอโปรแกรมสวัสดิการของพนักงาน](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [สร้างสวัสดิการใหม่](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [ลงทะเบียนและลบสวัสดิการจากผู้ปฏิบัติงาน](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>ค่าตอบแทน 
 
@@ -136,20 +136,20 @@ Dayforce ใช้ข้อมูลค่าตอบแทนที่คำ�
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแผนค่าตอบแทน โปรดดูหัวข้อต่อไปนี้:
 
-- [สร้างแผนค่าตอบแทนคงที่](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [สร้างแผนค่าตอบแทนผันแปร](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [ประมวลผลค่าตอบแทน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
-- [กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [การลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [การลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [สร้างแผนค่าตอบแทนคงที่](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [สร้างแผนค่าตอบแทนผันแปร](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [พัฒนาโครงสร้างและแผนเงินเดือน/ค่าตอบแทน](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [ประมวลผลค่าตอบแทน](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [การลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [การลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>งาน 
 
 งานเป็นชุดของงานและความรับผิดชอบที่ถูกระบุของบุคคลที่ดำเนินงาน สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
-- [การตั้งค่าส่วนประกอบของงาน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-job)
-- [กำหนดงานใหม่](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [การตั้งค่าส่วนประกอบของงาน](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [กำหนดงานใหม่](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>ตำแหน่ง
 
@@ -173,8 +173,8 @@ Dayforce ใช้ข้อมูลค่าตอบแทนที่คำ�
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
-- [จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [ตั้งค่าตำแหน่ง](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [ตั้งค่าตำแหน่ง](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>แผนก
 
@@ -182,8 +182,8 @@ Dayforce ใช้ข้อมูลค่าตอบแทนที่คำ�
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
-- [สร้างแผนกและการเชื่อมโยงกับลำดับชั้นของแผนก](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [กำหนดฝ่ายใหม่](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [สร้างแผนกและการเชื่อมโยงกับลำดับชั้นของแผนก](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [กำหนดฝ่ายใหม่](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>รอบการชำระค่าจ้างและรอบระยะเวลาการชำระค่าจ้าง
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591513"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856459"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (13 พฤษภาคม 2019)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1591513"
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>ระบุชนิดของอินสแตนซ์ เมื่อเตรียมใช้งาน Talent
 
-เมื่อเตรียมใช้งานอินสแตนซ์ใหม่ของ Talent คุณสามารถบ่งชี้ได้ว่าชนิดของอินสแตนซ์เป็น **การผลิต** หรือ **Sandbox** ซึ่งอนุญาตให้สามารถทดสอบคุณลักษณะใหม่ๆ ได้ก่อนเวลา อินสแตนซ์ Talent ที่มีอยู่ทั้งหมดจะได้รับการปรับปรุงเป็นชนิดอินสแตนซ์ **การผลิต** ถ้าคุณต้องการให้หนึ่งในอินสแตนซ์ที่มีอยู่ของคุณได้รับการปรับปรุงเป็นชนิดของอินสแตนซ์ **Sandbox** โปรดติดต่อ [ฝ่ายสนับสนุน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) เพื่อเริ่มต้นการร้องขอการเปลี่ยนแปลง
+เมื่อเตรียมใช้งานอินสแตนซ์ใหม่ของ Talent คุณสามารถบ่งชี้ได้ว่าชนิดของอินสแตนซ์เป็น **การผลิต** หรือ **Sandbox** ซึ่งอนุญาตให้สามารถทดสอบคุณลักษณะใหม่ๆ ได้ก่อนเวลา อินสแตนซ์ Talent ที่มีอยู่ทั้งหมดจะได้รับการปรับปรุงเป็นชนิดอินสแตนซ์ **การผลิต** ถ้าคุณต้องการให้หนึ่งในอินสแตนซ์ที่มีอยู่ของคุณได้รับการปรับปรุงเป็นชนิดของอินสแตนซ์ **Sandbox** โปรดติดต่อ [ฝ่ายสนับสนุน](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) เพื่อเริ่มต้นการร้องขอการเปลี่ยนแปลง
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>การสนับสนุนเอนทิตี Common Data Service สำหรับฟิลด์ที่กำหนดเอง
 

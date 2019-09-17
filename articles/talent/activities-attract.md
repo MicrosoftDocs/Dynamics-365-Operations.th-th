@@ -1,9 +1,9 @@
 ---
-title: กิจกรรมในกระบวนการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดต่างๆ ของกิจกรรมที่สามารถใช้ได้ในกระบวนการว่าจ้าง
+title: กิจกรรมในกระบวนการใน Microsoft Dynamics 365 for Talent - Attract
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดต่างๆ ของกิจกรรมที่สามารถใช้ได้ในกระบวนการว่าจ้างใน Microsoft Dynamics 365 for Talent - Attract
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519250"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739736"
 ---
-# <a name="activities-in-the-hiring-processes"></a>กิจกรรมในกระบวนการว่าจ้าง
+# <a name="activities-in-hiring-processes"></a>กิจกรรมในกระบวนการจ้างงาน
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ ms.locfileid: "1519250"
 ## <a name="prospect-activity"></a>กิจกรรมผู้ที่มีแนวโน้มจะเป็นลูกค้า
 
 กิจกรรมผู้ที่มีแนวโน้มจะเป็นลูกค้าควบคุมว่า สามารถเพิ่มลูกค้าให้กับงานได้หรือไม่ โดยค่าเริ่มต้น สามารถเพิ่มผู้ที่มีแนวโน้มจะเป็นลูกค้าไปยังงานได้ เมื่อต้องการปิดกิจกรรมผู้ที่มีแนวโน้มจะเป็นลูกค้า ตั้งค่าตัวเลือก **เปิดใช้งานผู้ที่มีแนวโน้มจะเป็นลูกค้า** เป็น **ปิด** เมื่อเปิดกิจกรรมผู้ที่มีแนวโน้มจะเป็นลูกค้า ผู้จัดการว่าจ้างสามารถเพิ่ม และดูผู้ที่มีแนวโน้มจะเป็นลูกค้า และแท็บ **ผู้ที่มีแนวโน้มจะเป็นลูกค้า** จะแสดงขึ้นบนงานได้
+
+> [!NOTE]
+> เมื่อต้องการอนุญาตให้ผู้สมัครที่จะเพิ่มไปยังงานจาก LinkedIn คุณต้องตั้งค่าตัวเลือก **เปิดใช้งานผู้สมัครงาน** เป็น **เปิด**
 
 ## <a name="application-activity"></a>กิจกรรมใบสมัคร
 

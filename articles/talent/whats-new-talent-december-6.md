@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519260"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742597"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
 
@@ -62,7 +62,7 @@ ms.locfileid: "1519260"
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>ตั้งค่าคอนฟิกการรวมระบบค่าจ้าง UK ระหว่าง Talent และ Dayforce
 
-การรวมระหว่าง Microsoft Dynamics 365 for Talent และ Ceridian Dayforce พร้อมใช้งานในการแสดงตัวอย่างสำหรับ UK ให้อ้างอิงถึงหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติม [ตั้งค่าคอนฟิกการรวมค่าจ้างระหว่าง Talent และ Dayforce](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration)
+การรวมระหว่าง Microsoft Dynamics 365 for Talent และ Ceridian Dayforce พร้อมใช้งานในการแสดงตัวอย่างสำหรับ UK ให้อ้างอิงถึงหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติม [ตั้งค่าคอนฟิกการรวมค่าจ้างระหว่าง Talent และ Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 

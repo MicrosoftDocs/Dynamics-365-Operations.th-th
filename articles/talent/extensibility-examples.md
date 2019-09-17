@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577806"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781453"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
 
@@ -101,24 +101,15 @@ ms.locfileid: "1577806"
 
 เมื่อต้องการดาวน์โหลดเท็มเพลต **การรวมขั้นตอน - SharePoint** ไปที่ [การรวมขั้นตอน - SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) บนศูนย์ดาวน์โหลด Microsoft
 
-## <a name="admin-console-to-manage-talent-pools"></a>คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent
+## <a name="referral-app"></a>แอปการอ้างอิง
+คุณสามารถใช้แอปการอ้างอิงเพื่อเพิ่มผู้สมัครในกลุ่มผู้มีความสามารถพิเศษที่ใช้ร่วมกัน การอ้างอิงสามารถป้อน **Firstname** **Lastname** **อีเมล** และ **URL ของ LinkedIn** เมื่อส่งผู้สมัคร ข้อมูลเมตาของแหล่งที่มาของผู้สมัครจะถูกเติมด้วยข้อมูลของบุคคลอ้างอิง
 
-เมื่อคุณเปิดใช้งานการรวมกับ LinkedIn Attract จะสร้างกลุ่ม talent ของ LinkedIn โดยอัตโนมัติ เมื่อผู้สรรหาแลกเปลี่ยน InMail กับการสรรหาผ่านทาง LinkedIn Attract จะสร้างโพรไฟล์สำหรับการสรรหา และการสรรหาจะกลายเป็นสมาชิกของกลุ่ม talent ของ LinkedIn แอป PowerApps นี้มีประโยชน์สำหรับการจัดระเบียบผู้สมัครใหม่ในกลุ่ม talent ตามทักษะ
+คุณสามารถฝังแอปนี้ในระบบพนักงานบริการตนเอง (ESS) สำหรับการส่งการอ้างอิง หรือคุณสามารถใช้เป็นไฮเปอร์ลิงค์ในเว็บไซต์องค์กรและรันเป็นแอปเอกเทศ
 
-รันแอพลิเคชัน PowerApps นี้เป็นคอนโซลผู้ดูแลระบบเพื่อดำเนินการงานต่อไปนี้:
-
-- แสดงรายการผู้สมัครในกลุ่ม talent
-- เพิ่มและลบผู้สมัครจากกลุ่ม talent
-- ย้ายผู้สมัครจากกลุ่ม talent หนึ่งไปยังอีกกลุ่มหนึ่ง
-- ตรวจสอบว่าผู้สมัครเป็นส่วนหนึ่งของกลุ่ม talent อยู่แล้วหรือไม่ ก่อนที่จะเคลื่อนย้าย
-- ตรวจสอบทักษะของผู้สมัครก่อนที่จะเคลื่อนย้ายไปที่กลุ่ม talent อื่นๆ
-
-แอป PowerApps นี้ใช้ความสัมพันธ์แบบกลุ่มต่อกลุ่ม ดังนั้นคุณจึงสามารถใช้เป็นเท็มเพลตสำหรับสถานการณ์อื่นๆ ที่คุณจำเป็นต้องแยกเรกคอร์ดที่มีความสัมพันธ์แบบกลุ่มต่อกลุ่ม
-
-เมื่อต้องการดาวน์โหลดเท็มเพลต **คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent** ไปยัง [คอนโซลผู้ดูแลระบบเพื่อจัดการกลุ่ม talent](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) ใน Microsoft Download Center
+เมื่อต้องการดาวน์โหลด **แอปการอ้างอิง** ไปที่ [โซลูชันความสามารถในการเพิ่มฟังก์ชัน Dynamics 365 for Talent : แอปการอ้างอิง](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) บนศูนย์การดาวน์โหลดของ Microsoft คุณสามารถนำเข้าแอปนี้และเลือกกำหนดเพื่อเพิ่มฟังก์ชันเพิ่มเติมได้
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[ย้ายแอประหว่างผู้เช่าและสภาพแวดล้อม](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[ย้ายแอประหว่างผู้เช่าและสภาพแวดล้อม](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

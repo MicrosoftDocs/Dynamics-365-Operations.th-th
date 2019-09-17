@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f27698c257301f52e5c77eaa8a04ca13a0315825
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519185"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742527"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent Core HR (23 มกราคม 2019)
 
@@ -54,4 +54,4 @@ ms.locfileid: "1519185"
 ด้วยการเปลี่ยนแปลงนี้ ฟิลด์ **ช่วงทดลองงาน** และ **ปฏิทิน** ถูกเพิ่มไปยังหน้า **จัดการการเปลี่ยนแปลง** เพื่ออนุญาตให้ป้อนข้อมูลสำหรับพนักงานในอดีตและในอนาคต
 
 ### <a name="platform-update-23"></a>แพลตฟอร์ม update 23
-การแก้ไขบักรองถูกรวมเป็นส่วนหนึ่งของการปรับปรุงแพลตฟอร์ม 23 ดูข้อมูลเพิ่มเติม ดูที่ [มีอะไรใหม่หรือที่เปลี่ยนแปลงในการปรับปรุงแพลตฟอร์ม Dynamics 365 for Finance and Operations 23 (มกราคม 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23) 
+การแก้ไขบักรองถูกรวมเป็นส่วนหนึ่งของการปรับปรุงแพลตฟอร์ม 23 ดูข้อมูลเพิ่มเติม ดูที่ [มีอะไรใหม่หรือที่เปลี่ยนแปลงในการปรับปรุงแพลตฟอร์ม Dynamics 365 for Finance and Operations 23 (มกราคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23) 

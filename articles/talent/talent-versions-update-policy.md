@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519225"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741786"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>ความต้องการของระบบ Talent และนโยบายการอัพเดต
 
@@ -64,10 +64,10 @@ ms.locfileid: "1519225"
 > [!NOTE]
 > ในขณะที่อินเทอร์เฟสผู้ใช้ถูกแปลเป็นภาษาอื่นๆ ข้อมูลผู้ใช้ทั้งหมดจะถูกจัดเก็บอยู่ในภาษาที่ป้อนไว้ คุณสามารถสร้างอีเมลและเท็มเพลตในภาษาอื่นๆ ได้ แต่ข้อมูล เช่น ข้อมูลการจัดกำหนดการพร้อมใช้งานเฉพาะในภาษาอังกฤษเท่านั้นในขณะนี้
 
-ถ้าคุณเป็นนักพัฒนาที่สนใจในการสร้างการเลือกกำหนดเฉพาะประเทศหรือภูมิภาค หรือในการสร้างโซลูชันสำหรับประเทศหรือภูมิภาคที่ Microsoft ไม่สนับสนุนในขณะนี้ โปรดดู [โลกาภิวัตน์](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)
+ถ้าคุณเป็นนักพัฒนาที่สนใจในการสร้างการเลือกกำหนดเฉพาะประเทศหรือภูมิภาค หรือในการสร้างโซลูชันสำหรับประเทศหรือภูมิภาคที่ Microsoft ไม่สนับสนุนในขณะนี้ โปรดดู [โลกาภิวัตน์](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)
 
 ## <a name="update-policy"></a>นโยบายการอัพเดต
 
 Microsoft Dynamics 365 for Talent ทำหน้าที่เหมือนกับการเสนอของ Cloud มีการอัพเดต Dynamics 365 for Talent อย่างต่อเนื่อง และนำไปใช้โดยอัตโนมัติโดย Microsoft
 
-การอัพเดตจะถูกนำออกใช้เป็นช่วงเวลาตามปกติ และจะนำไปใช้กับสภาพแวดล้อมทั้งหมด Dynamics 365 for Talent ได้รับการสนับสนุนตาม [นโยบายของ Microsoft Support Lifecycle](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") ซึ่งให้คำแนะนำอย่างต่อเนื่องและคาดการณ์ได้สำหรับความพร้อมในการสนับสนุนผลิตภัณฑ์
+การอัพเดตจะถูกนำออกใช้เป็นช่วงเวลาตามปกติ และจะนำไปใช้กับสภาพแวดล้อมทั้งหมด Dynamics 365 for Talent ได้รับการสนับสนุนตาม [นโยบายของ Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") ซึ่งให้คำแนะนำอย่างต่อเนื่องและคาดการณ์ได้สำหรับความพร้อมในการสนับสนุนผลิตภัณฑ์
