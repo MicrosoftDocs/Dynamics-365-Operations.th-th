@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620631"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741763"
 ---
 # <a name="intelligent-recommendations"></a>คำแนะนำอัจฉริยะ
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620631"
 Machine learning สามารถช่วยให้ผู้สรรหาและผู้จัดการการจ้างงานระบุผู้สมัครที่ดีที่สุดสำหรับตำแหน่งงานอย่างรวดเร็ว นอกจากนี้ ยังสามารถช่วยผู้ที่มีแนวโน้มจะเป็นลูกค้าในการค้นหาตำแหน่งที่เหมาะกับโพรไฟล์และความสนใจของพวกเขามากที่สุด เมื่อมีใช้ลักษณะการทำงานเหล่านี้ และมีผลป้อนกลับให้ คำแนะนำจะพัฒนา
 
 > [!NOTE] 
-> - คุณลักษณะคำแนะนำอัจฉริยะพร้อมใช้งานเฉพาะกับ [add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring)
+> - คุณลักษณะคำแนะนำอัจฉริยะพร้อมใช้งานเฉพาะกับ [add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)
 > - ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **ศูนย์ผู้ดูแลระบบ** ใน Attract ตั้งค่า **คำแนะนำสำหรับผู้สมัคร**, **คำแนะนำเกี่ยวกับงาน** และ **คำแนะนำสำหรับผู้สมัครงาน** เป็น **เปิด** ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](./access-preview-feature.md) 
 
 

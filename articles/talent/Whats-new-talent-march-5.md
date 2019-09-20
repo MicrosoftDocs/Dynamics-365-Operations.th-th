@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519251"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741901"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (5 มีนาคม 2019)
 
@@ -43,10 +43,10 @@ ms.locfileid: "1519251"
 ## <a name="changes-in-onboarding"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
 
 ### <a name="private-preview-for-onboard-teams"></a>การแสดงตัวอย่างแบบส่วนตัวสำหรับทีมงานเตรียมความพร้อม
-ขณะนี้ คุณสามารถแบ่งปันและทำงานร่วมกันได้อย่างง่ายดายบนเท็มเพลตทั่วทั้งองค์กรทั้งหมดของคุณ สำหรับข้อมูลเพิ่มเติม ดู [แบ่งปันแนวทางปฏิบัติทั่วทั้งองค์กรของคุณโดยใช้ทีมงานเตรียมความพร้อม](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams)
+ขณะนี้ คุณสามารถแบ่งปันและทำงานร่วมกันได้อย่างง่ายดายบนเท็มเพลตทั่วทั้งองค์กรทั้งหมดของคุณ สำหรับข้อมูลเพิ่มเติม ดู [แบ่งปันแนวทางปฏิบัติทั่วทั้งองค์กรของคุณโดยใช้ทีมงานเตรียมความพร้อม](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams)
 
 ### <a name="private-preview-for-assignee-placeholders"></a>การแสดงตัวอย่างแบบส่วนตัวสำหรับตัวยึดตำแหน่งผู้รับมอบหมาย
-คุณสามารถเพิ่มเท็มเพลตของคุณได้ โดยการกำหนดกิจกรรมให้กับบทบาท แทนที่จะเป็นแต่ละบุคคล จากนั้น บทบาทจะถูกกำหนดให้กับแต่ละบุคคลในขณะที่สร้างคำแนะนำ สำหรับข้อมูลเพิ่มเติม ดู [ลดขั้นตอนซ้ำซ้อนการจัดการคู่มือตามการกำหนดกิจกรรมให้กับบทบาท](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles)
+คุณสามารถเพิ่มเท็มเพลตของคุณได้ โดยการกำหนดกิจกรรมให้กับบทบาท แทนที่จะเป็นแต่ละบุคคล จากนั้น บทบาทจะถูกกำหนดให้กับแต่ละบุคคลในขณะที่สร้างคำแนะนำ สำหรับข้อมูลเพิ่มเติม ดู [ลดขั้นตอนซ้ำซ้อนการจัดการคู่มือตามการกำหนดกิจกรรมให้กับบทบาท](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles)
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 **สร้าง 8.1.2178**
@@ -71,7 +71,7 @@ ms.locfileid: "1519251"
 การแก้ไขบักรองอื่นๆ ถูกรวมอยู่กับรุ่นนี้
 
 ### <a name="upgrade-to-common-data-service"></a>อัพเกรดเป็น Common Data Service
-เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)
+เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -79,4 +79,4 @@ ms.locfileid: "1519251"
 ในหลายองค์กร ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการสามารถเข้าถึงได้เฉพาะเรกคอร์ดค่าตอบแทนบางรายการ เช่น เรกคอร์ดสำหรับผู้บริหารหรือพนักงานตามภูมิภาค ด้วยการเปลี่ยนแปลงนี้ คุณสามารถจัดการและรักษาแผนค่าตอบแทนสำหรับกลุ่มพนักงานอื่นๆ ในองค์กรได้ แผนคงที่และผันแปรสามารถถูกกำหนด security role ซึ่งจะกำหนดการเข้าถึงแผนและข้อมูลพนักงานที่เกี่ยวข้องกับแผน เช่น เรกคอร์ดเงินโบนัสหรือเงินเดือน เฉพาะบทบาทที่มีการเข้าถึงที่กำหนด จะสามารถดำเนินการค่าตอบแทนสำหรับพนักงานเหล่านั้นได้
 
 ###  <a name="platform-update-24"></a>แพลตฟอร์ม update 24
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 24 ดู [มีอะไรใหม่ หรือเปลี่ยนแปลงใน Finance and Operations การอัพเดตแพลตฟอร์ม 24 (มีนาคม 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 24 ดู [มีอะไรใหม่ หรือเปลี่ยนแปลงใน Finance and Operations การอัพเดตแพลตฟอร์ม 24 (มีนาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)

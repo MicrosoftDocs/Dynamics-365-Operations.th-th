@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634491"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741638"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 for Talent (11 มิถุนายน 2019)
 
@@ -76,9 +76,9 @@ ms.locfileid: "1634491"
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>คุณลักษณะการแสดงตัวอย่างจะเปิดใช้งานเฉพาะในสภาพแวดล้อม sandbox เท่านั้น
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเผยแพร่การเปลี่ยนแปลง โปรดดู [เตรียมใช้งาน Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเผยแพร่การเปลี่ยนแปลง โปรดดู [เตรียมใช้งาน Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)
 
-เมื่อคุณจัดเตรียมอินสแตนท์ใหม่ของ Talent คุณสามารถบ่งชี้ว่าชนิดของอินสแตนซ์เป็นการผลิต หรือ Sandbox ชนิดของอินสแตนซ์ Sandbox อนุญาตให้มีการทดสอบของคุณลักษณะใหม่ก่อนเวลา อินสแตนซ์ Talent ที่มีอยู่ทั้งหมดจะได้รับการปรับปรุงเป็นชนิดอินสแตนซ์ **การผลิต** ถ้าคุณต้องการให้หนึ่งในอินสแตนซ์ที่มีอยู่ของคุณได้รับการปรับปรุงเป็นชนิดของอินสแตนซ์ **Sandbox** ติดต่อ [ฝ่ายสนับสนุน](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) เพื่อเริ่มต้นการร้องขอการเปลี่ยนแปลง
+เมื่อคุณจัดเตรียมอินสแตนท์ใหม่ของ Talent คุณสามารถบ่งชี้ว่าชนิดของอินสแตนซ์เป็นการผลิต หรือ Sandbox ชนิดของอินสแตนซ์ Sandbox อนุญาตให้มีการทดสอบของคุณลักษณะใหม่ก่อนเวลา อินสแตนซ์ Talent ที่มีอยู่ทั้งหมดจะได้รับการปรับปรุงเป็นชนิดอินสแตนซ์ **การผลิต** ถ้าคุณต้องการให้หนึ่งในอินสแตนซ์ที่มีอยู่ของคุณได้รับการปรับปรุงเป็นชนิดของอินสแตนซ์ **Sandbox** ติดต่อ [ฝ่ายสนับสนุน](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) เพื่อเริ่มต้นการร้องขอการเปลี่ยนแปลง
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>จำกัดชนิดการลางานในการร้องขอเวลาหยุดพัก
 

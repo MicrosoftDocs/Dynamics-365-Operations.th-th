@@ -1,6 +1,6 @@
 ---
-title: ใช้รายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการว่าจ้าง
-description: หัวข้อนี้จะอธิบายถึงรายงานการวิเคราะห์ใน Attract
+title: ใช้รายงานการวิเคราะห์ใน Microsoft Dynamics 365 for Talent - Attract
+description: หัวข้อนี้อธิบายถึงรายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการว่าจ้างใน Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516571"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742903"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>ใช้รายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการว่าจ้าง
+# <a name="use-analytic-reports"></a>ใช้รายงานการวิเคราะห์
 
 รายงานการวิเคราะห์ใน Attract ให้โซลูชัน (OOTB) แบบสำเร็จรูปสำหรับข้อมูลเชิงลึกกระบวนการว่าจ้าง คุณลักษณะที่พร้อมใช้งาน ได้แก่:
 
@@ -81,8 +81,8 @@ ms.locfileid: "1516571"
 
 ## <a name="cross-filter"></a>ตัวกรองแบบข้าม
 
-หนึ่งในคุณลักษณะที่ดีของ Power BI คือ วิธีการทั้งหมดที่ภาพบนหน้ารายงานเชื่อมโยงกัน ถ้าคุณเลือกจุดข้อมูลบนหนึ่งในภาพ ภาพอื่นๆ ทั้งหมดบนหน้าที่มีข้อมูลนั้นจะเปลี่ยนแปลง ซึ่งขึ้นอยู่กับการเลือกนั้น เรียนรู้เพิ่มเติมและดูตัวอย่างใน [วิธีการที่ภาพกรองแบบข้ามซึ่งกันและกันในรายงาน Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions)
+หนึ่งในคุณลักษณะที่ดีของ Power BI คือ วิธีการทั้งหมดที่ภาพบนหน้ารายงานเชื่อมโยงกัน ถ้าคุณเลือกจุดข้อมูลบนหนึ่งในภาพ ภาพอื่นๆ ทั้งหมดบนหน้าที่มีข้อมูลนั้นจะเปลี่ยนแปลง ซึ่งขึ้นอยู่กับการเลือกนั้น เรียนรู้เพิ่มเติมและดูตัวอย่างใน [วิธีการที่ภาพกรองแบบข้ามซึ่งกันและกันในรายงาน Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-interactions)
 
 ## <a name="export-to-excel"></a>ส่งออกไปที่ Excel
 
-เมื่อต้องการดูข้อมูลรายงานใน Excel คุณสามารถคลิกที่เมนูตัวเลือก (สามจุด) บนภาพ และเลือก **ส่งออกข้อมูลพื้นฐาน** ข้อมูลที่ส่งออกจะส่งออกเป็นถูกกรองแล้ว โดยคำนึงถึงสิทธิ์ของผู้ใช้ใน Attract สำหรับข้อมูลเพิ่มเติม ดู [ส่งออกข้อมูลจากการแสดงภาพ](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data)
+เมื่อต้องการดูข้อมูลรายงานใน Excel คุณสามารถคลิกที่เมนูตัวเลือก (สามจุด) บนภาพ และเลือก **ส่งออกข้อมูลพื้นฐาน** ข้อมูลที่ส่งออกจะส่งออกเป็นถูกกรองแล้ว โดยคำนึงถึงสิทธิ์ของผู้ใช้ใน Attract สำหรับข้อมูลเพิ่มเติม ดู [ส่งออกข้อมูลจากการแสดงภาพ](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519232"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741809"
 ---
 # <a name="reporting-options-in-talent"></a>ตัวเลือกการรายงานใน Talent
 
@@ -42,7 +42,7 @@ ms.locfileid: "1519232"
 
 **โซลูชัน**
 
-- ข้อมูล Core HR ที่ไหลไปยัง Common Data Service สามารถถูกรายงานได้ ผ่านตัวเชื่อมต่อ PowerApps Common Data Service ไปยัง Power BI Desktop โปรดทราบว่า Common Data Service ประกอบด้วยชุดย่อยของข้อมูล Core HR สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และแดชบอร์ด ดู [สร้างรายงานและแดชบอร์ด Power BI ด้วย PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi)
+- ข้อมูล Core HR ที่ไหลไปยัง Common Data Service สามารถถูกรายงานได้ ผ่านตัวเชื่อมต่อ PowerApps Common Data Service ไปยัง Power BI Desktop โปรดทราบว่า Common Data Service ประกอบด้วยชุดย่อยของข้อมูล Core HR สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และแดชบอร์ด ดู [สร้างรายงานและแดชบอร์ด Power BI ด้วย PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)
 - การรายงานทางอิเล็กทรอนิกส์ (ER) พร้อมใช้งานสำหรับรายงานบางรายงานใน Talent สามารถทำการกำหนดค่าที่ควบคุมโดยลูกค้าได้โดยใช้ตัวเลือกการตั้งค่าคอนฟิก ER
 - ข้อมูลถูกส่งออกไปยัง Microsoft Excel หรือ Microsoft Word โดยใช้เอนทิตีข้อมูลต่างๆ ที่ Talent ให้ ผ่านทางการรวม Microsoft Office
 

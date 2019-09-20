@@ -1,6 +1,6 @@
 ---
-title: จัดหาผู้สมัครโดยใช้กลุ่ม talent
-description: หัวข้อนี้อธิบายวิธีการสร้าง และตั้งค่ากลุ่ม talent ใน Attract
+title: จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษใน Microsoft Dynamics 365 for Talent - Attract
+description: หัวข้อนี้อธิบายวิธีการสร้างและตั้งค่ากลุ่มผู้มีความสามารถพิเศษใน Microsoft Dynamics 365 for Talent - Attract
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711305"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741878"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>จัดหาผู้สมัครโดยใช้กลุ่ม talent
+# <a name="source-candidates-with-talent-pools"></a>จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษ
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ ms.locfileid: "1711305"
 ## <a name="search-and-view-candidate-profiles"></a>ค้นหาและดูโพรไฟล์ผู้สมัคร
 
 > [!NOTE] 
-> คุณลักษณะนี้อยู่ในการแสดงตัวอย่างในขณะนี้ ถ้าคุณต้องการลอง คุณต้อง [เปิดในการตั้งค่าการดูแลระบบ Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature) 
+> คุณลักษณะนี้อยู่ในการแสดงตัวอย่างในขณะนี้ ถ้าคุณต้องการลอง คุณต้อง [เปิดในการตั้งค่าการดูแลระบบ Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature) 
 
 กลุ่มผู้มีความสามารถพิเศษช่วยให้คุณสามารถดูโพรไฟล์ของผู้สมัคร ข้อมูล LinkedIn เอกสารที่เกี่ยวข้อง และประวัติใบสมัคร คุณสามารถค้นหาฐานข้อมูลทั้งหมดของผู้สมัครทั้งหมดที่เพิ่มในกลุ่มผู้มีความสามารถพิเศษใด ๆ รวมถึงใบสมัครที่ปิดแล้วและที่ใช้งานอยู่
 
@@ -116,7 +116,7 @@ ms.locfileid: "1711305"
 
     เมื่อต้องการดูเอกสาร เลือกชื่อเอกสารในรายการเอกสาร คุณสามารถดูเอกสาร Microsoft Word ในแอพลิเคชันได้โดยใช้ Microsoft Office 365 คุณยังสามารถดาวน์โหลดเอกสารไปยังคอมพิวเตอร์ของคุณได้ โดยใช้ตัวเลือก **ดาวน์โหลด** สำหรับเอกสารแต่ละฉบับได้
 
-- แท็บ **LinkedIn** แสดงข้อมูล LinkedIn ของผู้สมัคร เพื่อใช้แท็บนี้ คุณต้องเชื่อมโยงบัญชี LinkedIn ของคุณในการตั้งค่าผู้ใช้ และต้องมีการสร้างการเชื่อมต่อ LinkedIn Recruiter ของสภาพแวดล้อมของคุณ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดหาด้วย LinkedIn Recruiter](./attract-linked-in-recruiter.md)
+- แท็บ **LinkedIn** แสดงข้อมูล LinkedIn ของผู้สมัคร เพื่อใช้แท็บนี้ คุณต้องเชื่อมโยงบัญชี LinkedIn ของคุณในการตั้งค่าผู้ใช้ และต้องมีการสร้างการเชื่อมต่อ LinkedIn Recruiter ของสภาพแวดล้อมของคุณ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดหาด้วย LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 > [!NOTE]
 > เฉพาะผู้สมัครเท่านั้นที่สามารถปรับปรุงทักษะ ประวัติการศึกษา และประสบการณ์การทำงานของพวกเขาได้

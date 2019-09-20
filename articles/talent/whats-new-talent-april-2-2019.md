@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519187"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795255"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (2 เมษายน 2019)
 
@@ -57,13 +57,13 @@ ms.locfileid: "1519187"
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2216
 
 ### <a name="platform-update-25"></a>แพลตฟอร์ม update 25
-ดูข้อมูลเพิ่มเติมเกี่ยวกับ Platform update 25 ได้ที่ [คุณลักษณะการแสดงตัวอย่างในการปรับปรุงแพลตฟอร์ม Dynamics 365 for Finance and Operations platform update 25 (เมษายน 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)
+ดูข้อมูลเพิ่มเติมเกี่ยวกับ Platform update 25 ได้ที่ [คุณลักษณะการแสดงตัวอย่างในการปรับปรุงแพลตฟอร์ม Dynamics 365 for Finance and Operations platform update 25 (เมษายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>ความปลอดภัยของค่าตอบแทนขั้นสูง (คงที่และผันแปร)
 ในองค์กรหลายองค์กร ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการอาจมีการเข้าถึงเรกคอร์ดค่าตอบแทนบางรายการเท่านั้น ซึ่งอาจรวมเรกคอร์ดสำหรับผู้บริหารหรือพนักงานในภูมิภาค การเปลี่ยนแปลงนี้ช่วยให้ HR สามารถจัดการและรักษาแผนค่าตอบแทนสำหรับกลุ่มพนักงานอื่นๆ ในองค์กรได้ คุณสามารถกำหนดบทบาทความปลอดภัยกับแผนที่คงที่และผันแปร บทบาทความปลอดภัยเหล่านี้จะกำหนดการเข้าถึงแผนและข้อมูลของพนักงานที่เกี่ยวข้อง เช่น เรกคอร์ดเงินโบนัสหรือเงินเดือน เพื่อให้เฉพาะบทบาทต่าง ๆ สามารถประมวลผลค่าตอบแทนสำหรับกลุ่มพนักงาน
 
 ### <a name="upgrade-to-common-data-service"></a>อัพเกรดเป็น Common Data Service
-เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)
+เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)
 
 ## <a name="in-preview"></a>ในการแสดงตัวอย่าง
 

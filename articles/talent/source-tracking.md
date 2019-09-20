@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519244"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742736"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>ติดตามแหล่งที่มาของโพรไฟล์ผู้สมัครและใบสมัคร 
+# <a name="track-candidate-sources"></a>ติดตามการจัดหาผู้สมัคร
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **การตั้งค่าผู้ดูแลระบบ** ใน Attract การนำออกใช้ในอนาคตจะแสดงรายงานการติดตามแหล่งที่มา ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)
+> ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **การตั้งค่าผู้ดูแลระบบ** ใน Attract การนำออกใช้ในอนาคตจะแสดงรายงานการติดตามแหล่งที่มา ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)
 
 เมื่อผู้สมัครสมัครงาน Attract จะติดตามแหล่งที่มาของใบสมัครของพวกเขาโดยอัตโนมัติ ซึ่งจะช่วยให้ข้อมูลที่เป็นประโยชน์เพื่อช่วยคุณในการกำหนดเป้าหมายความพยายามสรรหาบุคลากรของคุณ ผู้สรรหาและทีมงานการจ้างงานสามารถเลือกแหล่งที่มาของใบสมมัครขณะที่เพิ่มผู้สมัครไปยังงานหรือกลุ่มผู้มีความสามารถพิเศษด้วยตนเองอีกด้วย
 
 คุณสามารถดูแหล่งที่มาของใบสมัครได้ในรายละเอียดกิจกรรมใบสมัครภายใต้แท็บ **กิจกรรม** เช่นเดียวกันกับในประวัติใบสมัครที่พร้อมใช้งานภายใต้ **โพรไฟล์** ในกลุ่มผู้มีความสามารถพิเศษ คุณสามารถค้นหาแหล่งที่มาของโพรไฟล์ของผู้สมัครในรายละเอียดผู้สมัครภายใต้แท็บ **โพรไฟล์** ทั้งในใบสมัครและกลุ่มผู้มีความสามารถพิเศษ
 
 > [!NOTE] 
-> คุณสามารถค้นหาเท็มเพลตกระบวนการได้ใน [Add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring)
+> คุณสามารถค้นหาเท็มเพลตกระบวนการได้ใน [Add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)
 
 ## <a name="pre-configured-sources"></a>แหล่งที่มาที่ตั้งค่าคอนฟิกล่วงหน้า
 
@@ -93,7 +93,7 @@ ms.locfileid: "1519244"
 
 ## <a name="customize-the-source-list"></a>กำหนดรายการแหล่งที่มาด้วยตนเอง 
 
-คุณสามารถขยายรายการแหล่งที่มาให้รวมแหล่งที่มาใบสมัครเพิ่มเติมได้ เมื่อต้องการกำหนดรายการนี้ด้วยตนเอง ให้ทำตามคำแนะนำใน [การขยายชุดตัวเลือกใน Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract) แก้ไขเอนทิตี **TalentSource** เพื่อรวมแหล่งข้อมูลเพิ่มเติม 
+คุณสามารถขยายรายการแหล่งที่มาให้รวมแหล่งที่มาใบสมัครเพิ่มเติมได้ เมื่อต้องการกำหนดรายการนี้ด้วยตนเอง ให้ทำตามคำแนะนำใน [การขยายชุดตัวเลือกใน Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract) แก้ไขเอนทิตี **TalentSource** เพื่อรวมแหล่งข้อมูลเพิ่มเติม 
 
 เพื่อหลีกเลี่ยงการส่งผลกระทบในทางที่ไม่ดีต่ออินเทอร์เฟสผู้ใช้ (UI) อย่าแก้ไขหรือลบค่า enum **TalentCategory** (ไม่ใช่ชื่อ) สำหรับรายการต่อไปนี้:
 

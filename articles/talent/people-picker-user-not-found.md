@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519206"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742760"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>ไม่พบผู้ใช้ Azure Active Directory ในตัวเลือกบุคคล
 
@@ -36,9 +36,9 @@ ms.locfileid: "1519206"
 
 ชนิดผู้ใช้บางอย่างยังไม่ได้รับการสนับสนุนในแอพลิเคชัน Attract และ Onboard ในขณะนี้ ตรวจสอบว่าผู้ใช้ไม่ใช่ผู้ใช้ที่เป็นแขกของ Azure AD Business to Business (B2B) ข้อมูล "ชนิดของผู้ใช้" มีอยู่ในเบลด Azure Active Directory บนพอร์ทัล Azure
 
-ดูข้อมูลเพิ่มเติมเกี่ยวกับ Azure B2B ดูที่ [อะไรคือการเข้าถึงของผู้ใช้ที่เป็นแขกใน Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b)
+ดูข้อมูลเพิ่มเติมเกี่ยวกับ Azure B2B ดูที่ [อะไรคือการเข้าถึงของผู้ใช้ที่เป็นแขกใน Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)
 
-สำหรับผู้ใช้ที่ไม่ใช่ B2B มีผู้ใช้บางชนิดที่อาจมีคุณสมบัติ "ชนิดของผู้ใช้" ที่ไม่เสร็จสมบูรณ์ในออบเจ็กต์ **ผู้ใช้** สิ่งนี้สามารถตรวจสอบและแก้ไขได้โดยใช้โมดูล Azure AD Powershell สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0)
+สำหรับผู้ใช้ที่ไม่ใช่ B2B มีผู้ใช้บางชนิดที่อาจมีคุณสมบัติ "ชนิดของผู้ใช้" ที่ไม่เสร็จสมบูรณ์ในออบเจ็กต์ **ผู้ใช้** สิ่งนี้สามารถตรวจสอบและแก้ไขได้โดยใช้โมดูล Azure AD Powershell สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0)
 
 ## <a name="resolution"></a>ความละเอียด
 
