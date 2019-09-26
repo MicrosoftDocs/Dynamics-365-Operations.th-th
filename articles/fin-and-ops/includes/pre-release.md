@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> <span data-ttu-id="ef541-101">คุณลักษณะนี้มีอยู่ใน Platform update 15 (7.0.4841) หรือสูงกว่า</span><span class="sxs-lookup"><span data-stu-id="ef541-101">This feature is available in Platform update 15 (7.0.4841) or later.</span></span> <span data-ttu-id="ef541-102">ขณะนี้การอัพเดตนี้สามารถใช้ได้สำหรับลูกค้าที่เป็นเป้าหมายและจะสามารถใช้งานได้สำหรับผู้ใช้ทั้งหมดในเดือนมิถุนายน 2018</span><span class="sxs-lookup"><span data-stu-id="ef541-102">This update is currently available for targeted customers and will be available to all users June 2018.</span></span>
