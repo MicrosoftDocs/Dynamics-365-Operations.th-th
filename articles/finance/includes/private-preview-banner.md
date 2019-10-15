@@ -1,0 +1,2 @@
+ [!IMPORTANT]
+> <span data-ttu-id="a739f-101">ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานสำหรับผู้ใช้เป้าหมายอันเป็นส่วนหนึ่งของการนำออกใช้การแสดงตัวอย่างแบบส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="a739f-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="a739f-102">เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้</span><span class="sxs-lookup"><span data-stu-id="a739f-102">The content and the functionality are subject to change.</span></span> 

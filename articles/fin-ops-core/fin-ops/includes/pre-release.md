@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="f3ecf-101">คุณลักษณะนี้มีอยู่ใน Platform update 15 (7.0.4841) หรือสูงกว่า</span><span class="sxs-lookup"><span data-stu-id="f3ecf-101">This feature is available in Platform update 15 (7.0.4841) or later.</span></span> <span data-ttu-id="f3ecf-102">ขณะนี้การอัปเดตนี้สามารถใช้ได้สำหรับลูกค้าที่เป็นเป้าหมายและจะสามารถใช้งานได้สำหรับผู้ใช้ทั้งหมดในเดือนมิถุนายน 2018</span><span class="sxs-lookup"><span data-stu-id="f3ecf-102">This update is currently available for targeted customers and will be available to all users June 2018.</span></span>
