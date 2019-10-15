@@ -1,9 +1,9 @@
 ---
-title: โฮมเพจการบริหารห่วงโซ่อุปทาน
-description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations
-author: ShylaThompson
+title: ทรัพยากรความช่วยเหลือสำหรับ Supply Chain Management
+description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,26 +18,27 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557603"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278335"
 ---
-# <a name="supply-chain-management-home-page"></a>โฮมเพจการบริหารห่วงโซ่อุปทาน
+# <a name="help-resources-for-supply-chain-management"></a>ทรัพยากรความช่วยเหลือสำหรับ Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations 
+หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ ใน Dynamics 365 Supply Chain Management 
 
 ## <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 ไปที่ <a href="https://roadmap.dynamics.com/">แผนการทำงาน Dynamics 365</a> เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา 
 
 ## <a name="core-concepts-and-tasks"></a>แนวคิดหลักและงาน
 
-เลือกส่วนคุณสมบัติที่จะเรียนรู้เพิ่มเติม
+เลือกส่วนคุณลักษณะที่จะเรียนรู้เพิ่มเติม
 
+- [การจัดการสินทรัพย์](asset-management/index.md)
 - [การบัญชีต้นทุน](../financials/cost-accounting/cost-accounting-home-page.md)
 - [การจัดการต้นทุน](cost-management/cost-management-home-page.md)  
 - [การบริหารสินค้าคงคลัง](inventory/inventory-home-page.md)
@@ -50,9 +51,13 @@ ms.locfileid: "1557603"
 - [การจัดการการขนส่ง](transportation/transportation-management-overview.md)
 - [การจัดการคลังสินค้า](warehousing/warehouse-configuration.md)
 
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+สำหรับข้อมูลเกี่ยวกับ Dynamics 365 Finance ให้ไปที่หน้า [ทรัพยากรความช่วยเหลือสำหรับ Dynamics 365 Finance](../finance/index.md)
+
 ## <a name="videos"></a>วิดีโอ
 
-วิดีโอสั้นๆ เหล่านี้จะช่วยคุณเรียนรู้เกี่ยวกับคุณสมบัติใหม่ใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018)
+วิดีโอสั้นๆ เหล่านี้จะช่วยคุณในการเรียนรู้เกี่ยวกับคุณลักษณะใหม่ๆ ใน Microsoft Dynamics 365 for Finance and Operations รุ่น 8.0 (เมษายน 2018)
 
 - [ซิงโครไนส์ใบสั่งงานระหว่าง Field Service กับ Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
@@ -113,6 +118,6 @@ ms.locfileid: "1557603"
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">การเคลื่อนย้ายในคลังสินค้าที่อำนวยความสะดวกโดยใช้ Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการฝึกอบรม Microsoft Dynamics 365 for Finance and Operations ดูที่ <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">เว็บไซต์การเรียนรู้ Microsoft Dynamics</a> (ต้องมีบัญชี CustomerSource) 
+สำหรับข้อมูลเกี่ยวกับ Dynamics 365 ดูที่ <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> เว็บไซต์การเรียนรู้ Microsoft Dynamics</a> (ต้องมีบัญชี CustomerSource) 
 
 

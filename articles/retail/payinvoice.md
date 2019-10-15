@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าสถานการณ์เกี่ยวกับชำระเงินตามใบแจ้งหนี้
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิก Dynamics 365 for Retail เพื่อรองรับสถานการณ์ต่างๆ ที่เกี่ยวกับการชำระเงินตามใบแจ้งหนี้
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิก Dynamics 365 Retail เพื่อรองรับสถานการณ์ต่างๆ ที่เกี่ยวกับการชำระเงินตามใบแจ้งหนี้
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564981"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018024"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>ตั้งค่าสถานการณ์เกี่ยวกับชำระเงินตามใบแจ้งหนี้
 
 [!include [banner](includes/banner.md)]
 
-มีการขยายฟังก์ชันการชำระเงินตามใบแจ้งหนี้ใน Dynamics 365 for Retail เพื่อรองรับ:
+มีการขยายฟังก์ชันการชำระเงินตามใบแจ้งหนี้ใน Dynamics 365 Retail เพื่อรองรับ:
 
 - การชำระเงินตามใบแจ้งหนี้ใบสั่งขายหลายรายการในธุรกรรม POS ธุรกรรมเดียว
 - การชำระเงินตามใบแจ้งหนี้ของลูกค้าหลายรายการซึ่งรวมถึงใบแจ้งหนี้ข้อความอิสระ ใบแจ้งหนี้ตามโครงการ และใบลดหนี้

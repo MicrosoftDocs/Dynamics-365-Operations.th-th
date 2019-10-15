@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: เริ่มต้นใช้งาน
       items:
@@ -8,6 +8,14 @@
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
+            - name: 1 ตุลาคม 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 กันยายน 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 กันยายน 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 สิงหาคม 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22 สิงหาคม 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13 สิงหาคม 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 กรกฎาคม 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 มิถุนายน 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 มิถุนายน 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 มิถุนายน 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 มิถุนายน 2019
-              href: whats-new-talent-june-4-2019.md
             - name: ข้อมูลเก็บถาวร 2019 มีอะไรใหม่
               items:
+                - name: 25 มิถุนายน 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 มิถุนายน 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 มิถุนายน 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 มิถุนายน 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 พฤษภาคม 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 พฤษภาคม 2019
@@ -397,7 +405,7 @@
           items:
             - name: บทช่วยสอนการรวม Office
               href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: อัพเดตข้อมูลเอนทิตี้ใน Excel
+            - name: อัปเดตข้อมูลเอนทิตี้ใน Excel
               href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: สร้างประสบการณ์เปิดใน Excel
               href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -407,7 +415,7 @@
       items:
         - name: Power BI ที่ฝังในพื้นที่ทำงาน
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
+        - name: เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์
           href: extensibility-examples.md
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
           items:
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: แก้ไขปัญหา Talent
       items:
+        - name: ปรับปรุงประสิทธิภาพการทำงานด้วยงานการล้างข้อมูลอัตโนมัติ
+          href: talent-batch-history-cleanup.md
         - name: แก้ไขปัญหาการลงประกาศงานใน LinkedIn
           href: attract-troubleshoot-linkedin.md
         - name: ไม่ได้อัปเดตรายงานการวิเคราะห์
