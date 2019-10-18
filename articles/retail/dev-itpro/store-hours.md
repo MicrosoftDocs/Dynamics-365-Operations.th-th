@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 1b55b91246b22951f4e1d148f59444423e1d8a3d
-ms.sourcegitcommit: e54607a2c80bec4db05045825914f50947f6e31e
+ms.openlocfilehash: 811d499a3eb8133e5ffd29bb4ae6a0c57708accd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917523"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023453"
 ---
 # <a name="create-and-update-store-hours"></a>สร้างและอัพเดตชั่วโมงทำการของร้านค้า
 
@@ -36,7 +36,7 @@ ms.locfileid: "1917523"
 
 ถ้าลูกค้ามีใบสั่งซื้อสำหรับร้านค้าอื่น พนักงานเก็บเงินสามารถเลือกวันที่ที่สามารถรับสินค้าที่ร้านค้าดังกล่าวได้ การค้นหาร้านค้าจะแสดงข้อมูลอ้างอิงถึงวันที่และเวลาทำการของร้านค้า พนักงานเก็บเงินสามารถเลือกวันที่และสถานที่ และยังสามารถพิมพ์ใบเสร็จตามใบเบิกสินค้าซึ่งรวมถึงชั่วโมงทำการของร้านค้าได้ด้วย
 
-ฟังก์ชันนี้มีอยู่ใน Microsoft Dynamics 365 for Retail รุ่น 8.1.2 และรุ่นที่ใหม่กว่า
+ฟังก์ชันนี้มีอยู่ใน Microsoft Dynamics 365 Retail รุ่น 8.1.2 และรุ่นที่ใหม่กว่า
 
 ## <a name="configure-store-hours"></a>ตั้งค่าคอนฟิกชั่วโมงทำการของร้านค้า
 

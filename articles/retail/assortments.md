@@ -1,6 +1,6 @@
 ---
 title: การจัดการการจัดประเภท
-description: หัวข้อนี้อธิบายแนวคิดพื้นฐานของการจัดการการจัดประเภทใน Microsoft Dynamics 365 for Retail และให้การพิจารณาการใช้งานสำหรับโครงการของคุณ
+description: หัวข้อนี้อธิบายแนวคิดพื้นฐานของการจัดการการจัดประเภทใน Dynamics 365 Retail และให้การพิจารณาการใช้งานสำหรับโครงการของคุณ
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558839"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025851"
 ---
 # <a name="assortment-management"></a>การจัดการการจัดประเภท
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558839"
 
 ## <a name="overview"></a>ภาพรวม
 
-Microsoft Dynamics 365 for Retail ให้ *การจัดประเภท* ที่อนุญาตให้คุณสามารถจัดการความพร้อมของผลิตภัณฑ์ในช่องทางทั้งหมดได้ การจัดประเภทกำหนดว่าผลิตภัณฑ์ใดที่จะพร้อมใช้งาน ณ ร้านค้าหนึ่งๆ และในระหว่างรอบระยะเวลาที่ระบุ
+Dynamics 365 Retail ให้ *การจัดประเภท* ที่อนุญาตให้คุณสามารถจัดการความพร้อมของผลิตภัณฑ์ในช่องทางทั้งหมดได้ การจัดประเภทกำหนดว่าผลิตภัณฑ์ใดที่จะพร้อมใช้งาน ณ ร้านค้าหนึ่งๆ และในระหว่างรอบระยะเวลาที่ระบุ
 
 ใน Retail การจัดประเภทเป็นการแม็ปของช่องทางอย่างน้อยหนึ่งช่องทาง (หรือกลุ่มของช่องทาง เมื่อมีการใช้ลำดับชั้นขององค์กร) ไปยังผลิตภัณฑ์อย่างน้อยหนึ่งผลิตภัณฑ์ (หรือกลุ่มของผลิตภัณฑ์ เมื่อมีการใช้ลำดับชั้นประเภท)
 

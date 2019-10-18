@@ -1,6 +1,6 @@
 ---
-title: รับการสนับสนุนสำหรับ Dynamics 365 for Retail
-description: บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Microsoft Dynamics 365 for Retail
+title: รับการสนับสนุนสำหรับ Dynamics 365 Retail
+description: บทความนี้อธิบายวิธีรับความช่วยเหลือกับ Microsoft Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577855"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025017"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>รับการสนับสนุนสำหรับ Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-retail"></a>รับการสนับสนุนสำหรับ Dynamics 365 Retail
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Dynamics 365 for Retail
+บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Dynamics 365 Retail
 
 ## <a name="contact-support"></a>ติดต่อฝ่ายสนับสนุน
 
@@ -48,7 +48,7 @@ ms.locfileid: "1577855"
 <tbody>
 <tr>
 <td>สอบถามชุมชน</td>
-<td>ไปยังหน้าชุมชน <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics</td>
+<td>ไปยังหน้าชุมชน <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics</td>
 </tr>
 <tr>
 <td>ใช้เครื่องมือค้นหาปัญหา</td>
@@ -74,7 +74,7 @@ ms.locfileid: "1577855"
 สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">การสนับสนุนเว็บไซต์</a></td>
 </tr>
 <tr>
-<td>รับความช่วยเหลือเกี่ยวกับคำถามเกี่ยวกับ Retail หรือการให้สิทธิ์ใช้งาน Finance and Operations</td>
+<td>รับความช่วยเหลือเกี่ยวกับคำถามในเรื่องลิขสิทธิ์ </td>
 <td>ติดต่อคู่ค้า ผู้จำหน่ายบัญชีขนาดใหญ่ (LAR) หรือพนักงานขายของ Microsoft</td>
 </tr>
 <tr>

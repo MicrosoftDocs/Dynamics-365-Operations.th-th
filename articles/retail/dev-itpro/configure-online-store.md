@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 186ab08e21b7dad7b736b1f5f065aefe0b80d621
-ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
+ms.openlocfilehash: 142a7fa8a18b14347761d3f116c30f2fa5476115
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833186"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025756"
 ---
 # <a name="configure-online-stores"></a>ตั้งค่าคอนฟิกร้านค้าออนไลน์
 
@@ -53,7 +53,7 @@ ms.locfileid: "1833186"
 | จัดการค่าธรรมเนียมการจัดส่ง             | ตั้งค่าและจัดการค่าธรรมเนียมการจัดส่งที่เกี่ยวข้องเฉพาะกับร้านค้าออนไลน์                                                                     | [ตั้งค่าค่าธรรมเนียมการจัดส่งสำหรับร้านค้าออนไลน์](https://technet.microsoft.com/library/jj728714.aspx) (เนื้อหา TechNet สำหรับ AX 2012)                                                                                                                           |
 | จัดการวิธีการจัดส่ง            | จัดการวิธีการจัดส่งที่ร้านค้าออนไลน์มี                                                                                        | [ตั้งค่าวิธีการจัดส่ง](https://technet.microsoft.com/library/jj728719.aspx) (เนื้อหา TechNet สำหรับ AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>ตั้งค่าการแลกเปลี่ยนข้อมูลระหว่าง Microsoft Dynamics 365 for Retail และร้านค้าออนไลน์
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-retail-and-the-online-store"></a>ตั้งค่าการแลกเปลี่ยนข้อมูลระหว่าง Microsoft Dynamics 365 Retail และร้านค้าออนไลน์
 
 | งาน                                 | รายละเอียด                                                                                                                               | เบ็ดเตล็ด                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

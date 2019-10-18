@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875927"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024510"
 ---
 # <a name="maintenance-forecasts"></a>การคาดการณ์ในการบำรุงรักษา
 
@@ -104,7 +104,7 @@ ms.locfileid: "1875927"
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>การอัพเดตอัตโนมัติของการคาดการณ์ใบสั่งงาน
 
-ในการจัดการสินทรัพย์ คุณสามารถอัพเดตการเปลี่ยนแปลงใดๆ ได้โดยอัตโนมัติในการคาดการณ์ใบสั่งงานที่เกี่ยวข้องกับต้นทุนชั่วโมง ต้นทุนสินค้า และค่าใช้จ่ายที่มีการอัพเดตในโมดูลอื่นๆ ใน Dynamics 365 for Finance and Operations การทำเช่นนี้ทำเพื่อให้แน่ใจว่ามีการใช้ราคาต้นทุนล่าสุดอยู่เสมอในการคาดการณ์ใบสั่งงานของคุณ นอกจากนี้คุณยังสามารถทำการอัพเดตที่คล้ายกันสำหรับ [การคาดการณ์ชนิดงานบำรุงรักษา](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+ในการจัดการสินทรัพย์ คุณสามารถอัพเดตการเปลี่ยนแปลงใดๆได้โดยอัตโนมัติในการคาดการณ์ใบสั่งงานที่เกี่ยวข้องกับต้นทุนชั่วโมง ต้นทุนสินค้า และค่าใช้จ่าย ที่มีการอัพเดตในโมดูลอื่นๆ การทำเช่นนี้ทำเพื่อให้แน่ใจว่ามีการใช้ราคาต้นทุนล่าสุดอยู่เสมอในการคาดการณ์ใบสั่งงานของคุณ นอกจากนี้คุณยังสามารถทำการอัพเดตที่คล้ายกันสำหรับ [การคาดการณ์ชนิดงานบำรุงรักษา](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
 1. คลิก **การจัดการสินทรัพย์** > **ประจำงวด** > **การคาดการณ์** > **อัพเดตการคาดการณ์ใบสั่งงาน**
 

@@ -1,6 +1,6 @@
 ---
 title: ประเมินประสิทธิภาพการขายตามผลิตภัณฑ์
-description: คุณสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Microsoft Dynamics 365 for Retail
+description: คุณสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Dynamics 365 Retail
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546397"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024971"
 ---
 # <a name="assess-sales-performance-by-product"></a>ประเมินประสิทธิภาพการขายตามผลิตภัณฑ์
 
 [!include [banner](includes/banner.md)]
 
-คุณสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Microsoft Dynamics 365 for Retail
+คุณสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์ 10 อันดับแรกโดยใช้ Dynamics 365 Retail
 
-ในฐานะที่เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้ยังสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์สูงสุด (10 ถึง 100) ในระดับต่างๆ ของลำดับชั้นองค์กร ตามหนึ่งในเกณฑ์ต่อไปนี้:
+ส่วหนึ่งของ Retail ผู้ใช้ยังสามารถศึกษาความสามารถในการทำกำไรสำหรับผลิตภัณฑ์สูงสุด (10 ถึง 100) ในระดับต่างๆ ของลำดับชั้นองค์กร ตามหนึ่งในเกณฑ์ต่อไปนี้:
 
 - ยอดขาย
 - ปริมาณ
