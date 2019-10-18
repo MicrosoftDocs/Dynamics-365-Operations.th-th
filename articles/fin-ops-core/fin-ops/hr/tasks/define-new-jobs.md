@@ -1,0 +1,73 @@
+---
+title: กำหนดงานใหม่
+description: 'งานนี้มุ่งเน้นการสร้างงานใหม่ '
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: HcmJob
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 66dcbff3e89b88100e80049c1f97bd78d5e9d0aa
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2180260"
+---
+# <a name="define-new-jobs"></a><span data-ttu-id="62424-103">กำหนดงานใหม่</span><span class="sxs-lookup"><span data-stu-id="62424-103">Define new jobs</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="62424-104">งานนี้มุ่งเน้นการสร้างงานใหม่ </span><span class="sxs-lookup"><span data-stu-id="62424-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="62424-105">ซึ่งจะเสร็จสมบูรณ์โดยใช้การป้อนข้อมูลและคัดลอกด้วยตนเองจากฟังก์ชันเท็มเพลต </span><span class="sxs-lookup"><span data-stu-id="62424-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="62424-106">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="62424-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="62424-107">งานนี้มีไว้สำหรับผู้เชี่ยวชาญด้านทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="62424-107">This task is intended for the human resources specialist.</span></span>
+
+1. <span data-ttu-id="62424-108">ไปที่ทรัพยากรบุคคล > งาน > งาน</span><span class="sxs-lookup"><span data-stu-id="62424-108">Go to Human resources > Jobs > Jobs.</span></span>
+2. <span data-ttu-id="62424-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="62424-109">Click New.</span></span>
+3. <span data-ttu-id="62424-110">ในฟิลด์งาน ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="62424-110">In the Job field, type a value.</span></span>
+4. <span data-ttu-id="62424-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="62424-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="62424-112">เลือกหัวข้อมาตรฐานที่จะใช้สำหรับงาน</span><span class="sxs-lookup"><span data-stu-id="62424-112">Select a standard title that will be used for the job.</span></span> 
+    * <span data-ttu-id="62424-113">หัวข้อที่ป้อนไว้จะใช้เป็นค่าเริ่มต้นสำหรับตำแหน่งใหม่ที่กำหนดให้กับงาน</span><span class="sxs-lookup"><span data-stu-id="62424-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
+6. <span data-ttu-id="62424-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62424-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="62424-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62424-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="62424-116">ในจำนวนสูงสุดของกลุ่มตำแหน่งงาน ให้เลือก 'ตำแหน่งสูงสุด'</span><span class="sxs-lookup"><span data-stu-id="62424-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
+9. <span data-ttu-id="62424-117">ป้อนจำนวนสูงสุดของตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="62424-117">Enter the maximum number of positions.</span></span> 
+    * <span data-ttu-id="62424-118">การมอบหมายตำแหน่งงานจะไม่ได้รับอนุญาตให้ป้อนค่าที่สูงกว่าค่าสูงสุดที่นี่</span><span class="sxs-lookup"><span data-stu-id="62424-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
+10. <span data-ttu-id="62424-119">สลับการขยายของส่วนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="62424-119">Toggle the expansion of the Description section.</span></span>
+11. <span data-ttu-id="62424-120">ในฟิลด์หมายเหตุ ให้ป้อน 'ป้อนคำอธิบายมาตรฐานสำหรับงาน'</span><span class="sxs-lookup"><span data-stu-id="62424-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
+    * <span data-ttu-id="62424-121">คำอธิบายใช้ได้กับตำแหน่งงานทั้งหมดที่มอบหมายให้กับงานที่กำหนดที่นี่</span><span class="sxs-lookup"><span data-stu-id="62424-121">The description applies to all positions assigned to the job defined here.</span></span>  
+12. <span data-ttu-id="62424-122">สลับการขยายของส่วนการจัดประเภทงาน</span><span class="sxs-lookup"><span data-stu-id="62424-122">Toggle the expansion of the Job classification section.</span></span>
+13. <span data-ttu-id="62424-123">เลือกฟังก์ชันงานที่จะใช้ในการรายงานมาตรฐานภายในทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="62424-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
+14. <span data-ttu-id="62424-124">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62424-124">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="62424-125">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62424-125">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="62424-126">เลือกชนิดงานเพื่อการจัดประเภทงานภายในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="62424-126">Select a Job type to further classify jobs within your organization.</span></span> 
+    * <span data-ttu-id="62424-127">คุณสามารถใช้ชนิดงานในการรายงานทั่วทั้งทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="62424-127">Job types can be used in reporting throughout Human resources.</span></span>  
+17. <span data-ttu-id="62424-128">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62424-128">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="62424-129">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62424-129">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="62424-130">สลับการขยายของส่วนค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="62424-130">Toggle the expansion of the Compensation section.</span></span>
+20. <span data-ttu-id="62424-131">เลือกระดับค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="62424-131">Select a compensation level.</span></span>
+    * <span data-ttu-id="62424-132">ระดับค่าตอบแทนจะกำหนดค่าตอบแทนต่ำสุดและสูงสุดที่พนักงานจะได้รับจากการทำงาน </span><span class="sxs-lookup"><span data-stu-id="62424-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="62424-133">กฎค่าตอบแทนจะกำหนดว่าค่าตอบแทนของพนักงานสามารถอยู่นอกช่วงได้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="62424-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
+21. <span data-ttu-id="62424-134">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62424-134">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="62424-135">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62424-135">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="62424-136">สลับการขยายของส่วนทักษะ</span><span class="sxs-lookup"><span data-stu-id="62424-136">Toggle the expansion of the Skills section.</span></span>
+    * <span data-ttu-id="62424-137">หมายเหตุว่า ฟิลด์ต่างๆใน FastTabs ทักษะ การศึกษา และประกาศนียบัตร จะว่างเปล่า </span><span class="sxs-lookup"><span data-stu-id="62424-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="62424-138">หลังจากการคัดลอกข้อมูลจากเท็มเพลตงาน จะมีการป้อนข้อมูลในฟิลด์เหล่านี้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="62424-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
+24. <span data-ttu-id="62424-139">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="62424-139">Click Save.</span></span>
+25. <span data-ttu-id="62424-140">คลิกที่คัดลอกจาก</span><span class="sxs-lookup"><span data-stu-id="62424-140">Click Copy from.</span></span>
+26. <span data-ttu-id="62424-141">คลิกคัดลอกจากเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="62424-141">Click Copy from template.</span></span>
+27. <span data-ttu-id="62424-142">ในฟิลด์เท็มเพลตงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="62424-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="62424-143">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62424-143">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="62424-144">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62424-144">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="62424-145">คลิกที่ตัวเลือกหมายเหตุ</span><span class="sxs-lookup"><span data-stu-id="62424-145">Click the Note option.</span></span>
+    * <span data-ttu-id="62424-146">เฉพาะรายการที่คุณเลือกจะถูกคัดลอกไปยังงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62424-146">Only those items you select will be copied to the selected job.</span></span>    
+31. <span data-ttu-id="62424-147">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="62424-147">Click OK.</span></span>
+32. <span data-ttu-id="62424-148">สลับการขยายของส่วนใบรับรอง</span><span class="sxs-lookup"><span data-stu-id="62424-148">Toggle the expansion of the Certificates section.</span></span>
+33. <span data-ttu-id="62424-149">สลับการขยายของส่วนการศึกษา</span><span class="sxs-lookup"><span data-stu-id="62424-149">Toggle the expansion of the Education section.</span></span>
+34. <span data-ttu-id="62424-150">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="62424-150">Click Save.</span></span>
+
