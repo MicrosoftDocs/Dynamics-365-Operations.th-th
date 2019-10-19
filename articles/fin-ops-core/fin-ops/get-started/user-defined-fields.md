@@ -1,0 +1,161 @@
+---
+title: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
+description: หัวข้อนี้แสดงวิธีการสร้างฟิลด์แบบกำหนดเองได้ เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของตน
+author: jasongre
+manager: AnnBe
+ms.date: 07/16/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: SysCustomFieldManageFields
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: jasongre
+ms.search.validFrom: 2018-1-31
+ms.dyn365.ops.version: Platform update 13
+ms.openlocfilehash: af2066c095c675aa0003ac2cf66bebba48a1e8a5
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2190867"
+---
+# <a name="create-and-work-with-custom-fields"></a><span data-ttu-id="8251f-103">สร้างและทำงานกับฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-103">Create and work with custom fields</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="8251f-104">ในขณะที่มีชุดที่ขยายขอบเขตของฟิลด์แบบนอกกรอบสำหรับการจัดการกระบวนการทางธุรกิจที่หลากหลาย ในบางครั้งมีความต้องการสำหรับบริษัทในการติดตามข้อมูลเพิ่มเติมในระบบ</span><span class="sxs-lookup"><span data-stu-id="8251f-104">While there is an extensive set of fields out-of-the-box for managing a broad range of business processes, sometimes there is a need for a company to track additional information in the system.</span></span> <span data-ttu-id="8251f-105">เพื่อรองรับความต้องการนี้ คุณสามารถสร้างฟิลด์แบบกำหนดเองได้เพื่อปรับแอพลิเคชันให้เหมาะกับธุรกิจของคุณ หากคุณมีสิทธิ์ลักษณะในการทำงาน</span><span class="sxs-lookup"><span data-stu-id="8251f-105">To accommodate this need, you can create custom fields to tailor the application to fit your business, provided you have permissions to the feature.</span></span>
+
+<span data-ttu-id="8251f-106">ความสามารถในการเพิ่มฟิลด์ที่กำหนดเองจะพร้อมใช้งานในการปรับปรุงแพลตฟอร์ม 13 และรุ่นที่ใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="8251f-106">The ability to add custom fields is available in platform update 13 and later.</span></span>
+
+<span data-ttu-id="8251f-107">วิดีโอนี้แสดงความง่ายดายในการเพิ่มฟิลด์ที่กำหนดเองลงในหน้า: [การเพิ่มฟิลด์ที่กำหนดเองใน](https://www.youtube.com/watch?v=gWSGZI9Vtnc)</span><span class="sxs-lookup"><span data-stu-id="8251f-107">This video shows how easy it is to add a custom field to a page: [Adding custom fields](https://www.youtube.com/watch?v=gWSGZI9Vtnc).</span></span>
+
+## <a name="creating-custom-fields"></a><span data-ttu-id="8251f-108">การสร้างฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-108">Creating custom fields</span></span>
+
+<span data-ttu-id="8251f-109">หลังจากที่คุณได้ระบุข้อมูลเพิ่มเติมที่คุณต้องการติดตามในใบสมัคร คุณสามารถสร้างฟิลด์แบบกำหนดเองในตารางที่เหมาะสม และแสดงถึงฟิลด์ใหม่ในหน้าได้</span><span class="sxs-lookup"><span data-stu-id="8251f-109">After you've identified additional information that you would like to track in the application, you can create the custom field on the appropriate table and expose that new field on a page.</span></span>
+
+<span data-ttu-id="8251f-110">ขั้นตอนต่อไปนี้อธิบายกระบวนการสำหรับการสร้างฟิลด์แบบกำหนดเอง และการใส่ฟิลด์นั้นในแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="8251f-110">The following steps describe the process for creating a custom field and placing that field on a form.</span></span>
+
+1. <span data-ttu-id="8251f-111">นำทางไปยังแบบฟอร์มที่ซึ่งจำเป็นต้องมีฟิลด์ใหม่</span><span class="sxs-lookup"><span data-stu-id="8251f-111">Navigate to the form where the new field is needed.</span></span>
+2. <span data-ttu-id="8251f-112">เนื่องจากเป้าหมายสุดท้ายคือ การแสดงถึงฟิลด์ที่กำหนดเองในแบบฟอร์ม จุดป้อนข้อมูลสำหรับการสร้างฟิลด์ที่กำหนดเองมีอยู่ภายในประสบการณ์ใช้งานการตั้งค่าส่วนบุคคล</span><span class="sxs-lookup"><span data-stu-id="8251f-112">Because the end goal is to expose the custom field on a form, the entry point for creating custom fields exists inside the personalization experience.</span></span> <span data-ttu-id="8251f-113">เปิดแถบเครื่องมือการตั้งค่าส่วนบุคคล โดยการเลือก **ตัวเลือก** และจากนั้น **กำหนดแบบฟอร์มนี้ให้เป็นแบบส่วนบุคคล**</span><span class="sxs-lookup"><span data-stu-id="8251f-113">Open the personalization toolbar by selecting **Options**, and then **Personalize this form**.</span></span>
+3. <span data-ttu-id="8251f-114">คลิก **แทรก** และจากนั้น **ฟิลด์**</span><span class="sxs-lookup"><span data-stu-id="8251f-114">Click **Insert** and then **Field**.</span></span>
+4. <span data-ttu-id="8251f-115">เลือกภูมิภาคของแบบฟอร์มที่คุณต้องการแสดงฟิลด์ใหม่</span><span class="sxs-lookup"><span data-stu-id="8251f-115">Select the region of the form where you want to expose the new field.</span></span> <span data-ttu-id="8251f-116">หลังจากการเลือก กล่องโต้ตอบ **แทรกฟิลด์** จะแสดงรายการของฟิลด์ที่มีอยู่ที่สามารถแทรกลงในพื้นที่ที่เลือกของแบบฟอร์มได้</span><span class="sxs-lookup"><span data-stu-id="8251f-116">After selection, the **Insert fields** dialog box will display a list of existing fields that can be inserted into the selected region of the form.</span></span>
+5. <span data-ttu-id="8251f-117">ให้แน่ใจว่า ฟิลด์ที่คุณสนใจยังไม่มีอยู่ในรายการ</span><span class="sxs-lookup"><span data-stu-id="8251f-117">Ensure that the field you are interested in does not already exist in the list.</span></span> <span data-ttu-id="8251f-118">ถ้าเป็นเช่นนั้น คุณสามารถเลือกฟิลด์นั้นในรายการได้อย่างง่ายดาย และคลิก **แทรก**</span><span class="sxs-lookup"><span data-stu-id="8251f-118">If it does, you can simply select that field in the list and click **Insert**.</span></span>
+6. <span data-ttu-id="8251f-119">คลิกปุ่ม **สร้างฟิลด์ใหม่** ด้านบนรายการเพื่อเริ่มต้นกระบวนการสร้างฟิลด์แบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-119">Click the **Create new field** button above the list to initiate the process of creating a custom field.</span></span> <span data-ttu-id="8251f-120">นี่จะเปิดกล่องโต้ตอบ **สร้างฟิลด์ใหม่**</span><span class="sxs-lookup"><span data-stu-id="8251f-120">This will open the **Create new field** dialog box.</span></span>
+
+    <span data-ttu-id="8251f-121">ถ้าคุณไม่เห็นปุ่ม **สร้างฟิลด์ใหม่** คุณไม่มีสิทธิ์ที่จำเป็นในการใช้คุณลักษณะนี้</span><span class="sxs-lookup"><span data-stu-id="8251f-121">If you do not see the **Create new field** button, you do not have the necessary permissions to use this feature.</span></span>
+
+7. <span data-ttu-id="8251f-122">ในกล่องโต้ตอบ **สร้างฟิลด์ใหม่** ให้ป้อนข้อมูลดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="8251f-122">In the **Create new field** dialog box, enter the following information.</span></span>
+
+    1. <span data-ttu-id="8251f-123">เลือกตารางฐานข้อมูลที่ซึ่งฟิลด์นี้ควรถูกเพิ่ม</span><span class="sxs-lookup"><span data-stu-id="8251f-123">Select the database table where this field should be added.</span></span> <span data-ttu-id="8251f-124">โปรดทราบว่า เฉพาะตารางที่สนับสนุนฟิลด์แบบกำหนดเองจะปรากฏขึ้นในรายการแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="8251f-124">Note that only tables that support custom fields will appear in the drop-down list.</span></span> <span data-ttu-id="8251f-125">ดูส่วนด้านล่างสำหรับรายละเอียดทางเทคนิคบนตารางที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="8251f-125">See the section below for technical details on supported tables.</span></span>
+    2. <span data-ttu-id="8251f-126">เลือกชนิดข้อมูลสำหรับฟิลด์ใหม่</span><span class="sxs-lookup"><span data-stu-id="8251f-126">Select the data type for the new field.</span></span> <span data-ttu-id="8251f-127">ชนิดข้อมูลที่พร้อมใช้งานคือ กล่องกาเครื่องหมาย วันที่ วันที่และเวลา ทศนิยม หมายเลข รายการเบิกสินค้า และข้อความ</span><span class="sxs-lookup"><span data-stu-id="8251f-127">The available data types are checkbox, date, date time, decimal, number, picklist, and text.</span></span>
+
+        - <span data-ttu-id="8251f-128">ถ้าคุณเลือกชนิดข้อมูลข้อความ คุณยังสามารถระบุความยาวสูงสุดของข้อความที่สามารถป้อนในฟิลด์นี้ได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="8251f-128">If you choose the text data type, you can also specify the maximum length of the text that can be entered in this field.</span></span>
+        - <span data-ttu-id="8251f-129">ถ้าคุณเลือกชนิดข้อมูลรายการเบิกสินค้า คุณยังสามารถเลือกชุดของค่าที่ถูกต้องสำหรับฟิลด์ได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="8251f-129">If you choose the picklist data type, you can also select the set of valid values for the field.</span></span>
+
+    3. <span data-ttu-id="8251f-130">ระบุชื่อ ป้ายชื่อ และข้อความวิธีใช้สำหรับฟิลด์</span><span class="sxs-lookup"><span data-stu-id="8251f-130">Provide a name, label, and help text for the field.</span></span> <span data-ttu-id="8251f-131">ชื่อสอดคล้องกับชื่อฟิลด์ที่มีอยู่จริงในฐานข้อมูล ในขณะที่ข้อความป้ายชื่อและวิธีใช้เป็นข้อความที่ใช้เพื่อแสดงถึงฟิลด์นี้ในอินเทอร์เฟสผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="8251f-131">The name corresponds to the physical field name in the database, whereas the label and help text are the text used to represent this field in the user interface.</span></span>
+
+8. <span data-ttu-id="8251f-132">ถ้านี่เป็นเพียงฟิลด์เดียวที่คุณต้องการสร้างสำหรับแบบฟอร์มนี้ คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="8251f-132">If this is the only field that you need to create for this form, click **Save**.</span></span> <span data-ttu-id="8251f-133">ถ้าคุณต้องการสร้างฟิลด์เพิ่มเติม คลิก **บันทึก และสร้าง** และกลับไปยังขั้นตอนที่ 7</span><span class="sxs-lookup"><span data-stu-id="8251f-133">If you need to create additional fields, click **Save and new** and go back to step 7.</span></span> <span data-ttu-id="8251f-134">โปรดสังเกตว่า ขณะนี้ มีขีดจำกัดของฟิลด์ที่กำหนดเองเป็น **20 ฟิลด์ต่อตาราง**</span><span class="sxs-lookup"><span data-stu-id="8251f-134">Note that there is currently a limit of **20 custom fields per table**.</span></span>
+9. <span data-ttu-id="8251f-135">การออกจากกล่องโต้ตอบ **สร้างฟิลด์ใหม่** จะนำคุณกลับไปยังกล่องโต้ตอบ **แทรกฟิลด์**</span><span class="sxs-lookup"><span data-stu-id="8251f-135">Leaving the **Create new field** dialog box will return you to the **Insert fields** dialog box.</span></span> <span data-ttu-id="8251f-136">ฟิลด์ที่กำหนดเองใดๆ ที่เพิ่งถูกเพิ่ม จะสามารถถูกทำเครื่องหมายในรายการฟิลด์ที่จะแทรกลงในแบบฟอร์มได้โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="8251f-136">Any custom fields that were just added will be automatically marked in the field list to be inserted into the form.</span></span>
+10. <span data-ttu-id="8251f-137">คลิก **แทรก** เพื่อแทรกฟิลด์ที่ทำเครื่องหมายลงในพื้นที่ที่เลือกของแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="8251f-137">Click **Insert** to insert the marked fields into the selected region of the form.</span></span>
+11. <span data-ttu-id="8251f-138">**เลือกระบุได้:** เปิดใช้งานโหมด **ย้าย** จากแถบเครื่องมือการตั้งค่าส่วนบุคคล เพื่อย้ายฟิลด์ใหม่ไปยังตำแหน่งที่ต้องการของพวกเขาในพื้นที่ที่เลือก</span><span class="sxs-lookup"><span data-stu-id="8251f-138">**Optional:** Enable **Move** mode from the personalization toolbar to move the new fields to their desired location in the selected region.</span></span> <span data-ttu-id="8251f-139">ดู [ปรับประสบการณ์ผู้ใช้ให้เป็นแบบส่วนบุคคล](personalize-user-experience.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ความสามารถในการตั้งค่าส่วนบุคคลต่างๆ เพื่อเพิ่มประสิทธิภาพแบบฟอร์มสำหรับการใช้งานส่วนบุคคลของคุณ</span><span class="sxs-lookup"><span data-stu-id="8251f-139">See [Personalize the user experience](personalize-user-experience.md) for more information about how to use the various personalization capabilities to optimize a form for your personal usage.</span></span>
+
+## <a name="sharing-custom-fields-with-other-users"></a><span data-ttu-id="8251f-140">ใช้ฟิลด์ที่กำหนดเองร่วมกับผู้ใช้รายอื่น</span><span class="sxs-lookup"><span data-stu-id="8251f-140">Sharing custom fields with other users</span></span>
+
+<span data-ttu-id="8251f-141">หลังจากที่คุณสร้างฟิลด์แบบกำหนดเอง และแสดงในแบบฟอร์ม คุณอาจต้องการให้มุมมองหน้าที่มีการอัพเดตนี้ที่รวมฟิลด์ใหม่ให้ผู้ใช้อื่นๆ ในระบบ</span><span class="sxs-lookup"><span data-stu-id="8251f-141">After you have created a custom field and exposed it on a form, you might want to provide this updated page view that includes the new field to other users in the system.</span></span> <span data-ttu-id="8251f-142">ซึ่งสามารถทำได้ในสองวิธีที่แตกต่างกัน โดยใช้ความสามารถในการตั้งค่าส่วนบุคคลของผลิตภัณฑ์:</span><span class="sxs-lookup"><span data-stu-id="8251f-142">This can be accomplished in two different ways using the personalization capabilities of the product:</span></span>
+
+- <span data-ttu-id="8251f-143">กระบวนการผลิตที่แนะนำคือ ผ่านผู้ดูแลระบบ ผู้ซึ่งสามารถกำหนดการตั้งค่าส่วนบุคคลให้กับผู้ใช้ทั้งหมดหรือชุดย่อยของผู้ใช้ได้</span><span class="sxs-lookup"><span data-stu-id="8251f-143">The recommended route is through the system administrator, who can push a personalization to all users or a subset of users.</span></span> <span data-ttu-id="8251f-144">ดู [ปรับประสบการณ์ผู้ใช้เป็นแบบส่วนตัว](personalize-user-experience.md) สำหรับข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="8251f-144">See [Personalize the user experience](personalize-user-experience.md) for more details.</span></span>
+- <span data-ttu-id="8251f-145">อีกทางหนึ่งคือ คุณสามารถส่งออกการเปลี่ยนแปลงของคุณ (เรียกว่า *การตั้งค่าส่วนบุคคล*) ส่งไปยังผู้ใช้อย่างน้อยหนึ่งราย และให้ผู้ใช้ดังกล่าวแต่ละรายนำเข้าการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="8251f-145">Alternatively, you can export your changes (called *personalizations*), send them to one or more users, and have each of those users import your changes.</span></span> <span data-ttu-id="8251f-146">ตัวเลือก **จัดการ** บนแถบเครื่องมือการตั้งค่าส่วนบุคคล ช่วยให้คุณสามารถส่งออกและนำเข้าการตั้งค่าส่วนบุคคลได้</span><span class="sxs-lookup"><span data-stu-id="8251f-146">The **Manage** option on the personalization toolbar enables you to export and import personalizations.</span></span>
+
+## <a name="managing-custom-fields"></a><span data-ttu-id="8251f-147">การจัดการฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-147">Managing custom fields</span></span>
+
+<span data-ttu-id="8251f-148">การจัดการของฟิลด์ที่กำหนดเองทั้งหมดในระบบสามารถดำเนินการผ่านหน้า **ฟิลด์ที่กำหนดเอง** ในโมดูลการดูแลระบบได้</span><span class="sxs-lookup"><span data-stu-id="8251f-148">Management of all the custom fields in the system can be accomplished through the **Custom fields** page in the System administration module.</span></span> <span data-ttu-id="8251f-149">หน้านี้อนุญาตให้ผู้ใช้เข้าถึงความสามารถที่หลากหลาย ซึ่งรวมถึง:</span><span class="sxs-lookup"><span data-stu-id="8251f-149">This page allows users access to many capabilities, including:</span></span>
+
+- <span data-ttu-id="8251f-150">การดูรายการของฟิลด์ที่กำหนดเองทั้งหมดในระบบ</span><span class="sxs-lookup"><span data-stu-id="8251f-150">Viewing a list of all custom fields in the system.</span></span>
+- <span data-ttu-id="8251f-151">การแก้ไขที่จำกัดของฟิลด์ที่กำหนดเองที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="8251f-151">Limited editing of existing custom fields.</span></span>
+- <span data-ttu-id="8251f-152">การลบฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-152">Deleting custom fields.</span></span>
+- <span data-ttu-id="8251f-153">การแสดงฟิลด์ที่กำหนดเองบนเอนทิตี้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8251f-153">Exposing custom fields on data entities.</span></span>
+- <span data-ttu-id="8251f-154">การแสดงการแปลข้อความป้ายชื่อฟิลด์ที่กำหนดเองและข้อความวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="8251f-154">Providing translations of custom field labels and help text.</span></span>
+
+### <a name="viewing-all-custom-fields"></a><span data-ttu-id="8251f-155">การดูฟิลด์ที่กำหนดเองทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="8251f-155">Viewing all custom fields</span></span>
+
+<span data-ttu-id="8251f-156">หน้า **ฟิลด์ที่กำหนดเอง** ให้ความสามารถในการมองเห็นฟิลด์แบบกำหนดเองทั้งหมดที่ได้ถูกกำหนดไว้ในระบบ</span><span class="sxs-lookup"><span data-stu-id="8251f-156">The **Custom fields** page provides visibility to all the custom fields that have been defined in the system.</span></span> <span data-ttu-id="8251f-157">เพียงเลือกตารางที่คุณสนใจ และหน้าจะปรับปรุงเพื่อแสดงรายการของฟิลด์ที่กำหนดเองที่เชื่อมโยงกับตารางนั้น</span><span class="sxs-lookup"><span data-stu-id="8251f-157">Simply select the table that you are interested in, and the page will update to show a list of the custom fields associated with that table.</span></span> <span data-ttu-id="8251f-158">การเลือกฟิลด์ที่กำหนดเองจากรายการจะช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับฟิลด์ได้</span><span class="sxs-lookup"><span data-stu-id="8251f-158">Choosing a custom field from the list will allow you to view all the details about the field.</span></span>
+
+### <a name="editing-custom-fields"></a><span data-ttu-id="8251f-159">การแก้ไขฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-159">Editing custom fields</span></span>
+
+<span data-ttu-id="8251f-160">หลังจากการสร้างฟิลด์แบบกำหนดเอง แล้วสามารถปรับเปลี่ยนได้เฉพาะข้อมูลบางรายการเกี่ยวกับฟิลด์ที่กำหนดเองในหน้า **ฟิลด์แบบกำหนดเอง** ได้</span><span class="sxs-lookup"><span data-stu-id="8251f-160">After a custom field has been created, only certain pieces of information about the custom field can be modified on the **Custom fields** page.</span></span>
+
+<span data-ttu-id="8251f-161">คุณ *สามารถ* ปรับเปลี่ยนแอททริบิวต์เหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="8251f-161">You *can* modify these attributes:</span></span>
+
+- <span data-ttu-id="8251f-162">ป้ายชื่อ</span><span class="sxs-lookup"><span data-stu-id="8251f-162">Label</span></span>
+- <span data-ttu-id="8251f-163">ข้อความวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="8251f-163">Help text</span></span>
+- <span data-ttu-id="8251f-164">ความยาว สำหรับฟิลด์ข้อความ</span><span class="sxs-lookup"><span data-stu-id="8251f-164">Length, for Text fields</span></span>
+
+<span data-ttu-id="8251f-165">คุณ *ไม่สามารถ* แก้ไขแอททริบิวต์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8251f-165">You *cannot* edit the following attributes:</span></span>
+
+- <span data-ttu-id="8251f-166">ชื่อฟิลด์</span><span class="sxs-lookup"><span data-stu-id="8251f-166">Field name</span></span>
+- <span data-ttu-id="8251f-167">ชนิดข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8251f-167">Data type</span></span>
+
+<span data-ttu-id="8251f-168">นอกจากนี้ สำหรับฟิลด์รายการเบิกสินค้า ชุดของค่าที่ถูกต้องสำหรับฟิลด์ที่กำหนดเองสามารถถูกจัดลำดับใหม่ และสามารถเพิ่มค่าใหม่ได้; อย่างไรก็ตาม ค่าที่มีอยู่สำหรับฟิลด์รายการเบิกสินค้าไม่สามารถถูกลบออกได้</span><span class="sxs-lookup"><span data-stu-id="8251f-168">Additionally, for picklist fields, the set of valid values for the custom field can be reordered, and new values can be added; however, existing values for the picklist field cannot be removed.</span></span> <span data-ttu-id="8251f-169">คุณต้องคลิก **ใช้การเปลี่ยนแปลง** เมื่อคุณทำการแก้ไขฟิลด์เสร็จสิ้นสำหรับตารางที่ระบุ เพื่อบันทึกการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="8251f-169">Remember to click **Apply changes** when you are done editing fields for a particular table so the changes are saved.</span></span>
+
+### <a name="exposing-custom-fields-on-data-entities"></a><span data-ttu-id="8251f-170">การแสดงฟิลด์ที่กำหนดเองบนเอนทิตี้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8251f-170">Exposing custom fields on data entities</span></span>
+
+<span data-ttu-id="8251f-171">นอกจากนี้ ยังเป็นสิ้งสำคัญในการอนุญาตให้สามารถมองเห็นฟิลด์ที่กำหนดเองได้บนเอนทิตี้ข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8251f-171">It may also be important to allow custom fields to be visible on data entities.</span></span> <span data-ttu-id="8251f-172">เอนทิตี้ข้อมูลจะถูกใช้ในคุณลักษณะ [เปิดใน Office](../../dev-itpro/office-integration/office-integration.md) เช่นเดียวกับสำหรับสถานการณ์จำลองการนำเข้า/ส่งออกข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8251f-172">Data entities are utilized in the [Open in Office](../../dev-itpro/office-integration/office-integration.md) feature, as well as for data import/export scenarios.</span></span>
+
+<span data-ttu-id="8251f-173">ทำตามขั้นตอนเหล่านี้เพื่อแสดงถึงฟิลด์ที่กำหนดเองบนเอนทิตี้ข้อมูล:</span><span class="sxs-lookup"><span data-stu-id="8251f-173">Follow these steps to expose a custom field on a data entity:</span></span>
+
+1. <span data-ttu-id="8251f-174">เลือกฟิลด์ที่กำหนดเองในแบบฟอร์ม **ฟิลด์ที่กำหนดเอง**</span><span class="sxs-lookup"><span data-stu-id="8251f-174">Select the custom field on the **Custom fields** form.</span></span>
+2. <span data-ttu-id="8251f-175">ขยายส่วน **เอนทิตี** เพื่อดูชุดของเอนทิตี้ที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="8251f-175">Expand the **Entities** section to view the set of relevant entities.</span></span>
+3. <span data-ttu-id="8251f-176">คลิกปุ่ม **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="8251f-176">Click the **Edit** button.</span></span>
+4. <span data-ttu-id="8251f-177">ปรับเปลี่ยนฟิลด์ **ถูกเปิดใช้งาน** ที่จะถูกเลือกสำหรับแต่ละเอนทิตี้ที่ควรแสดงฟิลด์นี้</span><span class="sxs-lookup"><span data-stu-id="8251f-177">Modify the **Enabled** field to be selected for each entity that should expose this field.</span></span>
+5. <span data-ttu-id="8251f-178">คลิก **บันทึกการเปลี่ยนแปลง** เพื่อบันทึกการเลือกของคุณ</span><span class="sxs-lookup"><span data-stu-id="8251f-178">Click **Apply changes** to save your selections.</span></span>
+
+### <a name="allowing-custom-fields-to-be-displayed-in-other-languages"></a><span data-ttu-id="8251f-179">การอนุญาตให้ฟิลด์ที่กำหนดเองถูกแสดงในภาษาอื่น</span><span class="sxs-lookup"><span data-stu-id="8251f-179">Allowing custom fields to be displayed in other languages</span></span>
+
+<span data-ttu-id="8251f-180">เนื่องจากฟิลด์ที่กำหนดเองอาจจำเป็นต้องสามารถเข้าถึงได้โดยผู้ใช้ในหลายภาษา หน้า **ฟิลด์ที่กำหนดเอง** มีกลไกเพื่ออนุญาตให้มีข้อความป้ายชื่อและวิธีใช้สำหรับฟิลด์ที่กำหนดเองที่จะถูกแปลเป็นภาษาอื่น</span><span class="sxs-lookup"><span data-stu-id="8251f-180">Because custom fields may need to be accessed by users in a variety of languages, the **Custom fields** page provides a mechanism to allow the label and help text for a custom field to be translated into other languages.</span></span>
+
+<span data-ttu-id="8251f-181">ขั้นตอนต่อไปนี้อธิบายกระบวนการสำหรับการแปลฟิลด์ที่กำหนดเองในภาษาอื่น:</span><span class="sxs-lookup"><span data-stu-id="8251f-181">The following steps describe the process for translating custom fields in other languages:</span></span>
+
+1. <span data-ttu-id="8251f-182">เลือกฟิลด์ที่กำหนดเองในหน้า **ฟิลด์ที่กำหนดเอง**</span><span class="sxs-lookup"><span data-stu-id="8251f-182">Select the custom field on the **Custom fields** page.</span></span>
+2. <span data-ttu-id="8251f-183">เลือกปุ่ม **การแปล** ในบานหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="8251f-183">Select the **Translations** button in the Action Pane.</span></span> <span data-ttu-id="8251f-184">นี่จะเปิดเมนูแบบหล่นลงที่มีการแปลที่มีอยู่สำหรับฟิลด์นี้</span><span class="sxs-lookup"><span data-stu-id="8251f-184">This will open a drop-down menu with existing translations for this field.</span></span>
+3. <span data-ttu-id="8251f-185">เมนูแบบหล่นลง **ภาษา** แสดงชุดของภาษาที่ได้มีการแปลไว้ให้เรียบร้อยแล้ว</span><span class="sxs-lookup"><span data-stu-id="8251f-185">The **Language** drop-down menu shows the set of languages for which translations have already been provided.</span></span>
+
+    <span data-ttu-id="8251f-186">ถ้าคุณต้องการแก้ไขการแปลที่มีอยู่ เลือกภาษาที่ต้องการจากเมนู และปรับเปลี่ยนค่าสำหรับป้ายชื่อ และข้อความวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="8251f-186">If you want to edit an existing translation, select the desired language from the menu and modify the values for the label and help text.</span></span>
+
+    <span data-ttu-id="8251f-187">มิฉะนั้น คลิกปุ่ม **เพิ่มภาษา** เลือกภาษาที่ต้องการจากเมนู และจากนั้น ให้ค่าที่แปลสำหรับข้อความป้ายชื่อและวิธีใช้</span><span class="sxs-lookup"><span data-stu-id="8251f-187">Otherwise, click the **Add language** button, select the desired language from the menu, and then provide translated values for the label and help text.</span></span>
+
+4. <span data-ttu-id="8251f-188">คลิก **ตกลง** เมื่อคุณเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="8251f-188">Click **OK** when you are finished.</span></span>
+
+### <a name="deleting-custom-fields"></a><span data-ttu-id="8251f-189">การลบฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="8251f-189">Deleting custom fields</span></span>
+
+<span data-ttu-id="8251f-190">ในบางกรณี คุณอาจตัดสินใจว่าไม่ต้องการฟิลด์แบบกำหนดเองอีกต่อไป</span><span class="sxs-lookup"><span data-stu-id="8251f-190">In some rare cases, you may decide that a custom field is no longer needed.</span></span> <span data-ttu-id="8251f-191">เมื่อเหตุการณ์นี้เกิดขึ้น ผู้ดูแลระบบสามารถเลือกที่จะลบฟิลด์จากหน้า **ฟิลด์ที่กำหนดเอง** ได้</span><span class="sxs-lookup"><span data-stu-id="8251f-191">When this occurs, a system administrator can choose to delete the field from the **Custom fields** page.</span></span> <span data-ttu-id="8251f-192">ในการทำเช่นนี้ ให้แน่ใจว่ามีการเลือกฟิลด์ที่ถูกต้อง คลิก **ลบ** คลิก **ใช่** เพื่อยืนยันการลบ และสุดท้ายคลิก **ใช้การเปลี่ยนแปลง**</span><span class="sxs-lookup"><span data-stu-id="8251f-192">To do this, ensure the correct field is selected, click **Delete**, click **Yes** to confirm the deletion, and finally click **Apply changes**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8251f-193">การดำเนินการนี้ไม่สามารถยกเลิกได้ และจะทำให้ข้อมูลที่เกี่ยวข้องกับฟิลด์ถูกลบออกอย่างถาวรจากฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8251f-193">This action cannot be undone, and will result in the data associated with the field being permanently deleted from the database.</span></span>
+
+## <a name="appendix"></a><span data-ttu-id="8251f-194">ภาคผนวก</span><span class="sxs-lookup"><span data-stu-id="8251f-194">Appendix</span></span>
+
+### <a name="who-can-create-custom-fields"></a><span data-ttu-id="8251f-195">ใครสามารถสร้างฟิลด์แบบกำหนดเองได้?</span><span class="sxs-lookup"><span data-stu-id="8251f-195">Who can create custom fields?</span></span>
+
+<span data-ttu-id="8251f-196">เนื่องจากเป็นการป้องกันระบบ ผู้ดูแลระบบเท่านั้นจะสามารถสร้างฟิลด์แบบกำหนดเองได้ตามค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="8251f-196">As a safeguard to the system, only system administrators are able to create custom fields by default.</span></span> <span data-ttu-id="8251f-197">อย่างไรก็ตาม ผู้ใช้ที่มีความชำนาญเหล่านั้นผู้ซึ่งองค์กรเห็นว่าจำเป็นจะได้รับสิทธิ์ในการสร้างฟิลด์แบบกำหนดเองโดยผู้ดูแลระบบ โดยใช้บทบาทความปลอดภัย **ผู้ใช้ที่มีความชำนาญแบบกำหนดเองสำหรับรันไทม์**</span><span class="sxs-lookup"><span data-stu-id="8251f-197">However, those power users whom the organization deems necessary can be given rights to create custom fields by a system administrator using the **Runtime customization power user** security role.</span></span> <span data-ttu-id="8251f-198">ผู้ใช้ที่ไม่มีบทบาทความปลอดภัยนี้จะไม่สามารถสร้างฟิลด์แบบกำหนดเองได้ แต่จะยังคงสามารถดูและโต้ตอบกับฟิลด์ที่กำหนดเองที่เพิ่มโดยผู้ใช้รายอื่นในระบบ</span><span class="sxs-lookup"><span data-stu-id="8251f-198">Users without this security role will not be able to create custom fields, but will still be able to see and interact with custom fields added by other users in the system.</span></span>
+
+### <a name="what-tables-support-custom-fields"></a><span data-ttu-id="8251f-199">ตารางใดสนับสนุนฟิลด์ที่กำหนดเอง?</span><span class="sxs-lookup"><span data-stu-id="8251f-199">What tables support custom fields?</span></span>
+
+<span data-ttu-id="8251f-200">สำหรับประสิทธิภาพและเหตุผลทางเทคนิค เฉพาะตารางที่ตรงตามเงื่อนไขต่อไปนี้ ในขณะนี้อนุญาตให้ใช้ฟิลด์แบบกำหนดเองที่จะถูกเพิ่ม</span><span class="sxs-lookup"><span data-stu-id="8251f-200">For performance and technical reasons, only tables that meet the following conditions currently allow custom fields to be added.</span></span>
+
+- <span data-ttu-id="8251f-201">ตารางต้องมีการระบุป้ายเป็นหนึ่งในกลุ่มเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="8251f-201">The table must be tagged as one of these groups:</span></span>
+
+    - <span data-ttu-id="8251f-202">กลุ่ม</span><span class="sxs-lookup"><span data-stu-id="8251f-202">Group</span></span>
+    - <span data-ttu-id="8251f-203">หัวข้อแผ่นงาน</span><span class="sxs-lookup"><span data-stu-id="8251f-203">WorksheetHeader</span></span>
+    - <span data-ttu-id="8251f-204">หลัก</span><span class="sxs-lookup"><span data-stu-id="8251f-204">Main</span></span>
+    - <span data-ttu-id="8251f-205">เบ็ดเตล็ด</span><span class="sxs-lookup"><span data-stu-id="8251f-205">Miscellaneous</span></span>
+    - <span data-ttu-id="8251f-206">พารามิเตอร์</span><span class="sxs-lookup"><span data-stu-id="8251f-206">Parameter</span></span>
+    - <span data-ttu-id="8251f-207">ข้อมูลอ้างอิง</span><span class="sxs-lookup"><span data-stu-id="8251f-207">Reference</span></span>
+    - <span data-ttu-id="8251f-208">หัวข้อธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="8251f-208">TransactionHeader</span></span>
+
+- <span data-ttu-id="8251f-209">ตารางไม่สามารถขยายตารางอีกตารางได้</span><span class="sxs-lookup"><span data-stu-id="8251f-209">The table cannot extend another table.</span></span>
+- <span data-ttu-id="8251f-210">ตารางไม่สามารถถูกทำเครื่องหมายเป็นตารางระบบได้</span><span class="sxs-lookup"><span data-stu-id="8251f-210">The table cannot be marked as a system table.</span></span>
+- <span data-ttu-id="8251f-211">ตารางไม่สามารถเป็นตารางชั่วคราวได้</span><span class="sxs-lookup"><span data-stu-id="8251f-211">The table cannot be a temporary table.</span></span>
