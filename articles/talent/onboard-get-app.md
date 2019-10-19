@@ -1,6 +1,6 @@
 ---
-title: เรียกใช้แอป Dynamics 365 for Talent - Onboard
-description: หัวข้อนี้จะอธิบายถึงวิธีการเรียกใช้รุ่นสแตนด์อะโลนของแอป Microsoft Dynamics 365 for Talent - Onboard หรือรุ่นที่มี Comprehensive Hiring Add-On
+title: รับแอป Dynamics 365 Talent - Onboard
+description: หัวข้อนี้จะอธิบายถึงวิธีการเรียกใช้รุ่นสแตนด์อะโลนของแอป Microsoft Dynamics 365 Talent - Onboard หรือรุ่นที่มี Comprehensive Hiring Add-On
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731666"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010786"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>เรียกใช้แอป Dynamics 365 for Talent: Onboard
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>เรียกใช้แอป Dynamics 365 Talent: Onboard
 
 [!include [banner](includes/banner.md)]
 
-คุณสามารถดูการสาธิตและลองใช้แอป Microsoft Dynamics 365 for Talent: Onboard ได้ฟรีจาก [หน้าผลิตภัณฑ์ Onboard](https://dynamics.microsoft.com/talent/onboard/)
+คุณสามารถดูการสาธิตและลองใช้แอป Microsoft Dynamics 365 Talent: Onboard: ได้ฟรีจาก [หน้าผลิตภัณฑ์ Onboard](https://dynamics.microsoft.com/talent/onboard/)
 
 > [!NOTE]
 > การทดลองใช้ฟรีต้องใช้บัญชีอีเมลสำหรับธุรกิจ
 
-คุณสามารถซื้อการบอกรับเป็นสมาชิก Onboard เป็นแอปแบบสแตนด์อโลน หรือเป็นส่วนหนึ่งของ Dynamics 365 for Talent Talent เป็นระบบการจัดการทุนมนุษย์ที่ครอบคลุม (HCM) ซึ่งรวมถึง Dynamics 365 for Talent: Attract, Onboard, and Core HR สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการซื้อ Onboard โปรดดูที่ [หน้าผลิตภัณฑ์ Onboard](https://dynamics.microsoft.com/talent/onboard/)
+คุณสามารถซื้อการบอกรับเป็นสมาชิก Onboard เป็นแอปแบบสแตนด์อโลน หรือเป็นส่วนหนึ่งของ Dynamics 365 Talent Talent เป็นระบบการจัดการทุนมนุษย์ที่ครอบคลุม (HCM) ซึ่งรวมถึง Dynamics 365 Talent: Attract Onboard และ Core HR สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการซื้อ Onboard โปรดดูที่ [หน้าผลิตภัณฑ์ Onboard](https://dynamics.microsoft.com/talent/onboard/)
 
 ในระหว่างกระบวนการทดลองหรือการซื้อ คุณจะตั้งค่าที่อยู่อีเมลและรหัสผ่านของ Microsoft 365 ของคุณ ตรวจสอบให้แน่ใจว่าได้บันทึกค่าเหล่านี้
 
 > [!WARNING]
 > คุณไม่สามารถย้ายข้อมูลจากการทดลองของคุณไปยังสภาพแวดล้อมการบอกรับเป็นสมาชิกที่ชำระเงินของคุณ <!--Reviewers: please verify.-->
 
-เพื่อค้นหาเกี่ยวกับคุณลักษณะใหม่ๆ ใน Talent ดู [มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent](./whats-new.md) และ [บันทึกย่อประจำรุ่นของ Dynamics 365 และ Power Platform](https://docs.microsoft.com/business-applications-release-notes/index) ถ้าคุณต้องการแสดงตัวอย่างคุณลักษณะใหม่ๆ ใน Onboard โปรดดูที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](./access-preview-feature.md)
+เพื่อค้นหาเกี่ยวกับคุณลักษณะใหม่ๆ ใน Talent ดู [มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent](./whats-new.md) และ [บันทึกย่อประจำรุ่นของ Dynamics 365 และ Power Platform](https://docs.microsoft.com/business-applications-release-notes/index) ถ้าคุณต้องการแสดงตัวอย่างคุณลักษณะใหม่ๆ ใน Onboard โปรดดูที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](./access-preview-feature.md)
 
 ถ้าคุณเป็นผู้เชี่ยวชาญด้าน IT และต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเตรียมใช้งานแอป Onboard สองรุ่น โปรดดู [การเตรียมใช้งานสำหรับแอป Onboard](./modular-app-tech-faq.md)ดูที่การจัดเตรียมสำหรับแอป onboard
 

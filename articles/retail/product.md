@@ -1,0 +1,78 @@
+---
+title: คำแนะนำผลิตภัณฑ์บน POS
+description: หัวข้อนี้จะอธิบายถึงการใช้คำแนะนำผลิตภัณฑ์บนอุปกรณ์การขายหน้าร้าน (POS)
+author: bebeale
+manager: AnnBe
+ms.date: 10/01/19
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailParameters
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 259664
+ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: asharchw
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278402"
+---
+# <a name="product-recommendations-on-pos"></a>คำแนะนำผลิตภัณฑ์บน POS
+
+[!include [banner](includes/banner.md)]
+
+ตามหลัก คำแนะนำของผลิตภัณฑ์เป็นแอพลิเคชันธุรกิจการเปลี่ยนแบบซึ่งครอบคลุมทั้งพื้นที่ขายปลีกทั้งหมดเพื่อสร้างประสบการณ์การค้นหาผลิตภัณฑ์ที่เหมาะเจาะ น่าติดตาม อย่างมากมาย เมื่อต้องการใช้งานลักษณะการทำงานนี้บน[POS ให้ทำตามขั้นตอนเกี่ยวกับวิธีการเพิ่มข้อเสนอแนะให้กับอุปกรณ์ POS ของคุณ](add-recommendations-control-pos-screen.md) 
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคำแนะนำผลิตภัณฑ์ โปรดอ่าน  [คำแนะนำผลิตภัณฑ์ในเอกสารของ POS](../commerce/product-recommendations.md) 
+
+## <a name="scenarios"></a>สถานการณ์จำลอง
+
+คำแนะนำผลิตภัณฑ์ถูกเปิดใช้งานสำหรับสถานการณ์ POS ต่อไปนี้ ซึ่งจะพร้อมใช้งานใน Cloud POS หรือ Modern POS (MPOS)
+
+1. ในหน้า **รายละเอียดผลิตภัณฑ์** :
+
+    - • ถ้าการเชื่อมโยงของร้านค้าเยี่ยมชมหน้า **รายละเอียดผลิตภัณฑ์** เมื่อดูที่ธุรกรรมก่อนหน้านี้ผ่านช่องทางต่าง ๆ บริการคำแนะนำจะแนะนำสินค้าเพิ่มเติมที่มีแนวโน้มที่จะถูกซื้อพร้อมกัน
+
+    [![คำแนะนำเกี่ยวกับหน้ารายละเอียดผลิตภัณฑ์](./media/proddetails.png)](./media/proddetails.png)
+
+2. ในหน้า **ธุรกรรม** :
+
+    - • กลไกคำแนะนำสินค้าจะแนะนำสินค้าตามรายการสินค้าบนรายการสินค้าทั้งหมดในตระกร้าที่ซื้อบ่อยคราวเดียวกัน
+
+    > [!NOTE]
+    > เพื่อแสดงคำแนะนำในหน้า **ธุรกรรม** ผู้ขายปลีกต้องปรับปรุงโครงร่างหน้าจอใน Dynamics 365 for Retail จะต้องปล่อยการควบคุม **คำแนะนำ** ไปยังหน้า **ธุรกรรม**
+
+    [![คำแนะนำเกี่ยวกับหน้าธุรกรรม](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+
+## <a name="configure-dynamics-365-retail-to-enable-pos-recommendations"></a>ตั้งค่าคอนฟิก Dynamics 365 Retail เพื่อเปิดใช้งานคำแนะนำ POS
+
+ถ้าต้องการตั้งค่าคำแนะนำผลิตภัณฑ์ ให้ปฏิบัติตามขั้นตอนเหล่านี้
+
+1. ตรวจสอบให้แน่ใจว่ายริการของคุณได้อัพเดทเป็น **10.0.6 บิวด์**
+2. ปฏิบัติตามคำแนะนำเกี่ยวกับวิธีการ [เปิดใช้งานคำแนะนำผลิตภัณฑ์](../commerce/enable-product-recommendations.md) สำหรับธุรกิจของคุณ
+3. ไม่จำเป็น: เมื่อต้องการแสดงคำแนะนำบนหน้าจอธุรกรรม ไปที่ **โครงร่างหน้าจอ** เลือกโครงร่างหน้าจอของคุณ เปิดใช้ **ตัวออกแบบโครงร่างหน้าจอ** แล้วปล่อยการควบคุม **คำแนะนำ** เมื่อจำเป็น
+4. ไปที่ **พารามิเตอร์การขายปลีก** เลือก **Machine-learning** เลือก **ใช่** ภายใต้ **เปิดใช้งานคำแนะนำ POS**
+5. เมื่อต้องการดูคำแนะนำบน POS เรียกใช้งานการตั้งค่าคอนฟิกส่วนกลาง **1110** เมื่อต้องการเปลี่ยนแปลงในตัวออกแบบโครงร่างหน้าจอ POS เรียกใช้งานการตั้งค่าคอนฟิกช่องทาง **1070**
+
+
+
+## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>แก้ไขปัญหาที่ซึ่งคุณมีคำแนะนำผลิตภัณฑ์ที่เปิดใช้งานอยู่แล้ว
+
+- นำทางไปยัง **พารามิเตอร์การขายปลีก** \> **ลิสต์คำแนะนำ** \> **ปิดใช้งานคำแนะนำผลิตภัณฑ์** และรัน **งานการตั้งค่าคอนฟิกส่วนกลาง \[9999\]** 
+- ถ้าคุณได้เพิ่ม **ตัวควบคุมคำแนะนำ** ไปยังหน้าจอธุรกรรมของคุณโดยใช้ **โปรแกรมออกแบบโครงร่างหน้าจอ** โปรดลบรายการนั้นเช่นกัน
+- หากคุณมีคำถามเพิ่มเติม ให้ดู [คำแนะนำที่ถามบ่อย](../commerce/faq-recommendations.md) สำหรับข้อมูลเพิ่มเติม
+
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+
+[เพิ่มคำแนะนำควบคุมให้กับหน้าธุรกรรมบนอุปกรณ์ POS](add-recommendations-control-pos-screen.md)
+[ภาพรวมคำแนะนำผลิตภัณฑ์](../commerce/product-recommendations.md)
+[เปิดใช้คำแนะนำผลิตภัณฑ์](../commerce/enable-product-recommendations.md) 

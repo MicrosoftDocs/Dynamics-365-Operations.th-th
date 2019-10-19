@@ -1,5 +1,5 @@
 ---
-title: ฝังแอป PowerApps ใน Core HR
+title: ฝังแอป PowerApps ใน Dynamics 365 - Core HR
 description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งรายการเมนู PowerApps หายไปจากโมดูลการดูแลระบบ
 author: andreabichsel
 manager: AnnBe
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742830"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008441"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>ฝังแอป PowerApps ใน Core HR
 
 [!include [banner](includes/banner.md)]
 
-**ออก**
+**ออกใช้**
 
 รายการเมนู **PowerApps** หายไปจากโมดูล **การดูแลระบบ**
 
@@ -38,11 +38,11 @@ ms.locfileid: "1742830"
 
 **ความละเอียด**
 
-มีการเปลี่ยนแปลงวิธีการที่แอป PowerApps ถูกฝัง ขณะนี้มีการเพิ่มแอป PowerApps โดยใช้แบบจำลองการตั้งค่าส่วนบุคคล คุณสามารถเพิ่มแอป PowerApps ไปยังหน้าได้เกือบทั้งหมดใน Microsoft Dynamics 365 for Talent
+มีการเปลี่ยนแปลงวิธีการที่แอป PowerApps ถูกฝัง PowerApps ขณะนี้ ถูกเพิ่มโดยใช้แบบจำลองการตั้งค่าส่วนบุคคล คุณสามารถเพิ่มแอป PowerApps ไปยังหน้าได้เกือบทั้งหมดใน Microsoft Dynamics 365 Talent
 
 สำหรับข้อมูลเกี่ยวกับวิธีการฝังแอป PowerApps ใน Talent ดู [ฝังแอป PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)
 
-ลูกค้า PowerApps ใดๆ ที่ฝังแอป ก่อนที่จะควรมีการอัพเกรดการเปลี่ยนแปลงเป็นแบบจำลองใหม่
+ลูกค้า PowerApps ที่ฝังแอปก่อนมีการเปลี่ยนแปลง ที่จะควรมีการอัพเกรดการเปลี่ยนแปลงเป็นแบบจำลองใหม่
 
 ปุ่ม **PowerApps** อยู่ในมุมขวาบนของหน้าเกือบทุกหน้าใน Talent คุณสามารถใช้ปุ่มนี้เพื่อแทรกแอป PowerApps ได้
 

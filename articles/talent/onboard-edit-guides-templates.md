@@ -1,6 +1,6 @@
 ---
-title: แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อมใน Dynamics 365 for Talent - Onboard
-description: หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มกิจกรรมและข้อมูลอื่นๆ ไปยังคำแนะนำและเท็มเพลตการเตรียมความพร้อมใน Microsoft Dynamics 365 for Talent - Onboard
+title: แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อมใน Dynamics 365 Talent - Onboard
+description: หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มกิจกรรมและข้อมูลอื่นๆ ไปยังคำแนะนำและเท็มเพลตการเตรียมความพร้อมใน Microsoft Dynamics 365 Talent - Onboard
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864404"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010809"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อมใน Dynamics 365 for Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อม
 
 [!include [banner](includes/banner.md)]
 
-หลังจากที่คุณสร้างคู่มือหรือเท็มเพลตการเตรียมความพร้อมใน Microsoft Dynamics 365 for Talent: Onboard คุณต้องเพิ่มคำแนะนำ กิจกรรม ผู้ติดต่อ และทรัพยากร Onboard ช่วยให้คุณสามารถรวมเนื้อหาที่สมบูรณ์ใคู่มือการเตรียมความพร้อมของคุณ ซึ่งรวมถึง:
+หลังจากที่คุณสร้างคู่มือหรือเท็มเพลตการเตรียมความพร้อมใน Microsoft Dynamics 365 Talent: Onboard คุณต้องเพิ่มคำแนะนำ กิจกรรม ผู้ติดต่อ และทรัพยากร Onboard ช่วยให้คุณสามารถรวมเนื้อหาที่สมบูรณ์ใคู่มือการเตรียมความพร้อมของคุณ ซึ่งรวมถึง:
 
 - วิดีโอ YouTube
 - งานนำเสนอ Microsoft Sway

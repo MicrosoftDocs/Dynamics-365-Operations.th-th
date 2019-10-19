@@ -1,6 +1,6 @@
 ---
-title: ซิงโครไนส์ใบแจ้งหนี้ข้อตกลงใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
-description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Microsoft Dynamics 365 for Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Microsoft Dynamics 365 for Finance and Operations ตรงกัน
+title: การซิงโครไนส์ข้อตกลงของใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ข้อตกลงตามใบแจ้งหนี้ใน Dynamics 365  Field Service เป็นใบแจ้งหนี้ข้อความอิสระใน Dynamics 365 Supply Chain Management
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
@@ -19,46 +19,46 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ca0014dc8bc1c70670a3cf85527eee0ef44865f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560179"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249876"
 ---
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>การซิงโครไนส์ข้อตกลงของใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Microsoft Dynamics 365 for Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Microsoft Dynamics 365 for Finance and Operations ตรงกัน
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Dynamics 365 Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Dynamics 365 Supply Chain Management ตรงกัน
 
 ## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
-เท็มเพลตต่อไปนี้และงานพื้นฐานถูกใช้ในการรันการซิงโครไนส์ของใบแจ้งหนี้ข้อตกลงจาก Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
+เท็มเพลตต่อไปนี้และงานพื้นฐานจะถูกใช้ในการดำเนินการซิงโครไนส์ข้อตกลงตามใบแจ้งหนี้จาก Field Service เป็นใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
 
 **ชื่อของเท็มเพลตในการรวมข้อมูล:**
 
-- ใบแจ้งหนี้ข้อตกลง (Field Service ไปยัง Fin และ Ops)
+- ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management)
 
-**ชื่อของงานในโครงการการรวมข้อมูล:**
+**ชื่อของงานในโครงการการรวมข้อมูล**
 
 - ส่วนหัวของใบแจ้งหนี้
-- รายการในใบแจ้งหนี้
+- รายการใบแจ้งหนี้
 
 จำเป็นต้องทำการซิงโครไนส์ต่อไปนี้ ก่อนที่การซิงโครไนส์ของใบแจ้งหนี้ข้อตกลงจะเกิดขึ้นได้:
 
-- บัญชี (Sales ไปยัง Fin and Ops) – โดยตรง
+- รายการ (ยอดขาย ที่ส่งไป Supply Chain Management) - โดยตรง
 
 ## <a name="entity-set"></a>การตั้งค่าเอนทิตี้
 
-| Field Service  | Finance and Operations                 |
+| Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
 | ใบแจ้งหนี้       | ส่วนหัวใบแจ้งหนี้แบบข้อความอิสระของลูกค้า CDS |
 | invoicedetails | รายการใบแจ้งหนี้แบบข้อความอิสระของลูกค้า CDS   |
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 
-ใบแจ้งหนี้ที่ถูกสร้างจากข้อตกลงใน Field Service สามารถทำข้อมูลให้ตรงกันกับ Finance and Operations ผ่านทางโครงการการรวมข้อมูล Common Data Service (CDS) การปรับปรุงไปยังใบแจ้งหนี้เหล่านี้จะซิงโครไนส์กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations ถ้าสถานะการบัญชีของใบแจ้งหนี้ข้อความอิสระเป็น **อยู่ระหว่างดำเนินการ** หลังจากใบแจ้งหนี้ข้อความอิสระถูกลงรายการบัญชีใน Finance and Operations และสถานะการบัญชีถูกอัพเดตเป็น **เสร็จสมบูรณ์** คุณไม่สามารถซิงโครไนส์การอัพเดตจาก Field Service ได้อีกต่อไป
+ใบแจ้งหนี้ที่ถูกสร้างจากข้อตกลงใน Field Service สามารถซิงโครไนส์ไปยัง Supply Chain Management ผ่านทางโครงการการรวมข้อมูล Common Data Service การอัพเดตใบแจ้งหนี้เหล่านี้จะซิงโครไนส์กับใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management ถ้าสถานะการบัญชีของใบแจ้งหนี้ข้อความอิสระเป็น **อยู่ระหว่างดำเนินการ** หลังจากใบแจ้งหนี้ข้อความอิสระถูกลงรายการบัญชีใน Supply Chain Management และสถานะการบัญชีถูกอัพเดตเป็น **เสร็จสมบูรณ์** คุณจะไม่สามารถซิงโครไนส์การอัพเดตจาก Field Service ได้อีกต่อไป
 
 ## <a name="field-service-crm-solution"></a>โซลูชัน CRM ของ Field Service
 
@@ -66,18 +66,18 @@ ms.locfileid: "1560179"
 
 ฟิลด์ **มีจุดเริ่มต้นของข้อตกลง** ได้ถูกเพิ่มไปยังเอนทิตี **รายการใบแจ้งหนี้** ฟิลด์นี้ช่วยรับประกันว่า เฉพาะรายการใบแจ้งหนี้ที่สร้างขึ้นจากข้อตกลงจะถูกซิงโครไนส์ ค่าเป็น **จริง** ถ้ารายการใบแจ้งหนี้เกิดจากข้อตกลงนั้น
 
-**วันที่ในใบแจ้งหนี้** เป็นฟิลด์บังคับใน Finance and Operations ดังนั้น ฟิลด์ต้องมีค่าใน Field Service ก่อนที่การซิงโครไนส์จะเกิดขึ้น เพื่อให้ตรงกับความต้องการนี้ จะมีการเพิ่มตรรกะต่อไปนี้:
+**วันที่ในใบแจ้งหนี้** เป็นฟิลด์บังคับใน Supply Chain Management ดังนั้น ฟิลด์ต้องมีค่าใน Field Service ก่อนที่การซิงโครไนส์จะเกิดขึ้น เพื่อให้ตรงกับความต้องการนี้ จะมีการเพิ่มตรรกะต่อไปนี้:
 
 - ถ้าฟิลด์ **วันที่ใบแจ้งหนี้** ว่างเปล่าในเอนทิตี **ใบแจ้งหนี้** (นั่นคือ ถ้ามีไม่มีค่า) จะถูกกำหนดเป็นวันที่ปัจจุบัน เมื่อมีการเพิ่มรายการใบแจ้งหนี้ที่เกิดจากข้อตกลง
 - ผู้ใช้สามารถเปลี่ยนฟิลด์ **วันที่ใบแจ้งหนี้** ได้ อย่างไรก็ตาม เมื่อผู้ใช้พยายามบันทึกใบแจ้งหนี้ที่เกิดจากข้อตกลง เขาหรือเธอได้รับข้อผิดพลาดในกระบวนการทางธุรกิจ ถ้าฟิลด์ **วันที่ในใบแจ้งหนี้** ว่างเปล่าบนใบแจ้งหนี้
 
 ## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแม็ปและข้อกำหนดเบื้องต้น
 
-### <a name="in-finance-and-operations"></a>ใน Finance and Operations
+### <a name="in-supply-chain-management"></a>ใน Supply Chain Management
 
-ต้องตั้งค่าจุดเริ่มต้นของใบแจ้งหนี้สำหรับการรวม เพื่อแยกแยะใบแจ้งหนี้ข้อความอิสระใน Finance and Operations ที่สร้างขึ้นจากใบแจ้งหนี้ข้อตกลงใน Field Service เมื่อใบแจ้งหนี้มีจุดเริ่มต้นของใบแจ้งหนี้ของชนิด **การรวมใบแจ้งหนี้ข้อตกลง** ฟิลด์ **หมายเลขใบแจ้งหนี้ภายนอก** จะแสดงบนส่วนหัว **ใบแจ้งหนี้การขาย**
+ต้องตั้งค่าจุดเริ่มต้นของใบแจ้งหนี้สำหรับการรวม เพื่อแยกแยะใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management ที่สร้างขึ้นจากข้อตกลงตามใบแจ้งหนี้ใน Field Service เมื่อใบแจ้งหนี้มีจุดเริ่มต้นของใบแจ้งหนี้ของชนิด **การรวมใบแจ้งหนี้ข้อตกลง** ฟิลด์ **หมายเลขใบแจ้งหนี้ภายนอก** จะแสดงบนส่วนหัว **ใบแจ้งหนี้การขาย**
 
-นอกจากการปรากฏในส่วนหัวของใบแจ้งหนี้ ข้อมูล **หมายเลขใบแจ้งหนี้ภายนอก** สามารถใช้เพื่อช่วยในการรับประกันว่า ใบแจ้งหนี้ที่สร้างขึ้นจากใบแจ้งหนี้ของข้อตกลงของ Field Service จะถูกกรองออกได้ในระหว่างการซิงโครไนส์ใบแจ้งหนี้จาก Finance and Operations ไปยัง Field Service
+นอกจากที่จะปรากฎด้านบนของใบแจ้งหนี้แล้ว ข้อมูล **หมายเลขใบแจ้งหนี้ภายนอก** สามารถใช้ในการรับประกันว่า ใบแจ้งหนี้ที่สร้างขึ้นจากข้อตกลงตามใบแจ้งหนี้ใน Field Service จะถูกคัดกรองออกไปในระหว่างการซิงโครไนส์ใบแจ้งหนี้จาก Supply Chain Management ไปยัง Field Service
 
 1. ไปยัง **บัญชีลูกหนี้** \> **ตั้งค่า** \> **รหัสจุดเริ่มต้นในใบแจ้งหนี้**
 2. เลือก **สร้าง** เพื่อสร้างจุดเริ่มต้นของใบแจ้งหนี้ใหม่
@@ -91,7 +91,7 @@ ms.locfileid: "1560179"
 
 งาน: **รายการใบแจ้งหนี้**  
 
-ตรวจสอบให้แน่ใจว่า ค่าเริ่มต้นสำหรับฟิลด์  Finance and Operations **ค่าที่แสดงบัญชีหลัก** ถูกอัพเดตเพื่อให้ตรงกับค่าที่ต้องการ
+ตรวจสอบให้แน่ใจว่า ค่าเริ่มต้นของฟิลด์ Supply Chain Management **ค่าที่แสดงบัญชีหลัก** ถูกอัพเดตให้ตรงกับค่าที่ต้องการ
 
 ค่าเท็มเพลตเริ่มต้นคือ **401100**
 
@@ -99,10 +99,10 @@ ms.locfileid: "1560179"
 
 ภาพประกอบต่อไปนี้แสดงการแม็ปเท็มเพลตในการรวมข้อมูล
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>ใบแจ้งหนี้ข้อตกลง (Field Service ไปยัง Fin และ Ops): ส่วนหัวใบแจ้งหนี้
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): หัวเรื่องใบแจ้งหนี้
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>ใบแจ้งหนี้ข้อตกลง (Field Service ไปยัง Fin และ Ops): รายการใบแจ้งหนี้
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): ลำดับใบแจ้งหนี้
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

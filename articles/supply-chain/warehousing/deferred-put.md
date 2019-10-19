@@ -1,6 +1,6 @@
 ---
 title: การประมวลผลงานคลังสินค้าที่รอการตัดบัญชี
-description: หัวข้อนี้อธิบายถึงฟังก์ชันที่ทำให้การประมวลผลที่รอการตัดบัญชีของการดำเนินการส่งสินค้าของงานคลังสินค้าพร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations
+description: หัวข้อนี้จะอธิบายถึงฟังก์ชันที่ทำให้การประมวลผลที่รอการตัดบัญชีของการดำเนินการส่งสินค้าของงานคลังสินค้าพร้อมใช้งานใน Dynamics 365 Supply Chain Management
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863597"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026957"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>การประมวลผลงานคลังสินค้าที่รอการตัดบัญชี
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863597"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-หัวข้อนี้อธิบายถึงฟังก์ชันที่ทำให้การประมวลผลที่รอการตัดบัญชีของการดำเนินการส่งสินค้าสำหรับงานคลังสินค้าพร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้อธิบายถึงฟังก์ชันที่ทำให้การประมวลผลที่รอการตัดบัญชีของการดำเนินการส่งสินค้าสำหรับงานคลังสินค้าพร้อมใช้งานใน Dynamics 365 Supply Chain Management
+
 
 ฟังก์ชันการประมวลผลที่รอการตัดบัญชีจะทำให้ผู้ปฏิบัติงานคลังสินค้ายังคงสามารถดำเนินการงานอื่นได้ ในขณะที่การดำเนินการส่งสินค้าถูกประมวลผลในเบื้องหลัง การประมวลผลที่รอการตัดบัญชีจะมีประโยชน์ เมื่อต้องมีการประมวลผลรายการงานจำนวนมาก และผู้ปฏิบัติงานสามารถทำให้งานนั้นถูกประมวลผลแบบอะซิงโครนัสได้ นอกจากนี้ ยังมีประโยชน์เมื่อเซิร์ฟเวอร์สามารถมีการเพิ่มเฉพาะกิจหรือไม่ได้วางแผนไว้ในเวลาประมวลผล และเวลาการประมวลผลที่เพิ่มขึ้นอาจส่งผลกระทบต่อประสิทธิภาพการทำงานของผู้ใช้
 

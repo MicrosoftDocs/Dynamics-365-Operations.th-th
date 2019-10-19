@@ -1,6 +1,6 @@
 ---
 title: การสร้าง การอนุมัติ และการลงชื่อข้อเสนอ
-description: หัวข้อนี้ให้รายละเอียดวิธีการสร้าง อนุมัติ และลงชื่อข้อเสนอ สำหรับผู้สมัครโดยใช้ Dynamics 365 for Talent
+description: หัวข้อนี้ให้รายละเอียดวิธีการสร้าง อนุมัติ และลงชื่อข้อเสนอ สำหรับผู้สมัครโดยใช้ Dynamics 365 Talent
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739644"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008116"
 ---
 # <a name="create-approve-and-sign-offers"></a>สร้าง อนุมัติ และลงชื่อข้อเสนอ
 
@@ -110,7 +110,7 @@ ms.locfileid: "1739644"
 หาก Adobe Sign ถูกเลือกเป็นวิธีการของลายเซ็นอิเล็กทรอนิกส์ที่ต้องการ ผู้สร้างข้อเสนอต้องเชื่อมต่อลิขสิทธิ์ Adobe Sign ของพวกเขาที่ขั้นตอนนี้ 
 
 ### <a name="docusign"></a>DocuSign
-หาก DocuSign ถูกเลือกเป็นวิธีการของลายเซ็นอิเล็กทรอนิกส์ที่ต้องการ ผู้สร้างข้อเสนอต้องเชื่อมต่อลิขสิทธิ์ DocuSign ของพวกเขา หลังจากที่ล็อกอิน บัญชีเริ่มต้นและสิทธิ์ที่เกี่ยวข้องกับโพรไฟล์ DocuSign ของผู้ใช้ จะถูกเชื่อมต่อกับ Talent Attract 
+หาก DocuSign ถูกเลือกเป็นวิธีการของลายเซ็นอิเล็กทรอนิกส์ที่ต้องการ ผู้สร้างข้อเสนอต้องเชื่อมต่อลิขสิทธิ์ DocuSign ของพวกเขา หลังจากที่ลงชื่อเข้าใช้ บัญชีเริ่มต้นและสิทธิ์ที่เกี่ยวข้องกับโพรไฟล์ DocuSign ของผู้ใช้จะถูกเชื่อมต่อกับ Talent: Attract 
 
 -  คุณสามารถดู และแก้ไขเท็มเพลตอีเมลได้ตามความจำเป็น
 

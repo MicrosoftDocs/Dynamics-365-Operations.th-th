@@ -1,6 +1,6 @@
 ---
-title: ทำงานกับวันที่และเวลาใน Microsoft Dynamics 365 for Talent
-description: ทำความเข้าใจสิ่งที่ควรคาดหวังเมื่อใช้ฟิลด์วันที่และเวลาใน Microsoft Dynamics 365 for Talent ทำให้ชัดเจนมากขึ้นในสิ่งที่คาดหวังเมื่อโต้ตอบกับข้อมูลวันที่และเวลาในฟอร์มใน Dynamics 365 for Talent แหล่งที่มาภายนอกหรือ Common Data Service
+title: ทำงานกับวันที่และเวลาใน Microsoft Dynamics 365 Talent
+description: ทำความเข้าใจสิ่งที่ควรคาดหวังเมื่อใช้ฟิลด์วันที่และเวลาใน Microsoft Dynamics 365 Talent ทำให้ชัดเจนมากขึ้นในสิ่งที่คาดหวัง เมื่อโต้ตอบกับข้อมูลวันที่และเวลาในฟอร์มใน Talent แหล่งที่มาภายนอก หรือ Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791234"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007978"
 ---
 # <a name="date-and-time-fields-in-talent"></a>ฟิลด์วันที่และเวลาใน Talent
 
 [!include [banner](includes/banner.md)]
 
-ฟิลด์ **วันที่และเวลา** แนวคิดพื้นฐานใน Dynamics 365 for Talent นับเป็นสิ่งสำคัญที่จะต้องทำความเข้าใจวิธีการทำงานกับข้อมูล **วันที่และเวลา** ในฟอร์ม Dynamics 365, Common Data Service และแหล่งข้อมูลภายนอก
+ฟิลด์ **วันที่และเวลา** แนวคิดพื้นฐานใน Dynamics 365 Talent นับเป็นสิ่งสำคัญที่จะต้องทำความเข้าใจวิธีการทำงานกับข้อมูล **วันที่และเวลา** ในฟอร์ม Dynamics 365, Common Data Service และแหล่งข้อมูลภายนอก
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>การทำความเข้าใจความแตกต่างระหว่างชนิดของข้อมูลในฟิลด์วันที่และวันที่และเวลา
 

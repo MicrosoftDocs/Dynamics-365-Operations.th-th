@@ -1,13 +1,13 @@
 ---
-title: เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
-description: หัวข้อนี้อธิบายถึงตัวอย่างบางอย่างของสถานการณ์สมมุติของการเพิ่มความสามารถของ Microsoft Dynamics 365 for Talent ที่ใช้ Microsoft PowerApps และ Microsoft Flow
+title: เพิ่มความสามารถ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
+description: หัวข้อนี้อธิบายถึงตัวอย่างบางอย่างของสถานการณ์สมมุติของการเพิ่มความสามารถของ Microsoft Dynamics 365 Talent ที่ใช้ Microsoft PowerApps และ Microsoft Flow
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781453"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008070"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
+# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>เพิ่มความสามารถ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์จำลอง
 
-หัวข้อนี้อธิบายถึงตัวอย่างบางอย่างของสถานการณ์สมมุติของการเพิ่มความสามารถของ Microsoft Dynamics 365 for Talent ที่ใช้ Microsoft PowerApps และ Microsoft Flow คุณสามารถนำเข้าโซลูชันแพคเกจที่เชื่อมโยงกับแต่ละตัวอย่างไปยังสภาพแวดล้อม PowerApps ของคุณ จากนั้นคุณสามารถใช้แพคเกจเป็นคำแนะนำหรือเป็นจุดเริ่มต้นเพื่อนำสถานการณ์ที่สามารถใช้ได้กับองค์กรของคุณไปใช้
+หัวข้อนี้อธิบายถึงตัวอย่างบางอย่างของสถานการณ์สมมุติของการเพิ่มความสามารถของ Microsoft Dynamics 365 Talent ที่ใช้ Microsoft PowerApps และ Microsoft Flow คุณสามารถนำเข้าโซลูชันแพคเกจที่เชื่อมโยงกับแต่ละตัวอย่างไปยังสภาพแวดล้อม PowerApps ของคุณ จากนั้นคุณสามารถใช้แพคเกจเป็นคำแนะนำหรือเป็นจุดเริ่มต้นเพื่อนำสถานการณ์ที่สามารถใช้ได้กับองค์กรของคุณไปใช้
 
 > [!IMPORTANT]
 > ถ้าคุณต้องการใช้เท็มเพลตและแอพลิเคชันที่อธิบายไว้ในหัวข้อนี้ "ตามที่เป็น" ให้แน่ใจว่าได้ทดสอบแล้วเพื่อให้แน่ใจว่าจะครอบคลุมสถานการณ์จำลองทั้งหมดที่เกี่ยวข้องกับการนำไปใช้ของคุณโดยเฉพาะ
@@ -36,7 +36,7 @@ ms.locfileid: "1781453"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 - เมื่อต้องการนำเข้าแพคเกจ ผู้ใช้ต้องมีสิทธิ์ **ผู้สร้างสภาพแวดล้อม**
-- เมื่อต้องการส่งออกหรือนำเข้าแอป ผู้ใช้ต้องมีสิทธิ์ทดลองใช้ PowerApps Plan 2 หรือ PowerApps Plan 2
+- เมื่อต้องการส่งออกหรือนำเข้าแอป ผู้ใช้ต้องมีใบอนุญาตใช้ PowerApps Plan 2 หรือใบอนุญาตในการทดลองใช้ PowerApps Plan 2
 
 ## <a name="flow--form-connect"></a>การเชื่อมต่อขั้นตอน - แบบฟอร์ม
 
@@ -57,11 +57,11 @@ ms.locfileid: "1781453"
 
 ## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>เริ่มต้นและแยกพารามิเตอร์ที่ส่งผ่านไปยัง Powerapps
 
-คุณสามารถใช้เท็มเพลต **เริ่มต้นและแยกพารามิเตอร์ที่ส่งผ่านไปยัง Powerapps** โดยเป็นจุดเริ่มต้นสำหรับสถานการณ์จำลอง PowerApps ที่เกี่ยวข้องกับ Attract โดยเฉพาะได้ ซึ่งประกอบด้วยพารามิเตอร์เริ่มต้นทั้งหมดที่ถูกส่งผ่านโดย Attract เช่น **ใบสมัครงาน**, **รหัสผู้สมัคร** และ **JobID**
+คุณสามารถใช้เท็มเพลต **เริ่มต้นและแยกพารามิเตอร์ที่ส่งผ่านไปยัง Powerapps** โดยเป็นจุดเริ่มต้นสำหรับสถานการณ์จำลองของ PowerApps ที่เกี่ยวข้องกับ Attract โดยเฉพาะได้ ซึ่งประกอบด้วยพารามิเตอร์เริ่มต้นทั้งหมดที่ถูกส่งผ่านโดย Attract เช่น **ใบสมัครงาน**, **รหัสผู้สมัคร** และ **JobID**
 
 คุณสามารถใช้เท็มเพลตนี้เพื่อดึงข้อมูลแบบฟอร์มการประเมินผู้สมัครเพื่อให้ผู้จัดการที่ว่าจ้างสามารถดูการประเมินที่ผู้สมัครกรอกไว้ได้
 
-คุณสามารถฝังแอปที่สร้างขึ้นโดยใช้ PowerApps ไว้ในเท็มเพลตงานใน Attract
+แอปที่สร้างขึ้นโดยใช้ PowerApps สามารถฝังไว้ในเท็มเพลตงานใน Attract ได้
 
 เมื่อต้องการดาวน์โหลดเท็มเพลต **เริ่มต้นและแยกพารามิเตอร์ที่ส่งผ่านไปยัง Powerapps** และกำหนดโครงสร้างของเอนทิตีด้วยตนเอง ไปที่ [เริ่มต้นและแยกพารามิเตอร์ที่ส่งผ่านไปยัง Powerapps](https://go.microsoft.com/fwlink/?linkid=2081991) บนศูนย์ดาวน์โหลด Microsoft
 
@@ -79,7 +79,7 @@ ms.locfileid: "1781453"
 
 คุณสามารถขยายเท็มเพลตนี้เพื่อติดตามการเปลี่ยนแปลงขั้นของผู้สมัครตลอดทั้งกระบวนการสรรหาบุคลากร และเพื่อส่งการแจ้งเตือนไปยังทีมงานการจ้างงานและผู้สมัคร
 
-โดยทั่วไป สำหรับเอนทิตีที่จัดเก็บใน Common Data Service คุณสามารถตั้งค่าขั้นตอนเพื่อส่งการแจ้งเตือนสำหรับเหตุการณ์ที่เกิดขึ้นใน Core HR, Attract หรือ Dynamics 365 Talent: Onboard
+โดยทั่วไป สำหรับเอนทิตีที่จัดเก็บใน Common Data Service สามารถตั้งค่าขั้นตอนเพื่อส่งการแจ้งเตือนสำหรับเหตุการณ์ที่เกิดขึ้นใน Core HR, Attract หรือ Onboard
 
 เมื่อต้องการดาวน์โหลดเท็มเพลต **ขั้นตอน - การแจ้งเตือนทางอีเมล** ไปที่ [ขั้นตอน - การแจ้งเตือนทางอีเมล](https://go.microsoft.com/fwlink/?linkid=2082103) บนศูนย์ดาวน์โหลด Microsoft
 
@@ -106,7 +106,7 @@ ms.locfileid: "1781453"
 
 คุณสามารถฝังแอปนี้ในระบบพนักงานบริการตนเอง (ESS) สำหรับการส่งการอ้างอิง หรือคุณสามารถใช้เป็นไฮเปอร์ลิงค์ในเว็บไซต์องค์กรและรันเป็นแอปเอกเทศ
 
-เมื่อต้องการดาวน์โหลด **แอปการอ้างอิง** ไปที่ [โซลูชันความสามารถในการเพิ่มฟังก์ชัน Dynamics 365 for Talent : แอปการอ้างอิง](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) บนศูนย์การดาวน์โหลดของ Microsoft คุณสามารถนำเข้าแอปนี้และเลือกกำหนดเพื่อเพิ่มฟังก์ชันเพิ่มเติมได้
+เมื่อต้องการดาวน์โหลด **แอปการอ้างอิง** ไปที่ [โซลูชันความสามารถในการเพิ่มฟังก์ชัน Dynamics 365 Talent : แอปการอ้างอิง](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) บนศูนย์การดาวน์โหลดของ Microsoft คุณสามารถนำเข้าแอปนี้และเลือกกำหนดเพื่อเพิ่มฟังก์ชันเพิ่มเติมได้
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

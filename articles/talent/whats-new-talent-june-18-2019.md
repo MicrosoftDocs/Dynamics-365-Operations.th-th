@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 for Talent (18 มิถุนายน 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Talent (18 มิถุนายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/18/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-18
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: bfc90d6eec27e55364d4bf2279ffd32fb8d53ca8
-ms.sourcegitcommit: f21b2349967feb3db2016c8ff83a2b11957f8863
+ms.openlocfilehash: 059a0bad2f56b97a1708b64eab9d2adda6d2c8ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "1691981"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009064"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-18-2019"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 for Talent (18 มิถุนายน 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-18-2019"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Talent (18 มิถุนายน 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
 
 ## <a name="coming-soon-in-attract"></a>เร็วๆ นี้ใน Attract
 
@@ -43,7 +43,7 @@ ms.locfileid: "1691981"
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 
@@ -83,6 +83,6 @@ ms.locfileid: "1691981"
 
 ตัวเลือกใหม่จะช่วยให้ผู้จัดการสามารถดูประสิทธิภาพของทั้งรายงานโดยตรงและรายงานที่ขยายของตนได้ ในปัจจุบัน ผู้จัดการรายการสามารถกำหนดและปรับปรุงเป้าหมายผลการปฏิบัติงานและออกการตรวจทานใหม่ นอกจากนี้ ผู้จัดการโดยตรงและพนักงานของพวกเขาสามารถรักษาและปรับปรุงสมุดรายวันประสิทธิภาพ เพื่อช่วยรับประกันว่ากระบวนการตรวจทานประสิทธิภาพจะทำงานได้อย่างราบรื่น เมื่อมีการใช้การเปลี่ยนแปลงนี้ ผู้จัดการจะสามารถดูและรักษาข้อมูลที่เกี่ยวข้องกับประสิทธิภาพสำหรับรายงานแบบขยายของพวกเขา นอกเหนือจากรายงานโดยตรงของพวกเขา
 
-### <a name="print-performance-reviews"></a>พิมพ์การตรวจสอบประสิทธิภาพ
+### <a name="print-performance-reviews"></a>พิมพ์การตรวจทานประสิทธิภาพ
 
 พนักงาน ผู้จัดการ และ HR จะสามารถพิมพ์การตรวจทานประสิทธิภาพของพนักงาน

@@ -1,6 +1,6 @@
 ---
-title: ผู้ใช้สามารถเข้าถึง Core HR ได้ แต่ไม่ใช่แอป Onboard หรือ Attract
-description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งผู้ใช้สามารถเข้าถึง Microsoft Dynamics 365 for Talent Core HR แต่ไม่สามารถเข้าถึง Attract หรือแอป Onboard ได้
+title: ผู้ใช้สามารถเข้าถึง Core HR ได้แต่ไม่สามารถเข้าถึง Onboard หรือ Attract ได้
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งผู้ใช้สามารถเข้าถึง Microsoft Dynamics 365 Talent - Core HR แต่ไม่สามารถเข้าถึง Attract หรือ Onboard ได้
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741740"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009317"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>ผู้ใช้สามารถเข้าถึง Core HR ได้ แต่ไม่สามารถเข้าถึงแอป Onboard หรือ Attract ได้
+# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>ผู้ใช้สามารถเข้าถึง Core HR ได้แต่ไม่สามารถเข้าถึง Onboard หรือ Attract ได้
 
 [!include [banner](includes/banner.md)]
 
 **รายละเอียดสภาพแวดล้อม**
 
 - การปรับใช้ผ่าน Microsoft Dynamics Lifecycle Services (LCS) ถูกดำเนินการโดยผู้ใช้ A
-- ผู้ใช้ A เพิ่มผู้ใช้ B เป็นผู้ใช้ไปยัง Microsoft Dynamics 365 for Talent Core HR
+- ผู้ใช้ A เพิ่มผู้ใช้ B เป็นผู้ใช้ไปยัง Microsoft Dynamics 365 Talent: Core HR
 
 **ออกใช้**
 

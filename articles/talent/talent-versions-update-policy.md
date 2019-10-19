@@ -1,6 +1,6 @@
 ---
 title: ความต้องการของระบบ Talent และนโยบายการอัพเดต
-description: หัวข้อนี้แสดงความต้องการสำหรับ Dynamics 365 for Talent นอกจากนี้ยังระบุนโยบายการอัพเดตด้วย
+description: หัวข้อนี้แสดงความต้องการสำหรับ Dynamics 365 Talent นอกจากนี้ยังระบุนโยบายการอัพเดตด้วย
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741786"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024171"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>ความต้องการของระบบ Talent และนโยบายการอัพเดต
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงข้อกำหนดสำหรับ Microsoft Dynamics 365 for Talent ซึ่งรวมถึง Attract Onboard และ Core HR นอกจากนี้ ยังกำหนดโครงร่างประเทศและภูมิภาคที่ Talent พร้อมใช้งาน รวมถึงข้อมูลเกี่ยวกับภาษาและการแปลสำหรับข้อมูล Talent นอกจากนี้ หัวข้อนี้จะแสดงนโยบายการอัพเดตสำหรับ Talent
+หัวข้อนี้จะอธิบายถึงข้อกำหนดสำหรับ Microsoft Dynamics 365 Talent ซึ่งรวมถึง Attract Onboard และ Core HR นอกจากนี้ ยังกำหนดโครงร่างประเทศและภูมิภาคที่ Talent พร้อมใช้งาน รวมถึงข้อมูลเกี่ยวกับภาษาและการแปลสำหรับข้อมูล Talent นอกจากนี้ หัวข้อนี้จะแสดงนโยบายการอัพเดตสำหรับ Talent
 
 ## <a name="supported-web-browsers"></a>เว็บเบราเซอร์ที่สนับสนุน
 
-เว็บแอพลิเคชัน Microsoft Dynamics 365 for Talent สามารถเรียกใช้ในเว็บเบราเซอร์ใดก็ได้ที่ทำงานบนระบบปฏิบัติการที่ระบุ: 
+Microsoft Dynamics 365 Talent สามารถเรียกใช้ในเว็บเบราเซอร์ใดก็ได้ต่อไปนี้ที่ทำงานบนระบบปฏิบัติการที่ระบุ: 
 
 *   Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10
 *   Internet Explorer 11 บน Windows 10, Windows 8.1 หรือ Windows 7
@@ -46,11 +46,11 @@ ms.locfileid: "1741786"
 > * ตัวแก้ไขเวิร์กโฟลว์จะเริ่มต้นการใช้งานเป็นแอพลิเคชัน ClickOnce เฉพาะ Microsoft Edge และ Internet Explorer (บนเวอร์ชันที่สนับสนุน Microsoft Windows) สนับสนุนแอพลิเคชัน ClickOnce แอพลิเคชัน ClickOnce โปรแกรมแก้ไขลำดับงานต้องมีระบบปฏิบัติการที่เข้ากันกับงาน 64 บิต
 > * เมื่อต้องการแสดงตัวอย่างไฟล์ PDF เราขอแนะนำให้คุณใช้เบราว์เซอร์ที่ทันสมัย เช่น Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10 หรือ Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บนแท็บเล็ต Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus 10
 >   ข้อกำหนดของเครือข่าย
-> * Dynamics 365 for Talent ได้รับการออกแบบมาสำหรับเครือข่ายที่มีเวลาแฝง 250-300 มิลลิวินาที (ms) หรือน้อยกว่า สิ่งนี้คือเวลาแฝงจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูล Microsoft Azure ที่โฮสต์ Dynamics 365 for Talent เราขอแนะนำให้คุณทดสอบเวลาแฝงบนเครือข่ายที่ [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test")
-> * ข้อกำหนดของแบนด์วิธสำหรับ Dynamics 365 for Talent ที่ขึ้นอยู่กับสถานการณ์ของคุณ สถานการณ์ทั่วไปส่วนใหญ่จำเป็นต้องมีแบนด์วิดท์ที่มากกว่า 50 กิโลไบต์ต่อวินาที (KBps)
+> * Dynamics 365 Talent ได้รับการออกแบบมาสำหรับเครือข่ายที่มีเวลาแฝง 250-300 มิลลิวินาที (ms) หรือน้อยกว่า นี่คือเวลาแฝงจากไคลเอนต์เบราว์เซอร์ไปยังศูนย์ข้อมูล Microsoft Azure ที่โฮสต์ Talent เราขอแนะนำให้คุณทดสอบเวลาแฝงบนเครือข่ายที่ [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test")
+> * ข้อกำหนดของแบนด์วิธสำหรับ Talent ขึ้นอยู่กับสถานการณ์ของคุณ สถานการณ์ทั่วไปส่วนใหญ่จำเป็นต้องมีแบนด์วิดท์ที่มากกว่า 50 กิโลไบต์ต่อวินาที (KBps)
 > 
 > [!WARNING]
-> อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก สำหรับลูกค้าที่มีความกังวลเกี่ยวกับข้อกำหนดของแบนด์วิดท์ ให้ใช้ Dynamics 365 for Talent รุ่นทดลองใช้
+> อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก สำหรับลูกค้าที่มีความกังวลเกี่ยวกับข้อกำหนดของแบนด์วิธ ให้ใช้ Talent รุ่นทดลองใช้
 
 ## <a name="supported-microsoft-office-applications"></a>แอพลิเคชัน Microsoft Office ที่สนับสนุน
 
@@ -68,6 +68,6 @@ ms.locfileid: "1741786"
 
 ## <a name="update-policy"></a>นโยบายการอัพเดต
 
-Microsoft Dynamics 365 for Talent ทำหน้าที่เหมือนกับการเสนอของ Cloud มีการอัพเดต Dynamics 365 for Talent อย่างต่อเนื่อง และนำไปใช้โดยอัตโนมัติโดย Microsoft
+Talent ทำหน้าที่เหมือนกับการเสนอของ Cloud การอัพเดตของ Talent เป็นแบบต่อเนื่อง และถูกนำไปใช้โดยอัตโนมัติโดย Microsoft
 
-การอัพเดตจะถูกนำออกใช้เป็นช่วงเวลาตามปกติ และจะนำไปใช้กับสภาพแวดล้อมทั้งหมด Dynamics 365 for Talent ได้รับการสนับสนุนตาม [นโยบายของ Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") ซึ่งให้คำแนะนำอย่างต่อเนื่องและคาดการณ์ได้สำหรับความพร้อมในการสนับสนุนผลิตภัณฑ์
+การอัพเดตจะถูกนำออกใช้เป็นช่วงเวลาตามปกติ และจะนำไปใช้กับสภาพแวดล้อมทั้งหมด Talent ได้รับการสนับสนุนตาม [นโยบายของ Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") ซึ่งให้คำแนะนำอย่างต่อเนื่องและคาดการณ์ได้สำหรับความพร้อมในการสนับสนุนผลิตภัณฑ์

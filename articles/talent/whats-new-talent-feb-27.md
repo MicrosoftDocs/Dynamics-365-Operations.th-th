@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (27 กุมภาพันธ์ 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (27 กุมภาพันธ์ 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519202"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024010"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (27 กุมภาพันธ์ 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (27 กุมภาพันธ์ 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 
@@ -77,9 +77,9 @@ ms.locfileid: "1519202"
 
 ในองค์กรหลายองค์กร ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการอาจมีการเข้าถึงเรกคอร์ดค่าตอบแทนที่เฉพาะเจาะจงเท่านั้น เรกคอร์ดเหล่านี้อาจมีไว้สำหรับผู้บริหารหรือพนักงานในภูมิภาค การเปลี่ยนแปลงนี้จะทำให้ฝ่ายทรัพยากรบุคคล (HR) สามารถจัดการและรักษาแผนค่าตอบแทนสำหรับกลุ่มพนักงานอื่นๆ ในองค์กรได้ Security role ที่ถูกกำหนดให้กับแผนคงที่และผันแปร จะกำหนดการเข้าถึงแผนและข้อมูลพนักงานเหล่านั้นที่เกี่ยวข้องกับพวกเขา เช่น (ตัวอย่างเช่น เรกคอร์ดเงินโบนัส หรือข้อมูลเงินเดือน) เฉพาะบทบาทที่มีการเข้าถึงที่ระบุ จะสามารถดำเนินการค่าตอบแทนสำหรับพนักงานเหล่านั้นได้
 
-### <a name="platform-update-24"></a>แพลตฟอร์ม update 24
+### <a name="platform-update-24-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 24 สำหรับ Finance and Operations
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Microsoft Dynamics 365 for Finance and Operations การปรับปรุงแพลตฟอร์ม 24 (มีนาคม 2019) ดู [คุณลักษณะการแสดงตัวอย่างใน Finance and Operations การปรับปรุงแพลตฟอร์ม 24 (มีนาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงแพลตฟอร์ม 24 สำหรับ Microsoft Dynamics 365 Finance and Operations (มีนาคม 2019) ดู [คุณลักษณะการแสดงตัวอย่างใน Finance and Operations การปรับปรุงแพลตฟอร์ม 24 (มีนาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>ทำให้ค่าตอบแทนคงที่ของพนักงานพร้อมใช้งานสำหรับการมอบหมายตำแหน่งในอนาคต
 
@@ -87,10 +87,10 @@ ms.locfileid: "1519202"
 
 ## <a name="known-issues"></a>ปัญหาที่ทราบ
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>การเปลี่ยนแปลงไปยังเท็มเพลตการรวม Core HR (Talent Common Data Service ไปยัง Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>การเปลี่ยนแปลงไปยังเท็มเพลตการรวม Core HR (Talent Common Data Service ไปยัง Finance)
 เท็มเพลตสำหรับ Core HR ได้มีการอัพเดตเป็น "เท็มเพลตการสอบถามขั้นสูง" ดังนั้น ตามค่าเริ่มต้น การสอบถามขั้นสูงจะพร้อมใช้งานสำหรับโครงการที่สร้างขึ้นโดยใช้เท็มเพลตนี้ นอกจากนี้ ฟังก์ชันการแม็ปเริ่มต้นใดๆ จะมองเห็นได้เฉพาะในโปรแกรมแก้ไขการสอบถามขั้นสูง (ฟังก์ชันการแม็ปค่าเริ่มต้นปรากฏเป็น "FN" ในการแม็ป)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อผิดพลาดในการแม็ป ดู [มีอะไรใหม่ หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อผิดพลาดในการแม็ป ดู [มีอะไรใหม่หรือเปลี่ยนแปลงอะไรใน Dynamics 365 Talent: Core HR (14 ธันวาคม 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14)
 
 ในการใช้เท็มเพลตใหม่ สร้างโครงการใหม่ และเลือกเท็มเพลตการรวม Talent ใหม่
 

@@ -1,6 +1,6 @@
 ---
 title: ตัวเลือกการรายงานใน Talent
-description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งลูกค้าต้องการกำหนดค่ารายงาน Microsoft Dynamics 365 for Talent หรือสร้างรายงานใหม่
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งลูกค้าต้องการกำหนดค่ารายงาน Microsoft Dynamics 365 Talent หรือสร้างรายงานใหม่
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741809"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009363"
 ---
 # <a name="reporting-options-in-talent"></a>ตัวเลือกการรายงานใน Talent
 
@@ -34,7 +34,7 @@ ms.locfileid: "1741809"
 
 **อาการ**
 
-ลูกค้าต้องการกำหนดค่ารายงาน Microsoft Dynamics 365 for Talent หรือสร้างรายงานใหม่
+ลูกค้าต้องการกำหนดค่ารายงาน Microsoft Dynamics 365 Talent หรือสร้างรายงานใหม่
 
 **ออกใช้**
 
@@ -42,7 +42,7 @@ ms.locfileid: "1741809"
 
 **โซลูชัน**
 
-- ข้อมูล Core HR ที่ไหลไปยัง Common Data Service สามารถถูกรายงานได้ ผ่านตัวเชื่อมต่อ PowerApps Common Data Service ไปยัง Power BI Desktop โปรดทราบว่า Common Data Service ประกอบด้วยชุดย่อยของข้อมูล Core HR สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และแดชบอร์ด ดู [สร้างรายงานและแดชบอร์ด Power BI ด้วย PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)
+- ข้อมูล Core HR ที่ไหลไปยัง Common Data Service สามารถถูกรายงานได้ผ่านตัวเชื่อมต่อ PowerApps Common Data Service ไปยัง Power BI Desktop โปรดทราบว่า Common Data Service ประกอบด้วยชุดย่อยของข้อมูล Core HR สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และแดชบอร์ด ดู [สร้างรายงานและแดชบอร์ด Power BI ด้วย PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi)
 - การรายงานทางอิเล็กทรอนิกส์ (ER) พร้อมใช้งานสำหรับรายงานบางรายงานใน Talent สามารถทำการกำหนดค่าที่ควบคุมโดยลูกค้าได้โดยใช้ตัวเลือกการตั้งค่าคอนฟิก ER
 - ข้อมูลถูกส่งออกไปยัง Microsoft Excel หรือ Microsoft Word โดยใช้เอนทิตีข้อมูลต่างๆ ที่ Talent ให้ ผ่านทางการรวม Microsoft Office
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract รุ่นใด
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับความสามารถในรุ่นต่าง ๆ ของ Microsoft Dynamics 365 for Talent - Attract
+title: Microsoft Dynamics 365 Talent - Attract รุ่นไหนดี
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับความสามารถในแต่ละรุ่นของ Microsoft Dynamics 365 Talent - Attract
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739732"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009957"
 ---
 # <a name="which-version-of-attract"></a>Attract รุ่นใด
 
 [!include[banner](../includes/banner.md)]
 
-รุ่นของ Microsoft Dynamics 365 for Talent: Attract ที่เหมาะสำหรับคุณขึ้นอยู่กับขนาดและความต้องการขององค์กรของคุณ รุ่นพื้นฐานของ Attract แสดงชุดย่อยของฟังก์ชันที่เป็นเป้าหมายในทีมงานขนาดเล็กหรือองค์กรโดยมีผู้จัดการที่ว่าจ้างเป็นผู้ใช้หลัก คุณสามารถเริ่มใช้รุ่นพื้นฐานของ Attract ที่มีใบอนุญาตอย่างน้อยหนึ่งรายการได้
+รุ่นของ Microsoft Dynamics 365 Talent: Attract ที่เหมาะสำหรับคุณขึ้นอยู่กับขนาดและความต้องการขององค์กรของคุณ รุ่นพื้นฐานของ Attract แสดงชุดย่อยของฟังก์ชันที่เป็นเป้าหมายในทีมงานขนาดเล็กหรือองค์กรโดยมีผู้จัดการที่ว่าจ้างเป็นผู้ใช้หลัก คุณสามารถเริ่มใช้รุ่นพื้นฐานของ Attract ที่มีใบอนุญาตอย่างน้อยหนึ่งรายการได้
 
 Attract ที่มี Add-On การว่าจ้างที่ครอบคลุมที่ถูกตั้งเป้าหมายที่ทีมงานหรือองค์กรขนาดปานกลางหรือใหญ่ที่มีผู้เชี่ยวชาญด้าน talent หรือผู้สรรหาเป็นผู้ใช้หลัก Add-On การว่าจ้างที่ครอบคลุมกำหนดให้สิทธิ์นั้น ๆ ต้องถูกซื้อผ่าน [คู่ค้า Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/)
 

@@ -1,6 +1,6 @@
 ---
-title: จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 for Talent - Attract
-description: ใช้การรวม LinkedIn ที่จัดเตรียมโดย Microsoft Dynamics 365 for Talent - Attract เพื่อจัดหาผู้สมัครงานผ่าน LinkedIn Recruiter
+title: จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract
+description: ใช้การรวม LinkedIn ที่จัดเตรียมโดย Microsoft Dynamics 365 Talent - Attract เพื่อจัดหาผู้สมัครงานผ่าน LinkedIn Recruiter
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739460"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008581"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>จัดหาผู้สมัครด้วย LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุดในโลก ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 for Talent: Attract ช่วยให้คุณจัดหาผู้สมัครจาก LinkedIn ได้โดยตรง ดังนั้นจึงช่วยให้หาความสามารถพิเศษที่คุณต้องการสำหรับตำแหน่งที่คุณเปิดรับได้ง่ายขึ้นกว่าเดิม หลังจากที่คุณตั้งค่าการเชื่อมต่อของคุณกับ LinkedIn ผ่าน Attract แล้ว คุณสามารถดูผู้สมัคร LinkedIn ที่อาจเหมาะสำหรับตำแหน่งของคุณ แล้วส่งออกไปยัง Attract เพียงแค่คลิกเดียว
+LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุดในโลก ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 Talent: Attract ช่วยให้คุณจัดหาผู้สมัครจาก LinkedIn ได้โดยตรง ดังนั้นจึงช่วยให้หาความสามารถพิเศษที่คุณต้องการสำหรับตำแหน่งที่คุณเปิดรับได้ง่ายขึ้นกว่าเดิม หลังจากที่คุณตั้งค่าการเชื่อมต่อของคุณกับ LinkedIn ผ่าน Attract แล้ว คุณสามารถดูผู้สมัคร LinkedIn ที่อาจเหมาะสำหรับตำแหน่งของคุณ แล้วส่งออกไปยัง Attract เพียงแค่คลิกเดียว
 
 ถ้าคุณไม่ได้ดูเหมือนจะมีความสามารถนี้ โปรดติดต่อผู้ดูแลระบบของคุณ ก่อนที่คุณจะสามารถใช้ประโยชน์ของ LinkedIn Recruiter จาก Atrract ได้ ผู้ดูแลระบบของคุณจะต้อง [ตั้งค่าการรวมกับ LinkedIn](./attract-admin-linkedin.md) คุณสามารถตั้งค่าการเชื่อมต่อกับ LinkedIn Recruiter แล้วเริ่มค้นหาผู้สมัครได้
 

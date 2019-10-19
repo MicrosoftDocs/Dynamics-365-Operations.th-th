@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543594"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250702"
 ---
 # <a name="master-planning-home-page"></a>โฮมเพจการวางแผนหลัก
 
@@ -74,7 +74,7 @@ ms.locfileid: "1543594"
 คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการวางแผนหลักและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [การจัดการห่วงโซ่อุปทานในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)
 
 ### <a name="task-guides"></a>คู่มืองาน
-วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ
+วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงาน ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ
 
 ### <a name="webinars"></a>Webinars
 [ใช้ Azure Machine Learning สำหรับการคาดการณ์ความต้องการ](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

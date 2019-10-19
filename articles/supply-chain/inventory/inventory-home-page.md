@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865483"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250794"
 ---
 # <a name="inventory-management-overview"></a>ภาพรวมของการจัดการสินค้าคงคลัง
 
@@ -53,10 +53,8 @@ ms.locfileid: "1865483"
 ### <a name="inventory-accounting"></a>การบัญชีสินค้าคงคลัง 
 เมื่อต้องการทราบข้อมูลเพิ่มเติม ดู [การบัญชีสินค้าคงคลังในการจัดการต้นทุน](../cost-management/inventory-close.md)
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>บล็อกการผลิตและการจัดการห่วงโซ่อุปทาน
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>บล็อกการผลิตและ Supply Chain Management
 คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการสินค้าคงคลังและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [Supply Chain Management ในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)
 
 ### <a name="task-guides"></a>คู่มืองาน
-วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ
-
-
+วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงาน ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ

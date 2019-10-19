@@ -1,6 +1,6 @@
 ---
 title: ลงประกาศงานลงในไซต์การทำงานภายนอกจาก Attract
-description: หัวข้อนี้อธิบายวิธีการใช้ Dynamics 365 for Talent - Attract เพื่อลงประกาศงานไปยังไซต์การสรรหาบุคลากรภายนอก
+description: หัวข้อนี้อธิบายวิธีการใช้ Dynamics 365 Talent - Attract เพื่อลงประกาศงานไปยังไซต์การสรรหาบุคลากรภายนอก
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739828"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008093"
 ---
 # <a name="post-jobs-to-broadbean"></a>ลงประกาศงานใน Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract ช่วยให้คุณได้ผู้ที่มีความสามารถพิเศษที่คุณต้องการโดยให้คุณสามารถลงประกาศงานของคุณได้โดยตรงจาก Attract ไปที่ Broadbean หลังจากคุณ [สร้างงาน](./creating-jobs-attract.md) แล้ว สิ่งที่คุณต้องทำก็คือคลิกปุ่มเพื่อนำงานของคุณไปไว้ด้านหน้าของผู้สมัครงานที่อาจเกิดขึ้นทั้งหมดใน Broadbean
+Microsoft Dynamics 365 Talent: Attract ช่วยให้คุณได้ผู้ที่มีความสามารถพิเศษที่คุณต้องการโดยให้คุณสามารถลงประกาศงานของคุณได้โดยตรงจาก Attract ไปที่ Broadbean หลังจากคุณ [สร้างงาน](./creating-jobs-attract.md) แล้ว สิ่งที่คุณต้องทำก็คือคลิกปุ่มเพื่อนำงานของคุณไปไว้ด้านหน้าของผู้สมัครงานที่อาจเกิดขึ้นทั้งหมดใน Broadbean
 
 การลงประกาศงานไปยัง Broadbean ต้องใช้ใบอนุญาต Broadbean ที่เหมาะสม Broadbean ให้ข้อเสนอผลิตภัณฑ์และแผนต่างๆ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดราคาและการอนุญาตใช้งาน Broadbean [ให้ติดต่อ Broadbean](https://www.broadbean.com/contact-us/)
 

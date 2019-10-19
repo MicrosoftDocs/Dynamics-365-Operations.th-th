@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 for Talent - Attract
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการรวม Linkedin สำหรับ Microsoft Dynamics 365 for Talent - Attract เพื่อให้คุณสามารถลงประกาศงานไปยัง Linkedin จาก Attract ได้ง่าย และเพื่อให้ผู้สรรหาของคุณสามารถซิงค์ข้อมูลการสรรหาบุคลากรกับโพรไฟล์ LinkedIn ของผู้สมัคร
+title: ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการรวม Linkedin สำหรับ Microsoft Dynamics 365 Talent - Attract เพื่อให้คุณสามารถลงประกาศงานไปยัง Linkedin จาก Attract ได้ง่าย และเพื่อให้ผู้สรรหาของคุณสามารถซิงค์ข้อมูลการสรรหาบุคลากรกับโพรไฟล์ LinkedIn ของผู้สมัคร
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756233"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009981"
 ---
 # <a name="set-up-linkedin-integration"></a>ตั้งค่าการรวม LinkedIn
 
 [!include[banner](../includes/banner.md)]
 
-ช่วยให้ผู้สรรหาและผู้จัดการที่ส่าจ้างของคุณดึงดูดผู้มีความสามารถพิเศษระดับต้นโดยการตั้งค่าคอนฟิกการรวม LinkedIn กับ Microsoft Dynamics 365 for Talent: Attract Attract ช่วยให้คุณสามารถลงประกาศงานโดยตรงไปยัง LinkedIn เครือข่ายออนไลน์ของมืออาชีพที่ใหญ่ที่สุด
+ช่วยให้ผู้สรรหาและผู้จัดการจ้างงานของคุณดึงดูดผู้มีความสามารถพิเศษระดับต้นโดยการตั้งค่าคอนฟิกการรวม LinkedIn กับ Microsoft Dynamics 365 Talent: Attract Attract ช่วยให้คุณสามารถลงประกาศงานโดยตรงไปยัง LinkedIn เครือข่ายออนไลน์ของมืออาชีพที่ใหญ่ที่สุด
 
 งานที่คุณลงประกาศไปยัง LinkedIn ผ่าน Attract มีการแสดงรายการที่จำกัดและไม่มีต้นทุนเพิ่มเติมให้กับบริษัทของคุณ การแสดงรายการเหล่านี้จะพร้อมใช้งานผ่านพันธมิตรซอฟต์แวร์ LinkedIn เท่านั้น เช่น Attract ผู้ใช้จะไม่ปรากฏในแผง **อาชีพ** บนหน้า LinkedIn ของบริษัทของคุณ เนื่องจากมีเฉพาะการแสดงรายการที่ชำระเงินไว้เท่านั้นที่จะปรากฏขึ้นที่นั่น อย่างไรก็ตาม จะแสดงขึ้นเมื่อผู้สมัครที่มีโอกาสดูงานที่มีอยู่ทั้งหมด การแสดงรายการที่จำกัดยังแสดงอยู่ในการค้นหางาน LinkedIn ด้วย
 

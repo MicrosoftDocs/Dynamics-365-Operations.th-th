@@ -1,6 +1,6 @@
 ---
 title: ไม่พบผู้ใช้ในตัวเลือกบุคคลใน Attract หรือ Onboard
-description: หัวข้อนี้อธิบายถึงสิ่งที่ต้องทำเมื่อผู้ใช้ในผู้เช่าบริษัทไม่แสดงขึ้นในตัวเลือกบุคคลในแอพลิเคชัน Attract และ Onboard Dynamics 365 for Talent
+description: หัวข้อนี้อธิบายถึงสิ่งที่ต้องทำเมื่อผู้ใช้ในผู้เช่าบริษัทไม่แสดงขึ้นในตัวเลือกบุคคลในแอพลิเคชัน Dynamics 365 Talent - Attract และ Onboard
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742760"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024209"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>ไม่พบผู้ใช้ Azure Active Directory ในตัวเลือกบุคคล
 
@@ -30,11 +30,11 @@ ms.locfileid: "1742760"
 
 ## <a name="issue"></a>ออกใช้
 
-ผู้ใช้ที่ถูกต้องบางอย่างใน Microsoft Azure Active Directory (Azure AD) สำหรับผู้เช่าไม่ปรากฏเมื่อค้นหาชื่อในตัวเลือกบุคคลในแอพลิเคชัน Attract และ Onboard Dynamics 365 for Talent
+ผู้ใช้ที่มีผลบังคับใช้บางคนใน Microsoft Azure Active Directory (Azure AD) สำหรับผู้เช่าไม่ปรากฏเมื่อค้นหาชื่อในตัวเลือกบุคคลในแอพลิเคชัน Dynamics 365 Talent: Attract หรือ Dynamics 365 Talent: Onboard
 
 ## <a name="cause"></a>สาเหตุ
 
-ชนิดผู้ใช้บางอย่างยังไม่ได้รับการสนับสนุนในแอพลิเคชัน Attract และ Onboard ในขณะนี้ ตรวจสอบว่าผู้ใช้ไม่ใช่ผู้ใช้ที่เป็นแขกของ Azure AD Business to Business (B2B) ข้อมูล "ชนิดของผู้ใช้" มีอยู่ในเบลด Azure Active Directory บนพอร์ทัล Azure
+ชนิดผู้ใช้บางชนิดยังไม่ได้รับการสนับสนุนในแอพลิเคชัน Attract and Onboard ในขณะนี้ ตรวจสอบว่าผู้ใช้ไม่ใช่ผู้ใช้ที่เป็นแขกของ Azure AD Business to Business (B2B) ข้อมูล "ชนิดของผู้ใช้" มีอยู่ในเบลด Azure Active Directory บนพอร์ทัล Azure
 
 ดูข้อมูลเพิ่มเติมเกี่ยวกับ Azure B2B ดูที่ [อะไรคือการเข้าถึงของผู้ใช้ที่เป็นแขกใน Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)
 

@@ -1,6 +1,6 @@
 ---
 title: Talent ไม่ปรากฏขึ้นในแอป Microsoft Dynamics 365 (Common Data Service 1.0)
-description: หัวข้อนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าไม่เห็นแอป Microsoft Dynamics 365 for Talent ระหว่างแอป Microsoft Dynamics 365
+description: หัวข้อนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าไม่เห็นแอป Microsoft Dynamics 365 Talent ระหว่างแอป Microsoft Dynamics 365
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad5add2b572ccb6bff175806b965f63b53986152
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519259"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009389"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent ไม่ปรากฏขึ้นในแอป Microsoft Dynamics 365 (Common Data Service 1.0)
 
@@ -30,13 +30,13 @@ ms.locfileid: "1519259"
 
 **ออกใช้**
 
-ลูกค้าจะไม่เห็นแอป Microsoft Dynamics 365 for Talent ระหว่างแอป Microsoft Dynamics 365
+ลูกค้าจะไม่เห็นแอป Microsoft Dynamics 365 Talent ระหว่างแอป Microsoft Dynamics 365
 
 **ความละเอียด**
 
 ต้องมีการเพิ่มผู้ใช้ให้กับบทบาทผู้สร้างสภาพแวดล้อมสำหรับสภาพแวดล้อมใน Microsoft PowerApps
 
-1. ผู้ใช้ที่เป็นผู้ดูแลระบบที่มีลิขสิทธิ์ PowerApps แผน 2 ต้องเปิด [พอร์ทัลผู้ดูแลระบบ PowerApps](https://preview.admin.powerapps.com/)
+1. ผู้ใช้ที่เป็นผู้ดูแลระบบที่มีลิขสิทธิ์ PowerApps Plan 2 ต้องเปิด [พอร์ทัลผู้ดูแลระบบ PowerApps](https://preview.admin.powerapps.com/)
 2. เลือก **สภาพแวดล้อม** และเลือกสภาพแวดล้อมที่ถูกต้องสำหรับ Talent
 3. บนแท็บ **ความปลอดภัย** บนแท็บ **บทบาทสภาพแวดล้อม** เลือก **ผู้ผู้สร้างสภาพแวดล้อม**
 

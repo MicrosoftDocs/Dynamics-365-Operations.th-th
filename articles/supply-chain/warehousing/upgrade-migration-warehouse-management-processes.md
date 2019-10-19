@@ -1,5 +1,5 @@
 ---
-title: อัปเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็น Finance and Operations
+title: อัพเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปยัง Supply Chain Management
 description: หัวข้อนี้แสดงภาพรวมของตัวเลือกการย้ายการจัดการผลิตภัณฑ์และคลังสินค้า
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554057"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251442"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>อัปเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็น Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>อัพเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปยัง Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของกระบวนการปรับรุ่นจาก Microsoft Dynamics AX 2012 R3 ซึ่งรันโมดูล WMSII เป็น Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้แสดงภาพรวมของกระบวนการปรับรุ่นจาก Microsoft Dynamics AX 2012 R3 ซึ่งรันโมดูล WMSII เป็น Supply Chain Management
 
-Finance and Operations ไม่สนับสนุนโมดูล **WMSII** แบบดั้งเดิมจาก Microsoft Dynamics AX 2012 อีกต่อไป คุณสามารถใช้โมดูล **การบริหารคลังสินค้า** แทนได้ ในโมดูล WMSII ไม่สามารถเลือกมิติสินค้าคงคลังของสถานที่เก็บและรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินได้ อย่างไรก็ตาม ไม่สามารถใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินใน Finance and Operations ได้
+Supply Chain Management ไม่สนับสนุนโมดูล **WMSII** แบบดั้งเดิมจาก Microsoft Dynamics AX 2012 อีกต่อไป คุณสามารถใช้โมดูล **การบริหารคลังสินค้า** แทนได้ ในโมดูล WMSII ไม่สามารถเลือกมิติสินค้าคงคลังของสถานที่เก็บและรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินได้ อย่างไรก็ตาม ไม่สามารถใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าสำหรับสินค้าคงคลังทางการเงินใน Supply Chain Management ได้
 
 ในระหว่างการอัพเกรด ผลิตภัณฑ์ทั้งหมดที่เชื่อมโยงกับกลุ่มมิติการจัดเก็บที่ใช้มิติสินค้าคงคลังรหัสแท่นวางสินค้าจะถูกระบุ ซึ่งถูกทำเครื่องหมายเป็นถูกบล็อค และไม่ถูกประมวลผลสำหรับการอัพเกรด
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>การอัพเกรดเป็น Finance and Operations เมื่อมีการใช้ AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>การอัพเกรดเป็น Supply Chain Management เมื่อมีการใช้ AX 2012 R3 WMSII
 หลังจากการอัพเกรด คุณสามารถใช้ชุดของตัวเลือกในแบบฟอร์ม **เปลี่ยนกลุ่มมิติการจัดเก็บสำหรับสินค้า** เพื่อยกเลิกการบล็อคผลิตภัณฑ์ที่ถูกบล็อกในระหว่างการอัพเกรดได้ และจากนั้นดำเนินการธุรกรรมสำหรับผลิตภัณฑ์เหล่านั้น
 
-### <a name="enabling-items-in-finance-and-operations"></a>การเปิดใช้งานสินค้าในการเงินและการดำเนินงาน
-ต้องมีการเปลี่ยนแปลงนี้ เนื่องจากใน Finance and Operations การติดตามสินค้าเป็นส่วนหนึ่งของกระบวนการจัดการคลังสินค้า สำหรับขั้นตอนดังกล่าว คลังสินค้าทั้งหมดและตำแหน่งที่ตั้งต้องถูกเชื่อมโยงกับโพรไฟล์สถานที่เก็บ ถ้าคุณต้องการใช้กระบวนการจัดการคลังสินค้า ต้องมีการตั้งค่าคอนฟิกรายการต่อไปนี้:
+### <a name="enabling-items-in-supply-chain-management"></a>การเปิดใช้งานสินค้าใน Supply Chain Management 
+ต้องมีการเปลี่ยนแปลงนี้ เนื่องจากใน Supply Chain Management การติดตามสินค้าเป็นส่วนหนึ่งของกระบวนการจัดการคลังสินค้า สำหรับขั้นตอนดังกล่าว คลังสินค้าทั้งหมดและตำแหน่งที่ตั้งต้องถูกเชื่อมโยงกับโพรไฟล์สถานที่เก็บ ถ้าคุณต้องการใช้กระบวนการจัดการคลังสินค้า ต้องมีการตั้งค่าคอนฟิกรายการต่อไปนี้:
 -   คลังสินค้าที่มีอยู่ต้องถูกเปิดใช้งาน เพื่อที่จะใช้กระบวนการบริหารคลังสินค้า 
 -   ผลิตภัณฑ์ที่นำออกใช้ที่มีอยู่ต้องถูกเชื่อมโยงกับกลุ่มมิติการจัดเก็บ ที่ใช้กระบวนการจัดการคลังสินค้า 
 

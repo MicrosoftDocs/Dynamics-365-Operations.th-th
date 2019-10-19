@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)
-description: หัวข้อนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 for Talent Core HR
+title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 Talent - Core HR (กรกฎาคม 2018)
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือถูกเปลี่ยนแปลงใน Microsoft Dynamics 365 Talent - Core HR
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ba06183f32e9a788432bae640d1997f2ffb127f1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856268"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010233"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (กรกฎาคม 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-july-2018"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent: Core HR (กรกฎาคม 2018)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 for Talent Core HR
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent: Core HR
 
-## <a name="powerapps-personalization"></a>การกำหนดเป็นแบบส่วนบุคคลของ PowerApps
+## <a name="powerapps-personalization"></a>การกำหนดเป็นแบบส่วนบุคคล PowerApps
 
-Microsoft Dynamics 365 for Talent สนับสนุนการรวมกับบริการ Microsoft PowerApps PowerApps อนุญาตให้ทั้งนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิคสามารถสร้างแอปทางธุรกิจที่กำหนดเองได้บนอุปกรณ์เคลื่อนที่ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส แอปที่คุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้นที่พัฒนาโดยใช้ PowerApps สามารถถูกฝังได้ในไคลเอนต์ Talent เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้างแอปที่เสริม Talent ด้วยข้อมูลที่ถูกดึงมาจากระบบอื่น
+Talent สนับสนุนการรวมกับบริการ Microsoft PowerApps PowerApps อนุญาตให้ทั้งนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิคสามารถสร้างแอปทางธุรกิจที่กำหนดเองได้สำหรับอุปกรณ์เคลื่อนที่ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส แอปที่คุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้น พัฒนาโดยใช้ PowerApps สามารถถูกฝังได้ในไคลเอนต์ Talent เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้างแอปที่เสริม Talent ด้วยข้อมูลที่ถูกดึงมาจากระบบอื่น
 
-สำหรับข้อมูลเพิ่มเติมแอพ ดู [ฝังแอป PowerApps](../fin-and-ops/get-started/embed-power-apps.md)
+สำหรับข้อมูลเพิ่มเติม ดู [ฝังแอป PowerApps](../fin-and-ops/get-started/embed-power-apps.md)
 
 ## <a name="ceridian-payroll-integration"></a>การรวมระบบค่าจ้าง Ceridian
 
