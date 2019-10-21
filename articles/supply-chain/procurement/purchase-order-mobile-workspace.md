@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561282"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249436"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
 
@@ -35,13 +35,13 @@ ms.locfileid: "1561282"
 ## <a name="overview"></a>ภาพรวม 
 ใบสั่งซื้อที่ต้องมีการอนุมัติเพื่อเข้าถึงลำดับงานการอนุมัติ ลำดับงานอาจรวมถึงขั้นตอนต่าง ๆ ที่จำเป็นที่บุคคลหนึ่งคนหรือมากกว่านั้นต้องดำเนินการ ตัวอย่างเช่น บุคคลอาจต้องทำงานหรืออนุมัติใบสั่งซื้อให้เสร็จสมบูรณ์ 
 
-พื้นที่ทำงานแบบเคลื่อนที่ของ **อนุมัติใบสั่งซื้อ** ช่วยให้คุณสามารถดูและตอบสนองใบสั่งจากอุปกรณ์เคลื่อนซื้อได้ง่ายขึ้น พื้นที่ทำงานนี้ยังอนุญาตให้คุณใช้การดำเนินการเวิร์กโฟลว์เดียวกันกับที่คุณใช้จาก Microsoft Dynamics 365 for Finance and Operations เว็บไคลเอ็นต์
+พื้นที่ทำงานแบบเคลื่อนที่ของ **อนุมัติใบสั่งซื้อ** ช่วยให้คุณสามารถดูและตอบสนองใบสั่งจากอุปกรณ์เคลื่อนซื้อได้ง่ายขึ้น พื้นที่ทำงานนี้ยังอนุญาตให้คุณใช้การดำเนินการลำดับงานเดียวกันกับที่คุณใช้จากเว็บไคลเอ็นต์
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-ข้อกำหนดเบื้องต้นเปลี่ยนแปลง โดยขึ้นอยู่กับเวอร์ชันของ Finance and Operations ที่นำไปใช้งานสำหรับองค์กรของคุณ
+ข้อกำหนดเบื้องต้นเปลี่ยนแปลงโดยขึ้นอยู่กับรุ่นของ Supply Chain Management ที่นำไปใช้งานสำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
-ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Finance and Operations สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การอนุมัติใบสั่งซื้อ** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management 
+ถ้ามีการปรับใช้ Finance and Operations สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การอนุมัติใบสั่งซื้อ**  สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -75,7 +75,7 @@ ms.locfileid: "1561282"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอป Microsoft Dynamics 365 for Unified Operations mobile:
+ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
 
 - [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

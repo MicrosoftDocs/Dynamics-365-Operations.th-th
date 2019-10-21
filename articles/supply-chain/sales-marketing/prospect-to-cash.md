@@ -1,6 +1,6 @@
 ---
 title: ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
-description: หัวข้อนี้แสดงภาพรวมของโซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดระหว่าง Microsoft Dynamics 365 for Finance and Operations และ Microsoft Dynamics 365 for Sales
+description: หัวข้อนี้แสดงภาพรวมของโซลูชันของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดระหว่าง Dynamics 365 Supply Chain Management และ Dynamics 365 Sales
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
@@ -19,31 +19,31 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742412"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251373"
 ---
-# <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
+# <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
 
 [!include [banner](../includes/banner.md)]
 
-โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดให้การซิงโครไนส์โดยตรงระหว่าง Dynamics 365 for Finance and Operations และ Dynamics 365 for Sales เท็มเพลตผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Finance and Operations และ Sales ขณะที่มีการถ่ายโอนข้อมูลระหว่าง Finance and Operations และ Sales คุณสามารถดำเนินกิจกรรมการขายและการตลาดใน Sales และคุณสามารถจัดการการเติมสินค้าตามใบสั่งโดยใช้การบริหารสินค้าคงคลัง Finance and Operations ได้ 
+โซลูชั่นผู้ที่มีแนวโน้มจะเป็นลูกค้าเเงินสดให้การซิงโครไนส์โดยตรงระหว่าง Dynamics 365 Supply Chain Management และ Dynamics 365 Sales เท็มเพลตผู้ผู้ที่มีแนวโน้มจะเป็นลูกค้าเเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูลจะเปิดใช้งานโฟลว์ของข้อมูลสำหรับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขาย ในขณะที่มีการถ่ายโอนข้อมูล คุณสามารถดำเนินกิจกรรมส่งเสริมการขายและการตลาดใน Sales และคุณสามารถแฮนเดิลการเติมเต็มสินค้าตามใบสั่งโดยใช้การจัดการสินค้าคงคลังใน Supply Chain Management 
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ให้ดูวิดีโอ YouTube แบบย่อ [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://www.youtube.com/watch?v=AVV9x5x-XCg)
 
 ในเวอร์ชันปัจจุบัน โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดแสดงชนิดของการซิงโครไนส์โดยตรงต่อไปนี้:
 
-- [รักษาบัญชีใน Sales และซิงโครไนส์โดยตรงจาก Sales ไปยัง Finance and Operations](accounts-template-mapping-direct.md)
-- [รักษาผลิตภัณฑ์ใน Finance and Operations และซิงโครไนส์โดยตรงไปยัง Sales](products-template-mapping-direct.md)
-- [รักษาผู้ติดต่อใน Sales และซิงโครไนส์โดยตรงไปยังผู้ติดต่อหรือลูกค้าใน Finance and Operations](contacts-template-mapping-direct.md)
-- [ซิงโครไนส์ใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
-- [ซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
-- [ซิงโครไนส์ใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales](sales-invoice-template-mapping-direct.md)
+- [รักษาบัญชีใน Sales และซิงค์บัญชีโดยตรงจาก Sales ไปยัง Supply Chain Management](accounts-template-mapping-direct.md)
+- [รักษาผลิตภัณฑ์ใน Supply Chain Management และซิงค์ผลิตภัณฑ์โดยตรงไปยัง Sales](products-template-mapping-direct.md)
+- [รักษาผู้ติดต่อใน Sales และซิงค์ผู้ติดต่อโดยตรงไปยัง ผู้ติดต่อหรือลูกค้าใน Supply Chain Management](contacts-template-mapping-direct.md)
+- [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [ซิงโครไนส์ใบเสนอราคาขายโดยตรงจาก Supply Chain Management ไปยัง Sales](sales-invoice-template-mapping-direct.md)
 
-## <a name="system-requirements-for-finance-and-operations"></a>ความต้องการของระบบสำหรับ Finance and Operations
+## <a name="system-requirements-for-supply-chain-management"></a>ระบบต้องใช้กับ Supply Chain Management
 การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดได้รับการสนับสนุนในรุ่นต่อไปนี้:
 
 ### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)
@@ -55,9 +55,9 @@ ms.locfileid: "1742412"
 - Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017) - ที่มีการอัพเดตแพลตฟอร์ม 8 (รุ่นของแอพลิเคชัน 7.2.11792.56024 ที่มีบิลด์ของแพลตฟอร์ม 7.0.4565.16212)
 - จำเป็นต้องมีโปรแกรมแก้ไขด่วนต่อไปนี้:
 
-  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Sales ไปยัง Finance and Operations ผ่านทางคุณลักษณะการรวมข้อมูล ยังมีการปรับปรุงอื่นๆ อีกหลายส่วน
-  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์รายการใบสั่งขายจาก Finance and Operations ไปยัง Sales ผ่านทางคุณลักษณะการรวมข้อมูล
-  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Finance and Operations ไปยัง Sales ผ่านทางคุณลักษณะการรวมข้อมูล
+  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Sales ไปยัง Supply Chain Management ผ่านทางคุณลักษณะการรวมข้อมูล ยังมีการปรับปรุงอื่นๆ อีกหลายส่วน
+  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Supply Chain Management ไปยัง Sales ผ่านทางคุณลักษณะการรวมข้อมูล
+  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Supply Chain Management ไปยัง Sales ผ่านทางคุณลักษณะการรวมข้อมูล
 
     > [!NOTE]
     > คุณเพียงต้องติดตั้ง KB4045570 เนื่องจากการติดตั้งรวมการเปลี่ยนแปลงจากของโปรแกรมแก้ไขด่วนอื่นๆ 
@@ -68,8 +68,8 @@ ms.locfileid: "1742412"
 
 - จำเป็นต้องมีโปรแกรมแก้ไขด่วนต่อไปนี้:
 
-  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - เปิดใช้งานการซิงโครไนส์ใบสั่งขายกับตัวรวมข้อมูลจาก Finance and Operations ไปยัง Sales 
-  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - เปิดใช้งานการซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายกับตัวรวมข้อมูลจาก Finance and Operations ไปยัง Sales
+  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - เปิดใช้งานการซิงโครไนส์ใบสั่งขายกับตัวรวมข้อมูลจาก Supply Chain Management ไปยัง Sales 
+  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - เปิดใช้งานการซิงโครไนส์ส่วนหัวและรายการกับตัวรวมข้อมูลจาก Supply Chain Management ไปยัง Sales
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - จำเป็นต้องมีการสนับสนุนสำหรับการรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดผ่านทางเอนทิตีข้อมูล
     
     > [!NOTE]
@@ -80,5 +80,5 @@ ms.locfileid: "1742412"
 
 เมื่อต้องการใช้โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด คุณต้องติดตั้งส่วนประกอบต่อไปนี้:
 
-- Dynamics 365 for Sales รุ่น 1612 (8.2.1.207) (DB 8.2.1.207) ออนไลน์ หรือรุ่นที่ใหม่กว่า
-- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Dynamics 365 for Sales รุ่น 1.15.0.0 หรือใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก AppSource [ดาวน์โหลด Dynamics 365 ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
+- Dynamics 365 Sales รุ่น 1612 (8.2.1.207) (DB 8.2.1.207) ออนไลน์หรือรุ่นที่ใหม่กว่า
+- โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดสำหรับ Dynamics 365 Sales รุ่น 1.15.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก AppSource [ดาวน์โหลด Dynamics 365 ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)

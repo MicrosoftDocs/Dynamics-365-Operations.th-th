@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2762179a13ff9bbcb4001f3a9aba443c4aa00f9f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519216"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024252"
 ---
 # <a name="questionnaires"></a>แบบสอบถาม
 
@@ -31,7 +31,7 @@ ms.locfileid: "1519216"
 
 หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์ 
 
-คุณสามารถกำหนดแบบสอบถามเพื่อให้เหมาะสมกับความต้องการเฉพาะของคุณ โดยการใช้คุณลักษณะที่หลากหลายที่พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations นี่คือบางตัวอย่างของวิธีการใช้แบบสอบถาม:
+คุณสามารถกำหนดแบบสอบถามเพื่อให้เหมาะสมกับความต้องการเฉพาะของคุณได้โดยการใช้คุณลักษณะที่หลากหลายที่พร้อมใช้งานใน Microsoft Dynamics 365 Finance นี่คือบางตัวอย่างของวิธีการใช้แบบสอบถาม:
 
 -   เพื่อทดสอบทักษะด้านอาชีพของพนักงานและผู้สมัคร
 -   ประเมินว่าผู้เข้าร่วมหลักสูตรได้เรียนรู้เอกสารประกอบหลักสูตรหรือไม่

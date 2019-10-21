@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bd55988578be2b0287b399549f17642bfb1693b
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 24d75000e2c4b604e1acee94e9581291e156fa5d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783624"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017422"
 ---
 # <a name="assets-and-work-orders"></a>สินทรัพย์และใบสั่งงาน
 
@@ -54,4 +54,4 @@ ms.locfileid: "1783624"
 ![รูปที่ 4](media/08-overview-image.png)
 
 > [!NOTE]
-> โดยทั่วไป เมื่อคุณทำงานใน Microsoft Dynamics 365 for Finance and Operations และโมดูล **การจัดการสินทรัพย์** คุณเลือก **สร้าง** เพื่อสร้างเรกคอร์ดใหม่ คุณเลือก **แก้ไข** เพื่อปรับปรุงเรกคอร์ดที่มีอยู่ และคุณเลือก **บันทึก** เพื่อบันทึกข้อมูลใหม่หรือที่แก้ไข
+> โดยทั่วไป เมื่อคุณทำงานใน Dynamics 365 Supply Chain Management และโมดูล **การจัดการสินทรัพย์** คุณเลือก **สร้าง** เพื่อสร้างเรกคอร์ดใหม่ คุณเลือก **แก้ไข** เพื่อปรับปรุงเรกคอร์ดที่มีอยู่ และคุณเลือก **บันทึก** เพื่อบันทึกข้อมูลใหม่หรือที่แก้ไข

@@ -1,6 +1,6 @@
 ---
-title: อัพเดตคู่มือการเตรียมความพร้อมใน Dynamics 365 for Talent - Onboard
-description: หัวข้อนี้อธิบายถึงวิธีการอัพเดตคู่มือการเตรียมความพร้อมใน Microsoft Dynamics 365 for Talent - Onboard และวิธีการส่งการเปลี่ยนแปลงไปยังคู่มือที่มีอยู่
+title: อัพเดตคู่มือการเตรียมความพร้อมใน Dynamics 365 Talent - Onboard
+description: หัวข้อนี้อธิบายถึงวิธีการอัพเดตคู่มือการเตรียมความพร้อมใน Microsoft Dynamics 365 Talent - Onboard และวิธีการส่งการเปลี่ยนแปลงไปยังคู่มือที่มีอยู่
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731664"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010740"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>อัพเดตคู่มือการเตรียมความพร้อมใน Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>อัพเดตคู่มือการเตรียมความพร้อม
 
 [!include [banner](includes/banner.md)]
 
-ถ้าคุณต้องทำการเปลี่ยนแปลงคู่มือการเตรียมความพร้อมใน Microsoft Dynamics 365 for Talent: Onboard คุณสามารถอัพเดตได้และส่งการเปลี่ยนแปลง ถึงแม้ว่าคุณจะได้ส่งคู่มือนี้แล้ว คุณมีตัวเลือกสำหรับการอัพเดตคู่มือการเตรียมความพร้อมสองตัวเลือก
+ถ้าคุณต้องทำการเปลี่ยนแปลงคู่มือการเตรียมความพร้อมใน Microsoft Dynamics 365 Talent: Onboard - Onboard คุณสามารถอัพเดตได้และส่งการเปลี่ยนแปลง ถึงแม้ว่าคุณจะได้ส่งคู่มือนี้แล้ว คุณมีตัวเลือกสำหรับการอัพเดตคู่มือการเตรียมความพร้อมสองตัวเลือก
 
 - แก้ไขคู่มือการเตรียมความพร้อมโดยตรง และบันทึกการเปลี่ยนแปลงของคุณ
 - แก้ไขเท็มเพลการเตรียมความพร้อม แล้วส่งการเปลี่ยนแปลงไปยังคู่มือการเตรียมความพร้อมทั้งหมดที่สร้างขึ้นแล้ว

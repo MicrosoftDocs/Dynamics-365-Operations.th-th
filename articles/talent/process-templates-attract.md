@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 55e0d128cdc12843763f81014edd1846b35ed220
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739805"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010717"
 ---
 # <a name="create-a-process-template"></a>สร้างเท็มเพลตกระบวนการ
 
 [!include [banner](includes/banner.md)]
 
-*เท็มเพลตกระบวนการว่าจ้าง* ประกอบด้วยกิจกรรมทั้งหมดที่ควรจะรวมเป็นส่วนหนึ่งของกระบวนการว่าจ้างสำหรับงาน หัวข้อนี้อธิบายองค์ประกอบของเท็มเพลตกระบวนการใน Microsoft Dynamics 365 for Talent: Attract และยังอธิบายถึงวิธีการสร้างเท็มเพลต
+*เท็มเพลตกระบวนการว่าจ้าง* ประกอบด้วยกิจกรรมทั้งหมดที่ควรจะรวมเป็นส่วนหนึ่งของกระบวนการว่าจ้างสำหรับงาน หัวข้อนี้อธิบายองค์ประกอบของเท็มเพลตกระบวนการใน Microsoft Dynamics 365 Talent: Attract และยังอธิบายถึงวิธีการสร้างเท็มเพลต
 
 > [!NOTE]
 > การสร้างเท็มเพลเป็นส่วนหนึ่งของ Add-On การจ้างงานแบบครอบคลุมสำหรับ Attract

@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (2 เมษายน 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (2 เมษายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795255"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026090"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (2 เมษายน 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (2 เมษายน 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
 
@@ -46,7 +46,7 @@ ms.locfileid: "1795255"
 การปรับปรุงไปยังแท็บ **เอกสาร** บนแอพลิเคชันและโพรไฟล์กลุ่ม talent ในขณะนี้แสดงผลทั้งชื่อและชนิดเอกสาร
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="coming-soon-attract-and-onboard"></a>เร็ว ๆ นี้ (Attract และ Onboard)
 
@@ -56,14 +56,14 @@ ms.locfileid: "1795255"
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2216
 
-### <a name="platform-update-25"></a>แพลตฟอร์ม update 25
-ดูข้อมูลเพิ่มเติมเกี่ยวกับ Platform update 25 ได้ที่ [คุณลักษณะการแสดงตัวอย่างในการปรับปรุงแพลตฟอร์ม Dynamics 365 for Finance and Operations platform update 25 (เมษายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)
+### <a name="platform-update-25-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 for Finance and Operations การอัพเดตแพลตฟอร์ม 25 (เมษายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>ความปลอดภัยของค่าตอบแทนขั้นสูง (คงที่และผันแปร)
 ในองค์กรหลายองค์กร ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการอาจมีการเข้าถึงเรกคอร์ดค่าตอบแทนบางรายการเท่านั้น ซึ่งอาจรวมเรกคอร์ดสำหรับผู้บริหารหรือพนักงานในภูมิภาค การเปลี่ยนแปลงนี้ช่วยให้ HR สามารถจัดการและรักษาแผนค่าตอบแทนสำหรับกลุ่มพนักงานอื่นๆ ในองค์กรได้ คุณสามารถกำหนดบทบาทความปลอดภัยกับแผนที่คงที่และผันแปร บทบาทความปลอดภัยเหล่านี้จะกำหนดการเข้าถึงแผนและข้อมูลของพนักงานที่เกี่ยวข้อง เช่น เรกคอร์ดเงินโบนัสหรือเงินเดือน เพื่อให้เฉพาะบทบาทต่าง ๆ สามารถประมวลผลค่าตอบแทนสำหรับกลุ่มพนักงาน
 
 ### <a name="upgrade-to-common-data-service"></a>อัพเกรดเป็น Common Data Service
-เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ล็อกอินไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่า ฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)
+เวลาสิ้นสุดการอัพเกรดเป็น Common Data Service ใกล้จะมาถึงเร็วๆ นี้ ลงชื่อเข้าใช้ไปยังศูนย์การจัดการ PowerApps เพื่อตรวจสอบว่าฐานข้อมูลของคุณต้องได้รับการอัพเกรดหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกำหนดเวลาสิ้นสุดและขั้นตอนที่จำเป็นในการอัพเกรด ดู [อัพเกรดเป็น Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds)
 
 ## <a name="in-preview"></a>ในการแสดงตัวอย่าง
 
@@ -79,4 +79,4 @@ ms.locfileid: "1795255"
 ด้วยการเปลี่ยนแปลงนี้ ข้อมูลซ้ำจะถูกตรวจพบขณะที่คุณป้อนในฟิลด์ชื่อ และสถานะจะแสดงจำนวนของข้อมูลซ้ำที่พบ คุณสามารถเลือกการเชื่อมโยงที่ให้มาเพื่อเปิดหน้าใหม่เพื่อประเมินว่าจะใช้การจับคู่ที่ตรวจพบหรือไม่ หากต้องการหลีกเลี่ยงการรบกวนการป้อนข้อมูล ฟอร์มที่ซ้ำกันจะไม่เปิดขึ้นโดยอัตโนมัติ
 
 ###  <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
-ด้วยการปรับปรุงแพลตฟอร์ม 25 ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ทริกเกอร์โดยเหตุการณ์ 
+ด้วยการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่ส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อเมื่อมีการทริกเกอร์โดยเหตุการณ์ 

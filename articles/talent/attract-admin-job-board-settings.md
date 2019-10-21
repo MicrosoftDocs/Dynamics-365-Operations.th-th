@@ -1,6 +1,6 @@
 ---
-title: เปิดใช้งานการรวม Broadbean ใน Microsoft Dynamics 365 for Talent - Attract
-description: หัวข้อนี้อธิบายถึงวิธีการตั้งค่าคอนฟิก Microsoft Dynamics 365 for Talent - Attract เพื่อลงรายการบัญชีงานไปยังบอร์ดงานภายนอก เช่น Broadbean
+title: เปิดใช้งานการรวม Broadbean ใน Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้อธิบายถึงวิธีการตั้งค่าคอนฟิก Microsoft Dynamics 365 Talent - Attract เพื่อลงรายการบัญชีงานไปยังบอร์ดงานภายนอก เช่น Broadbean
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739690"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008604"
 ---
 # <a name="enable-broadbean-integration"></a>เปิดใช้งานการรวม Broadbean
 
 [!include[banner](../includes/banner.md)]
 
-คุณต้องการเรียกดูตำแหน่งที่เปิดของคุณ ข้างหน้าผู้สมัครที่มีคุณสมบัติหลายรายที่สุดที่เป็นไปได้ ไซต์การสรรหาบุคลากร เช่น Broadbean ช่วยให้คุณบรรลุถึงเป้าหมายนี้ Microsoft Dynamics 365 for Talent: ขณะนี้ Attract ช่วยให้คุณลงประกาศงานไปยัง Broadbean และ Microsoft ให้ข้อเสนอใหม่ในพื้นที่นี้ตลอดเวลา
+คุณต้องการเรียกดูตำแหน่งที่เปิดของคุณ ข้างหน้าผู้สมัครที่มีคุณสมบัติหลายรายที่สุดที่เป็นไปได้ ไซต์การสรรหาบุคลากร เช่น Broadbean ช่วยให้คุณบรรลุถึงเป้าหมายนี้ Microsoft Dynamics 365 Talent: Attract: ตอนนี้สามารถช่วยให้คุณลงประกาศงานไปยัง Broadbean ได้แล้ว และ Microsoft ได้ให้ข้อเสนอใหม่ในพื้นที่นี้ตลอดเวลา
 
 > [!NOTE]
 > - เพื่อลงประกาศงานไปยังไซต์ภายนอก คุณต้องมี [add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)

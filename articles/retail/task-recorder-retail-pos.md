@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 70fef8035fce7792b44a3d96d1fba342eae88541
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548565"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024763"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
 
@@ -138,7 +138,7 @@ ms.locfileid: "1548565"
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>วิธีใช้ใน Retail Modern POS และ Cloud POS
 
-เพื่อแสดงการบันทึกงานแบบกำหนดเองของคุณเองในบานหน้าต่างวิธีใช้ของ Retail Modern POS และ Cloud POS เพื่อให้สามารถดูเป็นข้อความได้ คุณต้องบันทึกการบันทึกงานของคุณไปยังไลบรารี BPM ของคุณเอง และจากนั้น ปรับปรุงพารามิเตอร์ระบบวิธีใช้ของคุณเพื่อชี้ไปยังไลบรารี BPM สำหรับข้อมูลเพิ่มเติมให้ดูที่ [การติดต่อระบบช่วยเหลือ](../fin-and-ops/get-started/help-connect.md) Retail Modern POS และวิธีใช้ของ Cloud POS ค้นหา LCS ในเวลาจริง โดยจะค้นหาจากไลบรารี BPM ทั้งหมดที่เลือกไว้ในพารามิเตอร์ระบบวิธีใช้ Microsoft Dynamics 365 for Retail และแสดงผลที่เกี่ยวข้อง เมื่อต้องการเข้าถึงเมนู **วิธีใช้** คลิกปุ่ม **วิธีใช้** (เครื่องหมายคำถาม) ที่ด้านบนของหน้าจอ และจากนั้น ในกล่องค้นหา ให้พิมพ์ชื่อกระบวนการของคุณ และกดปุ่มค้นหา
+เพื่อแสดงการบันทึกงานแบบกำหนดเองของคุณเองในบานหน้าต่างวิธีใช้ของ Retail Modern POS และ Cloud POS เพื่อให้สามารถดูเป็นข้อความได้ คุณต้องบันทึกการบันทึกงานของคุณไปยังไลบรารี BPM ของคุณเอง และจากนั้น ปรับปรุงพารามิเตอร์ระบบวิธีใช้ของคุณเพื่อชี้ไปยังไลบรารี BPM สำหรับข้อมูลเพิ่มเติมให้ดูที่ [การติดต่อระบบช่วยเหลือ](../fin-and-ops/get-started/help-connect.md) Retail Modern POS และวิธีใช้ของ Cloud POS ค้นหา LCS ในเวลาจริง โดยจะค้นหาจากไลบรารี BPM ทั้งหมดที่เลือกไว้ในพารามิเตอร์ระบบวิธีใช้ Retail และแสดงผลที่เกี่ยวข้อง เมื่อต้องการเข้าถึงเมนู **วิธีใช้** คลิกปุ่ม **วิธีใช้** (เครื่องหมายคำถาม) ที่ด้านบนของหน้าจอ และจากนั้น ในกล่องค้นหา ให้พิมพ์ชื่อกระบวนการของคุณ และกดปุ่มค้นหา
 
 [![ปุ่มวิธีใช้](./media/help.jpg)](./media/help.jpg)
 

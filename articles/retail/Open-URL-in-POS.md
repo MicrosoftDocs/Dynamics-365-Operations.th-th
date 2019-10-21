@@ -1,6 +1,6 @@
 ---
 title: เปิด URL ใน POS
-description: หัวข้อนี้ให้ภาพรวมของการพัฒนาที่ได้ถูกทำไปยังผลิตภัณฑ์และฟังก์ชันการค้นหาลูกค้าใน Microsoft Dynamics 365 for Retail
+description: หัวข้อนี้ให้ภาพรวมของการพัฒนาที่ได้ถูกทำไปยังผลิตภัณฑ์และฟังก์ชันการค้นหาลูกค้าใน Dynamics 365 Retail
 author: AamirAllaq
 manager: AnnBe
 ms.date: 01/28/2019
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 729caf9fad9097a3ecbf7d546c8f8a96f67aec92
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 406dad1709dc837f7f87817241d7062f6b08d8fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845701"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025897"
 ---
 # <a name="open-url-in-pos"></a>เปิด URL ใน POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการที่คุณตั้งค่าคอนฟิกปุ่มในการขายหน้าร้าน (POS) ของการขายปลีก เพื่อเปิด URL ลักษณะการทำงานนี้ไม่จำเป็นต้องมีการกำหนดรหัสเอง และคุณสามารถตั้งค่าคอนฟิกได้โดยผู้ที่อยู่ในบทบาทที่ไม่ใช่นักพัฒนา คุณลักษณะนี้พร้อมใช้งานเป็นส่วนหนึ่งของการนำออกใช้ Dynamics 365 for Finance and Operations รุ่น 8.1.3 (รุ่น 8.1.227.10014) และใหม่กว่า 
+หัวข้อนี้อธิบายถึงวิธีการที่คุณตั้งค่าคอนฟิกปุ่มในการขายหน้าร้าน (POS) ของการขายปลีก เพื่อเปิด URL ลักษณะการทำงานนี้ไม่จำเป็นต้องมีการกำหนดรหัสเอง และคุณสามารถตั้งค่าคอนฟิกได้โดยผู้ที่อยู่ในบทบาทที่ไม่ใช่นักพัฒนา 
 
 คุณลักษณะนี้อนุญาตการตั้งค่าคอนฟิกของปุ่มใน POS โดยใช้โปรแกรมออกแบบกริดปุ่มเพื่อเปิด URL ในปัจจุบัน นี่ได้รับการสนับสนุนในการตั้งค่าคอนฟิกต่อไปนี้:
 

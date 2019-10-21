@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Talent (13 สิงหาคม 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (13 สิงหาคม 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/13/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1c10d5d7639c1606b00f95e0bd2b3b3fec326787
-ms.sourcegitcommit: db84eeef6f0bd531ba45b5e66bdacfd0398472e6
+ms.openlocfilehash: b813f3e4707724c262a32aca1227b3d91d1a229f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887494"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025990"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-13-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 for Talent (13 สิงหาคม 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (13 สิงหาคม 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2421.0
@@ -54,9 +54,9 @@ ms.locfileid: "1887494"
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-### <a name="platform-update-29"></a>แพลตฟอร์ม update 29
+### <a name="platform-update-29-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการปรับปรุงแพลตฟอร์ม 29 ดูที่ [คุณลักษณะการแสดงตัวอย่างในการปรับปรุงแพลตฟอร์ม Dynamics 365 for Finance and Operations 29 (ตุลาคม 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 29 (ตุลาคม 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>การป้อนข้อมูลและการนำทางของพนักงานที่มีประสิทธิภาพ
 

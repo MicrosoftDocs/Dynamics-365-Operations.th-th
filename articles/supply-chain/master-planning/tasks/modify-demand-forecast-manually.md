@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916633"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250656"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
 
@@ -41,5 +41,5 @@ ms.locfileid: "1916633"
 
 ## <a name="modify-the-forecast-in-excel"></a>แก้ไขการคาดการณ์ใน Excel
 1. คลิก **เปิด** ใน Microsoft Office
-2. คลิก **แก้ไขการคาดการณ์ความต้องการ** ใน Excel ใน Excel คุณสามารถเพิ่ม ลบ และแก้ไขบรรทัดการคาดการณ์ความต้องการได้  ถ้าคุณไม่สามารถดูข้อมูลใน Excel ได้ คุณต้องลงชื่อเข้าใช้ Microsoft Dynamics 365 for Finance and Operations Enterprise edition ด้วยตัวเลือก "คงการลงชื่อเข้าใช้ของฉันไว้" ที่เปิดใช้งานและคุณต้องเชื่อแอปการเชื่อมต่อข้อมูล  
+2. คลิก **แก้ไขการคาดการณ์ความต้องการ** ใน Excel ใน Excel คุณสามารถเพิ่ม ลบ และแก้ไขบรรทัดการคาดการณ์ความต้องการได้  ถ้าคุณไม่สามารถดูข้อมูลใน Excel คุณจำเป็นต้องลงชื่อเข้าใช้ด้วยการเปิดใช้งานตัวเลือก "ให้ฉันลงชื่อเข้าใช้เสมอ" และคุณจำเป็นต้องเชื่อแอพลิเคชันการเชื่อมต่อข้อมูล  
 

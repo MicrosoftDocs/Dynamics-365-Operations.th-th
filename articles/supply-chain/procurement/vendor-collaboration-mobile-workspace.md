@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843876"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250267"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843876"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="overview"></a>ภาพรวม 
-พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** คอยให้ข้อมูลผู้จัดจำหน่ายเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อและจากนั้นตอบสนองใน Microsoft Dynamics 365 for Finance and Operations เว็บไคลเอ็นต์ 
+พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** คอยให้ข้อมูลผู้จัดจำหน่ายเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อและจากนั้นตอบสนองในเว็บไคลเอ็นต์ 
 
 >[!NOTE]
 > หมายเหตุ: ควรใช้พื้นที่ทำงานแบบเคลื่อนที่เป็นส่วนเพิ่มเติมของเว็บไคลเอนต์การทำงานร่วมกันของผู้จัดจำหน่าย แต่ไม่ได้แทนที่ 
@@ -59,8 +59,8 @@ ms.locfileid: "1843876"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
-ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Finance and Operations สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management
+ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -104,7 +104,7 @@ ms.locfileid: "1843876"
 <li><a href="vendor-collaboration-work-external-vendors.md">ใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานร่วมกับผู้จัดจำหน่ายภายนอก</a></li>
 <li><a href="manage-vendor-collaboration-users.md">จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">ใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานร่วมกับลูกค้าในการเงินและการดำเนินงาน</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">ใช้การทำงานร่วมกันกับผู้จัดจำหน่ายเพื่อทำงานร่วมกับลูกค้าใน Supply Chain Managements</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ ms.locfileid: "1843876"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
+ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563608"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250633"
 ---
 # <a name="product-configuration-models-overview"></a>ภาพรวมแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
@@ -118,7 +118,7 @@ ms.locfileid: "1563608"
 </tr>
 </tbody>
 </table>
-ข้อจำกัดตารางที่กำหนดโดยระบบแสดงถึงการแม็ประหว่างชนิดแอททริบิวต์และฟิลด์ในตาราง Finance and Operations ข้อจำกัดตารางที่กำหนดโดยระบบเชื่อมแบบไดนามิกของชนิดแอททริบิวต์ไปยังฟิลด์ ลิงค์ช่วยให้แอททริบิวต์ในแบบจำลองการจัดโครงแบบผลิตภัณฑ์สะท้อนข้อมูลของฟิลด์ในตาราง Finance and Operations</td>
+ข้อจำกัดตารางที่กำหนดโดยระบบแสดงถึงการแม็ประหว่างชนิดแอททริบิวต์และฟิลด์ในตาราง Finance and Operations ข้อจำกัดตารางที่กำหนดโดยระบบเชื่อมแบบไดนามิกของชนิดแอททริบิวต์ไปยังฟิลด์ ลิงค์ช่วยให้แอททริบิวต์ในแบบจำลองการจัดโครงแบบผลิตภัณฑ์สะท้อนข้อมูลของฟิลด์ในตาราง Supply Chain Management</td>
 </tr>
 <tr class="odd">
 <td>การคำนวณ</td>

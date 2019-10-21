@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
-description: หัวข้อนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 for Talent Core HR
+title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 Talent - Core HR (6 ธันวาคม 2018)
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือถูกเปลี่ยนแปลงใน Microsoft Dynamics 365 Talent - Core HR
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742597"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025967"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (6 ธันวาคม 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent: Core HR (6 ธันวาคม 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742597"
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR
 
 
-## <a name="platform-update-22"></a>แพลตฟอร์ม update 22
+## <a name="platform-update-22-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 22 สำหรับ Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>ส่งออกจนถึง 1 ล้านแถวไปที่ Excel
 
@@ -42,7 +42,7 @@ ms.locfileid: "1742597"
 
 ### <a name="restyled-personalization-toolbar"></a>แถบเครื่องมือการกำหนดเป็นแบบส่วนบุคคลที่ออกแบบใหม่
 
-แถบเครื่องมือการตั้งค่าส่วนบุคคลได้รับการออกแบบใหม่ในการปรับปรุงแพลตฟอร์ม 22 เพื่อช่วยผู้ใช้ปรับแต่งประสบการณ์ของตนเองใน Talent ได้ง่ายขึ้น มีการทำการเปลี่ยนแปลงดังต่อไปนี้: 
+แถบเครื่องมือการตั้งค่าส่วนบุคคลได้รับการออกแบบใหม่ในการปรับปรุงแพลตฟอร์ม 22 สำหรับ Finance and Operations เพื่อช่วยผู้ใช้ปรับแต่งประสบการณ์ของตนเองใน Talent ได้ง่ายขึ้น มีการทำการเปลี่ยนแปลงดังต่อไปนี้: 
 
 -  ขณะนี้ มีการแสดงชื่อของเครื่องมือการตั้งค่าส่วนบุคคลแต่ละรายการพร้อมกับไอคอน ซึ่งช่วยให้ผู้ใช้จดจำเครื่องมือที่พวกเขาสนใจที่จะใช้ได้อย่างรวดเร็ว
 -  ขณะนี้ มีการแสดงคำอธิบายเกี่ยวกับวิธีการใช้เครื่องมือปัจจุบัน ซึ่งช่วยให้ผู้ใช้เข้าใจวิธีการตั้งค่าส่วนบุคคลที่จำเป็น  
@@ -50,19 +50,19 @@ ms.locfileid: "1742597"
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>ปรับให้ประสบการณ์การกรอง "เป็นหนึ่งใน" เหมาะสม
 
-ดำเนินการการกรอง "เป็นหนึ่งใน" พร้อมใช้งานสำหรับฟิลด์ส่วนใหญ่ เมื่อใช้รายการแบบหล่นลงของส่วนหัวของกริดและบานหน้าต่างตัวกรอง ตัวดำเนินการนี้ช่วยให้ผู้ใช้สามารถกรองฟิลด์ตามค่าที่หลากหลายได้ ประสบการณ์ใหม่และที่ปรับปรุงสำหรับตัวดำเนินการ "เป็นหนึ่งใน" จะพร้อมใช้งานในการปรับปรุงแพลตฟอร์ม 22 เพื่อเรียนรู้เพิ่มเติม ดู [ปรับให้ประสบการณ์การกรอง "เป็นหนึ่งใน" เหมาะสม](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)
+ดำเนินการการกรอง "เป็นหนึ่งใน" พร้อมใช้งานสำหรับฟิลด์ส่วนใหญ่ เมื่อใช้รายการแบบหล่นลงของส่วนหัวของกริดและบานหน้าต่างตัวกรอง ตัวดำเนินการนี้ช่วยให้ผู้ใช้สามารถกรองฟิลด์ตามค่าที่หลากหลายได้ ประสบการณ์ใหม่และที่ปรับปรุงสำหรับตัวดำเนินการ "เป็นหนึ่งใน" จะพร้อมใช้งานในการปรับปรุงแพลตฟอร์ม 22 สำหรับ Finance and Operations เพื่อเรียนรู้เพิ่มเติม ดู [ปรับให้ประสบการณ์การกรอง "เป็นหนึ่งใน" เหมาะสม](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>วางรายการจาก Excel ไปยังฟิลด์ตัวกรองที่มีตัวดำเนินการ "เป็นหนึ่งใน"
 
 สำหรับงานบางงาน ผู้ใช้อาจมีรายการของค่าใน Excel ที่พวกเขาต้องการใช้ในการกรองข้อมูลใน Talent ตัวอย่างเช่น ผู้ใช้ทรัพยากรบุคคลอาจระบุชุดของพนักงานจากรายงานที่ต้องการศึกษาเพิ่มเติมในระบบ และอาจเป็นการเหมาะสำหรับผู้ใช้นี้ที่จะสามารถคัดลอกรายการจาก Excel ได้โดยตรงลงในฟิลด์ตัวกรองข้อมูลใน Talent
 
-โดยเริ่มต้นในการปรับปรุงแพลตฟอร์ม 22 ตัวดำเนินการ "เป็นหนึ่งใน" ในบานหน้าต่างตัวกรองและคอลัมน์กริดที่กรองจดจำรายการที่คัดลอกมาจาก Excel ในขณะนี้ เพื่อที่จะสามารถวางลงในฟิลด์ตัวกรองข้อมูลโดยตรง ซึ่งรวมถึงชุดของค่าที่คัดลอกมาจากแถวและคอลัมน์ที่แตกต่างกันใน Excel เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับคุณลักษณะนี้ ดู [วางรายการจาก Excel ไปยังฟิลด์ตัวกรองที่มีตัวดำเนินการ "เป็นหนึ่งใน"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel)
+โดยเริ่มต้นในการปรับปรุงแพลตฟอร์ม 22 สำหรับ Finance and Operations ตัวดำเนินการ "เป็นหนึ่งใน" ในบานหน้าต่างตัวกรองและคอลัมน์กริดที่กรองจดจำรายการที่คัดลอกมาจาก Excel ในขณะนี้ เพื่อที่จะสามารถวางลงในฟิลด์ตัวกรองข้อมูลโดยตรง ซึ่งรวมถึงชุดของค่าที่คัดลอกมาจากแถวและคอลัมน์ที่แตกต่างกันใน Excel เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับคุณลักษณะนี้ ดู [วางรายการจาก Excel ไปยังฟิลด์ตัวกรองที่มีตัวดำเนินการ "เป็นหนึ่งใน"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel)
 
 ## <a name="in-preview"></a>ในการแสดงตัวอย่าง
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>ตั้งค่าคอนฟิกการรวมระบบค่าจ้าง UK ระหว่าง Talent และ Dayforce
 
-การรวมระหว่าง Microsoft Dynamics 365 for Talent และ Ceridian Dayforce พร้อมใช้งานในการแสดงตัวอย่างสำหรับ UK ให้อ้างอิงถึงหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติม [ตั้งค่าคอนฟิกการรวมค่าจ้างระหว่าง Talent และ Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration)
+การรวมระหว่าง Talent และ Ceridian Dayforce พร้อมใช้งานในการแสดงตัวอย่างสำหรับ UK ให้อ้างอิงถึงหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติม [ตั้งค่าคอนฟิกการรวมค่าจ้างระหว่าง Talent และ Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -90,9 +90,9 @@ ms.locfileid: "1742597"
 
 ## <a name="known-issues"></a>ปัญหาที่ทราบ
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>การแม็ปข้อผิดพลาดในการรวมกับ Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>การแม็ปข้อผิดพลาดในการรวมกับ Finance
 
-มีการตรวจพบปัญหาต่อไปนี้ในเท็มเพลตปัจจุบันสำหรับการรวม Talent กับ Finance and Operations เท็มเพลตใหม่จะเผยแพร่เร็วๆ นี้ และจะใช้กับโครงการการรวมใหม่ทั้งหมดที่สร้างขึ้น สำหรับโครงการการรวมที่มีอยู่ สามารถปรับปรุงการแม็ปงานได้ โปรดอ้างอิงตารางต่อไปนี้สำหรับการแม็ปที่ปรับปรุง 
+มีการตรวจพบปัญหาต่อไปนี้ในเท็มเพลตปัจจุบันสำหรับการรวม Talent กับ Finance เท็มเพลตใหม่จะเผยแพร่เร็วๆ นี้ และจะใช้กับโครงการการรวมใหม่ทั้งหมดที่สร้างขึ้น สำหรับโครงการการรวมที่มีอยู่ สามารถปรับปรุงการแม็ปงานได้ โปรดอ้างอิงตารางต่อไปนี้สำหรับการแม็ปที่ปรับปรุง 
 
 >[!NOTE]
 > ตำแหน่งงานไปยังงานกำหนดงานหลักของตำแหน่งจะไม่รวมข้อมูล นี่เป็นปัญหาที่มีอยู่ในขณะนี้กำลังทำการวิจัย ไม่มีวิธีการแก้ไขปัญหาในการแม็ปปัจจุบัน 

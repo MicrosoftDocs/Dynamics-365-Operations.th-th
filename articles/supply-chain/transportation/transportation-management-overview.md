@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมการจัดการการขนส่ง
-description: หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Microsoft Dynamics 365 for Finance and Operations
+description: หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Finance and Operations
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561187"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027072"
 ---
-# <a name="transportation-management-overview"></a>ภาพรวมการจัดการการขนส่ง
+# <a name="transportation-management-overview"></a>ภาพรวมของการจัดการการขนส่ง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Microsoft Dynamics 365 for Finance and Operations
+หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Finance and Operations
 
-การจัดการการขนส่งช่วยให้คุณสามารถจัดการการขนส่งของบริษัทได้ และยังช่วยให้คุณสามารถระบุผู้จัดจำหน่ายและโซลูชันสายงานการผลิตสำหรับใบสั่งขาเข้าและขาออก ตัวอย่างเช่น คุณสามารถระบุเส้นทางที่เร็วที่สุดหรืออัตรามีราคาแพงน้อยที่สุดสำหรับการจัดส่ง ตารางต่อไปนี้อธิบายสถานการณ์จำลองหลักสำหรับการใช้การจัดการการขนส่งใน Microsoft Dynamics 365 for Finance and Operations
+การจัดการการขนส่งช่วยให้คุณสามารถจัดการการขนส่งของบริษัทได้ และยังช่วยให้คุณสามารถระบุผู้จัดจำหน่ายและโซลูชันสายงานการผลิตสำหรับใบสั่งขาเข้าและขาออก ตัวอย่างเช่น คุณสามารถระบุเส้นทางที่เร็วที่สุดหรืออัตรามีราคาแพงน้อยที่สุดสำหรับการจัดส่ง ตารางต่อไปนี้อธิบายสถานการณ์จำลองหลักสำหรับการใช้การจัดการการขนส่ง
 
 <table>
 <colgroup>

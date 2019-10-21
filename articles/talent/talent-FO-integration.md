@@ -1,9 +1,9 @@
 ---
-title: FAQ เกี่ยวกับการรวม Dynamics 365 for Talent ไปยัง Dynamics 365 for Finance and Operations
-description: หัวข้อนี้อธิบายว่าข้อมูลใดจะถูกซิงโครไนส์ในการรวม Talent และ Finance and Operations
+title: FAQ เกี่ยวกับการรวม Dynamics 365 Talent ไปยัง Dynamics 365 Finance
+description: หัวข้อนี้อธิบายว่าข้อมูลใดจะถูกซิงโครไนส์ในการรวม Talent และ Finance
 author: andreabichsel
 manager: AnnBe
-ms.date: 01/09/2019
+ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742734"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251026"
 ---
-# <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>FAQ เกี่ยวกับการรวม Dynamics 365 for Talent ไปยัง Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>FAQ เกี่ยวกับการรวม Dynamics 365 Talent ไปยัง Dynamics 365 Finance
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ตอบคำถามสำหรับคำถามทั่วไปที่เกี่ยวข้องเกี่ยวกับว่าข้อมูลใดจะถูกซิงโครไนส์เมื่อ Dynamics 365 for Talent ถูกรวมกับ Dynamics 365 for Finance and Operations
+หัวข้อนี้ตอบคำถามสำหรับคำถามทั่วไปที่เกี่ยวข้องเกี่ยวกับว่าข้อมูลใดจะถูกซิงโครไนส์เมื่อ Dynamics 365 Talent ถูกรวมกับ Dynamics 365 Finance
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>คือข้อมูลที่ซิงโครไนซ์ทั้งหมด หรือเพียงแค่เอนทิตีข้อมูล
 
-ด้วยทรัพยากรบุคคลหลัก (ทรัพยากรบุคคล) ชุดย่อยของข้อมูลจะมีการซิงโครไนส์ สำหรับรายการของเอนทิตี้ทั้งหมด ดู [การรวมจาก Dynamics 365 for Talent ไปยัง Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md)
+สำหรับ Core HR ชุดย่อยของข้อมูลจะมีการซิงโครไนส์ สำหรับรายการของเอนทิตี้ทั้งหมด ดู [การรวมจาก Dynamics 365 Talent ไปยัง Dynamics 365 Finance](talent-financeandoperations-integration.md)
 
 สำหรับ Attract และ Onboard ข้อมูลทั้งหมดเป็นข้อมูลหลักของ Common Data Service
 
@@ -40,15 +40,15 @@ ms.locfileid: "1742734"
 
 เท็มเพลตเป็นจุดเริ่มต้น คุณสามารถสร้างเท็มเพลตของคุณเอง แต่จำเป็นต้องใช้เท็มเพลเสมอเมื่อสร้างโครงการการรวม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวรวมข้อมูล (DI) เท็มเพลต และโครงการ ดูที่ [รวมข้อมูลลงใน Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>ฉันสามารถแม็ปมิติทางการเงินที่จะโอนย้ายระหว่าง Talent และ Finance and Operations ได้หรือไม่
+## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance"></a>ฉันสามารถแม็ปมิติทางการเงินที่จะโอนย้ายระหว่าง Talent และ Finance ได้หรือไม่
 
 ในปัจจุบันมิติทางการเงินไม่ได้อยู่ใน Common Data Service สำหรับแอป และผลลัพธ์ไม่ใช่ส่วนหนึ่งของเท็มเพลตเริ่มต้น เอนทิตี้นี้มีการวางแผน แต่ไม่มีเส้นเวลาการนำออกใช้ที่พร้อมใช้งานอยู่ในปัจจุบัน
 
-สำหรับข้อมูลที่อยู่ใน Finance and Operations แต่ไม่มีอยู่ใน Talent ให้เชื่อมโยงสองระบบเข้าด้วยกันโดยใช้ **ตั้งค่าคอนฟิกลิงค์** ใน Talent สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการเชื่อมโยงระหว่าง Talent และ Finance and Operations ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (31 ตุลาคม 2018)](whats-new-talent-october-31.md)
+สำหรับข้อมูลที่อยู่ใน Finance แต่ไม่มีอยู่ใน Talent ให้เชื่อมโยงสองระบบเข้าด้วยกันโดยใช้ **ตั้งค่าคอนฟิกลิงค์** ใน Talent สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการเชื่อมโยงระหว่าง Talent และ Finance ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงใน Dynamics 365 Talent: Core HR (31 ตุลาคม 2018)](whats-new-talent-october-31.md)
 
 ![แม็ปมิติทางการเงิน](media/MapFinancialDimensions.png)
 
-## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>ในบางครั้งเมื่อฉันนำเข้าพนักงาน รายการจะไปอยู่ที่พนักงานที่ไม่ได้ใช้งานใน Finance and Operations เพราะเหตุใด?
+## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>ในบางครั้งเมื่อฉันนำเข้าพนักงาน รายการจะไปอยู่ที่พนักงานที่ไม่ได้ใช้งานใน Finance เพราะเหตุใด?
 
 คุณอาจได้รับข้อผิดพลาดนี้ถ้าพนักงานไม่มีเรกคอร์ดที่มีรายละเอียดการจ้างงานที่ใช้งานอยู่ใน Talent เมื่อต้องการแก้ไขปัญหานี้ ไปที่ **การจัดการบุคลากร \> พนักงาน \> ประวัติการจ้างงาน \> ตัวจัดการวันที่** และตรวจสอบว่ามีเรกคอร์ดที่มีรายละเอียดการจ้างงานที่ใช้งานอยู่หรือไม่
 
@@ -62,7 +62,7 @@ ms.locfileid: "1742734"
 
 ![การสอบถามขั้นสูงของผู้ปฏิบัติงานที่ใช้งานอยู่](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
-## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>ฉันสามารถระบุฟิลด์ที่จะส่งไปยัง Finance and Operations สำหรับเอนทิตี้ที่เฉพาะเจาะจงได้หรือไม่
+## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>ฉันสามารถระบุฟิลด์ที่จะส่งไปยัง Finance สำหรับเอนทิตีที่เฉพาะเจาะจงได้หรือไม่
 
 คุณสามารถเพิ่มหรือลบฟิลด์ออกจากงานรวม ไม่ใช่ฟิลด์ข้อมูลทั้งหมดที่มีอยู่ในเอนทิตี้ Common Data Service ที่จะถูกเติมข้อมูลจาก Core HR
 คุณสามารถเติมข้อมูลเพิ่มเติมได้ผ่าน PowerApps
@@ -75,7 +75,7 @@ ms.locfileid: "1742734"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>ฉันสามารถตั้งค่าการรวมสองทิศทางได้หรือไม่
 
-ไม่ได้ การรวมเป็นแบบทิศทางเดียวในขณะนี้ (Talent ไปยัง Finance and Operations) อย่างไรก็ตาม มีเท็มเพลตเริ่มต้นที่มีอยู่เพื่อส่งข้อมูลจาก Talent ไปยัง Finance and Operations
+ไม่ได้ การรวมเป็นแบบทิศทางเดียวในขณะนี้ (Talent ไปยัง Finance and Operations) อย่างไรก็ตาม มีเท็มเพลตเริ่มต้นที่มีอยู่เพื่อส่งข้อมูลจาก Talent ไปยัง Finance
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>ฉันจะอนุญาตให้ลบเรกคอร์ดโดยเป็นส่วนหนึ่งของการรวมของฉันได้หรือไม่
 
@@ -93,13 +93,13 @@ ms.locfileid: "1742734"
 
 ## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a>ถ้าฉันมีนิติบุคคลซึ่งเป็นพนักงานที่มีการจ้างงานจำนวน N ราย ฉันต้องสร้างการแม็ปสำหรับแต่ละคนหรือไม่
 
-ใช่ สำหรับแต่ละนิติบุคคลใน Finance and Operations คุณจำเป็นต้องมีโครงการรวมที่แยกต่างหากในการรวมข้อมูล
+ใช่ สำหรับแต่ละนิติบุคคลใน Finance คุณจำเป็นต้องมีโครงการรวมที่แยกต่างหากในการรวมข้อมูล
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>ฉันต้องการถ่ายโอนข้อมูลที่ไม่ใช่ส่วนหนึ่งของเท็มเพลตเริ่มต้นที่จัดเตรียมให้โดย Microsoft ฉันสามารถทำได้หรือไม่
 
 ได้ คุณสามารถเพิ่มหรือลบฟิลด์ออกจากเท็มเพลตที่มีอยู่ คุณสามารถปรับเปลี่ยนเท็มเพลตเพื่อรวมข้อมูลเพิ่มเติมจาก Common Data Service อื่น ๆ สำหรับเอนทิตีแอป เอนทิตีต้องอยู่ใน Common Data Service สำหรับแอปเพื่อให้รวมอยู่ในเท็มเพลต 
 
-## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>ฉันเพิ่งสร้างสภาพแวดล้อม Finance and Operations และ Talent ใหม่ และฉันได้รับข้อผิดพลาด "ค่าข้อมูลละเมิดข้อจำกัดความถูกต้อง" เพราะเหตุใด?
+## <a name="i-just-created-new-finance-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>ฉันเพิ่งสร้างสภาพแวดล้อม Finance และ Talent ใหม่ และฉันได้รับข้อผิดพลาด "ค่าข้อมูลละเมิดข้อจำกัดความถูกต้อง" เพราะเหตุใด?
 
 สาเหตุของข้อผิดพลาดนี้อาจรวม:
 
@@ -109,9 +109,9 @@ ms.locfileid: "1742734"
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>ถ้ามีข้อผิดพลาดการดำเนินการ และรหัสพนักงานยังไม่ได้ซิงค์ ฉันจะค้นหาประวัติงานที่มีเรกคอร์ดพนักงานที่ล้มเหลวได้อย่างไร
 
-ตัวรวมข้อมูลจะสร้างหลายโครงการใน Finance and Operations ความสัมพันธ์ระหว่างงานตัวรวมข้อมูลและโครงการ Finance and Operations คือหนึ่งต่อหนึ่ง
+ตัวรวมข้อมูลจะสร้างหลายโครงการใน Finance ความสัมพันธ์ระหว่างงานตัวรวมข้อมูลและโครงการ Finance คือหนึ่งต่อหนึ่ง
 
-ติดตามเวลาจากประวัติการดำเนินการตัวรวมข้อมูลและค้นหาโครงการดัชนี -1 ใน Finance and Operations ถ้าหมายเลขงานคือ 9 ในตัวรวมข้อมูล ดัชนีใน Finance and Operations คือ 8
+ติดตามเวลาจากประวัติการดำเนินการตัวรวมข้อมูลและค้นหาโครงการดัชนี -1 ใน Finance ถ้าหมายเลขงานคือ 9 ในตัวรวมข้อมูล ดัชนีใน Finance คือ 8
 
 1. จัดดัชนีงานจากตัวรวมข้อมูล (ในตัวอย่างนี้คือ "9")
 
@@ -121,13 +121,13 @@ ms.locfileid: "1742734"
 
 ![ติดตามเวลาการดำเนินการของโครงการ](media/CaptureTimeOfExecution.png)
 
-3. ใน Finance and Operations ระบุดัชนี - 1 ในตัวอย่างนี้ โครงการที่มีคำเสริมท้ายเป็น "8" และเวลาการดำเนินการของดัชนีเป็น "0" โครงการจะสอดคล้องกับเวลาการดำเนินการในขั้นตอนที่ 2
+3. ใน Finance ให้ระบุดัชนี - 1 ในตัวอย่างนี้ โครงการที่มีคำเสริมท้ายเป็น "8" และเวลาการดำเนินการของดัชนีเป็น "0" โครงการจะสอดคล้องกับเวลาการดำเนินการในขั้นตอนที่ 2
 
 ![ระบุดัชนี](media/IdentifyIndex.png)
 
-## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>หลังจากการรวม Talent และ Finance and Operations ฉันไม่เห็นข้อมูล Talent ของฉันใน Finance and Operations ฉันควรทำอย่างไร
+## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>หลังจากการรวม Talent และ Finance ฉันไม่เห็นข้อมูล Talent ของฉันใน Finance ฉันควรทำอย่างไร
 
-การรวมกับ Finance and Operations มีสองขั้นตอน ก่อนอื่น ตรวจสอบว่ ข้อมูล Talent ถูกปรับปรุงแล้ว และพร้อมใช้งานใน Common Data Service นี่เป็นการซิงค์แบบเรียลไทม์แบบใกล้ และสามารถตรวจสอบใน PowerApps โดยดูข้อมูลภายในเอนทิตีข้อมูล
+การรวมกับ Finance มีสองขั้นตอน ก่อนอื่น ตรวจสอบว่ ข้อมูล Talent ถูกปรับปรุงแล้ว และพร้อมใช้งานใน Common Data Service นี่เป็นการซิงค์แบบเรียลไทม์แบบใกล้ และสามารถตรวจสอบใน PowerApps โดยดูข้อมูลภายในเอนทิตีข้อมูล
 
 ![ข้อมูลใน Common Data Service](media/DataInCDS.png)
 
@@ -135,24 +135,24 @@ ms.locfileid: "1742734"
 
 ถ้าเอนทิตีได้รับการสนับสนุน และข้อมูลมีอยู่ใน Common Data Service ให้ตรวจสอบว่าการแม็ปถูกต้องในตัวรวมข้อมูล ถ้าการค้นหาการแม็ปตัวรวมเป็นปกติ ให้ตรวจสอบมีการรันงานการจัดการข้อมูลเสร็จเรียบร้อยแล้ว ข้อผิดพลาดอาจเกิดขึ้นในระหว่างการดำเนินการชุดงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการข้อมูล ดู [การจัดการข้อมูล](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
 
-## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>ที่อยู่สำหรับพนักงานของฉันไม่ถูกต้องหลังจากที่ฉันนำเข้าไปยัง Finance and Operations ฉันควรทำอย่างไร
+## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>ที่อยู่สำหรับพนักงานของฉันไม่ถูกต้อง หลังจากที่ฉันนำเข้าไปยัง Finance ฉันควรทำอย่างไร
 
-ลำดับหมายเลขสำหรับ **รหัสที่ตั้ง** ใช้รูปแบบเดียวกันในทั้ง Talent และ Finance and Operations ลำดับหมายเลขต้องไม่ซ้ำกันทั้งสองด้าน เพื่อให้ไม่มีการชนกันของที่อยู่เมื่อรวมข้อมูลจาก Common Data Service ไปยัง Finance and Operations
+ลำดับหมายเลขสำหรับ **รหัสที่ตั้ง** ใช้รูปแบบเดียวกันในทั้ง Talent และ Finance ลำดับหมายเลขต้องไม่ซ้ำกันทั้งสองด้าน เพื่อให้ไม่มีการชนกันของที่อยู่เมื่อรวมข้อมูลจาก Common Data Service ไปยัง Finance and Operations
 
-ในระหว่างการใช้งานของ Talent ให้ตรวจสอบว่าลำดับหมายเลขไม่เหมือนกันใน Talent และ Finance and Operations ตรวจสอบว่าลำดับหมายเลขทั้งหมดไม่เหมือนกันซึ่งอาจจะรักษาข้อมูลในทั้งสองระบบ
+ในระหว่างการใช้งานของ Talent ให้ตรวจสอบว่าลำดับหมายเลขไม่เหมือนกันใน Talent และ Finance ตรวจสอบว่าลำดับหมายเลขทั้งหมดไม่เหมือนกันซึ่งอาจจะรักษาข้อมูลในทั้งสองระบบ
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>เมื่อสร้างชุดการเชื่อมต่อของฉัน ฉันไม่เห็นการเชื่อมต่อในรายการแบบหล่นลงของ Connection ฉันควรทำอย่างไร
 
-ตรวจสอบว่าขณะที่สร้างการเชื่อมต่อของคุณ ให้เลือก Dynamics 365 for Finance and Operations (อยู่ในการแสดงตัวอย่าง) และ Common Data Service
+ตรวจสอบว่าขณะที่สร้างการเชื่อมต่อของคุณ คุณเลือก Dynamics 365 Finance และ Common Data Service
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>เมื่อซิงค์การจ้างงาน ฉันได้รับข้อผิดพลาด "ไม่มี CompanyInfo_FK"หรือ "ไม่พบค่า '12/31/2154 11:59:59 pm' ในฟิลด์ 'วันที่สิ้นสุดการจ้างงาน' ในตารางที่เกี่ยวข้อง 'การจ้างงาน'" ฉันควรทำอย่างไร
 
-ให้แน่ใจว่าคุณกำลังแม็ปกับนิติบุคคลที่ถูกต้อง การซิงค์นิติบุคคลไม่ใช่ส่วนหนึ่งของเท็มเพลตเริ่มต้น จึงคาดว่าแต่ละนิติบุคคลที่ปรากฏใน Talent และ Common Data Service มีอยู่ใน Finance and Operations เช่นกัน
+ให้แน่ใจว่าคุณกำลังแม็ปกับนิติบุคคลที่ถูกต้อง การซิงค์นิติบุคคลไม่ใช่ส่วนหนึ่งของเท็มเพลตเริ่มต้น จึงคาดว่าแต่ละนิติบุคคลที่ปรากฏใน Talent และ Common Data Service มีอยู่ใน Finance เช่นกัน
 นอกจากนี้ ให้ตรวจสอบให้แน่ใจว่าคุณกำลังเลือกนิติบุคคลที่ถูกต้องสำหรับชุดการเชื่อมต่อที่มีการเชื่อมโยง
 
-## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>หลังจากการตั้งค่าโครงการของฉัน การแม็ปฟิลด์สำหรับ Finance and Operations จะกลายเป็นว่างเปล่า ฉันควรทำอย่างไร
+## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>หลังจากการตั้งค่าโครงการของฉัน การแม็ปฟิลด์สำหรับ Finance จะกลายเป็นว่างเปล่า ฉันควรทำอย่างไร
 
-รีเฟรชเอนทิตี้ข้อมูลใน Finance and Operations โดยไปที่ **การจัดการข้อมูล \> พารามิเตอร์กรอบงาน \> การตั้งค่าเอนทิตี้ \> รีเฟรชรายการเอนทิตี้** ซึ่งควรใช้เวลาสองสามนาทีในการทำให้เสร็จสมบูรณ์ จากนั้นคุณควรเห็นแมปเหล่านั้น ปัญหานี้เกิดขึ้นเมื่อมีการสร้างโครงการใหม่
+รีเฟรชเอนทิตีข้อมูลใน Finance โดยไปที่ **การจัดการข้อมูล \> พารามิเตอร์กรอบงาน \> การตั้งค่าเอนทิตี \> รีเฟรชรายการเอนทิตี** ซึ่งควรใช้เวลาสองสามนาทีในการทำให้เสร็จสมบูรณ์ จากนั้นคุณควรเห็นแมปเหล่านั้น ปัญหานี้เกิดขึ้นเมื่อมีการสร้างโครงการใหม่
 
 ![ไม่มีการแม็ปฟิลด์](media/MissingFieldMapping.png)
 
@@ -164,7 +164,7 @@ ms.locfileid: "1742734"
 
   - [การจัดการข้อผิดพลาดตัวรวมข้อมูลและการแก้ไขปัญหาเบื้องต้น](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [การตอบสนองคำขอ DSR สำหรับล็อกที่ระบบสร้างขึ้นใน PowerApps, Microsoft Flow และ Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [การตอบสนองคำขอ DSR สำหรับล็อกที่ระบบสร้างขึ้นใน PowerApps Microsoft Flow และ Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - การจัดการข้อมูล:
 

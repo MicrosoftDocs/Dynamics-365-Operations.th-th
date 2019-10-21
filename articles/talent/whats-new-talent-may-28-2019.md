@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (28 พฤษภาคม 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (28 พฤษภาคม 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c99e0f3637a8d958e31a046eaad6faa57ce3e1e7
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 4c56971628de12823b254f2a68dedfac50c996b0
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856292"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008862"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-28-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (28 พฤษภาคม 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-28-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (28 พฤษภาคม 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
 
 ## <a name="coming-soon-in-attract"></a>เร็วๆ นี้ใน Attract
 
@@ -41,7 +41,7 @@ ms.locfileid: "1856292"
 การอนุมัติจะปรากฏในส่วน **การอนุมัติ** บนแดชบอร์ด ผู้อนุมัติสามารถตรวจสอบการอนุมัติของตนภายใต้ **กำหนดให้กับคุณ** ซึ่งแสดงรหัสงาน ชื่อ ผู้อนุมัติอื่นๆ และวันที่ที่กำหนด ผู้ใช้ที่ส่งงานให้กับการอนุมัติสามารถตรวจสอบงานของตนได้ภายใต้ **ร้องขอโดยคุณ** ซึ่งแสดงผู้อนุมัติซึ่งยังคงต้องอนุมัติงานที่ส่ง
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2319

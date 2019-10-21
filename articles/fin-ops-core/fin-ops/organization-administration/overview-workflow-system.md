@@ -1,0 +1,74 @@
+---
+title: ภาพรวมของระบบลำดับงาน
+description: หัวข้อนี้อธิบายระบบลำดับงาน
+author: sericks007
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: 56381
+ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
+ms.search.region: Global
+ms.author: tjvass
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2190016"
+---
+# <a name="workflow-system-overview"></a>ภาพรวมของระบบลำดับงาน
+
+[!include [banner](../includes/banner.md)]
+
+หัวข้อนี้อธิบายระบบลำดับงาน
+
+## <a name="what-is-workflow"></a>ลำดับงานคืออะไร?
+
+คำว่า *ลำดับงาน* สามารถกำหนดได้ในสองวิธี: เป็นระบบ และเป็นกระบวนการทางธุรกิจ
+
+### <a name="workflow-is-a-system"></a>ลำดับงานคือระบบ
+
+การลำดับงานคือระบบที่ปฏิบัติการบน Application Object Server (AOS) ระบบลำดับงานมีฟังก์ชันที่คุณสามารถใช้สร้างลำดับงานหรือกระบวนการทางธุรกิจแต่ละรายการ
+
+### <a name="workflow-is-a-business-process"></a>Workflow คือ กระบวนการทางธุรกิจ
+
+ลำดับงานแสดงถึงกระบวนการทางธุรกิจ โดยจะกำหนดวิธีการที่เอกสารหมุนเวียนในระบบ และระบุว่าใครต้องทำงานให้เสร็จสมบูรณ์หรืออนุมัติเอกสาร ตัวอย่างเช่น แผนภาพต่อไปนี้แสดงลำดับงานสำหรับรายงานค่าใช้จ่าย
+
+![ลำดับงานที่มีองค์ประกอบที่กำหนดให้กับผู้ใช้](./media/workflow_user.gif)
+
+เพื่อให้เข้าใจลำดับงานนี้ได้ดีขึ้น สมมติว่า Sam ส่งรายงานค่าใช้จ่ายที่มีมูลค่า 7,000 เหรียญสหรัฐฯ ในสถานการณ์จำลองนี้ Ivan ต้องตรวจสอบใบเสร็จรับเงินที่ Sam ส่งไปให้ จากนั้น Frank และ Sue ต้องเป็นผู้อนุมัติรายงานค่าใช้จ่าย ตอนนี้ สมมติว่า Sam ส่งรายงานค่าใช้จ่ายจำนวนเงินเป็นจำนวนเงิน 11,000 เหรียญสหรัฐฯ ในสถานการณ์นี้ Ivan ต้องทบทวนการรับสินค้า Frank Sue และ Ann ต้องทำการอนุมัติรายงานค่าใช้จ่าย
+
+## <a name="benefits-of-using-the-workflow-system"></a> ประโยชน์ของการใช้ระบบ Workflow
+
+มีประโยชน์มากมายสำหรับการใช้ระบบลำดับงานในองค์กรของคุณดังเช่นต่อไปนี้
+
+- **กระบวนการที่สอดคล้องกัน** — คุณสามารถกำหนดกระบวนการอนุมัติสำหรับเอกสารเฉพาะ เช่น ใบขอซื้อและรายงานค่าใช้จ่าย การใช้ระบบลำดับงานช่วยให้แน่ใจว่าเอกสารจะได้รับการประมวลผลและอนุมัติในลักษณะที่สอดคล้องกันและมีประสิทธิภาพ
+- **การติดตามกระบวนการ** — คุณสามารถติดตามสถานะ ประวัติ และเมตริกประสิทธิภาพของอินสแตนซ์ลำดับงานเฉพาะ ซึ่งจะช่วยคุณกำหนดว่าควรทำการเปลี่ยนแปลงกับลำดับงานเพื่อปรับปรุงประสิทธิภาพหรือไม่
+- **รายการงานจากส่วนกลาง** — ผู้ใช้สามารถดูรายการงานจากส่วนกลางเพื่อดูงานในลำดับงานและการอนุมัติที่กำหนดให้กับงานในลำดับงาน
+
+
+## <a name="workflow-content"></a>บริบทลำดับงาน
+
++ [สถาปัตยกรรมลำดับงาน](workflow-system-architecture.md)
++ [องค์ประกอบลำดับงาน](workflow-elements.md)
++ [การดำเนินการลำดับงาน](workflow-actions.md)
++ [สร้างลำดับงาน](create-workflow.md)
++ [ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน](configure-workflow-properties.md)
++ [ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเองในลำดับงาน](configure-manual-task-workflow.md)
++ [ตั้งค่าคอนฟิกงานอัตโนมัติในลำดับงาน](configure-automated-task-workflow.md)
++ [ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน](configure-approval-process-workflow.md)
++ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน](configure-approval-step-workflow.md)
++ [ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเองในลำดับงาน](configure-manual-decision-workflow.md)
++ [ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไขในลำดับงาน](configure-conditional-decision-workflow.md)
++ [ตั้งค่าคอนฟิกกิจกรรมคู่ขนานในลำดับงาน](configure-parallel-activity-workflow.md)
++ [ตั้งค่าคอนฟิกสาขาคู่ขนานในลำดับงาน](configure-parallel-branch-workflow.md)
++ [ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ](configure-line-item-workflow.md)
++ [FAQ เกี่ยวกับลำดับงาน](workflow-FAQ.md)

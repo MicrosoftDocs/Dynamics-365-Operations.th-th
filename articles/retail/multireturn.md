@@ -1,6 +1,6 @@
 ---
 title: ส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
-description: หัวข้อนี้อธิบายถึงฟังก์ชันที่จะช่วยให้สามารถส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบใน Microsoft Dynamics 365 for Retail
+description: หัวข้อนี้อธิบายถึงฟังก์ชันที่จะช่วยให้สามารถส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบใน Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,21 +18,21 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565311"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018000"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>ส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
 
 [!include [banner](includes/banner.md)]
 
 
-ใน Dynamics 365 for Finance and Operations รุ่น 10.0 การส่งคืนสินค้าสามารถดำเนินการกับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ ขณะที่รุ่นที่นำออกใช้ก่อนรุ่น 10.0 การส่งคืนสินค้าสามารถดำเนินการกับใบแจ้งหนี้ได้ครั้งละหนึ่งใบเท่านั้น 
+การส่งคืนสินค้าสามารถดำเนินการกับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ 
 
-## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>ตั้งค่าคอนฟิก Retail ให้รองรับการส่งคืนสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
+## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>ตั้งค่าคอนฟิก Retail ให้รองรับการส่งคืนสินค้าสำหรับใบสั่งและใบแจ้งหนี้ของลูกค้าหลายใบ
 
 1. ไปที่ **พารามิเตอร์ Retail \> ใบสั่งของลูกค้า**
 1. เปิดพารามิเตอร์ **เปิดใช้งานการส่งคืนสำหรับใบสั่งหลายใบ** 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755408"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009911"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>กำหนดและจัดการโปรแกรมสวัสดิการ
 
@@ -51,7 +51,7 @@ ms.locfileid: "1755408"
 [![รูปภาพสวัสดิการ](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>ความถูกต้องตามกฎหมาย
-ปัจจัยหลายอย่างกำหนดสิทธิ์ของผู้ปฏิบัติงาน สำหรับชนิดต่างๆของสวัสดิการที่นายจ้างเสนอ เมื่อคุณสร้างสวัสดิการใน Microsoft Talent คุณสามารถตั้งค่าชนิดของสิทธิ์ที่ใช้กับสวัสดิการนั้น 
+ปัจจัยหลายอย่างกำหนดสิทธิ์ของผู้ปฏิบัติงาน สำหรับชนิดต่างๆของสวัสดิการที่นายจ้างเสนอ เมื่อคุณสร้างสวัสดิการใน Dynamics 365 Talent คุณสามารถตั้งค่าชนิดของสิทธิ์ที่ใช้กับสวัสดิการนั้น 
 
 คุณสามารถทำให้สวัสดิการพร้อมใช้งานกับผู้ปฏิบัติงานทั้งหมด ตัวอย่างเช่น บริษัทบางแห่งเสนอบัตรผ่านการจอดรถให้กับพนักงานทั้งหมดให้เป็นสวัสดิการ เมื่อคุณสร้างสวัสดิการนี้ คุณตั้งค่าสิทธิ์เป็น **พนักงานทั้งหมดมีสิทธิ์** 
 

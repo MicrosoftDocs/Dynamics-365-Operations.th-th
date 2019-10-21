@@ -1,6 +1,6 @@
 ---
-title: รับการสนับสนุนสำหรับ Talent
-description: หัวข้อนี้อธิบายวิธีรับความช่วยเหลือกับ Microsoft Dynamics 365 for Talent
+title: รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent
+description: หัวข้อนี้อธิบายวิธีรับความช่วยเหลือกับ Microsoft Dynamics 365 Talent
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/07/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
-ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
+ms.openlocfilehash: 949a504c71127c5efa0a93eb3fa4b237cb4b8242
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538784"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026105"
 ---
 # <a name="get-support-for-talent"></a>รับการสนับสนุนสำหรับ Talent
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือกับ Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract, and Dynamics 365 Talent: Onboard
+หัวข้อนี้อธิบายวิธีรับความช่วยเหลือกับ Microsoft Dynamics 365 Talent: Core HR Dynamics 365 Talent: Attract และ Dynamics 365 Talent: Onboard
 
 ## <a name="support-for-talent"></a>การสนับสนุนสำหรับ Talent
 
@@ -34,11 +34,11 @@ ms.locfileid: "1538784"
 
 | งาน | ข้อมูลเพิ่มเติม |
 |------|------------------|
-| สอบถามชุมชน | ไปที่ [ชุมชน Dynamics 365 for Talent](https://community.dynamics.com/365/talent) เพื่อรับความช่วยเหลือเกี่ยวกับคำถามของคุณ หากต้องการทราบคำตอบ ให้ป้อนคำถามในฟิลด์การค้นหาถัดจาก **มีคำถาม** ถ้าต้องการถามคำถาม เลือก **ถามคำถาม** |
+| สอบถามชุมชน | ไปที่ [ชุมชน Dynamics 365 Talent](https://community.dynamics.com/365/talent) เพื่อรับความช่วยเหลือเกี่ยวกับคำถามของคุณ หากต้องการทราบคำตอบ ให้ป้อนคำถามในฟิลด์การค้นหาถัดจาก **มีคำถาม** ถ้าต้องการถามคำถาม เลือก **ถามคำถาม** |
 | ใช้เครื่องมือการสนับสนุนที่ทำงานบน Cloud | ใน [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) ให้ไปที่โครงการของคุณ และเลือกไทล์ **การสนับสนุน** จากที่นั่น คุณสามารถส่งปัญหาได้สองวิธี:<ul><li>บนแท็บ **ปัญหาที่เปิดอยู่** เลือกปัญหาที่คุณต้องการส่ง แล้วเลือก **ส่งไปยัง Microsoft**</li><li>ในแท็บ **ส่งไปยัง Microsoft** เลือก **ส่งเหตุการณ์ใหม่** เพื่อแจ้งปัญหาใหม่</li></ul> |
 | รับการสนับสนุนในแอป | เลือกปุ่ม **วิธีใช้** (**?**) ที่มุมขวาบนของหน้า จากนั้น ถ้าคุณอยู่ใน Core HR ให้เลือก **สนับสนุน** ถ้าคุณอยู่ใน Attract หรือ Onboard เลือก **รายงานปัญหา** มีการรายงานปัญหาบนแท็บ **ปัญหาที่เปิดอยู่** ใน LCS ที่ซึ่งผู้ดูแลระบบสามารถกำหนดว่าจะให้การสนับสนุนในองค์กร หรือส่งปัญหาไปยัง Microsoft (ถ้าคุณมีรุ่นที่ทำงานแยกต่างหากของ Onboard จะมีการส่งปัญหาโดยตรงไปยัง Microsoft) |
 | รับความช่วยเหลือเกี่ยวกับคำถามเกี่ยวกับการให้สิทธิ์ Talent | ติดต่อคู่ค้า หรือพนักงานขายของ Microsoft ของคุณ |
-| ร้องขอคุณลักษณะและฟังก์ชันใหม่ใน Talent | บนหน้า Talent หลักในแอพลิเคชัน ให้เลือกปุ่ม **วิธีใช้** (**?**) แล้วเลือก **ความคิด** นอกจากนี้ คุณยังสามารถไปที่ [ความคิดในแอพลิเคชัน Dynamics 365](https://experience.dynamics.com/ideas/) เพื่อดู ค้นหา หรือลงคะแนนเสียงสำหรับความคิดที่มีอยู่ หรือเพื่อเพิ่มความคิดใหม่ |
+| ร้องขอคุณลักษณะและฟังก์ชันใหม่ใน Talent | บนหน้า Talent หลัก ให้เลือกปุ่ม **วิธีใช้** (**?**) แล้วเลือก **ความคิด** นอกจากนี้ คุณยังสามารถไปที่ [ความคิดในแอพลิเคชัน Dynamics 365](https://experience.dynamics.com/ideas/) เพื่อดู ค้นหา หรือลงคะแนนเสียงสำหรับความคิดที่มีอยู่ หรือเพื่อเพิ่มความคิดใหม่ |
 
 ## <a name="support-for-the-onboard-stand-alone-app"></a>การสนับสนุนสำหรับแอปที่ทำงานแยกต่างหากของ Onboard
 
@@ -46,7 +46,7 @@ ms.locfileid: "1538784"
 
 | งาน | ข้อมูลเพิ่มเติม |
 |------|------------------|
-| สอบถามชุมชน | ไปที่ [ชุมชน Dynamics 365 for Talent](https://community.dynamics.com/365/talent) เพื่อรับความช่วยเหลือ หากต้องการทราบคำตอบ ให้ป้อนคำถามในฟิลด์การค้นหาถัดจาก **มีคำถาม** ถ้าต้องการถามคำถาม เลือก **ถามคำถาม** |
+| สอบถามชุมชน | ไปที่ [ชุมชน Dynamics 365 Talent](https://community.dynamics.com/365/talent) เพื่อรับความช่วยเหลือ หากต้องการทราบคำตอบ ให้ป้อนคำถามในฟิลด์การค้นหาถัดจาก **มีคำถาม** ถ้าต้องการถามคำถาม เลือก **ถามคำถาม** |
 | รายงานปัญหา | เลือกปุ่ม **วิธีใช้** (**?**) ในมุมบนขวาของหน้า แล้วเลือก **รายงานปัญหา** ป้อนคำอธิบายของปัญหา และรวมที่อยู่อีเมล ถ้าคุณต้องการติดตามปัญหา |
 | รับความช่วยเหลือเกี่ยวกับคำถามเกี่ยวกับการให้สิทธิ์ Talent | ติดต่อคู่ค้า หรือพนักงานขายของ Microsoft ของคุณ |
-| ร้องขอคุณลักษณะและฟังก์ชันใหม่ใน Onboard | เลือกปุ่ม **วิธีใช้** (**?**) แล้วเลือก **แนวคิด** นอกจากนี้ คุณยังสามารถไปที่ [Dynamics 365 for Talent: ความคิด Onboard](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) เพื่อดู ค้นหา หรือลงคะแนนเสียงสำหรับความคิดที่มีอยู่ หรือเพื่อเพิ่มความคิดใหม่ |
+| ร้องขอคุณลักษณะและฟังก์ชันใหม่ใน Onboard | เลือกปุ่ม **วิธีใช้** (**?**) แล้วเลือก **แนวคิด** นอกจากนี้ คุณยังสามารถไปที่ [ความคิด Dynamics 365 Talent: Onboard](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) เพื่อดู ค้นหา หรือลงคะแนนเสียงสำหรับความคิดที่มีอยู่ หรือเพื่อเพิ่มความคิดใหม่ |

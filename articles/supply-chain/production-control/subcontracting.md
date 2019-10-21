@@ -1,6 +1,6 @@
 ---
 title: การรับเหมารายย่อย
-description: หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Microsoft Dynamics 365 for Finance and Operations
+description: หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Dynamics 365 Supply Chain Management
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d1d7adf91c246ecad574043cbb60ca260bb328
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568408"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249932"
 ---
 # <a name="subcontracting"></a>การรับเหมารายย่อย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Microsoft Dynamics 365 for Finance and Operations ส่วนแรกของหัวข้อนี้อธิบายถึงการตั้งค่าของข้อมูล ส่วนที่สองจะนำคุณผ่านขั้นตอนต่างๆ ในการฝึกปฏิบัตินี้
+หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Microsoft Dynamics 365 Supply Chain Management ส่วนแรกของหัวข้อนี้อธิบายถึงการตั้งค่าของข้อมูล ส่วนที่สองจะนำคุณผ่านขั้นตอนต่างๆ ในการฝึกปฏิบัตินี้
 
 ## <a name="target-audience"></a>ผู้ชมเป้าหมาย
 

@@ -1,6 +1,6 @@
 ---
-title: สร้างทีมงานการจ้างงานโดยการใช้ Dynamics 365 for Talent - Onboard
-description: หัวข้อนี้จะอธิบายวิธีใช้แอป Microsoft Dynamics 365 for Talent - Onboard เพื่อสร้างทีมงานการเตรียมความพร้อม
+title: สร้างทีมงานการจ้างงานโดยการใช้ Dynamics 365 Talent - Onboard
+description: หัวข้อนี้จะอธิบายวิธีใช้แอป Microsoft Dynamics 365 Talent - Onboard เพื่อสร้างทีมงานการเตรียมความพร้อม
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 996fc42881ce708992614c58877927e03bbf78bf
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: b22bf5fb5b2a2756684304d1cb26c0f8a7419c00
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731660"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010832"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-for-talent-onboard"></a>สร้างทีมงานการจ้างงานโดยการใช้ Dynamics 365 for Talent: Onboard
+# <a name="create-a-hiring-team-by-using-onboard"></a>สร้างทีมงานการจ้างงานโดยการใช้ Onboard
 
 [!include [banner](includes/banner.md)]
 
-ใน Microsoft Dynamics 365 for Talent: Onboard คุณสามารถสร้างทีมงานการจ้างงานได้ จากนั้นคุณสามารถกำหนดคู่มือและเท็มเพลตการเตรียมความพร้อมให้กับแต่ละทีมได้
+ใน Microsoft Dynamics 365 Talent: Onboard คุณสามารถสร้างทีมงานการจ้างงานได้ จากนั้นคุณสามารถกำหนดคู่มือและเท็มเพลตการเตรียมความพร้อมให้กับแต่ละทีมได้
 
 ## <a name="create-a-hiring-team"></a>สร้างทีมงานการจ้างงาน
 

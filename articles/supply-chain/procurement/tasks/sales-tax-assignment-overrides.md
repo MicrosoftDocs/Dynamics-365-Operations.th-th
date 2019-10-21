@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838009"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026612"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>การกำหนดและการแทนที่ภาษีขาย
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-ขั้นตอนนี้อธิบายวิธีการกำหนดกลุ่มภาษีขายตามช่องทางการขายปลีก  และยังแนะนำขั้นตอนการสร้างการแทนที่ภาษีขายใหม่ และการกำหนดให้กับกลุ่มแทนที่ภาษีขายที่มีอยู่  กระบวนงานนี้
-
-ใช้บริษัท USRT ในข้อมูลสาธิต
+ขั้นตอนนี้อธิบายวิธีการกำหนดกลุ่มภาษีขายตามช่องทางการขายปลีก  และยังแนะนำขั้นตอนการสร้างการแทนที่ภาษีขายใหม่ และการกำหนดให้กับกลุ่มแทนที่ภาษีขายที่มีอยู่  กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต
 
 1. ไปยังการขายปลีกและการค้า > ช่องทาง > ร้านค้าปลีก > ร้านค้าปลีกทั้งหมด
 2. ในรายการ ให้คลิกลิงค์รหัสช่องทางการขายปลีกสำหรับ "Houston"

@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าคอนฟิกการตั้งค่าอีเมลใน Microsoft Dynamics 365 for Talent - Attract
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกการตั้งค่าสำหรับอีเมลที่ส่งโดย Microsoft Dynamcis 365 for Talent - Attract
+title: ตั้งค่าคอนฟิกการตั้งค่าอีเมลใน Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกการตั้งค่าสำหรับอีเมลที่ส่งโดย Microsoft Dynamcis 365 Talent - Attract
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739506"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008673"
 ---
 # <a name="configure-email-settings"></a>ตั้งค่าคอนฟิกการตั้งค่าอีเมล
 
 [!include[banner](../includes/banner.md)]
 
-แบรนด์ของคุณสร้างความไว้วางใจและช่วยคุณในการสร้างความสัมพันธ์กับผู้สมัคร ก่อนที่พวกเขาจะสมัครตำแหน่งของคุณ การรับรู้แบรนด์ในเชิงบวกดึงดูด talent สูงสุด และเพิ่มความภักดีของพนักงานที่มีอยู่ Microsoft Dynamics 365 for Talent: Attract อนุญาตให้คุณตั้งค่าคอนฟิกอีเมล เพื่อให้สะท้อนถึงแบรนด์ของบริษัทของคุณ ดังนั้น คุณจึงสามารถให้ประสบการณ์ที่สอดคล้องกับผู้สมัครงานได้ เนื่องจากทำการดำเนินการผ่านกระบวนการแอพลิเคชัน
+แบรนด์ของคุณสร้างความไว้วางใจและช่วยคุณในการสร้างความสัมพันธ์กับผู้สมัคร ก่อนที่พวกเขาจะสมัครตำแหน่งของคุณ การรับรู้แบรนด์ในเชิงบวกดึงดูด talent สูงสุด และเพิ่มความภักดีของพนักงานที่มีอยู่ Microsoft Dynamics 365 Talent: Attract: ให้คุณตั้งค่าคอนฟิกอีเมล เพื่อให้สะท้อนถึงแบรนด์ของบริษัทของคุณ ดังนั้น คุณจึงสามารถให้ประสบการณ์ที่สอดคล้องกับผู้สมัครงานได้ เนื่องจากทำการดำเนินการผ่านกระบวนการแอพลิเคชัน
 
 Attract อนุญาตให้คุณทำการดำเนินการเหล่านี้ได้:
 

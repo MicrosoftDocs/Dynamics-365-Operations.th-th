@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835753"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251639"
 ---
 # <a name="sales-orders-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835753"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้ 
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้ได้กับแอป Microsoft Dynamics 365 for Unified Operations mobile
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="overview"></a>ภาพรวม
 พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ 
@@ -83,8 +83,8 @@ ms.locfileid: "1835753"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Finance and Operations 
-ถ้ามีการปรับใช้ Dynamics 365 for Finance and Operations สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **ใบสั่งขาย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management 
+ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -120,7 +120,7 @@ ms.locfileid: "1835753"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
+ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

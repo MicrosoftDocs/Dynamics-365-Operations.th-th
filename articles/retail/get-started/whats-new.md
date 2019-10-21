@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร และ Dynamics 365 for Retail
-description: หน้านี้นำคุณไปยังทรัพยากรที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในการนำออกใช้ล่าสุดของ Microsoft Dynamics 365 for Retail
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไร และ Dynamics 365 Retail
+description: หน้านี้นำคุณไปยังทรัพยากรที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในการนำออกใช้ล่าสุดของ Microsoft Dynamics 365 Retail
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,22 +16,22 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845720"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025502"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>มีอะไรใหม่และการเปลี่ยนแปลงอะไรใน Dynamics 365 for Retail
+# <a name="whats-new-and-changed-in-dynamics-365-retail"></a>มีอะไรใหม่และการเปลี่ยนแปลงอะไรใน Dynamics 365 Retail
 
 [!include [banner](../../includes/banner.md)]
 
-หน้านี้นำคุณไปยังทรัพยากรที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่และการเปลี่ยนแปลงในการนำออกใช้ล่าสุดของ Microsoft Dynamics 365 for Retail
+หน้านี้นำคุณไปยังทรัพยากรที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่และการเปลี่ยนแปลงในการนำออกใช้ล่าสุดของ Microsoft Dynamics 365 Retail
 
 [!include [release notes](../includes/release-notes.md)]
 
-## <a name="releases-of-dynamics-365-for-retail"></a>การนำออกใช้ของ Dynamics 365 for Retail
+## <a name="releases-of-dynamics-365-retail"></a>การนำออกใช้ของ Dynamics 365 Retail
 
 | นำออกใช้ | หมายเลขรุ่น | ความพร้อมใช้งาน | เรียนรู้เพิ่มเติม |
 |---------|--------------|--------------|------------|

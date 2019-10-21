@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519174"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008162"
 ---
 # <a name="create-fixed-compensation-plans"></a>สร้างแผนค่าตอบแทนคงที่
 
@@ -31,7 +31,7 @@ ms.locfileid: "1519174"
 
 ค่าตอบแทนคงที่อ้างอิงถึงเงินเดือนขั้นต้นปกติหรือค่าจ้างของพนักงาน หัวข้อนี้อธิบายถึงส่วนประกอบที่ต้องตั้งค่าก่อนที่คุณจะสามารถสร้างแผนค่าตอบแทนคงที่ และลงทะเบียนพนักงาน
 
-คุณสามารถคำนวณยอดเงินค่าตอบแทนคงที่สำหรับพนักงานของคุณ ตามปัจจัยต่าง ๆ เช่นประสิทธิภาพ ภูมิภาค และงบประมาณการขึ้นค่าตอบแทน Microsoft Talent สนับสนุนขั้นตอน ระดับ และชนิดของกลุ่มค่าตอบแทน
+คุณสามารถคำนวณยอดเงินค่าตอบแทนคงที่สำหรับพนักงานของคุณ ตามปัจจัยต่าง ๆ เช่นประสิทธิภาพ ภูมิภาค และงบประมาณการขึ้นค่าตอบแทน Dynamics 365 Talent Microsoft Talent สนับสนุนขั้นตอน ระดับ และชนิดของกลุ่มค่าตอบแทน
 
 ## <a name="fixed-compensation-components"></a>ส่วนประกอบของแผนค่าตอบแทนคงที่
 ### <a name="compensation-levels"></a>ระดับค่าตอบแทนต่างๆ

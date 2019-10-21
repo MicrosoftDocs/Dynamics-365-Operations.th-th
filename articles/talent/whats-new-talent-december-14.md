@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
-description: หัวข้อนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 for Talent Core HR
+title: มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 Talent - Core HR (14 ธันวาคม 2018)
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือถูกเปลี่ยนแปลงใน Microsoft Dynamics 365 Talent - Core HR
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519193"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024033"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 for Talent Core HR (14 ธันวาคม 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent: Core HR (14 ธันวาคม 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ ms.locfileid: "1519193"
 
 ## <a name="known-issue"></a>ปัญหาที่ทราบ
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>การแม็ปข้อผิดพลาดในการรวมกับ Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>การแม็ปข้อผิดพลาดในการรวมกับ Finance
 
-มีการตรวจพบปัญหาต่อไปนี้ในเท็มเพลตปัจจุบันสำหรับการรวม Talent กับ Dynamics 365 for Finance and Operations เท็มเพลตใหม่จะเผยแพร่เร็วๆ นี้ และจะใช้กับโครงการการรวมใหม่ทั้งหมดที่สร้างขึ้น สำหรับโครงการการรวมที่มีอยู่ สามารถปรับปรุงการแม็ปงานได้ โปรดอ้างอิงตารางต่อไปนี้สำหรับการแม็ปที่ปรับปรุง 
+มีการตรวจพบปัญหาต่อไปนี้ในเท็มเพลตปัจจุบันสำหรับการรวม Talent กับ Dynamics 365 Finance เท็มเพลตใหม่จะเผยแพร่เร็วๆ นี้ และจะใช้กับโครงการการรวมใหม่ทั้งหมดที่สร้างขึ้น สำหรับโครงการการรวมที่มีอยู่ สามารถปรับปรุงการแม็ปงานได้ โปรดอ้างอิงตารางต่อไปนี้สำหรับการแม็ปที่ปรับปรุง 
 
 >[!NOTE]
 > ตำแหน่งงานไปยังงานกำหนดงานหลักของตำแหน่งจะไม่รวมข้อมูล นี่เป็นปัญหาที่มีอยู่ในขณะนี้กำลังทำการวิจัย ไม่มีวิธีการแก้ไขปัญหาในการแม็ปปัจจุบัน 

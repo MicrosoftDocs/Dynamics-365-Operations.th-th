@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 for Talent (25 มิถุนายน 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Talent (25 มิถุนายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
-ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
+ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "1791987"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010302"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (2 กรกฎาคม 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (02 กรกฎาคม 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
 
@@ -52,8 +52,8 @@ ms.locfileid: "1791987"
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 
-การนำออกใช้นี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Core HR
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Core HR

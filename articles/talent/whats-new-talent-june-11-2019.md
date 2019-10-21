@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 for Talent (11 มิถุนายน 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Talent (11 มิถุนายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741638"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023941"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 for Talent (11 มิถุนายน 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Talent (11 มิถุนายน 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
 
 ### <a name="search-engine-optimization-for-job-posts"></a>การเพิ่มประสิทธิภาพโปรแกรมค้นหาสำหรับโพสต์งาน
 
-หลังจากที่คุณเปิดใช้งาน **การเพิ่มประสิทธิภาพโปรแกรมค้นหา** ใน Dynamics 365 for Talent: ศูนย์ผู้ดูแลระบบ Attract Attract แจ้ง Application Programming Interface (API) ในการจัดทำดัชนีของ Google เพื่อรวบรวมเว็บเพจ เมื่อใดก็ตามที่คุณเรียกใช้และโพสต์งานใหม่ หรือปรับปรุงงานที่มีอยู่ ด้วยวิธีนี้ งานจะปรากฏขึ้นในผลลัพธ์การค้นหาสำหรับ Google และเครื่องมือค้นหาอื่นๆ
+หลังจากที่คุณเปิดใช้งาน **การเพิ่มประสิทธิภาพโปรแกรมค้นหา** ในศูนย์ผู้ดูแลระบบ Dynamics 365 Talent: Attract Attract แจ้ง Google Indexing application programming interface (API) เพื่อรวบรวมเว็บเพจ เมื่อใดก็ตามที่คุณเรียกใช้และโพสต์งานใหม่ หรือปรับปรุงงานที่มีอยู่ ด้วยวิธีนี้ งานจะปรากฏขึ้นในผลลัพธ์การค้นหาสำหรับ Google และเครื่องมือค้นหาอื่นๆ
 
 ในทำนองเดียวกัน เมื่อใดก็ตามที่คุณยกเลิกการโพสต์งาน Attract จะแจ้ง API ที่จัดทำดัชนี เพื่อให้งานที่ยกเลิกการโพสต์จะหยุดแสดงอยู่ในผลลัพธ์การค้นหา
 
@@ -50,15 +50,15 @@ ms.locfileid: "1741638"
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 for Talent: Onboard
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้จะนำไปใช้กับการสร้างหมายเลข 8.1.2337
 
-### <a name="platform-update-27"></a>แพลตฟอร์ม update 27
+### <a name="platform-update-27-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 27 สำหรับ Finance and Operations
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการปรับปรุงแพลตฟอร์ม 27 ดูที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations การปรับปรุงแพลตฟอร์ม 27 (มิถุนายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 27 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 27 (มิถุนายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)
 
 ### <a name="feature-management-workspace-in-talent"></a>พื้นที่ทำงานในการจัดการคุณลักษณะใน Talent
 

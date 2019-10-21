@@ -1,6 +1,6 @@
 ---
 title: เริ่มต้นข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่
-description: บทความนี้อธิบายข้อมูลที่ถูกสร้างเป็นส่วนหนึ่งของกระบวนการการเริ่มต้นสำหรับ Microsoft Dynamics 365 for Retail
+description: บทความนี้อธิบายข้อมูลที่ถูกสร้างเป็นส่วนหนึ่งของกระบวนการการเริ่มต้นสำหรับ Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556909"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025527"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Retail ใหม่
 
 [!include [banner](includes/banner.md)]
 
-บทความนี้อธิบายข้อมูลที่ถูกสร้างเป็นส่วนหนึ่งของกระบวนการการเริ่มต้นสำหรับ Microsoft Dynamics 365 for Retail
+บทความนี้อธิบายข้อมูลที่ถูกสร้างเป็นส่วนหนึ่งของกระบวนการการเริ่มต้นสำหรับ Dynamics 365 Retail
 
 หลังจากโซลูชัน Retail ได้ถูกปรับใช้ผ่าน Microsoft Dynamics Lifecycle Services (LCS) คุณต้องเริ่มการตั้งค่าคอนฟิกการขายปลีกเพื่อสร้างข้อมูลการตั้งค่าคอนฟิกพื้นฐาน
 
@@ -39,7 +39,7 @@ ms.locfileid: "1556909"
 
 เพื่อเริ่มการตั้งค่าคอนฟิกการขายปลึก ให้ปฏิบัติตามขั้นตอนเหล่านี้
 
-1. เริ่มต้นไคลเอ็นต์ Dynamics 365 for Retail
+1. เริ่มต้นไคลเอนต์ Retail
 2. คลิก **การขายปลีก** &gt; **การตั้งค่าศูนย์ควบคุม** &gt; **พารามิเตอร์** &gt; **พารามิเตอร์การขายปลีก**
 3. คลิก **เริ่มต้น**
 
@@ -57,7 +57,7 @@ ms.locfileid: "1556909"
 - เท็มเพลตการตรวจสอบเอนทิตี้
 - ชุดงานที่จะล้างประวัติเซสชัน Commerce Data Exchange
 
-นอกจากนี้ การบันทึกที่สัมพันธ์กับอุตสาหกรรมการ์ดการชำระเงิน (PCI) ถูกเปิดใช้งานสำหรับฐานข้อมูล Dynamics 365 for Retail
+นอกจากนี้ การบันทึกที่สัมพันธ์กับอุตสาหกรรมการ์ดการชำระเงิน (PCI) ถูกเปิดใช้งานสำหรับฐานข้อมูล Retail
 
 > [!NOTE]
 > มีตัวเลือกเพื่อตั้งค่าคอนฟิกตัวจัดกำหนดการการขายปลีกโดยแยกต่างหาก ตัวเลือกนี้ช่วยให้คุณรีเซ็ตการตั้งค่าคอนฟิกตัวกำหนดตารางทำงานการขายปลีกไปเป็นการตั้งค่าเริ่มต้น

@@ -1,6 +1,6 @@
 ---
-title: ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 for Talent - Attract
-description: หัวข้อนี้อธิบายวิธีการใช้ Dynamics 365 for Talent - Attract เพื่อลงประกาศงานใน LinkedIn
+title: ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้อธิบายวิธีการใช้ Dynamics 365 Talent เพื่อลงประกาศงานใน LinkedIn
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756187"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008254"
 ---
 # <a name="post-jobs-to-linkedin"></a>ลงประกาศงานใน LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุด ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 for Talent: Attract ช่วยให้คุณได้ผู้ที่มีความสามารถพิเศษที่คุณต้องการ โดยให้คุณสามารถลงประกาศงานของคุณได้โดยตรงจาก Attract ไปที่ LinkedIn
+LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุด ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 Talent: Attract: ช่วยให้คุณได้ผู้ที่มีความสามารถพิเศษที่คุณต้องการ โดยให้คุณสามารถลงประกาศงานของคุณได้โดยตรงจาก Attract ไปที่ LinkedIn
 
 Attract ช่วยให้คุณสามารถลงประกาศการแสดงรายการบัญชีรายการที่จำกัดไปยัง LinkedIn โดยไม่มีค่าใช้จ่ายเพิ่มเติม การแสดงรายการเหล่านี้จะพร้อมใช้งานผ่านพันธมิตรซอฟต์แวร์ LinkedIn เท่านั้น เช่น Attract ผู้ใช้จะไม่ปรากฏในแผง **อาชีพ** บนหน้า LinkedIn ของบริษัทของคุณ เนื่องจากมีเฉพาะการแสดงรายการที่ชำระเงินไว้เท่านั้นที่จะปรากฏขึ้นที่นั่น อย่างไรก็ตาม จะแสดงขึ้นเมื่อผู้สมัครที่มีโอกาสดูงานที่มีอยู่ทั้งหมด การแสดงรายการที่จำกัดยังแสดงอยู่ในการค้นหางาน LinkedIn ด้วย
 

@@ -1,6 +1,6 @@
 ---
 title: วิเคราะห์แนวโน้มและรูปแบบการขาย
-description: คุณสามารถศึกษาแนวโน้มและรูปแบบการขายได้แบบเรียลไทม์ใน Microsoft Dynamics 365 for Retail
+description: คุณสามารถศึกษาแนวโน้มและรูปแบบการขายได้แบบเรียลไทม์ใน Dynamics 365 Retail
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557911"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025828"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>วิเคราะห์แนวโน้มและรูปแบบการขาย
 
 [!include [banner](includes/banner.md)]
 
-คุณสามารถศึกษาแนวโน้มและรูปแบบการขายได้แบบเรียลไทม์ใน Microsoft Dynamics 365 for Retail
+คุณสามารถศึกษาแนวโน้มและรูปแบบการขายได้แบบเรียลไทม์ใน Dynamics 365 Retail
 
-ในฐานะที่เป็นส่วนหนึ่งของ Dynamics 365 for Retail ผู้ใช้สามารถศึกษาแนวโน้มและรูปแบบการขายได้แบบเรียลไทม์ในระดับต่างๆ ของลำดับชั้นองค์กรตลอดทั้งปีโดยการใช้รายงาน **การขายช่องทางตามปี** แบบสำเร็จรูป คุณสามารถเปิดรายงานนี้จากตำแหน่งที่ตั้งต่อไปนี้:
+ส่วนหนึ่งของ Retail ผู้ใช้สามารถศึกษาแนวโน้มและรูปแบบการขายได้แบบเรียลไทม์ในระดับต่างๆ ของลำดับชั้นองค์กรได้ตลอดทั้งปีโดยการใช้รายงาน **การขายผ่านช่องทางเรียงตามปี** แบบสำเร็จรูป คุณสามารถเปิดรายงานนี้จากตำแหน่งที่ตั้งต่อไปนี้:
 
 - **การจัดการร้านค้าปลีก** พื้นที่ทำงาน&gt; **Retail** &gt; **ช่องทาง** &gt; **การจัดการร้านค้าปลีก** &gt; **รายงาน** &gt; **รายงานการขายผ่านช่องทางตามปี**
 - **การเงินของร้านค้าปลีก** พื้นที่ทำงาน &gt; **Retail** &gt; **ช่องทาง** &gt; **การเงินของร้านค้าปลีก** &gt; **รายงาน** &gt; **รายงานการขายผ่านช่องทางตามปี**

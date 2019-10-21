@@ -1,6 +1,6 @@
 ---
-title: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
-description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ส่วนหัวของใบแจ้งหนี้การขายและรายการตรงกันโดยตรงจาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales
+title: ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Supply Chain Management ไปยัง Sales
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Sales
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,28 +19,28 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552941"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251672"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ส่วนหัวของใบแจ้งหนี้การขายและรายการตรงกันโดยตรงจาก Microsoft Dynamics 365 for Finance and Operations ไปยัง Microsoft Dynamics 365 for Sales
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Sales
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
-โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Finance and Operations และ Sales เท็มเพลตผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล จะเปิดใช้งานขั้นตอนของข้อมูลเกี่ยวกับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Finance and Operations และ Sales ภาพประกอบต่อไปนี้แสดงวิธีการซิงโครไนส์ข้อมูลระหว่าง Finance and Operations และ Sales
+โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Supply Chain Management และ Sales เท็มเพลตผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล จะเปิดใช้งานขั้นตอนของข้อมูลเกี่ยวกับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Finance and Operations และ Sales ภาพประกอบต่อไปนี้ แสดงวิธีการซิงโครไนส์ข้อมูลระหว่าง Supply Chain Management และ Sales
 
 [![โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
-เมื่อต้องการเข้าถึงเท็มเพลตที่พร้อมใช้งาน เปิด [ศูนย์การจัดการ PowerApps](https://preview.admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
+เมื่อต้องการเข้าถึงแม่แบบที่พร้อมใช้งาน ให้เปิด [ศูนย์การจัดการ PowerApps](https://preview.admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
 
 เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายจาก Finance and Operations ไปยัง Sales:
 
@@ -52,30 +52,30 @@ ms.locfileid: "1552941"
 
 จำเป็นต้องทำงานการซิงโครไนส์ต่อไปนี้ก่อน จึงจะสามารถดำเนินการซิงโครไนส์ของส่วนหัวและรายการของใบแจ้งหนี้การขายได้:
 
-- ผลิตภัณฑ์ (Fin and Ops ไปยัง Sales) - ตรง
-- บัญชี (Sales ไปยัง Fin and Ops) - ตรง (ถ้าใช้)
-- ผู้ติดต่อ (Sales ไปยัง Fin and Ops) - ตรง (ถ้าใช้)
-- ส่วนหัวและรายการของใบสั่งขาย (Fin and Ops ไปยัง Sales) - ตรง
+- ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) - โดยตรง
+- บัญชี (Sales ไปยัง Supply Chain Management) - โดยตรง (ถ้าใช้)
+- ผู้ติดต่อ (Sales ไปยัง Supply Chain Management) - โดยตรง (ถ้าใช้)
+- ส่วนหัวและรายการของใบสั่งขาย (Supply Chain Management ไปยัง Sales) - โดยตรง
 
 ## <a name="entity-set"></a>การตั้งค่าเอนทิตี้
 
-| Finance and Operations                               | ใบสั่งขาย          |
+| Supply Chain Management                              | ใบสั่งขาย          |
 |------------------------------------------------------|----------------|
 | ส่วนหัวใบแจ้งหนี้การขายของลูกค้าที่รักษาไว้สำหรับภายนอก | ใบแจ้งหนี้       |
 | รายการในใบแจ้งหนี้การขายของลูกค้าที่รักษาไว้สำหรับภายนอก   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 
-ใบแจ้งหนี้การขายจะถูกสร้างขึ้นใน Finance and Operations และซิงโครไนส์ไปยัง Sales
+ใบเสนอราคาขายจะถูกสร้างขึ้นใน Supply Chain Management และซิงโครไนส์ไปยัง Sales
 
 > [!NOTE]
-> ในขณะนี้ ภาษีที่เกี่ยวข้องกับค่าธรรมเนียมบนส่วนหัวของใบแจ้งหนี้การขาย ไม่ได้รวมอยู่ในการซิงโครไนส์จาก Finance and Operations ไปยัง Sales Sales ไม่ได้สนับสนุนข้อมูลภาษีที่ระดับส่วนหัว อย่างไรก็ตาม ภาษีที่เกี่ยวข้องกับค่าธรรมเนียมในระดับรายการจะรวมอยู่ในการซิงโครไนส์
+> ในขณะนี้ ภาษีที่เกี่ยวข้องกับค่าธรรมเนียมบนส่วนหัวของใบแจ้งหนี้การขายไม่ได้รวมอยู่ในการซิงโครไนส์จาก Supply Chain Managements ไปยัง Sales Sales ไม่ได้สนับสนุนข้อมูลภาษีที่ระดับส่วนหัว อย่างไรก็ตาม ภาษีที่เกี่ยวข้องกับค่าธรรมเนียมในระดับรายการจะรวมอยู่ในการซิงโครไนส์
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดสำหรับ Sales
 
 - ฟิลด์ **หมายเลขใบแจ้งหนี้** ถูกเพิ่มไปยังเอนทิตี้ **ใบแจ้งหนี้** และแสดงขึ้นบนหน้า
-- ปุ่ม **สร้างใบแจ้งหนี้** บนหน้า **ใบสั่งขาย** ถูกซ่อนอยู่ เนื่องจากใบแจ้งหนี้จะถูกสร้างขึ้นใน Finance and Operations และถูกซิงค์ไปยัง Sales หน้า **ใบแจ้งหนี้** จะไม่สามารถแก้ไขได้ เนื่องจากใบแจ้งหนี้จะถูกซิงค์จาก Finance and Operations
-- ค่า **สถานะของใบสั่งขาย** จะเปลี่ยนเป็น **ใบแจ้งหนี้** โดยอัตโนมัติ เมื่อมีการซิงค์ใบแจ้งหนี้ที่เกี่ยวข้องจาก Finance and Operations ไปยัง Sales นอกจากนี้ เจ้าของใบสั่งขายที่มีการสร้างใบแจ้งหนี้จะยังถูกกำหนดให้เป็นเจ้าของของใบแจ้งหนี้อีกด้วย ดังนั้น เจ้าของใบสั่งขายสามารถดูใบแจ้งหนี้ได้
+- ปุ่ม **สร้างใบแจ้งหนี้** บนหน้า **ใบสั่งขาย** ถูกซ่อนอยู่เนื่องจากใบแจ้งหนี้จะถูกสร้างขึ้นใน Supply Chain Management และถูกซิงโครไนส์ไปยัง Sales หน้า **ใบแจ้งหนี้** จะไม่สามารถแก้ไขได้เนื่องจากใบแจ้งหนี้จะถูกซิงโครไนส์จาก Supply Chain Management
+- ค่า **สถานะของใบสั่งขาย** จะเปลี่ยนเป็น **ใบแจ้งหนี้** โดยอัตโนมัติเมื่อใบแจ้งหนี้ที่เกี่ยวข้องจาก Supply Chain Management ซิงโครไนส์ไปยัง Sales นอกจากนี้ เจ้าของใบสั่งขายที่มีการสร้างใบแจ้งหนี้จะยังถูกกำหนดให้เป็นเจ้าของของใบแจ้งหนี้อีกด้วย ดังนั้น เจ้าของใบสั่งขายสามารถดูใบแจ้งหนี้ได้
 
 ## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแม็ป
 
@@ -103,7 +103,7 @@ ms.locfileid: "1552941"
 #### <a name="salesinvoiceline-task"></a>งาน SalesInvoiceLine
 
 - ต้องแน่ใจว่าการแม็ปที่จำเป็นต้องมีอยู่สำหรับ **หน่วยวัด**
-- ตรวจสอบให้แน่ใจว่าแผนผังค่าที่ต้องการสำหรับ **SalesUnitSymbol** ใน Finance and Operations มีอยู่
+- ตรวจสอบให้แน่ใจว่ามีแผนผังค่าที่ต้องการสำหรับ **SalesUnitSymbol** ใน Supply Chain Management
 
     ค่าเท็มเพลตที่มีแผนผังค่าถูกกำหนดสำหรับ **SalesUnitSymbol** ไปยัง **Quantity\_UOM**
 
@@ -115,7 +115,7 @@ ms.locfileid: "1552941"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในการรวมข้อมูล 
 
 > [!NOTE]
-> การแม็ปแสดงข้อมูลฟิลด์ที่จะถูกซิงโครไนส์จาก Sales ไปยัง Finance and Operations
+> การแม็ปจะช่วยแสดงให้เห็นว่า ข้อมูลฟิลด์ใดที่จะถูกซิงโครไนส์จาก Sales ไปยัง Supply Chain Management
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -129,18 +129,12 @@ ms.locfileid: "1552941"
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
-[ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](prospect-to-cash.md)
+[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด](prospect-to-cash.md)
 
-[ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations](accounts-template-mapping-direct.md)
+[ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management](accounts-template-mapping-direct.md)
 
-[ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales](products-template-mapping-direct.md)
+[ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Sales](products-template-mapping-direct.md)
 
-[ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations](contacts-template-mapping-direct.md)
+[ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อหรือรายชื่อลูกค้าใน Supply Chain Management](contacts-template-mapping-direct.md)
 
-[ซิงโครไนส์ส่วนหัวและรายการของใบสั่งขายโดยตรงจาก Finance and Operations ไปยัง Sales](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[ซิงโครไนส์ส่วนหน้าและรายการของใบสั่งขายโดยตรงจาก Supply Chain Management ไปยัง Sales](sales-order-template-mapping-direct-two-ways.md)

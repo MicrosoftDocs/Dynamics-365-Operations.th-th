@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (16 เมษายน 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (16 เมษายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519191"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024148"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (16 เมษายน 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (16 เมษายน 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
 
@@ -39,7 +39,7 @@ ms.locfileid: "1519191"
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
 
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 Talent: การเตรียมความพร้อม
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 
@@ -47,11 +47,11 @@ ms.locfileid: "1519191"
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>ภูมิภาคของค่าตอบแทน ระดับค่าตอบแทน ตัวเลือกสวัสดิการ และเอนทิตีชนิดทักษะใน Common Data Service ที่ปรับปรุงเพื่อรวมการสนับสนุนฟิลด์ลูกค้า
 
-ด้วยการนำออกใช้นี้ เอนทิตี Common Data Service ได้รับการปรับปรุงเพื่อรวมความสามารถในการรวมฟิลด์ที่กำหนดเองที่เพิ่มโดยผ่าน Talent (Core HR)
+ด้วยการนำออกใช้นี้ เอนทิตี Common Data Service เหล่านี้ได้รับการปรับปรุงเพื่อรวมความสามารถในการรวมฟิลด์ที่กำหนดเองที่เพิ่มโดยผ่าน Talent: Core HR
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>เอนทิตี Common Data Service ใหม่สนับสนุนสำหรับ: กกฎสิทธิ์พึงได้ค่าตอบแทน แผนค่าตอบแทนผันแปร ค่าตอบแทนผันแปร
 
-ด้วยการนำออกใช้นี้ เอนทิตีกฎสิทธิ์พึงได้ค่าตอบแทน แผนค่าตอบแทนผันแปร และค่าตอบแทนผันแปร ได้ถูกเพิ่มไปยัง Common Data Service เอนทิตีเหล่านี้ยังสนับสนุนฟิลด์ที่กำหนดเองที่เพิ่มผ่าน Talent (Core HR) ด้วย
+ด้วยการนำออกใช้นี้ เอนทิตีกฎสิทธิ์พึงได้ค่าตอบแทน แผนค่าตอบแทนผันแปร และค่าตอบแทนผันแปร ได้ถูกเพิ่มไปยัง Common Data Service เอนทิตีเหล่านี้ยังสนับสนุนฟิลด์ที่กำหนดเองที่เพิ่มผ่าน Talent: Core HR ด้วย
 
 ### <a name="powerbi-refresh-issues-314342"></a>ปัญหาการรีเฟรช PowerBI (314342)
 
@@ -95,6 +95,6 @@ ms.locfileid: "1519191"
 
 ### <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
 
-ด้วยการปรับปรุงแพลตฟอร์ม 25 ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ทริกเกอร์โดยเหตุการณ์
+ด้วยการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่ส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อเมื่อมีการทริกเกอร์โดยเหตุการณ์
 
 

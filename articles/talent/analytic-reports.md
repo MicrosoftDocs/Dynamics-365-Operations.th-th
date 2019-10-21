@@ -1,6 +1,6 @@
 ---
-title: ใช้รายงานการวิเคราะห์ใน Microsoft Dynamics 365 for Talent - Attract
-description: หัวข้อนี้อธิบายถึงรายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการว่าจ้างใน Microsoft Dynamics 365 for Talent - Attract
+title: ใช้รายงานการวิเคราะห์ใน Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้อธิบายถึงรายงานการวิเคราะห์สำหรับข้อมูลเชิงลึกกระบวนการจ้างงานใน Microsoft Dynamics 365 Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742903"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010026"
 ---
 # <a name="use-analytic-reports"></a>ใช้รายงานการวิเคราะห์
 
-รายงานการวิเคราะห์ใน Attract ให้โซลูชัน (OOTB) แบบสำเร็จรูปสำหรับข้อมูลเชิงลึกกระบวนการว่าจ้าง คุณลักษณะที่พร้อมใช้งาน ได้แก่:
+รายงานการวิเคราะห์ใน Microsoft Dynamics 365 Talent: Attract แบบสำเร็จรูปสำหรับข้อมูลเชิงลึกกระบวนการจ้างงาน คุณลักษณะที่พร้อมใช้งาน ได้แก่:
 
 - **การวิเคราะห์งาน** คลิกแท็บ **การวิเคราะห์** ภายในงานสำหรับการวัดในผู้สมัครงาน
 - **ฮับการวิเคราะห์:** คลิก **การวิเคราะห์** บนการนำทางด้านซ้ายสำหรับการวัดรวมในงาน

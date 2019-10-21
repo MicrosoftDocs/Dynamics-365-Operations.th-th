@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าไซต์รับสมัครงานของคุณใน Microsoft Dynamics 365 for Talent - Attract
-description: หัวข้อนี้แสดงภาพรวมของฟังก์ชันไซต์การทำงานที่เชื่อมต่อกับผู้สมัครใน Microsoft Dynamics 365 for Talent - Attract
+title: ตั้งค่าไซต์รับสมัครงานของคุณใน Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้แสดงภาพรวมของฟังก์ชันไซต์การทำงานที่เชื่อมต่อกับผู้สมัครใน Microsoft Dynamics 365 Talent - Attract
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739782"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026290"
 ---
 # <a name="set-up-your-career-site"></a>ตั้งค่าไซต์รับสมัครงานของคุณ
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของฟังก์ชันไซต์การทำงานที่เชื่อมต่อกับผู้สมัครใน Microsoft Dynamics 365 for Talent: Attract นอกจากนี้ ยังอธิบายวิธีการตั้งค่าฟังก์ชันนี้อีกด้วย
+หัวข้อนี้แสดงภาพรวมของฟังก์ชันไซต์การทำงานที่เชื่อมต่อกับผู้สมัครใน Microsoft Dynamics 365 Talent: Attract นอกจากนี้ ยังอธิบายวิธีการตั้งค่าฟังก์ชันนี้อีกด้วย
 
 Attract ให้ไซต์การทำงานหนึ่งไซต์สำหรับแต่ละสภาพแวดล้อมในผู้เช่า ตัวอย่างเช่น ถ้าองค์กรมีสภาพแวดล้อมการพัฒนาและสภาพแวดล้อมการทดสอบ ไซต์การทำงานหนึ่งไซต์จะถูกเตรียมใช้งานสำหรับสภาพแวดล้อมการพัฒนา และไซต์การทำงานอีกหนึ่งไซต์จะถูกเตรียมใช้งานสำหรับสภาพแวดล้อมการทดสอบ ไซต์การทำงานแต่ละไซต์เป็นแบบแยกต่างหากทั้งหมด และมีกลไกการรับรองความถูกต้องของตนเอง งานและโพรไฟล์ผู้สมัครไม่ได้ใช้ร่วมกันระหว่างไซต์การทำงาน
 
@@ -62,7 +62,7 @@ Attract ให้ไซต์การทำงานหนึ่งไซต์
 
 -   **URL โฮมเพจของไซต์การทำงาน** - เมื่อต้องการดู URL โฮมเพจของไซต์การทำงาน ล็อกอินไปยัง Attract ในฐานะผู้ดูแลระบบ เลือก **ศูนย์การจัดการ** บนเมนู **การตั้งค่า** และจากนั้นเลือกแท็บ **การจัดการไซต์การทำงาน**
 
--   **URL การสมัครโพสต์งานแต่ละรายการ** - [เมื่อคุณโพสต์งานภายนอก](Creating-jobs-Attract.md#postings) เป็นครั้งแรก คุณสามารถคัดลอกลิงค์ **สมัคร** จากใบสมัคร Attract ได้ URL สำหรับการเชื่อมโยงนี้จะอยู่ในรูปแบบต่อไปนี้: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **URL การสมัครโพสต์งานแต่ละรายการ** - [เมื่อคุณโพสต์งานภายนอก](Creating-jobs-Attract.md#postings) เป็นครั้งแรก คุณสามารถคัดลอกลิงค์ **สมัคร** จากแอพลิเคชัน Attract ได้ URL สำหรับการเชื่อมโยงนี้จะอยู่ในรูปแบบต่อไปนี้: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL ของโพสต์งานแต่ละรายการ** - URL ของโพสต์งานเป็นสตริงย่อยของ URL การสมัคร ซึ่งประกอบด้วยข้อมูลทั้งหมดไปจนถึงหมายเลขงาน ดังนั้น สำหรับ URL การสมัครก่อนหน้า URL ของโพสต์งานคือ [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

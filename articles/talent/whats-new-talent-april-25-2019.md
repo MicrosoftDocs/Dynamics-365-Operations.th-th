@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (23 เมษายน 2019)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 for Talent
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (23 เมษายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624592"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024125"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Talent (23 เมษายน 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (23 เมษายน 2019)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 for Talent
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
 ## <a name="changes-in-attract"></a>การเปลี่ยนแปลงใน Attract
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 for Talent: Attract
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract
 
 ## <a name="changes-in-onboard"></a>การเปลี่ยนแปลงในการเตรียมความพร้อม
-รุ่นนี้มีการแก้ไขบักรองสำหรับ Dynamics 365 for Talent: Onboard
+รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard
 
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2253 ตัวเลขในวงเล็บอ้างอิงถึงหมายเลขที่สนับสนุนใน Lifecycle Services (LCS)
@@ -79,4 +79,4 @@ ms.locfileid: "1624592"
 ## <a name="known-issues"></a>ปัญหาที่ทราบ
 
 ### <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
-ด้วยการปรับปรุงแพลตฟอร์ม 26 ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ทริกเกอร์โดยเหตุการณ์
+ด้วยการอัพเดตแพลตฟอร์ม 26 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่ส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อเมื่อมีการทริกเกอร์โดยเหตุการณ์
