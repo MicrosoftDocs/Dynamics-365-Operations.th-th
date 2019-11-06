@@ -1,12 +1,14 @@
-- name: การพัฒนาและการดูแลระบบสำหรับ Finance and Operations
+- name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
   items:
-    - name: การพัฒนาและการดูแลระบบสำหรับ Finance and Operations
+    - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
       items:
-        - name: การพัฒนาและการดูแลระบบสำหรับ Finance and Operations
+        - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
           href: index.md
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
           items:
-            - name: ดูคุณลักษณะรุ่นพรีวิวใน Platform update 30 (พฤศจิกายน 2019)
+            - name: ดูตัวอย่างคุณลักษณะใน Platform update 31 (มกราคม 2020)
+              href: get-started/whats-new-platform-update-31.md
+            - name: Platform update 30 (พฤศจิกายน 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29 (ตุลาคม 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -60,8 +62,10 @@
                   href: business-events/how-to/how-to-workflow.md
                 - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
                   href: business-events/how-to/FormsPro.md
-                - name: เหตุการณ์ทางธุรกิจและ Azure Event Hubs
+                - name: เหตุการณ์ทางธุรกิจและฮับเหตุการณ์ Azure
                   href: business-events/how-to/event-hub.md
+                - name: เหตุการณ์ทางธุรกิจในการปิดรอบระยะเวลาทางการเงิน
+                  href: business-events/how-to/period-close.md
         - name: การจัดส่งแบบต่อเนื่อง
           items:
             - name: โฮมเพจการจัดส่งแบบต่อเนื่อง
@@ -302,6 +306,26 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: การทดสอบแบบทำลาย
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: ภาพรวม
+                  href: database/api/dbmovement-api-overview.md
+                - name: การกำหนดรุ่นและการสนับสนุน
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: การรับรองความถูกต้อง
+                  href: database/api/dbmovement-api-authentication.md
+                - name: การควบคุมปริมาณ
+                  href: database/api/dbmovement-api-throttling.md
+                - name: ข้อมูลอ้างอิง
+                  items:
+                    - name: ข้อมูลอ้างอิง API v1
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: แสดงรายการสำเนาสำรองของฐานข้อมูล
+                      href: database/api/v1/reference-list-backups.md
+                    - name: สร้างการรีเฟรชฐานข้อมูล
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: เรียกสถานะกิจกรรมการดำเนินงาน
+                      href: database/api/v1/reference-get-status.md
         - name: ข้อมูลสาธิต
           items:
             - name: ภาพรวมของข้อมูลสาธิต
@@ -1213,7 +1237,7 @@
             - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
             - name: ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service
