@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176111"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570367"
 ---
 # <a name="recognize-deferred-revenue"></a>รับรู้รายได้ที่รอการตัดบัญชี
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> คุณลักษณะการรับรู้รายได้ยังไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
+> คุณลักษณะการรับรู้รายได้ไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
 
 หัวข้อนี้จะอธิบายถึงกระบวนการรับรู้รายได้ในกำหนดการรับรู้รายได้ หลังจากลงรายการบัญชีใบแจ้งหนี้สำหรับใบสั่งขายแล้ว จะมีการสร้างกำหนดการรับรู้รายได้สำหรับรายการใบสั่งขายแต่ละรายการที่มีกำหนดการรายได้ กำหนดการรายได้ในรายการจะใช้กำหนดว่ารายได้ในรายการควรมีการรอการตัดบัญชีหรือไม่
 

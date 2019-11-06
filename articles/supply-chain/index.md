@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278335"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653705"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>ทรัพยากรความช่วยเหลือสำหรับ Supply Chain Management
 
@@ -39,7 +39,7 @@ ms.locfileid: "2278335"
 เลือกส่วนคุณลักษณะที่จะเรียนรู้เพิ่มเติม
 
 - [การจัดการสินทรัพย์](asset-management/index.md)
-- [การบัญชีต้นทุน](../financials/cost-accounting/cost-accounting-home-page.md)
+- [การบัญชีต้นทุน](../finance/cost-accounting/cost-accounting-home-page.md)
 - [การจัดการต้นทุน](cost-management/cost-management-home-page.md)  
 - [การบริหารสินค้าคงคลัง](inventory/inventory-home-page.md)
 - [การวางแผนหลัก](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ ms.locfileid: "2278335"
 -  [การจัดการการขนส่ง (TMS) ในรูปแบบใหม่ Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>บล็อก
-มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX</a> หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ของ Finance and Operations แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
+มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน <a href="https://blogs.msdn.microsoft.com/axmfg/">บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX</a> และ <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">การบริหารห่วงโซ่อุปทานในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX</a> หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน 
 
 ## <a name="white-papers"></a>เอกสาร
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">ห้องปฏิบัติการในเชิงปฏิบัติเกี่ยวกับการบัญชีต้นทุน</a> 

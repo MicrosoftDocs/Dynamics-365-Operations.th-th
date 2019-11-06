@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176112"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570321"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>การรับรู้รายได้สำหรับใบสั่งขาย
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> คุณลักษณะการรับรู้รายได้ยังไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
+> คุณลักษณะการรับรู้รายได้ไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
 
 หัวข้อนี้อธิบายถึงฟังก์ชันพื้นฐานสำหรับการรับรู้รายได้ของใบสั่งขายและใบแจ้งหนี้ การรับรู้รายได้จะพร้อมใช้งานสำหรับใบสั่งขายและใบแจ้งหนี้ที่ตรงกันซึ่งสร้างจากใบสั่งขาย นอกจากนี้ ใบสั่งขายยังสามารถสร้างได้โดยใช้โครงการเวลาและวัสดุ
 

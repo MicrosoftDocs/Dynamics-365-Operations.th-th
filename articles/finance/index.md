@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176106"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570136"
 ---
 # <a name="financial-management-home-page"></a>โฮมเพจการจัดการทางการเงิน
 
@@ -69,4 +69,8 @@ ms.locfileid: "2176106"
 ### <a name="countryregion-functionality"></a>ฟังก์ชันประเทศ/ภูมิภาค
 
 ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน ดูส่วน [คุณลักษณะการทำงานเฉพาะและบังคับ](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) ในเนื้อหาความช่วยเหลือของเราเพื่อเรียนรู้เกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค
+
+### <a name="additional-content"></a>เนื้อหาเพิ่มเติม
+
+ฟังก์ชันการบริหารห่วงโซ่อุปทานครอบคลุมถึงส่วนของกระบวนการการสั่งซื้อจนถึงการได้รับเงินสดที่ประกอบด้วยการขอซื้อ การสั่งซื้อ การรับสินค้า การออกใบแจ้งหนี้ และการชำระเงินสำหรับสินค้าและบริการที่องค์กรของคุณซื้อ โปรดดูที่ [โฮมเพจการบริหารห่วงโซ่อุปทาน](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) สำหรับข้อมูลเกี่ยวกับความสามารถในการจัดการกับการซื้อ สินค้าคงคลัง และการผลิต 
 
