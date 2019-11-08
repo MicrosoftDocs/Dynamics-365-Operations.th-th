@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: b55a0b9e54eabdcdbd3f858cf3725b8fe833f65d
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251189"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653405"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>ซิงโครไนส์คลังสินค้าจาก Supply Chain Management ไปยัง Field Service
 
@@ -52,14 +52,14 @@ ms.locfileid: "2251189"
 คลังสินค้าที่สร้างขึ้นและรักษาไว้ใน Supply Chain Management สามารถซิงโครไนส์กับ Field Service ได้ ผ่านทางโครงการรวมข้อมูล Common Data Service (CDS) อาจมีการควบคุมคลังสินค้าที่คุณต้องการที่ซิงโครไนส์กับ Field Service พร้อมกับแบบสอบถามขั้นสูง และการกรองข้อมูลในโครงการ มีการสร้างคลังสินค้าที่ซิงโครไนส์จาก Supply Chain Management ใน Field Service กับฟิลด์ **ได้รับการรักษาไว้ภายนอก** ถูกตั้งค่าเป็น **ใช่** และเรกคอร์ดเป็นแบบอ่านอย่างเดียว
 
 ## <a name="field-service-crm-solution"></a>โซลูชัน CRM ของ Field Service
-เพื่อสนับสนุนการรวมระหว่าง Field Service และ Finance and Operations ต้องมีฟังก์ชันเพิ่มเติมจากโซลูชัน CRM ของ Field Service ในโซลูชัน ฟิลด์ **จะเก็บรักษาภายนอก** ได้ถูกเพิ่มไปยังเอนทิตี **คลังสินค้า (msdyn_warehouses)** ฟิลด์นี้ช่วยระบุว่ามีจัดการคลังสินค้าจาก Supply Chain Management หรือว่ามีอยู่เฉพาะใน Field Service การตั้งค่าสำหรับฟิลด์นี้รวมถึง:
+เพื่อสนับสนุนการรวมระหว่าง Field Service และ Supply Chain Management ต้องมีฟังก์ชันเพิ่มเติมจากโซลูชัน CRM ของ Field Service ในโซลูชัน ฟิลด์ **จะเก็บรักษาภายนอก** ได้ถูกเพิ่มไปยังเอนทิตี **คลังสินค้า (msdyn_warehouses)** ฟิลด์นี้ช่วยระบุว่ามีจัดการคลังสินค้าจาก Supply Chain Management หรือว่ามีอยู่เฉพาะใน Field Service การตั้งค่าสำหรับฟิลด์นี้รวมถึง:
 - **ใช่** – คลังสินค้าสร้างจาก Supply Chain Management และจะไม่สามารถแก้ไขได้ใน Sales
 - **ไม่** – มีการป้อนคลังสินค้าโดยตรงใน Field Service และรักษาไว้ที่นี่
 
 ฟิลด์ **รักษาไว้สำหรับภายนอก** ช่วยควบคุมการซิงโครไนส์ของระดับสินค้าคงคลัง การปรับปรุง การโอนย้าย และการใช้บนใบสั่งงาน เฉพาะคลังสินค้าที่มี **รักษาไว้สำหรับภายนอก** ถูกตั้งค่าเป็น **ใช่** สามารถถูกซิงโครไนส์โดยตรงไปยังคลังสินค้าเดียวกันในระบบอื่นๆ ได้ 
 
 > [!NOTE]
-> คุณจะสามารถสร้างคลังสินค้าหลายแห่งใน Field Service ได้ ( **รักษาไว้สำหรับภายนอก = No**) แล้วแมปเข้ากับคลังสินค้าเดียวใน Finance and Operations แบบสอบถามขั้นสูง และการกรองข้อมูลฟังก์ชัน นี่จะถูกใช้ในสถานการณ์ที่คุณต้องการให้ Field service เป็นหลักของระดับสินค้าคงคลังโดยละเอียด และส่งการปรับปรุงไปยัง Finance and Operations ในกรณีนี้ Field service จะไม่ได้รับการปรับปรุงระดับสินค้าคงคลังจาก Finance and Operations สำหรับข้อมูลเพิ่มเติม ดู [ซิงโครไนส์การปรับปรุงสินค้าคงคลังจาก Field Service to Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) และ [ซิงโครไนส์ใบสั่งงานใน Field Service ไปยังใบสั่งขายที่เชื่อมโยงกับโครงการใน Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)
+> คุณจะสามารถสร้างคลังสินค้าหลายแห่งใน Field Service ได้ (โดยที่ **ถูกรักษาไว้สำหรับภายนอก** = ไม่) แล้วแม็ปเข้ากับคลังสินค้าเดียว ซึ่งมีแบบสอบถามขั้นสูงและฟังก์ชันการกรองข้อมูล จะมีการใช้ในสถานการณ์ที่คุณต้องการให้ Field service เป็นหลักของระดับสินค้าคงคลังโดยละเอียด และส่งเพียงการปรับปรุงไปยัง Supply Chain Management ในกรณีนี้ Field service จะไม่ได้รับการปรับปรุงระดับสินค้าคงคลังจาก Supply Chain Management สำหรับข้อมูลเพิ่มเติม ดู [ซิงโครไนส์การปรับปรุงสินค้าคงคลังจาก Field Service to Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) และ [ซิงโครไนส์ใบสั่งงานใน Field Service ไปยังใบสั่งขายที่เชื่อมโยงกับโครงการใน Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)
 
 ## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแม็ปและข้อกำหนดเบื้องต้น
 ### <a name="data-integration-project"></a>โครงการการรวมข้อมูล

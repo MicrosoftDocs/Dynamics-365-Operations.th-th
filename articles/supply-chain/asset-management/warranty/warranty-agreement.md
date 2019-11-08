@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874704"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569696"
 ---
 # <a name="warranty-agreements"></a>ข้อตกลงการรับประกัน
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 ในการจัดการสินทรัพย์คุณสามารถตั้งค่าเงื่อนไขการรับประกันซึ่งสามารถเชื่อมโยงกับสินทรัพย์หรือชนิดสินทรัพย์ได้ เงื่อนไขการรับประกันจะถูกสร้างขึ้นสำหรับรอบระยะเวลาที่ระบุ คุณสามารถตั้งค่าการรับประกันเพื่อให้ครอบคลุมบางส่วนทั้งหมด และคุณสามารถตั้งค่าเงื่อนไขที่เกี่ยวข้องกับชั่วโมง ค่าใช้จ่าย และสินค้าได้
@@ -54,4 +54,4 @@ ms.locfileid: "1874704"
     3. ในฟิลด์ **ช่วงเวลา** ให้ป้อนตัวเลข ฟิลด์นี้จะกำหนดจำนวนของรอบระยะเวลาที่การรับประกันควรมีผลบังคับใช้
     4. ในฟิลด์ **เปอร์เซ็นต์** ให้ป้อนเปอร์เซ็นต์ความครอบคลุมสำหรับรายการการรับประกัน เปอร์เซ็นต์บ่งชี้ว่าบริษัทของคุณครอบคลุมมากน้อยเพียงใด
 
-![รูปที่ 1](media/01-warranty.png)
+![หน้าการรับประกัน](media/01-warranty.png)

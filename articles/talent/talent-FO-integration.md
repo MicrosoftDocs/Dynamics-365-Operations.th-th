@@ -3,7 +3,7 @@ title: FAQ เกี่ยวกับการรวม Dynamics 365 Talent ไ
 description: หัวข้อนี้อธิบายว่าข้อมูลใดจะถูกซิงโครไนส์ในการรวม Talent และ Finance
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251026"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622779"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>FAQ เกี่ยวกับการรวม Dynamics 365 Talent ไปยัง Dynamics 365 Finance
 
@@ -35,6 +35,10 @@ ms.locfileid: "2251026"
 สำหรับ Core HR ชุดย่อยของข้อมูลจะมีการซิงโครไนส์ สำหรับรายการของเอนทิตี้ทั้งหมด ดู [การรวมจาก Dynamics 365 Talent ไปยัง Dynamics 365 Finance](talent-financeandoperations-integration.md)
 
 สำหรับ Attract และ Onboard ข้อมูลทั้งหมดเป็นข้อมูลหลักของ Common Data Service
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>เพราะเหตุใดฉันจึงไม่เห็นข้อมูลใดๆ ที่มีการซิงค์กับ Common Data Service
+
+โดยค่าเริ่มต้น การรวม Common Data Service จะถูกปิดใช้งานในสภาพแวดล้อมใหม่ที่ไม่มีข้อมูลสาธิตที่ระบุ โดยค่าเริ่มต้น จะมีการเปิดใช้งานในสภาพแวดล้อมใหม่ซึ่งรวมถึงข้อมูลสาธิต และการซิงโครไนส์ข้อมูลจะเริ่มต้นขึ้นเมื่อมีการจัดเตรียมสภาพแวดล้อม หลังจากที่สภาพแวดล้อมของคุณพร้อมที่จะซิงค์ข้อมูลแล้ว คุณสามารถเปิดใช้งานการรวมได้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-common-data-service-integration.md)
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>ฉันสามารถสร้างการแม็ปใหม่โดยไม่ใช้เท็มเพลได้หรือไม่
 

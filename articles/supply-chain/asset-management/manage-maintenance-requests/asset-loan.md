@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8680241b1300aceda3280893982a1eff3d2e09e0
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 9a365fb5b1e0126b9de56bcc84a14f2352208d4f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847493"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571725"
 ---
 # <a name="asset-loans"></a>สินทรัพย์ที่ยืม
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 หากบริษัทของคุณได้รับสินทรัพย์สำหรับการซ่อมแซมหรืองานการบำรุงรักษาจากสถานที่ภายในหรือลูกค้า อย่างใดอย่างหนึ่ง และหากคุณกู้ยืมสินทรัพย์จากสถานที่หรือลูกค้าเหล่านั้น การจัดการสินทรัพย์สามารถติดตามสินทรัพย์ที่ยืมได้
 
@@ -47,7 +47,7 @@ ms.locfileid: "1847493"
 
 หากต้องการดูรายการของสินทรัพย์ทั้งหมดที่คุณให้ยืมแก่สถานที่หรือลูกค้าอื่นๆ ให้เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **สินทรัพย์ที่ยืม** \> **สินทรัพย์ที่ยืมทั้งหมด** ถ้ามีการเลือกกล่องกาเครื่องหมาย **สิ้นสุด** สำหรับสินทรัพย์ จะมีการลงทะเบียนสินทรัพย์เป็นส่งคืนให้กับบริษัทของคุณ
 
-![รูปที่ 1](media/06-manage-maintenance-requests.png)
+![จัดการคำขอการบำรุงรักษา](media/06-manage-maintenance-requests.png)
 
 ในหน้า **สินทรัพย์ที่ยืมที่ใช้งานอยู่** คุณสามารถดูรายการของสินทรัพย์ที่ให้ยืมทั้งหมดที่ยังไม่ได้ส่งคืนให้กับบริษัทของคุณ
 

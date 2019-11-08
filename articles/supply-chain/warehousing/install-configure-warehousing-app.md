@@ -1,6 +1,6 @@
 ---
-title: ติดตั้งและตั้งค่าคอนฟิกภาพรวมแอปคลังสินค้า
-description: หัวข้อนี้อธิบายวิธีการติดตั้งและตั้งค่าคอนฟิกแอปคลังสินค้า Dynamics 365 Supply Chain Management
+title: ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า
+description: หัวข้อนี้อธิบายวิธีการติดตั้งและกำหนดค่า Dynamics 365 for Finance and Operations
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251511"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548979"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>ติดตั้งและตั้งค่าคอนฟิกภาพรวมแอปคลังสินค้า
+# <a name="install-and-configure-the-warehousing-app-overview"></a>ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251511"
 > หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ cloud ถ้าคุณกำลังค้นหาวิธีการตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 
-หัวข้อนี้อธิบายวิธีการติดตั้งและตั้งค่าคอนฟิกแอปคลังสินค้า Dynamics 365 Supply Chain Management
+หัวข้อนี้อธิบายวิธีการติดตั้งและกำหนดค่า Dynamics 365 for Finance and Operations
 
 แอปคลังสินค้ามีอยู่ใน Google Play Store และ Windows Store สำหรับ Dynamics 365 Supply Chain Management รุ่นปัจจุบัน แอพลิเคชันนี้มีไว้สำหรับเป็นส่วนประกอบแบบสแตนด์อโลน ซึ่งหมายถึงการปรับใช้ด้วยตนเองบนอุปกรณ์ที่ใช้สำหรับงานคลังสินค้า เมื่อต้องการใช้แอพลิเคชัน คุณต้องดาวน์โหลดแอปบนอุปกรณ์แต่ละเครื่องและตั้งค่าคอนฟิกเพื่อเชื่อมต่อกับสภาพแวดล้อมของ Supply Chain Management หัวข้อนี้อธิบายวิธีการติดตั้งแอพบนอุปกรณ์ของคุณ นอกจากนี้ยังอธิบายถึงวิธีการตั้งค่าคอนฟิกแอพเพื่อเชื่อมต่อกับสภาพแวดล้อม Supply Chain Management ของคุณ
 

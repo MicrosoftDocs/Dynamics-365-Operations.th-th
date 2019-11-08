@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e6306698d351d33cae627e3741ad9a2eb6d893
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 30145a56de4f7e3dce039968791d2fc9b960077f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783641"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571541"
 ---
 # <a name="move-replace-and-install-assets"></a>ย้าย แทนที่ และติดตั้งสินทรัพย์
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 หัวข้อนี้จะอธิบายวิธีการย้าย แทนที่ และติดตั้งสินทรัพย์ในการจัดการสินทรัพย์ คุณสามารถสร้างสินทรัพย์แต่ละรายการที่ไม่มีความสัมพันธ์กับสินทรัพย์อื่น หรือคุณสามารถสร้างโครงสร้างสินทรัพย์ที่มีสินทรัพย์หลัก (สินทรัพย์ระดับสูงสุด) และสินทรัพย์รองที่เกี่ยวข้อง (สินทรัพย์ย่อย) ในการจัดการสินทรัพย์ มีวิธีการสามวิธีในการย้ายและการเปลี่ยนตำแหน่งของสินทรัพย์:
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874612"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569719"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>การรับประกันสำหรับสินทรัพย์และชนิดสินทรัพย์
+# <a name="warranties-on-assets-and-asset-types"></a>การรับประกันในสินทรัพย์และชนิดสินทรัพย์
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าการรับประกันในสินทรัพย์และชนิดสินทรัพย์ในการจัดการสินทรัพย์
@@ -50,7 +50,7 @@ ms.locfileid: "1874612"
     > [!IMPORTANT]
     > หากมีการเลือกวันที่ในฟิลด์ **เริ่มต้นการรับประกัน** บนใบสั่งงาน การรับประกันจะมีผลบังคับใช้สำหรับใบสั่งงานในวันที่นั้น เมื่อคุณสร้างใบสั่งงาน ฟิลด์ **เริ่มต้นการรับประกัน** จะถูกตั้งค่าโดยอัตโนมัติเป็นวันที่สร้าง อย่างไรก็ตาม คุณสามารถเปลี่ยนแปลงวันที่เพื่อให้ถูกต้อง ตัวอย่างเช่น วันที่เริ่มต้นของข้อตกลงการรับประกัน
     >
-    > ![รูปที่ 1](media/02-warranty.png)
+    > ![หน้าใบสั่งงาน](media/02-warranty.png)
 
 > [!NOTE]
 > เมื่อคุณสร้างใบสั่งงานสำหรับสินทรัพย์ที่ครอบคลุมโดยการรับประกันของผู้จัดจำหน่าย หากใบสั่งงานมีวันที่เริ่มต้นที่คาดไว้ระหว่างรอบระยะเวลาการรับประกัน คุณจะได้รับการแจ้งเตือนเกี่ยวกับข้อตกลงการรับประกัน คุณสามารถยกเลิกใบสั่งงานได้หากต้องการ

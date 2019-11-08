@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c85fc24cdf0b3cd1a188ccf0f477ffbfa5fab960
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f0a8fcf26da02bd42f6ee45687c585091e3b945e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783618"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570989"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>เจ้าหน้าที่บำรุงรักษาและกลุ่มผู้ปฏิบัติงาน
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 หัวข้อนี้อธิบายเจ้าหน้าที่บำรุงรักษาและกลุ่มผู้ปฏิบัติงานในการจัดการสินทรัพย์ ในการจัดการสินทรัพย์ คุณสามารถเชื่อมต่อเจ้าหน้าที่บำรุงรักษากับเจ้าหน้าที่บำรุงรักษาได้ (สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตำแหน่งที่ทำงาน ดู [สร้างตำแหน่งที่ทำงาน](../functional-locations/create-functional-locations.md)) ฟังก์ชันนี้อาจมีประโยชน์ ตัวอย่างเช่น คุณกำลังจัดกำหนดการงานบำรุงรักษาบนเครื่องที่ตั้งอยู่ในตำแหน่งที่ทำงาน 01 และคุณต้องการปันส่วนเจ้าหน้าที่บำรุงรักษาจากที่ตั้งเดียวกันเพื่อดำเนินการงาน
 

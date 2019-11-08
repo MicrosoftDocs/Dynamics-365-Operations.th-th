@@ -1,9 +1,9 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (31 กรกฎาคม 2019)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (30 กรกฎาคม 2019)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/30/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3676a0a1fa77285d0203e8e49725cb1c1b742d39
+ms.sourcegitcommit: 029c1882bef558b6a45843548e94ab8369ed9870
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010256"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2651722"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (30 กรกฎาคม 2019)
 
@@ -45,7 +45,7 @@ ms.locfileid: "2010256"
 
 เรามีความยินดีที่จะประกาศว่าประเทศแคนาดาและภูมิภาคเอเชียตะวันออกเฉียงใต้จะพร้อมใช้งานสำหรับ Talent ในวันที่ 1 สิงหาคม 2019 การเปลี่ยนแปลงนี้ คุณสามารถสร้างสภาพแวดล้อมในภูมิภาคแคนาดาและภูมิภาคเอเชีย และข้อมูล Talent ทั้งหมดจะถูกเก็บรักษาไว้ภายในที่ตั้งเหล่านั้นเท่านั้น คุณสามารถสร้างสภาพแวดล้อมในภูมิภาคใหม่เหล่านี้ได้ด้วยการเลือกที่ตั้งในกล่องโต้ตอบสภาพแวดล้อมใหม่ และใช้สภาพแวดล้อมเพื่อจัดเตรียม Talent ใน LCS ตามที่อธิบายไว้ใน [เตรียมใช้งาน Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent)
 
-การย้ายข้อมูลของโครงการที่มีอยู่จากภูมิภาคอื่นไปยังภูมิภาคแคนาดาและภูมิภาคเอเชียไม่ได้รับการสนับสนุน เฉพาะโครงการใหม่เท่านั้นที่สามารถเตรียมใช้งานให้กับภูมิภาคที่ได้รับการสนับสนุนใหม่เหล่านี้
+การย้ายข้อมูลของโครงการที่มีอยู่จากภูมิภาคอื่นไปยังภูมิภาคแคนาดาและภูมิภาคเอเชียไม่ได้รับการสนับสนุน เฉพาะโครงการใหม่เท่านั้นที่สามารถถูกเตรียมใช้งานให้กับภูมิภาคที่ได้รับการสนับสนุนใหม่เหล่านี้
 
 ### <a name="new-active-positions-list-page"></a>หน้ารายการตำแหน่งงานที่ใช้งานใหม่
 
@@ -57,7 +57,7 @@ ms.locfileid: "2010256"
 
 ### <a name="fte-analysis-displaying-incorrect-fte-number"></a>การวิเคราะห์ FTE แสดงหมายเลข FTE ที่ไม่ถูกต้อง
 
-**การวิเคราะห์ FTE** ได้รับการแก้ไขในแท็บ **การวิเคราะห์** ของ **การจัดการบุคลากร**
+**การวิเคราะห์ FTE** ได้รับการแก้ไขบนแท็บ **การวิเคราะห์** สำหรับ **การจัดการบุคลากร**
 
 ### <a name="final-comments-label-translation"></a>การแปลป้ายชื่อความคิดเห็นสุดท้าย
 

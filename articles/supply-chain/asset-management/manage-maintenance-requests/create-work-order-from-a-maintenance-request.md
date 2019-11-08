@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847470"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571702"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>สร้างใบสั่งงานจากคำขอการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 หลังจากที่คุณได้สร้างคำขอการบำรุงรักษาแล้ว คุณสามารถแปลงเป็นใบสั่งงานได้อย่างง่ายดาย หัวข้อนี้อธิบายวิธีที่เร็วที่สุดในการทำงานกับคำขอการบำรุงรักษาอัพเดต ปรับปรุงคำขอการบำรุงรักษาหลายรายการในเวลาเดียวกัน และจากนั้น สร้างใบสั่งงานสำหรับคำขอการบำรุงรักษาหลายรายการในเวลาเดียวกัน ในหน้า **คำขอการบำรุงรักษาที่ใช้งานอยู่** หรือ **คำขอการบำรุงรักษาตำแหน่งที่ทำงานของฉัน** คุณยังสามารถทำงานกับคำขอการบำรุงรักษาหนึ่งรายการในแต่ละครั้ง และแปลงคำขอการบำรุงรักษาหนึ่งรายการเป็นใบสั่งงาน
@@ -53,5 +53,5 @@ ms.locfileid: "1847470"
 
 6. เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **ใบสั่งงาน** \> **ใบสั่งงานทั้งหมด** และเปิดใบสั่งงานใหม่
 
-    ![รูปที่ 1](media/05-manage-maintenance-requests.png)
+    ![เปิดใบสั่งงานใหม่](media/05-manage-maintenance-requests.png)
 

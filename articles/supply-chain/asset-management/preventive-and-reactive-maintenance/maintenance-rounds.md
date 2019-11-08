@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922033"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570041"
 ---
 # <a name="maintenance-rounds"></a>รอบการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 ใน **การจัดการสินทรัพย์** คุณสามารถสร้างรอบการบำรุงรักษาสำหรับสินทรัพย์ต่างๆ ซึ่งคุณจำเป็นต้องดำเนินงานที่คล้ายกันในช่วงเวลาปกติ ตัวอย่าง เช่น งานหล่อลื่นหรืองานการตรวจสอบความปลอดภัย ที่จำเป็นต้องดำเนินการกับเครื่องจักรจำนวนมากภายในช่วงเวลาเดียวกัน ขั้นตอนแรก คือสร้างรอบการบำรุงรักษา รวมถึงสินทรัพย์ที่จำเป็นต้องใช้ฟอร์มเดียวกันของงานการบำรุงรักษา ถัดไป คุณจัดกำหนดการรอบการบำรุงรักษา เมื่อคุณจัดกำหนดการรอบการบำรุงรักษาเสร็จเรียบร้อยแล้ว คุณสามารถดูเรกคอร์ดงานทั้งหมดที่เกี่ยวข้องกับรอบ ใน **กำหนดการบำรุงรักษาทั้งหมด** และ **รายการกำหนดการบำรุงรักษาแบบเปิด**
 

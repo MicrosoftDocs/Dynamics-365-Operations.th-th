@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847562"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571679"
 ---
 # <a name="inbound-and-outbound-assets"></a>สินทรัพย์ขาเข้าและขาออก
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 ถ้าบริษัทของคุณทำงานซ่อมแซมหรืองานบำรุงรักษาในสินทรัพย์ที่ได้รับจากสถานที่หรือลูกค้าอื่นๆ การจัดการสินทรัพย์สามารถติดตามทั้งสินทรัพย์ขาเข้าที่อยู่ระหว่างทางไปยังบริษัทของคุณ และสินทรัพย์ขาออกที่มีการส่งคืน
 
@@ -45,7 +45,7 @@ ms.locfileid: "1847562"
 3. เลือก **ปรับปรุงสถานะคำขอการบำรุงรักษา**
 4. เลือก **ขาเข้า** (หรือสถานะของวงจรการใช้อื่นที่คุณสร้างไว้สำหรับสินทรัพย์ขาเข้า) และจากนั้น เลือก **ตกลง**
 
-![รูปที่ 1](media/07-manage-maintenance-requests.png)
+![ลงทะเบียนสินทรัพย์เป็นขาเข้า](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>ลงทะเบียนสินทรัพย์ขาเข้าเป็นได้รับแล้ว
 
@@ -54,7 +54,7 @@ ms.locfileid: "1847562"
 3. เลือก **ได้รับสินทรัพย์**
 4. ในฟิลด์ **ได้รับ** ป้อนวันที่และเวลา จากนั้น เลือก **ตกลง** เรกคอร์ดจะถูกลบออกจากหน้ารายการ **สินทรัพย์ขาเข้า**
 
-![รูปที่ 2](media/08-manage-maintenance-requests.png)
+![ลงทะเบียนสินทรัพย์ขาเข้าเป็นได้รับแล้ว](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>ลงทะเบียนสินทรัพย์เป็นขาออก
 

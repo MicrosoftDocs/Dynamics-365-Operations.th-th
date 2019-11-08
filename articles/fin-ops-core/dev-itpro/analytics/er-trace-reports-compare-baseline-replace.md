@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181346"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578229"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>การปรับปรุงในการสืบค้นกลับผลลัพธ์ของรายงาน ER ที่สร้างขึ้น และเปรียบเทียบกับค่าพื้นฐาน
 
@@ -71,9 +71,6 @@ ms.locfileid: "2181346"
 5. ในฟิลด์ **ป้อน Id** ป้อน **1**
 6. ตั้งค่าตัวเลือก **สร้างไฟล์พื้นฐาน** เป็น **ใช่**
 7. เลือก **ตกลง**
-
-    ![กล่องโต้ตอบพารามิเตอร์รายงานทางอิเล็กทรอนิกส์](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "ภาพหน้าจอของกล่องโต้ตอบพารามิเตอร์รายงานทางอิเล็กทรอนิกส์")
-
 8. เลือก **ข้อมูลพื้นฐาน**
 
     ![หน้าพื้นฐานรูปแบบการรายงานอิเล็กทรอนิกส์](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "ภาพหน้าจอของหน้าพื้นฐานรูปแบบการรายงานอิเล็กทรอนิกส์")
@@ -140,9 +137,6 @@ ms.locfileid: "2181346"
 
 1. บนหน้า **การตั้งค่าคอนฟิก** บน FastTab **การแทนที่** ให้เลือก **เลือกส่วนประกอบ**
 2. ในแผนภูมิส่วนประกอบของรูปแบบ ขยาย **เอาท์พุท** ขยาย **เอาท์พุท\\เอกสาร** และจากนั้น เลือกกล่องกาเครื่องหมายสำหรับ **เอาท์พุท\\เอกสาร\\ProcessingDateTime**
-
-    ![กล่องโต้ตอบเลือกส่วนประกอบ](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "ภาพหน้าจอของกล่องโต้ตอบเลือกส่วนประกอบ")
-
 3. เลือก **ตกลง**
 
 ![หน้าพื้นฐานรูปแบบการรายงานอิเล็กทรอนิกส์](media/GER-BaselineSample-AddBaseline4.PNG "ภาพหน้าจอของหน้าพื้นฐานรูปแบบการรายงานอิเล็กทรอนิกส์")
@@ -162,19 +156,14 @@ ms.locfileid: "2181346"
 1. ในหน้า **การตั้งค่าคอนฟิก** บนบานหน้าต่างการดำเนินการ บนแท็บ **การตั้งค่าคอนฟิก** เลือก **พารามิเตอร์ผู้ใช้**
 2. ตั้งค่าตัวเลือก **ระงับคำเตือนพื้นฐาน** เป็น **ใช่** แล้วเลือก **ตกลง**
 
-![กล่องโต้ตอบพารามิเตอร์ของผู้ใช้](media/GER-BaselineSample-ERUserParameters1.png "ภาพหน้าจอของกล่องโต้ตอบพารามิเตอร์ของผู้ใช้")
-
 ### <a name="review-the-generated-baseline-file"></a>ตรวจทานไฟล์พื้นฐานที่สร้างขึ้น
 
 1. ไปที่ **การจัดการองค์กร** \> **การรายงานทางอิเล็กทรอนิกส์** \> **การตั้งค่าคอนฟิก**
 2. เลือก **ข้อมูลพื้นฐาน**
 3. เลือก **เอกสารแนบ**
-
-    ![หน้าเอกสารแนบ](media/GER-BaselineSample-AttachedBaselineFile.PNG "ภาพหน้าจอของหน้าเอกสารแนบ")
-
     > [!NOTE]
     > ไฟล์ที่สร้างขึ้นประกอบด้วย ข้อความการประมวลผลวันที่และเวลา (**"#"**) จากการผูกที่มีการตั้งค่าคอนฟิกในกฎพื้นฐานที่เพิ่มเข้ามา ไม่ใช่จากการผูกข้อมูลของรูปแบบ
-
+    
 4. ปิดหน้า **เอกสารแนบ**
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>รันรูปแบบ ER ที่ออกแบบ และตรวจสอบล็อกเพื่อวิเคราะห์ผลลัพธ์

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249409"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653452"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
-โดยการใช้แค็ตตาล็อกภายนอก คุณสามารถมั่นใจได้ว่าข้อมูลผลิตภัณฑ์และราคาที่คุณประมวลผลในเวลาต่อมาใน Dynamics 365 for Finance and Operations กรกฎาคม 2017 ถูกต้อง และเป็นข้อมูลล่าสุด จากนั้นสามารถมีการอนุมัติใบเบิก และถูกแปลงเป็นใบสั่งซื้อ และสามารถวางใบสั่งที่ผู้จัดจำหน่ายได้
+โดยการใช้แค็ตตาล็อกภายนอก คุณสามารถมั่นใจได้ว่าข้อมูลผลิตภัณฑ์และราคาที่คุณประมวลผลในเวลาต่อมาใน Supply Chain Management ถูกต้อง และเป็นข้อมูลล่าสุด จากนั้นสามารถมีการอนุมัติใบเบิก และถูกแปลงเป็นใบสั่งซื้อ และสามารถวางใบสั่งที่ผู้จัดจำหน่ายได้
 
 เมื่อมีตั้งค่าแค็ตตาล็อกภายนอก และพนักงานกำลังเตรียมใบเบิก จะมีตัวเลือกเพื่อเปลี่ยนเส้นทางไซต์ภายนอก แค็ตตาล็อกภายนอก และส่งกลับตะกร้าซื้อของที่ได้ถูกสร้างไว้ที่ไซต์ภายนอก การสื่อสารนี้ขึ้นอยู่กับโพรโทคอล cXML และต้องมีการตั้งค่าระหว่างระบบการซื้อและองค์กรการขาย
 
