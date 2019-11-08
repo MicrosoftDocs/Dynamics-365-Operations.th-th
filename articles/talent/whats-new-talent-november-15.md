@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ab3758506679db5032e3dffc1664fe1ac7f622c8
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: a571568850a675f3472f2b62df33c0c35d905af0
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009681"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551391"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-15-2018"></a><span data-ttu-id="02a54-103">มีอะไรใหม่หรือถูกเปลี่ยนแปลงใน Dynamics 365 Talent: Core HR (15 พฤศจิกายน 2018)</span><span class="sxs-lookup"><span data-stu-id="02a54-103">What's new or changed in Dynamics 365 Talent: Core HR (November 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-november-15-2018"></a><span data-ttu-id="415aa-103">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง Dynamics 365 Talent - Core HR (15 พฤศจิกายน 2018)</span><span class="sxs-lookup"><span data-stu-id="415aa-103">What's new or changed in Dynamics 365 Talent - Core HR (November 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="02a54-104">**สร้าง 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="02a54-104">**Build 8.1.2045**</span></span>
+<span data-ttu-id="415aa-104">**สร้าง 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="415aa-104">**Build 8.1.2045**</span></span>
 
-<span data-ttu-id="02a54-105">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR</span><span class="sxs-lookup"><span data-stu-id="02a54-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="415aa-105">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Core HR</span><span class="sxs-lookup"><span data-stu-id="415aa-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="other-changesfixes"></a><span data-ttu-id="02a54-106">การเปลี่ยนแปลง/การแก้ไขอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="02a54-106">Other changes/fixes</span></span>
+## <a name="other-changesfixes"></a><span data-ttu-id="415aa-106">การเปลี่ยนแปลง/การแก้ไขอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="415aa-106">Other changes/fixes</span></span>
 
-### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="02a54-107">ไม่สามารถเปลี่ยนตำแหน่งปัจจุบันของพนักงานเป็นตำแหน่งที่เปิดในอนาคตได้</span><span class="sxs-lookup"><span data-stu-id="02a54-107">Unable to change employee´s current position to a future open position</span></span>
+### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="415aa-107">ไม่สามารถเปลี่ยนตำแหน่งปัจจุบันของพนักงานเป็นตำแหน่งที่เปิดในอนาคตได้</span><span class="sxs-lookup"><span data-stu-id="415aa-107">Unable to change employee´s current position to a future open position</span></span>
 
-<span data-ttu-id="02a54-108">มีการเปลี่ยนแปลงเพื่อเปิดใช้งานการโอนย้ายตำแหน่ง เมื่อตำแหน่งพร้อมใช้งานเฉพาะในอนาคต</span><span class="sxs-lookup"><span data-stu-id="02a54-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
+<span data-ttu-id="415aa-108">มีการเปลี่ยนแปลงเพื่อเปิดใช้งานการโอนย้ายตำแหน่ง เมื่อตำแหน่งพร้อมใช้งานเฉพาะในอนาคต</span><span class="sxs-lookup"><span data-stu-id="415aa-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
 
-### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="02a54-109">ตำแหน่งไม่แสดง เมื่อสร้างพนักงานใหม่</span><span class="sxs-lookup"><span data-stu-id="02a54-109">Position does not display when creating a new employee</span></span>
+### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="415aa-109">ตำแหน่งไม่แสดง เมื่อสร้างพนักงานใหม่</span><span class="sxs-lookup"><span data-stu-id="415aa-109">Position does not display when creating a new employee</span></span>
 
-<span data-ttu-id="02a54-110">มีการทำการเปลี่ยนแปลงเพื่อแสดงตำแหน่งที่เปิดทั้งหมดที่พร้อมใช้งานสำหรับการกำหนด เมื่อจ้างพนักงานใหม่ใน Talent</span><span class="sxs-lookup"><span data-stu-id="02a54-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="02a54-111">ซึ่งรวมถึงตำแหน่งในอดีต หรือถ้าตำแหน่งได้ถูกกำหนดวันที่ในอนาคต</span><span class="sxs-lookup"><span data-stu-id="02a54-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="02a54-112">ขณะนี้ ตำแหน่งจะปรากฏอย่างถูกต้องตามวันที่เริ่มต้นการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="02a54-112">Positions will now appear correctly based on the employment start date.</span></span> 
+<span data-ttu-id="415aa-110">มีการทำการเปลี่ยนแปลงเพื่อแสดงตำแหน่งที่เปิดทั้งหมดที่พร้อมใช้งานสำหรับการกำหนด เมื่อจ้างพนักงานใหม่ใน Talent</span><span class="sxs-lookup"><span data-stu-id="415aa-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="415aa-111">ซึ่งรวมถึงตำแหน่งในอดีต หรือถ้าตำแหน่งได้ถูกกำหนดวันที่ในอนาคต</span><span class="sxs-lookup"><span data-stu-id="415aa-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="415aa-112">ขณะนี้ ตำแหน่งจะปรากฏอย่างถูกต้องตามวันที่เริ่มต้นการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="415aa-112">Positions will now appear correctly based on the employment start date.</span></span> 
 
-### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="02a54-113">วันที่สิ้นสุดการจ้างงานกำลังแสดงตามการตั้งค่าผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="02a54-113">Termination date is displaying based on user settings</span></span>
+### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="415aa-113">วันที่สิ้นสุดการจ้างงานกำลังแสดงตามการตั้งค่าผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="415aa-113">Termination date is displaying based on user settings</span></span>
 
-<span data-ttu-id="02a54-114">มีการทำการเปลี่ยนแปลงไปยังรายการพนักงานในอดีตไปยังบัญชีสำหรับการออฟเซ็ตโซนเวลาใดๆ สำหรับโซนเวลาที่ต้องการของพนักงาน เมื่อดูวันที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="02a54-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
+<span data-ttu-id="415aa-114">มีการทำการเปลี่ยนแปลงไปยังรายการพนักงานในอดีตไปยังบัญชีสำหรับการออฟเซ็ตโซนเวลาใดๆ สำหรับโซนเวลาที่ต้องการของพนักงาน เมื่อดูวันที่สิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="415aa-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
 
-### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="02a54-115">ลิงค์รายการงานที่กำหนดให้กับฉันไม่แสดงข้อมูลที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="02a54-115">Work items assigned to me links not displaying the correct information</span></span>
+### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="415aa-115">ลิงค์รายการงานที่กำหนดให้กับฉันไม่แสดงข้อมูลที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="415aa-115">Work items assigned to me links not displaying the correct information</span></span>
 
-<span data-ttu-id="02a54-116">ด้วยการเปลี่ยนแปลงนี้ การนำทางไปยังรายละเอียดของรายการงานแต่ละรายการในรายการ จะแสดงข้อมูลที่ถูกต้องสำหรับสินค้าที่เลือก</span><span class="sxs-lookup"><span data-stu-id="02a54-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="02a54-117">ปัญหานี้เกิดขึ้นกับตัวเลือกความปลอดภัยขั้นสูงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="02a54-117">This issue only occurred with advanced security options.</span></span>
+<span data-ttu-id="415aa-116">ด้วยการเปลี่ยนแปลงนี้ การนำทางไปยังรายละเอียดของรายการงานแต่ละรายการในรายการ จะแสดงข้อมูลที่ถูกต้องสำหรับสินค้าที่เลือก</span><span class="sxs-lookup"><span data-stu-id="415aa-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="415aa-117">ปัญหานี้เกิดขึ้นกับตัวเลือกความปลอดภัยขั้นสูงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="415aa-117">This issue only occurred with advanced security options.</span></span>
 
 
-## <a name="known-issue"></a><span data-ttu-id="02a54-118">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="02a54-118">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="415aa-118">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="415aa-118">Known issue</span></span>
 
-- <span data-ttu-id="02a54-119">**ปัญหา**: เมื่อเพิ่มสิ่งที่แนบมาใหม่กับผู้ปฏิบัติงาน ปุ่ม **สร้าง** และ **แก้ไข** จะกลายเป็นสีเทา</span><span class="sxs-lookup"><span data-stu-id="02a54-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
-- <span data-ttu-id="02a54-120">**วิธีการแก้ไขปัญหา:** ก่อนที่จะเปิดหน้าเอกสารแนบ ให้แน่ใจว่าก FactBoxes บนหน้า **ผู้ปฏิบัติงาน** ถูกปิดแล้ว</span><span class="sxs-lookup"><span data-stu-id="02a54-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="02a54-121">ถ้า FactBoxes ถูกปิด เมื่อหน้า **ผู้ปฏิบัติงาน** ถูกโหลด ปุ่มเอกสารแนบจะถูกเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="02a54-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="02a54-122">(ปัญหานี้จะได้รับการแก้ไขในการปรับปรุงแพลตฟอร์มถัดไป)</span><span class="sxs-lookup"><span data-stu-id="02a54-122">(This issue will be fixed in the next platform update.)</span></span>
+- <span data-ttu-id="415aa-119">**ปัญหา**: เมื่อเพิ่มสิ่งที่แนบมาใหม่กับผู้ปฏิบัติงาน ปุ่ม **สร้าง** และ **แก้ไข** จะกลายเป็นสีเทา</span><span class="sxs-lookup"><span data-stu-id="415aa-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
+- <span data-ttu-id="415aa-120">**วิธีการแก้ไขปัญหา:** ก่อนที่จะเปิดหน้าเอกสารแนบ ให้แน่ใจว่าก FactBoxes บนหน้า **ผู้ปฏิบัติงาน** ถูกปิดแล้ว</span><span class="sxs-lookup"><span data-stu-id="415aa-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="415aa-121">ถ้า FactBoxes ถูกปิด เมื่อหน้า **ผู้ปฏิบัติงาน** ถูกโหลด ปุ่มเอกสารแนบจะถูกเปิดใช้งาน</span><span class="sxs-lookup"><span data-stu-id="415aa-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="415aa-122">(ปัญหานี้จะได้รับการแก้ไขในการปรับปรุงแพลตฟอร์มถัดไป)</span><span class="sxs-lookup"><span data-stu-id="415aa-122">(This issue will be fixed in the next platform update.)</span></span>
