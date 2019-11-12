@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: d1aeb0cf556582ff53ca00c6bb8d863a088950b9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0681636853b38895e4b8875150ea42baadd7b951
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184128"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570390"
 ---
 # <a name="revenue-recognition-overview"></a>ภาพรวมของการรับรู้รายได้
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> คุณลักษณะการรับรู้รายได้ยังไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
+> คุณลักษณะการรับรู้รายได้ไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
 
 บริษัทต่างๆ ในอุตสาหกรรมที่จำหน่ายองค์ประกอบหลายอย่าง เช่น ผลิตภัณฑ์ บริการ การสมัครใช้งาน และอื่นๆ ต้องสามารถจำแนกใบสั่งที่มีหลายองค์ประกอบเพื่อให้สามารถรับรู้รายได้ตามชุดหลักเกณฑ์เฉพาะบริษัทหรือเฉพาะอุตสาหกรรม
 

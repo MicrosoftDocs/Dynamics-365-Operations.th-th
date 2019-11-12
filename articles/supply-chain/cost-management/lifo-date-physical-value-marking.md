@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: abf74841e994efc3a71ff8dde048ab9c3be934bc
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554747"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571219"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 วันที่แบบเข้าหลัง ออกก่อน (วันที่ LIFO) เป็นแบบจำลองสินค้าคงคลังที่ใช้หลักการ LIFO  จะมีการจับคู่การตัดสินค้าจากคลังกับการรับสินค้ารายการสุดท้ายไปยังคลังสินค้า ตามวันที่ของธุรกรรมสินค้าคงคลัง ด้วยวันที่ LIFO โดยการใช้วันที่ LIFO หากไม่มีการรับสินค้าก่อนการนำสินค้าออกใช้ การนำสินค้าออกใช้จะถูกจับคู่กับการรับสินค้าใดๆ ที่เกิดขึ้นหลังจากวันที่นำสินค้าออกใช้  การนำสินค้าออกใช้หลายครั้งในวันเดียวกันอาจถูกจับคู่ในลำดับของการนำสินค้าออกใช้ครั้งล่าสุด การรับสินค้าครั้งล่าสุด 
 

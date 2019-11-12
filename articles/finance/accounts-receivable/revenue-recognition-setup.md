@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ff513d2e2d2968e531e4515c45abdc470b384123
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184105"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570344"
 ---
 # <a name="revenue-recognition-setup"></a>การตั้งค่าการรับรู้รายได้
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 มีการเพิ่มโมดูล **การรับรู้รายได้** ใหม่ ซึ่งมีรายการเมนูสำหรับการตั้งค่าทั้งหมดที่จำเป็นต้องใช้ หัวข้อนี้จะอธิบายถึงตัวเลือกการตั้งค่าและผลกระทบของตัวเลือกต่างๆ
+
+> [!NOTE]
+> คุณลักษณะการรับรู้รายได้ไม่สามารถเปิดผ่านทางการจัดการคุณลักษณะ ในตอนนี้ คุณต้องใช้คีย์การตั้งค่าคอนฟิกในการเปิด
 
 โมดูล **การรับรู้รายได้** มีตัวเลือกการตั้งค่าต่อไปนี้:
 

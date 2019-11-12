@@ -3,7 +3,7 @@ title: ภาพรวมของภาษีขาย
 description: หัวข้อนี้แสดงภาพรวมของฟังก์ชันระบบภาษีขาย โดยอธิบายถึงองค์ประกอบของการตั้งค่าภาษีขายและการทำงานร่วมกัน
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186474"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666841"
 ---
 # <a name="sales-tax-overview"></a>ภาพรวมของภาษีขาย
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 หัวข้อนี้แสดงภาพรวมของฟังก์ชันระบบภาษีขาย โดยอธิบายถึงองค์ประกอบของการตั้งค่าภาษีขายและการทำงานร่วมกัน
 
@@ -94,5 +92,8 @@ ms.locfileid: "2186474"
 
 อย่างไรก็ตาม ถ้าคุณกำลังใช้ภาษีขายแบบมีเงื่อนไข คุณจะชำระกับหน่วยงานจัดเก็บภาษีเมื่อคุณได้รับการชำระเงินจากลูกค้าในวันที่ 30 กรกฎาคม
 
+### <a name="postdated-check"></a>เช็คลงวันที่ล่วงหน้า
+
+ถ้าคุณใช้เช็คลงวันที่ล่วงหน้าเป็นวิธีการชำระเงิน เมื่อมีการสร้างการชำระเงิน บัญชีธนาคารจะไม่ถูกชำระเงิน ในบางประเทศ VAT จะกลายเป็นหนี้สิน ' รับรู้ ' เมื่อการชำระเงินชำระกับธนาคาร ซึ่งหมายความว่าเช็คลงวันที่ล่วงหน้าจะมีการชำระ คุณสามารถเปิดใช้งานได้โดยการเลือก **รับรู้ภาษีแบบมีเงื่อนไขเมื่อออกเช็คลงวันที่ล่วงหน้า** ใน **การจัดการเงินสดและธนาคาร > การตั้งค่า > พารามิเตอร์การจัดการเงินสดและธนาคาร > เช็คลงวันที่ล่วงหน้า**
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าภาษีหัก ณ ที่จ่าย](tasks/set-up-withholding-tax.md)

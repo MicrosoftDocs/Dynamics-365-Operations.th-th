@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: b30fa3c142057b43202a8f5a323c0b425865e971
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922079"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571334"
 ---
 # <a name="maintenance-schedule-cost"></a>ต้นทุนกำหนดการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 ในการจัดการสินทรัพย์ คุณสามารถคำนวณงบประมาณต้นทุนในรายการกำหนดการบำรุงรักษา การทำเช่นนี้มีประโยชน์ถ้าคุณต้องการดูภาพรวมของต้นทุนที่คาดไว้ ตัวอย่างเช่นต้นทุนที่เกี่ยวข้องกับงานบำรุงรักษาเชิงป้องกันที่วางแผนไว้สำหรับปีถัดไป การคำนวณจะขึ้นอยู่กับรายการกำหนดการบำรุงรักษาที่มีอยู่ของชนิด "แผนการบำรุงรักษา" และ "รอบการบำรุงรักษา" และ "การร้องขอการบำรุงรักษา"
 

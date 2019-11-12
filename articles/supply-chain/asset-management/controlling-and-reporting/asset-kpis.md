@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918429"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652390"
 ---
 # <a name="asset-kpis"></a>KPI สินทรัพย์
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 ในการจัดการสินทรัพย์ คุณสามารถคำนวณตัวบ่งชี้ประสิทธิภาพหลักต่างๆ (KPI) สำหรับสินทรัพย์และชนิดสินทรัพย์ได้ คุณสามารถใช้ KPI เพื่อดูภาพรวมของประสิทธิภาพของสินทรัพย์ที่เกี่ยวข้อง ตัวอย่างเช่น เวลาในการทำงาน เวลาการหยุดทำงาน เวลาการซ่อมแซม และเวลามาตรฐานที่ใช้ในการทำงานระหว่างความล้มเหลว (MTBF)
 
@@ -85,7 +85,7 @@ ms.locfileid: "1918429"
 
 รูปด้านล่างแสดงภาพหน้าจอของการคำนวณ KPI สำหรับสี่สินทรัพย์
 
-![รูปที่ 1](media/11-controlling-and-reporting.png)
+![ภาพหน้าจอของการคำนวณ KPI สำหรับสี่สินทรัพย์](media/11-controlling-and-reporting.png)
 
 - คุณสามารถเลือกสินทรัพย์ต่างๆ ได้หลายรายการใน **สินทรัพย์ทั้งหมด** แล้วคลิกปุ่ม **KPI สินทรัพย์** บนแท็บ **ทั่วไป** แล้วคลิก **ตกลง** ในกล่องโต้ตอบ **คำนวณ KPI สินทรัพย์** เพื่อคำนวณ ษญณ สำหรับสินทรัพย์ที่เลือก  
 - ผลลัพธ์จากการคำนวณ KPI อาจรวมหรือไม่รวม [การลงทะเบียนการหยุดทำงานของการบำรุงรักษา](../work-orders/maintenance-downtime.md) ขึ้นอยู่กับการตั้งค่าและการใช้รหัสเหตุผลของการหยุดทำงานของการบำรุงรักษา 

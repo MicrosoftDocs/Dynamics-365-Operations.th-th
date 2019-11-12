@@ -42,6 +42,8 @@
               items:
                 - name: ตัวเลือกการปรับใช้
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในสถานที่
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การปรับใช้ระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ความต้องการของระบบสำหรับการปรับใช้ระบบคลาวด์
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
               items:
-                - name: โอมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: คุณลักษณะรุ่นพรีวิวในแอป Finance and Operations 10.0.6 (พฤศจิกายน 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations 10.0.5 (ตุลาคม 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 10.0.4 (กรกฎาคม 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operations, Enterprise edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: คุณลักษณะรุ่นพรีวิวใน Supply Chain Management รุ่น 10.0.7 (ธันวาคม 2019)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Supply Chain Management 10.0.6 (พฤศจิกายน 2019)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในรุ่นก่อนหน้า
+                  items:
+                    - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: แอป Finance and Operations 10.0.5 (ตุลาคม 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4 (กรกฎาคม 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: ควบคุมการใช้วัตถุดิบโดยการใช้หลักการตัดจ่าย
                       href: production-control/flushing-principles.md
-                    - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
-                      href: production-control/cross-docking-opportunities.md
                     - name: กำหนดที่ตั้งเอาท์พุทการผลิตสำหรับสินค้าสำเร็จรูป
                       href: production-control/production-output-location.md
                     - name: รายงานการเสร็จงานของ BOM
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: การดำเนินการที่เลื่อนเวลาของงานคลังสินค้า
                   href: warehousing/deferred-put.md
+            - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
+              items:
+                - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
+                  href: production-control/cross-docking-opportunities.md
+                - name: การจัดส่งที่นำออกใช้อัตโนมัติสำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: นำออกใช้บางส่วนและการจัดส่งบางส่วน
               items:
                 - name: การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
+                  href: warehousing/cancel-warehouse-work.md
             - name: การนับสินค้าคงคลัง
               items:
                 - name: รหัสเหตุผลการตรวจนับสินค้าคงคลัง

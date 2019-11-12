@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008581"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551575"
 ---
-# <a name="source-candidates-with-linkedin-recruiter"></a>จัดหาผู้สมัครด้วย LinkedIn Recruiter
+# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract
 [!include[banner](../includes/banner.md)]
 
 LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุดในโลก ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 Talent: Attract ช่วยให้คุณจัดหาผู้สมัครจาก LinkedIn ได้โดยตรง ดังนั้นจึงช่วยให้หาความสามารถพิเศษที่คุณต้องการสำหรับตำแหน่งที่คุณเปิดรับได้ง่ายขึ้นกว่าเดิม หลังจากที่คุณตั้งค่าการเชื่อมต่อของคุณกับ LinkedIn ผ่าน Attract แล้ว คุณสามารถดูผู้สมัคร LinkedIn ที่อาจเหมาะสำหรับตำแหน่งของคุณ แล้วส่งออกไปยัง Attract เพียงแค่คลิกเดียว

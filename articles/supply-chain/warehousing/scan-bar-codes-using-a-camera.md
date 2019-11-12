@@ -1,6 +1,6 @@
 ---
-title: สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 Supply Chain Management – แอพ Warehousing
-description: หัวข้อนี้จะอธิบายวิธีตั้งค่า Dynamics 365 Supply Chain Management – แอพ Warehousing เพื่อที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่
+title: สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations – แอป Warehousing
+description: หัวข้อนี้จะอธิบายวิธีตั้งค่า Dynamics 365 for Finance and Operations – แอป Warehousing เพื่อที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251483"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578160"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 Supply Chain Management – แอพ Warehousing
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีตั้งค่า Dynamics 365 Supply Chain Management – แอพ Warehousing เพื่อที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่ 
+หัวข้อนี้จะอธิบายวิธีตั้งค่า Dynamics 365 for Finance and Operations – แอป Warehousing เพื่อที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์เคลื่อนที่ 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ในการใช้คุณลักษณะนี้ คุณต้องมีแอพ Warehousing รุ่น 1.2.0.0 ติดอยู่แล้ว และอุปกรณ์ของคุณต้องมีกล้อง เมื่อคุณเปิดแอปหลังจากที่ได้อัพเดตแล้ว ระบบจะขอให้คุณอนุญาตให้แอพเข้าใช้กล้อง ถ้าอุปกรณ์ของคุณไม่มีกล้อง จะไม่มีการแสดงข้อความเตือน และคุณจะไม่สามารถใช้กล้องเป็นสแกนเนอร์ได้ 
@@ -49,7 +49,7 @@ ms.locfileid: "2251483"
 
 | หน้างานและรายละเอียด | หน้ากล้อง | 
 | :---------------------: | :--------------------: |
-| ![กล้อง-การสแกน-ตัวอย่าง-งาน-รายละเอียด-หน้า](./media/camera-scanning-example-task-detail-page50.png)          | ![กล้อง-การสแกน-ตัวอย่าง-กล้อง-หน้า-เล็กกว่า](./media/camera-scanning-example-camera-page50.png)          |
+| ![กล้อง การสแกน ตัวอย่าง งาน รายละเอียด หน้า](./media/camera-scanning-example-task-detail-page50.png)          | ![กล้อง การสแกน ตัวอย่าง กล้อง หน้า เล็กลง](./media/camera-scanning-example-camera-page50.png)          |
 
 บนหน้ากล้อง เมื่อคุณคลิกปุ่มกล้อง จะปรากฏเป็นจางลง ขณะที่พยายามระบุบาร์โค้ด ถ้าไม่มีการระบุบาร์โค้ดภายใน 5 วินาที กระบวนการจะหมดเวลา และปุ่มกล้องจะกลายเป็นพร้อมใช้งานอีกครั้ง จากนั้น คุณจะสามารถลองสแกนบาร์โค้ดได้อีกครั้ง
 

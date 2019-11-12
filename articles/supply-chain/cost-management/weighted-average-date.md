@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b89082ef0dcaafd059fdc496acf49efbf2b9324a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543640"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569213"
 ---
 # <a name="weighted-average-date"></a>วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 วันที่ถัวเฉลี่ยถ่วงน้ำหนักคือ แบบจำลองสินค้าคงคลังที่ใช้หลักการถัวเฉลี่ยถ่วงน้ำหนัก สำหรับหลักการการถัวเฉลี่ยถ่วงน้ำหนัก การตัดสินค้าจากคลังจะถูกประเมินค่าที่ค่าเฉลี่ยของสินค้า ซึ่งได้รับเข้าในคลังสินค้าสำหรับแต่ละวันในรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง 
 

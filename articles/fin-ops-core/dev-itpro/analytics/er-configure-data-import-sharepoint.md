@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181530"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564948"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>ตั้งค่าคอนฟิกการนำเข้าข้อมูลจาก SharePoint
 
@@ -62,9 +62,9 @@ ms.locfileid: "2181530"
 > รูปแบบสำหรับการนำเข้าธุรกรรมผู้จัดจำหน่ายถูกเลือกเป็นการแม็ปแบบจำลองเริ่มต้น ดังนั้น ถ้าคุณรันการแม็ปแบบจำลองของ **แบบจำลองการชำระเงิน 1099** และการแม็ปแบบจำลองนั้นเป็นของชนิด **ไปยังปลายทาง** การแม็ปแบบจำลองจะรันรูปแบบนี้เพื่อนำเข้าข้อมูลจากไฟล์ภายนอก จากนั้น จะใช้ข้อมูลดังกล่าวเพื่ออัพเดตตารางแอพลิเคชัน
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>ตั้งค่าคอนฟิกการเข้าถึง SharePoint สำหรับที่เก็บไฟล์
-เพื่อจัดเก็บไฟล์รายงานทางอิเล็กทรอนิกส์ในที่ตั้ง SharePoint คุณต้องตั้งค่าคอนฟิกการเข้าถึงไปยังอินสแตนซ์ SharePoint Server ที่จะถูกใช้โดยบริษัทปัจจุบัน ในตัวอย่างนี้ บริษัทคือ USMF สำหรับคำแนะนำ ดู [ตั้งค่าคอนฟิกที่จัดเก็บ SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)
+เพื่อจัดเก็บไฟล์รายงานทางอิเล็กทรอนิกส์ในที่ตั้ง SharePoint คุณต้องตั้งค่าคอนฟิกการเข้าถึงไปยังอินสแตนซ์ SharePoint Server ที่จะถูกใช้โดยบริษัทปัจจุบัน ในตัวอย่างนี้ บริษัทคือ USMF สำหรับคำแนะนำ ดู [ตั้งค่าคอนฟิกที่จัดเก็บ SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)
 
-1. ทำขั้นตอนต่างๆ ใน [ตั้งค่าคอนฟิกที่จัดเก็บ SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) ให้เสร็จเรียบร้อย
+1. ทำขั้นตอนต่างๆ ใน [ตั้งค่าคอนฟิกที่จัดเก็บ SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) ให้เสร็จเรียบร้อย
 2. เปิดไซต์ SharePoint ที่ตั้งค่าคอนฟิก
 3. สร้างโฟลเดอร์ต่อไปนี้ที่ซึ่งสามารถจัดเก็บไฟล์การรายงานทางอิเล็กทรอนิกส์ขาเข้า:
 
@@ -80,7 +80,7 @@ ms.locfileid: "2181530"
     - โฟลเดอร์ข้อผิดพลาดของไฟล์ - โฟลเดอร์นี้สำหรับไฟล์ที่นำเข้าไม่สำเร็จ
 
 4. ไปที่ **การจัดการองค์กร > การจัดการเอกสาร > ชนิดของเอกสาร**
-5. สร้างชนิดเอกสารต่อไปนี้ที่จะถูกใช้เพื่อเข้าถึงโฟลเดอร์ SharePoint ที่คุณเพิ่งสร้าง สำหรับคำแนะนำ ดู [ตั้งค่าคอนฟิกชนิดเอกสาร](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types)
+5. สร้างชนิดเอกสารต่อไปนี้ที่จะถูกใช้เพื่อเข้าถึงโฟลเดอร์ SharePoint ที่คุณเพิ่งสร้าง สำหรับคำแนะนำ ดู [ตั้งค่าคอนฟิกชนิดเอกสาร](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)
 
 |ชนิดเอกสาร       | กลุ่ม              | ที่ตั้ง      | โฟลเดอร์ SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

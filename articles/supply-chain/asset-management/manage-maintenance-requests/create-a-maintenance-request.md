@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024648"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571932"
 ---
 # <a name="create-maintenance-requests"></a>สร้างคำขอการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 คำขอการบำรุงรักษาสามารถใช้ได้ ถ้าเจ้าหน้าที่บำรุงรักษาหรือผู้ปฏิบัติงานการผลิตพบว่าอุปกรณ์ต้องการการซ่อมแซม แต่งานการซ่อมแซมไม่สามารถทำได้ทันที
 
@@ -55,7 +55,7 @@ ms.locfileid: "2024648"
 11. ในฟิลด์ **บันทึกย่อ** ให้ป้อนบันทึกย่อเพิ่มเติมใดๆ ที่จำเป็น
 12. เลือก **ตกลง**
 
-![รูปที่ 1](media/03-manage-maintenance-requests.png)
+![สร้างคำขอการบำรุงรักษา](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>การประมวลผลในภายหลังของคำขอบำรุงรักษา
 
@@ -70,7 +70,7 @@ ms.locfileid: "2024648"
 - เลือกชนิดงานการบำรุงรักษา และถ้าข้อมูลนี้เกี่ยวข้อง ตัวแปรงานการบำรุงรักษาที่เกี่ยวข้องและการแลกเปลี่ยนงาน
 - ในฟิลด์ **ละติจูด** และ **ลองจิจูด** ให้ป้อนพิกัดทางภูมิศาสตร์ พิกัดใดๆ ที่ถูกเพิ่มลงในคำขอการบำรุงรักษาจะถูกโอนย้ายไปยังใบสั่งงานที่เกี่ยวข้องโดยอัตโนมัติ 
 
-![รูปที่ 2](media/04-manage-maintenance-requests.png)
+![อัพเดตคำขอการบำรุงรักษา](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > ถ้าคุณเลือกสินทรัพย์เมื่อคุณสร้างคำขอการบำรุงรักษา คุณสามารถเพิ่มข้อบกพร่องหนึ่งรายการไปยังสินทรัพย์ได้ หลังจากที่มีการสร้างคำขอการบำรุงรักษาแล้ว คุณสามารถเพิ่มข้อบกพร่องเพิ่มเติมได้ตามที่คุณต้องการ เมื่อต้องการเพิ่มข้อบกพร่อง ให้เลือก **ข้อบกพร่องของสินทรัพย์** ในหน้า **คำขอการบำรุงรักษาทั้งหมด**

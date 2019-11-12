@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d7d98ec5434d9cdc93276952035b559625be2bd
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 577c888393163bdb7e445e436c336f20381cc78f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783631"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572163"
 ---
 # <a name="introduction-to-functional-locations"></a>บทนำเกี่ยวกับตำแหน่งที่ทำงาน
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 หัวข้อนี้แสดงภาพรวมของตำแหน่งที่ทำงานในการจัดการสินทรัพย์ ตำแหน่งที่ทำงานคือองค์ประกอบของโครงสร้างทางเทคนิค เช่น หน่วยการทำงานในระบบ ตำแหน่งที่ทำงานถูกสร้างขึ้นตามลำดับชั้น และคุณติดตั้งสินทรัพย์ในนั้น การตั้งค่าของตำแหน่งที่ทำงานในบริษัทของคุณจะขึ้นอยู่กับความต้องการของบริษัท
 

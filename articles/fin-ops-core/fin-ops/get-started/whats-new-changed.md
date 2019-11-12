@@ -1,9 +1,9 @@
 ---
-title: โอมเพจมีอะไรใหม่หรือการเปลี่ยนแปลงอะไร
+title: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
 description: หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในแอพลิเคชัน Finance and Operations ล่าสุด
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249308"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658724"
 ---
-# <a name="whats-new-or-changed-home-page"></a>โอมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
 [!include [banner](../includes/banner.md)]
 
-หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในแอพลิเคชัน Finance and Operations ล่าสุด
+ณ เดือนตุลาคม 2019 หน้านี้ไม่ได้รับการรักษาไว้อีกต่อไป ข้อมูลในหัวข้อนี้จะแสดงตำแหน่งที่จะค้นหาข้อมูลคุณลักษณะสำหรับแอพลิเคชัน Finance and Operations ที่นำออกใช้ก่อนเดือนตุลาคม 2019
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีอัพเกรดเป็นเวอร์ชันล่าสุด ดู [กระบวนการสำหรับการอัพเกรดเป็นการอัพเดตล่าสุด](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)
 
@@ -49,13 +49,6 @@ ms.locfileid: "2249308"
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>พฤศจิกายน 2019</td>
-<td><a href="whats-new-changed-10-0-6.md">คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations รุ่น 10.0.6 (พฤศจิกายน 2019)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ ms.locfileid: "2249308"
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>แพลตฟอร์ม update 30</td>
-<td>7.0.5407</td>
-<td>พฤศจิกายน 2019</td>
-<td><a href="whats-new-platform-update-30.md">คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations การอัพเดตแพลตฟอร์ม 30 (พฤศจิกายน 2019)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>แพลตฟอร์ม update 29</td>
