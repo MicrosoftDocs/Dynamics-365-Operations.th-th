@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (พรีวิว)
+              href: accounts-receivable/payment-insights-overview.md
             - name: การอัปเดตบริการแบบหนึ่งเวอร์ชัน
               items:
                 - name: ภาพรวมของการอัปเดตบริการแบบหนึ่งเวอร์ชัน
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: เงินสดย่อย
                       href: localizations/emea-petty-cash.md
+                    - name: เงินสด - แบบฟอร์มหลักและรายงานแบบรวมเฉพาะที่
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: VAT
                   items:
                     - name: การลงรายการบัญชี VAT ขายเฉพาะท้องถิ่น
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: การจัดการการชำระเงินล่วงหน้า
                       href: localizations/rus-prepayments-management.md
+                    - name: การคืนค่า VAT ขาเข้า
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: สินทรัพย์ถาวร
                   items:
                     - name: การจัดการสินทรัพย์ถาวร
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: การปันส่วนค่าธรรมเนียมเบ็ดเตล็ดในสัดส่วนของน้ำหนักและปริมาตร
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: ค่าธรรมเนียมเบ็ดเตล็ดของบุคคลที่สาม
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: สินค้าคงคลัง
+                  items:
+                    - name: สินค้าที่อยู่ระหว่างส่งต่อจากผู้จัดจำหน่าย
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: หมายเลขการแสดงต่อศุลกากร
+                      href: localizations/rus-custom-declaration-number.md
                 - name: การรายงาน
                   items:
                     - name: การรายงานทางการเงิน
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: ส่วนงานในบริษัท
                       href: localizations/rus-company-divisions.md
+                    - name: รูปแบบที่อยู่ของรัสเซียและการนำเข้าจาก FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: รายการยืดเวลา
                   items:
                     - name: ตั้งค่ารายการยืดเวลา
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: บทช่วยสอน
+                  items:
+                    - name: ใช้แหล่งข้อมูล JOIN ในการรับข้อมูลจากหลายตารางแอปพลิเคชันในการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
                   items:
                     - name: ตั้งค่าคอนฟิกกรอบงาน
@@ -2899,11 +2921,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                    - name: ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ
+                    - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                - name: API กรอบงาน ER
+                    - name: เพิ่มฟิลด์ใหม่ลงในเท็มเพลตเอกสารทางธุรกิจใน Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                - name: API กรอบงานการรายงานทางอิเล็กทรอนิกส์
                   items:
                     - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
