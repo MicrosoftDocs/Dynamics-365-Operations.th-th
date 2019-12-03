@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537035"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812099"
 ---
 # <a name="globalization-resources"></a>ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
 
@@ -45,10 +45,10 @@ ms.locfileid: "2537035"
 
 ### <a name="developing-localized-solutions"></a>การพัฒนาโซลูชันสำหรับใช้ในท้องถิ่น
 ทรัพยากรต่อไปนี้ให้คำแนะนำและข้อมูลที่สามารถช่วยเหลือนักพัฒนาและ ISV ที่กำลังสร้างการกำหนดเองเฉพาะประเทศ/ภูมิภาค หรือสร้างโซลูชันสำหรับประเทศที่ Microsoft ไม่ได้ให้การสนับสนุน
--   [แบบจำลองเฉพาะที่แยกต่างหาก](separate-localization-models.md)
+-   [การแยกแบบจำลองการแปลเป็นภาษาท้องถิ่น](separate-localization-models.md)
 -   [ใช้บริบทประเทศ/ภูมิภาค](apply-country-context.md)
--   [ใบรับรองที่เป็นระเบียบบังคับ](regulatory-certifications.md)
--   [จัดประเภทคุณลักษณะการทำงานเฉพาะ](classify-localization-features.md)
+-   [ข้อมูลการรับรองที่เป็นระเบียบบังคับในชื่อคุณสมบัติ](regulatory-certifications.md)
+-   [การจัดประเภทคุณลักษณะการทำงานเฉพาะ](classify-localization-features.md)
 -   [รหัสประเทศ - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>การอัปเดตและการสื่อสารที่เป็นระเบียบบังคับ
@@ -57,36 +57,36 @@ ms.locfileid: "2537035"
 #### <a name="regulatory-updates"></a>การอัปเดตที่เป็นระเบียบบังคับ
 -   [การอัปเดตที่เป็นระเบียบบังคับ](../../../finance/localizations/regulatory-updates.md)
 -   [พอร์ทัลเฉพาะ](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (อัปเดตรายสัปดาห์)
--   [การค้นหาปัญหา LCS](../lifecycle-services/issue-search-lcs.md) (อัปเดตรายวัน)
+-   [การค้นหาปัญหาใน Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (อัปเดตทุกวัน)
 
 #### <a name="communication-and-alerts"></a>การสื่อสารและการแจ้งเตือน
 -   [การดูข้อบังคับและการสื่อสารการอัปเดตตามข้อบังคับ](regulatory-watch-communication.md)
--   [แจ้งให้ Microsoft ทราบเกี่ยวกับการแจ้งเตือนข้อบังคับของประเทศ/ภูมิภาค และติดตามสถานะของคุณลักษณะตามข้อบังคับ](submit-localization-alerts.md)
+-   [ส่งการแจ้งเตือนเกี่ยวกับคุณลักษณะข้อบังคับเฉพาะประเทศ/ภูมิภาค](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>บันทึกย่อประจำรุ่น Dynamics 365
-[บันทึกย่อประจำรุ่น Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
+#### <a name="dynamics-365-release-plans"></a>แผนการเผยแพร่ Dynamics 365
+[แผนการเผยแพร่ Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>มีอะไรใหม่ในแอป Finance and Operations
-[เนื้อหามีอะไรใหม่](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
 
 ### <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:
--   [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../analytics/general-electronic-reporting.md)
--   [จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [สร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-configuration.md)
--   [ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [ปลายทางการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-destinations.md)
+-   [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/general-electronic-reporting.md)
+-   [จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [สร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/electronic-reporting-configuration.md)
+-   [ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/electronic-reporting-destinations.md)
 -   [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์](../analytics/electronic-reporting-import-ger-configurations.md)
--   [ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชันโดยใช้เครื่องมือการรายงานทางอิเล็กทรอนิกส์](../analytics/generate-electronic-documents-update-application-data.md)
+-   [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อดึงข้อมูลไปยัง Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชันโดยใช้ ER](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>คู่มืองาน
 คุณสามารถอ่านคู่มืองานจากบานหน้าต่างวิธีใช้ผลิตภัณฑ์ ซึ่งจะมีหัวข้อที่แนะนำกระบวนการทางธุรกิจที่สำคัญต่างๆ คุณสามารถเปิดคู่มืองานเพื่ออ่านขั้นตอนของกระบวนการทางธุรกิจ หรือคุณสามารถเลือกเล่นคู่มืองานเพื่อทราบรายละเอียดเกี่ยวกับกระบวนการทางธุรกิจและการป้อนข้อมูลได้
 
 หากต้องการค้นหาคู่มืองาน ให้ไปที่หน้าในแอปพลิเคชัน และคลิก วิธีใช้ คู่มืองานที่ใช้หน้าจะแสดงรายการอยู่ในบานหน้าต่างวิธีใช้ คุณยังสามารถใช้บานหน้าต่างวิธีใช้เพื่อค้นหาคู่มืองานตามชื่อได้
 
-เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [คู่มืองาน](../../fin-ops/get-started/help-overview.md#task-guides)
+เมื่อต้องการเรียนรู้ โปรดดู [ระบบวิธีใช้](../../fin-ops/get-started/help-overview.md#task-guides)
 
 
 ### <a name="countryregion-specific-help-content"></a>เนื้อหาวิธีใช้เฉพาะประเทศ/ภูมิภาค

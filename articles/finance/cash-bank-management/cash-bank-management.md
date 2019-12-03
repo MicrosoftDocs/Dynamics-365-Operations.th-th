@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176110"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772593"
 ---
 # <a name="cash-and-bank-management-home-page"></a>โฮมเพจการจัดการเงินสดและธนาคาร
 
@@ -49,36 +49,36 @@ ms.locfileid: "2176110"
 ### <a name="bank-reconciliation"></a>การกระทบยอดบัญชีธนาคาร
 
 -   [ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง](advanced-bank-reconciliation-overview.md)
--   [ตั้งค่าคอนฟิกการกระทบยอดบัญชีธนาคารขั้นสูง](configure-advanced-bank-reconciliation.md)
--   [ตั้งค่าการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง](set-up-advanced-bank-reconciliation-import-process.md)
+-   [กระบวนการตั้งค่าการกระทบยอดบัญชีธนาคารขั้นสูง](configure-advanced-bank-reconciliation.md)
+-   [ตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง](set-up-advanced-bank-reconciliation-import-process.md)
 -   [กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [ตั้งค่ากฎการจับคู่การกระทบยอดบัญชีธนาคาร](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>การชำระเงินบัญชีเจ้าหนี้และการตัดจ่าย
 -   [การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้](../accounts-payable/centralized-payments-accounts-payable.md)
--   [สร้างใบแจ้งหนี้ของผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย](../accounts-payable/reverse-vendor-payment.md)
 -   [การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินบางส่วน](../accounts-payable/vendor-payments-partial-amount.md)
--   [ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่าย และชำระการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลดพร้อมกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [สถานการณ์จำลอง: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [สถานการณ์จำลอง: ชำระการชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีรอบระยะเวลาส่วนลดหลายรอบ](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [สถานการณ์จำลอง: ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินให้แก่ผู้จัดจำหน่าย](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [สถานการณ์จำลอง: ใช้ส่วนลดเงินสดนอกเหนือจากรอบระยะเวลาการใช้ส่วนลดเงินสด](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [ใบแจ้งหนี้การชำระเงินล่วงหน้าเปรียบเทียบกับการชำระเงินล่วงหน้า](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [ชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [การชำระเงินบางส่วนของผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [ใช้ส่วนลดที่มากกว่าส่วนลดที่คำนวณได้สำหรับการชำระเงินของผู้จัดจำหน่าย](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [ใช้ส่วนลดเงินสดนอกรอบระยะเวลาส่วนลดเงินสด](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>การชำระเงินบัญชีลูกหนี้และการตัดจ่าย
 -   [การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน](../accounts-receivable/customer-payments-partial-amount.md)
 -   [ชำระเงินคืนลูกค้า](../accounts-receivable/reimburse-customers.md)
--   [สถานการณ์จำลอง: การชำระเงินอัตโนมัติและจัดระดับความสำคัญ](../accounts-receivable/automatic-settlement-prioritization.md)
--   [สถานการณ์จำลอง: การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้า และชำระการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้าก่อนวันที่ให้ส่วนลดพร้อมกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [สถานการณ์จำลอง: ชำระเงินบางส่วนของลูกค้าที่มีส่วนลดบนใบลดหนี้ของลูกค้า](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [สถานการณ์จำลอง: ชำระการชำระเงินบางส่วนของลูกค้าที่มีรอบระยะเวลาส่วนลดหลายรอบ](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [สถานการณ์จำลอง: ใช้ชำระเงินของลูกค้าหนึ่งรายการเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [การชำระเงินอัตโนมัติและจัดระดับความสำคัญ](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [การจัดการส่วนลดเงินสดสำหรับการชำระมากเกิน](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [ชำระเงินบางส่วนของลูกค้า และการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [การชำระเงินบางส่วนของผู้ซิ้อก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [การชำระเงินบางส่วนของผู้ซิ้อที่มีส่วนลดในใบลดหนี้](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [ใช้การชำระเงินของลูกค้าเพื่อชำระใบแจ้งหนี้หลายใบที่ครอบคลุมรอบระยะเวลาส่วนลดหลายรายการ](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "2176110"
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
+ไปที่ [แผนการเยผแพร่ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="blogs"></a>บล็อก
 

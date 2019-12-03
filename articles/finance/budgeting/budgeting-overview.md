@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184082"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772662"
 ---
 # <a name="budgeting-home-page"></a>โฮมเพจของการจัดงบประมาณ
 
@@ -42,12 +42,12 @@ ms.locfileid: "2184082"
 
 ในตอนท้าย องค์กรที่มีการเติบโตมากๆ อาจสร้างวัฒนธรรมขององค์กรที่พนักงานได้รับการศึกษาเกี่ยวกับเป้าหมายขององค์กร และทำตามเป้าหมายดังกล่าวผ่านนโยบาย เช่น "ให้พิจารณาการประชุมแบบออนไลน์แทนการเดินทาง" แอปพลิเคชันนี้ประกอบด้วย กรอบงานการควบคุมงบประมาณที่ช่วยให้การจัดการของบริษัทสามารถเลือกตัวควบคุมแบบตายตัว (ซึ่งป้องกันการลงรายการบัญชีที่จะเกินงบประมาณ) หรือตัวควบคุมแบบผ่อนปรน (ซึ่งผู้ใช้จะได้รับการเตือนว่า พวกเขาจะเกินเงินงบประมาณที่มีอยู่ แต่สามารถตัดสินใจวิธีการดำเนินการได้เอง) อย่างใดอย่างหนึ่ง ในตอนท้าย คุณสามารถใช้การคาดการณ์ย้อนหลังได้ การคาดการณ์ย้อนหลังคือการเปรียบเทียบงบประมาณปกติกับงบประมาณที่เกิดขึ้นจริง และใช้เพื่อกำหนดว่าบริษัทดำเนินงานได้ดีเพียงใด การคาดการณ์ย้อนหลังยังสามารถใช้เพื่อระบุแนวโน้มได้ ใน Finance and Operations การคาดการณ์ย้อนหลังได้รับการสนับสนุนผ่านเอกสารแผนงบประมาณเป็นกิจกรรมการวางแผนเริ่มต้น การคาดการณ์ย้อนหลังยังสามารถดำเนินการพร้อมกันกับการวางแผนสำหรับวงจรงบประมาณที่กำลังมาถึง
 
--   [การจัดงบประมาณพื้นฐาน: ภาพรวมและการตั้งค่าคอนฟิก](basic-budgeting-overview-configuration.md)
--   [การควบคุมงบประมาณ: ภาพรวมและการตั้งค่าคอนฟิก](budget-control-overview-configuration.md)
--   [การวางแผนงบประมาณ: ภาพรวมและการตั้งค่าคอนฟิก](budget-planning-overview-configuration.md)
+-   [ภาพรวมของการจัดงบประมาณ](basic-budgeting-overview-configuration.md)
+-   [ภาพรวมของการควบคุมงบประมาณ](budget-control-overview-configuration.md)
+-   [ภาพรวมของการวางแผนงบประมาณ](budget-planning-overview-configuration.md)
 -   [การคาดการณ์ตำแหน่ง](position-forecasting.md)
 -   [เอกสารเหตุผลการวางแผนงบประมาณ](budget-planning-justification-docs.md)
--   [เท็มเพลต Microsoft Excel สำหรับการวางแผนงบประมาณ](budget-planning-excel-templates.md)
+-   [เท็มเพลตการวางแผนงบประมาณสำหรับ Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>เครื่องมือการจัดงบประมาณ
 [![เครื่องมือการจัดงบประมาณ](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

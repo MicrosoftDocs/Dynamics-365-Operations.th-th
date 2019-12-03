@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658747"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772248"
 ---
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
@@ -41,7 +41,7 @@ ms.locfileid: "2658747"
 
 ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น 
 
-[ตั้งค่าคอนฟิกบัญชีเจ้าหนี้](accounts-payable-overview.md)
+[ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้](accounts-payable-overview.md)
 
 [การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -49,9 +49,9 @@ ms.locfileid: "2658747"
 
 ## <a name="configure-vendor-invoices"></a>ตั้งค่าคอนฟิกใบแจ้งหนี้ของผู้จัดจำหน่าย
 
-ใช้บัญชีเจ้าหนี้เพื่อติดตามใบแจ้งหนี้และค่าใช้จ่ายทั้งหมดที่จ่ายให้แก่ผู้จัดจำหน่าย
+ใช้บัญชีเจ้าหนี้เพื่อติดตามใบแจ้งหนี้และรายจ่ายทั้งหมดที่จ่ายให้แก่ผู้จัดจำหน่าย
 
-[การจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้](accounts-payable-invoice-matching.md)
+[ภาพรวมของการจับคู่ใบแจ้งหนี้บัญชีเจ้าหนี้](accounts-payable-invoice-matching.md)
 
 [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](vendor-posting-profiles.md)
 
@@ -61,7 +61,7 @@ ms.locfileid: "2658747"
 
 [การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท](invoice-matching-intercompany-purchase-orders.md)
 
-[แก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[ภาพรวมของการแก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ ms.locfileid: "2658747"
 
 [ใช้ส่วนลดเงินสดนอกรอบระยะเวลาส่วนลดเงินสด](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[การรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย](electronic-reporting-sample-vendor-checks.md)
+[ตัวอย่างการรายงานทางอิเล็กทรอนิกส์สำหรับการตรวจสอบผู้จัดจำหน่าย](electronic-reporting-sample-vendor-checks.md)
 
 [กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย](reverse-vendor-payment.md)
 
-[ภาพรวมใบแจ้งหนี้การชำระเงินล่วงหน้าและการชำระเงินล่วงหน้า](prepayments-invoices-vs-prepayments.md)
+[ใบแจ้งหนี้การชำระเงินล่วงหน้าเปรียบเทียบกับการชำระเงินล่วงหน้า](prepayments-invoices-vs-prepayments.md)
 
 [การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ ms.locfileid: "2658747"
 
 [ตั้งค่าคอนฟิกการชำระเงิน](../cash-bank-management/configure-settlement.md)
 
-[ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลด](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[การชำระเงินบางส่วนของผู้จัดจำหน่ายก่อนวันที่ให้ส่วนลดกับการชำระเงินครั้งสุดท้ายหลังจากวันที่ให้ส่วนลด](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้ของผู้จัดจำหน่าย](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายหรือการชำระเงินครั้งสุดท้ายก่อนส่วนลด](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[ชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันที่ให้ส่วนลด](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ ms.locfileid: "2658747"
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [บันทึกย่อประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
+ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="blogs"></a>บล็อก
 

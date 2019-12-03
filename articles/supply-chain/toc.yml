@@ -571,6 +571,8 @@
                   href: cost-management/inventory-close.md
                 - name: การปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: รายงานการแยกสินค้าคงคลัง
+                  href: cost-management/inventory-aging-report-storage.md
             - name: การบัญชีการผลิต
               items:
                 - name: การคำนวณ BOM
@@ -868,7 +870,13 @@
                         - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บ ER ของชนิด RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: บทช่วยสอน
+                      items:
+                        - name: ใช้แหล่งข้อมูล JOIN ในการรับข้อมูลจากหลายตารางแอปพลิเคชันในการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
                   items:
                     - name: ตั้งค่าคอนฟิกกรอบงาน
@@ -899,11 +907,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                         - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ
+                    - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                - name: API กรอบงาน ER
+                    - name: เพิ่มฟิลด์ใหม่ลงในเท็มเพลตเอกสารทางธุรกิจใน Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+                - name: API กรอบงานการรายงานทางอิเล็กทรอนิกส์
                   items:
                     - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
@@ -1051,6 +1061,22 @@
           items:
             - name: โฮมเพจการวางแผนหลัก
               href: master-planning/master-planning-home-page.md
+            - name: การเพิ่มประสิทธิภาพการวางแผน
+              items:
+                - name: ภาพรวมของการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/get-started.md
+                - name: การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: ใช้ตัวกรองกับแผน
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: ดูประวัติแผนและบันทึกการวางแผน
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: ยกเลิกงานการวางแผน
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: แผนหลัก
               items:
                 - name: ภาพรวมของแผนหลัก

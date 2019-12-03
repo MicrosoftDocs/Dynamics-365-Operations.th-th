@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174707"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770244"
 ---
 # <a name="public-sector-home-page"></a>โฮมเพจภาครัฐ
 
@@ -42,13 +42,13 @@ ms.locfileid: "2174707"
 
   สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
-- [การวางแผนสำหรับฟังก์ชันการทำงานของภาครัฐ](plan-public-sector-functionality.md)
-- [บัญชีเจ้าหนี้ในภาครัฐ](accounts-payable-public-sector.md)
-- [บัญชีลูกหนี้ในภาครัฐ](accounts-receivable-public-sector.md)
-- [การจัดงบประมาณในภาครัฐ](budgeting-public-sector.md)
+- [แผนสำหรับฟังก์ชันการทำงานของภาครัฐ](plan-public-sector-functionality.md)
+- [ภาพรวมของบัญชีเจ้าหนี้ในภาครัฐ](accounts-payable-public-sector.md)
+- [ภาพรวมของบัญชีลูกหนี้ในภาครัฐ](accounts-receivable-public-sector.md)
+- [ภาพรวมของการจัดงบประมาณในภาครัฐ](budgeting-public-sector.md)
 - [สินทรัพย์ถาวรในภาครัฐ](fixed-asset-public-sector.md)
-- [คุณสมบัติที่เป็นระเบียบบังคับของฝรั่งเศส](../localizations/emea-fra-public-sector-accounting.md)
-- [บัญชีแยกประเภททั่วไปในภาครัฐ](general-ledger-public-sector.md)
+- [การลงบัญชีภาครัฐในฝรั่งเศส](../localizations/emea-fra-public-sector-accounting.md)
+- [ภาพรวมของบัญชีแยกประเภททั่วไปในภาครัฐ](general-ledger-public-sector.md)
 - [การจัดซื้อและการจัดหาในภาครัฐ](procurement-sourcing-public-sector.md)
 - [บทบาทความปลอดภัยในภาครัฐ](security-roles-public-sector.md)
 
@@ -70,7 +70,7 @@ ms.locfileid: "2174707"
 <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[การวางแผนสำหรับฟังก์ชันการทำงานของภาครัฐ](plan-public-sector-functionality.md)
+[แผนสำหรับฟังก์ชันการทำงานของภาครัฐ](plan-public-sector-functionality.md)
 
 
 
