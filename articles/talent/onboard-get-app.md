@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551990"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812867"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>รับแอป Dynamics 365 Talent - Onboard
 
@@ -39,9 +39,9 @@ ms.locfileid: "2551990"
 > [!WARNING]
 > คุณไม่สามารถย้ายข้อมูลจากการทดลองของคุณไปยังสภาพแวดล้อมการบอกรับเป็นสมาชิกที่ชำระเงินของคุณ <!--Reviewers: please verify.-->
 
-เพื่อค้นหาเกี่ยวกับคุณลักษณะใหม่ๆ ใน Talent ดู [มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent](./whats-new.md) และ [บันทึกย่อประจำรุ่นของ Dynamics 365 และ Power Platform](https://docs.microsoft.com/business-applications-release-notes/index) ถ้าคุณต้องการแสดงตัวอย่างคุณลักษณะใหม่ๆ ใน Onboard โปรดดูที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](./access-preview-feature.md)
+เพื่อค้นหาเกี่ยวกับคุณลักษณะใหม่ๆ ใน Talent ดู [มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent](./whats-new.md) และ [บันทึกย่อประจำรุ่นของ Dynamics 365 และ Power Platform](https://docs.microsoft.com/business-applications-release-notes/index) ถ้าคุณต้องการแสดงตัวอย่างคุณลักษณะใหม่ๆ ใน Onboard โปรดดูที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Microsoft Dynamics 365 Talent](./access-preview-feature.md)
 
-ถ้าคุณเป็นผู้เชี่ยวชาญด้าน IT และต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเตรียมใช้งานแอป Onboard สองรุ่น โปรดดู [การเตรียมใช้งานสำหรับแอป Onboard](./modular-app-tech-faq.md)ดูที่การจัดเตรียมสำหรับแอป onboard
+ถ้าคุณเป็นผู้เชี่ยวชาญด้าน IT และต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเตรียมใช้งานแอป Onboard สองรุ่น โปรดดู [การเตรียมใช้งานสำหรับ Dynamics 365 Talent - แอป Onboard](./modular-app-tech-faq.md)
 
 ## <a name="get-started-with-onboard"></a>เริ่มต้นใช้งาน Onboard
 
@@ -89,6 +89,6 @@ ms.locfileid: "2551990"
 ### <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ลองหรือซื้อแอป Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [มีอะไรใหม่](./whats-new.md)
-- [บันทึกย่อประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
-- [รับการสนับสนุน](./talent-support.md)
+- [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent](./whats-new.md)
+- [แผนประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
+- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](./talent-support.md)

@@ -1,6 +1,6 @@
 ---
-title: ฝังแอป PowerApps ใน Dynamics 365 - Core HR
-description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งรายการเมนู PowerApps หายไปจากโมดูลการดูแลระบบ
+title: ฝังแอป Power Apps ใน Dynamics 365 - Core HR
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งรายการเมนู Microsoft Power Apps หายไปจากโมดูลการดูแลระบบ
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b510c10ebfcf4939eb2e1297972d27aa1812ae5a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6d1b7f1dd71e6bcbf10c4d91fe33e9494b041a2c
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551014"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830220"
 ---
-# <a name="embed-powerapps-apps-in-dynamics-365---core-hr"></a>ฝังแอป PowerApps ใน Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>ฝังแอป Power Apps ใน Dynamics 365 - Core HR
 
 [!include [banner](includes/banner.md)]
 
 **ออกใช้**
 
-รายการเมนู **PowerApps** หายไปจากโมดูล **การดูแลระบบ**
+รายการเมนู **Power Apps** หายไปจากโมดูล **การดูแลระบบ**
 
 **สาเหตุ**
 
-การออกแบบส่วนติดต่อผู้ใช้ (UI) ได้ถูกเปลี่ยนแปลง และขณะนี้ Microsoft PowerApps ถูกรวมในแบบจำลองการตั้งค่าส่วนบุคคลมาตรฐาน
+การออกแบบส่วนติดต่อผู้ใช้ (UI) ได้ถูกเปลี่ยนแปลง และขณะนี้ Microsoft Power Apps ถูกรวมในแบบจำลองการตั้งค่าส่วนบุคคลมาตรฐาน
 
 **ความละเอียด**
 
-มีการเปลี่ยนแปลงวิธีการที่แอป PowerApps ถูกฝัง PowerApps ขณะนี้ ถูกเพิ่มโดยใช้แบบจำลองการตั้งค่าส่วนบุคคล คุณสามารถเพิ่มแอป PowerApps ไปยังหน้าได้เกือบทั้งหมดใน Microsoft Dynamics 365 Talent
+วิธีการที่ Power Apps ถูกฝังถูกเปลี่ยนแปลง ขณะนี้ Power Apps ถูกเพิ่มโดยใช้แบบจำลองการตั้งค่าส่วนบุคคล คุณสามารถเพิ่ม Power Apps ไปยังหน้าได้เกือบทั้งหมดใน Microsoft Dynamics 365 Talent
 
-สำหรับข้อมูลเกี่ยวกับวิธีการฝังแอป PowerApps ใน Talent ดู [ฝังแอป PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)
+สำหรับข้อมูลเกี่ยวกับวิธีการฝังแอป Power Apps ใน Talent ดู [ฝัง Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps)
 
-ลูกค้า PowerApps ที่ฝังแอปก่อนมีการเปลี่ยนแปลง ที่จะควรมีการอัพเกรดการเปลี่ยนแปลงเป็นแบบจำลองใหม่
+ลูกค้า Power Apps ที่ฝังแอปก่อนมีการเปลี่ยนแปลง ที่จะควรมีการอัพเกรดการเปลี่ยนแปลงเป็นแบบจำลองใหม่
 
-ปุ่ม **PowerApps** อยู่ในมุมขวาบนของหน้าเกือบทุกหน้าใน Talent คุณสามารถใช้ปุ่มนี้เพื่อแทรกแอป PowerApps ได้
+ปุ่ม **Power Apps** อยู่ในมุมขวาบนของหน้าเกือบทุกหน้าใน Talent คุณสามารถใช้ปุ่มนี้เพื่อแทรก Power Apps ได้
 
 นี่คือตัวอย่าง
 
 1. ไปยัง **การจัดการบุคลากร \> ลิงค์ \> ผู้ปฏิบัติงาน \> พนักงาน**
-2. เลือกปุ่ม **PowerApps** และจากนั้น เลือก **แทรก PowerApp**
+2. เลือกปุ่ม **Power Apps** และจากนั้น เลือก **แทรก PowerApp**
 
-    ![ปุ่ม PowerApps](media/png.png)
+    ![ปุ่ม Power Apps](media/png.png)
 
 3. กรอกข้อมูลฟิลด์ในกล่องโต้ตอบ **แทรก PowerApp**
 
@@ -67,4 +67,4 @@ ms.locfileid: "2551014"
 
 2. บนแถบเครื่องมือ เลือก **แทรก \> PowerApp**
 
-    ![แทรกแอป PowerApps โดยใช้แถบเครื่องมือการตั้งค่าส่วนบุคคล](media/powerapp-bar.png)
+    ![แทรกแอป Power Apps โดยใช้แถบเครื่องมือการตั้งค่าส่วนบุคคล](media/powerapp-bar.png)

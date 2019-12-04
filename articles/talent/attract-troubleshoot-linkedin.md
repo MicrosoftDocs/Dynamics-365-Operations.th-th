@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551483"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832988"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>การแก้ไขปัญหาการรวม LinkedIn กับ Microsoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ใช้ข้อมูลต่อไปนี้เพื่อช่วยแก้ไขปัญหาที่คุณอาจมี เมื่อคุณพยายามลงประกาศงานไปยัง LinkedIn จาก Microsoft Dynamics 365 Talent: Attract
 
@@ -42,18 +42,18 @@ ms.locfileid: "2551483"
 
 ถ้างานของคุณไม่ปรากฏบน LinkedIn หลังจาก 24 ชั่วโมง ให้ลองทำตามขั้นตอนต่อไปนี้
 
-1. ตรวจสอบให้แน่ใจว่ารหัสของบริษัท LinkedIn ของคุณแม็ปไปยังหน้าของบริษัท LinkedIn ของคุณ และป้อนไว้อย่างถูกต้องในศูนย์การจัดการ Attract สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปลี่ยนการตั้งค่า LinkedIn ในศูนย์การจัดการ ให้ดูที่ [ตั้งค่าการรวมกับ LinkedIn](attract-admin-linkedin.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรหัสบริษัท LinkedIn โปรดดูที่ [การเชื่อมโยงรหัสบริษัท Linkedin กับบอร์ดงาน Linkedin - คำถามที่ถามบ่อย](https://www.linkedin.com/help/linkedin/answer/98972)
+1. ตรวจสอบให้แน่ใจว่ารหัสของบริษัท LinkedIn ของคุณแม็ปไปยังหน้าของบริษัท LinkedIn ของคุณ และป้อนไว้อย่างถูกต้องในศูนย์การจัดการ Attract สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปลี่ยนการตั้งค่า LinkedIn ในศูนย์การจัดการ ให้ดูที่ [ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรหัสบริษัท LinkedIn โปรดดูที่ [การเชื่อมโยงรหัสบริษัท Linkedin กับบอร์ดงาน Linkedin - คำถามที่ถามบ่อย](https://www.linkedin.com/help/linkedin/answer/98972)
 2. ตรวจสอบรายละเอียดงานบน LinkedIn เพื่อให้แน่ใจว่าที่อยู่เสร็จสมบูรณ์แล้ว เมื่อต้องการลงประกาศงานให้สมบูรณ์ LinkedIn ต้องการอย่างน้อยเมืองและประเทศหรือภูมิภาคของงาน
 3. ตรวจสอบให้แน่ใจว่างานไม่ซ้ำกับงานอื่นที่มีการลงประกาศแล้วใน LinkedIn LinkedIn จะไม่ลงประกาศงานที่ซ้ำกับช่องงานพิเศษของ LinkedIn หรือรายการที่จำกัดจากแหล่งที่มาอื่น ตรวจสอบว่าบุคคลอื่นในบริษัทของคุณยังไม่ได้ลงประกาศงานด้วยตนเอง
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
+[การรวม Attract กับ FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
 
-[ลงประกาศงานใน LinkedIn จาก Attract](./attract-post-jobs-to-linkedin.md)
+[ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[จัดหาผู้สมัครด้วย LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[สร้างงาน](./creating-jobs-attract.md)
+[สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
-[แก้ไขปัญหาการรวมกับ LinkedIn](./attract-troubleshoot-linkedin.md)
+[การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

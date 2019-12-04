@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250794"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814341"
 ---
 # <a name="inventory-management-overview"></a>ภาพรวมของการจัดการสินค้าคงคลัง
 
@@ -51,7 +51,7 @@ ms.locfileid: "2250794"
 ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา
 
 ### <a name="inventory-accounting"></a>การบัญชีสินค้าคงคลัง 
-เมื่อต้องการทราบข้อมูลเพิ่มเติม ดู [การบัญชีสินค้าคงคลังในการจัดการต้นทุน](../cost-management/inventory-close.md)
+เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>บล็อกการผลิตและ Supply Chain Management
 คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการสินค้าคงคลังและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [Supply Chain Management ในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)

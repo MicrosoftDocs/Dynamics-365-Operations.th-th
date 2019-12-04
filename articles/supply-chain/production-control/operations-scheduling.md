@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
-ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
+ms.openlocfilehash: 28d74bcbe49ce8a3c26f7ebcefd9f1c1aea8c8d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "1691473"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813281"
 ---
 # <a name="operations-scheduling"></a>การจัดตารางการผลิตระดับการดำเนินงาน
 
@@ -77,7 +77,7 @@ ms.locfileid: "1691473"
 ## <a name="finite-materials"></a>finite material / วัตถุดิบมีจำกัด
 ถ้าคุณกำลังทำงานกับวัตถุดิบมีจำกัด การจัดกำหนดการยังขึ้นอยู่กับความพร้อมใช้งานของวัสดุที่จำเป็นสำหรับการผลิต ถ้ามีส่วนประกอบที่พร้อมใช้งานไม่เพียงพอสำหรับการผลิต การผลิตอาจล่าช้าได้ คุณสามารถสร้างการจัดกำหนดการการใช้วัสดุได้โดยการระบุวัสดุที่ต้องพร้อมใช้งานสำหรับการผลิต เมื่อคุณปรับทั้งกำลังการผลิตของทรัพยากรและความพร้อมใช้งานของวัสดุให้เหมาะสมแล้ว การผลิตจะถูกคำนวณตามข้อจำกัดเหล่านี้ ไม่สามารถจัดกำหนดการใบสั่งผลิตให้เริ่มต้นได้จนกว่ากำลังการผลิตและวัสดุจะพร้อมใช้งานในเวลาเดียวกันและในปริมาณที่กำหนด
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
 [ตัวเลือกการจัดตารางการผลิตระดับการดำเนินงาน](operation-scheduling-options.md)

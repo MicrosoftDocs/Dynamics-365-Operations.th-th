@@ -1,5 +1,5 @@
 ---
-title: ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract
+title: ตั้งค่าการรวม LinkedIn กับ Attract
 description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการรวม Linkedin สำหรับ Microsoft Dynamics 365 Talent - Attract เพื่อให้คุณสามารถลงประกาศงานไปยัง Linkedin จาก Attract ได้ง่าย และเพื่อให้ผู้สรรหาของคุณสามารถซิงค์ข้อมูลการสรรหาบุคลากรกับโพรไฟล์ LinkedIn ของผู้สมัคร
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552128"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833195"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-linkedin-integration-with-attract"></a>ตั้งค่าการรวม LinkedIn กับ Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ช่วยให้ผู้สรรหาและผู้จัดการจ้างงานของคุณดึงดูดผู้มีความสามารถพิเศษระดับต้นโดยการตั้งค่าคอนฟิกการรวม LinkedIn กับ Microsoft Dynamics 365 Talent: Attract Attract ช่วยให้คุณสามารถลงประกาศงานโดยตรงไปยัง LinkedIn เครือข่ายออนไลน์ของมืออาชีพที่ใหญ่ที่สุด
 
@@ -41,11 +41,11 @@ Attract มีสองวิธีให้ใช้ในการรวมก
 คุณสามารถตั้งค่าคอนฟิกทั้งสองตัวเลือกบนแท็บ **การรวม LinkedIn** ในศูนย์การจัดการ หากต้องการเปิดศูนย์การจัดการ ให้ไปที่ <https://attract.talent.dynamics.com/adminsettings>
 
 > [!NOTE]
-> หากต้องการใช้การรวม LinkedIn Recruiter กับ Attract คุณต้องใช้ [add-on การจ้างงานที่ครอบคลุม](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) และ [LinkedIn Recruiter สิทธิ์การใช้งาน](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18) สำหรับข้อมูลเพิ่มเติมให้ ดูที่ [Attract รุ่นใด](./attract-comprehensive-hiring.md).
+> หากต้องการใช้การรวม LinkedIn Recruiter กับ Attract คุณต้องใช้ [add-on การจ้างงานที่ครอบคลุม](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) และ [LinkedIn Recruiter สิทธิ์การใช้งาน](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18) สำหรับข้อมูลเพิ่มเติม ดู [รุ่นใดของ Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md)
 
-หากคุณกำลังมีปัญหาในการลงประกาศงานใน LinkedIn โปรดดูที่ [แก้ไขปัญหาการรวมกับ LinkedIn](./attract-troubleshoot-linkedin.md)
+ถ้าคุณมีปัญหาในการลงชื่อเข้าใช้หรือลงประกาศงานใน LinkedIn โปรดดู [การแก้ไขปัญหาการรวมกับ LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
 
-สำหรับข้อมูลเกี่ยวกับวิธีการอื่นๆ ในการลงประกาศงานไปยัง LinkedIn ดูที่ [LinkedIn FAQ](./attract-linkedin-faq.md)
+สำหรับข้อมูลเกี่ยวกับวิธีการอื่นๆ ในการลงประกาศงานไปยัง LinkedIn ดู [คำถามที่พบบ่อยเกี่ยวกับการรวม Attract กับ LinkedIn](./attract-linkedin-faq.md)
 
 ## <a name="configure-job-posting-to-linkedin"></a>ตั้งค่าคอนฟิกการประกาศงานไปยัง LinkedIn
 
@@ -98,7 +98,7 @@ Attract ส่งฟีดการลงประกาศงานไปยั
 
 คุณสามารถอนุญาตให้ผู้สมัครทำการสมัครงานของคุณได้โดยใช้โพรไฟล์ LinkedIn สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสมัครด้วย LinkedIn โปรดดู [พลังของ LinkedIn ในทุกที่: สมัครด้วย LinkedIn](https://blog.linkedin.com/2011/07/24/apply-with-linkedin)
 
-คุณลักษณะนี้อยู่ในการแสดงตัวอย่างในขณะนี้ ก่อนที่คุณจะทำตามขั้นตอนต่อไปนี้ โปรดตรวจสอบให้แน่ใจว่ามีการเปิดใช้งาน สมัครด้วย LinkedIn สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดใช้งานลักษณะการทำงานของการแสดงตัวอย่าง ดู [เข้าถึงลักษณะการทำงานของการแสดงตัวอย่างใน Talent](./access-preview-feature.md)
+คุณลักษณะนี้อยู่ในการแสดงตัวอย่างในขณะนี้ ก่อนที่คุณจะทำตามขั้นตอนต่อไปนี้ โปรดตรวจสอบให้แน่ใจว่ามีการเปิดใช้งาน สมัครด้วย LinkedIn สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดใช้งานคุณลักษณะการแสดงตัวอย่าง ดู [เข้าถึงคุณลักษณะการแสดงตัวอย่าง ใน Microsoft Dynamics 365 Talent](./access-preview-feature.md)
 
 1. ในเมนู **ตั้งค่า** (สัญลักษณ์เกียร์) ในมุมบนด้านขวา เลือก **ศูนย์ผู้ดูแลระบบ** หรือไปที่ <https://attract.talent.dynamics.com/adminsettings>
 2. เลือกแท็บ **การรวม LinkedIn**
@@ -109,12 +109,12 @@ Attract ส่งฟีดการลงประกาศงานไปยั
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
+[การรวม Attract กับ FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
 
-[ลงประกาศงานลงในไซต์ภายนอกจาก Attract](./posting-jobs-external.md)
+[ลงประกาศงานลงในไซต์การทำงานภายนอกจาก Attract](./posting-jobs-external.md)
 
-[จัดหาผู้สมัครด้วย LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[สร้างงาน](./creating-jobs-attract.md)
+[สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
-[แก้ไขปัญหาการรวมกับ LinkedIn](./attract-troubleshoot-linkedin.md)
+[การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

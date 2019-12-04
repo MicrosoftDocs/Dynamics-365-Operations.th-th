@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 789272e1ee02c7f5dbab4e325cefe56425a3d1a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ce1e33fab6704dd3387f0c2034a8a950a858b2e0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549966"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814317"
 ---
 # <a name="inventory-locations"></a>สถานที่เก็บสินค้าคงคลัง
 
@@ -62,7 +62,7 @@ ms.locfileid: "1549966"
 
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[สร้างการจัดวางพื้นที่คลังสินค้าใหม่ (คู่มืองาน)](tasks/create-new-warehouse-layout.md)
+[สร้างการจัดวางพื้นที่คลังสินค้าใหม่](tasks/create-new-warehouse-layout.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 578aa96de28758a4dfff9f8c5f7782705ddd5f70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65c5702514a3bc9fe943959fd4ca032eb19bfe4c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556057"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814455"
 ---
 # <a name="set-up-consignment"></a>ตั้งค่าปริมาณการใช้วัสดุ
 
@@ -97,7 +97,7 @@ USMF ดำเนินกระบวนการประจำงวดเพ
 [![สมุดรายวันการเปลี่ยนแปลงความเป็นเจ้าของสินค้าคงคลัง](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายในกระบวนการส่งมอบ
-ถ้าผู้จัดจำหน่ายของคุณใช้อินเทอร์เฟสของการทำงานร่วมกันกับผู้จัดจำหน่าย พวกเขาสามารถใช้ข้อมูลนี้เพื่อตรวจสอบปริมาณการใช้สินค้าคงคลังที่ไซต์ของคุณ ดูข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าให้ผู้จัดจำหน่ายใช้การทำงานร่วมกันกับผู้จัดจำหน่ายที่ [การตั้งค่าคอนฟิกความปลอดภัยสำหรับผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../procurement/configure-security-vendor-portal-users.md)
+ถ้าผู้จัดจำหน่ายของคุณใช้อินเทอร์เฟสของการทำงานร่วมกันกับผู้จัดจำหน่าย พวกเขาสามารถใช้ข้อมูลนี้เพื่อตรวจสอบปริมาณการใช้สินค้าคงคลังที่ไซต์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าให้ผู้จัดจำหน่ายใช้การทำงานร่วมกันกับผู้จัดจำหน่าย ดูที่ [ความปลอดภัยผู้ใช้งานพอร์ทัลผู้จัดจำหน่าย](../procurement/configure-security-vendor-portal-users.md)
 
 
 

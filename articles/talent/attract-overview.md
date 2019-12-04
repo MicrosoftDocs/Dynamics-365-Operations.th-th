@@ -1,5 +1,5 @@
 ---
-title: คุณลักษณะและความสามารถของ Microsoft Dynamics 365 Talent - Attract
+title: คุณลักษณะและความสามารถของ Attract
 description: หัวข้อนี้อธิบายถึงคุณลักษณะการทำงานที่ Microsoft Dynamics 365 Talent มีให้สำหรับการจัดการกระบวนการว่าจ้างผู้มีความสามารถพิเศษใหม่
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552082"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833080"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>คุณลักษณะและความสามารถของ Microsoft Dynamics 365 Talent - Attract
+# <a name="attract-features-and-capabilities"></a>คุณลักษณะและความสามารถของ Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract มีกระบวนการว่าจ้างที่กำห
 ทันทีที่ผู้สมัครได้ถูกเพิ่มไปยังงาน ผู้สมัครจะได้รับอีเมลที่มีลิงก์เพื่อเรียกแอปเว็บ แอปนี้แสดงรายละเอียดงานและถูกใช้ในการสื่อสารกับทีมงานว่าจ้าง ผู้สมัครยังสามารถใช้เพื่อแจ้งวันเวลาที่ว่างสำหรับการสัมภาษณ์ของพวกเขาได้อีกด้วย
 
 ## <a name="analytic-reports"></a>รายงานการวิเคราะห์
-ทีมการจ้างงานสามารถใช้ ดูการวัดกระบวนการจ้างงานสำคัญ สำหรับงานหนึ่งๆ หรือแบบรวมในงานทั้งหมดที่มี [รายงานการวิเคราะห์ใน Attract](analytic-reports.md) ขณะนี้คุณลักษณะนี้อยู่ใน [การแสดงตัวอย่าง](access-preview-feature.md) สำหรับลูกค้าที่มี [Add-On การจ้างงานที่ครอบคลุม](attract-comprehensive-hiring.md)
+ทีมการจ้างงานสามารถใช้ ดูการวัดกระบวนการจ้างงานสำคัญ สำหรับงานหนึ่งๆ หรือแบบรวมในงานทั้งหมดที่มี [รายงานการวิเคราะห์ใน Attract](analytic-reports.md) คุณลักษณะนี้กำลังอยู่ใน [การแสดงตัวอย่าง](access-preview-feature.md) สำหรับลูกค้า กับ [เวอร์ชันใดของ Microsoft Dynamics 365 Talent- Attract](attract-comprehensive-hiring.md)

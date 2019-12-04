@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180191"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772041"
 ---
 # <a name="budget-planning-overview"></a>ภาพรวมของการวางแผนงบประมาณ
 
@@ -155,7 +155,8 @@ ms.locfileid: "2180191"
 
 คุณยังออกแบบว่าองค์ประกอบของโครงร่างแต่ละรายการ (คอลัมน์) สามารถแก้ไขได้หรือไม่ และพร้อมใช้งานในเท็มเพลตแผ่นงานใดๆที่สร้างขึ้นสำหรับโครงร่างนั้นหรือไม่ สำหรับ schema ตัวอย่าง ในโครงร่างที่ใช้สำหรับระยะการประเมิน คอลัมน์การคาดการณ์สามารถแก้ไขได้ ในขณะที่คอลัมน์การขาย PY และสัญญาเป็นแบบอ่านอย่างเดียว
 
-[!Note] โดยค่าเริ่มต้น คุณจะถูกจำกัดไว้ที่ 36 คอลัมน์ นอกจากว่าคุณจะขยายการวางแผนงบประมาณด้วยขั้นตอนต่างๆ ใน [ขยายโครงร่างการวางแผนงบประมาณ](./extending-budget-planning-layout.md)
+> [!NOTE] 
+> โดยค่าเริ่มต้น คุณจะถูกจำกัดไว้ที่ 36 คอลัมน์ นอกจากว่าคุณจะขยายการวางแผนงบประมาณด้วยขั้นตอนต่างๆ ใน [ขยายโครงร่างการวางแผนงบประมาณ](./extending-budget-planning-layout.md)
 
 ### <a name="templates"></a>เท็มเพลต
 

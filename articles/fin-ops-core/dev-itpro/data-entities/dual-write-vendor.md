@@ -19,22 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d33625b94e7611a256c389a6de4692ae8f4ff2a7
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: da451c63c23444da564307505d38699faf9df19a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572483"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771007"
 ---
 # <a name="integrated-vendor-master"></a>ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview](../includes/preview-banner.md)]
-
 คำว่า *ผู้จัดจำหน่าย* หมายถึงองค์กรของซัพพลายเออร์หรือเจ้าของแต่ละรายที่เป็นส่วนหนึ่งของกระบวนการห่วงโซ่อุปทาน และที่จัดหาสินค้าสำหรับธุรกิจ แม้ว่า *ผู้จัดจำหน่าย* เป็นแนวคิดที่สร้างขึ้นในแอพลิเคชัน Finance and Operations แนวคิดของผู้จัดจำหน่ายไม่มีอยู่ในแอพลิเคชัน Dynamics 365 อื่น ๆ แต่บางธุรกิจจะโอเวอร์โหลดเอนทิตีบัญชีเพื่อจัดเก็บทั้งข้อมูลลูกค้าและข้อมูลผู้จัดจำหน่าย ธุรกิจอื่นๆ ใช้แนวคิดของผู้จัดจำหน่ายที่กำหนดเอง การรวม Common Data Service สนับสนุนการออกแบบเหล่านี้ทั้งสองรายการ ดังนั้น คุณจึงสามารถเปิดใช้งานการออกแบบแบบใดแบบหนึ่ง โดยขึ้นอยู่กับสถานการณ์จำลองทางธุรกิจของคุณ
 
-การรวมของข้อมูลผู้จัดจำหน่ายระหว่างแอพลิเคชัน Finance and Operations และแอพลิเคชั่น Dynamics 365 อื่น ๆ จะช่วยให้คุณสามารถมีข้อมูลหลักหลายรายการ โดยไม่คำนึงถึงจุดกำเนิดของข้อมูลของผู้จัดจำหน่าย จะมีการรวมอยู่เบื้องหลังในขอบเขตของแอพลิเคชันและความแตกต่างของโครงสร้างพื้นฐาน 
+การรวมของข้อมูลผู้จัดจำหน่ายระหว่างแอป Finance and Operations และแอป Dynamics 365 อื่น ให้คุณพัฒนาความเชี่ยวชาญของหลายข้อมูลได้ โดยไม่คำนึงถึงจุดกำเนิดของข้อมูลของผู้จัดจำหน่าย จะมีการรวมอยู่เบื้องหลังในขอบเขตของแอพลิเคชันและความแตกต่างของโครงสร้างพื้นฐาน 
 
 ### <a name="vendor-data-flow"></a>โฟลว์ข้อมูลของผู้จัดจำหน่าย
 
@@ -46,172 +44,30 @@ ms.locfileid: "2572483"
 
 ![โฟลว์ข้อมูลของผู้จัดจำหน่ายแบบขยาย](media/dual-write-vendor-detail.jpg)
 
-ข้อมูลการติดต่อของผู้จัดจำหน่ายคล้ายกับข้อมูลการติดต่อของลูกค้า ในเบื้องหลัง ข้อมูลของผู้ติดต่อจะถูกเก็บและถูกดึงมาจากเอนทิตีเดียวกัน
+ข้อมูลการติดต่อของผู้จัดจำหน่ายคล้ายกับข้อมูลการติดต่อของลูกค้า ในเบื้องหลัง ข้อมูลของผู้ติดต่อที่เก็บไว้และถูกดึงจากเอนทิตีเีดียวกัน
 
 ## <a name="templates"></a>เท็มเพลต
 
-ข้อมูลผู้จัดจำหน่ายรวมถึงข้อมูลทั้งหมดเกี่ยวกับผู้จัดจำหน่าย เช่น กลุ่มผู้จัดจำหน่าย ที่อยู่ ข้อมูลผู้ติดต่อ โพรไฟล์การชำระเงิน และโพรไฟล์ใบแจ้งหนี้ ชุดของแผนผังเอนทิตีทำงานร่วมกันในระหว่างการโต้ตอบข้อมูลผู้จัดจำหน่าย ดังที่แสดงในตารางต่อไปนี้
+ข้อมูลผู้จัดจำหน่ายรวมถึงข้อมูลทั้งหมดเกี่ยวกับผู้จัดจำหน่าย เช่น กลุ่มผู้จัดจำหน่าย ที่อยู่ ข้อมูลผู้ติดต่อ โพรไฟล์การชำระเงิน และโพรไฟล์ใบแจ้งหนี้ คอเลคชันของแม็บเอนทิตีทำงานร่วมกันในขณะการรวมข้อมูลผู้จัดจำหน่าย ดังที่แสดงในตารางต่อไปนี้
 
-แอพ Finance and Operations  | แอปพลิเคชันอื่น ๆ ของ Dynamics 365
-------------------------|---------------------------------
-ผู้จัดจำหน่าย V2               | บัญชี
-ผู้จัดจำหน่าย V2               | Msdyn\_vendors
-ผู้ติดต่อ CDS V2         | ผู้ติดต่อ
-กลุ่มผู้จัดจำหน่าย           | Msdyn\_vendorgroups
-วิธีการชำระเงินของผู้จัดจำหน่าย   | Msdyn\_vendorpaymentmethods
-กำหนดการชำระเงิน        | Msdyn\_paymentschedules
-กำหนดการชำระเงิน        | Msdyn\_paymentschedulelines
-CDS วันที่ชำระเงิน         | Msdyn\_paymentdays
-CDS รายการแสดงวันที่ชำระเงิน   | Msdyn\_paymentdaylines
-เงื่อนไขการชำระเงิน        | Msdyn\_paymentterms
-ส่วนเพิ่มของชื่อ            | Msdyn\_nameaffixes
+แอพ Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365         | คำอธิบาย
+----------------------------|---------------------------------|------------
+ผู้จัดจำหน่าย V2               | บัญชี | ธุรกิจที่ใช้เอนทิตีบัญชีเพื่อจัดเก็บข้อมูลผู้จัดจำหน่ายสามารถใช้ต่อไปได้ในลักษณะเดียวกัน นอกจากนี้ ยังสามารถใช้ประโยชน์จากฟังก์ชันของผู้จัดจำหน่ายที่ชัดเจนซึ่งกำลังจะมา เนื่องจากการรวมของแอพลิเคชัน Finance and Operations
+ผู้จัดจำหน่าย V2               | Msdyn\_vendors | ธุรกิจที่ใช้โซลูชันแบบกำหนดเองสำหรับผู้จัดจำหน่ายสามารถใช้ประโยชน์จากแนวคิดผู้จัดจำหน่ายแบบสำเร็จรูปที่ถูกนำมาใช้ใน Common Data Service เนื่องจากการรวมของแอพลิเคชัน Finance and Operations 
+กลุ่มผู้จัดจำหน่าย | msdyn_vendorgroups | เท็มเพลตนี้รวมข้อมูลกลุ่มผู้จัดจำหน่ายเข้าด้วยกัน
+วิธีการชำระเงินของผู้จัดจำหน่าย | msdyn_vendorpaymentmethods | เท็มเพลตนี้รวมข้อมูลวิธีการชำระเงินของผู้จัดจำหน่วยเข้าด้วยกัน
+ผู้ติดต่อ CDS V2             | ผู้ติดต่อ                        | เท็มเพลต [contacts](dual-write-customer.md#cds-contacts-v2-to-contacts) รวมข้อมูลผู้ติดต่อ ปฐมภูม ทุติยภูมิ ตติยภูมิ ทั้งหมดเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
+รายการกำหนดการชำระเงิน      | msdyn_paymentschedulelines      | เท็มเพลต [payment schedule lines](dual-write-customer.md#payment-schedule-lines-to-msdyn_paymentschedulelines) รวมข้อมูลอ้างอิงสำหรับลูกค้าและผู้จัดจำหน่ายเข้าด้วยกัน
+กำหนดการชำระเงิน            | msdyn_paymentschedules          | เท็มเพลต [payment schedules](dual-write-customer.md#payment-schedule-to-msdyn_paymentschedules) รวมข้อมูลอ้างอิงกำหนดการชำระิิเงินเข้าด้วยกัน ทั้งสำหรับลูกค้าและผู้จัดจำหน่าย
+รายการแสดงวันที่ในการชำระเงินของ CDS V2    | msdyn_paymentdaylines           | เท็มเพลต [payment day lines](dual-write-customer.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) รวมข้อมูลอ้างอิงกำหนดการชำระเงินเข้าด้วยกัน สำหรับลูกค้าและผู้จัดจำหน่าย
+CDS จำนวนวันการชำระเงิน            | msdyn_paymentdays               | เท็มเพลต [payment days](dual-write-customer.md#payment-days-cds-to-msdyn_paymentdays) รวมข้่อมูลอ้างอิงวันชำระเงินเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
+เงื่อนไขการชำระเงิน            | msdyn_paymentterms              | เท็มเพลต [terms of payment](dual-write-customer.md#terms-of-payment-to-msdyn_paymentterms) รวมข้อมูลอ้างอิงเงื่อนไขการชำระเงินเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
+ส่วนเพิ่มของชื่อ                | msdyn_nameaffixes               | เท็มเพลต [name affixes](dual-write-customer.md#name-affixes-to-msdyn_nameaffixes) รวมข้อมูลอ้างอิงส่วนเพิ่มของชื่อเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
 
-[!include [banner](../includes/dual-write-symbols.md)]
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-## <a name="vendor-v2-and-account"></a>ผู้จัดจำหน่าย V2 และบัญชี 
+[!include [Vendors](dual-write/VendorsV2-msdyn-vendors.md)]
 
-ธุรกิจที่ใช้เอนทิตีบัญชีเพื่อจัดเก็บข้อมูลผู้จัดจำหน่ายสามารถใช้ต่อไปได้ในลักษณะเดียวกัน นอกจากนี้ ยังสามารถใช้ประโยชน์จากฟังก์ชันของผู้จัดจำหน่ายที่ชัดเจนซึ่งกำลังจะมา เนื่องจากการรวมของแอพลิเคชัน Finance and Operations
+[!include [Vendor groups](dual-write/VendVendorGroup-msdyn-vendorgroups.md)]
 
-## <a name="vendor-v2-and-msdyn_vendors"></a>ผู้จัดจำหน่าย V2 และ Msdyn\_vendors
-
-ธุรกิจที่ใช้โซลูชันแบบกำหนดเองสำหรับผู้จัดจำหน่ายสามารถใช้ประโยชน์จากแนวคิดผู้จัดจำหน่ายแบบสำเร็จรูปที่ถูกนำมาใช้ใน Common Data Service เนื่องจากการรวมของแอพลิเคชัน Finance and Operations 
-
-<!-- ![vendor mappings](media/dual-write-vendors-1.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-2.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-3.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-VENDORACCOUNTNUMBER | = | msdyn\_vendoraccountnumber
-VENDORGROUPID | = | msdyn\_vendorgroupid.msdyn\_vendorgroup
-VENDORORGANIZATIONNAME | = | msdyn\_name
-VENDORPARTYTYPE | \>\< | msdyn\_isperson
-PERSONFIRSTNAME | = | msdyn\_firstname
-PERSONLASTNAME | = | msdyn\_lastname
-CREDITLIMIT | = | msdyn\_vendorcreditlimit
-ISFOREIGNENTITY | \>\< | msdyn\_isforeignentity
-ISONETIMEVENDOR | \>\< | msdyn\_isonetimevendor
-ADDRESSBUILDINGCOMPLIMENT | = | msdyn\_addressbuildingcompliment
-PERSONCHILDRENNAMES | = | msdyn\_childrennames
-ADDRESSCITY | = | msdyn\_addresscity
-ADDRESSCOUNTRYREGIONID | = | msdyn\_addresscountryregionid
-ADDRESSCOUNTRYREGIONISOCODE | = | msdyn\_addresscountryregionisocode
-ADDRESSCOUNTYID | = | msdyn\_addresscountyid
-CREDITRATING | = | msdyn\_creditrating
-ADDRESSDESCRIPTION | = | msdyn\_addressdescription
-ADDRESSDISTRICTNAME | = | msdyn\_addressdistrictname
-DUNSNUMBER | = | msdyn\_dunsnumber
-ETHNICORIGINID | = | msdyn\_ethnicorigin
-FORMATTEDPRIMARYADDRESS | = | msdyn\_formattedprimaryaddress
-PERSONHOBBIES | = | msdyn\_hobbies
-PERSONINITIALS | = | msdyn\_initials
-LANGUAGEID | = | msdyn\_languageid
-PERSONLASTNAMEPREFIX | = | msdyn\_lastnameprefix
-PERSONMIDDLENAME | = | msdyn\_middlename
-ORGANIZATIONNUMBER | = | msdyn\_organizationnumber
-OURACCOUNTNUMBER | = | msdyn\_ourvendoraccountnumber
-PAYMENTID | = | msdyn\_paymentid
-PERSONPHONETICFIRSTNAME | = | msdyn\_phoneticfirstname
-PERSONPHONETICMIDDLENAME | = | msdyn\_phoneticmiddlename
-PERSONPHONETICLASTNAME | = | msdyn\_phoneticlastname
-ORGANIZATIONPHONETICNAME | = | msdyn\_organizationphoneticname
-ADDRESSPOSTBOX | = | msdyn\_addresspostbox
-PRIMARYURL | = | msdyn\_primarycontacturl
-PRIMARYEMAILADDRESS | = | msdyn\_primaryemailaddress
-PRIMARYEMAILADDRESSDESCRIPTION | = | msdyn\_primaryemailaddressdescription
-PRIMARYFACEBOOK | = | msdyn\_primaryfacebook
-PRIMARYFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYFAXNUMBER | = | msdyn\_primaryfaxnumber
-PRIMARYFAXNUMBERDESCRIPTION | = | msdyn\_primaryfaxnumberdescription
-PRIMARYFAXNUMBEREXTENSION | = | msdyn\_primaryfaxnumberextension
-PRIMARYLINKEDIN | = | msdyn\_primarylinkedin
-PRIMARYLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescription
-PRIMARYPHONENUMBER | = | msdyn\_pimaryphonenumber
-PRIMARYPHONENUMBERDESCRIPTION | = | msdyn\_primaryphonenumberdescription
-PRIMARYPHONENUMBEREXTENSION | = | msdyn\_primaryphonenumberextension
-PRIMARYTELEX | = | msdyn\_primarytelex
-PRIMARYTELEXDESCRIPTION | = | msdyn\_primarytelexdescription
-PRIMARYTWITTER | = | msdyn\_primarytwitter
-PRIMARYTWITTERDESCRIPTION | = | msdyn\_primarytwitterdescription
-PRIMARYURLDESCRIPTION | = | msdyn\_primaryurldescription
-PERSONPROFESSIONALSUFFIX | = | msdyn\_professionalsuffix
-PERSONPROFESSIONALTITLE | = | msdyn\_professionatitle
-ADDRESSSTATEID | = | msdyn\_addressstateid
-ADDRESSSTREET | = | msdyn\_addressstreet
-ADDRESSSTREETNUMBER | = | msdyn\_addressstreetnumber
-VENDORKNOWNASNAME | = | msdyn\_vendorknownasname
-ADDRESSZIPCODE | = | msdyn\_addresszipcode
-DEFAULTPAYMENTDAYNAME | = | msdyn\_defaultpaymentdayname.msdyn\_name
-DEFAULTPAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-DEFAULTPAYMENTTERMSNAME | = | msdyn\_paymentterms.msdyn\_name
-HASONLYTAKENBIDS | \>\< | msdyn\_hasonlytakenbids
-ISMINORITYOWNED | \>\< | msdyn\_isminorityowned
-ISVENDORLOCALLYOWNED | \>\< | msdyn\_isvendorlocallyowned
-ISSERVICEVETERANOWNED | \>\< | msdyn\_isserviceveteranowned
-ISOWNERDISABLED | \>\< | msdyn\_ownerisdisabled
-ISWOMANOWNER | \>\< | msdyn\_womanowner
-PERSONANNIVERSARYDAY | = | msdyn\_personanniversaryday
-PERSONANNIVERSARYYEAR | = | msdyn\_anniversaryyear
-PERSONBIRTHDAY | = | msdyn\_birthday
-PERSONBIRTHYEAR | = | msdyn\_birthyear
-ORGANIZATIONEMPLOYEEAMOUNT | = | msdyn\_numberofemployees
-VENDORHOLDRELEASEDATE | = | msdyn\_vendoronholdreleasedate
-VENDORPARTYNUMBER | = | msdyn\_vendorpartynumber
-ADDRESSLOCATIONID | = | msdyn\_addresslocationid
-PERSONANNIVERSARYMONTH | = | msdyn\_vendorpersonanniversarymonth
-PERSONBIRTHMONTH | = | msdyn\_vendorpersonbirthmonth
-PERSONMARITALSTATUS | \>\< | msdyn\_maritalstatus
-ADDRESSLATITUDE | \>\> | msdyn\_addresslatitude
-ADDRESSLONGITUDE | \>\> | msdyn\_addresslongitude
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-CURRENCYCODE | = | msdyn\_currencycode.isocurrencycode
-ISVENDORLOCATEDINHUBZONE | \>\< | msdyn\_isvendorlocatedinhubzone
-DEFAULTVENDORPAYMENTMETHODNAME | = | msdyn\_vendorpaymentmethod.msdyn\_name
-INVOICEVENDORACCOUNTNUMBER | = | msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber
-PERSONGENDER | \>\< | msdyn\_gender
-AREPRICESINCLUDINGSALESTAX | \>\< | msdyn\_priceincludessalestax
-SALESTAXGROUPCODE | = | msdyn\_taxgroup.msdyn\_name
-VENDORPRICETOLERANCEGROUPID | = | msdyn\_pricetolerancegroup.msdyn\_groupid
-
-## <a name="contacts"></a>ผู้ติดต่อ
-
-เท็มเพลตนี้จะซิงโครไนส์ข้อมูลการติดต่อหลัก รอง และลำดับสามทั้งหมด สำหรับทั้งลูกค้าและผู้จัดจำหน่าย ระหว่างแอพลิเคชั่น Finance and Operations และแอปพลิเคชัน Dynamics 365 อื่น ๆ สำหรับรายละเอียดของแผนผังเอนทิตี ให้ดูที่ [รายการหลักของลูกค้าแบบรวม](dual-write-customer.md#contacts)
-
-## <a name="vendor-groups"></a>กลุ่มผู้จัดจำหน่าย
-
-เท็มเพลตนี้ซิงโครไนส์ข้อมูลกลุ่มผู้จัดจำหน่ายระหว่างแอปพลิเคชัน Finance and Operations และแอพลิเคชัน Dynamics 365 อื่น ๆ
-
-<!-- ![vendor groups mappings](media/dual-write-vendor-groups.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-DEFAULTPAYMENTTERMNAME | = | msdyn\_paymentterms.msdyn\_name
-คำอธิบาย | = | msdyn\_description
-VENDORGROUPID | = | msdyn\_vendorgroup
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymentpermname.msdyn\_name
-
-### <a name="vendor-payment-method"></a>วิธีการชำระเงินของผู้จัดจำหน่าย
-
-เท็มเพลตนี้ซิงโครไนส์ข้อมูลการชำระเงินของผู้จัดจำหน่ายระหว่าง Finance and Operations และแอพลิเคชัน Dynamics 365 อื่น ๆ
-
-<!-- ![vendor payment method mappings](media/dual-write-vendor-payment-method.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-ชื่อ | = | msdyn\_name
-คำอธิบาย | = | msdyn\_description
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-ALLOWPAYMENTCOPIES | \>\< | msdyn\_allowpaymentcopies
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingposting
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_postdatedcheckclearingposting
-PROMISSORYNOTEDRAFTTYPE | \>\< | msdyn\_promissorynotedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
+[!include [Vendor payment methods](dual-write/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

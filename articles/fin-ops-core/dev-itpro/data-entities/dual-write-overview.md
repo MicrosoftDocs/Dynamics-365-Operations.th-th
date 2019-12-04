@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550868"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772398"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>การรวมข้อมูลแบบใกล้เวลาจริงกับ Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 ในโลกดิจิทัลปัจจุบัน ระบบนิเวศธุรกิจใช้แอปพลิเคชัน Microsoft Dynamics 365 ทั้งหมด เนื่องจากข้อมูลจากบุคคล ลูกค้า การดำเนินงาน และอุปกรณ์ Internet of Things (IoT) จะไหลเข้ามายังแหล่งเดียว มีโอกาสสำหรับลูปผลป้อนกลับดิจิทัล เพื่อให้ประสบการณ์นี้บรรลุผลสำเร็จ การรวมระหว่างแอพลิเคชัน Finance and Operations และแอพลิเคชั่น Dynamics 365 อื่น ๆ เป็นสิ่งจำเป็น แอพลิเคชันบางส่วนถูกสร้างขึ้นบน Common Data Service การรวมกันของข้อมูลระหว่างแอพลิเคชัน Finance and Operations กับ Common Data Service อนุญาตให้แอพลิเคชันอื่น ๆ สามารถสื่อสารได้อย่างสอดคล้องกันและได้อย่างคล่องแคล่วกับ Finance and Operations
 
@@ -38,13 +36,16 @@ ms.locfileid: "2550868"
 
 ![ไดอะแกรมภาพรวมของสถาปัตยกรรม](media/dual-write-overview.jpg)
 
-ข้อเสนอของค่าต่อไปนี้จะพร้อมใช้งานสำหรับลูกค้า:
+ข้อเสนอของค่าต่อไปนี้จะพร้อมใช้งาน:
 
 + [ลำดับชั้นขององค์กรใน Common Data Service](dual-write-organization.md)
 + [แนวคิดของบริษัทใน Common Data Service](dual-write-company.md)
 + [ข้อมูลหลักของลูกค้าแบบรวม](dual-write-customer.md)
++ [บัญชีแยกประเภทที่รวม](dual-write-ledger.md)
++ [ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร](dual-write-product.md)
 + [ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม](dual-write-vendor.md)
-+ ผลิตภัณฑ์หลักโดยรวม
++ [ไซต์และคลังสินค้าแบบรวม](dual-write-sites-and-warehouses.md)
++ [ข้อมูลหลักของภาษีรวม](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>ความต้องการของระบบ
 

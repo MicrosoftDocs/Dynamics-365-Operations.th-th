@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251396"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813258"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Sales
 
@@ -43,7 +43,7 @@ ms.locfileid: "2251396"
 
 ## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
-เมื่อต้องการเข้าถึงแม่แบบที่พร้อมใช้งาน ให้เปิด [PowerApps ศูนย์การจัดการ](https://admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
+เมื่อต้องการเข้าถึงแม่แบบที่พร้อมใช้งาน ให้เปิด [Power Apps ศูนย์การจัดการ](https://admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
 
 แม่แบบและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ผลิตภัณฑ์จาก Supply Chain Management ไปยัง Sales
 
@@ -116,7 +116,7 @@ ms.locfileid: "2251396"
 
 [ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อหรือรายชื่อลูกค้าใน Supply Chain Management](contacts-template-mapping-direct.md)
 
-[ซิงโครไนส์ส่วนหน้าและรายการของใบสั่งขายโดยตรงจาก Supply Chain Management ไปยัง Sales](sales-order-template-mapping-direct-two-ways.md)
+[การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Supply Chain Management ไปยัง Sales](sales-invoice-template-mapping-direct.md)
 

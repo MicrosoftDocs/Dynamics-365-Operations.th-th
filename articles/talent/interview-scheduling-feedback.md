@@ -1,5 +1,5 @@
 ---
-title: การจัดกำหนดการการสัมภาษณ์และคำติชม
+title: จัดกำหนดการสัมภาษณ์ใน Attract
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับกิจกรรมการจัดกำหนดการการสัมภาษณ์และคำติชมใน Attract
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519203"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832756"
 ---
-# <a name="interview-scheduling-and-feedback"></a>การจัดกำหนดการการสัมภาษณ์และคำติชม
+# <a name="schedule-interviews-in-attract"></a>จัดกำหนดการสัมภาษณ์ใน Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>กิจกรรมตัวกำหนดตารางทำงาน
+## <a name="scheduler-activity"></a>กิจกรรมของตัวกำหนดตารางทำงาน
 
 กิจกรรมตัวจัดกำหนดการไม่จำเป็น และมีองค์ประกอบสองอย่าง คือ การร้องขอความพร้อมของผู้สมัครและกำหนดการ คอมโพเนนต์ความพร้อมของผู้สมัครช่วยให้คุณสามารถใช้อีเมลเพื่อขอความพร้อมใช้งานของผู้สมัครได้ คอมโพเนนต์กำหนดการช่วยให้มีความสามารถในการจัดกำหนดการสัมภาษณ์กับผู้สมัครและทีมการว่าจ้าง
 

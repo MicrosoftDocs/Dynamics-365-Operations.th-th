@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184542"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772448"
 ---
 ## <a name="company-concept-in-common-data-service"></a>แนวคิดของบริษัทใน Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 ใน Finance and Operations แนวคิดของ *บริษัท* เป็นทั้งโครงสร้างทางกฎหมายและการสร้างธุรกิจ นอกจากนี้ ยังเป็นขอบเขตความปลอดภัยและการมองเห็นสำหรับข้อมูล ผู้ใช้มักจะทำงานในบริบทของบริษัทเดียว และข้อมูลส่วนใหญ่จะถูกแบ่งโดยบริษัท
 
@@ -60,12 +58,14 @@ Common Data Service ไม่มีแนวคิดที่เทียบเ
 
 หัวข้อสุดท้ายเพื่อหารือเกี่ยวกับวิธีการเขียนแบบคู่กำหนดทีมงานของเจ้าของที่ควรกำหนดเรกคอร์ดให้ ลักษณะการทำงานนี้จะถูกควบคุมโดยฟิลด์ **ทีมงานที่เป็นเจ้าของเริ่มต้น** บนเรกคอร์ด cdm\_Company เมื่อมีการเปิดใช้งานเรกคอร์ด dm\_Company สำหรับการเขียนแบบคู่ ปลั๊กอินจะสร้างหน่วยธุรกิจที่เกี่ยวข้องและทีมงานของเจ้าของ (ถ้าไม่ได้มีอยู่แล้ว) และตั้งค่าฟิลด์ **ทีมงานที่เป็นเจ้าของเริ่มต้น** ผู้ดูแลระบบสามาเปลี่ยนฟิลด์นี้เป็นค่าอื่นได้ อย่างไรก็ตาม ผู้ดูแลระบบไม่สามารถล้างฟิลด์ ตราบใดที่เอนทิตีถูกเปิดใช้งานสำหรับการเขียนแบบคู่
 
+> [!div class="mx-imgBorder"]
 ![ฟิลด์ทีมที่เป็นเจ้าของเริ่มต้น](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>การแบ่งและการระดมทุนของบริษัท
 
 การรวม Common Data Service นำพาริตี้ของบริษัทมาโดยใช้ตัวระบุบริษัทเพื่อแบ่งข้อมูล เมื่อภาพประกอบต่อไปนี้แสดงขึ้น เอนทิตีเฉพาะบริษัททั้งหมดจะถูกขยายเพื่อให้มีความสัมพันธ์แบบกลุ่มต่อหนึ่ง (N:1) กับ cdm\_เอนทิตีของบริษัท
 
+> [!div class="mx-imgBorder"]
 ![ความสัมพันธ์แบบ N:1 ระหว่างเอนทิตีเฉพาะบริษัทและเอนทิตี cdm_Company](media/dual-write-bootstrapping.png)
 
 + สำหรับเรกคอร์ด หลังจากที่มีการเพิ่มและบันทึกบริษัท ค่าจะกลายเป็นแบบอ่านอย่างเดียว ดังนั้น ผู้ใช้ควรตรวจสอบให้แน่ใจว่าได้เลือกบริษัทที่ถูกต้อง

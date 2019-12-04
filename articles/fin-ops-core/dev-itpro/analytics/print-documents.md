@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182910"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772569"
 ---
 # <a name="document-printing-overview"></a>ภาพรวมของการพิมพ์เอกสาร
 
@@ -58,7 +58,7 @@ ms.locfileid: "2182910"
 นอกเหนือจากแท่นวางที่ปรับใช้ในการบอกรับเป็นสมาชิก Azure แอพลิเคชัน Finance and Operations จะให้ลูกค้ามีแอพลิเคชัน Azure ฝ่ายแรกแบบรวม ที่ช่วยให้พวกเขาใช้งานอุปกรณ์ที่เป็นโฮสต์โดเมนเพื่อพิมพ์เอกสารได้ง่ายขึ้น
 
 ## <a name="service-overview"></a>ภาพรวมของการบริการ
-ในขณะที่เอกสารที่สร้างขึ้นโดยแอพลิเคชันที่เป็นโฮสต์กำลังรอที่จะถูกพิมพ์บนอุปกรณ์ที่เชื่อมต่อเครือข่าย เอกสารจะถูกจัดเก็บใน Azure blob storage [เอเจนต์การกำหนดเส้นทางเอกสาร](install-document-routing-agent.md) ใช้การรับรองความถูกต้อง Azure เพื่อสร้างช่องทางที่ปลอดภัยไปยังบริการ Azure
+ในขณะที่เอกสารที่สร้างขึ้นโดยแอพลิเคชันที่เป็นโฮสต์กำลังรอที่จะถูกพิมพ์บนอุปกรณ์ที่เชื่อมต่อเครือข่าย เอกสารจะถูกจัดเก็บใน Azure blob storage [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานการพิมพ์ผ่านเครือข่าย](install-document-routing-agent.md) ใช้การรับรองความถูกต้อง Azure เพื่อสร้างช่องทางที่ปลอดภัยไปยังบริการ Azure
 
 **ลำดับการดำเนินการ**
 

@@ -2,6 +2,8 @@
   items:
     - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
       items:
+        - name: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
+          href: ../fin-ops/index.md
         - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
           href: index.md
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: ลำดับชั้นขององค์กรใน Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: แนวคิดของบริษัทใน Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: การรวมบริษัท
+                          items:
+                            - name: แนวคิดของบริษัทใน Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: การเริ่มต้นระบบด้วยข้อมูลของบริษัท
+                              href: data-entities/dual-write-bootstrap.md
                         - name: ข้อมูลหลักของลูกค้าแบบรวม
                           href: data-entities/dual-write-customer.md
+                        - name: บัญชีแยกประเภทแบบรวม
+                          href: data-entities/dual-write-ledger.md
                         - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
                           href: data-entities/dual-write-product.md
-                        - name: ข้อมูลหลักของผู้จัดจำหน่ายรวม
-                          href: data-entities/dual-write-vendor.md
+                        - name: การรวมผู้จัดจำหน่าย
+                          items:
+                            - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
+                              href: data-entities/dual-write-vendor.md
+                            - name: สลับการออกแบบของผู้จัดจำหน่าย
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: ไซต์และคลังสินค้าแบบรวม
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: ข้อมูลหลักของภาษีแบบรวม
+                          href: data-entities/dual-write-tax.md
                         - name: การซิงโครไนส์ครั้งแรก
                           href: data-entities/dual-write-initial.md
                         - name: การแก้ไขปัญหาการรวมข้อมูล
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: แก้ไขปัญหาการปรับใช้ในสถานที่
                   href: deployment/troubleshoot-on-prem.md
+                - name: สคริปต์สำหรับการแก้ไขปัญหาในสภาพแวดล้อมในสถานที่
+                  href: deployment/onprem-tsg-implementations.md
                 - name: การหมุนเวียนใบรับรอง
                   href: deployment/certificate-rotation-on-prem.md
             - name: ปรับใช้โค้ดที่กำหนดเอง

@@ -1,6 +1,6 @@
 ---
-title: คำแนะนำอัจฉริยะ
-description: หัวข้อนี้อธิบายวิธีการใช้ machine learning เพื่อให้คำแนะนำสำหรับงานและผู้สมัครงาน
+title: คำแนะนำอัจฉริยะใน Attract
+description: บทความนี้อธิบายวิธีการใช้ machine learning เพื่อให้คำแนะนำสำหรับงานและผู้สมัครงานใน Microsoft Dynamics 365 Talent - Attract
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741763"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832802"
 ---
-# <a name="intelligent-recommendations"></a>คำแนะนำอัจฉริยะ
+# <a name="intelligent-recommendations-in-attract"></a>คำแนะนำอัจฉริยะใน Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Machine learning สามารถช่วยให้ผู้สรรหาและผู้จัดการการจ้างงานระบุผู้สมัครที่ดีที่สุดสำหรับตำแหน่งงานอย่างรวดเร็ว นอกจากนี้ ยังสามารถช่วยผู้ที่มีแนวโน้มจะเป็นลูกค้าในการค้นหาตำแหน่งที่เหมาะกับโพรไฟล์และความสนใจของพวกเขามากที่สุด เมื่อมีใช้ลักษณะการทำงานเหล่านี้ และมีผลป้อนกลับให้ คำแนะนำจะพัฒนา
 
 > [!NOTE] 
 > - คุณลักษณะคำแนะนำอัจฉริยะพร้อมใช้งานเฉพาะกับ [add-on การว่าจ้างที่ครอบคลุม](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)
-> - ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **ศูนย์ผู้ดูแลระบบ** ใน Attract ตั้งค่า **คำแนะนำสำหรับผู้สมัคร**, **คำแนะนำเกี่ยวกับงาน** และ **คำแนะนำสำหรับผู้สมัครงาน** เป็น **เปิด** ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](./access-preview-feature.md) 
+> - ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **ศูนย์ผู้ดูแลระบบ** ใน Attract ตั้งค่า **คำแนะนำสำหรับผู้สมัคร**, **คำแนะนำเกี่ยวกับงาน** และ **คำแนะนำสำหรับผู้สมัครงาน** เป็น **เปิด** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Microsoft Dynamics 365 Talent](./access-preview-feature.md) 
 
 
 ## <a name="candidate-recommendations"></a>คำแนะนำสำหรับผู้สมัคร

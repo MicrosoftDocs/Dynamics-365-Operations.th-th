@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d7ec95b230c5ea17f208bc1288c10fce15631a5d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251534"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813074"
 ---
 # <a name="cycle-counting"></a>การตรวจนับตามรอบ
 
@@ -135,8 +135,8 @@ ms.locfileid: "2251534"
 
 คุณสามารถปรับปรุงความแตกต่างของค่าตรวจนับ และจากนั้นยอมรับค่าที่ตรวจนับแล้วบนหน้า **การตรวจนับตามรอบการตรวจทานที่ค้างอยู่** คุณสามารถตรวจสอบการนับที่แก้ไขแล้วของปริมาณของสินค้าในหน้า **คงเหลือตามสถานที่** ค่าการตรวจนับจะถูกปฏิเสธถ้าไม่สามารถอนุมัติความแตกต่างได้
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-[ตั้งค่าคอนฟิกอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](configure-mobile-devices-warehouse.md)
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+[ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](configure-mobile-devices-warehouse.md)
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4a20368385ec43547ee3d29770bd83cdec47e4a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0cf5a48a0f6beafad3c9a657c44079b290a7ebd5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189510"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772225"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>ภาพรวมของการแก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้
 
@@ -41,6 +41,6 @@ ms.locfileid: "2189510"
 -   ปรับปรุงจำนวนใบแจ้งหนี้ให้เป็นจำนวนตามที่คาดไว้ และลงรายการใบแจ้งหนี้
 -   ร้องขอเครดิตเต็มจำนวนและใบแจ้งหนี้ใหม่ที่แก้ไขแล้วจากผู้จัดจำหน่าย
 
-สำหรับข้อมูลเพิ่มเติม โปรดดู [ค้นคว้าหรือแก้ไขข้อยกเว้น](tasks/research-resolve-exceptions.md)
+สำหรับข้อมูลเพิ่มเติม โปรดดู [ค้นคว้า/แก้ไขข้อยกเว้น](tasks/research-resolve-exceptions.md)
 
 

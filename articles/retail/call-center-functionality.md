@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025782"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812350"
 ---
 # <a name="call-center-sales-functionality"></a>ฟังก์ชันการขายของศูนย์บริการ
 
@@ -44,13 +44,13 @@ ms.locfileid: "2025782"
 
 ## <a name="configure-the-call-center"></a>ตั้งค่าคอนฟิกศูนย์บริการ
 
-[ตั้งค่าตัวเลือกการประมวลผลใบสั่ง](set-up-order-processing-options.md)
+[ตั้งค่าช่องทางของศูนย์บริการ](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>ตั้งค่าคอนฟิกการประมวลผลใบสั่ง
 
-[ตั้งค่าการแจ้งเตือนการตรวจสอบการฉ้อโกง](set-up-fraud-alerts.md)
+[ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ](set-up-fraud-alerts.md)
 
-[ระงับใบสั่งด้วยตนเอง](work-with-order-holds.md)
+[ตั้งค่าคอนฟิกและทำงานกับการระงับใบสั่งของศูนย์บริการ](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>ตั้งค่าคอนฟิกการประมวลผลการชำระเงิน
 
@@ -64,8 +64,8 @@ ms.locfileid: "2025782"
 
 [แค็ตตาล็อกของศูนย์บริการ](call-center-catalogs.md)
 
-[ตั้งค่าการวิเคราะห์ RFM](set-up-rfm-analysis.md)
+[ตั้งค่าการวิเคราะห์ Recency, ความถี่ และยอดเงิน (RFM)](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>ตั้งค่าคอนฟิกโปรแกรมความต่อเนื่อง
 
-[ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการทางโทรศัพท์](set-up-continuity-program.md)
+[ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ](set-up-continuity-program.md)

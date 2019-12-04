@@ -496,11 +496,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/retail/toc.json
                         - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/retail/toc.json
-                    - name: ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ
+                    - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/retail/toc.json
                     - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/retail/toc.json
-                - name: API กรอบงาน ER
+                - name: API กรอบงานการรายงานทางอิเล็กทรอนิกส์
                   items:
                     - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/retail/toc.json
@@ -848,8 +848,10 @@
               href: tasks/retail-price-adjustments.md
         - name: สมาชิก
           items:
-            - name: ภาพรวมสมาชิก
+            - name: ภาพรวมของสมาชิก
               href: set-up-customer-loyalty-program.md
+            - name: ภาพรวมของความสัมพันธ์อันดีกับลูกค้า
+              href: clienteling-overview.md
         - name: การชำระเงิน
           items:
             - name: วิธีการชำระเงิน
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: ติดตั้งตัวออกแบบโครงร่าง POS
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS ในโหมดออฟไลน์
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: ขยายมุมมองแสดงผล POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: ความสามารถในการเพิ่มฟังก์ชันทริกเกอร์ของ Retail Modern POS และ POS ระบบคลาวด์
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: ใช้นโยบายการส่งคืนโดยใช้ทริกเกอร์
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: ลงบันทึกเหตุการณ์ของส่วนขยายไปยัง Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: ความสามารถในการเพิ่มฟังก์ชันของอีคอมเมิร์ซ
               items:
                 - name: ตั้งค่าคอนฟิกร้านค้าออนไลน์
@@ -1382,9 +1384,9 @@
                   href: dev-itpro/order-attributes.md
                 - name: แอททริบิวต์สำหรับลูกค้า
                   href: dev-itpro/customer-attributes.md
-                - name: 'Retail Typescript และ C# proxies'
+                - name: 'Retail Typescript และพร็อกซี C#'
                   href: dev-itpro/typescript-proxy-retail-pos.md
-                - name: รันตัวอย่าง Retail POS
+                - name: เรียกใช้ตัวอย่าง Retail POS
                   href: dev-itpro/pos-run-samples.md
                 - name: ขยายมุมมอง POS เพื่อเพิ่มคอลัมน์และปุ่มแถบแอปที่กำหนดเอง
                   href: dev-itpro/pos-view-extension.md

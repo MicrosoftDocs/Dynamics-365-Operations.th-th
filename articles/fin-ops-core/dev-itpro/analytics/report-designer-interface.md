@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 19729cfd6bfd074c335612a06285bccf425333a4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c4118565ba65700e2073e2f981caf80fa738d94
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182795"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772522"
 ---
 # <a name="report-designer-interface"></a>อินเทอร์เฟสของโปรแกรมออกแบบรายงาน
 
@@ -223,7 +223,7 @@ ms.locfileid: "2182795"
 | [![ปุ่มตัวแสดงรายงาน](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | เริ่มตัวแสดงรายงานและแสดงเวอร์ชันล่าสุดของรายงานที่สร้างขึ้น ปุ่มนี้จะพร้อมใช้งานจากข้อกำหนดของรายงานถ้าคุณได้สร้างรายงานอย่างน้อยหนึ่งรายการ |
 | [![ปุ่มสร้างรายงาน](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | สร้างรายงานจากข้อกำหนดของรายงานที่ใช้งานอยู่ ปุ่มนี้จะพร้อมใช้งานจากข้อกำหนดของรายงาน |
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
 

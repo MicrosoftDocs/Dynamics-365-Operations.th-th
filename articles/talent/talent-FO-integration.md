@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622779"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830197"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>FAQ เกี่ยวกับการรวม Dynamics 365 Talent ไปยัง Dynamics 365 Finance
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622779"
 
 ในปัจจุบันมิติทางการเงินไม่ได้อยู่ใน Common Data Service สำหรับแอป และผลลัพธ์ไม่ใช่ส่วนหนึ่งของเท็มเพลตเริ่มต้น เอนทิตี้นี้มีการวางแผน แต่ไม่มีเส้นเวลาการนำออกใช้ที่พร้อมใช้งานอยู่ในปัจจุบัน
 
-สำหรับข้อมูลที่อยู่ใน Finance แต่ไม่มีอยู่ใน Talent ให้เชื่อมโยงสองระบบเข้าด้วยกันโดยใช้ **ตั้งค่าคอนฟิกลิงค์** ใน Talent สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการเชื่อมโยงระหว่าง Talent และ Finance ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงใน Dynamics 365 Talent: Core HR (31 ตุลาคม 2018)](whats-new-talent-october-31.md)
+สำหรับข้อมูลที่อยู่ใน Finance แต่ไม่มีอยู่ใน Talent ให้เชื่อมโยงสองระบบเข้าด้วยกันโดยใช้ **ตั้งค่าคอนฟิกลิงค์** ใน Talent สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการเชื่อมโยงระหว่าง Talent และ Finance ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงใน Dynamics 365 Talent - Core HR (31 ตุลาคม 2018)](whats-new-talent-october-31.md)
 
 ![แม็ปมิติทางการเงิน](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2622779"
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>ฉันสามารถระบุฟิลด์ที่จะส่งไปยัง Finance สำหรับเอนทิตีที่เฉพาะเจาะจงได้หรือไม่
 
 คุณสามารถเพิ่มหรือลบฟิลด์ออกจากงานรวม ไม่ใช่ฟิลด์ข้อมูลทั้งหมดที่มีอยู่ในเอนทิตี้ Common Data Service ที่จะถูกเติมข้อมูลจาก Core HR
-คุณสามารถเติมข้อมูลเพิ่มเติมได้ผ่าน PowerApps
+คุณสามารถเติมข้อมูลเพิ่มเติมได้ผ่าน Power Apps
 
 ![เพิ่มหรือลบฟิลด์ไปยังและออกจากงานการรวม](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ ms.locfileid: "2622779"
 
 1. จัดดัชนีงานจากตัวรวมข้อมูล (ในตัวอย่างนี้คือ "9")
 
-![จับดัชนีงานจากตัวรวมข้อมูล](media/CaptureTaskIndex.png)
+    ![จับดัชนีงานจากตัวรวมข้อมูล](media/CaptureTaskIndex.png)
 
 2. ติดตามเวลาการดำเนินการของโครงการ
 
-![ติดตามเวลาการดำเนินการของโครงการ](media/CaptureTimeOfExecution.png)
+    ![ติดตามเวลาการดำเนินการของโครงการ](media/CaptureTimeOfExecution.png)
 
 3. ใน Finance ให้ระบุดัชนี - 1 ในตัวอย่างนี้ โครงการที่มีคำเสริมท้ายเป็น "8" และเวลาการดำเนินการของดัชนีเป็น "0" โครงการจะสอดคล้องกับเวลาการดำเนินการในขั้นตอนที่ 2
 
-![ระบุดัชนี](media/IdentifyIndex.png)
+    ![ระบุดัชนี](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>หลังจากการรวม Talent และ Finance ฉันไม่เห็นข้อมูล Talent ของฉันใน Finance ฉันควรทำอย่างไร
 
-การรวมกับ Finance มีสองขั้นตอน ก่อนอื่น ตรวจสอบว่ ข้อมูล Talent ถูกปรับปรุงแล้ว และพร้อมใช้งานใน Common Data Service นี่เป็นการซิงค์แบบเรียลไทม์แบบใกล้ และสามารถตรวจสอบใน PowerApps โดยดูข้อมูลภายในเอนทิตีข้อมูล
+การรวมกับ Finance มีสองขั้นตอน ก่อนอื่น ตรวจสอบว่ ข้อมูล Talent ถูกปรับปรุงแล้ว และพร้อมใช้งานใน Common Data Service นี่เป็นการซิงค์แบบเรียลไทม์แบบใกล้ และสามารถตรวจสอบใน Power Apps โดยดูข้อมูลภายในเอนทิตีข้อมูล
 
 ![ข้อมูลใน Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ ms.locfileid: "2622779"
 
   - [การจัดการข้อผิดพลาดตัวรวมข้อมูลและการแก้ไขปัญหาเบื้องต้น](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [การตอบสนองคำขอ DSR สำหรับล็อกที่ระบบสร้างขึ้นใน PowerApps Microsoft Flow และ Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [การตอบสนองคำขอ DSR สำหรับล็อกที่ระบบสร้างขึ้นใน Power Apps Microsoft Power Automate และ Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - การจัดการข้อมูล:
 

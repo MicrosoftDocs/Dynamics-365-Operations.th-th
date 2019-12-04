@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564948"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771363"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>ตั้งค่าคอนฟิกการนำเข้าข้อมูลจาก SharePoint
 
@@ -43,7 +43,7 @@ ms.locfileid: "2564948"
 - รูปแบบและการตั้งค่าคอนฟิกแบบจำลอง ER สำหรับการชำระเงิน 1099
 
 ### <a name="create-required-er-configurations"></a>สร้างการตั้งค่าคอนฟิก ER ที่จำเป็น
-เล่นคู่มืองาน **ER นำเข้าข้อมูลจากไฟล์ Microsoft Excel** ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **7.5.4.3 รับ/พัฒนาองค์ประกอบบริการ/โซลูชันด้าน IT (10677)** คู่มืองานเหล่านี้นำคุณไปสู่กระบวนการของการออกแบบและการใช้การตั้งค่าคอนฟิก ER เพื่อนำเข้าธุรกรรมผู้จัดจำหน่ายจากไฟล์ Microsoft Excel ในระหว่างกัน สำหรับข้อมูลเพิ่มเติม ดู [แยกวิเคราะห์เอกสารขาเข้าใน Microsoft Excel](parse-incoming-documents-excel.md) หลังจากที่คุณเสร็จสิ้นคู่มืองาน คุณจะมีตั้งค่าต่อไปนี้
+เล่นคู่มืองาน **ER นำเข้าข้อมูลจากไฟล์ Microsoft Excel** ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **7.5.4.3 รับ/พัฒนาองค์ประกอบบริการ/โซลูชันด้าน IT (10677)** คู่มืองานเหล่านี้นำคุณไปสู่กระบวนการของการออกแบบและการใช้การตั้งค่าคอนฟิก ER เพื่อนำเข้าธุรกรรมผู้จัดจำหน่ายจากไฟล์ Microsoft Excel ในระหว่างกัน สำหรับข้อมูลเพิ่มเติม ดู [แยกวิเคราะห์เอกสารขาเข้าในรูปแบบ Excel](parse-incoming-documents-excel.md) หลังจากที่คุณเสร็จสิ้นคู่มืองาน คุณจะมีตั้งค่าต่อไปนี้
 
 #### <a name="er-configurations"></a>การตั้งค่าคอนฟิก ER
 

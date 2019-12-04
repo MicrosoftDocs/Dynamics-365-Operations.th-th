@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36adc1f754c918a9fdf8410572f3199cdb63766
-ms.sourcegitcommit: e16b8c248fc2c2a60dc7b803320f942a35b443c5
+ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577507"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812146"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
 
@@ -88,8 +88,8 @@ ms.locfileid: "2577507"
 </table>
 
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 - [รับการสนับสนุนสำหรับ Dynamics 365 Retail](../../../retail/retail-support.md)
-- [รับการสนับสนุนสำหรับ Dynamics 365 Talent](../../../talent/talent-support.md)
+- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
 - สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอการบริการ Microsoft Dynamics ดูที่ [การจัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations](cloud-powered-support-lcs.md)
 

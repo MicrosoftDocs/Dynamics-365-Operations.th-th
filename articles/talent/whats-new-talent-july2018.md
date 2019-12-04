@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551783"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812729"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics 365 Talent - Core HR (กรกฎาคม 2018)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551783"
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent: Core HR
 
-## <a name="powerapps-personalization"></a>การกำหนดเป็นแบบส่วนบุคคล PowerApps
+## <a name="power-apps-personalization"></a>การกำหนดเป็นแบบส่วนบุคคล Power Apps
 
-Talent สนับสนุนการรวมกับบริการ Microsoft PowerApps PowerApps อนุญาตให้ทั้งนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิคสามารถสร้างแอปทางธุรกิจที่กำหนดเองได้สำหรับอุปกรณ์เคลื่อนที่ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส แอปที่คุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้น พัฒนาโดยใช้ PowerApps สามารถถูกฝังได้ในไคลเอนต์ Talent เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้างแอปที่เสริม Talent ด้วยข้อมูลที่ถูกดึงมาจากระบบอื่น
+Talent สนับสนุนการรวมกับบริการ Microsoft Power Apps Power Apps อนุญาตให้ทั้งนักพัฒนาและผู้ใช้ที่ไม่ใช่ทางเทคนิคสามารถสร้างแอปทางธุรกิจที่กำหนดเองได้สำหรับอุปกรณ์เคลื่อนที่ แท็บเล็ต และเว็บ โดยไม่ต้องเขียนรหัส แอปที่คุณ องค์กรของคุณ หรือระบบแวดล้อมที่กว้างขึ้น พัฒนาโดยใช้ Power Apps สามารถถูกฝังได้ในไคลเอนต์ Talent เพื่อเสริมฟังก์ชันของผลิตภัณฑ์ ตัวอย่างเช่น คุณอาจสร้างแอปที่เสริม Talent ด้วยข้อมูลที่ถูกดึงมาจากระบบอื่น
 
-สำหรับข้อมูลเพิ่มเติม ดู [ฝังแอป PowerApps](../fin-and-ops/get-started/embed-power-apps.md)
+สำหรับข้อมูลเพิ่มเติม ดู [ฝังแอป Power Apps](../fin-and-ops/get-started/embed-power-apps.md)
 
 ## <a name="ceridian-payroll-integration"></a>การรวมระบบค่าจ้าง Ceridian
 
@@ -46,7 +46,7 @@ Talent สนับสนุนการรวมกับบริการ Mic
 - ข้อมูลค่าจ้าง เช่น รอบการชำระค่าจ้าง รอบระยะเวลาการชำระค่าจ้าง และรหัสรายได้
 - ข้อมูลของผู้ปฏิบัติงาน
 
-สำหรับข้อมูลเพิ่มเติม ดู [ตั้งค่าคอนฟิกการรวมค่าจ้างของคุณ](configure-payroll-integration.md)
+ดูข้อมูลเพิ่มเติมที่ [ตั้งค่าคอนฟิกการรวมระบบค่าจ้างระหว่าง Talent และ Dayforce](configure-payroll-integration.md)
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>ภูมิภาคการเก็บภาษีของผู้ปฏิบัติงานถูกขยายไปนอกเหนือจากสหรัฐอเมริกา
 

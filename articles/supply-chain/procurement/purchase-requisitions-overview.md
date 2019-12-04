@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248897"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815353"
 ---
 # <a name="purchase-requisition-overview"></a>ภาพรวมใบขอซื้อ
 
@@ -191,12 +191,12 @@ ms.locfileid: "2248897"
 5.  สร้างใบสั่งซื้อสำหรับรายการใบขอซื้อที่รวมบัญชี หรือสำหรับการสั่งซื้อรายการใบขอซื้อในโอกาสการรวมบัญชี
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[สร้างใบขอซื้อเพื่อปริมาณการใช้ (คู่มืองาน)](tasks/create-requisition-consumption.md)
+[สร้างใบขอซื้อเพื่อปริมาณการใช้](tasks/create-requisition-consumption.md)
 
-[เวิร์กโฟลว์การขอเสนอซื้อ](purchase-requisitions-workflow.md)
+[ลำดับงานของใบขอซื้อ](purchase-requisitions-workflow.md)
 
 
 

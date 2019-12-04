@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250449"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773633"
 ---
 # <a name="project-mobile-applications-overview"></a>ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
 
@@ -45,4 +45,7 @@ ms.locfileid: "2250449"
 
 ## <a name="for-more-information"></a>สำหรับข้อมูลเพิ่มเติม
 
-สำหรับรายละเอียดเพิ่มเติม ให้ดูที่ [แอพลิเคชันบนมือถือของ Microsoft Dynamics 365 Project Timesheet](project-timesheet.md) [รายการข้อมูลเวลาของโครงการ]( project-time-entry-mobile-workspace.md) [แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่](Mobile-timesheets.md) และ [ใช้ฟิลด์ที่กำหนดเองสำหรับแอปบนมือถือของแผ่นเวลาโครงการ](custom-fields-mobile.md)
+- [แอพลิเคชันบนมือถือของแผ่นเวลาโครงการ](project-timesheet.md)
+- [รายการข้อมูลเวลาของโครงการ]( project-time-entry-mobile-workspace.md)
+- [แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่](Mobile-timesheets.md)
+- [ใช้ฟิลด์ที่กำหนดเองสำหรับแอปมือถือ Microsoft Dynamics 365 Project Timesheet บน iOS และ Android](custom-fields-mobile.md)

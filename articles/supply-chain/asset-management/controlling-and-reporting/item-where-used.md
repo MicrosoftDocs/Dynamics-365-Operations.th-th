@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652367"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811274"
 ---
 # <a name="item-where-used"></a>สินค้าที่ใช้
 
@@ -35,13 +35,13 @@ ms.locfileid: "2652367"
 
 - [BOM สินทรัพย์](../objects/object-BOM.md)
 
-- [อะไหล่สำรองในชนิดสินทรัพย์เริ่มต้น](../setup-for-objects/object-types.md)
+- [อะไหล่สำรองในชนิดสินทรัพย์เริ่มต้น](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [การคาดการณ์สินค้าบนชนิดงานการบำรุงรักษาการคาดการณ์ค่าเริ่มต้น](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [ประเภทของชนิดงานบำรุงรักษาและชนิดงานบำรุงรักษา, ตัวแปรชนิดงานบำรุงรักษา และการค้าของชนิดงานบำรุงรักษา และรายการตรวจสอบการบำรุงรักษา](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [การคาดการณ์ในการบำรุงรักษาของใบสั่งงาน](../work-orders/maintenance-forecasts.md)
+- [การคาดการณ์ในการบำรุงรักษา](../work-orders/maintenance-forecasts.md)
 
-- [ใบขอซื้อของใบสั่งงาน](../work-orders/procurement.md)
+- [การจัดซื้อ](../work-orders/procurement.md)
 
 - [การซื้อในใบสั่งงาน](../work-orders/procurement.md)
 

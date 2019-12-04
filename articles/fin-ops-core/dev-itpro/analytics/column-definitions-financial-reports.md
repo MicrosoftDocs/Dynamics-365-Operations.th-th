@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
-ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
+ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2572652"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771552"
 ---
 # <a name="column-definitions-in-financial-reports"></a>คำนิยามคอลัมน์ในรายงานทางการเงิน
 
@@ -596,8 +596,8 @@ Phyllis ได้สร้างการเลือกสกุลเงิน
 
 คุณสามารถหารยอดเงินในคอลัมน์ด้วยจำนวนรอบระยะเวลาที่ระบุ ตัวอย่างเช่น สูตร **B/รอบระยะเวลา** หารค่าในคอลัมน์ B ด้วยจำนวนรอบระยะเวลาในคอลัมน์ B ถ้าการคำนวณครอบคลุมหลายคอลัมน์ ระบุจำนวนของรอบระยะเวลาที่จะใช้ในการคำนวณ ตัวอย่างเช่น สูตร **(B+C)/รอบระยะเวลา** เพิ่มยอดเงินในคอลัมน์ B และคอลัมน์ C จากนั้นหารผลลัพธ์ด้วยค่ารอบระยะเวลา
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[คำนิยามแถวในการรายงานทางการเงิน](row-definitions-financial-reporting.md)
+[คำนิยามแถวในผู้ออกแบบรายงานทางการเงิน](row-definitions-financial-reporting.md)
 
 [ตัวเลือกการจัดรูปแบบขั้นสูงในรายงานทางการเงิน](advanced-formatting-options-financial-reporting.md)

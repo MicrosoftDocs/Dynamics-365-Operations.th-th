@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662676"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772907"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (23 ตุลาคม 2019)
 
@@ -47,7 +47,7 @@ ms.locfileid: "2662676"
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>ลบคุณลักษณะการแสดงตัวอย่างของการลงทะเบียนแบบเปิดของผลประโยชน์
 
-ในการเข้าร่วมกับการประกาศของเราในประกาศบล็อก การลงทุนเชิงกลยุทธ์ในความยอดเยี่ยมในการดำเนินงานของไดรฟ์ Core HR Microsoft จะลบคุณลักษณะการลงทะเบียนแบบเปิดของผลประโยชน์ออกจากการแสดงตัวอย่างสาธารณะในวันที่ 18 ตุลาคม 2019 แต่ฟังก์ชันใหม่จะถูกนำออกใช้ในอนาคตแทน การใช้งานการผลิตของคุณลักษณะการลงทะเบียนแบบเปิดของผลประโยชน์ที่ขณะนี้อยู่ในการแสดงตัวอย่างจะไม่ได้รับการสนับสนุน
+ในการเข้าร่วมกับการประกาศของเราในประกาศบล็อก [การลงทุนเชิงกลยุทธ์ในความยอดเยี่ยมในการดำเนินงานของไดรฟ์ Core HR](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence) Microsoft จะลบคุณลักษณะการลงทะเบียนแบบเปิดของผลประโยชน์ออกจากการแสดงตัวอย่างสาธารณะในวันที่ 18 ตุลาคม 2019 แต่ฟังก์ชันใหม่จะถูกนำออกใช้ในอนาคตแทน การใช้งานการผลิตของคุณลักษณะการลงทะเบียนแบบเปิดของผลประโยชน์ที่ขณะนี้อยู่ในการแสดงตัวอย่างจะไม่ได้รับการสนับสนุน
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>เกิดข้อผิดพลาดขณะเลือกประเทศ/ภูมิภาคบนแบบฟอร์มผู้ปฏิบัติงานครั้งที่สอง (350294)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2662676"
 
 ด้วยการนำออกใช้นี้ เฉพาะเงื่อนไขการจ้างงานของพนักงานที่เลือกเท่านั้นที่จะเปิดใน Excel การรักษาความปลอดภัยของบริษัททั้งหมดถูกชำระเงินด้วยเช่นกัน
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>ความสัมพันธ์ระหว่างเอนทิตีวันหยุดในปฏิทินงานและเอนทิตีปฏิทินงานขาดหายไปใน Common Data Service - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>ความสัมพันธ์ระหว่างเอนทิตีวันหยุดในปฏิทินงานและเอนทิตีปฏิทินงานขาดหายไปใน Common Data Service (324178)
 
 มีการเพิ่มความสัมพันธ์นี้ด้วยการนำออกใช้ การเปลี่ยนแปลงนี้จะเปิดใช้งานวันทำงานของพนักงานที่จะแสดงใน PowerApps 
 

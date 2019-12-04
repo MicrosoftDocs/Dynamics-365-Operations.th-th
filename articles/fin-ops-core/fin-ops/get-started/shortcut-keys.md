@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd5c80bc53029426d7e42c4854e0effc48ef202a
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537819"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811566"
 ---
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
@@ -238,5 +238,5 @@ ms.locfileid: "2537819"
 | ย้ายไปด้านบน/ด้านล่างของการค้นหา                                                                                    | หน้าหลัก / สิ้นสุด                       |
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-- [แป้นพิมพ์ลัดใน Report Designer](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+- [แป้นพิมพ์ลัดสำหรับการวิเคราะห์บัญชีที่สูญหาย](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024079"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814501"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (20 สิงหาคม 2019)
 
@@ -35,7 +35,7 @@ ms.locfileid: "2024079"
 
 ### <a name="simplified-apply-experience-for-candidates"></a>ประสบการณ์การใช้งานที่ง่ายขึ้นสำหรับผู้สมัคร 
 
-ประสบการณ์การใช้งานที่ง่ายขึ้นสำหรับผู้สมัครพร้อมใช้งานในการแสดงตัวอย่างสาธารณะในขณะนี้ หลังจากที่เปิดใช้งานแล้ว ผู้สมัครสามารถสมัครงานได้โดยการใช้ประวัติย่อ การใช้ **สมัครกับ LinkedIn** (ถ้าเปิดใช้งาน) หรือใช้ฟอร์มใบสมัครที่มีอยู่ ด้วยการเปลี่ยนแปลงเหล่านี้ ผู้สมัครสามารถส่งใบสมัครงานได้อย่างรวดเร็วโดยมีฟิลด์น้อยที่สุดที่จำเป็นต้องป้อนข้อมูลด้วยตนเอง สำหรับข้อมูลเกี่ยวกับวิธีการเปิดใช้งานคุณลักษณะนี้ ให้ดู [การเปิดใช้งานหรือปิดใช้งานคุณลักษณะตัวอย่าง](./access-preview-feature.md#enable-or-disable-preview-features)
+ประสบการณ์การใช้งานที่ง่ายขึ้นสำหรับผู้สมัครพร้อมใช้งานในการแสดงตัวอย่างสาธารณะในขณะนี้ หลังจากที่เปิดใช้งานแล้ว ผู้สมัครสามารถสมัครงานได้โดยการใช้ประวัติย่อ การใช้ **สมัครกับ LinkedIn** (ถ้าเปิดใช้งาน) หรือใช้ฟอร์มใบสมัครที่มีอยู่ ด้วยการเปลี่ยนแปลงเหล่านี้ ผู้สมัครสามารถส่งใบสมัครงานได้อย่างรวดเร็วโดยมีฟิลด์น้อยที่สุดที่จำเป็นต้องป้อนข้อมูลด้วยตนเอง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดใช้งานคุณลักษณะนี้ ดูที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่าง ใน Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features)
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>ดูข้อคิดเห็นในการปฏิเสธเป็นส่วนหนึ่งของกิจกรรมของแอป
 

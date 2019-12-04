@@ -1,5 +1,5 @@
 ---
-title: เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Microsoft Dynamics 365 Talent
+title: จัดการคุณลักษณะ
 description: หัวข้อนี้อธิบายวิธีการที่ทำให้ผู้ดูแลระบบสามารถเปิดใช้งานคุณลักษณะการแสดงตัวอย่างได้ใน Microsoft Dynamics 365 Talent และจะแสดงรายการคุณลักษณะที่ถูกเปิดใช้งานสำหรับการแสดงตัวอย่างในขณะนี้
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551621"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833311"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>จัดการคุณลักษณะ
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 เนื่องจากเป็นส่วนหนึ่งของการเปิดตัวความสามารถของการจัดการทุนมนุษย์ (HCM) สำหรับ Microsoft Dynamics 365 Talent เราต้องการให้ลูกค้าพบกับคุณลักษณะใหม่โดยเร็วที่สุด ผู้ดูและระบบสามารถดูและใช้งานคุณลักษณะการแสดงตัวอย่างในสภาพแวดล้อมดังกล่าวได้ คุณลักษณะเหล่านี้ใกล้จะพร้อมสำหรับความพร้อมใช้งานทั่วไป และได้ผ่านการทดสอบอย่างครอบคลุมแล้ว เรากำลังมองหาความคิดเห็นและการตรวจสอบความถูกต้องของลูกค้าในขั้นตอนสุดท้าย ก่อนที่เราจะนำคุณลักษณะเหล่านี้ออกไปใช้งานสำหรับความพร้อมใช้งานทั่วไป
 
@@ -117,6 +117,6 @@ ms.locfileid: "2551621"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ลอง หรือซื้อแอป Talent](https://dynamics.microsoft.com/talent/overview/)
-- [มีอะไรใหม่](./whats-new.md)
-- [บันทึกย่อประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
-- [รับการสนับสนุนสำหรับ Talent](./talent-support.md)
+- [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent](./whats-new.md)
+- [แผนการรีลีส](https://docs.microsoft.com/business-applications-release-notes/index)
+- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](./talent-support.md)

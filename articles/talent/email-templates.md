@@ -1,5 +1,5 @@
 ---
-title: เท็มเพลตอีเมล
+title: สร้างเท็มเพลตอีเมลใน Attract
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับเท็มเพลตอีเมลที่คุณสามารถสร้างและใช้ใน Microsoft Dynamics 365 Talent - Attract
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008047"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832895"
 ---
-# <a name="email-templates"></a>เท็มเพลตอีเมล
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>สร้างเท็มเพลตอีเมลใน Attract
+
+[!include [banner](includes/banner.md)]
 
 โดยการใช้ไลบรารีเท็มเพลตอีเมล ผู้ดูแลสามารถสร้างธีมรูปแบบและการสร้างแบรนด์สำหรับอีเมลทั้งหมดที่ถูกส่งผ่าน Microsoft Dynamics 365 Talent: Attract and Offer นอกจากนี้ ผู้ดูแลระบบยังสามารถทำหน้าที่ดูแลคอลเลกชันเท็มเพลตเนื้อหาอีเมลที่ผู้ใช้รายอื่นสามารถใช้ได้ ทีมงานว่าจ้างสามารถใช้เท็มเพลตเหล่านี้ในลำดับงานของพวกเขาเพื่อส่งอีเมลได้อย่างมีประสิทธิภาพมากขึ้น มีการตั้งค่าคอนฟิกอีเมลบางอีเมลให้ถูกส่งโดยอัตโนมัติ และผู้ดูแลระบบสามารถใช้ไลบรารีเท็มเพลตอีเมลในการกำหนดเนื้อหาสำหรับอีเมลเหล่านั้นได้
 

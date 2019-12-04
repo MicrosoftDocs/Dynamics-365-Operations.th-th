@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92be01210b677228f4c096ffef09d7109ba2b332
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ef99a75d29b8fce46943213804239b237d384b07
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023404"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811914"
 ---
 # <a name="hybrid-customer-orders"></a>ใบสั่งของลูกค้าแบบไฮบริด
 
@@ -38,6 +38,6 @@ ms.locfileid: "2023404"
 
 ถ้าบรรทัดรถเข็นถูกเลือก และมีการเลือก **เบิกสินค้าที่เลือก** **จัดส่งที่เลือก**หรือ **ดำเนินการกับรายการที่เลือก** เฉพาะบรรทัดรถเข็นจะถูกตั้งค่าด้วยวิธีการจัดส่ง ในกรณีดังกล่าว ขั้นตอนปลายน้ำของการดำเนินงานเป็นต่อไปตามปกติ อย่างไรก็ตาม ถ้า **เบิกสินค้าที่เลือก** **จัดส่งที่เลือก**หรือ **ดำเนินการกับรายการที่เลือก** โดยไม่มีการเลือกบรรทัดรถเข็นไว้ ระบบจะเปิดหน้าใหม่ที่แสดงรายการทั้งหมดในรายการในรถเข็น บนหน้าจอนั้น คุณสามารถเลือกหลายบรรทัดพร้อมกันสำหรับการตั้งค่าวิธีการจัดส่ง เมื่อคุณใช้วิธีนั้นสำหรับการเลือกบรรทัด วิธีการจัดส่งใด ๆ ก่อนหน้านี้ที่ได้ถูกกำหนดให้กับบรรทัดจะถูกแทน
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมใบสั่งของลูกค้า](customer-orders-overview.md)
+[ใบสั่งของลูกค้าใน Retail Modern POS (MPOS)](customer-orders-overview.md)

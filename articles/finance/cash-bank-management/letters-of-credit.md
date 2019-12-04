@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188314"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772616"
 ---
 # <a name="letters-of-credit"></a>เลตเตอร์ออฟเครดิต
 
@@ -44,12 +44,12 @@ ms.locfileid: "2188314"
 
 เลตเตอร์ออฟเครดิตสามารถถูกเพิกถอนหรือไม่เพิกถอนก็ได้ ลักษณะของเลตเตอร์ออฟเครดิตสามารถโอนย้ายได้ ไม่สามารถโอนย้ายได้ หรือหมุนเวียน โดยทั่วไป เลตเตอร์ออฟเครดิตคือการเพิกถอนไม่ได้ และยืนยันข้อตกลงที่จะทำการชำระเงินกับผู้รับผลประโยชน์เฉพาะเมื่อมีการส่งเอกสารการจัดส่งสินค้าเสร็จสมบูรณ์ และถูกต้อง
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่หัวข้อต่อไปนี้
+สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
-[เลตเตอร์ออฟเครดิตสำหรับการนำเข้า](tasks/import-letter-credit.md)
+[นำเข้าเลตเตอร์ออฟเครดิต](tasks/import-letter-credit.md)
 
 [เลตเตอร์ออฟเครดิตสำหรับการส่งออก](tasks/export-letter-credit.md)
 
-[สร้างสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต](tasks/create-bank-facility-agreement-letter-credit.md)
+[สร้างข้อตกลงสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต](tasks/create-bank-facility-agreement-letter-credit.md)
 
 

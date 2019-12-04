@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c25b5f6a4aa6f2742ee5e41039f3f5511715e3b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250037"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814248"
 ---
 # <a name="production-process-overview"></a>ภาพรวมของกระบวนการผลิต
 
@@ -77,14 +77,14 @@ ms.locfileid: "2250037"
 12. **การปิดรอบระยะเวลา**– บางหลักการบัญชีต้นทุน เช่น ค่าเฉลี่ยเป็นงวด การคิดต้นทุนการล้างแบบย้อนกลับ FIFO หรือ LIFO ต้องการกิจกรรมเป็นงวดๆเพื่อปิดสินค้าคงคลังหรือรอบระยะเวลาทางการเงิน โดยทั่วไป ระบบจะพยายามรายงานการใช้ทรัพยากรวัสดุและปริมาณทั้งหมด และรวมถึงการแก้ไขของสินค้าคงคลังและปริมาณของเสียด้วย ก่อนที่จะมีการปิดรอบระยะเวลา รายงานนี้ใช้โดยทั่วไปถูกดำเนินงานโดยใช้สมุดรายวันความเคลื่อนไหวของสินค้าคงคลังหรือสมุดรายวันการปรับปรุง เป้าหมายคือ การประเมินประสิทธิภาพทางเศรษฐกิจของหน่วยการดำเนินงานต่อรอบระยะเวลา ในบางกรณี เมื่อมีการใช้ใบสั่งผลิตที่ใช้งานเป็นเวลานานซึ่งครอบคลุมรอบระยะเวลาการรายงานทางการเงิน สมุดรายวันการผลิตจะถูกใช้เพื่อรายงานความคืบหน้าการผลิตและปริมาณการใช้วัสดุภายในจุดสิ้นสุดของรอบระยะเวลา
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
 [ผลป้อนกลับของการผลิต](production-feedback.md)
 
-[แบบจำลองการจัดโครงแบบผลิตภัณฑ์](../pim/product-configuration-models.md)
+[ภาพรวมแบบจำลองการจัดโครงแบบผลิตภัณฑ์](../pim/product-configuration-models.md)
 
-[การผลิตแบบ Lean](lean-manufacturing-overview.md)
+[ภาพรวม Lean manufacturing](lean-manufacturing-overview.md)
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572799"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813854"
 ---
 # <a name="quality-management-processes"></a>กระบวนการการจัดการคุณภาพ
 
@@ -87,17 +87,17 @@ ms.locfileid: "1572799"
 
 เป็นความคิดที่ดีที่จะกำหนดชนิดเอกสารเฉพาะสำหรับการแก้ไขความไม่สอดคล้องกันโดยการใช้หน้า **ชนิดของเอกสาร** จากนั้นคุณสามารถใช้หน้า **การตั้งค่ารายงาน** เพื่อกำหนดว่าข้อคิดเห็นสำหรับชนิดเอกสารนี้ควรจะพิมพ์บนรายงานการแก้ไขหรือไม่ รายงานการแก้ไขที่พิมพ์แสดงข้อมูลเกี่ยวกับความไม่สอดคล้องกัน และบันทึกความไม่สอดคล้องกันที่เกี่ยวข้อง รายงานยังรวมข้อมูลการแก้ไข เช่น ชนิดการวินิจฉัย และบันทึกการแก้ไขที่เกี่ยวข้อง
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[การเปิดใช้การจัดการคุณภาพ](enable-quality-management.md)
+[ภาพรวมของการจัดการคุณภาพ](enable-quality-management.md)
 
-[การเปิดใช้งานการจัดการไม่สอดคล้องกัน](enable-nonconformance-management.md)
+[การจัดการความไม่สอดคล้องกัน](enable-nonconformance-management.md)
 
 [การบล็อคสินค้าคงคลัง](inventory-blocking.md)
 
 [ใบสั่งตรวจสอบสินค้า](quarantine-orders.md)
 
-[ตั้งค่าใบสั่งตรวจสอบคุณภาพ (คู่มืองาน)](tasks/set-up-quality-orders.md)
+[ตั้งค่าใบสั่งตรวจสอบคุณภาพ](tasks/set-up-quality-orders.md)
 
-[ตรวจสอบคุณภาพของสินค้า (คู่มืองาน)](tasks/inspect-quality-goods.md)
+[ตรวจสอบคุณภาพของสินค้า](tasks/inspect-quality-goods.md)
