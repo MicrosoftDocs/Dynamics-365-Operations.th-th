@@ -19,42 +19,42 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250794"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814341"
 ---
-# <a name="inventory-management-overview"></a><span data-ttu-id="d734c-103">ภาพรวมของการจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="d734c-103">Inventory management overview</span></span>
+# <a name="inventory-management-overview"></a><span data-ttu-id="36296-103">ภาพรวมของการจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="36296-103">Inventory management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d734c-104">คุณสามารถใช้การจัดการสินค้าคงคลังเพื่อทำภารกิจต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="d734c-104">You can use Inventory management to perform the following tasks:</span></span>
+<span data-ttu-id="36296-104">คุณสามารถใช้การจัดการสินค้าคงคลังเพื่อทำภารกิจต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="36296-104">You can use Inventory management to perform the following tasks:</span></span>
 
--  [<span data-ttu-id="d734c-105">การดำเนินการขาเข้า</span><span class="sxs-lookup"><span data-stu-id="d734c-105">Inbound operations</span></span>](arrival-overview.md)
--  [<span data-ttu-id="d734c-106">การรับรองคุณภาพ</span><span class="sxs-lookup"><span data-stu-id="d734c-106">Quality assurance</span></span>](quality-management-processes.md)
--  [<span data-ttu-id="d734c-107">กิจกรรมสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="d734c-107">Inventory activities</span></span>](inventory-journals.md)
--  [<span data-ttu-id="d734c-108">การดำเนินการขาออก</span><span class="sxs-lookup"><span data-stu-id="d734c-108">Outbound operations</span></span>](outbound-process.md)
--  [<span data-ttu-id="d734c-109">การควบคุมสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="d734c-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
+-  [<span data-ttu-id="36296-105">การดำเนินการขาเข้า</span><span class="sxs-lookup"><span data-stu-id="36296-105">Inbound operations</span></span>](arrival-overview.md)
+-  [<span data-ttu-id="36296-106">การรับรองคุณภาพ</span><span class="sxs-lookup"><span data-stu-id="36296-106">Quality assurance</span></span>](quality-management-processes.md)
+-  [<span data-ttu-id="36296-107">กิจกรรมสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="36296-107">Inventory activities</span></span>](inventory-journals.md)
+-  [<span data-ttu-id="36296-108">การดำเนินการขาออก</span><span class="sxs-lookup"><span data-stu-id="36296-108">Outbound operations</span></span>](outbound-process.md)
+-  [<span data-ttu-id="36296-109">การควบคุมสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="36296-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
 
-## <a name="learning-map"></a><span data-ttu-id="d734c-110">แผนผังการเรียนรู้</span><span class="sxs-lookup"><span data-stu-id="d734c-110">Learning map</span></span>
+## <a name="learning-map"></a><span data-ttu-id="36296-110">แผนผังการเรียนรู้</span><span class="sxs-lookup"><span data-stu-id="36296-110">Learning map</span></span>
 
-<span data-ttu-id="d734c-111">แผนผังการเรียนรู้ต่อไปนี้แสดงแนวคิดหลักและงานที่สร้างกรอบงานของโมดูลการจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="d734c-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="d734c-112">คลิกที่แผนผังการเรียนรู้ด้านล่างเพื่อขยาย</span><span class="sxs-lookup"><span data-stu-id="d734c-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="d734c-113">แผนผังการเรียนรู้นี้จะช่วยคุณในการเริ่มต้นใช้งาน</span><span class="sxs-lookup"><span data-stu-id="d734c-113">This learning map will help you get started.</span></span>
+<span data-ttu-id="36296-111">แผนผังการเรียนรู้ต่อไปนี้แสดงแนวคิดหลักและงานที่สร้างกรอบงานของโมดูลการจัดการสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="36296-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="36296-112">คลิกที่แผนผังการเรียนรู้ด้านล่างเพื่อขยาย</span><span class="sxs-lookup"><span data-stu-id="36296-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="36296-113">แผนผังการเรียนรู้นี้จะช่วยคุณในการเริ่มต้นใช้งาน</span><span class="sxs-lookup"><span data-stu-id="36296-113">This learning map will help you get started.</span></span>
 
 
-<span data-ttu-id="d734c-114">[![แผนผังการเรียนรู้ของสินค้าคงคลัง](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="d734c-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
+<span data-ttu-id="36296-114">[![แผนผังการเรียนรู้ของสินค้าคงคลัง](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="36296-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d734c-115">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="d734c-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="36296-115">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="36296-115">Additional resources</span></span>
 
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="d734c-116">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="d734c-116">What's new and in development</span></span>
-<span data-ttu-id="d734c-117">ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="d734c-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="36296-116">มีอะไรใหม่และอะไรที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="36296-116">What's new and in development</span></span>
+<span data-ttu-id="36296-117">ไปที่ [แผนการทำงาน Microsoft Dynamics 365](https://roadmap.dynamics.com/) เพื่อดูว่ามีการนำคุณลักษณะใหม่ใดออกใช้ และมีคุณลักษณะใหม่ใดบ้างที่กำลังพัฒนา</span><span class="sxs-lookup"><span data-stu-id="36296-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="inventory-accounting"></a><span data-ttu-id="d734c-118">การบัญชีสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="d734c-118">Inventory accounting</span></span> 
-<span data-ttu-id="d734c-119">เมื่อต้องการทราบข้อมูลเพิ่มเติม ดู [การบัญชีสินค้าคงคลังในการจัดการต้นทุน](../cost-management/inventory-close.md)</span><span class="sxs-lookup"><span data-stu-id="d734c-119">To learn more, see [Inventory accounting in Cost management](../cost-management/inventory-close.md).</span></span>
+### <a name="inventory-accounting"></a><span data-ttu-id="36296-118">การบัญชีสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="36296-118">Inventory accounting</span></span> 
+<span data-ttu-id="36296-119">เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)</span><span class="sxs-lookup"><span data-stu-id="36296-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="d734c-120">บล็อกการผลิตและ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="d734c-120">Manufacturing and Supply Chain Management blogs</span></span>
-<span data-ttu-id="d734c-121">คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการสินค้าคงคลังและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [Supply Chain Management ในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)</span><span class="sxs-lookup"><span data-stu-id="d734c-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
+### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="36296-120">บล็อกการผลิตและ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="36296-120">Manufacturing and Supply Chain Management blogs</span></span>
+<span data-ttu-id="36296-121">คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการสินค้าคงคลังและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [Supply Chain Management ในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)</span><span class="sxs-lookup"><span data-stu-id="36296-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
 
-### <a name="task-guides"></a><span data-ttu-id="d734c-122">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="d734c-122">Task guides</span></span>
-<span data-ttu-id="d734c-123">วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงาน</span><span class="sxs-lookup"><span data-stu-id="d734c-123">Additional help is available as task guides.</span></span> <span data-ttu-id="d734c-124">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="d734c-124">To access task guides, click the **Help** button on any page</span></span>
+### <a name="task-guides"></a><span data-ttu-id="36296-122">คู่มืองาน</span><span class="sxs-lookup"><span data-stu-id="36296-122">Task guides</span></span>
+<span data-ttu-id="36296-123">วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงาน</span><span class="sxs-lookup"><span data-stu-id="36296-123">Additional help is available as task guides.</span></span> <span data-ttu-id="36296-124">ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ</span><span class="sxs-lookup"><span data-stu-id="36296-124">To access task guides, click the **Help** button on any page</span></span>

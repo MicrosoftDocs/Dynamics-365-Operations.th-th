@@ -17,169 +17,169 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09d09464eae932bf9caf4f2ea38cbbb3b4f0162
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190223"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811392"
 ---
-# <a name="configure-approval-processes-in-a-workflow"></a><span data-ttu-id="93540-103">ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="93540-103">Configure approval processes in a workflow</span></span>
+# <a name="configure-approval-processes-in-a-workflow"></a><span data-ttu-id="45c0b-103">ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="45c0b-103">Configure approval processes in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="93540-104">ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-104">Use the following procedure to configure the properties of the approval process.</span></span>
+<span data-ttu-id="45c0b-104">ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-104">Use the following procedure to configure the properties of the approval process.</span></span>
 
-<span data-ttu-id="93540-105">เมื่อต้องการตั้งค่าคอนฟิกกระบวนการอนุมัติในโปรแกรมแก้ไขลำดับงาน ให้คลิกขวาที่องค์ประกอบการอนุมัตินั้น แล้วคลิก **คุณสมบัติ** เพื่อเปิดแบบฟอร์ม **คุณสมบัติ**</span><span class="sxs-lookup"><span data-stu-id="93540-105">To configure an approval process, in the workflow editor, right-click the approval element, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="45c0b-105">เมื่อต้องการตั้งค่าคอนฟิกกระบวนการอนุมัติในโปรแกรมแก้ไขลำดับงาน ให้คลิกขวาที่องค์ประกอบการอนุมัตินั้น แล้วคลิก **คุณสมบัติ** เพื่อเปิดแบบฟอร์ม **คุณสมบัติ**</span><span class="sxs-lookup"><span data-stu-id="45c0b-105">To configure an approval process, in the workflow editor, right-click the approval element, and then click **Properties** to open the **Properties** form.</span></span>
 
-## <a name="name-the-approval-process"></a><span data-ttu-id="93540-106">การตั้งชื่อกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-106">Name the approval process</span></span>
+## <a name="name-the-approval-process"></a><span data-ttu-id="45c0b-106">การตั้งชื่อกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-106">Name the approval process</span></span>
 
-<span data-ttu-id="93540-107">ทำตามขั้นตอนเหล่านี้เพื่อป้อนชื่อสำหรับกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-107">Follow these steps to enter a name for the approval process.</span></span>
+<span data-ttu-id="45c0b-107">ทำตามขั้นตอนเหล่านี้เพื่อป้อนชื่อสำหรับกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-107">Follow these steps to enter a name for the approval process.</span></span>
 
-1. <span data-ttu-id="93540-108">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าพื้นฐาน**</span><span class="sxs-lookup"><span data-stu-id="93540-108">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="93540-109">ในฟิลด์ **ชื่อ** ป้อนชื่อเฉพาะสำหรับกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-109">In the **Name** field, enter a unique name for the approval process.</span></span>
+1. <span data-ttu-id="45c0b-108">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าพื้นฐาน**</span><span class="sxs-lookup"><span data-stu-id="45c0b-108">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="45c0b-109">ในฟิลด์ **ชื่อ** ป้อนชื่อเฉพาะสำหรับกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-109">In the **Name** field, enter a unique name for the approval process.</span></span>
 
-## <a name="specify-when-the-system-automatically-acts-on-the-document"></a><span data-ttu-id="93540-110">ระบุเวลาที่จะให้ระบบดำเนินการกับเอกสารโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-110">Specify when the system automatically acts on the document</span></span>
+## <a name="specify-when-the-system-automatically-acts-on-the-document"></a><span data-ttu-id="45c0b-110">ระบุเวลาที่จะให้ระบบดำเนินการกับเอกสารโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-110">Specify when the system automatically acts on the document</span></span>
 
-<span data-ttu-id="93540-111">คุณสามารถตั้งค่าคอนฟิกระบบเพื่อดำเนินการกับเอกสารโดยอัตโนมัติถ้าตรงตามเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="93540-111">You can configure the system to automatically act on the document if specific conditions are met.</span></span> <span data-ttu-id="93540-112">ตัวอย่างเช่น ระบบสามารถอนุมัติรายงานค่าใช้จ่ายที่มียอดเงินรวมที่น้อยกว่า 100 เหรียญสหรัฐ</span><span class="sxs-lookup"><span data-stu-id="93540-112">For example, the system can approve expense reports that have total amounts that are less than USD 100.</span></span> <span data-ttu-id="93540-113">ทำตามขั้นตอนเหล่านี้เพื่อระบุเวลาที่จะให้ระบบดำเนินการกับเอกสาร</span><span class="sxs-lookup"><span data-stu-id="93540-113">Follow these steps to specify when the system acts on the document.</span></span>
+<span data-ttu-id="45c0b-111">คุณสามารถตั้งค่าคอนฟิกระบบเพื่อดำเนินการกับเอกสารโดยอัตโนมัติถ้าตรงตามเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="45c0b-111">You can configure the system to automatically act on the document if specific conditions are met.</span></span> <span data-ttu-id="45c0b-112">ตัวอย่างเช่น ระบบสามารถอนุมัติรายงานค่าใช้จ่ายที่มียอดเงินรวมที่น้อยกว่า 100 เหรียญสหรัฐ</span><span class="sxs-lookup"><span data-stu-id="45c0b-112">For example, the system can approve expense reports that have total amounts that are less than USD 100.</span></span> <span data-ttu-id="45c0b-113">ทำตามขั้นตอนเหล่านี้เพื่อระบุเวลาที่จะให้ระบบดำเนินการกับเอกสาร</span><span class="sxs-lookup"><span data-stu-id="45c0b-113">Follow these steps to specify when the system acts on the document.</span></span>
 
-1. <span data-ttu-id="93540-114">ในบานหน้าต่างทางซ้าย ให้คลิก **การดำเนินการโดยอัตโนมัติ**</span><span class="sxs-lookup"><span data-stu-id="93540-114">In the left pane, click **Automatic actions**.</span></span>
-2. <span data-ttu-id="93540-115">เลือกกล่องกาเครื่องหมาย **เปิดใช้งานการดำเนินการโดยอัตโนมัติ**</span><span class="sxs-lookup"><span data-stu-id="93540-115">Select the **Enable automatic actions** check box.</span></span>
-3. <span data-ttu-id="93540-116">คลิก **เพิ่มเงื่อนไข**</span><span class="sxs-lookup"><span data-stu-id="93540-116">Click **Add condition**.</span></span>
-4. <span data-ttu-id="93540-117">ป้อนเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="93540-117">Enter a condition.</span></span>
-5. <span data-ttu-id="93540-118">ป้อนเงื่อนไขเพิ่มเติม หากจำเป็น</span><span class="sxs-lookup"><span data-stu-id="93540-118">Enter additional conditions, if necessary.</span></span>
-6. <span data-ttu-id="93540-119">หากต้องการตรวจสอบว่าเงื่อนไขที่คุณป้อนเข้าไปตั้งค่าคอนฟิกไว้ถูกต้องหรือไม่ ให้ทำตามขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์:</span><span class="sxs-lookup"><span data-stu-id="93540-119">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+1. <span data-ttu-id="45c0b-114">ในบานหน้าต่างทางซ้าย ให้คลิก **การดำเนินการโดยอัตโนมัติ**</span><span class="sxs-lookup"><span data-stu-id="45c0b-114">In the left pane, click **Automatic actions**.</span></span>
+2. <span data-ttu-id="45c0b-115">เลือกกล่องกาเครื่องหมาย **เปิดใช้งานการดำเนินการโดยอัตโนมัติ**</span><span class="sxs-lookup"><span data-stu-id="45c0b-115">Select the **Enable automatic actions** check box.</span></span>
+3. <span data-ttu-id="45c0b-116">คลิก **เพิ่มเงื่อนไข**</span><span class="sxs-lookup"><span data-stu-id="45c0b-116">Click **Add condition**.</span></span>
+4. <span data-ttu-id="45c0b-117">ป้อนเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="45c0b-117">Enter a condition.</span></span>
+5. <span data-ttu-id="45c0b-118">ป้อนเงื่อนไขเพิ่มเติม หากจำเป็น</span><span class="sxs-lookup"><span data-stu-id="45c0b-118">Enter additional conditions, if necessary.</span></span>
+6. <span data-ttu-id="45c0b-119">หากต้องการตรวจสอบว่าเงื่อนไขที่คุณป้อนเข้าไปตั้งค่าคอนฟิกไว้ถูกต้องหรือไม่ ให้ทำตามขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์:</span><span class="sxs-lookup"><span data-stu-id="45c0b-119">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
 
-    1. <span data-ttu-id="93540-120">คลิก **ทดสอบ** เพื่อเปิดแบบฟอร์ม **ทดสอบเงื่อนไขลำดับงาน**</span><span class="sxs-lookup"><span data-stu-id="93540-120">Click **Test** to open the **Test workflow condition** form.</span></span>
-    2. <span data-ttu-id="93540-121">เลือกเรกคอร์ดในพื้นที่ของแบบฟอร์ม **ตรวจสอบเงื่อนไข**</span><span class="sxs-lookup"><span data-stu-id="93540-121">Select a record in the **Validate condition** area of the form.</span></span>
-    3. <span data-ttu-id="93540-122">คลิก **ทดสอบ**</span><span class="sxs-lookup"><span data-stu-id="93540-122">Click **Test**.</span></span> <span data-ttu-id="93540-123">ระบบจะประเมินเรกคอร์ดเพื่อพิจารณาว่าเป็นไปตามเงื่อนไขที่คุณกำหนดไว้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="93540-123">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
-    4. <span data-ttu-id="93540-124">คลิก **ตกลง** หรือ **ยกเลิก** เพื่อกลับไปที่แบบฟอร์ม **คุณสมบัติ**</span><span class="sxs-lookup"><span data-stu-id="93540-124">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
+    1. <span data-ttu-id="45c0b-120">คลิก **ทดสอบ** เพื่อเปิดแบบฟอร์ม **ทดสอบเงื่อนไขลำดับงาน**</span><span class="sxs-lookup"><span data-stu-id="45c0b-120">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2. <span data-ttu-id="45c0b-121">เลือกเรกคอร์ดในพื้นที่ของแบบฟอร์ม **ตรวจสอบเงื่อนไข**</span><span class="sxs-lookup"><span data-stu-id="45c0b-121">Select a record in the **Validate condition** area of the form.</span></span>
+    3. <span data-ttu-id="45c0b-122">คลิก **ทดสอบ**</span><span class="sxs-lookup"><span data-stu-id="45c0b-122">Click **Test**.</span></span> <span data-ttu-id="45c0b-123">ระบบจะประเมินเรกคอร์ดเพื่อพิจารณาว่าเป็นไปตามเงื่อนไขที่คุณกำหนดไว้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="45c0b-123">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4. <span data-ttu-id="45c0b-124">คลิก **ตกลง** หรือ **ยกเลิก** เพื่อกลับไปที่แบบฟอร์ม **คุณสมบัติ**</span><span class="sxs-lookup"><span data-stu-id="45c0b-124">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
-7. <span data-ttu-id="93540-125">ในรายการ **การดำเนินการให้สมบูรณ์โดยอัตโนมัติ** เลือกการดำเนินการที่ระบบควรใช้กับเอกสารนั้น</span><span class="sxs-lookup"><span data-stu-id="93540-125">In the **Auto complete action** list, select the action that the system should take on the document.</span></span>
+7. <span data-ttu-id="45c0b-125">ในรายการ **การดำเนินการให้สมบูรณ์โดยอัตโนมัติ** เลือกการดำเนินการที่ระบบควรใช้กับเอกสารนั้น</span><span class="sxs-lookup"><span data-stu-id="45c0b-125">In the **Auto complete action** list, select the action that the system should take on the document.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="93540-126">ระบุว่าจะส่งการแจ้งเตือนเมื่อใด</span><span class="sxs-lookup"><span data-stu-id="93540-126">Specify when notifications are sent</span></span>
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="45c0b-126">ระบุว่าจะส่งการแจ้งเตือนเมื่อใด</span><span class="sxs-lookup"><span data-stu-id="45c0b-126">Specify when notifications are sent</span></span>
 
-<span data-ttu-id="93540-127">คุณสามารถส่งการแจ้งเตือนไปยังบุคคลต่างๆ เมื่อเอกสารมีการอนุมัติ ถูกปฏิเสธ มอบหมาย หรือเลื่อนระดับ หรือเมื่อมีการร้องขอการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="93540-127">You can send notifications to people when a document has been approved, rejected, delegated, or escalated, or when a change has been requested.</span></span> <span data-ttu-id="93540-128">ทำตามขั้นตอนเหล่านี้เพื่อระบุว่าจะส่งการแจ้งเตือนเมื่อใดและจะส่งให้ใคร</span><span class="sxs-lookup"><span data-stu-id="93540-128">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
+<span data-ttu-id="45c0b-127">คุณสามารถส่งการแจ้งเตือนไปยังบุคคลต่างๆ เมื่อเอกสารมีการอนุมัติ ถูกปฏิเสธ มอบหมาย หรือเลื่อนระดับ หรือเมื่อมีการร้องขอการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="45c0b-127">You can send notifications to people when a document has been approved, rejected, delegated, or escalated, or when a change has been requested.</span></span> <span data-ttu-id="45c0b-128">ทำตามขั้นตอนเหล่านี้เพื่อระบุว่าจะส่งการแจ้งเตือนเมื่อใดและจะส่งให้ใคร</span><span class="sxs-lookup"><span data-stu-id="45c0b-128">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
 
-1. <span data-ttu-id="93540-129">ในบานหน้าต่างทางซ้าย ให้คลิก **การแจ้งเตือน**</span><span class="sxs-lookup"><span data-stu-id="93540-129">In the left pane, click **Notifications**.</span></span>
-2. <span data-ttu-id="93540-130">เลือกกล่องกาเครื่องหมายที่อยู่ถัดจากเหตุการณ์เพื่อส่งการแจ้งเตือนสำหรับ:</span><span class="sxs-lookup"><span data-stu-id="93540-130">Select the check box next to the events to send notifications for:</span></span>
+1. <span data-ttu-id="45c0b-129">ในบานหน้าต่างทางซ้าย ให้คลิก **การแจ้งเตือน**</span><span class="sxs-lookup"><span data-stu-id="45c0b-129">In the left pane, click **Notifications**.</span></span>
+2. <span data-ttu-id="45c0b-130">เลือกกล่องกาเครื่องหมายที่อยู่ถัดจากเหตุการณ์เพื่อส่งการแจ้งเตือนสำหรับ:</span><span class="sxs-lookup"><span data-stu-id="45c0b-130">Select the check box next to the events to send notifications for:</span></span>
 
-    - <span data-ttu-id="93540-131">**มอบหมาย** – เมื่อมีการกำหนดเอกสารนี้ให้กับผู้ใช้รายอื่นเป็นผู้อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-131">**Delegate** – When a document has been assigned to another user for approval.</span></span>
-    - <span data-ttu-id="93540-132">**เลื่อนระดับ** – เมื่อผู้ใช้ที่กำหนดไม่ได้ดำเนินการกับเอกสารในเวลาที่กำหนดไว้</span><span class="sxs-lookup"><span data-stu-id="93540-132">**Escalate** – When the assigned user has not acted on a document in the allotted time.</span></span>
-    - <span data-ttu-id="93540-133">**อนุมัติ** – เมื่อเอกสารได้รับการอนุมัติแล้ว</span><span class="sxs-lookup"><span data-stu-id="93540-133">**Approve** – When a document has been approved.</span></span>
-    - <span data-ttu-id="93540-134">**ปฏิเสธ** – เมื่อเอกสารถูกปฏิเสธ</span><span class="sxs-lookup"><span data-stu-id="93540-134">**Reject** – When a document has been rejected.</span></span>
-    - <span data-ttu-id="93540-135">**ร้องขอการเปลี่ยนแปลง** – เมื่อผู้ใช้ที่กำหนดได้ร้องขอการเปลี่ยนแปลงเอกสารที่ส่ง</span><span class="sxs-lookup"><span data-stu-id="93540-135">**Request change** – When the assigned user has requested a change to a document that was submitted.</span></span>
+    - <span data-ttu-id="45c0b-131">**มอบหมาย** – เมื่อมีการกำหนดเอกสารนี้ให้กับผู้ใช้รายอื่นเป็นผู้อนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-131">**Delegate** – When a document has been assigned to another user for approval.</span></span>
+    - <span data-ttu-id="45c0b-132">**เลื่อนระดับ** – เมื่อผู้ใช้ที่กำหนดไม่ได้ดำเนินการกับเอกสารในเวลาที่กำหนดไว้</span><span class="sxs-lookup"><span data-stu-id="45c0b-132">**Escalate** – When the assigned user has not acted on a document in the allotted time.</span></span>
+    - <span data-ttu-id="45c0b-133">**อนุมัติ** – เมื่อเอกสารได้รับการอนุมัติแล้ว</span><span class="sxs-lookup"><span data-stu-id="45c0b-133">**Approve** – When a document has been approved.</span></span>
+    - <span data-ttu-id="45c0b-134">**ปฏิเสธ** – เมื่อเอกสารถูกปฏิเสธ</span><span class="sxs-lookup"><span data-stu-id="45c0b-134">**Reject** – When a document has been rejected.</span></span>
+    - <span data-ttu-id="45c0b-135">**ร้องขอการเปลี่ยนแปลง** – เมื่อผู้ใช้ที่กำหนดได้ร้องขอการเปลี่ยนแปลงเอกสารที่ส่ง</span><span class="sxs-lookup"><span data-stu-id="45c0b-135">**Request change** – When the assigned user has requested a change to a document that was submitted.</span></span>
 
-3. <span data-ttu-id="93540-136">เลือกแถวของเหตุการณ์ที่คุณเลือกในขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="93540-136">Select the row for an event that you selected in step 2.</span></span>
-4. <span data-ttu-id="93540-137">คลิกแท็บ **ข้อความการแจ้งเตือน**</span><span class="sxs-lookup"><span data-stu-id="93540-137">Click the **Notification text** tab.</span></span>
-5. <span data-ttu-id="93540-138">ในกล่องข้อความ ให้ป้อนข้อความสำหรับการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="93540-138">In the text box, enter the text for the notification.</span></span>
-6. <span data-ttu-id="93540-139">เมื่อต้องการให้เนื้อหาเป็นแบบส่วนบุคคล คุณสามารถแทรกตัวยึดตำแหน่งลงไปได้ ซึ่งจะถูกแทนที่ด้วยข้อมูลที่เหมาะสมเมื่อแสดงต่อผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="93540-139">To personalize the text, you can insert placeholders, which are replaced with the appropriate data when they are displayed to users.</span></span> <span data-ttu-id="93540-140">เมื่อต้องการแทรกตัวยึด ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="93540-140">To insert a placeholder, follow these steps:</span></span>
+3. <span data-ttu-id="45c0b-136">เลือกแถวของเหตุการณ์ที่คุณเลือกในขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="45c0b-136">Select the row for an event that you selected in step 2.</span></span>
+4. <span data-ttu-id="45c0b-137">คลิกแท็บ **ข้อความการแจ้งเตือน**</span><span class="sxs-lookup"><span data-stu-id="45c0b-137">Click the **Notification text** tab.</span></span>
+5. <span data-ttu-id="45c0b-138">ในกล่องข้อความ ให้ป้อนข้อความสำหรับการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="45c0b-138">In the text box, enter the text for the notification.</span></span>
+6. <span data-ttu-id="45c0b-139">เมื่อต้องการให้เนื้อหาเป็นแบบส่วนบุคคล คุณสามารถแทรกตัวยึดตำแหน่งลงไปได้ ซึ่งจะถูกแทนที่ด้วยข้อมูลที่เหมาะสมเมื่อแสดงต่อผู้ใช้</span><span class="sxs-lookup"><span data-stu-id="45c0b-139">To personalize the text, you can insert placeholders, which are replaced with the appropriate data when they are displayed to users.</span></span> <span data-ttu-id="45c0b-140">เมื่อต้องการแทรกตัวยึด ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="45c0b-140">To insert a placeholder, follow these steps:</span></span>
 
-    1. <span data-ttu-id="93540-141">คลิกในกล่องข้อความของที่ตั้งที่ควรปรากฏตัวยึดตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="93540-141">Click in the text box at the location where the placeholder should appear.</span></span>
-    2. <span data-ttu-id="93540-142">คลิก **แทรกตัวยึด**</span><span class="sxs-lookup"><span data-stu-id="93540-142">Click **Insert placeholder**.</span></span>
-    3. <span data-ttu-id="93540-143">ในรายการที่ปรากฏขึ้น ให้เลือกตัวยึดที่จะแทรก</span><span class="sxs-lookup"><span data-stu-id="93540-143">In the list that is displayed, select the placeholder to insert.</span></span>
-    4. <span data-ttu-id="93540-144">คลิก **แทรก**</span><span class="sxs-lookup"><span data-stu-id="93540-144">Click **Insert**.</span></span>
+    1. <span data-ttu-id="45c0b-141">คลิกในกล่องข้อความของที่ตั้งที่ควรปรากฏตัวยึดตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="45c0b-141">Click in the text box at the location where the placeholder should appear.</span></span>
+    2. <span data-ttu-id="45c0b-142">คลิก **แทรกตัวยึด**</span><span class="sxs-lookup"><span data-stu-id="45c0b-142">Click **Insert placeholder**.</span></span>
+    3. <span data-ttu-id="45c0b-143">ในรายการที่ปรากฏขึ้น ให้เลือกตัวยึดที่จะแทรก</span><span class="sxs-lookup"><span data-stu-id="45c0b-143">In the list that is displayed, select the placeholder to insert.</span></span>
+    4. <span data-ttu-id="45c0b-144">คลิก **แทรก**</span><span class="sxs-lookup"><span data-stu-id="45c0b-144">Click **Insert**.</span></span>
 
-7. <span data-ttu-id="93540-145">เมื่อต้องการเพิ่มคำแปลของการแจ้งเตือน ให้คลิก **การแปล**</span><span class="sxs-lookup"><span data-stu-id="93540-145">To add translations of the notification, click **Translations**.</span></span> <span data-ttu-id="93540-146">ในแบบฟอร์มที่แสดง ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="93540-146">In the form that is displayed, follow these steps:</span></span>
+7. <span data-ttu-id="45c0b-145">เมื่อต้องการเพิ่มคำแปลของการแจ้งเตือน ให้คลิก **การแปล**</span><span class="sxs-lookup"><span data-stu-id="45c0b-145">To add translations of the notification, click **Translations**.</span></span> <span data-ttu-id="45c0b-146">ในแบบฟอร์มที่แสดง ให้ทำตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="45c0b-146">In the form that is displayed, follow these steps:</span></span>
 
-    1. <span data-ttu-id="93540-147">คลิก **เพิ่ม**</span><span class="sxs-lookup"><span data-stu-id="93540-147">Click **Add**.</span></span>
-    2. <span data-ttu-id="93540-148">ในรายการที่ปรากฏ ให้เลือกภาษาที่คุณจะป้อนข้อความ</span><span class="sxs-lookup"><span data-stu-id="93540-148">In the list that is displayed, select the language in which you will enter the text.</span></span>
-    3. <span data-ttu-id="93540-149">ในกล่องข้อความ **ข้อความที่แปล** ให้ป้อนข้อความ</span><span class="sxs-lookup"><span data-stu-id="93540-149">In the **Translated text** text box, enter the text.</span></span>
-    4. <span data-ttu-id="93540-150">เมื่อต้องการปรับแต่งข้อความ ให้แทรกตัวยึดตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="93540-150">To personalize the text, insert placeholders.</span></span>
-    5. <span data-ttu-id="93540-151">คลิก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="93540-151">Click **Close**.</span></span>
+    1. <span data-ttu-id="45c0b-147">คลิก **เพิ่ม**</span><span class="sxs-lookup"><span data-stu-id="45c0b-147">Click **Add**.</span></span>
+    2. <span data-ttu-id="45c0b-148">ในรายการที่ปรากฏ ให้เลือกภาษาที่คุณจะป้อนข้อความ</span><span class="sxs-lookup"><span data-stu-id="45c0b-148">In the list that is displayed, select the language in which you will enter the text.</span></span>
+    3. <span data-ttu-id="45c0b-149">ในกล่องข้อความ **ข้อความที่แปล** ให้ป้อนข้อความ</span><span class="sxs-lookup"><span data-stu-id="45c0b-149">In the **Translated text** text box, enter the text.</span></span>
+    4. <span data-ttu-id="45c0b-150">เมื่อต้องการปรับแต่งข้อความ ให้แทรกตัวยึดตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="45c0b-150">To personalize the text, insert placeholders.</span></span>
+    5. <span data-ttu-id="45c0b-151">คลิก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="45c0b-151">Click **Close**.</span></span>
 
-8. <span data-ttu-id="93540-152">คลิกแท็บ **ผู้รับ**</span><span class="sxs-lookup"><span data-stu-id="93540-152">Click the **Recipient** tab.</span></span>
-9. <span data-ttu-id="93540-153">ระบุว่าจะส่งการแจ้งเตือนให้ใคร</span><span class="sxs-lookup"><span data-stu-id="93540-153">Specify who the notifications are sent to.</span></span> <span data-ttu-id="93540-154">เลือกหนึ่งในตัวเลือกในตารางต่อไปนี้ และทำตามขั้นตอนเพิ่มเติมสำหรับตัวเลือกนั้นก่อนที่คุณจะไปยังขั้นตอนที่ 10</span><span class="sxs-lookup"><span data-stu-id="93540-154">Select one of the options in the following table, and then follow the additional steps for the option before you go to step 10.</span></span>
+8. <span data-ttu-id="45c0b-152">คลิกแท็บ **ผู้รับ**</span><span class="sxs-lookup"><span data-stu-id="45c0b-152">Click the **Recipient** tab.</span></span>
+9. <span data-ttu-id="45c0b-153">ระบุว่าจะส่งการแจ้งเตือนให้ใคร</span><span class="sxs-lookup"><span data-stu-id="45c0b-153">Specify who the notifications are sent to.</span></span> <span data-ttu-id="45c0b-154">เลือกหนึ่งในตัวเลือกในตารางต่อไปนี้ และทำตามขั้นตอนเพิ่มเติมสำหรับตัวเลือกนั้นก่อนที่คุณจะไปยังขั้นตอนที่ 10</span><span class="sxs-lookup"><span data-stu-id="45c0b-154">Select one of the options in the following table, and then follow the additional steps for the option before you go to step 10.</span></span>
 
     <table>
     <thead>
     <tr>
-    <th><span data-ttu-id="93540-155">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="93540-155">Option</span></span></th>
-    <th><span data-ttu-id="93540-156">ผู้รับการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="93540-156">Notification recipients</span></span></th>
-    <th><span data-ttu-id="93540-157">ขั้นตอนเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="93540-157">Additional steps</span></span></th>
+    <th><span data-ttu-id="45c0b-155">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="45c0b-155">Option</span></span></th>
+    <th><span data-ttu-id="45c0b-156">ผู้รับการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="45c0b-156">Notification recipients</span></span></th>
+    <th><span data-ttu-id="45c0b-157">ขั้นตอนเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="45c0b-157">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr>
-    <td><span data-ttu-id="93540-158"><strong>ผู้เข้าร่วม</strong></span><span class="sxs-lookup"><span data-stu-id="93540-158"><strong>Participant</strong></span></span></td>
-    <td><span data-ttu-id="93540-159">ผู้ใช้ที่กำหนดให้กับกลุ่มหรือบทบาทที่เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="93540-159">Users who are assigned to a specific group or role</span></span></td>
+    <td><span data-ttu-id="45c0b-158"><strong>ผู้เข้าร่วม</strong></span><span class="sxs-lookup"><span data-stu-id="45c0b-158"><strong>Participant</strong></span></span></td>
+    <td><span data-ttu-id="45c0b-159">ผู้ใช้ที่กำหนดให้กับกลุ่มหรือบทบาทที่เฉพาะเจาะจง</span><span class="sxs-lookup"><span data-stu-id="45c0b-159">Users who are assigned to a specific group or role</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="93540-160">หลังจากที่คุณเลือก <strong>ผู้เข้าร่วม</strong>คลิกที่แท็บ <strong>ตามบทบาท</strong></span><span class="sxs-lookup"><span data-stu-id="93540-160">After you select <strong>Participant</strong>, click the <strong>Role based</strong> tab.</span></span></li>
-    <li><span data-ttu-id="93540-161">ในรายการ <strong>ชนิดของผู้เข้าร่วม</strong> เลือกชนิดของกลุ่มหรือบทบาทที่จะส่งการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="93540-161">In the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
-    <li><span data-ttu-id="93540-162">ในรายการ <strong>ผู้เข้าร่วม</strong> เลือกกลุ่มหรือบทบาทที่จะส่งการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="93540-162">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="45c0b-160">หลังจากที่คุณเลือก <strong>ผู้เข้าร่วม</strong>คลิกที่แท็บ <strong>ตามบทบาท</strong></span><span class="sxs-lookup"><span data-stu-id="45c0b-160">After you select <strong>Participant</strong>, click the <strong>Role based</strong> tab.</span></span></li>
+    <li><span data-ttu-id="45c0b-161">ในรายการ <strong>ชนิดของผู้เข้าร่วม</strong> เลือกชนิดของกลุ่มหรือบทบาทที่จะส่งการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="45c0b-161">In the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="45c0b-162">ในรายการ <strong>ผู้เข้าร่วม</strong> เลือกกลุ่มหรือบทบาทที่จะส่งการแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="45c0b-162">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="93540-163"><strong>ผู้ใช้ลำดับงาน</strong></span><span class="sxs-lookup"><span data-stu-id="93540-163"><strong>Workflow user</strong></span></span></td>
-    <td><span data-ttu-id="93540-164">ผู้ใช้ที่เข้าร่วมในลำดับงานปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="93540-164">Users who participate in the current workflow</span></span></td>
+    <td><span data-ttu-id="45c0b-163"><strong>ผู้ใช้ลำดับงาน</strong></span><span class="sxs-lookup"><span data-stu-id="45c0b-163"><strong>Workflow user</strong></span></span></td>
+    <td><span data-ttu-id="45c0b-164">ผู้ใช้ที่เข้าร่วมในลำดับงานปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="45c0b-164">Users who participate in the current workflow</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="93540-165">หลังจากที่คุณเลือก <strong>ผู้ใช้ลำดับงาน</strong>คลิกแท็บ <strong>ผู้ใช้ลำดับงาน</strong></span><span class="sxs-lookup"><span data-stu-id="93540-165">After you select <strong>Workflow user</strong>, click the <strong>Workflow user</strong> tab.</span></span></li>
-    <li><span data-ttu-id="93540-166">ในรายการ <strong>ผู้ใช้ลำดับงาน</strong> เลือกผู้ใช้ที่เข้าร่วมในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="93540-166">In the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+    <li><span data-ttu-id="45c0b-165">หลังจากที่คุณเลือก <strong>ผู้ใช้ลำดับงาน</strong>คลิกแท็บ <strong>ผู้ใช้ลำดับงาน</strong></span><span class="sxs-lookup"><span data-stu-id="45c0b-165">After you select <strong>Workflow user</strong>, click the <strong>Workflow user</strong> tab.</span></span></li>
+    <li><span data-ttu-id="45c0b-166">ในรายการ <strong>ผู้ใช้ลำดับงาน</strong> เลือกผู้ใช้ที่เข้าร่วมในลำดับงาน</span><span class="sxs-lookup"><span data-stu-id="45c0b-166">In the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="93540-167"><strong>ผู้ใช้</strong></span><span class="sxs-lookup"><span data-stu-id="93540-167"><strong>User</strong></span></span></td>
-    <td><span data-ttu-id="93540-168">ผู้ใช้ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="93540-168">Specific users</span></span></td>
+    <td><span data-ttu-id="45c0b-167"><strong>ผู้ใช้</strong></span><span class="sxs-lookup"><span data-stu-id="45c0b-167"><strong>User</strong></span></span></td>
+    <td><span data-ttu-id="45c0b-168">ผู้ใช้ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="45c0b-168">Specific users</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="93540-169">หลังจากที่คุณเลือก <strong>ผู้ใช้</strong>คลิกแท็บ <strong>ผู้ใช้</strong></span><span class="sxs-lookup"><span data-stu-id="93540-169">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="93540-170">เลือกผู้ใช้ที่จะส่งการแจ้งเตือนให้ และจากนั้นย้ายผู้ใช้เหล่านี้ไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong> :</span><span class="sxs-lookup"><span data-stu-id="93540-170">Select the users to send notifications to, and then move these users to the <strong>Selected users</strong> list.</span></span></li>
+    <li><span data-ttu-id="45c0b-169">หลังจากที่คุณเลือก <strong>ผู้ใช้</strong>คลิกแท็บ <strong>ผู้ใช้</strong></span><span class="sxs-lookup"><span data-stu-id="45c0b-169">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="45c0b-170">เลือกผู้ใช้ที่จะส่งการแจ้งเตือนให้ และจากนั้นย้ายผู้ใช้เหล่านี้ไปยังรายการ <strong>ผู้ใช้ที่เลือก</strong> :</span><span class="sxs-lookup"><span data-stu-id="45c0b-170">Select the users to send notifications to, and then move these users to the <strong>Selected users</strong> list.</span></span></li>
     </ol>
     </td>
     </tr>
     </tbody>
     </table>
 
-10. <span data-ttu-id="93540-171">ทำซ้ำขั้นตอนที่ 3 ถึง 9 สำหรับแต่ละเหตุการณ์ที่คุณเลือกไว้ในขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="93540-171">Repeat steps 3 through 9 for each event that you selected in step 2.</span></span>
+10. <span data-ttu-id="45c0b-171">ทำซ้ำขั้นตอนที่ 3 ถึง 9 สำหรับแต่ละเหตุการณ์ที่คุณเลือกไว้ในขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="45c0b-171">Repeat steps 3 through 9 for each event that you selected in step 2.</span></span>
 
-## <a name="specify-a-final-approver"></a><span data-ttu-id="93540-172"> ระบุผู้อนุมัติขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="93540-172">Specify a final approver</span></span>
+## <a name="specify-a-final-approver"></a><span data-ttu-id="45c0b-172"> ระบุผู้อนุมัติขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="45c0b-172">Specify a final approver</span></span>
 
-<span data-ttu-id="93540-173">คุณอาจต้องการแต่งตั้งผู้อนุมัติขั้นสุดท้ายสำหรับสถานการณ์จำลองที่ผู้อนุมัติเป็นบุคคลที่ส่งเอกสารเพื่อการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-173">You may want to designate a final approver for scenarios where the approver is the person who submitted the document for approval.</span></span> <span data-ttu-id="93540-174">ทำตามขั้นตอนเหล่านี้เพื่อระบุผู้อนุมัติขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="93540-174">Follow these steps to specify a final approver.</span></span>
+<span data-ttu-id="45c0b-173">คุณอาจต้องการแต่งตั้งผู้อนุมัติขั้นสุดท้ายสำหรับสถานการณ์จำลองที่ผู้อนุมัติเป็นบุคคลที่ส่งเอกสารเพื่อการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-173">You may want to designate a final approver for scenarios where the approver is the person who submitted the document for approval.</span></span> <span data-ttu-id="45c0b-174">ทำตามขั้นตอนเหล่านี้เพื่อระบุผู้อนุมัติขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="45c0b-174">Follow these steps to specify a final approver.</span></span>
 
-1. <span data-ttu-id="93540-175">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าขั้นสูง**</span><span class="sxs-lookup"><span data-stu-id="93540-175">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="93540-176">เลือกกล่องกาเครื่องหมาย **ใช้ผู้อนุมัติขั้นสุดท้าย**</span><span class="sxs-lookup"><span data-stu-id="93540-176">Select the **Use final approver** check box.</span></span>
-3. <span data-ttu-id="93540-177">ในรายการ เลือกผู้ใช้ที่จะเป็นผู้อนุมัติขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="93540-177">In the list, select the user to be the final approver.</span></span>
+1. <span data-ttu-id="45c0b-175">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าขั้นสูง**</span><span class="sxs-lookup"><span data-stu-id="45c0b-175">In the left pane, click **Advanced settings**.</span></span>
+2. <span data-ttu-id="45c0b-176">เลือกกล่องกาเครื่องหมาย **ใช้ผู้อนุมัติขั้นสุดท้าย**</span><span class="sxs-lookup"><span data-stu-id="45c0b-176">Select the **Use final approver** check box.</span></span>
+3. <span data-ttu-id="45c0b-177">ในรายการ เลือกผู้ใช้ที่จะเป็นผู้อนุมัติขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="45c0b-177">In the list, select the user to be the final approver.</span></span>
 
-## <a name="set-a-time-limit"></a><span data-ttu-id="93540-178">การกำหนดขอบเขตเวลา</span><span class="sxs-lookup"><span data-stu-id="93540-178">Set a time limit</span></span>
+## <a name="set-a-time-limit"></a><span data-ttu-id="45c0b-178">การกำหนดขอบเขตเวลา</span><span class="sxs-lookup"><span data-stu-id="45c0b-178">Set a time limit</span></span>
 
-<span data-ttu-id="93540-179">ทำตามขั้นตอนเหล่านี้ถ้าต้องดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์ในเวลาที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="93540-179">Follow these steps if the approval process must be completed in a specific time.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="93540-180">ตัวเลือกที่คุณเลือกในขั้นตอนเหล่านี้จะแทนที่ตัวเลือกที่คุณเลือกในพื้นที่ **การกำหนด** และ **การเลื่อนระดับ** ของขั้นตอนการอนุมัติต่างๆ</span><span class="sxs-lookup"><span data-stu-id="93540-180">The options that you select in these steps override the options that you selected in the **Assignment** and **Escalation** areas of each approval step.</span></span>
-
-1. <span data-ttu-id="93540-181">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าขั้นสูง**</span><span class="sxs-lookup"><span data-stu-id="93540-181">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="93540-182">เลือกกล่องกาเครื่องหมาย **ตั้งค่าขีดจำกัดเวลาสำหรับ** **องค์ประกอบลำดับงาน**</span><span class="sxs-lookup"><span data-stu-id="93540-182">Select the **Set a time limit for the workflow** **element** check box.</span></span>
-3. <span data-ttu-id="93540-183">ในฟิลด์ **ระยะเวลา** ระบุเวลาที่ต้องดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="93540-183">In the **Duration** field, specify when the approval process must be completed.</span></span> <span data-ttu-id="93540-184">เลือกหนึ่งในตัวเลือกต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="93540-184">Select one of the following options:</span></span>
-
-    - <span data-ttu-id="93540-185">**ชั่วโมง** – ป้อนจำนวนชั่วโมงที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="93540-185">**Hours** – Enter the number of hours in which the approval process must be completed.</span></span> <span data-ttu-id="93540-186">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="93540-186">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="93540-187">**วัน** – ป้อนจำนวนวันที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="93540-187">**Days** – Enter the number of days in which the approval process must be completed.</span></span> <span data-ttu-id="93540-188">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="93540-188">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="93540-189">**สัปดาห์** – ป้อนจำนวนสัปดาห์ที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="93540-189">**Weeks** – Enter the number of weeks in which the approval process must be completed.</span></span>
-    - <span data-ttu-id="93540-190">**เดือน** – เลือกวันและสัปดาห์ที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="93540-190">**Months** – Select the day and week by which the approval process must be completed.</span></span> <span data-ttu-id="93540-191">ตัวอย่างเช่น คุณอาจต้องการดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์ภายในวันศุกร์ของสัปดาห์ที่สามของเดือน</span><span class="sxs-lookup"><span data-stu-id="93540-191">For example, you may want the approval process to be completed by Friday of the third week of the month.</span></span>
-    - <span data-ttu-id="93540-192">**ปี** – เลือกวัน สัปดาห์ และเดือนที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="93540-192">**Years** – Select the day, week, and month by which the approval process must be completed.</span></span> <span data-ttu-id="93540-193">ตัวอย่างเช่น คุณอาจต้องการดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์ภายในวันศุกร์ของสัปดาห์ที่สามของเดือนธันวาคม</span><span class="sxs-lookup"><span data-stu-id="93540-193">For example, you may want the approval process to be completed by Friday of the third week of December.</span></span>
-
-4. <span data-ttu-id="93540-194">ระบบจะดำเนินการกับเอกสารหากเกินขอบเขตเวลา</span><span class="sxs-lookup"><span data-stu-id="93540-194">If the time limit is exceeded, the system acts on the document.</span></span> <span data-ttu-id="93540-195">ในรายการ **การดำเนินการ** เลือกการดำเนินการที่ระบบควรใช้</span><span class="sxs-lookup"><span data-stu-id="93540-195">In the **Action** list, select the action that the system should take.</span></span>
-
-## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="93540-196">ระบุการดำเนินการที่ผู้ใช้ใช้งานได้</span><span class="sxs-lookup"><span data-stu-id="93540-196">Specify which actions are available to the user</span></span>
-
-<span data-ttu-id="93540-197">เมื่อมีการกำหนดเอกสารให้กับผู้ใช้รายอื่นเป็นผู้อนุมัติ ผู้อนุมัติจะต้องดำเนินการกับเอกสาร</span><span class="sxs-lookup"><span data-stu-id="93540-197">When a document is assigned to a user for approval, the user must act on the document.</span></span> <span data-ttu-id="93540-198">ทำตามขั้นตอนเหล่านี้เพื่อระบุการดำเนินการที่ผู้ใช้สามารถใช้กับเอกสารที่ส่งได้</span><span class="sxs-lookup"><span data-stu-id="93540-198">Follows these steps to specify which actions the user can take on the document that was submitted.</span></span>
-
-1. <span data-ttu-id="93540-199">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าขั้นสูง**</span><span class="sxs-lookup"><span data-stu-id="93540-199">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="93540-200">เลือกกล่องกาเครื่องหมาย **อนุมัติ** ถ้าผู้ใช้สามารถอนุมัติเอกสารได้</span><span class="sxs-lookup"><span data-stu-id="93540-200">Select the **Approve** check box if the user can approve the document.</span></span>
-3. <span data-ttu-id="93540-201">เลือกกล่องกาเครื่องหมาย **ปฏิเสธ** ถ้าผู้ใช้สามารถปฏิเสธเอกสารได้</span><span class="sxs-lookup"><span data-stu-id="93540-201">Select the **Reject** check box the user can reject the document.</span></span>
-4. <span data-ttu-id="93540-202">เลือกกล่องกาเครื่องหมาย  **ร้องขอการเปลี่ยนแปลง** ถ้าผู้ใช้สามารถร้องขอการเปลี่ยนแปลงเอกสารได้</span><span class="sxs-lookup"><span data-stu-id="93540-202">Select the **Request change** check box the user can request changes to the document.</span></span>
-5. <span data-ttu-id="93540-203">เลือกกล่องกาเครื่องหมาย **มอบหมาย** ถ้าผู้ใช้สามารถมอบหมายเอกสารให้กับผู้ใช้รายอื่นเพื่อขออนุมัติได้</span><span class="sxs-lookup"><span data-stu-id="93540-203">Select the **Delegate** check box if the user can assign the document to another user for approval.</span></span>
+<span data-ttu-id="45c0b-179">ทำตามขั้นตอนเหล่านี้ถ้าต้องดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์ในเวลาที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="45c0b-179">Follow these steps if the approval process must be completed in a specific time.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="93540-204">กล่องกาเครื่องหมาย **เปิดใช้งานการดำเนินการจากรายการงานในเว็บไซต์องค์กร** ไม่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="93540-204">The **Enable actions from the work list in Enterprise Portal** check box has been deprecated.</span></span>
+> <span data-ttu-id="45c0b-180">ตัวเลือกที่คุณเลือกในขั้นตอนเหล่านี้จะแทนที่ตัวเลือกที่คุณเลือกในพื้นที่ **การกำหนด** และ **การเลื่อนระดับ** ของขั้นตอนการอนุมัติต่างๆ</span><span class="sxs-lookup"><span data-stu-id="45c0b-180">The options that you select in these steps override the options that you selected in the **Assignment** and **Escalation** areas of each approval step.</span></span>
 
-## <a name="configure-the-approval-steps"></a><span data-ttu-id="93540-205"> ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-205">Configure the approval steps</span></span>
+1. <span data-ttu-id="45c0b-181">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าขั้นสูง**</span><span class="sxs-lookup"><span data-stu-id="45c0b-181">In the left pane, click **Advanced settings**.</span></span>
+2. <span data-ttu-id="45c0b-182">เลือกกล่องกาเครื่องหมาย **ตั้งค่าขีดจำกัดเวลาสำหรับ** **องค์ประกอบลำดับงาน**</span><span class="sxs-lookup"><span data-stu-id="45c0b-182">Select the **Set a time limit for the workflow** **element** check box.</span></span>
+3. <span data-ttu-id="45c0b-183">ในฟิลด์ **ระยะเวลา** ระบุเวลาที่ต้องดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="45c0b-183">In the **Duration** field, specify when the approval process must be completed.</span></span> <span data-ttu-id="45c0b-184">เลือกหนึ่งในตัวเลือกต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="45c0b-184">Select one of the following options:</span></span>
 
-<span data-ttu-id="93540-206">กระบวนการอนุมัติประกอบด้วยขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-206">An approval process consists of approval steps.</span></span> <span data-ttu-id="93540-207">ทำตามขั้นตอนต่อไปนี้เพื่อเพิ่มขั้นตอนกระบวนการอนุมัติและขั้นตอนการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="93540-207">Complete the following procedure to add steps the approval process and configure the steps.</span></span>
+    - <span data-ttu-id="45c0b-185">**ชั่วโมง** – ป้อนจำนวนชั่วโมงที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="45c0b-185">**Hours** – Enter the number of hours in which the approval process must be completed.</span></span> <span data-ttu-id="45c0b-186">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="45c0b-186">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="45c0b-187">**วัน** – ป้อนจำนวนวันที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="45c0b-187">**Days** – Enter the number of days in which the approval process must be completed.</span></span> <span data-ttu-id="45c0b-188">แล้วเลือกปฏิทินที่องค์กรของคุณใช้ และป้อนข้อมูลเกี่ยวกับสัปดาห์ทำงานขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="45c0b-188">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="45c0b-189">**สัปดาห์** – ป้อนจำนวนสัปดาห์ที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="45c0b-189">**Weeks** – Enter the number of weeks in which the approval process must be completed.</span></span>
+    - <span data-ttu-id="45c0b-190">**เดือน** – เลือกวันและสัปดาห์ที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="45c0b-190">**Months** – Select the day and week by which the approval process must be completed.</span></span> <span data-ttu-id="45c0b-191">ตัวอย่างเช่น คุณอาจต้องการดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์ภายในวันศุกร์ของสัปดาห์ที่สามของเดือน</span><span class="sxs-lookup"><span data-stu-id="45c0b-191">For example, you may want the approval process to be completed by Friday of the third week of the month.</span></span>
+    - <span data-ttu-id="45c0b-192">**ปี** – เลือกวัน สัปดาห์ และเดือนที่กระบวนการอนุมัติจะเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="45c0b-192">**Years** – Select the day, week, and month by which the approval process must be completed.</span></span> <span data-ttu-id="45c0b-193">ตัวอย่างเช่น คุณอาจต้องการดำเนินกระบวนการอนุมัติให้เสร็จสมบูรณ์ภายในวันศุกร์ของสัปดาห์ที่สามของเดือนธันวาคม</span><span class="sxs-lookup"><span data-stu-id="45c0b-193">For example, you may want the approval process to be completed by Friday of the third week of December.</span></span>
 
-1. <span data-ttu-id="93540-208">ในโปรแกรมแก้ไขลำดับงาน ดับเบิลคลิกที่กระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-208">In the workflow editor, double-click the approval process.</span></span> <span data-ttu-id="93540-209">โปรแกรมแก้ไขลำดับงานแสดงขั้นตอนกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="93540-209">The workflow editor displays the steps of the approval process.</span></span>
-2. <span data-ttu-id="93540-210">เมื่อต้องการเพิ่มขั้นตอนการอนุมัติ ลากขั้นตอนจากพื้นที่ **องค์ประกอบลำดับงาน** ไปที่ผืนผ้าใบ</span><span class="sxs-lookup"><span data-stu-id="93540-210">To add an approval step, drag the step from the **Workflow elements** area to the canvas.</span></span>
-3. <span data-ttu-id="93540-211">เมื่อต้องการตั้งค่าคอนฟิกขั้นตอนการอนุมัติ ให้ดูที่ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ](configure-approval-step-workflow.md)</span><span class="sxs-lookup"><span data-stu-id="93540-211">To configure an approval step, see [Configure an approval step](configure-approval-step-workflow.md).</span></span>
+4. <span data-ttu-id="45c0b-194">ระบบจะดำเนินการกับเอกสารหากเกินขอบเขตเวลา</span><span class="sxs-lookup"><span data-stu-id="45c0b-194">If the time limit is exceeded, the system acts on the document.</span></span> <span data-ttu-id="45c0b-195">ในรายการ **การดำเนินการ** เลือกการดำเนินการที่ระบบควรใช้</span><span class="sxs-lookup"><span data-stu-id="45c0b-195">In the **Action** list, select the action that the system should take.</span></span>
+
+## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="45c0b-196">ระบุการดำเนินการที่ผู้ใช้ใช้งานได้</span><span class="sxs-lookup"><span data-stu-id="45c0b-196">Specify which actions are available to the user</span></span>
+
+<span data-ttu-id="45c0b-197">เมื่อมีการกำหนดเอกสารให้กับผู้ใช้รายอื่นเป็นผู้อนุมัติ ผู้อนุมัติจะต้องดำเนินการกับเอกสาร</span><span class="sxs-lookup"><span data-stu-id="45c0b-197">When a document is assigned to a user for approval, the user must act on the document.</span></span> <span data-ttu-id="45c0b-198">ทำตามขั้นตอนเหล่านี้เพื่อระบุการดำเนินการที่ผู้ใช้สามารถใช้กับเอกสารที่ส่งได้</span><span class="sxs-lookup"><span data-stu-id="45c0b-198">Follows these steps to specify which actions the user can take on the document that was submitted.</span></span>
+
+1. <span data-ttu-id="45c0b-199">ในบานหน้าต่างทางซ้าย ให้คลิก **การตั้งค่าขั้นสูง**</span><span class="sxs-lookup"><span data-stu-id="45c0b-199">In the left pane, click **Advanced settings**.</span></span>
+2. <span data-ttu-id="45c0b-200">เลือกกล่องกาเครื่องหมาย **อนุมัติ** ถ้าผู้ใช้สามารถอนุมัติเอกสารได้</span><span class="sxs-lookup"><span data-stu-id="45c0b-200">Select the **Approve** check box if the user can approve the document.</span></span>
+3. <span data-ttu-id="45c0b-201">เลือกกล่องกาเครื่องหมาย **ปฏิเสธ** ถ้าผู้ใช้สามารถปฏิเสธเอกสารได้</span><span class="sxs-lookup"><span data-stu-id="45c0b-201">Select the **Reject** check box the user can reject the document.</span></span>
+4. <span data-ttu-id="45c0b-202">เลือกกล่องกาเครื่องหมาย  **ร้องขอการเปลี่ยนแปลง** ถ้าผู้ใช้สามารถร้องขอการเปลี่ยนแปลงเอกสารได้</span><span class="sxs-lookup"><span data-stu-id="45c0b-202">Select the **Request change** check box the user can request changes to the document.</span></span>
+5. <span data-ttu-id="45c0b-203">เลือกกล่องกาเครื่องหมาย **มอบหมาย** ถ้าผู้ใช้สามารถมอบหมายเอกสารให้กับผู้ใช้รายอื่นเพื่อขออนุมัติได้</span><span class="sxs-lookup"><span data-stu-id="45c0b-203">Select the **Delegate** check box if the user can assign the document to another user for approval.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="45c0b-204">กล่องกาเครื่องหมาย **เปิดใช้งานการดำเนินการจากรายการงานในเว็บไซต์องค์กร** ไม่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="45c0b-204">The **Enable actions from the work list in Enterprise Portal** check box has been deprecated.</span></span>
+
+## <a name="configure-the-approval-steps"></a><span data-ttu-id="45c0b-205"> ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-205">Configure the approval steps</span></span>
+
+<span data-ttu-id="45c0b-206">กระบวนการอนุมัติประกอบด้วยขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-206">An approval process consists of approval steps.</span></span> <span data-ttu-id="45c0b-207">ทำตามขั้นตอนต่อไปนี้เพื่อเพิ่มขั้นตอนกระบวนการอนุมัติและขั้นตอนการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="45c0b-207">Complete the following procedure to add steps the approval process and configure the steps.</span></span>
+
+1. <span data-ttu-id="45c0b-208">ในโปรแกรมแก้ไขลำดับงาน ดับเบิลคลิกที่กระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-208">In the workflow editor, double-click the approval process.</span></span> <span data-ttu-id="45c0b-209">โปรแกรมแก้ไขลำดับงานแสดงขั้นตอนกระบวนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="45c0b-209">The workflow editor displays the steps of the approval process.</span></span>
+2. <span data-ttu-id="45c0b-210">เมื่อต้องการเพิ่มขั้นตอนการอนุมัติ ลากขั้นตอนจากพื้นที่ **องค์ประกอบลำดับงาน** ไปที่ผืนผ้าใบ</span><span class="sxs-lookup"><span data-stu-id="45c0b-210">To add an approval step, drag the step from the **Workflow elements** area to the canvas.</span></span>
+3. <span data-ttu-id="45c0b-211">การตั้งค่าคอนฟิกขั้นตอนการอนุมัติ ให้ดูที่ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในเวอร์กโฟลว์](configure-approval-step-workflow.md)</span><span class="sxs-lookup"><span data-stu-id="45c0b-211">To configure an approval step, see [Configure approval steps in a workflow](configure-approval-step-workflow.md).</span></span>

@@ -16,49 +16,49 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1fac239524d4873a782e6a3d177a573a382d0f6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 55853418eacd179b7bb50b7e4385300bdcb27abe
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552059"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812913"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a><span data-ttu-id="c127f-104">สร้างเท็มเพลตการเตรียมความพร้อมโดยใช้ Dynamics 365 Talent - Onboard</span><span class="sxs-lookup"><span data-stu-id="c127f-104">Create an onboarding template by using Dynamics 365 Talent - Onboard</span></span>
+# <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a><span data-ttu-id="3ac16-104">สร้างเท็มเพลตการเตรียมความพร้อมโดยใช้ Dynamics 365 Talent - Onboard</span><span class="sxs-lookup"><span data-stu-id="3ac16-104">Create an onboarding template by using Dynamics 365 Talent - Onboard</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="c127f-105">Microsoft Dynamics 365 Talent: Onboard ให้เท็มเพลตแบบต่างๆที่สามารถช่วยคุณสร้างคู่มือการเตรียมควาพร้อมโดยเร็วที่สุดเท่าที่จะเป็นไปได้</span><span class="sxs-lookup"><span data-stu-id="c127f-105">Microsoft Dynamics 365 Talent: Onboard provides various templates that can help you create an onboarding guide as quickly as possible.</span></span> <span data-ttu-id="c127f-106">คุณสามารถใช้เท็มเพลตเหล่านี้อย่างน้อยหนึ่งรายการ หรือคุณสามารถสร้างเท็มเพลตของตนเองได้</span><span class="sxs-lookup"><span data-stu-id="c127f-106">You can use one or more of these templates, or you can create your own templates.</span></span> <span data-ttu-id="c127f-107">Onboard แสดงข้อความตัวอย่างที่คุณสามารถใช้เมื่อสร้างเท็มเพลตของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="c127f-107">Onboard provides sample text that you can use when you create your own templates.</span></span> <span data-ttu-id="c127f-108">ดังนั้น กระบวนการจึงเป็นเรื่องง่ายแม้ว่าคุณจะเริ่มตั้งแต่ต้น</span><span class="sxs-lookup"><span data-stu-id="c127f-108">Therefore, the process is easy even if you start from scratch.</span></span>
+<span data-ttu-id="3ac16-105">Microsoft Dynamics 365 Talent: Onboard ให้เท็มเพลตแบบต่างๆที่สามารถช่วยคุณสร้างคู่มือการเตรียมควาพร้อมโดยเร็วที่สุดเท่าที่จะเป็นไปได้</span><span class="sxs-lookup"><span data-stu-id="3ac16-105">Microsoft Dynamics 365 Talent: Onboard provides various templates that can help you create an onboarding guide as quickly as possible.</span></span> <span data-ttu-id="3ac16-106">คุณสามารถใช้เท็มเพลตเหล่านี้อย่างน้อยหนึ่งรายการ หรือคุณสามารถสร้างเท็มเพลตของตนเองได้</span><span class="sxs-lookup"><span data-stu-id="3ac16-106">You can use one or more of these templates, or you can create your own templates.</span></span> <span data-ttu-id="3ac16-107">Onboard แสดงข้อความตัวอย่างที่คุณสามารถใช้เมื่อสร้างเท็มเพลตของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="3ac16-107">Onboard provides sample text that you can use when you create your own templates.</span></span> <span data-ttu-id="3ac16-108">ดังนั้น กระบวนการจึงเป็นเรื่องง่ายแม้ว่าคุณจะเริ่มตั้งแต่ต้น</span><span class="sxs-lookup"><span data-stu-id="3ac16-108">Therefore, the process is easy even if you start from scratch.</span></span>
 
-## <a name="create-an-onboarding-template-from-an-existing-template"></a><span data-ttu-id="c127f-109">การสร้างเท็มเพลการเตรียมควาพร้อมจากเท็มเพลตที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="c127f-109">Create an onboarding template from an existing template</span></span>
+## <a name="create-an-onboarding-template-from-an-existing-template"></a><span data-ttu-id="3ac16-109">การสร้างเท็มเพลการเตรียมควาพร้อมจากเท็มเพลตที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="3ac16-109">Create an onboarding template from an existing template</span></span>
 
-1. <span data-ttu-id="c127f-110">บนเมนูด้านซ้าย ให้เลือก **เท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="c127f-110">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="c127f-111">ภายใต้ **เท็มเพลตยอดนิยมจากแกลเลอรี** หรือ **เท็มเพลตของฉัน** ให้เลือกเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="c127f-111">Under **Popular templates from the gallery** or **My templates**, select a template.</span></span> <span data-ttu-id="c127f-112">เมื่อต้องการดูเท็มเพลตเพิ่มเติม ให้เลือก **รายการเพิ่มเติมในแกลเลอรีเท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="c127f-112">To view more templates, select **More in template gallery**.</span></span>
-3. <span data-ttu-id="c127f-113">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="c127f-113">Follow one of these steps:</span></span>
+1. <span data-ttu-id="3ac16-110">บนเมนูด้านซ้าย ให้เลือก **เท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="3ac16-110">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="3ac16-111">ภายใต้ **เท็มเพลตยอดนิยมจากแกลเลอรี** หรือ **เท็มเพลตของฉัน** ให้เลือกเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="3ac16-111">Under **Popular templates from the gallery** or **My templates**, select a template.</span></span> <span data-ttu-id="3ac16-112">เมื่อต้องการดูเท็มเพลตเพิ่มเติม ให้เลือก **รายการเพิ่มเติมในแกลเลอรีเท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="3ac16-112">To view more templates, select **More in template gallery**.</span></span>
+3. <span data-ttu-id="3ac16-113">ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="3ac16-113">Follow one of these steps:</span></span>
 
-    - <span data-ttu-id="c127f-114">ถ้าเท็มเพลตมาจากแกลเลอรี ให้เลือก **บันทึกเป็นเท็มเพลตของฉัน** ป้อนชื่อใหม่สำหรับเท็มเพลต และเลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c127f-114">If the template is from the gallery, select **Save as my template**, enter a new name for the template, and select **Save**.</span></span>
-    - <span data-ttu-id="c127f-115">ถ้าเท็มเพลตมาจาก **เท็มเพลตของฉัน** ให้เลือก **บันทึกเป็นเท็มเพลต** ป้อนชื่อใหม่สำหรับเท็มเพลต และเลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c127f-115">If the template is from **My templates**, select **Save as template**, enter a new name for the template, and select **Save**.</span></span>
+    - <span data-ttu-id="3ac16-114">ถ้าเท็มเพลตมาจากแกลเลอรี ให้เลือก **บันทึกเป็นเท็มเพลตของฉัน** ป้อนชื่อใหม่สำหรับเท็มเพลต และเลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="3ac16-114">If the template is from the gallery, select **Save as my template**, enter a new name for the template, and select **Save**.</span></span>
+    - <span data-ttu-id="3ac16-115">ถ้าเท็มเพลตมาจาก **เท็มเพลตของฉัน** ให้เลือก **บันทึกเป็นเท็มเพลต** ป้อนชื่อใหม่สำหรับเท็มเพลต และเลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="3ac16-115">If the template is from **My templates**, select **Save as template**, enter a new name for the template, and select **Save**.</span></span>
 
-    <span data-ttu-id="c127f-116">[![การสร้างเท็มเพลตจากเท็มเพลตที่มีอยู่](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span><span class="sxs-lookup"><span data-stu-id="c127f-116">[![Creating a template from an existing template](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span></span>
+    <span data-ttu-id="3ac16-116">[![การสร้างเท็มเพลตจากเท็มเพลตที่มีอยู่](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span><span class="sxs-lookup"><span data-stu-id="3ac16-116">[![Creating a template from an existing template](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span></span>
 
-## <a name="create-a-new-onboarding-template"></a><span data-ttu-id="c127f-117">สร้างเท็มเพลตการเตรียมความพร้อมใหม่</span><span class="sxs-lookup"><span data-stu-id="c127f-117">Create a new onboarding template</span></span>
+## <a name="create-a-new-onboarding-template"></a><span data-ttu-id="3ac16-117">สร้างเท็มเพลตการเตรียมความพร้อมใหม่</span><span class="sxs-lookup"><span data-stu-id="3ac16-117">Create a new onboarding template</span></span>
 
-1. <span data-ttu-id="c127f-118">บนเมนูด้านซ้าย ให้เลือก **เท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="c127f-118">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="c127f-119">ภายใต้ **เท็มเพลตของฉัน** ให้เลือก **เพิ่ม** ไทล์ (เครื่องหมายบวก \[**+**\])</span><span class="sxs-lookup"><span data-stu-id="c127f-119">Under **My templates**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
+1. <span data-ttu-id="3ac16-118">บนเมนูด้านซ้าย ให้เลือก **เท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="3ac16-118">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="3ac16-119">ภายใต้ **เท็มเพลตของฉัน** ให้เลือก **เพิ่ม** ไทล์ (เครื่องหมายบวก \[**+**\])</span><span class="sxs-lookup"><span data-stu-id="3ac16-119">Under **My templates**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
 
-    <span data-ttu-id="c127f-120">[![สร้างเท็มเพลตใหม่](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span><span class="sxs-lookup"><span data-stu-id="c127f-120">[![Creating a new template](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span></span>
+    <span data-ttu-id="3ac16-120">[![สร้างเท็มเพลตใหม่](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span><span class="sxs-lookup"><span data-stu-id="3ac16-120">[![Creating a new template](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span></span>
 
-3. <span data-ttu-id="c127f-121">ในกล่องโต้ตอบ **สร้างเท็มเพลตคู่มือ** ป้อนชื่อสำหรับเท็มเพลต และจากนั้น เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c127f-121">In the **Create a guide template** dialog box, enter a name for the template, and then select **Save**.</span></span>
+3. <span data-ttu-id="3ac16-121">ในกล่องโต้ตอบ **สร้างเท็มเพลตคู่มือ** ป้อนชื่อสำหรับเท็มเพลต และจากนั้น เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="3ac16-121">In the **Create a guide template** dialog box, enter a name for the template, and then select **Save**.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="c127f-122">ขั้นตอนถัดไป</span><span class="sxs-lookup"><span data-stu-id="c127f-122">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="3ac16-122">ขั้นตอนถัดไป</span><span class="sxs-lookup"><span data-stu-id="3ac16-122">Next steps</span></span>
 
-- [<span data-ttu-id="c127f-123">แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อม</span><span class="sxs-lookup"><span data-stu-id="c127f-123">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
-- [<span data-ttu-id="c127f-124">แบ่งปันเนื้อหากับผู้สนับสนุนอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="c127f-124">Share content with other contributors</span></span>](./onboard-share-template.md)
-- [<span data-ttu-id="c127f-125">ดูสถานะของงานและพนักงานการเตรียมความพร้อม</span><span class="sxs-lookup"><span data-stu-id="c127f-125">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
-- [<span data-ttu-id="c127f-126">สร้างทีมการจ้างงานใน Onboard</span><span class="sxs-lookup"><span data-stu-id="c127f-126">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
+- [<span data-ttu-id="3ac16-123">แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อม</span><span class="sxs-lookup"><span data-stu-id="3ac16-123">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
+- [<span data-ttu-id="3ac16-124">แบ่งปันเนื้อหากับผู้สนับสนุนอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="3ac16-124">Share content with other contributors</span></span>](./onboard-share-template.md)
+- [<span data-ttu-id="3ac16-125">ดูสถานะของงานและพนักงานการเตรียมความพร้อม</span><span class="sxs-lookup"><span data-stu-id="3ac16-125">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
+- [<span data-ttu-id="3ac16-126">สร้างทีมการจ้างงานใน Onboard</span><span class="sxs-lookup"><span data-stu-id="3ac16-126">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
 
-### <a name="see-also"></a><span data-ttu-id="c127f-127">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="c127f-127">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="3ac16-127">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="3ac16-127">See also</span></span>
 
-- [<span data-ttu-id="c127f-128">ลองหรือซื้อแอป Onboard</span><span class="sxs-lookup"><span data-stu-id="c127f-128">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="c127f-129">มีอะไรใหม่</span><span class="sxs-lookup"><span data-stu-id="c127f-129">What's new</span></span>](./whats-new.md)
-- [<span data-ttu-id="c127f-130">บันทึกย่อประจำรุ่น</span><span class="sxs-lookup"><span data-stu-id="c127f-130">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="c127f-131">รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="c127f-131">Get support</span></span>](./talent-support.md)
+- [<span data-ttu-id="3ac16-128">ลองหรือซื้อแอป Onboard</span><span class="sxs-lookup"><span data-stu-id="3ac16-128">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="3ac16-129">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="3ac16-129">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
+- [<span data-ttu-id="3ac16-130">แผนประจำรุ่น</span><span class="sxs-lookup"><span data-stu-id="3ac16-130">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="3ac16-131">รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="3ac16-131">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)
