@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626073"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694417"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (8 ตุลาคม 2019)
 
@@ -57,15 +57,15 @@ ms.locfileid: "2626073"
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การป้อนข้อมูลพนักงานที่มีประสิทธิภาพ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry) ใน Dynamics 365: 2019 แผนเวฟการออกใช้ 2
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>ปัญหา: Attract และ Onboard สร้างผู้ปฏิบัติงานที่ไม่ได้ใช้งานใน Core HR (380517)
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Attract และ Onboard สร้างผู้ปฏิบัติงานที่ไม่ได้ใช้งานใน Core HR (380517)
 
 การนำออกใช้ของสัปดาห์นี้แก้ไขปัญหาที่ Attract และ Onboard สร้างผู้ปฏิบัติงานที่ไม่ได้ใช้งานใน Core HR
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>ปัญหา: ลำดับงานล้มเหลว เมื่อผู้จัดการลงชื่อเข้าใช้ในบริษัทอื่น ในขณะที่เลิกว่าจ้างพนักงาน (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>ลำดับงานล้มเหลว เมื่อผู้จัดการลงชื่อเข้าใช้ในบริษัทอื่น ในขณะที่เลิกว่าจ้างพนักงาน (346852)
 
 ลำดับงานไม่ล้มเหลวอีกต่อไป ซึ่งขึ้นอยู่กับนิติบุคคลที่ผู้จัดการลงชื่อเข้าใช้
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>ปัญหา: ข้อมูลที่ขาดหายไปใน HcmOnboardingWorkerChecklistTaskEntity (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>ข้อมูลที่ขาดหายไปใน HcmOnboardingWorkerChecklistTaskEntity (349591)
 
 การนำออกใช้นี้ประกอบด้วยข้อมูลเพิ่มเติมใน **HcmOnboardingWorkerChecklistTaskEntity** ยกตัวอย่างเช่น
 
@@ -73,35 +73,35 @@ ms.locfileid: "2626073"
 - **ชื่อพนักงาน** เมื่อชนิดที่กำหนดคือ **พนักงาน**
 - **ชื่อผู้จัดการ** เมื่อชนิดที่กำหนดคือ **ผู้จัดการ**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>ปัญหา: ไม่แสดงรายการเอนทิตีตามลำดับตัวอักษรในการจัดการ Common Data Service (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>ไม่แสดงรายการเอนทิตีตามลำดับตัวอักษรในการจัดการ Common Data Service (377414)
 
 ขณะนี้มีการแสดงรายการเอนทิตีตามลำดับตัวอักษรในหน้า **การจัดการ CDS**
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>ปัญหา: การเปลี่ยนชนิดการจ้างงานที่มีวันที่ในอนาคตไม่อนุญาตให้มีการกำหนดตำแหน่งงาน (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>การเปลี่ยนชนิดการจ้างงานที่มีวันที่ในอนาคตไม่อนุญาตให้มีการกำหนดตำแหน่งงาน (339958)
 
 การเปลี่ยนแปลงนี้จะอนุญาตให้มีการกำหนดตำแหน่ง เมื่อมีการเปลี่ยนแปลงชนิดผู้ปฏิบัติงาน (ตัวอย่างเช่น จากพนักงานเป็นผู้รับเหมา)
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>ปัญหา: การอัพเดต Common Data Service เอนทิตีธุรกรรมการออกจากธนาคารจะสร้างเรกคอร์ดใหม่ใน Talent (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>การอัพเดต เอนทิตีธุรกรรมการออกจากธนาคารใน Common Data Service จะสร้างเรกคอร์ดใหม่ใน Talent (352938)
 
 ขณะนี้มีการอัพเดตธุรกรรมการลางาน เมื่อทำการอัพเดตไปยัง Common Data Service สำหรับธุรกรรมการออกจากธนาคาร
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>ปัญหา: ชื่อเรื่องของเอกสารแนบสำหรับรายการความคิดเห็นแสดงคำอธิบายความคิดเห็น (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>ชื่อเรื่องของเอกสารแนบสำหรับรายการความคิดเห็นแสดงคำอธิบายความคิดเห็น (343765)
 
 คำอธิบายความคิดเห็นจะไม่ปรากฏในชื่อไฟล์แนบอีกต่อไป
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>ปัญหา: ฟิลด์ข้อคิดเห็นเกี่ยวกับลำดับงานค่าตอบแทนแสดงเนื้อหาที่ไม่ถูกต้อง (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>ฟิลด์ข้อคิดเห็นเกี่ยวกับลำดับงานค่าตอบแทนแสดงเนื้อหาที่ไม่ถูกต้อง (339297)
 
 การเปลี่ยนแปลงนี้แสดงเนื้อหาของฟิลด์ **%HcmActionState.HcmWorkerActionComment.Comments%**
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>ปัญหา: WorkCalendarEntity และ WorkCalendarDayEntity ไม่ได้เปิดเผยผ่าน OData (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity และ WorkCalendarDayEntity ไม่ได้เปิดเผยผ่าน OData (376329)
 
 ในการนำออกใช้นี้ **WorkCalendarEntity** และ **WorkCalendarDayEntity** พร้อมใช้งานในขณะนี้ผ่าน Open Data Protocol (OData)
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>ปัญหา: HCMWorkerEntity จะช้า เมื่อมีการใช้ OData (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity จะช้า เมื่อมีการใช้ OData (375221)
 
 การเปลี่ยนแปลงจะปรับปรุงประสิทธิภาพการทำงานของ **HCMWorkerEntity** เมื่อมีการใช้ตัวออกแบบสมุดงาน Microsoft Excel
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>ปัญหา: รายการสมุดรายวันประสิทธิภาพการทำงานของผู้จัดการแสดงข้อผิดพลาด หลังจากการลบสมุดรายวันประสิทธิภาพและการสร้างสมุดรายวันใหม่ (336061)
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>รายการสมุดรายวันประสิทธิภาพการทำงานของผู้จัดการแสดงข้อผิดพลาด หลังจากการลบสมุดรายวันประสิทธิภาพและการสร้างสมุดรายวันใหม่ (336061)
 
 การนำออกใช้นี้แก้ไขปัญหาที่เกิดขึ้นหลังจากที่มีการลบสมุดรายวันประสิทธิภาพหนึ่งรายการ และมีการสร้างสมุดรายวันใหม่ทันทีหลังจากนั้น การแก้ไขนี้จะเปลี่ยนพฤติกรรมในบริการตนเองของผู้จัดการ
 

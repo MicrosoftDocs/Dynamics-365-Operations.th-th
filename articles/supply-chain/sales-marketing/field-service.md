@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249853"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815283"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>ภาพรวมของการรวมเข้ากับ Microsoft Dynamics 365 Field Service
 
@@ -41,9 +41,9 @@ Supply Chain Management ทำให้เกิดการซิงโคร�
 
 เฟสแรกของการรวมระหว่าง Field Service และ Supply Chain Management ทำให้สามารถซิงโครไนส์รายการดังต่อไปนี้:
 
-- [ผลิตภัณฑ์ใน Supply Chain Management ไปยังผลิตภัณฑ์ใน Field Service รวมถึงข้อมูลชนิดผลิตภัณฑ์](field-service-product.md)
-- [ใบสั่งงานใน Field Service กับใบสั่งขายใน Supply Chain Management](field-service-work-order.md)
-- [ใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management](field-service-invoice.md)
+- [การซิงโครไนส์ผลิตภัณฑ์จาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Field Service](field-service-product.md)
+- [ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management](field-service-work-order.md)
+- [การซิงโครไนส์ข้อตกลงของใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management](field-service-invoice.md)
 
 เพื่อดูตัวอย่างของวิธีการซิงโครไนส์ใบสั่งงานระหว่าง Field Service และ Supply Chain Management ดูวิดีโอ YouTube แบบย่อ [วิธีการซิงโครไนส์ใบสั่งงานกับการรวม Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo)
 

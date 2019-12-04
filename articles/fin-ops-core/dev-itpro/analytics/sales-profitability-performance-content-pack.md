@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e74edfc5cf17499c080e825cf4b1fd39b6063e35
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7929aeed9a1f1e334d8c75ef941b601d8c6b664
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182772"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769935"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>เนื้อหา Power BI ของการขายและประสิทธิภาพความสามารถในการทำกำไร
 
@@ -77,7 +77,7 @@ ms.locfileid: "2182772"
 \* รายได้ปีนี้และปีที่แล้ว และการเติบโตโดยเรียงตามประเภทการขาย
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
-ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมรายงานในเนื้อหา Power BI ของ **การขายและประสิทธิภาพความสามารถในการทำกำไร** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมของการรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
+ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมรายงานในเนื้อหา Power BI ของ **การขายและประสิทธิภาพความสามารถในการทำกำไร** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
 การวัดการรวมในเนื้อหานี้เป็นชุดย่อยของการวัดการรวมที่พร้อมใช้งานใน Sales Cube ใน Microsoft Dynamics AX 2012 และ Microsoft Dynamics AX 2012 R3 เมื่อต้องการแบ่งระยะของการวัดแบบรวมของ Cube ในร้านค้าเอนทิตี คุณจะต้องทำให้สามารถปรับใช้ได้ สำหรับข้อมูลเพิ่มเติม ดูกระบวนงานสำหรับการจัดเตรียมการรวมการวัดในร้านค้าเอนทิตีในโพสต์บล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
 

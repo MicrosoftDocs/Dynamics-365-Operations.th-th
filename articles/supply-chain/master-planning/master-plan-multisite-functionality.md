@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f05e3efd1716a27a659ae40145f37bb0b3d977f
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: d0b715e0c17263519a9bb1b3780170812271d93d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865426"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813764"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์
 
@@ -40,15 +40,15 @@ ms.locfileid: "1865426"
 
 หัวข้อต่อไปนี้อธิบายวิธีการทำงานของเครื่องวางแผน เมื่อมีการกำหนดการตั้งค่าที่แตกต่างกันเพื่อกำหนดคลังสินค้าที่จะใช้
 
-[การวางแผนหลัก- ความครอบคลุมไซต์และคลังสินค้า ข้อมูลบังคับคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า จำเป็นต้องมีคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[การวางแผนหลัก - ความครอบคลุมไซต์ ข้อมูลบังคับคลังสินค้า](master-plan-site-coverage-warehouse-mandatory.md)
+[การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ](master-plan-site-coverage-warehouse-mandatory.md)
 
-[การวางแผนหลัก - ความครอบคลุมไซต์และคลังสินค้า คลังสินค้าไม่ใช่ข้อมูลบังคับ](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[การวางแผนหลัก - ความครอบคลุมไซต์ คลังสินค้าไม่ใช่ข้อมูลบังคับ](master-plan-site-coverage-warehouse-not-mandatory.md)
+[การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าไม่บังคับ](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[การวางแผนหลัก - วิธีการกำหนดเวอร์ชัน BOM](master-plan-bom-version-determined.md)
+[กำหนดเวอร์ชันสูตรการผลิต](master-plan-bom-version-determined.md)
 
 
 

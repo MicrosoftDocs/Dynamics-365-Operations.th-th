@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 67d8ee101546470ff54404eeebd736233e34f26f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025468"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811889"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)
 
@@ -60,6 +60,6 @@ ms.locfileid: "2025468"
 
 **ปัญหาที่ทราบ:** ตัวออกแบบทำงานไม่ถูกต้องในเบราเซอร์ Google Chrome และ Mozilla Firefox เรากำลังดำเนินการเพื่อแก้ไขปัญหานี้
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ตั้งค่าคอนฟิก ดาวน์โหลด ติดตั้ง และเริ่มการใช้งาน Retail Modern POS](retail-modern-pos-device-activation.md)
+[ตั้งค่าคอนฟิก ติดตั้ง และเริ่มการใช้งาน Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)

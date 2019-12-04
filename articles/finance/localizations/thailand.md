@@ -16,12 +16,12 @@ ms.search.region: Thailand
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bb552ba9f7867dd6ab42f512a0282e61696d79a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ccd7958f61db8573721c5f6d38d820f8050f61cc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183952"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773658"
 ---
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
@@ -31,10 +31,10 @@ ms.locfileid: "2183952"
 
 - [รายงานบัตรสินค้าคงคลัง](apac-tha-stock-card-reports.md)
 - [หมายเลขของใบกำกับภาษีการปรับปรุง/ใบแทน](apac-tha-substitution-and-adjustment-invoices.md)
-- [VAT ที่ยังไม่รับรู้](apac-tha-unrealized-vat.md)
+- [VAT ที่ยังไม่รับรู้ของประเทศไทย](apac-tha-unrealized-vat.md)
 - [ภาษีหัก ณ ที่จ่าย](apac-tha-withholding-tax.md)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 - [Microsoft Dynamics Localization Portal: รายงานของประเทศจีน](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/thailand.html)
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06713d4f1ca1fe1c3feafe314da3a155fa7cd126
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c0059c152d2ac498a12095d636d0dc0bbf045995
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865315"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813488"
 ---
 # <a name="procurement-catalogs-overview"></a>ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 
@@ -69,10 +69,10 @@ ms.locfileid: "1865315"
 -   **ทั้งสอง** – ถ้าแค็ตตาล็อกรวมประเภทผลิตภัณฑ์ที่มีชนิดของการอัพเดตค่าเริ่มต้นของ **คงที่** จะต้องอัพเดตด้วยตนเองเมื่อประเภทเหล่านี้ถูกอัพเดต ถ้าแค็ตตาล็อกรวมประเภทผลิตภัณฑ์ที่มีชนิดการอัพเดตค่าเริ่มต้น **ไดนามิก** จะมีการอัพเดตโดยอัตโนมัติทุกครั้งที่มีการเปลี่ยนแปลง
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น (คู่มืองาน)](tasks/set-up-procurement-category-hierarchy.md)
+[ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น](tasks/set-up-procurement-category-hierarchy.md)
 
 
 

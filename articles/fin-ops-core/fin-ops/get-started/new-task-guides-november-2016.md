@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190982"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811612"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190982"
 
 หัวข้อนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 
-(พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3, การอัพเดตแพลตฟอร์ม Microsoft Dynamics AX 2, การอัพเดต Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการนำออกใช้เหล่านี้ ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไร](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
+(พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3, การอัพเดตแพลตฟอร์ม Microsoft Dynamics AX 2, การอัพเดต Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรุ่นเหล่านี้ ดู [มีอะไรใหม่หรือมีการเปลี่ยนแปลงในโฮมเพจ Finance and Operations](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [ระบบวิธีใช้](help-overview.md)
 
 > [!NOTE]
 > เครื่องหมายดอกจัน (\*) ที่อยู่ถัดจากชื่อเรื่องของรายการตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บ่งชี้ว่าคู่มืองานสำหรับกระบวนการทางธุรกิจถูกสร้างขึ้นสำหรับการอัพเดต Dynamics 365 for Operations พฤศจิกายน 2016 และไม่ได้รับการสนับสนุนในเวอร์ชันก่อนหน้านี้ของ Microsoft Dynamics AX
@@ -541,10 +541,10 @@ ms.locfileid: "2190982"
 | ตั้งค่าการกระทบยอดค่าขนส่งโดยอัตโนมัติ                                     | สากล         |
 | \*ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด                                    | สากล         |
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[มีคู่มืองานสำหรับใช้งาน (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)
+[คู่มืองานใหม่ (กุมภาพันธ์ 2016)](new-task-guides-available-february-2016.md)
 
-[มีคู่มืองานใหม่หรือที่ปรับปรุงแล้วพร้อมให้ใช้งาน (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
+[คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
 
-[มีคู่มืองานใหม่หรือที่ปรับปรุงแล้วพร้อมให้ใช้งาน (สิงหาคม 2016)](new-updated-task-guides-available-august-2016.md)
+[คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)](new-updated-task-guides-available-august-2016.md)

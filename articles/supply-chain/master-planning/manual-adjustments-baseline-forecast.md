@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250725"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815145"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน
 
@@ -66,7 +66,7 @@ ms.locfileid: "2250725"
 -   ค่าการคาดการณ์ความต้องการใหม่และยอดเงินที่พวกเขาได้ปรับปรุงด้วยตนเอง
 -   ช่วงเวลาความเชื่อมั่นสำหรับค่าที่คาดการณ์ไว้
 -   แบบจำลองการคาดการณ์ที่ถูกใช้ในการสร้างการคาดการณ์ ถ้าคุณกำลังดูข้อมูลรวม คุณจะเห็นรายการของวิธีการทั้งหมดที่ถูกใช้สำหรับชุดเวลารวมทั้งหมด
--   ความถูกต้องของแบบจำลองภายใน (MAPE) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความถูกต้องการคาดการณ์ ให้ดู [การตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
+-   ความถูกต้องของแบบจำลองภายใน (MAPE) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความถูกต้องการคาดการณ์ ให้ดู [ตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
 
 **หมายเหตุ:**
 
@@ -75,12 +75,12 @@ ms.locfileid: "2250725"
 
 คุณยังสามารถทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์ในหน้า **รายละเอียดการคาดการณ์ความต้องการ** ด้วยการปรับเปลี่ยนค่าในแถว **การคาดการณ์** ในส่วน **การคาดการณ์** ได้อีกด้วย
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[การตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
+[ตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
 
-[การสร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
+[สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
 
 
 

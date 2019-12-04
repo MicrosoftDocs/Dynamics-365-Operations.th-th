@@ -1,6 +1,6 @@
 ---
-title: สร้างเท็มเพลตกระบวนการใน Attract
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างเท็มเพลตกระบวนการใน Attract
+title: สร้างเท็มเพลตกระบวนการจ้างใน Attract
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างเท็มเพลตกระบวนการจ้างใน Attract
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622729"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832569"
 ---
-# <a name="create-a-process-template-in-attract"></a>สร้างเท็มเพลตกระบวนการใน Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>สร้างเท็มเพลตกระบวนการจ้างใน Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622729"
 > [!NOTE]
 > ชื่อขั้นสามารถมองเห็นได้โดยผู้สมัครในหน้า **สถานะใบสมัคร** คุณควรพิจารณาข้อเท็จจริงนี้ เมื่อคุณเลือกชื่อสำหรับขั้น
 
-เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกิจกรรม ดู [กิจกรรมกระบวนการว่าจ้างใน Attract](./activities-attract.md)
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกิจกรรม ดู [กิจกรรมในกระบวนการว่าจ้าง](./activities-attract.md)
 
 ทำตามขั้นตอนเหล่านี้ เมื่อต้องการสร้างเท็มเพลตกระบวนการว่าจ้าง
 

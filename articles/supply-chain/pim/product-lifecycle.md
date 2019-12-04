@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865339"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813557"
 ---
 # <a name="product-lifecycle-state-overview"></a>ภาพรวมของสถานะของวงจรการใช้ผลิตภัณฑ์
 
@@ -107,9 +107,9 @@ ms.locfileid: "1865339"
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
--  [สร้างสถานะรอบการขายของผลิตภัณฑ์ใหม่ (คู่มืองาน)](tasks/new-product-lifecycle-state.md)
--  [สร้างสถานะรอบการขายของผลิตภัณฑ์เริ่มต้น (คู่มืองาน)](tasks/default-product-lifecycle-state.md)
--  [มอบหมายสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์หลักที่นำออกใช้ (คู่มืองาน)](tasks/product-lifecycle-state-released-product-master.md)
--  [มอบหมายสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้ (คู่มืองาน)](tasks/product-lifecycle-state-released-product.md)
--  [ค้นหาผลิตภัณฑ์ย่อยที่ล้าสมัย และกำหนดสถานะรอบการขายของผลิตภัณฑ์ (คู่มืองาน)](tasks/obsolete-product-variants.md)
--  [สร้างสถานะรอบการขายของผลิตภัณฑ์เพื่อแยกผลิตภัณฑ์ออกจากการวางแผนหลัก (คู่มืองาน)](tasks/exclude-products-master-planning.md)
+-  [สร้างสถานะของวงจรการใช้ผลิตภัณฑ์ใหม่](tasks/new-product-lifecycle-state.md)
+-  [สร้างสถานะของวงจรการใช้ผลิตภัณฑ์เริ่มต้น](tasks/default-product-lifecycle-state.md)
+-  [กำหนดสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์หลักที่นำออกใช้](tasks/product-lifecycle-state-released-product-master.md)
+-  [กำหนดสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้](tasks/product-lifecycle-state-released-product.md)
+-  [ค้นหาผลิตภัณฑ์ย่อยที่ล้าสมัย และกำหนดสถานะรอบการขายของผลิตภัณฑ์](tasks/obsolete-product-variants.md)
+-  [สร้างสถานะรอบการขายของผลิตภัณฑ์เพื่อแยกผลิตภัณฑ์ออกจากการวางแผนหลัก](tasks/exclude-products-master-planning.md)

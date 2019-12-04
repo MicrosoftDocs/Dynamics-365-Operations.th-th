@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653544"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815168"
 ---
 # <a name="demand-forecasting-overview"></a>ภาพรวมการคาดการณ์ความต้องการ
 
@@ -71,18 +71,18 @@ ms.locfileid: "2653544"
 ## <a name="limitations"></a>การจำกัด
 การคาดการณ์ความต้องการคือเครื่องมือที่ช่วยให้ลูกค้าในอุตสาหกรรมการผลิตสร้างกระบวนการคาดการณ์ มีการเสนอฟังก์ชันหลักของโซลูชันการคาดการณ์ความต้องการ และมีการออกแบบมาเพื่อที่จะสามารถมีการขยายได้โดยง่าย การคาดการณ์ความต้องการอาจไม่ใช่สิ่งที่เหมาะสมที่สุดสำหรับลูกค้าในอุตสาหกรรมเช่น การขายปลีก การขายส่ง งานคลังสินค้า การขนส่ง หรือบริการวิชาชีพอื่นๆ
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
 [การตั้งค่าการคาดการณ์ความต้องการ](demand-forecasting-setup.md)
 
-[การสร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
+[สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
 
-[การทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
+[ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
 
-[การอนุมัติการคาดการณ์ที่มีการปรับปรุง](authorize-adjusted-forecast.md)
+[อนุมัติการคาดการณ์ที่ปรับปรุง](authorize-adjusted-forecast.md)
 
-[การตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
+[ตรวจสอบความถูกต้องของการคาดการณ์](monitor-forecast-accuracy.md)
 
 [ลบจุดนอกขอบเขตออกจากข้อมูลในอดีตเกี่ยวกับธุรกรรมเมื่อคำนวณความต้องการการคาดการณ์](remove-historical-outliers-calculating-demand-forecast.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190108"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811322"
 ---
 # <a name="create-workflows-overview"></a>ภาพรวมของการสร้างลำดับงาน
 
@@ -60,13 +60,13 @@ ms.locfileid: "2190108"
 
 ตั้งค่าคอนฟิกแต่ละองค์ประกอบที่คุณลากลงบนผืนผ้าใบ สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกแต่ละองค์ประกอบลำดับงาน ให้ดูหัวข้อต่อไปนี้:
 
-- [ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเอง](configure-manual-task-workflow.md)
-- [ตั้งค่าคอนฟิกงานอัตโนมัติ](configure-automated-task-workflow.md)
-- [การตั้งค่าคอนฟิกกระบวนการอนุมัติ](configure-approval-process-workflow.md)
-- [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ](configure-approval-step-workflow.md)
-- [ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง](configure-manual-decision-workflow.md)
-- [ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข](configure-conditional-decision-workflow.md)
-- [ตั้งค่าคอนฟิกกิจกรรมคู่ขนาน](configure-parallel-activity-workflow.md)
+- [ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน](configure-manual-task-workflow.md)
+- [ตั้งค่าคอนฟิกงานอัตโนมัติในลำดับงาน](configure-automated-task-workflow.md)
+- [ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน](configure-approval-process-workflow.md)
+- [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน](configure-approval-step-workflow.md)
+- [ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเองในลำดับงาน](configure-manual-decision-workflow.md)
+- [ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไขในลำดับงาน](configure-conditional-decision-workflow.md)
+- [ตั้งค่าคอนฟิกสาขาคู่ขนานในลำดับงาน](configure-parallel-activity-workflow.md)
 - [ตั้งค่าคอนฟิกสาขาคู่ขนาน](configure-parallel-branch-workflow.md)
 - [ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ](configure-line-item-workflow.md)
 

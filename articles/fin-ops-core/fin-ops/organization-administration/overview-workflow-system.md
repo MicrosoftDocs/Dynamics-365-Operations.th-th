@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190016"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812374"
 ---
 # <a name="workflow-system-overview"></a>ภาพรวมของระบบลำดับงาน
 
@@ -57,12 +57,12 @@ ms.locfileid: "2190016"
 
 ## <a name="workflow-content"></a>บริบทลำดับงาน
 
-+ [สถาปัตยกรรมลำดับงาน](workflow-system-architecture.md)
++ [สถาปัตยกรรมระบบลำดับงาน](workflow-system-architecture.md)
 + [องค์ประกอบลำดับงาน](workflow-elements.md)
-+ [การดำเนินการลำดับงาน](workflow-actions.md)
-+ [สร้างลำดับงาน](create-workflow.md)
++ [การดำเนินการในกระบวนการอนุมัติในลำดับงาน](workflow-actions.md)
++ [ภาพรวมของการสร้างลำดับงาน](create-workflow.md)
 + [ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน](configure-workflow-properties.md)
-+ [ตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเองในลำดับงาน](configure-manual-task-workflow.md)
++ [ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน](configure-manual-task-workflow.md)
 + [ตั้งค่าคอนฟิกงานอัตโนมัติในลำดับงาน](configure-automated-task-workflow.md)
 + [ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน](configure-approval-process-workflow.md)
 + [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในลำดับงาน](configure-approval-step-workflow.md)

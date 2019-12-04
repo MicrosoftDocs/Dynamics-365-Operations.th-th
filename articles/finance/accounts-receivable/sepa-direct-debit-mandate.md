@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45cabc7d263299763b6ee457063c96cdf384eeeb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aba265e69bde9a9c194147d6ee6a806e9b2bd7c2
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189027"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772133"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA
 
@@ -48,9 +48,9 @@ ms.locfileid: "2189027"
 -   ไม่จำเป็นต้องระบุ: ถ้าคุณคาดว่าลูกค้าของคุณแต่ละคนมีข้อบังคับหลายรายการ ในฟิลด์ **รอบระยะเวลา** เลือก **ใบแจ้งหนี้** การชำระเงินจะถูกสร้างแยกต่างหากสำหรับแต่ละใบแจ้งหนี้และการชำระเงินแต่ละรายการจะใช้ข้อตกลงที่ระบุไว้สำหรับใบแจ้งหนี้
 -   เลือกตัวเลือก **ต้องใช้ข้อตกลง** เพื่อสร้างการชำระเงินโดยการใช้ข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ ตัวเลือก **ต้องใช้ข้อตกลง** จะพร้อมใช้งานได้เมื่อคุณเลือกเท่านั้น **ชำระเงินทางอิเล็กทรอนิกส์** ในฟิลด์ **ชนิดการชำระเงิน**
 
-ทรัพยากรเพิ่มเติม
+แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ](sepa-direct-debit-overview.md) 
+[ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](sepa-direct-debit-overview.md) 
 
 [สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า](tasks/create-direct-debit-mandate-customer.md) 
 

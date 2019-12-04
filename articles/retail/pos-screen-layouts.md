@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025294"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811791"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>โครงร่างหน้าจอสำหรับการขายหน้าร้าน (POS)
 
@@ -171,7 +171,7 @@ ms.locfileid: "2025294"
 
     - **การดำเนินการ** – ในรายการของการดำเนินงาน POS ที่เกี่ยวข้อง เลือกการดำเนินงานที่จะเรียกใช้ เมื่อมีการคลิกปุ่มใน POS
 
-        สำหรับรายการดำเนินงาน POS ที่สนับสนุน ดู [การดำเนินงาน POS แบบออนไลน์และแบบออฟไลน์](pos-operations.md)
+        สำหรับรายการดำเนินงาน POS ที่สนับสนุน ดู [การดำเนินงานการขายหน้าร้าน (POS) แบบออนไลน์และแบบออฟไลน์](pos-operations.md)
 
     - **พารามิเตอร์การดำเนินการ** – การดำเนินงาน POS บางรายการใช้พารามิเตอร์เพิ่มเติม เมื่อมีการเรียกใช้ ตัวอย่างเช่น สำหรับการดำเนินการเพิ่มผลิตภัณฑ์ ผู้ใช้สามารถระบุผลิตภัณฑ์ที่จะเพิ่มได้
     - **ข้อความบนปุ่ม** – ระบุข้อความที่ปรากฏบนปุ่มใน POS
@@ -191,6 +191,6 @@ ms.locfileid: "2025294"
 
 ![กริดปุ่มตัวอย่างใน POS](../retail/media/Example-Button-Grid-In-POS.png)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ติดตั้งตัวออกแบบโครงร่าง Retail POS](install-pos-layout-designer.md)
+[ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)](install-pos-layout-designer.md)

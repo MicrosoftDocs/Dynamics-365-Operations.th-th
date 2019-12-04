@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab5adfdec259207898d25778e4e3bbbaebb452f1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180135"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770723"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>ลงรายการบัญชีธุรกรรมสินทรัพย์ถาวรที่ชั้นของการลงรายการบัญชี
 
@@ -42,7 +42,7 @@ ms.locfileid: "2180135"
 > [!NOTE] 
 > คุณสามารถใช้สมุดบัญชีที่ได้รับเพื่อลงรายการบัญชีธุรกรรมที่ชั้นของการลงรายการบัญชีต่างๆ พร้อมกันได้ คุณสามารถสร้างธุรกรรมของสมุดบัญชีหลักในสมุดรายวันที่มีชั้นของการลงรายการบัญชีที่ตรงกันกับชั้นของการลงรายการบัญชีสมุดบัญชีนั้นได้ ในระหว่างการลงรายการบัญชี ธุรกรรมสมุดบัญชีที่ได้รับจะถูกลงรายการบัญชีที่ชั้นของการลงรายการบัญชีเหมาะสม
 
-สำหรับข้อมูลเพิ่มเติม ดู [สมุดบัญชีที่ได้รับ](derived-books.md) และ [การลงรายการบัญชีด้วยสมุดบัญชีที่ได้รับ](post-derived-value-models.md)
+สำหรับข้อมูลเพิ่มเติม ดูที่ [สมุดบัญชีที่ได้รับ](derived-books.md) และ [ลงรายการบัญชีด้วยสมุดบัญชีที่ได้รับ](post-derived-value-models.md)
 
 
 

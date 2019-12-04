@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251073"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813028"
 ---
 # <a name="warehouse-management-overview"></a>ภาพรวมของการจัดการคลังสินค้า
 
@@ -36,7 +36,7 @@ ms.locfileid: "2251073"
 
 คุณต้องตั้งค่าคอนฟิกส่วนประกอบสำหรับลำดับงานของกระบวนการคลังสินค้าขาเข้าและขาออกตามความต้องการทางธุรกิจ ส่วนประกอบสำคัญที่สุดที่คุณต้องตั้งค่าคอนฟิกคือ เท็มเพลตเวฟ เท็มเพลตงาน กลุ่มงาน และคำสั่งสถานที่
 
-- [การตั้งค่าคอนฟิกคลังสินค้า](warehouse-configuration.md)
+- [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](warehouse-configuration.md)
 - [ควบคุมงานคลังสินค้าโดยเท็มเพลตงานและคำสั่งสถานที่](control-warehouse-location-directives.md)
 - [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](configure-mobile-devices-warehouse.md)
 - [ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

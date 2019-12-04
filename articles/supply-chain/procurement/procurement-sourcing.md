@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558230"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813400"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -36,18 +36,18 @@ ms.locfileid: "1558230"
 -   [ภาพรวมใบขอซื้อ](purchase-requisitions-overview.md)
 -   [สร้างใบขอซื้อเพื่อปริมาณการใช้](tasks/create-requisition-consumption.md)
 -   [สร้างใบขอซื้อที่ใช้ RFQ](tasks/create-requisition-uses-rfq.md)
--   [ตั้งค่าสิทธิ์สำหรับการสั่งซื้อสินค้าในนามของผู้อื่น](tasks/set-up-permissions-ordering-products.md)
+-   [ตั้งค่าสิทธิ์สำหรับการสั่งซื้อผลิตภัณฑ์ในนามของผู้อื่น](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>คำขอใบเสนอราคา
--   [คำขอใบเสนอราคา](request-quotations.md)
+-   [ภาพรวมของคำขอใบเสนอราคา (RFQ)](request-quotations.md)
 -   [สร้างคำขอใบเสนอราคา](tasks/create-request-quotation.md)
 -   [ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [สร้างวิธีการให้คะแนนสำหรับ RFQ](tasks/create-scoring-method-rfqs.md)
 -   [สร้างชนิดการร้องขอ และเกณฑ์การให้คะแนนสำหรับ RFQ](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>การจัดการและการทำงานร่วมกันกับผู้จัดจำหน่าย
--   [การตั้งค่าบัญชีผู้จัดจำหน่าย](set-up-vendor-accounts.md)
--   [การสร้างบัญชีผู้จัดจำหน่าย](tasks/create-vendor-account.md)
+-   [ตั้งค่าบัญชีผู้จัดจำหน่าย](set-up-vendor-accounts.md)
+-   [สร้างบัญชีผู้จัดจำหน่าย](tasks/create-vendor-account.md)
 -   [สร้างบัญชีธนาคารของผู้จัดจำหน่าย](tasks/create-vendor-bank-account.md)
 -   [ค้นหาผู้จัดจำหน่าย](tasks/search-vendors.md)
 -   [อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ](tasks/approve-vendors-specific-products.md)
@@ -57,13 +57,13 @@ ms.locfileid: "1558230"
 -   [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](set-up-maintain-vendor-collaboration.md)
 -   [สคริปต์สาธิตของสินค้าคงคลังการฝากขายขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(เอกสารทางเทคนิค)
 -   [ตรวจสอบสินค้าคงคลังที่มีการส่งมอบโดยใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [การทำงานร่วมกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)  (รุ่นเดือนกุมภาพันธ์ 2016 และเดือนพฤษภาคม 2016 ของ Dynamics AX เท่านั้น)
--   [การตั้งค่าคอนฟิกความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Finance and Operations เวอร์ชัน 2016 และ พ.ค. 2016 เท่านั้น)
--   [พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกับผู้จัดจำหน่ายสำหรับแอป Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [ทำงานร่วมกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md) (รุ่นเดือนกุมภาพันธ์ 2016 และเดือนพฤษภาคม 2016 ของ Dynamics AX เท่านั้น)
+-   [ความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Finance and Operations เวอร์ชัน 2016 และ พ.ค. 2016 เท่านั้น)
+-   [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>การจัดการผลิตภัณฑ์สำหรับการจัดซื้อ
--   [แค็ตตาล็อกการจัดซื้อ](procurement-catalogs.md)
--   [สร้างแค็ตตาล็อกการจัดซื้อ](tasks/create-procurement-catalog.md)
+-   [ภาพรวมของแค็ตตาล็อกการจัดซื้อ](procurement-catalogs.md)
+-   [สร้างใบสั่งซื้อ](tasks/create-procurement-catalog.md)
 -   [การนำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (ประกาศบล็อก)
 -   [ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น](tasks/set-up-procurement-category-hierarchy.md)
 -   [ตั้งค่านโยบายสำหรับการจัดประเภทการจัดซื้อตามลำดับชั้น](tasks/set-up-policies-procurement-category-hierarchies.md)
@@ -72,10 +72,10 @@ ms.locfileid: "1558230"
 ## <a name="procurement"></a>การจัดซื้อ
 -   [ภาพรวมใบสั่งซื้อ](purchase-order-overview.md)
 -   [การสร้างใบสั่งซื้อ](purchase-order-creation.md)
--   [การอนุมัติและการยืนยันใบสั่งซื้อ](purchase-order-approval-confirmation.md)
--   [การสร้างใบสั่งซื้อ](tasks/create-purchase-order.md)
+-   [อนุมัติและยืนยันใบสั่งซื้อ](purchase-order-approval-confirmation.md)
+-   [สร้างใบสั่งซื้อ](tasks/create-purchase-order.md)
 -   [สร้างใบสั่งซื้อซ้ำ](tasks/create-repeat-purchase-order.md)
--   [การสร้างใบสั่งซื้อจากใบสั่งขาย](../sales-marketing/tasks/create-purchase-order-sales-order.md)
+-   [สร้างใบสั่งซื้อจากใบสั่งขาย](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [สร้างใบสั่งซื้อสำหรับซัพพลายเออร์ขาจร](tasks/create-purchase-order-one-time-supplier.md)
 -   [สร้างใบสั่งซื้อที่มีกำหนดการจัดส่ง](tasks/create-purchase-order-delivery-schedule.md)
 -   [สร้างใบสั่งส่งคืนสินค้าที่ซื้อ](tasks/create-purchase-return-order.md)
@@ -99,11 +99,8 @@ ms.locfileid: "1558230"
 -   [บันทึกการรับสินค้าในใบสั่งซื้อ](tasks/record-receipt-goods-purchase-order.md)
 -   [เวิร์กโฟลว์การขอเสนอซื้อ](purchase-requisitions-workflow.md)
 -   [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (เอกสาร)
--   [นโยบายการจัดซื้อ](purchase-policies.md)
+-   [ภาพรวมของนโยบายการจัดซื้อ](purchase-policies.md)
 -   [สร้างนโยบายการจัดซื้อ](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814616"
 ---
 # <a name="questionnaires"></a>แบบสอบถาม
 
@@ -44,17 +44,17 @@ ms.locfileid: "2024252"
 | หัวข้อ| คำอธิบาย|
 |------|------------|
 | [การออกแบบแบบสอบถาม](design-questionnaires.md)  | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบแบบสอบ กระบวนการออกแบบเกี่ยวข้องกับการตั้งค่าข้อกำหนดเบื้องต้น คำตอบ และคำถาม จากนั้นจึงรวมทั้งหมดลงในแบบสอบถาม |
-| [การแจกจ่ายละการตอบแบบสอบถาม](distribute-questionnaires.md)  | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามสำหรับผู้ตอบและวิธีการกรอกแบบสอบถาม                                                                       |
+| [แจกจ่ายและจัดกำหนดการแบบสอบถาม](distribute-questionnaires.md)  | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามสำหรับผู้ตอบและวิธีการกรอกแบบสอบถาม                                                                       |
 | [ดูและประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md) | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการดูและประเมินผลลัพธ์จากแบบสอบถามที่กรอกข้อมูลแล้ว                                                                                        |
 
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[การออกแบบแบบสอบถาม](design-questionnaires.md)
+[ออกแบบแบบสอบถาม](design-questionnaires.md)
 
-[การแจกจ่ายและการตอบแบบสอบถาม](distribute-questionnaires.md)
+[แจกจ่ายและจัดกำหนดการแบบสอบถาม](distribute-questionnaires.md)
 
-[การดูและการประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)
+[ดูและประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)
 

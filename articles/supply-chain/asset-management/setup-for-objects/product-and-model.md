@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569972"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812179"
 ---
 # <a name="asset-manufacturers-and-models"></a>ผู้ผลิตและแบบจำลองของสินทรัพย์
 
@@ -45,7 +45,7 @@ ms.locfileid: "2569972"
 8. ในฟิลด์ **ชนิดสินทรัพย์** ให้เลือกชนิดสินทรัพย์ที่แบบจำลองผู้ผลิตควรเกี่ยวข้อง
 
     > [!NOTE]
-    > นอกจากนี้ คุณยังสามารถตั้งค่าความสัมพันธ์สำหรับชนิดของสินทรัพย์ ผู้ผลิต และแบบจำลองได้ในการค้นหา **ชนิดสินทรัพย์** สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างชนิดสินทรัพย์](../setup-for-objects/object-types.md)
+    > นอกจากนี้ คุณยังสามารถตั้งค่าความสัมพันธ์สำหรับชนิดของสินทรัพย์ ผู้ผลิต และแบบจำลองได้ในการค้นหา **ชนิดสินทรัพย์** สำหรับข้อมูลเพิ่มเติม โปรดดู [ชนิดสินทรัพย์](../setup-for-objects/object-types.md)
 
     ใน FastTab **รายละเอียด** ฟิลด์ **แบบจำลอง** จะแสดงจำนวนของแบบจำลองสินทรัพย์ที่ตั้งค่าไว้ในผู้ผลิตสินทรัพย์ที่เลือก ฟิลด์ **สินทรัพย์** แสดงจำนวนของสินทรัพย์ที่ใช้ผู้ผลิตที่เลือก
     

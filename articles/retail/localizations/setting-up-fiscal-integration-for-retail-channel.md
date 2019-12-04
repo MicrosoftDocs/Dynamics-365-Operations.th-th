@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577911"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811176"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>ตั้งค่าการรวมทางการเงินสำหรับช่องทางการขายปลีก
 
@@ -210,7 +210,7 @@ ms.locfileid: "1577911"
 
 เพื่อเปิดใช้งานรายงาน X/Z ทางการเงินให้ถูกเรียกใช้จาก POS คุณควรเพิ่มปุ่มใหม่ในโครงร่าง POS
 
-- ในหน้า **กริดปุ่ม** ทำตามคำแนะนำใน [เพิ่มปุ่มการดำเนินการที่กำหนดเองไปที่โครงร่าง POS ในศูนย์ควบคุมการขายปลีก](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) เพื่อติดตั้งโปรแกรมออกแบบ และปรับปรุงโครงร่าง POS
+- ในหน้า **กริดปุ่ม** ทำตามคำแนะนำใน [เพิ่มปุ่มการดำเนินการที่กำหนดเองไปที่โครงร่าง POS โดยใช้ตัวออกแบบกริดปุ่ม](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) เพื่อติดตั้งโปรแกรมออกแบบและปรับปรุงโครงร่าง POS
 
     1. เลือกโครงร่างที่จะอัพเดต 
     2. เพิ่มปุ่มใหม่และตั้งค่าคุณสมบัติปุ่ม **พิมพ์ X ทางการเงิน**
@@ -221,7 +221,7 @@ ms.locfileid: "1577911"
 
 เมื่อต้องการเปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่เลื่อนออกไปแล้ว คุณควรเพิ่มปุ่มใหม่ไปยังโครงร่าง POS
 
-- ในหน้า **กริดปุ่ม** ทำตามคำแนะนำใน [เพิ่มปุ่มการดำเนินการที่กำหนดเองไปที่โครงร่าง POS ในศูนย์ควบคุมการขายปลีก](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) เพื่อติดตั้งโปรแกรมออกแบบ และปรับปรุงโครงร่าง POS
+- ในหน้า **กริดปุ่ม** ทำตามคำแนะนำใน [เพิ่มปุ่มการดำเนินการที่กำหนดเองไปที่โครงร่าง POS โดยใช้ตัวออกแบบกริดปุ่ม](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) เพื่อติดตั้งโปรแกรมออกแบบและปรับปรุงโครงร่าง POS
 
     1. เลือกโครงร่างที่จะอัพเดต
     2. เพิ่มปุ่มใหม่และตั้งค่าคุณสมบัติปุ่ม **ทำกระบวนการลงทะเบียนทางการเงินให้เสร็จสมบูรณ์**

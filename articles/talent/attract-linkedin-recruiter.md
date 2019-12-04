@@ -1,5 +1,5 @@
 ---
-title: จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract
+title: จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Attract
 description: ใช้การรวม LinkedIn ที่จัดเตรียมโดย Microsoft Dynamics 365 Talent - Attract เพื่อจัดหาผู้สมัครงานผ่าน LinkedIn Recruiter
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551575"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833057"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Attract
+
+[!include [banner](includes/banner.md)]
 
 LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุดในโลก ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 Talent: Attract ช่วยให้คุณจัดหาผู้สมัครจาก LinkedIn ได้โดยตรง ดังนั้นจึงช่วยให้หาความสามารถพิเศษที่คุณต้องการสำหรับตำแหน่งที่คุณเปิดรับได้ง่ายขึ้นกว่าเดิม หลังจากที่คุณตั้งค่าการเชื่อมต่อของคุณกับ LinkedIn ผ่าน Attract แล้ว คุณสามารถดูผู้สมัคร LinkedIn ที่อาจเหมาะสำหรับตำแหน่งของคุณ แล้วส่งออกไปยัง Attract เพียงแค่คลิกเดียว
 
@@ -100,12 +101,12 @@ LinkedIn เป็นเครือข่ายมืออาชีพออ�
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
+[การรวม Attract กับ FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
 
-[ตั้งค่าการรวมกับ LinkedIn](./attract-admin-linkedin.md)
+[ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[สร้างงาน](./creating-jobs-attract.md)
+[สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
-[ลงประกาศงานใน LinkedIn จาก Attract](./attract-post-jobs-to-linkedin.md)
+[ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[แก้ไขปัญหาการรวมกับ LinkedIn](./attract-troubleshoot-linkedin.md)
+[การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

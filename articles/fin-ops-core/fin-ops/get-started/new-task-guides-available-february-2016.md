@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190959"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811637"
 ---
 # <a name="new-task-guides-february-2016"></a>คู่มืองานใหม่ (กุมภาพันธ์ 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190959"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>คู่มืองานใน (กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX
 
-(กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีไว้เพื่อใช้เป็นวิธีใช้พร้อมกับการนำออกใช้ใน Dynamics AX 7.0.0 ถ้าคุณต้องการคู่มืองานเวอร์ชันที่แปลเป็นภาษาท้องถิ่น สามารถดูได้ใน (พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [เริ่มต้นใช้งานพร้อมกับวิธีใช้](help-overview.md)
+(กุมภาพันธ์ 2016) ไลบรารี่โดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีไว้เพื่อใช้เป็นวิธีใช้พร้อมกับการนำออกใช้ใน Dynamics AX 7.0.0 ถ้าคุณต้องการคู่มืองานเวอร์ชันที่แปลเป็นภาษาท้องถิ่น สามารถดูได้ใน (พฤษภาคม 2016) ไลบรารี่โดยรวมของ APQC สำหรับ Microsoft Dynamics AX สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [ระบบวิธีใช้](help-overview.md)
 
 ### <a name="accounts-payable"></a>บัญชีเจ้าหนี้
 
@@ -639,7 +639,7 @@ ms.locfileid: "2190959"
 | ภาพรวมโครงการ                                  | สากล         |
 | ตั้งค่า และตั้งค่าคอนฟิกช่องทาง                      | สากล         |
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
 

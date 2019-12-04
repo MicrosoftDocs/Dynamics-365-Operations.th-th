@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251373"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814086"
 ---
 # <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
 
@@ -36,12 +36,12 @@ ms.locfileid: "2251373"
 
 ในเวอร์ชันปัจจุบัน โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดแสดงชนิดของการซิงโครไนส์โดยตรงต่อไปนี้:
 
-- [รักษาบัญชีใน Sales และซิงค์บัญชีโดยตรงจาก Sales ไปยัง Supply Chain Management](accounts-template-mapping-direct.md)
-- [รักษาผลิตภัณฑ์ใน Supply Chain Management และซิงค์ผลิตภัณฑ์โดยตรงไปยัง Sales](products-template-mapping-direct.md)
-- [รักษาผู้ติดต่อใน Sales และซิงค์ผู้ติดต่อโดยตรงไปยัง ผู้ติดต่อหรือลูกค้าใน Supply Chain Management](contacts-template-mapping-direct.md)
+- [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management](accounts-template-mapping-direct.md)
+- [ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Sales](products-template-mapping-direct.md)
+- [ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อหรือรายชื่อลูกค้าใน Supply Chain Management](contacts-template-mapping-direct.md)
 - [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
 - [การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [ซิงโครไนส์ใบเสนอราคาขายโดยตรงจาก Supply Chain Management ไปยัง Sales](sales-invoice-template-mapping-direct.md)
+- [ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Supply Chain Management ไปยัง Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>ระบบต้องใช้กับ Supply Chain Management
 การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดได้รับการสนับสนุนในรุ่นต่อไปนี้:

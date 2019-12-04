@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181300"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771107"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>จัดการวงจรชีวิตการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2181300"
 
 ## <a name="overview"></a>ภาพรวม
 
-การรายงานทางอิเล็กทรอนิกส์ (ER) เป็นกลไกที่สนับสนุนให้เป็นไปตามกฎหมายและข้อกำหนดเฉพาะประเทศเกี่ยวกับเอกสารทางอิเล็กทรอนิกส์ โดยทั่วไป ER ถือว่ามีความสามารถในการทำงานต่อไปนี้ สำหรับเอกสารอิเล็กทรอนิกส์เดี่ยว  สำหรับรายละเอียดเพิ่มเติม ดู [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
+การรายงานทางอิเล็กทรอนิกส์ (ER) เป็นกลไกที่สนับสนุนให้เป็นไปตามกฎหมายและข้อกำหนดเฉพาะประเทศเกี่ยวกับเอกสารทางอิเล็กทรอนิกส์ โดยทั่วไป ER ถือว่ามีความสามารถในการทำงานต่อไปนี้ สำหรับเอกสารอิเล็กทรอนิกส์เดี่ยว  สำหรับรายละเอียดเพิ่มเติม ดู [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 - ออกแบบเท็มเพลตสำหรับเอกสารอิเล็กทรอนิกส์:
 
@@ -85,6 +85,6 @@ ms.locfileid: "2181300"
 
 ![วงจรการตั้งค่าคอนฟิก ER](./media/ger-configuration-lifecycle.png)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
+[ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)

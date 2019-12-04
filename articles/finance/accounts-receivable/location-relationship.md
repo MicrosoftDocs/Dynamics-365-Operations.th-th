@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550520"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770907"
 ---
 # <a name="add-location-and-party-relationship-types"></a>เพิ่มสถานที่และชนิดความสัมพันธ์ของฝ่าย 
 
@@ -41,7 +41,7 @@ ms.locfileid: "2550520"
 
     1.  สร้างการขยายไปยัง enum **LogisticsLocationRoleType** และเพิ่มบทบาทใหม่ในส่วนขยาย 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![ส่วนขยายไปยังการแจงนับ LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. สร้างไฟล์ทรัพยากรใหม่สำหรับบทบาทใหม่ และจากนั้น กำหนดค่าสำหรับคุณสมบัติ
      
@@ -69,7 +69,7 @@ ms.locfileid: "2550520"
 
     2. สร้างตัวเริ่มต้นสำหรับชนิดใหม่นี้ คุณสามารถค้นหาตัวอย่างที่หลากหลายในรหัสหลัก หนึ่งในนั้นคือ  **DirRelationshipTypeChildInitialize** นี่คือคลาสตัวเริ่มต้นสำหรับชนิดความสัมพันธ์ของฝ่าย "รอง" คุณสามารถเริ่มต้นด้วยตัวเริ่มต้นของคุณโดยการคัดลอกและการวางรหัสนี้ และจากนั้น อัพเดตพื้นที่ที่เน้น
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![ตัวเริ่มต้น DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  เพื่อทดสอบการนำเข้าข้อมูลชนิดความสัมพันธ์ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertDirRelationshipTypes() ใน Main() คุณควรเห็นชนิดความสัมพันธ์ใหม่ใน **DirRelationshipTypeTable** และชนิดความสัมพันธ์ใหม่จะพร้อมใช้งานบนหน้า **ชนิดของความสัมพันธ์**
 

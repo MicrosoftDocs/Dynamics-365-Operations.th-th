@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552013"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812890"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>แก้ไขคู่มือและเท็มเพลตการเตรียมความพร้อมใน Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ ms.locfileid: "2552013"
 
     - เมื่อต้องการเพิ่มวิดีโอ YouTube ให้ลากรายการ **YouTube** ไปยังพื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรมนั้น และป้อน URL สำหรับวิดีโอ YouTube
     - เมื่อต้องการเพิ่มงานนำเสนอหรือจดหมายข่าว Sway ให้ลากรายการ **Sway** ไปที่พื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรม และป้อน URL ที่ฝังไว้สำหรับการนำเสนอหรือจดหมายข่าว Sway
-    - เมื่อต้องการเพิ่มแอป PowerApps ให้ลากรายการ **PowerApps** ไปยังพื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรม และเลือกแอป PowerApps หรือป้อนรหัสแอป PowerApps อย่างใดอย่างหนึ่ง
+    - เมื่อต้องการเพิ่มแอป Microsoft Power Apps ให้ลากรายการ **Power Apps** ไปยังพื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรม และเลือกแอป Power Apps หรือป้อนรหัสแอป Power Apps อย่างใดอย่างหนึ่ง
     - เมื่อต้องการเพิ่มวิดีโอ Microsoft Stream ให้ลากรายการ **Microsoft Stream** ไปยังพื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรมนั้น และป้อน URL สำหรับวิดีโอ Microsoft Stream
     - เมื่อต้องการเพิ่มฟอร์ม Microsoft Forms ให้ลากรายการ **Microsoft Forms** ไปที่พื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรม ป้อน URL สำหรับฟอร์ม Microsoft Forms และระบุขนาดของพื้นที่หน้าจอ
     - เมื่อต้องการเพิ่ม iframe ที่มีเนื้อหาเว็บ ให้ลากรายการ **เนื้อหาเว็บ (iframe)** ไปที่พื้นที่สำหรับแก้ไข ป้อนชื่อและคำอธิบายสำหรับกิจกรรม ป้อน URL สำหรับเนื้อหาเว็บ และระบุขนาดของพื้นที่หน้าจอ
@@ -186,6 +186,6 @@ ms.locfileid: "2552013"
 ### <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ลองหรือซื้อแอป Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [มีอะไรใหม่](./whats-new.md)
-- [บันทึกย่อประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
-- [รับการสนับสนุน](./talent-support.md)
+- [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent](./whats-new.md)
+- [แผนประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
+- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](./talent-support.md)

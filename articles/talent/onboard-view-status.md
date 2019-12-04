@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009842"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814731"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>ดูสถานะพนักงานการเตรียมความพร้อมและงานของคุณ
 
@@ -54,6 +54,6 @@ Microsoft Dynamics 365 Talent: Onboard ช่วยให้คุณสาม�
 ### <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ลองหรือซื้อแอป Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [มีอะไรใหม่](./whats-new.md)
-- [บันทึกย่อประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
-- [รับการสนับสนุน](./talent-support.md)
+- [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent](./whats-new.md)
+- [แผนประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
+- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](./talent-support.md)

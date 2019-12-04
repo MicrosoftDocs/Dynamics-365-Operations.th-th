@@ -1,6 +1,6 @@
 ---
-title: ลงประกาศงานลงในไซต์การทำงานภายนอกจาก Attract
-description: หัวข้อนี้อธิบายวิธีการใช้ Dynamics 365 Talent - Attract เพื่อลงประกาศงานไปยังไซต์การสรรหาบุคลากรภายนอก
+title: ลงประกาศงานใน Broadbean จาก Attract
+description: หัวข้อนี้อธิบายวิธีการใช้ Attract Dynamics 365 Talent เพื่อลงประกาศงานใน Broadbean
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551414"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832682"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>ลงประกาศงานลงในไซต์การทำงานภายนอกจาก Attract
+# <a name="post-jobs-to-broadbean-from-attract"></a>ลงประกาศงานใน Broadbean จาก Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract ช่วยให้คุณได้ผู้ที่มีความสามารถพิเศษที่คุณต้องการโดยให้คุณสามารถลงประกาศงานของคุณได้โดยตรงจาก Attract ไปที่ Broadbean หลังจากคุณ [สร้างงาน](./creating-jobs-attract.md) แล้ว สิ่งที่คุณต้องทำก็คือคลิกปุ่มเพื่อนำงานของคุณไปไว้ด้านหน้าของผู้สมัครงานที่อาจเกิดขึ้นทั้งหมดใน Broadbean
 
 การลงประกาศงานไปยัง Broadbean ต้องใช้ใบอนุญาต Broadbean ที่เหมาะสม Broadbean ให้ข้อเสนอผลิตภัณฑ์และแผนต่างๆ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดราคาและการอนุญาตใช้งาน Broadbean [ให้ติดต่อ Broadbean](https://www.broadbean.com/contact-us/)
 
-ถ้าคุณเป็นผู้ดูแลที่ต้องการข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการรวม Broadbean กับ Attract ให้ดู [ป้อนการตั้งค่าสำหรับบอร์ดงานภายนอก](./attract-admin-job-board-settings.md)
+ถ้าคุณเป็นผู้ดูแลที่ต้องการข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการรวม Broadbean กับ Attract ให้ดู [เปิดใช้งานการรวม Broadbean ใน Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
 
 ## <a name="post-jobs-to-broadbean"></a>ลงประกาศงานใน Broadbean
 
@@ -74,7 +74,7 @@ Attract ส่งผ่านข้อมูลต่อไปนี้ไปย
 2. ในส่วน **การลงประกาศ** เลือกปุ่ม **ปรับปรุงประกาศ** ที่สอดคล้องกับ Broadbean
 3. แก้ไขการลงประกาศในหน้าต่าง Broadbean
 
-หรือ
+    หรือ
 
 1. ใน Attract เปิดงานที่คุณต้องการดูใน Broadbean
 2. ในส่วน **การลงประกาศ** เลือกปุ่มจุดไข่ปลา (**...**) ที่สอดคล้องกับ Broadbean และจากนั้น เลือก **ดู**
@@ -99,6 +99,6 @@ Attract ส่งผ่านข้อมูลต่อไปนี้ไปย
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[สร้างงาน](./creating-jobs-attract.md)
+[สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
-[ป้อนการตั้งค่าสำหรับบอร์ดงานภายนอก](./attract-admin-job-board-settings.md)
+[เปิดใช้งานการรวม Broadbean ใน Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)

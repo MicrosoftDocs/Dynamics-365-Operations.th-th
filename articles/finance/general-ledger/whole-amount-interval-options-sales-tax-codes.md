@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc998ddc2f654afba778c8c3af85dce37d3c3427
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d452ccc94324a695f0d203486fc5fa8fe9db79f6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570182"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770562"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
 
@@ -84,7 +84,7 @@ ms.locfileid: "2570182"
 
 
 
-สำหรับข้อมูลเพิ่มเติม ดู [การกำหนดอัตราภาษีขายตามฐานกำไรเบื้องต้นและฟิลด์วิธีการคำนวณ](marginal-base-field.md)
+สำหรับข้อมูลเพิ่มเติม ดู [อัตราภาษีขายตามฐานกำไรเบื้องต้นและวิธีการคำนวณ](marginal-base-field.md)
 
 
 

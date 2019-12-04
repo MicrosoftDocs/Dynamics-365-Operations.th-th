@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a649fdbc355b3382bc6c80be03f8b37a06d5226
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c31116ba234bd1fce445ac382fe8f8aea263a66
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180137"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769488"
 ---
 # <a name="derived-books"></a>สมุดบัญชีที่ได้รับ
 
@@ -44,7 +44,7 @@ ms.locfileid: "2180137"
 > [!NOTE]                                                                                                                               
 > สมุดบัญชีที่มีการตั้งค่าให้ลงรายการบัญชีธุรกรรมเป็นช่วงๆ ที่ไม่ใช่ช่วงของสมุดบัญชีหลัก ต้องแนบกับสินทรัพย์ถาวรเป็นสมุดบัญชีที่แยกต่างหาก และไม่ใช่สมุดบัญชีที่ได้รับ  
 
-สำหรับข้อมูลเพิ่มเติม ดู [การลงรายการบัญชีด้วยสมุดบัญชีที่ได้รับ](post-derived-value-models.md)
+สำหรับข้อมูลเพิ่มเติม ดู [ลงรายการบัญชีด้วยสมุดบัญชีที่ได้รับ](post-derived-value-models.md)
 
 
 

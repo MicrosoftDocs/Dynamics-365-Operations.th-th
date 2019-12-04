@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180164"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771995"
 ---
 # <a name="cost-element-dimensions"></a>มิติองค์ประกอบต้นทุน
 
@@ -66,7 +66,7 @@ ms.locfileid: "2180164"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>มิติองค์ประกอบต้นทุนและสมาชิกมิติองค์ประกอบต้นทุน
 องค์ประกอบต้นทุนถูกอ้างอิงเป็น *มิติองค์ประกอบต้นทุน* ค่ามิติแต่ละรายการจะถูกเรียกว่า *สมาชิกของมิติองค์ประกอบต้นทุน* ตัวอย่างเช่น คุณสามารถมีโครงสร้างผังบัญชี (COA) ของสหรัฐอเมริกาที่เป็นพื้นฐานสำหรับการรายงานตามกฎหมายของคุณ COA นี้จะใช้เป็นมิติองค์ประกอบต้นทุน บัญชีซึ่งเป็นองค์ประกอบต้นทุนหลักจะถูกแสดงเป็นสมาชิกมิติองค์ประกอบต้นทุนในการลงบัญชีต้นทุน ภาพหน้าจอต่อไปนี้แสดงตัวอย่างของบัญชีหลักเป็นมิติองค์ประกอบต้นทุนที่มีบัญชีหลักจริงเป็นสมาชิกมิติองค์ประกอบต้นทุน 
 
-[![มิติองค์ประกอบต้นทุน](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![ภาพหน้าจอของบัญชีหลักเป็นมิติองค์ประกอบต้นทุน](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>นำเข้าสมาชิกมิติองค์ประกอบต้นทุนผ่านตัวเชื่อมต่อข้อมูล
 เพื่อช่วยให้การตั้งค่าสมาชิกมิติองค์ประกอบต้นทุนในการลงบัญชีต้นทุนง่ายขึ้น คุณสามารถใช้ตัวเชื่อมต่อข้อมูลที่อาจสร้างขึ้นไว้ล่วงหน้าหรือสร้างแบบกำหนดเองของคุณในการดึงข้อมูลองค์ประกอบต้นทุนหลักจากระบบต้นทางอย่างน้อยหนึ่งรายการ

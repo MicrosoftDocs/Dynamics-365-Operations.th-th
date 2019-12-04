@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: cde95430022d94c42bdd985b5e4a8f9f5147d000
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 804878150f035adc051e89ec6be44457ad58e87e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181369"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771202"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
 
@@ -44,7 +44,7 @@ ms.locfileid: "2181369"
 - [การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [การตั้งค่าคอนฟิกรูปแบบ ER - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-[ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+[ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
 
-[ผู้ออกแบบสูตรรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
+[โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting-formula-designer.md)

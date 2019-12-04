@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742691"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832668"
 ---
 # <a name="track-changes-in-recruiting-data"></a>ติดตามการเปลี่ยนแปลงในข้อมูลการสรรหาบุคลากร
+
+[!include [banner](includes/banner.md)]
 
 คุณสามารถติดตามการเปลี่ยนแปลงที่ทำไปยังผู้สมัคร งานที่เปิด และใบสมัครงาน โดยใช้กระบวนการตรวจสอบ นี่เป็นประโยชน์สำหรับการรายงานหรือการปฏิบัติตามกฎระเบียบ
 
@@ -31,7 +33,7 @@ ms.locfileid: "1742691"
 ## <a name="track-changes"></a>ติดตามการเปลี่ยนแปลง
 เมื่อต้องการตั้งค่าการติดตามการเปลี่ยนแปลงในข้อมูลการสรรหาบุคลากร ให้ทำตามขั้นตอนเหล่านี้:
 
-1. ใน [PowerApps](https://web.powerapps.com) ให้เลือกสภาพแวดล้อมที่เหมาะสม
+1. ใน [Power Apps](https://web.powerapps.com) ให้เลือกสภาพแวดล้อมที่เหมาะสม
 
 2. เลือก **การตั้งค่า** (ไอคอนเกียร์) เลือก **การกำหนดค่าขั้นสูง** และจากนั้น เลือก **ทรัพยากร** ภายใต้ **ทรัพยากรนักพัฒนา** 
 

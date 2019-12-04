@@ -1,5 +1,5 @@
 ---
-title: ติดตามแหล่งที่มาของโพรไฟล์ผู้สมัครและใบสมัคร
+title: ติดตามทรัพยากรผู้สมัครใน Attract
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการติดตามแหล่งที่มาสำหรับโพรไฟล์ของผู้สมัครและใบสมัคร
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551898"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832683"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>ติดตามแหล่งที่มาของโพรไฟล์ผู้สมัครและใบสมัคร
+# <a name="track-candidate-sources-in-attract"></a>ติดตามทรัพยากรผู้สมัครใน Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > ฟังก์ชันการทำงานที่ระบุในหัวข้อนี้พร้อมใช้งานอันเป็นส่วนหนึ่งของการนำออกใช้การตรวจทานการแสดงตัวอย่าง เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้ขอให้ผู้ดูแลระบบเปิดใช้งานโดยใช้ **การตั้งค่าผู้ดูแลระบบ** ใน Attract การนำออกใช้ในอนาคตจะแสดงรายงานการติดตามแหล่งที่มา ดูข้อมูลเพิ่มเติมที่ [เข้าถึงคุณลักษณะการแสดงตัวอย่างใน Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)

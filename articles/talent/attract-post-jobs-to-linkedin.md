@@ -1,5 +1,5 @@
 ---
-title: ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 Talent - Attract
+title: ลงประกาศงานใน LinkedIn จาก Attract
 description: หัวข้อนี้อธิบายวิธีการใช้ Dynamics 365 Talent เพื่อลงประกาศงานใน LinkedIn
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551506"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833019"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>ลงประกาศงานใน LinkedIn จาก Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn เป็นเครือข่ายมืออาชีพออนไลน์ที่ใหญ่ที่สุด ซึ่งจะช่วยให้คุณสามารถเข้าถึงผู้มีความสามารถพิเศษระดับโลก Microsoft Dynamics 365 Talent: Attract: ช่วยให้คุณได้ผู้ที่มีความสามารถพิเศษที่คุณต้องการ โดยให้คุณสามารถลงประกาศงานของคุณได้โดยตรงจาก Attract ไปที่ LinkedIn
 
@@ -46,7 +46,7 @@ Attract ช่วยให้คุณสามารถลงประกาศ
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทบาทผู้ใช้ใน Attract โปรดดูที่ [การจัดการความปลอดภัยและบทบาทใน Attract](./security-attract.md)
 
-ถ้าคุณเป็นผู้ดูแลและต้องการข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการรวม LinkedIn กับ Attract โปรดดู [ตั้งค่าการรวมด้วย LinkedIn](./attract-admin-linkedin.md)
+ถ้าคุณเป็นผู้ดูแลและต้องการข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการรวม LinkedIn กับ Attract โปรดดู [ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
 งานที่โพสต์ไปยัง LinkedIn ปรากฏขึ้นบนไซต์ LinkedIn ขณะใช้งานจริง LinkedIn ไม่มีสภาพแวดล้อมการทดสอบสำหรับการลงประกาศงาน ดังนั้น โปรดตรวจสอบให้แน่ใจว่าคุณไม่ได้ลงประกาศงานทดสอบใดๆโดยไม่ได้ตั้งใจ
 
@@ -67,15 +67,15 @@ Attract ช่วยให้คุณสามารถลงประกาศ
 
 การลงประกาศงานทั้งหมดที่ทำผ่าน Attract เป็นการแสดงรายการที่จำกัด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแสดงรายการที่จำกัดบน LinkedIn โปรดดูที่ [การแสดงรายการที่จำกัดเทียบกับช่องงานพิเศษสำหรับ Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049)
 
-หากคุณกำลังมีปัญหาในการลงประกาศงานใน LinkedIn โปรดดูที่ [แก้ไขปัญหาการลงประกาศงานใน LinkedIn](./attract-troubleshoot-linkedin.md)
+ถ้าคุณมีปัญหาในการลงชื่อเข้าใช้หรือลงประกาศงานใน LinkedIn โปรดดู [การแก้ไขปัญหาการรวมกับ LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
+[การรวม Attract กับ FAQ เกี่ยวกับ LinkedIn](./attract-linkedin-faq.md)
 
-[ตั้งค่าการรวมกับ LinkedIn](./attract-admin-linkedin.md)
+[ตั้งค่าการรวมกับ LinkedIn สำหรับ Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[สร้างงาน](./creating-jobs-attract.md)
+[สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
 [จัดหาผู้สมัครด้วย LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract รุ่นไหนดี
+title: เลือกรุ่นของ Attract
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับความสามารถในแต่ละรุ่นของ Microsoft Dynamics 365 Talent - Attract
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 54f206aed196be5bbfa0de5b632f20519c2680ea
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550447"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833172"
 ---
-# <a name="which-version-of-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract รุ่นไหนดี
+# <a name="choose-a-version-of-attract"></a>เลือกรุ่นของ Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 รุ่นของ Microsoft Dynamics 365 Talent: Attract ที่เหมาะสำหรับคุณขึ้นอยู่กับขนาดและความต้องการขององค์กรของคุณ รุ่นพื้นฐานของ Attract แสดงชุดย่อยของฟังก์ชันที่เป็นเป้าหมายในทีมงานขนาดเล็กหรือองค์กรโดยมีผู้จัดการที่ว่าจ้างเป็นผู้ใช้หลัก คุณสามารถเริ่มใช้รุ่นพื้นฐานของ Attract ที่มีใบอนุญาตอย่างน้อยหนึ่งรายการได้
 

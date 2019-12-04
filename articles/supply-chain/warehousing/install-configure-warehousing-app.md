@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
-ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
+ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2548979"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814961"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า
 
@@ -62,15 +62,32 @@ ms.locfileid: "2548979"
 
 1.  ในเว็บเบราเซอร์ ไปที่ <https://portal.azure.com>
 2.  ป้อนชื่อและรหัสผ่านสำหรับผู้ใช้ที่มีสิทธิ์เข้าถึงการสมัครใช้งาน Azure
-3.  ในพอร์ทัล Azure ในบานหน้าต่างการนำทางด้านซ้าย คลิก **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  ในพอร์ทัล Azure ในบานหน้าต่างนำทางด้านซ้าย ให้คลิก **Azure Active Directory**
+
+    [![WMA-01-ใช้งาน-ไดเรกทอรี-ตัวอย่าง](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+
 4.  ตรวจสอบว่าอินสแตนซ์ของ Active Directory เป็นรายการที่ถูกใช้โดย Supply Chain Management
-5.  ในรายการ คลิก **การลงทะเบียนแอพ** [![WMA-02-ใช้งาน-ไดเรกทอรี-แอพ-การลงทะเบียน](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+5.  ในรายการ คลิก **การลงทะเบียนแอพ** 
+
+    [![WMA-02-ใช้งาน-ไดเรกทอรี-แอพ-การลงทะเบียน](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+
 6.  ในบานหน้าต่างด้านบนสุด คลิก **การลงทะเบียนใหม่** ตัวช่วยสร้าง **ลงทะเบียนแอพลิเคชัน** เริ่มทำงาน
-7.  ป้อนชื่อของแอพลิเคชันและ **เลือกบัญชีในไดเรกทอรี**ขององค์กรนี้เท่านั้น คลิก **ลงทะเบียน**  [![WMA-03-ใช้งาน-ไดเรกทอรี-เพิ่ม-แอพลิเคชัน](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
-8.  การลงทะเบียนแอปใหม่ของคุณจะเปิดขึ้น [![WMA-04-ใช้งาน-ไดเรกทอรี-ตั้งค่าคอนฟิก-แอพ](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+7.  ป้อนชื่อของแอพลิเคชันและ **เลือกบัญชีในไดเรกทอรี**ขององค์กรนี้เท่านั้น คลิก **ลงทะเบียน**  
+
+    [![WMA-03-ใช้งาน-ไดเรกทอรี-เพิ่ม-แอพลิเคชัน](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+
+8.  การลงทะเบียนแอปใหม่ของคุณจะเปิดขึ้น 
+
+    [![WMA-04-ใช้งาน-ไดเรกทอรี-ตั้งค่าคอนฟิก-แอพ](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+
 9.  อย่าลืม **รหัสแอพลิเคชัน** คุณจะต้องใช้ข้อมูลนี้ในภายหลัง ในภายหลัง **รหัสแอพลิเคชัน** จะถูกเรียกว่าเป็น **รหัสไคลเอนต์**
-10. คลิก**ใบรับรอง** & ความ**ลับ**ในบานหน้าต่างจัดการ คลิกที่**ลับ**ใหม่ของไคลเอนต์ [![WMA-05-ใช้งาน-ไดเรกทอรี-สร้าง-คีย์](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
-11. สร้างคีย์ โดยการป้อนคำอธิบายคีย์และระยะเวลาในส่วน **รหัสผ่าน** คลิก **เพิ่ม** และคัดลอกคีย์ ในภายหลังจะเรียกคีย์นี้ว่า **ข้อมูลลับไคลเอนต์** [![WMA-06-ใช้งาน-ไดเรกทอรี-บันทึก-คีย์](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+10. คลิก**ใบรับรอง** & ความ**ลับ**ในบานหน้าต่างจัดการ คลิกที่**ลับ**ใหม่ของไคลเอนต์ 
+
+    [![WMA-05-ใช้งาน-ไดเรกทอรี-สร้าง-คีย์](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+
+11. สร้างคีย์ โดยการป้อนคำอธิบายคีย์และระยะเวลาในส่วน **รหัสผ่าน** คลิก **เพิ่ม** และคัดลอกคีย์ ในภายหลังจะเรียกคีย์นี้ว่า **ข้อมูลลับไคลเอนต์** 
+
+    [![WMA-06-ใช้งาน-ไดเรกทอรี-บันทึก-คีย์](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>สร้างและตั้งค่าคอนฟิกบัญชีผู้ใช้ใน Supply Chain Management
 เพื่อเปิดใช้งาน Supply Chain Managementto เพื่อใช้แอพลิเคชัน Azure AD ของคุณ คุณต้องทำขั้นตอนการตั้งค่าคอนฟิกต่อไปนี้ให้เสร็จสมบูรณ์:
@@ -78,28 +95,47 @@ ms.locfileid: "2548979"
 1.  สร้างผู้ใช้ที่สอดคล้องกับข้อมูลประจำตัวผู้ใช้แอพคลังสินค้า
     1.  ไปที่ **การจัดการระบบ** &gt; **ทั่วไป** &gt; **ผู้ใช้**
     2.  สร้างผู้ใช้ใหม่
-    3.  กำหนดผู้ใช้อุปกรณ์เคลื่อนที่คลังสินค้าดังที่แสดงไว้ในภาพหน้าจอต่อไปนี้ [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  กำหนดผู้ใช้อุปกรณ์เคลื่อนที่คลังสินค้าดังที่แสดงไว้ในภาพหน้าจอต่อไปนี้ 
+    
+        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  เชื่อมโยงแอพลิเคชัน Azure Active Directory ของคุณกับผู้ใช้แอปคลังสินค้า
     1.  ใน Supply Chain Management ไปที่ **การดูแลระบบ** &gt; **การตั้งค่า** &gt; **แอพลิเคชัน Azure Active Directory**
     2.  สร้างบรรทัดใหม่ 
-    3.  ป้อน **รหัสไคลเอนต์** (ได้รับมาในส่วนสุดท้าย) ตั้งชื่อ และเลือกผู้ใช้ที่สร้างไว้ก่อนหน้านี้ เราขอแนะนำให้คุณติดแท็กให้กับอุปกรณ์ทุกเครื่องของคุณเพื่อให้คุณสามารถลบสิทธิ์การเข้าถึง Supply Chain Management จากหน้านี้ได้อย่างง่ายดายในกรณีที่อุปกรณ์ของคุณหายไป [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  ป้อน **รหัสไคลเอนต์** (ได้รับมาในส่วนสุดท้าย) ตั้งชื่อ และเลือกผู้ใช้ที่สร้างไว้ก่อนหน้านี้ เราขอแนะนำให้คุณติดแท็กให้กับอุปกรณ์ทุกเครื่องของคุณเพื่อให้คุณสามารถลบสิทธิ์การเข้าถึง Supply Chain Management จากหน้านี้ได้อย่างง่ายดายในกรณีที่อุปกรณ์ของคุณหายไป 
+    
+        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
 ## <a name="configure-the-application"></a>ตั้งค่าคอนฟิกแอพลิเคชัน
 คุณต้องตั้งค่าคอนฟิกแอปบนอุปกรณ์เพื่อเชื่อมต่อในเซิร์ฟเวอร์ Supply Chain Management ผ่านทางแอพลิเคชัน Azure AD เมื่อต้องการทำเช่นนี้ ให้ทำตามขั้นตอนต่อไปนี้
 
 1.  ในแอพ ไปที่ **การตั้งค่าการเชื่อมต่อ**
-2.  ล้างฟิลด์ **โหมดสาธิต** <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+2.  ล้างฟิลด์ **โหมดสาธิต** <br>
+
+    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+
 3.  ป้อนข้อมูลต่อไปนี้ 
     + **รหัสไคลของเอนต์ Azure Active directory** - รหัสของไคลเอนต์จะได้รับในขั้นตอนที่ 9 ใน "สร้างแอพบริการเว็บใน Active Directory" 
     + **ข้อมูลลับไคลเอนต์ Azure Active directory** - ข้อมูลลับไคลเอนต์จะได้รับในขั้นตอนที่ 11 ใน "สร้างแอพบริการเว็บใน Active Directory" 
-    + **ทรัพยากร Azure Active directory** - ทรัพยากรไดเรกทอรี Azure AD แสดง URL รากของ Supply Chain Management **หมายเหตุ**: อย่าลงท้ายฟิลด์นี้ด้วยอักขระทับ (/) 
-    + **ผู้เช่า Azure Active directory** - ผู้เช่าไดเรกทอรี Azure AD ที่ใช้กับเซิร์ฟเวอร์ Supply Chain Management: `https://login.windows.net/your-AD-tenant-ID` ตัวอย่างเช่น: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    <br>**หมายเหตุ**: อย่าลงท้ายฟิลด์นี้ด้วยอักขระทับ (/) 
-    + **บริษัท** - ป้อนนิติบุคคลใน Supply Chain Management ที่คุณต้องการให้แอพลิเคชันเชื่อมต่อด้วย <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  เลือกปุ่ม **ย้อนกลับ** ที่มุมซ้ายด้านบนของแอพลิเคชัน ในขณะนี้แอพลิเคชันจะเชื่อมต่อกับเซิร์ฟเวอร์ Supply Chain Management ของคุณและระบบจะแสดงหน้าจอการเข้าสู่ระบบสำหรับผู้ปฏิบัติงานคลังสินค้า <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+    + **ทรัพยากร Azure Active directory** - ทรัพยากรไดเรกทอรี Azure AD แสดง URL รากของ Supply Chain Management 
+    
+        > [!NOTE]
+        > อย่าลงท้ายฟิลด์นี้ด้วยอักขระทับ (/) 
 
-สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าแอพพลิเคชั่น Warehousing ที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์มือถือ ดู [สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations  – คลังสินค้า](scan-bar-codes-using-a-camera.md)
+    + **ผู้เช่า Azure Active directory** - ผู้เช่าไดเรกทอรี Azure AD ที่ใช้กับเซิร์ฟเวอร์ Supply Chain Management: `https://login.windows.net/your-AD-tenant-ID` ตัวอย่างเช่น: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    
+        > [!NOTE]
+        > อย่าลงท้ายฟิลด์นี้ด้วยอักขระทับ (/) 
+    
+    + **บริษัท** - ป้อนนิติบุคคลใน Supply Chain Management ที่คุณต้องการให้แอพลิเคชันเชื่อมต่อด้วย <br>
+    
+    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+
+4.  เลือกปุ่ม **ย้อนกลับ** ที่มุมซ้ายด้านบนของแอพลิเคชัน ในขณะนี้แอพลิเคชันจะเชื่อมต่อกับเซิร์ฟเวอร์ Supply Chain Management ของคุณและระบบจะแสดงหน้าจอการเข้าสู่ระบบสำหรับผู้ปฏิบัติงานคลังสินค้า
+
+    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าแอพพลิเคชั่น Warehousing ที่จะสแกนบาร์โค้ดโดยใช้กล้องบนอุปกรณ์มือถือ ดู [สแกนบาร์โค้ดโดยใช้กล้องใน Dynamics 365 for Finance and Operations  - แอปคลังสินค้า](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>ลบการเข้าถึงออกจากอุปกรณ์
 ในกรณีที่อุปกรณ์สูญหายหรือระบบถูกโจมตี คุณต้องลบการเข้าถึง Supply Chain Management ออกจากอุปกรณ์ ขั้นตอนต่อไปนี้อธิบายกระบวนการที่แนะนำในการลบการเข้าถึง

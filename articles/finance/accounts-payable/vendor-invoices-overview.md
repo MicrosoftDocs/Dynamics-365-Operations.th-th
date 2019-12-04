@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570436"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772179"
 ---
 # <a name="vendor-invoices-overview"></a>ภาพรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
 
@@ -101,7 +101,7 @@ ms.locfileid: "2570436"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 - [ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้สมุดรายวันการอนุมัติ](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้กลุ่มใบแจ้งหนี้](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายในสมุดรายวันใบแจ้งหนี้](tasks/record-vendor-invoice-invoice-journal.md)

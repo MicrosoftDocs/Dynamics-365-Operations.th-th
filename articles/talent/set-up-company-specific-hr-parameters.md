@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f790cae031b1a1d97f5409974b5d024ed6ceec5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009456"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814570"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) เฉพาะบริษัท
 
@@ -56,10 +56,10 @@ ms.locfileid: "2009456"
 
 **หมายเหตุ:** จำนวนชั่วโมงที่ทำต้องไม่เกินจำนวน 1250 ยูโร และความยาวของการจ้างงานต้องไม่เกิน 12 เดือน ค่าสูงสุดเหล่านี้จะสอดคล้องกับกฎหมายในสหรัฐอเมริกา ในตอนท้าย การตั้งค่าบนแท็บ **ระบบบริการตนเองของพนักงาน** กำหนดข้อมูลที่ผู้จัดการสามารถป้อนในนามของพนักงานของเขาหรือเธอได้
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[ตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล](set-up-hr-parameters-across-legal-entities.md)
+[ตั้งค่าพารามิเตอร์ทรัพยากรบุคคล (HR) ทั่วทั้งนิติบุคคล](set-up-hr-parameters-across-legal-entities.md)
 
 
 

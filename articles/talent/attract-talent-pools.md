@@ -1,5 +1,5 @@
 ---
-title: จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษใน Microsoft Dynamics 365 Talent - Attract
+title: จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษ ใน Attract
 description: หัวข้อนี้อธิบายวิธีการสร้างและตั้งค่ากลุ่มผู้มีความสามารถพิเศษใน Microsoft Dynamics 365 Talent - Attract
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551129"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833034"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษใน Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษ ใน Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 ผู้สรรหาและผู้จัดการว่าจ้างสามารถจัดระเบียบผู้สมัครของพวกเขาได้โดยใช้ฟังก์ชันกลุ่ม Talent ใน Attract กลุ่ม talent สามารถช่วยให้คุณสามารถติดตาม และเข้าร่วมกับผู้สมัครทั้งหมดที่ใช้สำหรับงานที่บริษัทของคุณ
 
@@ -116,7 +115,7 @@ ms.locfileid: "2551129"
 
     เมื่อต้องการดูเอกสาร เลือกชื่อเอกสารในรายการเอกสาร คุณสามารถดูเอกสาร Microsoft Word ในแอพลิเคชันได้โดยใช้ Microsoft Office 365 คุณยังสามารถดาวน์โหลดเอกสารไปยังคอมพิวเตอร์ของคุณได้ โดยใช้ตัวเลือก **ดาวน์โหลด** สำหรับเอกสารแต่ละฉบับได้
 
-- แท็บ **LinkedIn** แสดงข้อมูล LinkedIn ของผู้สมัคร เพื่อใช้แท็บนี้ คุณต้องเชื่อมโยงบัญชี LinkedIn ของคุณในการตั้งค่าผู้ใช้ และต้องมีการสร้างการเชื่อมต่อ LinkedIn Recruiter ของสภาพแวดล้อมของคุณ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดหาด้วย LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+- แท็บ **LinkedIn** แสดงข้อมูล LinkedIn ของผู้สมัคร เพื่อใช้แท็บนี้ คุณต้องเชื่อมโยงบัญชี LinkedIn ของคุณในการตั้งค่าผู้ใช้ และต้องมีการสร้างการเชื่อมต่อ LinkedIn Recruiter ของสภาพแวดล้อมของคุณ สำหรับข้อมูลเพิ่มเติมให้ ดู [จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 > [!NOTE]
 > เฉพาะผู้สมัครเท่านั้นที่สามารถปรับปรุงทักษะ ประวัติการศึกษา และประสบการณ์การทำงานของพวกเขาได้

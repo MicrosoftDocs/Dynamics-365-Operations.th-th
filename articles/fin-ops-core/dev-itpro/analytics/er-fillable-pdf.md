@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181461"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771317"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อกรอกข้อมูลในเท็มเพลต PDF
 
@@ -300,5 +300,5 @@ ms.locfileid: "2181461"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-- [ER ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML](tasks/er-design-reports-openxml-2016-11.md)
-- [ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Microsoft WORD](tasks/er-design-configuration-word-2016-11.md)
+- [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER (พฤศจิกายน 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word](tasks/er-design-configuration-word-2016-11.md)

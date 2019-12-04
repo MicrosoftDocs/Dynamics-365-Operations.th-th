@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187923"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770861"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>สร้างมิติและนำเข้าสมาชิกมิติ
 
@@ -44,11 +44,10 @@ ms.locfileid: "2187923"
 หลังจากที่นำเข้าข้อมูลลงในการบัญชีต้นทุน คุณสามารถใช้เพื่อสร้างมุมมองต่าง ๆ ที่ให้ข้อมูลเชิงลึกกับผู้จัดการในทุกระดับขององค์กร หัวข้อต่อไปนี้แสดงข้อมูลเกี่ยวกับการสร้างมิติและนำเข้าสมาชิกมิติ 
 
 -  [มิติองค์ประกอบต้นทุน](cost-elements.md)
--  [สร้างองค์ประกอบต้นทุน (คู่มืองาน)](./tasks/create-cost-elements.md)
+-  [สร้างองค์ประกอบต้นทุน](./tasks/create-cost-elements.md)
 -  [มิติออบเจ็กต์ต้นทุน](cost-objects.md)
--  [สร้างองค์ประกอบต้นทุน (คู่มืองาน)](./tasks/create-cost-objects.md)
 -  [แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ](map-cost-elements-dimension-members.md)
--  [แม็ปมิติองค์ประกอบต้นทุน (คู่มืองาน)](./tasks/map-cost-element-dimension.md)
+-  [แม็ปมิติองค์ประกอบต้นทุน](./tasks/map-cost-element-dimension.md)
 -  [สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ](statistical-measure-provider-template.md)
 
 

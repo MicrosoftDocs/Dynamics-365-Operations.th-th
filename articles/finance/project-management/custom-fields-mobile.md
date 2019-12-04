@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175052"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773656"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>ใช้ฟิลด์ที่กำหนดเองสำหรับแอปมือถือ Microsoft Dynamics 365 Project Timesheet บน iOS และ Android
 
@@ -321,13 +321,9 @@ final class TSTimesheetEntryService_Extension
 
 ![ดูคำสั่งในรายละเอียดเพิ่มเติม](media/show-more.png)
 
-
-
 ด้านล่างเป็นภาพหน้าจอจากแอปมือถือที่แสดงส่วน "เพิ่มเติม" ของแผ่นเวลา ฟิลด์แบบกำหนดเองที่เรียกว่า "อัตราการใช้ประโยชน์ของแผ่นเวลานี้ (ฟิลด์แบบกำหนดเองที่คำนวณได้)" ถูกเพิ่มลงในส่วนของส่วนหัวของแผ่นเวลา มีการตั้งค่าแบบอ่านอย่างเดียวของ "0.667" บนฟิลด์ที่กำหนดเอง
 
 ![ส่วนเพิ่มเติม](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>ขยายตาราง TSTimesheetTable เพื่อให้มีฟิลด์ที่กำหนดเอง
 

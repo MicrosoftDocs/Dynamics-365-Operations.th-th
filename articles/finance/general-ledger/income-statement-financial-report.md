@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7c5d27d43b287aef87f5ead7f469d5465dd2dcb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6322001ea8ccbd2e06e15dc6bc8c273608de895b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180108"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771787"
 ---
 # <a name="income-statement-financial-report"></a>รายงานงทางการเงินใบแจ้งยอดรายได้
 
@@ -60,10 +60,10 @@ ms.locfileid: "2180108"
 
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[การรายงานทางการเงิน](financial-reporting-getting-started.md)
+[ภาพรวมของการรายงานทางการเงิน](financial-reporting-getting-started.md)
 
 [ดูรายงานทางการเงิน](view-financial-reports.md)
 

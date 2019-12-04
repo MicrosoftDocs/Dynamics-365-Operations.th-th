@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572460"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769671"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>ลำดับชั้นขององค์กรใน Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 เนื่องจาก Dynamics 365 Finance เป็นระบบทางการเงิน *องค์กร* เป็นแนวคิดหลัก และการตั้งค่าระบบจะเริ่มต้นด้วยการตั้งค่าคอนฟิกของลำดับชั้นขององค์กร สามารถติดตามการเงินของธุรกิจได้ที่ระดับองค์กรและที่ระดับใดก็ได้ในลำดับชั้นขององค์กร
 
@@ -46,85 +44,35 @@ ms.locfileid: "2572460"
 
 แผนผังเอนทิตีลำดับชั้นขององค์กรจะพร้อมใช้งานสำหรับการซิงโครไนส์ข้อมูลแบบทางเดียวจากแอพลิเคชัน Finance and operations ไปยัง Common Data Service
 
+## <a name="templates"></a>เท็มเพลต
+
+ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังเอนทิตี้ถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
+
+Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365 | คำอธิบาย
+-----------------------|--------------------------------|---
+วัตถุประสงค์ลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchypurposes | เท็มเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับเอนทิตีวัตถุประสงค์ของลำดับชั้นขององค์กร
+ชนิดลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchytypes | เท็มเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับเอนทิตีชนิดของลำดับชั้นขององค์กร
+ลำดับชั้นขององค์กรที่เผยแพร่ | msdyn_internalorganizationhierarchies | เท็มเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับเอนทิตีที่เผยแพร่ของลำดับชั้นขององค์กร
+หน่วยปฏิบัติงาน | msdyn_internalorganizations | 
+นิติบุคคล | msdyn_internalorganizations | 
+นิติบุคคล | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>วัตถุประสงค์ลำดับชั้นขององค์กรภายใน
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-เท็มเพลตนี้ให้การซิงโครไนส์แบบทางเดียวของเอนทิตีวัตถุประสงค์ลำดับชั้นขององค์กรจาก Finance and Operations ไปยังแอพลิเคชัน Dynamics 365 อื่น ๆ
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>ชนิดลำดับชั้นขององค์กรภายใน
-
-เท็มเพลตนี้ให้การซิงโครไนส์แบบทางเดียวของเอนทิตีวัตถุประสงค์ชนิดลำดับชั้นขององค์กรจาก Finance and Operations ไปยังแอพลิเคชัน Dynamics 365 อื่น ๆ
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-ชื่อ | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>ลำดับชั้นขององค์กรภายใน
-
-เท็มเพลตนี้ให้การซิงโครไนส์แบบทางเดียวของเอนทิตีลำดับชั้นที่เผยแพขององค์กรร่จาก Finance and Operations ไปยังแอพลิเคชัน Dynamics 365 อื่น ๆ
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>องค์กรภายใน
 
 ข้อมูลองค์กรภายในใน Common Data Service มาจากเอนทิตีสองรายการ **หน่วยปฏิบัติงาน** และ **นิติบุคคล**
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>หน่วยปฏิบัติงาน
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-ชื่อ | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>นิติบุคคล
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-ชื่อ | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-ไม่มี | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>บริษัท
-
-นำเสนอข้อมูลการซิงโครไนส์แบบสองทิศทางของนิติบุคคล (บริษัท) ระหว่าง Finance and Operations และแอพลิเคชัน Dynamics 365 อื่น ๆ
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-ฟิลด์ต้นทาง | ชนิดของการแม็ป | ฟิลด์ปลายทาง
----|---|---
-ชื่อ | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

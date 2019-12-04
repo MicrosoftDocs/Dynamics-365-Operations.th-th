@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 55ba685e36878e57fa0496191fbd24a052c073f9
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b44287bf22f0b6c4e33a29b4b86aaae934505a43
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742879"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814708"
 ---
 # <a name="benefit-eligibility-policies"></a>นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
 
@@ -48,10 +48,10 @@ ms.locfileid: "1742879"
 
 คุณกำหนดขอบเขตของกฎภายใต้นโยบาย ตัวอย่างเช่น ถ้าคุณสร้างชนิดกฎนโยบายเกี่ยวกับสิทธิ์ในสวัสดิการที่ชื่อว่า **ผู้บริหาร**คุณสามารถระบุกฎที่อยู่ภายใต้นโยบาย ในตัวอย่างนี้ กฎอาจระบุว่าตำแหน่งงานใด ๆ ที่ประกอบด้วยคำ "บริหาร" ควรรวมอยู่ในกฎ หลังจากที่คุณได้กำหนดพารามิเตอร์ของกฎหรือกฎที่รวมอยู่ในนโยบาย คุณสามารถกำหนดกฎเฉพาะหนึ่ง ๆ ให้กับสวัสดิการ
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[การกำหนดและจัดการโปรแกรมสวัสดิการ](manage-benefit-program.md)
+[กำหนดและจัดการโปรแกรมสวัสดิการ](manage-benefit-program.md)
 
 
 

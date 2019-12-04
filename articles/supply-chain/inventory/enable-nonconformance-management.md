@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5985042567a29f5a9cac38912cbf9c3c0eb9c8bd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557540"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814478"
 ---
 # <a name="nonconformance-management"></a>การจัดการที่ไม่สอดคล้องกัน
 
@@ -46,11 +46,11 @@ ms.locfileid: "1557540"
 6.  กำหนดการดำเนินงานที่เกี่ยวข้องซึ่งจะกำหนดให้กับความไม่สอดคล้องกัน ใช้หน้า **ดำเนินงาน** เพื่อกำหนดการจัดประเภทของงานที่สามารถดำเนินการสำหรับความไม่สอดคล้องที่อนุมัติแล้ว เมื่อคุณมอบหมายการดำเนินงานที่เกี่ยวข้องให้กับความไม่สอดคล้อง คุณสามารถให้รายละเอียดข้อมูล เช่น ข้อมูลเกี่ยวกับวัสดุที่เกี่ยวข้อง ชั่วโมงแรงงาน และค่าธรรมเนียมเบ็ดเตล็ดที่จำเป็นเพื่อทำการดำเนินงาน ข้อมูลนี้จะถูกใช้ในการคำนวณต้นทุนที่ประเมินสำหรับการดำเนินงาน ข้อมูลรายละเอียดและต้นทุนที่ประเมินมีสำหรับการอ้างอิง การดำเนินงานที่เกี่ยวข้องสำหรับคุณภาพจะแตกต่างจากการดำเนินงานที่สามารถกำหนดให้กับกระบวนการผลิต
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 --------
 
-[สร้างและประมวลผลความไม่สอดคล้องกัน (คู่มืองาน)](tasks/create-process-non-conformance.md)
+[สร้างและประมวลผลความสอดคล้องกัน](tasks/create-process-non-conformance.md)
 
 [กระบวนการการจัดการคุณภาพ](quality-management-processes.md)
 
-[ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการความไม่สอดคล้องกัน (คู่มืองาน)](tasks/set-up-prerequisites-nonconformance-management.md)
+[ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการความไม่สอดคล้องกัน](tasks/set-up-prerequisites-nonconformance-management.md)
