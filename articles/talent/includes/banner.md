@@ -1,1 +1,2 @@
-
+> [!IMPORTANT]
+> <span data-ttu-id="bf965-101">Dynamics 365 Talent: Attract และแอป Onboard กำลังจะถูกเลิกใช้งาน</span><span class="sxs-lookup"><span data-stu-id="bf965-101">Dynamics 365 Talent: Attract and Onboard apps are being retired.</span></span> <span data-ttu-id="bf965-102">เรียนรู้เพิ่มเติมที่ [การเลิกใช้ Dynamics 365 Talent: Attract และแอป Onboard](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)</span><span class="sxs-lookup"><span data-stu-id="bf965-102">Learn more at [Retiring Dynamics 365 Talent: Attract and Onboard apps](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps).</span></span>

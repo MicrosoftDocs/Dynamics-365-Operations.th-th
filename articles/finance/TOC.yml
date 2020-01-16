@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: การมอบโซลูชัน ISV โดยใช้ รุ่นหนึ่ง
+                - name: การมอบโซลูชัน ISV โดยใช้หนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -64,18 +64,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
               items:
-                - name: คุณลักษณะรุ่นพรีวิวใน Finance รุ่น 10.0.7 (มกราคม 2020)
+                - name: Finance เวอร์ชัน 10.0.7 (มกราคม 2020)
                   href: get-started/whats-new-changed-10-0-7.md
-                - name: Finance รุ่น 10.0.6 (พฤศจิกายน 2019)
+                - name: Finance เวอร์ชัน 10.0.6 (พฤศจิกายน 2019)
                   href: get-started/whats-new-finance-10-0-6.md
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในรุ่นก่อนหน้า
+                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในเวอร์ชันก่อนหน้า
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                    - name: แอป Finance and Operations 10.0.5 (ตุลาคม 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
-                    - name: Finance and Operations 10.0.4 (กรกฎาคม 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
@@ -227,7 +223,7 @@
             - name: ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
             - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
-              href: accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
+              href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: ภาพรวมของ Positive Pay
               href: accounts-payable/positive-pay-overview.md
             - name: ตั้งค่าและสร้างไฟล์ Positve Pay
@@ -1244,6 +1240,8 @@
                   href: localizations/latam-bra-sped-reinf.md
                 - name: การแก้ปัญหาทางการเงินของ SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
+                - name: SPED fiscal 2020 - การให้ข้อมูลเสริมของ ICMS-ST สำหรับเค้าโครงทางการเงิน SPED 014
+                  href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: พารามิเตอร์สำหรับนิติบุคคล
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: ตั้งค่าพารามิเตอร์นิติบุคคล
@@ -1901,6 +1899,22 @@
                   href: localizations/emea-ita-credit-invoicing.md
                 - name: ภาษีหัก ณ ที่จ่าย
                   href: localizations/emea-ita-withholding-tax.md
+                - name: แยกบัญชีสำหรับใบลดหนี้
+                  href: localizations/emea-ita-exil-separate-account-credit.md
+                - name: เรียงลำดับรายการใบแจ้งหนี้การขายตามบันทึกการจัดส่ง
+                  href: localizations/emea-ita-exil-invoicing-packing-slips.md
+                - name: การลงรายการบัญชีใบแจ้งหนี้ที่มียอดเงินเป็นศูนย์
+                  href: localizations/emea-ita-exil-zero-invoice-posting.md
+                - name: การปรับปรุงการใช้ข้อมูลของธนาคาร
+                  href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: ค่าธรรมเนียมเบ็ดเตล็ดต่อกิโลกรัมในการรายงานภาษีอินทราสแทต
+                  href: localizations/emea-ita-exil-misc-charges-intrastat.md
+                - name: การจัดการบันทึกขั้นสูง
+                  href: localizations/emea-ita-exil-structured-notes.md
+                - name: ใบกำกับภาษีสำหรับสินค้าที่จัดส่งฟรี
+                  href: localizations/emea-ita-exil-goods-for-free.md
+                - name: การสอบถามที่ปรับปรุงเกี่ยวกับการชำระเงินเดบิตหรือเครดิต
+                  href: localizations/emea-ita-exil-improved-inquiry-settlement.md
             - name: ญี่ปุ่น
               items:
                 - name: ภาพรวมของญี่ปุ่น
@@ -2169,6 +2183,8 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: ใบแจ้งยอด VAT
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: ไฟล์การตรวจสอบมาตรฐานสำหรับภาษี (SAF-T) สำหรับนอร์เวย์
+                  href: localizations/emea-nor-satndard-audit-file-for-tax.md
             - name: โปแลนด์
               items:
                 - name: ภาพรวมของโปแลนด์
@@ -2265,6 +2281,8 @@
                   items:
                     - name: การจัดการสินทรัพย์ถาวร
                       href: localizations/rus-fixed-assets.md
+                    - name: ภาพรวมของสินทรัพย์ถาวร
+                      hfre: localizations/rus-fixed-assets-overview.md
                     - name: ตั้งค่าสินทรัพย์ถาวร
                       href: localizations/rus-set-up-fixed-assets.md
                     - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
@@ -2759,10 +2777,256 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: จัดทำเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
-                    - name: อัปเกรดรูปแบบของคุณโดยการใช้รุ่นพื้นฐานใหม่ของรูปแบบนั้น
+                    - name: อัปเกรดรูปแบบของคุณโดยการใช้เวอร์ชันพื้นฐานใหม่ของรูปแบบนั้น
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
                 - name: ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                - name: ภาษาและฟังก์ชันของสูตร
+                  items:
+                    - name: ภาษาสูตร
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                    - name: ฟังก์ชัน
+                      items:
+                        - name: วันที่และเวลา
+                          items:
+                            - name: ฟังก์ชันวันที่และเวลา
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
+                            - name: AddDays
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                            - name: DateFormat
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
+                            - name: DateTimeFormat
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/finance/toc.json
+                            - name: DateTimeValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: DateToDateTime
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
+                            - name: DateValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: DayOfYear
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/finance/toc.json
+                            - name: Days
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/finance/toc.json
+                            - name: Now
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/finance/toc.json
+                            - name: NullDate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/finance/toc.json
+                            - name: NullDateTime
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/finance/toc.json
+                            - name: SessionNow
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
+                            - name: SessionToday
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: รายการ
+                          items:
+                            - name: ฟังก์ชันรายการ
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
+                            - name: AllItems
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/finance/toc.json
+                            - name: AllItemsQuery
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/finance/toc.json
+                            - name: Count
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/finance/toc.json
+                            - name: EmptyList
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
+                            - name: Enumerate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
+                            - name: Filter
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
+                            - name: First
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
+                            - name: FirstOrNull
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/finance/toc.json
+                            - name: Index
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
+                            - name: IsEmpty
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
+                            - name: List
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                            - name: ListOfFields
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
+                            - name: ListOfFirstItem
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
+                            - name: OrderBy
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
+                            - name: Reverse
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
+                            - name: Split
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
+                            - name: SplitList
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/finance/toc.json
+                            - name: SplitListByLimit
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/finance/toc.json
+                            - name: StringJoin
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
+                            - name: Where
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
+                        - name: ตรรกะ
+                          items:
+                            - name: ฟังก์ชันตรรกะ
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/finance/toc.json
+                            - name: And
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
+                            - name: Case
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                            - name: If
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
+                            - name: Not
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
+                            - name: Or
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                            - name: ValueIn
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
+                        - name: คณิตศาสตร์
+                          items:
+                            - name: ฟังก์ชันคณิตศาสตร์
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/finance/toc.json
+                            - name: Abs
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/finance/toc.json
+                            - name: Power
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/finance/toc.json
+                            - name: Round
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/finance/toc.json
+                            - name: RoundDown
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/finance/toc.json
+                            - name: RoundUp
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/finance/toc.json
+                        - name: เรกคอร์ด
+                          items:
+                            - name: ฟังก์ชันเรกคอร์ด
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
+                            - name: NullContainer
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
+                            - name: EmptyRecord
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                        - name: ข้อความ
+                          items:
+                            - name: ฟังก์ชันข้อความ
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
+                            - name: Char
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
+                            - name: Concatenate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
+                            - name: Format
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
+                            - name: GetEnumValueByName
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                            - name: GuidValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: JsonValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: Left
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/finance/toc.json
+                            - name: Len
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/finance/toc.json
+                            - name: Lower
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
+                            - name: Mid
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                            - name: NumberFormat
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
+                            - name: NumeralsToText
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/finance/toc.json
+                            - name: PadLeft
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/finance/toc.json
+                            - name: QrCode
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
+                            - name: Replace
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/finance/toc.json
+                            - name: Right
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/finance/toc.json
+                            - name: Text
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
+                            - name: Translate
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/finance/toc.json
+                            - name: Trim
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/finance/toc.json
+                            - name: Upper
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/finance/toc.json
+                        - name: การรวบรวมข้อมูล
+                          items:
+                            - name: ฟังก์ชันการรวบรวมข้อมูล
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/finance/toc.json
+                            - name: CollectedList
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/finance/toc.json
+                            - name: CountIF
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/finance/toc.json
+                            - name: CountIFs
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/finance/toc.json
+                            - name: FormatElementName
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/finance/toc.json
+                            - name: SumIF
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/finance/toc.json
+                            - name: SumIFs
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/finance/toc.json
+                        - name: อื่นๆ
+                          items:
+                            - name: ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/finance/toc.json
+                            - name: CH_Bank_Mod_10
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
+                            - name: CN_GBT_AdditionalDimensionID
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/finance/toc.json
+                            - name: ConvertCurrency
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/finance/toc.json
+                            - name: CurCredRef
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
+                            - name: FA_Balance
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
+                            - name: CH_Bank_Mod_10
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
+                            - name: FA_Sum
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
+                            - name: GetCurrentCompany
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/finance/toc.json
+                            - name: ISOCredRef
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/finance/toc.json
+                            - name: IsValidCharacterISO7064
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/finance/toc.json
+                            - name: Mod_97
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/finance/toc.json
+                            - name: NumSeqValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: RoundAmount
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/finance/toc.json
+                            - name: TableName2ID
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/finance/toc.json
+                        - name: ชนิดการแปลง
+                          items:
+                            - name: ฟังก์ชันการแปลงของชนิด
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
+                            - name: Int64Value
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
+                            - name: IntValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: NumberValue
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
+                            - name: Value
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทวันที่และเวลา: DateTimeValue'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทวันที่และเวลา: DateToDateTime'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทวันที่และเวลา: DateValue'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: List'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: ListOfFields'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: Split'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: StringJoin'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: Char'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: GuidValue'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: NumberFormat'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: QrCode'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
+                            - name: 'ประเภทรายการ: Text'
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                 - name: จัดการการแมปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
@@ -2891,6 +3155,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
                     - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                    - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                    - name: ตั้งค่าพารามิเตอร์ของรูปแบบ ER สำหรับนิติบุคคลแต่ละรายการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
                 - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
                   items:
                     - name: ตั้งค่าคอนฟิกกรอบงาน
@@ -2923,10 +3191,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
                     - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                    - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
-                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: เพิ่มฟิลด์ใหม่ลงในเท็มเพลตเอกสารทางธุรกิจใน Microsoft Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: การจัดการเอกสารทางธุรกิจ
+                      items:
+                        - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
+                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                        - name: เพิ่มฟิลด์ใหม่ลงในเท็มเพลตเอกสารทางธุรกิจใน Microsoft Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API กรอบงานการรายงานทางอิเล็กทรอนิกส์
                   items:
                     - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
