@@ -8,7 +8,9 @@
           href: index.md
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
           items:
-            - name: ดูตัวอย่างคุณลักษณะใน Platform update 31 (มกราคม 2020)
+            - name: ดูตัวอย่างคุณลักษณะใน Platform update 32 (กุมภาพันธ์ 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (มกราคม 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (พฤศจิกายน 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (มีนาคม 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในเวอร์ชันก่อนหน้า
+              items:
+                - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: เหตุการณ์ทางธุรกิจ
           items:
             - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: การรวม PowerBI.com กับสภาพแวดล้อมในสถานที่
                   href: analytics/entity-store-on-prem.md
-                - name: ตั้งค่าคอนฟิกพร็อกซีย้อนกลับสำหรับสภาพแวดล้อมในสถานที่
+                - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                   href: deployment/onprem-reverseproxy.md
                 - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: ปัญหาที่ทราบ
                   href: lifecycle-services/known-issues.md
+                - name: คุณลักษณะที่ถูกเอาออกหรือเลิกใช้ใน Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: คู่มือผู้ใช้ Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: ตัวประมาณการสมัครใช้งาน
