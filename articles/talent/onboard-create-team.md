@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814846"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897200"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>สร้างทีมงานการจ้างงานโดยการใช้ Dynamics 365 Talent - Onboard
+# <a name="create-a-hiring-team"></a>สร้างทีมงานการจ้างงาน
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2814846"
 2. ภายใต้ **ทีมงาน** ให้เลือก **เพิ่ม** ไทล์ (เครื่องหมายบวก \[**+**\])
 3. ในกล่องโต้ตอบ **สร้างทีมงานใหม่** ภายใต้ **ชื่อทีมงาน** ให้ป้อนชื่อสำหรับทีมงานการจ้างงาน
 
-    ![[การสร้างทีมงานใหม่ใน Onboard] (./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[การสร้างทีมงานใหม่ใน Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. ภายใต้ **เลือกสมาชิกทีมงาน** ป้อนชื่อหรือที่อยู่อีเมลของสมาชิกทีมงานแต่ละคน
 
@@ -51,11 +51,11 @@ ms.locfileid: "2814846"
 2. เลือกทีมงาน
 3. บนแท็บ **คู่มือ** เลือก **เพิ่มคู่มือ**
 
-    ![[การเพิ่มคู่มือการเตรียมควาพร้อมให้กับทีมงาน] (./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[การเพิ่มคู่มือในการเตรียมความพร้อมให้กับทีมงาน](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. เลือกกล่องกาเครื่องหมายสำหรับแต่ละคู่มือการเตรียมควาพร้อมที่คุณต้องการกำหนดให้กับทีมงาน แล้วเลือก **เพิ่ม**
 
-    ![[การเลือกคู่มือการเตรียมควาพร้อมเพื่อเพิ่มให้กับทีมงาน](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[การเลือกคู่มือในการเตรียมความพร้อมที่จะเพิ่มลงในทีมงาน](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>กำหนดเท็มเพลตการเตรียมความพร้อมให้กับทีมงานการจ้างงาน
 
@@ -67,11 +67,11 @@ ms.locfileid: "2814846"
 
 4. เลือกกล่องกาเครื่องหมายสำหรับแต่ละเท็มเพลตที่คุณต้องการกำหนดให้กับทีมงาน แล้วเลือก **เพิ่ม**
 
-    ![[การเลือกเท็มเพลตเพื่อเพิ่มให้กับทีมงาน](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
+    ![[การเลือกเท็มเพลตที่จะเพิ่มลงในทีมงาน](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
 
 ### <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ลองหรือซื้อแอป Onboard](https://dynamics.microsoft.com/talent/onboard/)
 - [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent](./whats-new.md)
-- [แผนประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
+- [แผนการรีลีส](https://docs.microsoft.com/business-applications-release-notes/index)
 - [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](./talent-support.md)

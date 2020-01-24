@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772398"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853917"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>การรวมข้อมูลแบบใกล้เวลาจริงกับ Common Data Service
 
@@ -59,7 +59,7 @@ ms.locfileid: "2772398"
 ทำตามขั้นตอนเหล่านี้เพื่อตั้งค่าการรวมระหว่างแอพลิเคชัน Finance and Operations และ Common Data Service
     
 1. สำหรับการตั้งค่าของระบบการเขียนแบบคู่ ให้ดูที่ [คำแนะนำทีละขั้นตอน](https://aka.ms/dualwrite-docs) ในการประกาศการแสดงตัวอย่างการเขียนแบบคู่
-2. ดาวน์โหลดและติดตั้งโซลูชันจากกลุ่ม [Finance and Operations Common Data Service และการรวม Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer แพคเกจประกอบด้วยโซลูชันห้ารายการ:
+2. ดาวน์โหลดและติดตั้งโซลูชันจากกลุ่ม [การรวม Fin Ops และ CDS/CE โดย Dual-Write](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer แพคเกจประกอบด้วยโซลูชันห้ารายการ:
 
     + Dynamics365Company
     + CurrencyExchangeRates

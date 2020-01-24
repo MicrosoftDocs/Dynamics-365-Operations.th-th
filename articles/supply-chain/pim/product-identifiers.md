@@ -3,12 +3,12 @@ title: ตัวระบุผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดต่างๆ ของตัวระบุผลิตภัณฑ์ และอธิบายวิธีการที่คุณสามารถเพิ่มรหัสผลิตภัณฑ์ในข้อมูลผลิตภัณฑ์ของคุณ
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250616"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934897"
 ---
 # <a name="product-identifiers"></a>ตัวระบุผลิตภัณฑ์ 
 
@@ -43,6 +43,9 @@ ms.locfileid: "2250616"
 เมื่อคุณดำเนิน Supply Chain Management คุณควรให้การพิจารณาแบบพิเศษแก่กลยุทธ์ของคุณสำหรับหมายเลขผลิตภัณฑ์ ระบบการกำหนดหมายเลขสินค้าที่ดีจะปรับปรุงขั้นตอนลอจิสติกส์ และช่วยป้องกันข้อผิดพลาด ตัวระบุผลิตภัณฑ์ที่ดีมีอักขระได้สูงสุด 15 อักขระ ทางที่ดีที่สุดคือ จะมีน้อยกว่า 10 อักขระ และมีอักขระไม่เกินห้าอักขระที่จัดประเภท คุณยังสามารถใช้ชื่อในการค้นหาเพื่อเปิดใช้งานการค้นหาด่วนได้ด้วย ชื่อในการค้นหาคือ ชื่อเพิ่มเติมที่แสดงถึงการจัดประเภทผลิตภัณฑ์
 
 เมื่อคุณใช้ Common Data Service หมายเลขผลิตภัณฑ์ใน Supply Chain Management ก็คือหมายเลขผลิตภัณฑ์ใน Common Data Service ผลิตภัณฑ์ย่อยจะถูกซิงโครไนส์กับ Common Data Service เป็นผลิตภัณฑ์เฉพาะ
+
+> [!NOTE]
+> หมายเลขผลิตภัณฑ์ไม่สามารถเริ่มต้นด้วย "%"
 
 ## <a name="item-number-and-product-dimensions"></a>หมายเลขสินค้าและมิติผลิตภัณฑ์
 

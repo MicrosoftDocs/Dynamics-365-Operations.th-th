@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a542d6987280451910b4ff3bcfb3a109a0e028c6
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: c5fb59a9798e2cddfb75b71235ee7754e54b0e28
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697623"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945793"
 ---
 # <a name="enable-location-based-store-detection"></a>เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง
 
@@ -50,16 +50,16 @@ ms.locfileid: "2697623"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมของร้านค้าออนไลน์](online-store-overview.md)
-
-[สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
+[ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
 [ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
+[สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
+
 [เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
 
-[ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
-
-[เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
+[จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
 
 [ตั้งค่าหน้าแบบกำหนดเองสำหรับการล็อกอินของผู้ใช้](custom-pages-user-logins.md)
+
+[เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)

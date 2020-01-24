@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772179"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890338"
 ---
 # <a name="vendor-invoices-overview"></a>ภาพรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
 
@@ -76,7 +76,7 @@ ms.locfileid: "2772179"
 
 ในตัวเลือกนี้จะสมมุติว่ามีการลงรายการใบรับสินค้าอย่างน้อยหนึ่งรายการในใบสั่งซื้อ ใบแจ้งหนี้ของผู้จัดจำหน่ายจะขึ้นอยู่กับใบรับสินค้าเหล่านี้และจะสะท้อนถึงปริมาณจากเหล่านั้น ข้อมูลด้านการเงินสำหรับใบแจ้งหนี้ยึดตามข้อมูลที่ป้อนเมื่อคุณลงรายการบัญชีใบแจ้งหนี้
 
-สำหรับข้อมูลเพิ่มเติม โปรดดู [บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)
+สำหรับข้อมูลเพิ่มเติม โปรดดู [บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md)
 
 ## <a name="working-with-multiple-invoices"></a>การทำงานกับใบแจ้งหนี้หลายใบ
 

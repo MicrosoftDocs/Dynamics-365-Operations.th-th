@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b705304788f47e4a5d2a9f1b2bf42a065428ea0f
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773068"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898144"
 ---
 # <a name="provision-talent"></a>เตรียมใช้งาน Talent
-
-[!include [banner](includes/banner.md)]
 
 หัวข้อนี้นำคุณไปสู่กระบวนการของการเตรียมใช้งานสภาพแวดล้อมการผลิตใหม่สำหรับ Microsoft Dynamics 365 Talent หัวข้อนี้สันนิษฐานว่า คุณได้ซื้อ Talent ผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) ถ้าคุณมีลิขสิทธิ์ Microsoft Dynamics 365 มีอยู่ ซึ่งรวมแผนบริการ Talent และคุณไม่สามารถทำตามขั้นตอนในหัวข้อนี้ให้เสร็จสิ้นได้ ให้ติดต่อฝ่ายสนับสนุน
 

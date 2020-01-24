@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188291"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888666"
 ---
 # <a name="reconcile-a-bank-account"></a>การกระทบยอดบัญชีธนาคาร
 
@@ -64,7 +64,7 @@ ms.locfileid: "2188291"
 
 8.  หากต้องการดูธุรกรรมธนาคารที่ยังไม่ได้กระทบยอด ให้ใช้รายงาน **ธุรกรรมธนาคารที่ยังไม่ได้กระทบยอด** หากต้องการดูใบแจ้งยอดจากธนาคารสำหรับบัญชีธนาคาร ใช้รายงาน **ใบแจ้งยอดจากธนาคาร**
 
-# <a name="cancel-bank-statement-reconciliation"></a>ยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคาร 
+## <a name="cancel-bank-statement-reconciliation"></a>ยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคาร 
 
 ฟังก์ชันยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคารช่วยให้คุณสามารถยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคารได้ ถ้าต้องการใช้คุณลักษณะนี้ ให้เปิดใช้งานคุณลักษณะ **ยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคาร** ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** นอกจากนี้ คุณยังจำเป็นต้องเปิดใช้งานพารามิเตอร์ **อนุญาตให้แก้ไขใบแจ้งยอดจากธนาคาร** ในการทำเช่นนี้ ไปที่ **การจัดการเงินสดและธนาคาร > การตั้งค่า > พารามิเตอร์การจัดการเงินสดและธนาคาร > การกระทบยอดบัญชีธนาคาร**
  

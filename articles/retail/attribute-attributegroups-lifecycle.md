@@ -1,5 +1,5 @@
 ---
-title: แอททริบิวต์และกลุ่มแอททริบิวต์
+title: จัดการแอททริบิวต์และกลุ่มแอททริบิวต์
 description: หัวข้อนี้อธิบายวิธีการใช้แอททริบิวต์ เพื่อช่วยให้มีวิธีในการอธิบายผลิตภัณฑ์และลักษณะผ่านฟิลด์ที่ผู้ใช้กำหนด
 author: ashishmsft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5ba273265b677f71762c8beae3561712efb92645
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023647"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915283"
 ---
-# <a name="attributes-and-attribute-groups"></a>แอททริบิวต์และกลุ่มแอททริบิวต์
+# <a name="manage-attributes-and-attribute-groups"></a>จัดการแอททริบิวต์และกลุ่มแอททริบิวต์
 
 [!include [banner](includes/banner.md)]
 

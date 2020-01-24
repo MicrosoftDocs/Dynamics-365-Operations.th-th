@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812867"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898213"
 ---
-# <a name="get-the-dynamics-365-talent---onboard-app"></a>รับแอป Dynamics 365 Talent - Onboard
+# <a name="get-the-onboard-app"></a>รับแอป Onboard
 
 [!include [banner](includes/banner.md)]
 
@@ -67,7 +67,7 @@ ms.locfileid: "2812867"
 
 ถ้าคุณข้ามการฝึกปฏิบัติ คุณสามารถเข้าถึงได้ในภายหลังโดยการเลือกปุ่ม **วิธีใช้** (**?**) และจากนั้น เลือก **เริ่มต้นใช้งาน**
 
-![[เริ่มต้นการฝึกปฏิบัติ Onboard](./media/onboard-start-walkthrough.png)](./media/onboard-start-walkthrough.png)
+![[การเริ่มต้นการฝึกปฏิบัติ Onboard](./media/onboard-start-walkthrough.png)](./media/onboard-start-walkthrough.png)
 
 ## <a name="change-the-domain-name"></a>เปลี่ยนชื่อโดเมน
 

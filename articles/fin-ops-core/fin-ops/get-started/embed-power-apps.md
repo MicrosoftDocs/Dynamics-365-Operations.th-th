@@ -3,7 +3,7 @@ title: Power Apps ที่ฝังไว้
 description: หัวข้อนี้อธิบายวิธีการฝัง Power Apps ไปยังไคลเอนต์เพื่อเสริมฟังก์ชันของผลิตภัณฑ์
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824504"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870252"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Apps ที่ฝังไว้
 
@@ -55,7 +55,7 @@ ms.locfileid: "2824504"
 
     - ฟิลด์ **ชื่อ** บ่งชี้ข้อความที่แสดงสำหรับปุ่มหรือแท็บที่จะประกอบด้วย PowerApp ที่ฝังอยู่ ส่วนมาก คุณอาจต้องทำซ้ำชื่อของ PowerApp ในฟิลด์นี้
     - **รหัสแอป** เป็น GUID สำหรับ PowerApp ที่คุณต้องการให้ฝังตัว การดึงข้อมูลค่านี้ ค้นหา PowerApp บน [web.powerapps.com](https://web.powerapps.com) แล้วจากนั้น ระบุตำแหน่งฟิลด์ **รหัสแอป** ภายใต้ **รายละเอียด**
-    - สำหรับ **ป้อนข้อมูลสำหรับ PowerApp** คุณสามารถเลือกฟิลด์ที่ประกอบด้วยข้อมูลที่คุณต้องการส่งผ่านไปยัง PowerApp เป็นข้อมูลป้อนเข้าได้ ดูส่วนต่อไปในหัวข้อนี้ที่ชื่อ [การสร้าง PowerApp ที่ใช้ประโยชน์ข้อมูลจากแอป Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) สำหรับรายละเอียดเกี่ยวกับวิธีการที่ PowerApp สามารถเข้าถึงข้อมูลที่ส่งจากแอป Finance and Operations
+    - สำหรับ **ป้อนข้อมูลสำหรับ PowerApp** คุณสามารถเลือกฟิลด์ที่ประกอบด้วยข้อมูลที่คุณต้องการส่งผ่านไปยัง PowerApp เป็นข้อมูลป้อนเข้าได้ ดูส่วนต่อไปในหัวข้อนี้ที่ชื่อ [การสร้าง PowerApp ที่ใช้ประโยชน์ข้อมูลจากแอป Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) สำหรับรายละเอียดเกี่ยวกับวิธีการที่ PowerApp สามารถเข้าถึงข้อมูลที่ส่งจากแอป Finance and Operations
     - เลือก **ขนาดโปรแกรมประยุกต์** ที่ตรงกับชนิดของ PowerApp ที่คุณกำลังฝัง เลือก **บาง** สำหรับ Power Apps ที่สร้างขึ้นสำหรับอุปกรณ์เคลื่อนที่ และ **กว้าง** สำหรับ Power Apps ที่สร้างขึ้นสำหรับแท็บเล็ต ซึ่งช่วยให้มั่นใจว่าจำนวนพื้นที่ว่างที่เพียงพอจะถูกจัดสรรให้สำหรับ PowerApp ที่ฝัง
     - แท็บด่วน **นิติบุคคล** มีความสามารถในการเลือกนิติบุคคลที่ PowerApp จะพร้อมใช้งาน ค่าเริ่มต้นเป็นการแสดง PowerApp ในนิติบุคคลทั้งหมด
 
@@ -101,7 +101,7 @@ If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsI
 
 หลังจากที่มีการฝัง PowerApp ลงบนหน้า มีวิธีอยู่สองวิธีในการลบ ถ้าจำเป็น:
 
-- ไปยังบานหน้าต่าง **แก้ไข PowerApp** โดยใช้คำแนะนำจากส่วน [การแก้ไข PowerApp ที่ฝังอยู่](#editing-an-embedded-powerapp) ก่อนหน้า ในหัวข้อนี้ ยืนยันว่า บานหน้าต่างแสดงข้อมูลสำหรับ PowerApp ที่ฝัง ซึ่งคุณต้องการลบ แล้วจากนั้น คลิกปุ่ม **ลบ**
+- ไปยังบานหน้าต่าง **แก้ไข PowerApp** โดยใช้คำแนะนำจากส่วน [การแก้ไข PowerApp ที่ฝังอยู่](#editing-an-embedded-power-app) ก่อนหน้า ในหัวข้อนี้ ยืนยันว่า บานหน้าต่างแสดงข้อมูลสำหรับ PowerApp ที่ฝัง ซึ่งคุณต้องการลบ แล้วจากนั้น คลิกปุ่ม **ลบ**
 - เนื่องจาก PowerApp ที่ฝังถูกบันทึกเป็นข้อมูลแบบส่วนบุคคล การล้างการตั้งค่าส่วนบุคคลของเพจ จะลบ Power Apps ที่ฝังอยู่ใดๆ บนหน้านั้นด้วย โปรดทราบว่า การล้างการตั้งค่าส่วนบุคคลของเพจเป็นแบบถาวร และไม่สามารถยกเลิกได้ เมื่อต้องการลบการตั้งค่าส่วนบุคคลของคุณในหน้า เลือก **ตัวเลือก** แล้วจากนั้น คลิก **กำหนดแบบฟอร์มนี้เป็นแบบส่วนบุคคล** ภายใต้เมนู **จัดการ** เลือกปุ่ม **ล้าง** หลังจากการรีเฟรชเบราเซอร์ของคุณ การกำหนดเป็นแบบส่วนบุคคลก่อนหน้านี้ทั้งหมดสำหรับหน้านี้จะถูกเอาออก ดู [กำหนดประสบการณ์ผู้ใช้นี้เป็นแบบส่วนบุคคล](personalize-user-experience.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับปรุงหน้าโดยใช้การกำหนดเป็นแบบส่วนบุคคล
 
 ## <a name="appendix"></a>ภาคผนวก

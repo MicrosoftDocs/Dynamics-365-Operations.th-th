@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770469"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945547"
 ---
 # <a name="configure-your-domain-name"></a>ตั้งค่าคอนฟิกชื่อโดเมนของคุณ
 
@@ -43,16 +43,16 @@ ms.locfileid: "2770469"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมของร้านค้าออนไลน์](online-store-overview.md)
+[ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
 [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
-[ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
-
 [เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
+
+[จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
+
+[ตั้งค่าหน้าแบบกำหนดเองสำหรับการล็อกอินของผู้ใช้](custom-pages-user-logins.md)
 
 [เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
 
 [เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
-
-[ตั้งค่าหน้าแบบกำหนดเองสำหรับการล็อกอินของผู้ใช้](custom-pages-user-logins.md)

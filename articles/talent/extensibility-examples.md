@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832849"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898328"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>ขยาย Talent ด้วย Power Apps และ Power Automate
-
-[!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงตัวอย่างบางอย่างของสถานการณ์สมมุติของการเพิ่มความสามารถของ Microsoft Dynamics 365 Talent ที่ใช้ Microsoft Power Apps และ Microsoft Power Automate คุณสามารถนำเข้าโซลูชันแพคเกจที่เชื่อมโยงกับแต่ละตัวอย่างไปยังสภาพแวดล้อม Power Apps ของคุณ จากนั้นคุณสามารถใช้แพคเกจเป็นคำแนะนำหรือเป็นจุดเริ่มต้นเพื่อนำสถานการณ์ที่สามารถใช้ได้กับองค์กรของคุณไปใช้
 
@@ -108,7 +106,7 @@ ms.locfileid: "2832849"
 
 คุณสามารถฝังแอปนี้ในระบบพนักงานบริการตนเอง (ESS) สำหรับการส่งการอ้างอิง หรือคุณสามารถใช้เป็นไฮเปอร์ลิงค์ในเว็บไซต์องค์กรและรันเป็นแอปเอกเทศ
 
-เมื่อต้องการดาวน์โหลด **แอปการอ้างอิง** ไปที่ [โซลูชันความสามารถในการเพิ่มฟังก์ชัน Dynamics 365 Talent : แอปการอ้างอิง](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) บนศูนย์การดาวน์โหลดของ Microsoft คุณสามารถนำเข้าแอปนี้และเลือกกำหนดเพื่อเพิ่มฟังก์ชันเพิ่มเติมได้
+เมื่อต้องการดาวน์โหลด **แอปการอ้างอิง** ไปที่ [โซลูชันความสามารถในการเพิ่มฟังก์ชัน Dynamics 365 Talent : แอปการอ้างอิง](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) บนศูนย์การดาวน์โหลดของ Microsoft คุณสามารถนำเข้าแอปนี้และเลือกกำหนดเพื่อเพิ่มฟังก์ชันเพิ่มเติมได้
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

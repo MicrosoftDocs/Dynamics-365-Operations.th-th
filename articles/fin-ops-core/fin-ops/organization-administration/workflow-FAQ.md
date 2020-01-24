@@ -3,7 +3,7 @@ title: FAQ เกี่ยวกับลำดับงาน
 description: หัวข้อนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบลำดับงาน
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772708"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934920"
 ---
 # <a name="workflow-faq"></a>FAQ เกี่ยวกับลำดับงาน
 
@@ -37,7 +37,7 @@ ms.locfileid: "2772708"
 ขณะนี้มีข้อจำกัดในลักษณะการทำงานในการส่งออกลำดับงานที่ป้องกันไม่ให้ชื่อลำดับงานเกิน 48 อักขระ การใช้ชื่อที่ยาวกว่า 48 อักขระอาจส่งผลให้เกิดข้อผิดพลาด "เซิร์ฟเวอร์ล้มเหลวในการรับรองความถูกต้องคำขอ" และ/หรือ ป้องกันไม่ให้ไฟล์ถูกส่งออกโดยไม่มีชนิดของไฟล์ โพสต์บล็อกต่อไปนี้ให้รายละเอียดเพิ่มเติม [การแก้ไขปัญหาการส่งออกลำดับงาน](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting)
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>ผู้ส่งของลำดับงานสามารถอนุมัติลำดับงานได้ด้วยใช่หรือไม่?
-ใช่ ผู้ส่งของลำดับงานยังสามารถอนุมัติลำดับงานได้ด้วย ถ้ามีการตั้งค่าคอนฟิกด้วยวิธีการนั้น เมื่อต้องการป้องกันไม่ให้เกิดคุณลักษณะนี้ ตั้งค่า **พารามิเตอร์ลำดับงาน > ทั่วไป > ผู้อนุมัติ > ไม่อนุญาตให้มีการอนุมัติโดยผู้ส่ง** เป็น **ใช่**
+ใช่ ผู้ส่งของลำดับงานยังสามารถอนุมัติลำดับงานได้ด้วย ถ้ามีการตั้งค่าคอนฟิกด้วยวิธีการนั้น เมื่อต้องการป้องกันไม่ให้เกิดลักษณะการทำงานนี้ ตั้งค่า **การจัดการระบบ > ลำดับงาน > พารามิเตอร์ลำดับงาน > ทั่วไป > ผู้อนุมัติ > ไม่อนุญาตให้มีการอนุมัติโดยผู้ส่ง** เป็น **ใช่**
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>ฉันสามารถเพิ่มการแจ้งเตือนไปยังลำดับงานเพื่อให้การแจ้งเตือนแก่ผู้ใช้ได้หรือไม่?
 ต่อไปนี้เป็นพื้นที่สำคัญบางประการที่ต้องทราบเกี่ยวกับการเพิ่มการแจ้งเตือนไปยังลำดับงานเพื่อให้การแจ้งเตือน:
@@ -51,3 +51,6 @@ ms.locfileid: "2772708"
     - [ลำดับงานมีเหตุการณ์ทางธุรกิจ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่ลูกค้าสามารถใช้เพื่อทริกเกอร์โฟลว์ให้มีการแจ้งเตือนที่พวกเขากำลังค้นหา   
 
 โดยสรุป ถ้าผู้ใช้ไม่ได้รับการแจ้งเตือนที่เหมาะสมจากศูนย์ปฏิบัติการ เมื่อมีการกำหนดรายการงานของลำดับงาน ให้ใช้ [เหตุการณ์ทางธุรกิจของลำดับงาน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่มี Microsoft Power Automate เพื่อให้การแจ้งเตือนเพิ่มเติมหรือการแจ้งเตือนที่แตกต่างกัน
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>ตัวแก้ไขลำดับงานมีปัญหาในการเริ่มต้นภายใต้ ADFS 
+เมื่อทำงานภายใต้ Active Directory Federation Services (AD FS) ในสภาพแวดล้อมที่มีการอัพเกรด ตัวแก้ไขลำดับงานอาจมีปัญหาในการเริ่มต้น ถ้าเป็นเช่นนั้น ให้ตรวจสอบให้แน่ใจว่า URL "https://dynamicsaxworkfloweditor/" ถูกเพิ่มไปยังคุณสมบัติ **Microsoft Dynamics 365 for Operations แบบในสถานที่ -ลำดับงาน - แอพลิเคชันดั้งเดิม** ในการตั้งค่า ADFS

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832826"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898700"
 ---
 # <a name="formalize-business-processes"></a>ทำให้กระบวนการทางธุรกิจเป็นทางการ
-
-[!include [banner](includes/banner.md)]
 
 คุณลักษณะของกระบวนการทางธุรกิจช่วยให้คุณสามารถสร้างเท็มเพลตกระบวนการทางธุรกิจได้ สำหรับกระบวนการทางธุรกิจที่ต้องทำให้เสร็จสมบูรณ์ในองค์กรของคุณ ตัวอย่างเช่น บริษัทของคุณทำการตรวจสอบทรัพยากรบุคคล (HR) เสร็จสิ้นทุกปี ในกรณีนี้ คุณสามารถสร้างเท็มเพลตที่ติดตามงานทั้งหมดที่ประกอบด้วยกระบวนการตรวจสอบบัญชีได้ เท็มเพลตนี้จึงสามารถช่วยรับประกันได้ว่างานทั้งหมดเสร็จแล้ว ทุกครั้งที่การตรวจสอบเสร็จเรียบร้อยแล้ว นอกจากนี้ ถ้าต้องมีการดำเนินงานให้เสร็จสมบูรณ์ในใบสั่งเฉพาะ เท็มเพลตจะช่วยรับประกันว่าจะมีการดำเนินงานในลำดับถูกต้อง
 
