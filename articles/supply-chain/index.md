@@ -3,7 +3,7 @@ title: ทรัพยากรความช่วยเหลือสำห�
 description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
 author: josaw1
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4926cd63aa360c7e08a0a435f7609017f02cb229
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
+ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814432"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853999"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>ทรัพยากรความช่วยเหลือสำหรับ Supply Chain Management
 
@@ -115,7 +115,6 @@ ms.locfileid: "2814432"
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">ห้องปฏิบัติการในเชิงปฏิบัติเกี่ยวกับการบัญชีต้นทุน</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">การเคลื่อนย้ายในคลังสินค้าที่อำนวยความสะดวกโดยใช้ Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 สำหรับข้อมูลเกี่ยวกับ Dynamics 365 ดูที่ <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> เว็บไซต์การเรียนรู้ Microsoft Dynamics</a> (ต้องมีบัญชี CustomerSource) 

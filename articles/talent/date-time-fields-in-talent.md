@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: abd215243cbda68ba3f57b5fa41054a10745d11f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5f5bb3432ba3e57a4ef08dfa3c25cb61705efc33
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551037"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898769"
 ---
 # <a name="work-with-date-and-time-in-microsoft-dynamics-365-talent"></a>ทำงานกับวันที่และเวลาใน Microsoft Dynamics 365 Talent
-
-[!include [banner](includes/banner.md)]
 
 ฟิลด์ **วันที่และเวลา** แนวคิดพื้นฐานใน Dynamics 365 Talent นับเป็นสิ่งสำคัญที่จะต้องทำความเข้าใจวิธีการทำงานกับข้อมูล **วันที่และเวลา** ในฟอร์ม Dynamics 365, Common Data Service และแหล่งข้อมูลภายนอก
 

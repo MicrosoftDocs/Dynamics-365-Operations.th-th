@@ -32,7 +32,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การมอบโซลูชัน ISV โดยใช้ รุ่นหนึ่ง
+                - name: การมอบโซลูชัน ISV โดยใช้หนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -62,18 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
               items:
-                - name: คุณลักษณะรุ่นพรีวิวใน Supply Chain Management รุ่น 10.0.7 (ธันวาคม 2019)
+                - name: Supply Chain Management เวอร์ชัน 10.0.7 (ธันวาคม 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (พฤศจิกายน 2019)
                   href: get-started/whats-new-scm-10-0-6.md
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในรุ่นก่อนหน้า
+                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในเวอร์ชันก่อนหน้า
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: แอป Finance and Operations 10.0.5 (ตุลาคม 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (กรกฎาคม 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
@@ -264,7 +260,7 @@
                 - name: สร้างสินทรัพย์ตามใบสั่งซื้อ
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: BOM สินทรัพย์
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: ประวัติเหตุการณ์สินทรัพย์
                   href: asset-management/objects/object-timeline.md
                 - name: มุมมองสินทรัพย์
@@ -592,7 +588,7 @@
                 - name: การวิเคราะห์ต้นทุนใบสั่งผลิต
                   href: cost-management/production-order-cost-analysis.md
                 - name: การประเมินต้นทุนใบสั่งผลิต
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: ดูสถานะปัจจุบันของ WIP ในใบสั่งผลิต
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: เปรียบเทียบต้นทุนที่ใช้งานอยู่ ต้นทุนโดยประมาณ และต้นทุนที่เกิดขึ้นจริงในใบสั่งผลิต
@@ -745,7 +741,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: จัดทำเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: อัปเกรดรูปแบบของคุณโดยการใช้รุ่นพื้นฐานใหม่ของรูปแบบนั้น
+                    - name: อัปเกรดรูปแบบของคุณโดยการใช้เวอร์ชันพื้นฐานใหม่ของรูปแบบนั้น
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: ล่าช้า
                   href: master-planning/delays.md
+                - name: ยกเลิกงานการวางแผนหลัก
+                  href: master-planning/cancel-master-planning-job.md
                 - name: ใช้การติดตามสำหรับการกระจาย
                   href: master-planning/trace-explosion.md
                 - name: ข้อความการดำเนินการ
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: สร้างผลิตภัณฑ์ที่นำออกใช้สำหรับบริษัทเดียว
                   href: pim/tasks/create-released-product-single-company.md
+                - name: ใช้เอนทิตี้ข้อมูล
+                  href: pim/data-entities.md
                 - name: สถานะของวงจรการใช้ผลิตภัณฑ์
                   items:
                     - name: ภาพรวมของสถานะของวงจรการใช้ผลิตภัณฑ์
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
                   href: warehousing/cancel-warehouse-work.md
+                - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: การจัดกลุ่มรายการการเบิกสินค้า
+                  href: warehousing/pick-line-grouping.md
             - name: การนับสินค้าคงคลัง
               items:
                 - name: รหัสเหตุผลการตรวจนับสินค้าคงคลัง

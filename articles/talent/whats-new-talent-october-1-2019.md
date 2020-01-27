@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4c8392973e7f9c55d425dbe3efb9c8858f71e345
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6bfe8a60b8c7eb9b7542a6ef3be6094144b06b3c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550170"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897430"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-1-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (1 ตุลาคม 2019)
-
-[!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 

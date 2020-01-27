@@ -1,9 +1,9 @@
 ---
 title: ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 description: หัวข้อนี้แสดงรายการข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812568"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870275"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 
@@ -137,7 +137,7 @@ ms.locfileid: "2812568"
 
 ## <a name="environment-orchestrator"></a>Orchestrator สภาพแวดล้อม
 
-บริการ Orchestrator คือบริการที่จัดการการปรับใช้ของคุณและการสื่อสารที่เกี่ยวข้องกับ LCS บริการนี้จะถูกปรับใช้เป็นบริการ Service Fabric หลักและต้องมี VM อย่างน้อยสามรายการ บริการนี้อยู่ร่วมกับบริการการประสานกันของ Service Fabric ควรปรับขนาดของสิ่งนี้เป็นจำนวนงานในศูนย์การผลิตสูงสุดของคลัสเตอร์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ข้อควรพิจารณาสำหรับการวางแผนกำลังการผลิตคลัสเตอร์ของ Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity)
+บริการ Orchestrator คือบริการที่จัดการการปรับใช้ของคุณและการสื่อสารที่เกี่ยวข้องกับ LCS บริการนี้จะถูกปรับใช้เป็นบริการ Service Fabric หลักและต้องมี VM อย่างน้อยสามรายการ บริการนี้อยู่ร่วมกับบริการการประสานกันของ Service Fabric ควรปรับขนาดของสิ่งนี้เป็นจำนวนงานในศูนย์การผลิตสูงสุดของคลัสเตอร์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [วางแผนและจัดเตรียมการปรับใช้คลัสเตอร์ Service Fabric Standalone ของคุณ](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)
 
 ## <a name="virtualization-and-oversubscription"></a>การจำลองเสมือนและการบอกรับเป็นสมาชิกที่มากเกินไป
 

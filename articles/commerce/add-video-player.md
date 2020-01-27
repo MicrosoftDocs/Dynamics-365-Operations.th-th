@@ -3,7 +3,7 @@ title: โมดูลโปรแกรมเล่นวิดีโอ
 description: หัวข้อนี้ครอบคลุมถึงโมดูลโปรแกรมเล่นวิดีโอ และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785340"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885912"
 ---
 # <a name="video-player-module"></a>โมดูลโปรแกรมเล่นวิดีโอ
 
@@ -57,6 +57,8 @@ ms.locfileid: "2785340"
 ## <a name="video-player-module"></a>โมดูลโปรแกรมเล่นวิดีโอ
 
 โมดูลโปรแกรมเล่นวิดีโอสามารถใช้ในการแสดงวิดีโอบนไซต์อีคอมเมิร์ซ สนับสนุนความสามารถในการเล่นทั้งหมด เช่น การเล่น การหยุดชั่วคราว โหมดขนาดเต็ม และคำอธิบายที่ปิด โมดูลโปรแกรมเล่นวิดีโอยังสนับสนุนการกำหนดคำอธิบายที่ปิด เพื่อให้เป็นไปตามมาตรฐานการเข้าถึงของ Microsoft ตัวอย่างเช่น คุณสามารถเลือกกำหนดขนาดแบบอักษรและสีพื้นหลังได้
+
+โมดูลโปรแกรมเล่นวิดีโอยังสนับสนุนแทร็คเสียงรอง เมื่ออัปโหลดวิดีโอ จะสามารถอัปโหลดแทร็กเสียงรองได้เช่นกัน โมดูลโปรแกรมเล่นวิดีโอสามารถเล่นแทร็กเสียงรองได้ถ้าผู้ใช้เลือก
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>ตัวอย่างของโมดูลโปรแกรมเล่นวิดีโอในอีคอมเมิร์ซ
 

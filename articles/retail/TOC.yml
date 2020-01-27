@@ -32,7 +32,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/retail/toc.json
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/retail/toc.json
-                - name: การมอบโซลูชัน ISV โดยใช้ รุ่นหนึ่ง
+                - name: การมอบโซลูชัน ISV โดยใช้หนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/retail/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/retail/toc.json
@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: การปรับใช้ระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: ความต้องการของระบบสำหรับการปรับใช้ระบบคลาวด์
+                - name: ความต้องการของระบบสำหรับส่วนประกอบของไคลเอ็นต์ Retail
                   href: get-started/system-requirements.md
                 - name: การปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
               items:
-                - name: คุณลักษณะรุ่นพรีวิวใน Retail รุ่น 10.0.7
+                - name: Retail เวอร์ชัน 10.0.7
                   href: get-started/whats-new-10-0-7.md
-                - name: Retail รุ่น 10.0.6
+                - name: Retail เวอร์ชัน 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail รุ่น 10.0.5
-                  href: get-started/whats-new-10-0-5.md
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในรุ่นก่อนหน้า
+                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในเวอร์ชันก่อนหน้า
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: แอป Finance and Operations 10.0.5 (ตุลาคม 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (กรกฎาคม 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
@@ -340,7 +334,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/retail/toc.json
                         - name: จัดทำเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/retail/toc.json
-                    - name: อัปเกรดรูปแบบของคุณโดยการใช้รุ่นพื้นฐานใหม่ของรูปแบบนั้น
+                    - name: อัปเกรดรูปแบบของคุณโดยการใช้เวอร์ชันพื้นฐานใหม่ของรูปแบบนั้น
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/retail/toc.json
                 - name: ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/retail/toc.json
@@ -786,12 +780,10 @@
           items:
             - name: ภาพรวมของข้อมูลผลิตภัณฑ์
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
-            - name: ลำดับชั้นของ Retail
+            - name: ลำดับชั้นของการขายปลีก
               href: retail-hierarchies.md
-            - name: แอททริบิวต์และกลุ่มแอททริบิวต์
+            - name: จัดการแอททริบิวต์และกลุ่มแอททริบิวต์
               href: attribute-attributegroups-lifecycle.md
-            - name: สร้างและจัดการแอททริบิวต์
-              href: create-manage-attributes.md
             - name: ตั้งค่าผลิตภัณฑ์ขายปลีก
               href: set-up-retail-products.md
             - name: สร้างผลิตภัณฑ์
@@ -1146,7 +1138,9 @@
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
                   href: localizations/emea-swe-cash-registers.md
-                - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม
+                - name: ตัวอย่างการรวมหน่วยควบคุมสำหรับสวีเดน
+                  href: localizations/emea-swe-fi-sample.md
+                - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม (ดั้งเดิม)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: งาน Retail
           items:

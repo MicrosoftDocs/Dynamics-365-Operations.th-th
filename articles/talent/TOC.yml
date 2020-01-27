@@ -8,6 +8,12 @@
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
+            - name: 17 ธันวาคม 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 ธันวาคม 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 ธันวาคม 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19 พฤศจิกายน 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12 พฤศจิกายน 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 กันยายน 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27 สิงหาคม 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 สิงหาคม 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 สิงหาคม 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 สิงหาคม 2019
-              href: whats-new-talent-august-7-2019.md
             - name: ข้อมูลเก็บถาวร 2019 มีอะไรใหม่
               items:
+                - name: 27 สิงหาคม 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 สิงหาคม 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 สิงหาคม 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 สิงหาคม 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 กรกฎาคม 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 กรกฎาคม 2019
@@ -134,32 +140,28 @@
           href: hr-copy-instance.md
         - name: เอาสภาพแวดล้อม Talent ออก
           href: remove-talent-environment.md
-        - name: การเตรียมใช้งานแอป Onboard
+        - name: จัดการคุณลักษณะ
+          href: access-preview-feature.md
+        - name: เตรียมใช้งาน Onboard
           href: modular-app-tech-faq.md
-        - name: ฝังแอป PowerApps
+        - name: ฝังแอป Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR และ Common Data Service
+        - name: เอนทิตี้ Core HR ใน Common Data Service
           href: CoreHREntities.md
         - name: รับการสนับสนุนสำหรับ Talent
           href: talent-support.md
     - name: จัดหาพนักงานในองค์กรของคุณด้วย Attract
       items:
-        - name: Attract รุ่นใด
+        - name: เลือกเวอร์ชันของ Attract
           href: attract-comprehensive-hiring.md
         - name: คุณลักษณะและความสามารถของ Attract
           href: attract-overview.md
-        - name: คำถามที่ถามบ่อย
-          items:
-            - name: FAQ เกี่ยวกับการรวม LinkedIn
-              href: attract-linkedin-faq.md
         - name: ตั้งค่าคอนฟิกการตั้งค่าระบบ
           items:
             - name: ตั้งค่าคอนฟิกข้อมูลบริษัท
               href: admin-settings-attract.md
             - name: ตั้งค่าสิทธิ์ของผู้ใช้
               href: security-attract.md
-            - name: จัดการคุณลักษณะ
-              href: access-preview-feature.md
             - name: ตั้งค่าไซต์รับสมัครงานของคุณ
               href: career-site.md
             - name: เปิดใช้งานการรวม Broadbean
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: ตั้งค่าการรวม LinkedIn
               href: attract-admin-linkedin.md
+            - name: FAQ เกี่ยวกับการรวม LinkedIn
+              href: attract-linkedin-faq.md
         - name: สร้างกระบวนการจ้างงาน
           items:
-            - name: สร้างเท็มเพลตกระบวนการ
+            - name: สร้างเท็มเพลตกระบวนการจ้างงาน
               href: process-templates-attract.md
-            - name: กิจกรรมในกระบวนการจ้างงาน
+            - name: เพิ่มกิจกรรมในกระบวนการจ้างงาน
               href: activities-attract.md
-            - name: เท็มเพลตอีเมล
+            - name: การสร้างเท็มเพลตอีเมล
               href: email-templates.md
             - name: ใช้รายงานการวิเคราะห์
               href: analytic-reports.md
@@ -197,10 +201,10 @@
             - name: ติดตามการจัดหาผู้สมัคร
               href: source-tracking.md
             - name: คำแนะนำอัจฉริยะ
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: ตั้งค่าการสัมภาษณ์
           items:
-            - name: การจัดกำหนดการการสัมภาษณ์และคำติชม
+            - name: จัดกำหนดการสัมภาษณ์
               href: interview-scheduling-feedback.md
         - name: จัดทำข้อเสนอ
           items:
@@ -433,7 +437,7 @@
       items:
         - name: Power BI ที่ฝังในพื้นที่ทำงาน
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: เพิ่มความสามารถ Talent โดยใช้ PowerApps และ Microsoft Flow - ตัวอย่างสถานการณ์
+        - name: ขยาย Talent ด้วย Power Apps และ Power Automate
           href: extensibility-examples.md
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: เผยแพร่พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: ติดตามการเปลี่ยนแปลงในข้อมูลการสรรหาบุคลากร
           href: process-auditing.md
         - name: ความสามารถในการเพิ่มฟังก์ชันใน Attract

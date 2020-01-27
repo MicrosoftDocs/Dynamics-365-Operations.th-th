@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697140"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945846"
 ---
 # <a name="create-an-e-commerce-site"></a>สร้างไซต์อีคอมเมิร์ซ
 
@@ -59,20 +59,16 @@ ms.locfileid: "2697140"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมของร้านค้าออนไลน์](online-store-overview.md)
+[ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
 [ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
 [เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
 
-[ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
+[จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
+
+[ตั้งค่าหน้าแบบกำหนดเองสำหรับการล็อกอินของผู้ใช้](custom-pages-user-logins.md)
 
 [เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
 
 [เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
-
-[ตั้งค่าหน้าแบบกำหนดเองสำหรับการล็อกอินของผู้ใช้](custom-pages-user-logins.md)
-
-[ภาพรวมการสร้างโฮมเพจ](authoring-home-overview.md)
-
-[เพิ่มหน้าไซต์ใหม่](add-new-page.md)

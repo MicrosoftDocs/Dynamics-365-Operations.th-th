@@ -3,7 +3,7 @@ title: การวิเคราะห์การปรับให้เห�
 description: หัวข้อนี้จะอธิบายถึงวิธีการตรวจสอบการตั้งค่าปัจจุบันและข้อมูลของคุณ กับความสามารถของฟังก์ชันการเพิ่มประสิทธิภาพของการวางแผน
 author: ChristianRytt
 manager: AnnBe
-ms.date: 1030/2019
+ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 26b067f8526df16474c0ab52d0abf816170ff5cb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a61529da63bc20fdd591afc94db960b05c284bb9
+ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774062"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935886"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
