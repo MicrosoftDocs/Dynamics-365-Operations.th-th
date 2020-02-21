@@ -1,0 +1,531 @@
+- name: Dynamics 365 Human Resources
+  href: hr-welcome.md
+  items:
+    - name: มีอะไรใหม่
+      items:
+        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
+          href: hr-admin-whats-new.md
+        - name: 7 กุมภาพันธ์ 2020
+          href: hr-whats-new-2020-02-07.md
+        - name: 3 กุมภาพันธ์ 2020
+          href: hr-whats-new-2020-02-03.md
+    - name: คู่มือสำหรับผู้ดูแลระบบ
+      items:
+        - name: ภาพรวม
+          href: hr-admin-overview.md
+        - name: ความต้องการของระบบ
+          href: hr-admin-system-requirements.md
+        - name: ตั้งค่าและจัดการอินสแตนซ์
+          items:
+            - name: เตรียมใช้งาน Human Resources
+              href: hr-admin-setup-provision.md
+            - name: คัดลอกอินสแตนซ์
+              href: hr-admin-setup-copy-instance.md
+            - name: เอาอินสแตนซ์ออก
+              href: hr-admin-setup-remove-instance.md
+            - name: อัปเดตกระบวนการ
+              href: hr-admin-setup-update-process.md
+        - name: ตั้งค่าการรวมข้อมูล
+          items:
+            - name: เลือกเทคโนโลยีการรวมข้อมูล
+              href: hr-admin-integration-choose-technology.md
+            - name: ตั้งค่าคอนฟิกการรวม Common Data Service
+              href: hr-admin-integration-common-data-service.md
+            - name: เอนทิตี้ Common Data Service
+              href: hr-developer-entities.md
+            - name: ตั้งค่าคอนฟิกการรวมกับ Finance
+              href: hr-admin-integration-finance.md
+            - name: ตั้งค่าคอนฟิกการรวมกับ Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
+              href: hr-admin-integration-recurring-data-export.md
+            - name: รวมกับ Office
+              items:
+                - name: บทช่วยสอนการรวม Office
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: อัปเดตข้อมูลเอนทิตี้ใน Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: สร้างประสบการณ์เปิดใน Excel
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: แก้ไขปัญหาการรวม Office
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: จัดการคุณลักษณะ
+          href: hr-admin-manage-features.md
+        - name: สำรวจอินเทอร์เฟซผู้ใช้
+          items:
+            - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: คุณลักษณะความสามารถในการเข้าถึง
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: ภาพรวมของการจัดการคุณลักษณะ
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: FAQ เกี่ยวกับไคลเอนต์
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: การค้นหาการดำเนินการ
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: แสดงหน้าแบบเคียงข้างกันโดยใช้คุณสมบัติเปิดในหน้าต่างใหม่
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: แป้นพิมพ์ลัด
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: เปลี่ยนรูปภาพแบนเนอร์หรือโลโก้สำหรับนิติบุคคล
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: การค้นหานำทาง
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตั้งค่าประสบการณ์ผู้ใช้แบบส่วนตัว
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: มุมมองที่บันทึก
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: ฝังแอป PowerApps
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: ค้นหาข้อมูลโดยใช้การค้นหา
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: การเปลี่ยนแปลงวันที่สำหรับรอบเวลา
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: การตั้งเขตเวลาที่ผู้ใช้ต้องการ
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: ทำความเข้าใจเกี่ยวกับ Lifecycle Services
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: แหล่งข้อมูลเอกสารประกอบ
+          items:
+            - name: ระบบวิธีใช้
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: เชื่อมต่อระบบวิธีใช้
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: เชื่อมต่อไซต์วิธีใช้แบบกำหนดเอง
+              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: ดูและส่งออกคำอธิบายฟิลด์
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตัวบันทึกงาน
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: แก้ไขปัญหาของ Human Resources
+          items:
+            - name: รับการสนับสนุน
+              href: hr-admin-troubleshooting-support.md
+            - name: ปรับปรุงประสิทธิภาพการทำงานด้วยงานการล้างข้อมูลอัตโนมัติ
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: ไม่ได้อัปเดตรายงานการวิเคราะห์
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ Power Apps
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: การยกเลิกการเชื่อมต่อไคลเอนต์
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: หลีกเลี่ยงข้อความที่ถูกตัดในลำดับชั้นของตำแหน่ง
+              href: hr-admin-troubleshooting-truncate.md
+            - name: เรียกใช้กระบวนการค่าตอบแทน
+              href: hr-admin-troubleshooting-compensation.md
+            - name: บันทึกคู่มืองานไปยัง LCS
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: เข้าถึงที่อยู่ส่วนตัวตามบทบาทความปลอดภัย
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: Human Resources ไม่ปรากฏในแอป Dynamics 365
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: ตัวเลือกในการรายงาน
+              href: hr-admin-troubleshooting-reporting.md
+            - name: FAQ เกี่ยวกับการรวม
+              href: hr-admin-troubleshooting-integration.md
+    - name: คู่มือสำหรับนักพัฒนา
+      items:
+        - name: ภาพรวม
+          href: hr-developer-overview.md
+        - name: ขยายด้วย Power Apps และ Power Automate
+          href: hr-developer-power-apps.md
+        - name: เอนทิตี้ Common Data Service
+          href: hr-developer-entities.md
+        - name: ฟิลด์ที่กำหนดเอง
+          href: hr-developer-custom-fields.md
+        - name: ตั้งค่าการรวมข้อมูล
+          items:
+            - name: เลือกเทคโนโลยีการรวมข้อมูล
+              href: hr-admin-integration-choose-technology.md
+            - name: ตั้งค่าคอนฟิกการรวม Common Data Service
+              href: hr-admin-integration-common-data-service.md
+            - name: ตั้งค่าคอนฟิกการรวมกับ Finance
+              href: hr-admin-integration-finance.md
+            - name: ตั้งค่าคอนฟิกการรวมกับ Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
+              href: hr-admin-integration-recurring-data-export.md
+            - name: รวมกับ Office
+              items:
+                - name: บทช่วยสอนการรวม Office
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: อัปเดตข้อมูลเอนทิตี้ใน Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: สร้างประสบการณ์เปิดใน Excel
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: แก้ไขปัญหาการรวม Office
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: การอ้างอิง API ของเอนทิตี้
+          items:
+            - name: การรับรองความถูกต้อง
+              href: hr-developer-api-authentication.md
+            - name: เอนทิตี้
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: ภาพรวมของ MyLeaveRequests
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: ส่งคำขอลางานไปที่ลำดับงาน
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: คู่มือผู้ใช้
+      items:
+        - name: ภาพรวม
+          href: hr-hrpro-overview.md
+        - name: ตั้งค่าทรัพยากรบุคคล
+          items:
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์ทรัพยากรบุคคล
+              href: hr-setup-parameters.md
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของทรัพยากรบุคคล
+              href: hr-setup-shared-parameters.md
+            - name: ตั้งค่าลำดับงานทรัพยากรบุคคล
+              href: hr-setup-workflows.md
+            - name: ทำความเข้าใจฟิลด์วันที่และเวลา
+              href: hr-setup-date-time-fields.md
+        - name: ตั้งค่าคอนฟิกการตั้งค่าองค์กร
+          items:
+            - name: โฮมเพจการจัดการองค์กร
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: ลำดับหมายเลข
+              items:
+                - name: ภาพรวมของลำดับหมายเลข
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าลำดับหมายเลขแต่ละตัว
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: องค์กรและลำดับชั้นขององค์กร
+              items:
+                - name: ภาพรวมขององค์กรและลำดับชั้นขององค์กร
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: วางแผนลำดับชั้นขององค์กรของคุณ
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างลำดับชั้นขององค์กร
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างนิติบุคคล
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างหน่วยปฏิบัติงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: สมุดที่อยู่สากล
+              items:
+                - name: ภาพรวมของสมุดที่อยู่สากล
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: แผนงานสำหรับค่าสมุดที่อยู่สากลและสมุดที่อยู่อื่นๆ
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: FAQ เกี่ยวกับสมุดที่อยู่
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกสมุดที่อยู่
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: ระบบลำดับงาน
+              items:
+                - name: ภาพรวมของระบบลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: สถาปัตยกรรมระบบลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: องค์ประกอบลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: การดำเนินการลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างลำดับงาน
+                  items:
+                    - name: ภาพรวมของการสร้างลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกงานด้วยตนเอง
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกงานอัตโนมัติ
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกกระบวนการอนุมัติ
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกกิจกรรมคู่ขนาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกสาขาคู่ขนาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกชุดงานการประมวลผลข้อความลำดับงานเป็นวิกฤต
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: มอบหมายรายการงานในลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ดูประวัติลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกระบบเพื่อส่งอีเมลที่เกี่ยวข้องกับลำดับงานไปยังผู้ใช้
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: ชนิดลำดับงาน
+                  items:
+                    - name: การสร้างชนิดลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: รายการตรวจสอบชนิดลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: สร้างประเภทลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: สร้างการสอบถามสำหรับชนิดลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: สร้างชนิดลำดับงานใหม่
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: สร้างคลาสเอกสารลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: สร้างคลาส SubmitToWorkflow
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: เชื่อมโยงคลาสเอกสารลำดับงานกับชนิดลำดับงาน
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: รายงานชนิดลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: FAQ เกี่ยวกับลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: การแจ้งเตือน
+              items:
+                - name: ภาพรวมของการแจ้งเตือน
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างกฎการแจ้งเตือน
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: การประมวลผลชุดงานของการแจ้งเตือน
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: การแจ้งเตือนลูกค้าทางอีเมล
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: ลายเซ็นอิเล็กทรอนิกส์
+              items:
+                - name: ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าลายเซ็นอิเล็กทรอนิกส์
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: การจัดการกรณี
+              items:
+                - name: ภาพรวมของการจัดการกรณี
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: วางแผนความปลอดภัยของกรณี กระบวนการ และประเภท
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: เท็มเพลตสำหรับเรกคอร์ด
+              items:
+                - name: ภาพรวมของเท็มเพลตของเรกคอร์ด
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างเท็มเพลตเรกคอร์ด
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: ใช้เท็มเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตั้งค่าคอนฟิกการจัดการเอกสาร
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตั้งค่าคอนฟิกและส่งอีเมล
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: ข้อมูลวันที่/เวลาและโซนเวลา
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: จัดการบุคลากร
+          items:
+            - name: จัดระเบียบบุคลากรของคุณ
+              href: hr-personnel-departments-jobs-positions.md
+            - name: ตั้งค่าส่วนประกอบของงาน
+              href: hr-personnel-jobs.md
+            - name: กำหนดแผนก
+              href: hr-personnel-define-departments.md
+            - name: เพิ่มแผนกไปยังลำดับชั้น
+              href: hr-personnel-add-department-hierarchy.md
+            - name: กำหนดงาน
+              href: hr-personnel-define-jobs.md
+            - name: สร้างปฏิทินเวลาการทำงาน
+              href: hr-personnel-create-working-time-calendar.md
+            - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
+              href: hr-personnel-actions-faq.md
+            - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
+              href: hr-workflow-manage-employee-information.md
+            - name: แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง
+              href: hr-personnel-modify-reporting-relationships-position.md
+            - name: ป้อนข้อมูลผู้ปฏิบัติงาน
+              href: hr-personnel-enter-worker-information.md
+            - name: รายการกู้ยืมของผู้ปฏิบัติงาน
+              href: hr-personnel-loan-item-worker.md
+            - name: สร้างรายการกู้ยืม
+              href: hr-personnel-create-loan-items.md
+            - name: จัดการรายการกู้ยืม
+              href: hr-personnel-loan-items.md
+            - name: พัฒนาแผนการสืบทอด
+              href: hr-personnel-develop-succession-plan.md
+            - name: ป้อนแผ่นเวลาโครงการ
+              href: hr-personnel-enter-project-timesheets.md
+            - name: โครงการจ้างงานโดยรวม
+              href: hr-personnel-mass-hire-projects.md
+            - name: การสร้างโครงการจ้างงานโดยรวม
+              href: hr-personnel-create-mass-hire-project.md
+            - name: ตั้งค่าตำแหน่ง
+              href: hr-personnel-set-up-positions.md
+            - name: ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
+              href: hr-personnel-set-up-injury-illness-information.md
+            - name: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
+              href: hr-personnel-maintain-employee-injury-illness-information.md
+        - name: ตั้งค่าแผนค่าตอบแทน
+          items:
+            - name: ภาพรวมของแผนค่าตอบแทน
+              href: hr-compensation-overview.md
+            - name: ตั้งค่ากริดค่าตอบแทน
+              href: hr-compensation-grids.md
+            - name: พัฒนาโครงสร้างและแผนค่าตอบแทน
+              href: hr-compensation-structure.md
+            - name: สร้างแผนค่าตอบแทนคงที่
+              href: hr-compensation-fixed-plans.md
+            - name: สร้างแผนค่าตอบแทนผันแปร
+              href: hr-compensation-variable-plans.md
+            - name: ลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: ลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร
+              href: hr-compensation-enroll-employees-variable.md
+            - name: กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
+              href: hr-compensation-define-process.md
+            - name: ดำเนินการกับแผนค่าตอบแทน
+              href: hr-compensation-process.md
+        - name: จัดการสวัสดิการ
+          items:
+            - name: 'คุณลักษณะรุ่นพรีวิว: การจัดการสวัสดิการ'
+              items:
+                - name: ภาพรวมของการจัดการสวัสดิการ
+                  href: hr-benefits-management-overview.md
+                - name: ตั้งค่าคอนฟิกการจัดการสวัสดิการ
+                  items:
+                    - name: ตั้งค่าพารามิเตอร์การจัดการสวัสดิการ
+                      href: hr-benefits-setup-parameters.md
+                    - name: ตั้งค่าคอนฟิกกฎและตัวเลือกการมีคุณสมบัติ
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: สร้างตัวเลือกความคุ้มครอง
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: ตั้งค่าความถี่ในการชำระเงิน
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: ตั้งค่าคอนฟิกชนิดเหตุการณ์ของชีวิต
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: สร้างชนิดแผน
+                      href: hr-benefits-setup-plan-types.md
+                    - name: ตั้งค่ารหัสเหตุผล
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: ตั้งค่ารหัสชั้น
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: ตั้งค่าคอนฟิกอัตรา
+                      href: hr-benefits-setup-rates.md
+                    - name: ตั้งค่าคอนฟิกรายการหัก
+                      href: hr-benefits-setup-deductions.md
+                    - name: ตั้งค่าคอนฟิกจำนวนวันที่รอ
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: ตั้งค่าคอนฟิกรอบระยะเวลาที่รอ
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: การตั้งค่ากฎการปัดเศษ
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: สร้างประเภทการจ้างงาน
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: ตั้งค่าชนิดการจ้างงาน
+                      href: hr-benefits-setup-employment-types.md
+                    - name: ตั้งค่าคอนฟิกระบบบริการตนเองของพนักงาน
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: สร้างแผนสวัสดิการ
+                  items:
+                    - name: ตั้งค่าแผนสวัสดิการ
+                      href: hr-benefits-plans-setup.md
+                    - name: สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
+                      href: hr-benefits-plans-worker.md
+                    - name: ตั้งค่าโปรแกรมเครดิตแบบยืดหยุ่น
+                      href: hr-benefits-plans-flex-credit-programs.md
+                    - name: ตั้งค่าคอนฟิกเหตุการณ์ของชีวิตในอนาคต
+                      href: hr-benefits-plans-future-life-events.md
+                - name: ดำเนินการกับแผนสวัสดิการ
+                  items:
+                    - name: ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: ดำเนินการกับเหตุการณ์ของชีวิต
+                      href: hr-benefits-process-life-events.md
+                    - name: ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: ดำเนินการกับการเปลี่ยนแปลงอัตรา
+                      href: hr-benefits-process-rate-changes.md
+            - name: กำหนดและจัดการโปรแกรมสวัสดิการ
+              href: hr-benefits-manage-program.md
+            - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
+              href: hr-benefits-eligibility-policies.md
+            - name: กระบวนการการมีสิทธิ์ในสวัสดิการ
+              href: hr-benefits-eligibility-process.md
+            - name: กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ
+              href: hr-benefits-define-eligibility-rules.md
+            - name: นำเสนอโปรแกรมสวัสดิการของพนักงาน
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: สร้างสวัสดิการใหม่
+              href: hr-benefits-create.md
+            - name: ลงทะเบียนผู้ปฏิบัติงานในสวัสดิการ
+              href: hr-benefits-enroll-workers.md
+            - name: จัดการวันหมดอายุของสวัสดิการ
+              href: hr-benefits-expiration-dates.md
+            - name: สร้างรายงาน ACA
+              href: hr-benefits-aca-reports.md
+        - name: จัดการกับการลางานและการขาดงาน
+          items:
+            - name: ภาพรวม
+              href: hr-leave-and-absence-overview.md
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน
+              href: hr-leave-and-absence-parameters.md
+            - name: สร้างปฏิทินเวลาการทำงาน
+              href: hr-leave-and-absence-working-time-calendar.md
+            - name: สร้างลำดับงานของคำขอลางาน
+              href: hr-leave-and-absence-workflow.md
+            - name: ตั้งค่าคอนฟิกชนิดการลางานและการขาดงาน
+              href: hr-leave-and-absence-types.md
+            - name: สร้างแผนการลางานและการขาดงาน
+              href: hr-leave-and-absence-plans.md
+            - name: กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน
+              href: hr-leave-and-absence-enroll.md
+            - name: แผนการลางานและการขาดงานคงค้าง
+              href: hr-leave-and-absence-accrue.md
+            - name: ดูการวิเคราะห์สำหรับการลางานและการขาดงาน
+              href: hr-leave-and-absence-analytics.md
+            - name: จัดการกับคำขอการลางานและการหยุดงาน
+              href: hr-employee-self-service-manage-requests.md
+            - name: ร้องขอการหยุดพัก
+              href: hr-employee-self-service-request-time-off.md
+            - name: ดูปฏิทินของทีมและบริษัท
+              href: hr-employee-self-service-calendar.md
+        - name: พัฒนาพนักงาน
+          items:
+            - name: ภาพรวมของการบริหารประสิทธิภาพ
+              href: hr-develop-performance-management-overview.md
+            - name: เสริมทักษะของบุคลากร
+              href: hr-develop-skills.md
+            - name: เพิ่มลงในสมุดรายวันประสิทธิภาพการทำงานของคุณ
+              href: hr-develop-add-performance-journal.md
+            - name: สร้างเป้าหมาย
+              href: hr-develop-create-goal.md
+            - name: สร้างการทบทวนประสิทธิภาพการทำงาน
+              href: hr-develop-create-performance-review.md
+        - name: สร้างหลักสูตร
+          items:
+            - name: ตั้งค่าหลักสูตรการฝึกอบรม
+              href: hr-learning-courses.md
+            - name: ภาพรวมของแบบสอบถาม
+              href: hr-learning-questionnaires.md
+            - name: ออกแบบแบบสอบถาม
+              href: hr-learning-design-questionnaires.md
+            - name: แจกจ่ายและจัดกำหนดการแบบสอบถาม
+              href: hr-learning-distribute-questionnaires.md
+            - name: กระจายแบบสอบถามโดยใช้การจัดกำหนดการ
+              href: hr-learning-distribute-questionnaires-scheduling.md
+            - name: ดูผลลัพธ์ของแบบสอบถาม
+              href: hr-learning-evaluate-questionnaire-results.md
+            - name: วิเคราะห์ผลลัพธ์ของแบบสอบถาม
+              href: hr-learning-analyze-questionnaire-results.md
+            - name: สร้างคำถามแบบปลายเปิด
+              href: hr-learning-create-open-ended-question.md
+            - name: สร้างคำถามแบบปลายปิด
+              href: hr-learning-create-closed-ended-question.md
+            - name: สร้างคำถามแบบมีการเชื่อมโยง
+              href: hr-learning-depending-question.md

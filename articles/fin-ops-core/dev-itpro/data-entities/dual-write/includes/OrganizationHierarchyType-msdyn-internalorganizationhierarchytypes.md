@@ -1,0 +1,7 @@
+## <a name="organization-hierarchy-type-to-msdyn_internalorganizationhierarchytypes"></a><span data-ttu-id="e592b-101">ชนิดลำดับชั้นขององค์กรสำหรับ msdyn_internalorganizationhierarchytypes</span><span class="sxs-lookup"><span data-stu-id="e592b-101">Organization hierarchy type to msdyn_internalorganizationhierarchytypes</span></span>
+
+<span data-ttu-id="e592b-102">เท็มเพลตนี้ซิงโครไนส์ข้อมูลระหว่างแอป Finance and Operations และ Common Data Service</span><span class="sxs-lookup"><span data-stu-id="e592b-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="e592b-103">ฟิลด์ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="e592b-103">Finance and Operations field</span></span> | <span data-ttu-id="e592b-104">ชนิดของการแม็ป</span><span class="sxs-lookup"><span data-stu-id="e592b-104">Map type</span></span> | <span data-ttu-id="e592b-105">ฟิลด์ Dynamics 365 อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="e592b-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="e592b-106">ค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="e592b-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="e592b-107">NAME</span><span class="sxs-lookup"><span data-stu-id="e592b-107">NAME</span></span> | > | <span data-ttu-id="e592b-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="e592b-108">msdyn_name</span></span> | 

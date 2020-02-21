@@ -1,4 +1,4 @@
-- name: การพัฒนาและการดูแลระบบสำหรับ Finance and Operations
+- name: การพัฒนาและการจัดการสำหรับ Finance and Operations
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
   items:
@@ -120,13 +120,13 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: ลำดับชั้นขององค์กรใน Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: แนวคิดของบริษัทใน Common Data Service
+                - name: แนวคิดของบริษัทใน Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: ข้อมูลหลักของลูกค้าแบบรวม
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
                   href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: ข้อมูลหลักของผู้จัดจำหน่ายรวม
+                - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
                   href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: ไซต์และคลังสินค้าแบบรวม
                   href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -140,7 +140,7 @@
                   items:
                     - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าใน Finance and Operations
+                    - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -150,7 +150,7 @@
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
+                    - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                   items:
@@ -172,7 +172,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
+                    - name: ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                   items:
@@ -440,11 +440,11 @@
           href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: บทช่วยสอนเครื่องมือการพัฒนา
           href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: ตัวตรวจสอบแอพลิเคชัน
+        - name: ตัวตรวจสอบแอปพลิเคชัน
           items:
-            - name: ติดตั้ง BaseX สำหรับตัวตรวจสอบแอพลิเคชัน
+            - name: ติดตั้ง BaseX สำหรับตัวตรวจสอบแอปพลิเคชัน
               href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: ตัวสำรวจแอพลิเคชัน
+        - name: ตัวสำรวจแอปพลิเคชัน
           href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: สร้างและดีบักโครงการ
           href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -472,7 +472,7 @@
           href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: แบบจำลองและแพคเกจ
           href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: ชนิดโครงการใน Finance and Operations
+        - name: ชนิดโครงการ Finance and Operations
           href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Add-in ของเครื่องมือสำหรับ Visual Studio
           href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: จัดการการเข้าถึงข้อมูลที่สำคัญ
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
+        - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Human Resources
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใน AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -968,7 +968,7 @@
           href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: แสดงจำนวนในฟิลด์
           href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: ช่วยรักษาความปลอดภัยของพื้นที่ทำงานบนมือถือ
+        - name: ช่วยรักษาความปลอดภัยของพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
           href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: แปลพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่เป็นภาษาท้องถิ่น
           href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1206,11 +1206,11 @@
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: การสนับสนุน
   items:
-    - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
+    - name: ขอรับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: ภาพรวมของการสนับสนุน Dynamics 365
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+    - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: บันทึกบัตรผ่านการสนับสนุนพรีเมียร์
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1298,7 +1298,7 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: การอัปเกรดจาก AX 2012
       items:
-        - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
+        - name: การอัปเกรดจาก AX 2012 เป็น Finance and Operations
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1366,13 +1366,13 @@
           href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: แก้ไขการอ้างอิงระหว่างแบบจำลองโดยใช้การมอบหมาย
           href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: อัพเกรดเป็นการอัปเดตล่าสุด (ระบบคลาวด์)
+    - name: อัปเกรดเป็นการอัปเดตล่าสุด (ระบบคลาวด์)
       items:
         - name: กระบวนการสำหรับการย้ายเข้าสู่การอัปเดตล่าสุด
           href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: เส้นทางไปยังรุ่นหนึ่ง
           items:
-            - name: การอัพเกรดแบบบริการตนเองเป็นรุ่นล่าสุด
+            - name: การอัปเกรดระบบบริการตนเองเป็นรุ่นล่าสุด
               href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: สร้างใหม่และอัปเดตเป็นรุ่นล่าสุด
               href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1616,5 +1616,5 @@
           href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: การอ้างอิงด่วนของตัวบันทึกงาน
           href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: สร้างเอกสารหรือการฝึกอบรมด้วยการบันทึกงาน
+        - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน
           href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/financials/toc.json
