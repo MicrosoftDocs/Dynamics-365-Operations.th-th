@@ -1,6 +1,6 @@
 ---
 title: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
-description: เอกสารประกอบสำหรับแอป Finance and Operations
+description: เอกสารประกอบของแอป Finance and Operations
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770930"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005551"
 ---
 # <a name="finance-and-operations-application-documentation"></a>เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 
@@ -30,7 +30,7 @@ ms.locfileid: "2770930"
 
 เรียนรู้วิธีการทำให้แอปพลิเคชัน Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลในหัวข้อนี้เพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
 
-เนื้อหาส่วนมากนี้ยังนำมาใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Dynamics 365 Retail และ Talent 
+เนื้อหาส่วนมากนี้ยังนำมาใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Dynamics 365 Commerce และ Dynamics 365 Human Resources 
 
 <table>
 <colgroup>
@@ -84,9 +84,9 @@ ms.locfileid: "2770930"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></p>
 
 <h3><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">สวัสดิการ</a></p>
-<p><a href="../../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
-<p><a href="../../talent/questionnaires.md">แบบสอบถาม</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">สวัสดิการ</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">แบบสอบถาม</a></p>
 <p><a href="hr/manage-recruiting-process.md">การสรรหา</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></p>
 
@@ -122,23 +122,24 @@ ms.locfileid: "2770930"
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">การจัดการ</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">การปรับใช้ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">การปรับใช้ในสถานที่</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัพเกรด</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">อัปเกรด</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">การบริการ</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">การจัดการองค์กร</a></p>
 </td>
 <td>
 <h3>ผลิตภัณฑ์ที่เกี่ยวข้อง</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">ศูนย์บริการ</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS และ POS ระบบคลาวด์</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Retail</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Commerce</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">สวัสดิการ</a></p>
-<p><a href="../../talent/performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
-<p><a href="../../talent/questionnaires.md">แบบสอบถาม</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">คู่มือสำหรับผู้ดูแลระบบ</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">คู่มือสำหรับนักพัฒนา</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">คู่มือผู้ใช้</a></p>
+
 
 </td>
 </tr>
