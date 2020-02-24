@@ -1,9 +1,9 @@
 ---
 title: โฮมเพจแอพบนมือถือ
-description: หัวข้อนี้อธิบายถึงแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
+description: หัวข้อนี้อธิบายถึงแอพบนมือถือ Finance and Operations (Dynamics 365) และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853943"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975208"
 ---
 # <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
+หัวข้อนี้อธิบายถึงแอพบนมือถือ **Finance and Operations (Dynamics 365)** และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 
 <a name="overview"></a>ภาพรวม
 --------
@@ -80,7 +80,7 @@ ms.locfileid: "2853943"
 <tr class="odd">
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
-<td>นำแอพ Finance and Operations ไปปรับใช้ในองค์กรของคุณ</td>
+<td>ใช้แอป Finance and Operations ในองค์กรของคุณ</td>
 <td><ul><li>ถ้าคุณยังไม่ได้ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
 </tr>
 <tr class="even">
@@ -134,9 +134,9 @@ ms.locfileid: "2853943"
 <td>8</td>
 <td>ผู้ใช้</td>
 <td>ดาวน์โหลดและติดตั้งแอพบนมือถือ</td>
-<td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">แอป Finance and Operations สำหรับ Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">แอป Finance and Operations สำหรับ iOS</a><BR/>
+<td>แอป 
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations สำหรับ Android</a><BR/>แอพ 
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations สำหรับ iOS</a><BR/>
 (Windows Phone ที่ไม่สนับสนุน)
 </td>
 </tr>

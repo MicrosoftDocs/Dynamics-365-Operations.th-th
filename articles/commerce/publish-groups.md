@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 96e55683c46dc196ebac2d0e16f38835c8bfe7df
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 374a6c7dd33440903babbc8232f580ac2b68df82
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915427"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003176"
 ---
 # <a name="work-with-publish-groups"></a>ทำงานกับกลุ่มการเผยแพร่
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายคุณลักษณะของกลุ่มการเผยแพร่ใน Microsoft Dynamics 365 Commerce

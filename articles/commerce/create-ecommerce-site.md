@@ -1,9 +1,9 @@
 ---
 title: สร้างไซต์อีคอมเมิร์ซ
-description: หัวข้อนี้จะอธิบายถึงภารกิจงานที่เกี่ยวข้องกับการสร้างไซต์อีคอมเมิร์ซใหม่ใน Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายถึงขั้นตอนและข้อมูลที่จำเป็นในการสร้างไซต์ e-Commerce ใหม่ในโปรแกรมสร้างไซต์ Dynamics 365 Commerce
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945846"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002024"
 ---
 # <a name="create-an-e-commerce-site"></a>สร้างไซต์อีคอมเมิร์ซ
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงภารกิจงานที่เกี่ยวข้องกับการสร้างไซต์อีคอมเมิร์ซใหม่ใน Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายถึงขั้นตอนและข้อมูลที่จำเป็นในการสร้างไซต์ e-Commerce ใหม่ในโปรแกรมสร้างไซต์ Dynamics 365 Commerce
 
-## <a name="overview"></a>ภาพรวม
+ก่อนที่คุณจะสามารถเริ่มต้นการพัฒนาไซต์ e-Commerce ของคุณ คุณจะต้องสร้างไซต์ใหม่ในโปรแกรมสร้างไซต์ก่อน 
 
-เมื่อต้องการเริ่มต้นการพัฒนาไซต์อีคอมเมิร์ซของคุณ คุณจะต้องสร้างไซต์ใหม่ในสภาพแวดล้อมการสร้างไซต์ใหม่ก่อน ก่อนที่คุณจะสามารถสร้างไซต์ใหม่ได้ ต้องสร้างร้านค้าออนไลน์ Dynamics 365 Retail อย่างน้อยหนึ่งร้าน 
+
+เมื่อต้องการเริ่มต้นการพัฒนาไซต์อีคอมเมิร์ซของคุณ คุณจะต้องสร้างไซต์ใหม่ในสภาพแวดล้อมการสร้างไซต์ใหม่ก่อน ก่อนที่คุณจะสามารถสร้างไซต์ใหม่ได้ ต้องสร้างร้านค้าออนไลน์ใน Commerce อย่างน้อยหนึ่งร้าน 
+
 
 ## <a name="set-up-your-site"></a>ตั้งค่าไซต์ของคุณ
 
 ในการตั้งค่าไซต์ของคุณ ให้ทำตามขั้นตอนต่อไปนี้
 
-1. ใน Microsoft Lifecycle Services (LCS) ให้เลือกลิงก์สำหรับสภาพแวดล้อมการสร้างของไซต์ 
+1. เปิดสภาพแวดล้อมของโปรแกรมสร้างไซต์ คุณสามารถค้นหาลิงค์ไปยังโปรแกรมสร้างไซต์ใน Microsoft Lifecycle Services (LCS) ในหน้าคุณลักษณะของสภาพแวดล้อมสำหรับ Commerce
 1. บนโฮมเพจสำหรับสภาพแวดล้อมการสร้างไซต์ ให้เลือก **ไซต์ใหม่**
 1. ในกล่องโต้ตอบ **ไซต์ใหม่** ให้ป้อนข้อมูลดังต่อไปนี้
 

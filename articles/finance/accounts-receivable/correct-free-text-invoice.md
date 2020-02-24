@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180206"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031003"
 ---
 # <a name="correct-a-free-text-invoice"></a>แก้ไขใบแจ้งหนี้ข้อความอิสระ
 
@@ -47,7 +47,7 @@ ms.locfileid: "2180206"
 -   ส่วนหัวของใบแจ้งหนี้ข้อความอิสระแสดงสถานะของ **ใบแจ้งหนี้ที่ยกเลิก '\[หมายเลขใบแจ้งหนี้\]'** หรือ **ใบแจ้งหนี้ที่แก้ไขแล้ว '\[หมายเลขใบแจ้งหนี้\]'**
 
 > [!NOTE]
-> คุณสมบัตินี้จะสามารถใช้งานได้ก็ต่อเมื่อคีย์การตั้งค่าคอนฟิก **การแก้ไขใบแจ้งหนี้ข้อความอิสระ** มีการเลือก สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดใช้งานคีย์การตั้งค่าคอนฟิก หมายถึงการเปิดใช้งาน (หรือปิดใช้งาน) ส่วนคีย์การตั้งค่าคอนฟิกในหัวข้อ [โหมดการบำรุงรักษา](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode) 
+> คุณสมบัตินี้จะสามารถใช้งานได้ก็ต่อเมื่อคีย์การตั้งค่าคอนฟิก **การแก้ไขใบแจ้งหนี้ข้อความอิสระ** มีการเลือก สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดใช้งานคีย์การตั้งค่าคอนฟิก หมายถึงการเปิดใช้งาน (หรือปิดใช้งาน) ส่วนคีย์การตั้งค่าคอนฟิกในหัวข้อ [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) 
 
 
 

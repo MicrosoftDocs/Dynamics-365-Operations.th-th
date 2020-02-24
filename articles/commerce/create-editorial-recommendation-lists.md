@@ -19,27 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024944"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>สร้างรายการคำแนะนำผลิตภัณฑ์ที่ระบุ
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายวิธีการที่ผู้จัดซื้อสามารถสร้างและจัดการรายการผลิตภัณฑ์สำหรับลูกค้า Microsoft Dynamics 365 Commerce ด้วยตนเอง
 
-รายการที่รวบรวมคือการรวบรวมของแต่ละเนื้อหาที่สร้างและระบุโดยบุคคล  
+รายการที่อนุรักษ์คือคอลเลกชันของเนื้อหาแต่ละรายการที่สร้างและอนุรักษ์โดยบุคคล  
 
 ## <a name="create-a-new-list"></a>สร้างรายการใหม่
 
 เมื่อต้องการสร้างรายการแนะนำผลิตภัณฑ์ที่รวบรวมไว้ ให้ทำตามขั้นตอนเหล่านี้
 
-1. ไปที่ **การขายปลีก** &gt; **คำแนะนำของผลิตภัณฑ์** &gt; **รายการที่แนะนำ**
+1. ไปยัง **Retail และ Commerce &gt; คำแนะนำผลิตภัณฑ์ &gt; รายการคำแนะนำ**
 1. เลือก **ใหม่**
 1. ในฟิลด์ **รหัสรายการ** ให้ป้อนค่า
 1. ในฟิลด์ **ชื่อรายการ** ให้ป้อนค่า
@@ -60,3 +59,5 @@ ms.locfileid: "2770424"
 [เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
 
 [เพิ่มรายการคำแนะนำผลิตภัณฑ์ลงในหน้า](add-reco-list-to-page.md)
+
+[ภาพรวมโมดูลการรวบรวมผลิตภัณฑ์](product-collection-module-overview.md)

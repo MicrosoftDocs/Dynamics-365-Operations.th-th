@@ -19,16 +19,16 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f4f053066ef9a10ca8a60e6eb081f73401760eb4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770127"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003038"
 ---
 # <a name="product-recommendations-faq"></a>FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะให้ข้อมูลเกี่ยวกับกระบวนการและเครื่องมือ ที่คุณสามารถใช้ในการแก้ไขปัญหาที่เกี่ยวข้องกับ [คำแนะนำผลิตภัณฑ์](product-recommendations.md) หรือผลลัพธ์ของผลิตภัณฑ์

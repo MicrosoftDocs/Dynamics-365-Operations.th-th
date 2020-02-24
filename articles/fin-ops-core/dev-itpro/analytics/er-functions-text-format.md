@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df158e80bd1c11832376678a631a9e0e162534ad
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
+ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915728"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "2974303"
 ---
 # <a name="FORMAT">ฟังก์ชั่น FORMAT ER</a>
 
@@ -96,7 +96,7 @@ FORMAT (CONCATENATE (@"SYS70894", ". ", @"SYS18389"), model.Customer.Name, DATET
 >[!NOTE]
 > ไวยากรณ์ต่อไปนี้จะใช้ในสูตร ER สำหรับป้ายชื่อ:
 >
-> - **สำหรับป้ายชื่อจากทรัพยากรในแอป Microsoft Dynamics 365 Finance** **@X** ที่ซึ่ง **X** คือรหัสป้ายชื่อใน Application Object Tree (AOT)
+> - **สำหรับป้ายชื่อจากทรัพยากรในแอป Microsoft Dynamics 365 Finance :** **\@X** ที่ซึ่ง **X** คือรหัสป้ายชื่อใน Application Object Tree (AOT)
 > - **สำหรับป้ายชื่อที่อยู่ในการตั้งค่าคอนฟิก:** **@"GER_LABEL:X"** ที่ซึ่ง **X** คือรหัสป้ายชื่อในการตั้งค่าคอนฟิก ER
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม

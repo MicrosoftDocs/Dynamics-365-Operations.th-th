@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635137"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031078"
 ---
 # <a name="master-planning-setup-wizard"></a>วิซาร์ดการตั้งค่าการวางแผนหลัก
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635137"
 
 หัวข้อนี้แสดงคำแนะนำสำหรับ **วิซาร์ดการตั้งค่าการวางแผนหลัก** ซึ่งอธิบายวิธีการคำนวณคำแนะนำพารามิเตอร์ และยังมีตัวอย่างที่แสดงให้เห็นความแตกต่างที่บริษัทต่างๆ ตั้งค่าการวางแผนหลัก ตามความต้องการทางธุรกิจของพวกเขา
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[วิซาร์ดการตั้งค่าการวางแผนหลักในวิดีโอ Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (แสดงไว้ข้างบน) จะถูกรวมใน [รายการที่จะเล่นของ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่พร้อมใช้งานบน YouTube
+วิดีโอ [Master planning setup wizard in Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (ที่แสดงไว้ข้างบน) จะถูกรวมใน [Finance and Operations เพลย์ลิสต์](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่อยู่บน YouTube
 
 
 ## <a name="specific-requirements-of-your-company"></a>ความต้องการเฉพาะของบริษัทของคุณ
@@ -184,7 +184,7 @@ ms.locfileid: "2635137"
 ผู้ค้าปลีก Contoso เป็นบริษัทผู้จัดจำหน่ายในอุตสาหกรรมแฟชั่น จะใช้การวางแผนหลักในการคำนวณ เมื่อควรวางใบสั่งซื้อตามการขายที่คาดการณ์ไว้ นี่คือบางส่วนของลักษณะ:
 
 - ผู้ค้าปลีก Contoso ใช้การคาดการณ์ความต้องการเพื่อคาดการณ์การขาย ใบสั่งซื้อจะได้รับการวางแผนตามการคาดการณ์
-- ร้านค้าปลีกใช้ใบขอซื้อสำหรับการเติมสินค้า
+- ร้านค้าใช้ใบขอซื้อสำหรับการเติมสินค้า
 - ระยะเวลารอคอยจากคลังสินค้าหลักในร้านค้าแต่ละร้านจะอยู่ที่ประมาณสองสัปดาห์สำหรับสินค้าทั้งหมด
 
 ในวิซาร์ด จะมีการป้อนค่าต่อไปนี้สำหรับผู้ค้าปลีก Contoso:
@@ -208,4 +208,4 @@ ms.locfileid: "2635137"
     - **คำถาม:** "คุณต้องการรวมความต้องการจากใบขอซื้อที่อนุมัติเพื่อเติมสินค้าร้านค้าปลีกหรือไม่"
     - **คำตอบ:** "ใช่ ตามที่กำหนดไว้ในแผนหลักนี้" **1 วัน** ถูกป้อน
 
-    Contoso จะใช้ใบขอซื้อที่อนุมัติแล้วจากร้านค้าปลีก เพื่อสร้างแผนการใบสั่งซื้อเพื่อเติมสินค้าร้านค้าเหล่านั้น เนื่องจากมีการรันการวางแผนหลักทุกวัน จะมีการรวมใบขอซื้อจากวันสุดท้ายไว้ในการวางแผน
+    Contoso จะใช้ใบขอซื้อที่อนุมัติแล้วจากร้านค้าเพื่อสร้างแผนการใบสั่งซื้อเพื่อเติมสินค้าร้านค้าเหล่านั้น เนื่องจากมีการรันการวางแผนหลักทุกวัน จะมีการรวมใบขอซื้อจากวันสุดท้ายไว้ในการวางแผน

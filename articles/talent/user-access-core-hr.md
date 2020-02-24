@@ -1,6 +1,6 @@
 ---
-title: ผู้ใช้สามารถเข้าถึง Core HR ได้แต่ไม่สามารถเข้าถึง Onboard หรือ Attract ได้
-description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งผู้ใช้สามารถเข้าถึง Microsoft Dynamics 365 Talent - Core HR แต่ไม่สามารถเข้าถึง Attract หรือ Onboard ได้
+title: ผู้ใช้สามารถเข้าถึงทรัพยากรบุคคลได้ แต่ไม่สามารถเข้าถึง Onboard หรือ Attract ได้
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งผู้ใช้สามารถเข้าถึง Microsoft Dynamics 365 Talent - ทรัพยากรบุคคลได้ แต่ไม่สามารถเข้าถึง Attract หรือ Onboard ได้
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772930"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006321"
 ---
-# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>ผู้ใช้สามารถเข้าถึง Core HR ได้แต่ไม่สามารถเข้าถึง Onboard หรือ Attract ได้
+# <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>ผู้ใช้สามารถเข้าถึงทรัพยากรบุคคลได้ แต่ไม่สามารถเข้าถึง Onboard หรือ Attract ได้
 
 [!include [banner](includes/banner.md)]
 
 **รายละเอียดสภาพแวดล้อม**
 
 - การปรับใช้ผ่าน Microsoft Dynamics Lifecycle Services (LCS) ถูกดำเนินการโดยผู้ใช้ A
-- ผู้ใช้ A เพิ่มผู้ใช้ B เป็นผู้ใช้ไปยัง Microsoft Dynamics 365 Talent: Core HR
+- ผู้ใช้ A เพิ่มผู้ใช้ B เป็นผู้ใช้ไปยัง Microsoft Dynamics 365 Human Resources
 
 **ออกใช้**
 
-ผู้ใช้ B สามารถเข้าถึง Core HR ได้ แต่ไม่สามารถเข้าถึง Talent: Attract หรือ Talent: แอป Onboard ได้ เมื่อผู้ใช้พยายามไปยัง **แอปประสบการณ์** เขาหรือเธอจะถูกนำไปยังสภาพแวดล้อมการทดลองแทน
+ผู้ใช้ B สามารถเข้าถึงทรัพยากรบุคคลได้ แต่ไม่สามารถเข้าถึงแอป Talent: Attract หรือ Talent: Onboard ได้ เมื่อผู้ใช้พยายามไปยัง **แอปประสบการณ์** เขาหรือเธอจะถูกนำไปยังสภาพแวดล้อมการทดลองแทน
 
 **โซลูชัน**
 
@@ -45,4 +45,4 @@ ms.locfileid: "2772930"
 
 **วิธีแก้ปัญหาระยะยาว**
 
-Microsoft กำลังพิจารณาการกำหนดสิทธิ์ที่เหมาะสมให้กับ Onboard และ Attract โดยอัตโนมัติ เมื่อผู้ใช้ถูกเพิ่มลงใน Core HR
+Microsoft กำลังพิจารณาการกำหนดสิทธิ์ที่เหมาะสมให้กับ Onboard และ Attract โดยอัตโนมัติ เมื่อผู้ใช้ถูกเพิ่มลงในทรัพยากรบุคคล

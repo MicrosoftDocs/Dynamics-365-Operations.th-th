@@ -1,0 +1,60 @@
+---
+title: คำขอเวลาหยุดพัก
+description: คำขอเวลาหยุดพักใน Dynamics 365 Human Resources
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: d871bead89e48e65c411686e1bf3697b13b9a5aa
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3010777"
+---
+# <a name="request-time-off"></a>คำขอเวลาหยุดพัก
+
+คุณสามารถส่งคำขอสำหรับเวลาหยุดพักได้ ดูวันหยุดและยอดดุลวันลาของคุณ และดูสถานะคำร้องการลาใน Dynamics 365 Human Resources
+
+## <a name="request-time-off"></a>คำขอเวลาหยุดพัก
+
+1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ร้องขอเวลาหยุดพัก** ในไทล์ **ยอดดุลเวลาหยุดพัก**
+
+2. ป้อนข้อมูลสำหรับ **ชนิดการลา** **รหัสเหตุผล** **วันที่เริ่มต้น** และ **วันที่สิ้นสุด**
+
+3. ภายใต้ **วันที่** ให้เลือกวันที่สำหรับการร้องขอการลางานของคุณ
+
+4. ถ้าคุณต้องการส่งเอกสารสนับสนุนใดๆ ให้เลือก **อัพโหลด** ภายใต้ **ไฟล์แนบ**
+
+5. ป้อนข้อมูลใน **ข้อคิดเห็น** ถ้าจำเป็น
+
+6. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ หรือเลือก **บันทึกดราฟต์**
+
+## <a name="view-leave-balances"></a>ดูยอดดุลของการลา
+
+1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **อื่นๆ** (...) ในไทล์ **ยอดดุลเวลาหยุดพัก**
+
+2. เลือก **ยอดดุล**
+
+## <a name="view-leave-request-status"></a>ดูสถานะการร้องขอการลางาน
+
+1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **อื่นๆ** (...) ในไทล์ **ยอดดุลเวลาหยุดพัก**
+
+2. เพื่อดูคำขอเวลาหยุดพักที่อนุมัติแล้ว ให้เลือก **อนุมัติเวลาหยุดพัก** เพื่อดูคำขอเวลาหยุดพักที่กำลังรอ ให้เลือก **คำขอเวลาหยุดพัก**
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+- [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)

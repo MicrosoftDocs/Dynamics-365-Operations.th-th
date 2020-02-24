@@ -1,6 +1,6 @@
 ---
-title: รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
-description: หัวข้อนี้อธิบายวิธีการรับวิธีใช้ด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS)
+title: ได้รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS)
 author: kfend
 manager: AnnBe
 ms.date: 10/14/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812146"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005527"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>ได้รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการรับวิธีใช้ด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS) 
+หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS) 
 
 ## <a name="contact-support"></a>ติดต่อฝ่ายสนับสนุน
 
@@ -77,7 +77,7 @@ ms.locfileid: "2812146"
 สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">การสนับสนุนเว็บไซต์</span></a></td>
 </tr>
 <tr class="odd">
-<td>รับความช่วยเหลือด้วยคำถามเกี่ยวกับการให้สิทธิ์ใช้งานแอป Finance and Operations</td>
+<td>รับความช่วยเหลือด้วยคำถามที่เกี่ยวกับการให้สิทธิ์ใช้งานแอป Finance and Operations</td>
 <td>ติดต่อคู่ค้า ผู้จำหน่ายบัญชีขนาดใหญ่ (LAR) หรือพนักงานขายของ Microsoft</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ ms.locfileid: "2812146"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 - [รับการสนับสนุนสำหรับ Dynamics 365 Retail](../../../retail/retail-support.md)
-- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
-- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอการบริการ Microsoft Dynamics ดูที่ [การจัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations](cloud-powered-support-lcs.md)
+- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
+- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอการสนับสุนน Microsoft Dynamics โปรดดู [จัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations](cloud-powered-support-lcs.md)
 

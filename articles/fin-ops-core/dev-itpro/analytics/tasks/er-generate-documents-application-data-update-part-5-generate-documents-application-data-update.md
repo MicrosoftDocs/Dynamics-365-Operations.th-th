@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184887"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026074"
 ---
 # <a name="generate-documents-that-have-application-data"></a>สร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 
@@ -58,7 +58,7 @@ ms.locfileid: "2184887"
 6. คลิก ตกลง
 
 ## <a name="review-er-format-executions-results"></a>ตรวจทานผลลัพธ์ของการดำเนินการรูปแบบของ ER
-    * ตรวจทานไฟล์ XML ที่สร้างขึ้น  
+ตรวจทานไฟล์ XML ที่สร้างขึ้น  
 1. ปิดหน้า
 2. ไปที่ภาษี > ประกาศต่างๆ > การค้าต่างประเทศ > อินทราสแทต
     * เปิดแบบฟอร์มที่ประกอบด้วยธุรกรรมอินทราสแทตที่รวมอยู่ในเอกสารทางอิเล็กทรอนิกส์ที่สร้างขึ้นนี้  

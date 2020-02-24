@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563400"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004099"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
 
@@ -31,9 +31,9 @@ ms.locfileid: "1563400"
 
 1. ไปที่ใบสั่งซื้อทั้งหมด
 2. เลือกใบสั่งซื้อในรายการ และคลิกลิงค์เพื่อเปิดใบสั่ง
-3. ในบานหน้าต่างการดำเนินการ คลิกการขายปลีก
+3. บนบานหน้าต่างการดำเนินการ คลิก Retail และ Commerce
 4. คลิกการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
-5. คลิก แก้ไข
+5. คลิกแก้ไข
     * หมวดหมู่สามารถใช้เพื่อกรองสินค้าในส่วนรายการ  
 6. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 7. ในฟิลด์ปริมาณการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า พิมพ์ค่าเพื่อระบุปริมาณผลิตภัณฑ์ที่ถูกเลือกที่มี่การสั่งซื้อว่าควรถูกกระจายมากแค่ไหน

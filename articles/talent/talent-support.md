@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 7e42e68f48de9518199c38d07b650d55628114a7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 33e0183109bc0bf8c825e3d5a51dcc36dbf58fc1
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896992"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006112"
 ---
 # <a name="get-support-for-microsoft-dynamics-365-talent"></a>รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent
 
-หัวข้อนี้อธิบายวิธีรับความช่วยเหลือกับ Microsoft Dynamics 365 Talent: Core HR Dynamics 365 Talent: Attract และ Dynamics 365 Talent: Onboard
+หัวข้อนี้อธิบายวิธีรับความช่วยเหลือด้วย Dynamics 365 Talent: Attract และ Dynamics 365 Talent: Onboard
 
 ## <a name="support-for-talent"></a>การสนับสนุนสำหรับ Talent
 
@@ -34,7 +34,7 @@ ms.locfileid: "2896992"
 |------|------------------|
 | สอบถามชุมชน | ไปที่ [ชุมชน Dynamics 365 Talent](https://community.dynamics.com/365/talent) เพื่อรับความช่วยเหลือเกี่ยวกับคำถามของคุณ หากต้องการทราบคำตอบ ให้ป้อนคำถามในฟิลด์การค้นหาถัดจาก **มีคำถาม** ถ้าต้องการถามคำถาม เลือก **ถามคำถาม** |
 | ใช้เครื่องมือการสนับสนุนที่ทำงานบน Cloud | ใน [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) ให้ไปที่โครงการของคุณ และเลือกไทล์ **การสนับสนุน** จากที่นั่น คุณสามารถส่งปัญหาได้สองวิธี:<ul><li>บนแท็บ **ปัญหาที่เปิดอยู่** เลือกปัญหาที่คุณต้องการส่ง แล้วเลือก **ส่งไปยัง Microsoft**</li><li>ในแท็บ **ส่งไปยัง Microsoft** เลือก **ส่งเหตุการณ์ใหม่** เพื่อแจ้งปัญหาใหม่</li></ul> |
-| รับการสนับสนุนในแอป | เลือกปุ่ม **วิธีใช้** (**?**) ที่มุมขวาบนของหน้า จากนั้น ถ้าคุณอยู่ใน Core HR ให้เลือก **สนับสนุน** ถ้าคุณอยู่ใน Attract หรือ Onboard เลือก **รายงานปัญหา** มีการรายงานปัญหาบนแท็บ **ปัญหาที่เปิดอยู่** ใน LCS ที่ซึ่งผู้ดูแลระบบสามารถกำหนดว่าจะให้การสนับสนุนในองค์กร หรือส่งปัญหาไปยัง Microsoft (ถ้าคุณมีรุ่นที่ทำงานแยกต่างหากของ Onboard จะมีการส่งปัญหาโดยตรงไปยัง Microsoft) |
+| รับการสนับสนุนในแอป | เลือกปุ่ม **วิธีใช้** (**?**) ที่มุมขวาบนของหน้า เลือก **รายงานปัญหา** มีการรายงานปัญหาบนแท็บ **ปัญหาที่เปิดอยู่** ใน LCS ที่ซึ่งผู้ดูแลระบบสามารถกำหนดว่าจะให้การสนับสนุนในองค์กร หรือส่งปัญหาไปยัง Microsoft (ถ้าคุณมีรุ่นที่ทำงานแยกต่างหากของ Onboard จะมีการส่งปัญหาโดยตรงไปยัง Microsoft) |
 | รับความช่วยเหลือเกี่ยวกับคำถามเกี่ยวกับการให้สิทธิ์ Talent | ติดต่อคู่ค้า หรือพนักงานขายของ Microsoft ของคุณ |
 | ร้องขอคุณลักษณะและฟังก์ชันใหม่ใน Talent | บนหน้า Talent หลัก ให้เลือกปุ่ม **วิธีใช้** (**?**) แล้วเลือก **ความคิด** นอกจากนี้ คุณยังสามารถไปที่ [ความคิดในแอพลิเคชัน Dynamics 365](https://experience.dynamics.com/ideas/) เพื่อดู ค้นหา หรือลงคะแนนเสียงสำหรับความคิดที่มีอยู่ หรือเพื่อเพิ่มความคิดใหม่ |
 

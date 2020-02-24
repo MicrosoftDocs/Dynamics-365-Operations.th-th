@@ -1,0 +1,69 @@
+---
+title: สร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์
+description: หัวข้อนี้อธิบายวิธีสร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์ใน Microsoft Dynamics 365 Commerce
+author: samjarawan
+manager: annbe
+ms.date: 01/27/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: samjar
+ms.search.validFrom: 2020-01-20
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 5ecbfcf3fa78ad2909a7cc9988ab1edaf2b98376
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003383"
+---
+# <a name="create-an-online-functionality-profile"></a>สร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์
+
+
+[!include [banner](includes/banner.md)]
+
+หัวข้อนี้นำเสนอภาพรวมในการตั้งค่าโปรไฟล์ฟังก์ชันการทำงานออนไลน์สำหรับ Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
+
+โปรไฟล์ฟังก์ชันการทำงานออนไลน์ได้ให้การตั้งค่าต่างๆที่ใช้สำหรับช่องทางออนไลน์ แต่ละช่องทางออนไลน์ต้องระบุโปรไฟล์ฟังก์ชันการทำงานออนไลน์
+
+## <a name="create-an-online-functionality-profile"></a>สร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์
+
+กระบวนการต่อไปนี้อธิบายวิธีสร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์จากภายในแอปสำนักงานใหญ่การค้า
+
+1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การตั้งค่าช่องทาง \> การตั้งร้านค้าออนไลน์ \> โปรไฟล์ฟังก์ชันการทำงาน**
+1. บนหน้าต่างการดำเนินการ เลือก **สร้าง**
+1. ในฟิลด์ **โปรไฟล์** ให้ป้อนรหัสสำหรับโปรไฟล์
+1. ในฟิลด์ **คำอธิบาย** ให้ป้อนค่า ("โพรไฟล์ Adventure Works" ในรูปภาพตัวอย่างด้านล่าง)
+1. ในส่วน **ฟังก์ชั่น** ปรับเปลี่ยนการตั้งค่า **รถเข็นสินค้า**, **ลูกค้าการขายปลีก** หรือ **เช็คเอาท์** ตามต้องการ
+1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**
+
+ภาพต่อไปนี้แสดงตัวอย่างของโปรไฟล์ฟังก์ชันการทำงานออนไลน์
+  
+![ตัวอย่างของโปรไฟล์ฟังก์ชันการทำงานออนไลน์](media/online-functionality-profile.png)
+
+## <a name="functions"></a>ฟังก์ชัน
+
+- **ผลิตภัณฑ์รวม**: เมื่อเปิดใช้งาน ฟังก์ชั่นนี้จะช่วยให้รถเข็นปรับปรุงปริมาณเมื่อมีการเพิ่มรายการเดียวกันหลายครั้ง
+- **อนุญาตให้ชำระเงินแบบไม่มีการชำระเงิน**: เมื่อเปิดใช้งาน ฟังก์ชั่นนี้จะจัดการกับสถานการณ์เมื่อรายการที่เพิ่มลงในรถเข็นมีราคา $0.00 
+- **สร้างลูกค้าในโหมดอะซิงโครนัส**: นี่เป็นการตั้งค่าดั้งเดิมที่ใช้กับช่องทาง e-Commerce บุคคลที่ภายนอกและไม่สามารถใช้ได้กับไซต์ e-Commerce Dynamics 365
+
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+
+[ภาพรวมของช่องทาง](channels-overview.md)
+
+[ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง](channels-prerequisites.md)
+
+[ตั้งค่าช่องทางออนไลน์](channel-setup-online.md)
+
+[ตั้งค่าช่องทางการขายปลีก](channel-setup-retail.md)
+
+[ตั้งค่าช่องทางศูนย์บริการ](channel-setup-callcenter.md)
