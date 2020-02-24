@@ -1,0 +1,254 @@
+---
+title: เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER
+description: หัวข้อนี้จะอธิบายวิธีการเลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
+author: NickSelin
+manager: kfend
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: EROperationDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: 58771
+ms.assetid: ''
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2019-07-01
+ms.dyn365.ops.version: AX 10.0.5
+ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3015409"
+---
+# <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a><span data-ttu-id="aa4ee-103">เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-103">Defer the execution of sequence elements in ER formats</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
+
+## <a name="overview"></a><span data-ttu-id="aa4ee-104">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-104">Overview</span></span>
+
+<span data-ttu-id="aa4ee-105">คุณสามารถใช้ผู้ออกแบบการดำเนินการของ [กรอบงานการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md) เพื่อ [กำหนดค่า](tasks/er-format-configuration-2016-11.md) [ส่วนประกอบรูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) ของโซลูชัน ER ซึ่งใช้ในการสร้างเอกสารขาออกในรูปแบบข้อความ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-105">You can use the Operations designer of the [Electronic reporting (ER)](general-electronic-reporting.md) framework to [configure](tasks/er-format-configuration-2016-11.md) the [format component](general-electronic-reporting.md#FormatComponentOutbound) of an ER solution that is used to generate outbound documents in a text format.</span></span> <span data-ttu-id="aa4ee-106">โครงสร้างลำดับชั้นของส่วนประกอบรูปแบบที่ตั้งค่าคอนฟิกประกอบด้วยองค์ประกอบรูปแบบของชนิดต่างๆ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-106">The hierarchical structure of the configured format component consists of format elements of various types.</span></span> <span data-ttu-id="aa4ee-107">องค์ประกอบรูปแบบเหล่านี้ใช้ในการกรอกเอกสารที่สร้างขึ้นโดยมีข้อมูลที่จำเป็นในขณะใช้งานจริง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-107">These format elements are used to fill generated documents with the required information at runtime.</span></span> <span data-ttu-id="aa4ee-108">โดยค่าเริ่มต้น เมื่อคุณรันรูปแบบ ER จะมีการรันใช้องค์ประกอบรูปแบบในลำดับเดียวกับที่แสดงในลำดับชั้นรูปแบบ: ทีละรายการจากบนลงล่าง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-108">By default, when you run an ER format, the format elements are run in the same order as they are presented in the format hierarchy: one by one, from top to bottom.</span></span> <span data-ttu-id="aa4ee-109">อย่างไรก็ตาม คุณสามารถเปลี่ยนลำดับการดำเนินการสำหรับองค์ประกอบลำดับใดๆ ของส่วนประกอบรูปแบบที่กำหนดค่าคอนฟิกแล้วได้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-109">However, at design time, you can change the execution order for any sequence elements of the configured format component.</span></span>
+
+<span data-ttu-id="aa4ee-110">เมื่อเปิดใช้งานตัวเลือก <a name="DeferredSequenceExecution"></a>**การดำเนินการที่เลื่อน** สำหรับองค์ประกอบรูปแบบลำดับในรูปแบบที่กำหนดไว้ คุณจะสามารถเลื่อน (เลื่อนออกไป) การดำเนินการขององค์ประกอบนั้นได้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-110">By turning on the <a name="DeferredSequenceExecution"></a>**Deferred execution** option for a sequence format element in the configured format, you can defer (postpone) the execution of that element.</span></span> <span data-ttu-id="aa4ee-111">ในกรณีนี้องค์ประกอบจะไม่รันจนกว่าจะมีการรันองค์ประกอบอื่นๆ ทั้งหมดของข้อมูลหลัก</span><span class="sxs-lookup"><span data-stu-id="aa4ee-111">In this case, the element isn't run until all other elements of its parent have been run.</span></span>
+
+<span data-ttu-id="aa4ee-112">เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับคุณลักษณะนี้ ให้ดำเนินการตัวอย่างในหัวข้อนี้ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="aa4ee-112">To learn more about this feature, complete the example in this topic.</span></span>
+
+## <a name="limitations"></a><span data-ttu-id="aa4ee-113">การจำกัด</span><span class="sxs-lookup"><span data-stu-id="aa4ee-113">Limitations</span></span>
+
+<span data-ttu-id="aa4ee-114">ตัวเลือก **การดำเนินการที่เลื่อน** ได้รับการสนับสนุนเฉพาะสำหรับองค์ประกอบลำดับที่มีการตั้งค่าคอนฟิกสำหรับรูปแบบ ER ซึ่งใช้ในการสร้างเอกสาร **ขาออก** ในรูปแบบข้อความ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-114">The **Deferred execution** option is supported only for sequence elements that are configured for an ER format that is used to generate **outbound** documents in text format.</span></span>
+
+<span data-ttu-id="aa4ee-115">ตัวเลือก **การดำเนินการที่เลื่อน** ไม่สามารถใช้ได้กับลำดับที่ได้รับการตั้งค่าคอนฟิกเป็นลำดับที่ตัดขอบ ซึ่งความยาวสูงสุดถูกจำกัด</span><span class="sxs-lookup"><span data-stu-id="aa4ee-115">The **Deferred execution** option isn't applicable to sequences that have been configured as trimmed sequences where the maximum length is limited.</span></span>
+
+## <a name="Example"></a><span data-ttu-id="aa4ee-116">ตัวอย่าง: เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-116">Example: Defer the execution of a sequence element in an ER format</span></span>
+
+<span data-ttu-id="aa4ee-117">ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ในผู้ดูแลระบบหรือที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์ [บทบาท](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) สามารถตั้งค่าคอนฟิกรูปแบบ ER ที่มีองค์ประกอบลำดับซึ่งลำดับการดำเนินการแตกต่างจากใบสั่งในลำดับชั้นของรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-117">The following steps explain how a user in the System administrator or Electronic reporting functional consultant [role](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) can configure an ER format that contains a sequence element where order of execution differs from the order in the format hierarchy.</span></span>
+
+<span data-ttu-id="aa4ee-118">ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัท **USMF** ใน Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="aa4ee-118">These steps can be performed in the **USMF** company in Microsoft Dynamics 365 Finance.</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="aa4ee-119">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="aa4ee-119">Prerequisites</span></span>
+
+<span data-ttu-id="aa4ee-120">เมื่อต้องการทำให้ตัวอย่างนี้เสร็จสมบูรณ์ คุณต้องเข้าถึงบริษัท **USMF** ในการเงินสำหรับหนึ่งในบทบาทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="aa4ee-120">To complete this example, you must have access to the **USMF** company in Finance for one of the following roles:</span></span>
+
+- <span data-ttu-id="aa4ee-121">ที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="aa4ee-121">Electronic reporting functional consultant</span></span>
+- <span data-ttu-id="aa4ee-122">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-122">System administrator</span></span>
+
+<span data-ttu-id="aa4ee-123">ถ้าคุณยังไม่ได้ทำให้ตัวอย่างเสร็จสมบูรณ์ในหัวข้อ [การเลื่อนการดำเนินการขององค์ประกอบXML ในรูปแบบ ER](er-defer-xml-element.md#Example) ให้ดาวน์โหลด [การกำหนดค่าคอนฟิก](general-electronic-reporting.md#Configuration) ต่อไปนี้ของโซลูชัน ER ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-123">If you haven't yet completed the example in the [Defer the execution of XML elements in ER formats](er-defer-xml-element.md#Example) topic, download the following [configurations](general-electronic-reporting.md#Configuration) of the sample ER solution.</span></span>
+
+| <span data-ttu-id="aa4ee-124">คำอธิบายเนื้อหา</span><span class="sxs-lookup"><span data-stu-id="aa4ee-124">Content description</span></span>            | <span data-ttu-id="aa4ee-125">ชื่อไฟล์</span><span class="sxs-lookup"><span data-stu-id="aa4ee-125">File name</span></span> |
+|--------------------------------|-----------|
+| <span data-ttu-id="aa4ee-126">การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-126">ER data model configuration</span></span>    | [<span data-ttu-id="aa4ee-127">แบบจำลองเพื่อเรียนรู้องค์ประกอบที่เลื่อน.เวอร์ชั่น.1.xml</span><span class="sxs-lookup"><span data-stu-id="aa4ee-127">Model to learn deferred elements.version.1.xml</span></span>](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| <span data-ttu-id="aa4ee-128">การตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-128">ER model mapping configuration</span></span> | [<span data-ttu-id="aa4ee-129">การแม็ปเพื่อเรียนรู้องค์ประกอบที่เลื่อน.เวอร์ชั่น.1.1.xml</span><span class="sxs-lookup"><span data-stu-id="aa4ee-129">Mapping to learn deferred elements.version.1.1.xml</span></span>](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+
+<span data-ttu-id="aa4ee-130">ก่อนที่คุณจะเริ่มต้น คุณต้องดาวน์โหลดและบันทึกการตั้งค่าคอนฟิกต่อไปนี้ของโซลูชัน ER ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-130">Before you begin, you must also download and save the following configuration of the sample ER solution.</span></span>
+
+| <span data-ttu-id="aa4ee-131">คำอธิบายเนื้อหา</span><span class="sxs-lookup"><span data-stu-id="aa4ee-131">Content description</span></span>     |<span data-ttu-id="aa4ee-132">ชื่อไฟล์</span><span class="sxs-lookup"><span data-stu-id="aa4ee-132">File name</span></span> |
+|-------------------------|----------|
+| <span data-ttu-id="aa4ee-133">การตั้งค่าคอนฟิกรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-133">ER format configuration</span></span> | [<span data-ttu-id="aa4ee-134">จัดรูปแบบเพื่อเรียนรู้ลำดับที่เลื่อน.เวอร์ชั่น.1.1.xml</span><span class="sxs-lookup"><span data-stu-id="aa4ee-134">Format to learn deferred sequences.version.1.1.xml</span></span>](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+
+### <a name="import-the-sample-er-configurations"></a><span data-ttu-id="aa4ee-135">นำเข้าการกำหนดค่า ER ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-135">Import the sample ER configurations</span></span>
+
+1. <span data-ttu-id="aa4ee-136">ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-136">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+2. <span data-ttu-id="aa4ee-137">เลือก **การตั้งค่าคอนฟิกการรายงาน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-137">Select **Reporting configurations**.</span></span>
+3. <span data-ttu-id="aa4ee-138">ในหน้า **การตั้งค่าคอนฟิก** ถ้าการตั้งค่าคอนฟิก **แบบจำลองเพื่อการเรียนรู้องค์ประกอบที่เลื่อน** ไม่พร้อมใช้งานในแผนภูมิการตั้งค่าคอนฟิก ให้นำเข้าการตั้งค่าคอนฟิกแบบจำลองข้อมูล ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-138">On the **Configurations** page, if the **Model to learn deferred elements** configuration isn't available in the configuration tree, import the ER data model configuration:</span></span>
+
+    1. <span data-ttu-id="aa4ee-139">เลือก **แลกเปลี่ยน** แล้วเลือก **โหลดจากไฟล์ XML**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-139">Select **Exchange**, and then select **Load from XML file**.</span></span>
+    2. <span data-ttu-id="aa4ee-140">เลือก **เรียกดู** ค้นหาและเลือกไฟล์ **แบบจำลองเพื่อเรียนรู้องค์ประกอบที่เลื่อน.1.xml** แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-140">Select **Browse**, find and select the **Model to learn deferred elements.1.xml** file, and then select **OK**.</span></span>
+
+4. <span data-ttu-id="aa4ee-141">หากการตั้งค่าคอนฟิก **การแม็ปเพื่อเรียนรู้องค์ประกอบที่เลื่อน** ไม่พร้อมใช้งานในแผนภูมิการตั้งค่าคอนฟิก ให้นำเข้าการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-141">If the **Mapping to learn deferred elements** configuration isn't available in the configuration tree, import the ER model mapping configuration:</span></span>
+
+    1. <span data-ttu-id="aa4ee-142">เลือก **แลกเปลี่ยน** แล้วเลือก **โหลดจากไฟล์ XML**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-142">Select **Exchange**, and then select **Load from XML file**.</span></span>
+    2. <span data-ttu-id="aa4ee-143">เลือก **เรียกดู** ค้นหาและเลือกไฟล์ **การแม็ปเพื่อเรียนรู้องค์ประกอบที่เลื่อน.1.1.xml** แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-143">Select **Browse**, find and select the **Mapping to learn deferred elements.1.1.xml** file, and then select **OK**.</span></span>
+
+5. <span data-ttu-id="aa4ee-144">นำเข้าการตั้งค่าคอนฟิกรูปแบบ ER:</span><span class="sxs-lookup"><span data-stu-id="aa4ee-144">Import the ER format configuration:</span></span>
+
+    1. <span data-ttu-id="aa4ee-145">เลือก **แลกเปลี่ยน** แล้วเลือก **โหลดจากไฟล์ XML**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-145">Select **Exchange**, and then select **Load from XML file**.</span></span>
+    2. <span data-ttu-id="aa4ee-146">เลือก **เรียกดู** ค้นหาและเลือกไฟล์ **จัดรูปแบบเพื่อเรียนรู้ลำดับที่เลื่อน.1.1.xml** แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-146">Select **Browse**, find and select the **Format to learn deferred sequences.1.1.xml** file, and then select **OK**.</span></span>
+
+6. <span data-ttu-id="aa4ee-147">ในแผนภูมิการตั้งค่าคอนฟิก ให้ขยาย **แบบจำลองเพื่อเรียนรู้องค์ประกอบที่เลื่อน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-147">In the configuration tree, expand **Model to learn deferred elements**.</span></span>
+7. <span data-ttu-id="aa4ee-148">ตรวจทานรายการของการตั้งค่าคอนฟิก ER ที่นำเข้าในแผนภูมิการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="aa4ee-148">Review the list of imported ER configurations in the configuration tree.</span></span>
+
+    ![การตั้งค่าคอนฟิก ER ที่นำเข้าในหน้าการตั้งค่าคอนฟิก](./media/ER-DeferredSequence-Configurations.png)
+
+### <a name="activate-a-configurations-provider"></a><span data-ttu-id="aa4ee-150">เรียกใช้ผู้ให้บริการการกำหนดค่า</span><span class="sxs-lookup"><span data-stu-id="aa4ee-150">Activate a configurations provider</span></span>
+
+1. <span data-ttu-id="aa4ee-151">ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-151">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+2. <span data-ttu-id="aa4ee-152">ในหน้า **การกำหนดค่าการแปลเป็นภาษาท้องถิ่น** ในส่วน **ผู้ให้บริการการกำหนดค่า** ตรวจสอบให้แน่ใจว่า [ผู้ให้บริการการกำหนดค่า](general-electronic-reporting.md#Provider) สำหรับบริษัทตัวอย่าง Litware, Inc. (`http://www.litware.com`) ถูกแสดงและมีการทำเครื่องหมายเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="aa4ee-152">On the **Localization configurations** page, in the **Configuration providers** section, make sure that the [configuration provider](general-electronic-reporting.md#Provider) for the Litware, Inc. (`http://www.litware.com`) sample company is listed, and that it's marked as active.</span></span> <span data-ttu-id="aa4ee-153">ถ้าผู้ให้บริการการตั้งค่าคอนฟิกนี้ไม่มีอยู่ในรายการหรือถ้าไม่ได้ทำเครื่องหมายเป็นใช้งานอยู่ ให้ทำตามขั้นตอนในหัวข้อ [สร้างผู้ให้บริการการตั้งค่าคอนฟิกและทำเครื่องหมายเป็นใช้งานอยู่](./tasks/er-configuration-provider-mark-it-active-2016-11.md)</span><span class="sxs-lookup"><span data-stu-id="aa4ee-153">If this configuration provider isn't listed, or if it isn't marked as active, follow the steps in the [Create a configuration provider and mark it as active](./tasks/er-configuration-provider-mark-it-active-2016-11.md) topic.</span></span>
+
+    ![Litware, Inc. บริษัทตัวอย่างในหน้าการตั้งค่าคอนฟิกการแปลเป็นภาษาท้องถิ่น](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+
+### <a name="review-the-imported-model-mapping"></a><span data-ttu-id="aa4ee-155">ตรวจทานการแม็ปแบบจำลองที่นำเข้า</span><span class="sxs-lookup"><span data-stu-id="aa4ee-155">Review the imported model mapping</span></span>
+
+<span data-ttu-id="aa4ee-156">ตรวจสอบการตั้งค่าของส่วนประกอบการแม็ปแบบจำลอง ER ที่มีการตั้งค่าคอนฟิกให้เข้าถึงธุรกรรมภาษีและเปิดเผยข้อมูลที่เข้าถึงเมื่อมีการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-156">Review the settings of the ER model mapping component that is configured to access tax transactions and expose accessed data on request.</span></span>
+
+1. <span data-ttu-id="aa4ee-157">ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-157">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+2. <span data-ttu-id="aa4ee-158">เลือก **การตั้งค่าคอนฟิกการรายงาน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-158">Select **Reporting configurations**.</span></span>
+3. <span data-ttu-id="aa4ee-159">บนหน้า **การตั้งค่าคอนฟิก** ในแผนภูมิการตั้งค่าคอนฟิก ให้ขยาย **แบบจำลองเพื่อเรียนรู้องค์ประกอบที่เลื่อน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-159">On the **Configurations** page, in the configuration tree, expand **Model to learn deferred elements**.</span></span>
+4. <span data-ttu-id="aa4ee-160">เลือกการตั้งค่าคอนฟิก **การแม็ปเพื่อเรียนรู้องค์ประกอบที่เลื่อน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-160">Select the **Mapping to learn deferred elements** configuration.</span></span>
+5. <span data-ttu-id="aa4ee-161">เลือก **ตัวออกแบบ** เพื่อเปิดรายการของการแม็ป</span><span class="sxs-lookup"><span data-stu-id="aa4ee-161">Select **Designer** to open the list of mappings.</span></span>
+6. <span data-ttu-id="aa4ee-162">เลือก **ตัวออกแบบ** เพื่อตรวจทานรายละเอียดการแม็ป</span><span class="sxs-lookup"><span data-stu-id="aa4ee-162">Select **Designer** to review the mapping details.</span></span>
+7. <span data-ttu-id="aa4ee-163">เลือก **แสดงรายละเอียด**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-163">Select **Show details**.</span></span>
+8. <span data-ttu-id="aa4ee-164">ตรวจทานแหล่งข้อมูลที่มีการตั้งค่าคอนฟิกสำหรับการเข้าถึงธุรกรรมภาษี:</span><span class="sxs-lookup"><span data-stu-id="aa4ee-164">Review the data sources that are configured to access tax transactions:</span></span>
+
+    - <span data-ttu-id="aa4ee-165">แหล่งข้อมูล **ธุรกรรม** ของชนิด *เรกคอร์ดตาราง* ถูกตั้งค่าคอนฟิกให้เข้าถึงเรกคอร์ดของตารางแอปพลิเคชัน **TaxTrans**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-165">The **Transactions** data source of the *Table record* type is configured to access records of the **TaxTrans** application table.</span></span>
+    - <span data-ttu-id="aa4ee-166">แหล่งข้อมูล **ใบสำคัญ** ของชนิด *ฟิลด์ที่คำนวณได้* ถูกตั้งค่าคอนฟิกให้ส่งคืนรหัสใบสำคัญที่จำเป็น (**INV-10000349** และ **INV-10000350**) เป็นรายการของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="aa4ee-166">The **Vouchers** data source of the *Calculated field* type is configured to return the required voucher codes (**INV-10000349** and **INV-10000350**) as a list of records.</span></span>
+    - <span data-ttu-id="aa4ee-167">แหล่งข้อมูล **ที่ถูกกรอง** ของชนิด *ฟิลด์ที่คำนวณได้* ถูกตั้งค่าคอนฟิกให้เลือก จากแหล่งข้อมูล **ธุรกรรม** เฉพาะธุรกรรมภาษีของใบสำคัญที่จำเป็นเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="aa4ee-167">The **Filtered** data source of the *Calculated field* type is configured to select, from the **Transactions** data source, only tax transactions of the required vouchers.</span></span>
+    - <span data-ttu-id="aa4ee-168">ฟิลด์ **\$TaxAmount** ของชนิด *ฟิลด์ที่คำนวณได้* ถูกเพิ่มสำหรับแหล่งข้อมูล **ที่ถูกกรอง** เพื่อเปิดเผยมูลค่าภาษีที่มีเครื่องหมายตรงข้าม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-168">The **\$TaxAmount** field of the *Calculated field* type is added for the **Filtered** data source to expose the tax value that has the opposite sign.</span></span>
+    - <span data-ttu-id="aa4ee-169">แหล่งข้อมูล **ที่มีการจัดกลุ่ม** ของชนิด *กลุ่มตามชนิด* ถูกตั้งค่าเพื่อจัดกลุ่มธุรกรรมภาษีที่ถูกกรองของแหล่งข้อมูล **ที่ถูกกรอง**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-169">The **Grouped** data source of the *Group By* type is configured to group filtered tax transactions of the **Filtered** data source.</span></span>
+    - <span data-ttu-id="aa4ee-170">ฟิลด์การรวม **TotalSum** ของแหล่งข้อมูล **ที่มีการจัดกลุ่ม** ถูกตั้งค่าคอนฟิกเพื่อสรุปค่าของฟิลด์ **\$TaxAmount** ของแหล่งข้อมูล **ที่ถูกกรอง** สำหรับธุรกรรมภาษีที่กรองทั้งหมดของแหล่งข้อมูลนั้น</span><span class="sxs-lookup"><span data-stu-id="aa4ee-170">The **TotalSum** aggregation field of the **Grouped** data source is configured to summarize values of the **\$TaxAmount** field of the **Filtered** data source for all filtered tax transactions of that data source.</span></span>
+
+        ![ฟิลด์การรวม TotalSum บนหน้าพารามิเตอร์แก้ไข 'GroupBy'](./media/ER-DeferredSequence-GroupByParameters.png)
+
+9. <span data-ttu-id="aa4ee-172">ตรวจสอบวิธีการผูกแหล่งข้อมูลที่ตั้งค่าคอนฟิกกับแบบจำลองข้อมูลและวิธีการที่จะเปิดเผยข้อมูลที่เข้าถึงเพื่อให้มีอยู่ในรูปแบบ ER:</span><span class="sxs-lookup"><span data-stu-id="aa4ee-172">Review how the configured data sources are bound to the data model, and how they expose accessed data to make it available in an ER format:</span></span>
+
+    - <span data-ttu-id="aa4ee-173">แหล่งข้อมูล **ที่ถูกกรอง** ถูกผูกไว้กับฟิลด์ **Data.List** ของแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-173">The **Filtered** data source is bound to the **Data.List** field of the data model.</span></span>
+    - <span data-ttu-id="aa4ee-174">ฟิลด์ **\$TaxAmount** ของแหล่งข้อมูล **ที่ถูกกรอง** ที่ผูกไว้กับฟิลด์ **Data.List.Value** ของแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-174">The **\$TaxAmount** field of the **Filtered** data source is bound to the **Data.List.Value** field of the data model.</span></span>
+    - <span data-ttu-id="aa4ee-175">ฟิลด์ **TotalSum** ของแหล่งข้อมูล **ที่มีการจัดกลุ่ม** ที่ผูกไว้กับฟิลด์ **Data.Summary.Total** ของแบบจำลองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-175">The **TotalSum** field of the **Grouped** data source is bound to the **Data.Summary.Total** field of the data model.</span></span>
+
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง](./media/ER-DeferredSequence-ModelMapping.png)
+
+10. <span data-ttu-id="aa4ee-177">ปิดหน้า **ตัวออกแบบการแม็ปแบบจำลอง** และ **การแม็ปแบบจำลอง**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-177">Close the **Model mapping designer** and **Model mappings** pages.</span></span>
+
+### <a name="review-the-imported-format"></a><span data-ttu-id="aa4ee-178">ตรวจทานรูปแบบที่นำเข้า</span><span class="sxs-lookup"><span data-stu-id="aa4ee-178">Review the imported format</span></span>
+
+1. <span data-ttu-id="aa4ee-179">ในหน้า **การตั้งค่าคอนฟิก** ในแผนภูมิการตั้งค่าคอนฟิก  ให้เลือกการตั้งค่าคอนฟิก **จัดรูปแบบเพื่อเรียนรู้ลำดับที่เลื่อน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-179">On the **Configurations** page, in the configuration tree, select the **Format to learn deferred sequences** configuration.</span></span>
+2. <span data-ttu-id="aa4ee-180">เลือก **ตัวออกแบบ** เพื่อตรวจทานรายละเอียดการจัดรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-180">Select **Designer** to review the format details.</span></span>
+3. <span data-ttu-id="aa4ee-181">เลือก **แสดงรายละเอียด**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-181">Select **Show details**.</span></span>
+4. <span data-ttu-id="aa4ee-182">ตรวจทานการตั้งค่าส่วนประกอบของรูปแบบ ER ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออกในรูปแบบข้อความที่มีรายละเอียดของธุรกรรมภาษีดังนี้:</span><span class="sxs-lookup"><span data-stu-id="aa4ee-182">Review the settings of the ER format components that are configured to generate an outbound document in text format that includes details of the tax transactions:</span></span>
+
+    - <span data-ttu-id="aa4ee-183">องค์ประกอบรูปแบบลำดับ **รายงาน\\รายการ** มีการตั้งค่าคอนฟิกให้กรอกข้อมูลเอกสารขาออกที่มีรายการเดี่ยวซึ่งสร้างขึ้นจากองค์ประกอบลำดับที่ซ้อนกัน (**หัวข้อ** **เรกคอร์ด** และ **สรุป**)</span><span class="sxs-lookup"><span data-stu-id="aa4ee-183">The **Report\\Lines** sequence format element is configured to fill the outbound document with a single line that is generated from the nested sequence elements (**Header**, **Record**, and **Summary**).</span></span>
+
+        ![องค์ประกอบรูปแบบลำดับรายการและองค์ประกอบที่ซ้อนกันบนหน้าตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format.png)
+
+    - <span data-ttu-id="aa4ee-185">องค์ประกอบรูปแบบลำดับ **รายงาน\\รายการ\\หัวข้อ** มีการตั้งค่าคอนฟิกให้กรอกเอกสารขาออกด้วยบรรทัดส่วนหัวเดียวที่แสดงวันที่และเวลาที่การดำเนินการเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="aa4ee-185">The **Report\\Lines\\Header** sequence format element is configured to fill the outbound document with a single header line that shows the date and time  when the processing starts.</span></span>
+    - <span data-ttu-id="aa4ee-186">องค์ประกอบรูปแบบลำดับ **รายงาน\\รายการ\\เรกคอร์ด** มีการตั้งค่าคอนฟิกให้กรอกข้อมูลเอกสารขาออกด้วยรายการเดียวที่แสดงรายละเอียดของธุรกรรมภาษีแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-186">The **Report \\Lines\\Record** sequence format element is configured to fill the outbound document with a single line that shows the details of individual tax transactions.</span></span> <span data-ttu-id="aa4ee-187">ธุรกรรมภาษีเหล่านี้ถูกแยกด้วยเครื่องหมายอัฒภาค</span><span class="sxs-lookup"><span data-stu-id="aa4ee-187">These tax transactions are separated by a semicolon.</span></span>
+
+        ![องค์ประกอบรูปแบบลำดับเรกคอร์ดที่ใช้เครื่องหมายอัฒภาคเป็นตัวกำหนดเขต](./media/ER-DeferredSequence-Format1.png)
+
+    - <span data-ttu-id="aa4ee-189">องค์ประกอบของรูปแบบลำดับ **รายงาน\\รายการ\\สรุป** มีการตั้งค่าคอนฟิกให้เติมข้อมูลเอกสารขาออกด้วยรายการสรุปเดียวที่มีผลรวมของมูลค่าภาษีจากธุรกรรมภาษีที่ประมวลผล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-189">The **Report\\Lines\\Summary** sequence format element is configured to fill the outbound document with a single summary line that includes the sum of the tax values from the processed tax transactions.</span></span>
+
+4. <span data-ttu-id="aa4ee-190">บนแท็บ **การแม็ป** ให้ตรวจทานรายละเอียดต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="aa4ee-190">On the **Mapping** tab, review the following details:</span></span>
+
+    - <span data-ttu-id="aa4ee-191">องค์ประกอบ **รายงาน\\รายการ\\หัวข้อ** ไม่จำเป็นต้องผูกกับแหล่งข้อมูลเพื่อสร้างรายการเดียวในเอกสารขาออก</span><span class="sxs-lookup"><span data-stu-id="aa4ee-191">The **Report\\Lines\\Header** element doesn't have to be bound to a data source to generate a single line in an outbound document.</span></span>
+    - <span data-ttu-id="aa4ee-192">องค์ประกอบ **คำนำหน้า1** สร้างสัญลักษณ์ **P1** เพื่อบ่งชี้ว่าบรรทัดที่เพิ่มเป็นบรรทัดส่วนหัวของรายงาน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-192">The **Prefix1** element generates **P1** symbols to indicate that the line that is added is the report header line.</span></span>
+    - <span data-ttu-id="aa4ee-193">องค์ประกอบ **ExecutionDateTime** สร้างวันที่และเวลา (รวมถึงมิลลิวินาที) เมื่อมีการเพิ่มบรรทัดส่วนหัว</span><span class="sxs-lookup"><span data-stu-id="aa4ee-193">The **ExecutionDateTime** element generates the date and time (including milliseconds) when the header line is added.</span></span>
+    - <span data-ttu-id="aa4ee-194">องค์ประกอบ **รายงาน\\รายการ\\เรกคอร์ด** ถูกผูกไว้กับรายการ **model.Data.List** เพื่อสร้างรายการเดียวสำหรับเรกคอร์ดทั้งหมดจากรายการที่ผูกไว้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-194">The **Report\\Lines\\Record** element is bound to the **model.Data.List** list to generate a single line for every record from the bound list.</span></span>
+    - <span data-ttu-id="aa4ee-195">องค์ประกอบ **คำนำหน้า2** สร้างสัญลักษณ์ **P2** เพื่อบ่งชี้ว่ารายการที่มีไว้สำหรับรายละเอียดธุรกรรมภาษี</span><span class="sxs-lookup"><span data-stu-id="aa4ee-195">The **Prefix2** element generates **P2** symbols to indicate that the line that is added is for the tax transaction details.</span></span>
+    - <span data-ttu-id="aa4ee-196">องค์ประกอบ **TaxAmount** ถูกผูกไว้ **model.Data.List.Value** (ซึ่งแสดงเป็น **\@.Value** ในมุมมองพาธสัมพัทธ์) เพื่อสร้างมูลค่าภาษีของธุรกรรมภาษีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-196">The **TaxAmount** element is bound to **model.Data.List.Value** (which is shown as **\@.Value** in the relative path view) to generate the tax value of the current tax transaction.</span></span>
+    - <span data-ttu-id="aa4ee-197">องค์ประกอบ **RunningTotal** เป็นตัวยึดสำหรับผลรวมการรันของมูลค่าภาษี</span><span class="sxs-lookup"><span data-stu-id="aa4ee-197">The **RunningTotal** element is a placeholder for the running total of the tax values.</span></span> <span data-ttu-id="aa4ee-198">ในปัจจุบันองค์ประกอบนี้ไม่มีผลลัพธ์ เนื่องจากไม่ได้ตั้งค่าคอนฟิกการรวมหรือค่าเริ่มต้นไว้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-198">Currently, this element has no output, because neither a binding nor a default value is configured for it.</span></span>
+    - <span data-ttu-id="aa4ee-199">องค์ประกอบ **ExecutionDateTime** สร้างวันที่และเวลา (รวมถึงมิลลิวินาที) เมื่อมีการประมวลผลธุรกรรมปัจจุบันในรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-199">The **ExecutionDateTime** element generates the date and time (including milliseconds) when the current transaction is processed in this report.</span></span>
+    - <span data-ttu-id="aa4ee-200">องค์ประกอบ **รายงาน\\รายการ\\สรุป** ไม่จำเป็นต้องผูกกับแหล่งข้อมูลเพื่อสร้างรายการเดียวในเอกสารขาออก</span><span class="sxs-lookup"><span data-stu-id="aa4ee-200">The **Report\\Lines\\Summary** element doesn't have to be bound to a data source to generate a single line in an outbound document.</span></span>
+    - <span data-ttu-id="aa4ee-201">องค์ประกอบ **คำนำหน้า3** สร้างสัญลักษณ์ **P3** เพื่อบ่งชี้ว่ารายการที่เพิ่มมีมูลค่าภาษีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="aa4ee-201">The **Prefix3** element generates **P3** symbols to indicate that the line that is added contains the total tax value.</span></span>
+    - <span data-ttu-id="aa4ee-202">องค์ประกอบ **TotalTaxAmount** ถูกผูกไว้ **model.Data.Summary.Total** เพื่อสร้างผลรวมของมูลค่าภาษีของธุรกรรมภาษีที่ประมวลผล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-202">The **TotalTaxAmount** element is bound to **model.Data.Summary.Total** to generate the sum of the tax values of the processed tax transactions.</span></span>
+    - <span data-ttu-id="aa4ee-203">องค์ประกอบ **ExecutionDateTime** สร้างวันที่และเวลา (รวมถึงมิลลิวินาที) เมื่อมีการเพิ่มรายการสรุป</span><span class="sxs-lookup"><span data-stu-id="aa4ee-203">The **ExecutionDateTime** element generates the date and time (including milliseconds) when the summary line is added.</span></span>
+
+    ![แท็บการแม็ปบนตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format2.png)
+
+### <a name="run-the-imported-format"></a><span data-ttu-id="aa4ee-205">รันรูปแบบที่นำเข้า</span><span class="sxs-lookup"><span data-stu-id="aa4ee-205">Run the imported format</span></span>
+
+1. <span data-ttu-id="aa4ee-206">ในหน้า **ตัวออกแบบรูปแบบ** เลือก **รัน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-206">On the **Format designer** page, select **Run**.</span></span>
+2. <span data-ttu-id="aa4ee-207">ดาวน์โหลดไฟล์ที่เว็บเบราเซอร์นำเสนอและเปิดสำหรับการตรวจทาน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-207">Download the file that the web browser offers, and open it for review.</span></span>
+
+    ![ไฟล์ที่ดาวน์โหลด](./media/ER-DeferredSequence-Run.png)
+
+<span data-ttu-id="aa4ee-209">โปรดสังเกตว่ารายการสรุปที่ 22 แสดงผลรวมของมูลค่าภาษีสำหรับธุรกรรมที่ประมวลผล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-209">Notice that summary line 22 presents the sum of the tax values for the processed transactions.</span></span> <span data-ttu-id="aa4ee-210">เนื่องจากมีการตั้งค่าคอนฟิกรูปแบบให้ใช้ **model.Data.Summary.Total** ที่ผูกไว้เพื่อส่งคืนยอดรวมนี้ ยอดรวมจะถูกคำนวณโดยการเรียกการรวม **TotalSum** ของแหล่งข้อมูล **ที่มีการจัดกลุ่ม** ของชนิด *GroupBy* ที่ใช้การแม็ปแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-210">Because the format is configured to use the **model.Data.Summary.Total** binding to return this sum, the sum is calculated by calling the **TotalSum** aggregation of the **Grouped** data source of the *GroupBy* type that uses the model mapping.</span></span> <span data-ttu-id="aa4ee-211">เมื่อต้องการคำนวณการรวมนี้ การแม็ปแบบจำลองซ้ำธุรกรรมทั้งหมดที่เลือกในแหล่งข้อมูล **ที่ถูกกรองไว้แล้ว**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-211">To calculate this aggregation, model mapping iterates over all transactions that have been selected in the **Filtered** data source.</span></span> <span data-ttu-id="aa4ee-212">โดยการเปรียบเทียบเวลาที่ใช้ในการดำเนินการของรายการที่ 21 และ 22 คุณสามารถกำหนดว่าการคำนวณของผลรวมใช้เวลา 10 มิลลิวินาที (ms)</span><span class="sxs-lookup"><span data-stu-id="aa4ee-212">By comparing the execution times of lines 21 and 22, you can determine that calculation of the sum took 10 milliseconds (ms).</span></span> <span data-ttu-id="aa4ee-213">โดยการเปรียบเทียบเวลาที่ใช้ในการดำเนินการของรายการที่ 2 และ 21 คุณสามารถกำหนดว่าการสร้างของรายการธุรกรรมทั้งหมดใช้เวลา 7 มิลลิวินาที</span><span class="sxs-lookup"><span data-stu-id="aa4ee-213">By comparing the execution times of lines 2 and 21, you can determine that generation of all transactional lines took 7 ms.</span></span> <span data-ttu-id="aa4ee-214">ดังนั้น จำเป็นต้องใช้เวลารวมทั้งหมด 17 มิลลิวินาที</span><span class="sxs-lookup"><span data-stu-id="aa4ee-214">Therefore, a total of 17 ms was required.</span></span>
+
+### <a name="modify-the-format-so-that-the-summing-is-based-on-generated-output"></a><span data-ttu-id="aa4ee-215">แก้ไขรูปแบบเพื่อให้ผลรวมเป็นไปตามผลลัพธ์ที่สร้าง</span><span class="sxs-lookup"><span data-stu-id="aa4ee-215">Modify the format so that the summing is based on generated output</span></span>
+
+<span data-ttu-id="aa4ee-216">ถ้าปริมาณของธุรกรรมมีขนาดใหญ่กว่าปริมาณในตัวอย่างปัจจุบัน เวลาการรวมอาจเพิ่มขึ้นและทำให้เกิดปัญหาประสิทธิภาพการทำงาน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-216">If the volume of transactions is much larger than the volume in the current example, the summing time might increase and cause performance issues.</span></span> <span data-ttu-id="aa4ee-217">ด้วยการเปลี่ยนแปลงการตั้งค่าของรูปแบบ คุณสามารถช่วยป้องกันปัญหาประสิทธิภาพการทำงานเหล่านี้ได้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-217">By changing the setting of the format, you can help prevent these performance issues.</span></span> <span data-ttu-id="aa4ee-218">เนื่องจากคุณเข้าถึงมูลค่าภาษีเพื่อรวมไว้ในรายงานที่สร้างขึ้น คุณสามารถนำข้อมูลนี้มาใช้อีกครั้งในการรวมมูลค่าภาษีได้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-218">Because you access tax values to include them in the generated report, you can reuse this information to sum tax values.</span></span> <span data-ttu-id="aa4ee-219">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกรูปแบบที่จะทำการตรวจนับและการรวม](./tasks/er-format-counting-summing-1.md)</span><span class="sxs-lookup"><span data-stu-id="aa4ee-219">For more information, see [Configure format to do counting and summing](./tasks/er-format-counting-summing-1.md).</span></span>
+
+1. <span data-ttu-id="aa4ee-220">บนหน้า **ตัวออกแบบรูปแบบ** บนแท็บ **รูปแบบ** ให้เลือกองค์ประกอบของไฟล์ **รายงาน** ในแผนภูมิรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-220">On the **Format designer** page, on the **Format** tab, select the **Report** file element in the format tree.</span></span>
+2. <span data-ttu-id="aa4ee-221">ตั้งค่าตัวเลือก **รวบรวมรายละเอียดผลลัพธ์** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-221">Set the **Collect output details** option to **Yes**.</span></span> <span data-ttu-id="aa4ee-222">ขณะนี้คุณสามารถตั้งค่าคอนฟิกรูปแบบนี้ได้โดยใช้เนื้อหาของรายงานที่มีอยู่เป็นแหล่งข้อมูลที่สามารถเข้าถึงได้โดยใช้ฟังก์ชัน ER ที่มีอยู่แล้วในประเภท [การรวบรวมข้อมูล](er-functions-category-data-collection.md)</span><span class="sxs-lookup"><span data-stu-id="aa4ee-222">You can now configure this format by using the content of an existing report as a data source that can be accessed by using the built-in ER functions in the [Data collection](er-functions-category-data-collection.md) category.</span></span>
+3. <span data-ttu-id="aa4ee-223">บนแท็บ **การแม็ป** ให้เลือกองค์ประกอบลำดับของ **รายงาน\\รายการ**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-223">On the **Mapping** tab, select the **Report\\Lines** sequence element.</span></span>
+4. <span data-ttu-id="aa4ee-224">ตั้งค่าคอนฟิกนิพจน์ **ชื่อคีย์ข้อมูลที่รวบรวมไว้** เป็น `WsColumn`</span><span class="sxs-lookup"><span data-stu-id="aa4ee-224">Configure the **Collected data key name** expression as `WsColumn`.</span></span>
+5. <span data-ttu-id="aa4ee-225">ตั้งค่าคอนฟิกนิพจน์ **ค่าคีย์ข้อมูลที่รวบรวมไว้** เป็น `WsRow`</span><span class="sxs-lookup"><span data-stu-id="aa4ee-225">Configure the **Collected data key value** expression as `WsRow`.</span></span>
+
+    ![องค์ประกอบลำดับรายการบนหน้าตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format3.png)
+
+6. <span data-ttu-id="aa4ee-227">เลือกองค์ประกอบตัวเลข **รายงาน\\รายการ\\เรกคอร์ด\\TaxAmount**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-227">Select the **Report\\Lines\\Record\\TaxAmount** numeric element.</span></span>
+7. <span data-ttu-id="aa4ee-228">ตั้งค่าคอนฟิกนิพจน์ **ชื่อคีย์ข้อมูลที่รวบรวมไว้** เป็น `SummingAmountKey`</span><span class="sxs-lookup"><span data-stu-id="aa4ee-228">Configure the **Collected data key name** expression as `SummingAmountKey`.</span></span>
+
+    ![องค์ประกอบตัวเลข TaxAmount บนหน้าตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format4.png)
+
+    <span data-ttu-id="aa4ee-230">คุณสามารถพิจารณาการตั้งค่านี้ของการเติมสินค้าของแผ่นงานเสมือน โดยที่ค่าของเซลล์ A1 ถูกผนวกเข้ากับมูลค่าของยอดภาษีจากธุรกรรมภาษีที่ประมวลผลทุกธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-230">You can consider this setting the fulfillment of a virtual worksheet, where the value of cell A1 is appended with the value of the tax amount from every processed tax transaction.</span></span>
+
+8. <span data-ttu-id="aa4ee-231">เลือกองค์ประกอบตัวเลข **รายงาน\\รายการ\\เรกคอร์ด\\RunningTotal** แล้วเลือก **แก้ไขสูตร**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-231">Select the **Report\\Lines\\Record\\RunningTotal** numeric element, and then select **Edit formula**.</span></span>
+9. <span data-ttu-id="aa4ee-232">ตั้งค่าคอนฟิกนิพจน์ `SUMIF(SummingAmountKey, WsColumn, WsRow)` โดยใช้ฟังก์ชัน ER [SUMIF](er-functions-datacollection-sumif.md) ที่มีอยู่แล้วในตัว</span><span class="sxs-lookup"><span data-stu-id="aa4ee-232">Configure the `SUMIF(SummingAmountKey, WsColumn, WsRow)` expression by using the built-in [SUMIF](er-functions-datacollection-sumif.md) ER function.</span></span>
+10. <span data-ttu-id="aa4ee-233">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-233">Select **Save**.</span></span>
+
+    ![นิพจน์ SUMIF](./media/ER-DeferredSequence-FormulaDesigner.png)
+
+11. <span data-ttu-id="aa4ee-235">ปิดหน้า **ตัวออกแบบสูตร**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-235">Close the **Formula designer** page.</span></span>
+12. <span data-ttu-id="aa4ee-236">เลือก **บันทึก** แล้วจากนั้น เลือก **รัน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-236">Select **Save**, and then select **Run**.</span></span>
+13. <span data-ttu-id="aa4ee-237">ดาวน์โหลดแและตรวจทานไฟล์ที่เว็บเบราว์เซอร์นำเสนอ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-237">Download and review the file that the web browser offers.</span></span>
+
+    ![ไฟล์ที่ดาวน์โหลด](./media/ER-DeferredSequence-Run1.png)
+
+    <span data-ttu-id="aa4ee-239">รายการที่ 21 มีการรันผลรวมของมูลค่าภาษีที่คำนวณได้สำหรับธุรกรรมที่ประมวลผลทั้งหมด โดยใช้ผลลัพธ์ที่สร้างขึ้นเป็นแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="aa4ee-239">Line 21 contains the running total of tax values that is calculated for all processed transactions by using the generated output as a data source.</span></span> <span data-ttu-id="aa4ee-240">แหล่งข้อมูลนี้เริ่มต้นจากจุดเริ่มต้นของรายงานและดำเนินการต่อไปผ่านทางธุรกรรมภาษีครั้งล่าสุด</span><span class="sxs-lookup"><span data-stu-id="aa4ee-240">This data source starts from the beginning of the report and continues through the last tax transaction.</span></span> <span data-ttu-id="aa4ee-241">รายการที่ 22 มีผลรวมของมูลค่าภาษีสำหรับธุรกรรมที่ประมวลผลทั้งหมดที่มีการคำนวณในการแม็ปแบบจำลอง โดยใช้แหล่งข้อมูลของชนิด *GroupBy*</span><span class="sxs-lookup"><span data-stu-id="aa4ee-241">Line 22 contains the sum of the tax values for all processed transactions that are calculated in the model mapping by using the data source of the *GroupBy* type.</span></span> <span data-ttu-id="aa4ee-242">โปรดสังเกตว่าค่าเหล่านี้เท่ากัน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-242">Notice that these values are equal.</span></span> <span data-ttu-id="aa4ee-243">ดังนั้นการรวมตามผลลัพธ์สามารถใช้แทนที่ **GroupBy**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-243">Therefore, the output-based summing can be used instead of **GroupBy**.</span></span> <span data-ttu-id="aa4ee-244">โดยการเปรียบเทียบเวลาที่ใช้ในการดำเนินการของรายการที่ 2 และ 21 คุณสามารถกำหนดว่าการสร้างของรายการธุรกรรมและการรวมทั้งหมดใช้เวลา 9 มิลลิวินาที</span><span class="sxs-lookup"><span data-stu-id="aa4ee-244">By comparing the execution times of lines 2 and 21, you can determine that generation of all the transactional lines and summing took 9 ms.</span></span> <span data-ttu-id="aa4ee-245">ดังนั้น หากต้องมีการสร้างรายการรายละเอียดและการรวมของมูลค่าภาษีเข้ามาเกี่ยวข้อง รูปแบบที่ถูกปรับเปลี่ยนจะมีความเร็วประมาณสองเท่าของรูปแบบดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-245">Therefore, as far as the generation of detailed lines and the summing of tax values are concerned, the modified format is approximately two times faster than the original format.</span></span>
+
+14. <span data-ttu-id="aa4ee-246">เลือกองค์ประกอบตัวเลข **รายงาน\\รายการ\\สรุป\\TotalTaxAmount** แล้วจากนั้นเลือก **แก้ไขสูตร**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-246">Select the **Report\\Lines\\Summary\\TotalTaxAmount** numeric element, and then select **Edit formula**.</span></span>
+15. <span data-ttu-id="aa4ee-247">ป้อนนิพจน์ `SUMIF(SummingAmountKey, WsColumn, WsRow)` แทนนิพจน์ที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="aa4ee-247">Enter the `SUMIF(SummingAmountKey, WsColumn, WsRow)` expression instead of the existing expression.</span></span>
+16. <span data-ttu-id="aa4ee-248">เลือก **บันทึก** แล้วจากนั้น เลือก **รัน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-248">Select **Save**, and then select **Run**.</span></span>
+17. <span data-ttu-id="aa4ee-249">ดาวน์โหลดแและตรวจทานไฟล์ที่เว็บเบราว์เซอร์นำเสนอ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-249">Download and review the file that the web browser offers.</span></span>
+
+    ![ไฟล์ที่ดาวน์โหลด](./media/ER-DeferredSequence-Run2.png)
+
+    <span data-ttu-id="aa4ee-251">โปรดสังเกตว่ายอดรวมการรันของมูลค่าภาษีในรายการรายละเอียดธุรกรรมล่าสุดตอนนี้เท่ากับผลรวมบนรายการสรุป</span><span class="sxs-lookup"><span data-stu-id="aa4ee-251">Notice that the running total of tax values on the last transaction details line now equals the sum on the summary line.</span></span>
+
+### <a name="put-values-of-output-based-summing-in-the-report-header"></a><span data-ttu-id="aa4ee-252">ใส่มูลค่าของการรวมที่ยึดตามผลลัพธ์ในส่วนหัวของรายงาน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-252">Put values of output-based summing in the report header</span></span>
+
+<span data-ttu-id="aa4ee-253">ตัวอย่างเช่น ถ้าคุณต้องแสดงผลรวมของมูลค่าภาษีในส่วนหัวของรายงานของคุณ คุณสามารถแก้ไขรูปแบบของคุณได้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-253">If, for example, you must present the sum of tax values in the header of your report, you can modify your format.</span></span>
+
+1. <span data-ttu-id="aa4ee-254">บนหน้า **ตัวออกแบบรูปแบบ** บนแท็บ **รูปแบบ** ให้เลือกองค์ประกอบลำดับของ **รายงาน\\รายการ\\สรุป**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-254">On the **Format designer** page, on the **Format** tab, select the **Report\\Lines\\Summary** sequence element.</span></span>
+2. <span data-ttu-id="aa4ee-255">เลือก **เลื่อนขึ้น**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-255">Select **Move up**.</span></span>
+3. <span data-ttu-id="aa4ee-256">เลือก **บันทึก** แล้วจากนั้น เลือก **รัน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-256">Select **Save**, and then select **Run**.</span></span>
+4. <span data-ttu-id="aa4ee-257">ดาวน์โหลดแและตรวจทานไฟล์ที่เว็บเบราว์เซอร์นำเสนอ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-257">Download and review the file that the web browser offers.</span></span>
+
+    ![ไฟล์ที่ดาวน์โหลด](./media/ER-DeferredSequence-Run3.png)
+
+    <span data-ttu-id="aa4ee-259">โปรดสังเกตว่าผลรวมของมูลค่าภาษีในรายการสรุป 2 ตอนนี้เท่ากับ 0 (ศูนย์) เนื่องจากมีการคำนวณผลรวมนี้ตามลัพธ์ที่สร้างขึ้นแล้วในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-259">Notice that the sum of tax values on summary line 2 now equals 0 (zero), because this sum is now calculated based on the generated output.</span></span> <span data-ttu-id="aa4ee-260">เมื่อมีการสร้างรายการ 2 ขึ้น ผลลัพธ์ที่สร้างขึ้นยังไม่มีรายการที่มีรายละเอียดธุรกรรม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-260">When line 2 is generated, the generated output doesn't yet contain lines that have transaction details.</span></span> <span data-ttu-id="aa4ee-261">คุณสามารถตั้งค่าคอนฟิกรูปแบบนี้เพื่อเลื่อนการดำเนินการขององค์ประกอบลำดับ **รายงาน\\รายการ\\สรุป** จนกว่าจะมีการรันองค์ประกอบลำดับ **รายงาน\\รายการ\\เรกคอร์ด** สำหรับธุรกรรมภาษีทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="aa4ee-261">You can configure this format to defer the execution of the **Report\\Lines\\Summary** sequence element until the **Report\\Lines\\Record** sequence element has been run for all tax transactions.</span></span>
+
+### <a name="defer-the-execution-of-the-summary-sequence-so-that-the-calculated-total-is-used"></a><span data-ttu-id="aa4ee-262">เลื่อนการดำเนินการของลำดับสรุปเพื่อให้สามารถใช้ยอดรวมที่คำนวณได้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-262">Defer the execution of the summary sequence so that the calculated total is used</span></span>
+
+1. <span data-ttu-id="aa4ee-263">บนหน้า **ตัวออกแบบรูปแบบ** บนแท็บ **รูปแบบ** ให้เลือกองค์ประกอบลำดับของ **รายงาน\\รายการ\\สรุป**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-263">On the **Format designer** page, on the **Format** tab, select the **Report\\Lines\\Summary** sequence element.</span></span>
+2. <span data-ttu-id="aa4ee-264">ตั้งค่าตัวเลือก **การดำเนินการที่เลื่อน** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-264">Set the **Deferred execution** option to **Yes**.</span></span>
+
+    ![ตัวเลือกการดำเนินการที่เลื่อนขององค์ประกอบลำดับสรุปบนหน้าตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format5.png)
+
+3. <span data-ttu-id="aa4ee-266">เลือก **บันทึก** แล้วจากนั้น เลือก **รัน**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-266">Select **Save**, and then select **Run**.</span></span>
+4. <span data-ttu-id="aa4ee-267">ดาวน์โหลดแและตรวจทานไฟล์ที่เว็บเบราว์เซอร์นำเสนอ</span><span class="sxs-lookup"><span data-stu-id="aa4ee-267">Download and review the file that the web browser offers.</span></span>
+
+    ![ไฟล์ที่ดาวน์โหลด](./media/ER-DeferredSequence-Run4.png)
+
+    <span data-ttu-id="aa4ee-269">ขณะนี้องค์ประกอบลำดับ **รายงาน\\รายการ\\สรุป** รันหลังจากสินค้าอื่นๆ ทั้งหมดที่ซ้อนกันภายใต้องค์ประกอบหลัก **รายงาน\\รายการ** ที่มีการรันแล้วเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="aa4ee-269">The **Report\\Lines\\Summary** sequence element is now run only after all other items that are nested under its parent element, **Report\\Lines**, have been run.</span></span> <span data-ttu-id="aa4ee-270">ดังนั้นจึงรันหลังจากที่องค์ประกอบลำดับ **รายงาน\\รายการ\\เรกคอร์ด** มีการรันสำหรับธุรกรรมภาษีทั้งหมดของแหล่งข้อมูล **model.Data.List**</span><span class="sxs-lookup"><span data-stu-id="aa4ee-270">Therefore, it's run after the **Report\\Lines\\Record** sequence element has been run for all tax transactions of the **model.Data.List** data source.</span></span> <span data-ttu-id="aa4ee-271">เวลาที่ใช้ในการดำเนินการของรายการที่ 1, 2 และ 3 และของรายการสุดท้ายที่ 22 เปิดเผยข้อเท็จจริงนี้</span><span class="sxs-lookup"><span data-stu-id="aa4ee-271">The execution times of lines 1, 2, and 3, and of the last line, 22, reveal this fact.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="aa4ee-272">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-272">Additional resources</span></span>
+
+- [<span data-ttu-id="aa4ee-273">ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวม</span><span class="sxs-lookup"><span data-stu-id="aa4ee-273">Configure format to do counting and summing</span></span>](./tasks/er-format-counting-summing-1.md)
+- [<span data-ttu-id="aa4ee-274">การดำเนินการติดตามของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพการทำงาน</span><span class="sxs-lookup"><span data-stu-id="aa4ee-274">Trace execution of ER format to troubleshoot performance issues</span></span>](trace-execution-er-troubleshoot-perf.md)
+- [<span data-ttu-id="aa4ee-275">เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="aa4ee-275">Defer the execution of XML elements in ER formats</span></span>](er-defer-xml-element.md#Example)
