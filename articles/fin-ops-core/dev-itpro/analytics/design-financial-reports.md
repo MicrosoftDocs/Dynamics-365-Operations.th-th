@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc68289514dc3b201b423091c92fa128d3065707
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536812"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002554"
 ---
 # <a name="view-and-design-financial-reports"></a>ดูและออกแบบรายงานทางการเงิน
 
@@ -172,8 +172,8 @@ ms.locfileid: "2536812"
 3. สร้างคำนิยามคอลัมน์ใหม่ โดยการคลิก **ไฟล์** แล้ว **ใหม่** และ **คำนิยามคอลัมน์**
 4. ใน **คอลัมน์ A** เลือก **DESC** สำหรับชนิดคอลัมน์
 5. ใน **คอลัมน์ B** เลือก **FD** สำหรับชนิดคอลัมน์นั้น
-6. ดับเบิลคลิกใน **ฟิลด์ตัวกรองมิติ**
-7. ในหน้าต่าง **มิติ** คลิกสองครั้งที่ **คอลัมน์แผนก**
+6. คลิกสองครั้งที่ฟิลด์ **ตัวกรองมิติ** 
+7. ในหน้าต่าง **มิติ** คลิกสองครั้งที่คอลัมน์ **แผนก** 
 8. ในแต่ละส่วนหรือช่วงของกล่องโต้ตอบ คลิกที่ **จุดไข่ปลา** สำหรับฟิลด์ **จาก** เพื่อแสดงรายการแผนก
 9. เลือกแผนก **022**, **การขาย & การตลาด** แล้ว คลิก**ตกลง**
 10. ทำซ้ำขั้นตอนที่ 5 ถึง 8 สำหรับแผนก 23 25
@@ -197,4 +197,4 @@ ms.locfileid: "2536812"
 
 [ดูรายงานทางการเงิน](../../../finance/general-ledger/view-financial-reports.md)
 
-[บล็อกการรายงานทางการเงิน Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[บล็อกการรายงานทางการเงิน Dynamics](https://blogs.msdn.com/b/dynamics_financial_reporting/)

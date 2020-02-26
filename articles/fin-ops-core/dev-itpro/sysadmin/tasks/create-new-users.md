@@ -3,7 +3,7 @@ title: การสร้างผู้ใช้ใหม่
 description: ผู้ใช้คือพนักงานภายในขององค์กรหรือลูกค้าและผู้จัดจำหน่ายภายนอก ซึ่งมีความจำเป็นต้องเข้าถึงระบบเพื่อดำเนินงานของตน
 author: maertenm
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 02/06/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c347a34a389c32d005cc8086c4a1349ecb8a698
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6d884dfe30be5684a90925d4d2d9ab7eebca5b44
+ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570532"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029820"
 ---
 # <a name="create-new-users"></a>การสร้างผู้ใช้ใหม่
 
@@ -30,9 +30,12 @@ ms.locfileid: "2570532"
 ผู้ใช้คือพนักงานภายในขององค์กรหรือลูกค้าและผู้จัดจำหน่ายภายนอก ซึ่งมีความจำเป็นต้องเข้าถึงระบบเพื่อดำเนินงานของตน
 
 ## <a name="associate-a-user-with-a-license-new-license-types-only"></a>เชื่อมโยงผู้ใช้ที่มีสิทธิ์การใช้งาน (ชนิดใบอนุญาตใหม่เท่านั้น)
-สำหรับลูกค้าที่ใช้ใบอนุญาตชนิดใหม่ที่เพิ่งมีการเพิ่มเมื่อเดือนตุลาคม 2019 ผู้ใช้ต้องเชื่อมโยงกับสิทธิ์การใช้งาน ในครั้งแรกที่ลงชื่อเข้าใช้ ผู้ใช้ที่ได้เชื่อมโยงสิทธิ์การใช้งานแล้ว จะถูกเพิ่มเป็นผู้ใช้ของระบบที่ไม่มีบทบาทโดยอัตโนมัติ ผู้ใช้ที่ไม่ได้เชื่อมโยงสิทธิ์การใช้งาน จะได้รับข้อความแจ้งเตือน
+สำหรับลูกค้าที่ใช้ใบอนุญาตชนิดใหม่ที่เพิ่งมีการเพิ่มเมื่อเดือนตุลาคม 2019 ผู้ใช้ต้องเชื่อมโยงกับสิทธิ์การใช้งาน ในครั้งแรกที่ลงชื่อเข้าใช้ ผู้ใช้ที่ได้เชื่อมโยงสิทธิ์การใช้งานแล้ว จะถูกเพิ่มเป็นผู้ใช้ของระบบที่ไม่มีบทบาทโดยอัตโนมัติ
 
 ผู้ดูแลระบบสามารถ [กำหนดสิทธิ์การใช้งานให้กับผู้ใช้](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) ใน [Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)
+
+## <a name="associate-an-external-user-with-a-license-new-license-types-only"></a>เชื่อมโยงผู้ใช้ภายนอกกับสิทธิ์การใช้งาน (ชนิดของสิทธิ์การใช้งานใหม่เท่านั้น)
+ผู้ใช้ที่อยู่ภายนอกผู้เช่าที่มีการปรับใช้สภาพแวดล้อมจำเป็นต้องแสดงในไดเรกทอรีผู้เช่าโฮสต์ (Azure Active Directory (Azure AD)) เพื่อให้สามารถมอบสิทธิ์การใช้งานให้ได้ ควรเพิ่มผู้ใช้ภายนอกเหล่านั้นในผู้เช่าใน Azure AD ให้เป็นผู้ใช้ที่เป็นผู้เยี่ยมชม แล้วจึงมอบสิทธิ์การใช้งานที่เหมาะสม สำหรับข้อมูลเพิ่มเติม ดู [เพิ่ม Azure Active Directory ผู้ใช้ที่ทำงานร่วมกันแบบ B2B ในพอร์ทัล Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)
 
 ## <a name="add-a-new-user"></a>เพิ่มผู้ใช้ใหม่
 1. ไปที่ **การจัดการระบบ \> ผู้ใช้ \> ผู้ใช้**
@@ -42,7 +45,7 @@ ms.locfileid: "2570532"
 5. ในฟิลด์  **โดเมน** ให้ป้อนโดเมนของผู้ใช้  
 6. ในฟิลด์ **นามแฝง** ให้ป้อนนามแฝงของผู้ใช้  
 7. ในฟิลด์ **บริษัท** เลือกบริษัทที่ต้องการ 
-8. บนแท็บด่วน **บทบาทของผู้ใช้** ให้เลือก **กำหนดบทบาท** ที่ [จะกำหนดบทบาทความปลอดภัยให้ผู้ใช้](assign-users-security-roles.md)
+8. ใน FastTab **บทบาทผู้ใช้** เลือก **มอบหมายบทบาท** เพื่อมอบหมายผู้ใช้ไปยัง Security role  สำหรับข้อมูลเพิ่มเติม ดู [มอบหมาย Security role ให้กับผู้ใช้](assign-users-security-roles.md)
 9. เลือก **ตกลง**
 10. เลือก **บันทึก**
 

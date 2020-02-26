@@ -1,5 +1,5 @@
 ---
-title: โฮมเพจการจัดการทางการเงิน
+title: โฮมเพจ Finance
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance
 author: roschlom
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770585"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000336"
 ---
-# <a name="financial-management-home-page"></a>โฮมเพจการจัดการทางการเงิน
+# <a name="finance-home-page"></a>โฮมเพจ Finance
 
 [!include [banner](includes/banner.md)]
 
@@ -60,7 +60,7 @@ ms.locfileid: "2770585"
 - [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>คู่มืองาน
-วิธีใช้เพิ่มเติมพร้อมใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ
+วิธีใช้เพิ่มเติมสามารถใช้เป็นคู่มืองานภายใน Finance and Operations ในการเข้าถึงคู่มืองาน ให้คลิกปุ่มวิธีใช้บนหน้าใดๆ
 
 ### <a name="videos"></a>วิดีโอ
 

@@ -19,52 +19,64 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ecda571a356c6968196d09cc19923105cf4544ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024967"
 ---
 # <a name="enable-product-recommendations"></a>เปิดใช้งานคำแนะนำผลิตภัณฑ์
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายถึงวิธีการให้คำแนะนำเกี่ยวกับผลิตภัณฑ์ที่ยึดตามการเรียนรู้ของเครื่องมือปัญญาประดิษฐ์ (AL-ML) ที่มีให้ใช้งานสำหรับลูกค้า Microsoft Dynamics 365 Commerce สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคำแนะนำผลิตภัณฑ์ โปรดอ่าน [ภาพรวมคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
 ## <a name="recommendations-pre-check"></a>การตรวจสอบคำแนะนำ
-ก่อนที่จะเปิดใช้งาน โปรดทราบว่าคำแนะนำของผลิตภัณฑ์สนับสนุนเฉพาะสำหรับลูกค้า F&O ซึ่งสนับสนุนเวอร์ชัน 10.0.6 และโยกย้ายพื้นที่จัดเก็บของตนไว้เพื่อใช้ BDL 
 
-นอกจากนี้ ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการวัด RetailSale แล้ว หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับขั้นตอนการตั้งค่านี้ให้ไป [ที่นี่](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
+ก่อนเปิดใช้งาน โปรดทราบว่าคำแนะนำผลิตภัณฑ์ได้รับการสนับสนุนเฉพาะสำหรับลูกค้าเชิงพาณิชย์ที่โอนย้ายที่เก็บข้อมูลของตนไปใช้ Azure Data Lake Storage (ADLS)  
+
+สำหรับขั้นตอนการเปิดใช้งาน ADLS ดู [ธีเปิดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365](enable-ADLS-environment.md)
+
+นอกจากนี้ ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการวัด RetailSale แล้ว หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการตั้งค่านี้ให้ไปที่ [ที่นี่](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
 
 
 ## <a name="turn-on-recommendations"></a>เปิดคำแนะนำ
 
 ถ้าต้องการเปิดคำแนะนำผลิตภัณฑ์ ให้ปฏิบัติตามขั้นตอนเหล่านี้
 
-1. ไปที่ **การขายปลีก** &gt; **คำแนะนำของผลิตภัณฑ์** &gt; **พารามิเตอร์คำแนะนำ**
-1. ในรายการพารามิเตอร์ที่ใช้ร่วมกันของการขายปลีก เลือก **รายการแนะนำ**
+1. ไปยัง **การขายปลีกและการค้า &gt; คำแนะนำผลิตภัณฑ์ &gt; พารามิเตอร์คำแนะนำ**
+1. ในรายการของพารามิเตอร์ที่ใช้ร่วมกัน ให้เลือก **รายการคำแนะนำ**
 1. ตั้งค่าตัวเลือก **เปิดใช้คำแนะนำ** เป็น **ใช่**
 
 ![เปิดใช้งานคำแนะนำผลิตภัณฑ์](./media/enableproductrecommendations.png)
 
 > [!NOTE]
-> ขั้นตอนนี้จะเริ่มต้นกระบวนการสร้างรายการคำแนะนำผลิตภัณฑ์ อาจจำเป็นต้องใช้หลายชั่วโมงก่อนที่รายการจะพร้อมใช้งาน และสามารถดูได้จากการขายหน้าร้าน (POS) หรือใน Dynamics 365 for Commerce
+> ขั้นตอนนี้จะเริ่มต้นกระบวนการสร้างรายการคำแนะนำผลิตภัณฑ์ อาจจำเป็นต้องใช้หลายชั่วโมงก่อนที่รายการจะพร้อมใช้งาน และสามารถดูได้จากการขายหน้าร้าน (POS) หรือใน Dynamics 365 Commerce
 
 ## <a name="configure-recommendation-list-parameters"></a>ตั้งค่าพารามิเตอร์รายการคำแนะนำ
+
 โดยค่าเริ่มต้นรายการคำแนะนำผลิตภัณฑ์ที่ใช้ AI-ML จะแสดงค่าที่แนะนำ คุณสามารถเปลี่ยนค่าเริ่มต้นที่แนะนำเพื่อให้เหมาะสมกับกระบวนการทางธุรกิจของคุณ เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเปลี่ยนพารามิเตอร์เริ่มต้นให้ไปที่ [การจัดการผลลัพธ์การแนะนำของผลิตภัณฑ์ที่ใช้ AI-ML](modify-product-recommendation-results.md)
 
 ## <a name="show-recommendations-on-pos-devices"></a>แสดงคำแนะนำบนอุปกรณ์ POS
-หลังจากเปิดใช้งานคำแนะนำในฝ่ายสนับสนุน แล้วคุณต้องเพิ่มแผงคำแนะนำให้กับหน้าจอ POS ควบคุมผ่านทางเครื่องมือโครงร่าง หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับขั้นตอนนี้ให้ไป [ที่นี่](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen)
 
+หลังจากเปิดใช้งานคำแนะนำในแผนกสนับสนุน (Back Office) เชิงพาณิชย์จะต้องเพิ่มแผงคำแนะนำลงในหน้าจอการควบคุม POS โดยใช้เครื่องมือเค้าโครง หากต้องการเรียนรู้เกี่ยวกับกระบวนการนี้ ให้ดู [เพิ่มการควบคุมคำแนะนำให้กับหน้าจอธุรกรรมบนอุปกรณ์ POS](add-recommendations-control-pos-screen.md) 
+
+## <a name="enable-personalized-recommendations"></a>เปิดใช้งานคำแนะนำแบบส่วนตัว
+
+เรียนรู้เพิ่มเติมเกี่ยวกับวิธีรับคำแนะนำแบบส่วนตัว โปรดดู [เปิดใช้งานคำแนะนำแบบส่วนตัว](personalized-recommendations.md)
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
+[เปิดใช้งานคำแนะนำแบบส่วนตัว](personalized-recommendations.md)
+
 [เพิ่มรายการคำแนะนำผลิตภัณฑ์ลงในหน้า](add-reco-list-to-page.md)
 
-[เพิ่มแผงคำแนะนำลงในอุปกรณ์ POS](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen)
+[เพิ่มแผงคำแนะนำลงในอุปกรณ์ POS](add-recommendations-control-pos-screen.md)
 
+[ภาพรวมโมดูลการรวบรวมผลิตภัณฑ์](product-collection-module-overview.md)
+
+[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365](enable-ADLS-environment.md)
 

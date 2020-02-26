@@ -1,9 +1,9 @@
 ---
 title: คุณลักษณะที่ถูกเอาออกหรือเลิกใช้ใน Lifecycle Services (LCS)
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่วางแผนไว้ว่าจะลบออกจาก Microsoft Dynamics Lifecycle Services (LCS)
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885466"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027991"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>คุณลักษณะที่ถูกเอาออกหรือเลิกใช้ใน Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ ms.locfileid: "2885466"
 </tr>
 <tr>
 <td><strong>สถานะ</strong></td>
-<td>ไม่สนับสนุน: ส่วนประกอบไดอะแกรมแผนผังลำดับงานใน BPM ถูกคาดว่าจะถูกลบออกในช่วงต้นเดือนกุมภาพันธ์ 2020 ฟังก์ชันการทำงานต่อไปนี้จะถูกลบออก:
+<td>ไม่สนับสนุน: ส่วนประกอบไดอะแกรมแผนผังลำดับงานใน BPM ถูกคาดว่าจะถูกลบออกในปี 2020 ฟังก์ชันการทำงานต่อไปนี้จะถูกลบออก:
 <ul>
 <li>แผนผังลำดับงานที่มีอยู่จะไม่สามารถดูหรือแก้ไขได้ นอกจากนี้ คุณสมบัติรูปร่างที่เกี่ยวข้องกับกิจกรรมแผนผังลำดับงานจะยังไม่พร้อมใช้เนื่องจากแท็บ <strong>แผนผังลำดับงาน</strong> จะถูกเอาออก แผนผังลำดับงานเหล่านี้รวมทั้งแผนผังลำดับงานเริ่มต้นที่ถูกสร้างขึ้นโดยอัตโนมัติและแผนผังลำดับงานที่กำหนดเองที่มีการปรับเปลี่ยนตามแผนผังลำดับงานเริ่มต้นเหล่านั้น</li>
 <li>คุณลักษณะการวิเคราะห์ความเหมาะสม/ช่องว่างแบบดั้งเดิมจะไม่พร้อมใช้งาน ดังนั้น จึงไม่มีการสร้างรายการช่องว่างโดยอัตโนมัติหรือพร้อมใช้งานสำหรับการส่งออก

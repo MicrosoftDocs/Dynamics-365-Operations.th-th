@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897798"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006505"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (6 สิงหาคม 2019)
 
@@ -59,4 +59,4 @@ ms.locfileid: "2897798"
 
 ### <a name="platform-update-29-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 29 (ตุลาคม 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations ดูที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 29 (ตุลาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)

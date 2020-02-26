@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248744"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005620"
 ---
 # <a name="my-team-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
 
@@ -28,7 +28,7 @@ ms.locfileid: "2248744"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ทีมงานของฉัน** พื้นที่ทำงานนี้จะทำให้ผู้จัดการดูรายงานโดยตรงและพนักงานโดยรวมได้ คุณสามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
 
 ## <a name="overview"></a>ภาพรวม 
 พื้นที่ทำงานบนมือถือ **ทีมงานของฉัน** ช่วยให้ผู้จัดการทำงานเหล่านี้ได้:
@@ -52,12 +52,12 @@ ms.locfileid: "2248744"
 <tbody>
 <tr class="odd">
 <td>จะต้องนำผลิตภัณฑ์ต่อไปนี้อย่างใดอย่างหนึ่งไปใช้ในองค์กรของคุณ:
-<ul><li>แอพ Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<ul><li>แอป Finance and Operations</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณไม่&#39;มีแอพ Finance and Operations ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มี Talent ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://www.microsoft.com/dynamics365/talent">เว็บเพจ Talent</a>
+<td>ถ้าคุณไม่&#39;มีแอป Finance and Operations ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มีทรัพยากรบุคคลที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://dynamics.microsoft.com/human-resources/overview/">เว็บเพจทรัพยากรบุคคล</a>
 </td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ ms.locfileid: "2248744"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
+ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

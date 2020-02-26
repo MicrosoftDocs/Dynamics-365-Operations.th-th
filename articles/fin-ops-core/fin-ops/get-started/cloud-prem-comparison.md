@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935398"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005737"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>การเปรียบเทียบคุณสมบัติบนระบบคลาวด์และในสถานที่
 
@@ -32,8 +32,8 @@ ms.locfileid: "2935398"
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 ข้อมูลเกี่ยวกับ [คุณลักษณะการพัฒนาและการจัดการ](cloud-prem-comparison.md#development-and-administration-features) จะรวมอยู่ด้วย
 
@@ -45,8 +45,7 @@ ms.locfileid: "2935398"
 |---------------------|-----------------------------|-----------|-----------------|
 | การปฏิบัติตามกฎระเบียบและใบรับรอง        |                                                                                           | ใช่       | ใช่             |
 |                                      | ใบรับรอง SOC 1 ชนิด 1                                                                | ใช่       | ไม่              |
-| การจัดการและการรวมข้อมูล      |                                                                                           | ใช่       | ใช่             |
-|                                      | ส่วนขยายที่ควบคุมโดยการตั้งค่าคอนฟิก                                                            | ใช่       | หมายเลข              |
+| การจัดการและการรวมข้อมูล      |                                                                                           | ใช่       | ใช่             
 |                                      | ส่งออกข้อมูลไปยังคลังข้อมูลของคุณเอง                                                    | ใช่       | ใช่             |
 |                                      | เปิดใช้งานการส่งออกการอัพเดตที่เพิ่มขึ้นไปยังเอนทิตี้ข้อมูล                                 | ใช่       | ใช่              |
 |                                      | การรวมข้อมูล                                                                         | ใช่       | ใช่             |
@@ -146,15 +145,15 @@ ms.locfileid: "2935398"
 | การสนับสนุน                              |                                                                                           | ใช่       | ใช่             |
 |                                      | การเข้าถึงการสนับสนุนโดยใช้เมนูวิธีใช้และการสนับสนุน                                             | ใช่       | ไม่              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-เมื่อต้องการดูรายการของความสามารถในการขายปลีกที่มีอยู่ในการปรับใช้ on-premises ดู [ความสามารถ Retail ที่มีอยู่ในการจัดวางในการปรับใช้ on-premises](../../../retail/retail-onprem.md)
+เมื่อต้องการดูรายการของความสามารถที่มีอยู่ในการปรับใช้ on-premises ดู [ความสามารถ Retail ที่มีอยู่ในการจัดวางในการปรับใช้ on-premises](../../../retail/retail-onprem.md)
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **ขอบเขต**         | **คุณลักษณะ**         | **ระบบคลาวด์** | **แบบในสถานที่** |
 |------------------|---------------------|-----------|-----------------|
-| พื้นที่ Talent ทั้งหมด | คุณลักษณะ Talent ทั้งหมด | ใช่       | ไม่              |
+| พื้นที่ทรัพยากรบุคคลทั้งหมด | คุณลักษณะทรัพยากรบุคคลทั้งหมด | ใช่       | ไม่              |
 
 ## <a name="development-and-administration-features"></a>คุณลักษณะการพัฒนาและการจัดการ
 

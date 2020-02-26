@@ -1,45 +1,57 @@
-- name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
+- name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
   items:
-    - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
+    - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
       items:
         - name: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
           href: ../fin-ops/index.md
-        - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
+        - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
           href: index.md
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
           items:
-            - name: ดูตัวอย่างคุณลักษณะใน Platform update 32 (กุมภาพันธ์ 2020)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31 (มกราคม 2020)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (พฤศจิกายน 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (ตุลาคม 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (กรกฎาคม 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (มิถุนายน 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (พฤษภาคม 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (เมษายน 2019)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (มีนาคม 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (มกราคม 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (ธันวาคม 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (พฤศจิกายน 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (กันยายน 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (มีนาคม 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในเวอร์ชันก่อนหน้า
+            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
               items:
-                - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปใน Finance and Operations
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33 (เมษายน 2020)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32 (กุมภาพันธ์ 2020)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31 (มกราคม 2020)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Platform update 30 (พฤศจิกายน 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29 (ตุลาคม 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28 (กรกฎาคม 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27 (มิถุนายน 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26 (พฤษภาคม 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25 (เมษายน 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24 (มีนาคม 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23 (มกราคม 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22 (ธันวาคม 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21 (พฤศจิกายน 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20 (กันยายน 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15 (มีนาคม 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: เหตุการณ์ทางธุรกิจ
           items:
             - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
@@ -133,42 +145,42 @@
                     - name: การรวมสองทิศทางแบบซิงโครนัส
                       items:
                         - name: การรวมข้อมูลแบบใกล้เวลาจริง
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: ลำดับชั้นขององค์กรใน Common Data Service
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: การรวมบริษัท
                           items:
-                            - name: แนวคิดของบริษัทใน Common Data Service
-                              href: data-entities/dual-write-company.md
+                            - name: แนวคิดของบริษัทใน Common Data Services
+                              href: data-entities/dual-write/company-data.md
                             - name: การเริ่มต้นระบบด้วยข้อมูลของบริษัท
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: ข้อมูลหลักของลูกค้าแบบรวม
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: บัญชีแยกประเภทแบบรวม
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: การรวมผู้จัดจำหน่าย
                           items:
                             - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: สลับการออกแบบของผู้จัดจำหน่าย
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: ไซต์และคลังสินค้าแบบรวม
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: ข้อมูลหลักของภาษีแบบรวม
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: การซิงโครไนส์ครั้งแรก
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: การแก้ไขปัญหาการรวมข้อมูล
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: การรวมสองทิศทางแบบอะซิงโครนัส
                       items:
                         - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
                           items:
                             - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าใน Finance and Operations
+                            - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                             - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -178,7 +190,7 @@
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                             - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
+                            - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                           items:
@@ -200,7 +212,7 @@
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                             - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
+                            - name: ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                         - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                           items:
@@ -490,11 +502,11 @@
                   href: dev-tools/development-tools-overview.md
                 - name: บทช่วยสอนเครื่องมือการพัฒนา
                   href: dev-tools/introduction-visual-studio.md
-                - name: ตัวตรวจสอบแอพลิเคชัน
+                - name: ตัวตรวจสอบแอปพลิเคชัน
                   items:
-                    - name: ติดตั้ง BaseX สำหรับตัวตรวจสอบแอพลิเคชัน
+                    - name: ติดตั้ง BaseX สำหรับตัวตรวจสอบแอปพลิเคชัน
                       href: dev-tools/install-basex.md
-                - name: ตัวสำรวจแอพลิเคชัน
+                - name: ตัวสำรวจแอปพลิเคชัน
                   href: dev-tools/application-explorer.md
                 - name: สร้างและดีบักโครงการ
                   href: dev-tools/build-debug-project.md
@@ -522,7 +534,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: แบบจำลองและแพคเกจ
                   href: dev-tools/models.md
-                - name: ชนิดโครงการใน Finance and Operations
+                - name: ชนิดโครงการ Finance and Operations
                   href: dev-tools/projects.md
                 - name: Add-in ของเครื่องมือสำหรับ Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: จัดการการเข้าถึงข้อมูลที่สำคัญ
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Talent
+                - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใช้ Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: ตอบสนองต่อคำขอข้อมูลส่วนบุคคลโดยใน AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1020,7 +1032,7 @@
                   href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
                 - name: แสดงจำนวนในฟิลด์
                   href: mobile-apps/platform/scenarios/display-count-workspace.md
-                - name: ช่วยรักษาความปลอดภัยของพื้นที่ทำงานบนมือถือ
+                - name: ช่วยรักษาความปลอดภัยของพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่
                   href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
                 - name: แปลพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่เป็นภาษาท้องถิ่น
                   href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
@@ -1258,11 +1270,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: การสนับสนุน
           items:
-            - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
+            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
             - name: ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service
               href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
@@ -1348,7 +1360,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: การอัปเกรดจาก AX 2012
               items:
-                - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
+                - name: การอัปเกรดจาก AX 2012 เป็น Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1416,13 +1428,13 @@
                   href: dev-tools/model-split.md
                 - name: แก้ไขการอ้างอิงระหว่างแบบจำลองโดยใช้การมอบหมาย
                   href: migration-upgrade/delegates-migration.md
-            - name: อัพเกรดเป็นการอัปเดตล่าสุด (ระบบคลาวด์)
+            - name: อัปเกรดเป็นการอัปเดตล่าสุด (ระบบคลาวด์)
               items:
                 - name: กระบวนการสำหรับการย้ายเข้าสู่การอัปเดตล่าสุด
                   href: migration-upgrade/upgrade-latest-update.md
                 - name: เส้นทางไปยังรุ่นหนึ่ง
                   items:
-                    - name: การอัพเกรดแบบบริการตนเองเป็นรุ่นล่าสุด
+                    - name: การอัปเกรดแบบบริการตนเองเป็นรุ่นล่าสุด
                       href: migration-upgrade/self-service-upgrade.md
                     - name: สร้างใหม่และอัปเดตเป็นรุ่นล่าสุด
                       href: migration-upgrade/appupdate-80-81.md
@@ -1666,11 +1678,13 @@
                   href: user-interface/task-recorder.md
                 - name: การอ้างอิงด่วนของตัวบันทึกงาน
                   href: user-interface/task-recorder-quick-reference.md
-                - name: สร้างเอกสารหรือการฝึกอบรมด้วยการบันทึกงาน
+                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน
                   href: user-interface/task-recorder-training-docs.md
     - name: Dynamics 365 Supply Chain Management
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

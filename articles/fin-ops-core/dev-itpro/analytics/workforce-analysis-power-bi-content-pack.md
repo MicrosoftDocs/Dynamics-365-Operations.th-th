@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 868b0781a84d345297ab40b1a423272e47d50ec5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 263fa2fc97e39b0521407d3fdc5a6d6e3f2ca034
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249169"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005767"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>เนื้อหา Power BI ของการวัดของพนักงาน
 
@@ -35,7 +35,7 @@ ms.locfileid: "2249169"
 เนื้อหา Power BI ของ **การวัดของพนักงาน** ปรากฎในพื้นที่ทำงาน **การจัดการส่วนบุคคล** ถ้าคุณใช้หนึ่งในผลิตภัณฑ์เหล่านี้
 
 - Microsoft Dynamics 365 Finance
-- Microsoft Dynamics 365 Talent
+- Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>เมตริกที่รวมอยู่ในชุดเนื้อหา Power BI
 ตารางต่อไปนี้แสดงรายการเมตริกซ์ที่แสดงอยู่ในแต่ละหน้ารายงาน
@@ -61,7 +61,7 @@ ms.locfileid: "2249169"
 ต้องแน่ใจว่าดาวน์โหลดเนื้อหา Power BI ของ **การวัดของพนักงาน** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 
 > [!NOTE]
-> ไฟล์ .pbix พร้อมใช้งานใน Lifecycle Services นำไปใช้ได้กับแอป Finance and Operations เท่านั้น
+> ไฟล์ .pbix ที่พร้อมใช้งานใน Lifecycle Services นำไปใช้กับแอป Finance and Operations เท่านั้น
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 ตารางต่อไปนี้แสดงเอนทิตีที่เนื้อหายึดตาม

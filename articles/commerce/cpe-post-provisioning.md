@@ -1,5 +1,5 @@
 ---
-title: กำหนดค่าสภาพแวดล้อมการแสดงตัวอย่างของ Commerce
+title: ตั้งค่าคอนฟิกสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce
 description: หัวข้อนี้อธิบายวิธีการกำหนดค่าคุณลักษณะเสริมสำหรับสภาพแวดล้อมการดูตัวอย่างของ Microsoft Dynamics 365 Commerce หลังจากเตรียมใช้งาน
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024717"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>กำหนดค่าสภาพแวดล้อมการแสดงตัวอย่างของ Commerce
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>ตั้งค่าคอนฟิกสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการกำหนดค่าคุณลักษณะเสริมสำหรับสภาพแวดล้อมการดูตัวอย่างของ Microsoft Dynamics 365 Commerce หลังจากเตรียมใช้งาน
@@ -142,13 +142,13 @@ ms.locfileid: "2906150"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมของสภาพแวดล้อมการแสดงตัวอย่างของ Commerce](cpe-overview.md)
+[ภาพรวมของสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-overview.md)
 
-[เตรียมใช้งานสภาพแวดล้อมการแสดงตัวอย่างของ Commerce](provisioning-guide.md)
+[เตรียมใช้งานสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](provisioning-guide.md)
 
-[กำหนดค่าคุณลักษณะเสริมสำหรับสภาพแวดล้อมการแสดงตัวอย่างของ Commerce](cpe-optional-features.md)
+[ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-optional-features.md)
 
-[FAQ เกี่ยวกับสภาพแวดล้อมการแสดงตัวอย่างของ Commerce](cpe-faq.md)
+[FAQ เกี่ยวกับสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ ms.locfileid: "2906150"
 [พอร์ทัล Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [เว็บไซต์ Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[แหล่งข้อมูลความช่วยเหลือสำหรับ Dynamics 365 Retail](../retail/index.md)

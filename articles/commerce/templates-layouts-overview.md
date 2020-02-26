@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914852"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002693"
 ---
 # <a name="templates-and-layouts-overview"></a>ภาพรวมของเท็มเพลตและเค้าโครง
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 เท็มเพลตจะเป็นองค์ประกอบพื้นฐานของโมเดลหน้า Microsoft Dynamics 365 Commerce ถ้าเป้าหมายของคุณคือเพื่อเพิ่มประสิทธิภาพและความสม่ำเสมอสำหรับลลำดับงานการสร้างไซต์ให้สูงสุด เป็นเรื่องสำคัญอย่างยิ่งที่คุณจะเรียนรู้วิธีการใช้ประโยชน์จากเท็มเพลตสำหรับเว็บไซต์ของคุณ การตัดสินใจก่อนหน้านี้เกี่ยวกับโครงสร้างเท็มเพลตมีความสำคัญและสามารถส่งผลกระทบต่อต้นทุนและความคล่องตัวสำหรับการปรับปรุงแบรนด์ทั้งแบบรายวัน ตามฤดูกาล และแบรนด์ทั่วทั้งไซต์อย่างมาก เท็มเพลตที่มีโครงสร้างแบบดีมีประโยชน์อื่นๆ ด้วยเช่นกัน ตัวอย่างเช่น จะช่วยปรับปรุงประสิทธิภาพการทำงานของโปรแกรมค้นหาแบบทั่วทั้งไซต์ (SEO) และลดจำนวนข้อผิดพลาด

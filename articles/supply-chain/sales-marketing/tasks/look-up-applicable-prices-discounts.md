@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835604"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025839"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>ค้นหาราคาและส่วนลดที่เกี่ยวข้อง
 
@@ -49,7 +49,7 @@ ms.locfileid: "1835604"
 10. ปิดหน้า
 
 ## <a name="find-the-applicable-discount"></a>ค้นหาส่วนลดที่เกี่ยวข้อง
-    * ตรวจสอบว่า ฟิลด์บัญชีลูกค้าประกอบด้วยหมายเลขลูกค้า US-001   
+ตรวจสอบว่า ฟิลด์บัญชีลูกค้าประกอบด้วยหมายเลขลูกค้า US-001   
 1. ในฟิลด์ หมายเลขสินค้า ให้พิมพ์ 'T0012'
     * ตรวจสอบให้แน่ใจว่า ฟิลด์ปริมาณถูกตั้งค่าเป็น 1  
     * รายละเอียดราคาต่อไปนี้แสดงสำหรับผลิตภัณฑ์ T0012 มาจากข้อตกลงทางการค้าหนึ่งข้อตกลงหรือหลายข้อตกลง: ราคาต่อหน่วยคือ CAD 1000 และเปอร์เซ็นต์ส่วนลดเป็น 5  

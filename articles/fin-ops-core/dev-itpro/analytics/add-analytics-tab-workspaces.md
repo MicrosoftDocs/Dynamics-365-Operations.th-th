@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771644"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025865"
 ---
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> คุณลักษณะนี้ได้รับการสนับสนุนใน Finance and Operations (รุ่น 7.2 และใหม่กว่า)
+> คุณลักษณะนี้ได้รับการสนับสนุนใน Finance and Operations (รุ่น 7.2 และรุ่นที่ใหม่กว่า)
 
 ## <a name="introduction"></a>คำนำ
 หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI ในแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
@@ -111,7 +111,7 @@ ms.locfileid: "2771644"
 2. กด F7 เพื่อเข้าถึงรหัสเบื้องหลังคำนิยามของรหัส
 3. ให้เพิ่มรหัส X++ ต่อไปนี้
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ ms.locfileid: "2771644"
 ส่วนนี้ให้ช้อมูลเกี่ยวกับคลาสตัวช่วยเหลือที่ถูกใช้เพื่อฝังรายงาน Power BI (ทรัพยากร .pbix) ในการควบคุมกลุ่มฟอร์ม
 
 #### <a name="syntax"></a>ไวยากรณ์
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,
