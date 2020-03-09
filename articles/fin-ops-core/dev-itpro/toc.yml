@@ -45,10 +45,14 @@
                 - name: Platform update 15 (มีนาคม 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนในรุ่นก่อนหน้า
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่
+            - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
               href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: การรวมสองทิศทางแบบซิงโครนัส
                       items:
-                        - name: การรวมข้อมูลแบบใกล้เวลาจริง
+                        - name: โฮมเพจการรวมแบบสองทิศทาง
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: ภาพรวมของการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: ลำดับชั้นขององค์กรใน Common Data Service
                           href: data-entities/dual-write/organization-mapping.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS สำหรับคู่ค้า
                   href: lifecycle-services/getting-started-lcs.md
-                - name: มีอะไรใหม่
+                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: ปัญหาที่ทราบ
                   href: lifecycle-services/known-issues.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md
