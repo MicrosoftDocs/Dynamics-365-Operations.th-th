@@ -18,91 +18,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d68784524a5639d8d447daa2cda940680d795542
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fbe5e5ac17af743f8293e4255d9713b528182f66
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915843"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041319"
 ---
-# <span data-ttu-id="a13d7-103"><a name="NUMSEQVALUE">ฟังก์ชัน NUMSEQVALUE ER</a></span><span class="sxs-lookup"><span data-stu-id="a13d7-103"><a name="NUMSEQVALUE">NUMSEQVALUE ER function</a></span></span>
+# <span data-ttu-id="baa59-103"><a name="NUMSEQVALUE">ฟังก์ชัน NUMSEQVALUE ER</a></span><span class="sxs-lookup"><span data-stu-id="baa59-103"><a name="NUMSEQVALUE">NUMSEQVALUE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a13d7-104">ฟังก์ชัน `NUMSEQVALUE` ส่งกลับค่า *สตริง* ที่แสดงถึงค่าที่สร้างขึ้นใหม่ของลำดับหมายเลข ตามลำดับหมายเลข ขอบเขต และรหัสขอบเขตที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="a13d7-104">The `NUMSEQVALUE` function returns a *String* value that represents the new generated value of a number sequence, based on the specified number sequence, scope, and scope ID.</span></span> <span data-ttu-id="a13d7-105">รหัสขอบเขตจะเท่ากับรหัสบริษัทที่จัดหาโดยบริบทที่เรียกใช้รูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="a13d7-105">The scope ID equals the company code that is supplied by the context that the Electronic reporting (ER) format is run under.</span></span>
+<span data-ttu-id="baa59-104">ฟังก์ชัน `NUMSEQVALUE` ส่งกลับค่า *สตริง* ที่แสดงถึงค่าที่สร้างขึ้นใหม่ของลำดับหมายเลข ตามลำดับหมายเลข ขอบเขต และรหัสขอบเขตที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="baa59-104">The `NUMSEQVALUE` function returns a *String* value that represents the new generated value of a number sequence, based on the specified number sequence, scope, and scope ID.</span></span> <span data-ttu-id="baa59-105">รหัสขอบเขตจะเท่ากับรหัสบริษัทที่จัดหาโดยบริบทที่เรียกใช้รูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="baa59-105">The scope ID equals the company code that is supplied by the context that the Electronic reporting (ER) format is run under.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="a13d7-106">ไวยากรณ์ 1</span><span class="sxs-lookup"><span data-stu-id="a13d7-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="baa59-106">ไวยากรณ์ 1</span><span class="sxs-lookup"><span data-stu-id="baa59-106">Syntax 1</span></span>
 
-```
+```vb
 NUMSEQVALUE (number sequence code)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="a13d7-107">ไวยากรณ์ 2</span><span class="sxs-lookup"><span data-stu-id="a13d7-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="baa59-107">ไวยากรณ์ 2</span><span class="sxs-lookup"><span data-stu-id="baa59-107">Syntax 2</span></span>
 
-```
+```vb
 NUMSEQVALUE (number sequence record ID)
 ```
 
-## <a name="syntax-3"></a><span data-ttu-id="a13d7-108">ไวยากรณ์ 3</span><span class="sxs-lookup"><span data-stu-id="a13d7-108">Syntax 3</span></span>
+## <a name="syntax-3"></a><span data-ttu-id="baa59-108">ไวยากรณ์ 3</span><span class="sxs-lookup"><span data-stu-id="baa59-108">Syntax 3</span></span>
 
-```
+```vb
 NUMSEQVALUE (number sequence code, scope type, scope ID)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="a13d7-109">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="a13d7-109">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="baa59-109">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="baa59-109">Arguments</span></span>
 
-<span data-ttu-id="a13d7-110">`number sequence code`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="a13d7-110">`number sequence code`: *String*</span></span>
+<span data-ttu-id="baa59-110">`number sequence code`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="baa59-110">`number sequence code`: *String*</span></span>
 
-<span data-ttu-id="a13d7-111">ค่าข้อความที่แสดงรหัสของลำดับหมายเลขที่จำเป็นต้องใช้ค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="a13d7-111">A text value that represents the code of the number sequence that a new value is required in.</span></span>
+<span data-ttu-id="baa59-111">ค่าข้อความที่แสดงรหัสของลำดับหมายเลขที่จำเป็นต้องใช้ค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="baa59-111">A text value that represents the code of the number sequence that a new value is required in.</span></span>
 
-<span data-ttu-id="a13d7-112">`number sequence record ID`: *Int64*</span><span class="sxs-lookup"><span data-stu-id="a13d7-112">`number sequence record ID`: *Int64*</span></span>
+<span data-ttu-id="baa59-112">`number sequence record ID`: *Int64*</span><span class="sxs-lookup"><span data-stu-id="baa59-112">`number sequence record ID`: *Int64*</span></span>
 
-<span data-ttu-id="a13d7-113">ค่า *Int64* ที่แสดงถึงรหัสเรกคอร์ดของเรกคอร์ดในตาราง NumberSequenceTable ที่มีคำนิยามของลำดับหมายเลขที่จำเป็นต้องใช้ค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="a13d7-113">An *Int64* value that represents the record ID of a record in the NumberSequenceTable table that contains the definition of the number sequence that a new value is required in.</span></span>
+<span data-ttu-id="baa59-113">ค่า *Int64* ที่แสดงถึงรหัสเรกคอร์ดของเรกคอร์ดในตาราง NumberSequenceTable ที่มีคำนิยามของลำดับหมายเลขที่จำเป็นต้องใช้ค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="baa59-113">An *Int64* value that represents the record ID of a record in the NumberSequenceTable table that contains the definition of the number sequence that a new value is required in.</span></span>
 
-<span data-ttu-id="a13d7-114">`scope type`: *ค่า Enum*</span><span class="sxs-lookup"><span data-stu-id="a13d7-114">`scope type`: *Enum value*</span></span>
+<span data-ttu-id="baa59-114">`scope type`: *ค่า Enum*</span><span class="sxs-lookup"><span data-stu-id="baa59-114">`scope type`: *Enum value*</span></span>
 
-<span data-ttu-id="a13d7-115">ค่าการแจงนับของการแจงนับ **ERExpressionNumberSequenceScopeType** ที่กำหนดขอบเขตของลำดับหมายเลขที่จำเป็นต้องใช้ค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="a13d7-115">An enumeration value of the **ERExpressionNumberSequenceScopeType** enumeration that defines the scope of the number sequence that a new value is required in.</span></span> <span data-ttu-id="a13d7-116">ชนิดขอบเขตที่พร้อมใช้งานจะ **ถูกใช้ร่วมกัน** **นิติบุคคล** และ **บริษัท**</span><span class="sxs-lookup"><span data-stu-id="a13d7-116">The available scope types are **Shared**, **Legal entity**, and **Company**.</span></span>
+<span data-ttu-id="baa59-115">ค่าการแจงนับของการแจงนับ **ERExpressionNumberSequenceScopeType** ที่กำหนดขอบเขตของลำดับหมายเลขที่จำเป็นต้องใช้ค่าใหม่</span><span class="sxs-lookup"><span data-stu-id="baa59-115">An enumeration value of the **ERExpressionNumberSequenceScopeType** enumeration that defines the scope of the number sequence that a new value is required in.</span></span> <span data-ttu-id="baa59-116">ชนิดขอบเขตที่พร้อมใช้งานจะ **ถูกใช้ร่วมกัน** **นิติบุคคล** และ **บริษัท**</span><span class="sxs-lookup"><span data-stu-id="baa59-116">The available scope types are **Shared**, **Legal entity**, and **Company**.</span></span>
 
-<span data-ttu-id="a13d7-117">`scope ID`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="a13d7-117">`scope ID`: *String*</span></span>
+<span data-ttu-id="baa59-117">`scope ID`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="baa59-117">`scope ID`: *String*</span></span>
 
-<span data-ttu-id="a13d7-118">ค่า *สตริง* ที่ระบุขอบเขต ตามชนิดขอบเขตที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="a13d7-118">A *String* value that identifies the scope, based on the specified scope type.</span></span>
+<span data-ttu-id="baa59-118">ค่า *สตริง* ที่ระบุขอบเขต ตามชนิดขอบเขตที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="baa59-118">A *String* value that identifies the scope, based on the specified scope type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="a13d7-119">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="a13d7-119">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="baa59-119">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="baa59-119">Return values</span></span>
 
-<span data-ttu-id="a13d7-120">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="a13d7-120">*String*</span></span>
+<span data-ttu-id="baa59-120">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="baa59-120">*String*</span></span>
 
-<span data-ttu-id="a13d7-121">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="a13d7-121">The resulting text value.</span></span>
+<span data-ttu-id="baa59-121">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="baa59-121">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="a13d7-122">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="a13d7-122">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="baa59-122">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="baa59-122">Usage notes</span></span>
 
-<span data-ttu-id="a13d7-123">สำหรับชนิดขอบข่าย **ที่ใช้ร่วมกัน** ระบุสตริงที่ว่างเป็นรหัสขอบเขต</span><span class="sxs-lookup"><span data-stu-id="a13d7-123">For the **Shared** scope type, specify an empty string as the scope ID.</span></span>
+<span data-ttu-id="baa59-123">สำหรับชนิดขอบข่าย **ที่ใช้ร่วมกัน** ระบุสตริงที่ว่างเป็นรหัสขอบเขต</span><span class="sxs-lookup"><span data-stu-id="baa59-123">For the **Shared** scope type, specify an empty string as the scope ID.</span></span>
 
-<span data-ttu-id="a13d7-124">สำหรับชนิดขอบเขต **บริษัท** และ **นิติบุคคล** ระบุรหัสบริษัทเป็นรหัสขอบเขต</span><span class="sxs-lookup"><span data-stu-id="a13d7-124">For the **Company** and **Legal entity** scope types, specify the company code as the scope ID.</span></span> <span data-ttu-id="a13d7-125">ถ้าคุณระบุสตริงที่ว่างเป็นรหัสขอบเขตสำหรับชนิดขอบเขตนี้ จะมีการใช้รหัสบริษัทปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="a13d7-125">If you specify an empty string as the scope ID for these scope types, the current company code is used.</span></span>
+<span data-ttu-id="baa59-124">สำหรับชนิดขอบเขต **บริษัท** และ **นิติบุคคล** ระบุรหัสบริษัทเป็นรหัสขอบเขต</span><span class="sxs-lookup"><span data-stu-id="baa59-124">For the **Company** and **Legal entity** scope types, specify the company code as the scope ID.</span></span> <span data-ttu-id="baa59-125">ถ้าคุณระบุสตริงที่ว่างเป็นรหัสขอบเขตสำหรับชนิดขอบเขตนี้ จะมีการใช้รหัสบริษัทปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="baa59-125">If you specify an empty string as the scope ID for these scope types, the current company code is used.</span></span>
 
-<span data-ttu-id="a13d7-126">เมื่อมีการใช้ไวยากรณ์ 1 ลำดับหมายเลขจะถูกร้องขอสำหรับชนิดขอบเขตของ **บริษัท** และรหัสบริษัทจะถูกจัดหาโดยบริบทที่มีการรันรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="a13d7-126">When syntax 1 is used, the number sequence is requested for the **Company** scope type, and the company code is supplied by the context that the ER format is run under.</span></span>
+<span data-ttu-id="baa59-126">เมื่อมีการใช้ไวยากรณ์ 1 ลำดับหมายเลขจะถูกร้องขอสำหรับชนิดขอบเขตของ **บริษัท** และรหัสบริษัทจะถูกจัดหาโดยบริบทที่มีการรันรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="baa59-126">When syntax 1 is used, the number sequence is requested for the **Company** scope type, and the company code is supplied by the context that the ER format is run under.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="a13d7-127">ตัวอย่างที่ 1</span><span class="sxs-lookup"><span data-stu-id="a13d7-127">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="baa59-127">ตัวอย่างที่ 1</span><span class="sxs-lookup"><span data-stu-id="baa59-127">Example 1</span></span>
 
-<span data-ttu-id="a13d7-128">ในรูปแบบ ER ของคุณ คุณสามารถกำหนดแหล่งข้อมูล **AskNumSeq** ของชนิด *พารามิเตอร์ป้อนเข้าของผู้ใช้*</span><span class="sxs-lookup"><span data-stu-id="a13d7-128">In your ER format, you define the **AskNumSeq** data source of the *User input parameter* type.</span></span> <span data-ttu-id="a13d7-129">แหล่งข้อมูลนี้อ้างอิงถึงชนิดข้อมูลแบบขยาย (EDT) ของ **คำอธิบาย**</span><span class="sxs-lookup"><span data-stu-id="a13d7-129">This data source refers to the **Description** extended data type (EDT).</span></span> <span data-ttu-id="a13d7-130">ถัดไป คุณกำหนดแหล่งข้อมูล **NumSeq** ของชนิดของ *ฟิลด์ที่คำนวณได้*</span><span class="sxs-lookup"><span data-stu-id="a13d7-130">Next, you define the **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="a13d7-131">แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `NUMSEQVALUE (AskNumSeq)`</span><span class="sxs-lookup"><span data-stu-id="a13d7-131">This data source contains the expression `NUMSEQVALUE (AskNumSeq)`.</span></span> <span data-ttu-id="a13d7-132">เมื่อแหล่งข้อมูล **NumSeq** ถูกเรียก จะส่งกลับค่าที่สร้างขึ้นใหม่ของลำดับหมายเลขที่ระบุไว้ในขณะทำงานโดยการป้อนรหัสในกล่องโต้ตอบ</span><span class="sxs-lookup"><span data-stu-id="a13d7-132">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that was specified at runtime by entering its code in the dialog box.</span></span> <span data-ttu-id="a13d7-133">มีการร้องขอลำดับหมายเลขสำหรับชนิดขอบเขตของ **บริษัท**</span><span class="sxs-lookup"><span data-stu-id="a13d7-133">The number sequence is requested for the **Company** scope type.</span></span> <span data-ttu-id="a13d7-134">รหัสบริษัทจะถูกจัดหาโดยบริบทที่มีการรันรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="a13d7-134">The company code is supplied by the context that the ER format is run under.</span></span>
+<span data-ttu-id="baa59-128">ในรูปแบบ ER ของคุณ คุณสามารถกำหนดแหล่งข้อมูล **AskNumSeq** ของชนิด *พารามิเตอร์ป้อนเข้าของผู้ใช้*</span><span class="sxs-lookup"><span data-stu-id="baa59-128">In your ER format, you define the **AskNumSeq** data source of the *User input parameter* type.</span></span> <span data-ttu-id="baa59-129">แหล่งข้อมูลนี้อ้างอิงถึงชนิดข้อมูลแบบขยาย (EDT) ของ **คำอธิบาย**</span><span class="sxs-lookup"><span data-stu-id="baa59-129">This data source refers to the **Description** extended data type (EDT).</span></span> <span data-ttu-id="baa59-130">ถัดไป คุณกำหนดแหล่งข้อมูล **NumSeq** ของชนิดของ *ฟิลด์ที่คำนวณได้*</span><span class="sxs-lookup"><span data-stu-id="baa59-130">Next, you define the **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="baa59-131">แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `NUMSEQVALUE (AskNumSeq)`</span><span class="sxs-lookup"><span data-stu-id="baa59-131">This data source contains the expression `NUMSEQVALUE (AskNumSeq)`.</span></span> <span data-ttu-id="baa59-132">เมื่อแหล่งข้อมูล **NumSeq** ถูกเรียก จะส่งกลับค่าที่สร้างขึ้นใหม่ของลำดับหมายเลขที่ระบุไว้ในขณะทำงานโดยการป้อนรหัสในกล่องโต้ตอบ</span><span class="sxs-lookup"><span data-stu-id="baa59-132">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that was specified at runtime by entering its code in the dialog box.</span></span> <span data-ttu-id="baa59-133">มีการร้องขอลำดับหมายเลขสำหรับชนิดขอบเขตของ **บริษัท**</span><span class="sxs-lookup"><span data-stu-id="baa59-133">The number sequence is requested for the **Company** scope type.</span></span> <span data-ttu-id="baa59-134">รหัสบริษัทจะถูกจัดหาโดยบริบทที่มีการรันรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="baa59-134">The company code is supplied by the context that the ER format is run under.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="a13d7-135">ตัวอย่างที่ 2</span><span class="sxs-lookup"><span data-stu-id="a13d7-135">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="baa59-135">ตัวอย่างที่ 2</span><span class="sxs-lookup"><span data-stu-id="baa59-135">Example 2</span></span>
 
-<span data-ttu-id="a13d7-136">มีการกำหนดแหล่งข้อมูลต่อไปนี้ในการแม็ปแบบจำลองของคุณ:</span><span class="sxs-lookup"><span data-stu-id="a13d7-136">The following data sources are defined in your model mapping:</span></span>
+<span data-ttu-id="baa59-136">มีการกำหนดแหล่งข้อมูลต่อไปนี้ในการแม็ปแบบจำลองของคุณ:</span><span class="sxs-lookup"><span data-stu-id="baa59-136">The following data sources are defined in your model mapping:</span></span>
 
-- <span data-ttu-id="a13d7-137">แหล่งข้อมูล **LedgerParms** ของชนิด *ตาราง*</span><span class="sxs-lookup"><span data-stu-id="a13d7-137">The **LedgerParms** data source of the *Table* type.</span></span> <span data-ttu-id="a13d7-138">แหล่งข้อมูลนี้อ้างถึงตาราง LedgerParameters</span><span class="sxs-lookup"><span data-stu-id="a13d7-138">This data source refers to the LedgerParameters table.</span></span>
-- <span data-ttu-id="a13d7-139">แหล่งข้อมูล **NumSeq** ของชนิดของ *ฟิลด์ที่คำนวณได้*</span><span class="sxs-lookup"><span data-stu-id="a13d7-139">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="a13d7-140">แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`</span><span class="sxs-lookup"><span data-stu-id="a13d7-140">This data source contains the expression `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`.</span></span>
+- <span data-ttu-id="baa59-137">แหล่งข้อมูล **LedgerParms** ของชนิด *ตาราง*</span><span class="sxs-lookup"><span data-stu-id="baa59-137">The **LedgerParms** data source of the *Table* type.</span></span> <span data-ttu-id="baa59-138">แหล่งข้อมูลนี้อ้างถึงตาราง LedgerParameters</span><span class="sxs-lookup"><span data-stu-id="baa59-138">This data source refers to the LedgerParameters table.</span></span>
+- <span data-ttu-id="baa59-139">แหล่งข้อมูล **NumSeq** ของชนิดของ *ฟิลด์ที่คำนวณได้*</span><span class="sxs-lookup"><span data-stu-id="baa59-139">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="baa59-140">แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`</span><span class="sxs-lookup"><span data-stu-id="baa59-140">This data source contains the expression `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`.</span></span>
 
-<span data-ttu-id="a13d7-141">เมื่อมีการเรียกแหล่งข้อมูล **NumSeq** จะส่งกลับค่าที่สร้างขึ้นใหม่ของลำดับหมายเลขที่ถูกตั้งค่าคอนฟิกในพารามิเตอร์บัญชีแยกประเภททั่วไป สำหรับบริษัทที่ให้บริบทที่รันเหนือรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="a13d7-141">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that has been configured in the General ledger parameters for the company that supplies the context that the ER format is run under.</span></span> <span data-ttu-id="a13d7-142">ลำดับหมายเลขนี้ระบุสมุดรายวันโดยไม่ซ้ำกัน และทำหน้าที่เป็นหมายเลขชุดงานที่เชื่อมโยงธุรกรรมร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="a13d7-142">This number sequence uniquely identifies journals and acts as a batch number that links the transactions together.</span></span>
+<span data-ttu-id="baa59-141">เมื่อมีการเรียกแหล่งข้อมูล **NumSeq** จะส่งกลับค่าที่สร้างขึ้นใหม่ของลำดับหมายเลขที่ถูกตั้งค่าคอนฟิกในพารามิเตอร์บัญชีแยกประเภททั่วไป สำหรับบริษัทที่ให้บริบทที่รันเหนือรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="baa59-141">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that has been configured in the General ledger parameters for the company that supplies the context that the ER format is run under.</span></span> <span data-ttu-id="baa59-142">ลำดับหมายเลขนี้ระบุสมุดรายวันโดยไม่ซ้ำกัน และทำหน้าที่เป็นหมายเลขชุดงานที่เชื่อมโยงธุรกรรมร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="baa59-142">This number sequence uniquely identifies journals and acts as a batch number that links the transactions together.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="a13d7-143">ตัวอย่างที่ 3</span><span class="sxs-lookup"><span data-stu-id="a13d7-143">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="baa59-143">ตัวอย่างที่ 3</span><span class="sxs-lookup"><span data-stu-id="baa59-143">Example 3</span></span>
 
-<span data-ttu-id="a13d7-144">มีการกำหนดแหล่งข้อมูลต่อไปนี้ในการแม็ปแบบจำลองของคุณ:</span><span class="sxs-lookup"><span data-stu-id="a13d7-144">The following data sources are defined in your model mapping:</span></span>
+<span data-ttu-id="baa59-144">มีการกำหนดแหล่งข้อมูลต่อไปนี้ในการแม็ปแบบจำลองของคุณ:</span><span class="sxs-lookup"><span data-stu-id="baa59-144">The following data sources are defined in your model mapping:</span></span>
 
-- <span data-ttu-id="a13d7-145">แหล่งข้อมูล **enumScope** ของชนิด *การแจงนับ* ของ Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="a13d7-145">The **enumScope** data source of the Microsoft Dynamics 365 Finance *enumeration* type.</span></span> <span data-ttu-id="a13d7-146">แหล่งข้อมูลนี้อ้างอิงถึงการแจงนับ **ERExpressionNumberSequenceScopeType**</span><span class="sxs-lookup"><span data-stu-id="a13d7-146">This data source refers to the **ERExpressionNumberSequenceScopeType** enumeration.</span></span>
-- <span data-ttu-id="a13d7-147">แหล่งข้อมูล **NumSeq** ของชนิดของ *ฟิลด์ที่คำนวณได้*</span><span class="sxs-lookup"><span data-stu-id="a13d7-147">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="a13d7-148">แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`</span><span class="sxs-lookup"><span data-stu-id="a13d7-148">This data source contains the expression `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.</span></span>
+- <span data-ttu-id="baa59-145">แหล่งข้อมูล **enumScope** ของชนิด *การแจงนับ* ของ Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="baa59-145">The **enumScope** data source of the Microsoft Dynamics 365 Finance *enumeration* type.</span></span> <span data-ttu-id="baa59-146">แหล่งข้อมูลนี้อ้างอิงถึงการแจงนับ **ERExpressionNumberSequenceScopeType**</span><span class="sxs-lookup"><span data-stu-id="baa59-146">This data source refers to the **ERExpressionNumberSequenceScopeType** enumeration.</span></span>
+- <span data-ttu-id="baa59-147">แหล่งข้อมูล **NumSeq** ของชนิดของ *ฟิลด์ที่คำนวณได้*</span><span class="sxs-lookup"><span data-stu-id="baa59-147">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="baa59-148">แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`</span><span class="sxs-lookup"><span data-stu-id="baa59-148">This data source contains the expression `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.</span></span>
 
-<span data-ttu-id="a13d7-149">เมื่อมีการเรียกแหล่งข้อมูล **NumSeq** จะส่งกลับค่าที่สร้างขึ้นใหม่ของลำดับหมายเลข **Gene\_1** ที่ถูกตั้งค่าคอนฟิกสำหรับบริษัทที่ให้บริบทที่รันเหนือรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="a13d7-149">When the **NumSeq** data source is called, it returns the new generated value of the **Gene\_1** number sequence that has been configured for the company that supplies the context that the ER format is run under.</span></span>
+<span data-ttu-id="baa59-149">เมื่อมีการเรียกแหล่งข้อมูล **NumSeq** จะส่งกลับค่าที่สร้างขึ้นใหม่ของลำดับหมายเลข **Gene\_1** ที่ถูกตั้งค่าคอนฟิกสำหรับบริษัทที่ให้บริบทที่รันเหนือรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="baa59-149">When the **NumSeq** data source is called, it returns the new generated value of the **Gene\_1** number sequence that has been configured for the company that supplies the context that the ER format is run under.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="a13d7-150">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="a13d7-150">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="baa59-150">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="baa59-150">Additional resources</span></span>
 
-[<span data-ttu-id="a13d7-151">ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)</span><span class="sxs-lookup"><span data-stu-id="a13d7-151">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="baa59-151">ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)</span><span class="sxs-lookup"><span data-stu-id="baa59-151">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)

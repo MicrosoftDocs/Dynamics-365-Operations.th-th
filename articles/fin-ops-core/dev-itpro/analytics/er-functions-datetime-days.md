@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f8c12a22f7654285d5598064473bf86689ed207
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 62e34628712066d92a244676123ce928a468ea9e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916303"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042400"
 ---
-# <span data-ttu-id="f0758-103"><a name="DAYS">ฟังก์ชัน DAYS ER</a></span><span class="sxs-lookup"><span data-stu-id="f0758-103"><a name="DAYS">DAYS ER function</a></span></span>
+# <span data-ttu-id="2210b-103"><a name="DAYS">ฟังก์ชัน DAYS ER</a></span><span class="sxs-lookup"><span data-stu-id="2210b-103"><a name="DAYS">DAYS ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f0758-104">ฟังก์ชัน `DAYS` ส่งคืนค่าที่แสดง *จำนวนเต็ม* ที่แสดงจำนวนของวันระหว่างวันที่ที่ระบุที่หนึ่งกับวันที่ที่ระบุที่สอง</span><span class="sxs-lookup"><span data-stu-id="f0758-104">The `DAYS` function returns an *Integer* value that represents the number of days between one specified date and a second specified date.</span></span>
+<span data-ttu-id="2210b-104">ฟังก์ชัน `DAYS` ส่งคืนค่าที่แสดง *จำนวนเต็ม* ที่แสดงจำนวนของวันระหว่างวันที่ที่ระบุที่หนึ่งกับวันที่ที่ระบุที่สอง</span><span class="sxs-lookup"><span data-stu-id="2210b-104">The `DAYS` function returns an *Integer* value that represents the number of days between one specified date and a second specified date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f0758-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="f0758-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2210b-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="2210b-105">Syntax</span></span>
 
-```
+```vb
 DAYS (date 1, date 2) as Integer
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f0758-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="f0758-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2210b-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="2210b-106">Arguments</span></span>
 
-<span data-ttu-id="f0758-107">`date 1`: *วันที่*</span><span class="sxs-lookup"><span data-stu-id="f0758-107">`date 1`: *Date*</span></span>
+<span data-ttu-id="2210b-107">`date 1`: *วันที่*</span><span class="sxs-lookup"><span data-stu-id="2210b-107">`date 1`: *Date*</span></span>
 
-<span data-ttu-id="f0758-108">ค่าวันที่ที่แสดงถึงวันที่ที่จะใช้สำหรับการคำนวณจำนวนวัน</span><span class="sxs-lookup"><span data-stu-id="f0758-108">A date value that represents the start date for the calculation of the number of days.</span></span>
+<span data-ttu-id="2210b-108">ค่าวันที่ที่แสดงถึงวันที่ที่จะใช้สำหรับการคำนวณจำนวนวัน</span><span class="sxs-lookup"><span data-stu-id="2210b-108">A date value that represents the start date for the calculation of the number of days.</span></span>
 
-<span data-ttu-id="f0758-109">`date 2`: *วันที่*</span><span class="sxs-lookup"><span data-stu-id="f0758-109">`date 2`: *Date*</span></span>
+<span data-ttu-id="2210b-109">`date 2`: *วันที่*</span><span class="sxs-lookup"><span data-stu-id="2210b-109">`date 2`: *Date*</span></span>
 
-<span data-ttu-id="f0758-110">ค่าวันที่ที่แสดงถึงวันที่สิ้นสุดที่จะใช้สำหรับการคำนวณจำนวนวัน</span><span class="sxs-lookup"><span data-stu-id="f0758-110">A date value that represents the end date for the calculation of the number of days.</span></span>
+<span data-ttu-id="2210b-110">ค่าวันที่ที่แสดงถึงวันที่สิ้นสุดที่จะใช้สำหรับการคำนวณจำนวนวัน</span><span class="sxs-lookup"><span data-stu-id="2210b-110">A date value that represents the end date for the calculation of the number of days.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f0758-111">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="f0758-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2210b-111">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="2210b-111">Return values</span></span>
 
-<span data-ttu-id="f0758-112">*จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="f0758-112">*Integer*</span></span>
+<span data-ttu-id="2210b-112">*จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="2210b-112">*Integer*</span></span>
 
-<span data-ttu-id="f0758-113">ค่าตัวเลขที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="f0758-113">The resulting numeric value.</span></span>
+<span data-ttu-id="2210b-113">ค่าตัวเลขที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="2210b-113">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="f0758-114">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="f0758-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="2210b-114">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="2210b-114">Usage notes</span></span>
 
-<span data-ttu-id="f0758-115">ฟังก์ชัน `DAYS` ส่งคืนค่าบวกเมื่อวันที่วันแรกเป็นวันที่หลังจากวันที่ที่สอง ส่งคืน **0** (ศูนย์) เมื่อวันที่วันแรกเท่ากับวันที่ที่สอง หรือส่งคืนค่าลบ เมื่อวันที่วันแรกเป็นวันที่ก่อนวันที่ที่สอง</span><span class="sxs-lookup"><span data-stu-id="f0758-115">The `DAYS` function returns a positive value when the first date is later than the second date, it returns **0** (zero) when the first date equals the second date, and it returns a negative value when the first date is earlier than the second date.</span></span>
+<span data-ttu-id="2210b-115">ฟังก์ชัน `DAYS` ส่งคืนค่าบวกเมื่อวันที่วันแรกเป็นวันที่หลังจากวันที่ที่สอง ส่งคืน **0** (ศูนย์) เมื่อวันที่วันแรกเท่ากับวันที่ที่สอง หรือส่งคืนค่าลบ เมื่อวันที่วันแรกเป็นวันที่ก่อนวันที่ที่สอง</span><span class="sxs-lookup"><span data-stu-id="2210b-115">The `DAYS` function returns a positive value when the first date is later than the second date, it returns **0** (zero) when the first date equals the second date, and it returns a negative value when the first date is earlier than the second date.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f0758-116">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="f0758-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2210b-116">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="2210b-116">Example</span></span>
 
-<span data-ttu-id="f0758-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` ส่งคืน **-1**</span><span class="sxs-lookup"><span data-stu-id="f0758-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` returns **-1**.</span></span>
+<span data-ttu-id="2210b-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` ส่งคืน **-1**</span><span class="sxs-lookup"><span data-stu-id="2210b-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` returns **-1**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f0758-118">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="f0758-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2210b-118">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="2210b-118">Additional resources</span></span>
 
-[<span data-ttu-id="f0758-119">ฟังก์ชันวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="f0758-119">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="2210b-119">ฟังก์ชันวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="2210b-119">Date and time functions</span></span>](er-functions-category-datetime.md)

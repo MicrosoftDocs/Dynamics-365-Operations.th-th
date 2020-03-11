@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99d50313f8097d43b820ffc1c36eef0097e7ec55
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 10a98e98d913b0b4fe36690f7effd5d8d9a3faf4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917200"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041802"
 ---
-# <span data-ttu-id="caa05-103"><a name="STRINGJOIN">ฟังก์ชั่น STRINGJOIN ER</a></span><span class="sxs-lookup"><span data-stu-id="caa05-103"><a name="STRINGJOIN">STRINGJOIN ER function</a></span></span>
+# <span data-ttu-id="485c9-103"><a name="STRINGJOIN">ฟังก์ชั่น STRINGJOIN ER</a></span><span class="sxs-lookup"><span data-stu-id="485c9-103"><a name="STRINGJOIN">STRINGJOIN ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="caa05-104">ฟังก์ชัน `STRINGJOIN` ส่งคืนค่า *สตริง* ที่ประกอบด้วยค่าที่ต่อกันของฟิลด์ที่ระบุจากรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="caa05-104">The `STRINGJOIN` function returns a *String* value that consists of concatenated values of the specified field from the specified list.</span></span> <span data-ttu-id="caa05-105">ค่าสามารถถูกแบ่งด้วยตัวคั่นที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="caa05-105">The values can be separated by the specified delimiter.</span></span>
+<span data-ttu-id="485c9-104">ฟังก์ชัน `STRINGJOIN` ส่งคืนค่า *สตริง* ที่ประกอบด้วยค่าที่ต่อกันของฟิลด์ที่ระบุจากรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="485c9-104">The `STRINGJOIN` function returns a *String* value that consists of concatenated values of the specified field from the specified list.</span></span> <span data-ttu-id="485c9-105">ค่าสามารถถูกแบ่งด้วยตัวคั่นที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="485c9-105">The values can be separated by the specified delimiter.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="caa05-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="caa05-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="485c9-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="485c9-106">Syntax</span></span>
 
-```
+```vb
 STRINGJOIN (list, field, delimiter)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="caa05-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="caa05-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="485c9-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="485c9-107">Arguments</span></span>
 
-<span data-ttu-id="caa05-108">`list`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="caa05-108">`list`: *Record list*</span></span>
+<span data-ttu-id="485c9-108">`list`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="485c9-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="caa05-109">พาธที่ถูกต้องของรายการแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="caa05-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="485c9-109">พาธที่ถูกต้องของรายการแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="485c9-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="caa05-110">`field`: *ฟิลด์*</span><span class="sxs-lookup"><span data-stu-id="caa05-110">`field`: *Field*</span></span>
+<span data-ttu-id="485c9-110">`field`: *ฟิลด์*</span><span class="sxs-lookup"><span data-stu-id="485c9-110">`field`: *Field*</span></span>
 
-<span data-ttu-id="caa05-111">เส้นทางที่ถูกต้องของเขตข้อมูลของชนิดข้อมูล *สตริง* ในรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="caa05-111">The valid path of a field of the *String* data type in the specified list.</span></span>
+<span data-ttu-id="485c9-111">เส้นทางที่ถูกต้องของเขตข้อมูลของชนิดข้อมูล *สตริง* ในรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="485c9-111">The valid path of a field of the *String* data type in the specified list.</span></span>
 
-<span data-ttu-id="caa05-112">`delimiter`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="caa05-112">`delimiter`: *String*</span></span>
+<span data-ttu-id="485c9-112">`delimiter`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="485c9-112">`delimiter`: *String*</span></span>
 
-<span data-ttu-id="caa05-113">ตัวคั่นที่ใช้ในการแยกสตริงย่อย</span><span class="sxs-lookup"><span data-stu-id="caa05-113">A delimiter that is used to separate substrings.</span></span>
+<span data-ttu-id="485c9-113">ตัวคั่นที่ใช้ในการแยกสตริงย่อย</span><span class="sxs-lookup"><span data-stu-id="485c9-113">A delimiter that is used to separate substrings.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="caa05-114">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="caa05-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="485c9-114">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="485c9-114">Return values</span></span>
 
-<span data-ttu-id="caa05-115">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="caa05-115">*String*</span></span>
+<span data-ttu-id="485c9-115">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="485c9-115">*String*</span></span>
 
-<span data-ttu-id="caa05-116">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="caa05-116">The resulting text value.</span></span>
+<span data-ttu-id="485c9-116">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="485c9-116">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="caa05-117">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="caa05-117">Example</span></span>
+## <a name="example"></a><span data-ttu-id="485c9-117">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="485c9-117">Example</span></span>
 
-<span data-ttu-id="caa05-118">ถ้าคุณป้อน `SPLIT("abc" , 1)` เป็นแหล่งข้อมูล **DS** นิพจน์`STRINGJOIN (DS, DS.Value, "-")` จะส่งกลับค่า **"a-b-c"**</span><span class="sxs-lookup"><span data-stu-id="caa05-118">If you enter `SPLIT("abc" , 1)` as data source **DS**, the expression `STRINGJOIN (DS, DS.Value, "-")` returns **"a-b-c"**.</span></span>
+<span data-ttu-id="485c9-118">ถ้าคุณป้อน `SPLIT("abc" , 1)` เป็นแหล่งข้อมูล **DS** นิพจน์`STRINGJOIN (DS, DS.Value, "-")` จะส่งกลับค่า **"a-b-c"**</span><span class="sxs-lookup"><span data-stu-id="485c9-118">If you enter `SPLIT("abc" , 1)` as data source **DS**, the expression `STRINGJOIN (DS, DS.Value, "-")` returns **"a-b-c"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="caa05-119">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="caa05-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="485c9-119">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="485c9-119">Additional resources</span></span>
 
-[<span data-ttu-id="caa05-120">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="caa05-120">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="485c9-120">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="485c9-120">List functions</span></span>](er-functions-category-list.md)

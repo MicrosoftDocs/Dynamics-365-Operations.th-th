@@ -18,51 +18,51 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9c0ed0238009f70ad7a9bf5a5e19ebfb95cccc
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 1836d25ad07ad1ce735fda5e008a3315626b62bb
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917177"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041841"
 ---
-# <span data-ttu-id="506f4-103"><a name="AND">ฟังก์ชัน AND ER</a></span><span class="sxs-lookup"><span data-stu-id="506f4-103"><a name="AND">AND ER function</a></span></span>
+# <span data-ttu-id="12af9-103"><a name="AND">ฟังก์ชัน AND ER</a></span><span class="sxs-lookup"><span data-stu-id="12af9-103"><a name="AND">AND ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="506f4-104">ฟังก์ชัน `AND` ส่งกลับค่า *บูลีน* ของ **TRUE** ถ้าเงื่อนไขที่ระบุทั้งหมดเป็นจริง</span><span class="sxs-lookup"><span data-stu-id="506f4-104">The `AND` function returns a *Boolean* value of **TRUE** if all the specified conditions are true.</span></span> <span data-ttu-id="506f4-105">มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="506f4-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="12af9-104">ฟังก์ชัน `AND` ส่งกลับค่า *บูลีน* ของ **TRUE** ถ้าเงื่อนไขที่ระบุทั้งหมดเป็นจริง</span><span class="sxs-lookup"><span data-stu-id="12af9-104">The `AND` function returns a *Boolean* value of **TRUE** if all the specified conditions are true.</span></span> <span data-ttu-id="12af9-105">มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="12af9-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="506f4-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="506f4-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="12af9-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="12af9-106">Syntax</span></span>
 
-```
+```vb
 AND (condition 1[, condition 2, …, condition N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="506f4-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="506f4-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="12af9-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="12af9-107">Arguments</span></span>
 
-<span data-ttu-id="506f4-108">`condition 1`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="506f4-108">`condition 1`: *Boolean*</span></span>
+<span data-ttu-id="12af9-108">`condition 1`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="12af9-108">`condition 1`: *Boolean*</span></span>
 
-<span data-ttu-id="506f4-109">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ต้องถูกทดสอบ</span><span class="sxs-lookup"><span data-stu-id="506f4-109">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="506f4-110">ต้องระบุอาร์กิวเมนต์นี้</span><span class="sxs-lookup"><span data-stu-id="506f4-110">This argument is required.</span></span>
+<span data-ttu-id="12af9-109">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ต้องถูกทดสอบ</span><span class="sxs-lookup"><span data-stu-id="12af9-109">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="12af9-110">ต้องระบุอาร์กิวเมนต์นี้</span><span class="sxs-lookup"><span data-stu-id="12af9-110">This argument is required.</span></span>
 
-<span data-ttu-id="506f4-111">`condition N`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="506f4-111">`condition N`: *Boolean*</span></span>
+<span data-ttu-id="12af9-111">`condition N`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="12af9-111">`condition N`: *Boolean*</span></span>
 
-<span data-ttu-id="506f4-112">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ต้องถูกทดสอบ</span><span class="sxs-lookup"><span data-stu-id="506f4-112">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="506f4-113">อาร์กิวเมนต์เพิ่มเติมเหล่านี้เป็นตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="506f4-113">These additional arguments are optional.</span></span>
+<span data-ttu-id="12af9-112">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ต้องถูกทดสอบ</span><span class="sxs-lookup"><span data-stu-id="12af9-112">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="12af9-113">อาร์กิวเมนต์เพิ่มเติมเหล่านี้เป็นตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="12af9-113">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="506f4-114">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="506f4-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="12af9-114">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="12af9-114">Return values</span></span>
 
-<span data-ttu-id="506f4-115">*บูลีน*</span><span class="sxs-lookup"><span data-stu-id="506f4-115">*Boolean*</span></span>
+<span data-ttu-id="12af9-115">*บูลีน*</span><span class="sxs-lookup"><span data-stu-id="12af9-115">*Boolean*</span></span>
 
-<span data-ttu-id="506f4-116">ค่า *บูลีน* ที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="506f4-116">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="12af9-116">ค่า *บูลีน* ที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="12af9-116">The resulting *Boolean* value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="506f4-117">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="506f4-117">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="12af9-117">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="12af9-117">Usage notes</span></span>
 
-<span data-ttu-id="506f4-118">ในอาร์กิวเมนต์ของฟังก์ชันตรรกะ คุณสามารถใช้การอ้างอิงแหล่งข้อมูล ค่าตัวเลขและข้อความ ค่าบูลีน ตัวดำเนินการเปรียบเทียบ และฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="506f4-118">In the arguments of logical functions, you can use data source references, numeric and text values, Boolean values, comparison operators, and other Electronic reporting (ER) functions.</span></span> <span data-ttu-id="506f4-119">อย่างไรก็ตามอาร์กิวเมนต์ทั้งหมดต้องถูกประเมินเป็นค่า *บูลีน* ของ **TRUE** หรือ **FALSE**</span><span class="sxs-lookup"><span data-stu-id="506f4-119">However, all the arguments must be evaluated to a *Boolean* value of **TRUE** or **FALSE**.</span></span>
+<span data-ttu-id="12af9-118">ในอาร์กิวเมนต์ของฟังก์ชันตรรกะ คุณสามารถใช้การอ้างอิงแหล่งข้อมูล ค่าตัวเลขและข้อความ ค่าบูลีน ตัวดำเนินการเปรียบเทียบ และฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="12af9-118">In the arguments of logical functions, you can use data source references, numeric and text values, Boolean values, comparison operators, and other Electronic reporting (ER) functions.</span></span> <span data-ttu-id="12af9-119">อย่างไรก็ตามอาร์กิวเมนต์ทั้งหมดต้องถูกประเมินเป็นค่า *บูลีน* ของ **TRUE** หรือ **FALSE**</span><span class="sxs-lookup"><span data-stu-id="12af9-119">However, all the arguments must be evaluated to a *Boolean* value of **TRUE** or **FALSE**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="506f4-120">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="506f4-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="12af9-120">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="12af9-120">Example</span></span>
 
-<span data-ttu-id="506f4-121">`AND (1=1, "a"="a")` ส่งกลับค่า **TRUE**</span><span class="sxs-lookup"><span data-stu-id="506f4-121">`AND (1=1, "a"="a")` returns **TRUE**.</span></span>
+<span data-ttu-id="12af9-121">`AND (1=1, "a"="a")` ส่งกลับค่า **TRUE**</span><span class="sxs-lookup"><span data-stu-id="12af9-121">`AND (1=1, "a"="a")` returns **TRUE**.</span></span>
 
-<span data-ttu-id="506f4-122">`AND (1=2, "a"="a")` ส่งกลับค่า **FALSE**</span><span class="sxs-lookup"><span data-stu-id="506f4-122">`AND (1=2, "a"="a")` returns **FALSE**.</span></span>
+<span data-ttu-id="12af9-122">`AND (1=2, "a"="a")` ส่งกลับค่า **FALSE**</span><span class="sxs-lookup"><span data-stu-id="12af9-122">`AND (1=2, "a"="a")` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="506f4-123">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="506f4-123">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="12af9-123">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="12af9-123">Additional resources</span></span>
 
-[<span data-ttu-id="506f4-124">ฟังก์ชันตรรกะ</span><span class="sxs-lookup"><span data-stu-id="506f4-124">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="12af9-124">ฟังก์ชันตรรกะ</span><span class="sxs-lookup"><span data-stu-id="12af9-124">Logical functions</span></span>](er-functions-category-logical.md)

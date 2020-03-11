@@ -17,71 +17,71 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 7d68f65c27ec8704ef588cf98bbe30fc70cd5b47
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4185d4762b65b6b1ce7531c3995f8bbe084a9c5f
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024224"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057312"
 ---
-# <a name="get-support-for-dynamics-365-retail"></a><span data-ttu-id="33246-103">รับการสนับสนุนสำหรับ Dynamics 365 Retail</span><span class="sxs-lookup"><span data-stu-id="33246-103">Get support for Dynamics 365 Retail</span></span>
+# <a name="get-support-for-dynamics-365-retail"></a><span data-ttu-id="df9c3-103">รับการสนับสนุนสำหรับ Dynamics 365 Retail</span><span class="sxs-lookup"><span data-stu-id="df9c3-103">Get support for Dynamics 365 Retail</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="33246-104">บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="33246-104">This article explains how to get help with Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="df9c3-104">บทความนี้อธิบายวิธีการรับวิธีใช้ด้วย Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="df9c3-104">This article explains how to get help with Dynamics 365 Commerce.</span></span>
 
-## <a name="contact-support"></a><span data-ttu-id="33246-105">ติดต่อฝ่ายสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="33246-105">Contact support</span></span>
+## <a name="contact-support"></a><span data-ttu-id="df9c3-105">ติดต่อฝ่ายสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="df9c3-105">Contact support</span></span>
 
-<span data-ttu-id="33246-106">ใช้ข้อมูลในบทความนี้เพื่อติดต่อ Microsoft ถ้าคุณมีคำถามทางเทคนิคเกี่ยวกับการค้า</span><span class="sxs-lookup"><span data-stu-id="33246-106">Use the information in this article to contact Microsoft if you have technical questions about Commerce.</span></span>
+<span data-ttu-id="df9c3-106">ใช้ข้อมูลในบทความนี้เพื่อติดต่อ Microsoft ถ้าคุณมีคำถามทางเทคนิคเกี่ยวกับการค้า</span><span class="sxs-lookup"><span data-stu-id="df9c3-106">Use the information in this article to contact Microsoft if you have technical questions about Commerce.</span></span>
 
-### <a name="commerce-support"></a><span data-ttu-id="33246-107">การสนับสนุนการค้า</span><span class="sxs-lookup"><span data-stu-id="33246-107">Commerce support</span></span>
+### <a name="commerce-support"></a><span data-ttu-id="df9c3-107">การสนับสนุนการค้า</span><span class="sxs-lookup"><span data-stu-id="df9c3-107">Commerce support</span></span>
 
-<span data-ttu-id="33246-108">เพื่อรับการสนับสนุนสำหรับการค้า ใช้ทรัพยากรในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="33246-108">To obtain support for Commerce, use the resources in the following table.</span></span> <span data-ttu-id="33246-109">ทรัพยากรเหล่านี้จะแสดงรายการตามลำดับที่เราแนะนำให้คุณปฏิบัติตามเมื่อคุณกำลังแก้ไขปัญหา</span><span class="sxs-lookup"><span data-stu-id="33246-109">These resources are listed in the order that we recommend that you follow when you're troubleshooting.</span></span>
+<span data-ttu-id="df9c3-108">เพื่อรับการสนับสนุนสำหรับการค้า ใช้ทรัพยากรในตารางต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="df9c3-108">To obtain support for Commerce, use the resources in the following table.</span></span> <span data-ttu-id="df9c3-109">ทรัพยากรเหล่านี้จะแสดงรายการตามลำดับที่เราแนะนำให้คุณปฏิบัติตามเมื่อคุณกำลังแก้ไขปัญหา</span><span class="sxs-lookup"><span data-stu-id="df9c3-109">These resources are listed in the order that we recommend that you follow when you're troubleshooting.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="33246-110">งาน</span><span class="sxs-lookup"><span data-stu-id="33246-110">Task</span></span></th>
-<th><span data-ttu-id="33246-111">ข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="33246-111">More information</span></span></th>
+<th><span data-ttu-id="df9c3-110">งาน</span><span class="sxs-lookup"><span data-stu-id="df9c3-110">Task</span></span></th>
+<th><span data-ttu-id="df9c3-111">ข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="df9c3-111">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="33246-112">สอบถามชุมชน</span><span class="sxs-lookup"><span data-stu-id="33246-112">Ask the community.</span></span></td>
-<td><span data-ttu-id="33246-113">ไปยังหน้าชุมชน <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="33246-113">Go to the <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> community page to find help with your questions from the Dynamics 365 community.</span></span></td>
+<td><span data-ttu-id="df9c3-112">สอบถามชุมชน</span><span class="sxs-lookup"><span data-stu-id="df9c3-112">Ask the community.</span></span></td>
+<td><span data-ttu-id="df9c3-113">ไปยังหน้า <a href="https://community.dynamics.com/365/retail">ชุมชน Dynamics 365</a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="df9c3-113">Go to the <a href="https://community.dynamics.com/365/retail">Dynamics 365 Community</a> page to find help with your questions from the Dynamics 365 community.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="33246-114">ใช้เครื่องมือค้นหาปัญหา</span><span class="sxs-lookup"><span data-stu-id="33246-114">Use the Issue search tool.</span></span></td>
-<td><span data-ttu-id="33246-115">ใน <a href="https://lcs.dynamics.com/">LCS</a> ใช้การค้นหาปัญหาเพื่อค้นหาบทความ Microsoft Knowledge Base (KB) โปรแกรมแก้ไขด่วน และวิธีแก้ไขปัญหาสำหรับปัญหาที่รายงานไว้อย่างรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="33246-115">In <a href="https://lcs.dynamics.com/">LCS</a>, use Issue search to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="33246-116">คุณสามารถดูว่ารายงานใดที่กำลังดำเนินได้รับการแก้ไขปัญหาหรือได้รับการแก้ไขเรียบร้อยแล้วสำหรับพื้นที่ทำงานเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="33246-116">You can see which reported issues are in the process of being fixed or have already been fixed for a specific functional area.</span></span> <span data-ttu-id="33246-117">สำหรับข้อมูลเพิ่มเติม ให้ดู <a href="https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs">การค้นหาปัญหา (Lifecycle Services, LCS)</a></span><span class="sxs-lookup"><span data-stu-id="33246-117">For more information, see <a href="https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs">Issue search (Lifecycle Services, LCS)</a>.</span></span></td>
+<td><span data-ttu-id="df9c3-114">ใช้เครื่องมือค้นหาปัญหา</span><span class="sxs-lookup"><span data-stu-id="df9c3-114">Use the Issue search tool.</span></span></td>
+<td><span data-ttu-id="df9c3-115">ใน <a href="https://lcs.dynamics.com/">LCS</a> ใช้การค้นหาปัญหาเพื่อค้นหาบทความ Microsoft Knowledge Base (KB) โปรแกรมแก้ไขด่วน และวิธีแก้ไขปัญหาสำหรับปัญหาที่รายงานไว้อย่างรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="df9c3-115">In <a href="https://lcs.dynamics.com/">LCS</a>, use Issue search to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="df9c3-116">คุณสามารถดูว่ารายงานใดที่กำลังดำเนินได้รับการแก้ไขปัญหาหรือได้รับการแก้ไขเรียบร้อยแล้วสำหรับพื้นที่ทำงานเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="df9c3-116">You can see which reported issues are in the process of being fixed or have already been fixed for a specific functional area.</span></span> <span data-ttu-id="df9c3-117">สำหรับข้อมูลเพิ่มเติม ให้ดู <a href="https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs">การค้นหาปัญหา (Lifecycle Services, LCS)</a></span><span class="sxs-lookup"><span data-stu-id="df9c3-117">For more information, see <a href="https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs">Issue search (Lifecycle Services, LCS)</a>.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="33246-118">ใช้เครื่องมือการสนับสนุนที่ทำงานบน Cloud</span><span class="sxs-lookup"><span data-stu-id="33246-118">Use the Cloud-powered support tool.</span></span></td>
-<td><span data-ttu-id="33246-119">ใน <a href="https://lcs.dynamics.com/">LCS</a> ไทล์ <strong>สนับสนุน</strong> คือเครื่องมือที่ช่วยคุณในการจัดการปัญหาด้านการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="33246-119">In <a href="https://lcs.dynamics.com/">LCS</a>, the <strong>Support</strong> tile is a tool that helps you manage support incidents.</span></span> <span data-ttu-id="33246-120">เมื่อต้องการส่งออกไปยัง Microsoft โดยตรง ไปที่ไทล์ <strong>สนับสนุน</strong> ในโครงการ LCS ของคุณ</span><span class="sxs-lookup"><span data-stu-id="33246-120">To submit issues directly to Microsoft, go to the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="33246-121">จากที่นี่ คุณสามารถส่งออกได้สองวิธี:</span><span class="sxs-lookup"><span data-stu-id="33246-121">From there, you can submit issues in two ways:</span></span>
+<td><span data-ttu-id="df9c3-118">ใช้เครื่องมือการสนับสนุนที่ทำงานบน Cloud</span><span class="sxs-lookup"><span data-stu-id="df9c3-118">Use the Cloud-powered support tool.</span></span></td>
+<td><span data-ttu-id="df9c3-119">ใน <a href="https://lcs.dynamics.com/">LCS</a> ไทล์ <strong>สนับสนุน</strong> คือเครื่องมือที่ช่วยคุณในการจัดการปัญหาด้านการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="df9c3-119">In <a href="https://lcs.dynamics.com/">LCS</a>, the <strong>Support</strong> tile is a tool that helps you manage support incidents.</span></span> <span data-ttu-id="df9c3-120">เมื่อต้องการส่งออกไปยัง Microsoft โดยตรง ไปที่ไทล์ <strong>สนับสนุน</strong> ในโครงการ LCS ของคุณ</span><span class="sxs-lookup"><span data-stu-id="df9c3-120">To submit issues directly to Microsoft, go to the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="df9c3-121">จากที่นี่ คุณสามารถส่งออกได้สองวิธี:</span><span class="sxs-lookup"><span data-stu-id="df9c3-121">From there, you can submit issues in two ways:</span></span>
 <ul>
-<li><span data-ttu-id="33246-122">ในแท็บ <strong>ปัญหาที่ใช้งานอยู่</strong> เลือกปัญหาของคุณ และจากนั้นคลิก <strong>ส่งไปยัง Microsoft</strong></span><span class="sxs-lookup"><span data-stu-id="33246-122">On the <strong>Active issue</strong> tab, select your issue, and then click <strong>Submit to Microsoft</strong>.</span></span></li>
-<li><span data-ttu-id="33246-123">ในแท็บ <strong>ส่งไปยัง Microsoft</strong> คลิก <strong>ส่งเหตุการณ์ใหม่</strong> เพื่อแจ้งปัญหา</span><span class="sxs-lookup"><span data-stu-id="33246-123">On the <strong>Submitted to Microsoft</strong> tab, click <strong>Submit a new Incident</strong> to submit the issue.</span></span></li>
+<li><span data-ttu-id="df9c3-122">ในแท็บ <strong>ปัญหาที่ใช้งานอยู่</strong> เลือกปัญหาของคุณ และจากนั้นคลิก <strong>ส่งไปยัง Microsoft</strong></span><span class="sxs-lookup"><span data-stu-id="df9c3-122">On the <strong>Active issue</strong> tab, select your issue, and then click <strong>Submit to Microsoft</strong>.</span></span></li>
+<li><span data-ttu-id="df9c3-123">ในแท็บ <strong>ส่งไปยัง Microsoft</strong> คลิก <strong>ส่งเหตุการณ์ใหม่</strong> เพื่อแจ้งปัญหา</span><span class="sxs-lookup"><span data-stu-id="df9c3-123">On the <strong>Submitted to Microsoft</strong> tab, click <strong>Submit a new Incident</strong> to submit the issue.</span></span></li>
 </ul>
-<p><span data-ttu-id="33246-124"><strong>หมายเหตุ:</strong> นอกจากนี้ ลูกค้าและคู่ค้า Microsoft Premier ยังสามารถส่งบัตรการสนับสนุนพรีเมียร์ได้โดยใช้ขั้นตอนข้างต้น</span><span class="sxs-lookup"><span data-stu-id="33246-124"><strong>Note:</strong> Microsoft Premier Customers and Partners can also submit premier support tickets using the steps above.</span></span></p>
+<p><span data-ttu-id="df9c3-124"><strong>หมายเหตุ:</strong> นอกจากนี้ ลูกค้าและคู่ค้า Microsoft Premier ยังสามารถส่งบัตรการสนับสนุนพรีเมียร์ได้โดยใช้ขั้นตอนข้างต้น</span><span class="sxs-lookup"><span data-stu-id="df9c3-124"><strong>Note:</strong> Microsoft Premier Customers and Partners can also submit premier support tickets using the steps above.</span></span></p>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="33246-125">เปิดบัตรที่มีทีมงานสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="33246-125">Open a ticket with the support team.</span></span></td>
-<td><span data-ttu-id="33246-126">ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งตั๋วไปยัง Microsoft จากไทล์ <strong>การสนับสนุน</strong> ใน LCS ดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">ติดต่อ Microsoft Business Solutions Support</a> สำหรับข้อมูลเกี่ยวกับการติดต่อศูนย์การดำเนินการทางภูมิภาค Microsoft Dynamics</span><span class="sxs-lookup"><span data-stu-id="33246-126">If you have issues when you try to submit a ticket to Microsoft from the <strong>Support</strong> tile in LCS, see <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Contact Microsoft Business Solutions Support</a> for information about to contact a Microsoft Dynamics Regional Operations Center.</span></span> <span data-ttu-id="33246-127">ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="33246-127">The support team can help you resolve the following types of technical issues:</span></span>
+<td><span data-ttu-id="df9c3-125">เปิดบัตรที่มีทีมงานสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="df9c3-125">Open a ticket with the support team.</span></span></td>
+<td><span data-ttu-id="df9c3-126">ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งตั๋วไปยัง Microsoft จากไทล์ <strong>การสนับสนุน</strong> ใน LCS ดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">ติดต่อ Microsoft Business Solutions Support</a> สำหรับข้อมูลเกี่ยวกับการติดต่อศูนย์การดำเนินการทางภูมิภาค Microsoft Dynamics</span><span class="sxs-lookup"><span data-stu-id="df9c3-126">If you have issues when you try to submit a ticket to Microsoft from the <strong>Support</strong> tile in LCS, see <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Contact Microsoft Business Solutions Support</a> for information about to contact a Microsoft Dynamics Regional Operations Center.</span></span> <span data-ttu-id="df9c3-127">ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="df9c3-127">The support team can help you resolve the following types of technical issues:</span></span>
 <ul>
-<li><span data-ttu-id="33246-128">ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ LCS หรือปัญหาที่เกิดขึ้นเมื่อคุณพยายามเข้าถึง LCS</span><span class="sxs-lookup"><span data-stu-id="33246-128">Errors that occur when you use LCS or issues that occur when you try to access LCS.</span></span></li>
-<li><span data-ttu-id="33246-129">ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ Commerce</span><span class="sxs-lookup"><span data-stu-id="33246-129">Errors that occur when you use Commerce.</span></span></li>
+<li><span data-ttu-id="df9c3-128">ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ LCS หรือปัญหาที่เกิดขึ้นเมื่อคุณพยายามเข้าถึง LCS</span><span class="sxs-lookup"><span data-stu-id="df9c3-128">Errors that occur when you use LCS or issues that occur when you try to access LCS.</span></span></li>
+<li><span data-ttu-id="df9c3-129">ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ Commerce</span><span class="sxs-lookup"><span data-stu-id="df9c3-129">Errors that occur when you use Commerce.</span></span></li>
 </ul>
-<span data-ttu-id="33246-130">สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">การสนับสนุนเว็บไซต์</a></span><span class="sxs-lookup"><span data-stu-id="33246-130">For technical questions that are related to signing in to and accessing CustomerSource, e-learning, Search, Knowledge Base, file download, and page or system errors, go to <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Website Support</a>.</span></span></td>
+<span data-ttu-id="df9c3-130">สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">การสนับสนุนเว็บไซต์</a></span><span class="sxs-lookup"><span data-stu-id="df9c3-130">For technical questions that are related to signing in to and accessing CustomerSource, e-learning, Search, Knowledge Base, file download, and page or system errors, go to <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Website Support</a>.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="33246-131">รับความช่วยเหลือเกี่ยวกับคำถามในเรื่องลิขสิทธิ์ </span><span class="sxs-lookup"><span data-stu-id="33246-131">Get help with questions about licensing.</span></span></td>
-<td><span data-ttu-id="33246-132">ติดต่อคู่ค้า ผู้จำหน่ายบัญชีขนาดใหญ่ (LAR) หรือพนักงานขายของ Microsoft</span><span class="sxs-lookup"><span data-stu-id="33246-132">Contact your partner, large account reseller (LAR), or Microsoft sales representative.</span></span></td>
+<td><span data-ttu-id="df9c3-131">รับความช่วยเหลือเกี่ยวกับคำถามในเรื่องลิขสิทธิ์ </span><span class="sxs-lookup"><span data-stu-id="df9c3-131">Get help with questions about licensing.</span></span></td>
+<td><span data-ttu-id="df9c3-132">ติดต่อคู่ค้า ผู้จำหน่ายบัญชีขนาดใหญ่ (LAR) หรือพนักงานขายของ Microsoft</span><span class="sxs-lookup"><span data-stu-id="df9c3-132">Contact your partner, large account reseller (LAR), or Microsoft sales representative.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="33246-133">ใช้เหตุการณ์ LCS ในการตรวจสอบแดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="33246-133">Use the LCS Event monitoring dashboard.</span></span></td>
-<td><span data-ttu-id="33246-134">เมื่อต้องการดูสถานะความสมบูรณ์ปัจจุบันของแพลตฟอร์มและบริการ ไปที่ส่วน <strong>สภาพแวดล้อม</strong> ของโครงการ LCS ของคุณ</span><span class="sxs-lookup"><span data-stu-id="33246-134">To see the current health status of the platform and services, go to the <strong>Environments</strong> section of your LCS project.</span></span></td>
+<td><span data-ttu-id="df9c3-133">ใช้เหตุการณ์ LCS ในการตรวจสอบแดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="df9c3-133">Use the LCS Event monitoring dashboard.</span></span></td>
+<td><span data-ttu-id="df9c3-134">เมื่อต้องการดูสถานะความสมบูรณ์ปัจจุบันของแพลตฟอร์มและบริการ ไปที่ส่วน <strong>สภาพแวดล้อม</strong> ของโครงการ LCS ของคุณ</span><span class="sxs-lookup"><span data-stu-id="df9c3-134">To see the current health status of the platform and services, go to the <strong>Environments</strong> section of your LCS project.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="33246-135">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอบริการ Microsoft Dynamics ดู [Microsoft Dynamics การสนับสนุนออนไลน์](https://dynamics.microsoft.com/support/)</span><span class="sxs-lookup"><span data-stu-id="33246-135">For more information about Microsoft Dynamics support offerings, see [Microsoft Dynamics Online support](https://dynamics.microsoft.com/support/).</span></span>
+<span data-ttu-id="df9c3-135">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอบริการ Microsoft Dynamics ดู [Microsoft Dynamics การสนับสนุนออนไลน์](https://dynamics.microsoft.com/support/)</span><span class="sxs-lookup"><span data-stu-id="df9c3-135">For more information about Microsoft Dynamics support offerings, see [Microsoft Dynamics Online support](https://dynamics.microsoft.com/support/).</span></span>
