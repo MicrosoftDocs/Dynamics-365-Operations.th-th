@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003245"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042791"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>รับคำแนะนำเกี่ยวกับผลิตภัณฑ์โดยใช้ข้อมูลสาธิต
 เอกสารนี้มีวัตถุประสงค์เพื่อให้คำแนะนำเกี่ยวกับวิธีการใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ผ่านช่องทาง omni ในสภาพแวดล้อมของกล่องเดี่ยวระดับ-1 โดยใช้ข้อมูลสาธิตแบบกำหนดเองที่กำหนดไว้ล่วงหน้า
@@ -57,10 +57,10 @@ ms.locfileid: "3003245"
 นามสกุลมีไฟล์ข้อมูลที่เรียกว่า 'RecoMockDataset' ซึ่งช่วยให้ลูกค้าสามารถควบคุมชุดข้อมูลที่ใช้ขับเคลื่อนผลลัพธ์ของคำแนะนำจำลอง ชื่อไฟล์สามารถควบคุมโดยการตั้งค่าคอนฟิกส่วนขยายโดยใช้การตั้งค่า **ext.Recommendations.DemoFilePath** การทำเช่นนี้จะช่วยให้คุณมีชุดงานได้หลายชุด ซึ่งสามารถสลับไปมาได้ง่ายๆ ผ่านการตั้งค่าคอนฟิก
 
 
-```
-  <settings>
+```xml
+<settings>
     <add name="ext.Recommendations.DemoFilePath" value="RecoMockDataset.csv" />
-  </settings>
+</settings>
 ```
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม

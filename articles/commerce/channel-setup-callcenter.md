@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ec42ab920868f541eeac54556f4f24cb1efaa3a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002461"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057890"
 ---
 # <a name="set-up-a-call-center-channel"></a>ตั้งค่าช่องทางศูนย์บริการ
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002461"
 
 ## <a name="overview"></a>ภาพรวม
 
-ใน Dynamics 365 Commerce ศูนย์บริการคือประเภทของช่องทาง Retail ที่สามารถถูกกำหนดได้ในแอพลิเคชัน การกำหนดช่องทางสำหรับเอนทิตี้ศูนย์บริการของคุณ ช่วยให้ระบบสามารถผูกข้อมูล และการประมวลผลใบสั่งที่เฉพาะเจาะจงไปยังใบสั่งขายได้ บริษัทสามารถกำหนดช่องทางศูนย์บริการที่หลากหลายได้ใน Commerce 
+ใน Dynamics 365 Commerce ศูนย์บริการคือประเภทของช่องทางที่สามารถถูกกำหนดได้ในแอพลิเคชัน การกำหนดช่องทางสำหรับเอนทิตี้ศูนย์บริการของคุณ ช่วยให้ระบบสามารถผูกข้อมูล และการประมวลผลใบสั่งที่เฉพาะเจาะจงไปยังใบสั่งขายได้ บริษัทสามารถกำหนดช่องทางศูนย์บริการที่หลากหลายได้ใน Commerce 
 
 ก่อนที่คุณจะสร้างช่องทางศูนย์บริการใหม่ให้ตรวจสอบให้แน่ใจว่าคุณได้เตรียม [ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง](channels-prerequisites.md) เสร็จสมบูรณ์แล้ว
 

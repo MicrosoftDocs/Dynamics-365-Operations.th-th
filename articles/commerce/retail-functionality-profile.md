@@ -1,6 +1,6 @@
 ---
-title: สร้างโพรไฟล์ฟังก์ชันของการขายปลีก
-description: หัวข้อนี้จะอธิบายวิธีการสร้างโพรไฟล์ฟังก์ชันของการขายปลีกใหม่ Microsoft Dynamics 365 Commerce
+title: สร้างโพรไฟล์ฟังก์ชันการขายปลีก
+description: หัวข้อนี้จะอธิบายวิธีการสร้างโพรไฟล์ฟังก์ชันการทำงานใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002854"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057359"
 ---
-# <a name="create-a-retail-functionality-profile"></a>สร้างโพรไฟล์ฟังก์ชันของการขายปลีก
+# <a name="create-a-retail-functionality-profile"></a>สร้างโพรไฟล์ฟังก์ชันการขายปลีก
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างโพรไฟล์ฟังก์ชันของการขายปลีกใหม่ Microsoft Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายวิธีการสร้างโพรไฟล์ฟังก์ชันการทำงานใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
-โพรไฟล์ฟังก์ชันของการขายปลีก มอบความสามารถในการตั้งค่าต่าง ๆ ที่ใช้สำหรับช่องทางออนไลน์ ช่องทางการขายปลีกแต่ละช่องต้องระบุโพรไฟล์ฟังก์ชันของการขายปลีก
+โพรไฟล์ฟังก์ชันการทำงานของการค้ามอบความสามารถในการตั้งค่าต่างๆ ที่ใช้สำหรับช่องทางออนไลน์ ช่องทางแต่ละช่องต้องระบุโพรไฟล์ฟังก์ชันการทำงาน
 
-## <a name="create-a-retail-functionality-profile"></a>สร้างโพรไฟล์ฟังก์ชันของการขายปลีก
+## <a name="create-a-functionality-profile"></a>สร้างโพรไฟล์ฟังก์ชัน
 
-เมื่อต้องการสร้างโพรไฟล์ฟังก์ชันของการขายปลีก ให้ทำตามขั้นตอนเหล่านี้
+เมื่อต้องการสร้างโพรไฟล์ฟังก์ชันการทำงาน ให้ทำตามขั้นตอนเหล่านี้
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> ตั้งค่าช่องทาง \> โพรไฟล์ POS \> โพรไฟล์ฟังก์ชัน**
 1. บนหน้าต่างการดำเนินการ เลือก **สร้าง**
@@ -51,9 +51,9 @@ ms.locfileid: "3002854"
 1. ในส่วน **รหัสข้อมูล** ให้แก้ไขการตั้งค่าตามต้องการ
 1. ในส่วน **การกำหนดหมายเลขใบเสร็จ** ให้แก้ไขการตั้งค่าตามต้องการ 
   
-รูปภาพต่อไปนี้แสดงตัวอย่างของโพรไฟล์ฟังก์ชันของการขายปลีก
+ภาพต่อไปนี้แสดงตัวอย่างของโปรไฟล์ฟังก์ชันการทำงาน
   
-![ตัวอย่างโพรไฟล์ฟังก์ชันของการขายปลีก](media/retail-functionality-profile.png)
+![ตัวอย่างโพรไฟล์ฟังก์ชันการทำงาน](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

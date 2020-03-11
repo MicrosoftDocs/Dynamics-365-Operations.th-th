@@ -3,7 +3,7 @@ title: ข้อกำหนดเบื้องต้นในการตั�
 description: หัวข้อนี้แสดงภาพรวมของข้อกำหนดเบื้องต้นในการตั้งค่าช่องทางใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002300"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081326"
 ---
 # <a name="channel-setup-prerequisites"></a>ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง
 
@@ -40,16 +40,16 @@ ms.locfileid: "3002300"
 
 ## <a name="initialization"></a>การเริ่มต้น
 
-- [เตรียมใช้งานข้อมูลเบื้องต้น](../retail/enable-configure-retail-functionality.md)
+- [เตรียมใช้งานข้อมูลเบื้องต้น](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>ข้อกำหนดเบื้องต้นสากลจำเป็นสำหรับชนิดช่องทางทั้งหมด
 
 - [กำหนดและตั้งค่าคอนฟิกโครงสร้างนิติบุคคลของคุณ](channels-legal-entities.md) 
 - [ตั้งค่าคอนฟิกลำดับชั้นขององค์กรของคุณ](channels-org-hierarchies.md)
 - [ตั้งค่าคลังสินค้า](channels-setup-warehouse.md)
-- [ตั้งค่าคอนฟิกภาษีขาย](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [ตั้งค่าคอนฟิกภาษีขาย](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [ตั้งค่าโปรไฟล์การแจ้งเตือนทางอีเมล](email-notification-profiles.md)
-- [ตั้งค่าลำดับหมายเลข](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [ตั้งค่าลำดับหมายเลข](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [ตั้งค่าลูกค้าและสมุดที่อยู่เริ่มต้น](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,23 +57,21 @@ ms.locfileid: "3002300"
 
 ## <a name="retail-channel-prerequisites"></a>ข้อกำหนดเบื้องต้นช่องทาง Retail
 
-- [รหัสข้อมูลและกลุ่มรหัสข้อมูล](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [รหัสข้อมูลและกลุ่มรหัสข้อมูล](info-codes-retail.md)
 - [ตั้งค่าโปรไฟล์ฟังก์ชันของการขายปลีก](retail-functionality-profile.md)
 - [ตั้งค่าสมุดที่อยู่พนักงาน](new-address-book.md)
-- [ตั้งค่าโครงร่างหน้าจอ](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [ตั้งค่าสถานีฮาร์ดแวร์](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [ตั้งค่าโครงร่างหน้าจอ](pos-screen-layouts.md)
+- [ตั้งค่าสถานีฮาร์ดแวร์](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>ข้อกำหนดเบื้องต้นช่องทางศูนย์บริการ
 
 - พารามิเตอร์ศูนย์บริการ
-- วิธีการขอคืนเงินของศูนย์บริการ
-- ชนิดการเช่า
-- บริการชำระเงิน
-- รหัสการระงับใบสั่ง
+- [วิธีการชำระเงินตามใบสั่งของศูนย์บริการและการเรียกคืนเงิน](work-with-payments.md)
+- [โหมดศูนย์บริการของการจัดส่งและค่าธรรมเนียม](configure-call-center-delivery.md)
 
-## <a name="online-channel-prerequisites"></a>ข้อกำหนดเบื้องต้นช่องทางแบบออนไลน์
+## <a name="online-channel-prerequisites"></a>ข้อกำหนดเบื้องต้นของช่องทางออนไลน์
 
-- [สร้างโปรไฟล์ฟังก์ชันแบบออนไลน์](online-functionality-profile.md)
+- [สร้างโพรไฟล์ฟังก์ชันการทำงานออนไลน์](online-functionality-profile.md)
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

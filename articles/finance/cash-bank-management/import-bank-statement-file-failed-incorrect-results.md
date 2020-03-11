@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 612ded1f68cc8e1b26b8046501bae1707175e23a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a5e7e6897f19dc0303ffbd3111f93669a91daa1b
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188337"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059387"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>การแก้ไขปัญหาการนำเข้าไฟล์ใบแจ้งยอดจากธนาคาร
 
@@ -40,7 +40,7 @@ ms.locfileid: "2188337"
 เปรียบเทียบคำนิยามโครงร่างไฟล์ธนาคารกับคำนิยามการนำเข้าทางการเงิน และสังเกตความแตกต่างในฟิลด์และองค์ประกอบ เปรียบเทียบไฟล์ใบแจ้งยอดกับไฟล์ตัวอย่างทางการเงินที่เกี่ยวข้อง ในไฟล์ ISO20022 ควรเห็นความแตกต่างได้อย่างชัดเจน
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>ความแตกต่างของโซนเวลาในใบแจ้งยอดจากธนาคารที่นำเข้า
-ค่าวันที่ในไฟล์นำเข้าอาจแตกต่างจากค่าเวลาที่แสดงใน Finance and Operations เพื่อป้องกันไม่ให้เกิดความขัดแย้ง ให้ **ป้อนการตั้ง** ค่าโซนเวลาบนหน้าตั้งค่าคอนฟิกแหล่งข้อมูล ดู [การตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง](set-up-advanced-bank-reconciliation-import-process.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใส่ข้อมูลการกำหนดลักษณะโซนเวลา
+ค่าวันที่-เวลาในไฟล์นำเข้าอาจแตกต่างจากค่าวันที่-เวลาที่แสดงใน Finance and Operations เพื่อป้องกันไม่ให้เกิดความขัดแย้ง ให้ **ป้อนการตั้ง** ค่าโซนเวลาบนหน้าตั้งค่าคอนฟิกแหล่งข้อมูล ดู [การตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง](set-up-advanced-bank-reconciliation-import-process.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใส่ข้อมูลการกำหนดลักษณะโซนเวลา
 
 ## <a name="transformations"></a>การแปลง
 โดยทั่วไป ต้องทำการเปลี่ยนแปลงอย่างใดอย่างหนึ่งจากการแปลงข้อมูลสามอย่างนี้ การแปลงข้อมูลแต่ละรายการจะถูกเขียนสำหรับมาตรฐานเฉพาะ
@@ -58,9 +58,11 @@ ms.locfileid: "2188337"
 
 1.  สร้างไฟล์ XML และคัดลอกข้อความต่อไปนี้ลงในไฟล์นั้น
 
-        <Batch><![CDATA[PASTESTATEMENTFILEHERE
+    ```xml
+    <Batch><![CDATA[PASTESTATEMENTFILEHERE
         ]]></Batch>
-
+    ```
+    
 2.  คัดลอกเนื้อหาของไฟล์ใบแจ้งยอดจากธนาคาร และวางลงในไฟล์ XML เพื่อแทนที่ **PASTESTATEMENTFILEHERE**
 
 ### <a name="debug-the-xslt"></a>ดีบัก XSLT
