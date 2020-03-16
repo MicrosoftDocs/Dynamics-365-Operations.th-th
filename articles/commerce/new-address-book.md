@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d8158f676a005f683d71f503c0a0eb3e50635e2a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003406"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057544"
 ---
 # <a name="create-new-address-book"></a>สร้างสมุดที่อยู่ใหม่
 
@@ -52,8 +52,8 @@ ms.locfileid: "3003406"
 
 [รหัสข้อมูลและกลุ่มรหัสข้อมูล](info-codes-retail.md)           
 
-[โพรไฟล์ฟังก์ชันของการขายปลีก](retail-functionality-profile.md)   
+[สร้างโพรไฟล์ฟังก์ชันการขายปลีก](retail-functionality-profile.md)      
 
-[ภาพรวมโครงร่างหน้าจอ](pos-screen-layouts.md)       
+[ภาพรวมของโครงร่างหน้าจอ](pos-screen-layouts.md)       
 
 [ตั้งค่าคอนฟิกและติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md)  

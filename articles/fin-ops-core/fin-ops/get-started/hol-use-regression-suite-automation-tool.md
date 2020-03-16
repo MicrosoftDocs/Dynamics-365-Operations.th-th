@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025815"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070831"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>ใช้บทช่วยสอน Regression Suite Automation Tool
 
@@ -217,15 +217,15 @@ ms.locfileid: "3025815"
 
 ## <a name="advanced-scripting"></a>การเขียนสคริปต์ขั้นสูง
 
-### <a name="command-line"></a>รายการคำสั่ง
+### <a name="cli"></a>CLI
 
-RSAT สามารถถูกเรียกจากหน้าต่าง **พร้อมต์คำสั่ง**
+RSAT สามารถถูกเรียกจากหน้าต่าง **พร้อมต์คำสั่ง** หรือ **PowerShell**
 
 > [!NOTE]
 > ตรวจสอบว่าตัวแปรของสภาพแวดล้อม **TestRoot** ถูกตั้งค่าเป็นพาธการติดตั้ง RSAT (ใน Microsoft Windows เปิด **แผงควบคุม** เลือก **ระบบและการรักษาความปลอดภัย \> ระบบ \> การตั้งค่าระบบขั้นสูง** และจากนั้น เลือก **ตัวแปรของสภาพแวดล้อม** )
 
-1. เปิดหน้าต่าง **พร้อมต์คำสั่ง** เป็นผู้ดูแลระบบ
-2. รันเครื่องมือจากไดเรกทอรีการติดตั้ง
+1. เปิดหน้าต่าง **พร้อมต์คำสั่ง** หรือ **PowerShell** เป็นผู้ดูแลระบบ
+2. นำทางไปยังไดเรกทอรีการติดตั้ง RSAT
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+แสดงวิธีใช้เกี่ยวกับคำสั่งที่มีอยู่ทั้งหมดและพารามิเตอร์
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>พารามิเตอร์ที่ไม่จำเป็นต้องระบุ
+
+**``command``**
+
+
+ที่ซึ่ง ``[command]`` เป็นหนึ่งในคำสั่งที่ระบุไว้ด้านล่าง
+
+
+#### <a name="about"></a>เกี่ยวกับ
+แสดงรุ่นปัจจุบัน
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+ล้างหน้าจอ
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>ดาวน์โหลด
+ดาวน์โหลดเอกสารแนบสำหรับกรณีทดสอบที่ระบุไปยังไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``test_case_id``** แสดงรหัสกรณีทดสอบ  
+**``output_dir``** แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>แก้ไข
+อนุญาตให้คุณเปิดไฟล์พารามิเตอร์ในโปรแกรม Excel และแก้ไขได้
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``excel_file``** ต้องมีพาธเต็มไปยังไฟล์ Excel ที่มีอยู่
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>สร้าง
+สร้างการดำเนินการทดสอบและไฟล์พารามิเตอร์สำหรับกรณีทดสอบที่ระบุในไดเรกทอรีผลลัพธ์
+คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``test_case_id``** แสดงรหัสกรณีทดสอบ  
+**``output_dir``** แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+สร้างกรณีการทดสอบใหม่ซึ่งสืบทอดมาจากกรณีการทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``parent_test_case_id``** แสดงรหัสกรณีทดสอบหลัก  
+**``test_plan_id``** แสดงรหัสแผนทดสอบ  
+**``test_suite_id``** แสดงรหัสชุดทดสอบ
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+สร้างเฉพาะไฟล์การดำเนินการทดสอบและกรณีทดสอบที่ระบุในไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``test_case_id``** แสดงรหัสกรณีทดสอบ  
+**``output_dir``** แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+สร้างกรณีการทดสอบทั้งหมดสำหรับชุดที่ระบุในไดเรกทอรีผลลัพธ์
+คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์เป็นพารามิเตอร์ **test_suite_name**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``test_suite_name``** แสดงชื่อชุดทดสอบ  
+**``output_dir``** แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>วิธีใช้
+เหมือนกับ [?](####?) คำสั่ง
+
+
+#### <a name="list"></a>รายการ
+แสดงรายการกรณีที่มีการทดสอบทั้งหมดที่มีอยู่
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+แสดงรายการแผนการทดสอบทั้งหมดที่มีอยู่
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+แสดงรายการกรณีทดสอบสำหรับชุดการทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **suite_name**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``suite_name``** ชื่อของชุดที่ต้องการ
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+แสดงรายการชุดการทดสอบทั้งหมดที่มีอยู่
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>ย้อนกลับ
+ย้อนกลับกรณีการทดสอบโดยใช้ไฟล์ Excel
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``excel_file``** พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่ 
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+ย้อนกลับกรณีการทดสอบหลายกรณีพร้อมกัน
+คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``test_case_id1``** รหัสของกรณีทดสอบที่มีอยู่  
+**``test_case_id2``** รหัสของกรณีทดสอบที่มีอยู่  
+**``test_case_idN``** รหัสของกรณีทดสอบที่มีอยู่  
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+ย้อนกลับกรณีทดสอบหลายกรณีพร้อมกันโดยใช้ไฟล์ Excel
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``excel_file1``** พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่  
+**``excel_file2``** พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่  
+**``excel_fileN``** พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่  
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+ย้อนกลับกรณีทดสอบทั้งหมดจากชุดทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **suite_name**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``suite_name``** ชื่อของชุดที่ต้องการ
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>ออก
+ปิดแอพลิเคชัน
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>อัพโหลด
+อัพโหลดไฟล์ทั้งหมดที่เป็นของชุดทดสอบหรือกรณีการทดสอบที่ระบุ
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``suite_name``** ไฟล์ทั้งหมดที่เป็นของชุดทดสอบที่ระบุจะถูกอัพโหลด
+**``testcase_id``** ไฟล์ทั้งหมดที่เป็นของกรณีทดสอบที่ระบุจะถูกอัพโหลด
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+อัพโหลดเฉพาะไฟล์การบันทึกที่เป็นของกรณีการทดสอบที่ระบุ
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>พารามิเตอร์ที่ต้องระบุ
+**``testcase_id``** ไฟล์การบันทึกที่เป็นของกรณีการทดสอบที่ระบุจะถูกอัพโหลด
+
+##### <a name="examples"></a>ตัวอย่างเช่น
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>การใช้
+แสดงวิธีสองวิธีในการเรียกใช้แอพลิเคชันนี้: วิธีหนึ่งโดยใช้ไฟล์การตั้งค่าเริ่มต้น อีกวิธีหนึ่งให้ไฟล์การตั้งค่า
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>ตัวอย่างของ Windows PowerShell
 

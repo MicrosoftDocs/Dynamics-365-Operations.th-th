@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 98c08ae2ab4c7cceadb6caaf98fa431e56be4b97
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030877"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042745"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>ระบุตำแหน่งที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่สร้างขึ้น
 
@@ -69,6 +69,7 @@ Application Programming Interface (API) ของกรอบงานการ�
 ## <a name="review-source-code"></a>ตรวจสอบโค้ดต้นฉบับ
 
 ทบทวนรหัสของวิธีการ **insertFile()** ของคลาส **ERDocuManagement** สังเกตว่า เหตุการณ์ **AttachingFile()** ปรากฏขึ้น ขณะที่แนบไฟล์ที่สร้างไปยังเรกคอร์ด
+
 
 ```xpp
 /// <summary>

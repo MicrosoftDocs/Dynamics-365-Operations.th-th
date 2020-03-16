@@ -1,9 +1,9 @@
 ---
 title: โฮมเพจการปรับใช้ในสถานที่
 description: หัวข้อนี้แสดงข้อมูลและลิงค์ไปยังเนื้อหาเกี่ยวกับการปรับใช้ในองค์กร
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770957"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090600"
 ---
 # <a name="on-premises-deployment-home-page"></a>โฮมเพจตัวเลือกการปรับใช้ในสถานที่
 
@@ -56,11 +56,11 @@ ms.locfileid: "2770957"
 - [ใช้การอัปเดตกับการปรับใช้ในสถานที่](apply-updates-on-premises.md)
 - [ปรับใช้สภาพแวดล้อม on-premises อีกครั้ง](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [ความสามารถของ Retail ที่มีอยู่ในการปรับใช้ on-premises](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [ความสามารถของ Commerce ที่มีอยู่ในการปรับใช้แบบ on-premises](../../../retail/retail-onprem.md)
 - [ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทางการขายปลีกในสภาพแวดล้อมในสถานที่](deploy-retail-onprem.md)
-- [ตั้งค่าคอนฟิก ติดตั้ง และเริ่มการใช้งาน Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [ตั้งค่าคอนฟิกและติดตั้ง Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [ตั้งค่าคอนฟิก ติดตั้ง และเรียกใช้ Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [ตั้งค่าคอนฟิกและติดตั้ง Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>อัพเกรด
 - [กระบวนการปรับปรุงแบบแทนสำหรับสภาพแวดล้อมแบบ On-Premises](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ ms.locfileid: "2770957"
 - [การหมุนเวียนใบรับรอง](certificate-rotation-on-prem.md)
 - [การวินิจฉัยแบบในสถานที่](on-premises-diagnostics.md)
 - [คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [คุณลักษณะที่ถูกลบออกหรือเลิกสนับสนุนสำหรับ Finance and operations](../migration-upgrade/deprecated-features.md)
+- [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับ Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../migration-upgrade/on-prem-version-update-policy.md)
  

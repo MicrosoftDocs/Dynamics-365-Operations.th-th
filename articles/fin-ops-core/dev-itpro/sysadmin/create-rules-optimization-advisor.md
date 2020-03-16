@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181001"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3082007"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>สร้างกฎสำหรับโปรแกรมช่วยแนะนำการปรับให้เหมาะสม
 
@@ -36,7 +36,7 @@ ms.locfileid: "2181001"
 
 ในการสร้างกฎใหม่สำหรับ **โปรแกรมช่วยแนะนำการปรับให้เหมาะสม** เพิ่มคลาสใหม่ที่ขยายคลาสนามธรรม **SelfHealingRule** ใช้อินเทอร์เฟส **IDiagnosticsRule** และถูกตกแต่งโดยแอตทริบิวต์ **DiagnosticRule** คลาสต้องมีวิธีที่ถูกตกแต่งด้วยแอตทริบิวต์ **DiagnosticsRuleSubscription** ตามแบบแผน ซึ่งเสร็จสิ้นในวิธี **opportunityTitle** ซึ่งจะกล่าวถึงในภายหลัง คลาสใหม่นี้สามารถถูกเพิ่มไปยังแบบจำลองที่กำหนดเองที่มีการขึ้นต่อกันในแบบจำลอง **SelfHealingRules** ได้ ในตัวอย่างต่อไปนี้ กฎที่กำลังถูกใช้ เรียกว่า **RFQTitleSelfHealingRule**
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 คลาสนามธรรม **SelfHealingRule** มีวิธีการนามธรรมที่ต้องดำเนินการในคลาสที่สืบทอด หลักคือ วิธี **ประเมิน** ซึ่งส่งกลับรายการของโอกาสที่ระบุโดยกฎ โอกาสสามารถเป็นต่อนิติบุคคล หรือสามารถนำไปใช้กับทั้งระบบได้
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ protected List evaluate()
 
 โค้ดต่อไปนี้แสดงวิธี **findRFQCasesWithEmptyTitle** ซึ่งส่งกลับรหัสของกรณี RFQ ที่มีชื่อที่ว่างเปล่า
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ private container findRFQCasesWithEmptyTitle()
 
 รายการต่อไปนี้เป็นการนำไปใช้แบบตัวอย่าง มีการใช้สตริงการดิบสำหรับความเรียบง่าย แต่การใช้งานที่ถูกต้องต้องมีป้ายชื่อ 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 คำอธิบายที่ส่งคืนโดย **opportunityDetails** ปรากฏในบานหน้าต่างด้านข้างที่แสดงข้อมูลเพิ่มเติมเกี่ยวกับโอกาส นี่จะใช้อาร์กิวเมนต์ **SelfHealingOpportunity** ซึ่งก็คือฟิลด์ **ข้อมูล** ที่สามารถใช้เพื่อระบุรายละเอียดเพิ่มเติมเกี่ยวกับโอกาสได้ ในตัวอย่าง วิธีส่งคืนรหัสของกรณี RFQ ที่มีชื่อเรื่องแบบว่างเปล่า 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ public str opportunityDetails(SelfHealingOpportunity _opportunity)
 
 **provideHealingAction** ส่งคืนค่าจริง ถ้ามีระบุการดำเนินการรักษามิฉะนั้น จะส่งกลับค่าเท็จ ถ้ามีการส่งคืนค่าจริง วิธีการ **performAction** ต้องถูกนำมาใช้ได้ หรือจะมีข้อผิดพลาดแสดงขึ้น วิธีการ **performAction** ใช้อาร์กิวเมนต์ **SelfHealingOpportunity** ที่ซึ่งสามารถใช้ข้อมูลสำหรับการดำเนินการได้ ในตัวอย่าง การดำเนินการเปิด **PurchRFQCaseTableListPage** สำหรับการแก้ไขด้วยตนเอง 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 > [!NOTE]
 > รายการเมนูต้องเป็นรายการเมนูการดำเนินการเพื่อให้ความปลอดภัยทำงานอย่างถูกต้อง ชนิดรายการเมนูอื่นๆ เช่น **แสดงรายการเมนู** จะไม่ทำงานอย่างถูกต้อง
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 หลังจากที่มีการคอมไพล์กฎ ดำเนินการงานต่อไปนี้เพื่อให้แสดงในอินเทอร์เฟสผู้ใช้ (UI)
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ class ScanNewRulesJob
 
 ตัวอย่างต่อไปนี้คือ ส่วนเล็กๆ ของโค้ดที่มีโครงสร้างของกฎซึ่งรวมถึงวิธีและแอททริบิวต์ที่จำเป็นทั้งหมด จะช่วยคุณในการเริ่มต้นใช้งานด้วยการเขียนกฎใหม่ ฉลากและรายการเมนูการดำเนินการที่ถูกใช้ในตัวอย่าง ถูกใช้เพื่อวัตถุประสงค์การสาธิตเท่านั้น
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

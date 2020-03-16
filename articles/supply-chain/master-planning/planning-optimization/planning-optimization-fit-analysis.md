@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a61529da63bc20fdd591afc94db960b05c284bb9
-ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
+ms.openlocfilehash: 25f3b39d0e6e88eb3f042ab93773e9724528ab0f
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935886"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076189"
 ---
+# <a name="planning-optimization-fit-analysis"></a>การวิเคราะห์การปรับให้เหมาะสมกับการวางแผน
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="planning-optimization-fit-analysis"></a>การวิเคราะห์การปรับให้เหมาะสมกับการวางแผน
 
 เมื่อต้องการดูว่าการตั้งค่าและข้อมูลปัจจุบันของคุณเข้ากันได้อย่างไรกับฟังก์ชันการเพิ่มประสิทธิภาพการวางแผนให้ไปที่ **การวางแผนหลัก** \> **ตั้งค่า** \> **การตั้งค่าการเพิ่มประสิทธิภาพการวางแผนหลัก** แล้วเลือก **เรียกใช้การวิเคราะห์** ถ้าการวิเคราะห์พบความไม่สอดคล้องกัน จะแสดงรายการอยู่บนหน้าเดียวกัน (การวิเคราะห์อาจใช้เวลาสักครู่ในการรัน)
 

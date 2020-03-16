@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773656"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080783"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>ใช้ฟิลด์ที่กำหนดเองสำหรับแอปมือถือ Microsoft Dynamics 365 Project Timesheet บน iOS และ Android
 
@@ -183,7 +183,7 @@ ms.locfileid: "2773656"
 
 หมายเหตุ การใช้ของวิธีการ **TSTimesheetCustomField::newFromMetatdata()** เพื่อทำให้การเริ่มต้นคุณสมบัติฟิลด์แบบกำหนดเองเป็นไปได้ง่ายขึ้น: **fieldBaseType** **tableName** **fieldname** **label** **isEditable** **isMandatory** **stringLength** และ **numberOfDecimals** นอกจากนี้ คุณยังสามารถตั้งค่าพารามิเตอร์เหล่านี้ด้วยตนเองได้ตามที่คุณต้องการ
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 วิธีการ **buildCustomFieldListForEntry** ถูกใช้ในการป้อนค่าในรายการแผ่นเวลาที่บันทึกไว้ในแอปบนมือถือ ใช้เรกคอร์ด TSTimesheetTrans เป็นพารามิเตอร์ สามารถใช้ฟิลด์จากเรกคอร์ดนั้นเพื่อกรอกค่าฟิลด์ที่กำหนดเองในแอป
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ final class TsTimesheetEntry_Extension
 > [!NOTE]
 > ตัวอย่างต่อไปนี้จะบันทึกค่า **firstOption** หรือ **secondOption** ที่ผู้ใช้เลือกไปยังฐานข้อมูลเป็นค่าสตริงดิบ ถ้าฟิลด์ฐานข้อมูลเป็นฟิลด์ของชนิด **Enum** ค่าเหล่านั้นอาจถูกแม็ปด้วยตนเองไปยังค่า Enum แล้วถูกบันทึกไปยังฟิลด์ Enum บนตารางฐานข้อมูล
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ final class TSTimesheetEntryService_Extension
 
 ตัวอย่างต่อไปนี้จะแสดงค่าที่คำนวณได้ในส่วนของส่วนหัวในแอป
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 วิธีการ **buildCustomFieldListForHeader** ถูกใช้ในการกรอกข้อมูลรายละเอียดส่วนหัวของแผ่นเวลาในแอปบนมือถือ ซึ่งใช้เรกคอร์ด TSTimesheetTable เป็นพารามิเตอร์ สามารถใช้ฟิลด์จากเรกคอร์ดนั้นเพื่อกรอกค่าฟิลด์ที่กำหนดเองในแอป ตัวอย่างต่อไปนี้ไม่ได้อ่านค่าใดๆ จากฐานข้อมูล แต่จะใช้ตรรกะ X++ เพื่อสร้างค่าที่มีการคำนวณซึ่งจะแสดงในแอปแทน
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension
