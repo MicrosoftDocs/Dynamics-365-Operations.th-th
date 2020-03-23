@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34 (พฤษภาคม 2020)
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (เมษายน 2020)
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (กุมภาพันธ์ 2020)
@@ -146,41 +148,67 @@
                   items:
                     - name: ภาพรวมของการรวมข้อมูลโดยใช้ Common Data Service
                       href: data-entities/data-integration-cds.md
-                    - name: การรวมสองทิศทางแบบซิงโครนัส
+                    - name: การรวมแบบสองทิศทาง
                       items:
                         - name: โฮมเพจการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: ภาพรวมของการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: ลำดับชั้นขององค์กรใน Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: การรวมบริษัท
+                        - name: การตั้งค่าการรวมแบบสองทิศทาง
                           items:
-                            - name: แนวคิดของบริษัทใน Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: การเริ่มต้นระบบด้วยข้อมูลของบริษัท
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: ข้อมูลหลักของลูกค้าแบบรวม
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: บัญชีแยกประเภทแบบรวม
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: การรวมผู้จัดจำหน่าย
+                            - name: ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: สถานการณ์จำลองที่สนับสนุนสำหรับการตั้งค่าการรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: การแม็ปแนวคิดระหว่างแอป
                           items:
-                            - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: สลับการออกแบบของผู้จัดจำหน่าย
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: ไซต์และคลังสินค้าแบบรวม
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: ข้อมูลหลักของภาษีแบบรวม
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: การซิงโครไนส์ครั้งแรก
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: การแก้ไขปัญหาการรวมข้อมูล
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: การรวมสองทิศทางแบบอะซิงโครนัส
+                            - name: ลำดับชั้นขององค์กรใน Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: การรวมบริษัท
+                              items:
+                                - name: แนวคิดของบริษัทใน Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: การเริ่มต้นระบบด้วยข้อมูลของบริษัท
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: ข้อมูลหลักของลูกค้าแบบรวม
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: การรวมผลิตภัณฑ์
+                              items:
+                                - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: ไซต์และคลังสินค้าแบบรวม
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: ข้อมูลทางการเงินและภาษี
+                              items:
+                                - name: การเข้าถึงข้อมูลอ้างอิงทางการเงินและภาษี
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: บัญชีแยกประเภทแบบรวม
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: ข้อมูลหลักของภาษีแบบรวม
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: การรวมผู้จัดจำหน่าย
+                              items:
+                                - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: สลับการออกแบบของผู้จัดจำหน่าย
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดในการรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: ผู้ปฏิบัติงาน งาน และตำแหน่งแบบรวม
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
+                          items:
+                            - name: การสนับสนุนสำหรับโซลูชัน Field Service และโซลูชัน Project Service Automation
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: การซิงโครไนส์ครั้งแรก
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: การแก้ไขปัญหาการรวมข้อมูล
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: การรวมกับตัวรวมข้อมูล Power Platform
                       items:
                         - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
                           items:
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: การคืนค่าฐานข้อมูล ณ จุดใดจุดหนึ่งของเวลา
                   href: database/database-point-in-time-restore.md
+                - name: การคืนค่าฐานข้อมูลการผลิต ณ จุดใดจุดหนึ่งของเวลาไปยังสภาพแวดล้อม Sandbox
+                  href: database/database-pitr-prod-sandbox.md
             - name: บทช่วยสอน
               items:
                 - name: รีเฟรชเพื่อวัตถุประสงค์ในการฝึกอบรม
@@ -428,8 +458,10 @@
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 8 และ 11)
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทางการขายปลีกในสภาพแวดล้อมในสถานที่
+                    - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                       href: deployment/deploy-retail-onprem.md
+                    - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
+                      href: deployment/onprem-reuseadfs.md
                 - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: การรวม PowerBI.com กับสภาพแวดล้อมในสถานที่
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: สร้างหรืออัปเดตระเบียบวิธี
               href: lifecycle-services/create-methodology.md
-            - name: ตัวทำแบบจำลองกระบวนการทางธุรกิจ
-              href: lifecycle-services/bpm-overview.md
-            - name: ไลบรารีกระบวนการทางธุรกิจในตัวทำแบบจำลองกระบวนการทางธุรกิจ
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: สร้าง แก้ไข และเรียกดูไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: ทำงานให้เสร็จสมบูรณ์ในตัวทำแบบจำลองกระบวนการทางธุรกิจ
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: ทำงานกับแผนผังกิจกรรมในไลบรารี BPM
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: ซิงโครไนส์ไลบรารี BPM กับ Azure DevOps
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: สร้างไลบรารีการทดสอบการยอมรับโดยใช้คู่มืองานและ BPM
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: แผนผังลำดับงานในตัวทำแบบจำลองกระบวนการทางธุรกิจ
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเองไปยังตัวทำแบบจำลองกระบวนการทางธุรกิจ
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: ตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM)
+              items:
+                - name: ภาพรวมตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM)
+                  href: lifecycle-services/bpm-overview.md
+                - name: ไลบรารีกระบวนการทางธุรกิจในตัวทำแบบจำลองกระบวนการทางธุรกิจ
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: สร้าง แก้ไข และเรียกดูไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: ทำงานให้เสร็จสมบูรณ์ในตัวทำแบบจำลองกระบวนการทางธุรกิจ
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: ทำงานกับแผนผังกิจกรรมในไลบรารี BPM
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: ซิงโครไนส์ไลบรารี BPM กับ Azure DevOps
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: สร้างไลบรารีการทดสอบการยอมรับโดยใช้คู่มืองานและ BPM
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: แผนผังลำดับงานในตัวทำแบบจำลองกระบวนการทางธุรกิจ
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเองไปยังตัวทำแบบจำลองกระบวนการทางธุรกิจ
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: คำขอการบริการ
+              items:
+                - name: การดำเนินงานและการให้บริการระบบคลาวด์
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: ส่งคำขอการบริการไปยังทีมงานวิศวกรรมบริการของ Dynamics
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: การตรวจสอบและการวินิจฉัย
               href: lifecycle-services/monitoring-diagnostics.md
             - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
-            - name: ส่งคำขอไปยังทีมงานวิศวกรรมของ Dynamics Service
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับ Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: การดำเนินงานและการให้บริการระบบคลาวด์
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: จัดการประสบการณ์การสนับสนุนของ Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: การจัดการระบบ
