@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล
-description: ''
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
+description: แต่ละสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources บทความที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในแต่ละสัปดาห์
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f36aba8a68ea8cc261423f79db00e175df1cf349
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4058618ec95fabc90fdc784552c1920a109e6418
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075959"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123981"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
 
@@ -41,6 +41,9 @@ ms.locfileid: "3075959"
 
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสัปดาห์ของฝ่ายทรัพยากรบุคคล ให้ดูที่บทความต่อไปนี้:
 
+[10 มีนาคม 2020](hr-whats-new-2020-03-10.md)</br>
+[3 มีนาคม 2020](hr-whats-new-2020-03-03.md)</br>
+[25 กุมภาพันธ์ 2020](hr-whats-new-2020-02-25.md)</br>
 [18 กุมภาพันธ์ 2020](hr-whats-new-2020-02-18.md)</br>
 [12 กุมภาพันธ์ 2020](hr-whats-new-2020-02-12.md)</br>
 [7 กุมภาพันธ์ 2020](hr-whats-new-2020-02-07.md)</br>

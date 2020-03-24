@@ -1,9 +1,9 @@
 ---
-title: สร้างรายการคำแนะนำผลิตภัณฑ์ที่ระบุ
-description: หัวข้อนี้จะอธิบายวิธีการที่ผู้จัดซื้อสามารถสร้างและจัดการรายการผลิตภัณฑ์สำหรับลูกค้า Microsoft Dynamics 365 Commerce ด้วยตนเอง
+title: สร้างคำแนะนำที่ระบุด้วยตนเอง
+description: หัวข้อนี้จะอธิบายวิธีการที่ผู้จัดซื้อสามารถสร้างและจัดการรายการผลิตภัณฑ์สำหรับลูกค้า Microsoft Dynamics 365 Commerce ได้ด้วยตนเอง
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024944"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127732"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>สร้างรายการคำแนะนำผลิตภัณฑ์ที่ระบุ
+# <a name="manually-create-curated-recommendations"></a>สร้างคำแนะนำที่ระบุด้วยตนเอง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการที่ผู้จัดซื้อสามารถสร้างและจัดการรายการผลิตภัณฑ์สำหรับลูกค้า Microsoft Dynamics 365 Commerce ด้วยตนเอง
+หัวข้อนี้จะอธิบายวิธีการที่ผู้จัดซื้อสามารถสร้างและจัดการรายการคำแนะนำผลิตภัณฑ์สำหรับลูกค้า Microsoft Dynamics 365 Commerce ได้ด้วยตนเอง
 
 รายการที่อนุรักษ์คือคอลเลกชันของเนื้อหาแต่ละรายการที่สร้างและอนุรักษ์โดยบุคคล  
 
@@ -52,12 +52,26 @@ ms.locfileid: "3024944"
 
 ![รายการการรวบรวมตัวอย่างในฝ่ายสนับสนุน](./media/examplecuratedrecolist.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
+[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+
 [เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
 
-[เพิ่มรายการคำแนะนำผลิตภัณฑ์ลงในหน้า](add-reco-list-to-page.md)
+[เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
 
-[ภาพรวมโมดูลการรวบรวมผลิตภัณฑ์](product-collection-module-overview.md)
+[เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
+
+[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
+
+[เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
+
+[เพิ่มคำแนะนำในหน้าจอธุรกรรม](add-recommendations-control-pos-screen.md)
+
+[ปรับปรุงผลลัพธ์คำแนะนำของ AI-ML](modify-product-recommendation-results.md)
+
+[สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)
+
+[FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)

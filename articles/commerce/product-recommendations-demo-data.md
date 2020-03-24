@@ -1,9 +1,9 @@
 ---
-title: รับคำแนะนำเกี่ยวกับผลิตภัณฑ์โดยใช้ข้อมูลสาธิต
+title: สร้างคำแนะนำที่มีข้อมูลสาธิต
 description: เอกสารนี้มีวัตถุประสงค์เพื่อให้คำแนะนำเกี่ยวกับวิธีการใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ผ่านช่องทาง omni ในสภาพแวดล้อมของกล่องเดี่ยวระดับ-1 โดยใช้ข้อมูลสาธิตแบบกำหนดเองที่กำหนดไว้ล่วงหน้า
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042791"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127847"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>รับคำแนะนำเกี่ยวกับผลิตภัณฑ์โดยใช้ข้อมูลสาธิต
+# <a name="create-recommendations-with-demo-data"></a>สร้างคำแนะนำที่มีข้อมูลสาธิต
+
+[!include [banner](includes/banner.md)]
+
 เอกสารนี้มีวัตถุประสงค์เพื่อให้คำแนะนำเกี่ยวกับวิธีการใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ผ่านช่องทาง omni ในสภาพแวดล้อมของกล่องเดี่ยวระดับ-1 โดยใช้ข้อมูลสาธิตแบบกำหนดเองที่กำหนดไว้ล่วงหน้า
 
 คำแนะนำผลิตภัณฑ์ผ่านช่องทาง Omni จัดชุดของรายการสั่งสินค้าที่สร้างขึ้นโดยทางโปรแกรมหรือดูแลเกี่ยวกับการแก้ไขของผลิตภัณฑ์ รายการเหล่านี้สามารถใช้ได้ในหลายสถานการณ์ ขึ้นอยู่กับความต้องการของธุรกิจ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคำแนะนำผลิตภัณฑ์ โปรดอ่าน [ภาพรวมคำแนะนำผลิตภัณฑ์](product-recommendations.md)
@@ -36,10 +39,10 @@ ms.locfileid: "3042791"
 สำหรับคำแนะนำผลิตภัณฑ์ในสภาพแวดล้อมระดับ 1 จะขึ้นอยู่กับข้อมูลสาธิตแบบคงที่ที่จัดเก็บอยู่ในไฟล์ .csv เท่านั้น
 
 ## <a name="enabling-product-recommendations-demo-data-in-an-environment"></a>การเปิดใช้งานข้อมูลสาธิตคำแนะนำผลิตภัณฑ์ในสภาพแวดล้อม
-ในการจะจะเปิดใช้งานวันที่สาธิตคำแนะนำผลิตภัณฑ์ ลูกค้าจำเป็นต้องจัดวางการขยายของการสาธิตการแสดงตัวอย่าง Dynamics 365 Commerce ไปยังสภาพแวดล้อมที่เกี่ยวข้อง  การดำเนินการดังกล่าวจะเปิดใช้งานข้อมูลสาธิตของผลิตภัณฑ์ที่แนะนำโดยอัตโนมัติ
+ในการเปิดใช้งานวันที่สาธิตคำแนะนำผลิตภัณฑ์ ลูกค้าจำเป็นต้องปรับใช้การขยายของการสาธิตการแสดงตัวอย่าง Dynamics 365 Commerce ไปยังสภาพแวดล้อมที่เกี่ยวข้อง การดำเนินการดังกล่าวจะเปิดใช้งานข้อมูลสาธิตของผลิตภัณฑ์ที่แนะนำโดยอัตโนมัติ
 
 ## <a name="default-demo-data"></a>ข้อมูลสาธิตเริ่มต้น
-สภาพแวดล้อมของ Onebox แต่ละชนิดพร้อมกับชุดที่โหลดไว้แล้วของข้อมูลสาธิตคำแนะนำผลิตภัณฑ์ถูกจัดเก็บในไฟล์ reco_demo_data.csv ที่แบ่งด้วยเครื่องหมายจุลภาค ซึ่งจัดเก็บอยู่บน Commerce Scale Unit
+สภาพแวดล้อมของ Onebox แต่ละชนิดพร้อมกับชุดที่โหลดไว้แล้วของข้อมูลสาธิตคำแนะนำผลิตภัณฑ์ จะถูกจัดเก็บในไฟล์ 'reco_demo_data.csv' ที่แบ่งด้วยเครื่องหมายจุลภาค ซึ่งจัดเก็บอยู่บน Commerce Scale Unit
 
 ข้อมูลนี้ได้จัดโครงสร้างตามคอลัมน์ต่อไปนี้
 
@@ -67,4 +70,22 @@ ms.locfileid: "3042791"
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
-[การวางแผนสภาพแวดล้อม](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+
+[เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
+
+[เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
+
+[เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
+
+[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
+
+[เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
+
+[เพิ่มคำแนะนำในหน้าจอธุรกรรม](add-recommendations-control-pos-screen.md)
+
+[ปรับปรุงผลลัพธ์คำแนะนำของ AI-ML](modify-product-recommendation-results.md)
+
+[สร้างคำแนะนำที่ระบุด้วยตนเอง](create-editorial-recommendation-lists.md)
+
+[FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)

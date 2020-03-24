@@ -1,9 +1,9 @@
 ---
-title: เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS
+title: เพิ่มคำแนะนำในหน้าจอธุรกรรม
 description: หัวข้อนี้อธิบายวิธีการเพิ่มการควบคุมคำแนะนำไปยังหน้าจอธุรกรรมบนอุปกรณ์ point of sale (POS) โดยใช้ตัวออกแบบโครงร่างหน้าจอใน Microsoft Dynamics 365 Commerce
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024150"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127686"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS
+# <a name="add-recommendations-to-the-transaction-screen"></a>เพิ่มคำแนะนำในหน้าจอธุรกรรม
 
 [!include [banner](includes/banner.md)]
 
@@ -96,8 +96,26 @@ ms.locfileid: "3024150"
 11. ในรายการ เลือก **1090 เครื่องบันทึกเงินสด**
 12. คลิก **รันทันที**
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[คำแนะนำผลิตภัณฑ์ใน POS](product.md)
+[ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
-[ภาพรวมของคำแนะนำผลิตภัณฑ์](../commerce/product-recommendations.md)
+[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+
+[เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
+
+[เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
+
+[เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
+
+[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
+
+[เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
+
+[ปรับปรุงผลลัพธ์คำแนะนำของ AI-ML](modify-product-recommendation-results.md)
+
+[สร้างคำแนะนำที่ระบุด้วยตนเอง](create-editorial-recommendation-lists.md)
+
+[สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)
+
+[FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)

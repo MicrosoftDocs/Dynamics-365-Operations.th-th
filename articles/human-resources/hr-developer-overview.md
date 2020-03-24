@@ -1,6 +1,6 @@
 ---
 title: ภาพรวม
-description: ''
+description: คำแนะนำสำหรับนักพัฒนานี้แสดงข้อมูลอ้างอิงฟิลด์ API และแบบกำหนดเอง นอกจากนี้ยังให้ข้อมูลเกี่ยวกับการรวมกับแอปอื่นๆ
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 995de90aa7c83b5aad35d935fe021706cf48ec4c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010726"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092002"
 ---
 # <a name="overview"></a>ภาพรวม
 
@@ -40,7 +40,7 @@ ms.locfileid: "3010726"
 - ตั้งค่าการรวมข้อมูล
   - [เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)
   - [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md)
-  - [ตั้งค่าคอนฟิกการรวมกับการเงิน](hr-admin-integration-finance.md)
+  - [ตั้งค่าคอนฟิกการรวมกับ Finance](hr-admin-integration-finance.md)
   - [ตั้งค่าคอนฟิกการรวมกับ Dayforce](hr-admin-integration-dayforce.md)
   - [สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ](hr-admin-integration-recurring-data-export.md)
   - รวมกับ Office

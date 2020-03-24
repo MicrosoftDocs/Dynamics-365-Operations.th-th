@@ -3,7 +3,7 @@ title: FAQ เกี่ยวกับคำแนะนำผลิตภัณ
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับกระบวนการและเครื่องมือ ที่คุณสามารถใช้ในการแก้ไขปัญหาที่เกี่ยวข้องกับคำแนะนำผลิตภัณฑ์หรือผลลัพธ์ของผลิตภัณฑ์
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003038"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127801"
 ---
 # <a name="product-recommendations-faq"></a>FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์
 
@@ -75,12 +75,28 @@ ms.locfileid: "3003038"
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>ฉันจะเปิดใช้งานคำแนะนำบน POS ได้อย่างไร
 
-หลังจากเปิดใช้งานคำแนะนำผลิตภัณฑ์แล้วคุณจะต้องเพิ่มแผงคำแนะนำลงในหน้าจอควบคุม POS โปรดดู [เอกสารประกอบของคุณลักษณะนี้](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเพิ่มแผงคำแนะนำให้กับโครงร่างของอุปกรณ์ POS
+หลังจากเปิดใช้งานคำแนะนำผลิตภัณฑ์แล้วคุณจะต้องเพิ่มแผงคำแนะนำลงในหน้าจอควบคุม POS สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS](add-recommendations-control-pos-screen.md)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
+[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+
 [เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
 
-[จัดการผลลัพธ์ของคำแนะนำผลิตภัณฑ์ที่ใช้ AI-ML](modify-product-recommendation-results.md)
+[เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
+
+[เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
+
+[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
+
+[เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
+
+[เพิ่มคำแนะนำในหน้าจอธุรกรรม](add-recommendations-control-pos-screen.md)
+
+[ปรับปรุงผลลัพธ์คำแนะนำของ AI-ML](modify-product-recommendation-results.md)
+
+[สร้างคำแนะนำที่ระบุด้วยตนเอง](create-editorial-recommendation-lists.md)
+
+[สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)

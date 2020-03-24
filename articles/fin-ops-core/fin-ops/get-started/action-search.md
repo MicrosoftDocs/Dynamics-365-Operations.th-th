@@ -3,7 +3,7 @@ title: การค้นหาการดำเนินการ
 description: บทความนี้อธิบายฟังก์ชันการดำเนินการค้นหา การดำเนินการค้นหาจะช่วยคุณค้นหาและดำเนินการที่เรียกใช้บนหน้า
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191327"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112179"
 ---
 # <a name="action-search"></a>การค้นหาการดำเนินการ
 
@@ -69,6 +69,9 @@ ms.locfileid: "2191327"
 ในตัวอย่างก่อนหน้านี้ การดำเนินการค้นหาการแสดงข้อมูลผลลัพธ์จากบานหน้าต่างการดำเนินการมาตรฐานที่ด้านบนของหน้า อย่างไรก็ตาม การดำเนินการค้นหายังแสดงผลลัพธ์จากแถบเครื่องมือที่สามารถมองเห็นได้ซึ่งตั้งอยู่ในตำแหน่งอื่นๆในหน้าด้วย ตัวอย่างเช่น คุณกำลังค้นหาปุ่ม **สินค้าคงคลังคงเหลือ** ที่ตั้งอยู่บน FastTab **รายการใบสั่งขาย** ในกรณีนี้ พาธปุ่มในรายการผลลัพธ์ (**รายการใบสั่งขาย** &gt; **สินค้าคงคลัง** &gt; **มุมมอง**) จะแจ้งให้คุณทราบว่า ปุ่มนี้อยู่ถูกตั้งอยู่ใต้หัวข้อ **มุมมอง** บนปุ่มเมนู **สินค้าคงคลัง** บน FastTab **รายการใบสั่งขาย**
 
 [![ปริมาณคงคลังคงเหลือ](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> มีปุ่มบางปุ่มที่ไม่แสดงในการค้นหาการดำเนินการ ซึ่งรวมถึงปุ่มกล่องโต้ตอบและปุ่มต่างๆ จากฟอร์มย่อย 
 
 ## <a name="action-search-vs-navigation-search"></a>การดำเนินการค้นหาเปรียบเทียบกับการค้นหาการนำทาง
 

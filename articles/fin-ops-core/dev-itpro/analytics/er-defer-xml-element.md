@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015410"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120889"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER
 
@@ -47,7 +47,7 @@ ms.locfileid: "3015410"
 
 ตัวเลือก **การดำเนินการที่เลื่อน** ไม่ได้รับการสนับสนุนสำหรับองค์ประกอบ XML ที่อยู่ในองค์ประกอบรูปแบบ **ทั่วไป\\ไฟล์** เมื่อตัวเลือก **แบ่งไฟล์** ถูกตั้งค่าเป็น **ใช่** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการแบ่งไฟล์ XML ให้ดูที่ [แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา](er-split-files.md)
 
-## <a name="Example"></a>ตัวอย่าง: เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>ตัวอย่าง: เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER
 
 ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ในผู้ดูแลระบบหรือที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์ [บทบาท](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) สามารถตั้งค่าคอนฟิกรูปแบบ ER ที่มีองค์ประกอบ XML ซึ่งลำดับการดำเนินการแตกต่างจากใบสั่งในลำดับชั้นของรูปแบบ
 

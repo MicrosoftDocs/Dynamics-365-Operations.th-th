@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057625"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113816"
 ---
 # <a name="set-up-an-email-notification-profile"></a>ตั้งค่าโปรไฟล์การแจ้งเตือนทางอีเมล
 
@@ -35,7 +35,7 @@ ms.locfileid: "3057625"
 
 ก่อนที่จะสร้างช่องทาง คุณจะต้องตั้งค่าโปรไฟล์เพื่อให้แน่ใจว่าสามารถส่งการแจ้งเตือนทางอีเมลสำหรับกิจกรรมต่างๆได้ เช่น การสร้างใบสั่ง สถานะการจัดส่งใบสั่ง และการชำระเงินล้มเหลว
 
-สำหรับข้อมูลการกำหนดค่าอีเมลเพิ่มเติม ดู [การกำหนดค่าและส่งอีเมล](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+สำหรับข้อมูลการกำหนดค่าอีเมลเพิ่มเติม ดู [การกำหนดค่าและส่งอีเมล](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 ## <a name="create-an-email-notification-profile"></a>สร้างโปรไฟล์การแจ้งเตือนทางอีเมล
 
@@ -84,7 +84,7 @@ ms.locfileid: "3057625"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ตั้งค่าคอนฟิกและส่งอีเมล](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[ตั้งค่าคอนฟิกและส่งอีเมล](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [ภาพรวมของช่องทาง](channels-overview.md)
 
