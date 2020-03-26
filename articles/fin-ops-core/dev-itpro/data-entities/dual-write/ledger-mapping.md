@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6bf1c554f56c1424da9fde98f67f80a6b7c95461
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: d9bcec1d4bb0207a2c3e0d46f7661b666fea3736
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020039"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112225"
 ---
 # <a name="integrated-ledger"></a>บัญชีแยกประเภทแบบรวม
 
@@ -38,22 +38,22 @@ ms.locfileid: "3020039"
 
 ข้อมูลบัญชีแยกประเภทรวมชุดของแผนผังเอนทิตีทางการเงินหลัก ที่ร่วมกันในระหว่างการโต้ตอบข้อมูลลูกค้า ดังที่แสดงในตารางต่อไปนี้
 
-แอป Finance and Operations      | แอปพลิเคชันอื่น ๆ ของ Dynamics 365
----------------------------------|---------------------------------
-สกุลเงิน                       | transactioncurrencies
-FiscalCalendar                   | msdyn\_fiscalcalendars
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears
-ExchRateType                     | msdyn\_exchangeratetypes
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods
-MainAccountCategory              | msdyn\_mainaccountcategory
-MainAccount                      | msdyn\_mainaccounts
-บัญชีแยกประเภท                           | msdyn\_ledgers
-ExchangeRates                    | msdyn\_currencyexchangerates
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods
-DimensionAttributeEntity         | msdyn\_dimensionattributes.md
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats.md
-LedgerChartOfAccounts            | msdyn\_chartofaccounts.md
+แอป Finance and Operations      | แอปที่เป็นแบบโมเดลใน Dynamics 365 | คำอธิบาย
+---------------------------------|----------------------------------|------------
+สกุลเงิน                       | transactioncurrencies            |
+FiscalCalendar                   | msdyn\_fiscalcalendars        |
+FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
+ExchRateType                     | msdyn\_exchangeratetypes        |
+ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
+FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
+MainAccountCategory              | msdyn\_mainaccountcategory        |
+MainAccount                      | msdyn\_mainaccounts        |
+บัญชีแยกประเภท                           | msdyn\_ledgers        |
+ExchangeRates                    | msdyn\_currencyexchangerates        |
+FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
+DimensionAttributeEntity         | msdyn\_dimensionattributes        |
+DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
+LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
 
 
 [!include [banner](../../includes/dual-write-symbols.md)]

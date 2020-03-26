@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015409"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124554"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER
 
@@ -45,7 +45,7 @@ ms.locfileid: "3015409"
 
 ตัวเลือก **การดำเนินการที่เลื่อน** ไม่สามารถใช้ได้กับลำดับที่ได้รับการตั้งค่าคอนฟิกเป็นลำดับที่ตัดขอบ ซึ่งความยาวสูงสุดถูกจำกัด
 
-## <a name="Example"></a>ตัวอย่าง: เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>ตัวอย่าง: เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER
 
 ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ในผู้ดูแลระบบหรือที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์ [บทบาท](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) สามารถตั้งค่าคอนฟิกรูปแบบ ER ที่มีองค์ประกอบลำดับซึ่งลำดับการดำเนินการแตกต่างจากใบสั่งในลำดับชั้นของรูปแบบ
 

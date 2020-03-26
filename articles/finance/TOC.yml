@@ -10,8 +10,6 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (พรีวิว)
-              href: accounts-receivable/payment-insights-overview.md
             - name: การอัปเดตบริการแบบหนึ่งเวอร์ชัน
               items:
                 - name: ภาพรวมของการอัปเดตบริการแบบหนึ่งเวอร์ชัน
@@ -26,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
+                - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: หยุดการอัปเดตบริการชั่วคราว
@@ -70,20 +70,24 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance รุ่น 10.0.10 (พฤษภาคม 2020)
+                      href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance รุ่น 10.0.9 (เมษายน 2020)
                       href: get-started/whats-new-changed-10-0-9.md
                     - name: Finance รุ่น 10.0.8 (กุมภาพันธ์ 2020)
                       href: get-started/whats-new-changed-10-0-8.md
-                    - name: Finance รุ่น 10.0.7 (มกราคม 2020)
-                      href: get-started/whats-new-changed-10-0-7.md
-                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+            - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+              items:
+                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนในรุ่นก่อนหน้า
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-                - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-                - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
+            - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
+              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
+            - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: แหล่งข้อมูลเอกสารประกอบ
               items:
                 - name: ระบบวิธีใช้
@@ -312,6 +316,8 @@
               href: accounts-receivable/tasks/establish-customer-method-payment.md
             - name: จัดทำค่าธรรมเนียมการชำระเงินของลูกค้า
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: ข้อมูลเชิงลึกของการชำระเงินของลูกค้า (พรีวิว)
+              href: accounts-receivable/payment-insights-overview.md
             - name: โพรไฟล์การลงรายการบัญชีลูกค้า
               href: accounts-receivable/customer-posting-profiles.md
             - name: คัดลอกลูกค้าโดยใช้ลำดับหมายเลขที่ใช้ร่วมกัน
@@ -1794,6 +1800,8 @@
                           href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
                         - name: กำหนดรหัส HSN และรหัสการบัญชีบริการ
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                        - name: สร้างชนิดอัตราภาษี
+                          href: localizations/apac-ind-GST-create-tax-rate-type.md
                         - name: สร้างบัญชีหลักสำหรับชนิดการลงรายการบัญชี GST
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: สร้างรอบระยะเวลาการชำระภาษี
@@ -1922,17 +1930,18 @@
                   items:
                     - name: ภาพรวมของกลไกจัดการภาษี
                       href: general-ledger/tax-engine.md
-                      items:
-                        - name: สร้างส่วนประกอบของภาษี
-                          href: localizations/tax-engine-create-tax-component.md
-                        - name: นำเข้าการตั้งค่าคอนฟิก
-                          href: general-ledger/tax-engine-import-configuration.md
-                        - name: การใช้งานกลไกจัดการภาษี
-                          href: general-ledger/tax-engine-applicability.md
-                        - name: การรวมกลไกจัดการภาษี
-                          href: general-ledger/tax-engine-integration.md
-                        - name: การขยายกลไกจัดการภาษี
-                          href: general-ledger/extend-tax-engine-configurations.md
+                    - name: นำเข้าการตั้งค่าคอนฟิก
+                      href: general-ledger/tax-engine-import-configuration.md
+                    - name: โปรแกรมออกแบบสูตรขั้นสูง
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                    - name: การใช้งานกลไกจัดการภาษี
+                      href: general-ledger/tax-engine-applicability.md
+                    - name: สร้างส่วนประกอบของภาษี
+                      href: localizations/tax-engine-create-tax-component.md
+                    - name: การรวมกลไกจัดการภาษี
+                      href: general-ledger/tax-engine-integration.md
+                    - name: การขยายกลไกจัดการภาษี
+                      href: general-ledger/extend-tax-engine-configurations.md
                 - name: FAQ เกี่ยวกับขีดจำกัดภาษี
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: การโอนย้ายสินค้าคงคลัง
@@ -2357,50 +2366,56 @@
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: สินทรัพย์ถาวร
                   items:
-                    - name: การจัดการสินทรัพย์ถาวร
-                      href: localizations/rus-fixed-assets.md
                     - name: ภาพรวมของสินทรัพย์ถาวร
-                      hfre: localizations/rus-fixed-assets-overview.md
+                      href: localizations/rus-fixed-assets-overview.md
                     - name: ตั้งค่าสินทรัพย์ถาวร
-                      href: localizations/rus-set-up-fixed-assets.md
-                    - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
-                      href: localizations/rus-fixed-asset-acquisition.md
-                    - name: ลงทะเบียนการซื้อสินทรัพย์ถาวร
-                      href: localizations/rus-register-acquisition.md
-                    - name: สร้างและลงรายการบัญชีสมุดรายวันงบประมาณสำหรับการซื้อสินทรัพย์ถาวร
-                      href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                    - name: สร้างการเช่าสินทรัพย์ถาวรและธุรกรรมการส่งคืนจากการเช่า
-                      href: localizations/rus-fixed-asset-leasing.md
-                    - name: การตรวจนับสินทรัพย์ถาวร
-                      href: localizations/rus-fixed-assets-counting.md
-                    - name: การประเมินค่าใหม่ตามสกุลเงินสำหรับสินทรัพย์ถาวร
-                      href: localizations/rus-fixed-asset-currency-revaluation.md
-                    - name: รักษาสินทรัพย์ถาวร
-                      href: localizations/rus-maintain-fixed-assets.md
-                    - name: ประเมินต้นทุนและค่าเสื่อมราคาของสินทรัพย์ถาวร
-                      href: localizations/rus-fixed-assets-revaluation.md
-                    - name: การแยกสินทรัพย์ถาวรบางส่วน (การชำระบัญชี)
-                      href: localizations/rus-fixed-assets-disassembly.md
-                    - name: ขาย ตัดจำหน่าย และตัดจ่ายสินทรัพย์
-                      href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                    - name: ตั้งค่าที่ตั้งและการกำหนดหมายเลขของสินทรัพย์ถาวร
-                      href: localizations/rus-fixed-assets-locations-numbering.md
-                    - name: ตั้งค่าค่าเสื่อมราคา
-                      href: localizations/rus-depreciation-setup.md
-                    - name: วิธีการคิดค่าเสื่อมราคา
-                      href: localizations/rus-depreciation-methods.md
-                    - name: โบนัสค่าเสื่อมราคา
-                      href: localizations/rus-bonus-depreciation.md
-                    - name: คำนวณค่าเสื่อมราคา
-                      href: localizations/rus-depreciation-calculation.md
-                    - name: โอนย้ายสินทรัพย์ถาวร
-                      href: localizations/rus-fixed-asset-transfer.md
-                    - name: แบบฟอร์มการพิมพ์โดยรวมสำหรับสินทรัพย์ถาวร
-                      href: localizations/printing-forms-fixed-assets.md
-                    - name: การบัญชีเกี่ยวกับเสื้อผ้าสำหรับทำงาน/เครื่องแต่งกายพิเศษ (รัสเซีย)
-                      href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: สินทรัพย์ถาวรที่ไม่มีมูลค่า (NVFA) (รัสเซีย)
-                      href: localizations/rus-not-valuable-assets.md
+                      items:
+                        - name: ตั้งค่าสินทรัพย์ถาวร
+                          href: localizations/rus-set-up-fixed-assets.md
+                        - name: ตั้งค่าการคิดค่าเสื่อมราคา
+                          href: localizations/rus-depreciation-setup.md
+                        - name: วิธีการคิดค่าเสื่อมราคา
+                          href: localizations/rus-depreciation-methods.md
+                        - name: โบนัสค่าเสื่อมราคา
+                          href: localizations/rus-bonus-depreciation.md
+                        - name: ตั้งค่าที่ตั้งและการกำหนดหมายเลขของสินทรัพย์ถาวร
+                          href: localizations/rus-fixed-assets-locations-numbering.md
+                    - name: การทำงานกับสินทรัพย์ถาวร
+                      items:
+                        - name: สร้างสินทรัพย์ถาวร
+                          href: localizations/rus-fixed-assets.md
+                        - name: ลงทะเบียนการซื้อสินทรัพย์ถาวร
+                          href: localizations/rus-register-acquisition.md
+                        - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
+                          href: localizations/rus-fixed-asset-acquisition.md
+                        - name: คำนวณค่าเสื่อมราคา
+                          href: localizations/rus-depreciation-calculation.md
+                        - name: การแยกสินทรัพย์ถาวรบางส่วน (การชำระบัญชี)
+                          href: localizations/rus-fixed-assets-disassembly.md
+                        - name: ขาย ตัดจำหน่าย และตัดจ่ายสินทรัพย์
+                          href: localizations/rus-sell-dispose-write-off-fixed-assets.md
+                        - name: สร้างการเช่าสินทรัพย์ถาวรและธุรกรรมการส่งคืนจากการเช่า
+                          href: localizations/rus-fixed-asset-leasing.md
+                        - name: รักษาสินทรัพย์ถาวร
+                          href: localizations/rus-maintain-fixed-assets.md
+                        - name: การตรวจนับสินทรัพย์ถาวร
+                          href: localizations/rus-fixed-assets-counting.md
+                        - name: การประเมินค่าใหม่ตามสกุลเงินสำหรับสินทรัพย์ถาวร
+                          href: localizations/rus-fixed-asset-currency-revaluation.md
+                        - name: ประเมินต้นทุนและค่าเสื่อมราคาของสินทรัพย์ถาวร
+                          href: localizations/rus-fixed-assets-revaluation.md
+                        - name: สร้างและลงรายการบัญชีสมุดรายวันงบประมาณสำหรับการซื้อสินทรัพย์ถาวร
+                          href: localizations/rus-post-budget-fixed-asset-acquisition.md
+                        - name: โอนย้ายสินทรัพย์ถาวร
+                          href: localizations/rus-fixed-asset-transfer.md
+                    - name: สินทรัพย์ถาวรที่ไม่มีมูลค่าและเสื้อผ้าสำหรับทำงาน
+                      items:
+                        - name: สินทรัพย์ถาวรที่ไม่มีมูลค่า (NVFA) (รัสเซีย)
+                          href: localizations/rus-not-valuable-assets.md
+                        - name: การบัญชีเกี่ยวกับเสื้อผ้าสำหรับทำงาน/เครื่องแต่งกายพิเศษ (รัสเซีย)
+                          href: localizations/rus-working-clothes-instruments-accounting.md
+                        - name: แบบฟอร์มการพิมพ์โดยรวมสำหรับสินทรัพย์ถาวร
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: บัญชีเจ้าหนี้และบัญชีลูกหนี้
                   items:
                     - name: การแก้ไขใบลดหนี้ (รัสเซีย)
@@ -2427,6 +2442,14 @@
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
                         - name: การสอบถามและรายงานที่มีข้อตกลง
                           href: localizations/rus-inquiries-reports-agreements.md
+                    - name: ธุรกรรมผ่านตัวกลาง
+                      items:
+                        - name: ภาพรวมของธุรกรรมผ่านตัวกลาง
+                          href: localizations/rus-transactions-through-intermediary.md
+                        - name: การซื้อตามการส่งเสริมการขาย
+                          href: localizations/rus-purchases-on-commission.md
+                        - name: การขายตามการส่งเสริมการขาย
+                          href: localizations/rus-sales-on-commission.md
                 - name: สินค้าคงคลัง
                   items:
                     - name: สินค้าที่อยู่ระหว่างส่งต่อจากผู้จัดจำหน่าย
@@ -2533,6 +2556,8 @@
                   href: localizations/emea-swe-sie-standard-report.md
                 - name: นำเข้ารูปแบบการชำระเงิน
                   href: localizations/emea-swe-payment-formats-import.md
+                - name: รายงานการชำระภาษีขายสำหรับสวีเดน
+                  href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: สวิตเซอร์แลนด์
               items:
                 - name: ภาพรวมของสวิตเซอร์แลนด์
@@ -2561,20 +2586,24 @@
                   href: localizations/united-kingdom.md
                 - name: แผนงานอุตสาหกรรมก่อสร้าง
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: สร้างสินเชื่อในส่วนลดการชำระเงิน
-                  href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: การสร้างใบสั่งซื้อที่มีสินค้าที่ต้องเสีย VAT ย้อนกลับ
-                  href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: การสร้างใบสั่งขายที่มีสินค้าที่ต้องเสีย VAT ย้อนกลับ
-                  href: localizations/tasks/gb-00002-sales-order.md
-                - name: การตั้งค่ากลุ่มภาษีขายตามประเภทสินค้าสำหรับ VAT ย้อนกลับ
-                  href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: ตั้งค่ากลุ่มสินค้า กฎ และพารามิเตอร์ VAT ย้อนกลับ
-                  href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
-                  href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: ค่าธรรมเนียมการส่งกลับ
+                  items:
+                    - name: สร้างสินเชื่อในส่วนลดการชำระเงิน
+                      href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
+                    - name: การสร้างใบสั่งซื้อที่มีสินค้าที่ต้องเสีย VAT ย้อนกลับ
+                      href: localizations/tasks/purchase-order-reverse-charge-vat.md
+                    - name: การสร้างใบสั่งขายที่มีสินค้าที่ต้องเสีย VAT ย้อนกลับ
+                      href: localizations/tasks/gb-00002-sales-order.md
+                    - name: การตั้งค่ากลุ่มภาษีขายตามประเภทสินค้าสำหรับ VAT ย้อนกลับ
+                      href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+                    - name: ตั้งค่ากลุ่มสินค้า กฎ และพารามิเตอร์ VAT ย้อนกลับ
+                      href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+                    - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
+                      href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
                 - name: การทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
                   href: localizations/emea-gbr-mtd-vat-integration.md
+                - name: สถิติเกี่ยวกับรายงานแนวทางปฏิบัติในการชำระเงิน
+                  href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: สหรัฐอเมริกา
               items:
                 - name: ภาพรวมของสหรัฐอเมริกา
@@ -3141,6 +3170,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: ตัวเลือกการกรองข้อมูลขั้นสูงสำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บส่วนกลาง
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md
                 - name: สร้างรายงานโดยเพิ่มเนื้อหาใน XML ดิบ
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                 - name: (ER) แหล่งข้อมูลข้ามบริษัทในการรายงานทางอิเล็กทรอนิกส์

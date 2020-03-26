@@ -22,6 +22,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: หยุดการอัปเดตบริการชั่วคราว
@@ -60,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: ความต้องการของระบบสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของช่องทางการขายปลีกในสภาพแวดล้อมในสถานที่
+                - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -84,12 +86,12 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce รุ่น 10.0.10 (พฤษภาคม 2020)
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce รุ่น 10.0.9 (เมษายน 2020)
                       href: get-started/whats-new-10-0-9.md
                     - name: Commerce รุ่น 10.0.8 (กุมภาพันธ์ 2020)
                       href: get-started/whats-new-10-0-8.md
-                    - name: Retail รุ่น 10.0.7 (มกราคม 2020)
-                      href: get-started/whats-new-10-0-7.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Finance and Operations
@@ -200,7 +202,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: การรับรองมาตรฐานความปลอดภัยของข้อมูลแอปพลิเคชันการชำระเงิน (PA-DSS)
                   href: dev-itpro/PA-DSS-Certification.md
-                - name: ความสามารถของ Commerce มีอยู่ในการปรับใช้แบบในสถานที่
+                - name: ความสามารถของ Commerce ที่มีอยู่ในการปรับใช้แบบในสถานที่
                   href: retail-onprem.md
             - name: การปรับใช้และโปรแกรมแก้ไขด่วน
               items:
@@ -336,6 +338,8 @@
                       href: pos-operations.md
                     - name: การเรียกใช้อุปกรณ์ของ POS สมัยใหม่ที่กำหนดเอง
                       href: dev-itpro/retail-POS-activation-changes.md
+                    - name: เปิดใช้งานการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
+                      href: aad-pos-logon.md
                     - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ POS ระบบคลาวด์
                       href: demo-data.md
                     - name: การค้นหาผลิตภัณฑ์และลูกค้าใน POS
@@ -368,6 +372,8 @@
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: เชื่อมต่ออุปกรณ์ต่อพ่วงกับ POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: การตรวจสอบความสมบูรณ์ของอุปกรณ์ต่อพ่วงและบริการ POS
+                          href: pos-healthcheck.md
                     - name: โครงร่างหน้าจอ
                       items:
                         - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: สร้างผลิตภัณฑ์ใหม่
                   items:
-                    - name: สร้างภาพรวมของผลิตภัณฑ์ใหม่
+                    - name: สร้างผลิตภัณฑ์ใหม่ใน Commerce
                       href: create-new-product.md
                     - name: จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: ตั้งค่าคูปอง
                   href: retail-coupons.md
+                - name: แสดงส่วนลดใน POS
+                  href: discounts-pos.md
                 - name: รายงานราคา
                   href: price-report.md
                 - name: สร้างข้อตกลงทางการค้าเฉพาะช่องทาง
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: เปิดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
-                - name: เพิ่มรายการคำแนะนำผลิตภัณฑ์ลงในหน้าอีคอมเมิร์ซ
-                  href: add-reco-list-to-page.md
                 - name: เปิดใช้งานคำแนะนำผลิตภัณฑ์
                   href: enable-product-recommendations.md
                 - name: คำแนะนำที่เป็นแบบส่วนบุคคล
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล
                       href: personalization-gdpr.md
-                - name: สร้างรายการคำแนะนำผลิตภัณฑ์ที่ระบุ
-                  href: create-editorial-recommendation-lists.md
-                - name: จัดการผลลัพธ์ของคำแนะนำผลิตภัณฑ์ที่ใช้ AI-ML
+                - name: เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ
+                  href: add-reco-list-to-page.md
+                - name: ประสบการณ์ใช้งาน POS
+                  items:
+                    - name: เพิ่มคำแนะนำผลิตภัณฑ์ใน POS
+                      href: product.md
+                    - name: เพิ่มคำแนะนำในหน้าจอธุรกรรม
+                      href: add-recommendations-control-pos-screen.md
+                - name: ปรับผลลัพธ์ของคำแนะนำผลิตภัณฑ์ที่ใช้ AI-ML
                   href: modify-product-recommendation-results.md
-                - name: รับคำแนะนำเกี่ยวกับผลิตภัณฑ์โดยใช้ข้อมูลสาธิต
+                - name: สร้างคำแนะนำผลิตภัณฑ์ที่ระบุด้วยตัวเอง
+                  href: create-editorial-recommendation-lists.md
+                - name: สร้างคำแนะนำเกี่ยวกับผลิตภัณฑ์โดยใช้ข้อมูลสาธิต
                   href: product-recommendations-demo-data.md
                 - name: FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์
                   href: faq-recommendations.md
-                - name: ประสบการณ์ใช้งาน POS
-                  items:
-                    - name: คำแนะนำผลิตภัณฑ์ใน POS
-                      href: product.md
-                    - name: เพิ่มตัวควบคุมคำแนะนำในหน้าจอธุรกรรมบนอุปกรณ์ POS
-                      href: add-recommendations-control-pos-screen.md
             - name: การให้คะแนนและบทวิจารณ์
               items:
                 - name: ภาพรวมของการให้คะแนนและบทวิจารณ์
@@ -656,6 +664,8 @@
               items:
                 - name: สร้างใบสั่งของศูนย์บริการ
                   href: tasks/create-call-center-orders.md
+                - name: เปลี่ยนวิธีการจัดส่งใน POS
+                  href: POS-change-delivery-mode.md
             - name: การจัดการใบสั่งแบบกระจาย
               items:
                 - name: ภาพรวมของ DOM
@@ -726,7 +736,7 @@
               href: statement-posting-eod.md
             - name: การปรับปรุงให้มีการจัดการสินค้าที่มีการติดตามแบบชุดงาน
               href: batch.md
-            - name: ตั้งค่าคอนฟิกพารามิเตอร์ Commerce ที่มีผลกับใบแจ้งยอด
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์การค้า ที่มีผลกับใบแจ้งยอด
               href: tasks/parameter-configurations-retail-statements.md
             - name: ตั้งค่าคอนฟิกการกำหนดวิธีการชำระเงินที่มีผลกับใบแจ้งยอดการขายปลีก
               href: tasks/payment-configurations-retail-statements.md
@@ -768,9 +778,15 @@
                   href: associate-site-online-store.md
                 - name: จัดการไฟล์ robots.txt
                   href: manage-robots-txt-files.md
+                - name: อัพโหลดการเปลี่ยนเส้นทาง URL จำนวนมาก
+                  href: upload-bulk-redirects.md
+                - name: ตั้งค่าผู้เช่า B2C ใน Commerce
+                  href: set-up-B2C-tenant.md
                 - name: ตั้งค่าหน้าแบบกำหนดเองสำหรับการลงชื่อเข้าใช้ของผู้ใช้
                   href: custom-pages-user-logins.md
-                - name: เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)
+                - name: ตั้งค่าคอนฟิกผู้เช่า B2C หลายรายในสภาพแวดล้อม Commerce
+                  href: configure-multi-B2C-tenants.md
+                - name: เพิ่มการสนับสนุนสำหรับเครือข่ายการให้บริการเนื้อหา (CDN)
                   href: add-cdn-support.md
                 - name: เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง
                   href: enable-store-detection.md
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: สร้าง URL ของหน้า
                       href: create-page-URL.md
+            - name: จัดการสินทรัพย์ดิจิทัล
+              items:
+                - name: ภาพรวมของการจัดการสินทรัพย์ดิจิทัล
+                  href: dam-overview.md
+                - name: อัพโหลดรูปภาพ
+                  href: dam-upload-images.md
+                - name: อัพโหลดวิดีโอ
+                  href: dam-upload-video.md
+                - name: อัพโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
+                  href: dam-upload-files.md
+                - name: ครอบตัดรูปภาพ
+                  href: dam-crop-images.md
+                - name: ปรับแต่งจุดโฟกัสของรูปภาพ
+                  href: dam-custom-focal-point.md
             - name: ทำให้เว็บไซต์ของคุณเป็นไปตามกฎระเบียบ
               items:
                 - name: ภาพรวมเกี่ยวกับการปฏิบัติตามกฎระเบียบ
@@ -970,7 +1000,7 @@
                   href: localizations/emea-eeu-advance-invoices-for-retail.md
                 - name: การจัดการเงินสดย่อยของ Commerce สำหรับยุโรปตะวันออก
                   href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนสำหรับประเทศในยุโรปตะวันออก
+                - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของ Commerce สำหรับประเทศในยุโรปตะวันออก
                   href: localizations/emea-eeu-retail-invoices.md
                 - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
                   href: localizations/emea-eeu-deployment.md
@@ -1814,7 +1844,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: ความสามารถในการเพิ่มฟังก์ชัน
           items:
-            - name: การพัฒนาและความสามารถในการเพิ่มฟังก์ชัน Commerce
+            - name: การพัฒนาและความสามารถในการเพิ่มฟังก์ชันการค้า
               href: dev-itpro/dev-retail-home-page.md
             - name: ความสามารถในการเพิ่มฟังก์ชันช่องทางออนไลน์
               items:
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: ตั้งค่าคอนฟิกไฟล์สภาพแวดล้อมการพัฒนา (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: ตั้งค่าการใช้รหัส Azure DevOps ร่วมกันและสร้างไปป์ไลน์การสร้าง
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: ภาพรวมของแพลตฟอร์ม
                   items:
                     - name: ภาพรวมของสถาปัตยกรรม
@@ -1912,6 +1944,10 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: แบ่งปันสถานะข้ามโมดูล
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: การแทนที่การดำเนินการกับข้อมูล
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: จุดเชื่อมต่อการดำเนินการกับข้อมูล
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: พัฒนาธีม
                   items:
                     - name: ภาพรวมการกำหนดธีม
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: สร้าง Commerce (CRT) API แบบอะซิงโครนัสในตรรกะทางธุรกิจของคุณ
                   href: dev-itpro/async-commerce-extension.md
+                - name: คอลัมน์ก่อนขยายในฐานข้อมูลช่องทาง
+                  href: dev-itpro/extended-columns.md
             - name: ความสามารถในการเพิ่มฟังก์ชันของเชื่อมต่อการชำระเงิน
               items:
                 - name: สร้างการรวมการชำระเงินสำหรับเทอร์มินัลการชำระเงิน

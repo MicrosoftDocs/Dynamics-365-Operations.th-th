@@ -3,7 +3,7 @@ title: โฮมเพจการปรับใช้ในสถานที�
 description: หัวข้อนี้แสดงข้อมูลและลิงค์ไปยังเนื้อหาเกี่ยวกับการปรับใช้ในองค์กร
 author: sericks007
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
-ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
+ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
+ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090600"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3099741"
 ---
 # <a name="on-premises-deployment-home-page"></a>โฮมเพจตัวเลือกการปรับใช้ในสถานที่
 
@@ -55,6 +55,7 @@ ms.locfileid: "3090600"
 - [การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์](../user-interface/client-disconnected.md)
 - [ใช้การอัปเดตกับการปรับใช้ในสถานที่](apply-updates-on-premises.md)
 - [ปรับใช้สภาพแวดล้อม on-premises อีกครั้ง](redeploy-on-prem.md)
+- [นำอินสแตนซ์ AD FS เดียวกันมาใช้ใหม่สำหรับสภาพแวดล้อมที่หลากหลาย](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
 - [ความสามารถของ Commerce ที่มีอยู่ในการปรับใช้แบบ on-premises](../../../retail/retail-onprem.md)

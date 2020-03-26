@@ -3,7 +3,7 @@ title: รีเซ็ตหมายเลขใบเสร็จ
 description: หัวข้อนี้จะอธิบายวิธีการรีเซ็ตหมายเลขใบเสร็จ ที่จะใช้สำหรับการดำเนินการต่าง ๆ ในวันที่ต้องการ (ตัวอย่างเช่น ปีบัญชีหรือปีปฏิทิน)
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020089"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123957"
 ---
 # <a name="reset-receipt-numbers"></a>รีเซ็ตหมายเลขใบเสร็จ 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 ผู้ค้าปลีกสร้างหมายเลขการรับสินค้าสำหรับการดำเนินการต่าง ๆ ในร้านค้า เช่น ธุรกรรมเงินสดและการขนส่ง ธุรกรรมการส่งคืน ธุรกรรมใบสั่งของลูกค้า ใบเสนอราคา และการชำระเงิน ถึงแม้ว่าร้านค้าปลีกจะกำหนดรูปแบบการรับสินค้าของตนเอง บางประเทศหรือบางภูมิภาคมีกฎระเบียบที่สร้างข้อจำกัดเกี่ยวกับรูปแบบใบเสร็จเหล่านี้ ตัวอย่างเช่น กฎระเบียบเหล่านี้อาจจำกัดจำนวนของอักขระในใบเสร็จ ต้องใช้หมายเลขใบเสร็จที่ต่อเนื่องกัน จำกัดอักขระพิเศษบางอักขระ หรือต้องรีเซ็ตหมายเลขใบเสร็จตอนต้นปี Microsoft Dynamics 365 Commerce ทำให้กระบวนการจัดการหมายเลขใบเสร็จยืดหยุ่นมากขึ้น เพื่อช่วยให้ร้านค้าปลีกตรงตามข้อกำหนดของกฎระเบียบ หัวข้อนี้จะอธิบายวิธีการใช้ฟังก์ชันสำหรับการรีเซ็ตหมายเลขใบเสร็จ
 

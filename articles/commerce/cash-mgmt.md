@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024161"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127709"
 ---
 # <a name="cash-management-improvements"></a>การปรับปรุงการจัดการเงินสด
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 การจัดการเงินสดเป็นฟังก์ชันสำคัญสำหรับร้านค้าปลีกในร้านค้าที่มีอยู่จริง ร้านค้าปลีกต้องการให้ร้านค้าของตนมีระบบซึ่งช่วยดำเนินการความสามารถในการติดตามและการลงบัญชีของเงินสด และการเคลื่อนไหวในร้านค้าต่างๆ และพนักงานเก็บเงินให้เสร็จสมบูรณ์ ต้องสามารถกระทบยอดความแตกต่างใดๆ และกำหนดการลงบัญชี
 

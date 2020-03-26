@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004030"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095628"
 ---
 # <a name="product-identifiers"></a>ตัวระบุผลิตภัณฑ์ 
 
@@ -43,9 +43,6 @@ ms.locfileid: "3004030"
 เมื่อคุณดำเนิน Supply Chain Management คุณควรให้การพิจารณาแบบพิเศษแก่กลยุทธ์ของคุณสำหรับหมายเลขผลิตภัณฑ์ ระบบการกำหนดหมายเลขสินค้าที่ดีจะปรับปรุงขั้นตอนลอจิสติกส์ และช่วยป้องกันข้อผิดพลาด ตัวระบุผลิตภัณฑ์ที่ดีมีอักขระได้สูงสุด 15 อักขระ ทางที่ดีที่สุดคือ จะมีน้อยกว่า 10 อักขระ และมีอักขระไม่เกินห้าอักขระที่จัดประเภท คุณยังสามารถใช้ชื่อในการค้นหาเพื่อเปิดใช้งานการค้นหาด่วนได้ด้วย ชื่อในการค้นหาคือ ชื่อเพิ่มเติมที่แสดงถึงการจัดประเภทผลิตภัณฑ์
 
 เมื่อคุณใช้ Common Data Service หมายเลขผลิตภัณฑ์ใน Supply Chain Management ก็คือหมายเลขผลิตภัณฑ์ใน Common Data Service ผลิตภัณฑ์ย่อยจะถูกซิงโครไนส์กับ Common Data Service เป็นผลิตภัณฑ์เฉพาะ
-
-> [!NOTE]
-> หมายเลขผลิตภัณฑ์ไม่สามารถเริ่มต้นด้วย "%"
 
 ## <a name="item-number-and-product-dimensions"></a>หมายเลขสินค้าและมิติผลิตภัณฑ์
 

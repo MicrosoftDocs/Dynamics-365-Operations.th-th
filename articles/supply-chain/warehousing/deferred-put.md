@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
-ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
+ms.openlocfilehash: 470b1d947c3ead862dad8f5d40fb14e45ecc71a6
+ms.sourcegitcommit: 4398fdf783b8557029284bf95ce95d389fcf4162
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "2815799"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100218"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>การประมวลผลงานคลังสินค้าที่รอการตัดบัญชี
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pivate-preview-banner.md)]
 
 หัวข้อนี้อธิบายถึงฟังก์ชันที่ทำให้การประมวลผลที่รอการตัดบัญชีของการดำเนินการส่งสินค้าสำหรับงานคลังสินค้าพร้อมใช้งานใน Dynamics 365 Supply Chain Management
 

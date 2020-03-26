@@ -1,6 +1,6 @@
 ---
 title: สร้างตัวเลือกความคุ้มครอง
-description: ''
+description: ตัวเลือกความคุ้มครองใน Microsoft Dynamics 365 Human Resources เป็นระดับความคุ้มครองสำหรับการเลือกผู้มีส่วนร่วมในแผนสิทธิประโยชน์หรือโปรแกรม เช่น แผนการรักษาพยาบาลสำหรับพนักงานเท่านั้น หรือ 2 เท่าเงินของเดือนสำหรับแผนประกันชีวิต
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27b43d858a92beac526ac0fc40b544649ef658b0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010676"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092717"
 ---
 # <a name="create-coverage-options"></a>สร้างตัวเลือกความคุ้มครอง
 

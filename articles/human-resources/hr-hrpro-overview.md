@@ -1,6 +1,6 @@
 ---
 title: ภาพรวม
-description: ''
+description: คู่มือผู้ใช้ Dynamics 365 Human Resources จะให้คำแนะนำเกี่ยวกับการตั้งค่าทรัพยากรบุคคล ให้ตั้งค่าค่าตอบแทนและสวัสดิการสำหรับพนักงาน และการจัดการพนักงานของคุณ
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010722"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091735"
 ---
 # <a name="overview"></a>ภาพรวม
 
@@ -32,9 +32,9 @@ ms.locfileid: "3010722"
 ## <a name="set-up-human-resources"></a>ตั้งค่าทรัพยากรบุคคล
 
 [ตั้งค่าคอนฟิกพารามิเตอร์ทรัพยากรบุคคล](hr-setup-parameters.md)</br>
-[ตั้งค่าคอนฟิกพารามิเตอร์ทรัพยากรบุคคลที่ใช้ร่วมกัน](hr-setup-shared-parameters.md)</br>
-[ตั้งค่าลำดับงานสำหรับฝ่ายทรัพยากรบุคคล](hr-setup-workflows.md)</br>
-[เข้าใจฟิลด์วันที่และเวลา](hr-setup-date-time-fields.md)</br>
+[ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของทรัพยากรบุคคล](hr-setup-shared-parameters.md)</br>
+[ตั้งค่าลำดับงานทรัพยากรบุคคล](hr-setup-workflows.md)</br>
+[ทำความเข้าใจฟิลด์วันที่และเวลา](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>ตั้งค่าคอนฟิกการตั้งค่าขององค์กร
 
@@ -90,25 +90,25 @@ ms.locfileid: "3010722"
 [จัดการวันหมดอายุของสวัสดิการ](hr-benefits-expiration-dates.md)</br>
 [สร้างรายงาน ACA](hr-benefits-aca-reports.md)</br>
 
-## <a name="manage-leave-and-absence"></a>จัดการกับการลางานและการหยุดงาน
+## <a name="manage-leave-and-absence"></a>จัดการกับการลางานและการขาดงาน
 
 [ภาพรวม](hr-leave-and-absence-overview.md)</br>
 [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](hr-leave-and-absence-parameters.md)</br>
 [สร้างปฏิทินเวลาการทำงาน](hr-leave-and-absence-working-time-calendar.md)</br>
-[สร้างลำดับงานการร้องขอลางาน](hr-leave-and-absence-workflow.md)</br>
-[ตั้งค่าคอนฟิกชนิดการลางานและการหยุดงาน](hr-leave-and-absence-types.md)</br>
-[การสร้างแผนการลางานและขาดงาน](hr-leave-and-absence-plans.md)</br>
+[สร้างลำดับงานของคำขอลางาน](hr-leave-and-absence-workflow.md)</br>
+[ตั้งค่าคอนฟิกชนิดการลางานและการขาดงาน](hr-leave-and-absence-types.md)</br>
+[สร้างแผนการลางานและการขาดงาน](hr-leave-and-absence-plans.md)</br>
 [กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน](hr-leave-and-absence-enroll.md)</br>
-[การรับรู้แผนการลางานและการขาดงาน](hr-leave-and-absence-accrue.md)</br>
-[ดูการวิเคราะห์สำหรับการลางานและขาดงาน](hr-leave-and-absence-analytics.md)</br>
-[จัดการคำขอลางานและหยุดงาน](hr-employee-self-service-manage-requests.md)</br>
-[คำขอเวลาหยุดพัก](hr-employee-self-service-request-time-off.md)</br>
-[ดูปฏิทินทีมงานและบริษัท](hr-employee-self-service-calendar.md)</br>
+[แผนการลางานและการขาดงานคงค้าง](hr-leave-and-absence-accrue.md)</br>
+[ดูการวิเคราะห์สำหรับการลางานและการขาดงาน](hr-leave-and-absence-analytics.md)</br>
+[จัดการกับคำขอการลางานและการหยุดงาน](hr-employee-self-service-manage-requests.md)</br>
+[ร้องขอการหยุดพัก](hr-employee-self-service-request-time-off.md)</br>
+[ดูปฏิทินของทีมและบริษัท](hr-employee-self-service-calendar.md)</br>
 
 ## <a name="develop-employees"></a>พัฒนาพนักงาน
 
 [ภาพรวมของการบริหารประสิทธิภาพ](hr-develop-performance-management-overview.md)</br>
-[ปรับแนวทักษะของพนักงาน](hr-develop-skills.md)</br>
+[เสริมทักษะของบุคลากร](hr-develop-skills.md)</br>
 [เพิ่มลงในสมุดรายวันประสิทธิภาพการทำงานของคุณ](hr-develop-add-performance-journal.md)</br>
 [สร้างเป้าหมาย](hr-develop-create-goal.md)</br>
 [สร้างการทบทวนประสิทธิภาพการทำงาน](hr-develop-create-performance-review.md)</br>
@@ -122,9 +122,9 @@ ms.locfileid: "3010722"
 [กระจายแบบสอบถามโดยใช้การจัดกำหนดการ](hr-learning-distribute-questionnaires-scheduling.md)</br>
 [ดูผลลัพธ์ของแบบสอบถาม](hr-learning-evaluate-questionnaire-results.md)</br>
 [วิเคราะห์ผลลัพธ์ของแบบสอบถาม](hr-learning-analyze-questionnaire-results.md)</br>
-[สร้างคำถามปลายเปิด](hr-learning-create-open-ended-question.md)</br>
-[สร้างคำถามปลายปิด](hr-learning-create-closed-ended-question.md)</br>
-[สร้างคำถามที่ไม่เป็นอิสระ](hr-learning-depending-question.md)</br>
+[สร้างคำถามแบบปลายเปิด](hr-learning-create-open-ended-question.md)</br>
+[สร้างคำถามแบบปลายปิด](hr-learning-create-closed-ended-question.md)</br>
+[สร้างคำถามแบบมีการเชื่อมโยง](hr-learning-depending-question.md)</br>
 
 
 

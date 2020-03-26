@@ -3,7 +3,7 @@ title: ยกเลิกคำแนะนำส่วนบุคคล
 description: หัวข้อนี้อธิบายวิธีที่คุณสามารถให้ลูกค้าเลือกที่จะไม่รับคำแนะนำแบบส่วนตัวใน Microsoft Dynamics 365 Commerce
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8e7b800218f68167901d86d61ae483680a04cfab
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: a6d2388e863135c2b6d51af915b606a56f0603a8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025285"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127755"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>ยกเลิกคำแนะนำส่วนบุคคล
 
@@ -81,16 +81,26 @@ ms.locfileid: "3025285"
 3. หลังจากสร้างส่วนขยายที่กำหนดเองแล้ว ผู้ค้าปลีกสามารถส่งออกไฟล์ CSV ของผลลัพธ์คำแนะนำทั้งหมด โดยยึดตามรหัสลูกค้าที่ไม่ซ้ำกันของผู้ใช้ที่ได้รับการรับรองความถูกต้อง
 4. ผู้ค้าปลีกสามารถแชร์ไฟล์ CSV ที่ส่งออกซึ่งมีรายการส่วนบุคคลแบบเต็มของผลิตภัณฑ์ที่แนะนำให้กับผู้ใช้ที่ได้รับการรับรองความถูกต้อง
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
+[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+
 [เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
 
-[เปิดใช้งานคำแนะนำแบบส่วนตัว](personalized-recommendations.md)
+[เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
 
-[เพิ่มรายการคำแนะนำผลิตภัณฑ์ลงในหน้า](add-reco-list-to-page.md)
+[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
 
-[เพิ่มแผงคำแนะนำลงในอุปกรณ์ POS](add-recommendations-control-pos-screen.md)
+[เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
 
-[ภาพรวมโมดูลการรวบรวมผลิตภัณฑ์](product-collection-module-overview.md)
+[เพิ่มคำแนะนำในหน้าจอธุรกรรม](add-recommendations-control-pos-screen.md)
+
+[ปรับปรุงผลลัพธ์คำแนะนำของ AI-ML](modify-product-recommendation-results.md)
+
+[สร้างคำแนะนำที่ระบุด้วยตนเอง](create-editorial-recommendation-lists.md)
+
+[สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)
+
+[FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)
