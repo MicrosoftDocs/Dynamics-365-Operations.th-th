@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79abb6875e2f5b101410ca004b525c4b881621a2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ea36732023092f714b3a783d98b512c0fea7dade
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141418"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>สร้างค่ามิติทางการเงินสำหรับช่องทางการค้าปลีกและตั้งค่าคอนฟิกค่ามิติบนร้านค้า
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 กระบวนงานนี้นำไปสู่การสร้างมิติทางการเงินของช่องทางการค้าด้วยค่ามิติและขั้นตอนต่างๆ เพื่อตั้งค่าคอนฟิกค่ามิติทางการเงินในร้านค้า หัวข้อนี้ไม่ได้รวมถึงขั้นตอนอื่นที่เกี่ยวข้อง เช่น การสร้างเซ็ตมิติและโครงสร้างทางบัญชี  กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต
 

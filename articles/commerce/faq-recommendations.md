@@ -3,7 +3,7 @@ title: FAQ เกี่ยวกับคำแนะนำผลิตภัณ
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับกระบวนการและเครื่องมือ ที่คุณสามารถใช้ในการแก้ไขปัญหาที่เกี่ยวข้องกับคำแนะนำผลิตภัณฑ์หรือผลลัพธ์ของผลิตภัณฑ์
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 2e30d29516dff6b2128e21bfa6e449e396884d00
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127801"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154401"
 ---
 # <a name="product-recommendations-faq"></a>FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์
 
@@ -88,8 +88,6 @@ ms.locfileid: "3127801"
 [เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
 
 [เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
-
-[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
 
 [เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
 
