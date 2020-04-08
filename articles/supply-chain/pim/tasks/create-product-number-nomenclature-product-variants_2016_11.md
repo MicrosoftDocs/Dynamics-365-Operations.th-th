@@ -16,89 +16,89 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22aa4823fbf43b29a8fd9661645e8563c07e437d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a837721db5281b0626f37b7a793349b91afa6f85
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844668"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147767"
 ---
-# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="ac0b1-103">สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่ตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-103">Create a product number nomenclature for configured product variants</span></span>
+# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="6c95d-103">สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่ตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="6c95d-103">Create a product number nomenclature for configured product variants</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ac0b1-104">กระบวนงานนี้แสดงวิธีการตั้งค่าระบบการตั้งชื่อหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า และวิธีแนบกับผลิตภัณฑ์หลักที่จัดโครงแบบได้</span><span class="sxs-lookup"><span data-stu-id="ac0b1-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="ac0b1-105">กระบวนงานนี้ยังแสดงวิธีการสร้างระบบการตั้งชื่อการจัดโครงแบบสำหรับส่วนประกอบแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="ac0b1-106">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="ac0b1-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ac0b1-107">ระบบการตั้งชื่อของหมายเลขผลิตภัณฑ์ใหม่ถูกกำหนดให้กับผลิตภัณฑ์หลัก D0004 </span><span class="sxs-lookup"><span data-stu-id="ac0b1-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="ac0b1-108">โดยทั่วไปงานนี้อาจดำเนินการโดยผู้ออกแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-108">This task would typically be done by a product designer.</span></span>
+<span data-ttu-id="6c95d-104">กระบวนงานนี้แสดงวิธีการตั้งค่าระบบการตั้งชื่อหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า และวิธีแนบกับผลิตภัณฑ์หลักที่จัดโครงแบบได้</span><span class="sxs-lookup"><span data-stu-id="6c95d-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="6c95d-105">กระบวนงานนี้ยังแสดงวิธีการสร้างระบบการตั้งชื่อการจัดโครงแบบสำหรับส่วนประกอบแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="6c95d-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="6c95d-106">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="6c95d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6c95d-107">ระบบการตั้งชื่อของหมายเลขผลิตภัณฑ์ใหม่ถูกกำหนดให้กับผลิตภัณฑ์หลัก D0004 </span><span class="sxs-lookup"><span data-stu-id="6c95d-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="6c95d-108">โดยทั่วไปงานนี้อาจดำเนินการโดยผู้ออกแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="6c95d-108">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="ac0b1-109">สร้างระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-109">Create a product number nomenclature</span></span>
-1. <span data-ttu-id="ac0b1-110">คลิก ข้อกำหนดแบบจำลองผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="ac0b1-110">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="ac0b1-111">คลิก ระบบการตั้งชื่อผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-111">Click Product nomenclature.</span></span>
-3. <span data-ttu-id="ac0b1-112">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ac0b1-112">Click New.</span></span>
-4. <span data-ttu-id="ac0b1-113">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="ac0b1-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="ac0b1-114">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-114">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="ac0b1-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-115">Click Add.</span></span>
-7. <span data-ttu-id="ac0b1-116">คลิก หมายเลขผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-116">Click Product master number.</span></span>
-8. <span data-ttu-id="ac0b1-117">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-117">Click Add.</span></span>
-9. <span data-ttu-id="ac0b1-118">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-118">Click Text constant.</span></span>
-10. <span data-ttu-id="ac0b1-119">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-119">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="ac0b1-120">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="ac0b1-120">In the Text field, type a value.</span></span>
-12. <span data-ttu-id="ac0b1-121">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-121">Click Add.</span></span>
-13. <span data-ttu-id="ac0b1-122">คลิก การจัดโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-122">Click Configuration.</span></span>
-14. <span data-ttu-id="ac0b1-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-123">Close the page.</span></span>
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="6c95d-109">สร้างระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="6c95d-109">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="6c95d-110">คลิก ข้อกำหนดแบบจำลองผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="6c95d-110">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="6c95d-111">คลิก ระบบการตั้งชื่อผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="6c95d-111">Click Product nomenclature.</span></span>
+3. <span data-ttu-id="6c95d-112">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="6c95d-112">Click New.</span></span>
+4. <span data-ttu-id="6c95d-113">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6c95d-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="6c95d-114">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-114">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="6c95d-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-115">Click Add.</span></span>
+7. <span data-ttu-id="6c95d-116">คลิก หมายเลขผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="6c95d-116">Click Product master number.</span></span>
+8. <span data-ttu-id="6c95d-117">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-117">Click Add.</span></span>
+9. <span data-ttu-id="6c95d-118">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="6c95d-118">Click Text constant.</span></span>
+10. <span data-ttu-id="6c95d-119">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-119">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="6c95d-120">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6c95d-120">In the Text field, type a value.</span></span>
+12. <span data-ttu-id="6c95d-121">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-121">Click Add.</span></span>
+13. <span data-ttu-id="6c95d-122">คลิก การจัดโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="6c95d-122">Click Configuration.</span></span>
+14. <span data-ttu-id="6c95d-123">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6c95d-123">Close the page.</span></span>
 
-## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="ac0b1-124">กำหนดระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์ให้กับผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-124">Assign the product number nomenclature to a product master</span></span>
-1. <span data-ttu-id="ac0b1-125">คลิก ผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-125">Click Product masters.</span></span>
-2. <span data-ttu-id="ac0b1-126">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="ac0b1-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ac0b1-127">เช่น กรองข้อมูลในฟิลด์ หมายเลขผลิตภัณฑ์ ด้วยค่า 'D'</span><span class="sxs-lookup"><span data-stu-id="ac0b1-127">For example, filter on the Product number field with a value of 'D'.</span></span>
-3. <span data-ttu-id="ac0b1-128">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-128">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ac0b1-129">คลิกแก้ไข</span><span class="sxs-lookup"><span data-stu-id="ac0b1-129">Click Edit.</span></span>
-5. <span data-ttu-id="ac0b1-130">เลือก ใช่ ในฟิลด์ใช้ระบบการตั้งชื่อ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-130">Select Yes in the Use nomenclature field.</span></span>
-6. <span data-ttu-id="ac0b1-131">ในฟิลด์ ระบบการตั้งชื่อหมายเลขผลิตภัณฑ์ย่อย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
-7. <span data-ttu-id="ac0b1-132">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-132">Close the page.</span></span>
-8. <span data-ttu-id="ac0b1-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-133">Close the page.</span></span>
+## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="6c95d-124">กำหนดระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์ให้กับผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="6c95d-124">Assign the product number nomenclature to a product master</span></span>
+1. <span data-ttu-id="6c95d-125">คลิก ผลิตภัณฑ์หลัก</span><span class="sxs-lookup"><span data-stu-id="6c95d-125">Click Product masters.</span></span>
+2. <span data-ttu-id="6c95d-126">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="6c95d-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="6c95d-127">เช่น กรองข้อมูลในฟิลด์ หมายเลขผลิตภัณฑ์ ด้วยค่า 'D'</span><span class="sxs-lookup"><span data-stu-id="6c95d-127">For example, filter on the Product number field with a value of 'D'.</span></span>
+3. <span data-ttu-id="6c95d-128">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="6c95d-129">คลิกแก้ไข</span><span class="sxs-lookup"><span data-stu-id="6c95d-129">Click Edit.</span></span>
+5. <span data-ttu-id="6c95d-130">เลือก ใช่ ในฟิลด์ใช้ระบบการตั้งชื่อ</span><span class="sxs-lookup"><span data-stu-id="6c95d-130">Select Yes in the Use nomenclature field.</span></span>
+6. <span data-ttu-id="6c95d-131">ในฟิลด์ ระบบการตั้งชื่อหมายเลขผลิตภัณฑ์ย่อย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
+7. <span data-ttu-id="6c95d-132">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6c95d-132">Close the page.</span></span>
+8. <span data-ttu-id="6c95d-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6c95d-133">Close the page.</span></span>
 
-## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="ac0b1-134">สร้างระบบการตั้งชื่อสำหรับส่วนประกอบแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-134">Create nomenclature for a product configuration model component</span></span>
-1. <span data-ttu-id="ac0b1-135">คลิก แบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-135">Click Product configuration models.</span></span>
-2. <span data-ttu-id="ac0b1-136">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-136">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="ac0b1-137">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-137">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ac0b1-138">คลิกแก้ไข</span><span class="sxs-lookup"><span data-stu-id="ac0b1-138">Click Edit.</span></span>
-5. <span data-ttu-id="ac0b1-139">เลือก ใช่ ในฟิลด์ ใช้ระบบการตั้งชื่อการจัดโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-139">Select Yes in the Use configuration nomenclature field.</span></span>
-6. <span data-ttu-id="ac0b1-140">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-140">Click Add.</span></span>
-7. <span data-ttu-id="ac0b1-141">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-141">Click Attribute value.</span></span>
-8. <span data-ttu-id="ac0b1-142">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-142">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="ac0b1-143">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-143">In the Attribute field, enter or select a value.</span></span>
-10. <span data-ttu-id="ac0b1-144">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-144">Click Add.</span></span>
-11. <span data-ttu-id="ac0b1-145">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-145">Click Text constant.</span></span>
-12. <span data-ttu-id="ac0b1-146">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-146">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="ac0b1-147">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="ac0b1-147">In the Text field, type a value.</span></span>
-14. <span data-ttu-id="ac0b1-148">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-148">Click Add.</span></span>
-15. <span data-ttu-id="ac0b1-149">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-149">Click Attribute value.</span></span>
-16. <span data-ttu-id="ac0b1-150">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-150">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="ac0b1-151">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-151">In the Attribute field, enter or select a value.</span></span>
-18. <span data-ttu-id="ac0b1-152">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-152">Click Add.</span></span>
-19. <span data-ttu-id="ac0b1-153">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-153">Click Text constant.</span></span>
-20. <span data-ttu-id="ac0b1-154">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-154">In the list, mark the selected row.</span></span>
-21. <span data-ttu-id="ac0b1-155">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="ac0b1-155">In the Text field, type a value.</span></span>
-22. <span data-ttu-id="ac0b1-156">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-156">Click Add.</span></span>
-23. <span data-ttu-id="ac0b1-157">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-157">Click Attribute value.</span></span>
-24. <span data-ttu-id="ac0b1-158">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-158">In the list, mark the selected row.</span></span>
-25. <span data-ttu-id="ac0b1-159">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-159">In the Attribute field, enter or select a value.</span></span>
-26. <span data-ttu-id="ac0b1-160">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-160">Click Add.</span></span>
-27. <span data-ttu-id="ac0b1-161">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-161">Click Text constant.</span></span>
-28. <span data-ttu-id="ac0b1-162">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-162">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="ac0b1-163">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="ac0b1-163">In the Text field, type a value.</span></span>
-30. <span data-ttu-id="ac0b1-164">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-164">Click Add.</span></span>
-31. <span data-ttu-id="ac0b1-165">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="ac0b1-165">Click Attribute value.</span></span>
-32. <span data-ttu-id="ac0b1-166">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-166">In the list, mark the selected row.</span></span>
-33. <span data-ttu-id="ac0b1-167">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-167">In the Attribute field, enter or select a value.</span></span>
-34. <span data-ttu-id="ac0b1-168">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-168">Click Add.</span></span>
-35. <span data-ttu-id="ac0b1-169">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="ac0b1-169">Click Text constant.</span></span>
-36. <span data-ttu-id="ac0b1-170">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-170">In the list, mark the selected row.</span></span>
-37. <span data-ttu-id="ac0b1-171">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="ac0b1-171">In the Text field, type a value.</span></span>
-38. <span data-ttu-id="ac0b1-172">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="ac0b1-172">Click Add.</span></span>
-39. <span data-ttu-id="ac0b1-173">คลิก ค่าของลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ac0b1-173">Click Number sequence value.</span></span>
-40. <span data-ttu-id="ac0b1-174">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ac0b1-174">In the list, mark the selected row.</span></span>
-41. <span data-ttu-id="ac0b1-175">ในฟิลด์ลำดับหมายเลข ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-175">In the Number sequence field, enter or select a value.</span></span>
-42. <span data-ttu-id="ac0b1-176">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-176">Close the page.</span></span>
-43. <span data-ttu-id="ac0b1-177">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-177">Close the page.</span></span>
-44. <span data-ttu-id="ac0b1-178">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ac0b1-178">Close the page.</span></span>
+## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="6c95d-134">สร้างระบบการตั้งชื่อสำหรับส่วนประกอบแบบจำลองการจัดโครงแบบผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="6c95d-134">Create nomenclature for a product configuration model component</span></span>
+1. <span data-ttu-id="6c95d-135">คลิก แบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="6c95d-135">Click Product configuration models.</span></span>
+2. <span data-ttu-id="6c95d-136">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="6c95d-136">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="6c95d-137">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-137">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="6c95d-138">คลิกแก้ไข</span><span class="sxs-lookup"><span data-stu-id="6c95d-138">Click Edit.</span></span>
+5. <span data-ttu-id="6c95d-139">เลือก ใช่ ในฟิลด์ ใช้ระบบการตั้งชื่อการจัดโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="6c95d-139">Select Yes in the Use configuration nomenclature field.</span></span>
+6. <span data-ttu-id="6c95d-140">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-140">Click Add.</span></span>
+7. <span data-ttu-id="6c95d-141">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="6c95d-141">Click Attribute value.</span></span>
+8. <span data-ttu-id="6c95d-142">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-142">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="6c95d-143">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-143">In the Attribute field, enter or select a value.</span></span>
+10. <span data-ttu-id="6c95d-144">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-144">Click Add.</span></span>
+11. <span data-ttu-id="6c95d-145">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="6c95d-145">Click Text constant.</span></span>
+12. <span data-ttu-id="6c95d-146">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-146">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="6c95d-147">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6c95d-147">In the Text field, type a value.</span></span>
+14. <span data-ttu-id="6c95d-148">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-148">Click Add.</span></span>
+15. <span data-ttu-id="6c95d-149">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="6c95d-149">Click Attribute value.</span></span>
+16. <span data-ttu-id="6c95d-150">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-150">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="6c95d-151">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-151">In the Attribute field, enter or select a value.</span></span>
+18. <span data-ttu-id="6c95d-152">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-152">Click Add.</span></span>
+19. <span data-ttu-id="6c95d-153">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="6c95d-153">Click Text constant.</span></span>
+20. <span data-ttu-id="6c95d-154">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-154">In the list, mark the selected row.</span></span>
+21. <span data-ttu-id="6c95d-155">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6c95d-155">In the Text field, type a value.</span></span>
+22. <span data-ttu-id="6c95d-156">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-156">Click Add.</span></span>
+23. <span data-ttu-id="6c95d-157">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="6c95d-157">Click Attribute value.</span></span>
+24. <span data-ttu-id="6c95d-158">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-158">In the list, mark the selected row.</span></span>
+25. <span data-ttu-id="6c95d-159">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-159">In the Attribute field, enter or select a value.</span></span>
+26. <span data-ttu-id="6c95d-160">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-160">Click Add.</span></span>
+27. <span data-ttu-id="6c95d-161">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="6c95d-161">Click Text constant.</span></span>
+28. <span data-ttu-id="6c95d-162">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-162">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="6c95d-163">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6c95d-163">In the Text field, type a value.</span></span>
+30. <span data-ttu-id="6c95d-164">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-164">Click Add.</span></span>
+31. <span data-ttu-id="6c95d-165">คลิก ค่าแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="6c95d-165">Click Attribute value.</span></span>
+32. <span data-ttu-id="6c95d-166">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-166">In the list, mark the selected row.</span></span>
+33. <span data-ttu-id="6c95d-167">ในฟิลด์ แอททริบิวต์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-167">In the Attribute field, enter or select a value.</span></span>
+34. <span data-ttu-id="6c95d-168">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-168">Click Add.</span></span>
+35. <span data-ttu-id="6c95d-169">คลิก ค่าคงที่ของข้อความ</span><span class="sxs-lookup"><span data-stu-id="6c95d-169">Click Text constant.</span></span>
+36. <span data-ttu-id="6c95d-170">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-170">In the list, mark the selected row.</span></span>
+37. <span data-ttu-id="6c95d-171">ในฟิลด์ข้อความ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="6c95d-171">In the Text field, type a value.</span></span>
+38. <span data-ttu-id="6c95d-172">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="6c95d-172">Click Add.</span></span>
+39. <span data-ttu-id="6c95d-173">คลิก ค่าของลำดับหมายเลข</span><span class="sxs-lookup"><span data-stu-id="6c95d-173">Click Number sequence value.</span></span>
+40. <span data-ttu-id="6c95d-174">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="6c95d-174">In the list, mark the selected row.</span></span>
+41. <span data-ttu-id="6c95d-175">ในฟิลด์ลำดับหมายเลข ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="6c95d-175">In the Number sequence field, enter or select a value.</span></span>
+42. <span data-ttu-id="6c95d-176">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6c95d-176">Close the page.</span></span>
+43. <span data-ttu-id="6c95d-177">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6c95d-177">Close the page.</span></span>
+44. <span data-ttu-id="6c95d-178">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="6c95d-178">Close the page.</span></span>
 

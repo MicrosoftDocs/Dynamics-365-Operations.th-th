@@ -16,120 +16,120 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbef7048488056f50ec8967a9af53d468666856
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e8a4965c07c5a084b21da40667747db36530284c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550774"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141971"
 ---
-# <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a><span data-ttu-id="ae988-103">ER ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและสรุป (ส่วนที่ 3 - ใช้การคำนวณในการสร้างผลลัพธ์)</span><span class="sxs-lookup"><span data-stu-id="ae988-103">ER Configure format to do counting and summing (Part 3 - Use computations to make the output)</span></span>
+# <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a><span data-ttu-id="30546-103">ER ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและสรุป (ส่วนที่ 3 - ใช้การคำนวณในการสร้างผลลัพธ์)</span><span class="sxs-lookup"><span data-stu-id="30546-103">ER Configure format to do counting and summing (Part 3 - Use computations to make the output)</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ae988-104">ขั้นตอนต่อไปนี้อธิบายวิธีกำหนดผู้ใช้ให้กับผู้ดูแลระบบหรือวิธีการที่บทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อทำการตรวจนับและสรุปตามข้อมูลของผลลัพธ์ข้อความที่สร้างขึ้นแล้ว </span><span class="sxs-lookup"><span data-stu-id="ae988-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="ae988-105">สามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัทใดก็ได้ </span><span class="sxs-lookup"><span data-stu-id="ae988-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="30546-104">ขั้นตอนต่อไปนี้อธิบายวิธีกำหนดผู้ใช้ให้กับผู้ดูแลระบบหรือวิธีการที่บทบาทนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อทำการตรวจนับและสรุปตามข้อมูลของผลลัพธ์ข้อความที่สร้างขึ้นแล้ว </span><span class="sxs-lookup"><span data-stu-id="30546-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="30546-105">สามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัทใดก็ได้ </span><span class="sxs-lookup"><span data-stu-id="30546-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="ae988-106">เพื่อทำตามขั้นตอนเหล่านี้ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "ER ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและสรุป (ส่วนที่ 2: ตั้งค่าการคำนวณ)"</span><span class="sxs-lookup"><span data-stu-id="ae988-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
+<span data-ttu-id="30546-106">เพื่อทำให้ขั้นตอนเหล่านี้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำตามขั้นตอนในกระบวนงาน "ER ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและสรุป (ส่วนที่ 2: ตั้งค่าคอนฟิกการคำนวณ)" ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="30546-106">To complete these steps, you must first complete the steps in the "ER Configure format to do counting and summing (Part 2: Configure computations)" procedure.</span></span>
 
-<span data-ttu-id="ae988-107">กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="ae988-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="30546-107">กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="30546-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="ae988-108">ตั้งค่าคอนฟิกรายงานนี้เพื่อใช้การตรวจนับและการสรุปข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ae988-108">Configure this report to use counting and summing info</span></span>
-1. <span data-ttu-id="ae988-109">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ae988-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="ae988-110">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="ae988-110">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="ae988-111">ในแผนภูมิ ขยาย 'Intrastat model'</span><span class="sxs-lookup"><span data-stu-id="ae988-111">In the tree, expand 'Intrastat model'.</span></span>
-4. <span data-ttu-id="ae988-112">ในแผนภูมิ ขยาย 'แบบจำลองอินทราสแทต\อินทราสแทต (DE)'</span><span class="sxs-lookup"><span data-stu-id="ae988-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
-5. <span data-ttu-id="ae988-113">ในแผนภูมิ เลือก 'แบบจำลองอินทราสแทต\อินทราสแทต (DE)\อินทราสแทต (DE) ที่มีการตรวจนับ & การรวม'</span><span class="sxs-lookup"><span data-stu-id="ae988-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
-6. <span data-ttu-id="ae988-114">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="ae988-114">Click Designer.</span></span>
-7. <span data-ttu-id="ae988-115">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="ae988-115">Click the Mapping tab.</span></span>
-8. <span data-ttu-id="ae988-116">คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ae988-116">Click Add root to open the drop dialog.</span></span>
-    * <span data-ttu-id="ae988-117">เพิ่มแหล่งข้อมูลใหม่เพื่อดึงข้อมูลรายการของบล็อคที่จดจำไว้</span><span class="sxs-lookup"><span data-stu-id="ae988-117">Add a new data source to get the list of memorized blocks.</span></span>  
-9. <span data-ttu-id="ae988-118">ในแผนภูมิ เลือก 'ฟิลด์ที่คำนวณ\ฟังก์ชันได้'</span><span class="sxs-lookup"><span data-stu-id="ae988-118">In the tree, select 'Functions\Calculated field'.</span></span>
-10. <span data-ttu-id="ae988-119">ในฟิลด์ชื่อ ให้พิมพ์ '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="ae988-119">In the Name field, type '$BlocksList'.</span></span>
-    * <span data-ttu-id="ae988-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="ae988-120">$BlocksList</span></span>  
-11. <span data-ttu-id="ae988-121">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="ae988-121">Click Edit formula.</span></span>
-12. <span data-ttu-id="ae988-122">ในแผนภูมิ ให้เลือก 'ฟังก์ชันการรวบรวมข้อมูล\COLLECTEDLIST'</span><span class="sxs-lookup"><span data-stu-id="ae988-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
-13. <span data-ttu-id="ae988-123">คลิก เพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="ae988-123">Click Add function.</span></span>
-14. <span data-ttu-id="ae988-124">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ae988-124">Click Add data source.</span></span>
-15. <span data-ttu-id="ae988-125">ในฟิลด์สูตร ให้ป้อน 'COLLECTEDLIST('$BlockName', '</span><span class="sxs-lookup"><span data-stu-id="ae988-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
-    * <span data-ttu-id="ae988-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="ae988-126">COLLECTEDLIST('$BlockName',</span></span>  
-16. <span data-ttu-id="ae988-127">ในฟิลด์สูตร ให้ป้อน 'COLLECTEDLIST('$BlockName', "\*")'</span><span class="sxs-lookup"><span data-stu-id="ae988-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "\*")'.</span></span>
-    * <span data-ttu-id="ae988-128">COLLECTEDLIST('$BlockName', "\*")</span><span class="sxs-lookup"><span data-stu-id="ae988-128">COLLECTEDLIST('$BlockName', "\*")</span></span>  
-17. <span data-ttu-id="ae988-129">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ae988-129">Click Save.</span></span>
-    * <span data-ttu-id="ae988-130">รูปแบบ "\*" หมายความว่าบล็อคทั้งหมดจะถูกรวมไว้ในรายการสำหรับเรกคอร์ดนี้</span><span class="sxs-lookup"><span data-stu-id="ae988-130">The pattern “\*” means that all blocks will be included to the list for this record.</span></span>  
-18. <span data-ttu-id="ae988-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ae988-131">Close the page.</span></span>
-19. <span data-ttu-id="ae988-132">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ae988-132">Click OK.</span></span>
-20. <span data-ttu-id="ae988-133">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="ae988-133">Click the Format tab.</span></span>
-21. <span data-ttu-id="ae988-134">ในแผนภูมิ ให้เลือก 'Intrastat\Data'</span><span class="sxs-lookup"><span data-stu-id="ae988-134">In the tree, select 'Intrastat\Data'.</span></span>
-22. <span data-ttu-id="ae988-135">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ae988-135">Click Add to open the drop dialog.</span></span>
-23. <span data-ttu-id="ae988-136">ในแผนภูมิ ให้เลือก 'ข้อความ\ลำดับ'</span><span class="sxs-lookup"><span data-stu-id="ae988-136">In the tree, select 'Text\Sequence'.</span></span>
-24. <span data-ttu-id="ae988-137">ในฟิลด์ชื่อ ให้พิมพ์ 'ผลรวมโดยเรียงตามบล็อค'</span><span class="sxs-lookup"><span data-stu-id="ae988-137">In the Name field, type 'Totals by blocks'.</span></span>
-    * <span data-ttu-id="ae988-138">ผลรวมโดยเรียงตามบล็อค</span><span class="sxs-lookup"><span data-stu-id="ae988-138">Totals by blocks</span></span>  
-25. <span data-ttu-id="ae988-139">ในฟิลด์อักขระพิเศษ ให้เลือก 'รายการใหม่ - Windows (CR LF)'</span><span class="sxs-lookup"><span data-stu-id="ae988-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
-26. <span data-ttu-id="ae988-140">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="ae988-140">Click OK.</span></span>
-27. <span data-ttu-id="ae988-141">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks'</span><span class="sxs-lookup"><span data-stu-id="ae988-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
-28. <span data-ttu-id="ae988-142">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="ae988-142">Click Add to open the drop dialog.</span></span>
-29. <span data-ttu-id="ae988-143">ในแผนภูมิ ให้เลือก 'ข้อความ\สตริง'</span><span class="sxs-lookup"><span data-stu-id="ae988-143">In the tree, select 'Text\String'.</span></span>
-30. <span data-ttu-id="ae988-144">ในฟิลด์ชื่อ พิมพ์ 'รหัสบล็อค'</span><span class="sxs-lookup"><span data-stu-id="ae988-144">In the Name field, type 'Block code'.</span></span>
-    * <span data-ttu-id="ae988-145">รหัสบล็อค</span><span class="sxs-lookup"><span data-stu-id="ae988-145">Block code</span></span>  
-31. <span data-ttu-id="ae988-146">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ae988-146">Click OK.</span></span>
-32. <span data-ttu-id="ae988-147">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="ae988-147">Click Add String.</span></span>
-33. <span data-ttu-id="ae988-148">ในฟิลด์ชื่อ ให้พิมพ์ 'การตรวจนับจำนวนบรรทัด'</span><span class="sxs-lookup"><span data-stu-id="ae988-148">In the Name field, type 'Lines counting'.</span></span>
-    * <span data-ttu-id="ae988-149">การตรวจนับจำนวนบรรทัด</span><span class="sxs-lookup"><span data-stu-id="ae988-149">Lines counting</span></span>  
-34. <span data-ttu-id="ae988-150">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ae988-150">Click OK.</span></span>
-35. <span data-ttu-id="ae988-151">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="ae988-151">Click Add String.</span></span>
-36. <span data-ttu-id="ae988-152">ในฟิลด์ชื่อ พิมพ์ 'จำนวนเงินรวม'</span><span class="sxs-lookup"><span data-stu-id="ae988-152">In the Name field, type 'Total amount'.</span></span>
-    * <span data-ttu-id="ae988-153">ยอดเงินรวม</span><span class="sxs-lookup"><span data-stu-id="ae988-153">Total amount</span></span>  
-37. <span data-ttu-id="ae988-154">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ae988-154">Click OK.</span></span>
-38. <span data-ttu-id="ae988-155">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="ae988-155">Click the Mapping tab.</span></span>
-39. <span data-ttu-id="ae988-156">ในแผนภูมิ ให้เลือก '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="ae988-156">In the tree, select '$BlocksList'.</span></span>
-40. <span data-ttu-id="ae988-157">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="ae988-157">Click Bind.</span></span>
-    * <span data-ttu-id="ae988-158">สร้างบรรทัดสรุปสำหรับแต่ละบล็อคที่จดจำไว้</span><span class="sxs-lookup"><span data-stu-id="ae988-158">Create a summary line for each memorized block.</span></span>  
-41. <span data-ttu-id="ae988-159">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="ae988-159">Click the Format tab.</span></span>
-42. <span data-ttu-id="ae988-160">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks\Block code'</span><span class="sxs-lookup"><span data-stu-id="ae988-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
-43. <span data-ttu-id="ae988-161">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="ae988-161">Click the Mapping tab.</span></span>
-44. <span data-ttu-id="ae988-162">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="ae988-162">Click Edit formula.</span></span>
-45. <span data-ttu-id="ae988-163">ในฟิลด์สูตร ให้ป้อน '"รหัสบล็อค: " & '</span><span class="sxs-lookup"><span data-stu-id="ae988-163">In the Formula field, enter '"Block id: " & '.</span></span>
-    * <span data-ttu-id="ae988-164">"รหัสบล็อค: " &</span><span class="sxs-lookup"><span data-stu-id="ae988-164">"Block id: " &</span></span>  
-46. <span data-ttu-id="ae988-165">ในแผนภูมิ ให้ขยาย '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="ae988-165">In the tree, expand '$BlocksList'.</span></span>
-47. <span data-ttu-id="ae988-166">ในแผนภูมิ ให้เลือก '$BlocksList\Value'</span><span class="sxs-lookup"><span data-stu-id="ae988-166">In the tree, select '$BlocksList\Value'.</span></span>
-48. <span data-ttu-id="ae988-167">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ae988-167">Click Add data source.</span></span>
-49. <span data-ttu-id="ae988-168">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ae988-168">Click Save.</span></span>
-50. <span data-ttu-id="ae988-169">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ae988-169">Close the page.</span></span>
-51. <span data-ttu-id="ae988-170">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="ae988-170">Click the Format tab.</span></span>
-52. <span data-ttu-id="ae988-171">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks\Lines counting'</span><span class="sxs-lookup"><span data-stu-id="ae988-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
-53. <span data-ttu-id="ae988-172">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="ae988-172">Click the Mapping tab.</span></span>
-54. <span data-ttu-id="ae988-173">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="ae988-173">Click Edit formula.</span></span>
-    * <span data-ttu-id="ae988-174">สร้างผลลัพธ์สำหรับจำนวนของบรรทัดของแต่ละบล็อคที่แสดงอยู่ในรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="ae988-174">Create output for the number of lines for each block presented in this report.</span></span>  
-55. <span data-ttu-id="ae988-175">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & '</span><span class="sxs-lookup"><span data-stu-id="ae988-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
-    * <span data-ttu-id="ae988-176">"จำนวนบรรทัดในบล็อคนี้: " &</span><span class="sxs-lookup"><span data-stu-id="ae988-176">"Number of lines in this block: " &</span></span>  
-56. <span data-ttu-id="ae988-177">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT('</span><span class="sxs-lookup"><span data-stu-id="ae988-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
-    * <span data-ttu-id="ae988-178">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="ae988-178">"Number of lines in this block: " & TEXT(</span></span>  
-57. <span data-ttu-id="ae988-179">ในแผนภูมิ ให้เลือก 'Data collection functions\COUNTIFS'</span><span class="sxs-lookup"><span data-stu-id="ae988-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
-58. <span data-ttu-id="ae988-180">คลิก เพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="ae988-180">Click Add function.</span></span>
-59. <span data-ttu-id="ae988-181">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ae988-181">Click Add data source.</span></span>
-60. <span data-ttu-id="ae988-182">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '</span><span class="sxs-lookup"><span data-stu-id="ae988-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
-    * <span data-ttu-id="ae988-183">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="ae988-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
-61. <span data-ttu-id="ae988-184">ในแผนภูมิ ให้ขยาย '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="ae988-184">In the tree, expand '$BlocksList'.</span></span>
-62. <span data-ttu-id="ae988-185">ในแผนภูมิ ให้เลือก '$BlocksList\Value'</span><span class="sxs-lookup"><span data-stu-id="ae988-185">In the tree, select '$BlocksList\Value'.</span></span>
-63. <span data-ttu-id="ae988-186">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ae988-186">Click Add data source.</span></span>
-64. <span data-ttu-id="ae988-187">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '</span><span class="sxs-lookup"><span data-stu-id="ae988-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
-    * <span data-ttu-id="ae988-188">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="ae988-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
-65. <span data-ttu-id="ae988-189">ในแผนภูมิ ให้เลือก '$RecName'</span><span class="sxs-lookup"><span data-stu-id="ae988-189">In the tree, select '$RecName'.</span></span>
-66. <span data-ttu-id="ae988-190">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ae988-190">Click Add data source.</span></span>
-67. <span data-ttu-id="ae988-191">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'</span><span class="sxs-lookup"><span data-stu-id="ae988-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
-    * <span data-ttu-id="ae988-192">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="ae988-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
-68. <span data-ttu-id="ae988-193">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ae988-193">Click Save.</span></span>
-69. <span data-ttu-id="ae988-194">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ae988-194">Close the page.</span></span>
-70. <span data-ttu-id="ae988-195">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="ae988-195">Click the Format tab.</span></span>
-71. <span data-ttu-id="ae988-196">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks\Total amount'</span><span class="sxs-lookup"><span data-stu-id="ae988-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
-72. <span data-ttu-id="ae988-197">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="ae988-197">Click the Mapping tab.</span></span>
-73. <span data-ttu-id="ae988-198">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="ae988-198">Click Edit formula.</span></span>
-    * <span data-ttu-id="ae988-199">สร้างผลลัพธ์ที่จะเป็นผลรวมของยอดเงินที่ออกใบแจ้งหนี้สำหรับแต่ละบล็อคที่แสดงอยู่ในรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="ae988-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
-74. <span data-ttu-id="ae988-200">ในฟิลด์สูตร ให้ป้อน '"ผลรวมของยอดเงินที่ออกใบแจ้งหนี้: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'</span><span class="sxs-lookup"><span data-stu-id="ae988-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
-    * <span data-ttu-id="ae988-201">"ผลรวมของยอดเงินที่ออกใบแจ้งหนี้: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="ae988-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
-75. <span data-ttu-id="ae988-202">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ae988-202">Click Save.</span></span>
-76. <span data-ttu-id="ae988-203">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ae988-203">Close the page.</span></span>
-77. <span data-ttu-id="ae988-204">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ae988-204">Click Save.</span></span>
-78. <span data-ttu-id="ae988-205">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ae988-205">Close the page.</span></span>
+## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="30546-108">ตั้งค่าคอนฟิกรายงานนี้เพื่อใช้การตรวจนับและการสรุปข้อมูล</span><span class="sxs-lookup"><span data-stu-id="30546-108">Configure this report to use counting and summing info</span></span>
+1. <span data-ttu-id="30546-109">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="30546-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="30546-110">คลิก การตั้งค่าคอนฟิกการรายงาน</span><span class="sxs-lookup"><span data-stu-id="30546-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="30546-111">ในแผนภูมิ ขยาย 'Intrastat model'</span><span class="sxs-lookup"><span data-stu-id="30546-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="30546-112">ในแผนภูมิ ขยาย 'แบบจำลองอินทราสแทต\อินทราสแทต (DE)'</span><span class="sxs-lookup"><span data-stu-id="30546-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="30546-113">ในแผนภูมิ เลือก 'แบบจำลองอินทราสแทต\อินทราสแทต (DE)\อินทราสแทต (DE) ที่มีการตรวจนับ & การรวม'</span><span class="sxs-lookup"><span data-stu-id="30546-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="30546-114">คลิก ตัวออกแบบ</span><span class="sxs-lookup"><span data-stu-id="30546-114">Click Designer.</span></span>
+7. <span data-ttu-id="30546-115">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="30546-115">Click the Mapping tab.</span></span>
+8. <span data-ttu-id="30546-116">คลิกเพิ่มรากเพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="30546-116">Click Add root to open the drop dialog.</span></span>
+    * <span data-ttu-id="30546-117">เพิ่มแหล่งข้อมูลใหม่เพื่อดึงข้อมูลรายการของบล็อคที่จดจำไว้</span><span class="sxs-lookup"><span data-stu-id="30546-117">Add a new data source to get the list of memorized blocks.</span></span>  
+9. <span data-ttu-id="30546-118">ในแผนภูมิ เลือก 'ฟิลด์ที่คำนวณ\ฟังก์ชันได้'</span><span class="sxs-lookup"><span data-stu-id="30546-118">In the tree, select 'Functions\Calculated field'.</span></span>
+10. <span data-ttu-id="30546-119">ในฟิลด์ชื่อ ให้พิมพ์ '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="30546-119">In the Name field, type '$BlocksList'.</span></span>
+    * <span data-ttu-id="30546-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="30546-120">$BlocksList</span></span>  
+11. <span data-ttu-id="30546-121">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="30546-121">Click Edit formula.</span></span>
+12. <span data-ttu-id="30546-122">ในแผนภูมิ ให้เลือก 'ฟังก์ชันการรวบรวมข้อมูล\COLLECTEDLIST'</span><span class="sxs-lookup"><span data-stu-id="30546-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
+13. <span data-ttu-id="30546-123">คลิก เพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="30546-123">Click Add function.</span></span>
+14. <span data-ttu-id="30546-124">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="30546-124">Click Add data source.</span></span>
+15. <span data-ttu-id="30546-125">ในฟิลด์สูตร ให้ป้อน 'COLLECTEDLIST('$BlockName', '</span><span class="sxs-lookup"><span data-stu-id="30546-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
+    * <span data-ttu-id="30546-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="30546-126">COLLECTEDLIST('$BlockName',</span></span>  
+16. <span data-ttu-id="30546-127">ในฟิลด์สูตร ให้ป้อน 'COLLECTEDLIST('$BlockName', "\*")'</span><span class="sxs-lookup"><span data-stu-id="30546-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "\*")'.</span></span>
+    * <span data-ttu-id="30546-128">COLLECTEDLIST('$BlockName', "\*")</span><span class="sxs-lookup"><span data-stu-id="30546-128">COLLECTEDLIST('$BlockName', "\*")</span></span>  
+17. <span data-ttu-id="30546-129">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="30546-129">Click Save.</span></span>
+    * <span data-ttu-id="30546-130">รูปแบบ "\*" หมายความว่าบล็อคทั้งหมดจะถูกรวมไว้ในรายการสำหรับเรกคอร์ดนี้</span><span class="sxs-lookup"><span data-stu-id="30546-130">The pattern "\*" means that all blocks will be included to the list for this record.</span></span>  
+18. <span data-ttu-id="30546-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="30546-131">Close the page.</span></span>
+19. <span data-ttu-id="30546-132">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="30546-132">Click OK.</span></span>
+20. <span data-ttu-id="30546-133">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="30546-133">Click the Format tab.</span></span>
+21. <span data-ttu-id="30546-134">ในแผนภูมิ ให้เลือก 'Intrastat\Data'</span><span class="sxs-lookup"><span data-stu-id="30546-134">In the tree, select 'Intrastat\Data'.</span></span>
+22. <span data-ttu-id="30546-135">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="30546-135">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="30546-136">ในแผนภูมิ ให้เลือก 'ข้อความ\ลำดับ'</span><span class="sxs-lookup"><span data-stu-id="30546-136">In the tree, select 'Text\Sequence'.</span></span>
+24. <span data-ttu-id="30546-137">ในฟิลด์ชื่อ ให้พิมพ์ 'ผลรวมโดยเรียงตามบล็อค'</span><span class="sxs-lookup"><span data-stu-id="30546-137">In the Name field, type 'Totals by blocks'.</span></span>
+    * <span data-ttu-id="30546-138">ผลรวมโดยเรียงตามบล็อค</span><span class="sxs-lookup"><span data-stu-id="30546-138">Totals by blocks</span></span>  
+25. <span data-ttu-id="30546-139">ในฟิลด์อักขระพิเศษ ให้เลือก 'รายการใหม่ - Windows (CR LF)'</span><span class="sxs-lookup"><span data-stu-id="30546-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
+26. <span data-ttu-id="30546-140">คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="30546-140">Click OK.</span></span>
+27. <span data-ttu-id="30546-141">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks'</span><span class="sxs-lookup"><span data-stu-id="30546-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
+28. <span data-ttu-id="30546-142">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="30546-142">Click Add to open the drop dialog.</span></span>
+29. <span data-ttu-id="30546-143">ในแผนภูมิ ให้เลือก 'ข้อความ\สตริง'</span><span class="sxs-lookup"><span data-stu-id="30546-143">In the tree, select 'Text\String'.</span></span>
+30. <span data-ttu-id="30546-144">ในฟิลด์ชื่อ พิมพ์ 'รหัสบล็อค'</span><span class="sxs-lookup"><span data-stu-id="30546-144">In the Name field, type 'Block code'.</span></span>
+    * <span data-ttu-id="30546-145">รหัสบล็อค</span><span class="sxs-lookup"><span data-stu-id="30546-145">Block code</span></span>  
+31. <span data-ttu-id="30546-146">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="30546-146">Click OK.</span></span>
+32. <span data-ttu-id="30546-147">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="30546-147">Click Add String.</span></span>
+33. <span data-ttu-id="30546-148">ในฟิลด์ชื่อ ให้พิมพ์ 'การตรวจนับจำนวนบรรทัด'</span><span class="sxs-lookup"><span data-stu-id="30546-148">In the Name field, type 'Lines counting'.</span></span>
+    * <span data-ttu-id="30546-149">การตรวจนับจำนวนบรรทัด</span><span class="sxs-lookup"><span data-stu-id="30546-149">Lines counting</span></span>  
+34. <span data-ttu-id="30546-150">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="30546-150">Click OK.</span></span>
+35. <span data-ttu-id="30546-151">คลิกเพิ่มสตริง</span><span class="sxs-lookup"><span data-stu-id="30546-151">Click Add String.</span></span>
+36. <span data-ttu-id="30546-152">ในฟิลด์ชื่อ พิมพ์ 'จำนวนเงินรวม'</span><span class="sxs-lookup"><span data-stu-id="30546-152">In the Name field, type 'Total amount'.</span></span>
+    * <span data-ttu-id="30546-153">ยอดเงินรวม</span><span class="sxs-lookup"><span data-stu-id="30546-153">Total amount</span></span>  
+37. <span data-ttu-id="30546-154">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="30546-154">Click OK.</span></span>
+38. <span data-ttu-id="30546-155">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="30546-155">Click the Mapping tab.</span></span>
+39. <span data-ttu-id="30546-156">ในแผนภูมิ ให้เลือก '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="30546-156">In the tree, select '$BlocksList'.</span></span>
+40. <span data-ttu-id="30546-157">คลิก ผูก</span><span class="sxs-lookup"><span data-stu-id="30546-157">Click Bind.</span></span>
+    * <span data-ttu-id="30546-158">สร้างบรรทัดสรุปสำหรับแต่ละบล็อคที่จดจำไว้</span><span class="sxs-lookup"><span data-stu-id="30546-158">Create a summary line for each memorized block.</span></span>  
+41. <span data-ttu-id="30546-159">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="30546-159">Click the Format tab.</span></span>
+42. <span data-ttu-id="30546-160">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks\Block code'</span><span class="sxs-lookup"><span data-stu-id="30546-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
+43. <span data-ttu-id="30546-161">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="30546-161">Click the Mapping tab.</span></span>
+44. <span data-ttu-id="30546-162">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="30546-162">Click Edit formula.</span></span>
+45. <span data-ttu-id="30546-163">ในฟิลด์สูตร ให้ป้อน '"รหัสบล็อค: " & '</span><span class="sxs-lookup"><span data-stu-id="30546-163">In the Formula field, enter '"Block id: " & '.</span></span>
+    * <span data-ttu-id="30546-164">"รหัสบล็อค: " &</span><span class="sxs-lookup"><span data-stu-id="30546-164">"Block id: " &</span></span>  
+46. <span data-ttu-id="30546-165">ในแผนภูมิ ให้ขยาย '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="30546-165">In the tree, expand '$BlocksList'.</span></span>
+47. <span data-ttu-id="30546-166">ในแผนภูมิ ให้เลือก '$BlocksList\Value'</span><span class="sxs-lookup"><span data-stu-id="30546-166">In the tree, select '$BlocksList\Value'.</span></span>
+48. <span data-ttu-id="30546-167">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="30546-167">Click Add data source.</span></span>
+49. <span data-ttu-id="30546-168">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="30546-168">Click Save.</span></span>
+50. <span data-ttu-id="30546-169">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="30546-169">Close the page.</span></span>
+51. <span data-ttu-id="30546-170">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="30546-170">Click the Format tab.</span></span>
+52. <span data-ttu-id="30546-171">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks\Lines counting'</span><span class="sxs-lookup"><span data-stu-id="30546-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
+53. <span data-ttu-id="30546-172">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="30546-172">Click the Mapping tab.</span></span>
+54. <span data-ttu-id="30546-173">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="30546-173">Click Edit formula.</span></span>
+    * <span data-ttu-id="30546-174">สร้างผลลัพธ์สำหรับจำนวนของบรรทัดของแต่ละบล็อคที่แสดงอยู่ในรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="30546-174">Create output for the number of lines for each block presented in this report.</span></span>  
+55. <span data-ttu-id="30546-175">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & '</span><span class="sxs-lookup"><span data-stu-id="30546-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
+    * <span data-ttu-id="30546-176">"จำนวนบรรทัดในบล็อคนี้: " &</span><span class="sxs-lookup"><span data-stu-id="30546-176">"Number of lines in this block: " &</span></span>  
+56. <span data-ttu-id="30546-177">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT('</span><span class="sxs-lookup"><span data-stu-id="30546-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
+    * <span data-ttu-id="30546-178">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="30546-178">"Number of lines in this block: " & TEXT(</span></span>  
+57. <span data-ttu-id="30546-179">ในแผนภูมิ ให้เลือก 'Data collection functions\COUNTIFS'</span><span class="sxs-lookup"><span data-stu-id="30546-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
+58. <span data-ttu-id="30546-180">คลิก เพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="30546-180">Click Add function.</span></span>
+59. <span data-ttu-id="30546-181">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="30546-181">Click Add data source.</span></span>
+60. <span data-ttu-id="30546-182">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '</span><span class="sxs-lookup"><span data-stu-id="30546-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
+    * <span data-ttu-id="30546-183">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="30546-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
+61. <span data-ttu-id="30546-184">ในแผนภูมิ ให้ขยาย '$BlocksList'</span><span class="sxs-lookup"><span data-stu-id="30546-184">In the tree, expand '$BlocksList'.</span></span>
+62. <span data-ttu-id="30546-185">ในแผนภูมิ ให้เลือก '$BlocksList\Value'</span><span class="sxs-lookup"><span data-stu-id="30546-185">In the tree, select '$BlocksList\Value'.</span></span>
+63. <span data-ttu-id="30546-186">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="30546-186">Click Add data source.</span></span>
+64. <span data-ttu-id="30546-187">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '</span><span class="sxs-lookup"><span data-stu-id="30546-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
+    * <span data-ttu-id="30546-188">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="30546-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
+65. <span data-ttu-id="30546-189">ในแผนภูมิ ให้เลือก '$RecName'</span><span class="sxs-lookup"><span data-stu-id="30546-189">In the tree, select '$RecName'.</span></span>
+66. <span data-ttu-id="30546-190">คลิก เพิ่มแหล่งข้อมูล</span><span class="sxs-lookup"><span data-stu-id="30546-190">Click Add data source.</span></span>
+67. <span data-ttu-id="30546-191">ในฟิลด์สูตร ป้อน '"จำนวนของรายการในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'</span><span class="sxs-lookup"><span data-stu-id="30546-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
+    * <span data-ttu-id="30546-192">"จำนวนบรรทัดในบล็อคนี้: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="30546-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
+68. <span data-ttu-id="30546-193">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="30546-193">Click Save.</span></span>
+69. <span data-ttu-id="30546-194">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="30546-194">Close the page.</span></span>
+70. <span data-ttu-id="30546-195">คลิกแท็บรูปแบบ</span><span class="sxs-lookup"><span data-stu-id="30546-195">Click the Format tab.</span></span>
+71. <span data-ttu-id="30546-196">ในแผนภูมิ เลือก 'Intrastat\Data\Totals by blocks\Total amount'</span><span class="sxs-lookup"><span data-stu-id="30546-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
+72. <span data-ttu-id="30546-197">คลิกแท็บ การแม็ป</span><span class="sxs-lookup"><span data-stu-id="30546-197">Click the Mapping tab.</span></span>
+73. <span data-ttu-id="30546-198">คลิก แก้ไขสูตร</span><span class="sxs-lookup"><span data-stu-id="30546-198">Click Edit formula.</span></span>
+    * <span data-ttu-id="30546-199">สร้างผลลัพธ์ที่จะเป็นผลรวมของยอดเงินที่ออกใบแจ้งหนี้สำหรับแต่ละบล็อคที่แสดงอยู่ในรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="30546-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
+74. <span data-ttu-id="30546-200">ในฟิลด์สูตร ให้ป้อน '"ผลรวมของยอดเงินที่ออกใบแจ้งหนี้: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'</span><span class="sxs-lookup"><span data-stu-id="30546-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
+    * <span data-ttu-id="30546-201">"ผลรวมของยอดเงินที่ออกใบแจ้งหนี้: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="30546-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
+75. <span data-ttu-id="30546-202">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="30546-202">Click Save.</span></span>
+76. <span data-ttu-id="30546-203">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="30546-203">Close the page.</span></span>
+77. <span data-ttu-id="30546-204">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="30546-204">Click Save.</span></span>
+78. <span data-ttu-id="30546-205">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="30546-205">Close the page.</span></span>
 

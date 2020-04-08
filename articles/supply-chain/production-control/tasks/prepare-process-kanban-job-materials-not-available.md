@@ -17,38 +17,38 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bba9e5cb7dfddd2a80a37e7a57fdf94a91341e8f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f779db14a866cc9a401d15e0666883ba3a828548
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843636"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146709"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="c0fee-103">จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบไม่พร้อมใช้งานสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="c0fee-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="9f85c-103">จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบไม่พร้อมใช้งานสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="9f85c-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c0fee-104">ขั้นตอนนี้มุ่งเน้นการจัดเตรียมกระบวนการงานคัมบังเมื่อวัสดุและส่วนประกอบบางรายการไม่พร้อมใช้งานสำหรับเซลล์ทำงาน ดังนั้นจึงจำเป็นต้องเบิกวัสดุจากคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="c0fee-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="c0fee-105">ขั้นตอน "การจัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งาน" เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างขั้นตอนนี้ </span><span class="sxs-lookup"><span data-stu-id="c0fee-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="c0fee-106">กระบวนงานนี้มีไว้สำหรับพนักงานควบคุมเครื่องจักร</span><span class="sxs-lookup"><span data-stu-id="c0fee-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="c0fee-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="c0fee-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="9f85c-104">ขั้นตอนนี้มุ่งเน้นการจัดเตรียมกระบวนการงานคัมบังเมื่อวัสดุและส่วนประกอบบางรายการไม่พร้อมใช้งานสำหรับเซลล์ทำงาน ดังนั้นจึงจำเป็นต้องเบิกวัสดุจากคลังสินค้า </span><span class="sxs-lookup"><span data-stu-id="9f85c-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="9f85c-105">ขั้นตอน "การจัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งาน" เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างขั้นตอนนี้ </span><span class="sxs-lookup"><span data-stu-id="9f85c-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="9f85c-106">กระบวนงานนี้มีไว้สำหรับพนักงานควบคุมเครื่องจักร</span><span class="sxs-lookup"><span data-stu-id="9f85c-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="9f85c-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="9f85c-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="c0fee-108">ไปที่การควบคุมการผลิต > คัมบัง > บอร์ดคัมบังสำหรับงานกระบวนการ </span><span class="sxs-lookup"><span data-stu-id="c0fee-108">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="c0fee-109">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="c0fee-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="c0fee-110">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c0fee-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="c0fee-111">เลือกเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="c0fee-111">Select work cell 1250.</span></span>  
-4. <span data-ttu-id="c0fee-112">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c0fee-112">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="c0fee-113">เลือกคัมบัง 000356</span><span class="sxs-lookup"><span data-stu-id="c0fee-113">Select Kanban 000356.</span></span>  
-5. <span data-ttu-id="c0fee-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c0fee-114">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="c0fee-115">ในรายการ ยกเลิกการเลือกแถว 4</span><span class="sxs-lookup"><span data-stu-id="c0fee-115">In the list, deselect row 4.</span></span> <span data-ttu-id="c0fee-116">หรือเลือกแถว 4 ถ้าคุณยังไม่เสร็จงาน "การเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งาน"</span><span class="sxs-lookup"><span data-stu-id="c0fee-116">or Select row 4 if you haven't completed the task "Prepare a process kanban job when materials are available."</span></span>  
-6. <span data-ttu-id="c0fee-117">สลับการขยายของส่วนรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c0fee-117">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="c0fee-118">ไอคอนไม่พบรายการอยู่ในสถานะการจัดหาวัสดุแสดงว่า ea 48 ของสินค้า P0002 ไม่มีสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="c0fee-118">The No entry icon in the supply status indicates that 48 ea of item P0002 are missing for the work cell.</span></span>  
+1. <span data-ttu-id="9f85c-108">ไปที่การควบคุมการผลิต > คัมบัง > บอร์ดคัมบังสำหรับงานกระบวนการ </span><span class="sxs-lookup"><span data-stu-id="9f85c-108">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="9f85c-109">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="9f85c-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="9f85c-110">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="9f85c-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="9f85c-111">เลือกเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="9f85c-111">Select work cell 1250.</span></span>  
+4. <span data-ttu-id="9f85c-112">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="9f85c-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="9f85c-113">เลือกคัมบัง 000356</span><span class="sxs-lookup"><span data-stu-id="9f85c-113">Select Kanban 000356.</span></span>  
+5. <span data-ttu-id="9f85c-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="9f85c-114">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="9f85c-115">ในรายการ ยกเลิกการเลือกแถว 4</span><span class="sxs-lookup"><span data-stu-id="9f85c-115">In the list, deselect row 4.</span></span> <span data-ttu-id="9f85c-116">หรือเลือกแถว 4 ถ้าคุณยังไม่เสร็จงาน "การเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งาน"</span><span class="sxs-lookup"><span data-stu-id="9f85c-116">or Select row 4 if you haven't completed the task "Prepare a process kanban job when materials are available."</span></span>  
+6. <span data-ttu-id="9f85c-117">สลับการขยายของส่วนรายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="9f85c-117">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="9f85c-118">ไอคอนไม่พบรายการอยู่ในสถานะการจัดหาวัสดุแสดงว่า ea 48 ของสินค้า P0002 ไม่มีสำหรับเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="9f85c-118">The No entry icon in the supply status indicates that 48 ea of item P0002 are missing for the work cell.</span></span>  
 
-## <a name="transfer-materials-to-work-cell"></a><span data-ttu-id="c0fee-119">โอนย้ายวัสดุไปเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="c0fee-119">Transfer materials to work cell</span></span>
-1. <span data-ttu-id="c0fee-120">สลับการขยายของส่วนงานการโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="c0fee-120">Toggle the expansion of the Transfer jobs section.</span></span>
-2. <span data-ttu-id="c0fee-121">ใช้ตัวกรองด่วนเพื่อกรองฟิลด์ หมายเลขสินค้าด้วยค่า 'P0002'</span><span class="sxs-lookup"><span data-stu-id="c0fee-121">Use the Quick Filter to filter on the Item number field with a value of 'P0002'.</span></span>
-3. <span data-ttu-id="c0fee-122">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c0fee-122">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="c0fee-123">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="c0fee-123">Click Start.</span></span>
-    * <span data-ttu-id="c0fee-124">การโอนย้ายอยู่ระหว่างดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="c0fee-124">Transfer is in progress.</span></span>  
-5. <span data-ttu-id="c0fee-125">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="c0fee-125">Click Complete.</span></span>
-    * <span data-ttu-id="c0fee-126">สินค้า P0002 จะพร้อมใช้งานในรายการเบิกสินค้าสำหรับงานคัมบัง </span><span class="sxs-lookup"><span data-stu-id="c0fee-126">Item P0002 is now available in the picking list for the kanban job.</span></span> <span data-ttu-id="c0fee-127">ซึ่งหมายความว่าเราสามารถจัดเตรียมคัมบังกับวัสดุที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c0fee-127">This means that we can prepare the kanban with all the needed materials.</span></span>  
-6. <span data-ttu-id="c0fee-128">คลิกจัดเตรียม </span><span class="sxs-lookup"><span data-stu-id="c0fee-128">Click Prepare.</span></span>
-    * <span data-ttu-id="c0fee-129">โปรดสังเกตว่า ไอคอนในสถานะงานแสดงให้เห็นว่า ขณะนี้งานพร้อม</span><span class="sxs-lookup"><span data-stu-id="c0fee-129">Notice that an icon in the Job status indicates that the job is now ready.</span></span>  
+## <a name="transfer-materials-to-work-cell"></a><span data-ttu-id="9f85c-119">โอนย้ายวัสดุไปเซลล์ทำงาน</span><span class="sxs-lookup"><span data-stu-id="9f85c-119">Transfer materials to work cell</span></span>
+1. <span data-ttu-id="9f85c-120">สลับการขยายของส่วนงานการโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="9f85c-120">Toggle the expansion of the Transfer jobs section.</span></span>
+2. <span data-ttu-id="9f85c-121">ใช้ตัวกรองด่วนเพื่อกรองฟิลด์ หมายเลขสินค้าด้วยค่า 'P0002'</span><span class="sxs-lookup"><span data-stu-id="9f85c-121">Use the Quick Filter to filter on the Item number field with a value of 'P0002'.</span></span>
+3. <span data-ttu-id="9f85c-122">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="9f85c-122">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="9f85c-123">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="9f85c-123">Click Start.</span></span>
+    * <span data-ttu-id="9f85c-124">การโอนย้ายอยู่ระหว่างดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="9f85c-124">Transfer is in progress.</span></span>  
+5. <span data-ttu-id="9f85c-125">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="9f85c-125">Click Complete.</span></span>
+    * <span data-ttu-id="9f85c-126">สินค้า P0002 จะพร้อมใช้งานในรายการเบิกสินค้าสำหรับงานคัมบัง </span><span class="sxs-lookup"><span data-stu-id="9f85c-126">Item P0002 is now available in the picking list for the kanban job.</span></span> <span data-ttu-id="9f85c-127">ซึ่งหมายความว่าเราสามารถจัดเตรียมคัมบังกับวัสดุที่จำเป็นทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="9f85c-127">This means that we can prepare the kanban with all the needed materials.</span></span>  
+6. <span data-ttu-id="9f85c-128">คลิกจัดเตรียม </span><span class="sxs-lookup"><span data-stu-id="9f85c-128">Click Prepare.</span></span>
+    * <span data-ttu-id="9f85c-129">โปรดสังเกตว่า ไอคอนในสถานะงานแสดงให้เห็นว่า ขณะนี้งานพร้อม</span><span class="sxs-lookup"><span data-stu-id="9f85c-129">Notice that an icon in the Job status indicates that the job is now ready.</span></span>  
 

@@ -16,40 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fcb7b1b12dbf0e49e15aa594b0048a9b9216260
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e612e3cd0343d386da4755f13eca6bf1443816d5
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844884"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150172"
 ---
-# <a name="create-dimension-based-configurations"></a><span data-ttu-id="2029a-103">สร้างการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="2029a-103">Create dimension-based configurations</span></span>
+# <a name="create-dimension-based-configurations"></a><span data-ttu-id="fe7a3-103">สร้างการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="fe7a3-103">Create dimension-based configurations</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2029a-104">กระบวนงานนี้แสดงวิธีการกำหนดการปรับเปลี่ยนสำหรับผลิตภัณฑ์ตามมิติ </span><span class="sxs-lookup"><span data-stu-id="2029a-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="2029a-105">นี่คือกระบวนงานสุดท้ายในชุดที่อธิบายถึงวิธีการสร้างชุดงานสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="2029a-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="2029a-106">การดำเนินการกระบวนงานนี้จะขึ้นอยู่กับข้อมูลที่สร้างขึ้นในการบันทึกเจ็ดรายการก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="2029a-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="2029a-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="2029a-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="fe7a3-104">กระบวนงานนี้แสดงวิธีการกำหนดการปรับเปลี่ยนสำหรับผลิตภัณฑ์ตามมิติ </span><span class="sxs-lookup"><span data-stu-id="fe7a3-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="fe7a3-105">นี่คือกระบวนงานสุดท้ายในชุดที่อธิบายถึงวิธีการสร้างชุดงานสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="fe7a3-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="fe7a3-106">การดำเนินการกระบวนงานนี้จะขึ้นอยู่กับข้อมูลที่สร้างขึ้นในการบันทึกเจ็ดรายการก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="fe7a3-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="fe7a3-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="fe7a3-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="find-the-dimension-based-product-master"></a><span data-ttu-id="2029a-108">หาผลิตภัณฑ์หลักตามมิติ</span><span class="sxs-lookup"><span data-stu-id="2029a-108">Find the dimension-based product master</span></span>
-1. <span data-ttu-id="2029a-109">คลิก การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="2029a-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="2029a-110">คลิกผลิตภัณฑ์ต่างๆที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="2029a-110">Click Released products.</span></span>
-3. <span data-ttu-id="2029a-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2029a-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="2029a-112">เลือกผลิตภัณฑ์หลักตามมิติ ที่คุณสร้างขึ้นในการบันทึกแรกในลำดับงานของการบันทึก 8 รายการนี้</span><span class="sxs-lookup"><span data-stu-id="2029a-112">Select the dimension-based product master that you created in the first recording in this sequence of 8 recordings.</span></span>  
+## <a name="find-the-dimension-based-product-master"></a><span data-ttu-id="fe7a3-108">หาผลิตภัณฑ์หลักตามมิติ</span><span class="sxs-lookup"><span data-stu-id="fe7a3-108">Find the dimension-based product master</span></span>
+1. <span data-ttu-id="fe7a3-109">คลิก การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="fe7a3-109">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="fe7a3-110">คลิกผลิตภัณฑ์ต่างๆที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="fe7a3-110">Click Released products.</span></span>
+3. <span data-ttu-id="fe7a3-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe7a3-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="fe7a3-112">เลือกผลิตภัณฑ์หลักตามมิติ ที่คุณสร้างขึ้นในการบันทึกแรกในลำดับงานของการบันทึก 8 รายการนี้</span><span class="sxs-lookup"><span data-stu-id="fe7a3-112">Select the dimension-based product master that you created in the first recording in this sequence of 8 recordings.</span></span>  
 
-## <a name="create-configurations"></a><span data-ttu-id="2029a-113">สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="2029a-113">Create configurations</span></span>
-1. <span data-ttu-id="2029a-114">ในหน้าต่างการดำเนินการด้านวิศวกรรม คลิกรักษาโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="2029a-114">On the Engineering Action Pane, click Maintain configurations.</span></span>
-2. <span data-ttu-id="2029a-115">คลิกตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="2029a-115">Click Configure.</span></span>
-3. <span data-ttu-id="2029a-116">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2029a-116">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="2029a-117">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="2029a-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="2029a-118">เลือกสินค้าใดๆของกลุ่มการปรับเปลี่ยนแรก</span><span class="sxs-lookup"><span data-stu-id="2029a-118">Select any of the items in the first configuration group.</span></span>  
-5. <span data-ttu-id="2029a-119">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="2029a-119">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="2029a-120">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="2029a-120">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="2029a-121">เลือกสินค้าใดๆจากกลุ่มการปรับเปลี่ยนที่สอง</span><span class="sxs-lookup"><span data-stu-id="2029a-121">Select any item from the second configuration group.</span></span>  
-7. <span data-ttu-id="2029a-122">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="2029a-122">Click OK.</span></span>
-8. <span data-ttu-id="2029a-123">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="2029a-123">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="2029a-124">ในฟิลด์การตั้งค่าคอนฟิก ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2029a-124">In the Configuration field, type a value.</span></span>
-    * <span data-ttu-id="2029a-125">ป้อนชื่อของกลุ่มการปรับเปลี่ยนที่จะทำให้ง่ายต่อการระบุการปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="2029a-125">Enter a configuration name that will make it easy to identify the configuration.</span></span>  
-10. <span data-ttu-id="2029a-126">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2029a-126">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="2029a-127">ป้อนคำอธิบายของการปรับเปลี่ยนเพื่ออธิบายส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="2029a-127">Enter a description of the configuration to explain what it contains.</span></span>  
-11. <span data-ttu-id="2029a-128">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="2029a-128">Click OK.</span></span>
+## <a name="create-configurations"></a><span data-ttu-id="fe7a3-113">สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="fe7a3-113">Create configurations</span></span>
+1. <span data-ttu-id="fe7a3-114">ในหน้าต่างการดำเนินการด้านวิศวกรรม คลิกรักษาโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="fe7a3-114">On the Engineering Action Pane, click Maintain configurations.</span></span>
+2. <span data-ttu-id="fe7a3-115">คลิกตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="fe7a3-115">Click Configure.</span></span>
+3. <span data-ttu-id="fe7a3-116">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe7a3-116">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="fe7a3-117">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fe7a3-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="fe7a3-118">เลือกสินค้าใดๆของกลุ่มการปรับเปลี่ยนแรก</span><span class="sxs-lookup"><span data-stu-id="fe7a3-118">Select any of the items in the first configuration group.</span></span>  
+5. <span data-ttu-id="fe7a3-119">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="fe7a3-119">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="fe7a3-120">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fe7a3-120">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="fe7a3-121">เลือกสินค้าใดๆจากกลุ่มการปรับเปลี่ยนที่สอง</span><span class="sxs-lookup"><span data-stu-id="fe7a3-121">Select any item from the second configuration group.</span></span>  
+7. <span data-ttu-id="fe7a3-122">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="fe7a3-122">Click OK.</span></span>
+8. <span data-ttu-id="fe7a3-123">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe7a3-123">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="fe7a3-124">ในฟิลด์การตั้งค่าคอนฟิก ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fe7a3-124">In the Configuration field, type a value.</span></span>
+    * <span data-ttu-id="fe7a3-125">ป้อนชื่อของกลุ่มการปรับเปลี่ยนที่จะทำให้ง่ายต่อการระบุการปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="fe7a3-125">Enter a configuration name that will make it easy to identify the configuration.</span></span>  
+10. <span data-ttu-id="fe7a3-126">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="fe7a3-126">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="fe7a3-127">ป้อนคำอธิบายของการปรับเปลี่ยนเพื่ออธิบายส่วนประกอบ</span><span class="sxs-lookup"><span data-stu-id="fe7a3-127">Enter a description of the configuration to explain what it contains.</span></span>  
+11. <span data-ttu-id="fe7a3-128">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="fe7a3-128">Click OK.</span></span>
 

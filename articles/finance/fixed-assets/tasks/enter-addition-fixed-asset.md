@@ -16,33 +16,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe1a1d4db696ac013afee05b697b301383232134
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186957"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142765"
 ---
-# <a name="enter-an-addition-to-a-fixed-asset"></a><span data-ttu-id="dff76-103">การป้อนสินทรัพย์ถาวรที่ได้มาเพิ่มลงในสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="dff76-103">Enter an addition to a fixed asset</span></span>
+# <a name="enter-an-addition-to-a-fixed-asset"></a><span data-ttu-id="0cb15-103">การป้อนสินทรัพย์ถาวรที่ได้มาเพิ่มลงในสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="0cb15-103">Enter an addition to a fixed asset</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="dff76-104">กระบวนการนี้จะแสดงวิธีการเพิ่มรายการเพิ่มเติมไปยังทรัพย์สินถาวรที่มีอยู่ </span><span class="sxs-lookup"><span data-stu-id="dff76-104">This procedure shows how to add an addition to an existing fixed asset.</span></span> <span data-ttu-id="dff76-105">วัตถุประสงค์ของส่วนเพิ่มเติมของสินทรัพย์ถาวรเพื่อติดตามการเพิ่มรายการ การบำรุงรักษา หรือการปรับปรุงสำหรับสินทรัพย์ และให้ข้อมูลเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="dff76-105">The purpose of Fixed asset additions is to track item additions, maintenance, or improvements for an asset, and is informational only.</span></span> <span data-ttu-id="dff76-106">การเปลี่ยนแปลใดๆ กับมูลค่าสินทรัพย์ถาวรหรืออายุการใช้งานจะต้องทำแยกต่างหาก </span><span class="sxs-lookup"><span data-stu-id="dff76-106">Any changes to the fixed asset value or service life must be made separately.</span></span>   
+<span data-ttu-id="0cb15-104">กระบวนการนี้จะแสดงวิธีการเพิ่มรายการเพิ่มเติมไปยังทรัพย์สินถาวรที่มีอยู่ </span><span class="sxs-lookup"><span data-stu-id="0cb15-104">This procedure shows how to add an addition to an existing fixed asset.</span></span> <span data-ttu-id="0cb15-105">วัตถุประสงค์ของส่วนเพิ่มเติมของสินทรัพย์ถาวรเพื่อติดตามการเพิ่มรายการ การบำรุงรักษา หรือการปรับปรุงสำหรับสินทรัพย์ และให้ข้อมูลเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="0cb15-105">The purpose of Fixed asset additions is to track item additions, maintenance, or improvements for an asset, and is informational only.</span></span> <span data-ttu-id="0cb15-106">การเปลี่ยนแปลใดๆ กับมูลค่าสินทรัพย์ถาวรหรืออายุการใช้งานจะต้องทำแยกต่างหาก </span><span class="sxs-lookup"><span data-stu-id="0cb15-106">Any changes to the fixed asset value or service life must be made separately.</span></span>   
 
-<span data-ttu-id="dff76-107">กระบวนการใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="dff76-107">The procedure uses the Accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="0cb15-107">กระบวนการใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF</span><span class="sxs-lookup"><span data-stu-id="0cb15-107">The procedure uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
-1. <span data-ttu-id="dff76-108">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="dff76-108">In the Navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
-2. <span data-ttu-id="dff76-109">ในรายการ ค้นหาและเลือกสินทรัพย์ถาวรสำหรับเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="dff76-109">In the list, find and select the fixed asset for the addition.</span></span>
-3. <span data-ttu-id="dff76-110">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="dff76-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="dff76-111">ในบานหน้าต่างการดำเนินการ คลิก **สินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="dff76-111">On the Action Pane, click **Fixed asset**.</span></span>
-5. <span data-ttu-id="dff76-112">คลิก **ส่วนเพิ่มเติมสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="dff76-112">Click **Fixed asset additions**.</span></span>
-6. <span data-ttu-id="dff76-113">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="dff76-113">Click **New**.</span></span>
-7. <span data-ttu-id="dff76-114">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="dff76-114">In the **Name** field, type a value.</span></span>
-8. <span data-ttu-id="dff76-115">ในฟิลด์ **วันที่ซื้อสินทรัพย์** ให้ตั้งค่าวันที่ของการซื้อหรือบริการเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="dff76-115">In the **Acquisition date** field, set the date of the addition purchase or service.</span></span>
-9. <span data-ttu-id="dff76-116">ในฟิลด์ **ต้นทุนต่อหน่วย** ป้อนต้นทุนของสินค้า การบำรุงรักษา หรือการปรับปรุงอื่นๆ สำหรับสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="dff76-116">In the **Unit cost** field, enter the cost of the item, maintenance, or other improvement for the asset.</span></span>
-10. <span data-ttu-id="dff76-117">ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="dff76-117">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="dff76-118">ต้นทุนทั้งหมดจะไม่มีผลกระทบบนค่าของสินทรัพย์ถาวร และการติดตาม และแจ้งให้ทราบเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="dff76-118">The total cost will have no impact on the value of the fixed asset and is for tracking and informational purposes only.</span></span> <span data-ttu-id="dff76-119">ถ้าต้นทุนจะถูกบันทึกเป็นสินทรัพย์ ธุรกรรมการปรับปรุงจะต้องเขียนขึ้นและลงรายการบัญชีแยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="dff76-119">If the cost will be capitalized, then a write-up adjustment transaction must be posted separately.</span></span>  
-11. <span data-ttu-id="dff76-120">คลิกแท็บ **ทั่วไป** </span><span class="sxs-lookup"><span data-stu-id="dff76-120">Click the **General** tab.</span></span>
+1. <span data-ttu-id="0cb15-108">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > สินทรัพย์ถาวร > สินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="0cb15-108">In the Navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
+2. <span data-ttu-id="0cb15-109">ในรายการ ค้นหาและเลือกสินทรัพย์ถาวรสำหรับเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="0cb15-109">In the list, find and select the fixed asset for the addition.</span></span>
+3. <span data-ttu-id="0cb15-110">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="0cb15-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="0cb15-111">ในบานหน้าต่างการดำเนินการ คลิก **สินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="0cb15-111">On the Action Pane, click **Fixed asset**.</span></span>
+5. <span data-ttu-id="0cb15-112">คลิก **ส่วนเพิ่มเติมสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="0cb15-112">Click **Fixed asset additions**.</span></span>
+6. <span data-ttu-id="0cb15-113">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="0cb15-113">Click **New**.</span></span>
+7. <span data-ttu-id="0cb15-114">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="0cb15-114">In the **Name** field, type a value.</span></span>
+8. <span data-ttu-id="0cb15-115">ในฟิลด์ **วันที่ซื้อสินทรัพย์** ให้ตั้งค่าวันที่ของการซื้อหรือบริการเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="0cb15-115">In the **Acquisition date** field, set the date of the addition purchase or service.</span></span>
+9. <span data-ttu-id="0cb15-116">ในฟิลด์ **ต้นทุนต่อหน่วย** ป้อนต้นทุนของสินค้า การบำรุงรักษา หรือการปรับปรุงอื่นๆ สำหรับสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="0cb15-116">In the **Unit cost** field, enter the cost of the item, maintenance, or other improvement for the asset.</span></span>
+10. <span data-ttu-id="0cb15-117">ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="0cb15-117">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="0cb15-118">ต้นทุนทั้งหมดจะไม่มีผลกระทบบนค่าของสินทรัพย์ถาวร และการติดตาม และแจ้งให้ทราบเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="0cb15-118">The total cost will have no impact on the value of the fixed asset and is for tracking and informational purposes only.</span></span> <span data-ttu-id="0cb15-119">ถ้าต้นทุนจะถูกบันทึกเป็นสินทรัพย์ ธุรกรรมการปรับปรุงจะต้องเขียนขึ้นและลงรายการบัญชีแยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="0cb15-119">If the cost will be capitalized, then a write-up adjustment transaction must be posted separately.</span></span>  
+11. <span data-ttu-id="0cb15-120">คลิกแท็บ **ทั่วไป** </span><span class="sxs-lookup"><span data-stu-id="0cb15-120">Click the **General** tab.</span></span>
 
-    * <span data-ttu-id="dff76-121">ตั้งค่า **เพิ่มอายุการใช้งาน** เป็น **ใช่** ถ้าส่วนเพิ่มเติมจะทำให้อายุการใช้งานของสินทรัพย์เพิ่มขึ้น</span><span class="sxs-lookup"><span data-stu-id="dff76-121">Set **Increases service life** to **Yes** if the addition increases the service life of the asset.</span></span>  
-    * <span data-ttu-id="dff76-122">ฟิลด์นี้มีไว้เพื่อให้ข้อมูลเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="dff76-122">This field is informational only.</span></span> <span data-ttu-id="dff76-123">เพื่อเพิ่มอายุการใช้งาน แก้ไขอายุการใช้งานบนรูปแบบมูลค่าและ/หรือ สมุดบัญชีค่าเสื่อมราคาสำหรับสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="dff76-123">To increase the service life, modify the Service life on the Value models and/or Depreciation books for the asset.</span></span>  
+    * <span data-ttu-id="0cb15-121">ตั้งค่า **เพิ่มอายุการใช้งาน** เป็น **ใช่** ถ้าส่วนเพิ่มเติมจะทำให้อายุการใช้งานของสินทรัพย์เพิ่มขึ้น</span><span class="sxs-lookup"><span data-stu-id="0cb15-121">Set **Increases service life** to **Yes** if the addition increases the service life of the asset.</span></span>  
+    * <span data-ttu-id="0cb15-122">ฟิลด์นี้มีไว้เพื่อให้ข้อมูลเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="0cb15-122">This field is informational only.</span></span> <span data-ttu-id="0cb15-123">เพื่อเพิ่มอายุการใช้งาน แก้ไขอายุการใช้งานบนรูปแบบมูลค่าและ/หรือ สมุดบัญชีค่าเสื่อมราคาสำหรับสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="0cb15-123">To increase the service life, modify the Service life on the Value models and/or Depreciation books for the asset.</span></span>  
 

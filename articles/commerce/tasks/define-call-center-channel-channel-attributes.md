@@ -15,88 +15,88 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62075c01ad7e2a4c393e9658fa67f8b536654aec
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a2f99029195a8b783f0d12990d4e8bab0bb348d7
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057196"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140979"
 ---
-# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="335bc-103">กำหนดช่องทางคอลเซ็นเตอร์และกำหนดแอททริบิวต์ช่องทาง</span><span class="sxs-lookup"><span data-stu-id="335bc-103">Create call center channels and define channel attributes</span></span>
+# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="cb5a0-103">กำหนดช่องทางคอลเซ็นเตอร์และกำหนดแอททริบิวต์ช่องทาง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-103">Create call center channels and define channel attributes</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="335bc-104">กระบวนการนี้จะแนะนำถึงการสร้างช่องทางการค้าใหม่และกำหนดแอตทริบิวต์ของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="335bc-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="335bc-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT </span><span class="sxs-lookup"><span data-stu-id="335bc-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="335bc-106">กระบวนการนี้เจาะจงสำหรับบทบาทไอทีในเชิงพาณิชย์</span><span class="sxs-lookup"><span data-stu-id="335bc-106">This procedure is intended for the Commerce IT role.</span></span>
+<span data-ttu-id="cb5a0-104">กระบวนการนี้จะแนะนำถึงการสร้างช่องทางการค้าใหม่และกำหนดแอตทริบิวต์ของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="cb5a0-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างงานนี้คือ USRT </span><span class="sxs-lookup"><span data-stu-id="cb5a0-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="cb5a0-106">กระบวนการนี้เจาะจงสำหรับบทบาทไอทีในเชิงพาณิชย์</span><span class="sxs-lookup"><span data-stu-id="cb5a0-106">This procedure is intended for the Commerce IT role.</span></span>
 
 
-## <a name="create-new-store"></a><span data-ttu-id="335bc-107">สร้างร้านค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="335bc-107">Create new store</span></span>
-1. <span data-ttu-id="335bc-108">ไปที่ พื้นที่ทำงานทั้งหมด > การปรับใช้ช่องทาง</span><span class="sxs-lookup"><span data-stu-id="335bc-108">Go to All workspaces > Channel deployment.</span></span>
-2. <span data-ttu-id="335bc-109">คลิก ช่องทางใหม่</span><span class="sxs-lookup"><span data-stu-id="335bc-109">Click New channel.</span></span>
-3. <span data-ttu-id="335bc-110">คลิก ร้านค้า</span><span class="sxs-lookup"><span data-stu-id="335bc-110">Click Store.</span></span>
-4. <span data-ttu-id="335bc-111">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="335bc-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="335bc-112">ในฟิลด์หมายเลขร้านค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="335bc-112">In the Store number field, type a value.</span></span>
-6. <span data-ttu-id="335bc-113">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="335bc-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-114">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="335bc-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="335bc-116">ในฟิลด์เขตเวลาของร้านค้า ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-116">In the Store time zone field, select an option.</span></span>
-10. <span data-ttu-id="335bc-117">ในฟิลด์โพรไฟล์ช่องทาง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="335bc-118">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="335bc-119">ในฟิลด์ภาษา ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-119">In the Language field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="335bc-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="335bc-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-121">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="335bc-122">ในฟิลด์กลุ่มภาษีขาย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="335bc-123">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-123">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="335bc-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="335bc-125">ในฟิลด์สมุดที่อยู่ลูกค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="335bc-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="335bc-126">เลือกสมุดที่อยู่ที่ใช้ในการเชื่อมโยงลูกค้าไปยังร้านค้านี้</span><span class="sxs-lookup"><span data-stu-id="335bc-126">Select the address book used to link customers to this store.</span></span>  
-19. <span data-ttu-id="335bc-127">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-127">In the list, find and select the desired record.</span></span>
-20. <span data-ttu-id="335bc-128">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-128">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="335bc-129">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="335bc-129">Click Select.</span></span>
-22. <span data-ttu-id="335bc-130">ในฟิลด์สมุดที่อยู่พนักงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="335bc-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="335bc-131">เลือกสมุดที่อยู่ที่ใช้ในการเชื่อมโยงพนักงานเก็บเงินไปยังช่องทางนี้</span><span class="sxs-lookup"><span data-stu-id="335bc-131">Select the address book used to link cashiers to this channel.</span></span>  
-23. <span data-ttu-id="335bc-132">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-132">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="335bc-133">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-133">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="335bc-134">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="335bc-134">Click Select.</span></span>
-26. <span data-ttu-id="335bc-135">ในฟิลด์ลูกค้าเริ่มต้น ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="335bc-136">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-136">In the list, click the link in the selected row.</span></span>
-28. <span data-ttu-id="335bc-137">ขยายหรือยุบส่วนโครงร่างหน้าจอ </span><span class="sxs-lookup"><span data-stu-id="335bc-137">Expand or collapse the Screen layout section.</span></span>
-29. <span data-ttu-id="335bc-138">ในฟิลด์รหัสโครงร่างหน้าจอ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="335bc-139">เลือกโครงร่างหน้าจอ POS เริ่มต้นสำหรับร้านค้านี้</span><span class="sxs-lookup"><span data-stu-id="335bc-139">Select the default POS screen layout for this store.</span></span>  
-30. <span data-ttu-id="335bc-140">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-140">In the list, find and select the desired record.</span></span>
-31. <span data-ttu-id="335bc-141">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-141">In the list, click the link in the selected row.</span></span>
-32. <span data-ttu-id="335bc-142">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="335bc-142">On the Action Pane, click Set up.</span></span>
-33. <span data-ttu-id="335bc-143">คลิก แอตทริบิวต์ช่องทาง</span><span class="sxs-lookup"><span data-stu-id="335bc-143">Click Channel attributes.</span></span>
-34. <span data-ttu-id="335bc-144">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="335bc-144">Click New.</span></span>
-35. <span data-ttu-id="335bc-145">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-145">In the Name field, click the drop-down button to open the lookup.</span></span>
-36. <span data-ttu-id="335bc-146">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-146">In the list, find and select the desired record.</span></span>
-37. <span data-ttu-id="335bc-147">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-147">In the list, click the link in the selected row.</span></span>
-38. <span data-ttu-id="335bc-148">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="335bc-148">Click Save.</span></span>
-39. <span data-ttu-id="335bc-149">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="335bc-149">Close the page.</span></span>
-40. <span data-ttu-id="335bc-150">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="335bc-150">On the Action Pane, click Set up.</span></span>
-41. <span data-ttu-id="335bc-151">คลิกวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="335bc-151">Click Payment methods.</span></span>
-42. <span data-ttu-id="335bc-152">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="335bc-152">Click New.</span></span>
-43. <span data-ttu-id="335bc-153">ในฟิลด์วิธีการชำระเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
-44. <span data-ttu-id="335bc-154">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-154">In the list, click the link in the selected row.</span></span>
-45. <span data-ttu-id="335bc-155">ขยายหรือยุบส่วนการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="335bc-155">Expand or collapse the Posting section.</span></span>
-46. <span data-ttu-id="335bc-156">ในฟิลด์หมายเลขบัญชี ให้ระบุค่าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-156">In the Account number field, specify the desired values.</span></span>
-47. <span data-ttu-id="335bc-157">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="335bc-157">Click Save.</span></span>
-48. <span data-ttu-id="335bc-158">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="335bc-158">Close the page.</span></span>
-49. <span data-ttu-id="335bc-159">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="335bc-159">On the Action Pane, click Set up.</span></span>
-50. <span data-ttu-id="335bc-160">คลิก การตรวจนับเงินสด</span><span class="sxs-lookup"><span data-stu-id="335bc-160">Click Cash declaration.</span></span>
-51. <span data-ttu-id="335bc-161">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="335bc-161">Click New.</span></span>
-52. <span data-ttu-id="335bc-162">ในฟิลด์ยอดเงินในสกุลเงินธุรกรรม ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="335bc-162">In the Amount in transaction currency field, enter a number.</span></span>
-53. <span data-ttu-id="335bc-163">ในฟิลด์สกุลเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
-54. <span data-ttu-id="335bc-164">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-164">In the list, find and select the desired record.</span></span>
-55. <span data-ttu-id="335bc-165">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-165">In the list, click the link in the selected row.</span></span>
-56. <span data-ttu-id="335bc-166">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="335bc-166">Click Save.</span></span>
-57. <span data-ttu-id="335bc-167">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="335bc-167">Close the page.</span></span>
-58. <span data-ttu-id="335bc-168">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="335bc-168">On the Action Pane, click Set up.</span></span>
-59. <span data-ttu-id="335bc-169">คลิก การกำหนดกลุ่มรหัสที่ตั้งร้านค้า</span><span class="sxs-lookup"><span data-stu-id="335bc-169">Click Store locator group assignment.</span></span>
-60. <span data-ttu-id="335bc-170">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="335bc-170">Click New.</span></span>
-61. <span data-ttu-id="335bc-171">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-171">In the list, mark the selected row.</span></span>
-62. <span data-ttu-id="335bc-172">ในฟิลด์กลุ่มรหัสที่ตั้ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="335bc-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
-63. <span data-ttu-id="335bc-173">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="335bc-173">In the list, find and select the desired record.</span></span>
-64. <span data-ttu-id="335bc-174">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="335bc-174">In the list, click the link in the selected row.</span></span>
-65. <span data-ttu-id="335bc-175">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="335bc-175">Click Save.</span></span>
-66. <span data-ttu-id="335bc-176">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="335bc-176">Close the page.</span></span>
+## <a name="create-new-store"></a><span data-ttu-id="cb5a0-107">สร้างร้านค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="cb5a0-107">Create new store</span></span>
+1. <span data-ttu-id="cb5a0-108">ไปที่ พื้นที่ทำงานทั้งหมด > การปรับใช้ช่องทาง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-108">Go to All workspaces > Channel deployment.</span></span>
+2. <span data-ttu-id="cb5a0-109">คลิก ช่องทางใหม่</span><span class="sxs-lookup"><span data-stu-id="cb5a0-109">Click New channel.</span></span>
+3. <span data-ttu-id="cb5a0-110">คลิก ร้านค้า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-110">Click Store.</span></span>
+4. <span data-ttu-id="cb5a0-111">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="cb5a0-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="cb5a0-112">ในฟิลด์หมายเลขร้านค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-112">In the Store number field, type a value.</span></span>
+6. <span data-ttu-id="cb5a0-113">ในฟิลด์คลังสินค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="cb5a0-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-114">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="cb5a0-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="cb5a0-116">ในฟิลด์เขตเวลาของร้านค้า ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-116">In the Store time zone field, select an option.</span></span>
+10. <span data-ttu-id="cb5a0-117">ในฟิลด์โพรไฟล์ช่องทาง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="cb5a0-118">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="cb5a0-119">ในฟิลด์ภาษา ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-119">In the Language field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="cb5a0-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="cb5a0-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-121">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="cb5a0-122">ในฟิลด์กลุ่มภาษีขาย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="cb5a0-123">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-123">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="cb5a0-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="cb5a0-125">ในฟิลด์สมุดที่อยู่ลูกค้า ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="cb5a0-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="cb5a0-126">เลือกสมุดที่อยู่ที่ใช้ในการเชื่อมโยงลูกค้าไปยังร้านค้านี้</span><span class="sxs-lookup"><span data-stu-id="cb5a0-126">Select the address book used to link customers to this store.</span></span>  
+19. <span data-ttu-id="cb5a0-127">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-127">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="cb5a0-128">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-128">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="cb5a0-129">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="cb5a0-129">Click Select.</span></span>
+22. <span data-ttu-id="cb5a0-130">ในฟิลด์สมุดที่อยู่พนักงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="cb5a0-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="cb5a0-131">เลือกสมุดที่อยู่ที่ใช้ในการเชื่อมโยงพนักงานเก็บเงินไปยังช่องทางนี้</span><span class="sxs-lookup"><span data-stu-id="cb5a0-131">Select the address book used to link cashiers to this channel.</span></span>  
+23. <span data-ttu-id="cb5a0-132">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-132">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="cb5a0-133">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-133">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="cb5a0-134">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="cb5a0-134">Click Select.</span></span>
+26. <span data-ttu-id="cb5a0-135">ในฟิลด์ลูกค้าเริ่มต้น ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="cb5a0-136">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-136">In the list, click the link in the selected row.</span></span>
+28. <span data-ttu-id="cb5a0-137">ขยายหรือยุบส่วนโครงร่างหน้าจอ </span><span class="sxs-lookup"><span data-stu-id="cb5a0-137">Expand or collapse the Screen layout section.</span></span>
+29. <span data-ttu-id="cb5a0-138">ในฟิลด์รหัสโครงร่างหน้าจอ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="cb5a0-139">เลือกโครงร่างหน้าจอ POS เริ่มต้นสำหรับร้านค้านี้</span><span class="sxs-lookup"><span data-stu-id="cb5a0-139">Select the default POS screen layout for this store.</span></span>  
+30. <span data-ttu-id="cb5a0-140">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-140">In the list, find and select the desired record.</span></span>
+31. <span data-ttu-id="cb5a0-141">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-141">In the list, click the link in the selected row.</span></span>
+32. <span data-ttu-id="cb5a0-142">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-142">On the Action Pane, click Set up.</span></span>
+33. <span data-ttu-id="cb5a0-143">คลิก แอตทริบิวต์ช่องทาง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-143">Click Channel attributes.</span></span>
+34. <span data-ttu-id="cb5a0-144">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-144">Click New.</span></span>
+35. <span data-ttu-id="cb5a0-145">ในฟิลด์ชื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-145">In the Name field, click the drop-down button to open the lookup.</span></span>
+36. <span data-ttu-id="cb5a0-146">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-146">In the list, find and select the desired record.</span></span>
+37. <span data-ttu-id="cb5a0-147">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-147">In the list, click the link in the selected row.</span></span>
+38. <span data-ttu-id="cb5a0-148">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-148">Click Save.</span></span>
+39. <span data-ttu-id="cb5a0-149">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-149">Close the page.</span></span>
+40. <span data-ttu-id="cb5a0-150">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-150">On the Action Pane, click Set up.</span></span>
+41. <span data-ttu-id="cb5a0-151">คลิกวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="cb5a0-151">Click Payment methods.</span></span>
+42. <span data-ttu-id="cb5a0-152">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-152">Click New.</span></span>
+43. <span data-ttu-id="cb5a0-153">ในฟิลด์วิธีการชำระเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
+44. <span data-ttu-id="cb5a0-154">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-154">In the list, click the link in the selected row.</span></span>
+45. <span data-ttu-id="cb5a0-155">ขยายหรือยุบส่วนการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="cb5a0-155">Expand or collapse the Posting section.</span></span>
+46. <span data-ttu-id="cb5a0-156">ในฟิลด์หมายเลขบัญชี ให้ระบุค่าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-156">In the Account number field, specify the desired values.</span></span>
+47. <span data-ttu-id="cb5a0-157">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-157">Click Save.</span></span>
+48. <span data-ttu-id="cb5a0-158">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-158">Close the page.</span></span>
+49. <span data-ttu-id="cb5a0-159">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-159">On the Action Pane, click Set up.</span></span>
+50. <span data-ttu-id="cb5a0-160">คลิก การตรวจนับเงินสด</span><span class="sxs-lookup"><span data-stu-id="cb5a0-160">Click Cash declaration.</span></span>
+51. <span data-ttu-id="cb5a0-161">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-161">Click New.</span></span>
+52. <span data-ttu-id="cb5a0-162">ในฟิลด์ยอดเงินในสกุลเงินธุรกรรม ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-162">In the Amount in transaction currency field, enter a number.</span></span>
+53. <span data-ttu-id="cb5a0-163">ในฟิลด์สกุลเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
+54. <span data-ttu-id="cb5a0-164">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-164">In the list, find and select the desired record.</span></span>
+55. <span data-ttu-id="cb5a0-165">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-165">In the list, click the link in the selected row.</span></span>
+56. <span data-ttu-id="cb5a0-166">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-166">Click Save.</span></span>
+57. <span data-ttu-id="cb5a0-167">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-167">Close the page.</span></span>
+58. <span data-ttu-id="cb5a0-168">ในบานหน้าต่างการดำเนินการ คลิกตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-168">On the Action Pane, click Set up.</span></span>
+59. <span data-ttu-id="cb5a0-169">คลิก การกำหนดกลุ่มรหัสที่ตั้งร้านค้า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-169">Click Store locator group assignment.</span></span>
+60. <span data-ttu-id="cb5a0-170">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="cb5a0-170">Click New.</span></span>
+61. <span data-ttu-id="cb5a0-171">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-171">In the list, mark the selected row.</span></span>
+62. <span data-ttu-id="cb5a0-172">ในฟิลด์กลุ่มรหัสที่ตั้ง ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="cb5a0-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
+63. <span data-ttu-id="cb5a0-173">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="cb5a0-173">In the list, find and select the desired record.</span></span>
+64. <span data-ttu-id="cb5a0-174">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-174">In the list, click the link in the selected row.</span></span>
+65. <span data-ttu-id="cb5a0-175">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="cb5a0-175">Click Save.</span></span>
+66. <span data-ttu-id="cb5a0-176">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="cb5a0-176">Close the page.</span></span>
 

@@ -19,49 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020033"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173050"
 ---
-# <a name="switch-between-vendor-designs"></a><span data-ttu-id="e8979-103">สลับการออกแบบของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="e8979-103">Switch between vendor designs</span></span>
+# <a name="switch-between-vendor-designs"></a><span data-ttu-id="2022d-103">สลับการออกแบบของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="2022d-103">Switch between vendor designs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-## <a name="vendor-data-flow"></a><span data-ttu-id="e8979-104">โฟลว์ข้อมูลของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="e8979-104">Vendor data flow</span></span> 
 
-<span data-ttu-id="e8979-105">หากคุณใช้แอป Dynamics 365 อื่น สำหรับการพัฒนาความเชี่ยวชาญของผู้จัดจำหน่าย และคุณต้องการแยกข้อมูลผู้จัดจำหน่ายออกจากข้อมูลลูกค้า ใช้การออกแบบผู้จัดจำหน่ายพื้นฐานนี้</span><span class="sxs-lookup"><span data-stu-id="e8979-105">If you use other Dynamics 365 apps for vendor mastering and you want to isolate vendor information from customers, use this basic vendor design.</span></span>  
+## <a name="vendor-data-flow"></a><span data-ttu-id="2022d-104">โฟลว์ข้อมูลของผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="2022d-104">Vendor data flow</span></span> 
 
-![ขั้นตอนของผู้จัดจำหน่ายพื้นฐาน](media/dual-write-vendor-data-flow.png)
- 
-<span data-ttu-id="e8979-107">ถ้าคุณใช้แอป Dynamics 365 อื่น สำหรับการพัฒนาความเชี่ยวชาญของผู้จัดจำหน่าย และคุณต้องการใช้เอนทิตี **บัญชี** ต่อเพื่อการเก็บข้อมูลผู้จัดจำหน่าย ใช้การออกแบบผู้จัดจำหน่ายแบบขยายนี้</span><span class="sxs-lookup"><span data-stu-id="e8979-107">If you use other Dynamics 365 apps for vendor mastering and you want to continue to use the **Account** entity for storing vendor information, use this extended vendor design.</span></span> <span data-ttu-id="e8979-108">ในการออกแบบนี้ข้อมูลของผู้จัดจำหน่ายแบบขยาย เช่นสถานะระงับของผู้จัดจำหน่ายและโพรไฟล์ผู้จัดจำหน่ายถูกจัดเก็บในเอนทิตี **ผู้จัดจำหน่าย** ใน Common Data Service</span><span class="sxs-lookup"><span data-stu-id="e8979-108">In this design, extended vendor information like vendor on-hold status and vendor profile is stored in the **vendors** entity in Common Data Service.</span></span> 
+<span data-ttu-id="2022d-105">ถ้าคุณเลือกที่จะใช้เอนทิตี้ **บัญชี** เพื่อจัดเก็บผู้จัดจำหน่ายของชนิด **องค์กร** และเอนทิตี้ **ผู้ติดต่อ** เพื่อจัดเก็บผู้จัดจำหน่ายของชนิด **บุคคล** ให้ตั้งค่าคอนฟิกลำดับงานต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="2022d-105">If you choose to use the **Account** entity to store vendors of the **Organization** type and the **Contact** entity to store vendors of the **Person** type, configure the following workflows.</span></span> <span data-ttu-id="2022d-106">มิฉะนั้น ไม่จำเป็นต้องมีการตั้งค่าคอนฟิกนี้</span><span class="sxs-lookup"><span data-stu-id="2022d-106">Otherwise, this configuration isn't required.</span></span>
 
-![โฟลว์ของผู้จัดจำหน่ายแบบขยาย](media/dual-write-vendor-detail.jpg)
- 
-<span data-ttu-id="e8979-110">ทำตามขั้นตอนด้านล่างเพื่อใช้การออกแบบผู้จัดจำหน่ายแบบขยาย:</span><span class="sxs-lookup"><span data-stu-id="e8979-110">Follow the below steps to use the extended vendor design:</span></span> 
- 
-1. <span data-ttu-id="e8979-111">แพคเกจโซลูชัน **SupplyChainCommon** ประกอบด้วยเท็มเพลตการประมวลผลลำดับงาน ดังที่แสดงในรูปแบบต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="e8979-111">The **SupplyChainCommon** solution package contains the workflow process templates as shown in the following image.</span></span>
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="e8979-112">![เท็มเพลตการประมวลผลลำดับงาน](media/dual-write-switch-3.png)</span><span class="sxs-lookup"><span data-stu-id="e8979-112">![Workflow process templates](media/dual-write-switch-3.png)</span></span>
-2. <span data-ttu-id="e8979-113">สร้างกระบวนการลำดับงานใหม่โดยใช้เท็มเพลตการประมวลผลลำดับงาน:</span><span class="sxs-lookup"><span data-stu-id="e8979-113">Create new workflow processes using the workflow process templates:</span></span> 
-    1. <span data-ttu-id="e8979-114">สร้างกระบวนการลำดับงานใหม่สำหรับเอนทิตี **ผู้จัดจำหน่าย** โดยใช้เท็มเพลตการประมวลผลลำดับงาน **สร้างผู้จัดจำหน่ายในเอนทิตีบัญชี** และคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="e8979-114">Create a new workflow process for the **Vendor** entity using the **Create Vendors in Account Entity** workflow process template and click **OK**.</span></span> <span data-ttu-id="e8979-115">ลำดับงานนี้จะจัดการสถานการณ์จำลองการสร้างผู้จัดจำหน่าย สำหรับเอนทิตี **บัญชี**</span><span class="sxs-lookup"><span data-stu-id="e8979-115">This workflow handles the vendor creation scenario for the **Account** entity.</span></span>
-        > [!div class="mx-imgBorder"]
-        > <span data-ttu-id="e8979-116">![สร้างผู้จัดจำหน่ายในเอนทิตี้บัญชี](media/dual-write-switch-4.png)</span><span class="sxs-lookup"><span data-stu-id="e8979-116">![Create Vendors in Account Entity](media/dual-write-switch-4.png)</span></span>
-    2. <span data-ttu-id="e8979-117">สร้างกระบวนการลำดับงานใหม่สำหรับเอนทิตี **ผู้จัดจำหน่าย** โดยใช้เท็มเพลตการประมวลผลลำดับงาน **อัปเดตเอนทิตีบัญชี** และคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="e8979-117">Create a new workflow process for the **Vendor** entity using the **Update Accounts Entity** workflow process template and click **OK**.</span></span> <span data-ttu-id="e8979-118">ลำดับงานนี้จะจัดการสถานการณ์จำลองการอัปเดตผู้จัดจำหน่าย สำหรับเอนทิตี **บัญชี**</span><span class="sxs-lookup"><span data-stu-id="e8979-118">This workflow handles the vendor update scenario for the **Account** entity.</span></span> 
-        > [!div class="mx-imgBorder"]
-        > <span data-ttu-id="e8979-119">![อัพเดตเอนทิตีบัญชี](media/dual-write-switch-5.png)</span><span class="sxs-lookup"><span data-stu-id="e8979-119">![Update Accounts Entity](media/dual-write-switch-5.png)</span></span>
-    3. <span data-ttu-id="e8979-120">สร้างกระบวนการลำดับงานใหม่จากเท็มเพลตที่สร้างบนเอนทิตี **บัญชี**</span><span class="sxs-lookup"><span data-stu-id="e8979-120">Create new workflow processes from the templates created on the **Accounts** entity.</span></span> 
-        > [!div class="mx-imgBorder"]
-        > <span data-ttu-id="e8979-121">![สร้างผู้จัดจำหน่ายในเอนทิตีผู้จัดจำหน่าย](media/dual-write-switch-6.png)
-        > </span><span class="sxs-lookup"><span data-stu-id="e8979-121">![Create vendors in vendors entity](media/dual-write-switch-6.png)
-        > </span></span>[!div class="mx-imgBorder"]
-<span data-ttu-id="e8979-122">![อัพเดตเอนทิตีผู้จัดจำหน่าย](media/dual-write-switch-7.png)</span><span class="sxs-lookup"><span data-stu-id="e8979-122">![Update vendors entity](media/dual-write-switch-7.png)</span></span>
-    4. <span data-ttu-id="e8979-123">คุณสามารถตั้งค่าคอนฟิกลำดับงานเป็นลำดับงานแบบเรียลไทม์หรือแบ็คกราวน์ตามความต้องการของคุณ</span><span class="sxs-lookup"><span data-stu-id="e8979-123">You can configure the workflows as real-time or background workflows based on your requirements.</span></span> 
-        > [!div class="mx-imgBorder"]
-        > <span data-ttu-id="e8979-124">![การแปลงเป็นลำดับงานพื้นหลัง](media/dual-write-switch-8.png)</span><span class="sxs-lookup"><span data-stu-id="e8979-124">![Convert to a background workflow](media/dual-write-switch-8.png)</span></span>
-    5. <span data-ttu-id="e8979-125">เปิดใช้ลำดับงานที่คุณสร้างขึ้นในเอนทิตี **บัญชี** และ **ผู้จัดจำหน่าย** เพื่อเริ่มต้นใช้งานเอนทิตี **บัญชี** สำหรับการจัดเก็บข้อมูลผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="e8979-125">Activate the workflows that you created on the **Account** and **Vendor** entities to start using the **Account** entity for storing vendor information.</span></span> 
- 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a><span data-ttu-id="2022d-107">ใช้การออกแบบของผู้จัดจำหน่ายแบบขยายสำหรับผู้จัดจำหน่ายชนิดองค์กร</span><span class="sxs-lookup"><span data-stu-id="2022d-107">Use the extended vendor design for vendors of the Organization type</span></span>
+
+<span data-ttu-id="2022d-108">แพคเกจโซลูชัน **Dynamics365FinanceExtended** ประกอบด้วยเท็มเพลตการประมวลผลลำดับงานต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="2022d-108">The **Dynamics365FinanceExtended** solution package contains the following workflow process templates.</span></span> <span data-ttu-id="2022d-109">คุณจะสร้างลำดับงานสำหรับเท็มเพลตแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="2022d-109">You will create a workflow for each template.</span></span>
+
++ <span data-ttu-id="2022d-110">สร้างผู้จัดจำหน่ายในเอนทิตี้บัญชี</span><span class="sxs-lookup"><span data-stu-id="2022d-110">Create Vendors in Accounts Entity</span></span>
++ <span data-ttu-id="2022d-111">สร้างผู้จัดจำหน่ายในเอนทิตีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="2022d-111">Create Vendors in Vendors Entity</span></span>
++ <span data-ttu-id="2022d-112">ปรับปรุงผู้จัดจำหน่ายในเอนทิตี้บัญชี</span><span class="sxs-lookup"><span data-stu-id="2022d-112">Update Vendors in Accounts Entity</span></span>
++ <span data-ttu-id="2022d-113">ปรับปรุงผู้จัดจำหน่ายในเอนทิตีผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="2022d-113">Update Vendors in Vendors Entity</span></span>
+
+<span data-ttu-id="2022d-114">เพื่อสร้างกระบวนการลำดับงานใหม่โดยใช้เท็มเพลตการประมวลผลลำดับงาน ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="2022d-114">To create new workflow processes by using the workflow process templates, follow these steps.</span></span>
+
+1. <span data-ttu-id="2022d-115">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **ผู้จัดจำหน่าย** และเลือกเท็มเพลตกระบวนการลำดับงาน **สร้างผู้จัดจำหน่ายในเอนทิตี้บัญชี**</span><span class="sxs-lookup"><span data-stu-id="2022d-115">Create a workflow process for the **Vendor** entity, and select the **Create Vendors in Accounts Entity** workflow process template.</span></span> <span data-ttu-id="2022d-116">จากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="2022d-116">Then select **OK**.</span></span> <span data-ttu-id="2022d-117">ลำดับงานนี้จะจัดการสถานการณ์จำลองการสร้างผู้จัดจำหน่าย สำหรับเอนทิตี **บัญชี**</span><span class="sxs-lookup"><span data-stu-id="2022d-117">This workflow handles the vendor creation scenario for the **Account** entity.</span></span>
+
+    ![สร้างผู้จัดจำหน่ายในกระบวนการลำดับงานเอนทิตี้บัญชี](media/create_process.png)
+
+2. <span data-ttu-id="2022d-119">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **ผู้จัดจำหน่าย** และเลือกเท็มเพลตกระบวนการลำดับงาน **ปรับปรุงผู้จัดจำหน่ายในเอนทิตี้บัญชี**</span><span class="sxs-lookup"><span data-stu-id="2022d-119">Create a workflow process for the **Vendor** entity, and select the **Update Vendors in Accounts Entity** workflow process template.</span></span> <span data-ttu-id="2022d-120">จากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="2022d-120">Then select **OK**.</span></span> <span data-ttu-id="2022d-121">ลำดับงานนี้จะจัดการสถานการณ์จำลองการอัปเดตผู้จัดจำหน่าย สำหรับเอนทิตี **บัญชี**</span><span class="sxs-lookup"><span data-stu-id="2022d-121">This workflow handles the vendor update scenario for the **Account** entity.</span></span>
+3. <span data-ttu-id="2022d-122">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **บัญชี** และเลือกเท็มเพลตกระบวนการลำดับงาน **สร้างผู้จัดจำหน่ายในเอนทิตี้ผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="2022d-122">Create a workflow process for the **Account** entity, and select the **Create Vendors in Vendors Entity** workflow process template.</span></span>
+4. <span data-ttu-id="2022d-123">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **บัญชี** และเลือกเท็มเพลตกระบวนการลำดับงาน **ปรับปรุงผู้จัดจำหน่ายในเอนทิตี้ผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="2022d-123">Create a workflow process for the **Account** entity, and select the **Update Vendors in Vendors Entity** workflow process template.</span></span>
+5. <span data-ttu-id="2022d-124">คุณสามารถตั้งค่าคอนฟิกลำดับงานเป็นลำดับงานแบบเรียลไทม์ หรือลำดับงานพื้นหลัง อย่างใดอย่างหนึ่ง โดยขึ้นอยู่กับความต้องการของคุณ</span><span class="sxs-lookup"><span data-stu-id="2022d-124">You can configure the workflows as either real-time workflows or background workflows, depending on your requirements.</span></span> <span data-ttu-id="2022d-125">เมื่อต้องการตั้งค่าคอนฟิกลำดับงานเป็นลำดับงานพื้นหลัง เลือก **แปลงเป็นลำดับงานพื้นหลัง**</span><span class="sxs-lookup"><span data-stu-id="2022d-125">To configure a workflow as a background workflow, select **Convert to a background workflow**.</span></span>
+
+    ![ปุ่มแปลงเป็นลำดับงานพื้นหลัง](media/background_workflow.png)
+
+6. <span data-ttu-id="2022d-127">เปิดใช้ลำดับงานที่คุณสร้างขึ้นสำหรับเอนทิตี้ **บัญชี** และ **ผู้จัดจำหน่าย** เพื่อเริ่มต้นใช้งานเอนทิตี้ **บัญชี** เพื่อจัดเก็บข้อมูลสำหรับผู้จัดจำหน่ายของชนิด **องค์กร**</span><span class="sxs-lookup"><span data-stu-id="2022d-127">Activate the workflows that you created for the **Account** and **Vendor** entities to start to use the **Account** entity to store information for vendors of the **Organization** type.</span></span>
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a><span data-ttu-id="2022d-128">ใช้การออกแบบของผู้จัดจำหน่ายแบบขยายสำหรับผู้จัดจำหน่ายชนิดบุคคล</span><span class="sxs-lookup"><span data-stu-id="2022d-128">Use the extended vendor design for vendors of the Person type</span></span>
+
+<span data-ttu-id="2022d-129">แพคเกจโซลูชัน **Dynamics365FinanceExtended** ประกอบด้วยเท็มเพลตการประมวลผลลำดับงานต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="2022d-129">The **Dynamics365FinanceExtended** solution package contains the following workflow process templates.</span></span> <span data-ttu-id="2022d-130">คุณจะสร้างลำดับงานสำหรับเท็มเพลตแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="2022d-130">You will create a workflow for each template.</span></span>
+
++ <span data-ttu-id="2022d-131">สร้างผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="2022d-131">Create Vendors of type Person in Vendors Entity</span></span>
++ <span data-ttu-id="2022d-132">สร้างผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้ติดต่อ</span><span class="sxs-lookup"><span data-stu-id="2022d-132">Create Vendors of type Person in Contacts Entity</span></span>
++ <span data-ttu-id="2022d-133">ปรับปรุงผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้ติดต่อ</span><span class="sxs-lookup"><span data-stu-id="2022d-133">Update Vendors of type Person in Contacts Entity</span></span>
++ <span data-ttu-id="2022d-134">ปรับปรุงผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="2022d-134">Update Vendors of type Person in Vendors Entity</span></span>
+
+<span data-ttu-id="2022d-135">เพื่อสร้างกระบวนการลำดับงานใหม่โดยใช้เท็มเพลตการประมวลผลลำดับงาน ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="2022d-135">To create new workflow processes by using the workflow process templates, follow these steps.</span></span>
+
+1. <span data-ttu-id="2022d-136">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **ผู้จัดจำหน่าย** และเลือกเท็มเพลตกระบวนการลำดับงาน **สร้างผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้ติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="2022d-136">Create a workflow process for the **Vendor** entity, and select the **Create Vendors of type Person in Contacts Entity** workflow process template.</span></span> <span data-ttu-id="2022d-137">จากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="2022d-137">Then select **OK**.</span></span> <span data-ttu-id="2022d-138">ลำดับงานนี้จะจัดการสถานการณ์จำลองการสร้างผู้จัดจำหน่ายสำหรับเอนทิตี **ผู้ติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="2022d-138">This workflow handles the vendor creation scenario for the **Contact** entity.</span></span>
+2. <span data-ttu-id="2022d-139">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **ผู้จัดจำหน่าย** และเลือกเท็มเพลตกระบวนการลำดับงาน **ปรับปรุงผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้ติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="2022d-139">Create a workflow process for the **Vendor** entity, and select the **Update Vendors of type Person in Contacts Entity** workflow process template.</span></span> <span data-ttu-id="2022d-140">จากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="2022d-140">Then select **OK**.</span></span> <span data-ttu-id="2022d-141">ลำดับงานนี้จะจัดการสถานการณ์จำลองการปรับปรุงผู้จัดจำหน่ายสำหรับเอนทิตี้ **ผู้ติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="2022d-141">This workflow handles the vendor update scenario for the **Contact** entity.</span></span>
+3. <span data-ttu-id="2022d-142">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **ผู้ติดต่อ** และเลือกเท็มเพลต **สร้างผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="2022d-142">Create a workflow process for the **Contact** entity, and select the **Create Vendors of type Person in Vendors Entity** template.</span></span>
+4. <span data-ttu-id="2022d-143">สร้างกระบวนการลำดับงานสำหรับเอนทิตี้ **ผู้ติดต่อ** และเลือกเท็มเพลต **ปรับปรุงผู้จัดจำหน่ายชนิดบุคคลในเอนทิตี้ผู้จัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="2022d-143">Create a workflow process for the **Contact** entity, and select the **Update Vendors of type Person in Vendors Entity** template.</span></span>
+5. <span data-ttu-id="2022d-144">คุณสามารถตั้งค่าคอนฟิกลำดับงานเป็นลำดับงานแบบเรียลไทม์ หรือลำดับงานพื้นหลัง อย่างใดอย่างหนึ่ง โดยขึ้นอยู่กับความต้องการของคุณ</span><span class="sxs-lookup"><span data-stu-id="2022d-144">You can configure the workflows as either real-time workflows or background workflows, depending on your requirements.</span></span> <span data-ttu-id="2022d-145">เมื่อต้องการตั้งค่าคอนฟิกลำดับงานเป็นลำดับงานพื้นหลัง เลือก **แปลงเป็นลำดับงานพื้นหลัง**</span><span class="sxs-lookup"><span data-stu-id="2022d-145">To configure a workflow as a background workflow, select **Convert to a background workflow**.</span></span>
+6. <span data-ttu-id="2022d-146">เปิดใช้ลำดับงานที่คุณสร้างขึ้นในเอนทิตี้ **ผู้ติดต่อ** และเอนทิตี้ **ผู้จัดจำหน่าย** เพื่อเริ่มต้นใช้งานเอนทิตี้ **ผู้ติดต่อ** เพื่อจัดเก็บข้อมูลสำหรับผู้จัดจำหน่ายของชนิด **บุคคล**</span><span class="sxs-lookup"><span data-stu-id="2022d-146">Activate the workflows that you created on the **Contact** and **Vendor** entities to start to use the **Contact** entity to store information for vendors of the **Person** type.</span></span>

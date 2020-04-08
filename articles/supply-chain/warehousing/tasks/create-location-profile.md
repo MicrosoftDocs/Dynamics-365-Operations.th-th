@@ -17,29 +17,29 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36bad7424ac247b8fd9a819928837de619e9e258
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 764d1dc1d7fb54e0fa14a681d6d3cdb1d829aa57
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026796"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146134"
 ---
-# <a name="create-a-location-profile"></a><span data-ttu-id="dba13-103">สร้างโพรไฟล์สถานที่</span><span class="sxs-lookup"><span data-stu-id="dba13-103">Create a location profile</span></span>
+# <a name="create-a-location-profile"></a><span data-ttu-id="af31c-103">สร้างโพรไฟล์สถานที่</span><span class="sxs-lookup"><span data-stu-id="af31c-103">Create a location profile</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="dba13-104">หัวข้อนี้อธิบายวิธีการสร้างโพรไฟล์สถานที่ใน Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="dba13-104">This topic explains how to create a location profile in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="dba13-105">สถานที่ทุกแห่งในคลังสินค้าจะต้องมีโพรไฟล์สถานที่เกี่ยวข้องกันซึ่งอธิบายคุณสมบัติของสถานที่ดังกล่าว ตัวอย่างเช่น สถานที่แห่งนั้นอนุญาตสำหรับสินค้าผสมหรือไม่ </span><span class="sxs-lookup"><span data-stu-id="dba13-105">Every location in the warehouse needs to have a location profile associated with it that describes the properties of the location, for example, whether the location allows mixed items.</span></span> <span data-ttu-id="dba13-106">ในกระบวนงานนี้ เราจะสร้างโพรไฟล์สำหรับสถานที่ที่ไม่จำเป็นต้องควบคุมป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="dba13-106">In this procedure we’ll create a profile for a location that doesn’t require license plate control.</span></span> <span data-ttu-id="dba13-107">เราจะอนุญาตสำหรับสถานะของสินค้าผสม และสินค้าคงคลังผสม และอนุญาตการตรวจนับตามรอบ </span><span class="sxs-lookup"><span data-stu-id="dba13-107">We’ll enable mixed items, and mixed inventory statuses, and allow cycle counting.</span></span> <span data-ttu-id="dba13-108">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="dba13-108">You can use this procedure in the USMF demo data company.</span></span>
+<span data-ttu-id="af31c-104">หัวข้อนี้อธิบายวิธีการสร้างโพรไฟล์สถานที่ใน Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="af31c-104">This topic explains how to create a location profile in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="af31c-105">สถานที่ทุกแห่งในคลังสินค้าจะต้องมีโพรไฟล์สถานที่เกี่ยวข้องกันซึ่งอธิบายคุณสมบัติของสถานที่ดังกล่าว ตัวอย่างเช่น สถานที่แห่งนั้นอนุญาตสำหรับสินค้าผสมหรือไม่ </span><span class="sxs-lookup"><span data-stu-id="af31c-105">Every location in the warehouse needs to have a location profile associated with it that describes the properties of the location, for example, whether the location allows mixed items.</span></span> <span data-ttu-id="af31c-106">ในกระบวนงานนี้ เราจะสร้างโพรไฟล์สำหรับสถานที่ที่ไม่จำเป็นต้องควบคุมป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="af31c-106">In this procedure we'll create a profile for a location that doesn't require license plate control.</span></span> <span data-ttu-id="af31c-107">เราจะเปิดใช้งานสินค้าผสม และสถานะของสินค้าคงคลังผสม และอนุญาตการตรวจนับตามรอบ</span><span class="sxs-lookup"><span data-stu-id="af31c-107">We'll enable mixed items, and mixed inventory statuses, and allow cycle counting.</span></span> <span data-ttu-id="af31c-108">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="af31c-108">You can use this procedure in the USMF demo data company.</span></span>
 
 
-1. <span data-ttu-id="dba13-109">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > การจัดการคลังสินค้า > การตั้งค่า > คลังสินค้า > โพรไฟล์สถานที่**</span><span class="sxs-lookup"><span data-stu-id="dba13-109">In the navigation pane, go to **Modules > Warehouse management > Setup > Warehouse > Location profiles**.</span></span>
-2. <span data-ttu-id="dba13-110">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="dba13-110">Select **New**.</span></span>
-3. <span data-ttu-id="dba13-111">ในฟิลด์ **รหัสโพรไฟล์สถานที่** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="dba13-111">In the **Location profile ID** field, type a value.</span></span>
-4. <span data-ttu-id="dba13-112">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="dba13-112">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="dba13-113">ในฟิลด์ **รูปแบบสถานที่** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="dba13-113">In the **Location format** field, enter or select a value.</span></span>
-6. <span data-ttu-id="dba13-114">ในฟิลด์ **ชนิดของสถานที่** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="dba13-114">In the **Location type** field, enter or select a value.</span></span>
-7. <span data-ttu-id="dba13-115">ในฟิลด์ **รหัสโพรไฟล์การจัดการท่าสินค้า** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="dba13-115">In the **Dock management profile ID** field, enter or select a value.</span></span>
-8. <span data-ttu-id="dba13-116">เลือก **ใช่** ในฟิลด์ **อนุญาตสินค้าผสม**</span><span class="sxs-lookup"><span data-stu-id="dba13-116">Select **Yes** in the **Allow mixed items** field.</span></span>
-9. <span data-ttu-id="dba13-117">เลือก **ใช่** ในฟิลด์ **อนุญาตสถานะสินค้าคงคลังแบบผสม**</span><span class="sxs-lookup"><span data-stu-id="dba13-117">Select **Yes** in the **Allow mixed inventory statuses** field.</span></span>
-10. <span data-ttu-id="dba13-118">เลือก **ใช่** ในฟิลด์ **อนุญาตการตรวจนับตามรอบ**</span><span class="sxs-lookup"><span data-stu-id="dba13-118">Select **Yes** in the **Allow cycle counting** field.</span></span>
-11. <span data-ttu-id="dba13-119">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="dba13-119">Select **Save**.</span></span>
+1. <span data-ttu-id="af31c-109">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > การจัดการคลังสินค้า > การตั้งค่า > คลังสินค้า > โพรไฟล์สถานที่**</span><span class="sxs-lookup"><span data-stu-id="af31c-109">In the navigation pane, go to **Modules > Warehouse management > Setup > Warehouse > Location profiles**.</span></span>
+2. <span data-ttu-id="af31c-110">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="af31c-110">Select **New**.</span></span>
+3. <span data-ttu-id="af31c-111">ในฟิลด์ **รหัสโพรไฟล์สถานที่** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="af31c-111">In the **Location profile ID** field, type a value.</span></span>
+4. <span data-ttu-id="af31c-112">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="af31c-112">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="af31c-113">ในฟิลด์ **รูปแบบสถานที่** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="af31c-113">In the **Location format** field, enter or select a value.</span></span>
+6. <span data-ttu-id="af31c-114">ในฟิลด์ **ชนิดของสถานที่** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="af31c-114">In the **Location type** field, enter or select a value.</span></span>
+7. <span data-ttu-id="af31c-115">ในฟิลด์ **รหัสโพรไฟล์การจัดการท่าสินค้า** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="af31c-115">In the **Dock management profile ID** field, enter or select a value.</span></span>
+8. <span data-ttu-id="af31c-116">เลือก **ใช่** ในฟิลด์ **อนุญาตสินค้าผสม**</span><span class="sxs-lookup"><span data-stu-id="af31c-116">Select **Yes** in the **Allow mixed items** field.</span></span>
+9. <span data-ttu-id="af31c-117">เลือก **ใช่** ในฟิลด์ **อนุญาตสถานะสินค้าคงคลังแบบผสม**</span><span class="sxs-lookup"><span data-stu-id="af31c-117">Select **Yes** in the **Allow mixed inventory statuses** field.</span></span>
+10. <span data-ttu-id="af31c-118">เลือก **ใช่** ในฟิลด์ **อนุญาตการตรวจนับตามรอบ**</span><span class="sxs-lookup"><span data-stu-id="af31c-118">Select **Yes** in the **Allow cycle counting** field.</span></span>
+11. <span data-ttu-id="af31c-119">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="af31c-119">Select **Save**.</span></span>
 

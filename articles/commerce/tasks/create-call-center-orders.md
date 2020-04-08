@@ -17,42 +17,42 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1675d21f1e4176839feace76359afdbdc336c99
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024196"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141441"
 ---
-# <a name="create-call-center-orders"></a><span data-ttu-id="dd4e6-103"> สร้างใบสั่งศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="dd4e6-103">Create call center orders</span></span>
+# <a name="create-call-center-orders"></a><span data-ttu-id="f019d-103"> สร้างใบสั่งศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="f019d-103">Create call center orders</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dd4e6-104">ขั้นตอนนี้จะสอนให้ค้นหาลูกค้า สร้างใบสั่งใหม่ ค้นหาผลิตภัณฑ์และรวบรวมการชำระเงินจากลูกค้า </span><span class="sxs-lookup"><span data-stu-id="dd4e6-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="dd4e6-105">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT และมีไว้สำหรับเจ้าหน้าที่ดูแลใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="dd4e6-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="dd4e6-106">ความต้องการเบื้องต้น:  ผู้ใช้ที่ดำเนินการขั้นตอนนี้จะต้องถูกตั้งค่าเป็นผู้ใช้ศูนย์บริการ และแค็ตตาล็อกประจำครึ่งปี Fabrikam จะถูกเผยแพร่พร้อมกับหนึ่งรหัสแหล่งที่เป็นอย่างต่ำ</span><span class="sxs-lookup"><span data-stu-id="dd4e6-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
+<span data-ttu-id="f019d-104">ขั้นตอนนี้จะสอนให้ค้นหาลูกค้า สร้างใบสั่งใหม่ ค้นหาผลิตภัณฑ์และรวบรวมการชำระเงินจากลูกค้า </span><span class="sxs-lookup"><span data-stu-id="f019d-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="f019d-105">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT และมีไว้สำหรับเจ้าหน้าที่ดูแลใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="f019d-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="f019d-106">ความต้องการเบื้องต้น:  ผู้ใช้ที่ดำเนินการขั้นตอนนี้จะต้องถูกตั้งค่าเป็นผู้ใช้ศูนย์บริการ และแค็ตตาล็อกประจำครึ่งปี Fabrikam จะถูกเผยแพร่พร้อมกับหนึ่งรหัสแหล่งที่เป็นอย่างต่ำ</span><span class="sxs-lookup"><span data-stu-id="f019d-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 
-1. <span data-ttu-id="dd4e6-107">ไปที่ Retail และ Commerce > ลูกค้า > บริการลูกค้า</span><span class="sxs-lookup"><span data-stu-id="dd4e6-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="dd4e6-108">ในฟิลด์ คำที่ใช้ค้นหา ให้ป้อนเงื่อนไขการค้นหาเพื่อค้นหาลูกค้า</span><span class="sxs-lookup"><span data-stu-id="dd4e6-108">In the SearchText field, enter the search criteria to look up the customer.</span></span>
-    * <span data-ttu-id="dd4e6-109">สำหรับขั้นตอนตัวอย่างนี้ ให้พิมพ์ 'คาเรน' และกดแท็บ</span><span class="sxs-lookup"><span data-stu-id="dd4e6-109">For this example procedure type in 'karen' and press tab.</span></span>  
-3. <span data-ttu-id="dd4e6-110">คลิกค้นหา</span><span class="sxs-lookup"><span data-stu-id="dd4e6-110">Click Search.</span></span>
-    * <span data-ttu-id="dd4e6-111">เนื่องจากมีลูกค้าชื่อคาเรนในข้อมูลสาธิตเพียงคนเดียว ข้อมูลดังกล่าวจะถูกเลือกโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="dd4e6-111">Since there is only one customer named Karen in demo data they will be automatically selected.</span></span>  
-4. <span data-ttu-id="dd4e6-112">คลิกใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="dd4e6-112">Click New sales order.</span></span>
-5. <span data-ttu-id="dd4e6-113">ขยายหรือยุบส่วนหัวของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="dd4e6-113">Expand or collapse the Sales order header section.</span></span>
-6. <span data-ttu-id="dd4e6-114">เลือกรหัสแหล่งที่มาสำหรับแค็ตตาล็อก</span><span class="sxs-lookup"><span data-stu-id="dd4e6-114">Select the source code for the catalog.</span></span>
-    * <span data-ttu-id="dd4e6-115">ถ้าหากว่าไม่มีรหัสแหล่งที่มาที่เปิดใช้งานอยู่เลย คุณสามารถปิดฟิลด์ต้นทางและข้ามขั้นตอนนี้ไปได้</span><span class="sxs-lookup"><span data-stu-id="dd4e6-115">If there are no active Source codes you can close the Source field and skip this step.</span></span>  
-7. <span data-ttu-id="dd4e6-116">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="dd4e6-116">Click Add line.</span></span>
-8. <span data-ttu-id="dd4e6-117">ในฟิลด์หมายเลขสินค้า ให้ป้อนเงื่อนไขการค้นหาสินค้า</span><span class="sxs-lookup"><span data-stu-id="dd4e6-117">In the Item number field, enter the item search term.</span></span>
-    * <span data-ttu-id="dd4e6-118">สำหรับขั้นตอนตัวอย่างนี้ ให้ป้อนหมายเลขสินค้าบางส่วนว่า '8111' และกดแท็บ นี่จะทำให้หน้าต่างการค้นหาสินค้าเด้งขึ้นมา</span><span class="sxs-lookup"><span data-stu-id="dd4e6-118">For this sample procedure enter a partial item number of '8111' and press tab. This will pop up the item search window.</span></span>  
-9. <span data-ttu-id="dd4e6-119">เลือกผลิตภัณฑ์ที่จะเพิ่มในใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="dd4e6-119">Select the product to add to the sales order</span></span>
-10. <span data-ttu-id="dd4e6-120">ป้อนปริมาณการขาย</span><span class="sxs-lookup"><span data-stu-id="dd4e6-120">Enter the sales quantity.</span></span>
-11. <span data-ttu-id="dd4e6-121">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="dd4e6-121">Click Create.</span></span>
-12. <span data-ttu-id="dd4e6-122">คลิกเสร็จสมบูรณ์เพื่อรวบรวมข้อมูลการชำระเงินของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="dd4e6-122">Click Complete to capture the customer payment.</span></span>
-13. <span data-ttu-id="dd4e6-123">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="dd4e6-123">Click Add.</span></span>
-    * <span data-ttu-id="dd4e6-124">เพิ่มการเชื่อมโยง จะอยู่ในแท็บการชำระเงิน ให้ขยายแท็บการชำระเงินถ้ามันถูกยุบอยู่</span><span class="sxs-lookup"><span data-stu-id="dd4e6-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
-14. <span data-ttu-id="dd4e6-125">เลือกวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="dd4e6-125">Select the payment method.</span></span>
-    * <span data-ttu-id="dd4e6-126">สำหรับขั้นตอนนี้ ให้เลือกวิธีการชำระเงินสด</span><span class="sxs-lookup"><span data-stu-id="dd4e6-126">For this procedure, select the cash payment method.</span></span>  
-15. <span data-ttu-id="dd4e6-127">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="dd4e6-127">Close the page.</span></span>
-16. <span data-ttu-id="dd4e6-128">ป้อนจำนวน</span><span class="sxs-lookup"><span data-stu-id="dd4e6-128">Enter the amount.</span></span>
-    * <span data-ttu-id="dd4e6-129">สำหรับขั้นตอนนี้ ให้ป้อนยอดเงินเท่ากับยอดดุลใบสั่งซึ่งสามารถดูได้ในหน้าสรุปใบสั่งขายทางด้านซ้ายของฟิลด์ยอดเงิน </span><span class="sxs-lookup"><span data-stu-id="dd4e6-129">For this procedure enter an amount equal to the order balance which can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="dd4e6-130">ซึ่งจะทำให้คุณสามารถดำเนินการใบสั่งจนเสร็จสิ้นว่าชำระครบถ้วนแล้ว</span><span class="sxs-lookup"><span data-stu-id="dd4e6-130">This will allow you to complete the order as fully paid.</span></span>  
-17. <span data-ttu-id="dd4e6-131">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="dd4e6-131">Click OK.</span></span>
-18. <span data-ttu-id="dd4e6-132">คลิก ส่ง </span><span class="sxs-lookup"><span data-stu-id="dd4e6-132">Click Submit.</span></span>
+1. <span data-ttu-id="f019d-107">ไปที่ Retail และ Commerce > ลูกค้า > บริการลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f019d-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="f019d-108">ในฟิลด์ คำที่ใช้ค้นหา ให้ป้อนเงื่อนไขการค้นหาเพื่อค้นหาลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f019d-108">In the SearchText field, enter the search criteria to look up the customer.</span></span>
+    * <span data-ttu-id="f019d-109">สำหรับขั้นตอนตัวอย่างนี้ ให้พิมพ์ 'คาเรน' และกดแท็บ</span><span class="sxs-lookup"><span data-stu-id="f019d-109">For this example procedure type in 'karen' and press tab.</span></span>  
+3. <span data-ttu-id="f019d-110">คลิกค้นหา</span><span class="sxs-lookup"><span data-stu-id="f019d-110">Click Search.</span></span>
+    * <span data-ttu-id="f019d-111">เนื่องจากมีลูกค้าชื่อคาเรนในข้อมูลสาธิตเพียงคนเดียว ข้อมูลดังกล่าวจะถูกเลือกโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="f019d-111">Since there is only one customer named Karen in demo data they will be automatically selected.</span></span>  
+4. <span data-ttu-id="f019d-112">คลิกใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="f019d-112">Click New sales order.</span></span>
+5. <span data-ttu-id="f019d-113">ขยายหรือยุบส่วนหัวของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="f019d-113">Expand or collapse the Sales order header section.</span></span>
+6. <span data-ttu-id="f019d-114">เลือกรหัสแหล่งที่มาสำหรับแค็ตตาล็อก</span><span class="sxs-lookup"><span data-stu-id="f019d-114">Select the source code for the catalog.</span></span>
+    * <span data-ttu-id="f019d-115">ถ้าหากว่าไม่มีรหัสแหล่งที่มาที่เปิดใช้งานอยู่เลย คุณสามารถปิดฟิลด์ต้นทางและข้ามขั้นตอนนี้ไปได้</span><span class="sxs-lookup"><span data-stu-id="f019d-115">If there are no active Source codes you can close the Source field and skip this step.</span></span>  
+7. <span data-ttu-id="f019d-116">คลิก เพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="f019d-116">Click Add line.</span></span>
+8. <span data-ttu-id="f019d-117">ในฟิลด์หมายเลขสินค้า ให้ป้อนเงื่อนไขการค้นหาสินค้า</span><span class="sxs-lookup"><span data-stu-id="f019d-117">In the Item number field, enter the item search term.</span></span>
+    * <span data-ttu-id="f019d-118">สำหรับขั้นตอนตัวอย่างนี้ ให้ป้อนหมายเลขสินค้าบางส่วนว่า '8111' และกดแท็บ นี่จะทำให้หน้าต่างการค้นหาสินค้าเด้งขึ้นมา</span><span class="sxs-lookup"><span data-stu-id="f019d-118">For this sample procedure enter a partial item number of '8111' and press tab. This will pop up the item search window.</span></span>  
+9. <span data-ttu-id="f019d-119">เลือกผลิตภัณฑ์ที่จะเพิ่มในใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="f019d-119">Select the product to add to the sales order</span></span>
+10. <span data-ttu-id="f019d-120">ป้อนปริมาณการขาย</span><span class="sxs-lookup"><span data-stu-id="f019d-120">Enter the sales quantity.</span></span>
+11. <span data-ttu-id="f019d-121">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="f019d-121">Click Create.</span></span>
+12. <span data-ttu-id="f019d-122">คลิกเสร็จสมบูรณ์เพื่อรวบรวมข้อมูลการชำระเงินของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f019d-122">Click Complete to capture the customer payment.</span></span>
+13. <span data-ttu-id="f019d-123">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="f019d-123">Click Add.</span></span>
+    * <span data-ttu-id="f019d-124">เพิ่มการเชื่อมโยง จะอยู่ในแท็บการชำระเงิน ให้ขยายแท็บการชำระเงินถ้ามันถูกยุบอยู่</span><span class="sxs-lookup"><span data-stu-id="f019d-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
+14. <span data-ttu-id="f019d-125">เลือกวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="f019d-125">Select the payment method.</span></span>
+    * <span data-ttu-id="f019d-126">สำหรับขั้นตอนนี้ ให้เลือกวิธีการชำระเงินสด</span><span class="sxs-lookup"><span data-stu-id="f019d-126">For this procedure, select the cash payment method.</span></span>  
+15. <span data-ttu-id="f019d-127">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="f019d-127">Close the page.</span></span>
+16. <span data-ttu-id="f019d-128">ป้อนจำนวน</span><span class="sxs-lookup"><span data-stu-id="f019d-128">Enter the amount.</span></span>
+    * <span data-ttu-id="f019d-129">สำหรับขั้นตอนนี้ ให้ป้อนยอดเงินเท่ากับยอดดุลใบสั่งซึ่งสามารถดูได้ในหน้าสรุปใบสั่งขายทางด้านซ้ายของฟิลด์ยอดเงิน </span><span class="sxs-lookup"><span data-stu-id="f019d-129">For this procedure enter an amount equal to the order balance which can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="f019d-130">ซึ่งจะทำให้คุณสามารถดำเนินการใบสั่งจนเสร็จสิ้นว่าชำระครบถ้วนแล้ว</span><span class="sxs-lookup"><span data-stu-id="f019d-130">This will allow you to complete the order as fully paid.</span></span>  
+17. <span data-ttu-id="f019d-131">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="f019d-131">Click OK.</span></span>
+18. <span data-ttu-id="f019d-132">คลิก ส่ง </span><span class="sxs-lookup"><span data-stu-id="f019d-132">Click Submit.</span></span>
 
