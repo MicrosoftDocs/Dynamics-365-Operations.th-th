@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcf216c65514820dc50486266a79ad1b4d696db3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 77f7a2df813eb0bf211b72646c1e99306fdf3f88
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835537"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148618"
 ---
 # <a name="mass-create-sales-quotations"></a>สร้างใบเสนอราคาขายจำนวนมาก
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนเหล่านี้อธิบายวิธีการสร้างใบเสนอราคาแบบมีประสิทธิภาพเพื่อนำเสนอรูปแบบของผลิตภัณฑ์หรือบริการสำหรับนำไปส่งให้กับลูกค้า  การสร้างใบเสนอราคาทั้งหมดนี้จะขึ้นอยู่กับเท็มเพลตของใบเสนอราคา  คุณสามารถทำตามขั้นตอนเหล่านี้กับข้อมูลของคุณ หรือกับบริษัทข้อมูลสาธิต USMF
 

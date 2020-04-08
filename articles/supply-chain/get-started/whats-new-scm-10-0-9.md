@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2a2b56d387cfe90cbfac0bca3c11e699573c1d05
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097537"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164779"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.9 (เมษายน 2020)
 
@@ -41,30 +41,32 @@ ms.locfileid: "3097537"
 
 - [การสร้างโหลดขั้นสูงในระหว่างเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
 - [การจัดส่งสินค้าที่นำออกใช้โดยอัตโนมัติสำหรับศูนย์เปลี่ยนถ่ายสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock) - สำหรับข้อมูลเพิ่มเติม ให้ดู [การจัดส่งสินค้าที่นำออกใช้โดยอัตโนมัติสำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า](../warehousing/auto-release-shipment-for-cross-docking.md)
+- [คำนวณวันที่จัดส่ง PO ตามระยะเวลารอคอยสินค้าและจำนวนวันทำงาน (ภาครัฐ)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+- [การประมวลผลผลิตภัณฑ์ตามน้ำหนักจริงที่มีการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลผลิตภัณฑ์ตามน้ำหนักจริงที่มีการจัดการคลังสินค้า](../warehousing/catch-weight-processing.md) และรวมถึงวิดีโอ [การปรับปรุงผลิตภัณฑ์ตามน้ำหนักจริง](https://www.microsoft.com/videoplayer/embed/RE4jzx8)
 - [เปรียบเทียบการจัดเก็บราคาสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/compare-item-price-storage) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า](../cost-management/compare-item-price.md)
 - [รวมการปรับปรุงในการจัดส่ง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
-- [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking)
+- [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้](https://www.microsoft.com/videoplayer/embed/RE4f7LF)
 - การรวมตามน้ำหนักจริงเพิ่มเติม [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1) [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2) [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3) [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4) [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5) [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6) [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลผลิตภัณฑ์ตามน้ำหนักจริงที่มีการจัดการคลังสินค้า](../warehousing/catch-weight-processing.md) และรวมถึงวิดีโอ [การปรับปรุงผลิตภัณฑ์ตามน้ำหนักจริง](https://www.microsoft.com/videoplayer/embed/RE4jzx8)
 - [การจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายการจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md)
+- [อุปกรณ์สำหรับบัตรงานที่ปรับปรุง](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานความก้าวหน้าบนอุปกรณ์เคลื่อนที่ของงาน](../production-control/tasks/report-progress-mobile-job-device.md) และ [รายงานเป็นเสร็จสิ้นแล้วไปยังสถานที่ที่ควบคุมป้ายทะเบียนจากอุปกรณ์สำหรับบัตรงาน](../production-control/report-finished-job-device.md)
 - [การตรวจสอบคุณภาพขาเข้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [ที่เก็บข้อมูลรายงานมูลค่าสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
 - [แผนภูมิ Gantt ของความคืบหน้าในการวางแผนหลัก](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตรวจสอบการรันการวางแผนหลัก](../master-planning/tasks/monitor-master-planning-run.md) และรวมถึงวิดีโอ [การปรับปรุงประสิทธิภาพการทำงานและการใช้งานของ MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ)
+- [เอนทิตี้ข้อมูลใหม่สำหรับพื้นที่การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [การเรียงลำดับขาออก](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
 - [การจัดส่งเทียบกับมิติการจัดเก็บ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [การยืนยันแบบขนานของแผนการใบสั่ง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ทำให้การยืนยันเป็นแบบขนาน](../master-planning/maintain-planned-orders.md#parallelize-firming) และรวมถึงวิดีโอ [การปรับปรุงประสิทธิภาพการทำงานและการใช้งานของ MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ)
 - [การเพิ่มประสิทธิภาพในการวางแผนสำหรับการกระจาย](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมการเพิ่มประสิทธิภาพของการวางแผน](../master-planning/planning-optimization/planning-optimization-overview.md)
 - [การปรับปรุงข้อตกลงการซื้อ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements) - สำหรับข้อมูลเพิ่มเติม โปรดดู [ข้อตกลงการซื้อ](../procurement/purchase-agreements.md)
-- [ย้ายเก็บคลัสเตอร์](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters)
+- [กลุ่มการย้ายเก็บ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters)  - สำหรับข้อมูลเพิ่มเติม ให้ดูวิดีโอ [ย้ายเก็บการจัดคลัสเตอร์](https://www.microsoft.com/videoplayer/embed/RE4f5aB)
 - [วางไปที่ผนัง/ใส่ไปที่ร้านค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
 - [รับการจัดเรียง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
+- [การจัดส่งพัสดุขนาดเล็ก (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [การประมูลของผู้จัดจำหน่าย—คำถามจากผู้จัดจำหน่ายและการตอบสนองโดยสรุป](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [การแบ่งช่วงเวลาของคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [การเพิ่มประสิทธิภาพในการพิมพ์ป้ายชื่อเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [รหัสขั้นตอนของเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
-
-<!-- - [Self-billing invoice control for procurement](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-procurement)
-- [Self-billing invoice control for sales](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-sales) -->
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

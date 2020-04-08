@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe1a1d4db696ac013afee05b697b301383232134
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186957"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142765"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>การป้อนสินทรัพย์ถาวรที่ได้มาเพิ่มลงในสินทรัพย์ถาวร
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนการนี้จะแสดงวิธีการเพิ่มรายการเพิ่มเติมไปยังทรัพย์สินถาวรที่มีอยู่  วัตถุประสงค์ของส่วนเพิ่มเติมของสินทรัพย์ถาวรเพื่อติดตามการเพิ่มรายการ การบำรุงรักษา หรือการปรับปรุงสำหรับสินทรัพย์ และให้ข้อมูลเท่านั้น  การเปลี่ยนแปลใดๆ กับมูลค่าสินทรัพย์ถาวรหรืออายุการใช้งานจะต้องทำแยกต่างหาก    
 

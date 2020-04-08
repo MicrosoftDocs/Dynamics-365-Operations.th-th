@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4671e1df3bc86361736b5882d67e6b160b4c5644
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175058"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143469"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>ตั้งค่ารูปแบบการบันทึกการชำระเงินสำหรับใบแจ้งหนี้โครงการ
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ธุรกิจมักจะแนบบันทึกการชำระเงินที่ถูกพิมพ์ เพื่อออกใบแจ้งหนี้เพื่อช่วยเหลือลูกค้าและให้ข้อมูลอ้างอิงการชำระเงินสำหรับการชำระเงินและการลงรายการบัญชี บันทึกการชำระเงินสามารถใช้สำหรับใบแจ้งหนี้ของโครงการหรือของการบริการ จดหมายเรียกเก็บเงิน ดอกเบี้ยตั๋วเงิน และรายการบัญชี นอกเหนือจากใบแจ้งหนี้การขายและใบแจ้งหนี้ข้อความอิสระ ในการประมวลผลบันทึกการชำระเงิน อันดับแรกให้ตั้งค่าหมายเลขรหัสประจำตัวเจ้าหนี้และรูปแบบการแนบบันทึกการชำระเงินของคุณ
 

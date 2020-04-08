@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844500"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147698"
 ---
 # <a name="create-sales-price-selection-criteria"></a>สร้างเกณฑ์การเลือกราคาขาย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้แสดงวิธีการสร้างเกณฑ์การเลือกราคาขายสำหรับแบบจำลองราคาขายตามแอททริบิวต์  ขั้นตอนนี้จำเป็นต้องใช้แบบจำลองราคาขายที่มีอยู่อย่างน้อยหนึ่งรายการ ตัวอย่างนี้ใช้แบบจำลองราคาสำหรับแบบจำลองราคาขายของโซลูชันลำโพงในบริษัทข้อมูลสาธิต USMF  โดยทั่วไปผู้จัดการผลิตภัณฑ์จะใช้กระบวนงานนี้
 
@@ -33,7 +33,7 @@ ms.locfileid: "1844500"
 ## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a>เพิ่มเกณฑ์ใหม่สำหรับแบบจำลองราคาขายที่มีอยู่
 1. คลิก ข้อกำหนดแบบจำลองผลิตภัณฑ์ย่อย
 2. คลิก แบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์
-3. ในรายการ เลือกแถวสำหรับแบบจำลองผลิตภัณฑ์โซลูชันลำโพง แต่อย่าคลิกการเชื่อมโยงของชื่อแบบจำลอง
+3. ในรายการ เลือกแถวสำหรับแบบจำลองผลิตภัณฑ์โซลูชันลำโพง แต่อย่าคลิกลิงค์สำหรับชื่อแบบจำลอง
 4. ในบานหน้าต่างการดำเนินการ คลิก แบบจำลอง
 5. คลิก เกณฑ์แบบจำลองราคา
 6. คลิก สร้าง

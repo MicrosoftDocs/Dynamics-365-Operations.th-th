@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 035f6e3b0268f8ee4c9006ca5f0527133cf2771c
-ms.sourcegitcommit: 69f8233e86b32347474a25d83b4ac5920f60407d
+ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2538489"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141119"
 ---
 # <a name="set-up-postdated-checks"></a>ตั้งค่าเช็คลงวันที่ล่วงหน้า
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการระบุว่าจะลงรายการบัญชีรายการสมุดรายวันสำหรับเช็คลงวันที่ล่วงหน้าหรือไม่ และระบุสมุดรายวันการลงรายการบัญชีที่จะใช้สำหรับรายการหักบัญชีและการชำระเงินของผู้จัดจำหน่าย  คุณยังสามารถระบุบัญชีรอการโอนสำหรับเช็คที่ออก เช็คที่ได้รับ และภาษีหัก ณ ที่จ่าย  เช็คลงวันที่ล่วงหน้าซึ่งได้ถูกออกเพื่อชำระเงินและเพื่อรับเงินที่ชำระในอนาคต  คุณสามารถระบุได้ว่าเช็คต้องถูกสะท้อนในสมุดบัญชีก่อนวันครบกำหนดหรือไม่ 
 

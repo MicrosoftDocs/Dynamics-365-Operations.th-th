@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ded10b0972f07f4f86ee32cee596c5e30b15ebd
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d507418965f0ebcd657ef6363ec206eb73a722f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843780"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146962"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>สร้างกฎคัมบังการแทนที่
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้มุ่งเน้นการแทนที่กฎคัมบังที่มีอยู่ด้วยกฎคัมบังที่ใหม่ในวันที่เฉพาะ  สิ่งนี้มีประโยชน์ เมื่อการเปลี่ยนแปลงในขั้นตอนการผลิตและกฎการเติมสินค้าต้องถูกทำให้สอดคล้องกันและต้องถูกจัดกำหนดการ บริษัทข้อมูลสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF กระบวนงานนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสายธารคุณค่า เมื่อพวกเขาเตรียมการผลิตสำหรับขั้นตอนการผลิตที่เปลี่ยนแปลงหรือกฎการเติมสินค้าใหม่ งานนี้แทนที่กฎคัมบัง 000022 ด้วยกฎใหม่ และเพิ่มปริมาณสูงสุดจาก 48 เป็น 100 สำหรับกฎใหม่
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995224"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146433"
 ---
 # <a name="set-up-sales-commission-rules"></a>ตั้งค่ากฎค่าส่งเสริมการขายให้แก่ผู้ขาย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าและการเปิดใช้งานการคำนวณค่าคอมมิชชันการขายและการติดตาม  กระบวนงานแสดงวิธีการสร้างทั้งลูกค้าและกลุ่มค่าคอมมิชชันสินค้า และจากนั้น แสดงวิธีการเชื่อมโยงลูกค้าและผลิตภัณฑ์ไปที่กลุ่มที่สอดคล้องกัน  กลุ่มเหล่านั้นจะใช้ในการตั้งค่าการคำนวณค่าคอมมิชชันเพื่อสร้างลูกค้า สินค้า และชุดข้อมูลของพนักงานขาย ที่ต้องจับคู่โดยใบสั่งขายเพื่อให้สิทธิ์ผู้ขายกับค่าคอมมิชชัน  การสร้างกลุ่มค่าคอมมิชชันลูกค้าและสินค้านั้นไม่จำเป็น เนื่องจากสามารถคำนวณค่าคอมมิชชันสำหรับแต่ละลูกค้าและ/หรือสินค้าได้  คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง
 

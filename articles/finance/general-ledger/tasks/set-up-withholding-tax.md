@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10e7018c79e54841d0729636b08ad475a94d20d5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 135cca434a1689bf22ee468894dcf8746071e7ca
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185968"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144708"
 ---
 # <a name="set-up-withholding-tax"></a>ตั้งค่าภาษีหัก ณ ที่จ่าย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าภาษีหัก ณ ที่จ่าย *ภาษีหัก ณ ที่จ่าย* คือภาษีสำหรับผู้จัดจำหน่ายที่ไม่ได้สร้างธุรกรรมภาษีขาย ภาษีหัก ณ ที่จ่ายที่มีการคำนวณจากการชำระเงินของผู้จัดจำหน่ายถือเป็นหนี้สิน  ดังนั้น เฉพาะบัญชีงบดุลหรือบัญชีหนี้สินเท่านั้นที่เป็นบัญชีที่ใช้ได้สำหรับการลงบัญชีภาษีหัก ณ ที่จ่าย  คู่มืองานนี้แสดงวิธีการตั้งค่าภาษี ณ ที่จ่าย
 

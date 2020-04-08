@@ -3,7 +3,7 @@ title: เปืดใช้งาน ADLS ในสภาพแวดล้อ�
 description: หัวข้อนี้อธิบายวิธีเปิดใช้งานและทดสอบ Azure Data Lake Storage (ADLS) สำหรับสภาพแวดล้อม Dynamics 365 Commerce ซึ่งเป็นข้อกำหนดเบื้องต้นสำหรับการเปิดใช้งานคำแนะนำผลิตภัณฑ์
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127778"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154447"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce
 
@@ -98,8 +98,6 @@ ms.locfileid: "3127778"
 [เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
 
 [เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
-
-[เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ](add-reco-list-to-page.md)
 
 [เพิ่มคำแนะนำผลิตภัณฑ์ใน POS](product.md)
 

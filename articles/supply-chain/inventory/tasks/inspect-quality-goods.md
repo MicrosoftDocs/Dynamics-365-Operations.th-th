@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
-ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
+ms.openlocfilehash: 75fbfbb7b993b528e96d247dafa2bdfe20837987
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1855697"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145628"
 ---
 # <a name="inspect-the-quality-of-goods"></a>ตรวจสอบคุณภาพของสินค้า
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการประมวลผลใบสั่งตรวจสอบคุณภาพ คุณสามารถรันคำแนะนำนี้ในบริษัทข้อมูลสาธิต USMF ก่อนที่คุณเริ่มกระบวนการตัวอย่างนี้ คุณจำเป็นต้องยืนยันใบสั่งซื้อ "000016" และลงรายการบัญชีใบรับสินค้า ซึ่งจะสร้างใบสั่งตรวจสอบคุณภาพโดยอัตโนมัติ ตรวจสอบคุณภาพจะโดยทั่วไปจะดำเนินการโดยเจ้าหน้าที่ตรวจสอบคุณภาพ
+หัวข้อนี้อธิบายวิธีการประมวลผลใบสั่งตรวจสอบคุณภาพ คุณสามารถรันคำแนะนำนี้ในบริษัทข้อมูลสาธิต USMF ก่อนที่คุณเริ่มกระบวนงานตัวอย่างนี้ คุณจำเป็นต้องยืนยันใบสั่งซื้อ "000016" และลงรายการบัญชีใบรับสินค้า ซึ่งจะสร้างใบสั่งตรวจสอบคุณภาพโดยอัตโนมัติ ตรวจสอบคุณภาพจะโดยทั่วไปจะดำเนินการโดยเจ้าหน้าที่ตรวจสอบคุณภาพ
 
 
 ## <a name="select-a-quality-order"></a>เลือกใบสั่งตรวจสอบคุณภาพ

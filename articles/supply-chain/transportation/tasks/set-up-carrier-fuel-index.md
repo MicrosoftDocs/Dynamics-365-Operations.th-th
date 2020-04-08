@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f72de7ad54a2b2dc1bf40fd8cb86d8b055e2d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 73336c6803f28239ff8ca78dcff5ea8db0835e32
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552103"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146284"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>ตั้งค่าดัชนีเชื้อเพลิงของผู้ขนส่ง
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 คำแนะนำนี้แสดงวิธีการสร้างดัชนีเชื้อเพลิงในภูมิภาค, ดัชนีเชื้อเพลิงและดัชนีเชื้อเพลิงของผู้ขนส่ง  ดัชนีเชื้อเพลิงในภูมิภาคระบุว่าภูมิภาคใดควรใช้ดัชนีเชื้อเพลิงแบบใด และดัชนีเชื้อเพลิงระบุราคาในรอบระยะเวลานั้นๆ เพื่อสะท้อนการเปลี่ยนแปลงในราคาของเชื้อเพลิงตลอดช่วงเวลา คุณสามารถเชื่อมโยงหลายๆดัชนีเชื้อเพลิงกับผู้ขนส่ง  งานเหล่านี้โดยทั่วไปถูกทำโดยผู้ประสานงานขนส่ง คุณสามารถใช้ขั้นตอนนี้ในข้อมูลสาธิตของบริษัทUSMF หรือโดยใช้ข้อมูลของคุณเอง
 

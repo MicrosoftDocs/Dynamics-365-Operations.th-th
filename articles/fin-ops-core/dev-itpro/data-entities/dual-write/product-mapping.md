@@ -19,20 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081162"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173211"
 ---
 # <a name="unified-product-experience"></a>ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-เมื่อระบบนิเวศทางธุรกิจถูกสร้างขึ้นจากแอป Dynamics 365 เช่น Finance Supply Chain Management และ Sales บ่อยครั้งที่หน่ายงานธุรกิจจะใช้แอปเหล่านี้เพื่อค้นหาข้อมูลผลิตภัณฑ์ ทั้งนี้เนื่องจากแอปเหล่านี้แสดงโครงสร้างพื้นฐานของผลิตภัณฑ์ที่แข็งแกร่งพร้อมกับแนวคิดการกำหนดราคาที่ซับซ้อนและข้อมูลปริมาณคงคลังคงเหลือที่ถูกต้อง หน่วยงานธุรกิจที่ใช้ระบบการจัดการรอบการขายของผลิตภัณฑ์ (PLM) สำหรับการค้นหาข้อมูลผลิตภัณฑ์ สามารถนำผลิตภัณฑ์จากแอป Finance and Operations ไปยังแอป Dynamics 365 อื่นๆได้ ประสบการณ์ใช้งานผลิตภัณฑ์โดยรวมจะนำแบบจำลองข้อมูลผลิตภัณฑ์รวมเข้าใน Common Data Service เพื่อให้ผู้ใช้แอปทั้งหมด รวมทั้งผู้ใช้ Power Platform สามารถใช้ประโยชน์จากข้อมูลผลิตภัณฑ์จำนวนมากที่มาจากแอป Finance and Operations
+
+เมื่อระบบนิเวศทางธุรกิจถูกสร้างขึ้นจากแอป Dynamics 365 เช่น Finance Supply Chain Management และ Sales บ่อยครั้งที่หน่ายงานธุรกิจจะใช้แอปเหล่านี้เพื่อค้นหาข้อมูลผลิตภัณฑ์ ทั้งนี้เนื่องจากแอปเหล่านี้แสดงโครงสร้างพื้นฐานของผลิตภัณฑ์ที่แข็งแกร่ง พร้อมกับแนวคิดการกำหนดราคาที่ซับซ้อนและข้อมูลปริมาณคงคลังคงเหลือที่ถูกต้อง หน่วยงานธุรกิจที่ใช้ระบบการจัดการรอบการขายของผลิตภัณฑ์ (PLM) สำหรับการค้นหาข้อมูลผลิตภัณฑ์ สามารถนำผลิตภัณฑ์จากแอป Finance and Operations ไปยังแอป Dynamics 365 อื่นๆได้ ประสบการณ์ใช้งานผลิตภัณฑ์โดยรวมจะนำแบบจำลองข้อมูลผลิตภัณฑ์รวมเข้าใน Common Data Service เพื่อให้ผู้ใช้แอปทั้งหมด รวมทั้งผู้ใช้ Power Platform สามารถใช้ประโยชน์จากข้อมูลผลิตภัณฑ์จำนวนมากที่มาจากแอป Finance and Operations
 
 นี่คือแบบจำลองข้อมูลผลิตภัณฑ์จาก Sales
 
@@ -52,7 +52,7 @@ ms.locfileid: "3081162"
 
 ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังเอนทิตี้ถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
 
-Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365 | คำอธิบาย
+แอป Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365 | คำอธิบาย
 -----------------------|--------------------------------|---
 ผลิตภัณฑ์ที่นำออกใช้ V2 | msdyn\_sharedproductdetails | เอนทิตี้ **msdyn\_sharedproductdetails** ประกอบด้วยฟิลด์จากแอป Finance and Operations ที่กำหนดผลิตภัณฑ์และมีข้อมูลทางการเงินและการจัดการของผลิตภัณฑ์ 
 Common Data Service ผลิตภัณฑ์เฉพาะที่นำออกใช้ | ผลิตภัณฑ์ | เอนทิตี้ **ผลิตภัณฑ์** ประกอบด้วยฟิลด์ที่กำหนดผลิตภัณฑ์ โดยรวมถึงผลิตภัณฑ์แต่ละรายการ (ผลิตภัณฑ์ที่มีผลิตภัณฑ์ชนิดย่อย) และผลิตภัณฑ์ย่อย ตารางต่อไปนี้แสดงการแม็ป
@@ -75,8 +75,8 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 การแปลงหน่วย | msdyn_ unitofmeasureconversions
 การแปลงหน่วยวัดเฉพาะของผลิตภัณฑ์ | msdyn_productspecificunitofmeasureconversion
 ประเภทผลิตภัณฑ์ | msdyn_productcategories | แต่ละประเภทผลิตภัณฑ์และข้อมูลเกี่ยวกับโครงสร้างและลักษณะของผลิตภัณฑ์มีอยู่ในเอนทิตี้ประเภทผลิตภัณฑ์ 
-การจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ | msdyn_productcategoryhierarhies | คุณใช้ลำดับชั้นของผลิตภัณฑ์เพื่อจัดประเภทหรือจัดกลุ่มผลิตภัณฑ์ การจัดประเภทตามลำดับชั้นมีอยู่ใน Common Data Service โดยใช้เอนทิตีการจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ 
-บทบาทการจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ | msdyn_productcategoryhierarchies | ลำดับชั้นของผลิตภัณฑ์สามารถใช้สำหรับบทบาทต่างๆ ใน D365 Finance and Operations ระบุประเภทที่ใช้ในแต่ละบทบาทที่มีการใช้เอนทิตี้บทบาทประเภทผลิตภัณฑ์ 
+การจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ | msdyn_productcategoryhierarhies | คุณใช้ลำดับชั้นของผลิตภัณฑ์เพื่อจัดประเภทหรือจัดกลุ่มผลิตภัณฑ์ ลำดับชั้นประเภทพร้อมใช้งานใน Common Data Service โดยใช้เอนทิตี้ลำดับชั้นประเภทของผลิตภัณฑ์ 
+บทบาทการจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ | msdyn_productcategoryhierarchies | ลำดับชั้นของผลิตภัณฑ์สามารถใช้สำหรับบทบาทต่างๆ ใน D365 Finance and Operations จะมีการระบุประเภทที่ใช้ในแต่ละบทบาทที่มีการใช้เอนทิตี้บทบาทประเภทของผลิตภัณฑ์ 
 การกำหนดประเภทผลิตภัณฑ์ | msdyn_productcategoryassignments | เมื่อต้องการกำหนดผลิตภัณฑ์ให้กับประเภทที่สามารถใช้เอนทิตี้การกำหนดประเภทผลิตภัณฑ์
 
 ## <a name="integration-of-products"></a>การรวมของผลิตภัณฑ์
@@ -135,7 +135,7 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>การตั้งค่าใบสั่งเริ่มต้นและการตั้งค่าใบสั่งเริ่มต้นเฉพาะผลิตภัณฑ์
 
-การตั้งค่าใบสั่งเริ่มต้นกำหนดไซต์และคลังสินค้าที่สินค้าจะเป็นต้นทางหรือจัดเก็บ ปริมาณต่ำสุด สูงสุด หลายรายการ และมาตรฐานที่จะใช้สำหรับการค้าหรือการจัดการสินค้าคงคลัง ระยะเวลารอคอยสินค้า แฟล็กหยุด และวิธีการสัญญาว่าจะออกใบสั่ง ข้อมูลนี้อยู่ใน Common Data Service โดยใช้การตั้งค่าใบสั่งเริ่มต้นและเอนทิตี้การตั้งค่าใบสั่งเริ่มต้นเฉพาะผลิตภัณฑ์ คุณสามารถอ่านข้อมูลเพิ่มเติมเกี่ยวกับฟังก์ชันใน [หัวข้้อการตั้งค่าใบสั่งเริ่มต้น](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings)
+การตั้งค่าใบสั่งเริ่มต้นกำหนดไซต์และคลังสินค้าที่สินค้าจะเป็นต้นทางหรือจัดเก็บ ปริมาณต่ำสุด สูงสุด หลายรายการ และมาตรฐานที่จะใช้สำหรับการค้าหรือการจัดการสินค้าคงคลัง ระยะเวลารอคอยสินค้า แฟล็กหยุด และวิธีการสัญญาว่าจะออกใบสั่ง ข้อมูลนี้พร้อมใช้งานใน Common Data Service โดยใช้การตั้งค่าใบสั่งเริ่มต้นและเอนทิตี้การตั้งค่าใบสั่งเริ่มต้นเฉพาะผลิตภัณฑ์ คุณสามารถอ่านข้อมูลเพิ่มเติมเกี่ยวกับฟังก์ชันใน [หัวข้้อการตั้งค่าใบสั่งเริ่มต้น](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings)
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 
@@ -143,7 +143,7 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>หน่วยวัดและการแปลงหน่วยวัด
 
-หน่วยวัดและการแปลงที่เกี่ยวข้องพร้อมใช้งานใน Common Data Service ตามแบบจำลองข้อมูลต่อไปนี้ที่แสดงในแผนภาพ
+หน่วยวัดและการแปลงที่เกี่ยวข้องพร้อมใช้งานใน Common Data Service ตามแบบจำลองข้อมูลที่แสดงในแผนภาพ
 
 ![แบบจำลองข้อมูลสำหรับผลิตภัณฑ์](media/dual-write-product-three.png)
 
@@ -153,26 +153,26 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>การซิงโครไนส์ครั้งแรกของการตรงกันของข้อมูลหน่วยระหว่าง Finance and Operations และ Common Data Service
 
 ### <a name="initial-synchronization-of-units"></a>การซิงโครไนส์เริ่มแรกของหน่วย
 
-เมื่อการเขียนแบบคู่ถูกเปิดใช้งาน หน่วยจากแอป Finance and Operations จะถูกซิงโครไนส์กับแอป Dynamics 365 อื่นๆ กลุ่มหน่วยของการซิงโครไนส์จากแอป Finance and Operations ใน Common Data Service ที่มีการตั้งค่าแฟล็กที่บ่งชี้ว่ามี "การรักษาไว้สำหรับภายนอก"
+เมื่อการเขียนแบบคู่ถูกเปิดใช้งาน หน่วยจากแอป Finance and Operations จะถูกซิงโครไนส์กับแอป Dynamics 365 อื่นๆ กลุ่มของหน่วยที่ถูกซิงโครไนส์จากแอป Finance and Operations ใน Common Data Service มีการตั้งค่าแฟล็กที่บ่งชี้ว่ามีการ "เก็บรักษาไว้ภายนอก"
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>หน่วยที่ตรงกันและประเภทของหน่วย/ข้อมูลกลุ่มจากการแอป Finance and Operations และแอป Dynamics 365 อื่นๆ
 
-ก่อนอื่น คุณจำเป็นต้องทราบว่าคีย์การรวมสำหรับหน่วยคือ msdyn_symbol ดังนั้น ค่านี้ต้องไม่ซ้ำกันใน Common Data Service หรือแอป Dynamics 365 อื่นๆ เนื่องจากในแอป Dynamics 365 อื่นๆ ก็คือคู่ "หน่วยรหัสกลุ่ม" และ "ชื่อ" ซึ่งกำหนดเอกลักษณ์ของหน่วย คุณต้องพิจารณาสถานการณ์ต่างๆ สำหรับข้อมูลหน่วยที่ตรงกันระหว่างแอป Finance and Operations และ Common Data Service
+ก่อนอื่น คุณจำเป็นต้องทราบว่าคีย์การรวมสำหรับหน่วยคือ msdyn_symbol ดังนั้น ค่านี้ต้องไม่ซ้ำกันใน Common Data Service หรือแอป Dynamics 365 อื่นๆ เนื่องจากในแอป Dynamics 365 อื่นๆ จะเป็นคู่ "รหัสกลุ่มของหน่วย" และ "ชื่อ" ซึ่งกำหนดเอกลักษณ์ของหน่วย คุณต้องพิจารณาสถานการณ์ต่างๆ สำหรับการจับคู่ข้อมูลหน่วยระหว่างแอป Finance and Operations และ Common Data Service
 
 สำหรับการจับคู่หน่วย/ที่ทับซ้อนกันในแอป Finance and Operations และแอป Dynamics 365 อื่นๆ:
 
-+ **หน่วยเป็นสมาชิกของกลุ่มหน่วยในแอป Dynamics 365 อื่นๆ ซึ่งตรงกับประเภทของหน่วยที่เชื่อมโยงในแอป Finance and Operations** ในกรณีนี้จะต้องกรอกข้อมูลในฟิลด์ msdyn_symbol ของแอป Dynamics 365 อื่นๆ ด้วยสัญลักษณ์หน่วยจากแอป Finance and Operations ดังนั้น เมื่อข้อมูลจะถูกจับคู่ และกลุ่มหน่วยจะถูกตั้งค่าเป็น "การจัดเก็บภายนอก" ในแอป Dynamics 365 อื่นๆ
++ **หน่วยเป็นสมาชิกของกลุ่มหน่วยในแอป Dynamics 365 อื่นๆ ซึ่งตรงกับประเภทของหน่วยที่เชื่อมโยงในแอป Finance and Operations** ในกรณีนี้จะต้องกรอกข้อมูลในฟิลด์ msdyn_symbol ของแอป Dynamics 365 อื่นๆ ด้วยสัญลักษณ์หน่วยจากแอป Finance and Operations ดังนั้น เมื่อข้อมูลจะถูกจับคู่ และกลุ่มหน่วยจะถูกตั้งค่าเป็น "เก็บรักษาไว้ภายนอก" ในแอป Dynamics 365 อื่นๆ
 + **หน่วยเป็นสมาชิกของกลุ่มหน่วยในแอป Dynamics 365 อื่นๆ ซึ่งไม่สอดคล้องกับประเภทของหน่วยที่เชื่อมโยงในแอป Finance and Operations (ไม่มีประเภทของหน่วยที่มีอยู่ในแอป Finance and Operations สำหรับประเภทของหน่วยในแอป Dynamics 365 อื่นๆ)** ในกรณีนี้ ต้องกรอกข้อมูล msdyn_symbol โดยใช้สตริงการสุ่ม โปรดทราบว่า ค่านี้ต้องไม่ซ้ำกันในแอป Dynamics 365 อื่นๆ
 
 สำหรับหน่วยและประเภทของหน่วยในแอป Finance and Operations ไม่มีอยู่ในแอป Dynamics 365 อื่นๆ:
 
-โดยเป็นส่วนหนึ่งของการจัดกลุ่มหน่วยนับจากแอป Finance and Operations และหน่วยที่เกี่ยวข้องจะถูกสร้างขึ้นและมีการซิงโครไนส์ในแอป Dynamics 365 อื่น และ Common Data Service และกลุ่มหน่วยจะถูกตั้งค่าเป็น "รักษาไว้สำหรับภายนอก" โดยที่ไม่จำเป็นต้องมีการระดมทุนเพิ่มเติม
+ในฐานะที่เป็นส่วนหนึ่งของการรวมแบบสองทิศทาง กลุ่มหน่วยจากแอป Finance and Operations และหน่วยที่เกี่ยวข้องจะถูกสร้างขึ้นและมีการซิงโครไนส์ในแอป Dynamics 365 อื่นๆ และ Common Data Service และกลุ่มหน่วยจะถูกตั้งค่าเป็น "เก็บรักษาไว้ภายนอก" โดยที่ไม่จำเป็นต้องมีการระดมทุนเพิ่มเติม
 
 สำหรับหน่วยในแอป Dynamics 365 อื่นๆ ที่ไม่อยู่ในแอป Finance and Operations:
 
@@ -203,7 +203,7 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 เมื่อต้องการระบุผลิตภัณฑ์ ระหว่าง Dynamics 365 for Finance and Operations และผลิตภัณฑ์ใน Common Data Service คีย์การรวมโดยเฉพาะ สำหรับผลิตภัณฑ์ **(productnumber)** เป็นคีย์เฉพาะที่ระบุผลิตภัณฑ์ใน Common Data Service ซึ่งประกอบด้วยการเรียงต่อกันของ: **(company, msdyn_productnumber)** **บริษัท** บ่งชี้ถึงนิติบุคคลใน Finance and Operations และ **msdyn_productnumber** บ่งชี้หมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ที่ระบุใน Finance and Operations 
 
-สำหรับผู้แอป Dynamics 365 อื่นๆ ผลิตภัณฑ์จะมีการระบุใน UI กับ **msdyn_productnumber** (หมายเหตุว่าป้ายชื่อของฟิลด์ คือ **หมายเลขผลิตภัณฑ์**) ในฟอร์มผลิตภัณฑ์ ทั้งบริษัทและ msydn_productnumber จะแสดงขึ้น อย่างไรก็ตาม ฟิลด์ (productnumber) คีย์เฉพาะสำหรับผลิตภัณฑ์จะไม่แสดงขึ้น 
+สำหรับผู้ใช้ของแอป Dynamics 365 อื่นๆ ผลิตภัณฑ์จะถูกระบุใน UI ด้วย **msdyn_productnumber** (หมายเหตุว่า ป้ายชื่อของฟิลด์คือ **หมายเลขผลิตภัณฑ์**) ในฟอร์มผลิตภัณฑ์ ทั้งบริษัทและ msydn_productnumber จะแสดงขึ้น อย่างไรก็ตาม ฟิลด์ (productnumber) คีย์เฉพาะสำหรับผลิตภัณฑ์จะไม่แสดงขึ้น 
 
 ถ้าคุณสร้างแอปบน Common Data Service คุณควรให้ความสำคัญกับการใช้ **productnumber** (รหัสเฉพาะของผลิตภัณฑ์) เป็นคีย์การรวม อย่าใช้ **msdyn_productnumber** เนื่องจากไม่มีเอกลักษณ์เฉพาะ 
 

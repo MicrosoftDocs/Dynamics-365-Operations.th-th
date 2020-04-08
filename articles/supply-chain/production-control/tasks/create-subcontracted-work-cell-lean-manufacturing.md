@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58b725af456f1a5c7f158f01ffe48a2d8cdf056b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 03fcc62236b14a8721a4cb611978e8672ae77ea3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550548"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146939"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>สร้างเซลล์ทำงานที่รับเหมารายย่อยสำหรับ lean manufacturing
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 เมื่อต้องการสร้างแบบจำลองงานที่รับเหมารายย่อยสำหรับ Lean Manufacturing คุณต้องสร้างเซลล์ทำงานที่เกี่ยวข้องกับผู้จัดจำหน่ายที่มีการทำงาน เซลล์ทำงานที่รับเหมารายย่อยจะเชื่อมโยงกับผู้จัดจำหน่ายโดยใช้การเชื่อมโยงของทรัพยากรของชนิดผู้จัดจำหน่าย ถ้าคุณเล่นการบันทึกนี้ในบริษัทสาธิต USMF คุณสามารถเลือกรหัสบัญชีผู้จัดจำหน่าย 1002 และไซต์ 1
 

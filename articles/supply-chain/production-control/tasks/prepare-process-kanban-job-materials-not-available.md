@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bba9e5cb7dfddd2a80a37e7a57fdf94a91341e8f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f779db14a866cc9a401d15e0666883ba3a828548
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843636"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146709"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบไม่พร้อมใช้งานสำหรับเซลล์ทำงาน
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนนี้มุ่งเน้นการจัดเตรียมกระบวนการงานคัมบังเมื่อวัสดุและส่วนประกอบบางรายการไม่พร้อมใช้งานสำหรับเซลล์ทำงาน ดังนั้นจึงจำเป็นต้องเบิกวัสดุจากคลังสินค้า  ขั้นตอน "การจัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบมีพร้อมใช้งาน" เป็นข้อกำหนดเบื้องต้นสำหรับการสร้างขั้นตอนนี้  กระบวนงานนี้มีไว้สำหรับพนักงานควบคุมเครื่องจักร ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

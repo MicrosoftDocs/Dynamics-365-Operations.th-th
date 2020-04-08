@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e9db489383d9c6ef05bc25d190d380b3150d311
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: f313aafb79faaf1344b7e70759405b3bab2d7e45
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1995015"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148733"
 ---
 # <a name="create-and-edit-sales-quotations"></a>สร้างและแก้ไขใบเสนอราคาขาย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้อธิบายวิธีการสร้างและปรับปรุงใบเสนอราคาขาย  คุณสามารถทำตามขั้นตอนเหล่านี้กับข้อมูลของคุณ หรือกับบริษัทข้อมูลสาธิต USMF
 
@@ -52,7 +52,7 @@ ms.locfileid: "1995015"
 17. ใน **บานหน้าต่างการดำเนินการ** ให้คลิก **ใบเสนอราคา**
 18. คลิก **ส่งใบเสนอราคา**
 19. เลือก 'ใช่' ในช่อง **พิมพ์ใบเสนอราคา**
-20. คลิก **ตกลง** รายงานอาจใช้เวลาสักครู่เพื่อที่สร้าง  อย่าปิดหน้าจนกว่าจะเสร็จสิ้นการสร้าง
+20. คลิก **ตกลง** รายงานอาจใช้เวลาสักครู่เพื่อที่สร้าง  อย่าปิดหน้าจนกว่าจะเสร็จสิ้น
 
 ## <a name="update-a-sales-quotation"></a>อัพเดตใบเสนอราคาขาย
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > การขายและการตลาด > ใบสั่งขาย– > ใบสั่งขายทั้งหมด**

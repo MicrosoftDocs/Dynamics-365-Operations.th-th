@@ -3,7 +3,7 @@ title: มีอะไรใหม่หรือเปลี่ยนไปอ�
 description: แต่ละสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources บทความที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในแต่ละสัปดาห์
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4058618ec95fabc90fdc784552c1920a109e6418
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 7ba311a3ab6ac482821e485186d81a5bcb91ab38
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123981"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154470"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b578a664e9e3b6496e5665b2eefd9d75f86ecc3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6ca5a2e2180235e51ef569fd93ad06867c3dddae
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837841"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149331"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>สร้างกฏคัมบังโดยใช้อีเว้นท์ของสินค้าคงคลังต่ำสุด
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้มุ่งเน้นการตั้งค่าที่จำเป็นสำหรับการสร้างกฎคัมบังโดยใช้เหตุการณ์ของสินค้าคงคลังต่ำสุดเพื่อให้แน่ใจว่าผลิตภัณฑ์เฉพาะจะพร้อมใช้งานเสมอที่สถานที่เฉพาะ  มีการสร้างกฎคัมบังเพื่อโอนย้ายวัสดุไปยังสถานที่เมื่อระดับสินค้าคงคลังลดลงต่ำกว่า 200 ชิ้น  โดยการรันการประมวลผลเหตุการณ์การเชื่อมโยงความต้องการกับการจัดซื้อ จะมีการสร้างคัมบังที่จำเป็นขึ้น  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF งานนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสายธารคุณค่า เนื่องจากเป็นผู้จัดเตรียมการผลิตผลิตภัณฑ์ใหม่หรือผลิตภัณฑ์ปรับเปลี่ยนในสภาพแวดล้อมแบบลีน
 

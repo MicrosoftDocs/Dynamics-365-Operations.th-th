@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ba200337d04c0200ad409d0cb2c5ce538318868e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003961"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147940"
 ---
 # <a name="configure-linked-products"></a>ตั้งค่าคอนฟิคผลิตภัณฑ์ที่เชื่อมโยง
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกผลิตภัณฑ์ที่เชื่อมโยงกัน  ขั้นตอนนี้ใช้ข้อมูลสาธิต USRT และถือว่าผลิตภัณฑ์ทั้งสองได้ถูกสร้างขึ้นและนำออกใช้แล้ว
 

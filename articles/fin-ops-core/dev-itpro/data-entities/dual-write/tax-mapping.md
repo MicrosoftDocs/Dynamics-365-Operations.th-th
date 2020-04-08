@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0d32a5f7859f0200da823a73d94b9a6b2a9c8e7d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020036"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173096"
 ---
 # <a name="integrated-tax"></a>ภาษีที่รวม
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ข้อมูลการตั้งค่าภาษีกำหนดการตั้งค่าสำหรับทั้งภาษีทางอ้อม (VAT, GST, ภาษีขาย) และภาษีหัก ณ ที่จ่าย อธิบายกฎการคำนวณภาษี อัตราภาษี บัญชีภาษี การชำระเงิน และแนวคิดอื่นๆ
 
@@ -38,16 +38,16 @@ ms.locfileid: "3020036"
 
 ข้อมูลภาษีรวมชุดของแผนผังเอนทิตีทำงาน ที่ร่วมกันในระหว่างการโต้ตอบข้อมูลลูกค้า ดังที่แสดงในตารางต่อไปนี้
 
-Finance and Operations   | แอปพลิเคชันอื่น ๆ ของ Dynamics 365
+| แอป Finance and Operations | แอปที่เป็นแบบโมเดลใน Dynamics 365 | คำอธิบาย |
 -------------------------|---------------------------------
-รหัสภาษี                  | msdyn\_taxcodes.md
-กลุ่มภาษี               | msdyn\_taxgroups.md
-กลุ่มภาษีสินค้า          | msdyn\_taxitemgroups.md
-ยกเว้นภาษี           | msdyn\_taxexemptcodes.md
-หน่วยงานจัดเก็บภาษี          | msdyn\_taxauthorities.md
-รหัสภาษีหัก ณ ที่จ่าย      | msdyn\_withholdingtaxcodes.md
-กลุ่มภาษีหัก ณ ที่จ่าย   | msdyn\_withholdingtaxgroups.md
-กลุ่มบัญชีแยกประเภทของภาษี | msdyn\_taxpostinggroups  
+รหัสภาษี                   | msdyn\_taxcodes.md | 
+กลุ่มภาษี                 | msdyn\_taxgroups.md | 
+กลุ่มภาษีสินค้า             | msdyn\_taxitemgroups.md | 
+ยกเว้นภาษี             | msdyn\_taxexemptcodes.md | 
+หน่วยงานจัดเก็บภาษี             | msdyn\_taxauthorities.md | 
+รหัสภาษีหัก ณ ที่จ่าย       | msdyn\_withholdingtaxcodes.md | 
+กลุ่มภาษีหัก ณ ที่จ่าย     | msdyn\_withholdingtaxgroups.md | 
+กลุ่มบัญชีแยกประเภทของภาษี | msdyn\_taxpostinggroups     | 
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 

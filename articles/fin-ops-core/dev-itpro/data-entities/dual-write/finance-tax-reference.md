@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 28f47f8cebca6c7249e0596c53f3589dc6541e26
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 50f906d62ad6f1e0b79c9c1bb6fcd373ba350c98
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112526"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172609"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>การเข้าถึงข้อมูลอ้างอิงทางการเงินและภาษี
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 ธุรกิจทุกแห่งจะทำงานร่วมกับชุดข้อมูลทางการเงินพื้นฐาน เช่น ปีปฏิทินทางการเงิน สกุลเงินที่ธุรกิจมีการทำธุรกรรม บัญชีที่เงินที่จะรันธุรกิจเข้ามาหรือออกไป อัตราภาษี และการชำระเงินผ่านธนาคาร ข้อมูลนี้มีอยู่ในแอป Finance and Operations อย่างไรก็ตาม มีการแสดงต่อ Common Data Service เพื่อให้แอปที่เป็นแบบโมเดลใน Microsoft Dynamics 365 สามารถมีแหล่งข้อมูลเดียวสำหรับการเงินและภาษี ด้วยวิธีนี้ ข้อมูลนี้มีความสม่ำเสมอระหว่างระบบนิเวศของธุรกิจ 
 

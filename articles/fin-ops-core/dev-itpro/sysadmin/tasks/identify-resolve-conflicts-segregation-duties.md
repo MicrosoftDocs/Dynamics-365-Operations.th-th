@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c89d27eb8b587e8936258aae3ec1fee4574ccfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70fe3bb707f2f204cda92ec979fe9fe1a3b96bac
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180932"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143615"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>ระบุและแก้ไขความขัดแย้งในการแบ่งแยกหน้าที่
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการระบุและแก้ไขความขัดแย้งในการแบ่งแยกหน้าที่ คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ  แนวคิดนี้มีชื่อว่าการแบ่งแยกหน้าที่  เมื่อมีการกำหนดของบทบาทความปลอดภัยหรือการกำหนดบทบาทของผู้ใช้ที่ละเมิดกฎ ความขัดแย้งจะถูกบันทึกไว้  ต้องมีแก้ไขความขัดแย้งทั้งหมดโดยผู้ดูแลระบบ  ปฏิบัติตามขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์เพื่อระบุ และแก้ไขข้อขัดแย้ง  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

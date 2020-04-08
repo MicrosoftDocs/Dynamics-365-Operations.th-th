@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3023d6a6fe09c84b47839a2c4b78c37907754ded
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 2181a84aea08aac0ddb202f7211dbda6330a3d49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914895"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148848"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>กำหนดเวลาใบสั่งผลิตที่มีการจัดตารางการผลิตระดับการดำเนินงานและระดับงาน
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้มุ่งเน้นการจัดกำหนดการใบสั่งผลิตด้วยการจัดกำหนดการดำเนินงานและการจัดกำหนดการงาน จะไม่มีการสร้างงานด้วยการจัดตารางการผลิตระดับการดำเนินงาน แต่งานจะถูกสร้างขึ้นด้วยการจัดตารางการผลิตระดับงาน บริษัทข้อมูลสาธิตที่ใช้ในการสร้างงานนี้คือ USMF กระบวนงานนี้มีไว้สำหรับผู้จัดการฝ่ายผลิต ผู้วางแผนการผลิต หรือหัวหน้างานฝ่ายผลิตที่ทำงานในสภาพแวดล้อมการผลิตที่ไม่ต่อเนื่อง
 

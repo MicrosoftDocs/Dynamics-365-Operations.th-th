@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087357"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166509"
 ---
 # <a name="common-data-service-entities"></a>เอนทิตี้ Common Data Service
 
@@ -86,15 +86,20 @@ Microsoft Dynamics 365 Human Resources ใช้ Common Data Service เพื�
 | ฟังก์ชันงาน | cdm_jobfunction |
 | ตำแหน่งงาน | cdm_jobposition |
 | ชนิดตำแหน่ง | cdm_positiontype |
-| การกำหนดผู้ปฏิบัติงานของตำแหน่ง | cdm_positionworkerassignmentmap |
+| การกำหนดตำแหน่งของผู้ปฏิบัติงาน | cdm_positionworkerassignmentmap |
+| มิติตำแหน่งงาน | cdm_jobpositiondimension|
 | ชนิดงาน | cdm_jobtype |
 | ภาษา | cdm_language |
+| ชื่อตำแหน่ง | cdm_title |
+
+> [!NOTE]
+> มิติทางการเงินสำหรับ **ชนิดของตำแหน่ง** **การกำหนดผู้ปฏิบัติงานของตำแหน่ง** และ **การจ้างงาน** ให้การรวมทิศทางเดียวแก่ Common Data Service ในขณะนี้ การปรับปรุงมิติทางการเงินไม่สามารถซิงโครไนส์จาก Common Data Service กับทรัพยากรบุคคลได้ 
 
 ## <a name="leave-and-absence-entities"></a>เอนทิตี้การลางานและการขาดงาน
 
 | ชื่อ | เอนทิตี้ |
 | --- | --- |
-| ธุรกรรมการออกจากธนาคาร | cdm_leavebanktransaction |
+| ธุรกรรมธนาคารวันลา | cdm_leavebanktransaction |
 | การลงทะเบียนการลางาน | cdm_leaveenrollment |
 | แผนการลาหยุด | cdm_leaveplan |
 | การขอลา | cdm_leaverequest |

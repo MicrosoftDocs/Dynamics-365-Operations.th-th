@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d3987fcd696994251afbc1ff50b1121a2c0577df
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b5832c10e038b7853e9cdf37400a703a1a5e0341
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836114"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146295"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>กำหนดการนัดหมายสำหรับสินค้า
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้แสดงวิธีการตั้งค่าและวางแผนการนัดหมายที่ท่าสินค้าสำหรับจำนวนงานในศูนย์การผลิต  ซึ่งปกติจะดำเนินการโดยผู้ประสานงานการขนส่ง  คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF 
 

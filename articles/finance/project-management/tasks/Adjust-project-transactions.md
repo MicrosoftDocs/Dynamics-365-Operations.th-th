@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3412b4f9b2d25072628eb50f5c763f5a7bce793
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 23b85dc016fe103fbfcc41b344cbc897a5c68365
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551183"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144313"
 ---
 # <a name="adjust-project-transactions"></a>ปรับปรุงธุรกรรมโครงการ
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 คู่มืองานนี้แสดงวิธีการปรับปรุงธุรกรรมในโครงการ อย่างไรก็ตาม คุณสามารถปรับปรุงธุรกรรมโครงการได้ครั้งละหนึ่งรายการ หรือเลือกจากรายการของธุรกรรมโครงการทั้งหมดได้ โดยปกติแล้วงานนี้เสร็จสมบูรณ์ โดยหัวหน้างานโครงการ คู่มืองานนี้ใช้ชุดข้อมูล USSI
 

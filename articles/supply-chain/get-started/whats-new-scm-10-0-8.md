@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097536"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164546"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.8 (กุมภาพันธ์ 2020)
 
@@ -32,13 +32,14 @@ ms.locfileid: "3097536"
 
 - **แสดงตัวอย่างการนำออกใช้:** ธันวาคม 2019
 - **ความพร้อมใช้งานทั่วไป (การอัพเดตด้วยตนเอง):** มกราคม 2020
-- **อัพเดตอัตโนมัติ:** กุมภาพันธ์ 2020 
+- **อัพเดตอัตโนมัติ:** กุมภาพันธ์ 2020
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น นอกจากนี้ คุณลักษณะเหล่านี้บางอย่างยังอาจถูกรวมไว้ในการนำออกใช้ส่วนเพิ่มก่อนหน้านี้ แต่ยังไม่ได้ประกาศในหัวข้อ *มีอะไรใหม่* ก่อนหน้านี้ ดังนั้นเราจึงเพิ่มไว้ที่นี่ คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 - [โซนเวลาของสถานที่เพิ่มเติม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [การจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมการจัดการสินทรัพย์](../asset-management/index.md).
 - [ยกเลิกงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยกเลิกงานของคลังสินค้าสำหรับการจัดการข้อยกเว้น](../warehousing/cancel-warehouse-work.md)
 - [เปลี่ยนกลุ่มงานในงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [ตำแหน่งคลัสเตอร์เต็ม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

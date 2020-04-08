@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836171"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146522"
 ---
 # <a name="validate-a-production-flow-and-version"></a>ตรวจสอบความถูกต้องของขั้นตอนการผลิตและรุ่น
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการสร้างขั้นตอนการผลิตใหม่และเวอร์ชันแรกสำหรับการผลิตแบบ lean  ข้อกำหนดเบื้องต้น: ต้องกำหนดพารามิเตอร์การผลิตสำหรับการผลิตแบบ Lean และหน่วยวัดสำหรับเวลาคลาส คุณต้องกำหนดสตรีมค่าและกลุ่มการผลิต  อ้างอิงถึงเอกสารใน Lean Manufacturing เพื่อทำความคุ้นเคยตัวคุณเองกับแนวคิดของขั้นตอนการผลิตและกิจกรรม ขั้นตอนนี้แสดงถึงนิติบุคคล USMF ในข้อมูลสาธิต  อย่างไรก็ตาม สมมติว่ามีการกำหนดค่านิติบุคคลสำหรับการผลิตแบบ Lean นิติบุคคลอื่น ๆ สามารถใช้
 
